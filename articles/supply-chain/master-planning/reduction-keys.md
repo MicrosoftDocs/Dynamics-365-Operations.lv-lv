@@ -3,7 +3,7 @@ title: Prognozes samazināšanas principi
 description: Šajā tēmā ir sniegti piemēri, kas izskaidro, kā iestatīt samazināšanas principu. Šeit iekļauta informācija par dažādiem samazināšanas principa iestatījumiem un to visu rezultātiem. Samazināšanas principu var izmantot, lai noteiktu, kā samazināt budžeta vajadzības.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225109"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262700"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozes samazināšanas principi
 
@@ -222,7 +222,7 @@ Prognozes samazināšanas principam ir jāpiešķir krājumu seguma grupa. Lai p
 
 ## <a name="reduce-a-forecast-by-transactions"></a>Prognozes samazināšana pēc transakcijām
 
-Ja kā prognozes samazināšanas metode tiek atlasīta opcija **Transakcijas — samazināšanas princips** vai **Transakcijas — dinamiskais periods**, var norādīt, kuras transakcijas samazina prognozi. Lapas **Izlaistie produkti** kopsavilkuma cilnes **Cits** laukā **Samazināt prognozi pēc** atlasiet **Visas transakcijas**, ja visām transakcijām ir jāsamazina prognozi, vai **Pasūtījumi**, ja prognozi jāsamazina tikai pārdošanas pasūtījumiem.
+Ja kā prognozes samazināšanas metode tiek atlasīta opcija **Transakcijas — samazināšanas princips** vai **Transakcijas — dinamiskais periods**, var norādīt, kuras transakcijas samazina prognozi. Lapas **Pārklājuma grupas** kopsavilkuma cilnes **Cits** laukā **Samazināt prognozi pēc** atlasiet **Visas transakcijas**, ja visām transakcijām ir jāsamazina prognozi, vai **Pasūtījumi**, ja prognozi jāsamazina tikai pārdošanas pasūtījumiem.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

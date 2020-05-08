@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172695"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275654"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -70,14 +70,12 @@ Lai aktivizētu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 1. Piesakieties Finance and Operations programmā, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Pielāgošana**atlasiet **Spraudņa trasēšanas žurnāls**.
-2. Atrodiet trasēšanas žurnālus, kur lauks **Veida nosaukums** ir iestatīts uz **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Atrodiet trasēšanas žurnālus, kur lauks **Veida nosaukums** ir iestatīts uz **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Veiciet dubultklikšķi uz elementa, lai apskatītu pilno žurnālu, un pēc tam kopsavilkuma cilnē **Izpilde** pārskatiet **Ziņojuma bloka** tekstu.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Atkļūdošanas režīma iespējošana, lai novērstu tiešsaistes sinhronizācijas problēmas Finance and Operations programmās
 
-**Kļūdu skatīšanai nepieciešamā loma:** Sistēmas administrators
-
-Common Data Service radušās duālā ieraksta kļūdas var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
+**Nepieciešamās lomas, lai apskatītu kļūdas:** sistēmas administratora duālās rakstīšanas kļūdas, kas radušās programmā Common Data Service, var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
 
 1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
 
@@ -104,7 +102,7 @@ Common Data Service radušās duālā ieraksta kļūdas var parādīties Finance
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Common Data Service vidi no Finance and Operations programmas
 
-**Vides atsaistīšanai nepieciešamie akreditācijas dati:** Azure AD nomnieka administrators
+**Nepieciešamā loma, lai atsaistītu vidi:** sistēmas administrators vai nu Finance and Operations programmai, vai Common Data Service.
 
 1. Piesakieties Finance and Operations programmā.
 2. Dodieties uz **Darbvietas \>Datu pārvaldība**un atlasiet elementu **Duālais ieraksts**.
@@ -113,3 +111,13 @@ Common Data Service radušās duālā ieraksta kļūdas var parādīties Finance
 5. Atlasiet **Jā**, lai apstiprinātu darbību.
 
 Tagad varat saistīt jaunu vidi.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Nevar skatīt pārdošanas pasūtījuma rindas informācijas veidlapu 
+
+Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces**, jūs varat tikt novirzīts uz Dynamics 365 projekta operāciju pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
+
+Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šādi:
+1. Pārejiet uz **Pasūtījuma rindas** elementu.
+2. Atrodiet **Informācijas** veidlapu zem veidlapas zara. 
+3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**. 
+4. Mainiet drošības iestatījumu uz **Parādīt visiem**.

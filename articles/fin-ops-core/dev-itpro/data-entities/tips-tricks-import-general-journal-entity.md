@@ -1,9 +1,9 @@
 ---
 title: Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu
 description: Šajā tēmā ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
-author: ShylaThompson
+author: rcarlson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769614"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281490"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu
 
@@ -30,9 +30,9 @@ ms.locfileid: "2769614"
 
 Šajā tēmā ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
 
-Elementu Virsgrāmatas žurnāls varat izmantot, lai importētu dokumentus, kuru konta vai korespondējošā konta tips ir **Virsgrāmata, Debitors, Kreditors vai Banka**. Dokumentu var ievadīt kā vienu rindu, izmantojot gan lauku **Konts**, gan lauku **Korespondējošais konts**, vai kā vairāku rindu dokumentu, kurā tiek izmantots tikai lauks **Konts** (un lauks **Korespondējošais konts** katrā rindā tiek atstāts tukšs). Elements Virsgrāmatas žurnāls neatbalsta visus kontu tipus. Tā vietā pastāv citi elementi tādiem scenārijiem, kur ir nepieciešamas citādas kontu tipu kombinācijas. Piemēram, lai importētu projekta darījumu izmantojiet elementu Projekta izdevumu žurnāls. Katrs elements ir izstrādāts, lai atbalstītu noteiktus scenārijus, tādējādi attiecīgajiem scenārijiem paredzētos elementos var būt pieejami tādi papildu lauki, kas nav pieejami citiem scenārijiem paredzētos elementos.
+Elementu Virsgrāmatas žurnāls varat izmantot, lai importētu dokumentus, kuru konta vai korespondējošā konta tips ir **Virsgrāmata**, **Debitors**, **Kreditors** vai **Banka**. Dokumentu var ievadīt kā vienu rindu, izmantojot gan lauku **Konts**, gan lauku **Korespondējošais konts**, vai kā vairāku rindu dokumentu, kurā tiek izmantots tikai lauks **Konts** (un lauks **Korespondējošais konts** katrā rindā tiek atstāts tukšs). Elements Virsgrāmatas žurnāls neatbalsta visus kontu tipus. Tā vietā pastāv citi elementi tādiem scenārijiem, kur ir nepieciešamas citādas kontu tipu kombinācijas. Piemēram, lai importētu projekta darījumu izmantojiet elementu Projekta izdevumu žurnāls. Katrs elements ir paredzēts specifisku scenāriju atbalstam. Tas nozīmē, ka šajos scenārijos var būt pieejami papildu lauki. Tomēr papildu lauki elementos var nebūt pieejami dažādiem scenārijiem.
 
-## <a name="setup"></a>Iestatīšana
+## <a name="setup"></a>Iestatīt
 Pirms veicat importēšanu, izmantojot elementu Virsgrāmatas žurnāls, pārliecinieties par tālāk aprakstītajiem iestatījumiem.
 
 - **Numuru sērijas iestatījumi žurnāla pakešuzdevuma numuram** —pēc noklusējuma, kad importējat, izmantojot entītiju Virsgrāmatas žurnāls, šis žurnāla pakešuzdevuma numurs izmanto virsgrāmatas parametriem definēto numuru sēriju. Ja numuru sēriju žurnāla pakešuzdevuma numuram iestatāt uz **Manuāli**, noklusējuma numurs netiek lietots. Šis iestatījums netiek atbalstīts.
@@ -44,7 +44,7 @@ Divi iestatījumi sadaļā Datu pārvaldība ietekmē, kā tiek lietots noklusē
 - **No kopas atkarīga apstrāde** (datu elementā)
 - **Automātiski ģenerēts** (lauka kartējumā)
 
-Nākamajās sadaļās ir aprakstīta šo iestatījumu ietekme, kā arī paskaidrots, kā tiek ģenerēti žurnālu pakešuzdevumu numuri un dokumentu numuri.
+Tālāk norādītajās sadaļās ir aprakstīta šo iestatījumu ietekme. Tie arī izskaidro, kā sistēma ģenerē partijas numurus žurnāliem un dokumentu numuriem.
 
 ### <a name="journal-batch-number"></a>Žurnāla iedaļas numurs
 
@@ -57,10 +57,10 @@ Nākamajās sadaļās ir aprakstīta šo iestatījumu ietekme, kā arī paskaidr
 
 ### <a name="voucher-number"></a>Dokumenta numurs
 
-- Kad izmantojat iestatījumu **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls, dokumenta numuram ir jābūt norādītam importētajā failā. Katrai transakcijai virsgrāmatas žurnālā tiek piešķirts dokumenta numurs, kas ir norādīts importētajā failā, pat ja dokuments nav līdzsvarots. Ja vēlaties lietot no kopas atkarīgu apstrādi, bet vēlaties arī lietot numuru sēriju, kas ir definēta dokumentu numuriem, ir nodrošināts labojumfails versijas 2016. gada februāra laidienam. Šī labojumfaila numurs ir 3170316, un tas ir pieejams lejupielādei no Lifecycle Services (LCS). Papildinformāciju skatiet rakstā [Lejupielādēt atjauninājumus no Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
+- Kad izmantojat iestatījumu **No kopas atkarīga apstrāde** elementā Virsgrāmatas žurnāls, dokumenta numuram ir jābūt norādītam importētajā failā. Katrai transakcijai virsgrāmatas žurnālā tiek piešķirts dokumenta numurs, kas ir norādīts importētajā failā, pat ja dokuments nav līdzsvarots. Ievērojiet nākamos punktus, ja vēlaties lietot no kopas atkarīgu apstrādi, bet vēlaties arī lietot numuru sēriju, kas ir definēta dokumentu numuriem.
 
     - Lai iespējotu šo funkcionalitāti, žurnāla nosaukumam, kas tiek izmantots importēšanai, vienumu **Numuru piešķiršana grāmatojot** iestatiet uz **Jā**.
-    - Dokumenta numuram joprojām ir jābūt definētam importētajā failā. Taču šis numurs ir tikai pagaidu, un žurnāla grāmatošanas laikā tas tiek pārrakstīts ar dokumenta numuru. Jums ir jānodrošina, ka žurnāla rindas tiek pareizi grupētas pēc pagaidu dokumenta numura. Piemēram, grāmatošanas laikā tiek konstatētas trīs rindas, kurās pagaidu dokumenta numurs ir 1. Visu trīs rindu pagaidu dokumenta numurs tiek pārrakstīts ar nākamo numuru attiecīgajā numuru sērijā. Ja šīs trīs rindas nav līdzsvarots ieraksts, tad dokuments netiek grāmatots. Pēc tam, ja tiek konstatētas rindas, kuru pagaidu dokumenta numurs ir 2, šis numurs tiek pārrakstīts ar nākamo dokumenta numuru attiecīgajā numuru sērijā, un tā tālāk.
+    - Dokumenta numuram joprojām ir jābūt definētam importētajā failā. Taču šis numurs ir tikai pagaidu, un žurnāla grāmatošanas laikā tas tiks pārrakstīts ar dokumenta numuru. Pārliecinieties, ka žurnāla rindas tiek pareizi grupētas pēc pagaidu dokumenta numura. Piemēram, grāmatošanas laikā tiek konstatētas trīs rindas, kurās pagaidu dokumenta numurs ir 1. Visu trīs rindu pagaidu dokumenta numurs tiek pārrakstīts ar nākamo numuru attiecīgajā numuru sērijā. Ja šīs trīs rindas nav līdzsvarots ieraksts, tad dokuments netiks grāmatots. Pēc tam, ja tiek konstatētas rindas, kuru pagaidu dokumenta numurs ir 2, šis numurs tiek pārrakstīts ar nākamo dokumenta numuru attiecīgajā sērijā, un tā tālāk.
 
 - Kad neizmantojat iestatījumu **No kopas atkarīga apstrāde**, importētajā failā nav jānorāda dokumenta numurs. Dokumentu numuri tiek veidoti importēšanas laikā, pamatojoties uz žurnāla nosaukuma iestatījumiem (**Tikai viens dokuments**, **Saistībā ar bilanci** un citiem). Piemēram, ja žurnāla nosaukums ir definēts kā **Saistībā ar bilanci**, tad pirmā rinda saņem jaunu noklusējuma dokumenta numuru. Pēc tam sistēma novērtē šo rindu, lai noteiktu, vai debeta summas ir vienādas ar kredīta summām. Ja rindā pastāv korespondējošais konts, tad nākamā importētā rinda saņem jaunu dokumenta numuru. Ja korespondējošā konta nav, tad sistēma novērtē, vai debeta summas ir vienādas ar kredīta summām, importējot katru jauno rindu.
 - Ja lauks **Dokumenta numurs** ir iestatīts uz **Automātiski ģenerēts**, tad importēšana neizdosies. Iestatījums **Automātiski ģenerēts** laukam **Dokumenta numurs** netiek atbalstīts.

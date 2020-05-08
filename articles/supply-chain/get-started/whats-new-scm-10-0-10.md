@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 8297daa0d802b0b821b43aebe7a841011c70fd55
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261192"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268774"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.10 (2020. gada maijs)
 
@@ -43,7 +43,7 @@ ms.locfileid: "3261192"
 - [Uzlīmju drukāšanas uzlabojumi noliktavas pārvaldībai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) — plašāku informāciju skatiet [Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm](../warehousing/document-routing-layout-for-license-plates.md).
 - [Galvenā plānošana ietver vienumus ar rīcībā esošiem krājumiem, kad ir iespējoti priekšapstrādes filtri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Jaunas datu vienības ražošanas vietai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Kvalitātes pārvaldība noliktavas procesiem](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)
+- [Kvalitātes pārvaldība noliktavas procesiem](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) -plašāku informāciju skatiet [Kvalitātes pārvaldība noliktavas procesiem](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

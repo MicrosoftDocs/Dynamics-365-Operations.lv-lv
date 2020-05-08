@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172812"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270292"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
@@ -66,6 +66,14 @@ Pārdošanas piedāvājumi var tikt izveidoti programmā Sales vai Supply Chain 
 + Piedāvājumā var pievienot atlaidi precei. Šādā gadījumā atlaide tiks sinhronizēta ar programmu Supply Chain Management. Galvenes lauki **Atlaide**, **Maksas** un **Nodokļi** tiek kontrolēti, izmantojot iestatījumus programmā Supply Chain Management. Šie iestatījumi neatbalsta integrācijas kartēšanu. Tā vietā laukus **Cena**, **Atlaide**, **Maksa** un **Nodokļi** uztur un apstrādā programmā Supply Chain Management.
 + Lauki **Atlaide %**, **Atlaide** un **Vedmaksa** pārdošanas piedāvājuma galvenē ir tikai lasāmi faili.
 + Noklusējuma kartējumos nav iekļauti lauki **Vedmaksas nosacījumi**, **Piegādes nosacījumi**, **Piegādes metode** un **Piegādes veids**. Lai kartētu šos laukus, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēts elements.
+
+Ja izmantojat arī Field Service risinājumu, noteikti atkārtoti iespējojiet **Piedāvājuma rindas ātrā izveide** parametru. Atkārtoti iespējojot parametru, varat turpināt izveidot piedāvājuma rindas, izmantojot ātro izveides funkciju.
+1. Dodieties uz savu Dynamics 365 Sales programmu.
+2. Augšējā navigācijas joslā atlasiet iestatījumu ikonu.
+3. Atlasiet **Papildu iestatījumi**.
+4. Izvēlieties opciju **Pielāgot sistēmu**.
+5. Atlasiet **Piedāvājuma rindas** izvēlnes elementu.
+6. Dodieties uz sadaļu **Datu pakalpojumi** un atlasiet izvēles rūtiņu **Atļaut ātro izveidi**.
 
 ## <a name="sales-orders"></a>Pārdošanas pasūtījumi
 

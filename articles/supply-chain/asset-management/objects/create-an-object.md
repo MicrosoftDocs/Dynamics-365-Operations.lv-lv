@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209908"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274169"
 ---
 # <a name="create-an-asset"></a>Izveidot līdzekli
 
@@ -38,13 +38,13 @@ ms.locfileid: "3209908"
 3. Dialoglodziņā **Izveidot līdzekļus** ievadiet datus par **Līdzekli** (līdzekļa ID) un līdzekļa nosaukumu. Laukā **Ir spēkā** atlasiet līdzekļa datumu un laiku. Sākot ar šo datumu, varat uzstādīt līdzekli funkcionālā novietojumā, kā arī pārvietot un aizstāt līdzekli līdzekļu struktūrā.
 4. Laukā **Līdzekļa veids** atlasiet līdzeklim līdzekļa veidu (obligāts lauks). Ja nepieciešams, atlasiet līdzeklim **Līdzekļa ražotājs** un **Līdzekļa modelis**. Ja ir iestatīta tikai viena prece, šī prece tiek automātiski atlasīta laukā **Līdzekļa ražotājs**. Atlases, kas pieejamas laukos **Līdzekļa ražotājs** un **Līdzekļa modelis**, ir atkarīgas no iestatījuma [Līdzekļu ražotāji un modeļi](../setup-for-objects/product-and-model.md).
 5. Grupā **Primārais līdzeklis** lauks **Līdzeklis** pēc noklusējuma ir tukšs. Ja nepieciešams, varat atlasīt primāro līdzekli, un pēc tam visi lauki grupā **Primārais līdzeklis** tiks aizpildīti automātiski.
->[!NOTE]  
->Kad atlasāt primāro līdzekli, ir pieejamas divas vai trīs cilnes: cilnē **Mani līdzekļi** ir ietverti līdzekļi, kas ir saistīti ar funkcionālajiem novietojumiem, kam jūs (uzturēšanas darbinieks, kurš ir pieteicies sistēmā) var piešķirt. Ja funkcionālie novietojumi ir iestatīti uzturēšanas darbiniekam veidlapā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md), cilne **Mani līdzekļi** nebūs redzama. Cilnē **Aktīvie līdzekļī** ir iekļauts visu līdzekļu saraksts ar līdzekļa dzīves cikla statusu "Aktīvs". Cilne **Līdzekļu skats** parāda funkcionālo novietojumu koku un šajos novietojumos uzstādītos līdzekļus.
+    >[!NOTE]  
+    >Kad atlasāt primāro līdzekli, ir pieejamas divas vai trīs cilnes: cilnē **Mani līdzekļi** ir ietverti līdzekļi, kas ir saistīti ar funkcionālajiem novietojumiem, kam jūs (uzturēšanas darbinieks, kurš ir pieteicies sistēmā) var piešķirt. Ja funkcionālie novietojumi ir iestatīti uzturēšanas darbiniekam veidlapā [Uzturēšanas darbinieki un darbinieku grupas](../setup-for-objects/workers-and-worker-groups.md), cilne **Mani līdzekļi** nebūs redzama. Cilnē **Aktīvie līdzekļī** ir iekļauts visu līdzekļu saraksts ar līdzekļa dzīves cikla statusu "Aktīvs". Cilne **Līdzekļu skats** parāda funkcionālo novietojumu koku un šajos novietojumos uzstādītos līdzekļus.
 
 6. Noklusējuma funkcionālais novietojums, ko esat iestatījis, līdzeklim tiek ieteikts grupas **Līdzeklis** laukā **Funkcionālais novietojums**. Ja nepieciešams, atlasiet citu funkcionālo novietojumu.
 
->[!NOTE]
->Kad esat izveidojis līdzekli, vajadzības gadījumā varat to uzstādīt citā funkcionālajā novietojumā. Funkcionālā novietojumā var uzstādīt tikai augšējā līmeņa līdzekļus (līdzekļus, kam pašlaik nav primārā līdzekļa). Tas nozīmē, ka uzstādāt augšējo līmeni, kā arī pakārtotos līdzekļus atlasītajā funkcionālajā novietojumā. Lasiet vairāk par līdzekļu uzstādīšanu funkcionālajos novietojumos sadaļā [Ievads par funkcionālajiem novietojumiem](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Kad esat izveidojis līdzekli, vajadzības gadījumā varat to uzstādīt citā funkcionālajā novietojumā. Funkcionālā novietojumā var uzstādīt tikai augšējā līmeņa līdzekļus (līdzekļus, kam pašlaik nav primārā līdzekļa). Tas nozīmē, ka uzstādāt augšējo līmeni, kā arī pakārtotos līdzekļus atlasītajā funkcionālajā novietojumā. Lasiet vairāk par līdzekļu uzstādīšanu funkcionālajos novietojumos sadaļā [Ievads par funkcionālajiem novietojumiem](../functional-locations/introduction-to-functional-locations.md).
 
 7. Noklikšķiniet uz **Labi**.
 8. Atlasiet līdzekli sarakstā **Visi līdzekļi** un noklikšķiniet uz pogas **Rediģēt**, lai pievienotu līdzeklim papildu informāciju.

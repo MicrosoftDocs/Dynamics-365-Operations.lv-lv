@@ -3,7 +3,7 @@ title: Veicināšanas reklāmkarogu modulis
 description: Šajā tēmā tiek stāstīts par veicināšanas reklāmlogu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025624"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269778"
 ---
 # <a name="promo-banner-module"></a>Veicināšanas reklāmkarogu modulis
 
@@ -64,16 +64,17 @@ Veicināšanas reklāmlogus var izmantot vietnes galvenē, lai parādītu veicin
 
 Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Izveidojiet lapas veidni ar nosaukumu **Veicināšanas reklāmloga veidne**.
+1. Atlasiet **Jauns**, lai izveidotu lapas veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet **Veicināšanas reklāmkaroga veidni** un pēc tam atlasiet **Labi**.
 1. Sadaļā **Lapas struktūra** pievienojiet moduli **Noklusējuma lapa** slotam **Pamatteksts**. 
-1. Pārbaudiet veidni un publicējiet to. 
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
 1. Izmantojiet jūsu tikko izveidoto brīdinājuma veidni, lai izveidotu lapu ar nosaukumu **Veicināšanas reklāmloga lapa**. 
 1. Jaunās lapas **Galvenajā** slotā pievienojiet konteinera moduli. 
 1. Rūtī pa labi iestatiet vērtību **Platums** sadaļai **Aizpildīt konteineru**.
 1. Sadaļā **Lapas struktūra** pievienojiet veicināšanas reklāmkaroga moduli konteinera modulim.
 1. Reklāmkaroga moduļa iestatījumos pievienojiet vienu vai vairākus reklāmkarogu ziņojumus. Katrai ziņai var būt teksts kopā ar saiti. Varat rediģēt pārējos rekvizītus, lai tālāk pielāgotu moduli.
-1. Saglabājiet un priekšskatiet lapu. Lapas augšdaļā ieraudzīsiet brīdinājumu ar jūsu pievienoto tekstu.
-1. Pabeidziet rediģēt lapu un publicējiet to. 
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Lapas augšdaļā ieraudzīsiet brīdinājumu ar jūsu pievienoto tekstu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
 
 > [!NOTE]
 > Veicināšanas reklāmlogs parasti tiek izmantots lapas galvenes slotā vai apakšvadītāja slotā.

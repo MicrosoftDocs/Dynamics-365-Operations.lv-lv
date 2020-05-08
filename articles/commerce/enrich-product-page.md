@@ -3,7 +3,7 @@ title: Preces lapas papildināšana
 description: Šajā tēmā aprakstīts, kā papildināt preces lapu Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003077"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269824"
 ---
 # <a name="enrich-a-product-page"></a>Preces lapas papildināšana
 
@@ -53,7 +53,7 @@ Lai papildinātu preces lapu, veiciet tālāk minētās darbības.
 1. Atlasiet **Līdzeklis** un pēc tam atlasiet **Labi**.
 1. Rekvizītu rūtī labajā pusē laukā **Bagātināts teksts** ievadiet atjaunināto preces aprakstu.
 1. Laukā **Virsraksts** ievadiet virsraksta tekstu un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam **Pārbaudīt**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Laukā **Komentāri** ievadiet **Papildināta prece** un pēc tam atlasiet **Labi**,
 1. Atlasiet **Priekšskatījums**, lai priekšskatītu papildinātās preces lapu. Kad esat pabeidzis, aizveriet priekšskatījuma cilni, lai atgrieztos autorēšanas rīkā.
 1. Atlasiet **Publicēt**.

@@ -3,7 +3,7 @@ title: Uzturēšanas pieprasījumu dzīves cikla stāvokļi
 description: Šajā tēmā ir aprakstīts, kā iestatīt uzturēšanas pieprasījuma dzīves cikla stāvokļus Līdzekļu pārvaldībā.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209011"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275630"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Uzturēšanas pieprasījumu dzīves cikla stāvokļi
 
@@ -47,7 +47,7 @@ Uzturēšanas pieprasījumadzīves cikla stāvokļi nosaka posmus, kuriem piepra
 6. Iestatiet opciju **Iestatīt faktisko beigu datumu** uz **Jā**, ja faktiskais beigu datums un laiks ir automātiski jāievada uzturēšanas pieprasījumā, kas ir šajā dzīves cikla stāvoklī.
 7. Iestatiet opciju **Izveidot darba pasūtījumu** uz **Jā**, ja darba pasūtījumu var izveidot no uzturēšanas pieprasījuma, kas ir šajā dzīves cikla stāvoklī.
 8. Iestatiet opciju **Dzēst** uz **Jā**, ja uzturēšanas pieprasījumu var dzēst, kamēr tas atrodas šajā dzīves cikla stāvoklī.
-9. Kopsavilkuma cilnē **Atjaunināšana** opcijas **Ienākošie** un **Izejošie** sadaļā **Llīdzekļi** ir būtiskas, ja izmantojat labošanu noliktavā. Iestatiet atbilstošo opciju uz **Jā**, ja līdzekļu, kas atlasīti uzturēšanas pieprasījumā, līdzekļa dzīves cikla stāvoklis ir automātiski jāatjaunina uz **Ienākošie** vai **Izejošie**, kad šī uzturēšanas pieprasījuma dzīves cikla stāvoklis ir iestatīts uz **Ienākošie** vai **Izejošie**.
+9. Kopsavilkuma cilnē **Atjaunināt** opcijas **Ienākošie** un **Izejošie** sadaļā **Līdzeklis** ir būtiskas, lietojot noliktavas labošanu. Iestatiet atbilstošo opciju uz **Jā**, ja līdzekļu, kas atlasīti uzturēšanas pieprasījumā, līdzekļa dzīves cikla stāvoklis ir automātiski jāatjaunina uz **Ienākošie** vai **Izejošie**, kad šī uzturēšanas pieprasījuma dzīves cikla stāvoklis ir iestatīts uz **Ienākošie** vai **Izejošie**.
 
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu dzīves cikla stāvokļi** piemērs.
 

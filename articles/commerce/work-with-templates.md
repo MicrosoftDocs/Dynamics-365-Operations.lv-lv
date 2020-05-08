@@ -3,7 +3,7 @@ title: Darbs ar veidnēm
 description: Šajā tēmā ir aprakstīts, kā strādāt ar veidnēm programmā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002571"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269870"
 ---
 # <a name="work-with-templates"></a>Darbs ar veidnēm
 
@@ -132,14 +132,14 @@ Lai veidnei pievienotu skriptu, veiciet tālāk norādīto.
 Lai saglabātu un atdotu veidni, izpildiet tālāk aprakstītās darbības.
 
 1. Veidnes redaktora augšā atlasiet **Saglabāt**. Saglabātās izmaiņas neietekmē lejupstraumes lapas, kamēr tās nav atdotas.
-1. Atlasiet **Atdot**. Jūsu veiktās izmaiņas tagad ir redzamas lejupstraumes darbplūsmām.
+1. Atlasiet **Beigt rediģēšanu**. Jūsu veiktās izmaiņas tagad ir redzamas lejupstraumes darbplūsmām.
 
 Lai priekšskatītu izmaiņas, vai nu atveriet esošu lapu, kas izmanto veidni, vai izveidojiet jaunu lapu no veidnes.
 
 Pēc tam, kad veidnes izmaiņas ir priekšskatītas, veiciet vienu no tālāk norādītajām darbībām, lai publicētu veidni jūsu tiešsaistes vietnē.
 
 * Dodieties uz **Veidnes**, atlasiet veidni un pēc tam atlasiet **Publicēt**.
-* Veidnes redaktorā atlasiet **Publicēt**.
+* Atlasiet izkārtojuma nosaukumu, lai atvērtu izkārtojuma redaktoru, un tad atlasiet **Publlicēt**.
 * Publicējiet lapu, kurā ir atsauce uz nepublicēto veidni. Veidne tiek publicēta automātiski.
 
 > [!WARNING]

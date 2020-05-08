@@ -3,7 +3,7 @@ title: Lapas saglabāšana, priekšskatīšana un publicēšana
 description: Šajā tēmā aprakstīts, kā saglabāt, priekšskatīt un publicēt lapu Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002821"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269985"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Lapas saglabāšana, priekšskatīšana un publicēšana
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ ms.locfileid: "3002821"
 
 ## <a name="save-a-page"></a>Lapas saglabāšana
 
-Lai saglabātu lapu, jums tā ir jāizraksta sev un jāatver lapas redaktorā. Lapa jāsaglabā uzreiz pēc tās modificēšanas, lai palīdzētu nodrošināt, ka izmaiņas tiek saglabātas.
+Lai saglabātu lapu, jums tā ir jāizraksta sev un jāatver lapas redaktorā. Lai paņemtu failu, komandjoslā atlasiet **Rediģēt**. Pēc tam, kad esat beidzis rediģēt lapu, jums to vajadzētu uzreiz saglabāt, lai nodrošinātu, ka izmaiņas tiek saglabātas.
 
 Saglabājot lapu, izmaiņas ir redzamas tikai jums. Saglabāšanas operācija galvenokārt ir paredzēta, lai saglabātu izmaiņas, kamēr lapa vēl nav gatava reģistrācijai. Kad lapas modificēšana ir pabeigta, ieteicams to reģistrēt, lai izmaiņas kļūtu redzamas citiem. Šajā brīdī lapu var izrakstīt arī citi lietotāji, kuriem tā jāmodificē.
 
@@ -50,7 +49,7 @@ Kad lapas modificēšana ir pabeigta, iespējams, vēlēsieties to priekšskatī
 
 ## <a name="publish-a-page"></a>Lapas publicēšana
 
-Kad lapa ir gatava, nākamā darbība ir to publicēt, lai ārējie lietotāji varētu apskatīt saturu. Pirms lapas publicēšanas tā jāreģistrē.
+Kad lapa ir gatava, nākamā darbība ir to publicēt, lai ārējie lietotāji varētu apskatīt saturu. Pirms lapas publicēšanas tā ir jānodod, komandjoslā atlasot **Pabeigt rediģēšanu**.
 
 Lapas varat publicēt un atsaukt publicēšanu vai nu no lapas kontroliera, vai lapas redaktora. Lapas kontrolieris parāda lapu sarakstu un ļauj veikt liela apjoma operācijas. Lapas redaktoru var izmantot, lai publicētu vai atsauktu publicēšanu vienai lapai, kas tajā atvērta.
 
@@ -70,9 +69,9 @@ Lai saglabātu, priekšskatītu un publicētu sākumlapu, veiciet tālāk minēt
 1. Sadaļā **Vietnes** atlasiet **Fabrikam** (vai savas vietnes nosaukumu).
 1. Navigācijas rūtī kreisajā pusē atlasiet **Lapas**.
 1. Atrodiet un atlasiet sākumlapu, lai to atvērtu to lapas redaktorā.
-1. Atlasiet **Izrakstīt**.
+1. Atlasiet **Rediģēt**.
 1. Modificējiet lapu, kā nepieciešams.
-1. Atlasiet **Saglabāt** un pēc tam **Pārbaudīt**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Laukā **Komentāri** Ievadiet piezīmi par veiktajām izmaiņām un pēc tam atlasiet **Labi**.
 1. Atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Kad esat pabeidzis, aizveriet priekšskatījuma cilni, lai atgrieztos autorēšanas rīkā.
 1. Atlasiet **Publicēt**.

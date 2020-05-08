@@ -3,7 +3,7 @@ title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124616"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278902"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -151,6 +151,18 @@ Detalizēta informācija par izpildi rāda stāvokli katram datu elementam, kuru
 Sagatavošanas posmu datus eksportēšanas darbiem varat lejupielādēt failā, vai importēšanas un eksportēšanas darbiem tos varat lejupielādēt kā paketi.
 
 No detalizētas informācijas par izpildi varat arī atvērt izpildes žurnālu.
+
+## <a name="parallel-imports"></a>Paralēlais imports
+Lai paātrinātu datu importu, var iespējot paralēlu faila importēšanu, ja elements atbalsta paralēlo importu. Lai konfigurētu paralēlo importu elementam, ir jāievēro šādi soļi.
+
+1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Datu pārvaldība**.
+2. Sadaļā **Importēšana/eksportēšana** atlasiet elementu **Struktūras parametri**, lai atvērtu lapu **Datu importēšanas/eksportēšanas struktūras parametri**.
+3. Cilnē **Elementa iestatījumi** atlasiet **Konfigurēt elementa izpildes parametrus**, lai atvērtu lapu **Elementa importēšanas izpildes parametri**.
+4. Iestatiet šādus laukus, lai konfigurētu paralēlo importu elementam:
+
+    - Laukā **Elements** atlasiet juridisko personu.
+    - Laukā **Importa sliekšņa ierakstu skaits** ievadiet sliekšņa ierakstu skaitu importam. Tas nosaka ierakstu skaits, ko apstrādā pavediens. Ja failam ir 10 000 ierakstu, 2500 ieraksti ar uzdevumu skaitu 4 nozīmē, ka katrs pavediens apstrādās 2500 ierakstus.
+    - Laukā **Importēt uzdevumu skaitu** ievadiet importa uzdevumu skaitu. Tas nedrīkst pārsniegt maksimālo partijas pavedienu skaitu, kas piešķirts pakešveida apstrādei **Sistēmas administrēšanā \>Servera konfigurācijā**.
 
 ## <a name="clean-up-the-staging-tables"></a>Sagatavošanas tabulu iztīrīšana
 Sākot ar platformas atjauninājumu 29, šī funkcionalitāte ir novecojusi. Tā ir aizstāta ar jaunu darbu vēstures tīrīšanas funkcionalitātes versiju, kas izskaidrota tālāk.

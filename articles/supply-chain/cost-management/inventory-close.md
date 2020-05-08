@@ -3,7 +3,7 @@ title: Krājumu slēgšana
 description: Izsniegšanas transakciju nosegšanas ar saņemšanas transakcijām procesa gaitā var arī noteikt, ka ir jāatjaunina galvenā virsgrāmata, lai varētu redzēt veiktās korekcijas.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201644"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283994"
 ---
 # <a name="inventory-close"></a>Krājumu slēgšana
 
@@ -59,11 +59,10 @@ Vairāki uzdevumi, kuri tiek veikti lapā **Slēgšana un pielāgošana**, izrai
 
 Virsgrāmatas konti, kas tiek atjaunināti saistībā ar šo uzdevumu izpildi, tiek saistīti ar sākotnējām krājumu transakcijām. Piemēram, ja pārdošanas pasūtījums ir segts ar pirkšanas pasūtījumu, tiek koriģēti virsgrāmatas konti, kas tika izmantoti sākotnējam pārdošanas pasūtījumam. Tas notiek arī tad, ja šim krājumam piešķirtās krājumu grupas virsgrāmatas konti kopš pārdošanas pasūtījuma grāmatošanas ir mainījušies. Kad pēc krājumu slēgšanas tiek veidota nosegšanas summa, tā joprojām tiek grāmatota sākotnējos virsgrāmatas kontos nevis jaunajos krājumam piešķirtajos virsgrāmatas kontos. Virsgrāmatu var atjaunināt arī, atsaucot krājumu slēgšanu. 
 
-**Piezīmes.**
-
--   Izmantojot standarta izmaksu novērtēšanas metodi, krājumu slēgšana nav obligāti jāveic.
--   Pirms slēgšanas procedūras izpildes var skatīt to krājumu sarakstu, kuru atjaunināšanas laikā nevar nosegt.
--   Krājumu slēgšanu ir ieteicams veikt zemas darba slodzes laikā, lai vienmērīgāk sadalītu skaitļošanas resursus.
+> [!NOTE] 
+> - Krājumu slēgšana ir obligāts solis mēneša beigu slēgšanas procedūrā visiem krājumu modeļiem. Tas ietver standarta un mainīgo vidējo izmaksu aprēķināšanu. Jūs nevarēsit slēgt finanšu periodu, līdz krājumu slēgšana ir veikta no perioda beigu datuma.
+> - Pirms slēgšanas procedūras izpildes var skatīt to krājumu sarakstu, kuru atjaunināšanas laikā nevar nosegt.
+> - Krājumu slēgšanu ir ieteicams veikt zemas darba slodzes laikā, lai vienmērīgāk sadalītu skaitļošanas resursus.
 
 ## <a name="the-inventory-close-log"></a> Krājumu slēgšanas žurnāls
 Kad krājumu slēgšanas process ir pabeigts, iespējams, ka ziņojumu centrā tiek parādīts ziņojums ar informāciju, ka vienības pašizmaksa var būt nepareiza, jo transakciju nevar pilnībā nosegt. 
@@ -85,7 +84,6 @@ Dažos gadījumos brīdinājumiem nav atbilstošu darbību. Piemēram, ja tiek i
 ## <a name="reversing-a-completed-inventory-close"></a>Pabeigtas krājumu slēgšanas anulēšana
 Iespējams, ka reizēm ir jāanulē pabeigta krājumu slēgšana, lai atgrieztu segšanas transakcijas tādā stāvoklī, kādā tās bija pirms korekciju veikšanas. Kad anulējat pabeigtu krājumu slēgšanu, krājums tiek atvērts no jauna, lai varētu iegrāmatot periodā, uz ko šī krājumu slēgšana attiecas. Saistītās izmaiņas var veikt arī virsgrāmatā. Kad koriģēšanas darbības ir pabeigtas, var vēlreiz izpildīt apstrādātā perioda krājumu slēgšanas procedūru. 
 
-**Piezīme.** Vēlreiz atvērt var tikai pēdējo slēgto krājumu periodu. Lai atsauktu vecāku krājumu slēgšanu, pa vienai ir jāatsauc visas turpmākās krājumu slēgšanas, sākot ar pēdējo slēgšanu.
-
-
+> [!NOTE] 
+> Vēlreiz atvērt var tikai pēdējo slēgto krājumu periodu. Lai atsauktu vecāku krājumu slēgšanu, pa vienai ir jāatsauc visas turpmākās krājumu slēgšanas, sākot ar pēdējo slēgšanu.
 

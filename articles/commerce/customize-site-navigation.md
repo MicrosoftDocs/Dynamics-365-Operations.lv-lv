@@ -3,7 +3,7 @@ title: Vietnes navigācijas pielāgošana
 description: Šajā tēmā aprakstīts, kā izveidot pielāgotu tiešsaistes navigācijas hierarhiju, lai organizētu preces pārlūkošanai jūsu Microsoft Dynamics 365 Commerce vietnē.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001833"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269663"
 ---
 # <a name="customize-site-navigation"></a>Vietnes navigācijas pielāgošana
 
@@ -93,7 +93,7 @@ Lai navigācijas izvēlnei pievienotu pielāgotās navigācijas opcijas, veiciet
 1. Rekvizītu rūts cilnē **Dati** atlasiet **Pievienot elementu**, lai izveidotu jaunu satura pārvaldības sistēmas (CMS) navigācijas elementu.
 1. Ievadiet saites tekstu un URL.
 1. Atkārtojiet 2. un 3. darbību, lai pievienotu vairāk pielāgoto navigācijas opciju.
-1. Kad esat pabeidzis, saglabājiet veidni vai fragmentu un reģistrējiet to.
+1. Kad esat pabeidzis, atlasiet **Saglabāt**, lai saglabātu veidni vai fragmentu, un pēc tam atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

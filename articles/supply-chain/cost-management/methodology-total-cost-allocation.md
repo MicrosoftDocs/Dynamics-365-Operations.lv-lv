@@ -3,7 +3,7 @@ title: Kopējo izmaksu sadalījuma metode
 description: Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/15/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e621b76742a5a115ba2d77e03b47cd1aead8664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214669"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262677"
 ---
 # <a name="total-cost-allocation-method"></a>Kopējo izmaksu sadalījuma metode
 
 [!include [banner](../includes/banner.md)]
-
-Šajā tēmā ir sniegti norādījumi par to, kā lietot kopējo izmaksu sadalījumu (TCA). Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem.
 
 Kopējo izmaksu sadalījums (Total cost allocation — TCA) ir tādu izmaksu aprēķināšanas metode, kas jāsadala starp partijas pasūtījuma galvenās formulas krājumu un formulā noteiktajiem līdzproduktiem. Šī ir dinamiska metode. To izmantojot, tiek aprēķinātas izmaksas kā svērtā vidējā vērtība starp daudzumiem, kas formulas krājumā un līdzproduktiem reģistrēti kā pabeigti. Ja TCA metode tiek izmantota, nav jāpārskata katra partijas pasūtījuma izmaksu sadalījums. Ja TCA metode netiek izmantota, formulas aprēķinā tiek izmantota esošā funkcionalitāte.
 

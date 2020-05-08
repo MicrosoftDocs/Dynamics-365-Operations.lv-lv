@@ -3,7 +3,7 @@ title: Konfidencialitātes politikas lapas pievienošana
 description: Šajā tēmā ir aprakstīts, kā pievienot konfidencialitātes politikas lapu savai vietnei programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ee9a68f46c91299065732e5f65479906f9e06079
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001327"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274215"
 ---
 # <a name="add-a-privacy-policy-page"></a>Konfidencialitātes politikas lapas pievienošana
 
@@ -54,36 +54,33 @@ Lai sāktu, autorēšanas rīkos dodieties uz vietni, kurai vēlaties izveidot k
 
 Lai izveidotu veidni, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz sadaļu **Veidnes \> Jauna veidne**.
-1. Ievadiet veidnes nosaukumu un pēc tam atlasiet **Labi**.
-1. Veidnē pievienojiet nepieciešamos moduļus nepieciešamajiem lapas slotiem. Lai iegūtu norādījumus, virziet kursoru virs sarkanajām izsaukuma zīmēm.
-
-    Piemēram, **HTML galvenais** slotam var būt nepieciešams **noklusējuma ārējā skripta** modulis.
-
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu lapas veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet **Veicināšanas reklāmkaroga veidni** un pēc tam atlasiet **Labi**.
+1. Veidnē pievienojiet nepieciešamos moduļus nepieciešamajiem lapas slotiem. Lai iegūtu norādījumus, virziet kursoru virs sarkanajām izsaukuma zīmēm. (Piemēram, **HTML galvenais** slotam var būt nepieciešams **Noklusējuma ārējā skripta** modulis.)
 1. Slotā **Pamatteksts** pievienojiet moduli **Noklusējuma lapa**.
 1. Moduļa **Noklusējuma lapa** slotā **Galvenais** pievienojiet moduli **Bagātinātā satura bloks**.
 1. Modulī **Bagātinātā satura bloks** pievienojiet moduli **Bagātinātā satura bloka vienums**.
-1. Pārbaudiet veidni un publicējiet to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ### <a name="build-a-privacy-policy-page"></a>Konfidencialitātes politikas lapas izveide
 
 Lai izveidotu konfidencialitātes politikas lapu, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Lapas \>Jauna lapa**.
-1. Atlasiet konfidencialitātes politikas lapas veidni.
-1. Ievadiet lapas nosaukumu un vietrādi URL pēc tam atlasiet **Labi**. 
+1. Dodieties uz **Lapas** un pēc tam atlasiet **Jaunas lapas fragments**, lai izveidotu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet konfidencialitātes politikas lapas veidni.
+1. Ievadiet lapas nosaukumu un lapas vietrādi URL pēc tam atlasiet **Labi**. 
 1. Jaunās lapas slotā **Galvenais** pievienojiet moduli **Bagātinātā satura bloks**.
 1. Modulī **Bagātinātā satura bloks** pievienojiet moduli **Bagātinātā satura bloka vienums**.
 1. Moduļa **Bagātinātā satura bloks** rekvizītu rūtī atlasiet **Pievienot datu avotu** un tad atlasiet **Bagātinātā satura bloks**.
 1. Bagātinātā teksta redaktorā ievadiet konfidencialitātes politikas lapas saturu. Izvērsiet bagātinātā teksta redaktoru uz pilnekrāna režīmu, kā jums nepieciešams.
 1. Kad esat pabeidzis satura ievadīšanu, atlasiet **Priekšskatījums**, lai priekšskatītu lapu tīmekļa pārlūkprogrammā.
 1. Aizpildiet visus atlikušos lapas un moduļa rekvizītu papildinājumus.
-1. Pārbaudiet konfidencialitātes politikas lapu un publicējiet to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 Lai publicētu vietrādi URL konfidencialitātes politikas lapai, veiciet šādas darbības.
 
 1. Pārejiet uz sadaļu **URL** un atlasiet konfidencialitātes politikas lapas vietrādi URL.
-1. Publicējiet atlasīto vietrādi URL.
+1. Atlasiet **Publicēt**, lai publicētu atlasīto vietrādi URL.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Saites, ka novirza uz konfidencialitātes politiku lapu, izveide kājenē
 
@@ -91,15 +88,14 @@ Varat pievienot saiti uz konfidencialitātes politikas lapu fragmentam. Šādā 
 
 Lai fragmentam pievienotu saiti, veiciet tālāk norādīto.
 
-1. Dodieties uz **Lapas fragmenti \> Jauns lapas fragments**.
-1. Atlasiet moduli **Kājene** un pēc tam ievadiet nosaukumu laukā **Lapas fragmenta nosaukums**.
+1. Dodieties uz **Lapas fragmenti** un pēc tam atlasiet **Jaunas lapas fragments**, lai izveidotu lapas fragmentu.
+1. Dialoglodziņā **Jaunas lapas fragments** atlasiet **Kājenes** moduli.
+1. Sadaļā **Lapas fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Slotā **Kājene kategorija** pievienojiet moduli **Kājenes vienums**.
 1. Rekvizītu rūts labajā pusē atlasiet **Saites teksts**.
 1. Dialoglodziņā **Saites teksts** ievadiet konfidencialitātes politikas lapas saites tekstu un saites mērķi un pēc tam noklikšķiniet uz **Labi**.
-
-    Lai iegūtu konfidencialitātes politikas lapas vietrādi URL, atveriet **Lapas**, dodieties uz konfidencialitātes politikas lapu un kopējiet vietrādi URL no rekvizītu rūts.
-
-1. Saglabājiet fragmentu, pārbaudiet un publicējiet to.
+1. Lai iegūtu konfidencialitātes politikas lapas vietrādi URL, atveriet **Lapas**, dodieties uz konfidencialitātes politikas lapu un kopējiet vietrādi URL no rekvizītu rūts.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Priekšskatiet fragmentu un pārbaudiet saiti uz konfidencialitātes politikas lapu.
 
 Uz fragmentu tagad var atsaukties veidnē citām vietnes lapām. Ja uz šo fragmentu ir atsauce veidnes modulī **Kājene**, saites atsauce tiks parādīta visās lapās, kas ir veidotas, izmantojot šo veidni.
@@ -111,3 +107,5 @@ Uz fragmentu tagad var atsaukties veidnē citām vietnes lapām. Ja uz šo fragm
 [Pieejamības līdzekļi un iespējas](accessibility.md)
 
 [Sīkfailu atbilstība](cookie-compliance.md)
+
+[Aizstāt lietotāja ID, kas saistīti ar izsekotām satura izmaiņām](replace-IDs-tracked-changes.md)

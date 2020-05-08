@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172881"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275468"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Ar Finance and Operations programmu jaunināšanu saistītu problēmu novēršana
 
@@ -85,9 +85,8 @@ Ja problēma joprojām nav novērsta, veiciet šādas darbības.
 > Izpildot šīs darbības, elements tiek dzēsts un atkārtoti pievienots. Lai izvairītos no problēmām, noteikti veiciet darbības precīzi.
 
 1. Finance and Operations programmā atveriet **Darbvietas \>Datu pārvaldība**un atlasiet elementu **Datu elementi**.
-2. Atrodiet elementu, kuram trūkst lauka. Atzīmējiet mērķa elementa, sagatavošanas tabulas, elementa nosaukuma un citu kolonnu vērtības.
-3. Ja kāda no jūsu apstrādes grupām ir atkarīga no šī elementa, pirms elementa dzēšanas atbilstoši apstrādājiet grupas.
-4. Dzēsiet elementu, kuram trūkst lauka.
-5. Atlasiet **Jauns** un pievienojiet elementu atpakaļ. Norādiet vērtības, kuras atzīmējāt 2. darbības laikā.
-6. Atveriet lapu **Elementa kartēšana** no lapas **Duālais ieraksts** Finance and Operations lietojumprogrammā.
-7. Atlasiet **Atsvaidzināt elementu sarakstu**, lai automātiski aizpildītu laukus elementu kartējumos.
+2. Atrodiet elementu, kuram trūkst atribūts. Rīkjoslā noklikšķiniet uz **Modificēt mērķa kartēšanu**.
+3. Rūtī **Kartes iestatīšana mērķim** noklikšķiniet uz **Ģenerēt kartēšanu**.
+4. Atveriet lapu **Elementa kartēšana** no lapas **Duālais ieraksts** Finance and Operations lietojumprogrammā.
+5. Ja atribūts kartē netiek automātiski aizpildīts, pievienojiet to manuāli, noklikšķinot uz pogu **Pievienot atribūtu** un pēc tam noklikšķinot uz **Saglabāt**. 
+6. Atlasiet karti un noklikšķiniet uz **Palaist**.

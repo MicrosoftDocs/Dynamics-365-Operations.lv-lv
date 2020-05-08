@@ -1,5 +1,5 @@
 ---
-title: Krājumu vecumstruktūru pārskats
+title: Krājumu vecumstruktūru pārskata glabāšana
 description: Šajā tēmā aprakstīta funkcionalitāte, kas ļauj palaist krājuma novecošanas pārskatu un padarīt rezultātu pieejamu veidlapas un diagrammas veidā.
 author: AndersGirke
 manager: tfehr
@@ -19,24 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201626"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275583"
 ---
-# <a name="inventory-aging-report"></a>Krājumu vecumstruktūru pārskats
+# <a name="inventory-aging-report-storage"></a>Krājumu vecumstruktūru pārskata glabāšana
 
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-Programmā Microsoft Dynamics 365 Supply Chain Management var palaist **Krājumu novecošanas ziņojumu** un padarīt rezultātu pieejamu veidlapas un diagrammas veidā. Veidlapā kolonnas un uzkrātās bilances tiek dinamiski pielāgotas atkarībā no konfigurētā izkārtojuma. Diagramma sniedz vizuālu apskatu, kas atbalsta filtrēšanu, un ļauj detalizēti apskatīt detalizētu informāciju. Turklāt datu elements, kura nosaukums ir **Krājumu novecošanas pārskats**, ļauj eksportēt **Krājumu novecošanas pārskata** rezultātus, kas tiek palaisti, piemēram, Microsoft Excel faila vai PDF faila formātā.
+Programmā Microsoft Dynamics 365 Supply Chain Management var palaist **Krājumu vecumstruktūru pārskata glabāšanas** rezultātus un padarīt tos pieejamus veidlapas un diagrammas veidā. Veidlapā kolonnas un uzkrātās bilances tiek dinamiski pielāgotas atkarībā no konfigurētā izkārtojuma. Diagramma sniedz vizuālu apskatu, kas atbalsta filtrēšanu, un ļauj detalizēti apskatīt detalizētu informāciju. Turklāt datu elements, kura nosaukums ir **Krājumu vecumstruktūru pārskats**, ļauj eksportēt **Krājumu vecumstruktūru pārskata glabāšana** rezultātus, kas tiek palaisti, piemēram, Microsoft Excel faila vai PDF faila formātā.
 
-Šī **Krājumu novecošanas** palaišanas metode pārskatam noder gadījumos, ja izlaidē ir daudz rindu. Piemēram, izlaide saturēs daudzas rindas, ja jums ir 50 000 preces un 300 veikali, kas ir izveidoti kā noliktavas, un jūs pieprasāt krājumu novecošanu pēc preces, vietas un noliktavas.
+Šī **Krājumu vecumstruktūru pārskata glabāšanas** rezultātu palaišanas metode pārskatam noder gadījumos, ja izlaidē ir daudz rindu. Piemēram, izlaide saturēs daudzas rindas, ja jums ir 50 000 preces un 300 veikali, kas ir izveidoti kā noliktavas, un jūs pieprasāt krājumu novecošanu pēc preces, vietas un noliktavas.
 
-## <a name="run-an-inventory-aging-report"></a>Krājuma novecošanas pārskats
+## <a name="enable-the-inventory-value-storage-report-feature"></a>Iespējot Krājumu vērtības uzglabāšanas pārskata līdzekli
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un iespējotu to pēc nepieciešamības. Šeit līdzeklis tiek norādīts kā:
+
+- **Modulis** - Izmaksu pārvaldība
+- **Līdzekļa nosaukums** - krājumu vecumstruktūru pārskata uzglabāšana
+
+## <a name="run-an-inventory-aging-report-storage"></a>Palaist Krājumu vecumstruktūru pārskata glabāšanu
 
 1. Dodieties uz **Izmaksu pārvaldība \>Vaicājumi un pārskati\>Krājuma novecošanas ziņojuma glabātuve**.
 1. Atlasiet **Jauns**.
@@ -51,4 +58,4 @@ Programmā Microsoft Dynamics 365 Supply Chain Management var palaist **Krājumu
     > [!NOTE]
     > Veidlapā netiek iekļautas starpsummas, kas definētas pārskata izkārtojumā.
 
-Datu elements **Krājumu novecošanas pārskats** ļauj eksportēt **Krājuma novecošanas** pārskata rezultātu, lietojot filtru laukam **Procesa identifikators – nosaukums** jebkurā formātā, ko atbalsta datu pārvaldība.
+Datu elements **Krājumu novecošanas pārskats** ļauj eksportēt **Krājumu vecumstruktūru pārskata glabāšana** pārskatu, lietojot filtru laukam **Procesa identifikators – nosaukums** jebkurā formātā, ko atbalsta datu pārvaldība.

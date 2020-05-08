@@ -1,9 +1,9 @@
 ---
-title: Uzlabota filtrēšana RCS/Global repozitorijā
+title: RCS uzlabota filtrēšana RCS/globālajā repozitorijā
 description: Šajā tēmā ir aprakstītas uzlabotās filtrēšanas iespējas RCS globālajā repozitorijā, kas ir uzlabotas, lai iekļautu papildu filtrus.
 author: JaneA07
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,35 +18,31 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
+ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249169"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3287943"
 ---
-# <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a>Uzlabotas filtrēšanas iespējas konfigurāciju atrašanai globālajā krātuvē
+# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>RCS uzlabotās filtrēšanas opcijas konfigurāciju atrašanai RCS/globālajā repozitorijā
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstītas uzlabotās filtrēšanas iespējas Regulatory Configuration Services (RCS) globālajam repozitorijam, kas ir uzlabotas, lai iekļautu papildu filtrus. 
+Šajā tēmā ir aprakstītas uzlabotās filtrēšanas iespējas Regulatory Configuration Services (RCS) globālajam repozitorijam, kas ir uzlabotas, lai iekļautu iespēju filtrēt ar šādiem kritērijiem: 
 - **Valsts/reģions**, kura pamatā ir ISO valstu kodi  
-- **Tagi** — funkcionālam/funkciju apgabalam; nozare; biznesa dokumenta tips 
+- **Etiķešu** veidi:
+  - Funkcionālais apgabals
+  - Līdzekļu apgabals
+  - Nozare 
+  - Biznesa dokuments 
 
-Lai atrastu konkrētas vai saistītas konfigurācijas, varat izmantot filtrus atsevišķi vai grupās. Piemēram, lai atrastu visus konfigurējamos biznesa dokumentus, kas saistīti ar kreditoru rēķiniem, var lietot **Biznesa dokumentu tipu** filtru. 
-
-Varat turpināt precizēt meklēšanu, atlasot valsts kodu un noklikšķinot uz **Lietot filtru**.  
+Lai vieglāk atklātu konkrētas vai saistītas konfigurācijas, jūs varat izmantot filtrus atsevišķi vai kā grupa. Piemēram, lai atrastu viena veida konfigurējamus biznesa dokumentus, kas ir saistīti ar kreditora rēķiniem, varat izmantot **Biznesa dokumenta veida** filtru, lai meklētu šo dokumenta veidu. 
 
 [![Globālās krātuves filtra sadaļa](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
 
-Šis piemērs parāda rezultātus, filtrējot **Biznesa dokumenta tipu**. 
+Varat turpināt precizēt meklēšanu, atlasot dokumenta veidu, piemēram, "kreditora rēķins", un noklikšķiniet uz **Lietot filtru**. Šis piemērs parāda rezultātus, filtrējot **Biznesa dokumenta veidu** ar pievienotu dokumenta veidu. 
 
 [![Lietotais biznesa dokumenta tipa filtrs un imports](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Filtrētus rezultātus var importēt uz lietotāju RCS vai Dynamics 365 Finance vidi, atsevišķi vai kā kopu (atlasot konfigurāciju grupu) un noklikšķinot uz **Importēt**.
-
-
-
-
-
-
+Filtrētus rezultātus var importēt lietotāju RCS repozitorijā vai Dynamics 365 Finance vidē atsevišķi vai kā kopu. Lai to izdarītu, atlasiet konfigurāciju grupu un noklikšķiniet uz **Importēt**.

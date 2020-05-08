@@ -3,7 +3,7 @@ title: Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
 description: Šajā tēmā ir aprakstīts, kā izveidot pielāgotas atbilžu lapas 4xx un 5xx statusa koda kļūdām, izmantojot autorēšanas rīkus programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001140"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269548"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
 
@@ -46,19 +46,21 @@ Lai sāktu statusa koda kļūdas atbildes lapas izveidi, veiciet tālāk norād�
 
 Lai izveidotu veidni statusa koda kļūdas atbildes lapai, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Veidnes \>Jauna veidne**.
-1. Nosauciet jauno veidni.
+1. Dodieties uz **Veidnes**.
+1. Atlasiet **Jauns**, lai izveidotu lapas veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet jaunās veidnes nosaukumu un pēc tam atlasiet **Labi**.
 1. Izveidojiet veidni, pamatojoties uz struktūru, ko vēlaties izmantot statusa koda kļūdas atbildes lapā.
-1. Pārbaudiet veidni un publicējiet to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Statusa koda kļūdas atbildes lapas izveide
 
 Lai izveidotu statusa koda kļūdas atbildes lapu, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Lapas \>Jauna lapa**.
-1. Norādiet nosaukumu statusa koda kļūdas atbildes lapai, bet **neiestatiet** vietrāža **URL** lauku.
+1. Doties uz **Lapas**.
+1. Atlasiet **Jauns**, lai izveidotu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni un pēc tam sadaļā **Lapas nosaukums** ievadiet nosaukumu statusa koda kļūdas atbildei. Atstājiet lauku **Lapas vietrādis URL** tukšu.
 1. Veidojiet lapu.
-1. Pārbaudiet lapu un publicējiet to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 > [!NOTE]
 > Varat izveidot atsevišķas statusa koda kļūdas atbildes lapas 4xx un 5xx statusa koda kļūdām. Alternatīvi varat izmantot vienu un to pašu vispārīgā statusa koda kļūdas atbildes lapu abām kļūdu kategorijām.

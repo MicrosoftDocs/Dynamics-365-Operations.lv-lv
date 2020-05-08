@@ -70,12 +70,12 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance”
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.11 (2020\_gada jūlijs)"
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: "Finance 10.0.10 (2020.\_gada maijs)"
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: "Finance 10.0.9 (2020.\_gada aprīlis)"
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: "Finance 10.0.8 (2020.\_gada februāris)"
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Standarta darbaspēka un izdevumu izmaksu konfigurēšana
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: 'Tādu kreditoru maksājumu iestatīšana un lietošana, kas jāapmaksā pēc apmaksas'
+              href: project-management/setup-manage-vendor-payments.md
             - name: Projekta izmaksu uzkrāšanas pirkšanas pavadzīmes
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Projekta rēķinu izrakstīšana
               href: accounts-payable/project-invoicing.md
             - name: Projekta līgumi
               href: project-management/project-contracts.md
+            - name: 'Papildu līgumu izveide norēķiniem, pamatojoties uz progresu'
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Projekta prognozes un budžeti
               href: project-management/project-forecasts-budgets.md
             - name: Projekta budžetu pārsūtīšana finanšu gada beigās
@@ -1008,12 +1012,14 @@
                   href: project-management/project-mobile-application-overview.md
                 - name: Projekta laika ieraksta mobilā darbvieta
                   href: project-management/project-time-entry-mobile-workspace.md
-                - name: Project timesheet mobilā programma
+                - name: Projektu darba laika uzskaites tabulu mobilā programma
                   href: project-management/project-timesheet.md
-                - name: Projekta darba laika uzskaites tabulas mobilajā ierīcē
+                - name: Projektu darba laika uzskaites tabulas mobilajā ierīcē
                   href: project-management/mobile-timesheets.md
-                - name: Pielāgoto lauku ieviešana Project timesheet mobilajā lietotnē
+                - name: Pielāgoto lauku ieviešana projektu darba laika uzskaites tabulu mobilajā programmā
                   href: project-management/custom-fields-mobile.md
+            - name: Projekta piešķīrumi
+              href: project-management/project-grants.md
         - name: Publiskais sektors
           items:
             - name: Publiskā sektora sākumlapa
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Noraidīto vekseļu importēšana
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Nodokļu griesti
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Japāna
               items:
                 - name: Japānas pārskats
@@ -2682,7 +2690,7 @@
                   href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
                 - name: Pēctecības plāna izstrāde
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Projekta grafiku ievade
+                - name: Projektu darba laika uzskaites tabulu ievade
                   href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
                 - name: Masveida darbā pieņemšanas projekti
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
@@ -2922,7 +2930,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Finanšu dimensiju pievienošana apkopotiem mērījumiem
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: 'Analītisku atskaišu izveidošana, izmantojot Power BI Desktop'
+                - name: 'Analītisku atskaišu izveidošana, izmantojot PowerBI Desktop'
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 'Analīzes pievienošana darbvietām, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3462,7 +3470,7 @@
                   href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Projekta laika ieraksts
                   href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
-                - name: Project timesheet
+                - name: Projektu darba laika uzskaites tabula
                   href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
                 - name: Pirkšanas pasūtījuma apstiprināšana
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json

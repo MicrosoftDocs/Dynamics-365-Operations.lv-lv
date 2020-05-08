@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a09b90c19d8d4fe5d08abc892ed0c42d9d4592d8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211725"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275606"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -102,14 +102,14 @@ Ja pakalpojuma līmeņa rādītājs tiek palielināts līdz “100”, nevis “
 
 Vērtējuma rādītāji, kas attiecas uz aprēķināšanu, kuriem uzturēšanas speciālistiem būtu jāstrādā ar darba pasūtījumiem, ir iestatīti kā skaitļi, kas tiek pievienoti katram uzturēšanas speciālistu aprēķinam darba pasūtījuma plānošanas laikā. Darba pasūtījumam tiek atlasīts uzturēšanas speciālists ar augstāko rādītāju. Tālāk ir sniegts īss apraksts par uzturēšanas speciālistu rādītājiem.
 
-| Uzturēšanas speciālista rezultāts       | Apraksts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Atbildīgais nodarbinātais | Ja uzturēšanas speciālists tiek atlasīts kā atbildīgais darbinieks darba pasūtījumā, rādītājs tiek pievienots.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Atbildīgā uzturēšanas speciālistu grupa | Ja uzturēšanas speciālists tiek atlasīts kā daļā no uzturēšanas speciālistu grupas darba pasūtījumā, rādītājs tiek pievienots.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Vēlamais uzturēšanas speciālists         | Ja uzturēšanas speciālists tiek atlasīts kā vēlamais uzturēšanas speciālists līdzeklim, rādītājs tiek pievienots.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Vēlamā uzturēšanas speciālistu grupa   | Ja uzturēšanas speciālists ir daļa no vēlamo uzturēšanas speciālistu grupas līdzeklim, rādītājs tiek pievienots.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Vieta                 | Ja jūsu uzņēmums izmanto funkcionālos novietojumus, uzturēšanas speciālisti saņem pilnu rādītāju skaitu, ja tie atrodas funkcionālajā novietojumā, kas saistīts ar līdzekli. Ja līdzekļa funkcionālajam novietojumam ir primārais novietojums, uzturēšanas speciālisti šajā funkcionālajā novietojumā saņem 1/2 rādītāju skaita. Ja arī šai atrašanās vietai ir vecākelements, uzturēšanas speciālisti šajā vietā saņem 1/3 rādītāju skaita. Ja arī šai atrašanās vietai ir vecākelements, uzturēšanas speciālisti šajā vietā saņem 1/4 rādītāju skaita un tā tālāk. Ja jūsu uzņēmums izmanto līdzekļu atrašanās vietu, kuru mēs neiesakām, lai aprēķinātu atrašanās vietas rezultātus, tiek izmantota atrašanās vieta, apgabals un zona. Darbinieki saņem pilnu punktu skaitu, ja tie atrodas atrašanās vietā un zonā, kas saistīta ar līdzekli. Ja darbinieka atrašanās vieta atbilst tikai atrašanās vietai un apgabalam, uzturēšanas speciālista vērtējuma rādītājs ir 2/3 no pilna rādītāju skaita. Ja uzturēšanas speciālista atrašanās vieta atbilst tikai atrašanās vietai, uzturēšanas speciālista vērtējuma rādītājs ir 1/3 no pilna rādītāju skaita. |
-| Nodarbinātā pieņemšanas datums               | Katram datumam, kad ieplānotais sākuma datums ir vēlāk par paredzēto sākuma datumu, rādītājs tiek noņemts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Uzturēšanas speciālista rezultāts| Apraksts |
+|---|---|
+| Atbildīgais nodarbinātais | Ja uzturēšanas speciālists tiek atlasīts kā atbildīgais darbinieks darba pasūtījumā, rādītājs tiek pievienots. |
+| Atbildīgā uzturēšanas speciālistu grupa | Ja uzturēšanas speciālists tiek atlasīts kā daļā no uzturēšanas speciālistu grupas darba pasūtījumā, rādītājs tiek pievienots. |
+| Vēlamais uzturēšanas speciālists         | Ja uzturēšanas speciālists tiek atlasīts kā vēlamais uzturēšanas speciālists līdzeklim, rādītājs tiek pievienots. |
+| Vēlamā uzturēšanas speciālistu grupa   | Ja uzturēšanas speciālists ir daļa no vēlamo uzturēšanas speciālistu grupas līdzeklim, rādītājs tiek pievienots.  |
+| Vieta  | Ja jūsu uzņēmums izmanto funkcionālos novietojumus, uzturēšanas speciālisti saņem pilnu rādītāju skaitu, ja tie atrodas funkcionālajā novietojumā, kas saistīts ar līdzekli. Ja līdzekļa funkcionālajam novietojumam ir primārais novietojums, uzturēšanas speciālisti šajā funkcionālajā novietojumā saņem 1/2 rādītāju skaita. Ja arī šai atrašanās vietai ir vecākelements, uzturēšanas speciālisti šajā vietā saņem 1/3 rādītāju skaita. Ja arī šai atrašanās vietai ir vecākelements, uzturēšanas speciālisti šajā vietā saņem 1/4 rādītāju skaita un tā tālāk. Ja jūsu uzņēmums izmanto līdzekļu atrašanās vietu, kuru mēs neiesakām, lai aprēķinātu atrašanās vietas rezultātus, tiek izmantota atrašanās vieta, apgabals un zona. Darbinieki saņem pilnu punktu skaitu, ja tie atrodas atrašanās vietā un zonā, kas saistīta ar līdzekli. Ja darbinieka atrašanās vieta atbilst tikai atrašanās vietai un apgabalam, uzturēšanas speciālista vērtējuma rādītājs ir 2/3 no pilna rādītāju skaita. Ja uzturēšanas speciālista atrašanās vieta atbilst tikai atrašanās vietai, uzturēšanas speciālista vērtējuma rādītājs ir 1/3 no pilna rādītāju skaita. |
+| Nodarbinātā pieņemšanas datums  | Katram datumam, kad ieplānotais sākuma datums ir vēlāk par paredzēto sākuma datumu, rādītājs tiek noņemts.  |
 
 >[!NOTE]
 >Ja rādītājs ir iestatīts kā “0”, šis rādītājs netiek aprēķināts. Tas ir noderīgi, ja, piemēram, plānošanā nevēlaties iekļaut atbildīgu darbinieku.
@@ -120,3 +120,21 @@ Prasmju un sertifikātu prasības var tikt iestatītas uzturēšanas darba tipie
 
 Uzturēšanas darbu tipi un uzturēšanas darbu darījumi tiek atlasīti darba pasūtījuma uzdevumiem. Ja prasmes un sertifikāti tiek atlasīti uzturēšanas darba tipam vai uzturēšanas darba darījumam un tie tiek izmantoti darba pasūtījuma uzdevumam, attiecīgajam darba pasūtījumam tiek ieplānoti tikai tādi uzturēšanas speciālisti, kuriem ir atbilstošas prasmes un sertifikāti.
 
+<a name="gantt"></a>
+
+## <a name="work-with-scheduled-work-orders-using-a-gantt-chart"></a>Darbs ar plānotajiem darba pasūtījumiem, izmantojot Ganta diagrammu
+
+**Ieplānoto darba pasūtījumu Ganta diagramma** sniedz grafisku interfeisu, kur varat skatīt un pārplānot savus darba pasūtījumus.
+
+Lai skatītu un strādātu ar Ganta diagrammu:
+
+1. Dodieties uz **Līdzekļu pārvaldība > Darba pasūtījumi > Plānoto darba pasūtījumu Ganta diagramma**.
+
+1. Lietojiet nolaižamos sarakstus un laukus sadaļā **Iestatījumi**, lai iestatītu, kādu funkcionālo novietojumu, laika posmu un laika skalu, ko parādīt Ganta diagrammā.
+
+1. Atlasiet **Lietot**.
+
+    - Ganta diagrammas atjauninājumi, lai parādītu plānotos darba pasūtījumus, kas atbilst jūsu iestatījumiem. Katru darba pasūtījumu attēlo zils taisnstūris.
+    - Lai pārplānotu parādīto darba pasūtījumu, atlasiet un pēc tam velciet to uz atbilstošo jauno datumu un laiku.
+
+1. Ja veicāt izmaiņas, noklikšķiniet uz **Saglabāt** darbības rūtī, lai tās saglabātu.

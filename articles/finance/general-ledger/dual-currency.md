@@ -3,7 +3,7 @@ title: Divkāršā valūta
 description: Šajā tēmā ir sniegta informācija par divkāršo valūtu — gadījumu, kad pārskata valūta tiek izmantota kā otrā uzskaites valūta programmā Microsoft Dynamics 365 Finance.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249015"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270316"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
@@ -174,10 +174,10 @@ Turklāt nolietojuma procesā ir veiktas būtiskas izmaiņas. Šīm izmaiņām i
 
         | Pamatlīdzeklis | Rezervēšana      | Darbības veids | Darījuma datums | Valūta | Summa darījuma valūtā | Daudzums  | Maiņas kurss | Pārskata valūtas summa |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
-        | BUIL-00001  | 200\_SLLT | Iegāde      | 6/3/2016         | DKK      | 1 000 000                      | 500 000 | 2,5       | 250 000                   |
-        | BUIL-00001  | 200\_SLLT | Nolietojums     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250 000                   |
-        | BUIL-00001  | 200\_SLLT | Nolietojums     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250 000                   |
-        | BUIL-00001  | 200\_SLLT | Nolietojums     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250 000                   |
+        | BUIL-00001  | 200\_SLLT | Iegāde      | 6/3/2016         | DKK      | 1 000 000                      | 500,000 | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Nolietojums     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Nolietojums     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Nolietojums     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - Daudzi debitori izsekoja savu līdzekļu transakciju informāciju darbgrāmatās. Šī informācija ietver maiņas kursus un summas. Ja šie dati ir darbgrāmatā, var izveidot pielāgotu maiņas kursa tipu un atjaunināt, izmantojot maiņas kursus no darbgrāmatas. Šis maiņas kursa tips pēc tam tiks izmantots, lai ievadītu noklusējuma maiņas kursu iegādes datumā un aprēķinātu pārskata valūtas summu. Ja nav atlasīts maiņas kursa tips, vednis izmanto maiņas kursa tipu, kas tika definēts virsgrāmatā.
     - Maiņas kursu un pārskata valūtas summas var mainīt. Ja maiņas kurss tiek mainīts, pārskata valūtas summa tiek pārrēķināta, izmantojot jauno likmi.

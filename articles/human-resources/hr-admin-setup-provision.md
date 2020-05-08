@@ -3,7 +3,7 @@ title: Human Resources nodrošināšana
 description: Šajā rakstā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 88a0be50a9b861190e7ce9b3f56bb4e583b791d1
+ms.sourcegitcommit: 33685a5cc37081a189279e917def7f122d3beaef
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138363"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3285493"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -53,13 +53,13 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
 
 1. Savā LCS projektā atlasiet elementu **Human Resources programmas pārvaldība**.
 
-2. Norāda, vai šī ir Human Resources ražošanas vai smilškastes instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes.
+2. Norāda, vai šī vide ir Human Resources ražošanas vai smilškastes instance. Smilškastes instancēs varētu būt pieejami agrīni priekšskatījuma līdzekļi, lai varētu agri veikt testēšanu un saņemt atsauksmes.
    
     > [!NOTE]
     > Human Resources instances tipu nevar mainīt pēc iestatīšanas. Pirms turpināt, pārbaudiet, vai ir atlasīts pareizais instances tips.</br></br>
     > Human Resources instances veids ir neatkarīgs no Microsoft Power Apps vides instances veida, kuru iestatāt Power Apps administrēšanas centrā.
     
-3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Human Resources izmēģinājuma vides ietvaros. Tas ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un to nekādā gadījumā nedrīkst lietot ražošanas vidē.  Ņemiet vērā, ka šī opcija ir jāizvēlas pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
+3. Atlasiet opciju **Iekļaut demonstrācijas datus**, ja vēlaties konkrētajā vidē iekļaut to pašu demonstrācijas datu kopu, kas izmantota Human Resources izmēģinājuma vides ietvaros. Demonstrācijas dati ir izdevīgi ilgtermiņa demonstrācijas vai apmācības vidē, un tos nekādā gadījumā nedrīkst lietot ražošanas vidē. Jums ir jāizvēlas šī opcija pēc sākotnējās izvietošanas. Esošu izvietošanu vēlāk nevar atjaunināt.
 
 4. Human Resources vienmēr tiek nodrošināta Microsoft Power Apps vidē, lai iespējotu Power Apps integrāciju un paplašināmību. Pirms turpināšanas izlasiet šī raksta sadaļu “Power Apps vides izvēle”. Ja jums vēl nav pieejama Power Apps vide, pakalpojumā LCS atlasiet Pārvaldīt vides vai pārejiet uz Power Apps administrēšanas centru. Pēc tam izpildiet norādījumus par procedūru [Izveidot Power Apps vidi](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
@@ -74,27 +74,27 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
     > [!NOTE]
     > Ja vēl neesat izrakstījies no gala prasībām, projektā varat izvietot Human Resources testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
 
-    > Jūs varētu apsvērt iespēju izmantot bezmaksas 60 dienu [Human Resources izmēģinājuma vidi](https://dynamics.microsoft.com/talent/overview/). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
+    > Jūs varētu apsvērt iespēju izmantot bezmaksas 60 dienu [Human Resources izmēģinājuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 ## <a name="select-a-power-apps-environment"></a>Atlasiet Power Apps vidi
 
-Izmantojot integrāciju starp Human Resources un Power Apps vidēm, varat integrēt un paplašināt Human Resources datu lietojumu, izmantojot Power Apps rīkus. Izpratne par Power Apps vides mērķi ne tikai palīdzēs izveidot programmas, lai paplašinātu Human Resources, bet arī palīdzēs izvēlēties vajadzīgo vidi Human Resources nodrošināšanas laikā. Papildinformāciju par Power Apps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā [Paziņojums par Power Apps vidēm](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+Varat integrēt un paplašināt Human Resources datu izmantošanu, izmantojot Power Apps rīkus. Papildinformāciju par Power Apps vidēm, tostarp vides tvērumu, piekļuvi videi, kā arī vides izveidi un izvēli skatiet tēmā [Paziņojums par Power Apps vidēm](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tālāk sniegtos norādījumus. 
 
-1. LCS atlasiet **Pārvaldīt vides** vai dodieties tieši uz Power Apps administrēšanas centru, kur varat skatīt esošās vides un izveidot jaunas vides.
+1. Pakalpojumā LCS atlasiet **Pārvaldīt vides**. Jūs varat arī doties uzreiz uz Power Apps administrēšanas centru, kur varat skatīt esošās vides un izveidot jaunas vides.
 
 2. Katra Human Resources vide ir kartēta atsevišķā Power Apps vidē.
 
 3. Power Apps vide satur Human Resources, kā arī atbilstošās Power Apps, Power Automate un Common Data Service programmas. Ja tiek dzēsta Power Apps vide, kopā ar to tiek dzēstas arī programmas. Kad nodrošināt Human Resources vidi, varat nodrošināt vai nu vidi **Izmēģinājumversija**, vai **Ražošana**. Vides tips ir jāizvēlas atkarībā no veida, kādā šī vide tiks izmantota. 
 
-4. Ir jāapsver datu integrācijas un pārbaudes metodes, piemēram, smilškastes, UAT vai ražošanas. Mēs iesakām apsvērt dažādas izvietojuma saistīšanas iespējas, jo vēlāk nevar viegli mainīt to, kura Human Resources vide ir kartēta uz Power Apps vidi.
+4. Ir jāapsver datu integrācijas un pārbaudes metodes, piemēram, smilškastes, UAT vai ražošanas. Uzmanīgi apsveriet izvietojuma saistīšanas iespējas, jo nevar viegli mainīt to, kura Human Resources vide ir kartēta uz Power Apps vidi.
 
-5. Tālāk minētās Power Apps vides nevar lietot Human Resources, tāpēc tās netiek rādītas LCS esošajā atlases sarakstā.
+5. Jūs nevarat izmantot šādas Power Apps Human Resources vides. Tie ir filtrēti no atlases saraksta sistēmā LCS:
  
-    - **Noklusējuma Power Apps vides**— lai gan katram nomniekam tiek automātiski nodrošināta noklusējuma Power Apps vide, tās nav ieteicams izmantot programmatūrā Human Resources, jo visi nomnieka lietotāji var piekļūt Power Apps videi un nejauši sabojāt ražošanas datus, izmēģinot vai iepazīstot Power Apps vai Power Automate integrāciju.
+    - **Noklusējuma Power Apps vides** — lai gan katrs nomnieks tiek automātiski nodrošināts ar noklusējuma Power Apps vidi, mēs neiesakam tās izmantot personāla vadības sistēmā. Visi nomnieku lietotāji var piekļūt Power Apps videi un, pārbaudot un pētot ar Power Apps vai Power Automate integrācijām, var netīši bojāt ražošanas datus.
    
-    - **Izmēģinājuma vides** — šīs vides ir izveidotas ar beigu datumu, un beigsies pēc tā, kā rezultātā jūsu vide un tajā ietvertās jebkuras Human Resources instances tiks automātiski noņemtas.
+    - **Izmēģinājuma vides** – šīs vides tiek veidotas ar beigu datumu. Pēc termiņa beigām jūsu vide un visas Human Resources instances, kas atrodas tajā, tiks automātiski noņemtas.
    
     - **Neatbalstītie reģioni** – pašlaik Human Resources tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienotā Karaliste, Austrālija, Kanāda un Āzija.
 
@@ -105,4 +105,4 @@ Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tāl
  
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
 
-Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Taču citiem programmas lietotājiem piekļuve ir jāpiešķir. Lai piešķirtu piekļuvi, ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Human Resources vidē. Globālajam administratoram, kas izvietoja Human Resources, ir jāpalaiž gan Attract, gan Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieka lietotājiem.  Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Jums ir īpaši jāpiešķir piekļuve citiem programmas lietotājiem. Jums ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Human Resources vidē. Globālajam administratoram, kas izvietoja Human Resources, ir jāpalaiž gan Attract, gan Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieka lietotājiem. Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
