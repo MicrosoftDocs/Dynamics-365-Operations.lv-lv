@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 1.\_maijs"
+          href: hr-whats-new-2020-05-01.md
         - name: "2020.\_gada 13.\_aprīlis"
           href: hr-whats-new-2020-04-13.md
         - name: "2020.\_gada 3.\_aprīlis"
@@ -373,7 +375,7 @@
               href: hr-personnel-loan-items.md
             - name: Pēctecības plāna izstrāde
               href: hr-personnel-develop-succession-plan.md
-            - name: Projekta grafiku ievade
+            - name: Projektu darba laika uzskaites tabulu ievade
               href: hr-personnel-enter-project-timesheets.md
             - name: Masveida darbā pieņemšanas projekti
               href: hr-personnel-mass-hire-projects.md
@@ -503,6 +505,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Pārtraukt atvaļinājumu
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Darbinieka atvaļinājuma pārvaldība
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: Skatīt analīzi par atvaļinājumu un kavējumu
               href: hr-leave-and-absence-analytics.md
             - name: Atvaļinājumu un kavējumu pieprasījumu pārvaldība

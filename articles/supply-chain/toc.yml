@@ -417,7 +417,7 @@
                   href: asset-management/controlling-and-reporting/work-hour-control.md
                 - name: Līdzekļu kļūmju izmaksu kontrole
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
-                - name: Līdzekļu defektu analīze
+                - name: Līdzekļu kļūmju analīze
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
                 - name: Līdzekļa KPI
                   href: asset-management/controlling-and-reporting/asset-kpis.md
@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Uzturēšanas statuss
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Līdzekļu pārvaldības integrēšana ar programmā Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Līdzekļu pārvaldības mobilā darbvieta
               href: asset-management/asset-management-mobile-workspace.md
         - name: Datu pārvaldība
@@ -703,11 +705,11 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finanšu dimensiju pievienošana apkopotiem mērījumiem
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Analītisku atskaišu izveidošana, izmantojot PowerBI Desktop'
+                - name: "Analītisku pārskatu izveide, izmantojot programmu Power\_BI Desktop"
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Analīzes pievienošana darbvietām, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Analītisku darbvietu un atskaišu drošības uzlabošana, izmantojot Power BI Embedded'
+                - name: 'Analītisku darbvietu un pārskatu drošības uzlabošana, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pārskatu risinājumu izveide
                   href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/supply-chain/toc.json
@@ -737,7 +739,7 @@
                       items:
                         - name: (ER) RCS izmantojamo programmas metadatu sagatavošana
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: '(RCS) Piekļuve programmas metadatiem, izmantojot ER konfigurāciju'
+                        - name: '(RCS) Piekļuve programmas metadatiem, izmantojot elektronisko pārskatu konfigurāciju'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: '(RCS) Piekļuve programmas metadatiem, izmantojot saistītas programmas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -1041,7 +1043,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: 'Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes'
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER konfigurāciju atkarības no citiem komponentiem definēšana
+            - name: Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: 'ER risinājuma noformēšana, lai izmantotu finanšu dimensijas'
               items:
@@ -1319,7 +1321,7 @@
               items:
                 - name: Plānošanas optimizācijas apskats
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Negatīvais rīcībā esošais tiek uzskatīts par nulles rīcībā esošo
+                - name: Plānošana ar negatīviem rīcībā esošajiem daudzumiem
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Darba sākšana ar plānošanas optimizāciju
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Min.-maks. papildināšanas procesa iestatīšana
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Noliktavas programmas instalēšana un konfigurēšana
               items:
                 - name: Instalēšanas un konfigurēšanas pārskats
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobilo ierīču iestatīšana darbam noliktavā
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: 'Numura zīmes saņemšana, izmantojot noliktavas mobilo programmu'
+                - name: 'Numura zīmes saņemšana, izmantojot noliktavas programmu'
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
                   href: warehousing/tasks/set-up-mobile-device-menu.md

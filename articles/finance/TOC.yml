@@ -990,6 +990,8 @@
               href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Projekta prognozes un budžeti
               href: project-management/project-forecasts-budgets.md
+            - name: Budžeta modeļu izveide projekta budžetiem
+              href: project-management/create-forecast-models-project-budgets.md
             - name: Projekta budžetu pārsūtīšana finanšu gada beigās
               href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Projekta pārdošanas pasūtījumi
@@ -1736,14 +1738,14 @@
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Žurnālu saraksta pārskats
                   href: localizations/emea-deu-journal-list-report.md
-                - name: Iestatīt elektroniskās nodokļu deklarācijas
+                - name: Elektronisko nodokļu deklarāciju iestatīšana
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
             - name: Ungārija
               items:
                 - name: Ungārijas pārskats
                   href: localizations/hungary.md
-                - name: Valūtas maiņas kursa aprēķins
-                  href: localizations/tasks/hu-00001-exchange-rate-calculation.md
+                - name: Vidējā un dienas valūtas maiņas kursa aprēķins
+                  href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
                 - name: Pamatlīdzekļu nolietojuma metodes
                   href: localizations/emea-hun-fixed-assets-depreciation-methods.md
                 - name: Lētie pamatlīdzekļi
@@ -2284,6 +2286,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL integrācija
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
+                - name: 'Audita fails (XML Auditfile Financieel, XAF)'
+                  hred: localizations/emea-nl-audit-file.md
             - name: Norvēģija
               items:
                 - name: Norvēģijas pārskats
@@ -2930,11 +2934,11 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Finanšu dimensiju pievienošana apkopotiem mērījumiem
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: 'Analītisku atskaišu izveidošana, izmantojot PowerBI Desktop'
+                - name: "Analītisku pārskatu izveide, izmantojot programmu Power\_BI Desktop"
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 'Analīzes pievienošana darbvietām, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
-                - name: 'Analītisku darbvietu un atskaišu drošības uzlabošana, izmantojot Power BI Embedded'
+                - name: 'Analītisku darbvietu un pārskatu drošības uzlabošana, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/finance/toc.json
                 - name: Pārskatu risinājumu izveide
                   href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/finance/toc.json
@@ -2964,7 +2968,7 @@
                       items:
                         - name: (ER) RCS izmantojamo programmas metadatu sagatavošana
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: '(RCS) Piekļuve programmas metadatiem, izmantojot ER konfigurāciju'
+                        - name: '(RCS) Piekļuve programmas metadatiem, izmantojot elektronisko pārskatu konfigurāciju'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
                         - name: '(RCS) Piekļuve programmas metadatiem, izmantojot saistītas programmas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
@@ -2978,7 +2982,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Mērķa programmā sagatavotā ER risinājuma testēšana
                       items:
-                        - name: (ER) Konfigurāciju importēšana no RCS
+                        - name: Konfigurāciju importēšana no RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: 'Elektronisko dokumentu ģenerēšana maksājumiem, izmantojot formāta konfigurāciju'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
@@ -3026,6 +3030,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: Today
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
                     - name: Saraksts
                       items:
                         - name: Saraksta funkcijas
@@ -3240,12 +3246,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: 'Datu modeļu definīciju atlase, veidojot formātus'
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Uzlabotās filtrēšanas opcijas konfigurāciju atrašanai globālajā repozitorijā
-              href: ../finance/localizations/enhanced-filtering-global-repo.md
-            - name: 'Pārskatu ģenerēšana, pievienojot saturu kā neapstrādātu XML'
-              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-            - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
-              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
             - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
                 - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
@@ -3268,46 +3268,14 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
             - name: 'Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes'
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
-            - name: ER konfigurāciju atkarības no citiem komponentiem definēšana
+            - name: Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: 'ER risinājuma noformēšana, lai izmantotu finanšu dimensijas'
-              items:
-                - name: 'Datu modeļu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
-                - name: 'Modeļu kartēšana, lai finanšu dimensijas izmantotu kā datu avotus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
-                - name: 'Pārskatu noformēšana, lai finanšu dimensijas izmantotu kā datu avotus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
-                - name: 'Tādu pārskatu palaišana, kuros finanšu dimensijas tiek izmantotas kā datu avoti'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-            - name: 'ER formātu noformēšana, lai inventarizācija un summēšana tiktu veikta, izmantojot ģenerētās izvades informāciju'
-              items:
-                - name: 'Formātu izveide, lai veiktu inventarizāciju un summēšanu'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
-                - name: 'Formāta konfigurēšana, lai veiktu inventarizāciju un summēšanu'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
-                - name: 'Aprēķinu izmantošana, lai ģenerētu inventarizācijas un summēšanas izvades datus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
-                - name: 'Formātu palaišana, lai veiktu inventarizāciju un summēšanu'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
             - name: Kolonnu dinamiska pievienošana Excel pārskatiem ar horizontāli paplašināmiem diapazoniem
               items:
                 - name: 'Formātu noformēšana, lai Excel pārskatiem dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                 - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-            - name: Dokumentu pārvaldības failu izmantošana formātu izvades datos
-              items:
-                - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu izvades datos'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
-                - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu izvades datos'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
-                - name: "Formātu izveide, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu\_izvades datos"
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
-                - name: "Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER\_izvades datos"
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
-                - name: 'Formātu modificēšana un palaišana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
             - name: 'Programmas datu atjaunināšana, izmantojot elektroniskos pārskatus'
               items:
                 - name: Elektronisko dokumentu ģenerēšana un programmas datu atjaunināšana
@@ -3340,8 +3308,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: ER datu avotu parametrizēto izsaukumu ar lauka veidu Aprēķināts atbalsts
-              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
             - name: Konfigurācijas dzīves cikls
               items:
                 - name: Konfigurāciju dzīves cikla pārvaldība
@@ -3361,23 +3327,67 @@
                     - name: Konfigurāciju lejupielāde no elektronisko pārskatu repozitorija RCS tipam
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigurāciju importēšana no RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
             - name: Apmācība
               items:
-                - name: 'SAVIENOJUMA datu avotu izmantošana, lai iegūtu datus no vairākām programmas tabulām'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                - name: 'Uzziniet, kā izmantot datu avotus'
+                  items:
+                    - name: 'SAVIENOJUMA izmantošana, lai iegūtu datus no vairākām tabulām'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 'NEAPSTRĀDĀTA XML izmantošana, lai pievienotu saturu'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
+                    - name: APRĒĶINĀTĀ LAUKA datu avotu parametru izsaukumu atbalsts
+                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                    - name: Starpuzņēmumu elektronisko pārskatu datu avoti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: FINANŠU DIMENSIJU INFORMĀCIJAS datu avotu izmantošana
+                      items:
+                        - name: Datu modeļu noformēšana
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Modeļu kartēšana, lai izmantotu finanšu dimensijas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Pārskatu noformēšana
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Pārskatu palaišana
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Ģenerētās izvades izmantošana par datu avotu, lai veiktu inventarizāciju un summēšanu'
+                      items:
+                        - name: Formātu izveide
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Formāta konfigurēšana, lai veiktu inventarizāciju un summēšanu'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Inventarizācijas un summēšanas izvades datu ģenerēšana
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Formātu palaišana, lai veiktu inventarizāciju un summēšanu'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 'DOKUMENTU relāciju izmantošana, lai piekļūtu dokumentu pārvaldības failiem'
+                      items:
+                        - name: Datu modeļu sagatavošana
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Datu modeļu paplašināšana, lai izmantotu dokumentu pārvaldības failus'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Formātu izveide
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Formātu palaišana, lai izmantotu dokumentu pārvaldības failus'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Formātu modificēšana un palaišana, lai izmantotu dokumentu pārvaldības failus'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
+                        - name: Datu avotu atkļūdošana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
                 - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
                 - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                 - name: ER formāta parametru iestatīšana juridiskai personai
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
                 - name: ER formāta elementu izpildes atlikšana
                   items:
                     - name: Secības elementa izpildes atlikšana
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                     - name: XML elementa izpildes atlikšana
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                - name: Relatīvais ceļš datu saistījumos
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
               items:
                 - name: Struktūras konfigurēšana
@@ -3385,7 +3395,11 @@
                     - name: Elektronisko pārskatu veidošanas struktūras konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu veidņu dublēšana un atkopšana
-                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                      items:
+                        - name: Elektronisko pārskatu veidņu dublējumkopiju glabāšana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektronisko pārskatu migrācijas tīrīšana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigurācijas nodrošinātāju izveide un statusa Aktīvs piešķiršana
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Adresāti
