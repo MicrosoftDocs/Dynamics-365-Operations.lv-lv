@@ -18,13 +18,11 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: "Platformas atjauninājumi versijai\_10.0.10 (2020.\_gada maijs)"
                   href: get-started/whats-new-platform-update-34.md
-                - name: "Platform update\_33 (2020.\_gada aprīlis)"
+                - name: "Platformas atjauninājums\_33 (2020.\_gada aprīlis)"
                   href: get-started/whats-new-platform-update-33.md
-                - name: "Platform update\_32 (2020.\_gada februāris)"
-                  href: get-started/whats-new-platform-update-32.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
-                - name: Noņemtie vai novecojušie Platform līdzekļi
+                - name: Noņemtie vai novecojušie platformas līdzekļi
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Duālā ieraksta iestatīšana no Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Sākotnējā sinhronizācija
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Iespējot duālo ierakstu esošajām Finance and Operations programmām
                               items:
                                 - name: Iespējot duālo ierakstu esošajām Finance and Operations programmām
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Versiju kontrole, metadatu meklēšana un navigācija'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: 'Automatizācijas izveide, izmantojot Azure'
+              items:
+                - name: 'Automatizācijas izveide, izmantojot Microsoft viesotus aģentus un Azure Pipelines'
+                  href: dev-tools/hosted-build-automation.md
+                - name: Licences failu pievienošana izvietojamai pakotnei pakalpojumā Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Izvietojamu pakotņu izveide pakalpojumā Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: X++ modeļa versiju izveide pakalpojumā Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: Autoparka pārvaldības programmas piemērs
               items:
                 - name: Visaptverošs scenārijs autoparka pārvaldības programmas piemēram
@@ -1396,11 +1402,13 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Drošības lomu piešķiršana lietotājiem
                   href: sysadmin/tasks/assign-users-security-roles.md
-            - name: Pakešveida apstrāde
+                - name: Drošības diagnostika uzdevumu ierakstiem
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Pakešapstrāde
               items:
                 - name: Pakešapstrādes apskats
                   href: sysadmin/batch-processing-overview.md
-                - name: Pakešveida apstrāde un pakešapstrādes serveri
+                - name: Pakešapstrāde un pakešapstrādes serveri
                   href: sysadmin/batch-server-overview.md
                 - name: Izveidot pakešuzdevumus
                   href: sysadmin/tasks/create-batch-job.md
