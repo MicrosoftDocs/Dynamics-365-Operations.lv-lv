@@ -3,7 +3,7 @@ title: Izmantojiet SAVIENOJUMA datu avotus ER modeļu kartējumos, lai iegūtu d
 description: Šajā tēmā ir paskaidrots, kā elektroniskajos pārskatos (Electronic Reporting — ER) varat izmantot SAVIENOJUMA veida datu avotus.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667958"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332326"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Izmantojiet SAVIENOJUMA datu avotus, lai iegūtu datus no vairākām programmas tabulām elektronisko pārskatu (ER) modeļu kartējumos
 
@@ -140,7 +140,7 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
 7.  Aizvērt lapu.
 
-### <a name="review"></a> ER modeļa kartēšanas pārskatīšana (2. daļa)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> ER modeļa kartēšanas pārskatīšana (2. daļa)
 
 Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konfigurēts, lai piekļūtu informācijai par ER konfigurāciju versijām, detalizētai informācijai par konfigurācijām un konfigurācijas nodrošinātājiem, izmantojot **Savienošanas** datu avota veidu.
 
@@ -185,7 +185,7 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 9.  Aizvērt lapu.
 10. Atlasiet **Atcelt**.
 
-### <a name="executeERformat"></a> Izpildīt ER formātu
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Izpildīt ER formātu
 
 1.  Piekļūstiet Finance vai RCS jūsu tīmekļa pārlūkprogrammas otrajā sesijā, izmantojot tos pašus akreditācijas datus un uzņēmumu kā pirmajā sesijā.
 2.  Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas**.
@@ -240,7 +240,7 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
     ![ER lietotāja dialoga lapa](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Analizēt ER formāta izpildes izsekošanu
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizēt ER formāta izpildes izsekošanu
 
 1.  Pirmajā Finance vai RCS sesijā atlasiet **Izstrādātājs**.
 2.  Atlasiet **Veiktspējas izsekošana**.
@@ -256,6 +256,33 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
     - Programmas datu bāze ir vienreiz izsaukta, lai aprēķinātu konfigurācijas versiju skaitu, lietojot savienojumus, kas tika konfigurēti datu avotā **Detalizēta informācija**.
 
     ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Ierobežojumi
+
+Kā redzams no piemēra šajā tēmā, **SAVIENOJUMA** datu avots var tikt izveidots no vairākiem datu avotiem, kas apraksta atsevišķas to ierakstu datu kopas, kas ir jāpievieno. Šos datu avotus jūs varat konfigurēt, izmantojot iebūvēto ER [FILTRA](er-functions-list-filter.md) funkciju. Konfigurējot datu avotu tā, ka tas tiek izsaukts ārpus **SAVIENOJUMA** datu avota, jūs varat izmantot uzņēmuma diapazonus kā daļu no nosacījuma datu atlasei. Sākotnējā **SAVIENOJUMA** datu avota ieviešana neatbalsta šāda veida datu avotus. Piemēram, kad izsaucat uz [FILTRA](er-functions-list-filter.md) balstītu datu avotu, kas ietilpst **SAVIENOJUMA** datu avota izpildes jomā, ja izsauktajam datu avotam ir uzņēmuma diapazoni kā daļa no nosacījuma datu atlasei, izveidojas izņēmums.
+
+Microsoft Dynamics 365 Finance versijā 10.0.12 (2020. gada augusts) jūs varat izmantot uzņēmuma diapazonus kā daļu no nosacījuma datu atlasei uz [FILTRA](er-functions-list-filter.md) balstītos datu avotos, kas tiek izsaukti ar **SAVIENOJUMA** datu avota izpildes jomu. Programmas [vaicājuma](../dev-ref/xpp-library-objects.md#query-object-model) veidotāja ierobežojumu dēļ uzņēmumu diapazoni tiek atbalstīti tikai pirmajam **SAVIENOJUMA** datu avotam.
+
+### <a name="example"></a>Paraugs
+
+Piemēram, jums ir jāveic viens izsaukums programmas datu bāzei, lai iegūtu vairāku uzņēmumu ārējās tirdzniecības transakciju sarakstu un to krājumu vienības, kas minētas šajās transakcijās.
+
+Šādā gadījumā tiek konfigurēti šādi artefakti jūsu ER modeļu kartēšanā:
+
+- **Intrastat** saknes datu avots, kas pārstāv **Intrastat** tabulu.
+- **Vienības** saknes datu avots, kas pārstāv **InventTable** tabulu.
+- **Uzņēmumu** saknes datu avots, kas atgriež uzņēmumu sarakstu (**DEMF** un **GBSI** šajā piemērā), kur transakcijām jāpiekļūst. Uzņēmuma kods ir pieejams no lauka **Companies.Code**.
+- **X1** saknes datu avots, kam ir izteiksme `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Kā daļa no nosacījuma datu atlasei šī izteiksme ietver uzņēmuma diapazonu definīciju `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- **X2** datu avots kā ligzdots **X1** datu avota krājums. Tajā ir ietverta izteiksme `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Visbeidzot jūs varat konfigurēt **SAVIENOJUMA** datu avotu, kur **X1** ir pirmais datu avots un **X2** ir otrais datu avots. Jūs varat norādīt **Vaicājumu** kā **Izpildes** opciju, lai piespiestu ER palaist šo datu avotu datu bāzes līmenī kā tiešo SQL zvanu.
+
+Kad tiek palaists konfigurētais datu avots, kamēr ER izpilde ir [izsekota](trace-execution-er-troubleshoot-perf.md), šāds paziņojums tiek parādīts ER modeļa kartēšanas izstrādātājā kā daļa no ER veiktspējas izsekošanas.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Kļūda rodas tad, ja tiek palaists **SAVIENOJUMA** datu avots, kas ir konfigurēts tā, lai tas ietvertu datu atlases nosacījumus, kuriem ir uzņēmuma diapazoni, kas paredzēti izpildāmā **SAVIENOJUMA** datu avota papildu datu avotiem.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

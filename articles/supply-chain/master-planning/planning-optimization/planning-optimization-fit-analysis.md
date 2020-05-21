@@ -3,7 +3,7 @@ title: Plānošanas optimizācijas saderības analīze
 description: Šajā tēmā skaidrots, kā verificēt jūsu pašreizējos iestatījumus un datus, salīdzinot ar Plānošanas optimizācijas funkcionalitātes iespējām.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277802"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346657"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas saderības analīze
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Lai apskatītu, cik saderīgi ir jūsu pašreizējie iestatījumi un dati ar Plānošanas optimizācijas funkcionalitāti, dodieties uz **Vispārējā plānošana**\>**Iestatīšana**\>**Plānošanas optimizācijas saderības analīze**, un pēc tam atlasiet **Palaist analīzi**. Ja analīze atklāj neatbilstības, tās ir uzskaitītas tajā pašā lapā. (Analīze var ilgt dažas minūtes.)
@@ -73,6 +72,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Starpuzņēmums | Vispārējie plāni, kas ietver lejupstraumes plānoto pieprasījumu _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik vispārējā plānošana neiekļauj lejupstraumes plānoto pieprasījumu, kad ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. Ievērojiet, ka izlaistie/apstiprinātie pasūtījumi joprojām strādā ar parasto starpuzņēmumu funkcionalitāti un attieksies uz lielāko daļu scenāriju. |
 | Kanban | Vienumu vajadzības ieraksti ar plānoto pasūtījuma tipu Kanban: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik, iespējojot plānošanas optimizāciju, krājumu nodrošinājums, kas iestatīts uz Kanban, tiks ignorēts. Kanban plānotā pasūtījuma veids vispārējās plānošanas laikā radīs brīdinājumu, un tiks izveidoti plānotie pirkšanas pasūtījumi, lai nosegtu saistīto pieprasījumu. |
 | Kanban | Vienumi ar noklusējuma pasūtījuma tipu Kanban: _\#_ | Pašlaik, iespējojot plānošanas optimizāciju, noklusējuma pasūtījuma veids, kas iestatīts uz Kanban, tiks ignorēts. Kanban noklusējuma pasūtījuma veids vispārējās plānošanas laikā radīs brīdinājumu, un tiks izveidoti plānotie pirkšanas pasūtījumi, lai nosegtu saistīto pieprasījumu. |
+| Preces dzīves cikla stāvoklis   | Preces dzīves cikla stāvokļi nav aktīvi plānošanai: _\#_ | Šī funkcija vēl nav pabeigta. Pašlaik Preces dzīves cikla stāvoklis tiek ignorēts, izmantojot iespējoto plānošanas optimizāciju. Jūs varat pielāgot plāna līmeņa preces filtru, lai izvairītos no to preču iekļaušanas, kuru ražošanas cikla stāvoklis ir atspējots plānošanai. |
 | Ražošana | MK rindas ar noapaļošanu vai vairākkārtēju iestatīšanu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik noapaļošana un vairāki iestatījumi tiek ignorēti MK rindās, iespējojot plānošanas optimizāciju neatkarīgi no šī iestatījuma. |
 | Ražošana | MK/formulas rindas ar formulas mērījumu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik formulas mērījumi tiek ignorēti MK un formulas rindās, iespējojot plānošanas optimizāciju neatkarīgi no šī iestatījuma. |
 | Ražošana | MK/formulas rindas ar krājumu aizstāšanu (plānu grupas): _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik krājuma aizstāšana (plānu grupas) tiek ignorēta MK un formulas rindās, iespējojot plānošanas optimizāciju neatkarīgi no šī iestatījuma. |
@@ -99,7 +99,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Pārdošanas piedāvājumi | Vispārējie plāni ar iespējotiem pārdošanas piedāvājumiem: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājumi netiek ņemti vērā, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. |
 | Glabāšanas laiks | Vispārējie plāni ar iespējotu glabāšanas laiku: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik glabāšanas laiks netiek ņemts vērā, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. |
 
-## <a name="related-resources"></a>Saistītie resursi
+## <a name="additional-resources"></a>Papildu resursi
 
 [Plānošanas optimizācijas apskats](planning-optimization-overview.md)
 

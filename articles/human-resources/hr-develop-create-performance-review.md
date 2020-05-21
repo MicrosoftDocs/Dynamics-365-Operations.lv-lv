@@ -1,9 +1,9 @@
 ---
 title: Veiktspējas pārskatu izveide
-description: Šajā rakstā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks.
+description: Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009806"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334687"
 ---
 # <a name="create-performance-reviews"></a>Veiktspējas pārskatu izveide
 
 
-
-Šajā rakstā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus.
+Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks. Šī procedūra tika izveidota, izmantojot demonstrācijas uzņēmuma USMF datus.
 
 1. Sākumlapā izvēlieties **Darbinieka pašapkalpošanās** darbvietu.
 2. Lai izveidotu jaunu pārskatu, atlasiet **Jauns pārskats**.
@@ -37,7 +36,7 @@ ms.locfileid: "3009806"
 6. Atlasiet **Labi**. Jūs varat arī izveidot pārskatu no veidnes. Tas ir labākais veids kā izveidot pārskatu, jo katrā sadaļā tiks ietverta informācija, kas ir nepieciešama, lai uzsāktu pārskatu.  
 7. Varat parādīt vai paslēpt tādas cilnes ka pielikumu cilne.
 
-    1. Darbību rūtī atlasiet **Parādīt sadaļas**, lai atvērtu nolaižamo dialoglodziņu.
+    1. Darbību rūtī atlasiet **Parādīt sadaļas**, lai atvērtu dialoglodziņa izvēlni.
     1. Atlasiet **Jā** vai **Nē** laukā **Rādīt pielikumus**, lai rādītu vai slēptu pielikumu cilni.
     1. Atlasiet **Saglabāt**.
 
@@ -51,7 +50,7 @@ ms.locfileid: "3009806"
 15. Atlasiet **Pievienot komentāru**.
 16. Atlasiet **Grāmatot**.
 17. Atlasiet cilni **Mērījumi**.
-18. Atlasiet **Pievienot mērījumu**, lai atvērtu nolaižamo dialoglodziņu.
+18. Atlasiet **Pievienot mērījumu**, lai atvērtu dialoglodziņa izvēlni.
 19. Ievadiet vai atlasiet vērtību laukā **Mērījums**.
 26. Laukā **Mērķa summa** ievadiet skaitli.
 20. Atlasiet **Labi**.
@@ -73,7 +72,7 @@ ms.locfileid: "3009806"
 32. Atlasiet cilni **Vispārēji**.
 
     - Veiktspējas periodam izveido noklusējuma sākuma un beigu datumus. Šie datumi ir rediģējami.  
-    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. Gatavs pārskatīšanai ļauj tikai vadītājam skatīt un rediģēt pārskatu. Statuss Gala pārskats ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja tas ir iestatīts sadaļā pārskata tips. Statusi **Pabeigts**, **Noraidīts** un **Atcelts** padara pārskatu par tikai skatāmu.  
+    - Statusi kontrolē piekļuvi pārskatam. Ja statuss ir **Nesākts**, ikviens var rediģēt pārskatu. Ja statuss ir **Notiekošs**, tikai darbinieks var skatīt un rediģēt pārskatu. **Gatavs pārskatīšanai** ļauj tikai vadītājam skatīt un rediģēt pārskatu. Statuss **Gala pārskats** ļauj gan darbiniekam, gan vadītājam skatīt un rediģēt pārskatu, ja tas ir iestatīts sadaļā pārskata tips. Statusi **Pabeigts** un **Atcelts** padara pārskatu tikai lasāmu. Ja pārskats tiek **Noraidīts** un nosūtīts atpakaļ darbiniekam, gan darbinieks, gan vadītājs var veikt nepieciešamos labojumus, lai darbinieks varētu to atkārtoti iesniegt.
 
 33. Laukā **Pārskats** ierakstiet vērtību.
 34. Atlasiet cilni **Pārskats**. Pārskatam pārvietojoties pa statusiem, darbinieks un vadītājs var pievienot komentārus katram mērķim vai kompetencei.  

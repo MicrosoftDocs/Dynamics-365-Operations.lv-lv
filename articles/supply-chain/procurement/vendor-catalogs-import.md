@@ -18,14 +18,15 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 608d2b57bb4d5ab80d75b22ed5c8a4df5263e5f3
+ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207381"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3338312"
 ---
 # <a name="import-vendor-catalogs"></a>Importēt piegādātāju katalogus
+
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Piegādātāju katalogu importēšana
@@ -35,35 +36,36 @@ Programmā Dynamics 365 Supply Chain Management iepirkumu speciālisti var izvei
 Kreditora iesniegtos kataloga datus varat augšupielādēt Microsoft Dynamics 365 klientā.
 
 Preces datiem, ko piegādātājs jums iesniedz kataloga uzturēšanas pieprasījuma (Catalog Maintenance Request — CMR) faila formā, ir jābūt XML faila formātā. CMR failā ir jābūt informācijai par precēm, ko šis piegādātājs piegādā jūsu uzņēmumam.
-''''
+
 ## <a name="import-vendor-catalog-data"></a>Piegādātāja kataloga datu importēšana
-'' Lai importētu piegādātāja kataloga datus, jums ir jāizpilda tālāk minētie uzdevumi.
 
-1.  Iestatiet projektu tajā datu pārvaldības darbvietā, kur ir definētas jūsu datu kartēšanas kārtulas. Atlasiet **Datu pārvaldība** un pēc tam atlasiet **Iestatīt lomas datu projektiem**. 
-    ''
-2.  Iestatiet sagādes kategoriju hierarhiju un savus piegādātājus piešķirt sagādes kategorijām. Ja izmantojat preču kodus, šie preču kodi ir jāpievieno sagādes kategorijām. Informāciju par sagādes kategoriju hierarhijas iestatīšanu skatiet rakstā [Sagādes kategoriju hierarhijas iestatīšana](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-    ''
-3.  Konfigurējiet piegādātāju kataloga importēšanai. Atlasiet piegādātāju un pēc tam atlasiet **Sagāde** > **Iestatīt** > **Konfigurēt piegādātāju kataloga importēšanai**.
-''''
-4.  Konfigurējiet darbplūsmu katalogu importēšanai. Izveidojiet CMR faila veidni un kopīgojiet to ar piegādāju.
+Lai importētu piegādātāja kataloga datus, jums ir jāizpilda tālāk minētie uzdevumi.
 
-5.  Lai izveidotu piegādātāja katalogu, atlasiet **Sagāde un avoti** \> **Vispārīgi** \> **Katalogi** \> **Piegādātāju katalogi**. Šajā katalogā tiek grupēti kataloga uzturēšanas pieprasījuma (CMR) faili, ko saņemat no sava piegādātāja. 
+1. Iestatiet projektu tajā datu pārvaldības darbvietā, kur ir definētas jūsu datu kartēšanas kārtulas. Atlasiet **Datu pārvaldība** un pēc tam atlasiet **Iestatīt lomas datu projektiem**.
 
-6.  Augšupielādējiet CMR failu.
+2. Iestatiet sagādes kategoriju hierarhiju un savus piegādātājus piešķirt sagādes kategorijām. Ja izmantojat preču kodus, šie preču kodi ir jāpievieno sagādes kategorijām. Informāciju par sagādes kategoriju hierarhijas iestatīšanu skatiet rakstā [Sagādes kategoriju hierarhijas iestatīšana](../procurement/tasks/set-up-procurement-category-hierarchy.md).
 
-7.  Pārskatiet, apstipriniet vai noraidiet preces šajā piegādātāju katalogā. Preces tiek automātiski kartētas uz sagādes kategorijām. 
-    
+3. Konfigurējiet piegādātāju kataloga importēšanai. Atlasiet piegādātāju un pēc tam atlasiet **Sagāde** > **Iestatīt** > **Konfigurēt piegādātāju kataloga importēšanai**.
+
+4. Konfigurējiet darbplūsmu katalogu importēšanai. Izveidojiet CMR faila veidni un kopīgojiet to ar piegādāju.
+
+5. Lai izveidotu piegādātāja katalogu, atlasiet **Sagāde un avoti** \> **Vispārīgi** \> **Katalogi** \> **Piegādātāju katalogi**. Šajā katalogā tiek grupēti kataloga uzturēšanas pieprasījuma (CMR) faili, ko saņemat no sava piegādātāja. 
+
+6. Augšupielādējiet CMR failu.
+
+7. Pārskatiet, apstipriniet vai noraidiet preces šajā piegādātāju katalogā. Preces tiek automātiski kartētas uz sagādes kategorijām. 
+
 Apstiprinātās preces tiek pievienotas preces šablonam un izlaistas atlasītajām juridiskajām personām. Sagādes katalogam var pievienot tikai apstiprinātās preces.
 
 ## <a name="generate-a-catalog-import-file-template"></a>Kataloga importēšanas faila veidnes ģenerēšana
 
 Kataloga importēšanas faila veidne ir XSD fails, ko izmanto, lai izveidotu CMR failu piegādātāja precēm. Varat izmantot CMR failu, lai izveidotu jaunu katalogu, aizstātu esošu katalogu vai modificētu esošu katalogu.
 
-1.  Atlasiet **Sagāde un avoti** \> **Katalogi** \> **Piegādātāju katalogi** un veiciet dubultklikšķi uz kataloga, ar kuru vēlaties strādāt.
+1. Atlasiet **Sagāde un avoti** \> **Katalogi** \> **Piegādātāju katalogi** un veiciet dubultklikšķi uz kataloga, ar kuru vēlaties strādāt.
 
-2.  Lejupielādējiet pašreizēju kataloga importēšanas veidni (XSD fails). Lapā **Atjaunināt katalogu**, loga **Darbību rūts** cilnē **Katalogi**, grupā **Saistītā informācija** noklikšķiniet uz **Ģenerēt kataloga veidni** un atlasiet **Sagādes kategorija**.
+2. Lejupielādējiet pašreizēju kataloga importēšanas veidni (XSD fails). Lapā **Atjaunināt katalogu**, loga **Darbību rūts** cilnē **Katalogi**, grupā **Saistītā informācija** noklikšķiniet uz **Ģenerēt kataloga veidni** un atlasiet **Sagādes kategorija**.
 
-    -   Izmantojot opciju **Sagādes kategorija**, varat ģenerēt kataloga veidni, kur ir sagādes kategorijas, kurās piegādātājs ir autorizēts nodrošināt preces.
+    - Izmantojot opciju **Sagādes kategorija**, varat ģenerēt kataloga veidni, kur ir sagādes kategorijas, kurās piegādātājs ir autorizēts nodrošināt preces.
 
 3. Dialoglodziņā **Saglabāt kā** atlasiet atrašanās vietu, kur vēlaties saglabāt kataloga faila veidni, un saglabājiet failu.
 

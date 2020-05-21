@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091776"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331328"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem
 
@@ -29,10 +29,10 @@ ms.locfileid: "3091776"
 
 Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks ļauj lietotājiem definēt elektronisko formātu struktūras un pēc tam aprakstīt veidu, kā šīs struktūras vajadzētu aizpildīt, izmantojot datus un algoritmus, kas pastāv programmā. Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju izveide](electronic-reporting-configuration.md). Lai norādītu datu plūsmu Finance and Operations datu izgūšanai un to izmantotu elektroniska dokumenta ģenerēšanai, ir jāizpilda tālāk aprakstītā procedūra.
 
-- Konfigurētie datu avoti ir jāsaista ar izveidotajam domēnam raksturīgā datu modeļa elementiem. Modeļa struktūra un atlasītie datu avoti var veidot daļu no kompleksas hierarhiskas struktūras. Šī iemesla dēļ galīgie saistījumi var būt diezgan lieli un tajos var būt daudz dažādu tipu elementu (piemēram, relācijas, tabulas un metodes). Saistījumi var kļūt grūtāk lasāmi, un tos var būt diezgan sarežģīti pārskatīt un saprast, it īpaši lietotājiem, kas nav to īpašnieki. 
-- Datu modeļu elementi ir jāsaista ar formāta komponentiem, lai noteiktu, kādi dati no attiecīgā datu modeļa tiks aizpildīti uz ģenerēto formāta izvadi.
+- Konfigurētie datu avoti ir jāsaista ar izveidotajam domēnam raksturīgā [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) elementiem. Modeļa struktūra un atlasītie datu avoti var veidot daļu no kompleksas hierarhiskas struktūras. Šī iemesla dēļ galīgie saistījumi var būt diezgan lieli un tajos var būt daudz dažādu tipu elementu (piemēram, relācijas, tabulas un metodes). Saistījumi var kļūt grūtāk lasāmi, un tos var būt diezgan sarežģīti pārskatīt un saprast, it īpaši lietotājiem, kas nav to īpašnieki. 
+- Datu modeļu elementi ir jāsaista ar [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentiem, lai noteiktu, kādi dati no attiecīgā datu modeļa tiks aizpildīti uz ģenerēto formāta izvadi.
 
-Lai uzlabotu ER kartēšanas noformētāju lietojamību, ir izlaists relatīvā ceļa līdzeklis. Pēc noklusējuma relatīvā ceļa rādīšanas opcija ir ieslēgta visām jaunajām programmas instancēm, kur ir iespējota ER noformējuma funkcionalitāte (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Mēs ieviesām relatīvā ceļa parametru, lai lietotāji varētu turpināt izmantot pilno ceļu, strādājot ar šo ER saistījumu attēlojumu.
+Lai uzlabotu ER kartēšanas noformētāju lietojamību, ir izlaists [relatīvā ceļa](er-formula-language.md#relative-path) līdzeklis. Pēc noklusējuma relatīvā ceļa rādīšanas opcija ir ieslēgta visām jaunajām programmas instancēm, kur ir iespējota ER noformējuma funkcionalitāte (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Mēs ieviesām relatīvā ceļa parametru, lai lietotāji varētu turpināt izmantot pilno ceļu, strādājot ar šo ER saistījumu attēlojumu.
 
 [![Lietotāja parametri](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -54,3 +54,7 @@ Ja apstiprināt ligzdoto vienumu piesaistes maiņu, jaunais vecākelementa vienu
 
 > [!NOTE]
 > Visas izmaiņas, kas tiek ieviestas ar ligzdotu elementu masveida modificēšanu modeļa kartējumos, tiek pareizi saglabātas konfigurācijas deltā (izmaiņu izsekošanā). Tas ļauj klientiem mainīt savu atvasināto modeļu kartējumu versiju bāzi uz jebkādu jaunu bāzes versiju, kura ir modificēta, izmantojot šo jauno līdzekli.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[ER formulu valoda](er-formula-language.md)

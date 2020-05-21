@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205671"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346472"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervāēšanas politika
 
@@ -233,7 +233,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Jā</td>
 <td>
 <ol>
-<li>Kad sākat izdošanas darbu, noliktavas Mmobile programmā (WMA) atlasiet izvēlnes elementu <strong>Ignorēt atrašanās vietu</strong>.</li>
+<li>Kad sākat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Ignorēt atrašanās vietu</strong>.</li>
 <li>Atlasiet <strong>Ieteikt</strong>.</li>
 <li>Apstipriniet jauno atrašanās vietu, kas tiek piedāvāta, pamatojoties uz partijas daudzuma pieejamību.</li>
 </ol>
@@ -247,10 +247,10 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Nav attiecināms</td>
 </tr>
 <tr>
-<td>Nē</td>
+<td>Nr.</td>
 <td>
 <ol>
-<li>Kad sākat izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Ignorēt atrašanās vietu</strong>.</li>
+<li>Kad sākat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Ignorēt atrašanās vietu</strong>.</li>
 <li>Manuāli ievadiet atrašānās vietu.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Nav attiecināms</td>
 <td>
 <ol>
-<li>Kad apstrādājat izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Pilna</strong>.</li>
+<li>Kad apstrādājat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Pilna</strong>.</li>
 <li>Laukā <strong>izdošanas daudzums</strong> ievadiet daļēju nepieciešamās izdošanas daudzumu, lai norādītu pilnu noslodzi.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Jā</td>
 <td>
 <ol>
-<li>Sākt kustību WMA.</li>
+<li>Sākt kustību noliktavas programmā.</li>
 <li>Enter "no" un "uz" atrašanās vietas.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Jā</td>
 <td>
 <ol>
-<li>Kad izpildāt izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Shortpick</strong>.</li>
+<li>Kad palaižat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Saīsinātā izdošana</strong>.</li>
 <li>Laukā <strong>Izdošanas daudzums</strong> ievadiet <strong>0</strong> (nulle).</li>
 <li>Laukā <strong>Pamatojums</strong> ievadiet <strong>Nav atkārtotas sadales</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Jā</td>
 <td>
 <ol>
-<li>Kad izpildāt izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Shortpick</strong>.</li>
+<li>Kad palaižat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Saīsinātā izdošana</strong>.</li>
 <li>Laukā <strong>Izdošanas daudzums</strong> ievadiet <strong>0</strong> (nulle).</li>
 <li>Laukā <strong>Pamatojums</strong> ievadiet <strong>Nav atkārtotas sadales</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Jā</td>
 <td>
 <ol>
-<li>Kad izpildāt izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Shortpick</strong>.</li>
+<li>Kad palaižat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Saīsinātā izdošana</strong>.</li>
 <li>Laukā <strong>Saīsinātās izdošanas daudzums</strong> ievadiet <strong>0</strong> (nulle).</li>
 <li>Laukā <strong>Pamatojums</strong> atlasiet <strong>Saīsinātā izdošana, izmantojot manuālu pārdalīšanu</strong>.</li>
 <li>Sarakstā atlasiet atrašanās vietu / noliktavas vienību.</li>
@@ -545,10 +545,10 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 </tr>
 <tr>
 <td>Ir iestatīts darba izņēmums ar <strong>Saīsinātās izdošanas</strong> tipu, kur <strong>Krājuma atkārtots sadalījums</strong> = <strong>Manuāls</strong>, <strong>Koriģēt krājumu</strong> = <strong>Jā</strong> un <strong>Noņemt rezervācijas</strong> = <strong>Nē</strong>. Turklāt darbiniekam tiek aktivizēta opcija <strong>Atļaut manuālu krājumu pārdalīšanu</strong>.</td>
-<td>Nē</td>
+<td>Nr.</td>
 <td>
 <ol>
-<li>Kad izpildāt izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Shortpick</strong>.</li>
+<li>Kad palaižat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Saīsinātā izdošana</strong>.</li>
 <li>Laukā <strong>Saīsinātās izdošanas daudzums</strong> ievadiet <strong>0</strong> (nulle).</li>
 <li>Laukā <strong>Pamatojums</strong> atlasiet <strong>Saīsinātā izdošana, izmantojot manuālu pārdalīšanu</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 </tr>
 <tr>
 <td>Ir iestatīts darba izņēmums ar <strong>Saīsinātās izdošanas</strong> tipu, kur <strong>Krājuma atkārtots sadalījums</strong> = <strong>Manuāls</strong>, <strong>Koriģēt krājumu</strong> = <strong>Jā</strong> un <strong>Noņemt rezervācijas</strong> = <strong>Jā</strong>. Turklāt darbiniekam tiek aktivizēta opcija <strong>Atļaut manuālu krājumu pārdalīšanu</strong>.</td>
-<td>Nē</td>
+<td>Nr.</td>
 <td>
 <ol>
-<li>Kad izpildāt izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Shortpick</strong>.</li>
+<li>Kad palaižat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Saīsinātā izdošana</strong>.</li>
 <li>Laukā <strong>Saīsinātās izdošanas daudzums</strong> ievadiet <strong>0</strong> (nulle).</li>
 <li>Laukā <strong>Pamatojums</strong> atlasiet <strong>Saīsinātā izdošana, izmantojot manuālu pārdalīšanu</strong>.</li>
 <li>Sarakstā atlasiet atrašanās vietu / noliktavas vienību.</li>
@@ -585,7 +585,7 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
 <td>Nav attiecināms</td>
 <td>
 <ol>
-<li>Kad izpildāt izdošanas darbu, (WMA) atlasiet izvēlnes elementu <strong>Shortpick</strong>.</li>
+<li>Kad palaižat izdošanas darbu, noliktavas programmā atlasiet izvēlnes elementu <strong>Saīsinātā izdošana</strong>.</li>
 <li>Laukā <strong>Saīsinātās izdošanas daudzums</strong> ievadiet <strong>0</strong> (nulle).</li>
 <li>Laukā <strong>Pamatojums</strong> atlasiet <strong>Saīsinātā izdošana, izmantojot automātisku pārdalīšanu</strong>.</li>
 </ol>

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658624"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331376"
 ---
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
@@ -112,6 +112,9 @@ Kad pasūtāt kādu krājumu no kreditora un piešķirat šo krājumu kādam pro
 
 -   Izrakstiet rēķinu projekta debitoram par šo krājumu: pirkšanas pasūtījumā iestatiet krājuma rindas rekvizītu uz apmaksājamu vērtību, un pēc tam izrakstiet rēķinu debitoram, izmantojot pareizo projektu rēķinu izrakstīšanas metodi.
 -   Neizrakstiet rēķinu projekta debitoram par šo krājumu: pirkšanas pasūtījuma rindā šim krājumam neatlasiet rindas rekvizītu **Apmaksājams**. Pēc tam varat izrakstīt rēķinu par pirkšanas pasūtījumu, un nav nepieciešams veikt turpmākas darbības.
+
+> [!NOTE] 
+> Pēc noklusējuma nolaišanas rindas nav jāmaksā. Tas nozīmē, ka nav iespējota opcija izveidot rēķina priekšlikumu par atbrīvoto ieturējumu.
 
 ## <a name="credit-notes"></a>Kredīta notas
 Ja debitora rēķina summas vērtība ir negatīva, rēķins tiek klasificēts kā kredīta nota. Kad dokuments tiek drukāts, tā virsraksts ir “Kredīta nota”. 

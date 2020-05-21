@@ -1,6 +1,6 @@
 ---
-title: Numura zīmes saņemšana, izmantojot Warehouse Mobile App
-description: Šajā tēmā skaidrots, kā iestatīt Warehouse Mobile App, lai atbalstītu numura zīmes saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
+title: Numura zīmes saņemšana, izmantojot noliktavas programmu
+description: Šajā tēmā skaidrots, kā iestatīt noliktavas programmu, lai atbalstītu numura zīmes saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261354"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346380"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Numura zīmes saņemšana, izmantojot Warehouse Mobile App
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Numura zīmes saņemšana, izmantojot noliktavas programmu
 
-Šajā tēmā skaidrots, kā iestatīt Warehouse Mobile App, lai tas atbalstītu numura zīmes saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
+Šajā tēmā skaidrots, kā iestatīt noliktavas programmu, lai tā atbalstītu numura zīmes saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
 
 Jūs varat izmantot šo funkcionalitāti, lai ātri ierakstītu ienākošo krājumu saņemšanu, kas ir saistīts ar iepriekšējo paziņojums par nosūtīšanu (ASN). Sistēma automātiski izveido ASN, kad noliktavas pārvaldības procesi tiek izmantoti, lai nosūtītu pārsūtīšanas pasūtījumu. Pirkšanas pasūtījuma procesam ASN var tikt manuāli reģistrēts, vai to var automātiski importēt, izmantojot ienākošo ASN datu elementa procesu.
 
@@ -63,7 +63,7 @@ For more information about the *Report as finished* production scenario, see the
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Rādīt vai izlaist saņemšanas kopsavilkuma lapu
 
-Jūs varat izmantot līdzekli *Kontrolēt, vai mobilajās ierīcēs tiktu parādīta saņemšanas kopsavilkuma lapa*, lai izmantotu papildu detalizēto Noliktavu programmu plūsmu kā daļu no numura zīmes saņemšanas procesa.
+Jūs varat izmantot līdzekli *Kontrolēt, vai mobilajās ierīcēs tiktu parādīta saņemšanas kopsavilkuma lapa*, lai izmantotu papildu detalizēto noliktavu programmu plūsmu kā daļu no numura zīmes saņemšanas procesa.
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
