@@ -3,7 +3,7 @@ title: Pārskats
 description: Programmā Dynamics 365 Human Resources Atvaļinājumu un prombūtnes darbvieta nodrošina elastīgu struktūru jaunu atvaļinājumu plānu izveidei, darbplūsmas pieprasījumu pārvaldībai un intuitīvai darbinieku patstāvīgi izmantojamo pakalpojumu lapai, kurā var pieprasīt brīvo laiku.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226234"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325769"
 ---
 # <a name="overview"></a>Pārskats
 
@@ -78,8 +78,16 @@ Jūs nevarat iestatīt **Noapaļošanas precizitāti**, iestatot **Noapaļošana
 
 ## <a name="leave-and-absence-preview-features"></a>Atvaļinājumu un prombūtnes priekšskatījuma līdzekļi
 
-**Smilškastes** vidē varat izmēģināt jaunus atvaļinājumu un prombūtnes priekšskatījuma līdzekļus. Lai iegūtu informāciju par priekšskatījuma līdzekļu ieslēgšanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md). Priekšskatījuma līdzekļi ietver:
+**Smilškastes** vidē varat izmēģināt jaunus atvaļinājumu un prombūtnes priekšskatījuma līdzekļus. Lai iegūtu informāciju par priekšskatījuma līdzekļu ieslēgšanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md). 
 
-- **Atvaļinājuma atlikšana** — jūs varat atlikt atvaļinājumu un prombūtni darbiniekam Personāla vadības programmā. Aizturot atvaļinājumu, tiek apturēti atvaļinājumu uzkrājumi atsevišķiem atvaļinājumu veidiem. Ja atlikšana notiek pēc uzkrājumu procesa, aizturētā atvaļinājuma rezultātā tiek izveidots proporcionāls pārrēķins darbinieka atvaļinājuma bilancei. 
+[!include [banner](includes/preview-feature.md)]
+
+Priekšskatījuma līdzekļi ietver:
+
+- **Atvaļinājuma atlikšana** — jūs varat atlikt atvaļinājumu un prombūtni darbiniekam Personāla vadības programmā. Aizturot atvaļinājumu, tiek apturēti atvaļinājumu uzkrājumi atsevišķiem atvaļinājumu veidiem. Ja atlikšana notiek pēc uzkrājumu procesa, aizturētā atvaļinājuma rezultātā tiek izveidots proporcionāls pārrēķins darbinieka atvaļinājuma bilancei. Jūs varat arī iekļaut pamatojuma kodus, apturot darbinieka atvaļinājumu. Lietotāja pieredze ir atjaunināta, lai norādītu atlikšanu. 
 
 - **Pārnest nosacījumus** - varat norādīt pārnešanas atvaļinājuma veidu pārnešanas bilancēm, ja pārnestās korekcijas tiek pārsūtītas. Piemēram, ja darbinieks pārnes 10 dienas, jūs varat izvēlēties citu atvaļinājuma veidu šīm 10 dienām. 
+
+- **Iekļaut pamatojuma kodu un komentārus par korekcijām** – jūs varat iekļaut pamatojuma kodu un komentāru, veicot korekciju darbinieka atvaļinājuma bilancei. 
+
+- **Pāreja uz atvaļinājumu un kavējumu parametriem** — tagad personāla vadības parametru izmantošanas vietā jūs varat izmantot tikai atvaļinājumu un prombūtnes parametrus. 

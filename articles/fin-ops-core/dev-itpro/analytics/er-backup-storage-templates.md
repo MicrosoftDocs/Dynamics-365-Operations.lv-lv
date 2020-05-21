@@ -3,7 +3,7 @@ title: ER veidņu dublējumkopijas
 description: Šajā tēmā skaidrots, kā izmantot elektronisko pārskatu (ER) dublējuma krātuvi veidņu atkopšanai.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
+ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771425"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "3321670"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
@@ -42,6 +42,8 @@ Lai varētu veidot biznesa dokumentus, veidnes ir iespējams izveidot, izveidojo
 > [!NOTE]
 > Šo funkciju var izmantot tikai tad, ja BLOB krātuve ir izvēlēta kā fiziska glabāšanas vieta ER veidnēm.
 
+## <a name="automated-recovery-and-notification"></a>Automātiskā atkopšanās un paziņojums
+
 Šim līdzeklim katra jaunā ER formāta konfigurācijas veidne pašreizējā vidē tiek automātiski saglabāta veidņu dublējuma glabāšanas vietā (ERDocuDatabaseStorage datu bāzes tabula), kad parādās šādi notikumi:
 
 - Jūs importējat jaunu ER formāta konfigurāciju, kas satur veidni.
@@ -59,7 +61,7 @@ Ja ir nepieciešama ER formāta veidne, lai varētu izveidot izejošos dokumentu
 
 Ziņojums, kas tiek parādīts, ir atkarīgs no vērtības, **kas tiek automātiski izpildīta, atjaunojot bojātas** veidnes partijas parametrā:
 
-1. Risinājumā Finance and Operations dodieties uz sadaļu **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas atkļūdošanas žurnāli**.
+1. Programmā Finance and Operations atveriet sadaļu **Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas lapa**.
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3. Dialoglodziņā **lietotāja parametri** Iestatiet nepieciešamo vērtību **automātiski palaist procedūru, kā atjaunot bojātas veidnes partijas** parametrā.
 
@@ -87,6 +89,10 @@ Ja iestatāt opciju **Pārtraukt veidot veidņu dublējumkopijas** uz **Jā** un
 Ja jauninājāt savu vidi uz Finance and Operations versijas 10.0.5 (2019. gada oktobris) un vēlaties migrēt uz jaunu vidi, kas ietver ER formāta konfigurācijas, ko var palaist, pirms migrācijas atlasiet **Aizpildīt rezerves krātuvi** lapā **Elektronisko pārskatu parametri**. Šī poga sāk visu pieejamo veidņu dublējumkopijas izveidošanas procesu, lai tos varētu uzglabāt ar ER dublējuma glabāšanas vietu veidnēm.
 
 ![Elektronisko pārskatu veidošanas parametru lapa](./media/GER-BackupTemplates-5.png)
+
+## <a name="manual-recovery"></a>Manuāla atkopšanās
+
+Dodieties uz **Organizācijas administrēšana**\> **Elektroniskie pārskati**\> **Atjaunot bojātās veidnes**, lai manuāli iniciētu iespēju atjaunot ER veidnes no dublējuma glabāšanas vietas uz primāro glabāšanas vietu. Pirms sākat šo procesu, lapā **Atjaunot bojātās veidnes** varat norādīt, vai tā tiks veikta interaktīvi, vai arī tiks plānota pakešveida apstrāde.
 
 ## <a name="supported-deployments"></a>Atbalstītie izvietojumi
 

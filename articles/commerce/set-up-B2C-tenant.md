@@ -3,7 +3,7 @@ title: B2C nomnieka iestatīšana programmā Commerce
 description: Šajā tēmā aprakstīts, kā iestatīt Azure Active Directory (Azure AD) biznesa-patērētāju (B2C) nomniekus lietotāja vietas autentifikācijai sistēmā Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270214"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295273"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -87,7 +87,7 @@ Lai izveidotu B2C pieteikumu, izpildiet tālāk aprakstītās darbības.
 
 ### <a name="reply-urls"></a>Atbilžu vietrāži URL
 
-Atbilžu vietrāži URL ir svarīgi, jo tie ļauj atgriešanās domēnus iekļaut baltajā sarakstā, kad jūsu vietne Azure AD B2C pieprasa autentificēt lietotāju. Tas ļauj atgriezt autentificētu lietotāju atpakaļ domēnā, no kura tie piesakās sistēmā (jūsu vietnes domēns). 
+Atbilžu vietrāži URL ir svarīgi, jo tie nodrošina atgriešanās domēnus iekļaut sarakstā, kad jūsu vietne Azure AD B2C pieprasa autentificēt lietotāju. Tas ļauj atgriezt autentificētu lietotāju atpakaļ domēnā, no kura tie piesakās sistēmā (jūsu vietnes domēns). 
 
 Lodziņā **Atbilžu vietrāži URL** ekrānā **Azure AD B2c - Applications \>Jauna programma** jums ir jāpievieno atsevišķas rindas gan jūsu vietnes domēnam, gan (tiklīdz jūsu vide ir nodrošināta) komercijas ģenerētajam vietrādim URL. Šiem URL vienmēr ir jāizmanto derīgs URL formāts, un tiem ir jābūt tikai pamata URL (bez slīpsvītrām vai ceļiem). Pēc tam ``/_msdyn365/authresp`` virkne ir jāpievieno pamata URL, kā tas ir sekojošajos piemēros.
 
@@ -121,7 +121,7 @@ Lai izveidotu Parakstīšanos un pierakstīšanos lietotāja plūsmā politiku, 
 
     | **Savākt atribūtu** | **Atgriešanas prasība** |
     | ---------------------- | ----------------- |
-    |                        | E-pasta adreses   |
+    | E-pasta adrese          | E-pasta adreses   |
     | Norādītais nosaukums             | Norādītais nosaukums        |
     |                        | Identitātes nodrošinātājs |
     | Uzvārds                | Uzvārds           |
@@ -246,10 +246,6 @@ Lai atjauninātu programmu Headquarters ar jauno Azure AD B2C informāciju, veic
     1. Lodziņā **Veids** ievadiet **Publisks**.
     1. Lodziņā **Lietotāja veids** ievadiet **Pircējs**.
 1. Darbību rūtī atlasiet **Saglabāt**.
-1. Lodziņā Commerce Search meklējiet **Numuru sērijas** (Organizācijas administrēšana > Numuru sērijas).
-1. Darbības rūtī atlasiet **Rediģēt** zem sadaļas **Uzturēt**.
-1. Ātrajā cilnē **Vispārīgi** atlasiet **Nē** sadaļai **Manuāli**.
-1. Darbību rūtī atlasiet **Saglabāt**. 
 1. Lodziņā Commerce Search meklējiet **Sadales grafiku**
 1. Lapas **Sadales grafiki** kreisajā navigācijas izvēlnē atlasiet darbu **1110 globālā konfigurācija**.
 1. Darbību rūtī atlasiet **Palaist tagad**.
@@ -304,13 +300,14 @@ Lai pievienotu savu AAD B2C nomnieka lietojumprogrammas informāciju Commerce, r
 1. Veidlapā ievadiet tālāk norādītos pieprasītos vienumus, izmantojot vērtības no jūsu B2C nomnieka un lietojumprogrammas. Lauki, kas nav nepieciešami (bez zvaigznītes), var tikt atstāti tukši.
 
     - **Lietojumprogrammas nosaukums**: jūsu B2C lietojumprogrammas nosaukums, piemēram, "Fabrikam B2C".
-    - **Nomnieka nosaukums**: jūsu B2C nomnieka nosaukums, piemēram, "Fabrikam".
+    - **Nomnieka nosaukums**: jūsu B2C nomnieka nosaukums (piemēram, izmantot "fabrikam", ja domēns parādās kā "fabrikam.onmicrosoft.com" B2C nomniekam). 
     - **Aizmirstas paroles politikas ID**: aizmirstas paroles lietotāja plūsmas politikas ID, piemēram, "B2C_1_PasswordReset".
     - **Pierakstīšanās pieteikšanās politikas ID**: pierakstīšanās un pieteikšanās lietotāja plūsmas politikas ID, piemēram, "B2C_1_signup_signin".
     - **Klienta GUID**: B2C lietojumprogrammas ID, piemēram, "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **Rediģēt profila politikas ID**: profila rediģēšanas lietotāja plūsmas politikas ID, piemēram, "B2C_1A_ProfileEdit".
 
 1. Atlasiet **Labi**. Tagad jums ir jāredz jūsu B2C lietojumprogrammas nosaukums, kas parādās sarakstā.
+1. Atlasiet **Saglabāt**, lai saglabātu izmaiņas.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Saistīt B2C lietojumprogrammu ar jūsu vietni un kanālu
 

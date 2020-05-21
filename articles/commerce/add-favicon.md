@@ -3,7 +3,7 @@ title: Izlases ikonas pievienošana
 description: Šajā tēmā ir paskaidrots, kā pievienot izlases ikonu jūsu vietnei.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001545"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295084"
 ---
 # <a name="add-a-favicon"></a>Izlases ikonas pievienošana
-
 
 [!include [banner](includes/banner.md)]
 
@@ -41,23 +40,48 @@ Lai gan jūs varat pievienot vairākas dažādu izmēru un failu tipu izlases ik
 
 Lai pievienotu izlases ikonu jūsu vietnes līdzekļu kolekcijā, veiciet šādas darbības.
 
-1. Dodieties uz **Līdzekļi \> Augšupielādēt \> Augšupielādēt līdzekļus**.
-1. Atrodiet un izvēlēties izlases ikonu jūsu vietējā failu sistēmā.
-1. Ievadiet nosaukumu un pēc tam atlasiet **Labi**. 
-1. Rekvizītu rūtī labajā pusē nokopējiet izlases ikonas publisko vietrādi URL.
+1. Kreisās puses navigācijas rūtī atlasiet **Mediju bibliotēka**.
+1. Komandu joslā atlasiet **Augšupielādēt \>Augšupielādēt mediju vienumus**.
+1. Failu pārlūka logā pārlūkojiet izlases attēla failu, kuru vēlaties augšupielādēt, atlasiet to un pēc tam atlasiet **Atvērt**.
+1. Dialoglodziņā **Augšupielādēt multivides vienumu** ievadiet nepieciešamo nosaukumu un alternatīvo tekstu.
+1. Ja vēlaties publicēt attēlu tūlīt pēc augšupielādes, atzīmējiet izvēles rūtiņu **Publicēt multivides vienumus pēc augšupielādes**.
 
-> [!NOTE]
-> Ja neizvēlaties opciju **Publicēt līdzekļus pēc augšupielādes**, atgriezieties pie lapas **Līdzekļi** un manuāli publicējiet izlases ikonu vēlāk.
+    > [!NOTE]
+    > Ja neizvēlaties izvēles rūtiņu **Publicēt multivides vienumus pēc augšupielādes**, atgriezieties pie lapas **Multivides vienumi** un manuāli publicējiet izlases ikonu vēlāk.
 
-## <a name="create-the-html-for-the-favicon"></a>HTML izveide izlases ikonai
+1. Atlasiet **Labi**.
+1. Rekvizītu rūtī labajā pusē nokopējiet izlases ikonas publisko vietrādi URL. Šo vietrādi URL izmantosiet vēlāk.
 
-Lai izveidotu HTML izlases ikonai, izmantojiet šādu HTML fragmentu. **href** atribūtam aizvietojiet **“Public\_URL\_for\_your\_favicon”** ar publisku vietrādi URL, ko kopējāt agrāk.
+## <a name="create-the-html-for-your-favicon"></a>HTML izveide jūsu izlases ikonai
+
+Lai izveidotu HTML izlases ikonai, izmantojiet šādu HTML virkni. **href** atribūtam aizvietojiet **Public\_URL\_for\_your\_favicon** ar publisku vietrādi URL, ko kopējāt agrāk.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a>HTML pievienošana izlases ikonai jūsu lapas \<galvenajā\> elementā
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Izveidot lapas fragmentu, kas satur metatagu jūsu favicon
 
-Lai pievienotu izlases ikonu jūsu vietnei, izmantojiet to pašu procedūru, kas tiek izmantota, lai pievienotu jebkāda veida HTML vai skriptu **\<galvenajam\>** elementam jūsu vietnes lapās.
+Lai izveidotu lapas fragmentu, kas satur metatagu jūsu favicon, sekojiet šiem soļiem.
+
+1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**.
+1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Metatagi** kā moduli, uz kā balstās lapas fragments.
+1. Ievadiet lapas fragmenta nosaukumu un pēc tam atlasiet **Labi**.
+1. Fragmentu hierarhijas kokā atlasiet **Noklusējuma metatagi** elementu.
+1. Labajā rūtī zem sadaļas **Metatagi** atlasiet **Pievienot** un pēc tam ievadiet HTML virkni, ko iepriekš izveidojāt izlases ikonai. 
+1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu lapas fragmentu.
+
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Pievienot metataga lapas fragmentu jūsu lapu HTML galvenei
+
+Lai pievienotu metataga lapas fragmentu jūsu lapu HTML **galvenei**, sekojiet šiem soļiem.
+
+1. Dodieties uz **Veidnes**, atveriet veidni lapām, kurām vēlaties pievienot izlases ikonu, un tad atlasiet **Rediģēt**.
+1. Veidnes hierarhijas kokā atlasiet daudzpunktes (**...**) pogu pa labi no **HTML galvenes** konteinera un pēc tam atlasiet **Pievienot lapas fragmentu**.
+1. Dialoglodziņā **Atlasīt lapas fragmentu** atlasiet iepriekš izveidoto metataga lapas fragmentu un pēc tam atlasiet **Labi**.
+1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu veidni.
+
+> [!NOTE]
+> Ja jūsu vietne izmanto vairāk nekā vienu veidni, jums ir jāpievieno metatagu lapas fragments tiem visiem.
+
+Priekšskatot lapas, kas ir balstītas uz veidni, kurai pievienojāt metatagu lapas fragmentu, jums vajadzētu ieraudzīt izlases ikonu pārlūka cilnē.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

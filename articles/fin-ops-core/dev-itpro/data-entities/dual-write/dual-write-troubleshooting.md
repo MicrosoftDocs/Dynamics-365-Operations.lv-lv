@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
+ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275654"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340934"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -62,14 +62,14 @@ Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakot
 
 Lai aktivizētu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
-1. Piesakieties Finance and Operations programmā, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Sistēma**atlasiet **Administrēšana**.
+1. Piesakieties ar modeli vadītā programmā Dynamics 365, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Sistēma** atlasiet **Administrēšana**.
 2. Lapā **Administrēšana** atlasiet opciju **Sistēmas iestatījumi**.
 3. Cilnes **Pielāgošana** laukā **Spraudņa un pielāgotās darbplūsmas aktivitātes izsekošana** atlasiet **Visi**, lai iespējotu spraudņa izsekošanas žurnālu. Ja vēlaties izsekot trasēšanas žurnāliem tikai tad, ja rodas izņēmumi, varat tā vietā izvēlēties opciju **Izņēmums**.
 
 
 Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
-1. Piesakieties Finance and Operations programmā, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Pielāgošana**atlasiet **Spraudņa trasēšanas žurnāls**.
+1. Piesakieties ar modeli vadītā programmā Dynamics 365, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Pielāgošana** atlasiet **Spraudņa izsekošanas žurnāls**.
 2. Atrodiet trasēšanas žurnālus, kur lauks **Veida nosaukums** ir iestatīts uz **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Veiciet dubultklikšķi uz elementa, lai apskatītu pilno žurnālu, un pēc tam kopsavilkuma cilnē **Izpilde** pārskatiet **Ziņojuma bloka** tekstu.
 

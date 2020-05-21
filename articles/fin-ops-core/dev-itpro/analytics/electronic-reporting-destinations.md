@@ -3,7 +3,7 @@ title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150819"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323696"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronisko pārskatu (ER) galamērķi
 
@@ -52,7 +52,36 @@ Iekļauts arī [Drukāšanas](er-destination-type-print.md) adresāta tips. Lai 
 
 ## <a name="overview"></a>Pārskats
 
-Varat iestatīt galamērķus tikai ER konfigurācijām, kas ir [importētas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) pašreizējā finanšu instancē, un formātiem, kas ir pieejami lapā **Elektronisko atskaišu veidošanas konfigurācijas**. ER galamērķa pārvaldības funkcionalitāte ir pieejama sadaļā **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Elektronisko pārskatu galamērķis**. Lapā **Elektronisko pārskatu galamērķis** varat ignorēt konfigurācijas noklusējuma uzvedību. Importētās konfigurācijas šajā lapā tiek rādītas tikai pēc tam, kad atlasāt **Jauns** un laukā **Atsauce** atlasāt konfigurāciju, kurai izveidot galamērķa iestatījumus.
+Varat iestatīt galamērķus tikai ER konfigurācijām, kas ir [importētas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) pašreizējā finanšu instancē, un formātiem, kas ir pieejami lapā **Elektronisko atskaišu veidošanas konfigurācijas**. ER galamērķa pārvaldības funkcionalitāte ir pieejama sadaļā **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Elektronisko pārskatu galamērķis**.
+
+### <a name="default-behavior"></a>Noklusētā uzvedība
+
+ER formāta konfigurācijas noklusētā uzvedība ir atkarīga no norādītā izpildes veida, kad tiek sākts ER formāts.
+
+Ja dialoglodziņā **Intrastat pārskats** kopsavilkuma cilnē **Palaist fonā** iestatāt **Partijas apstrāde** opciju uz **Nē**, ER formāts nekavējoties tiek palaists interaktīvā režīmā. Kad šī izpilde ir veiksmīgi pabeigta, lejupielādei ir pieejams ģenerēts izejošais dokuments.
+
+Iestatot opciju **Partijas apstrāde** uz **Jā**, ER formāts tiek palaists [partijas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) režīmā. Tiek izveidots atbilstošais pakešuzdevums, pamatojoties uz parametriem, ko norādāt cilnē **Palaist fonā** dialoglodziņā **ER parametri**.
+
+> [!NOTE]
+> Darba apraksts tiek uzsākts, lai informētu par ER formāta kartēšanas izpildi. Tajā ir ietvertas arī izpildīto ER komponentu nosaukums.
+
+[![Palaist ER formātu](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Informāciju par šo darbu varat atrast vairākās vietās:
+
+- Dodieties uz **Kopīgi**\> **Vaicājumi**\> **Pakešuzdevumi**\> **Mani pakešuzdevumi**, lai pārbaudītu ieplānotā darba statusu.
+- Dodieties uz **Uzņēmuma administrēšana**\> **Elektronisko pārskatu izveide**\> **Elektronisko pārskatu izveides darbi**, lai pārbaudītu plānotā darba statusu un pabeigtā darba izpildes rezultātus. Kad darba izpilde ir sekmīgi pabeigta, atlasiet **Rādīt failus** lapā **Elektronisko pārskatu izveides darbi**, lai iegūtu izveidoto izejošo dokumentu.
+
+    > [!NOTE]
+    > Šis dokuments tiek saglabāts kā pašreizējā darba ieraksta pielikums un to kontrolē [Dokumentu pārvaldības](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) struktūra. [Dokumenta veids](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), kas tiek izmantots, lai uzglabātu šī veida ER artefaktus, ir konfigurēts [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Lapā **Elektronisko pārskatu izveides darbi** atlasiet **Rādīt failus**, lai skatītu visu to kļūdu un brīdinājumu sarakstu, kas tika izveidoti darba izpildes laikā.
+
+    [![Pārskatīt ER darbu sarakstu](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Lietotāja konfigurēta uzvedība
+
+Lapā **Elektronisko pārskatu galamērķis** varat ignorēt konfigurācijas noklusējuma uzvedību. Importētās konfigurācijas šajā lapā tiek rādītas tikai pēc tam, kad atlasāt **Jauns** un laukā **Atsauce** atlasāt konfigurāciju, kurai izveidot galamērķa iestatījumus.
 
 [![Konfigurācijas atlasīšana laukā Atsauce](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izman
 >
 > Saražotais PDF daudzums ir ierobežots līdz maksimālam 300 lapu skaitam.
 >
-> Šajā laikā PDF dokumentā, kas tiek ražots no Excel formāta izvades, tiek atbalstīta tikai ainavorientācija.
+> Microsoft Dynamics 365 Finance 10.0.9 versijā (2020. gada aprīlis) tiek atbalstīta tikai ainavorientācija PDF dokumentā, kas tiek ražots no Excel formāta izvades. Ar Dynamics 365 Finance versiju 10.0.10 (2020. gada maijs), jūs varat [norādīt lapas orientāciju](#SelectPdfPageOrientation) PDF dokumentā, kas tiek veidots no Excel izdrukas, kamēr jūs konfigurējat ER galamērķi.
 >
 > Lai pārveidotu izvadi, kas nesatur iegultus fontus, tiek izmantoti tikai Window operētājsistēmas bieži sastopamie sistēmas fonti.
 
