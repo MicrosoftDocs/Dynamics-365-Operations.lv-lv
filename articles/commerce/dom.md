@@ -3,7 +3,7 @@ title: Sadalīto pasūtījumu pārvaldība (DOM)
 description: Šajā tēmā ir aprakstīta sadalīto pasūtījumu pārvaldības (distributed order management — DOM) funkcionalitāte programmā Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004324"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396036"
 ---
 # <a name="distributed-order-management-dom"></a>Sadalīto pasūtījumu pārvaldība (DOM)
 
@@ -37,20 +37,20 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
 Šajā attēlā parādīts pārdošanas pasūtījuma dzīves cikls DOM sistēmā.
 
-![Pārdošanas pasūtījuma dzīves cikls DOM kontekstā](./media/flow.png "Pārdošanas pasūtījuma dzīves cikls DOM kontekstā")
+![![Pārdošanas pasūtījuma dzīves cikls DOM kontekstā](./media/flow.png "Pārdošanas pasūtījuma dzīves cikls DOM kontekstā")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>DOM iestatīšana
 
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
 2. Cilnē **Konfigurācijas atslēgas** izvērsiet mezglu **Tirdzniecība** un pēc tam atzīmējiet izvēles rūtiņu **Sadalīto pasūtījumu pārvaldība**.
-3. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
+3. Dodieties uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
 4. Cilnē **Vispārīgi** iestatiet šādas vērtības:
 
     - **Iespējot sadalīto pasūtījumu pārvaldību** — iestatiet šai opcijai vienumu **Jā**.
     - **Apstiprināt Bing karšu lietojumu DOM** — iestatiet šai opcijai vienumu **Jā**.
 
         > [!NOTE]
-        > Šai opcijai var iestatīt vienumu **Jā** tikai tad, ja opcijai **Iespējot Bing kartes** lapas **Tirdzniecības koplietojamie parametri** (**Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Tirdzniecības koplietojamie parametri**) cilnē **Bing kartes** arī ir iestatīts vienums **Jā** un ja laukā **Bing karšu atslēga** ir ievadīta derīga atslēga.
+        > Šai opcijai var iestatīt vienumu **Jā** tikai tad, ja opcijai **Iespējot Bing kartes** lapas **Tirdzniecības koplietojamie parametri** (**Retail un Commerce \> Headquarters iestatīšana \> Parametri \> Tirdzniecības koplietojamie parametri**) cilnē **Bing kartes** arī ir iestatīts vienums **Jā** un ja laukā **Bing karšu atslēga** ir ievadīta derīga atslēga.
 
     - **Saglabāšanas perioda dienu skaits** — norādiet, cik ilgi izpildes plāni, kurus DOM ģenerē, tiek saglabāti sistēmā. Pakešuzdevums **DOM izpildes datu dzēšanas darba iestatīšana** izdzēsīs visus izpildes plānus, kas vecāki par šeit norādīto dienu skaitu.
     - **Noraidīšanas periods (dienās)** — norādiet, cik daudz laika jāpaiet, pirms noraidīto pasūtījuma rindu var piešķirt tai pašai vietai.
@@ -71,7 +71,7 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
         >
         > Lai gan vienkāršotais risinātājs nodrošina tādu pašu iespēju kopumu kā ražošanas risinātājs, pastāv ierobežojumi attiecībā uz veiktspēju (pasūtījumu un pasūtījuma rindu skaits, kuras var apstrādāt izpildes laikā) un rezultātu konverģenci (dažos scenārijos pasūtījumu partijas, iespējams, nesniegs labāko rezultātu).
      
-6. Dodieties atpakaļ uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
+6. Dodieties atpakaļ uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> DOM parametri**.
 7. Cilnē **Numuru sērijas** piešķiriet nepieciešamās numuru sērijas dažādiem DOM elementiem.
 
     > [!NOTE]
@@ -79,12 +79,21 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
 8. DOM līdzeklis atbalsta dažādu DOM kārtulu veidu definēšanu, un organizācijas var konfigurēt vairākas kārtulas atkarībā no biznesa vajadzībām. DOM kārtulas var definēt vietu grupai vai atsevišķai vietai un noteiktai preču kategorijai, precei vai variantam. Lai izveidotu vietu grupu, kas jāizmanto DOM kārtulām, rīkojieties šādi:
 
-    1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> Izpildes grupas**.
+    1. Dodieties uz **Retail un Commerce \> Kanāla iestatīšana \> Izpildes grupas**.
     2. Atlasiet **Jauns** un ievadiet jaunās grupas nosaukumu un aprakstu.
     3. Atlasiet **Saglabāt**.
     4. Atlasiet **Pievienot rindu**, lai pievienotu grupai vienu vietu. Vai arī atlasiet **Pievienot rindas**, lai pievienotu vairākas vietas.
+    
+    > [!NOTE]
+    > Commerce versijā 10.0.12 un jaunākās versijās darbvietā “**Līdzekļu pārvaldība**” ir jāiespējo **izpildes grupā aktivizētā iespēja norādīt atrašanās vietas kā “Piegāde” vai “Izdošana”**.
+    >
+    > Šis līdzeklis pievieno jaunas konfigurācijas **izpildes grupas** lapā, lai jūs varētu definēt, vai noliktavu var izmantot nosūtīšanai un vai noliktavas/veikala kombināciju var izmantot nosūtīšanai, izdošanai vai abiem. 
+    >
+    > Ja iespējojat līdzekli, tiek atjauninātas atrašanās vietas atlasei pieejamās opcijas, kad veidojat izdošanas vai nosūtīšanas pasūtījumus POS sistēmā.
+    >
+    > Ja iespējojat šo līdzekli, tiek arī atjauninātas POS lapas, kad ir atlasītas darbības “Nosūtīt visu” vai “Nosūtīt atlasīto”.
 
-9. Lai definētu kārtulas, dodieties uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> Pārvaldīt kārtulas**. Pašlaik tiek atbalstītas šādas DOM kārtulas:
+9. Lai definētu kārtulas, dodieties uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> Pārvaldīt kārtulas**. Pašlaik tiek atbalstītas šādas DOM kārtulas:
 
     - **Minimālā krājuma kārtula** — šis kārtulas tips ļauj organizācijām “norobežot” noteiktu preču daudzumu citiem mērķiem, nevis pasūtījumu izpildei. Piemēram, organizācijas var pieņemt lēmumu, ka nevēlas, lai DOM ņemtu vērā visus krātuvē pieejamos krājumus pasūtījumu izpildīšanai. Tā vietā viņi varētu vēlēties rezervēt noteiktu krājumu daudzumu klientiem uz vietas. Lietojot šo kārtulas tipu, var definēt minimālo krājumu daudzumu, kas jāglabā attiecīgajai preču kategorijai, atsevišķai precei vai preces variantam vienā vietā vai vietu grupā.
     - **Izpildes vietas prioritātes kārtula** — šis kārtulas tips ļauj organizācijām noteikt vietu hierarhiju, lai izveidotu prioritātes, kuras DOM programma ņem vērā, mēģinot identificēt izpildes vietas noteiktām precēm. Prioritāšu derīgais diapazons ir no 1 līdz 10, kur 1 ir augstākā prioritāte un 10 ir zemākā prioritāte. Vietas, kurām ir augstāka prioritāte, tiek ņemtas vērā pirms vietām, kurām ir zemāka prioritāte. Ja kārtula ir definēta kā stingra ierobežojuma kārtula, pasūtījumi tiek nodoti tikai uz vietām, kurām ir definētas prioritātes.
@@ -130,11 +139,21 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
 10. Izpildes profili tiek izmantoti, lai grupētu kārtulu, juridisko personu, pārdošanas pasūtījumu izcelsmju un piegādes veidu kopumu. Katra DOM izpilde ir paredzēta noteiktam izpildes profilam. Šādā veidā organizācijas var definēt un izpildīt kārtulu kopu noteiktai juridisko personu kopai attiecībā uz tādiem pasūtījumiem, kuriem ir noteikta pārdošanas pasūtījumu izcelsme un piegādes veidi. Tādēļ, ja ir jāveic dažādas kārtulu kopas izpilde dažādām pārdošanas pasūtījumu izcelsmju vai piegādes veidu kopām, izpildes profilus var attiecīgi definēt. Lai iestatītu izpildes profilus, rīkojieties šādi:  
 
-    1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> Izpildes profili**.
+    1. Dodieties uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Iestatījumi \> Izpildes profili**.
     2. Atlasiet **Jauns**.
     3. Ievadiet vērtības laukos **Profils** un **Apraksts**.
     4. Iestatiet opciju **Automātiski lietot rezultātu**. Ja šai opcijai ir atlasīts iestatījums **Jā**, DOM izpildes rezultāti attiecīgajam profilam tiks automātiski lietoti pārdošanas pasūtījuma rindām. Atlasot iestatījumu **Nē**, rezultātus var skatīt tikai izpildes plānā. Tie netiks lietoti pārdošanas pasūtījuma rindām.
-    5. Ja vēlaties palaist DOM profilu pasūtījumiem, kuriem ir visas pārdošanas pasūtījumu izcelsmes, pat pasūtījumiem, kuriem pārdošanas pasūtījuma izcelsme nav definēta, opcijai **Apstrādāt pasūtījumus ar tukšu pasūtījuma izcelsmi** atlasiet iestatījumu **Jā**. Lai palaistu profilu tikai dažām pārdošanas pasūtījumu izcelsmēm, varat definēt tās lapā **Pārdošanas izcelsmes**, kā paskaidrots tālāk.
+    5. Ja vēlaties palaist DOM profilu pasūtījumiem, kuriem ir visas pārdošanas pasūtījumu izcelsmes, tostarp pasūtījumiem, kuriem pārdošanas pasūtījuma izcelsme nav definēta, opcijai **Apstrādāt pasūtījumus ar tukšu pasūtījuma izcelsmi** atlasiet iestatījumu **Jā**. Lai palaistu profilu tikai dažām pārdošanas pasūtījumu izcelsmēm, varat definēt tās lapā **Pārdošanas izcelsmes**, kā paskaidrots tālāk.
+
+    > [!NOTE]
+    > Commerce versijā 10.0.12 un jaunākās versijās darbvietā “**Līdzekļu pārvaldība**” ir jāiespējo **iespēja izpildes profilam piešķirt izpildes grupu**. 
+    >
+    > Šis līdzeklis **izpildes profila** lapā pievieno jaunu konfigurāciju, ko var saistīt ar vienu izpildes grupu. 
+    >
+    > Ja atlasāt izpildes grupu, ar šo izpildes profilu saistītās DOM kārtulas tiek efektīvi piemērotas “nosūtīšanas” noliktavām, kas iekļautas izpildes grupā. 
+    > 
+    > Lai efektīvi izmantotu šo līdzekli, pārliecinieties, vai pastāv viena izpildes grupa, kurā iekļautas visas nosūtīšanas noliktavas, un tad saistiet šo izpildes grupu ar izpildes profilu.
+    
     6. Kopsavilkuma cilnē **Juridiskas personas** atlasiet **Pievienot** un pēc tam atlasiet juridisko personu.
     7. Kopsavilkuma cilnē **Kārtulas** atlasiet **Pievienot** un pēc tam atlasiet kārtulu, kas tiks saistīta ar profilu.
     8. Atkārtojiet iepriekšējās divas darbības, līdz visas nepieciešamās kārtulas ir saistītas ar profilu.
@@ -157,7 +176,7 @@ DOM optimizē pasūtījumu izpildīšanu kompleksā sistēmu un procesu tīklā.
 
 DOM izpilde tiks veikta tikai kā pakešuzdevumi. Lai konfigurētu pakešuzdevumu DOM izpildei, rīkojieties šādi.
 
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Pakešapstrāde \> DOM procesora darba iestatīšana**.
+1. Dodieties uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Pakešapstrāde \> DOM procesora darba iestatīšana**.
 1. Kopsavilkuma cilnes **Parametri** laukā **Izpildes profils** atlasiet profilu, kuram DOM ir jāizpilda.
 1. Kopsavilkuma cilnes **Palaist fonā** laukā **Pakešuzdevumu grupa** atlasiet konfigurēto pakešuzdevumu grupu.
 1. Laukā **Uzdevuma apraksts** ievadiet pakešuzdevuma nosaukumu.
@@ -179,7 +198,7 @@ Apstrādes laikā DOM ņem vērā pasūtījumu un pasūtījuma rindas, kā aprak
 
 Pēc kārtulu, krājumu ierobežojumu un optimizācijas lietošanas DOM izvēlas vietu, kas ir vistuvāk klienta piegādes adresei.
 
-![Pārdošanas pasūtījumu kritēriji](./media/ordercriteria.png "Pārdošanas pasūtījumu kritēriji")
+![![Pārdošanas pasūtījumu kritēriji](./media/ordercriteria.png "Pārdošanas pasūtījumu kritēriji")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>DOM izpildes rezultāti
 
@@ -187,7 +206,7 @@ Ja izpildes profilam ir iestatīts vienums **Automātiska lietošana**, izpildes
 
 Lai skatītu visus ģenerētos izpildes plānus, rīkojieties šādi.
 
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Sadalīto pasūtījumu pārvaldība**.
+1. Dodieties uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Sadalīto pasūtījumu pārvaldība**.
 2. Darbvietā **Sadalīto pasūtījumu pārvaldība** atlasiet elementu **Izpildes plāni**.
 3. Atlasiet atbilstīgā pasūtījuma izpildes plāna ID, lai skatītu izpildes plānu.
 
@@ -201,7 +220,7 @@ Lai skatītu visus ģenerētos izpildes plānus, rīkojieties šādi.
 
 ## <a name="order-line-actions-and-statuses"></a>Pasūtījuma rindu darbības un statusi
 
-Turpmāk ir aprakstīti pasūtījuma rindas iestatījumi. Lai atvērtu pasūtījuma rindu, dodieties uz **Mazumtirdzniecība un tirdzniecība \> Debitori \> Visi pārdošanas pasūtījumi**.
+Turpmāk ir aprakstīti pasūtījuma rindas iestatījumi. Lai atvērtu pasūtījuma rindu, dodieties uz **Retail un Commerce \> Debitori \> Visi pārdošanas pasūtījumi**.
 - Ja pārdošanas pasūtījuma rindas cilnē **Vispārīgi** opcijai **Izslēgt no DOM apstrādes** atlasāt iestatījumu **Jā**, pasūtījums vai pasūtījuma rinda tiks izslēgta no DOM apstrādes.
 - Pārdošanas pasūtījuma rindas cilnes **Vispārīgi** laukā **DOM statuss** var iestatīt vienu no šādām vērtībām:
 
@@ -221,7 +240,7 @@ Turpmāk ir aprakstīti pasūtījuma rindas iestatījumi. Lai atvērtu pasūtīj
 
 Izpildot DOM apstrādi, tiek izveidoti izpildes plāni. Laika gaitā sistēma saglabās daudzus izpildes plānus. Lai pārvaldītu sistēmas saglabāto izpildes plānu skaitu, varat konfigurēt pakešuzdevumu, kas dzēš vecākus izpildes plānus, pamatojoties uz vienuma **Saglabāšanas perioda dienu skaits** vērtību.
 
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Sadalīto pasūtījumu pārvaldība \> Pakešapstrāde \> DOM izpildes datu dzēšanas darba iestatīšana**. 
+1. Dodieties uz **Retail un Commerce \> Sadalīto pasūtījumu pārvaldība \> Pakešapstrāde \> DOM izpildes datu dzēšanas darba iestatīšana**. 
 1. Laukā **Pakešuzdevumu grupa** atlasiet konfigurēto pakešuzdevumu grupu.
 1. Atlasiet **Periodiskums** un definējiet pakešuzdevuma periodiskumu.
 1. Atlasiet **Labi**.

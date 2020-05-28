@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Dynamics 365 Commerce sākumlapa
           href: index.md
         - name: Darba sākšana
           items:
@@ -79,7 +79,7 @@
                 - name: 'Pakāpeniskās izlādes (N-1) instalēšana, konfigurēšana un pārslēgšana'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Retail kanāla paplašinājuma jaunināšana uz jaunāko Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Jaunumi un izmaiņas
               items:
                 - name: Jaunumi un izmaiņas Finance and Operations programmās
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Savienojuma izveide ar palīdzības sistēmu
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Savienojuma izveide ar pielāgotu palīdzības vietni
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Pielāgotās palīdzības pārskats
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Lauku aprakstu skatīšana un eksportēšana
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Uzdevuma reģistrētājs
@@ -499,7 +499,9 @@
                     - name: Adyen maksājumu savienotājs
                       href: dev-itpro/adyen-connector.md
                     - name: 'Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen'
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: 'Droša klientu autentifikācija (SCA), izmantojot savienotāju Adyen'
+                      href: adyen_redirect.md
                     - name: Ērta bezsaistes pārslēgšanās dāvanu karšu un kredītrēķinu darbībām
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Rēķinu apmaksas scenāriju iestatīšana
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Bieži uzdotie jautājumi par maksājumiem
                       href: dev-itpro/payments-retail.md
+                - name: Bing karšu pārvaldība organizācijā
+                  href: dev-itpro/manage-bing-maps.md
         - name: Jūsu preču un pakalpojumu tirdzniecība
           items:
             - name: 'Kategorijas, preces un klāsts'
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: Satura drošības politikas (CSP) pārvaldība
                   href: manage-csp.md
+                - name: Atteikšanās no tīmekļa aktivitāšu notikumu apkopošanas
+                  href: web-activity-opt-out.md
             - name: Vietnes satura pārvaldība
               items:
                 - name: Satura pievienošanas veidi
@@ -1016,7 +1022,7 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Austrumeiropa
               items:
-                - name: Parasts
+                - name: Vispārīgi
                   items:
                     - name: Avansa rēķini programmai Commerce Austrumeiropā
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: E-pasta konfigurēšana un sūtīšana
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: E-pasta ziņojumu veidņu izveide transakciju notikumiem
+              href: email-templates-transactions.md
             - name: E-pasta funkcionalitātes izstrāde
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Office integrācijas problēmu novēršana
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Iepriekš paplašinātās kolonnas kanāla datu bāzē
                   href: dev-itpro/extended-columns.md
+                - name: "Commerce Data Exchange\_— reāllaika pakalpojuma paplašināšana"
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Maksājumu savienotāja paplašināmība
               items:
                 - name: Maksājumu integrācijas izveidošana maksājumu terminālim

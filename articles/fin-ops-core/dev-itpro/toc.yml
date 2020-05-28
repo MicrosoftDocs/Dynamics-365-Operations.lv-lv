@@ -524,11 +524,37 @@
                   href: deployment/install-deployable-package.md
                 - name: Pakotnes atinstalēšana
                   href: deployment/uninstall-deployable-package.md
-                - name: Pakotnes programmu problēmu novēršana
+                - name: Pakotnes lietojuma problēmu novēršana
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Pielāgotās palīdzības izvietošana
+              items:
+                - name: Pielāgotās palīdzības pārskats
+                  href: help/custom-help-overview.md
+                - name: Satura sagatavošana izmantošanai palīdzības rūtī
+                  href: help/preparing-content.md
+                - name: Pielāgotās palīdzības izvietošana platformā Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Pielāgotās palīdzības pievienošana palīdzības rūtij
+                  href: help/connect-help-pane.md
+                - name: Pielāgotās palīdzības rīkkopa
+                  items:
+                    - name: Pārskats
+                      href: help/custom-help-toolkit.md
+                    - name: Rīks HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Rīks Convert HTML to JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: Rīks HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: "Dynamics AX pielāgotās palīdzības pārvēršana izmantošanai programmā Dynamics\_365"
+                      href: help/migrate-dynamicsax2012.md
+                - name: Valodas un lokalizācijas deskriptori visā produktā un palīdzības saturā
+                  href: help/language-locale.md
+                - name: Sadarbība pie palīdzības satura paplašināšanas un pielāgošanas
+                  href: help/contributor-guide.md
         - name: Izstrāde un pielāgošana
           items:
-            - name: Izstrādes un pielāgošanas mājas lapa
+            - name: Izstrādes un pielāgošanas sākumlapa
               href: dev-tools/developer-home-page.md
             - name: Programmas steks un servera arhitektūra
               href: dev-tools/application-stack-server-architecture.md
@@ -835,7 +861,7 @@
                     - name: "Lietojumprogrammas Paplašināmība versijas\_8.0.1 izmaiņas"
                       href: extensibility/extensibility-changes-801.md
                     - name: "Lietojumprogrammas Paplašināmība versijas\_8.0 izmaiņas"
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: "Lietojumprogrammas Paplašināmība versijas\_7.3 izmaiņas"
                       href: extensibility/extensibility-changes-73.md
                     - name: "Lietojumprogrammas Paplašināmība izmaiņas, 2017.\_gada jūlijs"
@@ -1764,7 +1790,7 @@
               items:
                 - name: Uzdevuma reģistrētāja resursi
                   href: user-interface/task-recorder.md
-                - name: Uzdevumu reģistrētāja ātrā atsauce
+                - name: Uzdevuma reģistrētāja ātrā atsauce
                   href: user-interface/task-recorder-quick-reference.md
                 - name: Dokumentācijas vai apmācības izveide pēc uzdevumu reģistrēšanas
                   href: user-interface/task-recorder-training-docs.md

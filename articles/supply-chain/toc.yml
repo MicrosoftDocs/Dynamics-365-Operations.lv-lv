@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Dynamics 365 Supply Chain Management sākumlapa
           href: index.md
         - name: Darba sākšana
           items:
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Savienojuma izveide ar palīdzības sistēmu
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Savienojuma izveide ar pielāgotu palīdzības vietni
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Pielāgotās palīdzības pārskats
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Lauku aprakstu skatīšana un eksportēšana
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uzdevuma reģistrētājs
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT informācija
+          items:
+            - name: IoT informācijas sākumlapa
+              href: iot/iot-intelligence-home-page.md
+            - name: Azure resursu iestatīšana
+              href: iot/iot-azure-setup.md
+            - name: Ziņojumu shēmas formāti IoT centrmezglam
+              href: iot/iot-schema-format.md
+            - name: 'Pievienojumprogrammas instalēšana šajā: LCS'
+              href: iot/iot-lcs-setup.md
+            - name: Rādītāju iestatīšana
+              href: iot/iot-metrics-setup.md
+            - name: Scenāriju iestatīšana
+              href: iot/iot-scenario-setup.md
+            - name: Pārraudzība un pārvaldība
+              href: iot/iot-management.md
         - name: Vispārējā plānošana
           items:
             - name: Vispārējās plānošanas sākumlapa
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Plānošanas darba atcelšana
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Plānošanas optimizācijas problēmu novēršana
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Vispārējie plāni
               items:
                 - name: Vispārējo plānu pārskats
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Noliktavas programmas instalēšana un konfigurēšana
               items:
-                - name: Instalēšanas un konfigurēšanas pārskats
+                - name: Noliktavas programmas instalēšana un savienošana
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Lauku nosaukumu konfigurēšana noliktavas programmā
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Sūtījumu konsolidācijas politikas
+              items:
+                - name: Sūtījumu konsolidācijas politikas
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Sūtījumu konsolidācijas politiku konfigurēšana
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: "1.\_scenārijs\_— konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu"
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: "2.\_scenārijs\_— konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Izlaišana noliktavā”"
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: "3.\_scenārijs\_— konsolidēt sūtījumus, kravu plānošanas rīkā izmantojot izlaišanu noliktavā"
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: "4.\_scenārijs\_— konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku"
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: "5.\_scenārijs\_— manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu"
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Supply Chain Management izstrāde
           items:
             - name: Ganta kontroles izstrādes ceļvedis

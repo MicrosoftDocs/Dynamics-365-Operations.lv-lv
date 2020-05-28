@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 14.\_maijs"
+          href: hr-whats-new-2020-05-14.md
         - name: "2020.\_gada 1.\_maijs"
           href: hr-whats-new-2020-05-01.md
         - name: "2020.\_gada 13.\_aprīlis"
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Pakalpojuma Lifecycle Services saprašana
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Programma Human Resources programmā Teams
+          href: hr-admin-teams-leave-app.md
         - name: Dokumentācijas resursi
           items:
             - name: Palīdzības sistēma
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Savienojuma izveide ar palīdzības sistēmu
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Savienojuma izveide ar pielāgotu palīdzības vietni
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Pielāgotās palīdzības pārskats
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Lauku aprakstu skatīšana un eksportēšana
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Uzdevuma reģistrētājs
@@ -511,15 +515,17 @@
               href: hr-leave-and-absence-analytics.md
             - name: Atvaļinājumu un kavējumu pieprasījumu pārvaldība
               href: hr-employee-self-service-manage-requests.md
-            - name: Pieprasīt prombūtni
+            - name: Prombūtnes pieprasīšana
               href: hr-employee-self-service-request-time-off.md
-            - name: Skatīt grupas un uzņēmuma kalendārus
+            - name: Grupas un uzņēmuma kalendāru skatīšana
               href: hr-employee-self-service-calendar.md
-        - name: Attīstīt darbiniekus
+        - name: Atvaļinājumu pieprasījumu pārvaldība programmā Teams
+          href: hr-teams-leave-app.md
+        - name: Darbinieku prasmju attīstīšana
           items:
             - name: Veiktspējas pārvaldības pārskats
               href: hr-develop-performance-management-overview.md
-            - name: Saskaņot darbaspēka prasmes
+            - name: Darbaspēka prasmju saskaņošana
               href: hr-develop-skills.md
             - name: Pievienot jūsu veiktspējas žurnālam
               href: hr-develop-add-performance-journal.md
