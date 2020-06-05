@@ -1,0 +1,69 @@
+---
+title: Personāla vadības programma programmā Teams
+description: Šī tēma iepazīstina jūs ar programmu Microsoft Dynamics 365 Human Resources sadaļā Microsoft Teams.
+author: andreabichsel
+manager: AnnBe
+ms.date: 05/18/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-05-18
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
+ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "3388120"
+---
+# <a name="human-resources-app-in-teams"></a><span data-ttu-id="3a723-103">Personāla vadības programma programmā Teams</span><span class="sxs-lookup"><span data-stu-id="3a723-103">Human Resources app in Teams</span></span>
+
+[!include [banner](includes/preview-feature.md)]
+
+<span data-ttu-id="3a723-104">Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj darbiniekiem ātri pieprasīt prombūtni un skatīt savu laiku ārpusbilances informāciju Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="3a723-104">The Microsoft Dynamics 365 Human Resources app in Microsoft Teams lets employees quickly request time off and view their time-off balance information in Microsoft Teams.</span></span> <span data-ttu-id="3a723-105">Darbinieki var sazināties ar botu, lai pieprasītu informāciju.</span><span class="sxs-lookup"><span data-stu-id="3a723-105">Employees can interact with a bot to request information.</span></span> <span data-ttu-id="3a723-106">Cilne **Laiks izslēgts** sniedz detalizētu informāciju.</span><span class="sxs-lookup"><span data-stu-id="3a723-106">The **Time off** tab provides more detailed information.</span></span>
+
+![Personāla vadība Teams atstāj programmu botu](./media/hr-admin-teams-leave-app-bot.png)
+
+![Personāla vadība Teams atstāj programmas cilni Laiks izslēgts](./media/hr-teams-leave-app-timeoff-tab.png)
+
+## <a name="install-and-setup"></a><span data-ttu-id="3a723-109">Instalēt un iestatīt</span><span class="sxs-lookup"><span data-stu-id="3a723-109">Install and setup</span></span>
+
+<span data-ttu-id="3a723-110">Personāla vadības programmu varat atrast Teams veikalā.</span><span class="sxs-lookup"><span data-stu-id="3a723-110">You can find the Human Resources app in the Teams store.</span></span> <span data-ttu-id="3a723-111">Informāciju par programmu grupu instalēšanu skatiet sadaļā [Pārvaldīt atvaļinājumu pieprasījumus komandās ](hr-teams-leave-app.md).</span><span class="sxs-lookup"><span data-stu-id="3a723-111">For information about installing the Teams app, see [Manage leave requests in Teams](hr-teams-leave-app.md).</span></span>
+
+<span data-ttu-id="3a723-112">Lai iegūtu informāciju par programmu atļauju pārvaldību grupās, skatiet sadaļu [programmu atļauju ierobežojumu pārvaldība sistēmā Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).</span><span class="sxs-lookup"><span data-stu-id="3a723-112">For information about managing app permissions in Teams, see [Manage app permission policies in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).</span></span>
+
+## <a name="known-issues"></a><span data-ttu-id="3a723-113">Zināmās problēmas</span><span class="sxs-lookup"><span data-stu-id="3a723-113">Known issues</span></span>
+
+| <span data-ttu-id="3a723-114">Izsniegt</span><span class="sxs-lookup"><span data-stu-id="3a723-114">Issue</span></span> | <span data-ttu-id="3a723-115">Statuss</span><span class="sxs-lookup"><span data-stu-id="3a723-115">Status</span></span> |
+| --- | --- |
+| <span data-ttu-id="3a723-116">Bilance nav pareiza, iesniedzot prombūtni nākotnes datumam.</span><span class="sxs-lookup"><span data-stu-id="3a723-116">The balance is incorrect when submitting time off for a future date.</span></span> | <span data-ttu-id="3a723-117">Videoklips vēl nav pieejams.</span><span class="sxs-lookup"><span data-stu-id="3a723-117">Forecasting isn't yet available.</span></span> <span data-ttu-id="3a723-118">Parādās pašreizējā datuma bilance.</span><span class="sxs-lookup"><span data-stu-id="3a723-118">The balance displays for the current date.</span></span> |
+| <span data-ttu-id="3a723-119">Samazinot esošā pieprasījumā uzņemto stundu skaitu, **Atlikusī bilance** tiek samazināta, nevis paaugstināta.</span><span class="sxs-lookup"><span data-stu-id="3a723-119">When reducing the number of hours taken in an existing request, the **Remaining balance** goes down instead of up.</span></span> | <span data-ttu-id="3a723-120">Nākotnē šī zināmā problēma tiks risināta.</span><span class="sxs-lookup"><span data-stu-id="3a723-120">We'll address this known issue in the future.</span></span> <span data-ttu-id="3a723-121">Displejs nav pareizs, bet pareizās summas tiek koriģētas pēc iesniegšanas.</span><span class="sxs-lookup"><span data-stu-id="3a723-121">The display is incorrect, but the correct amounts are adjusted upon submission.</span></span> |
+| <span data-ttu-id="3a723-122">Divas **Gaidāmās laika pārtraukšanas** kartes tiek rādītas tam pašam datumam.</span><span class="sxs-lookup"><span data-stu-id="3a723-122">Two **Upcoming time off** cards display for the same dates.</span></span> | <span data-ttu-id="3a723-123">Kartes attēlo atsevišķus iesniegumus.</span><span class="sxs-lookup"><span data-stu-id="3a723-123">The cards represent individual submissions.</span></span> <span data-ttu-id="3a723-124">Mēs turpināsim pieņemt atsauksmes un veikt pielāgojumus.</span><span class="sxs-lookup"><span data-stu-id="3a723-124">We'll continue to take feedback and make adjustments.</span></span> |
+| <span data-ttu-id="3a723-125">Nevar atcelt **Pārskatā** pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="3a723-125">Unable to cancel an **In review** request.</span></span> | <span data-ttu-id="3a723-126">Šī funkcionalitāte pašlaik netiek atbalstīta, un tā tiks pievienota nākošajā laidienā.</span><span class="sxs-lookup"><span data-stu-id="3a723-126">This functionality isn't currently supported and will be added in a future release.</span></span> |
+| <span data-ttu-id="3a723-127">Bilances informācija tiek aprēķināta no šodienas.</span><span class="sxs-lookup"><span data-stu-id="3a723-127">Balance information is calculated as of today.</span></span> | <span data-ttu-id="3a723-128">Sistēma pašlaik neparāda uzkrājumu perioda bilances, pat ja tās ir konfigurētas atvaļinājumu un prombūtnes parametros.</span><span class="sxs-lookup"><span data-stu-id="3a723-128">The system currently doesn't display balances as of the accrual period, even if it's configured in Leave and absence parameters.</span></span> |
+
+## <a name="privacy-notice"></a><span data-ttu-id="3a723-129">Paziņojums par konfidencialitāti</span><span class="sxs-lookup"><span data-stu-id="3a723-129">Privacy notice</span></span>
+
+<span data-ttu-id="3a723-130">Ar Dynamics 365 Human Resources botu programmā Microsoft Teams lietotāja teksta ievades tiek analizētas, lai saprastu pamatā esošo vaicājumu/nolūku.</span><span class="sxs-lookup"><span data-stu-id="3a723-130">With the Dynamics 365 Human Resources bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent.</span></span> <span data-ttu-id="3a723-131">Lietotāja ievade, piemēram, "Meklēt kontu Contoso", ir maršrutēta uz vienu no Microsoft izziņas pakalpojumiem, kas saucas Valodas izpratnes inteliģences serviss (LUIS).</span><span class="sxs-lookup"><span data-stu-id="3a723-131">The user’s input such as “Search account Contoso” is routed to one of Microsoft’s Cognitive Service called Language Understanding Intelligent Service (LUIS).</span></span> <span data-ttu-id="3a723-132">Lasīt vairāk par LUIS  [šeit](https://www.luis.ai/).</span><span class="sxs-lookup"><span data-stu-id="3a723-132">Read more about LUIS [here](https://www.luis.ai/).</span></span> <span data-ttu-id="3a723-133">LUIS pakalpojums izprot lietotāja ievades nolūku (šajā gadījumā nolūks ir meklēt informāciju) un mērķa elementu (šajā gadījumā paredzētā vienība ir konts ar nosaukumu Contoso).</span><span class="sxs-lookup"><span data-stu-id="3a723-133">The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso).</span></span> <span data-ttu-id="3a723-134">Pēc tam šī informācija tiek nodota Microsoft  [Azure bota struktūrai](https://azure.microsoft.com/services/bot-service/) , kas mijiedarbojas ar datiem no Dynamics 365 Human Resources un izgūst vēlamo informāciju lietotāja vaicājumam.</span><span class="sxs-lookup"><span data-stu-id="3a723-134">This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with data from Dynamics 365 Human Resources and retrieves the desired information for the user query.</span></span> 
+
+<span data-ttu-id="3a723-135">Instalējot un ļaujot izmantot botu, jūs piekrītat, ka ļautat LUIS pakalpojumam un Azure bota struktūrai apstrādāt ievades nodomu, kas rada lielāku sarunvalodas lietotāja pieredzi.</span><span class="sxs-lookup"><span data-stu-id="3a723-135">By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure bot framework to process the intent behind the input,  which results in an enhanced conversational user experience.</span></span> <span data-ttu-id="3a723-136">LUIS pakalpojums un Azure bota struktūrai var būt dažādi atbilstības līmeņi, salīdzinot ar Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="3a723-136">The LUIS service and Azure bot framework may have varying levels of compliance compared to Dynamics 365 Human Resources.</span></span> <span data-ttu-id="3a723-137">Lai gan LUIS pakalpojums var piekļūt tikai lietotāju vaicājumiem un nav paredzēts pievienot lietotāja Dynamics 365 Human Resources datiem vai kontam, Dynamics 365 Human Resources bota lietotājs var brīvprātīgi ievadīt vaicājumu, kurā ir ietverti klienta dati, personas dati vai citi dati, un šāds vaicājuma saturs varētu tikt nosūtīts uz LUIS pakalpojumu un Azure bota struktūru.</span><span class="sxs-lookup"><span data-stu-id="3a723-137">While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics 365 Human Resources data or account, a user of the Dynamics 365 Human Resources bot could voluntarily enter a query containing Customer Data, Personal Data, or other data and such query content could get sent to the LUIS service and the Azure bot framework.</span></span> 
+
+<span data-ttu-id="3a723-138">Lietotāja vaicājumu un ziņojumu saturs tiek saglabāts LUIS sistēmā ne ilgāk kā 30 dienas, tiek šifrēts, un tas netiek izmantots apmācībās vai pakalpojumu uzlabošanā.</span><span class="sxs-lookup"><span data-stu-id="3a723-138">The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, is encrypted at rest, and is not used for training or service improvement.</span></span> <span data-ttu-id="3a723-139">Lasiet vairāk par Kognitīvajiem pakalpojumiem  [šeit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/).</span><span class="sxs-lookup"><span data-stu-id="3a723-139">Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/).</span></span> 
+
+<span data-ttu-id="3a723-140">Lai pārvaldītu programmas administrēšanas iestatījumus programmā Microsoft Teams, dodieties uz [Microsoft Teams administrēšanas centru](https://admin.teams.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="3a723-140">To manage admin settings for apps in Microsoft Teams, go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).</span></span> 
+
+## <a name="see-also"></a><span data-ttu-id="3a723-141">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="3a723-141">See also</span></span> 
+
+[<span data-ttu-id="3a723-142">Lejupielāde un instalēšana Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3a723-142">Download and install Microsoft Teams</span></span>](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
+[<span data-ttu-id="3a723-143">Microsoft Teams palīdzības centrs</span><span class="sxs-lookup"><span data-stu-id="3a723-143">Microsoft Teams help center</span></span>](https://support.office.com/teams)</br>
+[<span data-ttu-id="3a723-144">Atvaļinājumu pieprasījumu pārvaldība programmā Teams</span><span class="sxs-lookup"><span data-stu-id="3a723-144">Manage leave requests in Teams</span></span>](hr-teams-leave-app.md)
+
