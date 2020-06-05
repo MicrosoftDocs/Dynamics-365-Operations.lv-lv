@@ -1,9 +1,9 @@
 ---
 title: Izdevumu politiku definēšana
 description: Varat definēt izdevumu politikas, kuras jūsu darbiniekiem ir jāievēro, kad viņi ievada un iesniedz izdevumu pārskatus un komandējumu pieprasījumus programmā Microsoft Dynamics 365 Finance.
-author: ryansandness
+author: suvaidya
 manager: AnnBe
-ms.date: 04/26/2019
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d3b4a8f6cf74bb1fe7e53a4dfdd607f604e16e3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22504e0e26c025d117f29dee3b59b41d508e7724
+ms.sourcegitcommit: 4f90b9ddedf312e75a714e0ec7f7ee5fd43cac6a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187456"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "3389719"
 ---
 # <a name="define-expense-policies"></a>Izdevumu politiku definēšana
 
@@ -45,9 +45,10 @@ Varat definēt trīs tipu politikas.
  - Pamatojums — pirms izdevumu pārskata vai komandējuma pieprasījuma iesniegšanas darbiniekam vai vadītājam liek ievadīt politikas summas pārsniegšanas pamatojumu.        
 
 ## <a name="policy-tips"></a>Politiku padomi
-Tālāk ir minēti daži ieteikumi, kas var jums palīdzēt, izveidojot jaunas politikas izmaksu pārvaldībai. 
+Tālāk ir minēti daži ieteikumi, kas var jums palīdzēt, veidojot jaunas politikas izmaksu pārvaldībai. 
 * Politikām ir spēkā stāšanās datums, un tās nestāsies spēkā, ja politika tiek izveidota ar datumu pēc datuma, kad izdevumi radušies. Piemēram, ja šodien veidojat jaunu politiku, lai ieviestu maksimālos ēdināšanas izdevumus 50 ASV dolāru, apmērā, visi esošie izdevumi, kas ievadīti kopš vakardienas, netiks pārbaudīti attiecībā pret šo politiku.
 * Veidojot politiku izdevumu kategorijai, kas var būt detalizēta, apsveriet iespēju pievienot izdevumu rindas tipa nosacījumu. Dažas politikas, piemēram, kvīts pieprasīšana, var būt neatbilstošas detalizētām rindām, un tās ieteicams piemērot tikai virsraksta rindai vai nedetalizētai rindai. 
+* Izdevumu pārvaldības politikas tiek novērtētas attiecībā pret noklusējuma avota elementu. Starpuzņēmumu scenārijos varat iestatīt politiku, kas ir jāizvērtē, salīdzinot ar mērķa elementu (piesaistīšanas juridiskā persona). Lai palaistu ar mērķa elementu salīdzināmu politiku, **Līdzekļu pārvaldības** darbvietā ieslēdziet līdzekli "novērtēt izdevumu politiku salīdzinājumā ar piesaistīšanas juridisko personu".
 
 ## <a name="when-to-evaluate-policies"></a>Politiku novērtēšanas laiks
 

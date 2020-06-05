@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a9b5bafb70883d9daf35a7d5a9107d7aee23469
+ms.sourcegitcommit: 98ef9178b28cd548f08f8c32255636e6e09b25f2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773449"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "3395986"
 ---
 # <a name="vat-reporting-for-europe"></a>PVN pārskati Eiropai
 
@@ -265,13 +265,13 @@ Katras valsts PVN deklarācijai ir jāatbilst attiecīgās valsts likumdošanas 
 | Beļģija        |                                                                                 |
 | Čehijas Republika |  [PVN deklarācija Čehijai](emea-cze-vat-statement-details.md)   |
 | Igaunija        |  [PVN deklarācijas informācija Igaunijai](emea-est-vat-statement-details.md) |
-| Somija        |                                                                                 |
-| Vācija        |                                                                                 |
+| Somija        | [Somijas PVN pārskats](emea-fin-sales-tax-payment-report-finland.md)          |
+| Vācija        | [PVN deklarācija Vācijai](emea-de-vat-declaration.md)                       |
 | Itālija          | [PVN deklarāciju informācija Itālijai](emea-ita-vat-statements-details.md)            |
 | Latvija         | [PVN deklarācijas informācija Latvijai](emea-lva-vat-statement-details.md)           |
 | Lietuva      | [PVN deklarācijas informācija Lietuvai](emea-ltu-vat-statement-details.md)         |
-| Nīderlande    |                                                                                 |
-| Zviedrija         |                                                                                 |
+| Nīderlande    | [PVN deklarācija Nīderlandei](emea-nl-vat-declaration.md)           |
+| Zviedrija         | [Zviedrijas PVN pārskats](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 
 

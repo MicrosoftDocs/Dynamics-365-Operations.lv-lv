@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b99cac46ea33b018a3f67dd4bf0164b8a7f0e6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216877"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383577"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.-maks. papildināšanas procesa iestatīšana
 
@@ -43,7 +43,7 @@ ms.locfileid: "3216877"
 ## <a name="create-a-replenishment-location-directive"></a>Izveidojiet papildināšanas vietas direktīvu
 1. Dodieties uz **Noliktavas vadība > Iestatīšana > Novietojuma direktīvas**. Atrašanās vietas direktīvas tiek izmantotas, lai noteiktu, kur vienības jāizdod papildināšanas procesā.
 2. Laukā **Darba pasūtījuma veids** atlasiet “Papildināšana“.
-3. **Darbību rūtī** noklikšķiniet uz **Jauns**.
+3. **Sadaļā Darbību rūts** noklikšķiniet uz **Jauns**.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
 5. Laukā **Darba veids** atlasiet vienumu “Izdošana”.
 6. Laukā **Vieta** ievadiet vai atlasiet kādu vērtību. Ja izmantojat USMF, varat atlasīt "Vieta 2".  
@@ -65,7 +65,7 @@ ms.locfileid: "3216877"
 ## <a name="create-a-replenishment-work-template"></a>Izveidojiet papildināšanas darba veidni.
 1. Doties uz **Noliktavas vadība > Iestatīšana > Darbs > Darbu veidnes**. Darba veidne tiek izmantota, lai norādītu sistēmai, kā ir jāveido min. /maks. papildināšanas darbs. Vismaz jābūt darba veidnes rindai izdošanai un izvietošanai. Darba veidne paziņos, ka tā ir nederīga līdz brīdim, kad ir ievadīta visa nepieciešamā informācija. 
 2. Laukā **Darba pasūtījuma veids** atlasiet “Papildināšana“.
-3. **Darbību rūtī** noklikšķiniet uz **Jauns**.
+3. **Sadaļā Darbību rūts** noklikšķiniet uz **Jauns**.
 4. Laukā **Darba veidne** ierakstiet kādu vērtību.
 5. Noklikšķiniet uz **Saglabāt**.
 6. Sadaļā **Darba veidnes detalizētas informācija** noklikšķiniet uz **Jauns**.
@@ -80,7 +80,7 @@ ms.locfileid: "3216877"
 
 ## <a name="create-a-new-replenishment-template"></a>Izveidojiet jaunu papildināšanas veidni
 1. Dodieties uz **Noliktavas vadība > Iestatīšana > Iestatīšana > Papildināšanas veidnes**. Papildināšanas veidne tiek izmantota, lai definētu krājumus un daudzumus un atrašanās vietu papildināšanai.
-2. **Darbību rūtī** noklikšķiniet uz **Jauns**.
+2. **Sadaļā Darbību rūts** noklikšķiniet uz **Jauns**.
 3. Laukā **Papildināšanas veidne** ierakstiet vērtību. Piešķiriet veidnei nosaukumu, lai norādītu, ka tā ir min. /maks. papildināšanai.  
 4. Laukā **Apraksts** ierakstiet kādu vērtību.
 5. Atlasiet izvēles rūtiņu **Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus**. Ja atlasāt šo opciju, tā nodrošina kopuma pieprasījuma papildināšanu, lai patērētu daudzumus, kas ir saistīti ar min. /maks. papildināšanu. Piemēram, tas varētu būt noderīgi, ja min. /maks. papildināšanas darbs netiek uzreiz apstrādāts, lai izvairītos no nevajadzīgas pieprasījuma papildināšanas darba izveides.

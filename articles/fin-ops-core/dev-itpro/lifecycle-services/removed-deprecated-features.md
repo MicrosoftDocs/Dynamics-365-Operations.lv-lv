@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LC
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027984"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367272"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LCS)
 
@@ -53,9 +53,9 @@ ms.locfileid: "3027984"
 </tr>
 <tr>
 <td><strong>Statuss</strong></td>
-<td>Novecojis: BMP blokshēmas diagrammas komponentu ir paredzēts noņemt 2020. gadā. Tiks noņemta tālāk minētā funkcionalitāte.
+<td>Novecojis: BMP blokshēmas diagrammas komponentu ir paredzēts noņemt 2020. gadā. Tālāk minētā funkcionalitāte nav pieejama:
 <ul>
-<li>Esošās blokshēmas nebūs pieejamas apskatei vai rediģēšanai. Nebūs pieejami arī formas rekvizīti, kas ir saistīti ar blokshēmu darbībām, jo tiks noņemta visa cilne <strong>Blokshēma</strong>. Šīs blokshēmas ietver gan noklusējuma blokshēmas, kas tiek ģenerētas automātiski, gan pielāgotas blokshēmas, kas tiek modificētas, pamatojoties uz šīm noklusējuma blokshēmām.</li>
+<li>Visas blokshēmas būs tikai lasāmas un nebūs pieejamas rediģēšanai. Formas rekvizīti, kas ir saistīti ar blokshēmas aktivitātēm, arī nebūs pieejami. Šīs blokshēmas ietver gan noklusējuma blokshēmas, kas tiek ģenerētas automātiski, gan pielāgotas blokshēmas, kas tiek modificētas, pamatojoties uz šīm noklusējuma blokshēmām.</li>
 <li>Mantotā piemērotība / atbilstību analīzes funkcija nebūs pieejama. Tādēļ neviens atbilstības saraksts netiks automātiski izveidots vai nebūs pieejams eksportam.
 <p><strong>Piezīme:</strong> šī funkcija iepriekš bija novecojusi un aizstāta ar Microsoft Azure DevOps integrācijām.</p>
 </li>
