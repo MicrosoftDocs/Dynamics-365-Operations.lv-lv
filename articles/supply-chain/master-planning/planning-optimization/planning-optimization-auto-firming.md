@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323535"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383692"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Automātiskā apstiprināšana ar Plānošanas optimizācijas rīku
 
@@ -47,7 +47,7 @@ Lai ieslēgtu automātisko apstiprināšanu, veiciet tālāk minētās darbības
 Apstiprināšanas periods tiek aprēķināts uz priekšu, sākot no vispārējās plānošanas datuma. To nosaka ievadīto dienu skaits. Apstiprināšanas laika ierobežojumu var kontrolēt šādos veidos:
 
 - Lai definētu noklusējuma apstiprināšanas laika ierobežojumu nodrošinājuma grupai, dodieties uz **Vispārējā plānošana**\>**Iestatījumi**\>**Nodrošinājums**\>**Nodrošinājuma grupas** un atlasiet nodrošinājuma grupu. Pēc tam no kopsavilkuma cilnes **Citi** laukā **Automātisks apstiprināšanas periods (dienas)** ievadiet dienu skaitu.
-- Lai pārrakstītu apstiprināšanas laika periodu, kas noteikts nodrošinājuma grupai noteiktam krājumam, dodieties uz **Produkta informācijas pārvaldība**\>**Izlaistās preces**, pēc tam no darbības rūts atlasiet **Plāns** un pēc tam atlasiet **Krājumu nodrošinājums**. Pēc tam cilnē **Vispārīgi** atlasiet **Ignorēt laika periodu** un laukā **Automātisks apstiprināšanas periods (dienas)** ievadiet dienu skaitu.
+- Lai pārrakstītu apstiprināšanas laika periodu, kas noteikts nodrošinājuma grupai noteiktam krājumam, dodieties uz **Produkta informācijas pārvaldība** \> **Izlaistās preces**, pēc tam no darbības rūts atlasiet **Plāns** un pēc tam atlasiet **Krājumu nodrošinājums**. Pēc tam cilnē **Vispārīgi** atlasiet **Ignorēt laika periodu** un laukā **Automātisks apstiprināšanas periods (dienas)** ievadiet dienu skaitu.
 - Lai pārrakstītu apstiprināšanas laika periodu, kas ir definēts nodrošinājuma grupai un krājumu nodrošinājumam noteiktam vispārējam plānam, dodieties uz **Vispārējā plānošana**\>**Iestatījumi**\>**Vispārējie plāni** un atlasiet vispārējo plānu. Pēc tam kopsavilkuma cilnē  **Periods dienās** lauciņu **Iesaldēt** uzstādiet uz **Jā** un ievadiet dienu skaitu.
 
 Ja ir ieslēgta automātiskā apstiprināšana vispārējai plānošanai, kas izmanto Plānošanas optimizāciju, automātiskās apstiprināšanas process tiek veikts saskaņā ar automātiskās apstiprināšanas iestatījumiem. Ja automātiskā apstiprināšana nav ieslēgta vai ja plānošana tiek sākta no lapas **Tīkla prasības**, automātiskās apstiprināšanas process tiek izlaists.

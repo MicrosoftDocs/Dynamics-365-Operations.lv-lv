@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8491fd7c5af015989d409391e3ac143d88b6ad92
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207167"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383071"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Pārvaldīt kreditoru sadarbības lietotājus
 
@@ -49,7 +49,7 @@ Ja vēlaties dzēst kādu kontaktpersonu, varat dzēst tikai tās kontaktpersona
 Kreditoru sadarbības lietotāju pieprasījumus var paaugstināt sagādes speciālists vai ārēja kreditora administrators.
 
 -   Ja esat ārējs kreditors, pieprasījumus varat iesniegt moduļa **Kreditoru sadarbība** lapā **Visas kontaktpersonas**.
--   Ja esat sagādes speciālists, jums jāiesniedz pieprasījumi no lapas **Skatīt kontaktpersonas**. Lai to izdarītu, kreditora ieraksta darbību rūts sadaļā **Iestatījumi** atlasiet vienumu **Kontaktpersonas** &gt; **Skatīt kontaktpersonas**.
+-   Ja esat sagādes speciālists, jums jāiesniedz pieprasījumi no lapas **Skatīt kontaktpersonas**. Lai to izdarītu, kreditora ieraksta darbību rūts sadaļā **Iestatījumi** atlasiet vienumu **Kontaktpersonas** &gt; **Skatīt kontaktpersonas**.
 
 Varat iesniegt pieprasījumu nodrošināt kādu lietotāju, deaktivizēt kādu lietotāju vai modificēt drošības lomas. Ja esat ārēja kreditora administrators, jums ir jābūt reģistrētam kā kontaktpersonai attiecībā uz šī kreditora kontiem, par kuriem vēlaties iesniegt lietotāja pieprasījumus, un jums ir nepieciešama piekļuve šo kreditoru kontu kreditoru sadarbības interfeisam.  
 

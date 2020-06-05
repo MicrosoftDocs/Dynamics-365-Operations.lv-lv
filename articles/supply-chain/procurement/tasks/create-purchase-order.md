@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204888"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383232"
 ---
 # <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
 
@@ -68,7 +68,7 @@ ms.locfileid: "3204888"
 ## <a name="review-order-totals"></a>Pārskatiet pasūtījuma kopsummas
 1. Atlasiet **Kopsummas**.
 
-    - Ja neredzat sadaļu **Kopējie**, atlasiet cilni **Pirkšanas pasūtījums** darbību joslā.  
+    - Ja neredzat sadaļu **Kopējie**, atlasiet cilni **Pirkšanas pasūtījums** darbību rūtī.  
     - Šajā dialoglodziņā tiek parādīta visa pasūtījuma kopsumma.  
     - Lauks **Atlase** ļauj jums mainīt pamatus, kā aprēķina kopējos rādītājus. Piemēram, varat izvēlēties **Produktu saņemšanas daudzums**, lai parādītu kopējos daudzumus, kas attiecas uz saņemto produkta(-u) daudzumu, vai **Pasūtītais daudzums**, lai parādītu pasūtītā produkta daudzumu.  
 

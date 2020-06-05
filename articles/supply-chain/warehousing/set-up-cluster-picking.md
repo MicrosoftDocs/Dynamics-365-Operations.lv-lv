@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204290"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367411"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
+
+[!include[banner](../includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā darbiniekiem nodrošināt iespēju izmantot mobilās ierīces izdošanas darbu grupēšanai klasteros, lai krājumus varētu izdot no vienas atrašanās vietas vienlaikus vairākiem darba pasūtījumiem. To dēvē par *klastera izdošanu*.
 
@@ -36,35 +36,35 @@ Kad darba pasūtījumi ir nodoti nosūtīšanai uz noliktavu, darbinieks var izm
 
 Ja nepieciešams, darbinieks var nodot klasteri citam darbiniekam. Tādējādi klastera statuss tiek mainīts uz Nodots. Kad nodarbinātais izmanto mobilo ierīci, lai norādītu, ka izdošanas un izvietošanas darbs ir pabeigts, sūtījums vai krava ir jāapstiprina klientā.
 
-## <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
+## <a name="enable-cluster-picking"></a>Klastera izdošanas iespējošana
 
 Lai iespējotu klastera izdošanu, jāveic tālāk norādītie iestatījumi.
 
--   **Klastera profili** — norādiet, vai automātiski ģenerēt klastera ID, izmantojamo pozīciju skaitu, kad klasterus sadalīt, kā izveidot izdošanas darba secību un kā šo darbu pārbaudīt.
+- **Klastera profili** – norādiet, vai automātiski ģenerēt klastera ID, izmantojamo pozīciju skaitu, kad klasterus sadalīt, kā izveidot izdošanas darba secību un kā šo darbu pārbaudīt.
 
--   **Darbu veidnes** — definējiet, kā izveidot izdošanas darbu klastera izdošanai.
+- **Darbu veidnes** — definējiet, kā izveidot izdošanas darbu klastera izdošanai.
 
--   **Novietojuma direktīvas** — norādiet, no kurienes saņemt krājumus un kur tos novietot.
+- **Novietojuma direktīvas** — norādiet, no kurienes saņemt krājumus un kur tos novietot.
 
--   **Mobilās ierīces izvēlnes vienumi** — konfigurējiet mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, ko novirzījusi klastera izdošana. Pēc tam izvēlnes vienums jāpievieno mobilās ierīces izvēlnei, lai tas tiktu parādīts mobilajās ierīcēs.
+- **Mobilās ierīces izvēlnes vienumi** — konfigurējiet mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, ko novirzījusi klastera izdošana. Pēc tam izvēlnes vienums jāpievieno mobilās ierīces izvēlnei, lai tas tiktu parādīts mobilajās ierīcēs.
 
--   **Noliktavas vadības parametri** — norādiet izmantojamo numuru sēriju, ja vēlaties klasteriem ģenerēt identifikatorus.
+- **Noliktavas vadības parametri** — norādiet izmantojamo numuru sēriju, ja vēlaties klasteriem ģenerēt identifikatorus.
 
 ## <a name="set-up-a-cluster-profile"></a>Klastera profila iestatīšana
 
 Lai iestatītu klastera profilu, veiciet tālāk aprakstītās darbības.
 
-1.  Noklikšķiniet uz **Noliktavas vadība** \> **Iestatīšana** \> **Mobilā ierīce** \> **Klastera profili**.
+1. Noklikšķiniet uz **Noliktavas vadība** \> **Iestatīšana** \> **Mobilā ierīce** \>  **Klastera profili**.
 
-2.  Noklikšķiniet uz **Jauns**, lai izveidotu jaunu profilu.
+1. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu profilu.
 
-3.  Noklikšķiniet uz **Izveidot klasteri** un sadaļā **Klastera kārtošana** noklikšķiniet uz **Jauns**, lai klasterim iestatītu kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks veiks izdošanas darbu. Varat pievienot tik daudz kritērijus, cik nepieciešams.
+1. Noklikšķiniet uz **Izveidot klasteri** un sadaļā **Klastera kārtošana** noklikšķiniet uz **Jauns**, lai klasterim iestatītu kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks veiks izdošanas darbu. Varat pievienot tik daudz kritērijus, cik nepieciešams.
 
-4.  Laukā **Sērijas numurs** ievadiet numuru, lai definētu kārtību, kādā tiek apstrādāti kārtošanas kritēriji.
+1. Laukā **Sērijas numurs** ievadiet numuru, lai definētu kārtību, kādā tiek apstrādāti kārtošanas kritēriji.
 
-5.  Laukā **Lauka nosaukums** atlasiet lauku, kas noteiks kārtošanu. Piemēram, atlasot lauku **WMSLocationId**, darbs tiks kārtots pēc atrašanās vietas.
+1. Laukā **Lauka nosaukums** atlasiet lauku, kas noteiks kārtošanu. Piemēram, atlasot lauku **WMSLocationId**, darbs tiks kārtots pēc atrašanās vietas.
 
-6.  Laukā **Kārtošana** atlasiet vienu no tālāk norādītajām opcijām.
+1. Laukā **Kārtošana** atlasiet vienu no tālāk norādītajām opcijām.
 
 | **Opcija**     | **Apraksts**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Ja tiek lietota klasteru izdošana, ir svarīgi veikt krājumu apstiprināšanu,
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Krājumu pārbaudes klastera izdošanai iestatīšana
 
-1.  Mobilās ierīces izvēlnes vienumā atveriet iestatīšanas formu darba apstiprināšanai: **Noliktavas vadība** \> **Noliktavas vadība** \> **Iestatīšana** \> **Mobilā ierīce** \> **Mobilās ierīces izvēlnes vienumi**.
+1. Mobilās ierīces izvēlnes vienumā atveriet iestatīšanas formu darba apstiprināšanai:  **Noliktavas pārvaldība** \> **Noliktavas pārvaldība** \> **Iestatījumi** \>  **Mobilā ierīce** \> **Mobilās ierīces izvēlnes vienumi**.
 
-2.  Mobilās ierīces izvēlnes vienumā atveriet sadaļu **Darba apstiprinājuma iestatīšana**. Opcija **Preces apstiprināšana** jums ļauj skenēšanas laikā mobilajā ierīcē pārbaudīt katru krājumu vienību.
+1. Mobilās ierīces izvēlnes vienumā atveriet sadaļu **Darba apstiprinājuma iestatīšana**. Opcija **Preces apstiprināšana** jums ļauj skenēšanas laikā mobilajā ierīcē pārbaudīt katru krājumu vienību.

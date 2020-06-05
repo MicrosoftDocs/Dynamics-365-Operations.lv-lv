@@ -3,7 +3,7 @@ title: Izdevumu kvīšu apstrāde
 description: Šajā tēmā ir sniegta informācija par kvīšu optiskās rakstzīmju atpazīšanas (OCR) apstrādi. Šis līdzeklis ir paredzēts lietotāja pieredzes uzlabošanai, veidojot izdevumu pārskatus programmā Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248967"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378235"
 ---
 # <a name="expense-receipt-processing"></a>Izdevumu ieejas apstrāde
 
@@ -36,24 +36,24 @@ Izdevumu ieraksts ir uzlabots, ieviešot kvīšu optiskās rakstzīmju pazīšan
 
 ## <a name="usage-examples"></a>Lietojuma piemēri
 
-- **Automātiski pievienojiet kvītis, kas, veidojot izdevumu pārskatu, ietver kredītkartes darbības.**
+Lai automātiski pievienotu kvītis, kas, veidojot izdevumu pārskatu, ietver kredītkartes darbības, veiciet sekojošās darbības:
 
-    1. Atveriet darbvietu **Izdevumu pārvaldība**.
-    2. Cilnē **Kvītis** pārbaudiet, vai pastāv nepievienotas kvītis. Kvītis varat augšupielādēt arī cilnē **Kvītis**.
-    3. Cilnē **Izdevumi** pārbaudiet, vai pastāv nepievienoti izdevumi. Parasti izdevumu administrators importē šos izdevumus no kredītkartes nodrošinātāja.
-    4. Atlasiet **Jauns izdevumu pārskats**. Ievērojiet, ka tagad, veidojot izdevumu pārskatu, var iekļaut arī izdevumus un kvītis. Ja pievienojat gan izdevumus, gan kvīti,, automātiski tiek aktivizēta kvīšu salīdzināšana ar izdevumiem.
+  1. Atveriet darbvietu **Izdevumu pārvaldība**.
+  2. Cilnē **Kvītis** pārbaudiet, vai pastāv nepievienotas kvītis. Kvītis varat augšupielādēt arī cilnē **Kvītis**.
+  3. Cilnē **Izdevumi** pārbaudiet, vai pastāv nepievienoti izdevumi. Parasti izdevumu administrators importē šos izdevumus no kredītkartes nodrošinātāja.
+  4. Atlasiet **Jauns izdevumu pārskats**. Ievērojiet, ka tagad, veidojot izdevumu pārskatu, var iekļaut arī izdevumus un kvītis. Ja pievienojat gan izdevumus, gan kvīti,, automātiski tiek aktivizēta kvīšu salīdzināšana ar izdevumiem.
 
-- **Izveidojiet izdevumus vai saskaņojiet kvītī norādītos izdevumus.**
+Lai izveidotu izdevumus vai saskaņotu kvītī norādītos izdevumus, veiciet sekojošās darbības:
 
-    1. Pievienojiet kvīti izdevumu pārskata cilnē **Kvītis**, atlasot **Pievienot kvītis**.
-    2. Zem augšupielādētā kvīts attēla ievērojiet opcijas **Izveidot** un **Saskaņot**.
+  1. Pievienojiet kvīti izdevumu pārskata cilnē **Kvītis**, atlasot **Pievienot kvītis**.
+  2. Zem augšupielādētā kvīts attēla ievērojiet opcijas **Izveidot** un **Saskaņot**.
 
-        - Atlasiet **Izveidot**, lai izveidotu manuāli ievadītu izdevumu darbību, un ievadiet vērtības, kas izgūtas no kvīts.
-        - Ja atlasāt **Saskaņot**, sistēma mēģina saskaņot esošus izdevumus ar kvīti.
+      - Atlasiet **Izveidot**, lai izveidotu manuāli ievadītu izdevumu darbību, un ievadiet vērtības, kas izgūtas no kvīts.
+      - Ja atlasāt **Saskaņot**, sistēma mēģina saskaņot esošus izdevumus ar kvīti.
 
 ## <a name="installation"></a>Instalēšana
 
-Šis līdzeklis darbojas kombinācijā ar līdzekli **Izdevumu pārskati jaunā izskatā**, tādējādi vienkāršojot izdevumu funkcionalitāti.
+Šis līdzeklis darbojas kombinācijā ar līdzekli **Izdevumu pārskati jaunā izskatā**, tādējādi vienkāršojot izdevumu funkcionalitāti. Šis līdzeklis ir pieejams tikai 2+ līmeņa vidēm, kas ir smilškaste un ražošana.
 
 Lai izmantotu šīs uzlabotās izdevumu iespējas, instalējiet Microsoft Dynamics 365 Finance izdevumu pārvaldības pakalpojuma pievienojumprogrammu un ieslēdziet līdzekļus savā instancē. Jūs variet piekļūt pievienojumprogrammai no sava projekta pakalpojumā Microsoft Dynamics Lifecycle Services (LCS).
 

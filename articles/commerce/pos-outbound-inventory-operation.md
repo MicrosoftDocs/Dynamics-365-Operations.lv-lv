@@ -3,7 +3,7 @@ title: Izejošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) izejošo krājumu operāciju iespējas.
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123926"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384133"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
@@ -117,6 +117,18 @@ Skatā **Pilns pasūtījumu saraksts** varat manuāli atlasīt rindu sarakstā u
 ### <a name="over-delivery-shipping-validations"></a>Pasūtījuma apjoma pārsniegšanas nosūtīšanas validācijas
 
 Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validācijas pasūtījuma apjoma pārsniegšanai. Ja lietotājs mēģina saņemt vairāk krājumu, nekā bija pasūtīts uz pirkšanas pasūtījumu, bet vai nu nav konfigurēta pasūtījuma apjoma pārsniegšana, vai saņemtais daudzums pārsniedz pirkšanas pasūtījuma rindai konfigurēto pasūtījuma apjoma pārsniegšanas toleranci, lietotājs saņem kļūdu, un lietotājam nav atļauts saņemt pārsniegto daudzumu.
+
+### <a name="underdelivery-close-lines"></a>Nepilna pasūtījuma slēgšanas rindas
+
+Commerce version 10.0.12 pievienota funkcionalitāte, kas ļauj POS lietotājiem slēgt vai atcelt atlikušos daudzumus izejošā pasūtījuma nosūtīšanas laikā, ja izejošā noliktava konstatē, ka tā nevar nosūtīt visu pieprasīto daudzumu. Daudzumus var arī slēgt vai atcelt vēlāk. Lai izmantotu šo iespēju, uzņēmumam jābūt konfigurētam atļaut nepilna pasūtījuma pārsūtīšanu. Turklāt pārsūtīšanas pasūtījuma rindai jādefinē nepilna pasūtījuma izpildes procentuālā vērtība.
+
+Lai konfigurētu uzņēmumu atļaut nepilna pasūtījuma pārsūtīšanu, lapā Commerce Headquarters dodieties uz **Krājumu pārvaldība \> Iestatīšana \> Krājumu un noliktavas pārvaldības parametri**. Lapas **Krājumu un noliktavas vadības parametri** cilnē **Pārsūtīšanas pasūtījumi** ieslēdziet parametru **Atļaut nepilnu pasūtījumu**. Pēc tam palaidiet **1070** sadales plānotāja darbu, lai sinhronizētu parametru izmaiņas jūsu veikala kanālā.
+
+Pārsūtīšanas pasūtījumu rindas nepilno pasūtījumu procentuālās daļas var iepriekš definēt produktiem kā daļu no Commerce Headquarters produktu konfigurācijas. Vai arī iestatiet vai pārrakstiet tos noteiktā pārsūtīšanas pasūtījuma rindā, izmantojot Commerce Headquarters.
+
+Kad organizācija ir pabeigusi konfigurēt nepilno pasūtījumu pārsūtīšanu, lietotāji redzēs jaunu opciju **Aizvērt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta izejošā pārsūtīšanas pasūtījuma rinda, izmantojot POS **Izejošo operāciju**. Pēc tam, kad lietotāji pabeidz sūtījumu, izmantojot operāciju **Pabeigt izpildi**, tie var nosūtīt pieprasījumu Commerce Headquarters, lai atceltu atlikušo nenosūtīto daudzumu. Ja lietotājs izvēlas slēgt atlikušo daudzumu, Commerce veic validāciju, pārbaudot, ka daudzums, kas tiek atcelts, atrodas nepilnā pasūtījuma procentuālās tolerances ietvaros, kas noteikts pārsūtīšanas pasūtījuma rindā. Ja nepilna pasūtījuma tolerance ir pārsniegta, lietotājs saņem kļūdas ziņojumu un nevar aizvērt atlikušo daudzumu, kamēr iepriekš nosūtītais un “nosūtīt tagad” daudzums neatbilst vai pārsniedz nepilna pasūtījuma toleranci.
+
+Pēc tam, kad sūtījums ir sinhronizēts ar Commerce Headquarters, daudzumam, kas POS pārsūtīšanas pasūtījuma rindai ir definēts laukā **Nosūtīt tagad**, Commerce Headquarters statuss tiek atjaunināts uz nosūtīts. Visi nenosūtītie daudzumi, kas iepriekš tika uzskatīti par "nosūtīt atlikumu" daudzumiem (t. i., daudzumi, kas tiks nosūtīti vēlāk), tiek uzskatīti par atceltiem daudzumiem. "Nosūtīt atlikumu" daudzums pārsūtīšanas pasūtījuma rindā ir iestatīts kā **0** (nulle), un rinda tiek uzskatīta par pilnībā nosūtītu.
 
 ### <a name="shipping-location-controlled-items"></a>Nosūtīšanas vieta — kontrolētie vienumi
 

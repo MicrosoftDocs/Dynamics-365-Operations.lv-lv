@@ -1,5 +1,5 @@
 ---
-title: Darba sākšana ar izmaksu uzskaites pakalpojumu
+title: Darba sākšana ar izmaksu uzskaites pakalpojumu (privāts priekšskatījums)
 description: Šajā tēmā ir sniegta informācija par licencēšanu un izmaksu uzskaites pakalpojuma instalēšanas instrukcijām.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276940"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372740"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Darba sākšana ar izmaksu uzskaites pakalpojumu
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Darba sākšana ar izmaksu uzskaites pakalpojumu (privāts priekšskatījums)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ Izmaksu uzskaites pakalpojums ir pievienojumprogramma. Lai padarītu šīs funkc
 
 Izmaksu uzskaites pakalpojums pašlaik neatbalsta visus izmaksu pārvaldības līdzekļus, kas ir iebūvēti Dynamics 365 Supply Chain Management. Tāpēc ir svarīgi novērtēt, vai līdzekļu kopa, kas pašlaik ir pieejama, atbilst jūsu prasībām.
 
-## <a name="licensing"></a>Licencēšana
-
-Izmaksu uzskaites pakalpojums ir licencēts kopā ar krājumu uzskaites standarta funkcijām, kas ir pieejamas Supply Chain Management. Jums nav jāiegādājas papildu licence, lai izmantotu izmaksu uzskaites pakalpojumu.
-
-## <a name="install-the-add-in"></a>Pievienojumprogrammas instalēšana
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Kā sākt darbu ar izmaksu uzskaites pakalpojumu (privātais priekšskats)
 
 > [!IMPORTANT]
 > Lai izmantotu izmaksu uzskaites pakalpojumu, ir jābūt ar LCS iespējotai augstas pieejamības videi (ne OneBox videi), un jums ir jāpalaiž Dynamics 365 Supply Chain Management versija 10.0.11 vai jaunāka.
 
+Lai pieteiktos izmaksu uzskaites pakalpojuma privātajam priekšskatījumam, lūdzu, nosūtiet jūsu LCS vides ID pa e-pastu uz [Izmaksu uzskaites pakalpojumu (privāts priekšskatījums)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Apstiprinot jūs programmā, mēs jums nosūtīsim sekojuma e-pasta ziņojumu, kurā būs ietverta izmaksu uzskaites pakalpojuma beta atslēga. Saņemot beta atslēgu, varat turpināt, [instalējot pievienojumprogrammu](#install).
+
+## <a name="licensing"></a>Licencēšana
+
+Izmaksu uzskaites pakalpojums ir licencēts kopā ar krājumu uzskaites standarta funkcijām, kas ir pieejamas Supply Chain Management. Jums nav jāiegādājas papildu licence, lai izmantotu izmaksu uzskaites pakalpojumu.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Pievienojumprogrammas instalēšana
+
 Lai izmantotu izmaksu uzskaites pakalpojumu, instalējiet izmaksu uzskaites pakalpojumu pievienojumprogrammu Supply Chain Management, kā aprakstīts šajā procedūrā.
+
+1. [Pierakstieties](#sign-up) izmaksu uzskaites pakalpojumam (privāts priekšskatījums).
 
 1. Pierakstieties LCS.
 

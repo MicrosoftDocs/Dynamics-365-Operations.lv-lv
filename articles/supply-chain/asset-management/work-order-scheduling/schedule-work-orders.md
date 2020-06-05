@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e98a30a03856f5532d420e516cb35d66acffb278
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275606"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383492"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -137,4 +137,4 @@ Lai skatītu un strādātu ar Ganta diagrammu:
     - Ganta diagrammas atjauninājumi, lai parādītu plānotos darba pasūtījumus, kas atbilst jūsu iestatījumiem. Katru darba pasūtījumu attēlo zils taisnstūris.
     - Lai pārplānotu parādīto darba pasūtījumu, atlasiet un pēc tam velciet to uz atbilstošo jauno datumu un laiku.
 
-1. Ja veicāt izmaiņas, noklikšķiniet uz **Saglabāt** darbības rūtī, lai tās saglabātu.
+1. Ja veicāt izmaiņas, darbības rūtī noklikšķiniet uz **Saglabāt**, lai tās saglabātu.

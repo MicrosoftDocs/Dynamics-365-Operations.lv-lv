@@ -3,7 +3,7 @@ title: Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
 description: Šajā tēmā ir aprakstītas opcijas, kas pieejamas, lai parādītu rīcībā esošos krājumus veikalam un tiešsaistes kanāliem.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113924"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379240"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
 
@@ -50,12 +50,7 @@ Abi API iegūst datus no Commerce Server un nodrošina rīcībā esošo krājumu
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Sākt darbu ar e-komercijas aprēķināto krājumu pieejamību
 
-Pirms izmantojat divus iepriekšminētos API, ir jāveic parametra maiņa programmā Commerce Headquarters, lai nodrošinātu, ka momentuzņēmums krājumu vērtībām, ko Commerce Headquarters aprēķina, izmantojot **Preču pieejamības** darbu, tiek ievadīts pareizajās tabulās.
-
-Lai iestatītu parametru, veiciet tālāk norādītās darbības.
-
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**.
-1. Cilnes **Krājumi** sadaļā **Preču pieejamības darbs** atlasiet **Izmantot optimizēšanas procesu produktu pieejamības darbam**. Šis iestatījums nodrošina, ka optimālais funkciju komplekts tiek izmantots, lai aprēķinātu kanāla rīcībā esošos krājumus, izmantojot Commerce Server.
+Pirms izmantojat divus iepriekš pieminētos API, ir jāiespējo **Optimizētās preču pieejamības aprēķināšanas** līdzeklis, izmantojot **Līdzekļu pārvaldības** darbvietu programmā Commerce Headquarters.
 
 Pirms API var aprēķināt vislabāko krājumu pieejamības aplēsi vienumam, ir jāapstrādā periodisks krājumu pieejamības momentuzņēmums no Commerce Headquarters un tas jānosūta uz kanāla datu bāzi, ko izmanto e-komercijas pakalpojumu mēroga vienība Momentuzņēmums attēlo informāciju, kas ir Commerce Headquarters rīcībā attiecībā uz krājumu pieejamību noteiktai preču vai preču variantu kombinācijai un noliktavai. Tas var ietvert krājumu korekcijas vai kustības, ko radījusi krājumu ieejas plūsma, vai kravas vai citi procesi, kas tiek veikti Commerce Headquarters un par kuriem e-komercijas kanālam ir informācija tikai sinhronizācijas procesa dēļ.
 
@@ -85,20 +80,15 @@ Kad kanāla puses aprēķins ir pareizi konfigurēts un pārvaldīts, tas var no
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Sākt darbu ar POS kanāla puses aprēķināto krājumu pieejamību
 
-Lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpojuma izsaukumus no POS lietojumprogrammas, vispirms jāveic divas parametru izmaiņas. Pēc tam ir jāsinhronizē izmaiņas kanālā, izmantojot sadales grafika procesu.
+Lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpojuma izsaukumus uz krājumu pārlūkiem no POS programmas, vispirms aktivizējiet **Optimizētās preču pieejamības aprēķināšanas** līdzekli, izmantojot **Līdzekļu pārvaldības** darbvietu programmā Commerce Headquarters. Papildus līdzekļa iespējošanai ir jāveic izmaiņas **Funkcionalitātes profilā**.
 
-Lai iestatītu pirmo parametru, veiciet tālāk norādītās darbības.
-
-1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Commerce koplietotie parametri**.
-1. Cilnes **Krājumi** sadaļā **Preču pieejamības darbs** atlasiet **Izmantot optimizēšanas procesu produktu pieejamības darbam**. Šis iestatījums nodrošina, ka optimālais funkciju komplekts tiek izmantots, lai aprēķinātu kanāla rīcībā esošos krājumus, izmantojot Commerce Server.
-
-Lai iestatītu otro parametru, veiciet tālāk norādītās darbības.
+Lai izmainītu **Funkcionalitātes profilu**, veiciet šādas darbības:
 
 1. Dodieties uz sadaļu **Retail un Commerce\> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. Atlasiet funkcionalitātes profilu.
 1. Kopsavilkuma cilnes **Funkcijas** sadaļā **Krāj. pieejamības aprēķins** mainiet lauka **Krāj. pieejamības aprēķina režīms** no **Reāllaika pakalpojums** uz **Kanāls**. Pēc noklusējuma visi funkcionalitātes profili izmanto reāllaika pakalpojumu izsaukumus. Tāpēc šī lauka vērtība ir jāmaina, ja vēlaties izmantot kanāla puses aprēķina loģiku. Visus mazumtirdzniecības veikalus, kas ir saistīti ar izvēlēto funkcionalitātes profilu, ietekmēs šīs izmaiņas.
 
-Lai atjauninātu serverus, veiciet tālāk norādītās darbības.
+Pēc tam ir jāsinhronizē izmaiņas kanālā ar sadales grafika procesu, veicot šādas darbības:
 
 1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 1. Palaidiet **1070** (**Kanāla konfigurācija**) darbu.

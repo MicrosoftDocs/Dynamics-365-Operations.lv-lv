@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Savienojuma izveide ar palīdzības sistēmu
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Savienojuma izveide ar pielāgotu palīdzības vietni
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Pielāgotās palīdzības pārskats
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Lauku aprakstu skatīšana un eksportēšana
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Uzdevuma reģistrētājs
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: PVN deklarācijas elektroniskā pārsūtīšana (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: PVN deklarācija Vācijai
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Žurnālu saraksta pārskats
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektronisko nodokļu deklarāciju iestatīšana
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL integrācija
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Audita fails (XML Auditfile Financieel, XAF)'
+                - name: "Audita fails\_— (XML Auditfile Financieel, XAF)"
                   hred: localizations/emea-nl-audit-file.md
             - name: Norvēģija
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Ienākošā PVN atjaunošana
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Faktūrrēķinu apstrāde eksporta tirdzniecībai
+                      href: localizations/rus-export-trade.md
                 - name: Pamatlīdzekļi
                   items:
                     - name: Pamatlīdzekļu pārskats
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Krājumu pārskati
                       href: localizations/rus-inventory-reports.md
+                    - name: Krājumu profila apskats
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Krājumu profila iestatīšana
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Krājumu profila izmantošana dokumentos un vaicājumos
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Pārskatu veidošana
                   items:
                     - name: Finanšu pārskatu veidošana
@@ -2766,11 +2776,11 @@
                   href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
                 - name: "ACA\_pārskatu ģenerēšana"
                   href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Attīstīt darbiniekus
+            - name: Darbinieku prasmju attīstīšana
               items:
                 - name: Veiktspējas pārvaldības pārskats
                   href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Saskaņot darbaspēka prasmes
+                - name: Darbaspēka prasmju saskaņošana
                   href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
                 - name: Pievienot jūsu veiktspējas žurnālam
                   href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
-                - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: '(ER) Konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā'
+                - name: Konfigurāciju noformēšana izejošo dokumentu ģenerēšanai Excel formātā
+                  items:
+                    - name: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Pārskatu ģenerēšana OPENXML formātā: piemērs'
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Elektronisko pārskatu formātu modificēšana, atkārtoti lietojot Excel veidnes'
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Kolonnu dinamiska pievienošana Excel pārskatiem ar horizontāli paplašināmiem diapazoniem
+                      items:
+                        - name: 'Formātu noformēšana, lai Excel pārskatiem dinamiski pievienotu kolonnas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: 'Konfigurāciju noformēšana, lai ģenerētu pārskatus Word formātā'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: 'Konfigurāciju noformēšana, lai aizpildītu PDF veidnes'
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Attēlu un formu iegulšana
-              items:
-                - name: '(ER) Attēlu un formu iegulšana dokumentos, kurus ģenerējat'
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Attēlu un formu iegulšanas piemērs
+                - name: Attēlu un formu iegulšana
                   items:
-                    - name: 'Konfigurāciju noformēšana pārskatu ģenerēšanai Office formātos, kuros ir iegultie attēli'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātos, kuros ir iegultie attēli'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Pārskatu ģenerēšana Office formātos, kuros ir iegultie attēli'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: 'Elektronisko pārskatu veidošanas formātu modificēšana, atkārtoti lietojot Excel veidnes'
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: '(ER) Attēlu un formu iegulšana dokumentos, kurus ģenerējat'
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Attēlu un formu iegulšanas piemērs
+                      items:
+                        - name: 'Konfigurāciju noformēšana pārskatu ģenerēšanai Office formātos, kuros ir iegultie attēli'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātos, kuros ir iegultie attēli'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Pārskatu ģenerēšana Office formātos, kuros ir iegultie attēli'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Kolonnu dinamiska pievienošana Excel pārskatiem ar horizontāli paplašināmiem diapazoniem
-              items:
-                - name: 'Formātu noformēšana, lai Excel pārskatiem dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas kā horizontāli paplašināmus diapazonus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: 'Programmas datu atjaunināšana, izmantojot elektroniskos pārskatus'
               items:
                 - name: Elektronisko dokumentu ģenerēšana un programmas datu atjaunināšana
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: 'Elektronisko pārskatu formātu konfigurēšana, lai importētu XML formāta failus ar neobligātiem atribūtiem'
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Konfigurācijas dzīves cikls
               items:
                 - name: Konfigurāciju dzīves cikla pārvaldība
@@ -3327,7 +3341,11 @@
                     - name: Konfigurāciju lejupielāde no elektronisko pārskatu repozitorija RCS tipam
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigurāciju importēšana no RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā RCS un to augšupielāde globālajā repozitorijā
+                  href: localizations/rcs-global-repo-upload.md
+                - name: Elektronisko pārskatu konfigurāciju koplietošana pakalpojumā RCS ar ārējām organizācijām
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Apmācība
               items:
                 - name: 'Uzziniet, kā izmantot datu avotus'

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214869"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383531"
 ---
 # <a name="maintenance-downtime"></a>Dīkstāve uzturēšanas dēļ
 
@@ -75,7 +75,7 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 
 9. Dialogā **Aprēķināt noslodzi** rediģējiet sākuma un beigu laikus, ja nepieciešams, un izvēlieties, vai vēlaties aprēķinā iekļaut darba pasūtījumus un uzturēšanas grafikus. Jūs varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētu vēlaties noslodzes aprēķinu attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu "1" un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam, kuri ir atlasīti dīkstāves uzturēšanas dēļ darbībai, tiks uzrādīti augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs visas noslodzes rindas visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti.
 
-10. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais stundu skaits ir uzrādīts pārskatā **Noslodze**. Cilnē **Noslodze** darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto stundu piešķiršanu. Nākamajā attēlā ir redzami **Noslodzes** aprēķina rezultāti.
+10. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais stundu skaits ir uzrādīts pārskatā **Noslodze**. Cilnē **Noslodze** darbību rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto stundu piešķiršanu. Nākamajā attēlā ir redzami **Noslodzes** aprēķina rezultāti.
 
 ![3. attēls](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 
 15. Dialogā **Aprēķināt vienuma prognozi** rediģējiet sākuma un beigu laikus, ja nepieciešams, un izvēlieties, vai vēlaties aprēķinā iekļaut darba pasūtījumus un uzturēšanas grafikus. Jūs varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētu vēlaties noslodzes aprēķinu attiecībā uz funkcionālo novietojumu. Piemēram, ja laukā ievadāt ciparu "1" un jums ir vairāklīmeņu funkcionālā novietojuma struktūra, visi līdzekļi funkcionālajam novietojumam, kuri ir atlasīti dīkstāves uzturēšanas dēļ darbībai, tiks uzrādīti augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. Ja laukā **Līmenis** ievadāt ciparu "0", jūs redzēsit detalizētu rezultātu, kas uzrādīs visas noslodzes rindas visos funkcionālā novietojuma līmeņos, ar kuriem tie ir saistīti.
 
-16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā  **Vienuma prognoze**. Cilnē **Vienuma prognoze** > darbības rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu. Nākamajā attēlā ir parādīti **Vienuma prognozes** aprēķina rezultāti.
+16. Noklikšķiniet uz **Labi**, lai sāktu aprēķināšanu. Kopējais vienuma prognožu skaits ir uzrādīts pārskatā  **Vienuma prognoze**. Cilnē **Vienuma prognoze** > darbību rūts grupās **Grupēt pēc...** noklikšķiniet uz attiecīgajām pogām, lai iegūtu detalizētāku pārskatu par prognozēto vienumu piešķiršanu. Nākamajā attēlā ir parādīti **Vienuma prognozes** aprēķina rezultāti.
 
 ![4. attēls](media/22-preventive-maintenance.png)
 
