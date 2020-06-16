@@ -88,6 +88,8 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.12 (2020.\_gada augusts)"
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: "Commerce 10.0.11 (2020.\_gada jūlijs)"
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: "Commerce 10.0.10 (2020.\_gada maijs)"
@@ -212,9 +214,9 @@
               items:
                 - name: Pašapkalpošanās instalētāju sinhronizēšana programmā Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (pašviesota)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Commerce Scale Unit konfigurēšana un instalēšana
+                - name: Commerce Scale Unit (pašviesotas) konfigurēšana un instalēšana
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Modern POS konfigurēšana un instalēšana
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Preču ieteikumu apskats
                   href: product-recommendations.md
-                - name: ADLS iespējošana Dynamics 365 Commerce vidē
+                - name: Azure Data Lake Storage iespējošana Dynamics 365 Commerce vidē
                   href: enable-ADLS-environment.md
                 - name: Preču ieteikumu iespējošana
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Veikala krājumu pārvaldība
                       href: work-with-store-inventory.md
-                    - name: Darbs ar serializētajiem krājumiem
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Krājumu buferu un krājumu līmeņu konfigurēšana
+                      href: inventory-buffers-levels.md
                     - name: Darbs ar serializētajiem krājumiem punktā POS
                       href: pos-serialized-items.md
                     - name: 'Preču virzīšana no sadales centra uz veikalu, izmantojot sagādes sadali'
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Lietotāju un lomu pārvaldība
                   href: manage-ecommerce-users-roles.md
+                - name: Krājumu iestatījumu lietošana
+                  href: inventory-settings.md
                 - name: Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei
                   href: search-engine-optimization-considerations.md
                 - name: Satura drošības politikas (CSP) pārvaldība
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: Darbs ar CSS ignorēšanas failiem
                       href: css-override-files.md
+                    - name: Darbs ar stila sākotnējiem iestatījumiem
+                      href: style-presets.md
                     - name: Izlases ikonas pievienošana
                       href: add-favicon.md
                     - name: Sveiciena ziņojuma pievienošana
@@ -932,6 +938,10 @@
                   items:
                     - name: Konteinera modulis
                       href: add-container-module.md
+                    - name: Akordeona modulis
+                      href: add-accordion.md
+                    - name: Cilnes modulis
+                      href: add-tab.md
                 - name: Mārketinga moduļi
                   items:
                     - name: Akcijas reklāmkaroga modulis
@@ -978,6 +988,10 @@
                   items:
                     - name: Preču kolekcijas moduļi
                       href: product-collection-module-overview.md
+                - name: Navigācijas moduļi
+                  items:
+                    - name: Atpakaļceļa modulis
+                      href: add-breadcrumb.md
             - name: Meklēšana
               items:
                 - name: Noklusējuma kategorijas ielādes lapa un meklēšanas rezultātu lapa
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Izvietošanas vadlīnijas kases sistēmām
                   href: localizations/emea-fra-deployment.md
+            - name: Vācija
+              items:
+                - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Vācijai
+                  href: localizations/emea-deu-fi-sample.md
             - name: Indija
               items:
                 - name: Preču un pakalpojumu nodokļa (GST) integrācija kases sistēmām
@@ -1462,7 +1480,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Teksts: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Teksts: teksts'
+                        - name: 'Teksts: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1474,7 +1492,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
             - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-            - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
+            - name: 'Elektronisko pārskatu formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
                 - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1592,13 +1610,13 @@
               items:
                 - name: 'SAVIENOJUMA datu avotu izmantošana, lai iegūtu datus no vairākām programmas tabulām'
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
-                - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
+                - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
+                - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formāta parametru iestatīšana juridiskai personai
+                - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formāta elementu izpildes atlikšana
+                - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
                   items:
                     - name: Secības elementa izpildes atlikšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Dizaina iestatījumu konfigurēšana
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Dizaina paplašināšana
+                    - name: 'Dizaina paplašināšana, lai pievienotu moduļa paplašinājumus'
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Dizaina paplašināšana no bāzes dizaina
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Skripta ievade
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server paplašināmība
               items:
-                - name: Retail Server OData kontroliera paplašināšana
+                - name: Commerce Scale Unit OData kontroliera paplašināšana
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Retail Server klienta un patērētāja API
+                - name: Commerce Scale Unit klienta un patērētāja API
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Noklusējuma Retail Server metadatu kontrollera paplašināšana
+                - name: Noklusējuma Commerce Scale Unit metadatu kontrollera paplašināšana
                   href: dev-itpro/extend-metadata.md
                 - name: Pakalpojuma CRT izsaukšana bezsaistes režīmā
                   href: dev-itpro/call-crt-service-offline.md
@@ -2092,12 +2112,10 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT un Retail Server paplašināmība
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Debitora preferenču datu pievienošana kanāla datu bāzēm
+                - name: Klienta atsauces datu pievienošana kanāla datu bāzēm
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Retail kanālu noslēpumu pārvaldība
                   href: dev-itpro/manage-secrets.md
-                - name: Rekvizītu pievienošana pārdošanas pasūtījumiem
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: CRT paplašināmība un trigeri
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: 'Transakciju bloķēšana, izmantojot trigerus'

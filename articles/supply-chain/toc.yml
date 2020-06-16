@@ -70,12 +70,12 @@
                   items:
                     - name: Jaunumi un izmaiņas Supply Chain Management mājas lapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management 10.0.12 (2020.\_gada augusts)"
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: "Supply Chain Management 10.0.11 (2020.\_gada jūlijs)"
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: "Supply Chain Management 10.0.10 (2020.\_gada maijs)"
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: "Supply Chain Management 10.0.9 (2020.\_gada aprīlis)"
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
@@ -593,8 +593,10 @@
               items:
                 - name: "MK\_aprēķini"
                   href: cost-management/bom-calculations.md
-                - name: MK aprēķina grupas
+                - name: "MK\_aprēķina grupas"
                   href: cost-management/bom-calculation-groups.md
+                - name: Izmaksu aprēķina līmenis
+                  href: cost-management/cost-calculation-level.md
                 - name: Atgriezeniska izmaksu aprēķināšana
                   href: cost-management/backflush-costing.md
                 - name: Ražošanas noviržu kopējie avoti
@@ -1009,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Teksts: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Teksts: teksts'
+                        - name: 'Teksts: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
             - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1021,7 +1023,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
             - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
+            - name: 'Elektronisko pārskatu formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
                 - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1139,13 +1141,13 @@
               items:
                 - name: 'SAVIENOJUMA datu avotu izmantošana, lai iegūtu datus no vairākām programmas tabulām'
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
+                - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
+                - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER formāta parametru iestatīšana juridiskai personai
+                - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER formāta elementu izpildes atlikšana
+                - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
                   items:
                     - name: Secības elementa izpildes atlikšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filtru lietošana plānam
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Plāna vēstures un plānošanas žurnālu skatīšana
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: 'Automātiskā apstiprināšana, izmantojot plānošanas optimizāciju'
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: Ziņošana par ražošanas pasūtījumiem kā par pabeigtiem
                       href: production-control/report-production-orders-as-finished.md
-                    - name: 'Ziņojums par pabeigšanu vietā, kas atkarīga no noliktavas vienības'
+                    - name: Konfigurēt darbu karti ierīcēm
+                      href: production-control/config-job-card-device.md
+                    - name: Ziņojums par pabeigšanu no darbu kartes ierīces
                       href: production-control/report-finished-job-device.md
                     - name: Ražošanas pasūtījuma statusa atcelšana
                       href: production-control/reverse-production-order-status.md
@@ -2259,9 +2265,19 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: Pārdošanas komisijas kārtulu iestatīšana
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: Debitoru portāls programmai Dynamics 365 Supply Chain Management
+              items:
+                - name: Debitoru portāla pārskats
+                  href: sales-marketing/customer-portal-overview.md
+                - name: 'Debitoru portāla instalēšana, iestatīšana un atjaunināšana'
+                  href: sales-marketing/customer-portal-setup.md
+                - name: Debitoru portāla lietotāju izveide un pārvaldība
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: Debitoru portāla pielāgošana un izmantošana
+                  href: sales-marketing/customer-portal-customize.md
             - name: Mazumtirdzniecības atlaide
               href: sales-marketing/trade-allowance.md
-            - name: Jauna pakalpojumu līguma izveide
+            - name: Jauna tirdzniecības līguma izveide
               href: sales-marketing/tasks/create-new-trade-agreement.md
         - name: Pakalpojumu pārvaldība
           items:
@@ -2655,6 +2671,8 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: Daļēja novietojuma cikla inventarizācijas procesa definēšana
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
+                  href: warehousing/onhand-cleanup.md
                 - name: Krājumu žurnāls
                   href: inventory/inventory-journals.md
                 - name: Krājumu vieta
