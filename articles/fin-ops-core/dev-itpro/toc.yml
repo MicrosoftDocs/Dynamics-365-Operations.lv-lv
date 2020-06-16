@@ -14,9 +14,11 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu mājas lapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platformas atjauninājumi versijai\_10.0.11 (2020.\_gada jūlijs)"
+                - name: "Platform atjauninājumi versijai\_10.0.12 (2020.\_gada augusts)"
+                  href: get-started/whats-new-platform-update-10-0-12.md
+                - name: "Platform atjauninājumi versijai\_10.0.11 (2020.\_gada jūlijs)"
                   href: get-started/whats-new-platform-update-35.md
-                - name: "Platformas atjauninājumi versijai\_10.0.10 (2020.\_gada maijs)"
+                - name: "Platform atjauninājumi versijai\_10.0.10 (2020.\_gada maijs)"
                   href: get-started/whats-new-platform-update-34.md
                 - name: "Platformas atjauninājums\_33 (2020.\_gada aprīlis)"
                   href: get-started/whats-new-platform-update-33.md
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Integrēts nodarbinātais, darbs un amats'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Krājumu pieejamība
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Atbalsts duālajam ierakstam
                           items:
                             - name: Atbalsts Field Service risinājumiem un Project Service Automation risinājumiem
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Atjauninājumu lietošana mākoņvidēs
                   href: deployment/apply-deployable-package-system.md
-                - name: Atjauninājumu un paplašinājumu lietošana mākonī viesotos Retail kanāla komponentos
+                - name: Atjauninājumu un paplašinājumu lietošana vienībā Commerce Scale Unit (mākonis)
                   href: deployment/Update-retail-channel.md
-                - name: Retail Cloud Scale Unit inicializēšana
+                - name: Commerce Scale Unit (mākoņa) inicializēšana
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Retail datu rezidences vieta
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Klienta interneta savienojamība
                       href: user-interface/client-disconnected.md
+                    - name: Tikai paketes un tikai interaktīvo AOS mezglu konfigurēšana lokālos izvietojumos
+                      href: deployment/onprem-batchonly.md
                     - name: Starpniekserveru konfigurēšana lokālās vidēs
                       href: deployment/onprem-reverseproxy.md
                     - name: Lokālā diagnostika
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services lietotāja rokasgrāmata
               href: lifecycle-services/lcs-user-guide.md
+            - name: Projekta pievienošana
+              href: lifecycle-services/project-onboarding.md
             - name: Abonementa vērtētājs
               href: lifecycle-services/subscription-estimator.md
             - name: Drošības konfigurēšana
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tulkošanas atmiņas faili
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Microsoft Power Platform integrācija
+          items:
+            - name: Microsoft Power Platform integrācija ar Finance and Operations
+              href: power-platform/overview.md
+            - name: Elementa modelēšana
+              href: power-platform/entity-modeling.md
+            - name: Programmas dzīves cikla pārvaldība
+              href: power-platform/application-lifecycle-management.md
+            - name: Finance and Operations un Common Data Service administratora atsauce
+              href: power-platform/admin-reference.md
+            - name: Power Apps portāli ar Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajiem elementiem
+              href: power-platform/faq.md
         - name: Mobilā platforma
           items:
             - name: Mobilās platformas resursi
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Instalēšana un konfigurēšana
               href: perf-test/rsat/rsat-install-configure.md
-            - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Izpildes testa gadījumi
+            - name: Regression Suite Automation Tool izmantošana
               href: perf-test/rsat/rsat-run.md
             - name: Paredzēto vērtību pārbaude
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Atvasinātie testpiemēri
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tool apmācības izmantošana
+            - name: Regression Suite Automation Tool apmācība un citi līdzekļi
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
-            - name: Labākās prakses
+            - name: Paraugprakse
               href: perf-test/rsat/rsat-best-practices.md
+            - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Problēmu novēršana
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: 'Risinājumu izlaišana, izmantojot Lifecycle Services'
@@ -1436,12 +1458,14 @@
                   href: sysadmin/batch-processing-overview.md
                 - name: Pakešapstrāde un pakešapstrādes serveri
                   href: sysadmin/batch-server-overview.md
-                - name: Izveidot pakešuzdevumus
+                - name: Pakešuzdevumu izveide
                   href: sysadmin/tasks/create-batch-job.md
                 - name: Pakešuzdevuma kopēšana
                   href: sysadmin/copy-batch-job.md
                 - name: Aktīvie pakešuzdevumu periodi
                   href: sysadmin/activeperiod.md
+                - name: Vasaras laika atbalsts aktīvajiem pakešuzdevumu periodiem
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Pakešuzdevumu pārvaldnieka drošības loma
                   href: sysadmin/runby.md
                 - name: "Pakešuzdevums SQL\_indeksa defragmentēšanai"

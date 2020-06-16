@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 28.\_maijs"
+          href: hr-whats-new-2020-05-28.md
         - name: "2020.\_gada 14.\_maijs"
           href: hr-whats-new-2020-05-14.md
         - name: "2020.\_gada 1.\_maijs"
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Pārtraukt atvaļinājumu
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Atvaļinājuma pieprasījums
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Darbinieka atvaļinājuma pārvaldība
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Skatīt analīzi par atvaļinājumu un kavējumu
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Grupas un uzņēmuma kalendāru skatīšana
               href: hr-employee-self-service-calendar.md
+            - name: Atvaļinājuma iegādes un pārdošanas politiku pārvaldība
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Atvaļinājuma iegāde un pārdošana
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Atvaļinājumu pieprasījumu pārvaldība programmā Teams
           href: hr-teams-leave-app.md
         - name: Darbinieku prasmju attīstīšana
