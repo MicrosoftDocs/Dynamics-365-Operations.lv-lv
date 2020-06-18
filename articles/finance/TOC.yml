@@ -2371,7 +2371,7 @@
                     - name: Krievijas avansa turētāju pārskats
                       href: localizations/rus-advance-holders.md
                     - name: Avansa turētāja izveide
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Ikdienas operācijas avansa turētājiem
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Avansa pārskati ar budžeta kontroli
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: "Regulatory Configuration Service (RCS)\_— globalizācijas līdzekļi"
+                    - name: "Regulatory Configuration Services (RCS)\_— globalizācijas līdzekļi"
                       href: localizations/rcs-globalization-feature.md
                     - name: Elektronisko pārskatu konfigurāciju lejupielāde programmā Finance
                       items:
