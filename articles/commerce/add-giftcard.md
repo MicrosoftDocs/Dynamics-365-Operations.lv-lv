@@ -3,7 +3,7 @@ title: Dāvanu kartes modulis
 description: Šajā tēmā tiek stāstīts par dāvanu kartes moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 70047376cec44523cc9cfe4df792bde23c776d8c
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261579"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411116"
 ---
 # <a name="gift-card-module"></a>Dāvanu kartes modulis
 
@@ -35,6 +35,10 @@ ms.locfileid: "3261579"
 Dāvanu kartes ir parastā maksājuma forma, un dāvanu kartes modulis var tikt izmantots norēķinu modulī, lai pieņemtu dāvanu kartes. Dāvanu kartes modulis atbalsta Dynamics 365, SVS un Givex dāvanu kartes. SVS un Givex dāvanu kartes tiek izpirktas, izmantojot Adyen maksājumu nodrošinātāju.
 
 Plašāku informāciju par atbalstu ārējām dāvanu kartēm, piemēram, SVS un Givex, skatiet [Atbalsts ārējām dāvanu kartēm](./dev-itpro/gift-card.md)
+
+Attēlā zemāk redzams cilnes dāvanu kartes moduļa piemērs norēķināšanās lapā.
+
+![Dāvanu kartes moduļa piemērs](./media/ecommerce-giftcard.PNG)
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 

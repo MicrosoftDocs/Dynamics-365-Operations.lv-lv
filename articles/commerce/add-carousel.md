@@ -3,7 +3,7 @@ title: Karuseļa modulis
 description: Šajā tēmā tiek stāstīts par karuseļa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269732"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411300"
 ---
 # <a name="carousel-module"></a>Karuseļa modulis
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā tiek stāstīts par karuseļa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
@@ -44,9 +44,13 @@ Karuseļa modulī varat pievienot satura bloka moduļus. Karuseļa moduļa rekvi
 - Karuselis, kurā ir vairāki reklāmas moduļi tajā, var tikt izmantots preču informācijas lapā.
 - Karuseli var izmantot jebkurā mārketinga lapā, lai reklamētu vairākus veicināšanas pasākumus vai preces.
 
+Attēlā zemāk redzams piemērs karuseļa modulim, kas tiek izmantots sākumlapā. Šajā karuseļa modulī ir vairāki satura bloka elementi.
+
+![Karuseļa moduļa piemērs](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Karuseļa moduļa rekvizīti
 
-| Rekvizīta nosaukums             | Vērtība                 | Apraksts |
+| Rekvizīta nosaukums             | Vērtība                 | apraksts |
 |---------------------------|-----------------------|-------------|
 | Automātiskā atskaņošana                  | **Patiess** vai **Nepatiess** | Ja vērtība ir iestatīta uz **Patiess**, pāreja starp elementiem karuselī tiek veikta automātiski. Ja vērtība ir iestatīta uz **Nepatiess**, pāreja netiek veikta, ja vien klients neizmanto tastatūru vai peli, lai pārvietotos no viena elementa uz nākamo. |
 |  Slaidu pārejas intervāls | Vērtība sekundēs    | Intervāls pārejām starp elementiem. |
@@ -58,7 +62,7 @@ Karuseļa modulī varat pievienot satura bloka moduļus. Karuseļa moduļa rekvi
 
 Lai pievienotu karuseļa moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Atlasiet **Jauns**, lai izveidotu lapas veidni.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
 1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet **Karuseļa veidni** un pēc tam atlasiet **Labi**.
 1. Slotā **Pamatteksts** pievienojiet moduli **Noklusējuma lapa**.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.  

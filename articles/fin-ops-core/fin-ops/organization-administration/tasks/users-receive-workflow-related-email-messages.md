@@ -3,7 +3,7 @@ title: Ļaut lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus
 description: Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, kad notiek ar darbplūsmu saistīti notikumi.
 author: jasongre
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c9f2f22bc4b5ca5b4351f7956ad2eb6d3b903d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 40ad380c7bfb2b3fc518b0278286ae03532668ed
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140425"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416557"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Ļaut lietotājiem saņemt ar darbplūsmu saistītus e-pasta ziņojumus
 
@@ -40,3 +40,5 @@ Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, ka
 6. Noklikšķiniet uz **Saglabāt**.
 7. Aizvērt lapu.
 
+> [!NOTE]
+> Darbplūsmas e-pasta veidnes tiks iegūtas no sistēmas e-pasta veidnēm vai organizācijas e-pasta veidnēm atkarībā no tā, vai darbplūsma ir sistēmas līmeņa (nav specifiska uzņēmumam) vai organizācijas līmeņa (specifiska uzņēmumam) darbplūsma.

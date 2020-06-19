@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009761"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410062"
 ---
 # <a name="overview"></a>Pārskats
 
@@ -34,15 +34,15 @@ ms.locfileid: "3009761"
 - Instanču iestatīšana un pārvaldība
   - [Human Resources nodrošināšana](hr-admin-setup-provision.md)
   - [Instances kopēšana](hr-admin-setup-copy-instance.md)
-  - [Instances noņemšana](hr-admin-setup-remove-instance.md)
-  - [Atjaunināšanas process](hr-admin-setup-update-process.md)
+  - [Noņemt instanci](hr-admin-setup-remove-instance.md)
+  - [Procesa atjaunināšana](hr-admin-setup-update-process.md)
 
 - Datu integrācijas iestatīšana
   - [Datu integrācijas tehnoloģijas izvēle](hr-admin-integration-choose-technology.md)
   - [Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
   - [Integrācijas konfigurēšana ar Finance](hr-admin-integration-finance.md)
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
-  - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)
+  - [Izveidot periodiskas datu eksportēšanas programmu](hr-admin-integration-recurring-data-export.md)
   - Integrācija ar Office
     - [Office integrēšanas apmācība](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Elementa datu atjaunināšana programmā Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -75,7 +75,6 @@ ms.locfileid: "3009761"
 - Dokumentācijas resursi
   - [Palīdzības sistēma](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Savienojuma izveide ar palīdzības sistēmu](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Savienojuma izveide ar pielāgotu palīdzības vietni](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Lauku aprakstu skatīšana un eksportēšana](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Uzdevuma reģistrētājs](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
@@ -85,10 +84,10 @@ ms.locfileid: "3009761"
   - [Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem](hr-admin-troubleshooting-batch-history.md)
   - [Analīzes pārskati netiek atjaunināti](hr-admin-troubleshooting-analytic-reports.md)
   - [Nevar izveidot vidi Power Apps administrēšanas centrā](hr-admin-troubleshooting-power-apps.md)
-  - [Debitora atvienošanās](hr-admin-troubleshooting-disconnect.md)
-  - [Izvairīšanās no teksta nošķelšanas amatu hierarhijā](hr-admin-troubleshooting-truncate.md)
+  - [Klienta atvienošanās](hr-admin-troubleshooting-disconnect.md)
+  - [Izvairīties no teksta saīsināšanas pozīciju hierarhijā](hr-admin-troubleshooting-truncate.md)
   - [Atlīdzības procesa palaišana](hr-admin-troubleshooting-compensation.md)
-  - [Uzdevumu ceļveža saglabāšana LCS](hr-admin-troubleshooting-task-guide.md)
+  - [Uzdevuma ceļveža saglabāšana LCS](hr-admin-troubleshooting-task-guide.md)
   - [Piekļuve privātām adresēm atbilstoši drošības lomai](hr-admin-troubleshooting-private-addresses.md)
   - [Human Resources neparādās Dynamics 365 programmās](hr-admin-troubleshooting-not-in-apps.md)
   - [Pārskatu veidošanas opcijas](hr-admin-troubleshooting-reporting.md)

@@ -3,7 +3,7 @@ title: Saglabātie skati
 description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260487"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412335"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -137,7 +137,7 @@ Ja izmaiņas, kuras vēlaties veikt publicētajā skatā, ietver tikai publicē�
 7. [10.0.9/platformas atjauninājums 33 vai jaunāks] ja sākotnēji esat izvēlējies šo publicēto skatu kā noklusējuma skatu, pēc atkārtotas publicēšanas tas būs noklusējuma skats šiem lietotājiem.  
 
 Ja publicētajā skatā veiktās izmaiņas ietver ar skatu saistīto personalizāciju vai filtru modificēšanu, rīkojieties šādi. 
-1.  Pārslēdzieties uz publicēto skatu, kuru vēlaties modificēt. 
+1.  Ielādējiet publicēto skatu, kuru vēlaties modificēt. 
 2.  Saglabājiet publicētā skata kopiju, lai izveidotu publicētā skata lokālo melnrakstu. 
 3.  Veiciet lokālajā melnrakstā nepieciešamās izmaiņas.
 4.  Publicējiet skatu ar oriģinālo nosaukumu. 
@@ -149,14 +149,27 @@ Visi lietotāji redz cilni **Mani skati**, kurā ir parādīti personiskie skati
 
 Visu attiecīgajā lapā esošo publicēto skatu sarakstam ir pieejams šādu darbību kopums. 
 
--    **Publicēt**: izmantojiet darbību **Publicēt**, lai atkārtoti publicētu skatu pēc publicēšanas parametru (nosaukums, apraksts, drošības lomas vai juridiskās personas) izmaiņām.
--    **Noņemt**: izmantojiet darbību **Noņemt**, lai neatgriezeniski dzēstu publicēto skatu. Šī darbība dzēš skatu visiem sistēmas lietotājiem. Kad ir atlasīta poga **Saglabāt**, publicēto skatījumu noņemšana stāsies spēkā.
+-    **Publicēt** — izmantojiet darbību **Publicēt**, lai atkārtoti publicētu skatu pēc publicēšanas parametru (nosaukums, apraksts, drošības lomas vai juridiskās personas) izmaiņām.
+-    **Saglabāt kā personisku** — izmantojiet darbību **Saglabāt kā personisku**, lai izveidotu publicētā skata personīgo melnraksta kopiju. Šo iespēju var izmantot, lai saprastu tāda skata saturu, kas nav publicēts jums vai kas vēl nav publicēts. To var arī izmantot, lai rediģētu un pēc tam pārpublicētu skatu. Šī iespēja ir ieviesta versijā 10.0.12.  
+-    **Noņemt** — izmantojiet darbību **Noņemt**, lai neatgriezeniski dzēstu publicēto skatu. Šī darbība dzēš skatu visiem sistēmas lietotājiem. Kad ir atlasīta poga **Saglabāt**, publicēto skatījumu noņemšana stāsies spēkā.
+
+## <a name="managing-views-globally"></a>Skatījumu pārvaldīšana globāli
+Kaut arī dažas pārvaldības iespējas ir pieejamas katrā lapā, kā norādīts šajā tēmā, **sistēmas administratori** un **saglabātā skata administratori** var pārvaldīt skatījumus, izmantojot lapu **Personalizācija**. Jo īpaši šai lapai ir tālāk minētās sadaļas un iespējas. 
+
+- **Publicētie skati** — šajā sadaļā uzskaita visus jūsu organizācijai publicētos skatus. No šejienes varat atkārtoti publicēt skatu, kad būsit pielāgojis drošības lomas vai juridiskās personas, kurām skats ir paredzēts. Varat arī eksportēt vai dzēst vienu vai vairākus publicētus skatus. Versijā 10.0.12 un jaunākās versijās varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu personīgu skata kopiju, lai varētu atjaunināt skatu vai iegūt labāku izpratni par tā saturu. 
+- **Nepublicētie skati** — šajā sadaļā uzskaitīti visi skati, kas tika importēti jūsu sistēmā, bet vēl netika publicēti. Jūs varat publicēt, eksportēt vai dzēst šos skatus. Darbība **Ātrā publicēšana**, kas tika pievienota versijā 10.0.12, iespējo vairākus skatus no šīs sadaļas, lai tie tiktu publicēti vienā darbībā, izmantojot esošo drošības lomu un juridisko personu konfigurācijas. Versijā 10.0.12 un jaunākās versijās varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu šo skatu personīgas kopijas, lai varētu atjaunināt skatu vai iegūt labāku izpratni par to saturu.   
+- **Personīgie skati** — šajā sadaļā uzskaitīti visi skati, kas ir sistēmas lietotāju izveidoti. No šejienes jūs varat publicēt personisku skatu organizācijai vai kopēt vienu vai vairākus no šiem skatiem citiem lietotājiem. Jūs arī varat eksportēt vai dzēst šos skatus, ja nepieciešams.
+- **Lietotāji** — Atlasiet lietotāju, lai skatītu sarakstu ar lapām, ko lietotājs ir apmeklējis. Pēc tam varat pielāgott lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizēšanu lietotājam. Turklāt varat atiestatīt līdzekļa remarkas lietotājam. Pēc tam, ja lietotājs iepriekš noraidīja visus uznirstošos logus, kas ievieš jaunus līdzekļus, tie atkal parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
+- **Sistēma** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā visi personalizācijas tiek dzēsti visiem lietotājiem, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
+
+Lietotāji, kuriem ir piekļuve **Personalizēšana** lapai, var arī importēt personiskos vai veidņu skatus, izmantojot pogu **Importēt skatus** darbības rūtī. Versijā 10.0.12 un jaunākās versijās ir pievienots mehānisms tūlītējai skatu publicēšanai, kad tie ir importēti.  
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kā iespējot saglabātos skatus manā vidē? 
-Piezīme: Līdzeklim **Saglabātie skati** ir jāiespējo personalizēšanas sistēma pakalpojumā Finance and Operations. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
+> [!NOTE]
+> Līdzeklim **Saglabātie skati** ir jāiespējo personalizēšanas sistēma pakalpojumā Finance and Operations. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
 
-**10.0.9/Platform update 33 vai jaunāka** **Saglabāto skatu** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi publiskie priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/Platform update 33 vai jaunāka** **Saglabāto skatu** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8/Platform update 32 vai vecāka** Līdzekli **Saglabātie skati** var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
 

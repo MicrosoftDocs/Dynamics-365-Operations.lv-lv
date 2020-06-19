@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260510"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412358"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -117,7 +117,11 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 - Izmantojiet rīku **Pārvietot**, lai pārvietotu kādu elementu uz citu atrašanās vietu pašreizējā elementu grupā. Ņemiet vērā, ka jūs nevarat pārvietot elementu ārpus tā pamata grupas. Lai izmantotu šo rīku, rīkjoslā atlasiet pogu **Pārvietot** un pēc tam atlasiet elementu, kuru vēlāties pārvietot. Kad atlasāt kādu elementu, programma nosaka novietojumus, kur šo elementu var pārvietot. Šie novietojumi ir zināmi kā *nomešanas zonas*. Kad šo elementu velkat pa pašreizējo grupu, katra nomešanas zona tiek rādīta kā iekrāsota, trekna līnija blakus apgabalam, kur šo elementu var nomest.
 - Izmantojiet rīku **Izlaist**, lai izņemtu kādu elementu no lapas tastatūras tabulācijas secības. Kad uzdevumu joslā atlasāt pogu **Izlaist**, visi pašlaik izlaistie elementi tiek rādīti ēnotā konteinerā. Varat interaktīvi noņemt vai pievienot laukus ciļņu secībai.
 - Izmantojiet rīku **Rādīt galvenē**, kad vēlaties, lai lauks tiktu rādīts kopsavilkuma cilnes kopsavilkuma sadaļā. Kad uzdevumu joslā atlasāt pogu **Rādīt galvenē**, visi lauki, kas ir atlasīti kā kopsavilkuma lauki, tiek radīti ēnotā konteinerā. Atlasot laukus, varat interaktīvi pievienot laukus kopsavilkuma cilnes kopsavilkumam un noņemt laukus no tā.
-- Izmantojiet rīku **Pieprasīt**, lai norādītu elementu, kas nepieciešams datu ievadei. Kad uzdevumu joslā atlasāt pogu **Pieprasīt**, visi elementi, kas ir personalizēti, lai būtu nepieciešami, tiek rādīti ēnotā konteinerā. Pēc tam tie vairs nav nepieciešami. Šī opcija ir pieejama tikai līdzekļu laidienā, kad līdzekļi [Saglabātie skati](saved-views.md) un **Norādīt laukus kā obligātus, izmantojot personalizāciju** ir iespējoti.
+- Izmantojiet rīku **Pieprasīt**, lai norādītu elementu, kas nepieciešams datu ievadei. Kad uzdevumu joslā atlasāt pogu **Pieprasīt**, visi elementi, kas ir personalizēti, lai padarītu tos obligātus, tiek rādīti ēnotā konteinerā. Pēc tam tie vairs nav nepieciešami. Šī opcija ir pieejama tikai tad, ja ir aktivizēta versija 10.0.12 un jaunāka versija, kad līdzeklis **Norādīt laukus kā obligātus, izmantojot personalizāciju** ir iespējots.
+
+    > [!IMPORTANT]
+    > Versija 10.0.12 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Izmantojiet rīku **Bloķēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad uzdevumu joslā atlasāt pogu **Bloķēt**, visi pašlaik nerediģējami elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
 - Izmantojiet pogu **Pievienot programmu no Power Apps** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft Power Apps. Plašāku informāciju par to, kā lapā iegult programmu no Power Apps, skatiet tēmā [Iegult programmas no Power Apps](embed-power-apps.md). Šī opcija ir pieejama tikai tad, ja ir atspējots līdzeklis [Saglabātie skati](saved-views.md).  
 - Izmantojiet pogu**Pievienot programmu**, lai lapā iegultu programmu – vai nu to, kas izveidota no Microsoft Power Apps vai trešās puses. Šī opcija ir pieejama tikai tad, ja ir iespējots līdzeklis [Saglabātie skati](saved-views.md). 
@@ -159,28 +163,21 @@ Lai personalizētu informācijas paneli, ar peles labo pogu noklikšķiniet uz j
 - Lai pārkārtotu darbvietas elementus, rekvizītu logā atlasiet **Personalizēt šo lapu**, tādējādi atverot rīkjoslu **Personalizēšana**. Pēc tam varat izmantot rīku **Pārvietot**, lai elementus pārkārtotu pēc vēlēšanās.
 - Lai pievienotu jaunu darbvietas elementu, rekvizītu logā atlasiet vienumu **Pievienot darbvietu**. Informācijas paneļa apakšā tiek izveidots jauns darbvietas elements. Šo jauno darbvietas elementu pēc vēlēšanās varat pārdēvēt. Sarakstus, elementus un saites darbvietai varat arī pievienot, kā aprakstīts šīs tēmas sadaļā [Sarakstu, elementu vai saišu pievienošana darbvietām](#adding-a-tile-list-or-link-to-a-workspace).
 
+
+## <a name="sharing-personalizations"></a>Personalizāciju koplietošana
+Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem atvērt personalizēto lapu un importēt jūsu izveidoto personalizēšanas failu. Vai arī savu personalizāciju failu varat iedot kādam lietotājam, kuram ir administratora privilēģijas. Pēc tam šis lietotājs var piemērot jūsu personalizēšanas failu vairākiem lietotājiem vienlaikus, izmantojot administrēšanas lapu **Personalizācija**.
+
 ## <a name="administration-of-personalizations"></a>Personalizāciju administrēšana
+Lapa **Personalizācija** ir galvenais centrmezgls personalizēšanas pārvaldībai organizācijas līmenī. Šīs lapas saturs un iespējas ir atkarīgas no tā, vai ir iespējots līdzeklis **Saglabātie skati**.  
 
-Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem atvērt personalizēto lapu un importēt jūsu izveidoto personalizēšanas failu. Vai arī savu personalizāciju failu varat iedot kādam lietotājam, kuram ir administratora privilēģijas. Pēc tam šis lietotājs var izmantot jūsu personalizēšanas failu vairākiem lietotājiem vienlaikus.
+Attiecībā uz klientiem, kuri ir iespējojuši līdzekli **Saglabātie skati**, skatiet sadaļu "Skatu pārvaldīšana globāli" tēmā [Saglabātie skati](saved-views.md).  
 
-Lietotāji ar administratora privilēģijām var arī pārvaldīt personalizācijas citiem lietotājiem lapā **Personalizēšana**.
-
-Klientiem, kuri neieslēdza [Saglabāti skati](saved-views.md) līdzeklī, šai lapai ir četras cilnes:
+Attiecībā uz klientiem, kuri vēl nav iespējojuši līdzekli [Saglabāti skati](saved-views.md), šai lapai ir četras cilnes, kā norādīts zemāk.
 
 - **Lietot** – varat importēt vai atlasīt kādu personalizāciju vienam vai vairākiem lietotājiem. Lai personalizāciju lietotu vienam lietotājam vai vairākiem, vispirms atlasiet kādu lomu un lietotājus, kuriem ir šī loma. Pēc tam atlasiet esošu personalizāciju, kuru lietot atlasītajiem lietotājiem, vai importējiet personalizēšanas failu. Personalizācija tiek validēta un tiek lietota visiem atlasītajiem lietotājiem nākamajā reizē, kad viņi atver atlasīto lapu.
 - **Notīrīt** – varat notīrīt visas lapai vai darbvietai paredzētās personalizācijas vienam vai vairākiem lietotājiem. Vispirms atlasiet lapu vai darbvietu, lai redzētu sarakstu ar lietotājiem, kuri to ir personalizējuši. Pēc tam atlasiet lietotājus, kuriem ir nepieciešams notīrīt šīs lapas vai darbvietas personalizācijas, un atlasiet **Notīrīt**. Tiek dzēstas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja šai lapai vai darbvietai bija saglabāta kāda personalizācija, šo personalizāciju var importēt vēlreiz.
 - **Lietotāji** – Atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko lietotājs ir personalizējis. Pēc tam varat ieslēgt vai izslēgt lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizēšanu lietotājam. Turklāt varat atiestatīt līdzekļa remarkas lietotājam. Šādā gadījumā, ja lietotājs iepriekš noraidīja visus uznirstošos logus, kas ievies jaunus līdzekļus, tie atkal parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
 - **Sistēma** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā visi personalizācijas tiek dzēsti visiem lietotājiem, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
-
-Klientiem, kuri ieslēdza [Saglabāti skati](saved-views.md) līdzeklī, **Personalizēšana** lapai ir piecas cilnes:
-
-- **Publicētie skati** – Šie skati tika publicēti jūsu organizācijā. Lai mainītu lietotājus, uz kuriem attiecas šie skati, varat mainīt drošības lomas vai juridiskās personas, kas ir saistītas ar katru skatu. Varat arī eksportēt vai dzēst vienu vai vairākus publicētus skatus.
-- **Nepublicētie skati** – Šie skati ir veidnes skati, kas tika importēti jūsu sistēmā, bet vēl netika publicēti. Jūs varat publicēt, eksportēt vai dzēst šos skatus.
-- **Personiskie skati** – Šie skati ir sistēmas lietotāju izveidoti. Jūs varat publicēt personisku skatu organizācijai vai kopēt vienu vai vairākus no šiem skatiem citiem lietotājiem. Jūs arī varat eksportēt vai dzēst šos skatus, ja nepieciešams.
-- **Lietotāji** – Atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko lietotājs ir personalizējis. Pēc tam varat ieslēgt vai izslēgt lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizēšanu lietotājam. Turklāt varat atiestatīt līdzekļa remarkas lietotājam. Šādā gadījumā, ja lietotājs iepriekš noraidīja visus uznirstošos logus, kas ievies jaunus līdzekļus, tie atkal parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
-- **Sistēma** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā visi personalizācijas tiek dzēsti visiem lietotājiem, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
-
-Lietotāji, kuriem ir piekļuve **Personalizēšana** lapai, var arī importēt personiskos vai veidņu skatus, izmantojot pogu **Importēt skatus** darbības rūtī.
 
 ## <a name="personalizing-inventory-dimensions"></a>Krājumu dimensiju personalizēšana.
 

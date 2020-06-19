@@ -3,7 +3,7 @@ title: Container modulis
 description: Šajā tēmā tiek stāstīts par konteinera moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025532"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417350"
 ---
 # <a name="container-module"></a>Container modulis
-
 
 [!include [banner](includes/banner.md)]
 
@@ -46,9 +45,13 @@ Tiek atbalstīti trīs standarta konteineru moduļu tipi: konteiners, konteiners
 - Vietnes autors vēlas sešu kolonnu izkārtojumu, kurā līdzās ir redzami seši moduļi. Tādēļ vietnes autors izmanto konteineru ar konteinera tipu, kurā ir sešas kolonnas.
 - Vietnes autors vēlas ievietot moduli lapā, bet nevēlas, lai tas aizpildītu ekrānu. Tādēļ vietnes autors pievieno moduli konteinera modulim un iestata konteinera rekvizītu **Platums**, lai **Ietilpināt konteinerā**.
 
+Sekojošajā attēlā ir parādīts konteinera moduļa piemērs, kurā atrodas karuseļa modulis Commerce vietņu veidotājā. Šajā piemērā konteinera moduļa rekvizīts **Platums** ir iestatīts uz **Aizpildīt ekrānu**.
+
+![Konteinera moduļa piemērs](./media/ecommerce-container.PNG)
+
 ## <a name="container-module-properties"></a>Konteinera moduļa pievienošana
 
-| Rekvizīta nosaukums     | Vērtības | Apraksts |
+| Rekvizīta nosaukums     | Vērtības | apraksts |
 |-------------------|--------|-------------|
 | Virsraksts           | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pēc izvēles konteineram var nodrošināt virsrakstu. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
 | Platums             | **Ietilpināt konteinerā** vai **Pilnekrāna režīms** | Ja vērtība ir iestatīta uz **Ietilpināt konteinerā** (noklusējuma vērtība), elementi konteinerā ir ierobežoti ar konteinera platumu. Ja vērtība ir iestatīta uz **Aizpildīt ekrānu**, moduļi neaprobežojas ar konteinera platumu, bet var pāriet pilnekrāna režīmā. |
@@ -99,23 +102,32 @@ Papildu rekvizītus var izmantot, lai optimizētu izkārtojumu dažādiem skatu 
 
 Lai pievienotu konteinera atskaņotāja moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Izveidojiet lapas veidni ar nosaukumu **konteinera veidne**. 
-1. Slotā **Pamatteksts** pievienojiet moduli **Noklusējuma lapa**.
-1. Pabeidziet rediģēt veidni un publicējiet to.
-1. Izmantojiet jūsu tikko izveidoto konteinera veidni, lai izveidotu lapu ar nosaukumu **konteinera lapa**.
-1. Jaunās lapas **Galvenajā** slotā pievienojiet konteinera moduli.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet **Konteinera veidne** un pēc tam atlasiet **Labi**.
+1. Slotā **Pamatteksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
+1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet video atskaņotāja veidni, kuru izveidojāt. Sadaļā **Lapas nosaukums** ievadiet **Konteinera lapa** pēc tam atlasiet **Labi**.
+1. Jaunās lapas slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
 1. Konteinera moduļa rekvizītu rūtī iestatiet rekvizītu **Kolonnu skaits** uz **1** un rekvizītu **Platums** uz **Ietilpināt konteinerā**.
-1. Konteinera modulī pievienojiet satura bloķēšanas moduli.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Satura bloks** un pēc tam atlasiet **Labi**.
 1. Satura bloka moduļa rekvizītu rūtī konfigurējiet virsrakstu, attēlu un izkārtojumu.
-1. Saglabājiet un priekšskatiet lapu. Ir jābūt redzamam viena līdzekļa modulim, kas ietilpst konteinera moduļa platumā.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Ir jābūt redzamam viena līdzekļa modulim, kas ietilpst konteinera moduļa platumā.
 1. Konteinera moduļa rekvizītu rūtī nomainiet rekvizīta vērtību **Kolonnu skaits** uz **3**.
-1. Pievienojiet vēl satura bloka moduļus konteinera modulim.
-1. Saglabājiet un priekšskatiet lapu. Tagad jābūt redzamiem trīs satura bloka moduļiem, kas parādās līdzās.
-1. Pēc tam, kad esat sasnieguši vēlamo izkārtojumu, pabeidziet rediģēt lapu un publicējiet to.
+1. Pievienojiet konteineru modulim vēl divus satura bloka moduļus un konfigurējiet tos.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Tagad jābūt redzamiem trīs satura bloka moduļiem, kas parādās līdzās.
+1. Kad esat sasnieguši vēlamo izkārtojumu, atlasiet **Pabeigt rediģēšanu**, lai pieteiktos lapā, un pēc tam atlasiet **Publicēt**, lai to publicētu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
+
+[Akordeona modulis](add-accordion.md)
+
+[Cilnes modulis](add-tab.md)
 
 [Karuseļa modulis](add-carousel.md)
 
