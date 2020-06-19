@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383816"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403339"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sūtījumu konsolidācijas politiku konfigurēšana
 
@@ -270,7 +270,7 @@ Sekojiet šiem soļiem, lai izveidotu sūtījuma konsolidācijas politiku šim b
 
 - Politika veiks vaicājumu noteiktai pasūtījumu kopai, lai identificētu debitorus, kuri pieņem konsolidētos sūtījumus.
 - Konsolidācija ar atvērtiem sūtījumiem ir izslēgta.
-- Konsolidācija tiek veikta pāri pasūtījumiem, izmantojot laukus, kas atlasīti pēc noklusējuma CrossOrder politikas (lai replicētu iepriekšējo **Noliktavas** izvēles rūtiņu).
+- Konsolidācija tiek veikta pāri pasūtījumiem, izmantojot laukus, kas atlasīti pēc noklusējuma CrossOrder politikas (lai replicētu iepriekšējo izvēles rūtiņu**Konsolidēt sūtījumu, izlaižot to uz noliktavu**).
 
 - Jūs varat ignorēt kārtulu pārdošanas pasūtījumā, atlasot citu pasūtījuma kopu.
 
@@ -306,7 +306,7 @@ Sekojiet šiem soļiem, lai izveidotu sūtījuma konsolidācijas politiku šim b
 
 - Politika veiks vaicājumu noteiktai pasūtījumu kopai, lai identificētu noliktavas, kuras var konsolidēt sūtījumus.
 - Konsolidācija ar atvērtiem sūtījumiem ir izslēgta.
-- Konsolidācija tiek veikta pāri pasūtījumiem, izmantojot laukus, kas atlasīti pēc noklusējuma CrossOrder politikas (lai replicētu iepriekšējo **Noliktavas** izvēles rūtiņu).
+- Konsolidācija tiek veikta pāri pasūtījumiem, izmantojot laukus, kas atlasīti pēc noklusējuma CrossOrder politikas (lai replicētu iepriekšējo izvēles rūtiņu**Konsolidēt sūtījumu, izlaižot to uz noliktavu**).
 
 Parasti šo biznesa gadījumu var risināt, izmantojot noklusējuma politikas, ko izveidojāt [1. scenārijā](#scenario-1). Tomēr varat arī manuāli izveidot līdzīgas politikas, veicot šādas darbības.
 

@@ -3,7 +3,7 @@ title: Veicināšanas reklāmkarogu modulis
 description: Šajā tēmā tiek stāstīts par veicināšanas reklāmlogu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269778"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411369"
 ---
 # <a name="promo-banner-module"></a>Veicināšanas reklāmkarogu modulis
-
 
 [!include [banner](includes/banner.md)]
 
@@ -48,9 +47,15 @@ Veicināšanas reklāmlogus var izmantot vietnes galvenē, lai parādītu veicin
 
 “Labi ietaupiet ar skolas sākuma izpārdošanu. Iepērcieties tūlīt.”
 
+"Veikals Pateicības dienas IZPĀRDOŠANAi!" 
+
+Attēlā zemāk ir parādīts veicināšanas reklāmkaroga piemērs.
+
+![Veicināšanas reklāmkaroga moduļa piemērs](./media/ecommerce-Promobanner.PNG)
+
 ## <a name="promo-banner-module-properties"></a>Veicināšanas reklāmkarogu moduļa rekvizīti
 
-| Rekvizīta nosaukums             | Value                              | Apraksts |
+| Rekvizīta nosaukums             | Vērtība                              | apraksts |
 |---------------------------|------------------------------------|-------------|
 | Reklāmkaroga ziņojumi           | Teksts un saites                     | Teksta un saišu masīvs. |
 | Automātiskā atskaņošana                  | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai ziņojumi tiek automātiski iestatīti, ja ir konfigurēti vairāki ziņojumi. |
@@ -64,7 +69,7 @@ Veicināšanas reklāmlogus var izmantot vietnes galvenē, lai parādītu veicin
 
 Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Atlasiet **Jauns**, lai izveidotu lapas veidni.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
 1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet **Veicināšanas reklāmkaroga veidni** un pēc tam atlasiet **Labi**.
 1. Sadaļā **Lapas struktūra** pievienojiet moduli **Noklusējuma lapa** slotam **Pamatteksts**. 
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
@@ -74,7 +79,7 @@ Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepi
 1. Sadaļā **Lapas struktūra** pievienojiet veicināšanas reklāmkaroga moduli konteinera modulim.
 1. Reklāmkaroga moduļa iestatījumos pievienojiet vienu vai vairākus reklāmkarogu ziņojumus. Katrai ziņai var būt teksts kopā ar saiti. Varat rediģēt pārējos rekvizītus, lai tālāk pielāgotu moduli.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Lapas augšdaļā ieraudzīsiet brīdinājumu ar jūsu pievienoto tekstu.
-1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 > [!NOTE]
 > Veicināšanas reklāmlogs parasti tiek izmantots lapas galvenes slotā vai apakšvadītāja slotā.

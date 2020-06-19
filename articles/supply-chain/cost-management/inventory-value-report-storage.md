@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276938"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413103"
 ---
 # <a name="inventory-value-storage-report"></a>Krājumu vērtības glabāšanas pārskats
 
@@ -50,7 +50,7 @@ Veiciet šīs darbības, lai ģenerētu un uzglabātu **Krājumu vērtību uzgla
 1. Atlasiet **Jauns**.
 1. Parādītajā dialoglodziņā **Krājuma vērtība** iestatiet tālāk norādītās vērtības, lai definētu, kuri ieraksti ir ietverti pārskatā:
 
-    - Kopsavilkuma cilnē **Parametri** ievadiet unikālu pārskata nosaukumu un lietojiet laukus **Datumu intervālu** sadaļā, lai definētu, kuri ieraksti tiek iekļauti pārskatā. Lai definētu datumu intervālu, varat vai nu atlasīt iepriekšnoteiktu diapazonu (saistībā ar pārskata izveides datumu) **Datumu intervāla koda** laukā, vai atlasīt konkrētus datumus laukos **No datuma** un **Līdz datumam**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Kopsavilkuma cilnē **Parametri** ievadiet unikālu pārskata nosaukumu un lietojiet laukus **Datumu intervālu** sadaļā, lai definētu, kuri ieraksti tiek iekļauti pārskatā. Lai definētu datumu intervālu, varat vai nu atlasīt iepriekšnoteiktu diapazonu (saistībā ar pārskata izveides datumu) **Datumu intervāla koda** laukā, vai atlasīt konkrētus datumus laukos **No datuma** un **Līdz datumam**.
     - Kopsavilkuma cilnē **Iekļaujamie ieraksti** iestatiet filtrus un ierobežojumus, lai noteiktu, kuri dati ir iekļauti pārskatā.
     - Kopsavilkuma cilnē **Palaist fonā** norādiet, kā, kad un cik bieži pārskats tiek ģenerēts.
 

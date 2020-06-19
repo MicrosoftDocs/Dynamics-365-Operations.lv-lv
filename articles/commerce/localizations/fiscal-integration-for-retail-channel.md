@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057560"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403219"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas apskats
 
@@ -139,6 +139,7 @@ Pašlaik komplektā Retail SDK ir pieejami tālāk norādītie finanšu integr�
 - [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai](emea-aut-fi-sample.md)
 - [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Čehijas Republikai](emea-cze-fi-sample.md)
 - [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā](./emea-swe-fi-sample.md)
+- [Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Vācijai](./emea-deu-fi-sample.md)
 
 Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrācijas funkcionalitāte, taču pašlaik tai netiek izmantota finanšu integrācijas struktūra. Nākamajos atjauninājumos ir plānota šīs funkcionalitātes migrēšana uz finanšu integrācijas struktūru.
 

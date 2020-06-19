@@ -3,12 +3,12 @@ title: Atvaļinājumu un prombūtnes veidu konfigurēšana
 description: Iestatiet atvaļinājumu tipus, ko darbinieki var izņemt pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198054"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428597"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atvaļinājumu un prombūtnes veidu konfigurēšana
 
@@ -56,7 +56,9 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 8. Sadaļā **Ierobežot piekļuvi atlasītajām lomām**izvēlieties, vai vēlaties ierobežot piekļuvi. Pēc tam atlasiet drošības lomas sadaļā **Drošības lomas šim atvaļinājuma veidam**. Drošības lomas ir definētas darbplūsmā, ko atlasījāt laukā **Darbplūsmas ID** iepriekš šajā procedūrā.
 
-9. Atlasiet **Saglabāt**.
+9. Sadaļā **Atlikšanas attiecības** izvēlieties, vai vēlaties, lai šo atvaļinājuma veidu aiztur cits cits atvaļinājuma veids vai arī to aptur cits atvaļinājuma veids. Ja prombūtnes atvaļinājuma pieprasījums ir iesniegts atliktam atvaļinājuma veidam, tad aizturētā atvaļinājuma veidam automātiski tiks izveidota atvaļinājuma atlikšana. 
+
+10. Atlasiet **Saglabāt**.
 
 ## <a name="configure-leave-type-rules"></a>Konfigurēt atvaļinājumu veidu kārtulas
 
@@ -66,16 +68,15 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
    Brīvdienas varat iestatīt darba laika kalendārā. Papildinformāciju skatiet šeit šeit: [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
    
-## <a name="configure-preview-features"></a>Priekšskatījuma līdzekļu konfigurēšana
-
-Ja esat iespējojis priekšskatījuma līdzekļus atvaļinājumiem un prombūtnei, arī tiem ir jākonfigurē iestatījumi.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Izvēlieties atvaļinājuma veidu pārnešanas bilancēm, uz kurām jāpārsūta. Varat arī izveidot jaunu atvaļinājuma veidu pārnešanai. 
-
+ 3. Iestatiet atvaļinājuma veidam **Pārnesta atvaļinājuma veids**. Atlasot šo opciju, visas pārnešanas bilances tiks pārsūtītas uz norādīto atvaļinājumu veidu. Pārnestā atvaļinājuma veids ir jāiekļauj arī atvaļinājumu un prombūtnes plānā. 
+ 
+ 4. Definējiet atvaļinājuma veidam **Beigu nosacījumu noteikumus**. Konfigurējot šo opciju, varat izvēlēties dienu vai mēnešu vienību un iestatīt beigu termiņu. Varat arī iestatīt termiņa beigu nosacījuma spēkā stāšanās datumu. Visas atvaļinājuma bilances, kas pastāv beigu laikā, tiks atskaitītas no atvaļinājuma veida, un tās tiks atspoguļotas atvaļinājumu bilancē. 
+ 
+ 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)
 - [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
+- [Pārtraukt atvaļinājumu](hr-leave-and-absence-suspend-leave.md)
+

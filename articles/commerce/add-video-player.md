@@ -3,7 +3,7 @@ title: Video atskaņotāja modulis
 description: Šajā tēmā tiek stāstīts par video atskaņotāja moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025660"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411163"
 ---
 # <a name="video-player-module"></a>Video atskaņotāja modulis
 
@@ -47,9 +47,13 @@ Video atskaņotāja modulis atbalsta arī sekundāros audio celiņus. Augšupiel
 - Reklāmas videoklipi vai videoklipi par politikām jebkurā mārketinga lapā
 - Mārketinga videoklipi, kas izceļ preces funkcijas preces informācijas lapās vai mārketinga lapās
 
+Attēlā zemāk redzams video atskaņotāja moduļa piemērs sākumlapā.
+
+![Video atskaņotāja moduļa piemērs](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Video atskaņotāja moduļa rekvizīti
 
-| Rekvizīta nosaukums         | Vērtība                               | Apraksts |
+| Rekvizīta nosaukums         | Vērtība                               | apraksts |
 |-----------------------|-------------------------------------|-------------|
 | Automātiskā atskaņošana             | **Patiess** vai **Nepatiess**               | Ja vērtība ir iestatīta uz **Patiess**, videoklips tiek automātiski atskaņots. |
 | Izslēgt skaņu                  | **Patiess** vai **Nepatiess**               | Ja vērtība ir iestatīta uz **Patiess**, tiek izslēgta skaņa. Šajā atskaņotājā noklusējuma vērtība ir **Nepatiess**. Google Chrome pārlūkā automātiskās atskaņošanas videoklipiem pēc noklusējuma tiek izslēgta skaņa, kura tiek atskaņota tikai tad, ja lietotājs manuāli atskaņo videoklipu. |
@@ -68,22 +72,34 @@ Video atskaņotāja modulis atbalsta arī sekundāros audio celiņus. Augšupiel
 
 Lai pievienotu video atskaņotāja moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Izveidojiet lapas veidni ar nosaukumu **video atskaņotāja veidne**.
-1. Noklusējuma lapas **Galvenajā** slotā pievienojiet konteinera moduli.
-1. Konteinera modulī pievienojiet video atskaņotāju un ambienta video atskaņotāja moduļus.
-1. Pabeidziet rediģēt veidni un publicējiet to.
-1. Izmantojiet jūsu izveidoto video atskaņotāja veidni, lai izveidotu lapu ar nosaukumu **video atskaņotāja lapa**.
-1. Jaunās lapas **Galvenajā** slotā pievienojiet ambienta video atskaņotāja moduli.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet **Video atskaņotāja veidne** un pēc tam atlasiet **Labi**.
+1. Slotā **Pamatteksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Video atskaņotājs** un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
+1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet video atskaņotāja veidni, kuru izveidojāt. Sadaļā **Lapas nosaukums** ievadiet **Video atskaņotāja lapa** pēc tam atlasiet **Labi**.
+1. Jaunās lapas slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Video atskaņotājs** un pēc tam atlasiet **Labi**.
 1. Video atskaņotāja moduļa rekvizītu rūtī atlasiet **Pievienot videoklipu**.
 1. Dialoglodziņā **Multivides atlasītājs** atlasiet videoklipu un pēc tam atlasiet **Augšupielādēt jaunu multivides vienumu**.
-1. Saglabājiet un priekšskatiet lapu. Lapā jābūt redzamam video modulim. Varat mainīt papildu iestatījumus, lai pielāgotu moduļa darbību.
-1. Pabeidziet rediģēt lapu un publicējiet to.
+1. Failu pārlūkā atlasiet video failus un pēc tam atlasiet **Atvērt**.
+1. Dialoglodziņā **Augšupielādēt multivides vienumu** ievadiet nosaukumu un citu informāciju pēc vajadzības un pēc tam atlasiet **Labi**.
+1. Dialoglodziņā **Mediju atlasītājs** atlasiet **Aizvērt**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Lapā jābūt redzamam video modulim. Varat mainīt papildu iestatījumus, lai pielāgotu moduļa darbību.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
-[Veicināšanas reklāmkarogu modulis](add-alert.md)
+[Akcijas reklāmkaroga modulis](add-alert.md)
 
 [Karuseļa modulis](add-carousel.md)
 

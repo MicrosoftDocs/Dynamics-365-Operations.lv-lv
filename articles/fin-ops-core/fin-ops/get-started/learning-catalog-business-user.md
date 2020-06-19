@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d6f2a51191d8c299ffed30c02f51bd8ca5464732
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 01596dd7dbc268c529720b531d4aeea8ccdd666f
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279041"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418545"
 ---
 # <a name="business-users-learning-catalog"></a>Biznesa lietotāju apmācības katalogs
 
@@ -31,7 +31,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu.  | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš   | 8 stundas   |
 | [Dynamics 365 un Power Platform pamati](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)    | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām.  | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš   | 5.5 stundas |
 | [Darba sākšana ar Finance and Operations programmām](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Uzziniet, kā Finance and Operations programmas atbalsta uzņēmumus, lai pārvaldītu to globālās finanšu sistēmas, darbības biznesa procesus un racionalizētas piegādes ķēdes, lai dotu iespēju cilvēkiem pieņemt ātrus, informētus lēmumus. Kā pirmo soli karjerā, strādājot ar programmām Finance and Operations, jums ir jāiepazīstas ar tā iespējām un funkcionalitāti neatkarīgi no jūsu vēlamās lomas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš  | 2 stundas   |
-| [Kurss MB-900T01-A: Dynamics 365 pamati](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | Šis kurss jūs iepazīstinās ar Dynamics 365 funkcionalitāti un biznesa vērtību. Kurss ietvers Dynamics 365 programmas, Power Platform, mākoņu koncepcijas, drošības modeli un licencēšanas apsvērumus.  | Pasniedzēja vadīta personiska vai tiešsaistes apmācība; izmaksas var mainīties atkarībā no reģiona un partnera. | 1 diena     |
+
 
 ## <a name="core-platform-knowledge"></a>Zināšanas par galveno platformu<a name="core-platform-knowledge"></a>
 | Saturs | apraksts  | Formāts   | Ilgums    |

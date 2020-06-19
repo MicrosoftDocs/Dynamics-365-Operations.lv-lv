@@ -3,7 +3,7 @@ title: Mazumtirdzniecības pārdošanas cenu pārvaldība
 description: Šajā tēmā ir aprakstītas pārdošanas cenu izveides un pārvaldības jēdzieniem programmā Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057491"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3432005"
 ---
 # <a name="retail-sales-price-management"></a>Mazumtirdzniecības pārdošanas cenu pārvaldība
 
@@ -53,7 +53,9 @@ Nākamajā attēlā ir parādīts, kā cenu grupas tiek izmantotas. Ievērojiet,
 
 Kad veidojat cenu grupas, vienu un to pašu cenu grupu nevajadzētu izmantot vairākiem komercijas entītiju tipiem. Pretējā gadījumā varētu būt sarežģīti noteikt, kāpēc kādai transakcijai tiek piemērota noteikta cena vai atlaide.
 
-Kā attēlā ir norādīts ar sarkano pārtraukto līniju, programma Commerce neatbalsta programmā Microsoft Dynamics 365 ietverto tieši debitoram iestatītas cenu grupas pamata funkcionalitāti. Taču šajā gadījumā jūs saņemat tikai pārdošanas cenas tirdzniecības līgumus. Ja vēlaties lietot no debitora atkarīgas cenas, ieteicams neiestatīt cenu grupas tieši debitoram. Tā vietā vajadzētu izmantot piederības.
+Kā attēlā ir norādīts ar sarkano pārtraukto līniju, programma Commerce neatbalsta programmā Microsoft Dynamics 365 ietverto tieši debitoram iestatītas cenu grupas pamata funkcionalitāti. Taču šajā gadījumā jūs saņemat tikai pārdošanas cenas tirdzniecības līgumus. Ja vēlaties lietot no debitora atkarīgas cenas, ieteicams neiestatīt cenu grupas tieši debitoram. Tā vietā vajadzētu izmantot piederības. 
+
+Ņemiet vērā, ka tad, ja cenu grupa ir iestatīta debitoram, šī cenu grupa tiek saistīta ar to pasūtījumu, kas izveidoti šim debitoram, pārdošanas pasūtījuma galveni. Ja lietotājs maina cenu grupu pasūtījuma galvenē, vecā cenu grupa tiek aizstāta ar jauno cenu grupu tikai pašreizējam pasūtījumam. Piemēram, vecā cenu grupa neietekmēs pašreizējo pasūtījumu, bet tā joprojām būs saistīta ar debitoru turpmākajiem pasūtījumiem.
 
 Nākamajās sadaļās ir sniegta plašāka informācija par komercijas entītijām, kuras varat izmantot, lai iestatītu atšķirīgas cenas, kad tiek izmantotas cenu grupas. Cenu un atlaižu konfigurēšana visām šīm entītijām ir procedūra no divām darbībām. Šīs darbības var izpildīt jebkādā secībā. Taču loģiskā secība ir vispirms iestatīt cenu grupas entītijām, jo šī darbība, visticamāk, ir vienreizēja iestatīšana, kas tiek veikta ieviešanas laikā. Pēc tam, kad tiek veidotas cenas un atlaides, varat iestatīt cenu grupas šīm cenām un atlaidēm atsevišķi.
 
@@ -226,6 +228,7 @@ Cenu noteikšanas programma **neatbalsta** tālāk uzskaitītos cenu noteikšana
 - Iestatot cenas pēc Vietas vai Vietas un noliktavas, krātuves dimensijas netiek atbalstītas. Ja tirdzniecības līgumos norādāt tikai vietnes dimensiju, cenu noteikšanas programma ignorēs Vietu un piemēros tirdzniecības līgumu visām vietām. Ja norādāt gan vietu, gan noliktavu, tad darbība ir nedefinēta/nepārbaudīta, jo ir paredzams, ka mazumtirgotāji izmanto veikala cenu grupas, lai kontrolētu cenas katram veikalam/noliktavai.
 - Atribūtos balstīta cenu noteikšana netiek atbalstīta.
 - Piegādātāja atlaižu pāreja netiek atbalstīta.
+- Standarta Supply Chain Management cenu noteikšanas programma atbalsta cenas aprēķinu, pamatojoties uz "Pieprasītais nosūtīšanas datums" un "Pieprasītais saņemšanas datums" kopā ar pašreizējo datumu. Tomēr mazumtirdzniecības cenu noteikšana pašlaik neatbalsta šīs vērtības. Iemesls ir tas, ka B2C scenārijos debitori negaida, ka pieprasītais piegādes datums ietekmēs krājuma cenu. Dažos gadījumos mazumtirgotājiem ir gan B2B, gan B2C operācijas. B2B operācijām ir parasti mainīt cenas, ņemot vērā piegādes datumus. Šie mazumtirgotāji var izmantot Supply Chain Management izcenojumus savam B2B biznesam un mazumtirdzniecības izcenojumus savam B2C biznesam. Mazumtirdzniecības cenu veidošana sākas tikai tad, ja programmas lietotājs tiek pievienots kā zvanu centra lietotājs, tāpēc mazumtirgotāji var piešķirt konkrētus lietotājus, kuri strādās ar Supply Chain Management cenu noteikšanu, un piešķirt dažus lietotājus, kas strādās ar mazumtirdzniecības cenu noteikšanu, t.i., šie lietotāji jāpievieno kā zvanu centra lietotāji. Turklāt rekvizītam **Izmantot šodienas datumu cenu aprēķināšanai** sadaļā **Tirdzniecības parametri > Cenu noteikšana un atlaidess > Dažādi** ir jābūt ieslēgtam. Šādā veidā tie var turpināt izmantot debitoru parametra vērtību Pieprasītajam nosūtīšanas datumam vai Pieprasītajam piegādes datumam Supply Chain Management cenu noteikšanai, bet mazumtirdzniecības cenu noteikšana turpinās izmantot šodienas datumu cenu aprēķināšanai.
 
 Turklāt **tikai** cenu noteikšanas programma atbalsta tālāk uzskaitītos cenu noteikšanas līdzekļus.
 
