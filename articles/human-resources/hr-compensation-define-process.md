@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
+ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,87 +16,87 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 254eb4f83cc734e43920b912e81c7a9230ca82dd
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198770"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429754"
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Atlīdzības procesa definēšana un rezultātu aprēķināšana
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="77791-103">Atlīdzības procesa definēšana un rezultātu aprēķināšana</span><span class="sxs-lookup"><span data-stu-id="77791-103">Define compensation process and calculate results</span></span>
 
-Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas un piemaksas darbiniekiem, kas reģistrēti fiksētās un mainīgās atlīdzības plānos. Kompensācijas procesus var izmantot vairākas reizes, lai veiktu iespēju analīzi, lai pārbaudītu, vai visas izmaiņas un iestatījumi ir pareizi. Šīs procedūras ietvaros tiks izveidots atlīdzības process, tiks palaists process un skatīti rezultāti. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+<span data-ttu-id="77791-104">Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas un piemaksas darbiniekiem, kas reģistrēti fiksētās un mainīgās atlīdzības plānos.</span><span class="sxs-lookup"><span data-stu-id="77791-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="77791-105">Kompensācijas procesus var izmantot vairākas reizes, lai veiktu iespēju analīzi, lai pārbaudītu, vai visas izmaiņas un iestatījumi ir pareizi.</span><span class="sxs-lookup"><span data-stu-id="77791-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="77791-106">Šīs procedūras ietvaros tiks izveidots atlīdzības process, tiks palaists process un skatīti rezultāti.</span><span class="sxs-lookup"><span data-stu-id="77791-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="77791-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="77791-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Atlīdzības procesa izveide
-1. Dodieties uz Personāla vadība > Atlīdzība > Process > Atlīdzības procesi.
-2. Noklikšķiniet uz Jauns.
-3. Laukā Process ierakstiet vērtību.
-4. Apraksta laukā ierakstiet vērtību.
-5. Laukā Procesu tips atlasiet opciju.
-    * Cikls norāda laika periodu, kas tiek vērtēts, lai noteiktu atlīdzību. Novērtējumā tiek ņemti vērā šādi aspekti: darbinieku ieņemtie amati, iekļaujamie veiktspējas vērtējumi, procentuālās attiecības aprēķins laikam, kurā darbinieks bija nodarbināts cikla ietvaros, un citi. Cikla sākuma datuma piemērs var būt pagājušā finanšu gada pirmā diena.  
-6. Ievadiet datumu laukā Cikla sākums.
-    * Cikla beigu datums ir svarīgs, jo tas ir datums, kas tiek izmantots, lai noteiktu, kuri darbinieki tika aktīvi nodarbināti un reģistrēti vienā vai vairākos atlīdzības plānos.  
-7. Ievadiet datumu laukā Cikla beigas.
-    * Darbības aktīvais datums ir datums, kurā jāstājas spēkā janajām atlīdzības likmēm. Daudzi uzņēmumi ietver dažus mēnešus starp cikla beigām un laiku, kad stājas spēkā jaunās atlīdzības likmes. Papildu laiks tiek izmantots jaunās atlīdzības apstrādei un pārskatīšanai.  
-8. Ievadiet datumu laukā Darbības aktīvais datums.
-    * Algas datums tiek izmantots mainīgās atlīdzības plāniem, kuri nosaka darbinieka piemaksas summu, balstoties uz to atlīdzības likmēm attiecīgajā brīdī.  
-    * Fiksētās maksas likmes nolīgšanas datums tiek izmantots ar fiksētās atlīdzības plāniem, ja nolīgšanas kārtulas vērtība ir Procenti.  Darbinieki, kuri ir pieņemti darbā starp cikla sākuma datumu un fiksētās maksas likmes nolīgšanas datumu, saņems 100 % no aprēķinātā atlīdzības pieauguma, nevis proporcionāli sadalīto procentuālo vērtību.  
-9. Ievadiet datumu laukā Fiksētās maksas likmes nolīgšanas datums.
-    * Pārskatīšanas termiņš ir datums, līdz kuram ir jāpārskata visi procesa rezultāti, lai tos varētu ielādēt darbinieka atlīdzības ierakstā pirms darbības aktīvā datuma. Šim laukam ir tikai informatīvs raksturs.  
-10. Laukā Pārskatīt termiņu ievadiet kādu datumu.
-11. Noklikšķiniet uz Saglabāt.
+## <a name="create-a-compensation-process"></a><span data-ttu-id="77791-108">Atlīdzības procesa izveide</span><span class="sxs-lookup"><span data-stu-id="77791-108">Create a compensation process</span></span>
+1. <span data-ttu-id="77791-109">Dodieties uz Personāla vadība > Atlīdzība > Process > Atlīdzības procesi.</span><span class="sxs-lookup"><span data-stu-id="77791-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="77791-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="77791-110">Click New.</span></span>
+3. <span data-ttu-id="77791-111">Laukā Process ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="77791-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="77791-112">Apraksta laukā ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="77791-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="77791-113">Laukā Procesu tips atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="77791-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="77791-114">Cikls norāda laika periodu, kas tiek vērtēts, lai noteiktu atlīdzību.</span><span class="sxs-lookup"><span data-stu-id="77791-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="77791-115">Novērtējumā tiek ņemti vērā šādi aspekti: darbinieku ieņemtie amati, iekļaujamie veiktspējas vērtējumi, procentuālās attiecības aprēķins laikam, kurā darbinieks bija nodarbināts cikla ietvaros, un citi.</span><span class="sxs-lookup"><span data-stu-id="77791-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="77791-116">Cikla sākuma datuma piemērs var būt pagājušā finanšu gada pirmā diena.</span><span class="sxs-lookup"><span data-stu-id="77791-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="77791-117">Ievadiet datumu laukā Cikla sākums.</span><span class="sxs-lookup"><span data-stu-id="77791-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="77791-118">Cikla beigu datums ir svarīgs, jo tas ir datums, kas tiek izmantots, lai noteiktu, kuri darbinieki tika aktīvi nodarbināti un reģistrēti vienā vai vairākos atlīdzības plānos.</span><span class="sxs-lookup"><span data-stu-id="77791-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="77791-119">Ievadiet datumu laukā Cikla beigas.</span><span class="sxs-lookup"><span data-stu-id="77791-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="77791-120">Darbības aktīvais datums ir datums, kurā jāstājas spēkā janajām atlīdzības likmēm.</span><span class="sxs-lookup"><span data-stu-id="77791-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="77791-121">Daudzi uzņēmumi ietver dažus mēnešus starp cikla beigām un laiku, kad stājas spēkā jaunās atlīdzības likmes.</span><span class="sxs-lookup"><span data-stu-id="77791-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="77791-122">Papildu laiks tiek izmantots jaunās atlīdzības apstrādei un pārskatīšanai.</span><span class="sxs-lookup"><span data-stu-id="77791-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="77791-123">Ievadiet datumu laukā Darbības aktīvais datums.</span><span class="sxs-lookup"><span data-stu-id="77791-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="77791-124">Algas datums tiek izmantots mainīgās atlīdzības plāniem, kuri nosaka darbinieka piemaksas summu, balstoties uz to atlīdzības likmēm attiecīgajā brīdī.</span><span class="sxs-lookup"><span data-stu-id="77791-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="77791-125">Fiksētās maksas likmes nolīgšanas datums tiek izmantots ar fiksētās atlīdzības plāniem, ja nolīgšanas kārtulas vērtība ir Procenti.</span><span class="sxs-lookup"><span data-stu-id="77791-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="77791-126">Darbinieki, kuri ir pieņemti darbā starp cikla sākuma datumu un fiksētās maksas likmes nolīgšanas datumu, saņems 100 % no aprēķinātā atlīdzības pieauguma, nevis proporcionāli sadalīto procentuālo vērtību.</span><span class="sxs-lookup"><span data-stu-id="77791-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="77791-127">Ievadiet datumu laukā Fiksētās maksas likmes nolīgšanas datums.</span><span class="sxs-lookup"><span data-stu-id="77791-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="77791-128">Pārskatīšanas termiņš ir datums, līdz kuram ir jāpārskata visi procesa rezultāti, lai tos varētu ielādēt darbinieka atlīdzības ierakstā pirms darbības aktīvā datuma.</span><span class="sxs-lookup"><span data-stu-id="77791-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="77791-129">Šim laukam ir tikai informatīvs raksturs.</span><span class="sxs-lookup"><span data-stu-id="77791-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="77791-130">Laukā Pārskatīt termiņu ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="77791-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="77791-131">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="77791-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Atlīdzības plānu un darbību atlīdzības procesam iestatīšana
-1. Noklišķiniet uz Iestatījumi.
-    * Lapa Iestatījumi tiek izmantota, lai atlasītu, kuri plāni tiks apstrādāti šī atlīdzības procesa ietvaros, kā arī kuras darbības jāveic attiecībā uz katru plānu.  
-2. Laukā Plāns ievadiet vai atlasiet kādu vērtību.
-3. Noklikšķiniet uz Saglabāt.
-4. Noklikšķiniet uz Pievienot.
-5. Laukā Darbība atlasiet darbības tipu Kapitāls.
-6. Noklikšķiniet uz Pievienot.
-7. Laukā Darbība atlasiet darbības tipu Nopelni.
-    * Atlīdzības darbības var "saistīt" kopā, izmantojot lauku Izmantot iepriekšējo rezultātu, lai norādītu, vai atlasītajai darbībai jāizmanto darbinieku pamatalga vai iepriekšējās darbības rezultāts kā sākuma dati šīs darbības aprēķinam.  
-8. Laukā Izmantot iepriekšējo rezultātu atlasiet Jā.
-9. Noklikšķiniet uz Pievienot.
-10. Laukā Darbība atlasiet darbības tipu Vispārīgi.
-    * Dažādi atlīdzības darbību tipi iespējo dažādus laukus. Darbības tipam Vispārīgi var norādīt palielinājuma procentus vai palielinājuma summu.  
-11. Atlasiet opciju Atlasīt pielikuma summu.
-12. Laukā Palielināt summu ievadiet skaitli.
-13. Noklikšķiniet uz Pievienot.
-14. Laukā Darbība atlasiet darbības tipu Paaugstināšana amatā.
-    * Darbības tipi Paaugstināšana amatā vai Citu līmeņu maiņa ļauj lietotājiem veikt manuālas darbinieku atlīdzības korekcijas. Šiem darbību tipiem, kā arī citiem darbību tipiem var iespējot ieteikumus, lai jūs varētu ievadīt darbiniekam jaunu rekomendētās atlīdzības vērtību.  
-15. Noklikšķiniet uz Pievienot.
-16. Atlasiet opciju laukā Tips.
-    * Fiksētās un mainīgās atlīdzības plānus var izmantot vienā un tajā pašā atlīdzības procesā.  
-17. Laukā Plāns ievadiet vai atlasiet kādu vērtību.
-    * Izmantojiet izvēles rūtiņu Iespējot algu par rezultātiem, lai noteiktu, vai fiksētās un mainīgās atlīdzības summas ir jākoriģe, pamatojoties uz darbinieka veiktspējas vērtējumu.  
-    * Līdzekļus var ignorēt mainīgās atlīdzības plānos.  
-18. Noklikšķiniet uz Saglabāt.
-19. Noklikšķiniet uz Pievienot.
-20. Aizvērt lapu.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="77791-132">Atlīdzības plānu un darbību atlīdzības procesam iestatīšana</span><span class="sxs-lookup"><span data-stu-id="77791-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="77791-133">Noklišķiniet uz Iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="77791-133">Click Setup.</span></span>
+    * <span data-ttu-id="77791-134">Lapa Iestatījumi tiek izmantota, lai atlasītu, kuri plāni tiks apstrādāti šī atlīdzības procesa ietvaros, kā arī kuras darbības jāveic attiecībā uz katru plānu.</span><span class="sxs-lookup"><span data-stu-id="77791-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="77791-135">Laukā Plāns ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="77791-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="77791-136">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="77791-136">Click Save.</span></span>
+4. <span data-ttu-id="77791-137">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="77791-137">Click Add.</span></span>
+5. <span data-ttu-id="77791-138">Laukā Darbība atlasiet darbības tipu Kapitāls.</span><span class="sxs-lookup"><span data-stu-id="77791-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="77791-139">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="77791-139">Click Add.</span></span>
+7. <span data-ttu-id="77791-140">Laukā Darbība atlasiet darbības tipu Nopelni.</span><span class="sxs-lookup"><span data-stu-id="77791-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="77791-141">Atlīdzības darbības var "saistīt" kopā, izmantojot lauku Izmantot iepriekšējo rezultātu, lai norādītu, vai atlasītajai darbībai jāizmanto darbinieku pamatalga vai iepriekšējās darbības rezultāts kā sākuma dati šīs darbības aprēķinam.</span><span class="sxs-lookup"><span data-stu-id="77791-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="77791-142">Laukā Izmantot iepriekšējo rezultātu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="77791-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="77791-143">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="77791-143">Click Add.</span></span>
+10. <span data-ttu-id="77791-144">Laukā Darbība atlasiet darbības tipu Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="77791-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="77791-145">Dažādi atlīdzības darbību tipi iespējo dažādus laukus.</span><span class="sxs-lookup"><span data-stu-id="77791-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="77791-146">Darbības tipam Vispārīgi var norādīt palielinājuma procentus vai palielinājuma summu.</span><span class="sxs-lookup"><span data-stu-id="77791-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="77791-147">Atlasiet opciju Atlasīt pielikuma summu.</span><span class="sxs-lookup"><span data-stu-id="77791-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="77791-148">Laukā Palielināt summu ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="77791-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="77791-149">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="77791-149">Click Add.</span></span>
+14. <span data-ttu-id="77791-150">Laukā Darbība atlasiet darbības tipu Paaugstināšana amatā.</span><span class="sxs-lookup"><span data-stu-id="77791-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="77791-151">Darbības tipi Paaugstināšana amatā vai Citu līmeņu maiņa ļauj lietotājiem veikt manuālas darbinieku atlīdzības korekcijas.</span><span class="sxs-lookup"><span data-stu-id="77791-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="77791-152">Šiem darbību tipiem, kā arī citiem darbību tipiem var iespējot ieteikumus, lai jūs varētu ievadīt darbiniekam jaunu rekomendētās atlīdzības vērtību.</span><span class="sxs-lookup"><span data-stu-id="77791-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="77791-153">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="77791-153">Click Add.</span></span>
+16. <span data-ttu-id="77791-154">Atlasiet opciju laukā Tips.</span><span class="sxs-lookup"><span data-stu-id="77791-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="77791-155">Fiksētās un mainīgās atlīdzības plānus var izmantot vienā un tajā pašā atlīdzības procesā.</span><span class="sxs-lookup"><span data-stu-id="77791-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="77791-156">Laukā Plāns ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="77791-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="77791-157">Izmantojiet izvēles rūtiņu Iespējot algu par rezultātiem, lai noteiktu, vai fiksētās un mainīgās atlīdzības summas ir jākoriģe, pamatojoties uz darbinieka veiktspējas vērtējumu.</span><span class="sxs-lookup"><span data-stu-id="77791-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="77791-158">Līdzekļus var ignorēt mainīgās atlīdzības plānos.</span><span class="sxs-lookup"><span data-stu-id="77791-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="77791-159">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="77791-159">Click Save.</span></span>
+19. <span data-ttu-id="77791-160">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="77791-160">Click Add.</span></span>
+20. <span data-ttu-id="77791-161">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="77791-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Atlīdzības procesa palaišana
-1. Noklikšķiniet uz Palaist procesu.
-    * Funkcija Rādīt apstrādes rezultātus ļauj apskatīt apstrādes ziņojumus par visu atlīdzības procesu, kad process ir pabeigts.  
-2. Laukā Rādīt apstrādes rezultātus atlasiet Jā.
-3. Noklikšķiniet uz OK.
+## <a name="run-the-compensation-process"></a><span data-ttu-id="77791-162">Atlīdzības procesa palaišana</span><span class="sxs-lookup"><span data-stu-id="77791-162">Run the compensation process</span></span>
+1. <span data-ttu-id="77791-163">Noklikšķiniet uz Palaist procesu.</span><span class="sxs-lookup"><span data-stu-id="77791-163">Click Run process.</span></span>
+    * <span data-ttu-id="77791-164">Funkcija Rādīt apstrādes rezultātus ļauj apskatīt apstrādes ziņojumus par visu atlīdzības procesu, kad process ir pabeigts.</span><span class="sxs-lookup"><span data-stu-id="77791-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="77791-165">Laukā Rādīt apstrādes rezultātus atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="77791-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="77791-166">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="77791-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Rezultātu skatīšana
-1. Noklikšķiniet uz Procesa rezultāti.
-2. Noklikšķiniet uz Darbinieku rezultāti.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Izvērsiet sadaļu Fiksēta atlīdzība.
-    * Izvērsiet kopsavilkuma cilnes, lai skatītu procesa rezultātus. Ja atlīdzības darbībai tika atzīmēts Iespējot ieteikumus, attiecīgajai darbībai būs iespējoti lauki Ieteikumi.  
-5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Viena darbinieka rezultātus var skatīt, noklikšķinot uz pogas Skatīt rezultātus.  
-    * Aprēķināto atlīdzības summu var pārrakstīt, koriģējot procentuālo vērtību vai palielinājuma summu laukos Ieteikumi.  
-6. Rekomendējamās procentuālās vērtības laukā ievadiet skaitli.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-8. Rekomendējamās procentuālās vērtības laukā ievadiet skaitli.
-    * Pārrēķināšanu var izmantot, lai ignorētu visas esošajā ierakstā veiktās izmaiņas un ģenerētu jaunu atlīdzības rezultātu atlasītajam darbiniekam.  
-    * Kad visas izmaiņas darbiniekam ir pabeigtas, mainiet statusu uz Apstiprināts.  
-9. Noklikšķiniet uz Mainīt statusu.
-10. Noklikšķiniet uz Apstiprināts.
-    * Pēc ieraksta apstiprināšanas to var ielādēt darbinieka oficiālajā atlīdzības ierakstā. Jaunā atlīdzība stājas spēkā darbības datumā, kas iestatīts kompensācijas procesā.  
+## <a name="view-the-results"></a><span data-ttu-id="77791-167">Rezultātu skatīšana</span><span class="sxs-lookup"><span data-stu-id="77791-167">View the results</span></span>
+1. <span data-ttu-id="77791-168">Noklikšķiniet uz Procesa rezultāti.</span><span class="sxs-lookup"><span data-stu-id="77791-168">Click Process results.</span></span>
+2. <span data-ttu-id="77791-169">Noklikšķiniet uz Darbinieku rezultāti.</span><span class="sxs-lookup"><span data-stu-id="77791-169">Click Employee results.</span></span>
+3. <span data-ttu-id="77791-170">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="77791-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="77791-171">Izvērsiet sadaļu Fiksēta atlīdzība.</span><span class="sxs-lookup"><span data-stu-id="77791-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="77791-172">Izvērsiet kopsavilkuma cilnes, lai skatītu procesa rezultātus.</span><span class="sxs-lookup"><span data-stu-id="77791-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="77791-173">Ja atlīdzības darbībai tika atzīmēts Iespējot ieteikumus, attiecīgajai darbībai būs iespējoti lauki Ieteikumi.</span><span class="sxs-lookup"><span data-stu-id="77791-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="77791-174">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="77791-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="77791-175">Viena darbinieka rezultātus var skatīt, noklikšķinot uz pogas Skatīt rezultātus.</span><span class="sxs-lookup"><span data-stu-id="77791-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="77791-176">Aprēķināto atlīdzības summu var pārrakstīt, koriģējot procentuālo vērtību vai palielinājuma summu laukos Ieteikumi.</span><span class="sxs-lookup"><span data-stu-id="77791-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="77791-177">Rekomendējamās procentuālās vērtības laukā ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="77791-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="77791-178">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="77791-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="77791-179">Rekomendējamās procentuālās vērtības laukā ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="77791-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="77791-180">Pārrēķināšanu var izmantot, lai ignorētu visas esošajā ierakstā veiktās izmaiņas un ģenerētu jaunu atlīdzības rezultātu atlasītajam darbiniekam.</span><span class="sxs-lookup"><span data-stu-id="77791-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="77791-181">Kad visas izmaiņas darbiniekam ir pabeigtas, mainiet statusu uz Apstiprināts.</span><span class="sxs-lookup"><span data-stu-id="77791-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="77791-182">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="77791-182">Click Change status.</span></span>
+10. <span data-ttu-id="77791-183">Noklikšķiniet uz Apstiprināts.</span><span class="sxs-lookup"><span data-stu-id="77791-183">Click Approved.</span></span>
+    * <span data-ttu-id="77791-184">Pēc ieraksta apstiprināšanas to var ielādēt darbinieka oficiālajā atlīdzības ierakstā.</span><span class="sxs-lookup"><span data-stu-id="77791-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="77791-185">Jaunā atlīdzība stājas spēkā darbības datumā, kas iestatīts kompensācijas procesā.</span><span class="sxs-lookup"><span data-stu-id="77791-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 

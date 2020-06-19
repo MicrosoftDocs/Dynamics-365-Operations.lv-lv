@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc9e9c2c948d654904041faa72110cc245308e64
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: d332f7f355c138cc058185f1b9578a67737fb1d0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3229721"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430628"
 ---
-# <a name="set-up-employment-types"></a><span data-ttu-id="b9217-103">Iestatīt nodarbinātības tipus</span><span class="sxs-lookup"><span data-stu-id="b9217-103">Set up employment types</span></span>
+# <a name="set-up-employment-types"></a><span data-ttu-id="b178a-103">Iestatīt nodarbinātības tipus</span><span class="sxs-lookup"><span data-stu-id="b178a-103">Set up employment types</span></span>
 
-<span data-ttu-id="b9217-104">Iestatiet nodarbinātības veidus Dynamics 365 Human Resources, lai tās saskaņotu ar saviem nodarbinātajiem.</span><span class="sxs-lookup"><span data-stu-id="b9217-104">Set up employment types in Dynamics 365 Human Resources to match your workers.</span></span>
+<span data-ttu-id="b178a-104">Iestatiet nodarbinātības veidus Dynamics 365 Human Resources, lai tās saskaņotu ar saviem nodarbinātajiem.</span><span class="sxs-lookup"><span data-stu-id="b178a-104">Set up employment types in Dynamics 365 Human Resources to match your workers.</span></span>
 
-1. <span data-ttu-id="b9217-105">Darbvietā **Personāla pārvaldība**, sadaļā **Iestatījumi** atlasiet **Nodarbinātības veidi**.</span><span class="sxs-lookup"><span data-stu-id="b9217-105">In the **Personnel management** workspace, under **Setup**, select **Employment types**.</span></span>
+1. <span data-ttu-id="b178a-105">Darbvietā **Personāla pārvaldība**, sadaļā **Iestatījumi** atlasiet **Nodarbinātības veidi**.</span><span class="sxs-lookup"><span data-stu-id="b178a-105">In the **Personnel management** workspace, under **Setup**, select **Employment types**.</span></span>
 
-2. <span data-ttu-id="b9217-106">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="b9217-106">Select **New**.</span></span>
+2. <span data-ttu-id="b178a-106">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="b178a-106">Select **New**.</span></span>
 
-3. <span data-ttu-id="b9217-107">Norādiet vērtības tālāk minētajos laukos.</span><span class="sxs-lookup"><span data-stu-id="b9217-107">Specify values for the following fields:</span></span>
+3. <span data-ttu-id="b178a-107">Norādiet vērtības tālāk minētajos laukos.</span><span class="sxs-lookup"><span data-stu-id="b178a-107">Specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="b9217-108">Lauks</span><span class="sxs-lookup"><span data-stu-id="b9217-108">Field</span></span> | <span data-ttu-id="b9217-109">Apraksts</span><span class="sxs-lookup"><span data-stu-id="b9217-109">Description</span></span> |
+   | <span data-ttu-id="b178a-108">Lauks</span><span class="sxs-lookup"><span data-stu-id="b178a-108">Field</span></span> | <span data-ttu-id="b178a-109">Apraksts</span><span class="sxs-lookup"><span data-stu-id="b178a-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="b9217-110">**Nodarbinātības veids**</span><span class="sxs-lookup"><span data-stu-id="b9217-110">**Employment type**</span></span> | <span data-ttu-id="b9217-111">Nodarbinātības veida unikālais identifikators</span><span class="sxs-lookup"><span data-stu-id="b9217-111">Unique identification for the employment type.</span></span> |
-   | <span data-ttu-id="b9217-112">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="b9217-112">**Description**</span></span> | <span data-ttu-id="b9217-113">Nodarbinātības veida apraksts.</span><span class="sxs-lookup"><span data-stu-id="b9217-113">A description of the employment type.</span></span> |
+   | <span data-ttu-id="b178a-110">**Nodarbinātības veids**</span><span class="sxs-lookup"><span data-stu-id="b178a-110">**Employment type**</span></span> | <span data-ttu-id="b178a-111">Nodarbinātības veida unikālais identifikators</span><span class="sxs-lookup"><span data-stu-id="b178a-111">Unique identification for the employment type.</span></span> |
+   | <span data-ttu-id="b178a-112">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="b178a-112">**Description**</span></span> | <span data-ttu-id="b178a-113">Nodarbinātības veida apraksts.</span><span class="sxs-lookup"><span data-stu-id="b178a-113">A description of the employment type.</span></span> |
 
-4. <span data-ttu-id="b9217-114">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="b9217-114">Select **Save**.</span></span> 
+4. <span data-ttu-id="b178a-114">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="b178a-114">Select **Save**.</span></span> 
