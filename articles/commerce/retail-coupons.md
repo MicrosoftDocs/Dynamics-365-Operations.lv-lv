@@ -3,7 +3,7 @@ title: Mazumtirdzniecības pārdošanas kuponu iestatīšana
 description: Šajā tēmā sniegts pārskats par kuponiem un izskaidrots, kā tos iestatīt.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057375"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431982"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mazumtirdzniecības pārdošanas kuponu iestatīšana
 
@@ -48,8 +48,10 @@ Kuponiem var konfigurēt izmantošanas ierobežojumus. Lietojuma ierobežojumu v
 
 Kupona ierobežojums tiek īstenots pēc kupona koda. Piemēram, vienreizēju kuponu, kam ir divi kupona kodi, var izmantot divas reizes: vienu reiz katram kupona kodam. Katru kupona kodu var neatkarīgi iestatīt kā aktīvu.
 
+Kuponus var izmantot visos pārdošanas kanālos, tomēr zvanu centra pasūtījumiem ierobežotās lietošanas kuponus var izmantot tikai tiem zvanu centru pasūtījumiem, kam zvanu centrā ir aktivizēts iestatījums **Pasūtījuma pabeigšana**. Ja tas nav iespējots, zvanu centra pasūtījumos var izmantot tikai neierobežota lietošanas veida kuponus.
+
 > [!NOTE]
-> Kad kupona kods ir sasniedzis lietojuma ierobežojumu, sistēma šī kupona koda statusu automātiski *nemaina* uz “Izlietots”. Taču sistēma neļauj turpināt tāda kupona koda lietošanu, kas ir sasniedzis savu lietojuma ierobežojumu. Ja kupona koda statuss ir manuāli iestatīts uz kaut citu, kas nav “Aktīvs”, šo kupona kodu nevar izmantot nevienā kanālā.
+> Kad kupona kods ir sasniedzis lietojuma ierobežojumu, sistēma šī kupona koda statusu automātiski *nemaina* uz “Izlietots”. Tomēr šis kupona kods ir sasniedzis savu lietojuma ierobežojumu un to nevar izmantot. Ja kupona koda statuss ir manuāli iestatīts uz kaut citu, kas nav **Aktīvs**, šo kupona kodu nevar izmantot nevienā kanālā.  
 
 ## <a name="managing-coupons"></a>Kuponu pārvaldība
 

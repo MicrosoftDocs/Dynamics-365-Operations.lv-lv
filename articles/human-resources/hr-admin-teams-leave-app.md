@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388120"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431134"
 ---
 # <a name="human-resources-app-in-teams"></a>Personāla vadības programma programmā Teams
 
@@ -45,6 +45,7 @@ Lai iegūtu informāciju par programmu atļauju pārvaldību grupās, skatiet sa
 
 | Izsniegt | Statuss |
 | --- | --- |
+| Kļūda: radās problēma, meklējot vidi, ar kuru jāizveido savienojums. | Šo kļūdu varat saņemt pat tad, ja esat pārliecinājies, ka lietotājs var piekļūt vienai vai vairākām Human Resources vidēm. Turklāt iespējams, ka neredzēsit visas paredzētās vides. Kamēr mēs novērsīsim šo problēmu, dzēsiet lietotāju un pēc tam importējiet to vēlreiz, lai atrisinātu problēmu. |
 | Bilance nav pareiza, iesniedzot prombūtni nākotnes datumam. | Videoklips vēl nav pieejams. Parādās pašreizējā datuma bilance. |
 | Samazinot esošā pieprasījumā uzņemto stundu skaitu, **Atlikusī bilance** tiek samazināta, nevis paaugstināta. | Nākotnē šī zināmā problēma tiks risināta. Displejs nav pareizs, bet pareizās summas tiek koriģētas pēc iesniegšanas. |
 | Divas **Gaidāmās laika pārtraukšanas** kartes tiek rādītas tam pašam datumam. | Kartes attēlo atsevišķus iesniegumus. Mēs turpināsim pieņemt atsauksmes un veikt pielāgojumus. |
