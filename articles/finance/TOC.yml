@@ -1820,6 +1820,32 @@
                   items:
                     - name: Indijas GST pārskats
                       href: localizations/apac-ind-gst.md
+                    - name: Jaunumi un izmaiņas APAC Indijas GST lokalizācijā
+                      items:
+                        - name: Jaunumi un izmaiņas versijā 10.0.0
+                          href: localizations/apac-ind-news-letter-10-0-00.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.01
+                          href: localizations/apac-ind-news-letter-10-0-01.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.02
+                          href: localizations/apac-ind-news-letter-10-0-02.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.03
+                          href: localizations/apac-ind-news-letter-10-0-03.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.04
+                          href: localizations/apac-ind-news-letter-10-0-04.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.05
+                          href: localizations/apac-ind-news-letter-10-0-05.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.06
+                          href: localizations/apac-ind-news-letter-10-0-06.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.07
+                          href: localizations/apac-ind-news-letter-10-0-07.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.08
+                          href: localizations/apac-ind-news-letter-10-0-08.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.09
+                          href: localizations/apac-ind-news-letter-10-0-09.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.10
+                          href: localizations/apac-ind-news-letter-10-0-10.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.11
+                          href: localizations/apac-ind-news-letter-10-0-11.md
                     - name: Indijas GST atsauces grupas
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST integrācija kases sistēmām
@@ -2346,6 +2372,8 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Apgrozījuma bilances pārskats
                   href: localizations/emea-pol-turnover-balances-statement.md
+                - name: Kreditoru/debitoru valūtas starpības sadale
+                  href: localizations/emea-pol-split-ap-ar-exchange-difference.md
             - name: Krievija
               items:
                 - name: Krievijas pārskats
@@ -3408,8 +3436,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: 'Formātu modificēšana un palaišana, lai izmantotu dokumentu pārvaldības failus'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                        - name: Datu avotu atkļūdošana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Datu avotu atkļūdošana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: SVĪTRKODA izmantošana svītrkodu attēlu ģenerēšanai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modeļu kartējumu konfigurēšana
                   items:
                     - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
@@ -3418,18 +3448,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Formātu konfigurēšana
                   items:
+                    - name: 'Modeļu definīciju atlase, veidojot formātus'
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: 'Modeļu definīciju atlase, veidojot formātus'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
+                    - name: ER formāta elementu izpildes atlikšana
                       items:
                         - name: Secības elementa izpildes atlikšana
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                         - name: XML elementa izpildes atlikšana
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: Daudzvalodu pārskatu noformēšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Relatīvais ceļš datu saistījumos
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations

@@ -3,7 +3,7 @@ title: Videoklipi
 description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar programmām Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367133"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456953"
 ---
 # <a name="videos"></a>Videoklipi 
 
@@ -122,6 +122,9 @@ ms.locfileid: "3367133"
 - [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)
 - [Darba sākšana ar moduli “Izmaksu uzskaite”](https://youtu.be/1pUDtJQZ8FU)
 - [Excel izmantošana izmaksu analīzei](https://youtu.be/-HKHYdClvx8)
+
+### <a name="customer-portal"></a>Debitoru portāls
+- [Debitora portāla veidnes apskats Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8)
 
 ### <a name="help-system"></a>Palīdzības sistēma
 

@@ -3,7 +3,7 @@ title: Debitoru portāla Dynamics 365 Supply Chain Management pārskats
 description: Šī tēma iepazīstina ar Debitoru portālu un izskaidro, kam tas ir jāizmanto un kā tas darbojas.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413985"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456930"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Debitoru portāla Dynamics 365 Supply Chain Management pārskats
 
@@ -37,6 +37,12 @@ Debitoru portāla veidnei ir visas pielāgošanas iespējas, ko piedāvā portā
 
 > [!NOTE]
 > Debitora portāla dokumentācija ir vērsta uz administratoriem, pielāgotājiem un sistēmu integrētājiem, kas iestatīt Debitoru portālu Supply Chain Management instalēšanai. Tā izmanto terminus _debitors_ un _lietotājs_, lai aprakstītu cilvēkus, kuri ir organizācijas klienti, kas lieto Supply Chain Management un kas izmantos galīgo portālu.
+
+## <a name="video"></a>Video
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+[Klienta portāla veidnes apskats Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) video (parādīts iepriekš) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas pieejams YouTube.
 
 ## <a name="who-should-use-it"></a>Kam tas ir jāizmanto?
 
@@ -58,6 +64,6 @@ Debitoru portāls tiek nodrošināts kā Power Apps portālu veidne. Tas ir atka
 
 [Duālais ieraksts](https://docs.microsoft.com/powerapps/maker/portals/overview) ir standarta infrastruktūras produkts, kas nodrošina gandrīz reāllaika mijiedarbību starp no modeļa atkarīgām programmām platformā Dynamics 365 un Finance and Operations programmām. Duālais ieraksts nodrošina divvirzienu integrāciju starp Finance and Operations programmām un Common Data Service. Tāpēc tas nodrošina integrētu lietotāja pieredzi programmās. Debitora portāls ir atkarīgs no entītijām, kas tiek sinhronizētas ar duālo ierakstu. Pirms datus no Supply Chain Management var sakārtoti Debitoru portālā, ir jāiespējo duālais ieraksts visām atbilstošajām entītijām.
 
-![![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")](media/customer-portal-elements.png "Customer portal dependencies")
+![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")
 
 Debitoru portāls darbojas kā sākumpunkts organizācijām, kas vēlas izmantot Power Apps portālus, lai izveidotu ārēji vērstu tīmekļa vietni, kura izmanto datus no to Supply Chain Management instalācijas. Tas palīdz organizācijām savienot duālo ierakstu, Supply Chain Management un Power Apps portālus.

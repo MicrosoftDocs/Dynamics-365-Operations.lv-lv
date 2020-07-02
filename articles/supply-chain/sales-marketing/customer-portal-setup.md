@@ -3,7 +3,7 @@ title: Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 description: Šajā tēmā ir sniegta informācija par licencēšanu un iestatīšanas instrukcijas Debitoru portālam.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413986"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435612"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 
@@ -35,7 +35,7 @@ Lai ieviestu Debitoru portālu, ir jābūt tālāk minētajām licencēm.
 
 Debitoru portāls ir atkarīgs no Power Apps portāliem un duālā ieraksta, kā parādīts attēlā zemāk.
 
-![![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")](media/customer-portal-elements.png "Customer portal dependencies")
+![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")
 
 Atšķirībā no citiem Supply Chain Management līdzekļiem, Debitoru portāla veidne atrodas Power Apps portālos. Tāpēc Debitoru portālu ierobežo funkcionalitāte un iespējas, ko sniedz Power Apps portāli un entītijas duālajā ierakstā.
 
@@ -59,7 +59,7 @@ Pirms sākat, pārliecinieties, ka esat jau pabeidzis [nepieciešamo iestatīša
 
 1. Dodieties uz [make.powerapps.com](https://make.powerapps.com/).
 2. Pārliecinieties, ka izmantojat vidi, kurā iespējojāt duālo ierakstu.
-3. Cilnē **Izveidot** ritiniet uz leju līdz sadaļai **Sākt no veidnes** un atlasiet veidni ar nosaukumu **Supply Chain Management debitors**.
+3. Cilnē **Izveidot** ritiniet uz leju līdz sadaļai **Sākt no veidnes** un atlasiet veidni ar nosaukumu **Debitoru portāls**.
 4. Izpildiet ekrānā redzamos norādījumus.
 
 Kad nodrošinājums ir pabeigts, varat piekļūt Debitoru portālam lapas **Sākums** sadaļā **Jūsu programmas**.
@@ -71,7 +71,7 @@ Kad nodrošinājums ir pabeigts, varat piekļūt Debitoru portālam lapas **Sāk
 
 Papildu funkcionalitāti Debitoru portālam var pievienot vēlāk. Visas izmaiņas, ko korporācija Microsoft veic pamata risinājuma komponentiem, automātiski parādīsies jūsu vidē. Tomēr tīmekļa vietne, kas tiek nodrošināta jūsu vidē, automātiski neatspoguļos izmaiņas, kas veiktas konfigurācijas datos. Jums būs manuāli jāpiemēro šīs izmaiņas, iegūstot kodu no jaunās veidnes un apvienojot to ar nodrošināto tīmekļa vietni.
 
-## <a name="resources"></a>Resursi
+## <a name="additional-resources"></a>Papildu resursi
 
 Lai uzzinātu, kā var iestatīt un pielāgot Debitoru portālu, jāsāk ar sekojošās pamattehnoloģiju dokumentācijas pārskatīšanu.
 

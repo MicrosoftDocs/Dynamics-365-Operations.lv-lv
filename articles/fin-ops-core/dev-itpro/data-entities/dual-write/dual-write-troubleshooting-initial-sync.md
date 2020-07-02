@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 10065039fce441d7f96f700ff826d959e96f2479
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410085"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443853"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problēmu novēršana sākotnējās sinhronizēšanas laikā
 
@@ -39,7 +39,7 @@ ms.locfileid: "3410085"
 
 Kad iespējojat kartēšanas veidnes, karšu statusam jābūt **Palaists**. Ja statuss ir **Nav palaists**, sākotnējās sinhronizācijas laikā radušās kļūdas. Lai skatītu kļūdas, lapā **Duālais ieraksts** atlasiet cilni **Sākotnējās sinhronizācijas informācija**.
 
-![Sākotnējās sinhronizācijas detalizētas informācijas cilne](media/initial_sync_status.png)
+![Kļūda cilnē Sākotnējā sinhronizācijas informācija](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Sākotnējo sinhronizāciju nevar pabeigt: 400 nederīgs pieprasījums
 
@@ -47,7 +47,7 @@ Kad iespējojat kartēšanas veidnes, karšu statusam jābūt **Palaists**. Ja s
 
 Mēģinot palaist kartēšanu un sākotnējo sinhronizēšanu, jūs varētu saņemt šādu kļūdas ziņojumu:
 
-*Attālais serveris atgrieza kļūdu: (400) nederīgs pieprasījums.), AX eksportējot radās kļūda*
+*(\[Nederīgs pieprasījums\], Attālais serveris atgrieza kļūdu: (400) nederīgs pieprasījums.), AX eksportējot radās kļūda*
 
 Tālāk ir sniegts tabulas pilnā kļūdas ziņojuma piemērs.
 
@@ -86,130 +86,127 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 1. Piesakieties Finance and Operations programmā.
 2. Lapā **Azure Active Directory programma** izdzēsiet klientu **DtAppID** un pēc tam pievienojiet to vēlreiz.
 
-![Azure AD pieteikumu saraksts](media/aad_applications.png)
+![DtAppID klients Azure AD programmu sarakstā](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Pašatsauces vai cirkulārās atsauces kļūmes sākotnējās sinhronizācijas laikā
 
 Var tikt parādīts kļūdas ziņojums, ja kādam no kartējumiem ir pašatsauces vai cirkulārās atsauces. Kļūdas ietilpst tālāk minētajās kategorijās.
 
-- [Kreditori V2 uz msdyn_vendors elementa kartējums](#error-vendor-map)
-- [Debitoru V3 uz kontu elementu kartēšana](#error-customer-map)
+- [Kļūdas Kreditori V2-uz-msdyn_vendors elementa kartēšanā](#error-vendor-map)
+- [Kļūdas Debitori V3-uz-kontiem elementa kartēšanā](#error-customer-map)
 
-## <a name="resolve-an-error-in-vendors-v2-to-msdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Atrisiniet kļūdu kreditori V2 uz msdyn_vendors elementa kartēšanu
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Atrisināt kļūdas Kreditori V2-uz-msdyn_vendors elementa kartēšanā
 
-Jums var rasties tālāk minētās sinhronizācijas kļūdas kartēšanā **Kreditori V2** uz **msdyn_vendors**, ja elementos ir esoši ieraksti ar vērtībām laukos **PrimaryContactPersonId** un **InvoiceVendorAccountNumber**. Tas notiek tādēļ, ka **InvoiceVendorAccountNumber** ir pašatsauces lauks un **PrimaryContactPersonId** ir riņķveida atsauce kreditora kartēšanā.
+Jums var rasties sinhronizācijas kļūdas kartēšanā **Kreditori V2** uz **msdyn\_vendors**, ja elementos ir esoši ieraksti ar vērtībām laukos **PrimaryContactPersonId** un **InvoiceVendorAccountNumber**. Šīs kļūdas notiek tādēļ, ka **InvoiceVendorAccountNumber** ir pašatsauces lauks un **PrimaryContactPersonId** ir riņķveida atsauce kreditora kartēšanā.
 
-*Nevarēja atrisināt lauka GUID: <field>. Uzmeklēšana netika atrasta: <value>. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+Saņemtajiem kļūdu ziņojumiem būs šāda forma.
 
-Tākāk ir minēti daži piemēri.
+*Nevarēja atrisināt lauka GUID: \<field\>. Uzmeklēšana netika atrasta: \<value\>. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Nevarēja atrisināt ceļvedi laukam: msdyn_vendorprimarycontactperson.msdyn_contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai pastāv atsauces dati: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Nevarēja atrisināt ceļvedi laukam: msdyn_invoicevendoraccountnumber.msdyn_vendoraccountnumber. Uzmeklēšana netika atrasta: 1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai pastāv atsauces dati: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1*
+Daži piemēri:
 
-Ja jums ir ieraksti ar vērtībām šajos laukos kreditora elementā, izpildiet tālāk minētās darbības, kas norādītas sadaļā zemāk, lai sekmīgi pabeigtu sākotnējo sinhronizāciju.
+- *Nevarēja atrisināt lauka GUID: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Nevarēja atrisināt lauka GUID: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Uzmeklēšana netika atrasta: V24-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-1. Programmā Finance and Operations izdzēsiet laukus **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** kartējumā un saglabājiet izmaiņas.
+Ja jums ir jebkādi ieraksti kreditoru entītijā ar vērtībām laukos **PrimaryContactPersonId** un **InvoiceVendorAccountNumber**, izpildiet tālāk minētās darbības, lai sekmīgi pabeigtu sākotnējo sinhronizāciju.
 
-    1. Dodieties uz duālā ieraksta kartēšanas lapu **Kreditori V2 (msdyn_vendors)** un atlasiet cilni **Elementa kartējumi**. Kreisajā filtrā atlasiet **Finance and Operations apps.Vendors V2**. Labajā filtrā atlasiet **Pārdošana. Kreditors**.
+1. Programmā Finance and Operations izdzēsiet laukus **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** kartējumā un tad saglabājiet kartējumu.
 
+    1. Duālā ieraksta kartēšanas lapā **Kreditori V2 (msdyn\_vendors)** cilnē **Elementa kartējumi**, kreisajā filtrā atlasiet **Finance and Operations apps.Vendors V2**. Labajā filtrā atlasiet **Pārdošana. Kreditors**.
     2. Meklējiet **primarycontactperson**, lai atrastu avota lauku **PrimaryContactPersonId**.
-    
-    3. Noklikšķiniet uz pogas **Darbības** un atlasiet **Dzēst**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 3](media/vend_selfref3.png)
-    
-    4. Atkārtiet, lai dzēstu lauku **InvoiceVendorAccountNumber**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 4](media/vend-selfref4.png)
-    
-    5. Saglabājiet kartēšanas izmaiņas.
+    3. Atlasiet **Darbības** un pēc tam atlasiet **Dzēst**.
 
-2. Atspējietot izmaiņu izsekošanu elementam **Kreditori V2**.
+        ![PrimaryContactPersonId lauka dzēšana](media/vend_selfref3.png)
 
-    1. Pārejiet uz **Datu pārvaldība \> datu entītijas**.
-    
+    4. Atkārtojiet šos soļus, lai dzēstu lauku **InvoiceVendorAccountNumber**.
+
+        ![InvoiceVendorAccountNumber lauka dzēšana](media/vend-selfref4.png)
+
+    5. Saglabājiet jūsu izmaiņas kartējumā.
+
+2. Izslēdziet izmaiņu izsekošanu elementam **Kreditors V2**.
+
+    1. Darbvietā **Datu pārvaldība** atlasiet elementu **Datu elementi**.
     2. Atlasiet entītiju **Kreditori V2**.
-    
-    3. Izvēļņu joslā noklikšķiniet uz **Opcijas** un pēc tam uz **Mainīt izsekošanu**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 5](media/selfref_options.png)
-    
-    4. Noklikšķiniet uz **Atspējot Mainīt izsekošanu**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 6](media/selfref_tracking.png)
+    3. Darbību rūtī atlasiet **Opcijas** un pēc tam atlasiet **Mainīt izsekošanu**.
 
-3. Palaidiet sākotnējo **Kreditori v2 (msdyn_vendors)** kartēšanas sinhronizāciju. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
+        ![Izmaiņu izsekošanas opcijas atlasīšana](media/selfref_options.png)
 
-4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai. Jums ir jāsinhronizē šis kartējums, ja vēlaties sinhronizēt primāro kontaktpersonu lauku kreditoru elementā kā kontaktpersonu ierakstus, kuri arī sākotnēji ir jāsinhronizē.
+    4. Atlasiet **Atspējot izmaiņu izsekošanu**.
 
-5. Pievienojiet laukus **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** atpakaļ kartēšānai **Kreditori V2 (msdyn_vendors)** un saglabājiet kartējumu.
+        ![Atspējot izmaiņu izsekošanu atlasīšana](media/selfref_tracking.png)
 
-6. Palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori v2 (msdyn_vendors)**. Visi ieraksti tiks sinhronizēti, jo izmaiņu izsekošana ir atspējota.
+3. Palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_vendors)**. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
+4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai. Jums ir jāsinhronizē šis kartējums, ja vēlaties sinhronizēt primāro kontaktpersonu lauku kreditoru elementā, tāpēc ka sākotnējā sinhronizācija jāveic arī kontaktu ierakstiem.
+5. Pievienojiet **PrimaryContactPersonId** un **InvoiceVendorAccountNumber** laukus atpakaļ kartēšanai **Kreditori V2 (msdyn\_vendors)** un tad saglabājiet kartējumu.
+6. Vēlreiz palaidiet sākotnējo kartēšanas sinhronizāciju attiecībā uz **Kreditori V2 (msdyn\_vendors)**. Visi ieraksti tiks sinhronizēti, jo izmaiņu izsekošana ir atspējota.
+7. Vēlreiz ieslēdziet izmaiņu izsekošanu elementam **Kreditors V2**.
 
-7. Iespējietot izmaiņu izsekošanu elementam **Kreditors V2**.
+## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Novērst kļūdas elementa Debitori V3-uz-kontiem kartēšanā
 
-## <a name="resolve-an-error-in-customers-v3-to-accounts-entity-mapping"></a><a id="error-customer-map"></a>Novērst kļūdu elementa Debitori V3 uz kontiem kartēšanā
+Jums var rasties sinhronizācijas kļūdas kartēšanā **Debitori V3** uz **Konti**, ja elementos ir esoši ieraksti ar vērtībām laukos **ContactPersonID** un **InvoiceAccount**. Šīs kļūdas notiek tādēļ, ka **InvoiceAccount** ir pašatsauces lauks un **ContactPersonID** ir riņķveida atsauce kreditora kartēšanā.
 
-Jums var rasties tālāk minētās sinhronizācijas kļūdas kartēšanā **Debitori V3** uz **Konti**, ja elementos ir esoši ieraksti ar vērtībām laukos **ContactPersonID** un **InvoiceAccount**. Tas notiek tādēļ, ka **InvoiceAccount** ir pašatsauces lauks un **ContactPersonID** ir riņķveida atsauce kreditora kartēšanā.
+Saņemtajiem kļūdu ziņojumiem būs šāda forma.
 
-*Nevarēja atrisināt lauka GUID: <field>. Uzmeklēšana netika atrasta: <value>. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+*Nevarēja atrisināt lauka GUID: \<field\>. Uzmeklēšana netika atrasta: \<value\>. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Nevarēja atrisināt ceļvedi laukam: primarycontactid.msdyn_contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai pastāv atsauces dati: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Nevarēja atrisināt ceļvedi laukam: msdyn_billingaccount.accountnumber. Uzmeklēšana netika atrasta: 1206-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai pastāv atsauces dati: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1*
+Daži piemēri:
 
-Ja jums ir ieraksti ar vērtībām šajos laukos debitora elementā, izpildiet tālāk minētās darbības, kas norādītas sadaļā zemāk, lai sekmīgi pabeigtu sākotnējo sinhronizāciju. Varat izmantot šo pieeju jebkurām iebūvētajām entītijām, piemēram, uzņēmumiem un kontaktpersonām.
+- *Nevarēja atrisināt lauka GUID: primarycontactid.msdyn\_contactpersonid. Uzmeklēšana netika atrasta: 000056. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Nevarēja atrisināt lauka GUID: msdyn\_billingaccount.accountnumber. Uzmeklēšana netika atrasta: 1206-1. Izmēģiniet šos vietrāžus URL, lai pārbaudītu, vai atsauces dati pastāv: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-1. Programmā Finance and Operations izdzēsiet laukus **ContactPersonID** un **InvoiceAccount** no **Debitori V3 (konti)** kartēšanas un saglabājiet kartējumu.
+Ja jums ir jebkādi ieraksti debitoru entītijā ar vērtībām laukos **ContactPersonID** un **InvoiceAccount**, izpildiet tālāk minētās darbības, lai sekmīgi pabeigtu sākotnējo sinhronizāciju. Varat izmantot šo pieeju jebkurām iebūvētajām entītijām, piemēram, **Uzņēmumiem** un **Kontaktpersonām**.
 
-    1. Dodieties uz duālā ieraksta kartēšanas lapu **Debitori V3 (konti)** un atlasiet cilni **Elementa kartējumi**. Kreisajā filtrā atlasiet **Finance and Operations app.Customers V3**. Labajā filtrā atlasiet **Common Data Service.konts**.
+1. Programmā Finance and Operations izdzēsiet laukus **ContactPersonID** un **InvoiceAccount** no **Debitori V3 (konti)** kartēšanas un tad saglabājiet kartējumu.
 
+    1. Duālā ieraksta kartēšanas lapā **Debitori V3 (konti)**, cilnē **Elementa kartējumi**, kreisajā filtrā atlasiet **Finance and Operations app.Customers V3**. Labajā filtrā atlasiet **Common Data Service.konts**.
     2. Meklējiet **kontaktpersonu**, lai atrastu avota lauku **ContactPersonID**.
-    
-    3. Noklikšķiniet uz pogas **Darbības** un atlasiet **Dzēst**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 3](media/cust_selfref3.png)
-    
-    4. Atkārtojiet, lai dzēstu lauku **InvoiceAccount**.
-    
-        ![pašatsauce vai cinkulārā atsauce](media/cust_selfref4.png)
-    
-    5. Saglabājiet kartēšanas izmaiņas.
+    3. Atlasiet **Darbības** un pēc tam atlasiet **Dzēst**.
 
-2. Atspējietot izmaiņu izsekošanu elementam **Debitori V3**.
+        ![ContactPersonID lauka dzēšana](media/cust_selfref3.png)
 
-    1. Pārejiet uz **Datu pārvaldība \> datu entītijas**.
-    
+    4. Atkārtojiet šos soļus, lai dzēstu lauku **InvoiceAccount**.
+
+        ![InvoiceAccount lauka dzēšana](media/cust_selfref4.png)
+
+    5. Saglabājiet jūsu izmaiņas kartējumā.
+
+2. Izslēdziet izmaiņu izsekošanu elementam **Debitori V3**.
+
+    1. Darbvietā **Datu pārvaldība** atlasiet elementu **Datu elementi**.
     2. Atlasiet entītiju **Dabitori V3**.
-    
-    3. Izvēļņu joslā noklikšķiniet uz **Opcijas** un pēc tam uz **Mainīt izsekošanu**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 5](media/selfref_options.png)
-    
-    4. Noklikšķiniet uz **Atspējot Mainīt izsekošanu**.
-    
-        ![pašatsauce vai cinkulārā atsauce Nr. 6](media/selfref_tracking.png)
+    3. Darbību rūtī atlasiet **Opcijas** un pēc tam atlasiet **Mainīt izsekošanu**.
+
+        ![Izmaiņu izsekošanas opcijas atlasīšana](media/selfref_options.png)
+
+    4. Atlasiet **Atspējot izmaiņu izsekošanu**.
+
+        ![Atspējot izmaiņu izsekošanu atlasīšana](media/selfref_tracking.png)
 
 3. Palaidiet sākotnējo sinhronizāciju **Debitori V3 (konti)** kartēšanai. Sākotnējā sinhronizācija ir sekmīgi jāizpilda bez kļūdām.
+4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai.
 
-4. Palaidiet sākotnējo sinhronizāciju **CDS kontaktpersonas V2 (kontaktpersonas)** kartēšanai. Ir 2 kartes ar vienādu nosaukumu. Izvēlieties vienu ar aprakstu **Duālā ieraksta veidne sinhronizācijai starp FO.CDS kreditora V2 kontaktpersonām un CDS.Contacts. Nepieciešama jauna pakotne \[Dynamics365SupplyChainExtended\].** kartes cilnē **Detalizēta informācija**.
+    > [!NOTE]
+    > Ir divas kartes, kurām ir vienāds nosaukums. Pārliecinieties, ka izvēlaties karti ar sekojošu aprakstu cilnē **Detaļas**: **Duālā ieraksta veidne sinhronizācijai starp FO.CDS kreditora V2 kontaktpersonām un CDS.Contacts. Nepieciešama jauna pakotne \[Dynamics365SupplyChainExtended\].**
 
-5. Pievienojiet laukus **InvoiceAccount** un **ContactPersonId** atpakaļ kartējumam **Debitori V3 (konti)** un saglabājiet kartējumu. Tagad abi laiki **InvoiceAccount** un **ContactPersonId** atkal ir daļa no tiešsaistes sinhronizācijas režīma. Nākamajā darbībā pabeidziet sākotnējo sinhronizāciju šiem laukiem.
+5. Pievienojiet laukus **InvoiceAccount** un **ContactPersonId** atpakaļ kartējumam **Debitori V3 (konti)** un tad saglabājiet kartējumu. Abi lauki **InvoiceAccount** un **ContactPersonId** atkal ir daļa no tiešsaistes sinhronizācijas režīma. Nākamajā darbībā veiciet sākotnējo sinhronizāciju šiem laukiem.
+6. Vēlreiz palaidiet sākotnējo sinhronizāciju **Debitori V3 (konti)** kartēšanai. Tā kā izmaiņu izsekošana ir izslēgta, tiks sinhronizēti dati **InvoiceAccount** un **ContactPersonId** no Finance and Operations programmas uz Common Data Service.
+7. Lai sinhronizētu datus **InvoiceAccount** un **ContactPersonId** no Common Data Service uz Finance and Operations programmu, izmantojiet datu integrācijas projektu.
 
-6. Atkal palaidiet sākotnējo sinhronizāciju **Debitori V3 (konti)** kartēšanai. Tā kā izmaiņu izsekošana ir atspējota, palaižot sinhronizāciju, tiks sinhronizēti dati **InvoiceAccount** un **ContactPersonId** no Finance and Operations programmas uz Common Data Service.
-
-7. Lai sinhronizētu datus **InvoiceAccount** un **ContactPersonId** no Common Data Service uz Finance and Operations, izmantojiet datu integrācijas projektu.
-
-    1. Sistēmā Power Apps izveidojiet datu integrācijas projektu starp **Pārdošana.Konts** un **Finance and Operations apps.Customers V3** elementiem. Datu virzienam jābūt no Common Data Service uz programmu Finance and Operations.  Tā kā **InvoiceAccount** ir jauns atribūts duālajā ierakstā, iespējams, vēlēsities izlaist sākotnējo sinhronizāciju šim atribūtam. Papildinformāciju skatiet [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+    1. Sistēmā Power Apps izveidojiet datu integrācijas projektu starp **Pārdošana.Konts** un **Finance and Operations apps.Customers V3** elementiem. Datu virzienam jābūt no Common Data Service uz programmu Finance and Operations. Tā kā **InvoiceAccount** ir jauns atribūts duālajā ierakstā, iespējams, vēlēsities izlaist sākotnējo sinhronizāciju tam. Papildinformāciju skatiet [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
         Šajā attēlā ir parādīts projekts, kas atjaunina **CustomerAccount** un **ContactPersonId**.
 
-        ![pašatsauce vai cinkulārā atsauce](media/cust_selfref6.png)
+        ![Datu integrācijas projekts, lai atjauninātu CustomerAccount un ContactPersonId](media/cust_selfref6.png)
 
-    2. Pievienojiet uzņēmuma kritērijus filtram Common Data Service pusē, jo programmā tiks atjaunināti tikai tie ieraksti, kas atbilst filtra kritērijiem programmā Finance and Operations. Lai pievienotu filtru, noklikšķiniet uz filtra ikonas. Dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **_msdyn_company_value eq '\<guid\>'**. Ja filtra ikona nav atrodama, izveidojiet atbalsta biļeti, lai lūgtu datu integrācijas grupai iespējot filtra iespēju jūsu nomniekam. Ja neievadāt filtra vaicājumu **_msdyn_company_value**, visi ieraksti tiek sinhronizēti.
+    2. Pievienojiet uzņēmuma kritērijus filtram Common Data Service pusē, lai tiktu atjaunināti tikai tie ieraksti, kas atbilst filtra kritērijiem programmā Finance and Operations. Lai pievienotu filtru, atlasiet filtra pogu. Tad dialoglodziņā **Rediģēt vaicājumu** varat pievienot filtra vaicājumu, piemēram, **\_msdyn\_company\_value eq '\<guid\>'**. 
 
-        ![pašatsauce vai cinkulārā atsauce](media/cust_selfref7.png)
+        > [PIEZĪME] Ja filtra poga nav atrodama, izveidojiet atbalsta biļeti, lai lūgtu datu integrācijas grupai iespējot filtra iespēju jūsu nomniekam.
 
-        Tas pabeidz ierakstu sākotnējo sinhronizāciju.
+        Ja neievadāt filtra vaicājumu **\_msdyn\_company\_value**, visi ieraksti tiks sinhronizēti.
 
-8. Iespējojiet izmaiņu izsekošanu elementam **Debitori V3** programmā Finance and Operations.
+        ![Filtra vaicājuma pievienošana](media/cust_selfref7.png)
 
+    Ierakstu sākotnējā sinhronizācija tagad ir pabeigta.
+
+8. Programmā Finance and Operations vēlreiz iespējojiet izmaiņu izsekošanu elementā **Debitori V3**.

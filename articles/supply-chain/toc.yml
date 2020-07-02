@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Krājumu vecumstruktūru pārskata glabāšana
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Krājumu vecumstruktūru pārskatu piemēri un loģika
+                  href: cost-management/inventory-aging-report.md
             - name: Ražošanas uzskaite
               items:
                 - name: "MK\_aprēķini"
