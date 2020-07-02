@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Jaunināšana un N-1 atbalsts
               items:
-                - name: Jaunināšana un N-1 atbalsts programmai Retail
+                - name: Jaunināšana un N-1 atbalsts programmai Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Pakāpeniskās izlādes (N-1) instalēšana, konfigurēšana un pārslēgšana'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: "Commerce 10.0.10 (2020.\_gada maijs)"
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: "Commerce 10.0.9 (2020.\_gada aprīlis)"
-                      href: get-started/whats-new-10-0-9.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: 'Droša klientu autentifikācija (SCA), izmantojot savienotāju Adyen'
                       href: adyen_redirect.md
+                    - name: Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilktnei
+                      href: pos-multi-hws.md
                     - name: Ērta bezsaistes pārslēgšanās dāvanu karšu un kredītrēķinu darbībām
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Rēķinu apmaksas scenāriju iestatīšana
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: Svītrkodu masku iestatīšana
                       href: set-up-bar-code-masks.md
+                - name: Garantijas
+                  items:
+                    - name: Paplašināto garantiju izveide un konfigurēšana
+                      href: extended-warranty.md
             - name: Cenu noteikšana un atlaides
               items:
                 - name: Atlaides
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Norēķināšanās modulis
                       href: add-checkout-module.md
-                    - name: Pasūtījuma apstiprinājuma modulis
+                    - name: Pasūtījumu informācijas modulis
                       href: order-confirmation-module.md
                     - name: Veikalu atlasītāja modulis
                       href: store-selector.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Izstrādes vides (.env) faila konfigurēšana
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: "Atkļūdošana, izmantojot 1.\_līmeņa Commerce izstrādes vidi"
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Azure DevOps koda koplietošanas iestatīšana un būvējuma konveijera izveide
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platformas apskats
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Izstrādes veikšana izstrādes mākoņvidēs bez administratora piekļuves
                   href: dev-itpro/cloud-dev-box.md
+                - name: Commerce SDK būvējuma konveijera iestatīšana
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Pārdošanas punktu paplašināmība
               items:
                 - name: POS ekrāna izkārtojumi
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Jauna Retail Server paplašinājuma izveide
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Retail Typescript un C# starpniekserveri'
+                - name: Retail Typescript un C# starpniekserveri
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Commerce Runtime (CRT) paplašināmība
               items:

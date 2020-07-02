@@ -3,7 +3,7 @@ title: Ieteikumu pievienošana transakciju ekrānam
 description: Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,101 +19,101 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 77870cd19ebf15a72f323f116579f7769a766995
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 760e6e093dbe0ba6b2781f90af7fbb614c492b93
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404237"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454583"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a><span data-ttu-id="e0ca9-103">Ieteikumu pievienošana transakciju ekrānam</span><span class="sxs-lookup"><span data-stu-id="e0ca9-103">Add recommendations to the transaction screen</span></span>
+# <a name="add-recommendations-to-the-transaction-screen"></a><span data-ttu-id="af6f7-103">Ieteikumu pievienošana transakciju ekrānam</span><span class="sxs-lookup"><span data-stu-id="af6f7-103">Add recommendations to the transaction screen</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="e0ca9-104">Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="e0ca9-105">Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet [preces ieteikumus POS dokumentācijā](product.md).</span><span class="sxs-lookup"><span data-stu-id="e0ca9-105">For more information about product recommendations, read the  [product recommendations on POS documentation](product.md).</span></span>
+<span data-ttu-id="af6f7-104">Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="af6f7-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="af6f7-105">Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet [preces ieteikumus POS dokumentācijā](product.md).</span><span class="sxs-lookup"><span data-stu-id="af6f7-105">For more information about product recommendations, read the  [product recommendations on POS documentation](product.md).</span></span>
 
 
-<span data-ttu-id="e0ca9-106">Ja izmantojat programmu Commerce , varat parādīt preču ieteikumus savā POS ierīcē.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-106">You can display product recommendations on your POS device when you use Commerce.</span></span> <span data-ttu-id="e0ca9-107">Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
+<span data-ttu-id="af6f7-106">Ja izmantojat programmu Commerce , varat parādīt preču ieteikumus savā POS ierīcē.</span><span class="sxs-lookup"><span data-stu-id="af6f7-106">You can display product recommendations on your POS device when you use Commerce.</span></span> <span data-ttu-id="af6f7-107">Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="af6f7-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
 
-## <a name="open-layout-designer"></a><span data-ttu-id="e0ca9-108">Atvērt izkārtojuma dizaineru</span><span class="sxs-lookup"><span data-stu-id="e0ca9-108">Open Layout designer</span></span>
+## <a name="open-layout-designer"></a><span data-ttu-id="af6f7-108">Atvērt izkārtojuma dizaineru</span><span class="sxs-lookup"><span data-stu-id="af6f7-108">Open Layout designer</span></span>
 
-1. <span data-ttu-id="e0ca9-109">Dodieties uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-109">Go to **Retail and Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
-2. <span data-ttu-id="e0ca9-110">Izmantojiet ātro filtru, lai atrastu ekrānu, kuram vēlaties pievienot šo vadīklu.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="e0ca9-111">Piemēram, filtrējiet pēc lauka **Ekrāna izkārtojuma ID**, izmantojot vērtību **F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
-3. <span data-ttu-id="e0ca9-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="e0ca9-113">Piemēram, atlasiet **Nosaukums: F2CP16:9M Ekrāna izkārtojuma ID: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
-4. <span data-ttu-id="e0ca9-114">Noklikšķiniet uz **Izkārtojuma dizainers**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-114">Click **Layout designer**.</span></span>
-5. <span data-ttu-id="e0ca9-115">Izpildiet uzvednēs sniegtos norādījumus, lai palaistu izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="e0ca9-116">Kad tiek prasīti akreditācijas dati, ievadiet tos pašus akreditācijas datus, kurus izmantojāt, kad izkārtojuma dizainers tika palaists no lapas **Ekrāna izkārtojumi**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
-6. <span data-ttu-id="e0ca9-117">Kad esat pieteicies, tiek parādīta tālāk redzamajai lapai līdzīga lapa.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="e0ca9-118">Izkārtojums atšķiras atkarībā no jūsu veikalam veiktajiem pielāgojumiem.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-118">The layout will be different depending on the customizations that were made for your store.</span></span>
-
-
-    <span data-ttu-id="e0ca9-119">[![Izkārtojuma veidotājs](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="e0ca9-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
-
-## <a name="choose-a-display-option"></a><span data-ttu-id="e0ca9-120">Attēlojuma opcijas izvēle</span><span class="sxs-lookup"><span data-stu-id="e0ca9-120">Choose a display option</span></span>
-
-<span data-ttu-id="e0ca9-121">Ir pieejamas divas konfigurācijas opcijas.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-121">There are two configurations options available.</span></span> <span data-ttu-id="e0ca9-122">Izvēlieties savam veikalam vispiemērotāko opciju un izpildiet atlikušos norādījumus, lai pabeigtu šīs vadīklas iestatīšanu.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="e0ca9-123">Tālāk ir aprakstītas abas opcijas.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-123">The two options are:</span></span>
-
-- <span data-ttu-id="e0ca9-124">Ieteikumi ir redzami vienmēr.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-124">Recommendations are always visible.</span></span>
-- <span data-ttu-id="e0ca9-125">Ekrāna labās puses režģī parādās cilne **Ieteikumi**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
-
-### <a name="make-recommendations-always-visible"></a><span data-ttu-id="e0ca9-126">Izkārtojuma pielāgošana, lai ieteikumi būtu redzami vienmēr</span><span class="sxs-lookup"><span data-stu-id="e0ca9-126">Make recommendations always visible</span></span>
+1. <span data-ttu-id="af6f7-109">Dodieties uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS** &gt; **Ekrāna izkārtojumi**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-109">Go to **Retail and Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
+2. <span data-ttu-id="af6f7-110">Izmantojiet ātro filtru, lai atrastu ekrānu, kuram vēlaties pievienot šo vadīklu.</span><span class="sxs-lookup"><span data-stu-id="af6f7-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="af6f7-111">Piemēram, filtrējiet pēc lauka **Ekrāna izkārtojuma ID**, izmantojot vērtību **F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
+3. <span data-ttu-id="af6f7-112">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="af6f7-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="af6f7-113">Piemēram, atlasiet **Nosaukums: F2CP16:9M Ekrāna izkārtojuma ID: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
+4. <span data-ttu-id="af6f7-114">Noklikšķiniet uz **Izkārtojuma dizainers**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-114">Click **Layout designer**.</span></span>
+5. <span data-ttu-id="af6f7-115">Izpildiet uzvednēs sniegtos norādījumus, lai palaistu izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="af6f7-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="af6f7-116">Kad tiek prasīti akreditācijas dati, ievadiet tos pašus akreditācijas datus, kurus izmantojāt, kad izkārtojuma dizainers tika palaists no lapas **Ekrāna izkārtojumi**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
+6. <span data-ttu-id="af6f7-117">Kad esat pieteicies, tiek parādīta tālāk redzamajai lapai līdzīga lapa.</span><span class="sxs-lookup"><span data-stu-id="af6f7-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="af6f7-118">Izkārtojums atšķiras atkarībā no jūsu veikalam veiktajiem pielāgojumiem.</span><span class="sxs-lookup"><span data-stu-id="af6f7-118">The layout will be different depending on the customizations that were made for your store.</span></span>
 
 
-1. <span data-ttu-id="e0ca9-127">Samaziniet transakcijas rindu informācijas apgabala augstumu, lai tas būtu vienāds ar debitora paneli kreisajā pusē.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
+    <span data-ttu-id="af6f7-119">[![Izkārtojuma veidotājs](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="af6f7-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
+
+## <a name="choose-a-display-option"></a><span data-ttu-id="af6f7-120">Attēlojuma opcijas izvēle</span><span class="sxs-lookup"><span data-stu-id="af6f7-120">Choose a display option</span></span>
+
+<span data-ttu-id="af6f7-121">Ir pieejamas divas konfigurācijas opcijas.</span><span class="sxs-lookup"><span data-stu-id="af6f7-121">There are two configurations options available.</span></span> <span data-ttu-id="af6f7-122">Izvēlieties savam veikalam vispiemērotāko opciju un izpildiet atlikušos norādījumus, lai pabeigtu šīs vadīklas iestatīšanu.</span><span class="sxs-lookup"><span data-stu-id="af6f7-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="af6f7-123">Tālāk ir aprakstītas abas opcijas.</span><span class="sxs-lookup"><span data-stu-id="af6f7-123">The two options are:</span></span>
+
+- <span data-ttu-id="af6f7-124">Ieteikumi ir redzami vienmēr.</span><span class="sxs-lookup"><span data-stu-id="af6f7-124">Recommendations are always visible.</span></span>
+- <span data-ttu-id="af6f7-125">Ekrāna labās puses režģī parādās cilne **Ieteikumi**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
+
+### <a name="make-recommendations-always-visible"></a><span data-ttu-id="af6f7-126">Izkārtojuma pielāgošana, lai ieteikumi būtu redzami vienmēr</span><span class="sxs-lookup"><span data-stu-id="af6f7-126">Make recommendations always visible</span></span>
 
 
-    <span data-ttu-id="e0ca9-128">[![Transakcijas rindu informācijas apgabala augstums ir samazināts](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="e0ca9-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
-
-2. <span data-ttu-id="e0ca9-129">No kreisajā pusē esošās izvēlnes velciet un nometiet ieteikumu vadīklu apgabalā starp transakcijas rindas informāciju un pogu režģi transakcijas ekrāna apakšēja vidusdaļā.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="e0ca9-130">Mainiet vadīklas izmērus, lai tā ietilptu šajā laukumā.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-130">Resize the control so it fits in that space.</span></span>
-
-    <span data-ttu-id="e0ca9-131">[![Izkārtojumam ir pievienota ieteikumu vadīkla](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="e0ca9-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
+1. <span data-ttu-id="af6f7-127">Samaziniet transakcijas rindu informācijas apgabala augstumu, lai tas būtu vienāds ar debitora paneli kreisajā pusē.</span><span class="sxs-lookup"><span data-stu-id="af6f7-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
 
 
-3. <span data-ttu-id="e0ca9-132">Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-132">Click the **X** to save and exit Layout designer.</span></span>
-4. <span data-ttu-id="e0ca9-133">Pakalpojumā Commerce pārejiet uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecība un komercija IT** &gt; **Sadales grafiki**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-133">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
-5. <span data-ttu-id="e0ca9-134">Sarakstā atlasiet vienumu **1090 reģistri**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-134">In the list, select **1090 Registers**.</span></span>
-6. <span data-ttu-id="e0ca9-135">Noklikšķiniet uz **Izpildīt tūlīt**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-135">Click **Run now**.</span></span>
+    <span data-ttu-id="af6f7-128">[![Transakcijas rindu informācijas apgabala augstums ir samazināts](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="af6f7-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
+
+2. <span data-ttu-id="af6f7-129">No kreisajā pusē esošās izvēlnes velciet un nometiet ieteikumu vadīklu apgabalā starp transakcijas rindas informāciju un pogu režģi transakcijas ekrāna apakšēja vidusdaļā.</span><span class="sxs-lookup"><span data-stu-id="af6f7-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="af6f7-130">Mainiet vadīklas izmērus, lai tā ietilptu šajā laukumā.</span><span class="sxs-lookup"><span data-stu-id="af6f7-130">Resize the control so it fits in that space.</span></span>
+
+    <span data-ttu-id="af6f7-131">[![Izkārtojumam ir pievienota ieteikumu vadīkla](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="af6f7-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
 
 
-### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="e0ca9-136">Cilnes Ieteikumi pievienošana pogu režģim ekrāna labajā pusē</span><span class="sxs-lookup"><span data-stu-id="e0ca9-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
+3. <span data-ttu-id="af6f7-132">Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="af6f7-132">Click the **X** to save and exit Layout designer.</span></span>
+4. <span data-ttu-id="af6f7-133">Pakalpojumā Commerce pārejiet uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecība un komercija IT** &gt; **Sadales grafiki**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-133">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
+5. <span data-ttu-id="af6f7-134">Sarakstā atlasiet vienumu **1090 reģistri**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-134">In the list, select **1090 Registers**.</span></span>
+6. <span data-ttu-id="af6f7-135">Noklikšķiniet uz **Izpildīt tūlīt**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-135">Click **Run now**.</span></span>
 
-1. <span data-ttu-id="e0ca9-137">Ar peles labo pogu noklikšķiniet uz tukšā laukuma zem pēdējās cilnes pogu režģī, kurš atrodas lapas labajā pusē.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
 
-2. <span data-ttu-id="e0ca9-138">Noklikšķiniet uz **Pielāgot**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-138">Click **Customize**.</span></span>
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="af6f7-136">Cilnes Ieteikumi pievienošana pogu režģim ekrāna labajā pusē</span><span class="sxs-lookup"><span data-stu-id="af6f7-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
 
-    <span data-ttu-id="e0ca9-139">[![Pielāgošana — cilnes vadīklas dialoglodziņš](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="e0ca9-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+1. <span data-ttu-id="af6f7-137">Ar peles labo pogu noklikšķiniet uz tukšā laukuma zem pēdējās cilnes pogu režģī, kurš atrodas lapas labajā pusē.</span><span class="sxs-lookup"><span data-stu-id="af6f7-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
 
-3. <span data-ttu-id="e0ca9-140">Noklikšķiniet uz **Jauna cilne**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-140">Click **New tab**.</span></span>
-4. <span data-ttu-id="e0ca9-141">Atrodiet jauno cilni, kuru tikko pievienojāt.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-141">Find the new tab that you just added.</span></span> <span data-ttu-id="e0ca9-142">Iespējams, ir jāritina uz leju.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-142">You may need to scroll down.</span></span>
-5. <span data-ttu-id="e0ca9-143">Nolaižamajā sarakstā **Saturs** atlasiet vienumu **Ieteicamās preces**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
+2. <span data-ttu-id="af6f7-138">Noklikšķiniet uz **Pielāgot**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-138">Click **Customize**.</span></span>
 
-    <span data-ttu-id="e0ca9-144">[![Ieteikto preču atlasīšana laukā Saturs](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="e0ca9-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+    <span data-ttu-id="af6f7-139">[![Pielāgošana — cilnes vadīklas dialoglodziņš](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="af6f7-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
 
-6. <span data-ttu-id="e0ca9-145">Laukā **Etiķete** ierakstiet ieteikumu cilnes nosaukumu. Ierakstiet, piemēram, “Ieteiktās preces”.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
-7. <span data-ttu-id="e0ca9-146">Laukā **Attēls** atlasiet attēlu, kas ir jārāda šajā cilnē.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-146">In the **Image** field, select the image to appear on the tab.</span></span>
-8. <span data-ttu-id="e0ca9-147">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-147">Click **OK**.</span></span> <span data-ttu-id="e0ca9-148">Jaunā cilne kļūst redzama pogu režģī.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-148">The new tab appears in the button grid.</span></span>
-9. <span data-ttu-id="e0ca9-149">Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-149">Click the **X** to save and exit Layout designer.</span></span>
-10. <span data-ttu-id="e0ca9-150">Pakalpojumā Commerce pārejiet uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecība un komercija IT** &gt; **Sadales grafiki**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-150">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
-11. <span data-ttu-id="e0ca9-151">Sarakstā atlasiet vienumu **1090 reģistri**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-151">In the list, select **1090 Registers**.</span></span>
-12. <span data-ttu-id="e0ca9-152">Noklikšķiniet uz **Izpildīt tūlīt**.</span><span class="sxs-lookup"><span data-stu-id="e0ca9-152">Click **Run now**.</span></span>
+3. <span data-ttu-id="af6f7-140">Noklikšķiniet uz **Jauna cilne**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-140">Click **New tab**.</span></span>
+4. <span data-ttu-id="af6f7-141">Atrodiet jauno cilni, kuru tikko pievienojāt.</span><span class="sxs-lookup"><span data-stu-id="af6f7-141">Find the new tab that you just added.</span></span> <span data-ttu-id="af6f7-142">Iespējams, ir jāritina uz leju.</span><span class="sxs-lookup"><span data-stu-id="af6f7-142">You may need to scroll down.</span></span>
+5. <span data-ttu-id="af6f7-143">Nolaižamajā sarakstā **Saturs** atlasiet vienumu **Ieteicamās preces**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e0ca9-153">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="e0ca9-153">Additional resources</span></span>
+    <span data-ttu-id="af6f7-144">[![Ieteikto preču atlasīšana laukā Saturs](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="af6f7-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
 
-[<span data-ttu-id="e0ca9-154">Preču ieteikumu apskats</span><span class="sxs-lookup"><span data-stu-id="e0ca9-154">Product recommendations overview</span></span>](product-recommendations.md)
+6. <span data-ttu-id="af6f7-145">Laukā **Etiķete** ierakstiet ieteikumu cilnes nosaukumu. Ierakstiet, piemēram, “Ieteiktās preces”.</span><span class="sxs-lookup"><span data-stu-id="af6f7-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
+7. <span data-ttu-id="af6f7-146">Laukā **Attēls** atlasiet attēlu, kas ir jārāda šajā cilnē.</span><span class="sxs-lookup"><span data-stu-id="af6f7-146">In the **Image** field, select the image to appear on the tab.</span></span>
+8. <span data-ttu-id="af6f7-147">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-147">Click **OK**.</span></span> <span data-ttu-id="af6f7-148">Jaunā cilne kļūst redzama pogu režģī.</span><span class="sxs-lookup"><span data-stu-id="af6f7-148">The new tab appears in the button grid.</span></span>
+9. <span data-ttu-id="af6f7-149">Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.</span><span class="sxs-lookup"><span data-stu-id="af6f7-149">Click the **X** to save and exit Layout designer.</span></span>
+10. <span data-ttu-id="af6f7-150">Pakalpojumā Commerce pārejiet uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecība un komercija IT** &gt; **Sadales grafiki**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-150">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
+11. <span data-ttu-id="af6f7-151">Sarakstā atlasiet vienumu **1090 reģistri**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-151">In the list, select **1090 Registers**.</span></span>
+12. <span data-ttu-id="af6f7-152">Noklikšķiniet uz **Izpildīt tūlīt**.</span><span class="sxs-lookup"><span data-stu-id="af6f7-152">Click **Run now**.</span></span>
 
-[<span data-ttu-id="e0ca9-155">Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="e0ca9-155">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
+## <a name="additional-resources"></a><span data-ttu-id="af6f7-153">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="af6f7-153">Additional resources</span></span>
 
-[<span data-ttu-id="e0ca9-156">Iespējot preču ieteikumus</span><span class="sxs-lookup"><span data-stu-id="e0ca9-156">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="af6f7-154">Preču ieteikumu apskats</span><span class="sxs-lookup"><span data-stu-id="af6f7-154">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="e0ca9-157">Personalizētu ieteikumu iespējošana</span><span class="sxs-lookup"><span data-stu-id="e0ca9-157">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="af6f7-155">Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="af6f7-155">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
 
-[<span data-ttu-id="e0ca9-158">Atteikšanās no personalizētiem ieteikumiem</span><span class="sxs-lookup"><span data-stu-id="e0ca9-158">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="af6f7-156">Iespējot preču ieteikumus</span><span class="sxs-lookup"><span data-stu-id="af6f7-156">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="e0ca9-159">Preču ieteikumu pievienošana punktā POS</span><span class="sxs-lookup"><span data-stu-id="e0ca9-159">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="af6f7-157">Personalizētu ieteikumu iespējošana</span><span class="sxs-lookup"><span data-stu-id="af6f7-157">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="e0ca9-160">AI-ML ieteikumu rezultātu pielāgošana</span><span class="sxs-lookup"><span data-stu-id="e0ca9-160">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="af6f7-158">Atteikšanās no personalizētiem ieteikumiem</span><span class="sxs-lookup"><span data-stu-id="af6f7-158">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="e0ca9-161">Manuāli izveidot pārraudzītus ieteikumus</span><span class="sxs-lookup"><span data-stu-id="e0ca9-161">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="af6f7-159">Preču ieteikumu pievienošana punktā POS</span><span class="sxs-lookup"><span data-stu-id="af6f7-159">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="e0ca9-162">Izveidot ieteikumus ar demonstrācijas datiem</span><span class="sxs-lookup"><span data-stu-id="e0ca9-162">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="af6f7-160">AI-ML ieteikumu rezultātu pielāgošana</span><span class="sxs-lookup"><span data-stu-id="af6f7-160">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="e0ca9-163">Bieži uzdotie jautājumi par preču ieteikumiem</span><span class="sxs-lookup"><span data-stu-id="e0ca9-163">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="af6f7-161">Manuāli izveidot pārraudzītus ieteikumus</span><span class="sxs-lookup"><span data-stu-id="af6f7-161">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+
+[<span data-ttu-id="af6f7-162">Izveidot ieteikumus ar demonstrācijas datiem</span><span class="sxs-lookup"><span data-stu-id="af6f7-162">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="af6f7-163">Bieži uzdotie jautājumi par preču ieteikumiem</span><span class="sxs-lookup"><span data-stu-id="af6f7-163">Product recommendations FAQ</span></span>](faq-recommendations.md)

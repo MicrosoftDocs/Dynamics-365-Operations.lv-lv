@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: "Platform atjauninājumi versijai\_10.0.10 (2020.\_gada maijs)"
                   href: get-started/whats-new-platform-update-34.md
-                - name: "Platformas atjauninājums\_33 (2020.\_gada aprīlis)"
-                  href: get-started/whats-new-platform-update-33.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie platformas līdzekļi
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Iespējot duālā ieraksta elementa karti
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Valūtas datu veida migrācija duālajam ierakstam
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Duālā ieraksta pārvaldība
                           items:
                             - name: Pielāgot elementa un lauka kartējumus
@@ -364,6 +364,8 @@
           items:
             - name: Azure Data Lake pārskats
               href: data-entities/azure-data-lake-overview.md
+            - name: Konfigurēt eksportēšanu uz Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations programmas pakalpojumā Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Elementu krātuves pārvēršana par Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Lokālā diagnostika
                       href: deployment/on-premises-diagnostics.md
+                    - name: Lokālā ārkārtas atkopšanas konfigurācija
+                      href: deployment/onprem-dr.md
                     - name: PowerBI.com integrācija ar lokālajām vidēm
                       href: analytics/entity-store-on-prem.md
                     - name: Vides pārkonfigurēšana
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++ atribūtu klases
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'X++ un C# salīdzinājums'
+                    - name: X++ un C# salīdzinājums
                       href: dev-ref/xpp-cs-comparison.md
                     - name: X++ sintakse
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Drošības arhitektūra
                   href: sysadmin/security-architecture.md
+                - name: Šifrēšana Finance and Operations programmās
+                  href: sysadmin/encryption.md
                 - name: Iestatīt sesijas dīkstāves taimautu
                   href: sysadmin/session-idle-timeout.md
                 - name: Standarta komplektācijā iekļautie drošības pārskati

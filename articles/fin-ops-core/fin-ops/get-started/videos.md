@@ -3,7 +3,7 @@ title: Videoklipi
 description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar programmām Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,146 +17,149 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367133"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456953"
 ---
-# <a name="videos"></a><span data-ttu-id="2ab18-103">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="2ab18-103">Videos</span></span> 
+# <a name="videos"></a><span data-ttu-id="b8b04-103">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="b8b04-103">Videos</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2ab18-104">[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem.</span><span class="sxs-lookup"><span data-stu-id="2ab18-104">On the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</span></span> <span data-ttu-id="2ab18-105">Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmām Finance and Operations, kas tiek viesoti šajā kanālā.</span><span class="sxs-lookup"><span data-stu-id="2ab18-105">This section lists the "how-to" videos for Finance and Operations apps that are hosted on the channel.</span></span>
+<span data-ttu-id="b8b04-104">[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem.</span><span class="sxs-lookup"><span data-stu-id="b8b04-104">On the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</span></span> <span data-ttu-id="b8b04-105">Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmām Finance and Operations, kas tiek viesoti šajā kanālā.</span><span class="sxs-lookup"><span data-stu-id="b8b04-105">This section lists the "how-to" videos for Finance and Operations apps that are hosted on the channel.</span></span>
 
 > [!Note]
-> <span data-ttu-id="2ab18-106">Daži no uzskaitītajiem videoklipiem tika publicēti ar iepriekšējo preces nosaukumu, bet tie joprojām ir piemērojami.</span><span class="sxs-lookup"><span data-stu-id="2ab18-106">Some of the videos listed were published under a previous product name, but are still applicable.</span></span>
+> <span data-ttu-id="b8b04-106">Daži no uzskaitītajiem videoklipiem tika publicēti ar iepriekšējo preces nosaukumu, bet tie joprojām ir piemērojami.</span><span class="sxs-lookup"><span data-stu-id="b8b04-106">Some of the videos listed were published under a previous product name, but are still applicable.</span></span>
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a><span data-ttu-id="2ab18-107">Video programmām Finance and Operations izstrāde un administrēšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-107">Videos for Finance and Operations development and administration</span></span>
+## <a name="videos-for-finance-and-operations-development-and-administration"></a><span data-ttu-id="b8b04-107">Video programmām Finance and Operations izstrāde un administrēšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-107">Videos for Finance and Operations development and administration</span></span>
 
-### <a name="data-integration"></a><span data-ttu-id="2ab18-108">Datu integrācija</span><span class="sxs-lookup"><span data-stu-id="2ab18-108">Data integration</span></span>
+### <a name="data-integration"></a><span data-ttu-id="b8b04-108">Datu integrācija</span><span class="sxs-lookup"><span data-stu-id="b8b04-108">Data integration</span></span>
 
-- [<span data-ttu-id="2ab18-109">Moduļa “No potenciālā klienta uz skaidru naudu” integrēšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-109">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg)
-- [<span data-ttu-id="2ab18-110">Darba pasūtījumu sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations programmām</span><span class="sxs-lookup"><span data-stu-id="2ab18-110">Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [<span data-ttu-id="b8b04-109">Moduļa “No potenciālā klienta uz skaidru naudu” integrēšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-109">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg)
+- [<span data-ttu-id="b8b04-110">Darba pasūtījumu sinhronizēšana starp Dynamics 365 for Field Service un Finance and Operations programmām</span><span class="sxs-lookup"><span data-stu-id="b8b04-110">Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
-### <a name="data-management"></a><span data-ttu-id="2ab18-111">Datu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="2ab18-111">Data management</span></span>
+### <a name="data-management"></a><span data-ttu-id="b8b04-111">Datu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="b8b04-111">Data management</span></span>
 
-- [<span data-ttu-id="2ab18-112">Datu elementu un datu pakotņu lietošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-112">Use data entities and data packages</span></span>](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [<span data-ttu-id="b8b04-112">Datu elementu un datu pakotņu lietošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-112">Use data entities and data packages</span></span>](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-### <a name="development"></a><span data-ttu-id="2ab18-113">Izstrāde</span><span class="sxs-lookup"><span data-stu-id="2ab18-113">Development</span></span>
+### <a name="development"></a><span data-ttu-id="b8b04-113">Izstrāde</span><span class="sxs-lookup"><span data-stu-id="b8b04-113">Development</span></span>
 
-- [<span data-ttu-id="2ab18-114">Konfliktu novēršana programmā Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2ab18-114">How to resolve conflicts in Visual Studio</span></span>](https://youtu.be/4rxO0zUN2zU)
-- [<span data-ttu-id="2ab18-115">Optimizācijas padomnieks</span><span class="sxs-lookup"><span data-stu-id="2ab18-115">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [<span data-ttu-id="2ab18-116">Izstrādes zara un būvējuma iestatīšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-116">Setting up a development branch and build</span></span>](https://www.youtube.com/watch?v=qXLd-NMx9OY)
-- [<span data-ttu-id="2ab18-117">Izstrādes iekārtas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-117">Setting up a development machine</span></span>](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [<span data-ttu-id="2ab18-118">Azure DevOps integrācija ar Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-118">Azure DevOps integration with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [<span data-ttu-id="b8b04-114">Konfliktu novēršana programmā Visual Studio</span><span class="sxs-lookup"><span data-stu-id="b8b04-114">How to resolve conflicts in Visual Studio</span></span>](https://youtu.be/4rxO0zUN2zU)
+- [<span data-ttu-id="b8b04-115">Optimizācijas padomnieks</span><span class="sxs-lookup"><span data-stu-id="b8b04-115">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [<span data-ttu-id="b8b04-116">Izstrādes zara un būvējuma iestatīšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-116">Setting up a development branch and build</span></span>](https://www.youtube.com/watch?v=qXLd-NMx9OY)
+- [<span data-ttu-id="b8b04-117">Izstrādes iekārtas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-117">Setting up a development machine</span></span>](https://www.youtube.com/watch?v=cqp9MetfiyM)
+- [<span data-ttu-id="b8b04-118">Azure DevOps integrācija ar Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-118">Azure DevOps integration with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
-### <a name="intelligence"></a><span data-ttu-id="2ab18-119">Informācija</span><span class="sxs-lookup"><span data-stu-id="2ab18-119">Intelligence</span></span>
+### <a name="intelligence"></a><span data-ttu-id="b8b04-119">Informācija</span><span class="sxs-lookup"><span data-stu-id="b8b04-119">Intelligence</span></span>
 
-- [<span data-ttu-id="2ab18-120">Iegultas atskaites rediģēšana analītiskā darbvietā</span><span class="sxs-lookup"><span data-stu-id="2ab18-120">How to edit an embedded report in an analytical workspace</span></span>](https://youtu.be/_8WlwmSggcQ)
-- [<span data-ttu-id="2ab18-121">PowerBI.com atskašu iegulšana Finance and Operations programmās</span><span class="sxs-lookup"><span data-stu-id="2ab18-121">How to embed PowerBI.com reports in Finance and Operations apps</span></span>](https://youtu.be/gGWuNJDoi-M)
-- [<span data-ttu-id="2ab18-122">Savas datu bāzes (BYOD) pārcelšana uz Finance and Operations programmām</span><span class="sxs-lookup"><span data-stu-id="2ab18-122">Bring your own database (BYOD) to Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [<span data-ttu-id="2ab18-123">Izmaksu pārvaldības pakalpojuma Power BI satura izmantošana sistēmā Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="2ab18-123">How to use cost management Power BI content in Dynamics 365</span></span>](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [<span data-ttu-id="b8b04-120">Iegultas atskaites rediģēšana analītiskā darbvietā</span><span class="sxs-lookup"><span data-stu-id="b8b04-120">How to edit an embedded report in an analytical workspace</span></span>](https://youtu.be/_8WlwmSggcQ)
+- [<span data-ttu-id="b8b04-121">PowerBI.com atskašu iegulšana Finance and Operations programmās</span><span class="sxs-lookup"><span data-stu-id="b8b04-121">How to embed PowerBI.com reports in Finance and Operations apps</span></span>](https://youtu.be/gGWuNJDoi-M)
+- [<span data-ttu-id="b8b04-122">Savas datu bāzes (BYOD) pārcelšana uz Finance and Operations programmām</span><span class="sxs-lookup"><span data-stu-id="b8b04-122">Bring your own database (BYOD) to Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [<span data-ttu-id="b8b04-123">Izmaksu pārvaldības pakalpojuma Power BI satura izmantošana sistēmā Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="b8b04-123">How to use cost management Power BI content in Dynamics 365</span></span>](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
-### <a name="lifecycle-services-lcs"></a><span data-ttu-id="2ab18-124">Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="2ab18-124">Lifecycle Services (LCS)</span></span>
+### <a name="lifecycle-services-lcs"></a><span data-ttu-id="b8b04-124">Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="b8b04-124">Lifecycle Services (LCS)</span></span>
 
-- [<span data-ttu-id="2ab18-125">Līdzekļu bibliotēka pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-125">Asset library in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=z-2xMRa1nOs)
-- [<span data-ttu-id="2ab18-126">Mākoņvides</span><span class="sxs-lookup"><span data-stu-id="2ab18-126">Cloud-hosted environments</span></span>](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [<span data-ttu-id="2ab18-127">Atbalsta biļešu veidošana no Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="2ab18-127">Creating support tickets from Dynamics 365 for Operations</span></span>](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
-- [<span data-ttu-id="2ab18-128">Vides izvietošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-128">Deploying environments</span></span>](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
-- [<span data-ttu-id="2ab18-129">Darba sākšana ar Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-129">Getting started with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
-- [<span data-ttu-id="2ab18-130">Koda izvietošana smilškastes vidē</span><span class="sxs-lookup"><span data-stu-id="2ab18-130">Deploying code to a sandbox environment</span></span>](https://www.youtube.com/watch?v=5azLeOO078k)
-- [<span data-ttu-id="2ab18-131">Koda izvietošana ražošanas vidē</span><span class="sxs-lookup"><span data-stu-id="2ab18-131">Deploying code to a production environment</span></span>](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
-- [<span data-ttu-id="2ab18-132">Projektu implementēšana pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-132">Implementation projects in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [<span data-ttu-id="2ab18-133">Koda jaunināšanas un rīku procesu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="2ab18-133">Manage the code upgrade and tool process</span></span>](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
-- [<span data-ttu-id="2ab18-134">Biznesa procesu bibliotēku pārvaldīšana pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-134">Managing business process libraries in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=S5msxj-2-x0)
-- [<span data-ttu-id="2ab18-135">Metodoloģijas pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-135">Methodologies in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [<span data-ttu-id="2ab18-136">Pieprasīt ražošanas vidi</span><span class="sxs-lookup"><span data-stu-id="2ab18-136">Request a production environment</span></span>](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
-- [<span data-ttu-id="2ab18-137">Datu atsvaidzināšana ražošanas vidē</span><span class="sxs-lookup"><span data-stu-id="2ab18-137">Refreshing data in a production environment</span></span>](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [<span data-ttu-id="2ab18-138">Jauna platformas laidiena uzņemšana pēc platformas 3. atjauninājuma</span><span class="sxs-lookup"><span data-stu-id="2ab18-138">Uptake a new platform release after Platform update 3</span></span>](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
-- [<span data-ttu-id="2ab18-139">Telemetrijas izmantošana, lai uzraudzītu galvenos veiktspējas rādītājus pakalpojumā Dynamics Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="2ab18-139">Use telemetry to monitor key performance counters in Dynamics Lifecycle Services</span></span>](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+- [<span data-ttu-id="b8b04-125">Līdzekļu bibliotēka pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-125">Asset library in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=z-2xMRa1nOs)
+- [<span data-ttu-id="b8b04-126">Mākoņvides</span><span class="sxs-lookup"><span data-stu-id="b8b04-126">Cloud-hosted environments</span></span>](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
+- [<span data-ttu-id="b8b04-127">Atbalsta biļešu veidošana no Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="b8b04-127">Creating support tickets from Dynamics 365 for Operations</span></span>](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [<span data-ttu-id="b8b04-128">Vides izvietošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-128">Deploying environments</span></span>](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
+- [<span data-ttu-id="b8b04-129">Darba sākšana ar Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-129">Getting started with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
+- [<span data-ttu-id="b8b04-130">Koda izvietošana smilškastes vidē</span><span class="sxs-lookup"><span data-stu-id="b8b04-130">Deploying code to a sandbox environment</span></span>](https://www.youtube.com/watch?v=5azLeOO078k)
+- [<span data-ttu-id="b8b04-131">Koda izvietošana ražošanas vidē</span><span class="sxs-lookup"><span data-stu-id="b8b04-131">Deploying code to a production environment</span></span>](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
+- [<span data-ttu-id="b8b04-132">Projektu implementēšana pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-132">Implementation projects in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
+- [<span data-ttu-id="b8b04-133">Koda jaunināšanas un rīku procesu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="b8b04-133">Manage the code upgrade and tool process</span></span>](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [<span data-ttu-id="b8b04-134">Biznesa procesu bibliotēku pārvaldīšana pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-134">Managing business process libraries in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=S5msxj-2-x0)
+- [<span data-ttu-id="b8b04-135">Metodoloģijas pakalpojumā Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-135">Methodologies in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
+- [<span data-ttu-id="b8b04-136">Pieprasīt ražošanas vidi</span><span class="sxs-lookup"><span data-stu-id="b8b04-136">Request a production environment</span></span>](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [<span data-ttu-id="b8b04-137">Datu atsvaidzināšana ražošanas vidē</span><span class="sxs-lookup"><span data-stu-id="b8b04-137">Refreshing data in a production environment</span></span>](https://www.youtube.com/watch?v=VCd5SgkYPTw)
+- [<span data-ttu-id="b8b04-138">Jauna platformas laidiena uzņemšana pēc platformas 3. atjauninājuma</span><span class="sxs-lookup"><span data-stu-id="b8b04-138">Uptake a new platform release after Platform update 3</span></span>](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [<span data-ttu-id="b8b04-139">Telemetrijas izmantošana, lai uzraudzītu galvenos veiktspējas rādītājus pakalpojumā Dynamics Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b8b04-139">Use telemetry to monitor key performance counters in Dynamics Lifecycle Services</span></span>](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
-### <a name="regression-suite-automation-tool-rsat"></a><span data-ttu-id="2ab18-140">Regression suite automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="2ab18-140">Regression suite automation tool (RSAT)</span></span>
+### <a name="regression-suite-automation-tool-rsat"></a><span data-ttu-id="b8b04-140">Regression suite automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="b8b04-140">Regression suite automation tool (RSAT)</span></span>
 
-- [<span data-ttu-id="2ab18-141">Kā izmantot uzdevumu reģistrētāju, lai izveidotu pārbaudes gadījumu Regression suite automation tool (RSAT) rīkam</span><span class="sxs-lookup"><span data-stu-id="2ab18-141">How to use task recorder to create a test case for the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/bBr4BXAxTNI)
-- [<span data-ttu-id="2ab18-142">Kā izveidot pārbaudes plānu Azure DevOps, ko izmantot ar Regression suite automation tool (RSAT) rīku</span><span class="sxs-lookup"><span data-stu-id="2ab18-142">How to create a test plan in Azure DevOps to use with the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/3jIuBleAnQk) 
-- [<span data-ttu-id="2ab18-143">Ka izmantot Regression Suite Automation Tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="2ab18-143">How to use the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/uhN9JItzGAk)
-
-
-## <a name="videos-for-dynamics-365-finance"></a><span data-ttu-id="2ab18-144">Videoklipi par Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="2ab18-144">Videos for Dynamics 365 Finance</span></span>
-
-### <a name="customize-the-app"></a><span data-ttu-id="2ab18-145">Programmas pielāgošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-145">Customize the app</span></span>
-- [<span data-ttu-id="2ab18-146">Pievienot pielāgotus laukus</span><span class="sxs-lookup"><span data-stu-id="2ab18-146">Add custom fields</span></span>](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [<span data-ttu-id="2ab18-147">Iegult Power Apps</span><span class="sxs-lookup"><span data-stu-id="2ab18-147">Embed Power Apps</span></span>](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a><span data-ttu-id="2ab18-148">Izdevumi</span><span class="sxs-lookup"><span data-stu-id="2ab18-148">Expenses</span></span>
-- [<span data-ttu-id="2ab18-149">Izdevumu funkcionalitāte</span><span class="sxs-lookup"><span data-stu-id="2ab18-149">Expense experience</span></span>](https://youtu.be/Ocy-MsTvEE0)
-
-### <a name="financial-reporting"></a><span data-ttu-id="2ab18-150">Finanšu pārskatu veidošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-150">Financial reporting</span></span>
-- [<span data-ttu-id="2ab18-151">Pārskatu veidotāja versijas atrašana</span><span class="sxs-lookup"><span data-stu-id="2ab18-151">Find the version of Report designer</span></span>](https://www.youtube.com/embed/icfA5Q3kp4w)
-
-### <a name="help-system"></a><span data-ttu-id="2ab18-152">Palīdzības sistēma</span><span class="sxs-lookup"><span data-stu-id="2ab18-152">Help system</span></span>
-
-- [<span data-ttu-id="2ab18-153">Kā papildināt Microsoft Dynamics 365 dokumentāciju</span><span class="sxs-lookup"><span data-stu-id="2ab18-153">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
-
-### <a name="office-integration"></a><span data-ttu-id="2ab18-154">Office integrācija</span><span class="sxs-lookup"><span data-stu-id="2ab18-154">Office integration</span></span>
-
-- [<span data-ttu-id="2ab18-155">Excel veidnes izveidošana virsrakstu un rindu modeļiem</span><span class="sxs-lookup"><span data-stu-id="2ab18-155">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
-
-### <a name="organization-administration"></a><span data-ttu-id="2ab18-156">Organizācijas administrēšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-156">Organization administration</span></span>
-
-- [<span data-ttu-id="2ab18-157">Dokumentu vadība</span><span class="sxs-lookup"><span data-stu-id="2ab18-157">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
-
-### <a name="revenue-recognition"></a><span data-ttu-id="2ab18-158">Ieņēmumu atzīšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-158">Revenue recognition</span></span>
-- [<span data-ttu-id="2ab18-159">Kā izmantot ieņēmumu atzīšanu</span><span class="sxs-lookup"><span data-stu-id="2ab18-159">How to use revenue recognition</span></span>](https://youtu.be/v3amIsiqvoo)
-
-### <a name="tax-engine"></a><span data-ttu-id="2ab18-160">Nodokļu programma</span><span class="sxs-lookup"><span data-stu-id="2ab18-160">Tax engine</span></span>
-
-- [<span data-ttu-id="2ab18-161">Nodokļu programmas apskats</span><span class="sxs-lookup"><span data-stu-id="2ab18-161">Tax engine overview</span></span>](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+- [<span data-ttu-id="b8b04-141">Kā izmantot uzdevumu reģistrētāju, lai izveidotu pārbaudes gadījumu Regression suite automation tool (RSAT) rīkam</span><span class="sxs-lookup"><span data-stu-id="b8b04-141">How to use task recorder to create a test case for the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/bBr4BXAxTNI)
+- [<span data-ttu-id="b8b04-142">Kā izveidot pārbaudes plānu Azure DevOps, ko izmantot ar Regression suite automation tool (RSAT) rīku</span><span class="sxs-lookup"><span data-stu-id="b8b04-142">How to create a test plan in Azure DevOps to use with the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/3jIuBleAnQk) 
+- [<span data-ttu-id="b8b04-143">Ka izmantot Regression Suite Automation Tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="b8b04-143">How to use the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/uhN9JItzGAk)
 
 
-## <a name="videos-for-dynamics-365-supply-chain-management"></a><span data-ttu-id="2ab18-162">Videoklipi par Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="2ab18-162">Videos for Dynamics 365 Supply Chain Management</span></span>
+## <a name="videos-for-dynamics-365-finance"></a><span data-ttu-id="b8b04-144">Videoklipi par Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="b8b04-144">Videos for Dynamics 365 Finance</span></span>
 
-### <a name="costs"></a><span data-ttu-id="2ab18-163">Izmaksas</span><span class="sxs-lookup"><span data-stu-id="2ab18-163">Costs</span></span>
-- [<span data-ttu-id="2ab18-164">Izmaksu kontroles mobilā darbvieta</span><span class="sxs-lookup"><span data-stu-id="2ab18-164">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
-- [<span data-ttu-id="2ab18-165">Darba sākšana ar moduli “Izmaksu uzskaite”</span><span class="sxs-lookup"><span data-stu-id="2ab18-165">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
-- [<span data-ttu-id="2ab18-166">Excel izmantošana izmaksu analīzei</span><span class="sxs-lookup"><span data-stu-id="2ab18-166">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
+### <a name="customize-the-app"></a><span data-ttu-id="b8b04-145">Programmas pielāgošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-145">Customize the app</span></span>
+- [<span data-ttu-id="b8b04-146">Pievienot pielāgotus laukus</span><span class="sxs-lookup"><span data-stu-id="b8b04-146">Add custom fields</span></span>](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
+- [<span data-ttu-id="b8b04-147">Iegult Power Apps</span><span class="sxs-lookup"><span data-stu-id="b8b04-147">Embed Power Apps</span></span>](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
-### <a name="help-system"></a><span data-ttu-id="2ab18-167">Palīdzības sistēma</span><span class="sxs-lookup"><span data-stu-id="2ab18-167">Help system</span></span>
+### <a name="expenses"></a><span data-ttu-id="b8b04-148">Izdevumi</span><span class="sxs-lookup"><span data-stu-id="b8b04-148">Expenses</span></span>
+- [<span data-ttu-id="b8b04-149">Izdevumu funkcionalitāte</span><span class="sxs-lookup"><span data-stu-id="b8b04-149">Expense experience</span></span>](https://youtu.be/Ocy-MsTvEE0)
 
-- [<span data-ttu-id="2ab18-168">Kā papildināt Microsoft Dynamics 365 dokumentāciju</span><span class="sxs-lookup"><span data-stu-id="2ab18-168">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
+### <a name="financial-reporting"></a><span data-ttu-id="b8b04-150">Finanšu pārskatu veidošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-150">Financial reporting</span></span>
+- [<span data-ttu-id="b8b04-151">Pārskatu veidotāja versijas atrašana</span><span class="sxs-lookup"><span data-stu-id="b8b04-151">Find the version of Report designer</span></span>](https://www.youtube.com/embed/icfA5Q3kp4w)
 
-### <a name="master-planning"></a><span data-ttu-id="2ab18-169">Vispārējā plānošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-169">Master planning</span></span>
-- [<span data-ttu-id="2ab18-170">Vispārējās plānošanas iestatīšanas vednis</span><span class="sxs-lookup"><span data-stu-id="2ab18-170">Master planning setup wizard</span></span>](https://youtu.be/c-e6n-8rZb4)
+### <a name="help-system"></a><span data-ttu-id="b8b04-152">Palīdzības sistēma</span><span class="sxs-lookup"><span data-stu-id="b8b04-152">Help system</span></span>
 
-### <a name="office-integration"></a><span data-ttu-id="2ab18-171">Office integrācija</span><span class="sxs-lookup"><span data-stu-id="2ab18-171">Office integration</span></span>
+- [<span data-ttu-id="b8b04-153">Kā papildināt Microsoft Dynamics 365 dokumentāciju</span><span class="sxs-lookup"><span data-stu-id="b8b04-153">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
 
-- [<span data-ttu-id="2ab18-172">Excel veidnes izveidošana virsrakstu un rindu modeļiem</span><span class="sxs-lookup"><span data-stu-id="2ab18-172">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+### <a name="office-integration"></a><span data-ttu-id="b8b04-154">Office integrācija</span><span class="sxs-lookup"><span data-stu-id="b8b04-154">Office integration</span></span>
 
-### <a name="organization-administration"></a><span data-ttu-id="2ab18-173">Organizācijas administrēšana</span><span class="sxs-lookup"><span data-stu-id="2ab18-173">Organization administration</span></span>
+- [<span data-ttu-id="b8b04-155">Excel veidnes izveidošana virsrakstu un rindu modeļiem</span><span class="sxs-lookup"><span data-stu-id="b8b04-155">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
-- [<span data-ttu-id="2ab18-174">Dokumentu vadība</span><span class="sxs-lookup"><span data-stu-id="2ab18-174">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+### <a name="organization-administration"></a><span data-ttu-id="b8b04-156">Organizācijas administrēšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-156">Organization administration</span></span>
 
-### <a name="procurement-and-sourcing"></a><span data-ttu-id="2ab18-175">Sagāde un avoti</span><span class="sxs-lookup"><span data-stu-id="2ab18-175">Procurement and sourcing</span></span>
+- [<span data-ttu-id="b8b04-157">Dokumentu vadība</span><span class="sxs-lookup"><span data-stu-id="b8b04-157">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-- [<span data-ttu-id="2ab18-176">Pirkšanas pasūtījumu apstiprināšana mobilajā ierīcē</span><span class="sxs-lookup"><span data-stu-id="2ab18-176">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
-- [<span data-ttu-id="2ab18-177">Jauna piegādātāja pievienošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-177">Onboard a new vendor</span></span>](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+### <a name="revenue-recognition"></a><span data-ttu-id="b8b04-158">Ieņēmumu atzīšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-158">Revenue recognition</span></span>
+- [<span data-ttu-id="b8b04-159">Kā izmantot ieņēmumu atzīšanu</span><span class="sxs-lookup"><span data-stu-id="b8b04-159">How to use revenue recognition</span></span>](https://youtu.be/v3amIsiqvoo)
 
-### <a name="production-control"></a><span data-ttu-id="2ab18-178">Ražošanas kontrole</span><span class="sxs-lookup"><span data-stu-id="2ab18-178">Production control</span></span>
+### <a name="tax-engine"></a><span data-ttu-id="b8b04-160">Nodokļu programma</span><span class="sxs-lookup"><span data-stu-id="b8b04-160">Tax engine</span></span>
 
-- [<span data-ttu-id="2ab18-179">Partijas līdzsvarošana</span><span class="sxs-lookup"><span data-stu-id="2ab18-179">Batch balancing</span></span>](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
-- [<span data-ttu-id="2ab18-180">Ražošanas pasūtījuma izlaišanas procesa uzlabojumi</span><span class="sxs-lookup"><span data-stu-id="2ab18-180">Enhancements to the production order release process</span></span>](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
-- [<span data-ttu-id="2ab18-181">Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem</span><span class="sxs-lookup"><span data-stu-id="2ab18-181">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+- [<span data-ttu-id="b8b04-161">Nodokļu programmas apskats</span><span class="sxs-lookup"><span data-stu-id="b8b04-161">Tax engine overview</span></span>](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
-### <a name="warehouse-management"></a><span data-ttu-id="2ab18-182">Noliktavas vadība</span><span class="sxs-lookup"><span data-stu-id="2ab18-182">Warehouse management</span></span>
+## <a name="videos-for-dynamics-365-supply-chain-management"></a><span data-ttu-id="b8b04-162">Videoklipi par Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="b8b04-162">Videos for Dynamics 365 Supply Chain Management</span></span>
 
-- [<span data-ttu-id="2ab18-183">Ražošanas izdošanas izlaišana uz noliktavu pakešveidā</span><span class="sxs-lookup"><span data-stu-id="2ab18-183">Release production picking to the warehouse in batch</span></span>](https://youtu.be/8urAJn50dQ8)
-- [<span data-ttu-id="2ab18-184">Noliktavas veidnes izmantošana, lai kopētu konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="2ab18-184">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+### <a name="costs"></a><span data-ttu-id="b8b04-163">Izmaksas</span><span class="sxs-lookup"><span data-stu-id="b8b04-163">Costs</span></span>
+- [<span data-ttu-id="b8b04-164">Izmaksu kontroles mobilā darbvieta</span><span class="sxs-lookup"><span data-stu-id="b8b04-164">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
+- [<span data-ttu-id="b8b04-165">Darba sākšana ar moduli “Izmaksu uzskaite”</span><span class="sxs-lookup"><span data-stu-id="b8b04-165">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
+- [<span data-ttu-id="b8b04-166">Excel izmantošana izmaksu analīzei</span><span class="sxs-lookup"><span data-stu-id="b8b04-166">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
 
-## <a name="fasttrack-tech-talks"></a><span data-ttu-id="2ab18-185">Tehniskās sarunas FastTrack Tech Talks</span><span class="sxs-lookup"><span data-stu-id="2ab18-185">FastTrack Tech Talks</span></span>
+### <a name="customer-portal"></a><span data-ttu-id="b8b04-167">Debitoru portāls</span><span class="sxs-lookup"><span data-stu-id="b8b04-167">Customer portal</span></span>
+- [<span data-ttu-id="b8b04-168">Debitora portāla veidnes apskats Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="b8b04-168">Overview of the Customer portal template in Dynamics 365 Supply Chain Management</span></span>](https://youtu.be/nPrqoLuHfV8)
 
-<span data-ttu-id="2ab18-186">[FastTrack tehniskās sarunas](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) ir koncentrētas uz padziļinātas tehniskās informācijas sniegšanu un iepazīstināšanu ar ieteicamajām praksēm, kas klientiem un partneriem nodrošina ar viņu konkrētajām jomām saistītas detalizētas zināšanas.</span><span class="sxs-lookup"><span data-stu-id="2ab18-186">[FastTrack Tech Talks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</span></span>
+### <a name="help-system"></a><span data-ttu-id="b8b04-169">Palīdzības sistēma</span><span class="sxs-lookup"><span data-stu-id="b8b04-169">Help system</span></span>
+
+- [<span data-ttu-id="b8b04-170">Kā papildināt Microsoft Dynamics 365 dokumentāciju</span><span class="sxs-lookup"><span data-stu-id="b8b04-170">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
+
+### <a name="master-planning"></a><span data-ttu-id="b8b04-171">Vispārējā plānošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-171">Master planning</span></span>
+- [<span data-ttu-id="b8b04-172">Vispārējās plānošanas iestatīšanas vednis</span><span class="sxs-lookup"><span data-stu-id="b8b04-172">Master planning setup wizard</span></span>](https://youtu.be/c-e6n-8rZb4)
+
+### <a name="office-integration"></a><span data-ttu-id="b8b04-173">Office integrācija</span><span class="sxs-lookup"><span data-stu-id="b8b04-173">Office integration</span></span>
+
+- [<span data-ttu-id="b8b04-174">Excel veidnes izveidošana virsrakstu un rindu modeļiem</span><span class="sxs-lookup"><span data-stu-id="b8b04-174">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+
+### <a name="organization-administration"></a><span data-ttu-id="b8b04-175">Organizācijas administrēšana</span><span class="sxs-lookup"><span data-stu-id="b8b04-175">Organization administration</span></span>
+
+- [<span data-ttu-id="b8b04-176">Dokumentu vadība</span><span class="sxs-lookup"><span data-stu-id="b8b04-176">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="procurement-and-sourcing"></a><span data-ttu-id="b8b04-177">Sagāde un avoti</span><span class="sxs-lookup"><span data-stu-id="b8b04-177">Procurement and sourcing</span></span>
+
+- [<span data-ttu-id="b8b04-178">Pirkšanas pasūtījumu apstiprināšana mobilajā ierīcē</span><span class="sxs-lookup"><span data-stu-id="b8b04-178">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
+- [<span data-ttu-id="b8b04-179">Jauna piegādātāja pievienošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-179">Onboard a new vendor</span></span>](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+
+### <a name="production-control"></a><span data-ttu-id="b8b04-180">Ražošanas kontrole</span><span class="sxs-lookup"><span data-stu-id="b8b04-180">Production control</span></span>
+
+- [<span data-ttu-id="b8b04-181">Partijas līdzsvarošana</span><span class="sxs-lookup"><span data-stu-id="b8b04-181">Batch balancing</span></span>](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+- [<span data-ttu-id="b8b04-182">Ražošanas pasūtījuma izlaišanas procesa uzlabojumi</span><span class="sxs-lookup"><span data-stu-id="b8b04-182">Enhancements to the production order release process</span></span>](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
+- [<span data-ttu-id="b8b04-183">Vizuāla plānošana ar Ganta diagrammu ražošanas un partijas pasūtījumiem</span><span class="sxs-lookup"><span data-stu-id="b8b04-183">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+
+
+### <a name="warehouse-management"></a><span data-ttu-id="b8b04-184">Noliktavas vadība</span><span class="sxs-lookup"><span data-stu-id="b8b04-184">Warehouse management</span></span>
+
+- [<span data-ttu-id="b8b04-185">Ražošanas izdošanas izlaišana uz noliktavu pakešveidā</span><span class="sxs-lookup"><span data-stu-id="b8b04-185">Release production picking to the warehouse in batch</span></span>](https://youtu.be/8urAJn50dQ8)
+- [<span data-ttu-id="b8b04-186">Noliktavas veidnes izmantošana, lai kopētu konfigurāciju</span><span class="sxs-lookup"><span data-stu-id="b8b04-186">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+
+## <a name="fasttrack-tech-talks"></a><span data-ttu-id="b8b04-187">Tehniskās sarunas FastTrack Tech Talks</span><span class="sxs-lookup"><span data-stu-id="b8b04-187">FastTrack Tech Talks</span></span>
+
+<span data-ttu-id="b8b04-188">[FastTrack tehniskās sarunas](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) ir koncentrētas uz padziļinātas tehniskās informācijas sniegšanu un iepazīstināšanu ar ieteicamajām praksēm, kas klientiem un partneriem nodrošina ar viņu konkrētajām jomām saistītas detalizētas zināšanas.</span><span class="sxs-lookup"><span data-stu-id="b8b04-188">[FastTrack Tech Talks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</span></span>
 
 
