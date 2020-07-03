@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 04/23/2020
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284408"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431364"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -89,11 +89,11 @@ Lai režģī atceltu grupēšanu, ar peles labo pogu noklikšķiniet uz grupēš
 ## <a name="typing-ahead-of-the-system"></a>Rakstīšana pirms sistēmas
 Daudzos biznesa scenārijos spēja ātri ievadīt datus sistēmā ir ļoti svarīga. Pirms jaunā režģa kontroles ieviešanas lietotāji varēja mainīt datus tikai pašreizējā rindā. Pirms tie var izveidot jaunu rindu vai pārslēgties uz citu rindu, tie bija spiesti gaidīt, lai sistēma veiksmīgi apstiprinātu visas izmaiņas. Lai samazinātu laiku, kad lietotāji gaida šo pabeigšanu, un lai uzlabotu lietotāju produktivitāti, jaunais režģis pielāgo šīs darbības, lai tās būtu asinhronas. Tāpēc lietotājs var pārvietoties uz citām rindām, lai veiktu izmaiņas, kamēr tiek gaidītas iepriekšējās rindas pārbaudes. 
 
-Lai atbalstītu šo jauno uzvedību, rindas statusam ir pievienota jauna kolonna, kad režģis ir rediģēšanas režīmā. Šī kolonna norāda vienu no šiem statusiem:
+Lai atbalstītu šo jauno uzvedību, rindas statusam ir pievienota jauna kolonna pa lbabi no rindas atlases kolonnas, kad režģis ir rediģēšanas režīmā. Šī kolonna norāda vienu no šiem statusiem:
 
 - **Tukšs** – nav statusa attēla, kas norāda, ka sistēma ir veiksmīgi saglabājusi rindu.
 - **Gaida apstrādi** — šis statuss norāda, ka izmaiņas rindā vēl nav saglabātas serverī, bet ir pārstrādājamo izmaiņu rindā. Pirms darbības veikšanas ārpus režģa ir jāgaida, kamēr tiks apstrādātas visas gaidošās izmaiņas. Turklāt teksts šajās rindās ir slīprakstā, lai norādītu rindu nesaglabāto statusu. 
-- **Pārbaudes brīdinājums** — šis statuss norāda, ka sistēma nevar saglabāt izmaiņas rindā kādas apstiprināšanas problēmas dēļ. Vecajā režģī jūs tikāt aizvests atpakaļ uz rindu, lai nekavējoties labotu problēmu. Tomēr jaunajā režģī tiek paziņots, ka ir konstatēta apstiprināšanas problēma, bet varat izlemt, kad vēlaties labot rindas problēmas. Kad esat gatavs labot problēmu, varat manuāli pārvietot fokusu uz rindu. Kā alternatīvu jūs varat izvēlēties darbību **Labot šo problēmu**. Šī darbība nekavējoties pārvieto fokusu uz rindu, kurā ir problēma, un ļauj veikt labojumus režģī vai tā ārpusē. Ņemiet vērā, ka turpmākās gaidošās rindas tiek apturētas, līdz šis apstiprināšanas brīdinājums tiek novērsts. 
+- **Nederīgs stāvoklis** — šis statuss norāda, ka rindas apstrādes laikā tika izraisīts kāds brīdinājums vai ziņojums, un tas, iespējams, ir liedzis sistēmai saglabāt šīs rindas izmaiņas. Vecajā režģī, ja darbība bija nesekmīga, jūs tikāt aizvests atpakaļ uz rindu, lai nekavējoties labotu problēmu. Tomēr jaunajā režģī tiek paziņots, ka ir konstatēta apstiprināšanas problēma, bet varat izlemt, kad vēlaties labot rindas problēmas. Kad esat gatavs labot problēmu, varat manuāli pārvietot fokusu uz rindu. Kā alternatīvu jūs varat izvēlēties darbību **Labot šo problēmu**. Šī darbība nekavējoties pārvieto fokusu uz rindu, kurā ir problēma, un ļauj veikt labojumus režģī vai tā ārpusē. Ņemiet vērā, ka turpmākās gaidošās rindas tiek apturētas, līdz šis apstiprināšanas brīdinājums tiek novērsts. 
 - **Apturēts** — šis statuss norāda, ka apstrāde ar serveri ir apturēta, jo rindas validācija izraisīja uznirstošo dialoglodziņu, kas pieprasa lietotāja ievadi. Tā kā lietotājs, iespējams, ievada datus citās rindās, uznirstošais dialoglodziņš netiek uzreiz parādīts šim lietotājam. Tā vietā tas tiks parādīts, kad lietotājs izvēlas atsākt apstrādi. Šim statusam ir pievienots paziņojums, kas informē lietotāju par šo situāciju. Paziņojums ietver darbību **Turpināt apstrādi**, kas izraisīs uznirstošo dialoglodziņu.  
     
 Kad lietotāji ievada datus pirms servera apstrādes vietas, tie var sagaidīt dažas datu ievades pieredzes pasliktinājumus, piemēram, informācijas trūkumu, kontroles līmeņa pārbaudi un noklusējuma vērtību ievadi. Lietotāji, kuriem nepieciešams nolaižamais saraksts, lai atrastu vērtību, tiek mudināti sagaidīt, kad serveris nokļūs pašreizējā rindā. Kontroles līmeņa validācija un noklusēto vērtību ievade arī notiks, kad serveris apstrādā šo rindu.   
@@ -135,55 +135,62 @@ Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontr
 
 - Karšu saraksti, kas tika atveidoti, jo vairākas kolonnas tagad ir atveidotas kā viena kolonna.
 - Grupētie saraksti netiek atveidoti kā grupas vai atsevišķās kolonnās.
-- Rīku padomi netiek parādīti attēliem.
-- Režģlīniju rādīšana nestrādā visiem lauku veidiem.
-- Periodiski, pēc dažu rindu atlasīšanas nevar noklikšķināt ārpus režģa.
-- Uzdevumu reģistrētāja opcijas **Apstiprināt** un **Kopēt** nav pieejamas datuma/koda vadīklām.
+
+### <a name="fixed-as-part-of-10013"></a>Fiksēta kā daļa no 10.0.13
+
+> [!NOTE]
+> Šī informācija tiek sniegta, lai jūs varētu attiecīgi plānot. Papildinformāciju par atlasītās 10.0.13 versijas laidienu skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-ops/get-started/public-preview-releases.md).
+
+- [KB 4563317] Rīku padomi netiek parādīti attēliem.
 
 ### <a name="fixed-as-part-of-10012"></a>Fiksēta kā daļa no 10.0.12
 
-> [!Note]
-> Šī informācija tiek sniegta, lai jūs varētu attiecīgi plānot. Papildinformāciju par atlasītās 10.0.12 versijas laidienu skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-ops/get-started/public-preview-releases.md).
-
-- [Problēma 429126] Pēc pēdējā ieraksta dzēšanas vadīklas ārpus režģa netiek atjauninātas.
-- [problēma 430575] Tabulas vadīklas neatjaunina parādīto vienumu saturu.
+- [KB 4558545] Tabulas vadīklas neatjaunina parādīto vienumu saturu.
 - [KB 4558570] Krājumi joprojām tiek parādīti lapā pēc tam, kad ieraksts ir dzēsts.
-- [KB 4558584] Negatīvie skaitļi netiek sniegti pareizi.
-- [KB 4558575] Lauki netiek atjaunināti pēc rindas maiņas/režģa apstrādes, kas tiek iestrēdzis pēc rindas dzēšanas.
-- [problēma 436980] Stils, kas ir saistīts ar Saraksta paneli **ExtendedStyle**, netiek lietots.
+- [KB 4558572] Stils, kas ir saistīts ar Saraksta paneli **ExtendedStyle**, netiek lietots.
 - [KB 4558573] Validācijas kļūdas nevar noteikt, ja nepieciešamās izmaiņas ir ārpus režģa.
-    
-### <a name="quality-update-for-10011"></a>10.0.11 kvalitātes atjauninājums
-
-- [KB 4558381] Negatīvie skaitļi netiek atveidoti pareizi/lietotāji dažreiz iestrēgst pēc apstiprināšanas problēmu konstatēšanas.
+- [KB 4558584] Negatīvie skaitļi netiek sniegti pareizi.
+- [KB 4560726] Pēc pārslēgšanās starp sarakstiem, izmantojot saraksta skata vadīklu, rodas "neparedzēta klienta kļūda".
+- [KB 4562141] Režģa indeksi tiek izslēgti pēc jauna ieraksta pievienošanas.
+- [KB 4562151] Uzdevumu reģistrētāja opcijas **Apstiprināt** un **Kopēt** nav pieejamas datuma/koda vadīklām. 
+- [KB 4562153] Vairākas atlases izvēles rūtiņas nav redzamas saraksta/groza režģī.
+- [KB 4562646] Dažkārt pēc vairāku atlases rindu atlasīšanas režģī nevar noklikšķināt ārpus režģa.
+- [KB 4562647] Fokuss tiek atiestatīts uz pirmo vadīklu dialoglodziņā **Publicēt**, kad drošības lomu režģī tiek pievienota jauna rinda.
+- [KB 4563310] Uzlabotais priekšskatījums netiek aizvērts pēc rindas maiņas.
+- [KB 4563313] pārlūkā Internet Explorer, uzmeklēšanā atlasot vērtību, rodas "neparedzēta klienta kļūda".
+- [KB 4563324] Pēc darbvietas **Personāla vadība** atvēršanas nedarbojas navigācija.
 
 ### <a name="fixed-as-part-of-10011"></a>Fiksēta kā daļa no 10.0.11
 
+- [Problēma 432458] Tukšas vai dublētas rindas tiek rādītas dažu atvašu kolekciju sākumā.
+- [KB 4549711] Rindas maksājuma priekšlikumā nevar noņemt pareizi pēc tam, kad jaunā režģa kontrole ir iespējota.
 - [KB 4558374] Nevar izveidot ierakstus, kas pieprasa polimorfisma selektora dialoglodziņu.
-- [KB 4558382] Rodas neparedzētas klienta kļūdas.
 - [KB 4558375] Palīdzības teksts netiek uzrādīts jaunā režģa kolonnās.
 - [KB 4558376] Saraksta paneļa režģi netiek atveidoti pareizā augstumā Internet Explorer.
 - [KB 4558377] Dažām lapām netiek atveidoti kombinētā lodziņa kolonnu **SizeToAvailable** platumi.
-- [KB 4549711] Rindas maksājuma priekšlikumā nevar noņemt pareizi pēc tam, kad jaunā režģa kontrole ir iespējota.
 - [KB 4558378] Detalizētā izrakstīšanās reizēm atver nepareizo ierakstu.
 - [KB 4558379] Kļūda rodas, ja tiek atvērti pārlūki, kur **ReplaceOnLookup**=**Nē**.
 - [KB 4558380] Pieejamā vieta režģī netiek aizpildīta uzreiz pēc tam, kad lappuses daļa ir sakļauta.
-- [Problēma 432458] Tukšas vai dublētas rindas tiek rādītas dažu atvašu kolekciju sākumā.
+- [KB 4558381] Negatīvie skaitļi netiek atveidoti pareizi/lietotāji dažreiz iestrēgst pēc apstiprināšanas problēmu konstatēšanas.
+- [KB 4558382] Rodas neparedzētas klienta kļūdas.
+- [KB 4558383] Pēc pēdējā ieraksta dzēšanas vadīklas ārpus režģa netiek atjauninātas.
 - [KB 4558587] Atsauces grupas, kurām ir kombinētie lodziņi aizstāšanas laukos, nerāda vērtības.
+- [KB 4562143] Lauki netiek atjaunināti pēc rindas maiņas/režģa apstrādes, kas tiek iestrēdzis pēc rindas dzēšanas.
+- [KB 4562645] Rodas izņēmums, ja tiek atvērts pārlūks, kamēr tiek izpildīti attālās servera administrēšanas rīku (RSAT) testi.
 
 ### <a name="fixed-as-part-of-10010"></a>Fiksēta kā daļa no 10.0.10
 
 - [Problēma 414301] Daži dati no iepriekšējām rindām pazūd, kad tiek izveidotas jaunas rindas.
-- [KB 4550367] Laika vērtības nav pareizi formatētas.
-- [KB 4549734] Aktīvās rindas netiek apstrādātas kā atzīmētas, ja kolonna iezīmēšana ir paslēpta.
 - [Defekts 417044] Saraksta stila režģiem nav neviena tukša režģa ziņojuma.
-- [KB 4558367] Mainot rindas, teksta izvēle nav konsekventa.
-- [KB 4558372] Jaunais režģis iestrēgst apstrādes režīmā, ja kolonnu skaits, kas tiek ielīmēts, pārsniedz atlikušo kolonnu skaitu režģī.
-- [KB 4558368] Vairāku līmeņu izvēle, izmantojot tastatūru, ir atļauta vienas atlases scenārijā.
 - [KB 4539058] Daži režģi (parasti uz kopsavilkuma cilnēm) dažreiz netiek atveidoti (bet tie tiks atveidoti, ja attālināt).
+- [KB 4549734] Aktīvās rindas netiek apstrādātas kā atzīmētas, ja kolonna iezīmēšana ir paslēpta.
+- [KB 4549796] Vērtības nevar rediģēt režģī, kad tā ir skatījuma režīmā.
+- [KB 4558367] Mainot rindas, teksta izvēle nav konsekventa.
+- [KB 4558368] Vairāku līmeņu izvēle, izmantojot tastatūru, ir atļauta vienas atlases scenārijā.
 - [KB 4558369] Hierarhiskajā režģī pazūd statusa attēli.
 - [KB 4558370] Jauna rinda netiek ritināta uz skatu.
-- [KB 4549796] Vērtības nevar rediģēt režģī, kad tā ir skatījuma režīmā.
+- [KB 4558372] Jaunais režģis iestrēgst apstrādes režīmā, ja kolonnu skaits, kas tiek ielīmēts, pārsniedz atlikušo kolonnu skaitu režģī.
+- [KB 4562631] Laika vērtības nav pareizi formatētas.
 
 ### <a name="quality-update-for-1009platform-update-33"></a>Kvalitātes atjauninājums 10.0.9./ Platformas atjauninājums 33
 

@@ -3,7 +3,7 @@ title: Preču kolekcijas moduļi
 description: Šajā tēmā sniegts pārskats par preču kolekcijas moduļiem Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/07/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025952"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464957"
 ---
 # <a name="product-collection-modules"></a>Preču kolekcijas moduļi
 
@@ -72,16 +72,17 @@ Tālāk redzamajā tabulā aprakstīti dažādi preču kolekcijas moduļu veidi 
 
 Lai preču kolekcijas moduli pievienotu kategorijas lapai, veiciet tālāk minētās darbības.
 
-1. Dynamics 365 Commerce dodieties uz savu vietni un izveidojiet lapu, kas izmanto to pašu veidni, ko jūsu noklusējuma kategorijas lapa.
-1. Lapas strukturējumā atlasiet slotu **Apakškājene**, atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet **Konteiners** un tad atlasiet **Labi**.
-1. Konteinera modulī atlasiet daudzpunktes pogu un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet **Preču kolekcija** un tad atlasiet **Labi**.  
-1. Konfigurējiet iestatījumus, atlasot atbilstošu datu avotu un preču kolekcijas ievadi.
+1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet to pašu veidni, kas izmantota noklusējuma kategorijas lapā. Sadaļā **Lapas nosaukums** ievadiet atbilstošo nosaukumu un pēc tam atlasiet **Labi**.
+1. Slotā **Apakšvirsraksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Preču kolekcija** un pēc tam atlasiet **Labi**.  
 1. Preču kolekcijas moduļa rekvizītu rūtī atlasiet **Pievienot preču sarakstu**.
-1. Dialoglodziņā **Atlasīt preču saraksta konfigurāciju** atlasiet saraksta veidu, ievadiet preču skaitu un atlasiet visas citas opcijas, kas ir pieejamas saraksta veidam. Lai iegūtu vairāk informācijas par sarakstu veidiem, skatiet tālāk redzamo tabulu. 
+1. Dialoglodziņā **Atlasīt preču saraksta konfigurāciju** atlasiet saraksta veidu, saraksta avotu un ievadiet preču skaitu. Konfigurējiet visas citas opcijas, kas ir pieejamas saraksta tipam. Lai iegūtu vairāk informācijas par sarakstu veidiem, skatiet tālāk redzamo tabulu. 
 1. Atlasiet **Labi**.
-1. Saglabājiet lapu un reģistrējiet to.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 Tālāk redzamā tabula parāda sarakstu veidus, kas ir pieejami atlasei dialoglodziņā **Atlasīt preču saraksta konfigurāciju**.
 

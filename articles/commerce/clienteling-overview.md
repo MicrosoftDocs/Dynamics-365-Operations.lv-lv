@@ -3,7 +3,7 @@ title: Attiecību ar klientiem pārskats
 description: Šajā tēmā ir sniegts pārskats par jaunām attiecību ar klientiem iespējām, kas ir pieejamas veikala programmā.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023249"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456511"
 ---
 # <a name="clienteling-overview"></a>Pārskats par attiecību veidošanu ar klientiem
 
@@ -115,7 +115,7 @@ Lai iestatītu integrāciju, veiciet tālāk norādītās darbības.
 3. Izveidojiet Azure key vault un saglabājiet pieteikuma noslēpumu. Norādījumus skatiet sadaļā [Īsa pamācība: iestatīt un izgūt noslēpumu no Azure atslēgu akreditācijas datu komplekta, izmantojot Azure portālu](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Ieslēdziet piekļuvi Azure Key Vault no Commerce. Lai veiktu šo darbību, jums ir nepieciešams pieteikuma ID un noslēpums. Pieteikums var būt tas pats pieteikums, ko izveidojāt 1. darbībā, vai arī tas var būt jauns pieteikums. (Citiem vārdiem sakot, varat izmantot pieteikumu, ko izveidojāt 1. darbībā gan pamatdatu piekļuvei, gan pakalpojuma Customer Insights piekļuvei, vai arī varat izveidot unikālu pieteikumu katram piekļuves veidam.) Norādījumus skatiet sadaļā [Store Service galvenie akreditācijas dati Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. Programmā Headquarters pārejiet uz **Sistēmas administrēšana \> Iestatīšana \> Key Vault parametri** un ievadiet nepieciešamo informāciju par atslēgu akreditācijas datu komplektu. Pēc tam laukā **Key Vault klients** ievadiet pieteikuma ID, kuru izmantojāt 4. darbībā, lai Commerce varētu piekļūt noslēpumiem atslēgu akreditācijas datu komplektā.
-6. Lai pievienotu pieteikumu, ko izveidojāt 1. darbībā, drošo pieteikumu sarakstam (dažreiz saukts par balto sarakstu), pārejiet uz Customer Insights un nodrošiniet pieteikumam piekļuvi **Skatīt**. Norādījumus skatiet sadaļā [Atļaujas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Lai pievienotu pieteikumu, ko izveidojāt 1. darbībā, drošo pieteikumu sarakstam (dažreiz saukts par drošo sarakstu), pārejiet uz Customer Insights un nodrošiniet pieteikumam piekļuvi **Skatīt**. Norādījumus skatiet sadaļā [Atļaujas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Programmas Commerce lapas **Commerce parametri** cilnes **Attiecības ar klientiem** kopsavilkuma cilnē **Dynamics 365 Customer Insights** izpildiet tālāk norādītās darbības.
 
     1. Laukā **Pieteikuma ID** ievadiet pieteikuma ID, ko izmantojāt 1. darbībā.

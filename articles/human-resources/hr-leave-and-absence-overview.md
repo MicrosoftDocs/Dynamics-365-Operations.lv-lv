@@ -3,12 +3,12 @@ title: Pārskats
 description: Programmā Dynamics 365 Human Resources Atvaļinājumu un prombūtnes darbvieta nodrošina elastīgu struktūru jaunu atvaļinājumu plānu izveidei, darbplūsmas pieprasījumu pārvaldībai un intuitīvai darbinieku patstāvīgi izmantojamo pakalpojumu lapai, kurā var pieprasīt brīvo laiku.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325769"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428971"
 ---
 # <a name="overview"></a>Pārskats
 
@@ -84,10 +84,9 @@ Jūs nevarat iestatīt **Noapaļošanas precizitāti**, iestatot **Noapaļošana
 
 Priekšskatījuma līdzekļi ietver:
 
-- **Atvaļinājuma atlikšana** — jūs varat atlikt atvaļinājumu un prombūtni darbiniekam Personāla vadības programmā. Aizturot atvaļinājumu, tiek apturēti atvaļinājumu uzkrājumi atsevišķiem atvaļinājumu veidiem. Ja atlikšana notiek pēc uzkrājumu procesa, aizturētā atvaļinājuma rezultātā tiek izveidots proporcionāls pārrēķins darbinieka atvaļinājuma bilancei. Jūs varat arī iekļaut pamatojuma kodus, apturot darbinieka atvaļinājumu. Lietotāja pieredze ir atjaunināta, lai norādītu atlikšanu. 
+- **Atvaļinājuma uzkrājums uzņēmumam vai plānam** — varat palaist uzkrāšanas procesu vai nu visiem uzņēmumiem, vai vienam uzņēmumam. Varat arī palaist uzkrāšanas procesu noteikta uzņēmuma noteiktam atvaļinājumu un prombūtnes plānam. 
 
-- **Pārnest nosacījumus** - varat norādīt pārnešanas atvaļinājuma veidu pārnešanas bilancēm, ja pārnestās korekcijas tiek pārsūtītas. Piemēram, ja darbinieks pārnes 10 dienas, jūs varat izvēlēties citu atvaļinājuma veidu šīm 10 dienām. 
+- **Pirkt atvaļinājumu** — varat aktivizēt un izveidot pirkšanas atvaļinājuma politikas darbiniekiem, lai iesniegtu pirkšanas pieprasījumus. Darbinieki var iesniegt pirkšanas pieprasījumus un automātiski atjaunināt bilances, lai atspoguļotu pieprasījumu.  
 
-- **Iekļaut pamatojuma kodu un komentārus par korekcijām** – jūs varat iekļaut pamatojuma kodu un komentāru, veicot korekciju darbinieka atvaļinājuma bilancei. 
+- **Pievienot pielikumus apstiprinātiem atvaļinājumu pieprasījumiem** — varat pievienot pielikumu atvaļinājuma pieprasījumam, kas jau ir apstiprināts. 
 
-- **Pāreja uz atvaļinājumu un kavējumu parametriem** — tagad personāla vadības parametru izmantošanas vietā jūs varat izmantot tikai atvaļinājumu un prombūtnes parametrus. 

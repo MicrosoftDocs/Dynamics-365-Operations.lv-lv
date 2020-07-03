@@ -3,12 +3,12 @@ title: Uzkrāt atvaļinājumu un kavējumu plānus
 description: Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairākiem nodarbinātajiem vai indivīdam.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197317"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429063"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uzkrāt atvaļinājumu un kavējumu plānus
 
@@ -103,7 +103,19 @@ Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu
 
 2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Dzēst atvaļinājumu uzkrājumu auditu**.
 
+## <a name="configure-preview-features"></a>Priekšskatījuma līdzekļu konfigurēšana
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+Ja esat iespējojis priekšskatījuma līdzekļus atvaļinājumiem un prombūtnei, arī tiem ir jākonfigurē iestatījumi.
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Atvaļinājuma uzkrāšana uzņēmumam vai atvaļinājuma plānam
+
+Uzkrājot atvaļinājumu un prombūtnes plānus, varat izvēlēties uzkrāt visiem uzņēmumiem. Izvēloties visus uzņēmumus, nevar atlasīt atsevišķus atvaļinājumu plānus. Ja izvēlaties neuzkrāt visiem uzņēmumiem, varat uzkrāt konkrētu atvaļinājuma plānu. 
+
+Šīs opcijas ir pieejamas, uzkrājot visiem darbiniekiem vai atsevišķiem darbiniekiem. 
+
 ## <a name="see-also"></a>Skatiet arī
 
-- [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
-- [Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)
+[Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)</br>
+[Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)

@@ -3,7 +3,7 @@ title: Iegādes lodziņa modulis
 description: Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269755"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411346"
 ---
 # <a name="buy-box-module"></a>Iegādes lodziņa modulis
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
@@ -38,6 +38,10 @@ Termins *iegādes lodziņš* tipiski tiek attiecināts uz preces informācijas l
 Iegādes lodziņa modulis ir īpašs konteiners, kas tiek izmantots, lai viesotu visus moduļus, kas parādīti preces informācijas lapas iegādes lodziņā.
 
 Preces informācijas lapas vietrādī URL ir ietverta preces ID. Visa informācija, kas nepieciešama iegādes lodziņa moduļa atveidošanai, tiek atvasināta no šīs preces ID. Ja preces ID nav norādīts, iegādes lodziņa modulis netiks pareizi atveidots lapā. Tāpēc iegādes loga moduli var izmantot tikai lapās, kurās ir preces konteksts. Lai to izmantotu lapā, kurā nav preces konteksta (piemēram, mājaslapa vai mārketinga lapa), jāveic papildu pielāgojumi.
+
+Attēlā zemāk redzams iegādes lodziņa moduļa piemērs preces informācijas lapā.
+
+![Iegādes lodziņa moduļa piemērs](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Iegādes lodziņa moduļa rekvizīti un sloti 
 
@@ -58,35 +62,47 @@ Tēmas var izmantot, lai noņemtu vai mainītu iegādes loga produktu rekvizītu
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduļi, ko var izmantot iegādes lodziņa modulī
 
 - **Multivides galerija** — šis modulis tiek izmantots, lai parādītu preču attēlus preču informācijas lapā. Tas var atbalstīt no viena līdz vairākiem attēliem. Tā atbalsta arī sīktēlu attēlus. Sīktēlu attēlus var sakārtot vai nu horizontāli (kā rindu zem attēla), vai vertikāli (kā kolonnu blakus attēlam). Multivides galerijas modulis var tikt pievienots **Multivides** slotam iegādes lodziņa modulī. Tas pašlaik atbalsta tikai attēlus. 
-- **Veikala atlasītājs** — šis modulis rāda tuvumā esošo veikalu sarakstu, kur var saņemt preci. Tas ļauj lietotājiem ievadīt atrašanās vietu, lai atrastu tuvuma esošos veikalus. Plašāku informāciju par šo moduli skatiet [Veikala atlasītāja modulis](store-selector.md).
+- **Veikala atlasītājs** — šis modulis rāda tuvumā esošo veikalu sarakstu, kur var saņemt preci. Tas ļauj lietotājiem ievadīt atrašanās vietu, lai atrastu tuvuma esošos veikalus. Plašāku informāciju par šo moduli skatiet [Veikalu atlasītāja modulis](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Iegādes lodziņa moduļa iestatījumi
 
-Iegādes loga moduļiem ir trīs iestatījumi, kurus var konfigurēt sadaļā **Vietnes iestatījumi \> Paplašinājumi**.
+Iegādes lodziņa moduļa iestatījumus var konfigurēt sadaļā **Vietnes iestatījumi \> Paplašinājumi**.
 
-- **Maksimālais daudzums** — šis rekvizīts tiek izmantos, lai norādītu katras preces maksimālo skaitu, ko var pievienot grozam. Piemēram, mazumtirgotājs var nolemt, ka vienā transakcijā var pārdot tikai 10 katras preces vienumus.
-- **Krājumu pārbaude** — ja vērtība ir iestatīta uz **Patiess**, prece tiek pievienota grozam tikai pēc tam, kad iegādes lodziņa modulis apstiprina, ka šī prece ir krājumos. Šī krājuma pārbaude tiek veikta gadījumā, kad prece tiks nosūtīta, gan gadījumā, kad prece tiks saņemta veikalā. Ja vērtība ir iestatīta uz **Nepatiess**, krājumu pārbaude netiek veikta pirms preces pievienošanas grozam un pasūtījuma veikšanas. Lai iegūtu informāciju par to, kā konfigurēt krājumu iestatījumus aizmugurē, skatiet [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md).
+- **Groza rindu daudzuma ierobežojums** — šis rekvizīts tiek izmantos, lai norādītu katras preces maksimālo skaitu, ko var pievienot grozam. Piemēram, mazumtirgotājs var nolemt, ka vienā transakcijā var pārdot tikai 10 katras preces vienumus.
+- **Krājumi** — papildinformāciju par to, kā lietot krājumu iestatījumus, skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
+- **Pievienot grozam** — šis rekvizīts tiek izmantots, lai noteiktu uzvedību pēc krājuma pievienošanas grozam. Iespējamās vērtības ir **Doties uz grozu**, **Nedoties uz grozu** un **Parādīt paziņojumus**. Kad vērtība ir iestatīta uz **Doties uz grozu**, lietotāji pēc krājuma pievienošanas tiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta uz **Nedoties uz grozu**, lietotāji pēc krājuma pievienošanas netiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta **Rādīt paziņojumus**, lietotājiem tiek parādīts apstiprinājuma paziņojums un viņi turpināt pārlūkot preces informācijas lapā. 
 
-- **Krājumu buferis** — šis rekvizīts tiek izmantots, lai norādītu krājuma bufera numuru. Krājumi tiek uzturēti reālajā laikā, un situācijā, kad daudzi klienti veic pasūtījumus, var būt sarežģīti uzturēt precīzu krājumu uzskaiti. Kad ir veikta krājuma pārbaude, ja krājumi ir mazāki par buferā esošo daudzumu, tiek uzskatīts, ka prece vairs nav pieejama. Tāpēc, kad pārdošana notiek ātri, izmantojot vairākus kanālus, un krājumu uzskaite nav pilnībā sinhronizēta, pastāv mazāks risks, ka tiks pārdota prece, kas vairs nav pieejama.
+    Attēlā zemāk redzams "pievienots grozam" apstiprinājuma paziņojuma piemērs Fabrikam vietnē.
+
+    ![Paziņojuma moduļa piemērs](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 
-Iegādes loga modulis izgūst preču informāciju, izmantojot Commerce Scale Unit API. Preces ID no preces informācijas lapas tiek izmantots visas informācijas izgūšanai.
+Iegādes lodziņa modulis izgūst preču informāciju, izmantojot Commerce Scale Unit pieteikuma programmēšanas interfeisus (API). Preces ID no preces informācijas lapas tiek izmantots visas informācijas izgūšanai.
 
 ## <a name="add-a-buy-box-module-to-a-page"></a>Iegādes lodziņa moduļa pievienošana lapā
 
 Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Izveidojiet fragmentu ar nosaukumu **iegādes lodziņa fragments** un pievienojiet tam iegādes lodziņa moduli.
-1. Iegādes lodziņā moduļa **Multivides** slotā pievienojiet multivides galerijas moduli.
-1. Iegādes loga slotā **Veikala atlasītājs** pievienojiet veikala atlasītāja moduli.
+1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dialoglodziņā **Jaunas lapas fragments** atlasiet moduli **Iegādes lodziņš**.
+1. Sadaļā **Lapas fragmenta nosaukums** ievadiet nosaukumu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
+1. Iegādes lodziņa moduļa slotā **Mediju galerija** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Mediju galerija** un pēc tam atlasiet **Labi**.
+1. Iegādes lodziņa moduļa slotā **Veikalu atlasītājs** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Veikalu atlasītājs** un pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
-1. Izveidojiet veidni preces informācijas lapai un nosauciet to par **PDP veidni**.
-1. Noklusējuma lapas pievienošana
-1. Noklusējuma lapas **Galvenajā** slotā pievienojiet iegādes lodziņa fragmentu.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet **PDP veidne** un pēc tam atlasiet **Labi**.
+1. Slotā **Pamatteksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
+1. Noklusējuma lapas **Galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot lapas fragmentu**.
+1. Dialoglodziņā **Atlasīt lapas fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
-1. Izmantojiet jūsu tikko izveidoto veidni lapas ar nosaukumu **PDP lapa** izveidei.
-1. Jaunās lapas **Galvenajā** slotā pievienojiet iegādes lodziņa fragmentu.
+1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **PDP veidne**. Sadaļā **Lapas nosaukums** ievadiet **PDP lapa** pēc tam atlasiet **Labi**.
+1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot lapas fragmentu**.
+1. Dialoglodziņā **Atlasīt lapas fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
 1. Saglabājiet un priekšskatiet lapu. Pievienojiet **?productid=&lt;product id&gt;** vaicājuma virknes parametru priekšskatījuma lapas vietrādim URL. Šādā veidā preces konteksts tiek izmantots priekšskatījuma lapas ielādei un rādīšanai.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. Preču informācijas lapā ir jābūt redzamam iegādes lodziņam.
 

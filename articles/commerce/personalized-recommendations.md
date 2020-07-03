@@ -3,7 +3,7 @@ title: Preču personalizētu ieteikumu iespējošana
 description: Šajā tēmā ir aprakstīts, kā padarīt personalizētus preču ieteikumus pieejamus klientiem risinājumā Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9b847a67306861052a360e0137e2e257b056888e
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154276"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404144"
 ---
 # <a name="enable-personalized-recommendations"></a>Personalizētu ieteikumu iespējošana
 
@@ -110,7 +110,7 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[ADLS iespējošana Dynamics 365 Commerce vidē](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

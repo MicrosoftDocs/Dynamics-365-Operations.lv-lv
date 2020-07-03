@@ -3,7 +3,7 @@ title: Manuālu lēmumu konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178937"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455037"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Manuālu lēmumu konfigurēšana darbplūsmā
 
@@ -239,26 +239,6 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
     <li>Pēc tam, kad ir atlasīts vienums <strong>Lietotājs</strong>, noklikšķiniet uz cilnes <strong>Lietotājs</strong>.</li>
     <li>Sarakstā <strong>Pieejamie lietotāji</strong> ir ietverti visi lietotāji. Atlasiet lietotājus, kuriem piešķirt lēmumu, un pēc tam pārvietojiet šos lietotājus uz sarakstu <strong>Atlasītie lietotāji</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Rinda</td>
-    <td>Darba vienumu rinda</td>
-    <td>
-    <ol>
-    <li>Pēc tam, kad ir atlasīts vienums <strong>Rinda</strong>, noklikšķiniet uz cilnes <strong>Balstīts uz rindu</strong>.</li>
-    <li>Lai lēmumu piešķirtu noteiktai rindai, rīkojieties šādi: <ol>
-    <li>Sarakstā <strong>Rindas tips</strong> atlasiet <strong>Darba vienumu rindas</strong>.</li>
-    <li>Sarakstā <strong>Rindas nosaukums</strong> atlasiet rindu.</li>
-    </ol>
-    </li>
-    <li>Ja konkrētam nosacījumam jānosaka, kurai rindai lēmums tiek piešķirts, rīkojieties šādi: <ol>
-    <li>Sarakstā <strong>Rindas tips</strong> atlasiet <strong>Nosacījuma darba vienumu rindas</strong>.</li>
-    <li>Sarakstā <strong>Rindas nosaukums</strong> atlasiet <strong>Nosacījumu rinda</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Šī opcija tiek izmantota tikai dažām darbplūsmām, piemēram, Pieteikumu pārvaldība.</blockquote>
     </td>
     </tr>
     </tbody>

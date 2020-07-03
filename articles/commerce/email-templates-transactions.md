@@ -3,7 +3,7 @@ title: E-pasta ziņojumu veidņu izveide transakciju notikumiem
 description: Šajā tēmā ir aprakstīts, kā izveidot, augšupielādēt un konfigurēt e-pasta veidnes darbību notikumiem programmā Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367179"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416583"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-pasta ziņojumu veidņu izveide transakciju notikumiem
 
@@ -40,7 +40,7 @@ Pirms varat kartēt specifisku darbību notikumu uz e-pasta veidni, ir jāizveid
 
 Lai izveidotu e-pasta veidni, izpildiet tālāk norādītās darbības.
 
-1. Commerce galvenajā mītnē dodieties uz **Mazumtirdzniecība un tirdzniecība \> Galvenās mītnes iestatījumi \> Organizācijas e-pasta veidnes**.
+1. Programmā Commerce Headquarters atveriet **Organizācijas e-pasta veidnes**, kas atrodas sadaļā **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Organizācijas e-pasta veidne** vai **Organizācijas administrēšana \> Iestatīšana \> Organizācijas e-pasta veidnes**.
 1. Atlasiet **Jauns**.
 1. Sadaļā **Vispārīgi** iestatiet šādus laukus:
 

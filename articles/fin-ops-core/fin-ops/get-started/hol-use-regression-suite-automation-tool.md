@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248740"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410154"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool lietošanas apmācība
+# <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācība
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,7 +97,7 @@ Pēc testa gadījuma palaišanas ziņojums Excel parametru failā tiek salīdzin
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kad tiek palaists testa gadījums, RSAT ģenerēs soļu momentuzņēmumus (attēlus) pārbaudes gadījumu atskaņošanas mapē darba direktorijā. Ja tiek izmantota vecāka RSAT versija, attēli tiek saglabāti uz **C:\\Lietotāji\\\<Lietotājvārds\>\\AppData\\Viesabonēšana\\regressionTool\\Atskaņošana**, tiek izveidota atsevišķa mape katram testa gadījumam, kas tiek palaists.
+Kad tiek palaists testa gadījums, RSAT ģenerēs soļu momentuzņēmumus (attēlus) pārbaudes gadījumu atskaņošanas mapē darba direktorijā. Ja tiek izmantota vecāka RSAT versija, attēli tiek saglabāti **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, tiek izveidota atsevišķa mape katram testa gadījumam, kas tiek palaists.
 
 ## <a name="assignment"></a>Piešķire
 
@@ -454,7 +454,7 @@ Jums ir testa skripts, ar kuru tiek izveidots jauns debitors. Izmantojot skript�
 - Debitora nosaukums
 - Debitora adrese
 
-Klienta ID formāts vienmēr būs *ATCUS\<numurs\>*, kur \<numurs\> ir vērtība no **000000001** līdz **999999999**.
+Klienta ID formāts vienmēr būs formātā *ATCUS\<number\>*, kur \<number\> ir vērtība no **000000001** līdz **999999999**.
 
 Šajā piemērā izmantots viens parametrs **start**, lai definētu pirmo izmantoto numuru. Tiek izmantots otrs parametrs **nr**, lai definētu izveidojamo debitoru skaitu. Katram atkārtojumam parametri Excel parametru failā tiek mainīti, izmantojot funkciju UpdateCustomer. Pēc tam RSAT komandrinda tiek izsaukta funkcijā RunTestCase.
 

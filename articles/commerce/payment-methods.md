@@ -3,7 +3,7 @@ title: Maksāšanas metodes
 description: Kad sistēma tiek iestatīta, ir jākonfigurē katrs maksājuma tips, kuru mazumtirgotājs pieņem. Šajā rakstā ir aprakstīti maksājumu tipi, kurus varat iestatīt, un aprakstīts to iestatīšanas process.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6afbddad869c70e4527c49fc5d4b520d7602f825
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
+ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023344"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3463164"
 ---
 # <a name="payment-methods"></a>Maksāšanas metodes
 
@@ -39,7 +39,7 @@ Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotaj
 - **Valūta** – galvenais maksāšanas līdzeklis papildus uzņēmuma noklusējuma valūtai. Valūta ietver gan monētas, gan banknotes. Valūtas maksājuma metode atspoguļo visas valūtas, kas tiek izmantotas. Lai varētu izmantot šo norēķinu veidu, ir jāiestata valūtas un ir jānorāda to maiņas kurss.
 - **Karte** – visa veida kartes, kas tiek izmantotas, piemēram, debetkartes un kredītkartes. Ir ieteicams iestatīt vienu kartes maksājuma metodi uzņēmuma līmenī, lai pārstāvētu visa veida kartes. Katrā veikalā varat iestatīt maksājuma metodi katrai kartei vai karšu kopai, kas ir jāapstrādā, izmantojot vienādus iestatījumus. Nepieciešams iestatīt apritē pieejamās ražotāju kartes, piemēram, debetkartes un kredītkartes, pirms jūs varat pieņemt tās veikalā kā maksājuma veidu.
 - **Kredītrēķins** – kredītrēķini, kas ir izsniegti vai izpirkti pārdošanas punktā. Kredītrēķins var kredīta vai atgriešanas kredīta rēķins, kas tiek izsniegts atgriešanas pārdošanas brīdī. Ja kredītrēķini tiek izpirkti tikai daļēji, programma automātiski izsniedz jaunu kredītrēķinu par jauno bilances summu. Jaunajam kredītrēķinam ir jauns numurs. Kredītrēķinu var izmantot tikai vienu reizi, un sistēmā tiek veikta visu izmantoto numuru uzskaite. Ierakstu, var skatīt lapā **Kredītrēķina tabula**. Debitors nevar izpirkt summu, kas pārsniedz kredītrēķina vērtību.
-- **Dāvanu karte** – attiecas uz dāvanu kartēm, kas izsniegtas un izpirktas pārdošanas punktā. Dāvanu kartēm nav atļauta pārmaksa.
+- **Dāvanu karte** – attiecas uz dāvanu kartēm, kas izsniegtas un izpirktas pārdošanas punktā. Dāvanu kartēm nav atļauta pārmaksa. Visām dāvanu kartēm ir jābūt karšu numuru kartējumiem. 
 - **Debitora konts** – sniedz iespēju pārdošanas laikā atskaitīt maksājuma summu no debitora konta, izmantojot kases sistēmu. Šo maksājuma metodi var izmantot arī, lai apkopotu pārdošanas informāciju vai debitora individuālās atlaides, kad debitors veic maksājumu, izmantojot citu maksājuma metodi. Šajā gadījumā ir jāiestata debitoram raksturīgā informācija.
 - **Lojalitātes programmas punkti** – punkti, ko debitori saņem lojalitātes programmu ietvaros. Ja izveidojat lojalitātes programmas, debitori var saņemt punktus un pēc tam izpirkt tos dažādos veidos. Piemēram, dažās lojalitātes programmās debitori var izpirkt lojalitātes programmas punktus atlaide formā vai pat izmantot tos kā maksājuma veidu.
 

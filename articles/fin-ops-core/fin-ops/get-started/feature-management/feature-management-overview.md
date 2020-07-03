@@ -1,9 +1,9 @@
 ---
 title: Līdzekļu pārvaldības pārskats
 description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778709"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456601"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -144,3 +144,34 @@ Līdzekļu pārvaldība ļauj jums kontrolēt līdzekļus, kas tiek piegādāti 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Līdzekļu pārvaldības izmantošana, lai ieslēgtu ISV līdzekļus vai pielāgotus līdzekļus
 
 Līdzekļu pārvaldība pašlaik nav pieejama līdzekļiem, ko piedāvā neatkarīgi programmatūras izstrādātāji (independent software vendor — ISV), un pielāgotajiem līdzekļiem. Taču Microsoft pievieno papildu funkcionalitāti, lai uzlabotu līdzekļu pārvaldību. Kad šie uzlabojumi būs pabeigti, Microsoft padarīs līdzekļu pārvaldību pieejamu visiem līdzekļiem un sniegs norādījumus par jūsu līdzekļu atjaunināšanu, lai varētu to izmantot.
+
+## <a name="frequently-asked-questions-faq"></a>Bieži uzdotie jautājumi (BUJ)
+
+### <a name="when-are-features-added-removed-or-changed"></a>Kad ir pievienoti, noņemti vai mainīti līdzekļi? 
+Funkcijas tiek pievienotas, noņemtas un mainītas ar koda izmaiņām. Lai saņemtu šīs izmaiņas, ir jāatjaunina vides.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Vai funkcija automātiski kļūst obligāta? 
+Nē, funkcijas kļūšana obligāta nav automātiska darbība. Preču komandām ir jāveic koda izmaiņas.
+
+### <a name="when-do-features-become-mandatory"></a>Kad funkcijas kļūst obligātas? 
+Politika ir tāda, ka visi jaunie līdzekļi tiks atteikti uz 12 mēnešu periodu, un netiks pieprasīta izmaiņu pārvaldība, kamēr līdzekli neaktivizēsit. Preču grupas var izvēlēties, vai līdzekli padarīt par obligātu pēc šī perioda beigām. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kāpēc nav noteikta “obligāti iespējotā datuma”? 
+Atjaunināšanas izlaišanas laiks ir mainīgs, vides atjaunināšanas laiks ir mainīgs, un klienti var izvēlēties izlaist dažus atjauninājumus. Tāpēc konkrētus datumus ir grūti noteikt. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kur atrodas dokumentācija par līdzekļiem, kas tiek veikti obligāti? 
+Šī dokumentācija tiek iegūta no programmu komandām. Bieži vien tās tiks pieminētas sadaļā [Noņemtie vai novecojušie līdzekļi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Vai ir produkta paziņojums vai signāls, ka līdzeklis būs obligāti jāaktivizē? 
+Paziņojuma mehānisms, kas saistīts ar līdzekļa obligātu izveidi, šobrīd neeksistē.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Vai funkcijas kādreiz tiek iespējotas, klientam nezinot par to? 
+Jā, ja funkcijām nav funkcionālas ietekmes, tās var iespējot pēc noklusējuma.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Kas ir funkciju lidošana un kā tā ir saistīta ar funkciju pārvaldību? 
+Funkciju lidojumi ir reāllaika ieslēgšanas/izslēgšanas slēdži, ko kontrolē Microsoft. Tie ir atsevišķi no klienta kontroles, ko nodrošina Līdzekļu pārvaldība. 
+- Privātās priekšskatījuma funkcijas netiks uzskaitītas funkciju pārvaldībā, kamēr tās netiks ieslēgtas. Ražošanā klientam ir jāpiekrīt piedalīties īpašā programmā, lai tas notiktu.
+- Publiskais priekšskatījums un Izlaistie (vispārīgi pieejamie) līdzekļi tiks uzskaitīti Funkciju pārvaldībā, ja vien tie netiek izslēgti. Funkcijas izslēgšana tiek uzskatīta par pēdējo iespēju produktu komandām, ja tiek atrasta kritiska problēma, un tā parasti ir viena klienta darbība.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Vai funkcijas kādreiz tiek izslēgtas, klientam nezinot par to? 
+Jā, ja līdzeklis ietekmē tādas vides darbību, kurai nav funkcionālas ietekmes, tad to var iespējot pēc noklusējuma.

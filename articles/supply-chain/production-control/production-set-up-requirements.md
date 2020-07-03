@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212507"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428404"
 ---
 # <a name="production-setup-requirements"></a>Ražošanas iestatījumu prasības
 
@@ -71,7 +71,7 @@ Ja strādājat ar maršrutiem, tad operācijas ir nepieciešams definēt katram 
 2.  **Izmaksu grupas** — iestatiet izmaksu grupas, lai izveidotu un uzturētu dažādus izmaksu aprēķināšanas tipus.
 3.  **Maršrutu grupas** — iestatiet maršrutu grupas, lai definētu parametrus, kas ir saistīti ar maršrutu grupām. Maršrutu grupas ir jāiestata pirms ražošanas maršrutu izveidošanas.
 4.  **Maršruti** — iestatiet ražošanas maršrutus un definējiet noklusējuma iestatījumus, lai kontrolētu plānošanu, izmaksu aprēķināšanu, un maršruta operāciju cenu noteikšanu, kā arī lai kontrolētu progresa atskaišu izveidi.
-5.  **Maršruti** — iestatiet maršruta versijas, lai ražošanā iespējotu krājumu variācijas.
+5.  **Maršruta versija** — iestatiet maršruta versijas, lai ražošanā iespējotu krājumu variācijas.
 
 ## <a name="optional-advanced-settings"></a>Neobligātie papildu iestatījumi
 1.  **Ražošanas grupas** — iestatiet ražošanas grupas, lai izveidotu relācijas starp ražošanas pasūtījumu un virsgrāmatas kontiem. Virsgrāmatas konti tiek izmantoti, lai pasūtījumus grāmatotu vai tos grupētu atskaišu veidošanai.

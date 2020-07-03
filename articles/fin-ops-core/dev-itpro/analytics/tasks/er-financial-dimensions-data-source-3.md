@@ -3,7 +3,7 @@ title: ER finanšu dimensijas, ko izmanto kā datu avotu (3. daļa. Pārskata i
 description: Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142528"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406501"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER finanšu dimensijas, ko izmanto kā datu avotu (3. daļa. Pārskata izkārtošana)
 
@@ -94,7 +94,8 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 58. Noklikšķiniet uz OK.
 59. Noklikšķiniet uz Pievienot atribūtu.
 60. Laukā Nosaukums ierakstiet 'Desc'.
-61. Noklikšķiniet uz OK.
+61. Noklikšķiniet uz Labi.
+![ER operāciju veidotāja lapa](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Kartējiet pārskata elementus datu avotiem
 1. Noklikšķiniet uz cilnes Kartēšana.
@@ -141,6 +142,7 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 42. Kokā atlasiet 'Sakne: XML elements\Uzņēmums: XML atribūts'.
 43. Kokā atlasiet 'modelis: datu modelis Finanšu dimensiju parauga modelis\Uzņēmums: Virkne'.
 44. Noklikšķiniet uz Saistīt.
-45. Noklikšķiniet uz Saglabāt.
+45. Klikšķiniet Saglabāt.
 46. Aizvērt lapu.
+![ER operāciju veidotāja lapa](../media/er-financial-dimensions-guides-format2.png)
 

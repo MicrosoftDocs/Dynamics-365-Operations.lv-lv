@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933936"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421659"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroniskie pārskati (ER)
 
@@ -81,7 +81,7 @@ Modeļa kartējumam, kas atbalsta ienākošos elektroniskos dokumentus, ir tāl�
 
 Datu modeļa komponents tiek izveidots katram biznesa domēnam, kurš ir jāizmanto kā vienots datu avots tādai pārskatu veidošanai, kas atdala pārskatus no datu avotu fiziskās ieviešanas. Tas pārstāv domēnam specifiskās biznesa koncepcijas un funkcionalitātes tādā formā, kas pārskata formāta sākotnējo noformējumu un turpmāko uzturēšanu padara efektīvāku.
 
-#### <a name="FormatComponentOutbound"></a>Formāta komponenti izejošiem elektroniskajiem dokumentiem
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Formāta komponenti izejošiem elektroniskajiem dokumentiem
 
 Formāta komponents ir atskaišu veidošanas izvades shēma, kas tiks ģenerēta izpildes laikā. Shēma sastāv no šādiem elementiem:
 
@@ -107,7 +107,7 @@ Nākamajā attēlā ir parādīts, kā šiem formātiem notiek datu plūsmas.
 
 Lai palaistu atsevišķi ER formāta konfigurāciju un ģenerētu izejošu elektronisko dokumentu, ir nepieciešams identificēt formāta konfigurācijas kartējumu.
 
-#### <a name="FormatComponentInbound"></a>Formāta komponenti ienākošiem elektroniskajiem dokumentiem
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Formāta komponenti ienākošiem elektroniskajiem dokumentiem
 Formāta komponents ir ienākošā dokumenta shēma, kas tiek importēta izpildes laikā. Shēma sastāv no šādiem elementiem:
 
 - Formāts, kas definē izpildes laikā importētā ienākošā un datus ietverošā elektroniskā dokumenta struktūru un saturu. Formāta komponents tiek izmantots, lai ienākošu dokumentu parsētu dažādos formātos, piemēram, kā tekstu un XML.
@@ -144,7 +144,7 @@ Piekļuve ER formāta komponentiem ir atkarīga no iestatījuma ISO valsts/reģi
 
 Datu formāta komponenta dažādām versijām var būt dažādi iestatījumi ISO valsts/reģiona kodiem.
 
-#### <a name="Configuration"></a>Konfigurācija
+#### <a name="configuration"></a><a name="Configuration"></a>Konfigurācija
 
 ER konfigurācija ir konkrēta ER komponenta aplika. Šis komponents var būt datu modeļa komponents vai formāta komponents. Konfigurācija var ietvert kāda ER komponenta dažādās versijas. Katra konfigurācija tiek atzīmēta kā piederoša konkrētam konfigurācijas nodrošinātājam. Konfigurācijas komponenta versiju **Melnraksts** var rediģēt, ja šīs konfigurācijas īpašnieks programmas ER iestatījumos ir atlasīts kā aktīvs nodrošinātājs.
 
@@ -154,26 +154,26 @@ Izveidotā formāta konfigurācija ietver formāta komponentu. Sākotnējā mode
 
 ER konfigurācija tiek koplietota programmas uzņēmumiem.
 
-#### <a name="Provider"></a>Nodrošinātājs
+#### <a name="provider"></a><a name="Provider"></a>Nodrošinātājs
 
-ER nodrošinātājs ir puses identifikators, kas tiek izmantots, lai norādītu katras ER konfigurācijas autoru (īpašnieku). ER jums ļauj pārvaldīt konfigurāciju nodrošinātāju sarakstu. Formāta konfigurācijas, kas ir izlaistas elektroniskajiem dokumentiem Finance and Operations risinājuma ietvaros, ir atzīmētas kā piederošas **Microsoft** konfigurācijas nodrošinātājam.
+ER nodrošinātājs ir puses identifikators, kas tiek izmantots, lai norādītu katras ER konfigurācijas autoru (īpašnieku). ER jums ļauj pārvaldīt konfigurāciju nodrošinātāju sarakstu. Formāta konfigurācijas, kas elektroniskajiem dokumentiem tiek izlaistas kā daļa no Finance and Operations risinājuma, ir atzīmētas kā **Microsoft** konfigurācijas nodrošinātājam piederošas.
 
 Lai uzzinātu, kā reģistrēt jaunu ER nodrošinātāju, noskatieties uzdevuma ceļvedi **ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu** (daļa no biznesa procesa **7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)** ).
 
-#### <a name="Repository"></a>Repozitorijs
+#### <a name="repository"></a><a name="Repository"></a>Repozitorijs
 
 ER repozitorijā glabājas ER konfigurācijas. Pašlaik tiek atbalstīti šādi ER repozitoriju tipi: 
 
 - LCS koplietojamā bibliotēka
 - LCS projekts
 - Failu sistēma
-- Regulatory Configuration Services (RCS)
-- Operāciju resursi
-
+- RCS
+- Operations resursi
+- Globālais repozitorijs
 
 Repozitorijs **LCS koplietotā bibliotēka** nodrošina piekļuvi konfigurāciju sarakstam koplietojamo līdzekļu bibliotēkā pakalpojumā Lifecycle Services (LCS). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS koplietojamo līdzekļu bibliotēkas jaunākās ER konfigurāciju versijas var importēt pašreizējā instancē.
 
-Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts repozitorija reģistrācijas posmā. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Konfigurācijas varat arī importēt no repozitorija **LCS projekts** pašreizējā Finance and Operations instancē.
+Repozitorijs **LCS projekts** nodrošina piekļuvi noteikta LCS projekta (LCS projekta līdzekļu bibliotēkas) konfigurāciju sarakstam, kurš tika atlasīts, kad repozitorijs tika reģistrēts. ER sniedz iespēju koplietotās konfigurācijas no pašreizējās instances augšupielādēt konkrētā repozitorijā **LCS projekts**. Konfigurācijas varat arī importēt no repozitorija **LCS projekts** pašreizējā jūsu Finance and Operations programmu instancē.
 
 Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, kuras atrodas kā xml faili noteiktā mapē tāda datora vietējā failu sistēmā, kurā tiek viesots AOS pakalpojums. Repozitorija reģistrācijas posmā ir atlasīta nepieciešamā mape. Konfigurācijas var arī importēt no repozitorija **Failu sistēma** pašreizējā instancē. 
 
@@ -184,9 +184,13 @@ Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, k
 
 Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju importēšana](./electronic-reporting-import-ger-configurations.md).
 
-Repozitorijs **RCS instance** nodrošina piekļuvi noteiktas RCS instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigurācijas no atlasītās RCS instances pašreizējā instancē, lai tās varētu izmantot elektronisko pārskatu veidošanai.
+Repozitorijs **RCS** nodrošina piekļuvi noteiktas [Konfigurācijas pakalpojums (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigurācijas no atlasītās RCS instances pašreizējā instancē, lai tās varētu izmantot elektronisko pārskatu veidošanai.
 
-Papildinformāciju skatiet tēmā [Importēt elektronisko pārskatu (ER) konfigurācijas no Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju no RCS importēšana](./rcs-download-configurations.md).
+
+Repozitorijs **Globālais repozitorijs** nodrošina piekļuvi konfigurāciju sarakstam globālajā repozitorijā [Konfigurācijas pakalpojums](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS globālā repozitorija jaunākās ER konfigurāciju versijas var importēt pašreizējā instancē.
+
+Papildinformāciju skatiet tēmā [Importēt elektronisko pārskatu (ER) konfigurācijas no konfigurācijas pakalpojuma globālā repozitorija](./er-download-configurations-global-repo.md).
 
 Repozitorijs **Operācijas resursi** nodrošina piekļuvi to konfigurāciju sarakstam, ko korporācija Microsoft kā ER konfigurāciju nodrošinātājs ir sākotnēji izlaidusi programmas risinājuma ietvaros. Šīs konfigurācijas var importēt pašreizējā instancē un izmantot elektronisko pārskatu veidošanai vai paraugu uzdevumu ceļvežu atskaņošanai. Tās var izmantot arī papildu lokalizācijām un pielāgojumiem. Ņemiet vērā, ka jaunākās versijas, ko nodrošina Microsoft ER konfigurācijas, ir jāimportē no LCS koplietojamo līdzekļu bibliotēkas, izmantojot attiecīgo ER repozitoriju.
 

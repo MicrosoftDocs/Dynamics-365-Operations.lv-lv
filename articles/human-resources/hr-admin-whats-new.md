@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f14056735b927d9b14f686f43bd9be121808ba23
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 33c436c0ac65470c6237d079314222b2925cfca7
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379287"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443445"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
@@ -41,7 +41,10 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 Lai redzētu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
-[2020. gada 14. maijs](hr-whats-new-2020-05-14.md)</br>[2020. gada 1. maijs](hr-whats-new-2020-05-01.md)</br>
+[2020. gada 11. jūnijs](hr-whats-new-2020-06-11.md)</br>
+[2020. gada 28. maijs](hr-whats-new-2020-05-28.md)</br>
+[2020. gada 14. maijs](hr-whats-new-2020-05-14.md)</br>
+[2020. gada 1. maijs](hr-whats-new-2020-05-01.md)</br>
 [2020. gada 13. aprīlis](hr-whats-new-2020-04-13.md)</br>
 [2020. gada 3. aprīlis](hr-whats-new-2020-04-03.md)</br>
 [2020. gada 24. marts](hr-whats-new-2020-03-24.md)</br>

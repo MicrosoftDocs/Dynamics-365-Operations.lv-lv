@@ -3,7 +3,7 @@ title: FIFO ar fizisko vērtību un iezīmēšanu
 description: Pirmie iekšā, pirmie ārā (FIFO) ir krājumu modelis, kur pirmie saņemtie krājumi tiek arī pirmie izdoti. Finansiāli apstrādātie izdotie krājumi tiek nosegti ar pirmajiem finansiāli apstrādātajiem saņemtajiem krājumiem saskaņā ar krājumu darbību finansiālo datumu.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201759"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454630"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO ar fizisko vērtību un iezīmēšanu
 
@@ -49,8 +49,8 @@ Lietojot FIFO metodi, varat izvēlēties neizmantot FIFO noteikumus. Tā vietā,
 -   4.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 30,00 par katru.
 -   4.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 30,00 katrs.
 -   5.a Krājumu fiziskā izdošana daudzumam 1, kur katra izmaksu cena ir USD 20,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
--   5.b Krājumu finansiālā izdošana daudzumam 1, kur katra izmaksu cena ir USD 20,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
--   6. Tiek veikta krājumu slēgšana. Balstoties uz FIFO metodi, pirmā finansiāli apstrādātā izdošana tiks nosegta ar pirmo finansiāli apstrādāto saņemšanu. Šīs izdošanas darbībai tiks veikts USD –10,00 pārrēķins.
+-   5.b Krājumu finansiālā izdošana daudzumam 1, kur katra izmaksu cena ir USD 15,00 (darbinot finansiāli atjaunināto darbību vidējo rādītāju).
+-   6. Tiek veikta krājumu slēgšana. Balstoties uz FIFO metodi, pirmā finansiāli apstrādātā izdošana tiks nosegta ar pirmo finansiāli apstrādāto saņemšanu. Šīs izdošanas darbībai tiks veikts USD –5,00 pārrēķins.
 
 Jaunā aprēķinātā vidēja izmaksu cena ietekmē finansiāli atjaunoto darījumu vidējo rādītāju. Sekojošās ilustrācijas parāda FIFO krājumu modeļa ietekmi uz šo darbību sēriju, kad opcija **Iekļaut fizisko vērtību** netiek izmantota. 
 

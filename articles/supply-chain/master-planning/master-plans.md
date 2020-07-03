@@ -3,7 +3,7 @@ title: Vispārējo plānu pārskats
 description: Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas darba operācijas, simulētu dažādas plānošanas stratēģijas, ko vēlaties pārraudzīt, un īstenotu uzņēmuma politiku, piemēram, attiecībā uz iekšējo veiktspēju vai debitoru apmierinātību.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213542"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409526"
 ---
 # <a name="master-plans-overview"></a>Vispārējo plānu pārskats
 
@@ -35,7 +35,7 @@ Izmantojiet dažādus vispārējos plānus, lai atbalstītu uzņēmuma ikdienas 
 Vispārējos plānus varat konfigurēt lapā **Vispārējie plāni**.
 
 Ir divi plānu tipi:
--   **Statiskais plāns** — vispārējās plānošanas aprēķinā tiek izmantoti pašreizējie dati, lai izveidotu neto vajadzību plānu. Šis plāns netiek mainīts līdz nākamajai reize, kad veicat vispārējo plānošanu. Tas ir darbības plāns, ko var izmantot dažādi uzņēmuma darbinieki, piemēram, sagādnieks vai ražošanas plānotājs, lai pieņemtu pamatotus lēmumus un veiktu ikdienas uzdevumus un aktivitātes.
+-   **Statiskais plāns** — vispārējās plānošanas aprēķinā tiek izmantoti pašreizējie dati, lai izveidotu neto vajadzību plānu. Šis plāns netiek mainīts līdz nākamajai reize, kad veicat vispārējo plānošanu vai maināt plānu manuāli. Šis ir darbības plāns, ko var izmantot dažādi uzņēmuma darbinieki, piemēram, sagādnieks vai ražošanas plānotājs, lai pieņemtu pamatotus lēmumus un veiktu ikdienas aktivitātes.
 -   **Dinamiskais plāns** — sākumā šis plāns neatšķiras no neto vajadzību plāna, kas tiek izveidots, veicot vispārējo plānošanu. Taču dinamisko plānu var atjaunināt ikreiz, kad mainās pamatdati. Tas var notikt, piemēram, izveidojot jaunu pārdošanas pasūtījumu. Tas ļauj pārraudzīt mainīgo pasūtījumu tīklu un krājumu pieejamību, neizjaucot statisko plānu, ko citi izmanto saviem darba procesiem.
 
 Uzņēmums var izvēlēties strādāt tikai ar dinamisko plānu vai izmantot gan statisko, gan dinamisko plānu. Turklāt var konfigurēt jebkuru vispārējo plānu, lai parādītu noteiktu stratēģiju vai pievērstos kādam jautājumam. Tālāk ir sniegti piemēri.
