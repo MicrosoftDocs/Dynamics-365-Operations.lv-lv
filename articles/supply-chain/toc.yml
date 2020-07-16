@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: "Supply Chain Management 10.0.11 (2020.\_gada jūlijs)"
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: "Supply Chain Management 10.0.10 (2020.\_gada maijs)"
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
@@ -1013,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Teksts: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Teksts: Text'
+                        - name: 'Teksts: teksts'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
             - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1025,7 +1023,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
             - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 'Elektronisko pārskatu formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
+            - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
                 - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1077,9 +1075,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentu pārvaldības failu izmantošana formātu izvades datos
               items:
-                - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu izvades datos'
+                - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu izvades datos'
+                - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Formātu izveide, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu\_izvades datos"
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
@@ -1101,7 +1099,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Dokumentu ar programmas datiem ģenerēšana
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 'Datu importēšana no ienākošiem failiem, izmantojot elektronisko pārskatu risinājumus'
+            - name: 'Datu importēšana no ienākošiem failiem, izmantojot ER risinājumus'
               items:
                 - name: Ienākošo dokumentu parsēšana dažādos formātos
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1143,13 +1141,13 @@
               items:
                 - name: 'SAVIENOJUMA datu avotu izmantošana, lai iegūtu datus no vairākām programmas tabulām'
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
+                - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
+                - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
+                - name: ER formāta parametru iestatīšana juridiskai personai
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
+                - name: ER formāta elementu izpildes atlikšana
                   items:
                     - name: Secības elementa izpildes atlikšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
@@ -1325,7 +1323,7 @@
               href: iot/iot-azure-setup.md
             - name: Ziņojumu shēmas formāti IoT centrmezglam
               href: iot/iot-schema-format.md
-            - name: 'Pievienojumprogrammas instalēšana šajā: LCS'
+            - name: Pievienojumprogrammas instalēšana LCS portālā
               href: iot/iot-lcs-setup.md
             - name: Rādītāju iestatīšana
               href: iot/iot-metrics-setup.md
@@ -2561,196 +2559,234 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Transportēšanas ierobežojumu iestatīšana krājumam
               href: transportation/tasks/set-up-transportation-constraints-item.md
-        - name: Noliktavas vadība
+        - name: Noliktavas pārvaldība
           items:
             - name: Noliktavas pārvaldības pārskats
               href: warehousing/warehouse-management-overview.md
-            - name: Noliktavas konfigurācija
+            - name: Ienākošās noliktavas operācijas
               items:
-                - name: Noliktavas konfigurācijas pārskats
-                  href: warehousing/warehouse-configuration.md
-                - name: 'Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni'
-                  href: inventory/warehouse-template.md
-                - name: 'Darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas'
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Kopuma darbību kodi
-                  href: warehousing/wave-step-codes.md
-                - name: Kopuma apstrādes konfigurēšana
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Sūtījumu automātiska atjaunināšana
-                  href: warehousing/auto-update-shipment.md
-                - name: Vietas profila izveide
-                  href: warehousing/tasks/create-location-profile.md
-                - name: Vietu konfigurēšana noliktavā ar iespējotu WMS
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Noslodzes izmantošanas ieplānošana
-                  href: warehousing/schedule-load-utilization.md
-                - name: Darba noslodzes ieplānošana
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Izvietojuma kodu iestatīšana
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Mērvienību un dimensiju politikas
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Noliktavas Power BI saturs
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Sistēmas grupēšana atvērtā darbu sarakstā
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: 'Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations'
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Svītrkodu atbalsts mobilajās ierīcēs
-                  href: warehousing/mobile-barcode-support.md
-                - name: Noliktavas iestatīšana pārsūtīšanas pasūtījumiem
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Rezervācijas noliktavas pārvaldībā
+                - name: Reģistrācijas un izvietošanas ieejas plūsmas
+                  items:
+                    - name: Noliktavas apstrādes process ienākošajām noslodzēm pirkšanas pasūtījumiem
+                      href: warehousing/inbound-load-handling.md
+                    - name: 'Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu'
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: 'Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu'
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Novietojuma preces dimensijas sajaukšana
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Izejošās noliktavas operācijas
               items:
-                - name: Elastīga noliktavas līmeņa dimensiju rezervācijas politika
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Noliktavas darba politikas
-              items:
-                - name: Noliktavas darba politiku pārskats
-                  href: warehousing/warehouse-work-policies.md
-                - name: Noliktavas darba politiku iestatīšana
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: 'Krājumu kustība, ja ar tiem noliktavas pārvaldībā ir saistīts darbs'
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Darba klases izveide
-                  href: warehousing/tasks/create-work-class.md
-                - name: Noliktavas nodarbināto pārvaldība
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Atlikta noliktavas darba apstrāde
-                  href: warehousing/deferred-put.md
-            - name: Pārkraušana sadales centrā
-              items:
-                - name: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
-                  href: production-control/cross-docking-opportunities.md
-                - name: Automātisks izlaides sūtījums pārkraušanai sadales centrā
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Daļēja izlaide un daļēja nosūtīšana
-              items:
-                - name: Daļēja transporta kravas nosūtīšana
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaide
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Izdošana un iepakošana
-              items:
-                - name: Klastera izdošanas iestatīšana
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Konteinerizēšanas iestatīšana
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Partijas un numura zīmes apstiprināšana
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Numura zīmes uzlīmes drukāšanas iespējošana
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: 'Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations'
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Vienības izdošanas apstiprinājums
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Iepakojuma materiāli un maksas
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: "Manuālas iepakošanas iestatīšana (tikai 2016.\_gada februārī un maijā)"
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Noliktavas darba atcelšana izņēmumu apstrādei
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Sistēmas noteikta klastera izdošana
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Izdošanas rindu grupēšana
-                  href: warehousing/pick-line-grouping.md
-            - name: Krājumu inventarizācija
-              items:
-                - name: Krājumu inventarizācijas iemeslu kodi
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Krājumu bloķēšana
-                  href: inventory/inventory-blocking.md
-                - name: Cikla inventarizācija
-                  href: warehousing/cycle-counting.md
-                - name: Cikla inventarizācijas definēšana
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Daļēja novietojuma cikla inventarizācija
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Daļēja novietojuma cikla inventarizācijas procesa definēšana
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
-                  href: warehousing/onhand-cleanup.md
-                - name: Krājumu žurnāls
-                  href: inventory/inventory-journals.md
-                - name: Krājumu vieta
-                  href: inventory/inventory-locations.md
-                - name: Krājumu statuss
-                  href: inventory/inventory-statuses.md
-                - name: Krājumu etiķešu inventarizācija
-                  href: inventory/inventory-tag-counting.md
-            - name: Papildināšana
-              items:
-                - name: Papildināšanas pārskats
-                  href: warehousing/replenishment.md
-                - name: Tūlītēja papildināšana
-                  href: warehousing/immediate-replenishment.md
-                - name: Papildināšana ar atvilkumu Kanban
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Min.-maks. papildināšanas procesa iestatīšana
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Noliktavas programmas instalēšana un konfigurēšana
-              items:
-                - name: Noliktavas programmas instalēšana un savienošana
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Lauku nosaukumu konfigurēšana noliktavas programmā
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Mobilo ierīču iestatīšana darbam noliktavā
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: 'Numura zīmes saņemšana, izmantojot noliktavas programmu'
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus'
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: 'Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu numura zīmes konsolidāciju'
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Jauktas numura zīmes saņemšana mobilajā ierīcē
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: 'Attēlojuma konfigurēšana vecāko partiju rādīšanai noliktavā, izmantojot mobilo ierīci'
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Vecākās partijas izdošana mobilajā ierīcē
-                  href: warehousing/pick-oldest-batch.md
-                - name: Procesu rokasgrāmatas struktūra
-                  href: warehousing/process-guide-framework.md
-            - name: Jaunināšana un migrēšana
-              items:
-                - name: Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Reģistrācijas un izvietošanas ieejas plūsmas
-              items:
-                - name: Noliktavas apstrādes process ienākošajām noslodzēm pirkšanas pasūtījumiem
-                  href: warehousing/inbound-load-handling.md
-                - name: 'Krājumu reģistrēšana uzlabotā noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu'
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: 'Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu'
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Sūtījumu konsolidācijas politikas
-              items:
+                - name: Rezervācijas noliktavas pārvaldībā
+                  items:
+                    - name: Elastīga noliktavas līmeņa dimensiju rezervācijas politika
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Daļēja izlaide un daļēja nosūtīšana
+                  items:
+                    - name: Daļēja transporta kravas nosūtīšana
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaide
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Izdošana un iepakošana
+                  items:
+                    - name: Klastera izdošanas iestatīšana
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Konteinerizēšanas iestatīšana
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Partijas un numura zīmes apstiprināšana
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Numura zīmes uzlīmes drukāšanas iespējošana
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: 'Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations'
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Vienības izdošanas apstiprinājums
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Iepakojuma materiāli un maksas
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: "Manuālas iepakošanas iestatīšana (tikai 2016.\_gada februārī un maijā)"
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Noliktavas darba atcelšana izņēmumu apstrādei
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Sistēmas noteikta klastera izdošana
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Sistēmas noteikta darbu secība
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Izdošanas rindu grupēšana
+                      href: warehousing/pick-line-grouping.md
+                    - name: Noliktavas slotu veidošana
+                      href: warehousing/warehouse-slotting.md
+                - name: Papildināšana
+                  items:
+                    - name: Papildināšanas pārskats
+                      href: warehousing/replenishment.md
+                    - name: Tūlītēja papildināšana
+                      href: warehousing/immediate-replenishment.md
+                    - name: Papildināšana ar atvilkumu Kanban
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Min.-maks. papildināšanas procesa iestatīšana
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Zonas sliekšņa papildināšana
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Kravu veidošana un nosūtīšana
+                  items:
+                    - name: Apstiprināšana un pārsūtīšana
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Uzlabota noslodzes veidošana kopuma laikā
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Nodošana noliktavas kārtulai
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Kopuma veidņu grupēšana
+                      href: warehousing/wave-template-grouping.md
                 - name: Sūtījumu konsolidācijas politikas
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Sūtījumu konsolidācijas politiku konfigurēšana
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: "1.\_scenārijs\_— konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu"
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: "2.\_scenārijs\_— konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Izlaišana noliktavā”"
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: "3.\_scenārijs\_— konsolidēt sūtījumus, kravu plānošanas rīkā izmantojot izlaišanu noliktavā"
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: "4.\_scenārijs\_— konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku"
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: "5.\_scenārijs\_— manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu"
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Sūtījumu konsolidācijas politikas
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Sūtījumu konsolidācijas politiku konfigurēšana
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: "1.\_scenārijs\_— konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu"
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: "2.\_scenārijs\_— konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Izlaišana noliktavā”"
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: "3.\_scenārijs\_— konsolidēt sūtījumus, kravu plānošanas rīkā izmantojot izlaišanu noliktavā"
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: "4.\_scenārijs\_— konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku"
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: "5.\_scenārijs\_— manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu"
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Visās noliktavas operācijās
+              items:
+                - name: Noliktavas darba politikas
+                  items:
+                    - name: Noliktavas darba politiku pārskats
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Noliktavas darba politiku iestatīšana
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: 'Krājumu kustība, ja ar tiem noliktavas pārvaldībā ir saistīts darbs'
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Darba klases izveide
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Noliktavas nodarbināto pārvaldība
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Atlikta noliktavas darba apstrāde
+                      href: warehousing/deferred-put.md
+                - name: Pārkraušana sadales centrā
+                  items:
+                    - name: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Automātisks izlaides sūtījums pārkraušanai sadales centrā
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Plānotā pārkraušana sadales centrā
+                      href: warehousing/planned-cross-docking.md
+                - name: Krājumu inventarizācija
+                  items:
+                    - name: Krājumu inventarizācijas iemeslu kodi
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Krājumu bloķēšana
+                      href: inventory/inventory-blocking.md
+                    - name: Cikla inventarizācija
+                      href: warehousing/cycle-counting.md
+                    - name: Cikla inventarizācijas definēšana
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Daļēja novietojuma cikla inventarizācija
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Daļēja novietojuma cikla inventarizācijas procesa definēšana
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
+                      href: warehousing/onhand-cleanup.md
+                    - name: Krājumu žurnāls
+                      href: inventory/inventory-journals.md
+                    - name: Krājumu vieta
+                      href: inventory/inventory-locations.md
+                    - name: Krājumu statuss
+                      href: inventory/inventory-statuses.md
+                    - name: Krājumu etiķešu inventarizācija
+                      href: inventory/inventory-tag-counting.md
+                - name: Noliktavas darbs
+                  items:
+                    - name: Detalizēta darba rindas informācija
+                      href: warehousing/work-line-details.md
+                    - name: Novietojuma noliktavas vienības identifikatora pozīcija
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Noliktavas iestatīšana
+              items:
+                - name: Noliktavas konfigurācija
+                  items:
+                    - name: Noliktavas konfigurācijas pārskats
+                      href: warehousing/warehouse-configuration.md
+                    - name: 'Noliktavas iestatīšana, izmantojot noliktavas konfigurācijas veidni'
+                      href: inventory/warehouse-template.md
+                    - name: 'Darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas'
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Kopuma darbību kodi
+                      href: warehousing/wave-step-codes.md
+                    - name: Kopuma apstrādes konfigurēšana
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Sūtījumu automātiska atjaunināšana
+                      href: warehousing/auto-update-shipment.md
+                    - name: Vietas profila izveide
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: Vietu konfigurēšana noliktavā ar iespējotu WMS
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Noliktavas vietas statuss
+                      href: warehousing/warehouse-location-status.md
+                    - name: Papildu atrašanās vietas zonas
+                      href: warehousing/additional-location-zones.md
+                    - name: Noslodzes izmantošanas plānošana
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Darba noslodzes ieplānošana
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Izvietojuma kodu iestatīšana
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Mērvienību un dimensiju politikas
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Noliktavas Power BI saturs
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Sistēmas grupēšana atvērtā darbu sarakstā
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: 'Svītrkodu skenēšana, izmantojot kameru programmā Dynamics 365 for Finance and Operations'
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Svītrkodu atbalsts mobilajās ierīcēs
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Noliktavas iestatīšana pārsūtīšanas pasūtījumiem
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Noliktavas programmas instalēšana un konfigurēšana
+                  items:
+                    - name: Noliktavas programmas instalēšana un savienošana
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Lauku nosaukumu konfigurēšana noliktavas programmā
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobilo ierīču iestatīšana darbam noliktavā
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 'Noliktavas vienības identifikatora saņemšana, izmantojot noliktavas programmu'
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus'
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 'Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu numura zīmes konsolidāciju'
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Jauktas numura zīmes saņemšana mobilajā ierīcē
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: 'Attēlojuma konfigurēšana vecāko partiju rādīšanai noliktavā, izmantojot mobilo ierīci'
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Vecākās partijas izdošana mobilajā ierīcē
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Procesu rokasgrāmatas struktūra
+                      href: warehousing/process-guide-framework.md
+                - name: Jaunināšana un migrēšana
+                  items:
+                    - name: Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Management izstrāde
           items:
             - name: Ganta kontroles izstrādes ceļvedis

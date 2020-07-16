@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: "Finance 10.0.11 (2020.\_gada jūlijs)"
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: "Finance 10.0.10 (2020.\_gada maijs)"
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
@@ -1176,7 +1174,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
             - name: Papildu formatēšanas opcijas
               href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Organizēt atskaites komponentus atskaišu noformētājā
+            - name: Pārskatu komponentu organizēšana pārskatu noformētājā
               href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
             - name: Pārskatu definīcijas
               href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Kolonnu definīcijas
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Pārskatu koka definīcijas finanšu pārskatos
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Rindu definīciju šūnu modificēšana
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Finanšu pārskatu data mart atiestatīšana
@@ -3342,7 +3342,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/finance/toc.json
                 - name: Dokumentu ar programmas datiem ģenerēšana
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/finance/toc.json
-            - name: 'Datu importēšana no ienākošiem failiem, izmantojot elektronisko pārskatu risinājumus'
+            - name: 'Datu importēšana no ienākošiem failiem, izmantojot ER risinājumus'
               items:
                 - name: Ienākošo dokumentu parsēšana dažādos formātos
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/finance/toc.json
@@ -3386,12 +3386,18 @@
                       items:
                         - name: Konfigurāciju importēšana no GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Konfigurāciju koplietošana globālajā repozitorijā (GR)
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Ātras darba sākšanas ceļveži
+              items:
+                - name: 'ER formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Apmācība
               items:
                 - name: 'Uzziniet, kā izmantot datu avotus'
@@ -3452,7 +3458,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                    - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
+                    - name: ER formāta parametru iestatīšana juridiskai personai
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
                     - name: ER formāta elementu izpildes atlikšana
                       items:
