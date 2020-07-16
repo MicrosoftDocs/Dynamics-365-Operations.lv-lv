@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 25.\_jūnijs"
+          href: hr-whats-new-2020-06-23.md
         - name: "2020.\_gada 11.\_jūnijs"
           href: hr-whats-new-2020-06-11.md
         - name: "2020.\_gada 28.\_maijs"
@@ -141,7 +143,9 @@
           items:
             - name: Atbalsta saņemšana
               href: hr-admin-troubleshooting-support.md
-            - name: Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem
+            - name: 'Veiktspējas optimizēšana, plānojot pakešuzdevumus pēc darba laika'
+              href: hr-admin-troubleshooting-batch-jobs.md
+            - name: 'Veiktspējas optimizēšana, izmantojot automātiskās tīrīšanas uzdevumus'
               href: hr-admin-troubleshooting-batch-history.md
             - name: Analīzes pārskati netiek atjaunināti
               href: hr-admin-troubleshooting-analytic-reports.md

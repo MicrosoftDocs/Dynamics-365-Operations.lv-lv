@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: "Commerce 10.0.11 (2020.\_gada jūlijs)"
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: "Commerce 10.0.10 (2020.\_gada maijs)"
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -192,6 +190,8 @@
               items:
                 - name: Dynamics 365 Commerce arhitektūras apskats
                   href: commerce-architecture.md
+                - name: Dynamics 365 Commerce autentifikācijas plūsmas
+                  href: arch-auth-flow.md
                 - name: Commerce Scale Unit arhitektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Veikala topoloģijas atlase
@@ -748,12 +748,12 @@
               href: edit-audit-retail-transactions.md
             - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: Pārskatu grāmatošanas funkcionalitātes uzlabojumi
-              href: statement-posting-eod.md
             - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
               href: trickle-feed.md
             - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Finanšu saskaņošana mazumtirdzniecības veikalos
+              href: fin-recon.md
             - name: Pārskatu grāmatošanas funkcionalitātes uzlabojumi
               href: statement-posting-eod.md
             - name: Uzlabota pēc partijas izsekoto krājumu apstrāde
@@ -792,8 +792,6 @@
                   href: configure-your-domain-name.md
                 - name: Jauna e-komercijas nomnieka izvietošana
                   href: deploy-ecommerce-site.md
-                - name: Tiešsaistes veikala kanāla iestatīšana
-                  href: online-stores.md
                 - name: E-komercijas vietnes izveide
                   href: create-ecommerce-site.md
                 - name: E-komercijas vietnes saistīšana ar tiešsaistes kanālu
@@ -812,17 +810,15 @@
                   href: add-cdn-support.md
                 - name: Veikala noteikšanas iespējošana pēc atrašanās vietas
                   href: enable-store-detection.md
-            - name: Parauga vietnes apskats
+            - name: Parauga vietnes pārskats
               items:
-                - name: Mājas lapas pārskats
+                - name: Sākumlapas pārskats
                   href: quick-tour-home-page.md
-                - name: Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats
-                  href: category-search-page-overview.md
-                - name: Preču papildinformācijas lapu apskats
+                - name: Preču papildinformācijas lapu pārskats
                   href: quick-tour-pdp.md
-                - name: Pārskats par grozu un norēķināšanās lapām
+                - name: Groza un norēķināšanās lapu pārskats
                   href: quick-tour-cart-checkout.md
-                - name: Konta pārvaldības lapu apskats
+                - name: Konta pārvaldības lapu pārskats
                   href: quick-tour-account-management.md
             - name: Savas vietnes iestatījumu pārvaldība
               items:
@@ -998,9 +994,9 @@
                       href: add-breadcrumb.md
             - name: Meklēšana
               items:
-                - name: Noklusējuma kategorijas ielādes lapa un meklēšanas rezultātu lapa
+                - name: Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats
                   href: category-search-page-overview.md
-                - name: Mākoņa darbināts meklēšanas pārskats
+                - name: Mākoņa darbinātas meklēšanas pārskats
                   href: cloud-powered-search-overview.md
             - name: Pārskatu veidošana
               items:
@@ -1484,7 +1480,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Teksts: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Teksts: Text'
+                        - name: 'Teksts: teksts'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1496,7 +1492,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
             - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-            - name: 'Elektronisko pārskatu formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
+            - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
                 - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1548,13 +1544,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
             - name: Dokumentu pārvaldības failu izmantošana formātu izvades datos
               items:
-                - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu izvades datos'
+                - name: 'Datu modeļu sagatavošana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu izvades datos'
+                - name: 'Datu modeļu paplašināšana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
                 - name: "Formātu izveide, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu\_izvades datos"
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
-                - name: "Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER\_izvades datos"
+                - name: 'Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Formātu modificēšana un palaišana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
@@ -1572,7 +1568,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
                 - name: Dokumentu ar programmas datiem ģenerēšana
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
-            - name: 'Datu importēšana no ienākošiem failiem, izmantojot elektronisko pārskatu risinājumus'
+            - name: 'Datu importēšana no ienākošiem failiem, izmantojot ER risinājumus'
               items:
                 - name: Ienākošo dokumentu parsēšana dažādos formātos
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
@@ -1614,13 +1610,13 @@
               items:
                 - name: 'SAVIENOJUMA datu avotu izmantošana, lai iegūtu datus no vairākām programmas tabulām'
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
-                - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
+                - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
+                - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
+                - name: ER formāta parametru iestatīšana juridiskai personai
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
+                - name: ER formāta elementu izpildes atlikšana
                   items:
                     - name: Secības elementa izpildes atlikšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
@@ -1994,12 +1990,14 @@
                       href: e-commerce-extensibility/data-action-hooks.md
                 - name: Dizainu izstrāde
                   items:
-                    - name: Dizainu izstrādes apskats
+                    - name: Dizainu izstrādes pārskats
                       href: e-commerce-extensibility/theming.md
                     - name: Dizaina izveide
                       href: e-commerce-extensibility/create-theme.md
                     - name: Dizaina iestatījumu konfigurēšana
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Dizaina stila priekšiestatījumu konfigurēšana
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: 'Dizaina paplašināšana, lai pievienotu moduļa paplašinājumus'
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Dizaina paplašināšana no bāzes dizaina
@@ -2036,6 +2034,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: Commerce SDK būvējuma konveijera iestatīšana
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Bieži uzdotie jautājumi par Retail SDK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Pārdošanas punktu paplašināmība
               items:
                 - name: POS ekrāna izkārtojumi
@@ -2046,8 +2046,6 @@
                   href: install-pos-layout-designer.md
                 - name: POS duālā displeja skata paplašināšana
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Modern POS un Cloud POS trigera paplašināmība
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Pielāgotu vadīklu pievienošana POS skatiem
                   href: dev-itpro/pos-custom-control.md
                 - name: 'POS operāciju pievienošana POS izkārtojumiem, izmantojot pogu režģa noformētāju'
@@ -2082,9 +2080,9 @@
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: POS API vai operāciju izsaukšana no POS paplašinājumiem
                   href: dev-itpro/pos-api-extension.md
-                - name: Modern POS trigeri un drukāšana
+                - name: Modern POS (MPOS) trigeri un drukāšana
                   href: dev-itpro/pos-trigger-printing.md
-                - name: 'Pielāgotu vadīklu pievienošana POS skatiem, kuru pamatā nav ekrāna veidotājs'
+                - name: 'Pielāgotu vadīklu pievienošana POS skatiem, kuru pamatā ir noformētājs bez ekrāna'
                   href: dev-itpro/pos-control-non-screen.md
                 - name: POS paraugu palaišana
                   href: dev-itpro/pos-run-samples.md
