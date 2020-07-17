@@ -1,5 +1,5 @@
 ---
-title: Preču detalizētas informācijas lapu apskats
+title: Preču papildinformācijas lapu pārskats
 description: Šajā tēmā sniegts pārskats par preču detalizētas informācijas (PDP) lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025929"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527543"
 ---
-# <a name="overview-of-product-details-pages"></a>Preču detalizētas informācijas lapu apskats
-
+# <a name="product-details-pages-overview"></a>Preču papildinformācijas lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
@@ -61,17 +60,17 @@ Ieteikumu modulis ir svarīgs modulis PDP. Kamēr klienti meklē preces, tiem j�
 
 Ir pieejami dažādi ieteikumu sarakstu veidi.
 
-- Saraksts **Pircējiem patīk arī** ir balstīts uz mašīnmācību. Lai sniegtu ieteikumus, tas izmanto citu klientu transakciju vēsturi. Šo sarakstu ģenerē ieteikumu pakalpojums un tas līdzinās sarakstiem "Klientiem, kas iegādājušies šo, nopirka arī...". Lai ģenerētu šo sarakstu, ir nepieciešams preces ID.
-- Sarakstu **Saistīts** precei ir iespējams konfigurēt programmā Commerce. Piemēram, brūnai rokas ceļasomai no ādas saistītajā sarakstā var konfigurēt vairāk rokassomu, kas izgatavotas no ādas, vai paredzētas ceļošanai. Citus saistīto sarakstu veidus, piemēram, **Piederumi** un **Vairāk kā šis** arī var konfigurēt programmā Commerce. Lai ģenerētu šo sarakstu, ir nepieciešams preces ID. Tāpēc, ja tas ir pievienots sākumlapai, kur lapas konteksts neietver preces ID, saraksts būs tukšs.
+- Saraksts **Pircējiem patīk arī** ir balstīts uz mašīnmācību. Lai sniegtu ieteikumus, tas izmanto citu klientu darījumu vēsturi. Šo sarakstu ģenerē ieteikumu pakalpojums un tas līdzinās sarakstiem "Klientiem, kas iegādājušies šo, nopirka arī...". Lai ģenerētu šo sarakstu, ir nepieciešams preces ID.
+- Sarakstu **Saistīts** precei ir iespējams konfigurēt programmā Commerce. Piemēram, brūnai rokas ceļasomai no ādas saistītajā sarakstā var konfigurēt vairāk rokassomu, kas izgatavotas no ādas, vai paredzētas ceļošanai. Citus saistīto sarakstu veidus, piemēram, **Piederumi** un **Vairāk līdzīgu preču** arī var konfigurēt programmā Commerce. Lai ģenerētu šo sarakstu, ir nepieciešams preces ID. Tāpēc, ja tas ir pievienots mājas lapai, kur lapas konteksts neietver preces ID, saraksts būs tukšs.
 - Algoritmiski ģenerētie ieteikumu saraksti, piemēram, **Populārs**, **Vispirktākais** un **Jauns** var tikt izmantoti PDP. Lai gan šie saraksti var nebūt tieši saistīti ar preci PDP, tas ir cits veids, kā palīdzēt klientiem atrast preces, kas varētu to interesēt. Šiem sarakstu veidiem nav nepieciešams preces ID. Tie ir vispārēji saraksti, kas tiek ģenerēti, balstoties uz iepirkšanās paradumiem visā vietnē.
-- Redakcionālie saraksti ir manuāli pārraudzīti saraksti. Piemēram, mazumtirgotājs var nolemt manuāli pārraudzīt to preču sarakstus, ko tas vēlas parādīt.
+- Rediģējamie saraksti ir manuāli pārraudzīti saraksti. Piemēram, mazumtirgotājs var nolemt manuāli pārraudzīt to preču sarakstus, ko tas vēlas parādīt.
 
 ## <a name="ratings-and-reviews-modules"></a>Vērtējumu un apskatu moduļi
 
 Var izmantot trīs moduļus, lai parādītu un pievienotu pārskatus:
 
-- **Apskati** – Šis modulis parāda vērtējumus un apskatus, ko snieguši citi klienti. Debitori var šķirot un filtrēt pārskatus. Šis modulis ļauj arī debitoriem atzinīgi vai negatīvi novērtēt apskatus, kā arī ziņot par problēmām.
-- **Rakstīt apskati** – Šis modulis let klientiem rakstīt savus pārskatus par preci.
+- **Apskati** – Šis modulis parāda vērtējumus un apskatus, ko snieguši citi klienti. Debitori var šķirot un filtrēt pārskatus. Šis modulis ļauj arī klientiem atzinīgi vai negatīvi novērtēt apskatus, kā arī ziņot par problēmām.
+- **Rakstīt apskati** – Šis modulis ļauj klientiem rakstīt savus apskatus par preci.
 - **Vērtējumu histogramma** – šis modulis ietver histogrammu, kas parāda preces reitingu tendenci.
 
 Papildinformāciju skatiet [Pārskats par vērtējumiem un apskatiem](ratings-reviews-overview.md).
@@ -84,10 +83,8 @@ Ja mārketinga saturs ir unikāls konkrētai precei, PDP var pievienot jebkuru m
 
 [Mājas lapas pārskats](quick-tour-home-page.md)
 
-[Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats](category-search-page-overview.md)
-
 [Pārskats par grozu un norēķināšanās lapām](quick-tour-cart-checkout.md)
 
-[Pārskats par konta pārvaldības lapām](quick-tour-account-management.md)
+[Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
 
 [Preces informācijas bagātināšanas lapa](enrich-product-page.md)

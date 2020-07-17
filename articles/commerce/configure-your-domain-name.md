@@ -3,7 +3,7 @@ title: Domēna nosaukuma konfigurēšana
 description: Šajā tēmā paskaidrots, kā konfigurēt domēna nosaukumu Microsoft Dynamics365 e-komercijas vietnei.
 author: psimolin
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ad9ca3aee21301ef6d830d7b29982a45cd53f60
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: afc8c7fffbded82be32357bdeb30546afc8b0957
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096824"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533302"
 ---
 # <a name="configure-your-domain-name"></a>Domēna nosaukuma konfigurēšana
 
@@ -44,8 +44,6 @@ Lai saistītu jaunus domēnus ar savu E-komercijas vidi pēc E-komercijas inicia
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
-
-[Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 

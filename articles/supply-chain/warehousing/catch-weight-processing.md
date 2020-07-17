@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211978"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530539"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -107,7 +107,7 @@ Turklāt, ja prece tiek izsekota ar etiķeti, pastāv parametrs **Izejošo etiķ
 **Ja tiek izmantota pieļaujamā svara etiķetes izsekošanas metode**, katrai saņemtajai pieļaujamā svara vienībai vienmēr ir jāizveido etiķete un katrai etiķetei vienmēr ir jābūt saistītai ar svaru.
 
 Piemēram, tiek izmantota pieļaujamā svara vienība **Kaste** un jūs saņemat vienu paleti ar astoņām kastēm. Šādā gadījumā ir jāizveido astoņas unikālas pieļaujamā svara etiķetes un ar katru etiķeti ir jāsaista svars. Atkarībā no ienākošās plūsmas pieļaujamā svara etiķetes var noteikt visu astoņu kastu svaru un pēc tam ar katru kasti saistīt vidējo svaru vai arī katrai kastei var noteikt unikālu svaru.
-Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**, ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc noliktavas lietojumprogramma neprasa, lai tiktu tvertas pieļaujamā svara birkas kā daļa no ražošanas pārskata kā pabeigtas darbības.
+Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**, ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc noliktavas programma neprasa, lai tiktu tvertas pieļaujamā svara etiķetes kā daļa no ražošanas pārskata kā pabeigtas darbības.
 
 **Ja netiek izmantota pieļaujamā svara etiķešu izsekošanas metode**, var noteikt katras dimensiju kopas (piemēram, katras noliktavas vienības un izsekošanas dimensijas) svaru. Svaru var arī noteikt apkopotajā līmenī, piemēram, piecām noliktavas vienībām (paletēm).
 
@@ -195,7 +195,7 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 
 ### <a name="catch-weight-tags"></a>Pieļaujamā svara etiķetes
 
-Pieļaujamā svara etiķeti var izveidot, izmantojot noliktavas programmas procesu, to var manuāli izveidot veidlapā vai izveidot, izmantojot datu elementu procesu. Ja pieļaujamā svara etiķete tiek saistīta ar ienākošā pirmdokumenta rindu, piemēram, pirkšanas pasūtījuma rindu, etiķete tiek reģistrēta. Ja rinda tiek izmantota izejošai apstrādei, etiķete tiks atjaunināta, kad būs nosūtīta.
+Pieļaujamā svara etiķeti var izveidot, izmantojot noliktavas programmas procesu, to var manuāli izveidot veidlapā vai izveidot, izmantojot datu elementa procesu. Ja pieļaujamā svara etiķete tiek saistīta ar ienākošā pirmdokumenta rindu, piemēram, pirkšanas pasūtījuma rindu, etiķete tiek reģistrēta. Ja rinda tiek izmantota izejošai apstrādei, etiķete tiks atjaunināta, kad būs nosūtīta.
 
 Papildu ierobežojumiem, kas pašlaik attiecas uz pieļaujamā svara precēm, pieļaujamā svara precēm, kas ir ar etiķetēm, ir citi ierobežojumi, kas pašlaik tiek piemēroti.
 

@@ -1,9 +1,9 @@
 ---
-title: Pārskats par konta pārvaldības lapām
+title: Konta pārvaldības lapu pārskats
 description: Šajā tēmā sniegts pārskats par konta pārvaldības lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 722da2755734a85e915dd90e7868a5e1c7753f5a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002962"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527612"
 ---
-# <a name="overview-of-account-management-pages"></a>Pārskats par konta pārvaldības lapām
-
+# <a name="account-management-pages-overview"></a>Konta pārvaldības lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
@@ -53,7 +52,7 @@ Tālāk redzamajā attēlā ir parādīts lapas **Mans profils** piemērs, kura 
 
 ### <a name="addresses-page"></a>Adrešu lapa
 
-Lapa **Adreses** lapa ļauj klientam pievienot adreses savam kontam. Tā arī parāda adrešu sarakstu, kas ir iepriekš pievienotas vai saglabātas kontā. Šīs adreses ir adreses, ko klients ievadījis šajā lapā vai arī veicot pasūtījumu.
+Lapa **Adreses** lapa ļauj klientam pievienot adreses savam kontam. Tā parāda arī adrešu sarakstu, kas ir iepriekš pievienotas vai saglabātas kontā. Šīs adreses ir adreses, ko klients ievadījis šajā lapā vai arī veicot pasūtījumu.
 
 Tālāk redzamajā attēlā ir parādīts lapas **Adreses** piemērs.
 
@@ -61,7 +60,7 @@ Tālāk redzamajā attēlā ir parādīts lapas **Adreses** piemērs.
 
 ### <a name="order-history-and-order-details-pages"></a>Pasūtījumu vēstures un pasūtījuma detalizētas informācijas lapas
 
-Lapā **Pasūtījumu vēsture** parādīts visu to pasūtījumu apkopojums, ko klients iesniedzis, izmantojot savu kontu. Tas sniedz īsu kopsavilkumu par pasūtītajām precēm, apstiprinājuma numuru, pārdošanas ID, izsekošanas informāciju, ka arī citu informāciju. Ja klients vēlas skatīt detalizētāku katra pasūtījuma sadalījumu, pastāv lapa **Pasūtījuma detalizēta informācija**. Šajā lapā ir ietverta tāda informācija kā piegādes adrese, maksājuma informācija, atlaides, nodokļi un pasūtījuma piegādes izmaksas.
+Lapā **Pasūtījumu vēsture** parādīts visu to pasūtījumu apkopojums, ko klients iesniedzis, izmantojot savu kontu. Tas sniedz īsu kopsavilkumu par pasūtītajām precēm, apstiprinājuma numuru, pārdošanas ID, izsekošanas informāciju, ka arī citu informāciju. Ja klients vēlas skatīt detalizētāku katra pasūtījuma sadalījumu, ir lapa **Pasūtījuma detalizēta informācija**. Šajā lapā ir ietverta tāda informācija kā piegādes adrese, maksājuma informācija, atlaides, nodokļi un pasūtījuma piegādes izmaksas.
 
 Tālāk redzamajā attēlā ir parādīts lapas **Pasūtījumu vēsture** piemērs.
 
@@ -81,7 +80,7 @@ Tālāk redzamajā attēlā parādīts lapas **Lojalitātes programma** piemērs
 
 ### <a name="wishlist-page"></a>Vēlmju saraksta lapa
 
-Lapa **Vēlmju saraksts** parāda sarakstu ar precēm, ko klients pievienojis savam vēlmju sarakstam. Vēlmju sarakstam var pievienot gan preces, gan preču variantus. No šīs lapas klients var izņemt preci no vēlmju saraksta vai pievienot preci tieši grozam.
+Lapa **Vēlmju saraksts** parāda sarakstu ar precēm, ko klients pievienojis savam vēlmju sarakstam. Vēlmju sarakstam var pievienot gan preces, gan preču variantus. Šajā lapā klients var izņemt preci no vēlmju saraksta vai pievienot preci tieši grozam.
 
 Tālāk redzamajā attēlā parādīts lapas **Vēlmju saraksts** piemērs.
 
@@ -91,9 +90,7 @@ Lai iegūtu vairāk informācijas par konta pārvaldības moduļiem un to, kā t
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākumlapas pārskats](quick-tour-home-page.md)
-
-[Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats](category-search-page-overview.md)
+[Mājas lapas pārskats](quick-tour-home-page.md)
 
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 

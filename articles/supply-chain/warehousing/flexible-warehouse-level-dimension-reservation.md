@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346472"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530309"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervāēšanas politika
 
@@ -186,7 +186,7 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
 
     Daudzums **10**, kas paredzēts partijas numuram **B11**, tagad ir izdots pārdošanas pasūtījuma rindai un ievietots atrašanās vietā **Aizmugurējās durvis**. Šajā brīdī tas ir sagatavots iekraušanai kravas automašīnā un nosūtīšanai uz debitora adresi.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Tāda noliktavas darba iIzņēmumu apstrāde, kam ir ar pasūtījumu saistītu partiju numuri
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Tāda noliktavas darba izņēmumu apstrāde, kam ir ar pasūtījumu saistītu partiju numuri
 
 Uz noliktavas darbu ar pasūtījumu saistītu partijas numuru izdošanai attiecas tā pati standarta noliktavas izņēmuma apstrāde un darbības kā uz parastu darbu. Parasti atvērto darbu vai darba rindu var atcelt, to var pārtraukt, jo lietotāja novietojums ir pilns, tā var būt ar saīsinātu izdošanu un tā var būt atjaunināta kustības dēļ. Tāpat var tikt samazināts izdotais pabeigtā darba daudzums, vai arī darbu var atsaukt.
 

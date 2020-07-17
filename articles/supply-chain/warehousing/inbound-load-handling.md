@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261352"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530585"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
@@ -66,7 +66,7 @@ Kad noliktavā vispirms ierodas ienākošā noslodze, noliktavas darbiniekiem ir
 
 - **Mobilās ierīces izvēlne, kas ir konfigurēta, lai atbalstītu noslodzes saņemšanu**
 
-    [Dynamics 365 for Finance and Operations— Warehousing app](install-configure-warehousing-app.md) mobilajām ierīcēm atbalsta šādus darba izveides procesus:
+    [Noliktavas programma](install-configure-warehousing-app.md) mobilajām ierīcēm atbalsta šādus darba izveides procesus:
 
     - Kravas krājuma saņemšana
     - Kravas krājuma saņemšana un izvietošana
@@ -285,7 +285,7 @@ Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstie
 
 Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģistrētu ienākošos krājumus, kas ir saistīti ar noslodzi, šim nolūkam ir jāizveido mobilās ierīces izvēlnes elements.
 
-Šajā sadaļā jūs izveidosiet mobilās ierīces izvēlnes elementu un pievienosiet to esošai izvēlnei. Noliktavas darbinieks pēc tam var atlasīt izvēlnes elementu Noliktavas programmā.
+Šajā sadaļā jūs izveidosiet mobilās ierīces izvēlnes elementu un pievienosiet to esošai izvēlnei. Noliktavas darbinieks pēc tam var atlasīt izvēlnes elementu noliktavas programmā.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Mobilās ierīce \> Mobilās ierīces izvēlnes vienumi** un pārliecinieties, ka mobilās ierīces izvēlnē ir ietverts izvēlnes elements, kam ir šādi iestatījumi:
 
