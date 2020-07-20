@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "Platform atjauninājumi versijai\_10.0.11 (2020.\_gada jūlijs)"
                   href: get-started/whats-new-platform-update-35.md
-                - name: "Platform atjauninājumi versijai\_10.0.10 (2020.\_gada maijs)"
-                  href: get-started/whats-new-platform-update-34.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie platformas līdzekļi
@@ -713,9 +711,29 @@
                         - name: Notikumi
                           href: dev-ref/xpp-events.md
                     - name: X++ datu atlase un apstrāde
-                      href: dev-ref/xpp-data-query.md
-                    - name: 'Datu piekļuve, izmantojot SysDa API'
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: X++ datu atlases un apstrādes pārskats
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Izraksta atlase
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Datu atlase
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Datu ievietošana
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Datu atjaunināšana
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Datu dzēšana
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Izraksta atlase
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Izraksta atlases rakstīšana izteiksmes veidā
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Transakciju integritāte
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: 'Darbību pārvēršana no darbībām, kuru pamatā ir kopa, par darbībām, kuru pamatā ir ieraksti'
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: 'Datu piekļuve, izmantojot SysDa API'
+                          href: dev-ref/sysda.md
                     - name: X++ makro
                       href: dev-ref/xpp-macros.md
                     - name: X++ atribūtu klases
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Sistēmas klases
                   items:
-                    - name: A klases
-                      href: dev-ref/a-classes.md
-                    - name: B klases
-                      href: dev-ref/b-classes.md
-                    - name: C klases
-                      href: dev-ref/c-classes.md
-                    - name: D klases
-                      href: dev-ref/d-classes.md
-                    - name: E klases
-                      href: dev-ref/e-classes.md
-                    - name: F klases (FieldBinding līdz FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F klases (FormBuildButtonControl līdz FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F klases (FormBuildFilterPaneControl līdz FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F klases (FormBuildReferenceControl līdz FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F klases (FormChangeTracker līdz FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F klases (FormDataObject līdz FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F klases (FormFastTabSummarySeparator līdz FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F klases (FormGroupControl līdz FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F klases (FormListBoxControl līdz FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F klases (FormObject līdz FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: F klases (FormReferenceControl līdz FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F klases (FormTabControl līdz FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G klases
-                      href: dev-ref/g-classes.md
-                    - name: H klases
-                      href: dev-ref/h-classes.md
-                    - name: I klases
-                      href: dev-ref/i-classes.md
-                    - name: J klases
-                      href: dev-ref/j-classes.md
-                    - name: K klases
-                      href: dev-ref/k-classes.md
-                    - name: L klases
-                      href: dev-ref/l-classes.md
-                    - name: M klases
-                      href: dev-ref/m-classes.md
-                    - name: N klases
-                      href: dev-ref/n-classes.md
-                    - name: O klases
-                      href: dev-ref/o-classes.md
-                    - name: P klases
-                      href: dev-ref/p-classes.md
-                    - name: Q klases
-                      href: dev-ref/q-classes.md
-                    - name: R klases
-                      href: dev-ref/r-classes.md
-                    - name: S klases
-                      href: dev-ref/s-classes.md
-                    - name: T klases
-                      href: dev-ref/t-classes.md
-                    - name: U klases
-                      href: dev-ref/u-classes.md
-                    - name: V klases
-                      href: dev-ref/v-classes.md
-                    - name: W klases
-                      href: dev-ref/w-classes.md
-                    - name: X klases
-                      href: dev-ref/x-classes.md
+                    - name: Sistēmas klašu saraksts
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Alfabētiskā secībā sagrupētas sistēmas klases
+                      items:
+                        - name: A klases
+                          href: dev-ref/a-classes.md
+                        - name: B klases
+                          href: dev-ref/b-classes.md
+                        - name: C klases
+                          href: dev-ref/c-classes.md
+                        - name: D klases
+                          href: dev-ref/d-classes.md
+                        - name: E klases
+                          href: dev-ref/e-classes.md
+                        - name: F klases
+                          href: dev-ref/f-classes.md
+                        - name: G klases
+                          href: dev-ref/g-classes.md
+                        - name: H klases
+                          href: dev-ref/h-classes.md
+                        - name: I klases
+                          href: dev-ref/i-classes.md
+                        - name: J klases
+                          href: dev-ref/j-classes.md
+                        - name: K klases
+                          href: dev-ref/k-classes.md
+                        - name: L klases
+                          href: dev-ref/l-classes.md
+                        - name: M klases
+                          href: dev-ref/m-classes.md
+                        - name: N klases
+                          href: dev-ref/n-classes.md
+                        - name: O klases
+                          href: dev-ref/o-classes.md
+                        - name: P klases
+                          href: dev-ref/p-classes.md
+                        - name: Q klases
+                          href: dev-ref/q-classes.md
+                        - name: R klases
+                          href: dev-ref/r-classes.md
+                        - name: S klases
+                          href: dev-ref/s-classes.md
+                        - name: T klases
+                          href: dev-ref/t-classes.md
+                        - name: U klases
+                          href: dev-ref/u-classes.md
+                        - name: V klases
+                          href: dev-ref/v-classes.md
+                        - name: W klases
+                          href: dev-ref/w-classes.md
+                        - name: X klases
+                          href: dev-ref/x-classes.md
             - name: Paplašināmība
               items:
                 - name: Lietojumprogrammas Paplašināmība sākumlapa
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B lietotāju eksportēšana uz Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Procesu automatizācija
+              href: sysadmin/process-automation.md
             - name: Drošība
               items:
                 - name: Uz lomām balstīta drošība
@@ -1456,13 +1458,15 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Drošības lomu piešķiršana lietotājiem
                   href: sysadmin/tasks/assign-users-security-roles.md
-                - name: Drošības diagnostika uzdevumu ierakstiem
+                - name: Drošības diagnostika uzdevumu reģistrēšanai
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Procesu automatizācija
+              href: /sysadmin/process-automation.md
             - name: Pakešapstrāde
               items:
-                - name: Pakešapstrādes apskats
+                - name: Pakešapstrādes pārskats
                   href: sysadmin/batch-processing-overview.md
-                - name: Pakešapstrāde un pakešapstrādes serveri
+                - name: Pakešapstrāde un partiju serveri
                   href: sysadmin/batch-server-overview.md
                 - name: Pakešuzdevumu izveide
                   href: sysadmin/tasks/create-batch-job.md
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: "AX 2012 jaunināšana\_— Lokālas vides"
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: "AX 2012 jaunināšana\_— Pārslēgšanas testēšana"
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: "AX 2012 jaunināšana\_— Uzdevumi pēc jaunināšanas"

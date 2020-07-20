@@ -3,7 +3,7 @@ title: Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saska�
 description: Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 Finance. Šajā tēmā ir paskaidrots šis saskaņošanas process.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178867"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497149"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
 
@@ -31,24 +31,24 @@ ms.locfileid: "2178867"
 
 Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Dynamics 365 Finance. Šajā tēmā ir paskaidrots šis saskaņošanas process.  
 
-<a name="import-an-electronic-bank-statement"></a>Importētu elektronisku bankas izrakstu
+<a name="import-an-electronic-bank-statement"></a>Importēt elektronisku bankas izrakstu
 -----------------------------------
 
 Bankas izrakstus varat importēt, izmantojot darbību **Importēt izrakstu** lapā **Bankas izraksti**. Bankas konts tiek identificēts bankas izrakstā, izmantojot bankas konta rekvizītos iestatīto vērtību kombinācijas. Šīs vērtības ietver bankas nosaukumu, bankas konta numuru, maršrutēšanas numuru, Pasaules Starpbanku finanšu telekomunikāciju sabiedrības (Society for Worldwide Interbank Financial Telecommunication — SWIFT) kodu un starptautisko bankas konta numuru (International Bank Account Number — IBAN). 
 
-Varat augšupielādēt bankas izrakstu, kurā ir informācija par atsevišķu kontu vai vairākiem kontiem. Ja ir vairāki konti, konti var piederēt dažādām juridiskām personām.
+Varat augšupielādēt bankas izrakstu, kurā ir informācija par vienu vai vairākiem kontiem. Ja ir vairāki konti, konti var piederēt dažādām juridiskām personām.
 
 -   Lai importētu vienu bankas izraksta failu par vienu kontu, opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Nē**, un atlasiet bankas kontu, kas ir saistīts ar šo izrakstu. Noklikšķiniet uz **Pārlūkot**, lai atlasītu saistīto bankas izraksta failu, un pēc tam noklikšķiniet uz **Augšupielādēt**.
 -   Lai importētu vienu bankas izraksta failu par vairākiem kontiem, opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu saistīto bankas izraksta failu, un pēc tam noklikšķiniet uz **Augšupielādēt**.
 
-Ja jebkuru izraksta elektronisko failu nevar saistīt ar bankas kontu, izmantojot identifikācijas laukus, tie netiks importēti. Tomēr joprojām var importēt citus izrakstus failā. Pēc tam lietotājs saņem ziņojumu, ka bankas izrakstu importēšana neizdevās noteiktiem bankas kontiem. Ņemiet vērā, ka lietotājam, kas importē bankas izraksta failu jābūt piekļuvei juridiskai personai, lai importētu izrakstus no juridiskās personas bankas kontiem. 
+Ja nevienu izraksta elektronisko failu nevar saistīt ar bankas kontu vai ja tas ir saistīts ar vairākiem kontiem, izmantojot identifikācijas laukus, tie netiks importēti. Tomēr joprojām var importēt citus izrakstus failā. Pēc tam lietotājs saņem ziņojumu, ka bankas izrakstu importēšana neizdevās noteiktiem bankas kontiem. Ņemiet vērā, ka lietotājam, kas importē bankas izraksta failu, jābūt piekļuvei juridiskai personai, lai importētu izrakstus no juridiskās personas bankas kontiem. 
 
-Programmā Finance ar vienu darbību varat augšupielādēt arī vairākus izrakstu failus, izmantojot zip failu. Lai importētu vairākus bankas izraksta failus vairākiem kontiem, visus bankas izrakstu failus apvienojiet vienā zip failā. Dialoglodziņā **Importēt bankas izrakstus** opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu zip failu, kurā atrodas bankas izrakstu faili, un pēc tam noklikšķiniet uz **Augšupielādēt**. Importēšanas process atpazīst zip failu un augšupielādē katru tajā iekļauto izrakstu, neatkarīgi no juridiskās personas bankas konta. 
+Programmā Finance ar vienu darbību varat augšupielādēt arī vairākus izrakstu failus, izmantojot zip failu. Lai importētu vairākus bankas izraksta failus vairākiem kontiem, apvienojiet visus bankas izrakstu failus vienā zip failā. Dialoglodziņā **Importēt bankas izrakstus** opciju **Vairāku bankas kontu izrakstu importēšana visām juridiskajām personām** iestatiet uz **Jā**. Noklikšķiniet uz **Pārlūkot**, lai atlasītu zip failu, kurā atrodas bankas izrakstu faili, un pēc tam noklikšķiniet uz **Augšupielādēt**. Importēšanas process atpazīst zip failu un augšupielādē katru tajā iekļauto izrakstu, neatkarīgi no juridiskās personas bankas konta.
 
 Ir pieejama opcija **Saskaņot pēc importēšanas**. Ja šī opcija ir iestatīta uz **Jā**, tad pēc bankas izraksta augšupielādēšanas sistēma automātiski validē šo bankas izrakstu, izveido jaunu bankas darbību saskaņošanu un darblapu un izpilda noklusējuma atbilstības kārtulu kopu. Šī funkcionalitāte procesu automatizē līdz vietai, kur transakciju atbilstība ir jānosaka manuāli.
 
-## <a name="validate-the-bank-statement"></a>Validēt bankas izrakstu
-Lai pārbadītu izrakstu, lapā **Bankas izraksti** noklikšķiniet uz **Validēt**. Lai bankas izrakstus varētu saskaņot, tos ir nepieciešams validēt. Šī darbība tiek izpildīta automātiski, ja importēšanas laikā opcija **Saskaņot pēc importēšanas** tika iestatīta uz **Jā**. 
+## <a name="validate-the-bank-statement"></a>Pārbaudīt bankas izrakstu
+Lai pārbadītu izrakstu, lapā **Bankas izraksti** noklikšķiniet uz **Pārbaudīt**. Lai bankas izrakstus varētu saskaņot, tos ir nepieciešams pārbaudīt. Šī darbība tiek izpildīta automātiski, ja importēšanas laikā opcija **Saskaņot pēc importēšanas** tika iestatīta uz **Jā**. 
 
 Banka izraksta validēšana pārbauda šādu informāciju:
 
@@ -60,7 +60,7 @@ Banka izraksta validēšana pārbauda šādu informāciju:
 -   Izraksta rindu datumi atrodas starp bankas izraksta sākuma datumu un beigu datumu.
 -   Sākuma atlikumu un kopsavilkuma rindu summas ir vienādas ar beigu bilanci.
 
-Kad validēšana ir pabeigta, bankas izraksta statuss tiek mainīts uz **Validēts**. Lai bankas izrakstu varētu saskaņot, to ir nepieciešams validēt.
+Kad pārbaude ir pabeigta, bankas izraksta statuss tiek mainīts uz **Pārbaudīts**. Lai bankas izrakstu varētu saskaņot, to ir nepieciešams pārbaudīt.
 
 ## <a name="reconcile-the-bank-statement"></a>Saskaņot bankas izrakstu
 Pēc elektroniska bankas izraksta importēšanas un šī izraksta validēšanas lapā **Bankas izraksti**, varat saskaņot bankas izrakstu, izmantojot lapas **Bankas darbību saskaņošana** un **Bankas darbību saskaņošanas darblapa**. 
@@ -89,7 +89,7 @@ Ja pastāv jaunas bankas uzsāktas transakcijas, piemēram, procentu maksājumi,
 
 Transakcijām, kam ir nepareizi noteikta atbilstība, šo atbilstību varat atcelt. Atlasiet atbilstošo bankas izraksta transakciju un pēc tam noklikšķiniet uz **Atcelt atbilstības noteikšanu**. Visas saistītās transakcijas tiek pārceltas atpakaļ uz augšējiem režģiem transakcijām, kam nav noteikta atbilstība, un tiek atjauninātas kopsummas, kam ir un nav noteikta atbilstība. 
 
-Kad jūsu saskaņošanas process ir pabeigts, jums šī bankas darbību saskaņošanas darblapa ir jāatzīmē kā saskaņota.  Šis process automātiski grāmatos korekciju summas, izmantojot lapā **Bankas transakcijas tips** iestatītos kontus.  Bankas darbību saskaņošanu izrakstam var atzīmēt kā saskaņotu jebkurā laikā, pat ja pastāv bankas izraksta rindas, kas vēl nav saskaņotas.  Nesaskaņotās transakcijas tiks automātiski pārvietotas uz nākamo saskaņošanas darblapu kā nesaskaņotas bankas izraksta transakcijas, kam jāveic saskaņošana.  Ņemiet vērā, ka pēc tam, kad bankas izraksta saskaņošana ir atzīmēta kā saskaņota, to vairs nevar atsaukt.  Saskaņošana vairs nebūs rediģējama, un jūs vairs nevarēsit šai saskaņošanai veikt atjauninājumus.
+Kad saskaņošanas process ir pabeigts, jums šī bankas darbību saskaņošanas darblapa ir jāatzīmē kā saskaņota.  Šis process automātiski grāmatos korekciju summas, izmantojot lapā **Bankas transakcijas tips** iestatītos kontus.  Bankas darbību saskaņošanu izrakstam var atzīmēt kā saskaņotu jebkurā laikā, pat ja pastāv bankas izraksta rindas, kas vēl nav saskaņotas.  Nesaskaņotās transakcijas tiks automātiski pārvietotas uz nākamo saskaņošanas darblapu kā nesaskaņotas bankas izraksta transakcijas, kurām jāveic saskaņošana.  Ņemiet vērā, ka pēc tam, kad bankas izraksta saskaņošana ir atzīmēta kā saskaņota, to vairs nevar atsaukt.  Saskaņošana vairs nebūs rediģējama, un jūs vairs nevarēsit šai saskaņošanai veikt atjauninājumus.
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Grāmatot jaunas transakcijas, kas ir saistītas ar saskaņošanu
 Bankas izraksta transakcijas, kas saskaņošanas darblapā tika atzīmētas kā **Jauns**, tiek grāmatotas lapā **Bankas izraksts**. Lapā **Bankas izraksts** atlasiet izraksta ID, lai skatītu detalizētu informāciju par šo izrakstu. Izvēlnē **Uzskaite** varat izmantot opcijas **Skatīt sadales** un **Skatīt uzskaiti**, lai skatītu detalizētu informāciju par jaunajām transakcijām un saistītajiem virsgrāmatas ierakstiem. Atlasiet opciju **Grāmatot**, lai bankas izraksta rindas, kuras bija atzīmētas kā **Jauns**, grāmatotu virsgrāmatā. Ņemiet vērā, ka katram bankas izrakstam grāmatošanu var veikt tikai vienu reizi.

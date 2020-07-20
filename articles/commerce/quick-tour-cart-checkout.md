@@ -1,9 +1,9 @@
 ---
-title: Pārskats par grozu un izrakstīšanas lapām
+title: Pārskats par grozu un norēķināšanās lapām
 description: Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002939"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527569"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>Pārskats par grozu un izrakstīšanas lapām
-
+# <a name="cart-and-checkout-pages-overview"></a>Pārskats par grozu un norēķināšanās lapām
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ ms.locfileid: "3002939"
 
 ## <a name="overview"></a>Pārskats
 
-E-tirdzniecības tīmekļa vietnes groza lapā ir redzamas visas preces, ko klients pievienojis grozam. Groza lapa tiek izveidota, izmantojot groza moduli. Groza modulis ir konteiners, kas vieso visus moduļus, kas ir nepieciešami, lai parādītu grozā esošās preces. Groza modulis var arī izmantot citus moduļus, lai parādītu pasūtījumu kopsavilkumu un visus veicināšanas kodus, kas ir piemēroti klienta pasūtījumam.
+Elektroniskās tirdzniecības tīmekļa vietnes groza lapā ir redzamas visas preces, ko klients pievienojis grozam. Groza lapa tiek izveidota, izmantojot groza moduli. Groza modulis ir konteiners, kas vieso visus moduļus, kas ir nepieciešami, lai parādītu grozā esošās preces. Groza modulis var izmantot arī citus moduļus, lai parādītu pasūtījumu kopsavilkumu un visus veicināšanas kodus, kas ir piemēroti klienta pasūtījumam.
 
 E-tirdzniecības tīmekļa vietnes izrakstīšanas lapa parāda darbību secību, kam klients seko, lai ievadītu visu informāciju, kas nepieciešama pasūtījuma izvietošanai. Izrakstīšanas modulī var iekļaut moduļus, kas apstrādā piegādes adresi, piegādes metodes, norēķinu informāciju, pasūtījumu kopsavilkumu un citu informāciju, kas saistīta ar klienta pasūtījumiem.
 
@@ -77,7 +76,7 @@ Nākamā darbība izrakstīšanas plūsmā ir maksājums. E-tirdzniecībā, lai 
 
 #### <a name="loyalty-points"></a>Lojalitātes programmas punkti
 
-Izrakstīšanas plūsmas laikā klients, kurš ir lojalitātes programmas dalībnieks un kam ir uzkrāti lojalitātes punkti, var pasūtījumā izpirkt šos lojalitātes punktus. Lojalitātes punktu modulis tiek parādīts tikai tad, ja klients ir lojalitātes programmas dalībnieks. Tiem, kas nav dalībnieki, un vieslietotājiem šis modulis ir slēpts.
+Izrakstīšanas plūsmas laikā klients, kurš ir lojalitātes programmas dalībnieks un kam ir uzkrāti lojalitātes punkti, var pasūtījumā izpirkt šos lojalitātes punktus. Lojalitātes punktu modulis tiek parādīts tikai tad, ja klients ir lojalitātes programmas dalībnieks. Nereģistrētiem lietotājiem un vieslietotājiem šis modulis ir slēpts.
 
 #### <a name="gift-cards"></a>Dāvanu kartes
 
@@ -103,10 +102,8 @@ Lai iegūtu vairāk informācijas par to, kā autorēt izrakstīšanas lapu, ska
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākumlapas pārskats](quick-tour-home-page.md)
-
-[Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats](category-search-page-overview.md)
+[Mājas lapas pārskats](quick-tour-home-page.md)
 
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 
-[Pārskats par konta pārvaldības lapām](quick-tour-account-management.md)
+[Konta pārvaldības lapu pārskats](quick-tour-account-management.md)

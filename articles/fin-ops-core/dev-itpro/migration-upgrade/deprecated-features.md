@@ -3,7 +3,7 @@ title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284018"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500416"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -588,7 +588,7 @@ eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                                                     |
-| **Vai aizstāts ar citu līdzekli?**   | Nē. Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.054 paziņojuma importēšanu. |
 | **Ietekmētie produkta apgabali**         | Debitoru parādi                                                                       |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.                            |
 
@@ -621,7 +621,7 @@ Varat atlasīt importa formātu Somijas maksājumiem, lai importētu debitoru ma
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                                                     |
-| **Vai aizstāts ar citu līdzekli?**   | Nē. Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.054 paziņojuma importēšanu. |
 | **Ietekmētie produkta apgabali**         | Debitoru parādi                                                                       |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.                            |
 
@@ -632,7 +632,7 @@ Formāts, kas ir raksturīgs Somijai, tiek izmantots, lai virsgrāmatā importē
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                                                     |
-| **Vai aizstāts ar citu līdzekli?**   | Nē. Turpmākajos laidienos šis formāts tiks aizstāts ar ISO 20022 izraksta importēšanas formātiem. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.053 bankas izraksta importēšanu, izmantojot Detalizēta bankas darbību saskaņošana. |
 | **Ietekmētie produkta apgabali**         | Debitoru parādi                                                                       |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.                            |
 
@@ -698,7 +698,7 @@ Formāti Telehansa un TeleTeenus tiek izmantoti bankas maksājumu importēšanai
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                                                    |
-| **Vai aizstāts ar citu līdzekli?**   | Nē. Turpmākajos laidienos šie formāti tiks aizstāti ar ISO 20022 izraksta importēšanas formātiem. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.054 bankas paziņojuma importēšanu. |
 | **Ietekmētie produkta apgabali**         | Debitoru parādi                                                                        |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.                             |
 
@@ -784,7 +784,7 @@ Maksājumu formāti Telepay ietver kreditoru maksājumu eksportēšanu (kredīta
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                                                        |
-| **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums un debitora maksājuma formātu AvtaleGiro Norvēģijai |
+| **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Kredīta pārskaitījuma maksājuma formāts un AvtaleGiro debitora maksājuma formāts Norvēģijai, kā arī pain.002 un camt.054 bankas paziņojuma atgriešanas failu importēšana. |
 | **Ietekmētie produkta apgabali**         | Parādi kreditoriem, Debitoru parādi                                                          |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.                                 |
 
@@ -844,7 +844,7 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD un AxBC integrācijas
 
-Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Dokuments\>** klases.
+Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 | **Ietekmētie produkta apgabali**         | Visi moduļi  |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums. |
 
-### <a name="german-dtazv-payment-format"></a>Vācijas DTAZV maksājumu formāts
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Vācijas DTAZV maksājuma formāts vietējā valūtā
 
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti. |
-| **Vai aizstāts ar citu līdzekli?**   | SEPA maksājumu eksportēšana    |
-| **Ietekmētie produkta apgabali**         | Visi moduļi   |
+| **Vai ir aizstāts ar citu līdzekli?**   | SEPA maksājumu eksportēšana    |
+| **Ietekmētie produkta apgabali**         | Kreditoru parādi   |
 | **Statuss**                         | Novecojis: šim līdzeklim nav noteikts noņemšanas datums.    |
 
 ### <a name="german-mt940-import"></a>Vācu MT940 importēšana

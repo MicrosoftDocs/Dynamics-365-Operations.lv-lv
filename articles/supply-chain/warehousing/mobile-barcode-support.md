@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbaed4da3ccd17d83c002994f01829f76db0d36a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0612833391cf7690343b7180f11d49ba1ad92d24
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215750"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530447"
 ---
 # <a name="mobile-barcode-support"></a>Svītrkodu atbalsts mobilajās ierīcēs
 
 [!include [banner](../includes/banner.md)]
 
-Android ir atvērtā pirmkoda projekts, tāpēc jebkurš noliktavas svītrkodu skeneru aparatūras ražotājs var izgatavot ierīci, kurā darbojas operētājsistēma Android. Ierīce ir saderīga ar oprētājsistēmu Android tikai tad, ja tajā var palaist programmas, kas ir paredzētas Android izpildes videi.
+Android ir atvērtā pirmkoda projekts, tāpēc jebkurš noliktavas svītrkodu skeneru aparatūras ražotājs var izgatavot ierīci, kurā darbojas operētājsistēma Android. Ierīce ir saderīga ar operētājsistēmu Android tikai tad, ja tajā var palaist programmas, kas ir paredzētas Android izpildes videi.
 Taču aparatūras nodrošinātājs var izmainīt un izveidot pārklājumus Android versijai, kas tiek darbināta attiecīgajā aparatūrā. Korporācija Microsoft nevar garantēt, ka operētājsistēmai Android paredzēta svītrkodu skenēšanas mobilā programma ir saderīga ar ražotāja svītrkodu skenēšanas aparatūru un tajā darbināto Android versiju, kā arī nevar uzņemties atbildību par šādas saderības nodrošināšanu. 
 
-Programma Dynamics 365 Supply Chain Management - Warehousing ir pārbaudīta, izmantojot svītrkodu skenēšanai paredzētu Android ierīču izlasi. Šie testi ir veikti tikai ar daļu no tirgū pieejamajām ierīcēm.
+Programmas Dynamics 365 Supply Chain Management - noliktavu lietotne ir pārbaudīta, izmantojot svītrkodu skenēšanai paredzētu Android ierīču izlasi. Šie testi ir veikti tikai ar daļu no tirgū pieejamajām ierīcēm.
 
 Pirms iegādājamās aparatūras izvēles klientiem ir ieteicams testēt noliktavas skenēšanas mobilo programmu izvēlētajā aparatūrā.
 

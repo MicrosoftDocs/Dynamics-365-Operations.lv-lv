@@ -19,21 +19,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367086"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530079"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Noliktavas programmas instalēšana un savienošana
+# <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet [Noliktavas lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
-Programma Warehousing ir pieejama Google Play veikalā un Microsoft Store. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
+Noliktavas programma ir pieejama Google Play veikalā un Microsoft Store. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
 
 Šajā tēmā ir paskaidrots, kā instalēt noliktavas programmu katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
 
@@ -47,7 +47,7 @@ Noliktavas programma ir pieejama Windows un Android operētājsistēmās. Lai va
 > [!NOTE]
 > Ja ir jāatbalsta vecākas Windows ierīces, kas nevar palaist jaunāko Windows versiju, jūs joprojām varat lejupielādēt Microsoft Store noliktavas programmas versiju 1.6.3.0. Šī versija darbosies Windows 10 (UWP) novembra atjauninājumā 1511 (būvējums 10.0.10586) vai jaunākā versijā. Tomēr ņemiet vērā, ka šī noliktavas programmas versija neatbalsta savienojumu iestatījumu masveida izvietošanu. Tāpēc ir [manuāli jākonfigurē savienojums](#config-manually) katrā ierīcē, kurā darbojas šī programmas versija.
 
-## <a name="get-the-warehousing-app"></a>Noliktavas programmas iegūšana
+## <a name="get-the-warehouse-app"></a>Noliktavas programmas iegūšana
 
 Lai lejupielādētu programmu, izmantojiet vienu no šīm saitēm:
 
@@ -99,7 +99,7 @@ Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogramma
 
 Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, rīkojieties šādi.
 
-1. Izveidojiet lietotāju, kas atbilst noliktavu programmas lietotāja akreditācijas datiem:
+1. Izveidojiet lietotāju, kas atbilst noliktavas programmas lietotāja akreditācijas datiem:
 
     1. Programmatūrā Supply Chain Management dodieties uz sadaļu **Sistēmas administrēšana \> Lietotāji \> Lietotāji**.
     1. Izveidojiet lietotāju.
@@ -107,7 +107,7 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
 
     ![Piešķiriet noliktavas mobilās ierīces lietotāju](media/app-connect-app-users.png "Piešķiriet noliktavas mobilās ierīces lietotāju")
 
-1. Saistiet savu Azure AD lietojumprogrammu ar noliktavas lietotāju:
+1. Saistiet savu Azure AD lietojumprogrammu ar noliktavas programmas lietotāju:
 
     1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Azure Active Directory lietojumprogrammas**.
     1. Izveidojiet rindu.

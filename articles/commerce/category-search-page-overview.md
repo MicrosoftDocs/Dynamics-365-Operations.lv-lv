@@ -1,9 +1,9 @@
 ---
-title: Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats
+title: Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 description: Šajā tēmā ir sniegts pārskats par noklusējuma kategorijas ielādes lapu un meklēšanas rezultātu lapu programmā Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002500"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527472"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 - **Lappušu numerācija** ļauj vietnes apmeklētājiem pāriet no vienas lapas ar kategorizētā produkta rezultātiem uz citu lapu.
 - **Kopējais skaits** nodrošina kopējo preču skaitu, kas definēts kategorijā un kas atbilst meklēšanas kritērijiem.
 
+>[!NOTE]
+>Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
+![Mākoņa darbinātas meklēšanas konfigurācijas parametri](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākumlapas pārskats](quick-tour-home-page.md)
+[Mākoņa darbināts meklēšanas pārskats](cloud-powered-search-overview.md)
+
+[Mājas lapas pārskats](quick-tour-home-page.md)
 
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 
 [Pārskats par grozu un norēķināšanās lapām](quick-tour-cart-checkout.md)
 
-[Pārskats par konta pārvaldības lapām](quick-tour-account-management.md)
+[Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
 

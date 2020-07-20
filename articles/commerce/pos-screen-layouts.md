@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261471"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505638"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS lietotāja interfeisa vizuālās konfigurācijas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3261471"
 
 Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) lietotāja interfeiss (UI) var tikt konfigurēts, izmantojot gan vizuālos profilus, gan ekrāna izkārtojumus, kas ir piešķirti veikaliem, kases sistēmām un lietotājiem. Šajā tēmā ir norādīta informācija par šo konfigurāciju opcijām.
 
-Šajā attēlā ir parādīta arī saistības starp dažādām entītijām, kas veido konfigurējamus POS UI aspektus.
+Šajā attēlā ir parādītas arī saistības starp dažādām entītijām, kas veido konfigurējamus POS UI aspektus.
 
 ![POS ekrāna izkārtojuma elementi](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
@@ -84,7 +84,7 @@ Ekrāna izkārtojumus var piešķirt veikala, kases sistēmas vai lietotāja lī
 
 ### <a name="layout-sizes"></a>Izkārtojumu lielumi
 
-Lielākā daļa POS UI aspektu ir reaģētspējīgi, un izkārtojuma lielums tiek automātiski mainīts un pielāgots, pamatojoties uz ekrāna izmēriem un orientāciju. Tomēr POS **transakciju** ekrāns ir jākonfigurē atbilstoši katrai paredzētajai ekrāna izšķirtspējai.
+Lielākā daļa POS UI aspektu ir reaģētspējīgi, un izkārtojuma lielums tiek automātiski mainīts un pielāgots, pamatojoties uz ekrāna izmēriem un orientāciju. Tomēr POS **Transakciju** ekrāns ir jākonfigurē atbilstoši katrai paredzētajai ekrāna izšķirtspējai.
 
 Startēšanas laikā POS programmā tiek automātiski atlasīts ierīcei piemērotākais konfigurētais izkārtojuma lielums. Ekrāna izkārtojumā var būt ietvertas arī ainavorientācijas un portretorientācijas režīmu konfigurācijas gan lielizmēra, gan kompaktajām ierīcēm. Tāpēc lietotājus var piešķirt vienam ekrāna izkārtojumam, kas darbojas veikalā izmantotajām dažāda lieluma un formas ierīcēm.
 
@@ -101,11 +101,11 @@ Startēšanas laikā POS programmā tiek automātiski atlasīts ierīcei piemē
 > [!TIP]
 > POS ekrānam nepieciešamo izkārtojuma lielumu varat skatīt programmā. Palaidiet POS un dodieties uz **Iestatījumi \>Sesijas informācija**. POS parāda ekrāna izkārtojumu, kurš pašlaik ir ielādēts, izkārtojuma lielumu un programmas loga izšķirtspēju.
 
-![POS izkārtojumu lielumi](../commerce/media/POS-Session-Information.png)
+![POS sesijas informatīvā lapa ataino patlaban ielādēto ekrāna izkārtojumu, izkārtojuma lielumu un programmas loga izšķirtspēju](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Pogu rindas
 
-Visus ekrāna izkārtojuma lielumus var konfigurēt un piešķirt pogu rindas POS sveiciena ekrānam un **transakcijas** ekrānam. Sveiciena ekrāna pogu rindas tiek automātiski izkārtotas virzienā no kreisās puses uz labo, sākot ar zemāko numuru (1. sveiciena ekrāns) virzienā uz lielāko numuru.
+Visus ekrāna izkārtojuma lielumus var konfigurēt un piešķirt pogu rindas POS sveiciena ekrānam un **Transakcijas** ekrānam. Sveiciena ekrāna pogu rindas tiek automātiski izkārtotas virzienā no kreisās puses uz labo, sākot ar zemāko numuru (1. sveiciena ekrāns) virzienā uz lielāko numuru.
 
 Pilnos POS izkārtojumos pogu rindu novietojums ir norādīts ekrāna izkārtojuma noformētājā.
 
@@ -119,14 +119,14 @@ Katram ekrāna izkārtojuma lielumam var norādīt iekļaujamos POS UI attēlu
 
 ### <a name="screen-layout-designer"></a>Ekrāna izkārtojuma dizainers
 
-Ekrāna izkārtojuma noformētājā var konfigurēt dažādus POS **transakcijas** ekrāna aspektus visiem izkārtojuma lielumiem gan portretorientācijas, gan ainavorientācijas režīmā, kā arī pilnam un kompaktajam izkārtojumam. Ekrāna izkārtojuma noformētājam tiek izmantota tehnoloģija “ClickOnce”, lai lejupielādētu, instalētu un palaistu jaunāko programmas versiju ikreiz, kad lietotājs tai piekļūst. Noteikti pārbaudiet pārlūkprogrammas prasības attiecībā uz tehnoloģijas “ClickOnce” lietošanu. Dažām pārlūkprogrammām, piemēram, Google Chrome, ir nepieciešami paplašinājumi.
+Ekrāna izkārtojuma noformētājā var konfigurēt dažādus POS **Transakcijas** ekrāna aspektus visiem izkārtojuma lielumiem gan portretorientācijas, gan ainavorientācijas režīmā, kā arī pilnam un kompaktajam izkārtojumam. Ekrāna izkārtojuma noformētājam tiek izmantota tehnoloģija “ClickOnce”, lai lejupielādētu, instalētu un palaistu jaunāko programmas versiju ikreiz, kad lietotājs tai piekļūst. Noteikti pārbaudiet pārlūkprogrammas prasības attiecībā uz tehnoloģijas “ClickOnce” lietošanu. Dažām pārlūkprogrammām, piemēram, Google Chrome, ir nepieciešami paplašinājumi.
 
 > [!IMPORTANT]
 > Ekrāna izkārtojums ir jākonfigurē visiem izkārtojuma lielumiem, kas tiek definēti un izmantoti POS.
 
 ### <a name="full-layout-designer"></a>Pilna izkārtojuma noformētājs
 
-Pilna izkārtojuma noformētājā lietotāji var konfigurēt UI vadīklu iestatījumus un vilkt tās uz POS **transakcijas** ekrānu.
+Pilna izkārtojuma noformētājā lietotāji var konfigurēt UI vadīklu iestatījumus un vilkt tās uz POS **Transakcijas** ekrānu.
 
 ![POS pilna izkārtojuma noformētājs (ainavorientācijas režīms)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
@@ -134,7 +134,7 @@ Pilna izkārtojuma noformētājā lietotāji var konfigurēt UI vadīklu iestat�
 - **Ainavorientācija/portretorientācija** — ja POS ierīcē lietotāji var pārslēgties starp ainavorientācijas un portretorientācijas režīmiem, definējiet ekrāna izkārtojumu katram režīmam. POS automātiski nosaka ekrāna pagriešanu un parāda pareizu izkārtojumu.
 - **Izkārtojuma režģis** — POS izkārtojuma noformētājs izmanto četru pikseļu režģi. Lietotāja interfeiss kontrolē “fiksēšanu” pie režģa, kas palīdz pareizi izlīdzināt saturu.
 - **Noformētāja tālummaiņa** — noformētāja skatu var tuvināt un tālināt, lai POS ekrānā labāk saskatītu saturu. Šī funkcija ir noderīga, ja POS ekrāna izšķirtspēja ievērojami atšķiras no noformētājā izmantotās ekrāna izšķirtspējas.
-- **Rādīt/slēpt navigācijas joslu** — lai atlasītu pilnus POS izkārtojumus, varat atlasīt, vai kreisās puses navigācijas josla ir redzama **darbību** ekrānā. Šī funkcija ir noderīga displejos, kam ir mazāka izšķirtspēja. Lai iestatītu redzamību, noformētājā ar peles labo pogu noklikšķiniet uz navigācijas joslas un pēc tam atzīmējiet vai notīriet izvēles rūtiņu **Vienmēr redzams**. Ja navigācijas josla ir paslēpta, POS lietotāji joprojām var tai piekļūt, izmantojot augšējā kreisajā stūrī pieejamo izvēlni.
+- **Rādīt/slēpt navigācijas joslu** — lai atlasītu pilnus POS izkārtojumus, varat atlasīt, vai kreisās puses navigācijas josla ir redzama **Darbību** ekrānā. Šī funkcija ir noderīga displejos, kam ir mazāka izšķirtspēja. Lai iestatītu redzamību, noformētājā ar peles labo pogu noklikšķiniet uz navigācijas joslas un pēc tam atzīmējiet vai notīriet izvēles rūtiņu **Vienmēr redzams**. Ja navigācijas josla ir paslēpta, POS lietotāji joprojām var tai piekļūt, izmantojot augšējā kreisajā stūrī pieejamo izvēlni.
 
     ![Navigācijas rūts rādīšana/paslēpšana](../commerce/media/Navigation-Bar.PNG)
 
@@ -145,8 +145,8 @@ Pilna izkārtojuma noformētājā lietotāji var konfigurēt UI vadīklu iestat�
     - **Ciparu tastatūra** — ciparu tastatūra ir galvenais lietotāja ievades līdzeklis informācijas ievadīšanai POS **transakciju** ekrānā. Varat konfigurēt vadīklu tā, ka tiek rādīta visa ciparu tastatūra. Šī opcija ir piemērota ierīcēm ar skārienekrānu. Varat arī konfigurēt to tā, ka tiek rādīts tikai ievades lauks. Tādā gadījumā ievadei izmanto fizisko tastatūru. Ciparu tastatūras iestatījumi ir pieejami tikai pilnajos izkārtojumos. Kompaktajos izkārtojumos pilna ciparu tastatūra vienmēr tiek rādīta **darbību** ekrānā.
     - **Kopsummu panelis** — kopsummu paneli varat konfigurēt ar vienu vai divām kolonnām, lai tiktu parādītas tādas vērtības kā rindu skaits, atlaides summa, izmaksas, apakšsumma un nodokļi. Kompaktajā izkārtojumā tiek atbalstīta tikai viena kolonna.
     - **Ieejas plūsmas panelis** — ieejas plūsmas panelī ir ietvertas pārdošanas rindas, maksājuma rindas un piegādes informācija par precēm un pakalpojumiem, kas tiek apstrādāti POS. Varat norādīt kolonnas, platumu un novietojumu. Kompaktajos izkārtojumos var konfigurēt arī papildinformāciju, kas tiek rādīta zem galvenās rindas.
-    - **Debitora karte** — debitora kartē tiek rādīta informācija par debitoru, kas pašlaik ir saistīts ar transakciju. Debitora karti varat konfigurēt papildinformācijas slēpšanai vai parādīšanai.
-    - **Ciļņu vadīkla** — ekrāna izkārtojumam varat pievienot ciļņu vadīklu un pēc tam ievietot citas vadīklas, piemēram, ciparu tastatūru, debitora karti vai pogu režģus. Ciļņu vadīkla ir konteiners, ko paredzēts izmantot papildu satura pievienošanai ekrānam. Ciļņu vadīkla ir pieejama tikai pilnajos izkārtojumos.
+    - **Klienta karte** — klienta kartē tiek rādīta informācija par klientu, kas ir saistīts ar esošo transakciju. Klienta karti varat konfigurēt papildinformācijas slēpšanai vai parādīšanai.
+    - **Ciļņu vadīkla** — ekrāna izkārtojumam varat pievienot ciļņu vadīklu un pēc tam ievietot citas vadīklas, piemēram, ciparu tastatūru, klienta karti vai pogu režģus. Ciļņu vadīkla ir konteiners, ko paredzēts izmantot papildu satura pievienošanai ekrānam. Ciļņu vadīkla ir pieejama tikai pilnajos izkārtojumos.
     - **Attēls** — attēla vadīklu varat izmantot, lai **transakcijas** ekrānā parādītu veikala logotipu vai citu zīmolrades attēlu. Attēla vadīkla ir pieejama tikai pilnajos izkārtojumos.
     - **Ieteiktās preces** — ja videi ir konfigurēta ieteikto preču vadīkla, tā nodrošina preču ieteikumu rādīšanu, pamatojoties uz algoritmisko mācīšanos.
     - **Pielāgotā vadīkla** — pielāgotā vadīkla darbojas kā vietturis ekrāna izkārtojumā, lai sniegtu lietotājiem iespēju rezervēt vietu pielāgotam saturam. Pielāgotā vadīkla ir pieejama tikai pilnajos izkārtojumos.
@@ -159,7 +159,7 @@ Līdzīgi kā pilnā izkārtojuma noformētājā arī kompaktā izkārtojuma nof
 
 ### <a name="button-grid-designer"></a>Pogu rindas noformētājs
 
-Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sveiciena ekrānā un **darbības** ekrānā gan pilnajā, gan kompaktajā izkārtojumā. Vienu pogu rindu var izmantot visos izkārtojumos un izkārtojumu veidos. Tā pat kā ekrāna izkārtojuma noformētājam, arī pogu rindas noformētājam tiek izmantota tehnoloģija “ClickOnce”, lai lejupielādētu, instalētu un palaistu jaunāko programmas versiju ikreiz, kad lietotājs tai piekļūst. Noteikti pārbaudiet pārlūkprogrammas prasības attiecībā uz tehnoloģijas “ClickOnce” lietošanu. Dažām pārlūkprogrammām, piemēram, Google Chrome, ir nepieciešami paplašinājumi.
+Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sveiciena ekrānā un **Darbības** ekrānā gan pilnajā, gan kompaktajā izkārtojumā. Vienu pogu rindu var izmantot visos izkārtojumos un izkārtojumu veidos. Tāpat kā ekrāna izkārtojuma noformētājam, arī pogu rindas noformētājam tiek izmantota tehnoloģija “ClickOnce”, lai lejupielādētu, instalētu un palaistu jaunāko programmas versiju ikreiz, kad lietotājs tai piekļūst. Noteikti pārbaudiet pārlūkprogrammas prasības attiecībā uz tehnoloģijas “ClickOnce” lietošanu. Dažām pārlūkprogrammām, piemēram, Google Chrome, ir nepieciešami paplašinājumi.
 
 ![Pogu rindas noformētājs](../commerce/media/Button-Grid-Designer.png)
 
@@ -172,9 +172,9 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 - **Pogas rekvizīti** — varat konfigurēt pogas rekvizītus, ar peles labo pogu noklikšķinot uz pogas un izmantojot saīšņu izvēlni.
 
     > [!IMPORTANT]
-    > Dažas pogu rindas iestatījumu attiecas tikai uz Enterprise POS, bet ne uz Modern POS vai Cloud POS.
+    > Dažas pogu rindas iestatījumi attiecas tikai uz Enterprise POS, bet ne uz Modern POS vai Cloud POS.
 
-    ![Pogu rindas pogas rekvizīti](../commerce/media/Button-grid-button-properties.png)
+    ![Pogu rindas pogu rekvizīti](../commerce/media/Button-grid-button-properties.png)
 
     - **Darbība** — attiecīgo POS darbību sarakstā atlasiet darbību, kas jāizsauc, kad tiek noklikšķināts uz pogas.
 
@@ -182,7 +182,7 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 
     - **Darbības parametri** — daļa POS darbību, kad tās tiek izsauktas, izmanto papildu parametrus. Piemēram, darbībai Pievienot preci lietotāji var norādīt pievienojamo preci.
     - **Pogas teksts** — norādiet tekstu, kas POS jāparāda uz šīs pogas.
-    - **Paslēpt pogas tekstu** — atzīmējiet šo izvēles rūtiņu, lai rādītu vai paslēptu pogas tekstu. Pogas teksts bieži vien tiek paslēpts nelielām pogām, uz kurām ir attēlota tikai ikona.
+    - **Paslēpt pogas tekstu** — atzīmējiet šo izvēles rūtiņu, lai rādītu vai paslēptu pogas tekstu. Pogas teksts bieži vien tiek paslēpts pie nelielām pogām, uz kurām ir attēlota tikai ikona.
     - **Rīka padoms** — norādiet papildu palīdzības tekstu, kas tiek parādīts, kad lietotāji novieto peles rādītāju virs pogas.
     - **Izmērs kolonnās/izmērs rindās** — varat norādīt to, cik gara un plata ir poga.
 
@@ -194,7 +194,7 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
         > [!NOTE]
         > Modern POS un Cloud POS izmanto tikai **fona krāsas** un **fonta krāsas** vērtības.
 
-    - **Pogas attēls** — uz pogām var būt attēloti attēli vai ikonas. Atlasiet no pieejamiem attēliem, kas pieejami šeit: **Retail un Commerce \> Kanāla iestatījumi \> POS iestatījumi \> POS \>Attēli**.
+    - **Pogas attēls** — uz pogām var būt attēloti attēli vai ikonas. Atlasiet no pieejamiem attēliem, kas pieejami **Mazumtirdzniecība un komercija \> Kanāla iestatījumi \> POS iestatījumi \> POS \> Attēli**.
 
 ![POS pogu rindas piemērs](../commerce/media/Example-Button-Grid-In-POS.png)
 
