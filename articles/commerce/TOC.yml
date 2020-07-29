@@ -8,11 +8,11 @@
           items:
             - name: Pirms iegādes
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: Vienas versijas pakalpojuma atjauninājumi
+            - name: One Version pakalpojuma atjauninājumi
               items:
-                - name: Vienas versijas pakalpojuma atjauninājumu pārskats
+                - name: One Version pakalpojuma atjauninājumu pārskats
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
+                - name: Bieži uzdotie jautājumi par One Version pakalpojuma atjauninājumiem
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
                 - name: "Programmatūras dzīves cikla politika\_— mākonī"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Datu uzdevuma automatizēšana
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: 'ISV risinājumu nodrošināšana, izmantojot vienu versiju'
+                - name: 'ISV risinājumu nodrošināšana, izmantojot One Version'
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
-                - name: Piemērotības lietotājiem testu izveide un automatizēšana
+                - name: Lietotāju pieņemšanas testu izveide un automatizēšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Dynamics 365 Commerce priekšskatījuma vides iestatīšana
+            - name: Dynamics 365 Commerce novērtēšanas vides iestatīšana
               items:
-                - name: Dynamics 365 Commerce priekšskatījuma vides pārskats
+                - name: Dynamics 365 Commerce novērtēšanas vides pārskats
                   href: cpe-overview.md
-                - name: Dynamics 365 Commerce priekšskatījuma vides nodrošinājums
+                - name: Dynamics 365 Commerce novērtēšanas vides nodrošinājums
                   href: provisioning-guide.md
-                - name: Dynamics 365 Commerce priekšskatījuma vides konfigurēšana
+                - name: Dynamics 365 Commerce novērtēšanas vides konfigurēšana
                   href: cpe-post-provisioning.md
-                - name: BOPIS konfigurēšana Dynamics 365 Commerce vidē
+                - name: BOPIS konfigurēšana Dynamics 365 Commerce novērtēšanas vidē
                   href: cpe-bopis.md
-                - name: Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi
+                - name: Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
                   href: cpe-optional-features.md
-                - name: Bieži uzdotie jautājumi par Dynamics 365 Commerce priekšskatījuma vidi
+                - name: Dynamics 365 Commerce novērtēšanas vides BUJ
                   href: cpe-faq.md
             - name: Izvietošanas apsvērumi
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations programmas Francijā
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Atbalsta saņemšana saistībā ar Dynamics 365 Commerce
+              href: retail-support.md
             - name: Jaunināšana un N-1 atbalsts
               items:
                 - name: Jaunināšana un N-1 atbalsts programmai Commerce
@@ -188,10 +190,12 @@
           items:
             - name: Arhitektūra
               items:
-                - name: Dynamics 365 Commerce arhitektūras apskats
+                - name: Dynamics 365 Commerce arhitektūras pārskats
                   href: commerce-architecture.md
                 - name: Dynamics 365 Commerce autentifikācijas plūsmas
                   href: arch-auth-flow.md
+                - name: Dynamics 365 Commerce komponentu versiju izveides prasības
+                  href: arch-component-versioning.md
                 - name: Commerce Scale Unit arhitektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Veikala topoloģijas atlase
@@ -282,7 +286,7 @@
                   items:
                     - name: Organizācijas un organizāciju hierarhijas
                       items:
-                        - name: Organizācijas un organizāciju hierarhiju pārskats
+                        - name: Organizāciju un organizāciju hierarhiju pārskats
                           href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
                         - name: Organizācijas hierarhijas plānošana
                           href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
@@ -1550,7 +1554,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
                 - name: "Formātu izveide, lai dokumentu pārvaldības failus lietotu elektronisko pārskatu\_izvades datos"
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER izvades datos'
+                - name: "Formātu izpilde, lai dokumentu pārvaldības failus lietotu ER\_izvades datos"
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Formātu modificēšana un palaišana, lai dokumentu pārvaldības failus lietotu ER izvades datos'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
@@ -1758,7 +1762,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/commerce/toc.json
             - name: Organizācijas un organizāciju hierarhijas
               items:
-                - name: Organizācijas un organizāciju hierarhiju pārskats
+                - name: Organizāciju un organizāciju hierarhiju pārskats
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
                 - name: Organizācijas hierarhijas plānošana
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Stāvokļa kopīgošana starp moduļiem
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Datu darbību kešatmiņas iestatījumi
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Datu darbību pārlabojumi
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Datu darbību āķi
