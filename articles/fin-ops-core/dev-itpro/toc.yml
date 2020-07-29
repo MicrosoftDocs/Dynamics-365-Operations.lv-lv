@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B lietotāju eksportēšana uz Azure AD
               href: sysadmin/implement-b2b.md
-            - name: Procesu automatizācija
-              href: sysadmin/process-automation.md
             - name: Drošība
               items:
                 - name: Uz lomām balstīta drošība
@@ -1458,10 +1456,16 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Drošības lomu piešķiršana lietotājiem
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: 'Pielāgotu drošības konfigurāciju importēšana vai eksportēšana, izmantojot datu pārvaldību'
+                  href: sysadmin/import-export-customized-security.md
                 - name: Drošības diagnostika uzdevumu reģistrēšanai
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: Paplašināmās datu drošības politikas
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: Drošības politikas izveide
+                  href: sysadmin/create-simple-security-policy.md
             - name: Procesu automatizācija
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: Pakešapstrāde
               items:
                 - name: Pakešapstrādes pārskats
@@ -1582,7 +1586,7 @@
               items:
                 - name: Process pāriešanai uz jaunāko atjauninājumu
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: Ceļi uz vienu versiju
+                - name: Ceļi uz One Version
                   items:
                     - name: Pašapkalpošanās jaunināšana uz jaunāko versiju
                       href: migration-upgrade/self-service-upgrade.md
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: Filtrēšanas opcijas
                   href: user-interface/filtering.md
-                - name: PowerApps resursdatora kontrole
+                - name: Power Apps resursdatora kontrole
                   href: user-interface/powerapps-host-control.md
             - name: Logu pārvaldība
               items:

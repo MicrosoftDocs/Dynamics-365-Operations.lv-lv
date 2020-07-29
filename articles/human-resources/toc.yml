@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 8.\_jūlijs"
+          href: hr-whats-new-2020-07-08.md
         - name: "2020.\_gada 25.\_jūnijs"
           href: hr-whats-new-2020-06-23.md
         - name: "2020.\_gada 11.\_jūnijs"
@@ -239,7 +241,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
             - name: Organizācijas un organizāciju hierarhijas
               items:
-                - name: Organizācijas un organizāciju hierarhiju pārskats
+                - name: Organizāciju un organizāciju hierarhiju pārskats
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
                 - name: Organizācijas hierarhijas plānošana
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
@@ -577,5 +579,7 @@
           items:
             - name: Darbinieka un vadītāja pašapkalpošanās pārskats
               href: hr-employee-manager-self-service-overview.md
-            - name: Rediģēt personisko informāciju
+            - name: Darbinieka pašapkalpošanās darbvietas nosaukuma maiņa
+              href: hr-employee-self-service-workspace-name.md
+            - name: Personiskās informācijas rediģēšana
               href: hr-employee-manager-self-service-edit-personal-information.md

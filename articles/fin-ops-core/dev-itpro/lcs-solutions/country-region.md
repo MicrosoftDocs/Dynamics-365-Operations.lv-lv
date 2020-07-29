@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812092"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598185"
 ---
 # <a name="globalization-resources"></a>Globalizācijas resursi
 
 ## <a name="local-and-regional-deployments"></a>Vietējā un reģionālā izvietošana
 Ja jūsu valdības noteikumi nosaka citādu datu glabāšanu vai apkalpošanu nekā tas nepieciešams citām valstīm/reģioniem, iespējams, pastāv valsts/reģiona prasības, kas jāņem vērā izvietošanas laikā. Izskatiet tālāk norādītos resursus, kas var attiekties uz jums.
 
-[Microsoft Dynamics 365 Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalizācijas un normatīvie līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance and Operations programmas ietver funkcionalitāti tām valstīm/reģioniem, kas ir norādīti ceļvedī [Produktu lokalizāciju un tulkojumu pieejamības ceļvedis](https://aka.ms/dynamics_365_international_availability_deck). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
+Finance and Operations programmas ietver funkcionalitāti tām valstīm/reģioniem, kas ir norādīti ceļvedī [Produktu lokalizāciju un tulkojumu pieejamības ceļvedis](https://aka.ms/dynamics_365_international_availability_deck). Šī funkcionalitāte tiek iespējota, pamatojoties uz aktīvās juridiskās personas primāro adresi. 
 
 Šajā tēmā ir resursu saraksti, ar kuru palīdzību varat paveikt tālāk norādītās darbības. 
 - Uzzināt vairāk par valstij/reģionam specifisku risinājumu izstrādi.
@@ -66,8 +66,8 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 laidiena plāni
 [Dynamics 365 laidiena plāni](https://docs.microsoft.com/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations programmu jaunumi
-Sadaļā [Mājas lapa “Jaunumi un izmaiņas programmā Finance and Operations“](../../fin-ops/get-started/whats-new-changed.md) ir uzskaitīti līdzekļi, kas iekļauti noteiktos Finance and Operations programmu laidienos.
+#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations lietojumprogrammu jaunumi
+Risinājuma [Finance and Operations jaunumu vai izmaiņu sākumlapā](../../fin-ops/get-started/whats-new-changed.md) uzskaitīti Finance and Operations lietojumprogrammu konkrētajos laidienos iekļautie līdzekļi.
 
 ### <a name="electronic-reporting"></a>Elektroniskie pārskati
 Elektronisko pārskatu (ER) veidošanas rīks ļauj konfigurēt elektronisko dokumentu formātus saskaņā ar dažādu valstu/reģionu likumu prasībām. ER jums ļauj šos formātus pārvaldīt to lietošanas cikla laikā. Papildinformāciju skatiet kādā no tālāk norādītajām tēmām.
