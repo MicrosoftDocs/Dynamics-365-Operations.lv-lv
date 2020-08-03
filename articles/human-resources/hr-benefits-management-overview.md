@@ -3,7 +3,7 @@ title: Atvieglojumu pārvaldības pārskats
 description: Pārskats par Atvieglojumu pārvaldības līdzekli Dynamics 365 Human Resources. Piedāvājiet saviem darbiniekiem paplašinātas atvieglojumu opcijas ar ērti lietojamu tiešsaistes pieredzi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429270"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599384"
 ---
 # <a name="benefits-management-overview"></a>Atvieglojumu pārvaldības pārskats
 
@@ -59,6 +59,8 @@ Kopējā kredīta vērtība, kas noteikta brīvā režīma kredīta programmai, 
 ## <a name="configure-employee-information"></a>Darbinieku informācijas konfigurēšana
 
 Pirms varat reģistrēt darbiniekus atvieglojumos, jānorāda vajadzīgā informācija. Jums ir jāpiesaka darbinieks **Fiksētās atlīdzības plānā** tā sākuma datumā un jāatlasa **Atvieglojumu apmaksas biežums** **Nodarbinātības informācijā** veidlapā **Darbinieks**.
+
+Ja jums ir darbinieks, kurš saņem papildu atlīdzību, piemēram, komisijas, varat pievienot **Atvieglojumi gada algai** summu no darbinieka ieraksta. Human Resources izmanto **Atvieglojumi gada algai** summu, nosakot vajadzību summas, nevis fiksētās atlīdzības gada summu. **Atvieglojumi gada algai** ir jābūt derīgam no darbinieka sākuma datuma vai atvieglojumu perioda sākuma, atkarībā no tā, kurš ir vēlāks. Ja darbiniekam ir reģistrēta gan fiksēta atlīdzība, gan atvieglojumi gada algas summai, tad atvieglojumus gada algai izmantos, nosakot vajadzību summas.
 
 Kad izveidojat atvieglojumu plānu, kas izmanto likmes, kas balstītas uz dzimumu vai vecumu, jums jāievada darbinieka dzimšanas datums un dzimums, lai aprēķinātu atvieglojumu izmaksas.
 

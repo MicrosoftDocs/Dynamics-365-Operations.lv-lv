@@ -3,7 +3,7 @@ title: Finanšu pārskatu veidošanas apskats
 description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262653"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609593"
 ---
 # <a name="financial-reporting-overview"></a>Finanšu pārskatu veidošanas apskats
 
@@ -34,7 +34,7 @@ ms.locfileid: "3262653"
 <a name="accessing-financial-reporting"></a>Piekļuve finanšu atskaišu veidošanai
 -----------------------------
 
-Izvēlne **Finanšu atskaišu veidošana** atrodas šādas vietās:
+Izvēlne **Finanšu pārskatu veidošana** atrodas tālāk norādītajās vietās:
 
 -   **Virsgrāmata** &gt; **Pieprasījumi un pārskati**
 -   **Budžeta veidošana** &gt; **Pieprasījumi un pārskati** &gt; **Pamata budžeta veidošana**
@@ -45,10 +45,11 @@ Izvēlne **Finanšu atskaišu veidošana** atrodas šādas vietās:
 Lai izveidotu un ģenerētu finanšu atskaites kādai juridiskajai personai, šai juridiskajai personai jums ir jāiestata šāda informācija:
 
 -   Finanšu kalendārs
--   Virsgrāmata
+-   Ledger
 -   Kontu diagramma
 -   Valūta
 
+## <a name="granting-security-access-to-financial-reporting"></a>Drošības piekļuves piešķiršana Financial Reporting
 Finanšu atskaišu veidošanas funkcijas ir pieejamas lietotājiem, kam ir piešķirtas atbilstošās privilēģijas un pienākumi, izmantojot viņu drošības lomas. Nākamajās sadaļās šīs privilēģijas un pienākumi ir uzskaitīti kopā ar saistītajām lomām.
 
 ### <a name="duties"></a>Pienākumi
@@ -78,15 +79,26 @@ Finanšu atskaišu veidošanas funkcijas ir pieejamas lietotājiem, kam ir pieš
 | Ģenerēt finanšu pārskatus            | Ģenerēt finanšu pārskatus            | Direktors (CEO), Finanšu direktors (CFO), Grāmatvedis                                                            |
 | Skatīt finanšu pārskatus                | Pārskatīt finanšu darbību          | Nav piešķirts                                                                   |
 
-Kad lietotājs ir pievienots vai loma ir mainīta, lietotājam dažu minūšu laika ir jāspēj piekļūt finanšu atskaišu veidošanai. **Piezīme.** Visām finanšu pārskatu lomām tiek pievienota sistēmas administratora loma.
+Kad lietotājs ir pievienots vai loma ir mainīta, lietotājam dažu minūšu laika ir jāspēj piekļūt finanšu atskaišu veidošanai. 
+
+> [!NOTE]
+> Visām finanšu pārskatu lomām tiek pievienota sistēmas administratora loma.
 
 ## <a name="report-deletions-and-expirations"></a>Ziņojumu dzēšana un derīguma beigas
 Lietotāji, kas ģenerē pārskatu, var dzēst savus pārskatus. Lietotāji ar pienākumu **Uzturēt finanšu pārskata drošību** var dzēst citus pārskatus. 
 
-Versijā 10.0.8 ir ieviesta termiņa beigu datumu koncepcija. Jaunais nepieciešamais līdzeklis tiks iespējots lapā **Visi** funkciju pārvaldības darbvietas ietvaros. **Finanšu pārskata saglabāšanas politikas** līdzeklī ir šādas izmaiņas:
+Sākot ar 10.0.7 laidienu, ir ieviests jēdziens beigu datumiem. Jaunais nepieciešamais līdzeklis tiks iespējots līdzekļu pārvaldības darbvietā. Šis līdzeklis ietver šādas izmaiņas:
+
+* Jaunizveidotie pārskati tiks automātiski atzīmēti kā tādi, kuru beigu datums ir 90 dienas no to ģenerēšanas brīža.
+* Visiem esošiem pārskatiem pirms līdzekļa instalēšanas tiks piešķirts 90 dienu derīguma termiņš. Datums uz īsu laiku var tikt parādīts kā tukšs, līdz tiek palaists finanšu atskaišu pakalpojums, tiek ģenerēts pārskats un pakalpojums veic atjaunināšanu esošajiem pārskatiem ar tukšu derīguma termiņu. 
+* Lietotāji, kuriem ir **Finanšu pārskatu drošības uzturēšana**, var piekļūt šai funkcionalitātei. Jebkurš lietotājs pienākumā**Uzturēt finanšu pārskatu**, kuram ir piešķirta privilēģija **Uzturēt finanšu pārskata derīguma termiņu** būs arī iespēja labot derīguma termiņu. Pašlaik ir pieejamas divas saglabāšanas iespējas:
+   * Derīguma beigas pēc 90 dienām
+   * Iespēja iestatīt, ka pārskatam nekad nebeidzas termiņš
+
+Ja ir atlasīts beigu datums, piemēram, 90 dienas, tad tas tiek lietots 90 dienas no šodienas, kas ir atšķirīga uzvedība nekā 90 dienas, sākot no ģenerēšanas datuma, kas tika iestatīts pārskata ģenerēšanas laikā. Laidienā 10.0.8 tika ieviests beigu datumu jēdziens. Jaunais nepieciešamais līdzeklis ir iespējots lapā **Visi** līdzekļu pārvaldības darbvietā. **Finanšu pārskata saglabāšanas politikas** līdzeklī ir šādas izmaiņas:
 * Tikko izveidotie pārskati automātiski tiks atzīmēti kā tādi, kam ir derīguma termiņš 90 dienu no laika, kad tie tiek ģenerēti
 * Visiem esošiem pārskatiem pirms līdzekļa instalēšanas tiks piešķirts 90 dienu derīguma termiņš. Datums uz īsu laiku var tikt parādīts kā tukšs, līdz tiek palaists finanšu atskaišu pakalpojums, tiek ģenerēts pārskats un pakalpojums veic atjaunināšanu esošajiem pārskatiem ar tukšu derīguma termiņu. 
-* Lietotāji, kuriem ir **Finanšu pārskatu drošības uzturēšana**, var piekļūt šai funkcionalitātei. Jebkurš lietotājs pienākumā**Uzturēt finanšu pārskatu**, kuram ir piešķirta privilēģija **Uzturēt finanšu pārskata derīguma termiņu** būs arī iespēja labot derīguma termiņu. Pašlaik ir pieejamas divas saglabāšanas iespējas. 
+* Lietotāji, kuriem ir **Finanšu pārskatu drošības uzturēšana**, var piekļūt šai funkcionalitātei. Jebkurš lietotājs pienākumā**Uzturēt finanšu pārskatu**, kuram ir piešķirta privilēģija **Uzturēt finanšu pārskata derīguma termiņu** būs arī iespēja labot derīguma termiņu. Pašlaik ir pieejamas divas saglabāšanas iespējas: 
   * Derīguma beigas pēc 90 dienām.
   * Iespēja iestatīt, ka pārskatam nekad nebeidzas termiņš.
   
@@ -125,16 +137,36 @@ Finanšu atskaišu veidošana nodrošina 22 noklusējuma finanšu atskaites. Kat
 | Pieejamie budžeta līdzekļi — noklusējuma pārskats                         | Skatiet pārskatītā budžeta, faktisko izdevumu, budžeta rezervāciju un pieejamo budžeta līdzekļu detalizētu salīdzinājumu par visiem kontiem.                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Finanšu atskaišu atvēršana
-Kad noklikšķināt uz izvēlnes **Finanšu atskaišu veidošana**, tiek parādīts saraksts ar uzņēmuma noklusējuma finanšu atskaitēm. Pēc tam varat atvērt vai modificēt kādu atskaiti. Lai atvērtu kādu no noklusējuma atskaitēm, atlasiet atskaites nosaukumu. Kad atskaiti atverat pirmo reizi, tā tiek automātiski tiek ģenerēta par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2016. gada augustā, šī atskaite tiek ģenerēta par 2016. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
+Kad atlasāt izvēlni **Finanšu pārskatu veidošana**, tiek parādīts saraksts ar uzņēmuma noklusējuma finanšu pārskatiem. Pēc tam varat atvērt vai modificēt kādu atskaiti. Lai atvērtu kādu no noklusējuma atskaitēm, atlasiet atskaites nosaukumu. Kad atskaiti atverat pirmo reizi, tā tiek automātiski tiek ģenerēta par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2019. gada augustā, šī atskaite tiek ģenerēta par 2019. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finanšu atskaišu veidošana un modificēšana
-No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī noklikšķinot uz **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti tikai pārskati, kas tika izveidoti tam uzņēmumam, kuru lietojat programmā Finance. 
+No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī atlasot **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti pārskati, kas tika izveidoti uzņēmumam, kuru lietojat programmā Dynamics 365 Finance. 
 
-> [!NOTE] 
-> Datorā, kurā tiek lejupielādēts pārskatu izveides klients, ir jābūt instalētai Microsoft .NET Framework versijai 4.6.2. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345). Ja lietojat pārlūkprogrammu Chrome, lai varētu lejupielādēt pārskatu veidošanas klientu, ir jāinstalē paplašinājums ClickOnce. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Varat arī modificēt atskaiti, kas ir redzama finanšu atskaišu sarakstā. Kad ir atlasīts apgabals ap atskaites nosaukumu, darbību rūtī noklikšķiniet uz **Rediģēt**. Tiek palaista atskaišu veidotāja programma.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Problēmu novēršana, atverot pārskatu noformētāju
+Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārskatu noformētāju. Problēmas un to risināšanas darbības ir šādas.
+
+1. problēma: pārskatu noformētājs netiek sākts, atlasot **Jauns** vai **Rediģēt**.
+
+* Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes un pēc tam atlasiet **Vietnes**. Sadaļā **Vietnes pievienošana zonai** ievadiet “\*\.dynamics.com” (bez pēdiņām) un pēc tam atlasiet **Pievienot**. 
+* Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes. Apgabalā ar nosaukumu Šīs zonas drošības līmenis, mainiet opciju uz **Vidēji zems**.
+* Atspējojiet uznirstošo elementu bloķētāju savā pārlūkprogrammā.
+* Darbstacijām ir nepieciešams instalēt Visual Studio .NET 4.6.2 vai jaunāku versiju.
+
+Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345).
+* Lietojot pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmam. Ja nevarat pieteikties, izmantojot pārlūkprogrammu Chrome, izpildiet 1. problēmā aprakstītās iestatīšanas darbības, izmantojot pārlūkprogrammu Internet Explorer vai Edge. 
+
+2. problēma: lietotājam nav piešķirtas nepieciešamās atļaujas Financial Reporting izmantošanai. 
+
+* Lai pārbaudītu, vai lietotājam nav atļauju, atlasiet **Jā** kļūdai “Nevar izveidot savienojumu ar Financial Reporting serveri. Atlasiet Jā, ja vēlaties turpināt un norādīt citu servera adresi.” Pēc tam atlasiet **Savienojuma pārbaude**. Ja jums nav atļaujas, tiks parādīts ziņojums, ka “Neizdevās izveidot savienojumu. Lietotājam nav atbilstošu atļauju, lai izveidotu savienojumu ar serveri. Sazinieties ar sistēmas administratoru.”
+* Nepieciešamās atļaujas ir minētas iepriekš sadaļā [Drošības piekļuves piešķiršana Financial Reporting](#granting-security-access-to-financial-reporting). Financial Reporting drošība ir balstīta uz šīm privilēģijām. Ja jums netiks piešķirtas šīs privilēģijas, (vai cita drošības loma, kas ietver šīs privilēģijas) jums nebūs piekļuves. 
+* Integrācijas uzdevums **Uzņēmuma lietotāju nodrošinājums uzņēmumam** (kas ir arī atbildīgs par un pazīstams kā lietotāja integrācija) darbojas ar 5 minūšu intervālu. Var paiet līdz 10 minūtēm, līdz jebkuras atļaujas izmaiņas stājas spēkā Financial Reporting. 
+  Ja cits lietotājs var atvērt Pārskatu noformētāju, atlasiet **Rīki** un pēc tam atlasiet **Integrācijas statuss**. Pārbaudiet, vai integrācijas karte, “Uzņēmuma lietotāju nodrošinājums uzņēmumam” ir veiksmīgi izpildīta, jo tika piešķirta atļauja izmantot Financial Reporting. 
+* Iespējams, ka cita kļūda ir liegusi pabeigt **Dynamics lietotāja integrācija Financial Reporting lietotājā**. Iespējams, ka ir iniciēta un vēl nav pabeigta datamart atiestatīšana, vai arī ir radusies cita sistēmas kļūda. Vēlāk mēģiniet palaist procesu vēlreiz. Ja problēma joprojām pastāv, sazinieties ar sistēmas administratoru.
+
+3. problēma: ir iespējams pieteikties Pārskatu noformētājā paplašinājumā ClickOnce, bet nav iespējams pabeigt pieteikšanos Pārskatu noformētājā. 
+
+* Ievadot pieteikšanās akreditācijas datus, starpība, starp jūsu lokālajā datora iestatīto laiku un Financial Reporting servera laiku, nedrīkst pārsniegt piecas minūtes. Ja atšķirība ir lielāka par piecām minūtēm, sistēma pieteikties neļaus. 
+* Šādā gadījumā, ieteicams iespējot Windows opciju, automātiski iestatīt datora laiku. 
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Skatīt finanšu pārskatus](view-financial-reports.md)
-
-
-

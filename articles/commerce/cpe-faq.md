@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce priekšskatījuma vides BUJ
-description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
+title: Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi
+description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce novērtējuma vidi.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254728"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599768"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce priekšskatījuma vides BUJ
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
+Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce novērtējuma vidi.
 
-**Vai es varu pārsūtīt savu ielūgumu uz Commerce priekšskatījuma vidi citam nomniekam?**
+**Vai mēs varam izmantot Commerce novērtējuma vidi kā e-komercijas vitrīnu klientiem, kas pašlaik ievieš mazumtirdzniecību?**
 
-Jā. Uzaicinājumu pārsūtīšanai varat izmantot veidlapu [Commerce priekšskatījuma pārsūtīšanas veidlapa](https://aka.ms/Dynamics365CommercePreviewTransferForm).
+Nr.p.k. Commerce novērtējuma vide ir paredzēta tikai novērtēšanai. Ja jums ir nepieciešama vide, kurā tiek ieviesta mazumtirdzniecība, sazinieties ar Microsoft.
 
-**Cik ilgi notiek uzaicinājuma pārsūtīšana?**
+**Vai Commerce novērtējuma vidi var izmantot, lai nodrošinātu e-komercijas funkcijas papildu esošajam pieteikumam/videi, kas ievieš mazumtirdzniecību?**
 
-Pārsūtīšana ilgst vidēji aptuveni trīs līdz piecas darba dienas. Tomēr var tikt piemēroti izņēmumi.
+Nē (galvenokārt). Commerce novērtēšanas komponenti ir pieejami tikai vidēm, kas atbilst konfigurācijām, kas norādītas priekšnosacījumos un nodrošināšanas ceļvedī. Turklāt nepieciešamie bāzes demonstrācijas dati nebūs pieejami vidēs, kas tika izvietotas ar sākotnējo laidienu, kas ir agrāks par 10.0.8. 
 
-**Vai Commerce priekšskatījuma vide darbojas ar Dynamics 365 Finance vai Dynamics 365 piegādes ķēdes projektiem?**
+**Kādas izmaksas ir saistītas ar Commerce novērtējuma vides izvietošanu pakalpojumā Microsoft Azure, izmantojot Microsoft Dynamics Lifecycle Services (LCS)?**
 
-Nr.p.k. Commerce priekšskatījuma vide darbojas tikai ar Dynamics 365 Retail projektiem.
+Tradicionālā Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce Headquarters demonstrācijas vide (virtuālā mašīna \[VM\]) tiks viesota jūsu Azure abonementā. Lai novērtētu šīs izmaksas, varat izmantot [Azure cenu kalkulatoru](https://azure.microsoft.com/pricing/calculator/).
 
-**Vai mēs varam izmantot Commerce priekšskatījuma vidi kā e-komercijas vitrīnu klientiem, kas pašlaik ievieš mazumtirdzniecību?**
+Citi komponenti, piemēram, Commerce Scale Unit, Commerce vietņu veidotājs un jūsu e-komercijas vietne būs pieejama kā programmatūras pakalpojums (SaaS) un tiks viesoti Microsoft.
 
-Nr.p.k. Commerce priekšskatījuma vide ir tikai novērtēšanas vide. Ja jums ir nepieciešama vide, kurā tiek ieviesta mazumtirdzniecība, sazinieties ar Microsoft.
+**Kuras Azure ģeogrāfiskās īpašības pašlaik tiek atbalstītas Commerce novērtējuma videi?**
 
-**Vai Commerce priekšskatījuma vidi var izmantot, lai, nodrošinot e-komercijas funkcijas papildu esošajam pieteikumam/videi, kas ievieš mazumtirdzniecību?**
-
-Nr.p.k. Commerce priekšskatījuma vide pašlaik ir pieejama tikai jaunajās vidēs, kas tika izvietotas mazumtirdzniecības noliktavas vienības (SKU) projektu ietvaros, kuros ir demonstrācijas dati no versijas 10.0.6.
-
-**Kādas izmaksas ir saistītas ar Commerce priekšskatījuma vides izvietošanu pakalpojumā Microsoft Azure, izmantojot Microsoft Dynamics Lifecycle Services (LCS)?**
-
-Mazumtirdzniecība ir vienīgais komponents, kas tiek viesots jūsu abonementā. Citi komponenti, piemēram Retail Cloud Scale Unit (RCSU) un e-komercija, tiks viesoti Microsoft abonementos. Lai novērtētu šīs izmaksas, varat izmantot [Azure cenu kalkulatoru](https://azure.microsoft.com/pricing/calculator/).
-
-**Kuras Azure ģeogrāfiskās īpašības pašlaik tiek atbalstītas Commerce priekšskatījuma videi?**
-
-Commerce priekšskatījuma vidi var izvietot tikai Ziemeļamerikā.
+Commerce novērtējuma vidi var izvietot tikai Ziemeļamerikā.
 
 **Vai ir lejupielādējams virtuāls cietais disks (VHD), kurā ir pilnīga OneBox virtuālās mašīnas (VM) opcija?**
 
-Dynamics 365 Retail Cloud Scale Unit (RCSU) un e-komercija ir pilnīgi programmatūras pakalpojumu (SaaS), un tiem ir jābūt viesotiem mākonī.
+Dynamics 365 Commerce un Commerce Scale Unit ir pilnīgi programmatūras pakalpojumi (SaaS), un tiem ir jābūt viesotiem mākonī.
 
-**Cik ilgi var izmantot Commerce priekšskatījuma vidi?**
+**Cik ilgi var izmantot Commerce novērtējuma vidi?**
 
-Commerce priekšskatījuma videi ir noteikts 30 dienu laika ierobežojums no e-komercijas nodrošināšanas dienas.
+Commerce novērtējuma videi ir 30 dienu laika ierobežojums no datuma, kad tiek nodrošināti SaaS komponenti, piemēram, Commerce Scale Unit, Commerce vietņu veidotājs un jūsu e-komercijas vietne.
 
-**Vai es varu pagarināt laika ierobežojumu savai Commerce priekšskatījuma videi?**
+**Vai es varu pagarināt laika ierobežojumu savai Commerce novērtējuma videi?**
 
-Jā. Varat sazināties ar atbalsta grupu, izmantojot [Commerce priekšskatījuma pagarināšanas veidlapa](https://aka.ms/Dynamics365CommercePreviewExtensionForm).
-
-**Vai mēs varam izveidot vairākus pieprasījumus Commerce priekšskatījuma videi?**
-
-Katram apstiprinātajam pieprasījumam mēs piešķiram vienas Commerce priekšskatījuma vides kvotu. Ja jums ir nepieciešama vairāk nekā viena priekšskatījuma vide, sazinieties ar Microsoft. Kontaktinformāciju skatiet nākamajā sadaļā.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce priekšskatījuma vides kontaktinformāciju
-
-Ja jums ir jautājumi vai pieprasījumi, kas saistīti ar Commerce priekšskatījuma vidi, sazinieties ar Microsoft, apmeklējot [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupu](https://aka.ms/Dynamics365CommercePreviewYammer), lai saņemtu palīdzību.
+Laika ierobežojuma pagarināšana ir normas izņēmums un tiek apsvērti katrā gadījumā atsevišķi. Lai saņemtu palīdzību, sazinieties ar Microsoft partnera kontaktpersonu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Dynamics 365 Commerce priekšskatījuma vides pārskats](cpe-overview.md)
+[Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
 
-[Dynamics 365 Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
+[Dynamics 365 Commerce novērtējuma vides nodrošināšana](provisioning-guide.md)
 
-[Dynamics 365 Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
+[Dynamics 365 Commerce novērtējuma vides konfigurācija](cpe-post-provisioning.md)
 
-[Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi](cpe-optional-features.md)
+[BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
+
+[Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)

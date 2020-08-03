@@ -3,7 +3,7 @@ title: Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Kredītu un iekasēšanas pārvaldība. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278878"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598062"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 
@@ -47,9 +47,10 @@ Pēc noklusējuma tiek rādīti pašreizējā uzņēmuma kredītu un iekasēšan
 Lai dati tiktu rādīti darbvietas **Debitoru kredīti un iekasēšana** Power BI vizuālajos līdzekļos, ir jāveic tālāk norādītā iestatīšana.
 
 1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
-2. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata** un iestatiet vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
-3. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
-4. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **CustCollectionsBIMeasurementsV2**.
+2. Lai validētu finanšu kalendāra datumus, kas piešķirti aktīvajam laika periodam, dodieties uz **Virsgrāmata > Kalendāri > Finanšu kalendāri**.
+3. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata** un iestatiet vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
+4. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
+5. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 

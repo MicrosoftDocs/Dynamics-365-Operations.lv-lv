@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386111"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555175"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 14. maijs)
 
@@ -110,3 +110,10 @@ Pamatojuma kodi ir pievienoti uzkrāšanas apturēšanai.
 ## <a name="carry-forward-rules"></a>Pārnešanas kārtulas
 
 Jūs varat norādīt pārnešanas atvaļinājuma veidu pārnešanas bilancēm, ja pārnestās korekcijas tiek pārsūtītas. Piemēram, ja darbinieks pārnes 10 dienas, jūs varat izvēlēties citu atvaļinājuma veidu šīm 10 dienām. Papildinformāciju skatiet [Atvaļinājumu un prombūtnes veidu konfigurēšana](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>Skatiet arī
+
+[Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
+[Līdzekļu pārvaldība](hr-admin-manage-features.md)

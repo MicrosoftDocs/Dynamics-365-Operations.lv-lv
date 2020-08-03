@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225155"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555055"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources (2020. gada 3. aprīlis)
 
@@ -128,3 +128,10 @@ Ja dokumenta priekšskatījums dokumentiem, kas saglabāti SharePoint programmā
 3. Lai sāktu dokumenta priekšskatījumu, piekļūstiet SharePoint pielikumam.
 
 4. Piesakieties ar citu lietotāja kontu, kam ir piekļuve pielikumiem, un apstipriniet, ka priekšskatījums darbojas kā paredzēts.
+
+## <a name="see-also"></a>Skatiet arī
+
+[Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
+[Līdzekļu pārvaldība](hr-admin-manage-features.md)

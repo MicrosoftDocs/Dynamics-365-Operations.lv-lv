@@ -3,7 +3,7 @@ title: Kreditoru maksājumu darbvieta
 description: Šajā tēmā ir sniegta informācija par darbvietu Kreditoru maksājumi. Darbvietā Kreditoru maksājumi tiek rādīta informācija, kas ir saistīta ar kreditoru maksājumu apstrādi.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225017"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598113"
 ---
 # <a name="vendor-payments-workspace"></a>Kreditoru maksājumu darbvieta
 
@@ -34,9 +34,10 @@ Darbvietā **Kreditoru maksājumi** tiek rādīta informācija, kas ir saistīta
 
 Lai datus varētu parādīt sadaļas **Kreditoru maksājumi** Power BI vizuālajos līdzekļos, ir jāizpilda tālāk aprakstītā iestatīšana.
 1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
-2. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**. 
-2. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
-3. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve**, lai atsvaidzinātu apkopošanas mērījumu **VendPaymentBIMeasureV2**. 
+2. Lai validētu finanšu kalendāra datumus, kas piešķirti aktīvajam laika periodam, dodieties uz **Virsgrāmata > Kalendāri > Finanšu kalendāri**.
+3. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**. 
+4. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
+5. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve**, lai atsvaidzinātu apkopošanas mērījumu **VendPaymentBIMeasureV2**.
 
 ## <a name="my-work-view"></a>Skats Mans darbs
 

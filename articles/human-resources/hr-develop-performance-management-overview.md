@@ -3,7 +3,7 @@ title: Veiktspējas pārvaldība
 description: Veiktspējas pārvaldības process darbiniekiem ļauj dokumentēt savu veiktspēju un apspriest to ar savu vadītāju. Savukārt vadītāji pēc tam darbiniekiem var sniegt atsauksmes un ieteikumus.
 author: andreabichsel
 manager: AnnBe
-ms.date: 12/11/2019
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
+ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430444"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3609776"
 ---
 # <a name="performance-management"></a>Veiktspējas pārvaldība
 
@@ -145,9 +145,9 @@ Mērījumu lapā varat izveidot standarta mērījumus, kas tiks izmantoti lapās
 
 ### <a name="performance-journal-source-types"></a>Veiktspējas žurnāla avotu veidi
 
-Veiktspējas žurnāla avotu veidi apraksta, no kurienes veiktspējas žurnāls rodas. Varat redzēt, vai žurnāla elementu pēc noklusējuma varēs redzēt tikai vadītājs, tikai darbinieks, vai gan vadītājs, gan darbinieks. Varat arī iespējot vai atspējot līdzekli Sūtīt uzslavu, mainot uzslavas avota veidu. Pašlaik citus avota veidus nevar atspējot.
+Veiktspējas žurnāla avotu veidi apraksta, no kurienes veiktspējas žurnāls rodas. Varat redzēt, vai žurnāla elementu pēc noklusējuma varēs redzēt tikai vadītājs, tikai darbinieks, vai gan vadītājs, gan darbinieks. Pašlaik avota veidus nevar atspējot.
 
-### <a name="review-types"></a>Pārskatu tipi
+### <a name="review-types"></a>Pārskatīšanas tipi
 
 Veiktspējas pārskatu tipi jums palīdzēt kontrolēt pārskata uzvedību. Varat iespējot vai atspējot darbplūsmu kādam pārskatam. Ja pārskatā netiek izmantota darbplūsma, varat definēt noklusējuma statusu, kas tiks izmantots, veidojot šo pārskatu. Varat arī izlemt, vai pārskata izrakstīšana ir jāveic darbiniekam, vadītājam, vai viņiem abiem.
 

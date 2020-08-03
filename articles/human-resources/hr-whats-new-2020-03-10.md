@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124020"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555262"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 10. marts)
 
@@ -97,3 +97,10 @@ Tālāk norādītie priekšskatījuma līdzekļi ir pieejami 2020. gada 3. febru
 - Ieteicamie lauki — Lietotājiem bieži ir jāpievieno lauki režģim vai lapai. Tas var būt sarežģīti ar tik daudziem pieejamiem laukiem. Tā vietā, lai meklētu pēc liela saraksta, šis līdzeklis ļauj sistēmai pāriet pāri ieteicamo lauku kopai, pamatojoties uz to, ko citi lietotāji visbiežāk pievieno līdzīgos scenārijos.
 
 - Sticky noklusējuma darbības režģos - Šī funkcija nodrošina, ka noklusējuma darbība režģī tiek sasaistīta ar konkrētu kolonnu režģī neatkarīgi no tā, vai šī kolonna tiek pārvietota vai paslēpta.
+
+## <a name="see-also"></a>Skatiet arī
+
+[Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
+[Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
+[Līdzekļu pārvaldība](hr-admin-manage-features.md)

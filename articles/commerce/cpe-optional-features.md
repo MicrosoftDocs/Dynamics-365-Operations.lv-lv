@@ -1,9 +1,9 @@
 ---
-title: Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi
-description: Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce priekšskatījuma videi.
+title: Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
+description: Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce novērtējuma videi.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057744"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599824"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce priekšskatījuma videi.
+Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce novērtējuma videi.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
 Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk minētie priekšnosacījumi.
 
-- Jums ir pieejams e-pasta serveris (vienkāršā pasta pārsūtīšanas protokola \[SMTP\] serveris), kuru var izmantot no Microsoft Azure abonementa, kur nodrošināt priekšskatījuma vidi.
+- Jums ir pieejams e-pasta serveris (vienkāršā pasta pārsūtīšanas protokola \[SMTP\] serveris), kuru var izmantot no Microsoft Azure abonementa, kurā tika nodrošināta novērtējuma vide.
 - Jums ir pieejams pilnībā kvalificēts servera domēna nosaukums (FQDN)/IP adrese, SMTP porta numurs un autentifikācijas informācija.
-
-Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot jaunus visu kanālu attēlus, jums ir jābūt pieejamam satura pārvaldības sistēmas (CMS) nomnieka nosaukumam. Tālāk šajā tēmā sniegti norādījumi, kā atrast šo nosaukumu. >>>(J: kur ir norādījumi?)
 
 ## <a name="configure-the-image-back-end"></a>Attēla aizmugures konfigurēšana
 
@@ -47,9 +44,9 @@ Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot
 > [!NOTE]
 > Lai varētu pabeigt šo procedūru, jums ir jāizpilda darbības, kas norādītas sadaļā [Savas vietnes iestatīšana pakalpojumā Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Piesakieties Commerce vietnes pārvaldības rīkā, izmantojot URL vietrādi, kuru atzīmējāt, kad nodrošināšanas laikā inicializējāt e-Commerce (skatiet [e-Commerce inicializēšana](provisioning-guide.md#initialize-e-commerce)).
+1. Piesakieties Commerce vietņu veidotājā, izmantojot URL vietrādi, kuru atzīmējāt, kad nodrošināšanas laikā inicializējāt e-komerciju (skatiet [e-komercijas inicializēšana](provisioning-guide.md#initialize-e-commerce)).
 1. Atveriet vietni **Fabrikam**.
-1. Kreisās puses izvēlnē atlasiet **Līdzekļi**.
+1. Kreisās puses izvēlnē atlasiet **Multivides bibliotēka**.
 1. Atlasiet jebkuru atsevišķu attēla līdzekli.
 1. Rekvizītu inspektors labajā pusē atrodiet rekvizītu **Publiskais URL**. Vērtība ir vietrādis URL. Tas ir piemērs:
 
@@ -63,22 +60,22 @@ Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot
 
 ### <a name="update-the-media-base-url"></a>Multivides bāzes URL atjaunināšana
 
-1. Pierakstieties programmā Dynamics 365 Commerce.
+1. Pieteikšanās Commerce Headquarters.
 1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Kanālu iestatīšana \> Kanālu profili**.
 1. Atlasiet **Rediģēt**.
 1. Sadaļā **Profila rekvizīti** aizstājiet rekvizīta **Multivides servera bāzes URL** vērtību ar iepriekš izveidoto multivides bāzes URL.
-1. Kreisas puses saraksta kanālā **Noklusējums** atlasiet citu kanālu.
+1. Atlasiet kanālu ar nosaukumu **scXXXXXXXXX**.
 1. Sadaļā **Profila rekvizīti** atlasiet **Pievienot**.
 1. Rekvizītam, kas tika pievienots, atlasiet **Multivides servera bāzes URL** kā rekvizīta atslēgu. Kā rekvizīta vērtību ievadiet iepriekš izveidoto multivides bāzes vietrādi URL.
 1. Atlasiet **Saglabāt**.
 
-## <a name="configure-the-email-server"></a>E-pasta servera konfigurēšana
+## <a name="configure-and-test-the-email-server"></a>E-pasta servera konfigurācija un testēšana
 
 > [!NOTE]
 > Šeit ievadītajam SMTP serverim vai e-pasta pakalpojumam jābūt pieejamam no Azure abonementa, kuru izmantojat videi.
 
-1. Pieteikšanās Commerce.
-1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Sistēmas administrācija \> Iestatījumi \> E-pasts \> E-pasta parametri**.
+1. Pieteikšanās Commerce Headquarters.
+1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz **Moduļi \> Retail un Commerce \> Headquarters iestatīšana \> Parametri \> E-pasta parametri**.
 1. Cilnes **SMTP iestatījumi** laukā **Izejošā pasta serveris** ievadiet SMTP servera vai e-pasta pakalpojuma FQDN vai IP adresi.
 1. Laukā **SMTP porta numurs** ievadiet porta numuru. (Ja neizmantojat drošligzdu slāņa \[SSL\], noklusējuma porta numurs ir **25**.)
 1. Ja autentifikācija ir nepieciešama, ievadiet vērtības laukos **Lietotājvārds** un **Parole**.
@@ -92,8 +89,8 @@ Ja vēlaties novērtēt digitālās līdzekļu pārvaldības funkcijas, uzņemot
 
 Katram darījuma notikumam, kuram vēlaties sūtīt e-pasta ziņojumus, jums ir jāatjaunina e-pasta veidne ar derīgu sūtītāja e-pasta adresi.
 
-1. Pieteikšanās Commerce.
-1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz sadaļu **Moduļi \> Organizācijas administrācija \> Iestatījumi \> Organizācijas e-pasta veidnes**.
+1. Pieteikšanās Commerce Headquarters.
+1. Izmantojiet izvēlni kreisajā pusē, lai dotos uz **Moduļi \> Retail un Commerce \> Headquarters iestatīšana \> Parametri \> Organizācijas e-pasta veidnes**.
 1. Atlasiet **Rādīt sarakstu**.
 1. Katrai veidnei sarakstā izpildiet tālākās transakcijas.
 
@@ -104,9 +101,9 @@ Katram darījuma notikumam, kuram vēlaties sūtīt e-pasta ziņojumus, jums ir 
 
 ## <a name="customize-email-templates"></a>E-pasta veidņu pielāgošana
 
-Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādus attēlus. Vai arī, iespējams, vēlēsieties atjaunināt veidņu saites, lai tās novirzītu uz priekšskatījuma vidi. Šī procedūra izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
+Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādus attēlus. Varat arī atjaunināt veidņu saites, lai tās pārvietotu uz novērtējuma vidi. Šī procedūra izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
 
-1. Sava datora tīmekļa pārlūkprogrammā lejupielādējiet [Microsoft Dynamics 365 Commerce priekšskatījuma noklusējuma e-pasta veidnes .zip failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
+1. Sava datora tīmekļa pārlūkprogrammā lejupielādējiet [Microsoft Dynamics 365 Commerce novērtējuma noklusējuma e-pasta veidnes .zip failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
 
     - Pasūtījuma apstiprinājuma veidne
     - Dāvanu kartes izsniegšanas veidne
@@ -161,7 +158,7 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 | Preču saraksts — sākums   | \<!--%tablebegin.salesline% --\> |
 | Preču saraksts — beigas     | \<!--%tableend.salesline%--\> |
 | Preces nosaukums           | %lineproductname% |
-| Apraksts            | %lineproductdescription% |
+| apraksts            | %lineproductdescription% |
 | Daudzums               | %linequantity% |
 | Rindas vienības cena        | %lineprice% (verificēt) |
 | rindas preču kopsumma        | %linenetamount% |
@@ -173,13 +170,15 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Dynamics 365 Commerce priekšskatījuma vides pārskats](cpe-overview.md)
+[Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
 
-[Dynamics 365 Commerce priekšskatījuma vides nodrošināšana](provisioning-guide.md)
+[Dynamics 365 Commerce novērtējuma vides nodrošināšana](provisioning-guide.md)
 
-[Dynamics 365 Commerce priekšskatījuma vides konfigurēšana](cpe-post-provisioning.md)
+[Dynamics 365 Commerce novērtējuma vides konfigurācija](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce priekšskatījuma vides BUJ](cpe-faq.md)
+[BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
+
+[Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

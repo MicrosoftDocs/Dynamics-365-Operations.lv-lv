@@ -2,7 +2,7 @@
 title: Apstiprināt un pārsūtīt
 description: Šajā tēmā ir paskaidrots, kā izmantot līdzekli apstiprināt un pārsūtīt, kas ļauj lietotājiem nosūtīt kravas no noliktavas, pirms tiek aizpildīts viss ar šīm kravām saistītais darbs.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 488eed23972022f9437e62a462ae5f70d6833a67
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc5dcec7e50f43d3c17feef55967b32b8a261cdd
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530562"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597364"
 ---
 # <a name="confirm-and-transfer"></a>Apstiprināt un pārsūtīt
 
