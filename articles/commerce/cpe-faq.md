@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce priekšskatījuma vides BUJ
-description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.
+title: Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi
+description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce novērtējuma vidi.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254728"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599768"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a><span data-ttu-id="bcf29-103">Dynamics 365 Commerce priekšskatījuma vides BUJ</span><span class="sxs-lookup"><span data-stu-id="bcf29-103">Dynamics 365 Commerce preview environment FAQ</span></span>
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a><span data-ttu-id="20e36-103">Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi</span><span class="sxs-lookup"><span data-stu-id="20e36-103">Dynamics 365 Commerce evaluation environment FAQ</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="bcf29-104">Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce priekšskatījuma vidi.</span><span class="sxs-lookup"><span data-stu-id="bcf29-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce preview environment.</span></span>
+<span data-ttu-id="20e36-104">Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce novērtējuma vidi.</span><span class="sxs-lookup"><span data-stu-id="20e36-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
-<span data-ttu-id="bcf29-105">**Vai es varu pārsūtīt savu ielūgumu uz Commerce priekšskatījuma vidi citam nomniekam?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-105">**Can I transfer my invitation for the Commerce preview environment to another tenant?**</span></span>
+<span data-ttu-id="20e36-105">**Vai mēs varam izmantot Commerce novērtējuma vidi kā e-komercijas vitrīnu klientiem, kas pašlaik ievieš mazumtirdzniecību?**</span><span class="sxs-lookup"><span data-stu-id="20e36-105">**Can we use the Commerce evaluation environment as an e-Commerce storefront for customers that currently implement Retail?**</span></span>
 
-<span data-ttu-id="bcf29-106">Jā.</span><span class="sxs-lookup"><span data-stu-id="bcf29-106">Yes.</span></span> <span data-ttu-id="bcf29-107">Uzaicinājumu pārsūtīšanai varat izmantot veidlapu [Commerce priekšskatījuma pārsūtīšanas veidlapa](https://aka.ms/Dynamics365CommercePreviewTransferForm).</span><span class="sxs-lookup"><span data-stu-id="bcf29-107">For invitation transfers, you can use the [Commerce preview transfer form](https://aka.ms/Dynamics365CommercePreviewTransferForm).</span></span>
+<span data-ttu-id="20e36-106">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="20e36-106">No.</span></span> <span data-ttu-id="20e36-107">Commerce novērtējuma vide ir paredzēta tikai novērtēšanai.</span><span class="sxs-lookup"><span data-stu-id="20e36-107">The Commerce evaluation environment is only for evaluation.</span></span> <span data-ttu-id="20e36-108">Ja jums ir nepieciešama vide, kurā tiek ieviesta mazumtirdzniecība, sazinieties ar Microsoft.</span><span class="sxs-lookup"><span data-stu-id="20e36-108">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
 
-<span data-ttu-id="bcf29-108">**Cik ilgi notiek uzaicinājuma pārsūtīšana?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-108">**How long does the invitation transfer take?**</span></span>
+<span data-ttu-id="20e36-109">**Vai Commerce novērtējuma vidi var izmantot, lai nodrošinātu e-komercijas funkcijas papildu esošajam pieteikumam/videi, kas ievieš mazumtirdzniecību?**</span><span class="sxs-lookup"><span data-stu-id="20e36-109">**Can the Commerce evaluation environment be used to provision the e-Commerce features on top of an existing application/environment that implements Retail?**</span></span>
 
-<span data-ttu-id="bcf29-109">Pārsūtīšana ilgst vidēji aptuveni trīs līdz piecas darba dienas.</span><span class="sxs-lookup"><span data-stu-id="bcf29-109">The transfer takes an average of approximately three to five business days.</span></span> <span data-ttu-id="bcf29-110">Tomēr var tikt piemēroti izņēmumi.</span><span class="sxs-lookup"><span data-stu-id="bcf29-110">However, exceptions might apply.</span></span>
+<span data-ttu-id="20e36-110">Nē (galvenokārt).</span><span class="sxs-lookup"><span data-stu-id="20e36-110">No (mostly).</span></span> <span data-ttu-id="20e36-111">Commerce novērtēšanas komponenti ir pieejami tikai vidēm, kas atbilst konfigurācijām, kas norādītas priekšnosacījumos un nodrošināšanas ceļvedī.</span><span class="sxs-lookup"><span data-stu-id="20e36-111">The Commerce evaluation components are available only to environments that match the configurations that are specified in the prerequisites and provisioning guide.</span></span> <span data-ttu-id="20e36-112">Turklāt nepieciešamie bāzes demonstrācijas dati nebūs pieejami vidēs, kas tika izvietotas ar sākotnējo laidienu, kas ir agrāks par 10.0.8.</span><span class="sxs-lookup"><span data-stu-id="20e36-112">Additionally, the required base demo data won't be available in environments that were deployed with an initial release that is earlier than 10.0.8.</span></span> 
 
-<span data-ttu-id="bcf29-111">**Vai Commerce priekšskatījuma vide darbojas ar Dynamics 365 Finance vai Dynamics 365 piegādes ķēdes projektiem?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-111">**Does the Commerce preview environment work with Dynamics 365 Finance or Dynamics 365 Supply Chain projects?**</span></span>
+<span data-ttu-id="20e36-113">**Kādas izmaksas ir saistītas ar Commerce novērtējuma vides izvietošanu pakalpojumā Microsoft Azure, izmantojot Microsoft Dynamics Lifecycle Services (LCS)?**</span><span class="sxs-lookup"><span data-stu-id="20e36-113">**What costs are involved in deploying the Commerce evaluation environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
 
-<span data-ttu-id="bcf29-112">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="bcf29-112">No.</span></span> <span data-ttu-id="bcf29-113">Commerce priekšskatījuma vide darbojas tikai ar Dynamics 365 Retail projektiem.</span><span class="sxs-lookup"><span data-stu-id="bcf29-113">The Commerce preview environment works only with Dynamics 365 Retail projects.</span></span>
+<span data-ttu-id="20e36-114">Tradicionālā Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce Headquarters demonstrācijas vide (virtuālā mašīna \[VM\]) tiks viesota jūsu Azure abonementā.</span><span class="sxs-lookup"><span data-stu-id="20e36-114">A traditional Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce headquarters demo environment (virtual machine \[VM\]) will be hosted in your Azure subscription.</span></span> <span data-ttu-id="20e36-115">Lai novērtētu šīs izmaksas, varat izmantot [Azure cenu kalkulatoru](https://azure.microsoft.com/pricing/calculator/).</span><span class="sxs-lookup"><span data-stu-id="20e36-115">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
 
-<span data-ttu-id="bcf29-114">**Vai mēs varam izmantot Commerce priekšskatījuma vidi kā e-komercijas vitrīnu klientiem, kas pašlaik ievieš mazumtirdzniecību?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-114">**Can we use the Commerce preview environment as an e-commerce storefront for customers that currently implement Retail?**</span></span>
+<span data-ttu-id="20e36-116">Citi komponenti, piemēram, Commerce Scale Unit, Commerce vietņu veidotājs un jūsu e-komercijas vietne būs pieejama kā programmatūras pakalpojums (SaaS) un tiks viesoti Microsoft.</span><span class="sxs-lookup"><span data-stu-id="20e36-116">Other components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site will be available as software as a service (SaaS) and hosted by Microsoft.</span></span>
 
-<span data-ttu-id="bcf29-115">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="bcf29-115">No.</span></span> <span data-ttu-id="bcf29-116">Commerce priekšskatījuma vide ir tikai novērtēšanas vide.</span><span class="sxs-lookup"><span data-stu-id="bcf29-116">The Commerce preview environment is just the evaluation environment.</span></span> <span data-ttu-id="bcf29-117">Ja jums ir nepieciešama vide, kurā tiek ieviesta mazumtirdzniecība, sazinieties ar Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bcf29-117">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
+<span data-ttu-id="20e36-117">**Kuras Azure ģeogrāfiskās īpašības pašlaik tiek atbalstītas Commerce novērtējuma videi?**</span><span class="sxs-lookup"><span data-stu-id="20e36-117">**Which Azure geographies are currently supported for the Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="bcf29-118">**Vai Commerce priekšskatījuma vidi var izmantot, lai, nodrošinot e-komercijas funkcijas papildu esošajam pieteikumam/videi, kas ievieš mazumtirdzniecību?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-118">**Can the Commerce preview environment be used to provision the e-commerce features on top of an existing application/environment that implements Retail?**</span></span>
+<span data-ttu-id="20e36-118">Commerce novērtējuma vidi var izvietot tikai Ziemeļamerikā.</span><span class="sxs-lookup"><span data-stu-id="20e36-118">The Commerce evaluation environment can be deployed only in the North America geography.</span></span>
 
-<span data-ttu-id="bcf29-119">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="bcf29-119">No.</span></span> <span data-ttu-id="bcf29-120">Commerce priekšskatījuma vide pašlaik ir pieejama tikai jaunajās vidēs, kas tika izvietotas mazumtirdzniecības noliktavas vienības (SKU) projektu ietvaros, kuros ir demonstrācijas dati no versijas 10.0.6.</span><span class="sxs-lookup"><span data-stu-id="bcf29-120">The Commerce preview environment is currently available only in new environments that were deployed on Retail stock keeping unit (SKU) projects that have demo data from version 10.0.6.</span></span>
+<span data-ttu-id="20e36-119">**Vai ir lejupielādējams virtuāls cietais disks (VHD), kurā ir pilnīga OneBox virtuālās mašīnas (VM) opcija?**</span><span class="sxs-lookup"><span data-stu-id="20e36-119">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
 
-<span data-ttu-id="bcf29-121">**Kādas izmaksas ir saistītas ar Commerce priekšskatījuma vides izvietošanu pakalpojumā Microsoft Azure, izmantojot Microsoft Dynamics Lifecycle Services (LCS)?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-121">**What costs are involved in deploying the Commerce preview environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
+<span data-ttu-id="20e36-120">Dynamics 365 Commerce un Commerce Scale Unit ir pilnīgi programmatūras pakalpojumi (SaaS), un tiem ir jābūt viesotiem mākonī.</span><span class="sxs-lookup"><span data-stu-id="20e36-120">Dynamics 365 Commerce and Commerce Scale Unit are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
 
-<span data-ttu-id="bcf29-122">Mazumtirdzniecība ir vienīgais komponents, kas tiek viesots jūsu abonementā.</span><span class="sxs-lookup"><span data-stu-id="bcf29-122">Retail is the only component that is hosted in your subscription.</span></span> <span data-ttu-id="bcf29-123">Citi komponenti, piemēram Retail Cloud Scale Unit (RCSU) un e-komercija, tiks viesoti Microsoft abonementos.</span><span class="sxs-lookup"><span data-stu-id="bcf29-123">Other components such as Retail Cloud Scale Unit (RCSU) and e-Commerce will be hosted in Microsoft subscriptions.</span></span> <span data-ttu-id="bcf29-124">Lai novērtētu šīs izmaksas, varat izmantot [Azure cenu kalkulatoru](https://azure.microsoft.com/pricing/calculator/).</span><span class="sxs-lookup"><span data-stu-id="bcf29-124">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
+<span data-ttu-id="20e36-121">**Cik ilgi var izmantot Commerce novērtējuma vidi?**</span><span class="sxs-lookup"><span data-stu-id="20e36-121">**How long can the Commerce evaluation environment be used?**</span></span>
 
-<span data-ttu-id="bcf29-125">**Kuras Azure ģeogrāfiskās īpašības pašlaik tiek atbalstītas Commerce priekšskatījuma videi?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-125">**Which Azure geographies are currently supported for the Commerce preview environment?**</span></span>
+<span data-ttu-id="20e36-122">Commerce novērtējuma videi ir 30 dienu laika ierobežojums no datuma, kad tiek nodrošināti SaaS komponenti, piemēram, Commerce Scale Unit, Commerce vietņu veidotājs un jūsu e-komercijas vietne.</span><span class="sxs-lookup"><span data-stu-id="20e36-122">The Commerce evaluation environment has a 30-day time limit from the date when SaaS components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site are provisioned.</span></span>
 
-<span data-ttu-id="bcf29-126">Commerce priekšskatījuma vidi var izvietot tikai Ziemeļamerikā.</span><span class="sxs-lookup"><span data-stu-id="bcf29-126">The Commerce preview environment can be deployed only in the North America geography.</span></span>
+<span data-ttu-id="20e36-123">**Vai es varu pagarināt laika ierobežojumu savai Commerce novērtējuma videi?**</span><span class="sxs-lookup"><span data-stu-id="20e36-123">**Can I extend the time limit for my Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="bcf29-127">**Vai ir lejupielādējams virtuāls cietais disks (VHD), kurā ir pilnīga OneBox virtuālās mašīnas (VM) opcija?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-127">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
+<span data-ttu-id="20e36-124">Laika ierobežojuma pagarināšana ir normas izņēmums un tiek apsvērti katrā gadījumā atsevišķi.</span><span class="sxs-lookup"><span data-stu-id="20e36-124">Extension of the time limit is an exception to the norm and is considered on a case-by-case basis.</span></span> <span data-ttu-id="20e36-125">Lai saņemtu palīdzību, sazinieties ar Microsoft partnera kontaktpersonu.</span><span class="sxs-lookup"><span data-stu-id="20e36-125">You should reach out to your Microsoft partner contact for assistance.</span></span>
 
-<span data-ttu-id="bcf29-128">Dynamics 365 Retail Cloud Scale Unit (RCSU) un e-komercija ir pilnīgi programmatūras pakalpojumu (SaaS), un tiem ir jābūt viesotiem mākonī.</span><span class="sxs-lookup"><span data-stu-id="bcf29-128">Dynamics 365 Retail Cloud Scale Unit (RCSU) and e-Commerce are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="20e36-126">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="20e36-126">Additional resources</span></span>
 
-<span data-ttu-id="bcf29-129">**Cik ilgi var izmantot Commerce priekšskatījuma vidi?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-129">**How long can the Commerce preview environment be used?**</span></span>
+[<span data-ttu-id="20e36-127">Dynamics 365 Commerce novērtējuma vides pārskats</span><span class="sxs-lookup"><span data-stu-id="20e36-127">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
 
-<span data-ttu-id="bcf29-130">Commerce priekšskatījuma videi ir noteikts 30 dienu laika ierobežojums no e-komercijas nodrošināšanas dienas.</span><span class="sxs-lookup"><span data-stu-id="bcf29-130">The Commerce preview environment has a 30-day time limit from the date of provisioning e-Commerce.</span></span>
+[<span data-ttu-id="20e36-128">Dynamics 365 Commerce novērtējuma vides nodrošināšana</span><span class="sxs-lookup"><span data-stu-id="20e36-128">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-<span data-ttu-id="bcf29-131">**Vai es varu pagarināt laika ierobežojumu savai Commerce priekšskatījuma videi?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-131">**Can I extend the time limit for my Commerce preview environment?**</span></span>
+[<span data-ttu-id="20e36-129">Dynamics 365 Commerce novērtējuma vides konfigurācija</span><span class="sxs-lookup"><span data-stu-id="20e36-129">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
 
-<span data-ttu-id="bcf29-132">Jā.</span><span class="sxs-lookup"><span data-stu-id="bcf29-132">Yes.</span></span> <span data-ttu-id="bcf29-133">Varat sazināties ar atbalsta grupu, izmantojot [Commerce priekšskatījuma pagarināšanas veidlapa](https://aka.ms/Dynamics365CommercePreviewExtensionForm).</span><span class="sxs-lookup"><span data-stu-id="bcf29-133">You can contact the support team by using the [Commerce preview extension form](https://aka.ms/Dynamics365CommercePreviewExtensionForm).</span></span>
+[<span data-ttu-id="20e36-130">BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi</span><span class="sxs-lookup"><span data-stu-id="20e36-130">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
 
-<span data-ttu-id="bcf29-134">**Vai mēs varam izveidot vairākus pieprasījumus Commerce priekšskatījuma videi?**</span><span class="sxs-lookup"><span data-stu-id="bcf29-134">**Can we make multiple requests for a Commerce preview environment?**</span></span>
-
-<span data-ttu-id="bcf29-135">Katram apstiprinātajam pieprasījumam mēs piešķiram vienas Commerce priekšskatījuma vides kvotu.</span><span class="sxs-lookup"><span data-stu-id="bcf29-135">We grant a quota of one Commerce preview environment for each request that is accepted.</span></span> <span data-ttu-id="bcf29-136">Ja jums ir nepieciešama vairāk nekā viena priekšskatījuma vide, sazinieties ar Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bcf29-136">If you need more than one preview environment, contact Microsoft.</span></span> <span data-ttu-id="bcf29-137">Kontaktinformāciju skatiet nākamajā sadaļā.</span><span class="sxs-lookup"><span data-stu-id="bcf29-137">For contact information, see the next section.</span></span>
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a><span data-ttu-id="bcf29-138">Dynamics 365 Commerce priekšskatījuma vides kontaktinformāciju</span><span class="sxs-lookup"><span data-stu-id="bcf29-138">Dynamics 365 Commerce preview environment contact information</span></span>
-
-<span data-ttu-id="bcf29-139">Ja jums ir jautājumi vai pieprasījumi, kas saistīti ar Commerce priekšskatījuma vidi, sazinieties ar Microsoft, apmeklējot [Microsoft Dynamics 365 Commerce priekšskatījuma Yammer grupu](https://aka.ms/Dynamics365CommercePreviewYammer), lai saņemtu palīdzību.</span><span class="sxs-lookup"><span data-stu-id="bcf29-139">To contact Microsoft if you have questions or requests that are related to the Commerce preview environment, visit the [Microsoft Dynamics 365 Commerce Preview Yammer group](https://aka.ms/Dynamics365CommercePreviewYammer) for help.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="bcf29-140">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="bcf29-140">Additional resources</span></span>
-
-[<span data-ttu-id="bcf29-141">Dynamics 365 Commerce priekšskatījuma vides pārskats</span><span class="sxs-lookup"><span data-stu-id="bcf29-141">Dynamics 365 Commerce preview environment overview</span></span>](cpe-overview.md)
-
-[<span data-ttu-id="bcf29-142">Dynamics 365 Commerce priekšskatījuma vides nodrošināšana</span><span class="sxs-lookup"><span data-stu-id="bcf29-142">Provision a Dynamics 365 Commerce preview environment</span></span>](provisioning-guide.md)
-
-[<span data-ttu-id="bcf29-143">Dynamics 365 Commerce priekšskatījuma vides konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="bcf29-143">Configure a Dynamics 365 Commerce preview environment</span></span>](cpe-post-provisioning.md)
-
-[<span data-ttu-id="bcf29-144">Izvēles funkciju konfigurēšana Dynamics 365 Commerce priekšskatījuma videi</span><span class="sxs-lookup"><span data-stu-id="bcf29-144">Configure optional features for a Dynamics 365 Commerce preview environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="20e36-131">Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi</span><span class="sxs-lookup"><span data-stu-id="20e36-131">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
