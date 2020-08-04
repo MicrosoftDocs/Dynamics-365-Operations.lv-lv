@@ -3,7 +3,7 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 Finance normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/29/2020
+ms.date: 07/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a7a26d8c506a9e61f6e4319a33176b4e92fc30ad
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 785797af0fe62fa6d0ee40fb4df45bcec47780c7
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411416"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598088"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -42,48 +42,30 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 
 |Valsts/reģions|Plānotais izlaides datums|Partijas versija|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
-|      Brazīlija         |   2020. gada aprīlis — 2020. gada janvāris      | 10.0.10, 10.0.9HF      |   DRCST SC — rīkojuma SEF Nr. 416    |
-|      Brazīlija         |   2020. aprīlis      | 10.0.10      |   SPED Contribuições (PIS/COFINS) — bloki M115 un M515    |
-|      Brazīlija         |   2020. aprīlis      | 10.0.10      |   Sped devums — ierakstu C100 un D100 atjauninājumi, kad kredīts nav atgūstams    |
-|      Brazīlija         |   2020. gada aprīlis — 2020. gada janvāris     | 10.0.10, 10.0.9HF      |   SPED devums - 2020. gada janvāra izkārtojums    |
-|      Brazīlija         |   2020. marts       | 10.0.9      |   SPED fiskālā - izmaiņas ieraksta D100 laukā COD_MUN_ORI    |
-|      Brazīlija         |   2020. gada marts - 2020. gada janvāris       | 10.0.9      |   DRCST SC — rīkojuma SEF Nr. 254/19    |
-|      Brazīlija         |   2020. gada marts - 2020. gada janvāris       | 10.0.9      |   Sped fiskālais izkārtojums 014 |
-|      Brazīlija         |   2020. gada marts - 2020. gada janvāris       | 10.0.9      |   DRCST SC — rīkojuma SEF Nr. 343DR   |
-|      Brazīlija         |   2020. gada maijs - 2020. gada marts      | 10.0.11, 10.0.10HF, 10.0.9HF      |   SPED ECD layout 8   |
-|      Brazīlija         |   2020. gada maijs - 2020. gada aprīlis      | 10.0.11, 10.0.10HF, 10.0.9HF      |   Tehniska piezīme NT 2019.001 v1.40   |
-|      Brazīlija         |   2020. maijs      | 10.0.12, 10.0.11HF, 10.0.10HF,      |   ADCR ICMS-ST paziņojums par Parana stāvokli   |
+|      Brazīlija         |   2020. marts      | 10.0.11      |   SPED ECD layout 8   |
+|      Brazīlija         |   2020. aprīlis      | 10.0.11      |   Tehniska piezīme NT 2019.001 v1.40   |
+|      Brazīlija         |   2020. maijs      | 10.0.12, 10.0.11 HF      |   ADCR ICMS-ST paziņojums par Parana stāvokli   |
+|      Brazīlija         |   2020. gada jūlijs - 2020. gada maijs      | 10.0.13, 10.0.12, 10.0.11      |   SPED ECF layout 6   |
+|      Brazīlija         |   2020. gada jūlijs      | 10.0.13, 10.0.12 HF      |   SPED fiskālā - ieraksts C176 - RS stāvoklis   |
+|      Čehijas Republika      |   2020. gada jūlijs      | 10.0.13      |   PVN kontroles pārskata izmaiņas XML shēmā (rēķinu saraksts)   |
+|      Čehijas Republika         |   2020. gada jūlijs      | 10.0.13      |   PVN deklarācija XML, PVN deklarācijas priekšskatījums programmā Excel un PVN kontroles pārskata XML formāti, kas balstīti uz nodokļu deklarācijas modeli   |
 |      Igaunija         |   2020. maijs       | 10.0.11      |   Elektroniskā rēķinu izrakstīšana Igaunijā: debitoru rēķinu eksports Igaunijas īpašajā formāta versijā 1.2.  |
-|      Francija         |   2020. aprīlis       | 10.0.10      |   Juridisko maksu deklarācija pašnodarbinātām personām (DAS2) nodokļu iestādēm    |
-|      Francija         |   2020. marts       | 10.0.9      |   Franču lokalizācija: ISO 20022 formāts starptautiskajiem maksājumiem un kases pārskaitījumiem    |
 |      Vācija         |   2020. maijs       | 10.0.12      |   Vācija — mazumtirdzniecības — kases sistēmas prasības    |
-|      Ungārija         |   2020. gada maijs - 2020. gada marts       | 10.0.11, 10.0.10, 10.0.9HF     |   Tiešsaistes rēķinu izrakstīšanas sistēma v. 2.0 Finance and Operations    |
-|      Indija         |   2020. marts      | 10.0.9      |   Jauns GSTR (ANX-1 & ANX-2) atgriešanas bezsaistes rīks    |
+|      Ungārija         |   2020. marts       | 10.0.11     |   Tiešsaistes rēķinu izrakstīšana sistēmā v.2.0 Finance and Operations    |
 |      Indija         |   2020. maijs      | 10.0.12      |   Vienības cenas un izmaksu cenas apstrādes uzlabojumi Krājumu pārsūtīšanas pasūtījumos  |
-|      Itālija         |   2020. marts      | 10.0.9      |   Mazumtirdzniecība - Debitoru informācijas pārvaldīšana POS |
-|      Itālija         |   2020. marts      | 10.0.9      |   Mazumtirdzniecība - debitora informācijas drukāšana nodokļu kvītī |
-|      Itālija         |   2020. maijs      | 10.0.12. 10.0.11      |   Modello 770/2019 formāta izmaiņas |
-|      Japāna          |   2020. marts     | 10.0.9     |   Japānas Baņķieru asociācija aizvieto JBA fiksēta garuma maksājuma formātus ar ISO20022 |
-|      Japāna          |   2020. janvāris      | 10.0.8       |   Tiek ieviesta patēriņa nodokļa likmes maiņa un samazināta nodokļa likme (patēriņa nodokļa pārskats) |
-|      Nīderlande          |   2020. aprīlis   | 10.0.10     |   Nīderlandes taksonomijas jaunā versija — NT14 |
-|      Norvēģija          |   2020. marts   | 10.0.9     |   SAF-T XSD atjauninājums uz versiju 1.1 pakalpojumam Dynamics 365 for Finance and Operations |
-|      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T pārskata pārprojektēšana: Sākuma bilances pēc "darbības" transakcijas veida un Nodokļu informācija nodokļu koda valūtā programmā Finance (v.10) |
+|      Indija         |   2020. maijs      | 10.0.12      |   Krājumu pārsūtīšanas nodokļa likmes piemērojamība nosūtīšanas un saņemšanas laikā (ieskaitot daļēju saņemšanu)  |
+|      Itālija         |   2020. maijs      | 10.0.12, 10.0.11      |   Modello 770/2019 formāta izmaiņas |
+|      Itālija         |   2020. gada jūlijs      | 10.0.13, 10.0.12 HF      |   Itālijas elektronisko rēķinu formāta izmaiņas — FatturaPA |
+|      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T pārskata pārprojektēšana: Sākuma bilances pēc “darbības” transakcijas veida un Nodokļu informācija nodokļu koda valūtā programmā Finance (versija 10) |
 |      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T pārskata dialoga izmaiņas: nodrošināt iespēju atlasīt kontaktpersonu pa uzņēmumiem |
 |      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T nosaukuma vietas deklarācijas katrā rindā, nevis tikai galvenē |
-|      Polija          |   2020. marts    | 10.0.9     |   Pirkšanas PVN reģistrs un SAF PVN reģistrs: pielāgotā aģentūra no VAD dokumentiem ir jāaizstāj ar trešās puses nosaukumu un PVN reģistrācijas numuru |
-|      Polija          |   2020. gada marts - 2020. gada janvāris   | 10.0.9     |   Mazumtirdzniecība - Debitoru informācijas pārvaldīšana POS |
-|      Polija          |   2020. gada marts - 2020. gada janvāris     | 10.0.9    |   Mazumtirdzniecība - debitora informācijas drukāšana nodokļu kvītī |
-|      Polija          |   2020. marts     | 10.0.9     |   SAF rēķini (JPK_FA) v.3 no 2019. gada 2. decembra |
-|      Polija          |   2020. aprīlis     | 10.0.10, 10.0.9     |   JPK_VDEK aizstāj JPK_VAT (SAF PVN) |
 |      Polija          |   2020. maijs     | 10.0.11     |   Sadalīt AP/AR realizētās valūtas starpības summu rēķina neto vērtības un PVN summas valūtas kursa starpībā  |
 |      Polija          |   2020. maijs     | 10.0.11     |   SAF uzskaites grāmatas — grāmatojumu līmeņu filtrēšanas uzlabojumi |
-|      Polija          |   2020. maijs     | 10.0.11     |   JPK_VDEK papildinātā pakotne I |
+|      Polija          |   2020. marts     | 10.0.11     |   JPK_VDEK papildinātā pakotne I |
 |      Polija          |   2020. maijs     | 10.0.12     |   JPK_VDEK papildinātā pakotne II |
-|      Polija          |   2020. maijs     | 10.0.11     |   Daļēja kredīta piezzīme pārdošanas pasūtījumam ar avansa rēķinu |
-|      Krievija          |   2020. marts     | 10.0.9     |   Īpašuma nodokļa deklarācijas formāts 2019. gada pārskatam |
-|      Krievija          |   2020. marts     | 10.0.9     |   Peļņas nodokļu deklarācijas formāta atjauninājumi |
-|      Šveice           |   2020. marts     | 10.0.9      |   Šveices maksājumu pavadzīmes ISR iegūst jaunu formātu (QR-kods) |
-|      Apvienotā Karaliste           |   2020. aprīlis     | 10.0.10      |   MPD krāpšanas novēršanas papildinātā pakotne |
+|      Polija          |   2020. marts     | 10.0.11     |   Daļēja kredīta piezzīme pārdošanas pasūtījumam ar avansa rēķinu |
+|      Polija          |   2020. gada jūlijs     | 10.0.13     |   Obligātie dalītā maksājuma uzlabojumi |
+|      Krievija          |   2020. gada jūlijs     | 10.0.13    |   Nolietojuma aprēķins, pamatojoties uz sākotnējo vērtību un kapitālo remontu, nodokļu uzskaitē piemērojot papildnolietojumu  |
 
 
 

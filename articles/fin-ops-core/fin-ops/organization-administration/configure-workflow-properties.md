@@ -3,7 +3,7 @@ title: Konfigurēt darbplūsmas rekvizītus
 description: Šajā tēmā ir paskaidrots, kā konfigurēt dažādus darbplūsmas rekvizītus.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199440"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541113"
 ---
 # <a name="configure-workflow-properties"></a>Konfigurēt darbplūsmas rekvizītus
 
@@ -89,14 +89,9 @@ Veiciet šīs darbības, lai norādītu, kad tiek izmantota konfigurētā darbpl
 1. Kreisajā rūtī noklikšķiniet uz **Aktivizēšana**.
 2. Atzīmējiet izvēles rūtiņu **Iestatīt nosacījumus šīs darbplūsmas izpildei**.
 3. Noklikšķiniet uz **Pievienot nosacījumu**.
-4. Ievadīt nosacījumu.
+4. Ievadiet nosacījumu.
 5. Ievadiet visus nepieciešamos papildu nosacījumus.
-6. Lai pārbaudītu, vai ievadītie nosacījumi ir pareizi iestatīti, rīkojieties šādi:
-
-    1. Noklikšķiniet uz **Tests**.
-    2. Lapas **Testēt darbplūsmas nosacījumu** apgabalā **Pārbaudīt nosacījumu** atlasiet ierakstu.
-    3. Noklikšķiniet uz **Tests**. Sistēma novērtē ierakstu, lai noteiktu, vai tas atbilst jūsu norādītajiem nosacījumiem. Piemēram, ja veidojat pirkuma pieprasījumu darbplūsmu Spānijai, lapas apgabalā **Pārbaudīt nosacījumu** tiek parādīts pirkšanas pieprasījumu saraksts. Noklikšķinot uz **Pārbaudīt**, sistēma izvērtēs izvēlētos pirkuma pieprasījumus, lai noteiktu, vai valsts/reģions ir ES.
-    4. Noklikšķiniet uz **Labi** vai **Atcelt**, lai atgrieztos lapā **Rekvizīti**.
+6. Izpildiet darbplūsmu ar dažiem mērķa ierakstiem, lai pārbaudītu, vai nosacījums ir pareizi iekļauts un izslēdz ierakstus.
 
 ## <a name="specify-when-notifications-are-sent"></a>Norādīt, kad tiek sūtīti paziņojumi
 

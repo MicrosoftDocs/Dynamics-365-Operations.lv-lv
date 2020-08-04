@@ -3,7 +3,7 @@ title: Pārskats par pieprasījuma prognozēšanu
 description: Pieprasījuma prognozēšanas tiek izmantota, lai prognozētu debitoru pasūtījumu neatkarīgu pieprasījumu pēc pārdošanas pasūtījumiem un atkarīgos pieprasījums jebkurā atsaistīšanas punktā. Uzlabotās pieprasījuma apjoma prognozes samazināšanas kārtulas nodrošina lielisku lielapjoma pielāgošanas risinājumu.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213887"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550044"
 ---
 # <a name="demand-forecasting-overview"></a>Pārskats par pieprasījuma prognozēšanu
 
@@ -48,7 +48,7 @@ Tālāk ir norādītas dažas pieprasījuma prognozēšanas galvenās funkcijas.
 Pieprasījuma prognozēšanā ir ieviestas trīs tālāk norādītās galvenās tēmas.
 
 -   **Modularitāte** — pieprasījuma prognozēšanas ir modulārs un viegli konfigurējams process. Šo funkciju var ieslēgt un izslēgt, mainot konfigurācijas atslēgu sadaļā **Tirdzniecība** &gt; **Krājumu prognoze** &gt; **Pieprasījuma prognozēšana**.
--   **Atkārtota Microsoft steka izmantošana** — korporācija Microsoft izlaida algoritmiskās mācīšanās platformu 2015. gada februārī. Algoritmiskā mācīšanās, kas tagad ir daļa no platformas Microsoft Cortana Analytics Suite, sniedz iespēju ātri vienkārši izvietot prognozējošas analīzes eksperimentus, piemēram, pieprasījuma novērtēšanas eksperimentus, izmantojot R algoritmus vai Python programmēšanas valodas un vienkāršu vilkšanas un nomešanas interfeisu.
+-   **Atkārtota Microsoft Stack izmantošana** – algoritmiskā mācīšanās, kas ir daļa no platformas Microsoft Cortana Analytics Suite, sniedz iespēju ātri vienkārši izveidot prognozējošas analīzes eksperimentus, piemēram, pieprasījuma novērtēšanas eksperimentus, izmantojot R algoritmus vai Python programmēšanas valodas un vienkāršu vilkšanas un nomešanas interfeisu.
     -   Pieprasījuma prognozēšanas eksperimentus var lejupielādēt, tos var mainīt, lai tie atbilstu uzņēmējdarbības prasībām, publicēt kā tīmekļa pakalpojumu Azure vietnē un izmantot tos, lai ģenerētu pieprasījuma apjoma prognozes. Eksperimentus var lejupielādēt, ja Supply Chain Management ražošanas plānotāja abonementu esat iegādājies kā uzņēmuma līmeņa lietotājs.
     -   Visi pašlaik pieejamie pieprasījuma apjoma prognozes eksperimenti ir pieejami lejupielādei sadaļā [Cortana Analytics galerija](https://gallery.cortanaanalytics.com/). Lai gan Pieprasījuma prognozēšanas eksperimenti tiek automātiski integrēti programmatūrā Supply Chain Management, klientiem un partneriem ir jāveic to eksperimentu integrēšana, ko viņi lejupielādē no [Cortana Analytics galerijas](https://gallery.cortanaanalytics.com/). Līdz ar to sadaļā [Cortana analīzes galerijā](https://gallery.cortanaanalytics.com/) pieejamos eksperimentus nevar vienkārši izmantot kā Finance and Operations prognozēšanas eksperimentus. Eksperimentu kods ir jāmaina tā, lai tiek izmantots lietojumprogrammas Finance and Operations programmēšanas interfeiss (API).
     -   Varat izveidot savus eksperimentus pakalpojumā Microsoft Azure Machine Learning Studio (klasiskā), publicēt tos kā pakalpojumus platformā Azure un izmantot tos pieprasījuma apjoma prognožu ģenerēšanai.
@@ -70,6 +70,16 @@ Programmatūru Supply Chain Management varat izmantot, lai vizualizētu un modif
 
 ## <a name="limitations"></a>Ierobežojumi
 Pieprasījuma prognozēšana ir rīks, kas palīdz ražošanas nozares debitoriem izveidot prognozēšanas procesus. Šis rīks nodrošina galvenās pieprasījuma prognozēšanas risinājuma funkcijas un ir izstrādāts tā, lai to varētu viegli paplašināt. Iespējams, ka pieprasījuma prognozēšana nav pilnībā piemērota debitoriem, piemēram, komercijas, vairumtirdzniecības, noliktavu, transportēšanas vai citu profesionālo pakalpojumu nozarēs.
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>Pieprasījuma apjoma prognozes varianta konversiju ierobežojumi
+
+Ģenerējot pieprasījuma apjoma prognozi, mērvienība (UOM) katra varianta konversijai netiek pilnībā atbalstīta, ja krājumu UOM atšķiras no pieprasījuma apjoma prognozes UOM.
+
+Prognozes ģenerēšana (**Krājumu UOM > Pieprasījuma apjoma prognozes UOM**) izmanto preču UOM konversiju. Ielādējot vēsturiskos datus pieprasījuma apjoma prognozes ģenerēšanai, preču līmeņa UOM konversija tiks izmantota vienmēr, konvertējot no krājumu UOM uz pieprasījuma apjoma prognozes UOM, pat ja konversijas ir definētas varianta līmenī.
+
+Prognozes autorizēšanas pirmā daļa (**Pieprasījuma apjoma prognozes UOM > Krājumu UOM**) izmanto preču UOM konversiju. Prognozes autorizēšanas otrā daļa (**Krājumu UOM > Pārdošanas UOM**) izmanto variantu UOM konversiju. Kad ģenerētā pieprasījuma apjoma prognoze ir autorizēta, konvertēšana uz krājumu UOM no pieprasījuma apjoma prognozes UOM tiks veikta, izmantojot preču līmeņa UOM konversiju. Tajā pašā laikā konvertēšana starp krājumu vienībām un pārdošanas UOM ņems vērā varianta līmeņa definētās konversijas.
+
+Ņemiet vērā, ka pieprasījuma apjoma prognozes UOM nav jābūt ar noteiktu nozīmi. To var definēt kā “Pieprasījuma apjoma prognozes vienība”. Katrai precei varat definēt konversiju, kas ir 1:1 ar krājumu UOM.
 
 <a name="additional-resources"></a>Papildu resursi
 --------

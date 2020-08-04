@@ -3,7 +3,7 @@ title: Deleģēt darba vienumus darbplūsmā
 description: Ja plānojat kādu laiku neatrasties birojā vai citu iemeslu dēļ nespēt reaģēt uz darba vienumiem, tad darba vienumus varat deleģēt vai mainīt to piešķiri pret citiem lietotājiem.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515768"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541089"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Darba vienumu deleģēšana darbplūsmā
 
@@ -49,13 +49,15 @@ Ja plānojat atrasties ārpus biroja vai noteiktu laika periodu nevarēsiet rīk
 1. Pārejiet uz sadaļu **Kopējs > Iestatīšana > Lietotāja opcijas**.
 2. Noklikšķiniet uz cilnes **Darbplūsma**. Pārliecinieties, vai sadaļa Deleģēšana ir izvērsta. Lai sistēmu konfigurētu automātiskai jūsu darba vienumu deleģēšanai citiem lietotājiem, ir jāizveido deleģēšanas kārtulas, kuras norāda, kad tiek deleģēti noteikta tipa darba vienumi. Lai izveidotu deleģēšanas kārtulu, izpildiet tālāk aprakstītās darbības.  
 3. Noklikšķiniet uz **Pievienot**.
-4. Atlasiet opciju laukā **Detalizācijas līmenis**.
+4. Laukā **Tvērums** atlasiet opciju:
     - Viss — deleģēt visus jums piešķirtos uzdevumus vai darba vienumus.
-    - Modulis — deleģēt tikai tos darba vienumus, kas ir saistīti ar kādu konkrētu darbplūsmas tipu. Ja atlasāt šo opciju, tad laukā Nosaukums ir jāatlasa darbplūsmas tips.
-    - Darbplūsma — deleģēt tikai tos darba vienumus, kas ir saistīti ar kādu konkrētu darbplūsmu. Ja atlasāt šo opciju, tad laukā Nosaukums ir jāatlasa darbplūsma.  
-5. Laukā **Pārstāvis** atlasiet lietotāju, kuram deleģēt darba vienumus. Izmantojiet laukus Sākuma datums/laiks un Beigu datums/laiks, lai norādītu, kad vēlaties automātiski deleģēt darba vienumus.  
-6. Laukā **Sākuma datums/laiks** ievadiet datumu un laiku.
-7. Laukā **Beigu datums/laiks** ievadiet datumu un laiku.
-8. Atlasiet izvēles rūtiņu **Iespējots** deleģēšanas noteikumu aktivizēšanai. Atlasot **Moduli** kā Tvērumu, tālāk jums ir jāatlasa modulis laukā Nosaukums. Atlasot **Darbplūsmu** kā Tvērumu, tālāk jums ir jāatlasa noteikta darbplūsma deleģēšanai laukā Nosaukums.  
-9. Laukā **Komentārs** ievadiet paskaidrojošu komentāru, kāpēc deleģējat šos darba vienumus.
-
+    - Modulis — deleģēt tikai tos darba vienumus, kas ir saistīti ar kādu konkrētu darbplūsmas tipu. Ja atlasāt šo opciju, tad laukā **Nosaukums** ir jāatlasa darbplūsmas veids.
+    - Darbplūsma — deleģēt tikai tos darba vienumus, kas ir saistīti ar kādu konkrētu darbplūsmu. Ja atlasāt šo opciju, tad laukā **Nosaukums** ir jāatlasa darbplūsma.  
+5. Laukā **Nosaukums**:
+    - Tvērumam **Modulis** atlasiet mērķa moduli.
+    - Tvērumam **Darbplūsma** atlasiet mērķa darbplūsmu.
+6. Laukā **Pārstāvis** atlasiet lietotāju, kuram deleģēt darba vienumus. Izmantojiet laukus **Sākuma datums/laiks** un **Beigu datums/laiks**, lai norādītu, kad vēlaties automātiski deleģēt darba vienumus.  
+7. Laukā **Sākuma datums/laiks** ievadiet datumu un laiku.
+8. Laukā **Beigu datums/laiks** ievadiet datumu un laiku.
+9. Atlasiet izvēles rūtiņu **Iespējots** deleģēšanas noteikumu aktivizēšanai. 
+10. Laukā **Komentārs** ievadiet paskaidrojošu komentāru, kāpēc deleģējat šos darba vienumus.

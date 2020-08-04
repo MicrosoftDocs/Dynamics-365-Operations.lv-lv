@@ -3,7 +3,7 @@ title: Ienākošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) ienākošo krājumu operāciju iespējas.
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123903"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551605"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -57,6 +57,9 @@ Lai konfigurētu asinhronu dokumentu struktūru, veiciet šādas procedūras.
 5. Kopsavilkuma cilnē **Vispārīgi**, sadaļā **Iestatīšana** iestatiet opciju **Nepārtrauki** uz **Nē**, lai nodrošinātu, ka nav veiktspējas problēmu.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Izveidojiet un ieplānojiet divus pakešdarbus dokumentu apstrādes un pārraudzības uzdevumiem
+
+> [!NOTE]
+> Commerce versijā 10.0.13 un jaunākā šie pakešuzdevumi nav jākonfigurē, izmantojot pakešuzdevumu struktūru. Pakešu apstrādi var konfigurēt no izvēlnes **Retail and Commerce > Retail un Commerce IT**. Izmantojiet izvēlnes opcijas **Retail dokumentu operāciju pārraudzība** un **Retail dokumentu operāciju apstrāde** lai konfigurētu pakešuzdevumus.
 
 Jūsu izveidotie pakešuzdevumi tiks izmantoti, lai apstrādātu dokumentus, kuriem ir radusies kļūme vai taimauts. Tie tiks izmantoti arī tad, kad aktīvo krājumu dokumentu skaits, kas tiek apstrādāti no POS, pārsniedz sistēmas konfigurēto vērtību.
 
