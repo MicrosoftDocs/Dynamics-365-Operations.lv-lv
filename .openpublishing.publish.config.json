@@ -4,7 +4,7 @@
       "docset_name": "d365F-O",
       "build_source_folder": "articles",
       "build_output_subfolder": "d365F-O",
-      "locale": "lv-lv",
+      "locale": "lv-LV",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -27,7 +27,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.lv-lv",
+      "url": "https://github.com/Microsoft/templates.docs.msft.lv-LV",
       "branch": "master",
       "branch_mapping": {}
     },
