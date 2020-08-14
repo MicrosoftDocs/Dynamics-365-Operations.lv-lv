@@ -14,6 +14,8 @@
               items:
                 - name: Jaunumi un izmaiņas Platform atjauninājumu mājas lapā
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.13 (2020.\_gada oktobris)"
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: "Platform atjauninājumi versijai\_10.0.12 (2020.\_gada augusts)"
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "Platform atjauninājumi versijai\_10.0.11 (2020.\_gada jūlijs)"
@@ -82,6 +84,8 @@
           items:
             - name: Datu integrācijas (importa/eksporta) stratēģijas izvēle
               href: data-entities/integration-overview.md
+            - name: Uz prioritāti balstīta ierobežošana
+              hreF: data-entities/priority-based-throttling.md
             - name: Datu integrācijas API
               items:
                 - name: Datu pārvaldības pakotnes REST API
@@ -152,6 +156,8 @@
                           items:
                             - name: Pielāgot elementa un lauka kartējumus
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Rediģēt juridisku personu pēc duālā ieraksta iestatīšanas
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Programmas dzīves cikla pārvaldība
