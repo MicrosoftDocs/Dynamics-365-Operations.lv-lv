@@ -70,6 +70,8 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance”
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (2020. gada oktobris)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: "Finance 10.0.12 (2020.\_gada augusts)"
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: "Finance 10.0.11 (2020.\_gada jūlijs)"
@@ -107,23 +109,23 @@
             - name: Apmācību katalogs
               items:
                 - name: Apmācību kataloga mājas lapa
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Biznesa lēmumu pieņēmēji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Biznesa lietotāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Ieviešanas projektu vadītāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administratori
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Izstrādātāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partneru pārdošana un mārketings
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funkcionālie konsultanti
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Risinājuma arhitekti
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Lietotāja interfeisa izpēte
               items:
                 - name: Lietotāja interfeisa elementi
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Sadalījumu apstrādāšana
                   href: general-ledger/process-allocations.md
+                - name: Sadalījuma nosacījumi
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Finanšu dimensijas
                   href: general-ledger/financial-dimensions.md
                 - name: Konsolidācijas kontu grupas un papildu konsolidācijas konti
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Papildu publiskā sektora virsgrāmatas ieraksta izveide
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Apgrozījuma bilance ar transakcijas detalizētu pārskatu
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Naudas kontroles ierobežojumu izmantošana
                   href: public-sector/cash-control.md
                 - name: Gada beigu apstrāde publiskajā sektorā
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Sertifikācijas veida pievienošana publiskā sektora kreditoram
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Kanādas saskaņotā PVN aprēķināšana
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Finanšu pārskatu veidošana
           items:
             - name: Finanšu pārskatu veidošanas pārskats
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Jaunumi un izmaiņas versijā 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: Indijas GST atsauces grupas
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST integrācija kases sistēmām
@@ -2630,12 +2640,16 @@
                   href: localizations/emea-esp-print-checks-with-spanish-layout.md
                 - name: Parādzīmju opcijas
                   href: localizations/emea-esp-promissory-note-options.md
-                - name: Pārskats 340
+                - name: "340.\_pārskats"
                   href: localizations/emea-esp-report-340.md
+                - name: 347. deklarācijas pārskats
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: Pārdošanas un pirkšanas cikli
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Īpašie ieraksti un sākuma lapas
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Tūlītēja informācijas sniegšana par PVN
+                  href: localizations/emea-esp-sii.md
             - name: Zviedrija
               items:
                 - name: Zviedrijas pārskats

@@ -14,7 +14,7 @@
               items:
                 - name: One Version pakalpojuma atjauninājumu pārskats
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: One Version jautājumi par vienas versijas pakalpojuma atjauninājumiem
+                - name: Bieži uzdotie jautājumi par One Version pakalpojuma atjauninājumiem
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Programmatūras dzīves cikla politika\_— mākonī"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -70,12 +70,12 @@
                   items:
                     - name: Jaunumi un izmaiņas Supply Chain Management mājas lapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management\_10.0.13 (2020.\_gada oktobris)"
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: "Supply Chain Management 10.0.12 (2020.\_gada augusts)"
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: "Supply Chain Management 10.0.11 (2020.\_gada jūlijs)"
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: "Supply Chain Management 10.0.10 (2020.\_gada maijs)"
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
@@ -109,23 +109,23 @@
             - name: Apmācību katalogs
               items:
                 - name: Apmācību kataloga mājas lapa
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Biznesa lēmumu pieņēmēji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Biznesa lietotāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Ieviešanas projektu vadītāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administratori
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Izstrādātāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partneru pārdošana un mārketings
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funkcionālie konsultanti
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Risinājuma arhitekti
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Lietotāja interfeisa izpēte
               items:
                 - name: Lietotāja interfeisa elementi
@@ -1257,6 +1257,8 @@
               items:
                 - name: Krājumu žurnāli
                   href: inventory/inventory-journals.md
+                - name: Krājumu žurnāla apstiprināšanas darbplūsmas
+                  href: inventory/inventory-journal-workflow.md
                 - name: Krājumu vietas
                   href: inventory/inventory-locations.md
                 - name: Krājumu statusi
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Krājumu pieejamības pārbaude
                   href: inventory/tasks/check-availability-stock.md
+                - name: Rīcībā esošo krājumu saraksts
+                  href: inventory/inventory-on-hand-list.md
                 - name: Krājumu līmeņu inicializēšana noliktavā
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Fizisko krājumu pārsūtīšana noliktavā
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Maršruti un operācijas
                       href: production-control/routes-operations.md
-                    - name: Noliktavas darba politikas
+                    - name: Darba politikas
                       href: warehousing/warehouse-work-policies.md
                     - name: Darba laika plānošanas rekvizītu izveide
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2587,8 +2591,10 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                - name: Novietojuma preces dimensijas sajaukšana
+                - name: Novietojuma preces dimensiju sajaukšana
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Kvalitātes pārbaude
+                  href: warehousing/quality-check.md
             - name: Izejošās noliktavas operācijas
               items:
                 - name: Rezervācijas noliktavas pārvaldībā
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Zonas sliekšņa papildināšana
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: 'Papildināšana, pārsniedzot vietas ietilpību'
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Kravu veidošana un nosūtīšana
                   items:
                     - name: Apstiprināšana un pārsūtīšana
                       href: warehousing/confirm-and-transfer.md
+                    - name: Apstiprināt izejošos sūtījumus no pakešuzdevumiem
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Uzlabota noslodzes veidošana kopuma laikā
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Nodošana noliktavas kārtulai
@@ -2679,10 +2689,8 @@
               items:
                 - name: Noliktavas darba politikas
                   items:
-                    - name: Noliktavas darba politiku pārskats
+                    - name: Darba politikas
                       href: warehousing/warehouse-work-policies.md
-                    - name: Noliktavas darba politiku iestatīšana
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: 'Krājumu kustība, ja ar tiem noliktavas pārvaldībā ir saistīts darbs'
                       href: warehousing/move-inventory-associated-work.md
                     - name: Darba klases izveide
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
                       href: warehousing/onhand-cleanup.md
-                    - name: Krājumu žurnāls
+                    - name: Krājumu žurnāli
                       href: inventory/inventory-journals.md
                     - name: Krājumu vieta
                       href: inventory/inventory-locations.md

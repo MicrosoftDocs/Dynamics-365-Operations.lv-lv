@@ -90,6 +90,8 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (2020. gada oktobris)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: "Commerce 10.0.12 (2020.\_gada augusts)"
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: "Commerce 10.0.11 (2020.\_gada jūlijs)"
@@ -127,23 +129,23 @@
             - name: Apmācību katalogs
               items:
                 - name: Apmācību kataloga mājas lapa
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Biznesa lēmumu pieņēmēji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Biznesa lietotāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Ieviešanas projektu vadītāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administratori
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Izstrādātāji
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partneru pārdošana un mārketings
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funkcionālie konsultanti
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Risinājuma arhitekti
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Lietotāja interfeisa izpēte
               items:
                 - name: Lietotāja interfeisa elementi
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Visas summas un intervāla aprēķināšanas opcijas PVN kodiem
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Nodokļa atbrīvojuma aprēķināšana
+                          href: tax-exempt-price-inclusive.md
                     - name: E-pasta paziņojumu profila iestatīšana
                       href: email-notification-profiles.md
                     - name: Numuru sērijas
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: Darbspējas pārbaude POS perifērijas ierīcēm un pakalpojumiem
                           href: pos-healthcheck.md
+                        - name: Atbalsts tīkla perifērijas ierīcēm
+                          href: dev-itpro/network-peripherals.md
                     - name: Ekrāna izkārtojumi
                       items:
                         - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS/CPOS
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: Cilnes modulis
                       href: add-tab.md
+                    - name: Iframe modulis
+                      href: iframe-module.md
                 - name: Mārketinga moduļi
                   items:
                     - name: Akcijas reklāmkaroga modulis
@@ -968,6 +976,8 @@
                   items:
                     - name: Pirkšanas lodziņa modulis
                       href: add-buy-box.md
+                    - name: Multivides galerijas modulis
+                      href: media-gallery-module.md
                     - name: Vērtējumu un apskatu moduļi
                       href: ratings-reviews-modules.md
                 - name: Pirkšanas moduļi
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Pasūtījumu informācijas modulis
                       href: order-confirmation-module.md
-                    - name: Veikalu atlasītāja modulis
-                      href: store-selector.md
                     - name: Dāvanu kartes modulis
                       href: add-giftcard.md
+                - name: Veikala meklētāja moduļi
+                  items:
+                    - name: Kartes modulis
+                      href: map-module.md
+                    - name: Veikalu atlasītāja modulis
+                      href: store-selector.md
                 - name: Konta pārvaldības moduļi
                   items:
                     - name: Konta pārvaldības lapas un moduļi
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Moduļu priekšskatīšana un atkļūdošana
                       href: e-commerce-extensibility/test-module.md
-                    - name: 'Moduļu pārbaude, izmantojot pārbaudes objektus'
+                    - name: Moduļu pārbaude ar pārbaudes moduļiem
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: 'Moduļu pārbaude, izmantojot lapu pārbaudes objektus'
                       href: e-commerce-extensibility/test-page-mock.md
