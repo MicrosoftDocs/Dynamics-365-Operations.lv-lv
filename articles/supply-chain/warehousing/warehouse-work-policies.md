@@ -1,252 +1,302 @@
 ---
-title: Noliktavas darba politiku pārskats
-description: Noliktavas darba politikas kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci.
-author: johanhoffmann
+title: Darba politikas
+description: Šajā tēmā ir izskaidrots, kā iestatīt darba politiku.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204566"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652009"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="ca36e-103">Noliktavas darba politiku pārskats</span><span class="sxs-lookup"><span data-stu-id="ca36e-103">Warehouse work policies overview</span></span>
+# <a name="work-policies"></a><span data-ttu-id="cbcbe-103">Darba politikas</span><span class="sxs-lookup"><span data-stu-id="cbcbe-103">Work policies</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ca36e-104">Noliktavas darba politikas kontrolē to, vai ražošanā noliktavas procesi izveido noliktavas darbu, pamatojoties uz darba pasūtījuma tipu, krājumu novietojumu un preci.</span><span class="sxs-lookup"><span data-stu-id="ca36e-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="cbcbe-104">Šajā tēmā skaidrots, kā iestatīt sistēmu un noliktavu programmu, lai tās atbalstītu darba politikas.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-104">This topic explains how to set up the system and the warehouse app so that they support work policies.</span></span> <span data-ttu-id="cbcbe-105">Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-105">You can use this functionality to quickly register inventory without creating putaway work when you receive purchase or transfer orders, or when you complete manufacturing processes.</span></span> <span data-ttu-id="cbcbe-106">Šajā tēmā ir sniegta vispārīga informācija.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-106">This topic provides general information.</span></span> <span data-ttu-id="cbcbe-107">Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="cbcbe-107">For detailed information that is related to license plate receiving, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
 
-<span data-ttu-id="ca36e-105">Šī darba politika kontrolē to, vai ražošanā noliktavas procesiem tiek izveidots noliktavas darbs.</span><span class="sxs-lookup"><span data-stu-id="ca36e-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="ca36e-106">Šo darba politiku varat iestatīt, izmantojot kombināciju no vienumiem **darba pasūtījuma veidi**, **krājumu novietojums** un **prece**.</span><span class="sxs-lookup"><span data-stu-id="ca36e-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="ca36e-107">Piemēram, prece L0101 tiek ziņota kā pabeigta uz izvades novietojumu 001.</span><span class="sxs-lookup"><span data-stu-id="ca36e-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="ca36e-108">Vēlāk šī pabeigtā prece tiek patērēta citā ražošanas pasūtījumā izvades novietojumā 001.</span><span class="sxs-lookup"><span data-stu-id="ca36e-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="ca36e-109">Šajā gadījumā varat iestatīt darba politiku, lai neļautu izveidot darbu gatavo preču izvietošanai, kad preci L0101 ziņojat kā pabeigtu uz izvades novietojumu 001.</span><span class="sxs-lookup"><span data-stu-id="ca36e-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="ca36e-110">Darba politika ir atsevišķs elements, ko var aprakstīt ar tālāk norādīto informāciju.</span><span class="sxs-lookup"><span data-stu-id="ca36e-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="cbcbe-108">Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot noliktavas programmu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-108">A work policy controls whether warehouse work is created when a manufactured item is reported as finished, or when goods are received by using the warehouse app.</span></span> <span data-ttu-id="cbcbe-109">Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-109">You set up each work policy by defining the conditions where it applies: the work order types and processes, the inventory location, and (optionally) the products.</span></span> <span data-ttu-id="cbcbe-110">Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-110">For example, a purchase order for product *A0001* must be received in location *RECV* in warehouse *24*.</span></span> <span data-ttu-id="cbcbe-111">Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-111">Later, the product is consumed in another process at location *RECV*.</span></span> <span data-ttu-id="cbcbe-112">Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-112">In this case, you can set up a work policy to prevent putaway work from being created when a worker reports product *A0001* as received in location *RECV*.</span></span>
 
--   <span data-ttu-id="ca36e-111">**Darba politikas nosaukums** (darba politikas unikālais identifikators)</span><span class="sxs-lookup"><span data-stu-id="ca36e-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="ca36e-112">**Darba pasūtījumu veidi** un **Darba izveidošanas metode**</span><span class="sxs-lookup"><span data-stu-id="ca36e-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="ca36e-113">**Krājumu vietas**</span><span class="sxs-lookup"><span data-stu-id="ca36e-113">**Inventory locations**</span></span>
--   <span data-ttu-id="ca36e-114">**preces.**</span><span class="sxs-lookup"><span data-stu-id="ca36e-114">**Products**</span></span>
+> [!NOTE]
+> - <span data-ttu-id="cbcbe-113">Lai darba politika būtu aktīva, ir jādefinē vismaz viena atrašanās vieta, kas atrodas kopsavilkuma cilnē **Krājumu atrašanās vietas** **Darba politikas** lapā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-113">For a work policy to be active, you must define at least one location for it on the **Inventory locations** FastTab of the **Work policies** page.</span></span> 
+> - <span data-ttu-id="cbcbe-114">Vairākām darba politikām nevar norādīt vienu un to pašu atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-114">You can't specify the same location for multiple work policies.</span></span>
+> - <span data-ttu-id="cbcbe-115">Mobilās ierīces izvēlnes elementu opcija **Drukāt etiķeti** nedrukās noliktavas vienības etiķeti, ja vien darbs nav izveidots.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-115">The **Print label** option for mobile device menu items won't print a license plate label unless work was created.</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="ca36e-115">Darba pasūtījumu veidi</span><span class="sxs-lookup"><span data-stu-id="ca36e-115">Work order types</span></span>
-<span data-ttu-id="ca36e-116">Varat atlasīt no tālāk uzskaitītajiem darba pasūtījumu veidiem.</span><span class="sxs-lookup"><span data-stu-id="ca36e-116">You can select the following work order types:</span></span>
+## <a name="activate-the-features-in-your-system"></a><span data-ttu-id="cbcbe-116">Aktivizēt sistēmas līdzekļus</span><span class="sxs-lookup"><span data-stu-id="cbcbe-116">Activate the features in your system</span></span>
 
--   <span data-ttu-id="ca36e-117">Pabeigto preču izvietošana</span><span class="sxs-lookup"><span data-stu-id="ca36e-117">Finished goods put away</span></span>
--   <span data-ttu-id="ca36e-118">Līdzproduktu un blakusproduktu izvietošana</span><span class="sxs-lookup"><span data-stu-id="ca36e-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="ca36e-119">Izejmateriālu izdošana</span><span class="sxs-lookup"><span data-stu-id="ca36e-119">Raw material picking</span></span>
+<span data-ttu-id="cbcbe-117">Lai veiktu visu šajā tēmā aprakstīto funkcionalitāti, kas ir pieejama jūsu sistēmā, ieslēdziet šādus divus līdzekļus [Līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span><span class="sxs-lookup"><span data-stu-id="cbcbe-117">To make all the functionality that is described in this topic available in your system, turn on the following two features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span></span>
 
-<span data-ttu-id="ca36e-120">Laukam **Darba izveidošanas metode** vērtība ir **Nekad**.</span><span class="sxs-lookup"><span data-stu-id="ca36e-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="ca36e-121">Šī vērtība norāda, ka šī darba politika atlasītajam darba pasūtījuma veidam neļaus izveidot noliktavas darbu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+- <span data-ttu-id="cbcbe-118">Numura zīmes saņemšanas uzlabojumi</span><span class="sxs-lookup"><span data-stu-id="cbcbe-118">License plate receiving enhancements</span></span>
+- <span data-ttu-id="cbcbe-119">Darba politikas uzlabojumi ienākošajam darbam</span><span class="sxs-lookup"><span data-stu-id="cbcbe-119">Work policy enhancements for inbound work</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="ca36e-122">Krājumu vietas</span><span class="sxs-lookup"><span data-stu-id="ca36e-122">Inventory locations</span></span>
-<span data-ttu-id="ca36e-123">Varat atlasīt novietojumu, uz kuru attiecas šī darba politika.</span><span class="sxs-lookup"><span data-stu-id="ca36e-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="ca36e-124">Ja darba politikai nav piesaistīts neviens novietojums, tad šī darba politika netiek lietota nevienam procesam.</span><span class="sxs-lookup"><span data-stu-id="ca36e-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="ca36e-125">Lapā **Novietojumi** varat arī atlasīt vai atcelt konkrēta novietojuma atlasi darba politikai.</span><span class="sxs-lookup"><span data-stu-id="ca36e-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="the-work-policies-page"></a><span data-ttu-id="cbcbe-120">Darba politikas lapa</span><span class="sxs-lookup"><span data-stu-id="cbcbe-120">The Work policies page</span></span>
 
-## <a name="products"></a><span data-ttu-id="ca36e-126">Preces</span><span class="sxs-lookup"><span data-stu-id="ca36e-126">Products</span></span>
-<span data-ttu-id="ca36e-127">Varat atlasīt preci, uz kuru attiecas šī darba politika.</span><span class="sxs-lookup"><span data-stu-id="ca36e-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="ca36e-128">Darba politiku varat lietot visām precēm vai atlasītām precēm.</span><span class="sxs-lookup"><span data-stu-id="ca36e-128">You can apply the work policy to either all products or selected products.</span></span>
+<span data-ttu-id="cbcbe-121">Lai iestatītu darba politikas, dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Darbs \> Darba politikas**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-121">To set up work policies, go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span> <span data-ttu-id="cbcbe-122">Pēc tam katrā kopsavilkuma cilnē iestatiet laukus, kā aprakstīts sekojošās apakšsadaļās.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-122">Then, on each FastTab, set the fields as described in the following subsections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="ca36e-129">Piemērs</span><span class="sxs-lookup"><span data-stu-id="ca36e-129">Example</span></span>
-<span data-ttu-id="ca36e-130">Nākamajā piemērā ir divi ražošanas pasūtījumi, PRD-001 un PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="ca36e-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="ca36e-131">Ražošanas pasūtījumā PRD-001 ir operācija ar nosaukumu **Montāža**, kur prece SC1 tiek ziņota kā pabeigta uz novietojumu O1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="ca36e-132">Ražošanas pasūtījumā PRD-002 ir operācija ar nosaukumu **Krāsošana**, un tas patērē preci SC1 no novietojuma O1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="ca36e-133">Ražošanas pasūtījums PRD-002 patērē arī izejmateriālu RM1 no novietojuma O1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="ca36e-134">Izejmateriāls RM1 tiek glabāts noliktavas novietojumā BULK-001 un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu O1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="ca36e-135">Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana PRD-002.</span><span class="sxs-lookup"><span data-stu-id="ca36e-135">The picking work is generated when production PRD-002 is released.</span></span> 
+### <a name="the-work-order-types-fasttab"></a><span data-ttu-id="cbcbe-123">Darba pasūtījumu tipu kopsavilkuma cilne</span><span class="sxs-lookup"><span data-stu-id="cbcbe-123">The Work order types FastTab</span></span>
 
-<span data-ttu-id="ca36e-136">[![Noliktavas darba politikas](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="ca36e-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="cbcbe-124">**Darba pasūtījuma tipu** kopsavilkuma cilnē pievienojiet visus darba pasūtījumu tipus un saistītos darba procesus, uz kuriem attiecas darba politika.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-124">On the **Work order types** FastTab, add all the work order types, and the related work processes, that the work policy applies to.</span></span> <span data-ttu-id="cbcbe-125">Tālāk norādītie darba pasūtījumu tipi un saistītie darba procesi tiek atbalstīti darba politikām.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-125">The following work order types and related work processes are supported for work policies.</span></span>
 
-<span data-ttu-id="ca36e-137">Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem vērā tālāk norādītā informācija.</span><span class="sxs-lookup"><span data-stu-id="ca36e-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+| <span data-ttu-id="cbcbe-126">Darba pasūtījuma veids</span><span class="sxs-lookup"><span data-stu-id="cbcbe-126">Work order type</span></span> | <span data-ttu-id="cbcbe-127">Darba process</span><span class="sxs-lookup"><span data-stu-id="cbcbe-127">Work process</span></span> |
+|---|---|
+| <span data-ttu-id="cbcbe-128">Izejmateriālu izdošana</span><span class="sxs-lookup"><span data-stu-id="cbcbe-128">Raw material picking</span></span>| <span data-ttu-id="cbcbe-129">Visi saistītie procesi</span><span class="sxs-lookup"><span data-stu-id="cbcbe-129">All related processes</span></span> |
+| <span data-ttu-id="cbcbe-130">Līdzproduktu un blakusproduktu izvietošana</span><span class="sxs-lookup"><span data-stu-id="cbcbe-130">Co-product and by-product put away</span></span> | <span data-ttu-id="cbcbe-131">Visi saistītie procesi</span><span class="sxs-lookup"><span data-stu-id="cbcbe-131">All related processes</span></span> |
+| <span data-ttu-id="cbcbe-132">Pabeigto preču izvietošana</span><span class="sxs-lookup"><span data-stu-id="cbcbe-132">Finished goods putaway</span></span> | <span data-ttu-id="cbcbe-133">Visi saistītie procesi</span><span class="sxs-lookup"><span data-stu-id="cbcbe-133">All related processes</span></span> |
+| <span data-ttu-id="cbcbe-134">Pārsūtīšanas saņemšanas p/z</span><span class="sxs-lookup"><span data-stu-id="cbcbe-134">Transfer receipt</span></span> | <span data-ttu-id="cbcbe-135">Numura zīmes saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-135">License plate receiving (and putaway)</span></span> |
+| <span data-ttu-id="cbcbe-136">Pirkšanas pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="cbcbe-136">Purchase orders</span></span> | <ul><li><span data-ttu-id="cbcbe-137">Numura zīmes saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-137">License plate receiving (and putaway)</span></span></li><li><span data-ttu-id="cbcbe-138">Kravas krājuma saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-138">Load item receiving (and putaway)</span></span></li><li><span data-ttu-id="cbcbe-139">Pirkšanas pasūtījuma rindas saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-139">Purchase order line receiving (and putaway)</span></span></li><li><span data-ttu-id="cbcbe-140">Pirkšanas pasūtījuma krājuma saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-140">Purchase order item receiving (and putaway)</span></span></li></ul> |
 
--   <span data-ttu-id="ca36e-138">Noliktavas darbs gatavo preču izvietošanai nav nepieciešams, kad preci SC1 ziņojat kā pabeigtu no ražošanas pasūtījuma PRD-001 uz novietojumu O1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="ca36e-139">Tas ir tādēļ, ka operācija **Krāsošana** ražošanas pasūtījumam PRD-002 preci SC1 patērē tajā pašā novietojumā.</span><span class="sxs-lookup"><span data-stu-id="ca36e-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="ca36e-140">Noliktavas darbs izejmateriālu izdošanai ir nepieciešams, lai izejmateriālu RM1 no noliktavas novietojumā BULK-001 pārvietotu uz novietojumu O1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+<span data-ttu-id="cbcbe-141">Lai iestatītu darba politiku tā, lai tā attiektos uz vairākiem viena un tā paša darba pasūtījuma tipa darba procesiem, pievienojiet tīklam atsevišķu rindu katram darba procesam.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-141">To set up a work policy so that it applies to several work processes of the same work order type, add a separate line for each work process to the grid.</span></span>
 
-<span data-ttu-id="ca36e-141">Šeit ir sniegts darba politikas piemērs, kuru varat iestatīt, pamatojoties uz šiem apsvērumiem.</span><span class="sxs-lookup"><span data-stu-id="ca36e-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="cbcbe-142">Katrai režģa rindai iestatiet **Darba izveides metodes** lauku uz vienu no šīm vērtībām:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-142">For each line in the grid, set the **Work creation method** field to one of the following values:</span></span>
 
+- <span data-ttu-id="cbcbe-143">**Nekad** – darba politika atlasītajam darba pasūtījuma veidam un saistītajam darba procesam neļaus izveidot noliktavas darbu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-143">**Never** – The work policy will prevent warehouse work from being created for the selected work order type and related work process.</span></span>
+- <span data-ttu-id="cbcbe-144">**Pārkraušana sadales centrā** — darba politika veic pārkraušanu sadales centrā, izmantojot politiku, ko atlasāt laukā **Pārkraušana sadales centrā politikas nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-144">**Cross docking** – The work policy will create cross-docking work by using the policy that you select in the **Cross docking policy name** field.</span></span>
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <span data-ttu-id="ca36e-142"><strong>Darba politikas nosaukums</strong></span><span class="sxs-lookup"><span data-stu-id="ca36e-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="ca36e-143"><strong>Darba pasūtījumu veidi</strong></span><span class="sxs-lookup"><span data-stu-id="ca36e-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="ca36e-144">Nav izvietošanas 01     \`</span><span class="sxs-lookup"><span data-stu-id="ca36e-144">No put away 01     \`</span></span>          |     <span data-ttu-id="ca36e-145">- Pabeigtas preces izvietošana</span><span class="sxs-lookup"><span data-stu-id="ca36e-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="ca36e-146"><strong>Novietojumi</strong></span><span class="sxs-lookup"><span data-stu-id="ca36e-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="ca36e-147">- O1</span><span class="sxs-lookup"><span data-stu-id="ca36e-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="ca36e-148"><strong>Preces</strong></span><span class="sxs-lookup"><span data-stu-id="ca36e-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="ca36e-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="ca36e-149">- SC1</span></span>                 |
+### <a name="the-inventory-locations-fasttab"></a><span data-ttu-id="cbcbe-145">Krājumu atrašanās vietas kopsavilkuma cilne</span><span class="sxs-lookup"><span data-stu-id="cbcbe-145">The Inventory locations FastTab</span></span>
 
-<span data-ttu-id="ca36e-150">Nākamajās procedūrās ir sniegtas detalizētas instrukcijas par to, kā iestatīt noliktavas darba politiku šim scenārijam.</span><span class="sxs-lookup"><span data-stu-id="ca36e-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="ca36e-151">Ir aprakstīts arī piemēra iestatījums, kurā redzams, kā ražošanas pasūtījumu ziņot kā pabeigtu uz novietojumu, kas nav atkarīgs no noliktavas vienības.</span><span class="sxs-lookup"><span data-stu-id="ca36e-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="cbcbe-146">Kopsavilkuma cilnē **Krājumu atrašanās vietas** pievienojiet visas vietas, kur jāpiemēro šī darba politika.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-146">On the **Inventory locations** FastTab, add all the locations where this work policy should be applied.</span></span> <span data-ttu-id="cbcbe-147">Ja darba politikai nav piesaistīts neviens novietojums, tad šī darba politika netiks lietota nevienam procesam.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-147">If no location is associated with a work policy, the work policy won't be applied to any process.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="ca36e-152">Iestatīt noliktavas darba politiku</span><span class="sxs-lookup"><span data-stu-id="ca36e-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="ca36e-153">Ne vienmēr noliktavas procesi ietver noliktavas darbu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="ca36e-154">Definējot darba politiku, jūs varat novērst darba izveidošanu izejmateriālu izdošanai un gatavās produkcijas izvietošanai preču kopai konkrētos novietojumos.</span><span class="sxs-lookup"><span data-stu-id="ca36e-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="ca36e-155">Šīs procedūras izveidošanai tika izmantots demonstrācijas datu uzņēmums USMF.</span><span class="sxs-lookup"><span data-stu-id="ca36e-155">The USMF demo data company was used to create this procedure.</span></span> 
+<span data-ttu-id="cbcbe-148">Vairākām darba politikām nevar norādīt vienu un to pašu atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-148">You can't specify the same location for multiple work policies.</span></span>
 
-<span data-ttu-id="ca36e-156">DARBĪBAS (21)</span><span class="sxs-lookup"><span data-stu-id="ca36e-156">STEPS (21)</span></span>
+<span data-ttu-id="cbcbe-149">Jūs varat izmantot noliktavas atrašanās vietu, kas piešķirta atrašanās vietas profilam, kur opcija **Izmantot noliktavas vienības izsekošanu** ir izslēgta.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-149">You can use a warehouse location that is assigned to a location profile where the **Use license plate tracking** option is turned off.</span></span> <span data-ttu-id="cbcbe-150">Šādā gadījumā darbinieki tieši reģistrē rīcībā esošos krājumus.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-150">In this case, workers will directly register the on-hand inventory.</span></span>
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="ca36e-157">1.</span><span class="sxs-lookup"><span data-stu-id="ca36e-157">1.</span></span>  | <span data-ttu-id="ca36e-158">Dodieties uz Noliktavas vadība &gt; Iestatīšana &gt; Darbs &gt; Darba politikas.</span><span class="sxs-lookup"><span data-stu-id="ca36e-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="ca36e-159">2.</span><span class="sxs-lookup"><span data-stu-id="ca36e-159">2.</span></span>  | <span data-ttu-id="ca36e-160">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="ca36e-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="ca36e-161">3.</span><span class="sxs-lookup"><span data-stu-id="ca36e-161">3.</span></span>  | <span data-ttu-id="ca36e-162">Darba politikas nosaukumu laukā ierakstiet 'Nav izvietošanas darbu'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="ca36e-163">4.</span><span class="sxs-lookup"><span data-stu-id="ca36e-163">4.</span></span>  | <span data-ttu-id="ca36e-164">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="ca36e-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="ca36e-165">5.</span><span class="sxs-lookup"><span data-stu-id="ca36e-165">5.</span></span>  | <span data-ttu-id="ca36e-166">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="ca36e-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="ca36e-167">6.</span><span class="sxs-lookup"><span data-stu-id="ca36e-167">6.</span></span>  | <span data-ttu-id="ca36e-168">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="ca36e-169">7.</span><span class="sxs-lookup"><span data-stu-id="ca36e-169">7.</span></span>  | <span data-ttu-id="ca36e-170">Darba pasūtījuma veida laukā atlasiet 'Pabeigto preču izvietošana'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="ca36e-171">8.</span><span class="sxs-lookup"><span data-stu-id="ca36e-171">8.</span></span>  | <span data-ttu-id="ca36e-172">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="ca36e-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="ca36e-173">9.</span><span class="sxs-lookup"><span data-stu-id="ca36e-173">9.</span></span>  | <span data-ttu-id="ca36e-174">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="ca36e-175">10.</span><span class="sxs-lookup"><span data-stu-id="ca36e-175">10.</span></span> | <span data-ttu-id="ca36e-176">Darba pasūtījuma veida laukā atlasiet 'Līdzproduktu un blakusproduktu izvietošana'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="ca36e-177">11.</span><span class="sxs-lookup"><span data-stu-id="ca36e-177">11.</span></span> | <span data-ttu-id="ca36e-178">Izvērsiet sadaļu Krājumu atrašanās vietas.</span><span class="sxs-lookup"><span data-stu-id="ca36e-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="ca36e-179">12.</span><span class="sxs-lookup"><span data-stu-id="ca36e-179">12.</span></span> | <span data-ttu-id="ca36e-180">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="ca36e-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="ca36e-181">13.</span><span class="sxs-lookup"><span data-stu-id="ca36e-181">13.</span></span> | <span data-ttu-id="ca36e-182">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="ca36e-183">14.</span><span class="sxs-lookup"><span data-stu-id="ca36e-183">14.</span></span> | <span data-ttu-id="ca36e-184">Sarakstā Noliktava ievadiet '51'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="ca36e-185">15.</span><span class="sxs-lookup"><span data-stu-id="ca36e-185">15.</span></span> | <span data-ttu-id="ca36e-186">Laukā Atrašanās vieta, ievadiet vai atlasiet '001'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="ca36e-187">16.</span><span class="sxs-lookup"><span data-stu-id="ca36e-187">16.</span></span> | <span data-ttu-id="ca36e-188">Izvērsiet sadaļu Preces.</span><span class="sxs-lookup"><span data-stu-id="ca36e-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="ca36e-189">17.</span><span class="sxs-lookup"><span data-stu-id="ca36e-189">17.</span></span> | <span data-ttu-id="ca36e-190">Laukā Preču atlase, atlasiet 'Atlasīts'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="ca36e-191">18.</span><span class="sxs-lookup"><span data-stu-id="ca36e-191">18.</span></span> | <span data-ttu-id="ca36e-192">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="ca36e-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="ca36e-193">19.</span><span class="sxs-lookup"><span data-stu-id="ca36e-193">19.</span></span> | <span data-ttu-id="ca36e-194">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="ca36e-195">20.</span><span class="sxs-lookup"><span data-stu-id="ca36e-195">20.</span></span> | <span data-ttu-id="ca36e-196">Laukā Krājuma kods ievadiet vai atlasiet 'L0101'.</span><span class="sxs-lookup"><span data-stu-id="ca36e-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="ca36e-197">21.</span><span class="sxs-lookup"><span data-stu-id="ca36e-197">21.</span></span> | <span data-ttu-id="ca36e-198">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="ca36e-198">Click Save.</span></span>                                                                |
+### <a name="the-products-fasttab"></a><span data-ttu-id="cbcbe-151">Preču kopsavilkuma cilne</span><span class="sxs-lookup"><span data-stu-id="cbcbe-151">The Products FastTab</span></span>
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="ca36e-199">Ziņot ražošanas pasūtījumu kā pabeigtu uz novietojumu, kas nav atkarīgs no noliktavas vienības</span><span class="sxs-lookup"><span data-stu-id="ca36e-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="ca36e-200">Šajā procedūrā ir parādīts piemērs tam, kā ziņot kā pabeigtu uz novietojumu, kas nav atkarīgs no noliktavas vienības.</span><span class="sxs-lookup"><span data-stu-id="ca36e-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="ca36e-201">Šim uzdevumam ir nepieciešama piemērojama darba politika.</span><span class="sxs-lookup"><span data-stu-id="ca36e-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="ca36e-202">Iepriekšējā procedūrā ir parādīta darba politikas iestatīšana.</span><span class="sxs-lookup"><span data-stu-id="ca36e-202">The previous procedure shows the setup of the work policy.</span></span> 
+<span data-ttu-id="cbcbe-152">Cilnē **Preces** iestatiet **preces atlases** lauku, lai kontrolētu, kuras preces šai politikai jāpiemēro:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-152">On the **Products** tab, set the **Product selection** field to control which products the policy should apply to:</span></span>
 
-<span data-ttu-id="ca36e-203">DARBĪBAS (25)</span><span class="sxs-lookup"><span data-stu-id="ca36e-203">STEPS (25)</span></span>
+- <span data-ttu-id="cbcbe-153">**Visi** – politika ir jāpiemēro visām precēm.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-153">**All** – The policy should apply to all products.</span></span>
+- <span data-ttu-id="cbcbe-154">**Atlasīts** – politika jāattiecina tikai uz precēm, kas ir uzskaitītas režģī.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-154">**Selected** – The policy should apply only to products that are listed in the grid.</span></span> <span data-ttu-id="cbcbe-155">Izmantojiet rīkjoslu kopsavilkuma cilnē **Preces**, lai pievienotu režģim preces vai noņemtu tās no režģa.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-155">Use the toolbar on the **Products** FastTab to add products to the grid or remove them from the grid.</span></span>
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><span data-ttu-id="ca36e-204"><strong>Apakšuzdevums: iestatīt izvades novietojumu.</strong></span><span class="sxs-lookup"><span data-stu-id="ca36e-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="ca36e-205">Dodieties uz Organizācijas administrēšana &gt; Resursi &gt; Resursu grupas.</span><span class="sxs-lookup"><span data-stu-id="ca36e-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="ca36e-206">Sarakstā atlasiet resursu grupu &#39;5102&#39;.</span><span class="sxs-lookup"><span data-stu-id="ca36e-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="ca36e-207">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="ca36e-207">Click Edit.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="ca36e-208">Laukā Izvades noliktava ievadiet &#39;51&#39;.</span><span class="sxs-lookup"><span data-stu-id="ca36e-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="ca36e-209">Laukā Izvades vieta ievadiet &#39;001&#39;.</span><span class="sxs-lookup"><span data-stu-id="ca36e-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="ca36e-210">Novietojums 001 nav no numura zīmes atkarīgs novietojums.</span><span class="sxs-lookup"><span data-stu-id="ca36e-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="ca36e-211">Novietojumu, kas nav atkarīgs no numura zīmes, var iestatīt tikai tad, ja attiecīgajam novietojumam ir piemērojama darba politika.</span><span class="sxs-lookup"><span data-stu-id="ca36e-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
-</tr>
-<tr>
-<td colspan="3"><span data-ttu-id="ca36e-212"><strong>Apakšuzdevums: izveidot ražošanas pasūtījumu un norādīt to kā pabeigtu.</strong></span><span class="sxs-lookup"><span data-stu-id="ca36e-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="ca36e-213">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-213">Close the page.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="ca36e-214">Doties uz Ražošanas kontrole &gt; Ražošanas pasūtījumi &gt; Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="ca36e-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="ca36e-215">Noklikšķiniet uz Jauns ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="ca36e-215">Click New production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="ca36e-216">Laukā Krājuma kods ievadiet &#39;L0101&#39;.</span><span class="sxs-lookup"><span data-stu-id="ca36e-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="ca36e-217">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="ca36e-217">Click Create.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="ca36e-218">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="ca36e-218">On the Action Pane, click Production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td><span data-ttu-id="ca36e-219">Noklikšķiniet uz Novērtējums.</span><span class="sxs-lookup"><span data-stu-id="ca36e-219">Click Estimate.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td><span data-ttu-id="ca36e-220">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="ca36e-220">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td><span data-ttu-id="ca36e-221">Noklikšķiniet uz Sākt.</span><span class="sxs-lookup"><span data-stu-id="ca36e-221">Click Start.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td><span data-ttu-id="ca36e-222">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="ca36e-222">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td><span data-ttu-id="ca36e-223">Laukā Automātisks MK patēriņš atlasiet &#39;Nekad&#39;.</span><span class="sxs-lookup"><span data-stu-id="ca36e-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td><span data-ttu-id="ca36e-224">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="ca36e-224">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td><span data-ttu-id="ca36e-225">Uzklikšķiniet Reģistrēt pabeigšanu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-225">Click Report as finished.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td><span data-ttu-id="ca36e-226">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="ca36e-226">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td><span data-ttu-id="ca36e-227">Laukā Pieņemt kļūdu atlasiet vienumu Jā.</span><span class="sxs-lookup"><span data-stu-id="ca36e-227">Select Yes in the Accept error field.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td><span data-ttu-id="ca36e-228">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="ca36e-228">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td><span data-ttu-id="ca36e-229">Darbību rūtī noklikšķiniet uz Noliktava.</span><span class="sxs-lookup"><span data-stu-id="ca36e-229">On the Action Pane, click Warehouse.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td><span data-ttu-id="ca36e-230">Noklikšķiniet uz Detalizēta informācija par darbu.</span><span class="sxs-lookup"><span data-stu-id="ca36e-230">Click Work details.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td><span data-ttu-id="ca36e-231">Kad ražošanas pasūtījums tika norādīts kā pabeigts, netika ģenerēts darbs izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="ca36e-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="ca36e-232">Tas notiek tāpēc, ka ir definēta darba politika, kas neļauj ģenerēt darbu, kad produkts L0101 tiek norādīts kā pabeigts novietojumā 001.</span><span class="sxs-lookup"><span data-stu-id="ca36e-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a><span data-ttu-id="cbcbe-156">Noklusējums un pielāgots "uz" vietām</span><span class="sxs-lookup"><span data-stu-id="cbcbe-156">Default and custom "to" locations</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="cbcbe-157">Lai padarītu funkcionalitāti, kas aprakstīta šajā sadaļā, pieejamu jūsu sistēmā, jums jāieslēdz funkcijas *Numura zīmes saņemšanas uzlabojumi* un *Darba politikas uzlabojumi ienākošajam darbam* [Funkciju pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="cbcbe-157">To make the functionality that is described in this section available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
 
+<span data-ttu-id="cbcbe-158">Iepriekš sistēma atbalstīja saņemšanu tikai noklusētajā atrašanās vietā, kas definēta katrai noliktavai.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-158">Previously, the system supported receiving only at the default location that is defined for each warehouse.</span></span> <span data-ttu-id="cbcbe-159">Tomēr mobilās ierīces izvēlnes vienumi, kas izmanto šādus darba izveides procesus, tagad sniedz opciju **Izmantot noklusējuma datus**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-159">However, mobile device menu items that use the following work creation processes now provide the **Use default data** option.</span></span> <span data-ttu-id="cbcbe-160">Šī opcija ļauj piešķirt pielāgotu "uz" atrašanās vietu vienam vai vairākiem izvēlnes elementiem.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-160">This option lets you assign a custom "to" location to one or more menu items.</span></span> <span data-ttu-id="cbcbe-161">(Šī opcija jau bija pieejama dažiem citiem izvēlnes elementu veidiem.)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-161">(This option was already available for some other types of menu items.)</span></span>
 
+- <span data-ttu-id="cbcbe-162">Numura zīmes saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-162">License plate receiving (and putaway)</span></span>
+- <span data-ttu-id="cbcbe-163">Kravas krājuma saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-163">Load item receiving (and putaway)</span></span>
+- <span data-ttu-id="cbcbe-164">Pirkšanas pasūtījuma rindas saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-164">Purchase order line receiving (and putaway)</span></span>
+- <span data-ttu-id="cbcbe-165">Pirkšanas pasūtījuma krājuma saņemšana (un izvietošana)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-165">Purchase order item receiving (and putaway)</span></span>
+
+<span data-ttu-id="cbcbe-166">Izvēlnes elementa iestatījums **Uz atrašanās vietu** pārspēj noklusējuma saņemšanas vietu noliktavā visiem pasūtījumiem, kas tiek apstrādāti, izmantojot šo izvēlnes vienumu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-166">The **To location** setting for a menu item overrides the default receiving location for the warehouse, for all orders that are processed by using that menu item.</span></span>
+
+<span data-ttu-id="cbcbe-167">Lai iestatītu mobilās ierīces izvēlnes elementu, lai atbalstītu saņemšanu pielāgotā vietā, sekojiet šiem soļiem.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-167">To set up a mobile device menu item to support receiving at a custom location, follow these steps.</span></span>
+
+1. <span data-ttu-id="cbcbe-168">Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlnes vienumi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-168">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="cbcbe-169">Atlasiet vai izveidojiet izvēlnes elementu, kas izmanto vienu no darba izveides procesiem, kas uzskaitīti iepriekš šajā sadaļā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-169">Select or create a menu item that uses one of the work creation processes that are listed earlier in this section.</span></span>
+1. <span data-ttu-id="cbcbe-170">Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Izmantot noklusējuma datus** uz **Jā**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-170">On the **General** FastTab, set the **Use default data** option to **Yes**.</span></span>
+1. <span data-ttu-id="cbcbe-171">Darbību rūtī atlasiet **Noklusējuma dati**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-171">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="cbcbe-172">Lapā **Noklusējuma dati** iestatiet šādas vērtības:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-172">On the **Default data** page, set the following values:</span></span>
+
+    - <span data-ttu-id="cbcbe-173">**Noklusējuma datu lauks:** iestatiet šo lauku uz *Uz atrašanās vietu*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-173">**Default data field:** Set this field to *To location*.</span></span>
+    - <span data-ttu-id="cbcbe-174">**Noliktava:** atlasiet mērķa noliktavu, ko izmantot ar šo izvēlnes elementu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-174">**Warehouse:** Select the destination warehouse to use with this menu item.</span></span>
+    - <span data-ttu-id="cbcbe-175">**Atrašanās vieta:** šajā laukā ir uzskaitīti visi novietojuma ID, kas ir pieejami atlasītajai noliktavai.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-175">**Location:** This field lists all the location IDs that are available for the selected warehouse.</span></span> <span data-ttu-id="cbcbe-176">Tomēr šī lauka iestatījumam faktiski nav nekāda efekta.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-176">However, the setting of this field doesn't actually have any effect.</span></span> <span data-ttu-id="cbcbe-177">Tādēļ to var atstāt tukšu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-177">Therefore, you can leave it blank.</span></span> <span data-ttu-id="cbcbe-178">Tomēr jūs varat izmantot šo sarakstu, lai apstiprinātu ID, kas ir jāievada laukā **Stingri kodētā vērtība**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-178">Nevertheless, you can use the list to confirm the ID that you must enter in the **Hardcoded value** field.</span></span>
+    - <span data-ttu-id="cbcbe-179">**Stingri kodētā vērtība:** ievadiet atrašanās vietas ID, kas attiecas uz šo izvēlnes elementu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-179">**Hardcoded value:** Enter the location ID for the receiving location that applies to this menu item.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="cbcbe-180">Darba politiku var lietot tikai tad, ja visas saņemšanas vietas ir uzskaitītas atbilstošajā darba ierobežojuma iestatījumā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-180">A work policy can be applied only if all the receiving locations are listed in the relevant work policy setup.</span></span> <span data-ttu-id="cbcbe-181">Šī prasība ir piemērojama neatkarīgi no tā, vai izmantojat noklusējuma noliktavas saņemšanas vietu vai pielāgotu "uz" atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-181">This requirement applies regardless of whether you're using the default warehouse receiving location or a custom "to" location.</span></span>
+
+## <a name="example-scenario-warehouse-receiving"></a><span data-ttu-id="cbcbe-182">Piemēra scenārijs: noliktavas saņemšana</span><span class="sxs-lookup"><span data-stu-id="cbcbe-182">Example scenario: Warehouse receiving</span></span>
+
+<span data-ttu-id="cbcbe-183">Visas preces, ko saņem *Pirkšanas pasūtījuma krājuma saņemšanas (un nosūtīšanas)* process, jābūt reģistrētam atrašanās vietā *FL-001*, un tiem jābūt pieejamiem *24.* noliktavā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-183">All products that are received by the *Purchase order item receiving (and putaway)* process must be registered in location *FL-001*, and they must be available in warehouse *24*.</span></span> <span data-ttu-id="cbcbe-184">Tomēr darbu nedrīkst izveidot.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-184">However, work should not be created.</span></span> <span data-ttu-id="cbcbe-185">Preces, kas tiek saņemtas, izmantojot citus procesus (tas ir, lietojot citas mobilās ierīces izvēlnes vienības), jāreģistrē noklusējuma noliktavas saņemšanas vietā (*RECV*), un darbs ir jāizveido kā parasti.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-185">Products that are received by any other process (that is, by using other mobile device menu items) should be registered at the default warehouse receiving location (*RECV*), and work should be created as usual.</span></span> <span data-ttu-id="cbcbe-186">(Šajā scenārijā netiek rādīts noklusējuma saņemšanas iestatījums.)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-186">(This scenario doesn't show the default receiving setup.)</span></span>
+
+<span data-ttu-id="cbcbe-187">Šim scenārijam nepieciešami šādi elementi:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-187">This scenario requires the following elements:</span></span>
+
+- <span data-ttu-id="cbcbe-188">Darba politika *Pirkšanas pasūtījuma krājuma saņemšanas (un nosūtīšana)* procesam novietojumā *FL-001* visiem produktiem</span><span class="sxs-lookup"><span data-stu-id="cbcbe-188">A work policy for the *Purchase order item receiving (and putaway)* process in location *FL-001*, for all products</span></span>
+- <span data-ttu-id="cbcbe-189">Mobilās ierīces izvēlnes elements, kam ir noklusētie dati, un kas iestata lauku **Uz atrašanās vietu** uz *FL-001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-189">A mobile device menu item that has default data, and that sets the **To location** field to *FL-001*</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="cbcbe-190">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="cbcbe-190">Prerequisites</span></span>
+
+<span data-ttu-id="cbcbe-191">Lai padarītu funkcionalitāti, kas aprakstīta šajā scenārijā, pieejamu jūsu sistēmā, jums jāieslēdz funkcijas *Numura zīmes saņemšanas uzlabojumi* un *Darba politikas uzlabojumi ienākošajam darbam* [Funkciju pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="cbcbe-191">To make the functionality that is described in this scenario available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+
+<span data-ttu-id="cbcbe-192">Šajā scenārijā tiek izmantoti standarta demonstrācijas dati.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-192">This scenario uses the standard demo data.</span></span> <span data-ttu-id="cbcbe-193">Tādēļ, ja jūs vēlaties strādāt ar to, izmantojot šeit piedāvātās vērtības, ir jāstrādā ar sistēmu, kurā ir instalēti demonstrācijas dati.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-193">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="cbcbe-194">Turklāt ir jāatlasa **USMF** juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-194">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-work-policy"></a><span data-ttu-id="cbcbe-195">Iestatīt darba politiku</span><span class="sxs-lookup"><span data-stu-id="cbcbe-195">Set up a work policy</span></span>
+
+1. <span data-ttu-id="cbcbe-196">Dodieties uz **Noliktavas vadība \> Iestatīšana \> Darbs \> Darba politikas**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-196">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="cbcbe-197">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-197">Select **New**.</span></span>
+1. <span data-ttu-id="cbcbe-198">Laukā **Darba politikas nosaukums** ievadiet *Pirkšanas preces izvietošanas darbs nav veikts*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-198">In the **Work policy name** field, enter *No purchase item putaway work*.</span></span>
+1. <span data-ttu-id="cbcbe-199">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-199">Select **Save**.</span></span>
+1. <span data-ttu-id="cbcbe-200">Kopsavilkuma cilnē **Darba pasūtījuma tipi** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-200">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="cbcbe-201">**Darba pasūtījuma tips:** *Pirkšanas pasūtījumi*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-201">**Work order type:** *Purchase orders*</span></span>
+    - <span data-ttu-id="cbcbe-202">**Darba process:** *Pirkšanas pasūtījuma krājuma saņemšana (nosūtīšana)*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-202">**Work process:** *Purchase order item receiving (and putaway)*</span></span>
+    - <span data-ttu-id="cbcbe-203">**Darba izveides metode:** *Nekad*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-203">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="cbcbe-204">**Pārkraušana sadales centrā politikas nosaukums:** atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-204">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="cbcbe-205">Kopsavilkuma cilnē **Krājumu atrašanās vietas** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-205">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="cbcbe-206">**Noliktava:** *24*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-206">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="cbcbe-207">**Atrašanās vieta:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-207">**Location:** *FL-001*</span></span>
+
+1. <span data-ttu-id="cbcbe-208">Kopsavilkuma cilnē **Preces** iestatiet **Preces atlases** lauku uz *Visi*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-208">On the **Products** FastTab, set the **Product selection** field to *All*.</span></span>
+1. <span data-ttu-id="cbcbe-209">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-209">Select **Save**.</span></span>
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a><span data-ttu-id="cbcbe-210">Mobilās ierīces izvēlnes vienuma iestatīšana, lai mainītu saņemto atrašanās vietu</span><span class="sxs-lookup"><span data-stu-id="cbcbe-210">Set up a mobile device menu item to change the receiving location</span></span>
+
+1. <span data-ttu-id="cbcbe-211">Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlnes vienumi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-211">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="cbcbe-212">Kreisajā rūtī atlasiet esošo **Pirkšanas saņemšanas** izvēlnes elementu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-212">In the left pane, select the existing **Purchase receive** menu item.</span></span>
+1. <span data-ttu-id="cbcbe-213">Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Izmantot noklusējuma datus** uz *Jā*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-213">On the **General** FastTab, set the **Use default data** option to *Yes*.</span></span>
+1. <span data-ttu-id="cbcbe-214">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-214">Select **Save**.</span></span>
+1. <span data-ttu-id="cbcbe-215">Darbību rūtī atlasiet **Noklusējuma dati**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-215">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="cbcbe-216">Lapā **Noklusējuma dati** darbības rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-216">On the **Default data** page, on the Action Pane, select **New** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="cbcbe-217">**Noklusējuma datu lauks:** *Uz atrašanās vietu*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-217">**Default data field:** *To location*</span></span>
+    - <span data-ttu-id="cbcbe-218">**Noliktava:** *24*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-218">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="cbcbe-219">**Atrašanās vieta:** atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-219">**Location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="cbcbe-220">**Stingri kodētā vērtība:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-220">**Hardcoded value:** *FL-001*</span></span>
+
+1. <span data-ttu-id="cbcbe-221">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-221">Select **Save**.</span></span>
+
+### <a name="receive-a-purchase-order-without-creating-work"></a><span data-ttu-id="cbcbe-222">Saņemt pirkšanas pasūtījumu, neveidojot darbu</span><span class="sxs-lookup"><span data-stu-id="cbcbe-222">Receive a purchase order without creating work</span></span>
+
+<span data-ttu-id="cbcbe-223">Šajā sadaļā ir parādīts, kā saņemt pirkšanas pasūtījuma krājumu, bet neveidojot darbu, vietā, kas atšķiras no noklusējuma saņemšanas vietas, kas iestatīta noliktavai.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-223">The example in this section shows how to receive a purchase order item, but without creating work, at a location that differs from the default receiving location that is set up for the warehouse.</span></span> <span data-ttu-id="cbcbe-224">Šajā piemērā tiek izmantota darba politika un mobilās ierīces krājums, ko izveidojāt iepriekš šajā scenārijā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-224">This example uses the work policy and mobile device item that you created earlier in this scenario.</span></span>
+
+#### <a name="create-a-purchase-order"></a><span data-ttu-id="cbcbe-225">Pirkšanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="cbcbe-225">Create a purchase order</span></span>
+
+1. <span data-ttu-id="cbcbe-226">Dodieties uz **Sagāde un avoti \> Pirkuma pasūtījumi \> Visi pirkuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-226">Go to **Procurement and sourcing \> Purchase orders \> All purchase orders**.</span></span>
+1. <span data-ttu-id="cbcbe-227">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-227">Select **New**.</span></span>
+1. <span data-ttu-id="cbcbe-228">Dialoglodziņā **Izveidot pirkuma pasūtījumu** iestatiet sekojošas vērtības:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-228">In the **Create purchase order** dialog box, set the following values:</span></span>
+
+    - <span data-ttu-id="cbcbe-229">**Tirgotāja konts:** *US-101*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-229">**Vendor account:** *US-101*</span></span>
+    - <span data-ttu-id="cbcbe-230">**Vieta:** *2*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-230">**Site:** *2*</span></span>
+    - <span data-ttu-id="cbcbe-231">**Noliktava:** *24*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-231">**Warehouse:** *24*</span></span>
+
+1. <span data-ttu-id="cbcbe-232">Atlasiet **Labi**, lai aizvērtu dialoglodziņu un atvērtu jaunu pirkšanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-232">Select **OK** to close the dialog box and open the new purchase order.</span></span>
+1. <span data-ttu-id="cbcbe-233">Kopsavilkuma cilnē **Pirkšanas pasūtījuma rindas** iestatiet šādas vērtības tukšai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-233">On the **Purchase order lines** FastTab, set the following values for the empty row:</span></span>
+
+    - <span data-ttu-id="cbcbe-234">**Krājuma numurs:** *A0001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-234">**Item number:** *A0001*</span></span>
+    - <span data-ttu-id="cbcbe-235">**Daudzums:** *1*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-235">**Quantity:** *1*</span></span>
+
+1. <span data-ttu-id="cbcbe-236">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-236">Select **Save**.</span></span>
+1. <span data-ttu-id="cbcbe-237">Pierakstiet pirkuma pasūtījuma numuru.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-237">Make a note of the purchase order number.</span></span>
+
+#### <a name="receive-a-purchase-order"></a><span data-ttu-id="cbcbe-238">Pirkšanas pasūtījuma saņemšana</span><span class="sxs-lookup"><span data-stu-id="cbcbe-238">Receive a purchase order</span></span>
+
+1. <span data-ttu-id="cbcbe-239">Mobilajā ierīcē pierakstieties *24.* noliktavā, izmantojot *24* kā lietotāja ID un *1* kā paroli.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-239">On the mobile device, sign in to warehouse *24* by using *24* as the user ID and *1* as the password.</span></span>
+1. <span data-ttu-id="cbcbe-240">Atlasiet **Ienākošais**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-240">Select **Inbound**.</span></span>
+1. <span data-ttu-id="cbcbe-241">Atlasiet **Pirkšanas saņemšana**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-241">Select **Purchase receive**.</span></span> <span data-ttu-id="cbcbe-242">Laukam **Atrašanās vieta** jābūt iestatītam uz *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-242">The **Location** field should be set to *FL-001*.</span></span>
+1. <span data-ttu-id="cbcbe-243">Ievadiet pirkšanas pasūtījuma numuru pirkšanas pasūtījumam, ko izveidojāt iepriekšējā procedūrā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-243">Enter the purchase order number for the purchase order that you created in the previous procedure.</span></span>
+1. <span data-ttu-id="cbcbe-244">Laukā **Krājuma kods** ievadiet *A0001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-244">In the **Item number** field, enter *A0001*.</span></span>
+1. <span data-ttu-id="cbcbe-245">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-245">Select **OK**.</span></span>
+1. <span data-ttu-id="cbcbe-246">Laukā **Daudzums** ievadiet *1*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-246">In the **Quantity** field, enter *1*.</span></span>
+1. <span data-ttu-id="cbcbe-247">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-247">Select **OK**.</span></span>
+
+<span data-ttu-id="cbcbe-248">Pirkšanas pasūtījums tagad ir saņemts, bet ar to nav saistīts neviens darbs.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-248">The purchase order is now received, but no work is associated with it.</span></span> <span data-ttu-id="cbcbe-249">Rīcībā esošie krājumi ir atjaunināti, un daudzums *1* krājumam *A0001* tagad ir pieejams atrašanās vietā *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-249">The on-hand inventory has been updated, and a quantity of *1* of item *A0001* is now available at location *FL-001*.</span></span>
+
+## <a name="example-scenario-manufacturing"></a><span data-ttu-id="cbcbe-250">Piemēra scenārijs: ražošana</span><span class="sxs-lookup"><span data-stu-id="cbcbe-250">Example scenario: Manufacturing</span></span>
+
+<span data-ttu-id="cbcbe-251">Nākamajā piemērā ir divi ražošanas pasūtījumi, *PRD-001* un *PRD-002*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-251">In the following example, there are two production orders, *PRD-001* and *PRD-002*.</span></span> <span data-ttu-id="cbcbe-252">Ražošanas pasūtījumā *PRD-001* ir operācija ar nosaukumu *Montāža*, kur prece *SC1* tiek ziņota kā pabeigta uz novietojumu *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-252">Production order *PRD-001* has an operation that is named *Assembly*, where product *SC1* is being reported as finished to location *001*.</span></span> <span data-ttu-id="cbcbe-253">Ražošanas pasūtījumā *PRD-002* ir operācija ar nosaukumu *Krāsošana*, un tas patērē preci *SC1* no novietojuma *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-253">Production order *PRD-002* has an operation that is named *Painting* and consumes product *SC1* from location *001*.</span></span> <span data-ttu-id="cbcbe-254">Ražošanas pasūtījums *PRD-002* patērē arī izejmateriālu *RM1* no novietojuma *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-254">Production order *PRD-002* also consumes raw material *RM1* from location *001*.</span></span> <span data-ttu-id="cbcbe-255">Izejmateriāls *RM1* tiek glabāts noliktavas novietojumā *BULK-001* un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-255">Raw material *RM1* is stored in warehouse location *BULK-001* and will be picked to location *001* by warehouse work for raw material picking.</span></span> <span data-ttu-id="cbcbe-256">Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana *PRD-002*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-256">The picking work is generated when production *PRD-002* is released.</span></span>
+
+<span data-ttu-id="cbcbe-257">[![Noliktavas darba politikas](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="cbcbe-257">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span>
+
+<span data-ttu-id="cbcbe-258">Kad plānojat konfigurēt noliktavas darba politiku šim scenārijam, ir jāņem vērā tālāk norādītā informācija:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-258">When you're planning to configure a warehouse work policy for this scenario, you should consider the following points:</span></span>
+
+- <span data-ttu-id="cbcbe-259">Noliktavas darbs gatavo preču izvietošanai nav nepieciešams, kad preci *SC1* ziņojat kā pabeigtu no ražošanas pasūtījuma *PRD-001* uz novietojumu *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-259">Warehouse work for putaway of finished goods isn't required when you report product *SC1* as finished from production order *PRD-001* to location *001*.</span></span> <span data-ttu-id="cbcbe-260">Tas ir tādēļ, ka operācija *Krāsošana* ražošanas pasūtījumam *PRD-002* preci *SC1* patērē tajā pašā novietojumā.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-260">The reason is that the *Painting* operation for production order *PRD-002* consumes product *SC1* at the same location.</span></span>
+- <span data-ttu-id="cbcbe-261">Noliktavas darbs izejmateriālu izdošanai ir nepieciešams, lai izejmateriālu *RM1* no noliktavas novietojumā *BULK-001* pārvietotu uz novietojumu *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-261">Warehouse work for raw material picking is required to move raw material *RM1* from warehouse location *BULK-001* to location *001*.</span></span>
+
+<span data-ttu-id="cbcbe-262">Šeit ir sniegts darba politikas piemērs, kuru varat iestatīt, pamatojoties uz šiem apsvērumiem:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-262">Here is an example of a work policy that you can set up, based on these considerations:</span></span>
+
+- <span data-ttu-id="cbcbe-263">**Darba politikas nosaukums:** *Nav izvietošanas darba*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-263">**Work policy name:** *No putaway work*</span></span>
+- <span data-ttu-id="cbcbe-264">**Darba pasūtījumu veidi:** *Pabeigtās preces izvietošana* un *Līdzprodukta un blakusproduktu izvietošana*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-264">**Work order types:** *Finished goods put away* and *Co-product and by-product put away*</span></span>
+- <span data-ttu-id="cbcbe-265">**Noliktavas atrašanās vietas:** Noliktava *51* un atrašanās vieta *001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-265">**Inventory locations:** Warehouse *51* and location *001*</span></span>
+- <span data-ttu-id="cbcbe-266">**Preces:** *SC1*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-266">**Products:** *SC1*</span></span>
+
+<span data-ttu-id="cbcbe-267">Nākamais piemēra scenārijs nodrošina detalizētas instrukcijas par noliktavas darba politiku iestatīšanu šim scenārijam.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-267">The following example scenario provides step-by-step instructions for setting up the warehouse work policy for this scenario.</span></span>
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="cbcbe-268">Piemēra scenārijs: ziņot ražošanas pasūtījumu kā pabeigtu uz novietojumu, kas nav atkarīgs no noliktavas vienības</span><span class="sxs-lookup"><span data-stu-id="cbcbe-268">Example scenario: Report as finished to a location that isn't license plate–controlled</span></span>
+
+<span data-ttu-id="cbcbe-269">Šajā scenārijā ir parādīts piemērs, kad ražošanas pasūtījums tiek paziņots kā pabeigts vietā, kura netiek kontrolēta ar numura zīmi.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-269">This scenario shows an example where a production order is reported as finished to a location that isn't license plate–controlled.</span></span>
+
+<span data-ttu-id="cbcbe-270">Šajā scenārijā tiek izmantoti standarta demonstrācijas dati.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-270">This scenario uses the standard demo data.</span></span> <span data-ttu-id="cbcbe-271">Tādēļ, ja jūs vēlaties strādāt ar to, izmantojot šeit piedāvātās vērtības, ir jāstrādā ar sistēmu, kurā ir instalēti demonstrācijas dati.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-271">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="cbcbe-272">Turklāt ir jāatlasa **USMF** juridiskā persona.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-272">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="cbcbe-273">Iestatīt noliktavas darba politiku</span><span class="sxs-lookup"><span data-stu-id="cbcbe-273">Set up a warehouse work policy</span></span>
+
+<span data-ttu-id="cbcbe-274">Ne vienmēr noliktavas procesi ietver noliktavas darbu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-274">Warehouse processes don't always include warehouse work.</span></span> <span data-ttu-id="cbcbe-275">Definējot darba politiku, jūs varat novērst darba izveidošanu izejmateriālu izdošanai un gatavās produkcijas izvietošanai preču kopai konkrētos novietojumos.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-275">By defining a work policy, you can prevent the creation of work for raw material picking and putaway of finished goods for a set of products at specific locations.</span></span>
+
+1. <span data-ttu-id="cbcbe-276">Dodieties uz **Noliktavas vadība \> Iestatīšana \> Darbs \> Darba politikas**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-276">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="cbcbe-277">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-277">Select **New**.</span></span>
+1. <span data-ttu-id="cbcbe-278">Laukā **Darba politikas nosaukums** ievadiet *Izvietošanas darbs nav veikts*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-278">In the **Work policy name** field, enter *No putaway work*.</span></span>
+1. <span data-ttu-id="cbcbe-279">Darbību rūtī atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-279">On the Action Pane, select **Save**.</span></span>
+1. <span data-ttu-id="cbcbe-280">Kopsavilkuma cilnē **Darba pasūtījuma tipi** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-280">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="cbcbe-281">**Darba pasūtījuma veids:** *Pabeigto preču izvietošana*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-281">**Work order type:** *Finished goods put away*</span></span>
+    - <span data-ttu-id="cbcbe-282">**Darba process:** *Visi saistītie darba procesi*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-282">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="cbcbe-283">**Darba izveides metode:** *Nekad*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-283">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="cbcbe-284">**Pārkraušana sadales centrā politikas nosaukums:** atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-284">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="cbcbe-285">Vēlreiz atlasiet **Pievienot**, lai pievienotu otru rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-285">Select **Add** again to add a second row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="cbcbe-286">**Darba pasūtījuma veids** *Līdzproduktu un blakusproduktu izvietošana*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-286">**Work order type:** *Co-product and by-product put away*</span></span>
+    - <span data-ttu-id="cbcbe-287">**Darba process:** *Visi saistītie darba procesi*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-287">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="cbcbe-288">**Darba izveides metode:** *Nekad*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-288">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="cbcbe-289">**Pārkraušana sadales centrā politikas nosaukums:** atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-289">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="cbcbe-290">Kopsavilkuma cilnē **Krājumu atrašanās vietas** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-290">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="cbcbe-291">**Noliktava:** *51*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-291">**Warehouse:** *51*</span></span>
+    - <span data-ttu-id="cbcbe-292">**Atrašanās vieta:** *001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-292">**Location:** *001*</span></span>
+
+1. <span data-ttu-id="cbcbe-293">Kopsavilkuma cilnē **Preces** iestatiet **Preces atlases** lauku uz *Atlasītie*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-293">On the **Products** FastTab, set the **Product selection** field to *Selected*.</span></span>
+1. <span data-ttu-id="cbcbe-294">Kopsavilkuma cilnē **Preces** atlasiet **Pievienot**, lai režģim pievienotu rindu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-294">On the **Products** FastTab, select **Add** to add a row to the grid.</span></span>
+1. <span data-ttu-id="cbcbe-295">Jaunā rindā iestatiet **Krājuma numura** lauku uz *L0101*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-295">In the new row, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="cbcbe-296">Darbību rūtī atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-296">On the Action Pane, select **Save**.</span></span>
+
+### <a name="set-up-an-output-location"></a><span data-ttu-id="cbcbe-297">Iestatīt izvades novietojumu</span><span class="sxs-lookup"><span data-stu-id="cbcbe-297">Set up an output location</span></span>
+
+1. <span data-ttu-id="cbcbe-298">Dodieties uz **Organizācijas administrēšana \> Resursi \> Resursu grupas**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-298">Go to **Organization administration \> Resources \> Resource groups**.</span></span>
+1. <span data-ttu-id="cbcbe-299">Kreisajā rūtī atlasiet resursu grupu **5102**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-299">In the left pane, select resource group **5102**.</span></span>
+1. <span data-ttu-id="cbcbe-300">Kopsavilkuma cilnē **Vispārīgi** iestatiet šādas vērtības:</span><span class="sxs-lookup"><span data-stu-id="cbcbe-300">On the **General** FastTab, set the following values:</span></span>
+
+    - <span data-ttu-id="cbcbe-301">**Ražojumu noliktava:** *51*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-301">**Output warehouse:** *51*</span></span>
+    - <span data-ttu-id="cbcbe-302">**Ražojuma atrašanās vieta:** *001*</span><span class="sxs-lookup"><span data-stu-id="cbcbe-302">**Output location:** *001*</span></span>
+
+1. <span data-ttu-id="cbcbe-303">Darbību rūtī atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-303">On the Action Pane, select **Save**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="cbcbe-304">Novietojums *001* nav no numura zīmes atkarīgs novietojums.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-304">Location *001* isn't a license plate–controlled location.</span></span> <span data-ttu-id="cbcbe-305">Izvades vietu, kas netiek kontrolēta ar numura zīmi, var iestatīt tikai tad, ja šai atrašanās vietai ir piemērojama darba politika.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-305">You can set up an output location that isn't license plate–controlled only if an applicable work policy exists for the location.</span></span>
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="cbcbe-306">Izveidot ražošanas pasūtījumu un norādīt to kā pabeigtu</span><span class="sxs-lookup"><span data-stu-id="cbcbe-306">Create a production order and report it as finished</span></span>
+
+1. <span data-ttu-id="cbcbe-307">Doties uz **Ražošanas kontrole \> Ražošanas pasūtījumi \> Visi ražošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-307">Go to **Production control \> Production orders \> All production orders**.</span></span>
+1. <span data-ttu-id="cbcbe-308">Darbību rūtī atlasiet **Jauns ražošanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-308">On the Action Pane, select **New production order**.</span></span>
+1. <span data-ttu-id="cbcbe-309">Dialoglodziņā **Ražošanas pasūtījuma izveide** iestatiet **Krājuma numura** lauku uz *L0101*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-309">In the **Create production order** dialog box, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="cbcbe-310">Atlasiet **Izveidot**, lai izveidotu pasūtījumu un aizvērtu dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-310">Select **Create** to create the order and close the dialog box.</span></span>
+
+    <span data-ttu-id="cbcbe-311">Jauns ražošanas pasūtījums tiek pievienots režģim lapā **Visi ražošanas pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-311">A new production order is added to the grid on the **All production orders** page.</span></span>
+
+    <span data-ttu-id="cbcbe-312">Saglabāt jauno, atlasīto ražošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-312">Keep the new production order selected.</span></span>
+
+1. <span data-ttu-id="cbcbe-313">Darbību rūts cilnē **Ražošanas pasūtījums**, grupā **Process** atlasiet **Aplēst**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-313">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Estimate**.</span></span>
+1. <span data-ttu-id="cbcbe-314">Dialoglodziņā **Aplēst** izlasiet aplēsi un pēc tam atlasiet **Labi**, lai aizvērtu dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-314">In the **Estimate** dialog box, read the estimate, and then select **OK** to close the dialog box.</span></span>
+1. <span data-ttu-id="cbcbe-315">Darbību rūts cilnē **Ražošanas pasūtījums**, grupā **Process** atlasiet **Sākt**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-315">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Start**.</span></span>
+1. <span data-ttu-id="cbcbe-316">Dialoglodziņā **Sākt** cilnē **Vispārīgi** iestatiet **Automātiskās MK patēriņa** lauku uz *Nekad*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-316">In the **Start** dialog box, on the **General** tab, set the **Automatic BOM consumption** field to *Never*.</span></span>
+1. <span data-ttu-id="cbcbe-317">Atlasiet **Labi**, lai iestatījumu saglabātu un aizvērtu dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-317">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="cbcbe-318">Darbību rūts cilnē **Ražošanas pasūtījums**, grupā **Process** atlasiet **Ziņot kā pabeigtu**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-318">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Report as finished**.</span></span>
+1. <span data-ttu-id="cbcbe-319">Dialoglodziņā **Ziņot kā pabeigts**, cilnē **Vispārīgi** iestatiet opciju **Pieņemt kļūdu** uz *Jā*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-319">In the **Report as finished** dialog box, on the **General** tab, set the **Accept error** option to *Yes*.</span></span>
+1. <span data-ttu-id="cbcbe-320">Atlasiet **Labi**, lai iestatījumu saglabātu un aizvērtu dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-320">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="cbcbe-321">Darbību rūtī cilnē **Noliktavas** grupā **Vispārīgi** atlasiet **Detalizēta informācija par darbu**.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-321">On the Action Pane, on the **Warehouse** tab, in the **General** group, select **Work details**.</span></span>
+
+<span data-ttu-id="cbcbe-322">Kad ražošanas pasūtījums tiek norādīts kā pabeigts, netika ģenerēts darbs izvietošanai.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-322">When the production order is reported as finished, no work is generated for putaway.</span></span> <span data-ttu-id="cbcbe-323">Šī uzvedība notiek tāpēc, ka ir definēta darba politika, kas neļauj ģenerēt darbu, kad produkts *L0101* tiek norādīts kā pabeigts novietojumā *001*.</span><span class="sxs-lookup"><span data-stu-id="cbcbe-323">This behavior occurs because a work policy is defined that prevents work from being generated when product *L0101* is reported as finished to location *001*.</span></span>
+
+## <a name="more-information"></a><span data-ttu-id="cbcbe-324">Papildinformācija</span><span class="sxs-lookup"><span data-stu-id="cbcbe-324">More information</span></span>
+
+<span data-ttu-id="cbcbe-325">Papildinformāciju par mobilās ierīces izvēlnes elementiem skatiet [Mobilo ierīču iestatīšana noliktavas darbam](configure-mobile-devices-warehouse.md).</span><span class="sxs-lookup"><span data-stu-id="cbcbe-325">For more information about mobile device menu items, see [Set up mobile devices for warehouse work](configure-mobile-devices-warehouse.md).</span></span>
+
+<span data-ttu-id="cbcbe-326">Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu un darba politikām, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="cbcbe-326">For more information about license plate receiving and work policies, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
+
+<span data-ttu-id="cbcbe-327">Papildinformāciju par saņemšanas noslodzes pārvaldību skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](inbound-load-handling.md).</span><span class="sxs-lookup"><span data-stu-id="cbcbe-327">For more information about inbound load management, see [Warehouse handling of inbound loads for purchase orders](inbound-load-handling.md).</span></span>
