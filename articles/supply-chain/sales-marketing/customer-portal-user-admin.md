@@ -3,7 +3,7 @@ title: Debitoru portāla lietotāju izveide un pārvaldība
 description: Šajā tēmā ir izskaidrots, kā izveidot Debitoru portāla lietotāju kontus un iestatīt tiem atļaujas.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413987"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645317"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
@@ -30,11 +30,16 @@ Pirms lietotājs var izmantot tīmekļa vietni, šim lietotājam jāizveido kont
 
 Kad lietotāji pašreģistrējas, kontaktpersonu ieraksti tiek izveidoti automātiski. Tāpēc nevar nodrošināt, ka lietotājs atlasa pareizo Debitoru kontu un juridisko personu. No otras puses, uzaicinājuma process ļauj administratoram piešķirt pareizo Debitoru kontu un juridisko personu kontaktpersonas ierakstam, pirms tiek nosūtīts uzaicinājums. Ja domājat par risinājuma pielāgošanu, lai lietotāji paši varētu veikt reģistrāciju, noteikti apsveriet iespējamās sekas.
 
+## <a name="video"></a>Video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+Video (parādīts iepriekš) [Aicināt klientus reģistrēties un izmantot jūsu klientu portālu](https://youtu.be/drGUYHX9QIQ) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas ir pieejams vietnē YouTube.
+
 ## <a name="prerequisite-setup"></a>Priekšnoteikumu iestatīšana
 
 Kontakti Power Apps portālos tiek saglabāti kā ieraksti elementā **Kontaktpersonas** pakalpojumā Common Data Service. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
 
-![![Sistēmas diagramma Debitoru portāla kontaktpersonām](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Sistēmas diagramma Debitoru portāla kontaktpersonām](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
 
 Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis elementa **Kontaktpersonas** kartēšanu duālajā ierakstā.
 

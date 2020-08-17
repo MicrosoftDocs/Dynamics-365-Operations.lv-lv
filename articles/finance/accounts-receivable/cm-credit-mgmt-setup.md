@@ -3,7 +3,7 @@ title: Kredīta pārvaldības parametru iestatīšana
 description: Šajā tēmā aprakstītas opcijas, kuras var izmantot, lai konfigurētu kredīta pārvaldību atbilstoši jūsu biznesa vajadzībām.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154532"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651909"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredīta pārvaldības parametru iestatīšana
 
@@ -34,7 +34,7 @@ Sadaļā **Kredīts** ir četras kopsavilkuma cilnes, kurās varat mainīt param
 
 ### <a name="credit-holds"></a>Kredītu aiztures
 
-- Iestatiet opciju **Atļaut rediģēt pārdošanas pasūtījumus pēc pasūtījuma aizturēšanas palaišanas** uz **Jā**, lai pieprasītu, ka grāmatošanas kārtulas atkal tiek pārbaudīti, ja pārdošanas pasūtījuma vērtība (pilna cena) ir mainīta kopš pārdošanas pasūtījuma palaišanas no aizturēšanas saraksta. .
+- Iestatiet opciju **Atļaut rediģēt pārdošanas pasūtījumus pēc pasūtījuma aizturēšanas palaišanas** uz **Nē**, lai pieprasītu, ka grāmatošanas kārtulas atkal tiek pārbaudīti, ja pārdošanas pasūtījuma vērtība (pilna cena) ir palielināta kopš pārdošanas pasūtījuma palaišanas no aizturēšanas saraksta. .
 - Laukā **Atcelto pasūtījumu iemesli** atlasiet palaišanas iemeslu, kas tiks izmantots pēc noklusējuma, kad pārdošanas pasūtījums, kas bija kredīta pārvaldības aizturēšanā, tiks atcelts.
 - Lai pārbaudītu debitora kredīta grupas kredīta limitu, kad pārdošanas pasūtījuma debitors pieder debitoru kredīta grupai, iestatiet opciju **Pārbaudīt debitora kredīta grupas kredīta līmeni** uz **Jā**. Tiek pārbaudīts grupas kredīta limits un pēc tam, ja tas ir pietiekams, tiks pārbaudīts debitora kredīta limits.
 - Iestatiet opciju **Pārbaudīt kredīta limitu, kad ir palielināti apmaksas nosacījumi** uz **Jā**, lai pārbaudītu apmaksas nosacījumu klasifikāciju, lai noteiktu, vai maksājuma nosacījumi pārdošanas pasūtījumā atšķiras no noklusējuma apmaksas nosacījumiem klientiem. Ja jaunajiem apmaksas nosacījumiem ir augstāks rangs nekā sākotnējiem apmaksas nosacījumiem, pasūtījums tiek nodots kredīta pārvaldības aizturēšanai.

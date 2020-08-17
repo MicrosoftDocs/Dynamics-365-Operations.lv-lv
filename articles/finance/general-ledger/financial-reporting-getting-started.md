@@ -3,7 +3,7 @@ title: Finanšu pārskatu veidošanas apskats
 description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/10/2020
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
-ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
+ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
+ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3609593"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618042"
 ---
 # <a name="financial-reporting-overview"></a>Finanšu pārskatu veidošanas apskats
 
@@ -87,24 +87,16 @@ Kad lietotājs ir pievienots vai loma ir mainīta, lietotājam dažu minūšu la
 ## <a name="report-deletions-and-expirations"></a>Ziņojumu dzēšana un derīguma beigas
 Lietotāji, kas ģenerē pārskatu, var dzēst savus pārskatus. Lietotāji ar pienākumu **Uzturēt finanšu pārskata drošību** var dzēst citus pārskatus. 
 
-Sākot ar 10.0.7 laidienu, ir ieviests jēdziens beigu datumiem. Jaunais nepieciešamais līdzeklis tiks iespējots līdzekļu pārvaldības darbvietā. Šis līdzeklis ietver šādas izmaiņas:
-
-* Jaunizveidotie pārskati tiks automātiski atzīmēti kā tādi, kuru beigu datums ir 90 dienas no to ģenerēšanas brīža.
-* Visiem esošiem pārskatiem pirms līdzekļa instalēšanas tiks piešķirts 90 dienu derīguma termiņš. Datums uz īsu laiku var tikt parādīts kā tukšs, līdz tiek palaists finanšu atskaišu pakalpojums, tiek ģenerēts pārskats un pakalpojums veic atjaunināšanu esošajiem pārskatiem ar tukšu derīguma termiņu. 
-* Lietotāji, kuriem ir **Finanšu pārskatu drošības uzturēšana**, var piekļūt šai funkcionalitātei. Jebkurš lietotājs pienākumā**Uzturēt finanšu pārskatu**, kuram ir piešķirta privilēģija **Uzturēt finanšu pārskata derīguma termiņu** būs arī iespēja labot derīguma termiņu. Pašlaik ir pieejamas divas saglabāšanas iespējas:
-   * Derīguma beigas pēc 90 dienām
-   * Iespēja iestatīt, ka pārskatam nekad nebeidzas termiņš
-
-Ja ir atlasīts beigu datums, piemēram, 90 dienas, tad tas tiek lietots 90 dienas no šodienas, kas ir atšķirīga uzvedība nekā 90 dienas, sākot no ģenerēšanas datuma, kas tika iestatīts pārskata ģenerēšanas laikā. Laidienā 10.0.8 tika ieviests beigu datumu jēdziens. Jaunais nepieciešamais līdzeklis ir iespējots lapā **Visi** līdzekļu pārvaldības darbvietā. **Finanšu pārskata saglabāšanas politikas** līdzeklī ir šādas izmaiņas:
+Laidienā 10.0.8 tika ieviests beigu datumu jēdziens. Jaunais nepieciešamais līdzeklis ir iespējots lapā **Visi** līdzekļu pārvaldības darbvietā. **Finanšu pārskata saglabāšanas politikas** līdzeklī ir šādas izmaiņas:
 * Tikko izveidotie pārskati automātiski tiks atzīmēti kā tādi, kam ir derīguma termiņš 90 dienu no laika, kad tie tiek ģenerēti
 * Visiem esošiem pārskatiem pirms līdzekļa instalēšanas tiks piešķirts 90 dienu derīguma termiņš. Datums uz īsu laiku var tikt parādīts kā tukšs, līdz tiek palaists finanšu atskaišu pakalpojums, tiek ģenerēts pārskats un pakalpojums veic atjaunināšanu esošajiem pārskatiem ar tukšu derīguma termiņu. 
 * Lietotāji, kuriem ir **Finanšu pārskatu drošības uzturēšana**, var piekļūt šai funkcionalitātei. Jebkurš lietotājs pienākumā**Uzturēt finanšu pārskatu**, kuram ir piešķirta privilēģija **Uzturēt finanšu pārskata derīguma termiņu** būs arī iespēja labot derīguma termiņu. Pašlaik ir pieejamas divas saglabāšanas iespējas: 
   * Derīguma beigas pēc 90 dienām.
   * Iespēja iestatīt, ka pārskatam nekad nebeidzas termiņš.
   
-Papildu opcijas tiks apsvērtas turpmākajā funkcionalitātē. 90 dienu derīguma termiņš būs noklusējums, un lietotāji ar atbilstošajām atļaujām var ignorēt noklusējumu **Finanšu pārskatu** saraksta lapā.    
+Kad ir atlasīts termiņš, piemēram, 90 dienas, tas tiek lietots 90 dienas no šodienas. Šī ir atšķirīga uzvedība, nekā 90 dienas no sākotnējā izveides datuma iestatījuma, kas tika noteikts pārskata izveides laikā. 
   
-Ja ir atlasīts derīguma termiņš, piemēram, 90 dienas, tas piešķir 90 dienas no šodienas, kas ir atšķirīga uzvedība nekā 90 dienām, sākot no sākotnējās izveides datuma, kas tiek iestatīts pārskatu izveides laikā. 
+Papildu opcijas tiks apsvērtas turpmākajā funkcionalitātē. 90 dienu derīguma termiņš būs noklusējums, un lietotāji ar atbilstošajām atļaujām var ignorēt noklusējumu **Finanšu pārskatu** saraksta lapā.    
 
 ## <a name="default-reports"></a>Noklusējuma pārskati
 Finanšu atskaišu veidošana nodrošina 22 noklusējuma finanšu atskaites. Katrs pārskats izmanto noklusējuma galvenā konta kategorijas. Šīs atskaites varat lietot tādas, kādas tās ir, vai kā sākuma punktu savām finanšu atskaišu veidošanas nepieciešamībām. Papildus tradicionālajiem finanšu pārskatiem, piemēram, peļņas vai zaudējumu aprēķinam un bilancei, šīs noklusējuma atskaites ietver atskaites, kurās ir redzami dažādie finanšu atskaišu veidi, ko varat izveidot. 

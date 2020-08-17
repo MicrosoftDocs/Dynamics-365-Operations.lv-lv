@@ -3,7 +3,7 @@ title: Rādīt atlaides punktā POS
 description: Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas partneriem uzzināt par veicināšanas pasākumiem un to, kā tos var izmantot šķērspārdošanas un piedāvājuma kustībām.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334712"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638186"
 ---
 # <a name="show-discounts-in-pos"></a>Rādīt atlaides punktā POS
 
@@ -54,7 +54,7 @@ Lapā **Visas atlaides** pārdošanas asistenti var arī meklēt atlaides pēc a
 
 Daudzrindu atlaides, piemēram, daudzuma atlaides, komplekta piedāvājuma atlaides un sliekšņa atlaides, ir lielisks veids, kā motivēt klientus iegādāties vairāk preču, lai iegūtu lielākas atlaides. Tāpēc tās palīdz palielināt arī klienta groza un mazumtirdzniecības ieņēmumus. Šīs atlaides var tikt publicētas e-komercijas vietnēs, sociālajos medijos un reklāmkarogos veikalā.
 
-Tomēr, pat ja tiek izmantotas visas šīs publicitātes metodes, klienti var palaist garām iespēju izmantot veicināšanas pasākumus. Lai pārdošanas asistentiem būtu vieglāk uzzināt, kādi veicināšanas pasākumi ir attiecināmi uz atlasīto rindu vai pat uz visu grozu, mazumtirgotāji var pievienot pogu "Skatīt pieejamās atlaides" jebkuram pogu režģim lapā **Transakcija**. Šādā veidā pārdošanas asistents var atlasīt transakcijas rindu un pēc tam atlasīt pogu, lai parādītu visas atlasītajā rindā pieejamās atlaides. Pārdošanas asistents var arī atlasīt citu cilni, lai parādītu atlaides, kas attiecas uz visu transakciju.
+Tomēr, pat ja tiek izmantotas visas šīs publicitātes metodes, klienti var palaist garām iespēju izmantot veicināšanas pasākumus. Lai pārdošanas asistentiem būtu vieglāk uzzināt, kādi veicināšanas pasākumi ir attiecināmi uz atlasīto rindu vai pat uz visu grozu, mazumtirgotāji var pievienot pogu **"Skatīt pieejamās atlaides"** jebkuram pogu režģim lapā **Transakcija**. Rezultātā pārdošanas asistents var atlasīt transakcijas rindu un pēc tam atlasīt pogu, lai parādītu visas atlasītajā rindā pieejamās atlaides. Pārdošanas asistents var arī atlasīt citu cilni, lai parādītu atlaides, kas attiecas uz visu transakciju. Ir svarīgi atzīmēt, ka opcija **Skatīt pieejamās atlaides** nerāda atlaides, kas jau tiek pielietotas pārdošanas rindai, jo atlaides informācija jau ir parādīta pārdošanas rindā. Šī scenārija mērķis ir parādīt tikai tās atlaides, kas vēl nav pielietotas. Izņēmums ir atlaides, kas tiek piemērotas, pamatojoties uz kuponu, kas atzīmēts kā "Lietot bez kupona koda". Tas pārdošanas partnerim atvieglo darbu viegli noņemt pielietoto kuponu.
 
 Lapa **Visas atlaides** rāda tikai tās atlaides, kas nekonkurē ar kādu no izmantotajām atlaidēm. Šī darbība palīdz nodrošināt, ka, ja pārdošanas asistents informē klientu par atlaidi un klients veic nepieciešamo darbību (piemēram, klients pērk vēl vienu preci, lai iegūtu 10 procentu atlaidi), transakcijai tiek piemērota atlaide. Kuponā balstītas atlaides tiek rādīta vienīgi tad, ja ir ieslēgta opcija **Piemērot bez kupona koda**.
 

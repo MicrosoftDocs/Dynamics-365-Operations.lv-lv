@@ -3,7 +3,7 @@ title: Naudas plūsmas prognozēšana
 description: Šajā tēmā ir sniegts pārskats par naudas plūsmas prognozēšanas procesu. Tajā ir arī paskaidrots, kā naudas plūsmas prognozēšana ir integrēta citos sistēmas moduļos.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188422"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653780"
 ---
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
@@ -104,6 +104,13 @@ Aprēķiniet naudas plūsmas prognozi, izmantojot lapu **Aprēķināt naudas pl�
 
 Naudas plūsmas prognozēšanai varat izmantot arī pakešapstrādes metodi. Lai palīdzētu nodrošināt prognozēšanas analīzes datu regulāru atjaunināšanu, iestatiet periodisku naudas plūsmas prognozes aprēķināšanas pakešapstrādes procesu.
 
+Versijā 10.0.13 tiek izlaists aprēķina procesa uzlabojums, kas izmanto procesu automatizācijas struktūru, lai ieplānotu naudas plūsmas aprēķina darbu. Tas tiek aktivizēts, izmantojot **Naudas plūsmas prognozes automatizācijas** funkciju **Līdzekļu pārvaldības** darbvietā. Kad tas iespējots, izvēlieties **Naudas plūsmas prognozes automatizācijas** saiti, lai parādītu jauno automatizācijas lapu, kur varat plānot naudas plūsmas aprēķināšanas procesu. Lai izveidotu jaunu naudas plūsmas prognozes grafiku, atlasiet **Izveidot jaunu procesu automatizāciju** un pēc tam atlasiet **Naudas plūsmas prognozes automatizāciju** **Grafika tipa** nolaižamajā izvēlnē. Katram uzņēmumam, kuram atjaunināt naudas plūsmas prognozes datus, ir jāiestata grafiks.  Šajā lapā ir parādīts arī tas, kādi naudas plūsmas prognozes automatizācijas darbi tiek gaidīti un kad tika pabeigts pēdējais darbs.  
+
+> [!NOTE] 
+> Ja esošie pakešuzdevumi jau ir ieplānoti naudas plūsmas prognozēm, tiks parādīts kļūdas ziņojums, un jūs nevarēsit iespējot šo funkciju. Lai varētu iespējot šo līdzekli, esošie pakešuzdevumi ir jādzēš. 
+
+Plašāku informāciju skatiet tēmā [Procesa automatizācija](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+
 ### <a name="reporting"></a>Pārskatu veidošana
 
 Pēc naudas plūsmas prognozes aprēķināšanas ir jāatsvaidzina saistītā analītisko pārskatu elementa informācija. Lapā **Elementu krātuve** atlasiet mēru **LedgerCovLiquidityMeasurement apkopots** un pēc tam noklikšķiniet uz **Atsvaidzināt**.
@@ -128,7 +135,7 @@ Darbvietā **Naudas pārskats — visi uzņēmumi** tiek rādīti naudas plūsm
 
 Darbvietā **Naudas pārskats — pašreizējais uzņēmums** tiek rādīti naudas plūsmas prognozēšanas analīzes dati uzņēmumam definētajā uzskaites valūtā. Analīzei izmantoto uzskaites valūtu var definēt lapā **Virsgrāmata**. Šajā darbvietā ir sniegts pārskats par pašreizējā uzņēmuma naudas plūsmas prognozēšanu un bankas kontu bilancēm. Skaidras naudas ieejas un izejas plūsmas diagramma sniedz pārskatu par gaidāmo naudas plūsmu un bilancēm uzskaites valūtā, kā arī detalizētu informāciju par prognozētajām transakcijām. Varat skatīt arī prognozētās bilances noteiktā valūtā.
 
-Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā “Power BI satura pakotne Skaidras naudas apskats”.
+Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI saturs](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas datus par noteiktiem kontiem, pasūtījumiem un krājumiem.
 

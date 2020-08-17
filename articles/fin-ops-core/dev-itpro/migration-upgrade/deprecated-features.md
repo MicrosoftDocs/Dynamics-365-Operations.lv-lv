@@ -3,7 +3,7 @@ title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500416"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645393"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -62,7 +62,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
 | **Ietekmētie produkta apgabali**         | Pieteikums |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: līdz 2020. gada 1. aprīlim izstrādātājiem jāizmanto jaunais API. |
+| **Statuss**                         | Novecojis: 2020. gada 1. aprīlī izstrādātājiem ir jāizmanto platformas API, kas atrodams klasē **HasFunction**. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(virknes ziņojums)
 
@@ -72,7 +72,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
 | **Ietekmētie produkta apgabali**         | Platforma |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: līdz 2020. gada 1. aprīlim izstrādātājiem jāizmanto jaunais API. |
+| **Statuss**                         | Novecojis: 2020. gada 1. aprīlī izstrādātājiem ir jāizmanto platformas API, kas atrodams klasē **HasFunction**. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()

@@ -3,7 +3,7 @@ title: Atbalsta pievienošana satura piegādes tīklam (CDN)
 description: Šajā tēmā ir aprakstīts, kā pievienot satura piegādes tīklu (CDN) jūsu Microsoft Dynamics 365 Commerce videi.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533348"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646043"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
@@ -35,7 +35,7 @@ ms.locfileid: "3533348"
 
 Iestatot e-komercijas vidi programmā Dynamics 365 Commerce, varat konfigurēt to, lai varētu strādāt ar savu CDN pakalpojumu. 
 
-Jūsu pielāgoto domēnu var iespējot jūsu E-komercijas vides nodrošināšanas procesā. Alternatīvi varat izmantot pakalpojuma pieprasījumu, lai to iestatītu pēc nodrošināšanas procesa pabeigšanas. E-komercijas vides nodrošināšanas process ģenerē resursdatora nosaukumu, kas ir saistīts ar vidi. Šim resursdatora nosaukumam ir šāds formāts, kur *e-komercijas nomnieka nosaukums* ir jūsu vides nosaukums.
+Jūsu pielāgoto domēnu var iespējot jūsu E-komercijas vides nodrošināšanas procesā. Alternatīvi varat izmantot pakalpojuma pieprasījumu, lai to iestatītu pēc nodrošināšanas procesa pabeigšanas. E-komercijas vides nodrošināšanas process ģenerē resursdatora nosaukumu, kas ir saistīts ar vidi. Šim resursdatora nosaukumam ir šāds formāts, kur \<*e-commerce-tenant-name*\> ir jūsu vides nosaukums.
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -74,18 +74,20 @@ Jebkuru CDN pakalpojumu var izmantot, bet, piemēram, šajā tēmā tiek izmanto
 
 Lai iegūtu informāciju par to, kā iestatīt Azure optimālās ieejas pakalpojumu, skatiet tēmu [Īsa pamācība: izveidojiet optimālo ieeju augstas pieejamības globālai tīmekļa lietojumprogrammai](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Aizmugursistēmas kopas konfigurēšana Azure optimālās ieejas pakalpojumā
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Aizmugursistēmas kopas konfigurēšana Azure optimālās ieejas pakalpojumā
 
 Lai konfigurētu aizmugursistēmas kopu Azure optimālās ieejas pakalpojumā, veiciet tālāk norādītās darbības.
 
 1. Pievienojiet **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** aizmugursistēmas kopai kā pielāgotu resursdatoru, kam ir tukšs aizmugursistēmas resursdatora virsraksts.
-1. Zem **Darbspējas zondes** laukā **Ceļš** ievadiet **/keepalive**.
-1. Laukā **Intervāli (sekundes)** ievadiet **255**.
 1. Zem **Slodzes līdzsvarošana** atstājiet noklusējuma vērtības.
 
-Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmas kopu** Azure optimālās ieejas pakalpojumā.
+Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmu** Azure optimālās ieejas pakalpojumā ar ievadīto aizmugursistēmas resursdatora virsrakstu.
 
 ![Pievienot aizmugursistēmas kopas dialoglodziņu](./media/CDN_BackendPool.png)
+
+Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmas kopa** Azure optimālās ieejas pakalpojumā ar noklusējuma noslodzes balansēšanas vērtībām.
+
+![c](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Kārtulu iestatīšāna Azure optimālās ieejas pakalpojumā
 
@@ -121,20 +123,22 @@ Lai iestatītu kešošanas kārtulu Azure optimālās ieejas pakalpojumā, veici
 
 ![Dialoglodziņš Kārtulas pievienošana](./media/CDN_CachingRule.png)
 
-Pēc šīs sākotnējās konfigurācijas izvietošanas ir jāpievieno jūsu pielāgots domēns Azure optimālās ieejas pakalpojuma konfigurācijai. Lai pievienotu pielāgotu domēnu (piemēram, `www.fabrikam.com`), jums ir jākonfigurē Kanoniskais nosaukums (CNAME) domēnam.
+> [!WARNING]
+> Ja domēns, ko izmantosiet, jau ir aktīvs un dzīvs, izveidojiet atbalsta biļeti no **Atbalsta** elementa, kas atrodas [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/), lai saņemtu palīdzību nākamajiem soļiem. Papildinformāciju skatiet sadaļā [Iegūt atbalstu Finance and Operations programmām vai Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Ja jūsu domēns ir jauns un nav jau esošs domēns, varat pievienot pielāgotu domēnu Azure optimālās ieejas pakalpojuma konfigurācijai. Tas ļaus tīmekļa datplūsmu vadīt tieši uz jūsu vietni, izmantojot Azure optimālās ieejas instanci. Lai pievienotu pielāgotu domēnu (piemēram, `www.fabrikam.com`), jums ir jākonfigurē Kanoniskais nosaukums (CNAME) domēnam.
 
 Šajā attēlā redzams dialoglodziņš **CNAME konfigurācija** Azure optimālās ieejas pakalpojumā.
 
 ![CNAME konfigurācijas dialoglodziņš](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Ja domēns, ko izmantosiet, jau ir aktīvs un izmantots, sazinieties ar atbalsta dienestu, lai iespējotu šo domēnu, izmantojot Azure optimālās ieejas pakalpojumu testa iestatīšanai.
 
 Varat izmantot Azure optimālās ieejas pakalpojumu, lai pārvaldītu sertifikātu, vai arī varat izmantot savu sertifikātu pielāgotajam domēnam.
 
 Šajā attēlā redzams dialoglodziņš **Pielāgota domēna HTTPS** Azure optimālās ieejas pakalpojumā.
 
 ![Pielāgota domēna HTTPS dialoglodziņš](./media/Custom_Domain_HTTPS.png)
+
+Lai iegūtu detalizētas instrukcijas par pielāgota domēna pievienošanu Azure optimālās ieejas pakalpojumu, skatiet sadaļu [Pievienot pielāgotu domēnu jūsu optimālās ieejas pakalpojumam](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 Tagad jūsu CDN ir jābūt pareizi konfigurētam, lai to varētu izmantot kopā ar jūsu Komercijas vietni.
 

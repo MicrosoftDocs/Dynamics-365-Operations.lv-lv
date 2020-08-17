@@ -3,7 +3,7 @@ title: Jaunumi un izmaiņas programmatūrā Dynamics 365 Human Resources (2020.�
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources.
 author: Darinkramer
 manager: AnnBe
-ms.date: 6/16/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 8ec15c33cdb1abc32c28fd78822b06188dd0feac
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555199"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614290"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Jaunumi un izmaiņas programmatūrā Dynamics 365 Human Resources (2020. gada 11. jūnijs)
 
 Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3316. Dažos virsrakstos redzamie numuri iekavās attiecas uz LCS atbalsta numuriem atsaucei.
 
-## <a name="streamlined-employee-form-sometimes-causes-child-form-close-x-buttons-to-stop-working-442369"></a>Vienkāršota darbinieka veidlapa dažreiz izraisa bērna veidlapas slēgšanas (X) pogas darba pārtraukšanu (442369)
+## <a name="streamlined-employee-form-sometimes-causes-child-form-close-x-buttons-to-stop-working-442369"></a>Vienkāršota darbinieka veidlapa dažreiz izraisa atvašu veidlapas slēgšanas (X) pogas darba pārtraukšanu (442369)
 
-Kad ir iespējota jaunā **Darbinieka** veidlapa, poga Aizvērt (**X**) reizēm nedarbojās bērnelementu veidlapās. Šī problēma bija intermitējoša. Šo veidlapu var aizvērt pēc aiziešanas un atgriešanās pie tās. Piemēram, varat atlasīt izvēlnes elementu kreisajā pusē un pārvietoties uz **Darbinieku** veidlapu, un pēc tam aizvērt to. Šīs nedēļas laidiens salabo šo problēmu. 
+Kad ir iespējota jaunā **Darbinieka** veidlapa, poga Aizvērt (**X**) reizēm nedarbojās pakārtotās veidlapās. Šī problēma bija intermitējoša. Šo veidlapu var aizvērt pēc aiziešanas un atgriešanās pie tās. Piemēram, varat atlasīt izvēlnes elementu kreisajā pusē un pārvietoties uz **Darbinieku** veidlapu, un pēc tam aizvērt to. Šīs nedēļas laidiens salabo šo problēmu. 
 
 ## <a name="the-worker-personal-contact-person-entity-doesnt-export-personal-contacts-with-a-parent-relationship-type"></a>Darbinieka personīgās kontaktpersonas entītija neeksportē personīgos kontaktus ar pamata attiecību tipu
 

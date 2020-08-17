@@ -3,7 +3,7 @@ title: Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegts apskats par preču un debitoru meklēšanas funkcionalitātes uzlabojumiem programmā Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023233"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628913"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -95,6 +95,9 @@ Attālajā debitoru meklēšanā debitora ID netiek rādīts debitoriem no cit�
 
 Ir vienkāršota meklēšana, kas ir balstīta uz tālruņa numuru. Tagad šī meklēšana ignorē speciālās rakstzīmes, piemēram, atstarpes, defises un iekavas, kas varētu būt pievienotas, izveidojot debitoru. Tāpēc kasieriem meklēšanas laikā nav jāraizējas par tālruņa numura formātu. Viņi debitorus var arī meklēt, ierakstot daļēju tālruņa numuru. Ja tālruņa numurā ir speciālās rakstzīmes, to var atrast arī, meklējot numurus, kas tiek rādīti aiz speciālajām rakstzīmēm. Piemēram, ja debitora tālruņa numurs tika ievadīts kā **123-456-7890**, kasieris šo debitoru var meklēt, ierakstot **123**, **456**, **7890** vai **1234567890**, vai ievadot tālruņa numura pirmos dažus ciparus.
 
+> [!NOTE]
+> Klientam var būt vairāki tālruņu numuri un vairāki e-pasta ziņojumi. Klienta meklēšanas algoritms meklē arī šos sekundāros e-pasta ziņojumus un tālruņu numurus, bet klientu meklēšanas rezultātu lapa parāda tikai primāro e-pasta adresi un tālruņa numuru. Tas var izraisīt neskaidrību, jo atgrieztā klienta rezultāti nerāda meklēto e-pastu vai tālruņa numuru. Turpmākajā izlaidumā mēs plānojam uzlabot klienta meklēšanas rezultātu ekrānu, lai parādītu šo informāciju.
+
 Tradicionālā debitoru meklēšana var būt laikietilpīga, jo tā meklē vairākos laukos. Tā vietā kasieri tagad var meklēt pēc viena debitora rekvizīta, piemēram, vārda, e-pasta adreses vai tālruņa numura. Debitoru meklēšanas algoritma izmantotie rekvizīti kopā tiek saukti par *debitoru meklēšanas kritērijiem*. Sistēmas administrators vienu vai vairākus kritērijus var ērti konfigurēt kā saīsnes, kas būs redzamas POS. Tā kā meklēšanai tiek izmantots tikai viens kritērijs, tiek rādīti tikai saistītie meklēšanas rezultāti, un veiktspēja ir daudz labāka par standarta debitoru meklēšana veiktspēju. Nākamajā attēlā ir parādītas POS pieejamās debitoru meklēšanas saīsnes.
 
 ![Debitora meklēšanas saīsnes](./media/SearchShortcutsPOS.png "Debitora meklēšanas saīsnes")
@@ -114,3 +117,4 @@ Lauks **Rādīšanas secība** nosaka secību, kādā POS tiek rādītas šīs s
 Gaidāmajā Commerce laidienā mazumtirgotāji kā noklusējuma debitora meklēšanas režīmu POS varēs iestatīt **Meklēt visos veikalos**. Šī konfigurācija var būt noderīga gadījumos, kad debitori, kas tika izveidoti ārpus POS, ir nekavējoties jāmeklē (piemēram, vēl pirms sadales darba izpildes). POS funkcionalitātes profilā būs pieejama jauna opcija **Noklusējuma debitora meklēšanas režīms**. Iestatiet tai vienumu **Ieslēgts**, lai iestatītu noklusējuma meklēšanas režīmam opciju **Meklēt visos veikalos**. Līdz ar katru debitora meklēšanas mēģinājumu tiks veikts reāllaika pieprasījums uz galveno biroju.
 
 Lai palīdzētu novērst negaidītas veiktspējas problēmas, šī konfigurācija tiek slēpta aiz būvējumu izsniegšanas karodziņa ar nosaukumu **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Tādēļ, lai parādītu iestatījumu **Noklusējuma debitora meklēšanas režīms** lietotāja interfeisā (UI), mazumtirgotājam jāizveido atbalsta biļete tā lietotāju pieņemšanas pārbaudes (UAT) un ražošanas vidēm. Pēc tam, kad biļete ir saņemta, tehniskā grupa strādās ar mazumtirgotāju, lai pārliecinātos, ka mazumtirgotājs veic testēšanu vidēs, kas nav ražošanas vides, lai novērtētu veiktspēju un īstenotu visas nepieciešamās optimizācijas.
+

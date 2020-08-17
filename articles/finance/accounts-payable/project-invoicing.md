@@ -1,9 +1,9 @@
 ---
 title: Projekta rēķinu izrakstīšana
-description: Šajā rakstā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
-author: ShylaThompson
+description: Šajā tēmā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
+author: TaylorVH
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
-ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
+ms.search.validFrom: 2020-07-06
+ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: eab7523296996709dfe7407c582e61e28b7d4f23
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331376"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651596"
 ---
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
+Šajā tēmā ir sniegts pārskats par projekta rēķinu izrakstīšanu laika un materiālu projektiem, kā arī fiksētas cenas projektiem. Tajā ir ietverta informācija par rēķinu priekšlikumiem (rēķinus sagatavēm), rēķinu kontroli, starpkontu rēķinu izrakstīšanu, rēķinu izrakstīšanu kreditoriem un kredīta notām.
 
 Projekta veids nosaka pielietojamo rēķina izrakstīšanas procedūru. Rēķinu var izrakstīt tikai par abiem ārējiem projektu tipiem — Laiks un materiāli un Fiksēta cena. Laika un materiālu projekti, kā arī fiksētas cenas projekti vienmēr ir piesaistīti projekta līgumam.
 
@@ -47,7 +47,7 @@ Lai projektam varētu izveidot debitora rēķinu, varat izveidot sākotnējo rē
 
 ### <a name="creating-invoice-proposals"></a>Rēķinu priekšlikumu izveidošana
 
-Rēķinu priekšlikumus varat izveidot, darījumu sarakstā manuāli atlasot norādītajam projektam. Varat arī iestatīt norēķinu kārtulas, kurās norādīts, kad rēķina priekšlikumu izveidot automātiski. Varat, piemēram, izveidot norēķinu kārtulu, lai rēķina priekšlikumu izveidotu, kad izpildīti 25 procenti, 50 procenti, 75 procenti un 100 procenti no projekta darba. 
+Rēķinu priekšlikumus varat izveidot, pieejamo darījumu sarakstā manuāli atlasot darījumu norādītajam projektam. Varat arī iestatīt norēķinu kārtulas, kurās norādīts, kad rēķina priekšlikumu izveidot automātiski. Varat, piemēram, izveidot norēķinu kārtulu, lai rēķina priekšlikumu izveidotu, kad izpildīti 25%, 50%, 75% un 100% no projekta darba. 
 
 Rēķinu priekšlikumus varat izveidot tālāk uzskaitītajām transakcijām.
 
@@ -57,7 +57,7 @@ Rēķinu priekšlikumus varat izveidot tālāk uzskaitītajām transakcijām.
 -   Summas, ko debitors jums samaksāja pirms projekta uzsākšanas
 
 > [!NOTE]
-> **Iespējot kārtošanu pēc resursa projekta rēķina priekšlikuma izveides laikā** funkcija iespējo projekta grāmatvedi, lai sakārtotu projekta transakcijas, kas pieejamas norēķiniem, veidojot jaunu projekta rēķina priekšlikumu. Režģim, kas parāda pieejamās projekta transakcijas, būs atsevišķs lauks Resursa ID un Resurss, kas ļaus lietotājam filtrēt un kārtot tos pēc resursa nosaukuma. Šis līdzeklis ir atspējots pēc noklusējuma, un to var iespējot sadaļā **Darbvietas > Līdzekļu pārvaldība**. Sazinieties ar sistēmas administratoru, lai saņemtu palīdzību šīs funkcijas iespējošanā.
+> **Iespējot kārtošanu pēc resursa projekta rēķina priekšlikuma izveides laikā** funkcija iespējo projekta grāmatvedi, lai sakārtotu projekta transakcijas, kas pieejamas norēķiniem, veidojot jaunu projekta rēķina priekšlikumu. Režģim, kas parāda pieejamās projekta darbības, būs atsevišķi lauki **Resursa ID** un **Resurss**. Šie lauki ļauj filtrēt un kārtot pēc resursa nosaukuma. Šī funkcija pēc noklusējuma ir izslēgta. To var iespējot, lietojot lapu **Funkciju pārvaldība** (**Darbvietas > Līdzekļu pārvaldība**). Sazinieties ar sistēmas administratoru, lai saņemtu palīdzību šī līdzekļa iespējošanā.
 
 Rēķina priekšlikumā varat izveidot papildmaksu transakcijas. Varat arī modificēt pārdošanas cenu par stundu, izdevumiem, krājumu un maksas darījumiem. Kad grāmatojat rēķina priekšlikumu, atjauninātās cenas un transakcijas tiek pievienotas projekta atskaitēm un transakciju vēsturei. 
 
@@ -69,22 +69,25 @@ Ja projektam ir vairāki finansējuma avoti, varat izveidot atsevišķu rēķina
 
 Pēc rēķina priekšlikuma izveidošanas un iegrāmatošanas šajā rēķina priekšlikumā iekļautajiem darījumiem automātiski tiek izveidots debitora rēķins. 
 
-Pirms rēķina priekšlikuma grāmatošanas varat tam pievienot transakcijas vai no tā dzēst transakcijas. Varat, piemēram, noņemt izdevumu transakcijas, kas bija iegrāmatotas projektā, bet par ko debitoram nav jāmaksā. 
+Pirms rēķina priekšlikuma grāmatošanas varat tam pievienot transakcijas vai no tā dzēst transakcijas. Varat, piemēram, noņemt izdevumu darījumus, kas tika iegrāmatoti projektā, bet par kuriem debitoram nav jāmaksā. 
 
-Ja jūsu organizācija pieprasa, ka rēķinu priekšlikumi pirms grāmatošanas tiek pārskatīti, tad rēķina priekšlikums, iespējams, pirms grāmatošanas ir jāapstiprina, izmantojot darbplūsmu “Pārskatīt projekta rēķinu priekšlikumus”.
+Ja jūsu organizācija pieprasa, ka rēķinu priekšlikumi pirms grāmatošanas tiek pārskatīti, jums, iespējams, pirms grāmatošanas tas ir jāapstiprina, izmantojot darbplūsmu “Pārskatīt projekta rēķinu priekšlikumus”.
+
+### <a name="view-grant-information-on-project-invoice-list-pages"></a>Skatīt piešķīruma informāciju projekta rēķinu saraksta lapās
+
+Publiskā sektora lietotāji var pievienot **Piešķīruma ID** un **Piešķīruma nosaukumu** **Projekta rēķinu priekšlikumiem** un **Projekta rēķinu** saraksta lapām. Šīs kolonnas ir iespējotas, izmantojot līdzekli **Pievienot piešķīruma informāciju projekta rēķinu saraksta lapām**. Šis līdzeklis ir izslēgts pēc noklusējuma, un to var iespējot sadaļā  **Darbvietas > Līdzekļu pārvaldība**. Sazinieties ar sistēmas administratoru, lai saņemtu palīdzību šī līdzekļa iespējošanā.
 
 ## <a name="on-account-invoicing"></a>Starpkonta rēķinu izrakstīšana
 Projektam starpkonta rēķinā ievadītā summa tiek noteikta, pamatojoties uz grafiku, pabeigtību un citiem norēķinu nosacījumiem, kas ir norādīti saistītajā projekta līgumā. Šī summa netiek aprēķināta, pamatojoties uz stundām, krājumiem, izdevumiem vai papildmaksām, kas tiek grāmatotas projektā. 
 
-Lai projekta rēķinam varētu pievienot starpkontu darījumu, jums vispirms ir jāizveido starpkontu transakcija laika un materiālu projektam vai fiksētas cenas projektam. Starpkontu transakcijā ievadiet summu, par ko debitoram ir jāizraksta rēķins. Lai izveidotu projekta rēķinu par šo summu, izveidojiet sākotnējo rēķinu (rēķina priekšlikumu). Rēķina priekšlikumā atlasiet starpkontu transakciju. Pirms projekta rēķina izveidošanas starpkontu informāciju varat pārskatīt rēķina priekšlikumā.
+Lai projekta rēķinam varētu pievienot starpkontu darījumu, jums vispirms ir jāizveido starpkontu transakcija laika un materiālu projektam vai fiksētas cenas projektam. Starpkontu transakcijā ievadiet summu, par ko debitoram ir jāizraksta rēķins. Lai izveidotu projekta rēķinu par šo summu, izveidojiet sākotnējo rēķinu (rēķina priekšlikumu). Rēķina priekšlikumā atlasiet starpkontu transakciju. Pirms projekta rēķina izveidošanas starpkontu informāciju varat pārskatīt rēķina priekšlikumā. 
 
 ### <a name="fixed-price-projects"></a>Fiksētas cenas projekti
-
 Fiksētas cenas projektiem starpkontu darījumu pamatā ir iepriekš noteikts atskaites punkts, piegādes vienība vai apmaksa atbilstoši progresam, kas ir norādīta projekta līgumā. Katram maksājumam, kas ir jāsaņem no projekta debitora, tiek izveidota viena rinda. Nav nepieciešami nekādi ieturējumi.
 
 ### <a name="time-and-material-projects"></a>Laika un materiālu projekti
 
-Laika un materiālu projektiem varat izrakstīt rēķinu debitoram vai citam finansējuma avotam par priekšapmaksas summu, izmantojot starpkontu rēķina priekšlikumu. Starpkontu darījumu ievadīšana vienā rindā. Pēc izvēles varat ievadīt papildu rindas kā ieturējumus, lai izlīdzinātu debitora jau veikto priekšapmaksu nobīdes. Lai izveidotu ieturējumu rindas, summas priekšā ierakstiet mīnus zīmi.
+Laika un materiālu projektiem varat izrakstīt rēķinu debitoram vai citam finansējuma avotam par priekšapmaksas summu, izmantojot starpkontu rēķina priekšlikumu. Starpkontu darījumu ievadīšana vienā rindā. Pēc izvēles varat ievadīt papildu rindas kā ieturējumus, lai izlīdzinātu debitora jau veikto priekšapmaksu nobīdes. Lai izveidotu ieturējumu rindas, ievadiet mīnus zīmi pirms summas.
 
 ## <a name="invoice-control"></a>Rēķinu kontrole
 Rēķinu kontroli var izmantot, lai sekotu līdzi gan rēķinā iekļautajām, gan neiekļautajām transakcijām, un lai šīs transakcijas analizētu pret piedāvājumiem attiecībā uz savu projektu visu dzīves ciklu no piedāvājuma stadijas līdz pabeigšanai. Varat redzēt, par kurām transakcijām tika iekasēta maksa konkrētā projektā un kuras rindas ir iekļautas rēķinā. Varat arī redzēt atsevišķas transakcijas, tāpēc pēc grāmatošanas varat tās koriģēt.
@@ -108,10 +111,10 @@ Piemēram, varat iestatīt tālāk norādīto norēķinu grafiku.
 Kad atskaites punktu maksājumi ir gatavi rēķina izrakstīšanai, izmantojiet šo procedūru rēķinu izrakstīšanai par starpkontu summām.
 
 ## <a name="vendor-invoicing"></a>Kreditora rēķini
-Kad pasūtāt kādu krājumu no kreditora un piešķirat šo krājumu kādam projektam, tad rindas rekvizīts, ko šim krājumam atlasījāt no pirkšanas pasūtījuma rindas, nosaka, vai iegādātais krājums tiek iekļauts debitoram izrakstītajā rēķinā. Ja iestatāt noklusējuma rindu rekvizītus, tie tiek rādīti šim krājumam pirkšanas pasūtījuma rindā (Detalizēta informācija par rindu &gt; Projekts &gt; Rindas rekvizīts). Rindas rekvizītu var mainīt divējādi:
+Kad pasūtāt kādu krājumu no kreditora un piešķirat šo krājumu kādam projektam, tad rindas rekvizīts, ko šim krājumam atlasījāt no pirkšanas pasūtījuma rindas, nosaka, vai iegādātais krājums tiek iekļauts debitoram izrakstītajā rēķinā. Ja iestatāt noklusējuma rindu rekvizītus, tie tiek rādīti šim krājumam pirkšanas pasūtījuma rindā (**Detalizēta informācija par rindu > Projekts > Rindas rekvizītu summas**). Rindas rekvizītu var mainīt divējādi:
 
--   Izrakstiet rēķinu projekta debitoram par šo krājumu: pirkšanas pasūtījumā iestatiet krājuma rindas rekvizītu uz apmaksājamu vērtību, un pēc tam izrakstiet rēķinu debitoram, izmantojot pareizo projektu rēķinu izrakstīšanas metodi.
--   Neizrakstiet rēķinu projekta debitoram par šo krājumu: pirkšanas pasūtījuma rindā šim krājumam neatlasiet rindas rekvizītu **Apmaksājams**. Pēc tam varat izrakstīt rēķinu par pirkšanas pasūtījumu, un nav nepieciešams veikt turpmākas darbības.
+-   Izrakstīt rēķinu projekta debitoram par krājumu. Lai to izdarītu, pirkšanas pasūtījumā iestatiet krājuma rindas rekvizītu uz apmaksājamu vērtību, un pēc tam izrakstiet rēķinu debitoram, izmantojot pareizo projektu rēķinu izrakstīšanas metodi.
+-   Neizrakstiet rēķinu projekta debitoram par krājumu. Lai to paveiktu, neatlasiet krājuma pirkšanas pasūtījuma rindā norādīto **Maksas** rindas rekvizītu. Pēc tam varat izrakstīt rēķinu par pirkšanas pasūtījumu, un nav nepieciešams veikt turpmākas darbības.
 
 > [!NOTE] 
 > Pēc noklusējuma nolaišanas rindas nav jāmaksā. Tas nozīmē, ka nav iespējota opcija izveidot rēķina priekšlikumu par atbrīvoto ieturējumu.
@@ -119,7 +122,7 @@ Kad pasūtāt kādu krājumu no kreditora un piešķirat šo krājumu kādam pro
 ## <a name="credit-notes"></a>Kredīta notas
 Ja debitora rēķina summas vērtība ir negatīva, rēķins tiek klasificēts kā kredīta nota. Kad dokuments tiek drukāts, tā virsraksts ir “Kredīta nota”. 
 
-Kad izveidojat kredīta notu, lai kreditētu summu, kas iepriekš ir tikusi uzrādīta rēķinā, vispirms ir jāatlasa rēķinā uzrādītā summa kreditēšanai. Pēc tam jums ir jāizveido kredīta nota, vadoties pēc tās pašas procedūras, ko lietotu parasta debitora rēķina izveidošanai. Citiem vārdiem — atlasiet transakcijas, kas iepriekš tika grāmatotas debitora rēķinam, un pēc tam izveidojiet un grāmatojiet kredīta notas priekšlikumu. 
+Kad izveidojat kredīta notu, lai kreditētu summu, kas iepriekš ir tikusi uzrādīta rēķinā, vispirms ir jāatlasa rēķinā uzrādītā summa kreditēšanai. Pēc tam jums ir jāizveido kredīta nota, vadoties pēc tās pašas procedūras, ko lieto parasta debitora rēķina izveidošanai. Atlasiet transakcijas, kas iepriekš tika grāmatotas debitora rēķinam, un pēc tam izveidojiet un grāmatojiet kredīta notas priekšlikumu. 
 
 Viens un tas pats dokuments var ietvert transakcijas, kas ir atlasītas kreditēšanai, kredīta transakcijas un transakcijas, kas ir grāmatotas. Šis dokuments tiek klasificēts kā rēķins vai kredīta nota — atkarībā no tā, vai kopsumma ir pozitīva vai negatīva. 
 
