@@ -3,7 +3,7 @@ title: Ienākošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) ienākošo krājumu operāciju iespējas.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551605"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627542"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551605"
 Microsoft Dynamics 365 Commerce versijā 10.0.10 un jaunākās versijā ienākošās un izejošās operācijas pārdošanas punktā (POS) aizvieto izdošanas un saņemšanas operāciju.
 
 > [!NOTE]
-> Versijā 10.0.10 un jaunākās versijās visus jaunos līdzekļus POS lietojumprogrammā, kas ir saistīti ar veikala krājumu saņemšanu no pirkšanas pasūtījumiem un pārsūtīšanas pasūtījumiem, pievienos POS operācijai **Ienākošā operācija**. Ja jūs pašlaik izmantojat izdošanas un saņemšanas operāciju POS, mēs iesakām jums izstrādāt stratēģiju, lai pārietu no šīs operācijas uz jaunajām ienākošajām un izejošajām operācijām. Lai gan izdošanas un saņemšanas operācija netiks noņemta no preces, vairs netiks veiktas investīcijas no funkcionālās vai veiktspējas perspektīvas pēc versijas 10.0.9.
+> Commerce versijā 10.0.10 un jaunākās versijās visus jaunos līdzekļus POS lietojumprogrammā, kas ir saistīti ar veikala krājumu saņemšanu no pirkšanas pasūtījumiem un pārsūtīšanas pasūtījumiem, pievienos POS operācijai **Ienākošā operācija**. Ja jūs pašlaik izmantojat izdošanas un saņemšanas operāciju POS, mēs iesakām jums izstrādāt stratēģiju, lai pārietu no šīs operācijas uz jaunajām ienākošajām un izejošajām operācijām. Lai gan izdošanas un saņemšanas operācija netiks noņemta no preces, vairs netiks veiktas investīcijas no funkcionālās vai veiktspējas perspektīvas pēc versijas 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Priekšnosacījums: Konfigurējiet asinhrono dokumentu struktūru
 
@@ -153,6 +153,20 @@ Jums vajadzētu izmantot funkciju **Atcelt saņemšanu** programmas joslā vien�
 Ja saņemat krājumu, varat izmantot funkciju **Apturēt saņemšanu**, ja vēlaties saņemšanas procesa pārtraukumu. Piemēram, jūs varētu vēlēties veikt citu operāciju no POS, piemēram, zvanīt klientu pārdošanas daļai vai aizkavēt saņemšanas grāmatošanu.
 
 Kad atlasāt **Apturēt saņemšanu**, dokumenta statuss tiek mainīts uz **Apturēts**. Tāpēc lietotāji zinās, ka dokumentam ir ievadīti dati, bet dokuments vēl nav iesniegts. Kad esat gatavs atsākt saņemšanas procesu, atlasiet apturēto dokumentu un pēc tam atlasiet **Pasūtījuma informācija**. Jebkādi **Saņem tagad** daudzumi, kurus iepriekš saglabāja, tiek aizturēti un ir skatāmi skatā **Pilns pasūtījumu saraksts**.
+
+### <a name="review"></a>Pārskats
+
+Pirms kvīts galīgās saistīšanu uz Commerce Headquarters (HQ), varat izmantot pārskata funkcionalitāti, lai validētu ienākošo dokumentu. Pārskats brīdinās par jebkādiem trūkstošiem vai neprecīziem datiem, kas var izraisīt apstrādes kļūmi, un sniegs iespēju labot problēmas pirms kvīts pieprasījuma iesniegšanas. Lai iespējotu **Pārskata** funkciju programmu joslā, iespējojiet **Iespējot apstiprināšanu POS ienākošo un izejošo krājumu operāciju** funkciju, izmantojot **Funkciju pārvaldības** darbvietu programmā Commerce Headquarters (HQ).
+
+**Pārskata** funkcija ienākošajā dokumentā validē šādas izejas plūsmas:
+
+- **Pārsniegtie daudzumi** – saņemšanas daudzums ir lielāks par pasūtīto daudzumu. Šīs problēmas nopietnību nosaka pārsniegšanas konfigurācija Commerce Headquarters (HQ).
+- **Nepietiekami daudzumi** – saņemšanas daudzums ir mazāks par pasūtīto daudzumu. Šīs problēmas nopietnību nosaka nepietiekamības konfigurācija Commerce Headquarters (HQ).
+- **Sērijas numurs** — sērijas numurs netiek nodrošināts vai validēts serializētam krājumam, kam nepieciešams sērijas numurs, lai reģistrētos krājumos.
+- **Novietojums nav iestatīts** — atrašanās vieta nav norādīta vienumam, ko kontrolē ar atrašanās vietu, ja tukša atrašanās vieta nav atļauta.
+- **Dzēstās rindas** – pasūtījumam ir dzēstas rindas, ko izdzēš aa Commerce Headquarters (HQ) lietotājs, kas nav zināms POS lietojumprogrammā.
+
+Iestatiet opciju **Iespējot automātisku pārbaudes** parametru uz **Jā** **Commerce parametri** > **Krājumi** > **Veikala krājumi**, lai validācija tiktu veikta automātiski, kad ir atlasīta opcija **Pabeigt saņemšanu**.
 
 ### <a name="finish-receiving"></a>Pabeigt saņemšanu
 

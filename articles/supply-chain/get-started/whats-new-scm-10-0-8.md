@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83a27620a7bdd8624770442aa271a6dac6b5b04e
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530378"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651961"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.8. (2020. gada februāris)
 
@@ -39,23 +39,23 @@ ms.locfileid: "3530378"
 Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Daži no šiem līdzekļiem arī ir iekļauti iepriekšējā inkrementālajā laidienā, bet netika paziņoti iepriekšējā tēmā *Kas jauns*, tāpēc mēs tos pievienojam šeit. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 - [Papildu atrašanās vietas zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
-- [Līdzekļu pārvaldība](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Plašāku informāciju skatiet [Līdzekļu pārvaldības pārskatā](../asset-management/index.md).
-- [Atcelt darbu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) — Papildus informāciju skatiet [Noliktavas darba atcelšana izņēmuma apstrādei](../warehousing/cancel-warehouse-work.md).
+- [Līdzekļu pārvaldība](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Papildinformāciju skatiet [Līdzekļu pārvaldības pārskatā](../asset-management/index.md).
+- [Atcelt darbu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Papildus informāciju skatiet [Noliktavas darba atcelšana izņēmuma apstrādei](../warehousing/cancel-warehouse-work.md).
 - [Mainīt darba pūlu darbam](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Klastera pozīcija pilna](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
 - [Apstiprināt un pārsūtīt](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
 - [Novietojuma direktīvas krājumu izdošanas vecumstruktūras](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
 - [Vietas statuss](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
-- [Izdošanas rindu grupēšana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping) — papildu informāciju skatiet [Izdošanas rindu grupēšana](../warehousing/pick-line-grouping.md).
-- [Kravas automātiska atjaunināšana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update) — Papildu informāciju skatiet [Kravas automātiska atjaunināšana](../warehousing/auto-update-shipment.md).
+- [Izdošanas rindu grupēšana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Papildu informāciju skatiet [Izdošanas rindu grupēšana](../warehousing/pick-line-grouping.md).
+- [Sūtījuma automātiskais atjauninājums](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Papildu informāciju skatiet [Sūtījuma automātiskie atjauninājumi](../warehousing/auto-update-shipment.md).
 - [Sadalīt pieprasījuma papildināšanas darbu, sākot no izvēles darbībām](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [Sadalīt darbu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
-- [Sistēmas vadītu klasteru izdošana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking) - Papildu informāciju skatiet [Sistēmas vadītu klasteru izdošana](../warehousing/system-directed-cluster-pick.md).
-- [noliktavas programmas uzdevuma pārbaude, izmantojot RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [Sistēmas noteikta klastera izdošana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Plašāku informāciju skatiet [Uz sistēmu orientēta klasteru atlasīšana](../warehousing/system-directed-cluster-pick.md).
+- [Noliktavas programmas uzdevuma validācija ar RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Noliktavas pārvietošanas kārtula](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Kopuma statusa vizualizācija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [Kopuma veidņu grupēšana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [Darba rindu detalizēta informācija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details) — Papildu informāciju skatiet [Darba rindas detalizēta informācija](https://www.microsoft.com/videoplayer/embed/RE4fcYN) videoklipu.
+- [Detalizēta darba rindas informācija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Papildu informāciju skatiet [Darba rindas detalizēta informācija](https://www.microsoft.com/videoplayer/embed/RE4fcYN) videoklipu.
 - [Zonas sliekšņa papildināšana](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
 
 ## <a name="additional-resources"></a>Papildu resursi

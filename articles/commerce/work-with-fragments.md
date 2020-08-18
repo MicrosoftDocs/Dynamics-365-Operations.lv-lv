@@ -3,7 +3,7 @@ title: Darbs ar fragmentiem
 description: Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124363"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645995"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aprakstīts, kāpēc, kad un kā izmantot fragmentus programmā Microsoft Dynamics 365 Commerce.
 
@@ -62,9 +62,10 @@ Varat izveidot jaunu fragmentu vai saglabāt esošu moduļa konfigurāciju kā f
 Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmentu, rīkojieties, kā norādīts tālāk.
 
 1. Atveriet lapu vai veidni, kas satur moduli, ko vēlaties pārveidot par fragmentu.
-1. Struktūras rūtī pa kreisi atlasiet daudzpunktes pogu (**...**) blakus moduļa nosaukumam. 
-1. Atlasiet **Koplietot kā fragmentu**. 
-1. Parādīsies dialoglodziņš. Ievadiet fragmenta nosaukumu un metadatus.
+1. Struktūras rūtī pa kreisi vai tieši galvenajā kanvā atlasiet iepriekš konfigurēto moduli.
+1. Atlasiet daudzpunkti (**...**) blakus moduļa nosaukumam vai nu struktūras rūtī, vai atlasītā moduļa rīkjoslā kanvās. 
+1. Atlasiet **Koplietot kā lapas fragmentu**. 
+1. Dialoglodziņā **Saglabāt kā lapas fragmentu** ievadiet fragmenta nosaukumu.
 1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
 
 Šajā attēlā parādīts, kā saglabāt moduļa konfigurāciju kā fragmentu.
@@ -94,15 +95,16 @@ Sekojošajā attēlā parādīts, kur izveidot jaunu fragmentu.
 
 Lai lapai pievienotu fragmentu, veiciet tālāk norādīto.
 
-1. Kreisajā struktūras rūtī atlasiet konteineru vai slotu, kuram var pievienot pakārtotos moduļus.
-1. Atlasiet daudzpunktes pogu blakus konteinera vai slota nosaukumam un pēc tam atlasiet **Pievienot fragmentu**. Parādīsies dialoglodziņš.
+1. Kreisajā struktūras rūtī vai tieši galvenajās kanvās atlasiet konteineru vai slotu, kuram var pievienot atvašu moduļus.
+1. Tiešsaistes rūtī atlasiet daudzpunkti (**...**) blakus konteinera nosaukumam vai slotam.  Ja izmantojat galveno kanvu, pārmaiņus atlasiet plus zīmi (**+**).  
+1. Atlasiet **Pievienot fragmentu**.
 
     ![Ekrāna tvērums, kā pievienot esošu fragmentu slotam vai konteineram](./media/add-fragment.png)
  
     > [!NOTE]
-    > Ja konteiners vai slots neatbalsta jaunus pakārtotos moduļus, opcija **Pievienot fragmentu** nav pieejama.
+    > Ja konteiners vai slots neatbalsta jaunus atvašu moduļus, opcija **Pievienot fragmentu** nav pieejama.
     
-1. Dialoglodziņā meklējiet un atlasiet fragmentu, ko pievienot lapai. Ja pieejamo fragmentu sarakstā nav neviena fragmenta, iespējams, vispirms ir jāizveido fragments no moduļa tipa, ko atbalsta atlasītais konteiners vai slots.
+1. Dialoglodziņā **Pievienot fragmentu** meklējiet un atlasiet pievienojamo fragmentu. Ja pieejamo fragmentu sarakstā nav neviena fragmenta, iespējams, vispirms ir jāizveido fragments no moduļa tipa, ko atbalsta atlasītais konteiners vai slots.
 1. Atlasiet vēlamo fragmentu, kuru pievienot konteineram vai slotam jūsu lapā.
 
     ![Ekrāna tvērums fragmentu atlasītāja modālajam logam](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Lai lapai pievienotu fragmentu, veiciet tālāk norādīto.
 
 Lai no lapas slota vai konteinera noņemtu fragmentu, veiciet tālāk minētās darbības.
 
-1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes pogu, kas atrodas blakus fragmenta nosaukumam, lai noņemtu, un pēc tam atlasiet pogu Miskaste.
+1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes (**...**) pogu, kas atrodas blakus fragmenta nosaukumam, lai noņemtu, un pēc tam atlasiet Miskastes simbolu.  Alternatīvi varat atlasīt fragmentu kanvā un atlasīt miskastes simbolu fragmentu rīkjoslā.
 1. Kad tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties noņemt fragmentu, atlasiet **Labi**.
 
 > [!NOTE]

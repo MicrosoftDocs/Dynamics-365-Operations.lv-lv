@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546446"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640403"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Konfigurēt numuru sērijas noliktavas plūsmām
 
@@ -36,7 +36,7 @@ Līdzeklis pievieno šādu funkcionalitāti:
 - Preču transporta pavadzīmes (BOL) ID var ģenerēt iepriekš.
 - Seriālā pārvadāšanas konteinera koda (SSCC) numuriem var ģenerēt unikālu numuru sēriju.
 - GS1 atbilstošas numuru sērijas var izveidot BOL un SSCC numuriem. Līdzeklis pievieno standarta atbalstu noliktavas vienību ID, konteineru ID, kopuma etiķešu ID un BOL ID.
-- Noliktavas vienību ID numuru konfigurācija ir elastīga. Piemēram, varat iekļaut vai izslēgt mākslīgo intelektu (AI), kā sākt ar nullēm (00).
+- Noliktavas vienību ID numuru konfigurācija ir elastīga. Piemēram, varat iekļaut vai izslēgt programmas identifikatorus (AI), kā sākt ar nullēm (00).
 
 Šī funkcionalitāte ļauj efektīvāk atbalstīt kastu marķēšanu un pielāgot jaunus sistēmas ģenerētus numurus.
 

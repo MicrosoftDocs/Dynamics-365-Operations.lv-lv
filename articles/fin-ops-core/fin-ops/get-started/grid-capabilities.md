@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431364"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651694"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -128,20 +128,47 @@ Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādība
 
 Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontroli.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Attīstītājs] Atteikšanās no atsevišķām lapām, izmantojot jauno režģi 
+Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
+
+        this.forceLegacyGrid();
+
+Šis API tiks ievērots līdz 2021. gada oktobra izlaidumam, kad jaunā režģa kontrole kļūs obligāta. Lūdzu, ziņojiet par visām Microsoft problēmām, kam nepieciešams izmantot šo API. 
+
 ## <a name="known-issues"></a>Zināmās problēmas
 Šajā sadaļā ir saglabāts saraksts ar zināmajām problēmām jaunajai režģa kontrolei, kamēr līdzeklis atrodas priekšskatījuma stāvoklī.  
 
 ### <a name="open-issues"></a>Aktuālās problēmas
+-  Pēc **Jaunā režģa kontroles** līdzekļa iespējošanas dažas lapas turpinās izmantot esošo režģa kontroli. Tas notiks šādās situācijās:  
+    -  Kartīšu saraksts atrodas lapā, kas tiek atveidots vairākās kolonnās.
+    -  Grupētu kartīšu saraksts atrodas lapā.
+    -  Režģa kolonna ar nereaģētu paplašināmo kontroli.
 
-- Karšu saraksti, kas tika atveidoti, jo vairākas kolonnas tagad ir atveidotas kā viena kolonna.
-- Grupētie saraksti netiek atveidoti kā grupas vai atsevišķās kolonnās.
+    Kad lietotājs pirmo reizi sastopas ar vienu no šīm situācijām, tiks parādīts ziņojums par lapas atsvaidzināšanu. Kad parādās šis ziņojums, lapa turpinās izmantot esošo režģi visiem lietotājiem līdz nākamās preces versijas atjaunināšanai. Šo scenāriju labākai apstrādei, lai varētu izmantot jauno režģi, tiks apsvērta turpmāka atjaunināšana.     
 
 ### <a name="fixed-as-part-of-10013"></a>Fiksēta kā daļa no 10.0.13
 
-> [!NOTE]
-> Šī informācija tiek sniegta, lai jūs varētu attiecīgi plānot. Papildinformāciju par atlasītās 10.0.13 versijas laidienu skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Rīku padomi netiek parādīti attēliem.
+-  [Defekts 470173] Neaktīvo rindu izvēles rūtiņas tiek pārslēgtas, kad tiek noklikšķināts uz šūnas laukā
+-  [Defekts 474848] Uzlabotie priekšskatījumi ar režģiem netiek rādīti
+-  [Defekts 474851] Hipersaites atsauces grupas vadīklās nedarbojas 
+-  [Defekts 471777] Nevar atlasīt laukus režģī, lai rediģētu vai izveidotu mobilo lietotni
+-  [KB 4569441] Problēmas, atveidojot vairāku kolonnu kartīšu sarakstus, rīku padomus uz attēliem un displeju opcijas dažos laukos
+-  [KB 4575279] Ne visas iezīmētās rindas tiek dzēstas Virsgrāmatas žurnālā
+-  [KB 4575233] Displeja opcijas pēc pārcelšanās uz citu rindu netiek atjaunotas
+-  [KB 4571095] Preču saņemšanas grāmatošana notiek, nejauši nospiežot taustiņu Enter (pareiza lapas noklusējuma darbības apstrāde)
+-  [KB 4575437] Pārlūks ar rediģējamām vadīklām negaidīti aizveras
+-  [KB 4569418] Dublēta rinda, kas izveidota pasūtījuma grafika formā
+-  [KB 4575435] Uzlabotais priekšskatījums dažreiz saglabājas pat tad, ja peles rādītājs neatrodas lauka tuvumā
+-  [KB 4575434] Pārlūks netiek filtrēts, ja lauks ir modificēts
+-  [KB 4575430] Vērtības paroļu laukos netiek paslēptas režģī
+-  [KB 4569438] "Apstrāde ir apturēta pārbaudes problēmas dēļ" parādās pēc rindu iezīmēšanas, kamēr tiek sakārtotas piegādātāja darbības
+-  [KB 4569434] Atsvaidzinot juridisko personu formu, tiek iegūts mazāk ierakstu
+-  [KB 4575297] Veicot rediģēšanu un tabulēšanu režģī, fokuss turpina pārvietoties uz uzdevuma reģistrētāja rūti
+-  [KB 4566773] Labojumu darbības, kas dokumenta darbību vaicājumā netiek rādītas kā negatīvas 
+-  [KB 4575288] Atlasot apmali starp rindām vienkāršā sarakstā, fokuss tiek atiestatīts uz aktīvo rindu
+-  [KB 4575287] Fokuss neatgriežas pirmajā kolonnā, kad izmanto lejupvērsto bultiņu, lai izveidotu jaunu rindu žurnālos
+-  [KB 4564819] Nevar dzēst rindas brīvā teksta rēķinā (jo datu avots ChangeGroupMode=ImplicitInnerOuter)
+-  [KB 4563317] Rīku padomi/uzlabotie priekšskatījumi netiek parādīti attēliem
 
 ### <a name="fixed-as-part-of-10012"></a>Fiksēta kā daļa no 10.0.12
 
@@ -149,7 +176,7 @@ Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontr
 - [KB 4558570] Krājumi joprojām tiek parādīti lapā pēc tam, kad ieraksts ir dzēsts.
 - [KB 4558572] Stils, kas ir saistīts ar Saraksta paneli **ExtendedStyle**, netiek lietots.
 - [KB 4558573] Validācijas kļūdas nevar noteikt, ja nepieciešamās izmaiņas ir ārpus režģa.
-- [KB 4558584] Negatīvie skaitļi netiek sniegti pareizi.
+- [KB 4558584] Negatīvie skaitļi netiek atveidoti pareizi.
 - [KB 4560726] Pēc pārslēgšanās starp sarakstiem, izmantojot saraksta skata vadīklu, rodas "neparedzēta klienta kļūda".
 - [KB 4562141] Režģa indeksi tiek izslēgti pēc jauna ieraksta pievienošanas.
 - [KB 4562151] Uzdevumu reģistrētāja opcijas **Apstiprināt** un **Kopēt** nav pieejamas datuma/koda vadīklām. 
@@ -158,11 +185,12 @@ Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontr
 - [KB 4562647] Fokuss tiek atiestatīts uz pirmo vadīklu dialoglodziņā **Publicēt**, kad drošības lomu režģī tiek pievienota jauna rinda.
 - [KB 4563310] Uzlabotais priekšskatījums netiek aizvērts pēc rindas maiņas.
 - [KB 4563313] pārlūkā Internet Explorer, uzmeklēšanā atlasot vērtību, rodas "neparedzēta klienta kļūda".
+- [KB 4564557] Pārlūki un nolaižamās izvēlnes netiek atvērtas programmā Internet Explorer
 - [KB 4563324] Pēc darbvietas **Personāla vadība** atvēršanas nedarbojas navigācija.
 
 ### <a name="fixed-as-part-of-10011"></a>Fiksēta kā daļa no 10.0.11
 
-- [Problēma 432458] Tukšas vai dublētas rindas tiek rādītas dažu atvašu kolekciju sākumā.
+- [Problēma 432458] Tukšas vai dublētas rindas tiek rādītas dažu pakārtoto kolekciju sākumā.
 - [KB 4549711] Rindas maksājuma priekšlikumā nevar noņemt pareizi pēc tam, kad jaunā režģa kontrole ir iespējota.
 - [KB 4558374] Nevar izveidot ierakstus, kas pieprasa polimorfisma selektora dialoglodziņu.
 - [KB 4558375] Palīdzības teksts netiek uzrādīts jaunā režģa kolonnās.

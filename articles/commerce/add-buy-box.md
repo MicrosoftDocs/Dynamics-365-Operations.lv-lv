@@ -3,7 +3,7 @@ title: Iegādes lodziņa modulis
 description: Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411346"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645343"
 ---
 # <a name="buy-box-module"></a>Iegādes lodziņa modulis
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
@@ -61,7 +61,7 @@ Tēmas var izmantot, lai noņemtu vai mainītu iegādes loga produktu rekvizītu
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduļi, ko var izmantot iegādes lodziņa modulī
 
-- **Multivides galerija** — šis modulis tiek izmantots, lai parādītu preču attēlus preču informācijas lapā. Tas var atbalstīt no viena līdz vairākiem attēliem. Tā atbalsta arī sīktēlu attēlus. Sīktēlu attēlus var sakārtot vai nu horizontāli (kā rindu zem attēla), vai vertikāli (kā kolonnu blakus attēlam). Multivides galerijas modulis var tikt pievienots **Multivides** slotam iegādes lodziņa modulī. Tas pašlaik atbalsta tikai attēlus. 
+- **Multivides galerija** — šis modulis tiek izmantots, lai parādītu preču attēlus preču informācijas lapā. Plašāku informāciju par šo moduli skatiet [Multivides galerijas modulis](mediagallery-module.md).
 - **Veikala atlasītājs** — šis modulis rāda tuvumā esošo veikalu sarakstu, kur var saņemt preci. Tas ļauj lietotājiem ievadīt atrašanās vietu, lai atrastu tuvuma esošos veikalus. Plašāku informāciju par šo moduli skatiet [Veikalu atlasītāja modulis](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Iegādes lodziņa moduļa iestatījumi
@@ -103,7 +103,7 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **PDP veidne**. Sadaļā **Lapas nosaukums** ievadiet **PDP lapa** pēc tam atlasiet **Labi**.
 1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot lapas fragmentu**.
 1. Dialoglodziņā **Atlasīt lapas fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
-1. Saglabājiet un priekšskatiet lapu. Pievienojiet **?productid=&lt;product id&gt;** vaicājuma virknes parametru priekšskatījuma lapas vietrādim URL. Šādā veidā preces konteksts tiek izmantots priekšskatījuma lapas ielādei un rādīšanai.
+1. Saglabājiet un priekšskatiet lapu. Pievienojiet **?productid=&lt;product id&gt;** vaicājuma virknes parametru priekšskatījuma lapas vietrādim URL. Šādā veidā preces konteksts tiek izmantots priekšskatījuma lapas ielādei un atveidošanai.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. Preču informācijas lapā ir jābūt redzamam iegādes lodziņam.
 
 ## <a name="additional-resources"></a>Papildu resursi
@@ -111,6 +111,8 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 [Sākuma komplekta pārskats](starter-kit-overview.md)
 
 [Veikalu atlasītāja modulis](store-selector.md)
+
+[Multivides galerijas modulis](media-gallery-module.md)
 
 [Konteinera modulis](add-container-module.md)
 

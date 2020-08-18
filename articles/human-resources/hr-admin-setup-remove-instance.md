@@ -3,7 +3,7 @@ title: Noņemt instanci
 description: Šajā rakstā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431203"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621384"
 ---
 # <a name="remove-an-instance"></a>Noņemt instanci
 
@@ -67,8 +67,21 @@ Lai noņemtu Human Resources vidi no esošas Power Apps vides, veiciet tālāk m
 1. Sazinieties ar atbalsta dienestu, lai iesniegtu noņemšanas pieprasījumu.
 2. Atbalsta dienesta grupa iesniedz noņemšanas pieprasījumu Human Resources DevOps grupai. 
 3. Turpiniet darbu, kad saņemat paziņojumu par vides noņemšanu.
-4.  Pierakstieties LCS, izmantojot to pašu kontu, ko lietojat Human Resources abonēšanai. 
+4. Pierakstieties LCS, izmantojot to pašu kontu, ko lietojat Human Resources abonēšanai. 
 5. Atlasiet Human Resources projektu, kurā ir ietverta vide. 
 6. Savā LCS projektā atlasiet elementu **Human Resources programmas pārvaldība**. 
 7. Atlasiet noņemamo instanci, kam ir jānorāda izvietošanas statuss **Neizdevās**.
 8. Atlasiet **Noņemt instanci** un apstipriniet savu lēmumu. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Atjaunot viegli izdzēsto vidi
+
+Ja izdzēsīsit Power Apps vidi, ar kuru ir saistīta jūsu Personāla vadības vide, Personāla vadības vides stāvoklis Lifecycle Services tiks **viegli dzēsts**. Šādā gadījumā lietotāji nevar izveidot savienojumu ar Personāla vadību.
+
+Lai atjaunotu vidi:
+
+1. Sekojiet norādījumiem sadaļā [Atjaunot Power Apps vidi](/power-platform/admin/recover-environment.md).
+
+2. Sazinieties ar atbalsta dienestu, lai atjaunotu Personāla vadības vidi. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Power Apps vides tiek saglabātas tikai septiņas dienas pēc to dzēšanas. Jums ir jāatjauno vide septiņu dienu laikā.

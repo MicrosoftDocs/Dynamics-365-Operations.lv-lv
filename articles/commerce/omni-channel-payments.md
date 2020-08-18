@@ -3,7 +3,7 @@ title: Visu kanālu maksājumu apskats
 description: Šajā tēmā ir sniegts apskats par visu kanālu maksājumiem programmā Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023349"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613181"
 ---
 # <a name="omni-channel-payments-overview"></a>Visu kanālu maksājumu apskats
 
@@ -68,11 +68,13 @@ Ir nepieciešami tālāk norādītie komponenti un iestatīšanas soļi.
 
 - **E-komercijas integrācija:** ir nepieciešama integrācija ar Commerce lai atbalstītu scenārijus, kur pasūtījuma izcelsme ir tiešsaistes vitrīna. Plašāku informāciju par Retail e-komercijas SDK skatiet tēmā [E-komercijas platformas programmatūras izstrādes komplekts (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demonstrācijas vidē atsauces vitrīna atbalsta visu kanālu maksājumu scenārijus. 
 - **Tiešsaistes maksājumu konfigurācija:** tiešsaistes kanāla iestatīšanai ir jāietver maksājumu savienotājs, kas ir atjaunināts, lai atbalstītu visu kanālu maksājumus. Var arī izmantot standarta komplektācijā ietverto maksājumu savienotāju. Informāciju par to, ka konfigurēt Adyen maksājumu savienotāju tiešsaistes veikaliem, skatiet tēmā [Adyen maksājumu savienotājs](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Papildus šajā tēmā aprakstītajai e-komercijas iestatīšanai, Adyen savienotāja iestatījumos parametra **Ļaut maksājumu informācijas saglabāšanu e-komercijā** vērtība ir jāiestata uz **True**. 
-- **Visu kanālu maksājumu konfigurācija:** iekšējās uzskaites daļā dodieties uz **Retail un Commerce \> Headquarters iestatīšana \> Parametri \> Commerce koplietojamie parametri**. Pēc tam cilnē **Visu kanālu maksājumi** opcijai **Izmantot visu kanālu maksājumus** iestatiet vērtību **Jā**.
+- **Visu kanālu maksājumu konfigurācija:** iekšējās uzskaites daļā dodieties uz **Retail un Commerce \> Headquarters iestatīšana \> Parametri \> Commerce koplietojamie parametri**. Pēc tam cilnē **Visu kanālu maksājumi** opcijai **Izmantot visu kanālu maksājumus** iestatiet vērtību **Jā**. Commerce versijās 10.0.12 un jaunākās versijās šis iestatījums ir **Funkciju pārvaldības** darbvietā. Atlasiet **Universālā kanāla maksājumu** funkciju un noklikšķiniet uz **Iespējot tūlīt**. 
 - **Maksājumu pakalpojumi:** lai apstrādātu maksājumus, zvanu centrs izmanto noklusējuma maksājumu savienotāju lapā **Maksājumu pakalpojumi**. Lai atbalstītu tādus scenārijus kā, piemēram, “Pirkt zvanu centrā, saņemt veikalā”, šim noklusējuma maksājumu savienotājam ir jābūt Adyen maksājumu savienotājam vai maksājumu savienotājam, kas atbilst visu kanālu maksājumu ieviešanas prasībām.
 - **EFT pakalpojums:** maksājumiem caur maksājumu termināli ir jābūt iestatītiem aparatūras profila kopsavilkuma cilnē **EFT pakalpojums**. Adyen savienotājs atbalsta standarta komplektācijā ietvertos visu kanālu maksājumu scenārijus. Var izmantot arī citus maksājumu savienotājus, kas atbalsta interfeisu **iNamedRequestHandler**, ja tie atbalsta visu kanālu maksājumus.
 - **Maksājumu savienotāja pieejamība:** kad tiek atkal izsaukts kāds pasūtījums, maksājuma norēķina rindas, kas tiek atkal izsauktas kopā ar šo pasūtījumu, ietver tā maksājumu savienotāja nosaukumu, kurš tika izmantots ar šo pasūtījumu saistīto autorizāciju izveidošanai. Kad pasūtījums ir izpildīts, maksājumu SDK mēģina izmantot to pašu savienotāju, kas tika izmantots sākotnējās autorizācijas izveidošanai. Tādēļ maksājumu savienotājam, kuram ir tādi paši tirgotāja rekvizīti, ir jābūt pieejamam tveršanai. 
 - **Karšu tipi:** lai visu kanālu scenāriji darbotos pareizi, katram kanālam ir nepieciešams tāds pats norēķinu tipu iestatījums, kādu var izmantot visiem kanāliem. Šis iestatījums ietver maksāšanas metodes ID un kartes tipa ID. Piemēram, ja norēķinu tipam **Kartes** tiešsaistes veikala iestatījumā identifikators (ID) ir **2**, arī mazumtirdzniecības veikala iestatījumā šim tipam ir nepieciešams tāds pats ID. Tādas pašas prasības attiecas arī uz kartes tipa ID. Ja tiešsaistes veikalā kartes numurs **12** ir iestatīts kā **VISA**, arī mazumtirdzniecības veikalā tam ir jāiestata tāds pats ID. 
+- Retail Modern POS operētājsistēmai Windows ar Android ar iebūvētu aparatūras staciju -vai-
+- Modern POS operētājsistēmai iOS vai Cloud POS ar savienotu koplietojamo aparatūras staciju. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Visu kanālu maksājumu atbalsta pamatprincips
 
@@ -100,8 +102,10 @@ Nākamajās sadaļās ir aprakstītas darbības katram scenārijam un parādīts
 Pirms sākat, jums ir jāpārliecinās, vai ir izpildīti tālāk norādītie priekšnosacījumi.
 
 - Jums ir atsauces vitrīna, kur ir konfigurēts Adyen savienotājs.
-- Opcija **Visu kanālu maksājumi** lapā **Commerce koplietojamie parametri** ir iestatīta uz **True**.
+- Opcija **Visu kanālu maksājumi** lapā **Commerce koplietojamie parametri** ir iestatīta uz **True**. Jaunākās versijās šis iestatījums tiek pārvietots uz **Funkciju pārvaldības** darbvietu, kur varat izvēlēties **Universālā kanāla maksājumu** funkciju un noklikšķiniet uz **Iespējot tūlīt**. 
 - Adyen maksājumu savienotājs ir konfigurēts Hjūstonas POS reģistram.
+- Retail Modern POS operētājsistēmai Windows ar Android ar iebūvētu aparatūras staciju -vai-
+- Modern POS operētājsistēmai iOS vai Cloud POS ar savienotu koplietojamo aparatūras staciju. 
 
 Lai palaistu šo scenāriju, izpildiet tālāk aprakstītās darbības.
 
@@ -229,3 +233,5 @@ Kad tiek saņemts pasūtījums ar vairākiem norēķiniem un vairākām rindām,
 
 - [Bieži uzdotie jautājumi par maksājumiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

@@ -3,7 +3,7 @@ title: Iespējot Azure Active Directory autentifikāciju, lai pierakstītos POS
 description: Šajā tēmā paskaidrots, kā konfigurēt Microsoft Dynamics 365 Commerce pārdošanas punkta (POS) pierakstīšanās pieredzi, lai tā izmantotu Azure Active Directory autentifikāciju.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410039"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641037"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Iespējot Azure Active Directory autentifikāciju, lai pierakstītos POS
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Lai saistītu Azure AD kontu ar darbinieku, veiciet tālāk aprakstītās darbī
 1. Atlasiet Azure AD kontu, kas tiek atgriezts, un pēc tam atlasiet **Labi**.
 
 Darbinieka detalizētas informācijas lapas cilnē **Commerce** tiks ievadīti lauki **Aizstājvārds**, **UPN** un **Ārējais apakšidentifikators**.
+
+> [!NOTE]
+> Pēc darbinieka ieraksta atjaunināšanas, ja, piemēram, ir saistīts jauns Azure AD konts, ir mainīta parole vai tiek atjaunināta darbinieku adrešu grāmata, ir ieteicams palaist **1060** (**Personāla**) sadales grafiku, lai sinhronizētu jaunāko personāla informāciju kanālā. Tādējādi POS programma var iegūt pareizos datus lietotāja autentifikācijai un autorizācijas pārbaudei.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

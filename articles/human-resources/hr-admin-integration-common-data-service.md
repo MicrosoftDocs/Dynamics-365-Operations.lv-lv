@@ -3,7 +3,7 @@ title: Common Data Service integrācijas konfigurēšana
 description: Varat ieslēgt vai izslēgt integrāciju starp Common Data Service un Microsoft Dynamics 365 Human Resources. Varat arī skatīt detalizētu informāciju par sinhronizāciju, dzēst izsekošanas datus un vēlreiz sinhronizēt elementu, lai palīdzētu novērst ar datiem saistītās problēmas starp abām vidēm.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431318"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621308"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service integrācijas konfigurēšana
 
@@ -66,6 +66,9 @@ Iespējamas, velēsieties izslēgt integrāciju tālāk minētajās situācijās
 - Lai izslēgtu integrāciju, iestatiet opciju uz **Nē**.
 
 [![Common Data Service integrācijas ieslēgšana vai izslēgšana](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Lai veiktu datu migrācijas uzdevumus, ieteicams izslēgt Common Data Service integrāciju. Lielas datu augšupielādes var būtiski ietekmēt veiktspēju. Piemēram, 2000 darbinieku augšupielādēšana var aizņemt vairākas stundas, ja integrācija ir iespējota, un mazāk par vienu stundu, kad tā ir atspējota. Šajā piemērā sniegtie numuri ir tikai demonstrācijas nolūkiem. Precīzs laika apjoms, kas nepieciešams, lai importētu ierakstus, var būtiski atšķirties atkarībā no daudziem faktoriem.
 
 ## <a name="view-data-integration-details"></a>Datu integrācijas detalizētas informācijas skatīšana
 

@@ -3,7 +3,7 @@ title: Izejošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) izejošo krājumu operāciju iespējas.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551629"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646163"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
@@ -38,9 +38,9 @@ Microsoft Dynamics 365 Commerce versijā 10.0.10 un jaunākās versijā ienāko�
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Priekšnosacījums: Konfigurējiet asinhrono dokumentu struktūru
 
-Izejošā operācija iekļauj veiktspējas uzlabojumus, lai nodrošinātu, ka lietotāji, kuriem ir augsts saņemšanas grāmatojumu apjoms daudzos veikalos vai uzņēmumos un kam ir daudz krājumu dokumentu, var apstrādāt šos dokumentus Commerce Headquarters, nepieredzot taimautus vai kļūmes. Šie uzlabojumi prasa asinhronas dokumentu struktūras izmantošanu.
+Izejošā operācija iekļauj veiktspējas uzlabojumus, lai nodrošinātu, ka lietotāji, kuriem ir augsts saņemšanas grāmatojumu apjoms daudzos veikalos vai uzņēmumos un kam ir daudz krājumu dokumentu, var apstrādāt šos dokumentus Commerce Headquarters (HQ), nepieredzot taimautus vai kļūmes. Šie uzlabojumi prasa asinhronas dokumentu struktūras izmantošanu.
 
-Izmantojot asinhrono dokumenta struktūru, jūs varat veikt izejošo dokumentu izmaiņas no POS uz Commerce Headquarters un pēc tam pāriet uz citiem uzdevumiem, kamēr notiek fonā notiek apstrāde uz Commerce Headquarters. Lai pārliecinātos, ka grāmatošana bijusi veiksmīga, varat pārbaudīt dokumenta statusu POS dokumentu saraksta lapā **Izejošās operācijas**. POS programmā var arī izmantot izejošo operāciju aktīvo dokumentu sarakstu, lai skatītu visus dokumentus, kurus nevarēja grāmatot Commerce Headquarters. Ja dokuments neizdodas, POS lietotāji var veikt labojumus un pēc tam vēlreiz mēģināt apstrādāt to programmā Commerce Headquarters.
+Izmantojot asinhrono dokumenta struktūru, jūs varat veikt izejošo dokumentu izmaiņas no POS uz Commerce Headquarters (HQ) un pēc tam pāriet uz citiem uzdevumiem, kamēr notiek fonā notiek apstrāde uz Commerce Headquarters (HQ). Lai pārliecinātos, ka grāmatošana bijusi veiksmīga, varat pārbaudīt dokumenta statusu POS dokumentu saraksta lapā **Izejošās operācijas**. POS programmā var arī izmantot izejošo operāciju aktīvo dokumentu sarakstu, lai skatītu visus dokumentus, kurus nevarēja grāmatot Commerce Headquarters (HQ). Ja dokuments neizdodas, POS lietotāji var veikt labojumus un pēc tam vēlreiz mēģināt apstrādāt to programmā Commerce Headquarters (HQ).
 
 > [!IMPORTANT]
 > Pirms uzņēmums mēģina izmantot izejošo operāciju POS, ir jābūt konfigurētai asinhronā dokumenta struktūrai.
@@ -88,22 +88,22 @@ Kad no POS programmas tiek palaista izejošā operācija, parādās saraksta lap
 
 Izejošo krājumu dokumentu sarakstam ir trīs cilnes.
 
-- **Aktīvs** – Šī cilne parāda pārsūtīšanas pasūtījumus, kuru statuss ir **Pieprasīts** vai **Daļēji nosūtīts**. Pasūtījumi satur rindas vai daudzumus rindās, kas ir jānosūta lietotāja pašreizējam veikalam. Šajā cilnē tiek rādīti arī pasūtījumi, kuru statuss ir **Apstrāde HQ** (tas ir, tie gaida apstiprinājumu veiksmīgai grāmatošanai no Commerce Headquarters) vai **Apstrāde neizdevās** (tas ir, grāmatošana Commerce Headquarters bija neveiksmīga, un lietotājam ir jālabo dati un jāmēģina vēlreiz iesniegt pasūtījumus).
-- **Melnraksts** – Šī cilne parāda jaunos izejošo pārsūtīšanas pasūtījumu pieprasījumus, kurus izveidoja lietotāja veikals. Tomēr dokumenti tika saglabāti tikai lokāli. Tie vēl nav iesniegti Commerce Headquarters apstrādei.
+- **Aktīvs** – Šī cilne parāda pārsūtīšanas pasūtījumus, kuru statuss ir **Pieprasīts** vai **Daļēji nosūtīts**. Pasūtījumi satur rindas vai daudzumus rindās, kas ir jānosūta lietotāja pašreizējam veikalam. Šajā cilnē tiek rādīti arī pasūtījumi, kuru statuss ir **Apstrāde HQ** (tas ir, tie gaida apstiprinājumu veiksmīgai grāmatošanai no Commerce Headquarters (HQ)) vai **Apstrāde neizdevās** (tas ir, grāmatošana Commerce Headquarters (HQ) bija neveiksmīga, un lietotājam ir jālabo dati un jāmēģina vēlreiz iesniegt pasūtījumus).
+- **Melnraksts** – Šī cilne parāda jaunos izejošo pārsūtīšanas pasūtījumu pieprasījumus, kurus izveidoja lietotāja veikals. Tomēr dokumenti tika saglabāti tikai lokāli. Tie vēl nav iesniegti Commerce Headquarters (HQ) apstrādei.
 - **Pabeigts** – Šī cilne parāda pārsūtīšanas pasūtījuma dokumentu sarakstu, ko veikals ir pilnībā nosūtījis pēdējo septiņu dienu laikā. Šī cilne ir paredzēta tikai informatīviem nolūkiem. Visa informācija par dokumentiem šim veikalam ir tikai lasāmi dati.
 
 Skatot dokumentus jebkurā cilnē, lauks **Statuss** var palīdzēt izprast stadiju, kurā dokuments atrodas.
 
-- **Melnraksts** — Pārsūtīšanas pasūtījuma dokuments ir saglabāts tikai veikala kanāla datu bāzē. Informācija par pārsūtīšanas pasūtījuma pieprasījumu vēl nav iesniegta Commerce Headquarters.
-- **Pieprasīts** – Pirkšanas pasūtījums vai pārsūtīšanas pasūtījums ir izveidots Commerce Headquarters un ir pilnībā atvērts. Lietotāja pašreizējais veikals vēl nav apstrādājis nevienu sūtījumu attiecībā pret dokumentu.
+- **Melnraksts** — Pārsūtīšanas pasūtījuma dokuments ir saglabāts tikai veikala kanāla datu bāzē. Informācija par pārsūtīšanas pasūtījuma pieprasījumu vēl nav iesniegta Commerce Headquarters (HQ).
+- **Pieprasīts** – Pirkšanas pasūtījums vai pārsūtīšanas pasūtījums ir izveidots Commerce Headquarters (HQ) un ir pilnībā atvērts. Lietotāja pašreizējais veikals vēl nav apstrādājis nevienu sūtījumu attiecībā pret dokumentu.
 - **Daļēji nosūtīts** – Pārsūtīšanas pasūtījuma dokumentam ir viena vai vairākas rindas vai daļēji rindu daudzumi, kas iegrāmatoti kā nosūtīti no izejošās noliktavas. Šīs nosūtītās rindas ir pieejamas saņemšanai, izmantojot ienākošo operāciju.
 - **Pilnībā nosūtīts** — Pārsūtīšanas pasūtījumam ir bijušas visas tās rindas un pilnie rindas daudzumi, kurus izejošā noliktava grāmatojusi kā nosūtītus.
 - **Notiek** – Šis statuss tiek izmantots, lai informētu ierīces lietotājus, ka dokumentu aktīvi apstrādā cits lietotājs.
 - **Apturēts** — Šis statuss tiek parādīts pēc tam, kad tiek atlasīts **Apturēt saņemšanu**, lai īslaicīgi apturētu saņemšanas procesu.
-- **Apstrāde HQ** — Dokuments tika iesniegts Commerce Headquarters no POS programmas, taču tas vēl nav veiksmīgi iegrāmatots programmā Commerce Headquarters. Dokumentam tiek veikta asinhronās dokumenta grāmatošana. Pēc tam, kad dokuments ir sekmīgi iegrāmatots Commerce Headquarters, tā statuss ir jāatjaunina, lai tas būtu **Pilnībā saņemts** vai **Daļēji saņemts**.
-- **Apstrāde neizdevās** – Dokuments tika iegrāmatots Commerce Headquarters un noraidīts. Rūts **Detalizēta informācija** rāda grāmatošanas kļūmes iemeslu. Dokuments ir jārediģē, lai izlabotu datu problēmas, un pēc tam tas atkārtoti jāiesniedz Commerce Headquarters apstrādei.
+- **Apstrāde HQ** — Dokuments tika iesniegts Commerce Headquarters (HQ) no POS programmas, taču tas vēl nav veiksmīgi iegrāmatots programmā Commerce Headquarters (HQ). Dokumentam tiek veikta asinhronās dokumenta grāmatošana. Pēc tam, kad dokuments ir sekmīgi iegrāmatots Commerce Headquarters (HQ), tā statuss ir jāatjaunina, lai tas būtu **Pilnībā saņemts** vai **Daļēji saņemts**.
+- **Apstrāde neizdevās** – Dokuments tika iegrāmatots Commerce Headquarters (HQ) un noraidīts. Rūts **Detalizēta informācija** rāda grāmatošanas kļūmes iemeslu. Dokuments ir jārediģē, lai izlabotu datu problēmas, un pēc tam tas atkārtoti jāiesniedz Commerce Headquarters (HQ) apstrādei.
 
-Kad sarakstā atlasāt dokumenta rindu, parādās rūts **Detalizēta informācija**. Šajā rūtī tiek rādīta papildu informācija par dokumentu, piemēram, informācija par nosūtīšanu un datumu. Progresa josla rāda, cik daudz vienumu vēl ir jāapstrādā. Ja dokuments nav veiksmīgi apstrādāts programmā Commerce Headquarters, rūts **Detalizēta informācija** rāda kļūmes ziņojumus, kas ir saistīti ar kļūmi.
+Kad sarakstā atlasāt dokumenta rindu, parādās rūts **Detalizēta informācija**. Šajā rūtī tiek rādīta papildu informācija par dokumentu, piemēram, informācija par nosūtīšanu un datumu. Progresa josla rāda, cik daudz vienumu vēl ir jāapstrādā. Ja dokuments nav veiksmīgi apstrādāts programmā Commerce Headquarters (HQ), rūts **Detalizēta informācija** rāda kļūmes ziņojumus, kas ir saistīti ar kļūmi.
 
 Dokumentu saraksta lapas skatā varat izvēlēties **Pasūtījuma informāciju** programmas joslā, lai skatītu detalizētu informāciju par dokumentu. Varat arī aktivizēt saņemšanas apstrādi atbilstošajās dokumenta rindās.
 
@@ -125,13 +125,13 @@ Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validāci
 
 Commerce version 10.0.12 pievienota funkcionalitāte, kas ļauj POS lietotājiem slēgt vai atcelt atlikušos daudzumus izejošā pasūtījuma nosūtīšanas laikā, ja izejošā noliktava konstatē, ka tā nevar nosūtīt visu pieprasīto daudzumu. Daudzumus var arī slēgt vai atcelt vēlāk. Lai izmantotu šo iespēju, uzņēmumam jābūt konfigurētam atļaut nepilna pasūtījuma pārsūtīšanu. Turklāt pārsūtīšanas pasūtījuma rindai jādefinē nepilna pasūtījuma izpildes procentuālā vērtība.
 
-Lai konfigurētu uzņēmumu atļaut nepilna pasūtījuma pārsūtīšanu, lapā Commerce Headquarters dodieties uz **Krājumu pārvaldība \> Iestatīšana \> Krājumu un noliktavas pārvaldības parametri**. Lapas **Krājumu un noliktavas vadības parametri** cilnē **Pārsūtīšanas pasūtījumi** ieslēdziet parametru **Atļaut nepilnu pasūtījumu**. Pēc tam palaidiet **1070** sadales plānotāja darbu, lai sinhronizētu parametru izmaiņas jūsu veikala kanālā.
+Lai konfigurētu uzņēmumu atļaut nepilna pasūtījuma pārsūtīšanu, lapā Commerce Headquarters (HQ) dodieties uz **Krājumu pārvaldība \> Iestatīšana \> Krājumu un noliktavas pārvaldības parametri**. Lapas **Krājumu un noliktavas vadības parametri** cilnē **Pārsūtīšanas pasūtījumi** ieslēdziet parametru **Atļaut nepilnu pasūtījumu**. Pēc tam palaidiet **1070** sadales plānotāja darbu, lai sinhronizētu parametru izmaiņas jūsu veikala kanālā.
 
-Pārsūtīšanas pasūtījumu rindas nepilno pasūtījumu procentuālās daļas var iepriekš definēt produktiem kā daļu no Commerce Headquarters produktu konfigurācijas. Vai arī iestatiet vai pārrakstiet tos noteiktā pārsūtīšanas pasūtījuma rindā, izmantojot Commerce Headquarters.
+Pārsūtīšanas pasūtījumu rindas nepilno pasūtījumu procentuālās daļas var iepriekš definēt produktiem kā daļu no Commerce Headquarters produktu konfigurācijas. Vai arī iestatiet vai pārrakstiet tos noteiktā pārsūtīšanas pasūtījuma rindā, izmantojot Commerce Headquarters (HQ).
 
-Kad organizācija ir pabeigusi konfigurēt nepilno pasūtījumu pārsūtīšanu, lietotāji redzēs jaunu opciju **Aizvērt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta izejošā pārsūtīšanas pasūtījuma rinda, izmantojot POS **Izejošo operāciju**. Pēc tam, kad lietotāji pabeidz sūtījumu, izmantojot operāciju **Pabeigt izpildi**, tie var nosūtīt pieprasījumu Commerce Headquarters, lai atceltu atlikušo nenosūtīto daudzumu. Ja lietotājs izvēlas slēgt atlikušo daudzumu, Commerce veic validāciju, pārbaudot, ka daudzums, kas tiek atcelts, atrodas nepilnā pasūtījuma procentuālās tolerances ietvaros, kas noteikts pārsūtīšanas pasūtījuma rindā. Ja nepilna pasūtījuma tolerance ir pārsniegta, lietotājs saņem kļūdas ziņojumu un nevar aizvērt atlikušo daudzumu, kamēr iepriekš nosūtītais un “nosūtīt tagad” daudzums neatbilst vai pārsniedz nepilna pasūtījuma toleranci.
+Kad organizācija ir pabeigusi konfigurēt nepilno pasūtījumu pārsūtīšanu, POS lietotāji redzēs jaunu opciju **Aizvērt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta izejošā pārsūtīšanas pasūtījuma rinda, izmantojot funkciju**Izejošo operāciju**. Kad lietotāji pabeidz sūtījumu, izmantojot operāciju **Pabeigt izpildi**, tie var nosūtīt pieprasījumu Commerce Headquarters, lai atceltu atlikušo nenosūtīto daudzumu. Ja lietotājs slēdz atlikušo daudzumu, Commerce veic validāciju, pārbaudot, ka daudzums, kas tiek atcelts, atrodas nepilnā pasūtījuma procentuālās tolerances ietvaros, kas noteikts pārsūtīšanas pasūtījuma rindā. Ja nepilna pasūtījuma tolerance ir pārsniegta, tiek parādīts kļūdas ziņojumu un lietotājs nevarēs aizvērt atlikušo daudzumu, kamēr iepriekš nosūtītais un “nosūtīt tagad” daudzums neatbilst vai pārsniedz nepilna pasūtījuma toleranci.
 
-Pēc tam, kad sūtījums ir sinhronizēts ar Commerce Headquarters, daudzumam, kas POS pārsūtīšanas pasūtījuma rindai ir definēts laukā **Nosūtīt tagad**, Commerce Headquarters statuss tiek atjaunināts uz nosūtīts. Visi nenosūtītie daudzumi, kas iepriekš tika uzskatīti par "nosūtīt atlikumu" daudzumiem (t. i., daudzumi, kas tiks nosūtīti vēlāk), tiek uzskatīti par atceltiem daudzumiem. "Nosūtīt atlikumu" daudzums pārsūtīšanas pasūtījuma rindā ir iestatīts kā **0** (nulle), un rinda tiek uzskatīta par pilnībā nosūtītu.
+Pēc tam, kad sūtījums ir sinhronizēts ar Commerce Headquarters (HQ), daudzumam, kas POS pārsūtīšanas pasūtījuma rindai ir definēts laukā **Nosūtīt tagad**, Commerce Headquarters (HQ) statuss tiek atjaunināts uz nosūtīts. Visi nenosūtītie daudzumi, kas iepriekš tika uzskatīti par "nosūtīt atlikumu" daudzumiem (t. i., daudzumi, kas tiks nosūtīti vēlāk), tiek uzskatīti par atceltiem daudzumiem. "Nosūtīt atlikumu" daudzums pārsūtīšanas pasūtījuma rindā ir iestatīts kā **0** (nulle), un rinda tiek uzskatīta par pilnībā nosūtītu.
 
 ### <a name="shipping-location-controlled-items"></a>Nosūtīšanas vieta — kontrolētie vienumi
 
@@ -145,13 +145,26 @@ Pēc nepieciešamības varat atlasīt **Nosūtīt visu**programmas joslā, lai �
 
 ### <a name="cancel-fulfillment"></a>Atcelt izpildi
 
-Jums vajadzētu izmantot funkciju **Atcelt izpildi** programmas joslā vienīgi tad, ja vēlaties iziet no dokumenta un nevēlaties saglabāt izmaiņas. Piemēram, jūs sākotnēji atlasījāt nepareizu dokumentu un nevēlaties saglabāt nevienu no iepriekšējiem nosūtīšanas datiem.
+Izmantojiet funkciju **Atcelt izpildi** programmas joslā vienīgi tad, ja vēlaties iziet no dokumenta un nevēlaties saglabāt izmaiņas. Piemēram, jūs sākotnēji atlasījāt nepareizu dokumentu un nevēlaties saglabāt nevienu no iepriekšējiem nosūtīšanas datiem.
 
 ### <a name="pause-fulfillment"></a>Pauzēt izpildi
 
-Ja jūs izpildīsiet pārsūtīšanas pasūtījumu, varat izmantot funkciju **Apturēt izpildi**, ja vēlaties procesa pārtraukumu. Piemēram, jūs varētu vēlēties veikt citu operāciju no POS, piemēram, zvanīt klientu pārdošanas daļai vai aizkavēt sūtījuma grāmatošanu Commerce Headquarters.
+Ja jūs izpildīsiet pārsūtīšanas pasūtījumu, varat izmantot funkciju **Apturēt izpildi**, ja vēlaties procesa pārtraukumu. Piemēram, jūs varētu vēlēties veikt citu operāciju no POS, piemēram, zvanīt klientu pārdošanas daļai vai aizkavēt sūtījuma grāmatošanu Commerce Headquarters (HQ).
 
 Kad atlasāt **Apturēt izpildi**, dokumenta statuss tiek mainīts uz **Apturēts**. Tāpēc lietotājs zinās, ka dokumentā ir ievadīti dati, bet dokuments vēl nav iesniegts. Kad esat gatavs atsākt izpildes procesu, atlasiet apturēto dokumentu un pēc tam atlasiet **Pasūtījuma informācija**. Jebkādi **Nosūta tagad** daudzumi, kurus iepriekš saglabāja, tiks aizturēti un būs skatāmi skatā **Pilns pasūtījumu saraksts**.
+
+### <a name="review"></a>Pārskats
+
+Pirms izpildes galīgās saistīšanas uz Commerce Headquarters (HQ), varat izmantot **Pārskata** funkciju, lai validētu izejošo dokumentu. Šī funkcija brīdina par potenciāliem trūkstošiem vai neprecīziem datiem, kas var izraisīt apstrādes kļūmi, un sniegs iespēju labot problēmas pirms izpildes pieprasījuma iesniegšanas. Lai iespējotu **Pārskata** funkciju programmu joslā, iespējojiet **Iespējot apstiprināšanu POS ienākošo un izejošo krājumu operāciju** funkciju, izmantojot Funkciju pārvaldību programmā Commerce Headquarters (HQ).
+
+**Pārskata** funkcija izejošajā dokumentā validē šādas izejas plūsmas:
+- **Pārsniegta sūtīšana** – sūtīt tagad daudzums ir lielāks par pasūtīto daudzumu. Šīs problēmas nopietnību nosaka pārsniegšanas konfigurācija Commerce Headquarters (HQ).
+- **Nepietiekama sūtīšana** – sūtīt tagad daudzums ir mazāks par pasūtīto daudzumu. Šīs problēmas nopietnību nosaka nepietiekamības konfigurācija Commerce Headquarters (HQ).
+- **Sērijas numurs** — sērijas numurs netiek nodrošināts vai nav pieejams serializētam krājumam, kam nepieciešams sērijas numurs, lai reģistrētos krājumos.
+- **Novietojums nav iestatīts** — atrašanās vieta nav norādīta vienumam, ko kontrolē ar atrašanās vietu, ja tukša atrašanās vieta nav atļauta.
+- **Dzēstās rindas** – pasūtījumam ir dzēstas rindas, ko izdzēš Commerce Headquarters (HQ) lietotājs, kas nav zināms POS lietojumprogrammā.
+
+Ja iestatāt opciju **Iespējot automātisku pārbaudes** parametru uz **Jā** **Commerce parametri** > **Krājumi** > **Veikala krājumi**, validācija tiek veikta automātiski, kad atlasāt funkciju **Pabeigt izpildi**.
 
 ### <a name="finish-fulfillment"></a>Pabeigt izpildi
 
@@ -163,15 +176,15 @@ Kad tiek izmantota asinhronā dokumenta apstrāde, kvīts tiek iesniegta, izmant
 
 No POS lietotāji var izveidot jaunus pārsūtīšanas pasūtījumu dokumentus. Lai sāktu procesu, programmas joslā atlasiet **Jauns**, kad atrodaties galvenajā dokumentu sarakstā **Izejošā operācija**. Pēc tam tiek parādīta uzvedne, lai atlasītu noliktavu vai veikalu **Pārsūtīt uz**, uz kuru jūsu pašreizējais veikals nosūtīs krājumus. Vērtības tiek ierobežotas līdz atlasei, kas definēta veikala izpildes grupas konfigurācijā. Izejošās pārsūtīšanas pieprasījumā jūsu pašreizējais veikals vienmēr būs noliktava **Pārsūtīšana no** pārsūtīšanas pasūtījumam. Šo vērtību nevar mainīt.
 
-Pēc vajadzības varat ievadīt vērtības laukos **Nosūtīšanas datums**, **Saņemšanas datums** un **Piegādes veids**. Varat arī pievienot piezīmi, kas tiks uzglabāta kopā ar pārsūtīšanas pasūtījuma galveni, kā pielikumu dokumentam Commerce Headquarters.
+Pēc vajadzības varat ievadīt vērtības laukos **Nosūtīšanas datums**, **Saņemšanas datums** un **Piegādes veids**. Varat arī pievienot piezīmi, kas tiks uzglabāta kopā ar pārsūtīšanas pasūtījuma galveni, kā pielikumu dokumentam Commerce Headquarters (HQ).
 
 Pēc kājenes informācijas izveides varat pievienot preces pārsūtīšanas pasūtījumam. Lai sāktu vienumu un pieprasīto daudzumu pievienošanu, pārbaudiet svītrkodus vai atlasiet **Pievienot preci**.
 
-Kad izejošā pārsūtījuma pasūtījumā ir ievadītas rindas, jāatlasa **Saglabāt**, lai saglabātu dokumenta izmaiņas lokāli, vai **Iesniegt pieprasījumu**, lai iesniegtu pasūtījuma informāciju Commerce Headquarters turpmākai apstrādei. Ja atlasāt **Saglabāt**, melnraksta dokuments tiek saglabāts kanāla datu bāzē, un izejošā noliktava nevar palaist dokumentu, kamēr tas nav veiksmīgi apstrādāts, izmantojot **Iesniegt pieprasījumu**. Izvēlieties **Saglabāt** tikai tad, ja neesat gatavs iesniegt pieprasījumu Commerce Headquarters apstrādei.
+Kad izejošā pārsūtījuma pasūtījumā ir ievadītas rindas, jāatlasa **Saglabāt**, lai saglabātu dokumenta izmaiņas lokāli, vai **Iesniegt pieprasījumu**, lai iesniegtu pasūtījuma informāciju Commerce Headquarters (HQ) turpmākai apstrādei. Ja atlasāt **Saglabāt**, melnraksta dokuments tiek saglabāts kanāla datu bāzē, un izejošā noliktava nevar palaist dokumentu, kamēr tas nav veiksmīgi apstrādāts, izmantojot **Iesniegt pieprasījumu**. Atlasiet **Saglabāt** tikai tad, ja neesat gatavs iesniegt pieprasījumu Commerce Headquarters (HQ) apstrādei.
 
 Ja dokuments ir saglabāts lokāli, to var atrast cilnē **Melnraksti** dokumentu sarakstā **Ienākošā operācija**. Kamēr dokumenta statuss ir **Melnraksts**, jūs varat to rediģēt, atlasot **Rediģēt**. Jūs variet atjaunināt, pievienot vai dzēst rindas pēc nepieciešamības. Varat arī dzēst visu dokumentu, kamēr tā statuss ir **Melnraksts**, atlasot **Dzēst** cilnē **Melnraksti**.
 
-Pēc tam, kad melnraksta dokuments ir sekmīgi iesniegts Commerce Headquarters, tas cilnē **Aktīvs**, un tam ir statuss **Pieprasīts**. Pašlaik tikai lietotāji, kas atrodas izejošajā noliktavā, var rediģēt dokumentu, POS programmā atlasot **Izejošā operācija**. Lietotāji ienākošajā noliktavā var skatīt pārsūtīšanas pasūtījumu cilnē **Aktīvs** no dokumentu saraksta **Ienākošā operācija**, taču viņi nevar rediģēt vai dzēst to. Rediģēšanas bloķēšana nodrošina, ka nav konfliktu, jo ienākošais pieprasītājs maina pārsūtīšanas pasūtījumu tajā pašā laikā, kad izejošais nosūtītājs aktīvi veic pasūtījumu izdošanu un nosūtīšanu. Ja pēc pārsūtīšanas pasūtījuma iesniegšanas ir pieprasītas izmaiņas no ienākošā veikala vai noliktavas, ir jākontaktējas ar nosūtītāju un jāievada izmaiņas.
+Pēc tam, kad melnraksta dokuments ir sekmīgi iesniegts Commerce Headquarters (HQ), tas cilnē **Aktīvs**, un tam ir statuss **Pieprasīts**. Pašlaik tikai lietotāji, kas atrodas izejošajā noliktavā, var rediģēt dokumentu, POS programmā atlasot **Izejošā operācija**. Lietotāji ienākošajā noliktavā var skatīt pārsūtīšanas pasūtījumu cilnē **Aktīvs** no dokumentu saraksta **Ienākošā operācija**, taču viņi nevar rediģēt vai dzēst to. Rediģēšanas bloķēšana nodrošina, ka nav konfliktu, jo ienākošais pieprasītājs maina pārsūtīšanas pasūtījumu tajā pašā laikā, kad izejošais nosūtītājs aktīvi veic pasūtījumu izdošanu un nosūtīšanu. Ja pēc pārsūtīšanas pasūtījuma iesniegšanas ir pieprasītas izmaiņas no ienākošā veikala vai noliktavas, ir jākontaktējas ar nosūtītāju un jāievada izmaiņas.
 
 Pēc tam, kad dokumentam ir statuss **Pieprasīts**, tas ir gatavs izpildes apstrādei, ko veic izejošā noliktava. Kad sūtījums tiek apstrādāts, izmantojot izejošo operāciju, pārsūtīšanas pasūtījuma dokumentu statuss tiek atjaunināts no **Pieprasīts** uz **Pilnībā nosūtīts** vai **Daļēji nosūtīts**. Pēc tam, kad dokumentiem ir statuss **Pilnībā nosūtīts** vai **Daļēji nosūtīts**, ienākošais veikals vai noliktava var grāmatot to kvītis, izmantojot ienākošās operācijas saņemšanas procesu.
 

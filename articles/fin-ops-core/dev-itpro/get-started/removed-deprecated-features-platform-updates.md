@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606826"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651670"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -38,8 +38,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.13 versijai
 
 > [!NOTE]
-> Versija 10.0.13 vēl nav izlaista. Šī informācija ir nodrošināta plānošanas nolūkiem. Versijas 10.0.13 saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](../../fin-ops/get-started/public-preview-releases.md).
-
+> Versija 10.0.13 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Triju jQuery komponentu bibliotēku jaunināšana 
 
@@ -50,6 +49,27 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Ietekmētie produkta apgabali**         | Paplašināmās vadīklas, īpaši pielāgots JavaScript kods, izmantojot novecojušus vai noņemtus API |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Ar versiju 10.0.13/Platformas atjauninājums 37 klienti pēc izvēles var pārvietoties uz jaunākajām bibliotēkām, iespējojot līdzekli "Jaunināt trīs jQuery komponentu bibliotēkas". Pāreja uz jaunajām bibliotēkām būs obligāta ar 2021. gada aprīļa izlaidumu, lai atļautu laiku ietekmēto API migrācijai.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Esošā režģa vadīkla/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Esošā režģa vadīkla tiek aizstāta ar jauno režģa vadīklu. |
+| **Vai ir aizstāts ar citu līdzekli?**   | [Jaunā režģa vadīkla](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Versijā 10.0.13 jaunā režģa vadīkla ir vispārēji pieejama, un klienti pēc izvēles var ieslēgt šo līdzekli. Jaunā režģa vadīkla kļūs obligāta 2021. gada oktobra laidienā. Kad jaunā režģa kontrole kļūs obligāta, **forceLegacyGrid()** API vairs netiks uzturēta. |
+
+### <a name="personalization-without-saved-views"></a>Personalizācija bez saglabātajiem skatiem 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Personalizācijas apakšsistēma ir pārstrādāta ar saglabāto skatījumu līdzekli, lai tā varētu uzlabot veiktspēju un piedāvāt papildu iespējas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Saglabātie skati |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Versijā 10.0.13/Platform atjauninājums 37, ir vispārēji pieejami saglabāto skatījumu līdzekļi, un klienti pēc izvēles var ieslēgt šo līdzekli. Saglabātā skatījuma līdzeklis kļūs obligāts 2021. gada oktobra laidienā. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.12 versijai
 

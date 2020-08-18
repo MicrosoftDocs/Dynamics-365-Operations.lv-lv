@@ -3,7 +3,7 @@ title: Lojalitātes programmas pārskats
 description: Šajā tēmā ir aprakstītas lojalitātes programmas iespējas programmā Dynamics 365 Commerce un atbilstošās iestatīšanas darbības, kas palīdz mazumtirgotājam viegli sākt darbu ar savām lojalitātes programmām.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023325"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613207"
 ---
 # <a name="loyalty-overview"></a>Lojalitātes programmas apskats
 
@@ -55,7 +55,7 @@ Lai iespējotu lojalitātes programmas līdzekli programmā Commerce, ir jāiest
 | Uzstādīt atlaižu (priekšnosacījumus)                  | Iestatīt atlaides, ko piedāvājat lojalitātes programmas klientiem. Varat, piemēram, piedāvāt 5 procentu atlaidi visam apģērbam. | Atlaides ir jāpievieno cenu grupām, pirms to iekļaušanas lojalitātes programmā. Cenu grupas tiek piešķirtas lojalitātes programmai un lojalitātes programmas līmeņiem. |
 | Iestatiet cenu grupas (priekšnosacījumi)               | Cenu grupas tiek izmantotas, lai izveidotu un pārvaldītu cenas un atlaides produktiem. Iestatīt cenu grupas, kas ietver atlaides, kas attiecas uz jūsu lojalitātes programmu. | Cenu grupas tiek piešķirtas lojalitātes programmām un lojalitātes programmu līmeņiem. |
 | Uzstādīt kanālus (priekšnosacījumi)                   | Commerce kanāli ir tādi veikali kā tirdzniecības veikali, tiešsaistes veikali un zvanu centri, kas piedalās jūsu lojalitātes programmā. Jums ir jāiestata kanāli pirms to piešķiršanas lojalitātes programmai. | Varat piešķirt kanālus lojalitātes programmai, ja kanāls piedalās lojalitātes programmā. |
-| Iestatiet lojalitātes programmas maksāšanas metodi (priekšnosacījums) | Maksāšanas metode ir jāiestata pirms lojalitātes programmas karti var izmantot pie kases un lojalitātes punktu uzskaitīšanai kā daļai no lojalitātes programmas. Lojalitātes programmas maksāšanas metode ir arī jāpievieno klientiem kanālā, pirms lojalitātes programmas punktus var izmantot norēķinos par precēm. | Iestatiet lojalitātes programmas maksājuma metodes veidu, un pēc tam piešķiriet lojalitātes programmas maksāšanas metodi kanāliem, kas piedalās lojalitātes programmā. |
+| Iestatiet lojalitātes programmas maksāšanas metodi (priekšnosacījums) | Lai nodrošinātu, ka lojalitātes programmas punkti var tikt izpirkti jebkurā kanālā, piemēram, fiziskos veikalos, tiešsaistes veikalos vai zvanu centros, ir jāiestata lojalitātes programmas karšu klāsts lapā **Karšu numuri**. | Iestatiet lojalitātes programmas maksājuma metodes veidu, un pēc tam piešķiriet lojalitātes programmas maksāšanas metodi kanāliem, kas piedalās lojalitātes programmā. |
 | Iestatīt datumu intervālus                            | Datumu intervāli sniedz elastīgu veidu, kā iestatīt laika posmu, kas attiecas uz lojalitātes programmas līmeņiem. Izmantojiet datumu intervālus, lai norādītu, cik ilgi klients var palikt konkrētā līmenī, vai cik daudz laika klientam vajadzīgs, lai kvalificētos līmenim. | Datumu intervāli ir spēkā tikai tad, ja lojalitātes programmā izmantojat līmeņu sistēmu. Jāatlasa datumu intervāls, kas attiecas uz programmas līmeņiem, kā arī datumu intervālus, kas attiecas uz programmu līmeņu nosacījumiem. |
 | Atlīdzības punktu iestatīšana                             | Atlīdzības punkti ir atlīdzības veids, kas tiek piedāvāts klientiem. Atlīdzības punkti var būt izpērkami vai neizpērkami. Izpērkamus atlīdzības punktus var apmainīt pret precēm. Neizpērkamus atlīdzības punktus var izmantot novērošanas nolūkā vai arī klienta paaugstināšanai uz nākamo atlīdzības programmas līmeni. | Atlīdzības punkti ir atrunāti līmeņu nosacījumos un tiek izmantoti, lai kvalificētu klientu noteiktam līmenim. Atlīdzības punkti ir arī atrunāti lojalitātes programmas shēmās pelnīšanas un izpirkšanas noteikumos. Pelnīšanas nosacījumos jūs norādāt atlīdzību, ko klients var nopelnīt par noteiktu darbību. Izpirkuma nosacījumos jūs norādāt atlīdzības, ko klients var apmainīt pret punktiem. |
 | Lojalitātes programmu iestatīšana                          | Lojalitātes programma ir kodols jūsu piedāvātās lojalitātes programmas elementam. Katrai lojalitātes programmai var būt piešķirti arī lojalitātes programmas līmeņi. Atlaižu un cenu grupas tiek piešķirtas lojalitātes programmām jebkurā programmu līmenī vai pakāpes līmenī. | Jūs izveidojat lojalitātes programmas shēmas lojalitātes programmām. Jūs piešķirat lojalitātes programmas kartes jūsu lojalitātes programmā, un atlaižu kartes var tikt piešķirtas klientam. Kanāli piedalās lojalitātes programmās, kas ir piešķirtas lojalitātes programmu shēmām. Jebkurš klients ar lojalitātes programmas karti var piedalīties lojalitātes programmā, kas ir piesaistīta kartei. |
