@@ -1152,11 +1152,11 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Sertifikācijas veida pievienošana publiskā sektora kreditoram
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-            - name: Kanādas saskaņotā PVN aprēķināšana
+            - name: "Kanādas saskaņotā\_PVN aprēķināšana"
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Finanšu pārskatu veidošana
+        - name: Finanšu pārskati
           items:
-            - name: Finanšu pārskatu veidošanas pārskats
+            - name: Darba sākšana ar finanšu pārskatiem
               href: general-ledger/financial-reporting-getting-started.md
             - name: Finanšu pārskatu veidošanas pārskats
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,6 +2600,12 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: Ziņošana par atliktajiem maksājumiem
                       href: localizations/rus-reporting-deferrals.md
+                - name: Nodokļu grāmatvedība
+                  items:
+                    - name: Izdevumu un ieņēmumu kodi
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Līdzekļu nodokļu reģistri
+                      href: localizations/rus-assets-tax-registers.md
             - name: Saūda Arābija
               items:
                 - name: Saūda Arābijas pārskats
@@ -3112,20 +3118,22 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/finance/toc.json
                         - name: EmptyList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
-                        - name: Uzskaitījums
+                        - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
-                        - name: Filtrs
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
-                        - name: Pirmais
+                        - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
                         - name: FirstOrNull
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/finance/toc.json
-                        - name: Indekss
+                        - name: Index
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
-                        - name: Saraksts
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3134,7 +3142,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
-                        - name: Atsaukt
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
                         - name: Sadalīt
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
@@ -3412,8 +3420,10 @@
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: Ātras darba sākšanas ceļveži
               items:
-                - name: 'ER formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                - name: 'Elektronisko pārskatu formāta pielāgošana, lai ģenerētu pielāgotu elektronisko dokumentu'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: Jauna elektronisko pārskatu risinājuma izveide pielāgota pārskata izdrukāšanas nolūkā
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Apmācība
               items:
                 - name: 'Uzziniet, kā izmantot datu avotus'
