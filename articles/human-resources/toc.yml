@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 6.\_augusts"
+          href: hr-whats-new-2020-08-06.md
         - name: "2020.\_gada 23.\_jūlijs"
           href: hr-whats-new-2020-07-23.md
         - name: "2020.\_gada 8.\_jūlijs"
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: "2020.\_gada 3.\_aprīlis"
           href: hr-whats-new-2020-04-03.md
-        - name: "2020.\_gada 24.\_marts"
-          href: hr-whats-new-2020-03-24.md
-        - name: "2020.\_gada 19.\_marts"
-          href: hr-whats-new-2020-03-19.md
-        - name: "2020.\_gada 10.\_marts"
-          href: hr-whats-new-2020-03-10.md
-        - name: "2020.\_gada 3.\_marts"
-          href: hr-whats-new-2020-03-03.md
         - name: "Jaunumu arhīvi, 2020.\_gads"
           items:
+            - name: "2020.\_gada 24.\_marts"
+              href: hr-whats-new-2020-03-24.md
+            - name: "2020.\_gada 19.\_marts"
+              href: hr-whats-new-2020-03-19.md
+            - name: "2020.\_gada 10.\_marts"
+              href: hr-whats-new-2020-03-10.md
+            - name: "2020.\_gada 3.\_marts"
+              href: hr-whats-new-2020-03-03.md
             - name: "2020.\_gada 25.\_februāris"
               href: hr-whats-new-2020-02-25.md
             - name: "2020.\_gada 18.\_februāris"
@@ -221,15 +223,13 @@
           href: hr-hrpro-overview.md
         - name: Human Resources iestatīšana
           items:
-            - name: Konfigurēt personāla vadības parametrus
+            - name: "Programmas Human\_Resources parametru konfigurēšana"
               href: hr-setup-parameters.md
-            - name: Konfigurēt personāla vadības koplietotos parametrus
+            - name: Programmas Human Resources kopīgoto parametru konfigurēšana
               href: hr-setup-shared-parameters.md
-            - name: Iestatīt personāla vadības darbplūsmas
-              href: hr-setup-workflows.md
             - name: Informācija par datuma un laika laukiem
               href: hr-setup-date-time-fields.md
-        - name: Konfigurēt organizācijas iestatījumus
+        - name: Organizācijas iestatījumu konfigurēšana
           items:
             - name: Organizācijas administrēšanas sākumlapa
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
@@ -383,20 +383,20 @@
               href: hr-personnel-actions-faq.md
             - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
               href: hr-workflow-manage-employee-information.md
+            - name: Adrešu izmaiņu skatīšana un pārvaldība
+              href: hr-personnel-view-address-changes.md
             - name: Amata pārskatu attiecību modificēšana
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Nodarbinātā informācijas ievade
               href: hr-personnel-enter-worker-information.md
             - name: Patapinātie krājumi nodarbinātajiem
               href: hr-personnel-loan-item-worker.md
-            - name: Patapinājuma priekšmetu izveide
+            - name: Patapināto krājumu izveide
               href: hr-personnel-create-loan-items.md
-            - name: Pārvaldīt patapinājuma priekšmetus
+            - name: Patapināto krājumu pārvaldība
               href: hr-personnel-loan-items.md
             - name: Pēctecības plāna izstrāde
               href: hr-personnel-develop-succession-plan.md
-            - name: Projektu darba laika uzskaites tabulu ievade
-              href: hr-personnel-enter-project-timesheets.md
             - name: Masveida darbā pieņemšanas projekti
               href: hr-personnel-mass-hire-projects.md
             - name: Masveida darbā pieņemšanas projekta izveide

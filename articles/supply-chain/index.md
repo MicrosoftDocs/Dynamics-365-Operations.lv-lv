@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530263"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696134"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management sākumlapa
 
@@ -89,8 +89,6 @@ Tālāk sniegtajos tehnoloģiju konferenču ierakstos tiek apspriesta piegādes 
   - [Preču konfigurators programmā Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Noliktavas pārvaldība:**
   - [Visefektīvākā noliktavas pārvaldības sistēmas izmantošana](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Uzlabota R3 noliktavas pārvaldība — ienākošā apstrāde un min./maks. papildināšana](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [Uzlabota R3 noliktavas pārvaldība — Viena diena izejošās apstrādes un pieprasījuma papildināšana dzīvē](https://youtu.be/Og0gLlVp7jA)
   - [Etiķetes jaunajā Microsoft Dynamics AX 2012 R3 noliktavas pārvaldībā](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: Uzlabota noliktavas pārvaldība — Viena diena procesa ražošanas dzīvē](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Videoklipi par ražošanas kontroli:**

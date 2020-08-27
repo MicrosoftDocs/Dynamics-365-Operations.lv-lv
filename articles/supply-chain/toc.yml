@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: 'Darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas'
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: Novietojuma direktīvu izveide
+                      href: warehousing/create-location-directive.md
                     - name: Kopuma darbību kodi
                       href: warehousing/wave-step-codes.md
                     - name: Kopuma apstrādes konfigurēšana
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Jaunas transportēšanas pārvaldības programmas izveide
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Rīcībā esošo krājumu datu elementu paplašināšana
+              href: inventory/extend-on-hand-entities.md
     - name: Finance and Operations programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
