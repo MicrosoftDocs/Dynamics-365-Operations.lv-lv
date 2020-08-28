@@ -3,7 +3,7 @@ title: Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
 description: Šajā tēmā ir aprakstītas opcijas, kas pieejamas, lai parādītu rīcībā esošos krājumus veikalam un tiešsaistes kanāliem.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379240"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694926"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
 
@@ -66,7 +66,7 @@ Kad darbs **Preču pieejamība**ir pabeigts, notvertie dati ir jāpārceļ uz e-
 1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 1. Palaidiet darbu **1130** (**Preču pieejamība**) darbu, lai sinhronizētu momentuzņēmuma datus, ko **Preču pieejamības** darbs, kas izveidots no Commerce Headquarters, ar jūsu kanāla datu bāzēm.
 
-Kad ir pieprasīta krājumu pieejamība no **GetEstimatedAvailability** vai **ProductWarehouseInventoryAvailabilities** API, tiek palaists aprēķins, lai mēģinātu iegūt labāko iespējamo preces krājumu aplēsi. Aprēķina atsauces uz jebkuriem e-komercijas klientu pasūtījumiem, kas atrodas kanāla datu bāzē, bet nav ietverti Snapshot datos, ko ir norādījis 1130 darbs. Šī loģika tiek veikta, izsekojot pēdējo apstrādāto krājumu transakciju no Commerce Headquarters un salīdzinot to ar transakcijām kanāla datu bāzē. Tas sniedz bāzlīniju kanāla aprēķina loģikai, lai papildu krājumu kustības, kas tika notikušas debitora pasūtījuma pārdošanas darbībām e-komercijas kanāla datu bāzē, var iekļaut novērtētajā krājumu vērtībā, ko sniedz API.
+Kad ir pieprasīta krājumu pieejamība no **GetEstimatedAvailability** vai **GetEstimatedProductWarehouseAvailability** API, tiek palaists aprēķins, lai mēģinātu iegūt labāko iespējamo preces krājumu aplēsi. Aprēķina atsauces uz jebkuriem e-komercijas klientu pasūtījumiem, kas atrodas kanāla datu bāzē, bet nav ietverti Snapshot datos, ko ir norādījis 1130 darbs. Šī loģika tiek veikta, izsekojot pēdējo apstrādāto krājumu transakciju no Commerce Headquarters un salīdzinot to ar transakcijām kanāla datu bāzē. Tas sniedz bāzlīniju kanāla aprēķina loģikai, lai papildu krājumu kustības, kas tika notikušas debitora pasūtījuma pārdošanas darbībām e-komercijas kanāla datu bāzē, var iekļaut novērtētajā krājumu vērtībā, ko sniedz API.
 
 Kanāla puses aprēķina loģika atgriež aprēķināto fiziski pieejamo vērtību un visu pieprasīto preču un noliktavu pieejamo vērtību. Ja vēlaties, vērtības var tikt rādītas e-komercijas vietnē, vai tās var izmantot, lai aktivizētu citu biznesa loģiku jūsu e-komercijas vietnē. Piemēram, jūs varat parādīt paziņojumu "nav krājumā", nevis faktisko rīcībā esošo daudzumu, kuru nodeva API.
 
@@ -107,6 +107,8 @@ Lai nodrošinātu labāko iespējamo krājumu aplēsi, ir svarīgi, lai tiktu iz
 - **Grāmatot transakciju paziņojumus partijā** — šis darbs ir nepieciešams arī pakāpeniskās padeves grāmatošanai. Tas seko darbam **Aprēķināt transakciju paziņojumus partijā**. Šis darbs sistemātiski veic aprēķināto paziņojumu grāmatošanu, lai pārdošanas pasūtījumi pārdošanas pasūtījumiem skaidrā naudā bez piegādes tiktu izveidoti programmā Commerce Headquarters un Commerce Headquarters precīzāk atainotu jūsu veikala krājumus.
 - **Preču pieejamība** — šis darbs izveido krājumu momentuzņēmumu no Commerce Headquarters.
 - **1130 (Preču pieejamība)** - Šis darbs ir atrodams lapā **Sadales grafiki**, un tas ir jāizpilda uzreiz pēc darba **Preču pieejamība**. Šis darbs transportē krājumu momentuzņēmuma datus no Commerce Headquarters uz kanāla datu bāzēm.
+
+Ieteicams nepalaist šos pakešuzdevumus pārāk bieži (ik pēc dažām minūtēm). Biežās izpildes pārslogos Commerce Headquarters (HQ) un var ietekmēt veiktspēju. Parasti ir ieteicams palaist produktu pieejamību un 1130 darbus stundas laikā un plānot P-darbu, sinhronizēt pasūtījumus un veikt vienādas vai augstākas frekvences ar pastu saistītus darbus.
 
 > [!NOTE]
 > Veiktspējas apsvērumu dēļ, kad kanāla puses krājumu pieejamības aprēķini tiek izmantoti, lai veiktu krājumu pieejamības pieprasījumu, izmantojot e-komercijas API vai jauno POS kanāla puses krājumu loģiku, aprēķins izmanto kešatmiņu, lai noteiktu, vai ir pagājis pietiekami daudz laika, lai attaisnotu aprēķina loģikas atkārtotu palaišanu. Noklusējuma kešdarbe ir iestatīta uz 60 sekundēm. Piemēram, jūs ieslēdzāt sava veikala kanāla puses aprēķinu un apskatījāt rīcībā esošos krājumus, kas paredzēti precei lapā **Krājumu uzmeklēšana**. Ja pēc tam tiek pārdota viena preces vienība, **Krājumu uzmeklēšanas** lapa nerāda samazinātos krājumus, līdz kešatmiņa nav notīrīta. Pēc tam, kad lietotāji grāmato darījumus POS, tiem ir jāgaida 60 sekundes, pirms tie pārbauda, vai rīcībā esošie krājumi ir samazināti.

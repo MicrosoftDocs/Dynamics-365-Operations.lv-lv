@@ -1,9 +1,9 @@
 ---
 title: Finanšu pārskatu veidošanas apskats
-description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas. Tajā ir ietverts nodrošināto noklusējuma finanšu pārskatu apraksts.
+description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618042"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696692"
 ---
-# <a name="financial-reporting-overview"></a>Finanšu pārskatu veidošanas apskats
+# <a name="get-started-with-financial-reporting"></a>Sākt darbu ar Financial reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Kad lietotājs ir pievienots vai loma ir mainīta, lietotājam dažu minūšu la
 Lietotāji, kas ģenerē pārskatu, var dzēst savus pārskatus. Lietotāji ar pienākumu **Uzturēt finanšu pārskata drošību** var dzēst citus pārskatus. 
 
 Laidienā 10.0.8 tika ieviests beigu datumu jēdziens. Jaunais nepieciešamais līdzeklis ir iespējots lapā **Visi** līdzekļu pārvaldības darbvietā. **Finanšu pārskata saglabāšanas politikas** līdzeklī ir šādas izmaiņas:
-* Tikko izveidotie pārskati automātiski tiks atzīmēti kā tādi, kam ir derīguma termiņš 90 dienu no laika, kad tie tiek ģenerēti
+* Jaunizveidotie pārskati tiks automātiski atzīmēti kā tādi, kuru beigu datums ir 90 dienas no to ģenerēšanas brīža.
 * Visiem esošiem pārskatiem pirms līdzekļa instalēšanas tiks piešķirts 90 dienu derīguma termiņš. Datums uz īsu laiku var tikt parādīts kā tukšs, līdz tiek palaists finanšu atskaišu pakalpojums, tiek ģenerēts pārskats un pakalpojums veic atjaunināšanu esošajiem pārskatiem ar tukšu derīguma termiņu. 
 * Lietotāji, kuriem ir **Finanšu pārskatu drošības uzturēšana**, var piekļūt šai funkcionalitātei. Jebkurš lietotājs pienākumā**Uzturēt finanšu pārskatu**, kuram ir piešķirta privilēģija **Uzturēt finanšu pārskata derīguma termiņu** būs arī iespēja labot derīguma termiņu. Pašlaik ir pieejamas divas saglabāšanas iespējas: 
   * Derīguma beigas pēc 90 dienām.
@@ -134,6 +134,12 @@ Kad atlasāt izvēlni **Finanšu pārskatu veidošana**, tiek parādīts sarakst
 ## <a name="creating-and-modifying-financial-reports"></a>Finanšu atskaišu veidošana un modificēšana
 No finanšu atskaišu saraksta varat izveidot jaunu atskaiti vai modificēt jau esošu atskaiti. Ja jums ir atbilstošās atļaujas, varat izveidot jaunu finanšu pārskatu, darbību rūtī atlasot **Jauns**. Ierīcē tiek lejupielādēta pārskatu veidošanas programma. Kad ir palaista pārskatu veidošanas programma, varat izveidot jaunu pārskatu. Kad esat saglabājis jauno atskaiti, tā kļūst redzama finanšu atskaišu sarakstā. Sarakstā tiek rādīti pārskati, kas tika izveidoti uzņēmumam, kuru lietojat programmā Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>Pārskata koku definīcijas 
+Viens no komponentiem, kas tiek izmantots finanšu pārskatu izveidei, ir pārskatu koka definīcija. Atskaišu koka definīcija palīdz definēt jūsu organizācijas struktūru un hierarhiju. Tā ir starpdimensiju hierarhiska struktūra, kas ir balstīta uz dimensiju attiecībām jūsu finanšu datos. Tā sniedz informāciju atskaites vienības līmenī un kopsavilkuma līmenī visām kokā esošajām vienībām.
+
+Var izveidot neierobežotu pārskata koku skaitu, lai skatītu jūsu uzņēmuma datus dažādos veidos. Katrs pārskata koks var saturēt jebkuru nodaļu un kopsavilkuma vienību kombināciju, bet pārskata definīcija var saistīt tikai vienu pārskata koku vienlaicīgi. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Problēmu novēršana, atverot pārskatu noformētāju
 Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārskatu noformētāju. Problēmas un to risināšanas darbības ir šādas.
 
@@ -162,3 +168,4 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Skatīt finanšu pārskatus](view-financial-reports.md)
+- [Pārskatu koka definīcijas finanšu pārskatos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

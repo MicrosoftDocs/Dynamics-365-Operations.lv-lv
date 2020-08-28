@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464934"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661176"
 ---
 # <a name="order-details-module"></a>Pasūtījumu informācijas modulis
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ Lai pievienotu pasūtījuma informācijas moduli jaunā lapā un iestatītu nepi
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
-
-[Konteinera modulis](add-container-module.md)
-
-[Iegādes lodziņa modulis](add-buy-box.md)
-
 [Groza modulis](add-cart-module.md)
 
-[Izrakstīšanas modulis](add-checkout-module.md)
+[Groza ikonas modulis](cart-icon-module.md)
 
-[Galvenes modulis](author-header-module.md)
+[Norēķināšanās modulis](add-checkout-module.md)
 
-[Kājenes modulis](author-footer-module.md)
+[Maksājuma modulis](payment-module.md)
+
+[Piegādes adreses modulis](ship-address-module.md)
+
+[Piegādes opciju modulis](delivery-options-module.md)
+
+[Dāvanu kartes modulis](add-giftcard.md)

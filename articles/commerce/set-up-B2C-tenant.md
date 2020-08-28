@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497172"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677908"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -77,7 +77,7 @@ Kad B2C nomnieks ir izveidots, jūs izveidosiet B2C pieteikumu nomniekam, lai mi
 
 Lai izveidotu B2C pieteikumu, izpildiet tālāk aprakstītās darbības.
 
-1. Azure portālā atlasiet **Pieteikumi** un pēc tam atlasiet **Pievienot**.
+1. Azure portālā atlasiet **Pieteikumi(Mantojums)** un pēc tam atlasiet **Pievienot**.
 1. Zem sadaļas **Nosaukums** ievadiet vēlamo AAD B2C pieteikumu.
 1. Sadaļā **Tīmekļa lietojumprogramma/Tīmekļa API** opcijai **Iekļaut tīmekļa programmu/Tīmekļa API** atlasiet **Jā**.
 1. Opcijai **Atļaut netiešu plūsmu** atlasiet **Jā** (noklusējuma vērtība).

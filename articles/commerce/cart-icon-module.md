@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411093"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661151"
 ---
 # <a name="cart-icon-module"></a>Groza ikonas modulis
 
@@ -42,22 +42,22 @@ Attēlā zemāk redzams groza ikonas moduļa piemērs,, kurā ir parādīts mini
 
 - **Rādīt mini grozu** — ja tas ir patiess, šis rekvizīts iespējo groza kopsavilkumu (mini grozs), kas tiks parādīts, kad atrodaties virs groza ikonas. Šī funkcionalitāte tiek atbalstīta tikai darbvirsmas skatu portiem.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Groza ikonas moduļa pievienošana lapā
 
 Lai pievienotu groza ikonas moduli, skatiet [Galvenes modulis](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Papildu resursi
-
-[Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [Groza modulis](add-cart-module.md)
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Pasūtījuma apstiprinājuma modulis](order-confirmation-module.md)
+[Maksājuma modulis](payment-module.md)
 
-[Galvenes modulis](author-header-module.md)
+[Piegādes adreses modulis](ship-address-module.md)
 
-[Kājenes modulis](author-footer-module.md)
+[Piegādes opciju modulis](delivery-options-module.md)
+
+[Pasūtījumu informācijas modulis](order-confirmation-module.md)
+
+[Dāvanu kartes modulis](add-giftcard.md)

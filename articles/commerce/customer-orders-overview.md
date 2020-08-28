@@ -3,7 +3,7 @@ title: Debitoru pasūtījumi Modern POS (MPOS)
 description: Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem pārdošanas punktā Modern POS (MPOS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023246"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699373"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Debitoru pasūtījumi Modern POS (MPOS)
 
@@ -53,6 +53,8 @@ Tālāk ir aprakstīti daži no parametriem, ko var iestatīt lapā **Tirdzniec�
 
     - Maksas tiek lietotas pārdošanas pasūtījuma galvenes līmenī, un gadījumā, ja tiek atgriezts kāds daudzums no ražošanas rindas, maksimālo šīm precēm atļauto atmaksu par nosūtīšanas maksām un daudzumu nevar noteikt veidā, kas ir piemērots visiem debitoriem.
     - Nosūtīšanas maksas rodas katrai nosūtīšanas instancei. Ja debitors preces atgriež vairākas reizes, bet mazumtirgotāja politikā ir noteikts, ka atgriešanas nosūtīšanas izmaksas sedz mazumtirgotājs, tad nosūtīšanas maksas pārsniedz faktiskās nosūtīšanas maksas.
+    
+- **Nodokļa aprēķina uzvedība** - **Pārrēķināt** ir noklusējuma un tradicionālais iestatījums nodokļu aprēķināšanai, kad pasūtījums tiek importēts atbalsta birojā. **Nepārrēķiniet** atceļ nodokļu pārrēķinu līdz brīdim, kad pasūtījums tiek rediģēts atbalsta birojā, kad tiek sākta pārrēķināšana. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Transakciju plūsma debitoru pasūtījumiem
 

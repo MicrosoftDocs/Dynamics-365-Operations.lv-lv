@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295084"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686794"
 ---
 # <a name="add-a-favicon"></a>Izlases ikonas pievienošana
 
@@ -62,7 +62,7 @@ Lai izveidotu HTML izlases ikonai, izmantojiet šādu HTML virkni. **href** atri
 
 Lai izveidotu lapas fragmentu, kas satur metatagu jūsu favicon, sekojiet šiem soļiem.
 
-1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**.
 1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Metatagi** kā moduli, uz kā balstās lapas fragments.
 1. Ievadiet lapas fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Fragmentu hierarhijas kokā atlasiet **Noklusējuma metatagi** elementu.

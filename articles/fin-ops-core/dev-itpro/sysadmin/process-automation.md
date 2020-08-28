@@ -3,7 +3,7 @@ title: Procesu automatizācija
 description: Šī tēma sniedz detalizētu informāciju par to, kā procesu automatizācija ļauj vienkārši plānot procesus, ko veiks pakešu serveris.
 author: RyanCCarlson2
 manager: tonyafehr
-ms.date: 06/24/2020
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 2ab4e7510ff98b9fbf0223096b905e9de47f52e1
-ms.sourcegitcommit: 1833c1e07a32c8ad41e4a1516e78100ae04a2156
+ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
+ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3508189"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "3690050"
 ---
 # <a name="process-automation"></a>Procesu automatizācija
 
@@ -32,6 +32,8 @@ Procesu automatizācija ļauj vienkārši plānot procesus, ko veiks pakešu ser
 ## <a name="administration"></a>Administrācija
 
 Centrālā administrēšanas lapa visu procesu automatizācijām ir atrodama Sistēmas administrēšanas modulī, kas atrodas izvēlnē **Iestatījumi**. Šajā lapā tiks uzskaitīti visi automatizētie procesi (sērijas), kas ir iestatīti sistēmā. Tas arī ļaus jums pievienot jaunu procesu automatizācijas tieši no šīs lapas. Pēc sērijas iestatīšanas varat pārvaldīt katru šī saraksta sēriju. Varat izvēlēties rediģēt visu sēriju, dzēst to, skatīt visus gadījumus saraksta skatā vai atspējot sēriju, ja vēlaties pauzēt plānoto darbu laika periodā. 
+
+Visi procesi, kas ir atspējoti funkciju pārvaldīšanā, netiks rādīti, kad līdzeklis ir atspējots. Turklāt procesu automatizācijas plānošanas programma neplāno nekādus gadījumus vai fona procesus atspējotam līdzeklim. No jauna iespējojot šo līdzekli, visi ieplānotie gadījumi vai fona procesi pagātnē tiek nekavējoties palaisti.
 
 ## <a name="calendar-view"></a>Kalendāra skats 
 Viens no procesa automatizācijas galvenajiem ieguvumiem ir iespēja redzēt plānoto darbu vienkāršā kalendāra skatā.  Šis skats ļauj jums skatīt darbu nedēļas laikā. Šis skats tiks rādīts **Procesa automatizācijas** lapas labajā pusē. Tas tiks aizpildīts ar atlasītās sērijas ieplānoto darbu. 

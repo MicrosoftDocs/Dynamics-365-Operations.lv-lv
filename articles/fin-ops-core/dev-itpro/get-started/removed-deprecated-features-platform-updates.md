@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651670"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678226"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -39,6 +39,16 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 > [!NOTE]
 > Versija 10.0.13 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>Pielāgots kods, kas definēts SSRS pārskata rekvizītos 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Parasti pielāgots kods piedāvā ierobežotas priekšrocības, tajā pašā laikā nodrošina būtisku resursu piešķiršanu un aprēķina atbalstu. Pielāgotu kodu galvenokārt izmanto pārskatu autori, lai izsauktu publiskās metodes no pielāgotas koda komplektācijas. Tomēr mākoņa viesots pakalpojums neatbalsta atsauces uz sistēmas SSRS pārskatus pielāgotajām komplektācijām. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Pārskata autori var izvēlēties turpināt atsauces uz publiskajiem .NET API matemātikai, pārveidošanai un formāta operācijām no jebkuras tekstlodziņa izteiksmes. Papildinformāciju skatiet sadaļā [Koda pievienošana pārskatam (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Ietekmētie produkta apgabali**         | To programmas pārskata noformējumu apakškopa, kas definētas RDL, kas satur pielāgotu kodu. |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Izmantojot versiju 10.0.13, kompilators sāks brīdinājuma izdošanu gadījumiem, kad pielāgots kods tiek noteikts SSRS pārskata definīcijā. Lai labotu problēmu, atveriet pārskata noformējuma definīciju un noņemiet visus pielāgotos kodu artefaktus. Šis brīdinājums tiks aizstāts ar kompilatora kļūdu turpmākajā atjauninājumā.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Triju jQuery komponentu bibliotēku jaunināšana 
 

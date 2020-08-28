@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411213"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686722"
 ---
 # <a name="footer-module"></a>Kājenes modulis  
 
@@ -50,7 +50,7 @@ Līdzīgi kā lielākajā daļā konteineru, kājenes modulis atbalsta rekvizīt
 
 ## <a name="create-a-footer-module"></a>Kājenes moduļa izveide
 
-1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jaunas lapas fragments** atlasiet moduli **Konteiners**, ievadiet lapas fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Slotā **Noklusējuma konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Kājenes kategorija** un pēc tam atlasiet **Labi**.

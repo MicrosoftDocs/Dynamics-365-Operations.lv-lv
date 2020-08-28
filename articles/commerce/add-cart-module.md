@@ -3,7 +3,7 @@ title: Groza modulis
 description: Šī tēma ietver groza moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621040"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686770"
 ---
 # <a name="cart-module"></a>Groza modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šī tēma ietver groza moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
@@ -42,9 +43,17 @@ Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē.
 
 ![Groza moduļa piemērs](./media/cart2.PNG)
 
+Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē. Šajā piemērā ir norādīta papildmaksa par rindas krājumu.
+
+![Groza moduļa piemērs](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Groza moduļa rekvizīti un sloti
 
-Groza modulim ir rekvizīts **Virsraksts**, ko var iestatīt vērtībām, piemēram, **Iepirkumu grozs** un **Preces jūsu grozā**. 
+| Rekvizīts | Vērtības | apraksts |
+|----------------|--------|-------------|
+| Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Groza virsraksts, piemēram, "Iepirkumu soma", vai "Preces jūsu grozā". |
+| Rādīt “Nav krājumā” kļūdas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza lapā būs redzamas ar krājumu saistītas kļūdas. Ieteicams iestatīt šo rekvizītu kā **Patiess**, ja vietnē tiek lietotas krājumu pārbaudes. |
+| Rādīt rindu vienību piegādes izmaksas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza rindas krājumi rādīs piegādes izmaksas, ja šī informācija ir pieejama. Šis līdzeklis netiek atbalstīts Fabrikam tēmā, jo lietotāji atlasa piegādi tikai izrakstīšanās plūsmā. Tomēr šo līdzekli var ieslēgt citās darbplūsmās, ja tas ir piemērojams. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduļi, ko var izmantot groza modulī
 
@@ -67,7 +76,7 @@ Groza modulis izgūst preču informāciju, izmantojot Commerce Scale Unit API. G
 
 Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jaunas lapas fragments** atlasiet moduli **Grozs**.
 1. Sadaļā **Lapas fragmenta nosaukums** ievadiet nosaukumu **Groza fragments** un pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Grozs**.
@@ -77,7 +86,7 @@ Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītu
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
 1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet veidnes nosaukumu.
-1. Struktūras kokā atlasiet slotu **Pamatteksts**, atlasiet daudzpunktess (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
+1. Struktūras kokā atlasiet slotu **Pamatteksts**, atlasiet daudzpunktes (**...**) un pēc tam atlasiet **Pievienot lapas fragmentu**.
 1. Dialoglodziņā **Atlasīt lapas fragmentu** atlasiet fragmentu **Groza fragments** un pēc tam atlasiet **Labi**.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
@@ -87,22 +96,18 @@ Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītu
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
-
-[Konteinera modulis](add-container-module.md)
-
-[Veikalu atlasītāja modulis](store-selector.md)
-
-[Pirkšanas lodziņa modulis](add-buy-box.md)
-
 [Groza ikonas modulis](cart-icon-module.md)
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Pasūtījuma apstiprinājuma modulis](order-confirmation-module.md)
+[Maksājuma modulis](payment-module.md)
 
-[Galvenes modulis](author-header-module.md)
+[Piegādes adreses modulis](ship-address-module.md)
 
-[Kājenes modulis](author-footer-module.md)
+[Piegādes opciju modulis](delivery-options-module.md)
+
+[Pasūtījumu informācijas modulis](order-confirmation-module.md)
+
+[Dāvanu kartes modulis](add-giftcard.md)
 
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)

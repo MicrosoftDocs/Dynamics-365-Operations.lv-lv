@@ -3,7 +3,7 @@ title: Personāla vadības programma programmā Teams
 description: Šī tēma iepazīstina jūs ar programmu Microsoft Dynamics 365 Human Resources sadaļā Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431134"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666364"
 ---
 # <a name="human-resources-app-in-teams"></a>Personāla vadības programma programmā Teams
 
@@ -45,10 +45,10 @@ Lai iegūtu informāciju par programmu atļauju pārvaldību grupās, skatiet sa
 
 | Izsniegt | Statuss |
 | --- | --- |
+| Horizontālā ritināšana nedarbojas Android tālruņos | Horizontālā ritināšana nav problēma iOS vai galddatora ierīcēs. Mēs strādājam pie risinājuma Android. |
 | Kļūda: radās problēma, meklējot vidi, ar kuru jāizveido savienojums. | Šo kļūdu varat saņemt pat tad, ja esat pārliecinājies, ka lietotājs var piekļūt vienai vai vairākām Human Resources vidēm. Turklāt iespējams, ka neredzēsit visas paredzētās vides. Kamēr mēs novērsīsim šo problēmu, dzēsiet lietotāju un pēc tam importējiet to vēlreiz, lai atrisinātu problēmu. |
 | Bilance nav pareiza, iesniedzot prombūtni nākotnes datumam. | Videoklips vēl nav pieejams. Parādās pašreizējā datuma bilance. |
 | Samazinot esošā pieprasījumā uzņemto stundu skaitu, **Atlikusī bilance** tiek samazināta, nevis paaugstināta. | Nākotnē šī zināmā problēma tiks risināta. Displejs nav pareizs, bet pareizās summas tiek koriģētas pēc iesniegšanas. |
-| Divas **Gaidāmās laika pārtraukšanas** kartes tiek rādītas tam pašam datumam. | Kartes attēlo atsevišķus iesniegumus. Mēs turpināsim pieņemt atsauksmes un veikt pielāgojumus. |
 | Nevar atcelt **Pārskatā** pieprasījumu. | Šī funkcionalitāte pašlaik netiek atbalstīta, un tā tiks pievienota nākošajā laidienā. |
 | Bilances informācija tiek aprēķināta no šodienas. | Sistēma pašlaik neparāda uzkrājumu perioda bilances, pat ja tās ir konfigurētas atvaļinājumu un prombūtnes parametros. |
 
