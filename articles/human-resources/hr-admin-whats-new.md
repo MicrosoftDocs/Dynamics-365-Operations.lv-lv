@@ -3,7 +3,7 @@ title: Jaunumi un izmaiņas programmā Human Resources
 description: Katru nedēļu mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas rakstos ir detalizēta informācija par katru nedēļu izdarītajām izmaiņām.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/22/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0fc9d521d40f47821d6134ebef4dc041df3059f
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: 3bab048a58da7aa981cb807ccb0757ecb237c1ee
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614316"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666338"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
@@ -41,6 +41,7 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 Lai redzētu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
+[2020. gada 6. augusts](hr-whats-new-2020-08-06.md)</br>
 [2020. gada 23. jūlijs](hr-whats-new-2020-07-23.md)</br>
 [2020. gada 8. jūlijs](hr-whats-new-2020-07-08.md)</br>
 [2020. gada 23. jūnijs](hr-whats-new-2020-06-23.md)</br>

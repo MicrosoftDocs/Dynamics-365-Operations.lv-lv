@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154090"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686818"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju
 
@@ -32,7 +32,7 @@ ms.locfileid: "3154090"
 
 ## <a name="overview"></a>Pārskats
 
-Tīmekļa analīze ir svarīgs rīks, lai izprastu, kā jūsu klienti mijiedarbojas ar jūsu vietni, un pieņemtu lēmumus, kas palīdzēs optimizēt maksimālo pārveidošanas pieredzi. Daudzas tīmekļa analīzes pakotnes ir pieejamas šo mērķu sasniegšanai, piemēram, Google Analytics, Clicker, Moz Analytics un KISSMetrics. Lielākajai daļai tīmekļa analīzes pakotņu ir nepieciešams pievienot klienta puses skripta kodu HTML **\<galvenajā\>** elementā visām jūsu vietnes lapām.
+Tīmekļa analīze ir svarīgs rīks, lai izprastu, kā jūsu klienti mijiedarbojas ar jūsu vietni, un pieņemtu lēmumus, kas palīdzēs optimizēt maksimālo pārveidošanas pieredzi. Daudzas tīmekļa analīzes pakotnes ir pieejamas šo mērķu sasniegšanai, piemēram, Google Analytics, Clicker, Moz Analytics un KISSMetrics. Lielākajai daļai tīmekļa analīzes pakotņu ir nepieciešams pievienot klienta puses skripta kodu HTML **\<head\>** elementā visām jūsu vietnes lapām.
 
 > [!NOTE]
 > Šajā tēmā instrukcijas attiecas arī uz citu pielāgotu klienta puses funkcionalitāti, ko programma Microsoft Dynamics 365 Commerce vispārēji nepiedāvā.
@@ -45,7 +45,7 @@ Lapas fragments ļauj atkārtoti izmantot iekļautos vai ārējos skripta kodus 
 
 Lai izveidotu atkārtoti izmantojamu lapas fragmentu jūsu iekļautajam skripta kodam vietnes veidotājā, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Lapas fragmenti** un pēc tam atlasiet **Jauns**.
+1. Dodieties uz **Fragmenti** un tad atlasiet **Jauns**.
 1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Iekļauts skripts**.
 1. Sadaļā **Lapas fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Jūsu izveidotajā lapas fragmentā atlasiet moduli **Noklusējuma iekļautais skripts**.
@@ -57,7 +57,7 @@ Lai izveidotu atkārtoti izmantojamu lapas fragmentu jūsu iekļautajam skripta 
 
 Lai izveidotu atkārtoti izmantojamu lapas fragmentu jūsu ārējam skripta kodam vietnes veidotājā, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Lapas fragmenti** un pēc tam atlasiet **Jauns**.
+1. Dodieties uz **Fragmenti** un tad atlasiet **Jauns**.
 1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Ārējs skripts**.
 1. Sadaļā **Lapas fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Jūsu izveidotajā lapas fragmentā atlasiet moduli **Noklusējuma ārējais skripts**.

@@ -154,9 +154,11 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Duālā ieraksta pārvaldība
                           items:
-                            - name: Pielāgot elementa un lauka kartējumus
+                            - name: Elementa un lauka kartējumu pielāgošana
                               href: data-entities/dual-write/customizing-mappings.md
-                            - name: Rediģēt juridisku personu pēc duālā ieraksta iestatīšanas
+                            - name: Vairāku elementu karšu apstrāde
+                              href: data-entities/dual-write/multiple-entity-maps.md
+                            - name: Juridiskas personas rediģēšana pēc duālā ieraksta iestatīšanas
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
                               href: data-entities/dual-write/errors-and-alerts.md

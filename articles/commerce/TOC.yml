@@ -402,21 +402,15 @@
                           href: install-pos-layout-designer.md
                         - name: Paziņojumu iestatījumu izvēle
                           href: Notifications-POS.md
-                        - name: POS programma un lietotāja valodas iestatījumi
+                        - name: "POS\_programma un lietotāja valodas iestatījumi"
                           href: pos-application-user-language-settings.md
-                        - name: MPOS attēlu iestatīšana un pārvaldība
+                        - name: "MPOS\_attēlu iestatīšana un pārvaldība"
                           href: set-up-manage-images-retail-mpos.md
-                        - name: Klientu attēli punktā POS
+                        - name: "Klientu attēli programmā\_POS"
                           href: pos-image.md
-                    - name: Debitoru pasūtījumi
-                      items:
-                        - name: Debitoru pasūtījumi programmā MPOS
-                          href: customer-orders-overview.md
-                        - name: Hibrīda debitoru pasūtījumi
-                          href: hybrid-customer-orders.md
                     - name: Pārdošanas asistenti
                       items:
-                        - name: 'POS komisijas maksu izsekošana, izmantojot pārdošanas grupas'
+                        - name: "POS\_komisijas maksu izsekošana, izmantojot pārdošanas grupas"
                           href: pos-sales-groups-track-commissions.md
                     - name: Ierīces aktivizēšana
                       items:
@@ -630,9 +624,11 @@
                       href: personalized-recommendations.md
                     - name: Atteikšanās no personalizētiem ieteikumiem
                       href: personalization-gdpr.md
-                - name: POS pieredze
+                - name: Ieteikumu “pirkt līdzīgus modeļus” iespējošana
+                  href: shop-similar-looks.md
+                - name: "POS\_pieredze"
                   items:
-                    - name: Preču ieteikumu pievienošana punktā POS
+                    - name: "Preču ieteikumu pievienošana programmā\_POS"
                       href: product.md
                     - name: Ieteikumu pievienošana transakciju ekrānam
                       href: add-recommendations-control-pos-screen.md
@@ -692,11 +688,17 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Pasūtījumu pārvaldība
           items:
+            - name: Debitoru pasūtījumi
+              items:
+                - name: "Debitoru pasūtījumi programmā\_MPOS"
+                  href: customer-orders-overview.md
+                - name: Hibrīda debitoru pasūtījumi
+                  href: hybrid-customer-orders.md
             - name: Pārdošanas pasūtījumi
               items:
                 - name: Zvanu centra pasūtījuma izveide
                   href: tasks/create-call-center-orders.md
-                - name: Piegādes veida mainīšana punktā POS
+                - name: "Piegādes veida mainīšana programmā\_POS"
                   href: POS-change-delivery-mode.md
             - name: Sadalīto pasūtījumu pārvaldība
               items:
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: Norēķināšanās modulis
                       href: add-checkout-module.md
+                    - name: Maksājumu modulis
+                      href: payment-module.md
+                    - name: Piegādes adreses modulis
+                      href: ship-address-module.md
+                    - name: Piegādes opciju modulis
+                      href: delivery-options-module.md
                     - name: Pasūtījumu informācijas modulis
                       href: order-confirmation-module.md
                     - name: Dāvanu kartes modulis
@@ -1972,8 +1980,10 @@
                       href: e-commerce-extensibility/app-settings.md
                     - name: Moduļa definīcijas paplašināšana
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Sīkfailu API apskats
+                    - name: "Sīkfailu\_API apskats"
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Interaktīvo komponentu pārskats
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: 'Moduļu globalizēšana, izmantojot CultureInfoFormatter klasi'
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Datu darbību izstrāde
@@ -2026,6 +2036,10 @@
                   items:
                     - name: Skripta ievadītāji
                       href: e-commerce-extensibility/script-injector.md
+                - name: Savienotāji
+                  items:
+                    - name: Savienotāju konfigurēšana un iespējošana
+                      href: e-commerce-extensibility/connectors.md
                 - name: Telemetrija un analīze
                   items:
                     - name: Telemetrijas reģistrētājs
@@ -2038,13 +2052,15 @@
                       href: e-commerce-extensibility/sdk-updates.md
             - name: "Retail\_SDK"
               items:
-                - name: “Retail SDK” arhitektūra
+                - name: "Retail\_SDK arhitektūra"
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Gaidāmās izmaiņas komplektā “Retail SDK”
+                - name: "Gaidāmās izmaiņas komplektā Retail\_SDK"
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: "Nozīmīgas izstrādes un ALM\_izmaiņas no versijas\_10.0.10 uz\_10.0.13"
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: Commerce un Finance and Operations būvējumu sistēmu sapludināšana
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-                - name: "Retail SDK migrēšana no Visual Studio\_2015 uz Visual Studio\_2017"
+                - name: "Retail\_SDK migrēšana no Visual Studio\_2015 uz Visual Studio\_2017"
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK paplašināmības paraugi
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
@@ -2114,40 +2130,32 @@
               items:
                 - name: Hardware Station un paplašināmība
                   href: dev-itpro/hardware-station-extensibility.md
-                - name: POS integrācija ar jaunu aparatūras ierīci
+                - name: "POS\_integrācija ar jaunu aparatūras ierīci"
                   href: dev-itpro/hardware-device-extension.md
-            - name: Retail Server paplašināmība
+            - name: "Retail\_Server paplašināmība"
               items:
-                - name: Commerce Scale Unit OData kontroliera paplašināšana
-                  href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Commerce Scale Unit klienta un patērētāja API
+                - name: "Commerce Scale Unit klienta un patērētāja\_API"
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Noklusējuma Commerce Scale Unit metadatu kontrollera paplašināšana
-                  href: dev-itpro/extend-metadata.md
-                - name: Pakalpojuma CRT izsaukšana bezsaistes režīmā
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Jauna Retail Server paplašinājuma izveide
+                - name: "Jauna Retail\_Server paplašinājuma\_API izveide (Retail\_SDK versija\_10.0.11 un jaunākas versijas)"
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: "Jauna Retail\_Server paplašinājuma\_API izveide (Retail\_SDK versija\_10.0.11 un vecākas versijas)"
                   href: dev-itpro/retail-server-extension.md
-                - name: Retail Typescript un C# starpniekserveri
+                - name: "Retail\_Typescript un C#\_starpniekserveri"
                   href: dev-itpro/typescript-proxy-retail-pos.md
-            - name: Commerce Runtime (CRT) paplašināmība
+            - name: "Commerce Runtime\_(CRT) paplašināmība"
               items:
                 - name: CRT arhitektūra un konfigurēšana
                   href: dev-itpro/commerce-runtime-overview.md
                 - name: CRT pakalpojumi
                   href: dev-itpro/crt-services.md
-                - name: CRT un Retail Server paplašināmība
+                - name: "CRT un Retail\_Server paplašināmība"
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Klienta atsauces datu pievienošana kanāla datu bāzēm
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Retail kanālu noslēpumu pārvaldība
                   href: dev-itpro/manage-secrets.md
                 - name: CRT paplašināmība un trigeri
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: 'Transakciju bloķēšana, izmantojot trigerus'
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: 'Atgriešanas politikas ieviešana, izmantojot trigerus'
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Lojalitātes paplašinājums
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Paplašinājuma punkti pavadzīmēm

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fabf08e8dde1b9b6d27af3e42d3aaff904b467b0
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: 7afe9225b8fc966ca154a5eb7421e8d4cc7c3023
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454537"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664838"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Pievienot preču ieteikumi punktā POS
 
@@ -80,6 +80,8 @@ Lai iestatītu preču ieteikumus, rīkojieties šādi:
 [Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
+
+[Iespējot "veikala līdzīgie izskati" rekomendācijas](shop-similar-looks.md)
 
 [Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
 

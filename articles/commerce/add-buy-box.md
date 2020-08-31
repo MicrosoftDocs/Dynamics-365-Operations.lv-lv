@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645343"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686674"
 ---
 # <a name="buy-box-module"></a>Iegādes lodziņa modulis
 
@@ -61,7 +61,7 @@ Tēmas var izmantot, lai noņemtu vai mainītu iegādes loga produktu rekvizītu
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduļi, ko var izmantot iegādes lodziņa modulī
 
-- **Multivides galerija** — šis modulis tiek izmantots, lai parādītu preču attēlus preču informācijas lapā. Plašāku informāciju par šo moduli skatiet [Multivides galerijas modulis](mediagallery-module.md).
+- **Multivides galerija** — šis modulis tiek izmantots, lai parādītu preču attēlus preču informācijas lapā. Plašāku informāciju par šo moduli skatiet [Multivides galerijas modulis](media-gallery-module.md).
 - **Veikala atlasītājs** — šis modulis rāda tuvumā esošo veikalu sarakstu, kur var saņemt preci. Tas ļauj lietotājiem ievadīt atrašanās vietu, lai atrastu tuvuma esošos veikalus. Plašāku informāciju par šo moduli skatiet [Veikalu atlasītāja modulis](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Iegādes lodziņa moduļa iestatījumi
@@ -84,7 +84,7 @@ Iegādes lodziņa modulis izgūst preču informāciju, izmantojot Commerce Scale
 
 Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jaunas lapas fragments** atlasiet moduli **Iegādes lodziņš**.
 1. Sadaļā **Lapas fragmenta nosaukums** ievadiet nosaukumu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
 1. Iegādes lodziņa moduļa slotā **Mediju galerija** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.

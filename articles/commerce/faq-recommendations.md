@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e27e4c4d8bdf614d6f55f44daeac3bc152219004
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404306"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664982"
 ---
 # <a name="product-recommendations-faq"></a>Bieži uzdotie jautājumi par preču ieteikumiem
 
@@ -89,7 +89,9 @@ Pēc preču ieteikumu iespējošanas kontroles POS ekrānam ir jāpievieno ietei
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
 
-[Pievienot preču ieteikumus punktā POS](product.md)
+[Iespējot "veikala līdzīgie izskati" rekomendācijas](shop-similar-looks.md)
+
+[Preču ieteikumu pievienošana punktā POS](product.md)
 
 [Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
 

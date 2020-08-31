@@ -3,7 +3,7 @@ title: Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 description: Šī tēma sniedz informāciju par to, kā izmantot Aprēķināto lauka tipu ER datu avotiem.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771333"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665614"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -45,14 +45,14 @@ Lai izpildītu šajā tēmā aprakstītos piemērus, jums ir nepieciešama tāl�
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
-No [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684) lejupielādējiet saspiesto (zip) failu **Atbalstīt parametru izsaukumus no Aprēķinātā lauka tipa ER datu avotiem**. Tajā ir šādas ER konfigurācijas, kas ir jāizvelk un jāuzglabā lokāli.
+Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failus.
 
 | **Saturs**                           | **Faila nosaukums**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Parauga ER datu modeļa konfigurācija    | Modelis, lai uzzinātu parametru izsaukumus.versija.1.xml     |
-| Parauga ER metadatu konfigurācija      | Metadati, lai uzzinātu parametru izsaukumus.versija.1.xml  |
-| Parauga ER modeļa kartējuma konfigurācija | Kartēšana, lai uzzinātu parametru izsaukumus.versija.1.1.xml |
-| Parauga ER formāta konfigurācija        | Formāts, lai uzzinātu parametru izsaukumus.versija.1.1.xml  |
+| Parauga ER datu modeļa konfigurācija    | [Modelis, lai uzzinātu parametru izsaukumus.versija.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Parauga ER metadatu konfigurācija      | [Metadati, lai uzzinātu parametru izsaukumus.versija.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Parauga ER modeļa kartējuma konfigurācija | [Kartēšana, lai uzzinātu parametru izsaukumus.versija.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Parauga ER formāta konfigurācija        | [Formāts, lai uzzinātu parametru izsaukumus.versija.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Piesakieties savā RCS instancē.
 Šajā piemērā jūs izveidosiet konfigurāciju parauga uzņēmumam “Litware, Inc.”. Pirmkārt, lai izpildītu šīs darbības RCS instancē, ir jāizpilda sekojošie soļi procedūrā [Konfigurācijas nodrošinātāju izveide un atzīmēšana ar aktīvu statusu](tasks/er-configuration-provider-mark-it-active-2016-11.md):

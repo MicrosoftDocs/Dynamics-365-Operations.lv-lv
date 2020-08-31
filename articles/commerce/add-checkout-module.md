@@ -3,7 +3,7 @@ title: Norēķināšanās modulis
 description: Šajā tēmā ir aprakstīts, kā pievienot norēķināšanas moduli lapā un iestatīt nepieciešamos rekvizītus.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bd1d66fc39872019fc38dbbfb56dc3015d57d0dd
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411212"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686746"
 ---
 # <a name="checkout-module"></a>Norēķināšanās modulis
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pievienot norēķināšanas moduli lapā un iestatīt nepieciešamos rekvizītus.
 
@@ -45,43 +45,58 @@ Attēlā zemāk redzams Fabrikam norēķināšanās moduļa piemērs norēķinā
 
 Norēķinu modulī tiek rādīts pasūtījuma kopsavilkums, un tā nodrošina funkcionalitāti pasūtījuma ievietošanai. Lai apkopotu visu debitora informāciju, kas ir nepieciešama, lai varētu veikt pasūtījumu, papildu moduļi ir jāpievieno norēķinu modulim. Tāpēc mazumtirgotājiem ir elastīga iespēja pievienot pielāgotus moduļus izrakstīšanās plūsmai vai izslēgt moduļus, pamatojoties uz to prasībām.
 
-### <a name="modules-that-can-be-used-in-the-checkout-module"></a>Moduļi, ko var izmantot norēķināšanās modulī
+| Rekvizīta nosaukums | Vērtības | apraksts |
+|----------------|--------|-------------|
+| Norēķināšanās virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Virsraksts norēķināšanās modulim. |
+| Pasūtījuma kopsavilkuma virsraksts | Virsraksta teksts | Moduļa pasūtījuma kopsavilkuma sadaļas virsraksts. |
+| Groza rindas krājumu virsraksts | Virsraksta teksts | Virsraksts groza rindas krājumiem, kas tiek parādīti izrakstīšanās modulī. |
+| Rādīt piegādes maksu tiešsaistes krājumu | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, piegādes izmaksas, kas ir piemērojamas rindas krājumiem, tiks parādītas groza rindās. Ja līdzeklis **Virsraksta izmaksas bez proporcijas** ir ieslēgta Commerce Headquarters, nosūtīšanas maksa tiks piemērota virsraksta līmenī, nevis rindas līmenī. Šis līdzeklis tika pievienots Commerce versijā 10.0.13. |
 
-- **Piegādes adrese** — šis modulis ļauj klientam pievienot vai atlasīt pasūtījuma piegādes adresi. Ja klients ir pierakstījies, tiek rādītas visas adreses, kas iepriekš tika saglabātas šim klientam. Klients pēc tam veikt atlasi no šīm adresēm. Klients var arī pievienot jaunu adresi. Piegādes adrese tiek izmantota visām precēm pasūtījumā, kuras nepieciešams piegādāt. To nevar pielāgot atsevišķiem rindas krājumiem. Piegādes adreses formāti ir definēti katrai valstij vai reģionam, un šis modulis lieto valsts/reģiona specifiskos noteikumus. Kaut arī šis modulis nenodrošina adrešu validāciju, adreses validāciju var īstenot ar pielāgošanu. Ja pasūtījumā ir iekļautas tikai tās preces, kas tiks saņemtas veikalā, šis modulis tiek automātiski slēpts.
+## <a name="modules-that-can-be-used-in-the-checkout-module"></a>Moduļi, ko var izmantot norēķināšanās modulī
+
+- **Piegādes adrese** — šis modulis ļauj klientam pievienot vai atlasīt pasūtījuma piegādes adresi. Plašāku informāciju par šo moduli skatiet [Nosūtīšanas adreses modulis](ship-address-module.md).
 
     Attēlā zemāk redzams Fabrikam piegādes adreses moduļa piemērs norēķināšanās lapā.
 
     ![Piegādes adreses moduļa piemērs](./media/ecommerce-shippingaddress.PNG)
 
-- **Piegādes opcijas** — šis modulis ļauj klientam izvēlēties pasūtījuma piegādes opciju. Piegādes opcijas ir balstītas uz piegādes adresi. Ja piegādes adrese ir mainīta, piegādes opcijas ir jāizgūst no jauna. Ja pasūtījumā ir iekļautas tikai tās preces, kas tiks saņemtas veikalā, šis modulis tiek automātiski slēpts.
+- **Piegādes opcijas** — šis modulis ļauj klientam izvēlēties pasūtījuma piegādes veidu. Plašāku informāciju par šo moduli skatiet [Piegādes opciju modulis](delivery-options-module.md).
 
     Attēlā zemāk redzams piegādes opciju moduļa piemērs norēķināšanās lapā.
-
+ 
     ![Piegādes opciju moduļa piemērs](./media/ecommerce-deliveryoptions.PNG)
 
 - **Norēķināšanās sadaļas konteiners** — šis modulis ir konteiners, kurā varat ievietot vairākus moduļus, lai izveidotu sadaļu norēķināšanās plūsmā. Piemēram, visus ar maksājumiem saistītos moduļus var ievietot šajā konteinerā, lai tos varētu parādīt kā vienu sadaļu. Šis modulis ietekmē tikai plūsmas izkārtojumu.
-- **Dāvanu karte** — šis modulis ļauj klientam apmaksāt pasūtījumu, izmantojot dāvanu karti. Tas atbalsta tikai Microsoft Dynamics 365 Commerce dāvanu kartes. Pasūtījumam var lietot vienu vai vairākas dāvanu kartes. Ja dāvanu kartes bilance nesedz summu grozā, dāvanu karti var apvienot ar citu maksājuma metodi. Dāvanu kartes var izpirkt tikai tad, ja klients ir pierakstījies.
+
+- **Dāvanu karte** — šis modulis ļauj klientam apmaksāt pasūtījumu, izmantojot dāvanu karti. Plašāku informāciju par šo moduli skatiet [Dāvanu kartes modulis](add-giftcard.md).
+
 - **Lojalitātes programmas punkti** – šis modulis ļauj klientam apmaksāt pasūtījumu, izmantojot lojalitātes programmas punktus. Tas sniedz kopsavilkumu par pieejamiem punktiem un punktiem, kam beidzas termiņš, un ļauj klientam atlasīt punktu skaitu izpirkšanai. Ja klients nav pierakstījies vai nav lojalitātes programmas dalībnieks, vai arī kopējā summa grozā ir 0 (nulle), šis modulis tiek automātiski slēpts.
-- **Maksājums** — šis modulis ļauj klientam apmaksāt pasūtījumu, izmantojot kredītkarti. Ja kopējā summa grozā tiek segta ar lojalitātes programmas punktiem vai dāvanu karti, vai ja tā ir 0 (nulle), šis modulis tiek automātiski slēpts. Kredītkaršu integrāciju šim modulim nodrošina Adyen maksājumu savienotājs. Lai iegūtu vairāk informācijas par to, kā izmantot šo savienotāju, skatiet tēmu [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](dev-itpro/adyen-connector.md).
-- **Norēķinu adrese** — šis modulis ļauj klientam sniegt norēķinu informāciju. Izmantojot Adyen, šī informācija tiek apstrādāta kopā ar kredītkartes informāciju. Šajā modulī ir ietverta opcija, kas ļauj klientiem izmantot savu norēķinu adresi kā piegādes adresi.
 
-    Attēlā zemāk ir parādīts dāvanu karšu, lojalitātes programmas punktu, maksājumu un norēķinu adreses moduļu piemērs norēķināšanās lapā.
+- **Maksājums** — šis modulis ļauj klientam apmaksāt pasūtījumu, izmantojot kredītkarti vai debitkarti. Klienti var arī sniegt norēķinu adresi atlasītajai maksāšanas opcijai. Plašāku informāciju par šo moduli skatiet [Maksājuma modulis](payment-module.md).
 
-    ![Dāvanu kartes, lojalitātes programmas punktu, maksājumu un norēķinu adrešu moduļu piemērs](./media/ecommerce-payments.PNG)
+    Attēlā zemāk ir parādīts dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā.
+
+    ![Dāvanu karšu, lojalitātes programmas punktu, maksājumu moduļu piemērs norēķināšanās lapā](./media/ecommerce-payments.PNG)
 
 - **Kontaktinformācija** — šis modulis ļauj klientam pievienot vai mainīt kontaktpersonas informāciju (e-pasta adresi) pasūtījumam.
 
 - **Teksta bloks** — šis modulis ietver jebkuru ziņojumapmaiņu, ko vada satura pārvaldības sistēma (CMS). Piemēram, tas var ietvert ziņojumu, kurā teikts: “Ja rodas problēmas ar jūsu pasūtījumu, lūdzu, sazinieties ar 1-800-Fabrikam”. 
 
+- **Izrakstīšanās noteikumi un nosacījumi** — šis modulis rāda bagātinātu tekstu, kas ietver noteikumus un nosacījumus un izvēles rūtiņu debitora ievadei. Izvēles rūtiņa nav obligāta un ir konfigurējama. Ievadi nosaka modulis, un to var izmantot kā pārbaudi pirms pasūtījuma izvietošanas aktivizēšanas, bet tā nav iekļauta pasūtījuma kopsavilkuma informācijā. Šo moduli var pievienot izrakstīšanās konteineram, izrakstīšanās sadaļas konteineram vai noteikumu un nosacījumu slotam atbilstoši biznesa vajadzībām. Ja tas ir pievienots izrakstīšanās konteineram vai izrakstīšanās sadaļas konteinera slotam, tas parādīsies kā solis norēķinu procesā. Ja tas ir pievienots noteikumu un nosacījumu slotam, tas parādīsies blakus pasūtījuma izvietošanas pogai.
+
+    Attēlā zemāk redzams noteikumu un nosacījumu piemērs norēķināšanās lapā.
+
+    ![Norēķinu lapas noteikumu un nosacījumu piemērs](./media/ecommerce-checkout-terms.PNG)
+
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 
-Lielākā daļa norēķināšanās informācijas, piemēram, piegādes adrese un piegādes metode, tiek glabāta grozā un apstrādāta kā pasūtījuma daļa. Vienīgais izņēmums ir kredītkartes informācija. Šī informācija tiek apstrādāta tieši, izmantojot Adyen maksājuma savienotāju. Maksājums ir autorizēts, bet nav iekasēts.
+Lielākā daļa norēķināšanās informācijas, piemēram, piegādes adrese un piegādes metode, tiek glabāta grozā un apstrādāta kā pasūtījuma daļa. Vienīgais izņēmums ir kredītkartes informācija. Šī informācija tiek apstrādāta tieši, izmantojot Adyen maksājuma savienotāju. Maksājums ir autorizēts, bet to neiekasē, kamēr pasūtījums nav izpildīts.
 
 ## <a name="add-a-checkout-module-to-a-page-and-set-the-required-properties"></a>Norēķināšanās moduļa pievienošana lapā un nepieciešamo rekvizītu iestatīšana
 
 Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Lapas fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jaunas lapas fragments** atlasiet **Norēķināšanās** moduli.
 1. Sadaļā **Lapas fragmenta nosaukums** ievadiet nosaukumu **Norēķināšanās fragments** un pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Norēķināšanās modulis**.
@@ -90,6 +105,7 @@ Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešam
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduļus **Piegādes adrese**, **Piegādes opcijas**, **Norēķināšanās sekcijas konteiners** un **Kontaktinformācija** un pēc tam atlasiet **Labi**.
 1. Modulī **Norēķināšanās sekcijas konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduļus **Dāvanas karte**, **Lojalitāte** un **Maksājums** un pēc tam atlasiet **Labi**. Šādā veidā ir jāpārliecinās, ka visas maksājumu metodes tiek rādītas kopā vienā sadaļā.
+1. Sadaļā **Noteikumi un nosacījumi** pievienojiet **Norēķināšanās noteikumi un nosacījumi** moduli, ja tas ir nepieciešams. Moduļa rekvizītu rūtī atbilstoši konfigurējiet noteikumu un nosacījumu tekstu.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu fragmentu. Daži moduļi var netikt atveidoti priekšskatījumā, jo tiem nav groza konteksta.
 1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Izveidojiet veidni, kas izmanto jauno norēķināšanās fragmentu.
@@ -97,16 +113,16 @@ Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešam
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
-
-[Container modulis](add-container-module.md)
-
-[Iegādes lodziņa modulis](add-buy-box.md)
-
 [Groza modulis](add-cart-module.md)
 
-[Pasūtījuma apstiprinājuma modelis](order-confirmation-module.md)
+[Groza ikonas modulis](cart-icon-module.md)
 
-[Galvenes modulis](author-header-module.md)
+[Maksājuma modulis](payment-module.md)
 
-[Kājenes modulis](author-footer-module.md)
+[Piegādes adreses modulis](ship-address-module.md)
+
+[Piegādes opciju modulis](delivery-options-module.md)
+
+[Pasūtījumu informācijas modulis](order-confirmation-module.md)
+
+[Dāvanu kartes modulis](add-giftcard.md)

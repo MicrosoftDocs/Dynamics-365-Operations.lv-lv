@@ -3,7 +3,7 @@ title: Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem
 description: Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes.
 author: t-benebo
 manager: tfehr
-ms.date: 07/27/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
-ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3637760"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657344"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
 
@@ -32,7 +32,16 @@ ms.locfileid: "3637760"
 
 Izmantojot pasūtījuma noklusējuma iestatījumus programmā Dynamics 365 Supply Chain Management, tiek definēta vieta un noliktava krājumu ieguvei vai glabāšanai, minimālais, maksimālais, vairākkārtējais un standarta daudzums, kas tiks izmantots tirdzniecībai vai krājumu pārvaldībai, izpildes laiks, apturēšanas karodziņš un pasūtījuma solīšanas metode. Pasūtījuma noklusējuma iestatījumi tiek izmantoti, veidojot pirkšanas pasūtījumus, pārdošanas pasūtījumus, pārsūtīšanas pasūtījumus, krājumu žurnālus un veicot vispārējo plānošanu plānoto pasūtījumu ģenerēšanai. Pasūtījuma noklusējuma iestatījumi var būt atkarīgi no preces, atkarīgi no vietas, atkarīgi no preces varianta vai atkarīgi no preces dimensijas.
 
-Pasūtījuma noklusējuma iestatījumus varat definēt lapā **Pasūtījuma noklusējuma iestatījumi**. Lai atvērtu šo lapu, dodieties uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Izlaistās preces** &gt; **Atlasīt izlaisto preci** &gt; sadaļā **Plāns**. Jūs varat doties arī uz **Pārvaldīt krājumus** &gt; **Pasūtījuma iestatījumi** &gt; **Pasūtījuma noklusējuma iestatījumi**.
+Lai definētu noklusējuma pasūtījuma iestatījumus precei, rīkojieties šādi.
+
+1. DOdieties uz **Preču informācijas pārvaldība** &gt; **Preces** &gt; **Nodotās preces**.
+1. Režģī atlasiet atbilstošo preci.
+1. Darbības rūtī veiciet vienu no šīm darbībām, lai atvērtu atlasītajai precei **Noklusējuma pasūtījuma iestatījumu** lapu:
+
+    - Cilnē **Plāns** grupā **Pasūtījuma iestatījumi** atlasiet **Noklusējuma pasūtījuma iestatījumi**.
+    - Cilnē **Pārvaldīt krājumu** grupā **Pasūtījuma iestatījumi** atlasiet **Noklusējuma pasūtījuma iestatījumi**.
+
+1. Konfigurējiet iestatījumus, kā aprakstīts atlikušajā šīs tēmas sadaļā.
 
 ## <a name="default-order-settings"></a>Pasūtījuma noklusējuma iestatījumi
 
@@ -74,7 +83,7 @@ Krājumu pasūtījuma noklusējuma iestatījumi tiek izmantoti arī tad, kad izv
 
 ## <a name="full-definition-of-a-released-product"></a>Pilna izlaistās preces definīcija
 
-Transakcijas izveides laikā, rindā ir jānorāda pilnā izlaistās preces definīcija, pirms programmatūrā Supply Chain Management tiek mēģināts noteikt pasūtījuma noklusējuma iestatījumus. Pilna izlaistās preces definīcija nozīmē, ka transakcijā ir norādīts krājuma kods un visas aktīvās preces dimensijas, piemēram, konfigurācija, izmērs, stils un krāsa. Piemēram, ja manuāli veidojat pirkšanas pasūtījuma rindu izlaistam preces variantam, ir jānorāda visas nepieciešamās preces dimensijas, pirms pasūtījuma rindā tiek parādīta noklusējuma vieta, noliktava, daudzumi un izpildes laiks. 
+Transakcijas izveides laikā, rindā ir jānorāda pilnā izlaistās preces definīcija, pirms programmatūrā Supply Chain Management tiek mēģināts noteikt pasūtījuma noklusējuma iestatījumus. Pilnajā izlaistās preces definīcijā transakcijā ir norādīts krājuma kods un visas aktīvās preces dimensijas, piemēram, konfigurācija, izmērs, stils, versija un krāsa. Piemēram, ja manuāli veidojat pirkšanas pasūtījuma rindu izlaistam preces variantam, ir jānorāda visas nepieciešamās preces dimensijas, pirms pasūtījuma rindā tiek parādīta noklusējuma vieta, noliktava, daudzumi un izpildes laiks. 
 
 Ne visi pasūtījuma noklusējuma iestatījumu parametri tiek lietoti, kad veidojat pasūtījumu vai žurnāla rindas. Daudzumi un izpildes laiki pēc noklusējuma tiek rādīti tikai tad, ja piemērojams. Piemēram, veicot aprēķinus žurnāla rindā, izveidojot rindu, pēc noklusējuma tiek rādīta tikai vieta un noliktava. Šī iemesla dēļ netiek veikta nekādi noklusējuma daudzumi vai pārbaudes par vairākiem minimālajiem daudzumiem, kad veidojot rindu vai grāmatojat žurnālu. 
 
@@ -96,7 +105,7 @@ Atšķirīgām izlaistajām precēm varat definēt vispārējos pasūtījuma ies
 
 ### <a name="site-specific-order-settings"></a>Vietai raksturīgie pasūtījuma iestatījumi
 
-Lai izveidotu no vietas atkarīgus pasūtījuma iestatījumus, atlasiet **Jauns**. Skatā **Detalizētas informācijas skats** aizpildiet vietu laukā **Iestatījumi, kas piemērojami šeit:** &gt; **Vieta**. Skatā **Režģa skats** aizpildiet vietas vērtību kolonnā **Vieta**. Jaunā kārtula automātiski iegūs jaunu ranga vērtību, kas ir lielāka par nulli. Varat izveidot neierobežotu skaitu no vietas atkarīgām kārtulām, un visām no vietas atkarīgajām kārtulām varat piešķirt vienādu rangu, lai norādītu, ka tās ir vienlīdz svarīgas. 
+Lai izveidotu no vietas atkarīgus pasūtījuma iestatījumus, atlasiet **Jauns**. **Detalizētas informācijas skatā** ievadiet vietni laukā **Vietne** sadaļā **Iestatījumi, kas piemērojami šeit**. Skatā **Režģa skats** ievadiet vietas vērtību kolonnā **Vieta**. Jaunajai kārtulai tiek automātiski piešķirta jauna ranga vērtība, kas ir lielāka par 0 (nulli). Varat izveidoti tik daudz vietnei raksturīgo kārtulu, cik nepieciešams. Lai norādītu, ka tās ir vienlīdz svarīgas, var piešķirt vienu ranga vērtību visām vietnei raksturīgajām kārtulām.
 
 Ja esat atvēris skatu **Detalizētas informācijas skats**, nevar iegūt pārskatu par krājumam izveidotajām kārtulām. Izmantojiet pogu **Rādīt/slēpt sarakstu**, lai redzētu pārskata informāciju. Kad tiek izveidota jebkāda veida pasūtījuma rinda, kam nav norādīta vieta, programmatūrā Supply Chain Management tiek meklēta kārtula, kurai nav norādīta vieta. Tas palīdz pasūtījuma rindai noteikt noklusējuma vietu. Pēc tam šī vieta tiek izmantota no vietas atkarīgas kārtulas meklēšanai, kur var būt iestatīta noklusējuma noliktava. Šī noliktava tiek lietota pasūtījuma rindā.
 
@@ -111,41 +120,41 @@ Aplūkosim nākamo preces piemēru.
 | **Preces nosaukums**                                    | Fotoelektriskais sensors                    |
 | **Krājuma numurs**                                     | XW56                                    |
 | **Konfigurācija** (izmantota gaismas tipa modelēšanai) | C1-redzamā sarkanā gaisma, C2-infrasarkanā gaisma |
-| **Stils** (izmantots tehniskā izdevuma modelēšanai)  | R1, R2, R3                              |
+| **Versija** | V1, V2, V3                              |
 
 Šajā piemērā tiek pieņemts, ka prece tiek sagādāta, nevis ražota. Tiek arī pieņemts, ka konfigurācija C1 tiek lietota biežāk, tāpēc tai ir īsāki izpildes laiki. 
 
 Lai modelētu šo scenāriju, izveidojiet tālāk norādītos pasūtījuma noklusējuma iestatījumus.
 
-| Rangs | Atrašanās vieta | Konfigurācija | Stils | Iegādāšanās — ignorēt noklusējuma iestatījumus | Pirkšanas izpildes laiks | Iegādāšanās — apturēta | Pārdošana — ignorēt noklusējuma iestatījumus | Pārdošana — apturēta |
+| Rangs | Vieta | Konfigurācija | Versija | Iegādāšanās — ignorēt noklusējuma iestatījumus | Pirkšanas izpildes laiks | Iegādāšanās — apturēta | Pārdošana — ignorēt noklusējuma iestatījumus | Pārdošana — apturēta |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
 | 10.   |      | C1            |       | Jā                                  | 2.                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5.                  |                    |                                   |                 |
 
-Kad precei XW56, konfigurācijai C1 tiek izveidota pirkšanas pasūtījuma rinda vai plānotais pirkšanas pasūtījums, tad neatkarīgi no izdevuma vai vietas, kur šī rinda atrodas, izpildes laiks tiek uzskatīts par 2. Pieņemam, ka ir apturēti visi izdevumi, izņemot R3.
+Kad precei XW56, konfigurācijai C1 tiek izveidota pirkšanas pasūtījuma rinda vai plānotais pirkšanas pasūtījums, tad neatkarīgi no versijas vai vietas, kur šī rinda atrodas, izpildes laiks tiek uzskatīts par 2. Pieņemam, ka ir apturētas visas versijas, izņemot V3.
 
 Varat izveidot tālāk norādītās pasūtījuma noklusējuma iestatījumu kārtulas.
 
-| Rangs | Atrašanās vieta | Konfigurācija | Stils | Iegādāšanās — ignorēt noklusējuma iestatījumus | Pirkšanas izpildes laiks | Iegādāšanās — apturēta | Pārdošana — ignorēt noklusējuma iestatījumus | Pārdošana — apturēta |
+| Rangs | Vieta | Konfigurācija | Versija | Iegādāšanās — ignorēt noklusējuma iestatījumus | Pirkšanas izpildes laiks | Iegādāšanās — apturēta | Pārdošana — ignorēt noklusējuma iestatījumus | Pārdošana — apturēta |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 20.   |      |               | R2    | Jā                                  |                    | Jā                | Jā                               | Jā             |
-| 20.   |      |               | R1    | Jā                                  |                    | Jā                | Jā                               | Jā             |
-| 10.   |      | C1            |       | Jā                                  | 2.                  |                    |                                   |                 |
-| 0    |      |               |       |                                      | 5.                  |                    |                                   |                 |
+| 20   |      |               | V2    | Jā                                  |                    | Jā                | Jā                               | Jā             |
+| 20   |      |               | V1    | Jā                                  |                    | Jā                | Jā                               | Jā             |
+| 10.   |      | C1            |       | Jā                                  | 2                  |                    |                                   |                 |
+| 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Abām veco izdevumu apturēšanas kārtulām ir vienāds rangs, tas nozīmē, ka tās ir vienlīdz svarīgas. Abām šīm kārtulām ir augstāks rangs nekā kārtulai, kas attiecas uz konfigurāciju C1 — tas nozīmē, ka tām ir virsroka pār konfigurācijas C1 kārtulu. 
+Diviem veco versiju apturēšanas noteikumiem ir vienāds rangs. Tāpēc tie ir vienlīdz svarīgi. Tā kā abām šīm kārtulām ir augstāks rangs nekā kārtulai, kas attiecas uz konfigurāciju C1, tām ir virsroka pār konfigurācijas C1 kārtulu. 
 
-Šajā piemērā ir paskaidrota ranga nepieciešamība. Ja pirkšanas pasūtījums tiek izveidots konfigurācijai C1 un izdevumam R2, tad gadījumā, ja ranga nav, abas R2 un C1 definētās kārtulas būtu neskaidras. Lai novērstu šo neskaidrību, programmatūrā Supply Chain Management kārtulas tiek meklētas dilstošā secībā pēc ranga un tiek izmantota pirmā attiecināmā kārtula. Pašreizējā piemērā, kad pirkšanas pasūtījuma rinda tiek izveidota konfigurācijai C1 un izdevumam R2, lietotājs saņem brīdinājuma ziņojumu, ka krājums ir aizturēts un ka to ir izraisījusi izdevuma vērtība. Ja konfigurācijas kārtulas rangs būtu augstāks par izdevuma kārtulas rangu, tad šī pirkšanas pasūtījuma rindas izveidošana konfigurācijai C1 un izdevumam R2 būtu izpildīta sekmīgi, un lietotājam netiktu rādīts ziņojums “krājums ir aizturēts”. 
+Šajā piemērā ir paskaidrota ranga nepieciešamība. Ja ranks netiek izmantots brīdī, kad pirkšanas pasūtījums tiek izveidots konfigurācijai C1 un versijai V2, abas V2 un C1 definētās kārtulas būs neskaidras. Lai novērstu šo neskaidrību, programmatūrā Supply Chain Management kārtulas tiek meklētas dilstošā secībā pēc ranga un tiek izmantota pirmā attiecināmā kārtula. Pašreizējā piemērā, kad pirkšanas pasūtījuma rinda tiek izveidota konfigurācijai C1 un versijai V2, lietotājs saņem brīdinājuma ziņojumu, ka krājums ir aizturēts un ka to ir izraisījusi versijas vērtība. Ja konfigurācijas kārtulas rangs būtu augstāks par versijas kārtulas rangu, tad šī pirkšanas pasūtījuma rindas izveidošana konfigurācijai C1 un versijai V2 būtu izpildīta sekmīgi, un lietotājs nesaņemtu ziņojumu “krājums ir aizturēts”. 
 
 Apsveriet tālāk norādītās pasūtījuma noklusējuma iestatījumu kārtulas.
 
-| Rangs | Atrašanās vieta | Konfigurācija | Stils | Noklusējuma atrašanās vieta | Noklusējuma noliktava | Pirkšana — ignorēt noklusējuma noliktavas dimensijas | Pirkšanas noliktava |
+| Rangs | Vieta | Konfigurācija | Versija | Noklusējuma atrašanās vieta | Noklusējuma noliktava | Pirkšana — ignorēt noklusējuma noliktavas dimensijas | Pirkšanas noliktava |
 |------|------|---------------|-------|--------------|-------------------|------------------------------------------------|--------------------|
-| 20.   | 2.    |               |       |              |                   | Jā                                            | 22                 |
-| 10.   |      | C1            |  R2   |  2           |  21               |                                                |                    |
+| 20   | 2    |               |       |              |                   | Jā                                            | 22                 |
+| 10.   |      | C1            |  V2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11.                |                                                |                    |
 
-Lai noteiktu vietu un noliktavu, sistēma divreiz šķērso kārtulu kopu. Kad pirkšanas pasūtījuma rinda tiek izveidota konfigurācijai C1, stilam R2, tad vieta tiek noteikta, balstoties uz kārtulu ar rangu 10. Pēc tam sistēma meklē kārtulu vietai 2, lai noteiktu noliktavu. Kārtula 20 tiek atrasta, un — tā kā tās rangs ir augstāks — noliktava pirkšanas pasūtījuma rindā būs 22, nevis 21.
+Lai noteiktu vietu un noliktavu, sistēma divreiz šķērso kārtulu kopu. Kad pirkšanas pasūtījuma rinda tiek izveidota konfigurācijai C1, versijai V2, tad vietne tiek noteikta, balstoties uz kārtulu ar rangu 10. Pēc tam sistēma meklē kārtulu vietai 2, lai noteiktu noliktavu. Kārtula 20 tiek atrasta, un — tā kā tās rangs ir augstāks — noliktava pirkšanas pasūtījuma rindā būs 22, nevis 21.
 
 Parasti konkrētas kārtulas un dimensiju kārtulas, kuras ir svarīgākas par citām dimensijām, saņem augstāku rangu, bet vispārīgākām kārtulām tiek piešķirti zemāki rangi. 
 
@@ -159,15 +168,15 @@ Izlaistajām precēm var būt daudz izveidoto kārtulu. Lai gūtu labāku priek�
 
 Ja kārtulu sistēma pasūtījuma noklusējuma iestatījumiem ir pārāk apgrūtinoša, pastāv iespēja definēt noklusējuma pasūtījuma uzstādījumus katram preces variantam. Nākamajā piemērā ir parādīts, kā tas izskatītos precei un iepriekš aprakstītajos gadījumos.
 
-| Rangs | Atrašanās vieta | Konfigurācija | Stils | Iegādāšanās — ignorēt noklusējuma iestatījumus | Pirkšanas izpildes laiks | Iegādāšanās — apturēta | Pārdošana — ignorēt noklusējuma iestatījumus | Pārdošana — apturēta |
+| Rangs | Vieta | Konfigurācija | Versija | Iegādāšanās — ignorēt noklusējuma iestatījumus | Pirkšanas izpildes laiks | Iegādāšanās — apturēta | Pārdošana — ignorēt noklusējuma iestatījumus | Pārdošana — apturēta |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 10.   |      | C2            | R3    | Jā                                  | 5.                  |                    |                                   |                 |
-| 10.   |      | C2            | R2    | Jā                                  | 5.                  | Jā                | Jā                               | Jā             |
-| 10.   |      | C2            | R1    | Jā                                  | 5.                  | Jā                | Jā                               | Jā             |
-| 10.   |      | C1            | R3    | Jā                                  | 2.                  |                    |                                   |                 |
-| 10.   |      | C1            | R2    | Jā                                  | 2.                  | Jā                | Jā                               | Jā             |
-| 10.   |      | C1            | R1    | Jā                                  | 2.                  | Jā                | Jā                               | Jā             |
-| 0    |      |               |       |                                      | 5.                  |                    |                                   |                 |
+| 10.   |      | C2            | V3    | Jā                                  | 5                  |                    |                                   |                 |
+| 10.   |      | C2            | V2    | Jā                                  | 5                  | Jā                | Jā                               | Jā             |
+| 10.   |      | C2            | V1    | Jā                                  | 5                  | Jā                | Jā                               | Jā             |
+| 10.   |      | C1            | V3    | Jā                                  | 2                  |                    |                                   |                 |
+| 10.   |      | C1            | V2    | Jā                                  | 2                  | Jā                | Jā                               | Jā             |
+| 10.   |      | C1            | V1    | Jā                                  | 2                  | Jā                | Jā                               | Jā             |
+| 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Šajā gadījumā rangs nav īsti svarīgs, tāpēc varat izvēlēties to slēpt. Šis risinājums potenciāli izraisa uzturēšanas problēmu. Taču varat apsvērt iespēju izmantot šo iestatījumu, ja plānojat integrēšanu ar Preces dzīves cikla pārvaldības (Product Lifecycle Management — PLM) sistēmām.
 

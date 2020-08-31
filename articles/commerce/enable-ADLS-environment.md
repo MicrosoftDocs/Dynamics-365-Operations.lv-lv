@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404190"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665006"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage iespējošana Dynamics 365 Commerce vidē
 
@@ -102,7 +102,9 @@ Ja tas vēl nav pabeigts, sekojiet norādījumiem par [preču ieteikumu iespējo
 
 [Atteikšanās no personalizētiem ieteikumiem](personalization-gdpr.md)
 
-[Pievienot preču ieteikumus punktā POS](product.md)
+[Iespējot "veikala līdzīgie izskati" rekomendācijas](shop-similar-looks.md)
+
+[Preču ieteikumu pievienošana punktā POS](product.md)
 
 [Ieteikumu pievienošana transakciju ekrānam](add-recommendations-control-pos-screen.md)
 
