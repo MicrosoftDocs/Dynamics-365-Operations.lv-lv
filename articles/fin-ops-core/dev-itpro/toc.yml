@@ -128,8 +128,10 @@
                       href: data-entities/data-integration-cds.md
                     - name: Duālā ieraksta integrācija
                       items:
-                        - name: Duālā ieraksta mājas lapa
+                        - name: Duālā ieraksta sākumlapa
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Duālā ieraksta jaunumi un izmaiņas
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Duālā ieraksta pārskats
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Duālā ieraksta iestatīšana
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Drošības politikas izveide
                   href: sysadmin/create-simple-security-policy.md
+            - name: Saderības ar lietotāju licencēšanas prasībām uzturēšana
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Procesu automatizācija
               href: sysadmin/process-automation.md
             - name: Pakešapstrāde
