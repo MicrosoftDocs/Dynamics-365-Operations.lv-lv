@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 20.\_augusts"
+          href: hr-whats-new-2020-08-20.md
         - name: "2020.\_gada 6.\_augusts"
           href: hr-whats-new-2020-08-06.md
         - name: "2020.\_gada 23.\_jūlijs"
@@ -78,13 +80,91 @@
             - name: Integrācija ar Office
               items:
                 - name: Office integrēšanas apmācība
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
                 - name: Elementa datu atjaunināšana programmā Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
                 - name: Atvēršanas Excel programmā pieredzes izveide
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
                 - name: Office integrācijas problēmu novēršana
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+        - name: Datu pārvaldības konfigurēšana
+          items:
+            - name: Datu pārvaldības struktūras pārskats
+              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datu elementi
+              items:
+                - name: Datu elementu pārskats
+                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurācijas datu projekti
+                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurācijas datu kopēšana starp uzņēmumiem vai juridiskajām personām
+                  items:
+                    - name: Konfigurācijas datu kopēšanas pārskats
+                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigurācijas datu pakotnes
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: "Konfigurācijas datu pakotnes (tikai 2017.\_gada jūlija laidiens)"
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurācijas datu veidnes
+                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Elementa izmaiņu izsekošana
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: Informācijas par standarta datu elementiem meklēšana
+                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: Datu veidnes ar vairākām darblapām
+                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izmaiņu izsekošanas iespējošana elementiem
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurācijas atslēgas un datu elementi
+                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurācijas datu pakotnes
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datu importēšanas un eksportēšanas darbi
+              items:
+                - name: Datu importēšanas un eksportēšanas darbu pārskats
+                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu'
+                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datu elementu izstrāde
+              items:
+                - name: Datu elementu dizaina principi un labākās prakses
+                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                - name: Jaunu datu elementu izveide
+                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Datu elementa rekvizīti
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Aprēķina kolonnu un virtuālo lauku izveide
+                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Starpuzņēmumu funkcionalitāte
+                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                - name: Valsts/reģiona kodu apstrāde
+                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: Pārmantošanas modeļi
+                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                - name: Datu elementa vedņa kārtulas
+                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                - name: Metadatu rekvizīti
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Validācijas, noklusējuma vērtības un nekartētie lauki'
+                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Drošība un datu elementi
+                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Trešo pušu pakalpojumu testēšanas utilītu izmantošana
+                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Tādu tikai lasāmu elementu izveide, kas atklāj finanšu dimensijas'
+                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+            - name: Savas datu bāzes izmantošana
+              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+            - name: BYOD pakešuzdevumu optimizēšana
+              href: hr-admin-integration-byod-batch-jobs.md
+            - name: Automatizētas elementu krātuves atsvaidzināšana
+              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datu uzdevuma automatizēšana
+              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datu validēšanas kontrolsaraksta darbvieta
+              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datu pārvaldības kļūdu apraksti
+              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
         - name: Līdzekļu pārvaldība
           href: hr-admin-manage-features.md
         - name: Datu bāzu reģistrācijas konfigurēšana un pārvaldība
@@ -123,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
-            - name: Mainīt sesijas datumu
+            - name: Sesijas datuma maiņa
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
             - name: Lietotāja izvēlētās laika joslas iestatīšana
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
@@ -539,6 +619,8 @@
               href: hr-employee-self-service-calendar.md
             - name: Atvaļinājuma iegādes un pārdošanas politiku pārvaldība
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Atvaļinājuma iegādes un pārdošanas darbplūsmu izveide
+              href: hr-leave-and-absence-buy-sell-workflow.md
             - name: Atvaļinājuma iegāde un pārdošana
               href: hr-employee-self-service-buy-sell-leave.md
         - name: Atvaļinājumu pieprasījumu pārvaldība programmā Teams
