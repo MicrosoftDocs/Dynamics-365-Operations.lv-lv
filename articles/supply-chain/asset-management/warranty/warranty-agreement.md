@@ -3,7 +3,7 @@ title: Garantijas līgumi
 description: Šajā tēmā ir aprakstīti garantijas līgumi līdzekļu pārvaldībā.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215382"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719242"
 ---
 # <a name="warranty-agreements"></a>Garantijas līgumi
 
@@ -42,12 +42,12 @@ Garantijas līgumā var iekļaut vairākas līguma rindas, lai segtu darba stund
 
 1. Atlasiet **Līdzekļu pārvaldība** \> **Iestatīšana** \> **Līdzekļi** \> **Garantija**.
 2. Atlasiet **Jauns**, lai izveidotu preci.
-3. Ievadiet garantijas ID laukā **Garantija**.
+3. Ievadiet garantijas ID laukā **Garantija**. 
 4. Laukā **Nosaukums** ievadiet aprakstu.
 
     Kopsavilkuma cilnes **Detalizēta informācija** lauks **Līdzekļi** parāda aktīvo līdzekļu skaitu, kas izmanto garantijas līgumu.
 
-5. Kopsavilkuma cilnēs **Stundu garantija** un **Krājuma garantija** veiciet šīs darbības, lai pievienotu rindas, kas ir jāiekļauj garantijas līgumā, kas attiecas uz stundām vai krājumiem.
+5. Kopsavilkuma cilnē **Garantijas rindas** veiciet šīs darbības, lai pievienotu rindas, kas jāiekļauj garantijas līgumā:
 
     1. Atlasiet **Pievienot rindu**, lai pievienotu jaunu nosacījumu garantijai. Laukā **Rinda** automātiski tiek ievadīts kārtas numurs.
     2. Laukā **Periods** atlasiet garantijas perioda veidu.

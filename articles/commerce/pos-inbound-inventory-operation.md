@@ -3,7 +3,7 @@ title: Ienākošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) ienākošo krājumu operāciju iespējas.
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627542"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710313"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -143,6 +143,20 @@ Operācija ievēro konfigurāciju **Tukšā kvīts atļauta** noliktavas dimensi
 ### <a name="receive-all"></a>Saņemt visu
 
 Pēc nepieciešamības varat atlasīt **Saņemt visu**programmas joslā, lai ātri atjauninātu daudzumu **Saņem tagad** visām dokumenta rindām uz maksimālo vērtību, kas ir pieejama saņemšanai šīm rindām.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Neplānotu krājumu saņemšana pirkšanas pasūtījumos
+
+Commerce versijā 10.0.14 un jaunākās lietotāji var saņemt preci, kas sākotnēji nebija iekļauta pirkšanas pasūtījumā. Lai iespējotu šo funkcionalitāti, ieslēdziet **Pirkšanas pasūtījuma rindu pievienošana pārdošanas punkta saņemšanas laikā**.  
+
+Šis līdzeklis darbojas tikai pirkšanas pasūtījuma saņemšanai. Nav iespējams saņemt krājumus pret pārsūtīšanas pasūtījumiem, ja krājumi iepriekš netika pasūtīti un nosūtīti no nosūtīšanas noliktavas.
+
+Lietotāji nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā, ja tiek iespējota pirkšanas pasūtījuma [izmaiņu pārvaldības darbplūsma](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) Commerce Headquarters (HQ). Lai iespējotu izmaiņu pārvaldību, visas izmaiņas pirkšanas pasūtījumā vispirms ir jāapstiprina, pirms saņemšana ir atļauta. Tā kā šis process ļauj uztvērējam pievienot jaunas rindas pirkšanas pasūtījumam, saņemšana neizdosies, ja ir iespējota izmaiņu pārvaldības darbplūsma. Ja izmaiņu pārvaldība ir iespējota visiem pirkšanas pasūtījumiem vai kreditoram, kas ir saistīts ar pirkšanas pasūtījumu, kas tiek aktīvi saņemts POS, lietotājs nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā.
+
+Funkcionalitāte, kas iespējo pievienot rindas, nevar tikt izmantota kā risinājums, lai saņemtu papildu preču daudzumus, kas jau ir pirkšanas pasūtījumā. Pārsniegšana tiek pārvaldīta, izmantojot standarta [pārsniegšanas](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) iestatījumus preču rindai pirkšanas pasūtījumā.
+
+Ja opcija **Pievienot rindas pārdošanas pasūtījumam saņemšanas punkta laikā** ir iespējota, un lietotājs saņem ar **Ienākošo operāciju** POS, ja lietotājs skenē vai pievieno produkta svītrkodu vai produkta numuru, kas pašreizējā pirkšanas pasūtījumā nav atpazīts kā prece, bet tiek atpazīts kā derīgs vienums, lietotājs saņem ziņojumu par preces pievienošanu pirkšanas pasūtījumam. Ja lietotājs pievieno krājumu pirkšanas pasūtījumam, ievadītais daudzums sadaļā **Saņem tagad** tiek uzskatīts par pirkšanas pasūtījuma rindas pasūtīto daudzumu.
+
+Kad pirkšanas pasūtījuma saņemšana ir pabeigta un iesniegta HQ apstrādei, pievienotās rindas tiek veidotas pirkšanas pasūtījuma pamatdokumentā. Pirkšanas pasūtījuma rindā, kas atrodas HQ, redzēsiet **POS pievienots** karogu Pirkšanas pasūtījuma rindas cilnē **Vispārīgi**. **POS pievienots** karogs norāda, ka POS saņemšanas process pievienoja pirkšanas pasūtījuma rindu, un tā nebija rinda, kas bija pirkšanas pasūtījumā pirms saņemšanas.
 
 ### <a name="cancel-receiving"></a>Atcelt saņemšanu
 

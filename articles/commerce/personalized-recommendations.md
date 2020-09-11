@@ -3,7 +3,7 @@ title: Preču personalizētu ieteikumu iespējošana
 description: Šajā tēmā ir aprakstīts, kā padarīt personalizētus preču ieteikumus pieejamus klientiem risinājumā Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664862"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700870"
 ---
 # <a name="enable-personalized-recommendations"></a>Personalizētu ieteikumu iespējošana
 
@@ -49,11 +49,13 @@ Lai iegūtu vairāk informācijas par preču ieteikumiem, skatiet [Preču ieteik
 
 Lai aktivizētu personalizāciju, veiciet tālāk minētās darbības.
 
-1. Pärejiet uz **Mazumtirdzniecība un komercija \> Preču ieteikumi \> Ieteikumu parametri**.
-1. Retail koplietojamo parametru sarakstā atlasiet **Ieteikumu saraksti**.
-1. Atlasiet opcijai **Iespējot personalizāciju** iestatījumu **Jā**.
+1. Programmā Commerce Headquarters meklējiet **Funkciju pārvaldība**.
+1. Atlasiet **Visi**, lai skatītu pieejamo funkciju sarakstu. 
+1. Meklēšanas lodziņā ievadiet **Ieteikumi**.
+1. Atlasiet līdzekli **Personalizēto preču ieteikumi**.
+1. **Personalizēto preču ieteikumi** rekvizītu rūtī atlasiet **Iespējot tagad**.
 
-![Personalizācijas aktivizēšana](./media/enablepersonalization.png)
+![Personalizācijas aktivizēšana](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Ieslēdzot personalizāciju, tiek sākts personalizētu preču ieteikumu saraksta ģenerēšanas process. Var tikt pieprasīta līdz vienai dienai, pirms šie saraksti ir pieejami un redzami tiešsaistē un POS.

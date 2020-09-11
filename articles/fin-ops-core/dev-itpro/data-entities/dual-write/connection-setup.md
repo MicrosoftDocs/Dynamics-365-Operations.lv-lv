@@ -3,7 +3,7 @@ title: Atbalstītie scenāriji duālā ieraksta iestatījumiem
 description: Šajā tēmā aprakstīti scenāriji, kas tiek atbalstīti duālā ieraksta iestatījumiem.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172858"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706256"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Atbalstītie scenāriji duālā ieraksta iestatījumiem
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172858"
 
 Varat iestatīt duālā ieraksta savienojumu starp Finance and Operations vidi un Common Data Service vidi.
 
-+ **Finance and Operations vide** nodrošina **Finance and Operations programmu** (piemēram, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Retail un Dynamics 365 Human Resources) pamata platformu.
++ **Finance and Operations vide** nodrošina **Finance and Operations programmu** (piemēram, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management un Dynamics 365 Retail) pamata platformu.
 + **Common Data Service vide** nodrošina pamata programmu **modeļa vadītām programmām pakalpojumā Dynamics 365** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing un Dynamics 365 Project Service Automation).
+
+>[!IMPORTANT]
+>Personāla vadība Finance and Operations atbalsta duālās rakstīšanas savienojumus, bet Dynamics 365 Human Resources programma to neizmanto.
 
 Iestatīšanas mehānisms mainās atkarībā no jūsu abonementa un vides.
 

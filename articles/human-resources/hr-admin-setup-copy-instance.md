@@ -3,7 +3,7 @@ title: Instances kopēšana
 description: Varat izmantot Microsoft Dynamics Lifecycle Services (LCS), lai kopētu Microsoft Dynamics 365 Human Resources datu bāzi uz smilškastes vidi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554329"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706232"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
 Varat izmantot Microsoft Dynamics Lifecycle Services (LCS), lai kopētu Microsoft Dynamics 365 Human Resources datu bāzi uz smilškastes vidi. Ja jums ir cita smilškastes vide, varat arī kopēt datu bāzi no šīs vides uz mērķtiecīgu smilškastes vidi.
 
-Lai kopētu instanci, jāpārliecinās, ka ievērots tālāk minētais.
+Lai kopētu instanci, ņemiet vērā šādus padomus:
 
 - Human Resources instancei, ko vēlaties pārrakstīt, jābūt smilškastes videi.
 
@@ -37,7 +37,9 @@ Lai kopētu instanci, jāpārliecinās, ka ievērots tālāk minētais.
 
 - Jums ir jābūt administratoram mērķa vidē, lai varētu pierakstīties tajā pēc instances kopēšanas.
 
-- Kopējot Human Resources datu bāzi, netiek kopēti Microsoft PowerApps vidē esošie elementi (programmas vai dati). Informāciju par to, kā kopēt elementus PowerApps vidē, skatiet [Vides kopēšana](https://docs.microsoft.com/power-platform/admin/copy-environment). PowerApps videi, ko vēlaties pārrakstīt, jābūt smilškastes videi. Jums ir jābūt globālā nomnieka administratoram, lai mainītu PowerApps ražošanas vidi uz smilškastes vidi. Papildinformāciju par PowerApps vides mainīšanu skatiet [Instances pārslēgšana](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Kopējot Human Resources datu bāzi, netiek kopēti Microsoft Power Apps vidē esošie elementi (programmas vai dati). Informāciju par to, kā kopēt elementus Power Apps vidē, skatiet [Vides kopēšana](https://docs.microsoft.com/power-platform/admin/copy-environment). Power Apps videi, ko vēlaties pārrakstīt, jābūt smilškastes videi. Jums ir jābūt globālā nomnieka administratoram, lai mainītu Power Apps ražošanas vidi uz smilškastes vidi. Papildinformāciju par Power Apps vides mainīšanu skatiet [Instances pārslēgšana](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+
+- Ja nokopējat instanci savā smilškastes vidē un vēlaties integrēt smilškastes vidi ar Common Data Service, ir atkārtoti jāizmanto pielāgoti lauki Common Data Service vienībām. Skatiet [Lietot pielāgotus laukus Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Human Resources datu bāzes kopēšanas sekas
 
@@ -47,15 +49,15 @@ Kopējot Human Resources datu bāzi, notiek tālāk minētie notikumi.
 
 - Mērķa vide nebūs pieejama, kamēr kopēšanas process nebūs pabeigts.
 
-- Dokumenti Microsoft Azure Blob krātuvē netiek kopēti no vienas vides uz citu. Tādējādi visi pievienotie dokumenti un veidnes netiks kopētas un paliks avota vidē.
+- Dokumenti Microsoft Azure Blob krātuvē netiek kopēti no vienas vides uz citu. Kā rezultātā visi pievienotie dokumenti un veidnes netiks kopētas un paliks avota vidē.
 
-- Nebūs pieejami visi lietotāji, izņemot administratora un citu iekšējo pakalpojumu lietotāju kontus. Tādējādi administrators var dzēst vai aptumšot datus, pirms citi lietotāji drīkst ienākt atpakaļ sistēmā.
+- Nebūs pieejami visi lietotāji, izņemot administratora un citu iekšējo pakalpojumu lietotāju kontus. Administrators var dzēst vai aptumšot datus, pirms citi lietotāji drīkst ienākt atpakaļ sistēmā.
 
 - Administratoram ir jāveic nepieciešamās konfigurācijas izmaiņas, piemēram, integrācijas galapunktu atkārtota pieslēgšana noteiktiem pakalpojumiem vai URL.
 
 ## <a name="copy-the-human-resources-database"></a>Human Resources datu bāzes kopēšana
 
-Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstieties Microsoft Power Platform administrēšanas centrā, lai kopētu savu PowerApps vidi.
+Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstieties Microsoft Power Platform administrēšanas centrā, lai kopētu savu Power Apps vidi.
 
 > [!WARNING]
 > Kopējot instanci, mērķa instancē datu bāze tiek dzēsta. Šī procesa laikā mērķa instance nav pieejama.
@@ -74,7 +76,7 @@ Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstietie
 
    ![[Atlasiet Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Atlasiet PowerApps vidi, kas jākopē, un pēc atlasiet **Kopēt**.
+6. Atlasiet Power Apps vidi, kas jākopē, un pēc atlasiet **Kopēt**.
 
 7. Kad kopēšanas process ir pabeigts, pierakstieties mērķa instancē un iespējojiet Common Data Service integrāciju. Papildinformāciju un instrukcijas skatiet [Common Data Service integrācijas konfigurēšana](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
@@ -98,7 +100,13 @@ Kopējot Human Resources instanci, tālāk minētie datu elementi netiek kopēti
 
 - Savienojuma virkne tabulā **PersonnelIntegrationConfiguration**
 
-Daži no šiem elementiem netiek kopēti, jo tie ir videi specifiski. Piemēram, ieraksti **BatchServerConfig** un **SysCorpNetPrinters**. Citi elementi netiek kopēti atbalsta biļešu apjoma dēļ. Piemēram, var tikt nosūtīti dublēti e-pasta ziņojumi, jo lietotāja pieņemšanas testēšanas (smilškastes) vidē joprojām ir iespējots SMTP; var tikt nosūtīti nederīgi integrācijas ziņojumi, jo aizvien ir iespējoti pakešuzdevumi, un lietotāji var būt iespējoti pirms administratori var veikt pēcatsvaidzināšanas dzēšanas darbības.
+Daži no šiem elementiem netiek kopēti, jo tie ir videi specifiski. Piemēram, ieraksti **BatchServerConfig** un **SysCorpNetPrinters**. Citi elementi netiek kopēti atbalsta biļešu apjoma dēļ. Piemēram:
+
+- E-pasta kopijas var tikt nosūtītas, jo SMTP joprojām ir iespējots lietotāja pieņemšanas testēšanas (smilškastes) vidē.
+
+- Nederīgi integrācijas ziņojumi var tikt nosūtīti, jo pakešuzdevumi joprojām ir iespējoti.
+
+- Lietotāji var būt iespējoti, pirms administratori var veikt pēcatsvaidzināšanas tīrīšanas darbības.
 
 Turklāt, kopējot instanci, mainās tālāk minētie statusi.
 
@@ -111,3 +119,32 @@ Turklāt, kopējot instanci, mainās tālāk minētie statusi.
 Visi mērķa smilškastes vides lietotāji, ieskaitot administratorus, tiek aizstāti ar avota vides lietotājiem. Pirms instances kopēšanas, pārliecinieties, ka esat administrators avota vidē. Ja neesat, nevarēsiet pierakstīties mērķa smilškastes vidē pēc tam, kad kopēšana tiks pabeigta.
 
 Visi lietotāji, kuri nav administratori, ir atspējoti mērķa smilškastes vidē, lai novērstu neatļautu pierakstīšanos smilškastes vidē. Ja, nepieciešams, administratori var no jauna iespējot lietotājus.
+
+## <a name="apply-custom-fields-to-common-data-service"></a>Lietot pielāgotus laukus Common Data Service
+
+Ja nokopējat instanci savā smilškastes vidē un vēlaties integrēt smilškastes vidi ar Common Data Service, ir atkārtoti jāizmanto pielāgoti lauki Common Data Service vienībām.
+
+Katram pielāgotajam laukam, kas ir pakļauts Common Data Service vienībām, veiciet šādas darbības:
+
+1. Dodieties uz pielāgoto lauku un atlasiet **Rediģēt**.
+
+2. Noņemiet opciju **Iespējots** lauks katrai cdm_* entītijai, kurai ir iespējots pielāgots lauks.
+
+3. Atlasiet **Lietot izmaiņas**.
+
+4. Vēlreiz atlasiet **Rediģēt**.
+
+5. Atlasiet opciju **Iespējots** lauks katrai cdm_* entītijai, kurai ir iespējots pielāgots lauks.
+
+6. Vēlreiz atlasiet **Lietot izmaiņas**.
+
+Noņemšana, izmaiņu lietošana, atkārtota atlase un atkārtota izmaiņu veikšana pieprasa atjaunināt shēmu Common Data Service, lai iekļautu pielāgotos laukus.
+
+Plašāku informāciju par pielāgotajiem laukiem, skatiet rakstā [Darbs ar pielāgotiem laukiem un to izveide](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+
+## <a name="see-also"></a>Skatiet arī
+
+[Human Resources nodrošināšana](hr-admin-setup-provision.md)</br>
+[Noņemt instanci](hr-admin-setup-remove-instance.md)</br>
+[Procesa atjaunināšana](hr-admin-setup-update-process.md)
+

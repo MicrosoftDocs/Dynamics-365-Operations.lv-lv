@@ -3,7 +3,7 @@ title: VALUEIN ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota VALUEIN elektroniskā pārskata (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041703"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705123"
 ---
-# <a name="VALUEIN">VALUEIN ER funkcija</a>
+# <a name=""></a><a name="VALUEIN">VALUEIN ER funkcija</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Iegūtā *Būla* vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Parasti funkcija `VALUEIN` tiek tulkota uz **OR** nosacījumu kopu.
+Parasti funkcija `VALUEIN` tiek tulkota uz **OR** nosacījumu kopu. Ja **OR** nosacījumu saraksts ir liels un var tikt pārsniegts maksimālais kopējais SQL priekšraksta garums, apsveriet iespēju izmantot funkciju [`VALUEINLARGE`](er-functions-logical-valueinlarge.md).
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ Ja tiek izsaukts datu avots, ja tas ir konfigurēts kā `VALUEIN ("B", List, LEF
 
 Šāda nosacījuma tekstā rakstzīmju skaita augšējā robežvērtība ir 32 768 rakstzīmes. Tādēļ nevajadzētu veidot datu avotus, kas izpildlaikā varētu pārsniegt šo ierobežojumu. Ja ierobežojums tiek pārsniegts, programmas darbība tiek pārtraukta un tiek parādīts izņēmums. Piemēram, šāda situācija var rasties, ja datu avots ir konfigurēts kā `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` un sarakstā **List1** un **List2** ir daudz ierakstu.
 
-Noteiktos gadījumos funkcija `VALUEIN` tiek tulkota uz datu bāzes priekšrakstu, izmantojot operatoru `EXISTS JOIN`. Šāda uzvedība it spēkā, kad tiek izmantota funkcija [FILTER](er-functions-list-filter.md) un tiek ievēroti šādi nosacījumi:
+Noteiktos gadījumos funkcija `VALUEIN` tiek tulkota uz datu bāzes priekšrakstu, izmantojot operatoru `EXISTS JOIN`. Šāda uzvedība it spēkā, kad tiek izmantota funkcija [`FILTER`](er-functions-list-filter.md) un tiek ievēroti šādi nosacījumi:
 
 - Opcija **ASK FOR QUERY** ir izslēgta funkcijas `VALUEIN` datu avotam tādai funkcijai, kas atsaucas uz ierakstu sarakstu. Šim datu avotam izpildlaikā netiks lietoti nekādi papildu nosacījumi.
 - Funkcijas `VALUEIN` datu avotam tādai funkcijai, kas atsaucas uz ierakstu sarakstu, nav konfigurētas ligzdotās izteiksmes.
 - Funkcijas `VALUEIN` saraksta elements atsaucas uz kādu norādītā datu avota lauku, nevis izteiksmi vai metodi.
 
-Apsveriet iespēju izmantot šo opciju, nevis funkciju [WHERE](er-functions-list-where.md), kā iepriekš aprakstīts šajā piemērā.
+Apsveriet iespēju izmantot šo opciju, nevis funkciju [`WHERE`](er-functions-list-where.md), kā iepriekš aprakstīts šajā piemērā.
 
 ## <a name="example-2"></a>2. piemērs
 
@@ -117,4 +117,6 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Loģiskas funkcijas](er-functions-category-logical.md)
+[Loģiskās funkcijas](er-functions-category-logical.md)
+
+[VALUEINLARGE funkcijas](er-functions-logical-valueinlarge.md)

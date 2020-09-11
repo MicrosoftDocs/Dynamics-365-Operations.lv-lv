@@ -3,7 +3,7 @@ title: Uzņēmuma koncepts Common Data Service
 description: Šajā tēmā aprakstīta uzņēmuma datu integrācija starp programmām Finance and Operations un Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172904"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728417"
 ---
 # <a name="company-concept-in-common-data-service"></a>Uzņēmuma koncepts Common Data Service
 
@@ -72,3 +72,32 @@ Common Data Service integrācija rada uzņēmuma paritāti, izmantojot uzņēmum
 + Pēc tam, kad uzņēmums ir pievienots un saglabāts, ierakstiem vērtība kļūst tikai lasāma. Tādēļ lietotājiem jāpārliecinās, ka tie atlasa pareizo uzņēmumu.
 + Tikai ieraksti, kuriem ir uzņēmuma dati, ir tiesīgi uz duālajiem ierakstiem starp programmu un Common Data Service.
 + Esošajiem Common Data Service datiem drīzumā būs pieejama administratora vadītas sāknēšanas pieredze.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Automātiski pievienot uzņēmuma nosaukumu klientu iesaistīšanās lietojumprogrammās
+
+Ir vairāki veidi, kā automātiski aizpildīt uzņēmuma nosaukumu klientu iesaistīšanās lietojumprogrammās.
+
++ Ja esat sistēmas administrators, varat iestatīt noklusējuma uzņēmumu, pārvietojoties uz **Papildu iestatījumi > Sistēma > Drošība > Lietotāji**. Atveriet **Lietotāja** veidlapu un sadaļā **Organizācijas informācija** iestatiet vērtību **Uzņēmuma noklusējums veidlapās**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Iestatiet noklusējuma uzņēmumu Organizācijas informācijas sadaļā.":::
+
++ Ja jums ir **Rakstīšanas** piekļuve **SystemUser** vienībai **Biznesa struktūrvienības** līmenī, varat mainīt noklusējuma uzņēmumu jebkurā veidlapā, atlasot uzņēmumu no **Uzņēmumu** nolaižamās izvēlnes.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Uzņēmuma nosaukuma maiņa jaunā kontā.":::
+
++ Ja jums ir **Rakstīšanas** piekļuve datiem vairāk nekā vienā uzņēmumā, varat mainīt noklusējuma uzņēmumu, izvēloties ierakstu, kas pieder citam uzņēmumam.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Izvēloties ierakstu, mainās noklusējuma uzņēmums.":::
+
++ Ja esat sistēmas konfigurētājs vai administrators un vēlaties automātiski aizpildīt uzņēmuma datus pielāgotā veidlapā, varat izmantot [veidlapas notikumus](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Pievienojiet JavaScript atsauci **msdyn_/DefaultCompany.js** un izmantojiet tālāk norādītos notikumus. Jūs varat izmantot jebkuru veidlapu, piemēram, **Konta** veidlapu.
+
+    + **OnLoad** notikumu veidlapai: iestatiet **defaultCompany** lauku.
+    + **OnChange** notikums **Uzņēmuma** laukam: iestatiet **updateDefaultCompany** lauku.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Lietot filtrēšanu, pamatojoties uz uzņēmuma kontekstu
+
+Lai lietotu filtrēšanu, pamatojoties uz uzņēmuma kontekstu pielāgotās veidlapās vai pielāgotajos uzmeklēšanas laukos, kas pievienoti standarta veidlapām, atveriet veidlapu un izmantojiet **Saistīto ierakstu filtrēšanas** sadaļu, lai pielietotu uzņēmuma filtru. Tas ir jāiestata katram uzmeklēšanas laukam, kam ir nepieciešama filtrēšana, pamatojoties uz norādītajam uzņēmumam atbilstošo ierakstu. Šis iestatījums tiek parādīts **Kontam** sekojošajā ilustrācijā.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Lietot uzņēmuma kontekstu":::
+

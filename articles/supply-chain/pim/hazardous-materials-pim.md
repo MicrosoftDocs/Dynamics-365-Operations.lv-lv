@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208469"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699540"
 ---
 # <a name="hazardous-materials"></a>Bīstamie materiāli
 
@@ -35,7 +35,7 @@ Informācija par bīstamiem materiāliem ir iestatīta modulī Preču informāci
 Kad nosūtāt materiālus, kas klasificēti kā bīstamas preces, sūtījumam jāpievieno papildu dokumenti. Bīstamo materiālu funkcionalitāte ļauj klientiem uzglabāt klasifikācijas informāciju un saistīt to ar izlaistajiem krājumiem. Šo informāciju var izmantot, lai palīdzētu sagatavot nosūtīšanas dokumentus.
 
 > [!IMPORTANT]
-> Lai palīdzētu pārvaldīt bīstamu preču sūtījumus, Microsoft Dynamics 365 Supply Chain Management ļauj iestatīt papildu atsauces informāciju, kas ir saistīta ar precēm. Varat arī iestatīt papildu nosūtīšanas dokumentus. Tomēr, sistēma nav automātiski atbilstoša jūsu valsts vai reģiona noteikumiem. Tā ir rīks, kas var palīdzēt vispārējai programmai.
+> Microsoft Dynamics 365 Supply Chain Management norādītie bīstamie materiālu līdzekļi sniedz noderīgus preces informācijas laukus un saistīto funkcionalitāti, kas var palīdzēt reģistrēt un saistīt informāciju, kas saistīta ar jūsu bīstamajām precēm. Šos līdzekļus var arī izmantot, lai izstrādātu un izdrukātu nosūtīšanas dokumentus, kas ietver daļu no tās pašas informācijas par visiem bīstamajiem materiāliem, ko sūtāt. Tomēr sistēma automātiski neliks jums ievērot visus piemērojamos noteikumus jūsu valstī vai reģionā. Lai gan šie rīki ir paredzēti, lai palīdzētu jums ievērot kopīgos noteikumus, tie nav ne pietiekami, ne arī garantē to. Jūsu organizācija ir atbildīga par visu piemērojamo noteikumu pārzināšanu un visu nepieciešamo darbību veikšanu, lai tās izpildītu.
 
 Lai varētu lietot šo funkcionalitāti, nepieciešams tālak norādītais iestatījums.
 
