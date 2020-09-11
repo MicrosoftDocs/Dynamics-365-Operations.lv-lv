@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b305abc2fc6b5a102fd6d631dd057a468d709a28
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
+ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429386"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3741391"
 ---
-# <a name="process-life-event-eligibility"></a><span data-ttu-id="23166-103">Dzīves notikumu piemērotības apstrāde</span><span class="sxs-lookup"><span data-stu-id="23166-103">Process life event eligibility</span></span>
+# <a name="process-life-event-eligibility"></a><span data-ttu-id="14d60-103">Dzīves notikumu piemērotības apstrāde</span><span class="sxs-lookup"><span data-stu-id="14d60-103">Process life event eligibility</span></span>
 
-<span data-ttu-id="23166-104">Šajā rakstā ir parādīts, kā izpildīt dzīves notikumu piemērotības apstrādi.</span><span class="sxs-lookup"><span data-stu-id="23166-104">This article shows you how to run the process for life event eligibility.</span></span>
+<span data-ttu-id="14d60-104">Šajā rakstā ir parādīts, kā izpildīt dzīves notikumu piemērotības apstrādi.</span><span class="sxs-lookup"><span data-stu-id="14d60-104">This article shows you how to run the process for life event eligibility.</span></span>
 
-1. <span data-ttu-id="23166-105">Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Dzīves notikumu piemērotības apstrāde**.</span><span class="sxs-lookup"><span data-stu-id="23166-105">In the **Benefits management** workspace, under **Processing**, select **Life event eligibility processing**.</span></span>
+1. <span data-ttu-id="14d60-105">Darbvietā **Atvieglojumu pārvaldība** sadaļā **Apstrāde** atlasiet **Dzīves notikumu piemērotības apstrāde**.</span><span class="sxs-lookup"><span data-stu-id="14d60-105">In the **Benefits management** workspace, under **Processing**, select **Life event eligibility processing**.</span></span>
 
-2. <span data-ttu-id="23166-106">Dialoglodziņā **Izpildīt dzīves notikumu piemērotības apstrādi** norādiet vērtības tālāk minētajiem laukiem.</span><span class="sxs-lookup"><span data-stu-id="23166-106">In the **Run life event eligibility process** dialog box, specify values for the following fields:</span></span>
+2. <span data-ttu-id="14d60-106">Dialoglodziņā **Izpildīt dzīves notikumu piemērotības apstrādi** norādiet vērtības tālāk minētajiem laukiem.</span><span class="sxs-lookup"><span data-stu-id="14d60-106">In the **Run life event eligibility process** dialog box, specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="23166-107">Lauks</span><span class="sxs-lookup"><span data-stu-id="23166-107">Field</span></span> | <span data-ttu-id="23166-108">Apraksts</span><span class="sxs-lookup"><span data-stu-id="23166-108">Description</span></span> |
+   | <span data-ttu-id="14d60-107">Lauks</span><span class="sxs-lookup"><span data-stu-id="14d60-107">Field</span></span> | <span data-ttu-id="14d60-108">Apraksts</span><span class="sxs-lookup"><span data-stu-id="14d60-108">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="23166-109">**Reģistrācijas periods**</span><span class="sxs-lookup"><span data-stu-id="23166-109">**Enrollment period**</span></span> | <span data-ttu-id="23166-110">Reģistrācijas periods, kuram apstrādāt dzīves notikumu piemērotību.</span><span class="sxs-lookup"><span data-stu-id="23166-110">The enrollment period to process life event eligibility for.</span></span> |
+   | <span data-ttu-id="14d60-109">**Reģistrācijas periods**</span><span class="sxs-lookup"><span data-stu-id="14d60-109">**Enrollment period**</span></span> | <span data-ttu-id="14d60-110">Reģistrācijas periods, kuram apstrādāt dzīves notikumu piemērotību.</span><span class="sxs-lookup"><span data-stu-id="14d60-110">The enrollment period to process life event eligibility for.</span></span> |
 
-3. <span data-ttu-id="23166-111">Ja vēlaties izpildīt apstrādi fonā, atlasiet **Izpildīt fonā** un veiciet tālāk minētos uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="23166-111">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="14d60-111">Ja vēlaties izpildīt apstrādi fonā, atlasiet **Izpildīt fonā** un veiciet tālāk minētos uzdevumus.</span><span class="sxs-lookup"><span data-stu-id="14d60-111">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="23166-112">Ievadiet informāciju apstrādei.</span><span class="sxs-lookup"><span data-stu-id="23166-112">Enter information for the process.</span></span>
+   1. <span data-ttu-id="14d60-112">Ievadiet informāciju apstrādei.</span><span class="sxs-lookup"><span data-stu-id="14d60-112">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="23166-113">Lai iestatītu periodisku darbu, atlasiet **Periodiskums**, ievadiet periodiskuma informāciju un atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="23166-113">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="14d60-113">Lai iestatītu periodisku darbu, atlasiet **Periodiskums**, ievadiet periodiskuma informāciju un atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="14d60-113">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="23166-114">Lai iestatītu darba brīdinājumu, atlasiet **Brīdinājumi**, atlasiet saņemamos brīdinājumus un pēc tam atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="23166-114">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="14d60-114">Lai iestatītu darba brīdinājumu, atlasiet **Brīdinājumi**, atlasiet saņemamos brīdinājumus un pēc tam atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="14d60-114">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="23166-115">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="23166-115">Select **OK**.</span></span> <span data-ttu-id="23166-116">Apstrāde tiks izpildīta ar iestatītajiem parametriem.</span><span class="sxs-lookup"><span data-stu-id="23166-116">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="14d60-115">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="14d60-115">Select **OK**.</span></span> <span data-ttu-id="14d60-116">Apstrāde tiks izpildīta ar iestatītajiem parametriem.</span><span class="sxs-lookup"><span data-stu-id="14d60-116">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="23166-117">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="23166-117">Select **OK**.</span></span>
+4. <span data-ttu-id="14d60-117">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="14d60-117">Select **OK**.</span></span>

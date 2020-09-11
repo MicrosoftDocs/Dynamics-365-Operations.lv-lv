@@ -1,9 +1,9 @@
 ---
 title: Atvaļinājuma iegāde un pārdošana
-description: Varat iesniegt pieprasījumus pirkt un pārdot atvaļinājumu.
+description: Programmā Dynamics 365 Human Resources varat iesniegt pieprasījumus pirkt un pārdot atvaļinājumu, pamatojoties uz pirkšanas un pārdošanas atvaļinājumu politikām, ko iestatījis uzņēmums.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,30 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429685"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711822"
 ---
-# <a name="buy-and-sell-leave"></a><span data-ttu-id="e7abd-103">Atvaļinājuma iegāde un pārdošana</span><span class="sxs-lookup"><span data-stu-id="e7abd-103">Buy and sell leave</span></span>
+# <a name="buy-and-sell-leave"></a><span data-ttu-id="3bf5c-103">Atvaļinājuma iegāde un pārdošana</span><span class="sxs-lookup"><span data-stu-id="3bf5c-103">Buy and sell leave</span></span>
 
-[!include [banner](includes/preview-feature.md)]
+<span data-ttu-id="3bf5c-104">Programmā Dynamics 365 Human Resources varat iesniegt pieprasījumus pirkt un pārdot atvaļinājumu, pamatojoties uz pirkšanas un pārdošanas atvaļinājumu politikām, ko iestatījis uzņēmums.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-104">In Dynamics 365 Human Resources, you can submit requests to buy and sell leave based on the buy and sell leave policies set up by your company.</span></span>  
 
-<span data-ttu-id="e7abd-104">Varat iesniegt pieprasījumus pirkt atvaļinājumu.</span><span class="sxs-lookup"><span data-stu-id="e7abd-104">You can submit requests to buy leave.</span></span>  
+## <a name="request-to-buy-leave"></a><span data-ttu-id="3bf5c-105">Pieprasījums pirkt atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="3bf5c-105">Request to buy leave</span></span>
 
-## <a name="request-to-buy-leave"></a><span data-ttu-id="e7abd-105">Pieprasījums pirkt atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="e7abd-105">Request to buy leave</span></span>
+1. <span data-ttu-id="3bf5c-106">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Atvaļinājuma pirkšanas pieprasījums** rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-106">In the **Employee self service** workspace, select **Buy leave request** in the **Time Off Balances** tile.</span></span> 
 
-1. <span data-ttu-id="e7abd-106">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Atvaļinājuma pirkšanas pieprasījums** rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="e7abd-106">In the **Employee self service** workspace, select **Buy leave request** in the **Time Off Balances** tile.</span></span> 
+2. <span data-ttu-id="3bf5c-107">Pievienojiet **Atvaļinājuma veids** un ievadiet **Summu** summu par atvaļinājumu, kuru vēlaties pirkt.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-107">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to buy.</span></span> 
 
-2. <span data-ttu-id="e7abd-107">Pievienojiet **Atvaļinājuma veids** un ievadiet **Summu** summu par atvaļinājumu, kuru vēlaties pirkt.</span><span class="sxs-lookup"><span data-stu-id="e7abd-107">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to buy.</span></span> 
+3. <span data-ttu-id="3bf5c-108">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-108">Select **Submit** when you're ready to submit your request.</span></span> 
 
-3. <span data-ttu-id="e7abd-108">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="e7abd-108">Select **Submit** when you're ready to submit your request.</span></span> 
+<span data-ttu-id="3bf5c-109">Jūsu atlikumi tiks automātiski atjaunināti vai pirms atjaunināšanas tiks veikti apstiprināšanas procesi.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-109">Your balances will either automatically update or go through an approval process before updating.</span></span> <span data-ttu-id="3bf5c-110">Tas ir atkarīgs no tā, kā pirkšanas politika ir konfigurēta.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-110">This depends on how the buy policy has been configured.</span></span>
 
-<span data-ttu-id="e7abd-109">Kad pieprasījums ir iesniegts, jūsu bilances tiks automātiski atjauninātas ar jūsu pieprasītā atvaļinājuma summu.</span><span class="sxs-lookup"><span data-stu-id="e7abd-109">Once the request is submitted, your balances will automatically be updated with the amount of leave you requested to buy.</span></span> 
+## <a name="request-to-sell-leave"></a><span data-ttu-id="3bf5c-111">Pieprasījums pārdot atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="3bf5c-111">Request to sell leave</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e7abd-110">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="e7abd-110">See also</span></span>
+1. <span data-ttu-id="3bf5c-112">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Atvaļinājuma pārdošanas pieprasījums** rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-112">In the **Employee self service** workspace, select **Sell leave request** in the **Time Off Balances** tile.</span></span> 
 
-[<span data-ttu-id="e7abd-111">Atvaļinājumu un kavējumu apskats</span><span class="sxs-lookup"><span data-stu-id="e7abd-111">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)</br>
-[<span data-ttu-id="e7abd-112">Pārvaldīt atvaļinājuma pirkšanas un pārdošanas politikas</span><span class="sxs-lookup"><span data-stu-id="e7abd-112">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+2. <span data-ttu-id="3bf5c-113">Pievienojiet **Atvaļinājuma veids** un ievadiet **Summu** summu par atvaļinājumu, kuru vēlaties pārdot.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-113">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to sell.</span></span> 
+
+3. <span data-ttu-id="3bf5c-114">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-114">Select **Submit** when you're ready to submit your request.</span></span>
+
+<span data-ttu-id="3bf5c-115">Jūsu atlikumi tiks automātiski atjaunināti vai pirms atjaunināšanas tiks veikti apstiprināšanas procesi.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-115">Your balances will either automatically update or go through an approval process before updating.</span></span> <span data-ttu-id="3bf5c-116">Tas ir atkarīgs no tā, kā pirkšanas politika ir konfigurēta.</span><span class="sxs-lookup"><span data-stu-id="3bf5c-116">This depends on how the buy policy has been configured.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="3bf5c-117">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="3bf5c-117">See also</span></span>
+
+[<span data-ttu-id="3bf5c-118">Atvaļinājumu un kavējumu apskats</span><span class="sxs-lookup"><span data-stu-id="3bf5c-118">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)</br>
+[<span data-ttu-id="3bf5c-119">Atvaļinājuma iegādes un pārdošanas politiku pārvaldība</span><span class="sxs-lookup"><span data-stu-id="3bf5c-119">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
