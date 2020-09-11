@@ -1,6 +1,6 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 23. jūlijs)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources.
+description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 23. jūliju.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd71ab5c48be1bec5ce2272bbff37ab10a4aed67
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: 30662ccf7e37f7f1e131e3b18b5a770c53fea0d1
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614414"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711872"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 23. jūlijs)
 
@@ -68,7 +68,7 @@ Dažas organizācijas sniedz atvieglojumus, kas ļauj darbiniekiem pirkt vai pā
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Atstāt uzkrājumu vienam uzņēmumam vai atsevišķam plānam
 
-Debitori var apstrādāt uzkrājumus vienam uzņēmumam vai atsevišķam atvaļinājumu un prombūtnes plānam. Šī iespēja nodrošina skaidrību uzkrāšanas procesā debitoriem ar dažādiem atvaļinājumu gadiem vai atvaļinājumu uzkrāšanas politikām. Lai iegūtu papildu informāciju, skatiet [Uzkrāt atvaļinājumu pēc uzņēmuma vai atvaļinājuma plāna](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Debitori var apstrādāt uzkrājumus vienam uzņēmumam vai atsevišķam atvaļinājumu un prombūtnes plānam. Šī iespēja nodrošina skaidrību uzkrāšanas procesā debitoriem ar dažādiem atvaļinājumu gadiem vai atvaļinājumu uzkrāšanas politikām. Lai iegūtu papildu informāciju, skatiet [Uzkrāt atvaļinājumu pēc uzņēmuma vai atvaļinājuma plāna](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Pielikumu pievienošana brīvā laika pieprasījumiem
 

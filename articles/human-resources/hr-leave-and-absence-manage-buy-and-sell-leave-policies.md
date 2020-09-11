@@ -3,7 +3,7 @@ title: Pārvaldīt atvaļinājuma pirkšanas un pārdošanas politikas
 description: Varat ļaut darbiniekiem pirkt un pārdot atvaļinājumu Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429017"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712119"
 ---
-# <a name="manage-buy-and-sell-leave-policies"></a>Pārvaldīt atvaļinājuma pirkšanas un pārdošanas politikas
+# <a name="manage-buy-and-sell-leave-policies"></a>Atvaļinājuma iegādes un pārdošanas politiku pārvaldība
 
-[!include [banner](includes/preview-feature.md)]
-
-Varat nodrošināt, ka darbinieki var nopirkt atvaļinājumu, izveidojot atvaļinājuma pirkšanas politiku.  
+Varat nodrošināt, ka darbinieki var nopirkt un pārdot atvaļinājumu, izveidojot atvaļinājuma pirkšanas un pārdošanas politiku. Šīs politikas var konfigurēt, lai izmantotu darbplūsmu apstiprinājumiem, iestatīt maksimālās summas un likmes un iestatīt likmes pirkšanai un pārdošanai. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Ļaujiet darbiniekiem pirkt un pārdot atvaļinājumu
 
-1. Lapā **Atvaļinājumu un prombūtnes parametri** atlasiet **Jā** opcijai **Ļaut darbiniekiem pirkt atvaļinājumu**. 
+1. Lapā **Atvaļinājumu un prombūtnes parametri** atlasiet **Jā** opcijai **Ļaut darbiniekiem pirkt atvaļinājumu** un **Ļaut darbiniekiem pārdot atvaļinājumu**.
 
-## <a name="create-a-buy-leave-policy"></a>Atvaļinājuma pirkšanas izveide
+## <a name="create-a-buy-and-sell-leave-policy"></a>Atvaļinājuma iegādes un pārdošanas politikas izveide
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**. 
 
@@ -51,19 +49,23 @@ Varat nodrošināt, ka darbinieki var nopirkt atvaļinājumu, izveidojot atvaļi
 
 6. Atlasiet politikai **Sākuma datums** and **Beigu datums**. Pieprasījumi pirkt vai pārdot atvaļinājumu būs pieejami iesniegšanai tikai šajā laika posmā. 
 
-7. Sadaļā **Pirkšanas politika** atlasiet **Pilna laika ekvivalents** (FTE), lai proporcionāli pārvērtētu maksimālo summu, pamatojoties uz darbinieka amatā noteikto FTE. Ja politikas veids ir **Summa**, ievadiet **Maksimālā fiksētā summa**. 
+7. Atlasiet **Darbplūsmas ID** politikai. Visi pirkšanas un pārdošanas pieprasījumi izmantos šo darbplūsmu pārskatīšanai un apstiprināšanai. 
 
-8. Atlasiet **Pievienot**, lai pievienotu atvaļinājuma veidus darbiniekiem, kuri iegādājas atvaļinājumu. Politikai var pievienot vairākus atvaļinājuma veidus. 
+8. Sadaļā **Pirkšanas politika** atlasiet **Pilna laika ekvivalents** (FTE), lai proporcionāli pārvērtētu maksimālo summu, pamatojoties uz darbinieka amatā noteikto FTE. Ja politikas veids ir **Summa**, ievadiet **Maksimālā fiksētā summa**. 
 
-9. Lai noteiktu maksimālo summu, ko darbinieks var nopirkt, ievadiet **Nodarbinātības mēnešu skaits** atvaļinājuma veidu, kas ļauj definēt dažādu nodarbinātības mēnešu skaitu. 
+9. Atlasiet **Pievienot**, lai pievienotu atvaļinājuma veidus darbiniekiem, kuri iegādājas atvaļinājumu. Politikai var pievienot vairākus atvaļinājuma veidus. 
 
-10. Ievadiet **Maksimālā summa** atvaļinājuma veidam. 
+10. Lai noteiktu maksimālo summu, ko darbinieks var nopirkt, ievadiet **Nodarbinātības mēnešu skaits** atvaļinājuma veidu, kas ļauj definēt dažādu nodarbinātības mēnešu skaitu. 
 
-11. Ievadiet **Kurss**, pie kāda darbinieks nopirks atvaļinājumu. 
+11. Ievadiet **Maksimālā summa** atvaļinājuma veidam. 
 
-12. Pēc izvēles ievadiet **Pelnīšanas kods**, kas jāizmanto atvaļinājuma pirkšanai. 
+12. Ievadiet **Kurss**, pie kāda darbinieks nopirks atvaļinājumu. 
 
-13. Pēc izvēles iestatiet, vai lietot FTE, lai noteiktu atvaļinājuma veida maksimālo summu. 
+13. Pēc izvēles ievadiet **Pelnīšanas kods**, kas jāizmanto atvaļinājuma pirkšanai. 
+
+14. Pēc izvēles iestatiet, vai lietot FTE, lai noteiktu atvaļinājuma veida maksimālo summu. 
+
+15. Lai izveidotu pārdošanas politiku, izpildiet no 8. līdz 14. solim sadaļā **Pārdošanas politika**. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Atvaļinājuma pirkšanas un pārdošanas politikas pievienošana atvaļinājuma un prombūtnes plānam
 

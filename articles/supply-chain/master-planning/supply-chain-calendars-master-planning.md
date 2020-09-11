@@ -3,7 +3,7 @@ title: Kalendāri un vispārējā plānošana
 description: Šajā tēmā ir sniegts pārskats par piegādes ķēdes kalendāriem un to, kā tie ietekmē vispārējo plānošanu.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213496"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710337"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendāri un vispārējā plānošana
 
@@ -105,28 +105,28 @@ Pasūtījuma datums plānotajā pirkšanas pasūtījumā norāda datumu, kad vei
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Piegādes datums plānotajam pirkšanas pasūtījumam
 Pirkuma saņemšanas datums norāda datumu, kad saņemsit preces. Tas būs atvērts datums kalendārā. Tālāk ir minēti kalendāri (secībā no augstākās līdz zemākajai prioritātei), kas tiks ņemti vērā, lai norādītu, kurās dienas var saņemt pirkšanas pasūtījumu: 
-    1. Kreditora kalendārs
-    2. Vajadzības grupas kalendārs
-    3. Noliktavas kalendārs saņēmējai noliktavai
+1. Kreditora kalendārs
+1. Vajadzības grupas kalendārs
+1. Noliktavas kalendārs saņēmējai noliktavai
 
 Ņemiet vērā, ka vajadzības grupas kalendāru var iestatīt dažādas lapās, un tiek ievērota šāda prioritāšu secība:
-    1. Krājumu vajadzības grupa lapā **Detalizēta informācija par izlaistajām precēm**
-    2. Krājumu vajadzības grupa lapā **Krājumu vajadzība**
-    3. Noklusējuma krājumu vajadzības grupa sadaļā **Vispārējās plānošanas parametri**
+1. Krājumu vajadzības grupa lapā **Krājumu vajadzība**
+1. Krājumu vajadzības grupa lapā **Detalizēta informācija par izlaistajām precēm**
+1. Noklusējuma krājumu vajadzības grupa sadaļā **Vispārējās plānošanas parametri**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Nosūtīšanas datums plānotajam pārsūtīšanas pasūtījumam
 Veidojot pārsūtīšanas pasūtījumu no vienas noliktavas uz otru, nosūtīšanas datums un saņemšanas datums ir iekļauts pārsūtīšanas pasūtījuma galvenē kopā ar noliktavu “No” un noliktavu “Uz”. Starpība starp šiem diviem datumiem ir paredzamais transportēšanas laiks (dienās) starp noliktavām.
 
 Nosūtīšanas datums plānotajam pārsūtīšanas pasūtījumam norāda datumu, kurā preces tiek nosūtītas no noliktavas “No”. Kalendāri, kurus izmanto, lai norādītu pieejamo nosūtīšanas datumu, ir minēti tālāk pēc prioritātes: 
-    1. Noliktavas kalendārā noliktavai “No”
-    2. Vajadzības grupas kalendārs (regresa secību šim kalendāram skatiet iepriekš) Ja ir iestatīts noliktavas kalendārs, nosūtīšanas datums būs atvērts datums kalendārā. Ja nav iestatīts noliktavas kalendārs, tiks izmantots vajadzības grupas kalendārs. 
+1. Noliktavas kalendārā noliktavai “No”
+1. Vajadzības grupas kalendārs (regresa secību šim kalendāram skatiet iepriekš) Ja ir iestatīts noliktavas kalendārs, nosūtīšanas datums būs atvērts datums kalendārā. Ja nav iestatīts noliktavas kalendārs, tiks izmantots vajadzības grupas kalendārs. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Saņemšanas datums plānotajam pārsūtīšanas pasūtījumam
 Saņemšanas datums pārsūtīšanas pasūtījumam norāda datumu, kurā preces tiek saņemtas noliktavā “Uz”.
 
 Kalendāri, kurus izmanto, lai norādītu saņemšanas datumu, ir minēti tālāk pēc prioritātes: 
-    1. Vajadzības grupas kalendārs 
-    2. Noliktavas kalendārs noliktavai “Uz” Ja ir iestatīts vajadzības kalendārs, saņemšanas datums būs atvērts datums kalendārā. Ja nav iestatīts vajadzības grupas kalendārs, tiks izmantots noliktavas kalendārs. 
+1. Vajadzības grupas kalendārs 
+1. Noliktavas kalendārs noliktavai “Uz” Ja ir iestatīts vajadzības kalendārs, saņemšanas datums būs atvērts datums kalendārā. Ja nav iestatīts vajadzības grupas kalendārs, tiks izmantots noliktavas kalendārs. 
 
 Meklējot nosūtīšanas un saņemšanas datumus plānotajai pārsūtīšanai, tiks ņemtas vērā arī rezerves, kuras noteicis lietotājs attiecībā uz nosūtīšanu un saņemšanu. 
 

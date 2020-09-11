@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699373"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710263"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Debitoru pasūtījumi Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ Tālāk ir aprakstīti daži no parametriem, ko var iestatīt lapā **Tirdzniec�
     - Maksas tiek lietotas pārdošanas pasūtījuma galvenes līmenī, un gadījumā, ja tiek atgriezts kāds daudzums no ražošanas rindas, maksimālo šīm precēm atļauto atmaksu par nosūtīšanas maksām un daudzumu nevar noteikt veidā, kas ir piemērots visiem debitoriem.
     - Nosūtīšanas maksas rodas katrai nosūtīšanas instancei. Ja debitors preces atgriež vairākas reizes, bet mazumtirgotāja politikā ir noteikts, ka atgriešanas nosūtīšanas izmaksas sedz mazumtirgotājs, tad nosūtīšanas maksas pārsniedz faktiskās nosūtīšanas maksas.
     
-- **Nodokļa aprēķina uzvedība** - **Pārrēķināt** ir noklusējuma un tradicionālais iestatījums nodokļu aprēķināšanai, kad pasūtījums tiek importēts atbalsta birojā. **Nepārrēķiniet** atceļ nodokļu pārrēķinu līdz brīdim, kad pasūtījums tiek rediģēts atbalsta birojā, kad tiek sākta pārrēķināšana. 
+
+## <a name="disable-option-to-pay-later"></a>Deaktivizēt opciju, lai maksātu vēlāk
+
+Commerce versijā 10.0.12 un jaunākās tirgotāji var noņemt opciju, lai maksātu vēlāk, kad tiek izveidots debitora pasūtījums POS. Lai atspējotu opciju, atveriet **Funkcionalitātes profilu** kanālam, kurā opcija apmaksāt vēlāk nav atļauta, un pēc tam atlasiet **Rediģēt**. Cilnē **Vispārīgi** atlasiet nolaižamo sarakstu, lai **Pieprasītu maksājuma izpildi**. Ja opcijai Apmaksāt vēlāk nav jābūt atļautai POS, izvēlieties opciju **Nepieciešama karte** un atlasiet **Saglabāt**. Palaidiet sadales grafiku **1070**, lai sinhronizētu izmaiņas ar kanālu. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Transakciju plūsma debitoru pasūtījumiem
 

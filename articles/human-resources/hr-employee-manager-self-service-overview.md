@@ -3,7 +3,7 @@ title: Darbinieka un vadītāja pašapkalpošanās apskats
 description: Šajā rakstā sniegts pārskats par darbinieku un vadītāju pašapkalpošanās darbvietu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429800"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712236"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbinieka un vadītāja pašapkalpošanās apskats
 
@@ -32,6 +32,25 @@ ms.locfileid: "3429800"
 ## <a name="edit-personal-details"></a>Rediģēt personas datus
 
 Ja ir jāpievieno vai jāmaina jebkāda personiskā informācija, skatiet sadaļu [Personiskās informācijas rediģēšana](hr-employee-manager-self-service-edit-personal-information.md)rediģēšana.
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Lietotājs nav piešķirts darbinieka ierakstam
+
+Ja neesat saistījis lietotāju ar **Darbinieka** ierakstu lapā **Lietotāji**, tiks parādīts šāds paziņojums:
+
+**Jūsu lietotāja ID nav saistīts ar darbinieka ierakstu sistēmā. Kamēr vienumi nav saistīti, nevarat skatīt vai atjaunināt savu informāciju. Sazinieties ar vadītāju vai atbalsta grupu, lai saņemtu palīdzību.**
+
+Lai saistītu lietotāju ar **Darbinieka** ierakstu, pārvietojieties uz **Lietotājiem** un atlasiet lietotāju. Atlasiet **Rediģēt**, pievienojiet atbilstošo darbinieku laukā **Persona** un atlasiet **Saglabāt**. Tagad jums ir piekļuve Darbinieku patstāvīgi izmantojamajam pakalpojumam.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Darbinieka un Pārvaldnieka patstāvīgi izmantojamā pakalpojuma drošības prasības
+
+Darbinieka un Pārvaldnieka patstāvīgi izmantojamais pakalpojums pieprasa divas drošības lomas:
+
+- Darbiniekiem ir nepieciešama Darbinieka loma.
+- Pārvaldniekiem ir nepieciešamas gan Darbinieka, gan Pārvaldnieka lomas.
+
+>[!NOTE]
+>Varat arī izmantot pielāgotas lomas, lai piekļūtu Darbinieka un Pārvaldnieka patstāvīgi izmantojamajam pakalpojumam, kamēr tām ir piešķirta piekļuve darbinieku un pārvaldnieka darbvietām.<br>
+>Pārvaldnieka piekļuve darbinieku informācijai ir balstīta uz pašreizējo pozīcijas rindas hierarhiju, kas definēta Personāla vadībā.
 
 ## <a name="employee-self-service"></a>Darbinieku patstāvīgi izmantojamais pakalpojums
 

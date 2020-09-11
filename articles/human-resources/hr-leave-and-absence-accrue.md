@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429063"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712172"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uzkrāt atvaļinājumu un kavējumu plānus
 
@@ -37,7 +37,9 @@ Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairāki
 
 3. Tiek atvērts dialoglodziņš **Uzkrāt atvaļinājumu un prombūtnes plānus**. Sadaļā **Uzkrāt no** atlasiet vai nu **Šodienas datumu**, vai nu **Pielāgotu datumu** un ievadiet pielāgotu datumu.
 
-4. Ja vēlaties palaist uzkrāšanas procesu fonā, atlasiet **Palaist fonā** un veiciet šādus uzdevumus:
+4. Ja vēlaties palaist uzkrājumus visiem uzņēmumiem, atlasiet **Visi uzņēmumi**. Ja vēlaties apstrādāt uzkrājumus vienam atvaļinājuma plānam, atlasiet **Nē** **Visiem plāniem** un pēc tam atlasiet **Atvaļinājumu plānu**. Atlasot visus uzņēmumus, nevar atlasīt atsevišķu atvaļinājumu plānu. 
+
+5. Ja vēlaties palaist uzkrāšanas procesu fonā, atlasiet **Palaist fonā** un veiciet šādus uzdevumus:
 
    1. Ievadiet informāciju par uzkrāšanas procesu.
 
@@ -55,7 +57,9 @@ Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairāki
 
 3. Tiek atvērts dialoglodziņš **Uzkrāt atvaļinājumu un prombūtnes plānus**. Sadaļā **Uzkrāt no** atlasiet vai nu **Šodienas datumu**, vai nu **Pielāgotu datumu** un ievadiet pielāgotu datumu.
 
-4. Ja vēlaties palaist uzkrāšanas procesu fonā, atlasiet **Palaist fonā** un veiciet šādus uzdevumus:
+4. Ja vēlaties palaist uzkrājumus visiem uzņēmumiem, atlasiet **Visi uzņēmumi**. Ja vēlaties apstrādāt uzkrājumus vienam atvaļinājuma plānam, atlasiet **Nē** **Visiem plāniem** un pēc tam atlasiet **Atvaļinājumu plānu**. Atlasot visus uzņēmumus, nevar atlasīt atsevišķu atvaļinājumu plānu. 
+
+5. Ja vēlaties palaist uzkrāšanas procesu fonā, atlasiet **Palaist fonā** un veiciet šādus uzdevumus:
 
    1. Ievadiet informāciju par uzkrāšanas procesu.
 
@@ -102,18 +106,6 @@ Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
 2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Dzēst atvaļinājumu uzkrājumu auditu**.
-
-## <a name="configure-preview-features"></a>Priekšskatījuma līdzekļu konfigurēšana
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Ja esat iespējojis priekšskatījuma līdzekļus atvaļinājumiem un prombūtnei, arī tiem ir jākonfigurē iestatījumi.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Atvaļinājuma uzkrāšana uzņēmumam vai atvaļinājuma plānam
-
-Uzkrājot atvaļinājumu un prombūtnes plānus, varat izvēlēties uzkrāt visiem uzņēmumiem. Izvēloties visus uzņēmumus, nevar atlasīt atsevišķus atvaļinājumu plānus. Ja izvēlaties neuzkrāt visiem uzņēmumiem, varat uzkrāt konkrētu atvaļinājuma plānu. 
-
-Šīs opcijas ir pieejamas, uzkrājot visiem darbiniekiem vai atsevišķiem darbiniekiem. 
 
 ## <a name="see-also"></a>Skatiet arī
 

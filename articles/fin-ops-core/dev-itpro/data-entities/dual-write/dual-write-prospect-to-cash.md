@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443899"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719268"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
@@ -79,7 +79,7 @@ Ja izmantojat arī Field Service risinājumu, noteikti atkārtoti iespējojiet *
 
 Pārdošanas pasūtījumus var izveidot programmā Sales vai Supply Chain Management. Ja veidojat pārdošanas pasūtījumu programmā Sales, tas tiek sinhronizēts ar programmu Supply Chain Management reāllaikā. Līdzīgā veidā, ja veidojat pārdošanas pasūtījumu programmā Supply Chain Management, tas tiek sinhronizēts ar programmu Sales reāllaikā. Ņemiet vērā šādus punktus:
 
-+ Varat aktivizēt un sinhronizēt pasūtījumus no programmas Sales tikai tad, ja visas preces pasūtījumā ir no Finance and Operations programmām. Tāpēc nevar izmantot ierakstāmos produktus.
++ Ierakstāmās preces Dynamics 365 Sales parādīsies kā preču kategorijas Dynamics 365 Supply Chain Management.
 + Atlaides aprēķināšana un noapaļošana:
 
     - Programmās Sales un Supply Chain Management tiek lietoti atšķirīgi atlaides aprēķināšanas modeļi. Programmā Supply Chain Management pārdošanas rindas beigu atlaides summa var tikt iegūta, kombinējot atlaižu summas un atlaižu procentus. Ja šī beigu atlaides summa tiek dalīta ar rinda norādīto daudzumu, rezultāts var tikt noapaļots. Taču šī noapaļošana netiek ņemta vērā, ja noapaļotā vienas vienības atlaides summa tiek sinhronizēta ar programmu Sales. Lai palīdzētu nodrošināt, ka pilnā atlaides summa no pārdošanas rindas programmā Supply Chain Management tiek pareizi sinhronizēta ar programmu Sales, ir jāsinhronizē pilna summa, to nedalot ar rindas daudzumu. Tāpēc programmā Sales ir jānorāda atlaides aprēķināšanas metode kā **Rindas vienums**.

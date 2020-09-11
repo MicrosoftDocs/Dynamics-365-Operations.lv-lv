@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658362"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719218"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Atvēlētie maksājumu termināļi un uzvednes printerim un skaidras naudas atvilknei
 
@@ -78,8 +78,8 @@ Lai iestatītu aparatūras profilu, kas piešķirts reģistram, veiciet tālāk 
 
     | Ierīce | tips | Ierīces nosaukums | Papildu informācija |
     |---|---|---|---|
-    | Printeris | Regress | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. **Kvīts profila ID** ir jābūt tādam pašam kā **Kvīts profila ID**, kas ir kartēts uz tīkla printeri, kurš ir iestatīts aparatūras profilā, kas piešķirts aparatūras stacijai kanāla līmenī. |
-    | Naudas kaste | Regress | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
+    | Printeris | Regress | *Jebkurš* | Ierīces nosaukums ir reģistrjutīgs. **Kvīts profila ID** ir jābūt tādam pašam kā **Kvīts profila ID**, kas ir kartēts uz tīkla printeri, kurš ir iestatīts aparatūras profilā, kas piešķirts aparatūras stacijai kanāla līmenī. |
+    | Naudas kaste | Regress | *Jebkurš* | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
     | EFT pakalpojums | Adyen | Nav attiecināms | Informāciju par to, ka iestatīt standarta Adyen savienotāju, skatiet [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Citus maksājumu savienotājus var atbalstīt, izmantojot [Commerce programmatūras izstrādes komplektu (SDK) maksājumiem](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | PIN bloks | Tīkls | **MicrosoftAdyenDeviceV001** | Nav. |
 
@@ -103,7 +103,7 @@ Lai iestatītu aparatūras profilu, kas tiek izmantots tīkla kvīšu printera u
     | Ierīce | tips | apraksts | Papildu informācija |
     |---|---|---|---|
     | Printeris | Tīkls | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. **Kvīts profila ID** ir jābūt tādam pašam kā **Kvīts profila ID**, kas ir kartēts uz printeri, kurš ir iestatīts aparatūras profilā, kas piešķirts reģistram. |
-    | Naudas kaste | Regress | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
+    | Naudas kaste | Tīkls | **Epson** vai **Star** | Ierīces nosaukums ir reģistrjutīgs. Iestatiet opciju **Lietot koplietoto maiņu** uz **Jā**. |
 
 5. Atlasiet **Saglabāt**.
 

@@ -3,7 +3,7 @@ title: ER funkciju saraksts loģikas kategorijā
 description: Šajā tēmā ir sniegta informācija par loģikas funkcijām, kas tiek atbalstītas elektronisko atskaišu veidošanā (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916641"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705099"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>ER funkciju saraksts loģikas kategorijā
 
@@ -41,6 +41,8 @@ Elektronisko pārskatu (ER) loģiskās funkcijas var izmantot, lai strādātu ar
 | [Ne](er-functions-logical-not.md)                       | Šī funkcija atgriež norādītā nosacījuma apgriezto loģisko vērtību kā *Būla* vērtību. |
 | [Vai](er-functions-logical-or.md)                         | Šī funkcija atgriež *Būla* vērtību **FALSE**, ja visi norādītie nosacījumi ir nepatiesi. Šī funkcija atgriež *Būla* vērtību **TRUE**, ja jebkurš norādītais nosacījums ir patiess. |
 | [ValueIn](er-functions-logical-valuein.md)               | Šī funkcija nosaka, vai norādītā ievade atbilst kāda norādītā saraksta norādītā elementa vērtībai. Tas atgriež *Būla* vērtību **TRUE**, ja norādītā ievade atbilst norādītās izteiksmes palaišanas rezultātam vismaz vienam norādītā saraksta ierakstam. Pretējā gadījumā tā atgriež *Būla* vērtību **FALSE**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Šī funkcija nosaka, vai norādītā *Int64* vai *Integer* tipa ievade atbilst kāda norādītā saraksta norādītā elementa vērtībai. Tas atgriež *Būla* vērtību **TRUE**, ja norādītā ievade atbilst norādītās izteiksmes palaišanas rezultātam vismaz vienam norādītā saraksta ierakstam. Pretējā gadījumā tā atgriež *Būla* vērtību **FALSE**. |
+
 
 ## <a name="additional-resources"></a>Papildu resursi
 

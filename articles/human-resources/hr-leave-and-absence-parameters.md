@@ -3,7 +3,7 @@ title: Atvaļinājumu un prombūtnes parametru konfigurēšana
 description: Definējiet cilvēkresursu parametrus atvaļinājumam un prombūtnei pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4d3b3e4b373631bed5e2d7e3c3a4e14f0c5c98
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428948"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712380"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atvaļinājumu un prombūtnes parametru konfigurēšana
 
@@ -46,8 +46,6 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
 
 5. Cilnē **Darbinieku patstāvīgi izmantojamie pakalpojumi** norādiet, vai vadītāji var ievadīt atvaļinājumu un kavējumu pieprasījumus savu darbinieku vārdā.
 
-6. Cilnē **Atvaļinājums un prombūtne** pārbaudiet FMLA iestatījumus un pēc nepieciešamības veiciet izmaiņas.
-
 7. Atlasiet **Saglabāt**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Skatīt un mainīt atvaļinājumu un prombūtnes parametrus
@@ -63,6 +61,10 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
     - Atlasiet **Darba mēnešu spēkā stāšanās datums**, lai iestatītu, kad uzkrāšanas likmes stājas spēkā atvaļinājumu plāniem, izmantojot darba mēnešus.
 
     - Atlasiet **Bilances aprēķinu**, lai parādītu bilances, kas tiek rādītas no šodienas vai no uzkrāšanas perioda. Ja atlasāt **Bilanci no šodienas**, bilance parāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no šodienas. Ja atlasāt **Bilance no uzkrāšanas perioda**, bilance rāda visu uzkrājumu, korekciju un pieprasījumu kopsummu no uzkrājumu perioda, kas definēts, izmantojot atvaļinājumu plāna biežumu. 
+
+    - Iestatiet sākuma laiku pārnestā termiņa beigu pakešuzdevumam.  
+    
+    - Atlasiet **Jā** opcijām **Atļaut darbiniekiem pirkt atvaļinājumu** un **Atļaut darbiniekiem pārdot atvaļinājumu**. Ja šīm opcijām atlasāt **Jā**, varat izveidot pirkšanas un pārdošanas atvaļinājuma politikas un dot iespēju darbiniekiem iesniegt pirkšanas un pārdošanas atvaļinājumu pieprasījumus.
 
 ## <a name="configure-calendar-parameters"></a>Konfigurējiet kalendāra parametrus
 

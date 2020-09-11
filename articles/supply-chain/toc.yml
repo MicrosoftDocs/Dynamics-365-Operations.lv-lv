@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sistēmas prasības lokālajiem izvietojumiem
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance + Operations (on-premises) iegāde
+                - name: Finance + Operations (lokāli) iegāde
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -158,11 +158,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pielāgotu lauku izveide un darbs ar tiem
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerApps programmu iegulšana
+                - name: Microsoft Power Apps iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Mainīt sesijas datumu
+                - name: Sesijas datuma maiņa
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Lietotāja izvēlētās laika joslas iestatīšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Piekļuve informācijai un atskaišu veidošana
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Personalizēšanas opcijas ar PowerBI.com
+            - name: 'Personalizēšanas opcijas, izmantojot Power BI'
               items:
-                - name: 'Līdzekļi, kas pieejami, izmantojot PowerBI.com integrāciju'
+                - name: 'Līdzekļi, kas pieejami, izmantojot Power BI integrāciju'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerBI.com satura piespraušana
+                - name: Power BI satura piespraušana
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analītisku darbvietu atlasīšana no PowerBI.com
+                - name: Analītisku darbvietu atlasīšana no Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI saturs
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Preču izslēgšana no vispārējās plānošanas
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Divējāda lietojuma preces
-                  href: pim/dual-use.md
-                - name: Izcelsmes valsts/reģions
-                  href: pim/country-of-origin.md
                 - name: Preces svītrkoda izveide
                   href: pim/tasks/create-bar-code-product.md
                 - name: GTIN koda ievade precei
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Attēla pievienošana precei
                   href: pim/tasks/add-image-product.md
+                - name: Izcelsmes valsts/reģions
+                  href: pim/country-of-origin.md
+                - name: Divējāda lietojuma preces
+                  href: pim/dual-use.md
+                - name: Bīstamie materiāli
+                  items:
+                    - name: Bīstamo materiālu pārskats
+                      href: pim/hazmat-overview.md
+                    - name: Bīstamo materiālu iestatīšana
+                      href: pim/hazmat-setup.md
+                    - name: 'Bīstamie materiāli precēs, pasūtījumos, sūtījumos un kravās'
+                      href: pim/hazmat-items.md
+                    - name: Bīstamo materiālu pieprasījumi un pārskati
+                      href: pim/hazmat-reports.md
                 - name: Bieži uzdotie jautājumi par preču informācijas tulkošanu
                   href: pim/translations-product-related-information.md
                 - name: Preces meklēšana pasūtījuma izveides laikā

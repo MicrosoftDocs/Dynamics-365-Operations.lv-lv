@@ -66,8 +66,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance + Operations (on-premises) iegāde
+                - name: Finance + Operations (lokāli) iegāde
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange ieviešanas vadlīnijas
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations programmas Francijā
@@ -178,11 +180,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Pielāgotu lauku izveide un darbs ar tiem
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerApps programmu iegulšana
+                - name: Microsoft Power Apps iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
-                - name: Mainīt sesijas datumu
+                - name: Sesijas datuma maiņa
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/commerce/toc.json
                 - name: Lietotāja izvēlētās laika joslas iestatīšana
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Veikala topoloģijas atlase
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange un tirdzniecības kanālu saziņa
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Commerce Data Exchange labākās prakses
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange un tirdzniecības kanālu saziņa
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Commerce Data Exchange problēmu novēršana
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS arhitektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Tiešsaistes veikala publicēšanas arhitektūra
@@ -514,8 +522,10 @@
                       href: payinvoice.md
                     - name: Maksājumu dublikātu novēršana
                       href: duplicate-payment-protection.md
-                    - name: Pārskats par Omni kanāla maksājumiem
+                    - name: Pārskats par universālā kanāla maksājumiem
                       href: omni-channel-payments.md
+                    - name: Universālā kanāla Commerce pasūtījumu maksājumi
+                      href: dev-itpro/commerce-payments.md
                     - name: Bieži uzdotie jautājumi par maksājumiem
                       href: dev-itpro/payments-retail.md
                 - name: Bing karšu pārvaldība organizācijā
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Mazumtirdzniecības veikala transakciju rediģēšana un auditēšana
               href: edit-audit-retail-transactions.md
-            - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
               href: trickle-feed.md
             - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Piekļuve informācijai un atskaišu veidošana
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Personalizēšanas opcijas ar PowerBI.com
+            - name: 'Personalizēšanas opcijas, izmantojot Power BI'
               items:
-                - name: 'Līdzekļi, kas pieejami, izmantojot PowerBI.com integrāciju'
+                - name: 'Līdzekļi, kas pieejami, izmantojot Power BI integrāciju'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerBI.com satura piespraušana
+                - name: Power BI satura piespraušana
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Analītisku darbvietu atlasīšana no PowerBI.com
+                - name: Analītisku darbvietu atlasīšana no Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Power BI saturs
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Problēmu risināšana pēc elementu krātuves uzturēšanas
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: PowerBI.com integrācijas konfigurēšana
+                - name: Power BI integrācijas konfigurēšana
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Savas datu bāzes izmantošana
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1202,11 +1210,11 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Finanšu dimensiju pievienošana apkopotiem mērījumiem
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: "Analītisku pārskatu izveide, izmantojot programmu Power\_BI Desktop"
+                - name: 'Analītisku atskaišu izveidošana, izmantojot Power BI Desktop'
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Analīzes pievienošana darbvietām, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Analītisku darbvietu un pārskatu drošības uzlabošana, izmantojot Power BI Embedded'
+                - name: 'Analītisku darbvietu un atskaišu drošības uzlabošana, izmantojot Power BI Embedded'
                   href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/commerce/toc.json
                 - name: Pārskatu risinājumu izveide
                   href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: Pakotņu konfigurācijas un to izvietošana tiešsaistes vidē
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK un galvenie bibliotēkas atjauninājumi
+                    - name: SDK un veikala sākuma komplekta atjauninājumi
                       href: e-commerce-extensibility/sdk-updates.md
             - name: "Retail\_SDK"
               items:
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Maksājumu savienotāju izvietošana
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Inkrementāla tveršana operāciju uzskaites daļas rēķinu izrakstīšanai
+                  href: dev-itpro/incremental-capture.md
                 - name: Pielāgotu lokalizētu kļūdu ziņojumu izveide maksājumu termināļa paplašinājumiem
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Windows instalētāju izveide maksājumu savienotājiem
