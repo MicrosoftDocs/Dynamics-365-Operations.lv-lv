@@ -70,6 +70,8 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance”
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.14 (2020.\_gada novembris)"
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (2020. gada oktobris)
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: "Finance 10.0.12 (2020.\_gada augusts)"
@@ -412,7 +414,9 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: Iekasēšanas informācijas pārskatīšana
                   href: accounts-receivable/tasks/review-collections-information.md
-                - name: Kredītu pārvaldības iestatīšana
+                - name: Parādu piedziņas procesa automatizācija
+                  href: accounts-receivable/collections-process-automate.md
+                - name: Kredīta pārvaldības iestatīšana
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Kredītu pārvaldības iestatīšanas informācija
                   href: accounts-receivable/cm-setup-information.md
@@ -756,6 +760,8 @@
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: "200\_procentu degresīvā nolietojuma aprēķināšanas metode"
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
+                - name: Pusgada nolietojuma nosacījumu metodoloģija
+                  href: fixed-assets/half-year-depreciation-methodology.md
                 - name: Papildnolietojums
                   href: fixed-assets/bonus-depreciation.md
                 - name: Prēmijas nolietojuma iestatīšana
@@ -1013,7 +1019,27 @@
             - name: Piedāvājuma pārsūtīšana projektam
               href: project-management/transfer-quote-new-existing-project.md
             - name: Projekta resursi
-              href: project-management/project-resourcing.md
+              items:
+                - name: Projekta resursu pārskats
+                  href: project-management/project-resourcing.md
+                - name: Projekta resursu iestatīšana
+                  href: project-management/set-up-project-resources.md
+                - name: Resursu kompetenču pārvaldība
+                  href: project-management/manage-resource-competencies.md
+                - name: Jauna projekta izveide
+                  href: project-management/create-new-project.md
+                - name: Uz lomu balstītas cenu noteikšanas iestatīšana
+                  href: project-management/set-up-role-based-pricing.md
+                - name: Projekta grupas izveide
+                  href: project-management/create-project-team.md
+                - name: Resursu noslodzes sinhronizēšana
+                  href: project-management/synchronize-resource-capacity.md
+                - name: Projekta resursu plānošanas veiktspēja
+                  href: project-management/project-scheduling-performance.md
+                - name: Lomu iestatīšana darba sadalījuma struktūras veidnēs
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: Resursu izpilde plānotiem resursiem
+                  href: project-management/resource-fulfillment-planned-resources.md
             - name: Pirkšanas pasūtījuma krājumu saņemšana no krājumu vajadzības
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: Darba sadalījuma struktūras
@@ -1220,10 +1246,20 @@
                   href: localizations/austria.md
                 - name: Papildu iegādes nolietojums par pusgadu
                   href: localizations/emea-aut-half-year-depreciation.md
-                - name: Iepakojuma materiālu maksas
+                - name: Iepakojuma materiālu papildmaksas
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: PVN deklarācija
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: Bahreina
+              items:
+                - name: Bahreinas pārskats
+                  href: localizations/bahrain.md
+                - name: Rēķina izkārtojuma konfigurēšana Bahreinai
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: PVN deklarācija Bahreinai
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: Rēķinu izsniegšanas termiņš
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: Beļģija
               items:
                 - name: Beļģijas pārskats
@@ -1496,6 +1532,8 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: PVN deklarācija
                   href: localizations/emea-cze-vat-statement-details.md
+                - name: PVN deklarācija (Čehijas Republika)
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Gada beigu slēgšana
                   href: localizations/emea-cze-hun-year-end.md
             - name: Dānija
@@ -1780,6 +1818,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Tiešsaistes rēķinu izrakstīšanas sistēma
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Atliktie PVN aprēķini
+                  href: localizations/emea-hun-deferred-vat.md
             - name: Islande
               items:
                 - name: Islandes pārskats
@@ -2238,6 +2278,10 @@
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
                 - name: Pamatlīdzekļu izjaukšanas saraksta izmantošana
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: Kuveita
+              items:
+                - name: Kuveitas pārskats
+                  href: localizations/kuwait.md
             - name: Latvija
               items:
                 - name: Latvijas pārskats
@@ -2282,12 +2326,14 @@
                   href: localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
                 - name: GST debitora rēķinus ar atvieglojumu klauzulu drukāšana
                   href: localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: Drukāt GST nodokļa rēķinus
+                - name: GST nodokļa rēķinu drukāšana
                   href: localizations/tasks/my-00005-print-gst-tax-invoices.md
                 - name: Pašizrakstītie rēķini
                   href: localizations/tasks/my-00007-self-billed-invoices.md
                 - name: GST atvieglojumu klauzulu iestatīšana
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: SST-02 deklarācija Malaizijai
+                  href: localizations/apac-mys-sst-declaration.md
             - name: Meksika
               items:
                 - name: Meksikas pārskats
@@ -2328,6 +2374,10 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Kreditoru reģistrācijas ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Omāna
+              items:
+                - name: Omānas pārskats
+                  href: localizations/oman.md
             - name: Nīderlande
               items:
                 - name: Nīderlandes pārskats
@@ -2386,6 +2436,10 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Kreditoru/debitoru valūtas starpības sadale
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: Katara
+              items:
+                - name: Kataras pārskats
+                  href: localizations/qatar.md
             - name: Krievija
               items:
                 - name: Krievijas pārskats
@@ -2724,15 +2778,17 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: Forma 1099 publiskajam sektoram
                   href: localizations/noam-usa-form-1099-public-sector.md
-        - name: Personāla vadība
+                - name: Kreditoru iestatīšana pārskatam Nr. 1099
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
+        - name: Human Resources
           items:
-            - name: Personāla vadības pārskats
+            - name: Human Resources pārskats
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Iestatīt personāla vadību
+            - name: Human Resources iestatīšana
               items:
-                - name: Konfigurēt personāla vadības parametrus
+                - name: Konfigurēt Human Resources parametrus
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Konfigurēt personāla vadības koplietotos parametrus
+                - name: Konfigurēt Human Resources koplietotos parametrus
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Iestatīt personāla vadības darbplūsmas
                   href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
@@ -2970,6 +3026,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Noklusējuma pārskatu izveides pieredze IaaS vidēs
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: Dokumentu pārskatu veidošanas priekšskatījuma opcijas
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: Drukāšana
                   items:
                     - name: Dokumentu drukāšanas pārskats
@@ -3437,7 +3495,11 @@
                     - name: 'NEAPSTRĀDĀTA XML izmantošana, lai pievienotu saturu'
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: APRĒĶINĀTĀ LAUKA datu avotu parametru izsaukumu atbalsts
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                      items:
+                        - name: Lietotāju pieredzes un lietojamības uzturēšanas uzlabošana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: Datu piekļuves veiktspējas uzlabošana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
                     - name: Starpuzņēmumu elektronisko pārskatu datu avoti
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: FINANŠU DIMENSIJU INFORMĀCIJAS datu avotu izmantošana
@@ -3488,9 +3550,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                    - name: ER formāta parametru iestatīšana juridiskai personai
+                    - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: ER formāta elementu izpildes atlikšana
+                    - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
                       items:
                         - name: Secības elementa izpildes atlikšana
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
@@ -3534,7 +3596,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Adresātu konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: Atsauces uz ER formātu iestatīšana
+                - name: Atsauces uz elektronisko pārskatu formātu iestatīšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Ģenerēto pārskatu automātiska validēšana
                   items:
