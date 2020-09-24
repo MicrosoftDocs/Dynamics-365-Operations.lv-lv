@@ -92,6 +92,8 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.14 (2020.\_novembris)"
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (2020. gada oktobris)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: "Commerce 10.0.12 (2020.\_gada augusts)"
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Plaša patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Retail komponentu notikumi diagnostikai un problēmu novēršanai
+                - name: Commerce komponentu notikumi diagnostikai un problēmu novēršanai
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Izvietojamas pakotnes pielietošana
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: Universālā kanāla Commerce pasūtījumu maksājumi
                       href: dev-itpro/commerce-payments.md
+                    - name: Kredītkaršu apstrāde bez aparatūras stacijas
+                      href: dev-itpro/cnp-pos.md
                     - name: Bieži uzdotie jautājumi par maksājumiem
                       href: dev-itpro/payments-retail.md
                 - name: Bing karšu pārvaldība organizācijā
@@ -700,7 +704,7 @@
           items:
             - name: Debitoru pasūtījumi
               items:
-                - name: "Debitoru pasūtījumi programmā\_MPOS"
+                - name: Debitoru pasūtījumi pārdošanas punktā (POS)
                   href: customer-orders-overview.md
                 - name: Hibrīda debitoru pasūtījumi
                   href: hybrid-customer-orders.md
@@ -826,6 +830,8 @@
                   href: custom-pages-user-logins.md
                 - name: Vairāku B2C nomnieku konfigurēšana Commerce vidē
                   href: configure-multi-B2C-tenants.md
+                - name: Domēni programmā Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: Atbalsta pievienošana satura piegādes tīklam (CDN)
                   href: add-cdn-support.md
                 - name: Veikala noteikšanas iespējošana pēc atrašanās vietas
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Vērtējumu un apskatu moduļi
                       href: ratings-reviews-modules.md
+                    - name: Sociālo tīklu dalīšanās modulis
+                      href: social-share-module.md
                 - name: Pirkšanas moduļi
                   items:
                     - name: Groza modulis
@@ -1026,6 +1034,12 @@
                   items:
                     - name: Atpakaļceļa modulis
                       href: add-breadcrumb.md
+                    - name: Navigācijas izvēlnes modulis
+                      href: nav-menu-module.md
+                - name: Atbilstības moduļi
+                  items:
+                    - name: Sīkfailu piekrišanas modulis
+                      href: cookie-consent-module.md
             - name: Meklēšana
               items:
                 - name: Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats
@@ -1526,7 +1540,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
             - name: (ER) Starpuzņēmumu datu avoti elektroniskajos pārskatos
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-            - name: 'ER formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
+            - name: 'Elektronisko pārskatu formātu noformēšana, lai izejošos elektroniskos dokumentus ģenerētu dažādos formātos'
               items:
                 - name: (ER) Konfigurācijas noformēšana atskaišu ģenerēšanai formātā OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1560,7 +1574,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Tādu pārskatu palaišana, kuros finanšu dimensijas tiek izmantotas kā datu avoti'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
-            - name: 'ER formātu noformēšana, lai inventarizācija un summēšana tiktu veikta, izmantojot ģenerētās izvades informāciju'
+            - name: 'Elektronisko pārskatu formātu noformēšana, lai inventarizācija un summēšana tiktu veikta, izmantojot ģenerētās izvades informāciju'
               items:
                 - name: 'Formātu izveide, lai veiktu inventarizāciju un summēšanu'
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
@@ -1646,15 +1660,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                - name: 'ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
+                - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formāta parametru iestatīšana juridiskai personai
+                - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formāta elementu izpildes atlikšana
+                - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
                   items:
-                    - name: Secības elementa izpildes atlikšana
+                    - name: Secības elementu izpildes atlikšana elektronisko pārskatu formātos
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: XML elementa izpildes atlikšana
+                    - name: XML elementu izpildes atlikšana elektronisko pārskatu formātos
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
               items:
@@ -1686,7 +1700,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
                     - name: Adresātu konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
-                - name: Atsauces uz ER formātu iestatīšana
+                - name: Atsauces uz elektronisko pārskatu formātu iestatīšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Ģenerēto pārskatu automātiska validēšana
                   items:

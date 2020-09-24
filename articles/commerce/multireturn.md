@@ -3,7 +3,7 @@ title: Krājumu atgriešana vairākos debitoru pasūtījumos un rēķinos
 description: Šajā tēmā ir aprakstīta funkcionalitāte, kas ļauj izmantot atgriešanu vairākos debitoru pasūtījumos un rēķinos programmā Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 08/27/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,27 +18,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5f17424f0837344030f9ce2d2d037cde08c4e49
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e95f06ffaaf2d250b02a8458faa2d9e0b5ef5631
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004462"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760254"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="64570-103">Krājumu atgriešana vairākos debitoru pasūtījumos un rēķinos</span><span class="sxs-lookup"><span data-stu-id="64570-103">Return items across multiple customer orders and invoices</span></span>
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="4af6d-103">Krājumu atgriešana vairākos debitoru pasūtījumos un rēķinos</span><span class="sxs-lookup"><span data-stu-id="4af6d-103">Return items across multiple customer orders and invoices</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="64570-104">Atgriešanu var veikt vairākos pasūtījumos un rēķinos.</span><span class="sxs-lookup"><span data-stu-id="64570-104">Returns can be made across multiple orders and invoices.</span></span> 
+<span data-ttu-id="4af6d-104">Šajā rakstā ir aprakstīti divi līdzekļi, kas optimizē debitora pasūtījumu atgriešanu vairākos rēķinos.</span><span class="sxs-lookup"><span data-stu-id="4af6d-104">This article describes two features that optimize customer order returns over multiple invoices.</span></span> 
 
-## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="64570-105">Commerce konfigurēšana, lai atbalstītu atgriešanu vairākos debitoru pasūtījumos un rēķinos</span><span class="sxs-lookup"><span data-stu-id="64570-105">Configure Commerce to support returns across multiple customer order and invoices</span></span>
+## <a name="enable-refunds-over-multiple-captures"></a><span data-ttu-id="4af6d-105">Iespējot atmaksas vairākos tvērumos</span><span class="sxs-lookup"><span data-stu-id="4af6d-105">Enable refunds over multiple captures</span></span>
 
-1. <span data-ttu-id="64570-106">Dodieties uz **Commerce parametri \> Debitoru pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="64570-106">Go to **Commerce parameters \> Customer orders**.</span></span>
-1. <span data-ttu-id="64570-107">Ieslēdziet parametru **Iespējot atgriešanu vairākiem pasūtījumiem**.</span><span class="sxs-lookup"><span data-stu-id="64570-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
+<span data-ttu-id="4af6d-106">Šis līdzeklis aktivizē vairākas saistītās atmaksas vienā un tajā pašā debitora pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="4af6d-106">This feature enables multiple linked refunds against the same customer order.</span></span> 
 
-## <a name="process-returns"></a><span data-ttu-id="64570-108">Atgriešanu apstrādāšana</span><span class="sxs-lookup"><span data-stu-id="64570-108">Process returns</span></span>
+1. <span data-ttu-id="4af6d-107">Dodieties uz darbvietu **Līdzekļu pārvaldība** un meklējiet **Iespējot atmaksas vairākos tvērumos**.</span><span class="sxs-lookup"><span data-stu-id="4af6d-107">Go to the **Feature management** workspace and search for **Enable refunds over multiple captures**.</span></span>
+2. <span data-ttu-id="4af6d-108">Atlasiet **Iespējot atmaksas vairākos pasūtījumos** un pēc tam noklikšķiniet uz **Iespējot**.</span><span class="sxs-lookup"><span data-stu-id="4af6d-108">Select **Enable refunds over multiple orders** and then click **Enable**.</span></span> 
 
-<span data-ttu-id="64570-109">Kad šis parametrs ir ieslēgts un izmaiņas ir sinhronizētas uz veikaliem, kasieris veikalā var atlasīt vairākus pārdošanas pasūtījumus vienam debitoram, lai tos atgrieztu.</span><span class="sxs-lookup"><span data-stu-id="64570-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a><span data-ttu-id="4af6d-109">Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai</span><span class="sxs-lookup"><span data-stu-id="4af6d-109">Enable proper tax calculation for returns with partial quantity</span></span>
 
-<span data-ttu-id="64570-110">Kad pasūtījumi ir atlasīti, tiek parādīts saraksts ar visām atgriežamajām precēm visos šo pasūtījumu rēķinos.</span><span class="sxs-lookup"><span data-stu-id="64570-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="64570-111">Pēc tam kasieris var atlasīt atgriežamās preces.</span><span class="sxs-lookup"><span data-stu-id="64570-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="64570-112">Visām atlasītajām precēm tiks izveidots viens atgriešanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="64570-112">A single return order will be created for all the selected products.</span></span>
+<span data-ttu-id="4af6d-110">Šis līdzeklis nodrošina, ka gadījumā, ja pasūtījums tiek atgriezts vairākus rēķinos, nodokļi beigās būs vienādi ar sākotnēji iekasēto nodokļu summu.</span><span class="sxs-lookup"><span data-stu-id="4af6d-110">This feature ensures that when an order is returned using multiple invoices, the taxes will ultimately be equal to the tax amount originally charged.</span></span> 
+
+1. <span data-ttu-id="4af6d-111">Dodieties uz darbvietu **Līdzekļu pārvaldība** un meklējiet **Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai**.</span><span class="sxs-lookup"><span data-stu-id="4af6d-111">Go to the **Feature management** workspace and search for **Enable proper tax calculation for returns with partial quantity**.</span></span>
+2. <span data-ttu-id="4af6d-112">Atlasiet **Iespējot pareizu nodokļu aprēķināšanu daļējai atgriešanai** un pēc tam noklikšķiniet uz **Iespējot**.</span><span class="sxs-lookup"><span data-stu-id="4af6d-112">Select **Enable proper tax calculation for returns with partial quantity** and then click **Enable**.</span></span> 
+
+
+## <a name="process-returns"></a><span data-ttu-id="4af6d-113">Atgriešanu apstrādāšana</span><span class="sxs-lookup"><span data-stu-id="4af6d-113">Process returns</span></span>
+
+<span data-ttu-id="4af6d-114">Kad šie līdzekļi ir ieslēgti un izmaiņas ir sinhronizētas uz veikaliem, kasieris veikalā var atlasīt vairākus pārdošanas pasūtījumus vienam debitoram, lai tos atgrieztu.</span><span class="sxs-lookup"><span data-stu-id="4af6d-114">After these features are turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
+
+<span data-ttu-id="4af6d-115">Kad pasūtījumi ir atlasīti, tiek parādīts saraksts ar visām atgriežamajām precēm visos šo pasūtījumu rēķinos.</span><span class="sxs-lookup"><span data-stu-id="4af6d-115">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="4af6d-116">Pēc tam kasieris var atlasīt atgriežamās preces.</span><span class="sxs-lookup"><span data-stu-id="4af6d-116">The cashier can then select the products to return.</span></span> <span data-ttu-id="4af6d-117">Visām atlasītajām precēm tiks izveidots viens atgriešanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="4af6d-117">A single return order will be created for all the selected products.</span></span>
+
+<span data-ttu-id="4af6d-118">Ja pasūtījums tiek pilnībā atgriezts, debitoram atgriezto nodokļu summa būs vienāda ar sākotnēji iekasēto nodokļu summu.</span><span class="sxs-lookup"><span data-stu-id="4af6d-118">If the order is fully returned, the amount of taxes returned to the customer will be equal to the amount of tax originally charged.</span></span>
+

@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Jaunumi un izmaiņas Platform atjauninājumos
               items:
-                - name: Jaunumi un izmaiņas Platform atjauninājumu mājas lapā
+                - name: Mājas lapa “Jaunumi un izmaiņas Platform atjauninājumos”
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.14 (2020.\_gada novembris)"
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: "Platform atjauninājumi versijai\_10.0.13 (2020.\_gada oktobris)"
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: "Platform atjauninājumi versijai\_10.0.12 (2020.\_gada augusts)"
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: "Platform atjauninājumi versijai\_10.0.11 (2020.\_gada jūlijs)"
-                  href: get-started/whats-new-platform-update-35.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie platformas līdzekļi
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: X++ modeļa versiju izveide pakalpojumā Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: 'Līdzekļu lejupielāde, izmantojot Azure Pipelines'
+                  href: dev-tools/pipeline-asset-download.md
+                - name: 'Līdzekļu augšupielāde, izmantojot Azure Pipelines'
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: 'Līdzekļu izvietošana, izmantojot Azure Pipelines'
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Lifecycle Services (LCS) savienojuma izveide pakalpojumā Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Autoparka pārvaldības programmas piemērs
               items:
                 - name: Visaptverošs scenārijs autoparka pārvaldības programmas piemēram

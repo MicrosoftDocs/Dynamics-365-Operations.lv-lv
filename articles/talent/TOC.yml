@@ -8,6 +8,8 @@
         - name: Jaunumi un izmaiņas programmā Talent
           href: whats-new.md
           items:
+            - name: "2020.\_gada 1.\_septembris"
+              href: whats-new-talent-september-01-2020.md
             - name: "2020.\_gada 21.\_janvāris"
               href: whats-new-talent-january-21-2020.md
             - name: "2020.\_gada 14.\_janvāris"
@@ -148,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: Datu eksportēšana no Attract un Onboard
           href: attract-onboard-export-data.md
-        - name: Iegult Microsoft Power Apps
+        - name: Microsoft Power Apps iegulšana
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Atbalsta saņemšana saistībā ar Talent
           href: talent-support.md
@@ -188,11 +190,11 @@
           items:
             - name: Darba izveide
               href: creating-jobs-attract.md
-            - name: Publicēt darbus tīklā LinkedIn
+            - name: Darbu publicēšana tīklā LinkedIn
               href: attract-post-jobs-to-linkedin.md
             - name: Darbu publicēšana vietnē Broadbean
               href: posting-jobs-external.md
-            - name: Aizvērt darbu
+            - name: Darba slēgšana
               href: attract-close-job.md
         - name: Kandidātu piesaiste
           items:
@@ -230,7 +232,7 @@
           href: onboard-edit-guides-templates.md
         - name: Satura kopīgošana
           href: onboard-share-template.md
-        - name: Skatīt statusu
+        - name: Statusa skatīšana
           href: onboard-view-status.md
         - name: Darbā pieņemšanas grupas izveide
           href: onboard-create-team.md
