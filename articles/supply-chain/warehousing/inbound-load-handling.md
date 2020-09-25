@@ -14,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1c990911489fa6d73624a91e7d6580e29ddfc419
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 0716d662e0740c4b32313e4905e0e6bb42755e6b
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597436"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763363"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
@@ -70,8 +70,8 @@ Kad noliktavā vispirms ierodas ienākošā noslodze, noliktavas darbiniekiem ir
 
     - Kravas krājuma saņemšana
     - Kravas krājuma saņemšana un izvietošana
-    - Jaukta numura zīmes saņemšana, kur **Pirmdokumenta rindas identifikācijas metodes**  lauks mobilo ierīču izvēlnes krājums ir iestatīts uz _Ielādēt krājuma saņemšanu_. Lai iegūtu papildinformāciju, skatiet [Jaukta numura zīmes saņemšana](mixed-license-plate-receiving.md).
-    - Jaukta numura zīmes saņemšana un novietošana, kur **Pirmdokumenta rindas identifikācijas metodes**  lauks mobilo ierīču izvēlnes krājums ir iestatīts uz _Ielādēt krājuma saņemšanu_. Lai iegūtu papildinformāciju, skatiet [Jaukta numura zīmes saņemšana](mixed-license-plate-receiving.md).
+    - Jaukta numura zīmes saņemšana, kur **Pirmdokumenta rindas identifikācijas metodes** lauks mobilo ierīču izvēlnes krājums ir iestatīts uz _Ielādēt krājuma saņemšanu_. Lai iegūtu papildinformāciju, skatiet [Jaukta numura zīmes saņemšana](mixed-license-plate-receiving.md).
+    - Jaukta numura zīmes saņemšana un novietošana, kur **Pirmdokumenta rindas identifikācijas metodes** lauks mobilo ierīču izvēlnes krājums ir iestatīts uz _Ielādēt krājuma saņemšanu_. Lai iegūtu papildinformāciju, skatiet [Jaukta numura zīmes saņemšana](mixed-license-plate-receiving.md).
 
     > [!NOTE]
     > Neatkarīgi no procesa sistēma ģenerēs darbu, lai uzņemtu daudzumus, kas ir reģistrēti saņemšanas vietā un novietotu tos parastajā glabāšanas vietā. Kad tiek izmantots _Ielādēt vienumu saņemšanu un novietošanu_ vai _Jauktās numura zīmes saņemšanas un novietošanas_ process, ierīce norīkos arī darbinieku, kurš reģistrējis noslodzes daudzumu, veikt izvietošanas darbu kā daļu no reģistrācijas uzdevuma. Turpretī _Ielādēt krājuma saņemšanu_ un _Jauktās numura zīmes saņemšanas_ procesiem tiek pieņemts, ka izvietošanas darbs tiks veikts atsevišķi no reģistrācijas uzdevuma.
@@ -93,7 +93,7 @@ Pēc tam, kad darbinieks pabeidz šos soļus, sistēma veic tālāk norādītos 
 | Elements | Grāmatojumi | Piezīme |
 |---|---|---|
 | Ielādēt | **Darba izveidotā daudzuma** lauks noslodzes rindā tiek atjaunināts, lai parādītu reģistrēto daudzumu. | **Noslodzes statusa** vērtība paliek _Piegādāts_ vai _Atvērta_, ja noslodzei nav palaists neviens sūtījuma apstiprinājums. Ja vismaz viena no izvietošanas darba rindām ir sākta, tā tiek mainīta uz _Darbībā_. |
-| Pirkšanas pasūtījuma krājumu transakcija, kurai ir reģistrēti saistītie noslodzes daudzumi |<p>Tiek atjaunināti šādi lauki:</p><ul><li>Lauks <b>Saņemšana</b> ir iestatīts uz <i>Reģistrēti</i>.</li><li><b>Atrašanās vietas</b> lauks tiek atjaunināts ar saņemšanas doka atrašanās vietas kodu. (Šis kods ir norādīts katras noliktavas laukā<b>Noklusējuma saņemšanas vieta</b>.)</li><li><b>Numura zīmes</b> lauks ir atjaunināts ar unikālu noliktavas vienības identifikatoru, kas tika ievadīts vai ģenerēts reģistrācijas laikā.</li><li><b>Noslodzes ID</b> lauks tiek atjaunināts ar noslodzes numuru, pret kuru ir reģistrēts šis daudzums. (Skatiet piezīmi.)</li></ul> | Spēja saistīt pirkšanas pasūtījuma krājumu transakciju un daudzumus, kas ir reģistrēti pret noslodzi, tika ieviesti versijā 10.0.9 kā izvēles līdzeklis ar nosaukumu _Pirkšanas pasūtījuma krājumu transakcijas saistīšana ar noslodzi_. Šis līdzeklis ir īpaši izdevīgs operāciju plūsmām, kur viens iegādāto preču pasūtījums tiek piegādāts kā vairākas noslodzes, vai arī kad noslodze satur vairāku pirkšanas pasūtījumu daudzumus. |
+| Pirkšanas pasūtījuma krājumu transakcija, kurai ir reģistrēti saistītie noslodzes daudzumi |<p>Tiek atjaunināti šādi lauki:</p><ul><li>Lauks <b>Saņemšana</b> ir iestatīts uz <i>Reģistrēti</i>.</li><li><b>Atrašanās vietas</b> lauks tiek atjaunināts ar saņemšanas doka atrašanās vietas kodu. (Šis kods ir norādīts katras noliktavas laukā <b>Noklusējuma saņemšanas vieta</b>.)</li><li><b>Numura zīmes</b> lauks ir atjaunināts ar unikālu noliktavas vienības identifikatoru, kas tika ievadīts vai ģenerēts reģistrācijas laikā.</li><li><b>Noslodzes ID</b> lauks tiek atjaunināts ar noslodzes numuru, pret kuru ir reģistrēts šis daudzums. (Skatiet piezīmi.)</li></ul> | Spēja saistīt pirkšanas pasūtījuma krājumu transakciju un daudzumus, kas ir reģistrēti pret noslodzi, tika ieviesti versijā 10.0.9 kā izvēles līdzeklis ar nosaukumu _Pirkšanas pasūtījuma krājumu transakcijas saistīšana ar noslodzi_. Šis līdzeklis ir īpaši izdevīgs operāciju plūsmām, kur viens iegādāto preču pasūtījums tiek piegādāts kā vairākas noslodzes, vai arī kad noslodze satur vairāku pirkšanas pasūtījumu daudzumus. |
 | Noliktavas izvietošana | Darbs ir izveidots, pamatojoties uz darba veidni, lai uzdotu darbiniekam pārvietot reģistrētos daudzumus no saņemšanas vietas uz parasto glabāšanas vietu. | Glabāšanas vietas izvēli kontrolē izvietošanas novietojuma direktīva. Ja nav definēta neviena novietojuma direktīva, darbu izvietošanas vieta ir tukša. |
 
 Ņemiet vērā, ka noliktavas darbinieki var reģistrēt pirkšanas pasūtījuma saņemšanu ar vienu vai vairākām saistītajām noslodzēm, neizmantojot _Noslodzes krājuma saņemšanas_ procesu. Pieejamas šādas metodes.
@@ -121,8 +121,8 @@ Lai kontrolētu to, kas notiek, kad noliktavas darbinieks mēģina reģistrēt p
 
 - Kravas krājuma saņemšana
 - Kravas krājuma saņemšana un izvietošana
-- Jaukta numura zīmes saņemšana, (kad **Pirmdokumenta rindas identifikācijas metodes**  lauks ir iestatīts uz _Ielādēt krājuma saņemšanu_)
-- Jaukta numura zīmes saņemšana un izvietošana, (kad **Pirmdokumenta rindas identifikācijas metodes**  lauks ir iestatīts uz _Ielādēt krājuma saņemšanu_)
+- Jaukta numura zīmes saņemšana, (kad **Pirmdokumenta rindas identifikācijas metodes** lauks ir iestatīts uz _Ielādēt krājuma saņemšanu_)
+- Jaukta numura zīmes saņemšana un izvietošana, (kad **Pirmdokumenta rindas identifikācijas metodes** lauks ir iestatīts uz _Ielādēt krājuma saņemšanu_)
 
 Šī tabula sniedz pāskaidro pieejamās opcijas **Noslodzes pārslodzes saņemšanas** laukam.
 
@@ -151,7 +151,7 @@ Kad noliktavas darbinieks ir pabeidzis izvietošanas darbu, sistēma reģistrē 
 
 Kad sistēmā tiek reģistrēti ienākošo preču daudzumi, tie kļūst pieejami rezervācijām saistībā ar pārdošanu un citām izejošām un iekšējām darbībām. Tomēr sistēma vēl nav atjauninājusi krājumu (pagaidu) kontus. Šis atjauninājums var notikt tikai tad, ja operāciju grupa iegrāmato reģistrētās preču saņemšanas.
 
-Lai atvērtu lapu, kurā var grāmatot preču saņemšanu, operāciju grupas dalībnieki var veikt _jebkuru_no šīm darbībām:
+Lai atvērtu lapu, kurā var grāmatot preču saņemšanu, operāciju grupas dalībnieki var veikt _jebkuru_ no šīm darbībām:
 
 - Atveriet atbilstošo noslodzes ierakstu un pēc tam atlasiet **Preču saņemšanas** darbību.
 - Dodieties uz **Noliktavas pārvaldība \> Periodiskie uzdevumi \> Atjaunināt preču saņemšanas** un pēc tam laukā **Noslodzes ID** norādiet noslodzi grāmatošanai.
@@ -214,7 +214,7 @@ Pēc tam, kad **Noslodzes statusa** lauks ir iestatīts uz _Saņemts_, šai nosl
 - Supply Chain Management versija ir vecāka par versiju 10.0.11.
 - Līdzeklis _Noslodzes daudzuma pārslodze_ ir ieslēgta, un lauks **Noslodzes rindas daudzuma pārslodze**, kas atrodas mobilās ierīces izvēlnes vienumā noslodzes saņemšanas darbībai, ir iestatīts uz _Atļaut_.
 
-Lai preces saņemšanas gadījumā tiktu reģistrēti papildu reģistrēti noslodzes daudzumi, salīdzinot ar noslodzi, kuras statuss ir  _Saņemts_, lietotājam ir jāizpilda grāmatošanas darbība no saistītā pirkšanas pasūtījuma.
+Lai preces saņemšanas gadījumā tiktu reģistrēti papildu reģistrēti noslodzes daudzumi, salīdzinot ar noslodzi, kuras statuss ir _Saņemts_, lietotājam ir jāizpilda grāmatošanas darbība no saistītā pirkšanas pasūtījuma.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Grāmatot reģistrēto daudzumu no Pirkšanas pasūtījuma lapas
 
@@ -309,7 +309,7 @@ Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģis
 
 Šajā procedūrā jūs manuāli izveidosiet pirkšanas pasūtījumu un saistīto noslodzi. Pēc tam jūs atjaunināsiet noslodzi, lai modelētu, ka tā tiek piegādāta no kreditora (kas atjaunina noslodzes statusu). Pēc tam noliktavas plānotāji var filtrēt noslodzes pēc **Noslodzes statusa**, lai atrastu paredzamās ienākošās noslodzes.
 
-1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi  \> Visi pirkšanas pasūtījumi**.
+1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi**.
 1. Atlasiet **Jauns**.
 1. Dialoglodziņā **Izveidot pirkšanas pasūtījumu** iestatiet **Kreditora konta** lauku uz _1001_.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu izveidotu pirkšanas pasūtījumu.
@@ -354,13 +354,13 @@ Noslodzes saņemšanas uzdevums tagad ir pabeigts, un saņemšanas ierēdnis var
 1. Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Visas noslodzes**.
 1. Sarakstā atrodiet noslodzi, ko tikko saņēmāt. (Iespējams, ir jāatlasa izvēles rūtiņa **Rādīt slēgto**, lai iekļautu ienākošās noslodzes, kuru statuss ir _Piegādāts_.) Pēc tam atlasiet saiti **Noslodzes ID** kolonnā, lai atvērtu noslodzi.
 1. Noslodzes ierakstā ievērojiet, ka **Noslodzes statusa** vērtība paliek _Piegādāts_, bet **Darba izveidotā daudzuma** vērtība noslodzes līnijā ir mainījusies uz _9_.
-1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi  \> Visi pirkšanas pasūtījumi**.
+1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi**.
 1. Sarakstā sameklējiet tikko saņemto pirkumu un pēc tam kolonnā **Pirkšanas pasūtījums** atlasiet saiti, lai atvērtu pasūtījumu.
 \
 1. **Pirkšanas pasūtījuma rindās** kopsavilkuma cilnē atlasiet **Krājumi \> Skatīt \> Traksakcijas**.
 1. Pārskatiet divu pirkšanas pasūtījumu traksakciju detaļas. (Iespējams, ir jāpersonalizē lapa **Krājumu transakcijas**, lai tiktu rādīts **Noslodzes ID** lauks režģī.) Ir jābūt redzamām divām transakcijām:
 
-    - Transakcija ar saņemšanu statusā  _Reģistrēts_, ataino reģistrācijas daudzumu _9_, kas tika veikts ar noteiktu noslodzi, izmantojot mobilo ierīci. **Noslodzes ID** ir saistīts ar attiecīgo transakciju.
+    - Transakcija ar saņemšanu statusā _Reģistrēts_, ataino reģistrācijas daudzumu _9_, kas tika veikts ar noteiktu noslodzi, izmantojot mobilo ierīci. **Noslodzes ID** ir saistīts ar attiecīgo transakciju.
     - Transakcija, kurai ir saņemšana statusā _Pasūtīts_, norāda atlikušo nereģistrēto pasūtījuma rindas ar daudzumu _1_.
 
 #### <a name="product-receiptpost-the-registered-load-quantities-against-purchase-orders"></a>Preču saņemšana norāda reģistrētos noslodzes daudzumus pret pirkuma pasūtījumiem
@@ -402,7 +402,7 @@ Ja pirkšanas grupa neplāno piegādāt kreditoru atlikušo pasūtījuma daudzum
 
 Šajā procedūrā jūs iespējosiet vairāku preču saņemšanas grāmatojumus no vienas un tās pašas noslodzes.
 
-1. Doties uz **Noliktavas vadība\> Iestatīšana \> Noliktavas vadības parametri**.
+1. Doties uz **Noliktavas vadība \> Iestatīšana \> Noliktavas vadības parametri**.
 1. Cilnē **Noslodzes** iestatiet **Atļaut vairāku preču saņemšanu uz noslodzi** lauku uz _Jā_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Izveidot divas noslodzes, lai plānotu pirkšanas pasūtījuma saņemšanu
@@ -411,7 +411,7 @@ Ja pirkšanas grupa neplāno piegādāt kreditoru atlikušo pasūtījuma daudzum
 
 Jūs arī uzzināsit, kā iestatīt pirkšanas pasūtījuma rindu, lai varētu saņemt daudzumu, kas ir par 20 procentiem vairāk nekā rindai norādītajam daudzumam.
 
-1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi  \> Visi pirkšanas pasūtījumi**.
+1. Dodieties uz **Sagāde un avoti \> Pirkšanas pasūtījumi \> Visi pirkšanas pasūtījumi**.
 1. Atlasiet **Jauns**.
 1. Kopsavilkuma cilnē **Kreditors** iestatiet **Kreditora konta** lauku uz _1001_ un pēc tam atlasiet **Labi**.
 1. Jaunais pirkšanas pasūtījums tiek atvērts, un tajā ir iekļauta tukša rinda **Pirkšanas pasūtījuma rindu** režģī. Šajā pasūtījuma rindā iestatiet šādas vērtības:

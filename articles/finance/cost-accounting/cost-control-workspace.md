@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
+ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 30229992151e6b7a34de7c10e266ecdd5ba2f7b7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e94a8a5ecdc636e73755460a89b08f7271cd3ae1
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551753"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759524"
 ---
 # <a name="cost-control-workspace"></a>Izmaksu kontroles darbvieta 
 
@@ -36,7 +36,7 @@ Darbvieta **Izmaksu kontrole** ir vieta, kur vadītāji, kuri ir atbildīgi par 
 
 Izmaksu grāmatveži var definēt tik daudz pārskatu konfigurāciju, cik ir nepieciešams, lai iegūtu vajadzīgo datu salikumu vai izkārtojumu. Pārskata konfigurācija sastāv no sešām sadaļām, kura katra nodrošina vajadzīgā datu salikuma atlasi vai vajadzīgo izkārtojumu.
 
-Lai konfigurētu izmaksu kontroles darbvietu, noklikšķiniet uz **Izmaksu uzskaite** \> **Iestatīšana** \> **Izmaksu kontroles darbvietas konfigurācija**.
+Lai konfigurētu izmaksu kontroles darbvietu, noklikšķiniet uz **Izmaksu uzskaite** \> **Iestatīšana** \> **Izmaksu kontroles darbvietas konfigurācija**.
 
 ### <a name="general"></a>Vispārējs
 
@@ -83,7 +83,7 @@ Atlasītajās kolonnās esošās vērtības tiek reizinātas ar kopsavilkuma cil
 | Pašreizējais periods       | Tiek parādīta pašreizējā finanšu perioda bilance.<blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības.</blockquote> |
 | Iepriekšējais periods      | Tiek parādīta iepriekšējā finanšu perioda bilance. Tiek izmantota šāda formula:<br>Pašreizējais finanšu periods – 1<blockquote>[!NOTE]<br>Pēc noklusējuma iepriekšējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** kā pašreizējo periodu var atlasīt noteiktu finanšu periodu. Šādā gadījumā tiek atbilstoši pārrēķināta lauka **Iepriekšējais periods** vērtība.</blockquote> |
 | No gada sākuma         | Tiek rādīta vērtība no gada sākuma. Tiek izmantota šāda formula:<br>YearToDate (pašreizējais finanšu periods)<blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauka **No gada sākuma** vērtība.</blockquote> |
-| Vidējais no gada sākuma | Tiek rādīta vidējā vērtība no gada sākuma. Tiek izmantota šāda formula:<br>(YearToDate [pašreizējais finanšu periods]) ÷ (Count [pašreizējais finanšu periods])<p><strong>Piemērs</strong></p><ul><li>**Statisko dimensiju elements:** Pilnas slodzes darbinieki</li><li>**Pašreizējais datums:** 03.21.2017.</li><li>**Periods:** 1. finanšu periods, 2. finanšu periods, 3. finanšu periods</li><li>**Lielums:** 10, 10, 12</li></ul>Šajā gadījumā **Vidējais no gada sākuma** = (10 + 10 + 12) ÷ 3 = 10,67<p>Lauka **Vidējais no gada sākuma** vērtību var aprēķināt izmaksu elementu dimensiju elementiem un statistisko dimensiju elementiem.</p><blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauku **No gada sākuma** un **Vidējais no gada sākuma** vērtības.</blockquote> |
+| Vidējais no gada sākuma | Tiek rādīta vidējā vērtība no gada sākuma. Tiek izmantota šāda formula:<br>(YearToDate [pašreizējais finanšu periods]) ÷ (Count [pašreizējais finanšu periods])<p><strong>Piemērs</strong></p><ul><li>**Statisko dimensiju elements:** Pilnas slodzes darbinieki</li><li>**Pašreizējais datums:** 03.21.2017.</li><li>**Periods:** 1. finanšu periods, 2. finanšu periods, 3. finanšu periods</li><li>**Lielums:** 10, 10, 12</li></ul>Šajā gadījumā **Vidējais no gada sākuma** = (10 + 10 + 12) ÷ 3 = 10,67<p>Lauka **Vidējais no gada sākuma** vērtību var aprēķināt izmaksu elementu dimensiju elementiem un statistisko dimensiju elementiem.</p><blockquote>[!NOTE]<br>Pēc noklusējuma pašreizējais periods tiek noteikts pēc sesijas datuma. Darbvietā **Izmaksu kontrole** var atlasīt noteiktu finanšu periodu. Šādā gadījumā pašreizējais periods tiek noteikts pēc atlasītās vērtības un tiek atbilstoši atjaunināta lauku **No gada sākuma** un **Vidējais no gada sākuma** vērtības.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Kolonnas, ko rādīt izmaksām
 

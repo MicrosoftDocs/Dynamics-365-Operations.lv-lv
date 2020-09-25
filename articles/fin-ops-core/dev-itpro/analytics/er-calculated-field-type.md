@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
-ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
+ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665614"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759915"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -102,7 +102,7 @@ Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failu
 
     - Izveidot nodokļu paziņojumu xml formātā.
     - Parādīt sekojošos nodokļu līmeņus nodokļu pārskatā: parasts, samazināts un nav.
-    - Parādīt vairākas detaļas katrā nodokļu līmenī, kam katrā līmenī ir dažāds šo detaļu skaits. 
+    - Parādīt vairākas detaļas katrā nodokļu līmenī, kam katrā līmenī ir dažāds šo detaļu skaits.
 
     ![Formāta veidotāja lapa](media/er-calculated-field-type-02.png)
 
@@ -113,18 +113,18 @@ Nepieciešams arī lejupielādēt un lokāli saglabāt tālāk norādītos failu
 
     ![Formāta veidotāja lapa, kas uzrāda Dara model modeļa detaļas, lai apgūtu parametru izsaukumus.](media/er-calculated-field-type-03.png)
 
-6. Izvērsiet **Modeli**. **Data2** krājums.
-7. Izvērsiet **Modeli**. **Data2.Summary2** krājums.
+6. Izvērsiet **Modeli**.**Data2** krājums.
+7. Izvērsiet **Modeli**.**Data2.Summary2** krājums.
    
-    **Modeļa**. **Data2. Summary2** datu avots ir konfigurēts, lai grupētu **Model.Data.Summary** kopsavilkuma datu avota transakcijas detalizētu informāciju pēc taksācijas līmeņa (atgriezis **Model.Data.Summary.Level** aprēķinātais lauks) un aprēķinātu apkopojumus.
+    **Modeļa**.**Data2. Summary2** datu avots ir konfigurēts, lai grupētu **Model.Data.Summary** kopsavilkuma datu avota transakcijas detalizētu informāciju pēc taksācijas līmeņa (atgriezis **Model.Data.Summary.Level** aprēķinātais lauks) un aprēķinātu apkopojumus.
 
     ![Formāta veidotāja lapa, kas rāda detalizētu informāciju par Model.Data2.Summary2 datu avotu.](media/er-calculated-field-type-04.png)
 
-8. Pārskatīt aprēķināto lauku **Modelis**. **Data2.Level1**, **Modelis**. **Data2.Level2**un **Modelis**. **Data2. Level3.** Šie aprēķinātie lauki tiek izmantoti **Modeļa** filtrēšanai. **Data2.Summary2** ieraksti saraksts un atgriezt tikai tos ierakstus, kas atbilst noteiktam nodokļu līmenim.
+8. Pārskatīt aprēķināto lauku **Modelis**.**Data2.Level1**, **Modelis**.**Data2.Level2**un **Modelis**.**Data2. Level3.** Šie aprēķinātie lauki tiek izmantoti **Modeļa** filtrēšanai.**Data2.Summary2** ieraksti saraksts un atgriezt tikai tos ierakstus, kas atbilst noteiktam nodokļu līmenim.
 9. Aizveriet lapu **Formāta veidotājs**.
 
 ## <a name="create-a-derived-format"></a>Atvasināta formāta izveide
-Varat uzlabot norādīto formātu, pievienojot vienu aprēķināto lauku, lai filtrētu nepieciešamo nodokļu līmeni, nevis izmantotu esošos trīs laukus: **Modelis**.**Data2.Level1**, **Modelis**. **Data2.Level2** un **Modelis**.**Data2.Level3**. Nepieciešamo nodokļu līmeni var norādīt vietā, kur tiks izsaukts šis jaunais aprēķinātais lauks.
+Varat uzlabot norādīto formātu, pievienojot vienu aprēķināto lauku, lai filtrētu nepieciešamo nodokļu līmeni, nevis izmantotu esošos trīs laukus: **Modelis**.**Data2.Level1**, **Modelis**.**Data2.Level2** un **Modelis**.**Data2.Level3**. Nepieciešamo nodokļu līmeni var norādīt vietā, kur tiks izsaukts šis jaunais aprēķinātais lauks.
 
 1. Konfigurācijas kokā izvērsiet **Modelis, lai uzzinātu parametru izsaukumus** krājuma saturu.
 2. Atlasiet **Formatēt, lai uzzinātu parametru izsaukumus**.
@@ -192,7 +192,7 @@ Pievienojot šo parametru, jūs norādiet nosacījumu, kam jābūt, lai izsauktu
 
 - Atlasiet **Labi**.
 
-Lapā **Formāta veidotājs**  konfigurētajam parametru aprēķinātajam laukam **Līmeņi** nepieciešams **Virknes** arguments.
+Lapā **Formāta veidotājs** konfigurētajam parametru aprēķinātajam laukam **Līmeņi** nepieciešams **Virknes** arguments.
 
 ![Izvērsts aprēķināto lauku līmeņu saraksts](media/er-calculated-field-type-08.png)
 
@@ -201,7 +201,7 @@ Lapā **Formāta veidotājs**  konfigurētajam parametru aprēķinātajam laukam
 1. Atlasiet **Model.Data2.Levels**, lai atlasītu konfigurēto aprēķināto lauku.
 2. Atlasiet **Statement.Taxation.Regular** formāta elementu.
 3. Atlasiet **Saistīt**.
-4. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota  **Level1** aizstāšanu ar jauno avotu **Līmeņi** visos atlasītā formāta elementa ligzdotu formātu elementos. 
+4. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota **Level1** aizstāšanu ar jauno avotu **Līmeņi** visos atlasītā formāta elementa ligzdotu formātu elementos.
 
     Piemērotais saistījums ir izveidots kā izsaukums aprēķinātajam parametru laukam. Pēc noklusējuma saistītā formāta elementa nosaukums tiek izmantots kā arguments parametru aprēķinātajam laukam šādos apstākļos:
 
@@ -212,10 +212,10 @@ Lapā **Formāta veidotājs**  konfigurētajam parametru aprēķinātajam laukam
 
 5. Atlasiet **Statement.Taxation.Reduced** formāta elementu.
 6. Atlasiet **Saistīt**.
-7. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota  **Level2** aizstāšanu ar jauno avotu **Līmeņi** visos ligzdotu formātu elementos zem atlasītā formāta elementa.
+7. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota **Level2** aizstāšanu ar jauno avotu **Līmeņi** visos ligzdotu formātu elementos zem atlasītā formāta elementa.
 8. Atlasiet **Statement.Taxation.None** formāta elementu.
 9. Atlasiet **Saistīt**.
-10. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota  **Level3** aizstāšanu ar jauno avotu **Līmeņi** visos ligzdotu formātu elementos zem atlasītā formāta elementa.
+10. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota **Level3** aizstāšanu ar jauno avotu **Līmeņi** visos ligzdotu formātu elementos zem atlasītā formāta elementa.
 
    Norādot aprēķinātā lauka parametru argumentu XML elementam, kas apzīmē nodokļu līmeni (piemēram, **Model.Data2.Levels("Reduced")** kā teksta vērtība), jums nav jādara tas pats ligzdotajiem XML atribūtiem — to saistījumi automātiski mantos argumenta vērtību, kas definēta pamatlīmenī (**Model.Data2.Levels.aggregated.Base**, nevis **Model.Data2.Levels("Reduced").aggregated.Base**).
 
@@ -299,8 +299,8 @@ Kad aprēķinātais parametru lauks atgriež ierakstu, jums ir jāatbalsta atsev
 
 ## <a name="export-completed-version-of-a-derived-format"></a>Eksportēt atvasinātā formāta pabeigtu versiju.
 
-1. Atlasiet **Formatēt, lai uzzinātu parametru izsaukumu (pielāgots)**  formātu konfigurācijas kokā.
-2. Kopsavilkuma cilnē **Versijas**  atlasiet pabeigto versiju 1.1.1.
+1. Atlasiet **Formatēt, lai uzzinātu parametru izsaukumu (pielāgots)** formātu konfigurācijas kokā.
+2. Kopsavilkuma cilnē **Versijas** atlasiet pabeigto versiju 1.1.1.
 3. Atlasiet **Maiņa**.
 4. Atlasiet **Eksportēt kā XML failu**.
 5. Saglabājiet lejupielādēto konfigurāciju lokāli XML formātā.
@@ -324,7 +324,7 @@ Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** t
 
     1. Atlasiet **Mainīt**.
     2. Atlasiet **Ielādēt no XML faila**.
-    3. Atlasiet **Pārlūkot**, lai atlasītu lokāli saglabāto failu **Formatēt, lai uzzinātu parametru izsaukumus (pielāgots)**  XML formātā.
+    3. Atlasiet **Pārlūkot**, lai atlasītu lokāli saglabāto failu **Formatēt, lai uzzinātu parametru izsaukumus (pielāgots)** XML formātā.
     4. Atlasiet **Labi**.
 
 ### <a name="run-er-formats"></a>Palaidiet ER formātus
@@ -339,4 +339,7 @@ Jūs varat importēt pārskatītās konfigurācijas no RCS, izmantojot **RCS** t
 8. Salīdziniet ģenerēto rezultātu saturu.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
+
+- [Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
+- [Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus](er-calculated-field-ds-performance.md)
+

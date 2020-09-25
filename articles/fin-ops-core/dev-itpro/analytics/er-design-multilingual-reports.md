@@ -3,7 +3,7 @@ title: Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 description: Šajā tēmā skaidrots, kā varat izmantot Elektronisko pārskatu (ER) etiķetes, lai veidotu un izveidotu daudzvalodu pārskatus.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444625"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810671"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444625"
 
 Kā biznesa lietotājs jūs varat izmantot [Elektronisko pārskatu (ER)](general-electronic-reporting.md) struktūru, lai konfigurētu izejošo dokumentu formātus, kas jums jāģenerē saskaņā ar dažādu valstu vai reģionu juridiskajām prasībām. Ja šīs prasības prasa, lai izejošie dokumenti tiktu ģenerēti dažādās valodās dažādām valstīm vai reģioniem, varat konfigurēt vienu ER [formātu](general-electronic-reporting.md#FormatComponentOutbound), kas satur no valodas atkarīgus resursus. Šādā veidā varat atkārtoti izmantot formātu, lai ģenerētu izejošos dokumentus dažādām valstīm vai reģioniem. Varat arī izmantot vienu ER formātu, lai ģenerētu izejošo dokumentu dažādās valodās attiecīgiem klientiem, kreditoriem, filiālēm vai jebkurai citai pusei.
 
-Varat konfigurēt ER datu modeļus un modeļu kartējumus kā datu avotus, kas ir konfigurēti, lai definētu datu plūsmu, kas norāda, kādi programmas dati tiek ievietoti ģenerētajos dokumentos. Kā ER konfigurācijas [nodrošinātājs](general-electronic-reporting.md#Provider) jūs varat [publicēt](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs) konfigurētos [datu modeļus](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeļu kartējumus](general-electronic-reporting.md#data-model-and-model-mapping-components)un [formātus](general-electronic-reporting.md#FormatComponentOutbound) kā detaļas, kas ļauj izveidot specifiskus izejošos dokumentus. Varat arī atļaut klientiem [augšupielādēt](general-electronic-reporting-manage-configuration-lifecycle.md) publicēto ER risinājumu, lai to varētu izmantot un pielāgot. Ja domājat, ka klienti var runāt citās valodās, varat konfigurēt ER komponentus, lai tajos būtu no valodas atkarīgi resursi. Šādā veidā rediģējamā ER komponenta saturu var sniegt klienta lietotāja vēlamajā valodā izstrādes laikā.
+Varat konfigurēt ER datu modeļus un modeļu kartējumus kā datu avotus, kas ir konfigurēti, lai definētu datu plūsmu, kas norāda, kādi programmas dati tiek ievietoti ģenerētajos dokumentos. Kā ER konfigurācijas [nodrošinātājs](general-electronic-reporting.md#Provider) jūs varat [publicēt](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) konfigurētos [datu modeļus](general-electronic-reporting.md#data-model-and-model-mapping-components), [modeļu kartējumus](general-electronic-reporting.md#data-model-and-model-mapping-components)un [formātus](general-electronic-reporting.md#FormatComponentOutbound) kā detaļas, kas ļauj izveidot specifiskus izejošos dokumentus. Varat arī atļaut klientiem [augšupielādēt](general-electronic-reporting-manage-configuration-lifecycle.md) publicēto ER risinājumu, lai to varētu izmantot un pielāgot. Ja domājat, ka klienti var runāt citās valodās, varat konfigurēt ER komponentus, lai tajos būtu no valodas atkarīgi resursi. Šādā veidā rediģējamā ER komponenta saturu var sniegt klienta lietotāja vēlamajā valodā izstrādes laikā.
 
 No valodas atkarīgus resursus varat konfigurēt kā ER etiķetes. Šīs etiķetes var izmantot, lai konfigurētu ER komponentus šādiem nolūkiem:
 
@@ -92,7 +92,7 @@ Kad **Lietotāja ievades parametru** datu avota **Etiķetes** atribūts ir konfi
 
 ### <a name="format-component"></a>Komponenta formāts
 
-Konfigurējot ER formātu, varat pievienot tam ER etiķetes. Katra konfigurētā datu avota **Etiķetes** un **Palīdzības teksta** atribūti var būt saistīti ar ER etiķeti, kas pievienotaER formātam. Katras <a id="LinkFormatEnum"></a> formāta uzskaitījuma vērtības **Etiķetes** un **Apraksta** atribūti var būt saistīti arī ar ER etiķeti, kas ir pieejama no rediģējamā ER formāta.
+Konfigurējot ER formātu, varat pievienot tam ER etiķetes. Katra konfigurētā datu avota **Etiķetes** un **Palīdzības teksta** atribūti var būt saistīti ar ER etiķeti, kas pievienotaER formātam. Katras <a id="LinkFormatEnum"></a>formāta uzskaitījuma vērtības **Etiķetes** un **Apraksta** atribūti var būt saistīti arī ar ER etiķeti, kas ir pieejama no rediģējamā ER formāta.
 
 > [!NOTE]
 > Varat arī saistīt šos atribūtus ar pamata ER datu modeļa ER etiķeti, kas atkārtoti izmanto modeļa etiķetes katrā ER formātā, kas ir konfigurēta šim ER datu modelim.

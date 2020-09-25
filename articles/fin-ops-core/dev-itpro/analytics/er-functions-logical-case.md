@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bba9cd190db61fda3636cc3c8093030f886b9bd
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 605bd50005ee4e5866a5be9e16df6da3139ad19c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041772"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744771"
 ---
-# <a name="CASE">CASE ER funkcija</a>
+# <a name="case-er-function"></a>CASE ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Ja pirmā rezultāta vērtība un *N*-tā rezultāta vērtība ir *Konteinera (i
 
 ## <a name="example"></a>Paraugs
 
-`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")`atgriež virkni **"WINTER"**, ja pašreizējās lietojumprogrammas sesijas datums ir no oktobra līdz decembrim. Pretējā gadījumā šī izteiksme atgriež tukšu virkni.
+`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` atgriež virkni **"WINTER"**, ja pašreizējās lietojumprogrammas sesijas datums ir no oktobra līdz decembrim. Pretējā gadījumā šī izteiksme atgriež tukšu virkni.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

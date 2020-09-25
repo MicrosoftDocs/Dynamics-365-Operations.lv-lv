@@ -1,6 +1,6 @@
 ---
 title: Īsinājumtaustiņi
-description: Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datus.
+description: Šī tēma sniedz apskatu par īsinājumtaustiņu kombinācijām, kuras varat izmantot, strādājot ar Finance and Operations programmām.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811559"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761625"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
 [!include [banner](../includes/banner.md)]
 
-Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datus.
+Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datus Finance and Operations programmās.
 
 > [!NOTE]
 > Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
@@ -73,7 +73,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Atvērt papildinformācijas rūti (vai aktivizēt papildinformācijas rūti, ja tās jau ir atvērta) | Alt+M,B vai Ctrl+F2                        |
 | Aizvērt papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                         | Esc                                       |
 | Pāriet uz nākamo/iepriekšējo papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)              | Alt+Shift+bultiņa uz leju/Alt+Shift+bultiņa uz augšu |
-| Pāriet uz papildinformācijas rūti Nr. &lt;n&gt; (kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
+| Pāriet uz papildinformācijas rūti Nr. &lt;n&gt;(kad papildinformācijas rūts ir aktivizēta)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Izvērst papildinformācijas rūti (kad papildinformācijas rūts ir aktivizēta)                             | Atstarpes taustiņš vai Enter                            |
 | Sakļaut pašreizējo papildinformācijas rūti                                                    | Alt+0                                     |
 
@@ -236,6 +236,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pāriet uz iepriekšējo/nākamo rindu uzmeklēšanas rūtī                                                                                        | Bultiņa uz augšu/bultiņa uz leju            |
 | Pāriet uz iepriekšējo/nākamo lapu uzmeklēšanas rūtī                                                                                       | Page Up/Page Down              |
 | Pāriet uz uzmeklēšanas rūts augšdaļu/apakšdaļu                                                                                    | Home/End                       |
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Tastatūras saīsnes trūkstošu kontu analīzei](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

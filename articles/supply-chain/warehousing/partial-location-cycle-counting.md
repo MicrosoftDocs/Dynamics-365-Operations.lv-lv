@@ -3,7 +3,7 @@ title: Daļēja novietojuma cikla inventarizācija
 description: Cikla inventarizācijas plāni vada faktiskās inventarizācijas operācijas. Varat pieprasīt, ka tiek uzskaitītas tikai noteiktas preces un preču varianti, nevis lai visi rīcībā esošie krājumi kādā novietojumā.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215681"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760011"
 ---
 # <a name="partial-location-cycle-counting"></a>Daļēja novietojuma cikla inventarizācija
 
@@ -45,13 +45,13 @@ Ja cikla inventarizācijas plānus saistāt ar darba veidnēm, izmantojot opciju
 
 Lai varētu apstrādāt daļēja cikla inventarizācijas darbu, kā daļa no cikla inventarizācijas iestatīšanas jums mobilās ierīces izvēlnes vienumam ir jāatlasa vismaz vienums **Parādīt krājuma numuru**. Noliktavas operatoram tiks lūgts ierakstīt tikai uzskaites informāciju, kas ir saistīta ar inventarizācijas rindām (krājumu kodus un preču dimensijas). Visi citi rīcībā esošie krājumi šim inventarizācijas procesam tiks ignorēti. 
 
-Attiecībā uz daļēja cikla inventarizācijas procesu datums/laiks **Pēdējā cikla inventarizācija** novietojumam netiek atjaunināts.
+Daļējā cikla inventarizācija procesam datums/laiks **Pēdējā cikla inventarizācija** novietojumam netiks atjaunināts, kaut arī visi krājumi, kas atrodas norādītajā novietojumā, tiek saskaitīti. Daļējā cikla inventarizācija neņem vērā parametru **Dienas starp cikla inventarizāciju** lapā **Cikla inventarizācijas plāni** . Daļēja cikla inventarizācija neatbalsta vienlaicīgu vairāku krājumu inventarizāciju vienā un tajā pašā novietojumā. Daļējas cikla inventarizācijas funkcionalitātes rezultātā viens un tāds pats novietojums krājumam var tikt skaitīts vairākas reizes, kad tiek palaists **Procesa cikla inventarizācijas plāns** . Lai izvairītos no šāda scenārija, norādiet filtrus laukā **Atlasīt novietojumus** .
 
-## <a name="example"></a>Piemērs
+## <a name="example"></a>Paraugs
 Šajā piemērā noliktavā 61 ir jāuzskaita tikai krājums numur A0001.
 
 1.  Tiek izveidota jauna darba veidne cikla inventarizācijai. Lai inventarizācijas darbu rindas grupētu pēc krājuma koda, tiek izmantota opcija **Darba rindas pārtraukumi**. Tādēļ izveidotajā cikla inventarizācijas darbā būs rindas katram krājuma kodam. Rindas varat grupēt arī pēc preces varianta numura.
-2.  Tiek izveidots jauns cikla inventarizācijas plāns, kura ir atsauce uz jaunizveidoto darba veidni. Šis cikla inventarizācijas plāns ietver visus novietojumus noliktavā 61 (vaicājums **Atlasīt novietojumus**), kuros atrodas krājums numuram A0001. Konkrētu preču atlase tiek definēta sadaļā **Cikla inventarizācijas preču atlases**.
+2.  Tiek izveidots jauns cikla inventarizācijas plāns, kura ir atsauce uz jaunizveidoto darba veidni. Šis cikla inventarizācijas plāns ietver visus novietojumus noliktavā 61 (**Atlasīt novietojumus** vaicājums), kuros atrodas krājums numuram A0001. Konkrētu preču atlase tiek definēta sadaļā **Cikla inventarizācijas preču atlases**.
 3.  Varat atlasīt preces cikla inventarizācijas plāniem, iestatot lauka **Iztukšot atrašanās vietas** vērtību **Izslēgt tukšos**. Apstrādājot cikla inventarizācijas plānu, tiek izveidots daļēja cikla inventarizācijas darbs krājumam Nr. A0001. Faktisko uzskaites procesu var veikt, izmantojot mobilās ierīces izvēlnes vienumu vadītajai cikla inventarizācijai.
 
 

@@ -1,9 +1,9 @@
 ---
 title: Jaunumi un izmaiņas programmā Human Resources
-description: Katru nedēļu mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas rakstos ir detalizēta informācija par katru nedēļu izdarītajām izmaiņām.
+description: Katru nedēļu mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas tēmās ir detalizēta informācija par katru nedēļu izdarītajām izmaiņām.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712181"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760305"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
-Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas rakstos ir detalizēta informācija par katrā laidienā izdarītajām izmaiņām.
+Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas tēmās ir detalizēta informācija par katra izlaiduma izdarītajām izmaiņām.
 
-Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšanas procesu Human Resources, skatiet tālāk minētos rakstus:
+>[!NOTE]
+>Lai uzskaitītu brīvdienas, 2020. gada novembra un decembra izlaišanas grafiks ir šāds:
+>
+>- Novembra izlaidums: 2. novembris - 13. novembris
+>- Decembra izlaidums: 30. novembris - 11. decembris
+> 
+>Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2021. gada 11. janvārī.
+
+Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšanas procesu Human Resources, skatiet tālāk minētos rakstus: 
 
 - [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -39,8 +47,9 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 ## <a name="human-resources-weekly-releases"></a>Human Resources nedēļas laidieni
 
-Lai redzētu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
+Lai uzzinātu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
+[2020. gada 3. septembris](hr-whats-new-2020-09-03.md)</br>
 [2020. gada 20. augusts](hr-whats-new-2020-08-20.md)</br>
 [2020. gada 6. augusts](hr-whats-new-2020-08-06.md)</br>
 [2020. gada 23. jūlijs](hr-whats-new-2020-07-23.md)</br>

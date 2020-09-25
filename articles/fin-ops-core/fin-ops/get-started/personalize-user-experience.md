@@ -3,7 +3,7 @@ title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
 manager: AnnBe
-ms.date: 07/28/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8afbea3b3a6a06d005efae7305b2e394907c67c
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: f01580117b22191976400b2e2ba1a5dde8ad559d
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652135"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802995"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā izskaidrots, kā varat personalizēt programmu, un ir aptvertas šādas tēmas: 
 
@@ -130,7 +129,7 @@ Rīkjoslā **Personalizēšana** ir pieejami tālāk uzskaitītie rīki.
 - Izmantojiet rīku **Pieprasīt**, lai norādītu elementu, kas nepieciešams datu ievadei. Kad uzdevumu joslā atlasāt pogu **Pieprasīt**, visi elementi, kas ir personalizēti, lai padarītu tos obligātus, tiek rādīti ēnotā konteinerā. Pēc tam tie vairs nav nepieciešami. Šī opcija ir pieejama tikai tad, ja ir aktivizēta versija 10.0.12 un jaunāka versija, kad līdzeklis **Norādīt laukus kā obligātus, izmantojot personalizāciju** ir ieslēgts.
 - Izmantojiet rīku **Bloķēt**, lai kādu elementu atzīmētu kā rediģējamu vai nerediģējamu. Kad uzdevumu joslā atlasāt pogu **Bloķēt**, visi pašlaik nerediģējami elementi tiek rādīti ēnotā konteinerā. Pēc tam varat tos atkal padarīt par rediģējamiem. Ņemiet vērā, ka daži lauki ir obligāti un tos nevar padarīt nerediģējamus Pie šiem laukiem tiek rādīts piekaramās slēdzenes simbols.
 - Izmantojiet rīku **Pievienot programmu no Power Apps** lai lapā iegultu programmu, kura ir izveidota, izmantojot Microsoft Power Apps. Plašāku informāciju par to, kā lapā iegult programmu no Power Apps, skatiet tēmā [Iegult programmas no Power Apps](embed-power-apps.md). Šī opcija ir pieejama tikai tad, ja ir izslēgts līdzeklis [Saglabātie skati](saved-views.md).
-- Izmantojiet pogu**Pievienot programmu**, lai lapā iegultu programmu – vai nu to, kas izveidota no Microsoft Power Apps vai trešās puses. Šī opcija ir pieejama tikai tad, ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md). 
+- Izmantojiet pogu **Pievienot programmu**, lai lapā iegultu programmu – vai nu to, kas izveidota no Microsoft Power Apps vai trešās puses. Šī opcija ir pieejama tikai tad, ja ir ieslēgts līdzeklis [Saglabātie skati](saved-views.md). 
 - Izmantojiet rīku **Notīrīt**, lai lapai atiestatītu noklusējuma instalēto stāvokli. Tādējādi tiek noņemti visas pašreizējās lapas personalizēšanas iestatījumi. Šo darbību nevar atsaukt. Tādēļ šo rīku ir jāizmanto tikai tad, ja esat pārliecināts, ka vēlaties lapu atiestatīt. Kad līdzeklis **Saglabātie skati** ir ieslēgts, šis rīks notīra personalizācijas pašreizējam skatam.
 - Izmantojiet rīku **Importēt**, lai ielādētu personalizēšanu no kāda faila, kuru iepriekš izveidojāt jūs pats vai kāds cits. 
 

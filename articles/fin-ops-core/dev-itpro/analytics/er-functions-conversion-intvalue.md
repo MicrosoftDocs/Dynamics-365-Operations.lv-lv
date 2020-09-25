@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e06236bf1d158a4cf579b8b89cc0a5f7d815c38
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: c5c3e4c8bd918fa1154d2c111970d2f6d0e90e08
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042659"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743643"
 ---
-# <a name="INTVALUE">INTVALUE ER funkcija</a>
+# <a name="intvalue-er-function"></a>INTVALUE ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,11 +65,11 @@ Tiek aprautas visas decimāldaļas.
 
 ## <a name="example-1"></a>1. piemērs
 
-`INTVALUE ("100.77")`atgriež *Int* vērtību **100**.
+`INTVALUE ("100.77")` atgriež *Int* vērtību **100**.
 
 ## <a name="example-2"></a>2. piemērs
 
-`INTVALUE (-100.77)`atgriež *Int* vērtību **-100**.
+`INTVALUE (-100.77)` atgriež *Int* vērtību **-100**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
