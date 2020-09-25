@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c7b32e2a9578f8864570a552817ec3ce28fa43
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 1a21140e5636ebd96eca4be90308c915e77510e1
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041180"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743907"
 ---
-# <span data-ttu-id="60e6a-103"><a name="CONCATENATE">CONCATENATE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="60e6a-103"><a name="CONCATENATE">CONCATENATE ER function</a></span></span>
+# <a name="concatenate-er-function"></a><span data-ttu-id="2419b-103">CONCATENATE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="2419b-103">CONCATENATE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="60e6a-104">`CONCATENATE` funkcija atgriež visas norādītās teksta virknes kā *Virknes* vērtību pēc tam, kad tās ir apvienotas vienā virknē.</span><span class="sxs-lookup"><span data-stu-id="60e6a-104">The `CONCATENATE` function returns all the specified text strings as a *String* value after they have been joined into one string.</span></span>
+<span data-ttu-id="2419b-104">`CONCATENATE` funkcija atgriež visas norādītās teksta virknes kā *Virknes* vērtību pēc tam, kad tās ir apvienotas vienā virknē.</span><span class="sxs-lookup"><span data-stu-id="2419b-104">The `CONCATENATE` function returns all the specified text strings as a *String* value after they have been joined into one string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="60e6a-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="60e6a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2419b-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="2419b-105">Syntax</span></span>
 
 ```vb
 CONCATENATE (text 1[, text 2, …, text N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="60e6a-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="60e6a-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2419b-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="2419b-106">Arguments</span></span>
 
-<span data-ttu-id="60e6a-107">`text 1`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="60e6a-107">`text 1`: *String*</span></span>
+<span data-ttu-id="2419b-107">`text 1`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="2419b-107">`text 1`: *String*</span></span>
 
-<span data-ttu-id="60e6a-108">Atsauce uz datu avotu *Virknes* datu tipam.</span><span class="sxs-lookup"><span data-stu-id="60e6a-108">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="60e6a-109">Šis arguments ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="60e6a-109">This argument is required.</span></span>
+<span data-ttu-id="2419b-108">Atsauce uz datu avotu *Virknes* datu tipam.</span><span class="sxs-lookup"><span data-stu-id="2419b-108">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="2419b-109">Šis arguments ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="2419b-109">This argument is required.</span></span>
 
-<span data-ttu-id="60e6a-110">`text N`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="60e6a-110">`text N`: *String*</span></span>
+<span data-ttu-id="2419b-110">`text N`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="2419b-110">`text N`: *String*</span></span>
 
-<span data-ttu-id="60e6a-111">Atsauce uz datu avotu *Virknes* datu tipam.</span><span class="sxs-lookup"><span data-stu-id="60e6a-111">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="60e6a-112">Šie papildu argumenti nav obligāti.</span><span class="sxs-lookup"><span data-stu-id="60e6a-112">These additional arguments are optional.</span></span>
+<span data-ttu-id="2419b-111">Atsauce uz datu avotu *Virknes* datu tipam.</span><span class="sxs-lookup"><span data-stu-id="2419b-111">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="2419b-112">Šie papildu argumenti nav obligāti.</span><span class="sxs-lookup"><span data-stu-id="2419b-112">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="60e6a-113">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="60e6a-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2419b-113">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="2419b-113">Return values</span></span>
 
-<span data-ttu-id="60e6a-114">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="60e6a-114">*String*</span></span>
+<span data-ttu-id="2419b-114">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="2419b-114">*String*</span></span>
 
-<span data-ttu-id="60e6a-115">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="60e6a-115">The resulting text value.</span></span>
+<span data-ttu-id="2419b-115">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="2419b-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="60e6a-116">Paraugs</span><span class="sxs-lookup"><span data-stu-id="60e6a-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2419b-116">Paraugs</span><span class="sxs-lookup"><span data-stu-id="2419b-116">Example</span></span>
 
-<span data-ttu-id="60e6a-117">`CONCATENATE ("abc", "def")`atgriež **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="60e6a-117">`CONCATENATE ("abc", "def")` returns **"abcdef"**.</span></span>
+<span data-ttu-id="2419b-117">`CONCATENATE ("abc", "def")` atgriež **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="2419b-117">`CONCATENATE ("abc", "def")` returns **"abcdef"**.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="60e6a-118">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="60e6a-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="2419b-118">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="2419b-118">Usage notes</span></span>
 
-<span data-ttu-id="60e6a-119">Arī izteiksme `"abc" & "def"` atgriež **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="60e6a-119">The expression `"abc" & "def"` also returns **"abcdef"**.</span></span>
+<span data-ttu-id="2419b-119">Arī izteiksme `"abc" & "def"` atgriež **"abcdef"**.</span><span class="sxs-lookup"><span data-stu-id="2419b-119">The expression `"abc" & "def"` also returns **"abcdef"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="60e6a-120">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="60e6a-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2419b-120">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="2419b-120">Additional resources</span></span>
 
-[<span data-ttu-id="60e6a-121">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="60e6a-121">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="2419b-121">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="2419b-121">Text functions</span></span>](er-functions-category-text.md)
