@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fcb8a617507801d82d16175e9e86c9193091a12
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 78b69b5280fb8c7ed99d73568097cd0c080a807a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042692"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744843"
 ---
-# <span data-ttu-id="dccaf-103"><a name="INT64VALUE">INT64VALUE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="dccaf-103"><a name="INT64VALUE">INT64VALUE ER function</a></span></span>
+# <a name="int64value-er-function"></a><span data-ttu-id="31867-103">INT64VALUE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="31867-103">INT64VALUE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dccaf-104">`INT64VALUE` funkcija atgriež *Int64* vērtību, kas apzīmē norādīto virkni.</span><span class="sxs-lookup"><span data-stu-id="dccaf-104">The `INT64VALUE` function returns an *Int64* value that represents the specified string.</span></span>
+<span data-ttu-id="31867-104">`INT64VALUE` funkcija atgriež *Int64* vērtību, kas apzīmē norādīto virkni.</span><span class="sxs-lookup"><span data-stu-id="31867-104">The `INT64VALUE` function returns an *Int64* value that represents the specified string.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="dccaf-105">Sintakse 1</span><span class="sxs-lookup"><span data-stu-id="dccaf-105">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="31867-105">Sintakse 1</span><span class="sxs-lookup"><span data-stu-id="31867-105">Syntax 1</span></span>
 
 ```vb
 INT64VALUE (text)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="dccaf-106">Sintakse 2</span><span class="sxs-lookup"><span data-stu-id="dccaf-106">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="31867-106">Sintakse 2</span><span class="sxs-lookup"><span data-stu-id="31867-106">Syntax 2</span></span>
 
 ```vb
 INT64VALUE (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="dccaf-107">Argumenti</span><span class="sxs-lookup"><span data-stu-id="dccaf-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="31867-107">Argumenti</span><span class="sxs-lookup"><span data-stu-id="31867-107">Arguments</span></span>
 
-<span data-ttu-id="dccaf-108">`text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="dccaf-108">`text`: *String*</span></span>
+<span data-ttu-id="31867-108">`text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="31867-108">`text`: *String*</span></span>
 
-<span data-ttu-id="dccaf-109">Teksta vērtība, kas ir jāpārvērš par *Int64* skaitli.</span><span class="sxs-lookup"><span data-stu-id="dccaf-109">A text value that must be converted to an *Int64* number.</span></span>
+<span data-ttu-id="31867-109">Teksta vērtība, kas ir jāpārvērš par *Int64* skaitli.</span><span class="sxs-lookup"><span data-stu-id="31867-109">A text value that must be converted to an *Int64* number.</span></span>
 
-<span data-ttu-id="dccaf-110">`number`: *Reāls* vai *Vesels skaitlis*</span><span class="sxs-lookup"><span data-stu-id="dccaf-110">`number`: *Real* or *Integer*</span></span>
+<span data-ttu-id="31867-110">`number`: *Reāls* vai *Vesels skaitlis*</span><span class="sxs-lookup"><span data-stu-id="31867-110">`number`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="dccaf-111">Skaitliska *Reālā* vai *Veselā skaitļa* vērtība , kas ir jāpārvērš par *Int64* skaitli.</span><span class="sxs-lookup"><span data-stu-id="dccaf-111">A numeric *Real* or *Integer* value that must be converted to an *Int64* number.</span></span>
+<span data-ttu-id="31867-111">Skaitliska *Reālā* vai *Veselā skaitļa* vērtība , kas ir jāpārvērš par *Int64* skaitli.</span><span class="sxs-lookup"><span data-stu-id="31867-111">A numeric *Real* or *Integer* value that must be converted to an *Int64* number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="dccaf-112">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="dccaf-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="31867-112">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="31867-112">Return values</span></span>
 
-<span data-ttu-id="dccaf-113">*Int64*</span><span class="sxs-lookup"><span data-stu-id="dccaf-113">*Int64*</span></span>
+<span data-ttu-id="31867-113">*Int64*</span><span class="sxs-lookup"><span data-stu-id="31867-113">*Int64*</span></span>
 
-<span data-ttu-id="dccaf-114">Iegūtā skaitliskā vērtība.</span><span class="sxs-lookup"><span data-stu-id="dccaf-114">The resulting numeric value.</span></span>
+<span data-ttu-id="31867-114">Iegūtā skaitliskā vērtība.</span><span class="sxs-lookup"><span data-stu-id="31867-114">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="dccaf-115">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="dccaf-115">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="31867-115">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="31867-115">Usage notes</span></span>
 
-<span data-ttu-id="dccaf-116">Tiek aprautas visas decimāldaļas.</span><span class="sxs-lookup"><span data-stu-id="dccaf-116">Any decimal places are truncated.</span></span>
+<span data-ttu-id="31867-116">Tiek aprautas visas decimāldaļas.</span><span class="sxs-lookup"><span data-stu-id="31867-116">Any decimal places are truncated.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="dccaf-117">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="dccaf-117">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="31867-117">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="31867-117">Example 1</span></span>
 
-<span data-ttu-id="dccaf-118">`INT64VALUE ("22565422744")`atgriež *Int64* vērtību **22565422744**.</span><span class="sxs-lookup"><span data-stu-id="dccaf-118">`INT64VALUE ("22565422744")` returns the *Int64* value **22565422744**.</span></span>
+<span data-ttu-id="31867-118">`INT64VALUE ("22565422744")` atgriež *Int64* vērtību **22565422744**.</span><span class="sxs-lookup"><span data-stu-id="31867-118">`INT64VALUE ("22565422744")` returns the *Int64* value **22565422744**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="dccaf-119">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="dccaf-119">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="31867-119">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="31867-119">Example 2</span></span>
 
-<span data-ttu-id="dccaf-120">`INT64VALUE ( VALUE("22565422744.77"))`atgriež *Int64* vērtību **22565422744**.</span><span class="sxs-lookup"><span data-stu-id="dccaf-120">`INT64VALUE ( VALUE("22565422744.77"))` returns the *Int64* value **22565422744**.</span></span>
+<span data-ttu-id="31867-120">`INT64VALUE ( VALUE("22565422744.77"))` atgriež *Int64* vērtību **22565422744**.</span><span class="sxs-lookup"><span data-stu-id="31867-120">`INT64VALUE ( VALUE("22565422744.77"))` returns the *Int64* value **22565422744**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="dccaf-121">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="dccaf-121">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="31867-121">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="31867-121">Additional resources</span></span>
 
-[<span data-ttu-id="dccaf-122">Tipa pārveidošanas funkcijas</span><span class="sxs-lookup"><span data-stu-id="dccaf-122">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
+[<span data-ttu-id="31867-122">Tipa pārveidošanas funkcijas</span><span class="sxs-lookup"><span data-stu-id="31867-122">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
