@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: be4050f24127491a3b2a57c9b9a0b2163e3f9e52
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 54beb1db7df5a6a5cfa02f038822c41f13a9e1b8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019892"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744459"
 ---
-# <span data-ttu-id="7ea31-103"><a name="ScreenDestinationType">Ekrāna galamērķis</a></span><span class="sxs-lookup"><span data-stu-id="7ea31-103"><a name="ScreenDestinationType">Screen destination</a></span></span>
+# <a name="screen-destination"></a><span data-ttu-id="c9457-103">Ekrāna galamērķis</span><span class="sxs-lookup"><span data-stu-id="c9457-103">Screen destination</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7ea31-104">Varat konfigurēt galamērķi ekrānu katram mapes vai faila komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="7ea31-104">You can configure a screen destination for each folder or file component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="7ea31-105">Pamatojoties uz galamērķa iestatījumu, ģenerētais dokuments ir atverams priekšskatījumam atsevišķā tīmekļa pārlūka cilnē.</span><span class="sxs-lookup"><span data-stu-id="7ea31-105">Based on the setting of the destination, a generated document is opened for preview in a separate browser tab.</span></span>
+<span data-ttu-id="c9457-104">Varat konfigurēt galamērķi ekrānu katram mapes vai faila komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="c9457-104">You can configure a screen destination for each folder or file component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="c9457-105">Pamatojoties uz galamērķa iestatījumu, ģenerētais dokuments ir atverams priekšskatījumam atsevišķā tīmekļa pārlūka cilnē.</span><span class="sxs-lookup"><span data-stu-id="c9457-105">Based on the setting of the destination, a generated document is opened for preview in a separate browser tab.</span></span>
 
-<span data-ttu-id="7ea31-106">Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priekšskatījums.</span><span class="sxs-lookup"><span data-stu-id="7ea31-106">If you set **Enabled** to **Yes**, a preview of the output is created.</span></span> <span data-ttu-id="7ea31-107">Noteiktu tipu failus, piemēram, XML, TXT vai PDF failus, varat skatīt tieši pārlūkprogrammas logā.</span><span class="sxs-lookup"><span data-stu-id="7ea31-107">You can view some file types, such as XML, TXT, or PDF, directly in a browser window.</span></span> <span data-ttu-id="7ea31-108">Citi tipu failiem, piemēram, Microsoft Excel vai Word failiem, tiek izmantots pakalpojums Microsoft Office Online.</span><span class="sxs-lookup"><span data-stu-id="7ea31-108">For other file types, such Microsoft Excel or Word, the Microsoft Office Online service is used.</span></span>
+<span data-ttu-id="c9457-106">Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priekšskatījums.</span><span class="sxs-lookup"><span data-stu-id="c9457-106">If you set **Enabled** to **Yes**, a preview of the output is created.</span></span> <span data-ttu-id="c9457-107">Noteiktu tipu failus, piemēram, XML, TXT vai PDF failus, varat skatīt tieši pārlūkprogrammas logā.</span><span class="sxs-lookup"><span data-stu-id="c9457-107">You can view some file types, such as XML, TXT, or PDF, directly in a browser window.</span></span> <span data-ttu-id="c9457-108">Citi tipu failiem, piemēram, Microsoft Excel vai Word failiem, tiek izmantots pakalpojums Microsoft Office Online.</span><span class="sxs-lookup"><span data-stu-id="c9457-108">For other file types, such Microsoft Excel or Word, the Microsoft Office Online service is used.</span></span>
 
-<span data-ttu-id="7ea31-109">[![Galamērķa iestatījumu lapa](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span><span class="sxs-lookup"><span data-stu-id="7ea31-109">[![Destination setting page](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span></span>
+<span data-ttu-id="c9457-109">[![Galamērķa iestatījumu lapa](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span><span class="sxs-lookup"><span data-stu-id="c9457-109">[![Destination setting page](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="7ea31-110">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="7ea31-110">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c9457-110">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="c9457-110">Additional resources</span></span>
 
-- [<span data-ttu-id="7ea31-111">Elektronisko pārskatu veidošanas (ER) apskats</span><span class="sxs-lookup"><span data-stu-id="7ea31-111">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
-- [<span data-ttu-id="7ea31-112">Elektroniskās pārskatu veidošanas (ER) adresāti</span><span class="sxs-lookup"><span data-stu-id="7ea31-112">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="c9457-111">Elektronisko pārskatu veidošanas (ER) apskats</span><span class="sxs-lookup"><span data-stu-id="c9457-111">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+- [<span data-ttu-id="c9457-112">Elektroniskās pārskatu veidošanas (ER) adresāti</span><span class="sxs-lookup"><span data-stu-id="c9457-112">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)

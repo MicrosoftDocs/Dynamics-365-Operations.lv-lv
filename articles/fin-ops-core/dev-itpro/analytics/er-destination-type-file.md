@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 700867db1ffa42c46a3f13cad9cd4f0a167bad49
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: d1fb9c89a381602f2f4911acf737aa6029f7f2ae
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019890"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744747"
 ---
-# <span data-ttu-id="20b7c-103"><a name="FileDestinationType">Faila adresāts</a></span><span class="sxs-lookup"><span data-stu-id="20b7c-103"><a name="FileDestinationType">File destination</a></span></span>
+# <a name="file-destination"></a><span data-ttu-id="a0640-103">Faila adresāts</span><span class="sxs-lookup"><span data-stu-id="a0640-103">File destination</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="20b7c-104">Varat konfigurēt faila adresātu katram MAPES vai FAILA komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="20b7c-104">You can configure a file destination for each FOLDER or FILE component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="20b7c-105">Pamatojoties uz mērķa iestatījumu, ģenerētais dokuments ir pieejams lejupielādei no tīmekļa pārlūka.</span><span class="sxs-lookup"><span data-stu-id="20b7c-105">Based on the setting of the destination, a generated document is available for download from the web browser.</span></span>
+<span data-ttu-id="a0640-104">Varat konfigurēt faila adresātu katram MAPES vai FAILA komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.</span><span class="sxs-lookup"><span data-stu-id="a0640-104">You can configure a file destination for each FOLDER or FILE component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="a0640-105">Pamatojoties uz mērķa iestatījumu, ģenerētais dokuments ir pieejams lejupielādei no tīmekļa pārlūka.</span><span class="sxs-lookup"><span data-stu-id="a0640-105">Based on the setting of the destination, a generated document is available for download from the web browser.</span></span>
 
-<span data-ttu-id="20b7c-106">Ja lapā **Adresāta iestatījumi** opciju **Iespējots** iestatāt uz **Jā**, tad pēc konfigurācijas izpildīšanas tiek parādīts atvēršanas vai saglabāšanas dialoglodziņš.</span><span class="sxs-lookup"><span data-stu-id="20b7c-106">On the **Destination settings** page, if you set **Enabled** to **Yes**, an open or save dialog box opens when the configuration has finished running.</span></span>
+<span data-ttu-id="a0640-106">Ja lapā **Adresāta iestatījumi** opciju **Iespējots** iestatāt uz **Jā**, tad pēc konfigurācijas izpildīšanas tiek parādīts atvēršanas vai saglabāšanas dialoglodziņš.</span><span class="sxs-lookup"><span data-stu-id="a0640-106">On the **Destination settings** page, if you set **Enabled** to **Yes**, an open or save dialog box opens when the configuration has finished running.</span></span>
 
-<span data-ttu-id="20b7c-107">[![Adresāta iestatījumu lapa](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)</span><span class="sxs-lookup"><span data-stu-id="20b7c-107">[![Destination setting page](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)</span></span>
+<span data-ttu-id="a0640-107">[![Adresāta iestatījumu lapa](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)</span><span class="sxs-lookup"><span data-stu-id="a0640-107">[![Destination setting page](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="20b7c-108">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="20b7c-108">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a0640-108">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="a0640-108">Additional resources</span></span>
 
-- [<span data-ttu-id="20b7c-109">Elektronisko pārskatu veidošanas (ER) apskats</span><span class="sxs-lookup"><span data-stu-id="20b7c-109">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
-- [<span data-ttu-id="20b7c-110">Elektroniskās pārskatu veidošanas (ER) adresāti</span><span class="sxs-lookup"><span data-stu-id="20b7c-110">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="a0640-109">Elektronisko pārskatu veidošanas (ER) apskats</span><span class="sxs-lookup"><span data-stu-id="a0640-109">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+- [<span data-ttu-id="a0640-110">Elektroniskās pārskatu veidošanas (ER) adresāti</span><span class="sxs-lookup"><span data-stu-id="a0640-110">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)

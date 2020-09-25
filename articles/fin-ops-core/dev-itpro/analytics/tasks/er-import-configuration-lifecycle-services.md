@@ -1,14 +1,14 @@
 ---
-title: ER Importēt konfigurāciju no Lifecycle Services
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Lifecycle Services (LCS).
+title: Importēt konfigurāciju no Lifecycle Services
+description: Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142390"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810647"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="7af20-103">ER Importēt konfigurāciju no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="7af20-103">ER Import a configuration from Lifecycle Services</span></span>
+# <a name="import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="b9618-103">Importēt konfigurāciju no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b9618-103">Import a configuration from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7af20-104">Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="7af20-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="b9618-104">Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu [Elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācija](../general-electronic-reporting.md#Configuration) versiju no [projekta līmeņa līdzekļu bibliotēka](../../lifecycle-services/asset-library.md) Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="b9618-104">This topic explains how a user in the System administrator or Electronic reporting developer role can import a new version of an [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) from the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="7af20-105">Šajā piemērā jūs atlasīsiet vēlamo ER konfigurācijas versiju un importēsiet to parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos.</span><span class="sxs-lookup"><span data-stu-id="7af20-105">In this example, you will select the desired version of the ER configuration and import it for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="7af20-106">Lai izpildītu šīs darbības, jums vispirms ir jāizpilda procedūras "Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services" darbības.</span><span class="sxs-lookup"><span data-stu-id="7af20-106">To complete these steps, you must first complete the steps in the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="7af20-107">Lai izpildītu šīs darbības, ir nepieciešama arī piekļuve pakalpojumiem LCS.</span><span class="sxs-lookup"><span data-stu-id="7af20-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="b9618-105">Šajā piemērā jūs atlasīsiet vēlamo ER konfigurācijas versiju un importēsiet to parauga uzņēmumam ar nosaukumu Litware, Inc. Šīs darbības var pabeigt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos.</span><span class="sxs-lookup"><span data-stu-id="b9618-105">In this example, you will select the desired version of the ER configuration and import it for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="b9618-106">Lai izpildītu šīs darbības, jums vispirms ir jāizpilda procedūras [Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span><span class="sxs-lookup"><span data-stu-id="b9618-106">To complete these steps, you must first complete the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="b9618-107">Ir nepieciešama arī piekļuve LCS.</span><span class="sxs-lookup"><span data-stu-id="b9618-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="7af20-108">Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.</span><span class="sxs-lookup"><span data-stu-id="7af20-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="7af20-109">Noklikšķiniet uz Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="7af20-109">Click Configurations.</span></span>
+1. <span data-ttu-id="b9618-108">Pierakstieties programmā, izmantojot vienu no šīm lomām:</span><span class="sxs-lookup"><span data-stu-id="b9618-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a><span data-ttu-id="7af20-110">Dzēst koplietotu datu modeļa konfigurācijas versiju</span><span class="sxs-lookup"><span data-stu-id="7af20-110">Delete a shared version of data model configuration</span></span>
-1. <span data-ttu-id="7af20-111">Koka struktūrā atlasiet “Parauga modeļa konfigurācija”.</span><span class="sxs-lookup"><span data-stu-id="7af20-111">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="7af20-112">Parauga datu modeļa konfigurācijas pirmā versija tiek izveidota un pakalpojumos LCS tiek publicēta, izpildot procedūru "Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services".</span><span class="sxs-lookup"><span data-stu-id="7af20-112">The first version of a sample data model configuration has been created and published to LCS during the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="7af20-113">Šajā procedūrā jūs dzēsīsiet šo ER konfigurācijas versiju.</span><span class="sxs-lookup"><span data-stu-id="7af20-113">In this procedure, you will delete this version of the ER configuration.</span></span> <span data-ttu-id="7af20-114">Šī parauga datu modeļa konfigurācijas versija vēlāk tiks importēta no LCS.</span><span class="sxs-lookup"><span data-stu-id="7af20-114">This version of a sample data model configuration will be imported later from LCS.</span></span>  
-2. <span data-ttu-id="7af20-115">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7af20-115">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7af20-116">Atlasiet šīs konfigurācijas versiju, kuras statuss ir 'Koplietots'.</span><span class="sxs-lookup"><span data-stu-id="7af20-116">Select the version of this configuration that is in the 'Shared' status.</span></span> <span data-ttu-id="7af20-117">Šis statuss norāda, ka konfigurācija ir publicēta pakalpojumos LCS.</span><span class="sxs-lookup"><span data-stu-id="7af20-117">This status indicates that the configuration has been published to LCS.</span></span>  
-3. <span data-ttu-id="7af20-118">Noklikšķiniet uz Mainīt statusu.</span><span class="sxs-lookup"><span data-stu-id="7af20-118">Click Change status.</span></span>
-4. <span data-ttu-id="7af20-119">Noklikšķiniet uz Pārtraukt.</span><span class="sxs-lookup"><span data-stu-id="7af20-119">Click Discontinue.</span></span>
-    * <span data-ttu-id="7af20-120">Atlasītās versijas statusu no 'Koplietots' mainiet uz 'Pārtraukts', lai tā kļūtu pieejama dzēšanai.</span><span class="sxs-lookup"><span data-stu-id="7af20-120">Change the status of the selected version from 'Shared' to 'Discontinued' to make it available for deletion.</span></span>  
-5. <span data-ttu-id="7af20-121">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="7af20-121">Click OK.</span></span>
-6. <span data-ttu-id="7af20-122">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7af20-122">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7af20-123">Atlasiet šīs konfigurācijas versiju, kuras statuss ir 'Pārtraukts'.</span><span class="sxs-lookup"><span data-stu-id="7af20-123">Select the version of this configuration that has a status of 'Discontinued'.</span></span>  
-7. <span data-ttu-id="7af20-124">Noklikšķiniet uz Dzēst.</span><span class="sxs-lookup"><span data-stu-id="7af20-124">Click Delete.</span></span>
-8. <span data-ttu-id="7af20-125">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="7af20-125">Click Yes.</span></span>
-    * <span data-ttu-id="7af20-126">Ņemiet vērā, ka atlasītajai datu modeļa konfigurācijai ir pieejama tikai melnraksta 2. versija.</span><span class="sxs-lookup"><span data-stu-id="7af20-126">Note that the only draft version 2 of the selected data model configuration is available.</span></span>  
-9. <span data-ttu-id="7af20-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7af20-127">Close the page.</span></span>
+    - <span data-ttu-id="b9618-109">Elektroniskā pārskata izstrādātājs</span><span class="sxs-lookup"><span data-stu-id="b9618-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="b9618-110">Sistēmas administrators</span><span class="sxs-lookup"><span data-stu-id="b9618-110">System administrator</span></span>
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a><span data-ttu-id="7af20-128">Importēt koplietotu datu modeļa konfigurācijas versiju no LCS</span><span class="sxs-lookup"><span data-stu-id="7af20-128">Import a shared version of data model configuration from LCS</span></span>
-1. <span data-ttu-id="7af20-129">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="7af20-129">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="7af20-130">Atveriet sarakstu ar repozitorijiem, kas paredzēti 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="7af20-130">Open the list of repositories for the 'Litware, Inc.'</span></span> <span data-ttu-id="7af20-131">konfigurācijas nodrošinātājam.</span><span class="sxs-lookup"><span data-stu-id="7af20-131">configuration provider.</span></span>  
-2. <span data-ttu-id="7af20-132">Noklikšķiniet uz Repozitoriji.</span><span class="sxs-lookup"><span data-stu-id="7af20-132">Click Repositories.</span></span>
-3. <span data-ttu-id="7af20-133">Noklikšķiniet uz Atvērt.</span><span class="sxs-lookup"><span data-stu-id="7af20-133">Click Open.</span></span>
-    * <span data-ttu-id="7af20-134">Atlasiet LCS repozitoriju un atveriet to.</span><span class="sxs-lookup"><span data-stu-id="7af20-134">Select the LCS repository and open it.</span></span>  
-4. <span data-ttu-id="7af20-135">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="7af20-135">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="7af20-136">Versiju sarakstā atlasiet konfigurācijas “Parauga modeļa konfigurācija” pirmo versiju.</span><span class="sxs-lookup"><span data-stu-id="7af20-136">Select the first version of the 'Sample model configuration' in the versions list.</span></span>  
-5. <span data-ttu-id="7af20-137">Noklikšķiniet uz Importēt.</span><span class="sxs-lookup"><span data-stu-id="7af20-137">Click Import.</span></span>
-6. <span data-ttu-id="7af20-138">Noklikšķiniet uz Jā.</span><span class="sxs-lookup"><span data-stu-id="7af20-138">Click Yes.</span></span>
-    * <span data-ttu-id="7af20-139">Apstipriniet atlasītās versijas importēšanu no LCS.</span><span class="sxs-lookup"><span data-stu-id="7af20-139">Confirm the import of the selected version from LCS .</span></span>  
-    * <span data-ttu-id="7af20-140">Ņemiet vērā, ka informatīvais ziņojums (virs formas) apstiprina, ka atlasītās versijas importēšana ir sekmīgi pabeigta.</span><span class="sxs-lookup"><span data-stu-id="7af20-140">Note that the information message (above the form) confirms the successful completion of the import of the selected version.</span></span>  
-7. <span data-ttu-id="7af20-141">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7af20-141">Close the page.</span></span>
-8. <span data-ttu-id="7af20-142">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7af20-142">Close the page.</span></span>
-9. <span data-ttu-id="7af20-143">Noklikšķiniet uz Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="7af20-143">Click Configurations.</span></span>
-10. <span data-ttu-id="7af20-144">Koka struktūrā atlasiet “Parauga modeļa konfigurācija”.</span><span class="sxs-lookup"><span data-stu-id="7af20-144">In the tree, select 'Sample model configuration'.</span></span>
-11. <span data-ttu-id="7af20-145">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7af20-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7af20-146">Atlasiet šīs konfigurācijas versiju, kuras statuss ir 'Koplietots'.</span><span class="sxs-lookup"><span data-stu-id="7af20-146">Select the version of this configuration that has a status of 'Shared'.</span></span>  
-    * <span data-ttu-id="7af20-147">Ņemiet vērā, ka tagad atlasītajai datu modeļa konfigurācijai ir pieejama arī koplietotā 1. versija.</span><span class="sxs-lookup"><span data-stu-id="7af20-147">Note that the shared version 1 of the selected data model configuration is available now as well.</span></span>  
+2. <span data-ttu-id="b9618-111">Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.</span><span class="sxs-lookup"><span data-stu-id="b9618-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="b9618-112">Atlasiet **Konfigurācijas**.</span><span class="sxs-lookup"><span data-stu-id="b9618-112">Select **Configurations**.</span></span>
 
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="b9618-113">Pārliecinieties, vai pašreizējais Dynamics 365 Finance lietotājs ir tāda LCS projekta biedrs, kurā ir ietverta tā līdzekļu bibliotēka, kurai lietotājs vēlas [piekļūt](../../lifecycle-services/asset-library.md#asset-library-support) , lai importētu ER konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="b9618-113">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the Asset library that the user wants to [access](../../lifecycle-services/asset-library.md#asset-library-support) to import ER configurations.</span></span>
+>
+> <span data-ttu-id="b9618-114">Jūs nevarat piekļūt LCS projektam no ER repozitorija, kas pārstāv citu domēnu, nevis to domēnu, kas tiek izmantots programmā Finance.</span><span class="sxs-lookup"><span data-stu-id="b9618-114">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="b9618-115">Ja jūs mēģināt, tiks rādīts tukšs LCS projektu saraksts, un jūs nevarēsiet importēt ER konfigurācijas no projekta līmeņa līdzekļu bibliotēkas uz LCS.</span><span class="sxs-lookup"><span data-stu-id="b9618-115">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="b9618-116">Lai piekļūtu projekta līmeņa līdzekļu bibliotēkām no ER repozitorija, kas tiek izmantots, lai importētu ER konfigurācijas, piesakieties programmai Finance, izmantojot lietotāja akreditācijas datus, kas pieder nomniekam (domēns), kam ir nodrošināta pašreizējā Finance instance.</span><span class="sxs-lookup"><span data-stu-id="b9618-116">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a><span data-ttu-id="b9618-117">Dzēst koplietotu datu modeļa konfigurācijas versiju</span><span class="sxs-lookup"><span data-stu-id="b9618-117">Delete a shared version of a data model configuration</span></span>
+
+1. <span data-ttu-id="b9618-118">Lapā **Konfigurācijas**, konfigurāciju kokā atlasiet vienumu **Modeļa konfigurācijas paraugs**.</span><span class="sxs-lookup"><span data-stu-id="b9618-118">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="b9618-119">Jūs izveidojāt parauga datu modeļa konfigurācijas pirmo versiju un publicējāt to LCS, kad pabeidzāt darbības [Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span><span class="sxs-lookup"><span data-stu-id="b9618-119">You created the first version of a sample data model configuration and published it to LCS when you completed the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="b9618-120">Šajā procedūrā jūs dzēsīsiet to ER konfigurācijas versiju.</span><span class="sxs-lookup"><span data-stu-id="b9618-120">In this procedure, you will delete that version of the ER configuration.</span></span> <span data-ttu-id="b9618-121">Vēlāk šajā tēmā šo versiju importēsit no LCS.</span><span class="sxs-lookup"><span data-stu-id="b9618-121">You will then import that version from LCS later in this topic.</span></span>
+
+2. <span data-ttu-id="b9618-122">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="b9618-122">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="b9618-123">Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**.</span><span class="sxs-lookup"><span data-stu-id="b9618-123">For this example, select the version of the configuration that has a status of **Shared**.</span></span> <span data-ttu-id="b9618-124">Šis statuss norāda, ka konfigurācija ir publicēta pakalpojumos LCS.</span><span class="sxs-lookup"><span data-stu-id="b9618-124">This status indicates that the configuration has been published to LCS.</span></span>
+
+3. <span data-ttu-id="b9618-125">Atlasiet **Mainīt statusu**.</span><span class="sxs-lookup"><span data-stu-id="b9618-125">Select **Change status**.</span></span>
+4. <span data-ttu-id="b9618-126">Atlasiet **Pārtraukt**.</span><span class="sxs-lookup"><span data-stu-id="b9618-126">Select **Discontinue**.</span></span>
+
+    <span data-ttu-id="b9618-127">Mainot atlasītās versijas statusu no **Koplietots** uz **Pārtraukts**, versiju padara pieejamu dzēšanai.</span><span class="sxs-lookup"><span data-stu-id="b9618-127">By changing the status of the selected version from **Shared** to **Discontinued**, you make the version available for deletion.</span></span>
+
+5. <span data-ttu-id="b9618-128">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b9618-128">Select **OK**.</span></span>
+6. <span data-ttu-id="b9618-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="b9618-129">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="b9618-130">Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Pārtraukts**.</span><span class="sxs-lookup"><span data-stu-id="b9618-130">For this example, select the version of the configuration that has a status of **Discontinued**.</span></span>
+
+7. <span data-ttu-id="b9618-131">Atlasiet **Dzēst**.</span><span class="sxs-lookup"><span data-stu-id="b9618-131">Select **Delete**.</span></span>
+8. <span data-ttu-id="b9618-132">Atlasiet **Jā**.</span><span class="sxs-lookup"><span data-stu-id="b9618-132">Select **Yes**.</span></span>
+
+    <span data-ttu-id="b9618-133">Ievērojiet, ka atlasītajai datu modeļa konfigurācijai tagad ir pieejama tikai melnraksta 2. versija.</span><span class="sxs-lookup"><span data-stu-id="b9618-133">Notice that the only draft version 2 of the selected data model configuration is now available.</span></span>
+
+9. <span data-ttu-id="b9618-134">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b9618-134">Close the page.</span></span>
+
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a><span data-ttu-id="b9618-135">Importēt koplietotu datu modeļa konfigurācijas versiju no LCS</span><span class="sxs-lookup"><span data-stu-id="b9618-135">Import a shared version of a data model configuration from LCS</span></span>
+
+1. <span data-ttu-id="b9618-136">Dodieties uz **Organizācijas administrēšana \> Darbvietas \> Elektronisko atskaišu veidošana**.</span><span class="sxs-lookup"><span data-stu-id="b9618-136">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="b9618-137">Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Litware, Inc.**.</span><span class="sxs-lookup"><span data-stu-id="b9618-137">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="b9618-138">Elementā **Litware, Inc.** atlasiet **Repozitoriji**.</span><span class="sxs-lookup"><span data-stu-id="b9618-138">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="b9618-139">Tagad var atvērt sarakstu ar repozitorijiem, kas paredzēti Litware, Inc. konfigurācijas nodrošinātājam.</span><span class="sxs-lookup"><span data-stu-id="b9618-139">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="b9618-140">Atlasiet **Atvērt**.</span><span class="sxs-lookup"><span data-stu-id="b9618-140">Select **Open**.</span></span>
+
+    <span data-ttu-id="b9618-141">Šajā piemērā atlasiet **LCS** repozitoriju un atveriet to.</span><span class="sxs-lookup"><span data-stu-id="b9618-141">For this example, select the **LCS** repository, and open it.</span></span> <span data-ttu-id="b9618-142">Jums ir jābūt [piekļuve](#accessconditions) LCS projektam un līdzekļu bibliotēkai, kuram var piekļūt atlasītais ER repozitorijs.</span><span class="sxs-lookup"><span data-stu-id="b9618-142">You must have [access](#accessconditions) to the LCS project and to the Asset library that is accessed by the selected ER repository.</span></span>
+
+5. <span data-ttu-id="b9618-143">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="b9618-143">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="b9618-144">Šā piemēra versiju sarakstā atlasiet konfigurācijas **Parauga modeļa konfigurācija** pirmo versiju.</span><span class="sxs-lookup"><span data-stu-id="b9618-144">For this example, select the first version of **Sample model configuration** in the version list.</span></span>
+
+6. <span data-ttu-id="b9618-145">Atlasiet **Importēt**.</span><span class="sxs-lookup"><span data-stu-id="b9618-145">Select **Import**.</span></span>
+7. <span data-ttu-id="b9618-146">Atlasiet **Jā** , lai apstiprinātu atlasītās versijas importēšanu no LCS.</span><span class="sxs-lookup"><span data-stu-id="b9618-146">Select **Yes** to confirm the import of the selected version from LCS.</span></span>
+
+    <span data-ttu-id="b9618-147">Informatīvs ziņojums apstiprina, ka atlasītā versija tika veiksmīgi importēta.</span><span class="sxs-lookup"><span data-stu-id="b9618-147">An informational message confirms that the selected version was successfully imported.</span></span>
+
+8. <span data-ttu-id="b9618-148">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b9618-148">Close the page.</span></span>
+9. <span data-ttu-id="b9618-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b9618-149">Close the page.</span></span>
+10. <span data-ttu-id="b9618-150">Atlasiet **Konfigurācijas**.</span><span class="sxs-lookup"><span data-stu-id="b9618-150">Select **Configurations**.</span></span>
+11. <span data-ttu-id="b9618-151">Koka struktūrā atlasiet **Parauga modeļa konfigurācija**.</span><span class="sxs-lookup"><span data-stu-id="b9618-151">In the tree, select **Sample model configuration**.</span></span>
+12. <span data-ttu-id="b9618-152">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="b9618-152">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="b9618-153">Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**.</span><span class="sxs-lookup"><span data-stu-id="b9618-153">For this example, select the version of the configuration that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="b9618-154">Ievērojiet, ka tagad atlasītajai datu modeļa konfigurācijai ir pieejama arī koplietotā 1. versija.</span><span class="sxs-lookup"><span data-stu-id="b9618-154">Notice that shared version 1 of the selected data model configuration is also available now.</span></span>

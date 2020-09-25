@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d11e2d8b46614085156228ab1001d1f9340a05b0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 3f8a8e2006fe279b25bbf154c6e1802babf51117
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040967"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744363"
 ---
-# <span data-ttu-id="b1b05-103"><a name="PADLEFT">PADLEFT ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="b1b05-103"><a name="PADLEFT">PADLEFT ER function</a></span></span>
+# <a name="padleft-er-function"></a><span data-ttu-id="9b67e-103">PADLEFT ER funkcija</span><span class="sxs-lookup"><span data-stu-id="9b67e-103">PADLEFT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b1b05-104">`PADLEFT` funkcija norādītā garuma *Virknes* vērtību, kurā norādītās virknes sākumā ir ievadītas norādītās rakstzīmes.</span><span class="sxs-lookup"><span data-stu-id="b1b05-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
+<span data-ttu-id="9b67e-104">`PADLEFT` funkcija norādītā garuma *Virknes* vērtību, kurā norādītās virknes sākumā ir ievadītas norādītās rakstzīmes.</span><span class="sxs-lookup"><span data-stu-id="9b67e-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b1b05-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="b1b05-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9b67e-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="9b67e-105">Syntax</span></span>
 
 ```vb
 PADLEFT (text, length, padding chars)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="b1b05-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="b1b05-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="9b67e-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="9b67e-106">Arguments</span></span>
 
-<span data-ttu-id="b1b05-107">`text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="b1b05-107">`text`: *String*</span></span>
+<span data-ttu-id="9b67e-107">`text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="9b67e-107">`text`: *String*</span></span>
 
-<span data-ttu-id="b1b05-108">*Virknes* vērtība, kas apzīmē oriģinālo tekstu.</span><span class="sxs-lookup"><span data-stu-id="b1b05-108">A *String* value that represents the original text.</span></span>
+<span data-ttu-id="9b67e-108">*Virknes* vērtība, kas apzīmē oriģinālo tekstu.</span><span class="sxs-lookup"><span data-stu-id="9b67e-108">A *String* value that represents the original text.</span></span>
 
-<span data-ttu-id="b1b05-109">`length`: *Vesels skaitlis*</span><span class="sxs-lookup"><span data-stu-id="b1b05-109">`length`: *Integer*</span></span>
+<span data-ttu-id="9b67e-109">`length`: *Vesels skaitlis*</span><span class="sxs-lookup"><span data-stu-id="9b67e-109">`length`: *Integer*</span></span>
 
-<span data-ttu-id="b1b05-110">*Vesela skaitļa* vērtība, kas apzīmē rakstzīmju galīgo skaitu ievadītajā virknē.</span><span class="sxs-lookup"><span data-stu-id="b1b05-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
+<span data-ttu-id="9b67e-110">*Vesela skaitļa* vērtība, kas apzīmē rakstzīmju galīgo skaitu ievadītajā virknē.</span><span class="sxs-lookup"><span data-stu-id="9b67e-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
 
-<span data-ttu-id="b1b05-111">`padding chars`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="b1b05-111">`padding chars`: *String*</span></span>
+<span data-ttu-id="9b67e-111">`padding chars`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="9b67e-111">`padding chars`: *String*</span></span>
 
-<span data-ttu-id="b1b05-112">Rakstzīmes, kas jāizmanto ievadīšanai.</span><span class="sxs-lookup"><span data-stu-id="b1b05-112">The characters to use for padding.</span></span>
+<span data-ttu-id="9b67e-112">Rakstzīmes, kas jāizmanto ievadīšanai.</span><span class="sxs-lookup"><span data-stu-id="9b67e-112">The characters to use for padding.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="b1b05-113">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="b1b05-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9b67e-113">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="9b67e-113">Return values</span></span>
 
-<span data-ttu-id="b1b05-114">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="b1b05-114">*String*</span></span>
+<span data-ttu-id="9b67e-114">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="9b67e-114">*String*</span></span>
 
-<span data-ttu-id="b1b05-115">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="b1b05-115">The resulting text value.</span></span>
+<span data-ttu-id="9b67e-115">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="9b67e-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b1b05-116">Paraugs</span><span class="sxs-lookup"><span data-stu-id="b1b05-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9b67e-116">Paraugs</span><span class="sxs-lookup"><span data-stu-id="9b67e-116">Example</span></span>
 
-<span data-ttu-id="b1b05-117">`PADLEFT ("1234", 10, "`&nbsp;`")` atgriež teksta virkni **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span><span class="sxs-lookup"><span data-stu-id="b1b05-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
+<span data-ttu-id="9b67e-117">`PADLEFT ("1234", 10, "`&nbsp;`")` atgriež teksta virkni **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span><span class="sxs-lookup"><span data-stu-id="9b67e-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b1b05-118">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="b1b05-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9b67e-118">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="9b67e-118">Additional resources</span></span>
 
-[<span data-ttu-id="b1b05-119">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="b1b05-119">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="9b67e-119">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="9b67e-119">Text functions</span></span>](er-functions-category-text.md)
