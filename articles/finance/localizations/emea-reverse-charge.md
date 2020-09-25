@@ -3,7 +3,7 @@ title: Apgrieztais PVN
 description: Šajā tēmā ir paskaidrots, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Eiropas valstīs, Saūda Arābijā un Singapūrā.
 author: epodkolz
 manager: AnnBe
-ms.date: 07/16/2019
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,24 +11,25 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183792"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760235"
 ---
 # <a name="reverse-charge-vat"></a>Apgrieztais PVN
 
-
 [!include [banner](../includes/banner.md)]
 
+Sājā tēmā ir vispārīgi aprakstīts, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) ES un GCC valstīs, un Singapūra.
 
-Sājā tēmā ir vispārīgi aprakstīts, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Saūda Arābijā, Singapūrā un Eiropas valstīs.
+> [!NOTE]                                                                                  
+> Bahreinai, Kuveitai, Omānai un Katarai ir jāaktivizē līdzekli **Apgriezta maksas pieejamība citām valstīm** darbvietā **Līdzekļu pārvaldība** . 
 
 Apgrieztā maksāšana ir nodokļu maksāšanas metode, kuras ietvaros atbildība par PVN uzskaiti un ziņošanu tiek pārnesta no pārdevēja uz preču un/vai pakalpojumu pircēju. Tādējādi preču un/vai pakalpojumu saņēmēji savā PVN deklarācijā ziņo gan par pārdošanas PVN (kā pārdevējs), gan pirkšanas PVN (kā pircējs).
 
@@ -84,19 +85,22 @@ Lapā **Atgriezes maksas krājumu grupas** (**Nodokļi** &gt; **Iestatīšana** 
 ## <a name="set-up-reverse-charge-rules"></a>Apgrieztās maksāšanas kārtulu iestatīšana
 Lapā **Atgriezes maksas kārtulas** (**Nodokļi** &gt; **Iestatīšana** &gt; **PVN** &gt; **Atgriezes maksas kārtulas**) varat definēt pirkšanai un pārdošanai lietojamās kārtulas. Varat konfigurēt apgrieztās maksāšanas piemērotības kārtulu kopu. Katrai kārtulai iestatiet tālāk norādītos laukus.
 
-- **Dokumenta tips** — atlasiet **Pirkšanas pasūtījums**, **Kreditoru rēķinu žurnāls**, **Pārdošanas pasūtījums**, **Brīva teksta rēķins**, **Debitoru rēķinu žurnāls** un/vai **Kreditora rēķins**.
-- **Partnera valsts/reģiona veids** — atlasiet **Iekšzemes**, **ES** vai **Ārvalstu**. Ja kārtulu var lietot visiem tirdzniecības partneriem neatkarīgi no partneru adreses valsts vai reģiona, atlasiet opciju **Visi**.
-- **Iekšzemes piegādes adrese** — atzīmējiet šo izvēles rūtiņu, lai lietotu kārtulu piegādēm tajā pašā valstī vai reģionā. Šo izvēles rūtiņu nevar atzīmēt, ja ir iestatīts dokumenta tips **Kreditoru rēķinu žurnāls** vai **Debitoru rēķinu žurnāls**.
-- **Atgriezes maksas krājumu grupa** — atlasiet grupu, kam var lietot kārtulu.
-- **Sliekšņa summa** — apgrieztās maksāšanas metode tiek lietota rēķinam tikai tad, ja apgrieztās maksāšanas krājumu grupā ietverto preču un/vai pakalpojumu vērtība pārsniedz šajā laukā norādīto ierobežojumu.
+- **Dokumenta tips** – atlasiet **Pirkšanas pasūtījums**, **Kreditoru rēķinu žurnāls**, **Pārdošanas pasūtījums**, **Brīva teksta rēķins**, **Debitoru rēķinu žurnāls** un/vai **Kreditora rēķins**.
+- **Partnera valsts/reģiona veids** – Atlasiet **Iekšzemes**, **ES**, **GCC** vai **Ārvalstu**. Ja kārtulu var lietot visiem tirdzniecības partneriem neatkarīgi no partneru adreses valsts vai reģiona, atlasiet opciju **Visi**.
+- **Iekšzemes piegādes adrese** – atzīmējiet šo izvēles rūtiņu, lai lietotu kārtulu piegādēm tajā pašā valstī vai reģionā. Šo izvēles rūtiņu nevar atzīmēt, ja ir iestatīts dokumenta tips **Kreditoru rēķinu žurnāls** vai **Debitoru rēķinu žurnāls**.
+- **Atgriezes maksas krājumu grupa** – atlasiet grupu, kam var lietot kārtulu.
+- **Sliekšņa summa** – apgrieztās maksāšanas metode tiek lietota rēķinam tikai tad, ja apgrieztās maksāšanas krājumu grupā ietverto preču un/vai pakalpojumu vērtība pārsniedz šajā laukā norādīto ierobežojumu.
 
 Varat arī izmantot laukus **Spēkā stāšanās datums** un **Beigu datums**, lai definētu kārtulas darbības periodu.
 
 Varat arī norādīt to, vai gadījumā, ja ir izpildīts dokumenta rindas nosacījums, tiek parādīts paziņojums un šī rinda tiek atjaunināta, izmantojot noklusējuma apgrieztā PVN grupu. Pieejamas šādas opcijas
 
-- **Nav** — dokumenta rinda netiek atjaunināta.
-- **Uzvedne** — tiek parādīts paziņojums, lai apstiprinātu, ka var lietot apgriezto maksāšanu.
-- **Iestatīt** — dokumenta rinda tiek atjaunināta bez papildu paziņojuma.
+- **Nav** – dokumenta rinda netiek atjaunināta.
+- **Uzvedne** – tiek parādīts paziņojums, lai apstiprinātu, ka var lietot apgriezto maksāšanu.
+- **Iestatīt** – dokumenta rinda tiek atjaunināta bez papildu paziņojuma.
+
+## <a name="set-up-countryregion-properties"></a>Valsts/reģiona rekvizītu iestatīšana
+Lapā **Ārējās tirdzniecības parametri** (**Nodokļi** &gt; **Iestatījumi** &gt; **PVN** &gt; **Ārējā tirdzniecība** &gt; **Ārējās tirdzniecības parametri**), cilnē **Valsts/reģiona rekvizīti** iestatiet pašreizējās juridiskās personas valsti/reģionu uz *Iekšzemes*. ES valstīm/reģioniem, kas piedalās ES tirdzniecībā ar pašreizējo juridisko personu, **Valsts/reģiona veids** iestatiet uz *ES*. GCC valstīm/reģioniem, kas piedalās GCC tirdzniecībā ar pašreizējo juridisko personu, **Valsts/reģiona veids** iestatiet uz *ES*.
 
 ## <a name="set-up-default-parameters"></a>Noklusējuma parametru iestatīšana
 Lai iespējotu funkcionalitāti attiecībā uz apgriezto PVN, lapas **Virsgrāmatas parametri** cilnē **Atgriezes maksa** iestatiet opcijas **Aktivizēt apgriezto maksu** vērtību **Jā**. Laukos **Pirkšanas pasūtījuma PVN grupa** un **Pārdošanas pasūtījuma PVN grupa** atlasiet noklusējuma PVN grupas. Ja ir izpildīts apgrieztās maksāšanas piemērotības nosacījums, pārdošanas vai pirkšanas rinda tiek atjaunināta, izmantojot šīs PVN grupas.
@@ -104,7 +108,7 @@ Lai iespējotu funkcionalitāti attiecībā uz apgriezto PVN, lapas **Virsgrāma
 ## <a name="reverse-charge-on-a-sales-invoice"></a>Apgrieztā maksāšana pārdošanas rēķinā
 Ja pārdošanai tiek izmantota apgrieztās maksāšanas metode, pārdevējs neiekasē PVN. Tā vietā rēķinā ir norādīti gan krājumi, uz kuriem attiecas apgrieztais PVN, gan apgrieztā PVN kopsumma.
 
-Kad tiek grāmatots pārdošanas rēķins, kurā ir ietverta apgrieztā maksāšana, PVN transakciju nodokļa virziens ir **Maksājamais PVN**, tām ir PVN nulles likme un tiek atzīmēta izvēles rūtiņa **Atgriezes maksa**.
+Kad tiek grāmatots pārdošanas rēķins, kurā ir ietverta apgrieztā maksāšana, **PVN transakciju** nodokļa virziens ir maksājamais PVN, tām ir PVN nulles likme un tiek atzīmēti izvēles rūtiņi **Atgriezes maksa** un **Atbrīvots** .
 
 ## <a name="reverse-charge-on-a-purchase-invoice"></a>Apgrieztā maksāšana pirkšanas rēķinā
 Ja pirkšanai tiek izmantota apgrieztās maksāšanas metode, pircējs, kurš saņem apgrieztajai maksāšanai paredzēto rēķinu, pilda gan pārdevēja, gan pircēja PVN uzskaites pienākumus.
