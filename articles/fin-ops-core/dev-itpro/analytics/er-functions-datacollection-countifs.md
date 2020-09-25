@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9627c7835c8f3f1b6aedc1f691470dc29a11d6b5
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a28e2dd263c3f2cabd1c07c4aba8dfb22db01cc4
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042554"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745661"
 ---
-# <a name="COUNTIFS">COUNTIFS ER funkcija</a>
+# <a name="countifs-er-function"></a>COUNTIFS ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,7 +63,7 @@ Iegūtā skaitliskā vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Rekvizītus **Ievāktās datu atslēgas nosaukums** un **Ievāktā datu atslēgas vērtība** var konfigurēt vainu komponentā  **Secība** vai komponentā **XML elements** ER formātā, kas atrodas zem komponenta **Vispārīgi\\Fails**, kur ir ieslēgta opcija **Ievākt detalizētu informāciju par izvadi**.
+Rekvizītus **Ievāktās datu atslēgas nosaukums** un **Ievāktā datu atslēgas vērtība** var konfigurēt vainu komponentā **Secība** vai komponentā **XML elements** ER formātā, kas atrodas zem komponenta **Vispārīgi\\Fails**, kur ir ieslēgta opcija **Ievākt detalizētu informāciju par izvadi**.
 
 Šī funkcija atgriež **0** (nulles) vērtību, ja pašreizējā komponenta **Vispārīgi\\Fails** opcija **Apkopot izvades informāciju** ir izslēgta.
 

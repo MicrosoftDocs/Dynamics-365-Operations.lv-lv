@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5643be99ac2c58f4da1a2a068e84bf526f8575cb
+ms.sourcegitcommit: 164de749f394a133f223c526aa0c46bf922d1ea8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172835"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3770016"
 ---
 # <a name="integrated-customer-master"></a>Integrētie debitoru pamatdati
 
 [!include [banner](../../includes/banner.md)]
 
 
-Klienta datus var apgūt vairāk nekā vienā Dynamics 365 lietojumprogrammā. Piemēram, klienta ieraksts var rasties, izmantojot pārdošanas darbību programmā Dynamics 365 Sales (modeļa vadītā programmā pakalpojumā Dynamics 365), vai ieraksts var rasties, izmantojot mazumtirdzniecības darbību pakalpojumā Dynamics 365 Commerce (Finance and Operations programmā). Neatkarīgi no tā, no kurienes radušies klienta dati, tie tiek integrēti aizkulisēs. Integrētie klientu pamatdati sniedz jums elastību, lai varētu apgūt klienta datus jebkurā Dynamics 365 lietojumprogrammā, un sniedz visaptverošu skatījumu par klientu visā Dynamics 365 lietojumprogrammu komplektā.
+Klienta datus var apgūt vairāk nekā vienā Dynamics 365 lietojumprogrammā. Piemēram, klienta ieraksts var rasties, izmantojot pārdošanas darbību programmā Dynamics 365 Sales (modeļa vadītā programmā pakalpojumā Dynamics 365), vai ieraksts var rasties, izmantojot mazumtirdzniecības darbību pakalpojumā Dynamics 365 Commerce ( Finance and Operations programmā). Neatkarīgi no tā, no kurienes radušies klienta dati, tie tiek integrēti aizkulisēs. Integrētie klientu pamatdati sniedz jums elastību, lai varētu apgūt klienta datus jebkurā Dynamics 365 lietojumprogrammā, un sniedz visaptverošu skatījumu par klientu visā Dynamics 365 lietojumprogrammu komplektā.
 
 ## <a name="customer-data-flow"></a>Debitora datu plūsma
 
@@ -41,7 +41,7 @@ Klienta datus var apgūt vairāk nekā vienā Dynamics 365 lietojumprogrammā. P
 
 Debitorus kopumā var iedalīt divos tipos: komerciālie/organizāciju debitori un debitori/galalietotāji. Šie divi debitoru tipi tiek dažādi uzglabāti un apstrādāti programmās Finance and Operations un Common Data Service.
 
-Progeammā Finance and Operations gan komerciālo/organizāciju debitoru, gan debitoru/galalietotāju pamatdati tiek apkopoti vienā tabulā, kas saucas **CustTable** (CustomerCustomerV3Entity), un tie tiek klasificēti, pamatojoties uz atribūtu **Tips**. (Ja **Tips** ir iestatīts uz **Organizācija**, tad debitors ir komerciāls/organizācijas debitors, un ja **Tips** ir iestatīts uz **Persona**, tad debitors ir debitors/galalietotājs.) Primārā kontaktpersonas informācija tiek apstrādāta, izmantojot SMMContactPersonEntity elementu.
+Programmā Finance and Operations gan komerciālo/organizāciju debitoru, gan debitoru/galalietotāju pamatdati tiek apkopoti vienā tabulā, kas saucas **CustTable** (CustCustomerV3Entity), un tie tiek klasificēti, pamatojoties uz atribūtu **Veids**. (Ja **Tips** ir iestatīts uz **Organizācija**, tad debitors ir komerciāls/organizācijas debitors, un ja **Tips** ir iestatīts uz **Persona**, tad debitors ir debitors/galalietotājs.) Primārā kontaktpersonas informācija tiek apstrādāta, izmantojot SMMContactPersonEntity elementu.
 
 Programmā Common Data Service komerciālie/organizāciju debitoru pamatdati tiek apkopoti Konta elementā, un tiek identificēti kā debitori, kas atribūts **RelationshipType** ir iestatīts uz **Debitorsr**. Gan debitorus/galalietotājus, gan kontaktpersonu pārstāv Kontaktpersonas elements. Lai nodrošinātu skaidru dalījumu starp debitoru/galalietotāju un kontaktpersonu, elementam **Kontaktpersona** ir Būla karodziņš ar nosaukumu **Pārdodams**. Ja **Pārdodams** ir **Patiess**, kontaktpersona ir debitors/galalietotājs, un šai kontaktpersonai var izveidot piedāvājumus un pasūtījumus. Ja **Pārdodams** ir **Nepatiess**, kontaktpersona ir tikai debitora primārā kontaktpersona.
 

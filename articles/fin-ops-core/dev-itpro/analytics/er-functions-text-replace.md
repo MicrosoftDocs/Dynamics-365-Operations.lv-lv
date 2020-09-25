@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: c9e64bd8e039b4eeca829c3c37299f002ba03592
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201070"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743739"
 ---
-# <a name=""></a><a name="REPLACE">REPLACE ER funkcija</a>
+# <a name="replace-er-function"></a>REPLACE ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -67,7 +67,7 @@ Iegūtā teksta vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Ja `regular expression flag`arguments ir **patiess**, šī funkcija atgriež norādīto virkni pēc tam, kad tā ir mainīta, lietojot `pattern` argumenta norādīto regulāro izteiksmi. Regulārā izteiksme tiek izmantota, lai atrastu rakstzīmes, kas ir jāaizstāj.
+Ja `regular expression flag` arguments ir **patiess**, šī funkcija atgriež norādīto virkni pēc tam, kad tā ir mainīta, lietojot `pattern` argumenta norādīto regulāro izteiksmi. Regulārā izteiksme tiek izmantota, lai atrastu rakstzīmes, kas ir jāaizstāj.
 
 Ja `regular expression flag` arguments ir **APLAMS**, šī funkcija atgriež norādīto virkni pēc tam, kad rakstzīmju kopa, kas definēta `pattern` argumentā, ir aizstāta ar `replacement` argumenta rakstzīmēm. 
 
@@ -77,7 +77,7 @@ Ja `regular expression flag` arguments ir **APLAMS**, šī funkcija atgriež nor
 
 ## <a name="example-2"></a>2. piemērs
 
-`REPLACE ("abcdef", "cd", "GH", false)` aizstāj burtus **"cd"** ar virkni **"GH"**  un atgriež **"abGHef"**.
+`REPLACE ("abcdef", "cd", "GH", false)` aizstāj burtus **"cd"** ar virkni **"GH"** un atgriež **"abGHef"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

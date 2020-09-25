@@ -3,7 +3,7 @@ title: Darba grupas kalendāra izveide
 description: Skatiet un izveidojiet darba grupas kalendārus sadaļā Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712212"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796473"
 ---
 # <a name="view-team-and-company-calendars"></a>Skatīt grupas un uzņēmuma kalendārus
 
@@ -39,7 +39,7 @@ Programmā Dynamics 365 Human Resources varat skatīt darba grupas un uzņēmuma
 
 2. Atlasiet **Atvaļinājums un prombūtne**un pēc tam atlasiet **Skatīt pārvaldnieka prombūtnes kalendāru**.
 
-Pārvaldnieki var piekļūt arī grupas kalendāram no sadaļām **Manas komandas gaidošie prombūtnes pieprasījumi**,  **Apstiprinātām brīvdienām** un **Brīvdienu pieprasījumi**. 
+Pārvaldnieki var piekļūt arī grupas kalendāram no sadaļām **Manas komandas gaidošie prombūtnes pieprasījumi**, **Apstiprinātām brīvdienām** un **Brīvdienu pieprasījumi**. 
 
 ## <a name="view-a-company-calendar"></a>Uzņēmuma kalendāra skatīšana
 
@@ -50,6 +50,22 @@ Personas, kurām ir personāla vadības loma, var skatīt uzņēmuma kalendārus
 2. Atlasiet **Atvaļinājuma un prombūtnes kalendārs**.
 
 Personāla vadības lomas var piekļūt arī uzņēmuma kalendāram no **Atvaļinājuma un prombūtnes pieprasījumiem**, **Apstiprinātām brīvdienām** un **Brīvdienu pieprasījumiem**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Kalendāros tagad ir papildu filtri un opcijas. Visos kalendāros ir skatījuma opcijas:
+
+- Apstiprinātie pieprasījumi
+- Gaidošie pieprasījumi
+- Darbinieki ar atvaļinājumu pieprasījumiem
+- Darbinieki bez atvaļinājumu pieprasījumu
+- Darbinieku dzimšanas dienas
+- Prombūtnes pieprasījumus 
+- Atvaļinājuma pieprasījumi
+
+Kalendāra konfigurācija sadaļā Atvaļinājumu un prombūtnes parametri nosaka pieejamās skata opcijas.
+
+Kalendārus var filtrēt arī pēc vadītāja vai nodaļas. Primārā pozīcijas piešķire nosaka darbiniekus, kas tiek rādīti, kad šie filtri ir iestatīti. 
 
 Lai iegūtu informāciju par kalendāra iestatījumiem, skatiet [Kalendāra parametru konfigurēšana](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

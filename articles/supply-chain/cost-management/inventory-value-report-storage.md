@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
-ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
+ms.openlocfilehash: f50318e0a955d8244ba854aa1fd73ad7532b9198
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "3413103"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759572"
 ---
 # <a name="inventory-value-storage-report"></a>Krājumu vērtības glabāšanas pārskats
 
@@ -46,7 +47,7 @@ Lai varētu ģenerēt **Krājumu vērtības uzglabāšanas** pārskatu, ir jāie
 
 Veiciet šīs darbības, lai ģenerētu un uzglabātu **Krājumu vērtību uzglabāšanas** pārskatu.
 
-1. Dodieties uz **Izmaksu pārvaldība \>Vaicājumi un pārskati\>Krājuma vērtības pārskata uzglabāšana**.
+1. Dodieties uz **Izmaksu pārvaldība \> Vaicājumi un pārskati \> Krājuma vērtības pārskata uzglabāšana**.
 1. Atlasiet **Jauns**.
 1. Parādītajā dialoglodziņā **Krājuma vērtība** iestatiet tālāk norādītās vērtības, lai definētu, kuri ieraksti ir ietverti pārskatā:
 
@@ -65,7 +66,7 @@ Kad pakešuzdevums ir pabeigts, pārskats tiks uzrādīts lapā **Krājumu vērt
 
 Pēc pārskata izveidošanas to var apskatīt un izpētīt jebkurā laikā, veicot šādas darbības.
 
-1. Dodieties uz **Izmaksu pārvaldība \>Vaicājumi un pārskati\>Krājuma vērtības pārskata uzglabāšana**.
+1. Dodieties uz **Izmaksu pārvaldība \> Vaicājumi un pārskati \> Krājuma vērtības pārskata uzglabāšana**.
 1. Sarakstā atlasiet pārskatu.
 1. Atlasiet **Skatīt detalizēti**, lai parādītu pārskata saturu.
 1. Izpētiet pārskatu, izpildot kādu no šīm darbībām:

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 785797af0fe62fa6d0ee40fb4df45bcec47780c7
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: b01162f034a948a94139aed66b7ec8d2e861ee9b
+ms.sourcegitcommit: 4b63e71fb031d8f47bd9e72dd9cdfb9bc7ef2efc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598088"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789752"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -42,6 +42,12 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 
 |Valsts/reģions|Plānotais izlaides datums|Partijas versija|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
+|      Austrija         |   2020. septembris      | 10.0.15      |   PVN deklarācijas formāts U30 ir atjaunināts attiecībā uz 2020. gada pārskatu   |
+|      Bahreina         |   2020. gada jūlijs      | 10.0.12      |   Atgriezes maksa   |
+|      Bahreina         |   2020. gada jūlijs      | 10.0.12      |   Rēķina izsniegšanas termiņš (GCC)   |
+|      Bahreina         |   2020. gada jūlijs      | 10.0.12      |   PVN deklarācija Bahreinai   |
+|      Bahreina         |   2020. gada jūlijs      | 10.0.12      |   Pārdošanas rēķini Bahreinai   |
+|      Brazīlija         |   2020. gada augusts      | 10.0.14, 10.0.13, 10.0.12      |   ADRCST deklarācija PR   |
 |      Brazīlija         |   2020. marts      | 10.0.11      |   SPED ECD layout 8   |
 |      Brazīlija         |   2020. aprīlis      | 10.0.11      |   Tehniska piezīme NT 2019.001 v1.40   |
 |      Brazīlija         |   2020. maijs      | 10.0.12, 10.0.11 HF      |   ADCR ICMS-ST paziņojums par Parana stāvokli   |
@@ -50,21 +56,35 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |      Čehijas Republika      |   2020. gada jūlijs      | 10.0.13      |   PVN kontroles pārskata izmaiņas XML shēmā (rēķinu saraksts)   |
 |      Čehijas Republika         |   2020. gada jūlijs      | 10.0.13      |   PVN deklarācija XML, PVN deklarācijas priekšskatījums programmā Excel un PVN kontroles pārskata XML formāti, kas balstīti uz nodokļu deklarācijas modeli   |
 |      Igaunija         |   2020. maijs       | 10.0.11      |   Elektroniskā rēķinu izrakstīšana Igaunijā: debitoru rēķinu eksports Igaunijas īpašajā formāta versijā 1.2.  |
+|      Eiropa        |   2020. gada augusts       | 10.0.14      |   Pārsūtīt Partnera PVN ID uz Intrastat  |
+|      Somija         |   2020. gada jūlijs       | 10.0.13      |   Elektronisko rēķinu atbalsts Somijai  |
 |      Vācija         |   2020. maijs       | 10.0.12      |   Vācija — mazumtirdzniecības — kases sistēmas prasības    |
 |      Ungārija         |   2020. marts       | 10.0.11     |   Tiešsaistes rēķinu izrakstīšana sistēmā v.2.0 Finance and Operations    |
+|      Indija         |   2020. gada augusts, 2020. gada jūlijs      | 10.0.3, 10.0.12HF      |   TCS par preču pārdošanu saskaņā ar 206C iedaļu (1H) - Robežvērtība saskaņā ar PAN darījumu uzkrāšanu.  |
+|      Indija         |   2020. gada augusts, 2020. gada jūnijs      | 10.0.13, 10.0.12 HF      |   Kredīta/debeta piezīme pret eksporta rēķinu  |
+|      Indija         |   2020. gada augusts      | 10.0.13, 10.0.12HF, 10.0.11HF      |   Elektroniskais rēķins zem GST  |
+|      Indija         |   2020. maijs      | 10.0.13, 10.0.12      |   Jauns GSTR-1 un GSTR-2 atgriešanas formāts  |
+|      Indija         |   2020. gada jūlijs      | 10.0.13      |   Jauns GSTR (ANX-1 & ANX-2) bezsaistes rīks (Beta versija)  |
 |      Indija         |   2020. maijs      | 10.0.12      |   Vienības cenas un izmaksu cenas apstrādes uzlabojumi Krājumu pārsūtīšanas pasūtījumos  |
 |      Indija         |   2020. maijs      | 10.0.12      |   Krājumu pārsūtīšanas nodokļa likmes piemērojamība nosūtīšanas un saņemšanas laikā (ieskaitot daļēju saņemšanu)  |
 |      Itālija         |   2020. maijs      | 10.0.12, 10.0.11      |   Modello 770/2019 formāta izmaiņas |
 |      Itālija         |   2020. gada jūlijs      | 10.0.13, 10.0.12 HF      |   Itālijas elektronisko rēķinu formāta izmaiņas — FatturaPA |
+|      Kuveita         |   2020. gada jūlijs      | 10.0.12      |   Atgriezes maksa |
+|      Malaizija         |   2020. gada jūlijs      | 10.0.13      |   SST pārskats |
+|      Meksika         |   2020. septembris      | 10.0.13HF, 10.0.12HF, 10.0.11HF      |   CFDI URL shēmas atrašanās vieta atkarībā no Anexo 20 dokumenta |
 |      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T pārskata pārprojektēšana: Sākuma bilances pēc “darbības” transakcijas veida un Nodokļu informācija nodokļu koda valūtā programmā Finance (versija 10) |
 |      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T pārskata dialoga izmaiņas: nodrošināt iespēju atlasīt kontaktpersonu pa uzņēmumiem |
 |      Norvēģija          |   2020. maijs   | 10.0.12     |   SAF-T nosaukuma vietas deklarācijas katrā rindā, nevis tikai galvenē |
+|      Omāna         |   2020. gada jūlijs      | 10.0.12H      |   Atgriezes maksa |
+|      Polija          |   2020. septembris     | 10.0.14     |   Polija: JPK-V7M (VDEK) Excel formāts — lai aizstātu SSRS pārskatu  |
 |      Polija          |   2020. maijs     | 10.0.11     |   Sadalīt AP/AR realizētās valūtas starpības summu rēķina neto vērtības un PVN summas valūtas kursa starpībā  |
 |      Polija          |   2020. maijs     | 10.0.11     |   SAF uzskaites grāmatas — grāmatojumu līmeņu filtrēšanas uzlabojumi |
 |      Polija          |   2020. marts     | 10.0.11     |   JPK_VDEK papildinātā pakotne I |
 |      Polija          |   2020. maijs     | 10.0.12     |   JPK_VDEK papildinātā pakotne II |
 |      Polija          |   2020. marts     | 10.0.11     |   Daļēja kredīta piezzīme pārdošanas pasūtījumam ar avansa rēķinu |
 |      Polija          |   2020. gada jūlijs     | 10.0.13     |   Obligātie dalītā maksājuma uzlabojumi |
+|      Katara         |   2020. gada jūlijs      | 10.0.12H      |   Atgriezes maksa |
+|      Krievija          |   2020. gada augusts     | 10.0.14    |   Uzskaites pārskatu formāts mainās sākot no 2020. gada  |
 |      Krievija          |   2020. gada jūlijs     | 10.0.13    |   Nolietojuma aprēķins, pamatojoties uz sākotnējo vērtību un kapitālo remontu, nodokļu uzskaitē piemērojot papildnolietojumu  |
 
 

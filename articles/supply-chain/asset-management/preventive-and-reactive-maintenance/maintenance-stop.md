@@ -1,6 +1,6 @@
 ---
-title: Dīkstāve uzturēšanas dēļ
-description: Šajā tēmā ir paskaidrota dīkstāve uzturēšanas dēļ programmā Asset Management.
+title: Dīkstāves uzturēšanas dēļ aktivitātes
+description: Šajā tēmā ir paskaidrots, kā dīkstāve uzturēšanas dēļ tiek izmantota, lai iegūtu pārskatu par noslodzi, kas ir nepieciešama, lai veiktu uzturēšanas darbus konkrētos līdzekļos konkrētā periodā.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383531"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802825"
 ---
-# <a name="maintenance-downtime"></a>Dīkstāve uzturēšanas dēļ
+# <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas dēļ aktivitātes
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Dīkstāve uzturēšanas dēļ tiek izmantota, lai iegūtu pārskatu par noslodzi, kas ir nepieciešama, lai veiktu uzturēšanas darbus konkrētos līdzekļos konkrētā periodā. Piemēram, jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrāciju 10. ražošanas līnijai 29-A ražošanas zālē ražošanas objektā 02. Dīkstāves uzturēšanas dēļ reģistrācijai ir sākuma un beigu laiks, kas norāda uz periodu, kurā līdzekļi, kas ir saistīti ar uzturēšanas apturēšanu, nav pieejami ražošanai.
 

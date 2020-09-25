@@ -3,7 +3,7 @@ title: Izveidot atvaļinājumu un prombūtnes plānu
 description: Izveidojiet atvaļinājumu plānus Dynamics 365 Human Resources dažādiem atvaļinājumu veidiem.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428713"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796501"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Izveidot atvaļinājumu un prombūtnes plānu
 
@@ -43,7 +43,15 @@ Varat arī veidot amatā balstītus atvieglojumus, piemēram, vienīgi vadībai 
 
 2. Sadaļā **Detalizēta informācija** ievadiet **Nosaukumu**, **Sākuma datumu**, **Aprakstu**un **Atvaļinājuma veidu** savam plānam.
 
-Ja ir iespējots līdzeklis **Vairāku atvaļinājumu veidu konfigurēšana vienam atvaļinājuma un prombūtnes plānam** atvaļinājumu veidi tiek konfigurēti **Uzkrāšanas grafikā**, nevis zem **Detalizētas informācijas**. Katram ierakstam uzkrāšanas grafika tabulā varat definēt atvaļinājuma tipu.
+Ja ir iespējots līdzeklis **Vairāku atvaļinājumu veidu konfigurēšana vienam atvaļinājuma un prombūtnes plānam** atvaļinājumu veidi tiek konfigurēti **Uzkrāšanas grafikā**, nevis zem **Detalizētas informācijas**. Katram ierakstam uzkrāšanas grafika tabulā varat definēt atvaļinājuma tipu. Turklāt, ja šis līdzeklis ir aktivizēts, jums vajadzēs izmantot jaunas datu entītijas integrācijām vai citiem scenārijiem, kur jāizmanto entītijas. 
+
+Jaunās entītijas ir:
+
+- Atvaļinājuma un kavējuma bankas transakcija V2
+- Atvaļinājuma un kavējuma reģistrācija V2
+- Atvaļinājuma un kavējuma plāna pakāpe V2
+- Atvaļinājuma un kavējuma plāns V2
+- Atvaļinājuma pieprasījums V2
 
  > [!IMPORTANT]
    > Šo funkciju pēc tās iespējošanas nevar atspējot.
@@ -62,7 +70,7 @@ Ja ir iespējots līdzeklis **Vairāku atvaļinājumu veidu konfigurēšana vien
       - Reizi gadā
       - Nav
 
-   2. Atlasiet opciju no nolaižamā lodziņa**Uzkrāšanas perioda pamats**, lai noteiktu uzkrājumu periodu aprēķinam izmantoto sākuma datumu:
+   2. Atlasiet opciju no nolaižamā lodziņa **Uzkrāšanas perioda pamats**, lai noteiktu uzkrājumu periodu aprēķinam izmantoto sākuma datumu:
 
       | Uzkrāšanas perioda kritērijs | Apraksts |
       | --- | --- |
@@ -71,25 +79,25 @@ Ja ir iespējots līdzeklis **Vairāku atvaļinājumu veidu konfigurēšana vien
 
    3. Atlasiet opciju nolaižamajā lodziņā **Uzkrājumu piešķiršanas datums**:
 
-      - **Uzkrāšanas perioda beigu datums** — darbiniekam brīvais laiks tiek piešķirts piešķiršanas perioda pēdējā dienā. Lai uzkrātu pareizu summu, uzkrāšanas procesā ir jāiekļauj viss periods. Piemēram, ja uzkrājumu periods ir no 2020. gada 1. janvāra līdz 2020. gada 31. janvārim, ir jāpalaiž uzkrājums 2020. gada 1. februārim, lai tas iekļautu janvāri.
+      - **Uzkrāšanas perioda beigu datums** - darbiniekam brīvais laiks tiek piešķirts piešķiršanas perioda pēdējā dienā. Lai uzkrātu pareizu summu, uzkrāšanas procesā ir jāiekļauj viss periods. Piemēram, ja uzkrājumu periods ir no 2020. gada 1. janvāra līdz 2020. gada 31. janvārim, ir jāpalaiž uzkrājums 2020. gada 1. februārim, lai tas iekļautu janvāri.
 
-      - **Uzkrāšanas perioda sākuma datums** — darbiniekam brīvais laiks tiek piešķirts piešķiršanas perioda pirmajā dienā.
+      - **Uzkrāšanas perioda sākuma datums** - darbiniekam brīvais laiks tiek piešķirts piešķiršanas perioda pirmajā dienā.
 
    4. Atlasiet opciju nolaižamajā lodziņā **Uzkrājumu reģistrēšanas politika**. Šī vērtība nosaka, kā aprēķināt uzkrāšanu, kad darbinieks piesakās uzkrāšanas perioda vidū.
 
-      - **Proporcionāli sadalīts** — lai noteiktu starpību dienās, tiek izmantots datumu diapazons starp reģistrācijas datumu un sākuma datumu. Šī starpība tiek piemērota, kad uzkrājumi tiek apstrādāti.
+      - **Proporcionāli sadalīts** - lai noteiktu starpību dienās, tiek izmantots datumu diapazons starp reģistrācijas datumu un sākuma datumu. Šī starpība tiek piemērota, kad uzkrājumi tiek apstrādāti.
 
-      - **Pilns uzkrājums** — pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
+      - **Pilns uzkrājums** - pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
 
-      - **Nav uzkrājuma** — līdz nākamajam uzkrāšanas periodam netiek piešķirts uzkrājums.
+      - **Nav uzkrājuma** - līdz nākamajam uzkrāšanas periodam netiek piešķirts uzkrājums.
 
    5. Atlasiet opciju nolaižamajā lodziņā **Uzkrājumu reģistrēšanas atsaukšanas politika**. Šī vērtība nosaka, kā aprēķināt uzkrāšanu, kad darbinieks atsakās uzkrāšanas perioda vidū.
 
-      - **Proporcionāli sadalīts** — lai noteiktu starpību dienās, tiek izmantots datumu diapazons starp reģistrācijas datumu un sākuma datumu. Šī starpība tiek piemērota, kad uzkrājumi tiek apstrādāti.
+      - **Proporcionāli sadalīts** - lai noteiktu starpību dienās, tiek izmantots datumu diapazons starp reģistrācijas datumu un sākuma datumu. Šī starpība tiek piemērota, kad uzkrājumi tiek apstrādāti.
 
-      - **Pilns uzkrājums** — pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
+      - **Pilns uzkrājums** - pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
 
-      - **Nav uzkrājuma** — līdz nākamajam uzkrāšanas periodam netiek piešķirts uzkrājums.
+      - **Nav uzkrājuma** - līdz nākamajam uzkrāšanas periodam netiek piešķirts uzkrājums.
 
 4. Definējiet uzkrāšanas grafiku cilnē **Uzkrājumu grafiks**. Uzkrājumu grafiks nosaka:
 

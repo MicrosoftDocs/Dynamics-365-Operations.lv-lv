@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651694"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760403"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko var izmantot, lai uzlabotu lietotāju produktivitāti, izveidotu vairāk interesantu jūsu datu skatu un iegūtu izsmeļošu ieskatu datos. Šajā rakstā ir apskatītas tālāk norādītās iespējas 
 
 -  Aprēķina kopsummu
--  Datu grupēšana
 -  Rakstīšana pirms sistēmas
 -  Matemātisko izteiksmju novērtēšana 
+-  Tabulas datu grupēšana (iespējota atsevišķi, izmantojot **(Priekšskatījums) Grupēšana režģos** līdzekli)
 
 ## <a name="calculating-totals"></a>Aprēķina kopsummu
 Programmatūrā Finance and Operations lietotājiem ir iespēja redzēt kopsummas režģos ciparu kolonnu lejasdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
@@ -71,21 +70,6 @@ Ja aprēķināsana notiek pārāk ilgi, varat atcelt operāciju, atlasot pogu **
 
 Kopsummas tiks automātiski atjauninātas, datu kopā atjauninot, dzēšot vai izveidojot rindas.  
 
-## <a name="grouping-data"></a>Datu grupēšana
-Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot pivot tabulas, **Grupēšanas** iespēja tabulārajā režģī ļauj lietotājiem programmās Finance and Operations organizēt savus datus interesantākos veidos. Līdzīgi kā šis līdzeklis paplašina līdzekli **Kopsumma**, arī **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
-
-Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna Grupa pēc kolonnas un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu. 
--  Grupas datu vērtība 
--  Kolonnas etiķete (šī informācija būs īpaši noderīga pēc vairāku grupēšanas līmeņu atbalsta.)
--  Datu rindu skaits šajā grupā
--  Kolonnu, kas konfigurētas kopsummu rādīšanai, apakšsummas
-
-Kad ir aktivizēti [Saglabātie skati](saved-views.md), šo grupēšanu var saglabāt ar personalizāciju kā daļu no skata, lai nākamreiz, kad apmeklēsiet šo lapu, nodrošinātu ātru piekļuvi.  
-
-Ja izvēlaties **Grupēt pēc šīs kolonnas** citai kolonnai, sākotnējā grupēšana tiks aizstāta, jo versijā 10.0.9 ar Platform Update 33 tiek atbalstīts tikai viens grupēšanas līmenis.
-
-Lai režģī atceltu grupēšanu, ar peles labo pogu noklikšķiniet uz grupēšana kolonnas un atlasiet **Atgrupēt**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Rakstīšana pirms sistēmas
 Daudzos biznesa scenārijos spēja ātri ievadīt datus sistēmā ir ļoti svarīga. Pirms jaunā režģa kontroles ieviešanas lietotāji varēja mainīt datus tikai pašreizējā rindā. Pirms tie var izveidot jaunu rindu vai pārslēgties uz citu rindu, tie bija spiesti gaidīt, lai sistēma veiksmīgi apstiprinātu visas izmaiņas. Lai samazinātu laiku, kad lietotāji gaida šo pabeigšanu, un lai uzlabotu lietotāju produktivitāti, jaunais režģis pielāgo šīs darbības, lai tās būtu asinhronas. Tāpēc lietotājs var pārvietoties uz citām rindām, lai veiktu izmaiņas, kamēr tiek gaidītas iepriekšējās rindas pārbaudes. 
 
@@ -109,6 +93,32 @@ Produktivitātes veicināšanai lietotāji režģa ciparu šūnās var ievadīt 
 
 Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Papildinformāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Tabulas datu grupēšana
+[!include [preview banner](../includes/preview-banner.md)]
+
+Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot pivot tabulas, **(Priekšskatījums) Grupēšanas režģos** līdzeklis, kas ir atkarīgs no jaunā režģa kontroles līdzekļa, režģī ļauj lietotājiem programmās Finance and Operations organizēt savus tabulāros datus interesantākos veidos. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
+
+Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna **Grupēt pēc kolonnas** un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu. 
+-  Grupas datu vērtība 
+-  Kolonnas nosaukums (šī informācija būs īpaši noderīga pēc vairāku grupēšanas līmeņu atbalsta.)  
+-  Datu rindu skaits šajā grupā
+-  Kolonnu, kas konfigurētas kopsummu rādīšanai, apakšsummas
+
+Kad ir aktivizēti [Saglabātie skati](saved-views.md), šo grupēšanu var saglabāt ar personalizāciju kā daļu no skata, lai nākamreiz, kad apmeklēsiet šo lapu, nodrošinātu ātru piekļuvi.  
+
+Ja izvēlaties **Grupēt pēc šīs kolonnas** citai kolonnai, sākotnējā grupēšana tiks aizstāta, tā kā versijā 10.0.9/Platform Update 33 tiek atbalstīts tikai viens grupēšanas līmenis.
+
+Lai režģī atceltu grupēšanu, ar peles labo pogu noklikšķiniet uz grupēšana kolonnas un atlasiet **Atgrupēt**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Grupu paplašināšana un sakļaušana
+Sākotnējai datu grupēšanai būs paplašinātas visas grupas. Varat izveidot kopsavilkuma skatījumus datiem, sakļaujot atsevišķas grupas, vai arī varat izmantot grupas paplašināšanu un sakļaušanu, lai palīdzētu pārvietoties pa datiem. Lai paplašinātu vai sakļautu grupu, atbilstošajā grupas virsraksta rindā atlasiet pogu Chevron (>). Ņemiet vērā, ka atsevišķu grupu paplašināšanas/sakļaušanas stāvoklis personalizācijā **netiek** saglabāts.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Rindu atlasīšana un atlases noņemšana grupas līmenī
+Tāpat kā visas režģa rindas var atlasīt (vai noņemt atlasi), atzīmējot izvēles rūtiņu režģa pirmās kolonnas augšdaļā, var arī ātri atlasīt (vai noņemt atlasi) visas grupas rindas, atzīmējot izvēles rūtiņu atbilstošajā grupas galvenes rindā. Grupas galvenes rindas izvēles rūtiņa vienmēr atspoguļo šīs grupas rindu pašreizējo atlases stāvokli neatkarīgi no tā, vai ir atlasītas visas rindas, nav atlasīta neviena rinda vai ir atlasītas tikai dažas rindas.
+
+### <a name="hiding-column-names"></a>Kolonnu nosaukumu paslēpšana
+Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Sākot ar versiju 10.0.14/Platformas atjauninājums 38, varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
+
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kā iespējot jauno režģa kontroli manā vidē? 
 
@@ -131,7 +141,7 @@ Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontr
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Attīstītājs] Atteikšanās no atsevišķām lapām, izmantojot jauno režģi 
 Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Šis API tiks ievērots līdz 2021. gada oktobra izlaidumam, kad jaunā režģa kontrole kļūs obligāta. Lūdzu, ziņojiet par visām Microsoft problēmām, kam nepieciešams izmantot šo API. 
 

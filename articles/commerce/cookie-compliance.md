@@ -3,7 +3,7 @@ title: Sīkfailu atbilstība
 description: Šajā tēmā ir aprakstīti apsvērumi attiecībā uz sīkfailu atbilstību un noklusējuma politikām, kas ir ietvertas pakalpojumā Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446917"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761325"
 ---
 # <a name="cookie-compliance"></a>Sīkfailu atbilstība
 
@@ -56,6 +56,10 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto sīk
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Izmanto SSO sesijas uzturēšanai.                        |
 | x-ms-cpim-trans                             | Tiek izmantots, lai izsekotu transakcijas (atvērto ciļņu skaits, kas tiek autentificētas attiecībā uz bizness patērētājam (B2C) vietni), ieskaitot pašreizējo transakciju. |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Vietnes lietotāja sīkfailu piekrišana e-komercijas vietnē 
+
+Ja e-komercijas vietnes līdzeklis vai modulis izmanto nebūtisku sīkfailu, vietnes lietotāja atļauja ir jāsaņem pirms sīkfaila izsekošanas. Lai ļautu vietnes lietotājiem sniegt sīkfailu piekrišanu e-komercijas vietnē, vietnes autoram ir jāpievieno un jākonfigurē sīkfailu piekrišanas modulis lapas virsraksta modulī, lai nodrošinātu, ka piekrišana tiek pieprasīta un saņemta. Lai vietnes lapā varētu atveidot līdzekli vai moduli, kas izmanto nebūtisku sīkfailu, ir jāsaņem vietnes lietotāja piekrišana.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pieejamības līdzekļi un iespējas](accessibility.md)
@@ -64,4 +68,8 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto sīk
 
 [Konfidencialitātes politikas lapas pievienošana](add-privacy-page.md)
 
-[Aizstāt lietotāja ID, kas saistīti ar izsekotām satura izmaiņām](replace-IDs-tracked-changes.md)
+[Ar izsekotajām satura izmaiņām saistīto lietotāju ID aizstāšana](replace-IDs-tracked-changes.md)
+
+[Sīkfailu piekrišanas modulis](cookie-consent-module.md) 
+ 
+[Galvenes modulis](author-header-module.md)

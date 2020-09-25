@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596254"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802801"
 ---
 # <a name="country-of-origin"></a>Izcelsmes valsts/reģions
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Daudzas organizācijas izsniedz sertifikātus saviem kreditoriem, lai nodrošinātu preču atbilstību noteiktiem sertifikācijas standartiem. Šie sertifikāti bieži ir atkarīgi no izcelsmes valsts/reģiona. Izcelsmes valsts/reģiona līdzeklis ļauj saistīt preci ar tās izcelsmes valsti/reģionu un sekot tās preču sertifikācijai.
+
+## <a name="turn-on-the-country-of-origin-feature"></a>Ieslēgt izcelsmes valsts līdzekli
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Preču informācijas pārvaldība*
+- **Līdzekļa nosaukums:** *Izcelsmes valsts pārvaldības līdzeklis*
 
 ## <a name="configure-source-and-destination-countries"></a>Izcelsmes un galamērķa valstu/reģionu konfigurēšana
 
@@ -42,7 +50,7 @@ Pirms izdot preces sertifikātu, prece ir jāsaista ar tās galamērķa valsti u
     | Galamērķa valsts | Atlasiet, uz kuru valsti sūtīt preci. |
     | Izcelsmes valsts | Atlasiet, no kuras valsts prece tiek sūtīta. |
 
-Šī iestatījuma nolūks ir palīdzēt ģenerēt materiālu komplekta (MK) pārskatu, kurā var iekļaut izcelsmes valsti/reģionu katrai daļai, kam ir norādītas izcelsmes un galamērķa valstis. Šis pārskats palīdzēs iegūt visaptverošu priekšstatu par to, no kurienes daļas ir un uz kurieni tās sūta.
+Šī iestatījuma nolūks ir palīdzēt ģenerēt materiālu komplekta (MK) pārskatu, kurā var iekļaut izcelsmes valsti katrai daļai, kam ir norādītas izcelsmes un galamērķa valstis. Šis pārskats palīdzēs iegūt visaptverošu priekšstatu par to, no kurienes daļas ir un uz kurieni tās sūta.
 
 ## <a name="keep-track-of-vendor-certificates"></a>Kreditora sertifikātu pārraudzīšana
 
@@ -70,7 +78,7 @@ Lai iestatītu sertifikāta informāciju, veiciet tālāk norādītās darbības
 
 ## <a name="include-the-country-of-origin-on-bom-reports"></a>Izcelsmes valsts/reģiona iekļaušana MK pārskatos
 
-Ģenerējot MK pārskatu, varat iekļaut izcelsmes valsti/reģionu katrai daļai, kam norādījāt izcelsmes un galamērķa valstis, lapā **Izcelsmes valsts/reģiona noteikumi**.
+Ģenerējot MK pārskatu, varat iekļaut izcelsmes valsti katrai daļai, kam norādījāt izcelsmes un galamērķa valstis, lapā **Izcelsmes valsts noteikumi**.
 
 1. Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
 1. Atlasiet vai izveidojiet preci, lai atvērtu tās lapu **Izlaisto preču detalizēta informācija**.

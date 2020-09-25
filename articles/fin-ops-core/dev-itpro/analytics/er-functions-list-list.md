@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee51b6da008d1c0fcfb303e9659f507629237333
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a31288885abda69873ae23b28a36e2a54852f593
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042025"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745157"
 ---
-# <a name="LIST">LIST ER funkcija</a>
+# <a name="list-er-function"></a>LIST ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ Tad ievadiet datu avotu **Ieraksts 2** veidam *Konteiners*. Šis datu avots satu
 - **Daudzums:** šis lauks satur izteiksmi, kas atgriež *Reālā skaitļa* tipa vērtību.
 - **IsValid:** šis lauks satur izteiksmi, kas atgriež *Būla* tipa vērtību.
 
-Šajā gadījumā izteiksme `LIST('Record 1', 'Record 2')` atgriež jaunu sarakstu, kurā ir divi ieraksti. Šī saraksta struktūra sastāv no viena**Daudzuma** lauka tipā *Reāls skaitlis*, jo šis lauks ir vienīgais lauks, kas tiek parādīts katrā izsauktās funkcijas argumentā.
+Šajā gadījumā izteiksme `LIST('Record 1', 'Record 2')` atgriež jaunu sarakstu, kurā ir divi ieraksti. Šī saraksta struktūra sastāv no viena **Daudzuma** lauka tipā *Reāls skaitlis*, jo šis lauks ir vienīgais lauks, kas tiek parādīts katrā izsauktās funkcijas argumentā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

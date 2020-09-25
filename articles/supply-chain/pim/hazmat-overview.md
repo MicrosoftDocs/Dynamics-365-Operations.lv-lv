@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699637"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802753"
 ---
 # <a name="hazardous-materials-overview"></a>Bīstamo materiālu pārskats
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Lai saglabātu atbilstību kuģošanas un pārvadāšanas noteikumiem, organizācijām, kas piegādā materiālus, kas klasificēti kā bīstamas preces, ir jāiekļauj papildu dokumenti ar to sūtījumiem. Bīstamo materiālu līdzeklis ļauj klientiem glabāt informāciju, kas saistīta ar izlaistajiem krājumiem. Šo informāciju var izmantot, lai palīdzētu sagatavot nosūtīšanas dokumentus. Organizācijai, kas piegādā bīstamas kravas, ir pašai savi procesi un procedūras, lai pārvaldītu nosūtīšanas procesu. Microsoft Dynamics 365 Supply Chain Management ir tikai rīks, kas var palīdzēt ģenerēt pieprasītos dokumentus.
 

@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208021"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803167"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā rakstā ir sniegta informācija par pirkšanas līgumiem. Pirkšanas līgums ir līgums, kas nosaka, ka organizācijai ir jānopērk noteikts daudzums vai jāiztērē noteikta summa, laika gaitā izmantojot vairākus pirkšanas pasūtījumus. Apmaiņā pret šīm saistībām pircējs saņem īpašas cenas un atlaides. 
 
@@ -42,8 +41,13 @@ Lai nepieļautu pirkšanas līguma izmantošanu un apstiprināšanu, līguma sta
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Par pirkšanas līgumiem atbildīgie nodarbinātie
 
-Pirkšanas līguma klasifikācijā varat noteikt primāro atbildīgo nodarbināto un sekundāro atbildīgo nodarbināto. Šīs vērtības pārmantos ar iegūtais pirkšanas līgums. Pirkšanas līgumam nav obligāti jāpievieno atbildīgie nodarbinātie, un pašā pirkšanas līgumā tos var modificēt tieši katram gadījumam atsevišķi. Sekundāro atbildīgo nodarbināto nevar norādīt bez primārā atbildīgā nodarbinātā, taču nav obligāti jābūt sekundārajam atbildīgajam nodarbinātajam. Jūs nevarat norādīt to pašu nodarbināto kā primāro un sekundāro atbildīgo nodarbināto. 
+Pirkšanas līguma klasifikācijā varat noteikt primāro atbildīgo nodarbināto un sekundāro atbildīgo nodarbināto. Šīs vērtības pārmantos ar iegūtais pirkšanas līgums. Pirkšanas līgumam nav obligāti jāpievieno atbildīgie nodarbinātie, un pašā pirkšanas līgumā tos var modificēt tieši katram gadījumam atsevišķi. Sekundāro atbildīgo nodarbināto nevar norādīt bez primārā atbildīgā nodarbinātā, taču nav obligāti jābūt sekundārajam atbildīgajam nodarbinātajam. Jūs nevarat norādīt to pašu nodarbināto kā primāro un sekundāro atbildīgo nodarbināto.
 
+> [!IMPORTANT]
+> Lai varētu izmantot atbildīgās puses līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+> 
+> - **Modulis:** *Sagāde un ieguve*
+> - **Līdzekļa nosaukums:** *Par pirkšanas līgumu atbildīgā puse*
 
 ## <a name="commitment-types"></a>Saistību veidi
 Katra pirkšanas līguma rinda ir saistības kaut ko nopirkt. Lai izpildītu saistības, varat izmantot rindas no vairākiem pirkšanas pasūtījumiem (PO). Ir četri saistību veidi.
@@ -89,7 +93,7 @@ Pirkšanas līgumu varat atlasīt tikai tad, kad veidojat pirkšanas pasūtījum
 Noteiktos risinājumos, kur pirkšanas pasūtījumi tiek veidoti netieši, varat kontrolēt, vai Supply Chain Management automātiski meklē piemērojamos pirkšanas līgumus. Piemēram, varat to darīt, ja automātiski apstiprināt plānotos pirkšanas pasūtījumus vai veidojat pirkšanas pasūtījumus, kuru pamatā ir pārdošanas pasūtījumi.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Pirkšanas līgumu atbilstības ierobežojumi
-Pirkšanas līguma virsrakstā var definēt rindas atbilstības ierobežojumus. Šie rindu atbilstības ierobežojumi ievēros kreditoru parametru rindas atbilstības ierobežojumi, kad lauks **Atļaut atbilstības ierobežoju ignorēšanu** lapā **Kreditoru parametri** (**Cenas un daudzuma salīdzināšana** kopsavilkuma cilnē) ir iestatīts **Augstāk par uzņēmuma politiku**. Dokumentos, kas atsaucas uz pirkšanas līgumu, tiks izmantoti rindas atbilstības ierobežojumi, kas definēti pirkšanas līguma virsrakstā, ja vien atbilstošajā krājumā, krājumos un kreditora vai kategoriju pirkšanas politikā nav norādīts citādi.
+Pirkšanas līguma virsrakstā var definēt rindas atbilstības ierobežojumus. Šie rindu atbilstības ierobežojumi ievēros kreditoru parametru rindas atbilstības ierobežojumi, kad lauks **Atļaut atbilstības ierobežoju ignorēšanu** lapā **Kreditoru parametri** (kopsavilkuma cilnē **Cenas un daudzuma salīdzināšana** ) ir iestatīts **Augstāk par uzņēmuma politiku**. Dokumentos, kas atsaucas uz pirkšanas līgumu, tiks izmantoti rindas atbilstības ierobežojumi, kas definēti pirkšanas līguma virsrakstā, ja vien atbilstošajā krājumā, krājumos un kreditora vai kategoriju pirkšanas politikā nav norādīts citādi.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkšanas līgumi un starpuzņēmumu tirdzniecība
 Starpuzņēmumu darījumu attiecības var izveidot starp kreditoru kontiem un debitoru kontiem, kas pieder dažādām juridiskajām personām. Kad veidojat pārdošanas pasūtījumu vai pirkšanas pasūtījumu vienai no pusēm, tiek izveidota starpuzņēmumu pasūtījumu ķēde. Pasūtījumu ķēdē pārdošanas pasūtījums un pirkšanas pasūtījums tiek izveidots atbilstošajās juridiskajās personās.  
