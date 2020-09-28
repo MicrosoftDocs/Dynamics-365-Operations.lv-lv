@@ -3,7 +3,7 @@ title: Izlases ikonas pievienošana
 description: Šajā tēmā ir paskaidrots, kā pievienot izlases ikonu jūsu vietnei.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686794"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761157"
 ---
 # <a name="add-a-favicon"></a>Izlases ikonas pievienošana
 
@@ -41,7 +41,7 @@ Lai gan jūs varat pievienot vairākas dažādu izmēru un failu tipu izlases ik
 Lai pievienotu izlases ikonu jūsu vietnes līdzekļu kolekcijā, veiciet šādas darbības.
 
 1. Kreisās puses navigācijas rūtī atlasiet **Mediju bibliotēka**.
-1. Komandu joslā atlasiet **Augšupielādēt \>Augšupielādēt mediju vienumus**.
+1. Komandu joslā atlasiet **Augšupielādēt \> Augšupielādēt mediju vienumus**.
 1. Failu pārlūka logā pārlūkojiet izlases attēla failu, kuru vēlaties augšupielādēt, atlasiet to un pēc tam atlasiet **Atvērt**.
 1. Dialoglodziņā **Augšupielādēt multivides vienumu** ievadiet nepieciešamo nosaukumu un alternatīvo tekstu.
 1. Ja vēlaties publicēt attēlu tūlīt pēc augšupielādes, atzīmējiet izvēles rūtiņu **Publicēt multivides vienumus pēc augšupielādes**.
@@ -58,30 +58,30 @@ Lai izveidotu HTML izlases ikonai, izmantojiet šādu HTML virkni. **href** atri
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Izveidot lapas fragmentu, kas satur metatagu jūsu favicon
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Izveidot fragmentu, kas satur metatagu jūsu favicon
 
-Lai izveidotu lapas fragmentu, kas satur metatagu jūsu favicon, sekojiet šiem soļiem.
+Lai izveidotu fragmentu, kas satur metatagu jūsu favicon, sekojiet šiem soļiem.
 
 1. Dodieties uz **Fragmenti** un atlasiet **Jauns**.
-1. Dialoglodziņā **Jauns lapas fragments** atlasiet **Metatagi** kā moduli, uz kā balstās lapas fragments.
-1. Ievadiet lapas fragmenta nosaukumu un pēc tam atlasiet **Labi**.
+1. Dialoglodziņā **Jauns fragments** atlasiet **Metatagi** kā moduli, uz kā balstās fragments.
+1. Ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Fragmentu hierarhijas kokā atlasiet **Noklusējuma metatagi** elementu.
 1. Labajā rūtī zem sadaļas **Metatagi** atlasiet **Pievienot** un pēc tam ievadiet HTML virkni, ko iepriekš izveidojāt izlases ikonai. 
-1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu lapas fragmentu.
+1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu fragmentu.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Pievienot metataga lapas fragmentu jūsu lapu HTML galvenei
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Pievienot metataga fragmentu jūsu lapu HTML galvenei
 
-Lai pievienotu metataga lapas fragmentu jūsu lapu HTML **galvenei**, sekojiet šiem soļiem.
+Lai pievienotu metataga fragmentu jūsu lapu HTML **galvenei**, sekojiet šiem soļiem.
 
 1. Dodieties uz **Veidnes**, atveriet veidni lapām, kurām vēlaties pievienot izlases ikonu, un tad atlasiet **Rediģēt**.
-1. Veidnes hierarhijas kokā atlasiet daudzpunktes (**...**) pogu pa labi no **HTML galvenes** konteinera un pēc tam atlasiet **Pievienot lapas fragmentu**.
-1. Dialoglodziņā **Atlasīt lapas fragmentu** atlasiet iepriekš izveidoto metataga lapas fragmentu un pēc tam atlasiet **Labi**.
+1. Veidnes hierarhijas kokā atlasiet daudzpunktes (**...**) pogu pa labi no **HTML galvenes** konteinera un pēc tam atlasiet **Pievienot fragmentu**.
+1. Dialoglodziņā **Atlasīt fragmentu** atlasiet iepriekš izveidoto metataga fragmentu un pēc tam atlasiet **Labi**.
 1. Atlasiet **Pabeigt rediģēšanu** un pēc tam atlasiet **Publicēt**, lai publicētu veidni.
 
 > [!NOTE]
-> Ja jūsu vietne izmanto vairāk nekā vienu veidni, jums ir jāpievieno metatagu lapas fragments tiem visiem.
+> Ja jūsu vietne izmanto vairāk nekā vienu veidni, jums ir jāpievieno metatagu fragments tiem visiem.
 
-Priekšskatot lapas, kas ir balstītas uz veidni, kurai pievienojāt metatagu lapas fragmentu, jums vajadzētu ieraudzīt izlases ikonu pārlūka cilnē.
+Priekšskatot lapas, kas ir balstītas uz veidni, kurai pievienojāt metatagu fragmentu, jums vajadzētu ieraudzīt izlases ikonu pārlūka cilnē.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

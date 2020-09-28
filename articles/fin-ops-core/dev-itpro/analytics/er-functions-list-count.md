@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d2ea1b26c295c97575a3c7a479ee4e06762424
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: c48483a6677aaeb36eac57a57cec71bf54c7991d
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042209"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745349"
 ---
-# <a name="COUNT">COUNT ER funkcija</a>
+# <a name="count-er-function"></a>COUNT ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,7 +51,7 @@ Iegūtā skaitliskā vērtība.
 
 ## <a name="example"></a>Paraugs
 
-`COUNT (SPLIT("abcd" , 3))`atgriež **2**, jo `SPLIT` funkcija, kas tiek izmantota šajā piemērā, izveido sarakstu, kas sastāv no diviem ierakstiem.
+`COUNT (SPLIT("abcd" , 3))` atgriež **2**, jo `SPLIT` funkcija, kas tiek izmantota šajā piemērā, izveido sarakstu, kas sastāv no diviem ierakstiem.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

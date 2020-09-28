@@ -1,5 +1,5 @@
 ---
-title: Priekšskatījuma līdzekļi programmas Dynamics 365 Supply Chain Management versijā 10.0.13 (2020. gada oktobris)
+title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.13 (2020. gada oktobris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.13.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652251"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802947"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Priekšskatījuma līdzekļi programmas Dynamics 365 Supply Chain Management versijā 10.0.13 (2020. gada oktobris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.13 (2020. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.13. Šai versijai ir būvējuma numurs 10.0.569, un tas ir pieejams šeit: 
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.13. Šai versijai ir būvējuma numurs 10.0.569, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2020. gada augusts
 - **Vispārējā pieejamība (self-update):** 2020. gada septembris
@@ -61,7 +60,7 @@ ms.locfileid: "3652251"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.13 (2020. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.13 (2020. gada oktobris)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

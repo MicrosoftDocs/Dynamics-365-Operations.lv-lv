@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771521"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759260"
 ---
 # <a name="cost-management-power-bi-content"></a>Power BI satura pakotne Izmaksu pārvaldība
 
@@ -35,7 +35,7 @@ ms.locfileid: "2771521"
 Microsoft Power BI satura pakotne **Izmaksu pārvaldība** ir paredzēta krājumu grāmatvežiem vai tādām personām organizācijā, kuras ir atbildīgas vai interesējas par krājumu vai nepabeigtās ražošanas (NP) statusu vai kuras ir atbildīgas vai interesējas par standarta izmaksu novirzes analīzi.
 
 > [!NOTE]
-> Šajā tēmā ir aprakstītā Power BI satura pakotne **Izmaksu pārvaldība** ir paredzēta programmai Dynamics 365 Finance and Operations 8.0.
+> Šajā tēmā ir aprakstītā Power BI satura pakotne **Izmaksu pārvaldība** ir paredzēta programmai Dynamics 365 Finance and Operations 8.0.
 > 
 > Vietnē AppSource pieejamā Power BI satura pakotne **Izmaksu pārvaldība** ir novecojusi. Lai iegūtu vairāk informācijas par šo nolietojumu, skatiet rakstu [Noņemtie vai nolietotie līdzekļi programmai Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
@@ -51,16 +51,16 @@ Power BI satura pakotne **Izmaksu pārvaldība** tiek rādīta darbvietās **Izm
 
 Darbvietā **Izmaksu administrēšana** ir šādas cilnes:
 
-- **Apskats** — šajā cilnē ir parādīti pieteikumu dati.
-- **Krājumu uzskaites statuss** — šajā cilnē ir parādīts Power BI saturs.
-- **Ražošanas uzskaites statuss** — šajā cilnē ir parādīts Power BI saturs.
+- **Apskats** – šajā cilnē ir parādīti pieteikumu dati.
+- **Krājumu uzskaites statuss** – šajā cilnē ir parādīts Power BI saturs.
+- **Ražošanas uzskaites statuss** – šajā cilnē ir parādīts Power BI saturs.
 
 Darbvietā **Izmaksu analīze** ir šādas cilnes:
 
-- **Apskats** — šajā cilnē ir parādīti pieteikumu dati.
-- **Krājumu uzskaites analīze** — šajā cilnē ir parādīts Power BI saturs.
-- **Ražošanas uzskaites analīze** — šajā cilnē ir parādīts Power BI saturs.
-- **Standarta izmaksu novirzes analīze** — šajā cilnē ir parādīts Power BI saturs.
+- **Apskats** – šajā cilnē ir parādīti pieteikumu dati.
+- **Krājumu uzskaites analīze** – šajā cilnē ir parādīts Power BI saturs.
+- **Ražošanas uzskaites analīze** – šajā cilnē ir parādīts Power BI saturs.
+- **Standarta izmaksu novirzes analīze** – šajā cilnē ir parādīts Power BI saturs.
 
 ## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautās pārskatu lapas
 
@@ -176,9 +176,9 @@ Programmas dati tiek izmantoti, lai aizpildītu pārskatu lapas **Izmaksu pārva
 
 Power BI satura pakotnes izveidei tiek izmantoto tālāk norādīto objektu galvenie apkopotie mērījumi.
 
-| Objekts                          | Galvenie apkopošanas mērījumi | Dynamics 365 for Finance and Operations datu avots | Lauks               |
+| Objekts                          | Galvenie apkopošanas mērījumi | Datu avots programmai Finance and Operations | Lauks               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
-| CostObjectStatementCacheMonthly | Daudzums                     | CostObjectStatementCache               | Daudzums              |
+| CostObjectStatementCacheMonthly | Apjoms                     | CostObjectStatementCache               | Daudzums              |
 | CostObjectStatementCacheMonthly | Daudzums                   | CostObjectStatementCache               | Daudzums                 |
 | CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
 | CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
@@ -193,10 +193,10 @@ Tālāk esošajā tabulā ir norādīti galvenie aprēķinātie mērījumi Power
 | Beigu bilances daudzums                | Beigu bilances daudzums = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Neto apgrozījums                         | Neto izmaiņas = SUM(\[AMOUNT\]) |
 | Neto izmaiņu daudzums                    | Neto izmaiņu daudzums = SUM(\[QTY\]) |
-| Krājumu apgrozījuma koeficients pēc summas | Krājumu apgrozījuma koeficients pēc summas = if(OR(\[Krājumu vidējā bilance\] \<= 0, \[Pārdoto vai patērēto krājumu izejošās plūsmas\] \>= 0), 0, ABS(\[Pārdoto vai patērēto krājumu izejošās plūsmas\])/\[Krājumu vidējā bilance\]) |
+| Krājumu apgrozījuma koeficients pēc summas | Krājumu apgrozījuma koeficients pēc summas = if(OR(\[Krājumu vidējā bilance\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Pārdoto vai patērēto krājumu izejošās plūsmas\])/\[Krājumu vidējā bilance\]) |
 | Krājumu vidējā bilance          | Krājumu vidējā bilance = ((\[Beigu bilance\] + \[Sākuma bilance\]) / 2) |
 | Dienas, kad pieejami krājumi             | Dienas, kad pieejami krājumi = 365 / CostObjectStatementEntries\[Krājumu apgrozījuma koeficients pēc summas\] |
-| Krājumu precizitāte                 | Krājumu precizitāte pēc summas = IF(\[Beigu bilance\] \< = 0, IF(OR(\[Krājumu aprēķinātā summa\] \<\> 0, \[Beigu bilance\] \< 0), 0, 1), MAX(0,(\[Beigu bilance\] - ABS(\[Krājumu aprēķinātā summa\]))/\[Beigu bilance\])) |
+| Krājumu precizitāte                 | Krājumu precizitāte pēc summas = IF (\[Beigu bilance\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Beigu bilance\] \< 0), 0, 1), MAX(0, (\[Beigu bilance\] - ABS(\[Krājumu skaita summa\]))/\[Beigu bilance\])) |
 
 Tālāk minētās galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu apkopošanas mērījumus, iegūstot lielāku granularitāti un sniedzot dziļākus analītiskos ieskatus.
 

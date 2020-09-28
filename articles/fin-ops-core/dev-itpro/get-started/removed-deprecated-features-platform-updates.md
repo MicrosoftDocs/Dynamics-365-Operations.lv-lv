@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
 manager: AnnBe
-ms.date: 08/10/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678226"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803143"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -37,8 +37,6 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.13 versijai
 
-> [!NOTE]
-> Versija 10.0.13 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Pielāgots kods, kas definēts SSRS pārskata rekvizītos 
 
@@ -100,12 +98,12 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 |   |  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ir mainījies process, kurā IP tiek pārvietoti uz drošajiem sarakstiem. Pašapkalpošanās vairs neatbalsta IP iekļaušanu drošajā sarakstā. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Plašāku informāciju skatiet [Azure Active Directory nosacījuma piekļuves konfigurēšana](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Vai ir aizstāts ar citu līdzekli?**   | Plašāku informāciju skatiet [Konfigurēt Azure Active Directory nosacījuma piekļuvi](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Ietekmētie produkta apgabali**         | Drošība |
 | **Izvietošanas iespēja**              | Mākonis |
 | **Statuss**                         | **Novecojis:** šis līdzeklis ir pilnībā novecojis pašapkalpošanās izvietošanai. |
 
-### <a name="visual-studio-2015"></a>Visual Studio2015
+### <a name="visual-studio-2015"></a>Visual Studio 2015
 
 |   |  |
 |------------|--------------------|

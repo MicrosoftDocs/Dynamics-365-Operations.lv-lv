@@ -1,9 +1,9 @@
 ---
-title: ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju un to augšupielādēt pakalpojumos Microsoft Lifecycle Services (LCS).
+title: Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services
+description: Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju un augšupielādēt to programmā Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143294"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810695"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju un to augšupielādēt pakalpojumos Microsoft Lifecycle Services (LCS).
+Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu [Elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācija](../general-electronic-reporting.md#Configuration) un augšupielādēt to programmā [projekta līmeņa līdzekļu bibliotēka](../../lifecycle-services/asset-library.md) Microsoft Dynamics Lifecycle Services (LCS).
 
-Šajā piemērā jūs izveidosiet konfigurācijas un augšupielādēsiet to pakalpojumos LCS parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas ir kopīgas visiem uzņēmumiem. Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas aprakstītas procedūrā "Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu". Lai izpildītu šīs darbības, ir nepieciešama arī piekļuve pakalpojumiem LCS.
+Šajā piemērā jūs izveidosiet konfigurācijas un augšupielādēsiet to pakalpojumos LCS parauga uzņēmumam ar nosaukumu Litware, Inc. Šīs darbības var pabeigt jebkurā uzņēmumā, jo ER konfigurācijas ir kopīgas visiem uzņēmumiem. Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](er-configuration-provider-mark-it-active-2016-11.md). Ir nepieciešama arī piekļuve LCS.
 
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-2. Atlasiet 'Litware, Inc.' un iestatiet to kā aktīvu.
-3. Noklikšķiniet uz Konfigurācijas.
+1. Pierakstieties programmā, izmantojot vienu no šīm lomām:
+
+    - Elektroniskā pārskata izstrādātājs
+    - Sistēmas administrators
+
+2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+3. Atlasiet vienumu **Litware, Inc.** un atzīmējiet to kā **Aktīvs**.
+4. Atlasiet **Konfigurācijas**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Pārliecinieties, vai pašreizējais Dynamics 365 Finance lietotājs ir tāda LCS projekta biedrs, kurā ir ietverta tā [Līdzekļu bibliotēka](../../lifecycle-services/asset-library.md#asset-library-support) , ko izmanto ER konfigurāciju importēšanai.
+>
+> Jūs nevarat piekļūt LCS projektam no ER repozitorija, kas pārstāv citu domēnu, nevis to domēnu, kas tiek izmantots programmā Finance. Ja jūs mēģināt, tiks rādīts tukšs LCS projektu saraksts, un jūs nevarēsiet importēt ER konfigurācijas no projekta līmeņa līdzekļu bibliotēkas uz LCS. Lai piekļūtu projekta līmeņa līdzekļu bibliotēkām no ER repozitorija, kas tiek izmantots, lai importētu ER konfigurācijas, piesakieties programmai Finance, izmantojot lietotāja akreditācijas datus, kas pieder nomniekam (domēns), kam ir nodrošināta pašreizējā Finance instance.
 
 ## <a name="create-a-new-data-model-configuration"></a>Jaunas datu modeļa konfigurācijas izveide
-1. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
-    * Jūs izveidosiet konfigurāciju, kas satur parauga datu modeli elektroniskajiem dokumentiem. Šī datu modeļa konfigurācija vēlāk tiks augšupielādēta pakalpojumos LCS.  
-2. Laukā Nosaukums ierakstiet “Parauga modeļa konfigurācija”.
-    * Parauga modeļa konfigurācija  
-3. Laukā Apraksts ierakstiet “Parauga modeļa konfigurācija”.
-    * Parauga modeļa konfigurācija  
-4. Klikšķiniet Izveidot konfigurāciju.
-5. Noklikšķiniet uz Modeļa veidotājs.
-6. Noklikšķiniet uz Jauns.
-7. Laukā Nosaukums ierakstiet “Ieejas punkts”.
-    * Ieejas punkts  
-8. Noklikšķiniet uz Pievienot.
-9. Noklikšķiniet uz Saglabāt.
-10. Aizvērt lapu.
-11. Noklikšķiniet uz Mainīt statusu.
-12. Noklikšķiniet uz Pabeigt.
-13. Noklikšķiniet uz OK.
 
-## <a name="register-a-new--repository"></a>Reģistrēt jaunu repozitoriju
-1. Aizvērt lapu.
-2. Noklikšķiniet uz Repozitoriji.
-    * Šādi jums tiek ļauts atvērt sarakstu ar repozitorijiem, kas paredzēti konfigurācijas nodrošinātājam Litware, Inc.  
-3. Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.
-    * Tas jums ļauj pievienot jaunu repozitoriju.  
-4. Laukā Konfigurācijas repozitorija tips atlasiet LCS.
-5. Noklikšķiniet uz Izveidot repozitoriju.
-6. Laukā Projekts ievadiet vai atlasiet kādu vērtību.
-    * Atlasiet vēlamo LCS projektu. Jums ir nepieciešama piekļuve šim projektam.  
-7. Noklikšķiniet uz OK.
-    * Pabeidziet jauna repozitorija ierakstu.  
-8. Sarakstā atzīmējiet atlasīto rindu.
-    * Atlasiet LCS repozitorija ierakstu.  
-    * Ņemiet vērā, ka reģistrētais repozitorijs ir atzīmēts ar pašreizējo nodrošinātāju — tas nozīmē, ka šajā repozitorijā var novietot — un līdz ar to atlasītajā LCS projektā var augšupielādēt — tikai konfigurācijas, kas pieder šim nodrošinātājam.  
-9. Noklikšķiniet uz Atvērt.
-    * Atveriet repozitoriju, lai skatītu sarakstu ar ER konfigurācijām. Tas būs tukšs, ja šis projekts vēl nav lietots ER konfigurāciju koplietošanai.  
-10. Aizvērt lapu.
+1. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas**.
+2. Lapā **Konfigurācijas** atlasiet **Izveidot konfigurāciju**, lai atvērtu nolaižamo dialoglodziņu.
+
+    Šajā piemērā jūs izveidosiet konfigurāciju, kas satur parauga datu modeli elektroniskajiem dokumentiem. Šī datu modeļa konfigurācija vēlāk tiks augšupielādēta pakalpojumos LCS.
+
+3. Laukā **Nosaukums** ievādiet **Parauga modeļa konfigurācija**.
+4. Laukā **Apraksts** ievādiet **Parauga modeļa konfigurācija**.
+5. Atlasiet **Izveidot konfigurāciju**.
+6. Atlasiet **Modeļa veidotājs**.
+7. Atlasiet **Jauns**.
+8. Laukā **Nosaukums** ievadiet **Ieejas punkts**.
+9. Atlasiet **Pievienot**.
+10. Atlasiet **Saglabāt**.
 11. Aizvērt lapu.
+12. Atlasiet **Mainīt statusu**.
+13. Atlasiet **Pabeigt**.
+14. Atlasiet **Labi**.
+15. Aizvērt lapu.
 
-## <a name="upload-configuration-into-lcs"></a>Augšupielādēt konfigurāciju pakalpojumos LCS
-1. Noklikšķiniet uz Konfigurācijas.
-2. Koka struktūrā atlasiet “Parauga modeļa konfigurācija”.
-    * Atlasiet izveidotu konfigurāciju, kas jau pabeigta.  
+## <a name="register-a-new-repository"></a>Reģistrēt jaunu repozitoriju
+
+1. Dodieties uz **Organizācijas administrēšana \> Darbvietas \> Elektronisko atskaišu veidošana**.
+
+2. Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Litware, Inc.**.
+
+3. Elementā **Litware, Inc.** atlasiet **Repozitoriji**.
+
+    Tagad var atvērt sarakstu ar repozitorijiem, kas paredzēti Litware, Inc. konfigurācijas nodrošinātājam.
+
+4. Atlasiet **Pievienot**, lai atvērtu nolaižamo dialoglodziņu.
+
+    Tagad varat pievienot jaunu repozitoriju.
+
+5. Laukā **Konfigurācijas repozitorija ievade** atlasiet **LCS**.
+6. Atlasiet **Izveidot repozitoriju**.
+7. Laukā **Projekts** ievadiet vai atlasiet kādu vērtību.
+
+    Šim piemēram atlasiet vēlāmo LCS projektu. Jums ir nepieciešama [piekļuve](#accessconditions) šim projektam.
+
+8. Atlasiet **Labi**.
+
+    Pabeidziet jauna repozitorija ierakstu.
+
+9. Sarakstā atzīmējiet atlasīto rindu.
+
+    Šajā piemērā atlasiet **LCS** repozitorija ierakstu.
+
+    Ievērojiet, ka reģistrēto repozitoriju ir iezīmējis pašreizējais nodrošinātājs. Citiem vārdiem, tikai konfigurācijas, kas pieder šim nodrošinātājam, var tikt ievietotas šajā repozitorijā un tāpēc augšupielādētas atlasītajā LCS projektā.
+
+10. Atlasiet **Atvērt**.
+
+    Atverat repozitoriju, lai skatītu sarakstu ar ER konfigurācijām. Ja atlasītais projekts vēl nav lietots ER konfigurāciju koplietošanai, saraksts būs tukšs.
+
+11. Aizvērt lapu.
+12. Aizvērt lapu.
+
+## <a name="upload-a-configuration-into-lcs"></a>Konfigurācijas augšupielāde pakalpojumā LCS
+
+1. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas**.
+2. Lapā **Konfigurācijas**, konfigurāciju kokā atlasiet vienumu **Modeļa konfigurācijas paraugs**.
+
+    Ir jāatlasa izveidota konfigurācija, kas jau ir pabeigta.
+
 3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet atlasītās konfigurācijas versiju, kuras statuss ir 'Pabeigts'.  
-4. Noklikšķiniet uz Mainīt statusu.
-5. Noklikšķiniet uz Koplietot.
-    * Kad konfigurācija ir publicēta pakalpojumos LCS, tās statuss no 'Pabeigts' mainās uz 'Koplietots'.  
-6. Noklikšķiniet uz Labi.
-7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet konfigurācijas versiju, kuras statuss ir “Koplietots”.  
-    * Ņemiet vērā, ka atlasītās versijas statuss no 'Pabeigts' ir mainīts uz 'Koplietots'.  
-8. Aizvērt lapu.
-9. Noklikšķiniet uz Repozitoriji.
-    * Šādi jums tiek ļauts atvērt sarakstu ar repozitorijiem, kas paredzēti konfigurācijas nodrošinātājam Litware, Inc.  
-10. Noklikšķiniet uz Atvērt.
-    * Atlasiet LCS repozitoriju un atveriet to.  
-    * Ņemiet vērā, ka atlasītā konfigurācija tiek rādīta kā atlasītā LCS projekta līdzeklis.  
-    * Atveriet LCS, izmantojot https://lcs.dynamics.com. Atveriet projektu, kas iepriekš tika izmantots repozitorija reģistrēšanai, atveriet šī projekta sadaļu 'Līdzekļu bibliotēka' un izvērst līdzekļa tipa 'GER konfigurācija' saturu —būs pieejama augšupielādētā ER konfigurācija. Ņemiet vērā, ka augšupielādēto LCS konfigurāciju var importēt citā instancē, ja nodrošinātājiem ir piekļuve šim LCS projektam.  
 
+    Šajā piemērā atlasiet atlasītās konfigurācijas versiju, kuras statuss ir **Pabaigts**.
+
+4. Atlasiet **Mainīt statusu**.
+5. Atlasiet **Koplietot**.
+
+    Konfigurācijas statuss tiek mainīts no **Pabeigts** uz **Koplietots** , kad konfigurācija tiek publicēta LCS.
+
+6. Atlasiet **Labi**.
+7. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+
+    Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**.
+
+    Ņemiet vērā, ka atlasītās versijas statuss no **Pabeigts** ir mainīts uz **Koplietots**.
+
+8. Aizvērt lapu.
+9. Atlasiet **Repozitoriji**.
+
+    Tagad var atvērt sarakstu ar repozitorijiem, kas paredzēti Litware, Inc. konfigurācijas nodrošinātājam.
+
+10. Atlasiet **Atvērt**.
+
+    Šajā piemērā atlasiet **LCS** repozitoriju un atveriet to.
+
+    Ievērojiet, ka atlasītā konfigurācija tiek rādīta kā atlasītā LCS projekta līdzeklis.
+
+11. Atvēriet LCS, pārejot uz <https://lcs.dynamics.com>.
+12. Atvēriet projektu, kas iepriekš tika izmantots repozitorija reģistrācijai.
+13. Atveriet projekta līdzekļu bibliotēku.
+14. Atlasiet **GER konfigurācija** līdzekļa veidu.
+
+    Ir jāuzskaita jūsu augšupielādētā ER konfigurācija.
+
+    Ņemiet vērā, ka augšupielādēto LCS konfigurāciju var importēt citā instancē, ja nodrošinātājiem ir piekļuve šim LCS projektam.

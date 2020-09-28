@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45e95751e3adfe6aa208daaba774a349216e1f1f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 051e22daa3fe2d6c328e36403201d940f724bd29
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042071"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745182"
 ---
-# <a name="INDEX">INDEX ER funkcija</a>
+# <a name="index-er-function"></a>INDEX ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,7 @@ Iegūtā ieraksta vērtība.
 
 ## <a name="example-1"></a>1. piemērs
 
-Ja ievadāt datu avotu **DS** tipam *Aprēķinātais lauks* un tajā ir izteiksme `SPLIT ("A|B|C", "|")`,izteiksme `DS.Value` atgriež teksta vērtību  **"B"** otrajam ierakstam šajā ierakstu sarakstā. Izteiksme `INDEX (SPLIT ("A|B|C", "|"), 2).Value` arī atgriež teksta vērtību **"B"**.
+Ja ievadāt datu avotu **DS** tipam *Aprēķinātais lauks* un tajā ir izteiksme `SPLIT ("A|B|C", "|")`,izteiksme `DS.Value` atgriež teksta vērtību **"B"** otrajam ierakstam šajā ierakstu sarakstā. Izteiksme `INDEX (SPLIT ("A|B|C", "|"), 2).Value` arī atgriež teksta vērtību **"B"**.
 
 ## <a name="example-2"></a>2. piemērs
 

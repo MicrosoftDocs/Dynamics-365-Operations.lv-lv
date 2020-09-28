@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adeefd08531f59e478efbb45ab294b3bc8216f4c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: d281fe710381b0ecb075a0d9281d46bd6edf987d
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042162"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745301"
 ---
-# <a name="FILTER">FILTER ER funkcija</a>
+# <a name="filter-er-function"></a>FILTER ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,7 +57,7 @@ Iegūtais ierakstu saraksts.
 
 Šī funkcija atšķiras no funkcijas [WHERE](er-functions-list-where.md), jo norādītais nosacījums tiek lietots datu bāzes līmenī visiem elektronisko pārskatu (ER) datu avotiem ar tipu *Tabulas ieraksti*. Sarakstu un nosacījumu var definēt, izmantojot tabulas un relācijas.
 
-Ja viens vai abi argumenti, kas ir konfigurēts šai funkcijai (`list` un `condition`) neļauj šo pieprasījumu tulkot uz tiešo SQL zvanu, noformēšanas laikā tiek rādīts izņēmums. Šis izņēmums informē lietotāju, ka `list` vai  `condition`nevar izmantot vaicājuma veikšanai datu bāzē.
+Ja viens vai abi argumenti, kas ir konfigurēts šai funkcijai (`list` un `condition`) neļauj šo pieprasījumu tulkot uz tiešo SQL zvanu, noformēšanas laikā tiek rādīts izņēmums. Šis izņēmums informē lietotāju, ka `list` vai `condition` nevar izmantot vaicājuma veikšanai datu bāzē.
 
 ## <a name="example-1"></a>1. piemērs
 

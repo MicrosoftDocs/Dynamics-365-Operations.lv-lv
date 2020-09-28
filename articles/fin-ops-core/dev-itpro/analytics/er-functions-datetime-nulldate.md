@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a295a6ad8aca7718e60dd351248c9fbfdafee8
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: edf43cc19636f51387504a7d9da73d757d96e558
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042324"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744291"
 ---
-# <a name="NULLDATE">NULLDATE ER funkcija</a>
+# <a name="nulldate-er-function"></a>NULLDATE ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +45,7 @@ Iegūtā datuma vērtība.
 
 ## <a name="example-1"></a>1. piemērs
 
-`DATEFORMAT (NULLDATE(), "yyyy-MM-dd")`atgriež **nulles** datumu, 1900. gada 1. janvāri, kā **"1900-01-01"**, pamatojoties uz norādīto pielāgoto formātu.
+`DATEFORMAT (NULLDATE(), "yyyy-MM-dd")` atgriež **nulles** datumu, 1900. gada 1. janvāri, kā **"1900-01-01"**, pamatojoties uz norādīto pielāgoto formātu.
 
 ## <a name="example-2"></a>2. piemērs
 

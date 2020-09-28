@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550652"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760035"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formātu izpildes izsekošana, lai novērstu veiktspējas problēmas
 
@@ -101,7 +101,7 @@ Pieņemsim, ka esat sācis izstrādāt jaunu ER risinājumu, lai ģenerētu jaun
 
 Pieņemsim, ka esat pabeidzis izstrādāt ER risinājuma pirmo versiju. Tagad vēlaties to pārbaudīt savā instancē un analizēt izpildes veiktspēju.
 
-### <a id='import-configuration'></a>ER konfigurācijas importēšana no pakalpojuma RCS programmā Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigurācijas importēšana no RCS uz Finance and Operations
 
 1. Piesakieties savā programmas instancē.
 2. Šīs apmācības ietvaros importēsit konfigurācijas no savas RCS instances (kur izstrādājat ER komponentus) savā instancē (kur tos testējat un izmantojat). Tāpēc ir jāpārliecinās, ka ir sagatavoti visi vajadzīgie artefakti. Norādījumus skatiet procedūrā [Importēt elektronisko pārskatu (ER) konfigurācijas no Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ Datu modeļa un modeļa kartējuma konfigurāciju atbilstošās versijas automā
 
     ![Lietotāja parametru dialoglodziņš](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>ER formāta palaišana
+### <a name="run-the-er-format"></a><a id='run-format'></a>ER formāta palaišana
 
 1. Atlasiet **DEMF** uzņēmumu.
 2. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Konfigurācijas**.
@@ -157,7 +157,7 @@ Datu modeļa un modeļa kartējuma konfigurāciju atbilstošās versijas automā
 
 ## <a name="review-the-execution-trace"></a>Izpildes izsekošanas pārskatīšana
 
-### <a id='export-trace'></a>Eksportēt ģenerēto izsekošanu no programmas
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>Eksportēt ģenerēto izsekošanu no programmas
 
 Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializēt ārējā zip failā.
 
@@ -176,7 +176,7 @@ Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializē
 
 Ņemiet vērā, ka saistība starp veiktspējas izsekošanu, kas ir ģenerēta izpildītajam ER formātam, un ER modeļa kartējumu ir balstīta uz izmantoto saknes deskriptoru un kopējo datu modeli. Formāta un modeļa kartējuma versijas numerācija netiek ņemta vērā. Modeļa kartējuma karodziņa **Modeļa kartējuma noklusējums** iestatījums arī netiek ņemts vērā.
 
-### <a id='import-trace'></a>Importēt ģenerēto izsekošanu RCS
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>Importēt ģenerēto izsekošanu RCS
 
 1. Pakalpojuma RCS darbvietā **Elektroniskie pārskati** atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
 2. Lapā **Konfigurācijas**, konfigurāciju kokā izvērsiet vienumu **Veiktspējas izsekošanas modelis** un atlasiet vienumu **Veiktspējas izsekošanas formāts**.
@@ -201,7 +201,7 @@ Veiktspējas izsekošana ir atdalīta no avota ER formāta, un to var serializē
 
 2. Aizveriet lapu **Formāta noformētājs**.
 
-### <a id='use-trace'></a>Veiktspējas izsekošanas izmantošana analīzes veikšanai pakalpojumā RCS — modeļa kartējums
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Veiktspējas izsekošanas izmantošana analīzes veikšanai pakalpojumā RCS — modeļa kartējums
 
 1. Pakalpojuma RCS lapā **Konfigurācijas**, konfigurāciju kokā atlasiet vienumu **Veiktspējas izsekošanas kartējums**.
 2. Darbību rūtī atlasiet **Noformētājs**.
@@ -301,7 +301,7 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER konfigurācijas importēš
 
 Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-format) minētās darbības, lai ģenerētu jaunu veiktspējas izsekošanu.
 
-## <a name="review-the-execution-trace"></a>Izpildes izsekošanas pārskatīšana
+## <a name="work-with-the-execution-trace"></a>Darbs ar izpildes izsekošanu
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Eksportēt ģenerēto izsekošanu no programmas
 
@@ -347,7 +347,7 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-
 
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju.
 
-![Izpildītā ER formāta informācijas izsekošana rīkā PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Veiktspējas izsekošanas informācija PerfView formātā](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Ārēju rīku izmantošana, lai pārskatītu izpildes izsekošanu, kas ietver datu bāzes vaicājumus
 
@@ -363,7 +363,7 @@ Tā kā ER struktūrā ir veikti uzlabojumi, PerfView formātā ģenerētā veik
     - Opciju **Vākt vaicājumu statistiku** iestatiet uz **Jā**.
     - Opciju **Izsekot vaicājumu** iestatiet uz **Jā**.
 
-    ![Lietotāja parametru dialoglodziņš](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Izpildes izsekošanas sadaļa, lietotāja parametru dialoglodziņš](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER formāta palaišana
 
@@ -372,3 +372,8 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-
 Ņemiet vērā, ka tīmekļa pārlūkprogramma piedāvā lejupielādēt zip failu. Šis fails satur veiktspējas izsekošanu PerfView formātā. Pēc tam varat izmantot PerfView veiktspējas analīzes rīku, lai analizētu ER formāta izpildes informāciju. Šajā izsekošanā tagad ir informācija par piekļuvi SQL datu bāzei ER formāta izpildes laikā.
 
 ![Izpildītā ER formāta informācijas izsekošana rīkā PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Papildu resursi
+
+- [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
+- [Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus](er-calculated-field-ds-performance.md)

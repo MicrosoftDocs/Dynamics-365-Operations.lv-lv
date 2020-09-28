@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dbb9876b5df3309d280f242a9fce8f79f12afeb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9caea2d41e6d3ba74e4d156d8aeae6c4693ce7e2
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214757"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813862"
 ---
 # <a name="cost-management-home-page"></a>Izmaksu pārvaldības sākumlapa
 
@@ -46,21 +46,21 @@ Krājumu uzskaitei un ražošanas uzskaitei varat piekļūt no darbvietām **Izm
 
 Izmantojot ražošanas uzskaiti, varat apstrādēt [darbu pasūtījuma cenu](production-order-cost-analysis.md) ražošanas pasūtījumos un partijas pasūtījumos, kā arī veikt [atgriezenisko izmaksu aprēķināšanu](backflush-costing.md) LEAN ražošanas procesā.
 
-[Power BI satura pakotne Izmaksu pārvaldība](../../dev-itpro/analytics/cost-management-content-pack.md) nodrošina pārvaldības ieskatus par krājumiem un nepabeigtās ražošanas (NP) krājumiem, kā arī par izmaksu plūsmu caur tiem pēc kategorijas laika gaitā. Šo informāciju var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
+[Pakalpojuma Power BI satura pakotne Izmaksu pārvaldība](../../dev-itpro/analytics/cost-management-content-pack.md) nodrošina pārvaldības ieskatus par krājumiem un nepabeigtās ražošanas (NP) krājumiem, kā arī par izmaksu plūsmu caur tiem pēc kategorijas laika gaitā. Šo informāciju var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
 
 ### <a name="additional-resources"></a>Papildu resursi
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā
 
-Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
+Lai apskatītu, kādi jauni līdzekļi ir izlaisti un kādi līdzekļi vēl tiek izstrādāti, dodieties uz vietni [Microsoft Dynamics 365 rīcības plāns](https://roadmap.dynamics.com/).
 
 #### <a name="white-paper"></a>Tehniskais dokuments
 
-Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) ir aprakstīts, kā iestatīt izmaksu aprēķināšanas lapu, kurā ir ietverti materiāli un ražošana, un kā šī iestatīšana ietekmē MK aprēķina rezultātus. Lai labāk izskaidrotu šo tēmu, tajā ir aprakstīti konkrēti scenāriji un iekļauti dati, kas attēlo dažādu iestatījumu un konfigurāciju ietekmi.
+Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://www.microsoft.com/download/details.aspx?id=101937) ir aprakstīts, kā iestatīt izmaksu aprēķināšanas lapu, kurā ir ietverti materiāli un ražošana, un kā šī iestatīšana ietekmē MK aprēķina rezultātus. Lai labāk izskaidrotu šo tēmu, tajā ir aprakstīti konkrēti scenāriji un iekļauti dati, kas attēlo dažādu iestatījumu un konfigurāciju ietekmi.
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 #### <a name="task-guides"></a>Uzdevumu ceļveži
 

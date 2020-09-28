@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 538446671de8012947a6e60423bdb75ed9e349b4
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 741c8af7eaabe23c03546daddd0a9a422146f575
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646276"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793567"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Apmācības katalogs Dynamics 365 Supply Chain Management lietotājiem
 
@@ -37,7 +40,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 | Saturs | apraksts  | Formāts   | Ilgums    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
-| [Konfigurējiet savu organizāciju  Finance and Operations programmās](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionālam konsultantam, kas strādā ar Finance and Operations programmām, jums ir jāsaprot, kā iestatīt organizāciju savam debitoram. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas |
+| [Konfigurējiet savu organizāciju Finance and Operations programmās](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionālam konsultantam, kas strādā ar Finance and Operations programmām, jums ir jāsaprot, kā iestatīt organizāciju savam debitoram. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas |
 | [Konfigurējiet un strādājiet ar analīzi un pārskatiem Finance and Operations programmās](https://docs.microsoft.com/learn/paths/configure-analytics-reporting-finance-operations/) | Biznesa līderi var pieņemt svarīgus lēmumus savā uzņēmumā, ja tiem ir precīza izpratne par pamata finanšu un darbības datiem. Biznesa lietotājs var arī konfigurēt un lietot elektronisko pārskatu veidošanas rīku bez vienas rindas koda, lai pieņemtu jaunus reglamentējošus nosacījumus un izveidotu biznesa dokumentus vajadzīgajā formātā, lai elektroniski apmainītos ar informāciju ar valdības institūcijām, bankām un citām pusēm. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas |
 
 ## <a name="supply-chain-management"></a>Piegādes ķēdes pārvaldība<a name="supply-chain-management"></a>

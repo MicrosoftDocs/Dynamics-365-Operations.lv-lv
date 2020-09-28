@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a20be4730189f1f81a08b5dda21e97aaedd7d3b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c757779d60147748e305d85fbc2b0bf6b0eedaf3
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209241"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813916"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmas
 
@@ -34,7 +34,7 @@ Dažas organizācijas pieprasa, lai pirkšanas pieprasījumus un pirkšanas pas�
 Darbplūsma attēlo biznesa procesu. Izmantojot darbplūsmu, tiek noteikta dokumenta plūsma caur sistēmu un norādīts, kuram ir jāpabeidz uzdevums vai jāapstiprina dokuments. Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 -   **Saskaņoti procesi** — varat definēt noteiktu dokumentiem, piemēram, pirkšanas pieprasījumu un izdevumu pārskatu, apstiprināšanas procesu. Izmantojot darbplūsmas sistēmu, varat nodrošināt saskaņotu un efektīvu dokumentu apstrādes un apstiprināšanas procesu.
 -   **Procesa pārskatāmība** — varat sekot līdzi noteiktas darbplūsmas instances statusa, vēsturiskajiem un veiktspējas rādītājiem. Tādējādi varat noteikt, vai ir jāveic darbplūsmas izmaiņas, lai uzlabotu efektivitāti.
--   **Centralizēts darbu saraksts** — lietotāji var skatīt centralizētu darbu sarakstu, lai skatītu darbplūsmas uzdevumus un apstiprinājumus, kas viņiem ir piešķirti visās darbplūsmās, kurās viņi piedalās. Šī funkcija ir pieejama lapā Darba vienumi.
+-   **Centralizēts darbu saraksts** — lietotāji var skatīt centralizētu darbu sarakstu, lai skatītu darbplūsmas uzdevumus un apstiprinājumus, kas viņiem ir piešķirti visās darbplūsmās, kurās viņi piedalās. Šī funkcija ir pieejama lapā Darba vienumi.
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a>Izveidojamo darbplūsmu veidi
 Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
@@ -50,7 +50,7 @@ Sagādei un avotiem ir pieejami šādi darbplūsmu veidi.
 
 ## <a name="creating-a-workflow"></a>Darbplūsmas izveide
 
-Lai izveidotu darbplūsmu, pārejiet uz sadaļu Sagāde un avoti &gt; Iestatījumi &gt; Sagādes un avotu darbplūsmas un izveidojiet jaunu darbplūsmu, atlasot izveidojamās darbplūsmas veidu.  
+Lai izveidotu darbplūsmu, pārejiet uz sadaļu Sagāde un avoti &gt; Iestatījumi &gt; Sagādes un avotu darbplūsmas un izveidojiet jaunu darbplūsmu, atlasot izveidojamās darbplūsmas veidu.  
 
 Darbplūsmas audeklā varat vilkt darbplūsmas elementus uz veidotāju un saistīt elementus plūsmā. Darbplūsmas elementi ir jākonfigurē. Apstiprinājumam un uzdevuma darbplūsmas elementiem var konfigurēt to, kuram dalībniekam jāveic darbība.
 
@@ -70,7 +70,7 @@ Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://www.microsoft.com/download/details.aspx?id=101821)
 
 - [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 

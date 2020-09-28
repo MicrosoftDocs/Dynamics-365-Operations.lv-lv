@@ -3,7 +3,7 @@ title: Procesa atjaunināšana
 description: Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus lietojumprogrammu un platformu izmaiņām.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431180"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759963"
 ---
 # <a name="update-process"></a>Procesa atjaunināšana
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (sof
 
 Atjauninājumi tiek izlaisti ar regulāru kadenci visām vidēm. Human Resources atbalsts tiek nodrošināts saskaņā ar [Microsoft Lifecycle politiku](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), kas nodrošina pastāvīgas un prognozējamas vadlīnijas atbalsta pieejamībai.
 
-## <a name="release-cadence"></a>Laidienu kadence
+## <a name="release-cadence"></a>Laidienu kadence 
 
 Human Resources atjauninājumi tiek automātiski piemēroti visām vidēm. Human Resources nodrošina divu veidu laidienus.
 
@@ -56,14 +56,12 @@ Laidieni tiek pārbaudīti, testēti un apstiprināti iekšējā vidē. Pēc izv
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Laidienu ritma izņēmumi 2020. gadā
 
-Tālāk minētie datumi ir izņēmumi no regulāro laidienu grafika.
+Lai uzskaitītu brīvdienas, 2020. gada novembra un decembra izlaišanas grafiks ir šāds:
 
-| Datums | apraksts |
-| --- | --- |
-| 23. novembra nedēļa | Nav atjauninājumu |
-| 14. decembra nedēļa | Tikai mazsvarīgi atjauninājumi |
-| 21. decembra nedēļa | Nav atjauninājumu |
-| 28. decembra nedēļa | Nav atjauninājumu |
+- Novembra izlaidums: 2. novembris - 13. novembris
+- Decembra izlaidums: 30. novembris - 11. decembris
+ 
+Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2021. gada 11. janvārī.
 
 ## <a name="communications"></a>Komunikācija
 

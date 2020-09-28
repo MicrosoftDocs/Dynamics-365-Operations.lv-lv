@@ -1,14 +1,14 @@
 ---
-title: ER Importēt konfigurāciju no Lifecycle Services
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Lifecycle Services (LCS).
+title: Importēt konfigurāciju no Lifecycle Services
+description: Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142390"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810647"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a>ER Importēt konfigurāciju no Lifecycle Services
+# <a name="import-a-configuration-from-lifecycle-services"></a>Importēt konfigurāciju no Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Lifecycle Services (LCS).
+Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu [Elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācija](../general-electronic-reporting.md#Configuration) versiju no [projekta līmeņa līdzekļu bibliotēka](../../lifecycle-services/asset-library.md) Microsoft Dynamics Lifecycle Services (LCS).
 
-Šajā piemērā jūs atlasīsiet vēlamo ER konfigurācijas versiju un importēsiet to parauga uzņēmumam Litware, Inc. Šīs darbības var veikt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. Lai izpildītu šīs darbības, jums vispirms ir jāizpilda procedūras "Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services" darbības. Lai izpildītu šīs darbības, ir nepieciešama arī piekļuve pakalpojumiem LCS.
+Šajā piemērā jūs atlasīsiet vēlamo ER konfigurācijas versiju un importēsiet to parauga uzņēmumam ar nosaukumu Litware, Inc. Šīs darbības var pabeigt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. Lai izpildītu šīs darbības, jums vispirms ir jāizpilda procedūras [Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Ir nepieciešama arī piekļuve LCS.
 
-1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
-2. Noklikšķiniet uz Konfigurācijas.
+1. Pierakstieties programmā, izmantojot vienu no šīm lomām:
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a>Dzēst koplietotu datu modeļa konfigurācijas versiju
-1. Koka struktūrā atlasiet “Parauga modeļa konfigurācija”.
-    * Parauga datu modeļa konfigurācijas pirmā versija tiek izveidota un pakalpojumos LCS tiek publicēta, izpildot procedūru "Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services". Šajā procedūrā jūs dzēsīsiet šo ER konfigurācijas versiju. Šī parauga datu modeļa konfigurācijas versija vēlāk tiks importēta no LCS.  
+    - Elektroniskā pārskata izstrādātājs
+    - Sistēmas administrators
+
+2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+3. Atlasiet **Konfigurācijas**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Pārliecinieties, vai pašreizējais Dynamics 365 Finance lietotājs ir tāda LCS projekta biedrs, kurā ir ietverta tā līdzekļu bibliotēka, kurai lietotājs vēlas [piekļūt](../../lifecycle-services/asset-library.md#asset-library-support) , lai importētu ER konfigurācijas.
+>
+> Jūs nevarat piekļūt LCS projektam no ER repozitorija, kas pārstāv citu domēnu, nevis to domēnu, kas tiek izmantots programmā Finance. Ja jūs mēģināt, tiks rādīts tukšs LCS projektu saraksts, un jūs nevarēsiet importēt ER konfigurācijas no projekta līmeņa līdzekļu bibliotēkas uz LCS. Lai piekļūtu projekta līmeņa līdzekļu bibliotēkām no ER repozitorija, kas tiek izmantots, lai importētu ER konfigurācijas, piesakieties programmai Finance, izmantojot lietotāja akreditācijas datus, kas pieder nomniekam (domēns), kam ir nodrošināta pašreizējā Finance instance.
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a>Dzēst koplietotu datu modeļa konfigurācijas versiju
+
+1. Lapā **Konfigurācijas**, konfigurāciju kokā atlasiet vienumu **Modeļa konfigurācijas paraugs**.
+
+    Jūs izveidojāt parauga datu modeļa konfigurācijas pirmo versiju un publicējāt to LCS, kad pabeidzāt darbības [Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Šajā procedūrā jūs dzēsīsiet to ER konfigurācijas versiju. Vēlāk šajā tēmā šo versiju importēsit no LCS.
+
 2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet šīs konfigurācijas versiju, kuras statuss ir 'Koplietots'. Šis statuss norāda, ka konfigurācija ir publicēta pakalpojumos LCS.  
-3. Noklikšķiniet uz Mainīt statusu.
-4. Noklikšķiniet uz Pārtraukt.
-    * Atlasītās versijas statusu no 'Koplietots' mainiet uz 'Pārtraukts', lai tā kļūtu pieejama dzēšanai.  
-5. Noklikšķiniet uz Labi.
+
+    Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**. Šis statuss norāda, ka konfigurācija ir publicēta pakalpojumos LCS.
+
+3. Atlasiet **Mainīt statusu**.
+4. Atlasiet **Pārtraukt**.
+
+    Mainot atlasītās versijas statusu no **Koplietots** uz **Pārtraukts**, versiju padara pieejamu dzēšanai.
+
+5. Atlasiet **Labi**.
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet šīs konfigurācijas versiju, kuras statuss ir 'Pārtraukts'.  
-7. Noklikšķiniet uz Dzēst.
-8. Noklikšķiniet uz Jā.
-    * Ņemiet vērā, ka atlasītajai datu modeļa konfigurācijai ir pieejama tikai melnraksta 2. versija.  
+
+    Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Pārtraukts**.
+
+7. Atlasiet **Dzēst**.
+8. Atlasiet **Jā**.
+
+    Ievērojiet, ka atlasītajai datu modeļa konfigurācijai tagad ir pieejama tikai melnraksta 2. versija.
+
 9. Aizvērt lapu.
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Importēt koplietotu datu modeļa konfigurācijas versiju no LCS
-1. Sarakstā atzīmējiet atlasīto rindu.
-    * Atveriet sarakstu ar repozitorijiem, kas paredzēti 'Litware, Inc.' konfigurācijas nodrošinātājam.  
-2. Noklikšķiniet uz Repozitoriji.
-3. Noklikšķiniet uz Atvērt.
-    * Atlasiet LCS repozitoriju un atveriet to.  
-4. Sarakstā atzīmējiet atlasīto rindu.
-    * Versiju sarakstā atlasiet konfigurācijas “Parauga modeļa konfigurācija” pirmo versiju.  
-5. Noklikšķiniet uz Importēt.
-6. Noklikšķiniet uz Jā.
-    * Apstipriniet atlasītās versijas importēšanu no LCS.  
-    * Ņemiet vērā, ka informatīvais ziņojums (virs formas) apstiprina, ka atlasītās versijas importēšana ir sekmīgi pabeigta.  
-7. Aizvērt lapu.
-8. Aizvērt lapu.
-9. Noklikšķiniet uz Konfigurācijas.
-10. Koka struktūrā atlasiet “Parauga modeļa konfigurācija”.
-11. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet šīs konfigurācijas versiju, kuras statuss ir 'Koplietots'.  
-    * Ņemiet vērā, ka tagad atlasītajai datu modeļa konfigurācijai ir pieejama arī koplietotā 1. versija.  
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a>Importēt koplietotu datu modeļa konfigurācijas versiju no LCS
 
+1. Dodieties uz **Organizācijas administrēšana \> Darbvietas \> Elektronisko atskaišu veidošana**.
+
+2. Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Litware, Inc.**.
+
+3. Elementā **Litware, Inc.** atlasiet **Repozitoriji**.
+
+    Tagad var atvērt sarakstu ar repozitorijiem, kas paredzēti Litware, Inc. konfigurācijas nodrošinātājam.
+
+4. Atlasiet **Atvērt**.
+
+    Šajā piemērā atlasiet **LCS** repozitoriju un atveriet to. Jums ir jābūt [piekļuve](#accessconditions) LCS projektam un līdzekļu bibliotēkai, kuram var piekļūt atlasītais ER repozitorijs.
+
+5. Sarakstā atzīmējiet atlasīto rindu.
+
+    Šā piemēra versiju sarakstā atlasiet konfigurācijas **Parauga modeļa konfigurācija** pirmo versiju.
+
+6. Atlasiet **Importēt**.
+7. Atlasiet **Jā** , lai apstiprinātu atlasītās versijas importēšanu no LCS.
+
+    Informatīvs ziņojums apstiprina, ka atlasītā versija tika veiksmīgi importēta.
+
+8. Aizvērt lapu.
+9. Aizvērt lapu.
+10. Atlasiet **Konfigurācijas**.
+11. Koka struktūrā atlasiet **Parauga modeļa konfigurācija**.
+12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+
+    Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**.
+
+    Ievērojiet, ka tagad atlasītajai datu modeļa konfigurācijai ir pieejama arī koplietotā 1. versija.

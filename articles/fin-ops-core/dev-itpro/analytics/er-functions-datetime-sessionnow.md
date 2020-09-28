@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5489fab61791654c2e583fc11b27aba09fb90c86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 00c41564b18eed477e1cefb0bc3bb2bca3fa6fdd
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042301"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745469"
 ---
-# <a name="">SESSIONNOW ER funkcija</a>
+# <a name="sessionnow-er-function"></a>SESSIONNOW ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +45,7 @@ Iegūtā datuma/laika vērtība.
 
 ## <a name="example"></a>Paraugs
 
-`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")`atgriež pašreizējās lietojumprogrammas sesijas datuma/laika vērtību, 2015. gada 24. decembri, kā **"24-12-2015"**, pamatojoties uz izvēlēto vācu kultūru un norādīto formātu.
+`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` atgriež pašreizējās lietojumprogrammas sesijas datuma/laika vērtību, 2015. gada 24. decembri, kā **"24-12-2015"**, pamatojoties uz izvēlēto vācu kultūru un norādīto formātu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52a89f744cd37c543294522cc706ae7f47660e75
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: c171509353fed92b14ca0d7473742e4a9a54bad1
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070625"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745277"
 ---
-# <a name="SPLIT">SPLIT ER funkcija</a>
+# <a name="split-er-function"></a>SPLIT ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,7 +71,7 @@ Iegūtais ierakstu saraksts.
 
 Atgrieztā saraksta ieraksta struktūra sastāv no **Virknes** tipa *Vērtības* lauka. Katrā atgrieztā saraksta ierakstā ir šajā laukā ģenerētās apakšvirknes.
 
-Ja  `delimiter` arguments ir tukšs, tiek atgriezts jauns saraksts, kas sastāv no viena ieraksta, kurā ir **Virknes** veida lauks *Vērtība*. Šis lauks satur ievades tekstu.
+Ja `delimiter` arguments ir tukšs, tiek atgriezts jauns saraksts, kas sastāv no viena ieraksta, kurā ir **Virknes** veida lauks *Vērtība*. Šis lauks satur ievades tekstu.
 
 Ja `input` arguments ir tukšs, tiek atgriezts jauns tukšs saraksts. Ja `input` vai `delimiter` arguments nav norādīts (ir tukšs), tiek parādīts programmas izņēmums.
 

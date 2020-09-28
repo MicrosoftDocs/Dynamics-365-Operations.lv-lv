@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4293db244d04debf3679cf2bde0b892bd74e8ead
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 112852ab955fdf8de9f78cc93486cc1d5f048517
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041128"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743787"
 ---
-# <a name="LEFT">LEFT ER funkcija</a>
+# <a name="left-er-function"></a>LEFT ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,7 @@ Iegūtā teksta vērtība.
 
 ## <a name="example"></a>Paraugs
 
-`LEFT ("Sample", 3)`atgriež **"Sam"**.
+`LEFT ("Sample", 3)` atgriež **"Sam"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

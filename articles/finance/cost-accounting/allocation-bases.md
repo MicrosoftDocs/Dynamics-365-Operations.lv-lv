@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMDimensionMember
+ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2cea745ec645b2e9cc6f9d72a0aeae2f7467155
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a871eef822140f028832aa1be39372f07668d79
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188008"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759596"
 ---
 # <a name="allocation-bases"></a>Sadalījuma pamati 
 
@@ -302,8 +302,8 @@ Parastie **IF** priekšraksti netiek atbalstīti. Taču varat izveidot priekšra
 
 | Pārskats | Validācija | Rezultāts |
 |-----------|------------|--------|
-| a \> b    | Patiess       | 1.      |
-| a \> b    | Aplams      | 0      |
+| a \> b    | Patiess       | 1.      |
+| a \> b    | Aplams      | 0      |
 
 ### <a name="example-1-a-simple-formula"></a>1. piemērs: vienkārša formula
 
@@ -348,7 +348,7 @@ Pirms lauka **Formula** aizpildīšanas ir jānorāda aizstājvārds, kas ir jā
 
 | Nosaukums              | Izmaksu elementa dimensija | Statiskā dimensija | Formula |
 |-------------------|------------------------|-----------------------|---------|
-| Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  | a \> b  |
+| Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  | a \> b  |
 
 Priekšskatījuma funkcija sniedz iespēju pārbaudīt formulas sadalījuma pamatu, kas ir izveidots, pamatojoties uz statistikas ierakstiem sistēmā.
 
@@ -356,9 +356,9 @@ Priekšskatījuma funkcija sniedz iespēju pārbaudīt formulas sadalījuma pama
 
 | Izmaksu objekts | Apraksts  | Formula           | Lielums |
 |-------------|------|-------------------|-----------|
-| CC001       | HR   | 2.450,00 \> 0,01  | 1,00      |
-| CC002       | FI   | 4.100,00 \> 0,01  | 1,00      |
-| CC003       | KrP   | 15.000,00 \> 0,01 | 1,00      |
+| CC001       | HR   | 2.450,00 \> 0,01  | 1,00      |
+| CC002       | FI   | 4.100,00 \> 0,01  | 1,00      |
+| CC003       | KrP   | 15.000,00 \> 0,01 | 1,00      |
 
 Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sadalījuma pamats ir piešķirts formulas sadalījuma pamats Elektrība.
 
@@ -401,7 +401,7 @@ Pirms lauka **Formula** aizpildīšanas ir jānorāda aizstājvārds, kas ir jā
 
 | Nosaukums              | Izmaksu elementa dimensija | Statiskā dimensija | Formula                                                    |
 |-------------------|------------------------|-----------------------|------------------------------------------------------------|
-| Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  | ((a \> b) × ((b × c) + (a – b) × d)) + ((a \<= b] × a × c) |
+| Fiksētā maksa par elektroenerģiju |                        | Statistikas elementi  | ((a \> b) × ((b × c) + (a – b) × d)) + ((a \<= b] × a × c) |
 
 Priekšskatījuma funkcija sniedz iespēju pārbaudīt formulas sadalījuma pamatu, kas ir izveidots, pamatojoties uz statistikas ierakstiem sistēmā.
 
@@ -409,13 +409,13 @@ Priekšskatījuma funkcija sniedz iespēju pārbaudīt formulas sadalījuma pama
 
 | Izmaksu objekts |    | Formula                                                                                                                             | Lielums |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | HR | ((2450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2450,00 – 10 000,00) × 1,15)) + ((2450,00 \<= 10 000,00) × 2450,00 × 0,75)     | 1,837.50  |
-| CC002       | FI | ((4100,00 \> 10 000,00) × ((10 000,00 × 0,75) + (4100,00 – 10 000,00) × 1,15)) + ((4100,00 \<= 10,000,00) × 4100,00 × 0,75)     | 3,075.00  |
-| CC003       | KrP | ((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10,000,00) × 15 000,00 × 0,75) | 1,3250.00 |
+| CC001       | HR | ((2450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2450,00 – 10 000,00) × 1,15)) + ((2450,00 \<= 10 000,00) × 2450,00 × 0,75)     | 1,837.50  |
+| CC002       | FI | ((4100,00 \> 10 000,00) × ((10 000,00 × 0,75) + (4100,00 – 10 000,00) × 1,15)) + ((4100,00 \<= 10,000,00) × 4100,00 × 0,75)     | 3,075.00  |
+| CC003       | KrP | ((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10,000,00) × 15 000,00 × 0,75) | 1,3250.00 |
 
 Tālāk ir sniegta detalizēta informācija par objekta CC003 (IT) formulu.
 
-((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10 000,00) × 15 000,00 × 0,75) = 13 250,00
+((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10 000,00) × 15 000,00 × 0,75) = 13 250,00
 
 (1 × (7500,00 + 5000,00 × 1,15)) + (0 × 15 000,00 × 0,75)            
 

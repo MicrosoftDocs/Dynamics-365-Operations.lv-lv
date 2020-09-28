@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fcb8a617507801d82d16175e9e86c9193091a12
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 78b69b5280fb8c7ed99d73568097cd0c080a807a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042692"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744843"
 ---
-# <a name="INT64VALUE">INT64VALUE ER funkcija</a>
+# <a name="int64value-er-function"></a>INT64VALUE ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,11 +65,11 @@ Tiek aprautas visas decimāldaļas.
 
 ## <a name="example-1"></a>1. piemērs
 
-`INT64VALUE ("22565422744")`atgriež *Int64* vērtību **22565422744**.
+`INT64VALUE ("22565422744")` atgriež *Int64* vērtību **22565422744**.
 
 ## <a name="example-2"></a>2. piemērs
 
-`INT64VALUE ( VALUE("22565422744.77"))`atgriež *Int64* vērtību **22565422744**.
+`INT64VALUE ( VALUE("22565422744.77"))` atgriež *Int64* vērtību **22565422744**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209218"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813838"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
@@ -55,10 +55,10 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Kreditoru sadarbība ar debitoriem](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md)
 -   [Iestatīt un uzturēt kreditoru sadarbību](set-up-maintain-vendor-collaboration.md)
--   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniskais dokuments)
+-   [Ienākošo sūtījuma krājumu demonstrācijas skripts programmai Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(tehniskais dokuments)
 -   [Sūtījuma krājumu pārraudzība, izmantojot kreditoru sadarbību](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md) (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijās)
--   [Kreditoru portāla lietotāju drošība](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
+-   [Sadarbība ar kreditoriem, izmantojot kreditoru portālu](collaborate-vendors-vendor-portal.md)  (tikai Dynamics AX 2016. gada februāra un 2016. gada maija versijās)
+-   [Kreditoru portāla lietotāju drošība](configure-security-vendor-portal-users.md) (tikai Finance and Operations 2016. gada februāra un 2016. gada maija versijas)
 -   [Kreditoru sadarbības mobilā darbvieta](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Sagādes preču pārvaldība
@@ -98,7 +98,7 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 -   [Sagādes un avotu darbplūsmas](procurement-sourcing-workflows.md)
 -   [Preču saņemšanas reģistrēšana pirkšanas pasūtījumā](tasks/record-receipt-goods-purchase-order.md)
 -   [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
--   [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (tehniskais apraksts)
+-   [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://www.microsoft.com/download/details.aspx?id=101821) (tehniskais apraksts)
 -   [Pirkšanas ierobežojumu pārskats](purchase-policies.md)
 -   [Pirkšanas ierobežojumu izveide](tasks/create-purchasing-policies.md)
 

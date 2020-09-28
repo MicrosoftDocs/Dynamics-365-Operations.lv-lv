@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31fd4076d04ce7d849555bc8301c4d23ad8e1a7e
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a820c894ee4d28f87588c475c982bd6447676740
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041015"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744387"
 ---
-# <a name="NUMERALSTOTEXT">NUMERALSTOTEXT ER funkcija</a>
+# <a name="numeralstotext-er-function"></a>NUMERALSTOTEXT ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -67,24 +67,24 @@ Iegūtā teksta vērtība.
 
 ## <a name="usage-notes"></a>Lietošanas piezīmes
 
-Valodas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek izmantots izpildes konteksta valodas kods. Noklusējuma valodas kods ir **EN-US**. Valodas kods darbības kontekstam ir definēts tā elektroniskā pārskata (ER) vienumā  **Mape** vai **Fails**, formātā, kas tiek izpildīts.
+Valodas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek izmantots izpildes konteksta valodas kods. Noklusējuma valodas kods ir **EN-US**. Valodas kods darbības kontekstam ir definēts tā elektroniskā pārskata (ER) vienumā **Mape** vai **Fails**, formātā, kas tiek izpildīts.
 
 Valūtas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek izmantota izpildes konteksta uzņēmuma valūta.
 
 > [!NOTE] 
-> Argumenti `print currency name flag` un `decimal points` tiek analizēti tikai šādiem valodu kodiem:  **CS**, **ET**, **HU**, **LT**, **LV**, **PL** un **RU**. Turklāt arguments `print currency name flag` tiek analizēts tikai tiem uzņēmumiem, kuru valsts vai reģiona konteksts atbalsta valūtu nosaukumu locījumus.
+> Argumenti `print currency name flag` un `decimal points` tiek analizēti tikai šādiem valodu kodiem: **CS**, **ET**, **HU**, **LT**, **LV**, **PL** un **RU**. Turklāt arguments `print currency name flag` tiek analizēts tikai tiem uzņēmumiem, kuru valsts vai reģiona konteksts atbalsta valūtu nosaukumu locījumus.
 
 ## <a name="example-1"></a>1. piemērs
 
-`NUMERALSTOTEXT (1234.56, "EN-US", "", false, 2)`atgriež **"One Thousand Two Hundred Thirty Four and 56"**.
+`NUMERALSTOTEXT (1234.56, "EN-US", "", false, 2)` atgriež **"One Thousand Two Hundred Thirty Four and 56"**.
 
 ## <a name="example-2"></a>2. piemērs
 
-`NUMERALSTOTEXT (120, "PL", "", false, 0)`atgriež **"Sto dwadzieścia"**. 
+`NUMERALSTOTEXT (120, "PL", "", false, 0)` atgriež **"Sto dwadzieścia"**. 
 
 ## <a name="example-3"></a>3. piemērs
 
-`NUMERALSTOTEXT (120.21, "RU", "EUR", true, 2)`atgriež **"Сто двадцать евро 21 евроцент"**.
+`NUMERALSTOTEXT (120.21, "RU", "EUR", true, 2)` atgriež **"Сто двадцать евро 21 евроцент"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

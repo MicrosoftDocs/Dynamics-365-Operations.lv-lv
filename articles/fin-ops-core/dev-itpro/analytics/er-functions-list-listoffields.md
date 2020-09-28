@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d51b59c437bd216c6d229546136bb604239fa92
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: c288050fa1f9f1be9c38696e844e782794795471
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042002"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745085"
 ---
-# <a name="LISTOFFIELDS">LISTOFFIELDS ER funkcija</a>
+# <a name="listoffields-er-function"></a>LISTOFFIELDS ER funkcija
 
 [!include [banner](../includes/banner.md)]
 
@@ -68,12 +68,12 @@ Iegūtais ierakstu saraksts.
 
 Izveidotajā sarakstā ietverti ieraksti ar tālāk norādītajiem laukiem.
 
-- **Nosaukums** (datu veids *Virkne*)
-- **Marķējums** (datu veids *Virkne*)
-- **Apraksts** (datu veids *Virkne*)
+- **Nosaukums** (*Virkne* datu veids)
+- **Marķējums** (*Virkne* datu veids)
+- **Apraksts** (*Virkne* datu veids)
 - **Istranslated** (*Būla* datu tips)
 
-Ja `path` arguments attiecas uz datu avotu *Konteinera (ieraksta)* tipam katram atsauces konteinera ieraksta laukam, izveidotam sarakstam tiek pievienots jauns ieraksts. Katram izveidotam ierakstam laukā  **Nosaukums** tiek atgriezts tā konteinera ieraksta lauka nosaukums, kuram tika izveidots pašreizējais ieraksts.
+Ja `path` arguments attiecas uz datu avotu *Konteinera (ieraksta)* tipam katram atsauces konteinera ieraksta laukam, izveidotam sarakstam tiek pievienots jauns ieraksts. Katram izveidotam ierakstam laukā **Nosaukums** tiek atgriezts tā konteinera ieraksta lauka nosaukums, kuram tika izveidots pašreizējais ieraksts.
 
 Ja `path` arguments attiecas uz datu avotu vienam no *Uzskaitījuma* tipiem katrai atsauces uzskaitījuma vērtībai, izveidotam sarakstam tiek pievienots jauns ieraksts. Katram izveidotam ierakstam lauka **Nosaukums** vērtība atgriež atsauces tā uzskaitījuma vērtību, kas tika izveidots pašreizējam ierakstam, lauks **Apraksts** atgriež šī uzskaitījuma aprakstu, un lauks **Etiķete** atgriež šī uzskaitījuma etiķeti.
 

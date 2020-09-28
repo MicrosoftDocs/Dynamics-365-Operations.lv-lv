@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628913"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759939"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -93,7 +93,7 @@ Attālajā debitoru meklēšanā debitora ID netiek rādīts debitoriem no cit�
 
 ### <a name="enhancements-to-local-customer-search"></a>Lokālās debitoru meklēšanas uzlabojumi
 
-Ir vienkāršota meklēšana, kas ir balstīta uz tālruņa numuru. Tagad šī meklēšana ignorē speciālās rakstzīmes, piemēram, atstarpes, defises un iekavas, kas varētu būt pievienotas, izveidojot debitoru. Tāpēc kasieriem meklēšanas laikā nav jāraizējas par tālruņa numura formātu. Viņi debitorus var arī meklēt, ierakstot daļēju tālruņa numuru. Ja tālruņa numurā ir speciālās rakstzīmes, to var atrast arī, meklējot numurus, kas tiek rādīti aiz speciālajām rakstzīmēm. Piemēram, ja debitora tālruņa numurs tika ievadīts kā **123-456-7890**, kasieris šo debitoru var meklēt, ierakstot **123**, **456**, **7890** vai **1234567890**, vai ievadot tālruņa numura pirmos dažus ciparus.
+Ir vienkāršota meklēšana, kas ir balstīta uz tālruņa numuru. Tagad šī meklēšana ignorē speciālās rakstzīmes, piemēram, atstarpes, defises un iekavas, kas varētu būt pievienotas, izveidojot debitoru. Tāpēc kasieriem meklēšanas laikā nav jāraizējas par tālruņa numura formātu. Piemēram, ja debitora tālruņa numurs tika ievadīts kā **123-456-7890**, kasieris šo debitoru var meklēt, ierakstot **1234567890**, vai ievadot tālruņa numura pirmos dažus ciparus.
 
 > [!NOTE]
 > Klientam var būt vairāki tālruņu numuri un vairāki e-pasta ziņojumi. Klienta meklēšanas algoritms meklē arī šos sekundāros e-pasta ziņojumus un tālruņu numurus, bet klientu meklēšanas rezultātu lapa parāda tikai primāro e-pasta adresi un tālruņa numuru. Tas var izraisīt neskaidrību, jo atgrieztā klienta rezultāti nerāda meklēto e-pastu vai tālruņa numuru. Turpmākajā izlaidumā mēs plānojam uzlabot klienta meklēšanas rezultātu ekrānu, lai parādītu šo informāciju.

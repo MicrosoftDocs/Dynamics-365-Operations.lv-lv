@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb7b7a055c26b53ee3acc3b872acf04fcf089eca
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: a6e708e4dc818f20fc8d835053da75c2fe9c98f6
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597244"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759548"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Krājumu vecumstruktūru pārskatu piemēri un loģika
 
@@ -152,7 +152,7 @@ Izmantojot datu paraugus, kas aprakstīti iepriekšējās sadaļās, varat palai
 
 Ievērojiet šajā piemēra pārskatā norādīto informāciju:
 
-- **Krājumu vērtības daudzums**, **Krājumu vērtība** un **Vidējās vienības izmaksu** vērtības, kas tiek rādītas pārskatā, ir finanšu krājumu dimensijas (šajā gadījumā **Vietnes**) vērtības.
+- **Krājumu vērtības daudzums**, **Krājumu vērtība** un **Vidējās vienības izmaksu** vērtības, kas tiek rādītas pārskatā, ir finanšu krājumu dimensijas (šajā gadījumā**Vietnes**) vērtības.
 
     Piemēram, 1. vietnei pārskats rāda sekojošo informāciju:
 
