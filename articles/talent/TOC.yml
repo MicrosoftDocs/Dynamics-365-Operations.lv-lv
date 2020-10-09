@@ -150,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: Datu eksportēšana no Attract un Onboard
           href: attract-onboard-export-data.md
-        - name: Microsoft Power Apps iegulšana
+        - name: Power Apps pamatnes programmu iegulšana
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Atbalsta saņemšana saistībā ar Talent
           href: talent-support.md
@@ -252,3 +252,5 @@
           href: user-access-core-hr.md
         - name: Azure Active Directory lietotāji nav atrodami vadīklā Personu atlasītājs
           href: people-picker-user-not-found.md
+        - name: Attract lietotāji nevar pieteikties darbiem karjeras portālā
+          href: attract-troubleshoot-career-portal.md
