@@ -94,12 +94,10 @@
                       href: get-started/whats-new-home-page.md
                     - name: "Commerce 10.0.14 (2020.\_novembris)"
                       href: get-started/whats-new-commerce-10-0-14.md
-                    - name: Commerce 10.0.13 (2020. gada oktobris)
+                    - name: "Commerce 10.0.13 (2020.\_gada oktobris)"
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: "Commerce 10.0.12 (2020.\_gada augusts)"
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: "Commerce 10.0.11 (2020.\_gada jūlijs)"
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Pielāgotu lauku izveide un darbs ar tiem
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft Power Apps iegulšana
+                - name: Power Apps pamatnes programmu iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: Ar izsekotajām satura izmaiņām saistīto lietotāju ID aizstāšana
                   href: replace-IDs-tracked-changes.md
-            - name: Sākuma komplekts
+            - name: Moduļu bibliotēka
               items:
-                - name: Sākuma komplekta pārskats
+                - name: Moduļu bibliotēkas pārskats
                   href: starter-kit-overview.md
                 - name: Konteinera moduļi
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: Jauna moduļa izveide
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: Sākuma komplekta moduļa klonēšana
+                    - name: Moduļu bibliotēkas moduļa klonēšana
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: Moduļa konfigurācijas lauku pievienošana
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: Pakotņu konfigurācijas un to izvietošana tiešsaistes vidē
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK un veikala sākuma komplekta atjauninājumi
+                    - name: SDK un moduļu bibliotēkas atjauninājumi
                       href: e-commerce-extensibility/sdk-updates.md
             - name: "Retail\_SDK"
               items:
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: POS groza skatīšanas notikumi un apdarinātāji
                   href: dev-itpro/cart-view-handlers.md
+                - name: Pielāgotu pogu pievienošana POS virsraksta joslai
+                  href: dev-itpro/pos-header-bar.md
             - name: Hardware Station paplašināmība
               items:
                 - name: Hardware Station un paplašināmība

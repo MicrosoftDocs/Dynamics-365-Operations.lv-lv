@@ -72,12 +72,10 @@
                       href: get-started/whats-new-home-page.md
                     - name: "Finance 10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-changed-10-0-14.md
-                    - name: Finance 10.0.13 (2020. gada oktobris)
+                    - name: "Finance 10.0.13 (2020.\_gada oktobris)"
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: "Finance 10.0.12 (2020.\_gada augusts)"
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: "Finance 10.0.11 (2020.\_gada jūlijs)"
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Pielāgotu lauku izveide un darbs ar tiem
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Microsoft Power Apps iegulšana
+                - name: Power Apps pamatnes programmu iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
+            - name: Elektroniskās rēķinu izveides pievienojumprogramma
+              items:
+                - name: Elektroniskās rēķinu izveides pievienojumprogrammas pārskats
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Azure krātuves konta un Key Vault izveide
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu
+                  href: localizations/e-invoicing-get-started.md
+                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Brazīlijā
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Itālijā
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Meksikā
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Elektroniskās rēķinu izveides pievienojumprogrammas iestatīšana
+                  href: localizations/e-invoicing-setup.md
             - name: Austrālija
               items:
                 - name: Austrālijas pārskats
@@ -1268,7 +1282,9 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Transakciju izveide un pārsūtīšana uz BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: INTERVAT nodokļu deklarācija
+                - name: Virsgrāmatas transakciju eksportēšana
+                  href: localizations/emea-bel-export-ledger-transactions.md
+                - name: INTERVAT nodokļu deklarācijas
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Saskaņošanas pārskati
                   href: localizations/emea-bel-reconciliation-reports.md
@@ -2036,13 +2052,15 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: GSTR pārskata datu ģenerēšana nodokļu atmaksas vajadzībām
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: Lielapjoma pakešapstrādes iespējošana GSTR pārskatiem
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Nodokļu pieprasījums
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Nodokļu programma
                   items:
-                    - name: Nodokļu programmas apskats
+                    - name: Nodokļu programmas pārskats
                       href: general-ledger/tax-engine.md
-                    - name: Konfigurācijas importēšana
+                    - name: Importēt konfigurāciju
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Papildu formulas veidotājs
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Daudzvalodu pārskatu noformēšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Lielu izejošo dokumentu saspiešana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Relatīvais ceļš datu saistījumos
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations

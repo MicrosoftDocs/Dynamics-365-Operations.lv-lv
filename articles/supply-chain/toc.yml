@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pielāgotu lauku izveide un darbs ar tiem
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft Power Apps iegulšana
+                - name: Power Apps pamatnes programmu iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1651,10 +1651,12 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Sagāde un avoti
           items:
-            - name: Sagādes un avotu apskats
+            - name: Sagādes un avotu pārskats
               href: procurement/procurement-sourcing-overview.md
             - name: Sagādes un avotu darbplūsma
               href: procurement/procurement-sourcing-workflows.md
+            - name: Sagādes un avotu darbplūsmu problēmu novēršana
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Sagādes katalogi
               items:
                 - name: Sagādes katalogu pārskats
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Preču saņemšanas reģistrēšana pirkšanas pasūtījumā
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Pirkšanas pasūtījumu problēmu novēršana
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Pirkšanas pasūtījuma izveidošana
               items:
                 - name: Manuāla pirkšanas pasūtījumu izveide
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Kreditora atlaides
                   href: procurement/vendor-rebates.md
+                - name: 'Cenu, cenas samazinājumu, līgumu un atlaižu problēmu novēršana'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Pirkšanas ierobežojumi
               items:
                 - name: Pirkšanas ierobežojumu pārskats
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Kreditoru rēķinu pārskats
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Produktu ieejas plūsmas un rēķinu izrakstīšanas problēmu novēršana
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Kreditoru pārvaldība un sadarbība
               items:
                 - name: Kreditoru sadarbības iestatīšana un uzturēšana
@@ -1765,6 +1773,8 @@
                   href: procurement/vendor-catalogs-import.md
                 - name: Ārēja kataloga iestatīšana PunchOut e-sagādei
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: CXML uzlabojumu iegāde
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: Ārējo katalogu izmantošana PunchOut e-sagādei
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Kreditoru sadarbības mobilā darbvieta
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Pārdošanas pasūtījumu apstiprināšana
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Pārdošanas pasūtījumu problēmu novēršana
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Pārdošanas līgumi
               items:
                 - name: Pārdošanas līgumu pārskats
@@ -2279,10 +2291,12 @@
               items:
                 - name: Cenas simulācija
                   href: sales-marketing/price-simulation.md
-                - name: Pārdošanas piedāvājumu izveide masveidā
+                - name: Pārdošanas piedāvājumu lielapjoma izveide
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Pārdošanas piedāvājumu izveide un rediģēšana
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Pārdošanas piedāvājumu problēmu novēršana
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Atgriešana
               items:
                 - name: Pārdošanas ieņēmumi
@@ -2807,19 +2821,21 @@
                   items:
                     - name: Noliktavas programmas instalēšana un savienošana
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: 'Svītrkodu skenēšana noliktavas programmā, izmantojot kameru'
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Lauku nosaukumu konfigurēšana noliktavas programmā
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobilo ierīču iestatīšana darbam noliktavā
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: 'Svītrkodu skenēšana noliktavas programmā, izmantojot kameru'
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: 'Noliktavas vienības identifikatora saņemšana, izmantojot noliktavas programmu'
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus'
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: 'Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu numura zīmes konsolidāciju'
+                    - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai nodrošinātu izdošanas rindas pārskatu'
+                      href: warehousing/pick-line-overview.md
+                    - name: 'Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu noliktavas vienības konsolidāciju'
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Jauktas numura zīmes saņemšana mobilajā ierīcē
                       href: warehousing/mixed-license-plate-receiving.md

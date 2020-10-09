@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Uz prioritāti balstīta ierobežošana
               hreF: data-entities/priority-based-throttling.md
+            - name: Bieži uzdotie jautājumi par uz prioritāti balstītu ierobežošanu
+              href: data-entities/throttling-faq.md
             - name: Datu integrācijas API
               items:
                 - name: Datu pārvaldības pakotnes REST API
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Valūtas datu veida migrācija duālajam ierakstam
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Kartējuma iestatīšana pārdošanas pasūtījuma statusa laukiem
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Duālā ieraksta pārvaldība
                           items:
                             - name: Elementa un lauka kartējumu pielāgošana
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Vietējais aģents
                   items:
-                    - name: AD FS Office 365 saderība
+                    - name: "AD FS Microsoft\_365 saderība"
                       href: deployment/onprem-adfscompatibility.md
                     - name: Vietējā aģenta pirmsizvietošanas un pēcizvietošanas skripti
                       href: lifecycle-services/pre-post-scripts.md
@@ -626,11 +630,9 @@
                   href: dev-tools/development-tools-overview.md
                 - name: Apmācība par izstrādes rīkiem
                   href: dev-tools/introduction-visual-studio.md
-                - name: Programmu pārbaudītājs
-                  items:
-                    - name: BaseX instalēšana rīkam Programmu pārbaudītājs
-                      href: dev-tools/install-basex.md
-                - name: Programmu pārlūks
+                - name: Lietojumprogrammu pārbaudītājs
+                  href: dev-tools/application-checker.md
+                - name: Lietojumprogrammu pārlūks
                   href: dev-tools/application-explorer.md
                 - name: Projektu izveide un atkļūdošana
                   href: dev-tools/build-debug-project.md
@@ -1368,6 +1370,24 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata veids
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Procesu automatizācijas struktūra
+          items:
+            - name: Procesu automatizācijas struktūras izstrāde
+              href: process-automation/process-automation-framework.md
+            - name: Veida reģistrācija
+              href: process-automation/type-registration.md
+            - name: Sērijas reģistrācija
+              href: process-automation/series-registration.md
+            - name: Procesa parametri
+              href: process-automation/process-parameters.md
+            - name: Lietotāja konfigurējami vaicājumi
+              href: process-automation/user-queries.md
+            - name: Procesa palaišana
+              href: process-automation/run-process.md
+            - name: Rezultātu un ziņojumu reģistrēšana
+              href: process-automation/log-results.md
+            - name: Lietotāja interfeisa pielāgošana
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Regression Suite Automation Tool pārskats
@@ -1395,7 +1415,7 @@
             - name: Izstrāde un izlaide
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Stadijas maiņa un publicēšana
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Metodoloģiju pievienošana
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Biznesa procesu modelētāja bibliotēku uzstādīšana
