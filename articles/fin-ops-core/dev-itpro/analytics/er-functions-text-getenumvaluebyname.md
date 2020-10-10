@@ -3,7 +3,7 @@ title: GETENUMVALUEBYNAME ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota GETENUMVALUEBYNAME elektroniskā pārskata (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,63 +18,103 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743859"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885231"
 ---
-# <a name="getenumvaluebyname-er-function"></a><span data-ttu-id="96ca1-103">GETENUMVALUEBYNAME ER funkcija</span><span class="sxs-lookup"><span data-stu-id="96ca1-103">GETENUMVALUEBYNAME ER function</span></span>
+# <a name="getenumvaluebyname-er-function"></a><span data-ttu-id="a5055-103">GETENUMVALUEBYNAME ER funkcija</span><span class="sxs-lookup"><span data-stu-id="a5055-103">GETENUMVALUEBYNAME ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="96ca1-104">`GETENUMVALUEBYNAME` funkcija meklē konkrētu *Enum* vērtību norādītajā uzskaitījuma datu avotā, izmantojot uzskaitījuma nosaukumu, kas ir norādīts kā *Virknes* vērtība.</span><span class="sxs-lookup"><span data-stu-id="96ca1-104">The `GETENUMVALUEBYNAME` function searches for a specific *Enum* value in the specified enumeration data source by using the enumeration name that is specified as a *String* value.</span></span> <span data-ttu-id="96ca1-105">Ja tiek tiek atrasta *Enum* vērtība, funkcija to atgriež.</span><span class="sxs-lookup"><span data-stu-id="96ca1-105">If the *Enum* value is found, the function returns it.</span></span> <span data-ttu-id="96ca1-106">Pretējā gadījumā funkcija atgriež uzskaitījuma vērtību **null**.</span><span class="sxs-lookup"><span data-stu-id="96ca1-106">Otherwise, the function returns the **null** enumeration value.</span></span>
+<span data-ttu-id="a5055-104">`GETENUMVALUEBYNAME` funkcija meklē konkrētu *Enum* vērtību norādītajā uzskaitījuma datu avotā, izmantojot uzskaitījuma nosaukumu, kas ir norādīts kā *Virknes* vērtība.</span><span class="sxs-lookup"><span data-stu-id="a5055-104">The `GETENUMVALUEBYNAME` function searches for a specific *Enum* value in the specified enumeration data source by using the enumeration name that is specified as a *String* value.</span></span> <span data-ttu-id="a5055-105">Ja tiek tiek atrasta *Enum* vērtība, funkcija to atgriež.</span><span class="sxs-lookup"><span data-stu-id="a5055-105">If the *Enum* value is found, the function returns it.</span></span> <span data-ttu-id="a5055-106">Pretējā gadījumā funkcija atgriež uzskaitījuma vērtību **null**.</span><span class="sxs-lookup"><span data-stu-id="a5055-106">Otherwise, the function returns the **null** enumeration value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="96ca1-107">Sintakse</span><span class="sxs-lookup"><span data-stu-id="96ca1-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5055-107">Sintakse</span><span class="sxs-lookup"><span data-stu-id="a5055-107">Syntax</span></span>
 
 ```vb
 GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="96ca1-108">Argumenti</span><span class="sxs-lookup"><span data-stu-id="96ca1-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="a5055-108">Argumenti</span><span class="sxs-lookup"><span data-stu-id="a5055-108">Arguments</span></span>
 
-<span data-ttu-id="96ca1-109">`enumeration data source path`: *Uzskaitījums*</span><span class="sxs-lookup"><span data-stu-id="96ca1-109">`enumeration data source path`: *Enumeration*</span></span>
+<span data-ttu-id="a5055-109">`enumeration data source path`: *Uzskaitījums*</span><span class="sxs-lookup"><span data-stu-id="a5055-109">`enumeration data source path`: *Enumeration*</span></span>
 
-<span data-ttu-id="96ca1-110">Derīgs datu avota atsauces ceļš vienam no šādiem uzskaitījumu tipiem:</span><span class="sxs-lookup"><span data-stu-id="96ca1-110">The valid path of a data source of one of the following enumeration types:</span></span>
+<span data-ttu-id="a5055-110">Derīgs datu avota atsauces ceļš vienam no šādiem uzskaitījumu tipiem:</span><span class="sxs-lookup"><span data-stu-id="a5055-110">The valid path of a data source of one of the following enumeration types:</span></span>
 
-- <span data-ttu-id="96ca1-111">Elektronisko pārskatu (ER) modeļu uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="96ca1-111">Electronic reporting (ER) model enumeration</span></span>
-- <span data-ttu-id="96ca1-112">ER formāta uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="96ca1-112">ER format enumeration</span></span>
-- <span data-ttu-id="96ca1-113">Microsoft Dynamics 365 Finance uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="96ca1-113">Microsoft Dynamics 365 Finance enumeration</span></span>
+- <span data-ttu-id="a5055-111">Elektronisko pārskatu (ER) modeļu uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="a5055-111">Electronic reporting (ER) model enumeration</span></span>
+- <span data-ttu-id="a5055-112">ER formāta uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="a5055-112">ER format enumeration</span></span>
+- <span data-ttu-id="a5055-113">Microsoft Dynamics 365 Finance uzskaitījums</span><span class="sxs-lookup"><span data-stu-id="a5055-113">Microsoft Dynamics 365 Finance enumeration</span></span>
 
-<span data-ttu-id="96ca1-114">`enumeration value text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="96ca1-114">`enumeration value text`: *String*</span></span>
+<span data-ttu-id="a5055-114">`enumeration value text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="a5055-114">`enumeration value text`: *String*</span></span>
 
-<span data-ttu-id="96ca1-115">Virknes vērtība, kas apzīmē vienas uzskaitījuma vērtības nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="96ca1-115">A string value that represents the name of a single enumeration value.</span></span>
+<span data-ttu-id="a5055-115">Virknes vērtība, kas apzīmē vienas uzskaitījuma vērtības nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="a5055-115">A string value that represents the name of a single enumeration value.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="96ca1-116">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="96ca1-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a5055-116">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="a5055-116">Return values</span></span>
 
-<span data-ttu-id="96ca1-117">Nullējama *Enum*</span><span class="sxs-lookup"><span data-stu-id="96ca1-117">Nullable *Enum*</span></span>
+<span data-ttu-id="a5055-117">Nullējama *Enum*</span><span class="sxs-lookup"><span data-stu-id="a5055-117">Nullable *Enum*</span></span>
 
-<span data-ttu-id="96ca1-118">Iegūtā uzskaitījuma vērtība.</span><span class="sxs-lookup"><span data-stu-id="96ca1-118">The resulting enumeration value.</span></span>
+<span data-ttu-id="a5055-118">Iegūtā uzskaitījuma vērtība.</span><span class="sxs-lookup"><span data-stu-id="a5055-118">The resulting enumeration value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="96ca1-119">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="96ca1-119">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="a5055-119">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="a5055-119">Usage notes</span></span>
 
-<span data-ttu-id="96ca1-120">Netiek rādīts izņēmums, ja *Enum* vērtība nav atrasta, izmantojot uzskaitījuma vērtības nosaukumu, kas ir norādīts kā *Virknes* vērtība.</span><span class="sxs-lookup"><span data-stu-id="96ca1-120">No exception is thrown if an *Enum* value isn't found by using the name of the enumeration value that is specified as a *String* value.</span></span>
+<span data-ttu-id="a5055-120">Netiek rādīts izņēmums, ja *Enum* vērtība nav atrasta, izmantojot uzskaitījuma vērtības nosaukumu, kas ir norādīts kā *Virknes* vērtība.</span><span class="sxs-lookup"><span data-stu-id="a5055-120">No exception is thrown if an *Enum* value isn't found by using the name of the enumeration value that is specified as a *String* value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="96ca1-121">Paraugs</span><span class="sxs-lookup"><span data-stu-id="96ca1-121">Example</span></span>
+## <a name="example-1"></a><span data-ttu-id="a5055-121">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="a5055-121">Example 1</span></span>
 
-<span data-ttu-id="96ca1-122">Tālāk esošajā attēlā ir parādīts datu modelī ieviests uzskaitījums **ReportDirection**.</span><span class="sxs-lookup"><span data-stu-id="96ca1-122">In the following illustration, the **ReportDirection** enumeration is introduced in a data model.</span></span> <span data-ttu-id="96ca1-123">Ņemiet vērā, ka etiķetes ir definētas uzskaitījumu vērtībām.</span><span class="sxs-lookup"><span data-stu-id="96ca1-123">Notice that labels are defined for the enumeration values.</span></span>
+<span data-ttu-id="a5055-122">Tālāk esošajā attēlā ir parādīts datu modelī ieviests uzskaitījums **ReportDirection**.</span><span class="sxs-lookup"><span data-stu-id="a5055-122">In the following illustration, the **ReportDirection** enumeration is introduced in a data model.</span></span> <span data-ttu-id="a5055-123">Ņemiet vērā, ka etiķetes ir definētas uzskaitījumu vērtībām.</span><span class="sxs-lookup"><span data-stu-id="a5055-123">Notice that labels are defined for the enumeration values.</span></span>
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Pieejamās datu modeļu uzskaitījuma vērtības](./media/ER-data-model-enumeration-values.PNG)
 
-<span data-ttu-id="96ca1-124">Tālāk esošajā attēlā parādīta tālāk uzskaitītā informācija.</span><span class="sxs-lookup"><span data-stu-id="96ca1-124">The following illustration shows these details:</span></span>
+<span data-ttu-id="a5055-125">Tālāk esošajā attēlā parādīta tālāk uzskaitītā informācija.</span><span class="sxs-lookup"><span data-stu-id="a5055-125">The following illustration shows these details:</span></span>
 
-- <span data-ttu-id="96ca1-125">**$Direction** datu avots ir konfigurēts ER pārskatā.</span><span class="sxs-lookup"><span data-stu-id="96ca1-125">The **$Direction** data source is configured in an ER report.</span></span> <span data-ttu-id="96ca1-126">Šis datu avots ir konfigurēts, pamatojoties uz modeļa uzskaitījumu **ReportDirection**.</span><span class="sxs-lookup"><span data-stu-id="96ca1-126">This data source is configured based on the **ReportDirection** model enumeration.</span></span>
-- <span data-ttu-id="96ca1-127">Izteiksme `$IsArrivals` ir izveidota ar mērķi lietot modeļa uzskaitījumā bāzētu datu avotu **$Direction** kā šīs funkcijas parametru.</span><span class="sxs-lookup"><span data-stu-id="96ca1-127">The `$IsArrivals` expression is designed to use the model enumeration–based **$Direction** data source as a parameter of this function.</span></span>
-- <span data-ttu-id="96ca1-128">Šīs salīdzinājuma izteiksmes vērtība ir **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="96ca1-128">The value of this comparison expression is **TRUE**.</span></span>
+- <span data-ttu-id="a5055-126">**$Direction** datu avots ir konfigurēts ER pārskatā.</span><span class="sxs-lookup"><span data-stu-id="a5055-126">The **$Direction** data source is configured in an ER report.</span></span> <span data-ttu-id="a5055-127">Šis datu avots ir konfigurēts, pamatojoties uz modeļa uzskaitījumu **ReportDirection**.</span><span class="sxs-lookup"><span data-stu-id="a5055-127">This data source is configured based on the **ReportDirection** model enumeration.</span></span>
+- <span data-ttu-id="a5055-128">Izteiksme `$IsArrivals` ir izveidota ar mērķi lietot modeļa uzskaitījumā bāzētu datu avotu **$Direction** kā šīs funkcijas parametru.</span><span class="sxs-lookup"><span data-stu-id="a5055-128">The `$IsArrivals` expression is designed to use the model enumeration–based **$Direction** data source as a parameter of this function.</span></span>
+- <span data-ttu-id="a5055-129">Šīs salīdzinājuma izteiksmes vērtība ir **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="a5055-129">The value of this comparison expression is **TRUE**.</span></span>
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Datu modeļu uzskaitījuma piemērs](./media/ER-data-model-enumeration-usage.PNG)
 
-## <a name="additional-resources"></a><span data-ttu-id="96ca1-129">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="96ca1-129">Additional resources</span></span>
+## <a name="example-2"></a><span data-ttu-id="a5055-131">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="a5055-131">Example 2</span></span>
 
-[<span data-ttu-id="96ca1-130">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="96ca1-130">Text functions</span></span>](er-functions-category-text.md)
+<span data-ttu-id="a5055-132">`GETENUMVALUEBYNAME` un [`LISTOFFIELDS`](er-functions-list-listoffields.md) funkcijas sniedz iespēju ienest atbalstīto uzskaitījumu vērtības un etiķetes kā teksta vērtības.</span><span class="sxs-lookup"><span data-stu-id="a5055-132">The `GETENUMVALUEBYNAME` and [`LISTOFFIELDS`](er-functions-list-listoffields.md) functions let you fetch values and labels of supported enumerations as text values.</span></span> <span data-ttu-id="a5055-133">(Atbalstītie uzskaitījumi ir programmu uzskaitījumi, datu modeļu uzskaitījumi un formātu uzskaitījumi.)</span><span class="sxs-lookup"><span data-stu-id="a5055-133">(The supported enumerations are application enumerations, data model enumerations, and format enumerations.)</span></span>
+
+<span data-ttu-id="a5055-134">Tālāk esošajā attēlā ir parādīts modeļa kartējumā ieviests datu avots **TransType**.</span><span class="sxs-lookup"><span data-stu-id="a5055-134">In the following illustration, the **TransType** data source is introduced in a model mapping.</span></span> <span data-ttu-id="a5055-135">Šis datu avots attiecas uz programmu uzskaitījumu **LedgerTransType**.</span><span class="sxs-lookup"><span data-stu-id="a5055-135">This data source refers to the **LedgerTransType** application enumeration.</span></span>
+
+![Modeļa kartējuma datu avots, kas attiecas uz programmu uzskaitījumu](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+<span data-ttu-id="a5055-137">Tālāk esošajā attēlā ir parādīts modeļa kartējumā konfigurēts datu avots **TransTypeList**.</span><span class="sxs-lookup"><span data-stu-id="a5055-137">The following illustration shows the **TransTypeList** data source that is configured in a model mapping.</span></span> <span data-ttu-id="a5055-138">Šis datu avots ir konfigurēts, pamatojoties uz programmu uzskaitījumu **TransType**.</span><span class="sxs-lookup"><span data-stu-id="a5055-138">This data source is configured based on the **TransType** application enumeration.</span></span> <span data-ttu-id="a5055-139">Funkcija `LISTOFFIELDS` tiek izmantota, lai atgrieztu visas uzskaitījuma vērtības kā ierakstu sarakstu ar laukiem.</span><span class="sxs-lookup"><span data-stu-id="a5055-139">The `LISTOFFIELDS` function is used to return all enumeration values as a list of records that contain fields.</span></span> <span data-ttu-id="a5055-140">Šādā veidā tiek atklāta informācija par katra uzskaitījuma vērtību.</span><span class="sxs-lookup"><span data-stu-id="a5055-140">In this way, the details of every enumeration value are exposed.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a5055-141">Lauks **EnumValue** ir konfigurēts **TransTypeList** datu avotam, izmantojot `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` izteiksmi.</span><span class="sxs-lookup"><span data-stu-id="a5055-141">The **EnumValue** field is configured for the **TransTypeList** data source by using the `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` expression.</span></span> <span data-ttu-id="a5055-142">Šis lauks atgriež uzskaitījuma vērtību katram šī saraksta ierakstam.</span><span class="sxs-lookup"><span data-stu-id="a5055-142">This field returns an enumeration value for every record in this list.</span></span>
+
+![Modeļa kartējuma datu avots, kas atgriež visas atlasītās uzskaitījuma vērtības kā ierakstu sarakstu](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+<span data-ttu-id="a5055-144">Tālāk esošajā attēlā ir parādīts modeļa kartējumā konfigurēts datu avots **VendTrans**.</span><span class="sxs-lookup"><span data-stu-id="a5055-144">The following illustration shows the **VendTrans** data source that is configured in a model mapping.</span></span> <span data-ttu-id="a5055-145">Šis datu avots atgriež kreditora transakciju ierakstus no **VendTrans** programmas tabulas.</span><span class="sxs-lookup"><span data-stu-id="a5055-145">This data source returns vendor transaction records from the **VendTrans** application table.</span></span> <span data-ttu-id="a5055-146">Katras transakcijas virsgrāmatas veids ir definēts, izmantojot lauka **TransType** vērtību.</span><span class="sxs-lookup"><span data-stu-id="a5055-146">The ledger type of every transaction is defined by the value of the **TransType** field.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a5055-147">Lauks **TransTypeTitle** ir konfigurēts **VendTrans** datu avotam, izmantojot `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` izteiksmi.</span><span class="sxs-lookup"><span data-stu-id="a5055-147">The **TransTypeTitle** field is configured for the **VendTrans** data source by using the `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` expression.</span></span> <span data-ttu-id="a5055-148">Šis lauks atgriež pašreizējās transakcijas uzskaitījuma vērtības etiķeti kā tekstu, ja šī uzskaitījuma vērtība ir pieejama.</span><span class="sxs-lookup"><span data-stu-id="a5055-148">This field returns the label of an enumeration value of the current transaction as text, if this enumeration value is available.</span></span> <span data-ttu-id="a5055-149">Pretējā gadījumā šī izteiksme atgriež tukšu virknes vērtību.</span><span class="sxs-lookup"><span data-stu-id="a5055-149">Otherwise, it returns a blank string value.</span></span>
+>
+> <span data-ttu-id="a5055-150">Lauks **TransTypeTitle** ir saistīts ar datu modeļa lauku **LedgerType**, kas iespējo šīs informācijas izmantošanu katrā elektroniskā pārskata formātā, kas izmanto datu modeli kā datu avotu.</span><span class="sxs-lookup"><span data-stu-id="a5055-150">The **TransTypeTitle** field is bound to the **LedgerType** field of a data model that enables this information to be used in every ER format that uses the data model as a source of data.</span></span>
+
+![Modeļa kartējuma datu avots, kas atgriež kreditoru transakcijas](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+<span data-ttu-id="a5055-152">Tālāk esošajā attēlā ir parādīts, kā varat izmantot [datu avota atkļūdotāju](er-debug-data-sources.md), lai pārbaudītu konfigurēto modeļa kartējumu.</span><span class="sxs-lookup"><span data-stu-id="a5055-152">The following illustration shows how you can use the [data source debugger](er-debug-data-sources.md) to test the configured model mapping.</span></span>
+
+![Datu avota atkļūdotāja izmantošana, lai pārbaudītu konfigurēto modeļa kartējumu](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+<span data-ttu-id="a5055-154">Datu modeļa lauks **LedgerType** parāda transakciju veida etiķetes kā paredzēts.</span><span class="sxs-lookup"><span data-stu-id="a5055-154">The **LedgerType** field of a data model exposes labels of transaction types as expected.</span></span>
+
+<span data-ttu-id="a5055-155">Ja plānojat izmantot šo pieeju lielam transakciju datu apjomam, ir jāapsver izpildes veiktspēja.</span><span class="sxs-lookup"><span data-stu-id="a5055-155">If you plan to use this approach for a large amount of transactional data, you must consider execution performance.</span></span> <span data-ttu-id="a5055-156">Papildinformāciju skatiet [Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md).</span><span class="sxs-lookup"><span data-stu-id="a5055-156">For more information, see [Trace the execution of ER formats to troubleshoot performance issues](trace-execution-er-troubleshoot-perf.md).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="a5055-157">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="a5055-157">Additional resources</span></span>
+
+[<span data-ttu-id="a5055-158">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="a5055-158">Text functions</span></span>](er-functions-category-text.md)
+
+[<span data-ttu-id="a5055-159">Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas</span><span class="sxs-lookup"><span data-stu-id="a5055-159">Trace the execution of ER formats to troubleshoot performance issues</span></span>](trace-execution-er-troubleshoot-perf.md)
+
+[<span data-ttu-id="a5055-160">LISTOFFIELDS ER funkcija</span><span class="sxs-lookup"><span data-stu-id="a5055-160">LISTOFFIELDS ER function</span></span>](er-functions-list-listoffields.md)
+
+[<span data-ttu-id="a5055-161">FIRSTORNULL ER funkcija</span><span class="sxs-lookup"><span data-stu-id="a5055-161">FIRSTORNULL ER function</span></span>](er-functions-list-firstornull.md)
+
+[<span data-ttu-id="a5055-162">WHERE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="a5055-162">WHERE ER function</span></span>](er-functions-list-where.md)

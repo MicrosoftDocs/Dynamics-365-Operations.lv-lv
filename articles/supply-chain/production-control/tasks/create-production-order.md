@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute
+ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute, ProdJournalCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,57 +17,57 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c16413b25a8d2a11b478b148cb3e96c3a677c6eb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce08532b8281d730cd5fae4ebd634a08c5baeedd
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210897"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826554"
 ---
-# <a name="create-a-production-order"></a><span data-ttu-id="7605d-103">Ražošanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="7605d-103">Create a production order</span></span>
+# <a name="create-a-production-order"></a><span data-ttu-id="3599e-103">Ražošanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="3599e-103">Create a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7605d-104">Šajā procedūrā ir parādīts, kā izveidot ražošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="7605d-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="7605d-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="7605d-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7605d-106">Šī ir pirmā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma cikls.</span><span class="sxs-lookup"><span data-stu-id="7605d-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="3599e-104">Šajā procedūrā ir parādīts, kā izveidot ražošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="3599e-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="3599e-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="3599e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="3599e-106">Šī ir pirmā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma cikls.</span><span class="sxs-lookup"><span data-stu-id="3599e-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="create-a-production-order"></a><span data-ttu-id="7605d-107">Ražošanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="7605d-107">Create a production order</span></span>
-1. <span data-ttu-id="7605d-108">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="7605d-108">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="7605d-109">Noklikšķiniet uz Jauns ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="7605d-109">Click New production order.</span></span>
-3. <span data-ttu-id="7605d-110">Laukā Krājuma kods ierakstiet D0001.</span><span class="sxs-lookup"><span data-stu-id="7605d-110">In the Item number field, type 'D0001'.</span></span>
-4. <span data-ttu-id="7605d-111">Laukā Piegāde ierakstiet datumu.</span><span class="sxs-lookup"><span data-stu-id="7605d-111">In the Delivery field, enter a date.</span></span>
-    * <span data-ttu-id="7605d-112">Piegādes datums norāda, kad ir jābeidzas ražošanas pasūtījumam, lai piegāde notiktu laikā.</span><span class="sxs-lookup"><span data-stu-id="7605d-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="7605d-113">Šo datumu var izmantot plānošanas procesā.</span><span class="sxs-lookup"><span data-stu-id="7605d-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="7605d-114">Piemēram, pasūtījumu varat plānot atpakaļ no piegādes datuma.</span><span class="sxs-lookup"><span data-stu-id="7605d-114">For example, you can schedule the order backward from the delivery date.</span></span>  
-5. <span data-ttu-id="7605d-115">Daudzuma laukā iestatiet vērtību 20.</span><span class="sxs-lookup"><span data-stu-id="7605d-115">Set Quantity to '20'.</span></span>
-    * <span data-ttu-id="7605d-116">Piezīme: MK numura laukā automātiski tiek rādīts jebkura pašreizējam krājumam aktīvā MK numurs, bet ražošanas pasūtījumam šo MK varat mainīt, apstiprināto MK versiju sarakstā atlasot kādu aktīvu MK.</span><span class="sxs-lookup"><span data-stu-id="7605d-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="7605d-117">Laukā Maršruta numurs automātiski tiek rādīts jebkura pašreizējam krājumam aktīvā maršruta numurs, bet ražošanas pasūtījumam šo vērtību Maršruts varat mainīt, apstiprināto maršrutu versiju sarakstā atlasot kādu aktīvu maršrutu.</span><span class="sxs-lookup"><span data-stu-id="7605d-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
-6. <span data-ttu-id="7605d-118">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="7605d-118">Click Create.</span></span>
+## <a name="create-a-production-order"></a><span data-ttu-id="3599e-107">Ražošanas pasūtījuma izveide</span><span class="sxs-lookup"><span data-stu-id="3599e-107">Create a production order</span></span>
+1. <span data-ttu-id="3599e-108">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="3599e-108">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="3599e-109">Noklikšķiniet uz Jauns ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="3599e-109">Click New production order.</span></span>
+3. <span data-ttu-id="3599e-110">Laukā Krājuma kods ierakstiet D0001.</span><span class="sxs-lookup"><span data-stu-id="3599e-110">In the Item number field, type 'D0001'.</span></span>
+4. <span data-ttu-id="3599e-111">Laukā Piegāde ierakstiet datumu.</span><span class="sxs-lookup"><span data-stu-id="3599e-111">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="3599e-112">Piegādes datums norāda, kad ir jābeidzas ražošanas pasūtījumam, lai piegāde notiktu laikā.</span><span class="sxs-lookup"><span data-stu-id="3599e-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="3599e-113">Šo datumu var izmantot plānošanas procesā.</span><span class="sxs-lookup"><span data-stu-id="3599e-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="3599e-114">Piemēram, pasūtījumu varat plānot atpakaļ no piegādes datuma.</span><span class="sxs-lookup"><span data-stu-id="3599e-114">For example, you can schedule the order backward from the delivery date.</span></span>  
+5. <span data-ttu-id="3599e-115">Daudzuma laukā iestatiet vērtību 20.</span><span class="sxs-lookup"><span data-stu-id="3599e-115">Set Quantity to '20'.</span></span>
+    * <span data-ttu-id="3599e-116">Piezīme: MK numura laukā automātiski tiek rādīts jebkura pašreizējam krājumam aktīvā MK numurs, bet ražošanas pasūtījumam šo MK varat mainīt, apstiprināto MK versiju sarakstā atlasot kādu aktīvu MK.</span><span class="sxs-lookup"><span data-stu-id="3599e-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="3599e-117">Laukā Maršruta numurs automātiski tiek rādīts jebkura pašreizējam krājumam aktīvā maršruta numurs, bet ražošanas pasūtījumam šo vērtību Maršruts varat mainīt, apstiprināto maršrutu versiju sarakstā atlasot kādu aktīvu maršrutu.</span><span class="sxs-lookup"><span data-stu-id="3599e-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
+6. <span data-ttu-id="3599e-118">Noklikšķiniet uz Izveidot.</span><span class="sxs-lookup"><span data-stu-id="3599e-118">Click Create.</span></span>
 
-## <a name="validate-the-production-order"></a><span data-ttu-id="7605d-119">Pārbaudīt ražošanas pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="7605d-119">Validate the production order</span></span>
-1. <span data-ttu-id="7605d-120">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="7605d-120">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="7605d-121">Noklikšķiniet uz saites tam ražošanas pasūtījuma numuram, ko tikko izveidojāt.</span><span class="sxs-lookup"><span data-stu-id="7605d-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="7605d-122">Šādi tiek atvērta lapa ar detalizētu informāciju par pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="7605d-122">This will open the details page for the order.</span></span>  
-2. <span data-ttu-id="7605d-123">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="7605d-123">Click Edit.</span></span>
-3. <span data-ttu-id="7605d-124">Laukā Piegāde ierakstiet datumu.</span><span class="sxs-lookup"><span data-stu-id="7605d-124">In the Delivery field, enter a date.</span></span>
-    * <span data-ttu-id="7605d-125">Piemēram, ražošanas pasūtījumam varat mainīt piegādes datumu.</span><span class="sxs-lookup"><span data-stu-id="7605d-125">For example, you can change the delivery date for the production order.</span></span>  
-4. <span data-ttu-id="7605d-126">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7605d-126">Click Save.</span></span>
-5. <span data-ttu-id="7605d-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7605d-127">Close the page.</span></span>
+## <a name="validate-the-production-order"></a><span data-ttu-id="3599e-119">Pārbaudīt ražošanas pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="3599e-119">Validate the production order</span></span>
+1. <span data-ttu-id="3599e-120">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="3599e-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3599e-121">Noklikšķiniet uz saites tam ražošanas pasūtījuma numuram, ko tikko izveidojāt.</span><span class="sxs-lookup"><span data-stu-id="3599e-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="3599e-122">Šādi tiek atvērta lapa ar detalizētu informāciju par pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="3599e-122">This will open the details page for the order.</span></span>  
+2. <span data-ttu-id="3599e-123">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="3599e-123">Click Edit.</span></span>
+3. <span data-ttu-id="3599e-124">Laukā Piegāde ierakstiet datumu.</span><span class="sxs-lookup"><span data-stu-id="3599e-124">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="3599e-125">Piemēram, ražošanas pasūtījumam varat mainīt piegādes datumu.</span><span class="sxs-lookup"><span data-stu-id="3599e-125">For example, you can change the delivery date for the production order.</span></span>  
+4. <span data-ttu-id="3599e-126">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3599e-126">Click Save.</span></span>
+5. <span data-ttu-id="3599e-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3599e-127">Close the page.</span></span>
 
-## <a name="update-the-bom"></a><span data-ttu-id="7605d-128">Atjaunināt MK</span><span class="sxs-lookup"><span data-stu-id="7605d-128">Update the BOM</span></span>
-1. <span data-ttu-id="7605d-129">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="7605d-129">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="7605d-130">Noklikšķiniet uz MK.</span><span class="sxs-lookup"><span data-stu-id="7605d-130">Click BOM.</span></span>
-    * <span data-ttu-id="7605d-131">Atveriet MK lapu, lai pārbaudītu MK datus, kas tika kopēti no noklusējuma datiem, kad tika izveidots ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="7605d-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="7605d-132">Šajā procedūrā jums ir jāatjaunina MK daudzums.</span><span class="sxs-lookup"><span data-stu-id="7605d-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
-3. <span data-ttu-id="7605d-133">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="7605d-133">Click Edit.</span></span>
-4. <span data-ttu-id="7605d-134">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="7605d-134">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="7605d-135">Mainot daudzumu MK rindā, ražošanas pasūtījumam tiek ietekmēta materiālu patēriņa izmaksu prognoze.</span><span class="sxs-lookup"><span data-stu-id="7605d-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
-5. <span data-ttu-id="7605d-136">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7605d-136">Click Save.</span></span>
-6. <span data-ttu-id="7605d-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7605d-137">Close the page.</span></span>
+## <a name="update-the-bom"></a><span data-ttu-id="3599e-128">Atjaunināt MK</span><span class="sxs-lookup"><span data-stu-id="3599e-128">Update the BOM</span></span>
+1. <span data-ttu-id="3599e-129">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="3599e-129">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="3599e-130">Noklikšķiniet uz MK.</span><span class="sxs-lookup"><span data-stu-id="3599e-130">Click BOM.</span></span>
+    * <span data-ttu-id="3599e-131">Atveriet MK lapu, lai pārbaudītu MK datus, kas tika kopēti no noklusējuma datiem, kad tika izveidots ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="3599e-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="3599e-132">Šajā procedūrā jums ir jāatjaunina MK daudzums.</span><span class="sxs-lookup"><span data-stu-id="3599e-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
+3. <span data-ttu-id="3599e-133">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="3599e-133">Click Edit.</span></span>
+4. <span data-ttu-id="3599e-134">Laukā Daudzums ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="3599e-134">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="3599e-135">Mainot daudzumu MK rindā, ražošanas pasūtījumam tiek ietekmēta materiālu patēriņa izmaksu prognoze.</span><span class="sxs-lookup"><span data-stu-id="3599e-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
+5. <span data-ttu-id="3599e-136">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3599e-136">Click Save.</span></span>
+6. <span data-ttu-id="3599e-137">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3599e-137">Close the page.</span></span>
 
-## <a name="update-the-production-route"></a><span data-ttu-id="7605d-138">Atjaunināt ražošanas maršrutu</span><span class="sxs-lookup"><span data-stu-id="7605d-138">Update the production route</span></span>
-1. <span data-ttu-id="7605d-139">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="7605d-139">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="7605d-140">Noklikšķiniet uz Maršruts.</span><span class="sxs-lookup"><span data-stu-id="7605d-140">Click Route.</span></span>
-    * <span data-ttu-id="7605d-141">Atveriet lapu Maršruts, lai pārbaudītu ražošanas maršruta datus, kas tika kopēti no noklusējuma datiem, kad tika izveidots pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="7605d-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="7605d-142">Šajā procedūrā jums ir jāatjaunina daudzums vienai no operācijām ražošanas maršrutā.</span><span class="sxs-lookup"><span data-stu-id="7605d-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
-3. <span data-ttu-id="7605d-143">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="7605d-143">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="7605d-144">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="7605d-144">Click Edit.</span></span>
-5. <span data-ttu-id="7605d-145">Laukā Apstrādes daudz. ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="7605d-145">In the Process qty. field, enter a number.</span></span>
-    * <span data-ttu-id="7605d-146">Mainot apstrādes laiku, tiek ietekmēts ražošanas pasūtījuma prognozētais maršruta patēriņš un izmaksas.</span><span class="sxs-lookup"><span data-stu-id="7605d-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
-6. <span data-ttu-id="7605d-147">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="7605d-147">Click Save.</span></span>
-7. <span data-ttu-id="7605d-148">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="7605d-148">Close the page.</span></span>
+## <a name="update-the-production-route"></a><span data-ttu-id="3599e-138">Atjaunināt ražošanas maršrutu</span><span class="sxs-lookup"><span data-stu-id="3599e-138">Update the production route</span></span>
+1. <span data-ttu-id="3599e-139">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="3599e-139">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="3599e-140">Noklikšķiniet uz Maršruts.</span><span class="sxs-lookup"><span data-stu-id="3599e-140">Click Route.</span></span>
+    * <span data-ttu-id="3599e-141">Atveriet lapu Maršruts, lai pārbaudītu ražošanas maršruta datus, kas tika kopēti no noklusējuma datiem, kad tika izveidots pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="3599e-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="3599e-142">Šajā procedūrā jums ir jāatjaunina daudzums vienai no operācijām ražošanas maršrutā.</span><span class="sxs-lookup"><span data-stu-id="3599e-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
+3. <span data-ttu-id="3599e-143">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="3599e-143">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="3599e-144">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="3599e-144">Click Edit.</span></span>
+5. <span data-ttu-id="3599e-145">Laukā Apstrādes daudz. ievadiet kādu skaitli.</span><span class="sxs-lookup"><span data-stu-id="3599e-145">In the Process qty. field, enter a number.</span></span>
+    * <span data-ttu-id="3599e-146">Mainot apstrādes laiku, tiek ietekmēts ražošanas pasūtījuma prognozētais maršruta patēriņš un izmaksas.</span><span class="sxs-lookup"><span data-stu-id="3599e-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
+6. <span data-ttu-id="3599e-147">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3599e-147">Click Save.</span></span>
+7. <span data-ttu-id="3599e-148">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3599e-148">Close the page.</span></span>
 

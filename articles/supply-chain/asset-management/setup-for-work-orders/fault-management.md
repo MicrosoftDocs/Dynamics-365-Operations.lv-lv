@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,118 +18,118 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6665e80342af1baa7176aee92693b77e83b368f0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 72d6c8d750a5a0903017b4c77b3ce5d9521cf99b
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205924"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889365"
 ---
-# <a name="fault-management"></a><span data-ttu-id="6b3fb-103">Kļūmju pārvaldība</span><span class="sxs-lookup"><span data-stu-id="6b3fb-103">Fault management</span></span>
+# <a name="fault-management"></a><span data-ttu-id="2b9c6-103">Kļūmju pārvaldība</span><span class="sxs-lookup"><span data-stu-id="2b9c6-103">Fault management</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="6b3fb-104">Modulī Līdzekļu pārvaldība varat izmantot kļūmju noformētāju, lai līdzekļu tipiem iestatītu kļūmju simptomus, kļūmju apgabalus un kļūmju tipus.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="6b3fb-105">Šādi varat pārvaldīt līdzekļos konstatētās kļūdas.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="6b3fb-106">Turklāt kļūmju iemeslus un ieteikumus to labošanai var reģistrēt darba pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
+<span data-ttu-id="2b9c6-104">Modulī Līdzekļu pārvaldība varat izmantot kļūmju noformētāju, lai līdzekļu tipiem iestatītu kļūmju simptomus, kļūmju apgabalus un kļūmju tipus.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="2b9c6-105">Šādi varat pārvaldīt līdzekļos konstatētās kļūdas.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="2b9c6-106">Turklāt kļūmju iemeslus un ieteikumus to labošanai var reģistrēt darba pasūtījumā.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
 
-<span data-ttu-id="6b3fb-107">Kļūmju reģistrācijas un pārvaldības process ietver trīs darbības.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-107">The process for fault registration and management consists of these steps.</span></span>
+<span data-ttu-id="2b9c6-107">Kļūmju reģistrācijas un pārvaldības process ietver trīs darbības.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-107">The process for fault registration and management consists of these steps.</span></span>
 
-1. <span data-ttu-id="6b3fb-108">Izveidojiet kļūmju simptomu, kļūmju apgabalu un kļūmju tipu sarakstu, kuri var parādīties jūsu līdzekļu tipos.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
-2. <span data-ttu-id="6b3fb-109">Kļūmju noformētājā iestatiet simptomus, kļūmju apgabalus un kļūmju tipus.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
+1. <span data-ttu-id="2b9c6-108">Izveidojiet kļūmju simptomu, kļūmju apgabalu un kļūmju tipu sarakstu, kuri var parādīties jūsu līdzekļu tipos.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
+2. <span data-ttu-id="2b9c6-109">Kļūmju noformētājā iestatiet simptomus, kļūmju apgabalus un kļūmju tipus.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="6b3fb-110">Tālāk ir sniegti daži piemēri, lai palīdzētu jums izprast atšķirību starp kļūmju simptomiem, kļūmju apgabaliem un kļūmju tipiem.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
+<span data-ttu-id="2b9c6-110">Tālāk ir sniegti daži piemēri, lai palīdzētu jums izprast atšķirību starp kļūmju simptomiem, kļūmju apgabaliem un kļūmju tipiem.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="6b3fb-111">**Kļūmju simptomi:**</span><span class="sxs-lookup"><span data-stu-id="6b3fb-111">**Fault symptoms:**</span></span>
+<span data-ttu-id="2b9c6-111">**Kļūmju simptomi:**</span><span class="sxs-lookup"><span data-stu-id="2b9c6-111">**Fault symptoms:**</span></span>
 
-- <span data-ttu-id="6b3fb-112">Nesabalansēti spriegumi</span><span class="sxs-lookup"><span data-stu-id="6b3fb-112">Unbalanced voltages</span></span>
-- <span data-ttu-id="6b3fb-113">Īsa shēma</span><span class="sxs-lookup"><span data-stu-id="6b3fb-113">Short circuit</span></span>
-- <span data-ttu-id="6b3fb-114">Troksnis</span><span class="sxs-lookup"><span data-stu-id="6b3fb-114">Noise</span></span>
-- <span data-ttu-id="6b3fb-115">Noplūde</span><span class="sxs-lookup"><span data-stu-id="6b3fb-115">Leak</span></span>
-- <span data-ttu-id="6b3fb-116">Vibrācijas</span><span class="sxs-lookup"><span data-stu-id="6b3fb-116">Vibrations</span></span>
+- <span data-ttu-id="2b9c6-112">Nesabalansēti spriegumi</span><span class="sxs-lookup"><span data-stu-id="2b9c6-112">Unbalanced voltages</span></span>
+- <span data-ttu-id="2b9c6-113">Īsa shēma</span><span class="sxs-lookup"><span data-stu-id="2b9c6-113">Short circuit</span></span>
+- <span data-ttu-id="2b9c6-114">Troksnis</span><span class="sxs-lookup"><span data-stu-id="2b9c6-114">Noise</span></span>
+- <span data-ttu-id="2b9c6-115">Noplūde</span><span class="sxs-lookup"><span data-stu-id="2b9c6-115">Leak</span></span>
+- <span data-ttu-id="2b9c6-116">Vibrācijas</span><span class="sxs-lookup"><span data-stu-id="2b9c6-116">Vibrations</span></span>
 
-<span data-ttu-id="6b3fb-117">**Kļūmju apgabali:**</span><span class="sxs-lookup"><span data-stu-id="6b3fb-117">**Fault areas:**</span></span>
+<span data-ttu-id="2b9c6-117">**Kļūmju apgabali:**</span><span class="sxs-lookup"><span data-stu-id="2b9c6-117">**Fault areas:**</span></span>
 
-- <span data-ttu-id="6b3fb-118">Elektrības</span><span class="sxs-lookup"><span data-stu-id="6b3fb-118">Electrical</span></span>
-- <span data-ttu-id="6b3fb-119">Mehānisks</span><span class="sxs-lookup"><span data-stu-id="6b3fb-119">Mechanical</span></span>
-- <span data-ttu-id="6b3fb-120">Hidraulisks</span><span class="sxs-lookup"><span data-stu-id="6b3fb-120">Hydraulic</span></span>
-- <span data-ttu-id="6b3fb-121">Pneimātisks</span><span class="sxs-lookup"><span data-stu-id="6b3fb-121">Pneumatic</span></span>
+- <span data-ttu-id="2b9c6-118">Elektrības</span><span class="sxs-lookup"><span data-stu-id="2b9c6-118">Electrical</span></span>
+- <span data-ttu-id="2b9c6-119">Mehānisks</span><span class="sxs-lookup"><span data-stu-id="2b9c6-119">Mechanical</span></span>
+- <span data-ttu-id="2b9c6-120">Hidraulisks</span><span class="sxs-lookup"><span data-stu-id="2b9c6-120">Hydraulic</span></span>
+- <span data-ttu-id="2b9c6-121">Pneimātisks</span><span class="sxs-lookup"><span data-stu-id="2b9c6-121">Pneumatic</span></span>
 
-<span data-ttu-id="6b3fb-122">**Kļūmju tipi**</span><span class="sxs-lookup"><span data-stu-id="6b3fb-122">**Fault types:**</span></span>
+<span data-ttu-id="2b9c6-122">**Kļūmju tipi**</span><span class="sxs-lookup"><span data-stu-id="2b9c6-122">**Fault types:**</span></span>
 
-- <span data-ttu-id="6b3fb-123">Bojāts galvenā statora tinums</span><span class="sxs-lookup"><span data-stu-id="6b3fb-123">Faulty main stator winding</span></span>
-- <span data-ttu-id="6b3fb-124">Bojāta diode</span><span class="sxs-lookup"><span data-stu-id="6b3fb-124">Faulty diode</span></span>
-- <span data-ttu-id="6b3fb-125">Netīri tinumi</span><span class="sxs-lookup"><span data-stu-id="6b3fb-125">Dirty windings</span></span>
-- <span data-ttu-id="6b3fb-126">Defektīvs ģenerators</span><span class="sxs-lookup"><span data-stu-id="6b3fb-126">Defective generator</span></span>
-- <span data-ttu-id="6b3fb-127">Defektīvs sensors</span><span class="sxs-lookup"><span data-stu-id="6b3fb-127">Defective sensor</span></span>
+- <span data-ttu-id="2b9c6-123">Bojāts galvenā statora tinums</span><span class="sxs-lookup"><span data-stu-id="2b9c6-123">Faulty main stator winding</span></span>
+- <span data-ttu-id="2b9c6-124">Bojāta diode</span><span class="sxs-lookup"><span data-stu-id="2b9c6-124">Faulty diode</span></span>
+- <span data-ttu-id="2b9c6-125">Netīri tinumi</span><span class="sxs-lookup"><span data-stu-id="2b9c6-125">Dirty windings</span></span>
+- <span data-ttu-id="2b9c6-126">Defektīvs ģenerators</span><span class="sxs-lookup"><span data-stu-id="2b9c6-126">Defective generator</span></span>
+- <span data-ttu-id="2b9c6-127">Defektīvs sensors</span><span class="sxs-lookup"><span data-stu-id="2b9c6-127">Defective sensor</span></span>
 
-## <a name="create-fault-symptoms"></a><span data-ttu-id="6b3fb-128">Kļūmju simptomu izveide</span><span class="sxs-lookup"><span data-stu-id="6b3fb-128">Create fault symptoms</span></span>
+## <a name="create-fault-symptoms"></a><span data-ttu-id="2b9c6-128">Kļūmju simptomu izveide</span><span class="sxs-lookup"><span data-stu-id="2b9c6-128">Create fault symptoms</span></span>
 
-<span data-ttu-id="6b3fb-129">Izpildiet tālāk norādītās darbības kļūmju simptomu izveidei, kurus var izmantot kļūmju noformētājā.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
+<span data-ttu-id="2b9c6-129">Izpildiet tālāk norādītās darbības kļūmju simptomu izveidei, kurus var izmantot kļūmju noformētājā.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="6b3fb-130">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju simptomi**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
-2. <span data-ttu-id="6b3fb-131">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-131">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="6b3fb-132">Laukā **Kļūmes simptoms** ievadiet kļūmes simptoma nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
-4. <span data-ttu-id="6b3fb-133">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-133">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="6b3fb-134">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-134">Select **Save**.</span></span>
+1. <span data-ttu-id="2b9c6-130">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju simptomi**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
+2. <span data-ttu-id="2b9c6-131">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-131">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="2b9c6-132">Laukā **Kļūmes simptoms** ievadiet kļūmes simptoma nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
+4. <span data-ttu-id="2b9c6-133">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-133">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="2b9c6-134">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-134">Select **Save**.</span></span>
 
-## <a name="create-fault-areas"></a><span data-ttu-id="6b3fb-135">Kļūmju apgabalu izveide</span><span class="sxs-lookup"><span data-stu-id="6b3fb-135">Create fault areas</span></span>
+## <a name="create-fault-areas"></a><span data-ttu-id="2b9c6-135">Kļūmju apgabalu izveide</span><span class="sxs-lookup"><span data-stu-id="2b9c6-135">Create fault areas</span></span>
 
-<span data-ttu-id="6b3fb-136">Izpildiet tālāk norādītās darbības apgabalu vai atrašanās vietu saraksta izveidei, kurus var izmantot kļūmju noformētājā.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
+<span data-ttu-id="2b9c6-136">Izpildiet tālāk norādītās darbības apgabalu vai atrašanās vietu saraksta izveidei, kurus var izmantot kļūmju noformētājā.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="6b3fb-137">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju apgabali**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
-2. <span data-ttu-id="6b3fb-138">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-138">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="6b3fb-139">Laukā **Kļūmes apgabals** ievadiet kļūmes apgabala nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-139">In the **Fault area** field, enter a name for the fault area.</span></span>
-4. <span data-ttu-id="6b3fb-140">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-140">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="6b3fb-141">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-141">Select **Save**.</span></span>
+1. <span data-ttu-id="2b9c6-137">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju apgabali**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
+2. <span data-ttu-id="2b9c6-138">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-138">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="2b9c6-139">Laukā **Kļūmes apgabals** ievadiet kļūmes apgabala nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-139">In the **Fault area** field, enter a name for the fault area.</span></span>
+4. <span data-ttu-id="2b9c6-140">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-140">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="2b9c6-141">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-141">Select **Save**.</span></span>
 
-## <a name="create-fault-types"></a><span data-ttu-id="6b3fb-142">Kļūmju tipu izveide</span><span class="sxs-lookup"><span data-stu-id="6b3fb-142">Create fault types</span></span>
+## <a name="create-fault-types"></a><span data-ttu-id="2b9c6-142">Kļūmju tipu izveide</span><span class="sxs-lookup"><span data-stu-id="2b9c6-142">Create fault types</span></span>
 
-<span data-ttu-id="6b3fb-143">Izpildiet tālāk norādītās darbības kļūmju tipu saraksta izveidei, kurus var izmantot kļūmju noformētājā.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
+<span data-ttu-id="2b9c6-143">Izpildiet tālāk norādītās darbības kļūmju tipu saraksta izveidei, kurus var izmantot kļūmju noformētājā.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="6b3fb-144">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju tipi**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
-2. <span data-ttu-id="6b3fb-145">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-145">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="6b3fb-146">Laukā **Kļūmes tips** ievadiet kļūmes tipa nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-146">In the **Fault type** field, enter a name for the fault type.</span></span>
-4. <span data-ttu-id="6b3fb-147">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-147">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="6b3fb-148">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-148">Select **Save**.</span></span>
+1. <span data-ttu-id="2b9c6-144">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju tipi**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
+2. <span data-ttu-id="2b9c6-145">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-145">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="2b9c6-146">Laukā **Kļūmes tips** ievadiet kļūmes tipa nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-146">In the **Fault type** field, enter a name for the fault type.</span></span>
+4. <span data-ttu-id="2b9c6-147">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-147">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="2b9c6-148">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-148">Select **Save**.</span></span>
 
-## <a name="set-up-the-fault-designer"></a><span data-ttu-id="6b3fb-149">Kļūmju noformētāja iestatīšana</span><span class="sxs-lookup"><span data-stu-id="6b3fb-149">Set up the fault designer</span></span>
+## <a name="set-up-the-fault-designer"></a><span data-ttu-id="2b9c6-149">Kļūmju noformētāja iestatīšana</span><span class="sxs-lookup"><span data-stu-id="2b9c6-149">Set up the fault designer</span></span>
 
-<span data-ttu-id="6b3fb-150">Kļūmju noformētājā līdzekļu tipiem iestatiet kļūmju datus.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-150">In the fault designer, you set up fault data on asset types.</span></span>
+<span data-ttu-id="2b9c6-150">Kļūmju noformētājā līdzekļu tipiem iestatiet kļūmju datus.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-150">In the fault designer, you set up fault data on asset types.</span></span>
 
-1. <span data-ttu-id="6b3fb-151">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju noformētājs**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
-2. <span data-ttu-id="6b3fb-152">Kreisajā rūtī atlasiet līdzekļa tipu, kuram iestatīt kļūmes ierakstu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
-3. <span data-ttu-id="6b3fb-153">Cilnē FastTab **Kļūmes simptoms** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes simptoms** atlasiet kļūmes simptomu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
-4. <span data-ttu-id="6b3fb-154">Cilnē FastTab **Kļūmes apgabals** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes apgabals** atlasiet kļūmes apgabalu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
-5. <span data-ttu-id="6b3fb-155">Cilnē FastTab **Kļūmes tips** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes tips** atlasiet kļūmes tipu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
-6. <span data-ttu-id="6b3fb-156">Lai ātri izveidotu kombināciju no visiem esošajiem kļūmju simptomiem, apgabaliem un tipiem atlasītajam līdzekļa tipam, atlasiet **Izveidot kļūmju kombinācijas**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="6b3fb-157">Šī funkcija ir noderīga, ja esat pievienojis daudz kļūmju simptomu, apgabalu un tipu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="6b3fb-158">Ir vieglāk dzēst rindas jebkādām kombinācijām, kas neatbilst līdzekļa tipam, nekā manuāli izveidot jaunas rindas.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
+1. <span data-ttu-id="2b9c6-151">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju noformētājs**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
+2. <span data-ttu-id="2b9c6-152">Kreisajā rūtī atlasiet līdzekļa tipu, kuram iestatīt kļūmes ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
+3. <span data-ttu-id="2b9c6-153">Cilnē FastTab **Kļūmes simptoms** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes simptoms** atlasiet kļūmes simptomu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
+4. <span data-ttu-id="2b9c6-154">Cilnē FastTab **Kļūmes apgabals** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes apgabals** atlasiet kļūmes apgabalu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
+5. <span data-ttu-id="2b9c6-155">Cilnē FastTab **Kļūmes tips** atlasiet **Pievienot rindu** un pēc tam laukā **Kļūmes tips** atlasiet kļūmes tipu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
+6. <span data-ttu-id="2b9c6-156">Lai ātri izveidotu kombināciju no visiem esošajiem kļūmju simptomiem, apgabaliem un tipiem atlasītajam līdzekļa tipam, atlasiet **Izveidot kļūmju kombinācijas**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="2b9c6-157">Šī funkcija ir noderīga, ja esat pievienojis daudz kļūmju simptomu, apgabalu un tipu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="2b9c6-158">Ir vieglāk dzēst rindas jebkādām kombinācijām, kas neatbilst līdzekļa tipam, nekā manuāli izveidot jaunas rindas.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="6b3fb-159">Lai kopētu kļūmju simptomu, apgabalu un tipu iestatīšanu no viena līdzekļa tipa uz atlasīto līdzekļa tipu, atlasiet **Kopēt no līdzekļa tipa**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
+    > <span data-ttu-id="2b9c6-159">Lai kopētu kļūmju simptomu, apgabalu un tipu iestatīšanu no viena līdzekļa tipa uz atlasīto līdzekļa tipu, atlasiet **Kopēt no līdzekļa tipa**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
 
-7. <span data-ttu-id="6b3fb-160">Atlasiet **Saglabāt**, lai saglabātu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-160">Select **Save** to save your changes.</span></span>
+7. <span data-ttu-id="2b9c6-160">Atlasiet **Saglabāt**, lai saglabātu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-160">Select **Save** to save your changes.</span></span>
 
 ![Kļūmes veidotāja lapa](media/21-setup-for-work-orders.png)
 
-## <a name="create-fault-causes"></a><span data-ttu-id="6b3fb-162">Kļūmju iemeslu izveide</span><span class="sxs-lookup"><span data-stu-id="6b3fb-162">Create fault causes</span></span>
+## <a name="create-fault-causes"></a><span data-ttu-id="2b9c6-162">Kļūmju iemeslu izveide</span><span class="sxs-lookup"><span data-stu-id="2b9c6-162">Create fault causes</span></span>
 
-<span data-ttu-id="6b3fb-163">Izpildiet tālāk norādītās darbības zināmo kļūmju iemeslu saraksta izveidei, kurus var pievienot darba pasūtījumam vai uzturēšanas pieprasījumam.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="2b9c6-163">Izpildiet tālāk norādītās darbības zināmo kļūmju iemeslu saraksta izveidei, kurus var pievienot darba pasūtījumam vai uzturēšanas pieprasījumam.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="6b3fb-164">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju iemesli**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
-2. <span data-ttu-id="6b3fb-165">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-165">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="6b3fb-166">Laukā **Kļūmes iemesls** ievadiet kļūmes iemesla nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
-4. <span data-ttu-id="6b3fb-167">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-167">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="6b3fb-168">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-168">Select **Save**.</span></span>
+1. <span data-ttu-id="2b9c6-164">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju iemesli**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
+2. <span data-ttu-id="2b9c6-165">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-165">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="2b9c6-166">Laukā **Kļūmes iemesls** ievadiet kļūmes iemesla nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
+4. <span data-ttu-id="2b9c6-167">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-167">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="2b9c6-168">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-168">Select **Save**.</span></span>
 
-## <a name="create-fault-remedies"></a><span data-ttu-id="6b3fb-169">Kļūmju novēršanas izveide</span><span class="sxs-lookup"><span data-stu-id="6b3fb-169">Create fault remedies</span></span>
+## <a name="create-fault-remedies"></a><span data-ttu-id="2b9c6-169">Kļūmju novēršanas izveide</span><span class="sxs-lookup"><span data-stu-id="2b9c6-169">Create fault remedies</span></span>
 
-<span data-ttu-id="6b3fb-170">Izpildiet tālāk norādītās darbības, lai izveidotu ieteikumus kļūmju novēršanai un labošanai, kurus var pievienot darba pasūtījumam vai uzturēšanas pieprasījumam.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="2b9c6-170">Izpildiet tālāk norādītās darbības, lai izveidotu ieteikumus kļūmju novēršanai un labošanai, kurus var pievienot darba pasūtījumam vai uzturēšanas pieprasījumam.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="6b3fb-171">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju novēršana**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
-2. <span data-ttu-id="6b3fb-172">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-172">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="6b3fb-173">Laukā **Kļūmes novēršana** ievadiet kļūmes novēršanas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
-4. <span data-ttu-id="6b3fb-174">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-174">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="6b3fb-175">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-175">Select **Save**.</span></span>
+1. <span data-ttu-id="2b9c6-171">Atlasiet **Līdzekļu pārvaldība** \> **Uzstādīšana** \> **Kļūme** \> **Kļūmju novēršana**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
+2. <span data-ttu-id="2b9c6-172">Atlasiet **Jauns**, lai izveidotu ierakstu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-172">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="2b9c6-173">Laukā **Kļūmes novēršana** ievadiet kļūmes novēršanas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
+4. <span data-ttu-id="2b9c6-174">Ievadiet aprakstu laukā **Apraksts**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-174">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="2b9c6-175">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-175">Select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6b3fb-176">Varat mainīt savu kļūmju simptomu, apgabalu, tipu, iemeslu un novēršanas nosaukumus pēc saviem ieskatiem.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="6b3fb-177">Nosaukuma izmaiņas automātiski tiek atspoguļoti atbilstošajās kļūmju reģistrācijās.</span><span class="sxs-lookup"><span data-stu-id="6b3fb-177">The name changes are automatically reflected in the related fault registrations.</span></span>
+> <span data-ttu-id="2b9c6-176">Varat mainīt savu kļūmju simptomu, apgabalu, tipu, iemeslu un novēršanas nosaukumus pēc saviem ieskatiem.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="2b9c6-177">Nosaukuma izmaiņas automātiski tiek atspoguļoti atbilstošajās kļūmju reģistrācijās.</span><span class="sxs-lookup"><span data-stu-id="2b9c6-177">The name changes are automatically reflected in the related fault registrations.</span></span>

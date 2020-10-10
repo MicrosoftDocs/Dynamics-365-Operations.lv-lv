@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd
+ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,38 +17,38 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: def39fa86103bc69d1c88dde8d0660945c1de82e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210552"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826290"
 ---
-# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="559fd-103">Ziņojums par ražošanas pasūtījuma pabeigšanu</span><span class="sxs-lookup"><span data-stu-id="559fd-103">Report a production order as finished</span></span>
+# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="83b99-103">Ziņojums par ražošanas pasūtījuma pabeigšanu</span><span class="sxs-lookup"><span data-stu-id="83b99-103">Report a production order as finished</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="559fd-104">Šajā procedūrā parādīts, kā ziņot ražošanas pasūtījumu kā pabeigtu.</span><span class="sxs-lookup"><span data-stu-id="559fd-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="559fd-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="559fd-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="559fd-106">Šī ir sestā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.</span><span class="sxs-lookup"><span data-stu-id="559fd-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="83b99-104">Šajā procedūrā parādīts, kā ziņot ražošanas pasūtījumu kā pabeigtu.</span><span class="sxs-lookup"><span data-stu-id="83b99-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="83b99-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="83b99-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="83b99-106">Šī ir sestā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.</span><span class="sxs-lookup"><span data-stu-id="83b99-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="559fd-107">Ziņojums par ražošanas pasūtījuma pabeigšanu</span><span class="sxs-lookup"><span data-stu-id="559fd-107">Report a production order as finished</span></span>
-1. <span data-ttu-id="559fd-108">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="559fd-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="559fd-109">Atlasiet ražošanas pasūtījumu, kura statuss ir Uzsākts.</span><span class="sxs-lookup"><span data-stu-id="559fd-109">Select a production order that has the Started status.</span></span>  
-2. <span data-ttu-id="559fd-110">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="559fd-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="559fd-111">Uzklikšķiniet Reģistrēt pabeigšanu.</span><span class="sxs-lookup"><span data-stu-id="559fd-111">Click Report as finished.</span></span>
-    * <span data-ttu-id="559fd-112">Šajā lapā varat apstiprināt pabeigto preču daudzumu, kuras jānorāda kā pabeigtas.</span><span class="sxs-lookup"><span data-stu-id="559fd-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
-4. <span data-ttu-id="559fd-113">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="559fd-113">Click the General tab.</span></span>
-5. <span data-ttu-id="559fd-114">Vienumam Derīgais daudzums iestatiet vērtību "18".</span><span class="sxs-lookup"><span data-stu-id="559fd-114">Set Good quantity to '18'.</span></span>
-6. <span data-ttu-id="559fd-115">Vienumam Brāķa daudzums iestatiet vērtību "2".</span><span class="sxs-lookup"><span data-stu-id="559fd-115">Set Error quantity to '2'.</span></span>
-7. <span data-ttu-id="559fd-116">Laukā Brāķa iemesls atlasiet vienumu Materiāls.</span><span class="sxs-lookup"><span data-stu-id="559fd-116">In the Error cause field, select 'Material'.</span></span>
-8. <span data-ttu-id="559fd-117">Atzīmējiet izvēles rūtiņu Pēdējais darbs vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="559fd-117">Select or clear the End job check box.</span></span>
-9. <span data-ttu-id="559fd-118">Atzīmējiet izvēles rūtiņu Pieņemt kļūdu vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="559fd-118">Select or clear the Accept error check box.</span></span>
-10. <span data-ttu-id="559fd-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="559fd-119">Click OK.</span></span>
+## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="83b99-107">Ziņojums par ražošanas pasūtījuma pabeigšanu</span><span class="sxs-lookup"><span data-stu-id="83b99-107">Report a production order as finished</span></span>
+1. <span data-ttu-id="83b99-108">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="83b99-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="83b99-109">Atlasiet ražošanas pasūtījumu, kura statuss ir Uzsākts.</span><span class="sxs-lookup"><span data-stu-id="83b99-109">Select a production order that has the Started status.</span></span>  
+2. <span data-ttu-id="83b99-110">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="83b99-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="83b99-111">Uzklikšķiniet Reģistrēt pabeigšanu.</span><span class="sxs-lookup"><span data-stu-id="83b99-111">Click Report as finished.</span></span>
+    * <span data-ttu-id="83b99-112">Šajā lapā varat apstiprināt pabeigto preču daudzumu, kuras jānorāda kā pabeigtas.</span><span class="sxs-lookup"><span data-stu-id="83b99-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
+4. <span data-ttu-id="83b99-113">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="83b99-113">Click the General tab.</span></span>
+5. <span data-ttu-id="83b99-114">Vienumam Derīgais daudzums iestatiet vērtību "18".</span><span class="sxs-lookup"><span data-stu-id="83b99-114">Set Good quantity to '18'.</span></span>
+6. <span data-ttu-id="83b99-115">Vienumam Brāķa daudzums iestatiet vērtību "2".</span><span class="sxs-lookup"><span data-stu-id="83b99-115">Set Error quantity to '2'.</span></span>
+7. <span data-ttu-id="83b99-116">Laukā Brāķa iemesls atlasiet vienumu Materiāls.</span><span class="sxs-lookup"><span data-stu-id="83b99-116">In the Error cause field, select 'Material'.</span></span>
+8. <span data-ttu-id="83b99-117">Atzīmējiet izvēles rūtiņu Pēdējais darbs vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="83b99-117">Select or clear the End job check box.</span></span>
+9. <span data-ttu-id="83b99-118">Atzīmējiet izvēles rūtiņu Pieņemt kļūdu vai noņemiet tās atzīmi.</span><span class="sxs-lookup"><span data-stu-id="83b99-118">Select or clear the Accept error check box.</span></span>
+10. <span data-ttu-id="83b99-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="83b99-119">Click OK.</span></span>
 
-## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="559fd-120">Pabeigšanas žurnāla pārbaude</span><span class="sxs-lookup"><span data-stu-id="559fd-120">Verify the Report as finished journal</span></span>
-1. <span data-ttu-id="559fd-121">Darbību rūtī noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="559fd-121">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="559fd-122">Noklikšķiniet uz Ziņots kā pabeigts.</span><span class="sxs-lookup"><span data-stu-id="559fd-122">Click Reported as finished.</span></span>
-3. <span data-ttu-id="559fd-123">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="559fd-123">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="559fd-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="559fd-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="559fd-125">Pabeigtās ražošanas žurnāls ir grāmatots.</span><span class="sxs-lookup"><span data-stu-id="559fd-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="559fd-126">Ja vēlaties veikt korekcijas žurnālā, varat manuāli izveidot jaunu žurnālu, kurā varat veikt izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="559fd-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
+## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="83b99-120">Pabeigšanas žurnāla pārbaude</span><span class="sxs-lookup"><span data-stu-id="83b99-120">Verify the Report as finished journal</span></span>
+1. <span data-ttu-id="83b99-121">Darbību rūtī noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="83b99-121">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="83b99-122">Noklikšķiniet uz Ziņots kā pabeigts.</span><span class="sxs-lookup"><span data-stu-id="83b99-122">Click Reported as finished.</span></span>
+3. <span data-ttu-id="83b99-123">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="83b99-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="83b99-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="83b99-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="83b99-125">Pabeigtās ražošanas žurnāls ir grāmatots.</span><span class="sxs-lookup"><span data-stu-id="83b99-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="83b99-126">Ja vēlaties veikt korekcijas žurnālā, varat manuāli izveidot jaunu žurnālu, kurā varat veikt izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="83b99-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
 

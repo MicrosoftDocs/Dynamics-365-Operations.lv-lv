@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductMasterDraftFormPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,29 +16,29 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09994bf6a6a4a1789c0a0fcd3cf5f95b5c93caa4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0144b7b352369c471d71639291f6c45d8998c792
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203806"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895405"
 ---
-# <a name="create-a-dimension-based-product-master"></a><span data-ttu-id="a9963-103">Uz dimensijas balstītas preces šablona izveide</span><span class="sxs-lookup"><span data-stu-id="a9963-103">Create a dimension-based product master</span></span>
+# <a name="create-a-dimension-based-product-master"></a><span data-ttu-id="e1b71-103">Uz dimensijas balstītas preces šablona izveide</span><span class="sxs-lookup"><span data-stu-id="e1b71-103">Create a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a9963-104">Šajā procedūrā tiek parādīts, kā izveidot jaunu preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="a9963-104">This procedure shows how to create a new product master with dimension-based configuration technology.</span></span> <span data-ttu-id="a9963-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="a9963-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a9963-106">Šī ir pirmā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="a9963-106">This is the first procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="e1b71-104">Šajā procedūrā tiek parādīts, kā izveidot jaunu preces šablonu ar konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="e1b71-104">This procedure shows how to create a new product master with dimension-based configuration technology.</span></span> <span data-ttu-id="e1b71-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="e1b71-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e1b71-106">Šī ir pirmā procedūra no astoņām, kurā ir skaidrots, kā veidot kombinācijas konfigurācijai atbilstoši dimensijām.</span><span class="sxs-lookup"><span data-stu-id="e1b71-106">This is the first procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="a9963-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Preces šabloni.</span><span class="sxs-lookup"><span data-stu-id="a9963-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="a9963-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="a9963-108">Click New.</span></span>
-3. <span data-ttu-id="a9963-109">Laukā Preces numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a9963-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="a9963-110">Ievadīt preces numuru ir obligāti, ja preces numura laukā nebija iestatīta numuru sērija.</span><span class="sxs-lookup"><span data-stu-id="a9963-110">Entering a product number is mandatory if no number sequence has been set up for the product number field.</span></span>  
-4. <span data-ttu-id="a9963-111">Laukā Preces nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a9963-111">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="a9963-112">Laukā Preces dimensijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="a9963-112">In the Product dimension group field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="a9963-113">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a9963-113">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a9963-114">Atlasiet konfigurācijas dimensiju šai procedūrai.</span><span class="sxs-lookup"><span data-stu-id="a9963-114">Select the configuration dimension for this procedure.</span></span>  
-7. <span data-ttu-id="a9963-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="a9963-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="a9963-116">Laukā Konfigurēšanas tehnoloģija atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="a9963-116">In the Configuration technology field, select an option.</span></span>
-    * <span data-ttu-id="a9963-117">Atlasiet Konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="a9963-117">Select the Dimension-based configuration technology.</span></span>  
-9. <span data-ttu-id="a9963-118">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a9963-118">Click OK.</span></span>
+1. <span data-ttu-id="e1b71-107">Pārejiet uz sadaļu Preču informācijas pārvaldība > Preces > Preces šabloni.</span><span class="sxs-lookup"><span data-stu-id="e1b71-107">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="e1b71-108">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e1b71-108">Click New.</span></span>
+3. <span data-ttu-id="e1b71-109">Laukā Preces numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1b71-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="e1b71-110">Ievadīt preces numuru ir obligāti, ja preces numura laukā nebija iestatīta numuru sērija.</span><span class="sxs-lookup"><span data-stu-id="e1b71-110">Entering a product number is mandatory if no number sequence has been set up for the product number field.</span></span>  
+4. <span data-ttu-id="e1b71-111">Laukā Preces nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1b71-111">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="e1b71-112">Laukā Preces dimensijas grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e1b71-112">In the Product dimension group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="e1b71-113">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e1b71-113">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e1b71-114">Atlasiet konfigurācijas dimensiju šai procedūrai.</span><span class="sxs-lookup"><span data-stu-id="e1b71-114">Select the configuration dimension for this procedure.</span></span>  
+7. <span data-ttu-id="e1b71-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e1b71-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="e1b71-116">Laukā Konfigurēšanas tehnoloģija atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="e1b71-116">In the Configuration technology field, select an option.</span></span>
+    * <span data-ttu-id="e1b71-117">Atlasiet Konfigurācijas atbilstoši dimensijām tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="e1b71-117">Select the Dimension-based configuration technology.</span></span>  
+9. <span data-ttu-id="e1b71-118">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e1b71-118">Click OK.</span></span>
 

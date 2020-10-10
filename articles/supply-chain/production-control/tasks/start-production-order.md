@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgRegistrationStartJob
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,57 +17,57 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e444f6c521c47964b9b9b864b62fb486102c2fc7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 47915a93151b1adc99ddb4e3facb29bf8db49dd6
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210391"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826026"
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="0ff98-103">Ražošanas pasūtījuma sākšana</span><span class="sxs-lookup"><span data-stu-id="0ff98-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="9082b-103">Ražošanas pasūtījuma sākšana</span><span class="sxs-lookup"><span data-stu-id="9082b-103">Start a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0ff98-104">Šajā procedūrā parādīts, ka sākt ražošanas pasūtījumu ražotnē.</span><span class="sxs-lookup"><span data-stu-id="0ff98-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="0ff98-105">Šajā procesā tiek ziņots par laika un materiālu patēriņu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="0ff98-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="0ff98-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0ff98-107">Šī ir piektā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.</span><span class="sxs-lookup"><span data-stu-id="0ff98-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="9082b-104">Šajā procedūrā parādīts, ka sākt ražošanas pasūtījumu ražotnē.</span><span class="sxs-lookup"><span data-stu-id="9082b-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="9082b-105">Šajā procesā tiek ziņots par laika un materiālu patēriņu.</span><span class="sxs-lookup"><span data-stu-id="9082b-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="9082b-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="9082b-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9082b-107">Šī ir piektā procedūra no septiņām, kurā ir paskaidrots ražošanas pasūtījuma dzīves cikls.</span><span class="sxs-lookup"><span data-stu-id="9082b-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="0ff98-108">Ražošanas pasūtījuma sākšana</span><span class="sxs-lookup"><span data-stu-id="0ff98-108">Start a production order</span></span>
-1. <span data-ttu-id="0ff98-109">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="0ff98-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="0ff98-110">Atlasiet ražošanas pasūtījumu, kura statuss ir Izlaists.</span><span class="sxs-lookup"><span data-stu-id="0ff98-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="0ff98-111">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="0ff98-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="0ff98-112">Noklikšķiniet uz Sākt.</span><span class="sxs-lookup"><span data-stu-id="0ff98-112">Click Start.</span></span>
-    * <span data-ttu-id="0ff98-113">Šajā lapā var apstiprināt ražošanas pasūtījuma uzsākšanu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="0ff98-114">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="0ff98-114">Click the General tab.</span></span>
-5. <span data-ttu-id="0ff98-115">Laukā No operācijas Nr.</span><span class="sxs-lookup"><span data-stu-id="0ff98-115">In the From Oper.</span></span> <span data-ttu-id="0ff98-116">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="0ff98-116">No.</span></span> <span data-ttu-id="0ff98-117">ievadiet vērtību 10.</span><span class="sxs-lookup"><span data-stu-id="0ff98-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="0ff98-118">Laukā Automātisks maršruta patēriņš atlasiet "Vienmēr".</span><span class="sxs-lookup"><span data-stu-id="0ff98-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="0ff98-119">Noklikšķiniet uz izvēles rūtiņas Grāmatot maršruta karti tagad.</span><span class="sxs-lookup"><span data-stu-id="0ff98-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="0ff98-120">Laukā Automātisks MK patēriņš atlasiet "Vienmēr".</span><span class="sxs-lookup"><span data-stu-id="0ff98-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="0ff98-121">Noklikšķiniet uz izvēles rūtiņas Grāmatot izdošanas sarakstu tagad.</span><span class="sxs-lookup"><span data-stu-id="0ff98-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="0ff98-122">Noklikšķiniet uz izvēles rūtiņas Drukāt izdošanas sarakstu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="0ff98-123">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0ff98-123">Click OK.</span></span>
-    * <span data-ttu-id="0ff98-124">Tas ir drukāts izdošanas saraksts, kurā norādīti materiāli, ko izmanto ražošanas pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="0ff98-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="0ff98-125">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="9082b-108">Ražošanas pasūtījuma sākšana</span><span class="sxs-lookup"><span data-stu-id="9082b-108">Start a production order</span></span>
+1. <span data-ttu-id="9082b-109">Pārejiet uz sadaļu Ražošanas kontrole > Ražošanas pasūtījumi > Visi ražošanas pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="9082b-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="9082b-110">Atlasiet ražošanas pasūtījumu, kura statuss ir Izlaists.</span><span class="sxs-lookup"><span data-stu-id="9082b-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="9082b-111">Darbības rūtī noklikšķiniet uz vienuma Ražošanas pasūtījums.</span><span class="sxs-lookup"><span data-stu-id="9082b-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="9082b-112">Noklikšķiniet uz Sākt.</span><span class="sxs-lookup"><span data-stu-id="9082b-112">Click Start.</span></span>
+    * <span data-ttu-id="9082b-113">Šajā lapā var apstiprināt ražošanas pasūtījuma uzsākšanu.</span><span class="sxs-lookup"><span data-stu-id="9082b-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="9082b-114">Noklikšķiniet uz cilnes Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="9082b-114">Click the General tab.</span></span>
+5. <span data-ttu-id="9082b-115">Laukā No operācijas Nr.</span><span class="sxs-lookup"><span data-stu-id="9082b-115">In the From Oper.</span></span> <span data-ttu-id="9082b-116">Nr.p.k.</span><span class="sxs-lookup"><span data-stu-id="9082b-116">No.</span></span> <span data-ttu-id="9082b-117">ievadiet vērtību 10.</span><span class="sxs-lookup"><span data-stu-id="9082b-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="9082b-118">Laukā Automātisks maršruta patēriņš atlasiet "Vienmēr".</span><span class="sxs-lookup"><span data-stu-id="9082b-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="9082b-119">Noklikšķiniet uz izvēles rūtiņas Grāmatot maršruta karti tagad.</span><span class="sxs-lookup"><span data-stu-id="9082b-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="9082b-120">Laukā Automātisks MK patēriņš atlasiet "Vienmēr".</span><span class="sxs-lookup"><span data-stu-id="9082b-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="9082b-121">Noklikšķiniet uz izvēles rūtiņas Grāmatot izdošanas sarakstu tagad.</span><span class="sxs-lookup"><span data-stu-id="9082b-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="9082b-122">Noklikšķiniet uz izvēles rūtiņas Drukāt izdošanas sarakstu.</span><span class="sxs-lookup"><span data-stu-id="9082b-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="9082b-123">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="9082b-123">Click OK.</span></span>
+    * <span data-ttu-id="9082b-124">Tas ir drukāts izdošanas saraksts, kurā norādīti materiāli, ko izmanto ražošanas pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="9082b-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="9082b-125">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9082b-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="0ff98-126">Izdošanas saraksta apstiprināšana</span><span class="sxs-lookup"><span data-stu-id="0ff98-126">Validate the picking list</span></span>
-1. <span data-ttu-id="0ff98-127">Darbību rūtī noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="0ff98-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="0ff98-128">Noklikšķiniet uz Izdošanas saraksts.</span><span class="sxs-lookup"><span data-stu-id="0ff98-128">Click Picking list.</span></span>
-3. <span data-ttu-id="0ff98-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="0ff98-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0ff98-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="0ff98-131">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="0ff98-131">Click Edit.</span></span>
-6. <span data-ttu-id="0ff98-132">Laukā Patēriņš ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="0ff98-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="0ff98-133">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="0ff98-133">Click Post.</span></span>
-8. <span data-ttu-id="0ff98-134">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0ff98-134">Click OK.</span></span>
-    * <span data-ttu-id="0ff98-135">Izdošanas saraksta žurnālā tiek grāmatoti ražošanas pasūtījumam patērētie materiāli.</span><span class="sxs-lookup"><span data-stu-id="0ff98-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="0ff98-136">Pirms žurnāla grāmatošanas var veikt korekcijas, ja pastāv starpība starp novērtēto daudzumu un faktisko patērēto daudzumu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="0ff98-137">Noklikšķiniet uz cilnes GridPanel.</span><span class="sxs-lookup"><span data-stu-id="0ff98-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="0ff98-138">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="9082b-126">Izdošanas saraksta apstiprināšana</span><span class="sxs-lookup"><span data-stu-id="9082b-126">Validate the picking list</span></span>
+1. <span data-ttu-id="9082b-127">Darbību rūtī noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="9082b-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="9082b-128">Noklikšķiniet uz Izdošanas saraksts.</span><span class="sxs-lookup"><span data-stu-id="9082b-128">Click Picking list.</span></span>
+3. <span data-ttu-id="9082b-129">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9082b-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="9082b-130">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="9082b-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="9082b-131">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="9082b-131">Click Edit.</span></span>
+6. <span data-ttu-id="9082b-132">Laukā Patēriņš ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="9082b-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="9082b-133">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="9082b-133">Click Post.</span></span>
+8. <span data-ttu-id="9082b-134">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="9082b-134">Click OK.</span></span>
+    * <span data-ttu-id="9082b-135">Izdošanas saraksta žurnālā tiek grāmatoti ražošanas pasūtījumam patērētie materiāli.</span><span class="sxs-lookup"><span data-stu-id="9082b-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="9082b-136">Pirms žurnāla grāmatošanas var veikt korekcijas, ja pastāv starpība starp novērtēto daudzumu un faktisko patērēto daudzumu.</span><span class="sxs-lookup"><span data-stu-id="9082b-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="9082b-137">Noklikšķiniet uz cilnes GridPanel.</span><span class="sxs-lookup"><span data-stu-id="9082b-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="9082b-138">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="9082b-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="0ff98-139">Maršruta kartes žurnāla pārbaude</span><span class="sxs-lookup"><span data-stu-id="0ff98-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="0ff98-140">Darbību rūtī noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="0ff98-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="0ff98-141">Noklikšķiniet uz Maršruta karte.</span><span class="sxs-lookup"><span data-stu-id="0ff98-141">Click Route card.</span></span>
-3. <span data-ttu-id="0ff98-142">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="0ff98-143">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="0ff98-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="0ff98-144">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="0ff98-144">Click Edit.</span></span>
-6. <span data-ttu-id="0ff98-145">Laukā Stundas ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="0ff98-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="0ff98-146">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="0ff98-146">Click Post.</span></span>
-8. <span data-ttu-id="0ff98-147">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0ff98-147">Click OK.</span></span>
-    * <span data-ttu-id="0ff98-148">Maršruta karšu žurnālā tiek reģistrēts uz atsevišķām operācijām patērētais laiks.</span><span class="sxs-lookup"><span data-stu-id="0ff98-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="0ff98-149">Var ziņot arī par labu vai kļūdainu daudzumu.</span><span class="sxs-lookup"><span data-stu-id="0ff98-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="9082b-139">Maršruta kartes žurnāla pārbaude</span><span class="sxs-lookup"><span data-stu-id="9082b-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="9082b-140">Darbību rūtī noklikšķiniet uz Skatīt.</span><span class="sxs-lookup"><span data-stu-id="9082b-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="9082b-141">Noklikšķiniet uz Maršruta karte.</span><span class="sxs-lookup"><span data-stu-id="9082b-141">Click Route card.</span></span>
+3. <span data-ttu-id="9082b-142">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="9082b-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="9082b-143">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="9082b-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="9082b-144">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="9082b-144">Click Edit.</span></span>
+6. <span data-ttu-id="9082b-145">Laukā Stundas ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="9082b-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="9082b-146">Noklikšķiniet uz Grāmatot.</span><span class="sxs-lookup"><span data-stu-id="9082b-146">Click Post.</span></span>
+8. <span data-ttu-id="9082b-147">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="9082b-147">Click OK.</span></span>
+    * <span data-ttu-id="9082b-148">Maršruta karšu žurnālā tiek reģistrēts uz atsevišķām operācijām patērētais laiks.</span><span class="sxs-lookup"><span data-stu-id="9082b-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="9082b-149">Var ziņot arī par labu vai kļūdainu daudzumu.</span><span class="sxs-lookup"><span data-stu-id="9082b-149">Good and error quantity can also be reported.</span></span>  
