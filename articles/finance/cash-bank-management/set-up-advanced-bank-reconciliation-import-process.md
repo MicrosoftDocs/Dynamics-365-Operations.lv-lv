@@ -1,7 +1,7 @@
 ---
 title: Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
 description: Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Microsoft Dynamics 365 Finance. Šajā rakstā ir paskaidrots, kā iestatīt importēšanas funkcionalitāti saviem bankas izrakstiem.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45f997a91701e3fc63278cdba3479dec9dc7a467
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578199"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899670"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Iestatīt detalizētās bankas darbību saskaņošanas importa procesu
 
@@ -36,7 +36,7 @@ Bankas izraksta importēšanas iestatījumi ir dažādi, un tie ir atkarīgi no 
 ## <a name="set-time-zone-preference"></a>Iestatīt laika joslas preferenci
 Konfigurējot bankas izrakstu importēšanas iestatījumus, var būt svarīgi ņemt vērā datuma un laika datu laika joslu importējamos bankas izraksta failos. Pēc noklusējuma tiek pieņemts, ka datuma un laika vērtības jau ir universālajā coordinētajā laikā (UTC) un tāpēc, importējot datus, netiks lietota laika zonas konvertēšana. 
 
-Ir pieejama opcija norādīt laika joslu, ko izmantot datu importēšanai. Šī opcija ir pieejama laikā **Laika joslas preference** katrā **Avota datu formāta detalizēta informācija** lapā (**Datu pārvaldības darbvieta > Konfigurēt datu avotus > Atlasīt datu formātu > Reģionālie iestatījumi** Kopsavilkuma cilnē). Šī jūsu ievadītā laika joslas preference tiks piemērota visiem importējumiem, kas izmanto šo avota datu formātu. Lai importētu datus no vairākām laika zonām, var izveidot tik daudz datu avota formātu, cik nepieciešams.  
+Ir pieejama opcija norādīt laika joslu, ko izmantot datu importēšanai. Šī opcija ir pieejama laukā **Laika joslas preference** katrā **Avota datu formāta detalizēta informācija** lapā (**Datu pārvaldības darbvieta > Konfigurēt datu avotus > Atlasīt datu formātu > Reģionālie iestatījumi** Kopsavilkuma cilnē). Šī jūsu ievadītā laika joslas preference tiks piemērota visiem importējumiem, kas izmanto šo avota datu formātu. Lai importētu datus no vairākām laika zonām, var izveidot tik daudz datu avota formātu, cik nepieciešams.  
 
 Šī laika josla var nebūt tāda pati kā lietotāja vai uzņēmuma laika josla, tāpēc noteikti precizējiet, kādu laika joslu izmanto datuma un laika dati. Iestatot laika joslas preferenci, ieteicams apsvērt šādus punktus. 
 

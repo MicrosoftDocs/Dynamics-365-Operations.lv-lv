@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772562"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893283"
 ---
 # <a name="document-printing-overview"></a>Dokumentu drukāšanas pārskats
 
@@ -52,7 +52,7 @@ Nākamajā tabulā ir aprakstīti trīs primārie drukāšanas scenāriji.
 Tā kā atkarībā no scenārija risinājumi ir dažādi, programmas nodrošina tālāk aprakstītos iebūvētos pakalpojumus un rīkus, lai palīdzētu lietotājiem sasniegt savus mērķus.
 
 - **1. scenārijs** tiek atbalstīts pārlūkprogrammas HTML5 klienta renderēšanā.
-- **2. scenārija** ietvaros tiks izmantotas klienta lietojumprogrammas un Microsoft Office 365 pakalpojumi.
+- **2. scenārijs** izmanto klienta programmas un Microsoft 365 pakalpojumus.
 - **3. scenārijam** ir nepieciešams pakalpojumā Microsoft Azure viesoto pakalpojumu un klienta lietojumprogrammu atbalsts.
 
 Papildus platformai, kas tiek izvietota Azure abonementā, Finance and Operations programmas debitoriem nodrošina integrētu, pirmās puses Azure programmu, kas viņiem palīdz dokumentu drukāšanai vienkāršāk izmantot domēnā viesotas ierīces.

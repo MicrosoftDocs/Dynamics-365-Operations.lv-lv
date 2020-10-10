@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8913fec3e76de0e1f4d10b05804317ada5498e83
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216647"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889845"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -32,7 +32,7 @@ ms.locfileid: "3216647"
 Līdzekļu pārvaldībā ir jāiestata vispārējie parametri, kas attiecas uz līdzekļiem, darba pasūtījumiem un darba pasūtījumu plānošanu. Šajā tēmā ir paskaidrots, kā tos iestatīt. Lai atvērtu lapu, atlasiet **Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļu pārvaldības parametri**.
 
 > [!NOTE]
-> Ja vēlaties iestatīt sistēmu, kas ietver demonstrācijas datus, lai testētu  Līdzekļu pārvaldības līdzekļus, skatiet norādījumus šeit: [Demonstrācijas vides izvietošana](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).
+> Ja vēlaties iestatīt sistēmu, kas ietver demonstrācijas datus, lai testētu Līdzekļu pārvaldības līdzekļus, skatiet norādījumus šeit: [Demonstrācijas vides izvietošana](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).
 
 Saite **Līdzekļi**
 
@@ -71,7 +71,7 @@ Saite **Darba pasūtījumi**
 Saite **Darba pasūtījuma plānošana**
 
 - **Grafika plānošanas periods** nosaka periodu dienās, kas aprēķināts no darba pasūtījuma paredzamā sākuma datuma, kura laikā darba pasūtījuma darbi tiek plānoti.  
-- **Vispārējais plāns** attiecas uz resursiem modulī **Organizācijas administrēšana**. Atlasot vispārējo plānu šajā laukā, var redzēt noslodzes rezervācijas, kas saistītas ar darba pasūtījumiem **Noslodzes rezervācijās** (**Organizācijas administrēšana** > **Resursi** > **Resursi** > atlasiet resursu > cilni **Resurss** > pogu **Noslodzes rezervācijas**). Atatājot šo lauku tukšu, var redzēt noslodzi, kas saistīta ar darba pasūtījumiem **Noslodzē** (**Organizācijas administrēšana** \> **Resursi** \> **Resursi** \> atlasiet resursu \> cilni **Resurss** \> pogu **Noslodze**).  
+- **Vispārējais plāns** attiecas uz resursiem modulī **Organizācijas administrēšana**. Atlasot vispārējo plānu šajā laukā, var redzēt noslodzes rezervācijas, kas saistītas ar darba pasūtījumiem **Noslodzes rezervācijās** (**Organizācijas administrēšana** > **Resursi** > **Resursi** > atlasiet resursu > cilni **Resurss** > pogu **Noslodzes rezervācijas** ). Atatājot šo lauku tukšu, var redzēt noslodzi, kas saistīta ar darba pasūtījumiem **Noslodzē** (**Organizācijas administrēšana** \> **Resursi** \> **Resursi** \> atlasiet resursu \> cilni **Resurss** \> pogu **Noslodze** ).  
 
 >[!NOTE]
 >Atlase attiecībā uz vispārējā plāna izmantošanu modulī **Līdzekļu pārvaldība** un saistītā veidlapa, kas tiek izmantota, lai iegūtu pārskatu par noslodzes rezervācijām vai noslodzi, ir standarta iestatīšana. Atkarībā no iestatījuma laukā **Vispārējais plāns**, jūs varat piekļūt noslodzes informācijai **Noslodzes rezervācijās** vai **Noslodzē** modulī **Organizācijas administrēšana**. Nav iespējams izveidot iestatījumu, kurā noslodzes rezervācijas tiek rādītas abos skatos.  
@@ -80,7 +80,7 @@ Zemāk redzamajā sarakstā aprakstītie lauki attiecas uz aprēķinātiem vērt
 
 - **Prioritāte** — vērtējuma rādītājs, kas aprēķināts kopā ar vērtējuma rezultātu laukos **Kritiskums** un **Sākuma datums**. Skaitlis šajā laukā tiek dalīts ar skaitli darba pasūtījuma laukā **Prioritāte**. Piemēram, ja šajā laukā tiek ievietota vērtība "5,00" un darba pasūtījuma prioritāte ir "20", tad prioritātes vērtējuma rādītājs ir 0,25.  
 - **Kritiskums** — vērtējuma rādītājs, kas aprēķināts kopā ar vērtējuma rezultātu laukos **Prioritāte** un **Sākuma datums**. Skaitlis šajā laukā tiek reizināts ar skaitli darba pasūtījuma laukā **Kritiskums**. Piemēram, ja šajā laukā tiek ievietota vērtība "10,00" un darba pasūtījuma prioritāte ir "5", tad kritiskuma vērtējuma rādītājs ir 50.  
-- **Sākuma datums** — vērtējuma rādītājs, kas aprēķināts kopā ar vērtējuma rezultātu laukos **Prioritāte** un **Kritiskums**. Šis lauks norāda dienas rezultātu kā negatīvu vērtību un tiek salīdzināts ar darba pasūtījuma lauku **Paredzamais sākums**. Piemēram, ja šajā laukā tiek ievietota vērtība "10,00" un darba pasūtījuma paredzamais sākuma datums ir trīs dienas no šī brīža, vērtējuma rezultāts ir mīnus 30,00. Pievienojot rezultātus 0,25 un 50 no piemēriem iepriekš aprakstītos laukos **Prioritāte** un **Kritiskums**  kopumā ir plus 20,25. Šis skaitlis tiek salīdzināts ar visiem pārējiem darba pasūtījumu vērtējuma rezultātiem darba pasūtījumu plānošanas laikā, un pēc tam vispirms tiek plānoti augstākā vērtējuma rādītāji.  
+- **Sākuma datums** — vērtējuma rādītājs, kas aprēķināts kopā ar vērtējuma rezultātu laukos **Prioritāte** un **Kritiskums**. Šis lauks norāda dienas rezultātu kā negatīvu vērtību un tiek salīdzināts ar darba pasūtījuma lauku **Paredzamais sākums**. Piemēram, ja šajā laukā tiek ievietota vērtība "10,00" un darba pasūtījuma paredzamais sākuma datums ir trīs dienas no šī brīža, vērtējuma rezultāts ir mīnus 30,00. Pievienojot rezultātus 0,25 un 50 no piemēriem iepriekš aprakstītos laukos **Prioritāte** un **Kritiskums** kopumā ir plus 20,25. Šis skaitlis tiek salīdzināts ar visiem pārējiem darba pasūtījumu vērtējuma rezultātiem darba pasūtījumu plānošanas laikā, un pēc tam vispirms tiek plānoti augstākā vērtējuma rādītāji.  
 - **Atbildīgais darbinieks** — vērtējuma rādītājs, kas aprēķināts kopā ar **Atbildīgā darbinieka**, **Vēlamā darbinieka**, **Vēlamo darbinieku grupas**, **Līdzekļa atrašanās vietas** un **Sākuma datuma** vērtējuma rādītāju vērtībām. Ja šajā laukā tiek ievietota vērtība "50,00" un darba pasūtījumam ir atlasīts atbildīgais darbinieks, šis darbinieks kopējā darbinieku aprēķinā darba pasūtījuma plānošanas laikā saņem 50 punktus.  
 - **Atbildīgā darbinieku grupa** — vērtējuma rādītājs, kas aprēķināts kopā ar **Atbildīgā darbinieka**, **Vēlamā darbinieka**, **Vēlamo darbinieku grupas**, **Līdzekļa atrašanās vietas** un **Sākuma datuma** vērtējuma rādītāju vērtībām. Ja šajā laukā tiek ievietota vērtība "50,00" un darba pasūtījumam ir atlasīts atbildīgais darbinieks, šis darbinieks kopējā darbinieku aprēķinā darba pasūtījuma plānošanas laikā saņem 50 punktus.  
 - **Ierobežot līdz atbildīgajam** Jā/Nē pārslēgšanas poga ierobežo darba pasūtījuma plānošanai pieejamo darbinieku skaitu. Atlasiet **Nē**, ja vēlaties aprēķināt rezultātu visiem darbiniekiem neatkarīgi no tā, vai tie ir iestatīti kā atbildīgie darbinieki vai kā daļa no atbildīgās darbinieku grupas. Atlasiet **Jā**, ja vēlaties aprēķināt rezultātu darbiniekiem, kuri darba pasūtījumā ir iestatīti kā atbildīgi darbinieki un/vai iekļauti darba pasūtījumam atlasītajā atbildīgajā darbinieku grupā.  

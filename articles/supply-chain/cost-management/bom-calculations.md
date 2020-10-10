@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, ProdSetupCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 6e83d438f4f1a913bfa86827d7ba0c1d9366030f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f90e5babb440a2226638f7d96f111816732f0e70
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202012"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826770"
 ---
 # <a name="bom-calculations"></a>BOM aprēķini
 
@@ -76,14 +76,14 @@ MK aprēķini ģenerē brīdinājuma ziņojumus un cita veida ziņojumus. Vairā
 ## <a name="bom-calculations-that-use-the-fallback-principle"></a>MK aprēķini, kas izmanto regresa principu
 Tālāk aprakstītas situācijas, kas ilustrē divus rezerves principa lietošanas gadījumus:
 
--   **Divu versiju pieeja standarta izmaksu atjauninājumiem** — izmaksu novērtēšanas versijā var būt iekļautas pieaugošas izmaiņas standartu izmaksās, piemēram, gaidošie izmaksu ieraksti, kas atspoguļo jaunus krājumus vai izmaksu izmaiņas. Šādā situācijā regresa princips var noteikt citās izmaksu novērtēšanas versijās iekļauto aktīvo standarta izmaksu izmantošanu.
--   **Izmaksu izmaiņu ietekmes simulācija, izmantojot plānotās izmaksas** — izmaksu novērtēšanas versijā plānotajām izmaksām var būt iekļautas pieaugošas izmaiņas simulācijas mērķiem. Šajā izmaksu novērtēšanas versijā būs iekļauti gaidošie izmaksu ieraksti, kas atspoguļo simulētās izmaksu izmaiņas krājumos, izmaksu kategorijās un netiešo izmaksu aprēķinu formulās. Šādā situācijā regresa princips var noteikt citās izmaksu novērtēšanas versijās iekļauto aktīvo standarta izmaksu izmantošanu.
+-   **Divu versiju pieeja standarta izmaksu atjauninājumiem** - izmaksu novērtēšanas versijā var būt iekļautas pieaugošas izmaiņas standartu izmaksās, piemēram, gaidošie izmaksu ieraksti, kas atspoguļo jaunus krājumus vai izmaksu izmaiņas. Šādā situācijā regresa princips var noteikt citās izmaksu novērtēšanas versijās iekļauto aktīvo standarta izmaksu izmantošanu.
+-   **Izmaksu izmaiņu ietekmes simulācija, izmantojot plānotās izmaksas** - izmaksu novērtēšanas versijā plānotajām izmaksām var būt iekļautas pieaugošas izmaiņas simulācijas mērķiem. Šajā izmaksu novērtēšanas versijā būs iekļauti gaidošie izmaksu ieraksti, kas atspoguļo simulētās izmaksu izmaiņas krājumos, izmaksu kategorijās un netiešo izmaksu aprēķinu formulās. Šādā situācijā regresa princips var noteikt citās izmaksu novērtēšanas versijās iekļauto aktīvo standarta izmaksu izmantošanu.
 
 ## <a name="bom-calculation-of-a-suggested-sales-price"></a>Ieteiktās pārdošanas cenas MK aprēķins
 Izmantojot izmaksu un uzcenojumu pieeju, aprēķinātā krājuma pārdošanas cena parāda peļņas koeficenta procentu likmes kopu, kas ir norādīta MK aprēķinam, un izmaksas, kas saistītas ar tā komponenta vienībām, maršrutēšanas operācijām un piemērojamajiem ražošanas papildu izdevumiem. Uzcenojums parāda peļņas koeficenta procentu likmes, kas ir piešķirtas izmaksu grupām, un izmaksu grupas, kas ir piešķirtas krājumiem, izmaksu kategorijas maršrutēšanas operācijām un netiešo izmaksu aprēķinu formulas ražošanas papildu izdevumiem. Peļņas koeficentu procentu likmju kopas ir apzīmētas kā **Standarta**, **Peļņa 1**, **Peļņa 2** un **Peļņa 3**. Piemēram, kopā “Peļņa 1” peļņas koeficenta procentu likme ar 50 procentiem varētu tikt noteikta izmaksu grupai, kas piešķirta iegādātajam materiālam, un peļņas koeficenta procentu likme ar 80 procentiem varētu būt noteikta izmaksu grupai, kas piešķirta izmaksu kategorijām maršrutēšanas operācijām. MK aprēķinu konteksts nosaka aprēķinātās pārdošanas cenas rezultātu pielietošanu:
 
--   **MK aprēķins krājumam un noteiktā izmaksu novērtēšanas versija** — MK aprēķins ģenerē gaidošu pārdošanas cenas ierakstu izmaksu novērtēšanas versijas ietvaros. Šis pārdošanas cenas ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas**). Galvenokārt pārdošanas cenas ieraksts darbojas kā atsauces informācija un tas netiek izmantots kā pārdošanas cenas pamats pārdošanas pasūtījumos.
--   **Noteikta pasūtījuma MK aprēķins** — lapas **MK aprēķins** variācija tiek izmantota saistībā ar pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementu. Izmaksu novērtēšanas versijas ietvaros noteikta pasūtījuma MK aprēķins neģenerē ierakstu. Tā vietā tiek izveidots aprēķina ieraksts, kas parādās lapā **MK aprēķina rezultāti**. Šis aprēķina ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas**). Informāciju par izvēlēto aprēķina ierakstu var pārsūtīt uz sākotnējo rindas elementu. Piemēram, aprēķināto pārdošanas cenu var pārsūtīt uz pārdošanas pasūtījuma rindas elementu.
+-   **MK aprēķins krājumam un noteiktā izmaksu novērtēšanas versija** - MK aprēķins ģenerē gaidošu pārdošanas cenas ierakstu izmaksu novērtēšanas versijas ietvaros. Šis pārdošanas cenas ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas** ). Galvenokārt pārdošanas cenas ieraksts darbojas kā atsauces informācija un tas netiek izmantots kā pārdošanas cenas pamats pārdošanas pasūtījumos.
+-   **Noteikta pasūtījuma MK aprēķins** - lapas **MK aprēķins**variācija tiek izmantota saistībā ar pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementu. Izmaksu novērtēšanas versijas ietvaros noteikta pasūtījuma MK aprēķins neģenerē ierakstu. Tā vietā tiek izveidots aprēķina ieraksts, kas parādās lapā **MK aprēķina rezultāti**. Šis aprēķina ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas** ). Informāciju par izvēlēto aprēķina ierakstu var pārsūtīt uz sākotnējo rindas elementu. Piemēram, aprēķināto pārdošanas cenu var pārsūtīt uz pārdošanas pasūtījuma rindas elementu.
 
 ## <a name="order-specific-bom-calculations"></a>Noteikta pasūtījuma MK aprēķini
 Pasūtījuma MK aprēķina pamatā ir ražota krājuma MK aprēķins. Noteikta pasūtījuma MK aprēķins tiek veikts pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementa kontekstā. Noteikta pasūtījuma MK aprēķins ģenerē aprēķina ierakstu, kas parādās lapā **MK aprēķinu rezultāti**. Aprēķina ierakstā ir iekļauts aprēķinātais svars, aprēķināšanas izmaksas, kuru pamatā ir aktīvie izmaksu ieraksti, un aprēķinātā pārdošanas cena. Aprēķina ierakstu, kuru ģenerē katrs noteikta pasūtījuma MK aprēķins attiecīgajam krājumam lapā **MK aprēķina rezultāti**, unikāli identificē aprēķina numurs. Aprēķina ieraksta rezultāti pēc izvēles var tikt pārsūtīti uz rindas elementu, kas ir to pamatā. Noteikta pasūtījuma MK aprēķins atšķiras no ražota krājuma MK aprēķina divos veidos:

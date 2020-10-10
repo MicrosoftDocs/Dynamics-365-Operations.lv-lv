@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203459"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834264"
 ---
 # <a name="vendor-rebates"></a>Kreditora atlaides
+
 [!include [banner](../includes/banner.md)]
 
 Kreditoru atlaides uzņēmumiem palīdz labāk pārvaldīt savu piegādātāju atlaižu programmas, automatizējot nopelnīto atlaižu administrēšanai, izsekošanai un pieprasīšanai nepieciešamos uzdevumus.
@@ -50,6 +51,7 @@ Cilvēki šajos amatos meklē veidus, kā sasniegt dažādus mērķus. Daži pie
 - Izmantot kvantitatīvu pamatu pašreizējām un turpmākām pārrunām ar kreditoriem saistībā ar atlaidēm.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Kreditora atlaižu līguma detalizētas informācijas pārskatīšana
+
 Kreditora atlaižu līgums ir ieraksts par līgumu ar kreditoru, kur ir norādīti norunātie termiņi un nosacījumi, saskaņā ar kuriem uzņēmums kvalificējas naudas atlīdzībai par iepriekš noteikto pirkšanas mērķu sasniegšanu. Kreditoru atlaižu līgumi tiek reģistrēti lapā **Atlaižu līgumi**.
 
 Lai atvērtu lapu **Kreditoru atlaižu līgumi**, atlasiet **Sagāde un avoti** &gt; **Kreditoru atlaides** &gt; **Atlaižu līgumi**.
@@ -60,7 +62,9 @@ Lapā **Kreditoru atlaižu līgumi** varat redzēt detalizētu informāciju par 
 
 Līguma virsrakstā ir norādīti vispārīgie nosacījumi, kas uzņēmumu padara par piemērotu atlaižu saņemšanai. Faktiski virsraksta informācijā ir norādīts, ka kreditors piešķir atlaidi, kad konkrētas preces tiek nopirktas noteiktā daudzumā. Virsrakstā varat norādīt arī mērvienības atlaides opciju un aprēķina datuma tipu.
 
-- Cilnes **Vispārīgi** laukā **Mērvienības atlaides opcija** varat definēt, vai mērvienība ir jāizmanto kā nosacījums, lai pirkšanas pasūtījuma rinda kvalificētos atlaides prasībai. 
+- Ja cilnē **Pārskats** ir rindas **Krājuma kods**, kas iestatītas uz *tabula*, lai norādītu krājumu, tad līgums ir paredzēts šim konkrētajam krājumam. Ja rindas **Krājuma kods** ir iestatītas uz *Grupa* vai *Visi*, lai norādītu krājumus, tad kreditora atlaides līgums tiks individuāli apstrādāts katram krājumam, kas atbilsts krājuma kodam, nevis visiem krājumiem, kas ir atbilstoši krājuma kodam.
+
+- Cilnes **Vispārīgi** laukā **Mērvienības atlaides opcija** varat definēt, vai mērvienība ir jāizmanto kā nosacījums, lai pirkšanas pasūtījuma rinda kvalificētos atlaides prasībai.
 
     - **Konvertēt** — pirkšanas pasūtījuma rinda kvalificējas kreditora atlaidei saskaņā ar atlaižu līgumu. Jūs saņemsit atlaidi neatkarīgi no rindai lietotās mērvienības.
     - **Precīza atbilstība** — lai varētu saņemt atlaidi, pirkšanas rindā ir jābūt tādai pašai mērvienībai, kāda ir norādīta līgumā.
@@ -97,6 +101,7 @@ Līguma rindās kreditora atlaižu līgumu varat norādīt detalizētāk.
 Ja pirkšanas pasūtījumi tiek veikti kādam kreditoram, ar kuru uzņēmumam ir noslēgts atlaižu līgums, tad programma identificē visus turpmākos kreditora kredīta maksājumus. Ja pirkšanas pasūtījumi kvalificējas atlaižu saņemšanai, tad atlaižu prasība tiek ģenerēta par katru pasūtījuma rindu, tiklīdz pirkšanas rēķins ir iegrāmatots. Šis ir automātisks process. Vēlāk varat pārskatīt prognozētās atlaides un redzēt šo atlaižu ietekmi uz preces izmaksām un peļņas normu.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Detalizētas informācijas skatīšana par atlaidēm, kas pirkšanas pasūtījuma rindai tiek piemērotas saskaņā ar kreditora atlaižu līgumu
+
 1. Lapā **Pirkšanas pasūtījums** atlasiet kādu pasūtījuma rindu un pēc tam atlasiet **Pirkšanas pasūtījuma rinda** &gt; **Skatīt** &gt; **Detalizēta informācija par cenu**.
 2. Lapā **Detalizēta informācija par cenu** atlasiet kopsavilkuma cilni **Atlaides**.
 
@@ -106,15 +111,18 @@ Ja pirkšanas pasūtījumi tiek veikti kādam kreditoram, ar kuru uzņēmumam ir
 > Lapas **Sagādes un avotu parametri** cilnē **Cenas** pārliecinieties, vai opcija **Iespējot detalizētu informāciju par cenu** ir iestatīta uz **Jā**. Ja šī opcija ir iestatīta uz **Nē**, tad atlaides nevarēsit apskatīt.
 
 ## <a name="review-and-approve-claims"></a>Prasību pārskatīšana un apstiprināšana
+
 Ģenerētās atlaižu prasības pārstāv nākotnes maksājumus, kas ir gaidāmi no attiecīgā kreditora. Pirms kredīta notas izsniegšanas kreditoram līguma īpašnieks parasti vēlas pārskatīt prasības un tās apstiprināt. Taču ņemiet vērā, ka prasības statuss nosaka, vai prasība ir gatava apstiprināšanas procesa veikšanai.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Prasību statuss un ietekme uz apstiprināšanas procesu
+
 Kad prasīta tiek ģenerēta, tās statuss tiek iestatīts uz **Jāaprēķina**, ja atlaide tiek piešķirta, pamatojoties uz uzkrājumu, vai uz **Aprēķināts**, ja atlaide tiek piešķirta pēc rēķina. Ja prasības statuss ir **Jāaprēķina**, tad šai prasībai ir jāiziet aprēķināšanas process, kuru izpilda uzkrāšanas funkcija. Apstiprinājuma procesā var ietvert tikai prasības, kuru statuss ir **Aprēķināts**.
 
 > [!NOTE]
 > Ja kreditora atlaižu līgumā opcija **Nepieciešams apstiprinājums** ir iestatīta uz **Nē**, tad visām ģenerētajām prasībām būs statuss **Apstiprināts**. Apstiprinājums ir obligāts prasībām, kuras tiek piešķirtas uz uzkrājuma pamata.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Prasību apstiprināšana un detalizētas rēķina informācijas skatīšana
+
 Kad prasības ir apstiprinātas, tās var apstrādāt ar moduli Parādi kreditoriem (Accounts payable — A/P). Automātiski tiek ģenerēts kredītrēķins (kreditora rēķins) par atlaides prasības summu. Šo kredītu pēc tam var pieskaitīt kreditora bilancei, un A/P darba grupa to var ietvert parastajā segšanas procesā.
 
 1. Lai atvērtu atlaižu prasību, atlasiet **Sagāde un avoti** &gt; **Kreditoru atlaides** &gt; **Atlaižu prasības**.
@@ -153,6 +161,7 @@ Kad prasības ir apstiprinātas, tās var apstrādāt ar moduli Parādi kreditor
 9. Lapā **Visi kreditori** atlasiet kreditoru, no kura jūs saņemat atlaidi, un pēc tam darbību rūtī atlasiet **Transakcijas**. Atrodiet šī rēķina rindu. Atlaižu summa tagad ir pieskaitīta kreditora bilancei.
 
 ## <a name="summary"></a>Kopsavilkums
+
 Kreditoru atlaižu apstrādes process ietver vairākus manuālus izsekošanas uzdevumus, kas bieži vien ir garlaicīgi. Automatizējot šos uzdevumus, kreditoru atlaižu pārvaldības līdzeklis jums var palīdzēt izpildīt tālāk norādītos procesus.
 
 - Uzkrāto atlaižu prasību ģenerēšana

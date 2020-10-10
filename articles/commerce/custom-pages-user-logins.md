@@ -3,7 +3,7 @@ title: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce izveidot pielāgotas lapas, kas apstrādā Azure Active Directory (Azure AD) bizness–patērētājs (B2C) nomnieku lietotāju pielāgotas pierakstīšanās gadījumus.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533463"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817310"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 
@@ -64,7 +64,7 @@ Lai konfigurētu "Parakstīšanās un pierakstīšanās" politiku, veiciet tāl�
     ![Jaunās politikas rekvizītu lapa](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
-> Politikas nosaukums būs pilnībā raksturots Commerce vidē. (**B2C\_1\_** prefikss tiks iekļauts raksturojumā.) Politikas nevar pārdēvēt pēc tam, kad tās izveidotas. Ja aizstājat esošu politiku savai Commerce videi, varat izdzēst sākotnējo politiku un izveidot jaunu politiku ar tādu pašu nosaukumu. Vai arī, ja vide jau ir nodrošināta, varat iesniegt jauno politikas nosaukumu, izmantojot pakalpojuma pieprasījumu.
+> Politikas nosaukums būs pilnībā raksturots Commerce vidē. (Prefikss **B2C\_1\_** tiks iekļauts raksturojumā.) Politikas nevar pārdēvēt pēc tam, kad tās izveidotas. Ja aizstājat esošu politiku savai Commerce videi, varat izdzēst sākotnējo politiku un izveidot jaunu politiku ar tādu pašu nosaukumu. Vai arī, ja vide jau ir nodrošināta, varat iesniegt jauno politikas nosaukumu, izmantojot pakalpojuma pieprasījumu.
 
 Pēc pielāgoto lapu izveidošanas jūs atgriezīsieties pie šīs politikas, lai pabeigtu iestatīšanu. Pagaidām aizveriet politiku, lai atgrieztos Azure portāla lapā **Lietotāja plūsmas (politikas)**.
 
@@ -181,13 +181,13 @@ Lai atjauninātu "Paroles atiestatīšanas" politiku ar pielāgotu lapas inform�
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Etiķetēm un aprakstiem paredzētu noklusējuma teksta virkņu pielāgošana
 
-Sākuma komplektā pierakstīšanās moduļi ir iepriekš aizpildīti ar etiķetēm un aprakstiem paredzētām noklusējuma teksta virknēm. Programmatūras izstrādes komplektā (SDK) varat pielāgot šīs virknes, atjauninot vērtības global.json failā, kas paredzēts, lai pierakstītos modulī.
+Moduļa bibliotēkā pierakstīšanās moduļi ir iepriekš aizpildīti ar etiķetēm un aprakstiem paredzētām noklusējuma teksta virknēm. Programmatūras izstrādes komplektā (SDK) varat pielāgot šīs virknes, atjauninot vērtības global.json failā, kas paredzēts, lai pierakstītos modulī.
 
 Piemēram, aizmirstās paroles saites noklusējuma teksts ir **Aizmirsta parole?**. Tālāk parādīts šis noklusējuma teksts pierakstīšanās lapā.
 
 ![Noklusējuma teksts aizmirstas paroles saitei pierakstīšanās lapā](./media/B2C_SignUp_ModuleFace.png)
 
-Tomēr sākuma komplekta pierakstīšanās moduļa global.json failā varat rediģēt tekstu, lai būtu **Aizmirsāt paroli?**, kā parādīts tālāk redzamajā ilustrācijā.
+Tomēr moduļa bibliotēkas pierakstīšanās moduļa global.json failā varat rediģēt tekstu, lai būtu **Aizmirsāt paroli?**, kā parādīts tālāk redzamajā ilustrācijā.
 
 ![Atjauninātais saites teksts pierakstīšanās moduļa global.json failā](./media/B2C_CustomizingStringsForModule.png)
 

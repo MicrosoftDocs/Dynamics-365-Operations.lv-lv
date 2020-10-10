@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761133"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818279"
 ---
 # <a name="cart-module"></a>Groza modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šī tēma ietver groza moduļus un apraksta, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
@@ -41,15 +40,15 @@ Groza modulis atveido datus, pamatojoties uz groza ID, kas ir visā vietnē piee
 
 Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē.
 
-![Groza moduļa piemērs](./media/cart2.PNG)
+![Groza moduļa piemērs Fabrikam vietnē](./media/cart2.PNG)
 
 Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē. Šajā piemērā ir norādīta papildmaksa par rindas krājumu.
 
-![Groza moduļa piemērs](./media/ecommerce-handling-fee.png)
+![Groza moduļa piemērs ar apstrādes komisiju rindas krājumam](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Groza moduļa rekvizīti un sloti
 
-| Rekvizīts | Vērtības | apraksts |
+| Rekvizīts | Vērtības | Apraksts |
 |----------------|--------|-------------|
 | Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Groza virsraksts, piemēram, "Iepirkumu soma", vai "Preces jūsu grozā". |
 | Rādīt “Nav krājumā” kļūdas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza lapā būs redzamas ar krājumu saistītas kļūdas. Ieteicams iestatīt šo rekvizītu kā **Patiess**, ja vietnē tiek lietotas krājumu pārbaudes. |

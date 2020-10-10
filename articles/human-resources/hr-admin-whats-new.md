@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: d8f70e7aa7316241adbbde6c4188c2ae0e640633
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760305"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823531"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
@@ -49,6 +49,7 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 Lai uzzinātu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
+[2020. gada 16. septembris](hr-whats-new-2020-09-16.md)</br>
 [2020. gada 3. septembris](hr-whats-new-2020-09-03.md)</br>
 [2020. gada 20. augusts](hr-whats-new-2020-08-20.md)</br>
 [2020. gada 6. augusts](hr-whats-new-2020-08-06.md)</br>

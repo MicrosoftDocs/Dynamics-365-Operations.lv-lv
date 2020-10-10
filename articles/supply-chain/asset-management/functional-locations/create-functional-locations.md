@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8ba905224fbbcc5db95820e2b228a0d478e6146
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205409"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888839"
 ---
 # <a name="create-functional-locations"></a>Izveidot funkcionālos novietojumus
 
@@ -87,7 +87,7 @@ Plašāku informāciju par līdzekļu uzstādīšanu skatiet sadaļā [Līdzekļ
 Šeit varat funkcionālajam novietojumam pievienot uzturēšanas plānus un uzturēšanas ciklus, ieskaitot sākuma datumu. Līdzekļiem, kas uzstādīti funkcionālajā novietojumā, var būt iestatīti citi uzturēšanas plāni. Visus uzturēšanas plānus un uzturēšanas ciklus var izmantot, lai plānotu līdzekļu kalendāra ierakstus funkcionālajam novietojumam un pašlaik tajā uzstādītajiem līdzekļiem.
 
 >[!NOTE]
->Ja atjaunināt līdzekļu veidu, līdzekļu zīmolu un līdzekļu modeļu iestatīšanu uzturēšanas plānos detalizētas informācijas skatā **Visi funkcionālie novietojumi**  > kopsavilkuma cilnā **Uzturēšanas plāni** pēc tam, kad esat ieplānojis uzturēšanas plānus, esošie ar šo funkcionālo novietojumu saistītie uzturēšanas grafika ieraksti tiek automātiski dzēsti. Lai izveidotu jaunus grafika ierakstus, kas atbilst atjauninātajam uzturēšanas plāna iestatījumam funkcionālajā novietojumā, ir jāpalaiž jauns uzturēšanas plāna grafiks minētajam funkcionālajam novietojumam. 
+>Ja atjaunināt līdzekļu veidu, līdzekļu zīmolu un līdzekļu modeļu iestatīšanu uzturēšanas plānos detalizētas informācijas skatā **Visi funkcionālie novietojumi** > kopsavilkuma cilnā **Uzturēšanas plāni** pēc tam, kad esat ieplānojis uzturēšanas plānus, esošie ar šo funkcionālo novietojumu saistītie uzturēšanas grafika ieraksti tiek automātiski dzēsti. Lai izveidotu jaunus grafika ierakstus, kas atbilst atjauninātajam uzturēšanas plāna iestatījumam funkcionālajā novietojumā, ir jāpalaiž jauns uzturēšanas plāna grafiks minētajam funkcionālajam novietojumam. 
 
 ## <a name="address"></a>Adrese
 

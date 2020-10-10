@@ -1,14 +1,14 @@
 ---
 title: Preces dimensijas
 description: Pastāv piecas preču dimensijas - krāsa, konfigurācija, izmērs, stils un versija. Preču dimensijas var apvienot dimensiju grupās, un dimensiju grupas var piešķirt preču šabloniem. Preču dimensiju kombinācijas nosaka, kā tiek definēti preču varianti.
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657320"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895453"
 ---
 # <a name="product-dimensions"></a>Preces dimensijas
 
@@ -55,8 +55,8 @@ Preces versijas parasti tiek veidotas noteiktām versijām, jo prece attīstās 
 Preces dimensijas var izveidot un uzturēt arī lapā **Preces dimensijas**, kam var piekļūt tālāk norādītajās vietās.
 
 - Dodieties uz **Preču informācijas pārvaldība \> Produkts \> Produktu šabloni**. Darbību rūtī atlasiet **Preču dimensijas**.
-- Dodieties uz **Preču informācijas pārvaldība \> Preces \> Visas preces un preču šabloni**. Atlasiet preces šablonu. Darbību rūtī atlasiet **Preču dimensijas**.
-- Dodieties uz **Preču informācijas pārvaldība \> Izlaistās preces**. Atlasiet preces šablonu. Darbību rūtī grupas **Preces šablons** cilnē **Prece** atlasiet **Preces dimensijas**.
+- Dodieties uz **Preču informācijas pārvaldība \> Preces \> Visas preces un preču šabloni**. Atlasiet preces šablonu. Darbību rūtī atlasiet **Preču dimensijas**.
+- Dodieties uz **Preču informācijas pārvaldība \> Izlaistās preces**. Atlasiet preces šablonu. Darbību rūtī grupas **Preces šablons** cilnē **Prece** atlasiet **Preces dimensijas**.
 
 Krājumam izveidojamo variantu skaitu ierobežo iespējamo preču dimensiju kombināciju skaits.
 
@@ -107,7 +107,7 @@ Kad pārbaudāt savu risinājumu saderību ar versijas dimensiju, meklējiet š�
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Kartes:** ja kāda karte izmanto krājumu dimensijas, atbilstošais relāciju kartējums uz šīm kartēm ir jāatjaunina, lai tās ietvertu versijas dimensiju. Paplašinātajā modelī vai tabulas paplašinājumiem skatiet tabulas, kurās lauki ietver krājumu dimensijas.
-1. **Microsoft Dynamics 365 Commerce funkcionalitāte:** pēc tam, kad tā ir ieslēgta, versijas dimensija tiks rādīta visā Commerce noteiktajā kodā Dynamics 365 Supply Chain Management. Tomēr versijas dimensiju vēl neatbalsta Commerce Channel datu bāze vai pārdošanas punkta (POS) programmas. Šī uzvedība atgādina pašreizējo konfigurācijas dimensijas uzvedību programmā Commerce.
+1. **Microsoft Dynamics 365 Commerce funkcionalitāte:** pēc tam, kad tā ir ieslēgta, versijas dimensija tiks rādīta visā Commerce noteiktajā kodā Dynamics 365 Supply Chain Management. Tomēr versijas dimensiju vēl neatbalsta Commerce kanāla datu bāze vai pārdošanas punktā (POS), vai e-komercijas programmas. Šīs ar Commerce saistītās programmas neatbalstīs lietotājus, kas pārdod/nosūta vai atgriež/saņem krājumus pēc versijas dimensijas. Krājumu pieejamības uzmeklēšanas funkcijas neatšķir krājumu, izmantojot versijas dimensiju Commerce programmās. Šī uzvedība atgādina pašreizējo konfigurācijas dimensijas uzvedību programmā Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Ieslēdziet versijas dimensiju
 

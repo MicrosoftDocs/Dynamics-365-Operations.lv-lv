@@ -3,7 +3,7 @@ title: Veicināšanas reklāmkarogu modulis
 description: Šajā tēmā tiek stāstīts par veicināšanas reklāmlogu moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411369"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817258"
 ---
 # <a name="promo-banner-module"></a>Veicināšanas reklāmkarogu modulis
 
@@ -59,7 +59,7 @@ Attēlā zemāk ir parādīts veicināšanas reklāmkaroga piemērs.
 |---------------------------|------------------------------------|-------------|
 | Reklāmkaroga ziņojumi           | Teksts un saites                     | Teksta un saišu masīvs. |
 | Automātiskā atskaņošana                  | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai ziņojumi tiek automātiski iestatīti, ja ir konfigurēti vairāki ziņojumi. |
-|  Slaidu pārejas intervāls | Milisekunžu skaits (ms)      | Intervāls, ko izmanto, lai pārlūkotu ziņojumus. |
+| Slaidu pārejas intervāls | Milisekunžu skaits (ms)      | Intervāls, ko izmanto, lai pārlūkotu ziņojumus. |
 | Atļaut noraidīšanu             | **Patiess** vai **Nepatiess**              | Ja vērtība ir iestatīta uz **Patiess**, debitori var noraidīt brīdinājumu. |
 | Rādīt karuseļveida ziņojumu     | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai karuseļa paziņojumi ir jārāda, lai klienti varētu manuāli pārvietoties pa vairākiem reklāmkaroga vienumiem. |
 | Teksta līdzinājums            | **Pa labi**, **Pa kreisi** vai **Centrā** | Teksta līdzinājums veicināšanas reklāmkaroga modulī. |
@@ -87,7 +87,7 @@ Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepi
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Karuseļa modulis](add-carousel.md)
 

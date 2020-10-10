@@ -3,7 +3,7 @@ title: Finanšu pārskatu veidošanas apskats
 description: Šajā tēmā ir aprakstīts, kur var piekļūt finanšu pārskatiem programmā Microsoft Dynamics 365 Finance un kā lietot finanšu pārskatu izveides iespējas.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696692"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835114"
 ---
 # <a name="get-started-with-financial-reporting"></a>Sākt darbu ar Financial reporting 
 
@@ -148,9 +148,7 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 * Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes un pēc tam atlasiet **Vietnes**. Sadaļā **Vietnes pievienošana zonai** ievadiet “\*\.dynamics.com” (bez pēdiņām) un pēc tam atlasiet **Pievienot**. 
 * Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes. Apgabalā ar nosaukumu Šīs zonas drošības līmenis, mainiet opciju uz **Vidēji zems**.
 * Atspējojiet uznirstošo elementu bloķētāju savā pārlūkprogrammā.
-* Darbstacijām ir nepieciešams instalēt Visual Studio .NET 4.6.2 vai jaunāku versiju.
-
-Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345).
+* Darbstacijām ir nepieciešams instalēt Microsoft .NET Framework 4.6.2 vai jaunāku versiju. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345).
 * Lietojot pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmam. Ja nevarat pieteikties, izmantojot pārlūkprogrammu Chrome, izpildiet 1. problēmā aprakstītās iestatīšanas darbības, izmantojot pārlūkprogrammu Internet Explorer vai Edge. 
 
 2. problēma: lietotājam nav piešķirtas nepieciešamās atļaujas Financial Reporting izmantošanai. 

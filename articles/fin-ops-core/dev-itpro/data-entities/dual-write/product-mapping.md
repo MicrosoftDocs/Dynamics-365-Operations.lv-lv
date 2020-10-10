@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621332"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835858"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -83,15 +83,15 @@ Preču kategoriju piešķires | msdyn_productcategoryassignments | Lai piešķir
 
 Šajā modelī preci attēlo divu Common Data Serviceelementu kombinācija: **preces** un **msdyn\_sharedproductdetails**. Tā kā pirmais elements satur preces definīciju (preces unikālais identifikators, preces nosaukums un apraksts), otrais elements ietver laukus, kas tiek glabāti preču līmenī. Šo divu elementu kombinācija tiek izmantota, lai definētu preci atbilstoši krājumu uzskaites vienības (SKU) koncepcijai. Katrai izlaistajai precei būs sava informācija minētajos elementos (Prece un Koplietojamā informācija par preci). Lai izsekotu visām precēm (izlaistas un nav izlaistas), tiek izmantots elements **Globālās preces**. 
 
-Tā kā produkts tiek attēlots kā SKU, atšķirīgu preču, preču šablonu un preču variantu koncepcijas var uztvert Common Data Servicešādi:
+Tā kā produkts tiek attēlots kā SKU, atšķirīgu preču, preču šablonu un preču variantu koncepcijas var uztvert Common Data Service šādi:
 
-- **Preces ar apakštipa preci** ir preces, kas definētas pašas. Dimensijas nav jādefinē. Piemērs ir noteikta grāmata. Šīm precēm viens ieraksts tiek izveidots**Preces** elementā, un viens ieraksts tiek izveidots **msdyn\_sharedproductdetails** elementā. Nav izveidots neviens preču saimes ieraksts.
+- **Preces ar apakštipa preci** ir preces, kas definētas pašas. Dimensijas nav jādefinē. Piemērs ir noteikta grāmata. Šīm precēm viens ieraksts tiek izveidots **Preces** elementā, un viens ieraksts tiek izveidots **msdyn\_sharedproductdetails** elementā. Nav izveidots neviens preču saimes ieraksts.
 - **Preču šabloni** tiek izmantoti kā ģenēriskas preces, kas satur definīciju un nosacījumus, kas nosaka biznesa procesu darbību. Balstoties uz šīm definīcijām, var tikt ģenerētas atšķirīgas preces, kas zināmas kā preces varianti. Piemēram, T-krekls ir preces šablons, un tam var būt Krāsa un Izmērs dimensiju veidā. Var izlaist variantus, kuriem ir dažādas šo dimensiju kombinācijas, piemēram, mazs zils T-krekls vai vidēji zaļš T-krekls. Integrācijā katram variantam preču tabulā tiek izveidots viens ieraksts. Šis ieraksts satur ar variantu saistītu informāciju, piemēram, dažādas dimensijas. Vispārīgā informācija par preci tiek uzglabāta **msdyn\_sharedproductdetails** elementā. (Šī ir vispārīga informācija tiek turēta preces pamatinformācijā.) Preces pamatinformācija tiek sinhronizēta Common Data Service, tiklīdz tiek izveidots izlaistais preces šablons (bet pirms tiek izlaisti varianti).
 - **Atšķirīgas preces** attiecas uz visām produktu apakštipa precēm un visiem preces variantiem. 
 
 ![Preču datu modelis](media/dual-write-product.png)
 
-Ar iespējotu duālās rakstīšanas funkcionalitāti Finance and Operations lietojumprogrammas tiks sinhronizētas citās Dynamics 365 lietojumprogrammās **Melnraksta** stāvoklī. Tās tiek pievienotas pirmajam cenrādim ar nemainīgu valūtu. Citiem vārdiem, tie ir pievienoti pirmajam cenrādim Dynamics 365 lietojumprogrammā, kas atbilst jūsu juridiskās personas valūtai, kur prece tiek izdota Finance and Operations programmā. 
+Ar iespējotu duālās rakstīšanas funkcionalitāti Finance and Operations preces tiks sinhronizētas citās Dynamics 365 precēs **Melnraksta** stāvoklī. Tās tiek pievienotas pirmajam cenrādim ar nemainīgu valūtu. Citiem vārdiem, tie ir pievienoti pirmajam cenrādim Dynamics 365 lietojumprogrammā, kas atbilst jūsu juridiskās personas valūtai, kur prece tiek izdota Finance and Operations programmā. 
 
 Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**. 
 

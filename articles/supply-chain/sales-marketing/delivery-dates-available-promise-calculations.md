@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesATP, SalesAvailableDlvDates
+ms.search.form: SalesATP, SalesAvailableDlvDates, SalesCarrier
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 6a9ec3ec096d1ec66935aaa8f1aae97567333547
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270031"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829984"
 ---
 # <a name="order-promising"></a>Pasūtījumu solīšana
 
@@ -33,10 +33,10 @@ ms.locfileid: "3270031"
 
 Pasūtījumu solīšana aprēķina agrākos nosūtīšanas un saņemšanas datumus, un tā ir balstīta uz piegādes datuma kontroles metodi un transportēšanas dienām. Varat izvēlēties no četrām piegādes datuma kontroles metodēm:
 
--   **Pārdošanas izpildes laiks** — pārdošanas izpildes laiks ir laiks starp pārdošanas pasūtījuma izveidošanu un krājumu nosūtīšanu. Piegādes datuma aprēķini ir balstīti uz noklusējuma dienu skaitu, un netiek ņemta vērā krājumu pieejamība, zināmais pieprasījums vai plānotais piedāvājums.
--   **ATP (pieejams solīšanai)**  — ATP ir tas krājuma daudzums, kas ir pieejams un ko var apsolīt debitoram noteiktā datumā. ATP aprēķinā tiek iekļauti nesaistītie krājumi, izpildes laiki, plānotās ieejas plūsmas un izejas plūsmas.
--   **ATP + Izejas plūsmas rezerve** — nosūtīšanas datums ir vienāds ar ATP datumu, pieskaitot krājuma izejas plūsmas rezervi. Izejas plūsmas rezerve ir laiks, kas ir nepieciešams, lai krājumus sagatavotu sūtīšanai.
--   **CTP (iespējams solīšanai)**  — pieejamība tiek aprēķināta, izmantojot izvēršanu.
+-   **Pārdošanas izpildes laiks** – pārdošanas izpildes laiks ir laiks starp pārdošanas pasūtījuma izveidošanu un krājumu nosūtīšanu. Piegādes datuma aprēķini ir balstīti uz noklusējuma dienu skaitu, un netiek ņemta vērā krājumu pieejamība, zināmais pieprasījums vai plānotais piedāvājums.
+-   **ATP (pieejams solīšanai)** – ATP ir tas krājuma daudzums, kas ir pieejams un ko var apsolīt debitoram noteiktā datumā. ATP aprēķinā tiek iekļauti nesaistītie krājumi, izpildes laiki, plānotās ieejas plūsmas un izejas plūsmas.
+-   **ATP + Izejas plūsmas rezerve** – nosūtīšanas datums ir vienāds ar ATP datumu, pieskaitot krājuma izejas plūsmas rezervi. Izejas plūsmas rezerve ir laiks, kas ir nepieciešams, lai krājumus sagatavotu sūtīšanai.
+-   **CTP (iespējams solīšanai)** – pieejamība tiek aprēķināta, izmantojot izvēršanu.
 
 ## <a name="atp-calculations"></a>ATP aprēķini
 ATP daudzums tiek aprēķināts, izmantojot metodi “kopīgo ATP ar prognozējamo”. Šīs ATP aprēķināšanas metodes galvenā priekšrocība ir tāda, ka tā spēj tikt galā ar gadījumiem, kad izejas plūsmu summa ieejas plūsmās ir lielāka par pēdējo ieejas plūsmu (piemēram, ja ir jālieto daudzums no iepriekšējās ieejas plūsmas, lai atbilstu kādai prasībai). Aprēķina metode “kopīgo ATP ar prognozējamo” ietver visas izejas plūsmas, līdz kopīgais saņemamais daudzums pārsniedz kopīgo izsniedzamo daudzumu. Tāpēc šī ATP aprēķina metode novērtē, vai kaut ko no agrāka perioda daudzuma var lietot vēlākā periodā.  

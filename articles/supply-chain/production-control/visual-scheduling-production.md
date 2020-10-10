@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210161"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887244"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Ganta diagrammas izmantošana darba plānošanā
 
@@ -38,7 +38,7 @@ Ganta diagramma ir vizuāls plānoto darbību attēlojums noteiktā laika interv
 -   Darbi no plānotajiem ražošanas pasūtījumiem.
 -   Darbam ieplānotās projekta darbības ar tipu Stundu prognozes.
 
-Gantt diagrammu var atvērti divos dažādos skatos: **Pasūtījumu skats** un **Resursu skats**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Skatā **Pasūtījumu skats** darbības tiek grupētas atbilstoši ražošanas pasūtījumiem. Tas var noderēt, piemēram, ja vēlaties uzturēt pārskatu par visiem darbiem, kas pieder tiem pašiem pasūtījumiem. Skatā **Resursu skats** visi darbi tiek grupēti atsevišķos resursos. Šis skats var būt noderīgs, optimizējot plānu resursu līmenī, piemēram, iekārtu vai iekārtu grupas līmenī. Ganta diagrammās tālāk esošajos attēlos ir attēlots **Pasūtījumu skats** un **Resursu skats** ar tālāk uzskaitītajiem galvenajiem elementiem.
+Ganta diagrammu var atvērti divos dažādos skatos: **Pasūtījumu skats** un **Resursu skats**. Skatā **Pasūtījumu skats** darbības tiek grupētas atbilstoši ražošanas pasūtījumiem. Tas var noderēt, piemēram, ja vēlaties uzturēt pārskatu par visiem darbiem, kas pieder tiem pašiem pasūtījumiem. Skatā **Resursu skats** visi darbi tiek grupēti atsevišķos resursos. Šis skats var būt noderīgs, optimizējot plānu resursu līmenī, piemēram, iekārtu vai iekārtu grupas līmenī. Ganta diagrammās tālāk esošajos attēlos ir attēlots **Pasūtījumu skats** un **Resursu skats** ar tālāk uzskaitītajiem galvenajiem elementiem.
 
 1.  Ganta diagrammas darbība
 2.  Materiālu iztrūkuma ikona

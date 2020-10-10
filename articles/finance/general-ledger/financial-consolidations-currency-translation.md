@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771849"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823459"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -103,6 +103,7 @@ Konsolidācijas rezultātu skatīšanai ir vairākas iespējas, kā norādīts t
     ![Konsolidācijas darbības lapā Konsolidācija](./media/managing-consolidation-transactions.png "Konsolidācijas darbības lapā Konsolidācija")
 
 Lai veiktu konsolidāciju vēlreiz, varat tikai apstrādāt konsolidāciju. Vai arī varat vispirms atlasīt vienumu **Noņemt transakcijas** lapā **Konsolidācijas**.
+Ja bilances jūsu konsolidētajā kontā nav precīzas, šīs bilances var labot, izmantojot lapu **Slēgšanas perioda korekcijas**.
 
 ## <a name="consolidate-with-import"></a>Konsolidēt ar importēšanu
 Funkcionalitāte Konsolidēt ar importu darbojas tāpat kā funkcionalitāte Konsolidēt tiešsaistē. Atlasot juridiskās personas, tiks pārlūkoti izcelsmes faili, kas satur datus.
@@ -156,6 +157,7 @@ Plašāku informāciju par valūtas pārvērtēšanas darbību modulī **Virsgr�
 - Eliminācijas žurnālus var grāmatot tikai pašreizējā līmenī.
 - Tiek konsolidētas tikai darbības bilances. Tādēļ, lai apskatītu sākuma bilances, joprojām jāizpilda gada beigu slēgšana konsolidācijas uzņēmumā.
 - Ikdienas žurnālus varat grāmatot eliminācijas uzņēmumā, bet ne konsolidācijas uzņēmumā.
+- Konsolidācijas uzņēmuma bilanču korekcijas var veikt tikai, izmantojot lapu **Slēgšanas perioda korekcijas**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Priekšrocības, ko sniedz funkcijas Finanšu pārskatu sniegšana izmantošana finanšu konsolidācijām un valūtas pārrēķināšanai vai lai papildinātu funkciju Konsolidēt tiešsaistē konsolidēto pārskatu sniegšanai
 Klienti, kuri izmanto funkciju Finanšu pārskati finanšu konsolidācijai un valūtas pārrēķināšanai vai lai papildinātu funkciju Konsolidēt tiešsaistē konsolidētajiem pārskatiem, gūst vairākas tālāk aprakstītās priekšrocības.

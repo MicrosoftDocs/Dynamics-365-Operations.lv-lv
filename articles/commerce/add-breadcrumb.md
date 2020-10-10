@@ -3,7 +3,7 @@ title: Atpakaļceļa modulis
 description: Šajā tēmā tiek stāstīts par atpakaļceļa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 38efc3a60ae0ba49db2036dc84c49e4896727d94
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621064"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817114"
 ---
 # <a name="breadcrumb-module"></a>Atpakaļceļa modulis
 
@@ -37,6 +37,9 @@ Atpakaļceļa moduļi tiek izmantoti, lai nodrošinātu sekundāro navigāciju v
 
 Lapās, kurās ir preču kategorijas konteksts, piemēram, PDP un kategoriju lapas, atpakaļceļa moduļi rāda kategoriju hierarhiju. Lapās, kurām nav kategorijas konteksta, atpakaļceļa moduļi pēc noklusējuma rāda **&lt;Vietnes sakne&gt; / &lt;Pašreizējā lapa&gt;**. Atpakaļceļa moduļus var arī manuāli konfigurēt citos vietņu lapu veidos, lai parādītu saites uz noteiktām lapām attiecīgajā vietnē.
 
+> [!NOTE]
+> Atpakaļceļa modulis ir pieejams Dynamics 365 Commerce 10.0.12 laidienā.
+
 Attēlā zemāk parādīts atpakaļceļa moduļa piemērs, kas parāda kategoriju hierarhiju PDP.
 
 ![Atpakaļceļa moduļa piemērs](./media/ecommerce-breadcrumb.PNG)
@@ -49,9 +52,12 @@ Atpakaļceļa modulis balstās uz iestatījumu **Atpakaļceļa rādīšanas veid
 - **Rādīt atpakaļ pie rezultātiem** — ja atlasīta šī vērtība, atpakaļceļa modulis rādīs "Atpakaļ pie rezultātiem" saiti PDP, ja lietotājs ir atvēris PDP no moduļa, kas ļauj izveidot saiti "Atpakaļ pie rezultātiem". Šī funkcionalitāte ir pieejama, ja lietotāji veic navigāciju no kategorijas, meklēšanas, saraksta un rekomendāciju saraksta lapas. Lai atbalstītu šo funkcionalitāti, preču kolekciju un meklēšanas rezultātu moduļiem ir rekvizīts, kas ir nosaukts **Atļaut atgriešanos pie rezultātiem PDP**. Šis rekvizīts sniedz jums elastību, lai definētu, kuriem moduļiem jāatbalsta "Atpakaļ pie rezultātiem" saites funkcionalitāte PDP. Piemēram, kad tiek atlasīta opcija **Rādīt atgriešanos pie rezultātiem** atpakaļceļa moduļa iestatījumam **Atpakaļceļa rādīšanas veids PDP**, un opcija **Ļaut atgriezties pie rezultātiem PDP** ir atlasīta meklēšanas lapas meklēšanas rezultātu modulim, saite "Atpakaļ pie rezultātiem" tiks parādīta, kad lietotāji no meklēšanas lapas pāriet uz PDP.
 - **Rādīt kategoriju hierarhiju un atgriezties pie rezultātiem** — šī vērtība ir iepriekšējo divu vērtību kombinācija. Atlasot šo vērtību, atpakaļceļa modulis parāda gan pilnu kategoriju hierarhiju, gan saiti "Atgriezties pie rezultātiem" (ja tā ir konfigurēta) PDP.
 
+> [!IMPORTANT]
+> Šie iestatījumi ir pieejami Dynamics 365 Commerce 10.0.12 laidienā. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="breadcrumb-module-properties"></a>Atpakaļceļa moduļa rekvizīti
 
-| Rekvizīta nosaukums | Vērtības | apraksts |
+| Rekvizīta nosaukums | Vērtības | Apraksts |
 |---------------|--------|-------------|
 | Sakne | Teksts vai saite| Šis neobligātais rekvizīts norāda saites tekstu un saites mērķi atpakaļceļa vietas saknei. Ja šis rekvizīts nav konfigurēts, sakne netiks definēta. |
 | Atpakaļceļa saite | Saistīt | Šis neobligātais rekvizīts norāda saites manuāli konfigurētam atpakaļceļam, ja šīs saites ir nepieciešamas. Saites parādās tādā secībā, kādā tās ir uzskaitītas. |
@@ -76,10 +82,12 @@ Lai pievienotu atpakaļceļa moduli PDP un iestatītu nepieciešamos rekvizītus
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas apskats](category-search-page-overview.md)
 
 [Preču kolekcijas moduļi](product-collection-module-overview.md)
 
 [Pirkšanas lodziņa modulis](add-buy-box.md)
+
+[SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)

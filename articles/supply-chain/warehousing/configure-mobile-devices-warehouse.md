@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383094"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837267"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -185,7 +185,7 @@ Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam,
 </tr>
 <tr>
 <td>Numura zīmes ielāde</td>
-<td>Izmantojiet šo opciju, pirmo reizi iestatot noliktavu. Skenējiet visas noliktavas vienības visos noliktavas novietojumos. Novietojumiem ir jābūt atkarīgiem no noliktavas vienības. Šo opciju nevar izmantot, ja krājumu rezervēšanas hierarhijā vienums <strong>Sērijas numurs</strong> vai <strong>Partijas numurs</strong> atrodas virs vienuma <strong>Vieta</strong>.</td>
+<td>Izmantojiet šo opciju,&#39;pirmo reizi iestatot noliktavu. Skenējiet visas noliktavas vienības visos noliktavas novietojumos. Novietojumiem ir jābūt atkarīgiem no noliktavas vienības. Šo opciju nevar&#39;izmantot, ja krājumu rezervēšanas hierarhijā vienums <strong>Sērijas numurs</strong> vai <strong>Partijas numurs</strong> atrodas virs vienuma <strong>Vieta</strong>.</td>
 </tr>
 <tr>
 <td rowspan="3">Cikla inventarizācija</td>
@@ -220,7 +220,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 <tbody>
 <tr class="odd">
 <td>Nav</td>
-<td>Šī noklusējuma vērtība neizraisa darba apstrādi.</td>
+<td>Šī noklusējuma vērtība neizraisa&#39;darba apstrādi.</td>
 </tr>
 <tr class="even">
 <td>Sistēmas noteikts</td>
@@ -238,7 +238,7 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 <td>Sistēmas grupēšana</td>
 <td>Supply Chain Management grupē nodarbinātā darbu, pamatojoties uz norādītu lauku. Piemēram, izdošanas darbs tiek grupēts, kad darbinieks skenē sūtījuma ID, kravas ID vai jebkuru vērtību, ar kuru var saistīt katru darba vienību. Ja atlasāt šo opciju, ir nepieciešams aizpildīt tālāk norādītos laukus.
 <ul>
-<li><strong>Sistēmas grupēšanas lauks</strong> — atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
+<li><strong>Sistēmas grupēšanas lauks</strong> – atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
 <li><strong>Sistēmas grupēšanas etiķete</strong> — ievadiet tekstu, lai norādītu darbiniekam, kas ir jāskenē, lai grupētu darbu.</li>
 </ul></td>
 </tr>
@@ -246,10 +246,10 @@ Varat iestatīt ne tikai noliktavas darbu izveides izvēlnes vienumus, bet arī 
 <td>Validēts, lietotāja noteikts</td>
 <td>Darbinieks atlasa veicamo darbu, kad darbs ir saistīts ar lielāku elementu, piemēram, kravu vai sūtījumu. Darbinieks nosaka secību, kādā krājumi tiek izdoti. Ja atlasāt šo opciju, ir nepieciešams aizpildīt tālāk norādītos laukus.
 <ul>
-<li><strong>Validēts, lietotāja noteikts lauks</strong> — atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
+<li><strong>Validēts, lietotāja noteikts lauks</strong> – atlasiet lauku, ko darbinieks skenē, lai grupētu darbu.</li>
 <li><strong>Validēta, lietotāja noteikta etiķete</strong> — ievadiet tekstu, lai norādītu darbiniekam, kas ir jāskenē, kad izdošanas darbu grupē sistēma.</li>
 </ul>
-Šī opcija ir noderīga, piemēram, ja ir paredzēts iekraut vairākas paletes. Ja atlasāt lauka <strong>Validēts, lietotāja noteikts</strong> vērtību <strong>LoadId</strong>, darbinieks var izdot jebkuru ar kravu saistīto paleti Ja nodarbinātais skenē krājumu, kas nav saistīts ar kravu, tiek parādīts kļūdas ziņojums.</td>
+Šī opcija ir noderīga, piemēram, ja ir paredzēts iekraut vairākas paletes. Ja atlasāt lauka <strong>Validēts, lietotāja noteikts</strong> vērtību <strong>LoadId</strong>, darbinieks var izdot jebkuru ar kravu saistīto paleti Ja nodarbinātais skenē krājumu, kas nav&#39;saistīts ar kravu, tiek parādīts kļūdas ziņojums.</td>
 </tr>
 <tr class="odd">
 <td>Klastera izdošana</td>
@@ -293,7 +293,7 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Noenkuroja pēc</td>
-<td>Ja izmantojat noenkurošanu, ir jānorāda, vai noenkurošana ir jāveic pēc sūtījuma vai kravas.</td>
+<td>Ja izmantojat&#39;noenkurošanu, ir jānorāda, vai noenkurošana ir jāveic pēc sūtījuma vai kravas.</td>
 </tr>
 <tr class="even">
 <td>Audita veidnes ID</td>
@@ -317,11 +317,11 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Atspējot cikla inventarizācijas robežvērtības</td>
-<td>Atlasiet šo opciju, lai ignorētu cikla inventarizācijas robežvērtības. Ja atlasāt šo opciju un tiek pārsniegtas robežvērtības, netiek izveidots cikla inventarizācijas darbs.</td>
+<td>Atlasiet šo opciju, lai ignorētu cikla inventarizācijas robežvērtības. Ja atlasāt šo opciju un tiek pārsniegtas robežvērtības, netiek&#39;izveidots cikla inventarizācijas darbs.</td>
 </tr>
 <tr class="even">
 <td>Parādīt partijas metodes kodu</td>
-<td>Atlasiet šo opciju, lai attēlotu partijas atgriešanas metodes kodus. Piemēram, var tikt rādīti partijas atgriešanas metodes kodi, kad tiks saņemta atgriezta partija. Pēc tam darbinieki var novērtēt partijas statusu vai kvalitāti un atlasīt atbilstošo kodu. Partijas atgriešanas metodes kodā ietvertie noteikumi nosaka, vai partija būs pieejama citiem noliktavas procesiem. Ja neatlasāt šo opciju, tiek izmantots viens no tālāk norādītajiem partijas atgriešanas metodes kodiem.
+<td>Atlasiet šo opciju, lai attēlotu partijas atgriešanas metodes kodus. Piemēram, var tikt rādīti partijas atgriešanas metodes kodi, kad tiks saņemta atgriezta partija. Pēc tam darbinieki var novērtēt partijas statusu vai kvalitāti un atlasīt atbilstošo kodu. Partijas atgriešanas metodes kodā ietvertie noteikumi nosaka, vai partija būs pieejama citiem noliktavas procesiem. Ja neatlasāt&#39;šo opciju, tiek izmantots viens no tālāk norādītajiem partijas atgriešanas metodes kodiem.
 <ul>
 <li>Ja saņemat jaunu partijas numuru, tiek izmantots noklusējuma partijas atgriešanas metodes kods, kas ir norādīts krājumu modeļu grupai</li>
 <li>Tiek izmantots tas partijas atgriešanas metodes kods, kas jau ir piešķirts partijai</li>
@@ -367,9 +367,9 @@ Tabulā ir sniegts šo opciju apraksts.
 <td>Izdot vecāko partiju</td>
 <td>Norādiet, vai darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Pieejamas šādas opcijas
 <ul>
-<li><strong>Nav</strong> — darbinieks var izdot jebkuru novietojumā esošo partiju. Darbinieks nesaņem nekādu ziņojumu.</li>
-<li><strong>Brīdināt</strong> — nodarbinātais var izdot jebkuru vietā esošo partiju, taču, ja tā nav vecākā partija, tiek parādīts brīdinājuma ziņojums.</li>
-<li><strong>Uzspiest</strong> — darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Ja tā nav vecākā partija, nodarbinātais saņem kļūdas ziņojumu. <strong>Piezīme.</strong> Šī opcija darbojas tikai tad, ja krājumam piešķirtajā rezervēšanas hierarhijā vienums <strong>Partijas numurs</strong> atrodas zem vienuma <strong>Novietojums</strong>.</li>
+<li><strong>Nav</strong> – darbinieks var izdot jebkuru novietojumā esošo partiju. Darbinieks nesaņem nekādu ziņojumu.</li>
+<li><strong>Brīdināt</strong> – nodarbinātais var izdot jebkuru vietā esošo partiju, taču, ja tā nav&#39;vecākā partija, tiek parādīts brīdinājuma ziņojums.</li>
+<li><strong>Uzspiest</strong> – darbiniekam novietojumā vispirms ir jāizdod vecākā partija. Ja tā nav&#39;vecākā partija, nodarbinātais saņem kļūdas ziņojumu. <strong>Piezīme.</strong> Šī opcija darbojas tikai tad, ja krājumam piešķirtajā rezervēšanas hierarhijā vienums <strong>Partijas numurs</strong> atrodas zem vienuma <strong>Novietojums</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -382,7 +382,7 @@ Tabulā ir sniegts šo opciju apraksts.
 </tr>
 <tr class="odd">
 <td>Sistēmas grupēšanas etiķete</td>
-<td>Ievadiet tekstu, lai norādītu darbiniekam, kad ir jāskenē, ja Supply Chain Management grupē izdošanas darbu. Piemēram, ja izmantojat lauku <strong>ShipmentId</strong>, lai grupētu izdošanas darbu pēc sūtījuma, varat šajā laukā ievadīt vērtību <strong>Sūtījuma ID</strong>. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Turklāt laikā <strong>Sistēmas grupēšanas lauks</strong> ir jāatlasa lauks, pēc kura grupēt.</td>
+<td>Ievadiet tekstu, lai norādītu darbiniekam, kad ir jāskenē, ja Supply Chain Management grupē izdošanas darbu. Piemēram, ja izmantojat&#39;lauku <strong>ShipmentId</strong>, lai grupētu izdošanas darbu pēc sūtījuma, varat šajā laukā ievadīt vērtību <strong>Sūtījuma ID</strong>. Lai izmantotu šo lauku, ir jāizveido izvēlnes vienums esoša sistēmas grupēta darba izmantošanai. Turklāt laikā <strong>Sistēmas grupēšanas lauks</strong> ir jāatlasa lauks, pēc kura grupēt.</td>
 </tr>
 <tr class="even">
 <td>Lietot noklusējuma datus</td>
@@ -399,6 +399,9 @@ Tabulā ir sniegts šo opciju apraksts.
 <tr class="odd">
 <td>Darba veidnes kods</td>
 <td>Atlasiet darba veidni, kurā procesam tiks izveidots darbs. Piemēram, ja saņemat krājumu kādam pirkšanas pasūtījumam, izvietošanas darbs tiks ģenerēts, pamatojoties uz darba veidni. Ja neatlasā&#39;t darba veidni, , Supply Chain Management piešķir veidni, pamatojoties uz vaicājuma kritērijiem. Plašāku informāciju par darbu veidnēm skatiet sadaļā <a href="control-warehouse-location-directives.md">Noliktavas darbu kontrolēšana ar darba veidnēm un novietojuma direktīvām</a>.</td>
+<tr class="even">
+<td>Rādīt darba rindu sarakstu</td>
+<td>Atlasiet opciju tam, kā darbinieki varēs skatīt pašreiz atlasītā izdošanas darba rindas un mijiedarboties ar tām. Lai iegūtu papildinformāciju par šo opciju, skatiet sadaļu <a href="pick-line-overview.md">Mobilās ierīces izvēlnes elementa iestatīšana, lai nodrošinātu izdošanas rindas apskatu</a>.</td>
 </tr>
 </tbody>
 </table>

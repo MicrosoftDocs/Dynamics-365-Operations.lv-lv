@@ -3,7 +3,7 @@ title: Pārskats par grozu un norēķināšanās lapām
 description: Šajā tēmā sniegts pārskats par grozu un izrakstīšanas lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527569"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817782"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Pārskats par grozu un norēķināšanās lapām
 
@@ -40,7 +40,7 @@ E-tirdzniecības tīmekļa vietnes izrakstīšanas lapa parāda darbību secību
 
 Groza lapa kalpo kā iepirkumu soma un ietver visas preces, kas ir pievienotas grozam.
 
-Tālāk redzamajā attēlā ir parādīts groza lapas piemērs, kura izveidota, izmantojot tiešsaistes sākuma komplektu un "Fabrikam" tēmu.
+Tālāk redzamajā attēlā ir parādīts groza lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku un “Fabrikam” tēmu.
 
 ![Groza lapas piemērs](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Lai iegūtu informāciju par to, kā autorēt lapa grozu, skatiet [Groza moduļa
 
 Izrakstīšanas lapa ir vieta, kur klienti ievada informāciju, kas nepieciešama pasūtījuma veikšanai.
 
-Tālāk redzamajā attēlā ir parādīts izrakstīšanas lapas piemērs, kura izveidota, izmantojot tiešsaistes sākuma komplektu.
+Tālāk redzamajā attēlā ir parādīts norēķināšanās lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku.
 
 ![Izrakstīšanas lapas piemērs](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ Izrakstīšanas lapas galvenā daļā ir vieta, kur tiek apkopota visa pasūtīj
 
 Piegādes adrese ir nepieciešama, ja preces ir jāpiegādā. Adreses formātu Dynamics 365 Commerce var konfigurēt katrai piegādes lokalizācijai. Piemēram, ja preces tiks piegādātas Amerikas Savienotajās Valstīs, piegādes adresē ir jāiekļauj mājas adrese, štats un pasta indekss. Piegādes adreses laukiem tiek veikta zināma pamata ievades validācija, piemēram, lai apstiprinātu burtciparu rakstzīmes, maksimālo garumu un numurus. Lai gan pašas adreses derīgums netiek verificēts, šo verifikāciju var veikt, izmantojot pielāgotus trešās puses pakalpojumus.
 
-Piegādes adrese tiek lietota visām grozā esošajām precēm, kurām ir atlasīta opcija "piegāde". Ja izmantojat izrakstīšanas plūsmu, ko nodrošina tiešsaistes sākuma komplekts, atsevišķas groza preces nevar piegādāt uz dažādām adresēm. Ja šī iespēja ir nepieciešama, to var īstenot, izmantojot izrakstīšanas moduļu pielāgošanu.
+Piegādes adrese tiek lietota visām grozā esošajām precēm, kurām ir atlasīta opcija "piegāde". Ja izmantojat norēķināšanās plūsmu, ko nodrošina moduļu bibliotēka, atsevišķas groza preces nevar piegādāt uz dažādām adresēm. Ja šī iespēja ir nepieciešama, to var īstenot, izmantojot izrakstīšanas moduļu pielāgošanu.
 
 Kad tiek norādīta piegādes adrese, tiek parādītas Dynamics 365 Commerce tiešsaistes veikalā pieejamās piegādes metodes. Piegādes metodes un adreses, kuras tās atbalsta, var konfigurēt Commerce.
 
@@ -80,7 +80,7 @@ Izrakstīšanas plūsmas laikā klients, kurš ir lojalitātes programmas dalīb
 
 #### <a name="gift-cards"></a>Dāvanu kartes
 
-Tiešsaistes sākuma komplekts ļauj pasūtījumā izpirkt iekšējās dāvanu kartes. Lai izmantotu iekšējo dāvanu karti, klientam ir jāpierakstās. Papildu drošībai mēs iesakām pielāgot plūsmu, izmantojot iekšējo dāvanu karšu personīgo identifikācijas numuru (PIN).
+Moduļu bibliotēka ļauj pasūtījumā izpirkt iekšējās dāvanu kartes. Lai izmantotu iekšējo dāvanu karti, klientam ir jāpierakstās. Papildu drošībai mēs iesakām pielāgot plūsmu, izmantojot iekšējo dāvanu karšu personīgo identifikācijas numuru (PIN).
 
 ### <a name="signed-in-and-guest-users"></a>Pierakstījušies lietotāji un vieslietotāji
 

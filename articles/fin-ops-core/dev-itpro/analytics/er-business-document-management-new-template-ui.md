@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4acde9703c721ab7c20d1603299a10dda91b23c4
-ms.sourcegitcommit: b8f8ccab2cd9d848e5ecd71caaf0a63237e2236b
+ms.openlocfilehash: 015b595f85397fc1cf2c0368814ddc0369176f82
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957067"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893199"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>Jauns dokumentu lietotāja interfeiss biznesa dokumentu pārvaldībā
 
 [!include [banner](../includes/banner.md)]
 
-Biznesa dokumentu pārvaldība ļauj iznesa lietotājiem rediģēt biznesa dokumentu veidnes, izmantojot pakalpojumu Microsoft Office 365 vai atbilstošu Microsoft Office darbvirsmas lietojumprogrammu. Rediģējumi var ietvert dizaina izmaiņas vai jaunas izvietošanas, vai arī lietotāji var pievienot vietturus, lai iekļautu papildu datus, nemainot pirmkodu. Papildinformāciju par to, kā strādāt ar biznesa dokumentu pārvaldību, skatiet [Biznesa dokumentu pārvaldības pārskatā](er-business-document-management.md).
+Biznesa dokumentu pārvaldība ļauj biznesa lietotājiem rediģēt biznesa dokumentu veidnes, izmantojot pakalpojumu Microsoft 365 vai atbilstošu Microsoft Office darbvirsmas lietojumprogrammu. Rediģējumi var ietvert dizaina izmaiņas vai jaunas izvietošanas, vai arī lietotāji var pievienot vietturus, lai iekļautu papildu datus, nemainot pirmkodu. Papildinformāciju par to, kā strādāt ar biznesa dokumentu pārvaldību, skatiet [Biznesa dokumentu pārvaldības pārskatā](er-business-document-management.md).
 
 Jaunais dokumentu lietotāja interfeiss (UI) ir saprotamāks un ērtāk lietojams. **Biznesa dokumenta** apgabals parāda tikai tās veidnes, kas ir pieejamas pašreizējam nodrošinātājam.
 

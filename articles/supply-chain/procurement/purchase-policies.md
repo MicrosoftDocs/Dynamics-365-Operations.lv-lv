@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207906"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830753"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkšanas ierobežojumu pārskats
 
@@ -102,9 +102,9 @@ Pirkšanas pieprasījuma PP nosacījumi nosaka kritērijus, kuri ir nepieciešam
 
 ### <a name="purchase-requisition-control-rule"></a>Piedāvājuma pieprasījuma kontroles nosacījumi
 
-Pirkšanas pieprasījuma kontroles nosacījumi ir neobligāts noteikums. Izveidojot šī tipa nosacījumus, varat iestatīt opcijas dažādās cilnēs:
+Pirkšanas pieprasījuma kontroles nosacījumi, kas attiecas uz pieprasījumiem ar tipu **patēriņš**, ir neobligāts noteikums. Izveidojot šī tipa nosacījumus, varat iestatīt opcijas dažādās cilnēs:
 
--   Cilnē **Darbplūsmas iesniegšana** varat konfigurēt laukus, kas ir jāaizpilda pieprasījuma rindā, lai pieprasījums tiktu iesniegts apstiprināšanai, kad pieprasījuma mērķis ir **Patēriņš**.
+-   Cilnē **Darbplūsmas iesniegšana** varat konfigurēt laukus, kas ir jāaizpilda pieprasījuma rindā, lai pieprasījums tiktu iesniegts apstiprināšanai.
 -   Cilnē **Pasūtījuma daudzumi** var konfigurēt laukus, kas nepieciešami pirkšanas pieprasījumā saskaņā ar noteiktiem nosacījumiem. Var arī ieviest pasūtījuma daudzumus.
 -   Cilnē **Datumi** var konfigurēt, vai uzskaites datums ir tāds pats kā pieprasītais datums
 -   Cilnē **Adrese** var definēt, vai lietotājam ir atļauts izveidot jaunas adreses sistēmā, lai tās piemērotu pirkšanas pieprasījumam.

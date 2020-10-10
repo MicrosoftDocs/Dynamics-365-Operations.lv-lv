@@ -3,7 +3,7 @@ title: Atvieglojumu pārvaldības pārskats
 description: Pārskats par Atvieglojumu pārvaldības līdzekli Dynamics 365 Human Resources. Piedāvājiet saviem darbiniekiem paplašinātas atvieglojumu opcijas ar ērti lietojamu tiešsaistes pieredzi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599384"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819769"
 ---
 # <a name="benefits-management-overview"></a>Atvieglojumu pārvaldības pārskats
 
@@ -41,15 +41,9 @@ Lai saglabātu konkurētspēju, jāpiedāvā bagātīgs atvieglojumu kopums, lai
 
 Ja vēlaties piekļūt demonstrācijas datiem, būs nepieciešams atkārtoti izvietot savu smilškastes vidi.
 
-## <a name="benefits-management-known-issues"></a>Zināmās atvieglojumu pārvaldības problēmas
-
-### <a name="flex-credit-programs"></a>Brīvā režīma kredītu programmas
-
-Kopējā kredīta vērtība, kas noteikta brīvā režīma kredīta programmai, netiek rādīta formā **Darbinieku atvieglojumu plāni**. Turklāt, ja iestatāt brīvā režīma kredīta programmas procentuālo kārtulu kā **Nav**, jūs saņemat kļūdu formā **Darbinieku atvieglojumu plāns**, atlasot un apstiprinot plānus.
-
 ## <a name="enable-benefits-management"></a>Atvieglojumu pārvaldības iespējošana
 
-Šis raksts apraksta, kā Personāla vadībā ieslēgt priekšskatījuma līdzekļus. Tajā arī norādīts, kādus pastāvošos Personāla vadības līdzekļus aizstāj šī atvieglojumu pārvaldība, vai kas tiek atspējoti, ieslēdzot atvieglojumu pārvaldību.
+Šī tēma apraksta, kā ieslēgt Human Resources priekšskatījuma līdzekļus. Tajā arī norādīts, kādus pastāvošos Human Resources līdzekļus aizstāj šī atvieglojumu pārvaldība, vai kas tiek atspējoti, ieslēdzot atvieglojumu pārvaldību.
 
 > [!IMPORTANT]
 > Pēc tam, kad iespējojat Atvieglojumu pārvaldību **Ražošanas** vidē, to nevar atspējot. Iesakām iespējot un testēt Atvieglojumu pārvaldību **Smilškastes** vidē pirms tās iespējošanas **Ražošanas** vidē. Pastāv būtiskas atšķirības starp mantoto Atvieglojumu funkcionalitāti un jauno Atvieglojumu pārvaldības funkcionalitāti, kam nepieciešami papildu iestatījumi, un tie ir jāpārbauda pirms ielaišanas ražošanā.

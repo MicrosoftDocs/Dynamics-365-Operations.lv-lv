@@ -3,7 +3,7 @@ title: Mājas lapas pārskats
 description: Šajā tēmā ir sniegts pārskats par Microsoft Dynamics 365 Commerce mājas lapu.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527588"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817758"
 ---
 # <a name="home-page-overview"></a>Mājas lapas pārskats
 
@@ -34,7 +34,7 @@ ms.locfileid: "3527588"
 
 Mājas lapa ir noklusējuma lapa, kur pircēji dodas, kad tie apmeklē e-tirdzniecības vietni. Parasti šī lapa parāda preces un veicināšanas pasākumus, izmantojot mārketinga moduļu kombināciju. Mājas lapai jābūt papildinātai ar attēliem un tekstu, lai iesaistītu pircējus.
 
-Tālāk redzamajā attēlā ir parādīts mājas lapas piemērs, kura izveidota, izmantojot tiešsaistes sākuma komplektu un "Fabrikam" tēmu.
+Tālāk redzamajā attēlā ir parādīts mājas lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku un “Fabrikam” tēmu.
 
 ![Mājas lapas piemērs](./media/Homepage2.PNG)
 

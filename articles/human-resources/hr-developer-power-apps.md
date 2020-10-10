@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: b28480ff584870e931fdc288a2652a5649268576
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793615"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893081"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Paplašināšana ar Power Apps un Power Automate
 
@@ -37,13 +37,13 @@ ms.locfileid: "3793615"
 - Lai importētu pakotnes, lietotājiem ir jābūt atļaujai **Vides veidotājs**.
 - Lai eksportētu vai importētu programmas, lietotājiem jābūt Power Apps 2. plāna licencei vai Power Apps 2. plāna izmēģinājuma licencei.
 
-## <a name="integration-with-office-365-power-automate"></a>Integrācija ar Office 365, Power Automate
+## <a name="integration-with-microsoft-365-power-automate"></a>Integrācija ar Microsoft 365, Power Automate
 
-Programmu **Integrācija ar Office 365** var izmantot, lai iegūtu grupas informāciju lietotājiem, kuri ir pierakstījušies, no programmas Microsoft Office 365. Tajā ir atsauces uz Human Resources darbiniekiem, lai izvilktu darbinieka identifikācijas veidus. Vadītāji var pārbaudīt darbinieku ID veidu beigu datumus. Ja darbinieka ID veida termiņš drīz beigsies, viņi var arī nosūtīt atgādinājumu pa e-pastu. Power Automate integrējas Power Apps, lai nosūtītu šo atgādinājumu. Apstiprinājums tiks nosūtīts atpakaļ Power Apps no Power Automate, kad atgādinājums ir nosūtīts. Identifikācijas veidi ietver autovadītāja apliecību, pasi un citus pieņemamus ID veidus.
+Programmu **Integrācija ar Microsoft 365** var izmantot, lai iegūtu grupas informāciju lietotājiem, kuri ir pierakstījušies, no programmas Microsoft 365. Tajā ir atsauces uz Human Resources darbiniekiem, lai izvilktu darbinieka identifikācijas veidus. Vadītāji var pārbaudīt darbinieku ID veidu beigu datumus. Ja darbinieka ID veida termiņš drīz beigsies, viņi var arī nosūtīt atgādinājumu pa e-pastu. Power Automate integrējas Power Apps, lai nosūtītu šo atgādinājumu. Apstiprinājums tiks nosūtīts atpakaļ Power Apps no Power Automate, kad atgādinājums ir nosūtīts. Identifikācijas veidi ietver autovadītāja apliecību, pasi un citus pieņemamus ID veidus.
 
 Šo programmu varat paplašināt citos scenārijos. Piemēram, to var izmantot, lai rādītu darba grupas atvaļinājumu informāciju, kalendāra notikumus un ar darba grupu saistītus notikumus.
 
-Lai lejupielādētu programmu **Integrācija ar Office 365, Power Automate**, dodieties uz [Integrācija ar Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) Microsoft Lejupielāžu centrā.
+Lai lejupielādētu programmu **Integrācija ar Microsoft 365, Power Automate**, dodieties uz [Integrācija ar Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) Microsoft lejupielāžu centrā.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL savienojums un izpilde
 

@@ -3,7 +3,7 @@ title: Visu kanālu maksājumu apskats
 description: Šajā tēmā ir sniegts apskats par visu kanālu maksājumiem programmā Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613181"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819817"
 ---
 # <a name="omni-channel-payments-overview"></a>Visu kanālu maksājumu apskats
 
@@ -92,6 +92,9 @@ Tiek atbalstīti tālāk norādītie visu kanālu maksājumu scenāriji.
 - Pirkt zvanu centrā, saņemt veikalā
 - Pirkt veikalā A, saņemt veikalā B
 - Pirkt veikalā A, nosūtīt klientam
+
+    > [!NOTE]
+    > Zvanu centrā veiktie maksājumi, kas kartēti ar norēķinu funkciju “Parasts”, ir jāatzīmē kā **Priekšapmaksa** = **Jā**, lai tie tiktu atspoguļoti maksājamajā summā, atsaucot pasūtījumu POS. Maksājumi, kas nav priekšapmaksas, ar tipu “Parasts” netiek atpazīti, kad pasūtījums tiek atsaukts POS. 
 
 Tiek atbalstītas arī šo scenāriju variācijas. Piemēram, tiešsaistes pasūtījumā var būt ietvertas gan rindas, kas tiks nosūtītas klientam, gan rindas, kas tiks saņemtas veikalā. Visas pasūtījumu izpildes opcijas tiek atbalstītas, izmantojot visu kanālu maksājumus. 
 
@@ -190,8 +193,8 @@ Lai palaistu šo scenāriju, izpildiet tālāk aprakstītās darbības.
 2. Lapā **Transakcija** pievienojiet transakcijai Zani Siliņu, ar ciparu tastatūru ievadot **2001**.
 3. Pievienot transakcijai vienu vai vairākas rindas.
 4. Atlasiet **Pasūtījumi**, lai skatītu pasūtījuma opcijas.
-5. Atlasiet **Saņemt visu** un pēc tam, kad tiek parādīta uzvedne, atlasiet **Klienta pasūtījums**.
-6. Meklēšanas joslā ievadiet **Sietla** un pēc tam saņemšanai atlasiet veikalu **Sietla**. 
+5. Atlasiet **Nosūtīt visu** un pēc tam, kad tiek parādīta uzvedne, atlasiet **Klienta pasūtījums**.
+6. Lapā nosūtīšanas metode atlasiet **Standarta piegāde pa nakti** un pēc tam atlasiet **Labi**, lai pieņemtu šodienas datumu kā nosūtīšanas datumu. 
 7. Atlasiet **Labi**, lai kā saņemšanas datumu apstiprinātu pašreizējo datumu.
 8. Atlasiet **Maksājums ar karti**, lai uzsāktu maksājumu.
 9. Norēķinieties ar kartes maksājumu par depozītam paredzēto summu. 
@@ -233,5 +236,5 @@ Kad tiek saņemts pasūtījums ar vairākiem norēķiniem un vairākām rindām,
 
 - [Bieži uzdotie jautājumi par maksājumiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

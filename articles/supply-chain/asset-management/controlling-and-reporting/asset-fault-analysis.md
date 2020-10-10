@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32cd8fb55cd9245a9a7c426a7c956bb40c3fdb0e
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e911f7ca3b67acd9d5a1b170d8c99135da730847
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383554"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889150"
 ---
 # <a name="asset-fault-analysis"></a>Līdzekļu defektu analīze
 
@@ -91,7 +91,7 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
 
 **Grupēt pēc diviem simptomiem, līdzekļa un līdzekļa veida**
 
-Šajā ekrānuzņēmumā **Simptomam**pievienota **Joma**, **Līdzeklis** un **Līdzekļa veids**, lai parādītu detalizētāku informāciju par kļūmju reģistrācijām.
+Šajā ekrānuzņēmumā **Simptomam** pievienota **Joma**, **Līdzeklis** un **Līdzekļa veids**, lai parādītu detalizētāku informāciju par kļūmju reģistrācijām.
 
 - Slejā **Iespējamība %**, ja pievienojat līdzeklim visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz kombināciju **Simptoms** un **Joma** šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes joma, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šai kļūmes jomai.  
 

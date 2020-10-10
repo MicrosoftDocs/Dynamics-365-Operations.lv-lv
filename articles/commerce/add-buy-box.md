@@ -3,7 +3,7 @@ title: Iegādes lodziņa modulis
 description: Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761301"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817089"
 ---
 # <a name="buy-box-module"></a>Iegādes lodziņa modulis
 
@@ -75,9 +75,12 @@ Iegādes lodziņa moduļa iestatījumus var konfigurēt sadaļā **Vietnes iesta
 - **Krājumi** — papildinformāciju par to, kā lietot krājumu iestatījumus, skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
 - **Pievienot grozam** — šis rekvizīts tiek izmantots, lai noteiktu uzvedību pēc krājuma pievienošanas grozam. Iespējamās vērtības ir **Doties uz grozu**, **Nedoties uz grozu** un **Parādīt paziņojumus**. Kad vērtība ir iestatīta uz **Doties uz grozu**, lietotāji pēc krājuma pievienošanas tiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta uz **Nedoties uz grozu**, lietotāji pēc krājuma pievienošanas netiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta **Rādīt paziņojumus**, lietotājiem tiek parādīts apstiprinājuma paziņojums un viņi turpināt pārlūkot preces informācijas lapā. 
 
-    Attēlā zemāk redzams "pievienots grozam" apstiprinājuma paziņojuma piemērs Fabrikam vietnē.
+> [!IMPORTANT]
+> Vietas iestatījums **Pievienot groza** ir pieejams Dynamics 365 Commerce 10.0.11 laidienā. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Paziņojuma moduļa piemērs](./media/ecommerce-addtocart-notifications.PNG)
+Attēlā zemāk redzams "pievienots grozam" apstiprinājuma paziņojuma piemērs Fabrikam vietnē.
+
+![Paziņojuma moduļa piemērs](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unit mijiedarbība
 
@@ -111,7 +114,7 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Veikalu atlasītāja modulis](store-selector.md)
 
@@ -129,6 +132,8 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 
 [Kājenes modulis](author-footer-module.md)
 
-[Sociālās koplietošanas modulis](social-share-module.md)
+[Sociālo tīklu dalīšanās modulis](social-share-module.md)
 
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
+
+[SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)

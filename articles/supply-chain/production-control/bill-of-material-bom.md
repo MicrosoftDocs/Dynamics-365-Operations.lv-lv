@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
+ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a24136c9fad3f1de68158cbd14a60b0ebd147b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0a02bc506057a02e822733077c45286f3e23db2
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211702"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895333"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Materiālu komplekti un formulas
 
@@ -60,7 +60,7 @@ Preces dzīves ciklā dažādu iemeslu dēļ var tikt izveidoti daudzi MK veidi:
 -   **Konstruēšanas MK** — šis MK parasti tiek izmantots, projektējot preces, kas balstītas uz esošo preču portfeļiem. Konstruēšanas MK ir strukturēti, lai vienkāršotu projektēšanas procesu un grupētu kompleksas preces konstruēšanas moduļos. Vienkāršām precēm ir iespējami konstruēšanas MK faktiskajam ražošanas procesam. Tomēr citām precēm konstruēšanas MK ir jāpārveido par faktiskās ražošanas MK. MK hierarhijā konstruēšanas MK parasti attēlo fantomi. Lai arī konstruēšanas MK var izmantot ražošanas operāciju plānošanai un izpildei, šī pieeja var izraisīt efektivitātes samazināšanos, jo īpaši atkārtotām operācijām, ja tiek izveidoti daudzi pasūtījumi.
 -   **Plānošanas MK** — šis MK tiek izmantots, lai veiktu plānošanu materiālu vajadzībām. Komponentu un sastāvdaļu pieprasījumu aprēķina, pamatojoties uz pabeigto preču pieprasījumu. Tāpat kā izmaksu aprēķināšanas MK, arī plānošanas MK var atspoguļot konkrētu materiālu sajaukumu, kas tiek izmantots periodā.
 -   **Ražošanas MK** — tas ir faktiskais MK, kas tiek izmantots noteiktai ražošanai. Ražošanas MK ir jāņem vērā faktiskie resursi, kas tiek izmantoti produkta ražošanai. Veidojot ražošanas pasūtījumu, partijas pasūtījumu vai Kanban, vairāki MK līmeņi, kuri ir norādīti ar fantomiem, tiek sakļauti vienā līmenī un sadalīti pa operācijām attiecīgajam pasūtījumam.
--   **Izmaksu aprēķināšanas MK** — šis MK tiek izmantots, lai aprēķinātu preces novērtētās izmaksas. Piemēram, izmaksu aprēķināšanas MK var izmantot, ja tiek izmantotas standarta izmaksas vai tiek aprēķinātas noteiktas preces novērtētās plānotās izmaksas. Izmaksu aprēķināšanas MK var attiekties uz tādu konkrētu materiālu un resursu sajaukumu, kurus paredzēts izmantot. Tādējādi izmaksu aprēķināšanas MK var izmantot, lai izveidotu reprezentatīvas novērtētās izmaksas par periodu un palīdzētu izvairīties no novirzēm laika gaitā.
+-   **Izmaksu aprēķināšanas MK** – šis MK tiek izmantots, lai aprēķinātu preces novērtētās izmaksas. Piemēram, izmaksu aprēķināšanas MK var izmantot, ja tiek izmantotas standarta izmaksas vai tiek aprēķinātas noteiktas preces novērtētās plānotās izmaksas. Izmaksu aprēķināšanas MK var attiekties uz tādu konkrētu materiālu un resursu sajaukumu, kurus paredzēts izmantot. Tādējādi izmaksu aprēķināšanas MK var izmantot, lai izveidotu reprezentatīvas novērtētās izmaksas par periodu un palīdzētu izvairīties no novirzēm laika gaitā.
 
 MK tipi, kuri tiek faktiski izmantoti ieviešanā, ir atkarīgi no ieviešanas, kā arī no uzņēmējdarbības scenārijiem un prasībām. Vienkāršas ieviešanas gadījumos plānošanas MK, ražošanas MK un izmaksu aprēķināšanas MK var modelēt kā vienu MK. Vidēs, kurās bieži notiek tehnoloģiskas izmaiņas un ir vairāki alternatīvi maršruti, visticamāk, būs nepieciešama lielāka MK veidu kopa.
 

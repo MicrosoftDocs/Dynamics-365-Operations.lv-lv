@@ -3,7 +3,7 @@ title: Satura bloka modulis
 description: Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269686"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817358"
 ---
 # <a name="content-block-module"></a>Satura bloka modulis
 
@@ -73,7 +73,7 @@ Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar funkcijas iz
 |----------------|--------|-------------|
 | Teksta izvietojums | **Pa kreisi**, **Pa labi**, **Pa vidu** | Šis rekvizīts nosaka teksta novietojumu attiecībā pret attēlu. Tas attiecas tikai uz varoņa izkārtojumu. |
 | Teksta motīvs     | **Gaišs** vai **Tumšs** | Teksta krāsu shēmu var definēt, pamatojoties uz fona attēlu. Piemēram, ja attēlam ir tumšs fons, var lietot gaismas dizainu, lai tekstu padarītu redzamāku un panāktu atbilstību krāsu kontrasta koeficientu pieejamībai. Tas attiecas tikai uz varoņa izkārtojumu.|
-| Attēla izvietojums       | **Pa kreisi**, **Pa labi** | Šis rekvizīts norāda, vai attēlam jāatrodas pa kreisi vai pa labi no teksta. Tas attiecas tikai uz funkciju izkārtojumu.  |
+| Attēla izvietojums       | **Pa kreisi**,  **Pa labi** | Šis rekvizīts norāda, vai attēlam jāatrodas pa kreisi vai pa labi no teksta. Tas attiecas tikai uz funkciju izkārtojumu.  |
 
 ## <a name="add-a-content-block-module-to-a-new-page"></a>Satura bloka moduļa pievienošana jaunā lapā
 
@@ -98,7 +98,7 @@ Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekviz
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Akcijas reklāmkaroga modulis](add-alert.md)
 

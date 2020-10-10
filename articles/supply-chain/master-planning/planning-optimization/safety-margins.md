@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05ac817081689f27cdf55cb86a3235d7707a737b
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 646a0e7c8b8a7f2d00a50eddfa65500d0f8afbaf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803425"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814904"
 ---
 # <a name="safety-margins"></a>Drošības rezerves
 
@@ -162,13 +162,13 @@ Lai noteiktu, vai plānošanas programma konkrētajam datuma veidam var izmantot
 
 #### <a name="calendar-setup-overview-matrix"></a>Kalendāra iestatīšanas pārskata matrica
 
-Sekojošajā attēlā redzama matrica, kas apkopo, kuri kalendāri tiek lietoti, aprēķinot drošības rezerves. Šādi saīsinājumi un krāsas tiek izmantoti, lai norādītu, kur ir norādīts katrs kalendāra veids:
+Sekojošajā attēlā redzama matrica, kas apkopo, kuri kalendāri tiek lietoti, aprēķinot drošības rezerves. (Atlasiet attēlu, lai atvērtu augstas izšķirtspējas versiju.) Šādi saīsinājumi un krāsas tiek izmantotas, lai norādītu, kur katrs kalendāra tips ir norādīts:
 
 - **Seguma grupa (Coverage group - CG):** Zaļa
 - **Noliktava (Warehouse - WH):** Dzeltena
 - **Kreditors (Vendor - V):** Zila
 
-![Kalendāra iestatīšanas pārskata matrica](media/safety-margins-calendar-matrix.png)
+[![Kalendāra iestatīšanas pārskata matrica](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Kavējumu aprēķināšana
 
