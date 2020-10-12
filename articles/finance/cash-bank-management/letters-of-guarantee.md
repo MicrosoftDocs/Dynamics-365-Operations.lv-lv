@@ -1,7 +1,7 @@
 ---
 title: Garantijas vēstules
 description: Šajā rakstā ir sniegta informācija par garantijas vēstulēm. Garantijas vēstulē banka piekrīt personai maksāt noteiktu naudas summu, ja kāds no bankas klientiem nepilda maksājumu vai saistības attiecībā pret šo personu.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 18291
 ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e7ab2e66c378388d002d2f2090f89bf6c96dac2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e3dbf08679c165258a4a4027bf1cf73484d9efd3
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178870"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899598"
 ---
 # <a name="letters-of-guarantee"></a>Garantijas vēstules
 

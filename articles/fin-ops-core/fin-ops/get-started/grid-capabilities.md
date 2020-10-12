@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760403"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835090"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -33,6 +33,7 @@ Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko 
 -  Rakstīšana pirms sistēmas
 -  Matemātisko izteiksmju novērtēšana 
 -  Tabulas datu grupēšana (iespējota atsevišķi, izmantojot **(Priekšskatījums) Grupēšana režģos** līdzekli)
+-  Piespraustās sistēmas kolonnas
 
 ## <a name="calculating-totals"></a>Aprēķina kopsummu
 Programmatūrā Finance and Operations lietotājiem ir iespēja redzēt kopsummas režģos ciparu kolonnu lejasdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
@@ -119,12 +120,19 @@ Tāpat kā visas režģa rindas var atlasīt (vai noņemt atlasi), atzīmējot i
 ### <a name="hiding-column-names"></a>Kolonnu nosaukumu paslēpšana
 Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Sākot ar versiju 10.0.14/Platformas atjauninājums 38, varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
 
+## <a name="pinned-system-columns"></a>Piespraustās sistēmas kolonnas
+Rindas atlases kolonna un rindas statusa kolonna jaunajā režģī ir piesprausta vai sasaldēta režģa kreisajā malā. Tādējādi, kad šīs kolonnas ir iekļautas režģī, tās vienmēr būs redzamas lietotājam neatkarīgi no horizontālās ritināšanas pozīcijas režģī.   
+
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kā iespējot jauno režģa kontroli manā vidē? 
 
-**10.0.9/Platform update 33 vai jaunāka** **Jauno režģu kontroles** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi publiskie priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/Platformas atjauninājums 33 un jaunāks**
 
-**10.0.8/Platform update 32 vai 10.0.7/Platform update 31** Līdzekli **Jaunā režģa kontrole** var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
+**Jaunā režģa kontroles** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi publiskie priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platformas atjauninājums 32 un 10.0.7/Platformas atjauninājums 31**
+
+**Jaunā režģa kontroles** līdzekli var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
 
 1.  **Iespējot būvējumu izsniegšanu**: izpildīt šādu SQL priekšrakstu: 
 
@@ -139,11 +147,14 @@ Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas ga
 Visas turpmākās lietotāja sesijas sāksies ar iespējotu jaunā režģa kontroli.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Attīstītājs] Atteikšanās no atsevišķām lapām, izmantojot jauno režģi 
-Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
+Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jauno režģi, ir pieejams API, sākot ar versiju 10.0.13/Platformas atjauninājumu 37, lai ļautu atsevišķai formai izmantot mantoto režģa vadīklu, joprojām ļaujot pārējai sistēmai izmantot jauno režģa vadīklu. Lai izņemtu atsevišķu lapu no jaunā režģa, pievienojiet šādu izsaukuma ierakstu `super()` formas `run()` metodē.
 
  ```this.forceLegacyGrid();```
 
-Šis API tiks ievērots līdz 2021. gada oktobra izlaidumam, kad jaunā režģa kontrole kļūs obligāta. Lūdzu, ziņojiet par visām Microsoft problēmām, kam nepieciešams izmantot šo API. 
+Šis API tiks ievērots līdz 2021. gada oktobra izlaidumam, kad jaunā režģa kontrole kļūs obligāta. Ja kādai problēmai nepieciešams izmantot šo API, ziņojiet par to Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Izstrādātājs] Pielāgot pieejamo kolonnu platumu
+Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz **SizeToAvailable**, šīm kolonnām sākotnēji ir tāds pats platums, kāds tām būtu, ja rekvizīts būtu iestatīts uz **SizeToContent**. Tomēr tās izplešas, lai izmantotu jebkādu pieejamo papildu platumu režģī. Ja vairākām kolonnām rekvizīts ir iestatīts uz **SizeToAvailable**, visas šīs kolonnas koplieto jebkādu pieejamo papildu platumu režģī. Tomēr, ja lietotājs manuāli maina lielumu vienai no šīm kolonnām, tad kolonna kļūst statiska. Tās paliks šajā platumā un vairs neaizņems pieejamo papildu režģa platumu.  
 
 ## <a name="known-issues"></a>Zināmās problēmas
 Šajā sadaļā ir saglabāts saraksts ar zināmajām problēmām jaunajai režģa kontrolei, kamēr līdzeklis atrodas priekšskatījuma stāvoklī.  

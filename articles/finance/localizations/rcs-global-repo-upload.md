@@ -3,7 +3,7 @@ title: Elektronisko pārskatu konfigurāciju izveide pakalpojumā RCS un to aug�
 description: Šajā tēmā skaidrots, kā izveidot elektronisko pārskatu (ER) konfigurāciju Microsoft Regulatory Configuration Services (RCS) un augšupielādēt to globālajā repozitorijā.
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371257"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834237"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER konfigurāciju izveide Regulatory Configuration Services (RCS) un to augšupielāde globālajā repozitorijā
 
@@ -54,7 +54,7 @@ Ja RCS vide jūsu uzņēmumam jau ir nodrošināta, izmantojiet lapas vietrādi 
 5. Ievadiet nosaukumu un aprakstu un pēc tam atlasiet **Izveidot konfigurāciju**, lai izveidotu jaunu atvasinātu versiju.
 6. Atlasiet tikko atvasināto konfigurāciju, pievienojiet versijas aprakstu un pēc tam atlasiet **Labi**. Konfigurācijas statuss ir nomainīts uz **Pabeigts**.
 
-![Jauna konfigurācijas versija RCS](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![Jauna konfigurācijas versija RCS](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Kad konfigurācijas statuss ir mainīts, var tikt parādīts pārbaudes kļūdas ziņojums, kas saistīts ar savienotajām lietojumprogrammām. Lai izslēgtu pārbaudi, cilnes **Konfigurācijas** darbību rūtī atlasiet **Lietotāja parametri** un pēc tam opciju **Izlaist validāciju konfigurācijas statusa maiņai un pārbāzei** iestatītu uz **Jā** 
@@ -66,7 +66,7 @@ Lai koplietotu jaunu vai atvasinātu konfigurāciju ar savu organizāciju, varat
 1. Atlasiet konfigurācijas pabeigtu versiju un pēc tam atlasiet **Augšupielādēt repozitorijā**.
 2. Atlasiet opciju **Globāli (Microsoft)** un pēc tam atlasiet **Augšupielādēt**.
 
-    ![Augšupielādēt repozitorija opcijās](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Augšupielādēt repozitorija opcijās](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Apstiprinājuma ziņojuma lodziņā atlasiet **Jā**. 
 4. Atjauniniet versijas aprakstu pēc nepieciešamības un pēc tam atlasiet **Labi**. 
@@ -74,6 +74,27 @@ Lai koplietotu jaunu vai atvasinātu konfigurāciju ar savu organizāciju, varat
 Konfigurācijas statuss ir atjaunināts uz **Kopīgot**, un konfigurācija ir augšupielādēta globālajā repozitorijā. No turienes ar to var strādāt šādos veidos:
 
 - Importējiet to savā Dynamics 365 instancē. Papildinformāciju skatiet [(ER) Konfigurāciju importēšana no RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
-- Koplietot to ar trešo pusi vai ārēju organizāciju, skatiet [RCS Koplietot elektronisko pārskatu (ER) konfigurācijas ar ārējām organizācijām](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- Koplietot to ar trešo pusi vai ārēju organizāciju, skatiet [RCS Koplietot elektronisko pārskatu (ER) konfigurācijas ar ārējām organizācijām](rcs-global-repo-share-configuration.md)
 
-![Atvasinātā Intrastat Contoso konfigurācijas versija globālajā krātuvē](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Atvasinātā Intrastat Contoso konfigurācijas versija globālajā krātuvē](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>Konfigurācijas dzēšana no globālā repozitorija
+Lai dzēstu jūsu organizācijas izveidoto konfigurāciju, veiciet tālāk norādītās darbības.
+
+1. **Elektroniskā pārskata** darbvietā pārbaudiet, vai jūsu konfigurācijas nodrošinātājs ir **Aktīvs**. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Aktīvajam konfigurācijas nodrošinātājam atlasiet **repozitoriju**.
+3. Atlasiet repozitorija veidu **Globāls** un atlasiet **Atvērt**.
+4. Kopsavilkuma cilnē **Filtrs** atrodiet konfigurāciju, ko vēlaties dzēst, izmantojot funkciju **Filtrs**.
+5. Kopsavilkuma cilnē **Versija** atlasiet konfigurācijas versiju, ko vēlaties dzēst, un pēc tam atlasiet **Dzēst**:
+
+    ![Konfigurācijas dzēšana no globālā repozitorija](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. Apstiprinājuma ziņojuma lodziņā atlasiet **Jā**.
+
+    ![Konfigurācijas versijas dzēšanas apstiprinājuma ziņojums](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+Konfigurācijas versija tiek dzēsta un tiek parādīts apstiprinājuma ziņojums. 
+
+> [!NOTE]
+> Konfigurācijas var dzēst tikai konfigurāciju nodrošinātājs, kas tās izveidoja. Ja konfigurācija ir koplietota ar citu organizāciju, tad pirms tās dzēšanas, konfigurācijas koplietošana ir jāatceļ.
+ 

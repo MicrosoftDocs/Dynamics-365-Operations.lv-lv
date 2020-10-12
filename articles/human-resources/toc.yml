@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2020.\_gada 16.\_septembris"
+          href: hr-whats-new-2020-09-16.md
         - name: "2020.\_gada 3.\_septembris"
           href: hr-whats-new-2020-09-03.md
         - name: "2020.\_gada 20.\_augusts"
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Pielāgotu lauku izveide un darbs ar tiem
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: PowerApps programmu iegulšana
+            - name: Power Apps pamatnes programmu iegulšana
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json

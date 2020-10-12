@@ -3,7 +3,7 @@ title: Nodokļu direktīvas Eiropai
 description: Var norādīt, vai iekļaut PVN kodu skaidrojumu pārdošanas rēķinos un projekta rēķinos. Atsauces numurus var drukāt uz pārdošanas rēķiniem, brīva teksta rēķiniem un projekta rēķiniem.
 author: epodkolz
 manager: AnnBe
-ms.date: 06/03/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
+ms.sourcegitcommit: 814476906187480262b390ca49e487eb91738deb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3422995"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819107"
 ---
 # <a name="tax-directives-for-europe"></a>Nodokļu direktīvas Eiropai
 
@@ -32,4 +32,4 @@ ES direktīvā ir noteikumi, kas visām Dalībvalstīm ir jāievēro attiecība
 - Kredīta notām sākotnēja rēķina numurs un datums tiek drukāti kopā ar labojuma pamatojumu.
 
 > [!NOTE]
-> Lapas **Veidlapas iestatīšana** (**Debitori** > **Iestatīšana** > **Veidlapas** > **Veidlapas iestatīšana** cilnē **Vispārīgi**), pārliecinieties, ka lauks **PVN specifikācija** ir iestatīts uz **Reģistrācijas valūta** vai **Reģistrācijas un uzņēmuma valūta**.
+> Pārliecinieties, ka lauks **PVN specifikācija** ir iestatīts uz **Reģistrācijas valūta** vai **Reģistrācijas un uzņēmuma valūta** lapā **Veidlapas iestatīšana** cilnē **Vispārīgi** (**Debitori > Iestatīšana > Veidlapas > Veidlapas iestatīšana** vai **Projektu vadība un uzskaite > Iestatīšana > Veidlapas > Veidlapas iestatīšana**).

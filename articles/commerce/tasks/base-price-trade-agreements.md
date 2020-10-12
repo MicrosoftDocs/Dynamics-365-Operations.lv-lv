@@ -1,5 +1,5 @@
 ---
-title: " Bāzes cena un tirdzniecības līgumi"
+title: Bāzes cena un tirdzniecības līgumi
 description: Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus.
 author: josaw1
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141526"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899353"
 ---
-# <a name="base-price-and-trade-agreements"></a> Bāzes cena un tirdzniecības līgumi
+# <a name="base-price-and-trade-agreements"></a>Bāzes cena un tirdzniecības līgumi
 
 [!include [banner](../includes/banner.md)]
 
@@ -58,7 +58,7 @@ ms.locfileid: "3141526"
 26. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
 27. Sarakstā atlasiet rindu **Tirdzniecība**. Demonstrācijas datos žurnāla nosaukumam **Commerce** ir noklusējuma relācija **Cena (pārdošanas)**. Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.  
 28. **Darbību rūtī** noklikšķiniet uz **Rindas**.
-29. Atlasiet „Grupa” laukā **Konta kods**.
+29. Laukā **Puses koda veids** atlasiet "Grupa".
 30. Laukā **Konta atlase** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
 31. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Tādējādi tiks pabeigta piesaiste no kanāla uz cenu grupu uz tirdzniecības līgumu.  
 32. Laukā **Vienuma attiecība** ierakstiet vērtību.

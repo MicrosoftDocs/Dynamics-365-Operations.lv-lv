@@ -3,7 +3,7 @@ title: Vietnes dizaina atlase
 description: Šajā tēmā ir aprakstīts, kā iestatīt vai mainīt vietnes dizainu programmā Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002755"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817710"
 ---
 # <a name="select-a-site-theme"></a>Vietnes dizaina atlase
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ ms.locfileid: "3002755"
 
 Vietnes izkārtojums un stils (piemēram, fonti, lielumi un krāsas) tiek definēti ar dizainu, ko atlasāt un piemērojat vietnei. Dizainu veido un izvieto izstrādātājs jūsu uzņēmumā. Lai skatītu dizainu pārskatu, skatiet sadaļu [Dizainu pārskats](http://). Papildinformāciju par to, kā izveidot un izvietot dizainus, skatiet sadaļā [Jaunu dizainu izveide](http://).
 
-Pēc noklusējuma, pirmoreiz izveidojot vietni, tā lieto tēmu ar nosaukumu **Fabrikam**. Šis noklusējuma dizains tiek nodrošināts kā sākuma komplekta daļa. Pēc tam, kad esat izvietojis papildu dizainus vietnei, varat konfigurēt vietni, lai tā vietā izmantotu vienu no tiem.
+Pēc noklusējuma, pirmoreiz izveidojot vietni, tā lieto tēmu ar nosaukumu **Fabrikam**. Šis noklusējuma dizains tiek nodrošināts kā Commerce moduļu bibliotēkas daļa. Pēc tam, kad esat izvietojis papildu dizainus vietnei, varat konfigurēt vietni, lai tā vietā izmantotu vienu no tiem.
 
 ## <a name="select-the-site-theme"></a>Vietnes dizaina atlase
 

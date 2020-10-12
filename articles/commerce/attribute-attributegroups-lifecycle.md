@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 11f385514cc12733987a4855b626c067ff355b54
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023241"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895357"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribūtu un atribūtu grupu pārvaldība
 
@@ -56,13 +56,13 @@ Piemēram, parastam televizoram var būt tālāk minētie atribūti.
 
 Atribūti ir balstīti uz *atribūtu veidiem*. Atribūta veids norāda datu veidu, ko var ievadīt noteiktam atribūtam. Tiek atbalstīti šādi atribūtu veidi:
 
-- **Valūta** — šis veids atbalsta valūtas vērtību. Tas var būt saistīts (var atbalstīt vērtību diapazonu) vai palikt atvērts.
-- **DateTime** — šis veids atbalsta datuma un laika vērtības. Tas var būt saistīts vai palikt atvērts.
-- **Decimāldaļa** — šis veids atbalsta skaitliskās vērtības, kas ietver decimāldaļskaitļus. Tas atbalsta arī mērvienības. Tas var būt saistīts vai palikt atvērts.
-- **Vesels skaitlis** — šis veids atbalsta skaitliskas vērtības. Tas atbalsta arī mērvienības. Tas var būt saistīts vai palikt atvērts.
-- **Teksts** — šis veids atbalsta teksta vērtības. Tas atbalsta arī iepriekš definētu iespējamo vērtību kopu (jeb *uzskaitījumu*).
-- **Būla** — šis veids atbalsta binārās vērtības (**true** vai **false**).
-- **Atsauce** — šis veids satur atsauces uz citiem atribūtiem.
+- **Valūta** – šis veids atbalsta valūtas vērtību. Tas var būt saistīts (var atbalstīt vērtību diapazonu) vai palikt atvērts.
+- **DateTime** – šis veids atbalsta datuma un laika vērtības. Tas var būt saistīts vai palikt atvērts.
+- **Decimāldaļa** – šis veids atbalsta skaitliskās vērtības, kas ietver decimāldaļskaitļus. Tas atbalsta arī mērvienības. Tas var būt saistīts vai palikt atvērts.
+- **Vesels skaitlis** – šis veids atbalsta skaitliskas vērtības. Tas atbalsta arī mērvienības. Tas var būt saistīts vai palikt atvērts.
+- **Teksts** – šis veids atbalsta teksta vērtības. Tas atbalsta arī iepriekš definētu iespējamo vērtību kopu (jeb *uzskaitījumu*).
+- **Būla** – šis veids atbalsta binārās vērtības (**true** vai **false**).
+- **Atsauce** – šis veids satur atsauces uz citiem atribūtiem.
 
 ### <a name="set-up-attribute-types"></a>Iestatīt atribūtu tipus
 
@@ -104,7 +104,7 @@ Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu
 
 Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Commerce standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
 
-Informāciju par šo pārējo opciju mērķi skatiet rakstā [SharePoint Server 2013 meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).
+Informāciju par šo pārējo opciju mērķi skatiet rakstā [Server 2013 SharePoint meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atribūtu filtra iestatījumi
 
@@ -112,20 +112,20 @@ Atribūtu filtra iestatījumi ļauj definēt to, kā atribūtu filtri tiek rād�
 
 Lapa **Filtra rādīšanas preferences** ietver šādus laukus:
 
-- **Nosaukums** — pēc noklusējuma šis lauks ir iestatīts uz atribūta nosaukumu. Tomēr vērtību var mainīt.
-- **Rādīšanas opcija** — ir pieejamas tālāk uzskaitītās opcijas.
+- **Nosaukums** – pēc noklusējuma šis lauks ir iestatīts uz atribūta nosaukumu. Tomēr vērtību var mainīt.
+- **Rādīšanas opcija** – ir pieejamas tālāk uzskaitītās opcijas.
 
-    - **Viena vērtība** — opcija ir pieejama šādiem atribūtu veidiem: **Būla**, **Valūta**, **Decimāldaļa**, **Vesels skaitlis** un **Teksts**. Šī opcija ļauj klientā atlasīt vienu vērtību šiem atribūtiem precizēšanas nolūkā.
-    - **Vairākas vērtības** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa**, **Vesels skaitlis** un **Teksts**. Šī opcija ļauj klientā atlasīt vairākas vērtības šim atribūtam precizēšanas nolūkā.
+    - **Viena vērtība** – opcija ir pieejama šādiem atribūtu veidiem: **Būla**, **Valūta**, **Decimāldaļa**, **Vesels skaitlis** un **Teksts**. Šī opcija ļauj klientā atlasīt vienu vērtību šiem atribūtiem precizēšanas nolūkā.
+    - **Vairākas vērtības** – opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa**, **Vesels skaitlis** un **Teksts**. Šī opcija ļauj klientā atlasīt vairākas vērtības šim atribūtam precizēšanas nolūkā.
 
-- **Rādīšanas vadība** — ir pieejamas tālāk uzskaitītās opcijas.
+- **Rādīšanas vadība** – ir pieejamas tālāk uzskaitītās opcijas.
 
-    - **Saraksts** — šī opcija ir pieejama visiem atribūtu veidiem.
-    - **Diapazons** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
-    - **Slīdnis** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
-    - **Slīdnis ar joslām** — opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
+    - **Saraksts** – šī opcija ir pieejama visiem atribūtu veidiem.
+    - **Diapazons** – opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
+    - **Slīdnis** – opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
+    - **Slīdnis ar joslām** – opcija ir pieejama šādiem atribūtu veidiem: **Valūta**, **Decimāldaļa** un **Vesels skaitlis**.
 
-- **Sliekšņa vērtība** — šis iestatījums ir nepieciešams, ja atlasījāt **Diapazons** kā displeja vadības veidu. Vērtības var definēt, kā atdalītāju izmantojot semikolu (;).
+- **Sliekšņa vērtība** – šis iestatījums ir nepieciešams, ja atlasījāt **Diapazons** kā displeja vadības veidu. Vērtības var definēt, kā atdalītāju izmantojot semikolu (;).
 
     Piemēram, izmantojot filtru **Iepakojuma tilpums**, sliekšņa vērtība var būt **10; 20; 50; 100; 200; 500; 1000; 5000**. Šajā gadījumā POS rādīs tālāk minētos diapazonus. Diapazonus, kam nav preču, tiks parādīti pelēkoti.
 

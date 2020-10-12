@@ -3,7 +3,7 @@ title: Kartes modulis
 description: Šajā tēmā ir apskatīti kartes moduļi un aprakstīts, kā tos konfigurēt programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811188"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817210"
 ---
 # <a name="map-module"></a>Kartes modulis
 
@@ -38,7 +38,8 @@ Kartes modulī tiek parādītas veikalu atrašanās vietas interaktīvajā kart�
 
 cKartes modulis darbojas savienojumā ar veikala atlasītāja moduli, lai noteiktu to veikalu ģeogrāfiskās atrašanās vietas, kas ir jāatveido kartē. Veikala atlasītājs un karšu moduļi mijiedarbojas kad lietotājs atlasa veikalu vienā no šiem moduļiem vietnes lapā. Karšu moduļus var pagarināt citiem scenārijiem, kas nav saistīti ar veikala atlasītāja moduļiem. Tomēr moduļa pielāgošana ir obligāta.
 
-Kartes modulis tika ieviests Commerce versijā 10.0.13.
+> [!NOTE]
+> Kartes modulis ir pieejams Dynamics 365 Commerce 10.0.13 laidienā.
 
 Attēlā zemāk redzams piemērs kartes modulim, kas tiek izmantots veikala atrašanās vietas lapā.
 
@@ -70,7 +71,7 @@ Lai iegūtu detalizētu informāciju par to, kā konfigurēt kartes moduli lapā
  
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Pirkšanas lodziņa modulis](add-buy-box.md)
 

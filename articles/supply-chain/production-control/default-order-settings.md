@@ -3,12 +3,12 @@ title: Noklusējuma pasūtījuma iestatījumi dimensijām un preču variantiem
 description: Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi tiks iegūti vai glabāti, minimālos, maksimālos, vairākkārtējos un standarta daudzumus, kas tiks izmantoti tirdzniecībai vai krājumu pārvaldībai, izpildes laikus, apturēšanas karodziņus un pasūtījumu solīšanas metodes.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657344"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895600"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Noklusējuma pasūtījumu iestatījumi dimensijām un preču variantiem
 
@@ -51,8 +51,11 @@ Pastāv trīs veidu pasūtījuma noklusējuma iestatījumi pirkšanai, pārdoša
 - Pirkšanas līguma rindas
 - Piedāvājuma pieprasījuma rindas
 - Pirkšanas pieprasījumu rindas
-- Sūtījuma papildināšanas rindas
+- Sūtījuma papildināšanas rindas (daļēji atbalstītas, skatiet piezīmi)
 - Plānotie pirkšanas pasūtījumi
+
+> [!NOTE]
+> Sūtījuma papildināšanas pasūtījuma rindām ir pieejami tikai tie iestatījumi no kopsavilkuma cilnes **Pirkšanas pasūtījums** lapā **Noklusējuma pasūtījuma iestatījumi**, kas ir no lauka **Noklusējuma vieta**, no lauka **Noklusējuma noliktava** un no izvēles rūtiņas **Aptutētie**.
 
 Pasūtījuma noklusējuma iestatījumi pārdošanai tiek izmantoti, kad izveidojat tālāk uzskaitītos elementus.
 

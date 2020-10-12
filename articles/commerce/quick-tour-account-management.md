@@ -3,7 +3,7 @@ title: Konta pārvaldības lapu pārskats
 description: Šajā tēmā sniegts pārskats par konta pārvaldības lapām Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527612"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817806"
 ---
 # <a name="account-management-pages-overview"></a>Konta pārvaldības lapu pārskats
 
@@ -46,7 +46,7 @@ Tālāk redzamajā attēlā ir parādīts konta pārvaldības mērķlapas piemē
 
 Lapā **Mans profils** ir redzama informācija par klienta kontu, piemēram, viņa vai viņas vārds un tālruņa numurs. Šajā lapā klients var atjaunināt savu profila informāciju. Šo lapu var pielāgot tā, lai tā iekļauj papildu klienta konta preferences, piemēram, iespēju piekrist saņemt mārketinga e-pastus.
 
-Tālāk redzamajā attēlā ir parādīts lapas **Mans profils** piemērs, kura izveidota, izmantojot sākuma komplektu.
+Tālāk redzamajā attēlā ir parādīts lapas **Mans profils** piemērs, kura izveidota, izmantojot moduļu bibliotēku.
 
 ![Mana profila lapas piemērs](./media/Account-Management-MyProfile.PNG)
 

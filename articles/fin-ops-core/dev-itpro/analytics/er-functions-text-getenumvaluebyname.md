@@ -3,7 +3,7 @@ title: GETENUMVALUEBYNAME ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota GETENUMVALUEBYNAME elektroniskā pārskata (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743859"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885231"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER funkcija
 
@@ -61,11 +61,11 @@ Iegūtā uzskaitījuma vērtība.
 
 Netiek rādīts izņēmums, ja *Enum* vērtība nav atrasta, izmantojot uzskaitījuma vērtības nosaukumu, kas ir norādīts kā *Virknes* vērtība.
 
-## <a name="example"></a>Paraugs
+## <a name="example-1"></a>1. piemērs
 
 Tālāk esošajā attēlā ir parādīts datu modelī ieviests uzskaitījums **ReportDirection**. Ņemiet vērā, ka etiķetes ir definētas uzskaitījumu vērtībām.
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Pieejamās datu modeļu uzskaitījuma vērtības](./media/ER-data-model-enumeration-values.PNG)
 
 Tālāk esošajā attēlā parādīta tālāk uzskaitītā informācija.
 
@@ -73,8 +73,48 @@ Tālāk esošajā attēlā parādīta tālāk uzskaitītā informācija.
 - Izteiksme `$IsArrivals` ir izveidota ar mērķi lietot modeļa uzskaitījumā bāzētu datu avotu **$Direction** kā šīs funkcijas parametru.
 - Šīs salīdzinājuma izteiksmes vērtība ir **TRUE**.
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Datu modeļu uzskaitījuma piemērs](./media/ER-data-model-enumeration-usage.PNG)
+
+## <a name="example-2"></a>2. piemērs
+
+`GETENUMVALUEBYNAME` un [`LISTOFFIELDS`](er-functions-list-listoffields.md) funkcijas sniedz iespēju ienest atbalstīto uzskaitījumu vērtības un etiķetes kā teksta vērtības. (Atbalstītie uzskaitījumi ir programmu uzskaitījumi, datu modeļu uzskaitījumi un formātu uzskaitījumi.)
+
+Tālāk esošajā attēlā ir parādīts modeļa kartējumā ieviests datu avots **TransType**. Šis datu avots attiecas uz programmu uzskaitījumu **LedgerTransType**.
+
+![Modeļa kartējuma datu avots, kas attiecas uz programmu uzskaitījumu](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+Tālāk esošajā attēlā ir parādīts modeļa kartējumā konfigurēts datu avots **TransTypeList**. Šis datu avots ir konfigurēts, pamatojoties uz programmu uzskaitījumu **TransType**. Funkcija `LISTOFFIELDS` tiek izmantota, lai atgrieztu visas uzskaitījuma vērtības kā ierakstu sarakstu ar laukiem. Šādā veidā tiek atklāta informācija par katra uzskaitījuma vērtību.
+
+> [!NOTE]
+> Lauks **EnumValue** ir konfigurēts **TransTypeList** datu avotam, izmantojot `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` izteiksmi. Šis lauks atgriež uzskaitījuma vērtību katram šī saraksta ierakstam.
+
+![Modeļa kartējuma datu avots, kas atgriež visas atlasītās uzskaitījuma vērtības kā ierakstu sarakstu](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+Tālāk esošajā attēlā ir parādīts modeļa kartējumā konfigurēts datu avots **VendTrans**. Šis datu avots atgriež kreditora transakciju ierakstus no **VendTrans** programmas tabulas. Katras transakcijas virsgrāmatas veids ir definēts, izmantojot lauka **TransType** vērtību.
+
+> [!NOTE]
+> Lauks **TransTypeTitle** ir konfigurēts **VendTrans** datu avotam, izmantojot `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` izteiksmi. Šis lauks atgriež pašreizējās transakcijas uzskaitījuma vērtības etiķeti kā tekstu, ja šī uzskaitījuma vērtība ir pieejama. Pretējā gadījumā šī izteiksme atgriež tukšu virknes vērtību.
+>
+> Lauks **TransTypeTitle** ir saistīts ar datu modeļa lauku **LedgerType**, kas iespējo šīs informācijas izmantošanu katrā elektroniskā pārskata formātā, kas izmanto datu modeli kā datu avotu.
+
+![Modeļa kartējuma datu avots, kas atgriež kreditoru transakcijas](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+Tālāk esošajā attēlā ir parādīts, kā varat izmantot [datu avota atkļūdotāju](er-debug-data-sources.md), lai pārbaudītu konfigurēto modeļa kartējumu.
+
+![Datu avota atkļūdotāja izmantošana, lai pārbaudītu konfigurēto modeļa kartējumu](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+Datu modeļa lauks **LedgerType** parāda transakciju veida etiķetes kā paredzēts.
+
+Ja plānojat izmantot šo pieeju lielam transakciju datu apjomam, ir jāapsver izpildes veiktspēja. Papildinformāciju skatiet [Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Teksta funkcijas](er-functions-category-text.md)
+
+[Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
+
+[LISTOFFIELDS ER funkcija](er-functions-list-listoffields.md)
+
+[FIRSTORNULL ER funkcija](er-functions-list-firstornull.md)
+
+[WHERE ER funkcija](er-functions-list-where.md)

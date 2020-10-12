@@ -3,7 +3,7 @@ title: POS lietotāja interfeisa vizuālās konfigurācijas
 description: Šajā tēmā ir sniegta informācija par Dynamics 365 Commerce pārdošanas punkta (POS) vides ekrāna izkārtojumiem.
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505638"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834213"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS lietotāja interfeisa vizuālās konfigurācijas
 
@@ -62,6 +62,8 @@ Vizuālie profili tiek piešķirti kases sistēmām un tiek izmantoti, lai norā
 > [!NOTE]
 > **Pareizais** izkārtojums un datuma/laika rādīšana netiek attiecināta uz pierakstīšanās ekrānu kompaktajā skatā.
 
+Lai sinhronizētu jaunākās vizuālo profilu konfigurācijas ar kanāla datu bāzi, ir jāpalaiž **1090** (**Reģistri**) sadales grafika darbs.
+
 ## <a name="screen-layouts"></a>Ekrāna izkārtojumi
 
 Izmantojot ekrāna izkārtojuma konfigurācijas, tiek noteiktas darbības, saturs un UI vadīklu novietojums POS ekrānos **Sveiciens** un **Transakcija**.
@@ -81,6 +83,8 @@ Izmantojot ekrāna izkārtojuma konfigurācijas, tiek noteiktas darbības, satur
 ### <a name="assignment"></a>Piešķire
 
 Ekrāna izkārtojumus var piešķirt veikala, kases sistēmas vai lietotāja līmenī. Lietotāja piešķirei ir augstāka prioritāte nekā kases sistēmas un veikala piešķirēm, un kases sistēmas piešķirei ir augstāka prioritāte nekā veikala piešķirei. Vienkāršā scenārijā, kad visi lietotāji izmanto vienu izkārtojumu neatkarīgi no kases sistēmas vai lomas, ekrāna izkārtojumu var iestatīt tikai veikala līmenī. Gadījumos, ja noteiktām kases sistēmām vai lietotājiem ir nepieciešami īpaši izkārtojumi, tos var atbilstoši piešķirt.
+
+Atkarībā no līmeņa, kurā tiek piešķirti ekrāna izkārtojumi, ir jāpalaiž **1070** (**Kanāla konfigurācija**), **1090** (**Reģistri**) un/vai **1060** (**Personāls**) sadales grafika darbi, lai sinhronizētu jaunākās ekrāna izkārtojuma konfigurācijas ar kanāla datu bāzi.
 
 ### <a name="layout-sizes"></a>Izkārtojumu lielumi
 

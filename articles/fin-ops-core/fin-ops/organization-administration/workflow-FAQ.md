@@ -3,7 +3,7 @@ title: Bieži uzdotie jautājumi par darbplūsmu
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par darbplūsmas sistēmu.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076090"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826194"
 ---
 # <a name="workflow-faq"></a>Bieži uzdotie jautājumi par darbplūsmām
 
@@ -58,3 +58,5 @@ Darbojoties Active Directory Federation Services (AD FS) ietvaros jauninātā vi
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Kāpēc es saņemu SQL strupsaķeres darbplūsmas apstrādei? 
 Noklusējuma lauka vērtība **Darbplūsmas vienumu skaitam partijā** lapā **Darbplūsmas parametri** ir 0. Vērtība 0 liek mainīt noklusējumu uz 20 vienībām partijā. Uzmanieties, pielāgojot šo vērtību, jo liels vienumu skaits katrā partijā (> 40) var izraisīt SQL strupsaķeri.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Kas ir Darbplūsmas uzlabotās kļūdas līdzeklis?
+Darbplūsmas uzlabotās kļūdas līdzeklis versijā 10.0.13 pievieno kļūdu kodus, lai diferencētu dažādas darbplūsmas kļūdu klases. Paziņotie kļūdu ziņojumi lielākoties būs līdzīgi, bet ar nelielām atšķirībām, lai tos padarītu vieglāk saprotamus.

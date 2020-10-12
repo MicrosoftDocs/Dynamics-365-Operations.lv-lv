@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766764"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828948"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj ātri pieprasīt prombūtni un skatīt savas prombūtnes bilances informāciju Microsoft Teams. Varat sazināties ar botu, lai pieprasītu informāciju. Cilne **Laiks izslēgts** sniedz detalizētu informāciju.
+Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj ātri pieprasīt prombūtni un skatīt savas prombūtnes bilances informāciju Microsoft Teams. Varat mijiedarboties ar botu, lai pieprasītu informāciju un sāktu atvaļinājuma pieprasījumu. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Turklāt varat nosūtīt personām informāciju par gaidāmo prombūtni grupās un tērzēšanā ārpus Human Resources programmas.
 
 ## <a name="install-the-app"></a>Programmas instalēšana
 
-Personāla vadības programmu varat atrast Teams veikalā.
+Human Resources programmu varat atrast Teams veikalā.
 
 1. Sadaļā Microsoft Teams atlasiet daudzpunkti.
 
@@ -56,8 +56,8 @@ Ja programma jūs automātiski nepieraksta, atlasiet cilni **Iestatījumi**, lai
 
 Ja jums ir piekļuve vairāk nekā vienai Human Resources instancei, varat atlasīt, ar kuru vidi vēlaties veidot savienojumu, cilnē **Iestatījumi**.
 
-> [!WARNING]
-> Programma pašlaik neatbalsta sistēmas administratora drošības lomu un tiks parādīts kļūdas ziņojumu, ja pierakstīsities ar sistēmas administratora kontu. Lai pierakstītos ar citu kontu, cilnē **Iestatījumi** atlasiet pogu **Kontu pārslēgšana** un pēc tam pierakstieties ar lietotāja kontu, kam nav sistēmas administratora privilēģiju.
+> [!NOTE]
+> Programma tagad atbalsta Sistēmas administratora drošības lomu.
  
 ## <a name="use-the-bot"></a>Bota izmantošana
 
@@ -82,7 +82,7 @@ Varat lūgt botam:
 
    ![Human Resources Teams atstāj programmas atvaļinājuma pieprasījumu](./media/hr-teams-leave-app-bot-request.png)
  
-Pēc atvaļinājuma pieprasījuma sākšanas varat pielāgot dienas pa tieši kartē.
+Pēc atvaļinājuma pieprasījuma sākšanas varat pielāgot dienas tieši kartē.
 
 ![Human Resources Teams atstāj programmas rediģēšanas pieprasījumu](./media/hr-teams-leave-app-bot-edit.png)
  
@@ -92,7 +92,7 @@ Kad esat pabeidzis ievadīt informāciju, atlasiet **Iesniegt**, lai to iesniegt
 
 ## <a name="manage-your-leave-in-teams"></a>Atvaļinājuma pārvaldība programmā Teams
 
-Cilne **Prombūtne** ļauj skatīt:
+Cilne **Brīvais laiks** ļauj skatīt:
 
 - Bilances informāciju katram atvaļinājuma veidam, kurā esat reģistrēts
 
@@ -102,7 +102,7 @@ Cilne **Prombūtne** ļauj skatīt:
 
 - Melnraksta atvaļinājuma pieprasījumus
 
-![Personāla vadība Teams atstāj programmas cilni Laiks izslēgts](./media/hr-teams-leave-app-timeoff-tab.png)
+![Personāla vadība Teams atstāj programmas cilni Brīvais laiks](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Jauna pieprasījuma izveidošana
 
@@ -130,13 +130,33 @@ Cilne **Prombūtne** ļauj skatīt:
 
    ![Human Resources Teams atstāj programmas rediģēšanas melnraksts](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Teams paziņojumi
+### <a name="respond-to-teams-notifications"></a>Atbildēt uz programmas Teams paziņojumiem
 
 Kad jūs vai darbinieks, kuram jūs esat apstiprinātājs, iesniedz atvaļinājuma pieprasījumu, jums tiek nosūtīts paziņojums Teams risinājuma Human Resources programmā. Varat atlasīt paziņojumu, lai to skatītu. Paziņojumi tiek rādīti arī **Tērzēšanas** zonā.
 
 Ja esat apstiprinātājs, varat izvēlēties **Apstiprināt** vai **Atteikt** paziņojumā. Var arī norādīt neobligātu ziņojumu.
 
 ![Atvaļinājuma pieprasījuma paziņojums Human Resources Teams programmā](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Sūtīt gaidāmās prombūtnes informāciju saviem kolēģiem
+
+Pēc tam, kad esat instalējis Human Resources programmu Teams, varat vienkārši nosūtīt informāciju par jūsu gaidāmo prombūtni saviem kolēģiem grupās vai tērzēšanā.
+
+1. Programmas Teams grupā vai tērzēšanā atlasiet Human Resources pogu zem tērzēšanas loga.
+
+   ![Human Resources poga zem tērzēšanas loga](./media/hr-teams-leave-app-chat-button.png)
+
+2. Atlasiet atvaļinājuma pieprasījumu, kuru vēlaties kopīgot. Ja vēlaties kopīgot melnraksta atvaļinājuma pieprasījumu, vispirms atlasiet **Melnraksti**.
+
+   ![Atlasīt gaidāmā atvaļinājuma pieprasījumu koplietošanai](./media/hr-teams-leave-app-chat-search.png)
+
+Jūsu atvaļinājuma pieprasījums tiks parādīts tērzēšanā.
+
+![Human Resources programmas atvaļinājuma pieprasījuma karte](./media/hr-teams-leave-app-chat-card.png)
+
+Ja esat kopīgojis melnraksta pieprasījumu, tas tiks parādīts kā melnraksts:
+
+![Human Resources programmas atvaļinājuma pieprasījuma kartes melnraksts](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Skatiet savas grupas atvaļinājuma kalendāru
 
@@ -164,9 +184,15 @@ Lietotāja vaicājumu un ziņojumu saturs tiek saglabāts LUIS sistēmā ne ilg�
 
 Lai pārvaldītu programmas administrēšanas iestatījumus programmā Microsoft Teams, dodieties uz [Microsoft Teams administrēšanas centru](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure Event Grid un Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid un Azure Cosmos DB
 
-Izmantojot paziņojumu līdzekli programmai Dynamics 365 Human Resources risinājumā Teams, noteikti klienta dati ieplūdīs ārpus ģeogrāfiskā reģiona, kurā atrodas jūsu nomnieka Human Resources pakalpojums. Dynamics 365 Human Resources nosūta darbinieka atvaļinājuma pieprasījumu un darbplūsmas uzdevuma informāciju Microsoft Azure Event Grid un Microsoft Teams. Šos datus var uzglabāt līdz 24 stundām un apstrādāt Amerikas Savienotajās Valstīs, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai.
+Izmantojot programmu Dynamics 365 Human Resources risinājumā Microsoft Teams, noteikti klienta dati var ieplūst ārpus ģeogrāfiskā reģiona, kurā atrodas jūsu nomnieka Human Resources pakalpojums.
+
+Dynamics 365 Human Resources nosūta darbinieka atvaļinājuma pieprasījumu un darbplūsmas uzdevuma informāciju Microsoft Azure Event Grid un Microsoft Teams. Šos datus var uzglabāt Microsoft Azure Event Grid līdz 24 stundām un tie tiks apstrādāti Amerikas Savienotajās Valstīs, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai. Lai saprastu, kur dati tiek glabāti programmā Teams, lūdzu, skatiet sadaļu: [Datu atrašanās vieta Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Sarunājoties ar botu Human Resources programmā, sarunas saturs var tikt saglabāts Azure Cosmos DB un pārsūtīts uz Microsoft Teams. Šie dati var tikt glabāti Azure Cosmos DB līdz 24 stundām un tos var apstrādāt ārpus ģeogrāfiskā reģiona, kurā atrodas jūsu nomnieka Human Resources pakalpojums, tie ir šifrēti tranzītā un bez tā, un Microsoft vai tās apakšprocesori tos neizmanto apmācības vai pakalpojumu uzlabošanai. Lai saprastu, kur dati tiek glabāti programmā Teams, lūdzu, skatiet sadaļu: [Datu atrašanās vieta Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Lai ierobežotu piekļuvi Human Resources programmai Microsoft Teams jūsu organizācijā vai lietotājiem jūsu organizācijā, skatiet sadaļu [Programmu atļauju ierobežojumu pārvaldība sistēmā Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Skatiet arī
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771287"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893367"
 ---
 # <a name="generate-printable-fti-forms"></a>Drukājamu FTI formu ģenerēšana
 
@@ -111,7 +111,7 @@ FTI veidlapas varat arī ģenerēt, kad grāmatojat FTI, ieslēdzot iestatījum
 ER platforma ģenerētajiem dokumentiem pašlaik atbalsta tālāk norādītos galamērķus.
 
 - **Lejupielādētais fails** — ģenerētās veidlapas tiek piedāvātas kā lejupielādes, ko var saglabāt, izmantojot pārlūkprogrammu.
-- **Ekrāns** — programma Microsoft Office 365 Excel tiek izmantota ģenerēto FTI formu priekšskatīšanai Excel formātā.
+- **Ekrāns** — Microsoft 365 programma Excel tiek izmantota ģenerēto FTI veidlapu priekšskatīšanai Excel formātā.
 - **SharePoint mape** — ģenerētās formas tiek saglabātas atbilstoši dokumentu pārvaldības struktūras iestatījumiem.
 - **Lietojumprogrammas arhīvs** — ģenerētās formas tiek glabātas kā izpildes žurnāla ierakstu pielikumi Microsoft Azure krātuvē.
 - **E-pasts** — ģenerētās veidlapas tiek nosūtītas kā e-pasta pielikumi.

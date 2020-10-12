@@ -1,7 +1,7 @@
 ---
 title: Termiņatlaides pārmaksām
 description: Šajā rakstā ir sniegti scenāriji, kas parāda, kā tiek apstrādāts maksājums, kad debitors izmanto termiņatlaidi, bet arī pārmaksā.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19
 ms.search.region: Global
-ms.author: kweekley
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2fafe2fba9dd71fc09c60bfa20d72fa59510b7f
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 3f0714eab80f43695b2b93f77a70f31c360277f9
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154160"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899521"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Termiņatlaides pārmaksām
 
@@ -67,9 +67,9 @@ Maksājumam un nosegšanai tiek ģenerēti tālāk norādītie uzskaites ierakst
 
 | Konts                                                                                                          | Debeta summa | Kredīta summa |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**)                 | 10,50        |               |
+| Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides** )                 | 10,50        |               |
 | Debitoru parādi                                                                                              |              | 10,50         |
-| Debitora termiņatlaide (lauks **Debitora termiņatlaide** lapā **Automātisko darījumu konti**) |              | 0,50          |
+| Debitora termiņatlaide (lauks **Debitora termiņatlaide** lapā **Automātisko darījumu konti** ) |              | 0,50          |
 | Debitoru parādi                                                                                              | 0,50         |               |
 
 ### <a name="scenario-2"></a>2. scenārijs
@@ -99,7 +99,7 @@ Pārmaksas summa 0,50 tiks saglabāta kā atvērta bilance maksājumā, un to va
 
 | Konts                                                                                          | Debeta summa | Kredīta summa |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Termiņatlaide (lauks **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**) | 10,50        |               |
+| Termiņatlaide (lauks **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides** ) | 10,50        |               |
 | Debitoru parādi                                                                              |              | 10,50         |
 
 ## <a name="cash-discount-administration--unspecific"></a>Termiņatlaižu administrēšana = Nepecifiska
@@ -132,7 +132,7 @@ Termiņatlaides summa tiek samazināta no 10,50 uz 10,00. Maksājums un rēķins
 
 | Konts                                                                                          | Debeta summa | Kredīta summa |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides**) | 10,50        |               |
+| Termiņatlaide (laukā **Galvenais konts debitoru atlaidēm** lapā **Termiņatlaides** ) | 10,50        |               |
 | Debitoru parādi                                                                              |              | 10,50         |
 
 

@@ -3,7 +3,7 @@ title: Krājumu iestatījumu lietošana
 description: Šajā tēmā ir ietverti krājumu iestatījumi un aprakstīts, kā tos lietot programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621225"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817613"
 ---
 # <a name="apply-inventory-settings"></a>Krājumu iestatījumu lietošana
 
@@ -38,6 +38,9 @@ Krājumu iestatījumi nosaka, vai krājumi ir jāpārbauda pirms preču pievieno
 Dynamics 365 Commerce nodrošina rīcībā esošo preču pieejamības aplēses. Informāciju par to, kā tiek aprēķināta aplēstā rīcībā esošo preču pieejamība, skatiet sadaļā [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md).
 
 Commerce vietņu veidotājā var definēt krājumu robežvērtības un diapazonus precei vai kategorijai. Tās nosaka, vai krājumus var klasificēt kā Noliktavā, Mazi krājumi vai Nav noliktavā. Plašāku informāciju skatiet [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
+
+> [!NOTE]
+> Krājumu robežvērtību un diapazonu atbalsts ir pieejams Dynamics 365 Commerce 10.0.12 laidienā.
 
 ## <a name="inventory-settings"></a>Krājumu iestatījumi
 
@@ -55,6 +58,9 @@ Commerce krājumu iestatījumi tiek definēti vietņu veidotājā **Vietas iesta
     - Atlasot **Nav noliktavā**, tiks parādīts tikai paziņojums "Nav noliktavā".
 
 - **Robežvērtība Nav noliktavā** — šis vecais skaitliskais iestatījums stāsies spēkā tikai tad, ja iestatījumam **Krājumu līmenis, pamatojoties uz** ir atlasīta vērtība **Robežvērtība Nav noliktavā**.
+
+> [!IMPORTANT] 
+> Šie iestatījumi ir pieejami Dynamics 365 Commerce 10.0.12 laidienā. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Moduļi, kas izmanto krājumu iestatījumus
 
@@ -74,7 +80,7 @@ Attēlā zemāk ir parādīts groza piemērs, kas parāda krājumu Noliktavā ("
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ Attēlā zemāk ir parādīts groza piemērs, kas parāda krājumu Noliktavā ("
 [Konta pārvaldības lapas un moduļi](account-management.md)
 
 [Veikalu atlasītāja modulis](store-selector.md)
+
+[SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)

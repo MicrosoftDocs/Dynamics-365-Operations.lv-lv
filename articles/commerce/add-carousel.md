@@ -3,7 +3,7 @@ title: Karuseļa modulis
 description: Šajā tēmā tiek stāstīts par karuseļa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10ff0cd566a1a8d89ccadce9571dafc5a592520b
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3620990"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816990"
 ---
 # <a name="carousel-module"></a>Karuseļa modulis
 
@@ -52,7 +52,7 @@ Attēlā zemāk redzams piemērs karuseļa modulim, kas tiek izmantots sākumlap
 | Rekvizīta nosaukums             | Vērtība                 | apraksts |
 |---------------------------|-----------------------|-------------|
 | Automātiskā atskaņošana                  | **Patiess** vai **Nepatiess** | Ja vērtība ir iestatīta uz **Patiess**, pāreja starp elementiem karuselī tiek veikta automātiski. Ja vērtība ir iestatīta uz **Nepatiess**, pāreja netiek veikta, ja vien klients neizmanto tastatūru vai peli, lai pārvietotos no viena elementa uz nākamo. |
-|  Slaidu pārejas intervāls | Vērtība sekundēs    | Intervāls pārejām starp elementiem. |
+| Slaidu pārejas intervāls | Vērtība sekundēs    | Intervāls pārejām starp elementiem. |
 | Pārejas veids           | **Slīdināt** vai **Izbalēt** | Pārejas efekts starp vienumiem. |
 | Paslēpt karuseļa apvēršanas indikatoru     | **Patiess** vai **Nepatiess** | Ja vērtība ir iestatīta uz **Patiess**, karuseļa ziņojums un secības indikators ir slēpts. |
 | Atļaut karuseļa noraidīšanu    | **Patiess** vai **Nepatiess** | Ja vērtība ir iestatīta uz **Patiess**, lietotāji var noraidīt karuseli. |
@@ -77,7 +77,7 @@ Lai pievienotu karuseļa moduli jaunā lapā un iestatītu nepieciešamos rekviz
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Akcijas reklāmkaroga modulis](add-alert.md)
 

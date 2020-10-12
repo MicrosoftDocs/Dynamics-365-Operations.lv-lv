@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216089"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893165"
 ---
 # <a name="set-up-vendor-accounts"></a>Kreditora kontu iestatīšana
 
@@ -66,7 +66,7 @@ Varat izveidot jaunas kreditora kontaktpersonas. Vai arī varat kopēt informāc
 
 Kontaktpersonas ierakstu nevar dzēst, ja uz kontaktpersonu ir atsauce dokumentā. Tā vietā var deaktivizēt kontaktpersonu.  
 
-Varat pievienot kreditora kontaktpersonas savām personiskajām kontaktpersonām programmā Microsoft Office 365. Taču vispirms ir jāiestata programmu Supply Chain Management un Office 365 sinhronizācija, izmantojot gan Microsoft Exchange Server sinhronizāciju, gan Microsoft Outlook iestatīšanas vedni.
+Varat pievienot kreditora kontaktpersonas savām personiskajām kontaktpersonām programmā Microsoft 365. Taču vispirms ir jāiestata programmu Supply Chain Management un Microsoft 365 sinhronizācija, izmantojot gan Microsoft Exchange Server sinhronizāciju, gan Microsoft Outlook iestatīšanas vedni.
 
 ## <a name="vendors-in-different-legal-entities"></a>Kreditori dažādās juridiskajās personās
 Ja kreditors ir reģistrēts tikai vienai juridiskajai personai jūsu organizācijā un citām juridiskajām personām ir jāreģistrē tas pats kreditors, varat izmantot lapu **Pievienot kreditoru citai juridiskai personai**, lai konfigurētu kreditoru darījumu veikšanai ar citu juridisko personu. Jāatlasa kreditoru grupa, valūta un aizturēšanas statuss kreditoram izvēlētajā juridiskajā personā.  
@@ -103,7 +103,7 @@ Lai iekļautu kreditorus, kas ir noteiktu periodu bijuši neaktīvi, iekļautu v
 
 Šis process vienmēr izslēgs kreditorus, kuriem laukā **Kreditora aizturēšana** ir iestatīta vērtība **Nekad**.
 
-Kreditori, kas iztur validāciju, tiek aizturēti, un tādējādi lauka **Kreditora aizturēšana** vērtība tiek iestatīta uz **Visi**, savukārt lauks **Iemesls** — uz atlasīto vērtību. Kreditora aizturēšanas vēsturē tiek izveidots ieraksts.
+Kreditori, kas iztur validāciju, tiek aizturēti, un tādējādi lauka **Kreditora aizturēšana** vērtība tiek iestatīta uz **Visi**, savukārt lauks **Iemesls** — uz atlasīto vērtību. Kreditora aizturēšanas vēsturē tiek izveidots ieraksts.
 
 ## <a name="vendor-invoice-account"></a>Kreditora rēķina saņēmējs
 Ja tāda pati rēķina adrese ir vairāk nekā vienam kreditoram vai kreditoram ir izrakstīts rēķins ar trešās puses starpniecību, varat norādīt rēķina kontu kreditora ierakstam. Rēķina konts ir konts, kurā kreditēta rēķina summa, veidojot kreditora rēķinu no pirkšanas pasūtījuma. Neievadot rēķina kontu kreditora ierakstam, kreditora konts tiek izmantots kā rēķina konts.

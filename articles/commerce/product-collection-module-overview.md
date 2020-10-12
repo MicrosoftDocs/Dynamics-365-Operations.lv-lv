@@ -3,7 +3,7 @@ title: Preču kolekcijas moduļi
 description: Šajā tēmā sniegts pārskats par preču kolekcijas moduļiem Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464957"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817577"
 ---
 # <a name="product-collection-modules"></a>Preču kolekcijas moduļi
 
@@ -98,7 +98,7 @@ Tālāk redzamā tabula parāda sarakstu veidus, kas ir pieejami atlasei dialogl
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Sākuma komplekta pārskats](starter-kit-overview.md)
+[Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Karuseļa modulis](add-carousel.md)
 
