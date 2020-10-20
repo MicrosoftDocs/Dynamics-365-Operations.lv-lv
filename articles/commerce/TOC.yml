@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations programmas Francijā
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Atbalsta saņemšana saistībā ar Dynamics 365 Commerce
-              href: retail-support.md
+            - name: Atbalsta saņemšana
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Jaunināšana un N-1 atbalsts
               items:
                 - name: Jaunināšana un N-1 atbalsts programmai Commerce
@@ -92,7 +92,9 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
-                    - name: "Commerce 10.0.14 (2020.\_novembris)"
+                    - name: "Commerce 10.0.15 (2021.\_gada janvāris)"
+                      href: get-started/whats-new-commerce-10-0-15.md
+                    - name: "Commerce 10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: "Commerce 10.0.13 (2020.\_gada oktobris)"
                       href: get-started/whats-new-commerce-10-0-13.md
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: LCS ieviešanas projektu pārvietošana uz citiem Azure AD nomniekiem
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS ieviešanas projektu pārvietošana no lokāla risinājuma uz mākoni
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Ieviest Finance and Operations Commerce projektus
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: Hibrīda debitoru pasūtījumi
                   href: hybrid-customer-orders.md
+                - name: Pasūtījumu operācijas atsaukšana POS
+                  href: enhancedorderrecall.md
             - name: Pārdošanas pasūtījumi
               items:
                 - name: Zvanu centra pasūtījuma izveide
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: Uzlabota pēc partijas izsekoto krājumu apstrāde
               href: batch.md
-            - name: 'Tādu Commerce parametru konfigurēšana, kas ietekmē pārskatus'
-              href: tasks/parameter-configurations-retail-statements.md
             - name: 'Tādu maksāšanas metožu iestatījumu konfigurēšana, kas ietekmē mazumtirdzniecības pārskatus'
               href: tasks/payment-configurations-retail-statements.md
             - name: 'Darba konfigurēšana un palaišana, lai aprēķinātu pārskatus'
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Darbs ar publicēšanas grupām
                   href: publish-groups.md
+                - name: "Koplietošana vairākos kanālos\_— iespējošana un izmantošana"
+                  href: cross-channel-sharing.md
                 - name: Zīmola piešķiršana vietnei un detalizētas informācijas par veikalu pievienošana
                   items:
                     - name: Logotipa pievienošana
@@ -1048,6 +1054,24 @@
               items:
                 - name: Tiešsaistes kanālu pārskatu ģenerēšana
                   href: generate-reports.md
+            - name: Eksperimenti
+              items:
+                - name: Eksperimenti risinājumā Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Eksperimenta hipotēzes un metrikas noteikšana
+                  href: experimentation-identify.md
+                - name: Eksperimenta iestatīšana
+                  href: experimentation-setup.md
+                - name: Eksperimenta pievienošana un rediģēšana
+                  href: experimentation-connect-edit.md
+                - name: Eksperimenta priekšskatīšana un publicēšana
+                  href: experimentation-preview-publish.md
+                - name: Eksperimenta veikšana un uzraudzība
+                  href: experimentation-run-monitor.md
+                - name: Variācijas veicināšana un eksperimenta pabeigšana
+                  href: experimentation-review-complete.md
+                - name: Eksperimenta statusa pārskatīšana
+                  href: experimentation-status.md
             - name: Kļūdu apstrāde
               items:
                 - name: Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
@@ -1076,13 +1100,19 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce kanāla fiskālās integrācijas iestatīšana
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Austrija
               items:
                 - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brazīlija
+              items:
+                - name: Commerce lokalizācija Brazīlijai
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Austrumeiropa
               items:
-                - name: Vispārīgi
+                - name: Parasts
                   items:
                     - name: Avansa rēķini programmai Commerce Austrumeiropā
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Dizaina paplašināšana no bāzes dizaina
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Pielāgotu resursu pievienošana jūsu pielāgošanas kodam
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Skripta ievade
                   items:
                     - name: Skripta ievadītāji
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: "Retail\_Typescript un C#\_starpniekserveri"
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Retail Server API patēriņš ārējās lietojumprogrammās
+                  href: dev-itpro/consume-retail-server-api
             - name: "Commerce Runtime\_(CRT) paplašināmība"
               items:
                 - name: CRT arhitektūra un konfigurēšana
