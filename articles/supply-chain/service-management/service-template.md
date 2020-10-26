@@ -15,46 +15,46 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9d8ebcb2e59fae58f0701b529674cf1f9876c6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a8a92d67afe5fd427d1bc272c59e459cb1547d22
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206845"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983234"
 ---
-# <a name="service-templates"></a><span data-ttu-id="78b0d-103">Pakalpojumu veidnes</span><span class="sxs-lookup"><span data-stu-id="78b0d-103">Service templates</span></span>
+# <a name="service-templates"></a><span data-ttu-id="9795f-103">Pakalpojumu veidnes</span><span class="sxs-lookup"><span data-stu-id="9795f-103">Service templates</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="78b0d-104">Varat definēt pakalpojumu līgumu kā veidni un vēlāk pārkopēt veidnes rindas uz citu pakalpojumu līgumu vai pakalpojuma pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="78b0d-104">You can define a service agreement as a template and copy the lines of the template later into another service agreement or into a service order.</span></span>
+<span data-ttu-id="9795f-104">Varat definēt pakalpojumu līgumu kā veidni un vēlāk pārkopēt veidnes rindas uz citu pakalpojumu līgumu vai pakalpojuma pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="9795f-104">You can define a service agreement as a template and copy the lines of the template later into another service agreement or into a service order.</span></span>
 
-## <a name="example"></a><span data-ttu-id="78b0d-105">Paraugs</span><span class="sxs-lookup"><span data-stu-id="78b0d-105">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9795f-105">Paraugs</span><span class="sxs-lookup"><span data-stu-id="9795f-105">Example</span></span>
 
-<span data-ttu-id="78b0d-106">Klientam, kam tiek sniegts pakalpojums, ir identiski pakalpojumu elevatori piecās dažādās vietās.</span><span class="sxs-lookup"><span data-stu-id="78b0d-106">A customer for whom you provide service has identical service elevators at five different locations.</span></span>
+<span data-ttu-id="9795f-106">Klientam, kam tiek sniegts pakalpojums, ir identiski pakalpojumu elevatori piecās dažādās vietās.</span><span class="sxs-lookup"><span data-stu-id="9795f-106">A customer for whom you provide service has identical service elevators at five different locations.</span></span>
 
-<span data-ttu-id="78b0d-107">Vēlaties iestatīt piecus pakalpojumu līgumus klientam, pa vienam katrai vietai.</span><span class="sxs-lookup"><span data-stu-id="78b0d-107">You want to set up five service agreements for the customer, one for each site.</span></span>
-<span data-ttu-id="78b0d-108">Lai novērstu atkārtotu iestatīšanas darbu veikšanu un pārliecinātos, ka iestatīšanas informācija pakalpojuma līgumā ir identiska, izveidojat pakalpojumu līgumu un norādiet to kā veidni pakalpojuma darbam elevatoros.</span><span class="sxs-lookup"><span data-stu-id="78b0d-108">To limit repetitive setup work, and to make sure that the setup information in the service agreements is identical, you create a service agreement and specify it as a template for the service work on the elevators.</span></span>
+<span data-ttu-id="9795f-107">Vēlaties iestatīt piecus pakalpojumu līgumus klientam, pa vienam katrai vietai.</span><span class="sxs-lookup"><span data-stu-id="9795f-107">You want to set up five service agreements for the customer, one for each site.</span></span>
+<span data-ttu-id="9795f-108">Lai novērstu atkārtotu iestatīšanas darbu veikšanu un pārliecinātos, ka iestatīšanas informācija pakalpojuma līgumā ir identiska, izveidojat pakalpojumu līgumu un norādiet to kā veidni pakalpojuma darbam elevatoros.</span><span class="sxs-lookup"><span data-stu-id="9795f-108">To limit repetitive setup work, and to make sure that the setup information in the service agreements is identical, you create a service agreement and specify it as a template for the service work on the elevators.</span></span>
 
-<span data-ttu-id="78b0d-109">Tagad varat pārkopēt veidnes rindas uz pieciem jauniem pakalpojumu līgumiem, tādējādi katrā pakalpojumu līgumā atrodas rindas no veidnes.</span><span class="sxs-lookup"><span data-stu-id="78b0d-109">You can now copy the template lines into the five new service agreements, so that each service agreement is populated with the lines from the template.</span></span>
+<span data-ttu-id="9795f-109">Tagad varat pārkopēt veidnes rindas uz pieciem jauniem pakalpojumu līgumiem, tādējādi katrā pakalpojumu līgumā atrodas rindas no veidnes.</span><span class="sxs-lookup"><span data-stu-id="9795f-109">You can now copy the template lines into the five new service agreements, so that each service agreement is populated with the lines from the template.</span></span>
 
-## <a name="create-a-template"></a><span data-ttu-id="78b0d-110">Izveidot veidni</span><span class="sxs-lookup"><span data-stu-id="78b0d-110">Create a template</span></span>
+## <a name="create-a-template"></a><span data-ttu-id="9795f-110">Izveidot veidni</span><span class="sxs-lookup"><span data-stu-id="9795f-110">Create a template</span></span>
 
-<span data-ttu-id="78b0d-111">Izveidojot pakalpojumu veidni, jūs izveidojat pakalpojumu līgumu, izveidojat tajā nepieciešamās rindas un pievienojat pakalpojumu līgumu pakalpojumu veidņu grupai.</span><span class="sxs-lookup"><span data-stu-id="78b0d-111">When you create a service template, you create a service agreement, create the required lines on it, and attach the service agreement to a service-template group.</span></span>
+<span data-ttu-id="9795f-111">Izveidojot pakalpojumu veidni, jūs izveidojat pakalpojumu līgumu, izveidojat tajā nepieciešamās rindas un pievienojat pakalpojumu līgumu pakalpojumu veidņu grupai.</span><span class="sxs-lookup"><span data-stu-id="9795f-111">When you create a service template, you create a service agreement, create the required lines on it, and attach the service agreement to a service-template group.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="78b0d-112">Pakalpojumu līgumu var definēt kā veidni tikai tad, ja tam nav pievienoti pakalpojuma pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="78b0d-112">A service agreement can be defined as a template only if it has no service orders attached to it.</span></span> <span data-ttu-id="78b0d-113">Tāpat arī nevienu pakalpojumu pasūtījumu nevar izveidot no pakalpojumu līguma, kas definēts kā veidne.</span><span class="sxs-lookup"><span data-stu-id="78b0d-113">Also, no service orders can be generated from a service agreement that is defined as a template.</span></span>
+> <span data-ttu-id="9795f-112">Pakalpojumu līgumu var definēt kā veidni tikai tad, ja tam nav pievienoti pakalpojuma pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="9795f-112">A service agreement can be defined as a template only if it has no service orders attached to it.</span></span> <span data-ttu-id="9795f-113">Tāpat arī nevienu pakalpojumu pasūtījumu nevar izveidot no pakalpojumu līguma, kas definēts kā veidne.</span><span class="sxs-lookup"><span data-stu-id="9795f-113">Also, no service orders can be generated from a service agreement that is defined as a template.</span></span>
 
-## <a name="copy-template-lines"></a><span data-ttu-id="78b0d-114">Kopēt veidnes rindas</span><span class="sxs-lookup"><span data-stu-id="78b0d-114">Copy template lines</span></span>
+## <a name="copy-template-lines"></a><span data-ttu-id="9795f-114">Kopēt veidnes rindas</span><span class="sxs-lookup"><span data-stu-id="9795f-114">Copy template lines</span></span>
 
-<span data-ttu-id="78b0d-115">Variet pārkopēt veidnes rindas no pakalpojumu veidnes uz citu pakalpojumu līgumu vai pakalpojumu pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="78b0d-115">You can copy template lines from a service template into another service agreement or into a service order.</span></span>
+<span data-ttu-id="9795f-115">Variet pārkopēt veidnes rindas no pakalpojumu veidnes uz citu pakalpojumu līgumu vai pakalpojumu pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="9795f-115">You can copy template lines from a service template into another service agreement or into a service order.</span></span>
 
-<span data-ttu-id="78b0d-116">Kopējot veidnes rindas savos pakalpojumu pasūtījumos vai pakalpojumu līgumos, veidņu grupas tiek parādītas koka skatā, kur katru grupu var paplašināt.</span><span class="sxs-lookup"><span data-stu-id="78b0d-116">When you copy template lines into your service orders or service agreements, your template groups are displayed in a tree view in which each group can be expanded.</span></span> <span data-ttu-id="78b0d-117">Šis atainojums ļauj apskatīt katru veidni un veidnes rindu.</span><span class="sxs-lookup"><span data-stu-id="78b0d-117">This display lets you view each template and template line.</span></span>
+<span data-ttu-id="9795f-116">Kopējot veidnes rindas savos pakalpojumu pasūtījumos vai pakalpojumu līgumos, veidņu grupas tiek parādītas koka skatā, kur katru grupu var paplašināt.</span><span class="sxs-lookup"><span data-stu-id="9795f-116">When you copy template lines into your service orders or service agreements, your template groups are displayed in a tree view in which each group can be expanded.</span></span> <span data-ttu-id="9795f-117">Šis atainojums ļauj apskatīt katru veidni un veidnes rindu.</span><span class="sxs-lookup"><span data-stu-id="9795f-117">This display lets you view each template and template line.</span></span>
 
-<span data-ttu-id="78b0d-118">Ir vienkāršāk noteikt pakalpojuma veidnes rindas, ko vēlaties pārkopēt, ja veidnes sagrupētas pēc vārdiem, kas atspoguļo to pielietojumu.</span><span class="sxs-lookup"><span data-stu-id="78b0d-118">It is easier to determine the service-template lines that you want to copy if you have grouped the templates under names that reflect the use of the templates.</span></span>
+<span data-ttu-id="9795f-118">Ir vienkāršāk noteikt pakalpojuma veidnes rindas, ko vēlaties pārkopēt, ja veidnes sagrupētas pēc vārdiem, kas atspoguļo to pielietojumu.</span><span class="sxs-lookup"><span data-stu-id="9795f-118">It is easier to determine the service-template lines that you want to copy if you have grouped the templates under names that reflect the use of the templates.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="78b0d-119">Saistītās tēmas</span><span class="sxs-lookup"><span data-stu-id="78b0d-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9795f-119">Saistītās tēmas</span><span class="sxs-lookup"><span data-stu-id="9795f-119">Related topics</span></span>
 
-[<span data-ttu-id="78b0d-120">Kopēt pakalpojumu veidņu rindas</span><span class="sxs-lookup"><span data-stu-id="78b0d-120">Copy service templates lines</span></span>](copy-service-template-lines.md)
+[<span data-ttu-id="9795f-120">Kopēt pakalpojumu veidņu rindas</span><span class="sxs-lookup"><span data-stu-id="9795f-120">Copy service templates lines</span></span>](copy-service-template-lines.md)

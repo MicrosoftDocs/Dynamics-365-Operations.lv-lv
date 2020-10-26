@@ -15,46 +15,46 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6314b26bd73e6b6f6147c90ecfdfa71e7105d48f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fe7f93782ff52797a6978a2490aab992bed065de
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211794"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975756"
 ---
-# <a name="reassign-activities"></a><span data-ttu-id="e6363-103">Darbību atkārtota piešķiršana</span><span class="sxs-lookup"><span data-stu-id="e6363-103">Reassign activities</span></span> 
+# <a name="reassign-activities"></a><span data-ttu-id="8eaae-103">Darbību atkārtota piešķiršana</span><span class="sxs-lookup"><span data-stu-id="8eaae-103">Reassign activities</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="e6363-104">Šajā tēmā ir aprakstīts, kā piešķirt pakalpojuma darbības no viena darbinieka citam darbiniekam.</span><span class="sxs-lookup"><span data-stu-id="e6363-104">This topic describes how to reassign service activities from one worker to another worker.</span></span> <span data-ttu-id="e6363-105">Varat piešķirt pakalpojuma aktivitātes no viena darbinieka citam, pat ja šie darbinieki pieder atšķirīgām nosūtīšanas grupām.</span><span class="sxs-lookup"><span data-stu-id="e6363-105">You can reassign service activities from one worker to another worker even if those workers are assigned to different dispatch teams.</span></span>
+<span data-ttu-id="8eaae-104">Šajā tēmā ir aprakstīts, kā piešķirt pakalpojuma darbības no viena darbinieka citam darbiniekam.</span><span class="sxs-lookup"><span data-stu-id="8eaae-104">This topic describes how to reassign service activities from one worker to another worker.</span></span> <span data-ttu-id="8eaae-105">Varat piešķirt pakalpojuma aktivitātes no viena darbinieka citam, pat ja šie darbinieki pieder atšķirīgām nosūtīšanas grupām.</span><span class="sxs-lookup"><span data-stu-id="8eaae-105">You can reassign service activities from one worker to another worker even if those workers are assigned to different dispatch teams.</span></span>
 
-<span data-ttu-id="e6363-106">Lai piešķirtu aktivitāti citam darbiniekam, veiciet šādas darbības:</span><span class="sxs-lookup"><span data-stu-id="e6363-106">Use the following steps to reassign an activity to another worker:</span></span>
+<span data-ttu-id="8eaae-106">Lai piešķirtu aktivitāti citam darbiniekam, veiciet šādas darbības:</span><span class="sxs-lookup"><span data-stu-id="8eaae-106">Use the following steps to reassign an activity to another worker:</span></span>
 
-1.  <span data-ttu-id="e6363-107">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiskās darbības** \> **Dispečera pults**.</span><span class="sxs-lookup"><span data-stu-id="e6363-107">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="8eaae-107">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiskās darbības** \> **Dispečera pults**.</span><span class="sxs-lookup"><span data-stu-id="8eaae-107">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="e6363-108">Lai definētu noteiktu laika periodu, kuram vēlaties skatīt darbības, ievadiet datumus laukos **Sākuma datums** un **Beigu datums**.</span><span class="sxs-lookup"><span data-stu-id="e6363-108">In the **From date** and **To date** fields, enter dates to define the time period to view activities for.</span></span>
+2.  <span data-ttu-id="8eaae-108">Lai definētu noteiktu laika periodu, kuram vēlaties skatīt darbības, ievadiet datumus laukos **Sākuma datums** un **Beigu datums**.</span><span class="sxs-lookup"><span data-stu-id="8eaae-108">In the **From date** and **To date** fields, enter dates to define the time period to view activities for.</span></span>
 
-3.  <span data-ttu-id="e6363-109">Atlasiet, vai skatīt slēgtās darbības un nosūtīšanas informāciju saistītām grupām, un pēc tam noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e6363-109">Select whether to view closed activities and dispatch information for related teams, and then click **OK**.</span></span>
+3.  <span data-ttu-id="8eaae-109">Atlasiet, vai skatīt slēgtās darbības un nosūtīšanas informāciju saistītām grupām, un pēc tam noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="8eaae-109">Select whether to view closed activities and dispatch information for related teams, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="e6363-110">Veidlapā **Dispečera pults** noklikšķiniet uz **Papildu**, lai parādītu tikai Ganta diagrammu lapas augšpuse.</span><span class="sxs-lookup"><span data-stu-id="e6363-110">In the **Dispatch board** form, click **Advanced** to display only the Gantt chart at the top of the page.</span></span> <span data-ttu-id="e6363-111">Noklikšķiniet uz **Vienkāršs**, lai veidlapā parādītu Ganta diagrammu un cilnes.</span><span class="sxs-lookup"><span data-stu-id="e6363-111">Click **Simple** to display the Gantt chart and the tabs in the form.</span></span>
+4.  <span data-ttu-id="8eaae-110">Veidlapā **Dispečera pults** noklikšķiniet uz **Papildu**, lai parādītu tikai Ganta diagrammu lapas augšpuse.</span><span class="sxs-lookup"><span data-stu-id="8eaae-110">In the **Dispatch board** form, click **Advanced** to display only the Gantt chart at the top of the page.</span></span> <span data-ttu-id="8eaae-111">Noklikšķiniet uz **Vienkāršs**, lai veidlapā parādītu Ganta diagrammu un cilnes.</span><span class="sxs-lookup"><span data-stu-id="8eaae-111">Click **Simple** to display the Gantt chart and the tabs in the form.</span></span>
 
-5.  <span data-ttu-id="e6363-112">Izvērsiet piegādes komandu sarakstu.</span><span class="sxs-lookup"><span data-stu-id="e6363-112">Expand each dispatch team list.</span></span>
+5.  <span data-ttu-id="8eaae-112">Izvērsiet piegādes komandu sarakstu.</span><span class="sxs-lookup"><span data-stu-id="8eaae-112">Expand each dispatch team list.</span></span>
 
-6.  <span data-ttu-id="e6363-113">Lai piešķirtu aktivitāti citam darbiniekam, veiciet vienu no šādām darbībām:</span><span class="sxs-lookup"><span data-stu-id="e6363-113">Use either of the following steps to reassign an activity:</span></span>
+6.  <span data-ttu-id="8eaae-113">Lai piešķirtu aktivitāti citam darbiniekam, veiciet vienu no šādām darbībām:</span><span class="sxs-lookup"><span data-stu-id="8eaae-113">Use either of the following steps to reassign an activity:</span></span>
     
-      - <span data-ttu-id="e6363-114">Atlasiet ar krāsu kodētu grafiku, kas atspoguļo to pakalpojuma aktivitāti, kura ir jāpiešķir.</span><span class="sxs-lookup"><span data-stu-id="e6363-114">Select a color-coded graphic that represents the service activity to reassign.</span></span> <span data-ttu-id="e6363-115">Nospiediet taustiņu SHIFT un pēc tam pārvietojiet ar krāsu kodētu grafiku uz cita darbinieka rindu.</span><span class="sxs-lookup"><span data-stu-id="e6363-115">Press the SHIFT key, and then move the color-coded graphic to the row for another employee.</span></span>
+      - <span data-ttu-id="8eaae-114">Atlasiet ar krāsu kodētu grafiku, kas atspoguļo to pakalpojuma aktivitāti, kura ir jāpiešķir.</span><span class="sxs-lookup"><span data-stu-id="8eaae-114">Select a color-coded graphic that represents the service activity to reassign.</span></span> <span data-ttu-id="8eaae-115">Nospiediet taustiņu SHIFT un pēc tam pārvietojiet ar krāsu kodētu grafiku uz cita darbinieka rindu.</span><span class="sxs-lookup"><span data-stu-id="8eaae-115">Press the SHIFT key, and then move the color-coded graphic to the row for another employee.</span></span>
     
-      - <span data-ttu-id="e6363-116">Cilnes **Visi**, cilnes **Grupa**, cilnes **Nav nosūtīts** vai cilnes **Saistīts** laukā **Nodarbinātais** ievadiet nodarbinātā vārdu, kurš aizstās pašreizējā nodarbinātā aktivitāti.</span><span class="sxs-lookup"><span data-stu-id="e6363-116">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, in the **Worker** field, enter the name of the worker who is replacing the current worker for the activity.</span></span>
+      - <span data-ttu-id="8eaae-116">Cilnes **Visi**, cilnes **Grupa**, cilnes **Nav nosūtīts** vai cilnes **Saistīts** laukā **Nodarbinātais** ievadiet nodarbinātā vārdu, kurš aizstās pašreizējā nodarbinātā aktivitāti.</span><span class="sxs-lookup"><span data-stu-id="8eaae-116">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, in the **Worker** field, enter the name of the worker who is replacing the current worker for the activity.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e6363-117">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="e6363-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8eaae-117">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="8eaae-117">See also</span></span>
 
-[<span data-ttu-id="e6363-118">Pakalpojumu aktivitātes</span><span class="sxs-lookup"><span data-stu-id="e6363-118">Service activities</span></span>](service-activities.md)
+[<span data-ttu-id="8eaae-118">Pakalpojumu aktivitātes</span><span class="sxs-lookup"><span data-stu-id="8eaae-118">Service activities</span></span>](service-activities.md)
 
-[<span data-ttu-id="e6363-119">Dispečera pults</span><span class="sxs-lookup"><span data-stu-id="e6363-119">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="8eaae-119">Dispečera pults</span><span class="sxs-lookup"><span data-stu-id="8eaae-119">Dispatch board</span></span>](dispatch-board.md)
 
 
 
