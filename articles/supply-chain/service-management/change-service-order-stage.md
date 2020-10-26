@@ -15,29 +15,29 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45d4533211e7f64635c9523c177aa569b6a2f8a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 52a4082f6e201bcd2820f3d11a61929d8f906840
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202955"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977028"
 ---
-# <a name="change-the-service-order-stage"></a><span data-ttu-id="c110b-103">Pakalpojuma pasūtījuma posma maiņa</span><span class="sxs-lookup"><span data-stu-id="c110b-103">Change the service order stage</span></span> 
+# <a name="change-the-service-order-stage"></a><span data-ttu-id="12e19-103">Pakalpojuma pasūtījuma posma maiņa</span><span class="sxs-lookup"><span data-stu-id="12e19-103">Change the service order stage</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c110b-104">Veiciet šīs darbības, lai pārvietotu pakalpojuma pasūtījumu uz nākamo posmu pakalpojuma darbplūsmā vai mainītu to atpakaļ uz iepriekšējo posmu.</span><span class="sxs-lookup"><span data-stu-id="c110b-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
+<span data-ttu-id="12e19-104">Veiciet šīs darbības, lai pārvietotu pakalpojuma pasūtījumu uz nākamo posmu pakalpojuma darbplūsmā vai mainītu to atpakaļ uz iepriekšējo posmu.</span><span class="sxs-lookup"><span data-stu-id="12e19-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
 
-1.  <span data-ttu-id="c110b-105">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="c110b-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="12e19-105">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="12e19-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="c110b-106">Atlasiet pakalpojuma pasūtījumu un tad noklikšķiniet cilni **Nosūtīt**.</span><span class="sxs-lookup"><span data-stu-id="c110b-106">Select the service order, and then click the **Dispatch** tab.</span></span>
+2.  <span data-ttu-id="12e19-106">Atlasiet pakalpojuma pasūtījumu un tad noklikšķiniet cilni **Nosūtīt**.</span><span class="sxs-lookup"><span data-stu-id="12e19-106">Select the service order, and then click the **Dispatch** tab.</span></span>
 
-3.  <span data-ttu-id="c110b-107">**Darbību rūtī** noklikšķiniet uz vai nu **Nākamais posms** vai **Iepriekšējais posms**.</span><span class="sxs-lookup"><span data-stu-id="c110b-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
+3.  <span data-ttu-id="12e19-107">**Darbību rūtī** noklikšķiniet uz vai nu **Nākamais posms** vai **Iepriekšējais posms**.</span><span class="sxs-lookup"><span data-stu-id="12e19-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
 
-4.  <span data-ttu-id="c110b-108">Veidlapā **Mainīt pakalpojuma posmu** atlasiet atbilstošo posmu.</span><span class="sxs-lookup"><span data-stu-id="c110b-108">In the **Change service stage** form, select the appropriate stage.</span></span>
+4.  <span data-ttu-id="12e19-108">Veidlapā **Mainīt pakalpojuma posmu** atlasiet atbilstošo posmu.</span><span class="sxs-lookup"><span data-stu-id="12e19-108">In the **Change service stage** form, select the appropriate stage.</span></span>
 
 

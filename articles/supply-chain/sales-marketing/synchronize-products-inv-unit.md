@@ -19,47 +19,47 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 62ed33d101f7d7e47b560c417dc05e5aecc83478
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 911c5cc79ae359bbb77d31f366ccfeabf282a33e
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546342"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958697"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="ef79e-103">Sinhronizēt preces ar Krājumu uzskaites vienību no Supply Chain Management uz Field Service</span><span class="sxs-lookup"><span data-stu-id="ef79e-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="f9789-103">Sinhronizēt preces ar Krājumu uzskaites vienību no Supply Chain Management uz Field Service</span><span class="sxs-lookup"><span data-stu-id="f9789-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="ef79e-104">Šajā tēmā ir aprakstītas veidnes un pamata uzdevums, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar krājumu uzskaites vienību programmā Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="ef79e-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
+<span data-ttu-id="f9789-104">Šajā tēmā ir aprakstītas veidnes un pamata uzdevums, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar krājumu uzskaites vienību programmā Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="f9789-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
 
-<span data-ttu-id="ef79e-105">[![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="ef79e-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
+<span data-ttu-id="f9789-105">[![Biznesa procesu sinhronizācija programmās Supply Chain Management un Field Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="f9789-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
 
-<span data-ttu-id="ef79e-106">Izmantotā veidne **Field Service preces ar krājumu uzskaites vienību (Supply Chain Management uz Field Service)** ir izveidota, pamatojoties uz veidni **Field Service preces (no Supply Chain Management uz Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="ef79e-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="ef79e-107">Papildinformāciju skatiet rakstā [Programmā Supply Chain Management ietverto preču sinhronizēšana ar precēm programmatūrā Field Service](field-service-product.md).</span><span class="sxs-lookup"><span data-stu-id="ef79e-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
+<span data-ttu-id="f9789-106">Izmantotā veidne **Field Service preces ar krājumu uzskaites vienību (Supply Chain Management uz Field Service)** ir izveidota, pamatojoties uz veidni **Field Service preces (no Supply Chain Management uz Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="f9789-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="f9789-107">Papildinformāciju skatiet rakstā [Programmā Supply Chain Management ietverto preču sinhronizēšana ar precēm programmatūrā Field Service](field-service-product.md).</span><span class="sxs-lookup"><span data-stu-id="f9789-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
 
-<span data-ttu-id="ef79e-108">Šajā tēmā ir aprakstītas tikai šo divu veidņu atšķirības.</span><span class="sxs-lookup"><span data-stu-id="ef79e-108">This topic only describes the differences between the two templates:</span></span> 
-- <span data-ttu-id="ef79e-109">**Field Service preces ar Krājumu uzskaites vienību (no Supply Chain Management uz Sales)**</span><span class="sxs-lookup"><span data-stu-id="ef79e-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
-- <span data-ttu-id="ef79e-110">**Field Service preces (no Supply Chain Management uz Field Service)**</span><span class="sxs-lookup"><span data-stu-id="ef79e-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
+<span data-ttu-id="f9789-108">Šajā tēmā ir aprakstītas tikai šo divu veidņu atšķirības.</span><span class="sxs-lookup"><span data-stu-id="f9789-108">This topic only describes the differences between the two templates:</span></span> 
+- <span data-ttu-id="f9789-109">**Field Service preces ar Krājumu uzskaites vienību (no Supply Chain Management uz Sales)**</span><span class="sxs-lookup"><span data-stu-id="f9789-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
+- <span data-ttu-id="f9789-110">**Field Service preces (no Supply Chain Management uz Field Service)**</span><span class="sxs-lookup"><span data-stu-id="f9789-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="ef79e-111">Veidnes un uzdevumi</span><span class="sxs-lookup"><span data-stu-id="ef79e-111">Templates and tasks</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="f9789-111">Veidnes un uzdevumi</span><span class="sxs-lookup"><span data-stu-id="f9789-111">Templates and tasks</span></span>
 
-<span data-ttu-id="ef79e-112">**Veidnes nosaukums līdzeklī Datu integrācija:**</span><span class="sxs-lookup"><span data-stu-id="ef79e-112">**Name of the template in Data integration:**</span></span>
+<span data-ttu-id="f9789-112">**Veidnes nosaukums līdzeklī Datu integrācija:**</span><span class="sxs-lookup"><span data-stu-id="f9789-112">**Name of the template in Data integration:**</span></span>
 
-- <span data-ttu-id="ef79e-113">Field Service preces ar Krājumu uzskaites vienību (no Supply Chain Management uz Sales)</span><span class="sxs-lookup"><span data-stu-id="ef79e-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
+- <span data-ttu-id="f9789-113">Field Service preces ar Krājumu uzskaites vienību (no Supply Chain Management uz Sales)</span><span class="sxs-lookup"><span data-stu-id="f9789-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
 
-<span data-ttu-id="ef79e-114">**Uzdevuma nosaukums datu integrācijas projektā:**</span><span class="sxs-lookup"><span data-stu-id="ef79e-114">**Name of the task in the Data integration project:**</span></span>
+<span data-ttu-id="f9789-114">**Uzdevuma nosaukums datu integrācijas projektā:**</span><span class="sxs-lookup"><span data-stu-id="f9789-114">**Name of the task in the Data integration project:**</span></span>
 
-- <span data-ttu-id="ef79e-115">Preces</span><span class="sxs-lookup"><span data-stu-id="ef79e-115">Products</span></span>
+- <span data-ttu-id="f9789-115">Preces</span><span class="sxs-lookup"><span data-stu-id="f9789-115">Products</span></span>
 
-<span data-ttu-id="ef79e-116">Veidne **Field Service preces ar krājumu uzskaites vienību (Supply Chain Management uz Field Service)** ietver vienu kartēšanu, kas nav iekļauta veidnē **Field Service preces (no Supply Chain Management uz Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="ef79e-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Managementto Field Service)** template.</span></span> <span data-ttu-id="ef79e-117">Šis kartējums nodrošina, ka ir iekļauta krājumu uzskaites vienība, kas nepieciešama krājumu līmeņa sinhronizēšanai.</span><span class="sxs-lookup"><span data-stu-id="ef79e-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
+<span data-ttu-id="f9789-116">Veidne **Field Service preces ar krājumu uzskaites vienību(no Supply Chain Management uz Field Service)** ietver vienu kartējumu, kas nav iekļauts veidnē **Field Service preces (no Supply Chain Management uz Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="f9789-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="f9789-117">Šis kartējums nodrošina, ka ir iekļauta krājumu uzskaites vienība, kas nepieciešama krājumu līmeņa sinhronizēšanai.</span><span class="sxs-lookup"><span data-stu-id="f9789-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
 
 ```plaintext
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
 ```
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="ef79e-118">Veidnes kartējums līdzeklī Datu integrācija</span><span class="sxs-lookup"><span data-stu-id="ef79e-118">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="f9789-118">Veidnes kartējums līdzeklī Datu integrācija</span><span class="sxs-lookup"><span data-stu-id="f9789-118">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="ef79e-119">Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integrācija.</span><span class="sxs-lookup"><span data-stu-id="ef79e-119">The following illustrations show the template mapping in Data integration.</span></span>
+<span data-ttu-id="f9789-119">Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integrācija.</span><span class="sxs-lookup"><span data-stu-id="f9789-119">The following illustrations show the template mapping in Data integration.</span></span>
 
-### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="ef79e-120">Field Service preces ar krājumu uzskaites vienību (no Supply Chain Management uz Field Service): Preces</span><span class="sxs-lookup"><span data-stu-id="ef79e-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="f9789-120">Field Service preces ar krājumu uzskaites vienību (no Supply Chain Management uz Field Service): Preces</span><span class="sxs-lookup"><span data-stu-id="f9789-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
 
-<span data-ttu-id="ef79e-121">[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="ef79e-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>
+<span data-ttu-id="f9789-121">[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="f9789-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>

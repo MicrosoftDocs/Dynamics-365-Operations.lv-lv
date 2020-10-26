@@ -15,38 +15,38 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42e835545d7c3efc8293d163cf4db4ebfd6896b7
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 3c4ac28d35bcd6ed0c1fc8d0700c52008d2f4f6a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830189"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984086"
 ---
-# <a name="customer-returns-overview"></a><span data-ttu-id="c70ee-103">Klientu atgriešanas darbību pārskats</span><span class="sxs-lookup"><span data-stu-id="c70ee-103">Customer returns overview</span></span>
+# <a name="customer-returns-overview"></a><span data-ttu-id="fc502-103">Klientu atgriešanas darbību pārskats</span><span class="sxs-lookup"><span data-stu-id="fc502-103">Customer returns overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c70ee-104">Izveidojiet un izmantojiet atgriešanas pamatojuma kodus un izvietojuma kodus, lai atbalstītu preču atgriešanas procesu.</span><span class="sxs-lookup"><span data-stu-id="c70ee-104">Create and use return reason codes and disposition codes to support the process for returning products.</span></span>
+<span data-ttu-id="fc502-104">Izveidojiet un izmantojiet atgriešanas pamatojuma kodus un izvietojuma kodus, lai atbalstītu preču atgriešanas procesu.</span><span class="sxs-lookup"><span data-stu-id="fc502-104">Create and use return reason codes and disposition codes to support the process for returning products.</span></span>
 
-<span data-ttu-id="c70ee-105">Izmantojiet atgriešanas pamatojuma kodu, lai aprakstītu iemeslu, kāpēc klients vēlas atgriezt krājumu.</span><span class="sxs-lookup"><span data-stu-id="c70ee-105">Use a return reason code to describe the reason that the customer wants to return an item.</span></span> <span data-ttu-id="c70ee-106">Varat piešķirt pamatojuma kodu veidlapā **Atgriešanas pasūtījumu izveide**.</span><span class="sxs-lookup"><span data-stu-id="c70ee-106">You can assign a reason code in the **Create return orders** form.</span></span>
+<span data-ttu-id="fc502-105">Izmantojiet atgriešanas pamatojuma kodu, lai aprakstītu iemeslu, kāpēc klients vēlas atgriezt krājumu.</span><span class="sxs-lookup"><span data-stu-id="fc502-105">Use a return reason code to describe the reason that the customer wants to return an item.</span></span> <span data-ttu-id="fc502-106">Varat piešķirt pamatojuma kodu veidlapā **Atgriešanas pasūtījumu izveide**.</span><span class="sxs-lookup"><span data-stu-id="fc502-106">You can assign a reason code in the **Create return orders** form.</span></span>
 
-<span data-ttu-id="c70ee-107">Piešķiriet izvietojuma kodus, kad tiek saņemts krājums vai atgrieztā krājuma fiziskās pārbaudes laikā.</span><span class="sxs-lookup"><span data-stu-id="c70ee-107">Assign a disposition code when an item is received or during the physical inspection of a returned item.</span></span> <span data-ttu-id="c70ee-108">Izvietojuma kodus varat izmantot, lai aprakstītu krājumu stāvokli.</span><span class="sxs-lookup"><span data-stu-id="c70ee-108">You can use disposition codes to describe the condition of the item.</span></span> <span data-ttu-id="c70ee-109">Izvietojuma kodus varat arī izmantot, lai norādītu, vai darījumam ir nepieciešama papildu rīcība.</span><span class="sxs-lookup"><span data-stu-id="c70ee-109">You can also use disposition codes to indicate whether additional action is required for the transaction.</span></span> <span data-ttu-id="c70ee-110">Piemēram, izveidot izvietojuma kodu šādām darbībām:</span><span class="sxs-lookup"><span data-stu-id="c70ee-110">For example, create disposition codes for the following actions:</span></span>
+<span data-ttu-id="fc502-107">Piešķiriet izvietojuma kodus, kad tiek saņemts krājums vai atgrieztā krājuma fiziskās pārbaudes laikā.</span><span class="sxs-lookup"><span data-stu-id="fc502-107">Assign a disposition code when an item is received or during the physical inspection of a returned item.</span></span> <span data-ttu-id="fc502-108">Izvietojuma kodus varat izmantot, lai aprakstītu krājumu stāvokli.</span><span class="sxs-lookup"><span data-stu-id="fc502-108">You can use disposition codes to describe the condition of the item.</span></span> <span data-ttu-id="fc502-109">Izvietojuma kodus varat arī izmantot, lai norādītu, vai darījumam ir nepieciešama papildu rīcība.</span><span class="sxs-lookup"><span data-stu-id="fc502-109">You can also use disposition codes to indicate whether additional action is required for the transaction.</span></span> <span data-ttu-id="fc502-110">Piemēram, izveidot izvietojuma kodu šādām darbībām:</span><span class="sxs-lookup"><span data-stu-id="fc502-110">For example, create disposition codes for the following actions:</span></span>
 
-  - <span data-ttu-id="c70ee-111">Nosakiet atgriezto krājumu par brāķi un nodrošināt krājuma aizvietotāju klientam.</span><span class="sxs-lookup"><span data-stu-id="c70ee-111">Scrap the returned item and provide a replacement item to the customer.</span></span>
+  - <span data-ttu-id="fc502-111">Nosakiet atgriezto krājumu par brāķi un nodrošināt krājuma aizvietotāju klientam.</span><span class="sxs-lookup"><span data-stu-id="fc502-111">Scrap the returned item and provide a replacement item to the customer.</span></span>
 
-  - <span data-ttu-id="c70ee-112">Atgrieziet krājumu noliktavā un sedziet klienta izmaksas par krājumu.</span><span class="sxs-lookup"><span data-stu-id="c70ee-112">Return the item to inventory and credit the customer for the cost of the item.</span></span>
+  - <span data-ttu-id="fc502-112">Atgrieziet krājumu noliktavā un sedziet klienta izmaksas par krājumu.</span><span class="sxs-lookup"><span data-stu-id="fc502-112">Return the item to inventory and credit the customer for the cost of the item.</span></span>
 
-  - <span data-ttu-id="c70ee-113">Salabojiet krājumu un atgrieziet to klientam.</span><span class="sxs-lookup"><span data-stu-id="c70ee-113">Repair the item and return it to the customer.</span></span>
+  - <span data-ttu-id="fc502-113">Salabojiet krājumu un atgrieziet to klientam.</span><span class="sxs-lookup"><span data-stu-id="fc502-113">Repair the item and return it to the customer.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c70ee-114">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="c70ee-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc502-114">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="fc502-114">See also</span></span>
 
-[<span data-ttu-id="c70ee-115">Atgriešanas pamatojumu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="c70ee-115">Set up return reason codes</span></span>](set-up-return-reason-code.md)
+[<span data-ttu-id="fc502-115">Atgriešanas pamatojumu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="fc502-115">Set up return reason codes</span></span>](set-up-return-reason-code.md)
 
-[<span data-ttu-id="c70ee-116">Iestatīt izvietojuma kodus</span><span class="sxs-lookup"><span data-stu-id="c70ee-116">Set up disposition codes</span></span>](set-up-disposition-codes.md)
+[<span data-ttu-id="fc502-116">Iestatīt izvietojuma kodus</span><span class="sxs-lookup"><span data-stu-id="fc502-116">Set up disposition codes</span></span>](set-up-disposition-codes.md)
 
 
 

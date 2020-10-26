@@ -8,67 +8,68 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 69e711ad2011703efa450d97575784aaee3137dd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383002"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982335"
 ---
-# <a name="set-up-shipping-carriers"></a><span data-ttu-id="27bc2-103">Sūtījumu pārvadātāju iestatīšana</span><span class="sxs-lookup"><span data-stu-id="27bc2-103">Set up shipping carriers</span></span>
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="75d35-103">Sūtījumu pārvadātāju iestatīšana</span><span class="sxs-lookup"><span data-stu-id="75d35-103">Set up shipping carriers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="27bc2-104">Šajā tēmā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme.</span><span class="sxs-lookup"><span data-stu-id="27bc2-104">This topic shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="27bc2-105">Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.</span><span class="sxs-lookup"><span data-stu-id="27bc2-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
+<span data-ttu-id="75d35-104">Šajā tēmā parādīts, kā iestatīt nosūtījuma pārvadātāju un definēt tādu informāciju kā pakalpojums, piegādes režīms, transportēšanas norēķini, transportēšanas ierobežojumi un nosūtīšanas likme.</span><span class="sxs-lookup"><span data-stu-id="75d35-104">This topic shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="75d35-105">Transportēšanas koordinators pēc tam var piešķirt nosūtījuma pārvadātāju ienākošai vai izejošai kravai.</span><span class="sxs-lookup"><span data-stu-id="75d35-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="27bc2-106">Jauna nosūtījumu pārvadātāja izveide</span><span class="sxs-lookup"><span data-stu-id="27bc2-106">Create a new shipping carrier</span></span>
-1. <span data-ttu-id="27bc2-107">Pārejiet uz **Navigācijas rūts > Moduļi > Transportēšanas pārvaldība > Iestatīšana > Pārvadātāji > Sūtījumu pārvadātāji**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-107">Go to **Navigation pane > Modules > Transportation management > Setup > Carriers > Shipping carriers**.</span></span>
-2. <span data-ttu-id="27bc2-108">Atlasiet **Jauns** darbību rūtī.</span><span class="sxs-lookup"><span data-stu-id="27bc2-108">Select **New** on the Action Pane.</span></span>
-3. <span data-ttu-id="27bc2-109">Ierakstiet vērtību laukā **Sūtījumu pārvadātājs**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-109">In the **Shipping carrier** field, type a value.</span></span>
-4. <span data-ttu-id="27bc2-110">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="27bc2-110">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="27bc2-111">Laukā **Režīms** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-111">In the **Mode** field, select an option from the drop-down menu.</span></span>
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="75d35-106">Jauna nosūtījumu pārvadātāja izveide</span><span class="sxs-lookup"><span data-stu-id="75d35-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="75d35-107">Pārejiet uz **Navigācijas rūts > Moduļi > Transportēšanas pārvaldība > Iestatīšana > Pārvadātāji > Sūtījumu pārvadātāji**.</span><span class="sxs-lookup"><span data-stu-id="75d35-107">Go to **Navigation pane > Modules > Transportation management > Setup > Carriers > Shipping carriers**.</span></span>
+2. <span data-ttu-id="75d35-108">Atlasiet **Jauns** darbību rūtī.</span><span class="sxs-lookup"><span data-stu-id="75d35-108">Select **New** on the Action Pane.</span></span>
+3. <span data-ttu-id="75d35-109">Ierakstiet vērtību laukā **Sūtījumu pārvadātājs**.</span><span class="sxs-lookup"><span data-stu-id="75d35-109">In the **Shipping carrier** field, type a value.</span></span>
+4. <span data-ttu-id="75d35-110">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="75d35-110">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="75d35-111">Laukā **Režīms** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-111">In the **Mode** field, select an option from the drop-down menu.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="27bc2-112">Vispārējās informācijas ievade par nosūtījumu pārvadātāju</span><span class="sxs-lookup"><span data-stu-id="27bc2-112">Fill in the general information for the shipping carrier</span></span>
-1. <span data-ttu-id="27bc2-113">Pārslēdziet sadaļas **Pārskats** paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="27bc2-113">Toggle the expansion of the **Overview** section.</span></span>
-2. <span data-ttu-id="27bc2-114">Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt nosūtīšanas pārvadātāju**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-114">Check or uncheck the **Activate shipping carrier** checkbox.</span></span>
-3. <span data-ttu-id="27bc2-115">Laukā **Kreditora konts** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-115">In the **Vendor account** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="27bc2-116">Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="27bc2-116">Select the vendor account to assign the shipping carrier to.</span></span>  
-4. <span data-ttu-id="27bc2-117">Atlasiet opciju laukā **Transportēšanas norēķinu veids**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-117">In the **Transportation tender type** field, select an option.</span></span> <span data-ttu-id="27bc2-118">Atlasiet **Manuāli**, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet **EDI**, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).</span><span class="sxs-lookup"><span data-stu-id="27bc2-118">Select **Manual** to use the Transportation Tender page, or select **EDI** to update the tender by using Electronic Data Interchange (EDI).</span></span>  
-5. <span data-ttu-id="27bc2-119">Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt pārvadātāja vērtējumu**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-119">Check or uncheck the **Activate carrier rating** checkbox.</span></span>
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="75d35-112">Vispārējās informācijas ievade par nosūtījumu pārvadātāju</span><span class="sxs-lookup"><span data-stu-id="75d35-112">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="75d35-113">Pārslēdziet sadaļas **Pārskats** paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="75d35-113">Toggle the expansion of the **Overview** section.</span></span>
+2. <span data-ttu-id="75d35-114">Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt nosūtīšanas pārvadātāju**.</span><span class="sxs-lookup"><span data-stu-id="75d35-114">Check or uncheck the **Activate shipping carrier** checkbox.</span></span>
+3. <span data-ttu-id="75d35-115">Laukā **Kreditora konts** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-115">In the **Vendor account** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="75d35-116">Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="75d35-116">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="75d35-117">Atlasiet opciju laukā **Transportēšanas norēķinu veids**.</span><span class="sxs-lookup"><span data-stu-id="75d35-117">In the **Transportation tender type** field, select an option.</span></span> <span data-ttu-id="75d35-118">Atlasiet **Manuāli**, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet **EDI**, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).</span><span class="sxs-lookup"><span data-stu-id="75d35-118">Select **Manual** to use the Transportation Tender page, or select **EDI** to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+5. <span data-ttu-id="75d35-119">Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt pārvadātāja vērtējumu**.</span><span class="sxs-lookup"><span data-stu-id="75d35-119">Check or uncheck the **Activate carrier rating** checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="27bc2-120">Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam</span><span class="sxs-lookup"><span data-stu-id="27bc2-120">Create the necessary services for the shipping carrier</span></span>
-1. <span data-ttu-id="27bc2-121">Pārslēdziet sadaļas **Pakalpojumi** paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="27bc2-121">Toggle the expansion of the **Services** section.</span></span>
-2. <span data-ttu-id="27bc2-122">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-122">Select **New**.</span></span>
-3. <span data-ttu-id="27bc2-123">Ierakstiet vērtību laukā **Pārvadātāja pakalpojums**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-123">In the **Carrier service** field, type a value.</span></span>
-4. <span data-ttu-id="27bc2-124">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="27bc2-124">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="27bc2-125">Laukā **Pārvadāšanas metode** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-125">In the **Transportation method** field, select an option from the drop-down menu.</span></span>
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="75d35-120">Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam</span><span class="sxs-lookup"><span data-stu-id="75d35-120">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="75d35-121">Pārslēdziet sadaļas **Pakalpojumi** paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="75d35-121">Toggle the expansion of the **Services** section.</span></span>
+2. <span data-ttu-id="75d35-122">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="75d35-122">Select **New**.</span></span>
+3. <span data-ttu-id="75d35-123">Ierakstiet vērtību laukā **Pārvadātāja pakalpojums**.</span><span class="sxs-lookup"><span data-stu-id="75d35-123">In the **Carrier service** field, type a value.</span></span>
+4. <span data-ttu-id="75d35-124">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="75d35-124">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="75d35-125">Laukā **Pārvadāšanas metode** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-125">In the **Transportation method** field, select an option from the drop-down menu.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="27bc2-126">Iestatiet pārvadātāja adresi (nav obligāti)</span><span class="sxs-lookup"><span data-stu-id="27bc2-126">Set up the address for the carrier (optional)</span></span>
-1. <span data-ttu-id="27bc2-127">Pārslēdziet sadaļas **Adreses** izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="27bc2-127">Toggle the expansion of the **Addresses** section.</span></span>
-2. <span data-ttu-id="27bc2-128">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-128">Select **New**.</span></span>
-3. <span data-ttu-id="27bc2-129">Laukā **Nosaukums vai apraksts** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="27bc2-129">In the **Name or description** field, type a value.</span></span>
-4. <span data-ttu-id="27bc2-130">Laukā **Valsts/reģions** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-130">In the **Country/region** field, select an option from the drop-down menu.</span></span>
-5. <span data-ttu-id="27bc2-131">Laukā **Pasta indekss** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-131">In the **ZIP/postal code** field, select an option from the drop-down menu.</span></span>
-6. <span data-ttu-id="27bc2-132">Laukā **Iela** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="27bc2-132">In the **Street** field, type a value.</span></span>
-7. <span data-ttu-id="27bc2-133">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-133">Select **OK**.</span></span>
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="75d35-126">Iestatiet pārvadātāja adresi (nav obligāti)</span><span class="sxs-lookup"><span data-stu-id="75d35-126">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="75d35-127">Pārslēdziet sadaļas **Adreses** izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="75d35-127">Toggle the expansion of the **Addresses** section.</span></span>
+2. <span data-ttu-id="75d35-128">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="75d35-128">Select **New**.</span></span>
+3. <span data-ttu-id="75d35-129">Laukā **Nosaukums vai apraksts** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="75d35-129">In the **Name or description** field, type a value.</span></span>
+4. <span data-ttu-id="75d35-130">Laukā **Valsts/reģions** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-130">In the **Country/region** field, select an option from the drop-down menu.</span></span>
+5. <span data-ttu-id="75d35-131">Laukā **Pasta indekss** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-131">In the **ZIP/postal code** field, select an option from the drop-down menu.</span></span>
+6. <span data-ttu-id="75d35-132">Laukā **Iela** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="75d35-132">In the **Street** field, type a value.</span></span>
+7. <span data-ttu-id="75d35-133">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="75d35-133">Select **OK**.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="27bc2-134">Iestatiet nosūtījumu pārvadātāja novērtēšanas profilu</span><span class="sxs-lookup"><span data-stu-id="27bc2-134">Set up the rating profile for the shipping carrier</span></span>
-1. <span data-ttu-id="27bc2-135">Pārslēdziet sadaļas **Novērtējuma profili** izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="27bc2-135">Toggle the expansion of the **Rating profiles** section.</span></span>
-2. <span data-ttu-id="27bc2-136">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-136">Select **New**.</span></span>
-3. <span data-ttu-id="27bc2-137">Ierakstiet vērtību laukā **Novērtējuma profils**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-137">In the **Rating profile** field, type a value.</span></span>
-4. <span data-ttu-id="27bc2-138">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="27bc2-138">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="27bc2-139">Laukā **Vieta** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-139">In the **Site** field, select an option from the drop-down menu.</span></span>
-6. <span data-ttu-id="27bc2-140">Laukā **Noliktava** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-140">In the **Warehouse** field, select an option from the drop-down menu.</span></span>
-7. <span data-ttu-id="27bc2-141">Laukā **Likmes noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-141">In the **Rate engine** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="27bc2-142">Atlasiet likmes noteikšanas programmu, kura atbilst līgumam, kas jums noslēgts ar pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="27bc2-142">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
-8. <span data-ttu-id="27bc2-143">Laukā **Likmes šablons** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-143">In the **Rate master** field, select an option from the drop-down menu.</span></span>
-9. <span data-ttu-id="27bc2-144">Laukā **Pārvadājumu ilguma noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="27bc2-144">In the **Transit time engine** field, select an option from the drop-down menu.</span></span>
-10. <span data-ttu-id="27bc2-145">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="27bc2-145">Select **Save**.</span></span>
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="75d35-134">Iestatiet nosūtījumu pārvadātāja novērtēšanas profilu</span><span class="sxs-lookup"><span data-stu-id="75d35-134">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="75d35-135">Pārslēdziet sadaļas **Novērtējuma profili** izvēršanu.</span><span class="sxs-lookup"><span data-stu-id="75d35-135">Toggle the expansion of the **Rating profiles** section.</span></span>
+2. <span data-ttu-id="75d35-136">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="75d35-136">Select **New**.</span></span>
+3. <span data-ttu-id="75d35-137">Ierakstiet vērtību laukā **Novērtējuma profils**.</span><span class="sxs-lookup"><span data-stu-id="75d35-137">In the **Rating profile** field, type a value.</span></span>
+4. <span data-ttu-id="75d35-138">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="75d35-138">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="75d35-139">Laukā **Vieta** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-139">In the **Site** field, select an option from the drop-down menu.</span></span>
+6. <span data-ttu-id="75d35-140">Laukā **Noliktava** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-140">In the **Warehouse** field, select an option from the drop-down menu.</span></span>
+7. <span data-ttu-id="75d35-141">Laukā **Likmes noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-141">In the **Rate engine** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="75d35-142">Atlasiet likmes noteikšanas programmu, kura atbilst līgumam, kas jums noslēgts ar pārvadātāju.</span><span class="sxs-lookup"><span data-stu-id="75d35-142">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+8. <span data-ttu-id="75d35-143">Laukā **Likmes šablons** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-143">In the **Rate master** field, select an option from the drop-down menu.</span></span>
+9. <span data-ttu-id="75d35-144">Laukā **Pārvadājumu ilguma noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes.</span><span class="sxs-lookup"><span data-stu-id="75d35-144">In the **Transit time engine** field, select an option from the drop-down menu.</span></span>
+10. <span data-ttu-id="75d35-145">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="75d35-145">Select **Save**.</span></span>
 
