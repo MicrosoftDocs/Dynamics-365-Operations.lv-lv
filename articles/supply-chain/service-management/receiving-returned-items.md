@@ -15,32 +15,32 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 234d430d75611dc777bb03fff1070f2a8c78ea6f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4957d9a80ecb98b647ca73dfddc35cd450c6160e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211748"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975708"
 ---
-# <a name="receive-returned-items"></a><span data-ttu-id="465fc-103">Atgrieztu krājumu saņemšana</span><span class="sxs-lookup"><span data-stu-id="465fc-103">Receive returned items</span></span> 
+# <a name="receive-returned-items"></a><span data-ttu-id="cdba3-103">Atgrieztu krājumu saņemšana</span><span class="sxs-lookup"><span data-stu-id="cdba3-103">Receive returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="465fc-104">Kad pienāk atgriešanas sūtījums, pieskaņojiet to preču atgriešanas pasūtījumam, kas jau ir izveidots.</span><span class="sxs-lookup"><span data-stu-id="465fc-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
+<span data-ttu-id="cdba3-104">Kad pienāk atgriešanas sūtījums, pieskaņojiet to preču atgriešanas pasūtījumam, kas jau ir izveidots.</span><span class="sxs-lookup"><span data-stu-id="cdba3-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
 
-<span data-ttu-id="465fc-105">Atkarībā no uzņēmuma politikas atgriešanas sūtījuma krājumus var nosūtīt uz karantīnu papildu pārbaudei vai tos var atgriezt krājumā.</span><span class="sxs-lookup"><span data-stu-id="465fc-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
+<span data-ttu-id="cdba3-105">Atkarībā no uzņēmuma politikas atgriešanas sūtījuma krājumus var nosūtīt uz karantīnu papildu pārbaudei vai tos var atgriezt krājumā.</span><span class="sxs-lookup"><span data-stu-id="cdba3-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="465fc-106">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="465fc-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cdba3-106">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="cdba3-106">See also</span></span>
 
-[<span data-ttu-id="465fc-107">Atgrieztu krājumu saņemšanas reģistrēšana</span><span class="sxs-lookup"><span data-stu-id="465fc-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
+[<span data-ttu-id="cdba3-107">Atgrieztu krājumu saņemšanas reģistrēšana</span><span class="sxs-lookup"><span data-stu-id="cdba3-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
 
-[<span data-ttu-id="465fc-108">Grāmatot atgrieztu preču saņemšanas žurnālu</span><span class="sxs-lookup"><span data-stu-id="465fc-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
+[<span data-ttu-id="cdba3-108">Grāmatot atgrieztu preču saņemšanas žurnālu</span><span class="sxs-lookup"><span data-stu-id="cdba3-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
 
-[<span data-ttu-id="465fc-109">Atgriezto krājumu pārbaudes veikšana</span><span class="sxs-lookup"><span data-stu-id="465fc-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="cdba3-109">Atgriezto krājumu pārbaudes veikšana</span><span class="sxs-lookup"><span data-stu-id="cdba3-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
   
 
