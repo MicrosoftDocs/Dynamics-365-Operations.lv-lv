@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270008"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961638"
 ---
 # <a name="modify-an-existing-site-page"></a>Esošās vietnes lapas modificēšana
 
@@ -47,7 +47,7 @@ Nākamā darbība ir veikt savas faktiskās izmaiņas. Bieži, lai atrastu un at
 Tomēr dažkārt izmaiņas var ietvert modeļu vai fragmentu pievienošanu vai noņemšanu. Lai pievienotu fragmentu vai moduli, izmantojiet lapas strukturējuma koku, lai atrastu slotu, kuram vēlaties pievienot moduli vai fragmentu, un pēc tam atlasiet daudzpunktes pogu (**...**) šim slotam. Tiek parādīta izvēlne, kurā ir iekļautas komandas moduļa vai fragmenta pievienošanai. Lai noņemtu moduli vai fragmentu, atrodiet un atlasiet to lapas strukturējuma kokā, atlasiet daudzpunktes pogu un pēc tam atlasiet komandu, lai dzēstu moduli vai fragmentu.
 
 > [!TIP]
-> Varat arī apskatīt un rediģēt rekvizītus jebkuram modulim, kas ir redzams priekšskatījumā "redzat to, ko iegūstat" (WYSIWYG), atlasot to tieši.
+> Varat arī apskatīt un rediģēt rekvizītus jebkuram modulim, kas ir redzams vizuālā lapu veidotāja priekšskatījumā, atlasot to tieši.
 
 Kad esat beidzis veikt izmaiņas un priekšskatījis to sekas, lapa ir jāreģistrē, komandjoslā atlasot **Pabeigt rediģēšanu**. 
 

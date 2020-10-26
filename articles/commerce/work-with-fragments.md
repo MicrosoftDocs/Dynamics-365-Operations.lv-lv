@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818354"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961662"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
@@ -61,8 +61,8 @@ Varat izveidot jaunu fragmentu vai saglabāt esošu moduļa konfigurāciju kā f
 Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmentu, rīkojieties, kā norādīts tālāk.
 
 1. Atveriet lapu vai veidni, kas satur moduli, ko vēlaties pārveidot par fragmentu.
-1. Struktūras rūtī pa kreisi vai tieši galvenajā kanvā atlasiet iepriekš konfigurēto moduli.
-1. Atlasiet daudzpunkti (**...**) blakus moduļa nosaukumam vai nu struktūras rūtī, vai atlasītā moduļa rīkjoslā kanvās. 
+1. Strukturējuma rūtī pa kreisi vai tieši vizuālo lapu veidotājā atlasiet iepriekš konfigurēto moduli.
+1. Atlasiet daudzpunkti (**...**) blakus moduļa nosaukumam vai nu strukturējuma rūtī, vai atlasītā moduļa rīkjoslā vizuālo lapu veidotājā. 
 1. Atlasiet **Koplietot kā lapas fragmentu**. 
 1. Dialoglodziņā **Saglabāt kā lapas fragmentu** ievadiet fragmenta nosaukumu.
 1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
@@ -94,8 +94,8 @@ Sekojošajā attēlā parādīts, kur izveidot jaunu fragmentu.
 
 Lai lapai pievienotu fragmentu, veiciet tālāk norādīto.
 
-1. Kreisajā struktūras rūtī vai tieši galvenajās kanvās atlasiet konteineru vai slotu, kuram var pievienot atvašu moduļus.
-1. Tiešsaistes rūtī atlasiet daudzpunkti (**...**) blakus konteinera nosaukumam vai slotam.  Ja izmantojat galveno kanvu, pārmaiņus atlasiet plus zīmi (**+**).  
+1. Strukturējuma rūtī pa kreisi vai tieši vizuālo lapu veidotājā atlasiet konteineru vai slotu, kuram var pievienot atvašu moduļus.
+1. Tiešsaistes rūtī atlasiet daudzpunkti (**...**) blakus konteinera nosaukumam vai slotam.  Vai arī, ja izmantojat vizuālo lapu veidotāju, atlasiet plus zīmi (**+**).  
 1. Atlasiet **Pievienot fragmentu**.
 
     ![Ekrāna tvērums, kā pievienot esošu fragmentu slotam vai konteineram](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Lai lapai pievienotu fragmentu, veiciet tālāk norādīto.
 
 Lai no lapas slota vai konteinera noņemtu fragmentu, veiciet tālāk minētās darbības.
 
-1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes (**...**) pogu, kas atrodas blakus fragmenta nosaukumam, lai noņemtu, un pēc tam atlasiet Miskastes simbolu.  Alternatīvi varat atlasīt fragmentu kanvā un atlasīt miskastes simbolu fragmentu rīkjoslā.
+1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes (**...**) pogu, kas atrodas blakus fragmenta nosaukumam, lai noņemtu, un pēc tam atlasiet Miskastes simbolu.  Vai arī varat atlasīt fragmentu vizuālo lapu veidotājā un atlasīt atkritnes simbolu fragmentu rīkjoslā.
 1. Kad tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties noņemt fragmentu, atlasiet **Labi**.
 
 > [!NOTE]

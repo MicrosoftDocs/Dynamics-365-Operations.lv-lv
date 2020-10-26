@@ -16,15 +16,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c56d80dca9bf7753585532dffd57552ce2ee7a3f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203829"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982849"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistiskās bāzlīnijas prognozes ģenerēšana
 
@@ -68,7 +68,7 @@ Prognozes ģenerēšanas laikā var izmantot starpuzņēmumu plānošanas grupas
 Ja prognoze tiek ģenerēta nevis par lielu krājumu kopu, bet, piemēram, tikai par vienu krājumu vai vienu krājumu sadalījuma principu, tad, lai iegūtu labāku rezultātu, varat atzīmēt izvēles rūtiņu **Izmantot pieprasījuma atbildes režīmu** cilnē **Vispārējā plānošana — Iestatījumi — Pieprasījuma prognozēšana** - **Pieprasījuma prognozēšanas parametri — Azure algoritmiskā mācīšanās**.
 
 > [!NOTE]
-> Potenciāli lēzenu prognozi var izraisīt vēsturiskie dati, kuriem jābūt ar ilgāku vēsturisko periodu (vismaz 3 laika periodi, lai varētu konstatēt tendences, piemēram, 3 gadi ar mēneša prognozi). Lai iegūtu labākus rezultātus, varat mēģināt mainīt laika diapazona detalizāciju vai neizveidot laika diapazonu.
+> Potenciāli lēzenu prognozi var izraisīt vēsturiskie dati, kuriem jābūt ar ilgāku vēsturisko periodu (vismaz 3 laika periodi, lai varētu konstatēt tendences, piemēram, 3 gadi ar mēneša prognozi). Lai iegūtu labākus rezultātus, varat mēģināt mainīt laika diapazona granularitāti vai paplašināt laika diapazonu.
 
 <a name="additional-resources"></a>Papildu resursi
 --------
