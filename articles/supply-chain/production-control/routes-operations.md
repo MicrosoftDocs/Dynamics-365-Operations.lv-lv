@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895381"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989245"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -37,10 +37,10 @@ ms.locfileid: "3895381"
 
 Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā FSupply Chain Management sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu:
 
--   **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
--   **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
--   **Operācijas saite** — operācijas saite definē operācijas darbības rekvizītus, piemēram, iestatīšanas un izpildes laiku, izmaksu kategorijas, patēriņa parametrus un resursu vajadzības. Operācijas saite nodrošina iespēju izmantot dažādus operācijas darbības rekvizītus atkarībā no maršruta, kurā tiek lietota šī operācija, vai ražotajām precēm.
--   **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
+- **Maršruts** — maršruts definē ražošanas procesa struktūru. Citiem vārdiem sakot, tas definē operāciju secību.
+- **Operācija** — operācija norāda konkrētu maršruta darbību, piemēram, darbību **Montāža**. Vienu operāciju var izmantot vairākos maršrutos un tai var būt dažādi operācijas numuri.
+- **Operācijas saite** — operācijas saite definē operācijas darbības rekvizītus, piemēram, iestatīšanas un izpildes laiku, izmaksu kategorijas, patēriņa parametrus un resursu vajadzības. Operācijas saite nodrošina iespēju izmantot dažādus operācijas darbības rekvizītus atkarībā no maršruta, kurā tiek lietota šī operācija, vai ražotajām precēm.
+- **Maršruta versija** — maršruta versija definē maršrutu, kas tiek izmantots preces vai preces varianta ražošanai. Maršruta versijas sniedz iespēju atkārtoti lietot maršrutus dažādām precēm vai mainīt tos laika gaitā. Tās sniedz iespēju arī izmantot dažādus maršrutus vienas preces ražošanai. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā atrašanās vieta vai saražojamais daudzums.
 
 ## <a name="routes"></a>Maršruti
 Maršruts raksturo preces vai preces varianta ražošanai izmantoto operāciju secību. Katrai operācijai tiek piešķirts operācijas numurs un nākamā operācija. Operāciju secība veido maršruta tīklu, ko var atainot, izmantojot virzienu diagrammu, kurā ir viens vai vairāki sākuma punkti un viens baigu punkts. Programmatūrā Supply Chain Management maršruti atšķiras pēc struktūras veida. Ir pieejami divi maršrutu veidi: vienkāršie maršruti un maršrutu tīkli. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai var tikt izmantoti tikai vienkārši maršruti vai arī sarežģītāki maršrutu tīkli.
@@ -60,9 +60,9 @@ Ja sadaļā Ražošanas kontroles parametri iespējojat sarežģītākos maršru
 [![Maršruta tīkls](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Katrai operācijai var būt tikai viena nākamā operācija, un visam maršrutam ir jābeidzas ar vienu operāciju.
-> -   Tādējādi nevar garantēt, ka vairākas operācijas, kam ir viena un tā pati nākamā operācija (piemēram, 30. un 40. operācija iepriekšējā attēlā), tiešām tiks veiktas paralēli. Operāciju plānošanu var ierobežot resursu pieejamība un noslodze.
-> -   Kā operācijas numuru nevar norādīt skaitli 0 (nulle). Šis numurs ir rezervēts un tiek izmantots, lai norādītu, ka maršruta pēdējai operācijai nav nākamās operācijas.
+> - Katrai operācijai var būt tikai viena nākamā operācija, un visam maršrutam ir jābeidzas ar vienu operāciju.
+> - Tādējādi nevar garantēt, ka vairākas operācijas, kam ir viena un tā pati nākamā operācija (piemēram, 30. un 40. operācija iepriekšējā attēlā), tiešām tiks veiktas paralēli. Operāciju plānošanu var ierobežot resursu pieejamība un noslodze.
+> - Kā operācijas numuru nevar norādīt skaitli 0 (nulle). Šis numurs ir rezervēts un tiek izmantots, lai norādītu, ka maršruta pēdējai operācijai nav nākamās operācijas.
 
 ### <a name="parallel-operations"></a>Vienlaicīgās operācijas
 
@@ -99,12 +99,12 @@ Operācijas darbības rekvizīti, piemēram, iestatīšanas un izpildes laiks, r
 ## <a name="operation-relations"></a>Operāciju saites
 Operācijas saitē tiek uzturēti tālāk norādītie operācijas darbības rekvizīti.
 
--   Izmaksu kategorijas
--   Patēriņa parametri
--   Izpildes laiki
--   Izpildes daudzumi
--   Resursu vajadzības
--   Piezīmes un norādījumi
+- Izmaksu kategorijas
+- Patēriņa parametri
+- Izpildes laiki
+- Izpildes daudzumi
+- Resursu vajadzības
+- Piezīmes un norādījumi
 
 Vienai operācijai varat definēt vairākas operāciju saites. Taču katra operācijas saite ir raksturīga vienai operācijai, un tajā ietvertie rekvizīti ir raksturīgi konkrētam maršrutam, izlaistajai precei vai izlaisto preču kopai, kas ir saistīta ar krājumu grupu. Tāpēc vairākos maršrutos var izmantot vienu operāciju ar dažādiem darbības rekvizītiem. Turklāt varat vieglāk uzturēt pamatdatus, ja izmantojat standarta operācijas ar vienādiem darbības rekvizītiem neatkarīgi no izmantotā maršruta un ražotās preces. Operācijas saites tvērums tiek definēts, izmantojot rekvizītus **Krājums kods**, **Krājuma saistība**, **Maršruta kods** un **Maršruta atsauce**, kā tas ir redzams tālāk esošajā tabulā.
 
@@ -166,12 +166,13 @@ Kad programmatūrā Supply Chain Management tiek meklēta izlaistai precei vispi
 Tāpēc operāciju drīkst izmantot tikai vienu reizi katrā maršrutā. Ja operācija tiek vairākas reizes lietota vienā maršrutā, visiem šīs operācijas gadījumiem ir viena un tā pati operācijas saite un katram gadījumam nevar izmantot atšķirīgus rekvizītus (piemēram, izpildes laikus).
 
 ## <a name="route-versions"></a>Maršruta versijas
+
 Maršruta versijas tiek izmantotas, lai nodrošinātu preču variantu ražošanu vai lielāku kontroli pār ražošanas procesu. Tās definē to, kurš maršruts ir jāizmanto noteiktas izlaistās preces vai izlaistās preces varianta ražošanai. Lai definētu to, kurš maršruts ir jāizmanto izlaistajai precei, varat izmantot tālāk norādītos ierobežojumus.
 
--   Preču dimensijas (izmērs, krāsa, stils vai konfigurācija)
--   Ražošanas daudzums
--   Ražošanas vieta
--   Ražošanas datums
+- Preču dimensijas (izmērs, krāsa, stils vai konfigurācija)
+- Ražošanas daudzums
+- Ražošanas vieta
+- Ražošanas datums
 
 Ja prece tiek ražota noteiktā vietā, noteiktā daudzumā vai noteiktā laika periodā, varat norādīt noteiktu maršruta versiju kā noklusējuma maršruta versiju. Taču ņemiet vērā, ka konkrētai izlaistajai precei un konkrētai ierobežojumu kopai drīkst norādīt tikai vienu aktīvu maršrutu.  
 
@@ -194,6 +195,7 @@ Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinā
 Preces izmaiņu gadījums jaunu vai mainītu maršrutu vai maršruta versiju apstiprināšanai un aktivizēšanai nodrošina vienkāršu veidu, kā pārskatīt maršruta versiju ierobežojumus. Varat arī apstiprināt un aktivizēt visus maršrutus, kas ir saistīti ar noteiktām izmaiņām vienā operācijā un dokumentēt rezultātus preces izmaiņu gadījumā.
 
 ## <a name="maintaining-routes"></a>Maršrutu uzturēšana
+
 Atkarībā no jūsu uzņēmējdarbības vajadzībām varat atvieglot procesa definīciju uzturēšanu.
 
 ### <a name="making-routes-independent-of-resources"></a>Maršruta neatkarības no resursiem konfigurēšana
@@ -224,10 +226,10 @@ Ja lietojat šo pieeju, izpildes laika un citu rekvizītu uzturēšanai galvenok
 
 Ja operācijas resursu vajadzību ietvaros nenorādāt operācijas resursu vai resursu grupu, var atšķirties lietojamo resursu darbības ātrums. Tāpēc var atšķirties operācijas izpildei nepieciešamais laiks. Lai novērstu šo problēmu, varat izmantot operācijas saites lauku **Formula**, lai norādītu izpildes laika aprēķināšanas veidu. Pieejamas šādas opcijas
 
--   **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
--   **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**.
--   **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
--   **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
+- **Standarta** — (noklusējuma opcija) aprēķinam tiek izmantoti tikai operācijas saites lauki un norādītais izpildes laiks tiek reizināts ar pasūtījuma daudzumu.
+- **Noslodze** — aprēķinā tiek ietverts operācijas resursa lauks **Noslodze**. Tāpēc laiks ir atkarīgs no resursa. Operācijas resursam norādītā vērtība ir noslodze stundā. **Izpildes laiks** tiek aprēķināts kā **Pasūtījuma daudzums** dalīts ar **Noslodzi**.
+- **Partija** — izmantojot informāciju no operācijas saites, tiek aprēķināta partijas noslodze. Pēc tam, pamatojoties uz pasūtījuma daudzumu, var aprēķināt partiju skaitu un līdz ar to arī izpildes laiku.
+- **Resursu partija** — šī opcija ir gandrīz tāda pati kā opcija **Partija**. Taču aprēķinā tiek ietverts operācijas resursa lauks **Paketes noslodze**. Tāpēc laiks ir atkarīgs no resursa.
 
 ### <a name="set-up-route-groups"></a>Iestatīt maršrutu grupas
 
