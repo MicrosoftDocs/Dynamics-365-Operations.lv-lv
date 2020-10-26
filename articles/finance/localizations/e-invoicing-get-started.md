@@ -3,7 +3,7 @@ title: Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835997"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971476"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 
@@ -62,7 +62,7 @@ Varat izmantot Elektronisko rēķinu izrakstīšanas pievienojumprogramma ar pa�
 Pirms pabeidzat šajā tēmā norādītās darbības, ir jāievieš šādi priekšnosacījumi:
 
 - Piekļūstiet savam LCS kontam.
-- LCS izvietošanas projekts, kas ietver Finance vai Supply Chain Management versiju 10.0.12 vai jaunāku.
+- LCS izvietošanas projekts, kas ietver Finance vai Supply Chain Management versiju 10.0.13 vai jaunāku.
 - Piekļūstiet savam RCS kontam.
 - Ieslēdziet līdzekli Globalizācija jūsu RCS kontā, izmantojot moduli **Līdzekļu pārvaldība**. Papildinformāciju skatiet sadaļā [Regulatory Configuration Services (RCS) — Globalizācijas līdzekļi](rcs-globalization-feature.md)
 - Izveidot galvenās glabātavas resursu un krātuves kontu risinājumā Azure. Papildinformāciju skatiet šeit: [Azure krātuves konta un galvenās glabātavas izveide](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -73,7 +73,7 @@ Sekojošajā attēlā ir parādītas piecas galvenās darbības, kas jāveic ša
 
 ![Pārskats par piecām šīs tēmas darbībām](media/e-invoicing-services-get-started-overview-5-steps.png)
 
-1. **Azure resursu iestatījumi:** Azure krātuves konfigurēšana un ciparu sertifikātu augšupielāde Azure galvenajā glabātavā.
+1. **Azure resursu iestatījumi:** Azure krātuves konfigurēšana un ciparsertifikātu augšupielāde Azure galvenajā glabātavā.
 2. **LCS iestatīšana:** instalējiet pievienojumprogrammu, kas paredzēta mikropakalpojumiem.
 3. **RCS iestatījumi:** iestatiet vidi, lietotāju piekļuvi un e-rēķinu izrakstīšanas līdzekļus.
 4. **Debitora iestatījumi:** iestatiet savienojumu starp debitoru un elektronisko rēķinu izrakstīšanas pievienojumprogrammu un izslēdziet vecos līdzekļus atbilžu iesniegšanai un saņemšanai elektroniskajiem dokumentiem.
@@ -85,16 +85,18 @@ Sekojošajā attēlā ir parādītas piecas galvenās darbības, kas jāveic ša
 ## <a name="lcs-setup"></a>LCS iestatījumi
 
 1. Piesakieties savā LCS kontā.
-2. Atlasiet LCS izvietošanas projektu. Lai varētu atlasīt projektu, tam ir jābūt izveidotam un palaistam.
-3. Kopsavilkuma cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
-4. Atlasiet **Biznesa dokumentu iesniegšana**.
-5. Dialoglodziņā **Iestatīt pievienojumprogrammu** laukā **AAD pieteikuma ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī vērtība ir fiksēta vērtība.
-6. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta ID.
+2. Atlasiet elementu **Priekšskatīt līdzekļu pārvaldību** un lauku grupā **Publiskā priekšskatījuma līdzekļi** atlasiet **BusinessDocumentSubmission**.
+3. Atzīmējiet lauku **Priekšskatīt iespējoto līdzekli**.
+4. Atlasiet LCS izvietošanas projektu. Lai varētu atlasīt projektu, tam ir jābūt izveidotam un palaistam.
+5. Kopsavilkuma cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+6. Atlasiet **Biznesa dokumentu iesniegšana**.
+7. Dialoglodziņā **Iestatīt pievienojumprogrammu** laukā **AAD pieteikuma ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī vērtība ir fiksēta vērtība.
+8. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta ID.
 
     ![Iestatījuma pievienojumprogramma dialoglodziņā LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Atzīmējiet izvēles rūtiņu, lai piekristu noteikumiem un nosacījumiem.
-8. Atlasiet **Instalēt**.
+9. Atzīmējiet izvēles rūtiņu, lai piekristu noteikumiem un nosacījumiem.
+10. Atlasiet **Instalēt**.
 
 ## <a name="rcs-setup"></a>RCS iestatījumi
 
@@ -124,7 +126,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
     ![Galvenās glabātavas URI lauks](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Kopsavilkuma cilnē **Sertifikāti** atlasiet **Pievienot** un ievadiet ciparsertifikātu nosaukumus un galvenās glabātavas noslēpumus. Abas vērtību kopas ir konfigurētas uz galvenās glabātavas resursu Azure.
+7. Kopsavilkuma cilnē **Sertifikāti** atlasiet **Pievienot**, lai ievadītu visu ciparsertifikātu nosaukumus un galvenās glabātavas noslēpumus, kas ir nepieciešami, lai izveidotu uzticamus savienojumus. Kolonnā **Veids** var norādīt, vai tas ir sertifikāts vai noslēpums. Abas vērtību kopas ir konfigurētas uz galvenās glabātavas resursu Azure.
 
     ![Sertifikātu pievienošana](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Iestatiet RCS integrāciju ar elektronisko rēķinu izrakstīšanas pievienojumprogrammas serveri
 
-1. Darbvietas **Globalizācijas līdzekļi** sadaļā **Saistītās saites** atlasiet saiti **Elektronisko pārskatu veidošanas parametri**.
+1. Darbvietas **Globalizācijas līdzekļi** sadaļā **Saistītie iestatījumi** atlasiet saiti **Elektronisko pārskatu veidošanas parametri**.
 2. Atlasiet **Noklikšķiniet šeit, lai izveidotu savienojumu ar Lifecycle Service**. Ja nevēlaties izveidot savienojumu ar LCS, atlasiet **Atcelt**.
-3. Cilnē **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**, kas atrodas laukā **Pakalpojuma galapunkta URI**, ievadiet `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Cilnes **E-rēķinu pakalpojumi** laukā **Pakalpojuma galapunkta URI** ievadiet vērtību saskaņā ar pieejamajām ģeogrāfiskajām vietām: `https://businessdocumentsubmission.us.operations365.dynamics.com/` vai `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Laukā **Programmas ID** pārbaudiet, vai tas rāda ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Šī vērtība ir fiksēta vērtība.
 5. Laukā **LCS vides ID** ievadiet jūsu LCS abonementa konta ID.
 

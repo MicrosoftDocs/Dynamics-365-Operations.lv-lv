@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3595f896afb991f0161764fd6ca6c9891767865b
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759308"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976335"
 ---
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statisko dimensiju elementu un statistisko mēru nodrošinātāju veidnes
 
@@ -131,7 +131,7 @@ Lai iegūtu statistiskos mērījumus analīzē Izmaksu uzskaite, ir jānosaka st
 > [!NOTE]
 > Šajā piemērā mēs izveidosim relāciju tikai **faktiskajai versijai**.
 
-Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 Finance — statistiskie mēri**, jo vēlaties izgūt datus no programmas Finance.
+Lai izveidot relāciju, dodieties uz **Izmaksu uzskaites virsgrāmata** \> **Faktiskā versija** \> **Pārvaldība** \> **Statistiskie mēri**. Šajā scenārijā atlasiet datu savienotāju **Dynamics 365 Finance – statistiskie mēri**, jo vēlaties izgūt datus no programmas Finance.
 
 **Datu avots**
 

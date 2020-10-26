@@ -3,7 +3,7 @@ title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828948"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3929997"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 
@@ -171,6 +171,22 @@ Ja esat vādītājs ar tiešajiem pārskatiem, varat apskatīt savas grupas apst
 Kalendārā tiek rādīti jūsu tiešo pārskatu apstiprinātais un gaidošais brīvais laiks.
 
 ![Brīvā laika kalendārs programmā Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>Problēmu novēršana
+
+Ja jums rodas problēmas, pierakstoties vai izmantojot personāla vadības lietojumprogrammu Teams, izmēģiniet šīs problēmu novēršanas instrukcijas. Ja pēc problēmu novēršanas problēmas joprojām pastāv, sazinieties ar atbalsta dienestu. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nevar pierakstīties personāla vadības lietojumprogrammā Teams
+
+Ja nevarat pierakstīties lietojumprogrammā, iespējams, ka konts, kuru izmantojat, lai pierakstītos Microsoft Teams nav saistīts ar darbinieka ierakstu Dynamics 365 Human Resources. Sazinieties ar sistēmas administratoru, lai pārliecinātos, ka darbinieka ieraksts ir pareizi saistīts.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Kļūda, apstiprinot atvaļinājumu pieprasījumus personāla vadības lietojumprogrammā Teams
+
+Ja jūs saņemat kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījumus lietojumprogrammā Teams, veiciet tālāk norādītos problēmu novēršanas pasākumus:
+
+1. Pārbaudiet, vai konts, kuru izmantojat, lai pierakstītos Microsoft Teams ir tas pats, ko izmantojat, lai piekļūtu Dynamics 365 Human Resources.
+
+2. Pārbaudiet, vai esat derīgs pieprasījuma apstiprinātājs, pārbaudot darbplūsmas iestatījumus atvaļinājumu apstiprināšanai. Papildinformāciju par atvaļinājumu pieprasījumu darbplūsmām skatiet šeit: [Atvaļinājuma pieprasījuma darbplūsmas izveide](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
