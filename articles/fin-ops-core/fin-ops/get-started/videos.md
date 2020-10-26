@@ -3,7 +3,7 @@ title: Videoklipi
 description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar programmām Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
+ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645369"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3991456"
 ---
 # <a name="videos"></a>Videoklipi 
 
@@ -82,6 +82,7 @@ ms.locfileid: "3645369"
 - [Kā izmantot uzdevumu reģistrētāju, lai izveidotu pārbaudes gadījumu Regression suite automation tool (RSAT) rīkam](https://youtu.be/bBr4BXAxTNI)
 - [Kā izveidot pārbaudes plānu Azure DevOps, ko izmantot ar Regression suite automation tool (RSAT) rīku](https://youtu.be/3jIuBleAnQk) 
 - [Ka izmantot Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
+- [Uzlabotā Excel pieredze rīkā Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Videoklipi par Dynamics 365 Finance

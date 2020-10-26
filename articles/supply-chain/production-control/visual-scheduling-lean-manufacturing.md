@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826410"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958745"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Vizuāla plānošana ražošanai lean manufacturing
 
@@ -61,7 +61,7 @@ Lapā **Kanban plānošanas panelis** ir septiņi galvenie elementi, kā parād�
 
 ### <a name="view-the-time-scale"></a>Laika skalas skatīšana
 
-Panelis ir sadalīts periodos, un katrs no tiem ir attēlots kā mezgls (4). Perioda mezgli ir uzskaitīti uz vertikālās ass, savukārt uz horizontālās ass attēlota laika skala (7), kurā parādīts perioda garums. Perioda garums ir viena diena vai viena nedēļa. Perioda garumu nosaka Kanban plānošanas panelim (2) atlasītā darba šūnas konfigurācija. Katram perioda mezglam Kanban plānošanas panelis norāda, cik daudz plānoto Kanban darbu noslogo periodu. Sniegta arī norāde par maksimālo perioda caurlaidi. Ja plānotā caurlaide pārsniedz maksimālo caurlaidi, periods tiek uzskatīts par pārslogotu, un tiek parādīts sarkans brīdinājuma simbols. Plānotais Kanban darbs tiek rādīts periodā, kam ir ieplānoti sākuma un beigu laiki (5). Darba garums ir vienāds ar darbības laiku. Kanban darbi periodā ir redzami pārklājušies, ja darbības laiks pārsniedz darba šūnas izgatavošanas laiku.
+Panelis ir sadalīts periodos, un katrs no tiem ir attēlots kā mezgls (4). Perioda mezgli tiek uzskaitīti uz vertikālās ass, un uz horizontālās ass attēlota laika skala (7), kurā parādīts perioda garums. Perioda garums ir viena diena vai viena nedēļa. Perioda garumu nosaka Kanban plānošanas panelim (2) atlasītā darba šūnas konfigurācija. Katram perioda mezglam Kanban plānošanas panelis norāda, cik daudz plānoto Kanban darbu noslogo periodu. Sniegta arī norāde par maksimālo perioda caurlaidi. Ja plānotā caurlaide pārsniedz maksimālo caurlaidi, periods tiek uzskatīts par pārslogotu, un tiek parādīts sarkans brīdinājuma simbols. Plānotais Kanban darbs tiek rādīts periodā, kam ir ieplānoti sākuma un beigu laiki (5). Darba garums ir vienāds ar darbības laiku. Kanban darbi periodā ir redzami pārklājušies, ja darbības laiks pārsniedz darba šūnas uzdevuma laiku.
 
 ### <a name="view-job-status"></a>Darba statusa skatīšana
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652183"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970707"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervāēšanas politika
 
@@ -233,6 +233,9 @@ Ja noliktavas darba vienība sastāv no rindām, kas vienādas ar pilnu paleti, 
 ![Mobilās ierīces izvēlnes elements, kur opcija Rīkoties pēc numura zīmes ir iestatīta uz Jā](media/Handle-by-LP-menu-item.png)
 
 Tā kā **Rīkoties pēc numura zīmes** funkcionalitāte neatbalsta darbu, kas ietver vairākas paletes, labāk ir iegūt atsevišķu darba vienumu dažādām numura zīmēm. Lai izmantotu šo pieeju, pievienojiet **Pasūtījuma numura zīmes ID** lauku kā darba virsraksta pārtraukumu **Darba veidnes** lapā.
+
+> [!NOTE]
+> Ar pasūtījumu saistītā darba izveides procesā izdošanas darba rindām tiks piešķirta „ar pasūtījumu saistīta krājumu dimensijas” vērtība un nebūs iespējams tieši skatīt numura zīmes vērtību. Iestatot mobilās ierīces izvēlnes elementu, tiek atbalstīts tikai *lietotāja noteiktais* process.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Piemērs scenārijs: iestatiet un apstrādājiet pasūtījuma fiksēto numura zīmes rezervāciju
 
