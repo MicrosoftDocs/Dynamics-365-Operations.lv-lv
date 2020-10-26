@@ -16,37 +16,37 @@ ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab74ba88ba9eb683107ef82bc105f5a3ed8fac08
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 60e5425e54f9e0093888f355a51064e7f0057976
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209816"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976068"
 ---
-# <a name="monitor-forecast-accuracy"></a><span data-ttu-id="8493d-103">Prognozes precizitātes pārraudzība</span><span class="sxs-lookup"><span data-stu-id="8493d-103">Monitor forecast accuracy</span></span>
+# <a name="monitor-forecast-accuracy"></a><span data-ttu-id="c3912-103">Prognozes precizitātes pārraudzība</span><span class="sxs-lookup"><span data-stu-id="c3912-103">Monitor forecast accuracy</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8493d-104">Šajā tēmā ir aprakstīti programmā Microsoft Dynamics 365 Supply Chain Management aprēķinātās prognozes precizitātes veidi un ir paskaidrots, kā varat skatīt precizitātes vērtības.</span><span class="sxs-lookup"><span data-stu-id="8493d-104">This topic describes the types of forecast accuracy that Microsoft Dynamics 365 Supply Chain Management calculates, and explains how you can view the accuracy values.</span></span>
+<span data-ttu-id="c3912-104">Šajā tēmā ir aprakstīti programmā Microsoft Dynamics 365 Supply Chain Management aprēķinātās prognozes precizitātes veidi un ir paskaidrots, kā varat skatīt precizitātes vērtības.</span><span class="sxs-lookup"><span data-stu-id="c3912-104">This topic describes the types of forecast accuracy that Microsoft Dynamics 365 Supply Chain Management calculates, and explains how you can view the accuracy values.</span></span>
 
-<span data-ttu-id="8493d-105">Supply Chain Management tiek aprēķināti tālāk norādītie prognozes precizitātes tipi.</span><span class="sxs-lookup"><span data-stu-id="8493d-105">Supply Chain Management calculates the following types of forecast accuracy:</span></span>
+<span data-ttu-id="c3912-105">Supply Chain Management tiek aprēķināti tālāk norādītie prognozes precizitātes tipi.</span><span class="sxs-lookup"><span data-stu-id="c3912-105">Supply Chain Management calculates the following types of forecast accuracy:</span></span>
 
--   <span data-ttu-id="8493d-106">Vēsturiskās prognozes precizitāte, salīdzinot vēsturisko prognozi, ko izmanto vispārējā plānošanā kopā ar vēsturiskā pieprasījuma datiem.</span><span class="sxs-lookup"><span data-stu-id="8493d-106">Historical forecast accuracy, by comparing the historical forecast that Master Planning uses with the historical demand.</span></span> <span data-ttu-id="8493d-107">Lai skatītu vēsturiskās prognozes precizitātes vērtības (gan absolūtās, gan procentuālās vērtības), noklikšķiniet uz **Rādīt precizitāti** lapā **Detalizēti pieprasījuma apjoma prognozes dati**.</span><span class="sxs-lookup"><span data-stu-id="8493d-107">To view the values (both absolute values and percentage values) for historical forecast accuracy, click **Show accuracy** on the **Demand forecast details** page.</span></span>
--   <span data-ttu-id="8493d-108">Prognožu ģenerēšanai izmantotā prognozēšanas modeļa aprēķināta precizitāte.</span><span class="sxs-lookup"><span data-stu-id="8493d-108">The estimated accuracy of the forecasting model that is used to generate the predictions.</span></span> <span data-ttu-id="8493d-109">Procentuālo precizitāti var skatīt sadaļā **Detalizēti modeļa dati - MAPE** lapā **Detalizēti pieprasījuma apjoma prognozes dati**.</span><span class="sxs-lookup"><span data-stu-id="8493d-109">You can view the accuracy percentage under **Model details - MAPE** on the **Demand forecast details** page.</span></span> 
+-   <span data-ttu-id="c3912-106">Vēsturiskās prognozes precizitāte, salīdzinot vēsturisko prognozi, ko izmanto vispārējā plānošanā kopā ar vēsturiskā pieprasījuma datiem.</span><span class="sxs-lookup"><span data-stu-id="c3912-106">Historical forecast accuracy, by comparing the historical forecast that Master Planning uses with the historical demand.</span></span> <span data-ttu-id="c3912-107">Lai skatītu vēsturiskās prognozes precizitātes vērtības (gan absolūtās, gan procentuālās vērtības), noklikšķiniet uz **Rādīt precizitāti** lapā **Detalizēti pieprasījuma apjoma prognozes dati**.</span><span class="sxs-lookup"><span data-stu-id="c3912-107">To view the values (both absolute values and percentage values) for historical forecast accuracy, click **Show accuracy** on the **Demand forecast details** page.</span></span>
+-   <span data-ttu-id="c3912-108">Prognožu ģenerēšanai izmantotā prognozēšanas modeļa aprēķināta precizitāte.</span><span class="sxs-lookup"><span data-stu-id="c3912-108">The estimated accuracy of the forecasting model that is used to generate the predictions.</span></span> <span data-ttu-id="c3912-109">Procentuālo precizitāti var skatīt sadaļā **Detalizēti modeļa dati - MAPE** lapā **Detalizēti pieprasījuma apjoma prognozes dati**.</span><span class="sxs-lookup"><span data-stu-id="c3912-109">You can view the accuracy percentage under **Model details - MAPE** on the **Demand forecast details** page.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="8493d-110">Ja izmantojat Microsoft Azure algoritmiskās mācīšanās pakalpojumu Pieprasījuma prognozēšana, iekšējā modeļa precizitāte tiek aprēķināta, pamatojoties uz testa datu kopu.</span><span class="sxs-lookup"><span data-stu-id="8493d-110">If you use the Demand forecasting Microsoft Azure Machine Learning, the calculation of internal model accuracy is based on the test data set.</span></span> <span data-ttu-id="8493d-111">ai norādītu testa datu kopas izmēru, iestatiet parametru **TEST\_SET\_SIZE\_PERCENT** lapā **Pieprasījuma prognozēšanas parametri**.</span><span class="sxs-lookup"><span data-stu-id="8493d-111">To specify the size of the test data set, set the **TEST\_SET\_SIZE\_PERCENT** parameter on the **Demand forecasting parameters** page.</span></span> <span data-ttu-id="8493d-112">Piemēram, ja tiek iestatīta vērtība **20**, pēdējie vēsturisko datu 20 % tiks izmantoti, lai aprēķinātu iekšējā modeļa precizitāti.</span><span class="sxs-lookup"><span data-stu-id="8493d-112">For example, if you set the value to **20**, the last 20 percent of the historical data will be used to calculate the internal model accuracy.</span></span>
+> <span data-ttu-id="c3912-110">Ja izmantojat Microsoft Azure algoritmiskās mācīšanās pakalpojumu Pieprasījuma prognozēšana, iekšējā modeļa precizitāte tiek aprēķināta, pamatojoties uz testa datu kopu.</span><span class="sxs-lookup"><span data-stu-id="c3912-110">If you use the Demand forecasting Microsoft Azure Machine Learning, the calculation of internal model accuracy is based on the test data set.</span></span> <span data-ttu-id="c3912-111">ai norādītu testa datu kopas izmēru, iestatiet parametru **TEST\_SET\_SIZE\_PERCENT** lapā **Pieprasījuma prognozēšanas parametri**.</span><span class="sxs-lookup"><span data-stu-id="c3912-111">To specify the size of the test data set, set the **TEST\_SET\_SIZE\_PERCENT** parameter on the **Demand forecasting parameters** page.</span></span> <span data-ttu-id="c3912-112">Piemēram, ja tiek iestatīta vērtība **20**, pēdējie vēsturisko datu 20 % tiks izmantoti, lai aprēķinātu iekšējā modeļa precizitāti.</span><span class="sxs-lookup"><span data-stu-id="c3912-112">For example, if you set the value to **20**, the last 20 percent of the historical data will be used to calculate the internal model accuracy.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="8493d-113">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="8493d-113">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="c3912-113">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="c3912-113">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="8493d-114">Autorizēt koriģēto pieprasījuma apjoma prognozi</span><span class="sxs-lookup"><span data-stu-id="8493d-114">Authorize an adjusted forecast</span></span>](authorize-adjusted-forecast.md)
+[<span data-ttu-id="c3912-114">Autorizēt koriģēto pieprasījuma apjoma prognozi</span><span class="sxs-lookup"><span data-stu-id="c3912-114">Authorize an adjusted forecast</span></span>](authorize-adjusted-forecast.md)
 
-[<span data-ttu-id="8493d-115">Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi</span><span class="sxs-lookup"><span data-stu-id="8493d-115">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
+[<span data-ttu-id="c3912-115">Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi</span><span class="sxs-lookup"><span data-stu-id="c3912-115">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
 
 
 

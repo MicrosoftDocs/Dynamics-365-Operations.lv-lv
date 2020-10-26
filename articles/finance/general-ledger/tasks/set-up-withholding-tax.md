@@ -13,39 +13,39 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 135cca434a1689bf22ee468894dcf8746071e7ca
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bfa1b9e43a5745eb5b5c442998597319f196f23f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144701"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976749"
 ---
-# <a name="set-up-withholding-tax"></a><span data-ttu-id="87268-103">Ieturētā nodokļa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="87268-103">Set up withholding tax</span></span>
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="ea7b7-103">Ieturētā nodokļa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="ea7b7-103">Set up withholding tax</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="87268-104">Šajā tēmā ir paskaidrots, kā iestatīt ieturēto nodokli.</span><span class="sxs-lookup"><span data-stu-id="87268-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="87268-105">*Ieturētais nodoklis* ir nodoklis, kas tiek piemērots kreditoram, kuri neveido PVN darījumus.</span><span class="sxs-lookup"><span data-stu-id="87268-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="87268-106">Ieturētais nodoklis, kas tiek aprēķināts kreditora maksājumiem, ir pasīvs.</span><span class="sxs-lookup"><span data-stu-id="87268-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="87268-107">Tāpēc ieturētā nodokļa grāmatošanai ir derīgi tikai bilances konti vai pasīvu konti.</span><span class="sxs-lookup"><span data-stu-id="87268-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="87268-108">Šis uzdevuma ceļvedis parāda, kā iestatīt ieturēto nodokli.</span><span class="sxs-lookup"><span data-stu-id="87268-108">This task guide demonstrates how to set up withholding tax.</span></span>
+<span data-ttu-id="ea7b7-104">Šajā tēmā ir paskaidrots, kā iestatīt ieturēto nodokli.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="ea7b7-105">*Ieturētais nodoklis* ir nodoklis, kas tiek piemērots kreditoram, kuri neveido PVN darījumus.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="ea7b7-106">Ieturētais nodoklis, kas tiek aprēķināts kreditora maksājumiem, ir pasīvs.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="ea7b7-107">Tāpēc ieturētā nodokļa grāmatošanai ir derīgi tikai bilances konti vai pasīvu konti.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="ea7b7-108">Šis uzdevuma ceļvedis parāda, kā iestatīt ieturēto nodokli.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-108">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. <span data-ttu-id="87268-109">Pārejiet uz **Navigācijas rūts > Moduļi > Nodokļi > Netiešie nodokļi > Ieturētais nodoklis > Ieturētā nodokļa kodi**.</span><span class="sxs-lookup"><span data-stu-id="87268-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
-2. <span data-ttu-id="87268-110">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="87268-110">Select **New**.</span></span>
-3. <span data-ttu-id="87268-111">Ierakstiet vērtību laukā **Ieturētā nodokļa kods**.</span><span class="sxs-lookup"><span data-stu-id="87268-111">In the **Withholding tax code** field, type a value.</span></span>
-4. <span data-ttu-id="87268-112">Laukā **Ieturētā nodokļa nosaukums** ievadiet ieturētā nodokļa koda nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="87268-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
-5. <span data-ttu-id="87268-113">Laukā **Galvenais konts** atlasiet galveno kontu ieturētā nodokļa parādu grāmatošanai.</span><span class="sxs-lookup"><span data-stu-id="87268-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
-6. <span data-ttu-id="87268-114">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="87268-114">Select **Save**.</span></span>
-7. <span data-ttu-id="87268-115">Atlasiet **Vērtības** un atzīmējiet vēlamo ierakstu sarakstā.</span><span class="sxs-lookup"><span data-stu-id="87268-115">Select **Values** and mark the desired record in the list.</span></span>
-8. <span data-ttu-id="87268-116">Laukā **Vērtība** ievadiet ieturētā nodokļa aprēķinam izmantojamo procentuālo vērtību.</span><span class="sxs-lookup"><span data-stu-id="87268-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
-9. <span data-ttu-id="87268-117">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="87268-117">Select **Save**.</span></span>
-10. <span data-ttu-id="87268-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="87268-118">Close the page.</span></span>
-11. <span data-ttu-id="87268-119">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="87268-119">Select **Save**.</span></span>
-12. <span data-ttu-id="87268-120">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="87268-120">Close the page.</span></span>
-13. <span data-ttu-id="87268-121">Pārejiet uz **Navigācijas rūts > Moduļi > Nodokļi > Netiešie nodokļi > Ieturētais nodoklis > Ieturētā nodokļa grupas**.</span><span class="sxs-lookup"><span data-stu-id="87268-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
-14. <span data-ttu-id="87268-122">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="87268-122">Select **New**.</span></span>
-15. <span data-ttu-id="87268-123">Laukā **Ieturētā nodokļa grupa** ievadiet ieturētā nodokļa grupas identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="87268-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
-16. <span data-ttu-id="87268-124">Laukā **Apraksts** ievadiet krājumu ieturētā nodokļa grupas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="87268-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
-17. <span data-ttu-id="87268-125">Laukā **Ieturētā nodokļa kods** atlasiet ieturētā nodokļa kodu.</span><span class="sxs-lookup"><span data-stu-id="87268-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
-18. <span data-ttu-id="87268-126">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="87268-126">Select **Save**.</span></span>
-19. <span data-ttu-id="87268-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="87268-127">Close the page.</span></span>
+1. <span data-ttu-id="ea7b7-109">Pārejiet uz **Navigācijas rūts > Moduļi > Nodokļi > Netiešie nodokļi > Ieturētais nodoklis > Ieturētā nodokļa kodi**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
+2. <span data-ttu-id="ea7b7-110">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-110">Select **New**.</span></span>
+3. <span data-ttu-id="ea7b7-111">Ierakstiet vērtību laukā **Ieturētā nodokļa kods**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-111">In the **Withholding tax code** field, type a value.</span></span>
+4. <span data-ttu-id="ea7b7-112">Laukā **Ieturētā nodokļa nosaukums** ievadiet ieturētā nodokļa koda nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="ea7b7-113">Laukā **Galvenais konts** atlasiet galveno kontu ieturētā nodokļa parādu grāmatošanai.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="ea7b7-114">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-114">Select **Save**.</span></span>
+7. <span data-ttu-id="ea7b7-115">Atlasiet **Vērtības** un atzīmējiet vēlamo ierakstu sarakstā.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-115">Select **Values** and mark the desired record in the list.</span></span>
+8. <span data-ttu-id="ea7b7-116">Laukā **Vērtība** ievadiet ieturētā nodokļa aprēķinam izmantojamo procentuālo vērtību.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
+9. <span data-ttu-id="ea7b7-117">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-117">Select **Save**.</span></span>
+10. <span data-ttu-id="ea7b7-118">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-118">Close the page.</span></span>
+11. <span data-ttu-id="ea7b7-119">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-119">Select **Save**.</span></span>
+12. <span data-ttu-id="ea7b7-120">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-120">Close the page.</span></span>
+13. <span data-ttu-id="ea7b7-121">Pārejiet uz **Navigācijas rūts > Moduļi > Nodokļi > Netiešie nodokļi > Ieturētais nodoklis > Ieturētā nodokļa grupas**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
+14. <span data-ttu-id="ea7b7-122">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-122">Select **New**.</span></span>
+15. <span data-ttu-id="ea7b7-123">Laukā **Ieturētā nodokļa grupa** ievadiet ieturētā nodokļa grupas identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
+16. <span data-ttu-id="ea7b7-124">Laukā **Apraksts** ievadiet krājumu ieturētā nodokļa grupas nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
+17. <span data-ttu-id="ea7b7-125">Laukā **Ieturētā nodokļa kods** atlasiet ieturētā nodokļa kodu.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
+18. <span data-ttu-id="ea7b7-126">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-126">Select **Save**.</span></span>
+19. <span data-ttu-id="ea7b7-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="ea7b7-127">Close the page.</span></span>
 
