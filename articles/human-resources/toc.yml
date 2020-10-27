@@ -75,6 +75,8 @@
               href: hr-admin-integration-common-data-service.md
             - name: Common Data Service entītijas
               href: hr-developer-entities.md
+            - name: Common Data Service virtuālo elementu konfigurēšana
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Integrācijas konfigurēšana ar Finance
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
@@ -232,7 +234,7 @@
         - name: Human Resources problēmu novēršana
           items:
             - name: Atbalsta saņemšana
-              href: hr-admin-troubleshooting-support.md
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
             - name: 'Veiktspējas optimizēšana, plānojot pakešuzdevumus pēc darba laika'
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: 'Veiktspējas optimizēšana, izmantojot automātiskās tīrīšanas uzdevumus'

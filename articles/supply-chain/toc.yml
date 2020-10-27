@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Jaunumi un izmaiņas programmā Supply Chain Management
                   items:
-                    - name: Mājas lapa “Jaunumi un izmaiņas programmā Supply Chain Management”
+                    - name: "Jaunumi un izmaiņas programmā Supply Chain Management\_— sākumlapa"
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management 10.0.15 (2020.\_gada decembris)"
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: "Supply Chain Management\_10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: "Supply Chain Management\_10.0.13 (2020.\_gada oktobris)"
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: "Supply Chain Management 10.0.12 (2020.\_gada augusts)"
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: LCS ieviešanas projektu pārvietošana uz citiem Azure AD nomniekiem
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: LCS ieviešanas projektu pārvietošana no lokāla risinājuma uz mākoni
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalizācija
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Normatīvie atjauninājumi
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Indija
+              items:
+                - name: Krājumu pārskaitījumu pasūtījumi
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Krievija
               items:
                 - name: Krievijas pārskats
@@ -1407,9 +1413,11 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Vispārējās plānošanas veiktspējas uzlabošana
                   href: master-planning/master-planning-performance.md
+                - name: Plānošanas programmas veiktspējas uzlabošana
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Vispārējie plāni un vairākvietu funkcionalitāte
                   items:
-                    - name: Vispārēja plānošanas un vairākvietu funkcionalitātes pārskats
+                    - name: Vispārējās plānošanas un vairākvietu funkcionalitātes pārskats
                       href: master-planning/master-plan-multisite-functionality.md
                     - name: 'Vietas seguma vispārējā plānošana, ja noliktava ir obligāta'
                       href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Maršruta uzturēšana preces modelim
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: No atribūtiem atkarīgas pārdošanas cenas uz ierobežojumiem balstītām produktu konfigurācijām
+                      href: pim/attribute-based-product-configurator.md
                     - name: Preces konfigurācijas modeļa apstiprināšana
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Datu pārsūtīšana par preču modeļiem
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: Ziņojums par pabeigšanu no darbu kartes ierīces
                       href: production-control/report-finished-job-device.md
+                    - name: Jauktās realitātes ceļvežu nodrošināšana nodarbinātajiem ražošanā
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Ražošanas pasūtījuma statusa atcelšana
                       href: production-control/reverse-production-order-status.md
                     - name: Materiālu izņēmumu redzamība
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Numura zīmes uzlīmes drukāšanas iespējošana
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Pārsūtīšanas pasūtījumu izveide no noliktavas programmas
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Noliktavas programmas notikumu apstrāde
+                      href: warehousing/warehouse-app-events.md
                     - name: Vienības izdošanas apstiprinājums
                       href: warehousing/piece-picking-confirmation.md
                     - name: Iepakojuma materiāli un maksas
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Procesu rokasgrāmatas struktūra
                       href: warehousing/process-guide-framework.md
+                    - name: Noliktavas programmas savienojuma problēmu novēršana
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Jaunināšana un migrēšana
                   items:
                     - name: Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations

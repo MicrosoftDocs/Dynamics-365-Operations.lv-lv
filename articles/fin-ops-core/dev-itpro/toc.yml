@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Jaunumi un izmaiņas Platform atjauninājumos
               items:
-                - name: Mājas lapa “Jaunumi un izmaiņas Platform atjauninājumos”
+                - name: "Jaunumi un izmaiņas Platform atjauninājumos\_— sākumlapa"
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.15 (2021.\_gada janvāris)"
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: "Platform atjauninājumi versijai\_10.0.14 (2020.\_gada novembris)"
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: "Platform atjauninājumi versijai\_10.0.13 (2020.\_gada oktobris)"
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Vispārīgā problēmu novēršana
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Bieži uzdotie jautājumi par duālo ierakstu
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Integrācija ar Power Platform
                       items:
                         - name: Scenārija “No potenciālā klienta līdz skaidrai naudai” konfigurēšana
@@ -386,6 +390,8 @@
           items:
             - name: Pārskats
               href: database/dbmovement-operations.md
+            - name: Rīkkopa datu bāzes pārvietošanai
+              href: database/database-movement-toolkit.md
             - name: Ātras darba sākšanas ceļveži
               items:
                 - name: Atsvaidzināt datu bāzi
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs, izmantojot DACPAC procesu"
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: "AX 2012 jaunināšana\_— Lokālas vides"

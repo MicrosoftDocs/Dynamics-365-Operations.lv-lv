@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1e7775e797708668a339b6b02ed822261406c829
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323673"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958797"
 ---
 # <a name="set-up-master-planning"></a>Vispārējās plānošanas iestatīšana
 
@@ -120,7 +120,7 @@ Darbu plānošana ir detalizētāka plānošanas metode, kurā katra operācija 
 Katram plānam var izvēlēties, cik tālu nākotnē ir jāaprēķina dažādas prasības un citi apsvērumi, izmantojot vispārējo plānošanu. Šo laikposmu sauc par *periodu*. Lai iegūtu vislabākos rezultātus vispārējā plānošanā, ieteicams koriģēt dažādus periodus atbilstoši jūsu uzņēmuma vajadzībām. Katram plānam periodus var atrast lapas **Vispārējie plāni** kopsavilkuma cilnē **Periodi dienās** (**Vispārējā plānošana \> Iestatījumi \> Plāni \> Vispārējie plāni**).
 
 > [!NOTE]
-> Periodi norāda, cik tālu nākotnē tiek aprēķinātas dažādas prasības un citi apsvērumi, izmantojot vispārējo plānošanu. Šajā lapā atlasītie periodi pārlabos vajadzību grupā definētos periodus. Tas nozīmē, ka, iestatot perioda opcijai vienumu Jā un definējot dienas, tiks pārlabots periods, kas definēts vajadzību grupā. Iestatot vienumu Nē, periods tiks definēts vajadzību grupā. Visbeidzot, ja nevēlaties vai nav nepieciešams izmantot opciju (piemēram, nevēlaties izmantot darbību ziņojumus), iestatiet vienumu **Jā**, un pēc tam iestatiet periodam **0** (nulle) dienas.
+> Periodi norāda, cik tālu nākotnē tiek aprēķinātas dažādas prasības un citi apsvērumi, izmantojot vispārējo plānošanu. Šajā lapā atlasītie periodi pārlabos vajadzību grupā definētos periodus. Tas nozīmē, ka, iestatot laika perioda opciju uz „Jā” un definējot dienas, tiks pārlabots laika periods, kas definēts vajadzības grupā. Iestatot vienumu Nē, periods tiks definēts vajadzību grupā. Visbeidzot, ja nevēlaties vai nav nepieciešams izmantot opciju (piemēram, nevēlaties izmantot darbību ziņojumus), iestatiet vienumu **Jā**, un pēc tam iestatiet periodam **0** (nulle) dienas.
 
 ### <a name="coverage"></a>Vajadzība
 

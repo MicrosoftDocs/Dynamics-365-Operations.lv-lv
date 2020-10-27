@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 62ed33d101f7d7e47b560c417dc05e5aecc83478
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 911c5cc79ae359bbb77d31f366ccfeabf282a33e
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546342"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958697"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Sinhronizēt preces ar Krājumu uzskaites vienību no Supply Chain Management uz Field Service
 
@@ -50,7 +50,7 @@ Izmantotā veidne **Field Service preces ar krājumu uzskaites vienību (Supply 
 
 - Preces
 
-Veidne **Field Service preces ar krājumu uzskaites vienību (Supply Chain Management uz Field Service)** ietver vienu kartēšanu, kas nav iekļauta veidnē **Field Service preces (no Supply Chain Management uz Field Service)**. Šis kartējums nodrošina, ka ir iekļauta krājumu uzskaites vienība, kas nepieciešama krājumu līmeņa sinhronizēšanai.
+Veidne **Field Service preces ar krājumu uzskaites vienību(no Supply Chain Management uz Field Service)** ietver vienu kartējumu, kas nav iekļauts veidnē **Field Service preces (no Supply Chain Management uz Field Service)**. Šis kartējums nodrošina, ka ir iekļauta krājumu uzskaites vienība, kas nepieciešama krājumu līmeņa sinhronizēšanai.
 
 ```plaintext
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 

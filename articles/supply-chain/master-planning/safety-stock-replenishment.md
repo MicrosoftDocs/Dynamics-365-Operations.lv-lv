@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 7a1721b3206f8a3df010f26dc31e3ac4e5e0878b
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887020"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987393"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Krājumu drošības rezerves izpilde
 
@@ -111,7 +111,7 @@ Lai parādītu, kā tas darbojas, apskatiet tālāk aprakstīto scenāriju.
 
 Krājumu drošības rezerve sistēmā tiek izsekota kā prasības veids — gluži kā pārdošanas rindas vai MK prasības. Krājumu drošības rezerves prasības rinda ir redzama lapā **Neto prasības**, ja noņemat noklusējuma filtru kolonnai **Prasības veids**.
 
-Krājumu drošības rezerves prasības transakcijas izpildes prioritāte tiek samazināta, ja sistēma konstatē, ka šī transakcija izraisa reālo pieprasījumu izpildes aizkaves, piemēram pārdošanas rindās, MK rindās, pārsūtīšanas prasībās vai pieprasījuma apjoma prognozes rindās. Pretējā gadījumā nodrošināšanai, lai pieejamo krājumu daudzums pārsniegtu krājumu drošības rezervi, ir tāda pati prioritāte kā citiem pieprasījuma veidiem. Tādējādi tiek nodrošināts, ka reālajām transakcijām nerodas aizkaves, kā arī tiek novērsta pārlieka papildināšana un krājumu drošības rezerves pāragra papildināšana.
+Krājumu drošības krājumu prasību transakcijas izpildes prioritāte tiek samazināta, ja sistēma konstatē, ka šī transakcija izraisa reālo pieprasījumu izpildes aizkavēšanos, piemēram pārdošanas rindās, MK rindās, pārsūtīšanas prasībās vai pieprasījuma apjoma prognozes rindās. Pretējā gadījumā nodrošināšanai, lai pieejamo krājumu daudzums pārsniegtu krājumu drošības rezervi, ir tāda pati prioritāte kā citiem pieprasījuma veidiem. Tādējādi tiek nodrošināts, ka reālajām transakcijām nerodas aizkaves, kā arī tiek novērsta pārlieka papildināšana un krājumu drošības rezerves pāragra papildināšana.
 
 Vispārējās plānošanas segšanas posmā krājumu drošības rezerves papildināšanai vairs netiek samazināta prioritāte. Rīcībā esošos krājumus var izmantot pirms visiem pārējiem pieprasījuma veidiem. Aizkaves aprēķināšanas laikā tiks pievienota jauna loģika, pārskatot aizkavētās pārdošanas rindas, MK rindu prasības un visus citus pieprasījuma veidus, lai noteiktu, vai tos varētu piegādāt laikā, ja vien tiktu izmantota krājumu drošības rezerve. Ja sistēma konstatē, ka tā var samazināt aizkaves, izmantojot krājumu drošības rezervi, tad pārdošanas rindās vai MK rindās to sākotnējā vajadzība tiks aizstāta ar krājumu drošības rezervi, un tās vietā sistēma aktivizēs krājumu drošības rezerves papildināšanu.
 

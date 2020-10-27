@@ -3,7 +3,7 @@ title: Īsinājumtaustiņi
 description: Šī tēma sniedz apskatu par īsinājumtaustiņu kombinācijām, kuras varat izmantot, strādājot ar Finance and Operations programmām.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761625"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962524"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
@@ -32,6 +32,8 @@ Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datu
 
 > [!NOTE]
 > Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
+
+Dažas no šajā lapā norādītajām saīsnēm ir *taustiņu akordi*, kas nozīmē, ka tām nepieciešamas divas secīgas taustiņu kombināciju kopas (atdalītas ar komatu), kas ir jāspiež, lai izraisītu nepieciešamo darbību. Piemēram, saīsne „Alt+M,A” pieprasa lietotājam vispirms nospiest „Alt + M”, atlaist taustiņus un pēc tam nospiest „A”. 
 
 ## <a name="finding-a-shortcut"></a>Saīsnes atrašana
 
@@ -193,7 +195,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pāriet uz galvenās lapas saturu (kamēr fokuss atrodas citā rūtī)                    | Alt+M,M                    |
 | Pāriet uz papildinformācijas rūti (šī darbība var ietvert tās atvēršanu)                       | Alt+M,B vai Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Personalizēšanas saīsnes
+## <a name="personalization-shortcuts"></a>[Personalizēšanas](personalize-user-experience.md) saīsnes 
 
 | Lai izpildītu šo darbību                                                                                                             | Nospiediet                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pāriet uz iepriekšējo/nākamo lapu uzmeklēšanas rūtī                                                                                       | Page Up/Page Down              |
 | Pāriet uz uzmeklēšanas rūts augšdaļu/apakšdaļu                                                                                    | Home/End                       |
 
+## <a name="task-recordershortcuts"></a>[Uzdevumu ierakstītāja](../../dev-itpro/user-interface/task-recorder.md)saīsnes 
+
+| Darbība                                                                    | Nospiests:                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Apturēt ierakstu (kamēr tiek ierakstīts)                                          | Alt+R,S                    |
+| Pārslēgt uzdevumu ierakstītāja rūts redzamību (kamēr tiek ierakstīts)             | Alt+R,T                    |
+| Pārslēgt Sliežu režīmu (demonstrējot uzdevuma ceļvedi)                                | Alt+R,L                    |
+| Doties uz iepriekšējo darbību (kamēr tiek demonstrēts uzdevuma ceļvedis)                          | Alt+R,P                    |
+| Doties uz nākamo darbību (kamēr tiek demonstrēts uzdevuma ceļvedis)                              | Alt+R,N                    |
+| Pārslēgt fokusu starp lapu un animēto uznirstošo uzvedni (kamēr tiek demonstrēts uzdevuma ceļvedis) | Alt+R,F               |
+| Izvērst/sakļaut animēto uznirstošo uzvedni (kamēr tiek demonstrēts uzdevuma ceļvedis)              | Alt+R,C                    |
+| Rādīt vairāk/mazāk informācijas animētajā uznirstošajā uzvednē (kamēr tiek demonstrēts uzdevuma ceļvedis) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Tastatūras saīsnes trūkstošu kontu analīzei](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Tastatūras saīsnes trūkstošu kontu analīzei](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

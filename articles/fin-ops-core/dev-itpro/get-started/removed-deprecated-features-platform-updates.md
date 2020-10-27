@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819893"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971449"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -34,6 +34,22 @@ ms.locfileid: "3819893"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.15 versijai
+
+> [!NOTE]
+> Versija 10.0.15 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio pievienojumprogramma, lai lietotu metadatu labojumfailus
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Metadatu labojumfaili vairs netiek atbalstīti ar [One Version](../../fin-ops/get-started/one-version.md) pakalpojuma atjauninājumiem, kas tika ieviesti 2018. jūlijā ar versiju 8.1. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Atsevišķi metadatu labojumfaili nav pieejami atbalstītajām versijām. Tā vietā tiek piemēroti kumulatīvi kvalitātes atjauninājumi. |
+| **Ietekmētie produkta apgabali**         | Visual Studio pievienojumprogrammas |
+| **Izvietošanas iespēja**              | Izstrādes virtuālās mašīnas |
+| **Statuss**                         | Izmantojot versiju 10.0.15, pievienojumprogramma vairs nav iekļauta Visual Studio rīkos. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.14 versijai
 
@@ -50,6 +66,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Ietekmētie produkta apgabali**         | Sistēmas administrēšana |
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Līdz 2021. gada oktobrim šī veidlapa tiks noņemta.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.13 versijai
 

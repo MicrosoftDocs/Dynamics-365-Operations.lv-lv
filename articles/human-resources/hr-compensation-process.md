@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05f7be778857380d40a73d068e2b0b4fc7d1d1f6
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009809"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958721"
 ---
 # <a name="process-compensation"></a>Atlīdzības apstrāde
 
@@ -44,7 +44,7 @@ Noklikšķiniet uz pogas **Pievienot** cilnē **Sistēmas**, lai apstrādes noti
 
 Saglabājiet ierakstu un pēc tam noklikšķiniet uz pogas **Pievienot** cilnē **Darbības**, lai atlasītajai sistēmai pievienotu fiksētās atlīdzības darbības. Izmantojiet opciju **Iespējot ieteikumus**, lai ievadītu summu, kas atšķiras no darbībai aprēķinātā algas palielinājuma. Lai aprēķinātu darbību, kuras pamatā ir iepriekšējās darbības rezultāts, un saistītu vairākas atlīdzības darbības, atzīmējiet opciju **Izmantot iepriekšējo rezultātu**. Fiksētās atlīdzības darbības ir atlīdzības loģikas veidi, kam varat dot aprakstošus nosaukumus. Līmeņa un joslas sistēmām varat pievienot tikai tālāk norādīto veidu fiksētās atlīdzības darbības.
 
-| Fiksētās atlīdzības veids | Funkcionalitāte                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Fiksētās atlīdzības darbības veids | Funkcionalitāte                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kapitāls                        | Kapitāla darbības salīdzinās darbinieka samaksas likmi no cikla beigu datuma ar zemāko atskaites punktu un darbinieka darbā norādīto līmeni. Ja darbinieka apmaksas likme ir mazāka par minimālo atsauces punktu, tiks aprēķināts palielinājums, kas nepieciešams, lai darbinieku novirzītu uz minimālo punktu diapazonā.                                                                                |
 | Nopelni                         | Nopelnu darbības aprēķinās palielinājumu, pamatojoties uz darbinieka apmaksas likmi no cikla beigu datuma, un palielinājuma procentus, kas atrodami fiksētā palielinājuma budžetā darbinieka nodaļai, arodbiedrībai un atrašanās vietai.                                                                                                                                                                                         |

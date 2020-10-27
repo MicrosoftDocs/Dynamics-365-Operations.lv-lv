@@ -3,7 +3,7 @@ title: Līdzekļu pārvaldības pārskats
 description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499623"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967338"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -179,3 +179,24 @@ Funkciju lidojumi ir reāllaika ieslēgšanas/izslēgšanas slēdži, ko kontrol
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Vai funkcijas kādreiz tiek izslēgtas, klientam nezinot par to? 
 Jā, ja līdzeklis ietekmē tādas vides darbību, kurai nav funkcionālas ietekmes, tad to var iespējot pēc noklusējuma.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kā var pārbaudīt līdzekļa iespējošanu kodā?
+Lietojiet metodi **isFeatureEnabled**, kas atrodas klasē **FeatureStateProvider**, padodot tai līdzekļu klases instanci. Piemērs: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Kā var pārbaudīt līdzekļa iespējošanu metadatos?
+**FeatureClass** rekvizītu var izmantot, lai norādītu, ka daži metadati ir saistīti ar līdzekli. Jāizmanto līdzeklim izmantotais klases nosaukums, piemēram, **BatchContentionPreventionFeature**. Šie metadati ir redzami tikai šajā līdzeklī. **Rekvizīts FeatureClass** ir pieejams izvēlnēs, izvēlnes elementos, uzskaitījuma vērtībās un tabulas/skata laukos.
+
+### <a name="what-is-a-feature-class"></a>Kas ir līdzekļu klase?
+Līdzekļu pārvaldības līdzekļi ir definēti kā *līdzekļu klases*. Līdzekļu klases **ievieš IFeatureMetadata** un izmanto līdzekļu klases atribūtu, lai identificētu sevi līdzekļu pārvaldības darbvietā. Ir pieejami daudzi līdzekļu klašu piemēri, ko var pārbaudīt, lai iespējotu kodu, izmantojot **FeatureStateProvider** API, un metadatos, izmantojot **FeatureClass** rekvizītu. Piemērs: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Kāds IFeatureLifecycle ir ieviests ar dažām funkciju klasēm?
+IFeatureLifecycle ir iekšējs Microsoft mehānisms līdzekļu dzīves cikla stadijas norādīšanai. Līdzekļi var būt šādi:
+- PrivatePreview — lai būtu redzams, nepieciešams lidojums.
+- PublicPreview — tiek parādīts pēc noklusējuma, bet ar brīdinājumu, ka līdzeklis ir priekšskatījumā.
+- Izlaists — pilnībā izlaists.
+

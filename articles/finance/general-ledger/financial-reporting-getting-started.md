@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835114"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967262"
 ---
 # <a name="get-started-with-financial-reporting"></a>Sākt darbu ar Financial reporting 
 
@@ -149,7 +149,12 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 * Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes. Apgabalā ar nosaukumu Šīs zonas drošības līmenis, mainiet opciju uz **Vidēji zems**.
 * Atspējojiet uznirstošo elementu bloķētāju savā pārlūkprogrammā.
 * Darbstacijām ir nepieciešams instalēt Microsoft .NET Framework 4.6.2 vai jaunāku versiju. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345).
-* Lietojot pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmam. Ja nevarat pieteikties, izmantojot pārlūkprogrammu Chrome, izpildiet 1. problēmā aprakstītās iestatīšanas darbības, izmantojot pārlūkprogrammu Internet Explorer vai Edge. 
+* Lietojot Microsoft Edge ar pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmam. 
+     1. Atveriet jaunu pārlūkprogrammu Microsoft Edge.
+     2. Ievadiet **edge://flags** un atlasiet **Enter**.
+     3. Meklējiet **ClickOnce atbalsta** opciju vai izmantojiet šo tiešo saiti: **edge://flags/#edge-click-once**.
+     4. Iestatiet nolaižamās izvēlnes opciju kā **iespējotu**.
+     5. Atlasiet**Restartēt pārlūkprogrammu**.
 
 2. problēma: lietotājam nav piešķirtas nepieciešamās atļaujas Financial Reporting izmantošanai. 
 

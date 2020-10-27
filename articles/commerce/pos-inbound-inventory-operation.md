@@ -3,7 +3,7 @@ title: Ienākošo krājumu operācija punktā POS
 description: Šajā tēmā ir aprakstītas pārdošanas punkta (POS) ienākošo krājumu operāciju iespējas.
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710313"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971501"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -133,6 +133,18 @@ Skats **Saņemt tagad** sniedz fokusētu veidu, kādā lietotāji var redzēt, k
 Validācijas notiek dokumenta rindu saņemšanas procesā. Tās ietver validācijas pasūtījuma apjoma pārsniegšanai. Ja lietotājs mēģina saņemt vairāk krājumu, nekā bija pasūtīts uz pirkšanas pasūtījumu, bet vai nu nav konfigurēta pasūtījuma apjoma pārsniegšana, vai saņemtais daudzums pārsniedz pirkšanas pasūtījuma rindai konfigurēto pasūtījuma apjoma pārsniegšanas toleranci, lietotājs saņem kļūdu, un lietotājam nav atļauts saņemt pārsniegto daudzumu.
 
 Pārsūtīšanas pasūtījuma dokumentiem nav atļauta pārlieka saņemšana. Lietotāji vienmēr saņems kļūdas, ja mēģinās saņemt vairāk nekā tika nosūtīts pārsūtīšanas pasūtījuma rindai.
+
+### <a name="close-purchase-order-lines"></a>Slēgt pirkšanas pasūtījuma rindas
+
+Varat saņemšanas procesa laikā slēgt atlikušo daudzumu ienākošā pirkšanas pasūtījumā, ja kravas nosūtītājs ir apstiprinājis, ka nevar nosūtīt visu pieprasīto daudzumu. Lai izmantotu šo iespēju, uzņēmumam jābūt konfigurētam atļaut nepilnu pirkšanas pasūtījumu piegādi. Turklāt nepilnas piegādes tolerances procentiem jābūt definētiem pirkšanas pasūtījuma rindai.
+
+Lai konfigurētu uzņēmumu atļaut nepilnu pirkšanas pasūtījumu piegādi, programmā Commerce headquarters dodieties uz **Sagāde un avoti** > **Iestatījumi** > **Sagādes un avotu parametri**. Cilnē **Piegāde** ieslēdziet parametru **Pieņemt nepilnu piegādi**. Tad palaidiet **1070** (**Kanāla konfigurācija**) sadales grafika darbu, lai sinhronizētu iestatījumu izmaiņas kanālos.
+
+Nepilnas piegādes tolerances procentus pirkšanas pasūtījuma rindā precēm var definēt iepriekš, kā daļu no preces konfigurācijām Commerce headquarters. Vai arī tos var iestatīt vai pārrakstīt noteiktā pirkšanas pasūtījumā Commerce Headquarters.
+
+Kad organizācija ir pabeigusi pirkšanas pasūtījumu nepilnas piegādes konfigurācijas, POS lietotāji redzēs jaunu opciju **Slēgt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta ienākoša pirkšanas pasūtījuma rinda operācijā **Ienākošie krājumi**. Ja lietotājs slēdz atlikušo daudzumu, POS veic validāciju, lai pārbaudītu, vai daudzums, kas tiek slēgts, atrodas pirkšanas pasūtījuma rindā definēto nepilnas piegādes tolerances procentu ietvaros. Ja nepilnās piegādes tolerance ir pārsniegta, tiek parādīts kļūdas ziņojums, un lietotājs nevarēs slēgt atlikušo daudzumu, līdz iepriekš saņemtais daudzums un **Saņemt tagad** daudzums atbilst vai pārsniedz minimālo daudzumu, kas jāsaņem, pamatojoties uz nepilnas piegādes tolerances procentiem. 
+
+Ja pirkšanas pasūtījuma rindai ieslēgta opcija **Slēgt atlikušo daudzumu**, kad lietotājs pabeidz saņemšanu, izmantojot darbību **Beigt saņemšanu**, uz Commerce headquarters tiek nosūtīts slēgšanas pieprasījums un jebkurš nesaņemts daudzums no šī pasūtījuma rindas tiks atcelts. Šajā brīdī rinda tiek uzskatīta par pilnībā saņemtu. 
 
 ### <a name="receiving-location-controlled-items"></a>Atrašanās vietas kontrolētu krājumu saņemšana
 

@@ -3,7 +3,7 @@ title: Plānošanas optimizācijas saderības analīze
 description: Šajā tēmā skaidrots, kā verificēt jūsu pašreizējos iestatījumus un datus, salīdzinot ar Plānošanas optimizācijas funkcionalitātes iespējām.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887142"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973456"
 ---
-# <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas saderības analīze
+# <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
 [!include [banner](../../includes/banner.md)]
 
-Lai apskatītu, cik saderīgi ir jūsu pašreizējie iestatījumi un dati ar Plānošanas optimizācijas funkcionalitāti, dodieties uz **Vispārējā plānošana**\>**Iestatīšana**\>**Plānošanas optimizācijas saderības analīze**, un pēc tam atlasiet **Palaist analīzi**. Ja analīze atklāj neatbilstības, tās ir uzskaitītas tajā pašā lapā. (Analīze var ilgt dažas minūtes.)
+Plānošanas optimizācijas atbilstības analīzes rezultāts ir jāanalizē kā migrācijas procesa daļa. Ievērojiet, ka plānošanas optimizācijas apjoms nav vienāds ar pašreizējo iebūvēto vispārējās plānošanas funkcionalitāti. Mēs iesakām jums strādāt ar savu partneri un lasīt dokumentāciju, lai sagatavotos migrācijai. 
+
+Plānošanas optimizācijas atbilstības analīze palīdz identificēt, kur rezultāts var atšķirties starp iebūvēto vispārējās plānošanas programmu un plānošanas optimizāciju. Šī analīze tiek veikta, pamatojoties uz jūsu pašreizējiem iestatījumiem un datiem. 
+
+Lai skatītu plānošanas optimizācijas atbilstības analīzes rezultātus, dodieties uz **Vispārējā plānošana** \> **Iestatījumi** \> **Plānošanas optimizācijas atbilstības analīze** un tad atlasiet **Palaist analīzi**. Ja analīze atklāj neatbilstības, tās ir uzskaitītas tajā pašā lapā. (Analīze var ilgt dažas minūtes.)
 
 > [!NOTE]
 > Ja atrastas neatbilstības, joprojām varat izmantot Plānošanas optimizāciju. Saderības analīzes rezultāti tikai rāda vietas, kur plānošanas pakalpojums neievēros jūsu pašreizējos iestatījumus. Citiem vārdiem, tas rāda vietas, kur daži procesi var tikt ignorēti vai, iespējams, netiek atbalstīti.
@@ -63,7 +67,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Apstiprināšana | Vispārējie plāni ar iestatītu automātisko apstiprināšanu: _\#_ | Versijā 10.0.7 un jaunākās versijās automātiskā apstiprināšana tiek atbalstīta kā atsevišķs apstiprināšanas pakešuzdevums pēc vispārējās plānošanas pabeigšanas (ar nosacījumu, ka _Automātiskās apstiprināšanas līdzeklis plānošanas optimizācijai_ ir iespējots [līdzekļu pārvaldībā](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Ņemiet vērā, ka automātiskā apstiprināšana plānošanas optimizācijai ir balstīta uz pasūtījuma datumu (sākuma datumu), nevis prasību datumu (beigu datumu). Tas nodrošina, ka plānoto pasūtījumu apstiprināšana notiek laikus, neiekļaujot izpildes laiku apstiprināšanas laika periodā. | Tiek atbalstīts |
 | FitAnalysisPlanningItems | Krājumu plānošana: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik plānošanas krājumi tiek apstrādāti līdzīgi kā parastie krājumi, kad ir iespējota plānošanas optimizācija. | 2021. oktobris |
 | Budžets | Pārklājuma grupas ar iespējotu "Iekļaut starpuzņēmumu pasūtījumus": _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik vispārējā plānošana neiekļauj lejupstraumes plānoto pieprasījumu, kad ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. Ievērojiet, ka izlaistie/apstiprinātie pasūtījumi joprojām strādā ar parasto starpuzņēmumu funkcionalitāti un attieksies uz lielāko daļu scenāriju. | 2020. oktobris |
-| Budžets | Pārklājuma grupas ar "Samazināt prognozi pēc" iestatījuma vērtību, kas atšķiras no "Pasūtījumi": _\#_ | Pēc noklusējuma plānošanas optimizācija izmanto "Samazināt prognozi pēc" pasūtījumiem, neņemot vērā šo iestatījumu. | 2020. oktobris |
+| Budžets | Pārklājuma grupas ar "Samazināt prognozi pēc" iestatījuma vērtību, kas atšķiras no "Pasūtījumi": _\#_ | Pēc noklusējuma plānošanas optimizācija izmanto "Samazināt prognozi pēc" pasūtījumiem, neņemot vērā šo iestatījumu. | 2020. gada novembris |
 | Budžets | Prognozes modeļi ar apakšmodeļiem: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik prognozes, kas izmanto apakšmodeļus, netiek atbalstītas, kad ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 2021. aprīlis |
 | Budžets | Vispārējie plāni ar "Iekļaut piegādes apjoma prognozi" ir iespējoti:_\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik piegādes apjoma prognozes netiek atbalstītas, kad ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 2021. oktobris |
 | Periods bez izmaiņām | Vajadzības grupas ar iestatītu sasaldēšanas periodu: _\#_ | Iesaldētais periods netiek bieži izmantots, un pašlaik nav plānu to iekļaut plānošanas optimizācijai. Pašlaik Sasaldēšanas perioda iestatījums tiek ignorēts, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | Nav piemērojams |
@@ -72,7 +76,7 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Starpuzņēmums | Vispārējie plāni, kas ietver lejupstraumes plānoto pieprasījumu _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik vispārējā plānošana neiekļauj lejupstraumes plānoto pieprasījumu, kad ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. Ievērojiet, ka izlaistie/apstiprinātie pasūtījumi joprojām strādā ar parasto starpuzņēmumu funkcionalitāti un attieksies uz lielāko daļu scenāriju. | 2020. oktobris |
 | Kanban | Vienumu vajadzības ieraksti ar plānoto pasūtījuma tipu Kanban: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik, iespējojot plānošanas optimizāciju, krājumu nodrošinājums, kas iestatīts uz Kanban, tiks ignorēts. Kanban plānotā pasūtījuma veids vispārējās plānošanas laikā radīs brīdinājumu, un tiks izveidoti plānotie pirkšanas pasūtījumi, lai nosegtu saistīto pieprasījumu. | 2021. oktobris |
 | Kanban | Vienumi ar noklusējuma pasūtījuma tipu Kanban: _\#_ | Pašlaik, iespējojot plānošanas optimizāciju, noklusējuma pasūtījuma veids, kas iestatīts uz Kanban, tiks ignorēts. Kanban noklusējuma pasūtījuma veids vispārējās plānošanas laikā radīs brīdinājumu, un tiks izveidoti plānotie pirkšanas pasūtījumi, lai nosegtu saistīto pieprasījumu. | 2021. oktobris |
-| Preces dzīves cikla stāvoklis   | Preces dzīves cikla stāvokļi nav aktīvi plānošanai: _\#_ | Šī funkcija vēl nav pabeigta. Pašlaik Preces dzīves cikla stāvoklis tiek ignorēts, izmantojot iespējoto plānošanas optimizāciju. Jūs varat pielāgot plāna līmeņa preces filtru, lai izvairītos no to preču iekļaušanas, kuru ražošanas cikla stāvoklis ir atspējots plānošanai. | 2020. oktobris |
+| Preces dzīves cikla stāvoklis   | Preces dzīves cikla stāvokļi nav aktīvi plānošanai: _\#_ | Šī funkcija vēl nav pabeigta. Pašlaik Preces dzīves cikla stāvoklis tiek ignorēts, izmantojot iespējoto plānošanas optimizāciju. Jūs varat pielāgot plāna līmeņa preces filtru, lai izvairītos no to preču iekļaušanas, kuru ražošanas cikla stāvoklis ir atspējots plānošanai. | 2020. gada novembris |
 | Ražošana | MK rindas ar noapaļošanu vai vairākkārtēju iestatīšanu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik noapaļošana un vairāki iestatījumi tiek ignorēti MK rindās, iespējojot plānošanas optimizāciju neatkarīgi no šī iestatījuma. | 2021. aprīlis |
 | Ražošana | MK/formulas rindas ar formulas mērījumu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik formulas mērījumi tiek ignorēti MK un formulas rindās, iespējojot plānošanas optimizāciju neatkarīgi no šī iestatījuma. | 2021. oktobris |
 | Ražošana | MK/formulas rindas ar krājumu aizstāšanu (plānu grupas): _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik krājuma aizstāšana (plānu grupas) tiek ignorēta MK un formulas rindās, iespējojot plānošanas optimizāciju neatkarīgi no šī iestatījuma. | 2021. oktobris |

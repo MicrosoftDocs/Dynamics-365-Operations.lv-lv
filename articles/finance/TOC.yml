@@ -68,8 +68,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Jaunumi un izmaiņas programmā Finance
                   items:
-                    - name: Mājas lapa “Jaunumi un izmaiņas programmā Finance”
+                    - name: "Jaunumi un izmaiņas programmā Finance\_— sākumlapa"
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.15 (2021.\_gada janvāris)"
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: "Finance 10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: "Finance 10.0.13 (2020.\_gada oktobris)"
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: LCS ieviešanas projektu pārvietošana uz citiem Azure AD nomniekiem
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: LCS ieviešanas projektu pārvietošana no lokāla risinājuma uz mākoni
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Kreditori
@@ -222,10 +226,20 @@
               href: accounts-payable/three-way-matching-policies.md
             - name: Rēķinu salīdzināšana modulim “Kreditori”
               items:
-                - name: Rēķinu salīdzināšanas modulim “Kreditori” pārskats
+                - name: "Rēķinu salīdzināšana kreditoru modulim\_— pārskats"
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Kreditoru moduļa rēķinu salīdzināšanas pārbaudes iestatīšana
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Kreditoru rēķinu automatizācija
+              items:
+                - name: Automatizētu kreditoru rēķinu izrakstīšanas procesu pārskats
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Kreditoru rēķinu automatizācijas iestatīšanas opcijas
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Kreditoru rēķinu automatizācijas rezultātu skatīšana
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Kreditoru sadarbības rēķinu izveidošanas darbvieta
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Kreditoru rēķinu izrakstīšanas automatizācija
+            - name: Rēķinu automatizācija skenētajiem dokumentiem
               href: accounts-payable/vendor-invoice-automation.md
             - name: Starpnieka līguma pārvaldība
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Debitoru vecumstruktūra
+              href: accounts-receivable/customer-aging.md
             - name: Debitora norakstīšanas žurnāla izveide
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Papildu piezīmju pārvaldība
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Lietošanas ilguma lineārā aprēķināšanas metode
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Līdzekļu noma
+          items:
+            - name: Darba sākšana ar līdzekļu nomu
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Virsgrāmata
           items:
             - name: Virsgrāmatas pārskats
@@ -1880,11 +1900,11 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Kapitāla līdzekļu pārsūtīšana uz pamatlīdzekļiem
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Indija GST
+                - name: Indijas GST
                   items:
                     - name: Indijas GST pārskats
                       href: localizations/apac-ind-gst.md
-                    - name: Jaunumi un izmaiņas APAC Indijas GST lokalizācijā
+                    - name: Jaunumi un izmaiņas Indijas GST lokalizācijā
                       items:
                         - name: Jaunumi un izmaiņas versijā 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Jaunumi un izmaiņas versijā 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Jaunumi un izmaiņas versijā 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: Indijas GST atsauces grupas
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST integrācija kases sistēmām
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Krājumu transakcija
                       items:
+                        - name: Krājumu pārskaitījumu pasūtījumi
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: 'Krājumu pārsūtīšanas pasūtījumi, kuros pārsūtīšanas cenai tiek piemērots nodoklis'
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Debitora maksājuma transakcija
@@ -2072,12 +2096,10 @@
                       href: general-ledger/tax-engine-integration.md
                     - name: Nodokļu programmas paplašināšana
                       href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Novērst problēmu GTE
+                    - name: GTE problēmu novēršana
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: Bieži uzdotie jautājumi par nodokļu sliekšņiem
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Krājumu pārskaitījumi
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Itālija
               items:
                 - name: Itālijas pārskats

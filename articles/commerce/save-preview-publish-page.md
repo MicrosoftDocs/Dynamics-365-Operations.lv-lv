@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269985"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961614"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Lapas saglabāšana, priekšskatīšana un publicēšana
 
@@ -38,9 +38,9 @@ Saglabājot lapu, izmaiņas ir redzamas tikai jums. Saglabāšanas operācija ga
 
 ## <a name="preview-a-page"></a>Lapas priekšskatīšana
 
-Autorēšanas rīks piedāvā divu veidu priekšskatījuma līdzekļus: "redzat to, ko iegūstat" (WYSIWYG) priekšskatījuma rūti lapas redaktorā un atsevišķu priekšskatījuma logu.
+Autorēšanas rīks piedāvā divu veidu priekšskatījuma līdzekļus: vizuālo lapu veidotāju, kas ir „ko redzat, to iegūstat” (WYSIWYG) veida priekšskatījuma rūts lapas redaktorā, un atsevišķu priekšskatījuma logu.
 
-Lietojot lapas redaktoru, priekšskatījums "redzat to, ko iegūstat" (WYSIWYG) parādās centrālajā rūtī. Šis priekšskatījums tiek automātiski atjaunināts ikreiz, kad saglabājat lapu. Varat to atjaunināt arī manuāli, komandjoslā atlasot **Atsvaidzināt**. WYSIWYG priekšskatījums atveido lapu tā, kā to redzēs vietnes lietotāji, bet autorēšanas palīgi tiek atveidoti tam pa virsu.
+Lietojot lapas redaktoru, priekšskatījums "redzat to, ko iegūstat" (WYSIWYG) parādās centrālajā rūtī. Šis priekšskatījums tiek automātiski atjaunināts ikreiz, kad saglabājat lapu. Varat to atjaunināt arī manuāli, komandjoslā atlasot **Atsvaidzināt**. Priekšskatījums atveido lapu tā, kā to redzēs vietnes lietotāji, bet autorēšanas palīgi tiek atveidoti tam pa virsu.
 
 Kad lapas modificēšana ir pabeigta, iespējams, vēlēsieties to priekšskatīt, lai redzētu, ko redzēs klienti. Lai priekšskatītu lapu, komandjoslā atlasiet **Priekšskatījums**. Priekšskatījums parādīsies atsevišķā pārlūkprogrammas logā. Priekšskatījuma logā lapa tiek atveidota tā, kā to redzēs vietnes lietotājs. Varat mainīt loga izmērus, lai pārliecinātos, ka reaģējošie moduļi ir pareizi attēloti visos skatījuma portos.
 

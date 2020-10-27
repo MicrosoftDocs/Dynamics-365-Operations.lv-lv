@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428643"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958847"
 ---
 # <a name="develop-succession-plan"></a>Pēctecības plāna izstrāde
 
@@ -38,7 +38,7 @@ Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespē
 7. Noklikšķiniet uz Persona.
 8. Laukā Persona ierakstiet kādu vārdu vai atlasiet no nolaižamā saraksta.  Piemērs: Kesija Hiksa.
 9. Noklikšķiniet uz Labi.
-10. Izvērsiet sertifikātu kopsavilkuma cilni, lai apskatītu vai rediģētu prasmju kartējumā iekļautos sertifikātus.
+10. Izvērsiet sertifikātu kopsavilkuma cilni, lai skatītu vai rediģētu prasmju kartējumā iekļautos sertifikātus.
 11. Izvērsiet kopsavilkuma cilni Prasmes, lai apskatītu vai rediģētu iekļaujamās prasmes.
 12. Sarakstā atzīmējiet pirmo rindu.  Piemērs: Grāmatvedība
 13. Noklikšķiniet uz izvēles rūtiņas Neobligāts.

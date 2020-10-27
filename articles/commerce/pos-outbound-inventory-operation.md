@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646163"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971549"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
@@ -164,7 +164,7 @@ Pirms izpildes galīgās saistīšanas uz Commerce Headquarters (HQ), varat izma
 - **Novietojums nav iestatīts** — atrašanās vieta nav norādīta vienumam, ko kontrolē ar atrašanās vietu, ja tukša atrašanās vieta nav atļauta.
 - **Dzēstās rindas** – pasūtījumam ir dzēstas rindas, ko izdzēš Commerce Headquarters (HQ) lietotājs, kas nav zināms POS lietojumprogrammā.
 
-Ja iestatāt opciju **Iespējot automātisku pārbaudes** parametru uz **Jā** **Commerce parametri** > **Krājumi** > **Veikala krājumi**, validācija tiek veikta automātiski, kad atlasāt funkciju **Pabeigt izpildi**.
+Ja iestatāt parametru **Iespējot automātisku validāciju** uz **Jā** sadaļā **Tirdzniecības parametri** > **Krājumi** > **Veikala krājumu operācijas**, validācija tiks veikta automātiski, kad atlasīsiet funkciju **Pabeigt izpildi**.
 
 ### <a name="finish-fulfillment"></a>Pabeigt izpildi
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677342"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900990"
 ---
 # <a name="shipment-auto-updates"></a>Sūtījuma automātiskie atjauninājumi
 
@@ -39,7 +39,7 @@ Automātiskās atjaunināšanas sūtījuma funkcionalitāte attiecas uz pārdoš
 
 Automātiskās atjaunināšanas sūtījuma funkcionalitāte galvenokārt balstās uz sūtījuma statusu, lai noteiktu, vai kravas līnijas daudzums ir jāmaina, kad pārdošanas pasūtījuma rindā vai pārsūtīšanas pasūtījuma rindā tiek veiktas izmaiņas. Tā arī galvenokārt paļaujas uz sūtījuma statusu, lai noteiktu, kad esošai noslodzei automātiski jāpievieno jauna kravas rinda. Kad sūtījuma statuss ir **Nokomplektēts** vai lielāks, netiek veikta automātiskā atjaunināšana.
 
-Kopuma statuss ir paredzēts arī automātiskajiem atjauninājumiem. Kad kopums, kas saistīts ar kravas rindu, ir ar statusu **Aizturēts**, **Realizācijā**, **Nodots**, **Izvēlēts** vai **Nosūtīts**, ja lietotājs mēģina samazināt daudzumu noslodzes rindā (izmantojot pārdošanas pasūtījuma rindas vai pārsūtīšanas pasūtījuma rindas daudzuma samazināšanu), tiek parādīts šāds kļūdas ziņojums: "Rezervācijas nevar noņemt, jo ir izveidots darbs, kas balstās uz rezervāciju." Turklāt, kad kopums ir viens no iepriekš minētajiem kopuma statusiem, ja lietotājs mēģina netieši palielināt kravas rindas daudzumu, samazinot daudzumu pārdošanas pasūtījuma rindā vai pārsūtīšanas pasūtījuma rindā, daudzums kravas rindā netiek automātiski palielināts. Šādā gadījumā kravas rinda ir jāatjaunina manuāli.
+Kopuma statuss ir paredzēts arī automātiskajiem atjauninājumiem. Kad kopums, kas saistīts ar kravas rindu, ir ar statusu **Aizturēts**, **Realizācijā**, **Nodots**, **Izvēlēts** vai **Nosūtīts**, ja lietotājs mēģina samazināt daudzumu noslodzes rindā (izmantojot pārdošanas pasūtījuma rindas vai pārsūtīšanas pasūtījuma rindas daudzuma samazināšanu), tiek parādīts šāds kļūdas ziņojums: "Rezervācijas nevar noņemt, jo ir izveidots darbs, kas balstās uz rezervāciju." Turklāt, kad kopums ir viens no iepriekš minētajiem kopuma statusiem, ja lietotājs mēģina netieši palielināt kravas rindas daudzumu, palielinot daudzumu pārdošanas pasūtījuma rindā vai pārsūtīšanas pasūtījuma rindā, daudzums kravas rindā netiek automātiski palielināts. Šādā gadījumā kravas rinda ir jāatjaunina manuāli.
 
 ## <a name="scenarios"></a>Scenāriji
 
