@@ -180,9 +180,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vides plānošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Sagatavošana publicēšanai
+                - name: Sagatavošanās līdzeklim Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bieži uzdotie jautājumi par palaišanu
+                - name: Bieži uzdotie jautājumi par Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Pirkšanas līguma izveide
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Automātisks maksu sadalījums
+                  href: procurement/automatic-charges-allocation.md
                 - name: Kreditora atlaides
                   href: procurement/vendor-rebates.md
                 - name: 'Cenu, cenas samazinājumu, līgumu un atlaižu problēmu novēršana'
@@ -2041,9 +2043,17 @@
                       href: production-control/release-production-orders.md
                     - name: Ziņošana par ražošanas pasūtījumiem kā par pabeigtiem
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Konfigurēt darbu karti ierīcēm
+                    - name: Ražošanas izpildes interfeisa iestatīšana un izmantošana
+                      items:
+                        - name: Ražošanas izpildes interfeisa konfigurēšana
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Ierīces iestatīšana ražošanas izpildes interfeisa palaišanai
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Kā nodarbinātie izmanto ražošanas izpildes interfeisu
+                          href: production-control/production-floor-execution-use.md
+                    - name: Darbu kartes konfigurēšana ierīcēm
                       href: production-control/config-job-card-device.md
-                    - name: Ziņojums par pabeigšanu no darbu kartes ierīces
+                    - name: Ziņošana par pabeigšanu no darbu kartes ierīces
                       href: production-control/report-finished-job-device.md
                     - name: Jauktās realitātes ceļvežu nodrošināšana nodarbinātajiem ražošanā
                       href: production-control/instruction-guides-in-production-overview.md
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Pārdošanas pasūtījumu sūtīšana bez noliktavas
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Automātisks maksu sadalījums
+                  href: procurement/automatic-charges-allocation.md
                 - name: Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Pārdošanas pasūtījumu izveide
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Pārsūtīšanas pasūtījumu izveide no noliktavas programmas
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Noliktavas programmas notikumu apstrāde
-                      href: warehousing/warehouse-app-events.md
                     - name: Vienības izdošanas apstiprinājums
                       href: warehousing/piece-picking-confirmation.md
                     - name: Iepakojuma materiāli un maksas
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobilo ierīču iestatīšana darbam noliktavā
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Noliktavas programmas notikumu apstrāde
+                      href: warehousing/warehouse-app-events.md
                     - name: 'Noliktavas vienības identifikatora saņemšana, izmantojot noliktavas programmu'
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
