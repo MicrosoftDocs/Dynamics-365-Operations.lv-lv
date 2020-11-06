@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829853"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017395"
 ---
 # <a name="inventory-on-hand-list"></a>Rīcībā esošo krājumu saraksts
 
@@ -39,7 +39,7 @@ Izmantojiet tālāk norādītos rīkus, lai atrastu preču kopu, ko meklējat:
 
 - Darbību rūtī atlasiet [**Dimensijas**](#dimensions), lai atvērtu dialoglodziņu, kur varat pievienot vai noņemt kolonnas, kas tiek rādītas **Rīcībā esošajā** režģī.
 - [**Filtru** rūtī](#filters-pane) ievadiet vērtības konkrētiem laukiem, lai parādītu tikai tos ierakstus, kas atbilst šīm vērtībām. Ņemiet vērā, ka šeit definētie filtri attiecas uz avota tabulām, ko var apkopot vēlāk, atbilstoši dimensijām, ko esat atlasījis rādīšanai. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
-- Rūtī **Filtri** atlasiet **Lietot**, lai ģenerētu rīcībā esošo krājumu salīdzināšanas sarakstu **Rīcībā esošajā** režģī.
+- Rūtī **Filtri** atlasiet **Lietot** , lai ģenerētu rīcībā esošo krājumu salīdzināšanas sarakstu **Rīcībā esošajā** režģī.
 - **Rīcībā esošajā** režģī atlasiet jebkuru kolonnas virsrakstu, lai kārtotu vai filtrētu pēc vērtībām šajā kolonnā. QuickFilter, kas atrodas režģa sākumā, piedāvā papildu filtrēšanas opcijas. Šie filtri attiecas uz rezultātiem, nevis uz avota tabulām. Informāciju par to, kā šī uzvedība var ietekmēt jūsu rezultātus, skatiet sekojošajos [piemēros](#examples) turpmāk tēmā.
 
 Katram saskaņotajam vienumam **Rīcībā esošais** režģis sniedz šādas krājumu informācijas kolonnas.
@@ -53,7 +53,7 @@ Katram saskaņotajam vienumam **Rīcībā esošais** režģis sniedz šādas kr�
 | Pasūtīts kopā | Kopējais daudzums, kas ir iekļauts ienākošajos pasūtījumos vai kam ir pozitīvs daudzums dažādos krājumu žurnālos. |
 | Pasūtīts | Kopējais daudzums, kas ir iekļauts izejošajos pasūtījumos vai kam ir negatīvs daudzums dažādos krājumu žurnālos. |
 | Rezervēts pasūtījumos | Kopējais daudzums, kas ir rezervēts pasūtītai saņemšanai. Vērtība šajā laukā parāda kopējo krājumu daudzumu izejošajās darbībās, kurām ir statuss _Pasūtīts rezervēts_. Krājumi, kas ir rezervēti kā pasūtīti, nav fiziski pieejami krājumā. Tāpēc tās nevar tikt tieši izdotas un piegādātas. |
-| Pieejams rezervācijai | Kopējais rīcībā esošo krājumu daudzums, kuru var rezervēt.<p>**Piezīme.** Ja izvēles rūtiņa **Rezervēt pasūtītos vienumus** ir atlasīta lapā **Krājumu un noliktavas pārvaldības parametri**, vērtība šajā laukā iekļauj paredzamo saņemšanu. Ja izvēles rūtiņa ir notīrīta, vērtība izslēdz paredzamo saņemšanu.</p> |
+| Pieejams rezervācijai | Kopējais rīcībā esošo krājumu daudzums, kuru var rezervēt.<p>**Piezīme.** Ja izvēles rūtiņa **Rezervēt pasūtītos vienumus** ir atlasīta lapā **Krājumu un noliktavas pārvaldības parametri** , vērtība šajā laukā iekļauj paredzamo saņemšanu. Ja izvēles rūtiņa ir notīrīta, vērtība izslēdz paredzamo saņemšanu.</p> |
 | Pieejams krājumos | Kopējais pieejamais daudzums.<p>**Kopējais pieejamais** ir aprēķināts lauks. Vērtība ir vienāda ar **Pieejamo fizisko** vērtību plus **Pasūtītā kopējā** vērtība mīnus **Pēc pasūtījuma** vērtība.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Lietot filtrus, lai atrastu meklētos ierakstus
@@ -61,7 +61,7 @@ Katram saskaņotajam vienumam **Rīcībā esošais** režģis sniedz šādas kr�
 Izmantojiet **Filtru** rūti, lai filtrētu rīcībā esošo krājumu sarakstu tā, lai tas iekļautu tikai tos ierakstus, kuros lauku vērtības atbilst filtrēšanas kritērijiem. Lai definētu filtru, izpildiet tālāk aprakstītās darbības.
 
 1. Rūtī **Filtri** sameklējiet lauku, kuru vēlaties filtrēt.
-2. Laukā zem mērķa lauka nosaukuma atlasiet loģisko operatoru (piemēram, *sākas ar*, *vienāds ar* vai *lielāks par*).
+2. Laukā zem mērķa lauka nosaukuma atlasiet loģisko operatoru (piemēram, *sākas ar* , *vienāds ar* vai *lielāks par* ).
 3. Ievadiet vai atlasiet meklējamo vērtību.
 
 > [!IMPORTANT]
@@ -73,8 +73,8 @@ Izmantojiet **Filtru** rūti, lai filtrētu rīcībā esošo krājumu sarakstu t
 
 Varat modificēt filtru kopu, kas ir pieejama **Filtru** rūtī, veicot šādas darbības.
 
-- Lai noņemtu filtru no rūts, atlasiet tā **Aizvērt** pogu (**X**).
-- Lai pievienotu filtru, atlasiet **Pievienot** **Filtru** rūts augšpusē. Parādās dialoglodziņš **Pievienot filtra laukus**, kas parāda pieejamo lauku sarakstu. Tas arī rāda informāciju par katra lauka datu tipu un tabulu. Izmantojiet kolonnu virsrakstus, lai filtrētu un kārtotu pēc nepieciešamības, un pēc tam atzīmējiet izvēles rūtiņu katram laukam, kuru vēlaties pievienot **Filtra** rūtij. Kad esat pabeidzis, atlasiet **Iespraust**, lai piemērotu izmaiņas.
+- Lai noņemtu filtru no rūts, atlasiet tā **Aizvērt** pogu ( **X** ).
+- Lai pievienotu filtru, atlasiet **Pievienot** **Filtru** rūts augšpusē. Parādās dialoglodziņš **Pievienot filtra laukus** , kas parāda pieejamo lauku sarakstu. Tas arī rāda informāciju par katra lauka datu tipu un tabulu. Izmantojiet kolonnu virsrakstus, lai filtrētu un kārtotu pēc nepieciešamības, un pēc tam atzīmējiet izvēles rūtiņu katram laukam, kuru vēlaties pievienot **Filtra** rūtij. Kad esat pabeidzis, atlasiet **Iespraust** , lai piemērotu izmaiņas.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Atlasīt rādāmās dimensijas
 
@@ -87,8 +87,8 @@ Lai pielāgotu rādāmo krājumu dimensiju atlasi, veiciet šīs darbības.
     Parādītais dialoglodziņš **Dimensijas displejs** rāda katru dimensiju.
 
 2. Atzīmējiet izvēles rūtiņu katrai dimensijai, ko vēlaties iekļaut režģī.
-3. Ja vēlaties, lai atlase tiktu izmantota pēc noklusējuma, nākamreiz, kad atverat **Rīcībā esošo saraksta** lapu, iestatiet opciju **Saglabāt iestatījumu** uz **Jā**. Ja šī opcija ir iestatīta uz **Nē**, atlase tiks izmantota tikai pašreizējās sesijas laikā. Tāpēc nākamreiz, atverot lapu, tiks izmantota pašreizējā noklusējuma atlase.
-4. Atlasiet **Labi**, lai izmaiņas piemērotu un aizvērtu dialoglodziņu.
+3. Ja vēlaties, lai atlase tiktu izmantota pēc noklusējuma, nākamreiz, kad atverat **Rīcībā esošo saraksta** lapu, iestatiet opciju **Saglabāt iestatījumu** uz **Jā**. Ja šī opcija ir iestatīta uz **Nē** , atlase tiks izmantota tikai pašreizējās sesijas laikā. Tāpēc nākamreiz, atverot lapu, tiks izmantota pašreizējā noklusējuma atlase.
+4. Atlasiet **Labi** , lai izmaiņas piemērotu un aizvērtu dialoglodziņu.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrēt rīcībā esošo krājumu saraksta izvadi
 
@@ -145,4 +145,4 @@ Sistēmā ir ietverta detalizēta (neapkopota) krājumu tabula, kurā redzami š
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Ievērojiet, ka iestatījumi **Filtru** rūtī attiecas uz detalizēto (neapkopoto) krājumu tabulu, kas tiek parādīta šīs sadaļas sākumā. Tādējādi kritērijs **Pieejama fiziskā** \| **vērtība ir mazāka par vai vienāda ar** \| _1_ atrod divas rindas no šīs tabulas (pirmā un trešā rinda, no kurām katra rāda **Pieejamo fizisko** vērtību _1_). Tomēr šajā scenārijā **Rīcībā esošā saraksta** lapa nav iestatīta, lai rādītu **Noliktavas** dimensiju. Tāpēc tā apvieno divas sākotnējās rindas vienā iegūtajā rindā, jo abām rindām ir vienādas vērtības visās parādītajās dimensijās. Šī rinda tiek rādīta, lai pārkāptu filtrēšanas kritēriju, jo **Pieejamā fiziskā** vērtība tiek parādīta kā _2_. Tomēr rezultāts ir pareizs, jo iestatījumi **Filtru** rūtī attiecas uz avota tabulu, nevis uz apkopoto tabulu, kas tiek rādīta **Rīcībā esošā saraksta** lapā.
+Ievērojiet, ka iestatījumi **Filtru** rūtī attiecas uz detalizēto (neapkopoto) krājumu tabulu, kas tiek parādīta šīs sadaļas sākumā. Tādējādi kritērijs **Pieejama fiziskā** \| **vērtība ir mazāka par vai vienāda ar** \| _1_ atrod divas rindas no šīs tabulas (pirmā un trešā rinda, no kurām katra rāda **Pieejamo fizisko** vērtību _1_ ). Tomēr šajā scenārijā **Rīcībā esošā saraksta** lapa nav iestatīta, lai rādītu **Noliktavas** dimensiju. Tāpēc tā apvieno divas sākotnējās rindas vienā iegūtajā rindā, jo abām rindām ir vienādas vērtības visās parādītajās dimensijās. Šī rinda tiek rādīta, lai pārkāptu filtrēšanas kritēriju, jo **Pieejamā fiziskā** vērtība tiek parādīta kā _2_. Tomēr rezultāts ir pareizs, jo iestatījumi **Filtru** rūtī attiecas uz avota tabulu, nevis uz apkopoto tabulu, kas tiek rādīta **Rīcībā esošā saraksta** lapā.

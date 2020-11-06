@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66611e2d8a88269fe727c46ef4aa6aa809cc7836
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214048"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018357"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Sūtījuma papildināšanas pasūtījuma izveide
 
@@ -33,7 +33,7 @@ ms.locfileid: "3214048"
 ## <a name="create-a-consignment-replenishment-order"></a>Sūtījuma papildināšanas pasūtījuma izveide
 1. Navigācijas rūtī ejiet uz **Moduļi > Iepirkumi un ārpakalpojumi > Sūtījums > Sūtījuma papildināšanas pasūtījums**.
 2. Atlasiet **Jauns**.
-3. Laukā **Piegādātāja konts** atlasiet piegādātāju **US-104** (jums jāizvēlas piegādātājs, kas ir reģistrēts kā īpašnieks lapā **krājumu īpašnieki**). 
+3. Laukā **Piegādātāja konts** atlasiet piegādātāju **US-104** (jums jāizvēlas piegādātājs, kas ir reģistrēts kā īpašnieks lapā **krājumu īpašnieki** ). 
 4. Atlasiet **Labi**.
 5. Atlasiet **Pievienot rindu**.
 6. Laukā **Vienuma numurs** ierakstiet `M9211CI` (jums ir jāatlasa vienums, kas iestatīts sūtījuma krājumam).
@@ -42,7 +42,7 @@ ms.locfileid: "3214048"
 9. Laukā **Apstiprinātais piegādes datums** ievadiet datumu.
 10. Izvērsiet sadaļu **Detalizēta informācija par rindu**.
 11. Atlasiet cilni **Krājumu izmēri**.
-12. Lai parādītu īpašnieku laukā **Krājumu izmēru īpašnieks**, atsvaidziniet lapu. Kreditors US-104 tagad ir norādīts kā īpašnieks.  
+12. Lai parādītu īpašnieku laukā **Krājumu izmēru īpašnieks** , atsvaidziniet lapu. Kreditors US-104 tagad ir norādīts kā īpašnieks.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Pārbaudiet krājumu darbības statusu
 1. Atlasiet **Krājumi**.

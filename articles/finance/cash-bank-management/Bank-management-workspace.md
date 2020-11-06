@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 20847ea4651b816fc95135ca03667ae297cde5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188491"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097190"
 ---
 # <a name="bank-management-workspace"></a>Bankas pārvaldības darbvieta
 
@@ -45,13 +45,13 @@ Kartē tiek rādīts arī bankas konta pēdējās saskaņošanas laiks. Šī inf
 
 Diagrammā **Bilance** tiek rādīta vēsturiskā informācija par sadaļā **Bankas konti** atlasītā bankas konta bilanci vai vēsturiskās informācijas kopsavilkums par visu juridiskās personas bankas kontu bilanci. Šī informācija ir pieejama par dažādiem periodiem: pašreizējo nedēļu, pašreizējo mēnesi, pašreizējo gadu, pagājušajiem pieciem gadiem un visiem periodiem (pilna bankas konta vēsture). 
 
-Ja skatāt atsevišķa bankas konta diagrammu **Bilance**, vēsturiskā informācija par bilancēm tiek rādīta bankas konta valūtā. Ja skatāt visu juridiskās personas bankas kontu diagrammu, vēsturiskā informācija par bilancēm tiek rādīta uzskaites valūtā.
+Ja skatāt atsevišķa bankas konta diagrammu **Bilance** , vēsturiskā informācija par bilancēm tiek rādīta bankas konta valūtā. Ja skatāt visu juridiskās personas bankas kontu diagrammu, vēsturiskā informācija par bilancēm tiek rādīta uzskaites valūtā.
 
 Diagrammas augšpusē tiek rādīta informācija par datu pēdējās atjaunināšanas laiku. Varat atjaunināt datus pēc nepieciešamības.
 
 ### <a name="related-information"></a>Saistītā informācija
 
-Sadaļā **Saistītā informācija** varat atvērt lapu **Virsgrāmatas žurnāls**, lai pabeigtu bankas pārskaitījumus. Varat arī ātri atvērt lapas **Bankas darbības** un **Pagaidu darbības**.
+Sadaļā **Saistītā informācija** varat atvērt lapu **Virsgrāmatas žurnāls** , lai pabeigtu bankas pārskaitījumus. Varat arī ātri atvērt lapas **Bankas darbības** un **Pagaidu darbības**.
 
 ## <a name="analytics-view"></a>Skats Analīze
 
@@ -63,4 +63,4 @@ Lapā **Analīze** ir sniegti svarīgi rādītāji par pašreizējā uzņēmuma 
 -   Bilance pēc bankas konta
 -   Bilance pēc valūtas
 
-Darbvietā **Naudas pārskats — visi uzņēmumi** varat skatīt bankas informācijas analīzi par visiem uzņēmumiem.
+Darbvietā **Naudas pārskats — visi uzņēmumi** varat skatīt bankas informācijas analīzi par visiem uzņēmumiem. Plašāku informāciju skatiet sadaļā [Skaidras naudas pārskata Power BI saturs](Cash-Overview-Power-BI-content.md).

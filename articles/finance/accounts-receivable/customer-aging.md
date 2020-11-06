@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974865"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013057"
 ---
 # <a name="customer-aging-report"></a>Debitoru vecumstruktūra 
 
@@ -115,8 +115,9 @@ Veidojot šo pārskatu, tiek rādīti tālāk norādītie noklusējuma parametri
 <tr class="even">
 <td><p><strong>Drukas virziens</strong></p></td>
 <td><p>Atlasiet, vai aprēķināt bilances un drukāt vecumstruktūras pārskatu par pagājušajiem vai nākamajiem periodiem. Datumi tiek novērtēti attiecībā pret datumu, kas atlasīts laukā <strong>Bilance uz</strong>. Atlasiet <strong>Atpakaļ</strong>, lai parādītu informāciju par pagājušajiem periodiem. Atlasiet <strong>Uz priekšu</strong>, lai parādītu informāciju par nākamajiem periodiem.</p>
-
-**Piezīme:** šajā laukā ievadītā informācija tiek izmantota tikai tad, ja nav atlasīta vecumstruktūras perioda definīcija.</P>
+<div class="alert">
+  
+<STRONG>Piezīme:</STRONG> šajā laukā ievadītā informācija tiek izmantota tikai tad, ja nav atlasīta vecumstruktūras perioda definīcija.</P>
 
 
 </div></td>

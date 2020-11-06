@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5e4172a8d3f82e6eeb8868aac87abd183a94c088
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017188"
 ---
 # <a name="item-consolidation---location-utilization"></a>Krājuma konsolidācija – novietojuma izmantojums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija par funkcionalitāti, kas noliktavu pārvaldniekiem atvieglo iespēju skatīt un filtrēt noliktavas novietojumu tilpuma izmantojumu. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas **Krājuma konsolidācija**, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
+Šajā tēmā ir sniegta informācija par funkcionalitāti, kas noliktavu pārvaldniekiem atvieglo iespēju skatīt un filtrēt noliktavas novietojumu tilpuma izmantojumu. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas **Krājuma konsolidācija** , lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
 
 ## <a name="turn-on-the-features"></a>Līdzekļu ieslēgšana
 
@@ -37,15 +38,15 @@ Lai varētu izmantot šajā tēmā aprakstītos līdzekļus, tie ir jāieslēdz 
 
 ## <a name="warehouse-location-status"></a>Noliktavas vietas statuss
 
-Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai **Novietojumi**, lai izsekotu papildu informācijai par pašreizējo novietojuma stāvokli:
+Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai **Novietojumi** , lai izsekotu papildu informācijai par pašreizējo novietojuma stāvokli:
 
-- **Krājuma numurs** — pašlaik novietojumā esošais krājums. Ja novietojumā ir vairāki krājumi, šis lauks būs tukšs.
-- **Pēdējās aktivitātes datums un laiks** — pēdējā noliktavas darījuma laikspiedols, kas tika veikts saistībā ar novietojumu.
-- **Vecumstruktūras datums** — datums, kad noliktavā tika ievietots krājums novietojumā. Datums tiek aprēķināts, pamatojoties uz noliktavas vienības vecumstruktūras datumu. Lai arī šis datums ir precīzs novietojumiem, kurus var izsekot pēc noliktavas vienības, tas var nebūt precīzs novietojumiem, kurus nevar izsekot pēc noliktavas vienības.
-- **Novietojuma statuss** — novietojuma statuss. Ir pieejamas četras vērtības:
+- **Krājuma numurs**  — pašlaik novietojumā esošais krājums. Ja novietojumā ir vairāki krājumi, šis lauks būs tukšs.
+- **Pēdējās aktivitātes datums un laiks**  — pēdējā noliktavas darījuma laikspiedols, kas tika veikts saistībā ar novietojumu.
+- **Vecumstruktūras datums**  — datums, kad noliktavā tika ievietots krājums novietojumā. Datums tiek aprēķināts, pamatojoties uz noliktavas vienības vecumstruktūras datumu. Lai arī šis datums ir precīzs novietojumiem, kurus var izsekot pēc noliktavas vienības, tas var nebūt precīzs novietojumiem, kurus nevar izsekot pēc noliktavas vienības.
+- **Novietojuma statuss**  — novietojuma statuss. Ir pieejamas četras vērtības:
 
     - **Nav noteikts** – novietojuma profils neizseko statusu. Tāpēc pašreizējais statuss ir nezināms.
-    - **Tukšs**– novietojumā pašlaik nav neviena krājuma.
+    - **Tukšs** – novietojumā pašlaik nav neviena krājuma.
     - **Izdošana** – izejošās darbības ir veiktas attiecībā pret novietojumu, kopš tas pēdējoreiz bija tukšs.
     - **Glabāšana** – ir veiktas tikai ienākošās transakcijas, jo pēdējoreiz novietojums bija tukšs.
 
@@ -72,7 +73,7 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Novietojuma profili**.
 1. Novietojuma profilu sarakstā atlasiet **FLOOR-05**.
 1. Darbību rūtī atlasiet **Rediģēt**.
-1. Kopsavilkuma cilnē **Vispārīgi** pārliecinieties, vai abas šīs opcijas ir iestatītas uz *Jā*:
+1. Kopsavilkuma cilnē **Vispārīgi** pārliecinieties, vai abas šīs opcijas ir iestatītas uz *Jā* :
 
     - Iespējot krājumu vietā
     - Iespējot vietas statusu
@@ -80,7 +81,7 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 1. Atlasiet **Saglabāt**.
 
     > [!IMPORTANT]
-    > Ja opcijas **Iespējot krājumu novietojumā** un **Iespējot novietojuma statusu** jau ir iestatītas uz *Jā*, pārejiet pie instrukciju 10. darbības, lai iestatītu kopsavilkuma cilni **Dimensijas**. Ja opcijas jau nav iestatītas uz *Jā*, tad pēc to manuālas iestatīšanas, palaidiet konsekvences pārbaudi modulim **Noliktavas pārvaldība**. Šādā gadījumā turpiniet ar nākamo darbību.
+    > Ja opcijas **Iespējot krājumu novietojumā** un **Iespējot novietojuma statusu** jau ir iestatītas uz *Jā* , pārejiet pie instrukciju 10. darbības, lai iestatītu kopsavilkuma cilni **Dimensijas**. Ja opcijas jau nav iestatītas uz *Jā* , tad pēc to manuālas iestatīšanas, palaidiet konsekvences pārbaudi modulim **Noliktavas pārvaldība**. Šādā gadījumā turpiniet ar nākamo darbību.
 
 1. Lai palaistu konsekvences pārbaudi, dodieties uz **Sistēmas administrēšana \> Periodiskie uzdevumi \> Datu bāze \> Konsekvences pārbaude**.
 1. Dialoglodziņā **Konsekvences pārbaude** iestatiet šādas vērtības:
@@ -93,11 +94,11 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 1. Atlasiet **Labi**.
 
     > [!TIP]
-    > Kad konsekvences pārbaude ir pabeigta, tiek saņemts paziņojums. Atveriet [darbību centru](../../fin-ops-core/fin-ops/get-started/user-interface-elements.md#notifications), lai skatītu ziņojumu. Atlasiet **Ziņojuma informācija**, lai skatītu informāciju.
+    > Kad konsekvences pārbaude ir pabeigta, tiek saņemts paziņojums. Atveriet [darbību centru](../../fin-ops-core/fin-ops/get-started/user-interface-elements.md#notifications), lai skatītu ziņojumu. Atlasiet **Ziņojuma informācija** , lai skatītu informāciju.
     >
     > Ja konsekvences pārbaudes ziņojums norāda, “Novietojumam XXXX konstatēta nepareiza novietojuma statusa informācija noliktavā XX”, konsekvences pārbaude ir jāpalaiž vēlreiz. Šoreiz lauku **Pārbaudīt/Labot** iestatiet uz *Labot kļūdu*. Skatiet ziņojumus, lai pārliecinātos, vai nav atrastas kļūdas.
 
-1. Pabeidziet novietojuma profila iestatīšanu. Atgriezieties sadaļā **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojuma profili**, atlasiet novietojuma profilu **FLOOR-05**, un pēc tam darbību rūtī atlasiet **Rediģēt**.
+1. Pabeidziet novietojuma profila iestatīšanu. Atgriezieties sadaļā **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojuma profili** , atlasiet novietojuma profilu **FLOOR-05** , un pēc tam darbību rūtī atlasiet **Rediģēt**.
 1. Kopsavilkuma cilnē **Dimensijas** iestatiet šādas vērtības:
 
     - **Tilpuma izmantojuma procentuālā vērtība:** *100*
@@ -112,7 +113,7 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 ### <a name="mobile-device-menu-items"></a>Mobilās ierīces izvēlnes vienumi
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlnes vienumi**.
-1. Darbību rūtī atlasiet **Jauns**, lai izveidotu kārtošanas izvēlnes elementu.
+1. Darbību rūtī atlasiet **Jauns** , lai izveidotu kārtošanas izvēlnes elementu.
 1. Galvenē iestatiet šādas vērtības:
 
     - **Izvēlnes elementa nosaukums:** *Koriģēt ienākošo*
@@ -139,7 +140,7 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 ### <a name="movement-types"></a>Kustības veidi
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Krājumi \> Kustības veidi**.
-1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
 
     - **Kustības veida kods:** *CONSOLIDATE*
     - **Apraksts:** *Novietojumu konsolidēšana*
@@ -180,14 +181,14 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 
     Tiek saņemts ziņojums "Darbība pabeigta".
 
-1. Atlasiet pogu Izvēlne (dažreiz saukta par hamburgeru vai hamburgera pogu) un pēc tam atlasiet **Atcelt**, lai izietu no uzdevuma **Ienākošā korekcija**.
+1. Atlasiet pogu Izvēlne (dažreiz saukta par hamburgeru vai hamburgera pogu) un pēc tam atlasiet **Atcelt** , lai izietu no uzdevuma **Ienākošā korekcija**.
 
 ### <a name="consolidate-locations"></a>Novietojumu konsolidēšana
 
 1. Dodieties uz **Noliktavas pārvaldība \> Periodiskie uzdevumi \> Krājuma konsolidācija**.
 1. Galvenē atlasiet noliktavu, kurai veikt konsolidēšanu. Laukā **Noliktava** ievadiet *51*.
 
-    Katram novietojumam, kurā tika koriģēts krājums *M9201*, tiek parādīts ieraksts. Kolonna **Izmantojuma procentuālā vērtība** rāda tilpuma izmantojumu katram novietojumam.
+    Katram novietojumam, kurā tika koriģēts krājums *M9201* , tiek parādīts ieraksts. Kolonna **Izmantojuma procentuālā vērtība** rāda tilpuma izmantojumu katram novietojumam.
 
 1. Lai konsolidētu krājumus, atlasiet visus konsolidējamos novietojumus, un pēc tam darbību rūtī atlasiet **Krājumu konsolidēšana**.
 1. Dialoglodziņā **Krājumu konsolidēšana** norādiet novietojumu un kustības veidu, kas jāizmanto, lai izveidotu krājumu pārvietošanas darbu. Iestatiet šādas vērtības:

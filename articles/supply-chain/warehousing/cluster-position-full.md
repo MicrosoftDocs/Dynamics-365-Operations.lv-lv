@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8d030afb568b158e6caf48b0044d595d6ec024f6
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016175"
 ---
 # <a name="cluster-position-full"></a>Klastera pozīcija pilna
 
@@ -88,7 +89,7 @@ Jānorāda, no kurienes vienumi tiek izdoti un kur tie tiek ievietoti.
 
 ### <a name="mobile-device-menu-items"></a>Mobilās ierīces izvēlnes vienumi
 
-Jākonfigurē mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, ko novirzījusi klastera izdošana. Klastera izdošanai paredzētajā mobilās ierīces izvēlnes vienumā ir jābūt ieslēgtam parametram **Atļaut darba sadalīšanu**, un ir jāpievieno darba klase *SO Izdošana* .
+Jākonfigurē mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, ko novirzījusi klastera izdošana. Klastera izdošanai paredzētajā mobilās ierīces izvēlnes vienumā ir jābūt ieslēgtam parametram **Atļaut darba sadalīšanu** , un ir jāpievieno darba klase *SO Izdošana* .
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlnes vienumi**.
 1. Saraksta rūtī atlasiet ierakstu **Izveidot izdošanas klasteri** .
@@ -124,12 +125,12 @@ Jākonfigurē mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, k
 
 ## <a name="create-picking-work"></a>Izveidot izdošanas darbu
 
-Pirms klastera izdošanas sākšanas jāizveido daži izejošie darbi. Iepriekš izveidotais klastera profils norāda divas klastera pozīcijas. Tādēļ pārdošanas pasūtījuma izdošanai jāizveido vismaz divi darba ID. Šim scenārijam darbības tiks veiktas noliktavā *61*, un tās izmantos preces *L0101* un *T0100*. Demonstrācijas datos jābūt pietiekamam šo vienumu rīcībā esošo krājumu daudzumam. Pārliecinieties, vai jums ir pietiekami daudz krājumu, lai pabeigtu šīs darbības.
+Pirms klastera izdošanas sākšanas jāizveido daži izejošie darbi. Iepriekš izveidotais klastera profils norāda divas klastera pozīcijas. Tādēļ pārdošanas pasūtījuma izdošanai jāizveido vismaz divi darba ID. Šim scenārijam darbības tiks veiktas noliktavā *61* , un tās izmantos preces *L0101* un *T0100*. Demonstrācijas datos jābūt pietiekamam šo vienumu rīcībā esošo krājumu daudzumam. Pārliecinieties, vai jums ir pietiekami daudz krājumu, lai pabeigtu šīs darbības.
 
 ### <a name="create-sales-order-1"></a>1. pārdošanas pasūtījuma izveide
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu 1.
+1. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu 1.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - **Debitora konts:** *US-010*
@@ -152,17 +153,17 @@ Pirms klastera izdošanas sākšanas jāizveido daži izejošie darbi. Iepriekš
 
     1. Atlasiet rezervējamo rindu.
     2. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** atlasiet **Krājumi \> Rezervācija**.
-    3. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu krājumus.
+    3. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu krājumus.
     4. Aizveriet lapu **Rezervācija**.
 
-1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Kad izlaišana ir pabeigta, saņemsiet informatīvus ziņojumus, kas parāda izveidotos kopuma un noslodzes ID.
 
 ### <a name="create-sales-order-2"></a>2. pārdošanas pasūtījuma izveide
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu 2.
+1. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu 2.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - **Debitora konts:** *US-011*
@@ -185,10 +186,10 @@ Pirms klastera izdošanas sākšanas jāizveido daži izejošie darbi. Iepriekš
 
     1. Atlasiet rezervējamo rindu.
     2. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** atlasiet **Krājumi \> Rezervācija**.
-    3. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu krājumus.
+    3. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu krājumus.
     4. Aizveriet lapu **Rezervācija**.
 
-1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Kad izlaišana ir pabeigta, saņemsiet informatīvus ziņojumus, kas parāda izveidotos kopuma un noslodzes ID.
 
@@ -200,8 +201,8 @@ Ir jāizveido divi darba ID, katram no kuriem ir divas izdošanas rindas. Sekoji
 1. Režģī **Pārskats** meklējiet abu tikko izveidoto pārdošanas pasūtījumu kolonnu **Pasūtījuma numurs** . Katram pārdošanas pasūtījumam atzīmējiet atbilstošo darba ID.
 1. Atlasiet rindu katram pārdošanas pasūtījumam, lai parādītu saistīto informāciju režģī **Rindas** . Atzīmējiet vietu, no kuras tiks izdota katra vienība.
 1. Dodieties uz **Krājumu vadība \> Uzziņas un atskaites \> Rīcībā esošie krājumu saraksts**.
-1. Darbību rūtī atlasiet **Dimensijas**, lai atvērtu dialoglodziņu **Dimensiju attēlojums** .
-1. Pārliecinieties, vai ir atzīmētas izvēles rūtiņas **Numura zīme**, **Noliktava** un **Vienuma numurs** un pēc tam atlasiet **Labi**.
+1. Darbību rūtī atlasiet **Dimensijas** , lai atvērtu dialoglodziņu **Dimensiju attēlojums** .
+1. Pārliecinieties, vai ir atzīmētas izvēles rūtiņas **Numura zīme** , **Noliktava** un **Vienuma numurs** un pēc tam atlasiet **Labi**.
 1. Rūtī **Filtrs** iestatiet šādus filtrus:
 
     - **Vienuma numurs** – **ir viens no** – *L0101* un *T100*
@@ -236,10 +237,10 @@ Tā kā klastera profils iestata pozīciju skaitu uz 2, sistēma automātiski no
 
     Tiek parādīta lapa **UZDEVUMS: Sakārtot: Klastera izdošanas izveide** . Šeit divas izdotās paletes tiks šķirotas izdošanas pozīcijā. Šī pozīcija varētu būt tvertne vai konteiners, ko izmanto, lai atdalītu izdotos krājumus pēc pārdošanas pasūtījuma.
 
-1. Skatiet informāciju, kas tiek rādīta krājumam (*L0101*) un daudzumam (*20* ea), kas tiks sašķirots pozīcijā 1 (pārdošanas pasūtījumam 1).
+1. Skatiet informāciju, kas tiek rādīta krājumam ( *L0101* ) un daudzumam ( *20* ea), kas tiks sašķirots pozīcijā 1 (pārdošanas pasūtījumam 1).
 1. Iestatiet **POZICIJA NA** lauku uz *1*.
 1. Atlasiet **Labi** (atzīmes simbols).
-1. Skatiet informāciju, kas tiek rādīta krājumam (*L0101*) un daudzumam (*20* ea), kas tiks sašķirots pozīcijā 2 (pārdošanas pasūtījumam 2).
+1. Skatiet informāciju, kas tiek rādīta krājumam ( *L0101* ) un daudzumam ( *20* ea), kas tiks sašķirots pozīcijā 2 (pārdošanas pasūtījumam 2).
 1. Iestatiet **POZICIJA NA** lauku uz *2*.
 1. Atlasiet **Labi** (atzīmes simbols).
 
@@ -258,10 +259,10 @@ Tā kā klastera profils iestata pozīciju skaitu uz 2, sistēma automātiski no
 1. Atlasiet **Labi** (atzīmes simbols).
 1. Ievadiet numura zīmi, no kuras tiek izdots vienums, iestatot, lauku **LP** uz *LPREPL04*.
 1. Atlasiet **Labi** (atzīmes simbols).
-1. Skatiet informāciju, kas tiek rādīta krājumam (*T0100*) un daudzumam (*2* ea), kas tiks sašķirots pozīcijā 2 (pārdošanas pasūtījumam 2).
+1. Skatiet informāciju, kas tiek rādīta krājumam ( *T0100* ) un daudzumam ( *2* ea), kas tiks sašķirots pozīcijā 2 (pārdošanas pasūtījumam 2).
 1. Iestatiet **POZICIJA NA** lauku uz *2*.
 1. Atlasiet **Labi** (atzīmes simbols).
-1. Skatiet informāciju, kas tiek rādīta krājumam (*T0100*) un daudzumam (*2* ea), kas tiks sašķirots pozīcijā 1 (pārdošanas pasūtījumam 1).
+1. Skatiet informāciju, kas tiek rādīta krājumam ( *T0100* ) un daudzumam ( *2* ea), kas tiks sašķirots pozīcijā 1 (pārdošanas pasūtījumam 1).
 1. Iestatiet **POZICIJA NA** lauku uz *1*.
 1. Atlasiet **Labi** (atzīmes simbols).
 
@@ -274,4 +275,4 @@ Tā kā klastera profils iestata pozīciju skaitu uz 2, sistēma automātiski no
 
     Tiek saņemts ziņojums "Klasteris pabeigts".
 
-Tagad varat izmantot izvēlnes vienumu **Pārdošanas izdošana**, lai izdotu atlikušo daudzumu. Pēc tam varat izmantot izvēlnes vienumu **Pārdošanas iekraušana** , lai pārvietotu vienumus no sagatavošanas vietas uz iekraušanas doku.
+Tagad varat izmantot izvēlnes vienumu **Pārdošanas izdošana** , lai izdotu atlikušo daudzumu. Pēc tam varat izmantot izvēlnes vienumu **Pārdošanas iekraušana** , lai pārvietotu vienumus no sagatavošanas vietas uz iekraušanas doku.

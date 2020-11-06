@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4b9cd7dac680c1691fb4c6dd4078f109254be784
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215602"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017740"
 ---
 # <a name="pick-line-grouping"></a>Izdošanas rindu grupēšana
 
@@ -52,7 +52,7 @@ Izdošanas rindu grupēšanā vairākas darba rindas, kurām ir viens un tas pat
 4. Kopsavilkuma cilnē **Darba klases** veiciet šīs darbības, lai konfigurētu mobilās ierīces izvēlnes vienumam derīgās darba klases:
 
     1. Atlasiet **Jauns**.
-    2. Laukā **Darba klases ID** atlasiet **Pārdošana** vai **SO izdošana**atkarībā no noliktavas, kuru izmantosiet.
+    2. Laukā **Darba klases ID** atlasiet **Pārdošana** vai **SO izdošana** atkarībā no noliktavas, kuru izmantosiet.
     3. Laukā **Darba pasūtījuma veids** atlasiet **Pārdošanas pasūtījumi**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Mobilās ierīces izvēlnes iestatīšana
@@ -82,17 +82,17 @@ Izdošanas rindu grupēšanā vairākas darba rindas, kurām ir viens un tas pat
 Pirms varēsiet iestatīt izdošanas rindas grupēšanu, ir jāizveido daži piemēroti izejošie darbi.
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-2. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu. 
+2. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu. 
 3. Laukā **Debitora konts** atlasiet jebkuru debitoru. 
 4. Kopsavilkuma cilnes **Vispārīgi** laukā **Noliktava** atlasiet **51**. Tad atl. **Labi**.
-5. Sadaļā **Pārdošanas pasūtījuma rindas**pievienojiet šādas sešas rindas:
+5. Sadaļā **Pārdošanas pasūtījuma rindas** pievienojiet šādas sešas rindas:
 
-    - **1. rinda:** laukā **Krājuma numurs**, atlasiet **M9200**. Laukā **Daudzums** ievadiet **3**.
-    - **2. rinda:** laukā **Krājuma numurs**, atlasiet **M9201**. Laukā **Daudzums** ievadiet **3**. 
-    - **3. rinda:** laukā **Krājuma numurs**, atlasiet **M9202**. Laukā **Daudzums** ievadiet **2**. 
-    - **4. rinda:** laukā **Krājuma numurs**, atlasiet **M9200**. Laukā **Daudzums** ievadiet **1**. 
-    - **5. rinda:** laukā **Krājuma numurs**, atlasiet **M9200**. Laukā **Daudzums** ievadiet **3**.
-    - **6. rinda:** laukā **Krājuma numurs**, atlasiet **M9202**. Laukā **Daudzums** ievadiet **7**. 
+    - **1. rinda:** laukā **Krājuma numurs** , atlasiet **M9200**. Laukā **Daudzums** ievadiet **3**.
+    - **2. rinda:** laukā **Krājuma numurs** , atlasiet **M9201**. Laukā **Daudzums** ievadiet **3**. 
+    - **3. rinda:** laukā **Krājuma numurs** , atlasiet **M9202**. Laukā **Daudzums** ievadiet **2**. 
+    - **4. rinda:** laukā **Krājuma numurs** , atlasiet **M9200**. Laukā **Daudzums** ievadiet **1**. 
+    - **5. rinda:** laukā **Krājuma numurs** , atlasiet **M9200**. Laukā **Daudzums** ievadiet **3**.
+    - **6. rinda:** laukā **Krājuma numurs** , atlasiet **M9202**. Laukā **Daudzums** ievadiet **7**. 
 
     Šeit ir kopsavilkums par kopējiem daudzumiem katram krājumam:
 
@@ -130,3 +130,4 @@ Pirms varēsiet iestatīt izdošanas rindas grupēšanu, ir jāizveido daži pie
 >    - Vienību izdošana.
 >    - Darba rindas, kurām ir nepabeigt papildināšanas darbi.
 >    - Pārizidošana.
+>    - Saīsināta izdošana ar krājuma atkārtotu sadali

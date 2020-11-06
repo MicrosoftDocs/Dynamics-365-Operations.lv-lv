@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976383"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006170"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Izmaksu apkopojuma politika un pieskaitāmo izmaksu aprēķināšana 
 
@@ -76,7 +76,7 @@ Organizācijas pārskatu prasībām atbilstošu dimensiju hierarhiju var iestat�
 
 **Dimensiju hierarhija**
 
-|              | Dimensijas elementu diapazons |                     |
+|    &nbsp;    | Dimensijas elementu diapazons | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Mezgli**        | **Avota dimensijas elements**   | **Mērķa dimensijas elements** |
 | Organizācija |                         |                     |
@@ -97,7 +97,7 @@ Politikas prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk nor�
 
 **Dimensiju hierarhija**
 
-|                         | Dimensijas elementu diapazons |                     |
+|      &nbsp;             | Dimensijas elementu diapazons |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Zari                   | Avota dimensijas elements   | Mērķa dimensijas elements |
 | Peļņas un zaudējumu aprēķins |                         |                     |
@@ -105,7 +105,7 @@ Politikas prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk nor�
 
 Tālāk ir redzams, kā pēc virsgrāmatas ierakstu apstrādes izskatās izmaksu ierakstu bilance pēc izmaksu objekta.
 
-|                      | **Izmaksu objekts** |           |           |           | **Kopsumma**     |
+|      &nbsp;          | **Izmaksu objekts** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Kopsumma**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Izmaksu elements**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Elektrība** | 100,00          | 200,00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Ja vēlaties uzzināt par izmaksu plūsmu starp izmaksu centriem organizācijas 
 
 Izmaksu elementu dimensiju elementus var iestatīt tālāk norādītajā veidā.
 
-| Izmaksu elementi | Tips          |               |
+| Izmaksu elementi | Tips          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Elektrība   | Primārs       |
 | 1002          | Algas      | Primārs       |
@@ -179,14 +179,14 @@ Dimensiju hierarhija **Peļņas un zaudējumu aprēķins** ir jāatjaunina, to p
 
 **Dimensiju hierarhija**
 
-|                         | Dimensijas elementu diapazons |                     |
+|      &nbsp;             | Dimensijas elementu diapazons |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Zari                   | Avota dimensijas elements   | Mērķa dimensijas elements |
 | Peļņas un zaudējumu aprēķins |                         |                     |
 | &nbsp;&nbsp;&nbsp;&nbsp;Primārās izmaksas                        | 10001                   | 10003               |
 | &nbsp;&nbsp;&nbsp;&nbsp;Sekundārās izmaksas                         | **SC-CC001**            | **SC-CC004**        |
 
-Izveidojiet **izmaksu apkopojuma politiku**, kurā katrs izmaksu centrs ir kartēts ar atbilstošu tipa **Sekundārs** izmaksu elementu.
+Izveidojiet **izmaksu apkopojuma politiku** , kurā katrs izmaksu centrs ir kartēts ar atbilstošu tipa **Sekundārs** izmaksu elementu.
 
 **Izmaksu apkopojuma politikas**
 
@@ -211,7 +211,7 @@ Izveidojiet **izmaksu apkopojuma politiku**, kurā katrs izmaksu centrs ir kart�
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | Izmaksu sadalījuma žurnāls | Finanšu                 | 2017    | Periods 1 | Pieskaitāmo izmaksu aprēķins / 01-02-2017 23:51:00 / Virsgrāmata /2017 / 1. periods |
 
-Tagad, veidojot **izmaksu objekta bilances žurnāla ierakstus**, sistēmā tiks lietota **izmaksu apkopojuma politika**.
+Tagad, veidojot **izmaksu objekta bilances žurnāla ierakstus** , sistēmā tiks lietota **izmaksu apkopojuma politika**.
 
 **Izmaksu objekta bilances žurnāla ieraksti**
 
@@ -223,9 +223,9 @@ Tagad, veidojot **izmaksu objekta bilances žurnāla ierakstus**, sistēmā tiks
 | 31.01.2017.      | CC004       | Iepakošana    | SC-CC004 | Iepakošana | 15.717,25 |
 
 > [!NOTE]
-> Ja pastāv **izmaksu apkopojuma politika**, žurnāla ieraksti tiek izveidoti, pamatojoties uz politikā ietvertajām kārtulām. Parādītā bilance ir pieskaitāmo izmaksu aprēķina bilance.
+> Ja pastāv **izmaksu apkopojuma politika** , žurnāla ieraksti tiek izveidoti, pamatojoties uz politikā ietvertajām kārtulām. Parādītā bilance ir pieskaitāmo izmaksu aprēķina bilance.
 
-Lapā **Detalizēta izmaksu objekta izmaksu bilances žurnāla ieraksta informācija**, kam var piekļūt no žurnāla ierakstiem, tiek rādīta informācija par to, kā tiek iegūta bilance.
+Lapā **Detalizēta izmaksu objekta izmaksu bilances žurnāla ieraksta informācija** , kam var piekļūt no žurnāla ierakstiem, tiek rādīta informācija par to, kā tiek iegūta bilance.
 
 **Piemērs: izmaksu objekta CC002 Finanses žurnāla ieraksts**
 
@@ -258,7 +258,7 @@ Dimensiju hierarhijas sniedz iespēju skatīt datus dažādos apkopojuma līmeņ
 
 Tālāk sniegtajā piemērā ir aprakstīta Power Pivot pārskatu izveide programmā Excel.
 
-| **Peļņas un zaudējumu aprēķins** | **Izmaksu objekts** |                |               |               |  **Kopā**    |
+| **Peļņas un zaudējumu aprēķins** | **Izmaksu objekts** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Kopā**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Primārās izmaksas**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -272,11 +272,11 @@ Tālāk sniegtajā piemērā ir aprakstīta Power Pivot pārskatu izveide progra
 |&nbsp;&nbsp;&nbsp;&nbsp;SC-CC004                             | 0,00            | 0,00           | 0,00          | 0,00          | 0,00          |
 | **Kopsumma**                   | **0,00**        | **0,00**       | **31.082,75** | **15.717,25** | **46.800,00** |
 
-Izmantojot **izmaksu apkopojuma politiku** un **sekundāro izmaksu elementus**, varat izmantot primārās izmaksas pēc izmaksu objekta iekšējiem pārskatiem kā primārās izmaksas, kas paliek pēc **pieskaitāmo izmaksu aprēķināšanas**.
+Izmantojot **izmaksu apkopojuma politiku** un **sekundāro izmaksu elementus** , varat izmantot primārās izmaksas pēc izmaksu objekta iekšējiem pārskatiem kā primārās izmaksas, kas paliek pēc **pieskaitāmo izmaksu aprēķināšanas**.
 
-Ja šī piemēra ietvaros netiktu izveidota **izmaksu apkopojuma politika**, tiktu iegūts tālāk norādītais pārskata rezultāts. Izmaksu plūsma ir pareiza, taču ir zaudēti ieskati par izmaksu plūsmu starp izmaksu centriem un šīs plūsmas izsekojamība.
+Ja šī piemēra ietvaros netiktu izveidota **izmaksu apkopojuma politika** , tiktu iegūts tālāk norādītais pārskata rezultāts. Izmaksu plūsma ir pareiza, taču ir zaudēti ieskati par izmaksu plūsmu starp izmaksu centriem un šīs plūsmas izsekojamība.
 
-| **Peļņas un zaudējumu aprēķins** | **Izmaksu objekts** |           |               |               |          **Kopsumma**  |
+| **Peļņas un zaudējumu aprēķins** | **Izmaksu objekts** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Kopsumma**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Primārās izmaksas**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

@@ -16,15 +16,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18a9b7ed4cd26a806002fb1b4684de1e84f39889
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015071"
 ---
 # <a name="improve-scheduling-engine-performance"></a>plānošanas programmas veiktspējas uzlabošana
 
@@ -180,7 +180,7 @@ Ierobežojumu risinātājs neapzinās plānošanas algoritma specifiku. „Maģi
 
 Liela daļa no (iekšējiem) ierobežojumiem programmā kontrolē resursa darba laiku un noslodzi. Būtībā uzdevums ir šķērsot resursa darba laika slotus no noteikta punkta noteiktā virzienā, un atrast pietiekami ilgu intervālu, kurā var ietilpt darbam nepieciešamā noslodze (laiks).
 
-Lai to paveiktu, programmai ir jāzina resursa darba laiki. Pretēji galvenā modeļa datiem, darba laiki tiek *atlikti ielādēti*, kas nozīmē, ka tie tiek ielādēti programmā pēc nepieciešamības. Pamatojums šai pieejai ir tāds, ka bieži vien Supply Chain Management kalendārā darba laiki atrodas ļoti ilga laika perioda ietvaros, un parasti pastāv daudz kalendāru, tāpēc datu apjoms būtu samērā liels iepriekšējas ielādes veikšanai.
+Lai to paveiktu, programmai ir jāzina resursa darba laiki. Pretēji galvenā modeļa datiem, darba laiki tiek *atlikti ielādēti* , kas nozīmē, ka tie tiek ielādēti programmā pēc nepieciešamības. Pamatojums šai pieejai ir tāds, ka bieži vien Supply Chain Management kalendārā darba laiki atrodas ļoti ilga laika perioda ietvaros, un parasti pastāv daudz kalendāru, tāpēc datu apjoms būtu samērā liels iepriekšējas ielādes veikšanai.
 
 Programma pieprasa kalendāra informāciju pa daļām, izsaucot X++ klases metodi `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. Pieprasījums ir paredzēts noteiktam kalendāra ID noteiktā laika intervālā. Atkarībā no servera kešatmiņas stāvokļa Supply Chain Management, katrs no šiem pieprasījumiem varētu rezultēties ar vairākiem datu bāzes izsaukumiem, kas aizņem ilgu laiku (salīdzinot ar tīro skaitļošanas laiku). Turklāt, ja kalendārā ir iekļautas ļoti detalizētas darba laika definīcijas ar vairākiem darba laika intervāliem dienā, tas palielina ielādes laiku.
 
@@ -188,7 +188,7 @@ Kad darba laika dati ir ielādēti plānošanas programmā, tas tiek saglabāts 
 
 ### <a name="finite-capacity"></a>Ierobežota noslodze
 
-Izmantojot ierobežoto noslodzi, darba laika sloti kalendārā tiek sadalīti un samazināti, pamatojoties uz esošajām noslodzes rezervācijām. Šīs rezervācijas tiek paņemtas arī, izmantojot to pašu `WrkCtrSchedulingInteropDataProvider` klasi, ko izmanto kalendāri, bet izmantojiet metodi `getCapacityReservations`. Plānojot vispārējās plānošanas laikā, rezervācijas noteiktam vispārējam plānam tiek ņemtas vērā un, ja tās ir iespējotas lapā **Vispārējās plānošanas parametri**, tiek iekļautas arī rezervācijas no apstiprinātajiem ražošanas pasūtījumiem. Līdzīgi, plānojot ražošanas pasūtījumu, pastāv arī opcija iekļaut rezervācijas no esošajiem plānotajiem pasūtījumiem, lai gan šī pieeja nav tik izplatīta kā rīkošanās otrādi.
+Izmantojot ierobežoto noslodzi, darba laika sloti kalendārā tiek sadalīti un samazināti, pamatojoties uz esošajām noslodzes rezervācijām. Šīs rezervācijas tiek paņemtas arī, izmantojot to pašu `WrkCtrSchedulingInteropDataProvider` klasi, ko izmanto kalendāri, bet izmantojiet metodi `getCapacityReservations`. Plānojot vispārējās plānošanas laikā, rezervācijas noteiktam vispārējam plānam tiek ņemtas vērā un, ja tās ir iespējotas lapā **Vispārējās plānošanas parametri** , tiek iekļautas arī rezervācijas no apstiprinātajiem ražošanas pasūtījumiem. Līdzīgi, plānojot ražošanas pasūtījumu, pastāv arī opcija iekļaut rezervācijas no esošajiem plānotajiem pasūtījumiem, lai gan šī pieeja nav tik izplatīta kā rīkošanās otrādi.
 
 Ierobežotas noslodzes izmantošana izraisīs plānošanas paildzināšanos vairāku iemeslu dēļ:
 
@@ -238,13 +238,9 @@ Piemēram, ja darba laiks resursu grupai kādā noteiktā datumā ir no 8:00 lī
 
 Noslodze no darba plānošanas uz visiem resursiem, kas iekļauti resursu grupā attiecīgajā dienā, tiek ņemta vērā, kad tiek aprēķināta pieejamā resursu grupas noslodze tajā pašā dienā. Katram datumam aprēķins ir šāds:
 
-> Pieejamā resursu grupas noslodze =  
-> (grupas resursu noslodze atkarībā no to kalendāra) —  
-> (darbam ieplānotā noslodze uz resursiem grupā) —  
-> (operācijām ieplānotā noslodze uz resursiem grupā) —  
-> (operācijām ieplānotā noslodze uz resursu grupu) —
+*Pieejamo resursu grupas noslodze = resursu noslodze grupā, pamatojoties uz to kalendāru &ndash; Darba ieplānoto noslodzi resursiem grupā &ndash; Operāciju ieplānoto noslodzi resursiem grupā &ndash; Operāciju ieplānoto noslodzi resursiem grupā*
 
-Cilnē **Resursu vajadzības**, kas atrodas maršruta operācijā, resursu vajadzības var norādīt, izmantojot noteiktu resursu (tādā gadījumā operācija tiks ieplānota, izmantojot šo resursu), resursu grupai, resursu veidam vai vienai vai vairākām iespējām, prasmei, kursam vai sertifikātam. Lai gan visu šo opciju izmantošana sniedz lielu elastību maršruta dizainā, tas arī sarežģī programmas plānošanu, jo noslodze jāuzskaita katram „Rekvizītam” (abstrakts nosaukums, kas tiek izmantots programmā, lai aprakstītu iespējas, prasmes utt.).
+Cilnē **Resursu vajadzības** , kas atrodas maršruta operācijā, resursu vajadzības var norādīt, izmantojot noteiktu resursu (tādā gadījumā operācija tiks ieplānota, izmantojot šo resursu), resursu grupai, resursu veidam vai vienai vai vairākām iespējām, prasmei, kursam vai sertifikātam. Lai gan visu šo opciju izmantošana sniedz lielu elastību maršruta dizainā, tas arī sarežģī programmas plānošanu, jo noslodze jāuzskaita katram „Rekvizītam” (abstrakts nosaukums, kas tiek izmantots programmā, lai aprakstītu iespējas, prasmes utt.).
 
 Resursu grupas noslodze iespējai ir noslodzes summa visiem resursu grupas resursiem, kam ir attiecīgā noslodze. Ja resursam grupā ir iespēja, tad tā tiks ņemta vērā neatkarīgi no tā, kāds ir nepieciešamās noslodzes līmenis.
 
@@ -252,11 +248,7 @@ Operāciju plānošanā pieejamā noslodze noteiktai resursu grupas iespējai ti
 
 Katram datumam nepieciešamais aprēķins ir šāds:
 
-> Iespējai pieejamā noslodze =  
-> (noslodze iespējai) —  
-> (darbam ieplānotā noslodze uz resursiem ar specifisku iespēju, kas iekļauti resursu grupā) —  
-> (operācijām ieplānotā noslodze uz resursiem ar specifisku iespēju, kas iekļauti resursu grupā) —  
-> (operācijām ieplānotā noslodze uz pašu resursu grupu, kam nepieciešama konkrētā iespēja) —
+*Pieejamā iespējas noslodze = iespējas noslodze &ndash; Darba ieplānotā noslodze resursiem ar specifiskām iespējām, kas iekļautas resursu grupā &ndash; Operāciju ieplānotā noslodze resursiem ar specifiskām iespējām, kas iekļautas resursu grupā &ndash; Operāciju ieplānotā noslodze pašā resursu grupā, kurai nepieciešama konkrētā iespēja*
 
 Tas nozīmē, ka, ja ir noslodze uz noteiktu resursu, noslodze tiek ņemta vērā, aprēķinot resursu grupai pieejamo noslodzi vienai iespējai, jo noslodze uz noteiktu resursu samazina tā ieguldījumu resursu grupas noslodzē, lai varētu izmantot iespēju, neatkarīgi no tā, vai noslodze uz konkrēto resursu paredzēta konkrētajai iespējai. Ja ir noslodze resursu grupas līmenī, tas tiek ņemts vērā, aprēķinot resursu grupas pieejamo noslodzi vienai iespējai tikai tad, ja noslodze ir no operācijas, kurai nepieciešama noteiktā iespēja.
 
@@ -313,7 +305,7 @@ Ierobežotas noslodzes izmantošana paredz, ka programma noslodzes informāciju 
 
 ### <a name="setting-hard-links"></a>Fiksēto saišu iestatīšana
 
-Maršruta standarta saites tips ir *nefiksēts*, kas nozīmē, ka ir atļauts laika intervāls starp vienas operācijas pabeigšanas laiku un nākamās sākumu. Šī pieļaušana var izraisīt nevēlamas sekas, ka materiāli vai noslodze nav pieejama vienai no operācijām ļoti ilgu laiku, ražošana varētu būt dīkstāvē diezgan ilgu laiku, kas nozīmē iespējamu nepabeigtu darbu pieaugumu. Šis nenotiks ar fiksētām saitēm, jo beigām un sākumam ir precīzi jāsakrīt. Taču fiksētu saišu iestatīšana padara plānošanas problēmu sarežģītāku, jo darba laiks un noslodzes krustpunkti ir jāaprēķina diviem operāciju resursiem. Ja ir iesaistītas arī paralēlas operācijas, tas ievērojami palielina skaitļošanas laiku. Ja abu operāciju resursiem ir atšķirīgi kalendāri, kas vispār nepārklājas, problēma ir neatrisināma.
+Maršruta standarta saites tips ir *nefiksēts* , kas nozīmē, ka ir atļauts laika intervāls starp vienas operācijas pabeigšanas laiku un nākamās sākumu. Šī pieļaušana var izraisīt nevēlamas sekas, ka materiāli vai noslodze nav pieejama vienai no operācijām ļoti ilgu laiku, ražošana varētu būt dīkstāvē diezgan ilgu laiku, kas nozīmē iespējamu nepabeigtu darbu pieaugumu. Šis nenotiks ar fiksētām saitēm, jo beigām un sākumam ir precīzi jāsakrīt. Taču fiksētu saišu iestatīšana padara plānošanas problēmu sarežģītāku, jo darba laiks un noslodzes krustpunkti ir jāaprēķina diviem operāciju resursiem. Ja ir iesaistītas arī paralēlas operācijas, tas ievērojami palielina skaitļošanas laiku. Ja abu operāciju resursiem ir atšķirīgi kalendāri, kas vispār nepārklājas, problēma ir neatrisināma.
 
 Ieteicams izmantot fiksētās saites tikai tad, kad tas ir konkrēti nepieciešams, un rūpīgi apsvērt, vai tas ir nepieciešams katrai maršruta operācijai.
 
@@ -329,7 +321,7 @@ Tā kā programma darbojas, pa vienam izpētot laika slotus un to noslodzi, ir l
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Liels (vai neviens) plānošanas taimauts
 
-Plānošanas programmas veiktspēju var optimizēt, izmantojot parametrus, kas atrodami lapā **Plānošanas parametri**. Iestatījumiem **Iespējots plānošanas taimauts** un **Iespējots plānošanas optimizācijas taimauts** vienmēr jābūt iestatītiem uz **Jā**. Ja iestatīti uz **Nē**, plānošana potenciāli var darboties neierobežoti, ja ir izveidots neizpildāms maršruts ar daudzām opcijām.
+Plānošanas programmas veiktspēju var optimizēt, izmantojot parametrus, kas atrodami lapā **Plānošanas parametri**. Iestatījumiem **Iespējots plānošanas taimauts** un **Iespējots plānošanas optimizācijas taimauts** vienmēr jābūt iestatītiem uz **Jā**. Ja iestatīti uz **Nē** , plānošana potenciāli var darboties neierobežoti, ja ir izveidots neizpildāms maršruts ar daudzām opcijām.
 
 **Maksimālais plānošanas laiks vienai secībai** vērtība kontrolē, kāds ir maksimālais sekunžu skaits, ko drīkst iztērēt, mēģinot atrast risinājumu vienai secībai (vairumā gadījumu secība atbilst vienam pasūtījumam). Šeit izmantojamā vērtība lielā mērā ir atkarīga no tā, cik sarežģīts ir maršruts un iestatījumi, piemēram, ierobežota noslodze ar maksimumu, kas nepārsniedz 30 sekundes, ir labs sākuma punkts.
 

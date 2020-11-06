@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e72249e26fb8f291f804cf5f2e4ce98bf88cd5bf
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596252"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017694"
 ---
 # <a name="outbound-sorting"></a>Izejošā kārtošana
 
@@ -61,7 +62,7 @@ Iepakošanas stacija tiek uzskatīta par atrašanās vietu. Noliktavas darbiniek
 1. Laukā **Nodarbinātais** atlasiet mērķa lietotāju darbinieku sarakstā.
 1. Atlasiet **Atlasīt**.
 1. Darbību rūtī atlasiet **Saglabāt**.
-1. Kopsavilkuma cilnē **Lietotāji** atlasiet **Jauns**, lai izveidotu mobilās ierīces kontu, un iestatiet tālāk norādītās vērtības:
+1. Kopsavilkuma cilnē **Lietotāji** atlasiet **Jauns** , lai izveidotu mobilās ierīces kontu, un iestatiet tālāk norādītās vērtības:
 
     - **Lietotāja ID:** ievadiet unikālu ID.
     - **Lietotājvārds:** ievadiet ID nosaukumu.
@@ -69,7 +70,7 @@ Iepakošanas stacija tiek uzskatīta par atrašanās vietu. Noliktavas darbiniek
     - **Izvēlnes nosaukums:** *Galvenā*
 
 1. Darbību rūtī atlasiet **Saglabāt**.
-1. Tiek parādīts dialoglodziņš **Iestatīt paroli**, kur varat izveidot vienkāršu paroli, ko lietotājs var izmantot, lai pieteiktos mobilajā programmā. Iestatiet šādas vērtības:
+1. Tiek parādīts dialoglodziņš **Iestatīt paroli** , kur varat izveidot vienkāršu paroli, ko lietotājs var izmantot, lai pieteiktos mobilajā programmā. Iestatiet šādas vērtības:
 
     - **Parole:** ievadiet vienkāršu paroli.
     - **Apstiprināt paroli:** vēlreiz ievadiet to pašu paroli.
@@ -81,7 +82,7 @@ Iepakošanas stacija tiek uzskatīta par atrašanās vietu. Noliktavas darbiniek
 ### <a name="create-a-location-type"></a>Novietojuma veida izveide
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojuma veidi**.
-1. Darbību rūtī atlasiet **Jauns**, lai izveidotu novietojuma veidu, un iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns** , lai izveidotu novietojuma veidu, un iestatiet šādas vērtības:
 
     - **Novietojuma veids:** *SORT*
     - **Apraksts:** *Kārtot*
@@ -91,7 +92,7 @@ Iepakošanas stacija tiek uzskatīta par atrašanās vietu. Noliktavas darbiniek
 ### <a name="set-up-warehouse-management-parameters"></a>Noliktavas pārvaldības parametru iestatīšana
 
 1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktavas pārvaldības parametri**.
-1. Cilnē **Vispārīgi**, kopsavilkuma cilnē **Novietojuma veidi** iestatiet lauku **Kārtošanas novietojuma veids** uz *SORT*.
+1. Cilnē **Vispārīgi** , kopsavilkuma cilnē **Novietojuma veidi** iestatiet lauku **Kārtošanas novietojuma veids** uz *SORT*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
 ### <a name="set-up-a-location-profile"></a>Novietojuma profila iestatīšana
@@ -108,7 +109,7 @@ Iepakošanas stacija tiek uzskatīta par atrašanās vietu. Noliktavas darbiniek
     - **Novietojuma formāts:** *ASRB* (aile-statīvs-plaukts-nodalījums)
     - **Novietojuma veids:** *SORT*
     - **Izmantot noliktavas vienības izsekošanu:** *Jā*
-    - **Atļaut jauktus krājumus:** *Jā* (iestatot šo opciju uz *Jā*, opcija **Atļaut jauktu krājumu partijas** tiek automātiski iestatīta uz *Jā*, un to nevar mainīt atsevišķi.)
+    - **Atļaut jauktus krājumus:** *Jā* (iestatot šo opciju uz *Jā* , opcija **Atļaut jauktu krājumu partijas** tiek automātiski iestatīta uz *Jā* , un to nevar mainīt atsevišķi.)
 
 1. Atlasiet **Saglabāt**.
 
@@ -116,7 +117,7 @@ Iepakošanas stacija tiek uzskatīta par atrašanās vietu. Noliktavas darbiniek
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojums**.
 1. Virsrakstā noņemiet atzīmi izvēles rūtiņai **Ģenerēt novietojuma kontrolciparus**.
-1. Darbību rūtī atlasiet **Jauns**, lai izveidotu novietojumu, un iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns** , lai izveidotu novietojumu, un iestatiet šādas vērtības:
 
     - **Noliktava:** *62*
     - **Novietojums:** *SORT*
@@ -145,13 +146,13 @@ Izejošās kārtošanas veidne nosaka, vai darbs ir izveidots no kārtošanas vi
     - **Kārtošanas pārbaude:** *Pozīcijas skenēšana*.
     - **Izveidot darbu slēgtai pozīcijai:** *Jā*
 
-        Ja šī opcija ir iestatīta uz *Jā*, kad pozīcija tiek slēgta, tiks izveidots darbs, lai pārvietotu krājumus uz galējo nosūtīšanas vietu. Ja tā ir iestatīta uz *Nē*, krājumi tiks nekavējoties izdoti pasūtījumam, kad pozīcija tiks slēgta.
+        Ja šī opcija ir iestatīta uz *Jā* , kad pozīcija tiek slēgta, tiks izveidots darbs, lai pārvietotu krājumus uz galējo nosūtīšanas vietu. Ja tā ir iestatīta uz *Nē* , krājumi tiks nekavējoties izdoti pasūtījumam, kad pozīcija tiks slēgta.
 
     - **Pozīcijas piešķiršana:** *Automātiski*
 
-        Ja šajā laukā ir iestatīts *Manuāli*, lietotājam vienmēr jānorāda, kurā pozīcijā krājumi ir jākārto. Ja tajā ir iestatīts *Automātiski*, sistēma automātiski novirzīs krājumus uz pozīciju, kad vien iespējams, pamatojoties uz kārtošanas veidnes pārtraukumiem.
+        Ja šajā laukā ir iestatīts *Manuāli* , lietotājam vienmēr jānorāda, kurā pozīcijā krājumi ir jākārto. Ja tajā ir iestatīts *Automātiski* , sistēma automātiski novirzīs krājumus uz pozīciju, kad vien iespējams, pamatojoties uz kārtošanas veidnes pārtraukumiem.
 
-1. Atlasiet **Saglabāt**, lai darbību rūtī padarītu pieejamu pogu **Rediģēt vaicājumu**.
+1. Atlasiet **Saglabāt** , lai darbību rūtī padarītu pieejamu pogu **Rediģēt vaicājumu**.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
 1. Vaicājumu redaktora cilnē **Kārtošana** pievienojiet rindu, kurai ir šādas vērtības:
 
@@ -175,7 +176,7 @@ Izejošās kārtošanas veidne nosaka, vai darbs ir izveidots no kārtošanas vi
     - **Atsauces lauka nosaukums:** *Pārvadātāja pakalpojums*
     - **Grupēt pēc lauka:** atzīmējiet šo izvēles rūtiņu, lai grupētu sūtījumus pēc pārvadātāja pakalpojuma.
 
-1. Atlasiet **Labi**, lai iestatījumus saglabātu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi** , lai iestatījumus saglabātu un aizvērtu dialoglodziņu.
 
 ### <a name="set-up-container-packing-policies"></a>Konteineru iepakošanas politiku iestatīšana
 
@@ -201,14 +202,14 @@ Izejošās kārtošanas veidne nosaka, vai darbs ir izveidots no kārtošanas vi
 Izveidojiet jaunu iepakošanas profilu, kas tiks izmantots kopā ar kārtošanas funkcionalitāti.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Iepakošana \> Iepakošanas profili**.
-1. Darbību rūtī atlasiet **Jauns**, lai izveidotu rindu, un iestatiet tai šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns** , lai izveidotu rindu, un iestatiet tai šādas vērtības:
 
     - **Iepakošanas profila ID:** *Sort*
     - **Apraksts:** *Kārtot*
     - **Konteineru iepakošanas politika:** *Sort*
     - **Konteinera ID režīms:** *Automātiski*
     - **Konteinera veids:** *Kaste - liela*
-    - **Konteinera slēgšanas laikā automātiski izveidot konteineru:** notīrīts (= *Nē*)
+    - **Konteinera slēgšanas laikā automātiski izveidot konteineru:** notīrīts (= *Nē* )
 
 1. Atlasiet **Saglabāt**.
 
@@ -217,7 +218,7 @@ Izveidojiet jaunu iepakošanas profilu, kas tiks izmantots kopā ar kārtošanas
 Iestatiet darba klasi, kas tiks izmantota kopā ar kārtošanu.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba klases**.
-1. Darbību rūtī atlasiet **Jauns**, lai izveidotu kārtošanas darba klasi, un iestatiet tai šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns** , lai izveidotu kārtošanas darba klasi, un iestatiet tai šādas vērtības:
 
     - **Darba klases ID:** *Sort*
     - **Apraksts:** *Kārtot*
@@ -244,11 +245,11 @@ Izveidojiet mobilās ierīces izvēlnes vienumu, lai veidotu paletes kārtošana
 
     - **Aktivitātes kods:** *Izejošā kārtošana*
 
-        Kad šis lauks ir iestatīts uz *Izejošā kārtošana*, tiek parādīts lauks **Izejošās kārtošanas veidnes ID**.
+        Kad šis lauks ir iestatīts uz *Izejošā kārtošana* , tiek parādīts lauks **Izejošās kārtošanas veidnes ID**.
 
     - **Procesu ceļveža izmantošana:** *Jā*
 
-        Kad lauks **Aktivitātes kods** ir iestatīts uz *Izejošā kārtošana*, šī opcija tiek automātiski iestatīta uz *Jā*.
+        Kad lauks **Aktivitātes kods** ir iestatīts uz *Izejošā kārtošana* , šī opcija tiek automātiski iestatīta uz *Jā*.
 
     - **Izejošās kārtošanas veidnes ID:** *AutoWork*
 
@@ -268,7 +269,7 @@ Izveidojiet izvēlnes vienumu, kas ļauj lietotājiem pārvietot sakārtotās kr
     - **Izmantot esošo darbu:** *Jā*
 
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Noteicējs:** uz *Lietotāja noteikts*.
-1. Kopsavilkuma cilnē **Darba klases** atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
+1. Kopsavilkuma cilnē **Darba klases** atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
 
     - **Darba klases ID:** *SORT*
     - **Darba pasūtījuma veids:** *Kārtotu krājumu izdošana*
@@ -309,15 +310,15 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
     - **Noliktava:** *62*
     - **Vairākas SKU:** *Nē*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Rindas**.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Rindas**.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Secība:** *1*
     - **No:** *0*
     - **Līdz:** *1 000 000*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Novietojuma direktīvu darbības**.
-1. Kopsavilkuma cilnē **Novietojuma direktīvu darbības** atlasiet **Jauns**, un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Novietojuma direktīvu darbības**.
+1. Kopsavilkuma cilnē **Novietojuma direktīvu darbības** atlasiet **Jauns** , un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Secība:** *1*
     - **Nosaukums:** *Baydoor*
@@ -325,7 +326,7 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
 1. Atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Rediģēt vaicājumu**.
 1. Vaicājumu redaktora cilnē **Diapazons** sameklējiet rindu, kurā lauks **Lauks** ir iestatīts uz *Novietojums*. Iestatiet lauku **Kritēriji** šai rindai uz *Angāra durvis*.
-1. Atlasiet **Labi**, lai saglabātu iestatījumus un aizvērtu vaicājumu redaktoru.
+1. Atlasiet **Labi** , lai saglabātu iestatījumus un aizvērtu vaicājumu redaktoru.
 
 #### <a name="set-up-a-multiple-sku-directive"></a>Iestatīt vairākas SKU direktīvas
 
@@ -344,15 +345,15 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
     - **Noliktava:** *62*
     - **Vairākas SKU:** *Jā*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Rindas**.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Rindas**.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Secība:** *1*
     - **No:** *0*
     - **Līdz:** *1 000 000*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Novietojuma direktīvu darbības**.
-1. Kopsavilkuma cilnē **Novietojuma direktīvu darbības** atlasiet **Jauns**, un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu rīkjoslu kopsavilkuma cilnē **Novietojuma direktīvu darbības**.
+1. Kopsavilkuma cilnē **Novietojuma direktīvu darbības** atlasiet **Jauns** , un pēc tam jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Secība:** *1*
     - **Nosaukums:** *Baydoor Multi*
@@ -360,7 +361,7 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
 1. Atlasiet **Saglabāt**.
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Rediģēt vaicājumu**.
 1. Vaicājumu redaktora cilnē **Diapazons** sameklējiet rindu, kurā lauks **Lauks** ir iestatīts uz *Novietojums*. Iestatiet lauku **Kritēriji** šai rindai uz *Angāra durvis*.
-1. Atlasiet **Labi**, lai saglabātu iestatījumus un aizvērtu vaicājumu redaktoru.
+1. Atlasiet **Labi** , lai saglabātu iestatījumus un aizvērtu vaicājumu redaktoru.
 
 ### <a name="set-up-work-templates"></a>Iestatīt darba veidnes
 
@@ -373,13 +374,13 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
     - **Darba veidne:** *Sort*
     - **Darba veidnes apraksts:** *Kārtot*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Darba veidnes informācija**.
-1. Kopsavilkuma cilnē **Darba veidnes informācija** atlasiet **Jauns**, lai pievienotu rindu, un pēc tam iestatiet tai šādas vērtības:
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Darba veidnes informācija**.
+1. Kopsavilkuma cilnē **Darba veidnes informācija** atlasiet **Jauns** , lai pievienotu rindu, un pēc tam iestatiet tai šādas vērtības:
 
     - **Darba veids:** *Izdošana*
     - **Darba klases ID:** *SORT*
 
-1. Vēlreiz atlasiet **Jauns**, lai pievienotu otro rindu, un tad iestatiet tai šādas vērtības:
+1. Vēlreiz atlasiet **Jauns** , lai pievienotu otro rindu, un tad iestatiet tai šādas vērtības:
 
     - **Darba veids:** *Izvietošana*
     - **Darba klases ID:** *SORT*
@@ -401,7 +402,7 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
     - **Debitora konts:** *US-005*
     - **Noliktava:** *62*
 
-1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
+1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu.
 
     Jaunais pārdošanas pasūtījums ir atvērts.
 
@@ -412,16 +413,16 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
     - **Pārvadātāja pakalpojums:** *Gaisa*
 
 1. Pārejiet uz skatu **Rindas**.
-1. Ja jauna, tukša rinda netiek automātiski pievienota režģim, kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai to pievienotu.
+1. Ja jauna, tukša rinda netiek automātiski pievienota režģim, kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu** , lai to pievienotu.
 1. Jaunajā pasūtījuma rindā iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *A0001*
     - **Daudzums:** *2*
 
-1. Kamēr jaunā pasūtījuma rinda joprojām ir atlasīta, kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**, izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Lapā **Rezervācija** atlasiet **Rezervēt partiju**, lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
+1. Kamēr jaunā pasūtījuma rinda joprojām ir atlasīta, kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** , izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
+1. Lapā **Rezervācija** atlasiet **Rezervēt partiju** , lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
-1. Darbību rūtī cilnē **Noliktava**, kas atrodas grupā **Darbības**, atlasiet **Nodot izpildei noliktavā**.
+1. Darbību rūtī cilnē **Noliktava** , kas atrodas grupā **Darbības** , atlasiet **Nodot izpildei noliktavā**.
 1. Saņemsit informatīvu ziņojumu, kurā būs norādīts šī pasūtījuma sūtījums un kopums. Pierakstiet kopuma ID un sūtījuma ID numurus.
 
 #### <a name="sales-order-2"></a>2. pārdošanas pasūtījums
@@ -433,26 +434,26 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
     - **Debitora konts:** *US-006*
     - **Noliktava:** *62*
 
-1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
+1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tam ir jāietver jauna, tukša rinda režģī kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Šajā pasūtījuma rindā iestatiet šādas vērtības:
 
     - **Krājums:** *A0001*
     - **Daudzums:** *1*
 
-1. Kopsavilkuma cilnē **Rindas informācija**, cilnē **Piegāde** iestatiet lauku **Piegādes režīms** uz *Flowe-STD*.
-1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, un pēc tam otrajā pasūtījuma rindā iestatiet šādas vērtības:
+1. Kopsavilkuma cilnē **Rindas informācija** , cilnē **Piegāde** iestatiet lauku **Piegādes režīms** uz *Flowe-STD*.
+1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu** , un pēc tam otrajā pasūtījuma rindā iestatiet šādas vērtības:
 
     - **Krājums:** *A0002*
     - **Daudzums:** *1*
 
-1. Kopsavilkuma cilnē **Rindas informācija**, cilnē **Piegāde** mainiet vērtību laukam **Piegādes režīms** uz *Air C-Air*.
+1. Kopsavilkuma cilnē **Rindas informācija** , cilnē **Piegāde** mainiet vērtību laukam **Piegādes režīms** uz *Air C-Air*.
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet pirmo pasūtījuma rindu. Tad izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Lapā **Rezervācija** atlasiet **Rezervēt partiju**, lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
+1. Lapā **Rezervācija** atlasiet **Rezervēt partiju** , lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet otro pasūtījuma rindu. Tad izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Lapā **Rezervācija** atlasiet **Rezervēt partiju**, lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
+1. Lapā **Rezervācija** atlasiet **Rezervēt partiju** , lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
-1. Darbību rūtī cilnē **Noliktava**, kas atrodas grupā **Darbības**, atlasiet **Nodot izpildei noliktavā**.
+1. Darbību rūtī cilnē **Noliktava** , kas atrodas grupā **Darbības** , atlasiet **Nodot izpildei noliktavā**.
 1. Saņemsit informatīvu ziņojumu, kurā būs norādīts šī pasūtījuma sūtījums un kopums. Ievērojiet, ka ir izveidoti divi kopuma ID numuri un divi sūtījuma ID numuri, viens katram piegādes režīmam pārdošanas pasūtījumu rindām.
 
 #### <a name="get-the-work-ids-from-the-work-details"></a>Darba ID iegūšana no darba informācijas
@@ -464,12 +465,12 @@ Tagad mobilās ierīces izvēlnei ir jāpievieno jauni izvēlnes vienumi.
 
 Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus uz iepakošanas staciju.
 
-1. Mobilajā ierīcē piesakieties noliktavā *62*, izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
+1. Mobilajā ierīcē piesakieties noliktavā *62* , izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
 1. Galvenajā izvēlnē atlasiet **Izejošs**.
 1. Izvēlnē **Izejošs** atlasiet **Pārdošanas izdošana**.
 1. Laukā **ID** ievadiet darba ID, kas tika izveidots 1. pārdošanas pasūtījumam.
 1. Atlasiet **Labi**.
-1. Lapā **Pārdošanas pasūtījumi - izdošana**, ievadiet mērķa LP, kas tika izveidots 1. pārdošanas pasūtījumam. Ievērojiet, ka tiek rādīta izdošanas vieta (*bulk-001*), krājums (*A0001*) un daudzums (*2 gab.*).
+1. Lapā **Pārdošanas pasūtījumi - izdošana** , ievadiet mērķa LP, kas tika izveidots 1. pārdošanas pasūtījumam. Ievērojiet, ka tiek rādīta izdošanas vieta ( *bulk-001* ), krājums ( *A0001* ) un daudzums ( *2 gab.* ).
 1. Atlasiet **Labi**.
 1. Pārskatiet informāciju lapā **Pārdošanas pasūtījumi - izvietošana**. Laukam **Vieta** ir jānorāda, ka izdotie krājumi ir jānosūta uz atrašanās vietu *Iepakot*.
 1. Atlasiet **Labi**.
@@ -480,7 +481,7 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
 
 1. Laukā **ID** ievadiet darba ID, kas tika izveidots 2. pārdošanas pasūtījumam, kur 1. rindai ir krājums *A0001*.
 1. Atlasiet **Labi**.
-1. Lapā **Pārdošanas pasūtījumi - izdošana** ievadiet mērķa LP. Ievērojiet, ka tiek rādīta izdošanas vieta (*bulk-001*), krājums (*A0001*) un daudzums (*1 gab.*).
+1. Lapā **Pārdošanas pasūtījumi - izdošana** ievadiet mērķa LP. Ievērojiet, ka tiek rādīta izdošanas vieta ( *bulk-001* ), krājums ( *A0001* ) un daudzums ( *1 gab.* ).
 1. Atlasiet **Labi**.
 1. Pārskatiet informāciju lapā **Pārdošanas pasūtījumi - izvietošana**. Laukam **Vieta** ir jānorāda, ka izdotie krājumi ir jānosūta uz atrašanās vietu *Iepakot*.
 1. Atlasiet **Labi**.
@@ -489,7 +490,7 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
 
 1. Laukā **ID** ievadiet darba ID, kas tika izveidots 2. pārdošanas pasūtījumam, kur 2. rindai ir krājums *A0002*.
 1. Atlasiet **Labi**.
-1. Lapā **Pārdošanas pasūtījumi - izdošana** ievadiet mērķa LP. Ievērojiet, ka tiek rādīta izdošanas vieta (*bulk-002*), krājums (*A0001*) un daudzums (*1 gab.*).
+1. Lapā **Pārdošanas pasūtījumi - izdošana** ievadiet mērķa LP. Ievērojiet, ka tiek rādīta izdošanas vieta ( *bulk-002* ), krājums ( *A0001* ) un daudzums ( *1 gab.* ).
 1. Atlasiet **Labi**.
 1. Pārskatiet informāciju lapā **Pārdošanas pasūtījumi - izvietošana**. Laukam **Vieta** ir jānorāda, ka izdotie krājumi ir jānosūta uz atrašanās vietu *Iepakot*.
 1. Atlasiet **Labi**.
@@ -511,8 +512,8 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
     - **Atrašanās vieta:** *Pakotne*
     - **Iepakošanas profila ID:** *Sort*
 
-1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
-1. Lapas **Pakotne** laukā **Noliktavas vienība vai sūtījums**, ievadiet mērķa LP 1. pārdošanas pasūtījumam. Pēc tam atlasiet klaviatūras taustiņu **Cilne** vai **Ievadīt**, lai izietu no lauka.
+1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu.
+1. Lapas **Pakotne** laukā **Noliktavas vienība vai sūtījums** , ievadiet mērķa LP 1. pārdošanas pasūtījumam. Pēc tam atlasiet klaviatūras taustiņu **Cilne** vai **Ievadīt** , lai izietu no lauka.
 1. Darbību rūtī atlasiet **Jauns konteiners**.
 1. Pieņemiet visus noklusējuma iestatījumus un atlasiet **Labi**. Pierakstiet konteinera ID.
 1. Kopsavilkuma cilnē **Krājuma iepakošana** iestatiet šādas vērtības:
@@ -521,7 +522,7 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
     - **Identifikators:** krājums *A0001*
 
 1. Darbību rūtī atlasiet **Slēgt konteineru**.
-1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru**, lai sistēma atjauninātu lauku **Bruto svars**.
+1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru** , lai sistēma atjauninātu lauku **Bruto svars**.
 1. Atlasiet **Labi**. Konteiners ir pārvietots uz novietni *SORT* un ir gatavs kārtošanai.
 1. Izveidojiet otru konteineru, lai pievienotu otro krājumu, no LP 1. pārdošanas pasūtījuma uz jauno konteineru.
 1. Darbību rūtī atlasiet **Jauns konteiners**.
@@ -532,12 +533,12 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
     - **Identifikators:** krājums *A0001*
 
 1. Darbību rūtī atlasiet **Slēgt konteineru**.
-1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru**, lai sistēma atjauninātu lauku **Bruto svars**.
+1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru** , lai sistēma atjauninātu lauku **Bruto svars**.
 1. Atlasiet **Labi**. Konteiners ir pārvietots uz novietni *SORT* un ir gatavs kārtošanai.
 
 #### <a name="pack-sales-order-2-into-containers"></a>2. pārdošanas pasūtījuma iepakošana konteineros
 
-1. Lapas **Pakotne** laukā **Noliktavas vienība vai sūtījums**, ievadiet mērķa LP 2. pārdošanas pasūtījuma 1. rindai. Pēc tam atlasiet klaviatūras taustiņu **Cilne** vai **Ievadīt**, lai izietu no lauka.
+1. Lapas **Pakotne** laukā **Noliktavas vienība vai sūtījums** , ievadiet mērķa LP 2. pārdošanas pasūtījuma 1. rindai. Pēc tam atlasiet klaviatūras taustiņu **Cilne** vai **Ievadīt** , lai izietu no lauka.
 1. Darbību rūtī atlasiet **Jauns konteiners**.
 1. Pieņemiet visus noklusējuma iestatījumus un atlasiet **Labi**. Pierakstiet konteinera ID.
 1. Kopsavilkuma cilnē **Krājuma iepakošana** iestatiet šādas vērtības:
@@ -546,9 +547,9 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
     - **Identifikators:** krājums *A0001*
 
 1. Darbību rūtī atlasiet **Slēgt konteineru**.
-1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru**, lai sistēma atjauninātu lauku **Bruto svars**.
+1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru** , lai sistēma atjauninātu lauku **Bruto svars**.
 1. Atlasiet **Labi**. Konteiners ir pārvietots uz novietni *SORT* un ir gatavs kārtošanai.
-1. Laukā **Noliktavas vienība vai sūtījums**, ievadiet mērķa LP 2. pārdošanas pasūtījuma 2. rindai. Pēc tam atlasiet klaviatūras taustiņu **Cilne** vai **Ievadīt**, lai izietu no lauka.
+1. Laukā **Noliktavas vienība vai sūtījums** , ievadiet mērķa LP 2. pārdošanas pasūtījuma 2. rindai. Pēc tam atlasiet klaviatūras taustiņu **Cilne** vai **Ievadīt** , lai izietu no lauka.
 1. Darbību rūtī atlasiet **Jauns konteiners**.
 1. Pieņemiet visus noklusējuma iestatījumus un atlasiet **Labi**. Pierakstiet konteinera ID.
 1. Kopsavilkuma cilnē **Krājuma iepakošana** iestatiet šādas vērtības:
@@ -557,7 +558,7 @@ Pabeidziet izveidoto darbu, izmantojot mobilo ierīci, lai pārvietotu krājumus
     - **Identifikatora lauks:** krājums *A0002*
 
 1. Darbību rūtī atlasiet **Slēgt konteineru**.
-1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru**, lai sistēma atjauninātu lauku **Bruto svars**.
+1. Dialoglodziņā **Slēgt konteineru** atlasiet **Iegūt sistēmas svaru** , lai sistēma atjauninātu lauku **Bruto svars**.
 1. Atlasiet **Labi**. Konteiners ir pārvietots uz novietni *SORT* un ir gatavs kārtošanai.
 
 Lai skatītu konteineru informāciju, dodieties uz **Noliktavas pārvaldība \> Iepakošana un konteinerizēšana \> Konteineri** un meklējiet konteineru ID, kas tika izveidoti iepakošanas laikā.
@@ -565,19 +566,19 @@ Lai skatītu konteineru informāciju, dodieties uz **Noliktavas pārvaldība \> 
 ### <a name="sort-the-containers"></a>Konteineru kārtošana
 
 > [!IMPORTANT]
-> Kad piekļūstat izvēlnes vienumam **Paletes izveide** mobilajā programmā, lai veiktu izejošo kārtošanu, tiks parādīta poga, kas ir apzīmēta kā **Pilns**. *Nelietojiet pogu **Pilns**, lai kārtotu vai slēgtu pozīciju.*
+> Kad piekļūstat izvēlnes vienumam **Paletes izveide** mobilajā programmā, lai veiktu izejošo kārtošanu, tiks parādīta poga, kas ir apzīmēta kā **Pilns**. *Nelietojiet pogu **Pilns** , lai kārtotu vai slēgtu pozīciju.*
 >
 > Poga **Pilns** tiek nodrošināta pēc noklusējuma, un to nevar atspējot vai noņemt no lapas. To nelieto funkcijai *Izejošā kārtošana*.
 
 #### <a name="sort-the-first-container"></a>Pirmā konteinera kārtošana
 
-1. Mobilajā ierīcē piesakieties noliktavā *62*, izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
+1. Mobilajā ierīcē piesakieties noliktavā *62* , izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
 1. Galvenajā izvēlnē atlasiet **Izejošs**.
 1. Izvēlnē **Izejošs** atlasiet **Paletes izveide**.
 1. Laukā **LP/Con** ievadiet pirmā konteinera ID, kas ir saistīts ar 1. pārdošanas pasūtījumu.
 1. Atlasiet **Labi**.
 1. Tā kā pašlaik nav kārtošanas pozīciju, tā ir jānorāda. Laukā **Kārtošanas pozīcijas ID** ievadiet *SP01*.
-1. Tā kā neviena LP pašlaik nav saistīta ar kārtošanas pozīciju *SP01*, tā ir jānorāda. Laukā **LP** ievadiet *PLP01*.
+1. Tā kā neviena LP pašlaik nav saistīta ar kārtošanas pozīciju *SP01* , tā ir jānorāda. Laukā **LP** ievadiet *PLP01*.
 1. Atlasiet **Labi**.
 1. Tā kā ir ieslēgta kārtošanas pozīcijas pārbaude, jums vēlreiz ir jāievada kārtošanas pozīcijas ID. Laukā **Kārtošanas pozīcijas ID** ievadiet *SP01*.
 1. Atlasiet **Labi**.
@@ -591,7 +592,7 @@ Lai skatītu konteineru informāciju, dodieties uz **Noliktavas pārvaldība \> 
 
 #### <a name="sort-the-remaining-containers"></a>Atlikušo konteineru kārtošana
 
-1. Mobilajā ierīcē piesakieties noliktavā *62*, izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
+1. Mobilajā ierīcē piesakieties noliktavā *62* , izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
 1. Galvenajā izvēlnē atlasiet **Izejošs**.
 1. Izvēlnē **Izejošs** atlasiet **Paletes izveide**.
 1. Laukā **LP/Con** ievadiet otrā konteinera ID, kas ir saistīts ar 1. pārdošanas pasūtījumu.
@@ -622,7 +623,7 @@ Kad visi krājumi ir sakārtoti, pozīcija ir jāslēdz, lai varētu izveidot da
 
 #### <a name="close-a-position-from-the-mobile-device"></a>Pozīcijas slēgšana no mobilās ierīces
 
-1. Mobilajā ierīcē piesakieties noliktavā *62*, izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
+1. Mobilajā ierīcē piesakieties noliktavā *62* , izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
 1. Galvenajā izvēlnē atlasiet **Izejošs**.
 1. Izvēlnē **Izejošs** atlasiet **Paletes izveide**.
 1. Laukā **LP/Con** ievadiet kārtotā konteinera ID kārtošanas pozīciju *SP01*.
@@ -644,23 +645,23 @@ Kad visi krājumi ir sakārtoti, pozīcija ir jāslēdz, lai varētu izveidot da
 
 Pabeidziet kārtoto krājumu izdošanas darbu. Kad tas ir pabeigts, krājumi tiks izdoti pārdošanas pasūtījumam. Šajā brīdī tiek lietoti visi pārējie noliktavas procesi.
 
-1. Mobilajā ierīcē piesakieties noliktavā *62*, izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
+1. Mobilajā ierīcē piesakieties noliktavā *62* , izmantojot lietotāja ID, ko izveidojāt šim scenārijam (vai esoša demonstrācijas datu lietotāja ID).
 1. Galvenajā izvēlnē atlasiet **Izejošs**.
 1. Izvēlnē **Izejošs** atlasiet **Ielādēt no kārtošanas**.
 1. Ievadiet mērķa LP ID no pirmās kārtošanas pozīcijas, *SP01*. Iestatiet lauku **ID** uz *PLP01*.
 1. Atlasiet **Labi**.
-1. Lapā **Kārtoto krājumu izdošana: Izdot** tiek rādīts veicamais izdošanas darbs. Izdot no novietojuma *SORT* un mērķa LP *PLP01*, kam ir vairāki krājumi un daudzums ir *3*.
+1. Lapā **Kārtoto krājumu izdošana: Izdot** tiek rādīts veicamais izdošanas darbs. Izdot no novietojuma *SORT* un mērķa LP *PLP01* , kam ir vairāki krājumi un daudzums ir *3*.
 1. Atlasiet **Labi**.
-1. Lapā **Kārtoto krājumu izdošana: Izvietot** tiek rādīts veicamais izvietošanas darbs. Izvietot novietojumā *Baydoor* un mērķa LP *PLP01*, kam ir vairāki krājumi un daudzums ir *3*.
+1. Lapā **Kārtoto krājumu izdošana: Izvietot** tiek rādīts veicamais izvietošanas darbs. Izvietot novietojumā *Baydoor* un mērķa LP *PLP01* , kam ir vairāki krājumi un daudzums ir *3*.
 1. Atlasiet **Labi**.
 
     Darbs ir pabeigts.
 
 1. Ievadiet mērķa noliktavas vienības ID no otrās kārtošanas pozīcijas, *SP02*. Iestatiet lauku **ID** uz *PLP02*.
 1. Atlasiet **Labi**.
-1. Lapā **Kārtoto krājumu izdošana: Izdot** tiek rādīts veicamais izdošanas darbs. Izdot no novietojuma *SORT* un mērķa LP *PLP02*, kam ir vairāki krājumi un daudzums ir *1*.
+1. Lapā **Kārtoto krājumu izdošana: Izdot** tiek rādīts veicamais izdošanas darbs. Izdot no novietojuma *SORT* un mērķa LP *PLP02* , kam ir vairāki krājumi un daudzums ir *1*.
 1. Atlasiet **Labi**.
-1. Lapā **Kārtoto krājumu izdošana: Izvietot** tiek rādīts veicamais izvietošanas darbs. Izvietot novietojumā *Baydoor* un mērķa LP *PLP02*, kam ir vairāki krājumi un daudzums ir *1*.
+1. Lapā **Kārtoto krājumu izdošana: Izvietot** tiek rādīts veicamais izvietošanas darbs. Izvietot novietojumā *Baydoor* un mērķa LP *PLP02* , kam ir vairāki krājumi un daudzums ir *1*.
 1. Atlasiet **Labi**.
 
     Darbs ir pabeigts.

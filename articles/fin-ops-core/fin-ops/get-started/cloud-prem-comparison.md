@@ -3,7 +3,7 @@ title: Mākoņa un lokālās versijas līdzekļu salīdzinājums
 description: Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100286"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040103"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
@@ -58,10 +58,10 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |                                      | ER: integrācija ar LCS                                                                  | Jā       | Nē              |
 |                                      | ER: integrācija ar SharePoint                                                           | Jā       | Nē              |
 |                                      | ER: integrācija ar Regulatory Configuration Services (RCS)                              | Jā       | Nē              |
-|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nē        | Jā             |
-|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nē              |
-|                                      | Integrācija ar PowerBI Desktop                                                          | Nē        | Jā             |
-|                                      | Analītiskās darbvietas                                                                     | Jā       | Nē              |
+|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nr.        | Jā             |
+|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nr.              |
+|                                      | Integrācija pakalpojuma PowerBI darbvirsmā                                                          | Nr.        | Jā             |
+|                                      | Analītiskās darbvietas                                                                     | Jā       | Nr.              |
 |                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nav              |
 |                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nav              |
 |                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Nē              |
@@ -87,6 +87,7 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 
 | **Zona**                | **Līdzeklis**             | **Mākonis** | **Darba telpās** |
 |-------------------------|-------------------|-----------|-----------------|
+| Līdzekļu pārvaldība                     |                                                                                           | Jā       | Nr. |
 | Atbilstība un sertifikācijas        |                                                                                           | Jā       | Jā             |
 |                                      | SOC 1 1. tipa sertifikācija                                                                | Jā       | Nav              |
 | Izmaksu uzskaite                      |                                                                                           | Jā       | Jā             |
@@ -106,10 +107,10 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |                                      | ER: integrācija ar LCS                                                                  | Jā       | Nē              |
 |                                      | ER: integrācija ar SharePoint                                                           | Jā       | Nē              |
 |                                      | ER: integrācija ar Regulatory Configuration Services (RCS)                              | Jā       | Nē              |
-|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nē        | Jā             |
-|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nē              |
-|                                      | Integrācija ar PowerBI Desktop                                                          | Nē        | Jā             |
-|                                      | Analītiskās darbvietas                                                                     | Jā       | Nē              |
+|                                      | ER: izmanto lokālo failu sistēmu kā ER konfigurāciju krātuvi, kurai var piekļūt caur ER repozitorijiem | Nr.        | Jā             |
+|                                      | Integrācija pakalpojumā PowerBI.com                                                              | Jā       | Nr.              |
+|                                      | Integrācija pakalpojuma PowerBI darbvirsmā                                                          | Nr.        | Jā             |
+|                                      | Analītiskās darbvietas                                                                     | Jā       | Nr.              |
 |                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nav              |
 |                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nav              |
 |                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Nē              |

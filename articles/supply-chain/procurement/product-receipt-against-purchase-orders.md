@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5868b9ef02bdbca33c9e155af3bf7540f0522f86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208044"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018863"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Produktu ieejas plūsma pret pirkšanas pasūtījumiem
 
@@ -42,9 +42,9 @@ Produktu ieejas plūsmas reģistrēšana bieži notiek noliktavas saņemšanas d
 Produktiem, kas tiek saņemti noliktavā, var tikt izpildīta kvalitātes pārbaude, pirms šie produkti tiek izvietoti krājumos. Kvalitātes pārbaudes izpildīšanai var izmantot kvalitātes pārbaudes pasūtījumus vai karantīnas pasūtījumus. Ja izmantojat kvalitātes pārbaudes pasūtījumus, šo procesu varat konfigurēt šos produktus uz laiku bloķēt, izmantojot rezervēšanu, kamēr tie ir pārbaudīti. Ja izmantojat karantīnas pasūtījumus, produkti tiek pārvietoti uz citu noliktavu, lai veiktu pārbaudi. Šī noliktava tiek saukta par karantīnas noliktavu. Abos kvalitātes pārbaudes procesos dažas preces var tikt norakstītas, jo tās neatbilst kvalitātes prasībām vai to kvalitātes pārbaude ietver produkta parauga iznīcinošo pārbaudi.
 
 ## <a name="product-receipt"></a>Produktu ieejas plūsma
-Vairumā gadījumu darbība **Produktu ieejas plūsma** lapā **Pirkšanas pasūtījumi** tiek izmantota, lai produktus pirkšanas pasūtījuma atzīmētu kā **Saņemts**. Lapā **Produktu ieejas plūsmas grāmatošana** ir dažādas opcijas daudzumam, kas uzskaitē tiek norādīts kā saņemts. Piemēram, lauku **Daudzums** varat iestatīt uz **Pasūtītais daudzums** vai **Tagad saņemamais daudzums**. Ja tiek izmantots process ar saņemšanu noliktavā, šo lauku varat arī iestatīt uz **Reģistrētais daudzums**. Varat modificēt daudzumus katrā pasūtījuma rindā, kas tiks atzīmēta kā **Saņemts**, lai uzskaitē norādītu visas neatbilstības, piemēram, nepietiekamu vai pārmērīgu piegādi. Produktu saņemšanas laikā jums ir jānorāda produkta ieejas plūsmas identifikators, kas parasti ir atsauce uz pavadzīmi no piegādātāja. Šis identifikators ir nepieciešama uzskaitei, jo tas ļauj pārbaudīt vai auditēt piegādātāju pavadzīmes salīdzinājumā ar faktiski saņemto, un uzskaitē iekļautajiem krājumiem vai izdevumiem.  
+Vairumā gadījumu darbība **Produktu ieejas plūsma** lapā **Pirkšanas pasūtījumi** tiek izmantota, lai produktus pirkšanas pasūtījuma atzīmētu kā **Saņemts**. Lapā **Produktu ieejas plūsmas grāmatošana** ir dažādas opcijas daudzumam, kas uzskaitē tiek norādīts kā saņemts. Piemēram, lauku **Daudzums** varat iestatīt uz **Pasūtītais daudzums** vai **Tagad saņemamais daudzums**. Ja tiek izmantots process ar saņemšanu noliktavā, šo lauku varat arī iestatīt uz **Reģistrētais daudzums**. Varat modificēt daudzumus katrā pasūtījuma rindā, kas tiks atzīmēta kā **Saņemts** , lai uzskaitē norādītu visas neatbilstības, piemēram, nepietiekamu vai pārmērīgu piegādi. Produktu saņemšanas laikā jums ir jānorāda produkta ieejas plūsmas identifikators, kas parasti ir atsauce uz pavadzīmi no piegādātāja. Šis identifikators ir nepieciešama uzskaitei, jo tas ļauj pārbaudīt vai auditēt piegādātāju pavadzīmes salīdzinājumā ar faktiski saņemto, un uzskaitē iekļautajiem krājumiem vai izdevumiem.  
 
-Pirkšanas pasūtījumus var izveidot produktiem, ko nav paredzēts izmantot kā krājumus, bet kas tiek uzskatīti par izdevumiem. Šī kategorija ietver pasūtījumu rindas, kur produkti ar to krājumu modeļu grupu tiek atzīmēti kā **Nav krājumā**, kā arī rindas, kas lieto sagādes kategorijas. Šādā gadījumā krājumiem var netikt izpildīta piegādes reģistrēšana un saņemšana noliktavā. To vietā tiek izmantota darbība **Produktu ieejas plūsma**, lai šādu ieejas plūsmu ierakstītu tieši pirkšanas pasūtījumā, un ieejas plūsma ir balstīta uz pasūtīto daudzumu, nevis reģistrēto daudzumu.  
+Pirkšanas pasūtījumus var izveidot produktiem, ko nav paredzēts izmantot kā krājumus, bet kas tiek uzskatīti par izdevumiem. Šī kategorija ietver pasūtījumu rindas, kur produkti ar to krājumu modeļu grupu tiek atzīmēti kā **Nav krājumā** , kā arī rindas, kas lieto sagādes kategorijas. Šādā gadījumā krājumiem var netikt izpildīta piegādes reģistrēšana un saņemšana noliktavā. To vietā tiek izmantota darbība **Produktu ieejas plūsma** , lai šādu ieejas plūsmu ierakstītu tieši pirkšanas pasūtījumā, un ieejas plūsma ir balstīta uz pasūtīto daudzumu, nevis reģistrēto daudzumu.  
 
 Varat izveidot pirkšanas pasūtījuma rindas, kur ir iespējota opcija **Jauns pamatlīdzeklis**. Šī opcija norāda, ka pirkums ir jāuzskata par pamatlīdzekļiem, nevis krājumiem. Tādā gadījumā konfigurētās pamatlīdzekļu noteikšanas kārtulas nosaka, vai produkta vai kategorijas iegāde pārsniedz noteiktus sliekšņus, un tāpēc tie ir jāiekļauj uzskaitē kā līdzekļi un tiem ir jāizpilda pamatlīdzekļu pārvaldība. Iepirkumus var veikt arī uz esošiem pamatlīdzekļiem. Tādā gadījumā summa pēc vajadzības tiek koriģēta.  
 
@@ -52,7 +52,7 @@ Varat atlasīt vairākus pasūtījumus un apstrādāt ieejas plūsmu visiem šie
 
 Pirkšanas pasūtījumus ir iespējams veidot no pārdošanas pasūtījuma, kur ir atlasīta opcija **Tiešā piegāde**. Ja tiek lietota tiešā piegāde, produkti nekad netiek piegādāti jūsu noliktavā, bet no piegādātāja tiek nosūtīti tieši debitoram. Tādā gadījumā ieejas plūsma parasti tiek ierakstīta tieši pirkšanas pasūtījumā. Ieejas plūsmu var izpildīt automātiski, piemēram, izmantojot elektroniskās datu apmaiņas (EDI) integrāciju ar piegādātāju. Ja pirkšanas pasūtījums ir starpuzņēmumu pirkšanas pasūtījums, tad Supply Chain Management sūtījuma veikšanas laikā var arī automatizēt ieejas plūsmu starpuzņēmumu pārdošanas pasūtījumam. Kad tiek lietota tiešā piegāde, produkti joprojām tiek iekļauti uzskaitē kā krājumi, lai gan tie fiziski netiek piegādāti noliktavā. Tādēļ, kad produktu ieejas plūsmu reģistrējat pirkšanas pasūtījumā, pārdošanas pasūtījums tiek automātiski atjaunināts ar pavadzīmi, tādējādi kopējās krājumu izmaiņas ir 0 (nulle). Tiešās piegādes scenārijos jums nav nepieciešama sākotnējā reģistrēšana. Ja lietojat noliktavas, kurām ir iespējota noliktavas vadība, varat apiet prasību reģistrēt noliktavas vienības identifikatoru, tā vietā norādot virtuālu noliktavu. Šo noliktavu jūs norādāt produkta laukā **Tiešās piegādes noliktava**. 
 
-Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas pasūtījuma statuss tiek mainīts uz **Saņemts**, lai norādītu, ka šim pasūtījumam var apstrādāt rēķinu. Detalizētu informāciju par produktiem, kas jau ir saņemti, varat pārskatīt, izmantojot lapu **Produktu ieejas plūsmu žurnāli**.  
+Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas pasūtījuma statuss tiek mainīts uz **Saņemts** , lai norādītu, ka šim pasūtījumam var apstrādāt rēķinu. Detalizētu informāciju par produktiem, kas jau ir saņemti, varat pārskatīt, izmantojot lapu **Produktu ieejas plūsmu žurnāli**.  
 
 Šai lapai varat piekļūt no darbību grupas **Ieejas plūsma** lapā **Pirkšanas pasūtījums**. Informācija šajos žurnālos ietver informāciju par daudzumiem, datumiem un dimensijām.
 

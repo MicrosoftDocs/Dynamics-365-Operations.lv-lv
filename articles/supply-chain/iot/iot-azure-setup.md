@@ -1,7 +1,7 @@
 ---
 title: Azure resursu iestatīšana IoT informācijai
 description: Šajā tēmā ir paskaidrots, kā izveidot un konfigurēt Microsoft Azure resursus, kas nepieciešami IoT informācijai.
-author: ''
+author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bbac1676d28c7285c19ed48f77426a37ce123a29
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014916"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Azure resursu iestatīšana IoT informācijai
 
@@ -48,9 +48,9 @@ Lai pārbaudītu, vai programmas ID Microsoft Dynamics ERP apakšpakalpojuma pir
     Ja lietojumprogramma nav sarakstā, tā ir jāpievieno nomniekam:
 
     1. Azure portāla rīkjoslā atlasiet pogu, lai atvērtu Azure Cloud Shell.
-    2. Izpildiet komandu **Install-Module AzureAD**. Ievadiet **Y**, lai instalētu moduli.
-    3. Izpildiet komandu **Get-InstalledModule -Name "AzureAD"**, lai pārbaudītu, vai modulis ir instalēts.
-    4. Izpildiet komandu **Connect-AzureAD -Confirm**, lai palaistu autentifikāciju.
+    2. Izpildiet komandu **Install-Module AzureAD**. Ievadiet **Y** , lai instalētu moduli.
+    3. Izpildiet komandu **Get-InstalledModule -Name "AzureAD"** , lai pārbaudītu, vai modulis ir instalēts.
+    4. Izpildiet komandu **Connect-AzureAD -Confirm** , lai palaistu autentifikāciju.
     5. Izpildiet komandu **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
     Tagad varat atkārtot 1. līdz 6. darbību, lai pārbaudītu, vai programmas ID ir jūsu nomniekā.
@@ -62,7 +62,7 @@ Lai izveidotu atslēgas akreditācijas datu komplekta resursu, rīkojieties šā
 1. Azure portālā izveidojiet vai dodieties uz resursu grupu.
 2. Atlasiet **Pievienot**.
 3. Lapā **Jauns** meklēšanas laukā ievadiet **Atslēgas akreditācijas datu komplekts**. Pēc tam atlasiet **Izveidot**.
-4. Lapas **Atslēgas akreditācijas datu komplekta izveide**, laukā **Atslēgas akreditācijas datu komplekta nosaukums** ievadiet nosaukumu.
+4. Lapas **Atslēgas akreditācijas datu komplekta izveide** , laukā **Atslēgas akreditācijas datu komplekta nosaukums** ievadiet nosaukumu.
 5. Pārskatiet noklusējuma vērtības un pēc tam atlasiet **Pārskatīt + izveidot**.
 6. Atlasiet **Izveidot**.
 

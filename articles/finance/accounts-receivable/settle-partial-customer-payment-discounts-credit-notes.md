@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1a37b7c5aea22711938133d43b552eec9260f0a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015011"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Tāda daļēja debitora maksājuma segšana, kam ir atlaides debitora kredītrēķiniem
 
@@ -42,7 +42,7 @@ Debitoram 4035 ir rēķins par 1000,00 un kredīta nota par 100,00. Katrā dokum
 | CCRN-10050 | Kredīta nota      | 28.06.2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Kredīta notas nosegšana ar rēķinu
-Lapā **Debitoru darbības** Arnijs atver lapu **Transakciju nosegšana**. Viņš var izmantot lapu **Transakciju nosegšana**, lai nosegtu gan rēķinu, gan kredītrēķinu. Kā daļu no segšanas procesa viņš skata termiņatlaides datumus un summas. Viņš atzīmē divus dokumentus un pēc tam noklikšķina uz **Grāmatot**, lai nosegtu transakcijas. Tā kā Fabrikam ir atlaides kredīta notās, atlaide sastāda -1,00 kredīta notā.
+Lapā **Debitoru darbības** Arnijs atver lapu **Transakciju nosegšana**. Viņš var izmantot lapu **Transakciju nosegšana** , lai nosegtu gan rēķinu, gan kredītrēķinu. Kā daļu no segšanas procesa viņš skata termiņatlaides datumus un summas. Viņš atzīmē divus dokumentus un pēc tam noklikšķina uz **Grāmatot** , lai nosegtu transakcijas. Tā kā Fabrikam ir atlaides kredīta notās, atlaide sastāda -1,00 kredīta notā.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments    | Konts | Datums      | Izpildes datums  | Rēķins  | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -51,13 +51,11 @@ Lapā **Debitoru darbības** Arnijs atver lapu **Transakciju nosegšana**. Viņ�
 
 Atlaides informācija ir redzama lapas **Nosegt transakcijas** apakšdaļā.
 
-|                              |           |
-|------------------------------|-----------|
-| Termiņatlaides datums           | 12.07.2015 |
-| Termiņatlaides summa         | -1,00     |
-| Izmantot termiņatlaidi            | Parastais    |
-| Paņemta termiņatlaides summa          | 0,00      |
-| Ņemamā termiņatlaides summa | -1,00     |
+- **Termiņatlaides datums** : 7/12/2015 
+- **Termiņatlaides summa** : –1,00     
+- **Izmantot termiņatlaidi** : normāli    
+- **Paņemta termiņatlaides summa** : 0,00      
+- **Ņemamā termiņatlaides summa** : –1,00     
 
 Nosegšana būs 100,00; tiks iekļauts maksājums 99,00 un atlaide 1,00.
 

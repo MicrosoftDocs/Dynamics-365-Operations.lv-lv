@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69e711ad2011703efa450d97575784aaee3137dd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016451"
 ---
 # <a name="set-up-shipping-carriers"></a>Sūtījumu pārvadātāju iestatīšana
 
@@ -42,7 +42,7 @@ ms.locfileid: "3982335"
 1. Pārslēdziet sadaļas **Pārskats** paplašinājumu.
 2. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt nosūtīšanas pārvadātāju**.
 3. Laukā **Kreditora konts** atlasiet opciju no nolaižamās izvēlnes. Atlasiet kreditora kontu, kuram piešķirt nosūtījuma pārvadātāju.  
-4. Atlasiet opciju laukā **Transportēšanas norēķinu veids**. Atlasiet **Manuāli**, lai izmantotu transportēšanas norēķinu lapu, vai atlasiet **EDI**, lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).  
+4. Atlasiet opciju laukā **Transportēšanas norēķinu veids**. Atlasiet **Manuāli** , lai izmantotu transportēšanas norēķinu lapu, vai atlasiet **EDI** , lai atjauninātu norēķinus, izmantojot elektronisko datu apmaiņu (EDI).  
 5. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Aktivizēt pārvadātāja vērtējumu**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Nepieciešamo pakalpojumu izveide sūtījumu pārvadātājam

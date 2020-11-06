@@ -3,7 +3,7 @@ title: Rēķina apstrāde
 description: Šajā tēmā ir sniegta informācija par rēķinu apstrādāšanu Austrumeiropas valstīm.
 author: v-kikozl
 manager: AnnBe
-ms.date: 07/21/2017
+ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,16 +12,16 @@ ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia, Italy
 ms.author: v-kikozl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 945b082528109f6f8c9292d2388749bebd4cfba4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 87a06e1b17e9c0bdb4147f49b2dacb74236360fa
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176139"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039808"
 ---
 # <a name="invoice-processing"></a>Rēķina apstrāde
 
@@ -68,9 +68,10 @@ ms.locfileid: "2176139"
 </tr>
 <tr>
 <td>Dokumenta datums valūtas maiņas kursiem</td>
-<td>Polija, Ungārija, Čehija</td>
+<td>Polija, Ungārija, Čehija, Itālija</td>
 <td>
 <p>Likumdošana paredz atšķirīgus noteikumus komercdarbības transakciju derīgu valūtas maiņas kursu atlasīšanai. Laukā <strong>Maiņas kursa datums</strong> lapā <strong>Debitoru parādu parametri</strong> un <strong>Parādu kreditoriem parametri</strong> varat atlasīt datumu, kas pirkumu un pārdošanas dokumentiem ir jāizmanto summām uzskaites valūtas aprēķinā. Datu ievadīšanas laikā sistēma izgūst transakcijas valūtas maiņas kursu, pamatojoties uz šo parametru.</p>
+<blockquote>[!NOTE]<br>Itālijai šī funkcionalitāte attiecas tikai uz Kreditoru moduli. Kreditoru parametros lietotājs var atlasīt <strong>Grāmatošanas datums</strong> vai <strong>Dokumenta datums</strong> laukā <strong>Maiņas kursa datums</strong>.   </blockquote>
 <blockquote>[!NOTE]<br>Ja lauku <strong>Maiņas kursa datums</strong> iestatāt uz <strong>Dokumenta datums (tikai ES tirdzniecība)</strong>, tad sistēma izmanto PVN grupu. PVN grupai cilnē <strong>Vispārīgi</strong> pastāv parametrs <strong>ES tirdzniecība</strong>. Ja opcija <strong>ES tirdzniecība</strong> PVN grupai ir pārslēgta uz <strong>Jā</strong> un ja šī PVN grupa pastāv dokumenta virsrakstā, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta datumu. Ja opcija <strong>ES tirdzniecība</strong> šai PVN grupai ir iestatīta uz <strong>Nē</strong>, tad valūtas maiņas kursu sistēma izgūst, pamatojoties uz dokumenta grāmatošanas datumu.</blockquote>
 </td>
 </tr>
@@ -80,7 +81,7 @@ ms.locfileid: "2176139"
 <td>
 <p>Pārdošanas datums un dokumenta saņemšanas datums PVN pārskatiem ir jānorāda obligāti.</p>
 <ul>
-<li>Pārdošanas datums ir transakcijas izpildes datums debitoru parādos.</li>
+<li>Pārdošanas datums ir transakcijas izpildes datums Debitoros.</li>
 <li>Dokumentu saņemšanas datums ir datums, kas apliecina tiesības pieprasīt PVN samazinājumu debitoru parādos. Katram saņemtajam dokumentam ir datums, kuru izmantot auditēšanas nolūkos.</li>
 </ul>
 <p>Ungārijas funkcionalitāte datumu termiņiem, Čehijas funkcionalitāte izpildes datumiem un Polijas funkcionalitāte PVN reģistra datumam ietver prasību par nodokļu informācijas ziņošanu, kas ir balstīta uz datumu, kurš atšķiras no grāmatošanas datuma.</p>

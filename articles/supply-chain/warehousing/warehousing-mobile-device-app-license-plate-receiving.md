@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016566"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Unikālas noliktavas vienības saņemšana, izmantojot noliktavas programmu
 
@@ -30,7 +31,7 @@ ms.locfileid: "3651718"
 
 Jūs varat izmantot šo funkcionalitāti, lai ātri ierakstītu ienākošo krājumu saņemšanu, kas ir saistīts ar iepriekšējo paziņojums par nosūtīšanu (ASN). Sistēma automātiski izveido ASN, kad noliktavas pārvaldības procesi tiek izmantoti, lai nosūtītu pārsūtīšanas pasūtījumu. Pirkšanas pasūtījuma procesam ASN var tikt manuāli reģistrēts, vai to var automātiski importēt, izmantojot ienākošo ASN datu elementa procesu.
 
-ASN dati ir saistīti ar noslodzēm un kravām, izmantojot *iepakošanas struktūras*, kur paletes (standarta numura zīmes) var ietvert gadījumus (ligzdotas numura zīmes).
+ASN dati ir saistīti ar noslodzēm un kravām, izmantojot *iepakošanas struktūras* , kur paletes (standarta numura zīmes) var ietvert gadījumus (ligzdotas numura zīmes).
 
 > [!NOTE]
 > Lai samazinātu krājumu transakciju skaitu, kad tiek izmantotas iepakojuma struktūras, kurām ir ligzdotas numura zīmes, sistēma reģistrē fiziskos rīcībā esošos krājumus uz pamatnumura zīmes. Lai izraisītu fizisko rīcībā esošo krājumu pārvietošanu no pamatnumura zīmes uz ligzdotajām numura zīmēm, kas balstītas uz iepakojuma struktūras datiem, mobilajai ierīcei ir jānorāda izvēlnes elements, kas ir atkarīgs no *Ligzdotu licenču plāksnīšu iepakošanas* darba izveides procesiem.
@@ -41,15 +42,15 @@ Kad darbinieks skenē ienākošo noliktavas vienības ID, sistēma inicializē n
 
 ## <a name="work-policies"></a>Darba politikas
 
-Tāpat kā (piemēram) kā mobilās ierīces izvēlnes elementu process *Reģistrēt pabeigšanu*, noliktavas vienības saņemšanas process atbalsta vairākas darbplūsmas, kas pamatotas uz definētajiem iestatījumiem.
+Tāpat kā (piemēram) kā mobilās ierīces izvēlnes elementu process *Reģistrēt pabeigšanu* , noliktavas vienības saņemšanas process atbalsta vairākas darbplūsmas, kas pamatotas uz definētajiem iestatījumiem.
 
 ### <a name="work-policies-with-work-creation"></a>Darba politikas ar darba izveidi
 
-Kad reģistrējat ienākošos krājumus, izmantojot darba politiku, kas izveido darbu, sistēma ģenerē un saglabā izvietošanas darba ierakstu katrai reģistrācijai. Ja izmantojat darba procesu *Noliktavas vienības saņemšana un izvietošana*, tad reģistrācija un izvietošana tiek apstrādāta kā viena darbība, izmantojot vienas mobilās ierīces izvēlnes elementu. Ja izmantojat procesu *Noliktavas vienības saņemšana*, tad saņemšanas un izvietošanas procesi tiek apstrādāti kā divas dažādas noliktavas operācijas — katra ar savu mobilās ierīces izvēlnes elementu.
+Kad reģistrējat ienākošos krājumus, izmantojot darba politiku, kas izveido darbu, sistēma ģenerē un saglabā izvietošanas darba ierakstu katrai reģistrācijai. Ja izmantojat darba procesu *Noliktavas vienības saņemšana un izvietošana* , tad reģistrācija un izvietošana tiek apstrādāta kā viena darbība, izmantojot vienas mobilās ierīces izvēlnes elementu. Ja izmantojat procesu *Noliktavas vienības saņemšana* , tad saņemšanas un izvietošanas procesi tiek apstrādāti kā divas dažādas noliktavas operācijas — katra ar savu mobilās ierīces izvēlnes elementu.
 
 ### <a name="work-policies-without-work-creation"></a>Darba politikas bez darba izveides
 
-Varat izmantot noliktavas vienības saņemšanas procesu, neveidojot darbu. Ja nosakāt darba politikas, kurām darba pasūtījuma veids ir *Pārsūtīšanas saņemšana* un/vai *Pirkšanas pasūtījumi*, un jūs izmantojat procesu *Noliktavas vienības saņemšana (un izvietošana)*, tālāk minētie divi noliktavu mobilās programmas procesi neveidos darbu. Tā vietā tie tikai reģistrēs ienākošos fiziskos krājumus noliktavas vienībai saņemšanas dokā.
+Varat izmantot noliktavas vienības saņemšanas procesu, neveidojot darbu. Ja nosakāt darba politikas, kurām darba pasūtījuma veids ir *Pārsūtīšanas saņemšana* un/vai *Pirkšanas pasūtījumi* , un jūs izmantojat procesu *Noliktavas vienības saņemšana (un izvietošana)* , tālāk minētie divi noliktavu mobilās programmas procesi neveidos darbu. Tā vietā tie tikai reģistrēs ienākošos fiziskos krājumus noliktavas vienībai saņemšanas dokā.
 
 - *Noliktavas vienības saņemšana*
 - *Numura zīmes saņemšana un izvietošana*
@@ -66,13 +67,13 @@ Ir iespējams izmantot noliktavas atrašanās vietu, kas piešķirta atrašanās
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Mobilās ierīces izvēlnes elementu pievienošana katrai saņemšanas vietai noliktavā
 
-Līdzeklis *Noliktavas vienības saņemšanas uzlabojumi* ļauj saņemt jebkurā noliktavas vietā, pievienojot atrašanās vietai specifiskus noliktavas vienības saņemšanas (un izvietošanas) izvēlnes elementus noliktavu mobilajai programmai. Iepriekš sistēma atbalstīja saņemšanu tikai noklusētajā atrašanās vietā, kas definēta katrai noliktavai. Tomēr, ja šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes elementi noliktavas vienības saņemšanai (un izvietošanai) tagad nodrošina opciju **Izmantot noklusējuma datus**, kas ļauj atlasīt pielāgotu "uz" atrašanās vietu katram izvēlnes elementam. (Šī opcija jau bija pieejama dažiem citiem izvēlnes elementu veidiem.)
+Līdzeklis *Noliktavas vienības saņemšanas uzlabojumi* ļauj saņemt jebkurā noliktavas vietā, pievienojot atrašanās vietai specifiskus noliktavas vienības saņemšanas (un izvietošanas) izvēlnes elementus noliktavu mobilajai programmai. Iepriekš sistēma atbalstīja saņemšanu tikai noklusētajā atrašanās vietā, kas definēta katrai noliktavai. Tomēr, ja šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes elementi noliktavas vienības saņemšanai (un izvietošanai) tagad nodrošina opciju **Izmantot noklusējuma datus** , kas ļauj atlasīt pielāgotu "uz" atrašanās vietu katram izvēlnes elementam. (Šī opcija jau bija pieejama dažiem citiem izvēlnes elementu veidiem.)
 
 Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāieslēdz līdzeklis *Noliktavas vienības saņemšanas uzlabojumi* [funkciju pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Rādīt vai izlaist saņemšanas kopsavilkuma lapu
 
-Jūs varat izmantot līdzekli *Kontrolēt, vai mobilajās ierīcēs tiktu parādīta saņemšanas kopsavilkuma lapa*, lai izmantotu papildu detalizēto Noliktavu programmu plūsmu kā daļu no numura zīmes saņemšanas procesa.
+Jūs varat izmantot līdzekli *Kontrolēt, vai mobilajās ierīcēs tiktu parādīta saņemšanas kopsavilkuma lapa* , lai izmantotu papildu detalizēto Noliktavu programmu plūsmu kā daļu no numura zīmes saņemšanas procesa.
 
 Kad šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes vienumi numura zīmes saņemšanas vai numura zīmes saņemšanas un izvietošanas laikā nodrošinās iestatījumu **Parādīt saņemšanas kopsavilkuma lapu**. Šim iestatījumam ir šādas opcijas:
 
@@ -85,7 +86,7 @@ Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāaktivizē lī
 
 Nevar izmantot noliktavas vienības saņemšanas procesu, ja ASN ietver noliktavas vienības ID, kas jau eksistē un kam ir fiziski rīcībā esošie dati noliktavas atrašanās vietā, kas atšķiras no noliktavas atrašanās vietas, kur notiek noliktavas vienības reģistrācija.
 
-Pārsūtīšanas pasūtījumu scenārijiem, kuros tranzīta noliktava neseko numura zīmēm (un tāpēc arī neseko līdzi katras numura zīmes fiziskajam inventāram uz vietas), varat izmantot līdzekli *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava*, lai novērstu to, ka fiziskas rīcībā esošas numura zīmes ir pieejamas tranzītā.
+Pārsūtīšanas pasūtījumu scenārijiem, kuros tranzīta noliktava neseko numura zīmēm (un tāpēc arī neseko līdzi katras numura zīmes fiziskajam inventāram uz vietas), varat izmantot līdzekli *Nepieļaut nodošanas pasūtījuma nosūtīto numura zīmju izmantošanu noliktavās, kas nav galamērķa noliktava* , lai novērstu to, ka fiziskas rīcībā esošas numura zīmes ir pieejamas tranzītā.
 
 Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāieslēdz līdzeklis *Neatļaut pārsūtīšanas pasūtījuma nosūtītās noliktavas vienības izmantot citās noliktavās, kas nav mērķa noliktava* [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018163"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
@@ -59,9 +59,9 @@ Lai strādātu ar pirkšanas pasūtījumiem, varat izmantot tālāk norādītās
 
 Pirkšanas pasūtījumi, ko debitors jums nosūta izskatīšanai, ir redzami darbvietā **Pirkšanas pasūtījuma akceptēšana** un lapā **Pārskatāmie pirkšanas pasūtījumi**. Pēc pirkšanas pasūtījuma atvēršanas varat to pieņemt, to noraidīt vai pieņemt ar izmaiņām. Pirkšanas pasūtījuma virsrakstā vai atsevišķās rindās var būt pielikumi. Turklāt varat pievienot informāciju savai atbildei attiecīgā pirkšanas pasūtījuma virsrakstā vai atsevišķās rindās. Piemēram, varat ierosināt aizstāšanas krājumu kādai no rindām.
 
-Pirkšanas pasūtījumu varat priekšskatīt un izdrukāt kā PDF failu, izmantojot opciju **Priekšskatīt/Drukāt**. Varat arī izmantot darbību **Parādīt dimensijas**, lai slēptu vai rādītu šādu dimensiju kolonnas: **Vieta**, **Noliktava**, **Krāsa**, **Lielums**, **Stils** un **Konfigurācija**. 
+Pirkšanas pasūtījumu varat priekšskatīt un izdrukāt kā PDF failu, izmantojot opciju **Priekšskatīt/Drukāt**. Varat arī izmantot darbību **Parādīt dimensijas** , lai slēptu vai rādītu šādu dimensiju kolonnas: **Vieta** , **Noliktava** , **Krāsa** , **Lielums** , **Stils** un **Konfigurācija**. 
 
-Ja lietojat opciju **Pieņemt ar izmaiņām**, varat pieņemt vai noraidīt atsevišķas rindas. Rindās varat veikt tālāk norādītās izmaiņas.
+Ja lietojat opciju **Pieņemt ar izmaiņām** , varat pieņemt vai noraidīt atsevišķas rindas. Rindās varat veikt tālāk norādītās izmaiņas.
 
 - Mainīt datumus vai daudzumus. Lai atjauninātu akceptēto piegādes datumu visās rindās, izmantojiet opciju **Atjaunināt piegādes datumu** pirkšanas pasūtījuma virsrakstā.
 - Sadalīt rindas dažādiem piegādes datumiem vai daudzumiem.
@@ -87,25 +87,25 @@ Darbvietā tiek rādīti arī visi piedāvājumu pieprasījumi, kurus esat zaud�
 
 ### <a name="viewing-rfqs"></a>Piedāvājumu pieprasījumu skatīšana
 
-Atveriet darbvietu **Piegādātāja piedāvājuma izteikšana**, lai piekļūtu tālāk norādītajai informācijai.
+Atveriet darbvietu **Piegādātāja piedāvājuma izteikšana** , lai piekļūtu tālāk norādītajai informācijai.
 
-- Atlasiet **Jauni aicinājumi izteikt piedāvājumus**, lai redzētu piedāvājumu pieprasījumus, uz kuriem jūsu uzņēmums tika aicināts atbildēt. No šejienes varat apskatīt piedāvājuma pieprasījumu un sākt piedāvājuma izteikšanas procesu. Varat arī redzēt grozītos piedāvājumu pieprasījumus, par kuriem ir jāiesniedz jauns piedāvājums.
-- Atlasiet **Atgrieztie piedāvājumi**, lai redzētu piedāvājumu pieprasījumus, kurus debitors jums ir atgriezis, lai jūs varētu norādīt papildinformāciju vai atjaunināt savu piedāvājumu.
-- Atlasiet **Notiekošie piedāvājumi**, lai redzētu piedāvājumu pieprasījumus, ar kuriem strādājāt jūs vai kāda kontaktpersona, kas pārstāv jūsu uzņēmumu, bet kuri vēl nav iesniegti.
-- Atlasiet **Piešķirtie piedāvājumi**, lai redzētu, kad debitors ir piešķīris vismaz vienu rindas vienumu jūsu piedāvājumā.
-- Atlasiet **Zaudētie piedāvājumi**, lai redzētu piedāvājumus, kur ir noraidītas visas rindas.
-- Atlasiet saiti **Piedāvājumu pieprasījumi**, lai redzētu sarakstu ar visiem piegādātāju piedāvājumu pieprasījumu uzaicinājumiem un visiem iesniegtajiem piedāvājumiem. Lapā **Piedāvājumu pieprasījumi** ir uzskaitīti visi piedāvājumu pieprasījumi, kuros ir iesaistīts kāds piegādātājs. Varat meklēt pēc statusa.
-- Atlasiet saiti **Noraidītie piedāvājumi**, lai skatītu sarakstu ar visiem piedāvājumu pieprasījumiem, kur piegādātāja kontaktpersona piedāvājumu ir noraidījusi.
+- Atlasiet **Jauni aicinājumi izteikt piedāvājumus** , lai redzētu piedāvājumu pieprasījumus, uz kuriem jūsu uzņēmums tika aicināts atbildēt. No šejienes varat apskatīt piedāvājuma pieprasījumu un sākt piedāvājuma izteikšanas procesu. Varat arī redzēt grozītos piedāvājumu pieprasījumus, par kuriem ir jāiesniedz jauns piedāvājums.
+- Atlasiet **Atgrieztie piedāvājumi** , lai redzētu piedāvājumu pieprasījumus, kurus debitors jums ir atgriezis, lai jūs varētu norādīt papildinformāciju vai atjaunināt savu piedāvājumu.
+- Atlasiet **Notiekošie piedāvājumi** , lai redzētu piedāvājumu pieprasījumus, ar kuriem strādājāt jūs vai kāda kontaktpersona, kas pārstāv jūsu uzņēmumu, bet kuri vēl nav iesniegti.
+- Atlasiet **Piešķirtie piedāvājumi** , lai redzētu, kad debitors ir piešķīris vismaz vienu rindas vienumu jūsu piedāvājumā.
+- Atlasiet **Zaudētie piedāvājumi** , lai redzētu piedāvājumus, kur ir noraidītas visas rindas.
+- Atlasiet saiti **Piedāvājumu pieprasījumi** , lai redzētu sarakstu ar visiem piegādātāju piedāvājumu pieprasījumu uzaicinājumiem un visiem iesniegtajiem piedāvājumiem. Lapā **Piedāvājumu pieprasījumi** ir uzskaitīti visi piedāvājumu pieprasījumi, kuros ir iesaistīts kāds piegādātājs. Varat meklēt pēc statusa.
+- Atlasiet saiti **Noraidītie piedāvājumi** , lai skatītu sarakstu ar visiem piedāvājumu pieprasījumiem, kur piegādātāja kontaktpersona piedāvājumu ir noraidījusi.
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Darbs ar publiski pieejamiem piedāvājumu pieprasījumiem
 
 Personas, kas strādā publiskajā sektorā, var redzēt publiski pieejamos atvērtos piedāvājumu pieprasījumus un piedāvājumu pieprasījumus, kas ir beigušies.
 
-- Atlasiet saiti **Atvērt publicētos piedāvājumu pieprasījumus**, lai redzētu sarakstu ar atvērtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Atvērts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas vēl nav beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
+- Atlasiet saiti **Atvērt publicētos piedāvājumu pieprasījumus** , lai redzētu sarakstu ar atvērtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Atvērts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas vēl nav beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 
     Ja esat uzaicināts izteikt piedāvājumu, to pašu piedāvājuma pieprasījumu varat atrast lapā **Jauni aicinājumi izteikt piedāvājumus**. Reizēm, iespējams, vēlaties izteikt piedāvājumu par kādu atvērtu piedāvājuma pieprasījumu, bet neesat uzaicināts izteikt piedāvājumus par to. Tādā gadījumā, iespējams, varat uzaicināt pats sevi, ja vien debitors šī piedāvājuma pieprasījuma gadījumā ir aktivizējis pašuzaicināšanu.
 
-- Atlasiet saiti **Slēgtie publicētie piedāvājumu pieprasījumi**, lai redzētu sarakstu ar slēgtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Slēgts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas ir beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
+- Atlasiet saiti **Slēgtie publicētie piedāvājumu pieprasījumi** , lai redzētu sarakstu ar slēgtajiem piedāvājumu pieprasījumiem, kas ir publiski pieejami. Slēgts piedāvājuma pieprasījums ir piedāvājuma pieprasījums, kas ir beidzies. Piedāvājuma pieprasījuma beigu datums un laiks ir atrodami piedāvājuma pieprasījuma virsrakstā.
 
     Slēgtā piedāvājuma pieprasījumā tiek rādīti visi piegādātāju piedāvājumi līdz pat rindu līmenim. Kad piedāvājumi tiek piešķirti vai noraidīti, šī informācija tiek atspoguļota slēgtajā piedāvājuma pieprasījumā. Tāpat ir pieejami arī visi piedāvājumā ietvertie pielikumi.
 
@@ -113,7 +113,7 @@ Personas, kas strādā publiskajā sektorā, var redzēt publiski pieejamos atv�
 
 ### <a name="bidding"></a>Piedāvājumu izteikšana
 
-- Noklikšķiniet uz **Piedāvājums**, lai sāktu izteikt piedāvājumu par kādu piedāvājuma pieprasījumu.
+- Noklikšķiniet uz **Piedāvājums** , lai sāktu izteikt piedāvājumu par kādu piedāvājuma pieprasījumu.
 
     Kad piedāvājuma laukiem ir iespējota rediģēšana kāda piedāvājuma pieprasījuma virsrakstos un rindās, savu piedāvājumu varat ievadīt tieši rindiņu režģī. Tāpat jums ir jāņem vērā visa piedāvājuma papildinformācija, kas ir jāpievieno rindas detalizētajai informācijai.
 
@@ -121,16 +121,16 @@ Personas, kas strādā publiskajā sektorā, var redzēt publiski pieejamos atv�
 
     Piedāvājumu varat saglabāt jebkurā laikā pirms beigu datuma. Pēc tam varat atgriezties, lai šo piedāvājumu vēlāk pabeigtu un iesniegtu. Pēc piedāvājuma iesniegšanas līdz pat beigu datumam varat šo piedāvājumu atsaukt un atjaunināt.
 
-- Atlasiet **Atiestatīt no piedāvājuma pieprasījuma**, lai atiestatītu kādam piedāvājumam ievadītos datus un atgrieztos pie sākotnējā piedāvājuma pieprasījuma. Varat atiestatīt virsrakstu vai rindu.
-- Rindu režģī atlasiet **Pievienot alternatīvu** vai **Noņemt alternatīvu**, lai strādātu ar alternatīvām.
+- Atlasiet **Atiestatīt no piedāvājuma pieprasījuma** , lai atiestatītu kādam piedāvājumam ievadītos datus un atgrieztos pie sākotnējā piedāvājuma pieprasījuma. Varat atiestatīt virsrakstu vai rindu.
+- Rindu režģī atlasiet **Pievienot alternatīvu** vai **Noņemt alternatīvu** , lai strādātu ar alternatīvām.
 
-    Dažos piedāvājumu pieprasījumos ir atļauti alternatīvi piedāvājumi. Alternatīvus piedāvājumus varat norādīt tikai rindām ar veidu **Kategorija**, jo konkrētus krājumus nevar pievienot kā alternatīvas. 
+    Dažos piedāvājumu pieprasījumos ir atļauti alternatīvi piedāvājumi. Alternatīvus piedāvājumus varat norādīt tikai rindām ar veidu **Kategorija** , jo konkrētus krājumus nevar pievienot kā alternatīvas. 
 
-- Atlasiet **Piedāvājuma pieprasījuma pielikums** vai **Piedāvājuma pieprasījuma rindas pielikums**, lai atvērtu jebkādu pielikumu, ko debitors ir pievienojis kādam piedāvājuma pieprasījumam. Atlasiet **Piedāvājumu pielikumi** vai **Piedāvājumu rindu pielikumi**, lai kopā ar piedāvājumu augšupielādētu pielikumus.
+- Atlasiet **Piedāvājuma pieprasījuma pielikums** vai **Piedāvājuma pieprasījuma rindas pielikums** , lai atvērtu jebkādu pielikumu, ko debitors ir pievienojis kādam piedāvājuma pieprasījumam. Atlasiet **Piedāvājumu pielikumi** vai **Piedāvājumu rindu pielikumi** , lai kopā ar piedāvājumu augšupielādētu pielikumus.
 
     Lai varētu iesniegt kādu piedāvājumu, iespējams, jums vispirms ir jāaizpilda anketas.
 
-- Atlasiet **Noraidīt**, ja nevēlaties izteikt piedāvājumu. Kad ir atlasīts **Noraidīt**, šo darbību nevarat atsaukt un nevarat ievadīt nekādu piedāvājumu.
+- Atlasiet **Noraidīt** , ja nevēlaties izteikt piedāvājumu. Kad ir atlasīts **Noraidīt** , šo darbību nevarat atsaukt un nevarat ievadīt nekādu piedāvājumu.
 
 Ja piedāvājuma pieprasījums ir grozīts, jums ir jāievada jauns piedāvājums. Informācija par grozījumu ir atrodama piedāvājuma pieprasījuma lapas cilnē **Grozījumi**. Grozītie piedāvājumu pieprasījumi ir redzami lapā **Jauni aicinājumi izteikt piedāvājumus**.
 

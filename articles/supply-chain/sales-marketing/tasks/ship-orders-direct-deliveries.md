@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98ce5584f869fef57b542e6aa364045554ef0fde
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984182"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018518"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Pasūtījumu sūtīšana kā tiešās piegādes
 
@@ -33,12 +33,12 @@ ms.locfileid: "3984182"
 1. Dodieties uz **Navigācijas rūts > Moduļi > Debitori > Pasūtījumi > Visi pārdošanas pasūtījumi**.
 2. Atlasiet **Jauns**.
 3. Ievadiet vai atlasiet vērtību laukā **Debitora konts** un pēc tam atlasiet **Labi**
-4. Ievadiet vai atlasiet vērtības laukā **Krājuma numurs** un **Vieta**, pēc tam atlasiet **Saglabāt**.
+4. Ievadiet vai atlasiet vērtības laukā **Krājuma numurs** un **Vieta** , pēc tam atlasiet **Saglabāt**.
 5. Darbību rūtī atlasiet **Pārdošanas pasūtījums** un pēc tam atlasiet **Tiešā piegāde**. Lapā Izveidot piegādi ir parādīts visu atvērto pārdošanas pasūtījumu rindu saraksts, kas kopētas no pārdošanas pasūtījuma. Jūs varat pārskatīt pasūtījuma informāciju, un, ja nepieciešams, pārveidot informāciju, piemēram, pirkšanas daudzumu un cenas noteikšanas nosacījumus, pirms tiešās piegādes izveidošanas.  
 6. Atlasiet **Jā** laukā **Iekļaut visus**.
     - Ja vēlaties ģenerēt tiešu piegādi tikai pārdošanas pasūtījumu rindu apakškopai, atlasiet tās atsevišķi.  
     - Lauks **Kreditora konts** var būt vai var nebūt aizpildīts ar kreditora numuru. Ja precei ir iestatīts noklusējuma kreditors (saistītajās krājumu vajadzībās), šis kreditors tiks kopēts attiecīgajā rindā. Pretējā gadījumā kreditors ir jāievada manuāli. Šajā piemērā nākamajā solī tiks atlasīts jauns kreditors, pat ja lauks jau ir aizpildīts.   
-7. Ievadiet vai atlasiet vērtību laukā **Kreditora konts** un pēc tam atlasiet **Labi**, Ziņojums jūs informē, ka ir izveidots pirkšanas pasūtījums.   
+7. Ievadiet vai atlasiet vērtību laukā **Kreditora konts** un pēc tam atlasiet **Labi** , Ziņojums jūs informē, ka ir izveidots pirkšanas pasūtījums.   
 8. Izvērsiet sadaļu **Detalizēta informācija par rindu**.
 9. Atlasiet cilni **Piegāde** un pārbaudiet, vai lauks **Tiešā piegāde** ir iestatīts uz **Jā**.
 10. Darbību rūtī atlasiet **Vispārīgi**.
@@ -72,7 +72,7 @@ ms.locfileid: "3984182"
 2. Atlasiet **Jauns**.
 3. Ievadiet vai atlasiet vērtību laukā **Debitora konts** un pēc tam atlasiet **Labi**.
 4. Laukā **Krājuma kods** un **vieta** ievadiet vai atlasiet kādu vērtību.
-5. Izvērsiet sadaļu **Detalizēta informācija par rindu**, pēc tam atlasiet cilni **Piegāde**. Tā vietā, lai izveidotu tiešu piegādi pārdošanas pasūtījuma apstrādes ietvaros, kā norādīts iepriekšējā procedūrā, varat nodot šo uzdevumu iepirkumu speciālistam. Lai iekļautu pārdošanas pasūtījuma rindu tiešās piegādes apstrādes procesā, ir jāatzīmē rinda tiešajai piegādei.  
+5. Izvērsiet sadaļu **Detalizēta informācija par rindu** , pēc tam atlasiet cilni **Piegāde**. Tā vietā, lai izveidotu tiešu piegādi pārdošanas pasūtījuma apstrādes ietvaros, kā norādīts iepriekšējā procedūrā, varat nodot šo uzdevumu iepirkumu speciālistam. Lai iekļautu pārdošanas pasūtījuma rindu tiešās piegādes apstrādes procesā, ir jāatzīmē rinda tiešajai piegādei.  
 6. Atlasiet **Jā** laukā **Tiešā piegāde**.
     - Ja krājums jau ir iestatīts tiešai piegādei pēc noklusējuma, laukā tiks automātiski iestatīta opcija Jā pasūtījuma rindu ievades laikā. Krājumu var iestatīt tiešai piegādei Izlaistās preces šablonā, iestatot opcijai Tiešā piegāde vienumu Jā un atlasot noklusējuma tiešās piegādes noliktavu.  
     - Tā kā pirkšanas pasūtījums vēl nav izveidots, tiešās piegādes statuss ir iestatīts uz "Tiks veikta tiešā piegāde".   

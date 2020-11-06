@@ -3,7 +3,7 @@ title: Starpkanālu koplietošanas iespējošana un izmantošana
 description: Šajā tēmā ir aprakstīts, kā iespējot un izmantot Microsoft Dynamics 365 Commerce vietņu veidotāja starpkanālu koplietošanas līdzekli.
 author: psimolin
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5dad866250bc57a9b158ee73948da509ecccd52c
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974083"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019522"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Starpkanālu koplietošanas iespējošana un izmantošana
 
@@ -55,11 +55,11 @@ Lai iespējotu starpkanālu koplietošanu Commerce vietņu veidotājā, izpildie
 
     ![Starpkanāls opcija Commerce vietņu veidotājā ir iestatīta uz Ieslēgts](./media/enabling-cross-channel-sharing.png)
 
-Kad ir iespējota starpkanālu koplietošana, starpkanālu informācija tiks parādīta sadaļā **Kanāli**, kas atrodas **Vietnes iestatījumi \> Līdzekļi**, kā parādīts piemēra nākamajā attēlā.
+Kad ir iespējota starpkanālu koplietošana, starpkanālu informācija tiks parādīta sadaļā **Kanāli** , kas atrodas **Vietnes iestatījumi \> Līdzekļi** , kā parādīts piemēra nākamajā attēlā.
 
 ![Kanālu informācija, kas redzama pēc starpkanālu koplietošanas iespējošanas](./media/channels-cross-channel.png)
 
-Turklāt pēc starpkanālu koplietošanas iespējošanas Commerce vietņu veidotāja augšējā labajā pusē esošajā laukā **Kanāls** tiks iekļauta opcija **Starpkanālu tiešsaistes veikals**, ko var izmantot, lai pārvaldītu starpkanālu saturu, kā parādīts nākamajā attēlā.
+Turklāt pēc starpkanālu koplietošanas iespējošanas Commerce vietņu veidotāja augšējā labajā pusē esošajā laukā **Kanāls** tiks iekļauta opcija **Starpkanālu tiešsaistes veikals** , ko var izmantot, lai pārvaldītu starpkanālu saturu, kā parādīts nākamajā attēlā.
 
 ![Starpkanālu tiešsaistes veikala opcija laukā Kanāli pēc starpkanālu koplietošanas iespējošanas](./media/cross-channel-dropdown.png)
 
@@ -71,28 +71,28 @@ Varat izveidot un izmantot starpkanālu saturu vairākos veidos. Piemēram, vara
 
 Lai izveidotu starpkanālu fragmentu Commerce vietņu veidotājā, izpildiet tālāk norādītās darbības.
 
-1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
-1. Dialoglodziņā **Jauns lapas fragments** atlasiet moduli **Veicināšanas reklāmkarogs** un pēc tam **Lapas fragmenta nosaukums** ievadiet nosaukumu (piemēram, **Starpkanālu reklāmkarogs**). Pēc tam atlasiet **Labi**.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns** , lai izveidotu jaunu fragmentu.
+1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Veicināšanas reklāmkarogs** un pēc tam **Fragmenta nosaukums** ievadiet nosaukumu (piemēram, **Starpkanālu reklāmkarogs** ). Pēc tam atlasiet **Labi**.
 1. Moduļa **Veicināšanas reklāmkarogs** rekvizītu rūtī atlasiet **Pievienot ziņojumu** un pēc tam atlasiet **Ziņojums**.
 1. Dialoglodziņa **Ziņojums** sadaļā **Teksts** ievadiet **Starpkanāls** un atlasiet **Labi**. 
-1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
 
 Šo starpkanālu fragmentu var izmantot starpkanāla vai kanālam raksturīgās lapās, kas izveidotas jebkurā vietnes kanālā.
 
 ### <a name="create-a-cross-channel-page-that-uses-cross-channel-content"></a>Starpkanālu lapas izveidošana, kurā tiek izmantots starpkanālu saturs
 
-Starpkanālu lapas var izmantot jebkurā jūsu vietnes kanālā. Tādējādi varat vienreiz izveidot koplietojamu satura lapu un visus turpmākos atjauninājumus veikt vienuviet. Piemēram, starpkanālu lapa **Noteikumi un nosacījumi**, kuras URL ir `/toc`, var tikt koplietota starp visiem vietnes kanāliem. Ja vietnes kanāla bāzes URL `www.fabrikam.com/brand1` un `www.fabrikam.com/brand2` pieder vienam starpkanālam, kopīgotā lapa **Noteikumi un nosacījumi** būs attiecīgi pieejama gan vietnes kanāla URL `www.fabrikam.com/brand1/toc`, gan `www.fabrikam.com/brand2/toc`. Ja lapa **Noteikumi un nosacījumi** ir jāatjaunina vēlāk, atjauniniet tikai vienu koplietojamo lapu.
+Starpkanālu lapas var izmantot jebkurā jūsu vietnes kanālā. Tādējādi varat vienreiz izveidot koplietojamu satura lapu un visus turpmākos atjauninājumus veikt vienuviet. Piemēram, starpkanālu lapa **Noteikumi un nosacījumi** , kuras URL ir `/toc`, var tikt koplietota starp visiem vietnes kanāliem. Ja vietnes kanāla bāzes URL `www.fabrikam.com/brand1` un `www.fabrikam.com/brand2` pieder vienam starpkanālam, kopīgotā lapa **Noteikumi un nosacījumi** būs attiecīgi pieejama gan vietnes kanāla URL `www.fabrikam.com/brand1/toc`, gan `www.fabrikam.com/brand2/toc`. Ja lapa **Noteikumi un nosacījumi** ir jāatjaunina vēlāk, atjauniniet tikai vienu koplietojamo lapu.
 
 Lai izveidotu starpkanālu lapu Commerce vietņu veidotājā, kurā tiek izmantots starpkanālu saturs, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Dodieties uz **Lapas** un atlasiet **Jauns** , lai izveidotu jaunu lapu.
 1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **Mārketings**.
-1. Laukā **Lapas nosaukums** ievadiet lapas nosaukumu (piemēram, **Starpkanālu lapa**).
-1. Sadaļā **Lapas URL** ievadiet lapas URL (piemēram, **examplepage**) un pēc tam atlasiet **Labi**.
-1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
-1. Dialoglodziņā **Pievienot fragmentu**, atlasiet iepriekš izveidoto starpkanālu fragmentu ar veicināšanas reklāmkarogu, un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Jums vajadzētu redzēt veicināšanas reklāmkarogu ar tekstu “starpkanāls”.
-1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Laukā **Lapas nosaukums** ievadiet lapas nosaukumu (piemēram, **Starpkanālu lapa** ).
+1. Sadaļā **Lapas URL** ievadiet lapas URL (piemēram, **examplepage** ) un pēc tam atlasiet **Labi**.
+1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot fragmentu**.
+1. Dialoglodziņā **Pievienot fragmentu** , atlasiet iepriekš izveidoto starpkanālu fragmentu ar veicināšanas reklāmkarogu, un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu. Jums vajadzētu redzēt veicināšanas reklāmkarogu ar tekstu “starpkanāls”.
+1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
 
 ### <a name="create-a-channel-specific-page-that-uses-cross-channel-content"></a>Kanālam raksturīgas lapas izveide, kurā tiek izmantots starpkanālu saturs
 
@@ -100,14 +100,14 @@ Izmantojot starpkanālu saturu kanālam raksturīgās lapās, varat vienreiz izv
 
 Lai izveidotu kanālam raksturīgu lapu Commerce vietņu veidotājā, kurā tiek izmantots starpkanālu saturs, veiciet tālāk norādītās darbības.
 
-1. Noteiktā kanālā, piemēram, **Fabrikam paplašinātais tiešsaistes veikals** dodieties uz **Lapas** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Noteiktā kanālā, piemēram, **Fabrikam paplašinātais tiešsaistes veikals** dodieties uz **Lapas** un pēc tam atlasiet **Jauns** , lai izveidotu jaunu lapu.
 1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **Mārketings**.
-1. Laukā **Lapas nosaukums** ievadiet lapas nosaukumu (piemēram, **Kanālam raksturīga lapa**).
-1. Sadaļā **Lapas URL** ievadiet lapas URL (piemēram, **channelspecificpage**) un pēc tam atlasiet **Labi**.
-1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
-1. Dialoglodziņa **Pievienot fragmentu** sadaļā **Kanāls**, atlasiet **Starpkanālu tiešsaistes veikals**. Iepriekš izveidotajam starpkanāla fragmentam vajadzētu tikt parādītam sarakstā. Atlasiet to un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Jums vajadzētu redzēt veicināšanas reklāmkarogu ar tekstu “starpkanāls”.
-1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Laukā **Lapas nosaukums** ievadiet lapas nosaukumu (piemēram, **Kanālam raksturīga lapa** ).
+1. Sadaļā **Lapas URL** ievadiet lapas URL (piemēram, **channelspecificpage** ) un pēc tam atlasiet **Labi**.
+1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot fragmentu**.
+1. Dialoglodziņa **Pievienot fragmentu** sadaļā **Kanāls** , atlasiet **Starpkanālu tiešsaistes veikals**. Iepriekš izveidotajam starpkanāla fragmentam vajadzētu tikt parādītam sarakstā. Atlasiet to un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu. Jums vajadzētu redzēt veicināšanas reklāmkarogu ar tekstu “starpkanāls”.
+1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
 
 ### <a name="create-a-channel-specific-version-of-a-cross-channel-page"></a>Kanālam raksturīgas starpkanālu lapas versijas izveidošana
 
@@ -119,12 +119,12 @@ Lai izveidotu kanālam raksturīgu starpkanālu lapas versiju Commerce vietņu v
 1. Atveriet iepriekš izveidoto starpkanālu lapu.
 1. Lauka **Kanāls** augšējā labajā stūrī atlasiet kanālu, kam jābūt ar raksturīgu saturu. Lapas redaktors parāda ziņojumu ar aicinājumu izveidot jaunu lapas variantu.
 1. Atlasiet **Izveidot lapas variantu**.
-1. Lapas varianta **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Lapas varianta **Galvenajā** slotā atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Veicināšanas reklāmkarogs** un pēc tam atlasiet **Labi**.
 1. Moduļa **Veicināšanas reklāmkarogs** rekvizītu rūtī atlasiet **Pievienot ziņojumu** un pēc tam atlasiet **Ziņojums**.
 1. Dialoglodziņa **Ziņojums** sadaļā **Teksts** ievadiet **Kanālam raksturīgs** un atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Jums vajadzētu redzēt veicināšanas reklāmkarogu ar tekstu “Kanālam raksturīgs”.
-1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu. Jums vajadzētu redzēt veicināšanas reklāmkarogu ar tekstu “Kanālam raksturīgs”.
+1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
 
 Tagad, izmantojot kanāla bāzes URL un dodoties uz šīs vietnes starpkanālu lapas URL, starpkanālu satura vietā redzēsit kanālam raksturīgo saturu.
 

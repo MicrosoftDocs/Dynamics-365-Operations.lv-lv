@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275445"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997354"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
@@ -41,7 +40,7 @@ ms.locfileid: "3275445"
 
 **Nepieciešamās lomas, lai iestatītu duālo rakstīšanu:** sistēmas administrators abās Finance and Operations lietojumprogrammās un Common Data Service.
 
-Kļūdas lapā **Iestatīt saiti uz Common Data Service** parasti izraisa nepilnīgas iestatīšanas vai atļauju problēmas. Pārliecinieties, ka visa darbspējas pārbaude iet uz lapu **Iestatīt saiti uz Common Data Service**, kā parādīts nākamajā attēlā. Nevarat saistīt duālo ierakstu, ja vien nav izieta pilnīga darbspējas pārbaude.
+Kļūdas lapā **Iestatīt saiti uz Common Data Service** parasti izraisa nepilnīgas iestatīšanas vai atļauju problēmas. Pārliecinieties, ka visa darbspējas pārbaude iet uz lapu **Iestatīt saiti uz Common Data Service** , kā parādīts nākamajā attēlā. Nevarat saistīt duālo ierakstu, ja vien nav izieta pilnīga darbspējas pārbaude.
 
 ![Veiksmīga darbspējas pārbaude](media/health_check.png)
 
@@ -55,7 +54,7 @@ Atverot lapu **Saite uz Common Data Service** programmā Finance and Operations,
 
 *Atbildes statusa kods nenorāda uz veiksmi: 404 (nav atrasts)*
 
-Šī kļūda rodas, ja piekrišanas solis nav pabeigts. Lai pārbaudītu, vai piekrišanas darbība ir izpildīta, piesakieties portal.Azure.com, izmantojot Azure AD nomnieka administratora kontu, un skatiet, vai trešās puses programma, kurai ir ID **33976c19-1db5-4c02-810e-c243db79efde**, parādās Azure AD sarakstā **Uzņēmuma lietojumprogrammas**. Ja tā nenotiek, jums ir jāsniedz programmas piekrišana.
+Šī kļūda rodas, ja piekrišanas solis nav pabeigts. Lai pārbaudītu, vai piekrišanas darbība ir izpildīta, piesakieties portal.Azure.com, izmantojot Azure AD nomnieka administratora kontu, un skatiet, vai trešās puses programma, kurai ir ID **33976c19-1db5-4c02-810e-c243db79efde** , parādās Azure AD sarakstā **Uzņēmuma lietojumprogrammas**. Ja tā nenotiek, jums ir jāsniedz programmas piekrišana.
 
 Lai nodrošinātu programmas piekrišanu, veiciet tālāk norādītās darbības.
 
@@ -63,18 +62,18 @@ Lai nodrošinātu programmas piekrišanu, veiciet tālāk norādītās darbības
 
     <https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent>
 
-2. Atlasiet **Piekrist**, lai norādītu, ka dodat piekrišanu savā nomniekā instalēt programmu, kuras ID ir **33976c19-1db5-4c02-810e-c243db79efde**.
+2. Atlasiet **Piekrist** , lai norādītu, ka dodat piekrišanu savā nomniekā instalēt programmu, kuras ID ir **33976c19-1db5-4c02-810e-c243db79efde**.
 
     > [!TIP]
     > Šī programma ir nepieciešama, lai Common Data Service saistītu ar Finance and Operations programmām. Ja rodas problēmas ar šo darbību, atveriet pārlūkprogrammu inkognito režīmā (pārlūkā Google Chrome) vai InPrivate režīmā (in Microsoft Edge).
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Pārbaudiet, vai uzņēmuma datu un duālā ieraksta komandas saistīšanas laikā ir pareizi iestatītas.
 
-Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atlasāt konfigurēšanas laikā, tiek izveidoti Common Data Service vidē. Pēc noklusējuma šie uzņēmumi ir tikai lasāmi un rekvizīts **IsDualWriteEnable** ir iestatīts uz **True**. Turklāt tiek izveidots noklusējuma piederošās biznesa vienība īpašnieks un komanda un ietverts uzņēmuma nosaukums. Pirms iespējojat kartes, pārbaudiet, vai ir norādīts noklusējuma grupas īpašnieks. Lai atrastu elementu **Uzņēmumi (CDM\_uzņēmums)**, veiciet tālāk norādītās darbības.
+Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atlasāt konfigurēšanas laikā, tiek izveidoti Common Data Service vidē. Pēc noklusējuma šie uzņēmumi ir tikai lasāmi un rekvizīts **IsDualWriteEnable** ir iestatīts uz **True**. Turklāt tiek izveidots noklusējuma piederošās biznesa vienība īpašnieks un komanda un ietverts uzņēmuma nosaukums. Pirms iespējojat kartes, pārbaudiet, vai ir norādīts noklusējuma grupas īpašnieks. Lai atrastu elementu **Uzņēmumi (CDM\_uzņēmums)** , veiciet tālāk norādītās darbības.
 
 1. Modeļa vadītā programmā pakalpojumā Dynamics 365 augšējā labajā stūrī atlasiet filtru.
 2. Nolaižamajā sarakstā atlasiet **Uzņēmums**.
-3. Atlasiet **Palaist**, lai skatītu rezultātus.
+3. Atlasiet **Palaist** , lai skatītu rezultātus.
 4. Atlasiet uzņēmumu, kas bija saistīts, konfigurējot duālo ierakstu.
 5. Pārbaudiet, vai laukam **Noklusējuma atbildīgā grupa** ir vērtība. Šajā attēlā lauks **Noklusējuma atbildīgā grupa** ir iestatīts uz **USMF Dual Write**.
 

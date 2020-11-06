@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024664"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107165"
 ---
 # <a name="commerce-home-page"></a>Commerce sākumlapa
-
 
 [!include [banner](includes/banner.md)]
 
@@ -49,10 +48,10 @@ Dynamics 365 Commerce — izveidots uz pārbaudītām Dynamics 365 Retail iespē
 Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Commerce priekšskatījuma vides konfigurēšana](provisioning-guide.md)
 - [Commerce arhitektūra](retail-components.md)
-- [Iestatiet savus kanālus](channels-overview.md)
-- [Preču un pakalpojumu virzīšana tirgū](set-up-retail-products.md)
-- [Pārvaldiet savus pasūtījumus](Order-fulfillment-overview.md)
-- [Pārvaldiet savus debitorus](set-up-customer-loyalty-program.md)
+- [Savu kanālu iestatīšana](channels-overview.md)
+- [Jūsu preču un pakalpojumu tirdzniecība](set-up-retail-products.md)
+- [Pasūtījumu pārvaldība](Order-fulfillment-overview.md)
+- [Debitoru pārvaldība](set-up-customer-loyalty-program.md)
 - [Pārvaldiet savas finanses](retail-statements.md)
 - [Pārvaldiet savu e-komercijas vietni](online-store-overview.md)
 - [Aizsardzība pret krāpniecību](dev-itpro/DFP.md)

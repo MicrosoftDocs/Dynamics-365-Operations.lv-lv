@@ -3,7 +3,7 @@ title: Svītrkodu attēlu ģenerēšanai izmantot svītrkodu datu avotus
 description: Šajā tēmā skaidrots, kā izmantot svītrkodu datu avotus, lai ģenerētu svītrkoda attēlus.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/05/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: fdb70c7e72647de4c6cd977b286c19c906559438
-ms.sourcegitcommit: a56b22729fbbb941471e927e2f932acaf624cf5e
+ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
+ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435469"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088201"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Svītrkodu attēlu ģenerēšanai izmantot svītrkodu datu avotus
 
@@ -54,16 +54,17 @@ Izmantojot **Svītrkoda** tipa datu avotu, varat ģenerēt svītrkodus šādos f
     - EAN-8
     - EAN-13
     - ITF-14
+    - Inteliģentais pasts
+    - MSI
+    - Plessey
     - PDF417
     - UPC-A
     - UPC-E
-    - MSI
-    - Plessey
 
 - Divdimensiju svītrkodi:
 
     - Aztec
-    - DataMatrix
+    - Datu matrica
     - QR kods
 
 Konfigurējot **Svītrkoda** datu avotu, varat definēt konkrētus atveidošanas parametrus, kas tiek izmantoti attēla ģenerēšanai:
@@ -71,7 +72,7 @@ Konfigurējot **Svītrkoda** datu avotu, varat definēt konkrētus atveidošanas
 - **Platums** - norāda svītrkoda platumu pikseļos. Vērtība **0** (nulle) norāda, ka tiek lietots noklusētais platums. Nozīme var atšķirties dažādiem formātiem.
 - **Augstums** - norāda svītrkoda augstumu pikseļos. Vērtība **0** (nulle) norāda, ka tiek lietots noklusētais augstums. Nozīme var atšķirties dažādiem formātiem.
 - **Piemale** - norāda svītru koda piemales lielumu pikseļos. Piemale ir apgabals katrā svītrkoda pusē, kas jātur tukšs (klusā zona). Vērtība **0** (nulle) norāda, ka tiek lietota noklusētā piemale. Nozīme var atšķirties dažādiem formātiem.
-- **Izvades saturs** - iestatiet vērtību **Jā**, lai ģenerētu svītrkoda attēlu, kas satur kodētu informāciju kā tekstu. Noklusējuma vērtība ir **Nē**.
+- **Izvades saturs** - iestatiet vērtību **Jā** , lai ģenerētu svītrkoda attēlu, kas satur kodētu informāciju kā tekstu. Noklusējuma vērtība ir **Nē**.
 - **Kodējums** - norāda rakstzīmju tipu, kas ir kodēts ģenerētajā svītrkoda attēlā. Pēc noklusējuma tiek izmantots **UTF-8** kodējums.
 
 > [!IMPORTANT]
@@ -138,15 +139,15 @@ Turklāt lejupielādējiet šo Excel failu, kas satur modificēto veidni sniegta
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet elementu **Pārskatu veidošanas konfigurācijas**.
-3. Ja lapā **Konfigurācijas** konfigurāciju kokā nav pieejama konfigurācija **Čeku modelis**, sekojiet šiem soļiem, lai importētu ER datu modeļa konfigurāciju:
+3. Ja lapā **Konfigurācijas** konfigurāciju kokā nav pieejama konfigurācija **Čeku modelis** , sekojiet šiem soļiem, lai importētu ER datu modeļa konfigurāciju:
 
     1. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
-    2. Dialoglodziņā atlasiet **Pārlūkot**, atrodiet un atlasiet failu **Čeku modelis.xml** un pēc tam atlasiet **Labi**.
+    2. Dialoglodziņā atlasiet **Pārlūkot** , atrodiet un atlasiet failu **Čeku modelis.xml** un pēc tam atlasiet **Labi**.
 
 4. Ja **Čeku izdrukas formāta** konfigurācija konfigurāciju kokā nav pieejama, sekojiet šiem soļiem, lai importētu ER formāta konfigurāciju:
 
     1. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
-    2. Dialoglodziņā atlasiet **Pārlūkot**, atrodiet un atlasiet failu **Čeku izdrukas formāts.xml** un pēc tam atlasiet **Labi**.
+    2. Dialoglodziņā atlasiet **Pārlūkot** , atrodiet un atlasiet failu **Čeku izdrukas formāts.xml** un pēc tam atlasiet **Labi**.
 
 5. Konfigurāciju kokā izvērsiet **Čeku modelis**.
 6. Konfigurāciju kokā pārskatiet importējamo ER konfigurāciju sarakstu.
@@ -155,7 +156,7 @@ Turklāt lejupielādējiet šo Excel failu, kas satur modificēto veidni sniegta
 
 1. Atveriet sadaļu **Kases un bankas vadība** \> **Banku konti** \> **Banku konti**.
 2. Lapā **Bankas konti** atlasiet **USMF OPER** kontu.
-3. Bankas kontu detaļu lapā, darbību rūtī, cilnē **Iestatīšana**, grupā **Izkārtojums** atlasiet **Čeks**.
+3. Bankas kontu detaļu lapā, darbību rūtī, cilnē **Iestatīšana** , grupā **Izkārtojums** atlasiet **Čeks**.
 4. Lapā **Čeka izkārtojums** atlasiet **Rediģēt**.
 5. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Vispārīgs elektroniskās eksportēšanas formāts** uz **Jā**.
 6. Laukā **Eksporta formāta konfigurācija** atlasiet **Čeku izdrukas formāta** ER formātu, ko importējāt iepriekš.
@@ -183,7 +184,7 @@ Tagad jums ir jāmodificē ER risinājums un pēc tam [atkārtoti jāpiemēro](m
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet **Pārskatu veidošanas konfigurācijas**.
-3. Lapā **Konfigurācijas**, konfigurācijas kokā izvērsiet **Čeku modeli** un atlasiet **Čeku izdrukas formātu**.
+3. Lapā **Konfigurācijas** , konfigurācijas kokā izvērsiet **Čeku modeli** un atlasiet **Čeku izdrukas formātu**.
 4. Darbību rūtī atlasiet **Noformētājs**.
 5. ER operāciju veidotājā atlasiet cilni **Kartēšana** lapas labajā pusē, pēc tam kreisajā pusē esošajā formāta koka rūtī atlasiet **Izvērst/sakļaut**.
 6. Ievērojiet, ka visi šūnas formāta elementi ir saistīti ar atbilstošajiem datu avotiem.
@@ -191,9 +192,9 @@ Tagad jums ir jāmodificē ER risinājums un pēc tam [atkārtoti jāpiemēro](m
     ![Šūnas formāta elementu saistījums ar datu avotiem ER operāciju veidotājā](./media/er-barcode-data-source-cells-bound.png)
 
 7. Atlasiet cilni **Formāts** lapas labajā pusē.
-8. Darbības rūtī atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Importēt**.
+8. Darbības rūtī atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Importēt**.
 9. Grupā **Importēt** atlasiet **Atjaunināt no Excel** un pēc tam atlasiet **Atjaunināt veidni**.
-10. Dialoglodziņā atrodiet **Čeka veidnes Excel.xlsx** failu, kas tiek saglabāts jūsu datorā, atlasiet to un pēc tam atlasiet **Labi**, lai apstiprinātu, ka atlasītā veidne ir jālieto.
+10. Dialoglodziņā atrodiet **Čeka veidnes Excel.xlsx** failu, kas tiek saglabāts jūsu datorā, atlasiet to un pēc tam atlasiet **Labi** , lai apstiprinātu, ka atlasītā veidne ir jālieto.
 11. Atlasiet cilni **Kartēšana** lapas labajā pusē, pēc tam kreisajā pusē esošajā formāta koka rūtī atlasiet **Izvērst/sakļaut**.
 12. Ievērojiet, ka **AmountBarcode** šūnas elements ir pievienots formātam. Šis elements ir saistīts ar **AmountBarcode** elementu, kas ir pievienots modificētajai Excel veidnei kā svītrkoda attēla vietturis.
 
@@ -226,7 +227,7 @@ Pēc tam jaunajam formāta elementam ir jāpiesaista tikko pievienotais datu avo
 
     ![Detalizēta informācija par Svītrkoda datu avotu ER operāciju noformētājā](./media/er-barcode-data-source-bind1.png)
 
-5. Atlasiet **Rediģēt formulu**, lai koriģētu saistījumu.
+5. Atlasiet **Rediģēt formulu** , lai koriģētu saistījumu.
 
     Jūs nevēlaties atgriezt šūnas elementa nosaukumu. Tāpēc ir jākonfigurē izteiksme, kas atgriež tekstu, kas ietver pašreizējo čeka maksājamo summu. Tāpēc, ka pamata **ChequeLines** diapazons ir piesaistīts **model.cheques** datu avotam, pašreizējā čeka maksājamā summa ir pieejama datu tipa **Īsts** laukā **model.cheques.attributes.amount**.
 
@@ -240,7 +241,7 @@ Pēc tam jaunajam formāta elementam ir jāpiesaista tikko pievienotais datu avo
 
 #### <a name="make-the-modified-version-available-for-test-runs"></a><a name="ExampleModifyFormatMakeVersionAvailable"></a>Padarīt modificēto versiju pieejamu pārbaudēm
 
-Pēc noklusējuma vienīgās versijas, kuru statuss ir **Pabeigts** un **Koplietojamas**, tiek izmantotas, palaižot ER formātu.
+Pēc noklusējuma vienīgās versijas, kuru statuss ir **Pabeigts** un **Koplietojamas** , tiek izmantotas, palaižot ER formātu.
 
 Ja ir pabeigtas izmaiņas, varat pabeigt darbu ar pašreizējo melnraksta versiju un padarīt jūsu izmaiņas pieejamas lietošanai. Instrukcijas skatiet sekojošajā sadaļā [Pabeigt modificēto formāta versiju](#CompleteToRun).
 
@@ -250,18 +251,18 @@ Ja vēlaties turpināt darbu ar pašreizējo melnraksta versiju, bet tā ir jāi
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet **Pārskatu veidošanas konfigurācijas**.
-3. Lapā **Konfigurācijas**, konfigurācijas kokā izvērsiet **Čeku modeli** un atlasiet **Čeku izdrukas formātu**.
+3. Lapā **Konfigurācijas** , konfigurācijas kokā izvērsiet **Čeku modeli** un atlasiet **Čeku izdrukas formātu**.
 4. Kopsavilkuma cilnē **Versijas** atlasiet ierakstu, kura statuss ir **Melnraksts**.
 5. Atlasiet **Mainīt statusu** un pēc tam atlasiet **Pabeigt**.
 6. Dialoglodziņā atlasiet **Labi**.
 
-Pašreizējās versijas statuss tiek mainīts no **Melnraksts** uz **Pabeigts**, un tiek izveidota jauna versija ar statusu **Melnraksts**. Varat izmantot šo jauno melnraksta versiju, lai piemērotu papildu izmaiņas.
+Pašreizējās versijas statuss tiek mainīts no **Melnraksts** uz **Pabeigts** , un tiek izveidota jauna versija ar statusu **Melnraksts**. Varat izmantot šo jauno melnraksta versiju, lai piemērotu papildu izmaiņas.
 
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Padarīt melnraksta versiju pieejamu lietošanai
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas** atlasiet **Pārskatu veidošanas konfigurācijas**.
-3. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
+3. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas** , grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 4. Dialoglodziņā iestatiet **Palaist iestatījumu** opciju uz **Jā** un pēc tam atlasiet **Labi**.
 5. Konfigurācijas kokā izvērsiet **Čeku modeli** un atlasiet **Čeku izdrukas formātu**.
 6. Iestatiet opciju **Palaist melnrakstu** uz **Jā**.
@@ -273,7 +274,7 @@ Atlasītā formāta melnraksta versija ir atzīmēta kā pieejama, kad tiek pala
 
 1. Atveriet sadaļu **Kases un bankas vadība** \> **Banku konti** \> **Banku konti**.
 2. Lapā **Bankas konti** atlasiet **USMF OPER** kontu.
-3. Bankas kontu detaļu lapā, darbību rūtī, cilnē **Iestatīšana**, grupā **Izkārtojums** atlasiet **Čeks**.
+3. Bankas kontu detaļu lapā, darbību rūtī, cilnē **Iestatīšana** , grupā **Izkārtojums** atlasiet **Čeks**.
 4. **Čeka izkārtojuma** lapā, Darbības rūtī atlasiet **Drukāt testu**.
 5. Dialoglodziņā iestatiet **Apgrozāma čeka formāta** opciju uz **Jā**.
 6. Atlasiet **Labi**.
@@ -295,7 +296,7 @@ Tomēr, izmantojot **Svītrkoda** datu avotu, lai izveidotu svītrkodus, šo sv�
 ## <a name="limitations"></a>Ierobežojumi
 
 > [!NOTE]
-> Atsevišķiem svītrkodu tipiem, kas tiek ģenerēti, ir fiksēts aspekta koeficients. Šai uzvedībai ir nozīme, ja esat ieslēdzis līdzekli **Iespējot EPPlus bibliotēkas izmantošanu elektronisko pārskatu struktūru**, lai strādātu ar Excel dokumentiem ER formātā. Šādā gadījumā attēls tiek ievadīts vietturī, kam ir fiksētas proporcijas. Tādēļ, kad viettura izmēri veidnē atbilst ievadītā attēla koeficientam, var tikt mainīts reālais attēls ģenerētajā dokumentā, lai uzturētu nepieciešamo proporciju. Lai izvairītos no attēla izmēru maiņas, izmantojiet vietturi, kam ir paredzētais malu koeficients.
+> Atsevišķiem svītrkodu tipiem, kas tiek ģenerēti, ir fiksēts aspekta koeficients. Šai uzvedībai ir nozīme, ja esat ieslēdzis līdzekli **Iespējot EPPlus bibliotēkas izmantošanu elektronisko pārskatu struktūru** , lai strādātu ar Excel dokumentiem ER formātā. Šādā gadījumā attēls tiek ievadīts vietturī, kam ir fiksētas proporcijas. Tādēļ, kad viettura izmēri veidnē atbilst ievadītā attēla koeficientam, var tikt mainīts reālais attēls ģenerētajā dokumentā, lai uzturētu nepieciešamo proporciju. Lai izvairītos no attēla izmēru maiņas, izmantojiet vietturi, kam ir paredzētais malu koeficients.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

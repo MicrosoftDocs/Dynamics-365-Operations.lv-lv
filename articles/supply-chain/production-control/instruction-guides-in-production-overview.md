@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: d8c2da17d4e3df37c55844f0aad00f883725f741
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
+ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989284"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000982"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Jauktas realitātes ceļvežu nodrošināšana ražošanas darbiniekiem
 
@@ -124,7 +124,7 @@ Lai konfigurētu, kā ceļveži parādās ražotnē, dodieties uz **Jauktā real
 
 Iestatiet tālāk minētos laukus:
 
-- **CDS vides apakšdomēns** — šim laukam jau vajadzētu parādīt vērtību. Šajā laukā ir ietverts Common Data Service vides, kurā tiek veidoti jūsu ceļveži, apakšdomēns. Apakšdomēns ir pirmā URL daļa un parasti tiek nosaukts līdzīgi organizācijas nosaukumam. Piemēram, ja jūsu Common Data Service URL ir "contoso.crm4.dynamics.com", šeit jāievada *contoso*. Šī vērtība tiek izmantota, lai sastādītu jūsu ceļvežu adreses, un tā tiks iekodēta QR kodos.
+- **Common Data Service apakšdomēns** — šim laukam jau vajadzētu parādīt vērtību. Šajā laukā ir ietverts Common Data Service vides, kurā tiek veidoti jūsu ceļveži, apakšdomēns. Apakšdomēns ir pirmā URL daļa un parasti tiek nosaukts līdzīgi organizācijas nosaukumam. Piemēram, ja jūsu Common Data Service URL ir "contoso.crm4.dynamics.com", šeit jāievada *contoso*. Šī vērtība tiek izmantota, lai sastādītu jūsu ceļvežu adreses, un tā tiks iekodēta QR kodos.
 - **QR koda izmērs** — iestatiet atveidotā QR koda izmēru. Ieteicams izvēlēties izmēru, kas aizpildīs lielāko daļu displeja ekrāna, bet ne lielāku. Parasti *15* ir laba vērtība.
 - **QR koda kļūdu labošanas līmenis** — iestatiet QR koda granularitāti. Lielāka granularitāte var paaugstināt koda uzticamību, bet jūsu **QR koda izmēram** ir jābūt pietiekami lielam, lai varētu atbalstīt detalizācijas līmeni, kāds nepieciešams jūsu atlasītajam labošanas līmenim.
 
@@ -136,7 +136,7 @@ Iestatiet tālāk minētos laukus:
 
 ## <a name="get-an-overview-of-all-guide-assignments"></a>Visu ceļvežu norīkojumu pārskata iegūšana
 
-Izmantojiet lapu **Visi ceļveži**, lai redzētu sarakstu ar visiem jūsu organizācijā pieejamajiem ceļvežiem un visiem norīkojumiem, kas piešķirti jūsu ražošanas procesiem un resursiem. Lai to atvērtu, dodieties uz **Jauktā realitāte \> Ceļveži \> Visi ceļveži**. Saraksta augšpusē parādīti visi pieejamie ceļveži, un jūs varat izmantot šeit pieejamo lauku, lai filtrētu sarakstu. Saraksta apakšpusē parādīti visi ceļvežu norīkojumi un ir nodrošināta rīkjosla to pārvaldībai.
+Izmantojiet lapu **Visi ceļveži** , lai redzētu sarakstu ar visiem jūsu organizācijā pieejamajiem ceļvežiem un visiem norīkojumiem, kas piešķirti jūsu ražošanas procesiem un resursiem. Lai to atvērtu, dodieties uz **Jauktā realitāte \> Ceļveži \> Visi ceļveži**. Saraksta augšpusē parādīti visi pieejamie ceļveži, un jūs varat izmantot šeit pieejamo lauku, lai filtrētu sarakstu. Saraksta apakšpusē parādīti visi ceļvežu norīkojumi un ir nodrošināta rīkjosla to pārvaldībai.
 
 ![Ceļvežu pārvaldība](media/instruction-guides-allguides.png "Ceļvežu pārvaldība")
 
@@ -158,7 +158,7 @@ Lai pievienotu ceļvedi resursam:
 1. No saraksta rūts atlasiet resursu, kuram vēlaties piešķirt ceļvedi.
 1. Paplašiniet kopsavilkuma cilni **Saistītie ceļveži**.
 1. Atlasiet **Pievienot** rīkjoslā **Saistītie ceļveži**. Režģim tiek pievienota jauna rinda.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt. Ja jums ir daudz ceļvežu, tad varat filtrēt sarakstu, lai atrastu meklēto.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt. Ja jums ir daudz ceļvežu, tad varat filtrēt sarakstu, lai atrastu meklēto.
     ![Ceļvežu pārvaldība](media/instruction-guides-allguides.png "Ceļvežu pārvaldība")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Saistīt ceļvedi ar resursu grupu
@@ -179,7 +179,7 @@ Lai pievienotu ceļvedi resursu grupai:
 1. No saraksta rūts atlasiet resursu grupu, kam vēlaties piešķirt ceļvedi.
 1. Paplašiniet kopsavilkuma cilni **Saistītie ceļveži**.
 1. Atlasiet **Pievienot** rīkjoslā **Saistītie ceļveži**. Režģim tiek pievienota jauna rinda.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt. Ja jums ir daudz ceļvežu, tad varat filtrēt sarakstu, lai atrastu meklēto.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt. Ja jums ir daudz ceļvežu, tad varat filtrēt sarakstu, lai atrastu meklēto.
     ![Ceļveža pievienošana resursu grupai](media/instruction-guides-resourcegroup.png "Ceļveža pievienošana resursu grupai")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Ceļveža saistīšana ar izlaistu preci
@@ -199,7 +199,7 @@ Lai pievienotu ceļvedi izlaistai precei:
 1. Darbības rūtī atveriet cilni **Inženieris** un grupā **Skats** atlasiet **Saistītie ceļveži**.
 1. Jūsu atlasītajai precei tiek atvērta lapa **Saistītie ceļveži**.
 1. Lai režģim pievienotu jaunu rindu, darbības rūtī atlasiet **Pievienot**. 
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana izlaistai precei:](media/instruction-guides-ReleasedProduct-AddGuides.png "Ceļveža pievienošana izlaistai precei")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Saistīt ceļvedi ar formulu
@@ -224,7 +224,7 @@ Lai ceļvedi pievienotu formulai:
 1. Atveriet cilni **Galvene** virs augšējās kopsavilkuma cilnes.
 1. Paplašiniet kopsavilkuma cilni **Saistītie ceļveži**.
 1. Atlasiet **Pievienot** rīkjoslā **Saistītie ceļveži**. Režģim tiek pievienota jauna rinda.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana formulai:](media/instruction-guides-Formula.png "Ceļveža pievienošana formulai")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Saistīt ceļvedi ar formulas versiju
@@ -248,12 +248,12 @@ Lai ceļvedi pievienotu formulas versijai:
 1. Dodieties uz **Ražošanas informācijas pārvaldība \> Materiālu komplekti un formulas \> Formulas**.
 1. Atveriet formulu, kas ietver versiju, kurai vēlaties piešķirt ceļvedi.
 1. Atveriet cilni **Galvene** virs augšējās kopsavilkuma cilnes.
-1. Kopsavilkuma cilnē **Formulas versijas**, atlasiet versiju, kurai vēlaties piešķirt ceļvedi.
+1. Kopsavilkuma cilnē **Formulas versijas** , atlasiet versiju, kurai vēlaties piešķirt ceļvedi.
 1. Rīkjoslā **Formulas versijas** atlasiet **Saistītie ceļveži**.
     ![Ar atlasīto formulas versiju saistīto ceļvežu atvēršana](media/instruction-guides-FormulaVersion.png "Ar atlasīto formulas versiju saistīto ceļvežu atvēršana")
 1. Jūsu formulas versijai tiek atvērta lapa **Saistītie ceļveži**.
 1. Lai režģim pievienotu jaunu rindu, darbības rūtī atlasiet **Pievienot**. 
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana formulas versijai](media/instruction-guides-FormulaVersionAddGuide.png "Ceļveža pievienošana formulas versijai")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Saistiet ceļvedi ar materiālu komplektu
@@ -276,7 +276,7 @@ Lai ceļvedi pievienotu materiālu komplektam:
 1. Atveriet cilni **Galvene** virs augšējās kopsavilkuma cilnes.
 1. Paplašiniet kopsavilkuma cilni **Saistītie ceļveži**.
 1. Atlasiet **Pievienot** rīkjoslā **Saistītie ceļveži**. Režģim tiek pievienota jauna rinda.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana MK:](media/instruction-guides-BOM.png "Ceļveža pievienošana MK")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Saistiet ceļvedi ar materiālu komplekta versiju
@@ -297,12 +297,12 @@ Lai ceļvedi pievienotu materiālu komplekta versijai:
 1. Dodieties uz **Ražošanas informācijas pārvaldība \> Materiālu komplekti un formulas \> Materiālu komplekti**.
 1. Atveriet MK, kas ietver versiju, kurai vēlaties piešķirt ceļvedi.
 1. Atveriet cilni **Galvene** virs augšējās kopsavilkuma cilnes.
-1. Kopsavilkuma cilnē **MK versijas**, atlasiet versiju, kurai vēlaties piešķirt ceļvedi.
+1. Kopsavilkuma cilnē **MK versijas** , atlasiet versiju, kurai vēlaties piešķirt ceļvedi.
 1. Rīkjoslā **MK versijas** atlasiet **Saistītie ceļveži**.
     ![Ar atlasīto MK versiju saistīto ceļvežu atvēršana](media/instruction-guides-BOMVersion.png "Ar atlasīto MK versiju saistīto ceļvežu atvēršana")
 1. Jūsu MK versijai tiek atvērta lapa **Saistītie ceļveži**.
 1. Lai režģim pievienotu jaunu rindu, darbības rūtī atlasiet **Pievienot**.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana MK versijai](media/instruction-guides-BOMVersionAddGuide.png "Ceļveža pievienošana MK versijai")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Saistīt ceļvedi ar maršrutu
@@ -323,7 +323,7 @@ Lai ceļvedi pievienotu maršrutam:
 1. Atveriet maršrutu, kuram vēlaties piešķirt ceļvedi.
 1. Paplašiniet kopsavilkuma cilni **Saistītie ceļveži**.
 1. Atlasiet **Pievienot** rīkjoslā **Saistītie ceļveži**. Režģim tiek pievienota jauna rinda.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana maršrutam](media/instruction-guides-Route.png "Ceļveža pievienošana maršrutam")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Saistīt ceļvedi ar maršruta versiju
@@ -345,7 +345,7 @@ Lai pievienotu ceļvedi maršruta versijai:
     ![Ar atlasīto maršruta versiju saistīto ceļvežu atvēršana](media/instruction-guides-RouteVersion.png "Ar atlasīto maršruta versiju saistīto ceļvežu atvēršana")
 1. Jūsu MK versijai tiek atvērta lapa **Saistītie ceļveži**.
 1. Lai režģim pievienotu jaunu rindu, darbības rūtī atlasiet **Pievienot**.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko vēlaties piešķirt.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko vēlaties piešķirt.
     ![Ceļveža pievienošana maršruta versijai](media/instruction-guides-RouteVersionAddGuide.png "Ceļveža pievienošana maršruta versijai")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Saistīt ceļvedi ar maršruta operācijas saiti
@@ -368,18 +368,18 @@ Lai pievienotu ceļvedi maršruta operācijas saitei:
 1. Darbības rūtī atveriet cilni **Maršruts** un grupā **Uzturēt** atlasiet **Maršruta informācija**.
 1. Atlasītajam maršrutam tiek atvērta lapa **Maršruta informācija**.
 1. Augšējā režģī atlasiet operāciju, kurai vēlaties sniegt norādījumus.
-1. Apakšējā režģī atlasiet specifisku saiti (vai vispārējo saiti **Viss**).
+1. Apakšējā režģī atlasiet specifisku saiti (vai vispārējo saiti **Viss** ).
     ![Atlasiet operāciju un pēc tam saiti](media/instruction-guides-RouteOperationRelation.png "Atlasiet operāciju un pēc tam saiti")
 1. Virs apakšējā režģa atveriet cilni **Saistītie ceļveži**.  ![Cilne Saistītie ceļveži](media/instruction-guides-RouteOperationRelation-AddGuide.png "Cilne Saistītie ceļveži")
 1. Atlasiet **Pievienot** rīkjoslā, kas atrodas apakšējā režģa augšdaļā, lai režģim pievienotu jaunu rindu.
-1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums**, lai izvēlētos ceļvedi, ko jūs vēlaties piešķirt. Pārējā rindā atzīmējiet izvēles rūtiņu katram kontekstam, kurā atlasītajam ceļvedim jābūt pieejamam.
+1. Jaunajai rindai lietojiet nolaižamo sarakstu kolonnā **Nosaukums** , lai izvēlētos ceļvedi, ko jūs vēlaties piešķirt. Pārējā rindā atzīmējiet izvēles rūtiņu katram kontekstam, kurā atlasītajam ceļvedim jābūt pieejamam.
 
 > [!NOTE]
 > Katram operācijas posmam var pievienot vienu vai vairākus ceļvežus.
 
 ## <a name="select-guides-from-the-shop-floor-execution-interface"></a>Atlasiet ceļvežus no ražotnes izpildes interfeisa
 
-Kad nodarbinātais atver darbu sarakstu ražotnes izpildes interfeisā, Supply Chain Management atrod atbilstošos ceļvežus parādītajiem darbiem. Izmantojiet pogu **Ceļveži**, lai skatītu atbilstošos ceļvežus.
+Kad nodarbinātais atver darbu sarakstu ražotnes izpildes interfeisā, Supply Chain Management atrod atbilstošos ceļvežus parādītajiem darbiem. Izmantojiet pogu **Ceļveži** , lai skatītu atbilstošos ceļvežus.
 
 ![Ceļvežu poga ražotnes izpildes interfeisā](media/instruction-guides-Shopfloor1.png "Ceļvežu poga ražotnes izpildes interfeisā")
 

@@ -3,7 +3,7 @@ title: Eksperimenta statusa pārskatīšana
 description: Šajā tēmā ir paskaidrots, kāds ir eksperimenta statuss eksperimenta dzīves ciklā pakalpojumā Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 097206c0aa487e14499bdf3907465e17b7d337e2
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: eea67ddc1718902198b74614ee1a910fc6e29c1d
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930241"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097074"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Eksperimenta statusa pārskatīšana
 Eksperimenta iestatīšana un izpildīšana pakalpojumā Dynamics 365 Commerce ir saistīta ar daudzām darbībām. Informāciju par eksperimenta dzīves ciklu skatiet sadaļā [Eksperimentēšana pakalpojumā Dynamics 365 Commerce](experimentation-overview.md).
 
-Lai uzzinātu, kur dzīves ciklā šobrīd atrodas eksperiments, dodieties uz cilni **Eksperimenti** vietnes veidotājā. Tiks parādīts eksperimentu saraksts ar katra eksperimenta statusu gan pakalpojumā Commerce, gan trešās puses pakalpojumā, kas tiek izmantots, lai iespējotu eksperimentu veidošanu, variantu piešķiršanu un datu analizēšanu.
+Lai uzzinātu, kur dzīves ciklā šobrīd atrodas eksperiments, kreisajā navigācijas rūtī Commerce vietņu veidotājā atlasiet **Eksperimenti**. Tiks parādīts eksperimentu saraksts ar katra eksperimenta statusu gan pakalpojumā Commerce, gan trešās puses pakalpojumā, kas tiek izmantots, lai iespējotu eksperimentu veidošanu, variantu piešķiršanu un datu analizēšanu.
 
 Kolonnā **Commerce statuss** var tikt parādītas tālāk norādītās vērtības. 
 - **Melnraksts** – eksperiments ir pievienots lapai vai fragmentam pakalpojumā Commerce un tiek rediģēts.

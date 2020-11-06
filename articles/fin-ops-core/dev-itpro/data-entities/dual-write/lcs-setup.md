@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172996"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998112"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Duālās rakstīšanas iestatījums no Lifecycle Services
 
@@ -46,7 +45,7 @@ Jums ir jābūt administratoram, lai iestatītu duālās rakstīšanas savienoju
 Sekojiet šīm darbībām, lai iestatītu duālās rakstīšanas savienojumu.
 
 1. Dodieties uz savu projektu portālā LCS.
-2. Atlasiet **Konfigurēt**, lai izvietotu jaunu vidi.
+2. Atlasiet **Konfigurēt** , lai izvietotu jaunu vidi.
 3. Atlasiet versiju. 
 4. Atlasiet topoloģiju. Ja ir pieejama tikai viena topoloģija, tā tiek automātiski atlasīta.
 5. Pabeidziet pirmās darbības **Izvietošanas iestatījumu** vednī.
@@ -56,7 +55,7 @@ Sekojiet šīm darbībām, lai iestatītu duālās rakstīšanas savienojumu.
 
         1. Iestatiet **Konfigurēt Common Data Service** opciju uz **Jā**.
         2. Laukā **Pieejamās vides** atlasiet vidi, ko integrēt ar jūsu Finance and Operations datiem. Saraksts ietver visas vides, kurās ir administratora privilēģijas.
-        3. Atzīmējiet izvēles rūtiņu **Piekrītu**, lai norādītu, ka piekrītat noteikumiem un nosacījumiem.
+        3. Atzīmējiet izvēles rūtiņu **Piekrītu** , lai norādītu, ka piekrītat noteikumiem un nosacījumiem.
 
         ![Common Data Service cilne, kad Common Data Service vide jau ir nodrošināta jūsu nomniekam](../dual-write/media/lcs_setup_1.png)
 
@@ -70,16 +69,16 @@ Sekojiet šīm darbībām, lai iestatītu duālās rakstīšanas savienojumu.
             > [!NOTE]
             > Vēlāk nevarēs mainīt valodu un valūtu.
 
-        5. Atzīmējiet izvēles rūtiņu **Piekrītu**, lai norādītu, ka piekrītat noteikumiem un nosacījumiem.
+        5. Atzīmējiet izvēles rūtiņu **Piekrītu** , lai norādītu, ka piekrītat noteikumiem un nosacījumiem.
 
         ![Common Data Service cilne, kad jūsu nomniekam vēl nav Common Data Service vides](../dual-write/media/lcs_setup_2.png)
 
 7. Pabeidziet atlikušās darbības **Izvietošanas iestatījumu** vednī.
-8. Pēc tam, kad vides statuss ir **Izvietots**, atveriet vides informācijas lapu. **Common Data Service vides informācijas** sadaļā ir redzami saistīto Finance and Operations vides un Common Data Service vides nosaukumi.
+8. Pēc tam, kad vides statuss ir **Izvietots** , atveriet vides informācijas lapu. **Common Data Service vides informācijas** sadaļā ir redzami saistīto Finance and Operations vides un Common Data Service vides nosaukumi.
 
     ![Common Data Service vides informācijas sadaļa](../dual-write/media/lcs_setup_3.png)
 
-9. Finance and Operations vides administratoram ir jāpiesakās portālā LCS un jāatlasa **Saite uz kompaktdiskiem lietojumprogrammām**, lai izveidotu saites. Vides informācijas lapa rāda administratora kontaktinformāciju.
+9. Finance and Operations vides administratoram ir jāpiesakās portālā LCS un jāatlasa **Saite uz kompaktdiskiem lietojumprogrammām** , lai izveidotu saites. Vides informācijas lapa rāda administratora kontaktinformāciju.
 
     Pēc tam, kad saite ir pabeigta, statuss tiek atjaunināts uz **Vides saistīšana ir veiksmīgi pabeigta**.
 

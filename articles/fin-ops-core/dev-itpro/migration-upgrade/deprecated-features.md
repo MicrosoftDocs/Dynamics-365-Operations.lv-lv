@@ -3,7 +3,7 @@ title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645393"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040126"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -43,7 +43,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 ar 31. platformas atjauninājumu
 
 ### <a name="chinese-voucher-types-without-account-groups-selection"></a>Ķīniešu dokumentu veidi bez kontu grupu atlases
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mainīts uz līdzekli ar kontu grupu atlasi. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -56,7 +56,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Operētājsistēmā Windows noveco SHA1 izmantošana, kā dokumentēts sadaļā [SHA1 sertifikātu izpilde Windows](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -66,7 +66,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(virknes ziņojums)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Operētājsistēmā Windows noveco SHA1 izmantošana, kā dokumentēts sadaļā [SHA1 sertifikātu izpilde Windows](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -77,7 +77,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs noņēmam **setUtcString ()** metodi, jo ir pieejama labāka nomaiņas metode. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -87,7 +87,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="blacklist-report-it--feature-reference-it-00001"></a>Melnā saraksta pārskats (IT) — Līdzekļa atsauce IT-00001
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nav likumīgi nepieciešama. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
@@ -97,7 +97,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Iekšzemes nodokļu pārskats — Līdzekļa atsauce IT-00003
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nav likumīgi nepieciešama. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
@@ -110,17 +110,20 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="us-payroll-tax-updates"></a>ASV algas nodokļa atjauninājumi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs pārtraucam nodokļu atjauninājumus ASV algu funkcionalitātei sakarā ar zemu lietojuma līmeni un uzlabotu funkcionalitāti, kas tagad tiek piedāvāta, izmantojot stratēģiskās integrācijas.  |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
-| **Ietekmētie produkta apgabali**         | Alga |
-| **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: mēs plānojam līdz 2021. gada 1. oktobrim vairs nenodrošināt nodokļu atjauninājumus ASV algas klientiem. Funkcionalitāte paliks precē, tomēr uzlabojumi vairs neatjauninās šo funkcionalitāti, un visi preces defekti tiks izvērtēti katrā gadījumā atsevišķi. Papildinformāciju skatiet rakstā [Nodokļu atjauninājumu pārtraukšana līdzeklim ASV alga programmā Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+| **Ietekmētie produkta apgabali**         | Payroll |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: mēs plānojam līdz 2024. gada 31. jūlijam vairs nenodrošināt nodokļu atjauninājumus ASV algas klientiem. Funkcionalitāte paliks precē, bet uzlabojumi vairs neatjauninās šo funkcionalitāti, un visi preces defekti tiks izvērtēti katrā gadījumā atsevišķi. |
+
+>[!NOTE]
+> Tas ataino izmaiņas no sākotnējā pārtraukšanas datuma — 2021. gada 1. oktobra. Papildinformāciju skatiet rakstā [Nodokļu atjauninājumu pārtraukšana līdzeklim ASV alga programmā Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq).
 
 
 ### <a name="data-management-staging-clean-up"></a>Datu pārvaldības sagatavošanas iztīrīšana
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Neatbilst pamata prasībām, kas nepieciešamas periodiskas tīrīšanas plānošanai. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, līdzeklis Darba vēstures tīrīšana tiek pievienots, lai izpildītu scenārijus kopumā. |
@@ -132,7 +135,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francija: FEC uzskaites datu eksports XML formātā
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar TXT formātu, **Franču FEC audita fails** ir pieejams, izmantojot ceļu **Virsgrāmata** \> **Periodiskie uzdevumi** \> **Datu eksports**.
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā |
@@ -143,7 +146,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="legacy-navigation-bar"></a>Mantotā navigācijas josla
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Galvenes līdzinājums ar citiem Dynamics un Office produktiem. Plašāku informāciju skatiet tēmā [Atjauninātā navigācijas josla, kas atrodas atbilstoši Office galvenei](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar atjauninājumu Platform update 24, tika ieviesta pārveidota navigācijas josla ar meklēšanas iespējām. |
@@ -157,7 +160,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="legacy-default-action-behavior"></a>Mantotā noklusējuma darbību uzvedība
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Noklusējuma darbību mantotās uzvedības rezultātā tiek izveidota neparedzēta kolonna ar noklusējuma darbības saiti pēc tam, kad tabulas kolonnas ir pārkārtotas, izmantojot personalizēšanu. Jaunais fiksēto noklusējuma darbību līdzeklis to koriģē. Papildinformāciju skatiet tēmā [Fiksētās noklusējuma darbības tabulās](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 21. platformas atjauninājumu, tika ieviests “fiksēto noklusējuma darbību” līdzeklis. Šo līdzekli var iespējot lapā **Klienta veiktspējas opcijas**. |
@@ -167,7 +170,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ### <a name="legacy-is-one-of-filtering-experience"></a>Mantotā filtrēšanas darbība "ir viens no"
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Filtrēšanas darbība “ir viens no” tika pārstrādāta 22. platformas atjauninājumā, paredzot, ka nākotnē tā būs vienīgā filtrēšanas darbība “ir viens no”. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Sākot ar 22. platformas atjauninājumu, uzlabota filtrēšanas darbība “ir viens no” kļuva pieejama lapā **Klienta veiktspējas opcijas**. Papildinformāciju skatiet sadaļā [Optimizēta filtra “ir viens no” izmantošana](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
@@ -178,7 +181,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parametrs, lai iespējotu pārdošanas pasūtījumus ar vairākiem projekta līguma finansējuma avotiem
 Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta līgumam ir vairāki finansējuma avoti, tiek iespējots, izmantojot sadaļas **Projektu pārvaldības parametri** iestatījumu **Atļaut pārdošanas pasūtījumus projektam ar vairākiem finansējuma avotiem**. Pēc noklusējuma šis parametrs nav iespējots. 
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitāte vienmēr būs iespējota pēc parametra noņemšanas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. Funkcionalitāte, kas nodrošina atbalstu no projekta atkarīgiem pārdošanas pasūtījumiem ar vairākiem finansējuma avotiem, vienmēr būs iespējota.   |
@@ -188,7 +191,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 
 ### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Mantoti darbplūsmas pārskati izsekošanas un gadījumu statusam
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mantotajiem darbplūsmas ziņojumiem izsekošanas un gadījumu statusam tiek pārtraukts atbalsts, jo uz tiem vairs nav atsauces navigācijā. Pārskatu nosaukumi ir WorkflowWorkflowInstanceByStatusReport un WorkflowWorkflowTrackingReport. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Tā vietā var izmantot darbplūsmas vēstures formu. |
@@ -203,7 +206,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Atvasināšana no iekšējām klasēm ir novecojusi
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams izveidot klasi vai tabulu, kura atvasināta no iekšējas klases/tabulas, kas ir definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Kompilatora brīdinājums tiks aizstāts ar kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku.|
@@ -213,7 +216,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Iekšējo metožu ignorēšana ir novecojusi
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Pirms 25. platformas atjauninājuma bija iespējams ignorēt iekšēju metodi atvasinātā klasē, kas definēta citā pakotnē/modulī. Šāda kodēšanas prakse nav droša. Sākot ar 25. platformas atjauninājumu, kompilators parādīs brīdinājumu. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu 26. platformas atjauninājumā. Šī izmaiņa ir atpakaļsaderīga izpildlaikā, tādējādi 25. platformas atjauninājumu vai jaunāku versiju var izvietot jebkurā smilškastes vai ražošanas vidē bez nepieciešamības modificēt pielāgoto kodu. Šīs izmaiņas ietekmē tikai izstrādes un kompilēšanas laiku. |
@@ -224,9 +227,9 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 ## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 ar 24. platformas atjauninājumu
 
 ### <a name="renaming-released-products"></a>Izlaisto preču pārdēvēšana 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Izmantojot funkciju **Pārdēvēt primāro atslēgu**, lai izmainītu izlaistās preces ItemId, tiek atjauninātas tikai tiešās ārējās atslēgas atsauces. Vecais ItemId tiks saglabāts jebkādās citās atsaucēs par izlaisto preci, piemēram, ražošanas pasūtījumos. Rezultātā var rasties neatbilstīgi dati, kas pēc tam bloķē biznesa procesu. |
+| **Novecošanas/noņemšanas pamatojums** | Izmantojot funkciju **Pārdēvēt primāro atslēgu** , lai izmainītu izlaistās preces ItemId, tiek atjauninātas tikai tiešās ārējās atslēgas atsauces. Vecais ItemId tiks saglabāts jebkādās citās atsaucēs par izlaisto preci, piemēram, ražošanas pasūtījumos. Rezultātā var rasties neatbilstīgi dati, kas pēc tam bloķē biznesa procesu. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība |
 | **Izvietošanas iespēja**              | Visu  |
@@ -236,9 +239,9 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer
-Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
+Klienti var izmantot darbību **Eksportēt** , kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Versija bez lapdales HTML priekšskatījumā **nenodrošina** precīzu atbilstību fiziskajiem dokumentiem, kas galu galā tiek izveidoti programmā Finance and Operations. Pilnībā ieviešot PDF kā standarta formātu biznesa dokumentiem, lietotāji var izmantot modernas skatīšanas iespējas ar uzlabotu veiktspēju, veidojot pieteikumu pārskatus. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Turpmāk PDF dokumenti būs noklusējuma formāts pārskatiem, kurus atveido programma Finance and Operations.   |
@@ -249,7 +252,7 @@ Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Serv
 ### <a name="client-kpi-controls"></a>Klienta KPI vadīklas
 Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI) programmā Visual Studio, un lietotājs var veikt to turpmāku pielāgošanu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Tādu vietējā klienta vadīklu gadījumā, ko izmanto, lai definētu KPI, ir zema klientu aktivitāte un ir nepieciešams izstrādātājs, lai pievienotu izsekojamus rādītājus. |
 | **Vai ir aizstāts ar citu līdzekli?**   | PowerBI.com pakalpojums nodrošina pasaules līmeņa rīkus KPI definēšanai un pārvaldībai, balstoties uz datiem no ārējiem avotiem.  Turpmākajos laidienos ir paredzēta iespēja pakalpojumā PowerBI.com viesotus risinājumus iegult programmas darbvietās.   |
@@ -261,9 +264,9 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 
 #### <a name="field-groups-containing-invalid-field-references"></a>Lauku grupas, kas ietver nederīgas lauku atsauces
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums*, nevis *kļūda*, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
+| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums* , nevis *kļūda* , līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
@@ -277,7 +280,7 @@ Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem
 Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. Papildinformāciju skatiet emuārā [Virsgrāmatas parametri — partijas pārsūtīšanas kārtulas](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs noņēmām sinhrono opciju veiktspējas ietekmes uz sistēmu dēļ. |
 | **Vai aizstāts ar citu līdzekli?**   | Opciju Asinhroni un plānoto partiju var izmantot opcijas Sinhroni vietā.   |
@@ -288,7 +291,7 @@ Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis rež
 ### <a name="electronic-reporting-for-russia"></a>Elektroniskā pārskata veidošanas formāts Krievijai
 Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nomainīts ar elektronisku iesniegšanu. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. |
@@ -299,7 +302,7 @@ Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai.
 ### <a name="financial-reports-generator-for-russia"></a>Finanšu pārskatu veidotājs Krievijai
 Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai. Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Noņemtās daļas ir aizstātas ar elektroniskajiem pārskatiem. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem. Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā. |
@@ -310,7 +313,7 @@ Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai
 Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar konfigurējamu elektronisko ziņojumu līdzekli. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā.  |
@@ -322,7 +325,7 @@ Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi t�
 ### <a name="profit-tax-register-wizard"></a>Peļņas nod. reģ. vednis
 Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis rada X++ objektus jauniem reģistriem, kuri pēc tam tiek izveidoti kā veidnes ar pievienotu atbilstošu aprēķina loģiku.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Līdzeklis nav saderīgs ar Finance and Operations paplašināšanas modeli. |
 | **Vai aizstāts ar citu līdzekli?**   | Nav |
@@ -339,7 +342,7 @@ Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15.
 ### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
 Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Papildinformāciju skatiet rakstā [Preču ieteikumu pārskats](../../../commerce/product-recommendations.md).  
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.  |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
@@ -350,10 +353,10 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašinājums
 Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER izteiksmju veidotājā (papildinformāciju skatiet šeit: [Elektronisko pārskatu veidošanas (ER) funkciju saraksta paplašināšana](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)). Līdz ar ER programmēšanas interfeisa (API) izmaiņu ieviešanu tas API, kurš bija paredzēts iebūvētu funkciju izsaukšanai no ER izteiksmju veidotāja, ir kļuvis iekšējs, un to vairs nevar paplašināt.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Koda noslēgšanas iniciatīva  |
-| **Vai aizstāts ar citu līdzekli?**   | Nav. Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.<br><br>Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi. Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase**, kas attiecas uz šo pielāgoto programmas klasi.  |
+| **Vai aizstāts ar citu līdzekli?**   | Nav. Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.<br><br>Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi. Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase** , kas attiecas uz šo pielāgoto programmas klasi.  |
 | **Ietekmētie produkta apgabali**         | Elektronisko pārskatu veidošanas struktūra                                                      |
 | **Izvietošanas iespēja**              | Visus                                                                                      |
 | **Statuss**                         | Noņemts, sākot ar Finance and Operations Enterprise Edition 7.3.    |
@@ -362,7 +365,7 @@ Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER�
 
 Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations. Lai uzlabotu lietotāju funkcionalitāti, to vietā var izmantot pārskatu **Krājumu vecumstruktūras**.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |--------------|-----------------------|
 | **Novecošanas pamatojums**       | Funkcionalitātes dublēšanās  |
 | **Vai aizstāts ar citu līdzekli?** | Jā. Šie abi pārskati ir aizstāti ar pārskatu **Krājumu vecumstruktūras**.     |
@@ -371,12 +374,12 @@ Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations. L
 | **Statuss**                       | Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3. Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods. Šo kodu ir plānots noņemt turpmākajos laidienos. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Vietnē AppSource pieejamās Power BI satura pakotnes
-Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī sistēmas administrēšanas veidlapas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
+Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība** , **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja** , kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī sistēmas administrēšanas veidlapas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
-| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība** , **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja** , kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība, Finanses un Retail                                                                                               |
 | **Izvietošanas iespēja**              | Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)                                                                                                            |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.    |
@@ -385,7 +388,7 @@ Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pako
 
 Standarta UI datu pārvaldībā ir pārmantotais UI, un tas ir noklusējuma UI, kurš tiek radīts lietotājiem, kad viņi apmeklē datu pārvaldības darbvietu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs cenšamies jaunajā UI nodrošināt jaunu lietotāja funkcionalitāti.             |
 | **Vai aizstāts ar citu līdzekli?**   | Veco UI nomaina jaunais UI, kura nosaukums ir *Uzlabotie skati*.            |
@@ -397,7 +400,7 @@ Standarta UI datu pārvaldībā ir pārmantotais UI, un tas ir noklusējuma U
 
 Šie nodokļi ir ietilpināti Indijas GST.
 
-|                                             |                                                                         |
+|  &nbsp;                                           |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Noņemšanas vai novecošanas pamatojums**       | Šie nodokļi ir ietilpināti Indijas GST.                          |
 | **Vai aizstāts ar citu līdzekli?**            | Indijas GST                                                              |
@@ -407,7 +410,7 @@ Standarta UI datu pārvaldībā ir pārmantotais UI, un tas ir noklusējuma U
 
 ### <a name="file-validation-utility-fvu-for-india"></a>Failu validēšanas utilīta (FVU) Indijai
 
-|                                             |                                                                         |
+|              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Noņemšanas vai novecošanas pamatojums**       | Debitoru lietojuma trūkums                                                  |
 | **Vai aizstāts ar citu līdzekli?**            | Nē                                                                      |
@@ -419,7 +422,7 @@ Standarta UI datu pārvaldībā ir pārmantotais UI, un tas ir noklusējuma U
 
 Lietotāji to var lejupielādēt no valsts portāla.
 
-|                                             |                                                                         |
+|             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Noņemšanas vai novecošanas pamatojums**       | Debitoru lietojuma trūkums                                                  |
 | **Vai aizstāts ar citu līdzekli?**            | Nē                                                                      |
@@ -430,7 +433,7 @@ Lietotāji to var lejupielādēt no valsts portāla.
 ### <a name="exportimport-exim-incentive-scheme-for-india"></a>Eksporta/importa (EXIM) veicināšanas shēma Indijai
 
 
-|                                             |                                                                         |
+|              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Noņemšanas vai novecošanas pamatojums**       | Debitoru lietojuma trūkums                                                  |
 | **Vai aizstāts ar citu līdzekli?**            | Nē                                                                      |
@@ -444,7 +447,7 @@ Lietotāji to var lejupielādēt no valsts portāla.
 ### <a name="personalized-product-recommendations"></a>Personalizēti preču ieteikumi 
 Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt personalizētus preču ieteikumus pārdošanas punkta (POS) ierīcē. Papildinformāciju skatiet rakstā [Preču ieteikumu pārskats](../../../commerce/product-recommendations.md).  
 
-|   |  |
+|  &nbsp; |  &nbsp;|
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mēs noņemam preču ieteikumu pakalpojuma pašreizējo versiju, jo pārveidojam šo līdzekli, pievienojot tam uzlabotu algoritmu un jaunākas uz mazumtirdzniecību orientētas iespējas.  |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Tomēr 2018. gada vasaras sākumā mēs plānojam atjaunot so līdzekli, lai izmantotu jaunu ieteikumu pakalpojumu.   |
@@ -459,7 +462,7 @@ Sākot ar 2018. gada 15. februāri, mazumtirgotāji vairs nevarēs rādīt per
 
 Valūtas konvertēšana uzskaites un pārskata valūtām tika ieviesta, kad tika ieviests eiro.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums un papildināšana ar juridiskās personas kopēšanas funkcionalitāti kā aizvietojumu.      |
 | **Vai aizstāts ar citu līdzekli?**   | Nē, bet tika pievienoti līdzekļi “Kopēt juridisko personu” un “Konfigurācijas”, lai būtu ērtāk pāriet uz uzņēmumu, kam ir mainīgas pamata prasības. |
@@ -471,7 +474,7 @@ Valūtas konvertēšana uzskaites un pārskata valūtām tika ieviesta, kad tika
 
 Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) bija savrupa komponents, kas bija paredzēts lokālai lietotāja veiktai izvietošanai. Šis komponents vairs netiek atbalstīts pakalpojumā Finance and Operations. WMDP funkcionalitāte ir aizstāta ar iekšēju programmu, kas uzlabo lietotāju iespējas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās.       |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā. Šis līdzeklis ir aizstāts ar Finance and Operations - Warehousing. Papildinformāciju par iestatīšanu un priekšnoteikumiem skatiet rakstā [Programmas Noliktavas instalēšanas un konfigurēšanas pārskats](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
@@ -483,7 +486,7 @@ Noliktavas mobilo ierīču portāls (Warehouse mobile devices portal — WMDP) 
 
 Atbilstības kārtula tika izmantota, lai atlasītu un atzīmētu bankas dokumentu, manuāli nosakot dokumentu atbilstību saskaņošanas darblapā.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums.                                                                         |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Saskaņojamo dokumentu atrašanai ir jāizmanto kolonnu filtrēšanas iespējas. |
@@ -497,7 +500,7 @@ Atbilstības kārtula tika izmantota, lai atlasītu un atzīmētu bankas dokumen
 
 Consejo Superior Bancario maksājumu formāti tika izmantoti, lai pārskaitījumu failus nosūtītu uz banku debitoru un kreditoru maksājumiem. Šo formātu saturu noteica Asociación Española de Banca. Tas attiecas uz Cuaderno 19, 32, 58, 34.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                                  |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 formātiem Kredīta pārskaitījums un Tiešā debeta maksājums Spānijai |
@@ -508,7 +511,7 @@ Consejo Superior Bancario maksājumu formāti tika izmantoti, lai pārskaitījum
 
 Bankas maksājumu pārskaitījumi tika ģenerēti un drukāti, Lietuvai izmantojot eksporta formātu Maksājuma pārsūtījums (LT). Lietuvas tirgus 2005. gadā sāka izmantot LITAS — vienoto elektronisko banku sistēmu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Lietuvai     |
@@ -519,7 +522,7 @@ Bankas maksājumu pārskaitījumi tika ģenerēti un drukāti, Lietuvai izmantoj
 
 Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēšanas eksportēšanu (tiešais debets) un atgrieztā ziņojuma importēšanu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.  |
 | **Vai aizstāts ar citu līdzekli?**   | Tiešā debeta ziņojumu ģenerēšanai Norvēģijai var izmantot maksājumu formātu AvtaleGiro debitors. Atgrieztā ziņojuma importēšana tiks ieviesta turpmākajos laidienos. |
@@ -530,7 +533,7 @@ Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēš
 
 Šis rīks tiek lietots, kad kontu plānam Spānijā ir nepieciešamas būtiskas izmaiņas. Lietotāji var importēt jaunu kontu plānu programmas Microsoft Excel vai teksta formātā, kā arī var importēt finanšu pārskatus.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums                                                  |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                             |
@@ -541,7 +544,7 @@ Maksājumu formāti BBS Direkte Remittering ietver debitora maksājuma iekasēš
 
 Mantojuma Beļģijas maksājuma formāts maksājumu iekasēšanai (tiešais debets).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                          |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO 20022 maksājuma formātu Tiešais debets Beļģijai         |
@@ -552,7 +555,7 @@ Mantojuma Beļģijas maksājuma formāts maksājumu iekasēšanai (tiešais debe
 
 AMNA/EZAG formāti ir integrēti ESR sistēmā, jo tiem var būt atsauces numurs. Tā kā atsauces numurs nav obligāts, šos formātus var izmantot, lai apstrādātu jebkurus kreditoru maksājumus. Šos formātus lieto uzņēmumi, kuru bankas konta atrašanās vieta nav “Postfinance”.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Šveicei   |
@@ -563,7 +566,7 @@ AMNA/EZAG formāti ir integrēti ESR sistēmā, jo tiem var būt atsauces numurs
 
 Maksājuma formāts EDIFACT-DIRDEB maksājumu iekasēšanai (tiešais debets).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                          |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO 20022 maksājuma formātu Tiešais debets Austrijai         |
@@ -574,7 +577,7 @@ Maksājuma formāts EDIFACT-DIRDEB maksājumu iekasēšanai (tiešais debets).
 
 EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmantojot drošu pastu. Programmā Dynamics AX 2012 tiek saglabāts tikai lasīšanas risinājums, lai nodrošinātu piekļuvi vēsturiskajiem datiem.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte vairs netiek izmantota.                           |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                             |
@@ -585,7 +588,7 @@ EDIVAT ir novecojis Beļģijas standarts elektroniskajai deklarēšanai, izmanto
 
 eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja kredīta izziņas paziņojums), kurš tiek izmantots automātiskai debitoru maksājumu grāmatošanai. Programmā Dynamics AX, eGiro ir ieviests kā klientu maksājumu importēšanas formāts.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                                                     |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.054 paziņojuma importēšanu. |
@@ -596,7 +599,7 @@ eGiro ir balstīts uz starptautisko standartu UN EDIFACT CREMUL (Daudzkārtēja 
 
 Pierādījums par precēm, kas no kreditora tiek ņemtas pārdošanai bez pirkšanas. Preces, ar kurām darbības tiek veiktas ārējos krājumos, neietekmē standarta krājumus, un tās var pārdot un pēc tam iegādāties automātiski. Šis process izveido reālu krājumu kustības.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar citu līdzekli                                    |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar pamata funkcionalitāti Ienākošs sūtījums                |
@@ -607,7 +610,7 @@ Pierādījums par precēm, kas no kreditora tiek ņemtas pārdošanai bez pirkš
 
 Tiek izmantots rīks, lai iestatītu uzskaites un nodokļu pārskatu datu vākšanu un eksportētu datus uz XLS un DOC pārskatu veidnēm.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums                                                                            |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Turpmākajos laidienos šis rīks tiks aizstāts ar elektronisko pārskatu veidošanas konfigurācijām. |
@@ -618,7 +621,7 @@ Tiek izmantots rīks, lai iestatītu uzskaites un nodokļu pārskatu datu vākš
 
 Varat atlasīt importa formātu Somijas maksājumiem, lai importētu debitoru maksājumu transakcijas no bankas nodrošināta ārēja faila.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                                                     |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.054 paziņojuma importēšanu. |
@@ -629,7 +632,7 @@ Varat atlasīt importa formātu Somijas maksājumiem, lai importētu debitoru ma
 
 Formāts, kas ir raksturīgs Somijai, tiek izmantots, lai virsgrāmatā importētu uzskaites transakcijas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                                                     |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.053 bankas izraksta importēšanu, izmantojot Detalizēta bankas darbību saskaņošana. |
@@ -640,7 +643,7 @@ Formāts, kas ir raksturīgs Somijai, tiek izmantots, lai virsgrāmatā importē
 
 Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standarts Beļģijā.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Integrēšana ar Isabel klientu ir pārtraukta.   |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Maksājumu formāti, kas vairs netiek izmantoti, tiek aizstādi ar ISO20022 maksājuma formātu Kredīta pārskaitījums Beļģijai. |
@@ -651,7 +654,7 @@ Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standa
 
 Šis līdzeklis tiek izmantots kontu plāna un uzskaites nosacījumu izmaiņām Spānijā. Tas kartē kontus, lai veco kontu plānu palīdzētu pārveidot par jaunu kontu plānu, un iepriekšējo finanšu gadu salīdzina ar jauno finanšu gadu, pat ja tie tika grāmatoti dažādos kontu numuros.
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ierobežots lietojums                                                  |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                             |
@@ -662,7 +665,7 @@ Isabel ir elektroniskās banku sistēmas struktūra Eiropā un faktiskais standa
 
 Mantots Itālijas maksājuma formāts kredīta pārskaitījumiem.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis maksājuma formāts vairs netiek izmantots.                          |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Itālijai         |
@@ -673,7 +676,7 @@ Mantots Itālijas maksājuma formāts kredīta pārskaitījumiem.
 
 Formāti Telehansa un Teleservice tiek izmantoti bankas maksājumu eksportēšanai.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Igaunijai       |
@@ -684,7 +687,7 @@ Formāti Telehansa un Teleservice tiek izmantoti bankas maksājumu eksportēšan
 
 Kad tiek ģenerēti maksājumu faili, šo failu arhīvs automātiski arhivē visus failus, kas tiek izveidoti — pat failus, kas bija iepriekš rakstīti vai lasīti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar citu līdzekli                                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar arhivētajiem elektronisko pārskatu darbiem                            |
@@ -695,7 +698,7 @@ Kad tiek ģenerēti maksājumu faili, šo failu arhīvs automātiski arhivē vis
 
 Formāti Telehansa un TeleTeenus tiek izmantoti bankas maksājumu importēšanai.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                                                    |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Camt.054 bankas paziņojuma importēšanu. |
@@ -706,10 +709,10 @@ Formāti Telehansa un TeleTeenus tiek izmantoti bankas maksājumu importēšanai
 
 Personāla vadības algas informācija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar pamata lapām Alga un Personāla vadība.  |
-| **Vai aizstāts ar citu līdzekli?**   | Lapas **Atvieglojumi**, **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** \> **Alga**. |
+| **Vai aizstāts ar citu līdzekli?**   | Lapas **Atvieglojumi** , **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** \> **Alga**. |
 | **Ietekmētie produkta apgabali**         | Personāla vadība, Alga   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
@@ -717,7 +720,7 @@ Personāla vadības algas informācija
 
 Veiktspējas pārvaldība ietver mērķu pārvaldīšanu un integrēšanu ar veiktspējas pārskatiem.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Veiktspējas pārvaldība tika pārveidota, un mērķa lapu skaits tika samazināts, lai vienkāršotu šo procesu.                 |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Mērķi ir redzami vadītājiem, izmantojot portālu Vadītāja pašapkalpošanās, un vadītājs tos var mainīt un apskatīt. |
@@ -728,7 +731,7 @@ Veiktspējas pārvaldība ietver mērķu pārvaldīšanu un integrēšanu ar vei
 
 Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai.
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Zviedrijai        |
@@ -739,7 +742,7 @@ Maksājumu formāti Postgirot un Postgirot Utland Zviedrijai.
 
 Radiofrekvences identifikācija (RFID) ir datu vākšanas tehnoloģija, kas izmanto elektroniskos tagus identifikācijas datu glabāšanai un prasībām atbilstošu lasītāju šo identifikācijas datu uztveršanai.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems klientu lietojums un ierobežota līdzekļu kopa.   |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                              |
@@ -750,7 +753,7 @@ Radiofrekvences identifikācija (RFID) ir datu vākšanas tehnoloģija, kas izma
 
 Latvijas likumdošana nodrošina īpašus noteikumus par pārdošanas rēķinu numerāciju. Šī funkcionalitāte jums ļauj pārdošanas rēķiniem piešķirt īpašus numurus, pamatojoties uz lietotāju vai lietotāju grupu. Pēc tam varat ģenerēt pārskatu vai XML failu. Varat arī izdrukāt pārskatu par izmantotajiem rēķinu numuriem.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Valsts rēķinu numerācija vairs nav jāuztur. Pārskats par izmantotajiem rēķinu numuriem vairs nav nepieciešams. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē       |
@@ -761,7 +764,7 @@ Latvijas likumdošana nodrošina īpašus noteikumus par pārdošanas rēķinu n
 
 Uzņēmuma vadītāja un galvenā grāmatveža vārdus var norādīta uzņēmuma informācijā un izmantot dažādās vietējo pārskatu izdrukās.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Aizstāts ar citu līdzekli                                     |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, šiem pašiem nolūkiem var izmantot amatpersonu iestatīšanu.   |
@@ -770,7 +773,7 @@ Uzņēmuma vadītāja un galvenā grāmatveža vārdus var norādīta uzņēmuma
 
 ### <a name="shipping-carrier-interface"></a>Sūtījumu pārvadātāja interfeiss
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās   |
 | **Vai aizstāts ar citu līdzekli?**   | Daļēji aizstāts ar līdzekli Transportēšanas pārvaldība |
@@ -781,7 +784,7 @@ Uzņēmuma vadītāja un galvenā grāmatveža vārdus var norādīta uzņēmuma
 
 Maksājumu formāti Telepay ietver kreditoru maksājumu eksportēšanu (kredīta pārskaitījums) un debitoru maksājumu iekasēšanu (tiešais debets).
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                                                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 Kredīta pārskaitījuma maksājuma formāts un AvtaleGiro debitora maksājuma formāts Norvēģijai, kā arī pain.002 un camt.054 bankas paziņojuma atgriešanas failu importēšana. |
@@ -792,7 +795,7 @@ Maksājumu formāti Telepay ietver kreditoru maksājumu eksportēšanu (kredīta
 
 Divi formāti maksājumu eksportēšanai ir pieejami Somijā. LM02 (FI) tiek izmantots iekšzemes maksājumiem un LUM2 (FI) tiek izmantots ārvalstu maksājumiem.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šie maksājumu formāti vairs netiek izmantoti.                        |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, ar ISO20022 maksājuma formātu Kredīta pārskaitījums Somijai       |
@@ -801,7 +804,7 @@ Divi formāti maksājumu eksportēšanai ir pieejami Somijā. LM02 (FI) tiek izm
 
 ### <a name="warehouse-management-ii"></a>Noliktavas vadība II
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Risinājumam Noliktavas vadība II (WMS II), kas bija pieejams modulī **Krājumu pārvaldība** , ir tāda pati funkcionalitāte kā modulim **Noliktavas vadība** , kas tika izlaists atjauninājumā Dynamics AX 2012 R3.                                                                         |
 | **Vai ir aizstāts ar citu līdzekli?**   | Modulis **Noliktavas vadība** , kas tika izlaists atjauninājumos AX 2012 R3, Dynamics AX 2012 R3 CU8 un Dynamics AX 2012 R3 CU9, aizstāj līdzekļa Noliktavas vadība II līdzekļus. Jaunajam modulim ir uzlabotāki līdzekļi un elastīgāki noliktavas vadības procesi nekā modulim Noliktavas vadība II. |
@@ -812,7 +815,7 @@ Divi formāti maksājumu eksportēšanai ir pieejami Somijā. LM02 (FI) tiek izm
 
 Personāla vadības algas informācija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums                                                           |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                  |
@@ -823,7 +826,7 @@ Personāla vadības algas informācija
 
 Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākām darbplūsmām, kas bija pieejamas, lai palīdzētu koordinēt veiktspējas pārvaldības procesu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Programmā Finance and Operations ir pilnībā pārveidota veiktspējas pārvaldība.     |
 | **Vai aizstāts ar citu līdzekli?**   | Pārveidotais līdzeklis Veiktspējas pārvaldība sniedz lielāku kontroli pār mērķu saturu, mērījumiem, kas tiek izmantoti progresa izsekošanai, un pavaddokumentu piesaistīšanu. Mērķus var glabāt kā veidnes un pēc tam lietot atkārtoti. Šis līdzeklis jums var palīdzēt ātrāk iestatīt papildu mērķus saviem darbiniekiem. |
@@ -835,7 +838,7 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Spēja atcelt kreditora rēķinā veiktās izmaiņas
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Veiktspējas uzlabojums        |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                             |
@@ -844,9 +847,9 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD un AxBC integrācijas
 
-Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
+Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu* , kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | AIF un AxDs arhitektūru nevarēja mērogot uz mākoņa pakalpojumu. Radās veiktspējas problēmas saistībā ar lielapjoma importēšanu.                                        |
 | **Vai aizstāts ar citu līdzekli?**   | Šis līdzeklis ir aizstāts ar datu importēšanas/eksportēšanas struktūru, kura atbalsta periodisku lielapjoma importēšanu/eksportēšanu. Strādājot ar AxBC, ieteicams lietot faktiskās tabulas. |
@@ -857,7 +860,7 @@ Programmu integrācijas struktūrā (Application Integration Framework — AIF) 
 
 Norēķinu skripti tika izmantoti, lai aprēķinātu norēķinu likmes norēķinu kodiem. Šiem skriptiem bija nepieciešama pielāgota izstrāde programmēšanas valodā C Sharp vai Visual Basic. Pašreizējā Dynamics AX versijā **norēķinu koda likmes skripti** netiek atbalstīti.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Programmā Dynamics AX 7.0 netika pievienots atbalsts pielāgotiem C Sharp vai Visual Basic skriptiem. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē                                                                                      |
@@ -866,9 +869,9 @@ Norēķinu skripti tika izmantoti, lai aprēķinātu norēķinu likmes norēķin
 
 ### <a name="boms-without-bom-versions"></a>MK bez MK versijām
 
-Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1. Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu **MK versijas**.
+Kad tika atspējota konfigurācijas atslēga **MK versijas** , materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1. Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu **MK versijas**.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Konfigurācijas atslēgas izmantošana, lai kontrolētu MK versijas, netiek mērogota mākoņa vidē. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                                      |
@@ -879,7 +882,7 @@ Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplek
 
 Īpaša maksāšanas metode Brazīlijas uzņēmumiem
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Brazīlijas lokalizācijā ir pārtraukts atbalsts Brazīlijas maksāšanas metodei Bordero |
 | **Vai aizstāts ar citu līdzekli?**   | Nē   |
@@ -890,7 +893,7 @@ Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplek
 
 Federālā nodokļa izraksts ICMS nodokļiem
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis izraksts vairs nav lietojams noteiktos Brazīlijas štatos. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Lietotāji var izmantot vispārīgo elektronisko atskaišu veidošanas rīku, lai konfigurētu šo izrakstu, ja konkrētās situācijās tas ir nepieciešams. |
@@ -901,7 +904,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 
 (SCAN) nejaušību vide tiek izmantota, lai ģenerētu, eksportētu un importētu Nota Fiscal eletrônica (NF-e) statusu, kad nav pieejama vide Secretaria da Fazenda (SEFAZ).
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī nejaušību metode vairs nav lietojama visos Brazīlijas štatos |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                          |
@@ -912,7 +915,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 
 Šī mobilā programmas lietotājiem ļauj pārskatīt galvenos biznesa rādītājus.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli.   |
 | **Vai aizstāts ar citu līdzekli?**   | Microsoft Power BI satura pakotnē Finanšu veiktspējas pārraudzība tiks ietverti galvenie finanšu rādītāji, kas iepriekš bija pieejami biznesa analizatorā. |
@@ -923,7 +926,7 @@ Federālā nodokļa izraksts ICMS nodokļiem
 
 Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt organizācijas veiktspēju
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Mantojuma pieeja biznesa informācijai (BI), zems klientu lietojums un ierobežota līdzekļu kopa |
 | **Vai aizstāts ar citu līdzekli?**   | Jauni BI risinājumi pašreizējai Dynamics AX versijai                                      |
@@ -932,7 +935,7 @@ Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt orga
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Mainīt dokumenta datuma funkciju rēķinu apstiprināšanas žurnālā
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums                                                               |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Grāmatotajā kreditora transakcijā var mainīt dokumenta datumu. |
@@ -941,7 +944,7 @@ Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt orga
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>ClieOp03 maksājuma formāts Nīderlandei
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis formāts Nīderlandē vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti. |
 | **Vai aizstāts ar citu līdzekli?**   | SEPA maksājumu eksportēšana  |
@@ -952,7 +955,7 @@ Biznesa statistikas uzziņu iestatījums, kas jums var palīdzēt analizēt orga
 
 Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pārvaldīšanai, lai nodrošinātu atbilstību ar Sarbanes-Oxley likumu saistītajām iniciatīvām.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Debitoru lietojuma trūkums. Microsoft SharePoint nodrošina tādas pašas iespējas, kādas bija pieejamas atbilstības centrā. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē   |
@@ -963,7 +966,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 Šis rīks tika izmantots programmā Microsoft Dynamics CRM ietverto pamatdatu integrēšanai Dynamics ERP lietojumprogrammās.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Common data service                                      |
@@ -972,7 +975,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Konteinera vienība un rīcībā esošie vairākdimensiju krājumi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Sākot ar versiju AX 2012, šī funkcionalitāte ir aizstāta ar konsolidēto partijas pasūtījumu līdzekļu kopu. Šī līdzekļu kopa ietver konsolidēto rīcībā esošo krājumu skatu. |
@@ -981,7 +984,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 ### <a name="cue-group-metadata"></a>Norādījumu grupas metadati
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Norādījumu grupas tika izmantotas, lai papildinformācijas apgabalā parādītu vienu vai vairākus norādījumus. Pastāvēja uzņemšanas ierobežojumi, un bija arī veiktspējas problēmas, jo ieraksta izmaiņas primārajā formā izraisīja vienu vaicājumu katram norādījumu grupas norādījumam. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē      |
@@ -990,7 +993,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 ### <a name="cue-metadata"></a>Norādījuma metadati
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Norādījuma metadati bija ierobežoti ar informāciju par skaitu vai summu.    |
 | **Vai aizstāts ar citu līdzekli?**   | Tika ieviesti elementa metadati, lai modelēšanai nodrošinātu lielāku elastību. Piemēram, varat modelēt pašreizējo skaitu, navigāciju un galvenos veiktspējas rādītājus (KPI). Skaita elementa metadati ir tiešs norādījuma metadatu aizstājējs. |
@@ -999,7 +1002,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 ### <a name="danish-check-format"></a>Dānijas čeka formāts
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ir pārtraukta atbalsta sniegšana Dānijas čeka formāta izkārtojumam, un šī atskaite ir noņemta no DK lokalizācijas. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē    |
@@ -1010,7 +1013,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 
 Datu nodalījumi nodrošina loģisku datu nošķiršanu Dynamics AX datu bāzē.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Datu nodalījumi tika ieviesti versijā Dynamics AX 2012 R2, lai nodrošinātu datu nošķiršanu. Tipiskā scenārijā uzņēmumam ir filiāles, un datiem no vienas filiāles nevajadzētu būt redzamiem citai filiālei, lai gan abas filiāles pārvalda tā pati IT nodaļa. Taču bija nepieciešami papildu skripti un pārvaldība visā programmā, lai izveidotu jaunus nodalījumus un aizpildītu tos ar datiem, kā arī lai veiktu nodalījuma datu dublējumus. Mākonī, kur var piekļūt platformas pakalpojuma (PaaS) datu bāzu pakalpojumiem (Microsoft Azure SQL datu bāzei), izmantot datu bāzi kā nošķiršanas konteineru ir daudz efektīvāk, nekā veikt nošķiršanu programmā. Neatkarīgi no tā, vai datu nodalījumu izmantošana ir nepieciešama filiālēm, vairākiem nomniekiem vai tikai mērogam, mēs uzskatām, ka ar scenārijiem daudz labāk var strādāt, izmantojot vairākas Finance and Operations instances. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Debitoriem, kas izmanto datu nodalījumus, ir jāizmanto vairākas Finance and Operations instances, ja datu bāzes līmeņu atdalīšana ir būtisks jautājums.    |
@@ -1022,7 +1025,7 @@ Datu nodalījumi nodrošina loģisku datu nošķiršanu Dynamics AX datu bāzē.
 
 Programmā Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu koplietojumos. Abas šīs opcijas vairs netiek atbalstītas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Failu koplietošanas krātuve vairs netiek atbalstīta, jo mākoņvides nevar sazināties ar lokālajiem failu koplietojumiem. Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve. Azure Blob krātuve ir līdzvērtīga krātuvei datu bāzē, jo vienīgais veids, kā piekļūt dokumentiem, ir izmantot Finance and Operations klienta formas. Tas nodrošina papildu priekšrocību — šī krātuve neietekmē negatīvi datu bāzes darbību. Blob krātuve ir noklusējuma krātuves mehānisms dokumentu pārvaldībai, un tā darbojas uzreiz. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Datu bāzes krātuve ir novecojusi, un tās vietā tiek izmantota Azure Blob krātuve.   |
@@ -1031,7 +1034,7 @@ Programmā Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu kopl
 
 ### <a name="delimitation"></a>Norobežošana
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šai funkcionalitātei netika atrasts pielietojums. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                     |
@@ -1040,7 +1043,7 @@ Programmā Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu kopl
 
 ### <a name="desktop-client"></a>Darbvirsmas klients
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ir pārveidotas Dynamics AX klienta lietošanas iespējas, lai uzlabotu lietojamību dažādās platformās un ierīcēs.                      |
 | **Vai aizstāts ar citu līdzekli?**   | Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu. |
@@ -1051,7 +1054,7 @@ Programmā Dynamics AX 2012 varēja glabāt pielikumus datu bāzē un failu kopl
 
 Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tiešu savienojumu ar kanāla DB līdzīgi kā programma Enterprise POS. Šī funkcija bija pieejama papildus Retail Modern POS standarta sakaru metodei, izmantojot Retail Server.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Tiešajai datu bāzes savienojamībai bija nepieciešami zemākas drošības protokoli, un tā galvenokārt tika izmantota, lai sasniegtu augstāko veiktspējas līmeni. Programmatūras Finance and Operations veiktspējas un drošības uzlabojumu dēļ šī funkcionalitāte tagad rada vairāk problēmu, nekā tā atrisina. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē. Tagad tiek atbalstīti tikai standarta Retail Server sakari.  |
@@ -1060,7 +1063,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 ### <a name="dutch-swift-mt940"></a>Holandes SWIFT MT940
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.                    |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. |
@@ -1071,7 +1074,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 Šī funkcionalitāte nodrošināja paplašināmās komerciālo atskaišu valodas (eXtensible Business Reporting Language — XBRL) izvades, kas ir paredzēta speciāli Vācijas eBilanz taksonomijai.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Debitoru lietojuma trūkums  |
 | **Vai aizstāts ar citu līdzekli?**   | Šis līdzeklis nav aizstāts ar citu līdzekli, bet Vācijas tirgū ir pieejamas vairākas specializētas XBRL pakotnes, kas nodrošina bagātīgu XBRL funkcionalitāti. |
@@ -1080,7 +1083,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 ### <a name="enterprise-portal-client"></a>Uzņēmuma portāla klients
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Ir nodrošināta viena klienta platforma.  |
 | **Vai aizstāts ar citu līdzekli?**   | Jaunais tīmekļa klients ir balstīts uz darbvirsmas formas metadatiem un programmēšanas modeli, kas ir modificēti tā, lai nodrošinātu bagātīgu tīmekļa platformu. |
@@ -1089,7 +1092,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 ### <a name="environmental-sustainability"></a>Vides ilgtspēja
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems klientu lietojums un ierobežota līdzekļu kopa  |
 | **Vai aizstāts ar citu līdzekli?**   | Nē              |
@@ -1098,7 +1101,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 ### <a name="form-activex-and-managed-host-controls"></a>Forma ActiveX un pārvaldītās resursdatora vadīklas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | ActiveX un pārvaldīto resursdatora vadīklu pamatā ir novecojušais darbvirsmas klients. |
 | **Vai aizstāts ar citu līdzekli?**   | Paplašināmā kontroles struktūra atbalsta tādu jaunu vadīklu veidošanu, kuras ir balstītas uz valodu HTML, CSS un JavaScript un ir augstākā līmeņa vadīklas Microsoft Visual Studio Tooling vidē. |
@@ -1109,7 +1112,7 @@ Versijā Dynamics AX 2012 R3 programma Retail Modern POS varēja izveidot tieš
 
 Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to joprojām var izdarīt.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Nav formas, ar kuru saglabāt un parādīt iegūto pārbaudes failu, kad tas tiek ģenerēts, izmantojot pakešuzdevumu. |
 | **Vai aizstāts ar citu līdzekli?**   | Pārbaudes joprojām var ģenerēt, un lietotājs kontrolē vietu, kur šis fails tiek saglabāts.   |
@@ -1118,7 +1121,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Vācu DTAUS maksājuma eksportēšana un konta izraksta importēšana (kopsummas un transakcijas)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar vienotās eiro maksājumu zonas (Single Euro Payments Area — SEPA) funkcionalitāti.                    |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, šī funkcionalitāte ir aizstāta ar SEPA maksājumu eksportēšanas un detalizētās bankas darbību saskaņošanas funkcionalitāti kontu pārskatu importēšanai. |
@@ -1127,7 +1130,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 
 ### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Vācijas DTAZV maksājuma formāts vietējā valūtā
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šis formāts Vācijā vairs nav lietojams, jo tas ir aizstāts ar SEPA funkcionalitāti. |
 | **Vai ir aizstāts ar citu līdzekli?**   | SEPA maksājumu eksportēšana    |
@@ -1136,7 +1139,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 
 ### <a name="german-mt940-import"></a>Vācu MT940 importēšana
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Tagad tiek izmantota vispārīgā funkcionalitāte, nevis lokalizētā funkcionalitāte.                    |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, šī funkcionalitāte ir aizstāta ar detalizētas bankas darbību saskaņošanas funkcionalitāti. |
@@ -1145,7 +1148,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 
 ### <a name="german-xml-eu-sales-list"></a>Vācijas XML ES pārdošanas saraksts
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Vairs netiek atbalstīts XML formāts Vācijas ES pārdošanas saraksta atskaitēm. Lai ES pārdošanas saraksta atskaites iesniegtu Vācijas nodokļu birojā, var izmantot tikai ELMA5 teksta faila formātu. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē         |
@@ -1154,9 +1157,9 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS atskaites
 
-Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma apgrozījuma bilance**, **Detalizēta apgrozījuma bilance**, **Kontu plāns**, **Auditācijas pieraksti**, **Bilances** un **Bilances saraksts**.
+Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma apgrozījuma bilance** , **Detalizēta apgrozījuma bilance** , **Kontu plāns** , **Auditācijas pieraksti** , **Bilances** un **Bilances saraksts**.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Finanšu Microsoft SQL Server Reporting Services (SSRS) pārskati ir aizstāti ar Management Reporter iespējām un noklusējuma pārskatiem. |
 | **Vai aizstāts ar citu līdzekli?**   | Management Reporter (pašreizējā Dynamics AXversijā ar apzīmējumu **Finanšu pārskatu veidošana** )    |
@@ -1165,7 +1168,7 @@ Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma 
 
 ### <a name="infopart-and-formpart-metadata"></a>InfoPart un FormPart metadati
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | InfoPart un FormPart metadati ļāva izveidot papildinformācijas lodziņus diviem dažādiem klientiem. |
 | **Vai aizstāts ar citu līdzekli?**   | InfoPart metadati, kas bija vienkāršotā formas definīcija, ar jaunināšanas rīkiem ir pārveidoti par formu. FormPart metadati, kas veidoja atsauci uz formu, ir aizstāti ar tiešāku atsauci, ko veido jaunināšanas rīki. |
@@ -1176,7 +1179,7 @@ Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma 
 
 Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Bilances informācija ir pieejama saraksta lapā **Apgrozījuma bilance** pēc konta un dimensijas.  |
 | **Vai aizstāts ar citu līdzekli?**   | Sadaļā **Galvenie konti** ir ietverts tāds pats kontu saraksts, kas atrodas saraksta lapā **Galvenais konts**. Režģa skats sadaļā **Galvenie konti** arī rāda vēl mazāku, režģa tipa skatu. |
@@ -1187,7 +1190,7 @@ Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija
 
 Šis līdzeklis lietotājam ļauj drukāt naudas plūsmas atskaiti, kurā ir redzamas transakcijas un detalizēta informācija par skaidras naudas ienākošajām un izejošajām plūsmām attiecībā uz noteiktu laika diapazonu atlasītajiem bankas kontiem.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šo pašu informāciju var saņemt pieprasošās bankas transakcijas. |
 | **Vai aizstāts ar citu līdzekli?**   | Ar pieprasošās bankas transakciju                                            |
@@ -1198,7 +1201,7 @@ Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija
 
 Šis līdzeklis ļāva ģenerēt Meksikas elektroniskos rēķinus, izmantojot metodi Comprobante Fiscal Digital (CFD), kurā uzņēmums paraksta rēķinu, no valdības pieprasot saistīto autorizāciju. Šis līdzeklis nodrošina arī ikmēneša atskaiti, kas ietver visus šajā periodā izsniegtos elektroniskos rēķinus.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī metode vairs nav piemērojama. Nodokļu iestādes atzina par novecojušu elektronisko rēķinu ģenerēšanu, izmantojot CFD metodi, un aizstāja ar metodi Comprobante Fiscal Digital a través de Internet (CFDI), kur parakstīšana tiek deleģēta trešās puses nodrošinātājam (PAC). Ikmēneša atskaite ir noņemta, un vaicājuma opcija lietotājam ļauj pieprasīt uzziņas par vēsturiskajām transakcijām. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē    |
@@ -1209,7 +1212,7 @@ Saraksts ar kontiem juridiskajai personai un saistītā bilances informācija
 
 Programmā Dynamics AX 2012 nerealizētais pievienotās vērtības nodoklis (PVN) tika pārvaldīts, izmantojot Meksikai raksturīgo nerealizētā nodokļa pārvaldības funkcionalitāti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Funkcionalitātes dublēšanās  |
 | **Vai aizstāts ar citu līdzekli?**   | Jā, šī funkcionalitāte ir aizstāta ar standarta nosacījuma pārdošanas nodokļa funkcionalitāti, ko nodrošina pamats. |
@@ -1219,7 +1222,7 @@ Programmā Dynamics AX 2012 nerealizētais pievienotās vērtības nodoklis (PV
 ### <a name="microsoft-outlook-integration"></a>Microsoft Outlook integrēšana
 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar Microsoft Exchange Server integrāciju. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā                                                                            |
@@ -1230,7 +1233,7 @@ Programmā Dynamics AX 2012 nerealizētais pievienotās vērtības nodoklis (PV
 
 Krājumu un noliktavas žurnāli vairs neatbalsta iespēju atzīmēt žurnālu kā privātu atlasītam lietotājam. Tiek atbalstīta tikai žurnālu kā privātu bloķēšana lietotāju grupām un bloķēšanas rediģēšanas laikā.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šai funkcionalitātei netika atrasts pielietojums. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                     |
@@ -1241,7 +1244,7 @@ Krājumu un noliktavas žurnāli vairs neatbalsta iespēju atzīmēt žurnālu k
 
 Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pārdošanas pasūtījuma, pirkšanas pasūtījuma, ražošanas pasūtījuma, pārdošanas piedāvājuma, projektu piedāvājuma vai krājuma vajadzības. Pamatojoties uz preces modeli, kam bija modelēšanas mainīgie, lietotājs varēja atlasīt klienta prasībām atbilstošas vērtības un iegūt unikālu preces variantu, kuram bija MK un maršruts.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Preču konfiguratorā gala lietotājs varēja redzēt X++ kodu, tāpēc tas netiek atbalstīts pašreizējā Dynamics AX versijā. Tas ir noņemts, lai izvairītos no uzturēšanas darbu dublēšanās attiecībā uz ietilpīgām kodu bāzēm, kas pārklājas.  |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Konfigurācija atbilstoši ierobežojumam tika ieviesta versijā Dynamics AX 2012, kad jau bija paziņots par preču konfigurētāja novecošanu nākamajās versijās. Lai nodrošinātu šo konfigurāciju, tehnoloģija konfigurācijai atbilstoši ierobežojumam tiek izvēlēta preču šablonos. Papildinformāciju skatiet šeit: [Preces konfigurēšanas pārskats](../../../supply-chain/pim/build-product-configuration-model.md). |
@@ -1251,7 +1254,7 @@ Preču konfigurators tika izmantots, lai dinamiski konfigurētu krājumus no pā
 ### <a name="production-floor-app"></a>Ražotnes programma
 Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Pārejot uz tīmekļa klientu, var nodrošināt līdzīgu funkcionalitāti, izmantojot vietējo Dynamics AX 7.0 klientu. Darbu kartes ierīce nodrošina ražotnes lietot. interf., kas optimizēts skārienier. un planšetdat. formu faktoriem. |
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Darbu kartes ierīce, kas ir iegulta versijā Dynamics AX 7.0.                                                                           |
@@ -1263,7 +1266,7 @@ Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.
 
 Šis līdzeklis jums ļauj nosaukumu vienai no trim standarta preces dimensijām (lielumam, krāsai vai stilam) mainīt pret nosaukumu, kas labāk atbilst jūsu biznesa vajadzībām. Pārdēvēšana iekļāva visas etiķetes, kurās tika izmantots šis preces dimensijas nosaukums.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Pašreizējā Dynamics AX versija neatbalsta etiķešu izmaiņas izpildlaikā. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                                                            |
@@ -1274,7 +1277,7 @@ Tā ir progr. planšetdatoriem, kas darb. ar Windows 8.1 RT un Windows 8.1 Pro.
 
 Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja izmantot HTTP sakarus (bez aizsardzības). To varēja veikt papildus standarta sakariem, izmantojot HTTPS.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Jauno drošības prasību dēļ tagad tiek atbalstīti tikai droši sakari, izmantojot TLS 1.2 (vai jaunāka versija, ja pieejama). Pašapkalpošanās instalētājs automātiski konfigurēs datoru šādam saziņas veidam. |
 | **Vai aizstāts ar citu līdzekli?**   | Nē. Tagad tiek atbalstīti tikai standarta HTTPS sakari. |
@@ -1283,7 +1286,7 @@ Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja 
 
 ### <a name="role-center-pages"></a>Informācijas centru lapas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Informācijas centra lapas bija veidotas, izmantojot novecojušo uzņēmuma portāla platformu, kas pašreizējā Dynamics AX versijā ir aizstāta ar jauno tīmekļa klienta platformu. |
 | **Vai aizstāts ar citu līdzekli?**   | Jaunais darbvietas formas modelis lietotājiem sniedz uz procesu centrētu dizainu, kas nodrošina ērtu piekļuvi bieži lietotajiem uzdevumiem šajā procesā.                       |
@@ -1292,7 +1295,7 @@ Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja 
 
 ### <a name="sales-tax-jurisdictions"></a>PVN jurisdikcijas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems klientu lietojums un ierobežota līdzekļu kopa |
 | **Vai aizstāts ar citu līdzekli?**   | Nē                                           |
@@ -1303,7 +1306,7 @@ Versijā Dynamics AX 2012 R3 Retail Server darbības nodrošināšanai varēja 
 
 Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus paplašina uz internetu, neizmantojot IT atbalstu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Programmā Dynamics AX izmantotajai Microsoft Azure infrastruktūrai ir jaunas iespējas, ko var izmantot šī līdzekļa vietā (piemēram, Azure vietnes). |
 | **Vai aizstāts ar citu līdzekli?**   | Nē   |
@@ -1312,7 +1315,7 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 
 ### <a name="ssas-demand-forecasting-strategy"></a>SSAS pieprasījuma prognozēšanas stratēģija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Līdzekļa dizainu nevar atbalstīt jaunajā mākoņa arhitektūrā. |
 | **Vai aizstāts ar citu līdzekli?**   | Azure algoritmiskās mācīšanās pieprasījuma prognozēšanas stratēģija                           |
@@ -1321,7 +1324,7 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Kreditora rēķinu kopa bez detalizētās informācijas par grāmatošanu
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums. Šī funkcionalitāte ir aizstāta ar rēķinu žurnālu, kuram ir darbplūsmas funkcionalitāte. |
 | **Vai aizstāts ar citu līdzekli?**   | Ar rēķinu žurnāla darbplūsmas iespējām.     |
@@ -1333,7 +1336,7 @@ Pakalpojumi Sites Services jums ļauj veidot vietnes, kas jūsu biznesa procesus
 
 Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis. Virtuālo datu failu līdzeklis lietotājiem ļāva iestatīt tabulas, ko varēja kopīgot ar uzņēmumu kopu. Šī līdzekļa aprakstu varat skatīt šeit: [Datu faili un virtuālie datu faili](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Šis līdzeklis darbojas, grupējot tabulas kolekcijās, kuras tiek piešķirtas virtuāliem datu failiem, kas ir esošo “reālo” uzņēmumu grupas. Vaicājumi tiek veidoti tā, lai visi uzņēmumi virtuālajā datu failā varētu piekļūt saistīto tabulu kolekcijās iekļautajiem datiem.
 
-|   |  | 
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | - Pirms datu šķirošanas tabulās ir jāiestata virtuālie datu faili. Virtuālo datu failu modernizēšana esošajā implementācijā ir ļoti sarežģīta.<br><br>- Tā kā pašreizējā Dynamics AX versijā ir veikta apjomīga datu normalizācija, ir grūti zināt, ko pievienot tabulu kolekcijām. Piemēram, ir grūti zināt, kuras tabulas kopīgot. Tāpat ir nepieciešams pievienot arī visas tabulas, uz kurām pastāv atsauces no virtuālajā datu failā esošajām tabulām. Tabulu normalizēšanas dēļ pat vienkāršiem pamatdatiem, kas ir izklāti vairākās tabulās, ir jābūt daļai no virtuālā datu faila. Jebkāda šeit pieļauta kļūda izraisīs funkcionālas problēmas.<br><br>- Kad tabula ir daļa no virtuāla datu faila, tā zaudē informāciju par datu izcelsmi, un tiek reģistrēts tikai virtuālais datu fails.   |
 | **Vai aizstāts ar citu līdzekli?** | Lai tabulas padarītu pieejamas no visiem uzņēmumiem, var izmantot globālās tabulas. Pašlaik aizstājēja nav. |   
@@ -1344,7 +1347,7 @@ Programmā Dynamics AX vairs netiek atbalstīts virtuālo datu failu līdzeklis.
 
 Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprināšanas funkcijas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Finance and Operations ir saderīga ar planšetdatoriem. Planšetdatoru programma vairs nav nepieciešama.    |
 | **Vai aizstāts ar citu līdzekli?**   | Nē.          |
@@ -1353,16 +1356,16 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 
 ### <a name="workplanner"></a>Darbu plānotājs
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums |
-| **Vai aizstāts ar citu līdzekli?**   | Nē, bet lapa **Profila saistība**, kura tiek atvērta no lapas **Profilu grupas**, atbalsta tādu pašu biznesa scenāriju kā novecojusī lapa **Darbu plānotājs**. |
+| **Vai aizstāts ar citu līdzekli?**   | Nē, bet lapa **Profila saistība** , kura tiek atvērta no lapas **Profilu grupas** , atbalsta tādu pašu biznesa scenāriju kā novecojusī lapa **Darbu plānotājs**. |
 | **Ietekmētie produkta apgabali**         | Laiks un apmeklētība     |
 | **Statuss**                         | Šis kods nav noņemts. Taču forma JmgWorkPlanner netika migrēta.    |
 
 ### <a name="x-financial-statements"></a>X++ finanšu pārskati
 
-|                                                 |                                                                                                          |
+| &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Novecošanas/noņemšanas pamatojums</strong> |                         Šī funkcionalitāte ir aizstāta ar citu līdzekli.                         |
 |  <strong>Vai aizstāts ar citu līdzekli?</strong>  | Management Reporter (pašreizējā Dynamics AXversijā ar apzīmējumu <strong>Finanšu pārskatu veidošana</strong> ) |

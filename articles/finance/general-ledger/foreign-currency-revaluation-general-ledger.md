@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178802"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006217"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
@@ -41,25 +41,25 @@ Kad palaižat pārvērtēšanas procesu, tiek pārvērtēta bilance katrā galve
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Sagatavot ārvalstu valūtas pārvērtēšanas palaišanu
 Pirms palaižat pārvērtēšanas procesa, ir nepieciešami tālāk aprakstītie iestatījumi.
 
--   Lapā **Galvenais konts**:
+-   Lapā **Galvenais konts** :
 -   Ja galvenais konts ir jāpārvērtē virsgrāmatā, atzīmējiet vienumu **Ārvalstu valūtas pārvērtēšana**. Ja galvenajam kontam nav jāveic pārvērtēšana (piemēram, attiecībā uz AR un AP, ja pārvērtēšana notiek apakšgrāmatās), notīriet šīs opcijas atzīmi.
 -   Ja galvenais konts ir atzīmēts pārvērtēšanai, norādiet vērtību vienumam **Maiņas kursa tips**. Šis maiņas kursa tips tiks izmantots galvenā konta pārvērtēšanai. Finanšu pārskatu veidošanai ir pieejams atsevišķs lauks — **Finanšu pārskatu maiņas kursa tips**. Šie abi lauki netiek sinhronizēti, tādējādi ļaujot pārvērtēšanai un finanšu pārskatu veidošanai izmantot dažādus maiņas kursa tipus.
 
--   Lapā **Virsgrāmata**:
+-   Lapā **Virsgrāmata** :
 -   Norādiet vērtību vienumam **Maiņas kursa tips**. Ja galvenajā kontā nav definēts maiņas kursa tips, tad ārvalstu valūtas pārvērtēšanas laikā tiks izmantots šis maiņas kursa tips.
 -   Norādiet realizētās peļņas, realizēto zaudējumu, nerealizētās peļņas un nerealizēto zaudējumu kontus valūtas pārvērtēšanai. Realizētās peļņas un realizēto zaudējumu konti tiek izmantoti, kad tiek nokārtotas AR un AP transakcijas, bet nerealizētās peļņas un nerealizēto zaudējumu konti tiek izmantoti atvērto transakciju un virsgrāmatas galveno kontu pārvērtēšanai.
 
--   Lapā **Valūtas pārvērtēšanas konti**:
+-   Lapā **Valūtas pārvērtēšanas konti** :
 -   Katrai valūtai un uzņēmumam atlasiet citus valūtas pārvērtēšanas kontus. Ja neviens konts nav definēts, tiek izmantoti konti no lapas **Virsgrāmata**.
 
 ## <a name="process-foreign-currency-revaluation"></a>Apstrādāt ārvalstu valūtas pārvērtēšanu
-Kad iestatīšana ir pabeigta, izmantojiet lapu **Ārvalstu valūtas pārvērtēšana**, lai pārvērtētu galveno kontu bilances. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. 
+Kad iestatīšana ir pabeigta, izmantojiet lapu **Ārvalstu valūtas pārvērtēšana** , lai pārvērtētu galveno kontu bilances. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. 
 
 Lapā **Ārvalstu valūtas pārvērtēšana** tiek rādīta katra pārvērtēšanas procesa vēsture, tostarp laiks, kad šis process tika palaists, kādi kritēriji bija definēti, saite uz pārvērtēšanai izveidoto dokumentu, kā arī ieraksts, ja iepriekšējā pārvērtēšana tika anulēta. Lai palaistu pārvērtēšanas procesu, atlasiet pogu **Ārvalstu valūtas pārvērtēšana**. 
 
 Vērtības **No datuma** un **Līdz datumam** definē pārvērtējamās ārvalstu valūtas bilances aprēķina datumu intervālu. Kad veicat pārvērtēšanu peļņas un zaudējumu kontos, tiek pārvērtēta summa no visām transakcijām, kas notikušas šajā datumu intervālā. Kad pārvērtējat bilances kontus, vērtība No datuma tiek ignorēta. Tās vietā pārvērtējamā bilance tiek noteikta, sākot no finanšu gada sākuma līdz vērtībai Līdz datumam. 
 
-Izmantot Izmantojot lauku **Likmes datums**, varat norādīt noklusējuma maiņas kursa datumu. Piemēram, varat pārvērtēt bilances datumu diapazonā no 1. janvāra līdz 31. janvārim, izmantojot 1. februārim norādīto maiņas kursu. 
+Izmantot Izmantojot lauku **Likmes datums** , varat norādīt noklusējuma maiņas kursa datumu. Piemēram, varat pārvērtēt bilances datumu diapazonā no 1. janvāra līdz 31. janvārim, izmantojot 1. februārim norādīto maiņas kursu. 
 
 Atlasiet, kurus galvenos kontus pārvērtēt: Visi, Bilance vai Peļņa un zaudējumi. Tiek pārvērtēti tikai tie galvenie konti, kas ir atzīmēti pārvērtēšanai (lapā Galvenais konts). Ja vēlaties precizēt galveno kontu diapazonu, norādiet galveno kontu diapazonu vai atsevišķus galvenos kontus cilnē **Iekļaujamie ieraksti**. 
 
@@ -76,38 +76,33 @@ Virsgrāmatas pārvērtēšanas un AR un AP pārvērtēšanas procesos nerealiz�
 
 **Piemērs.** Galvenajam kontam 110110 ir tālāk norādītās bilances.
 
-|            |                    |                        |                       |
+| Datums   | Virsgrāmatas konts| Darbības summa | Uzskaites summa |
 |------------|--------------------|------------------------|-----------------------|
-| **Datums**   | **Virsgrāmatas konts** | **Darbības summa** | **Uzskaites summa** |
 | 20. janvāris | 110110 (skaidra nauda)      | 500 EUR (debets)        | 1000 USD (debets)      |
 
 31. janvārī tiek pārvērtēts galvenais konts.  Nerealizētā peļņa/zaudējumi tiek aprēķināti tālāk norādītajā veidā.
 
-|                                             |                                            |                                  |                                    |                             |
+| Pašreizējā bilance transakcijas valūtā | Pašreizējā bilance uzskaites valūtā | Valūtas maiņas kurss pie pārvērtēšanas | Jaunā uzskaites valūtas summa | Nerealizētā peļņa/zaudējumi    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Pašreizējā bilance transakcijas valūtā** | **Pašreizējā bilance uzskaites valūtā** | **Valūtas maiņas kurss pie pārvērtēšanas** | **Jaunā uzskaites valūtas summa** | **Nerealizētā peļņa/zaudējumi**    |
 | 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | 166,67 zaudējumi (833,33 – 1000) |
 
 Tiks izveidots tālāk norādītais uzskaites ieraksts.
 
-|            |                          |           |            |
+| Datums   | Virsgrāmatas konts       | Debetkarte | Kredītkarte |
 |------------|--------------------------|-----------|------------|
-| **Datums**   | **Virsgrāmatas konts**       | **Debets** | **Kredīts** |
 | 31. janvāris | 110110 (skaidra nauda)            |           | 166.67     |
 | 31. janvāris | 801400 (nerealizētie zaudējumi) | 166.67    |            |
 
 Februārī netiek grāmatota neviena jauna transakcija.  28. februārī tiek pārvērtēts galvenais konts.
 
-|                                             |                                            |                                  |                                    |                             |
+| Pašreizējā bilance transakcijas valūtā | Pašreizējā bilance uzskaites valūtā | Valūtas maiņas kurss pie pārvērtēšanas | Jaunā uzskaites valūtas summa | Nerealizētā peļņa/zaudējumi    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Pašreizējā bilance transakcijas valūtā** | **Pašreizējā bilance uzskaites valūtā** | **Valūtas maiņas kurss pie pārvērtēšanas** | **Jaunā uzskaites valūtas summa** | **Nerealizētā peļņa/zaudējumi**    |
 | 500 EUR                                     | 833,33 USD (1000 - 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | 416,67 peļņa (1250 – 833,33) |
 
 Tiks izveidots tālāk norādītais uzskaites ieraksts.
 
-|             |                          |           |            |
+| Datums    | Virsgrāmatas konts       | Debetkarte | Kredītkarte |
 |-------------|--------------------------|-----------|------------|
-| **Datums**    | **Virsgrāmatas konts**       | **Debets** | **Kredīts** |
 | 28. februāris | 110110 (skaidra nauda)            | 416.67    |            |
 | 28. februāris | 801600 (nerealizētā peļņa) |           | 416.67     |
 

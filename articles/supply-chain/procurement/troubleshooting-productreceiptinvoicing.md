@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d86fa3df1de13cc0e0fb94449207a326069da25b
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018633"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Produktu ieejas plūsmu un rēķinu izrakstīšanas problēmu novēršana
 
@@ -38,7 +38,7 @@ Grāmatojot rēķinus, daudzums ir obligāts. Tāpēc, ja pilnam rindas daudzuma
 
 Šī problēma var rasties pirkšanas pasūtījuma sadaļu neatbilstības dēļ.
 
-Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts*, dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts* , dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Nevar konsolidēt vairāku produktu ieejas plūsmas vienā pirkšanas pasūtījumā.
 
@@ -72,15 +72,15 @@ Darījumus var grāmatot aizturētajos Virsgrāmatas kontos, kad produktu ieejas
 
 ## <a name="a-product-receipt-voucher-number-is-consumed-even-if-no-financial-voucher-is-generated-during-product-receipt"></a>Produktu ieejas plūsmas dokumenta numurs tiek patērēts pat tad, ja nav izveidots finanšu dokuments produktu ieejas plūsmas laikā.
 
-Ja krājumu modeļu grupu opcija **Uzkrāt saistības produktu ieejas plūsmā** ir iestatīta uz *Nē*, grāmatošana Virsgrāmatā netiks veikta. Tomēr fizisks notikums tiks ierakstīts, lai veiktu uzskaiti apakšgrāmatā, un šim notikumam nepieciešams dokumenta numurs. Šis dokumenta numurs ir dokumenta numurs, uz kuru ir atsauce krājumu darījumā.
+Ja krājumu modeļu grupu opcija **Uzkrāt saistības produktu ieejas plūsmā** ir iestatīta uz *Nē* , grāmatošana Virsgrāmatā netiks veikta. Tomēr fizisks notikums tiks ierakstīts, lai veiktu uzskaiti apakšgrāmatā, un šim notikumam nepieciešams dokumenta numurs. Šis dokumenta numurs ir dokumenta numurs, uz kuru ir atsauce krājumu darījumā.
 
-Ieteicams iestatīt opciju **Uzkrāt saistības produktu ieejas plūsmā** uz *Jā*, kā aprakstīts šajā emuāra ierakstā: [Papildmaksu grāmatošana produktu ieejas plūsmas laikā](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Ieteicams iestatīt opciju **Uzkrāt saistības produktu ieejas plūsmā** uz *Jā* , kā aprakstīts šajā emuāra ierakstā: [Papildmaksu grāmatošana produktu ieejas plūsmas laikā](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>Virsgrāmatas iestatījumā nav ieslēgta Grāmatošana izmaksu kontā.
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Šī problēma rodas, izrakstot rēķinu pirkšanas pasūtījumam, ja opcija **Grāmatot Virsgrāmatas izmaksu kontā** ir iestatīta uz *Jā* cilnē **Rēķins**, kas atrodas lapā **Kreditoru parametri**.
+Šī problēma rodas, izrakstot rēķinu pirkšanas pasūtījumam, ja opcija **Grāmatot Virsgrāmatas izmaksu kontā** ir iestatīta uz *Jā* cilnē **Rēķins** , kas atrodas lapā **Kreditoru parametri**.
 
 ### <a name="reproduce-the-issue"></a>Problēmas atveide
 
@@ -99,10 +99,10 @@ Nākamajā procedūrā ir parādīts viens šīs problēmas atveides veids.
     - **Noliktava:** *11*
     - **Daudzums:** *4*
 
-1. Darbību rūts cilnē **Pirkšana**, grupā **Darbība** atlasiet **Apstiprināt**.
-1. Darbību rūtī cilnes **Saņemt** grupā **Ģenerēt**, atlasiet **Produktu ieejas plūsma**.
-1. Dialoglodziņā **Produktu ieejas plūsmas grāmatošana** laukā **Produktu ieejas plūsma**, ievadiet patvaļīgu numuru un pēc tam atlasiet **Labi**.
-1. Darbību rūtī, cilnē **Rēķins**, grupā **Ģenerēt** atlasiet **Rēķins**.
+1. Darbību rūts cilnē **Pirkšana** , grupā **Darbība** atlasiet **Apstiprināt**.
+1. Darbību rūtī cilnes **Saņemt** grupā **Ģenerēt** , atlasiet **Produktu ieejas plūsma**.
+1. Dialoglodziņā **Produktu ieejas plūsmas grāmatošana** laukā **Produktu ieejas plūsma** , ievadiet patvaļīgu numuru un pēc tam atlasiet **Labi**.
+1. Darbību rūtī, cilnē **Rēķins** , grupā **Ģenerēt** atlasiet **Rēķins**.
 1. Laukā **Numurs** ievadiet patvaļīgu numuru kā rēķina numuru.
 1. Atjauniniet atbilstības statusu un grāmatojiet.
 1. Ievērojiet, ka tagad, ģenerējot rēķinu no pirkšanas pasūtījuma, tiek parādīta šāda kļūda: “Konta numurs darbības veidam Preces pirkšanas izdevumi nepastāv.”

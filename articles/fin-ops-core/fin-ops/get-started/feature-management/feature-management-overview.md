@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015047"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -37,20 +37,20 @@ Varat atvērt darbvietu **Līdzekļu pārvaldība** darbvietu, atlasot attiecīg
 
 Līdzekļu sarakstā ir tālāk norādītā informācija.
 
-- **Līdzekļa nosaukums** — pievienotā līdzekļa apraksts.
-- **Iespējošanas statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
-- **Iespējošanas datums** — datums, kad līdzeklis tika ieslēgts vai kad to ir plānots ieslēgt.
-- **Līdzeklis pievienots** — datums, kad līdzeklis tika pievienots jūsu videi. Šis datums tiek ievadīts automātiski, kad mēneša laidiena cikla laikā tiek atjaunināta jūsu vide.
-- **Modulis** — modulis, ko ietekmē jaunais līdzeklis.
+- **Līdzekļa nosaukums**  — pievienotā līdzekļa apraksts.
+- **Iespējošanas statuss**  — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
+- **Iespējošanas datums**  — datums, kad līdzeklis tika ieslēgts vai kad to ir plānots ieslēgt.
+- **Līdzeklis pievienots**  — datums, kad līdzeklis tika pievienots jūsu videi. Šis datums tiek ievadīts automātiski, kad mēneša laidiena cikla laikā tiek atjaunināta jūsu vide.
+- **Modulis**  — modulis, ko ietekmē jaunais līdzeklis.
 
-Kad atlasāt līdzekli, detalizētas informācijas rūtī pa labi no līdzekļu saraksta tiek parādīta papildinformācija. Rūts augšā redzēsit līdzekļa nosaukumu, pievienošanas datumu, moduli, ko ietekmē šis līdzeklis, un saiti **Papildinformācija**. Atlasiet šo saiti, lai skatītu līdzekļa dokumentāciju. Ja dokumentācija nav pieejama, jūs tiekat novirzīts uz pagaidu lapu. Detalizētas informācijas rūtī ir ietverts arī lauks **Komentāri**, kur varat pievienot savus komentārus par šo līdzekli.
+Kad atlasāt līdzekli, detalizētas informācijas rūtī pa labi no līdzekļu saraksta tiek parādīta papildinformācija. Rūts augšā redzēsit līdzekļa nosaukumu, pievienošanas datumu, moduli, ko ietekmē šis līdzeklis, un saiti **Papildinformācija**. Atlasiet šo saiti, lai skatītu līdzekļa dokumentāciju. Ja dokumentācija nav pieejama, jūs tiekat novirzīts uz pagaidu lapu. Detalizētas informācijas rūtī ir ietverts arī lauks **Komentāri** , kur varat pievienot savus komentārus par šo līdzekli.
 
 Arī darbvietā **Līdzekļu pārvaldība** ir vairākas cilnes, un katrā no tām tiek rādīts līdzekļu saraksts.
 
-- **Jauns** — šajā cilnē tiek rādīti visi līdzekļi, kas ir pievienoti kopš pēdējās ikmēneša atjaunināšanas. Ja esat izlaidis kādu ikmēneša atjauninājumu, šajā cilnē tiek rādīti visi jaunie līdzekļi, kas ir pievienoti kopš pēdējās reizes, kad veicāt atjaunināšanu. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
-- **Nav iespējots** — šajā cilnē tiek rādīti visi līdzekļi, kas nav ieslēgti. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno, neieslēgto līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
-- **Ieplānots** — šajā cilnē tiek rādīti visi līdzekļi, kurus ir plānots ieslēgt nākotnē. Saraksta augšā tiek rādīti līdzekļi, kuru plānotais datums ir visdrīzāk. Kopējais plānoto jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
-- **Visi** — šajā cilnē tiek rādīti visi līdzekļi. Jaunākie līdzekļi tiek parādīti saraksta sākumā.
+- **Jauns**  — šajā cilnē tiek rādīti visi līdzekļi, kas ir pievienoti kopš pēdējās ikmēneša atjaunināšanas. Ja esat izlaidis kādu ikmēneša atjauninājumu, šajā cilnē tiek rādīti visi jaunie līdzekļi, kas ir pievienoti kopš pēdējās reizes, kad veicāt atjaunināšanu. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
+- **Nav iespējots**  — šajā cilnē tiek rādīti visi līdzekļi, kas nav ieslēgti. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno, neieslēgto līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
+- **Ieplānots**  — šajā cilnē tiek rādīti visi līdzekļi, kurus ir plānots ieslēgt nākotnē. Saraksta augšā tiek rādīti līdzekļi, kuru plānotais datums ir visdrīzāk. Kopējais plānoto jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
+- **Visi**  — šajā cilnē tiek rādīti visi līdzekļi. Jaunākie līdzekļi tiek parādīti saraksta sākumā.
 
 ## <a name="turn-on-a-feature"></a>Līdzekļa ieslēgšana
 
@@ -58,9 +58,9 @@ Ja līdzeklis nav ieslēgts, detalizētas informācijas rūtī tiek rādīta pog
 
 - Atlasiet līdzekli, ko vēlaties ieslēgt, un pēc tam detalizētās informācijas rūtī atlasiet **Iespējot tūlīt**. Līdzeklis ir ieslēgts.
 
-Dažus līdzekļus pēc to ieslēgšanas nevar izslēgt. Ja līdzekli, kuru mēģināt ieslēgt, vairs nevar izslēgt, jums tiek parādīts brīdinājums. Šajā brīdī varat atlasīt **Atcelt**, lai atceltu operāciju, un atstāt šo līdzekli izslēgtu. Taču, ja atlasāt **Iespējot**, lai šo līdzekli ieslēgtu, vēlāk to vairs nevarēsit izslēgt.
+Dažus līdzekļus pēc to ieslēgšanas nevar izslēgt. Ja līdzekli, kuru mēģināt ieslēgt, vairs nevar izslēgt, jums tiek parādīts brīdinājums. Šajā brīdī varat atlasīt **Atcelt** , lai atceltu operāciju, un atstāt šo līdzekli izslēgtu. Taču, ja atlasāt **Iespējot** , lai šo līdzekli ieslēgtu, vēlāk to vairs nevarēsit izslēgt.
 
-Daži līdzekļi, pirms tos ieslēgsit, parādīs ziņojumu, kas sniedz papildu informāciju. Šie līdzekļi ir apzīmēti ar dzeltenu brīdinājuma simbolu. Jums vajadzētu rūpīgi izlasīt papildu informāciju, lai labāk saprastu, kas notiks, kad šis līdzeklis tiks iespējots. Tomēr joprojām varat atlasīt **Iespējot**, lai ieslēgtu šo funkciju.
+Daži līdzekļi, pirms tos ieslēgsit, parādīs ziņojumu, kas sniedz papildu informāciju. Šie līdzekļi ir apzīmēti ar dzeltenu brīdinājuma simbolu. Jums vajadzētu rūpīgi izlasīt papildu informāciju, lai labāk saprastu, kas notiks, kad šis līdzeklis tiks iespējots. Tomēr joprojām varat atlasīt **Iespējot** , lai ieslēgtu šo funkciju.
 
 Dažas funkcijas parādīs ziņojumu, ka funkciju nevar iespējot, kamēr nav veikta darbība. Šīs funkcijas ir apzīmētas ar sarkanu X simbolu. Pirms funkcija tiek iespējota, ir jāveic aprakstā minētās darbības. Piemēram, ja nevarat izmantot funkciju, līdz konfigurācijas atslēga tiek atspējota, vispirms atspējojiet konfigurācijas atslēgu un pēc tam atgriezieties Funkciju pārvaldībā, lai iespējotu funkciju.
 
@@ -74,7 +74,7 @@ Ja līdzekli ir plānots ieslēgt nākotnē, detalizētas informācijas rūtī t
 
 1. Atlasiet ieplānoto līdzekli, kuru vēlaties pārplānot, un pēc tam detalizētas informācijas rūtī atlasiet **Plānot**.
 2. Parādītajā dialoglodziņā, laukā **Iespējošanas datums** norādiet jauno datumu, kad šis līdzeklis ir jāieslēdz.
-3. Atlasiet opciju **Iespējot**, lai pārplānotu līdzekli, vai **Atspējot**, lai atceltu ieplānošanu.
+3. Atlasiet opciju **Iespējot** , lai pārplānotu līdzekli, vai **Atspējot** , lai atceltu ieplānošanu.
 
 ## <a name="turn-off-a-feature"></a>Līdzekļa izslēgšana
 
@@ -92,7 +92,7 @@ Reizēm tiek piegādāts kritisks līdzeklis, kam ir jāieslēdzas automātiski,
 
 Pēc noklusējuma visi līdzekļi, kas ir pievienoti jūsu videi, ir izslēgti, izņemot gadījumus, ja tie ir obligātie līdzekļi. Varat iespējot visus līdzekļus, atlasot pogu **Iespējot visu**. 
 
-Atlasot opciju **Iespējot visu**, tiek parādīta opcija, kur jums ir jāsniedz šāda informācija:
+Atlasot opciju **Iespējot visu** , tiek parādīta opcija, kur jums ir jāsniedz šāda informācija:
 - Visu to līdzekļu saraksts, kuriem nepieciešams apstiprinājums, lai tos varētu iespējot. Ja vēlaties iespējot līdzekļus sarakstā, atlasiet **Jā** pogai **Iespējot līdzekļus, kuriem nepieciešams apstiprinājums**.
 - Tiks parādīts visu to līdzekļu saraksts, kurus nevar iespējot. Šie līdzekļi netiks iespējoti.
 
@@ -102,8 +102,8 @@ Visi līdzekļi, kurus var iespējot, tiks iespējoti. Ja līdzeklim nākotnē j
 
 Pēc noklusējuma visi līdzekļi, kas ir pievienoti jūsu videi, ir izslēgti, izņemot gadījumus, ja tie ir obligātie līdzekļi. Taču, ja vēlaties automātiski ieslēgt visus jaunos līdzekļus, varat izmantot nolaižamo sarakstu zem darbvietas nosaukuma, lai mainītu to, kas notiek pēc jaunu līdzekļu pievienošanas.
 
-- Atlasiet **Automātiski iespējot jaunus līdzekļus**, lai automātiski ieslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
-- Atlasiet **Automātiski neiespējot jaunus līdzekļus**, lai pēc noklusējuma izslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
+- Atlasiet **Automātiski iespējot jaunus līdzekļus** , lai automātiski ieslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
+- Atlasiet **Automātiski neiespējot jaunus līdzekļus** , lai pēc noklusējuma izslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
 
 
 Ja iespējosit visus līdzekļus automātiski, tas iespējos visus līdzekļus, kas tiktu iespējoti, noklikšķinot uz pogas **Iespējot visu**. Tas neiespējos līdzekļus, kuriem ir nepieciešams apstiprinājums, vai līdzekļus, kurus nevar iespējot līdz brīdim, kad tiek veikta darbība.
@@ -130,12 +130,12 @@ Datu elements ar nosaukumu **Līdzekļu pārvaldība** ļauj jums eksportēt ies
 
 Nākamajos piemēros ir aprakstīts, kas notiek, kad datu importēšanai izmantojat elementu **Līdzekļu pārvaldība**.
 
-- Ja lauka **Iespējots** vērtību maināt uz **Jā**, līdzeklis tiek ieslēgts un lauks **Iespējošanas datums** tiek iestatīts uz pašreizējo datumu.
+- Ja lauka **Iespējots** vērtību maināt uz **Jā** , līdzeklis tiek ieslēgts un lauks **Iespējošanas datums** tiek iestatīts uz pašreizējo datumu.
 - Ja lauka **Iespējots** vērtību maināt uz **Nē** vai lauku **EnableDate** atstājat tukšu, līdzeklis tiek izslēgts un lauks **Iespējošanas datums** tiek notīrīts. Jūs nevarat izslēgt obligātu līdzekli vai līdzekli, ko nevar izslēgt pēc tā ieslēgšanas.
 - Ja lauka **EnableDate** vērtību maināt uz turpmāku datumu, līdzeklis tiek ieplānots attiecīgajam datumam.
 - Ja lauka **Iespējots** vērtību maināt uz **Jā** un lauka **EnableDate** vērtību maināt uz turpmāku datumu, līdzeklis tiek ieplānots attiecīgajam datumam. 
-- Ja lauka **Iespējots** vērtību maināt uz **Nē**, bet arī lauka **EnableDate** vērtību maināt uz turpmāku datumu, līdzeklis tiek ieplānots attiecīgajam datumam.
-- Ja līdzeklis ir ieslēgts un jūs pievienojat lauku **EnableDate**, kas ir iestatīts uz turpmāku datumu, šis līdzeklis paliek ieslēgts. Lai šo līdzekli pārplānotu, jums lauka **Iespējots** vērtība ir jāmaina uz **Nē**.
+- Ja lauka **Iespējots** vērtību maināt uz **Nē** , bet arī lauka **EnableDate** vērtību maināt uz turpmāku datumu, līdzeklis tiek ieplānots attiecīgajam datumam.
+- Ja līdzeklis ir ieslēgts un jūs pievienojat lauku **EnableDate** , kas ir iestatīts uz turpmāku datumu, šis līdzeklis paliek ieslēgts. Lai šo līdzekli pārplānotu, jums lauka **Iespējots** vērtība ir jāmaina uz **Nē**.
 
 ## <a name="feature-management-and-flighting"></a>Funkciju pārvaldība un būvējumu izsniegšana
 
@@ -181,9 +181,11 @@ Funkciju lidojumi ir reāllaika ieslēgšanas/izslēgšanas slēdži, ko kontrol
 Jā, ja līdzeklis ietekmē tādas vides darbību, kurai nav funkcionālas ietekmes, tad to var iespējot pēc noklusējuma.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kā var pārbaudīt līdzekļa iespējošanu kodā?
-Lietojiet metodi **isFeatureEnabled**, kas atrodas klasē **FeatureStateProvider**, padodot tai līdzekļu klases instanci. Piemērs: 
+Lietojiet metodi **isFeatureEnabled** , kas atrodas klasē **FeatureStateProvider** , padodot tai līdzekļu klases instanci. Piemērs: 
 
-    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```xpp
+if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```
 
 ### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Kā var pārbaudīt līdzekļa iespējošanu metadatos?
 **FeatureClass** rekvizītu var izmantot, lai norādītu, ka daži metadati ir saistīti ar līdzekli. Jāizmanto līdzeklim izmantotais klases nosaukums, piemēram, **BatchContentionPreventionFeature**. Šie metadati ir redzami tikai šajā līdzeklī. **Rekvizīts FeatureClass** ir pieejams izvēlnēs, izvēlnes elementos, uzskaitījuma vērtībās un tabulas/skata laukos.
@@ -191,9 +193,11 @@ Lietojiet metodi **isFeatureEnabled**, kas atrodas klasē **FeatureStateProvider
 ### <a name="what-is-a-feature-class"></a>Kas ir līdzekļu klase?
 Līdzekļu pārvaldības līdzekļi ir definēti kā *līdzekļu klases*. Līdzekļu klases **ievieš IFeatureMetadata** un izmanto līdzekļu klases atribūtu, lai identificētu sevi līdzekļu pārvaldības darbvietā. Ir pieejami daudzi līdzekļu klašu piemēri, ko var pārbaudīt, lai iespējotu kodu, izmantojot **FeatureStateProvider** API, un metadatos, izmantojot **FeatureClass** rekvizītu. Piemērs: 
 
-    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
-    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
-    
+```xpp
+[ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+```
+
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Kāds IFeatureLifecycle ir ieviests ar dažām funkciju klasēm?
 IFeatureLifecycle ir iekšējs Microsoft mehānisms līdzekļu dzīves cikla stadijas norādīšanai. Līdzekļi var būt šādi:
 - PrivatePreview — lai būtu redzams, nepieciešams lidojums.

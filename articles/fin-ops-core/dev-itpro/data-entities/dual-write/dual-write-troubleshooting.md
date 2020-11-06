@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
-ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
+ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3340934"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997258"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -43,7 +42,7 @@ Dažas pakotnes izvietošanas rīka versijas nav saderīgas ar duālā ieraksta 
 
 Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakotni, izpildot šīs darbības.
 
-1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt**, ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
+1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt** , ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
 
     ![Rekvizītu dialoglodziņš](media/unblock_option.png)
 
@@ -52,7 +51,7 @@ Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakot
     ![Mapes Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 saturs](media/extract_package.png)
 
 3. Ielīmējiet visus kopētos failus pakotnes izvietošanas rīka mapē **Rīki**. 
-4. Palaidiet **PackageDeployer.exe**, lai atlasītu Common Data Service vidi un instalētu risinājumus.
+4. Palaidiet **PackageDeployer.exe** , lai atlasītu Common Data Service vidi un instalētu risinājumus.
 
     ![Rīku mapes saturs](media/paste_copied_files.png)
 
@@ -64,7 +63,7 @@ Lai aktivizētu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 1. Piesakieties ar modeli vadītā programmā Dynamics 365, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Sistēma** atlasiet **Administrēšana**.
 2. Lapā **Administrēšana** atlasiet opciju **Sistēmas iestatījumi**.
-3. Cilnes **Pielāgošana** laukā **Spraudņa un pielāgotās darbplūsmas aktivitātes izsekošana** atlasiet **Visi**, lai iespējotu spraudņa izsekošanas žurnālu. Ja vēlaties izsekot trasēšanas žurnāliem tikai tad, ja rodas izņēmumi, varat tā vietā izvēlēties opciju **Izņēmums**.
+3. Cilnes **Pielāgošana** laukā **Spraudņa un pielāgotās darbplūsmas aktivitātes izsekošana** atlasiet **Visi** , lai iespējotu spraudņa izsekošanas žurnālu. Ja vēlaties izsekot trasēšanas žurnāliem tikai tad, ja rodas izņēmumi, varat tā vietā izvēlēties opciju **Izņēmums**.
 
 
 Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
@@ -77,14 +76,14 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 **Nepieciešamās lomas, lai apskatītu kļūdas:** sistēmas administratora duālās rakstīšanas kļūdas, kas radušās programmā Common Data Service, var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
 
-1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
+1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration** , izmantojot Excel pievienojumprogrammu.
 
     > [!TIP]
     > Vienkāršs veids, kā atvērt entītiju, ir ieslēgt režīmu **Noformēšana** Excel pievienojumprogrammā un pēc tam darblapai pievienot **DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet rakstā [Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu](../../office-integration/use-excel-add-in.md).
 
 2. Iestatiet rekvizītu **IsDebugMode** projektam uz **Jā**.
 3. Palaidiet scenāriju, kas ģenerē kļūdas.
-4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX**):
+4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX** ):
 
     `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
 
@@ -105,16 +104,16 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 **Nepieciešamā loma, lai atsaistītu vidi:** sistēmas administrators vai nu Finance and Operations programmai, vai Common Data Service.
 
 1. Piesakieties Finance and Operations programmā.
-2. Dodieties uz **Darbvietas \>Datu pārvaldība**un atlasiet elementu **Duālais ieraksts**.
+2. Dodieties uz **Darbvietas \>Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**.
 3. Atlasiet visus darbojošos kartējumus, pēc tam atlasiet **Apturēt**.
 4. Atlasiet **Atsaistīt vidi**.
-5. Atlasiet **Jā**, lai apstiprinātu darbību.
+5. Atlasiet **Jā** , lai apstiprinātu darbību.
 
 Tagad varat saistīt jaunu vidi.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Nevar skatīt pārdošanas pasūtījuma rindas informācijas veidlapu 
 
-Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces**, jūs varat tikt novirzīts uz Dynamics 365 projekta operāciju pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
+Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces** , jūs varat tikt novirzīts uz Dynamics 365 projekta operāciju pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
 
 Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šādi:
 1. Pārejiet uz **Pasūtījuma rindas** elementu.

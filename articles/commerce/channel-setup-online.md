@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533325"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107234"
 ---
 # <a name="set-up-an-online-channel"></a>Tiešsaistes veikala iestatīšana
 
@@ -70,13 +70,13 @@ Ja e-Commerce vietne atbalstīs vairākas valodas, izvērsiet sadaļu **Valodas*
 
 ## <a name="set-up-payment-account"></a>Maksājuma konta iestatīšana
 
-Sadaļā **Maksājumu konts** varat pievienot trešās puses maksājuma nodrošinātāju. Lai iegūtu informāciju par Adyen maksājumu savienotāja iestatīšanu, skatiet sadaļu [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](../retail/dev-itpro/adyen-connector.md).
+Sadaļā **Maksājumu konts** varat pievienot trešās puses maksājuma nodrošinātāju. Papildinformāciju par Adyen maksājumu savienotāja iestatīšanu skatiet sadaļā [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Papildu kanāla iestatīšana
+## <a name="additional-channel-setup"></a>Papildu kanāla iestatīšana
 
 Papildu uzdevumi, kas nepieciešami tiešsaistes kanāla iestatīšanai, ietver maksājuma metožu iestatīšanu un izpildes grupas piešķiršanu.
 
-Tālāk esošajā attēlā ir parādītas cilnes **Iestatīšana** iestatīšanas opcijas **Piegādes veidi**, **Maksāšanas metodes** un **Izpildes grupas piešķires**.
+Tālāk esošajā attēlā ir parādītas cilnes **Iestatīšana** iestatīšanas opcijas **Piegādes veidi** , **Maksāšanas metodes** un **Izpildes grupas piešķires**.
 
 ![Papildu tiešsaistes kanāla iestatīšanas darbības](media/channel-setup-online-3.png)
 
@@ -84,7 +84,7 @@ Tālāk esošajā attēlā ir parādītas cilnes **Iestatīšana** iestatīšana
 
 Lai iestatītu maksājuma metodes, katram šajā kanālā atbalstītajam maksājuma tipam veiciet tālāk norādītās darbības.
 
-1. Darbības rūtī atlasiet cilni **Iestatīšana**, pēc tam atlasiet **Maksājumu metodes**.
+1. Darbības rūtī atlasiet cilni **Iestatīšana** , pēc tam atlasiet **Maksājumu metodes**.
 1. Darbību rūtī atlasiet **Jauns**.
 1. Navigācijas rūtī atlasiet vēlamo maksājuma metodi.
 1. Sadaļā **Vispārīgi** norādiet **Operācijas nosaukumu** un konfigurējiet citus vēlamos iestatījumus.
@@ -97,13 +97,13 @@ Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
-Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi**, kas atrodas **Darbību rūtī**.  
+Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi** , kas atrodas **Darbību rūtī**.  
 
 Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālāk.
 
 1. Navigācijas rūtī atveriet **Moduļi \> krājumu pārvaldība \> Piegādes režīmi**.
-1. Darbības rūtī atlasiet **Jauns**, lai izveidotu jaunu piegādes režīmu, vai atlasiet esošu režīmu.
-1. Sadaļā **Mazumtirdzniecības kanāli** atlasiet **Pievienot rindu**, lai pievienotu kanālu. Kanālu pievienošana, izmantojot organizācijas mezglus, nevis pievienojot katru kanālu atsevišķi, var racionalizēt kanālu pievienošanu.
+1. Darbības rūtī atlasiet **Jauns** , lai izveidotu jaunu piegādes režīmu, vai atlasiet esošu režīmu.
+1. Sadaļā **Mazumtirdzniecības kanāli** atlasiet **Pievienot rindu** , lai pievienotu kanālu. Kanālu pievienošana, izmantojot organizācijas mezglus, nevis pievienojot katru kanālu atsevišķi, var racionalizēt kanālu pievienošanu.
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
@@ -113,7 +113,7 @@ Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
 Lai iestatītu izpildes grupas piešķiri, veiciet tālāk norādītās darbības.
 
-1. Darbības rūtī atlasiet cilni **Iestatīšana**, pēc tam atlasiet **Izpilde/grupas piešķire**.
+1. Darbības rūtī atlasiet cilni **Iestatīšana** , pēc tam atlasiet **Izpilde/grupas piešķire**.
 1. Darbību rūtī atlasiet **Jauns**.
 1. Nolaižamajā sarakstā **Izpildes grupa** atlasiet izpildes grupu.
 1. Nolaižamajā sarakstā **Apraksts** ievadiet aprakstu.

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728417"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997530"
 ---
 # <a name="company-concept-in-common-data-service"></a>Uzņēmuma koncepts Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728417"
 
 Programmā Finance and Operations koncepts *uzņēmums* ir gan juridiska konstrukcija, gan biznesa konstrukcija. Tā ir arī datu drošības un redzamības robeža. Lietotāji vienmēr strādā viena uzņēmuma kontekstā, un lielāko daļu datu izslēdz uzņēmums.
 
-Common Data Service nav līdzvērtīga koncepta. Tuvākais koncepts ir *biznesa vienība*, kas galvenokārt ir lietotāja datu drošības un redzamības robeža. Šim konceptam nav tādas pašas juridiskās vai biznesa ietekmes kā uzņēmuma konceptam.
+Common Data Service nav līdzvērtīga koncepta. Tuvākais koncepts ir *biznesa vienība* , kas galvenokārt ir lietotāja datu drošības un redzamības robeža. Šim konceptam nav tādas pašas juridiskās vai biznesa ietekmes kā uzņēmuma konceptam.
 
 Tā kā biznesa vienība un uzņēmums nav līdzvērtīgi koncepti, nav iespējams piespiest vienu pret vienu (1:1) kartēšanu starp tiem Common Data Service integrācijas nolūkā. Tomēr, tā kā lietotājiem pēc noklusējuma ir jābūt iespējai skatīt tos pašus ierakstus programmā un Common Data Service, Microsoft ir ieviesis jaunu entītiju Common Data Service ar nosaukumu cdm\_Uzņēmums. Šī entītija ir līdzvērtīga uzņēmuma entītijai programmā. Lai palīdzētu garantēt, ka ierakstu redzamība ir līdzvērtīga starp programmu un Common Data Service standarta komplektācijā, mēs iesakām šādu iestatīšanu datiem Common Data Service:
 

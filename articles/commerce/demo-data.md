@@ -1,7 +1,7 @@
 ---
 title: Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
 description: Šajā tēmā ir sniegta informācija par ekrāna izkārtojumiem, kas ir pieejami programmā Dynamics 365 Commerce kopā ar pārdošanas punkta (POS) lietošanas iespēju demonstrācijas datiem.
-author: zlinster
+author: josaw1
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: zlinster
+ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 7956eece1a77951795a3f5f66067a2ecfacf3450
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023242"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014890"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
 
@@ -90,7 +90,7 @@ Tālāk esošajā attēlā ir redzams Fabrikam veikala vadītāja sveiciena ekr�
 Ekrāna izkārtojumam var būt pieejamas pilna lieluma ierīcēm un kompaktām ierīcēm paredzētas konfigurācijas. Tāpēc lietotāju var piešķirt vienam ekrāna izkārtojumam, kas ir piemērots veikalā izmantotajām dažāda lieluma un formas ierīcēm.
 
 - **Modern POS — pilns** — parasti pilnie izkārtojumi ir vispiemērotākie lielākiem displejiem, piemēram, personālo datoru monitoriem vai planšetdatoriem. Lietotāji var atlasīt izkārtojumā ietvertos lietotāja interfeisa elementus, norādīt šo elementu lielumu un novietojumu un konfigurēt to detalizētos rekvizītus. Pilnie izkārtojumi atbalsta gan portreta, gan ainavorientācijas konfigurācijas.
-- **Modern POS — kompakts** — parasti kompaktie izkārtojumi ir vispiemērotākie tālruņiem vai maziem planšetdatoriem. Kompaktā izkārtojuma ierīcēm ir ierobežotas izstrādes iespējas. Lietotāji var konfigurēt saņemšanas rūts un kopsummu rūts kolonnas un laukus.
+- **Modern POS — kompakts**  — parasti kompaktie izkārtojumi ir vispiemērotākie tālruņiem vai maziem planšetdatoriem. Kompaktā izkārtojuma ierīcēm ir ierobežotas izstrādes iespējas. Lietotāji var konfigurēt saņemšanas rūts un kopsummu rūts kolonnas un laukus.
 
 ### <a name="screen-resolutions-that-are-provided"></a>Nodrošinātās ekrāna izšķirtspējas
 

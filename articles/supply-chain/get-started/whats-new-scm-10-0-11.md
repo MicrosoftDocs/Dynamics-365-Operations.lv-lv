@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652087"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012302"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.11. (2020. gada jūlijs)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.11. Šai versijai ir būvējuma numurs 10.0.464, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.11. Šai versijai ir būvējuma numurs 10.0.464, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2020. gada aprīlis
 - **Vispārējā pieejamība (pašatjaunināšana):** 2020. gada maijs
@@ -39,10 +39,15 @@ ms.locfileid: "3652087"
 Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 - [Krājumu rīcībā esošā pārskata glabāšana](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+
 - [Noliktavas vienības identifikatora saņemšanas uzlabojumi, izmantojot noliktavas programmu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Plašāku informāciju skatiet [Numura zīmes saņemšana, izmantojot noliktavas programmu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Rindas rezervācijas uzlabojumi partijas numura rezervēšanas veidlapai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Papildinformāciju skatiet [Tās pašas partijas rezervēšana pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md).
+
 - [Jaunas datu vienības ražošanas vietai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Noslodzes daudzumu saņemšana par daudz](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Papildinformāciju skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](../warehousing/inbound-load-handling.md).
+
 - [Pabeigtība pakešuzdevumu numuriem no darbu kartes ierīces](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Papildinformāciju skatiet [Ziņojums par pabeigšanu no darbu kartes ierīces](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Papildu resursi

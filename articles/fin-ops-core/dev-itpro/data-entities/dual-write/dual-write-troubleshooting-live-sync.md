@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275421"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997306"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiešsaistes sinhronizācijas problēmu novēršana
 
@@ -86,7 +85,7 @@ Lai labotu problēmu, ir jāpiešķir pareiza drošības loma kartētas Dynamics
 
     ![Kartētās biznesa vienības grupa](media/setting_security_page.png)
 
-3. Atveriet komandas lapu rediģēšanai, pēc tam atlasiet **Pārvaldīt lomas**, lai atvērtu dialoglodziņu **Pārvaldīt grupu lomas**.
+3. Atveriet komandas lapu rediģēšanai, pēc tam atlasiet **Pārvaldīt lomas** , lai atvērtu dialoglodziņu **Pārvaldīt grupu lomas**.
 
     ![Lomu pārvaldības poga](media/manage_team_roles.png)
 
@@ -98,7 +97,7 @@ Lai labotu problēmu, ir jāpiešķir pareiza drošības loma kartētas Dynamics
 
 Veidojot datus Finance and Operations programmā, iespējams, saņemsit šādu kļūdas ziņojumu:
 
-*{"entityName": "CustCustomerV3Entity", "executionStatus": 2, "fieldResponses":\[\], "recordResponses":\[{"errorMessage": "**Nevar ģenerēt lietderīgās vērtības elementam CustCustomerV3Entity**", "logDateTime": "2019-08-27T 18:51:52.5843124Z", "verboseError": "Lietderīgas vērtības izveide neizdevās, kļūdas dēļ Nederīgs URI: URI ir tukšs." }\], "isErrorCountUpdated":true}*
+*{"entityName": "CustCustomerV3Entity", "executionStatus": 2, "fieldResponses":\[\], "recordResponses":\[{"errorMessage": " **Nevar ģenerēt lietderīgās vērtības elementam CustCustomerV3Entity** ", "logDateTime": "2019-08-27T 18:51:52.5843124Z", "verboseError": "Lietderīgas vērtības izveide neizdevās, kļūdas dēļ Nederīgs URI: URI ir tukšs." }\], "isErrorCountUpdated":true}*
 
 Šādi izskatās kļūda modeļa vadītā Dynamics 365 lietojumprogrammā:
 

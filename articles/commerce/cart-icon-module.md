@@ -3,7 +3,7 @@ title: Groza ikonas modulis
 description: Šajā tēmā tiek stāstīts par groza ikonas moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 4ab1609d332b96c0588b06aa086dd4fee944e5d9
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661151"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055764"
 ---
 # <a name="cart-icon-module"></a>Groza ikonas modulis
 
@@ -33,6 +33,9 @@ ms.locfileid: "3661151"
 ## <a name="overview"></a>Pārskats
 
 Groza ikonu modulis attēlo groza lapas galvenes modulī un parāda preču skaitu grozā. Groza ikonas modulis parāda arī groza kopsavilkumu (to sauc arī par mini grozu), kad atrodaties virs groza ikonas. Mini grozs sniedz lietotājam kopsavilkumu par krājumiem grozā bez nepieciešamības pāriet uz groza lapu. Turklāt tas arī ļauj lietotājam doties tieši uz izrakstīšanās lapu, ja tie ir apmierināti ar kopsavilkumu. Tas samazina lapu navigācijas skaitu un padara pasūtījumu ātrāku. 
+
+> [!NOTE]
+> Groza ikonas modulis ir pieejams Dynamics 365 Commerce 10.0.11 laidienā.
 
 Attēlā zemāk redzams groza ikonas moduļa piemērs,, kurā ir parādīts mini grozs Fabrikam galvenē.
 

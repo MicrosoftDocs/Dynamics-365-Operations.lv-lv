@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835858"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000768"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Ja biznesa ekosistēma ir izveidota no Dynamics 365 lietojumprogrammām, piemēram, Finance, Supply Chain Management un Sales, uzņēmumi bieži lieto šīs programmas, lai iegūtu preču datus. Tas ir tāpēc, ka šīs programmas nodrošina stabilu preču infrastruktūru, kas papildināta ar sarežģītākām cenu noteikšanas koncepcijām un precīziem rīcībā esošajiem krājumu datiem. Uzņēmumi, kuri izmanto ārējo Product Lifecycle Management (PLM) sistēmu, lai iegūtu produktu datus, var novirzīt produktus no Finance and Operations programmām uz citām Dynamics 365 programmām. Vienotā preču pieredze nodrošina integrētu preču datu modeli Common Data Service , lai visi programmas lietotāji, ieskaitot Power Platform lietotājus, var izmantot bagātīgo preču datu priekšrocības, ko sniedz Finance and Operations programmas.
 
@@ -93,7 +90,7 @@ Tā kā produkts tiek attēlots kā SKU, atšķirīgu preču, preču šablonu un
 
 Ar iespējotu duālās rakstīšanas funkcionalitāti Finance and Operations preces tiks sinhronizētas citās Dynamics 365 precēs **Melnraksta** stāvoklī. Tās tiek pievienotas pirmajam cenrādim ar nemainīgu valūtu. Citiem vārdiem, tie ir pievienoti pirmajam cenrādim Dynamics 365 lietojumprogrammā, kas atbilst jūsu juridiskās personas valūtai, kur prece tiek izdota Finance and Operations programmā. 
 
-Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**. 
+Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs** , lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**. 
 
 Ņemiet vērā, ka preču sinhronizācija notiek no Finance and Operations programmām uz Common Data Service. Tas nozīmē, ka preču elementa lauku vērtības var mainīt pakalpojumā Common Data Service, taču, kad sinhronizācija tiks uzsākta (kad preces lauks tiek modificēts programmā Finance and Operations ), to vērtības tiks pārrakstītas pakalpojumā Common Data Service. 
 
@@ -109,7 +106,7 @@ Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizēt
 
 Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu. Četras preces dimensijas (krāsa, lielums, stils un konfigurācija) ir arī kartētas Common Data Service, lai definētu preces variantus. Sekojošajā attēlā ir parādītas preces dimensijas krāsas datu modelis. Tas pats modelis ir piemērots izmēriem, stiliem un konfigurācijām. 
 
-![Preču datu modelis](media/dual-write-product-two.png)
+![Datu modelis preces dimensijām](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Pasūtījuma noklusējuma iestatījumi definē vietu un noliktavu, kur krājumi 
 
 Mērvienības un to atbilstošais pārveidojums ir pieejami Common Data Service sekojošajā datu modelī, kas redzams diagrammā.
 
-![Preču datu modelis](media/dual-write-product-three.png)
+![Mērvienību datu modelis](media/dual-write-product-three.png)
 
 Mērvienības koncepcija ir integrēta starp Finance and Operations un citām Dynamics 365 lietojumprogrammām. Katrai mērvienību klasei Finance and Operations lietojumprogrammā tiek izveidota mērvienību grupa Dynamics 365 lietojumprogrammā, kas satur mērvienības, kas pieder pie mērvienību kategorijas. Katrai vienību grupai tiek izveidota arī noklusētā pamatvienība. 
 
@@ -203,9 +200,9 @@ Preces politikas ir politiku kopas, ko izmanto preču definēšanai un to rakstu
 
 Lai unikāli identificētu preces starp Dynamics 365 for Finance and Operations un precēm pakalpojumā Common Data Service, tiek izmantotas integrācijas atslēgas. Precēm **(productnumber)** ir unikāla atslēga, kas identificē preci pakalpojumā Common Data Service. To veido šāda konkatenācija: **(uzņēmums, msdyn_productnumber)**. **Uzņēmums** norāda juridisko personu Finance and Operations, un **msdyn_productnumber** norāda preces numuru konkrētai precei Finance and Operations. 
 
-Citu Dynamics 365 programmu lietotājiem prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka lauka etiķete ir **Preces numurs**). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr lauks (productnumber) — unikālā preces atslēga — netiek rādīts. 
+Citu Dynamics 365 programmu lietotājiem prece tiek identificēta UI ar **msdyn_productnumber** (ņemiet vērā, ka lauka etiķete ir **Preces numurs** ). Preces veidlapā tiek rādīts gan uzņēmums, gan msydn_productnumber. Tomēr lauks (productnumber) — unikālā preces atslēga — netiek rādīts. 
 
-Ja izveidojat programmas pakalpojumā Common Data Service, ir jāpievērš uzmanība tam, kā izmantojat **productnumber** (unikālo produkta ID) kā integrācijas atslēgu. Nelietojiet **msdyn_productnumber**, jo tā nav unikāla. 
+Ja izveidojat programmas pakalpojumā Common Data Service, ir jāpievērš uzmanība tam, kā izmantojat **productnumber** (unikālo produkta ID) kā integrācijas atslēgu. Nelietojiet **msdyn_productnumber** , jo tā nav unikāla. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Sākotnējā preču sinhronizācija un datu migrēšana no Common Data Service uz Finance and Operations
 
@@ -223,4 +220,4 @@ Pēc tam, kad sinhronizācija ir iespējota un notiek, preces no Finance and Ope
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Preču datu migrēšana no citām Dynamics 365 programmām uz Finance and Operations
 
-Ja citās Dynamics 365 programmās ir preces, kas nav iekļautas Finance and Operations, administrators var vispirms izmantot **EcoResReleasedProductCreationV2Entity**, lai importētu šīs preces Finance and Operations. Un, otrkārt, saskaņot preču datus no Finance and Operations un citām Dynamics 365 programmām, kā aprakstīts iepriekš. 
+Ja citās Dynamics 365 programmās ir preces, kas nav iekļautas Finance and Operations, administrators var vispirms izmantot **EcoResReleasedProductCreationV2Entity** , lai importētu šīs preces Finance and Operations. Un, otrkārt, saskaņot preču datus no Finance and Operations un citām Dynamics 365 programmām, kā aprakstīts iepriekš. 

@@ -3,7 +3,7 @@ title: Līdzekļu nomas sākšana
 description: Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju.
 author: moaamer
 manager: Ann Beebe
-ms.date: 09/24/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5f8f86861f65f3da71843f6fd4a64e4199e86627
-ms.sourcegitcommit: 9668af8d918faec37abe1881e550872cd6b73259
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970012"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022571"
 ---
 # <a name="asset-leasing-get-started"></a>Līdzekļu nomas sākšana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju. Tēmā ir definēta arī terminoloģija, kas tiek izmantota lietotāja interfeisā un dokumentācijā. Līdzekļu noma ir papildu iespēja finanšu darbību pārvaldībai, izsekošanai un automatizēšanai nomātajiem līdzekļiem Microsoft Dynamics 365 Finance. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai. Līdzekļu noma ir integrēta ar citiem Dynamics 365 Finance komponentiem, tostarp pamatlīdzekļiem, kreditoriem un virsgrāmatu.
 
@@ -72,7 +71,7 @@ Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksāju
 
 - **Pievienošanas intervāls** — norāda periodu skaitu, kurā procenti tiek pievienoti gadā. Tas varētu būt reizi mēnesī (12 periodi gadā), reizi ceturksnī (4 periodi gadā), pusgadā (2 periodi gadā), vai reizi gadā (1 periods gadā). Periodu skaits tiks ņemts vērā pašreizējās vērtības aprēķinā.
 
-- **Sākuma datums** — šis ir datums, kad iznomātājs padara līdzekli pieejamu nomniekam. Visi nomas aprēķini un darījumi tiks balstīti uz sākuma datumu. Sākuma datumam vajadzētu būt perioda sākumā (pirmais mēnesis), lai nodrošinātu turpmāko aprēķinu pareizību. Varat izmantot lauku **Līguma parakstīšanas datums**, lai ievadītu faktisko datumu, kad līgums tika parakstīts.
+- **Sākuma datums** — šis ir datums, kad iznomātājs padara līdzekli pieejamu nomniekam. Visi nomas aprēķini un darījumi tiks balstīti uz sākuma datumu. Sākuma datumam vajadzētu būt perioda sākumā (pirmais mēnesis), lai nodrošinātu turpmāko aprēķinu pareizību. Varat izmantot lauku **Līguma parakstīšanas datums** , lai ievadītu faktisko datumu, kad līgums tika parakstīts.
 
 - **Nomas termiņš** — tas ir nomas perioda ilgums mēnešos.
 
@@ -204,13 +203,13 @@ Tas atspoguļo līdzekļa lietošanas tiesību bilances pārnesuma samazinājumu
 >[!NOTE]
 > Ja noma ir saistīta ar pamatlīdzekli, nomas vērtības samazinājums ir jāgrāmato no pamatlīdzekļiem, jo līdzekļu nolietojums tiek palaists no pamatlīdzekļu moduļa.
 
-**Divkāršā valūta** — nomas darījumi var tikt grāmatoti valūtā, kas nav uzskaites un pārskata valūta. Valūtas maiņas kurss ir definēts virsgrāmatas sākuma datumā. Valūtas maiņas kursus var mainīt, iestatot lauku **Fiksēta likme** uz **Jā**, kad veidojat nomu. Ievadot nomas darījumus, sākotnējās atzīšanas un turpmākie nolietojuma darījumi izmantos valūtas maiņas kursu no sākuma datuma. Turpmākie maksājumu un procentu darījumi izmantos pašreiz aktīvo valūtas maiņas kursu. 
+**Divkāršā valūta** — nomas darījumi var tikt grāmatoti valūtā, kas nav uzskaites un pārskata valūta. Valūtas maiņas kurss ir definēts virsgrāmatas sākuma datumā. Valūtas maiņas kursus var mainīt, iestatot lauku **Fiksēta likme** uz **Jā** , kad veidojat nomu. Ievadot nomas darījumus, sākotnējās atzīšanas un turpmākie nolietojuma darījumi izmantos valūtas maiņas kursu no sākuma datuma. Turpmākie maksājumu un procentu darījumi izmantos pašreiz aktīvo valūtas maiņas kursu. 
 
 ## <a name="create-an-asset-lease"></a>Līdzekļa nomas izveide
 Lai izveidotu jaunu nomu, veiciet tālāk norādītās darbības. 
 
-1. Lai izmantotu **Līdzekļu noma**, tas ir jāaktivizē, izmantojot darbvietu **Līdzekļu pārvaldība**. No darbvietas **Līdzekļu pārvaldība** atlasiet **Visi**, lai visi līdzekļi tiktu uzskaitīti lapā. Atlasiet **Līdzekļu noma** un pēc tam atlasiet **Iespējot tūlīt**.
-2. Doties uz **Līdzekļu noma > Kopējs > Nomas kopsavilkums**. Kopsavilkuma cilnē **Vispārīgi**, iestatiet obligātos laukus. 
+1. Lai izmantotu **Līdzekļu noma** , tas ir jāaktivizē, izmantojot darbvietu **Līdzekļu pārvaldība**. No darbvietas **Līdzekļu pārvaldība** atlasiet **Visi** , lai visi līdzekļi tiktu uzskaitīti lapā. Atlasiet **Līdzekļu noma** un pēc tam atlasiet **Iespējot tūlīt**.
+2. Doties uz **Līdzekļu noma > Kopējs > Nomas kopsavilkums**. Kopsavilkuma cilnē **Vispārīgi** , iestatiet obligātos laukus. 
    - **Detalizēta informācija par nomu**
    - **Līdzekļa lietderīgās lietošanas laiks (mēnešos)**
    - **Nomas grupa**
@@ -226,19 +225,19 @@ Lai izveidotu jaunu nomu, veiciet tālāk norādītās darbības.
 
 5. Pārslēdzieties uz kopsavilkuma cilni **Vispārīgi**. Tiek aprēķinātas **Sākotnējās līdzekļa lietošanas tiesības** un **Nomas saistības**. 
 
-6. Kopsavilkuma cilnē dodieties uz **Nomas klasifikācijas tests**, lai pārbaudītu lauka **Nomas veids** vērtību. 
+6. Kopsavilkuma cilnē dodieties uz **Nomas klasifikācijas tests** , lai pārbaudītu lauka **Nomas veids** vērtību. 
 
-   Automātiski tiek klasificēts **Nomas veids**, pamatojoties uz kritērijiem, kas definēti lapā **Grāmatas**.
+   Automātiski tiek klasificēts **Nomas veids** , pamatojoties uz kritērijiem, kas definēti lapā **Grāmatas**.
 
 7.  Dodieties uz **Maksājumu grafiks** sadaļu **Funkcija**.  
 
-   Lapa **Maksājumu grafiks** norāda turpmākos maksājumu grafikus nomas ID. Atlasiet **Apstiprināt grafiku**, lai varētu grāmatot **Sākotnējās atzīšana** darījumus. 
+   Lapa **Maksājumu grafiks** norāda turpmākos maksājumu grafikus nomas ID. Atlasiet **Apstiprināt grafiku** , lai varētu grāmatot **Sākotnējās atzīšana** darījumus. 
 
 [![Sākotnējās atzīšanas funkcija](./media/overview-13.png)](./media/overview-13.png)
 
-8. Atlasiet **Sākotnējā atzīšana**, lai izveidotu sākotnējo atzīšanas žurnālu. 
+8. Atlasiet **Sākotnējā atzīšana** , lai izveidotu sākotnējo atzīšanas žurnālu. 
 
-9. Atlasiet **Līdzekļu nomas žurnāls**, lai grāmatotu sākotnējās atzīšanas darbības. 
+9. Atlasiet **Līdzekļu nomas žurnāls** , lai grāmatotu sākotnējās atzīšanas darbības. 
 
    No maksājumu grafika varat atvērt informācijas lapu, kas parāda līdzekļa lietošanas tiesību darījumus. 
  

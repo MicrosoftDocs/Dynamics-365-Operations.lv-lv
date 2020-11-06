@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022033"
 ---
 # <a name="buy-box-module"></a>Iegādes lodziņa modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā tiek stāstīts par iegādes lodziņa moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
@@ -57,7 +56,7 @@ Tēmas var izmantot, lai noņemtu vai mainītu iegādes loga produktu rekvizītu
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
-- **Galvenes etiķete** — šis rekvizīts definē galvenes etiķeti preces nosaukumam. Ja iegādes logs atrodas lapas augšā, šis rekvizīts ir jāiestata uz **h1**, lai atbilstu pieejamības standartiem. 
+- **Galvenes etiķete** — šis rekvizīts definē galvenes etiķeti preces nosaukumam. Ja iegādes logs atrodas lapas augšā, šis rekvizīts ir jāiestata uz **h1** , lai atbilstu pieejamības standartiem. 
 
 - **Iespējot ieteikumus "pirkt līdzīgu izskatu"** - Šis rekvizīts ļauj pirkšanas lodziņā parādīt saites uz precēm, kas izskatās līdzīgi pašlaik skatītajam vienumam. Šis līdzeklis ir pieejams Komercijas izlaidumā 10.0.13 un jaunākās versijās.
 
@@ -73,7 +72,7 @@ Iegādes lodziņa moduļa iestatījumus var konfigurēt sadaļā **Vietnes iesta
 
 - **Groza rindu daudzuma ierobežojums** — šis rekvizīts tiek izmantos, lai norādītu katras preces maksimālo skaitu, ko var pievienot grozam. Piemēram, mazumtirgotājs var nolemt, ka vienā transakcijā var pārdot tikai 10 katras preces vienumus.
 - **Krājumi** — papildinformāciju par to, kā lietot krājumu iestatījumus, skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
-- **Pievienot grozam** — šis rekvizīts tiek izmantots, lai noteiktu uzvedību pēc krājuma pievienošanas grozam. Iespējamās vērtības ir **Doties uz grozu**, **Nedoties uz grozu** un **Parādīt paziņojumus**. Kad vērtība ir iestatīta uz **Doties uz grozu**, lietotāji pēc krājuma pievienošanas tiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta uz **Nedoties uz grozu**, lietotāji pēc krājuma pievienošanas netiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta **Rādīt paziņojumus**, lietotājiem tiek parādīts apstiprinājuma paziņojums un viņi turpināt pārlūkot preces informācijas lapā. 
+- **Pievienot grozam** — šis rekvizīts tiek izmantots, lai noteiktu uzvedību pēc krājuma pievienošanas grozam. Iespējamās vērtības ir **Doties uz grozu** , **Nedoties uz grozu** un **Parādīt paziņojumus**. Kad vērtība ir iestatīta uz **Doties uz grozu** , lietotāji pēc krājuma pievienošanas tiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta uz **Nedoties uz grozu** , lietotāji pēc krājuma pievienošanas netiek nosūtīti uz groza lapu. Kad vērtība ir iestatīta **Rādīt paziņojumus** , lietotājiem tiek parādīts apstiprinājuma paziņojums un viņi turpināt pārlūkot preces informācijas lapā. 
 
 > [!IMPORTANT]
 > Vietas iestatījums **Pievienot groza** ir pieejams Dynamics 365 Commerce 10.0.11 laidienā. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
@@ -90,27 +89,27 @@ Iegādes lodziņa modulis izgūst preču informāciju, izmantojot Commerce Scale
 
 Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns** , lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Iegādes lodziņš**.
 1. Sadaļā **Fragmenta nosaukums** ievadiet nosaukumu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
-1. Iegādes lodziņa moduļa slotā **Mediju galerija** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Iegādes lodziņa moduļa slotā **Mediju galerija** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Mediju galerija** un pēc tam atlasiet **Labi**.
-1. Iegādes lodziņa moduļa slotā **Veikalu atlasītājs** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Iegādes lodziņa moduļa slotā **Veikalu atlasītājs** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Veikalu atlasītājs** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
-1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
+1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns** , lai izveidotu jaunu veidni.
 1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet **PDP veidne** un pēc tam atlasiet **Labi**.
-1. Slotā **Pamatteksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Slotā **Pamatteksts** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
-1. Noklusējuma lapas **Galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
+1. Noklusējuma lapas **Galvenajā** slotā atlasiet daudzpunktes pogu ( **...** ) un pēc tam atlasiet **Pievienot fragmentu**.
 1. Dialoglodziņā **Atlasīt fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
-1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Dodieties uz **Lapas** un atlasiet **Jauns** , lai izveidotu jaunu lapu.
 1. Dialoglodziņā **Izvēlēties veidni** atlasiet veidni **PDP veidne**. Sadaļā **Lapas nosaukums** ievadiet **PDP lapa** pēc tam atlasiet **Labi**.
-1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot fragmentu**.
+1. Jaunās lapas **Galvenajā** slotā atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot fragmentu**.
 1. Dialoglodziņā **Atlasīt fragmentu** atlasiet iepriekš izveidoto fragmentu **Iegādes lodziņa fragments** un pēc tam atlasiet **Labi**.
 1. Saglabājiet un priekšskatiet lapu. Pievienojiet **?productid=&lt;product id&gt;** vaicājuma virknes parametru priekšskatījuma lapas vietrādim URL. Šādā veidā preces konteksts tiek izmantots priekšskatījuma lapas ielādei un atveidošanai.
-1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to. Preču informācijas lapā ir jābūt redzamam iegādes lodziņam.
+1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to. Preču informācijas lapā ir jābūt redzamam iegādes lodziņam.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

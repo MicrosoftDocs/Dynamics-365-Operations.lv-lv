@@ -17,12 +17,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d78ae1d7a827a0062f93a883f310b8168ee78634
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015083"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 
@@ -40,9 +40,8 @@ Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īso
 3. Darbību rūtī atlasiet **Novirze**.
 4. Lai pievienotu valodas pilno nosaukumu un īso nosaukumu, atlasiet **Jauns** un ievadiet informāciju šādos laukos.
 
-   |                                                                        |                                                                                                                                                                                                                                                                        |
+   |             Lauks                                                           |                        Apraksts                                                                                                                                                                                                                                                |
    |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                         <strong>Lauks</strong>                         |                                                                                                                      <strong>Apraksts</strong>                                                                                                                      |
    |                       <strong>Valoda</strong>                        |                                                                                                               Atlasiet pašreizējā teksta valodu.                                                                                                                |
    |    <strong>Vienskaitļa nominatīvs (vienības nosaukumu lauku grupa)</strong>    |                                                                                       Ievadiet valūtas nosaukumu vienskaitļa formā. Piemēram, vienskaitļa forma no litiem ir “lits”.                                                                                       |
    |     <strong>Daudzskaitļa nominatīvs (vienības nosaukumu lauku grupa)</strong>     | Ievadiet valūtas nosaukumu daudzskaitļa formā. Ievadiet, piemēram, “liti”. <strong>Piezīme</strong>. Lauki <strong>Vienskaitļa ģenitīvs</strong> un <strong>Daudzskaitļa ģenitīvs</strong> ir pieejami atkarībā no valodas, kas atlasīta laukā <strong>Valoda</strong>. |
@@ -51,7 +50,7 @@ Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īso
    |    <strong>Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                         Ievadiet ISO kodu, lai identificētu attiecīgo valūtu. Piemēram, ievadiet LTL, lai identificētu litus.                                                                                         |
    |   <strong>Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                               Ievadiet valūtas apakšvienības apzīmējumu. Ievadiet, piemēram, “centi”.                                                                                               |
    |       <strong>Saiklis “un” starp vienībām un daļām</strong>       |                                     Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”. Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.                                      |
-   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis**, **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot **Dzimumu** EUR valūtai uz **Neitrāls**, summa 1,01 EUR Kases orderī čehu valodā ir *Edno euro 01 cent*.  |
+   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis** , **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot **Dzimumu** EUR valūtai uz **Neitrāls** , summa 1,01 EUR Kases orderī čehu valodā ir *Edno euro 01 cent*.  |
 
 5. Atlasiet **Saglabāt**.
 

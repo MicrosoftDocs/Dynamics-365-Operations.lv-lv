@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLocationBuild
+ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c0bed8c95760b3dee350048c5f824f974b784f26
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016312"
 ---
 # <a name="additional-location-zones"></a>Papildu novietojuma zonas
 
@@ -35,7 +35,7 @@ Lai izmantotu zonu laukus, papildu iestatījumi nav nepieciešami.
 
 ## <a name="turn-on-the-additional-location-zone-feature"></a>Līdzekļa Papildu novietojuma zona ieslēgšana
 
-Lai varētu izmantot līdzekli *Papildu novietojuma zona*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Lai varētu izmantot līdzekli *Papildu novietojuma zona* , tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Papildu novietojuma zona*
@@ -56,5 +56,5 @@ Lai varētu izmantot līdzekli *Papildu novietojuma zona*, tas vispirms ir jāie
 5. Atlasiet rindu **Aile**.
 6. Laukā **No numura** ievadiet _1_. Laukā **Līdz numuram** ievadiet _5_.
 7. Atlasiet **Izveidot**.
-8. Tiek saņemti ziņojumi, norādot, ka jaunie novietojumi ir pievienoti. Atlasiet pogu **Rādīt ziņojumus**, lai skatītu ziņojumus.
+8. Tiek saņemti ziņojumi, norādot, ka jaunie novietojumi ir pievienoti. Atlasiet pogu **Rādīt ziņojumus** , lai skatītu ziņojumus.
 9. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojums**. Jaunie novietojumi tiek parādīti sarakstā un visu zonu lauki ir pieejami (tas ir, esošas zonas lauks un jaunie papildu zonu lauki).

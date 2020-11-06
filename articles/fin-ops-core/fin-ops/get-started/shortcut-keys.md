@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962524"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013184"
 ---
 # <a name="keyboard-shortcuts"></a>Īsinājumtaustiņi
 
@@ -33,7 +33,7 @@ Tālāk norādītie īsinājumtaustiņi palīdz ātri un efektīvi ievadīt datu
 > [!NOTE]
 > Šeit aprakstītie īsinājumtaustiņi attiecas uz ASV tastatūras izkārtojumu. Citos tastatūras izkārtojumos taustiņi var precīzi neatbilst taustiņiem ASV tastatūras izkārtojumā.
 
-Dažas no šajā lapā norādītajām saīsnēm ir *taustiņu akordi*, kas nozīmē, ka tām nepieciešamas divas secīgas taustiņu kombināciju kopas (atdalītas ar komatu), kas ir jāspiež, lai izraisītu nepieciešamo darbību. Piemēram, saīsne „Alt+M,A” pieprasa lietotājam vispirms nospiest „Alt + M”, atlaist taustiņus un pēc tam nospiest „A”. 
+Dažas no šajā lapā norādītajām saīsnēm ir *taustiņu akordi* , kas nozīmē, ka tām nepieciešamas divas secīgas taustiņu kombināciju kopas (atdalītas ar komatu), kas ir jāspiež, lai izraisītu nepieciešamo darbību. Piemēram, saīsne „Alt+M,A” pieprasa lietotājam vispirms nospiest „Alt + M”, atlaist taustiņus un pēc tam nospiest „A”. 
 
 ## <a name="finding-a-shortcut"></a>Saīsnes atrašana
 
@@ -239,7 +239,7 @@ Kopš platformas atjauninājuma 11 ieviešanas pašlaik pieejamās saīsnes lie
 | Pāriet uz iepriekšējo/nākamo lapu uzmeklēšanas rūtī                                                                                       | Page Up/Page Down              |
 | Pāriet uz uzmeklēšanas rūts augšdaļu/apakšdaļu                                                                                    | Home/End                       |
 
-## <a name="task-recordershortcuts"></a>[Uzdevumu ierakstītāja](../../dev-itpro/user-interface/task-recorder.md)saīsnes 
+## <a name="task-recorder-shortcuts"></a>[Uzdevumu ierakstītāja](../../dev-itpro/user-interface/task-recorder.md) saīsnes 
 
 | Darbība                                                                    | Nospiests:                       |
 |-------------------------------------------------------------------------------|----------------------------|

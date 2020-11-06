@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270340"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997150"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sinhronizēt ar Dynamics 365 Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
 
@@ -37,7 +36,7 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
 ## <a name="use-the-pricing-engine-from-supply-chain-management-in-sales"></a>Izmantot cenu noteikšanas programmu no Supply Chain Management pakalpojumā Sales
 
 1. Pakalpojumā Sales dodieties uz **Pārdošana \>Pasūtījumi**.
-2. Atlasiet **Jauns**, lai izveidotu jaunu pasūtījumu vai atlasītu esošu pasūtījumu sarakstā **Mani pasūtījumi**.
+2. Atlasiet **Jauns** , lai izveidotu jaunu pasūtījumu vai atlasītu esošu pasūtījumu sarakstā **Mani pasūtījumi**.
 3. Pievienojiet jaunu pasūtījuma rindu.
 4. Ja veidojat jaunu pasūtījumu, darbību rūtī atlasiet **Cenas pasūtījums**. Ja atjaunināt esošu pasūtījumu, darbību rūtī atlasiet **Pārrēķināt**.
 
@@ -61,7 +60,7 @@ Microsoft Dynamics 365 Supply Chain Management iekļauj cenu noteikšanas progra
 
 Pakalpojumā Sales atlasot **Cenas pasūtījums** saistītajam pārdošanas pasūtījumam tiek izsaukta funkcija **Kopsumma** programmas Supply Chain Management cilnē **Pārdošanas pasūtījums\> Skatīt**. Vērtības pasūtījuma kopsummā pakalpojumā Sales tiek izmantotas, lai aizpildītu atbilstošos laukus programmā Supply Chain Management.
 
-Kad pārdošanas pasūtījuma kopsumma tiek aprēķināta programmā Supply Chain Management, aprēķinā novērtē esošos tirdzniecības līgumus un pārdošanas līgumus klientam un preces, kas norādītas pārdošanas pasūtījumā. Šī informācija tiek izmantota kopsummu aprēķināšanai. Kad ir atlasīts **Cenas pasūtījums**, programma Sales automātiski ataino visus iestatījumus, kas veikti programmā Supply Chain Management.
+Kad pārdošanas pasūtījuma kopsumma tiek aprēķināta programmā Supply Chain Management, aprēķinā novērtē esošos tirdzniecības līgumus un pārdošanas līgumus klientam un preces, kas norādītas pārdošanas pasūtījumā. Šī informācija tiek izmantota kopsummu aprēķināšanai. Kad ir atlasīts **Cenas pasūtījums** , programma Sales automātiski ataino visus iestatījumus, kas veikti programmā Supply Chain Management.
 
 ## <a name="limitations"></a>Ierobežojumi
 
