@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: TMSRouteWorkbench, TMSRateMaster, TMSRateBaseType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,71 +17,71 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44eb817bbc6053eeefaef18f9d3be1822bcb057c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 72d71aa15f8cec532980f412ff1cb48e142c4cb1
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016474"
 ---
-# <a name="set-up-rate-masters"></a><span data-ttu-id="25919-103">Likmju šablonu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="25919-103">Set up rate masters</span></span>
+# <a name="set-up-rate-masters"></a><span data-ttu-id="c1f72-103">Likmju šablonu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="c1f72-103">Set up rate masters</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="25919-104">Šajā procedūrā parādīts, kā iestatīt likmes šablonu.</span><span class="sxs-lookup"><span data-stu-id="25919-104">This procedure shows you how to set up a rate master.</span></span> <span data-ttu-id="25919-105">Loģistikas vadītājs parasti iestata likmes šablonus, atkarībā no ar pārvadātājiem parakstītajiem līgumiem.</span><span class="sxs-lookup"><span data-stu-id="25919-105">The logistic manager usually sets up rate masters, depending on the contracts signed with the carriers.</span></span> <span data-ttu-id="25919-106">Šajā scenārijā iestatīsit likmes šablonu gaisa pārvadātājam.</span><span class="sxs-lookup"><span data-stu-id="25919-106">In this scenario you will set up a rate master for an air carrier.</span></span> <span data-ttu-id="25919-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="25919-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="c1f72-104">Šajā procedūrā parādīts, kā iestatīt likmes šablonu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-104">This procedure shows you how to set up a rate master.</span></span> <span data-ttu-id="c1f72-105">Loģistikas vadītājs parasti iestata likmes šablonus, atkarībā no ar pārvadātājiem parakstītajiem līgumiem.</span><span class="sxs-lookup"><span data-stu-id="c1f72-105">The logistic manager usually sets up rate masters, depending on the contracts signed with the carriers.</span></span> <span data-ttu-id="c1f72-106">Šajā scenārijā iestatīsit likmes šablonu gaisa pārvadātājam.</span><span class="sxs-lookup"><span data-stu-id="c1f72-106">In this scenario you will set up a rate master for an air carrier.</span></span> <span data-ttu-id="c1f72-107">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="c1f72-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-rate-master"></a><span data-ttu-id="25919-108">Likmes šablona iestatīšana</span><span class="sxs-lookup"><span data-stu-id="25919-108">Set up rate master</span></span>
-1. <span data-ttu-id="25919-109">Dodieties uz Transportēšanas pārvaldība > Iestatīšana > Vērtējums > Likmes šablons.</span><span class="sxs-lookup"><span data-stu-id="25919-109">Go to Transportation management > Setup > Rating > Rate master.</span></span>
-2. <span data-ttu-id="25919-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="25919-110">Click New.</span></span>
-3. <span data-ttu-id="25919-111">Laukā Likmes šablons ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="25919-111">In the Rate master field, type a value.</span></span>
-4. <span data-ttu-id="25919-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="25919-112">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="25919-113">Laukā Vērtējuma metadatu ID noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="25919-113">In the Rating metadata ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="25919-114">Vērtēšanas metadatu ID noteiks, kādi dati nepieciešami likmes šablonā, jo tas definē metadatus, kas nepieciešami šo likmes šablonu izmantojošajai TMS programmai.</span><span class="sxs-lookup"><span data-stu-id="25919-114">The rating metadata ID will determine the data needed for the rate master, as it defines the metadata expected by the TMS engine using this rate master.</span></span>  
-6. <span data-ttu-id="25919-115">Šim piemēram atlasiet opciju P2P</span><span class="sxs-lookup"><span data-stu-id="25919-115">For this example, select the P2P option</span></span>
-7. <span data-ttu-id="25919-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="25919-116">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="25919-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="25919-117">Click Save.</span></span>
+## <a name="set-up-rate-master"></a><span data-ttu-id="c1f72-108">Likmes šablona iestatīšana</span><span class="sxs-lookup"><span data-stu-id="c1f72-108">Set up rate master</span></span>
+1. <span data-ttu-id="c1f72-109">Dodieties uz Transportēšanas pārvaldība > Iestatīšana > Vērtējums > Likmes šablons.</span><span class="sxs-lookup"><span data-stu-id="c1f72-109">Go to Transportation management > Setup > Rating > Rate master.</span></span>
+2. <span data-ttu-id="c1f72-110">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c1f72-110">Click New.</span></span>
+3. <span data-ttu-id="c1f72-111">Laukā Likmes šablons ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c1f72-111">In the Rate master field, type a value.</span></span>
+4. <span data-ttu-id="c1f72-112">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c1f72-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c1f72-113">Laukā Vērtējuma metadatu ID noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-113">In the Rating metadata ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="c1f72-114">Vērtēšanas metadatu ID noteiks, kādi dati nepieciešami likmes šablonā, jo tas definē metadatus, kas nepieciešami šo likmes šablonu izmantojošajai TMS programmai.</span><span class="sxs-lookup"><span data-stu-id="c1f72-114">The rating metadata ID will determine the data needed for the rate master, as it defines the metadata expected by the TMS engine using this rate master.</span></span>  
+6. <span data-ttu-id="c1f72-115">Šim piemēram atlasiet opciju P2P</span><span class="sxs-lookup"><span data-stu-id="c1f72-115">For this example, select the P2P option</span></span>
+7. <span data-ttu-id="c1f72-116">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="c1f72-116">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c1f72-117">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c1f72-117">Click Save.</span></span>
 
-## <a name="set-up-rate-base"></a><span data-ttu-id="25919-118">Likmes bāzes tipa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="25919-118">Set up rate base</span></span>
-1. <span data-ttu-id="25919-119">Noklikšķiniet uz Likmes bāze.</span><span class="sxs-lookup"><span data-stu-id="25919-119">Click Rate base.</span></span>
-    * <span data-ttu-id="25919-120">Likmes bāze nosaka pārvadātāja kursu, un to var izmantot, lai iestatītu tarifu struktūru un likmes strukturētu atbilstoši pārtraukumpunktiem, kas definēti pārtraukumu šablonā.</span><span class="sxs-lookup"><span data-stu-id="25919-120">The rate base determines the rate of the carrier, and can be used to set up a tariff structure as it structures the rates in the breakpoints defined in the break master.</span></span>  
-2. <span data-ttu-id="25919-121">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="25919-121">Click New.</span></span>
-3. <span data-ttu-id="25919-122">Laukā Likmes bāze ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="25919-122">In the Rate base field, type a value.</span></span>
-4. <span data-ttu-id="25919-123">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="25919-123">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="25919-124">Laukā Pārtraukuma šablons noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="25919-124">In the Break master field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="25919-125">Pārtraukuma šabloni tiek izmantoti, lai noteiktu izcenojuma struktūru un tās pārtraukumpunktus.</span><span class="sxs-lookup"><span data-stu-id="25919-125">Break masters are used to define the pricing structure and its breakpoints.</span></span> <span data-ttu-id="25919-126">Izcenojuma struktūra izmanto diferencētas cenas, kuru pamatā ir fiziskās dimensijas.</span><span class="sxs-lookup"><span data-stu-id="25919-126">The pricing structure uses tiered pricing that is based on physical dimensions.</span></span>  
-6. <span data-ttu-id="25919-127">Šim piemēram izmantojiet svaru</span><span class="sxs-lookup"><span data-stu-id="25919-127">For this example, use weight</span></span>
-7. <span data-ttu-id="25919-128">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="25919-128">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="25919-129">Pārslēdziet sadaļas Detalizēti paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="25919-129">Toggle the expansion of the Details section.</span></span>
-9. <span data-ttu-id="25919-130">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="25919-130">Click New.</span></span>
-10. <span data-ttu-id="25919-131">Laukā Nodošanas pasta indekss no ierakstiet "30301".</span><span class="sxs-lookup"><span data-stu-id="25919-131">In the Drop-off Postal Code From field, type '30301'.</span></span>
-11. <span data-ttu-id="25919-132">Laukā Nodošanas pasta indekss uz ierakstiet "30318".</span><span class="sxs-lookup"><span data-stu-id="25919-132">In the Drop-off Postal Code To field, type '30318'.</span></span>
-12. <span data-ttu-id="25919-133">Laukā Nodošanas valsts reģions ierakstiet "ASV".</span><span class="sxs-lookup"><span data-stu-id="25919-133">In the Drop-off Country Region field, type 'USA'.</span></span>
-13. <span data-ttu-id="25919-134">Laukā < 1,00 mārc. ierakstiet “100”.</span><span class="sxs-lookup"><span data-stu-id="25919-134">In the <1.00 Lbs field, type '100'.</span></span>
-    * <span data-ttu-id="25919-135">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 1 mārciņu.</span><span class="sxs-lookup"><span data-stu-id="25919-135">Insert the rate per lbs if the total weight of the load is less than 1 pound.</span></span>  
-14. <span data-ttu-id="25919-136">Laukā <5,00 mārc. ierakstiet "300".</span><span class="sxs-lookup"><span data-stu-id="25919-136">In the <5.00 Lbs field, type '300'.</span></span>
-    * <span data-ttu-id="25919-137">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 5 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="25919-137">Insert the rate per lbs if the total weight of the load is less than 5 pounds.</span></span>  
-15. <span data-ttu-id="25919-138">Laukā <20,00 mārc. ierakstiet "500".</span><span class="sxs-lookup"><span data-stu-id="25919-138">In the <20.00 Lbs field, type '500'.</span></span>
-    * <span data-ttu-id="25919-139">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 20 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="25919-139">Insert the rate per lbs if the total weight of the load is less than 20 pounds.</span></span>  
-16. <span data-ttu-id="25919-140">Laukā <100,00 mārc. ierakstiet "1000".</span><span class="sxs-lookup"><span data-stu-id="25919-140">In the <100.00 Lbs field, type '1000'.</span></span>
-    * <span data-ttu-id="25919-141">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 100 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="25919-141">Insert the rate per lbs if the total weight of the load is less than 100 pounds.</span></span>  
-17. <span data-ttu-id="25919-142">Laukā <1000,00 mārc. ierakstiet "3000".</span><span class="sxs-lookup"><span data-stu-id="25919-142">In the <1,000.00 Lbs field, type '3000'.</span></span>
-    * <span data-ttu-id="25919-143">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 1000 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="25919-143">Insert the rate per lbs if the total weight of the load is less than 1000 pounds.</span></span>  
-18. <span data-ttu-id="25919-144">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="25919-144">Click Save.</span></span>
-19. <span data-ttu-id="25919-145">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="25919-145">Close the page.</span></span>
+## <a name="set-up-rate-base"></a><span data-ttu-id="c1f72-118">Likmes bāzes tipa iestatīšana</span><span class="sxs-lookup"><span data-stu-id="c1f72-118">Set up rate base</span></span>
+1. <span data-ttu-id="c1f72-119">Noklikšķiniet uz Likmes bāze.</span><span class="sxs-lookup"><span data-stu-id="c1f72-119">Click Rate base.</span></span>
+    * <span data-ttu-id="c1f72-120">Likmes bāze nosaka pārvadātāja kursu, un to var izmantot, lai iestatītu tarifu struktūru un likmes strukturētu atbilstoši pārtraukumpunktiem, kas definēti pārtraukumu šablonā.</span><span class="sxs-lookup"><span data-stu-id="c1f72-120">The rate base determines the rate of the carrier, and can be used to set up a tariff structure as it structures the rates in the breakpoints defined in the break master.</span></span>  
+2. <span data-ttu-id="c1f72-121">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c1f72-121">Click New.</span></span>
+3. <span data-ttu-id="c1f72-122">Laukā Likmes bāze ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="c1f72-122">In the Rate base field, type a value.</span></span>
+4. <span data-ttu-id="c1f72-123">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c1f72-123">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c1f72-124">Laukā Pārtraukuma šablons noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-124">In the Break master field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="c1f72-125">Pārtraukuma šabloni tiek izmantoti, lai noteiktu izcenojuma struktūru un tās pārtraukumpunktus.</span><span class="sxs-lookup"><span data-stu-id="c1f72-125">Break masters are used to define the pricing structure and its breakpoints.</span></span> <span data-ttu-id="c1f72-126">Izcenojuma struktūra izmanto diferencētas cenas, kuru pamatā ir fiziskās dimensijas.</span><span class="sxs-lookup"><span data-stu-id="c1f72-126">The pricing structure uses tiered pricing that is based on physical dimensions.</span></span>  
+6. <span data-ttu-id="c1f72-127">Šim piemēram izmantojiet svaru</span><span class="sxs-lookup"><span data-stu-id="c1f72-127">For this example, use weight</span></span>
+7. <span data-ttu-id="c1f72-128">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="c1f72-128">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c1f72-129">Pārslēdziet sadaļas Detalizēti paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-129">Toggle the expansion of the Details section.</span></span>
+9. <span data-ttu-id="c1f72-130">Klikšķiniet Jauns.</span><span class="sxs-lookup"><span data-stu-id="c1f72-130">Click New.</span></span>
+10. <span data-ttu-id="c1f72-131">Laukā Nodošanas pasta indekss no ierakstiet "30301".</span><span class="sxs-lookup"><span data-stu-id="c1f72-131">In the Drop-off Postal Code From field, type '30301'.</span></span>
+11. <span data-ttu-id="c1f72-132">Laukā Nodošanas pasta indekss uz ierakstiet "30318".</span><span class="sxs-lookup"><span data-stu-id="c1f72-132">In the Drop-off Postal Code To field, type '30318'.</span></span>
+12. <span data-ttu-id="c1f72-133">Laukā Nodošanas valsts reģions ierakstiet "ASV".</span><span class="sxs-lookup"><span data-stu-id="c1f72-133">In the Drop-off Country Region field, type 'USA'.</span></span>
+13. <span data-ttu-id="c1f72-134">Laukā < 1,00 mārc. ierakstiet “100”.</span><span class="sxs-lookup"><span data-stu-id="c1f72-134">In the <1.00 Lbs field, type '100'.</span></span>
+    * <span data-ttu-id="c1f72-135">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 1 mārciņu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-135">Insert the rate per lbs if the total weight of the load is less than 1 pound.</span></span>  
+14. <span data-ttu-id="c1f72-136">Laukā <5,00 mārc. ierakstiet "300".</span><span class="sxs-lookup"><span data-stu-id="c1f72-136">In the <5.00 Lbs field, type '300'.</span></span>
+    * <span data-ttu-id="c1f72-137">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 5 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="c1f72-137">Insert the rate per lbs if the total weight of the load is less than 5 pounds.</span></span>  
+15. <span data-ttu-id="c1f72-138">Laukā <20,00 mārc. ierakstiet "500".</span><span class="sxs-lookup"><span data-stu-id="c1f72-138">In the <20.00 Lbs field, type '500'.</span></span>
+    * <span data-ttu-id="c1f72-139">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 20 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="c1f72-139">Insert the rate per lbs if the total weight of the load is less than 20 pounds.</span></span>  
+16. <span data-ttu-id="c1f72-140">Laukā <100,00 mārc. ierakstiet "1000".</span><span class="sxs-lookup"><span data-stu-id="c1f72-140">In the <100.00 Lbs field, type '1000'.</span></span>
+    * <span data-ttu-id="c1f72-141">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 100 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="c1f72-141">Insert the rate per lbs if the total weight of the load is less than 100 pounds.</span></span>  
+17. <span data-ttu-id="c1f72-142">Laukā <1000,00 mārc. ierakstiet "3000".</span><span class="sxs-lookup"><span data-stu-id="c1f72-142">In the <1,000.00 Lbs field, type '3000'.</span></span>
+    * <span data-ttu-id="c1f72-143">Ievietojiet likmi par mārciņu, ja kravas kopējais svars ir mazāks par 1000 mārciņām.</span><span class="sxs-lookup"><span data-stu-id="c1f72-143">Insert the rate per lbs if the total weight of the load is less than 1000 pounds.</span></span>  
+18. <span data-ttu-id="c1f72-144">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c1f72-144">Click Save.</span></span>
+19. <span data-ttu-id="c1f72-145">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-145">Close the page.</span></span>
 
-## <a name="assign-rate-base"></a><span data-ttu-id="25919-146">Likmes bāzes piešķiršana</span><span class="sxs-lookup"><span data-stu-id="25919-146">Assign rate base</span></span>
-1. <span data-ttu-id="25919-147">Pārslēdziet sadaļas Likmes bāzes piešķires paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="25919-147">Toggle the expansion of the Rate base assignments section.</span></span>
-2. <span data-ttu-id="25919-148">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="25919-148">Click New.</span></span>
-    * <span data-ttu-id="25919-149">Katrā likmes šablonā var būt vairākas likmes bāzes piešķires.</span><span class="sxs-lookup"><span data-stu-id="25919-149">You can have several rate base assignments for each rate master.</span></span> <span data-ttu-id="25919-150">Tas dod iespēju katram pārvadātājam izveidot vairākus dažādus cenu punktus atkarībā no galamērķiem, pakalpojumiem vai atšķirīgām pamatlikmēm.</span><span class="sxs-lookup"><span data-stu-id="25919-150">This makes it possible to create several different price points for each carrier depending on destinations, services, or different rate bases.</span></span> <span data-ttu-id="25919-151">Šajā procedūrā tiks izveidota tikai viena likmes bāzes piešķire.</span><span class="sxs-lookup"><span data-stu-id="25919-151">In this procedure you will only create one rate base assignment.</span></span>  
-3. <span data-ttu-id="25919-152">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="25919-152">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="25919-153">Laukā Likmes bāze noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="25919-153">In the Rate base field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="25919-154">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="25919-154">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="25919-155">Laukā Pakalpojums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="25919-155">In the Service field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="25919-156">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="25919-156">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="25919-157">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="25919-157">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="25919-158">Laukā Saņemšanas pasta indekss ierakstiet "98052".</span><span class="sxs-lookup"><span data-stu-id="25919-158">In the Pick-up Postal Code field, type '98052'.</span></span>
-    * <span data-ttu-id="25919-159">Norādiet, no kura pasta koda ir spēkā šī likmes bāzes piešķire.</span><span class="sxs-lookup"><span data-stu-id="25919-159">Specify which postal code this rate base assignment should be valid from.</span></span>    
-10. <span data-ttu-id="25919-160">Laukā Saņemšanas valsts reģions ierakstiet "ASV".</span><span class="sxs-lookup"><span data-stu-id="25919-160">In the Pick-up Country Region field, type 'USA'.</span></span>
-11. <span data-ttu-id="25919-161">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="25919-161">Click Save.</span></span>
+## <a name="assign-rate-base"></a><span data-ttu-id="c1f72-146">Likmes bāzes piešķiršana</span><span class="sxs-lookup"><span data-stu-id="c1f72-146">Assign rate base</span></span>
+1. <span data-ttu-id="c1f72-147">Pārslēdziet sadaļas Likmes bāzes piešķires paplašinājumu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-147">Toggle the expansion of the Rate base assignments section.</span></span>
+2. <span data-ttu-id="c1f72-148">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="c1f72-148">Click New.</span></span>
+    * <span data-ttu-id="c1f72-149">Katrā likmes šablonā var būt vairākas likmes bāzes piešķires.</span><span class="sxs-lookup"><span data-stu-id="c1f72-149">You can have several rate base assignments for each rate master.</span></span> <span data-ttu-id="c1f72-150">Tas dod iespēju katram pārvadātājam izveidot vairākus dažādus cenu punktus atkarībā no galamērķiem, pakalpojumiem vai atšķirīgām pamatlikmēm.</span><span class="sxs-lookup"><span data-stu-id="c1f72-150">This makes it possible to create several different price points for each carrier depending on destinations, services, or different rate bases.</span></span> <span data-ttu-id="c1f72-151">Šajā procedūrā tiks izveidota tikai viena likmes bāzes piešķire.</span><span class="sxs-lookup"><span data-stu-id="c1f72-151">In this procedure you will only create one rate base assignment.</span></span>  
+3. <span data-ttu-id="c1f72-152">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="c1f72-152">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="c1f72-153">Laukā Likmes bāze noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-153">In the Rate base field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="c1f72-154">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="c1f72-154">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="c1f72-155">Laukā Pakalpojums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-155">In the Service field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="c1f72-156">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="c1f72-156">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="c1f72-157">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="c1f72-157">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="c1f72-158">Laukā Saņemšanas pasta indekss ierakstiet "98052".</span><span class="sxs-lookup"><span data-stu-id="c1f72-158">In the Pick-up Postal Code field, type '98052'.</span></span>
+    * <span data-ttu-id="c1f72-159">Norādiet, no kura pasta koda ir spēkā šī likmes bāzes piešķire.</span><span class="sxs-lookup"><span data-stu-id="c1f72-159">Specify which postal code this rate base assignment should be valid from.</span></span>    
+10. <span data-ttu-id="c1f72-160">Laukā Saņemšanas valsts reģions ierakstiet "ASV".</span><span class="sxs-lookup"><span data-stu-id="c1f72-160">In the Pick-up Country Region field, type 'USA'.</span></span>
+11. <span data-ttu-id="c1f72-161">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="c1f72-161">Click Save.</span></span>
 
