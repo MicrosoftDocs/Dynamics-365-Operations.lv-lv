@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 92ffd2076497325fb986478328c4b2584929881d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835996"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039896"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Elektronisko rēķinu izrakstīšanas pievienojuma iestatīšana
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa iestatīšana ir process, kurā ir nepieciešama konfigurācija, izmantojot regulatīvo konfigurācijas pakalpojumu (Regulatory Configuration Services - RCS) vidi un publicējot šo konfigurāciju elektronisko rēķinu izrakstīšanas pievienojuma serverim. Iestatīšana ļauj izveidot konfigurējamus noteikumus, kas iespējo elektronisko rēķinu izrakstīšanas pievienojumu, lai internetā izmantotu drošu protokolu, lai sazinātos un veiktu datu apmaiņu ar trešās puses elementu, izmantojot tīmkļa pakalpojumus.
 
@@ -50,8 +50,8 @@ Iestatīšanas process ir jāpabeidz jūsu RCS vidē. Veiciet šīs darbības, l
 
 1. Pierakstieties savā RCS vidē.
 2. Darbvietā **Globalizācijas līdzekļi** sadaļā **Līdzekli** atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojums**.
-3. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** atlasiet **Importēt**, lai importētu ER datu modeļa konfigurāciju no globālās krātuves.
-4. Atlasiet **Pievienot**, lai izveidotu elektronisku rēķinu izrakstīšanas pievienojuma līdzekli. Varat vai nu izveidot līdzekli no fragmenta, vai arī iegūt to no pastāvoša elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
+3. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** atlasiet **Importēt** , lai importētu ER datu modeļa konfigurāciju no globālās krātuves.
+4. Atlasiet **Pievienot** , lai izveidotu elektronisku rēķinu izrakstīšanas pievienojuma līdzekli. Varat vai nu izveidot līdzekli no fragmenta, vai arī iegūt to no pastāvoša elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
 
     ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
@@ -71,7 +71,7 @@ Veiciet šīs darbības, lai pievienotu ER formātu elektronisko rēķinu izraks
     > [!NOTE]
     > Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no nulles, ir manuāli jāpievieno visas ER faila formāta konfigurācijas. Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no esoša līdzekļa, ER faila formāta konfigurācijas tiek veidotas automātiski, jo tās tiek pārmantotas no oriģinālā elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
 
-2. Atlasiet **Rediģēt**, lai atvērtu lapu **Formāta veidotājs**, kur varat rediģēt ER faila formāta konfigurāciju.
+2. Atlasiet **Rediģēt** , lai atvērtu lapu **Formāta veidotājs** , kur varat rediģēt ER faila formāta konfigurāciju.
 
     ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa konfigurāciju rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
@@ -95,11 +95,11 @@ Veiciet šīs darbības, lai pievienotu līdzekļa iestatījumus elektronisko r�
     > [!NOTE]
     > Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no nulles, ir manuāli jāpievieno visus nepieciešamos līdzekļa iestatījumus. Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no esoša līdzekļa, visi līdzekļa iestatījumi tiek veidoti automātiski, jo tie tiek pārmantoti no oriģinālā elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
 
-2. Atlasiet **Rediģēt**, lai rediģētu līdzekļa versijas iestatījumu.
+2. Atlasiet **Rediģēt** , lai rediģētu līdzekļa versijas iestatījumu.
 
     ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa iestatījumu rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
-3. Izmantojiet lapu **Līdzekļa versijas iestatīšana**, lai konfigurētu darbības, piemērojamības noteikumi un mainīgos.
+3. Izmantojiet lapu **Līdzekļa versijas iestatīšana** , lai konfigurētu darbības, piemērojamības noteikumi un mainīgos.
 
     ![Darbības, piemērojamības noteikumi un mainīgie](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
@@ -111,10 +111,10 @@ Katra darbība ietver iepriekš definēto parametru sarakstu, kas nepieciešams 
 
 #### <a name="actions-fasttab"></a>Kopsavilkuma cilne Darbības
 
-Lapā **Līdzekļu versiju iestatīšana** cilnē **Darbības**, kas atrodas kopsavilkuma cilnē **Darbības**, izpildiet vienu vai abus šos soļus, lai pārvaldītu darbības:
+Lapā **Līdzekļu versiju iestatīšana** cilnē **Darbības** , kas atrodas kopsavilkuma cilnē **Darbības** , izpildiet vienu vai abus šos soļus, lai pārvaldītu darbības:
 
-- Atlasiet **Jauns** vai **Dzēst**, lai pievienotu jaunas darbības vai dzēstu esošās darbības.
-- Atlasiet **Uz augšu** vai **Uz leju**, lai pārvietotu atlasītās darbības režģī uz augšu vai uz leju, un tādējādi mainiet secību, kādā tie tiek izpildīti. Darbības tiek izpildītas tādā secībā, kādā tās parādās režģī, no sākuma līdz beigām.
+- Atlasiet **Jauns** vai **Dzēst** , lai pievienotu jaunas darbības vai dzēstu esošās darbības.
+- Atlasiet **Uz augšu** vai **Uz leju** , lai pārvietotu atlasītās darbības režģī uz augšu vai uz leju, un tādējādi mainiet secību, kādā tie tiek izpildīti. Darbības tiek izpildītas tādā secībā, kādā tās parādās režģī, no sākuma līdz beigām.
 
 ![Darbību pārvaldība](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
@@ -194,7 +194,7 @@ Pieejamie parametri atšķiras atkarībā no darbības, kas atlasīta kopsavilku
 |-----------------------------|-------------|
 | Tīmekļa pakalpojuma URL             | Vietrādis URL, uz kuru sūtīt pieprasījumus. |
 | Tīmekļa pieprasījuma taimauts         | Maksimālais laiks (milisekundēs), lai gaidītu tīmekļa pakalpojuma atbildi. |
-| Pieprasījuma operācijas veids      | HTTP pieprasījuma operācijas veids (piemēram, **SAŅEMT**, **GRĀMATOT** vai **DZĒST**). |
+| Pieprasījuma operācijas veids      | HTTP pieprasījuma operācijas veids (piemēram, **SAŅEMT** , **GRĀMATOT** vai **DZĒST** ). |
 | Sertifikāta nosaukumi           | Sertifikāta nosaukumi. |
 | Atbildes pamatteksta kodējums      | Paredzamais HTTP atbildes struktūras kodējums, lai to varētu pareizi dekodēt. |
 | HTTP pieprasījuma satura veids   | HTTP pieprasījuma satura veida galvenes ievade. |
@@ -260,7 +260,7 @@ Piemērojamības noteikumi ļauj izveidot loģiskus noteikumus, kas nosaka līdz
 
 #### <a name="set-up-applicability-rules"></a>Piemērojamības noteikumu iestatīšana
 
-1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Piemērojamības noteikumi** atlasiet **Jauns**, lai pievienotu piemērojamības noteikumu.
+1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Piemērojamības noteikumi** atlasiet **Jauns** , lai pievienotu piemērojamības noteikumu.
 
     ![Piemērojamības noteikumu pārvaldība](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
@@ -295,7 +295,7 @@ Varat izveidot mainīgos un pēc tam izmantot tos kā ievades vērtību konkrēt
 
 #### <a name="set-up-variables"></a>Iestatīt mainīgos lielumus
 
-- Lapas **Līdzekļu versijas iestatīšana** cilnē **Mainīgie** atlasiet **Jauns** vai **Dzēst**, lai pārvaldītu mainīgos.
+- Lapas **Līdzekļu versijas iestatīšana** cilnē **Mainīgie** atlasiet **Jauns** vai **Dzēst** , lai pārvaldītu mainīgos.
 
     ![Mainīgo pārvaldība](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
@@ -311,7 +311,7 @@ Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Mainīgie** cilnē.
 
 ### <a name="validate-the-feature-setup"></a>Validējiet līdzekļu iestatījumu
 
-- Lapā **Līdzekļu versijas iestatīšana**, kas atrodas darbības rūtī, atlasiet **Validēt**, lai validētu līdzekļa versijas iestatījumu.
+- Lapā **Līdzekļu versijas iestatīšana** , kas atrodas darbības rūtī, atlasiet **Validēt** , lai validētu līdzekļa versijas iestatījumu.
 
    ![Pogas Validēt atlasīšana](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
@@ -332,7 +332,7 @@ Lai iespējotu Elektronisko rēķinu izrakstīšanas pievienojuma vidi elektroni
 
 Elektronisko rēķinu izrakstīšanas pievienojuma līdzekli var koplietot vairākos uzņēmumos.
 
-- Lapā **Elektroniskās rēķinu izrakstīšanas pievienojuma līdzekļi** cilnē **Organizācijas** atlasiet **Kopīgot ar**, lai pievienotu organizāciju, ar kuru vēlaties koplietot elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
+- Lapā **Elektroniskās rēķinu izrakstīšanas pievienojuma līdzekļi** cilnē **Organizācijas** atlasiet **Kopīgot ar** , lai pievienotu organizāciju, ar kuru vēlaties koplietot elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
 
 Lai apturētu elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa koplietošanu ar organizāciju, atlasiet **Noņemt koplietojumu**.
 
@@ -343,7 +343,7 @@ Versijas palīdz kontrolēt elektronisko rēķinu izrakstīšanas pievienojuma l
 ### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Izveidot jaunu esoša elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa versiju
 
 1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** režģī pa kreisi atlasiet elektronisko rēķinu izrakstīšanas pievienojuma līdzekli.
-2. Cilnē **Versijas** atlasiet **Jauns**, lai pievienotu jaunu elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa versiju.
+2. Cilnē **Versijas** atlasiet **Jauns** , lai pievienotu jaunu elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa versiju.
 
 ### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Mainīt elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa statusu
 
@@ -351,13 +351,13 @@ Veiciet šīs darbības, lai pārvaldītu elektronisko rēķinu izrakstīšanas 
 
 1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** režģī pa kreisi atlasiet elektronisko rēķinu izrakstīšanas pievienojuma līdzekli.
 2. Cilnē **Versijas** atlasiet **Mainīt statusu** un pēc tam mainiet statusu no **Melnraksts** uz **Pabeigts**.
-3. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties aizpildīt elektronisko rēķinu izrakstīšanas pievienojuma līdzekli un visus tā komponentus. Atlasiet **Jā**, lai apstiprinātu darbību vai **Nē**, lai to atceltu.
+3. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties aizpildīt elektronisko rēķinu izrakstīšanas pievienojuma līdzekli un visus tā komponentus. Atlasiet **Jā** , lai apstiprinātu darbību vai **Nē** , lai to atceltu.
 
     > [!NOTE]
-    > Kad atlasāt **Jā**, konfigurācijas versiju, kas ir elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa komponenti, statuss automātiski tiek mainīts no **Melnraksts** uz **Pabeigts**.
+    > Kad atlasāt **Jā** , konfigurācijas versiju, kas ir elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa komponenti, statuss automātiski tiek mainīts no **Melnraksts** uz **Pabeigts**.
 
 4. Atlasiet **Mainīt statusu** un pēc tam mainiet statusu no **Pabeigt** uz **Publicēt**.
-5. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties publicēt elektronisko rēķinu izrakstīšanas pievienojuma līdzekli un visus tā komponentus globālajā repozitorijā. Atlasiet **Jā**, lai apstiprinātu darbību vai **Nē**, lai to atceltu.
+5. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties publicēt elektronisko rēķinu izrakstīšanas pievienojuma līdzekli un visus tā komponentus globālajā repozitorijā. Atlasiet **Jā** , lai apstiprinātu darbību vai **Nē** , lai to atceltu.
 
     > [!NOTE]
-    > Kad atlasāt **Jā**, konfigurācijas versiju statuss tiek automātiski mainīts no **Pabeigts** uz **Koplietojams**.
+    > Kad atlasāt **Jā** , konfigurācijas versiju statuss tiek automātiski mainīts no **Pabeigts** uz **Koplietojams**.

@@ -182,9 +182,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Vides plānošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
-                - name: Sagatavošana publicēšanai
+                - name: Sagatavošanās līdzeklim Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: Bieži uzdotie jautājumi par palaišanu
+                - name: Bieži uzdotie jautājumi par Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Kreditoru rēķinu automatizācijas rezultātu skatīšana
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: Kreditora rēķina ieraksta darbvieta
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Žurnālu ierakstu un transakciju skatīšana
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Apgrozījuma bilance ar transakcijas detalizētu pārskatu
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Žurnālā grāmatoto ierakstu reģistrēšana žurnālā
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Valūtas pārvērtēšana konsolidācijas uzņēmumā
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Papildu publiskā sektora virsgrāmatas ieraksta izveide
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Apgrozījuma bilance ar transakcijas detalizētu pārskatu
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Naudas kontroles ierobežojumu izmantošana
                   href: public-sector/cash-control.md
                 - name: Gada beigu apstrāde publiskajā sektorā
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: NF-e sertifikāti
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: NF‑e pielāgoto sertifikātu validācija
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'NF-e XML dokumentu un DANFE failu iestatīšana, importēšana un verificēšana'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: NF-e federālo parametru iestatīšana
@@ -2080,11 +2084,13 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Nodokļu pieprasījums
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: TaxDocumentJSON tabulas tīrīšana
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Nodokļu programma
                   items:
                     - name: Nodokļu programmas pārskats
                       href: general-ledger/tax-engine.md
-                    - name: Importēt konfigurāciju
+                    - name: Konfigurācijas importēšana
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Papildu formulas veidotājs
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -2651,7 +2657,7 @@
                         - name: Krājumu profila pārskats
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Krājumu profila iestatīšana
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Krājumu profila izmantošana dokumentos un vaicājumos
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Pārskatu veidošana

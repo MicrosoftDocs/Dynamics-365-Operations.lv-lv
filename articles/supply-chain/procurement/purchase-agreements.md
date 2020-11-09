@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
+ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018840"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -58,7 +58,7 @@ Katra pirkšanas līguma rinda ir saistības kaut ko nopirkt. Lai izpildītu sai
 -   **Uz vērtību attiecināmās saistības** — jūs pērkat jebkuru preci vai preces par konkrētu valūtas summu jebkurā sagādes kategorijā.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Cenu noteikšanas nosacījumi pirkšanas līgumiem
-Cenu noteikšanas nosacījumi var atšķirties atkarībā no saistību veida. Pirkšanas līgumu ceno noteikšanas nosacījumiem ir prioritāte attiecībā pret jebkuriem citiem cenu noteikšanas nosacījumiem, kas ir noteikti tirdzniecības līgumiem. Šajā tabulā ir aprakstīti ar cenu saistītie lauki, kurus ietekmē katrs saistību veids. Laukus, kuros ir iekļauts vārds **Jā**, var atjaunināt pasūtījuma rindā.
+Cenu noteikšanas nosacījumi var atšķirties atkarībā no saistību veida. Pirkšanas līgumu ceno noteikšanas nosacījumiem ir prioritāte attiecībā pret jebkuriem citiem cenu noteikšanas nosacījumiem, kas ir noteikti tirdzniecības līgumiem. Šajā tabulā ir aprakstīti ar cenu saistītie lauki, kurus ietekmē katrs saistību veids. Laukus, kuros ir iekļauts vārds **Jā** , var atjaunināt pasūtījuma rindā.
 
 | Saistību veids                   | Vienības cena | Cenas vienība | Atlaides procents | Termiņatlaides summa |
 |-----------------------------------|------------|------------|------------------|----------------------|
@@ -75,7 +75,7 @@ Cenu noteikšanas nosacījumi var atšķirties atkarībā no saistību veida. Pi
 -   **Minimālā izlaišanas summa un Maksimālā izlaišanas summa** — ja ir norādīta summa, jūs saņemat ziņojumu gadījumā, ja kādā pasūtījuma rindā veicat jebkādas izmaiņas, kuru dēļ pasūtījuma rinda atšķiras no piesaistītajām saistībām.
 
 ## <a name="fulfillment-calculations-for-purchase-agreements"></a>Pirkšanas līgumu izpildes aprēķini
-Izpildes daudzumi un summas tiek rādīti cilnē **Izpilde**, kopsavilkuma cilnē **Detalizēta informācija par rindu**, kas atrodas lapā **Pirkšanas līgumi**.  
+Izpildes daudzumi un summas tiek rādīti cilnē **Izpilde** , kopsavilkuma cilnē **Detalizēta informācija par rindu** , kas atrodas lapā **Pirkšanas līgumi**.  
 
 Apgabalā **Izpilde** tiek rādīta atlikusī summa vai daudzums, kas ir nepieciešams, lai izpildītu saistības.  
 

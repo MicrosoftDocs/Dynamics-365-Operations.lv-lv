@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: ae805d9aac790a1a58478cf54d033ce758c5eca3
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017763"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -88,11 +89,11 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
     - **Atkārtoti apliecināt piegādes kvīti:** *Nē*
 
-        Šī opcija nosaka, vai, saņemot kvīti, ir atkārtoti jāapliecina piegāde. Ja šī opcija ir iestatīta uz *Jā*, ir jāpārbauda gan maksimālais laika logs, gan beigu dienu diapazons.
+        Šī opcija nosaka, vai, saņemot kvīti, ir atkārtoti jāapliecina piegāde. Ja šī opcija ir iestatīta uz *Jā* , ir jāpārbauda gan maksimālais laika logs, gan beigu dienu diapazons.
 
     - **Validēt maksimālo laika logu:** *Jā*
 
-        Šī opcija nosaka, vai maksimālais laika logs ir jānovērtē, kad ir atlasīts piegādes avots. Ja šī opcija ir iestatīta uz *Jā*, ir pieejami lauki, kas saistīti ar maksimālo un minimālo laiku logiem.
+        Šī opcija nosaka, vai maksimālais laika logs ir jānovērtē, kad ir atlasīts piegādes avots. Ja šī opcija ir iestatīta uz *Jā* , ir pieejami lauki, kas saistīti ar maksimālo un minimālo laiku logiem.
 
     - **Maksimālā laika logs:** *5*
 
@@ -108,7 +109,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
         *Pirmā beigu datuma (FEFO) kritēriji:* Šis lauks nosaka maksimālo dienu skaitu starp pirmās beigu partijas, kas pašlaik atrodas noliktavā, beigu datumu un saņemto partiju.
 
-1. Kopsavilkuma cilnē **Piegādes avoti** norādiet šai veidnei derīgus piegādes tipus. Atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
+1. Kopsavilkuma cilnē **Piegādes avoti** norādiet šai veidnei derīgus piegādes tipus. Atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
 
     - **Secības numurs:** *1*
     - **Piegādes avots:** *Pirkuma pasūtījums*
@@ -127,21 +128,21 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
 1. Doties uz **Noliktavas vadība \> Iestatīšana \> Darbs \> Darba veidnes**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārkraušana sadales centrā*.
-1. Lai pievienotu rindu cilnē **Pārskats**, darbības rūtī atlasiet **Jauns**.
+1. Lai pievienotu rindu cilnē **Pārskats** , darbības rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Secības numurs:** *1*
     - **Pārkraušanas veidne:** *51 Pārkraušana sadales centrā*
     - **Pārkraušanas veidnes apraksts:** *51 Pārkraušana sadales centrā*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Darba veidnes informācija**.
-1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns**, lai pievienotu režģim rindu.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Darba veidnes informācija**.
+1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns** , lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Darba veids:** *Izdošana*
     - **Darba klases ID:** *Pārkraušana sadales centrā*
 
-1. Atlasiet **Jauns**, lai pievienotu citu rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Jauns** , lai pievienotu citu rindu, un iestatiet šādas vērtības:
 
     - **Darba veids:** *Izvietošana*
     - **Darba klases ID:** *Pārkraušana sadales centrā*
@@ -155,7 +156,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
 1. Dodieties uz **Noliktavas vadība \> Iestatījumi \> Novietojuma direktīvas**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Pārkraušana sadales centrā*.
-1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
 
     - **Secības numurs:** *1*
     - **Nosaukums:** *51 Pārkraušana sadales centrā*
@@ -163,22 +164,22 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Vieta:** *5*
     - **Noliktava:** *51*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Rindas**.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, lai pievienotu režģim rindu.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Rindas**.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **No daudzuma:** *1*
     - **Līdz daudzumam:** *1 000 000*
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Novietojuma direktīvu darbības**.
-1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns**, lai pievienotu režģim rindu.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Novietojuma direktīvu darbības**.
+1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns** , lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Nosaukums:** *Baydoor*
     - **Fiksēta novietojuma lietojums:** *Fiksētas un nefiksētas vietas*
 
-1. Atlasiet **Saglabāt**, lai padarītu pogu **Rediģēt vaicājumu** rīkjoslā **Novietojuma direktīvu darbības** pieejamu.
-1. Atlasiet **Rediģēt vaicājumu**, lai atvērtu vaicājumu redaktoru.
+1. Atlasiet **Saglabāt** , lai padarītu pogu **Rediģēt vaicājumu** rīkjoslā **Novietojuma direktīvu darbības** pieejamu.
+1. Atlasiet **Rediģēt vaicājumu** , lai atvērtu vaicājumu redaktoru.
 1. Cilnē **Diapazons** pārliecinieties, ka šīs divas rindas ir konfigurētas:
 
     - 1. rinda:
@@ -195,14 +196,14 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
         - **Lauks:** *Novietojums*
         - **Kritēriji:** *Baydoor*
 
-1. Atlasiet **Labi**, lai aizvērtu vaicājuma lapu.
+1. Atlasiet **Labi** , lai aizvērtu vaicājuma lapu.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Mobilās ierīces izvēlnes elementa izveide
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlnes vienumi**.
 1. Kreisās rūts izvēlnes elementu sarakstā atlasiet **Pirkumu izvietošana**.
 1. Atlasiet **Rediģēt**.
-1. Kopsavilkuma cilnē **Darba klases** atlasiet **Jauns**, lai pievienotu režģim rindu.
+1. Kopsavilkuma cilnē **Darba klases** atlasiet **Jauns** , lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Darba klases ID:** *Pārkraušana sadales centrā*
@@ -258,10 +259,10 @@ Sekojiet šiem soļiem, lai izveidotu plānoto pārkraušanu sadales centrā no 
 
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** izvēlnē **Noliktava** atlasiet **Detalizēta informācija par nosūtīšanu**.
 
-    Tiek parādīta lapa **Detalizēta informācija par nosūtīšanu**, un tā parāda sūtījumu, kas tika izveidots pārdošanas pasūtījumam.
+    Tiek parādīta lapa **Detalizēta informācija par nosūtīšanu** , un tā parāda sūtījumu, kas tika izveidots pārdošanas pasūtījumam.
 
 1. Kopsavilkuma cilnē **Noslodzes rindas** ievērojiet, ka **Plānotais pārkraušanas sadales centrā daudzums** ir iestatīts uz *3*. Tā kā noliktavā nav pieejami krājumi, bet derīgs piegādes avots ieradīsies laika loga ietvaros, kas ir definēts nosūtīšanas pārkraušanas veidnē, tika izveidots nosūtīšanas pārkraušanas daudzums.
-1. Kopsavilkuma cilnē **Noslodzes rindas** atlasiet **Plānotā nosūtīšana-pārkraušana**, lai skatītu detalizētu informāciju par izveidoto nosūtīšanu-pārkraušanu.
+1. Kopsavilkuma cilnē **Noslodzes rindas** atlasiet **Plānotā nosūtīšana-pārkraušana** , lai skatītu detalizētu informāciju par izveidoto nosūtīšanu-pārkraušanu.
 
 ## <a name="process-the-cross-docking"></a>Apstrādāt pārkraušanu sadales centrā
 
@@ -269,9 +270,9 @@ Sekojiet šiem soļiem, lai izveidotu plānoto pārkraušanu sadales centrā no 
 
 Sistēma saņems 5 elementu daudzumu no pirkuma pasūtījuma saņemšanas vietā un izveidos divus darba gabalus.
 
-Pirmajam izveidotajam darba ID ir **Darba pasūtījuma tipa** vērtība *Pārkraušana sadales centrā*, un tā ir saistīta ar pārdošanas pasūtījumu. Tā daudzums ir 3, un tas ir novirzīts uz galīgo nosūtīšanas vietu, lai to varētu nosūtīt nekavējoties.
+Pirmajam izveidotajam darba ID ir **Darba pasūtījuma tipa** vērtība *Pārkraušana sadales centrā* , un tā ir saistīta ar pārdošanas pasūtījumu. Tā daudzums ir 3, un tas ir novirzīts uz galīgo nosūtīšanas vietu, lai to varētu nosūtīt nekavējoties.
 
-Otrajam izveidotajam darba ID ir **Darba pasūtījuma tipa** vērtība *Pirkuma pasūtījumi*, un tā ir saistīta ar pirkuma pasūtījumu. Tā atlikušais daudzums ir 2, kas netika nodots nosūtīšanai, un tas ir novirzīts izvietošanai noliktavā.
+Otrajam izveidotajam darba ID ir **Darba pasūtījuma tipa** vērtība *Pirkuma pasūtījumi* , un tā ir saistīta ar pirkuma pasūtījumu. Tā atlikušais daudzums ir 2, kas netika nodots nosūtīšanai, un tas ir novirzīts izvietošanai noliktavā.
 
 1. Pierakstieties mobilajā ierīcē kā lietotājs noliktavā *51*.
 1. Doties uz **Ienākošie \> Pirkumu saņemšana**.
@@ -280,11 +281,11 @@ Otrajam izveidotajam darba ID ir **Darba pasūtījuma tipa** vērtība *Pirkuma 
 1. Atlasiet **Labi**.
 1. Nākamajā lapā iestatiet lauku **Elements** uz *A0001*.
 1. Atlasiet **Labi**.
-1. Nākamajā lapā apstipriniet **PONum**, **Elements** un **Daudzums** vērtības, atlasot **Labi**.
+1. Nākamajā lapā apstipriniet **PONum** , **Elements** un **Daudzums** vērtības, atlasot **Labi**.
 
     Tiek saņemts ziņojums "Darbība pabeigta".
 
-1. Atlasiet **Atcelt**, lai izietu.
+1. Atlasiet **Atcelt** , lai izietu.
 
 ### <a name="put-away-to-cross-docking-and-bulk"></a>Nosūtīšanas-pārkraušanas un lielapjoma preču izvietošana
 
@@ -293,7 +294,7 @@ Patlaban abiem darba ID ir vienāda mērķa numura zīme. Lai veiktu nākamās d
 1. Mobilajā ierīcē atveriet **Ienākošie \> Pirkumu izvietošana** un ievadiet mērķa numura zīmi no darba.
 1. Laukā **ID** ievadiet mērķa numura zīmes ID no darba informācijas.
 
-    Nosūtīšanas-pārkraušanas lapa ataino izdošanas vietu (*RECV*), mērķa numura zīmi (*numura zīmi*), krājumu (*A0001*) un daudzumu (*3*).
+    Nosūtīšanas-pārkraušanas lapa ataino izdošanas vietu ( *RECV* ), mērķa numura zīmi ( *numura zīmi* ), krājumu ( *A0001* ) un daudzumu ( *3* ).
 
 1. Atlasiet **Labi**.
 1. Laukā **Mērķa LP** ievadiet mērķa numura zīmi numura zīmes ID, kas ir jānovieto (bez uzglabāšanas nosūtāms) uz nosūtīšanas vietu. Varat atlasīt jebkuru numura zīmes ID pēc savas izvēles.
@@ -301,16 +302,16 @@ Patlaban abiem darba ID ir vienāda mērķa numura zīme. Lai veiktu nākamās d
 1. Laukā **ID** ievadiet mērķa numura zīmes ID.
 1. Atlasiet **Labi**.
 1. Apstipriniet darbu, izdodot atlikušo daudzumu 2, un pēc tam atlasiet **Labi**.
-1. Nākamajā lapā atlasiet **Gatavs**, lai beigtu izdošanas procesu un sāktu izvietošanas procesu.
+1. Nākamajā lapā atlasiet **Gatavs** , lai beigtu izdošanas procesu un sāktu izvietošanas procesu.
 
     Mobilajā programmā ir ietverta vieta un noliktavas numura zīme krājuma novietošanai.
 
-1. Apstipriniet lielapjoma glabāšanas **Izvietošanu**, atlasot **Labi**.
-1. Nākamajā lapā apstipriniet nosūtīšanai bez uzglabāšanas **Izvietošanu**, atlasot **Labi**.
+1. Apstipriniet lielapjoma glabāšanas **Izvietošanu** , atlasot **Labi**.
+1. Nākamajā lapā apstipriniet nosūtīšanai bez uzglabāšanas **Izvietošanu** , atlasot **Labi**.
 
     Tiek saņemts ziņojums "Darbība pabeigta".
 
-1. Atlasiet **Atcelt**, lai izietu.
+1. Atlasiet **Atcelt** , lai izietu.
 
 Sekojošajā attēlā ir parādīts, kā programmā Microsoft Dynamics 365 Supply Chain Management var tikt parādīts aizpildīts nosūtīšanas bez uzglabāšanas darbs.
 

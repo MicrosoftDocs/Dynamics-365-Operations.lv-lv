@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkException, WHSWorker
+ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015968"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Saīsinātas izdošanas krājuma atkārtotas sadales iestatīšana
 
@@ -49,7 +49,7 @@ Ir iespējams definēt vairākus darba izņēmumus ar dažādām krājumu pārda
 4. Laukā **Apraksts** ierakstiet kādu vērtību. Šis ir izņēmuma lietojuma īss apraksts. Piemēram, Saīsinātā izdošana — krājums nav pieejams.
 5. Veida laukā **Izņēmums** atlasiet **Saīsinātā izdošana**.
 6. Atlasiet izvēles rūtiņu **Krājumu koriģēšana**. Ja atlasīsit šo opciju, krājumi tiks automātiski noregulēti uz vērtību 0 saīsinātas izdošanas atrašanās vietā.
-7. Laukā **Noklusējuma korekcijas veida kods** ievadiet vai atlasiet kādu vērtību. Piemēram, USMF varat atlasīt **Noņemt Res Adj Out**. Katrs korekcijas tipa kods ietver četrus raksturlielumus: nosaukumu, aprakstu, krājumu žurnāla nosaukumu un **Noņemt rezervācijas**. Ja ir iespējota opcija **Noņemt rezervācijas**, saīsināti izdotā pasūtījuma rindas rezervācijas tiks noņemtas.  
+7. Laukā **Noklusējuma korekcijas veida kods** ievadiet vai atlasiet kādu vērtību. Piemēram, USMF varat atlasīt **Noņemt Res Adj Out**. Katrs korekcijas tipa kods ietver četrus raksturlielumus: nosaukumu, aprakstu, krājumu žurnāla nosaukumu un **Noņemt rezervācijas**. Ja ir iespējota opcija **Noņemt rezervācijas** , saīsināti izdotā pasūtījuma rindas rezervācijas tiks noņemtas.  
 8. Laukā **Krājumu atkārtota sadale** atlasiet vērtību, piemēram, Manuāla. Ja atlasāt Manuāls vai Automātisks un manuāls, noliktavas darbiniekam jāļauj izmantot manuālu atkārtotu sadali.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Iestatīt darbinieku manuālas krājuma atkārtotas sadales izmantošanai

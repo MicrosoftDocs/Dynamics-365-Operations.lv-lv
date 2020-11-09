@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation
+ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8352df2de5daf994895eb7ef40866490a7619652
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015991"
 ---
 # <a name="cycle-counting"></a>Cikla inventarizācija
 
@@ -110,7 +110,7 @@ Cikla inventarizācijas darbu var izveidot, ja krājumu skaits ir mazāks par no
 Cikla inventarizācijas plānu var ieplānot, lai cikla inventarizācijas darbu izveidotu uzreiz vai periodiski. Iestatot cikla inventarizācijas plānus, jūs varat kontrolēt darba kopu, kurai tiek izveidots cikla inventarizācijas darbs, maksimālo cikla inventarizāciju skaitu, kas tiek izveidotas krājumiem dažādos novietojumos, un dienu skaitu, pirms noliktavas novietojumā atkal tiek veikta inventarizācija. Piemēram, krājums ir pieejams trīs novietojumos noliktavā, un maksimālajam cikla inventarizāciju skaitam ir iestatīta vērtība **2**. Šādā gadījumā, palaižot cikla inventarizācijas plānu, tiks izveidotas divas cikla inventarizācijas diviem novietojumiem, kuros atrodas krājumi. Vēl viens piemērs — jūs iestatāt dienu skaitam starp cikla inventarizācijām vērtību **5**. Šādā gadījumā cikla inventarizācijas darbs tiek izveidots ik pēc piecām dienām. Tomēr, ja cikla inventarizācijas darbs tiek apstrādāts 3. dienā, nākamais cikla inventarizācijas darbs tiks izveidots piecas dienas pēc tam, kad tika apstrādāta pēdējā cikla inventarizācija, t. i., 8. dienā.
 
 ## <a name="create-cycle-counting-work-manually"></a>Manuāla cikla inventarizācijas darba izveide
-Lai izveidotu cikla inventarizācijas darbu manuāli, var izmantot lapu **Cikla inventarizācijas darbs pēc krājuma** vai **Cikla inventarizācijas darbs pēc novietojuma**. Jūs varat norādīt maksimālo izveidojamo cikla inventarizāciju skaitu. Piemēram, ja noliktavas vadītājs norāda vērtību **5**, cikla inventarizācijas darbs tiek izveidots piecos novietojumos pat tad, ja šis krājums ir iekļauts 10 novietojumos. Jūs arī varat atlasīt darba kopas ID, kam jāpiešķir izveidotie cikla inventarizācijas darba ID. Kad darba kopas ID tiek apstrādāts cikla inventarizācijai, šai darba kopai piešķirtie cikla inventarizācijas darba ID tiek apstrādāti kā grupa.
+Lai izveidotu cikla inventarizācijas darbu manuāli, var izmantot lapu **Cikla inventarizācijas darbs pēc krājuma** vai **Cikla inventarizācijas darbs pēc novietojuma**. Jūs varat norādīt maksimālo izveidojamo cikla inventarizāciju skaitu. Piemēram, ja noliktavas vadītājs norāda vērtību **5** , cikla inventarizācijas darbs tiek izveidots piecos novietojumos pat tad, ja šis krājums ir iekļauts 10 novietojumos. Jūs arī varat atlasīt darba kopas ID, kam jāpiešķir izveidotie cikla inventarizācijas darba ID. Kad darba kopas ID tiek apstrādāts cikla inventarizācijai, šai darba kopai piešķirtie cikla inventarizācijas darba ID tiek apstrādāti kā grupa.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Cikla inventarizācijas izpilde, izmantojot mobilo ierīci
 Ir pieejamas vairākas metodes, kā var apstrādāt cikla inventarizācijas darbu, izmantojot programmatūru Supply Chain Management mobilajā ierīcē.
@@ -128,7 +128,7 @@ Tālāk ir sniegts piemērs, kā veikt vietas cikla inventarizāciju, izmantojot
 4.  Nav obligāti: novietojumā atlikušajiem krājumiem atkārtojiet 3. darbību un pārbaudiet, vai inventarizācija nav jāveic papildu krājumiem.
 
 ## <a name="resolve-cycle-counting-differences"></a>Cikla inventarizācijas starpību atrisināšana
-Ja ar darba lietotāja ID saistītajai opcijai **Ir cikla inventarizācijas vadītājs** ir atzīmēts iestatījums **Nē**, tālāk minētajos scenārijos rodas cikla inventarizācijas starpība.
+Ja ar darba lietotāja ID saistītajai opcijai **Ir cikla inventarizācijas vadītājs** ir atzīmēts iestatījums **Nē** , tālāk minētajos scenārijos rodas cikla inventarizācijas starpība.
 
 -   Inventarizācijas laikā aprēķinātā vērtība neatbilst novirzes ierobežojumiem, kas noteikti lapas **Darba lietotāji** laukā **Maksimālais procentuālais ierobežojums** vai **Maksimālais daudzuma ierobežojums**. Piemēram, novietojumā rīcībā esošo krājumu skaits ir 50, un darba lietotājam noteiktā novirzes robežas vērtība ir 10. Ja darba lietotājs ievada vērtību, kas nav starp 40 un 60, rodas starpība.
 -   Inventarizācijas laikā aprēķinātā vērtība atšķiras no rīcībā esošo krājumu daudzuma, un nav iestatīti novirzes ierobežojumi.

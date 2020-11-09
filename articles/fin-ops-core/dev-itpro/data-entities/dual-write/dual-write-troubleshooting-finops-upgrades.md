@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275468"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997922"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Ar Finance and Operations programmu jaunināšanu saistītu problēmu novēršana
 
@@ -54,11 +53,11 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 1. Piesakieties programmas Finance and Operations virtuālajā mašīnā (VM).
 2. Atveriet Visual Studio kā administrators un atveriet lietojumprogrammas objektu koku (AOT).
 3. Meklēt **DualWriteProjectConfiguration**.
-4. Lietojumprogrammas objektu kokā ar peles labo pogu noklikšķiniet uz **DualWriteProjectConfiguration** un atlasiet **Pievienot jaunajam projektam**. Atlasiet **Labi**, lai izveidotu jaunu projektu, kas izmanto noklusējuma opcijas.
+4. Lietojumprogrammas objektu kokā ar peles labo pogu noklikšķiniet uz **DualWriteProjectConfiguration** un atlasiet **Pievienot jaunajam projektam**. Atlasiet **Labi** , lai izveidotu jaunu projektu, kas izmanto noklusējuma opcijas.
 5. Risinājumu pārlūkā ar peles labo pogu noklikšķiniet uz **Projekta rekvizīti** un iestatiet opciju **Sinhronizēt datu bāzi būvējumā** uz **Patiess**.
 6. Izveidojiet projektu un apstipriniet, ka būvējums ir veiksmīgs.
 7. Izvēlnē **Dynamics 365** atlasiet **Sinhronizēt datu bāzi.**
-8. Atlasiet **Sinhronizēt**, lai veiktu pilnīgu datu bāzes sinhronizāciju.
+8. Atlasiet **Sinhronizēt** , lai veiktu pilnīgu datu bāzes sinhronizāciju.
 9. Kad pilnīga datu bāzes sinhronizācija ir veiksmīgi pabeigta, atkārtoti palaidiet datu bāzes sinhronizācijas darbību pakalpojumā Microsoft Dynamics Lifecycle Services (LCS) un pēc nepieciešamības izmantojiet manuālos jaunināšanas skriptus, lai varētu turpināt atjaunināšanu.
 
 ## <a name="missing-entity-fields-issue-on-maps"></a>Trūkstošu elementu lauku problēma kartēs
@@ -67,24 +66,24 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 
 Lapā **Duālais ieraksts** var tikt parādīts kļūdas ziņojums, kas līdzīgs šim piemēram:
 
-*Nav avota lauka \<lauka nosaukums\> sistēmā.*
+*Nav avota lauka \<field name\> sistēmā.*
 
 ![Trūkstošā avota lauka kļūdas ziņojuma piemērs](media/error_missing_field.png)
 
 Lai atrisinātu problēmu, vispirms veiciet šīs darbības, lai nodrošinātu, ka lauki atrodas entītijā.
 
 1. Piesakieties programmas Finance and Operations VM.
-2. Dodieties uz **Darbvietas \>Datu pārvaldība**, atlasiet elementu **Struktūras parametri** un pēc tam cilnē **Elementa iestatījumi** atlasiet **Atsvaidzināt elementu sarakstu**, lai atsvaidzinātu elementus.
-3. Dodieties uz **Darbvietas \>Datu pārvaldība**, atlasiet cilni **Datu elementi** un pārliecinieties, ka elements ir uzskaitīts. Ja elements nav uzskaitīts, piesakieties Finance and Operations programmas VM, un pārliecinieties, ka šis elements ir pieejams.
+2. Dodieties uz **Darbvietas \>Datu pārvaldība** , atlasiet elementu **Struktūras parametri** un pēc tam cilnē **Elementa iestatījumi** atlasiet **Atsvaidzināt elementu sarakstu** , lai atsvaidzinātu elementus.
+3. Dodieties uz **Darbvietas \>Datu pārvaldība** , atlasiet cilni **Datu elementi** un pārliecinieties, ka elements ir uzskaitīts. Ja elements nav uzskaitīts, piesakieties Finance and Operations programmas VM, un pārliecinieties, ka šis elements ir pieejams.
 4. Atveriet lapu **Elementa kartēšana** no lapas **Duālais ieraksts** Finance and Operations lietojumprogrammā.
-5. Atlasiet **Atsvaidzināt elementu sarakstu**, lai automātiski aizpildītu laukus elementu kartējumos.
+5. Atlasiet **Atsvaidzināt elementu sarakstu** , lai automātiski aizpildītu laukus elementu kartējumos.
 
 Ja problēma joprojām nav novērsta, veiciet šādas darbības.
 
 > [!IMPORTANT]
 > Izpildot šīs darbības, elements tiek dzēsts un atkārtoti pievienots. Lai izvairītos no problēmām, noteikti veiciet darbības precīzi.
 
-1. Finance and Operations programmā atveriet **Darbvietas \>Datu pārvaldība**un atlasiet elementu **Datu elementi**.
+1. Finance and Operations programmā atveriet **Darbvietas \>Datu pārvaldība** un atlasiet elementu **Datu elementi**.
 2. Atrodiet elementu, kuram trūkst atribūts. Rīkjoslā noklikšķiniet uz **Modificēt mērķa kartēšanu**.
 3. Rūtī **Kartes iestatīšana mērķim** noklikšķiniet uz **Ģenerēt kartēšanu**.
 4. Atveriet lapu **Elementa kartēšana** no lapas **Duālais ieraksts** Finance and Operations lietojumprogrammā.

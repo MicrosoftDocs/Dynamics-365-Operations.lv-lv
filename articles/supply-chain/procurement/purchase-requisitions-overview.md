@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
+ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018679"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
@@ -36,7 +36,7 @@ Atkarībā no jūsu uzņēmuma iestatījumiem, var izveidot organizācijā izman
 Kad pirkšanas pieprasījums ir apstiprināts, to var izmantot pirkšanas pasūtījuma izveidei. Pirkšanas pasūtījumi ir ārējie dokumenti, ko iepirkumu departaments iesniedz piegādātājiem.
 
 ## <a name="creating-purchase-requisitions"></a>Pirkšanas pieprasījumu izveidošana
-Pirkšanas pieprasījumu var izveidot lapā **Mani pirkšanas pieprasījumi**, kur var atlasīt nepieciešamos krājumus un pakalpojumus. Krājumus var izvēlēties jūsu organizācijas izveidotā sagādes katalogā vai var pieprasīt tos krājumus, kas nav atrodami katalogā, atlasot iepirkuma kategoriju un ievadot preces datus.  
+Pirkšanas pieprasījumu var izveidot lapā **Mani pirkšanas pieprasījumi** , kur var atlasīt nepieciešamos krājumus un pakalpojumus. Krājumus var izvēlēties jūsu organizācijas izveidotā sagādes katalogā vai var pieprasīt tos krājumus, kas nav atrodami katalogā, atlasot iepirkuma kategoriju un ievadot preces datus.  
 
 Pirms varat iesniegt pirkšanas pieprasījumu pārskatīšanai, programmā ir jākonfigurē darbplūsmas. Izmantojiet darbplūsmu, lai apstrādātu pirkšanas pieprasījumu pārskatīšanas procesā no sākotnējā statusa **Uzmetums** līdz gala statusam **Apstiprināts**.
 
@@ -68,7 +68,7 @@ Pirkšanas pieprasījuma vispārējo statusu nosaka pirkšanas pieprasījuma rin
 <tr class="odd">
 <td>Melnraksts</td>
 <td>Melnraksts</td>
-<td>Ir izveidots pirkšanas pieprasījums un pirkšanas pieprasījuma rinda, taču tie nav iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, taču nav atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču nevarat iesniegt vai atsaukt atsevišķu pirkšanas pieprasījuma rindu.</td>
+<td>Ir izveidots pirkšanas pieprasījums un pirkšanas pieprasījuma rinda, taču tie nav&#39; iesniegti pārskatīšanai. Pirkšanas pieprasījumus un pirkšanas pieprasījuma rindas, kuru statuss ir <strong>Melnraksts</strong>, var modificēt. Pirkšanas pieprasījuma vai pirkšanas pieprasījuma rindas statuss ir <strong>Melnraksts</strong> arī tad, ja pieprasījums vai rinda ir atsaukta, taču na&#39;v atkārtoti iesniegta pārskatīšanai. <strong>Piezīme.</strong> Pirkšanas pieprasījumu var iesniegt vai atsaukt dokumenta līmenī. Taču nevara&#39;t iesniegt vai atsaukt atsevišķu pirkšanas pieprasījuma rindu.</td>
 </tr>
 <tr class="even">
 <td>Tiek pārskatīts</td>
@@ -98,7 +98,7 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 <td>Visu pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta un ir veiktas visas pirkšanas pieprasījuma pārskatīšanas darbības.
 <ul>
 <li><strong>Apstiprināts</strong> — pirkšanas pieprasījuma rindu apstrāde pārskatīšanas procesā ir pabeigta, un rinda ir apstiprināta.</li>
-<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
+<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo t&#39;ā vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
 <li><strong>Slēgts</strong> — pirkšanas pieprasījuma rinda ir apstiprināta un dokuments ir izveidots atbilstoši pieprasījuma mērķim.
 <ul>
 <li>Ja pieprasījuma mērķis ir patēriņš, pirkšanas pasūtījuma rindai tiek ģenerēts pirkšanas pieprasījums.</li>
@@ -124,7 +124,7 @@ Ja atteikta pirkšanas pieprasījuma rinda tiek iesniegta vēlreiz, pārskatīš
 <li>Ja pieprasījuma mērķis ir patēriņš, pirkšanas pasūtījuma rindai tiek ģenerēts pirkšanas pieprasījums.</li>
 <li>Ja pieprasījuma mērķis ir papildināšana, tiek ģenerēts viens vai vairāki izpildes dokumenti.</li>
 </ul></li>
-<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
+<li><strong>Atcelts</strong> — pirkšanas pieprasījuma rinda ir tikusi apstiprināta, taču tā ir atcelta, jo t&#39;ā vairs nav vajadzīga. Anulēt var tikai apstiprinātas pirkšanas pieprasījuma rindas.</li>
 </ul>
 <strong>Piezīme.</strong> Ja slēgtajā pirkšanas pieprasījuma rindā minētā prece vairs nav vajadzīga, rinda ir jāanulē šai pirkšanas pieprasījuma rindai izveidotajā izpildes dokumentā.</td>
 </tr>

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
+ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46bbaca86f9113a3e4705e4f2c0f76590e62ec1
-ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
+ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3338337"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018886"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Sagādes un avotu apskats
 
@@ -41,7 +41,7 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 
 Sagādes nodaļa identificē nepieciešamo preču un pakalpojumu piegādātājus un tas var iekļaut *piedāvājuma pieprasījumu* nosūtīšanu vairākiem iespējamiem piegādātājiem. Ir iespējams koplietot pieprasītās preces specifikācijas un potenciālie kreditori var tos skatīt, lai redzētu, vai viņi var piegādāt preces, kas tām atbilst. Kreditori atgriež savus piedāvājumus, kurus pēc tam pārskata sagādes nodaļa pirms tā atlasa piegādātāju, no kura vēlas iegādāties preces.  
 
-Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu* kreditoram kā alternatīvu plašākam piedāvājuma pieprasījuma procesam. Pirkšanas pieprasījumu var izmantot, lai palīdzētu izveidot noteikumus, piemēram, cenas, atlaides un pasūtījuma piegādes datumu. Ja kreditori ir iestatīti portāla **Kreditors** lietošanai, tad pirkšanas pieprasījuma funkcionalitāte ir atspējota. Tā vietā pasūtījums ir koplietots **Kreditoru** portālā, un, kad tiek nosūtīts *apstiprinājuma pieprasījums*, kreditors var tieši apstiprināt šo pasūtījumu.  
+Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu* kreditoram kā alternatīvu plašākam piedāvājuma pieprasījuma procesam. Pirkšanas pieprasījumu var izmantot, lai palīdzētu izveidot noteikumus, piemēram, cenas, atlaides un pasūtījuma piegādes datumu. Ja kreditori ir iestatīti portāla **Kreditors** lietošanai, tad pirkšanas pieprasījuma funkcionalitāte ir atspējota. Tā vietā pasūtījums ir koplietots **Kreditoru** portālā, un, kad tiek nosūtīts *apstiprinājuma pieprasījums* , kreditors var tieši apstiprināt šo pasūtījumu.  
 
 *Piegādātāju katalogus* var izmantot, lai apkopotu informāciju par preču klāstu, ko var piegādāt kreditori. Kreditori var publicēt savu katalogu, lai katalogu būtu vieglāk atjaunināt. Ir iespējams pievienot *apstiprināto kreditoru sarakstu* precei, un tas var palīdzēt organizēt kreditora izvēli, kad tiek atvērti jauni pirkšanas pasūtījumi, un novērst neparedzētu kreditoru izmantošanu.
 
@@ -54,9 +54,9 @@ Pirkšanas pasūtījums iekļauj opciju izsūtīt *pirkšanas pieprasījumu* kre
 - Izmantojot pirkšanas līgumu apstrādi, kur pirkšanas pasūtījumi tiek izveidoti kā izpildei nodotie pasūtījumi no līgumiem. Parasti to izmanto, kad pirkšanas līgumi tiek izmantoti, lai attēlotu virspasūtījumus.
 - Manuāli, kad izveidojamais pirkšanas pasūtījums nav balstīts uz citu dokumentu.
 
-Pirkšanas pasūtījumi, kas ir konfigurēti ar *pirkšanas apstiprinājuma darbplūsmām*, pieprasa apstiprinājumu pirms tie tiek reģistrēti kā apstiprināti, un tas ir nepieciešams pirms pasūtījuma tālākas apstrādes.
+Pirkšanas pasūtījumi, kas ir konfigurēti ar *pirkšanas apstiprinājuma darbplūsmām* , pieprasa apstiprinājumu pirms tie tiek reģistrēti kā apstiprināti, un tas ir nepieciešams pirms pasūtījuma tālākas apstrādes.
 
-Pirkšanas pasūtījumi tiek *apstiprināti*, lai norādītu, ka ar kreditoru ir izveidots līgums. Pēc tam pirkšanas pasūtījums pakāpeniski izies cauri dažādiem stāvokļiem līdz galu galā tiks izrakstīts rēķins vai tas tiks atcelts.  
+Pirkšanas pasūtījumi tiek *apstiprināti* , lai norādītu, ka ar kreditoru ir izveidots līgums. Pēc tam pirkšanas pasūtījums pakāpeniski izies cauri dažādiem stāvokļiem līdz galu galā tiks izrakstīts rēķins vai tas tiks atcelts.  
 
 Kad veidojat pirkšanas pasūtījumu, daudzi lauki ir iepriekš aizpildīti ar vērtībām, kas pēc noklusējuma tiek ņemtas no lapā **Kreditori** glabātās informācijas par kreditoru. Tas nozīmē, ka ir ierobežots lauku skaits, ko nepieciešams aizpildīt pirkšanas pasūtījumā, lai gan var izvēlēties ignorēt noklusējuma vērtības.
 
@@ -66,7 +66,7 @@ Cenas un atlaides ietver informāciju par cenām, atlaidēm un piedāvātajiem a
 
 ### <a name="delivery-options"></a>Piegādes iespējas
 
-Ir dažādas piegādes procesa iespējas, kas ir saistītas ar pirkšanas pasūtījumu. Pasūtītās preces var sadalīt *piegādes* grafikos, kur pasūtīto daudzumu daļas var plānot piegādei dažādos datumos. Piegādes var iekļaut arī *tiešo piegādi*, kas iniciēta no pārdošanas pasūtījuma, kas automatizē pavadzīmes ģenerēšanu pārdošanas pasūtījumā tajā pašā brīdī, kad preču ieejas plūsma tiek reģistrēta pirkšanas pasūtījumā. Pirkšanas pasūtījumus var iekļaut *starpuzņēmumu pasūtījumu* ķēdē, ko sauc arī par starpuzņēmumu pirkšanas pasūtījumiem, kur preces tiek pasūtītas no atbilstoša starpuzņēmumu pārdošanas pasūtījuma. Šādā gadījumā dažas darbības tiek automatizētas divos saistītajos starpuzņēmumu pasūtījumos.
+Ir dažādas piegādes procesa iespējas, kas ir saistītas ar pirkšanas pasūtījumu. Pasūtītās preces var sadalīt *piegādes* grafikos, kur pasūtīto daudzumu daļas var plānot piegādei dažādos datumos. Piegādes var iekļaut arī *tiešo piegādi* , kas iniciēta no pārdošanas pasūtījuma, kas automatizē pavadzīmes ģenerēšanu pārdošanas pasūtījumā tajā pašā brīdī, kad preču ieejas plūsma tiek reģistrēta pirkšanas pasūtījumā. Pirkšanas pasūtījumus var iekļaut *starpuzņēmumu pasūtījumu* ķēdē, ko sauc arī par starpuzņēmumu pirkšanas pasūtījumiem, kur preces tiek pasūtītas no atbilstoša starpuzņēmumu pārdošanas pasūtījuma. Šādā gadījumā dažas darbības tiek automatizētas divos saistītajos starpuzņēmumu pasūtījumos.
 
 ### <a name="supplementary-items"></a>Papildu krājumi
 
@@ -78,7 +78,7 @@ Pirkšanas pasūtījumam var piešķirt maksas. Tas var notikt automātiski, izm
 
 ## <a name="product-receipt-and-invoicing"></a>Preču ieejas plūsma un rēķinu izrakstīšana
 
-Pirkšanas pasūtījumiem, kas ietver fiziskas preces, parasti nepieciešama *saņemšanas reģistrācija*, kas notiek noliktavā, un pēc tam *preču ieejas plūsma* tiek reģistrēta pasūtījumam. Pirkšanas pasūtījumus ar precēm, kas apmierina pieprasījumus, var konfigurēt, lai darbiniekam, kurš ir pieprasījis preces, arī būtu jāsniedz *saņemšanas apstiprinājums*.  
+Pirkšanas pasūtījumiem, kas ietver fiziskas preces, parasti nepieciešama *saņemšanas reģistrācija* , kas notiek noliktavā, un pēc tam *preču ieejas plūsma* tiek reģistrēta pasūtījumam. Pirkšanas pasūtījumus ar precēm, kas apmierina pieprasījumus, var konfigurēt, lai darbiniekam, kurš ir pieprasījis preces, arī būtu jāsniedz *saņemšanas apstiprinājums*.  
 
 Daži pirkšanas pasūtījumi ietver preces, kas ir pakalpojumi vai citas nefiziskas preces, kuru saņemšana noliktavā nav nepieciešama. Preces var veidot kā pakalpojumus vai *sagādes kategorijas* var izmantot tieši šādu pasūtījumu pirkšanas pasūtījumā. Ar šiem pasūtījumiem, preču ieejas plūsmas uzskaite dažreiz tiek izlaista un pasūtījums ir iekļauts rēķinā tieši vai alternatīvi preču saņemšanas reģistrācija tiek veikta pirkšanas pasūtījumā bez iepriekšējas saņemšanas reģistrācijas.  
 
@@ -92,4 +92,4 @@ Rēķinos iekļautie pirkšanas pasūtījumi tiek reģistrēti kā kreditori kre
 
 ## <a name="vendor-performance"></a>Kreditora veiktspēja
 
-Pirkšanas veiktspēja un pārskatīšana tiek atbalstīta, izmantojot *sagādes un kreditoru pārskatus*, kuri ietver tēriņu analīzi un kreditora veiktspējas analīzi.
+Pirkšanas veiktspēja un pārskatīšana tiek atbalstīta, izmantojot *sagādes un kreditoru pārskatus* , kuri ietver tēriņu analīzi un kreditora veiktspējas analīzi.

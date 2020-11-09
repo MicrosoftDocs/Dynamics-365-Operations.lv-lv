@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85ccf187e77faf338ac29452d823c3652b806a21
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
+ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138119"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4000297"
 ---
 # <a name="split-a-fixed-asset"></a>Pamatlīdzekļa sadalīšana
 
@@ -29,34 +29,37 @@ ms.locfileid: "3138119"
 
 Šajā tēmā paskaidrots, kā atdalīt procentuālu daļu no vienas pamatlīdzekļu grāmatas uz jaunu pamatlīdzekļu grāmatu. Tas izmanto grāmatveža lomu un USMF demonstrācijas datus.
 
-
 ## <a name="create-a-new-fixed-asset"></a>Izveidojiet jaunu pamatlīdzekli
-1. Navigācijas rūtī ejiet uz **Moduļi > Pamatlīdzekļi > Pamatlīdzekļi > Pamatlīdzekļi**.
+
+1. Navigācijas rūtī dodieties uz **Moduļi \> Pamatlīdzekļi \> Pamatlīdzekļi \> Pamatlīdzekļi**.
 2. Atlasiet **Jauns**.
-3. Ievadiet vai atlasiet vērtību laukā **Pamatlīdzekļa grupa**. Ievērojiet pamatlīdzekļa numuru, kuru būs nepieciešams izmantot vēlāk sadalīšanas procesā.  
-4. Laukā **Nosaukums** ierakstiet kādu vērtību.
+3. Ievadiet vai atlasiet vērtību laukā **Pamatlīdzekļa grupa**. Ievērojiet pamatlīdzekļa numuru, kuru būs nepieciešams izmantot vēlāk sadalīšanas procesā.
+4. Laukā **Nosaukums** ievadiet vērtību.
 5. Aizveriet formu.
 
 ## <a name="split-a-fixed-asset"></a>Pamatlīdzekļa sadalīšana
+
+Pirms pilnībā nolietotā līdzekļa sadalīšanas, līdzekļa grāmatas statuss ir manuāli jāmaina no **Slēgts** uz **Atvērts**. Šī darbība ir nepieciešama, jo grāmatas statusam jābūt **Atvērts** , ja ir jāgrāmato līdzekļu darbības (piemēram, izslēgšanas pārdošanai). Kad līdzekļa grāmatas statuss ir mainīts, veiciet tālāk minētās darbības, lai sadalītu līdzekli.
+
 1. Sarakstā atrodiet un atlasiet sadalāmā pamatlīdzekļa saiti.
-2. Atlasiet **Grāmatas**. Atlasiet grāmatu, kuru nodalīt jaunajam pamatlīdzeklim.  
+2. Atlasiet **Grāmatas**. Atlasiet grāmatu, kuru nodalīt jaunajam pamatlīdzeklim.
 3. Atlasiet **Funkcijas**.
 4. Atlasiet **Pamatlīdzekļa sadalīšana**.
-5. Laukā **Uz pamatlīdzekli**, ievadiet vai atlasiet kādu vērtību.
+5. Laukā **Uz pamatlīdzekli** , ievadiet vai atlasiet kādu vērtību.
 6. Laukā **Uz grāmatu** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
 7. Ievadiet datumu laukā **Transakcijas datums**.
 8. Ievadiet skaitli laukā **Procenti**.
-9. Laukā **Žurnāla nosaukums**, ievadiet vai atlasiet kādu vērtību.
+9. Laukā **Žurnāla nosaukums** , ievadiet vai atlasiet kādu vērtību.
 10. Atlasiet **Labi**.
 
 ## <a name="post-the-journal-transaction"></a>Žurnāla transakcijas grāmatošana
-1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Pamatlīdzekļi > Žurnāla ieraksti > Pamatlīdzekļu žurnāls**.
+
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Pamatlīdzekļi \> Žurnāla ieraksti \> Pamatlīdzekļu žurnāls**.
 2. Sarakstā atlasiet žurnālu, kas izveidots sadalīšanas procesā.
 3. Atlasiet **Rindas**.
 
-    - Pārbaudiet izveidotās žurnāla rindas.  
-    - Oriģinālajam aktīvam izveidota Iegādes pielāgošanas transakcija, lai samazinātu vērtību par sadalīšanas procesā norādīto procentuālo daļu.  
-    - Jaunajam aktīvam tiek izveidota Iegādes transakcija par tādu pašu summu.  
+    - Pārbaudiet izveidotās žurnāla rindas.
+    - Oriģinālajam aktīvam izveidota Iegādes pielāgošanas transakcija, lai samazinātu vērtību par sadalīšanas procesā norādīto procentuālo daļu.
+    - Jaunajam aktīvam tiek izveidota Iegādes transakcija par tādu pašu summu.
 
 4. Atlasiet **Grāmatot**.
-

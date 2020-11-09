@@ -1,5 +1,5 @@
 ---
-title: Priekšskatījuma līdzekļi programmas Dynamics 365 Supply Chain Management versijā 10.0.14 (2020. gada oktobris)
+title: Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.14 (2020. gada oktobris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763577"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038113"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Priekšskatījuma līdzekļi programmā Dynamics 365 Supply Chain Management 10.0.14 (2020. gada novembris)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.14. (2020. gada novembris)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.14. Šai versijai ir būvējuma numurs 10.0.605, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.14. Šai versijai ir būvējuma numurs 10.0.605, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2020. gada septembris
 - **Vispārējā pieejamība (self-update):** 2020. gada oktobris

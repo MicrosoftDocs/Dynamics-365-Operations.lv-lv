@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4f0952cc8778ffc509bed80b3a5038dbf4fb76c2
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015899"
 ---
 # <a name="work-line-details"></a>Detalizēta darba rindas informācija
 
@@ -39,12 +40,12 @@ Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā.
 
 Lai skatītu detalizētu informāciju par darba rindu sarakstu, atveriet **Noliktavas pārvaldība \> Darbs \> Detalizēta informācija par darba rindu**. Šeit varat veikt tālāk norādītās darbības.
 
-- Lietojiet lauku **Filtrs**, lai meklētu rindas ar konkrētu vērtību jebkuram pieejamajam parametram. (Pieejamajos parametros ietilpst daudzi parametri, kas režģī netiek rādīti kā kolonnas.)
-- Izmantojiet izvēles rūtiņu **Rādīt slēgto**, lai rādītu vai paslēptu slēgtās rindas.
-- Atlasiet **Rādīt dimensijas**, lai atvērtu dialoglodziņu **Dimensiju attēlojums**, kur varat izvēlēties režģī rādīt vai paslēpt dažādas dimensiju kolonnas.
+- Lietojiet lauku **Filtrs** , lai meklētu rindas ar konkrētu vērtību jebkuram pieejamajam parametram. (Pieejamajos parametros ietilpst daudzi parametri, kas režģī netiek rādīti kā kolonnas.)
+- Izmantojiet izvēles rūtiņu **Rādīt slēgto** , lai rādītu vai paslēptu slēgtās rindas.
+- Atlasiet **Rādīt dimensijas** , lai atvērtu dialoglodziņu **Dimensiju attēlojums** , kur varat izvēlēties režģī rādīt vai paslēpt dažādas dimensiju kolonnas.
 - Atlasiet jebkuras kolonnas virsrakstu, lai atvērtu izvēlni, kurā varat izvēlēties šajā kolonnā kārtot vai filtrēt sarakstu pēc vērtībām.
-- Atlasiet darba rindu un pēc tam atlasiet **Mainīt novietojumu**, lai atvērtu dialoglodziņu, kurā varēsit mainīt šīs darba rindas novietojumu. Jūsu norādītais novietojums pārlabos novietojuma direktīvas iestatījumu.
-- Atlasiet darba rindu un pēc tam atlasiet **Atcelt darba rindu**, lai atvērtu dialoglodziņu, kur varat daļēji vai pilnībā samazināt šīs darba rindas daudzumu.
+- Atlasiet darba rindu un pēc tam atlasiet **Mainīt novietojumu** , lai atvērtu dialoglodziņu, kurā varēsit mainīt šīs darba rindas novietojumu. Jūsu norādītais novietojums pārlabos novietojuma direktīvas iestatījumu.
+- Atlasiet darba rindu un pēc tam atlasiet **Atcelt darba rindu** , lai atvērtu dialoglodziņu, kur varat daļēji vai pilnībā samazināt šīs darba rindas daudzumu.
 - Koriģējiet daudzumus.
 - Skatiet jebkurā darba rindā ietvertās darbības.
 
@@ -78,27 +79,27 @@ Pirms sākt darba izveidi, pārliecinieties, vai noliktava ir iestatīta, lai pa
 Lai izveidotu izdošanas darbu, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns**, lai atvērtu dialoglodziņu **Pārdošanas pasūtījuma izveide**.
+1. Atlasiet **Jauns** , lai atvērtu dialoglodziņu **Pārdošanas pasūtījuma izveide**.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - Kopsavilkuma cilnē **Klients** iestatiet lauku **Klienta konts** uz _US-001_.
     - Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Noliktava** uz _51_.
 
-1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tajā ir ietverta jauna tukša rinda režģī **Pārdošanas pasūtījuma rindas**. Šajā pasūtījuma rindā iestatiet šādas vērtības:
 
     - **Krājuma numurs:** _M9200_
     - **Daudzums:** _20_
     - **Vienība:** _ea_
 
-1. Atlasiet jaunu pasūtījuma rindu un pēc tam izvēlnē **Krājumi** atlasiet **Rezervācija**, lai atvēru lapu **Rezervācija**.
-1. Lapā **Rezervācija** atlasiet **Rezervēt partiju**, lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
+1. Atlasiet jaunu pasūtījuma rindu un pēc tam izvēlnē **Krājumi** atlasiet **Rezervācija** , lai atvēru lapu **Rezervācija**.
+1. Lapā **Rezervācija** atlasiet **Rezervēt partiju** , lai rezervētu izvēlētās rindas pilno daudzumu noliktavā.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
-1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**. Sistēma izveido sūtījumu, pievieno to jaunajai kravai un izveido nepieciešamo darbu.
+1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**. Sistēma izveido sūtījumu, pievieno to jaunajai kravai un izveido nepieciešamo darbu.
 1. Tam pašam klienta kontam un noliktavai, ko izmantojāt pirmajā pasūtījumā, izveidojiet otru pārdošanas pasūtījumu. Pievienojiet šim pasūtījumam šādas divas pasūtījuma rindas:
 
-    - **1. rinda:** iestatiet lauku **Kravas numurs** uz _M9200_, lauku **Daudzums** uz _25_ un lauku **Vienība** uz _Katrs_.
-    - **2. rinda:** iestatiet lauku **Kravas numurs** uz _M9202_, lauku **Daudzums** uz _10_ un lauku **Vienība** uz _Katrs_.
+    - **1. rinda:** iestatiet lauku **Kravas numurs** uz _M9200_ , lauku **Daudzums** uz _25_ un lauku **Vienība** uz _Katrs_.
+    - **2. rinda:** iestatiet lauku **Kravas numurs** uz _M9202_ , lauku **Daudzums** uz _10_ un lauku **Vienība** uz _Katrs_.
 
 1. Atkārtojiet 6.–8. darbību, lai rezervētu krājumus katrai pasūtījuma rindai (pa vienai), un pēc tam atkārtojiet 9. darbību, lai izdotu pasūtījumu noliktavai.
 
@@ -106,9 +107,9 @@ Lai izveidotu izdošanas darbu, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Darbs \> Detalizēta informācija par darba rindu**.
 1. Atrodiet darba rindas, kuras izveidojāt šai demonstrācijai, un atlasiet vienu no tām.
-1. Atlasiet **Mainīt novietojumu**, lai atvērtu dialoglodziņu **Jauna novietojuma atlase**.
+1. Atlasiet **Mainīt novietojumu** , lai atvērtu dialoglodziņu **Jauna novietojuma atlase**.
 1. Dialoglodziņā **Jauna novietojuma atlase** laukā **Novietojums** darba rindai atlasiet jaunu novietojumu.
-1. Atlasiet **Labi**, lai izmaiņas piemērotu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi** , lai izmaiņas piemērotu un aizvērtu dialoglodziņu.
 
 > [!IMPORTANT]
 > Novietojuma izmaiņas varat iesniegt tikai tad, ja jaunajā novietojumā ir pieejami pietiekami daudz krājumu (izdošanai) vai tas atbilst novietojuma tipa pārbaudei (izvietošanai).
@@ -117,13 +118,13 @@ Lai izveidotu izdošanas darbu, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Darbs \> Detalizēta informācija par darba rindu**.
 1. Atrodiet darba rindas, kuras izveidojāt šai demonstrācijai, un atlasiet vienu no tām. Ņemiet vērā, ka daudzumus varat atcelt vai mainīt tikai tām darba rindām, kur darba veids ir _izdošana_.
-1. Atlasiet **Atcelt darba rindu**, lai atvērtu dialoglodziņu **Atceļamais daudzums**.
-1. Dialoglodziņā **Atceļamais daudzums** mainiet vērtību laukā **Daudzums**, lai norādītu daudzumu, kas *jāatņem no* rindai pašlaik norādītā daudzuma. Pēc noklusējuma laukā **Daudzums** tiek rādīts viss daudzums.
+1. Atlasiet **Atcelt darba rindu** , lai atvērtu dialoglodziņu **Atceļamais daudzums**.
+1. Dialoglodziņā **Atceļamais daudzums** mainiet vērtību laukā **Daudzums** , lai norādītu daudzumu, kas *jāatņem no* rindai pašlaik norādītā daudzuma. Pēc noklusējuma laukā **Daudzums** tiek rādīts viss daudzums.
 
-    - Ja atcelsit visu daudzumu, vērtība **Darba statuss** tiks mainīta uz _Atcelts_, bet laukā **Darba daudzums** tiks rādīta sākotnējā vērtība.
+    - Ja atcelsit visu daudzumu, vērtība **Darba statuss** tiks mainīta uz _Atcelts_ , bet laukā **Darba daudzums** tiks rādīta sākotnējā vērtība.
     - Ja atcelsit tikai daļu daudzuma, lauks **Darba daudzums** tiks atjaunināts, lai rādītu jauno vērtību, bet vērtība **Darba statuss** netiks mainīta.
 
-1. Atlasiet **Labi**, lai izmaiņas piemērotu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi** , lai izmaiņas piemērotu un aizvērtu dialoglodziņu.
 
 > [!IMPORTANT]
 > Ja darba rindai atcelsit tikai daļu daudzuma, no kravas rindas ir jānoņem arī novecojušais daudzums. Pretējā gadījumā, ja netiek iestatīta pareiza nepietiekamas piegādes vērtība, kravas rindai nevar apstiprināt sūtīšanu.

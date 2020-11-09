@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203415"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018656"
 ---
 # <a name="onboard-vendors"></a>Kreditoru pievienošana
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -102,7 +103,7 @@ Papildinformāciju par piegādātāja pieprasījuma konfigurāciju skatiet šeit
 | Piegādātāja informācija         | Šajā lapā ir kreditora nosaukums, kas tiek automātiski ievadīts no sākotnējā potenciālā piegādātāja reģistrācijas pieprasījuma. Tajā ir arī organizācijas numurs, kreditora tālruņa numurs, faksa numurs un e-pasta adrese, kā arī kreditora adreses dažādiem nolūkiem. |
 | Kontaktpersonas informācija | Šajā lapā ir kontaktpersonas vārds un uzvārds, kas tiek automātiski ievadīti no sākotnējā potenciālā piegādātāja reģistrācijas pieprasījuma. Tajā ir arī kontaktpersonas tālruņa numurs un e-pasta adrese, un kontaktpersonas adreses dažādiem nolūkiem. |
 | Biznesa informācija       | Šajā lapā ir nodokļu reģistrācijas numuri (dažādām valstīm vai reģioniem) un darbinieku numuri. Tajā ir arī norādīts, vai uzņēmums pieder minoritātei. |
-| Sagādes kategorijas     | Šajā lapā ir sagādes kategorijas, attiecībā uz kurām kreditors pieprasa apstiprinājumu. Lietotājs kategorijas var atlasīt sagādes kategoriju hierarhijā. Hierarhijā rādīto līmeņu skaitu varat konfigurēt šeit: **Sagādes un avotu parametri** &gt; **Kreditoru sadarbība**, sadaļā **Sagāde un avoti** &gt; **Iestatīšana**. |
+| Sagādes kategorijas     | Šajā lapā ir sagādes kategorijas, attiecībā uz kurām kreditors pieprasa apstiprinājumu. Lietotājs kategorijas var atlasīt sagādes kategoriju hierarhijā. Hierarhijā rādīto līmeņu skaitu varat konfigurēt šeit: **Sagādes un avotu parametri** &gt; **Kreditoru sadarbība** , sadaļā **Sagāde un avoti** &gt; **Iestatīšana**. |
 | Anketas             | Vednī var būt kreditoram paredzētu anketu kopa. Vednī redzamās anketas ir konfigurētas pēc piegādātāja pieprasījuma vai pēc sagādes kategorijas. Ja anketas ir konfigurētas pēc sagādes kategorijas, vednī redzamās anketas nosaka sagādes kategorijas, kurām piegādātājs pieprasa apstiprinājumu. Lapā **Sagādes kategorijas** pie atbilstošās kategorijas varat pievienot anketu un aktivitātes veidu iestatīt uz **Kreditora pievienošana**. |
 
 Kad potenciālā piegādātāja lietotājs izpilda kreditora reģistrācijas vedņa norādījumus, tiek izveidots piegādātāja pieprasījums.
@@ -139,11 +140,11 @@ Nākamajā tabulā ir parādīti piegādātāju pieprasījumu iespējamie status
 
 Kad piegādātāja pieprasījums ir apstiprināts, tiek izveidots kreditora konts un gan sākotnējā potenciālā piegādātāja reģistrācijas pieprasījumā, gan piegādātāja pieprasījumā ir redzams statuss **Apstiprināts**.
 
-Pirms apstiprināt piegādātāja pieprasījumu, lapā **Jauns piegādātājs**, kopsavilkuma cilnē **Vispārīgi** atlasiet **Kreditoru grupa**, lai atlasītu kādu kreditoru grupu.
+Pirms apstiprināt piegādātāja pieprasījumu, lapā **Jauns piegādātājs** , kopsavilkuma cilnē **Vispārīgi** atlasiet **Kreditoru grupa** , lai atlasītu kādu kreditoru grupu.
 
 Ja potenciālā piegādātāja lietotājam ir nepieciešama piekļuve programmatūrai Supply Chain Management kā kreditoru sadarbības lietotājam, kas pārstāv šo piegādātāju, kreditoru sadarbības piekļuves atļauju iestatiet uz **Jā**. Lai deaktivizētu lietotāja kontu, kuru potenciālais piegādātājs izmantoja, lai reģistrētos, iestatiet šo atļauju uz **Nē**.
 
-Ja kreditoru sadarbības piekļuves atļauja ir iestatīta uz **Jā**, kad piegādātāja pieprasījums ir apstiprināts, tiek iesniegts pieprasījums modificēt lietotāju lomas, lai šim lietotājam būtu lomas, kas iestatījumā **Ārējās lomas** ir definētas veidam **Kreditors**. Ja šī atļauja ir iestatīta uz **Nē**, kad piegādātāja pieprasījums ir apstiprināts, tiek iesniegts pieprasījums deaktivizēt šo lietotāju. Šajā gadījumā ir jāiestata darbplūsma lietotāja pieprasījuma deaktivizēšanai.
+Ja kreditoru sadarbības piekļuves atļauja ir iestatīta uz **Jā** , kad piegādātāja pieprasījums ir apstiprināts, tiek iesniegts pieprasījums modificēt lietotāju lomas, lai šim lietotājam būtu lomas, kas iestatījumā **Ārējās lomas** ir definētas veidam **Kreditors**. Ja šī atļauja ir iestatīta uz **Nē** , kad piegādātāja pieprasījums ir apstiprināts, tiek iesniegts pieprasījums deaktivizēt šo lietotāju. Šajā gadījumā ir jāiestata darbplūsma lietotāja pieprasījuma deaktivizēšanai.
 
 Lai pēc piegādātāja pieprasījuma apstiprināšanas tiktu izveidots kreditora konts, numuru sērija kreditoru izveidošanai no piegādātāju pieprasījumiem ir jāiestata uz **Automātiski**.
 
@@ -161,7 +162,7 @@ Kad piegādātāja pieprasījums ir noraidīts, gan sākotnējā potenciālā pi
 
 Potenciālā piegādātāja reģistrācijas pieprasījuma dažādie statusi sniedz apskatu par pieprasījuma izpildes gaitu.
 
-Potenciālā piegādātāja reģistrācijas pieprasījumam izmantojot darbību **Dzēst**, varat iztīrīt un noņemt izveidotās ierakstu ķēdes un varat deaktivizēt lietotāja kontu. Darbības **Dzēst** rezultāts ir atkarīgs no potenciālā piegādātāja reģistrācijas pieprasījuma statusa, kā parādīts nākamajā tabulā.
+Potenciālā piegādātāja reģistrācijas pieprasījumam izmantojot darbību **Dzēst** , varat iztīrīt un noņemt izveidotās ierakstu ķēdes un varat deaktivizēt lietotāja kontu. Darbības **Dzēst** rezultāts ir atkarīgs no potenciālā piegādātāja reģistrācijas pieprasījuma statusa, kā parādīts nākamajā tabulā.
 
 
 |          Statuss          |                                                                                     Statusa apraksts                                                                                      |                                                                                                                                                            Darbības Dzēst rezultāts                                                                                                                                                             |

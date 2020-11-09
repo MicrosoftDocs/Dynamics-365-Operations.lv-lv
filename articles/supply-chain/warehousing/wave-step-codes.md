@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017809"
 ---
 # <a name="wave-step-codes"></a>Kopuma darbību kodi
 
@@ -59,11 +59,11 @@ Iespējošanas laikā validācijas tiek veiktas datu jaunināšanas laikā. Ja j
 
 Pēc tam, kad esat atrisinājis konfliktus, kas ir identificēti validācijas laikā, varat atkārtoti mēģināt iespējot šo līdzekli.
 
-Kad līdzeklis ir iespējots, kļūst pieejama lapa **Kopuma darbību kodi** (**Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma darbību kodi**). Šajā lapā ir uzskaitīti kopuma darbību kodi, kas tika atjaunināti, kad tika iespējots organizācijas līmeņa kopuma darbību koda līdzeklis.
+Kad līdzeklis ir iespējots, kļūst pieejama lapa **Kopuma darbību kodi** ( **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma darbību kodi** ). Šajā lapā ir uzskaitīti kopuma darbību kodi, kas tika atjaunināti, kad tika iespējots organizācijas līmeņa kopuma darbību koda līdzeklis.
 
 ### <a name="create-new-wave-step-codes"></a>Izveidot jauna kopuma darbību kodus
 
-Varat izmantot lapu **Kopuma darbību kodi**, lai izveidotu un dzēstu kopuma darbību kodus.
+Varat izmantot lapu **Kopuma darbību kodi** , lai izveidotu un dzēstu kopuma darbību kodus.
 
 Katram jaunam kopuma darbību kodam un ar to saistītajam ID ir jābūt unikālam visos kopuma darbību tipos, un tie ir jādefinē konkrētam kopuma darbību tipam.
 

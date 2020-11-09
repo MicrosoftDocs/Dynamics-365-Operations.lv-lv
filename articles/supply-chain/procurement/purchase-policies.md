@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
+ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
-ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
+ms.openlocfilehash: 00200bc79f83e9d072ff8220c89a6aaa70cb07a5
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018725"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkšanas ierobežojumu pārskats
 
@@ -81,9 +81,9 @@ Kataloga ierobežojuma nosacījumi nosaka, kuru Sagādes katalogu lietotāji red
 
 Kategorijas piekļuves ierobežojuma nosacījumi nosaka, kurām kategorijām lietotājiem ir piekļuve, kad tiek izveidoti pirkšanas pieprasījumi. Ja nav norādīts neviens nosacījums, pirkšanas pieprasījumam var pievienot sagādes kategorijas.
 
-1.  Atlasiet opciju **Iekļaut mātes uzņēmuma kārtulu**, lai mātes organizācijai izmantotu kategorijas piekļuves ierobežojuma nosacījumu.
+1.  Atlasiet opciju **Iekļaut mātes uzņēmuma kārtulu** , lai mātes organizācijai izmantotu kategorijas piekļuves ierobežojuma nosacījumu.
 2.  Rūtī **Pieejamās kategorijas** atlasiet kategorijas, uz kurām attiecas šis nosacījums. Kad atlasāt kādu kategoriju, visas hierarhijā augstāk esošās kategorijas arī tiek pievienotas sarakstam **Atlasītās kategorijas**.
-3.  Atlasiet opciju **Iekļaut apakškategorijas**, lai lietotu nosacījumu visām atlasītās kategorijas apakškategorijām.
+3.  Atlasiet opciju **Iekļaut apakškategorijas** , lai lietotu nosacījumu visām atlasītās kategorijas apakškategorijām.
 
 ### <a name="category-policy-rule"></a>Kategorijas ierobežojuma nosacījumi
 
@@ -102,7 +102,7 @@ Pirkšanas pieprasījuma PP nosacījumi nosaka kritērijus, kuri ir nepieciešam
 
 ### <a name="purchase-requisition-control-rule"></a>Piedāvājuma pieprasījuma kontroles nosacījumi
 
-Pirkšanas pieprasījuma kontroles nosacījumi, kas attiecas uz pieprasījumiem ar tipu **patēriņš**, ir neobligāts noteikums. Izveidojot šī tipa nosacījumus, varat iestatīt opcijas dažādās cilnēs:
+Pirkšanas pieprasījuma kontroles nosacījumi, kas attiecas uz pieprasījumiem ar tipu **patēriņš** , ir neobligāts noteikums. Izveidojot šī tipa nosacījumus, varat iestatīt opcijas dažādās cilnēs:
 
 -   Cilnē **Darbplūsmas iesniegšana** varat konfigurēt laukus, kas ir jāaizpilda pieprasījuma rindā, lai pieprasījums tiktu iesniegts apstiprināšanai.
 -   Cilnē **Pasūtījuma daudzumi** var konfigurēt laukus, kas nepieciešami pirkšanas pieprasījumā saskaņā ar noteiktiem nosacījumiem. Var arī ieviest pasūtījuma daudzumus.
@@ -130,9 +130,9 @@ Izmantojot pirkšanas pasūtījuma izveides un pieprasījuma konsolidācijas nos
     -   **Tikai tad, ja nav tirdzniecības līguma** — cenas un atlaides tiek pārsūtītas no pirkšanas pieprasījuma tikai tad, ja nav piemērojama tirdzniecības līguma vai pamatcenas. Ja krājumam vai kreditoram pastāv tirdzniecības līgums vai pamatcena, cenas un atlaides tiek pārrēķinātas, pamatojoties uz tirdzniecības līgumu vai pamatcenu, un tiek lietotas pirkšanas pasūtījumam. Ja vien nav norādīts citādi, šī ir noklusējuma darbība.
     -   **Vienmēr** — cenas un atlaides vienmēr tiek pārsūtītas no pirkšanas pieprasījuma.
 
-    Varat arī ļaut pieprasītājam mainīt cenu un atlaižu pārsūtīšanas metodi atsevišķām pirkšanas pieprasījuma rindām, neskatoties uz cenu/atlaižu pārsūtīšanas kārtulu, kas ir definēta. Atlasiet opciju **Ļaut manuāli ignorēt pēc pirkšanas pieprasījuma rindas**, ja vēlaties iespējot šo iespēju.
+    Varat arī ļaut pieprasītājam mainīt cenu un atlaižu pārsūtīšanas metodi atsevišķām pirkšanas pieprasījuma rindām, neskatoties uz cenu/atlaižu pārsūtīšanas kārtulu, kas ir definēta. Atlasiet opciju **Ļaut manuāli ignorēt pēc pirkšanas pieprasījuma rindas** , ja vēlaties iespējot šo iespēju.
 -   Cilnē **Krājuma apraksta pārsūtīšana** var pārsūtīt krājuma aprakstu no pieprasījuma, ja tas tiek izveidots no PP.
--   Cilnē **Cenu tolerance** var noteikt nosacījumus, kas tiek izmantoti, lai maršrutētu apstiprinātos pirkšanas pieprasījumus atpakaļ uz pārskatīšanas procesu, kad sagādes kataloga krājuma cena pieaug. Iestatiet maksimālo summu, līdz kurai neto summa par rindas krājumu pirkšanas pasūtījumā var palielināties laikā starp pirkšanas pieprasījuma apstiprināšanu un brīdi, kad tiek izveidots pirkšanas pasūtījums. Neto summa tiek aprēķināta, izmantojot šādu formulu: (\[daudzums × (vienības cena – atlaide) ÷ cenas vienība\] + pirkšanas papildmaksas) × (100 – atlaids procentos) ÷ 100. Pirkšanas pieprasījuma rindas, kas pārsniedz iestatīto cenas toleranci, tiek aizturētas manuālai apstrādei. Kārtulas, kuras jūs konfigurējat cilnē **Kļūdu apstrāde**, nosaka, kā tiek apstrādātas pirkšanas pieprasījuma rindas.
+-   Cilnē **Cenu tolerance** var noteikt nosacījumus, kas tiek izmantoti, lai maršrutētu apstiprinātos pirkšanas pieprasījumus atpakaļ uz pārskatīšanas procesu, kad sagādes kataloga krājuma cena pieaug. Iestatiet maksimālo summu, līdz kurai neto summa par rindas krājumu pirkšanas pasūtījumā var palielināties laikā starp pirkšanas pieprasījuma apstiprināšanu un brīdi, kad tiek izveidots pirkšanas pasūtījums. Neto summa tiek aprēķināta, izmantojot šādu formulu: (\[daudzums × (vienības cena – atlaide) ÷ cenas vienība\] + pirkšanas papildmaksas) × (100 – atlaids procentos) ÷ 100. Pirkšanas pieprasījuma rindas, kas pārsniedz iestatīto cenas toleranci, tiek aizturētas manuālai apstrādei. Kārtulas, kuras jūs konfigurējat cilnē **Kļūdu apstrāde** , nosaka, kā tiek apstrādātas pirkšanas pieprasījuma rindas.
 -   Cilnē **Kļūdu apstrāde** var konfigurēt apstrādes kārtulu, kas tiek piemērota pirkšanas pasūtījumam, ja piegādātāja kļūdas vai cenu tolerances kļūdas dēļ tās validācija neizdodas pirkšanas pasūtījuma izveidošanas laikā. Izvēlieties vienu no šīm opcijām:
     -   **Nav darbības** — pirkšanas pieprasījuma rindas paliek lapā **Nodot izpildei apstiprinātos pirkšanas pieprasījumus**. Pirkšanas pieprasījuma rindu statuss paliek **Apstiprināts**. Tomēr kļūdas jānovērš, pirms pirkšanas pasūtījumu var ģenerēt no pirkšanas pieprasījuma rindām.
     -   **Atcelt pirkšanas pieprasījuma rindu** — pirkšanas pieprasījumu rindas tiek atceltas. Pieprasītājs var izveidot jaunu pirkšanas pieprasījumu par atceltajām rindām, ja viņš vai viņa joprojām vēlas pieprasīt rindas krājumus.
@@ -140,13 +140,13 @@ Izmantojot pirkšanas pasūtījuma izveides un pieprasījuma konsolidācijas nos
 -   Cilnē **Manuāla pirkšanas pasūtījuma izveide** definējiet parametrus, kas nosaka, vai pirkšanas pieprasījums ir manuāli jāapstrādā vai tas var automātiski tikt pārvērsts par pirkšanas pasūtījumu. Parametru var lietot iekšējā kataloga krājumiem, ārējā kataloga krājumiem vai krājumiem, kas nav katalogā. Izvēlieties vienu no šīm opcijām:
     -   **Manuāli izveidot pirkšanas pasūtījumus** — manuāli izveidojiet pirkšanas pasūtījumus visiem pirkšanas pieprasījumiem.
     -   **Automātiski izveidot pirkšanas pasūtījumus** — automātiski izveidojiet pirkšanas pasūtījumus visiem apstiprinātajiem pirkšanas pieprasījumiem. Neviens pirkšanas pieprasījums nav aizturēts manuālai pirkšanas pasūtījuma izveidei.
-    -   **Automātiski izveidot pirkšanas pasūtījumus, izņemot norādītajos apstākļos** — manuāli izveidot pirkšanas pasūtījumus pirkšanas pieprasījumiem, kas atbilst definētajiem kritērijiem. Visi citi pirkšanas pieprasījumi, kas ir apstiprināti automātiski, tiek pārvērsti par pirkšanas pasūtījumiem. Ja atlasāt **Automātiski izveidot pirkšanas pasūtījumus, izņemot norādītajos apstākļos**, jūs varat pievienot sagādes kategorijas un kreditorus, lai precizētu, kuras apstiprinātās pirkšanas pieprasījuma rindas tiek aizturētas manuālai apstrādei. Šo opciju var lietot iekšējā kataloga krājumiem, ārējā kataloga krājumiem un krājumiem, kas nav katalogā. Atlasot sagādes kategoriju, tiek atlasītas arī visas apakškategorijas šajā sagādes kategorijā. Atlasiet opciju **Visas** noteiktam pirkšanas pieprasījuma rindas tipam, lai aizturētu visas šī tipa rindas manuālai apstrādei.
+    -   **Automātiski izveidot pirkšanas pasūtījumus, izņemot norādītajos apstākļos** — manuāli izveidot pirkšanas pasūtījumus pirkšanas pieprasījumiem, kas atbilst definētajiem kritērijiem. Visi citi pirkšanas pieprasījumi, kas ir apstiprināti automātiski, tiek pārvērsti par pirkšanas pasūtījumiem. Ja atlasāt **Automātiski izveidot pirkšanas pasūtījumus, izņemot norādītajos apstākļos** , jūs varat pievienot sagādes kategorijas un kreditorus, lai precizētu, kuras apstiprinātās pirkšanas pieprasījuma rindas tiek aizturētas manuālai apstrādei. Šo opciju var lietot iekšējā kataloga krājumiem, ārējā kataloga krājumiem un krājumiem, kas nav katalogā. Atlasot sagādes kategoriju, tiek atlasītas arī visas apakškategorijas šajā sagādes kategorijā. Atlasiet opciju **Visas** noteiktam pirkšanas pieprasījuma rindas tipam, lai aizturētu visas šī tipa rindas manuālai apstrādei.
 
-    Ja vēlaties pirkšanas pasūtījumus automātiski ģenerēt no apstiprinātajiem pirkšanas pieprasījumiem, kad tiek palaists pakešuzdevums pirkšanas pasūtījuma ģenerēšanai, atlasiet opciju **Izpildīt automātisku pirkšanas pasūtījuma izveidi kā pakešuzdevumu**. Šī opcija attiecas tikai uz tiem pirkšanas pieprasījumiem, kam nav nepieciešama manuāla apstrāde. Palaižot automātisko pirkšanas pasūtījuma ģenerēšanu kā pakešuzdevumu, varat ieplānot šo darbību brīdī, kad resursi ir mazāk ierobežoti. Ja pirkšanas pieprasījuma rindās ir atlasīta opcija **Jāveic priekšapmaksa**, atlasiet opciju **Ja pieprasījums ir iestatīts priekšapmaksai**, ja vēlaties aizturēt apstiprinātos pirkšanas pieprasījumus manuālai apstrādei. Pirkšanas pieprasījumus, kas ir aizturēti manuālai apstrādei, var filtrēt tā, lai varētu skatīt tikai tās pirkšanas pieprasījumu rindas, kurām nepieciešama priekšapmaksa.
+    Ja vēlaties pirkšanas pasūtījumus automātiski ģenerēt no apstiprinātajiem pirkšanas pieprasījumiem, kad tiek palaists pakešuzdevums pirkšanas pasūtījuma ģenerēšanai, atlasiet opciju **Izpildīt automātisku pirkšanas pasūtījuma izveidi kā pakešuzdevumu**. Šī opcija attiecas tikai uz tiem pirkšanas pieprasījumiem, kam nav nepieciešama manuāla apstrāde. Palaižot automātisko pirkšanas pasūtījuma ģenerēšanu kā pakešuzdevumu, varat ieplānot šo darbību brīdī, kad resursi ir mazāk ierobežoti. Ja pirkšanas pieprasījuma rindās ir atlasīta opcija **Jāveic priekšapmaksa** , atlasiet opciju **Ja pieprasījums ir iestatīts priekšapmaksai** , ja vēlaties aizturēt apstiprinātos pirkšanas pieprasījumus manuālai apstrādei. Pirkšanas pieprasījumus, kas ir aizturēti manuālai apstrādei, var filtrēt tā, lai varētu skatīt tikai tās pirkšanas pieprasījumu rindas, kurām nepieciešama priekšapmaksa.
 -   Cilnē **Pieprasījuma konsolidācija** var definēt parametrus, kas nosaka, vai pirkšanas pieprasījumi, ko apstrādā manuāli, var tikt izmantoti pirkšanas pieprasījuma konsolidācijai. Parametru var lietot iekšējā kataloga krājumiem, ārējā kataloga krājumiem vai krājumiem, kas nav katalogā. Izvēlieties vienu no šīm opcijām:
     -   **Neatļaut pieprasījuma konsolidāciju** — apstiprinātās pirkšanas pieprasījuma rindas nav piemērotas pieprasījuma konsolidācijai. Šī opcija ir atlasīta pēc noklusējuma un attiecas tikai uz pirkšanas pieprasījuma rindām, kurām nepieciešama manuāla apstrāde pirkšanas pasūtījuma izveidošanai.
-    -   **Vienmēr atļaut pieprasījuma konsolidāciju** — visas apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. **Piezīme:** atlasot opciju **Vienmēr atļaut pieprasījuma konsolidāciju** cilnē **Pieprasījuma konsolidācija** un atlasot opciju **Automātiski izveidot pirkšanas pasūtījumus** cilnē **Manuāla pirkšanas pasūtījuma izveide**, visi pirkšanas pieprasījumi tiek aizturēti manuālai apstrādei.
-    -   **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos** — definējiet kritērijus, kas nosaka, vai apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. Katram pirkšanas pieprasījuma rindas veidam varat iestatīt kritērijus pēc sagādes kategorijas un piegādātāja. Ja atlasāt opciju **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos**, varat iestatīt kritērijus pēc sagādes kategorijas un kreditora katram pirkšanas pieprasījuma rindas tipam. Atlasot sagādes kategoriju, tiek atlasītas arī visas apakškategorijas šajā sagādes kategorijā. Ja atlasāt opciju **Visas** noteiktam rindas tipam, visas šī tipa pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai.
+    -   **Vienmēr atļaut pieprasījuma konsolidāciju** — visas apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. **Piezīme:** atlasot opciju **Vienmēr atļaut pieprasījuma konsolidāciju** cilnē **Pieprasījuma konsolidācija** un atlasot opciju **Automātiski izveidot pirkšanas pasūtījumus** cilnē **Manuāla pirkšanas pasūtījuma izveide** , visi pirkšanas pieprasījumi tiek aizturēti manuālai apstrādei.
+    -   **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos** — definējiet kritērijus, kas nosaka, vai apstiprinātās pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai. Katram pirkšanas pieprasījuma rindas veidam varat iestatīt kritērijus pēc sagādes kategorijas un piegādātāja. Ja atlasāt opciju **Atļaut pieprasījuma konsolidāciju norādītajos apstākļos** , varat iestatīt kritērijus pēc sagādes kategorijas un kreditora katram pirkšanas pieprasījuma rindas tipam. Atlasot sagādes kategoriju, tiek atlasītas arī visas apakškategorijas šajā sagādes kategorijā. Ja atlasāt opciju **Visas** noteiktam rindas tipam, visas šī tipa pirkšanas pieprasījuma rindas ir piemērotas pieprasījuma konsolidācijai.
 
 
 

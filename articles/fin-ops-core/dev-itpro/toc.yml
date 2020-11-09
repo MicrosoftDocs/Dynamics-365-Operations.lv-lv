@@ -142,13 +142,15 @@
                           items:
                             - name: Sistēmas prasības duālajam ierakstam
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Atbalstītie scenāriji duālā ieraksta iestatīšanai
+                            - name: Norādījumi par duālā ieraksta iestatīšanu
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Sākotnējās sinhronizācijas apsvērumi
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Duālā ieraksta iestatīšana no Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Iespējot duālo ierakstu esošajām Finance and Operations programmām
+                            - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
                               items:
-                                - name: Iespējot duālo ierakstu esošajām Finance and Operations programmām
+                                - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
                                   href: data-entities/dual-write/enable-dual-write.md
                                 - name: Sistēmas prasības un priekšnosacījumi
                                   href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Ražošanas datu bāzes punkta laikā atjaunošana uz smilškastes vidi
                   href: database/database-pitr-prod-sandbox.md
+                - name: Savlaicīgas datu bāzes piekļuves iespējošana
+                  href: database/database-just-in-time-jit-access.md
             - name: Apmācība
               items:
                 - name: Atsvaidzināšana apmācību nolūkos
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Commerce Scale Unit (mākoņa) inicializēšana
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Kanālu migrēšana uz citu Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Retail datu rezidences vieta
                   href: deployment/retail-data-residency.md
             - name: Lokāls izvietojums
@@ -1410,7 +1416,7 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Regression Suite Automation Tool apmācība un citi līdzekļi
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
-            - name: Paraugprakse
+            - name: Paraugprakses
               href: perf-test/rsat/rsat-best-practices.md
             - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 'Atbalsta saņemšana par Finance and Operations, kā darbību nodrošina 21Vianet Ķīnā'
               href: lifecycle-services/21vianet-support.md
-            - name: Finance and Operations tehniskā atbalsta iestatīšana
+            - name: Finance and Operations programmu tehniskā atbalsta iestatīšana
               href: lifecycle-services/support-experience.md
-            - name: Finance and Operations atbalsta iespēju pārvaldība
+            - name: Finance and Operations programmu atbalsta iespēju pārvaldība
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Sistēmas administrēšana
           items:

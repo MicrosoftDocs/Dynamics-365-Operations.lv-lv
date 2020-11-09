@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bd741cdf86ef73742a75bac910d7560cb380cfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189549"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006240"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
 
@@ -34,7 +34,7 @@ Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairā
 
 Dokumentu, kas satur vairāk nekā vienu debitoru vai kreditoru var ievadīt, izmantojot vienu no šīm metodēm:
 
--   Izmantojot žurnālu ar atlasītu opciju **Tikai 1 dokumenta numurs**, lai katra rinda, kas tiek pievienota žurnālam ir iekļauta tajā pašā dokumentā.
+-   Izmantojot žurnālu ar atlasītu opciju **Tikai 1 dokumenta numurs** , lai katra rinda, kas tiek pievienota žurnālam ir iekļauta tajā pašā dokumentā.
 -   Izmantojot vairāku rindu dokumentu, ja nav norādīts korespondējošais virsgrāmatas konts, ar vairāk nekā vienu debitoru vai kreditoru.
 -   Ievadot dokumentu ar kontu, un korespondējošais konts ir kreditors/kreditors, debitors/debitors, kreditors/debitors vai debitors/kreditors.
 
@@ -50,9 +50,8 @@ Grāmatojot dokumentu, kas ietver vairākus debitora vai kreditora ierakstus, ti
 
 Šajā piemērā vairāki kreditora rēķini tiek ierakstīti vienā dokumentā Virsgrāmatā, lapā **Virsgrāmatas žurnāls**. Šie rēķini tiek sadalīti starp vairākām konta dimensijām.
 
-|             |                  |              |                 |           |            |
+| Dokuments | Konta veids | Konts  | Apraksts | Debetkarte | Kredītkarte |
 |-------------|------------------|--------------|-----------------|-----------|------------|
-| **Dokuments** | **Konta veids** | **Konts**  | **Apraksts** | **Debetkarte** | **Kredītkarte** |
 | GNJL001     | Kreditors           | 1001         | INV1            |           | 100,00     |
 | GNJL001     | Kreditors           | 1001         | INV2            |           | 200,00     |
 | GNJL001     | Kreditors           | 1001         | INV3            |           | 300,00     |
@@ -63,9 +62,8 @@ Grāmatojot dokumentu, kas ietver vairākus debitora vai kreditora ierakstus, ti
 
 Pēc grāmatošanas tiek izveidots viens dokuments.
 
-|             |              |                  |                                    |
+| Dokuments | Konts  | Grāmatošanas tips | Summa darījuma valūtā |
 |-------------|--------------|------------------|------------------------------------|
-| **Dokuments** | **Konts**  | **Grāmatošanas tips** | **Summa darījuma valūtā** |
 | GNJL001     | 606300-001-- | Virsgrāmatas žurnāls   | 50,00                              |
 | GNJL001     | 606300-002-- | Virsgrāmatas žurnāls   | 50,00                              |
 | GNJL001     | 606300-003-- | Virsgrāmatas žurnāls   | 200,00                             |
@@ -78,9 +76,8 @@ Ievērojiet, ka dokuments satur trīs ierakstus vienā dokumentā kreditora bila
 
 Izmantojot šo piemēru, iespējams analizēt ietekmi, kas rodas, izmantojot vienu dokumentu, pakārtotā norēķinu uzskaitē. Pieņemsim, ka jums jāmaksā 197,00 no 200,00 rēķina, pieņemot termiņatlaidi 3,00 apmērā. Ievērojiet, ka termiņatlaides konta vērtība tiek piešķirta visām dimensijām no rēķina dokumenta izdevumu kontiem. Tas ir tāpēc, ka tika izmantots viens dokuments, lai grāmatotu augstāk minēto rēķinu bez norādes, kā lietotājs paredz izdevumu sadali, lai savstarpēji saistītu kreditora bilanci vienā dokumentā.
 
-|             |              |                      |           |            |
+| Dokuments | Konts  | Grāmatošanas tips     | Debetkarte | Kredītkarte |
 |-------------|--------------|----------------------|-----------|------------|
-| **Dokuments** | **Konts**  | **Grāmatošanas tips**     | **Debetkarte** | **Kredītkarte** |
 | APPAYM001   | 200110-001-  | Kreditora bilance       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Banka                 |           | 197.00     |
 | 14000056    | 520200-001-- | Kreditora termiņatlaide |           | 0.25       |
@@ -91,9 +88,8 @@ Izmantojot šo piemēru, iespējams analizēt ietekmi, kas rodas, izmantojot vie
 
 Ja lietotājs ir neapmierināts ar termiņatlaidi, kas tiek piešķirta visās izdevumu sadalēs no oriģinālā rēķina, nevis no viena dokumenta, jāizmanto vairāki dokumenti, lai ierakstītu rēķinus. Lūk, piemērs, kā vairākus dokumentus var ievadīt Virsgrāmatā, nevis izmantojot vienu dokumentu, kā parādīts šī piemērā sākumā.
 
-|             |                  |              |                 |           |            |                 |                    |
+| Dokuments | Konta veids | Konts  | Apraksts | Debetkarte | Kredītkarte | Korespondējošais veids | Korespondējošais konts |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts**  | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | GNJL001     | Kreditors           | 1001         | INV1            |           | 100,00     | Virsgrāmata          | &lt;tukšs&gt;      |
 | GNJL001     | Virsgrāmata           | 606300-001-- | INV1            |   50,00   |            | Virsgrāmata          | &lt;tukšs&gt;      |
 | GNJL001     | Virsgrāmata           | 606300-002-- | INV1            |   50,00   |            | Virsgrāmata          | &lt;tukšs&gt;      |
@@ -102,9 +98,8 @@ Ja lietotājs ir neapmierināts ar termiņatlaidi, kas tiek piešķirta visās i
 
 Tagad, kad ir apmaksāts INV2, tiks veikts šāds ieraksts. Ņemiet vērā, ka termiņatlaides finanšu dimensijas seko saistīto izdevumu finanšu dimensijām.
 
-|             |              |                      |           |            |
+| Dokuments | Konts  | Grāmatošanas tips     | Debetkarte | Kredītkarte |
 |-------------|--------------|----------------------|-----------|------------|
-| **Dokuments** | **Konts**  | **Grāmatošanas tips**     | **Debetkarte** | **Kredītkarte** |
 | APPAYM001   | 200110-001-  | Kreditora bilance       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Banka                 |           | 197.00     |
 | 14000056    | 520200-003-- | Kreditora termiņatlaide |           | 3,00       |
@@ -112,17 +107,15 @@ Tagad, kad ir apmaksāts INV2, tiks veikts šāds ieraksts. Ņemiet vērā, ka t
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Viens dokuments ar vairākiem kreditoriem un ietekme uz realizētās peļņas/zaudējumu uzskaiti
 
-|             |                  |             |                 |           |            |                  |              |
+| Dokuments | Konta veids | Konts | Apraksts | Debetkarte | Kredītkarte | Konta veids | Konts  |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
-| **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Konta veids** | **Konts**  |
 | GNJL001     | Kreditors           | 1001        | INV1            |           | 100,00     | Virsgrāmata           | 606300-001-- |
 | GNJL001     | Kreditors           | 1001        | INV2            |           | 200,00     | Virsgrāmata           | 606300-002-- |
 
 Šajā piemērā vairāki kreditora rēķini tiek ierakstīti vienā dokumentā Virsgrāmatā, lapā **Virsgrāmatas žurnāls**. Šie rēķini tiek sadalīti starp vairākām konta dimensijām. Pēc grāmatošanas tiek izveidots viens dokuments.
 
-|             |              |                  |                                          |                                         |
+| Dokuments | Konts  | Grāmatošanas tips | Summa darījuma valūtā (EUR) | Summa uzskaites valūtā (USD) |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
-| **Dokuments** | **Konts**  | **Grāmatošanas tips** | **Summa darījuma valūtā (EUR)** | **Summa uzskaites valūtā (USD)** |
 | GNJL001     | 606300-001-- | Virsgrāmatas žurnāls   | 100,00                                   | 114.00                                  |
 | GNJL001     | 606300-002-- | Virsgrāmatas žurnāls   | 200,00                                   | 228.00                                  |
 | GNJL001     | 200110-001-  | Kreditora bilance   | -100,00                                  | -114.00                                 |
@@ -132,9 +125,8 @@ Ievērojiet, ka dokuments satur divus ierakstus vienā dokumentā kreditora bila
 
 Izmantojot šo piemēru, iespējams analizēt ietekmi, kas rodas, izmantojot vienu dokumentu, pakārtotā norēķinu uzskaitē. Pieņemsim, ka jūsu uzskaites valūta ir USD, un iepriekš minētās darbības tika grāmatotas darbības valūtā EUR. Pieņemsim, ka jūs pilnībā apmaksājat 200,00 EUR rēķinu, bet saskaraties ar realizētiem zaudējumiem, sakarā ar valūtas maiņas kursa starpību laikā, kad jūs grāmatojāt jūsu rēķinu un maksājumu. Ievērojiet, ka realizētā zaudējuma konta vērtība tiek piešķirta visām dimensijām no rēķina dokumenta izdevumu kontiem. Šajā gadījumā tika piešķirtas abas dimensijas 001 un 002, lai gan lietotāja uztverē varētu būt, ka tikai 002 pieder izdevumu kontam no rēķina, kas tiek kompensēts. Tas ir tāpēc, ka tika izmantots viens dokuments, lai grāmatotu augstāk minēto rēķinu bez norādes, kā lietotājs paredz izdevumu sadali, lai savstarpēji saistītu kreditora bilanci vienā dokumentā.
 
-|             |             |                    |                                          |                                         |
+| Dokuments | Konts | Grāmatošanas tips   | Summa darījuma valūtā (EUR) | Summa uzskaites valūtā (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Dokuments** | **Konts** | **Grāmatošanas tips**   | **Summa darījuma valūtā (EUR)** | **Summa uzskaites valūtā (USD)** |
 | APPAYM001   | 200110-001- | Kreditora bilance     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Banka               | –200,00                                  | -230.00                                 |
 | 14000056    | 801300-001- | Valūtas kursa svārstību zaudējumi | 0,00                                     | 0.67                                    |
@@ -143,17 +135,15 @@ Izmantojot šo piemēru, iespējams analizēt ietekmi, kas rodas, izmantojot vie
 
 Ja lietotājs ir neapmierināts ar Valūtas kursa svārstību zaudējumiem, kas tiek piešķirta visās izdevumu sadalēs no oriģinālā rēķina, nevis no viena dokumenta, jāizmanto vairāki dokumenti, lai ierakstītu rēķinus. Lūk, piemērs, kā vairākus dokumentus var ievadīt Virsgrāmatā, nevis izmantojot vienu dokumentu, kā parādīts šī piemērā sākumā.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Dokuments | Konta veids | Konts | Apraksts | Debetkarte | Kredītkarte | Korespondējošais veids | Korespondējošais konts |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | GNJL002     | Kreditors           | 1001        | INV1            |           | 100,00     | Virsgrāmata          | 606300-001--       |
 | GNJL003     | Kreditors           | 1001        | INV2            |           | 200,00     | Virsgrāmata          | 606300-002--       |
 
 Tagad, kad ir apmaksāts INV2, tiks veikts šāds ieraksts. Ņemiet vērā, ka valūtas kursa svārstību zaudējumu finanšu dimensijas seko saistīto izdevumu finanšu dimensijām.
 
-|             |             |                    |                                          |                                         |
+| Dokuments | Konts | Grāmatošanas tips   | Summa darījuma valūtā (EUR) | Summa uzskaites valūtā (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Dokuments** | **Konts** | **Grāmatošanas tips**   | **Summa darījuma valūtā (EUR)** | **Summa uzskaites valūtā (USD)** |
 | APPAYM001   | 200110-001- | Kreditora bilance     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Banka               | –200,00                                  | -230.00                                 |
 | 14000056    | 801300-002- | Valūtas kursa svārstību zaudējumi | 0,00                                     | 2,00                                    |
@@ -168,64 +158,56 @@ Divi visbiežāk izmantotie scenāriji, kas izmanto vienu dokumentu, kas satur v
 
 Lai ilustrētu, pieņemsim, ka šāda pārdošana tiek veikta debitoram ACME. Šādas uzskaites ieraksti atspoguļo pārdošanu.
 
-|                    |                  |           |            |
+| Virsgrāmatas konts | Grāmatošanas tips | Debetkarte | Kredītkarte |
 |--------------------|------------------|-----------|------------|
-| **Virsgrāmatas konts** | **Grāmatošanas tips** | **Debetkarte** | **Kredītkarte** |
 | 401100-002-023-    | Ieņēmumi          |           | 100        |
 | 130100-002-        | Debitora bilance | 100       |            |
 
 Pēc tam lietotājs pārsūta bilanci apmaksai no ACME apdrošināšanas kompānijai vienā dokumentā Debitoru parādu žurnālā. Apdrošināšanas uzņēmums tiek iestatīts kā debitors Apdrošināšana.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Dokuments | Konta veids | Konts | Apraksts | Debetkarte | Kredītkarte | Korespondējošais veids | Korespondējošais konts |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | ARPAYM001   | Debitors         | ACME        | Pārsūtījums        |           | 100,00     | Debitors        | Apdrošināšana          |
 
 Ņemiet vērā, ka augstāk minētais ieraksts ir ietverts vienā dokumentā. Šis dokuments satur divus debitora ierakstus. Šāds dokuments tiek izveidots, kad tiek grāmatots augstāk minētais Virsgrāmatas ieraksts.
 
-|             |             |                  |                                    |
+| Dokuments | Konts | Grāmatošanas tips | Summa darījuma valūtā |
 |-------------|-------------|------------------|------------------------------------|
-| **Dokuments** | **Konts** | **Grāmatošanas tips** | **Summa darījuma valūtā** |
 | ARPAYM001   | 130100-002- | Debitora bilance | 100,00                             |
 | ARPAYM001   | 130100-002- | Debitora bilance | -100,00                            |
 
 Tālāk, pieņemsim, ka jūs saņemat maksājumu no debitora Apdrošināšana par 98,00 un izvēlaties kompensēt maksājumu ar rēķinu, kas tika izveidots bilances pārsūtīšanai. Tā rezultātā tiek grāmatots šāds dokuments. Var būt cerības, ka nosegšana izmanto finanšu dimensijas no oriģinālā rēķina, bet tas nav iespējams, jo debitoram Apdrošināšana nav rēķina dokumenta. Ņemiet vērā, ka pēc noklusējuma sadales dimensijas termiņatlaide nāk no debitora darbības, kas izveidota no pārsūtīšanas, nevis no oriģinālā rēķina ieņēmumu konta. Noklusējums ir viena dokumenta izmantošanas bilanču pārsūtīšanai rezultāts.
 
-|             |             |                  |           |            |
+| Dokuments | Konts | Grāmatošanas tips | Debetkarte | Kredītkarte |
 |-------------|-------------|------------------|-----------|------------|
-| **Dokuments** | **Konts** | **Grāmatošanas tips** | **Debetkarte** | **Kredītkarte** |
 | ARPAYM002   | 110110-002- | Banka             | 98.00     |            |
 | ARPAYM002   | 130100-002- | Debitora bilance |           | 98.00      |
 
 Termiņatlaides saistītajā dokumentā, noklusējums finanšu dimensijai tiek ņemts no debitora darbības, kas tiek izveidota no pārsūtīšanas, jo pārsūtījumam ir vairāk nekā viens debitors.
 
-|             |             |                        |           |            |
+| Dokuments | Konts | Grāmatošanas tips       | Debetkarte | Kredītkarte |
 |-------------|-------------|------------------------|-----------|------------|
-| **Dokuments** | **Konts** | **Grāmatošanas tips**       | **Debetkarte** | **Kredītkarte** |
 | ARP-00001   | 403300-002- | Debitora termiņatlaide | 2,00      |            |
 | ARP-00001   | 130100-002- | Debitora bilance       |           | 2,00       |
 
 Ja lietotājs ir neapmierināts ar noklusējumu finanšu dimensijām termiņatlaidei, viena dokumenta vietā nepieciešams izmantot vairākus dokumentus, lai ierakstītu bilances pārsūtīšanu. Šis scenārijs jāpaveic, izveidojot kredītrēķinu debitoram, kura bilance tiek pārvietota NO, un debetrēķinu vai rēķinu debitoram, kura bilance tiek pārveidota UZ. Šajā piemērā ir parādīts, kā vairākus dokumentus var ievadīt Debitoru parādu žurnālā, lai pārsūtītu bilanci, nevis izmantot vienu dokumentu, kā aprakstīts iepriekš šajā piemērā.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Dokuments | Konta veids | Konts | Apraksts | Debetkarte | Kredītkarte | Korespondējošais veids | Korespondējošais konts |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | ARPAYM001   | Debitors         | ACME        |                 |           | 100,00     | Virsgrāmata          | 401100-002-023-    |
 | ARPAYM002   | Debitors         | Apdrošināšana   |                 | 100,00    |            | Virsgrāmata          | 401100-002-023-    |
 
 Tas nozīmē, ka ja debitors Apdrošināšana maksā 98,00 ar dokumentu ARPAYM02, tiks izmantotas pareizas finanšu dimensijas no dokumenta ARPAYM002 virsgrāmatas konta ieraksta.
 
-|             |             |                  |           |            |
+| Dokuments | Konts | Grāmatošanas tips | Debetkarte | Kredītkarte |
 |-------------|-------------|------------------|-----------|------------|
-| **Dokuments** | **Konts** | **Grāmatošanas tips** | **Debetkarte** | **Kredītkarte** |
 | ARPAYM003   | 110110-002- | Banka             | 98.00     |            |
 | ARPAYM003   | 130100-002  | Debitora bilance |           | 98.00      |
 
 Termiņatlaides saistītajā dokumentā, finanšu dimensijas tiks izmantotas no korespondējošā ieņēmumu konta, kas redzams ARPAYM002 dokumentā.
 
-|             |                 |                        |           |            |
+| Dokuments | Konts     | Grāmatošanas tips       | Debetkarte | Kredītkarte |
 |-------------|-----------------|------------------------|-----------|------------|
-| **Dokuments** | **Konts**     | **Grāmatošanas tips**       | **Debetkarte** | **Kredītkarte** |
 | ARP-00001   | 403300-002-023- | Debitora termiņatlaide | 2,00      |            |
 | ARP-00001   | 130100-002-     | Debitora bilance       |           | 2,00       |
 
@@ -236,16 +218,14 @@ Kompensēšana var būt noderīga, ja uzņēmums pērk un pārdod vienā uzņēm
 
 Lai ilustrētu, pieņemsim, ka kreditors 1001 un klients US-008 ir viena juridiska persona, tāpēc jūsu uzņēmums vēlas nosegt maksājumu un ieņēmumu bilances pirms atlikušās bilances maksāšanas/saņemšanas. Pieņemsim, ka debitora ieraksts ir parādā 75.00 EUR, un kreditora ieraksts ir parādā 100,00 EUR, tas nozīmē, ka jūs vēlētos nosegt bilances un apmaksāt kreditoram tikai 25,00 EUR. Tālāk pieņemsim, ka uzskaites valūta ir USD. Šajā gadījumā nosegšanas darbība tiek ievadīta vienā dokumentā parādu kreditoriem maksājumu žurnālā.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Dokuments | Konta veids | Konts | Apraksts | Debetkarte | Kredītkarte | Korespondējošais veids | Korespondējošais konts |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | APPAYM001   | Kreditors           | 1001        | Tīkli         |  75,00    |            | Debitors        | US-008             |
 
 Lai novērstu nevēlamas problēmas ar turpmāku nosegšanu šai darbībai, viena viena dokumenta izmantošanas vietā, žurnālā vajadzētu ievadīt vairākus dokumentus, lai ierakstītu nosegšanas darbību. Ņemiet vērā, ka debitoru un kreditoru bilances tiek kompensētas ar vienu klīringa kontu, lai izvairītos no viena dokumenta izmantošanas, kas satur vairākas debitoru un kreditoru bilances.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Dokuments | Konta veids | Konts | Apraksts | Debetkarte | Kredītkarte | Korespondējošais veids | Korespondējošais konts |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Dokuments** | **Konta veids** | **Konts** | **Apraksts** | **Debetkarte** | **Kredītkarte** | **Korespondējošais veids** | **Korespondējošais konts** |
 | 001         | Debitors         | US-008      |                 |           |  75,00     | Virsgrāmata          | 999999---          |
 | 002         | Kreditors           | 1001        |                 |  75,00    |            | Virsgrāmata          | 999999---          |
 

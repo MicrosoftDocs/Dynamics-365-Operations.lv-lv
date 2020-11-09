@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597462"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017418"
 ---
 # <a name="warehouse-slotting"></a>Noliktavu slotu veidošana
 
 [!include [banner](../includes/banner.md)]
 
-Noliktavu slotu veidošana sniedz iespēju konsolidēt pieprasījumu pēc krājuma un mērvienības no pasūtījumiem ar statusu *Pasūtīts*, *Rezervēts* vai *Izlaists*. Pēc tam ģenerēto pieprasījumu var lietot novietojumiem, kas tiks izmantoti izdošanai, pamatojoties uz daudzumu, vienību, fiziskām dimensijām, fiksētiem novietojumiem un citām vērtībām. Kad slotu veidošanas plāns ir gatavs, var izveidot papildināšanas darbu, lai katram novietojumam piegādātu atbilstošu krājumu daudzumu.
+Noliktavu slotu veidošana sniedz iespēju konsolidēt pieprasījumu pēc krājuma un mērvienības no pasūtījumiem ar statusu *Pasūtīts* , *Rezervēts* vai *Izlaists*. Pēc tam ģenerēto pieprasījumu var lietot novietojumiem, kas tiks izmantoti izdošanai, pamatojoties uz daudzumu, vienību, fiziskām dimensijām, fiksētiem novietojumiem un citām vērtībām. Kad slotu veidošanas plāns ir gatavs, var izveidot papildināšanas darbu, lai katram novietojumam piegādātu atbilstošu krājumu daudzumu.
 
 Šī funkcija palīdz noliktavu vadītājiem pārdomāti plānot izdošanas novietojumus, pirms viņi izlaiž pasūtījumus noliktavā un izveido izdošanas darbu.
 
@@ -53,28 +54,28 @@ Mērvienību pakāpes ļauj slotu veidošanas nolūkā kopā grupēt vairākas m
     - **Apraksts:** *katra kastes palete*
 
 1. Atlasiet **Saglabāt**.
-1. Kopsavilkuma cilnē **Mērvienība** atlasiet **Jauns**, lai pievienotu režģim rindu.
+1. Kopsavilkuma cilnē **Mērvienība** atlasiet **Jauns** , lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Vienība:** *kaste*
     - **Apraksts:** atstājiet šo lauku tukšu. Saglabājot izmaiņas, tas tiks automātiski aizpildīts.
     - **Vienības klase:** *daudzums*
 
-1. Atlasiet **Jauns**, lai režģim pievienotu otru rindu.
+1. Atlasiet **Jauns** , lai režģim pievienotu otru rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Vienība:** *ea*
     - **Apraksts:** atstājiet šo lauku tukšu. Saglabājot izmaiņas, tas tiks automātiski aizpildīts.
     - **Vienības klase:** *daudzums*
 
-1. Atlasiet **Jauns**, lai režģim pievienotu trešo rindu.
+1. Atlasiet **Jauns** , lai režģim pievienotu trešo rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Vienība:** *PL*
     - **Apraksts:** atstājiet šo lauku tukšu. Saglabājot izmaiņas, tas tiks automātiski aizpildīts.
     - **Vienības klase:** *daudzums*
 
-1. Atlasiet **Saglabāt**, lai saglabātu pakāpi.
+1. Atlasiet **Saglabāt** , lai saglabātu pakāpi.
 
 ### <a name="create-a-directive-code-for-slotting"></a>Slotu veidošanas direktīvas koda izveide
 
@@ -90,7 +91,7 @@ Atlasiet direktīvas kodu, ko saistīt ar veidni.
 Ar katru slotu veidošanas veidni kontrolē, kā krājumi tiek piešķirti novietojumiem kādai konkrētai noliktavai. Katrā veidnē ir jābūt rindai, kas paredzēta katrai slotu veidošanas specifikācijai. Izmantojiet šajā sadaļā pieejamās procedūras, lai iestatītu slotu veidošanas veidnes.
 
 1. Atveriet **Noliktavas vadība \> Iestatīšana \> Papildināšana \> Slotu veidošanas veidnes**.
-1. Atlasiet **Jauns**, lai izveidotu veidni.
+1. Atlasiet **Jauns** , lai izveidotu veidni.
 
 Pēc tam ir jāiestata veidnes galvene, slotu veidošanas specifikācijas un novietojumu direktīvas, kā tas ir izskaidrots nākamajās apakšsadaļās.
 
@@ -108,11 +109,11 @@ Pēc tam ir jāiestata veidnes galvene, slotu veidošanas specifikācijas un nov
 
         Šajā laukā ir pieejamas tālāk norādītās vērtības.
 
-        - **Pasūtīts** — pilnībā pasūtīts pārdošanas pasūtījuma daudzums ir uzskatāms par pieprasījumu.
-        - **Rezervēts** — par pieprasījumu ir uzskatāmi tikai rezervētie (fiziskie un pasūtītie) pārdošanas pasūtījuma rindas daudzumi.
+        - **Pasūtīts**  — pilnībā pasūtīts pārdošanas pasūtījuma daudzums ir uzskatāms par pieprasījumu.
+        - **Rezervēts**  — par pieprasījumu ir uzskatāmi tikai rezervētie (fiziskie un pasūtītie) pārdošanas pasūtījuma rindas daudzumi.
 
     - **Noliktava:** _61_
-    - **Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus** — _Jā_
+    - **Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus**  — _Jā_
 
 Varat arī norādīt vaicājumu, lai sašaurinātu novērtējamā pieprasījuma apjomu.
 
@@ -120,7 +121,7 @@ Varat arī norādīt vaicājumu, lai sašaurinātu novērtējamā pieprasījuma 
 
 Katrai veidnei, ko izveidojat, veiciet tālāk norādītās darbības, lai katrai slotu veidošanas specifikācijai pievienotu rindu.
 
-1. Kopsavilkuma cilnē **Detalizēta informācija par slotu veidošanas veidni** atlasiet **Jauns**, lai izveidotu veidnes rindu.
+1. Kopsavilkuma cilnē **Detalizēta informācija par slotu veidošanas veidni** atlasiet **Jauns** , lai izveidotu veidnes rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Secība:** _1_
@@ -145,7 +146,7 @@ Katrai veidnei, ko izveidojat, veiciet tālāk norādītās darbības, lai katra
 
         Šajā laukā ir pieejamas tālāk norādītās vērtības.
 
-        - **Pieņemt, ka tukšs** — šī sistēma pieņems, ka visi novietojumi izdošanas apgabalā ir tukši un šajos novietojumos nepārbaudīs krājumus.
+        - **Pieņemt, ka tukšs**  — šī sistēma pieņems, ka visi novietojumi izdošanas apgabalā ir tukši un šajos novietojumos nepārbaudīs krājumus.
         - **Apsvērt daudz.**  — sistēma pārbaudīs novietojumus izdošanas apgabalā, meklējot krājumus, un izlaidīs visus novietojumus, kas nebūs tukši.
 
     - **Direktīvas kods:** _slotu veidošana_
@@ -158,18 +159,18 @@ Katrai veidnei, ko izveidojat, veiciet tālāk norādītās darbības, lai katra
 
     - **Atļaut palaišanu:** _Jā_
 
-        Ja šai opcijai ir iestatīta vērtība *Jā*, ja katram pieprasījumam nevar izveidot slotu, tiks izveidots kustības darbs, lai izņemtu krājumus no novietojumiem, kuros ir krājumi, bet nekam nav izveidoti sloti. Pēc tam veidne atkal tiek palaista. Šoreiz tā ignorē krājumus novietojumos. Šī funkcija darbojas vislabāk, ja laukam **Piešķirt slota kritēriju** ir iestatīta vērtība _Apsvērt daudz_.
+        Ja šai opcijai ir iestatīta vērtība *Jā* , ja katram pieprasījumam nevar izveidot slotu, tiks izveidots kustības darbs, lai izņemtu krājumus no novietojumiem, kuros ir krājumi, bet nekam nav izveidoti sloti. Pēc tam veidne atkal tiek palaista. Šoreiz tā ignorē krājumus novietojumos. Šī funkcija darbojas vislabāk, ja laukam **Piešķirt slota kritēriju** ir iestatīta vērtība _Apsvērt daudz_.
 
     - **Fiksēta novietojuma lietojums:** _tikai produktam paredzēti fiksēti novietojumi_
 
         Šajā laukā ir pieejamas tālāk norādītās vērtības.
 
-        - **Fiksēti un nefiksēti novietojumi** — sistēmai nevajadzētu būt ierobežojumam izmantot tikai fiksētus novietojumus.
-        - **Tikai produktam paredzēti fiksēti novietojumi** — sistēmai vajadzētu izveidot slotus tikai uz novietojumiem, kas ir produktam paredzēti fiksēti novietojumi.
-        - **Tikai produkta variantam paredzēti fiksēti novietojumi** — sistēmai vajadzētu izveidot slotus tikai uz novietojumiem, kas ir produkta variantam paredzēti fiksēti novietojumi.
+        - **Fiksēti un nefiksēti novietojumi**  — sistēmai nevajadzētu būt ierobežojumam izmantot tikai fiksētus novietojumus.
+        - **Tikai produktam paredzēti fiksēti novietojumi**  — sistēmai vajadzētu izveidot slotus tikai uz novietojumiem, kas ir produktam paredzēti fiksēti novietojumi.
+        - **Tikai produkta variantam paredzēti fiksēti novietojumi**  — sistēmai vajadzētu izveidot slotus tikai uz novietojumiem, kas ir produkta variantam paredzēti fiksēti novietojumi.
 
 1. Atlasiet **Saglabāt**.
-1. Atlasiet **Jauns**, lai izveidotu otro veidnes rindu.
+1. Atlasiet **Jauns** , lai izveidotu otro veidnes rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Secība:** _2_
@@ -186,15 +187,15 @@ Katrai veidnei, ko izveidojat, veiciet tālāk norādītās darbības, lai katra
 
     Otrajai rindai paredzētajā vaicājumā norādiet kritērijus, kas tiks izmantoti, lai noteiktu, kuriem novietojumiem šai rindai var izveidot pieprasījuma slotu.
 
-1. Atlasiet rindu, kur laukam **Secība** ir iestatīta vērtība *2*.
+1. Atlasiet rindu, kur laukam **Secība** ir iestatīta vērtība  *2*.
 1. Atlasiet **Rediģēt vaicājumu**.
-1. Cilnē **Diapazons** atlasiet **Pievienot**, lai režģim pievienotu rindu.
+1. Cilnē **Diapazons** atlasiet **Pievienot** , lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** *Novietojumi*
     - **Atvasinātā tabula:** *Vietas*
     - **Lauks:** *Atrašanās vietas profila ID*
-    - **Kritēriji:** *Pick-06* (atlasiet dubulto pluszīmi \[**++**\] laukā, lai izvērstu sarakstu, un pēc tam atlasiet *Pick-06* - *6. izdošanas vieta*).
+    - **Kritēriji:** *Pick-06* (atlasiet dubulto pluszīmi \[**++**\] laukā, lai izvērstu sarakstu, un pēc tam atlasiet *Pick-06* - *6. izdošanas vieta* ).
 
 1. Atlasiet **Labi**.
 
@@ -216,32 +217,32 @@ Lai atbalstītu slotu veidošanas izdošanas, ir jāiestata vismaz viena novieto
     - **Noliktava:** _61_
     - **Direktīvas kods:** _slotu veidošana_
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Rindas**.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Rindas**.
 
 ##### <a name="configure-the-lines-fasttab"></a>Rindu kopsavilkuma cilnes konfigurēšana
 
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, lai izveidotu jaunu rindu.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , lai izveidotu jaunu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **No daudzuma:** _0_
     - **Līdz daudzumam:** _1 000 000_
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Novietojuma direktīvu darbības**.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Novietojuma direktīvu darbības**.
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Novietojuma direktīvas darbību kopsavilkuma cilnes konfigurēšana
 
-1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns**, lai izveidotu rindu.
+1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns** , lai izveidotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Nosaukums:** _lielapjoma_
     - **Stratēģija:** _Nav_
 
-1. Atlasiet **Saglabāt**, lai padarītu pieejamu pogu **Rediģēt vaicājumu**.
+1. Atlasiet **Saglabāt** , lai padarītu pieejamu pogu **Rediģēt vaicājumu**.
 
 ##### <a name="edit-the-query"></a>Rediģēt vaicājumu
 
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Rediģēt vaicājumu**.
-1. Cilnē **Diapazons** atlasiet **Pievienot**, lai režģim pievienotu rindu.
+1. Cilnē **Diapazons** atlasiet **Pievienot** , lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** *Novietojumi*
@@ -266,7 +267,7 @@ Lai, izmantojot šo scenāriju, strādātu ar norādītajiem parauga ierakstiem 
 Izpildiet šīs darbības, lai izveidotu pieprasījumu, kuram lietosit slotu veidošanu.
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Pārdošanas pasūtījuma izveide** **klienta konta** laukā atlasiet _US-007_.
 1. Laukā **Noliktava** atlasiet _61_.
 1. Atlasiet **Labi**.
@@ -275,13 +276,13 @@ Izpildiet šīs darbības, lai izveidotu pieprasījumu, kuram lietosit slotu vei
     - **Krājums:** _L0101_
     - **Daudzums:** _20_
 
-1. Atlasiet **Pievienot rindu**, lai pievienotu jaunu rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Pievienot rindu** , lai pievienotu jaunu rindu, un iestatiet šādas vērtības:
 
     - **Krājums:** _T0100_
     - **Daudzums:** _8_
 
 1. Atlasiet **Saglabāt**.
-1. Atlasiet **Jauns**, lai izveidotu otro pārdošanas pasūtījumu.
+1. Atlasiet **Jauns** , lai izveidotu otro pārdošanas pasūtījumu.
 1. Dialoglodziņā **Pārdošanas pasūtījuma izveide** **klienta konta** laukā atlasiet _US-008_.
 1. Laukā **Noliktava** atlasiet _61_.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tajā ir ietverta tukša rinda kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Iestatiet šādas vērtības šai rindai:
@@ -304,14 +305,14 @@ Kad visi priekšnosacījuma elementi ir ieviesti, kā tas tika izklāstīts iepr
 
 *Slotu veidošanas pieprasījums* parāda pieprasījuma ģenerēšanas rezultātus, pamatojoties uz slotu veidošanas veidnes iestatījumu.
 
-- Darbību rūtī atlasiet **Slotu veidošanas pieprasījums**, lai skatītu rezultātus no komandas **Ģenerēt pieprasījumu**. Slotu veidošanas pieprasījumā esošās rindas var rediģēt. Varat dzēst rindu, pievienot jaunu rindu vai rediģēt detalizētu informāciju par rindu.
+- Darbību rūtī atlasiet **Slotu veidošanas pieprasījums** , lai skatītu rezultātus no komandas **Ģenerēt pieprasījumu**. Slotu veidošanas pieprasījumā esošās rindas var rediģēt. Varat dzēst rindu, pievienot jaunu rindu vai rediģēt detalizētu informāciju par rindu.
 
 > [!NOTE]
 > Pieprasījumu varat rediģēt manuāli vai to importēt no ārējās sistēmas, izmantojot datu pārvaldību. Viss, kas būs iekļauts slotu veidošanas pieprasījumā, tiks izmantots nākamajā darbībā neatkarīgi no izcelsmes vietas.
 
 #### <a name="locate-demand"></a>Atrast pieprasījumu
 
-Pēc pieprasījuma ģenerēšanas izmantojiet komandu **Meklēt pieprasījumu**, lai ģenerētu *slotu veidošanas plānu*.
+Pēc pieprasījuma ģenerēšanas izmantojiet komandu **Meklēt pieprasījumu** , lai ģenerētu *slotu veidošanas plānu*.
 
 - Darbību rūtī atlasiet **Meklēt pieprasījumu**. Tiek izpildīts slotu veidošanas process. Kad process ir pabeigts, tiek parādīts informācijas ziņojums.
 
@@ -319,11 +320,11 @@ Pēc pieprasījuma ģenerēšanas izmantojiet komandu **Meklēt pieprasījumu**,
 
 Slotu veidošanas plāns rāda novietojumu, kuram tika piešķirts katrs krājums/daudzums, vai tika izmantota pārpilde, izveidots palaišanas darbs un vai tika izmantota veidnes rinda. **Visi pieprasījumi, kuriem nevar izveidot slotu, ir izcelti sarkanā krāsā.**
 
-- Darbību rūtī atlasiet **Slotu veidošanas plāns**, lai skatītu rezultātus.
+- Darbību rūtī atlasiet **Slotu veidošanas plāns** , lai skatītu rezultātus.
 
 #### <a name="create-replenishment"></a>Papildināšana izveide
 
-Pēc slotu veidošanas plāna izveides ir jāizveido *papildināšanas darbs*, pamatojoties uz plānu.
+Pēc slotu veidošanas plāna izveides ir jāizveido *papildināšanas darbs* , pamatojoties uz plānu.
 
 - Darbību rūtī atlasiet **Palaist papildināšanu**. Kad process ir pabeigts, tiek parādīts informācijas ziņojums. Šis ziņojums norāda galveņu skaitu, kas tika izveidotas darba būvējuma ID.
 
@@ -343,7 +344,7 @@ Kad visi nepieciešamie elementi ir ieviesti, varat izpildīt tālāk norādīt�
     - Izveidot papildināšanas darbu
 
     > [!NOTE]
-    > Slotu veidošanas darbības ir progresīvas. Ja vēlaties atlasīt *Meklēt pieprasījumu*, vispirms ir jāatlasa *Ģenerēt pieprasījumu*.
+    > Slotu veidošanas darbības ir progresīvas. Ja vēlaties atlasīt *Meklēt pieprasījumu* , vispirms ir jāatlasa *Ģenerēt pieprasījumu*.
 
 1. Norādiet, kura slotu veidošanas veidne ir jāizmanto.
 1. Ja vēlaties, varat iestatīt automātisku periodiskuma izpildi.

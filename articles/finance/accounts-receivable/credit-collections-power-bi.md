@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598062"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040057"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI satura pakotne Kredītu un iekasēšanas pārvaldība
 
@@ -51,6 +51,9 @@ Lai dati tiktu rādīti darbvietas **Debitoru kredīti un iekasēšana** Power B
 3. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata** un iestatiet vienumu **Uzskaites valūta** un **Maiņas kursa tips**.
 4. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
 5. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** un atsvaidziniet apkopošanas mērījumu **CustCollectionsBIMeasurementsV2**.
+
+>[!NOTE] 
+> Novecošanas perioda definīcijas jāiestata **Debitoru parametri > Kolekcijas > Kolekciju noklusējums** , lai iespējotu novecošanas datus Power BI saturā.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 

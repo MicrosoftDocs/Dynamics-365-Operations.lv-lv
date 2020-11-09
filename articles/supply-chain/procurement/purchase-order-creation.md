@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16e6170bdc8f0adcefbe310fcbf61c06aa68f02d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018794"
 ---
 # <a name="create-purchase-orders"></a>Pirkšanas pasūtījuma izveidošana
 
@@ -38,13 +38,13 @@ Pirkšanas pasūtījumu varat arī izveidot, kopējot rindas no cita pirkšanas 
 Lai gan pirkšanas pasūtījumus varat izveidot manuāli, tie parasti tiek ģenerēti no citiem procesiem. Pasūtījumus var izveidot automātiski, pamatojoties uz citiem dokumentiem, piemēram, uz pieprasījumiem. Tos var arī izveidot galvenās plānošanas procesa ietvaros, izmantojot ieplānotos pirkšanas pasūtījumus. Ja lietojat pirkšanas līgumus, pirkšanas pasūtījumus var izveidot, izmantojot darbību **Izpildīt pasūtījumu**. Automātiskai pirkšanas pasūtījuma izveidošanai pastāv arī uzlabotākas metodes. Piemēram, pasūtījumus varat izveidot, kad lietojat tiešo piegādi vai starpuzņēmumu pasūtījumu ķēdes.
 
 ## <a name="creating-a-purchase-order-header"></a>Pirkšanas pasūtījuma virsraksta izveidošana
-Kad veidojat jaunu pirkšanas pasūtījumu, tiek atvērts dialoglodziņš, kurā varat ievadīt pirkšanas pasūtījuma virsrakstā visbiežāk izmantoto informāciju. Kad noklikšķināt uz **Labi**, lai aizvērtu šo dialoglodziņu, pasūtījums tiek izveidots, un pēc tam virsrakstā varat norādīt papildu informāciju.  
+Kad veidojat jaunu pirkšanas pasūtījumu, tiek atvērts dialoglodziņš, kurā varat ievadīt pirkšanas pasūtījuma virsrakstā visbiežāk izmantoto informāciju. Kad noklikšķināt uz **Labi** , lai aizvērtu šo dialoglodziņu, pasūtījums tiek izveidots, un pēc tam virsrakstā varat norādīt papildu informāciju.  
 
 Pirmā informācija, kas jums ir jāapsver, kad veidojat pirkšanas pasūtījumu, ir šī pasūtījuma tips. Visbiežāk tiek izmantots tips **Pirkšanas pasūtījums**. Taču, ja ir nepieciešams kredītrēķins, varat izmantot tipu **Atgrieztais pasūtījums**.  
 
 Laukā **Kreditora konts** ir jānorāda piegādātājs. Šim laukam varat meklēt pēc konta vai kreditora nosaukuma. Ja kreditors piegādā no vairākām vietām, bet izmanto vienu rēķina kontu, laukā **Rēķina konts** varat atlasīt šo rēķina kontu un pēc tam to izmantot ar dažādiem kreditora kontiem. Ja ir jāizveido pirkšanas pasūtījums precēm, kas netiks pasūtītas atkārtoti, varat izmantot opciju **Vienreizējs piegādātājs**. Šī opcija automātiski izveido jaunu kreditora kontu, kas ir atzīmēts kā vienreizējs konts, lai atbalstītu vēlāku tīrīšanas procesu vienreizējiem kontiem modulī **Kreditori**. Kad atlasāt kādu kreditora kontu, daudzi lauki pirkšanas pasūtījuma virsrakstā pārmanto noklusējuma vērtības no informācijas, kas ir saistīta ar šo kreditora kontu. No šī kreditora informācijas tiek kopēta, piemēram, noklusējuma piegādes vieta un noliktava. Taču šīs noklusējuma vērtības varat ignorēt, ja pirkums ir paredzēts citai vietai.  
 
-Ja piegādātājs pasūtījumam ir norādījis atsauces numuru, šo informāciju varat ierakstīt laukā **Kreditora atsauce**. Atgrieztajiem pasūtījumiem jums ir jānorāda vērtība laukā **AKA**, lai atsauktos uz piegādātāja autorizāciju atgriešanas apstrādei.  
+Ja piegādātājs pasūtījumam ir norādījis atsauces numuru, šo informāciju varat ierakstīt laukā **Kreditora atsauce**. Atgrieztajiem pasūtījumiem jums ir jānorāda vērtība laukā **AKA** , lai atsauktos uz piegādātāja autorizāciju atgriešanas apstrādei.  
 
 Ja ar pasūtījumu ir saistīts kāds pirkšanas līgums, jums šī informācija ir jānorāda laukā **Pirkšanas līgums**.  
 
@@ -63,23 +63,23 @@ Varat apskatīt detalizētu informāciju par krājumu transakcijas statusu attie
 
 Pirkšanas pasūtījuma rindai, kas tiek lietota, lai preci atgrieztu kreditoram, ir negatīvs daudzums. Atgriešanai varat atlasīt konkrētu laidienu, izmantojot darbību **Rezervācija**.  
 
-Reizēm var būt nepieciešamība sadalīt pasūtīto daudzumu, lai dažādas daļas tiktu piegādātas dažādos datumos. Šādas piegādes var iestatīt, izmantojot darbību **Piegādes grafiks**, kas ir pieejama izvēlnē **Pirkšanas pasūtījuma rinda**, skatā **Rindas**.  
+Reizēm var būt nepieciešamība sadalīt pasūtīto daudzumu, lai dažādas daļas tiktu piegādātas dažādos datumos. Šādas piegādes var iestatīt, izmantojot darbību **Piegādes grafiks** , kas ir pieejama izvēlnē **Pirkšanas pasūtījuma rinda** , skatā **Rindas**.  
 
-Maksas var automātiski pievienot pirkšanas pasūtījuma rindām, ja šim kreditoram vai kreditoru maksu grupai un krājumam vai krājumu maksu grupai ir iestatītas automātiskās maksas. Taču parasti maksas tiek manuāli pievienotas pasūtījuma rindas līmenī. Lai pievienotu maksu, atveriet lapu **Uzturēt maksas**, izmantojot darbību **Uzturēt maksas** izvēlnē **Finanšu dati**, skatā **Rindas**. Priekšrocība maksu pievienošanai tieši pasūtījuma rindas līmenī ir tāda, ka šo maksu var piešķirt kā krājuma maksu. Lai iestatītu maksu kodus preces maksu uzskaitīšanas nolūkos, izmantojiet debeta opciju **Krājums**. Šāda tipa maksas no pirkšanas pasūtījuma virsraksta ir jāpiešķir rindām, un tikai pēc tam pasūtījumu var apstiprināt. Piemēram, jūs vēlaties piešķirt maksas, pamatojoties uz daudzumu katrā rindā. Maksu kategorija arī ietekmē veidu, kādā maksas tiek iekļautas uzskaitē. Piemēram, fiksētas maksas norāda fiksētu summu, bet procentu maksas tiek aprēķinātas kā procentuāls daudzums no neto summas pasūtījuma rindai. Pirkšanas pasūtījumus var piešķirt kravai, un krava var ietvert paredzamo izdevumu novērtējumu par transportēšanas maksu. Šos izdevumus no kravas varat piešķirt atpakaļ pirkšanas pasūtījuma rindām.
+Maksas var automātiski pievienot pirkšanas pasūtījuma rindām, ja šim kreditoram vai kreditoru maksu grupai un krājumam vai krājumu maksu grupai ir iestatītas automātiskās maksas. Taču parasti maksas tiek manuāli pievienotas pasūtījuma rindas līmenī. Lai pievienotu maksu, atveriet lapu **Uzturēt maksas** , izmantojot darbību **Uzturēt maksas** izvēlnē **Finanšu dati** , skatā **Rindas**. Priekšrocība maksu pievienošanai tieši pasūtījuma rindas līmenī ir tāda, ka šo maksu var piešķirt kā krājuma maksu. Lai iestatītu maksu kodus preces maksu uzskaitīšanas nolūkos, izmantojiet debeta opciju **Krājums**. Šāda tipa maksas no pirkšanas pasūtījuma virsraksta ir jāpiešķir rindām, un tikai pēc tam pasūtījumu var apstiprināt. Piemēram, jūs vēlaties piešķirt maksas, pamatojoties uz daudzumu katrā rindā. Maksu kategorija arī ietekmē veidu, kādā maksas tiek iekļautas uzskaitē. Piemēram, fiksētas maksas norāda fiksētu summu, bet procentu maksas tiek aprēķinātas kā procentuāls daudzums no neto summas pasūtījuma rindai. Pirkšanas pasūtījumus var piešķirt kravai, un krava var ietvert paredzamo izdevumu novērtējumu par transportēšanas maksu. Šos izdevumus no kravas varat piešķirt atpakaļ pirkšanas pasūtījuma rindām.
 
 ## <a name="purchase-order-actions"></a>Pirkšanas pasūtījuma darbības
 Kad pirkšanas pasūtījumam esat pievienojis virsrakstu un rindas, bieži vien ir nepieciešams izpildīt papildu darbības, pirms pasūtījums ir gatavs apstiprināšanai. Tā kā ir pieejams daudz iespēju, var būt noderīgi izmantot funkciju [Darbību meklēšana](../../fin-and-ops/get-started/action-search.md), lai atrastu atbilstošo izvēlnes vienumu.  
 
-Pasūtījumos preces varat konfigurēt tā, lai tām būtu papildu krājumi. Papildu krājumi ir preces, kas ir jāiegādājas kopā vai kuras var iegādāties kopā ar citām precēm. Papildu preces var pievienot bez maksas kā pavadošās preces, kā arī jums var būt iespēja izlemt, vai kādu preci pievienot pasūtījumam vai ne. Papildu krājumus varat pārskatīt pēc katras pievienotās pasūtījuma rindas. Taču droši vien jums būs ērtāk atbilstošos papildu krājumus pārskatīt un pievienot visām pasūtījuma rindām, izmantojot lapu **Papildu krājumi**, kuru varat atvērt no darbību rūts.  
+Pasūtījumos preces varat konfigurēt tā, lai tām būtu papildu krājumi. Papildu krājumi ir preces, kas ir jāiegādājas kopā vai kuras var iegādāties kopā ar citām precēm. Papildu preces var pievienot bez maksas kā pavadošās preces, kā arī jums var būt iespēja izlemt, vai kādu preci pievienot pasūtījumam vai ne. Papildu krājumus varat pārskatīt pēc katras pievienotās pasūtījuma rindas. Taču droši vien jums būs ērtāk atbilstošos papildu krājumus pārskatīt un pievienot visām pasūtījuma rindām, izmantojot lapu **Papildu krājumi** , kuru varat atvērt no darbību rūts.  
 
 Atlaides parasti tiek pievienotas rindām to izveidošanas laikā. Taču dažas atlaides attiecas uz visu pasūtījumu.
 
 -   Darbība **Kopējā atlaide** aprēķina kopējo atlaides procentuālo daudzumu, kas tiek lietots pilnajam pasūtījumam. Nejauciet šo atlaidi ar termiņatlaides procentiem. Termiņatlaides tiek lietotas, kad rēķins ir samaksāts, un tās ir atkarīgas no maksājuma nosegšanas līdz noteiktam datumam.
--   Ja ir spēkā daudzrindu atlaide, jums ir jālieto darbība **Daudzrindu atlaide**, lai to aprēķinātu un piešķirtu pasūtījumam. Daudzrindu atlaides ir atlaides, ko var piedāvāt, ja pasūtīto dažādo preču apjoms pārsniedz kopīgu slieksni. Šāda tipa atlaidi izmanto tikai daži uzņēmumi.
+-   Ja ir spēkā daudzrindu atlaide, jums ir jālieto darbība **Daudzrindu atlaide** , lai to aprēķinātu un piešķirtu pasūtījumam. Daudzrindu atlaides ir atlaides, ko var piedāvāt, ja pasūtīto dažādo preču apjoms pārsniedz kopīgu slieksni. Šāda tipa atlaidi izmanto tikai daži uzņēmumi.
 
-Maksas ar tādu maksas kodu, kas izmanto debeta tipu **Krājums**, ir jāpiešķir rindas līmenim, pirms pasūtījumu var apstiprināt. Jums var būt ērtāk šīs maksas piešķirt pasūtījuma virsraksta līmenī, lai varētu norādīt maksas kopējo summu. Taču šādā gadījumā maksa pēc tam ir jāsadala uz leju katrai rindai, pirms pasūtījumu var apstiprināt. Varat izmantot darbību **Sadalīt maksas**, lai summas no virsraksta līmenī piešķirtajām maksām sadalītu līdz pasūtījuma rindām. Maksas var sadalīt atbilstoši katras rindas neto summai, atbilstoši pasūtītajam daudzumam vai vienmērīgi sadalīt visām pasūtījuma rindām. Kad maksas ir piešķirtas rindām, šī maksa tiek noņemta no pasūtījuma virsraksta.  
+Maksas ar tādu maksas kodu, kas izmanto debeta tipu **Krājums** , ir jāpiešķir rindas līmenim, pirms pasūtījumu var apstiprināt. Jums var būt ērtāk šīs maksas piešķirt pasūtījuma virsraksta līmenī, lai varētu norādīt maksas kopējo summu. Taču šādā gadījumā maksa pēc tam ir jāsadala uz leju katrai rindai, pirms pasūtījumu var apstiprināt. Varat izmantot darbību **Sadalīt maksas** , lai summas no virsraksta līmenī piešķirtajām maksām sadalītu līdz pasūtījuma rindām. Maksas var sadalīt atbilstoši katras rindas neto summai, atbilstoši pasūtītajam daudzumam vai vienmērīgi sadalīt visām pasūtījuma rindām. Kad maksas ir piešķirtas rindām, šī maksa tiek noņemta no pasūtījuma virsraksta.  
 
-Pirkšanas pasūtījumus var konfigurēt tā, lai budžeta līdzekļi tiktu piešķirti pasūtījumam, pirms to var apstrādāt. Šādā gadījumā varat izmantot darbību **Budžeta pārbaudīšana**, lai piešķirtu budžetu.  
+Pirkšanas pasūtījumus var konfigurēt tā, lai budžeta līdzekļi tiktu piešķirti pasūtījumam, pirms to var apstrādāt. Šādā gadījumā varat izmantot darbību **Budžeta pārbaudīšana** , lai piešķirtu budžetu.  
 
 Iespējams, pirkšanas pasūtījuma izpildi ir nepieciešams aizkavēt. Piemēram, jums var būt nepieciešama papildu informācija par precēm vai pakalpojumiem, vai jums ir nepieciešams saņemt autorizāciju tēriņiem. Pasūtījumu var aizturēt vairākos veidos. Piemēram, varat gaidīt, pirms apstiprināt šo pasūtījumu. Vai, ja tiek izmantota izmaiņu pārvaldības darbplūsma, varat šo pasūtījumu neiesniegt apstiprināšanai. Ja ir nepieciešams bloķēt visus pasūtījumus kādam noteiktam kreditoram, kreditoru šablonā šo kreditoru varat arī atzīmēt apstrādei kā **Aizturēts**. Pastāv arī apstākļi, kas varētu novērst pasūtījuma apstrādāšanu. Piemēram, pārstrādāšana varētu tikt novērsta, ja ir pārsniegts kredīta limits vai ja nav pieejami nepieciešamie budžeta līdzekļi.
 

@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5052957a2f4e59791ef02c12bc2aef5ed36e95c7
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022084"
 ---
 # <a name="social-share-module"></a>Sociālās koplietošanas modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā tiek stāstīts par sociālās koplietošanas moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
@@ -54,27 +53,27 @@ Sekojošajā attēlā ir parādīts sociālās koplietošanas moduļa piemērs, 
 ## <a name="social-share-item-module-properties"></a>Sociālās koplietošanas vienuma moduļa rekvizīti
 | Rekvizīta nosaukums             | Vērtība                 | Apraksts |
 |---------------------------|-----------------------|-------------|
-| Sociālie mediji              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Mail** | Nolaižamā izvēlne ar sociālo mediju platformu sarakstu. |
+| Sociālie mediji              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **Mail** | Nolaižamā izvēlne ar sociālo mediju platformu sarakstu. |
 | Icon |Attēls    | Tas būs attēls, kas tiks rādīta attiecīgajiem sociālajiem medijiem. Lai iegūtu ieteicamo attēlu, ko izmantot katrai platformai, skatiet sociālo mediju platformas SDK. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Sociālās koplietošanas moduļa pievienošana pirkšanas lodziņa modulim
 
 Lai pirkšanas lodziņa modulim pievienotu sociālās koplietošanas moduli, veiciet tālāk norādītās darbības.
 
-1. Vietnē Fabrikam atlasiet **Lapas** un pēc tam atlasiet lapu **DefaultPDP**, lai atvērtu informāciju par preču lapu. 
-1. Slotā **Buybox (obligāti)** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Vietnē Fabrikam atlasiet **Lapas** un pēc tam atlasiet lapu **DefaultPDP** , lai atvērtu informāciju par preču lapu. 
+1. Slotā **Buybox (obligāti)** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Sociālā koplietošana** un pēc tam atlasiet **Labi**.
-1. Slotā **Sociālā koplietošana** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Slotā **Sociālā koplietošana** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **SocialShare** un pēc tam atlasiet **Labi**.
 1. Moduļa **SocialShare** rekvizītu rūtī, sadaļā **Orientācija** atlasiet **Horizontāli**. Pēc nepieciešamības, pievienojiet parakstu.
-1. Slotā **SocialShare** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Slotā **SocialShare** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **SocialShareItem** un pēc tam atlasiet **Labi**.
 1. Moduļa **SocialShareItem** rekvizītu rūtī, sadaļā **Sociālie mediji** atlasiet **Facebook**.
 1. Moduļa **SocialShareItem** rekvizītu rūtī, sadaļā **Ikona** atlasiet **+ Pievienot attēlu**.
-1. Dialoglodziņā **Multivides atlasītājs** atlasiet logotipa attēlu Facebook un pēc tam atlasiet **Labi**. Ja nav Facebook logotipa attēla, atlasiet **Augšupielādēt jaunu multivides vienumu**, lai augšupielādētu šo vienumu.
+1. Dialoglodziņā **Multivides atlasītājs** atlasiet logotipa attēlu Facebook un pēc tam atlasiet **Labi**. Ja nav Facebook logotipa attēla, atlasiet **Augšupielādēt jaunu multivides vienumu** , lai augšupielādētu šo vienumu.
 1. Pēc nepieciešamības pievienojiet un konfigurējiet papildu **SocialShareItem** moduļus.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu. Lapā tiks parādīts sociālās koplietošanas modulis.
-1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu. Lapā tiks parādīts sociālās koplietošanas modulis.
+1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

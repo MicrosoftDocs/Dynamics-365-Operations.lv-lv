@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d712cc3ebdc959d1fee4a2a79e3283b84f0b901a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017081"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildināšana ar atvilkumu Kanban
 
@@ -54,7 +54,7 @@ Nākamajā scenārijā ir parādīta uz vilkšanu balstīta papildināšanas sis
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Konfigurēt noliktavas darbu Kanban izdošanai attiecībā uz atvilkumu Kanban
 
-Lai iespējotu izejmateriālu izdošanu atvilkumu Kanban darbam, konfigurējiet kopuma veidnes, darba veidnes un novietojuma direktīvas darba pasūtījuma tipam **Kanban izdošana**. Šis darba pasūtījuma tips atbalsta ne tikai izdošanas procesu atvilkumu Kanban darbam. Tas atbalsta arī izdošanas procesu ražošanas Kanban darbam. Taču katram Kanban tipam varat konfigurēt atsevišķu izdošanas procesu, atdalot kopuma veidnes, darba veidnes un novietojuma direktīvas. Lai nodalītu laidiena veidnes, darba veidnes un novietojuma direktīvas, šo elementu vaicājumos iestatiet kritēriju aktivitāšu tipam (**Process** vai **Pārsūtīšana**).
+Lai iespējotu izejmateriālu izdošanu atvilkumu Kanban darbam, konfigurējiet kopuma veidnes, darba veidnes un novietojuma direktīvas darba pasūtījuma tipam **Kanban izdošana**. Šis darba pasūtījuma tips atbalsta ne tikai izdošanas procesu atvilkumu Kanban darbam. Tas atbalsta arī izdošanas procesu ražošanas Kanban darbam. Taču katram Kanban tipam varat konfigurēt atsevišķu izdošanas procesu, atdalot kopuma veidnes, darba veidnes un novietojuma direktīvas. Lai nodalītu laidiena veidnes, darba veidnes un novietojuma direktīvas, šo elementu vaicājumos iestatiet kritēriju aktivitāšu tipam ( **Process** vai **Pārsūtīšana** ).
 
 ## <a name="configure-the-withdrawal-kanban"></a>Konfigurēt atvilkumu Kanban darbu
 

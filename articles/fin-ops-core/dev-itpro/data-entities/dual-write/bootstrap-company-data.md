@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172927"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997580"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Sāknēšana ar uzņēmuma datu BUJ
  
@@ -57,11 +56,11 @@ Pēc atspiešanas un risinājuma atvēršanas programmā Visual Studio un NuGet 
 Parauga kods parāda tikai vienu no daudzajiem veidiem, kā var kategorizēt elementa ierakstus pēc uzņēmuma. Mainot loģiku **TODO** sadaļās, varat izveidot pielāgotu kategorizēšanu. 
  
 ## <a name="what-should-i-expect"></a>Ko sagaidīt?
-Pēc noklusējuma parauga programma ļauj norādīt biznesa vienības un uzņēmuma koda kartējumu vārdnīcu. Jebkurš elements, ko sāknējat ar lauku **OwningBusinessUnit**, tiek automātiski iestatīts, lai izmantotu norādīto uzņēmumu. Jebkurš elements bez lauka **OwningBusinessUnit**, piemēram, prece, tiks iestatīts uzņēmumam, pamatojoties uz kartēšanu ar tukšu biznesa vienības vērtību.
+Pēc noklusējuma parauga programma ļauj norādīt biznesa vienības un uzņēmuma koda kartējumu vārdnīcu. Jebkurš elements, ko sāknējat ar lauku **OwningBusinessUnit** , tiek automātiski iestatīts, lai izmantotu norādīto uzņēmumu. Jebkurš elements bez lauka **OwningBusinessUnit** , piemēram, prece, tiks iestatīts uzņēmumam, pamatojoties uz kartēšanu ar tukšu biznesa vienības vērtību.
 
-Konsoles programmai ir paredzēts viens parametrs — **–simulēt** vai **– lietot**. Ja izmantojat komandrindas parametru **-simulēt**, tad dati netiek atjaunināti. Tiek ģenerēti tikai **simulation_<entityname>.csv** faili tajā pašā direktorijā kur rīks — viens katram elementam, kas būtu ticis atjaunināts. Strādājot varat iteratīvi pārskatīt šos failus, lai nodrošinātu, ka kods atjaunina uzņēmuma vērtības, kā paredzēts. 
+Konsoles programmai ir paredzēts viens parametrs — **–simulēt** vai **– lietot**. Ja izmantojat komandrindas parametru **-simulēt** , tad dati netiek atjaunināti. Tiek ģenerēti tikai **simulation_<entityname>.csv** faili tajā pašā direktorijā kur rīks — viens katram elementam, kas būtu ticis atjaunināts. Strādājot varat iteratīvi pārskatīt šos failus, lai nodrošinātu, ka kods atjaunina uzņēmuma vērtības, kā paredzēts. 
 
-Kad pabeidzat darbu ar simulētajiem atjauninājumiem, pēc tam izmantojiet parametru **–lietot**. Tas atjaunina visus ierakstus, kuriem pašlaik ir nepareiza uzņēmuma vērtība, vienlaikus 1000 ierakstu partijās (pēc noklusējuma). Kods ir idempotents kā norādīts, un tas nozīmē, ka to var atkārtoti palaist, un tiks atjaunināti tikai nepareizi piešķirtie uzņēmumi. Palaižot ar **–lietot**, koda izvade ir veikto izmaiņu CSV faili, kuru nosaukums ir **applied_<entityname>.csv**. 
+Kad pabeidzat darbu ar simulētajiem atjauninājumiem, pēc tam izmantojiet parametru **–lietot**. Tas atjaunina visus ierakstus, kuriem pašlaik ir nepareiza uzņēmuma vērtība, vienlaikus 1000 ierakstu partijās (pēc noklusējuma). Kods ir idempotents kā norādīts, un tas nozīmē, ka to var atkārtoti palaist, un tiks atjaunināti tikai nepareizi piešķirtie uzņēmumi. Palaižot ar **–lietot** , koda izvade ir veikto izmaiņu CSV faili, kuru nosaukums ir **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

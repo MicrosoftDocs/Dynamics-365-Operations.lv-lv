@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410417"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107188"
 ---
 # <a name="set-up-a-call-center-channel"></a>Zvanu centra kanāla iestatīšana
 
@@ -88,15 +88,15 @@ Tālāk esošajā attēlā ir parādīts skaidras naudas maksājuma piemērs.
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
-Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi**, kas atrodas **Darbību rūtī**.  
+Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi** , kas atrodas **Darbību rūtī**.  
 
 Lai mainītu vai pievienotu piegādes veidu, kas ir jāsaista ar zvanu centra kanālu, veiciet tālāk aprakstītās darbības.
 
 1. Veidlapā Zvanu centra piegādes veidi atlasiet **Pārvaldīt piegādes veidus**
-1. Darbības rūtī atlasiet **Jauns**, lai izveidotu jaunu piegādes režīmu, vai atlasiet esošu režīmu.
-1. Sadaļā **Mazumtirdzniecības kanāli** noklikšķiniet uz **Pievienot rindu**, lai pievienotu zvanu centra kanālu. Kanālu pievienošana, izmantojot organizācijas mezglus, nevis pievienojot katru kanālu atsevišķi, var racionalizēt kanālu pievienošanu.
+1. Darbības rūtī atlasiet **Jauns** , lai izveidotu jaunu piegādes režīmu, vai atlasiet esošu režīmu.
+1. Sadaļā **Mazumtirdzniecības kanāli** noklikšķiniet uz **Pievienot rindu** , lai pievienotu zvanu centra kanālu. Kanālu pievienošana, izmantojot organizācijas mezglus, nevis pievienojot katru kanālu atsevišķi, var racionalizēt kanālu pievienošanu.
 1. Pārliecinieties, ka piegādes veids ir konfigurēts ar datiem kopsavilkuma cilnē **Preces** un kopsavilkuma cilnē **Adreses**. Ja preces vai piegādes adreses nav derīgas piegādes veidam, izvēloties tās pasūtījuma izveides laikā, radīsies kļūdas.
-1. Pēc tam, kad ir veiktas visas izmaiņas zvanu centra piegādes veida konfigurācijās, ir jāpalaiž darbs **Piegādes veidu apstrāde**, lai izvērstu izmaiņu matricu. Šo darbu var atrast, pārvietojoties uz sadaļu **Retail un Commerce \>Retail un Commerce IT \> Apstrādāt piegādes veidus**.
+1. Pēc tam, kad ir veiktas visas izmaiņas zvanu centra piegādes veida konfigurācijās, ir jāpalaiž darbs **Piegādes veidu apstrāde** , lai izvērstu izmaiņu matricu. Šo darbu var atrast, pārvietojoties uz sadaļu **Retail un Commerce \>Retail un Commerce IT \> Apstrādāt piegādes veidus**.
 
 Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
@@ -106,9 +106,9 @@ Tālāk redzamajā attēlā parādīts piegādes režīma piemērs.
 
 Lai izveidotu pārdošanas pasūtījumu, kas ir saistīts ar zvanu centra kanālu no Commerce Headquarters, lietotājam, kas veido pārdošanas pasūtījumu, ir jābūt saistītam ar zvanu centra kanālu. Lietotājs nevar manuāli saistīt pārdošanas pasūtījumu, kas izveidots Commerce Headquarters, ar zvanu centra kanālu. Saite ir sistemātiska, un tā ir balstīta uz lietotāju un lietotāja attiecībām ar zvanu centra kanālu. Lietotājs var būt saistīts tikai ar vienu zvanu centra kanālu.
 
-1. Darbības rūtī atlasiet cilni **Kanāls**, pēc tam atlasiet **Kanāla lietotāji**.
+1. Darbības rūtī atlasiet cilni **Kanāls** , pēc tam atlasiet **Kanāla lietotāji**.
 1. Darbību rūtī atlasiet **Jauns**.
-1. Nolaižamajā atlases sarakstā izvēlieties esošu **Lietotāja ID**, lai saistītu šo lietotāju ar zvanu centra kanālu
+1. Nolaižamajā atlases sarakstā izvēlieties esošu **Lietotāja ID** , lai saistītu šo lietotāju ar zvanu centra kanālu
 
 Pēc kanāla lietotāja iestatīšanas un jauna pārdošanas pasūtījuma izveides programmā Commerce Headquarters, pārdošanas pasūtījumu saistīs ar saistīto zvanu centra kanālu. Visas konfigurācijas šim kanālam tiks sistemātiski piemērotas pārdošanas pasūtījumam. Lietotājs var apstiprināt, kurš zvanu centra kanāls ir saistīts ar pārdošanas pasūtījumu, skatot kanāla nosaukuma atsauci pārdošanas pasūtījuma galvenē.
 
@@ -119,7 +119,7 @@ Cenu grupas ir obligātas, bet, ja tās tiek izmantotas, tās var kontrolēt, ku
 
 Lai iestatītu cenu grupu, rīkojieties šādi:
 
-1. Darbības rūtī noklikšķiniet uz cilnes **Kanāls**, pēc tam atlasiet **Cenu grupas**.
+1. Darbības rūtī noklikšķiniet uz cilnes **Kanāls** , pēc tam atlasiet **Cenu grupas**.
 1. Darbību rūtī noklikšķiniet uz **Jauns**.
 1. Nolaižamajā atlases sarakstā atlasiet **Mazumtirdzniecības cenu grupa**.
 

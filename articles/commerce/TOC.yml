@@ -94,12 +94,10 @@
                       href: get-started/whats-new-home-page.md
                     - name: "Commerce 10.0.15 (2021.\_gada janvāris)"
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: "Commerce 10.0.14 (2020.\_gada novembris)"
+                    - name: "Commerce\_10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-commerce-10-0-14.md
-                    - name: "Commerce 10.0.13 (2020.\_gada oktobris)"
+                    - name: "Commerce\_10.0.13 (2020.\_gada oktobris)"
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: "Commerce 10.0.12 (2020.\_gada augusts)"
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -262,9 +260,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Vides plānošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Sagatavošana publicēšanai
+                - name: Sagatavošanās līdzeklim Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Bieži uzdotie jautājumi par palaišanu
+                - name: Bieži uzdotie jautājumi par Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: Pakalpojuma pieprasījuma iesniegšana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Navigācijas izvēlnes modulis
                       href: nav-menu-module.md
+                    - name: Vietņu atlasītāja modulis
+                      href: site-selector.md
                 - name: Atbilstības moduļi
                   items:
                     - name: Sīkfailu piekrišanas modulis
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Moduļa anatomija
                   items:
+                    - name: Moduļu pārskats
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Moduļa definīciju fails
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Moduļa reakcijas komponenta fails
@@ -2030,16 +2032,22 @@
                       href: e-commerce-extensibility/app-settings.md
                     - name: Moduļa definīcijas paplašināšana
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: "Sīkfailu\_API apskats"
+                    - name: "Sīkfailu\_API pārskats"
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Interaktīvo komponentu pārskats
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Atveidot pierakstīšanās stāvokli lokālās izstrādes laikā
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: 'Moduļu globalizēšana, izmantojot CultureInfoFormatter klasi'
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Azure Key Vault iestatīšana drošai atslēgu pārvaldībai
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Datu darbību izstrāde
                   items:
-                    - name: Datu darbību apskats
+                    - name: Datu darbību pārskats
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Datu darbību kešatmiņas opcijas
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: Datu darbību pārbaude ar pārbaudes objektiem
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Lapas ielādes datu darbības
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: 'Dizaina paplašināšana, lai pievienotu moduļa paplašinājumus'
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Moduļu bibliotēkas komponenta ignorēšana motīvā
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Dizaina paplašināšana no bāzes dizaina
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Pielāgotu resursu pievienošana jūsu pielāgošanas kodam
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK un moduļu bibliotēkas atjauninājumi
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Paraugprakses
+                  items:
+                    - name: Paraugprakses Dynamics 365 Commerce izstrādei
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: "Retail\_SDK"
               items:
                 - name: "Retail\_SDK arhitektūra"
@@ -2197,7 +2211,7 @@
                 - name: "Retail\_Typescript un C#\_starpniekserveri"
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Retail Server API patēriņš ārējās lietojumprogrammās
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: "Commerce Runtime\_(CRT) paplašināmība"
               items:
                 - name: CRT arhitektūra un konfigurēšana

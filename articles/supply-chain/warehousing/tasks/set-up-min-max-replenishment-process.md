@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence
+ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016728"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.-maks. papildināšanas procesa iestatīšana
 
@@ -90,7 +90,7 @@ ms.locfileid: "3383577"
 9. Sarakstā atzīmējiet atlasīto rindu.
 10. Laukā **Papildināšanas vienība** ievadiet vai atlasiet kādu vērtību. Piemēram, atlasiet gab. Šis iestatījums ir obligāts. Tas ļauj norādīt citu mērvienību papildināšanas darbam, salīdzinājumā ar vienību, kas ir norādīta minimālā un maksimālā krājumu līmeņiem šajā veidnē.
 11. Laukā **Darba veidne** ievadiet vai atlasiet kādu vērtību. Atrodiet iepriekš izveidoto darba veidni.  
-12. Laukā **Minimālais daudzums** ievadiet skaitli. Atlasiet minimālo daudzumu, kam vajadzētu aktivizēt papildināšanu. Piemēram, iestatiet to uz 50. Ir iespējams atstāt šo iestatījumu uz nulli, ja papildināt fiksētu atrašanās vietu, un opcija **Papildināt tukšas fiksētas atrašanās vietas** ir iestatīta uz 'Jā'. Ieteicams arī atlasīt opciju **Papildināt tikai fiksētas atrašanās vietas**, lai uzlabotu veiktspēju.
+12. Laukā **Minimālais daudzums** ievadiet skaitli. Atlasiet minimālo daudzumu, kam vajadzētu aktivizēt papildināšanu. Piemēram, iestatiet to uz 50. Ir iespējams atstāt šo iestatījumu uz nulli, ja papildināt fiksētu atrašanās vietu, un opcija **Papildināt tukšas fiksētas atrašanās vietas** ir iestatīta uz 'Jā'. Ieteicams arī atlasīt opciju **Papildināt tikai fiksētas atrašanās vietas** , lai uzlabotu veiktspēju.
 13. Laukā **Maksimālais daudzums** ievadiet skaitli. Piemēram, iestatiet to uz 100.  
 14. Laukā **Vienība** ievadiet vai atlasiet kādu vērtību. Piešķiriet vienību minimālajam un maksimālajam daudzumam. Piemēram, iestatiet to uz gab.  
 15. Atzīmējiet izvēles rūtiņu **Papildināt tukšas fiksētas atrašanās vietas**. Atzīmējiet šo izvēles rūtiņu, lai papildinātu fiksētas atrašanās vietas, kad tās ir tukšas. Pretējā gadījumā tiek papildināti tikai tie novietojumi, kur pastāv rīcībā esošs daudzums.

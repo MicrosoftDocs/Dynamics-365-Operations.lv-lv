@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275537"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997378"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations lietojumprogrammās
 
@@ -37,7 +36,7 @@ ms.locfileid: "3275537"
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Nevar ielādēt duālā ieraksta moduli Finance and Operations lietojumprogrammā
 
-Ja nevarat atvērt lapu **Duālais ieraksts**, atlasot elementu **Duālais ieraksts** darbvietā **Datu pārvaldība**, visticamāk nedarbojas datu integrācijas pakalpojums. Izveidojiet atbalsta biļeti, lai pieprasītu datu integrācijas pakalpojuma restartēšanu.
+Ja nevarat atvērt lapu **Duālais ieraksts** , atlasot elementu **Duālais ieraksts** darbvietā **Datu pārvaldība** , visticamāk nedarbojas datu integrācijas pakalpojums. Izveidojiet atbalsta biļeti, lai pieprasītu datu integrācijas pakalpojuma restartēšanu.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Kļūda, mēģinot izveidot jaunu elementa karti
 
@@ -62,7 +61,7 @@ Lai labotu problēmu, piesakieties, izmantojot InPrivate logu pakalpojumā Micro
 
 Sasaistot vai veidojot kartes, var rasties šādas kļūdas:
 
-*Atbildes statusa kods nenorāda uz izdošanos: 403 (tokenexchange). <br>Sesijas ID: \<jūsu sesijas id\><br> saknes aktivitātes ID \<jūsu saknes aktivitātes id\>*
+*Atbildes statusa kods nenorāda uz izdošanos: 403 (tokenexchange).<br> Sesijas ID: \<your session id\><br> saknes aktivitātes ID: \<your root activity id\>*
 
 Šī kļūda var rasties, ja jums nav nepieciešamo atļauju, lai saistītu duālo ierakstu vai izveidotu kartes. Šī kļūda var parādīties arī tad, ja Common Data Service vide ir atiestatīta, nesaistot duālo rakstīšanu. Ikviens lietotājs ar sistēmas administratora lomu abās Finance and Operations lietojumprogrammās un Common Data Service var saistīt vides. Tikai lietotājs, kas iestatījis duālās rakstīšanas savienojumu, var pievienot jaunas elementa kartes. Pēc iestatīšanas jebkurš lietotājs ar sistēmas administratora lomu var pārraudzīt statusu un rediģēt kartēšanas.
 
@@ -78,7 +77,7 @@ Lai atrisinātu problēmu, izveidojiet biļeti datu integrācijas grupai. Pievie
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Kļūda, mēģinot sākt elementa kartēšanu
 
-Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parādīta šāda kļūda:
+Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas** , var tikt parādīta šāda kļūda:
 
 *Nevar pabeigt sākotnējo datu sinhronizāciju. Kļūda: duālās rakstīšanas kļūme - spraudņa reģistrācija neizdevās: nevar izveidot duālās rakstīšanas uzmeklēšanas metadatus. Kļūdas objekta atsauce nav iestatīta uz objekta instanci.*
 

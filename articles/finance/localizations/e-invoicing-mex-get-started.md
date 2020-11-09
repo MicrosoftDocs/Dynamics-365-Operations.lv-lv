@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d719c3ba68458130d415c50319fdcdeafcfc783e
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835995"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039826"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Sākt ar elektronisko rēķinu pievienojumu Meksikai
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Elektronisko rēķinu pievienojums Meksikai pašlaik var nenodrošināt visas funkcijas, kas ir pieejamas Microsoft Dynamics 365 Finance vai Dynamics 365 Supply Chain Management iebūvētajā Comprobante Fiscal Digital por Internet (CFDI) dokumentu integrācijā un saistītajā integrācijā.
@@ -55,10 +54,10 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 1. Piesakieties savā RCS kontā.
 2. Darbvietā **Globalizācijas līdzekļi** sadaļā **Līdzekli** atlasiet elementu **e-rēķinu izrakstīšana**.
-3. Lapā **E-rēķina līdzekļi** atlasiet **Importēt**, lai importētu līdzekli **CFDI rēķini (MX)** no Globālās krātuves.
+3. Lapā **E-rēķina līdzekļi** atlasiet **Importēt** , lai importētu līdzekli **CFDI rēķini (MX)** no Globālās krātuves.
 
     > [!NOTE]
-    > Ja sarakstā neredzat līdzekli, atlasiet **Sinhronizēt**un pēc tam atkārtojiet 3. darbību.
+    > Ja sarakstā neredzat līdzekli, atlasiet **Sinhronizēt** un pēc tam atkārtojiet 3. darbību.
 
 ![CFDI rēķinu (MX) līdzekļa importēšana](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
@@ -74,7 +73,7 @@ Varat izveidot jaunu versiju, ja, piemēram, ir jāatjaunina URL. Plašāku info
 
 ### <a name="update-the-configuration-version"></a>Atjaunināt konfigurācijas versiju
 
-1. Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Konfigurācijas** vai **Dzēst**, lai pārvaldītu konfigurāciju versijas (ER failu formātu konfigurācijas).
+1. Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Konfigurācijas** vai **Dzēst** , lai pārvaldītu konfigurāciju versijas (ER failu formātu konfigurācijas).
 
     ![E-rēķinu izrakstīšanas līdzekļa konfigurāciju pārvaldība](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
@@ -86,7 +85,7 @@ Varat izveidot jaunu versiju, ja, piemēram, ir jāatjaunina URL. Plašāku info
     - CFDI atcelšanas pieprasījums (MX) (BusinessDocumentService)
     - CFDI rēķins (BusinessDocumentService)
 
-2. Sarakstā atlasiet konfigurācijas versiju un pēc tam atlasiet **Rediģēt** vai **Skatīt**, lai atvērtu lapu **Formāta veidotājs**, kurā var rediģēt vai skatīt konfigurāciju.
+2. Sarakstā atlasiet konfigurācijas versiju un pēc tam atlasiet **Rediģēt** vai **Skatīt** , lai atvērtu lapu **Formāta veidotājs** , kurā var rediģēt vai skatīt konfigurāciju.
 
     ![Formāta veidotāja lapas atvēršana](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
@@ -96,7 +95,7 @@ Varat izveidot jaunu versiju, ja, piemēram, ir jāatjaunina URL. Plašāku info
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Pārvaldīt e-rēķinu izrakstīšanas līdzekļa iestatījumus
 
-- Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot**, **Dzēst** vai **Rediģēt**, lai pārvaldītu e-rēķinu izrakstīšanas līdzekļa iestatījumus.
+- Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** , **Dzēst** vai **Rediģēt** , lai pārvaldītu e-rēķinu izrakstīšanas līdzekļa iestatījumus.
 
 ![E-rēķinu izrakstīšanas līdzekļa iestatījumu pārvaldība](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
@@ -107,11 +106,11 @@ Lai iesniegtu CFDI rēķina atcelšanu, ir jānorāda līdzekļu **Atcelšana** 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Konfigurēt pārdošanas rēķina līdzekļu iestatījumu
 
 1. Lapā **E-rēķina līdzekļi** cilnē **Iestatījumi** kolonnā **Līdzekļu iestatīšana** atlasiet **Pārdošanas rēķins**.
-2. Atlasiet **Rediģēt**, lai konfigurētu darbības, piemērojamības nosacījumus un mainīgos.
+2. Atlasiet **Rediģēt** , lai konfigurētu darbības, piemērojamības nosacījumus un mainīgos.
 
     ![E-rēķinu izrakstīšanas līdzekļa iestatījumu rediģēšana](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
-3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības**, lai pārvaldītu darbību sarakstu. Darbības definē oprerāciju sarakstu, kas ir jāpalaiž secīgi, lai veiktu notikuma pilnīgu izpildi.
+3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības** , lai pārvaldītu darbību sarakstu. Darbības definē oprerāciju sarakstu, kas ir jāpalaiž secīgi, lai veiktu notikuma pilnīgu izpildi.
 
     ![Cilne Darbības](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
@@ -150,8 +149,8 @@ Lai iesniegtu CFDI rēķina atcelšanu, ir jānorāda līdzekļu **Atcelšana** 
 
 ## <a name="publish-the-e-invoicing-feature"></a>Publicējiet e-rēķinu izrakstīšanas līdzekli
 
-1. Lapā **E-rēķina līdzekļi** atlasiet cilni **Versijas**, lai pārvaldītu līdzekļa **CFDI rēķini (MX)** statusu.
-2. Atlasiet **Mainīt statusu**, lai mainītu līdzekļa statusu.
+1. Lapā **E-rēķina līdzekļi** atlasiet cilni **Versijas** , lai pārvaldītu līdzekļa **CFDI rēķini (MX)** statusu.
+2. Atlasiet **Mainīt statusu** , lai mainītu līdzekļa statusu.
 
 ![E-rēķinu izrakstīšanas līdzekļa statusa maiņa](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
@@ -168,12 +167,12 @@ Lai iestatītu elektronisko rēķinu izrakstīšanas pievienojumprogrammas progr
 2. Darbvietas **Elektronisko pārskatu veidošana** sadaļā **Konfigurācijas nodrošinātāji** atlasiet nosaukumu **Microsoft**. Pārliecinieties, vai šis konfigurācijas nodrošinātājs ir iestatīts kā **Aktīvs**. Papildinformāciju par to, ka iestatīt nodrošinātāju kā **Aktīvs** skatiet sadaļā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Atlasiet **Repozitoriji**.
 4. Atlasiet **Globālais resurss \> Atvērt**.
-5. Importējiet **Rēķina modelis**, **Rēķina modeļa kartēšana**, **CFDI rēķina formāts (MX)**, **CFDI rēķina atcelšanas pieprasījuma formāts (MX)** un **CFDI rēķina atcelšanas formāts (MX)**.
+5. Importējiet **Rēķina modelis** , **Rēķina modeļa kartēšana** , **CFDI rēķina formāts (MX)** , **CFDI rēķina atcelšanas pieprasījuma formāts (MX)** un **CFDI rēķina atcelšanas formāts (MX)**.
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>Ieslēdziet līdzekli CFDI rēķinu apstrādei
 
 1. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
-2. Cilnē **Līdzekļi** atzīmējiet izvēles rūtiņu **Iespējot**, kas atrodas līdzekļu reksturojumu rindās **MX-00010** un **MX-00016**.
+2. Cilnē **Līdzekļi** atzīmējiet izvēles rūtiņu **Iespējot** , kas atrodas līdzekļu reksturojumu rindās **MX-00010** un **MX-00016**.
 
 ![CFDI rēķinu apstrādes līdzekļu ieslēgšana](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
@@ -184,7 +183,7 @@ Lai iestatītu elektronisko rēķinu izrakstīšanas pievienojumprogrammas progr
 1. Darbvietas **Elektronisko pārskatu veidošana** sadaļā **Konfigurācijas nodrošinātāji** atlasiet nosaukumu **Microsoft**.
 3. Atlasiet **Repozitoriji**.
 4. Atlasiet **Globālais resurss \> Atvērt**.
-5. Importējiet **Atbildes ziņojuma modelis**, **CFDI kļūdu žurnāla importēšana (MX)**, **CFDI kļūdu žurnāla importēšana (MX)** un **CFDI atbildes ziņojuma importēšana (MX)**.
+5. Importējiet **Atbildes ziņojuma modelis** , **CFDI kļūdu žurnāla importēšana (MX)** , **CFDI kļūdu žurnāla importēšana (MX)** un **CFDI atbildes ziņojuma importēšana (MX)**.
 
 #### <a name="set-up-the-response-types"></a>Atbildes veidu iestatīšana
 
@@ -196,7 +195,7 @@ Lai iestatītu elektronisko rēķinu izrakstīšanas pievienojumprogrammas progr
     - Tabulai **Debitoru rēķinu žurnāls** ievadiet **Debitora rēķina konteksts**.
     - Tabulai **Projekta rēķins** ievadiet **Projekta rēķina konteksts**.
 
-4. Atlasiet **Atbilžu veidi**, lai konfigurētu atbilžu veidus, kas var tikt atgriezti no elektronisko rēķinu izrakstīšanas pievienojumprogrammas un iekļauta debitoru rēķinu žurnālā vai projekta rēķinā.
+4. Atlasiet **Atbilžu veidi** , lai konfigurētu atbilžu veidus, kas var tikt atgriezti no elektronisko rēķinu izrakstīšanas pievienojumprogrammas un iekļauta debitoru rēķinu žurnālā vai projekta rēķinā.
 5. Atlasiet **Jauns** un pēc tam laukā **Atbilžu veids** atlasiet **Atbilde**.
 6. Laukā **Iesniegšanas statuss** atlasiet **Neizlemts**.
 7. Laukā **Modeļa kartēšana** atlasiet **Atbildes ziņojuma importēšanas formāts — Modeļa kartēšana no atbildes ziņojuma**.
@@ -216,14 +215,14 @@ CFDI rēķinu apstrādes laikā programmā Finance, izmantojot elektronisko rē�
 
 ### <a name="submit-cfdi-invoices"></a>Iesniegt CFDI rēķinus
 
-Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, vairs nevarēsiet izmantot procesu **Elektronisko rēķinu eksportēšana/importēšana** (**Realizācija \> Rēķini \> E-rēķini**), lai iesniegtu CFDI rēķinus. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
+Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , vairs nevarēsiet izmantot procesu **Elektronisko rēķinu eksportēšana/importēšana** ( **Realizācija \> Rēķini \> E-rēķini** ), lai iesniegtu CFDI rēķinus. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
 
 > [!NOTE]
-> Pirms izmantojat jauno procesu **Iesniegt elektroniskos dokumentus**, pārbaudiet, vai Meksikas e-rēķiniem nepieciešamais iestatījums ir pabeigts. Plašāku informāciju skatiet [CFDI izkārtojuma versija 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Pirms izmantojat jauno procesu **Iesniegt elektroniskos dokumentus** , pārbaudiet, vai Meksikas e-rēķiniem nepieciešamais iestatījums ir pabeigts. Plašāku informāciju skatiet [CFDI izkārtojuma versija 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai vienmēr iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.
-3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs**, lai atvērtu dialoglodziņu **Pieprasījums**, kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
+3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs** , lai atvērtu dialoglodziņu **Pieprasījums** , kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
 
 ![CFDI dokumenta iesniegšana](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
@@ -236,14 +235,14 @@ Var apskatīt visu iesniegto dokumentu vai tikai viena iesniegtā dokumenta iesn
 
 #### <a name="view-all-submission-logs"></a>Skatīt visus iesniegšanas žurnālus
 
-Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, ir pieejama jauna lapa, kas ļauj sekot līdzi dokumentu iesniegšanas procesam. Varat izmantot šo lapu, lai skatītu visu iesniegto dokumentu iesniegšanas žurnālus.
+Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , ir pieejama jauna lapa, kas ļauj sekot līdzi dokumentu iesniegšanas procesam. Varat izmantot šo lapu, lai skatītu visu iesniegto dokumentu iesniegšanas žurnālus.
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Elektronisko dokumentu iesniegšanas žurnāls**.
-2. Laukā **Dokumenta veids** atlasiet **Debitora rēķina žurnāls**, lai filtrētu pieprasītos elektroniskos dokumentus.
+2. Laukā **Dokumenta veids** atlasiet **Debitora rēķina žurnāls** , lai filtrētu pieprasītos elektroniskos dokumentus.
 
     ![Dokumenta veida atlasīšana, lai apskatītu iesniegšanas žurnālus](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
-3. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas**, lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
+3. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas** , lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
 
     ![Iesniegšanas žurnāla informācijas skatīšana](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
@@ -257,11 +256,11 @@ Kad iesniegtais CFDI rēķins ir autorizēts, tā statuss tiek atjaunināts uz *
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Skatīt iesniegumu žurnālus no CFDI rēķiniem
 
-Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, varat arī skatīt iesniegumu žurnālus no CFDI rēķiniem.
+Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , varat arī skatīt iesniegumu žurnālus no CFDI rēķiniem.
 
 1. Dodieties uz **Debitoru parādi \> Uzziņas un atskaites \> CFDI (elektroniskie rēķini)**.
 2. Atlasiet CFDI rēķinu, kas tika iesniegts pēc tam, kad līdzeklis **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** tika ieslēgts.
-3. Darbības rūtī, kas atrodas cilnē **Vēsture**, atlasiet **Elektronisko dokumentu žurnāls**.
+3. Darbības rūtī, kas atrodas cilnē **Vēsture** , atlasiet **Elektronisko dokumentu žurnāls**.
 
 ![Iesniegšanas žurnālu apskate no CFDI rēķiniem](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
@@ -270,10 +269,10 @@ Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>Iesniedziet CFDI rēķinu atcelšanu
 
-Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, vairs nevarēsiet izmantot veco procesu, lai atceltu CFDI rēķinus. Tas ir aizstāts ar jaunu atcelšanas procesu, kas ir iegults lapā **Elektronisko dokumentu iesniegšanas žurnāls**.
+Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , vairs nevarēsiet izmantot veco procesu, lai atceltu CFDI rēķinus. Tas ir aizstāts ar jaunu atcelšanas procesu, kas ir iegults lapā **Elektronisko dokumentu iesniegšanas žurnāls**.
 
 1. Dodieties uz **Debitoru parādi \> Uzziņas un atskaites \> CFDI (elektroniskie rēķini)**.
-2. Ja CFDI rēķina statuss ir **Apstiprināts**, atlasiet **Funkcijas \> Atcelt CFDI**.
+2. Ja CFDI rēķina statuss ir **Apstiprināts** , atlasiet **Funkcijas \> Atcelt CFDI**.
 3. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Elektronisko dokumentu iesniegšanas žurnāls**.
 4. Atlasiet CFDI rēķinu un pēc tam atlasiet **Funkcijas \> Sūtīt saistītos iesniegumus**.
 5. Ievadiet saistītā iesnieguma aprakstu un pēc tam atlasiet **Labi**.
@@ -281,19 +280,19 @@ Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izra
 #### <a name="view-cancellation-submission-logs"></a>Skatīt atcelšanas iesniegšanas žurnālus
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Elektronisko dokumentu iesniegšanas žurnāls**.
-2. Laukā **Dokumenta veids** atlasiet **Debitora rēķina žurnāls**, lai filtrētu tikai debitoru rēķinu žurnāla dokumentus.
+2. Laukā **Dokumenta veids** atlasiet **Debitora rēķina žurnāls** , lai filtrētu tikai debitoru rēķinu žurnāla dokumentus.
 3. Atlasiet CFDI rīķinu un pēc tam Darbību rūtī atlasiet **Vaicājumi \> Saistītie iesniegumi**.
 
     Lapa **Saistītais iesniegums** parāda visus saistītos iesniegumus un to iesniegšanas statusu dotajam CFDI rīķinam. Sekojošajā ilustrācijā pirmā rinda ataino iesniegumu, kas pieprasīja CFDI rīķina apstiprināšanu. Otrā rinda ataino iesniegumu, kas atcēla šo CFDI rīķinu.
 
     ![Atcelšanas iesniegšanas žurnālu apskate](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
-4. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas**, lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
+4. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas** , lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
 
     ![Atcelšanas iesniegšanas žurnāla informācijas skatīšana](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Iespējojot MX-00010 un MX-00016 (CFDI rēķins un CFDI atcelšana) līdzekļus, var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestāde, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktā formātā, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumu. Administrators var iespējot un atspējot līdzekļus MX-00010 un MX-00016 (CFDI rēķins un CFDI atcelšana), pārvietojoties uz **Organizācijas administrēšana \> Iestatījumi \> Elektroniskā dokumenta parametri**. Atlasiet cilni **Līdzekļi**, atlasiet rindas, kas satur līdzekļus MX-00010 un MX-00016, un pēc tam veiciet atbilstošo atlasi. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
+Iespējojot MX-00010 un MX-00016 (CFDI rēķins un CFDI atcelšana) līdzekļus, var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestāde, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktā formātā, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumu. Administrators var iespējot un atspējot līdzekļus MX-00010 un MX-00016 (CFDI rēķins un CFDI atcelšana), pārvietojoties uz **Organizācijas administrēšana \> Iestatījumi \> Elektroniskā dokumenta parametri**. Atlasiet cilni **Līdzekļi** , atlasiet rindas, kas satur līdzekļus MX-00010 un MX-00016, un pēc tam veiciet atbilstošo atlasi. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

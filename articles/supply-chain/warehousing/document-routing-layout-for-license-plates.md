@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLicensePlateLabel
+ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763459"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017717"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Tālāk minēts šī formāta paskaidrojums:
 
-- `FieldName` ir datu lauka nosaukums (piemēram, **Daudzums**).
+- `FieldName` ir datu lauka nosaukums (piemēram, **Daudzums** ).
 - `FormatString` nosaka, kā jādrukā dati.
 
-Sekojošie piemēri parāda, kā varat pielāgot darba daudzuma (**Daudzums**) lauku:
+Sekojošie piemēri parāda, kā varat pielāgot darba daudzuma ( **Daudzums** ) lauku:
 
 - Lai vienmēr parādītu četrus ciparus (izmantojot nulles kā vietturus), lietojiet `$Qty:0000$`. Piemēram, ja daudzums ir 10, etiķetē tiks parādīts "0010".
 - Lai vienmēr parādītu divas decimāldaļas vietas, izmantojiet `$Qty:0.00$`. Piemēram, ja daudzums ir 10, etiķetē tiks parādīts "10.00".

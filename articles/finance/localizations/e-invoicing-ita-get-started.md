@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea0408f4ef72bf77a0659799075338e4e6b2aa30
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835994"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039796"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > Elektronisko rēķinu izrakstīšanas pievienojumprogramma Itālija, iespējams, pašlaik neatbalsta visas funkcijas, kas ir pieejamas elektroniskajiem rēķiniem Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management. 
@@ -55,7 +55,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 1. Piesakieties savā RCS kontā.
 2. Darbvietā **Globalizācijas līdzekļi** sadaļā **Līdzekli** atlasiet elementu **e-rēķinu izrakstīšana**.
-3. Lapā **E-rēķina līdzekļi** atlasiet **Importēt**, lai importētu e-rēķinu izrakstīšanas līdzekli no Globālās krātuves.
+3. Lapā **E-rēķina līdzekļi** atlasiet **Importēt** , lai importētu e-rēķinu izrakstīšanas līdzekli no Globālās krātuves.
 
     > [!NOTE]
     > Ja nav redzams pieejamo līdzekļu saraksts, atlasiet **Sinhronizēt**. 
@@ -74,7 +74,7 @@ Importējot līdzekli **E-rēķina eksportēšana (IT)** no globālās krātuves
 
     Pēc tam konfigurējiet elektronisko pārskatu (Electronic reporting - ER) formātus, kas ir saistīti ar e-rēķinu izrakstīšanas līdzekli.
 
-2. Cilnē **Konfigurācijas** atlasiet **Pievienot**, lai pārvaldītu konfigurācijas versijas.
+2. Cilnē **Konfigurācijas** atlasiet **Pievienot** , lai pārvaldītu konfigurācijas versijas.
 
     ![E-rēķinu izrakstīšanas līdzekļa konfigurācijas versiju pārvaldība](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -86,7 +86,7 @@ Importējot līdzekli **E-rēķina eksportēšana (IT)** no globālās krātuves
     Kad izveidojat e-rēķinu izrakstīšanas līdzekli, kas ir atvasināts no cita e-rēķinu izrakstīšanas līdzekļa, visi ER formāti tiek pārmantoti no oriģinālā līdzekļa.
 
 3. Atlasiet noteiktu ER formāta faila konfigurāciju.
-4. Atlasiet **Rediģēt** vai **Skatīt**, lai atvērtu lapu **Formāta veidotājs**.
+4. Atlasiet **Rediģēt** vai **Skatīt** , lai atvērtu lapu **Formāta veidotājs**.
 
     ![Formāta veidotāja lapas atvēršana](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
@@ -96,7 +96,7 @@ Importējot līdzekli **E-rēķina eksportēšana (IT)** no globālās krātuves
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Pārvaldīt e-rēķinu izrakstīšanas līdzekļa iestatījumus
 
-- Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot**, **Dzēst** vai **Rediģēt**, lai pārvaldītu e-rēķinu izrakstīšanas līdzekļa iestatījumus.
+- Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** , **Dzēst** vai **Rediģēt** , lai pārvaldītu e-rēķinu izrakstīšanas līdzekļa iestatījumus.
 
 ![E-rēķinu izrakstīšanas līdzekļa iestatījumu pārvaldība](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
@@ -106,7 +106,7 @@ Importējot līdzekli **E-rēķina eksportēšana (IT)** no globālās krātuves
 
 1. Lapā **E-rēķina līdzekļi** cilnē **Iestatījumi** kolonnā **Līdzekļu iestatīšana** atlasiet **Pārdošanas rēķins**.
 2. Atlasiet **Rediģēt**.
-3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības**, lai pārvaldītu darbību sarakstu. Darbības definē oprerāciju sarakstu, kas ir jāpalaiž secīgi, lai veiktu notikuma pilnīgu izpildi.
+3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības** , lai pārvaldītu darbību sarakstu. Darbības definē oprerāciju sarakstu, kas ir jāpalaiž secīgi, lai veiktu notikuma pilnīgu izpildi.
 
     ![Cilne Darbības](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
@@ -115,11 +115,11 @@ Importējot līdzekli **E-rēķina eksportēšana (IT)** no globālās krātuves
     | 1         | Transformējiet dokumentu | Izveidojiet e-rēķina XML failu **FatturaPA** formātā. |
     | 2         | Parakstīt dokumentu      | Lietojiet digitālo parakstu XML failam.             |
 
-4. Atlasiet cilni **Piemērojamības noteikumi**, lai skatītu un uzturētu piemērojamības noteikumus. Piemērojamības noteikumi nosaka kontekstu, kurā darbība tiks izpildīta.
+4. Atlasiet cilni **Piemērojamības noteikumi** , lai skatītu un uzturētu piemērojamības noteikumus. Piemērojamības noteikumi nosaka kontekstu, kurā darbība tiks izpildīta.
 
     ![Piemērojamības noteikumu cilne](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
-5. Atlasiet cilni **Mainīgie**, lai skatītu un uzturētu mainīgos.
+5. Atlasiet cilni **Mainīgie** , lai skatītu un uzturētu mainīgos.
 
     ![Cilne Mainīgie](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
@@ -166,12 +166,12 @@ Finance iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 1. Darbvietā **Elektroniskie pārskati** pārbaudiet, vai konfigurācijas nodrošinātājs **Biznesa dokumentu pakalpojums** ir iestatīts kā **Aktīvs**.
 2. Atlasiet **Repozitoriji**.
 3. Atlasiet **Globālais resurss \> Atvērt**.
-4. Importēt **Rēķina modelis**, **Rēķina modeļa kartēšana** un **Debitora rēķina konteksta modelis**.
+4. Importēt **Rēķina modelis** , **Rēķina modeļa kartēšana** un **Debitora rēķina konteksta modelis**.
 
 #### <a name="turn-on-the-feature-for-exporting-customer-electronic-invoices-for-italy"></a>Ieslēgt līdzekli, lai eksportētu debitoru elektroniskos rēķinus Itālijai
 
 1. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
-2. Cilnē **Līdzekļi** atzīmējiet izvēles rūtiņu **Iespējots**, kas atrodas līdzekļu reksturojuma rindā **IT00036**.
+2. Cilnē **Līdzekļi** atzīmējiet izvēles rūtiņu **Iespējots** , kas atrodas līdzekļu reksturojuma rindā **IT00036**.
 
 ![FatturaPA līdzekļa ieslēgšana](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
@@ -199,7 +199,7 @@ Finance apstrādes laikā jūs veiksiet šādus uzdevumus:
 
 ### <a name="generate-electronic-invoices"></a>Ģenerēt elektroniskos rēķinus
 
-Pēc tam, kad ieslēdzat līdzekli **Konfigurējamu elektronisko rēķinu pievienošana** un aktivizējat līdzekli **IT00036**, vairs nevar izmantot veco finanšu procesu itāļu e-rēķinu ģenerēšanai. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
+Pēc tam, kad ieslēdzat līdzekli **Konfigurējamu elektronisko rēķinu pievienošana** un aktivizējat līdzekli **IT00036** , vairs nevar izmantot veco finanšu procesu itāļu e-rēķinu ģenerēšanai. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
 
 Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dokumentiem.
 
@@ -208,7 +208,7 @@ Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dok
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.
-3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs**, lai atvērtu dialoglodziņu **Pieprasījums**, kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
+3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs** , lai atvērtu dialoglodziņu **Pieprasījums** , kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
 
 ![Dialoglodziņš Iesniegt elektroniskos dokumentus](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
@@ -219,7 +219,7 @@ Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dok
     ![Iesniegšanas filtra kritēriju iestatīšana](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Lai dialoglodziņu **Pieprasījums** aizvērtu, atlasiet **Labi**.
-3. Atlasiet **Labi**, iesniedziet atlasītos dokumentus.
+3. Atlasiet **Labi** , iesniedziet atlasītos dokumentus.
 
 > ! [PIEZĪME] Pirmajā mēģinājumā iesniegt dokumentu, izmantojot pakalpojumu, jums tiks piedāvāts apstiprināt savienojumu ar elektronisko rēķinu pievienojumprogrammu. Atlasiet **Noklikšķiniet šeit, lai izveidotu savienojumu ar elektronisko dokumentu iesniegšanas pakalpojumu**.
 
@@ -228,18 +228,18 @@ Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dok
 Varat skatīt visu iesniegto dokumentu iesniegšanas žurnālus.
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Elektronisko dokumentu iesniegšanas žurnāls**.
-2. Laukā **Dokumenta veids** atlasiet **Debitora rēķina žurnāls** vai **Projekta rēķins**, lai filtrētu pieprasītos elektroniskos dokumentus.
+2. Laukā **Dokumenta veids** atlasiet **Debitora rēķina žurnāls** vai **Projekta rēķins** , lai filtrētu pieprasītos elektroniskos dokumentus.
 
     ![Dokumenta veida atlasīšana, lai apskatītu iesniegšanas žurnālus](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
-    Vērtība, kas tiek rādīta kolonnā **Iesniegšanas statuss**, norāda iesniegšanas procesa statusu. Tas norāda, vai process darbojās kā konfigurēts, un vai ir nepieciešama papildu darbība.
+    Vērtība, kas tiek rādīta kolonnā **Iesniegšanas statuss** , norāda iesniegšanas procesa statusu. Tas norāda, vai process darbojās kā konfigurēts, un vai ir nepieciešama papildu darbība.
 
-3. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas**, lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
+3. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas** , lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
 
     ![Iesniegšanas žurnāla informācijas skatīšana](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Kopsavilkuma cilnē **Apstrādes darbības** var skatīt izpildes žurnālu darbībām, kas konfigurētas līdzekļa versijā, kas tika iestatīta RCS. Kolonna **Statuss** rāda, vai darbība ir veiksmīgi izpildīta.
-5. Kopsavilkuma cilnē **Darbības faili** var apskatīt starpposma failus, kas tika ģenerēti darbību izpildes laikā. Varat atlasīt **Skats**, lai lejupielādētu izvades XML failu **FatturaPA** formātā un apskatīt tā saturu.
+5. Kopsavilkuma cilnē **Darbības faili** var apskatīt starpposma failus, kas tika ģenerēti darbību izpildes laikā. Varat atlasīt **Skats** , lai lejupielādētu izvades XML failu **FatturaPA** formātā un apskatīt tā saturu.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 0ecc401706911f8b92146b95bb6415185df8b451
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997556"
 ---
 # <a name="switch-between-vendor-designs"></a>Pārslēgšanās starp kreditoru noformējumiem
 
@@ -58,7 +57,7 @@ Lai izveidotu jaunus darbplūsmas procesus, izmantojot darbplūsmas procesa veid
 
     ![Poga Konvertēt uz fona darbplūsmu](media/background_workflow.png)
 
-6. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Konts** un **Kreditors**, lai sāktu izmantot elementu **Konts**, lai glabātu informāciju kreditoriem no veida **Organizācija**.
+6. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Konts** un **Kreditors** , lai sāktu izmantot elementu **Konts** , lai glabātu informāciju kreditoriem no veida **Organizācija**.
 
 ## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Izmantot paplašināto kreditoru noformējumu Personas veida kreditoriem
 
@@ -76,4 +75,4 @@ Lai izveidotu jaunus darbplūsmas procesus, izmantojot darbplūsmas procesa veid
 3. Izveidojiet darbplūsmas procesu elementam **Kontaktpersona** un atlasiet darbplūsmas procesa veidni **Izveidot kreditorus ar veidu Persona kreditoru elementā**.
 4. Izveidojiet darbplūsmas procesu elementam **Kontaktpersona** un atlasiet darbplūsmas procesa veidni **Atjaunināt kreditorus ar veidu Persona kreditoru elementā**.
 5. Darbplūsmas var konfigurēt vai nu kā reāllaika vai fona darbplūsmas, atkarībā no jūsu prasībām. Lai konfigurētu darbplūsmu kā fona darbplūsmu, atlasiet **Pārvērst par fona darbplūsmu.**
-6. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Kontaktpersona** un **Kreditors**, lai sāktu izmantot elementu **Kontaktpersona**, lai glabātu informāciju kreditoriem no veida **Persona**.
+6. Aktivizējiet darbplūsmas, ko izveidojāt elementos **Kontaktpersona** un **Kreditors** , lai sāktu izmantot elementu **Kontaktpersona** , lai glabātu informāciju kreditoriem no veida **Persona**.

@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018240"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkšanas pasūtījuma izveide ar piegādes grafiku
 
@@ -46,7 +46,7 @@ ms.locfileid: "3383255"
 - Piegādes datuma laukā atlasiet datumu, kas ir vienu nedēļu pēc pirmās piegādes rindas datuma.  
 - Piegādes grafika rindām piešķirtajam kopējam daudzumam varat sekot līdzi, apskatot laukus **Kopsumma** un **Atlicis**. Ja atlikušais daudzums ir nulle, grafikam ir piešķirts viss daudzums no sākotnējās rindas.  
 12. Izvērsiet sadaļu **Izmaksu konvertēšana**.
-- Šeit pieejamās opcijas jums ļauj kontrolēt veidu, kādā maksas vēlaties sadalīt pa piegādes grafika rindām. Ja atlasāt **Kopēt bruto summas**, tad uz katru piegādes rindu tiek kopēta sākotnējās pasūtījuma rindas maksas summa. Opcija **Piešķirt piegādes rindām** sākotnējās rindas maksu sadala atbilstoši daudzumam katrā piegādes rindā.  
+- Šeit pieejamās opcijas jums ļauj kontrolēt veidu, kādā maksas vēlaties sadalīt pa piegādes grafika rindām. Ja atlasāt **Kopēt bruto summas** , tad uz katru piegādes rindu tiek kopēta sākotnējās pasūtījuma rindas maksas summa. Opcija **Piešķirt piegādes rindām** sākotnējās rindas maksu sadala atbilstoši daudzumam katrā piegādes rindā.  
 13. Sakļaujiet sadaļu **Izmaksu konvertēšana**.
 14. Atlasiet **Labi**.
 - Tagad piegādes grafiks ir lietots pasūtījumam.  
@@ -72,5 +72,5 @@ Lai preču ieejas plūsmas varētu apstrādāt, pirkšanas pasūtījumam ir jāb
 5. Izvērsiet sadaļu **Rindas**.
 - Ņemiet vērā, kā produktu ieejas plūsma tiek izveidota abām piegādes rindām, nevis sākotnējai pasūtījuma rindai. Ja ieejas plūsma tika reģistrēta noliktavā, tad tā tiktu reģistrēta arī piegādes grafika rindās.  
 6. Sakļaujiet sadaļu **Rindas**.
-7. Atlasiet **Labi**, lai iegrāmatotu ieejas plūsmu.
+7. Atlasiet **Labi** , lai iegrāmatotu ieejas plūsmu.
 

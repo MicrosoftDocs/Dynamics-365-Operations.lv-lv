@@ -5,6 +5,12 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2002.\_gada 22.\_oktobris"
+          href: hr-whats-new-2020-10-22.md
+        - name: "2020.\_gada 6.\_oktobris"
+          href: hr-whats-new-2020-10-06.md
+        - name: "2020.\_gada 26.\_septembris"
+          href: hr-whats-new-2020-09-26.md
         - name: "2020.\_gada 16.\_septembris"
           href: hr-whats-new-2020-09-16.md
         - name: "2020.\_gada 3.\_septembris"
@@ -81,8 +87,10 @@
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
               href: hr-admin-integration-dayforce.md
-            - name: Izveidot periodiskas datu eksportēšanas programmu
+            - name: Periodiskas datu eksportēšanas programmas izveide
               href: hr-admin-integration-recurring-data-export.md
+            - name: Integrācija ar LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: Integrācija ar Office
               items:
                 - name: Office integrēšanas apmācība
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: Programma Human Resources programmā Teams
           href: hr-admin-teams-leave-app.md
+        - name: Sagatavošanās līdzeklim Go Live
+          href: hr-admin-go-live-prepare.md
+        - name: Bieži uzdotie jautājumi par Go Live
+          href: hr-admin-go-live-faq.md
         - name: Dokumentācijas resursi
           items:
             - name: Palīdzības sistēma
@@ -279,7 +291,7 @@
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
               href: hr-admin-integration-dayforce.md
-            - name: Izveidot periodiskas datu eksportēšanas programmu
+            - name: Periodiskas datu eksportēšanas programmas izveide
               href: hr-admin-integration-recurring-data-export.md
             - name: Integrācija ar Office
               items:
@@ -665,11 +677,13 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Izveidot pakārtotu jautājumu
               href: hr-learning-depending-question.md
-        - name: Darbinieka un vadītāja pašapkalpošanās iestatīšana
+        - name: Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma iestatīšana
           items:
-            - name: Darbinieka un vadītāja pašapkalpošanās pārskats
+            - name: Darbinieka un vadītāja patstāvīgi izmantojama pakalpojuma pārskats
               href: hr-employee-manager-self-service-overview.md
-            - name: Darbinieka pašapkalpošanās darbvietas nosaukuma maiņa
+            - name: Pielāgotu saišu izveide vadītāja patstāvīgi izmantojamā pakalpojumā
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: Darbinieka patstāvīgi izmantojamas darbvietas nosaukuma maiņa
               href: hr-employee-self-service-workspace-name.md
             - name: Personiskās informācijas rediģēšana
               href: hr-employee-manager-self-service-edit-personal-information.md

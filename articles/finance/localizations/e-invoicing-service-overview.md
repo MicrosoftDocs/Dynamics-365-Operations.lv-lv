@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b3445157efce6349b3febafb6c860260052f7d6c
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835993"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039750"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Pārskats par elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Elektroniskā rēķinu pievienojumprogramma programmām Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management ir hipermērogojams vairāku nomnieku pakalpojums, kas iespējo elektronisko rēķinu dokumentu un konfigurējamas dokumentu apmaiņas konfigurējamu apstrādi. Apstrādes un integrācijas noteikumi ir pilnībā konfigurējami, un šī loģika darbojas ārpus programmām Finance un Supply Chain Management. Pakalpojums galvenokārt ir paredzēts e-rēķinu apstrādei biznesa-valdības scenārijos, bet to var pielāgot citiem nolūkiem.
 

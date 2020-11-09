@@ -1,7 +1,7 @@
 ---
 title: Preču informācijas pārskats
 description: Šajā tēmā ir sniegta informācija par preču informācijas pārvaldību. Preču informācijas pārvaldība darbojas ar kopīgoto preču definīciju, kategoriju un identifikatoriem visās juridiskajās personās, kā arī ar noteiktām preču konfigurācijām, lai ietilptu biznesa procesos.
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015133"
 ---
 # <a name="product-information-overview"></a>Preču informācijas pārskats
 
@@ -72,7 +72,7 @@ Preces šablons tiek saistīts ar preču dimensiju grupu un konfigurācijas tehn
 Varat izvēlēties no trim konfigurācijas tehnoloģijām.
 
 - Iepriekš definēti varianti tiek definēti ar iepriekš definētām preču dimensijām. Varianta definīcija ietver noteiktas derīgas dimensiju kombinācijas definīciju, piemēram, krāsu, stilu un izmēru. Katra kombinācija veido atšķirīgu preces variantu.
-- Konfigurāciju atbilstoši dimensijām parasti lieto ražošanas scenārijos, un tā ļauj izmantot konfigurācijas dimensiju materiālu komplektu (MK) definīcijā. Ja noteikta konfigurācija ir atlasīta, sistēma izmanto plānošanā un ražošanā to MK rindu apakškopu, kuras ir derīgas attiecīgajai konfigurācijai. Šī koncepcija ir zināma arī kā *globālais MK*, jo viens koplietojams MK tiek izmantots visām preces konfigurācijām.
+- Konfigurāciju atbilstoši dimensijām parasti lieto ražošanas scenārijos, un tā ļauj izmantot konfigurācijas dimensiju materiālu komplektu (MK) definīcijā. Ja noteikta konfigurācija ir atlasīta, sistēma izmanto plānošanā un ražošanā to MK rindu apakškopu, kuras ir derīgas attiecīgajai konfigurācijai. Šī koncepcija ir zināma arī kā *globālais MK* , jo viens koplietojams MK tiek izmantots visām preces konfigurācijām.
 - Konfigurācijas atbilstoši ierobežojumam preces izmanto konfigurācijas modeli, lai aprakstītu visus iespējamos atribūtus un komponentus, kas nepieciešami, lai vienā modelī aprakstītu visus iespējamos preces variantus. Atribūtu kombināciju ierobežojumus var aprakstīt, izmantojot regulāras izteiksmes vai tabulas ierobežojumus. Konfigurācijas modeļi un konfigurētāji kļūst svarīgāki preču informācijas pārvaldības procesā un tiek izmantoti visās nozarēs.
 
 Plānojot Supply Chain Management ieviešanu, ir ļoti svarīgi izvēlēties pareizu biznesa procesa konfigurācijas tehnoloģiju. Preci nevar pārveidot no viena modeļa uz citu pēc ieviešanas.
@@ -89,7 +89,7 @@ Preces, kas tiek izlaistas konkrētai juridiskajai personai tiek sauktas par *iz
 
 Darbvietu **Izlaisto preču uzturēšana** varat konfigurēt no izvēlnes vienuma **Konfigurēt manu darbvietu**. Atlasiet mazumtirdzniecības kategoriju hierarhiju un kategoriju, lai filtrētu darbvietu. Lai koriģētu darbvietas preču datus, var arī norādīt, dienās, laika periodus **Pēdējās izlaistās preces** un **Preces, kuru izlaide ir pārtraukta**.
 
-Darbvietu veido elementu un divu sarakstu kopsavilkums. Sarakstā **Atvērtie pieteikumi** tiek rādīti preču izmaiņu gadījumi, kuriem ir preces atlasītajā preču kategoriju hierarhijā, kas nav pabeigtas un slēgtas. Sarakstā **Pēdējās izlaistās** tiek rādītas preces, kas tika izlaistas laika periodā, kas tika iestatīts darbvietas konfigurācijā. Katram saraksta krājumam tiek veikta pārbaude un tiek parādīts pārbaudes statuss. Šis statuss varētu norādīt, ka juridiskajai personai nepieciešamā konfigurācija nav pabeigta. No saraksta varat tieši piekļūt lapai **Nodoto preču papildinformācija**, **Preces īpašību uzturēšana**, **Preces kategorijas uzturēšana**, **Noklusējuma pasūtījuma iestatījumi** un **Teksta tulkojumi**, lai pabeigtu nepieciešamo preču konfigurāciju.
+Darbvietu veido elementu un divu sarakstu kopsavilkums. Sarakstā **Atvērtie pieteikumi** tiek rādīti preču izmaiņu gadījumi, kuriem ir preces atlasītajā preču kategoriju hierarhijā, kas nav pabeigtas un slēgtas. Sarakstā **Pēdējās izlaistās** tiek rādītas preces, kas tika izlaistas laika periodā, kas tika iestatīts darbvietas konfigurācijā. Katram saraksta krājumam tiek veikta pārbaude un tiek parādīts pārbaudes statuss. Šis statuss varētu norādīt, ka juridiskajai personai nepieciešamā konfigurācija nav pabeigta. No saraksta varat tieši piekļūt lapai **Nodoto preču papildinformācija** , **Preces īpašību uzturēšana** , **Preces kategorijas uzturēšana** , **Noklusējuma pasūtījuma iestatījumi** un **Teksta tulkojumi** , lai pabeigtu nepieciešamo preču konfigurāciju.
 
 ### <a name="manually-creating-a-new-released-product"></a>Manuāla jaunas izlaistās preces izveide
 

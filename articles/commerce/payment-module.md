@@ -3,7 +3,7 @@ title: Maksājuma modulis
 description: Šajā tēmā ir apskatīti maksājuma modulis un tiek paskaidrots, kā to konfigurēt programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818330"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055385"
 ---
 # <a name="payment-module"></a>Maksājuma modulis
 
@@ -42,6 +42,9 @@ Maksājuma modulis sedz visas pasūtījuma izmaksas, kas nav iekļautas lojalit�
 
 Adyen maksājuma savienotājs atbalsta arī drošu klientu autentifikāciju (SCA). Eiropas Savienības (ES) maksājumu pakalpojumu direktīvas 2.0 (PSD 2.0) daļa prasa, lai tiešsaistes pircēji tiktu autentificēti ārpus to tiešsaistes iepirkšanās pieredzes, kad tie izmanto elektronisko maksājumu metodi. Norēķinu plūsmas laikā klienti tiek novirzīti uz savu banku vietni. Pēc autentifikācijas tie tiek novirzīti uz Commerce norēķinu plūsmu. Šīs novirzīšanas laikā informācija, ko klients ievadījis norēķinu plūsmā (piemēram, piegādes adrese, piegādes opcijas, dāvanu kartes informācija un lojalitātes informācija) saglabāsies. Pirms jūs varat ieslēgt šo līdzekli, maksājuma savienotājam ir jābūt konfigurētam, lai varētu veikt programmas Commerce Headquarters SCA. Plašāku informāciju skatiet [Droša klientu autentifikācija, izmantojot Adyen](adyen_redirect.md).
 
+> [!NOTE]
+> Adyen maksājuma savienotājam, iFrame modulis maksājuma modulī var tikt atveidots tikai tad, ja pievienojat Adyen vietrādi URL savam vietnes atļautajam sarakstam. Lai veiktu šo darbību, pievienojiet **\*.adyen.com** **child-src** , **connect-src** , **img-src** , **script-src** un **style-src** jūsu vietnes satura drošības politikas direktīvām. Papildinformāciju skatiet [Pārvaldīt satura drošības politiku](manage-csp.md). 
+
 Ilustrācijā zemāk ir parādīts dāvanu karšu, lojalitātes programmas, maksājumu moduļu piemērs norēķināšanās lapā.
 
 ![Dāvanu karšu, lojalitātes programmas, maksājumu moduļu piemērs norēķināšanās lapā](./media/ecommerce-payments.PNG)
@@ -52,12 +55,12 @@ Ilustrācijā zemāk ir parādīts dāvanu karšu, lojalitātes programmas, maks
 |---------------|--------|-------------|
 | Virsraksts | Virsraksta teksts | Izvēles virsraksts maksājuma modulim. |
 | Iframe augstums | Pikseļi | Iframe augstums pikseļos. Augstumu var pielāgot pēc nepieciešamības. |
-| Radīt rēķina adresi | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, norēķinu adrese tiks apkalpota ar Adyen, kas atrodas maksājumu moduļa iframe iekšpusē. Ja tas ir iestatīts kā **Aplams**, rēķina adrese netiks apkalpota ar Adyen, un Commerce lietotājam būs jākonfigurē modulis, lai parādītu norēķinu adresi norēķinu lapā. |
+| Radīt rēķina adresi | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess** , norēķinu adrese tiks apkalpota ar Adyen, kas atrodas maksājumu moduļa iframe iekšpusē. Ja tas ir iestatīts kā **Aplams** , rēķina adrese netiks apkalpota ar Adyen, un Commerce lietotājam būs jākonfigurē modulis, lai parādītu norēķinu adresi norēķinu lapā. |
 | Maksājuma stils tiek ignorēts | Kaskadētu stilu lapu (CSS) kods | Tā kā maksājuma modulis tiek viesots iframe, ir ierobežota stila iespēja. Varat iegūt kādu stilu, izmantojot šo rekvizītu. Lai ignorētu vietnes stilus, šis CSS kods ir jāielīmē kā šī rekvizīta vērtība. Vietnes veidotāja CSS atsauces un stili netiek piemēroti šim modulim. |
 
 ## <a name="billing-address"></a>Norēķinu adrese
 
-Maksājuma moduļa klienti sniedz norēķinu adresi maksājuma informācijai. Tas arī ļauj izmantot piegādes adresi kā rēķina adresi, lai atvieglotu un paātrinātu izrakstīšanās plūsmu. Ja rekvizīts **Rādīt norēķinu adresi** ir iestatīts kā **Aplams**, maksājuma modulis ir jākonfigurē norēķinu lapā.
+Maksājuma moduļa klienti sniedz norēķinu adresi maksājuma informācijai. Tas arī ļauj izmantot piegādes adresi kā rēķina adresi, lai atvieglotu un paātrinātu izrakstīšanās plūsmu. Ja rekvizīts **Rādīt norēķinu adresi** ir iestatīts kā **Aplams** , maksājuma modulis ir jākonfigurē norēķinu lapā.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Maksājuma moduļa pievienošana norēķinu lapā un nepieciešamo rekvizītu iestatīšana
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFMenuItem
+ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12f1c405566561661fe7c13db5bfca70114b1618
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016198"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -44,7 +44,7 @@ Lai izveidotu izvēlnes vienumu kādai aktivitātei vai pieprasījumam, laukam *
 > Atkarībā no izvēlnes vienumam atlasītā režīma un no tā, vai izvēlnes vienums tiek izmantots esoša darba veikšanai, izvēlnes vienumiem var būt pieejami papildu lauki. Informāciju par papildu lauku atlasi skatiet tālāk šīs tēmas sadaļā “Papildu izvēlnes vienumu opcijas”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Aktivitāšu un pieprasījumu izvēlnes vienumu konfigurēšana
-Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs**, varat izveidot izvēlnes vienumu tādas vispārējas aktivitātes vai pieprasījuma veikšanai, kas neizraisa darba izveidi. Piemēram, noliktavas vienību uzlīmju atkārtotai drukāšanai un pieprasījuma veikšanai par krājumiem noteiktā novietojumā. Tālāk esošajā tabulā ir norādītas pieejamās opcijas.
+Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs** , varat izveidot izvēlnes vienumu tādas vispārējas aktivitātes vai pieprasījuma veikšanai, kas neizraisa darba izveidi. Piemēram, noliktavas vienību uzlīmju atkārtotai drukāšanai un pieprasījuma veikšanai par krājumiem noteiktā novietojumā. Tālāk esošajā tabulā ir norādītas pieejamās opcijas.
 
 | Opcija | Apraksts |
 |---|---|
@@ -55,7 +55,7 @@ Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs**
 | Numura zīmes pieprasījums | Skatiet krājumu daudzumu noliktavas vienībā un noliktavas vienības novietojumu. |
 | Sākt ražošanas pasūtījumu | Izveidojiet ražošanas pasūtījumu. |
 | Ražošanas brāķis | Ievadiet ražošanas laikā izveidotā brāķa daudzumu katrai materiālu komplekta (MK) rindai. |
-| Ražošanas pēdējā palete | Norādiet, ka ir saražota ražošanas pasūtījuma pēdējā krājumu palete un ražošanas pasūtījuma statuss ir jāatjaunina uz **Ziņots kā pabeigts**. Ražošanas laikā neizmantoto izejmateriālu statuss tiek mainīts atpakaļ no **Izdots** uz **Pasūtīts**, un vienības var atgriezt krājumos. |
+| Ražošanas pēdējā palete | Norādiet, ka ir saražota ražošanas pasūtījuma pēdējā krājumu palete un ražošanas pasūtījuma statuss ir jāatjaunina uz **Ziņots kā pabeigts**. Ražošanas laikā neizmantoto izejmateriālu statuss tiek mainīts atpakaļ no **Izdots** uz **Pasūtīts** , un vienības var atgriezt krājumos. |
 | Krājumu pieprasījums | Skenējiet krājumu, lai noteiktu, kur tas atrodas noliktavā. Pieprasījums atgriež visus skenētā krājuma novietojumus un daudzumu. |
 | Atkārtoti drukāt etiķeti | Atkārtoti izdrukājiet noliktavas vienības uzlīmi. |
 | Numura zīmes būvējums | Izveidojiet pamata noliktavas vienību, apvienojot vairākas noliktavas vienības vienā un tajā pašā novietojumā. Šī opcija ir noderīga, ja vienlaicīgi pārvietojat vairākas noliktavas vienības. Pēc tam, kad pamata noliktavas vienība ir pārvietota, ir jāveic noliktavas vienības pārtraukums, pirms varat atlasīt krājumus no katras noliktavas vienības. <p></p>**Padoms.** Lai pārvietotu pamata noliktavas vienību, ir jāizmanto mobilā ierīce, kas ir konfigurēta kustības darba izveidei. |
@@ -64,8 +64,8 @@ Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs**
 | Autovadītāja reģistrēšanās pēc norīkojuma pabeigšanas | Reģistrējiet to, ka vadītājs ir pabeidzis savu norīkojumu. |
 | Notīrīt numuru sērijas kešatmiņu | Dzēsiet numuru sērijas numurus no numuru sērijas kešatmiņas. Šo aktivitāti parasti veic sistēmas administrators, lai novērstu kešdarbes problēmas, kad tiek izmantota mobilā ierīce. |
 | Mainīt partijas atgriešanas metodi | Atļaujiet darbiniekam norādīt krājuma un partijas atgriešanas metodes kodu. Veicot šo atlasi, tiek atjaunināts partijai norādītais atgriešanas metodes kods. |
-| Parādīt atvērto darbu sarakstu | Parādiet pieejamo darbu sarakstu noteiktam lietotājam. Pēc tam lietotājs var atlasīt veicamo darbu un saņem norādījumus tā veikšanai. Šo sarakstu ir paredzēts skatīt planšetdatoros, kuru ekrāna izmērs ir vismaz 7 collas. Kad atlasāt šo opciju, kļūst pieejami izvēlnes vienumi **Rediģēt vaicājumu** un **Lauku saraksts**. Lapā **Rediģēt vaicājumu** varat iestatīt sarakstā parādīto darbu kritērijus. Lapā **Lauku saraksts** varat atlasīt darbu sarakstā parādāmos laukus. Piemēram, varat samazināt parādīto lauku skaitu, lai lietotājs varētu ātrāk atlasīt piemērotāko darba vienumu. Kopsavilkuma cilnes **Vispārīgi** laukā **Ierakstu skaits lapā** varat arī atlasīt vienā lapā parādāmo darbu ierakstu skaitu. Ja ir atlasīta opcija **Ļauj lietotājiem filtrēt pēc darba transakcijas veida**, darbu sarakstā tiek ietverta vadīkla **Filtrēt darbu**, ko lietotājs var izmantot filtrēšanai pēc transakcijas veida. Lietotājiem darbu sarakstā tiek rādīti tikai tie darbi, kuriem attiecīgajam lietotājam ir atļauja piekļūt. Jums ir jāpārliecinās, ka lietotājiem ir atļauja piekļūt vienu vai vairākiem lietotāja noteiktajiem izvēlnes vienumiem, kas atbalsta noteiktās darba klases tipus, kam šiem lietotājiem ir jāspēj piekļūt. Atļaujas tiek pārbaudītas, kad lietotājs mēģina izpildīt sarakstā iekļautu darbu.|
-| Izveidot pārsūtīšanas pasūtījumu no noliktavas vienības | Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no noliktavas programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām. Papildinformāciju skatiet sadaļā [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](create-transfer-order-from-warehouse-app.md)
+| Parādīt atvērto darbu sarakstu | Parādiet pieejamo darbu sarakstu noteiktam lietotājam. Pēc tam lietotājs var atlasīt veicamo darbu un saņem norādījumus tā veikšanai. Šo sarakstu ir paredzēts skatīt planšetdatoros, kuru ekrāna izmērs ir vismaz 7 collas. Kad atlasāt šo opciju, kļūst pieejami izvēlnes vienumi **Rediģēt vaicājumu** un **Lauku saraksts**. Lapā **Rediģēt vaicājumu** varat iestatīt sarakstā parādīto darbu kritērijus. Lapā **Lauku saraksts** varat atlasīt darbu sarakstā parādāmos laukus. Piemēram, varat samazināt parādīto lauku skaitu, lai lietotājs varētu ātrāk atlasīt piemērotāko darba vienumu. Kopsavilkuma cilnes **Vispārīgi** laukā **Ierakstu skaits lapā** varat arī atlasīt vienā lapā parādāmo darbu ierakstu skaitu. Ja ir atlasīta opcija **Ļauj lietotājiem filtrēt pēc darba transakcijas veida** , darbu sarakstā tiek ietverta vadīkla **Filtrēt darbu** , ko lietotājs var izmantot filtrēšanai pēc transakcijas veida. Lietotājiem darbu sarakstā tiek rādīti tikai tie darbi, kuriem attiecīgajam lietotājam ir atļauja piekļūt. Jums ir jāpārliecinās, ka lietotājiem ir atļauja piekļūt vienu vai vairākiem lietotāja noteiktajiem izvēlnes vienumiem, kas atbalsta noteiktās darba klases tipus, kam šiem lietotājiem ir jāspēj piekļūt. Atļaujas tiek pārbaudītas, kad lietotājs mēģina izpildīt sarakstā iekļautu darbu.|
+| Izveidot pārsūtīšanas pasūtījumu no noliktavas vienības | Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no noliktavas programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu** , pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām. Papildinformāciju skatiet sadaļā [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Citam darbiniekam vai procesam paredzēta darba izveides izvēlnes vienumu konfigurēšana

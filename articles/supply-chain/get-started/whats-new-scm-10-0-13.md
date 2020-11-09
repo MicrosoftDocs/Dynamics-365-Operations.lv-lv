@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 49b90037c182e10d0cc9d449649e8501537fdc4f
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802947"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012394"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.13 (2020. gada oktobris)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.13. Šai versijai ir būvējuma numurs 10.0.569, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.13. Šai versijai ir būvējuma numurs 10.0.569, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2020. gada augusts
 - **Vispārējā pieejamība (self-update):** 2020. gada septembris
@@ -49,8 +49,6 @@ ms.locfileid: "3802947"
 - [Jaunas krājumu dimensijas preču versiju izsekošanai un uzlabotai paplašināšanai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Papildinformāciju skatiet sadaļā [Preču dimensijas](../pim/product-dimensions.md).
 
 - [Pasūtījuma rezervēšana, pamatojoties uz numura zīmēm](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Lai iegūtu papildinformāciju, skatiet [Elastīga numura zīmes rezervēšana](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
-
-- [Izejošās darba slodzes vizualizācija](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)
 
 - [Darba izdošanas rindas pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 

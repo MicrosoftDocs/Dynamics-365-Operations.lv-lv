@@ -3,7 +3,7 @@ title: Eksperimenta pievienošana un variantu rediģēšana
 description: Šajā tēmā ir aprakstīts, kā pievienot eksperimentu trešās puses pakalpojumam Dynamics 365 Commerce un kā rediģēt eksperimenta variantus.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,16 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ea1da0a7dc90b7197f3ee532bccc55d2ddbe4ddd
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930246"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096971"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Eksperimenta pievienošana un variantu rediģēšana
 
-Šajā tēmā ir aprakstīts, kā pievienot eksperimentu pakalpojumā Commerce un kā veikt izmaiņas variantiem, lai tie atbilstu hipotēzei. Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
+Šajā tēmā ir aprakstīts, kā pievienot eksperimentu pakalpojumā Commerce un kā veikt izmaiņas variantiem tā, lai tie atbilstu hipotēzei. 
+
+Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
 
 [ ![Eksperimenta lietotāja maršruts – pievienošana un rediģēšana](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
@@ -39,8 +41,8 @@ Pirms pievienojat eksperimentu pakalpojumā Commerce, jums ir jāpieņem daži l
 
 ### <a name="determine-the-scope-of-your-experiment"></a>Eksperimenta tvēruma noteikšana
 Kad pievienojat eksperimentu, jums tiek piedāvāts definēt eksperimenta tvērumu. Eksperimenti ir definēti kā **daļēja** tvēruma vai **pilnīga** tvēruma.
-- Izvēlieties **daļēja**, ja vēlaties veikt eksperimentu noteiktā lapas daļā. Atlasot šo opciju, ir jānosaka, kuri moduļi ir ietverti eksperimentā. Izmaiņas, kas tiek veiktas noklusējuma lapas vai fragmenta daļām, kas nav saistītas ar eksperimentu, tiek automātiski sinhronizētas starp variantiem.
-- Izvēlieties **pilnīga**, ja vēlaties veikt eksperimentu visā lapā vai fragmentā. Tiek izveidotas atsevišķas noklusējuma lapas vai fragmenta kopijas. Nav nepieciešams atlasīt, kuri moduļi tiek ietverti eksperimentā, jo izmaiņām ir pieejama visa rediģēšanas virsma. Moduļus varat pievienot, dzēst un pārkārtot pēc nepieciešamības. Tomēr, ja tiek veiktas izmaiņas noklusējuma lapā vai fragmentā, ar kuru ir saistīts eksperiments, šīs izmaiņas ir manuāli jāsinhronizē visos variantos.
+- Izvēlieties **daļēja** , ja vēlaties veikt eksperimentu noteiktā lapas daļā. Atlasot šo opciju, ir jānosaka, kuri moduļi ir ietverti eksperimentā. Izmaiņas, kas tiek veiktas noklusējuma lapas vai fragmenta daļām, kas nav saistītas ar eksperimentu, tiek automātiski sinhronizētas starp variantiem.
+- Izvēlieties **pilnīga** , ja vēlaties veikt eksperimentu visā lapā vai fragmentā. Tiek izveidotas atsevišķas noklusējuma lapas vai fragmenta kopijas. Nav nepieciešams atlasīt, kuri moduļi tiek ietverti eksperimentā, jo izmaiņām ir pieejama visa rediģēšanas virsma. Moduļus varat pievienot, dzēst vai pārkārtot pēc nepieciešamības. Tomēr, ja tiek veiktas izmaiņas noklusējuma lapā vai fragmentā, ar kuru ir saistīts eksperiments, šīs izmaiņas ir manuāli jāsinhronizē visos variantos.
 
 <!-- not to editors, we're adding an image here to illustrate the difference. it will help.) -->
 
@@ -56,13 +58,15 @@ Papildinformāciju par publicēšanas grupām, skatiet sadaļā [Darbs ar public
 ## <a name="connect-your-experiment"></a>Eksperimenta pievienošana
 Lai pievienotu eksperimentu, palaidiet vedni **Pievienot eksperimentu**. Vednis palīdz veikt nepieciešamās darbības, lai pievienotu eksperimentu. Pabeidzot vedni, jūsu eksperiments ir pievienots, un varianti ir izveidoti un gatavi rediģēšanai.
 
-1. Lai palaistu vedni, atlasiet cilni **Eksperimenti** vietnes veidotājā un pēc tam atlasiet **Pievienot**. Vai arī vednim varat piekļūt no lapas vai fragmenta redaktora. Rediģēšanas režīmā komandjoslā atlasiet **Pievienot eksperimentu**.
+Lai sāktu eksperimenta savienošanu Commerce vietnes veidotājā, izpildiet tālāk norādītās darbības.
 
-> [!NOTE]
-> Lapu var vienlaicīgi pievienot tikai vienam eksperimentam. Lai pievienotu lapu citam eksperimentam, vispirms dzēsiet eksperimentu, ar kuru lapa ir savienota pašlaik.
+1. Lai palaistu vedni **Savienot eksperimentu** , kreisajā navigācijas rūtī atlasiet **Eksperimenti** un pēc tam atlasiet **Savienot**. Vai arī varam vednim piekļūt no lapas vai fragmentu redaktora, rediģējot to un komandjoslā atlasot **Savienot eksperimentu**.
+
+    > [!NOTE]
+    > Lapu var vienlaicīgi pievienot tikai vienam eksperimentam. Lai pievienotu lapu citam eksperimentam, vispirms dzēsiet eksperimentu, ar kuru lapa ir savienota pašlaik.
 
 1. Izvēlieties lapu vai fragmentu, kurā vēlaties izpildīt eksperimentu.
-1. Iestatiet eksperimenta tvērumu uz **daļēju** vai **pilnīgu**, pamatojoties uz izvēli, ko veicāt augstāk minētajā sadaļā [Eksperimenta tvēruma noteikšana](#determine-the-scope-of-your-experiment).
+1. Iestatiet eksperimenta tvērumu uz **daļēju** vai **pilnīgu** , pamatojoties uz izvēli, ko veicāt augstāk minētajā sadaļā [Eksperimenta tvēruma noteikšana](#determine-the-scope-of-your-experiment).
     > [!NOTE]
     > Lai eksperimentētu ar visu lapu vai fragmentu, ir jāiespējo līdzekļa karodziņš **Eksperimentēt ar lapām vai fragmentiem**. Papildinformāciju skatiet tēmā [Eksperimentēšana pakalpojumā Dynamics 365 Commerce](experimentation-overview.md).
     
@@ -80,7 +84,7 @@ Izpildiet šīs darbības, ja eksperimenta tvērumu definējāt kā **daļēju**
 1. Atlasiet moduli ar ko eksperimentēt, atlasot daudzpunktes (...) un pēc tam atlasot **Pievienot eksperimentam**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Variantu rediģēšana eksperimentiem ar pilnīgu tvērumu
-Ja definējāt eksperimenta tvērumu kā **pilnīgu** vednī **Pievienot eksperimentu**, tad redaktora skatā izmantojiet zem komandjoslas esošo variantu nolaižamo izvēlni, lai rediģētu katru variantu, pamatojoties uz sākotnējo hipotēzi. 
+Ja definējāt eksperimenta tvērumu kā **pilnīgu** vednī **Pievienot eksperimentu** , tad redaktora skatā izmantojiet zem komandjoslas esošo variantu nolaižamo izvēlni, lai rediģētu katru variantu, pamatojoties uz sākotnējo hipotēzi. 
 
 > [!NOTE]
 > Jebkurā gadījumā varat arī izveidot kontroles vai pamata variantu, atstājot kādu no variantiem nemainītu.

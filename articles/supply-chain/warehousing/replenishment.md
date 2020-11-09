@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be7b1142b011b805c78a3b9380d12085e4b7d28f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204981"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016520"
 ---
 # <a name="replenishment-overview"></a>Papildināšanas pārskats
 
@@ -37,7 +37,7 @@ Ir pieejamas tālāk minētās papildināšanas stratēģijas.
 - **Kopuma pieprasījuma papildināšana** — šī stratēģija izveido papildināšanas darbu izejošajiem pasūtījumiem vai kravām, ja krājums nav pieejams, kad kopums izveido darbu. Piemēram, papildināšanas darbu var izveidot, ja kopuma apstrādāšanas laikā pārdošanas pasūtījumā pieprasītais daudzums nav pieejams.
 - **Minimālā/maksimālā papildināšana** — šī stratēģija izmanto minimālos un maksimālos dimensiju ierobežojumus, lai noteiktu novietojumu papildināšanas laiku. Krājumu un novietojumu kritērijus nosaka krājumi, kas tiek novērtēti attiecībā uz papildināšanu. Minimālās/maksimālās papildināšanas veidnes ir galvenais mehānisms optimālu līmeņu uzturēšanai izdošanas vietās. Lai palīdzētu garantēt, ka ir kopuma pieprasījumam atbilstošs daudzums izdošanai pieejamo krājumu, papildus minimālās/maksimālās papildināšanas cikliem varat izmantot pieprasījuma papildināšanu.
 - **Kravas pieprasījuma papildināšana** — šī stratēģija summē pieprasījumu pēc vairākām kravām un izveido papildināšanas darbu, kas ir nepieciešams, lai būtu pietiekami daudz krājumu attiecīgajās izdošanas vietās. Šī stratēģija palīdz garantēt, ka izveidotās kravas var izdot noliktavā pēc to izlaišanas.
-- **Tūlītēja papildināšana** — šī stratēģija krājumus papildina, pirms tiek izpildīts kopums, ja notiek nesekmīgs sadalījums kādai novietojuma direktīvas rindai, kurai ir papildinājuma veidne. 
+- **Tūlītēja papildināšana**  — šī stratēģija krājumus papildina, pirms tiek izpildīts kopums, ja notiek nesekmīgs sadalījums kādai novietojuma direktīvas rindai, kurai ir papildinājuma veidne. 
 
 Visas četras stratēģijas izveido papildināšanas darbu, pamatojoties uz kādu papildināšanas veidni.
 

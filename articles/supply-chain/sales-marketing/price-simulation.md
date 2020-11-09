@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978897"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006263"
 ---
 # <a name="price-simulation"></a>Cenas simulācija
 
@@ -74,7 +74,7 @@ Izveidojiet piedāvājumu ar šādām rindām:
 
 Nākamajā tabulā ir parādītas piedāvājuma rindas.
 
-|                            | Aprēķins                          | Rezultāts   |
+|    &nbsp;                  | Aprēķins                          | Rezultāts   |
 |----------------------------|--------------------------------------|----------|
 | Pārdošanas daudzums             | 10 vienības + 12 vienības                  | 22 vienības |
 | Pārdošanas vērtība USD         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ Nākamajā tabulā ir parādītas piedāvājuma rindas.
 
 Palaidiet cenu simulāciju un lietojiet 15 procentu kopējo atlaidi visam piedāvājumam vai piedāvājuma virsrakstam. Nākamajā tabulā ir redzamas jaunās piedāvājuma kopsummas pēc cenu simulācijas palaišanas.
 
-|                                                      | Aprēķins                               | Rezultāts   |
+|     &nbsp;                                           | Aprēķins                               | Rezultāts   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Pārdošanas daudzums                                       | 10 vienības + 12 vienības                       | 22 vienības |
 | Vecā pārdošanas vērtība USD                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ Izveidojiet piedāvājumu ar šādām rindām:
 
 Nākamajā tabulā ir parādītas piedāvājuma rindas.
 
-|                                      | Aprēķins                          | Rezultāts   |
+|      &nbsp;                          | Aprēķins                          | Rezultāts   |
 |--------------------------------------|--------------------------------------|----------|
 | Pārdošanas daudzums                       | 10 vienības + 12 vienības                  | 22 vienības |
 | Pārdošanas vērtība USD BR-12         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ Nākamajā tabulā ir parādītas piedāvājuma rindas.
 
 Palaidiet cenas simulāciju un lietojiet 10 procentu kopējo atlaidi BR-12 vienībām. Nākamajā tabulā ir redzamas jaunās piedāvājuma kopsummas pēc cenu simulācijas palaišanas vienas rindas krājumam.
 
-|                                                   | Aprēķins                             | Rezultāts   |
+|    &nbsp;                                         | Aprēķins                             | Rezultāts   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Pārdošanas daudzums                                    | 10 vienības + 12 vienības                     | 22 vienības |
 | Vecā pārdošanas vērtība USD BR-12                  | 10 × 15,32                              | 153,20   |

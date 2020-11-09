@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018817"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -51,7 +51,7 @@ Kad ir iespējota izmaiņu pārvaldība, pirkšanas pasūtījumi tiek vadīti ca
 | Pabeigtie       | Šis pirkšanas pasūtījums ir galīgs. Tagad tas ir finansiāli slēgts, un to vairs nav mainīt. | Nē                        |
 
 ## <a name="confirming-purchase-orders"></a>Pirkšanas pasūtījumu ratificēšana
-Pirkšanas pasūtījumiem, kuru apstiprinājuma statuss ir **Apstiprināts**, pirms to ratificēšanas var izpildīt papildu darbības. Piemēram, iespējams, jums kāds pirkšanas pieprasījums ir jāsūta kreditoram, lai uzzinātu informāciju par cenām, atlaidēm vai piegādes datumiem. Šādā gadījumā pirkšanas pasūtījumam varat iestatīt statusu **Tiek pārskatīts ārēji**, izmantojot darbību **Pirkšanas pieprasījums**.
+Pirkšanas pasūtījumiem, kuru apstiprinājuma statuss ir **Apstiprināts** , pirms to ratificēšanas var izpildīt papildu darbības. Piemēram, iespējams, jums kāds pirkšanas pieprasījums ir jāsūta kreditoram, lai uzzinātu informāciju par cenām, atlaidēm vai piegādes datumiem. Šādā gadījumā pirkšanas pasūtījumam varat iestatīt statusu **Tiek pārskatīts ārēji** , izmantojot darbību **Pirkšanas pieprasījums**.
 
 Kreditori, kas ir iestatīti kreditoru portāla lietošanai, var pārskatīt portālā esošos pasūtījumus un tos apstiprināt vai noraidīt. Šī pārskatīšanas procesa laikā pirkšanas pasūtījuma statuss ir **Tiek pārskatīts ārēji**. Kreditoru portālu var konfigurēt tā, lai ratificēšana no kreditora automātiski ratificētu šo pasūtījumu programmatūrā Supply Chain Management. Pirkšanas pasūtījumu varat arī ratificēt manuāli, kad esat saņēmis ratifikāciju no kreditora. Ja kreditors kādu pirkšanas pasūtījumu noraida, tad noraidījums tiek saņemts kopā ar noraidīšanas iemeslu un izmaiņu ierosinājumiem. Šajā gadījumā pirkšanas pasūtījuma statuss saglabājas kā **Tiek pārskatīts ārēji**.
 
@@ -67,11 +67,11 @@ Kreditors var pieprasīt kaut kādu apliecinājumu, ka par pirkumu tiks sniegts 
 ## <a name="changing-purchase-orders"></a>Pirkšanas pasūtījumu mainīšana
 Reizēm jums var rasties nepieciešamība mainīt pirkšanas pasūtījumu pēc tam, kad tas ir sasniedzis apstiprinājuma statusu **Apstiprināts** vai **Ratificēts**.
 
-Ja pirkšanas pasūtījums tika izveidots, izmantojot izmaiņu pārvaldības procesu, tad izmaiņas varat veikt, atsaucot pasūtījumu vai — ja pasūtījums jau ir apstiprināts — izmantojot darbību **Pieprasīt izmaiņas**. Šādā gadījumā apstiprinājuma statuss tiek mainīts atpakaļ uz **Melnraksts**, un pēc tam šo pasūtījumu varat modificēt. Kad esat beidzis izmaiņu veikšanu, iespējams, pirkšanas pasūtījums ir jāiesniedz atkārtotai apstiprināšanai. Varat konfigurēt, kāda tipa izmaiņām ir nepieciešama atkārtota apstiprināšana, izmantojot ierobežojuma nosacījumu **Atkārtotas apstiprināšanas kārtula pirkšanas pasūtījumiem** lapā **Pirkšanas ierobežojumi**.
+Ja pirkšanas pasūtījums tika izveidots, izmantojot izmaiņu pārvaldības procesu, tad izmaiņas varat veikt, atsaucot pasūtījumu vai — ja pasūtījums jau ir apstiprināts — izmantojot darbību **Pieprasīt izmaiņas**. Šādā gadījumā apstiprinājuma statuss tiek mainīts atpakaļ uz **Melnraksts** , un pēc tam šo pasūtījumu varat modificēt. Kad esat beidzis izmaiņu veikšanu, iespējams, pirkšanas pasūtījums ir jāiesniedz atkārtotai apstiprināšanai. Varat konfigurēt, kāda tipa izmaiņām ir nepieciešama atkārtota apstiprināšana, izmantojot ierobežojuma nosacījumu **Atkārtotas apstiprināšanas kārtula pirkšanas pasūtījumiem** lapā **Pirkšanas ierobežojumi**.
 
 Ja daļa no pasūtītā daudzuma kādai pirkšanas pasūtījuma rindai ir piegādāta, tad pasūtīto daudzumu mainīt nevar, kad pirkšanas pasūtījums ir **Melnrakstā**. Tomēr jūs varat mainīt **Piegādātā atlikuma** daudzumu rindas pirkšanas pasūtījumam, kas ir **Melnraksta** statusā.
 
-Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kopējo daudzumu vai jebkuru atlikušo daudzumu pasūtījumā, ja vien šis daudzums vēl nav saņemts vai iekļauts rēķinā. Pēc tam varat izmantot darbību **Pabeigt**, lai novērstu turpmāku apstrādāšanu. 
+Kad pasūtījums ir ratificēts, to vairs nevar izdzēst. Taču varat atcelt kopējo daudzumu vai jebkuru atlikušo daudzumu pasūtījumā, ja vien šis daudzums vēl nav saņemts vai iekļauts rēķinā. Pēc tam varat izmantot darbību **Pabeigt** , lai novērstu turpmāku apstrādāšanu. 
 
 
 ## <a name="canceling-purchase-orders"></a>Pirkšanas pasūtījumu atcelšana
@@ -80,7 +80,7 @@ PP var tikt atcelts, izmantojot galvenes darbību **Atcelt**.
 
 Ja daudzums ir daļēji reģistrēts, saņemts vai iekļauts rēķinā, varat atcelt tikai atlikušo daudzumu, kas nav reģistrēts, saņemts vai iekļauts rēķinā. Pēc tam pasūtījuma daudzums attiecīgi tiek samazināts. Kad rindas daudzums ir atjaunināts, tiek atjaunināts arī rindas statuss. Piemēram, sākotnējais daudzums rindā ir 5, un tiek saņemts 3.  Šādā gadījumā var atcelt tikai divas. Pēc tam rinda tiek atjaunināta uz statusu **Saņemts**.
 
-Ja pasūtījuma rindai ir pievienots saņemšanas atlikums un tas pārsniedz pasūtījuma rindā norādīto daudzumu, darbība **Atcelt** neatceļ lieko daudzumu. Tā vietā rinda paliek statusā **Atvērts pasūtījums**, jo tai ir atlikušais daudzums. Piemēram, sākotnējais daudzums rindā ir 5, un saņemšanas atlikums ir 7. Ja pasūtījums ir atcelts, tiek atceltas piecas, un divas paliek, kā tas redzams krājumu transakcijās.
+Ja pasūtījuma rindai ir pievienots saņemšanas atlikums un tas pārsniedz pasūtījuma rindā norādīto daudzumu, darbība **Atcelt** neatceļ lieko daudzumu. Tā vietā rinda paliek statusā **Atvērts pasūtījums** , jo tai ir atlikušais daudzums. Piemēram, sākotnējais daudzums rindā ir 5, un saņemšanas atlikums ir 7. Ja pasūtījums ir atcelts, tiek atceltas piecas, un divas paliek, kā tas redzams krājumu transakcijās.
 
 Lai atceltu visu daudzumu PP rindā, ir jāatceļ sūtījuma atlikuma daudzums rindā. Pēc tam rinda tiks atjaunināta uz **Atcelts** statusu.
 

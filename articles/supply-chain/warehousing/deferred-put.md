@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d274eae4ad3ba60eadb18ca8de22d4b2d10fe727
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016705"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Noliktavas darba atliktā apstrāde
 
@@ -44,7 +44,7 @@ Politikas tiek konfigurētas lapā **Darba apstrādes politikas**. Nākamajā ta
 | Darba apstrādes politikas nosaukums     | Darba apstrādes politikas nosaukums. |
 | Darba pasūtījuma veids                 | Darba pasūtījuma veids, uz kuru attiecas politika. |
 | Operācija                       | Operācija, kas tiek apstrādāta, izmantojot politiku. |
-| Darba apstrādes metode          | Metode, kas tiek izmantota, lai apstrādātu darbu rindu. Ja metode ir iestatīta uz **Tūlītēju**, darbība atgādina darbību, kad nav darba apstrādes politikas, ko izmanto rindas apstrādāšanai. Ja metode ir iestatīta uz **Atliktu**, tiek izmantota atliktā apstrāde, kas izmanto partijas struktūru. |
+| Darba apstrādes metode          | Metode, kas tiek izmantota, lai apstrādātu darbu rindu. Ja metode ir iestatīta uz **Tūlītēju** , darbība atgādina darbību, kad nav darba apstrādes politikas, ko izmanto rindas apstrādāšanai. Ja metode ir iestatīta uz **Atliktu** , tiek izmantota atliktā apstrāde, kas izmanto partijas struktūru. |
 | Atliktās apstrādes slieksnis   | Vērtība **0** (nulle) norāda, ka nav sliekšņvērtības. Šādā gadījumā, ja to var izmantot, tiek izmantota atliktā apstrāde. Ja konkrētās sliekšņvērtības aprēķins ir zemāks par sliekšņvērtību, tiek izmantota tūlītējā metode. Pretējā gadījumā izmanto atlikto metodi, ja to var izmantot. Ar pārdošanu un pārsūtīšanu saistītiem darbiem sliekšņvērtību aprēķina kā saistīto avota noslodzes rindu skaitu, kuras tiek apstrādātas attiecīgajam darbam. Papildināšanas darbiem sliekšņvērtība tiek aprēķināta kā darba rindu skaits, ko darbs papildina. Iestatot sliekšņvērtību, piemēram, **5** pārdošanai, mazāki darbi, kam ir mazāk nekā piecas sākotnējā avota noslodzes rindas, neizmantos atlikto apstrādi, bet lielāki darbi to izmantos. Sliekšņvērtība ir spēkā tikai tad, ja darba apstrādes metode ir iestatīta uz **Atliktu**. |
 | Atliktās apstrādes partijas grupa |Partijas grupa, ko izmanto apstrādei. |
 
@@ -68,7 +68,7 @@ Pēc noklusējuma tiek parādīti **Pabeigtie** uzdevumi.
 Tālāk sniegts iespējamo statusu skaidrojums.
 
 - **Gaida** — saistītais pakešuzdevums gaida apstrādi pakešapstrādes serverī.
-- **Neizdevās** — apstrāde neizdevās. Uzdevumu var apstrādāt atkārtoti, izmantojot darbību **Apstrādāt atlikto izvietošanu**, vai to var atcelt, izmantojot darbību **Atcelt atlikto izvietošanu** .
+- **Neizdevās** — apstrāde neizdevās. Uzdevumu var apstrādāt atkārtoti, izmantojot darbību **Apstrādāt atlikto izvietošanu** , vai to var atcelt, izmantojot darbību **Atcelt atlikto izvietošanu** .
 - **Pabeigts** — darbs ir pabeigts.
 
 ## <a name="impact-on-closed-work-dates"></a>Ietekme uz slēgtiem darba datumiem

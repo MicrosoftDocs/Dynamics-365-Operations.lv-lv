@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652063"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012417"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.12 (2020. gada augusts)
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.12. Šai versijai ir būvējuma numurs 10.0.507, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management 10.0.12. Šai versijai ir būvējuma numurs 10.0.507, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens** : 2020. gada maijs
 - **Vispārējā pieejamība (pašatjauninājums):** 2020. gada jūlijs
@@ -39,13 +39,21 @@ ms.locfileid: "3652063"
 Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 - [Ļaut bloķēt darba kartes skārienekrānu sanitāros nolūkos](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Papildinformāciju skatiet rakstā [Konfigurēt darba kartes ierīcēm](../production-control/config-job-card-device.md).
+
 - [Notvert preču variantus un izsekošanas dimensijas noliktavas programmā kravas krājumu saņemšanas laikā](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Lai iegūtu sīkāku informāciju, skatiet sadaļu [Uzstādīt mobilās ierīces darbam noliktavā](../warehousing/configure-mobile-devices-warehouse.md).
+
 - Izmaksu aprēķina līmenis (jauns BOM līmenis)<br> - Papildinformāciju skatiet sadaļā [Izmaksu aprēķina formulas](../cost-management/cost-calculation-level.md).
+
 - [Debitoru portāls programmai Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Papildinformāciju skatiet šeit: [Debitoru portāls programmas Dynamics 365 Supply Chain Management pārskatam](../sales-marketing/customer-portal-overview.md).
+
 - [IoT izlūkdatu pamata ieskati](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Papildinformāciju skatiet sadaļā [loT izlūkdatu sākumlapa](../iot/iot-intelligence-home-page.md).
+
 - [Noliktavas vienības identifikatora saņemšanas uzlabojumi, izmantojot noliktavas programmu (turpinājums)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Plašāku informāciju skatiet [Numura zīmes saņemšana, izmantojot noliktavas programmu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Masveida izvietošana Warehouse mobile app](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Plašāku informāciju skatiet šeit: [Instalēt un konfigurēt noliktavas programmas pārskatu](../warehousing/install-configure-warehousing-app.md).
+
 - [Maksimālais izpildes laiks noliktavas vadības rīcībā esošo ierakstu tīrīšanas darbam](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Plašāku informāciju skatiet šeit: [Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs](../warehousing/onhand-cleanup.md).
+
 - [Plānošanas optimizācijas atbalsts pirkšanas tirdzniecības līgumiem](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Plašāku informāciju skatiet šeit: [Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Papildu resursi

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: dce4b6310e2f6d31a115302efa7fbc132799e48f
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829289"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997678"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Kartēšanas iestatīšana pārdošanas pasūtījuma statusa laukiem
 
@@ -45,7 +44,7 @@ Programmā Supply Chain Management pārdošanas pasūtījuma statusu ataino divi
 - Izveidots rēķins
 - Atcelta
 
-**Dokumentu statusa** uzskaitījums norāda visjaunāko dokumentu, kas ģenerēts pasūtījumam. Piemēram, ja pasūtījums ir apstiprināts, šis dokuments ir pārdošanas pasūtījuma apstiprinājums. Ja pārdošanas pasūtījums ir daļēji iekļauts rēķinā un pēc tam tiek apstiprināta atlikusī rinda, dokumenta statuss paliek **Rēķins**, jo rēķins tiek ģenerēts vēlāk procesā.
+**Dokumentu statusa** uzskaitījums norāda visjaunāko dokumentu, kas ģenerēts pasūtījumam. Piemēram, ja pasūtījums ir apstiprināts, šis dokuments ir pārdošanas pasūtījuma apstiprinājums. Ja pārdošanas pasūtījums ir daļēji iekļauts rēķinā un pēc tam tiek apstiprināta atlikusī rinda, dokumenta statuss paliek **Rēķins** , jo rēķins tiek ģenerēts vēlāk procesā.
 
 **Dokumentu statusa** uzskaitījums piedāvā šādas vērtības:
 
@@ -130,7 +129,7 @@ Lai iespējotu **IsSOPIntegrationEnabled** atribūtu, veiciet tālāk norādīt�
 
 Lai iespējotu **isIntegrationUser** atribūtu, veiciet tālāk norādītās darbības.
 
-1. Sadaļā Sales, dodieties uz **Iestatījumi \> Pielāgošana \> Pielāgot sistēmu**, atlasiet **Lietotāja elementu** un pēc tam atveriet **Veidlapa \> Lietotājs**.
+1. Sadaļā Sales, dodieties uz **Iestatījumi \> Pielāgošana \> Pielāgot sistēmu** , atlasiet **Lietotāja elementu** un pēc tam atveriet **Veidlapa \> Lietotājs**.
 
     ![Lietotāja veidlapas atvēršana](media/sales-map-user.png)
 
