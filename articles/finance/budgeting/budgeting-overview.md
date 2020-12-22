@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975272"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528549"
 ---
 # <a name="budgeting-home-page"></a>Budžeta veidošanas sākumlapa
 
@@ -64,7 +64,7 @@ Papildinformāciju par to, kā plānošanas datus no citiem moduļiem pārnest u
 ## <a name="user-interface-and-reporting-capabilities"></a>Lietotāja interfeiss un pārskatu veidošanas iespējas
 Lietotāji var izveidot budžeta plānus tieši klientā (izmantojot konfigurējamu budžeta plāna dokumentu lapu) vai ar programmas Excel starpniecību. Programma Excel nodrošina vairākas papildu iespējas. Piemēram, kā budžeta plāna avotu varat izmantot ārējus datus, veikt pielāgotus aprēķinus un izmantot Microsoft rakurstabulas un diagrammas. Lielāko daļu no mainīgajām vērtībām budžeta plānošanas procesā var konfigurēt. 
 
-Piemēram, var definēt budžeta veidošanas veicēju, to, kam tiek veidots budžets, kā arī to, kā izskatās process. Lai arī budžeta plānošanai varat izmantot Excel, programma tiek uzskatīta par vienīgo patiesās informācijas avotu un palīdz novērst budžeta kontroles problēmas. Periodiskos procesus var izmantot, lai iekļautu budžeta veidošanas sākotnējos datus budžeta plānā. Pārskatu veidošanai programma piedāvā standarta uzziņas lapu kopumu, kas jums ļauj skatīt un analizēt budžeta veidošanas datus. Budžeta plāna datiem var piekļūt, izmantojot pārvaldības atskaišu sastādītāju, un atsevišķus budžeta plāna scenārijus pārvaldības atskaišu sastādītāja atskaitēs var parādīt kā kolonnas.
+Piemēram, var definēt budžeta veidošanas veicēju, to, kam tiek veidots budžets, kā arī to, kā izskatās process. Lai arī budžeta plānošanai varat izmantot Excel, programma tiek uzskatīta par vienīgo patiesās informācijas avotu un palīdz novērst budžeta kontroles problēmas. Periodiskos procesus var izmantot, lai iekļautu budžeta veidošanas sākotnējos datus budžeta plānā. Pārskatu veidošanai programma piedāvā standarta uzziņas lapu kopumu, kas jums ļauj skatīt un analizēt budžeta veidošanas datus. Budžeta plāna datiem var piekļūt, izmantojot līdzekli [Finanšu pārskatu veidošana](../general-ledger/financial-reporting-getting-started.md), un atsevišķus budžeta plāna scenārijus finanšu pārskatā var parādīt kā kolonnas.
 
 
 

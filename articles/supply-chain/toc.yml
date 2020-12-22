@@ -12,10 +12,12 @@
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
             - name: One Version pakalpojuma atjauninājumi
               items:
-                - name: One Version pakalpojuma atjauninājumu pārskats
+                - name: Vienas versijas pakalpojuma atjauninājumu pārskats
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bieži uzdotie jautājumi par One Version pakalpojuma atjauninājumiem
+                - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Atjauninājumu un pielāgotā koda dzīves cikla, tostarp Dynamics 365 Commerce, pārvaldība'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Programmatūras dzīves cikla politika\_— mākonī"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: "Programmatūras dzīves cikla politika\_— lokāli"
@@ -54,7 +56,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sistēmas prasības lokālajiem izvietojumiem
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance + Operations (lokāli) iegāde
+                - name: Finance + Operations (on-premises) iegāde
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Noliktavas konfigurēšana lokālajiem izvietojumiem
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -68,14 +70,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Jaunumi un izmaiņas programmā Supply Chain Management
                   items:
-                    - name: "Jaunumi un izmaiņas programmā Supply Chain Management\_— sākumlapa"
+                    - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management 10.0.15 (2020.\_gada decembris)"
+                    - name: "Supply Chain Management 10.0.16 (2021.\_gada februāris)"
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: "Supply Chain Management 10.0.15 (2021.\_gada janvāris)"
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: "Supply Chain Management\_10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: "Supply Chain Management\_10.0.13 (2020.\_gada oktobris)"
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'AX 2012 līdzekļi, kas tika atlikti'
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentācijas resursi
@@ -216,6 +216,14 @@
                   items:
                     - name: Tranzītpreces no kreditora
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Mākonis un mala
+          items:
+            - name: Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: Līdzekļu pārvaldība
           items:
             - name: Pārskats par līdzekļu pārvaldību
@@ -230,9 +238,9 @@
                 - name: Funkcionālo novietojumu dzīves cikla stāvokļi
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Uzturēšanas atribūtu tipi
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: Funkcionālo novietojumu tipi
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: Funkcionālo novietojumu tipi
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: Funkcionālie novietojumi
               items:
                 - name: Ievads par funkcionālajiem novietojumiem
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Izmaksu vadības Power BI satura pakotne
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Ar izmaksām saistīto problēmu novēršanas pārvaldība
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Pārskatu veidošana un Power BI integrācija
           items:
             - name: Pārskatu veidošana un analīze ar Power BI
@@ -1327,6 +1337,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Pašreizējās vidējās izmaksu cenas izsekošana pēc krājumu dimensijas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Krājumu redzamības pievienojumprogramma
+              href: inventory/inventory-visibility.md
         - name: IoT informācija
           items:
             - name: IoT informācijas sākumlapa
@@ -1347,6 +1359,8 @@
           items:
             - name: Vispārējās plānošanas sākumlapa
               href: master-planning/master-planning-home-page.md
+            - name: Migrācija uz plānošanas optimizāciju vispārējai plānošanai
+              href: master-planning/new-master-planning-engine.md
             - name: Plānošanas optimizācija
               items:
                 - name: Plānošanas optimizācijas apskats
@@ -1357,10 +1371,18 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filtru lietošana plānam
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Vispārējā plānošana ar pieprasījuma apjoma prognozi
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Drošības rezerves
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Krājumu iezīmēšana ar plānošanas optimizāciju
+                  href: master-planning/planning-optimization/marking.md
+                - name: Starpuzņēmumu plānošana
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: Preču izslēgšana ar noteiktiem preču dzīves cikla stāvokļiem
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: Plānoto pasūtījumu apstiprināšana
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: 'Automātiskā apstiprināšana, izmantojot plānošanas optimizāciju'
@@ -1463,9 +1485,11 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: Pieprasījuma apjoma prognozes manuāla modificēšana
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Vispārējās plānošanas problēmu novēršana
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobilā programma
           items:
-            - name: Mobilās programmas mājas lapa
+            - name: Mobilās programmas sākumlapa
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mobilās darbvietas
               items:
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: "MK\_aprēķini"
                   href: cost-management/bom-calculations.md
+                - name: Problēmu novēršana saistībā ar preču informāciju
+                  href: pim/troubleshooting-productinformation.md
             - name: Preces konfigurācija
               items:
                 - name: Preces konfigurācijas pārskats
@@ -1955,6 +1981,34 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Datu pārsūtīšana par preču modeļiem
                       href: pim/tasks/transfer-data-product-models.md
+                - name: Preču konfiguratora problēmu novēršana
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Tehnisko izmaiņu pārvaldība
+          items:
+            - name: Tehnisko izmaiņu pārvaldības pārskats
+              href: engineering-change-management/product-engineering-overview.md
+            - name: Tehnisko izmaiņu pārvaldības līdzekļu apskats
+              href: engineering-change-management/engineering-scenarios.md
+            - name: Tehnisko izmaiņu pārvaldības parametri
+              href: engineering-change-management/engineering-parameters.md
+            - name: Kopīgo vērtību izveide tehnisko izmaiņu pārvaldībai
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: Tehnisko organizāciju un datu īpašumtiesību kārtulas
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: Preces īpašnieks
+              href: engineering-change-management/product-owner.md
+            - name: Tehniskie atribūti un tehnisko atribūtu meklēšana
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: Tehniskās versijas un tehnisko preču kategorijas
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: Preču dzīves cikla stāvoklis un darījumi
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: Tehnisko preču izmaiņu pārvaldība
+              href: engineering-change-management/engineering-change-management.md
+            - name: Preces gatavība
+              href: engineering-change-management/product-readiness.md
+            - name: Izlaist preču struktūru
+              href: engineering-change-management/release-product-structure.md
         - name: Ražošanas kontrole
           items:
             - name: Pārskats par ražošanas procesu
@@ -2047,6 +2101,8 @@
                       items:
                         - name: Ražošanas izpildes interfeisa konfigurēšana
                           href: production-control/production-floor-execution-configure.md
+                        - name: Ražošanas izpildes interfeisa noformēšana
+                          href: production-control/production-floor-execution-tabs.md
                         - name: Ierīces iestatīšana ražošanas izpildes interfeisa palaišanai
                           href: production-control/production-floor-execution-setup.md
                         - name: Kā nodarbinātie izmanto ražošanas izpildes interfeisu
@@ -2105,9 +2161,11 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Brīvā režīma grupas
                       href: production-control/time-attendance-flex-groups.md
+                - name: Problēmu novēršana saistībā ar atsevišķo ražošanu
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: LEAN ražošanas process
               items:
-                - name: Lean manufacturing pārskats
+                - name: LEAN ražošanas procesa pārskats
                   href: production-control/lean-manufacturing-overview.md
                 - name: No aktivitātēm atkarīgu apakšlīgumu slēgšana
                   href: production-control/activity-based-subcontracting.md
@@ -2257,9 +2315,11 @@
                       href: production-control/consumption.md
                     - name: Ražošanas grāmatošana
                       href: cost-management/production-posting.md
+                - name: Problēmu novēršana saistībā ar ražošanas procesu
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Pārdošana un mārketings
           items:
-            - name: Tirdzniecības un mārketinga apskats
+            - name: Pārdošanas un mārketinga pārskats
               href: sales-marketing/overview-sales-marketing.md
             - name: Pārdošanas pasūtījumi
               items:
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: Degvielas rādītāja saistīšana ar pārvadātāju kā papildobjekta maksu
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: USMCA izcelsmes sertifikāts
+              href: transportation/usmca-certification-of-origin.md
             - name: Preču transporta pavadzīmes izveide
               href: transportation/create-bill-of-lading.md
             - name: Kravas transportēšanas maršrutu plānošana
@@ -2607,6 +2669,26 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Autovadītāja reģistrēšanās norīkojuma izpildei un reģistrēšanās pēc norīkojuma izpildes
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: Atlaides
+              href: transportation/transportation-management-discount.md
+            - name: Papildmaksas
+              href: transportation/transportation-management-misc-charge.md
+            - name: Režīmi un metodes
+              href: transportation/transportation-management-modes-methods.md
+            - name: Numuru sērijas
+              href: transportation/transportation-management-number-sequence.md
+            - name: Statuss
+              href: transportation/transportation-management-status.md
+            - name: Zonas šablons
+              href: transportation/transportation-management-zone-master.md
+            - name: Pārvadātāju grupas
+              href: transportation/tasks/carrier-groups.md
+            - name: Noslodzes plānošanas rīks
+              href: transportation/tasks/load-building-workbench.md
+            - name: Noslodzes veidnes
+              href: transportation/tasks/load-template.md
+            - name: Novērtējuma profili
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: Pārvadātāja degvielas rādītāja iestatīšana
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Transportēšanas norēķinu iestatīšana
@@ -2643,22 +2725,30 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                - name: Novietojuma preces dimensiju sajaukšana
+                - name: Novietojuma preces dimensijas sajaukšana
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Izvietošanas klasteri
+                  href: warehousing/putaway-clusters.md
                 - name: Kvalitātes pārbaude
                   href: warehousing/quality-check.md
+                - name: Ienākošo noliktavas operāciju problēmu novēršana
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Izejošās noliktavas operācijas
               items:
                 - name: Rezervācijas noliktavas pārvaldībā
                   items:
                     - name: Elastīga noliktavas līmeņa dimensiju rezervācijas politika
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Problēmu novēršana saistībā ar rezervācijām noliktavas pārvaldībā
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Daļēja izlaide un daļēja nosūtīšana
                   items:
                     - name: Daļēja transporta kravas nosūtīšana
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaide
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Problēmu novēršana saistībā ar daļēju izlaidi un daļēju nosūtīšanu
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Izdošana un iepakošana
                   items:
                     - name: Klastera izdošanas iestatīšana
@@ -2695,8 +2785,12 @@
                       href: warehousing/location-directive-inventory-picking-aging.md
                     - name: Izejošā kārtošana
                       href: warehousing/outbound-sorting.md
-                    - name: Novietot pie sienas - novietot veikalā
+                    - name: "Novietot pie sienas\_— novietot veikalā"
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: Izejošās darba slodzes vizualizācija
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: Problēmu novēršana saistībā ar izdošanu un iepakošanu
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Papildināšana
                   items:
                     - name: Papildināšanas pārskats
@@ -2709,8 +2803,12 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Zonas sliekšņa papildināšana
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Papildināšanas stratēģijas
+                      href: warehousing/replenishment-strategies.md
                     - name: 'Papildināšana, pārsniedzot vietas ietilpību'
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Noliktavas papildināšanas problēmu novēršana
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Kravu veidošana un nosūtīšana
                   items:
                     - name: Apstiprināšana un pārsūtīšana
@@ -2725,6 +2823,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Kopuma etiķešu atkārtota izdrukāšana un anulēšana
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Kravu veidošanas un nosūtīšanas problēmu novēršana
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Sūtījumu konsolidācijas politikas
                   items:
                     - name: Sūtījumu konsolidācijas politikas
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: "5.\_scenārijs\_— manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu"
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: Izejošo noliktavas operāciju problēmu novēršana
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Visās noliktavas operācijās
               items:
                 - name: Noliktavas darba politikas
@@ -2793,10 +2895,14 @@
                       href: warehousing/work-line-details.md
                     - name: Numura zīmes novietojuma pozicionēšana
                       href: warehousing/location-license-plate-positioning.md
-                    - name: Darba kopas maiņa darbam
+                    - name: Mainīt darba pūlu darbam
                       href: warehousing/change-work-pool-on-work.md
-                    - name: Krājumu konsolidācija - novietojuma utilizācija
+                    - name: "Krājumu konsolidācija\_— novietojuma utilizācija"
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Noliktavas darba problēmu novēršana
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: Darba sadale
+                      href: warehousing/work-split.md
             - name: Noliktavas iestatīšana
               items:
                 - name: Noliktavas konfigurācija
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: 'Darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas'
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: Novietojuma direktīvu izveide
+                    - name: Darbs ar novietojuma direktīvām
                       href: warehousing/create-location-directive.md
+                    - name: Novietojuma uzkrājumu ierobežojumi
+                      href: warehousing/location-stocking-limits.md
                     - name: Kopuma darbību kodi
                       href: warehousing/wave-step-codes.md
                     - name: Kopuma apstrādes konfigurēšana
@@ -2843,6 +2951,8 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Noliktavas iestatīšana pārsūtīšanas pasūtījumiem
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Noliktavas konfigurācijas problēmu novēršana
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Noliktavas programmas instalēšana un konfigurēšana
                   items:
                     - name: Noliktavas programmas instalēšana un savienošana
@@ -2877,8 +2987,12 @@
                       href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Jaunināšana un migrēšana
                   items:
-                    - name: Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX 2012 uz Finance and Operations
+                    - name: "Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Problēmu novēršana saistībā ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Noliktavas iestatīšanas problēmu novēršana
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Supply Chain Management izstrāde
           items:
             - name: Ganta kontroles izstrādes ceļvedis

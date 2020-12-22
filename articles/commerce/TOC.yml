@@ -10,10 +10,12 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: One Version pakalpojuma atjauninājumi
               items:
-                - name: One Version pakalpojuma atjauninājumu pārskats
+                - name: Vienas versijas pakalpojuma atjauninājumu pārskats
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Bieži uzdotie jautājumi par One Version pakalpojuma atjauninājumiem
+                - name: Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Atjauninājumu un pielāgotā koda dzīves cikla, tostarp Dynamics 365 Commerce, pārvaldība'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
                 - name: "Programmatūras dzīves cikla politika\_— mākonī"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: "Programmatūras dzīves cikla politika\_— lokāli"
@@ -66,7 +68,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance + Operations (lokāli) iegāde
+                - name: "Finance\_+\_Operations (on-premises) iegāde"
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange ieviešanas vadlīnijas
                   href: dev-itpro/implementation-considerations-cdx.md
@@ -92,12 +94,12 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.16 (2021.\_februāris)"
+                      href: get-started/whats-new-commerce-10-0-16.md
                     - name: "Commerce 10.0.15 (2021.\_gada janvāris)"
                       href: get-started/whats-new-commerce-10-0-15.md
                     - name: "Commerce\_10.0.14 (2020.\_gada novembris)"
                       href: get-started/whats-new-commerce-10-0-14.md
-                    - name: "Commerce\_10.0.13 (2020.\_gada oktobris)"
-                      href: get-started/whats-new-commerce-10-0-13.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -106,8 +108,6 @@
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: 'AX 2012 līdzekļi, kas tika atlikti'
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: Dokumentācijas resursi
@@ -324,6 +324,8 @@
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
                         - name: Nodokļa atbrīvojuma aprēķināšana
                           href: tax-exempt-price-inclusive.md
+                        - name: PVN tiešsaistes pasūtījumiem konfigurēšana
+                          href: sales-tax-config.md
                     - name: E-pasta paziņojumu profila iestatīšana
                       href: email-notification-profiles.md
                     - name: Numuru sērijas
@@ -366,8 +368,6 @@
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: 'Azure Active Directory autentifikācijas iespējošana, lai veiktu pierakstīšanos POS'
                       href: aad-pos-logon.md
-                    - name: Demonstrācijas datu ekrāna izkārtojumi programmā MPOS un Cloud POS
-                      href: demo-data.md
                     - name: Preču un klientu meklēšana punktā POS
                       href: POS-search-improvements.md
                     - name: Preces un preces variantu meklēšana pasūtījuma izveides laikā
@@ -510,6 +510,8 @@
                       href: cash-denominations.md
                     - name: Kredītkaršu apstrādes konfigurēšana
                       href: tasks/configure-credit-card-processing.md
+                    - name: Dialoglodziņa “Atlikums līdz” izlaišana punktā POS
+                      href: dev-itpro/skip-change-due.md
                     - name: Adyen maksājumu savienotājs
                       href: dev-itpro/adyen-connector.md
                     - name: 'Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen'
@@ -530,10 +532,16 @@
                       href: dev-itpro/commerce-payments.md
                     - name: Kredītkaršu apstrāde bez aparatūras stacijas
                       href: dev-itpro/cnp-pos.md
+                    - name: "Dynamics\_365 Payment Connector pakalpojumam PayPal"
+                      href: paypal.md
+                    - name: Maka maksājumu atbalsts
+                      href: wallets.md
                     - name: Bieži uzdotie jautājumi par maksājumiem
                       href: dev-itpro/payments-retail.md
                 - name: Bing karšu pārvaldība organizācijā
                   href: dev-itpro/manage-bing-maps.md
+                - name: Laikspraugu izveide un atjaunināšana izsniegšanai klientam
+                  href: dev-itpro/pickup-timeslots.md
         - name: Jūsu preču un pakalpojumu tirdzniecība
           items:
             - name: 'Kategorijas, preces un klāsts'
@@ -708,13 +716,17 @@
                   href: customer-orders-overview.md
                 - name: Hibrīda debitoru pasūtījumi
                   href: hybrid-customer-orders.md
-                - name: Pasūtījumu operācijas atsaukšana POS
+                - name: Pasūtījumu operācijas atsaukšana punktā POS
                   href: enhancedorderrecall.md
+                - name: Vairāku savākšanas piegādes režīmu iespējošana
+                  href: multiple-pickup-modes.md
             - name: Pārdošanas pasūtījumi
               items:
-                - name: Zvanu centra pasūtījuma izveide
+                - name: Zvanu centra pasūtījumu izveide
                   href: tasks/create-call-center-orders.md
-                - name: "Piegādes veida mainīšana programmā\_POS"
+                - name: Darbību e-pasta ziņojumu pielāgošana pēc piegādes veida
+                  href: customize-email-delivery-mode.md
+                - name: "Piegādes veida mainīšana punktā\_POS"
                   href: POS-change-delivery-mode.md
             - name: Sadalīto pasūtījumu pārvaldība
               items:
@@ -770,11 +782,21 @@
               href: retail-statements.md
             - name: Transakciju konsekvences pārbaudītājs
               href: valid-checker.md
-            - name: Kārtulu atspējošana mazumtirdzniecības transakciju konsekvences pārbaudītājā
+            - name: Kārtulu atspējošana mazumtirdzniecības darījumu konsekvences pārbaudītājā
               href: disable-consistency-check-rule.md
-            - name: Mazumtirdzniecības veikala transakciju rediģēšana un auditēšana
-              href: edit-audit-retail-transactions.md
-            - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala transakcijām
+            - name: Mazumtirdzniecības veikala darījumu rediģēšana un auditēšana
+              items:
+                - name: 'Darījumu, kas saistīti ar pārdošanu skaidrā naudā bez piegādes, un skaidras naudas pārvaldības darījumu rediģēšana un auditēšana'
+                  href: edit-cash-trans.md
+                - name: Tiešsaistes pasūtījumu un asinhrono debitoru pasūtījumu darījumu rediģēšana un auditēšana
+                  href: edit-order-trans.md
+                - name: Mazumtirdzniecības darījumu finanšu dimensiju rediģēšana
+                  href: edit-financial-dim.md
+                - name: 'Excel darbgrāmatas izveide, lai rediģētu mazumtirdzniecības darījumus'
+                  href: create-excel-edit.md
+                - name: 'Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus'
+                  href: add-fields-excel.md
+            - name: Pakāpeniskas plūsmas pasūtījumu izveide mazumtirdzniecības veikala darījumiem
               href: trickle-feed.md
             - name: 'Mazumtirdzniecības veikala pārskatu izveidošana, aprēķināšana un grāmatošana'
               href: tasks/create-calculate-post-statement-retail-store.md
@@ -808,7 +830,7 @@
               href: task-mgmt-pos.md
         - name: E-komercijas vietnes pārvaldība
           items:
-            - name: Tiešsaistes veikala apskats
+            - name: E-komercijas vietnes apskats
               href: online-store-overview.md
             - name: E-komercijas vietnes izveide
               items:
@@ -818,7 +840,7 @@
                   href: deploy-ecommerce-site.md
                 - name: E-komercijas vietnes izveide
                   href: create-ecommerce-site.md
-                - name: E-komercijas vietnes saistīšana ar tiešsaistes kanālu
+                - name: Dynamics 365 Commerce vietnes saistīšana ar tiešsaistes kanālu
                   href: associate-site-online-store.md
                 - name: Failu robots.txt pārvaldība
                   href: manage-robots-txt-files.md
@@ -946,6 +968,8 @@
                   href: dam-crop-images.md
                 - name: Attēlu fokusa punktu pielāgošana
                   href: dam-custom-focal-point.md
+                - name: Statisku failu augšupielāde un apkalpošana
+                  href: upload-serve-static-files.md
             - name: Vietnes atbilstības nodrošināšana
               items:
                 - name: Atbilstības pārskats
@@ -1014,6 +1038,8 @@
                       href: ship-address-module.md
                     - name: Piegādes opciju modulis
                       href: delivery-options-module.md
+                    - name: Saņemšanas informācijas modulis
+                      href: pickup-info-module.md
                     - name: Pasūtījumu informācijas modulis
                       href: order-confirmation-module.md
                     - name: Dāvanu kartes modulis
@@ -1764,7 +1790,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) mobilā programma
           items:
-            - name: Mobilās programmas mājas lapa
+            - name: Mobilās programmas sākumlapa
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Mobilās darbvietas
               items:
@@ -1966,21 +1992,23 @@
                   href: e-commerce-extensibility/overview.md
                 - name: Darba sākšana
                   items:
+                    - name: Darba sākšana ar e-komercijas tiešsaistes paplašināmības izstrādi
+                      href: e-commerce-extensibility/sdk-getting-started.md
                     - name: Sistēmas prasības
                       href: e-commerce-extensibility/system-requirements.md
                     - name: Izstrādes vides iestatīšana
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Izstrādes vides (.env) faila konfigurēšana
                       href: e-commerce-extensibility/configure-env-file.md
-                    - name: "Atkļūdošana, izmantojot 1.\_līmeņa Commerce izstrādes vidi"
+                    - name: 'E-komercijas izstrādes vides konfigurēšana, izmantojot Commerce mākoņvidi'
                       href: e-commerce-extensibility/debug-tier-1.md
                     - name: Azure DevOps koda koplietošanas iestatīšana un būvējuma konveijera izveide
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platformas apskats
                   items:
-                    - name: Arhitektūras apskats
+                    - name: E-komercijas arhitektūras apskats
                       href: e-commerce-extensibility/architectural-overview.md
-                    - name: Tiešsaistes komponenti
+                    - name: E-komercijas komponenti
                       href: e-commerce-extensibility/ecommerce-components.md
                     - name: CLI komandu atsauce
                       href: e-commerce-extensibility/cli-command-reference.md
@@ -2112,10 +2140,12 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK un moduļu bibliotēkas atjauninājumi
                       href: e-commerce-extensibility/sdk-updates.md
-                - name: Paraugprakses
+                - name: Paraugprakses un bieži uzdotie jautājumi
                   items:
                     - name: Paraugprakses Dynamics 365 Commerce izstrādei
                       href: e-commerce-extensibility/best-practices-dev.md
+                    - name: Bieži uzdotie jautājumi par Dynamics 365 Commerce tiešsaistes SDK
+                      href: e-commerce-extensibility/sdk-faq.md
             - name: "Retail\_SDK"
               items:
                 - name: "Retail\_SDK arhitektūra"
@@ -2136,6 +2166,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: Commerce SDK būvējuma konveijera iestatīšana
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Paraugu un pakotņu lejupielāde no GitHub un NuGet
+                  href: dev-itpro/retail-sdk/sdk-github.md
                 - name: Bieži uzdotie jautājumi par Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Pārdošanas punktu paplašināmība
@@ -2156,6 +2188,8 @@
                   href: dev-itpro/POS-APIs.md
                 - name: POS maksājumu paplašinājums
                   href: dev-itpro/pos-payment-extension.md
+                - name: Atbalsts noglabāšanai POS maksājumu SDK
+                  href: dev-itpro/tipping.md
                 - name: Atbalsts ārējām dāvanu kartēm
                   href: dev-itpro/gift-card.md
                 - name: Zīmolrades izveide un lietošana Retail Experience programmā
@@ -2218,7 +2252,7 @@
                   href: dev-itpro/commerce-runtime-overview.md
                 - name: CRT pakalpojumi
                   href: dev-itpro/crt-services.md
-                - name: "CRT un Retail\_Server paplašināmība"
+                - name: CRT paplašinājuma modelis
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: Retail kanālu noslēpumu pārvaldība
                   href: dev-itpro/manage-secrets.md

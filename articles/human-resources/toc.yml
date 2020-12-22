@@ -5,7 +5,9 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
-        - name: "2002.\_gada 22.\_oktobris"
+        - name: "2020.\_gada 2.\_decembris"
+          href: hr-whats-new-2020-12-02.md
+        - name: "2020.\_gada 22.\_oktobris"
           href: hr-whats-new-2020-10-22.md
         - name: "2020.\_gada 6.\_oktobris"
           href: hr-whats-new-2020-10-06.md
@@ -471,12 +473,14 @@
               href: hr-personnel-jobs.md
             - name: Nodaļu definēšana
               href: hr-personnel-define-departments.md
-            - name: Pievienot hierarhijai nodaļu
+            - name: Nodaļas pievienošana hierarhijai
               href: hr-personnel-add-department-hierarchy.md
             - name: Darbu definēšana
               href: hr-personnel-define-jobs.md
             - name: Darba laika kalendāra izveide
               href: hr-personnel-create-working-time-calendar.md
+            - name: Kandidātu pieņemšana darbā
+              href: hr-personnel-recruit.md
             - name: Bieži uzdotie jautājumi par personāla darbībām
               href: hr-personnel-actions-faq.md
             - name: 'Darbplūsmu izmantošana, lai pārvaldītu informāciju par darbiniekiem'
@@ -531,13 +535,15 @@
               items:
                 - name: Atvieglojumu pārvaldības pārskats
                   href: hr-benefits-management-overview.md
-                - name: Priekšrocību pārvaldības konfigurēšana
+                - name: Atvieglojumu pārvaldības konfigurēšana
                   items:
-                    - name: Iestatīt priekšrocību pārvaldības parametrus
+                    - name: Atvieglojumu pārvaldības parametru konfigurēšana katram uzņēmumam
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Atvieglojumu pārvaldības un darbinieku pašapkalpošanās parametru iestatīšana visiem uzņēmumiem
                       href: hr-benefits-setup-parameters.md
-                    - name: Konfigurēt piemērotības noteikumus un opcijas
+                    - name: Piemērotības kārtulu un opciju konfigurēšana
                       href: hr-benefits-setup-eligibility-rules.md
-                    - name: Konfigurēt personīgās saziņas piemērotības opcijas
+                    - name: Personīgās saziņas piemērotības opciju konfigurēšana
                       href: hr-benefits-setup-contact-eligibility-options.md
                     - name: Izveidot seguma opcijas
                       href: hr-benefits-setup-coverage-options.md

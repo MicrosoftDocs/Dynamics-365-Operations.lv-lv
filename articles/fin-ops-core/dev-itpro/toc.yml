@@ -14,14 +14,12 @@
               items:
                 - name: "Jaunumi un izmaiņas Platform atjauninājumos\_— sākumlapa"
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.16 (2021.\_gada februāris)"
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: "Platform atjauninājumi versijai\_10.0.15 (2021.\_gada janvāris)"
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: "Platform atjauninājumi versijai\_10.0.14 (2020.\_gada novembris)"
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: "Platform atjauninājumi versijai\_10.0.13 (2020.\_gada oktobris)"
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: "Platform atjauninājumi versijai\_10.0.12 (2020.\_gada augusts)"
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie platformas līdzekļi
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 'AX 2012 līdzekļi, kas tika atlikti'
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: 'Līdzekļi, kas nav ieviesti lokālajos izvietojumos'
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Galvenā atbalsta beigas versijai Microsoft Dynamics AX 2009 un 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Biznesa notikumi
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Kartējuma iestatīšana pārdošanas pasūtījuma statusa laukiem
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: 'Starpuzņēmumu pasūtījumu filtrēšana, lai novērstu pasūtījumu un pasūtījumu rindu sinhronizāciju'
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Duālā ieraksta pārvaldība
                           items:
                             - name: Elementa un lauka kartējumu pielāgošana
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Integrētie nodokļu pamatdati
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Sinhronizēt ar Dynamics 365 Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: No potenciālā klienta līdz skaidrai naudai duālajā ierakstā
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Sinhronizēt ar Dynamics 365 Supply Chain Management cenu noteikšanas programmu pēc pieprasījuma
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: "Izmantot Dynamics 365 Commerce cenu noteikšanas programmu ar Dynamics\_365 Sales"
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Iekšējie līdzekļi apkalpošanai
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Integrēts nodarbinātais, darbs un amats'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Aparatūras izmēru prasības
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: "Autentifikācija programmā Dynamics 365 Finance\_+\_Operations (on-premises)"
+                      href: deployment/authentication-onprem.md
                 - name: Lokālas vides iestatīšana un izvietošana
                   items:
                     - name: Lokālo projektu iestatīšana LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Lifecycle Services (LCS) savienojuma izveide pakalpojumā Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Mantotā konveijera atjaunināšana pakalpojumā Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Autoparka pārvaldības programmas piemērs
               items:
                 - name: Visaptverošs scenārijs autoparka pārvaldības programmas piemēram
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: 'Datu piekļuve, izmantojot SysDa API'
                           href: dev-ref/sysda.md
+                        - name: SQL injekcijas uzbrukuma mazināšana
+                          href: dev-ref/query-with-parameters.md
                     - name: X++ makro
                       href: dev-ref/xpp-macros.md
                     - name: X++ atribūtu klases
@@ -1460,7 +1466,7 @@
           items:
             - name: Atbalsta saņemšana par Finance and Operations un Lifecycle Services
               href: lifecycle-services/lcs-support.md
-            - name: Dynamics 365 atbalsta pārskats
+            - name: "Dynamics\_365 atbalsta pārskats"
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 'Atbalsta saņemšana par Finance and Operations, kā darbību nodrošina 21Vianet Ķīnā'
               href: lifecycle-services/21vianet-support.md
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Šifrēšana Finance and Operations programmās
                   href: sysadmin/encryption.md
-                - name: Iestatīt sesijas dīkstāves taimautu
+                - name: Sesijas dīkstāves taimauta iestatīšana
                   href: sysadmin/session-idle-timeout.md
                 - name: Standarta komplektācijā iekļautie drošības pārskati
                   href: sysadmin/security-reports.md
                 - name: Jaunu lietotāju izveide
                   href: sysadmin/tasks/create-new-users.md
+                - name: Lietotāju sesiju pārvaldība
+                  href: sysadmin/user-session-management.md
                 - name: Lietotāju lielapjoma importēšana
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Pienākumu sadales iestatīšana
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Azure Key Vault klienta iestatīšana
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Tīrīšanas rutīnas
+              href: sysadmin/cleanuproutines.md
         - name: 'Jauninājumi, atjauninājumi un labojumfaili'
           items:
             - name: 'Jauninājumu, atjauninājumu un labojumfailu resursi'
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Navigācijas izveide
                   href: user-interface/build-navigation.md
-                - name: Darbvietu izveide
+                - name: Darbvietas modificēšana
                   href: user-interface/build-workspace.md
             - name: Formas
               items:
