@@ -1,0 +1,111 @@
+---
+title: Preču dzīves cikla stāvokļa pārskats
+description: Preces dzīves cikla stāvoklis dokumentē izlaistās preces vai preces varianta dzīves cikla stāvokli.
+author: cvocph
+manager: tfehr
+ms.date: 01/06/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
+audience: Application User, IT Pro
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: kamaybac
+ms.dyn365.ops.version: 7.2999999999999998
+ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4433237"
+---
+# <a name="product-lifecycle-state-overview"></a><span data-ttu-id="ab4cd-103">Preču dzīves cikla stāvokļa pārskats</span><span class="sxs-lookup"><span data-stu-id="ab4cd-103">Product lifecycle state overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="ab4cd-104">Preces dzīves cikla stāvoklis dokumentē izlaistās preces vai preces varianta dzīves cikla stāvokli.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="ab4cd-105">Preces dzīves cikla stāvokļus definē lietotājs — parasti tas ir produktu menedžeris vai preces pamatdatu pārvaldnieks.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="ab4cd-106">Īpašus biznesa procesus, piemēram, vispārējo plānošanu, var ietekmēt noteikts dzīves cikla stāvoklis.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>
+
+<span data-ttu-id="ab4cd-107">Izlaista prece vai preces variants var būt saistīts ar preces dzīves cikla stāvokli, kurš dokumentē, kādā dzīves cikla stāvoklī konkrētā prece vai variants atrodas pašlaik.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="ab4cd-108">Varat definēt neierobežotu skaitu preces dzīves cikla stāvokļu, piešķirot stāvokļa nosaukumu un aprakstu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="ab4cd-109">Jaunajām izlaistajām precēm varat atlasīt vienu dzīves cikla stāvokli kā noklusējuma stāvokli.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="ab4cd-110">Izlaistie preces varianti izveidošanas laikā savu preces dzīves cikla stāvokli pārmanto no to izlaistās preces šablona.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="ab4cd-111">Mainot dzīves cikla stāvokli kādam izlaistas preces šablonam, varat izvēlēties atjaunināt visus esošos variantus, kuriem ir tāds pats sākotnējais stāvoklis.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
+
+## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="ab4cd-112">Jauna preču dzīves cikla stāvokļa izveide</span><span class="sxs-lookup"><span data-stu-id="ab4cd-112">Create a new product lifecycle state</span></span>
+
+- <span data-ttu-id="ab4cd-113">Lai izveidotu jaunu preces dzīves cikla stāvokli, skatiet [Jauna preces dzīves cikla stāvokļa izveidošana](tasks/new-product-lifecycle-state.md).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-113">To create a new product lifecycle state, see [Create a new product lifecycle state](tasks/new-product-lifecycle-state.md).</span></span>
+
+- <span data-ttu-id="ab4cd-114">Lai izveidotu noklusējuma preces dzīves cikla stāvokli, skatiet [Noklusējuma preces dzīves cikla stāvokļa izveidošana](tasks/default-product-lifecycle-state.md).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-114">To create a default product lifecycle state, see [Create a default product lifecycle state](tasks/default-product-lifecycle-state.md).</span></span>
+
+## <a name="associate-product-lifecycle-states-to-released-products"></a><span data-ttu-id="ab4cd-115">Preces dzīves cikla stāvokļu saistīšana ar izlaistajām precēm</span><span class="sxs-lookup"><span data-stu-id="ab4cd-115">Associate product lifecycle states to released products</span></span>  
+
+<span data-ttu-id="ab4cd-116">Pastāv vairāki veidi, kā preces dzīves cikla stāvokļus saistīt ar izlaistajām precēm vai preces variantiem.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-116">There are multiple ways to associate a product lifecycle state to released products or product variants.</span></span>
+
+- <span data-ttu-id="ab4cd-117">Izveidojot jaunu izlaisto preci, automātiski tiek piešķirts noklusējuma **Preces dzīves cikla stāvoklis**.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-117">On creation of a new released product, the default **Product lifecycle state** is automatically assigned.</span></span>
+- <span data-ttu-id="ab4cd-118">Izlaižot preci kādai juridiskajai personai, automātiski tiek piešķirts noklusējuma **Preces dzīves cikla stāvoklis**.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-118">On release of a product to a legal entity, the default **Product lifecycle state** is automatically assigned.</span></span>
+- <span data-ttu-id="ab4cd-119">Preces variantu izlaižot kādai juridiskajai personai, ar izlaistās preces šablonu saistītais **Preces dzīves cikla stāvoklis** šajā juridiskajā personā tiek automātiski piešķirts jaunajam variantam.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-119">On release of a product variant to a legal entity, the **Product lifecycle state** associated to the released product master in this legal entity is automatically assigned to the new variant.</span></span>
+
+<span data-ttu-id="ab4cd-120">Preces dzīves cikla stāvokli varat atjaunināt manuāli, izmantojot tālāk norādītos vienumus.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-120">You can manually update the product lifecycle state by using:</span></span>
+
+- <span data-ttu-id="ab4cd-121">Saraksta lapa **Izlaistās preces** vai **Detalizēts skats**.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-121">The **Released products** list page or **Details view**.</span></span>
+- <span data-ttu-id="ab4cd-122">Saraksta lapa **Izlaistie preces varianti** vai **Detalizēts skats**.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-122">The **Released product variants** list page or **Details view**.</span></span>
+- <span data-ttu-id="ab4cd-123">Atrodiet novecojušās preces vai preces variantus, pamatojoties uz pieprasījumu, un piesaistiet dzīves cikla stāvokli.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-123">Find the obsolete products or product variants based on demand and associate a lifecycle state.</span></span>  
+
+<span data-ttu-id="ab4cd-124">Plašāka informācija:</span><span class="sxs-lookup"><span data-stu-id="ab4cd-124">For more information:</span></span>
+
+- <span data-ttu-id="ab4cd-125">Lai preces dzīves cikla stāvokli piesaistītu izlaistas preces šablonam, skatiet [Preces dzīves cikla stāvokļa saistīšana ar izlaistas preces šablonu](tasks/product-lifecycle-state-released-product-master.md).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-125">To associate a product lifecycle state to a released product master, see [Assign a product lifecycle state to a released product master](tasks/product-lifecycle-state-released-product-master.md).</span></span>
+
+- <span data-ttu-id="ab4cd-126">Lai preces dzīves cikla stāvokli piesaistītu izlaistai precei, skatiet [Preces dzīves cikla stāvokļa saistīšana ar izlaistu preci](tasks/product-lifecycle-state-released-product.md).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-126">To associate a product lifecycle state to a release product, see [Assign a product lifecycle state to a released product](tasks/product-lifecycle-state-released-product.md).</span></span>
+
+## <a name="impact-on-master-planning"></a><span data-ttu-id="ab4cd-127">Ietekme uz vispārējo plānošanu</span><span class="sxs-lookup"><span data-stu-id="ab4cd-127">Impact on master planning</span></span>
+
+<span data-ttu-id="ab4cd-128">Preces dzīves cikla stāvoklim ir tikai viens kontroles karodziņš: **Ir aktīvs plānošanai**.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-128">The product lifecycle state has only one control flag: **Is active for planning**.</span></span> <span data-ttu-id="ab4cd-129">Pēc noklusējuma tas ir iestatīts uz **Jā** visiem izveidotajiem preces dzīves cikla stāvokļiem, bet to var mainīt uz **Nē**.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-129">By default, this is set to **Yes** for all created product lifecycle states, but it can be changed to **No**.</span></span> <span data-ttu-id="ab4cd-130">Ja tas ir iestatīts uz **Nē**, saistītās izlaistās preces vai izlaistie preču varianti ir:</span><span class="sxs-lookup"><span data-stu-id="ab4cd-130">When set to **No**, the associated released products or released product variants are:</span></span>
+
+- <span data-ttu-id="ab4cd-131">Izslēgts no vispārējās plānošanas.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-131">Excluded from master planning.</span></span>
+- <span data-ttu-id="ab4cd-132">Izslēgts no MK līmeņa aprēķina.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-132">Excluded from BOM-level calculation.</span></span>
+
+<span data-ttu-id="ab4cd-133">Lai iegūtu detalizētu informāciju par to, kā lietot preces dzīves cikla stāvokli, lai preces izslēgtu no vispārējās plānošanas un MK līmeņa aprēķina, skatiet [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas](tasks/exclude-products-master-planning.md)</span><span class="sxs-lookup"><span data-stu-id="ab4cd-133">For detailed information about how to use product lifecycle state to exclude products from master planning and BOM-level calculation, see [Create a product lifecycle state to exclude products from Master planning](tasks/exclude-products-master-planning.md)</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ab4cd-134">Veiktspējas apsvērumu dēļ ir ļoti ieteicams visas novecojušās izlaistās preces vai preces variantus — it īpaši, ja strādājat ar preces konfigurācijas variantiem, kas nav lietojami atkārtoti — saistīt ar preces dzīves cikla stāvokli, kas ir deaktivizēts vispārējai plānošanai.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
+
+## <a name="default-migration-import-and-export"></a><span data-ttu-id="ab4cd-135">Noklusējuma migrēšana, importēšana un eksportēšana</span><span class="sxs-lookup"><span data-stu-id="ab4cd-135">Default migration, import, and export</span></span>
+
+<span data-ttu-id="ab4cd-136">Preces dzīves cikla stāvokļi netiek atbalstīti datu elementos, un dzīves cikla stāvokli var iestatīt uz mainīgu stāvokli, vai nu, izmantojot izlaistas preces datu elementu vai datu elementa izlaisto variantu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-136">The product lifecycle states are supported by data entities, and the lifecycle state can be set to a variable state through either the released product data entity or the released variant data entity.</span></span>
+
+## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="ab4cd-137">Novecojušu preču un preces variantu atrašana</span><span class="sxs-lookup"><span data-stu-id="ab4cd-137">Find obsolete products and products variants</span></span>
+
+<span data-ttu-id="ab4cd-138">Varat palaist simulācijas analīzi, lai atrastu novecojušas izlaistās preces vai preču variantus, un pēc tam atjaunināt to preces dzīves cikla statusu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-138">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="ab4cd-139">Lai atrastu novecojušas preces, skatiet [Novecojušu preces variantu atrašana un preces dzīves cikla stāvokļa piešķiršana](tasks/obsolete-product-variants.md).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-139">To find obsolete products, see [Find obsolete product variants and assign a product lifecycle state](tasks/obsolete-product-variants.md).</span></span> <span data-ttu-id="ab4cd-140">Šajā tēmā ir parādīts, kā atrast novecojušas izlaistās preces vai preces variantus un kā preces dzīves cikla stāvokli saistīt ar novecojušām precēm.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-140">This topic shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="ab4cd-141">Tajā ir arī parādīts, kā skatīt simulācijas rezultātus un novērtēt, cik preču un preces variantu tiks saistīti ar jaunu preces dzīves cikla stāvokli, izpildot atjauninājumu bez simulācijas.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-141">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
+
+<span data-ttu-id="ab4cd-142">Izpildot analīzi simulācijas režīmā, preces un preču varianti, kas identificēti kā novecojuši, tiek parādīti īpašā veidlapā, kur tos var vienkārši pārskatīt.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-142">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="ab4cd-143">Analīze meklē transakcijas un īpašus pamatdatus, lai identificētu preces, kurām nav pieprasījuma mainīgā periodā un nav pamatdatu, kas varētu radīt pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-143">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="ab4cd-144">Jaunās izlaistās preces mainīgā periodā var izslēgt no analīzes.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-144">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="ab4cd-145">Ja analīzes simulācija atgriež prognozētos rezultātus, lietotājs var palaist analīzi un iestatīt jaunu preces dzīves cikla stāvokli visām precēm, ko analīze identificējusi kā novecojušas.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-145">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
+
+> [!NOTE]
+> <span data-ttu-id="ab4cd-146">Ņemiet vērā, ka visas analīzes un atjauninājumi ir jāizpilda tajā pašā juridiskajā personā.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-146">Note that all analysis and updates must be done within the same legal entity.</span></span>  
+
+## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="ab4cd-147">Izlaisto preču vai preču variantu atlasīšanas un atjaunināšanas kritēriji</span><span class="sxs-lookup"><span data-stu-id="ab4cd-147">Criteria to select and update released products or product variants</span></span>
+
+<span data-ttu-id="ab4cd-148">Lai atlasītu un atjauninātu izlaistās preces un preču variantus, izmantojiet tālāk norādītos kritērijus.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-148">Use the following criteria to select and update the released products and product variants:</span></span>
+
+- <span data-ttu-id="ab4cd-149">Preces vai preces varianta preces dzīves cikla stāvoklim ir jāatšķiras no jaunā vēlamā stāvokļa.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-149">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span>
+- <span data-ttu-id="ab4cd-150">Prece vai preces variants tika izveidots pirms dažām dienām, ņemot vērā atlases dialoglodziņā ievadīto dienu skaitu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-150">The product or product variant was created some days ago based on the number of days that you enter in the selection dialog box.</span></span>
+- <span data-ttu-id="ab4cd-151">Šai precei vai preces variantam nav atvērtu ražošanas pasūtījumu (= statuss < beidzies).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-151">There are no open production orders (= status < ended) for the product or product variant.</span></span>
+- <span data-ttu-id="ab4cd-152">Šai precei vai preces variantam nav atvērtu krājumu transakciju (= statuss izejas plūsma no ReservPhysical uz QuotationIssue vai status ieejas plūsma no Registrered uz QuotationReceipt).</span><span class="sxs-lookup"><span data-stu-id="ab4cd-152">There are no open inventory transactions (= status issue ReservPhysical to QuotationIssue or status receipt Registrered to QuotationReceipt) for the product or product variant.</span></span>
+- <span data-ttu-id="ab4cd-153">Šai precei vai preces variantam nav krājumu transakciju noteiktā iepriekšējo dienu skaita periodā.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-153">There are no inventory transactions within the last number of days for the product or product variant.</span></span>
+- <span data-ttu-id="ab4cd-154">Šai precei vai preces variantam nav nākotnes pieprasījuma vai piedāvājuma apjoma prognozes.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-154">There is no future demand or supply forecast for the product or product variant.</span></span>  
+- <span data-ttu-id="ab4cd-155">Šai precei vai preces variantam krājumu vajadzībā nav iestatīts minimālais krājumu līmenis.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-155">No minimum stock level has been set in item coverage for the product or product variant.</span></span>
+- <span data-ttu-id="ab4cd-156">Šai precei vai preces variantam nav aktīvu fiksēta daudzuma Kanban nosacījumu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-156">No active fixed quantity kanban rule for the product or product variant.</span></span>  
+- <span data-ttu-id="ab4cd-157">Šai precei vai preces variantam nav pakalpojuma pasūtījuma rindas.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-157">No service order line for the product or product variant.</span></span>
+- <span data-ttu-id="ab4cd-158">Šai precei vai preces variantam nav aktīvu vai nākotnes pārdošanas vai pirkšanas līguma rindu.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-158">No active or future sales or purchase agreement lines for the product or product variant.</span></span>
+- <span data-ttu-id="ab4cd-159">Šī prece vai preces variants netiek lietots tādā MK, kurš ir piesaistīts plānošanai aktīvas preces vai varianta apstiprinātai MK versijai, kurai nav beidzies derīgums.</span><span class="sxs-lookup"><span data-stu-id="ab4cd-159">The product or product variant is not used in a BOM that is associated with a non-expired approved BOM version for a product or variant that is active for planning.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="ab4cd-160">Saistītās tēmas</span><span class="sxs-lookup"><span data-stu-id="ab4cd-160">Related topics</span></span>
+
+- [<span data-ttu-id="ab4cd-161">Jauna preču dzīves cikla stāvokļa izveide</span><span class="sxs-lookup"><span data-stu-id="ab4cd-161">Create a new product lifecycle state</span></span>](tasks/new-product-lifecycle-state.md)
+- [<span data-ttu-id="ab4cd-162">Noklusējuma preču dzīves cikla stāvokļa izveide</span><span class="sxs-lookup"><span data-stu-id="ab4cd-162">Create a default product lifecycle state</span></span>](tasks/default-product-lifecycle-state.md)
+- [<span data-ttu-id="ab4cd-163">Preces dzīves cikla stāvokļa piešķiršana izlaistam preces šablonam</span><span class="sxs-lookup"><span data-stu-id="ab4cd-163">Assign a product lifecycle state to a released product master</span></span>](tasks/product-lifecycle-state-released-product-master.md)
+- [<span data-ttu-id="ab4cd-164">Preces dzīves cikla stāvokļa piešķiršana izlaistai precei</span><span class="sxs-lookup"><span data-stu-id="ab4cd-164">Assign a product lifecycle state to a released product</span></span>](tasks/product-lifecycle-state-released-product.md)
+- [<span data-ttu-id="ab4cd-165">Novecojušu preču variantu atrašana un preces dzīves cikla stāvokļa piešķiršana</span><span class="sxs-lookup"><span data-stu-id="ab4cd-165">Find obsolete product variants and assign a product lifecycle state</span></span>](tasks/obsolete-product-variants.md)
+- [<span data-ttu-id="ab4cd-166">Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas</span><span class="sxs-lookup"><span data-stu-id="ab4cd-166">Create a product lifecycle state to exclude products from Master planning</span></span>](tasks/exclude-products-master-planning.md)
