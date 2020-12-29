@@ -20,18 +20,18 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665084"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413934"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Ieteikumu pievienošana transakciju ekrānam
 
 [!include [banner](includes/banner.md)]
 
 
-Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce. Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet [preces ieteikumus POS dokumentācijā](product.md).
+Šajā tēmā ir aprakstīts, kā pārdošanas punkta (point of sale — POS) ierīces transakciju ekrānam pievienot ieteikumu vadīklu, izmantojot ekrāna izkārtojuma dizaineru programmā Microsoft Dynamics 365 Commerce. Lai iegūtu vairāk informācijas par preces ieteikumiem, lasiet  [preces ieteikumus POS dokumentācijā](product.md).
 
 
 Ja izmantojat programmu Commerce , varat parādīt preču ieteikumus savā POS ierīcē. Lai rādītu preču ieteikumus, transakciju ekrānam ir jāpievieno vadīkla, izmantojot ekrāna izkārtojuma dizaineru. 
@@ -100,7 +100,7 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

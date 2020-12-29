@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011427"
+ms.locfileid: "4419621"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Sagatavošanās darba ar Human Resources sākšanai
 
@@ -57,7 +57,7 @@ Svarīgs atskaites punkts katrā īstenošanas projektā ir pārslēgšana uz ra
 
 Lai palīdzētu nodrošināt ražošanas vides izmantošanu sākšanas operācijām, korporācija Microsoft nodrošina ražošanas instanci tikai tad, kad ieviešana tuvojas **Ekspluatācijas** fāzei — pēc tam, kad ir pabeigtas nepieciešamās aktivitātes LCS metodoloģijā. Plašāku informāciju par vidēm jūsu abonementā skatiet sadaļā  [Dynamics 365 licencēšanas rokasgrāmata](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-Klientiem ir jāpabeidz fāzes **Analīze** , **Projektēšana un izstrāde** un **Testēšana** LCS metodoloģijā, pirms ir pieejama poga  **Konfigurēt** , kas nepieciešama ražošanas vides pieprasīšanai. Lai varētu pabeigt fāzi LCS, jums vispirms ir jāizpilda visas nepieciešamās darbības šajā fāzē. Kad visas fāzes darbības ir pabeigtas, varat pabeigt visu fāzi. Ja jāveic izmaiņas, vienmēr varat atvērt fāzi vēlāk. Papildinformāciju skatiet sadaļā  [Lifecycle Services (LCS) programmu Finance and Operations klientiem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Klientiem ir jāpabeidz fāzes **Analīze**, **Projektēšana un izstrāde** un **Testēšana** LCS metodoloģijā, pirms ir pieejama poga  **Konfigurēt** , kas nepieciešama ražošanas vides pieprasīšanai. Lai varētu pabeigt fāzi LCS, jums vispirms ir jāizpilda visas nepieciešamās darbības šajā fāzē. Kad visas fāzes darbības ir pabeigtas, varat pabeigt visu fāzi. Ja jāveic izmaiņas, vienmēr varat atvērt fāzi vēlāk. Papildinformāciju skatiet sadaļā  [Lifecycle Services (LCS) programmu Finance and Operations klientiem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Darbības pabeigšanas procesam ir divas tālāk minētās daļas. 
 

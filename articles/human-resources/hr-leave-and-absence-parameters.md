@@ -2,8 +2,8 @@
 title: Atvaļinājumu un prombūtnes parametru konfigurēšana
 description: Definējiet cilvēkresursu parametrus atvaļinājumam un prombūtnei pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712380"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419635"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atvaļinājumu un prombūtnes parametru konfigurēšana
 
@@ -48,11 +48,24 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
 
 7. Atlasiet **Saglabāt**.
 
+>[!IMPORTANT]
+>Pašlaik priekšskatījumā tiek apskatīts atvaļinājums un prombūtne uzņēmumos. Jums vajadzēs iespējot to savā **Smilškastes** vidē, lai parādītu atvaļinājumu un prombūtnes opciju. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Skatīt un mainīt Personāla vadības kopīgotos parametrus
+
+1. Lapā **Personāla vadība** atlasiet cilni **Saites**.
+
+2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības kopīgotie parametri**.
+
+3. Cilnē **Iepriekšēja piekļuve** atlasiet **Jā** opcijai **Iespējot starpuzņēmuma atvaļinājumu skatu**, lai ļautu atvaļinājumu apskatīt visā uzņēmumā.
+
+4. Atlasiet **Saglabāt**.
+
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Skatīt un mainīt atvaļinājumu un prombūtnes parametrus
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-2. Sadaļā **Iestatīšana**atlasiet **Atvaļinājumu un prombūtnes parametri**.
+2. Sadaļā **Iestatīšana** atlasiet **Atvaļinājumu un prombūtnes parametri**.
 
 3. Cilnē **Vispārīgi** iestatiet šādus parametrus:
  
@@ -70,7 +83,7 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-2. Sadaļā **Iestatīšana**atlasiet **Atvaļinājumu un prombūtnes parametri**.
+2. Sadaļā **Iestatīšana** atlasiet **Atvaļinājumu un prombūtnes parametri**.
 
 3. Cilnē **Kalendārs** pēc nepieciešamības mainiet kalendāra iestatījumus.
 

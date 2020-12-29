@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3700846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413933"
 ---
 # <a name="enable-product-recommendations"></a>Preču ieteikumu iespējošana
 
@@ -94,7 +94,7 @@ Papildinformāciju par personalizēto ieteikumu saņemšanu skatiet [Personaliz�
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce .](enable-adls-environment.md)
 
 [Personalizētu ieteikumu iespējošana](personalized-recommendations.md)
 

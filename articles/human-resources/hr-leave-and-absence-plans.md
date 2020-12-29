@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "3796501"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419597"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Izveidot atvaļinājumu un prombūtnes plānu
 
@@ -41,7 +41,7 @@ Varat arī veidot amatā balstītus atvieglojumus, piemēram, vienīgi vadībai 
 
 1. Lapā **Atvaļinājumu un prombūtnes plāni** atlasiet **Izveidot jaunu plānu**.
 
-2. Sadaļā **Detalizēta informācija** ievadiet **Nosaukumu**, **Sākuma datumu**, **Aprakstu**un **Atvaļinājuma veidu** savam plānam.
+2. Sadaļā **Detalizēta informācija** ievadiet **Nosaukumu**, **Sākuma datumu**, **Aprakstu** un **Atvaļinājuma veidu** savam plānam.
 
 Ja ir iespējots līdzeklis **Vairāku atvaļinājumu veidu konfigurēšana vienam atvaļinājuma un prombūtnes plānam** atvaļinājumu veidi tiek konfigurēti **Uzkrāšanas grafikā**, nevis zem **Detalizētas informācijas**. Katram ierakstam uzkrāšanas grafika tabulā varat definēt atvaļinājuma tipu. Turklāt, ja šis līdzeklis ir aktivizēts, jums vajadzēs izmantot jaunas datu entītijas integrācijām vai citiem scenārijiem, kur jāizmanto entītijas. 
 

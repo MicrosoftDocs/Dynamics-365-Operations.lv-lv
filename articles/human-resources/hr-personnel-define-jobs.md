@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428666"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419565"
 ---
 # <a name="define-new-jobs"></a>Jaunu darbu definēšana
 
@@ -57,7 +57,7 @@ ms.locfileid: "3428666"
 21. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 22. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 23. Pārslēdziet sadaļas Prasmes paplašinājumu.
-    * Ņemiet vērā, ka kopsavilkuma cilņu lauki Prasmes, Izglītība un Sertifikāti ir tukši. Pēc informācijas kopēšanas no darba veidnes, informācija šajos laukos tiks ievadīta vienā solī.   
+    * Ņemiet vērā, ka kopsavilkuma cilņu lauki Prasmes, Izglītība un Sertifikāti ir tukši. Pēc informācijas kopēšanas no darba veidnes, informācija šajos laukos tiks ievadīta vienā solī.   
 24. Noklikšķiniet uz Saglabāt.
 25. Noklikšķiniet uz Kopēt no.
 26. Noklikšķiniet uz Kopēt no veidnes.

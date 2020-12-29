@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
-ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "3901500"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413993"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju
 
@@ -49,7 +49,7 @@ Lai izveidotu atkārtoti izmantojamu fragmentu jūsu iekļautajam skripta kodam 
 1. Dialoglodziņā **Jauns fragments** atlasiet **Iekļauts skripts**.
 1. Sadaļā **Fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Jūsu izveidotajā fragmentā atlasiet moduli **Noklusējuma iekļautais skripts**.
-1. Rekvizītu rūtī labajā pusē zem **iekļautā skripta**ievadiet savu klienta puses skriptu. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Rekvizītu rūtī labajā pusē zem **iekļautā skripta** ievadiet savu klienta puses skriptu. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Atlasiet **Publicēt**.
 
@@ -61,7 +61,7 @@ Lai izveidotu atkārtoti izmantojamu fragmentu jūsu ārējam skripta kodam viet
 1. Dialoglodziņā **Jauns fragments** atlasiet **Ārējs skripts**.
 1. Sadaļā **Fragmenta nosaukums** ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Jūsu izveidotajā fragmentā atlasiet moduli **Noklusējuma ārējais skripts**.
-1. Rekvizītu rūtī labajā pusē zem **skripta avots**pievienojiet ārēju vai relatīvu vietrādi URL ārējam skripta avotam. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Rekvizītu rūtī labajā pusē zem **skripta avots** pievienojiet ārēju vai relatīvu vietrādi URL ārējam skripta avotam. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Atlasiet **Publicēt**.
 
@@ -91,7 +91,7 @@ Lai pievienotu iekļauto skriptu tieši veidnes vietnes veidotājā, veiciet tā
 1. Kreisajā rūtī izvērsiet veidnes hierarhiju, lai parādītu **HTML galveno** slotu.
 1. **HTML galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet **Iekļauts skripts**.
-1. Rekvizītu rūtī labajā pusē zem **iekļautā skripta**ievadiet savu klienta puses skriptu. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Rekvizītu rūtī labajā pusē zem **iekļautā skripta** ievadiet savu klienta puses skriptu. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Atlasiet **Publicēt**.
 
@@ -103,7 +103,7 @@ Lai pievienotu ārējo skriptu tieši veidnes vietnes veidotājā, veiciet tāl�
 1. Kreisajā rūtī izvērsiet veidnes hierarhiju, lai parādītu **HTML galveno** slotu.
 1. **HTML galvenajā** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet **Ārējs skripts**.
-1. Rekvizītu rūtī labajā pusē zem **skripta avots**pievienojiet ārēju vai relatīvu vietrādi URL ārējam skripta avotam. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
+1. Rekvizītu rūtī labajā pusē zem **skripta avots** pievienojiet ārēju vai relatīvu vietrādi URL ārējam skripta avotam. Pēc tam un pēc nepieciešamības konfigurējiet citas opcijas.
 1. Atlasiet **Saglabāt** un pēc tam atlasiet **Pabeigt rediģēšanu**.
 1. Atlasiet **Publicēt**.
 

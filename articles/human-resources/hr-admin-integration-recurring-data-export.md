@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009764"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419586"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Periodiskas datu eksportēšanas programmas izveide
 
@@ -104,7 +104,7 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
     3. Iestatiet HTTP **POST** pieprasījumu, lai izsauktu **ExportToPackage** DMF REST API.
 
         - **Metode:** POST
-        - **Pieprasījuma URL** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
+        - **Pieprasījuma URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
         - **Pieprasījuma pamatteksts**
 
             ```JSON

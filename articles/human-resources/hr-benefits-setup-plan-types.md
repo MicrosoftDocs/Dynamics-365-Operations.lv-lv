@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429938"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419569"
 ---
 # <a name="create-plan-types"></a>Izveidot plānu tipus
 
@@ -49,7 +49,7 @@ Plāna tips var definēt vajadzību opcijas. Vajadzību opcijas ir definētas ve
    | **Vienlaicīga reģistrācija** | Norāda, vai darbinieks var reģistrēties vairākos viena plāna veida atvieglojumu plānos vai tikai vienā noteikta plāna veida atvieglojumu plānā. |
    | **Kontakta tips** | Norāda personiskās kontaktpersonas lomu. Vērtības ir tukša, Pakārtotais un Saņēmējs. **Kontaktpersonas tipu** var atstāt tukšu, ja plāna veids neprasa pakārtoto vai saņēmēju, pamatojoties uz vajadzības opciju. |
 
-4. Lai konfigurētu dzīves notikuma opcijas, izvēlieties **Darbības**un pēc tam atlasiet **Dzīves notikuma opcijas**. Norādiet vērtības tālāk minētajos laukos.
+4. Lai konfigurētu dzīves notikuma opcijas, izvēlieties **Darbības** un pēc tam atlasiet **Dzīves notikuma opcijas**. Norādiet vērtības tālāk minētajos laukos.
 
    | Lauks | Apraksts |
    | --- | --- |

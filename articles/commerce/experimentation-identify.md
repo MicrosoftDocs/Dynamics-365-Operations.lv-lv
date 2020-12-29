@@ -19,18 +19,18 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 43358264a2107fb139c00ce617054be16a74f935
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097166"
+ms.locfileid: "4414187"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Hipotēzes identificēšana un eksperimenta panākumu rādītāju noteikšana
 Pirmā eksperimenta dzīves cikla fāze ietver eksperimenta hipotēzes identificēšanu un rādītāju noteikšanu, kam sekosit, lai novērtētu panākumus. Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai [iestatītu un izpildītu eksperimentu](experimentation-overview.md) e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās. 
 
 [ ![Eksperimenta lietotāja maršruts – identificēšana](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
-Hipotēze ir apgalvojums, kurā prognozēts eksperimenta rezultāts. Hipotēzes definēšanā ir iesaistīti daudzi faktori, piemēram, lietotāju uzvedības un apkopoto tīmekļa vietņu datu izpēte. Ar hipotēzi jūs definēsit pieņēmumu vai teoriju, kuru vēlaties apstiprināt ar savu eksperimentu. Eksperimenta hipotēzes piemērs varētu būt “ *Vasaras mēnešos attēls ar baltas krāsas t-kreklu manā mājas lapā radīs lielāku vidējo klikšķu skaitu nekā tumši zils džemperis, jo vasarā cilvēki vēlas valkāt kaut ko plānu un gaišās krāsās.* ” Šādā gadījumā jūs izveidosit variantus, kas ietver baltu t-kreklu un tumši zilu džemperi, un abus publicēsit vienlaicīgi.
+Hipotēze ir apgalvojums, kurā prognozēts eksperimenta rezultāts. Hipotēzes definēšanā ir iesaistīti daudzi faktori, piemēram, lietotāju uzvedības un apkopoto tīmekļa vietņu datu izpēte. Ar hipotēzi jūs definēsit pieņēmumu vai teoriju, kuru vēlaties apstiprināt ar savu eksperimentu. Eksperimenta hipotēzes piemērs varētu būt “*Vasaras mēnešos attēls ar baltas krāsas t-kreklu manā mājas lapā radīs lielāku vidējo klikšķu skaitu nekā tumši zils džemperis, jo vasarā cilvēki vēlas valkāt kaut ko plānu un gaišās krāsās.*” Šādā gadījumā jūs izveidosit variantus, kas ietver baltu t-kreklu un tumši zilu džemperi, un abus publicēsit vienlaicīgi.
 
 Lai apstiprinātu hipotēzi, eksperimenta sekmībai vai nesekmībai jābūt tieši saistītai ar lietotāja darbībām, piemēram, vai tīmekļa vietnes lietotājs noklikšķina uz saites vai pogas. Šīm darbībām jāatbilst notikumiem, par kuriem tiks ziņots trešās puses pakalpojumam, kas seko eksperimentam. Laika gaitā to lietotāju procentuālais īpatsvars, kuri veic šo darbību, tiks aprēķināts kā rādītāji, ko varat izmantot, lai veidotu pārskatus un veiktu analīzes. Lai pārskatītu visus pieejamos notikumus un atribūtus, skatiet tēmu [Commerce komponentu notikumi diagnostikai un problēmu novēršanai](dev-itpro/retail-component-events-diagnostics-troubleshooting.md), .
 

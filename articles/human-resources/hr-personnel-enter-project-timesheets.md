@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 10dbb43cec47a758d11362947f27932a4911911a
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430283"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419568"
 ---
 # <a name="enter-project-timesheets"></a>Projekta grafiku ievade
 
@@ -47,7 +47,7 @@ Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot t
 14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 16. Ievadiet katra dienā nostrādāto stundu skaitu. Ievadiet stundas decimālajā formātā. Piemēram, ja esat strādājis divas stundas un piecpadsmit minūtes, ievadiet 2,25.   
-17. Sadaļā**Rindas informācija** ir pieejamas šādas opcijas:
+17. Sadaļā **Rindas informācija** ir pieejamas šādas opcijas:
     - Pievienojiet informāciju par nodokļiem un finanšu dimensijām cilnēs **Vispārīgi** un **Finanšu dimensijas**.
     - Pievienojiet komentārus par darba laika uzskaites tabulas rindu cilnē **Komentārs**.
 20. **Darbību rūtī** noklikšķiniet uz **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu.

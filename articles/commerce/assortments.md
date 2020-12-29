@@ -16,11 +16,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023237"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413976"
 ---
 # <a name="assortment-management"></a>Preču klāsta pārvaldība
 
@@ -102,8 +102,8 @@ Lai preču klāsti, kas ir definēti risinājumā Commerce, stātos spēkā, tie
 
 Commerce implementēšanas nolūkā plānojot un pārvadot preču klāstus, ņemiet vērā tālāk minētās ieviešanas prasības.
 
-- **Datu replicēšana un datu bāzes lielums** — lai gan preču klāsti palīdz uzņēmumam pārvaldīt preču pieejamību, tie ir arī svarīgs rīks kanāla lieluma un bezsaistes datu bāzu pārvaldīšanā. Labi pārvaldīti preču klāsti samazina to datu apjomu, kas jāapstrādā un jāreplicē kanālā un bezsaistes datu bāzēs. Tie arī palīdz samazināt nepieciešamo ierakstu skaitu. Mazāks ierakstus skaits šajās datu bāzēs sekmēs veiktspēju,kad pievienosiet transakcijai krājumus vai meklēsiet un pārlūkosiet preces.
-- **Preču klāsti, kas ir derīgi/kam ir beidzies derīguma termiņš** — viens no visefektīvākajiem rīkiem, kā pārvaldīt preču skaitu kanālā un bezsaistes datu bāzēs, ir noteikt preču klāstiem to derīguma termiņu. Ja atstāsiet beztermiņa (kam nebeidzas termiņš) sezonas preču klāstus vai tādu preču klāstus, kam ir beidzies derīguma termiņš, šo datu bāzu apjoms nepārtraukti palielināsies. Situāciju var risināt dažādos veidos. Piemēram, varat glabāt atsevišķus sezonas preču klāstus un tādu preču klāstus, kuras ir vienmēr pieejamas.
-- **Preču klāstā neesošu preču pārdošana un ieņēmumi no tām** — šī iespēja palīdz mazumtirgotājiem efektīvi pārvaldīt preču klāstus, ļaujot ierobežot pieejamo preču skaitu līdz precēm, kas pieder pie veikala pamata preču komplekta. Šī iespēja arī palīdz mazumtirgotājiem rīkoties situācijās, kad prece kļūdaini tiek izlaista preču klāstā vai kad prece tiek atgriezta ārpus preču klāsta derīguma termiņiem.
+- **Datu replicēšana un datu bāzes lielums** — lai gan preču klāsti palīdz uzņēmumam pārvaldīt preču pieejamību, tie ir arī svarīgs rīks kanāla lieluma un bezsaistes datu bāzu pārvaldīšanā. Labi pārvaldīti preču klāsti samazina to datu apjomu, kas jāapstrādā un jāreplicē kanālā un bezsaistes datu bāzēs. Tie arī palīdz samazināt nepieciešamo ierakstu skaitu. Mazāks ierakstus skaits šajās datu bāzēs sekmēs veiktspēju,kad pievienosiet transakcijai krājumus vai meklēsiet un pārlūkosiet preces.
+- **Preču klāsti, kas ir derīgi/kam ir beidzies derīguma termiņš** — viens no visefektīvākajiem rīkiem, kā pārvaldīt preču skaitu kanālā un bezsaistes datu bāzēs, ir noteikt preču klāstiem to derīguma termiņu. Ja atstāsiet beztermiņa (kam nebeidzas termiņš) sezonas preču klāstus vai tādu preču klāstus, kam ir beidzies derīguma termiņš, šo datu bāzu apjoms nepārtraukti palielināsies. Situāciju var risināt dažādos veidos. Piemēram, varat glabāt atsevišķus sezonas preču klāstus un tādu preču klāstus, kuras ir vienmēr pieejamas.
+- **Preču klāstā neesošu preču pārdošana un ieņēmumi no tām** — šī iespēja palīdz mazumtirgotājiem efektīvi pārvaldīt preču klāstus, ļaujot ierobežot pieejamo preču skaitu līdz precēm, kas pieder pie veikala pamata preču komplekta. Šī iespēja arī palīdz mazumtirgotājiem rīkoties situācijās, kad prece kļūdaini tiek izlaista preču klāstā vai kad prece tiek atgriezta ārpus preču klāsta derīguma termiņiem.
 
 Ja kanāla datu bāzē preces dati nepastāv, POS veic reālā laika zvanu galvenajam birojam, lai izgūtu nepieciešamo informāciju, lai preci varētu pārdot, atgriezt vai ietvert debitora pasūtījumā. Šādā veidā izgūta preces informācija ir pieejama tikai šīs transakcijas ietvaros. Prece netiek pievienota preču klāsta definīcijai. Tādēļ nepieciešamības gadījumā tiks veikti turpmāki reāllaika zvani.

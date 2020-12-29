@@ -18,11 +18,11 @@ ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.openlocfilehash: c2a9325f09ffe43c3436b7e0ca2ab511e1f57f83
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265592"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414150"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Izveidot un atjaunināt kanāla atgriešanas un atmaksas politiku
 
@@ -82,7 +82,7 @@ Veiciet šīs darbības, lai konfigurētu atgriešanas politiku mazumtirdzniecī
 Lai skatītu atļautos atgriešanas norēķinu tipus POS, veiciet kādā no nākamajiem piemēriem norādītās darbības.
 
 1. Piesakieties POS kā kasieris vai menedžeris.
-2. Sadaļā **Maiņa un atvilktne**atlasiet **Rādīt žurnālu.**
+2. Sadaļā **Maiņa un atvilktne** atlasiet **Rādīt žurnālu.**
 3. Atlasiet transakciju, kas ir daļa no atgriešanas. 
 4. Atlasiet atgriežamos krājumus un izvēlieties maksājuma metodi.  
 - Ja izvēlētais maksājuma norēķins ir atļauto atgriešanas norēķinu tipu sarakstā, kasieris var pabeigt darbību.

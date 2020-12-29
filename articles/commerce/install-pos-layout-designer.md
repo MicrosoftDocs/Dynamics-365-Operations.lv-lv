@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023354"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414039"
 ---
 # <a name="install-the-pos-layout-designer"></a>POS izkārtojuma veidotāja instalēšana
 
@@ -58,7 +58,7 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 
     **Risinājums:** Pārlūkprogrammā Internet Explorer pievienojiet Commerce vietrādi URL uzticamo vietņu sarakstam. Noklikšķiniet uz **Iestatījumi** &gt; **Opcijas** &gt; **Drošība** &gt; **Uzticamās vietnes** &gt; **Vietnes** &gt; **Pievienot**.
 
-**Zināma problēma.** Veidotājs nedarbojas pareizi pārlūkprogrammās Google Chrome un Mozilla Firefox. Mēs strādājam, lai šo problēmu novērstu.
+**Zināma problēma:** veidotājs nedarbojas pareizi pārlūkprogrammās Google Chrome un Mozilla Firefox. Mēs strādājam, lai šo problēmu novērstu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

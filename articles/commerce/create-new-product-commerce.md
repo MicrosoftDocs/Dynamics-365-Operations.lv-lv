@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: eb2dd36c6149f2aa40305cd57eac060b232b09e5
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138565"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414008"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Izveidot jaunu preci pakalpojumā Commerce
 
@@ -102,7 +102,7 @@ Pēc preces izlaišanas tai būs nepieciešama turpmāka konfigurācija, kas iet
 1. Navigācijas rūtī pārejiet uz **Moduļi \> Mazumtirdzniecība un tirdzniecība \> Preces un kategorijas \> Izlaistās preces pēc kategorijas**.
 1. Atlasiet preces kategorijas mezglu precei, kas tika izlaista, un pēc tam preču sarakstā atlasiet preci.
 1. Darbību rūtī atlasiet **Rediģēt**.
-1. Sadaļā **Pirkšana** konfigurējiet visus nepieciešamos rekvizītus, tostarp **Vienība**, **Cena**un **Daudzums**.
+1. Sadaļā **Pirkšana** konfigurējiet visus nepieciešamos rekvizītus, tostarp **Vienība**, **Cena** un **Daudzums**.
 1. Darbības rūtī atlasiet **Pārbaudīt**, lai nodrošinātu, ka trūkstošajiem laukiem nav ziņotas kļūdas.
 1. Darbību rūtī atlasiet **Saglabāt**.
 

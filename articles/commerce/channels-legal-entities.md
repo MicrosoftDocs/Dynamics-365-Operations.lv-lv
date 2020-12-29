@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002408"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414014"
 ---
 # <a name="create-legal-entities"></a>Izveidot juridiskās personas
 
@@ -43,7 +43,7 @@ Veidojot kanālu, jānorāda, kurai juridiskajai personai pieder kanāls.
 
 Lai izveidotu jaunu juridisko personu programmā Dynamics 365 Commerce, veiciet tālāk norādītās darbības.
 
-1. Navigācijas rūtī pārejiet uz **Moduļi \> Headquarters iestatīšana \> Juridiskās personas**.
+1. Navigācijas rūtī pārejiet uz  **Moduļi \> Headquarters iestatīšana \> Juridiskās personas**.
 1. Darbību rūtī atlasiet **Jauns**. Labajā pusē tiek parādīta rūts **Jaunā juridiskā persona**.
 1. Laukā **Nosaukums** ievadiet vērtību.
 1. Laukā **Uzņēmums** ievadiet vērtību.
