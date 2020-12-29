@@ -1,0 +1,73 @@
+---
+title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 14. marts)
+description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
+author: Darinkramer
+manager: AnnBe
+ms.date: 03/14/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-03-14
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528625"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a><span data-ttu-id="916de-103">Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 14. marts)</span><span class="sxs-lookup"><span data-stu-id="916de-103">What's new or changed in Dynamics 365 Talent (March 14, 2019)</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="916de-104">Šajā tēmā ir aprakstīti jaunie vai izmainītie programmas Talent līdzekļi.</span><span class="sxs-lookup"><span data-stu-id="916de-104">This topic describes features that are either new or changed in Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="916de-105">Izmaiņas programmā Attract</span><span class="sxs-lookup"><span data-stu-id="916de-105">Changes in Attract</span></span>
+<span data-ttu-id="916de-106">Šajā laidienā ir ietverti nelieli kļūdu labojumi.</span><span class="sxs-lookup"><span data-stu-id="916de-106">There are minor bug fixes included with this release.</span></span>
+
+## <a name="changes-in-onboarding"></a><span data-ttu-id="916de-107">Izmaiņas pievienošanas procesā</span><span class="sxs-lookup"><span data-stu-id="916de-107">Changes in Onboarding</span></span>
+<span data-ttu-id="916de-108">Šajā laidienā ir ietverti nelieli kļūdu labojumi.</span><span class="sxs-lookup"><span data-stu-id="916de-108">There are minor bug fixes included with this release.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="916de-109">Izmaiņas programmā Core HR</span><span class="sxs-lookup"><span data-stu-id="916de-109">Changes in Core HR</span></span>
+<span data-ttu-id="916de-110">**8.1.2186 būvējums**</span><span class="sxs-lookup"><span data-stu-id="916de-110">**Build 8.1.2186**</span></span>
+
+### <a name="performance-management-not-working-in-all-scenarios-when-using-duplicate-security-roles"></a><span data-ttu-id="916de-111">Veiktspējas pārvaldība nedarbojas visos scenārijos, kad tiek lietotas dublētas drošības lomas</span><span class="sxs-lookup"><span data-stu-id="916de-111">Performance management not working in all scenarios when using duplicate security roles</span></span>
+<span data-ttu-id="916de-112">Šajā laidienā veiktās izmaiņas ļauj izmantot veiktspējas pārvaldības scenārijus, kad tiek lietotas standarta vai dublētas lomas.</span><span class="sxs-lookup"><span data-stu-id="916de-112">Changes made in this release enable performance management scenarios when using the out-of-the-box or duplicated roles.</span></span>
+
+### <a name="mass-assign-checklists-to-workers"></a><span data-ttu-id="916de-113">Kontrolsarakstu piešķiršana nodarbinātajiem masveidā</span><span class="sxs-lookup"><span data-stu-id="916de-113">Mass assign checklists to workers</span></span>
+<span data-ttu-id="916de-114">Līdz ar šīs izmaiņas ieiešanu tagad varat atlasīt vairākus darbiniekus un lielapjomā piešķirt šiem darbiniekiem vienu vai vairākus kontrolsarakstus.</span><span class="sxs-lookup"><span data-stu-id="916de-114">With this change, you can now select multiple employees and bulk assign one or more checklists to those employees.</span></span> 
+
+### <a name="platform-update-24-for-finance-and-operations"></a><span data-ttu-id="916de-115">Platform update 24 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="916de-115">Platform update 24 for Finance and Operations</span></span>
+<span data-ttu-id="916de-116">Papildinformāciju par atjauninājumu Platform update 24 sistēmai Finance and Operations skatiet [Jaunumi un izmaiņas Finance and Operations Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).</span><span class="sxs-lookup"><span data-stu-id="916de-116">For additional details about Platform update 24 for Finance and Operations, see [What's new or changed in Finance and Operations platform update 24 (March 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).</span></span> <span data-ttu-id="916de-117">Būtiskas izmaiņas atjauninājumā platform 24 ietver tālāk uzskaitītās.</span><span class="sxs-lookup"><span data-stu-id="916de-117">Significant changes in platform 24 include:</span></span> 
+
+- <span data-ttu-id="916de-118">Programmā Talent ir iespējoti brīdinājumi.</span><span class="sxs-lookup"><span data-stu-id="916de-118">Alerts are enabled in Talent.</span></span>
+- <span data-ttu-id="916de-119">Atjauninātā navigācijas josla tagad atrodas atbilstoši Office galvenei.</span><span class="sxs-lookup"><span data-stu-id="916de-119">The updated navigation bar now aligns with the Office header.</span></span>
+
+### <a name="office-location-update-switches-the-context-to-the-top-of-the-worker-list"></a><span data-ttu-id="916de-120">Biroja atrašanās vietas atjaunināšana pārslēdz kontekstu uz nodarbināto saraksta sākumu</span><span class="sxs-lookup"><span data-stu-id="916de-120">Office location update switches the context to the top of the worker list</span></span>
+<span data-ttu-id="916de-121">Līdz ar pašreizējā laidiena ieviešanu biroja atrašanās vietas mainīšana vairs nepārslēdz kontekstu nodarbinātajam, kuru jūs skatāt, kamēr piešķirat biroja atrašanās vietu.</span><span class="sxs-lookup"><span data-stu-id="916de-121">With the current release, changing the office location will no longer switch the context of the worker that you're viewing when assigning an office location.</span></span>
+
+### <a name="position-assignment-end-date-doesnt-display-correctly-on-worker-hire-and-transfer-actions"></a><span data-ttu-id="916de-122">Nodarbinātā darbā pieņemšanas un pārsūtīšanas darbībās amata norīkojuma beigu datums netiek rādīts pareizi</span><span class="sxs-lookup"><span data-stu-id="916de-122">Position assignment end date doesn't display correctly on worker hire and transfer actions</span></span>
+<span data-ttu-id="916de-123">Izmantojot darbības, amata norīkojuma beigu datumi tagad tiek rādīti pareizi, pamatojoties uz lietotāja vēlamo laika joslu.</span><span class="sxs-lookup"><span data-stu-id="916de-123">Position assignment end dates now display correctly based on the user preferred time zone when using actions.</span></span>
+
+### <a name="common-data-service-job-entity-doesnt-allow-job-type-and-job-function-fields-to-update"></a><span data-ttu-id="916de-124">Common Data Service darba elements neļauj atjaunināt laukus Darba tips un Darba funkcija</span><span class="sxs-lookup"><span data-stu-id="916de-124">Common Data Service job entity doesn't allow Job type and Job function fields to update</span></span>
+<span data-ttu-id="916de-125">Common Data Service elementi tagad tiek sinhronizēti pareizi, kad notiek atjaunināšana, izmantojot Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="916de-125">Common Data Service entities now syncronize correctly when updated using the Common Data Service.</span></span>
+
+## <a name="coming-soon"></a><span data-ttu-id="916de-126">Drīzumā</span><span class="sxs-lookup"><span data-stu-id="916de-126">Coming soon</span></span>
+
+###  <a name="advanced-compensation-security-fixed-and-variable"></a><span data-ttu-id="916de-127">Papildu atlīdzības drošība (fiksētā un mainīgā)</span><span class="sxs-lookup"><span data-stu-id="916de-127">Advanced compensation security (fixed and variable)</span></span>
+<span data-ttu-id="916de-128">Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem.</span><span class="sxs-lookup"><span data-stu-id="916de-128">In many organizations, the compensation and benefits managers might only have access to certain compensation records.</span></span> <span data-ttu-id="916de-129">Piemēram, tie varētu būt par vadītājiem vai reģionālajiem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="916de-129">These could be for executives or regional employees.</span></span> <span data-ttu-id="916de-130">Šīs izmaiņas dod iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā.</span><span class="sxs-lookup"><span data-stu-id="916de-130">With this change, HR can manage and maintain the compensation plans for different employee groups in the organization.</span></span> <span data-ttu-id="916de-131">Fiksētajiem un mainīgajiem plāniem var piešķirt drošības lomas, kuras nosaka piekļuvi plāniem un ar šiem plāniem saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem.</span><span class="sxs-lookup"><span data-stu-id="916de-131">You can assign security roles to fixed and variable plans that determine access to the plans and the employee data related to the plans, such as salary or bonus records.</span></span> <span data-ttu-id="916de-132">Atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir lomas ar piešķirtu piekļuvi.</span><span class="sxs-lookup"><span data-stu-id="916de-132">Only the roles with the access granted can process compensation for those employees.</span></span>
+
+###  <a name="email-support-for-alerts"></a><span data-ttu-id="916de-133">E-pasta atbalsts brīdinājumiem</span><span class="sxs-lookup"><span data-stu-id="916de-133">Email support for alerts</span></span>
+<span data-ttu-id="916de-134">Līdz ar platformas atjauninājumu 24 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski nosūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.</span><span class="sxs-lookup"><span data-stu-id="916de-134">With Platform update 24 for Finance and Operations, users can create alert rules that automatically dispatch email notifications to contacts when triggered by an event.</span></span>
+
+### <a name="duplicate-employee-check-interface-changes"></a><span data-ttu-id="916de-135">Dublētu darbinieku pārbaude: interfeisa izmaiņas</span><span class="sxs-lookup"><span data-stu-id="916de-135">Duplicate employee check: Interface changes</span></span>
+<span data-ttu-id="916de-136">Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda, cik dublikātu tika atrasts.</span><span class="sxs-lookup"><span data-stu-id="916de-136">With this change, duplicates are detected as you enter name fields, and a status displays how many were found.</span></span> <span data-ttu-id="916de-137">Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto.</span><span class="sxs-lookup"><span data-stu-id="916de-137">You can select the provided link to open a new page to evaluate whether to use the detected match.</span></span> <span data-ttu-id="916de-138">Dublikātu forma netiek atvērta automātiski, lai izvairītos no datu ievades pārtraukšanas.</span><span class="sxs-lookup"><span data-stu-id="916de-138">The duplicates form doesn't automatically open, to avoid interrupting data entry.</span></span>
