@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 07/07/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
-ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
+ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "3539883"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689539"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -35,6 +35,18 @@ ms.locfileid: "3539883"
 
 > [!NOTE]
 > Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.15 laidienā
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 atbalsts Dynamics 365 ir novecojis
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
+| **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces |
+| **Izvietošanas iespēja**              | Visu|
+| **Statuss**                         | Novecojis. Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.11 laidienā
 ### <a name="data-action-hooks"></a>Datu darbību āķi

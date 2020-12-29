@@ -1,7 +1,7 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 31. janvāris)
-description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
-author: Darinkramer
+description: Šajā tēmā ir aprakstīti līdzekļi, kas ir jauni vai mainīti programmā Microsoft Dynamics 365 Talent.
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/31/2019
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fbbecd4e0f205c2f09ec30548756ff1a43872644
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8e8c11e460a4678efea81f8d3d1eec96b673d329
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899109"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690056"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-31-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 31. janvāris)
 
@@ -34,7 +34,7 @@ ms.locfileid: "2899109"
 ## <a name="core-hr-changes"></a>Core HR izmaiņas
 
 ### <a name="time-off-taken-on-leave-people-card-doesnt-consider-leave-plan-dates"></a>Paņemtajā brīvajā laikā personas kartītē Atvaļinājums netiek ņemti vērā atvaļinājumu plāna datumi
-Gadījumā, ja atvaļinājumu plāni netiek izpildīti kalendārā gada ietvaros, kartītē **Paņemts** tagad ir norādīts brīvais laiks, kas ir paņemts plānā noteiktajā atvaļinājuma gadā. Piemēram, ja organizācijas atvaļinājuma gads ir no 1. jūnija līdz 30. maijam un darbinieks ir izmantojis 3 atvaļinājuma dienas decembrī, kartītē **Paņemts** 15. janvārī tiks rādītas 3 dienas. 
+Atvaļinājumu plāni, kas netiek izpildīti kalendārā gada ietvaros, kartītē **Paņemts** tagad ir norādīts brīvais laiks, kas ir paņemts plānā noteiktajā atvaļinājuma gadā. Piemēram, ja organizācijas atvaļinājuma gads ir no 1. jūnija līdz 30. maijam un darbinieks ir izmantojis trīs atvaļinājuma dienas decembrī, kartītē **Paņemts** 15. janvārī tiks rādītas 3 dienas. 
 
 ### <a name="accrual-amounts-not-matching-tier-date-basis"></a>Uzkrātais daudzums neatbilst pakāpju datuma bāzei
 Atvaļinājumiem un kavējumiem ir pievienotas jaunas opcijas (parametri **Personāla vadība**), lai klienti varētu noteikt, kad ir spēkā darbinieku nodarbinātības mēnešu datums. Dažām organizācijām datums ir mēneša beigās, bet citām tas var būt nākamā mēneša sākumā. Piemēram, viena organizācija var piešķirt prombūtnes laiku 31. decembrī, savukārt cita var piešķirt prombūtnes laiku 1. janvārī. Šī opcija ļauj izvēlēties, kad jāveic piešķiršana. 

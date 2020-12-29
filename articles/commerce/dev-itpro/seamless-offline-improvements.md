@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3c2a644fd7096668fcefc73c67068fccde6894b0
-ms.sourcegitcommit: 472f8bfc02acf80b07caf7c53bbb397411e946cc
+ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3040237"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687541"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Ērta bezsaistes pārslēgšanās dāvanu karšu un kredītrēķinu darbībām
 
@@ -37,7 +36,7 @@ Iekšējās dāvanu kartes ir atkarīgas no reāllaika pakalpojuma, jo dāvanu k
 
 Tomēr, ja POS pazaudē savienojumu pēc tam, kad dāvanu karte ir pievienota transakcijai, dāvanu karte var kļūt nelietojama. Lai nepieļautu šo situāciju, Dynamics 365 Commerce ir parametrs, kas aktivizē transakcijas, kas ietver dāvanu kartes rindu, kas jāizpilda, kamēr POS ir bezsaistē. Kad šis parametrs ir ieslēgts, dāvanu kartes transakcijas, kas nonāk bezsaistē, tiks saglabātas kopā ar bezsaistes transakcijām, un tās tiks sinhronizētas ar Commerce Headquarters, kad tiks sinhronizētas bezsaistes transakcijas. Sinhronizācija arī atbloķē dāvanu karti, lai to varētu izmantot citā terminālī.
 
-Lai iespējotu funkcionalitāti, kas ļauj noslēgt dāvanu kartes transakcijas pēc pārslēgšanās uz bezsaistes režīmu, dodieties uz cilni **Grāmatošana**, kas atrodas lapā **Commerce parametri**. Šajā cilnē atrodiet kopsavilkuma cilni **Dāvanu karte** un iestatiet opciju**Noslēgt dāvanu karšu darbības bezsaistes režīmā** uz **Jā**.
+Lai iespējotu funkcionalitāti, kas ļauj noslēgt dāvanu kartes transakcijas pēc pārslēgšanās uz bezsaistes režīmu, dodieties uz cilni **Grāmatošana**, kas atrodas lapā **Commerce parametri**. Šajā cilnē atrodiet kopsavilkuma cilni **Dāvanu karte** un iestatiet opciju **Noslēgt dāvanu karšu darbības bezsaistes režīmā** uz **Jā**.
 
 ![Bezsaistes dāvanu kartes iestatīšana](../media/gift.png)
 
@@ -47,7 +46,7 @@ Commerce parametri parasti tiek kešoti. Tāpēc, lai sinhronizētu izmaiņas ka
 
 Līdzīgi kā iekšējās dāvanu kartes, kredītrēķini tiek centralizēti uzturēti pakalpojumā Commerce Headquarters. Commerce ir parametrs, kas iespējo kredītrēķinu transakciju izpildi, kamēr POS ir bezsaistē. Šis parametrs darbojas tāpat kā dāvanu kartes parametrs, kas minēts iepriekšējā sadaļā. Kad parametrs ir ieslēgts, kredītrēķina transakcijas, kas nonākušas bezsaistē, tiks sinhronizētas ar kanāla datu bāzi kopā ar citām transakcijām, kas tika veiktas, kamēr POS bija bezsaistē.
 
-Lai iespējotu funkcionalitāti, kas ļauj noslēgt kredītrēķina transakcijas pēc pārslēgšanās uz bezsaistes režīmu, dodieties uz cilni **Grāmatošana**, kas atrodas lapā **Commerce parametri**. Šajā cilnē atrodiet kopsavilkuma cilni **Kredītrēķins** un iestatiet opciju**Noslēgt kredītrēķinu transakcijas bezsaistes režīmā** uz **Jā**.
+Lai iespējotu funkcionalitāti, kas ļauj noslēgt kredītrēķina transakcijas pēc pārslēgšanās uz bezsaistes režīmu, dodieties uz cilni **Grāmatošana**, kas atrodas lapā **Commerce parametri**. Šajā cilnē atrodiet kopsavilkuma cilni **Kredītrēķins** un iestatiet opciju **Noslēgt kredītrēķinu transakcijas bezsaistes režīmā** uz **Jā**.
 
 ![Bezsaistes kredītrēķina iestatīšana](../media/creditmemo.png)
 

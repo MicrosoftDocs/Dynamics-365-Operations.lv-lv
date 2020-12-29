@@ -10,19 +10,18 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 96ae5f33b1ab5fda98da4fc48b1fb883ca4d54b8
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4706432234437d2dc7943fb194cd01004ab7e6b7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024482"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687515"
 ---
 # <a name="create-and-update-store-hours"></a>Veikala darbalaika izveide un atjaunināšana
 
@@ -42,7 +41,7 @@ Ja klientam ir paņemšanas pasūtījums citam veikalam, kasieris var izvēlēti
 
 Izpildiet tālāk norādītās darbības, lai konfigurētu veikala darbalaiku.
 
-1. Pārejiet uz sadaļu**Retail un Commerce** \> **Kanāla iestatīšana** \> **Veikala darba laiks**.
+1. Pārejiet uz sadaļu **Retail un Commerce** \> **Kanāla iestatīšana** \> **Veikala darba laiks**.
 2. Atlasiet **Jauns**, lai izveidotu jaunu veikala darbalaika veidni. Lai izmantotu esošu veidni, atlasiet veidni kreisajā rūtī.
 3. Dialoglodziņā **Pievienot diapazonu** definējiet datuma diapazonu, veikala darbalaiku un nepieciešamās brīvdienas.
 

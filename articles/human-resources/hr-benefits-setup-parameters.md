@@ -1,9 +1,9 @@
 ---
-title: Iestatīt atvieglojumu pārvaldības parametrus
-description: Konfigurējiet parametrus atvieglojumu pārvaldībai risinājumā Microsoft Dynamics 365 Human Resources.
+title: Iestatīt Atvieglojumu pārvaldību un Darbinieku pašapkalpošanās parametrus visiem uzņēmumiem
+description: Konfigurēt Atvieglojumu pārvaldības parametrus un Darbinieku pašapkalpošanos programmā Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
-ms.date: 07/16/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057032"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692701"
 ---
-# <a name="set-benefits-management-parameters"></a>Iestatīt priekšrocību pārvaldības parametrus
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Iestatīt Atvieglojumu pārvaldību un Darbinieku pašapkalpošanās parametrus visiem uzņēmumiem
 
-Pirms varat iestatīt atvaļinājumu plānus risinājumā Microsoft Dynamics 365 Human Resources, ir jākonfigurē atvieglojumu pārvaldības parametri. Šie parametri iestata noklusējuma vērtības, pamatojuma kodus un citas opcijas.
+Pirms varat iestatīt atvieglojumu plānus risinājumā Microsoft Dynamics 365 Human Resources, ir jākonfigurē atvieglojumu pārvaldības parametri. Šie parametri iestata noklusējuma vērtības, pamatojuma kodus un citas opcijas. 
 
 ## <a name="configure-general-parameters"></a>Vispārējo parametru konfigurēšana
 
-1. Darbvietā **Atvieglojumu pārvaldība** , sadaļā **Iestatījumi** atlasiet **Personāla vadības kopīgie parametri**.
+1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Personāla vadības kopīgie parametri**.
 
-2. Cilnē **Vispārīgi** norādiet vērtības šiem laukiem:
+2. Cilnē **Atvieglojumu pārvaldība** norādiet vērtības šiem laukiem:
 
    | Lauks | Apraksts |
    | --- | --- |
@@ -43,18 +43,20 @@ Pirms varat iestatīt atvaļinājumu plānus risinājumā Microsoft Dynamics 365
    | **Atkārtotas atvēršanas iemesla kods** | Pamatojuma kods, kas jāizmanto nodarbinātā atvieglojumu plāna atkārtotas atvēršanas laikā. Atcelšanas laikā tas rāda dialoglodziņu. Ja nepieciešams, lietotāji var mainīt **Atkārtotas atvēršanas pamatojuma kodu**. | 
    | **Dzīves notikuma iemesla kods** | Pamatojuma kods, ko izmantot, kad notiek dzīves notikums. |
    | **Likmju maiņas iemesla kods** | Pamatojuma kods, ko izmantot, atceļot un atkārtoti atverot nodarbinātā atvieglojumu plānu likmes izmaiņu atjaunināšanas procesa laikā. Tas norāda, kuri ieraksti tika mainīti pēc likmes izmaiņu atjaunināšanas procesa. |
-   | **Atvieglojumu gada alga** | Ļauj iestatīt **Atvieglojumu gada alga** summu darbiniekam. Human Resources izmanto **Atvieglojumu gada alga** summu, nosakot vajadzību summas, nevis fiksētās atlīdzības gada summu. |
+   | **Atvieglojumu gada alga** | Ļauj iestatīt **Atvieglojumu gada alga** summu darbiniekam. Human Resources izmanto **Atvieglojumi gada algai** summu, nosakot vajadzību summas, nevis fiksētās atlīdzības gada summu. |
    | **Piemērots jaunai pieņemšanai darbā** | Norāda vai ir iespējams veikt jaunu pieņemšanu darbā. |
-   | **Jauns pieņemšanas darbā reģistrācijas periods** | Laika periods, kurā atļauta jauna pieņemšanas darbā reģistrācija.</br></br>**Piezīme** : Šis iestatījums labo jebkuru jaunas darbā pieņemšanas reģistrācijas periodu, kuru iestatāt plāna piemērojamības kārtulai. |
+   | **Jauns pieņemšanas darbā reģistrācijas periods** | Laika periods, kurā atļauta jauna pieņemšanas darbā reģistrācija.</br></br>**Piezīme**: Šis iestatījums labo jebkuru jaunas darbā pieņemšanas reģistrācijas periodu, kuru iestatāt plāna piemērojamības kārtulai. |
    | **Noklusējuma maksājumu biežums** | Noklusējuma maksājumu biežums, kas jāizmanto, pievienojot jaunus darbiniekus. |
    | **Dzīves notikumi iespējoti** | Iespējo dzīves notikumus. |
    | **Paslēpt mantoto atvieglojumu veidlapas** | Ļauj slēpt mantotās atvieglojumu veidlapas. |
+   | **Atvieglojuma pārbaude** | Pārbaudes teksts patstāvīgi izmantojamā pakalpojuma atvieglojumu izrakstīšanas laikā. |
+   | **Automātiski atlasīt saņēmējus** | Norāda, vai automātiski atlasīt pakārtotos un saņēmējus, pamatojoties uz viņu piemērotību plāna opcijām. |
 
 3. Atlasiet **Saglabāt**.
 
 ## <a name="configure-employee-self-service-parameters"></a>Konfigurēt nodarbinātā patstāvīgi izmantojamo pakalpojumu parametrus
 
-1. Darbvietā **Atvieglojumu pārvaldība** , sadaļā **Iestatījumi** atlasiet **Personāla vadības parametri**.
+1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Personāla vadības parametri**.
 
 2. Cilnē **Atvieglojumu pārvaldība** norādiet vērtības šiem laukiem:
 
@@ -64,3 +66,5 @@ Pirms varat iestatīt atvaļinājumu plānus risinājumā Microsoft Dynamics 365
    | **Automātiski atlasīt saņēmējus** | Norāda, vai automātiski atlasīt pakārtotos un saņēmējus, pamatojoties uz viņu piemērotību plāna opcijām. |
 
 3. Atlasiet **Saglabāt**.
+
+
