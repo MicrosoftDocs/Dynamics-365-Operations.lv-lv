@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016497"
+ms.locfileid: "4433149"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
 
@@ -57,7 +57,7 @@ ms.locfileid: "4016497"
     - Izmantotais daudzums: viss reģistrētais daudzums.  
     - Atlikušais daudzums: daudzums, kas vēl jāreģistrē no pirkšanas pasūtījuma rindas.  
     - Paredzētais daudzums: kopējais daudzums, kas norādīts pirkšanas pasūtījuma rindā.  
-6. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Ierobežot pēc vienības**. Ja jūs atlasāt šo opciju un norādāt vienību lapā **Ierobežot pēc vienības** , tikai vienības ar šo mērvienību varēs novietot šajā atrašanās vietā. Piemēram, ja mērvienība ir PL (paletes), šajā novietojumā var novietot tikai krājumus paletēs.  
+6. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Ierobežot pēc vienības**. Ja jūs atlasāt šo opciju un norādāt vienību lapā **Ierobežot pēc vienības**, tikai vienības ar šo mērvienību varēs novietot šajā atrašanās vietā. Piemēram, ja mērvienība ir PL (paletes), šajā novietojumā var novietot tikai krājumus paletēs.  
 7. Atzīmējiet vai noņemiet atzīmi no izvēles rūtiņas **Atļaut sadalījumu**. Tas ļauj direktīvai sadalītu daudzumu pa vairākiem novietojumiem.  
 8. Atlasiet **Saglabāt**.
 

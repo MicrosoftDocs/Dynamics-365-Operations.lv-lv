@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015830"
+ms.locfileid: "4433188"
 ---
 # <a name="wave-template-grouping"></a>Kopuma veidņu grupēšana
 
@@ -34,7 +34,7 @@ Kopuma veidņu grupēšana ļauj sistēmai izmantot [kopuma veidnes](tasks/confi
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Līdzekļa Kopuma veidņu grupēšana ieslēgšana
 
-Lai varētu izmantot līdzekli *Kopuma veidņu grupēšana* , tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Lai varētu izmantot līdzekli *Kopuma veidņu grupēšana*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Kopuma veidņu grupēšana*
@@ -45,14 +45,14 @@ Lai padarītu pieejamu kopuma veidņu grupēšanu, veiciet tālāk norādītās 
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma veidnes**.
 1. Kreisajā rūtī atlasiet kopuma veidni, kas jāiestata. Ja vēlaties ar šajā tēmā minēto scenāriju strādāt vēlāk, izmantojot demonstrācijas datus, atlasiet veidni **62 sūtījuma noklusējums**.
-1. Darbību rūtī atlasiet **Rediģēt** , lai lapu padarītu rediģējamu.
+1. Darbību rūtī atlasiet **Rediģēt**, lai lapu padarītu rediģējamu.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet šādas vērtības:
 
     - **Automatizēt kopuma izveidi:** *Jā*
     - **Piešķirt atvērtajiem kopumiem:** *Jā*
     - **Apstrādāt kopumu, to pārvietojot uz noliktavu:** *Nē*
 
-1. Darbību rūtī atlasiet **Rediģēt vaicājumu** , lai atvērtu vaicājuma dialoglodziņu.
+1. Darbību rūtī atlasiet **Rediģēt vaicājumu**, lai atvērtu vaicājuma dialoglodziņu.
 1. Vaicājuma dialoglodziņā cilnē **Kārtošana** pārskatiet kārtošanas kritērijus un pārliecinieties, vai ir iekļauta kārtula, kas ietver lauku, ko vēlaties izmatot jūsu kopumu grupēšanai.
 
     Ja gatavojaties strādāt ar scenāriju, izmantojot demonstrācijas datus, pievienojiet rindu, kurai ir tālāk norādītās vērtības.
@@ -66,12 +66,12 @@ Lai padarītu pieejamu kopuma veidņu grupēšanu, veiciet tālāk norādītās 
 
     - **Meklēšanas virziens:** *Augošā secībā*
 
-1. Atlasiet **Labi** , lai saglabātu izmaiņas un aizvērtu vaicājuma dialoglodziņu.
+1. Atlasiet **Labi**, lai saglabātu izmaiņas un aizvērtu vaicājuma dialoglodziņu.
 1. Darbību rūtī atlasiet **Kopuma veidņu grupēšana**.
 1. Lapā **Kopuma veidņu grupēšana** atzīmējiet izvēles rūtiņu **Grupēt pēc** katrai rindai, kuru vēlaties izmantot, lai pasūtījuma rindas pēc nepieciešamības grupētu kopumos. Ja gatavojaties strādāt ar šo scenāriju, izmantojot demonstrācijas datus, rindai *Pārvadātāja pakalpojums* atzīmējiet izvēles rūtiņu **Grupēt pēc**.
 1. Atlasiet **Saglabāt**.
 1. Aizveriet lapu **Kopuma veidņu grupēšana**.
-1. Atlasiet **Saglabāt** , lai saglabātu veidni.
+1. Atlasiet **Saglabāt**, lai saglabātu veidni.
 
 ## <a name="scenario"></a>Scenārijs
 
@@ -92,13 +92,13 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
 #### <a name="create-sales-order-1"></a>1. pārdošanas pasūtījuma izveide
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - Kopsavilkuma cilnē **Klients** iestatiet laukam **Klienta konts** vērtību *US-004*.
     - Kopsavilkuma cilnē **Vispārīgi** iestatiet laukam **Noliktava** vērtību *62*.
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu, un aizveriet dialoglodziņu **Pārdošanas pasūtījuma izveide**.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu, un aizveriet dialoglodziņu **Pārdošanas pasūtījuma izveide**.
 1. Jaunais pārdošanas pasūtījums tiek atvērts skatā **Rindas**. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pārejiet uz skatu **Galvene**.
 1. Kopsavilkuma cilnē **Piegāde** sadaļā **Transportēšana** iestatiet tālāk norādītās vērtības.
@@ -107,16 +107,16 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
     - **Pārvadātāja pakalpojums:** *Gaisa*
 
 1. Pārejiet atpakaļ uz skatu **Rindas**.
-1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu** , lai režģim pievienotu rindu.
+1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *A0002*
     - **Daudzums:** *2*
 
 1. Atlasiet jaunu pasūtījuma rindu un pēc tam izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Darbību rūts lapā **Rezervācija** atlasiet **Rezervēt laidienu** , lai noliktavā rezervētu pilnu atlasītās rindas daudzumu.
+1. Darbību rūts lapā **Rezervācija** atlasiet **Rezervēt laidienu**, lai noliktavā rezervētu pilnu atlasītās rindas daudzumu.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
-1. Darbību rūtī cilnē **Noliktava** , kas atrodas grupā **Darbības** , atlasiet **Nodot izpildei noliktavā**.
+1. Darbību rūtī cilnē **Noliktava**, kas atrodas grupā **Darbības**, atlasiet **Nodot izpildei noliktavā**.
 1. Saņemsit informatīvu ziņojumu, kurā būs norādīts šī pasūtījuma sūtījums un kopums. Pierakstiet kopuma ID numuru un sūtījuma ID numurus.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>No 1. pārdošanas pasūtījuma izveidotā kopuma skatīšana
@@ -129,13 +129,13 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
 #### <a name="create-sales-order-2"></a>2. pārdošanas pasūtījuma izveide
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - Kopsavilkuma cilnē **Klients** iestatiet lauka **Klienta konts** vērtību uz *US-005*.
     - Kopsavilkuma cilnē **Vispārīgi** iestatiet laukam **Noliktava** vērtību *62*.
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu, un aizveriet dialoglodziņu **Pārdošanas pasūtījuma izveide**.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu, un aizveriet dialoglodziņu **Pārdošanas pasūtījuma izveide**.
 1. Jaunais pārdošanas pasūtījums tiek atvērts skatā **Rindas**. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pārejiet uz skatu **Galvene**.
 1. Kopsavilkuma cilnē **Piegāde** sadaļā **Transportēšana** iestatiet tālāk norādītās vērtības.
@@ -144,16 +144,16 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
     - **Pārvadātāja pakalpojums:** *Stand.*
 
 1. Pārejiet atpakaļ uz skatu **Rindas**.
-1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu** , lai režģim pievienotu rindu.
+1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *A0001*
     - **Daudzums:** *1*
 
 1. Atlasiet jaunu pasūtījuma rindu un pēc tam izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Darbību rūts lapā **Rezervācija** atlasiet **Rezervēt laidienu** , lai noliktavā rezervētu pilnu atlasītās rindas daudzumu.
+1. Darbību rūts lapā **Rezervācija** atlasiet **Rezervēt laidienu**, lai noliktavā rezervētu pilnu atlasītās rindas daudzumu.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
-1. Darbību rūtī cilnē **Noliktava** , kas atrodas grupā **Darbības** , atlasiet **Nodot izpildei noliktavā**.
+1. Darbību rūtī cilnē **Noliktava**, kas atrodas grupā **Darbības**, atlasiet **Nodot izpildei noliktavā**.
 1. Saņemsit informatīvu ziņojumu, kurā būs norādīts šī pasūtījuma sūtījums un kopums. Pierakstiet kopuma ID numuru un sūtījuma ID numurus. Ņemiet vērā, ka kopuma ID atšķiras no pirmā pārdošanas pasūtījuma kopuma ID.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>No 2. pārdošanas pasūtījuma izveidotā kopuma skatīšana
@@ -168,13 +168,13 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
 #### <a name="create-sales-order-3"></a>3. pārdošanas pasūtījuma izveide
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns** , lai izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - Kopsavilkuma cilnē **Klients** iestatiet lauka **Klienta konts** vērtību uz *US-006*.
     - Kopsavilkuma cilnē **Vispārīgi** iestatiet laukam **Noliktava** vērtību *62*.
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu, un aizveriet dialoglodziņu **Pārdošanas pasūtījuma izveide**.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu, un aizveriet dialoglodziņu **Pārdošanas pasūtījuma izveide**.
 1. Jaunais pārdošanas pasūtījums tiek atvērts skatā **Rindas**. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pārejiet uz skatu **Galvene**.
 1. Kopsavilkuma cilnē **Piegāde** sadaļā **Transportēšana** iestatiet tālāk norādītās vērtības.
@@ -183,16 +183,16 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
     - **Pārvadātāja pakalpojums:** *Gaisa*
 
 1. Pārejiet atpakaļ uz skatu **Rindas**.
-1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu** , lai režģim pievienotu rindu.
+1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *A0001*
     - **Daudzums:** *1*
 
 1. Atlasiet jaunu pasūtījuma rindu un pēc tam izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Darbību rūts lapā **Rezervācija** atlasiet **Rezervēt laidienu** , lai noliktavā rezervētu pilnu atlasītās rindas daudzumu.
+1. Darbību rūts lapā **Rezervācija** atlasiet **Rezervēt laidienu**, lai noliktavā rezervētu pilnu atlasītās rindas daudzumu.
 1. Aizveriet **Rezervācijas** lapu, lai atgrieztos pie pārdošanas pasūtījuma.
-1. Darbību rūtī cilnē **Noliktava** , kas atrodas grupā **Darbības** , atlasiet **Nodot izpildei noliktavā**.
+1. Darbību rūtī cilnē **Noliktava**, kas atrodas grupā **Darbības**, atlasiet **Nodot izpildei noliktavā**.
 1. Saņemsit informatīvu ziņojumu, kurā būs norādīts šī pasūtījuma sūtījums un kopums. Pierakstiet kopuma ID numuru un sūtījuma ID numurus. Sūtījums ir piešķirts esošajam kopumam no pirmā pārdošanas pasūtījuma.
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>1. un 3. pārdošanas pasūtījuma kopumu skatīšana

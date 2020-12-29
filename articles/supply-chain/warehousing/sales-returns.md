@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987418"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432570"
 ---
 # <a name="sales-returns"></a>Atgrieztās pārdotās preces
 
@@ -199,7 +199,7 @@ Lapā **Saņemšanas darbību apskats** ir norādītas visas ieplānotās saņem
 
 Iestatot opcijas **Karantīnas pārraudzība** vērtību **Jā**, varat izveidot atgriešanas rindas karantīnas pasūtījumu. Ja rinda ir nosūtīta karantīnā pārbaudes veikšanai, nevarat norādīt atgriešanas metodes kodu. 
  
-Ja krājuma vienības krājumu modeļa grupā opciju **Karantīnas pārvaldība**iestatāt uz **Jā**, saņemšanas žurnāla rindai lapā **Žurnāla rindas** tiek atzīmēta opcija **Karantīnas pārvaldība** un to nevar mainīt. Ja rinda ir nosūtīta karantīnā, ir jānorāda atbilstošā karantīnas noliktava. 
+Ja krājuma vienības krājumu modeļa grupā opciju **Karantīnas pārvaldība** iestatāt uz **Jā**, saņemšanas žurnāla rindai lapā **Žurnāla rindas** tiek atzīmēta opcija **Karantīnas pārvaldība** un to nevar mainīt. Ja rinda ir nosūtīta karantīnā, ir jānorāda atbilstošā karantīnas noliktava. 
 
 Ja saņemšanas rinda netiek nosūtīta pārbaudei, noliktavas saņemšanas daļas darbiniekam ir tiešā veidā jānorāda atgriešanas metodes kods saņemšanas žurnāla rindā un pēc tam jāgrāmato saņemšanas žurnāls. Ja visam atgriešanas rindas daudzumam nav jāpiešķir viens atgriešanas metodes kods vai nav saņemts viss rindas daudzums, rinda ir jāsadala. Sadalot saņemšanas žurnāla rindu, tiek sadalīta arī atgriešanas rinda (**SalesLine**) un izveidots jauns partijas ID. Rindu var sadalīt, samazinot saņemšanas žurnāla rindas daudzumu. Grāmatojot žurnālu, atlikušajam daudzumam tiek izveidota jauna atgriešanas rinda ar statusu **Paredzamai**. Rindu var arī sadalīt, noklikšķinot uz **Funkcijas** &gt; **Sadalīt**.
 
@@ -257,7 +257,7 @@ Lai gan lapā **Atgriešanas pasūtījums** ir ietverta informācija un darbība
 ### <a name="credit-correction"></a>Kredīta korekcija
 
 Rēķina izrakstīšanas procesa ietvaros pārbaudiet, vai visas papildmaksas ir pareizas. Lai Virsgrāmatas ierakstus padarītu par korekciju (storno), rēķina/kredīta notas grāmatošanas laikā ir ieteicams izmantot opciju **Kredīta korekcija**, kas ir pieejama lapas **Rēķina grāmatošana** cilnē **Cits**. 
->[Piezīme!] Pēc noklusējuma opcija **Kredīta korekcija** ir aktivizēta, ja lapā **Debitoru moduļa parametri** ir iespējota opcija **Kredīta nota kā korekcija**. Taču nav ieteicams grāmatot atgriešanas, izmantojot storno.
+>[Piezīme!] Pēc noklusējuma opcija **Kredīta korekcija** ir aktivizēta, ja ir iespējota opcija **Kredīta nota kā korekcija** lapā **Debitoru moduļa parametri**. Taču nav ieteicams grāmatot atgriešanas, izmantojot storno.
 
 ## <a name="create-intercompany-return-orders"></a>Starpuzņēmumu atgriešanas pasūtījumu izveide
 Atgriešanas pasūtījumus var izpildīt starp diviem uzņēmumiem jūsu organizācijas ietvaros. Tālāk ir norādīti atbalstītie scenāriji.

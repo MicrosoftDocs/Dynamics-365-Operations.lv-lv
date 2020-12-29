@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979832"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432976"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos
 
@@ -110,27 +110,27 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <tr class="odd">
 <td>Implies</td>
 <td>Tas ir patiess, ja pirmais nosacījums ir nepatiess, otrais nosacījums ir patiess vai abi.</td>
-<td>Implies[a, b], infix: a -: b</td>
+<td>Norāda[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operators:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Operators:</strong> Norāda[x != 0, y &gt;= 0]</li>
 <li><strong>Infiksālā pierakste:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>And</td>
+<td>Un</td>
 <td>Tas ir spēkā tikai tad, ja ir spēkā visi nosacījumi. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Patiess</strong>.</td>
-<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
+<td>Un[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operators:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Operators:</strong> Un[x == 2, y &lt;= 2]</li>
 <li><strong>Infiksālā pierakste:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Or</td>
+<td>Vai</td>
 <td>Tas ir patiess, ja jebkurš nosacījums ir patiess. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Nepatiess</strong>.</td>
-<td>Or[args], infix: a | b | ... | z</td>
+<td>Vai[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operators:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Operators:</strong> Vai[x == 2, y &lt;= 2]</li>
 <li><strong>Infiksālā pierakste:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -144,11 +144,11 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Minus</td>
+<td>Mīnus</td>
 <td>Tas noliedz savu argumentu. Tam ir jābūt precīzi vienam nosacījumam.</td>
-<td>Minus[expr], infix: -expr</td>
+<td>Mīnus[expr], infix: -expr</td>
 <td><ul>
-<li><strong>Operators:</strong> Minus[x] == y</li>
+<li><strong>Operators:</strong> Mīnus[x] == y</li>
 <li><strong>Infiksālā pierakste:</strong> -x == y</li>
 </ul></td>
 </tr>
@@ -159,17 +159,17 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <td><strong>Operators:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Times</td>
+<td>Laiki</td>
 <td>Tas paņem preci no tā nosacījumiem. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>1</strong>.</td>
-<td>Times[args], infix: a * b * ... * z</td>
+<td>Laiki[args], infix: a * b * ... * z</td>
 <td><ul>
-<li><strong>Operators:</strong> Times[x, y, 2] == z</li>
+<li><strong>Operators:</strong> Laiki[x, y, 2] == z</li>
 <li><strong>Infiksālā pierakste:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Power</td>
-<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas ir labēji asociatīvs.) Tāpēc izteiksme <strong>Power[a, b, c]</strong> ir vienāda ar izteiksmi <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
+<td>Jauda</td>
+<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas&#39;ir labēji asociatīvs.) Tāpēc izteiksme <strong>Power[a, b, c]</strong> ir vienāda ar izteiksmi <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operators:</strong> Power[x, 2] == y</li>
@@ -177,9 +177,9 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Max</td>
+<td>Maks.</td>
 <td>Tas dod lielāko nosacījumu. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Bezgalība</strong>.</td>
-<td>Max[args]</td>
+<td>Maks[args]</td>
 <td><strong>Operators:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
@@ -189,11 +189,11 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <td><strong>Operators:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
-<td>Not</td>
+<td>Ne</td>
 <td>Tas dod sava nosacījuma apgriezto loģiku. Tam ir jābūt precīzi vienam nosacījumam.</td>
-<td>Not[expr], infix: !expr</td>
+<td>Ne[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operators:</strong> Not[x] &amp; Not[y == 3]</li>
+<li><strong>Operators:</strong> Ne[x] &amp; Ne[y == 3]</li>
 <li><strong>Infiksālā pierakste:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>

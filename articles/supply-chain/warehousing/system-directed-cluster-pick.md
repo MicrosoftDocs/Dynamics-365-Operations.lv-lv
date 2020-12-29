@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016037"
+ms.locfileid: "4433169"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistēmas noteikta klastera izdošana
 
@@ -69,9 +69,9 @@ Klastera profili kontrolē, kā sistēma izveido katru klasteri. Ja ir nepiecie�
 5. Kopsavilkuma cilnē **Vispārīgi** ievadiet tālāk norādīto informāciju.
 
     - **Ģenerēt klastera ID** — atlasiet **Jā**. Šī opcija nosaka, vai sistēma automātiski izveido klastera ID, vai arī lietotājs to izveidos izdošanas sākumā. 
-    - **Aktivizēt pozīcijas** — atlasiet **Jā**. Šī opcija nosaka, vai pozīciju nosaukumi tiek ģenerēti automātiski, pamatojoties uz pozīcijas nosaukuma iestatījumu. Ja šī opcija iestatīta uz **Nē** , tiek izmantots pozīcijas unikālais noliktavas vienības identifikators.
+    - **Aktivizēt pozīcijas** — atlasiet **Jā**. Šī opcija nosaka, vai pozīciju nosaukumi tiek ģenerēti automātiski, pamatojoties uz pozīcijas nosaukuma iestatījumu. Ja šī opcija iestatīta uz **Nē**, tiek izmantots pozīcijas unikālais noliktavas vienības identifikators.
     - **Pozīciju skaits** — atlasiet **2**. Šis lauks nosaka maksimālo pozīciju skaitu, kas var būt klasterim (t.i., maksimālais kārbu, kravu utt. skaits).
-    - **Pozīcijas nosaukums** — atlasiet **Skaitlisks** , lai pozīcijas tiktu secīgi numurētas. Ja atlasīsiet **Alfabētiski** , pozīcijas tiks nosauktas alfabētiskā secībā.
+    - **Pozīcijas nosaukums** — atlasiet **Skaitlisks**, lai pozīcijas tiktu secīgi numurētas. Ja atlasīsiet **Alfabētiski**, pozīcijas tiks nosauktas alfabētiskā secībā.
     - **Pārtraukt klasteri pie** — atlasiet **Ievietot**. Šis lauks nosaka, kad klasteris tiek pārtraukts. 
     - **Kārtošanas pārbaudes veids** — atlasiet **Pozīcijas skenēšana**. Šis lauks nosaka, vai ir pārbaudīta ievietošanas pozīcijā darbība.
         
@@ -109,12 +109,12 @@ Lai izveidotu jaunu mobilās ierīces izvēlnes vienumu sistēmas noteiktai klas
 
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**
 1. Atlasiet cilni **Šķirošana**
-1. Atlasiet **Pievienot** , lai pievienotu jaunu rindu, un pēc tam ievadiet tālāk minēto.
+1. Atlasiet **Pievienot**, lai pievienotu jaunu rindu, un pēc tam ievadiet tālāk minēto.
     - **Tabula** — darbs
     - **Atveidotā tabula** — Darbs
     - **Lauks** — Darba prioritāte
     - **Meklēšanas virziens** — Augošā secībā
-1. Atlasiet **Pievienot** , lai pievienotu otru rindu, un pēc tam ievadiet tālāk minēto.
+1. Atlasiet **Pievienot**, lai pievienotu otru rindu, un pēc tam ievadiet tālāk minēto.
     - **Tabula** — darbs
     - **Atveidotā tabula** — Darbs
     - **Lauks** — Darba ID
@@ -125,13 +125,13 @@ Lai izveidotu jaunu mobilās ierīces izvēlnes vienumu sistēmas noteiktai klas
 ### <a name="set-up-a-mobile-device-menu"></a>Mobilās ierīces izvēlnes iestatīšana
 
 1. Dodieties uz **Noliktavas vadība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlne**.
-1. Pievienojiet izvēlnes elementu **SD klasteris** , kuru tikko izveidojāt, mobilās ierīces izvēlnei.
+1. Pievienojiet izvēlnes elementu **SD klasteris**, kuru tikko izveidojāt, mobilās ierīces izvēlnei.
 1. Atlasiet izvēlni **Izejošais**.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Ritiniet, līdz atrodat **SD klasteris**.
-1. Atlasiet opciju **SD klasteris** , tiks iespējota bultiņa, kas norāda uz sarakstu **Izvēlņu struktūra**.
+1. Atlasiet opciju **SD klasteris**, tiks iespējota bultiņa, kas norāda uz sarakstu **Izvēlņu struktūra**.
 1. Atlasiet **bultiņas** pogu, lai pārvietotu izvēlnes elementu **SD klasteris** uz izvēlnes struktūru **Izejošais**.
-1. Sarakstā **Izvēlņu struktūra** atlasiet **SD klasteris** , pēc tam atlasiet bultiņas **Uz augšu** vai **Uz leju** , lai pārvietotu izvēlnes elementu vēlamajā pozīcijā mobilās ierīces izvēlnē.
+1. Sarakstā **Izvēlņu struktūra** atlasiet **SD klasteris**, pēc tam atlasiet bultiņas **Uz augšu** vai **Uz leju**, lai pārvietotu izvēlnes elementu vēlamajā pozīcijā mobilās ierīces izvēlnē.
 
 ## <a name="scenario"></a>Scenārijs
 
@@ -141,58 +141,58 @@ Pirms varēsiet iestatīt sistēmas noteikta klastera izdošanu, ir jāizveido p
 
 1. Pārejiet uz sadaļu **Pārdošana un mārketings > Pārdošanas pasūtījumi > Visi pārdošanas pasūtījumi**.
 1. Lai izveidotu pirmo pārdošanas pasūtījumu, Darbību rūtī atlasiet **Jauns**.
-    - Tiks atvērta izvēlne **Izveidot pārdošanas pasūtījumu** , ievadiet tālāk minēto informāciju.
+    - Tiks atvērta izvēlne **Izveidot pārdošanas pasūtījumu**, ievadiet tālāk minēto informāciju.
         - Kopsavilkuma cilnē **Debitors** ievadiet **Debitora konts** - **US-004**.
         - Kopsavilkuma cilnē **Vispārīgi** ievadiet **Noliktava** - **62**.
-        - Atlasiet **Labi** , lai aizvērtu izvēlni izveidotu pārdošanas pasūtījumu.
-    - Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindās** atlasiet **Pievienot rindu** , ja jauna rinda netiek pievienota automātiski, un ievadiet tālāk minēto.
+        - Atlasiet **Labi**, lai aizvērtu izvēlni izveidotu pārdošanas pasūtījumu.
+    - Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindās** atlasiet **Pievienot rindu**, ja jauna rinda netiek pievienota automātiski, un ievadiet tālāk minēto.
         - **Krājuma numurs** — A0001
         - **Daudzums** — 1
-        - Atlasiet **Pievienot rindu** , lai pievienotu otro rindu.
+        - Atlasiet **Pievienot rindu**, lai pievienotu otro rindu.
         - **Krājuma numurs** — A0002
         - **Daudzums** — 3
     - Rezervējiet krājumus abām tikko izveidotajām rindām.
         - Atlasiet **1. rinda**.
         - Darbību rūtī **Pārdošanas pasūtījuma rindas** atlasiet **Krājums** un pēc tam sarakstā atlasiet **Rezervācija**.
-        - Veidlapā **Rezervācija** atlasiet **Rezervēt laidienu** , lai rezervētu krājumus.
+        - Veidlapā **Rezervācija** atlasiet **Rezervēt laidienu**, lai rezervētu krājumus.
         - Kad rezervēšana ir pabeigta, aizveriet veidlapu **Rezervācija**.
         - Atkārtojiet šīs darbības, lai rezervētu krājumus **2. rindai**.
 1. Lai izveidotu otro pārdošanas pasūtījumu, darbību rūtī atlasiet **Jauns**
-    - Tiks atvērta izvēlne **Izveidot pārdošanas pasūtījumu** , ievadiet tālāk minēto informāciju.
+    - Tiks atvērta izvēlne **Izveidot pārdošanas pasūtījumu**, ievadiet tālāk minēto informāciju.
         - Kopsavilkuma cilnē **Debitors** ievadiet **Debitora konts** - **US-005**.
         - Kopsavilkuma cilnē **Vispārīgi** ievadiet **Noliktava** - **62**.
-        - Atlasiet **Labi** , lai aizvērtu izvēlni un izveidotu pārdošanas pasūtījumu
-    - Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindās** atlasiet **Pievienot rindu** , ja jauna rinda netiek pievienota automātiski, un ievadiet tālāk minēto informāciju.
+        - Atlasiet **Labi**, lai aizvērtu izvēlni un izveidotu pārdošanas pasūtījumu
+    - Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindās** atlasiet **Pievienot rindu**, ja jauna rinda netiek pievienota automātiski, un ievadiet tālāk minēto informāciju.
         - **Krājuma numurs** — A0001
         - **Daudzums** — 4
-        - Atlasiet **Pievienot rindu** , lai pievienotu otro rindu.
+        - Atlasiet **Pievienot rindu**, lai pievienotu otro rindu.
         - **Krājuma numurs** — A0002
         - **Daudzums** — 2
     - Rezervējiet krājumus abām tikko izveidotajām rindām.
         - Atlasiet **1. rinda**.
         - Darbību rūtī **Pārdošanas pasūtījuma rindas** atlasiet **Krājums** un pēc tam sarakstā atlasiet **Rezervācija**.
-        - Veidlapā **Rezervācija** atlasiet **Rezervēt laidienu** , lai rezervētu krājumus.
+        - Veidlapā **Rezervācija** atlasiet **Rezervēt laidienu**, lai rezervētu krājumus.
         - Kad rezervēšana ir pabeigta, aizveriet veidlapu **Rezervācija**.
         - Atkārtojiet šīs darbības, lai rezervētu krājumus **2. rindai**.
     - Aizveriet pārdošanas pasūtījumu un atgriezieties saraksta lapā **Visi pārdošanas pasūtījumi**.
 1. Atrodiet abus tikko izveidotos pārdošanas pasūtījumus (iespējams, ir jāatsvaidzina lapa). Tabulā atlasiet abus pārdošanas pasūtījumus, izmantojot sadaļas atzīmi.
     - Darbību rūtī **Visi pārdošanas pasūtījumi** atlasiet cilni **Noliktava**.
-    - Grupā **Darbības** atlasiet **Nodot izpildei noliktavā** , lai abi pārdošanas pasūtījumi tiktu nodoti noliktavai.
+    - Grupā **Darbības** atlasiet **Nodot izpildei noliktavā**, lai abi pārdošanas pasūtījumi tiktu nodoti noliktavai.
 1. Kad nodošanas noliktavas process ir pabeigta, tiks parādīts informatīvs ziņojums.
     - Katram pārdošanas pasūtījumam tiks izveidotas piegādes.
     - Tiks izveidots kopums, un abi sūtījumi tiks piešķirti šim kopumam. Pierakstiet **Kopuma ID**.
 1. Dodieties uz **Noliktavas pārvaldība > Izejošie kopumi > Sūtījuma kopumi > Visi kopumi**.
-    - Sarakstā **Visi kopumi** atrodiet un atlasiet to **Kopuma ID** , ko izveidojāt iepriekšējā darbībā.
+    - Sarakstā **Visi kopumi** atrodiet un atlasiet to **Kopuma ID**, ko izveidojāt iepriekšējā darbībā.
     - Darbību rūtī atlasiet cilni **Kopums**.
-    - Grupā **Kopums** atlasiet **Process** , lai apstrādātu kopumu un izveidotu **Darbu**.
+    - Grupā **Kopums** atlasiet **Process**, lai apstrādātu kopumu un izveidotu **Darbu**.
     - Informācijas ziņojumi tiks ģenerēti, kad apstrāde ir pabeigta, norādot, ka darbs ir izveidots un kopums ir iegrāmatots.
-1. **Neobligāti** : dodieties uz **Noliktavas pārvaldība > Darbs > Darba informācija** , lai skatītu izveidoto darbu. Tiek izveidoti divi dažādi darba ID. Katram darba ID ir divas izdošanas rindas.
+1. **Neobligāti**: dodieties uz **Noliktavas pārvaldība > Darbs > Darba informācija**, lai skatītu izveidoto darbu. Tiek izveidoti divi dažādi darba ID. Katram darba ID ir divas izdošanas rindas.
 
 ### <a name="run-the-mobile-device-flow"></a>Mobilās ierīces plūsmas palaišana
 
 1. Pierakstieties mobilajā ierīcē lietotājam noliktavā **62**.
 1. **Galvenajā izvēlnē** atlasiet **Izejošais**.
-1. Izvēlē **Izejošais** atlasiet **SD klasteris** , lai aktivizētu izdošanu.
+1. Izvēlē **Izejošais** atlasiet **SD klasteris**, lai aktivizētu izdošanu.
     - Tiek izveidots klasteris, un tam tiek pievienoti divi darba ID, ko izveidojāt iepriekš. Ja esat izveidojis vairāk nekā divus darba ID, pievienoti klasterim tiek tikai pirmie divi. Ņemiet vērā, ka darba ID tiek pievienoti klasterim augošā secībā, kā norādījāt vaicājuma iestatījumā.
 
     > [!NOTE]

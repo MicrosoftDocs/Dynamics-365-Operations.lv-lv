@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211380"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432622"
 ---
 # <a name="operations-scheduling-options"></a>Operāciju plānošanas opcijas
 
@@ -97,7 +97,7 @@ Ja atsauces ir atkarīgas no ražošanas pasūtījumiem, tās tiek dēvētas ar�
 
 ### <a name="synchronize-references"></a>Sinhronizēt atsauces
 
-Atsauces var sinhronizēt ar ražošanas pasūtījumu. Ja izvēlēta šī opcija, apakšražošanas tiek pārvietotas un saskaņotas, tiklīdz ražošanas pasūtījuma plānā tiek izdarītas izmaiņas. Ja ražošanas pasūtījumam ir viens vai vairāki apakšražošanas uzdevumi, varat plānot apakšražošanas uzdevumus kopā ar galveno ražošanu. Šādā gadījumā galveno ražošanu nevar sākt, kamēr nav pabeigti saistītie apakšražošanas uzdevumi. Tādējādi atzīmējiet šo izvēles rūtiņu, ja apakšražošanas uzdevumu plānošanas pamatā jābūt atlasītās ražošanas sākuma un beigu laikam. Šo izvēles rūtiņu var atzīmēt tikai tad, ja izvēles rūtiņa**Plānot atsauces** arī ir atzīmēta.
+Atsauces var sinhronizēt ar ražošanas pasūtījumu. Ja izvēlēta šī opcija, apakšražošanas tiek pārvietotas un saskaņotas, tiklīdz ražošanas pasūtījuma plānā tiek izdarītas izmaiņas. Ja ražošanas pasūtījumam ir viens vai vairāki apakšražošanas uzdevumi, varat plānot apakšražošanas uzdevumus kopā ar galveno ražošanu. Šādā gadījumā galveno ražošanu nevar sākt, kamēr nav pabeigti saistītie apakšražošanas uzdevumi. Tādējādi atzīmējiet šo izvēles rūtiņu, ja apakšražošanas uzdevumu plānošanas pamatā jābūt atlasītās ražošanas sākuma un beigu laikam. Šo izvēles rūtiņu var atzīmēt tikai tad, ja izvēles rūtiņa **Plānot atsauces** arī ir atzīmēta.
 
 ## <a name="cancellation"></a>Atcelšana
 ### <a name="cancel-queue-time"></a>Atcelt gaidīšanas laiku

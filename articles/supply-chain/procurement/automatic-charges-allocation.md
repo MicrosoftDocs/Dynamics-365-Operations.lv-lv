@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998880"
+ms.locfileid: "4433078"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automātisks maksu sadalījums
 
@@ -45,7 +45,7 @@ Lai piešķirtu maksas, vispirms ir jādefinē maksu kodi.
     - **Maksu kods** — ievadiet maksu kodu.
     - **Apraksts** — ievadiet maksu aprakstu.
     - **Krājumu PVN grupa** — atlasiet krājumu PVN grupu, ja tā ir piemērojama.
-    - **Proporcionālā likme** — iestatiet šo opciju uz *Jā* , Ja vēlaties proporcionāli novērtēt savas maksas. Šī opcija ir pieejama tikai pārdošanas pasūtījumiem.
+    - **Proporcionālā likme** — iestatiet šo opciju uz *Jā*, Ja vēlaties proporcionāli novērtēt savas maksas. Šī opcija ir pieejama tikai pārdošanas pasūtījumiem.
     - **Maksimālā summa** — ievadiet maksas kodam maksimāli atļauto summu. Šis lauks tiek izmantots, lai pārbaudītu kreditoru rēķinu maksas. Tas ir pieejams tikai pirkšanas pasūtījumiem.
 
         > [!NOTE]
@@ -53,8 +53,8 @@ Lai piešķirtu maksas, vispirms ir jādefinē maksu kodi.
 
 1. Kopsavilkuma cilnē **Grāmatošana** ietilpst sadaļas **Debets** un **Kredīts**. Atkarībā no Virsgrāmatas, kurā vēlaties grāmatot maksas, iestatiet tālāk norādītos laukus.
 
-    - **Veids** — atlasiet konta veidu, kurā grāmatojat ( *Virsgrāmata* , *Debitors* vai *Krājums* ).
-    - **Grāmatošana** — atlasiet veidojamo grāmatojumu veidu (piemēram, *Starpnieka maksa* vai *Debitora norēķini* ).
+    - **Veids** — atlasiet konta veidu, kurā grāmatojat (*Virsgrāmata*, *Debitors* vai *Krājums*).
+    - **Grāmatošana** — atlasiet veidojamo grāmatojumu veidu (piemēram, *Starpnieka maksa* vai *Debitora norēķini*).
     - **Konts** — atlasiet kontu, kurā grāmatot maksu.
 
 1. Darbību rūtī atlasiet **Saglabāt**.
@@ -68,7 +68,7 @@ Maksu grupas automātiski piešķir noteiktas maksas debitoru vai kreditoru grup
 Lai izveidotu maksu grupas pirkšanas pasūtījumiem, veiciet tālāk norādītās darbības.
 
 1. Doties uz **Kreditori \> Maksu iestatīšana \> Kreditoru maksu grupa**.
-1. Darbību rūtī atlasiet **Jauns** , lai pievienotu rindu režģim, un pēc tam atlasiet tālāk norādītos laukus.
+1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet tālāk norādītos laukus.
 
     - **Maksu grupa** — ievadiet maksu grupas nosaukumu.
     - **Apraksts** — ievadiet maksu grupas aprakstu.
@@ -81,8 +81,8 @@ Lai izveidotu maksu grupas pirkšanas pasūtījumiem, veiciet tālāk norādīt�
 
 Lai izveidotu maksu grupas pārdošanas pasūtījumiem, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Debitori \> Maksu iestatīšana \> Debitora maksu grupas**.
-1. Darbību rūtī atlasiet **Jauns** , lai pievienotu rindu režģim, un pēc tam atlasiet tālāk norādītos laukus.
+1. Dodieties uz **Debitori \> Maksu iestatīšana \> Debitora maksu grupas**.
+1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet tālāk norādītos laukus.
 
     - **Maksu grupa** — ievadiet maksu grupas nosaukumu.
     - **Apraksts** — ievadiet maksu grupas aprakstu.
@@ -105,28 +105,28 @@ Pēc maksu kodu iestatīšanas veiciet tālāk norādītās darbības, lai defin
     - *Galvenais* — piemēro maksas pasūtījuma galvenei.
     - *Rinda* — piemēro maksas pasūtījuma rindām.
 
-1. Atlasiet esošu automātisko maksu, lai to rediģētu, vai atlasiet **Jauns** , lai definētu jaunu automātisko maksu.
+1. Atlasiet esošu automātisko maksu, lai to rediģētu, vai atlasiet **Jauns**, lai definētu jaunu automātisko maksu.
 1. Sarakstā **Konta kods** atlasiet vienu no tālāk norādītajām vērtībām, lai norādītu to kontu tvērumu, kas tiks ietekmēti.
 
     - *Tabula* — piešķirt maksas noteiktam debitoram vai kreditoram.
     - *Grupa* — piešķirt maksas papildmaksu grupai.
     - *Viss* – piešķirt maksas visiem debitoriem vai kreditoriem.
 
-1. Laukā **Debitoru saistība** vai **Kreditoru saistība** atlasiet konkrētu debitoru vai kreditoru, ja iestatījāt lauku **Konta kods** uz *Tabula*. Ja lauku **Konta kods** iestatījāt uz *Grupa* , atlasiet debitora vai kreditora maksu grupu.
+1. Laukā **Debitoru saistība** vai **Kreditoru saistība** atlasiet konkrētu debitoru vai kreditoru, ja iestatījāt lauku **Konta kods** uz *Tabula*. Ja lauku **Konta kods** iestatījāt uz *Grupa*, atlasiet debitora vai kreditora maksu grupu.
 1. Laukā **Krājuma kods** atlasiet vienu no tālāk norādītajām vērtībām, lai norādītu to krājumu tvērumu, kas tiks ietekmēti. Krājuma kodu var atlasīt tikai tad, kad definējat automātiskās maksas rindas līmenī.
 
     - *Tabula* — piešķiriet maksas noteiktam krājumam.
     - *Grupa* — piešķirt maksas krājuma maksu grupai.
     - *Viss* — piešķiriet maksas visiem krājumiem.
 
-1. Laukā **Krājumu saistība** atlasiet konkrētu krājumu, ja iestatāt lauku **Krājuma kods** uz *Tabula*. Ja iestatāt lauku **Krājuma kods** uz *Grupa* , atlasiet krājuma maksu grupu.
+1. Laukā **Krājumu saistība** atlasiet konkrētu krājumu, ja iestatāt lauku **Krājuma kods** uz *Tabula*. Ja iestatāt lauku **Krājuma kods** uz *Grupa*, atlasiet krājuma maksu grupu.
 1. **Tikai pārdošanas pasūtījumiem:** laukā **Piegādes koda veids** atlasiet vienu no tālāk norādītajām vērtībām, lai noteiktu piegādes režīmu diapazonu, kas tiks ietekmēts.
 
     - *Tabula* — piešķirt maksas noteiktam piegādes veidam.
     - *Grupa* — piešķirt maksas piegādes grupas veidam.
     - *Viss* — piešķirt maksas visiem piegādes veidiem.
 
-1. **Tikai pārdošanas pasūtījumiem:** laukā **Piegādes veida relācija** atlasiet konkrētu piegādes veidu, ja iestatāt lauku **Piegādes veida kods** uz *Tabula*. Ja iestatāt lauku **Piegādes veida kods** uz *Grupa* , atlasiet piegādes veida grupu.
+1. **Tikai pārdošanas pasūtījumiem:** laukā **Piegādes veida relācija** atlasiet konkrētu piegādes veidu, ja iestatāt lauku **Piegādes veida kods** uz *Tabula*. Ja iestatāt lauku **Piegādes veida kods** uz *Grupa*, atlasiet piegādes veida grupu.
 1. Kopsavilkuma cilnē **Rindas** definējiet maksas un maksu likmes, kas tiks izmantotas, piemērojot pašreizējo automātisko maksu. Varat izmantot rīkjoslu šajā kopsavilkuma cilnē, lai pievienotu tik daudz rindu, cik nepieciešams. Katrai rindai iestatiet tālāk norādītos laukus.
 
     - **Valūta** — atlasiet valūtu, kas jāizmanto maksas aprēķināšanai.
@@ -156,8 +156,8 @@ Procedūrā zemāk ir parādīts, kā piešķirt galvenes līmeņa maksas rindai
 1. Atveriet pirkšanas pasūtījumu vai maksas pasūtījumu.
 1. Darbību rūtī veiciet vienu no tālāk norādītajām darbībām.
 
-    - Pirkšanas pasūtījumiem: cilnē **Pirkšana** , kas atrodas grupā **Maksas** , atlasiet **Piešķirt maksas**.
-    - Pārdošanas pasūtījumiem: cilnē **Pārdošana** , kas atrodas grupā **Maksas** , atlasiet **Piešķirt maksas**.
+    - Pirkšanas pasūtījumiem: cilnē **Pirkšana**, kas atrodas grupā **Maksas**, atlasiet **Piešķirt maksas**.
+    - Pārdošanas pasūtījumiem: cilnē **Pārdošana**, kas atrodas grupā **Maksas**, atlasiet **Piešķirt maksas**.
 
 1. Dialoglodziņā **Piešķirt maksas pasūtījuma rindām** iestatiet tālāk norādītos laukus.
 
@@ -171,9 +171,9 @@ Procedūrā zemāk ir parādīts, kā piešķirt galvenes līmeņa maksas rindai
     - **Piešķirt visu** — atlasiet šo izvēles rūtiņu, lai sadalītu maksas pirkšanas pasūtījuma rindām, pat ja papildmaksas koda debets nav *Krājums*.
     - **Saņemts** – atlasiet šo izvēles rūtiņu, lai sadalītu maksas tikai saņemtajām pasūtījuma rindām.
     - **Uzkrāts** – atlasiet šo izvēles rūtiņu, lai sadalītu maksas tikai inventarizētajām pasūtījuma rindām.
-    - **Rādīt atlases un noņemt noteiktas rindas** — atlasiet šo izvēles rūtiņu, lai no šī sadalījuma izslēgtu noteiktas rindas. Atlasot šo izvēles rūtiņu, tiek atvērts režģis **Izvēlēties rindas, lai izslēgtu no sadalījuma**. Šajā režģī tiek iekļautas tikai tās rindas, kas atbilst kritērijiem, kas ir definēti iestatījumos **Piešķirt maksas rindām** un **Uzkrāts**. Piemēram, ja iestatāt lauku **Piešķirt maksas rindām** uz *Pozitīvās rindas* un atlasāt izvēles rūtiņu **Uzkrāts** , režģī tiek rādītas tikai tās rindas, kuras ir pozitīvas un inventarizētas. Turklāt režģis automātiski filtrē visas rindas, kurām jau ir saņemts pilns daudzums. Kamēr režģis ir atvērts, izņemiet atzīmi no izvēles rūtiņas **Iekļaut** katrai rindai, kas jāizslēdz no sadalījuma. 
+    - **Rādīt atlases un noņemt noteiktas rindas** — atlasiet šo izvēles rūtiņu, lai no šī sadalījuma izslēgtu noteiktas rindas. Atlasot šo izvēles rūtiņu, tiek atvērts režģis **Izvēlēties rindas, lai izslēgtu no sadalījuma**. Šajā režģī tiek iekļautas tikai tās rindas, kas atbilst kritērijiem, kas ir definēti iestatījumos **Piešķirt maksas rindām** un **Uzkrāts**. Piemēram, ja iestatāt lauku **Piešķirt maksas rindām** uz *Pozitīvās rindas* un atlasāt izvēles rūtiņu **Uzkrāts**, režģī tiek rādītas tikai tās rindas, kuras ir pozitīvas un inventarizētas. Turklāt režģis automātiski filtrē visas rindas, kurām jau ir saņemts pilns daudzums. Kamēr režģis ir atvērts, izņemiet atzīmi no izvēles rūtiņas **Iekļaut** katrai rindai, kas jāizslēdz no sadalījuma. 
 
         > [!IMPORTANT]
-        > Strādājot ar režģi **Izvēlēties rindas, ko izslēgt no sadalījuma** , noteikti atstājiet režģi atvērtu, līdz atlasāt **Piešķirt**. Ja aizvērsit režģi, pirms atlasāt **Piešķirt** , iestatījumi režģī tiks zaudēti. Tāpēc maksas tiks piešķirtas, pamatojoties uz iepriekš definētajiem kritērijiem.
+        > Strādājot ar režģi **Izvēlēties rindas, ko izslēgt no sadalījuma**, noteikti atstājiet režģi atvērtu, līdz atlasāt **Piešķirt**. Ja aizvērsit režģi, pirms atlasāt **Piešķirt**, iestatījumi režģī tiks zaudēti. Tāpēc maksas tiks piešķirtas, pamatojoties uz iepriekš definētajiem kritērijiem.
 
-1. Atlasiet **Piešķirt** , lai iestatījumus piemērotu un aizvērtu dialoglodziņu.
+1. Atlasiet **Piešķirt**, lai iestatījumus piemērotu un aizvērtu dialoglodziņu.

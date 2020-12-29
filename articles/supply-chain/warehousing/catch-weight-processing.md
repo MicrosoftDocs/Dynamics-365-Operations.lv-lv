@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016266"
+ms.locfileid: "4433139"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -30,7 +30,7 @@ ms.locfileid: "4016266"
 
 ## <a name="feature-exposure"></a>Līdzekļa pieejamība
 
-Lai izmantotu noliktavas pārvaldības procesus pieļaujamā svara preču apstrādei, šī funkcionalitāte ir jāieslēdz, izmantojot licences konfigurācijas atslēgu. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**. Pēc tam cilnē **Konfigurācijas atslēgas** izvērsiet sadaļu **Tirdzniecība \> Noliktavas un transportēšanas pārvaldība** un atzīmējiet izvēles rūtiņu **Pieļaujamais svars noliktavā**.
+Lai izmantotu noliktavas pārvaldības procesus pieļaujamā svara preču apstrādei, šī funkcionalitāte ir jāieslēdz, izmantojot licences konfigurācijas atslēgu. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**. Pēc tam cilnē **Konfigurācijas atslēgas** izvērsiet sadaļu **Tirdzniecība \> Noliktavas un transportēšanas pārvaldība** un atzīmējiet izvēles rūtiņu **Pieļaujamais svars noliktavā**.
 
 > [!NOTE]
 > Ir jāieslēdz arī licences konfigurācijas atslēgas **Noliktavas un transportēšanas pārvaldība** un **Procesa sadale \> Pieļaujamais svars**. Lai iestatītu konfigurācijas atslēgas pieļaujamajam svaram, ir jāieslēdz arī līdzeklis, izmantojot darbvietu **Funkciju pārvaldība**. Galvenais līdzeklis, kas ir jāieslēdz, ir **Pieļaujamā preces svara apstrāde ar noliktavas pārvaldību**. Divas saistītas, bet neobligātās funkcijas, kuras varētu vēlēties ieslēgt, ir **Krājumu statusa izmaiņas pieļaujamā svara precēm** un **Izmantot esošās pieļaujamā svara birkas, ziņojot atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**.
@@ -39,7 +39,7 @@ Pēc licences konfigurācijas atslēgas ieslēgšanas, kad izveidojat izlaistu p
 
 Lai preci varētu izmantot noliktavas pārvaldības procesos, vispirms ir jāveic daži precei raksturīgi pieļaujamā svara iestatījumi.
 
-- Vienību konvertēšanas definīcijas ietvaros definējiet nominālā svara konvertēšanu pieļaujamā svara vienībai (kaste) un krājumu vienībai (kilograms \[kg\]).
+- Vienību konvertēšanas definīcijas ietvaros definējiet nominālā svara konvertēšanu pieļaujamā svara vienībai (kaste) un krājumu vienībai (kilograms \[kg\]).
 - Pieļaujamā svara iestatīšanas ietvaros definējiet minimālo un maksimālo svara pielaidi.
 - Iestatiet vienību secību grupu, kurā pieļaujamā svara vienība ir definēta kā mazākā noliktavas vienība (SKU).
 - Iestatiet pieļaujamā svara krājumu apstrādes politiku.
@@ -67,7 +67,7 @@ Preces definīcijā ir iestatīta pieļaujamā svara vienības **Kaste** minimā
 
 Jums ir divas šīs preces kastes, un to reģistrētais svars ir 16 kg. Ja noliktavas darbinieks izdod un nosver vienu no kastēm un noteiktais svars ir 9 kg, atlikušās kastes svars ir 7 kg. Taču, tā kā 7 kg ir mazāk nekā minimālais svars, sistēma veic automātisku korekciju, lai palielinātu rīcībā esošo krājumu svaru par 1 kg.
 
-Lai iestatītu kontus, kuros tiek grāmatotas šīs korekcijas, pārejiet uz sadaļu **Izmaksu pārvaldība \> Virsgrāmatas integrācijas politiku iestatīšana \> Grāmatošana**. Pēc tam cilnē **Krājumi** definējiet tālāk norādītos kontus.
+Lai iestatītu kontus, kuros tiek grāmatotas šīs korekcijas, pārejiet uz sadaļu **Izmaksu pārvaldība \> Virsgrāmatas integrācijas politiku iestatīšana \> Grāmatošana**. Pēc tam cilnē **Krājumi** definējiet tālāk norādītos kontus.
 
 - Pieļaujamā svara zaudējumu konts
 - Pieļaujamā svara peļņas konts
@@ -78,8 +78,8 @@ Pieļaujamā svara krājumu apstrādes politikā ir definētas divas galvenās k
 
 Varat definēt, kad tiek noteikts svars pārdošanas un pārsūtīšanas pasūtījumu apstrādes laikā. Svaru var noteikt tālāk norādīto procesu laikā.
 
-- **Izdošana**  — svars tiek noteikts pasūtījuma darba sākotnējās izdošanas darba rindu apstrādes laikā.
-- **Iepakošana**  — svars tiek noteikts manuālās iepakošanas laikā. (Krājumi ir jānosūta uz iepakošanas staciju.)
+- **Izdošana** — svars tiek noteikts pasūtījuma darba sākotnējās izdošanas darba rindu apstrādes laikā.
+- **Iepakošana** — svars tiek noteikts manuālās iepakošanas laikā. (Krājumi ir jānosūta uz iepakošanas staciju.)
 
 Ja faktiskais svars tiek noteikts iepakošanas stacijā konteinera iepakošanas procesu laikā, noliktavas darbiniekiem netiek prasīts noteikt svaru izdošanas darba laikā. Tā vietā kā uz iepakošanas zonu nosūtītā izdotā krājuma svars tiks izmantots fizisko krājumu vidējais svars. Šī koncepcija attiecas arī uz pieļaujamā svara precēm, kas tiek izsekotas ar etiķetēm. Etiķešu izsekotajām precēm šie parametri nosaka, kad etiķete tiek fiksēta. Šo etiķeti var fiksēt vai nu paņemšanas laikā, izmantojot mobilo ierīci, vai manuālās iepakošanas laikā.
 
@@ -90,28 +90,28 @@ Iekšējiem noliktavas pārvaldības procesiem, piemēram, inventarizācijai un 
 
 Varat arī definēt to, kā tiek noteikts svars. Vienā no divām galvenajām plūsmām tiek izsekotas pieļaujamā svara etiķetes un tās tiek izmantotas svara noteikšanai. Otrā plūsmā pieļaujamā svara etiķetes netiek izsekotas.
 
-- **Jā**  — krājumam tiek izmantotas pieļaujamā svara etiķetes. Katram etiķetes numuram atbilst viena pieļaujamā svara vienība (kaste), un ar etiķeti ir saistīts svars un cita informācija. Izejošajās plūsmas procesiem tiek izmantots ar etiķeti saistītais svars.
-- **Nē**  — krājumam netiek neizmantotas pieļaujamā svara etiķetes. Ienākošās un izejošās plūsmas svēršanas procesiem tiek izmantots faktiskais svars, kas tiek noteikts katra procesa laikā.
+- **Jā** — krājumam tiek izmantotas pieļaujamā svara etiķetes. Katram etiķetes numuram atbilst viena pieļaujamā svara vienība (kaste), un ar etiķeti ir saistīts svars un cita informācija. Izejošajās plūsmas procesiem tiek izmantots ar etiķeti saistītais svars.
+- **Nē** — krājumam netiek neizmantotas pieļaujamā svara etiķetes. Ienākošās un izejošās plūsmas svēršanas procesiem tiek izmantots faktiskais svars, kas tiek noteikts katra procesa laikā.
 
 Krājumiem, kuru svars nemainīsies uzglabāšanas perioda laikā, var izmantot pieļaujamā svara etiķešu izsekošanas procesu. Svars tiks noteikts tikai ienākošās plūsmas noliktavas procesa laikā. Izejošās plūsmas procesa laikā tiks tikai skenētas pieļaujamā svara etiķetes un izejošās plūsmas transakciju apstrādei tiks izmantots ar etiķetēm saistītais svars.
 
 Vēl viens svarīgs parametrs, kas saistīts ar pieļaujamā svara etiķešu apstrādi, ir **Pieļaujamā svara etiķetes izmēru izsekošanas metode**. Etiķetes var būt daļēji izsekotas vai pilnībā izsekotas. Ja etiķete tiek daļēji izsekota, tā izseko preces dimensijas, izsekošanas dimensijas un krājumu statusu. Ja etiķete tiek pilnībā izsekota, tā izseko preces dimensijas, izsekošanas dimensijas un **visas** noliktavas dimensijas.
 
-Turklāt, ja prece tiek izsekota ar etiķeti, pastāv parametrs **Izejošo etiķešu fiksēšanas metode**. Varat iestatīt šo parametru, lai jūs vienmēr saņemtu uzvedni par etiķeti izejošajām transakcijām no mobilās ierīces. Alternatīvi varat iestatīt parametru, lai jūs saņemtu uzvedni par etiķetēm tikai tad, kad tās ir nepieciešamas. Piemēram, dotajai numura zīmei krājumā ir piecas pieļaujamā svara etiķetes un jūs esat norādījis, ka vēlaties paņemt visas piecas etiķetes no numura zīmes. Šajā gadījumā, ja parametrs **Izejošo etiķešu fiksēšanas metode** ir iestatīts uz **Pieprasīt etiķeti tikai tad, kad tā ir nepieciešama** , piecas etiķetes tiek atlasītas automātiski. Nav nepieciešams skenēt katru etiķeti. Ja parametrs ir iestatīts uz **Vienmēr pieprasīt etiķeti** , ir jāpārbauda katra etiķete, pat ja visas piecas etiķetes tiek atlasītas.
+Turklāt, ja prece tiek izsekota ar etiķeti, pastāv parametrs **Izejošo etiķešu fiksēšanas metode**. Varat iestatīt šo parametru, lai jūs vienmēr saņemtu uzvedni par etiķeti izejošajām transakcijām no mobilās ierīces. Alternatīvi varat iestatīt parametru, lai jūs saņemtu uzvedni par etiķetēm tikai tad, kad tās ir nepieciešamas. Piemēram, dotajai numura zīmei krājumā ir piecas pieļaujamā svara etiķetes un jūs esat norādījis, ka vēlaties paņemt visas piecas etiķetes no numura zīmes. Šajā gadījumā, ja parametrs **Izejošo etiķešu fiksēšanas metode** ir iestatīts uz **Pieprasīt etiķeti tikai tad, kad tā ir nepieciešama**, piecas etiķetes tiek atlasītas automātiski. Nav nepieciešams skenēt katru etiķeti. Ja parametrs ir iestatīts uz **Vienmēr pieprasīt etiķeti**, ir jāpārbauda katra etiķete, pat ja visas piecas etiķetes tiek atlasītas.
 
 > [!NOTE]
 > Kā likums, etiķetes tiek fiksētas un atjauninātas tikai no mobilās ierīces izvēlnes vienumiem. Tomēr ir daži scenāriji, kuros etiķetes tiek fiksētas citur (piemēram, no manuālās iepakošanas stacijas). Tomēr parasti mobilās ierīces izvēlnes vienumi ir jāizmanto visām noliktavas darbībām, ja tiek izmantotas etiķetes.
 
 ### <a name="how-to-capture-catch-weight"></a>Pieļaujamā svara noteikšana
 
-**Ja tiek izmantota pieļaujamā svara etiķetes izsekošanas metode** , katrai saņemtajai pieļaujamā svara vienībai vienmēr ir jāizveido etiķete un katrai etiķetei vienmēr ir jābūt saistītai ar svaru.
+**Ja tiek izmantota pieļaujamā svara etiķetes izsekošanas metode**, katrai saņemtajai pieļaujamā svara vienībai vienmēr ir jāizveido etiķete un katrai etiķetei vienmēr ir jābūt saistītai ar svaru.
 
 Piemēram, tiek izmantota pieļaujamā svara vienība **Kaste** un jūs saņemat vienu paleti ar astoņām kastēm. Šādā gadījumā ir jāizveido astoņas unikālas pieļaujamā svara etiķetes un ar katru etiķeti ir jāsaista svars. Atkarībā no ienākošās plūsmas pieļaujamā svara etiķetes var noteikt visu astoņu kastu svaru un pēc tam ar katru kasti saistīt vidējo svaru vai arī katrai kastei var noteikt unikālu svaru.
-Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem** , ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc noliktavas programma neprasa, lai tiktu tvertas pieļaujamā svara etiķetes kā daļa no ražošanas pārskata kā pabeigtas darbības.
+Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**, ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc noliktavas programma neprasa, lai tiktu tvertas pieļaujamā svara etiķetes kā daļa no ražošanas pārskata kā pabeigtas darbības.
 
-**Ja netiek izmantota pieļaujamā svara etiķešu izsekošanas metode** , var noteikt katras dimensiju kopas (piemēram, katras noliktavas vienības un izsekošanas dimensijas) svaru. Svaru var arī noteikt apkopotajā līmenī, piemēram, piecām noliktavas vienībām (paletēm).
+**Ja netiek izmantota pieļaujamā svara etiķešu izsekošanas metode**, var noteikt katras dimensiju kopas (piemēram, katras noliktavas vienības un izsekošanas dimensijas) svaru. Svaru var arī noteikt apkopotajā līmenī, piemēram, piecām noliktavas vienībām (paletēm).
 
-Metodēm, kas fiksē izejošo svaru, opcija **Pēc katras pieļaujamā svara vienības** ļauj norādīt, ka svēršana jāveic katrai pieļaujamā svara vienībai (piemēram, par katru kasti). Opcija **Pēc paņemšanas vienības** ļauj norādīt, ka svars ir jāuztver, pamatojoties uz daudzumu, kas tiks paņemts (piemēram, trīs kastes). Ņemiet vērā, ka gadījumā, ja tiek izmantota opcija **Nav noteikts** , ražošanas rindas izdošanas un iekšējās kustības procesiem tiek izmantots vidējais svars.
+Metodēm, kas fiksē izejošo svaru, opcija **Pēc katras pieļaujamā svara vienības** ļauj norādīt, ka svēršana jāveic katrai pieļaujamā svara vienībai (piemēram, par katru kasti). Opcija **Pēc paņemšanas vienības** ļauj norādīt, ka svars ir jāuztver, pamatojoties uz daudzumu, kas tiks paņemts (piemēram, trīs kastes). Ņemiet vērā, ka gadījumā, ja tiek izmantota opcija **Nav noteikts**, ražošanas rindas izdošanas un iekšējās kustības procesiem tiek izmantots vidējais svars.
 
 Vairākas svara fiksēšanas metodes ir definētas pieļaujamā svara preces apstrādes politikā. Katru svara fiksēšanas metodes parametru izmanto dažādas transakcijas. Tālāk esošajā tabulā ir apkopots, kurus parametrus izmanto katra transakcija.
 
@@ -124,7 +124,7 @@ Vairākas svara fiksēšanas metodes ir definētas pieļaujamā svara preces aps
 | Uzskaites svara fiksēšanas metode           | Inventarizācija                                   |
 | Noliktavas pārsūtīšanas svara fiksēšanas metode | Starpnoliktavu pārsūtīšana                         |
 
-Lai neļautu noliktavas pārvaldības izdošanas procesiem fiksēt svaru, kas var izraisīt pieļaujamā svara peļņas/zaudējumu korekcijas, jūs varat izmantot izejošā svara novirzes metodi. Izejošā svara novirzes metode ir spēkā šādos mobilās ierīces procesos: pārdošanas izdošana, pārsūtīšanas izdošana, ražošanas izdošana, kustības, uzskaite un noliktavas pārsūtījumi. Varat izmantot opciju **Ierobežot svara novirzes** , ja pieļaujamā svara vienības svars nemainās noliktavas glabāšanas laikā un ja nav nepieciešamas pieļaujamā svara peļņas/zaudējumu korekcijas. Varat izmantot opciju **Atļaut svara novirzes** , ja svars var svārstīties un ja tiek pieprasītas pieļaujamā svara peļņas/zaudējumu korekcijas, kad tiek ierakstīta svara svārstība.
+Lai neļautu noliktavas pārvaldības izdošanas procesiem fiksēt svaru, kas var izraisīt pieļaujamā svara peļņas/zaudējumu korekcijas, jūs varat izmantot izejošā svara novirzes metodi. Izejošā svara novirzes metode ir spēkā šādos mobilās ierīces procesos: pārdošanas izdošana, pārsūtīšanas izdošana, ražošanas izdošana, kustības, uzskaite un noliktavas pārsūtījumi. Varat izmantot opciju **Ierobežot svara novirzes**, ja pieļaujamā svara vienības svars nemainās noliktavas glabāšanas laikā un ja nav nepieciešamas pieļaujamā svara peļņas/zaudējumu korekcijas. Varat izmantot opciju **Atļaut svara novirzes**, ja svars var svārstīties un ja tiek pieprasītas pieļaujamā svara peļņas/zaudējumu korekcijas, kad tiek ierakstīta svara svārstība.
 
 ## <a name="unsupported-scenarios"></a>Neatbalstītie scenāriji
 
@@ -203,10 +203,10 @@ Papildu ierobežojumiem, kas pašlaik attiecas uz pieļaujamā svara precēm, pi
 - Lai atspoguļotu papildināšanas darba kustības, ir manuāli jāatjaunina pieļaujamā svara etiķetes. Tas ir tāpēc, ka sistēma nevar fiksēt svaru, kamēr tiek apstrādāti papildināšanas darbi, tāpēc tā vietā ieraksta vidējo svaru.
 - Jauktu noliktavas vienību saņemšana netiek atbalstīta pieļaujamā svara precēm ar etiķetēm.
 - Pārdošanas atgriešanas pasūtījuma saņemšanas apstrāde var ierakstīt pieļaujamā svara etiķetes. Tomēr process neatspēko, ka atgrieztā etiķete ir tā pati etiķete, kas sākotnēji tika nosūtīta pārdošanas pasūtījumam.
-- Mobilās ierīces izvēlnes vienums, kam ir aktivitātes kods **Reģistrēt materiālu patēriņu** , pašlaik neatbalsta pieļaujamā svara etiķešu ierakstīšanu.
+- Mobilās ierīces izvēlnes vienums, kam ir aktivitātes kods **Reģistrēt materiālu patēriņu**, pašlaik neatbalsta pieļaujamā svara etiķešu ierakstīšanu.
 - Kaut arī uzskaites procesi ir atbalstīti pieļaujamā svara precēm ar etiķetēm, tie ir ierobežoti. Piemēram, varat izmantot mobilās ierīces opcijas, lai skaitītu pieļaujamā svara preces ar etiķetēm, un tiek izmantots vidējais svars. Tomēr pieļaujamā svara etiķetes netiek automātiski atjauninātas pēc uzskaites transakcijas. Kad uzskaites transakcija ir pabeigta, pieļaujamā svara etiķetes ir manuāli jāatjaunina, lai tās atspoguļotu krājumus. Ja preces, kas sākotnēji nebija vietā, tiek ieskaitītas šajā vietā, tiek izmantots nominālais svars.
 - Numura zīmes konsolidācija pašlaik neatbalsta pieļaujamā svara preces ar etiķetēm.
 - Atsaukšanas darba funkcionalitāte netiek atbalstīta pieļaujamā svara precēm, kuras tiek izsekotas ar etiķetes numuru.
 
 > [!NOTE]
-> Iepriekš sniegtā informācija par pieļaujamā svara etiķetēm ir derīga tikai tad, ja pieļaujamā svara precei ir pieļaujamā svara etiķetes dimensiju izsekošanas metode, kas ir pilnībā izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara preces apstrādes politikā ir iestatīts uz **Preces dimensijas, izsekošanas dimensijas un visas noliktavas dimensijas** ). Ja pieļaujamā svara vienība ir tikai daļēji izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara vienuma apstrādes politikā iestatīts uz **Preces dimensijas, izsekošanas dimensijas un krājumu statusu** ), ir spēkā papildu ierobežojumi. Tāpēc, ka redzamība šajā gadījumā tiek zaudēta starp etiķeti un noliktavu, daži papildu scenāriji netiek atbalstīti.
+> Iepriekš sniegtā informācija par pieļaujamā svara etiķetēm ir derīga tikai tad, ja pieļaujamā svara precei ir pieļaujamā svara etiķetes dimensiju izsekošanas metode, kas ir pilnībā izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara preces apstrādes politikā ir iestatīts uz **Preces dimensijas, izsekošanas dimensijas un visas noliktavas dimensijas**). Ja pieļaujamā svara vienība ir tikai daļēji izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara vienuma apstrādes politikā iestatīts uz **Preces dimensijas, izsekošanas dimensijas un krājumu statusu**), ir spēkā papildu ierobežojumi. Tāpēc, ka redzamība šajā gadījumā tiek zaudēta starp etiķeti un noliktavu, daži papildu scenāriji netiek atbalstīti.

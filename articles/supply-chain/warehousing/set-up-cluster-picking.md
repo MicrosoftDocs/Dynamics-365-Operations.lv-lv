@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017579"
+ms.locfileid: "4433196"
 ---
 # <a name="set-up-cluster-picking"></a>Klastera izdošanas iestatīšana
 
@@ -46,7 +46,7 @@ Lai iespējotu klastera izdošanu, jāveic tālāk norādītie iestatījumi.
 
 - **Novietojuma direktīvas** — norādiet, no kurienes saņemt krājumus un kur tos novietot.
 
-- **Mobilās ierīces izvēlnes vienumi**  — konfigurējiet mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, ko novirzījusi klastera izdošana. Pēc tam izvēlnes vienums jāpievieno mobilās ierīces izvēlnei, lai tas tiktu parādīts mobilajās ierīcēs.
+- **Mobilās ierīces izvēlnes vienumi** — konfigurējiet mobilās ierīces izvēlnes vienumu, lai izmantotu esošu darbu, ko novirzījusi klastera izdošana. Pēc tam izvēlnes vienums jāpievieno mobilās ierīces izvēlnei, lai tas tiktu parādīts mobilajās ierīcēs.
 
 - **Noliktavas vadības parametri** — norādiet izmantojamo numuru sēriju, ja vēlaties klasteriem ģenerēt identifikatorus.
 
@@ -56,13 +56,13 @@ Lai iestatītu klastera profilu, veiciet tālāk aprakstītās darbības.
 
 1. Noklikšķiniet uz **Noliktavas vadība** \> **Iestatīšana** \> **Mobilā ierīce** \>  **Klastera profili**.
 
-1. Noklikšķiniet uz **Jauns** , lai izveidotu jaunu profilu.
+1. Noklikšķiniet uz **Jauns**, lai izveidotu jaunu profilu.
 
-1. Noklikšķiniet uz **Izveidot klasteri** un sadaļā **Klastera kārtošana** noklikšķiniet uz **Jauns** , lai klasterim iestatītu kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks veiks izdošanas darbu. Varat pievienot tik daudz kritērijus, cik nepieciešams.
+1. Noklikšķiniet uz **Izveidot klasteri** un sadaļā **Klastera kārtošana** noklikšķiniet uz **Jauns**, lai klasterim iestatītu kārtošanas kritērijus. Kārtošanas kritēriji kontrolē kārtību, kādā darbinieks veiks izdošanas darbu. Varat pievienot tik daudz kritērijus, cik nepieciešams.
 
 1. Laukā **Sērijas numurs** ievadiet numuru, lai definētu kārtību, kādā tiek apstrādāti kārtošanas kritēriji.
 
-1. Laukā **Lauka nosaukums** atlasiet lauku, kas noteiks kārtošanu. Piemēram, atlasot lauku **WMSLocationId** , darbs tiks kārtots pēc atrašanās vietas.
+1. Laukā **Lauka nosaukums** atlasiet lauku, kas noteiks kārtošanu. Piemēram, atlasot lauku **WMSLocationId**, darbs tiks kārtots pēc atrašanās vietas.
 
 1. Laukā **Kārtošana** atlasiet vienu no tālāk norādītajām opcijām.
 

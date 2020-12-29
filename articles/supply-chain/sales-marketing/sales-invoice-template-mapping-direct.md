@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215980"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432653"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana uz programmu Sales
 
@@ -92,7 +92,7 @@ Pārejiet uz sadaļu **Iestatījumi** > **Administrēšana** > **Sistēmas iesta
 
 #### <a name="salesinvoiceheader-task"></a>SalesInvoiceHeader uzdevums
 
-- Pārliecinieties, ka pastāv nepieciešamais kartējums no**InvoiceCountryRegionId** uz **BillingAddress\_Country**.
+- Pārliecinieties, ka pastāv nepieciešamais kartējums no **InvoiceCountryRegionId** uz **BillingAddress\_Country**.
 
     Veidnes vērtība ir vērtību karte, kur ir kartētas vairākas valstis vai reģioni.
 

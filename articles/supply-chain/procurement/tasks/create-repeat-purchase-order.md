@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018033"
+ms.locfileid: "4433129"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Atkārtota pirkšanas pasūtījuma izveide
 
@@ -43,9 +43,9 @@ ms.locfileid: "4018033"
     - Lauks **Apgriešanas zīme** arī atbalsta pasūtītā daudzuma maiņu, mainot daudzuma zīmi pasūtījuma rindām, kas tiek pievienotas. Tas var būt noderīgi, ja ir nepieciešams atsaukt kādu transakciju, izveidojot pasūtījuma rindas, kuras anulē šo transakciju. Šī iespēja tiek atlasīta automātiski, kad lapa tiek atvērta no darbības **Izveidot kredītnotu**.  
     - Opcija **Kopēt maksas** ļauj kopēt maksas uz jauno pasūtījumu no dokumenta, no kura kopējat pasūtījuma rindas.  
     - Opcija **Pārrēķināt cenas** izmanto esošās cenas un atlaides, nevis kopē tās no dokumenta, no kura kopējat citu informāciju.  
-    - Opcija **Kopēt precīzi** izveido precīzu kopiju ar visām vērtībām visos laukos pasūtījuma dokumenta galvenē un rindās. Ja šī opcija nav atlasīta, tad daudzos laukos saistībā ar kreditoru un precēm tiek lietotas noklusējuma vērtības, gluži kā tad, ja jauno pasūtījumu jūs veidotu manuāli. Piemēram, ja pasūtījumā, ko kura kopējat, bija ignorēts noklusējuma rēķina konts kreditoram, tas šis pats rēķina konts tiktu kopēts uz jūsu pasūtījumu. Ja nav izvēlēta opcija **Kopēt precīzi** , jūsu pasūtījumam tiks izmantots piegādātāja noklusējuma rēķina konts.  
+    - Opcija **Kopēt precīzi** izveido precīzu kopiju ar visām vērtībām visos laukos pasūtījuma dokumenta galvenē un rindās. Ja šī opcija nav atlasīta, tad daudzos laukos saistībā ar kreditoru un precēm tiek lietotas noklusējuma vērtības, gluži kā tad, ja jauno pasūtījumu jūs veidotu manuāli. Piemēram, ja pasūtījumā, ko kura kopējat, bija ignorēts noklusējuma rēķina konts kreditoram, tas šis pats rēķina konts tiktu kopēts uz jūsu pasūtījumu. Ja nav izvēlēta opcija **Kopēt precīzi**, jūsu pasūtījumam tiks izmantots piegādātāja noklusējuma rēķina konts.  
     - Opcija **Dzēst pirkuma rindas** ļauj dzēst visas pirkšanas pasūtījuma rindas, kas jau ir pirkšanas pieprasījumā, uz kuru kopējat, pirms piemērot jaunās rindas. Šī opcija ir jālieto uzmanīgi, jo tā dzēš visas pastāvošās rindas bez papildu brīdinājuma.  
-    - Ja atlasāt opciju **Kopēt pasūtījuma galveni** , jaunajam pasūtījumam galvenes informācija nav jāveido manuāli. Ņemiet vēra, ka šī opcija ar kreditoru saistītajiem laukiem liks izmantot noklusējuma vērtības. Ja dokumentam, no kura kopējat, ir nenoklusējuma vērtības, ko vēlaties kopēt, izmantojiet arī opciju **Kopēt precīzi**.   
+    - Ja atlasāt opciju **Kopēt pasūtījuma galveni**, jaunajam pasūtījumam galvenes informācija nav jāveido manuāli. Ņemiet vēra, ka šī opcija ar kreditoru saistītajiem laukiem liks izmantot noklusējuma vērtības. Ja dokumentam, no kura kopējat, ir nenoklusējuma vērtības, ko vēlaties kopēt, izmantojiet arī opciju **Kopēt precīzi**.   
     - Pastāv dažādi dokumentu avotiem, no kuriem varat kopēt, un katram šajā lapā ir atsevišķa sadaļa. Piemēram, sadaļa **Pirkšanas pasūtījumi** ļauj kopēt no esošiem pirkšanas pasūtījumiem.  
 
 8. Sadaļā **Pirkšanas pasūtījumi** atlasiet rindas, ko vēlaties kopēt starpliktuvē. Ir iespējams atlasīt papildu pirkšanas pasūtījumu rindas no citiem pirkšanas pasūtījumiem un arī tās kopēt uz savu pasūtījumu. Ir iespējams arī pievienot rindas no citu veidu pirkšanas dokumentiem. Nākamajās dažās darbības ir apskatītas šīs dažādās opcijas.  

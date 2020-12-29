@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 48cc8974cc8a8769b3d05f47f82166164e877ae5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210092"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432821"
 ---
 # <a name="delivery-alternatives"></a>Piegādes alternatīvas
 
@@ -61,7 +61,7 @@ Piegādes datuma kontroles metode paredz, kā sistēma nosaka piegādes datumus,
 <tr class="even">
 <td><strong>Neviena</strong>;</td>
 <td><ul>
-<li>Piegādes alternatīvas pārdošanas rindām netiek atbalstītas. Šī opcija izslēdz piegādes datu kontroli.</li>
+<li>Piegādes alternatīvas pārdošanas rindām netiek&#39;atbalstītas. Šī opcija izslēdz piegādes datu kontroli.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -112,34 +112,34 @@ Piegādes datuma kontroles metode paredz, kā sistēma nosaka piegādes datumus,
 
 Šajā cilnē ir parādīts piegādes alternatīvu saraksts, kas ir sakārtots pēc saņemšanas datiem. Virs saraksta varat atlasīt, uz kurām opcijām balstīt ieteikumus. Varat arī atlasīt piegādes veidu, kas nosaka transportēšanas dienas. Pieejamas šādas opcijas
 
--   **Ietvert citus preces variantus** — šī opcija ir pieejama precēm, kurām ir preces varianti. Tā ietvers piegādes alternatīvas citiem preces variantiem. Šī opcija nav pieejama CTP.
--   **Iekļaut daļēju daudzumu** — pēc noklusējuma tiek iekļauti tikai ieteikumi, kas atbilst pārdošanas rindas pilnajam daudzumam. Atlasiet šo opciju, lai iekļautu ieteikumus, kuri tikai daļēji atbilst pasūtījuma rindai. Šī opcija ir noderīga, ja debitors pieprasa agrāku piegādes datumu un pieņem daļēju piegādi.
--   **Iekļaut vēlākus datumus** — pēc noklusējuma tiek parādīti tikai ieteikumi, kas ir labāki (agrāki) nekā pašreizējie datumi pārdošanas rindās. Atlasiet šo opciju, lai iekļautu vēlākus datumus. Šī opcija var būt noderīga situācijās, kurās prioritāte ir parametriem, kas nav datums. Piemēram, prioritāte var tikt piešķirta noteiktam kreditoram vai noliktavai.
--   **Piegādes veids** — atlasiet vēlamo piegādes veidu, lai optimizētu transporta laiku un izmaksas. Jūs nekavējoties redzēsit ietekmi uz ieteiktajām piegādes alternatīvām. Tādēļ ir viegli salīdzināt alternatīvas.
--   **Ietvert sagādi** — izvēloties sagādi, ieteiktajās piegādes alternatīvās ir ietvertas opcijas sagādei gan no ārējiem kreditoriem, gan citiem uzņēmumiem (starpuzņēmumu). Opcija **Ietvert sagādi** tiek atbalstīta tikai ATP un ATP + Izejas plūsmas rezerves piegādes datuma kontrolei. Ir ietvertas sagādes opcijas no preces noklusējuma pirkšanas kreditora un visiem preces apstiprinātajiem piegādātājiem.
+-   **Ietvert citus preces variantus** — šī opcija ir pieejama precēm, kurām ir preces varianti. Tā ietvers piegādes alternatīvas citiem preces variantiem. Šī opcija nav pieejama CTP.
+-   **Iekļaut daļēju daudzumu** — pēc noklusējuma tiek iekļauti tikai ieteikumi, kas atbilst pārdošanas rindas pilnajam daudzumam. Atlasiet šo opciju, lai iekļautu ieteikumus, kuri tikai daļēji atbilst pasūtījuma rindai. Šī opcija ir noderīga, ja debitors pieprasa agrāku piegādes datumu un pieņem daļēju piegādi.
+-   **Iekļaut vēlākus datumus** — pēc noklusējuma tiek parādīti tikai ieteikumi, kas ir labāki (agrāki) nekā pašreizējie datumi pārdošanas rindās. Atlasiet šo opciju, lai iekļautu vēlākus datumus. Šī opcija var būt noderīga situācijās, kurās prioritāte ir parametriem, kas nav datums. Piemēram, prioritāte var tikt piešķirta noteiktam kreditoram vai noliktavai.
+-   **Piegādes veids** — atlasiet vēlamo piegādes veidu, lai optimizētu transporta laiku un izmaksas. Jūs nekavējoties redzēsit ietekmi uz ieteiktajām piegādes alternatīvām. Tādēļ ir viegli salīdzināt alternatīvas.
+-   **Ietvert sagādi** — izvēloties sagādi, ieteiktajās piegādes alternatīvās ir ietvertas opcijas sagādei gan no ārējiem kreditoriem, gan citiem uzņēmumiem (starpuzņēmumu). Opcija **Ietvert sagādi** tiek atbalstīta tikai ATP un ATP + Izejas plūsmas rezerves piegādes datuma kontrolei. Ir ietvertas sagādes opcijas no preces noklusējuma pirkšanas kreditora un visiem preces apstiprinātajiem piegādātājiem.
 -   Ārējiem kreditoriem aprēķins balstās uz pirkšanas izpildes laiku.
 -   Starpuzņēmumu gadījumā aprēķinā tiek ņemts vērā, kas ir pieejams no avotu uzņēmuma, pamatojoties uz piegādes datuma kontroli avotu uzņēmumā.
 -   **Piegādes veids** (attiecas uz sagādi)
-    -   **Krājumi** — preces tiek sūtītas no avotu noliktavas uz pārdošanas rindas vietu/noliktavu. Pēc tam tās tiek nosūtītas no attiecīgās noliktavas debitoram.
-    -   **Tiešā piegāde** — preces tiek sūtītas tieši no avotu noliktavas debitoram.
+    -   **Krājumi** — preces tiek sūtītas no avotu noliktavas uz pārdošanas rindas vietu/noliktavu. Pēc tam tās tiek nosūtītas no attiecīgās noliktavas debitoram.
+    -   **Tiešā piegāde** — preces tiek sūtītas tieši no avotu noliktavas debitoram.
 
 ### <a name="availability-information"></a>Informācija par pieejamību
 
 Informācija šajā cilnē ir saistīta ar piegādes alternatīvo rindu, kas tiek atlasīta. Atkarībā no piegādes datuma kontroles pārdošanas rindai tiek rādīta šāda informācija:
 
 -   **Pārdošanas izpildes laiks**
-    -   **Pieejams šodien** — parāda pašreizējos fiziski rīcībā esošos, fiziski rezervētos un pieejamos fiziskos krājumus.
-    -   **Parametri** — rāda krājumu vienību un pārdošanas izpildes laiku.
+    -   **Pieejams šodien** — parāda pašreizējos fiziski rīcībā esošos, fiziski rezervētos un pieejamos fiziskos krājumus.
+    -   **Parametri** — rāda krājumu vienību un pārdošanas izpildes laiku.
 
 -   **ATP + Izejas plūsmas rezerve**
-    -   **Pieejams šodien** — parāda pašreizējos fiziski rīcībā esošos, fiziski rezervētos un pieejamos fiziskos krājumus.
-    -   **Parametri** — rāda krājumu vienību un pārdošanas izpildes laiku.
-    -   **Pieejamība nākotnē** — parāda grafisko attēlojumu attiecībā uz atlasītās atrašanās vietas un noliktavas pašreizējo un nākotnes pieejamību sadaļā **Piegādes alternatīvas**. Lai skatītu detalizētāku informāciju par turpmāko preces pieejamību, varat klikšķināt uz diagrammas kolonnām. Slīdnis rāda sarakstu ar attiecīgajiem pieprasījuma un piegādes pasūtījumiem ATP periodā.
+    -   **Pieejams šodien** — parāda pašreizējos fiziski rīcībā esošos, fiziski rezervētos un pieejamos fiziskos krājumus.
+    -   **Parametri** — rāda krājumu vienību un pārdošanas izpildes laiku.
+    -   **Pieejamība nākotnē** — parāda grafisko attēlojumu attiecībā uz atlasītās atrašanās vietas un noliktavas pašreizējo un nākotnes pieejamību sadaļā **Piegādes alternatīvas**. Lai skatītu detalizētāku informāciju par turpmāko preces pieejamību, varat klikšķināt uz diagrammas kolonnām. Slīdnis rāda sarakstu ar attiecīgajiem pieprasījuma un piegādes pasūtījumiem ATP periodā.
 
 -   **CTP**
-    -   **Pieejams šodien** — parāda pašreizējos fiziski rīcībā esošos, fiziski rezervētos un pieejamos fiziskos krājumus.
-    -   **Parametri** — rāda krājumu vienību un pārdošanas izpildes laiku.
-    -   **Izvēršana** — rāda atlasītās piegādes alternatīvas piegādes izvēršanu. Varat izmantot vienumu **Iestatījumi**, lai mainītu laukus un krājumu dimensijas, kas parādītas izvēršanā.
+    -   **Pieejams šodien** — parāda pašreizējos fiziski rīcībā esošos, fiziski rezervētos un pieejamos fiziskos krājumus.
+    -   **Parametri** — rāda krājumu vienību un pārdošanas izpildes laiku.
+    -   **Izvēršana** — rāda atlasītās piegādes alternatīvas piegādes izvēršanu. Varat izmantot vienumu **Iestatījumi**, lai mainītu laukus un krājumu dimensijas, kas parādītas izvēršanā.
 
 ### <a name="impact-of-selected-alternative"></a>Atlasītās alternatīvas ietekme
 

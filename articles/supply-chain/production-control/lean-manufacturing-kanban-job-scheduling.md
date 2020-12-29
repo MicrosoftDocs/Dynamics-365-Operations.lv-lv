@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 77ba67de5585022ab7d506c8cd2acb380a4e3a54
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433004"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošana metodei lean manufacturing
 
@@ -48,7 +48,7 @@ Manuālai plānošanai programmā Microsoft Dynamics AX 2012 ir ieviests Kanba
 -   **Uz priekšu** pārvieto atlasītos ieplānotos darbus uz priekšu secībā perioda ietvaros.
 -   **Iepriekšējais periods** pārvieto atlasītos ieplānotos darbus uz iepriekšējā perioda sākumu vai beigām.
 -   **Nākamais periods** pārvieto atlasītos ieplānotos darbus uz nākamā perioda sākumu vai beigām.
--   Opcija **Plānot** &gt; **Atgriezt darba statusu**sniedz iespēju atcelt ieplānota darba plānošanu.
+-   Opcija **Plānot** &gt; **Atgriezt darba statusu** sniedz iespēju atcelt ieplānota darba plānošanu.
 
 ## <a name="lean-scheduling-groups"></a>Racionālās plānošanas grupas
 Katra krāsa apzīmē racionālās plānošanas grupu. Racionālās plānošanas grupas var brīvi definēt kā vispārējas grupas vai grupas, kas pieder vienai darba šūnai. Krājumus un dimensijas var brīvi piešķirt plānošanas grupām. Piemēram, šūnā Krāsošana plānošanas grupa var atspoguļot preces krāsu. Darbā, kas tiek pildīts ar noteiktām rīku prasībām, krājumus iespējams grupēt pēc rīka vajadzības un iepakojuma darba šūnā tos var grupēt pēc iepakojuma veidnes. Krāsas izmantošana racionālās plānošanas grupām nav obligāta, bet ieteicama. Tādējādi tiek uzlabota plāna statusa redzamība. Piemēram, var ļoti viegli redzēt, kuras krāsas tiek ražotas konkrētās dienās, tāpēc varat uzreiz noteikt, kā optimizēt šo darbu.

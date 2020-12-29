@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017033"
+ms.locfileid: "4433167"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistēmas noteikta darbu secība
 
@@ -70,7 +70,7 @@ Lai strādātu ar scenāriju, izmantojot šajā tēmā norādītās vērtības, 
 
 1. Darbības rūtī atlasiet **Sistēmas noteikti darba secības vaicājumi**.
 1. Atlasiet **Rediģēt**.
-1. Izdzēsiet esošo rindu un pēc tam atlasiet **Jā** , lai apstiprinātu darbību.
+1. Izdzēsiet esošo rindu un pēc tam atlasiet **Jā**, lai apstiprinātu darbību.
 1. Lai izveidotu rindu, darbību rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
@@ -91,12 +91,12 @@ Lai strādātu ar scenāriju, izmantojot šajā tēmā norādītās vērtības, 
 
     Vietas ir pievienotas savienojumu tabulai.
 
-1. Cilnē **Kārtošana** atlasiet **Pievienot** , lai pievienotu rindu.
+1. Cilnē **Kārtošana** atlasiet **Pievienot**, lai pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** *Darba rindas*
     - **Atveidotā tabula:** *Darba rindas*
-    - **Lauks:** *Darba daudzums* (paradītajā ziņojumu lodziņā atlasiet **Jā** , lai šim laukam pievienotu kārtošanu.)
+    - **Lauks:** *Darba daudzums* (paradītajā ziņojumu lodziņā atlasiet **Jā**, lai šim laukam pievienotu kārtošanu.)
     - **Meklēšanas virziens:** *Dilstošā secībā*
 
 1. Atlasiet cilni **Diapazons**.
@@ -130,9 +130,9 @@ Lai strādātu ar scenāriju, izmantojot šajā tēmā norādītās vērtības, 
     - **Kritēriji:** *!STAGE*
 
         > [!IMPORTANT]
-        > Vienuma *STAGE* priekšā noteikti pievienojiet izsaukuma zīmi ( *!* ).
+        > Vienuma *STAGE* priekšā noteikti pievienojiet izsaukuma zīmi (*!*).
 
-1. Atlasiet **Labi** , lai saglabātu un aizvērtu vaicājumu.
+1. Atlasiet **Labi**, lai saglabātu un aizvērtu vaicājumu.
 1. Atlasiet **Saglabāt**.
 1. Aizveriet lapu, lai atgrieztos lapā **Mobilās ierīces izvēles vienumi**.
 
@@ -174,16 +174,16 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
     - Sadaļā **Klients** laukam **Klienta konts** iestatiet vērtību *US-004*.
     - Sadaļā **Vispārīgi** laukam **Noliktava** iestatiet vērtību *51*.
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pievienojiet rindu jaunajam pārdošanas pasūtījumam un iestatiet tālāk norādītās vērtības.
 
     - **Krājuma numurs:** *M9200*
     - **Daudzums:** *20*
 
 1. Izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu** , lai rezervētu krājumus.
+1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu**, lai rezervētu krājumus.
 1. Aizveriet lapu **Rezervācija**.
-1. Darbību rūts cilnē **Noliktava** atlasiet **Pārvietot uz noliktavu** , lai noliktavai izveidotu darbu.
+1. Darbību rūts cilnē **Noliktava** atlasiet **Pārvietot uz noliktavu**, lai noliktavai izveidotu darbu.
 
     Tiks saņemti informatīvi ziņojumi, kuros būs norādīts pārdošanas pasūtījumam izveidotais kopuma ID un sūtījuma ID.
 
@@ -195,13 +195,13 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
     - **Debitora konts:** *US-007*
     - **Noliktava:** *51*
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pievienojiet rindu jaunajam pārdošanas pasūtījumam un iestatiet tālāk norādītās vērtības.
 
     - **Krājuma numurs:** *M9200*
     - **Daudzums:** *5*
 
-1. Atlasiet **Pievienot rindu** , lai pievienotu otro rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Pievienot rindu**, lai pievienotu otro rindu, un iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *M9201*
     - **Daudzums:** *1*
@@ -217,13 +217,13 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
     - **Debitora konts:** *US-009*
     - **Noliktava:** *51*
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pievienojiet rindu jaunajam pārdošanas pasūtījumam un iestatiet tālāk norādītās vērtības.
 
     - **Krājuma numurs:** *M9200*
     - **Daudzums:** *7*
 
-1. Atlasiet **Pievienot rindu** , lai pievienotu otro rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Pievienot rindu**, lai pievienotu otro rindu, un iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *M9202*
     - **Daudzums:** *8*
@@ -239,13 +239,13 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
     - **Debitora konts:** *US-010*
     - **Noliktava:** *51*
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu. Pierakstiet pārdošanas pasūtījuma numuru.
 1. Pievienojiet rindu jaunajam pārdošanas pasūtījumam un iestatiet tālāk norādītās vērtības.
 
     - **Krājuma numurs:** *M9200*
     - **Daudzums:** *25*
 
-1. Atlasiet **Pievienot rindu** , lai pievienotu otro rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Pievienot rindu**, lai pievienotu otro rindu, un iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *M9202*
     - **Daudzums:** *10*
@@ -256,7 +256,7 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
 ### <a name="get-work-ids-for-the-work-that-was-created"></a>Darba ID iegūšana izveidotajam darbam
 
 1. Dodieties uz **Noliktavas pārvaldība \> Darbs \> Darba informācija**.
-1. Laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr.  *51*.
+1. Laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr. *51*.
 1. Ir jābūt izveidotiem četriem darba ID: Pierakstiet katra pārdošanas pasūtījuma darba ID.
 
     | Pārdošanas pasūtījuma ID | Darba ID | Darba daudzums |
@@ -266,10 +266,10 @@ Pēc tam izlaidiet noliktavā katru pārdošanas pasūtījumu, lai izveidotu ize
     | 3. pārdošanas pasūtījums | 3. darba ID | 15 ea (abu rindu summa) |
     | 4. pārdošanas pasūtījums | 4. darba ID | 35 ea (abu rindu summa) |
 
-Pirms plūsmas izpildes mobilajā ierīcē pārliecinieties, vai tikko izveidotā darba noliktavas nr.  *51* un darba pasūtījuma tipa *Pārdošanas pasūtījums* statuss ir *Atvērts*. Pretējā gadījumā testa rezultāti var atšķirties, jo sistēmas tiešajā izdošanā tiks iekļauts viss piemērotais darbs.
+Pirms plūsmas izpildes mobilajā ierīcē pārliecinieties, vai tikko izveidotā darba noliktavas nr. *51* un darba pasūtījuma tipa *Pārdošanas pasūtījums* statuss ir *Atvērts*. Pretējā gadījumā testa rezultāti var atšķirties, jo sistēmas tiešajā izdošanā tiks iekļauts viss piemērotais darbs.
 
 1. Atveriet **Noliktavas pārvaldība \> Darbs \> Izejošs \> Atvērts pārdošanas darbs**.
-1. Režģī **Atvērts pārdošanas darbs** laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr.  *51*.
+1. Režģī **Atvērts pārdošanas darbs** laukā **Noliktava** veiciet filtrēšanu tā, lai darbs tiktu rādīts tikai noliktavai nr. *51*.
 1. Pārliecinieties, vai tiek rādīti tikai iepriekš izveidotie četri darba ID.
 1. Aizveriet lapu **Darbs**.
 
@@ -300,7 +300,7 @@ Pirms plūsmas izpildes mobilajā ierīcē pārliecinieties, vai tikko izveidot�
 
 ## <a name="tips"></a>Padomi
 
-Sistēmas norādītie darbu secības vaicājumi ir *iekļauti*. Šo faktu ir svarīgi atcerēties dažiem iestatījumiem. Piemēram, jūs vēlaties, lai konkrēts izvēlnes vienums apstrādā tikai to darbu, kur darba vienība ir *ea* , un jūs šo ierobežojumu norādāt vaicājuma cilnē **Diapazons**. Šajā gadījumā darbiniekam tiks parādīts viss darbs, kur vismaz vienā darba rindā kādai darba vienībai būs iestatīts *ea*. Tāpēc šajā darbā var būt ietverts arī darbs, kurā darba rindām būs cits darba vienības iestatījums, nevis *ea* (piemēram, *kaste* vai *palete* ). Vaicājums izslēgs tikai to darbu, kur nevienai darba rindai nebūs darba vienības ar iestatījumu *ea*.
+Sistēmas norādītie darbu secības vaicājumi ir *iekļauti*. Šo faktu ir svarīgi atcerēties dažiem iestatījumiem. Piemēram, jūs vēlaties, lai konkrēts izvēlnes vienums apstrādā tikai to darbu, kur darba vienība ir *ea*, un jūs šo ierobežojumu norādāt vaicājuma cilnē **Diapazons**. Šajā gadījumā darbiniekam tiks parādīts viss darbs, kur vismaz vienā darba rindā kādai darba vienībai būs iestatīts *ea*. Tāpēc šajā darbā var būt ietverts arī darbs, kurā darba rindām būs cits darba vienības iestatījums, nevis *ea* (piemēram, *kaste* vai *palete*). Vaicājums izslēgs tikai to darbu, kur nevienai darba rindai nebūs darba vienības ar iestatījumu *ea*.
 
 Tāpēc šī scenārija piemērā vaicājumā bija iekļauts arī *4.*  darba ID. Pēc tā izveidošanas tika pievienotas divas rindas: viena iestatījumam 25 ea un otra — 10 ea. Darbs vienalga tika rādīts darbiniekam, jo vismaz vienā darba rindā iekļautais daudzums bija mazāks par 20 ea.
 

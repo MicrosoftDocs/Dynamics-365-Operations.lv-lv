@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016612"
+ms.locfileid: "4433168"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildināšana, pārsniedzot vietas ietilpību
 
@@ -106,7 +106,7 @@ Iespējot papildināt, pārsniedzot vietas ietilpību, funkcionalitāti novietoj
 > Lai iestatītu kopuma soļa kodu atbilstoši šeit aprakstītajam, varat vispirms izmantot [funkciju pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu līdzekli vārdā *Organizācijas plašu kopuma soļa kods*.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma darbību kodi**.
-1. Atlasiet **Jauns** , un iestatiet šādas vērtības:
+1. Atlasiet **Jauns**, un iestatiet šādas vērtības:
 
     - **Kopuma darbības kods:** *Replen*
     - **Kopuma darbības apraksts:** *Papildināšana*
@@ -124,7 +124,7 @@ Papildināšanas veidnes ir kārtulu kopa, kas kontrolē novietojuma papildinā�
 1. Iestatiet šādas vērtības:
 
     - **Kopuma darbības kods:** *Replen*
-    - **Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus**  — *Jā*
+    - **Atļaut kopuma pieprasījumā izmantot nerezervētos daudzumus** — *Jā*
 
 1. Atlasiet **Saglabāt**.
 
@@ -136,7 +136,7 @@ Papildināšanas veidnes ir kārtulu kopa, kas kontrolē novietojuma papildinā�
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Automātiskās papildināšanas darba laidiens** uz *Jā*.
 
-    Iestatiet šo opciju uz *Jā* , lai izveidotu uz pieprasījuma balstītu papildināšanas darbu un automātiski to izlaistu. Jums ir jāpievieno papildināšanas kopuma metode kopuma veidnei un jāizveido papildināšanas veidne **Kopuma pieprasījuma** tipam. Iestatiet papildināšanas veidni lapā **Papildināšanas veidnes**. Lai iestatītu papildināšanas veidni, ir jāpievieno papildināšanas metode laidiena veidnei.
+    Iestatiet šo opciju uz *Jā*, lai izveidotu uz pieprasījuma balstītu papildināšanas darbu un automātiski to izlaistu. Jums ir jāpievieno papildināšanas kopuma metode kopuma veidnei un jāizveido papildināšanas veidne **Kopuma pieprasījuma** tipam. Iestatiet papildināšanas veidni lapā **Papildināšanas veidnes**. Lai iestatītu papildināšanas veidni, ir jāpievieno papildināšanas metode laidiena veidnei.
 
 1. Kopsavilkuma cilnē **Metodes** kolonnā **Atlasītās metodes** atrodama šāda rinda:
 
@@ -155,13 +155,13 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 #### <a name="create-sales-order-1"></a>1. pārdošanas pasūtījuma izveide
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Darbību rūtī atlasiet **Jauns** , lai atvērtu dialoglodziņu jauna pārdošanas pasūtījuma izveidošanai.
+1. Darbību rūtī atlasiet **Jauns**, lai atvērtu dialoglodziņu jauna pārdošanas pasūtījuma izveidošanai.
 1. Dialoglodziņā iestatiet tālāk norādītās vērtības:
 
     - **Debitora konts:** *US-007*
     - **Noliktava:** *61*
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tajā ir ietverta jauna, tukša rinda kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Iestatiet šādas vērtības šai rindai:
 
     - **Krājuma numurs:** *T0100*
@@ -170,7 +170,7 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** atlasiet **Krājumi \> Rezervācija**.
 1. Lapā **Rezervācija** atlasiet **Rezervēt vietu**.
 1. Aizvērt lapu.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Tiks saņemts informatīvi ziņojumi, kurā norādīts izveidotais kopuma ID un sūtījuma ID. Tiek izveidots arī papildināšanas kopums.
 
@@ -178,13 +178,13 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 
 #### <a name="create-sales-order-2"></a>2. pārdošanas pasūtījuma izveide
 
-1. Lapā **Visi pārdošanas pasūtījumi** atlasiet **Jauns** , lai atvērtu dialoglodziņu jauna pārdošanas pasūtījuma izveidošanai.
+1. Lapā **Visi pārdošanas pasūtījumi** atlasiet **Jauns**, lai atvērtu dialoglodziņu jauna pārdošanas pasūtījuma izveidošanai.
 1. Dialoglodziņā iestatiet tālāk norādīto vērtību:
 
     - **Debitora konts:** *US-001*
     - **Noliktava:** *61*
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tajā ir ietverta jauna, tukša rinda kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Iestatiet šādas vērtības šai rindai:
 
     - **Krājuma numurs:** *T0100*
@@ -193,7 +193,7 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** atlasiet **Krājumi \> Rezervācija**.
 1. Lapā **Rezervācija** atlasiet **Rezervēt vietu**.
 1. Aizvērt lapu.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Tiks saņemts informatīvi ziņojumi, kurā norādīts izveidotais kopuma ID un sūtījuma ID. Tiek izveidots arī papildināšanas kopums.
 
@@ -201,13 +201,13 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 
 #### <a name="create-sales-order-3"></a>3. pārdošanas pasūtījuma izveide
 
-1. Lapā **Visi pārdošanas pasūtījumi** atlasiet **Jauns** , lai atvērtu dialoglodziņu jauna pārdošanas pasūtījuma izveidošanai.
+1. Lapā **Visi pārdošanas pasūtījumi** atlasiet **Jauns**, lai atvērtu dialoglodziņu jauna pārdošanas pasūtījuma izveidošanai.
 1. Dialoglodziņā iestatiet tālāk norādītās vērtības:
 
     - **Debitora konts:** *US-004*
     - **Noliktava:** *61*
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tajā ir ietverta jauna, tukša rinda kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Iestatiet šādas vērtības šai rindai:
 
     - **Krājuma numurs:** *T0100*
@@ -216,7 +216,7 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** atlasiet **Krājumi \> Rezervācija**.
 1. Lapā **Rezervācija** atlasiet **Rezervēt vietu**.
 1. Aizvērt lapu.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Tiks saņemts informatīvi ziņojumi, kurā norādīts izveidotais kopuma ID un sūtījuma ID. Tiek izveidots arī papildināšanas kopums.
 
@@ -228,8 +228,8 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
 1. Sadaļā **Pārskats** filtrējiet **Noliktavas** kolonnu noliktavai *61*.
 1. Ir jāredz, ka trīs pieprasījumu pārdošanas pasūtījumiem tika izveidoti septiņi darba ID.
 
-    - Trijiem no septiņiem darba ID ir **Darba pasūtījuma tipa** vērtība no *Papildināšanas* , un četriem ir **Darba pasūtījuma tipa** vērtība no *Pārdošanas pasūtījumiem*.
-    - Visiem trim darbu ID, kuru **Darba pasūtījuma tipa** vērtība no *Papildināšanas* ir vienāda ar *Saņemšanu* un *Izvietošanu* sadaļā **Rindas** :
+    - Trijiem no septiņiem darba ID ir **Darba pasūtījuma tipa** vērtība no *Papildināšanas*, un četriem ir **Darba pasūtījuma tipa** vērtība no *Pārdošanas pasūtījumiem*.
+    - Visiem trim darbu ID, kuru **Darba pasūtījuma tipa** vērtība no *Papildināšanas* ir vienāda ar *Saņemšanu* un *Izvietošanu* sadaļā **Rindas**:
 
         - **Saņemt:** *02A01R5S1B*
         - **Izvietot:** *06A01R2S1B*
@@ -247,7 +247,7 @@ Vēlāk šajā scenārijā jūs izmantosiet noliktavas programmu (vai emulatoru)
 Lai atrastu numura zīmes ID, kas būs nepieciešams vēlāk, veiciet sekojošās darbības.
 
 1. Dodieties uz **Krājumu vadība \> Uzziņas un atskaites \> Rīcībā esošie krājumu saraksts**.
-1. Atlasiet pogu **Rādīt filtrus** , lai atvērtu filtra rūti.
+1. Atlasiet pogu **Rādīt filtrus**, lai atvērtu filtra rūti.
 1. Lai iegūtu scenārijam numura zīmes, ievadiet tālāk norādītos filtrēšanas kritērijus. Izmantojiet filtru *sākt ar*.
 
     - **Krājuma numurs:** *T0100*
@@ -257,7 +257,7 @@ Lai atrastu numura zīmes ID, kas būs nepieciešams vēlāk, veiciet sekojošā
 1. Darbību rūtī atlasiet **Dimensijas**.
 1. Dialoglodziņā **Dimensiju rādīšana** sadaļā **Noliktavas dimensijas** atlasiet visas vērtības.
 1. Sadaļā **Darbības** atlasiet **Krājuma kods** un **Daudzums \<\> 0**.
-1. Kad esat pabeidzis, atlasiet **Labi** , lai aizvērtu dialoglodziņu.
+1. Kad esat pabeidzis, atlasiet **Labi**, lai aizvērtu dialoglodziņu.
 1. **Rīcībā esošais** režģis rāda unikāls noliktavas vienības identifikatorus krājumam *T0100* katrā novietojumā. Pierakstiet numura zīmi, kas atrodas katrā novietojumā, jo šī informācija būs nepieciešama vēlāk.
 1. Aizvērt lapu.
 
@@ -361,7 +361,7 @@ Pārdošanas pasūtījums 2 ir bloķēts no saņemšanas, jo papildināšanas uz
 
 Tiklīdz rīcībā esošo krājumu summa saņemšanas vietā un papildināšanas daudzums ir zem robežas, būs iespējams apstrādāt atlikušo papildināšanas darbu.
 
-Atgriezieties **Darba informācijas** lapā un ievērojiet, ka papildināšanas darba pieejamība pēdējai papildināšanas vienībai (pārdošanas pasūtījumam 2) ir *Atvērta* , jo atrašanās vietā tagad ir pietiekami daudz vietas, lai akceptētu papildināšanu.
+Atgriezieties **Darba informācijas** lapā un ievērojiet, ka papildināšanas darba pieejamība pēdējai papildināšanas vienībai (pārdošanas pasūtījumam 2) ir *Atvērta*, jo atrašanās vietā tagad ir pietiekami daudz vietas, lai akceptētu papildināšanu.
 
 Tagad varat apstrādāt šo papildināšanas darbu ar mobilās ierīces starpniecību.
 

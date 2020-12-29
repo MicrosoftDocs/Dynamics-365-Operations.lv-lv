@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212737"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432535"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobilā darbvieta Rīcībā esošie krājumi
 
@@ -98,7 +98,7 @@ Ja jūsu organizācijai ir izvietots 3. platformas atjauninājums vai jaunāka 
 
 Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
--   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [. Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā

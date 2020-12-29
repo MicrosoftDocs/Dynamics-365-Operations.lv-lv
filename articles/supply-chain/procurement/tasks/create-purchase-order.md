@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018162"
+ms.locfileid: "4433172"
 ---
 # <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
 
@@ -45,7 +45,7 @@ ms.locfileid: "4018162"
 ## <a name="add-a-purchase-order-line"></a>Pievienojiet pirkšanas pasūtījuma rindu
 1. Atlasiet **Pirkšanas pasūtījuma rinda**.
 2. Atlasiet **Dimensijas**. Preces var būt variantos, kas atšķiras pēc dimensijām, piemēram, krāsas, izmēra vai stilu. Preces var arī iestatīt, lai izmantotu noliktavas dimensijas, piemēram, vietu un noliktavu. Ir arī papildu izsekošanas dimensijas, piemēram, partiju un sēriju numuri. Pasūtījuma izveides efektivitātes uzlabošanai, jūs varat pievienot dimensiju laukus, kuri parasti tiek izmantoti tieši pasūtījumu režģī.  
-3. Noklikšķiniet uz izvēles rūtiņu **Krāsa**. Papildu iespēja: ja atlasāt lauku **Saglabāt iestatīšanu** , jūsu izvēlētie izmēri tiks rādīti arī pasūtījumu rindu režģī nākamajā reizē, kad atverat pirkšanas pasūtījuma lapu.  
+3. Noklikšķiniet uz izvēles rūtiņu **Krāsa**. Papildu iespēja: ja atlasāt lauku **Saglabāt iestatīšanu**, jūsu izvēlētie izmēri tiks rādīti arī pasūtījumu rindu režģī nākamajā reizē, kad atverat pirkšanas pasūtījuma lapu.  
 4. Atlasiet **Labi**.
 5. Laukā **Krājuma numurs** atlasiet **T0004**.
 
@@ -60,7 +60,7 @@ ms.locfileid: "4018162"
     - Lauks **Vienības cena** parasti satur vērtību vai nu no pirkšanas līguma, vai tirdzniecības līguma. Ir iespējams mainīt vienības cenu atsevišķās pasūtījuma rindās, piemēram, ja ar kreditoru tiek panākta vienošanās par unikālu cenu.  
     - Laukā **Atlaide** parādīta atlaides summa vienībai. Šī atlaide tādējādi samazina vienības cenu par atlaides apjomu. Šī atlaide parasti tiek ievadīta automātiski no pirkšanas līgumiem vai tirdzniecības līgumiem, bet to ir iespējams ignorēt atsevišķās rindās, ja ar kreditoru tiek panākta vienošanās par unikālu atlaidi.  
     - Iespējams ievadīt atlaides procentuālo vērtību, kas attiecīgi samazina rindas neto summa. Atlaides procentuālā vērtība parasti tiek ievadīta automātiski no pirkšanas līgumiem vai tirdzniecības līgumiem, bet to ir iespējams ignorēt atsevišķās rindās, ja ar kreditoru tiek panākta vienošanās par unikālu atlaides procentuālo vērtību.  
-    - Vērtība laukā **Neto summa** tiek aprēķināta no citiem laukiem par rindu, tostarp daudzuma, vienības cenas, atlaides un atlaides procentiem. Neto summu ir iespējams mainīt, bet tad lauki **Vienības cena** , **Atlaide** un **Atlaide procentos** būs tukši, un, ja jūs publicējat rindai, publicētā summa būs proporcionāla neto summai. Parasti lauks **Neto summa** tiek izmantots tikai, lai parādītu rindas neto summu.  
+    - Vērtība laukā **Neto summa** tiek aprēķināta no citiem laukiem par rindu, tostarp daudzuma, vienības cenas, atlaides un atlaides procentiem. Neto summu ir iespējams mainīt, bet tad lauki **Vienības cena**, **Atlaide** un **Atlaide procentos** būs tukši, un, ja jūs publicējat rindai, publicētā summa būs proporcionāla neto summai. Parasti lauks **Neto summa** tiek izmantots tikai, lai parādītu rindas neto summu.  
 
 8. Izvērsiet sadaļu **Detalizēta informācija par rindu**.
 9. Atlasiet cilni **Piegāde**. Katrai pasūtījuma rindai var piešķirt unikālu piegādes datumu. Datums tiek pārmantots no pirkšanas pasūtījuma virsraksta lauka, bet jūs to varat mainīt.  
@@ -68,9 +68,9 @@ ms.locfileid: "4018162"
 ## <a name="review-order-totals"></a>Pārskatiet pasūtījuma kopsummas
 1. Atlasiet **Kopsummas**.
 
-    - Ja neredzat sadaļu **Kopējie** , atlasiet cilni **Pirkšanas pasūtījums** darbību rūtī.  
+    - Ja neredzat sadaļu **Kopējie**, atlasiet cilni **Pirkšanas pasūtījums** darbību rūtī.  
     - Šajā dialoglodziņā tiek parādīta visa pasūtījuma kopsumma.  
-    - Lauks **Atlase** ļauj jums mainīt pamatus, kā aprēķina kopējos rādītājus. Piemēram, varat izvēlēties **Produktu saņemšanas daudzums** , lai parādītu kopējos daudzumus, kas attiecas uz saņemto produkta(-u) daudzumu, vai **Pasūtītais daudzums** , lai parādītu pasūtītā produkta daudzumu.  
+    - Lauks **Atlase** ļauj jums mainīt pamatus, kā aprēķina kopējos rādītājus. Piemēram, varat izvēlēties **Produktu saņemšanas daudzums**, lai parādītu kopējos daudzumus, kas attiecas uz saņemto produkta(-u) daudzumu, vai **Pasūtītais daudzums**, lai parādītu pasūtītā produkta daudzumu.  
 
 2. Atlasiet **Labi**.
 

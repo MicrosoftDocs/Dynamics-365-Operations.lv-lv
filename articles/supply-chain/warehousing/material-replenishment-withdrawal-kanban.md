@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017081"
+ms.locfileid: "4433094"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildināšana ar atvilkumu Kanban
 
@@ -54,7 +54,7 @@ Nākamajā scenārijā ir parādīta uz vilkšanu balstīta papildināšanas sis
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Konfigurēt noliktavas darbu Kanban izdošanai attiecībā uz atvilkumu Kanban
 
-Lai iespējotu izejmateriālu izdošanu atvilkumu Kanban darbam, konfigurējiet kopuma veidnes, darba veidnes un novietojuma direktīvas darba pasūtījuma tipam **Kanban izdošana**. Šis darba pasūtījuma tips atbalsta ne tikai izdošanas procesu atvilkumu Kanban darbam. Tas atbalsta arī izdošanas procesu ražošanas Kanban darbam. Taču katram Kanban tipam varat konfigurēt atsevišķu izdošanas procesu, atdalot kopuma veidnes, darba veidnes un novietojuma direktīvas. Lai nodalītu laidiena veidnes, darba veidnes un novietojuma direktīvas, šo elementu vaicājumos iestatiet kritēriju aktivitāšu tipam ( **Process** vai **Pārsūtīšana** ).
+Lai iespējotu izejmateriālu izdošanu atvilkumu Kanban darbam, konfigurējiet kopuma veidnes, darba veidnes un novietojuma direktīvas darba pasūtījuma tipam **Kanban izdošana**. Šis darba pasūtījuma tips atbalsta ne tikai izdošanas procesu atvilkumu Kanban darbam. Tas atbalsta arī izdošanas procesu ražošanas Kanban darbam. Taču katram Kanban tipam varat konfigurēt atsevišķu izdošanas procesu, atdalot kopuma veidnes, darba veidnes un novietojuma direktīvas. Lai nodalītu laidiena veidnes, darba veidnes un novietojuma direktīvas, šo elementu vaicājumos iestatiet kritēriju aktivitāšu tipam (**Process** vai **Pārsūtīšana**).
 
 ## <a name="configure-the-withdrawal-kanban"></a>Konfigurēt atvilkumu Kanban darbu
 

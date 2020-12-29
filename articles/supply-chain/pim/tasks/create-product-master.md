@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: fdb30b46a0e5a6d4fac997588dd47148f2664c03
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986099"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432776"
 ---
 # <a name="create-a-product-master"></a>Preces šablona izveide
 
@@ -49,7 +49,7 @@ Izveidojiet preces šablonu iepriekš definētiem variantiem. Demonstrācijas da
 6. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
 ## <a name="add-dimension-groups"></a>Pievienot dimensiju grupas
-1. **Darbību rūtī** noklikšķiniet uz**Prece**.
+1. **Darbību rūtī** noklikšķiniet uz **Prece**.
 2. Noklikšķiniet uz **Dimensiju grupas**, lai atvērtu nolaižamo dialoglodziņu.
 3. Laukā **Noliktavas dimensiju grupa** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu. Noliktavas dimensijas palīdz kontrolēt krājumu uzglabāšanu un izņemšanu no krājumiem. Piemēram, noliktavas dimensija var iekļaut vietu un noliktavu.
 4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.

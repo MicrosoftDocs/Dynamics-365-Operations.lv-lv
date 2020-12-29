@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a8b26924641b8b0d26fa6834623b482be7fb7d6d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976980"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432565"
 ---
 # <a name="copy-service-templates-lines"></a>Kopēt pakalpojumu veidņu rindas 
 
@@ -47,7 +47,7 @@ Pakalpojuma veidnes rindas tagad tiek kopētas uz pakalpojuma līgumu kopā ar p
 
 1. Noklikšķiniet uz **Pakalpojumu pasūtījumi**.
 2. Lai atvērtu lapu **Pakalpojumu pasūtījumi**, veiciet dubultklikšķi uz pakalpojuma pasūtījuma.
-3. lai atvērtu lapu **Pakalpojumu veidnes rindu kopēšana**, noklikšķiniet uz Kopēt \> Pakalpojumu veidnes rindu kopēšana.
+3. Lai atvērtu lapu **Pakalpojumu veidnes rindu kopēšana**, noklikšķiniet uz Kopēt \> Pakalpojumu veidnes rindu kopēšana.
 4. Cilnē **Koka vadīkla** izvērsiet koku, atrodiet veidni ar līnijām, ko vēlaties pārkopēt uz pakalpojuma pasūtījumu, un pēc tam atlasiet pakalpojuma veidni.
 5. Cilnē **Līnijas** atzīmējiet izvēles rūtiņu **Atlasīt** tām pakalpojuma veidnes līnijām, ko vēlaties pārkopēt.
 6. Noklikšķiniet uz **Labi**.

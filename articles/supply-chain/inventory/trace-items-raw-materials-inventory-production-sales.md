@@ -19,11 +19,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fa1be4970f1106bf4b87eeaa428bac07c645b4f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213864"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433032"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Krājumu un izejmateriālu izsekošana krājumos, ražošanā un pārdošanā
 
@@ -99,7 +99,7 @@ Izsekošanas rezultāti tiek parādīti hronoloģiskā secībā kokveida skatā 
 Lai samazinātu informācijas apjomu izsekošanas detalizētajā informācijā, tikai pirmais līmenis ietver detalizētu informāciju par krājuma vai izejmateriāla vienību. Ja atlasītajā līmenī nav ietverta detalizēta informācija, noklikšķinot uz **Doties uz izsekoto rindu**, var skatīt līmeni, kurā ir ietverta informācija. Pēc tam var atgriezties iepriekšējā līmenī, noklikšķinot uz **Atgriezties**.
 
 ## <a name="can-i-view-only-a-particular-type-of-document-for-example-can-i-view-only-production-orders-customers-or-vendors"></a>Vai es varu apskatīt tikai noteikta veida dokumentu? Piemēram, vai es varu apskatīt tikai ražošanas pasūtījumus, klientus vai piegādātājus?
-Jā, izmantojot izsekošanas datus, var atvērt saraksta lapas, kas ietver tikai noteikta veida dokumentu vai transakciju. Lai piekļūtu šīm lapām, izmantojiet darbību rūtī izvēlnes vienumu **Izsekošana** grupā **Krājums**, **Pārdošana**, **Pirkšana**, **Ražošana** un **Kvalitāte**. Piemēram, lai skatītu kreditoru sarakstu izsekošanas datos, noklikšķiniet uz **Izsekošana** &gt; **Pirkšana** &gt; **Kreditori**. Saraksta lapas apkopo dokumentus vai darījumus no izsekošanas detalizētās informācijas. Saraksta lapā **Neapstiprinātie darījumi**, **Neapstiprinātie pasūtījumi**un **Nenosūtītie pārdošanas pasūtījumi** tiek parādīta arī informācija, kas nav ietverta izsekošanas datos. Turklāt tajās vienmēr ir redzami pašreizējā datuma rezultāti arī tad, ja ir norādīts datumu diapazons. Šajā tabulā ir aprakstīta papildu informācija, kas var tikt iekļauta šajās lapās.
+Jā, izmantojot izsekošanas datus, var atvērt saraksta lapas, kas ietver tikai noteikta veida dokumentu vai transakciju. Lai piekļūtu šīm lapām, izmantojiet darbību rūtī izvēlnes vienumu **Izsekošana** grupā **Krājums**, **Pārdošana**, **Pirkšana**, **Ražošana** un **Kvalitāte**. Piemēram, lai skatītu kreditoru sarakstu izsekošanas datos, noklikšķiniet uz **Izsekošana** &gt; **Pirkšana** &gt; **Kreditori**. Saraksta lapas apkopo dokumentus vai darījumus no izsekošanas detalizētās informācijas. Saraksta lapā **Neapstiprinātie darījumi**, **Neapstiprinātie pasūtījumi** un **Nenosūtītie pārdošanas pasūtījumi** tiek parādīta arī informācija, kas nav ietverta izsekošanas datos. Turklāt tajās vienmēr ir redzami pašreizējā datuma rezultāti arī tad, ja ir norādīts datumu diapazons. Šajā tabulā ir aprakstīta papildu informācija, kas var tikt iekļauta šajās lapās.
 
 | Saraksti                    | Apraksts                                                                                                                                                                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215704"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432662"
 ---
 # <a name="packing-materials-and-fees"></a>Iepakojuma materiāli un maksas
 
@@ -45,7 +45,7 @@ Pirms varat aprēķināt iepakojuma materiālu svaru, iepakojuma materiālu maks
 
 1. Dodieties uz **Krājumu pārvaldība \> Iestatīšana \> Krājumu un noliktavas pārvaldības parametri**.
 1. Cilnes **Vispārīgi** sadaļā **Iepakojuma materiāls** iestatiet opciju **Aprēķināt iepakojuma materiālu maksas** uz **Jā**.
-1. Dodieties uz **Krājumu pārvaldība \>Iestatījumi \>Iepakojuma materiāls \>Iepakojuma grupas**un izveidojiet visas jūsu izmantotās iepakojuma grupas. Visi iepakojuma grupas krājumi izmanto vienu un to pašu iepakojuma materiālu sadalījumu. Ja neizmantojat iepakojuma grupas, varat šo darbību izlaist.
+1. Dodieties uz **Krājumu pārvaldība \>Iestatījumi \>Iepakojuma materiāls \>Iepakojuma grupas** un izveidojiet visas jūsu izmantotās iepakojuma grupas. Visi iepakojuma grupas krājumi izmanto vienu un to pašu iepakojuma materiālu sadalījumu. Ja neizmantojat iepakojuma grupas, varat šo darbību izlaist.
 
     > [!TIP]
     > Pēc tam, kad esat izveidojis iepakojuma grupas, katrai precei var piešķirt grupu pēc vajadzības. Dodieties uz **Preču informācijas pārvaldība \>Preces \> Izlaistās preces**, atlasiet preci un pēc tam kopsavilkuma cilnē **Pārvaldīt krājumus**, laukā **Iepakojuma grupa** atlasiet attiecīgo iepakojuma grupu.
@@ -65,10 +65,10 @@ Pirms varat aprēķināt iepakojuma materiālu svaru, iepakojuma materiālu maks
             - **Visi** – izveidojiet sadalījumu visiem krājumiem.
 
             > [!NOTE]
-            > Parasti visiem jūsu sadalījumiem ir jābūt vienā līmenī (**Tabula**, **Grupa**vai **Visi**). Ja izmantojat vairāk nekā vienu līmeni, katram krājumam tiek izmantots viskonkrētāk atbilstošākais sadalījums. ( **Tabulas** līmenis dominē pār **Grupas** līmeni, un abiem šiem līmeņiem ir prioritāte pār līmeni **Visi** līmeni.)
+            > Parasti visiem jūsu sadalījumiem ir jābūt vienā līmenī (**Tabula**, **Grupa** vai **Visi**). Ja izmantojat vairāk nekā vienu līmeni, katram krājumam tiek izmantots viskonkrētāk atbilstošākais sadalījums. ( **Tabulas** līmenis dominē pār **Grupas** līmeni, un abiem šiem līmeņiem ir prioritāte pār līmeni **Visi** līmeni.)
 
         - **Krājumu relācija** — ja piešķirat vienam krājumam, atlasiet krājumu. Ja piešķirat krājumu grupai, atlasiet iepakojuma grupu. Ja piešķirat visiem krājumiem, atstājiet šo lauku tukšu.
-        - **Konfigurācija**, **Izmērs**, **Krāsa**un **Stils** — pēc nepieciešamības ievadiet šo dimensiju vērtības, lai vēl vairāk definētu krājumu, ko piešķirat.
+        - **Konfigurācija**, **Izmērs**, **Krāsa** un **Stils** — pēc nepieciešamības ievadiet šo dimensiju vērtības, lai vēl vairāk definētu krājumu, ko piešķirat.
         - **Iepakojuma vienība** — atlasiet vienību, kurā krājums tiek iepakots, kad tiek izmantots iepakojuma materiāls. Šī vienība var atšķirties no vienības, kurā krājums tiek pirkts un glabāts.
         - **Iepakojuma vienības faktors** — ievadiet konvertēšanas koeficientu, kas tiek izmantots, lai konvertētu no krājuma vienības uz iepakojuma vienību. ( Konvertēšana izmanto formulu *Iepakošanas vienības* = *Krājuma vienības* x *Iepakojuma vienības koeficients*.)
 

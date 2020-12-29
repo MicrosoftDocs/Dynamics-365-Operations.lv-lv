@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017832"
+ms.locfileid: "4433113"
 ---
 # <a name="put-to-wall---put-to-store"></a>Novietot pie sienas – Novietot veikalā
 
@@ -35,7 +35,7 @@ Funkcionalitāte *Novietot pie sienas – novietot veikalā* ļauj apstrādāt s
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Ieslēgt līdzekli Izejošā kārtošana
 
-Pirms varat izmantot funkcionalitāti *Novietot pie sienas – novietot veikalā* , jūsu sistēmā ir jābūt ieslēgtam līdzeklim *Izejošā kārtošana*. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Pirms varat izmantot funkcionalitāti *Novietot pie sienas – novietot veikalā*, jūsu sistēmā ir jābūt ieslēgtam līdzeklim *Izejošā kārtošana*. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Izejošā kārtošana*
@@ -52,7 +52,7 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 ### <a name="location-type"></a>Vietas veids
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojuma veidi**.
-1. Darbību rūtī atlasiet **Jauns** , lai izveidotu novietojuma veidu kārtošanai.
+1. Darbību rūtī atlasiet **Jauns**, lai izveidotu novietojuma veidu kārtošanai.
 1. Iestatiet šādas vērtības:
 
     - **Novietojuma veids:** *SORT*
@@ -63,13 +63,13 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 ### <a name="warehouse-management-parameters"></a>Noliktavas vadības parametri
 
 1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktavas pārvaldības parametri**.
-1. Cilnē **Vispārīgi** , kopsavilkuma cilnes **Novietojuma veidi** laukā **Kārtošanas novietojuma veids** ievadiet *SORT*.
+1. Cilnē **Vispārīgi**, kopsavilkuma cilnes **Novietojuma veidi** laukā **Kārtošanas novietojuma veids** ievadiet *SORT*.
 1. Atlasiet **Saglabāt**.
 
 ### <a name="location-profile"></a>Novietojuma profils
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Novietojuma profili**.
-1. Darbību rūtī atlasiet **Jauns** , lai izveidotu novietojuma profilu kārtošanas novietojumam.
+1. Darbību rūtī atlasiet **Jauns**, lai izveidotu novietojuma profilu kārtošanas novietojumam.
 1. Galvenē iestatiet šādas vērtības:
 
     - **Novietojuma profila ID:** *Kārtot*
@@ -89,7 +89,7 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojums**.
 1. Noņemiet atzīmi izvēles rūtiņai **Ģenerēt novietojuma kontrolciparus**.
-1. Darbību rūtī atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
 
     - **Noliktava:** *62*
     - **Novietojums:** *Kārtošana*
@@ -100,7 +100,7 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 ### <a name="packing-profiles"></a>Iepakošanas profili
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Iepakošana \> Iepakošanas profili**.
-1. Darbību rūtī atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
 
     - **Iepakošanas profila ID:** *Sort*
     - **Apraksts:** *Kārtot*
@@ -116,7 +116,7 @@ Līdzekli *Izejošā kārtošana* var izmantot savienojumā ar *Organizācijas l
 Ja līdzeklis *Organizācijas līmeņa kopuma darbības kods* ir ieslēgts, iestatiet tālāk norādīto kodu.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma darbību kodi**.
-1. Darbību rūtī atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības:
 
     - **Kopuma darbības kods:** *Kārtot*
     - **Kopuma darbības apraksts:** *Kārtot*
@@ -156,7 +156,7 @@ Kārtošanas veidne kontrolē, vai tiek veidotas kārtošanas pozīcijas, kādi 
 
     - **Izveidot darbu slēgtai pozīcijai:** *Jā*
 
-        Ja šī opcija ir iestatīta uz *Jā* , kad pozīcija tiek slēgta, tiks izveidots darbs, lai pārvietotu krājumus uz galējo nosūtīšanas vietu. Ja tā ir iestatīta uz *Nē* , krājumi tiks nekavējoties izdoti pasūtījumam, kad pozīcija tiks slēgta.
+        Ja šī opcija ir iestatīta uz *Jā*, kad pozīcija tiek slēgta, tiks izveidots darbs, lai pārvietotu krājumus uz galējo nosūtīšanas vietu. Ja tā ir iestatīta uz *Nē*, krājumi tiks nekavējoties izdoti pasūtījumam, kad pozīcija tiks slēgta.
 
     - **Pozīcijas piešķiršana:** *Manuāli*
 
@@ -174,11 +174,11 @@ Kārtošanas veidne kontrolē, vai tiek veidotas kārtošanas pozīcijas, kādi 
 
     - **Kopuma darbības kods:** *Kārtot*
 
-        Ja ir ieslēgts līdzeklis *Organizācijas līmeņa kopuma darbības kods* , tad kopuma darbību kodos ir jābūt iestatītam arī kopuma darbības kodam *Kārtot*.
+        Ja ir ieslēgts līdzeklis *Organizācijas līmeņa kopuma darbības kods*, tad kopuma darbību kodos ir jābūt iestatītam arī kopuma darbības kodam *Kārtot*.
 
     - **Automātiski slēgt kārtošanas pozīciju:** *Jā*
 
-        Ja šī opcija ir iestatīta uz *Jā* , kārtošanas pozīcija automātiski tiks slēgta, kad visi darbi, kas tuvojas pozīcijai, būs pabeigti.
+        Ja šī opcija ir iestatīta uz *Jā*, kārtošanas pozīcija automātiski tiks slēgta, kad visi darbi, kas tuvojas pozīcijai, būs pabeigti.
 
     - **Kārtošanas pozīciju skaits:** *3*
 
@@ -190,14 +190,14 @@ Kārtošanas veidne kontrolē, vai tiek veidotas kārtošanas pozīcijas, kādi 
 
     - **Automātiski iepakot kārtošanas pozīciju:** *Jā*
 
-        Ja šī opcija ir iestatīta uz *Jā* , krājumi kārtošanas pozīcijā tiks iepakoti konteinerā, kad pozīcija tiks slēgta.
+        Ja šī opcija ir iestatīta uz *Jā*, krājumi kārtošanas pozīcijā tiks iepakoti konteinerā, kad pozīcija tiks slēgta.
 
     - **Iepakošanas profila ID:** *Sort*
 
         Šis lauks definē iepakošanas profilu, kas tiks izmantots, kad kārtošanas pozīcija tiks iepakota konteinerā.
 
-1. Darbību rūtī atlasiet **Rediģēt vaicājumu** , lai norādītu kritērijus, kas tiek izmantoti šai kārtošanas veidnei.
-1. Vaicājuma dialoglodziņa cilnē **Kārtošana** atlasiet **Jauns** , lai pievienotu rindu, un pēc tam iestatiet šādas vērtības:
+1. Darbību rūtī atlasiet **Rediģēt vaicājumu**, lai norādītu kritērijus, kas tiek izmantoti šai kārtošanas veidnei.
+1. Vaicājuma dialoglodziņa cilnē **Kārtošana** atlasiet **Jauns**, lai pievienotu rindu, un pēc tam iestatiet šādas vērtības:
 
     - **Tabula:** *Kravas informācija*
     - **Atveidotā tabula:** *Kravas informācija*
@@ -210,7 +210,7 @@ Kārtošanas veidne kontrolē, vai tiek veidotas kārtošanas pozīcijas, kādi 
     Tagad darbību rūtī ir pieejama poga **Izejošās kārtošanas veidnes pārtraukumi**.
 
 1. Darbību rūtī atlasiet **Izejošās kārtošanas veidnes pārtraukumi**.
-1. Atzīmējiet izvēles rūtiņu **Grupēt pēc lauka** , lai grupētu pēc sūtījuma ID.
+1. Atzīmējiet izvēles rūtiņu **Grupēt pēc lauka**, lai grupētu pēc sūtījuma ID.
 
     Šis iestatījums izveidos vienu kārtošanas pozīciju katram sūtījumam, kas ir kopuma konteiners.
 
@@ -293,20 +293,20 @@ Ir jāizveido novietojuma direktīvas, lai vadītu darbu, kas tiek izveidots pē
     - **Direktīvas kods:** atstājiet šo lauku tukšu.
     - **Vairākas SKU:** *Nē*
 
-1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Rindas**.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
+1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Rindas**.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Secības numurs:** *1*
     - **No daudzuma:** *0*
     - **Līdz daudzumam:** *1 000 000*
 
-1. Atlasiet **Saglabāt** , lai padarītu pieejamu kopsavilkuma cilni **Novietojuma direktīvu darbības**.
-1. Kopsavilkuma cilnē **Novietojuma direktīvu darbības** atlasiet **Jauns** , un pēc tam iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
+1. Atlasiet **Saglabāt**, lai padarītu pieejamu kopsavilkuma cilni **Novietojuma direktīvu darbības**.
+1. Kopsavilkuma cilnē **Novietojuma direktīvu darbības** atlasiet **Jauns**, un pēc tam iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Secības numurs:** *1*
     - **Nosaukums:** *Baydoor*
 
-1. Atlasiet **Saglabāt** , lai padarītu pogu **Rediģēt vaicājumu** pieejamu **Novietojuma direktīvu darbības** kopsavilkuma cilnē.
+1. Atlasiet **Saglabāt**, lai padarītu pogu **Rediģēt vaicājumu** pieejamu **Novietojuma direktīvu darbības** kopsavilkuma cilnē.
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Rediģēt vaicājumu**.
 1. Vaicājuma dialoglodziņā cilnē **Diapazons** sameklējiet rindu, kurā lauks **Lauks** ir iestatīts uz *Novietojums*. Iestatiet lauku **Kritēriji** šai rindai uz *Angāra durvis*.
 1. Lai apstiprinātu rediģēšanu, atlasiet **Labi**.
@@ -330,26 +330,26 @@ Ir jāizveido novietojuma direktīvas, lai vadītu darbu, kas tiek izveidots pē
 1. Režģī atlasiet darba veidni **62 izdot iepakošanai**.
 1. Darbību rūtī atlasiet **Darba galvenes pārtraukumi**.
 1. Darbību rūtī atlasiet **Rediģēt**.
-1. Rindā, kur lauks **Lauka nosaukums** ir iestatīts uz *Sūtījuma ID* , noņemiet atzīmi izvēles rūtiņā **Grupēt pēc šī lauka**.
+1. Rindā, kur lauks **Lauka nosaukums** ir iestatīts uz *Sūtījuma ID*, noņemiet atzīmi izvēles rūtiņā **Grupēt pēc šī lauka**.
 1. Atlasiet **Saglabāt** un pēc tam aizveriet dialoglodziņu **Darba galvenes pārtraukumi**.
 1. Laukā **Darba pasūtījuma veids** atlasiet *Kārtotu krājumu izdošana*.
-1. Atlasiet **Jauns** , lai izveidotu darba veidni.
+1. Atlasiet **Jauns**, lai izveidotu darba veidni.
 1. Sadaļā **Pārskats** iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
     - **Darba veidne:** *Kārtota izdošana*
     - **Darba veidnes apraksts:** *Kārtota izdošana*
 
-1. Atlasiet **Saglabāt** , lai padarītu pieejamu sadaļu **Darba veidnes informācija**.
+1. Atlasiet **Saglabāt**, lai padarītu pieejamu sadaļu **Darba veidnes informācija**.
 1. Sadaļā **Darba veidnes informācija** tiks izveidotas divas rindas. Atlasiet **Jauns** un pēc tam 1. rindai iestatiet šādas vērtības:
 
     - **Darba veids:** *Izdošana*
-    - **Obligāts:** atlasīts (= *Jā* )
+    - **Obligāts:** atlasīts (= *Jā*)
     - **Darba klases ID:** *Kārtošana*
 
 1. Vēlreiz atlasiet **Jauns** un pēc tam 2. rindai iestatiet šādas vērtības:
 
     - **Darba veids:** *Izvietošana*
-    - **Obligāts:** atlasīts (= *Jā* )
+    - **Obligāts:** atlasīts (= *Jā*)
     - **Darba klases ID:** *Kārtošana*
 
 1. Atlasiet **Saglabāt**.
@@ -367,7 +367,7 @@ Lai funkcionalitāti varētu demonstrēt, ir jāizveido daži pieprasījumi. Ši
 Pirms pārdošanas pasūtījumu un sūtījumu izveides, ir jāpārliecinās, vai izdošanas vietās ir pietiekami daudz krājumu visiem krājumiem pasūtījumos. Pārskatiet novietojuma direktīvas iestatījumus, lai apstiprinātu izdošanas vietas, kas tiek izmantotas pārdošanas pasūtījuma izdošanai. Pielāgojot krājumus, varat izveidot manuālo kustību, izmantot papildināšanu vai jebkuru citu plūsmu. Pēc tam rezervējiet krājumus.
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
-1. Atlasiet **Jauns** , lai 1. pasūtījumam izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns**, lai 1. pasūtījumam izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - **Klients:** *US-001*
@@ -379,7 +379,7 @@ Pirms pārdošanas pasūtījumu un sūtījumu izveides, ir jāpārliecinās, vai
     - **Krājuma numurs:** *A0001*
     - **Daudzums:** *5*
 
-1. Atlasiet **Pievienot rindu** , lai pievienotu otro rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Pievienot rindu**, lai pievienotu otro rindu, un iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *A0002*
     - **Daudzums:** *10*
@@ -387,10 +387,10 @@ Pirms pārdošanas pasūtījumu un sūtījumu izveides, ir jāpārliecinās, vai
 1. Atkārtojiet šīs darbības katrai pasūtījuma pārdošanas rindai, lai rezervētu tai krājumus:
 
     1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** izvēlnē **Krājumi** atlasiet **Rezervācija**.
-    1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu** , un pēc tam aizveriet lapu.
+    1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu**, un pēc tam aizveriet lapu.
     1. Atlasiet **Saglabāt**.
 
-1. Atlasiet **Jauns** , lai 2. pasūtījumam izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns**, lai 2. pasūtījumam izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - **Klients:** *US-004*
@@ -402,7 +402,7 @@ Pirms pārdošanas pasūtījumu un sūtījumu izveides, ir jāpārliecinās, vai
     - **Krājuma numurs:** *A0001*
     - **Daudzums:** *7*
 
-1. Atlasiet **Pievienot rindu** , lai pievienotu otro rindu, un iestatiet šādas vērtības:
+1. Atlasiet **Pievienot rindu**, lai pievienotu otro rindu, un iestatiet šādas vērtības:
 
     - **Krājuma numurs:** *A0002*
     - **Daudzums:** *3*
@@ -410,10 +410,10 @@ Pirms pārdošanas pasūtījumu un sūtījumu izveides, ir jāpārliecinās, vai
 1. Atkārtojiet šīs darbības katrai pasūtījuma pārdošanas rindai, lai rezervētu tai krājumus:
 
     1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** izvēlnē **Krājumi** atlasiet **Rezervācija**.
-    1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu** , un pēc tam aizveriet lapu.
+    1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu**, un pēc tam aizveriet lapu.
     1. Atlasiet **Saglabāt**.
 
-1. Atlasiet **Jauns** , lai 3. pasūtījumam izveidotu pārdošanas pasūtījumu.
+1. Atlasiet **Jauns**, lai 3. pasūtījumam izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
 
     - **Klients:** *US-007*
@@ -428,14 +428,14 @@ Pirms pārdošanas pasūtījumu un sūtījumu izveides, ir jāpārliecinās, vai
 1. Veiciet tālāk norādītās darbības, lai rezervētu krājumus pārdošanas rindām:
 
     1. Kopsavilkuma cilnē **Pārdošanas pasūtījumu rindas** izvēlnē **Krājumi** atlasiet **Rezervācija**.
-    1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu** , un pēc tam aizveriet lapu.
+    1. Lapā **Rezervācija** atlasiet **Rezervēt laidienu**, un pēc tam aizveriet lapu.
     1. Atlasiet **Saglabāt**.
 
 Izpildiet šo procedūru, lai katru pārdošanas pasūtījumu izlaistu noliktavā. Tiks izveidoti trīs dažādi sūtījumi. Pēc tam visi trīs sūtījumi ir jāpievieno vienam jaunam kopumam.
 
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
 1. Režģī atlasiet pirmo izveidoto pārdošanas pasūtījumu.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Tiks saņemts informatīvs ziņojums, kurā norādīts izveidotais kopuma ID un sūtījuma ID.
 
@@ -449,7 +449,7 @@ Izpildiet šo procedūru, lai katru pārdošanas pasūtījumu izlaistu noliktav�
 
     Kopuma apstrādes laikā kārtošanas metode izmanto kārtošanas veidni, lai piešķirtu krājumus kārtošanas pozīcijām. Kad kopuma apstrāde ir pabeigta, tiks saņemts informatīvs ziņojums, ka kopums ir iegrāmatots un darbs ir izveidots.
 
-1. Darbību rūtī cilnes **Kopums** grupā **Saistītā informācija** , atlasiet **Darbs** , lai skatītu izveidoto darbu. Pierakstiet darba ID.
+1. Darbību rūtī cilnes **Kopums** grupā **Saistītā informācija**, atlasiet **Darbs**, lai skatītu izveidoto darbu. Pierakstiet darba ID.
 1. Dodieties uz **Noliktavas pārvaldība \> Iepakošana un konteinerizēšana \> Izejošās kārtošanas pozīciju piešķires**.
 1. Kreisajā kolonnā varat skatīt izejošo kārtošanas pozīciju, kas tika izveidota katram sūtījumam.
 1. Kopsavilkuma cilnē **Kārtošanas pozīcijas kritēriji** varat skatīt šīs pozīcijas sūtījuma ID.
@@ -472,7 +472,7 @@ Viens darba ID ir izveidots, lai krājumus no izdošanas vietām pārnestu uz k�
 
 1. Apstipriniet ievadīto.
 
-    Mobilā programma tagad piedāvā lapu sēriju **Izdošana** , kas norāda uz izdošanas vietu, krājumu un daudzumu, kas ir jāizdod. Pēc tam, kad izdotais krājums ir pievienots noliktavas vienībai, tiks apstiprināts izdošanas darbs. Pēdējā lapa būs darbs, lai izdotos krājumus izvietotu kārtošanas vietā.
+    Mobilā programma tagad piedāvā lapu sēriju **Izdošana**, kas norāda uz izdošanas vietu, krājumu un daudzumu, kas ir jāizdod. Pēc tam, kad izdotais krājums ir pievienots noliktavas vienībai, tiks apstiprināts izdošanas darbs. Pēdējā lapa būs darbs, lai izdotos krājumus izvietotu kārtošanas vietā.
 
 1. Apstipriniet pirmo izdošanas darbu.
 1. Tiek parādīts nākamais izdošanas darbs. Apstipriniet izdošanu.
@@ -489,12 +489,12 @@ Tagad, kad visi krājumi ir novietoti kārtošanas vietā, tie ir jākārto pare
 
 1. Piesakieties mobilajā programmā.
 1. Galvenajā izvēlnē atlasiet **Izejošs**.
-1. Izvēlnē **Izejošs** atlasiet **Kārtot** , lai sāktu kārtot krājumus.
+1. Izvēlnē **Izejošs** atlasiet **Kārtot**, lai sāktu kārtot krājumus.
 1. Laukā **LP/CON** ievadiet mērķa noliktavas vienību izdotajam pārdošanas pasūtījuma darbam.
 1. Apstipriniet ievadīto.
 1. Ievadiet krājuma kodu, kas jākārto kā pirmais.
 1. Sistēma nosaka pirmo kārtošanas pozīciju, kas ir jāparāda. Apstipriniet kārtošanas pozīciju.
-1. Tiek pieprasīts piešķirt noliktavas vienību kārtošanas pozīcijai. Atlasiet lauku **LP** , ievadiet unikālo noliktavas vienības identifikatoru un pēc tam apstipriniet ierakstu.
+1. Tiek pieprasīts piešķirt noliktavas vienību kārtošanas pozīcijai. Atlasiet lauku **LP**, ievadiet unikālo noliktavas vienības identifikatoru un pēc tam apstipriniet ierakstu.
 
     Tā kā kārtošanas pozīcija ir saistīta ar sūtījuma ID, izdotie krājumi tiks kārtoti noliktavas vienībā, kas ir raksturīga izejošajam sūtījumam un pārdošanas pasūtījumam.
 
@@ -509,9 +509,9 @@ Tagad, kad visi krājumi ir novietoti kārtošanas vietā, tie ir jākārto pare
     > [!NOTE]
     > Ja automātiskā kārtošana ir ieslēgta, manuālā ignorēšana nav pieejama.
 
-1. Kad esat pabeidzis, programmā Microsoft Dynamics 365 Supply Chain Management atveriet lapu **Izejošās kārtošanas pozīciju piešķires** , lai pārskatītu pozīciju statusu.
+1. Kad esat pabeidzis, programmā Microsoft Dynamics 365 Supply Chain Management atveriet lapu **Izejošās kārtošanas pozīciju piešķires**, lai pārskatītu pozīciju statusu.
 
-    - Ja pozīcijas tiek slēgtas automātiski, atlasiet **Rādīt slēgto** , lai parādītu slēgtās pozīcijas.
+    - Ja pozīcijas tiek slēgtas automātiski, atlasiet **Rādīt slēgto**, lai parādītu slēgtās pozīcijas.
     - Ievērojiet, ka tiek parādītas kārtošanas pozīcijas transakcijas. Tiek parādīts krājums un daudzums, kas tika apstrādāts, izmantojot pozīciju.
 
     Iestatot izejošās kārtošanas veidni, opcija **Automātiski slēgt kārtošanas pozīciju** ir jāiestata uz *Jā*. Tādēļ pozīcija tiek automātiski slēgta pēc tam, kad tajā tiek novietots pēdējais paredzētais krājums. Kārtošanas pozīcijas statuss ir **Slēgts** un ir izveidots darbs, lai pārvietotu kārtotos krājumus uz novietojumu *Angāra durvis*.
@@ -523,14 +523,14 @@ Tagad, kad visi krājumi ir novietoti kārtošanas vietā, tie ir jākārto pare
 
 ### <a name="manually-close-a-position-optional"></a>Pozīcijas manuāla slēgšana (neobligāts)
 
-Ja kārtošanas pozīcijas jāslēdz manuāli, izejošās kārtošanas veidnes opcijai **Automātiski slēgt kārtošanas pozīciju** jābūt iestatītai uz *Nē* , un slēgšana jāveic pirms krājumus var pārvietot uz angāra durvis zonu. Pozīcijas var slēgt dažādos veidos:
+Ja kārtošanas pozīcijas jāslēdz manuāli, izejošās kārtošanas veidnes opcijai **Automātiski slēgt kārtošanas pozīciju** jābūt iestatītai uz *Nē*, un slēgšana jāveic pirms krājumus var pārvietot uz angāra durvis zonu. Pozīcijas var slēgt dažādos veidos:
 
 - Izmantojot noliktavas programmu:
 
-    - Lietotājs var skenēt vienu no krājumiem, kas jau ir pozīcijā, un pēc tam atlasīt **Slēgt** , lai slēgtu pozīciju.
+    - Lietotājs var skenēt vienu no krājumiem, kas jau ir pozīcijā, un pēc tam atlasīt **Slēgt**, lai slēgtu pozīciju.
     - Ja lietotājs skenē konteineru, kas jau ir sakārtots, tiek parādīts kļūdas ziņojums. Tomēr lietotājs joprojām var turpināt pozīcijas slēgšanu.
 
-- Izmantojot lapu Microsoft Dynamics 365 Supply Chain Management **Izejošās kārtošanas pozīcijas piešķires** :
+- Izmantojot lapu Microsoft Dynamics 365 Supply Chain Management **Izejošās kārtošanas pozīcijas piešķires**:
 
     - Lietotājs var atlasīt izejošās kārtošanas pozīcijas ierakstu un pēc tam darbību rūtī atlasīt **Slēgt pozīciju**.
 

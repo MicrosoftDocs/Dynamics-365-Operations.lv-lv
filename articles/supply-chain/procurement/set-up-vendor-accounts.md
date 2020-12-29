@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018079"
+ms.locfileid: "4433154"
 ---
 # <a name="set-up-vendor-accounts"></a>Kreditora kontu iestatīšana
 
@@ -69,7 +69,7 @@ Kontaktpersonas ierakstu nevar dzēst, ja uz kontaktpersonu ir atsauce dokument�
 Varat pievienot kreditora kontaktpersonas savām personiskajām kontaktpersonām programmā Microsoft 365. Taču vispirms ir jāiestata programmu Supply Chain Management un Microsoft 365 sinhronizācija, izmantojot gan Microsoft Exchange Server sinhronizāciju, gan Microsoft Outlook iestatīšanas vedni.
 
 ## <a name="vendors-in-different-legal-entities"></a>Kreditori dažādās juridiskajās personās
-Ja kreditors ir reģistrēts tikai vienai juridiskajai personai jūsu organizācijā un citām juridiskajām personām ir jāreģistrē tas pats kreditors, varat izmantot lapu **Pievienot kreditoru citai juridiskai personai** , lai konfigurētu kreditoru darījumu veikšanai ar citu juridisko personu. Jāatlasa kreditoru grupa, valūta un aizturēšanas statuss kreditoram izvēlētajā juridiskajā personā.  
+Ja kreditors ir reģistrēts tikai vienai juridiskajai personai jūsu organizācijā un citām juridiskajām personām ir jāreģistrē tas pats kreditors, varat izmantot lapu **Pievienot kreditoru citai juridiskai personai**, lai konfigurētu kreditoru darījumu veikšanai ar citu juridisko personu. Jāatlasa kreditoru grupa, valūta un aizturēšanas statuss kreditoram izvēlētajā juridiskajā personā.  
 
 Ja daudzām juridiskajām personām jūsu organizācijā ir darījumi ar vienu un to pašu kreditoru un katra juridiskā persona uztur atsevišķu kreditora kontu šim kreditoram, var sapludinātu kreditora kontu puses ID. Šādā veidā var kopīgot tādu informāciju kā adrese un darbinieku skaits, lai tā būtu jāatjaunina tikai vienā vietā.  
 
@@ -97,13 +97,13 @@ Varat kreditoriem veikt aizturēšanas statusa lielapjoma atjaunināšanu uz **V
 
 Lai iekļautu kreditorus, kas ir noteiktu periodu bijuši neaktīvi, iekļautu vai izslēgtu kreditorus, kas ir darbinieki, kā arī izslēgtu kreditorus, kam ir pagarinājuma laiks pirms nākamās aizturēšanas, tiek izmantoti tālāk norādītie kritēriji.
 
-- Pamatojoties uz dienu skaitu, ko ievadāt lapas **Kreditora deaktivizēšana** laukā **Aktivitātes periods** , programma aprēķina pēdējo datumu, kurā kreditors var būt veicis kādu aktivitāti, lai viņš būtu uzskatāms par neaktīvu. Tātad no pašreizējā datuma tiek atņemts ievadītais dienu skaits. Ja kreditoram pastāv viens vai vairāki rēķini, kuros datums ir vēlāks par aprēķināto pēdējo datumu, kreditors tiks izslēgts no deaktivizācijas. Tas tiek validēts arī tad, ja kreditoram pēc šī datuma ir maksājumi, atvērti pirkšanas pieprasījumi, atvērti pirkšanas pasūtījumi, piedāvājuma pieprasījumi vai atbildes.
+- Pamatojoties uz dienu skaitu, ko ievadāt lapas **Kreditora deaktivizēšana** laukā **Aktivitātes periods**, programma aprēķina pēdējo datumu, kurā kreditors var būt veicis kādu aktivitāti, lai viņš būtu uzskatāms par neaktīvu. Tātad no pašreizējā datuma tiek atņemts ievadītais dienu skaits. Ja kreditoram pastāv viens vai vairāki rēķini, kuros datums ir vēlāks par aprēķināto pēdējo datumu, kreditors tiks izslēgts no deaktivizācijas. Tas tiek validēts arī tad, ja kreditoram pēc šī datuma ir maksājumi, atvērti pirkšanas pieprasījumi, atvērti pirkšanas pasūtījumi, piedāvājuma pieprasījumi vai atbildes.
 - Pēdējā pagarinājuma datuma aprēķināšanai tiek izmantots laukā **Pagarinājuma laiks pirms nākamās aizturēšanas** ievadītais dienu skaits. Tātad no pašreizējā datuma tiek atņemtas ievadītās dienas. Tas attiecas tikai uz kreditoriem, kas ir iepriekš tikuši deaktivizēti. Iepriekšējas deaktivizācijas gadījumā programma pārbauda kreditora deaktivizācijas pārējo notikumu vēsturi, kā arī pārbauda, vai pēdējā deaktivizācija notika pirms pēdējā pagarinājuma datuma. Ja tā ir, kreditors tiks iekļauts deaktivizācijas procesā.
 - Parametrs **Iekļaut darbiniekus** attiecas uz kreditoriem, kas ir saistīti ar darbinieku. Ja vēlaties iekļaut šos darbiniekus, varat veikt attiecīgu iestatījumu.
 
 Šis process vienmēr izslēgs kreditorus, kuriem laukā **Kreditora aizturēšana** ir iestatīta vērtība **Nekad**.
 
-Kreditori, kas iztur validāciju, tiek aizturēti, un tādējādi lauka **Kreditora aizturēšana** vērtība tiek iestatīta uz **Visi** , savukārt lauks **Iemesls** — uz atlasīto vērtību. Kreditora aizturēšanas vēsturē tiek izveidots ieraksts.
+Kreditori, kas iztur validāciju, tiek aizturēti, un tādējādi lauka **Kreditora aizturēšana** vērtība tiek iestatīta uz **Visi**, savukārt lauks **Iemesls** — uz atlasīto vērtību. Kreditora aizturēšanas vēsturē tiek izveidots ieraksts.
 
 ## <a name="vendor-invoice-account"></a>Kreditora rēķina saņēmējs
 Ja tāda pati rēķina adrese ir vairāk nekā vienam kreditoram vai kreditoram ir izrakstīts rēķins ar trešās puses starpniecību, varat norādīt rēķina kontu kreditora ierakstam. Rēķina konts ir konts, kurā kreditēta rēķina summa, veidojot kreditora rēķinu no pirkšanas pasūtījuma. Neievadot rēķina kontu kreditora ierakstam, kreditora konts tiek izmantots kā rēķina konts.
@@ -114,7 +114,7 @@ Ja jāveic maksājumi uz kreditora bankas kontu, varat ievadīt informāciju par
 ## <a name="ledger-accounts"></a>Virsgrāmatas konti
 Varat norādīt noklusējuma kontus, kuri automātiski parādīsies attiecīgā kreditora rēķinu žurnālos. Šī funkcija var noderēt, ja parasti maksājat par viena veida precēm vai pakalpojumiem, ko nodrošina vieni un tie paši kreditori. Norādot noklusējuma kontu, var ātri un efektīvi ievadīt žurnāla ierakstus rēķinu žurnālā. Noklusējuma konti, ko norādāt, netiek izmantoti pirkšanas pasūtījumiem vai kreditoru rēķiniem, kas ir ievadīti lapā **Kreditora rēķins**.  
 
-Noklusējuma konti tiek atlasīti cilnē **Noklusētie konta iestatījumi** , kuru var atvērt, izmantojot cilni **Rēķins** kreditora ierakstā. Šeit atlasītie konti tiek parādīti kreditora kontam filtrēto kontu sarakstā, kad tiek ievadīts žurnāla ieraksts. Vienu no kontiem var iestatīt kā noklusējuma kontu.
+Noklusējuma konti tiek atlasīti cilnē **Noklusētie konta iestatījumi**, kuru var atvērt, izmantojot cilni **Rēķins** kreditora ierakstā. Šeit atlasītie konti tiek parādīti kreditora kontam filtrēto kontu sarakstā, kad tiek ievadīts žurnāla ieraksts. Vienu no kontiem var iestatīt kā noklusējuma kontu.
 
 
 

@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016589"
+ms.locfileid: "4433125"
 ---
 # <a name="visibility-into-material-exceptions"></a>Redzamība materiālu izņēmumos
 
@@ -34,7 +34,7 @@ Darbvietā **Ražošanas pārvaldība** labāku redzamību par izņēmumiem atti
 - Neapstrādātie kopumi, kuriem jāpievērš uzmanība
 - Atvērtais noliktavas darbs, kam jāpievērš uzmanība
 
-Visos trīs elementos materiālu komplekta (MK) rindu un formulas rindu izejmateriālu datums tiek salīdzināts ar darbvietas datumu, kā arī ar filtriem, kas iestatīti vienumiem **Ražošanas vienība** , **Resursu grupa** un **Resurss**  — šie vienumi ir iestatīti izvēlnē **Konfigurēt manu darbvietu**. Darbvietas datums pēc noklusējuma ir iestatīts uz pašreizējo datumu, bet varat to regulēt.
+Visos trīs elementos materiālu komplekta (MK) rindu un formulas rindu izejmateriālu datums tiek salīdzināts ar darbvietas datumu, kā arī ar filtriem, kas iestatīti vienumiem **Ražošanas vienība**, **Resursu grupa** un **Resurss** — šie vienumi ir iestatīti izvēlnē **Konfigurēt manu darbvietu**. Darbvietas datums pēc noklusējuma ir iestatīts uz pašreizējo datumu, bet varat to regulēt.
 
 Neizlaistai MK rindai vai formulas rindai ir jāpievērš uzmanība, ja rindas izejmateriālu datums ir vienāds ar vai agrāks par darbvietas datumu, kā arī gadījumos, ja tas atbilst darbvietas filtru noteiktajiem kritērijiem.
 

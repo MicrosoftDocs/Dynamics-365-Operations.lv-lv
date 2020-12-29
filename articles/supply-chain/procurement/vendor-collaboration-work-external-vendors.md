@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018748"
+ms.locfileid: "4433180"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Kreditoru sadarbība ar ārējiem kreditoriem
 
@@ -71,7 +71,7 @@ Lai kopīgotu cenas informāciju saistībā ar pirkšanas pasūtījumiem, izmant
 
 ### <a name="sending-a-po-to-a-vendor"></a>Pirkšanas pasūtījuma sūtīšana kreditoram
 
-PO tiek sagatavoti programmatūrā Supply Chain Management. Kad pirkšanas pasūtījuma statuss ir **Apstiprināts** , jūs to sūtat kreditoram, atlasot darbību **Sūtīt akceptēšanai** lapā **Pirkšanas pasūtījums**. Pēc tam pirkšanas pasūtījuma statuss mainās uz **Tiek pārskatīts ārēji**. Pēc pirkšanas pasūtījuma nosūtīšanas kreditors to var redzēt kreditoru sadarbības interfeisa lapā **Pārskatāmie pirkšanas pasūtījumi**. Kreditors pirkšanas pasūtījumu var pieņemt, noraidīt to vai ierosināt tā izmaiņas. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas. Ja vēlaties pievērst kreditora uzmanību jaunam pirkšanas pasūtījumam, var izmantot arī drukas pārvaldības sistēmu, lai pirkšanas pasūtījumu nosūtītu pa e-pastu.
+PO tiek sagatavoti programmatūrā Supply Chain Management. Kad pirkšanas pasūtījuma statuss ir **Apstiprināts**, jūs to sūtat kreditoram, atlasot darbību **Sūtīt akceptēšanai** lapā **Pirkšanas pasūtījums**. Pēc tam pirkšanas pasūtījuma statuss mainās uz **Tiek pārskatīts ārēji**. Pēc pirkšanas pasūtījuma nosūtīšanas kreditors to var redzēt kreditoru sadarbības interfeisa lapā **Pārskatāmie pirkšanas pasūtījumi**. Kreditors pirkšanas pasūtījumu var pieņemt, noraidīt to vai ierosināt tā izmaiņas. Kreditors var arī pievienot komentārus, lai darītu zināmu informāciju, piemēram, PO izmaiņas. Ja vēlaties pievērst kreditora uzmanību jaunam pirkšanas pasūtījumam, var izmantot arī drukas pārvaldības sistēmu, lai pirkšanas pasūtījumu nosūtītu pa e-pastu.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Kreditora veikta pirkšanas pasūtījuma akceptēšana un pieņemšana
 
@@ -120,7 +120,7 @@ Kreditors neva&#39;r mainīt preces informāciju un maksas. Taču kreditors var 
 </tbody>
 </table>
 
-Varat izmantot darbvietu **Pirkšanas pasūtījuma sagatavošana** , lai uzraudzītu, uz kuriem pirkšanas pasūtījumiem kreditors ir atbildējis. Šajā darbvietā ietilpst divi tālāk norādītie saraksti, kuros ir pirkšanas pasūtījumi ar statusu **Tiek pārskatīts ārēji**.
+Varat izmantot darbvietu **Pirkšanas pasūtījuma sagatavošana**, lai uzraudzītu, uz kuriem pirkšanas pasūtījumiem kreditors ir atbildējis. Šajā darbvietā ietilpst divi tālāk norādītie saraksti, kuros ir pirkšanas pasūtījumi ar statusu **Tiek pārskatīts ārēji**.
 
 - Ārējā pārskatīšanā ir jāveic darbība
 - Ārējā pārskatīšanā, gaida kreditora atbildi
@@ -168,7 +168,7 @@ Pirkšanas pasūtījumu varat atjaunināt, atbildē vai atsevišķi katrā attie
 
 Pirkšanas pasūtījumā nevar atjaunināt visas ieteiktās izmaiņas. Pirkšanas pasūtījumā automātiski var veikt tikai atjauninājumus virsrakstā, kā arī datumu un daudzumu atjauninājumus rindās. Lai veiktu citas izmaiņas, jums ir manuāli jāatjaunina pirkšanas pasūtījums. Šajā gadījumā lauka **Vai pirkšanas pasūtījuma atjauninājums ir apstrādāts?** vērtība ir **Manuāls atjauninājums**. Piemēram, ja kreditors ierosina sadalīt kādu rindu grafikā, šīs izmaiņas ir jāveic manuāli.
 
-Visām rindām, kuru statuss ir **Pieņemts** , būs akceptēts piegādes datums. Kad palaižat darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu** , šis datums tiek atjaunināts uz pirkšanas pasūtījumu. Piezīmes un pielikumi netiek automātiski pārsūtīti uz pašreizējo pirkšanas pasūtījumu. Turklāt tirdzniecības līgumi netiek atkārtoti novērtēti pirkšanas pasūtījuma rindās, kad pašreizējo pirkšanas pasūtījumu atjaunināt, izmantojot darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu**.
+Visām rindām, kuru statuss ir **Pieņemts**, būs akceptēts piegādes datums. Kad palaižat darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu**, šis datums tiek atjaunināts uz pirkšanas pasūtījumu. Piezīmes un pielikumi netiek automātiski pārsūtīti uz pašreizējo pirkšanas pasūtījumu. Turklāt tirdzniecības līgumi netiek atkārtoti novērtēti pirkšanas pasūtījuma rindās, kad pašreizējo pirkšanas pasūtījumu atjaunināt, izmantojot darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu**.
 
 ## <a name="po-statuses-and-versions"></a>Pirkšanas pasūtījumu statusi un versijas
 
@@ -185,7 +185,7 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 | Kreditors nosūta atbildi **Pieņemts ar izmaiņām**. | Statuss joprojām ir **Tiek pārskatīts ārēji**. |
 | Jūs veicat kreditora pieprasītās izmaiņas. | Statuss tiek mainīts uz **Apstiprināts**. |
 | Jūs PP jauno versiju nosūtāt kreditoram. | Jauna versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
-| Kreditors pieņem PP jauno versiju. | Statuss joprojām ir **Tiek pārskatīts ārēji** , ja vien kreditora konts nav konfigurēts pirkšanas pasūtījumiem automātiski iestatīt statusu **Akceptēts** , kad kreditors tos pieņem. |
+| Kreditors pieņem PP jauno versiju. | Statuss joprojām ir **Tiek pārskatīts ārēji**, ja vien kreditora konts nav konfigurēts pirkšanas pasūtījumiem automātiski iestatīt statusu **Akceptēts**, kad kreditors tos pieņem. |
 
 Kreditoriem nav jāakceptē pirkšanas pasūtījums, izmantojot kreditoru sadarbības interfeisu. Viņi var arī nosūtīt e-pasta ziņojumu vai informēt par pirkšanas pasūtījuma pieņemšanu, izmantojot citus kanālus. Pēc tam šo pasūtījumu varat apstiprināt manuāli. Šajā gadījumā jūs saņemat brīdinājumu par pasūtījuma akceptēšanu arī tad, ja nav saņemta atbilde no kreditora. Pēc tam šāds pirkšanas pasūtījums tiek rādīts akceptēšanas vēsturē kā atvērts akceptēts pasūtījums, kuram nav atbilžu. Šajā brīdī kreditoram vairs nav iespējas akceptēt vai noraidīt šo pirkšanas pasūtījumu.
 
@@ -201,10 +201,10 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 | Darbība | Statuss un versija |
 |--------|--------------------|
 | Pirkšanas pasūtījuma sākotnējā versija tiek izveidota programmatūrā Supply Chain Management. | Statuss ir **Melnraksts**. |
-| PP tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.) | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums** , ja PP nav noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija. | 
+| PP tiek iesniegts apstiprināšanas procesam. (Apstiprināšanas process ir iekšējs process, kurā kreditors nav iesaistīts.) | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP nav noraidīts apstiprināšanas procesa laikā. Apstiprināts PP tiek reģistrēts kā versija. | 
 | PP tiek nosūtīts kreditoram. | Šī versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
 | Jūs veicat dažas kreditora ierosinātās izmaiņas — manuāli vai izmantojot darbību **Apstrādāt pirkšanas pasūtījuma atjauninājumu** atbildē —, lai atjauninātu pirkšanas pasūtījumu. | Statuss tiek mainīts atpakaļ uz **Melnraksts**. |
-| PP tiek atkārtoti iesniegts apstiprināšanas procesam. | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums** , ja PP nav noraidīts apstiprināšanas procesa laikā. Vai arī sistēmu var konfigurēt, lai noteiktu lauku izmaiņām nebūtu nepieciešams atkārtots apstiprinājums. Šajā gadījumā statuss vispirms tiek mainīts uz **Melnraksts** un pēc tam tiek automātiski atjaunināts uz **Apstiprināts**. Apstiprinātais PP tiek reģistrēts kā jauna versija. |
+| PP tiek atkārtoti iesniegts apstiprināšanas procesam. | Statuss tiek mainīts no **Melnraksts** uz **Tiek pārskatīts** un uz **Apstiprinājums**, ja PP nav noraidīts apstiprināšanas procesa laikā. Vai arī sistēmu var konfigurēt, lai noteiktu lauku izmaiņām nebūtu nepieciešams atkārtots apstiprinājums. Šajā gadījumā statuss vispirms tiek mainīts uz **Melnraksts** un pēc tam tiek automātiski atjaunināts uz **Apstiprināts**. Apstiprinātais PP tiek reģistrēts kā jauna versija. |
 | Jūs PP jauno versiju nosūtāt kreditoram. | Jaunā versija tiek reģistrēta kreditoru sadarbības interfeisā, un statuss tiek mainīts uz **Tiek pārskatīts ārēji**. |
 | Kreditors apstiprina PP jauno versiju. | Statuss tiek mainīts uz **Akceptēts** automātiski vai saņemot atbildi no kreditora un pēc tam akceptējot PP. |
 
@@ -237,7 +237,7 @@ Ja izmantojat sūtījuma krājumus, kreditori var izmantot kreditoru sadarbības
 
 ## <a name="public-sector-extensions"></a>Publiskā sektora paplašinājumi
 
-Publiskā sektora paplašinātā funkcionalitāte ļauj piedāvājuma pieprasījuma gadījumu nosūtīt kreditoriem un publicēt. Kad publicējat kādu piedāvājuma pieprasījumu, ikviens, kas šo informāciju pieprasa, var skatīt darbu, kas atbilst vairumam publiskā sektora noteikumu. Viss pieejamais darbs tiek atspoguļots saraksta lapā **Atvērtie publicētie piedāvājumu pieprasījumi** , un atceltos, gaidošos vai piešķirtos piedāvājumu pieprasījumus var skatīt saraksta lapā **Slēgtie publicētie piedāvājumu pieprasījumi**. Šos dokumentus var skatīt arī vietnē ārpus programmatūras Supply Chain Management, izmantojot integrāciju ar tālāk norādītajiem datu elementiem.
+Publiskā sektora paplašinātā funkcionalitāte ļauj piedāvājuma pieprasījuma gadījumu nosūtīt kreditoriem un publicēt. Kad publicējat kādu piedāvājuma pieprasījumu, ikviens, kas šo informāciju pieprasa, var skatīt darbu, kas atbilst vairumam publiskā sektora noteikumu. Viss pieejamais darbs tiek atspoguļots saraksta lapā **Atvērtie publicētie piedāvājumu pieprasījumi**, un atceltos, gaidošos vai piešķirtos piedāvājumu pieprasījumus var skatīt saraksta lapā **Slēgtie publicētie piedāvājumu pieprasījumi**. Šos dokumentus var skatīt arī vietnē ārpus programmatūras Supply Chain Management, izmantojot integrāciju ar tālāk norādītajiem datu elementiem.
 
 - Publicētie piedāvājumu pieprasījumi
 - Publicētā piedāvājuma pieprasījumu rinda

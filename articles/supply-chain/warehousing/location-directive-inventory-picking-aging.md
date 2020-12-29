@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017141"
+ms.locfileid: "4433099"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Novietojuma direktīvas krājumu izdošanas vecumstruktūras
 
@@ -69,22 +69,22 @@ Demonstrācijas datiem ir nepieciešama iestatīšana un krājumu korekcija, lai
 1. Atlasiet **Saglabāt**.
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Novietojuma direktīvas**.
 1. Novietojuma direktīvu sarakstā atlasiet **63 izdot konteinerizēšanai**.
-1. Darbību rūtī atlasiet **Rediģēt** , lai lapu padarītu rediģējamu.
-1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atradīsiet rindu, kur lauks **Secības numurs** ir iestatīts uz *1* , un izpildīsiet vienu no šīm darbībām:
+1. Darbību rūtī atlasiet **Rediģēt**, lai lapu padarītu rediģējamu.
+1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atradīsiet rindu, kur lauks **Secības numurs** ir iestatīts uz *1*, un izpildīsiet vienu no šīm darbībām:
 
     - Ja iestatāt FIFO scenāriju, mainiet lauka **Stratēģija** vērtību uz *FIFO novietojuma vecumstruktūras*.
     - Ja iestatāt LIFO scenāriju, mainiet lauka **Stratēģija** vērtību uz *LIFO novietojuma vecumstruktūras*.
 
 1. Kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Rediģēt vaicājumu**.
-1. Vaicājuma dialoglodziņa cilnē **Diapazons** atlasiet **Pievienot** , lai pievienotu rindu, un pēc tam iestatiet šādas vērtības:
+1. Vaicājuma dialoglodziņa cilnē **Diapazons** atlasiet **Pievienot**, lai pievienotu rindu, un pēc tam iestatiet šādas vērtības:
 
     - **Tabula:** *Novietojumi*
     - **Atvasinātā tabula:** *Vietas*
     - **Lauks:** *Zonas ID*
     - **Kritēriji:** *Stāvs*
 
-1. Atlasiet **Labi** , lai iestatījumus piemērotu un aizvērtu vaicājuma dialoglodziņu.
-1. Atlasiet **Saglabāt** , lai saglabātu novietojuma direktīvas izmaiņas.
+1. Atlasiet **Labi**, lai iestatījumus piemērotu un aizvērtu vaicājuma dialoglodziņu.
+1. Atlasiet **Saglabāt**, lai saglabātu novietojuma direktīvas izmaiņas.
 1. Lai atbalstītu scenārijus, mobilajā ierīcē vai programmā *Dynamics 365 for Finance and Operations - Uzglabāšana noliktavā* savā datorā, veiciet šādas darbības, lai noņemtu esošos krājumus no noliktavas vietas:
 
     1. Piesakieties *63* noliktavā, izmantojot atbilstošu lietotāja ID un paroli.
@@ -92,13 +92,13 @@ Demonstrācijas datiem ir nepieciešama iestatīšana un krājumu korekcija, lai
     1. Izvēlnē **Kvalitātes pārvaldība** atlasiet **Brāķis**.
     1. Lapā **Brāķis** atlasiet lauku **LOC/LP** un pēc tam ievadiet *63\_1*.
     1. Atlasiet **Ievadīt** vai **Labi**.
-    1. Apstipriniet **Brāķis** informāciju, lai veiktu **Izejošā korekcija** , atlasot **Ievadīt** vai **Labi**.
+    1. Apstipriniet **Brāķis** informāciju, lai veiktu **Izejošā korekcija**, atlasot **Ievadīt** vai **Labi**.
 
     Kad noliktavas vienības krājumi ir koriģēti, tiek parādīts ziņojums “Darbs pabeigts”.
 
     Šīs darbības atstāj krājumus divos demonstrācijas datu novietojumos. Katram novietojumam ir cits vecumstruktūras datums. Novietojuma *FL-001* vecumstruktūras datums ir 2017. gada 15. aprīlis un novietojuma *FL-002* vecumstruktūras datums ir 2017. gada 29. janvāris. Abos novietojumos ir ietverts krājums *A0001*.
 
-    Lai skatītu šos datus, dodieties uz **Krājumu pārvaldība \> Pieprasījumi un pārskati \> Rīcībā esošs** un pēc tam filtrējiet noliktavu *63* un krājumu *A0001*. Rindās, kur lauks **Novietojums** ir iestatīts uz *FL-001* vai *FL-002* , atlasiet rindu ar pozitīvu **Fiziskie krājumi** vērtību un pēc tam darbību rūtī atlasiet **Transakcijas**. Laukā **Fiziskais datums** tiks parādīts datums, kas atbilst vienam no iepriekš minētajiem vecumstruktūras datumiem.
+    Lai skatītu šos datus, dodieties uz **Krājumu pārvaldība \> Pieprasījumi un pārskati \> Rīcībā esošs** un pēc tam filtrējiet noliktavu *63* un krājumu *A0001*. Rindās, kur lauks **Novietojums** ir iestatīts uz *FL-001* vai *FL-002*, atlasiet rindu ar pozitīvu **Fiziskie krājumi** vērtību un pēc tam darbību rūtī atlasiet **Transakcijas**. Laukā **Fiziskais datums** tiks parādīts datums, kas atbilst vienam no iepriekš minētajiem vecumstruktūras datumiem.
 
 ### <a name="scenario-1-set-up-and-use-fifo-location-aging"></a><a name="fifo-demo"></a>1. scenārijs: iestatīt un izmantot FIFO novietojuma vecumstruktūras
 
@@ -112,13 +112,13 @@ FIFO stratēģija atrod novietojumu, kas ietver vecāko vecumstruktūras datumu,
     - Kopsavilkuma cilnē **Klients** iestatiet lauku **Klienta konts** uz *US-001*.
     - Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Noliktava** uz *63*.
 
-1. Atlasiet **Labi** , lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai izveidotu pārdošanas pasūtījumu un aizvērtu dialoglodziņu.
 1. Jaunais pārdošanas pasūtījums ir atvērts. Tas ietver jaunu, tukšu rindu režģī kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Šai pasūtījuma rindai iestatiet lauku **Krājuma kods** uz *A0001* un lauku **Daudzums** uz *1*.
 1. Izvēlnē **Krājumi** virs režģa atlasiet **Rezervācija**.
-1. Lapā **Rezervācija** atlasiet **Rezervēt partiju** , lai rezervētu šī krājuma pasūtīto daudzumu no atlasītās noliktavas krājumiem.
+1. Lapā **Rezervācija** atlasiet **Rezervēt partiju**, lai rezervētu šī krājuma pasūtīto daudzumu no atlasītās noliktavas krājumiem.
 1. Aizveriet lapu **Rezervācija**.
-1. Lapā **Pārdošanas pasūtījums** , darbību rūtī cilnē **Noliktava** grupā **Darbības** , atlasiet **Pārvietot uz noliktavu**. Tiek parādīti informatīvi ziņojumi. Sistēma izveido sūtījumu, pievieno to jaunajai kravai un izveido nepieciešamo darbu.
-1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** izvēlnē **Noliktava** , atlasiet **Darba informācija** , lai atvērtu darbu, kas tika izveidots šim pārdošanas pasūtījumam. Ievērojiet, ka rinda **Darba veids** , kurā ir vērtība *Izdot* , rāda **Novietojums** vērtību *FL-002*. Šis novietojums ietver noliktavas vienību ar vecāko vecumstruktūras datumu (FIFO).
+1. Lapā **Pārdošanas pasūtījums**, darbību rūtī cilnē **Noliktava** grupā **Darbības**, atlasiet **Pārvietot uz noliktavu**. Tiek parādīti informatīvi ziņojumi. Sistēma izveido sūtījumu, pievieno to jaunajai kravai un izveido nepieciešamo darbu.
+1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** izvēlnē **Noliktava**, atlasiet **Darba informācija**, lai atvērtu darbu, kas tika izveidots šim pārdošanas pasūtījumam. Ievērojiet, ka rinda **Darba veids**, kurā ir vērtība *Izdot*, rāda **Novietojums** vērtību *FL-002*. Šis novietojums ietver noliktavas vienību ar vecāko vecumstruktūras datumu (FIFO).
 1. Atlasiet **Noliktava \> Sūtījuma informācija**.
 1. Kopsavilkuma cilnē **Vispārīgi** pierakstiet kopuma ID, lai varētu to izmantot 2. scenārijā.
 
@@ -133,10 +133,10 @@ LIFO stratēģija atrod novietojumu, kas ietver jaunāko vecumstruktūras datumu
 
 1. Dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \>Sūtījuma kopumi \>Visi kopumi**.
 1. Atlasiet un atveriet kopumu, kas ietver pasūtījumu, ko izveidojāt FIFO scenārijam.
-1. Darbību rūtī cilnē **Darbs** atlasiet **Atcelt** , lai atceltu darbu, ko izveidojāt FIFO scenārijam.
-1. Darbību rūts cilnē **Kopums** , grupā **Kopums** atlasiet **Apstrādāt**.
-1. Kad apstrāde ir pabeigta, darbību rūtī cilnes **Kopums** grupā **Saistītā informācija** , atlasiet **Darbs** , lai atvērtu darbu, kas tika izveidots šim kopumam.
+1. Darbību rūtī cilnē **Darbs** atlasiet **Atcelt**, lai atceltu darbu, ko izveidojāt FIFO scenārijam.
+1. Darbību rūts cilnē **Kopums**, grupā **Kopums** atlasiet **Apstrādāt**.
+1. Kad apstrāde ir pabeigta, darbību rūtī cilnes **Kopums** grupā **Saistītā informācija**, atlasiet **Darbs**, lai atvērtu darbu, kas tika izveidots šim kopumam.
 1. Lapā **Darbs** cilnē **Pārskats** ir jābūt divām rindām. Atlasiet rindu, kur lauks **Darba statuss** ir iestatīts uz *Atvērt*.
-1. Ievērojiet, ka rinda **Darba veids** , kurā ir vērtība *Izdot* , rāda **Novietojums** vērtību *FL-001*. Šis novietojums ietver noliktavas vienību ar jaunāko vecumstruktūras datumu (LIFO).
+1. Ievērojiet, ka rinda **Darba veids**, kurā ir vērtība *Izdot*, rāda **Novietojums** vērtību *FL-001*. Šis novietojums ietver noliktavas vienību ar jaunāko vecumstruktūras datumu (LIFO).
 
 Šajos scenārijos ir redzams, kā novietojuma vecumstruktūras stratēģija novirza darbu uz krājumu novietojumu, kurā ir vai nu vecākie krājumi, vai jaunākie krājumi, atkarībā no atlasītās stratēģijas.

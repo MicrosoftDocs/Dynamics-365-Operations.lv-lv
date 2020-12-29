@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323650"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432996"
 ---
 # <a name="improve-master-planning-performance"></a>Vispārējās plānošanas veiktspējas uzlabošana
 
@@ -56,7 +56,7 @@ Vispārējās plānošanas laikā izmantoto palīgu skaitam ir jābūt mazākam 
 
 Mainot iestatījumu **Uzdevumu skaits uzdevumu komplektā** (t. i., komplekta lielumu), varat samazināt izpildes laiku. Šis iestatījums kontrolē krājumu skaitu, kuru kopīgu plānošanu veic viens palīgs.
 
-Lapas **Vispārējās plānošanas parametri** (**Vispārējā plānošana \> Iestatījumi \> Vispārējās plānošanas parametri**) cilnes **Vispārīgi** sadaļā **Veiktspēja** var iestatīt parametru **Uzdevumu skaits uzdevumu komplektā**. Šī parametra piemērotākā vērtība ir atkarīga no jūsu datiem. Tādēļ ieteicams sākt ar vērtību **1**un pēc tam eksperimentālā ceļā noteikt piemērotāko vērtību jūsu iestatījumiem.
+Lapas **Vispārējās plānošanas parametri** (**Vispārējā plānošana \> Iestatījumi \> Vispārējās plānošanas parametri**) cilnes **Vispārīgi** sadaļā **Veiktspēja** var iestatīt parametru **Uzdevumu skaits uzdevumu komplektā**. Šī parametra piemērotākā vērtība ir atkarīga no jūsu datiem. Tādēļ ieteicams sākt ar vērtību **1** un pēc tam eksperimentālā ceļā noteikt piemērotāko vērtību jūsu iestatījumiem.
 
 Parasti ir ieteicams palielināt uzdevumu skaitu, ja krājumu skaits ir ļoti liels (simtiem tūkstošu). Pretējā gadījumā ir jāsamazina uzdevumu skaits. Tālāk minētajām konkrētajām nozarēm ņemiet vērā šādus ieteikumus:
 

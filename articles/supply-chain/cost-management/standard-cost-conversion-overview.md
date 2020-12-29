@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214393"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432858"
 ---
 # <a name="standard-cost-conversion-overview"></a>Standarta izmaksu pārveidošanas apskats
 
@@ -60,13 +60,13 @@ Jaunā izmaksu aprēķināšanas versija tiek piešķirta pārveidošanas ieraks
 Krājuma izmaksu datus piešķirtajā izmaksu aprēķināšanas versijā var uzturēt, tikai izmantojot lapu **Standarta izmaksu pārveidošanas**. Lapu **Izmaksu aprēķināšanas versijas iestatīšana** vai **Izmaksu aprēķināšanas versijas uzturēšana** nevarat izmantot, lai aprēķinātu izmaksu aprēķināšanas versijas izmaksas pārvēršanas laikā. Taču šīs lapas var izmantot, lai uzturētu piešķirto izmaksu aprēķināšanas versiju, kad ir pabeigts pārveidošanas process.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Norādiet uz standarta izmaksām pārveidojamos krājumus
-Izmantojiet lapu**Standarta izmaksu pārvēršanas**, lai norādītu atsevišķus krājumus, kas jāpārvērš uz standarta izmaksām. Izmantojot lapu **Pievienot krājumus pārveidošanai uz standarta izmaksām**, var pievienot vairākus krājumus. Lai nodrošinātu pareizu izmaksu aprēķināšanu, visi ražotie krājumi jāiekļauj vienā pārveidošanas ierakstā.
+Izmantojiet lapu **Standarta izmaksu pārvēršanas**, lai norādītu atsevišķus krājumus, kas jāpārvērš uz standarta izmaksām. Izmantojot lapu **Pievienot krājumus pārveidošanai uz standarta izmaksām**, var pievienot vairākus krājumus. Lai nodrošinātu pareizu izmaksu aprēķināšanu, visi ražotie krājumi jāiekļauj vienā pārveidošanas ierakstā.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Ievadiet vai aprēķiniet katra pārveidotā krājuma neapstiprinātās standarta izmaksas
 Izmantojiet lapu **Krājuma cena**, lai ievadītu neapstiprinātās standarta izmaksas pirkšanas un pārsūtīšanas krājumu piešķirtajā izmaksu aprēķināšanas versijā. Izmaksu ieraksti ir raksturīgi vietai, un krājuma nenokārtotās izmaksas ir jāievada no katras vietas. Izmantojiet lapu **Krājuma cena**, lai aprēķinātu saražoto krājumu neapstiprinātās standarta izmaksas. Saražotā krājuma neapstiprinātās izmaksas ir jāaprēķina katrai ražošanas vietai, ja vien vieta nav arī pārsūtīšanas vieta. Šajā gadījumā neapstiprinātās izmaksas jāievada manuāli. Dažiem krājumiem var būt norādīta krāsas, izmēra vai konfigurācijas dimensija. Lapā **Standarta izmaksu pārvēršanas** izvēles rūtiņa **Izmantot izmaksu cenu pēc varianta** norāda katras preču dimensijas kombinācijas standarta izmaksas. Ja šīs izvēles rūtiņas atlase ir noņemta, ir jāievada tikai krājuma neapstiprinātās izmaksas.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Pārbaudiet un novērsiet jebkādas problēmas, kas saistītas ar pārveidojamiem krājumiem
-Izmantojiet pārskatu**Standarta izmaksu pārveidošanas pārbaudes**, lai noskaidrotu problēmas, kas saistās ar pārveidojamiem krājumiem. Ja uz krājumu neattiecas nekādas problēmas, pārveidošanas ierakstā tiek nomainīts tā statuss **Pārbaudīts**. Ja uz krājumu attiecas problēmas, tās ir jānovērš un pēc tam vēlreiz jāpalaiž pārskata sagatavošana, līdz tiek mainīts krājuma statuss **Pārbaudīts**. Ja ar krājumu saistīto problēmu nevar savlaicīgi novērst, šo krājumu var dzēst pārveidošanas ierakstā un pēc tam pārveidot krājumu vēlāk.
+Izmantojiet pārskatu **Standarta izmaksu pārveidošanas pārbaudes**, lai noskaidrotu problēmas, kas saistās ar pārveidojamiem krājumiem. Ja uz krājumu neattiecas nekādas problēmas, pārveidošanas ierakstā tiek nomainīts tā statuss **Pārbaudīts**. Ja uz krājumu attiecas problēmas, tās ir jānovērš un pēc tam vēlreiz jāpalaiž pārskata sagatavošana, līdz tiek mainīts krājuma statuss **Pārbaudīts**. Ja ar krājumu saistīto problēmu nevar savlaicīgi novērst, šo krājumu var dzēst pārveidošanas ierakstā un pēc tam pārveidot krājumu vēlāk.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Mainiet pārveidošanas ieraksta statusu uz Gatavs
 Kad ir mainīts pārveidošanas ieraksta statuss **Gatavs**, pirms standarta izmaksu pārveidošanas palaišanas sistēma veic galīgo pārbaudi. Statuss **Gatavs** tiek mainīts tikai tad, ja ir izpildīti tālāk norādītie nosacījumi.

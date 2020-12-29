@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018702"
+ms.locfileid: "4433177"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Pirkšanas pasūtījuma izveide no pārdošanas pasūtījuma
 
@@ -62,8 +62,8 @@ ms.locfileid: "4018702"
 
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>No pārdošanas pasūtījumiem izveidotu pirkšanas pasūtījumu pārskatīšana
 1. **Darbību rūtī** noklikšķiniet uz **Vispārīgi**.
-2. Noklikšķiniet uz **Saistītie pasūtījumi**. Lapā **Saistītie pasūtījumi**  ir parādīts visu pasūtījumu saraksts, kas izveidoti no pārdošanas pasūtījuma. Šajā piemērā ir divi pirkšanas pasūtījumi, kas attiecīgi izveidoti diviem dažādiem kreditoriem. 
-3. Noklikšķiniet, lai atvērtu saiti laukā **Pirkšanas pasūtījums**. Katra pirkšanas pasūtījuma rinda ir saistīta ar pārdošanas pasūtījuma rindu, kas bija pirkšanas pamatā. Saistība ar pārdošanas pasūtījumu ir norādīta kopsavilkuma cilnes **Detalizēta rindas informācija** cilnes **Prece** laukos **Atsauces tips** , **Atsauces numurs** un **Atsauce uz partiju**.  
+2. Noklikšķiniet uz **Saistītie pasūtījumi**. Lapā **Saistītie pasūtījumi** ir parādīts visu pasūtījumu saraksts, kas izveidoti no pārdošanas pasūtījuma. Šajā piemērā ir divi pirkšanas pasūtījumi, kas attiecīgi izveidoti diviem dažādiem kreditoriem. 
+3. Noklikšķiniet, lai atvērtu saiti laukā **Pirkšanas pasūtījums**. Katra pirkšanas pasūtījuma rinda ir saistīta ar pārdošanas pasūtījuma rindu, kas bija pirkšanas pamatā. Saistība ar pārdošanas pasūtījumu ir norādīta kopsavilkuma cilnes **Detalizēta rindas informācija** cilnes **Prece** laukos **Atsauces tips**, **Atsauces numurs** un **Atsauce uz partiju**.  
 4. Izvērsiet vai sakļaujiet sadaļu **Detalizēta rindas informācija**.
 5. Noklikšķiniet uz cilnes **Prece**.
     - Lauks **Atsauce uz partiju** nodrošina, ka izmaksas no pašreizējā pirkuma tiek uzliktas piesaistītajam pārdošanas pasūtījumam.  

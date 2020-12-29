@@ -16,17 +16,17 @@ ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: e049af5e83343459546e1c3715415e9d7ffa9cab
-ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372763"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432690"
 ---
 # <a name="cost-accounting-service-home-page-private-preview"></a>Izmaksu uzskaites pakalpojuma mājaslapa (privāts priekšskatījums)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
-Starptautiskās organizācijas arvien vairāk tiek pakļautas spiedienam, lai atbilstu abām vietējām prasībām (vietējie vispārpieņemtie grāmatvedības principi  \[GAAP\]) un kopīgie uzskaites standarti (piemēram, ASV GAAP, Starptautiskie finanšu pārskatu standarti \[IFRS\] un Starptautiskie grāmatvedības principi \[IAS\]), pat situācijās, kad dažādi standarti un noteikumi varētu būt pretrunā.
+Starptautiskās organizācijas arvien vairāk tiek pakļautas spiedienam, lai atbilstu abām vietējām prasībām (vietējie vispārpieņemtie grāmatvedības principi \[GAAP\]) un kopīgie uzskaites standarti (piemēram, ASV GAAP, Starptautiskie finanšu pārskatu standarti \[IFRS\] un Starptautiskie grāmatvedības principi \[IAS\]), pat situācijās, kad dažādi standarti un noteikumi varētu būt pretrunā.
 
 Vietējām valdībām, iespējams, būs jāpieprasa starptautiskajām organizācijām, kurām ir filiāles valstīs vai reģionos, kur pastāv ārkārtīgi svārstīga vietējā valūta, uzskaitīt un pārvaldīt krājumus šajā valūtā. Tomēr, lai ievērotu ASV vispārpieņemtos grāmatvedības principus, filiālei ir arī jāatskaitās un jāpārvalda krājumi stabilā valūtā, piemēram, ASV dolāros (USD).
 

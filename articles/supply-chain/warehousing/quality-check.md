@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016635"
+ms.locfileid: "4433176"
 ---
 # <a name="quality-check"></a>Kvalitātes pārbaude
 
@@ -62,7 +62,7 @@ Lai, izmantojot šo [scenārija piemēru](#example-scenario), strādātu ar nor�
 Kvalitātes pārbaudes veidne definē noteikumus, lai veiktu ātro pārbaudi uz vietas kvalitātes saņemšanas laikā.
 
 1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Kvalitātes pārbaudes veidne**.
-1. Atlasiet **Jauns** , lai režģim pievienotu veidni.
+1. Atlasiet **Jauns**, lai režģim pievienotu veidni.
 1. Definējot jauno veidni, iestatiet šādas vērtības:
 
     - **Kvalitātes pārbaudes veidnes nosaukums:** *Doka pārbaude*
@@ -91,7 +91,7 @@ Kvalitātes pārbaudes veidne definē noteikumus, lai veiktu ātro pārbaudi uz 
 Darba klases tiek izmantotas, lai virzītu un/vai ierobežotu darba pasūtījuma rindu tipu, ko noliktavas darbinieki var apstrādāt mobilajā ierīcē.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba klases**.
-1. Atlasiet **Jauns** , lai izveidotu darba klasi.
+1. Atlasiet **Jauns**, lai izveidotu darba klasi.
 1. Galvenē iestatiet šādas vērtības:
 
     - **Darba klases ID:** *QC pārbaude*
@@ -121,9 +121,9 @@ Darbu veidnes ļauj jums definēt darba operācijas, kas jāveic noliktavā. Par
 1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba veidnes**.
 1. Galvenē iestatiet lauku **Darba pasūtījuma veids** uz *Pirkšanas pasūtījumi*.
 1. Darbību rūtī atlasiet **Rediģēt**.
-1. Atlasiet darba veidni, kurai jāietver kvalitātes pārbaudes darbība. Sadaļā **Pārskats** , kas atrodas laukā **Darba veidnes** , atlasiet *51 PO kvīti*.
+1. Atlasiet darba veidni, kurai jāietver kvalitātes pārbaudes darbība. Sadaļā **Pārskats**, kas atrodas laukā **Darba veidnes**, atlasiet *51 PO kvīti*.
 1. Sadaļā **Darba veidnes detaļas** ievērojiet, ka režģim ir divas esošas rindas: viena *Saņemšanai* un viena *Izvietošanai*.
-1. Sadaļā **Darba veidnes detaļas** atlasiet **Jauns** , lai režģim pievienotu kvalitātes kontroles rindu. Ievērojiet, ka **Rindas numura** lauks jaunajai rindai ir iestatīts uz *3*.
+1. Sadaļā **Darba veidnes detaļas** atlasiet **Jauns**, lai režģim pievienotu kvalitātes kontroles rindu. Ievērojiet, ka **Rindas numura** lauks jaunajai rindai ir iestatīts uz *3*.
 1. Jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības atlikušajiem laukiem.
 
     - **Darba tips:** *Kvalitātes pārbaude*
@@ -132,14 +132,14 @@ Darbu veidnes ļauj jums definēt darba operācijas, kas jāveic noliktavā. Par
 
         Atlasiet darba klases unikālo ID. Šo vērtību izmantojat, lai konfigurētu izvēlnes elementus mobilajā ierīcē un darba veidus, kuru var apstrādāt šīs izvēlnes elementi.
 
-1. Darbības rūtī atlasiet **Saglabāt** , lai saglabātu jūsu darbu līdz šim.
+1. Darbības rūtī atlasiet **Saglabāt**, lai saglabātu jūsu darbu līdz šim.
 
     Jūs saņemat informatīvu ziņojumu, kurā teikts: "Nederīgs - Kvalitātes pārbaudei ir jābūt tieši pēc saņemšanas." Tāpēc **Rindas numura** vērtība ir jāmaina tikko pievienotajai rindai.
 
 1. Lai mainītu **Rindas numura** vērtību jaunajai rindai, rīkojieties šādi:
 
     1. Sadaļā **Darba veidnes detaļas** atlasiet rindu, kur **Darba tipa** lauks ir iestatīts uz *Kvalitātes pārbaude*.
-    2. Atlasiet pogu **Pārvietot uz augšu** vai uz **Pārvietot uz leju** , lai pārvietotu *Kvalitātes pārbaudes* rindu tā, lai tā būtu pēc *Saņemšanas* rindas.
+    2. Atlasiet pogu **Pārvietot uz augšu** vai uz **Pārvietot uz leju**, lai pārvietotu *Kvalitātes pārbaudes* rindu tā, lai tā būtu pēc *Saņemšanas* rindas.
 
 1. Darbību rūtī atlasiet **Saglabāt**.
 
@@ -157,8 +157,8 @@ Pēc tam izveidojiet darba veidni kvalitātes pārbaudei.
 
     - **Darba veidnes apraksts:** *51 kvalitātes pārbaude*
 
-1. Darbības rūtī atlasiet **Saglabāt** , lai padarītu pieejamu sadaļu **Darba veidnes informācija**.
-1. Kamēr jaunā veidne joprojām ir atlasīta sadaļā **Pārskats** , atlasiet **Jauns** sadaļā **Darba veidnes informācija** , lai režģī pievienotu rindu.
+1. Darbības rūtī atlasiet **Saglabāt**, lai padarītu pieejamu sadaļu **Darba veidnes informācija**.
+1. Kamēr jaunā veidne joprojām ir atlasīta sadaļā **Pārskats**, atlasiet **Jauns** sadaļā **Darba veidnes informācija**, lai režģī pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Darba veids:** *Izdošana*
@@ -166,7 +166,7 @@ Pēc tam izveidojiet darba veidni kvalitātes pārbaudei.
 
         Atlasiet [Darba klases](#work-class) nosaukumu, ko izveidojāt iepriekš kvalitātes kontroles darbam.
 
-1. Sadaļā **Darba veidnes informācija** atlasiet **Jauns** , lai pievienotu citu rindu.
+1. Sadaļā **Darba veidnes informācija** atlasiet **Jauns**, lai pievienotu citu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Darba veids:** *Izvietošana*
@@ -183,8 +183,8 @@ Plašāku informāciju par darbu veidnēm skatiet sadaļā [Noliktavas darbu kon
 Novietojuma direktīvas ir nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai. Piemēram, pārdošanas pasūtījuma transakcijā novietojuma direktīva nosaka, kur krājumi tiks izdoti un kur izdotie krājumi tiks izvietoti. Jums ir jākonfigurē novietojuma direktīvas kārtula, lai noteiktu, kā tiek apstrādātas neveiksmīgas kvalitātes pārbaudes.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Novietojuma direktīvas**.
-1. Kreisās puses rūtī iestatiet lauku **Darba pasūtījuma veids** uz *Pirkšanas pasūtījumiem* , lai strādātu ar šāda veida atrašanās vietas direktīvām.
-1. Darbību rūtī atlasiet **Jauns** , lai izveidotu novietojuma direktīvu kvalitātes pārbaudēm.
+1. Kreisās puses rūtī iestatiet lauku **Darba pasūtījuma veids** uz *Pirkšanas pasūtījumiem*, lai strādātu ar šāda veida atrašanās vietas direktīvām.
+1. Darbību rūtī atlasiet **Jauns**, lai izveidotu novietojuma direktīvu kvalitātes pārbaudēm.
 1. Galvenē iestatiet šādas vērtības:
 
     - **Kārtas numurs:** akceptējiet noklusējuma vērtību.
@@ -196,19 +196,19 @@ Novietojuma direktīvas ir nosacījumi, kas palīdz identificēt izdošanas un i
     - **Vieta:** *5*
     - **Noliktava:** *51*
 
-1. Darbības rūtī atlasiet **Saglabāt** , lai saglabātu jūsu direktīvu un padarītu kopsavilkuma cilni **Rindas** pieejamu.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , lai pievienotu režģim rindu.
+1. Darbības rūtī atlasiet **Saglabāt**, lai saglabātu jūsu direktīvu un padarītu kopsavilkuma cilni **Rindas** pieejamu.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības atlikušajiem laukiem.
 
     - **No daudzuma:** *1*
     - **Līdz daudzumam:** *1 000 000*
 
-1. Darbības rūtī atlasiet **Saglabāt** , lai saglabātu jauno rindu un padarītu kopsavilkuma cilni **Novietojuma direktīvas darbības** pieejamu.
-1. Kamēr jaunā rinda joprojām ir atlasīta kopsavilkuma cilnē **Rindas** atlasiet **Jauns** kopsavilkuma cilnē **Novietojuma direktīvas darbības** , lai režģī pievienotu rindu, tādējādi rindai var iestatīt darbību.
+1. Darbības rūtī atlasiet **Saglabāt**, lai saglabātu jauno rindu un padarītu kopsavilkuma cilni **Novietojuma direktīvas darbības** pieejamu.
+1. Kamēr jaunā rinda joprojām ir atlasīta kopsavilkuma cilnē **Rindas** atlasiet **Jauns** kopsavilkuma cilnē **Novietojuma direktīvas darbības**, lai režģī pievienotu rindu, tādējādi rindai var iestatīt darbību.
 1. Jaunā rindā iestatiet **Nosaukums** lauku uz *Kvalitāte*. Pieņemiet noklusējuma vērtības atlikušajiem laukiem.
-1. Darbības rūtī atlasiet **Saglabāt** , lai padarītu pogu **Rediģēt vaicājumu** pieejamu **Novietojuma direktīvu darbības** kopsavilkuma cilnē.
-1. Kamēr tikko pievienotā rinda joprojām ir atlasīta kopsavilkuma cilnē **Novietojuma direktīvas darbības** , atlasiet **Rediģēt vaicājumu** , lai atvērtu dialoglodziņu, kur varat rediģēt vaicājumu darbībai.
-1. Cilnē **Diapazons** atlasiet **Pievienot** , lai vaicājumam pievienotu rindu.
+1. Darbības rūtī atlasiet **Saglabāt**, lai padarītu pogu **Rediģēt vaicājumu** pieejamu **Novietojuma direktīvu darbības** kopsavilkuma cilnē.
+1. Kamēr tikko pievienotā rinda joprojām ir atlasīta kopsavilkuma cilnē **Novietojuma direktīvas darbības**, atlasiet **Rediģēt vaicājumu**, lai atvērtu dialoglodziņu, kur varat rediģēt vaicājumu darbībai.
+1. Cilnē **Diapazons** atlasiet **Pievienot**, lai vaicājumam pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** *Novietojumi*
@@ -218,8 +218,8 @@ Novietojuma direktīvas ir nosacījumi, kas palīdz identificēt izdošanas un i
 
     *QMS* atrašanās vieta ir noliktavas atrašanās vieta kvalitātei.
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu.
-1. Jums tūlīt ir jānomaina pirkšanas pasūtījuma novietojuma direktīvu secība noliktavai *51*. Saglabājiet jauno *51 uz kvalitāti* novietojuma direktīvu, atsvaidziniet lapu un sarakstā atlasiet atrašanās vietas direktīvu. Pēc tam darbības rūtī izmantojiet pogas **Pārvietot uz augšu** un uz **Pārvietot uz leju** , lai novietojuma direktīvu ievietotu noliktavai *51* šādā secībā. (Pirms atlasāt **Pārvietot uz augšu** vai uz **Pārvietot uz leju** , sarakstā atlasiet atrašanās vietas direktīvu.)
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu.
+1. Jums tūlīt ir jānomaina pirkšanas pasūtījuma novietojuma direktīvu secība noliktavai *51*. Saglabājiet jauno *51 uz kvalitāti* novietojuma direktīvu, atsvaidziniet lapu un sarakstā atlasiet atrašanās vietas direktīvu. Pēc tam darbības rūtī izmantojiet pogas **Pārvietot uz augšu** un uz **Pārvietot uz leju**, lai novietojuma direktīvu ievietotu noliktavai *51* šādā secībā. (Pirms atlasāt **Pārvietot uz augšu** vai uz **Pārvietot uz leju**, sarakstā atlasiet atrašanās vietas direktīvu.)
 
     1. 51 uz kvalitāti
     2. 51 PO tiešais
@@ -234,7 +234,7 @@ Konfigurējiet izvēlnes elementu, lai mobilās ierīces varētu veikt **Kvalit�
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Mobilā ierīce \> Mobilās ierīces izvēlnes vienumi**.
 1. Sarakstā atlasiet **Pirkšanas izvietošana** izvēlnes krājumu.
 1. Darbību rūtī atlasiet **Rediģēt**.
-1. Sadaļā **Darba klases** atlasiet **Jauns** , lai pievienotu režģim rindu.
+1. Sadaļā **Darba klases** atlasiet **Jauns**, lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Darba klases ID:** *QC pārbaude*
@@ -287,7 +287,7 @@ Pēc tam, kad esat veicis visus iepriekš aprakstītos, pieejamos parauga datus 
     - **Tirgotāja konts:** *104*
     - **Noliktava:** *51*
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu un atvērtu jaunu pirkšanas pasūtījumu.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu un atvērtu jaunu pirkšanas pasūtījumu.
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** režģim tiek pievienota jauna, tukša rinda. Iestatiet šādas vērtības šai rindai:
 
     - **Krājuma numurs:** *M9203*
@@ -308,10 +308,10 @@ Pēc tam, kad pirkšanas pasūtījums ir izveidots, to var saņemt, izmantojot *
 1. Apstipriniet pirkšanas pasūtījumu numuru.
 1. Laukā **LINENUM** ievadiet pirkšanas pasūtījuma rindas numuru, kas tiek saņemts. Tā kā pasūtījumam šajā scenārijā ir tikai viena rinda, jums jāievada *1* laukā **LINENUM** katram saņemšanas solim.
 1. Apstipriniet rindas numuru.
-1. Ievadiet saņemto daudzumu laukā **DAUDZ.**. Tā kā pirkšanas pasūtījums ir paredzēts trīs paletēm ( *PL* ) šajā scenārijā, un ir trīs saņemšanas soļi, jūs ievadīsiet *1* laukā **DAUDZ.** katrai saņemšanas darbībai.
+1. Ievadiet saņemto daudzumu laukā **DAUDZ.**. Tā kā pirkšanas pasūtījums ir paredzēts trīs paletēm (*PL*) šajā scenārijā, un ir trīs saņemšanas soļi, jūs ievadīsiet *1* laukā **DAUDZ.** katrai saņemšanas darbībai.
 1. Apstipriniet daudzumu.
 
-    Lapā **Kvalitātes pārbaude** , kas parādās, nav ierakstu lauku. Tam ir tikai apstiprinājuma (atzīme) poga apakšā un izvēlnes poga ( **≡** ) augšā. (Izvēlnes poga dažreiz tiek saukta par hamburgeru vai hamburgeru pogu.) Lai paātrinātu kvalitātes pārbaudes procesu, kad palete iztur kvalitātes pārbaudi, lietotājs vienkārši apstiprina **Kvalitātes pārbaudes** lapu.
+    Lapā **Kvalitātes pārbaude**, kas parādās, nav ierakstu lauku. Tam ir tikai apstiprinājuma (atzīme) poga apakšā un izvēlnes poga (**≡**) augšā. (Izvēlnes poga dažreiz tiek saukta par hamburgeru vai hamburgeru pogu.) Lai paātrinātu kvalitātes pārbaudes procesu, kad palete iztur kvalitātes pārbaudi, lietotājs vienkārši apstiprina **Kvalitātes pārbaudes** lapu.
 
     ![Kvalitātes pārbaudes lapa](media/quality-check.png "Kvalitātes pārbaudes lapa")
 
@@ -342,7 +342,7 @@ Pēc tam, kad pirkšanas pasūtījums ir izveidots, to var saņemt, izmantojot *
 
     Tiek parādīta lapa **Kvalitātes pārbaude**. Šai kvīts paletei kvalitāte tiks noraidīta, un tā tiks ievietota *QMS* kvalitātes novietojumā.
 
-1. Lapas augšā atlasiet izvēlnes pogu ( **≡** ), un pēc tam izvēlnē atlasiet **Noraidīt**.
+1. Lapas augšā atlasiet izvēlnes pogu (**≡**), un pēc tam izvēlnē atlasiet **Noraidīt**.
 1. Parādītajā lapā **Uzdevums** ievadiet **QMS** kā *Izvietot* novietojumu, lai nosūtītu paletes tālākai pārbaudei.
 
     **Kvalitāte kvalitātes pārbaudē: Izvietot** lapa parāda detalizētu informāciju par izvietošanas darbu:
@@ -394,6 +394,6 @@ Papildinformāciju par kvalitātes pārvaldību skatiet [Pārskats par kvalitāt
 
     Lapā **Uzdevums** pirkšanas pasūtījuma rindas saņemšanai jūs saņemsiet ziņojumu "Darbs pabeigts". Lauks **LINENUM** ir pieejams, lai varētu sākt saņemt nākamo paleti.
 
-1. Lapas augšā atlasiet izvēlnes pogu ( **≡** ), un pēc tam izvēlnē atlasiet **Atcelt** , lai atgrieztos izvēlnē.
+1. Lapas augšā atlasiet izvēlnes pogu (**≡**), un pēc tam izvēlnē atlasiet **Atcelt**, lai atgrieztos izvēlnē.
 
 Tagad varat aizvērt mobilo programmu.

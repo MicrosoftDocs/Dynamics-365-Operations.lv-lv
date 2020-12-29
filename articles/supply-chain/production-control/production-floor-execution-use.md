@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012491"
+ms.locfileid: "4433088"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -41,7 +41,7 @@ Kad ierīce ir sagatavota, tajā tiek parādīta pierakstīšanās lapa. Šī la
 
 ## <a name="all-jobs-tab"></a>Cilne Visi darbi
 
-Cilnē **Visi darbi** ir pieejams darbu saraksts, kurā redzami visi ražošanas darbi, kuru statuss ir *Nesākts* , *Apturēts* vai *Sākts*.
+Cilnē **Visi darbi** ir pieejams darbu saraksts, kurā redzami visi ražošanas darbi, kuru statuss ir *Nesākts*, *Apturēts* vai *Sākts*.
 
 ![Cilne Visi darbi](media/pfei-all-jobs-tab.png "Cilne Visi darbi")
 
@@ -75,29 +75,29 @@ Darbu sarakstam cilnē **Aktīvie darbi** ir tālāk minētās kolonnas.
 
 ## <a name="starting-and-completing-production-jobs"></a>Ražošanas darbu sākšana un pabeigšana
 
-Darbinieki sāk ražošanas darbu, atlasot darbu cilnē **Visi darbi** un pēc tam atlasot **Sākt darbu** , lai atvērtu dialoglodziņu **Sākt darbu**.
+Darbinieki sāk ražošanas darbu, atlasot darbu cilnē **Visi darbi** un pēc tam atlasot **Sākt darbu**, lai atvērtu dialoglodziņu **Sākt darbu**.
 
 ![Dialoglodziņš Sākt darbu](media/pfei-start-job-dialog.png "Dialoglodziņš Sākt darbu")
 
-Darbinieki izmanto dialoglodziņu **Sākt darbu** , lai apstiprinātu ražošanas daudzumu un pēc tam sāktu darbu. Darbinieki var pielāgot daudzumu, atlasot lauku **Daudzums** un pēc tam izmantojot parādīto ciparu tastatūru. Darbinieki pēc tam atlasa **Sākt** , lai sāktu darbu. Dialoglodziņš **Sākt darbu** tiek aizvērts un darbs tiek pievienots cilnē **Aktīvie darbi**.
+Darbinieki izmanto dialoglodziņu **Sākt darbu**, lai apstiprinātu ražošanas daudzumu un pēc tam sāktu darbu. Darbinieki var pielāgot daudzumu, atlasot lauku **Daudzums** un pēc tam izmantojot parādīto ciparu tastatūru. Darbinieki pēc tam atlasa **Sākt**, lai sāktu darbu. Dialoglodziņš **Sākt darbu** tiek aizvērts un darbs tiek pievienots cilnē **Aktīvie darbi**.
 
-Darbinieki var sākt darbu, kam ir jebkurš statuss. Kad darbinieks sāk darbu, kura statuss ir *Nav sākts* , lauks **Daudzums** dialoglodziņā **Sākt darbu** sākotnēji rāda pilnu daudzumu. Kad darbinieks sāk darbu, kura statuss ir *Sākts* vai *Apturēts* , lauks **Daudzums** sākotnēji rāda atlikušo daudzumu.
+Darbinieki var sākt darbu, kam ir jebkurš statuss. Kad darbinieks sāk darbu, kura statuss ir *Nav sākts*, lauks **Daudzums** dialoglodziņā **Sākt darbu** sākotnēji rāda pilnu daudzumu. Kad darbinieks sāk darbu, kura statuss ir *Sākts* vai *Apturēts*, lauks **Daudzums** sākotnēji rāda atlikušo daudzumu.
 
 ## <a name="reporting-good-quantities"></a>Ziņošana par preču daudzumiem
 
-Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču daudzumiem, kas tika saražoti, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Pārskata norise**. Pēc tam dialoglodziņā **Pārskata norise** darbinieks ievada preču daudzumu, izmantojot ciparu tastatūru. Pēc noklusējuma daudzums ir tukšs. Kad daudzums ir ievadīts, darbinieks var atjaunināt darba statusu uz *Norit* , *Apturēts* vai *Pabeigts*.
+Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču daudzumiem, kas tika saražoti, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Pārskata norise**. Pēc tam dialoglodziņā **Pārskata norise** darbinieks ievada preču daudzumu, izmantojot ciparu tastatūru. Pēc noklusējuma daudzums ir tukšs. Kad daudzums ir ievadīts, darbinieks var atjaunināt darba statusu uz *Norit*, *Apturēts* vai *Pabeigts*.
 
 ![Dialoglodziņš Ziņot par norisi](media/pfei-report-progress-dialog.png "Dialoglodziņš Ziņot par norisi")
 
 ## <a name="reporting-scrap"></a>Ziņošana par brāķi
 
-Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču brāķi, kas tika saražots, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Ziņot par brāķi**. Pēc tam dialoglodziņā **Ziņot par brāķi** darbinieks ievada brāķa daudzumu, izmantojot ciparu tastatūru. Darbinieks atlasa arī pamatojumu ( *Neviens* , *Mašīna* , *Operators* vai *Materiāls* ).
+Kad darbinieks pabeidz vai daļēji pabeidz darbu, viņš var ziņot par preču brāķi, kas tika saražots, atlasot darbu cilnē **Aktīvie darbi** un pēc tam atlasot **Ziņot par brāķi**. Pēc tam dialoglodziņā **Ziņot par brāķi** darbinieks ievada brāķa daudzumu, izmantojot ciparu tastatūru. Darbinieks atlasa arī pamatojumu (*Neviens*, *Mašīna*, *Operators* vai *Materiāls*).
 
 ![Dialoglodziņš Ziņot par brāķi](media/pfei-report-scrap-dialog.png "Dialoglodziņš Ziņot par brāķi")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Darba pabeigšana un jauna darba sākšana
 
-Parasti darbinieki pabeidz darbu, atlasot vienu vai vairākus pašreizējos darbus cilnē **Aktīvie darbi** un pēc tam atlasot **Ziņot par norisi**. Pēc tam tie ievada saražoto daudzumu (derīgo daudzumu) un iestata statusu uz *Pabeigts*. Ja atlasīts vairāk par vienu darbu, darbinieks pēc tam izmanto pogas **Iepriekšējais** un **Nākamais** , lai pārvietotos starp tām. Lai sāktu jaunu darbu, darbinieks to atlasa cilnē **Visi darbi** un pēc tam atlasa **Sākt darbu**.
+Parasti darbinieki pabeidz darbu, atlasot vienu vai vairākus pašreizējos darbus cilnē **Aktīvie darbi** un pēc tam atlasot **Ziņot par norisi**. Pēc tam tie ievada saražoto daudzumu (derīgo daudzumu) un iestata statusu uz *Pabeigts*. Ja atlasīts vairāk par vienu darbu, darbinieks pēc tam izmanto pogas **Iepriekšējais** un **Nākamais**, lai pārvietotos starp tām. Lai sāktu jaunu darbu, darbinieks to atlasa cilnē **Visi darbi** un pēc tam atlasa **Sākt darbu**.
 
 Darbinieks var arī sākt jaunu darbu, kamēr iepriekšējais darbs joprojām ir atvērts. No jauna, darbinieks atlasa jaunu darbu cilnē **Visi darbi** un pēc tam atlasa **Sākt darbu**. Tomēr šajā gadījumā dialoglodziņš **Sākt darbu** informē darbinieku, ka tas pašlaik strādā pie darba, un ka viņam ir jāpārtrauc vai jāpabeidz šis darbs, pirms sākt jaunu darbu.
 
@@ -119,8 +119,8 @@ Netiešās aktivitātes ir aktivitātes, kas nav tieši saistītas ar ražošana
 
 Piemēram, Šenona, ražotnes darbiniece Contoso, vēlas apmeklēt uzņēmuma sanāksmi, un sapulces tiek uzskatītas par netiešo aktivitāti. Ir spēkā viens no tālāk minētajiem diviem scenārijiem.
 
-- **Šenona strādā pie viena vai vairākiem aktīviem darbiem.** Šenona atlasa **Aktivitāte** , identificē darbību (sapulce) un apstiprina savu izvēli. Tiek parādīts ziņojums, ka viņai ir pašlaik notiekošie darbi. No ziņojuma Šenona var izvēlēties pabeigt vai pārtraukt darbus, ar kuriem viņa strādā, pirms dodas uz sapulci.
-- **Šenonai nav aktīvu darbu.** Šenona atlasa **Aktivitāte** , identificē darbību (sapulce) un apstiprina savu izvēli. Tagad viņa ir reģistrēta kā sapulcē klātesoša.
+- **Šenona strādā pie viena vai vairākiem aktīviem darbiem.** Šenona atlasa **Aktivitāte**, identificē darbību (sapulce) un apstiprina savu izvēli. Tiek parādīts ziņojums, ka viņai ir pašlaik notiekošie darbi. No ziņojuma Šenona var izvēlēties pabeigt vai pārtraukt darbus, ar kuriem viņa strādā, pirms dodas uz sapulci.
+- **Šenonai nav aktīvu darbu.** Šenona atlasa **Aktivitāte**, identificē darbību (sapulce) un apstiprina savu izvēli. Tagad viņa ir reģistrēta kā sapulcē klātesoša.
 
 Abos scenārijos pēc tam, kad Šenona apstiprina savu izvēli, viņa dodas vai nu uz pierakstīšanās lapu, vai uz lapu, kas gaidīs, lai viņa apstiprinātu, ka viņa ir atgriezusies no netiešās aktivitātes. Lapa, kas tiek parādīta, ir atkarīga no ražotnes izpildes interfeisa konfigurācijas. (Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).)
 
@@ -139,7 +139,7 @@ Darbinieki var atvērt dokumentu, kas ir piesaistīts darbam, atlasot **Instrukc
 [Dynamics 365 Guides](https://dynamics.microsoft.com/mixed-reality/guides/) var palīdzēt darbiniekiem, sniedzot iespēju iegūt praktisku apmācību, kā izmantot jaukto realitāti. Jūs varat definēt standartizētus procesus, izmantojot detalizētus norādījumus, kas iepazīstinās darbiniekus ar nepieciešamajiem rīkiem un daļām un parādīs tiem, kā izmantot šos rīkus reālās darba situācijās. Tālāk ir sniegts šā procesa apskats.
 
 1. Katru reizi, kad nodarbinātais atver darbu sarakstu ražotnes izpildes interfeisā, interfeiss atrod atbilstošos ceļvežus parādītajiem darbiem.
-1. Darbinieks atlasa **Ceļveži** , lai skatītu ceļvežu sarakstu.
+1. Darbinieks atlasa **Ceļveži**, lai skatītu ceļvežu sarakstu.
 1. Darbinieks sarakstā atlasa atbilstošo ceļvedi.
 1. Ražotnes izpildes interfeiss atlasītajam ceļvedim parāda QR kodu.
 1. Darbinieks uzliek HoloLens un paskatās uz QR kodu, lai startētu ceļvedi.

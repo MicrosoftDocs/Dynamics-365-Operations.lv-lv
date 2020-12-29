@@ -1,5 +1,5 @@
 ---
-title: 'Cikla inventarizācijas definēšana '
+title: Cikla inventarizācijas definēšana
 description: Cikla inventarizācija ir noliktavas process, ko var izmantot, lai auditētu rīcībā esošu krājumu vienības.
 author: MarkusFogelberg
 manager: tfehr
@@ -17,13 +17,13 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016152"
+ms.locfileid: "4433137"
 ---
-# <a name="define-cycle-counting"></a>Cikla inventarizācijas definēšana  
+# <a name="define-cycle-counting"></a>Cikla inventarizācijas definēšana 
 
 [!include [banner](../../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Cikla inventarizācija ir noliktavas process, ko var izmantot, lai auditētu rī
 1. **Navigācijas rūtī** pārejiet uz sadaļu **Moduļi > Noliktavas vadība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlnes elementi**.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Izvēlnes vienuma nosaukums** ievadiet vērtību.
-4. Laukā **Nosaukums** ievadiet vērtību. 
+4. Laukā **Nosaukums** ievadiet vērtību.
 5. Laukā **Režīms** atlasiet “Darba”.
 6. Iestatiet opciju **Izmantot esošo darbu** uz Jā. Iestatot šo opciju uz Jā, sistēma meklēs pašreizējo darbu, ja tiek izmantots mobilās ierīces izvēlnes elements.  
 7. Laukā **Noteica:** atlasiet “Sistēmas noteikts”. Ja ir atlasīts "System directed", noliktavas darbinieks tiks novirzīts uz atvērto darbu, kas atrodas definētajās darba klasēs. (Mēs izveidosim šīs darba klases vēlāk.)  

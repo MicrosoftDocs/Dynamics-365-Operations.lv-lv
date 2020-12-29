@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012493"
+ms.locfileid: "4433087"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Ierīces iestatīšana ražotnes izpildes interfeisa palaišanai
 
@@ -31,7 +31,7 @@ Ražotnes izpildes interfeiss tiek iestatīts visām ierīcēm ražotnē. Uzņē
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Iestatīt konfigurāciju un filtrus noteiktai ierīcei
 
-Lai iestatītu ierīces konfigurācijas un darba filtrus, pierakstieties lapā **Ražotnes izpilde** , izmantojot kontu, kam ir drošības loma, kura ietver pienākumu *Uzturēšanas laika uzraudzītājs*. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
+Lai iestatītu ierīces konfigurācijas un darba filtrus, pierakstieties lapā **Ražotnes izpilde**, izmantojot kontu, kam ir drošības loma, kura ietver pienākumu *Uzturēšanas laika uzraudzītājs*. (No visām iebūvētajām drošības lomām šis pienākums ir tikai *Ražotnes uzraudzītājam*.) Pēc tam veiciet tālāk norādītās darbības.
 
 1. Dodieties uz ierīci, ko vēlaties iestatīt, un pierakstieties programmā Microsoft Dynamics 365 Supply Chain Management kā ražotnes uzraudzītājs. (Izmantojiet kontu, kas ietver pienākumu *Uzturēšanas laika uzraudzītājs*.)
 1. Pārliecinieties, ka konfigurācija ir pieejama ierīcei, kuru iestatāt. Ja konfigurācija jau pastāv, tiek nodrošināta noklusējuma konfigurācija. Papildinformāciju par to, kā iestatīt konfigurāciju, skatiet tēmā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).
@@ -45,8 +45,8 @@ Lai iestatītu ierīces konfigurācijas un darba filtrus, pierakstieties lapā *
 1. Atlasiet vienu vai vairākus filtrus, ko lietot pašreizējai ierīcei. Šie filtri palīdzēs nodrošināt, ka ierīcē tiek parādīti tikai atbilstošie darbi. Lai iestatītu filtru, atlasiet filtra veidu, kas atver vērtību sarakstu, un pēc tam atlasiet filtrējamo vērtību. Pieejami tālāk norādītie filtri.
 
     - **Ražošanas vienība** — šis filtrs ir augstākā līmeņa filtrs. Parasti tas attiecas uz lielu darba apgabalu, kam ir vairākas resursu grupas un atsevišķi resursi tajā.
-    - **Resursu grupa** — šis filtrs ir vidēja līmeņa filtrs. Parasti tas attiecas uz saistīto resursu kolekciju ierobežotā darbvietas apgabalā. Ja vispirms atlasāt filtru **Ražošanas vienība** , resursu grupu saraksts parāda tikai grupas no šīs vienības. Pretējā gadījumā tas parāda visas pieejamās resursu grupas.
-    - **Resurss** — šis filtrs ir visspecifiskākais filtrs. Parasti tas attiecas uz noteiktu mašīnu vai citu atsevišķu resursu. Ja vispirms atlasāt filtru **Resursu grupa** un/vai **Ražošanas vienība** , resursu saraksts parāda tikai resursus no šīs grupas un/vai vienības. Pretējā gadījumā tas parāda visus pieejamos resursus.
+    - **Resursu grupa** — šis filtrs ir vidēja līmeņa filtrs. Parasti tas attiecas uz saistīto resursu kolekciju ierobežotā darbvietas apgabalā. Ja vispirms atlasāt filtru **Ražošanas vienība**, resursu grupu saraksts parāda tikai grupas no šīs vienības. Pretējā gadījumā tas parāda visas pieejamās resursu grupas.
+    - **Resurss** — šis filtrs ir visspecifiskākais filtrs. Parasti tas attiecas uz noteiktu mašīnu vai citu atsevišķu resursu. Ja vispirms atlasāt filtru **Resursu grupa** un/vai **Ražošanas vienība**, resursu saraksts parāda tikai resursus no šīs grupas un/vai vienības. Pretējā gadījumā tas parāda visus pieejamos resursus.
 
 1. Atlasiet **Labi**.
 1. Tiek atvērta pierakstīšanās lapa, un ierīce ir gatava lietošanai.

@@ -16,11 +16,11 @@ ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763483"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433054"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Noliktavas procesu kvalitātes pārvaldība
 
@@ -458,7 +458,7 @@ Tagad esat noteicis kvalitātes saistību, kas izmanto *Noliktavas procesu kvali
 
 1. Pierakstiet pirkšanas pasūtījuma numuru, lai varētu to izmantot vēlāk.
 1. Dodieties uz mobilo ierīci vai emulatoru, kas darbina noliktavas programmu, un piesakieties noliktavā 51, izmantojot *51* kā lietotāja ID un *1* kā paroli.
-1. Dodieties uz **Ienākošie \> Pirkumu saņemšana**un ievadiet šādas vērtības:
+1. Dodieties uz **Ienākošie \> Pirkumu saņemšana** un ievadiet šādas vērtības:
 
     - **PONum:** Pirkšanas pasūtījuma numurs, ko tikko esat izveidojis
     - **Daudz.:** *5*

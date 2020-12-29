@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9e6d20d1538ea68570d6dcc49da001ad76b8042b
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888886"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432666"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozes, darba pasūtījumi un projekti
 
@@ -35,7 +35,7 @@ Modulī Līdzekļu pārvaldība integrācija ar **Projektu pārvaldību un uzska
 
 Lai izsekotu uzturēšanas darba tipa prognozes, ir neieciešami divi iestatījumi:
 
-1. Atlasiet projektu **Pamatlīdzekļu pārvaldība** > **Iestatīšana** > **Pamatlīdzekļu pārvaldības parametri**un pēc tam cilnē **Līdzekļi** > **Projekts** kopsavilkuma cilnē, **Uzturēšanas prognozes projekta** laukā atlasiet projektu.
+1. Atlasiet projektu **Pamatlīdzekļu pārvaldība** > **Iestatīšana** > **Pamatlīdzekļu pārvaldības parametri** un pēc tam cilnē **Līdzekļi** > **Projekts** kopsavilkuma cilnē, **Uzturēšanas prognozes projekta** laukā atlasiet projektu.
 
 2. Veidojot uzturēšanas darba tipa noklusējuma rindu, automātiski tiek izveidots darbības numurs **Uzturēšanas darba tipa noklusējumi** lapai, (**Līdzekļu pārvaldība** > **Iestatīšana** > **Uzdevumi** > **Uzturēšanas darba tipa noklusējumi**).
 
@@ -63,7 +63,7 @@ Piemēram, sekojošajā ilustrācijā, ņemot vērā to, ka ir iestatīts **Krav
 
 ![1. attēls](media/01-integration-to-pma.png)
 
-Projekta ID, kas ir paredzēts darba pasūtījuma uzdevumā, un saistītā aktivitātes numura mērķis, ir izsekot izmaksas, kas ir saistītas ar darba pasūtījuma uzdevumu un līdzekli, kas tam atlasīts **Projekta vadības un uzskaites** modulī. (Lai skatītu projekta ID un aktivitātes numuru, atlasiet **Pamatlīdzekļu pārvaldība** > **Kopīgie** > **Darba pasūtījumi** > **Visi darba pasūtījumi**un pēc tam atlasiet darba pasūtījumu. **Rindas detaļas** kopsavilkuma cilnē lauks **Projekta ID** rāda projekta ID, un **Aktivitātes numurs** lauks rāda aktivitātes numuru.) Lai iegūtu vairāk informācijas par izmaksu kontroli Pamatlīdzekļu pārvaldībā, skatiet [Izmaksu un datumu kontrole](../controlling-and-reporting/cost-and-date-control.md).
+Projekta ID, kas ir paredzēts darba pasūtījuma uzdevumā, un saistītā aktivitātes numura mērķis, ir izsekot izmaksas, kas ir saistītas ar darba pasūtījuma uzdevumu un līdzekli, kas tam atlasīts **Projekta vadības un uzskaites** modulī. (Lai skatītu projekta ID un aktivitātes numuru, atlasiet **Pamatlīdzekļu pārvaldība** > **Kopīgie** > **Darba pasūtījumi** > **Visi darba pasūtījumi** un pēc tam atlasiet darba pasūtījumu. **Rindas detaļas** kopsavilkuma cilnē lauks **Projekta ID** rāda projekta ID, un **Aktivitātes numurs** lauks rāda aktivitātes numuru.) Lai iegūtu vairāk informācijas par izmaksu kontroli Pamatlīdzekļu pārvaldībā, skatiet [Izmaksu un datumu kontrole](../controlling-and-reporting/cost-and-date-control.md).
 
 Sekojošā ilustrācija rāda grafisku pārskatu par darba pasūtījumu projektiem un atbilstošām projektu aktivitātēm.
 

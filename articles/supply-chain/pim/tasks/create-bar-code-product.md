@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b178701ca745a4317bf271bba726741e104f0804
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986339"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432786"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Preces svītrkoda izveide
 
@@ -37,7 +37,7 @@ ms.locfileid: "3986339"
 6. Atlasiet **Jauns**.
 7. Atzīmējiet atlasīto rindu, kas izveidota tālāk dotajā sarakstā.
 8. Laukā **Svītrkodu iestatījumi** ievadiet vai atlasiet vērtību.
-9. Laukā **Svītrkods**  ievadiet vai atlasiet kādu vērtību.
+9. Laukā **Svītrkods** ievadiet vai atlasiet kādu vērtību.
 10. Laukā **Svītrkods** ierakstiet kādu vērtību.  
 11. Laukā **Daudzums** ierakstiet kādu skaitli.
 12. Atlasiet **Saglabāt**.

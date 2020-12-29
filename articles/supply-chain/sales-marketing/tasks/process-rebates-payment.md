@@ -16,11 +16,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 981068d26d232b10efd8d7288daaf7358aee3728
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980698"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432903"
 ---
 # <a name="process-rebates-for-payment"></a>Maksājuma atlaižu apstrāde
 
@@ -42,7 +42,7 @@ ms.locfileid: "3980698"
     * Iestatiet atzīmes laukā Atzīmēt prasībām, ko vēlaties iekļaut kredīta notā.   
 9. Noklikšķiniet uz Funkcijas.
 10. Noklikšķiniet uz Izveidot kredīta notu.
-    * Tiek parādīts ziņojums, lai paziņotu, ka žurnāls ir iegrāmatots (tas ir Debitoru parādu patēriņa žurnāls, kā norādīts lapā Debitoru moduļa parametri. Šī iemesla dēļ reāla pasīvu (kredīta) summa tiek pārvietota uz debitora bilanci. Tas nozīmē, ka klients konts tika debetēts un Atlaižu uzkrājumu konts tiek kreditēts.  
+    * Tiek parādīts ziņojums, lai paziņotu, ka žurnāls ir iegrāmatots (tas ir Debitoru parādu patēriņa žurnāls, kā norādīts lapā Debitoru moduļa parametri). Šī iemesla dēļ reāla pasīvu (kredīta) summa tiek pārvietota uz debitora bilanci. Tas nozīmē, ka klients konts tika debetēts un Atlaižu uzkrājumu konts tiek kreditēts.  
 11. Aizvērt lapu.
 12. Noklikšķiniet uz Atcelt.
     * Tas atsvaidzina lapu, lai varētu redzēt atjauninājumus.  

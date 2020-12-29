@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597340"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432572"
 ---
 # <a name="release-to-warehouse-rule"></a>Kārtula Pārvietot uz noliktavu
 
@@ -81,7 +81,7 @@ Varat izmantot šo demonstrāciju arī kā vadlīnijas šī līdzekļa izmantoš
 Šis scenārijs parāda, kā līdzeklis darbojas noliktavām, kas iestatītas, lai **Pieprasītu pilnīgu rezervāciju**.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Noliktavas**.
-1. Noliktavas _62_iestatiet lauku **Prasība krājuma rezervēšanai** uz **Pieprasīt pilnīgu rezervāciju**, kā aprakstīts šīs tēmas iepriekš minētajā sadaļā [Iestatīt pārvietošanas uz noliktavu kārtulu katrai noliktavai](#set-option-warehouse).
+1. Noliktavas _62_ iestatiet lauku **Prasība krājuma rezervēšanai** uz **Pieprasīt pilnīgu rezervāciju**, kā aprakstīts šīs tēmas iepriekš minētajā sadaļā [Iestatīt pārvietošanas uz noliktavu kārtulu katrai noliktavai](#set-option-warehouse).
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
 1. Atlasiet **Jauns**, lai izveidotu pārdošanas pasūtījumu.
 1. Dialoglodziņā **Izveidot pārdošanas pasūtījumu** iestatiet sekojošas vērtības:
@@ -115,7 +115,7 @@ Varat izmantot šo demonstrāciju arī kā vadlīnijas šī līdzekļa izmantoš
 Šis scenārijs parāda, kā līdzeklis darbojas noliktavām, kas iestatītas, lai **Pieprasītu daļēju pārvietošanu**.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Noliktavas**.
-1. Noliktavai _62_iestatiet lauku **Prasība krājuma rezervēšanai** uz **Pieprasīt daļēju rezervāciju**, kā aprakstīts šīs tēmas iepriekš minētajā sadaļā [Iestatīt pārvietošanas uz noliktavu kārtulu katrai noliktavai](#set-option-warehouse).
+1. Noliktavai _62_ iestatiet lauku **Prasība krājuma rezervēšanai** uz **Pieprasīt daļēju rezervāciju**, kā aprakstīts šīs tēmas iepriekš minētajā sadaļā [Iestatīt pārvietošanas uz noliktavu kārtulu katrai noliktavai](#set-option-warehouse).
 1. Kā darījāt [iepriekšējā scenārijā](#scenario1), dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi** un izveidojiet pārdošanas pasūtījumu klienta kontam _ASV-004_ no noliktavas _62_. Pievienojiet šādas divas pasūtījuma rindas:
 
     - **1. rinda:** Iestatiet lauku **Krājuma numurs** uz _A0001_, lauku **Daudzums** uz _2_ un lauku **Vienība** uz _Gab_.

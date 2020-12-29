@@ -1,6 +1,6 @@
 ---
 title: Noliktavas darba atliktā apstrāde
-description: Šajā tēmā ir aprakstīta funkcionalitāte, kas padara noliktavas darba izvietot operāciju atlikto apstrādi pieejamu programmā Dynamics 365 Supply Chain Management.
+description: Šajā tēmā ir aprakstīta funkcionalitāte, kas padara noliktavas darba izvietot operāciju atlikto apstrādi pieejamu programmā  Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: tfehr
 ms.date: 11/18/2019
@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016705"
+ms.locfileid: "4433116"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Noliktavas darba atliktā apstrāde
 
@@ -44,7 +44,7 @@ Politikas tiek konfigurētas lapā **Darba apstrādes politikas**. Nākamajā ta
 | Darba apstrādes politikas nosaukums     | Darba apstrādes politikas nosaukums. |
 | Darba pasūtījuma veids                 | Darba pasūtījuma veids, uz kuru attiecas politika. |
 | Operācija                       | Operācija, kas tiek apstrādāta, izmantojot politiku. |
-| Darba apstrādes metode          | Metode, kas tiek izmantota, lai apstrādātu darbu rindu. Ja metode ir iestatīta uz **Tūlītēju** , darbība atgādina darbību, kad nav darba apstrādes politikas, ko izmanto rindas apstrādāšanai. Ja metode ir iestatīta uz **Atliktu** , tiek izmantota atliktā apstrāde, kas izmanto partijas struktūru. |
+| Darba apstrādes metode          | Metode, kas tiek izmantota, lai apstrādātu darbu rindu. Ja metode ir iestatīta uz **Tūlītēju**, darbība atgādina darbību, kad nav darba apstrādes politikas, ko izmanto rindas apstrādāšanai. Ja metode ir iestatīta uz **Atliktu**, tiek izmantota atliktā apstrāde, kas izmanto partijas struktūru. |
 | Atliktās apstrādes slieksnis   | Vērtība **0** (nulle) norāda, ka nav sliekšņvērtības. Šādā gadījumā, ja to var izmantot, tiek izmantota atliktā apstrāde. Ja konkrētās sliekšņvērtības aprēķins ir zemāks par sliekšņvērtību, tiek izmantota tūlītējā metode. Pretējā gadījumā izmanto atlikto metodi, ja to var izmantot. Ar pārdošanu un pārsūtīšanu saistītiem darbiem sliekšņvērtību aprēķina kā saistīto avota noslodzes rindu skaitu, kuras tiek apstrādātas attiecīgajam darbam. Papildināšanas darbiem sliekšņvērtība tiek aprēķināta kā darba rindu skaits, ko darbs papildina. Iestatot sliekšņvērtību, piemēram, **5** pārdošanai, mazāki darbi, kam ir mazāk nekā piecas sākotnējā avota noslodzes rindas, neizmantos atlikto apstrādi, bet lielāki darbi to izmantos. Sliekšņvērtība ir spēkā tikai tad, ja darba apstrādes metode ir iestatīta uz **Atliktu**. |
 | Atliktās apstrādes partijas grupa |Partijas grupa, ko izmanto apstrādei. |
 
@@ -68,7 +68,7 @@ Pēc noklusējuma tiek parādīti **Pabeigtie** uzdevumi.
 Tālāk sniegts iespējamo statusu skaidrojums.
 
 - **Gaida** — saistītais pakešuzdevums gaida apstrādi pakešapstrādes serverī.
-- **Neizdevās** — apstrāde neizdevās. Uzdevumu var apstrādāt atkārtoti, izmantojot darbību **Apstrādāt atlikto izvietošanu** , vai to var atcelt, izmantojot darbību **Atcelt atlikto izvietošanu** .
+- **Neizdevās** — apstrāde neizdevās. Uzdevumu var apstrādāt atkārtoti, izmantojot darbību **Apstrādāt atlikto izvietošanu**, vai to var atcelt, izmantojot darbību **Atcelt atlikto izvietošanu** .
 - **Pabeigts** — darbs ir pabeigts.
 
 ## <a name="impact-on-closed-work-dates"></a>Ietekme uz slēgtiem darba datumiem
@@ -77,7 +77,7 @@ Ja tiek izmantota atliktās izvietošanas apstrāde, slēgtā darba datums ir ie
 
 ## <a name="reprocessing-a-failed-task"></a>Neveiksmīga uzdevuma atkārtota apstrāde
 
-Neizdevušos uzdevumu var atkārtoti apstrādāt, atlasot to lapā un pēc tam atlasot  **Apstrādāt atlikto izvietošanu**. Atkārtota apstrāde atbilst situācijai, kad lietotājs pabeidz izvietošanu no mobilās ierīces tā, it kā tā būtu iestatīta tūlītējai apstrādei.
+Neizdevušos uzdevumu var atkārtoti apstrādāt, atlasot to lapā un pēc tam atlasot **Apstrādāt atlikto izvietošanu**. Atkārtota apstrāde atbilst situācijai, kad lietotājs pabeidz izvietošanu no mobilās ierīces tā, it kā tā būtu iestatīta tūlītējai apstrādei.
 
 ## <a name="canceling-failed-tasks"></a>Neizdevušos uzdevumu atcelšana
 

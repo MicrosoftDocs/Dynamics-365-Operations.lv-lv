@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268820"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432850"
 ---
 # <a name="quality-management-overview"></a>Kvalitātes pārvaldības apskats
 
@@ -46,7 +46,7 @@ Kvalitātes pārvaldība ir elastīga, un to var ieviest dažādos veidos, lai a
 -   Kā daļu no kvalitātes saistības lietot krājuma iztveršanu, lai definētu pašreizējo fizisko krājumu daudzumu, kas ir jāpārbauda. Paraugu nodošana var būt balstīta uz fiksētiem daudzumiem, procentiem vai pilnu numura zīmi.
 
 > [!NOTE]
-> _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis paplašina kvalitātes pārvaldības iespējas. Ja lietojat šo līdzekli, skatiet sadaļu [Noliktavas procesu kvalitātes pārvaldība](quality-management-for-warehouses-processes.md)kā piemēu, kā kvalitātes pārvaldība darbojas, kad tā ir iespējota.
+> _Noliktavas procesu kvalitātes pārvaldības_ līdzeklis paplašina kvalitātes pārvaldības iespējas. Ja lietojat šo līdzekli, skatiet sadaļu [Noliktavas procesu kvalitātes pārvaldība](quality-management-for-warehouses-processes.md) kā piemēu, kā kvalitātes pārvaldība darbojas, kad tā ir iespējota.
 
 -   Izveidot kvalitātes pārbaudes pasūtījumus daļējām ieejas plūsmām. Lai izveidotu kvalitātes pārbaudes pasūtījumu, kura pamatā ir daudzums, kas ir fiziski saņemts ar pasūtījumu, formā **Krājumu iztveršana** ir jāatzīmē izvēles rūtiņa **Pēc atjauninātā daudzuma**.
 -   Izveidot testa tipus, kas ietver minimālās, maksimālās un mērķa testa vērtības, un veikt testēšanu kvalitātei pret kvantitāti, kur ir iepriekš definēti validēšanas rezultāti.
@@ -263,7 +263,7 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 <tr>
 <td>Karantīnas pasūtījums</td>
 <td>Pirms vai pēc tam, kad karantīnas pasūtījums tiek ziņots kā pabeigts vai beidzies</td>
-<td>Nevar ģenerēt kvalitātes pārbaudes pasūtījumus, kam ir nepieciešami destruktīvi testi. Tiek pieņemts, ka karantīnas pasūtījuma funkcionalitāte nodrošina atbrīvošanos no iznīcinātā materiāla.</td>
+<td>Nevar&#39;ģenerēt kvalitātes pārbaudes pasūtījumus, kam ir nepieciešami destruktīvi testi. Tiek&#39;pieņemts, ka karantīnas pasūtījuma funkcionalitāte nodrošina atbrīvošanos no iznīcinātā materiāla.</td>
 <td>Kvalitātes pārbaudes pasūtījuma pieprasījums var norādīt noteiktu vietu, krājumu vai kreditoru, vai šo nosacījumu kombināciju.</td>
 <td>Manuāli ģenerēts kvalitātes pārbaudes pasūtījums, kas atbilst karantīnas pasūtījumam, var izmantot informāciju kvalitātes saistības ierakstā, piemēram, testēšanas iztveršanas plānu.</td>
 </tr>
@@ -293,7 +293,7 @@ Nākamajā tabulā ir plašāka informācija par to, kā kvalitātes pārbaudes 
 <td>Kvalitātes pārbaudes pasūtījumu nevar automātiski ģenerēt transakcijai krājumu žurnālā vai arī pārsūtīšanas pasūtījuma transakcijām.</td>
 <td></td>
 <td></td>
-<td>Krājuma daudzumam noliktavā ir manuāli jāizveido kvalitātes pārbaudes pasūtījums. Fiziski rīcībā esošie krājumi ir obligāti.</td>
+<td>Krājuma&#39;daudzumam noliktavā ir manuāli jāizveido kvalitātes pārbaudes pasūtījums. Fiziski rīcībā esošie krājumi ir obligāti.</td>
 </tr>
 </tbody>
 </table>
@@ -478,7 +478,7 @@ Ir jādefinē kvalitātes piesaiste katrai biznesa procesā ietvertajai variāci
 </tr>
 <tr class="even">
 <td>Krājumu kvalitātes grupas</td>
-<td>Izmantojiet šo lapu, lai iestatītu, rediģētu un skatītu krājumus, kas ir piešķirti kvalitātes grupai vai kvalitātes grupām, kuras ir piešķirtas kādam krājumam. Kvalitātes grupa norāda kopējās testēšanas vajadzības krājumam. Kad lapā <strong>Testu grupas</strong> ir definētas testa prasības, varat definēt kārtulas automātiskai kvalitātes pārbaudes pasūtījumu ģenerēšanai. Lai vienkāršotu šo procesu, netiek definētas kārtulas atsevišķiem krājumiem. Tā vietā jūs definējat kārtulas kvalitātes grupai, izmantojot lapu <strong>Kvalitātes saistības</strong>. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītai kvalitātes grupai, lai šai grupai piešķirtu atbilstošos krājumus. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītam krājumam, lai šim krājumam piešķirtu atbilstošās kvalitātes grupas.</td>
+<td>Izmantojiet šo lapu, lai iestatītu, rediģētu un skatītu krājumus, kas ir piešķirti kvalitātes grupai vai kvalitātes grupām, kuras ir piešķirtas kādam krājumam. Kvalitātes grupa norāda kopējās testēšanas vajadzības krājumam. Kad lapā <strong>Testu grupas</strong> ir definētas testa prasības, varat definēt kārtulas automātiskai kvalitātes pārbaudes pasūtījumu ģenerēšanai. Lai vienkāršotu šo procesu, netiek&#39;definētas kārtulas atsevišķiem krājumiem. Tā vietā jūs definējat kārtulas kvalitātes grupai, izmantojot lapu <strong>Kvalitātes saistības</strong>. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītai kvalitātes grupai, lai šai grupai piešķirtu atbilstošos krājumus. Varat arī izmantot lapu <strong>Krājuma kvalitātes grupas</strong> atlasītam krājumam, lai šim krājumam piešķirtu atbilstošās kvalitātes grupas.</td>
 <td>Ražošanas uzņēmums iegādājas vairākus izejmateriālus, kuriem ir tādas pašas testēšanas vajadzības ienākošajai pārbaudei. Uzņēmums definē kvalitātes grupu un pēc tam piešķir krājumu numurus, kas ir saistīti ar izejmateriāliem šai grupai. Vēlāk uzņēmums iegādājas jauna tipa izejmateriālu, kuram ir tādas pašas testēšanas vajadzības. Tā vietā, lai jaunajam materiālam iestatītu jaunas testēšanas vajadzības, jaunā materiāla krājumu kodu uzņēmums pievieno jau esošajai kvalitātes grupai. Tas pats ražošanas uzņēmums ražo arī krājumus, kuriem ir tādas pašas ražošanas testēšanas vajadzības, un krājumus, kuriem ir tādas pašas vajadzības, sūta uz testēšanu pirms sūtīšanas. Uzņēmums definē divas papildu kvalitātes grupas un pēc tam piešķir atbilstošos krājumu numurus katrai grupai.</td>
 </tr>
 <tr class="odd">

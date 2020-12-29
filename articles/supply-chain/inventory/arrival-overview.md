@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212921"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432852"
 ---
 # <a name="arrival-overview"></a>Saņemšanas darbību apskats
 
@@ -42,7 +42,7 @@ Aplūkosim tālāk aprakstīto scenāriju saistībā ar ienākošajiem procesiem
 Saņemšanas darbinieks Semijs vēlas zināt, ko paredzēts saņemt šajā dienā. Lapā **Saņemšanas pārskats** Semijs var iegūt pārskatu par pašreizējiem uzdevumiem un aptuvenu novērtējumu par daudzumu, apjomu, svaru, dažādiem pasūtījumu veidiem utt. Pēc tam tiek veikta piegāde vienā no saņemšanas dokiem un Semijs saņem piegādes sarakstu. Lapā **Saņemšanas pārskats** Semijs var veikt šādus uzdevumus:
 
 -   Identificēt atbilstošo pieņemšanas aktu un reģistrēt ieejas plūsmai statusu **Notiek izpilde**. Rindas, kas ir nepieciešamas reģistrācijai, tiek ģenerētas automātiski, un ieejas plūsmu var kontrolēt pat tad, ja darījumi vēl nav grāmatoti kā **Reģistrēts**.
--   Piekļūt atbilstošajai saņemšanas žurnāla atsaucei (tas ir, žurnālam **Krājumu saņemšana** vai žurnālam **Ražošanas ievade**) un identificēt žurnālus, kas ir gatavi produktu ieejas plūsmas atjaunināšanai.
+-   Piekļūt atbilstošajai saņemšanas žurnāla atsaucei (tas ir, žurnālam **Krājumu saņemšana** vai žurnālam **Ražošanas ievade** ) un identificēt žurnālus, kas ir gatavi produktu ieejas plūsmas atjaunināšanai.
 
 ## <a name="arrival-overview-page"></a>Lapa Saņemšanas pārskats
 Lai atvērtu lapu **Saņemšanas pārskats**, noklikšķiniet uz **Krājumu vadība** &gt; **Ienākošie pasūtījumi** &gt; **Saņemšanas pārskats**. Varat skatīt sarakstu ar pasūtījumiem, kurus paredzēts saņemt. Pārskats ir sadalīts virsrakstā un rindās. Virsraksta informācija ir grupēta pēc pasūtījuma veida, paredzamā saņemšanas datuma un piegādes galamērķa. Kad virsraksta rinda ir atlasīta saņemšanai, visas informācijas rindas, kas ir saistītas ar saņemšanas atsauci, tiek atlasītas saņemšanai lapas rindu datu daļā. Kad visas saistītās žurnāla rindas ir grāmatotas, šī informācija nav redzama.
@@ -95,7 +95,7 @@ Lai iegūtu pārskatu par paredzētajām saņemšanām datumu intervālā, Semij
 
 Semijs var apskatīt šādu informāciju:
 
--   Visi saistītie pieņemšanas akti attiecīgajā sistēmas datumā un neierobežotu dienu skaitu pirms tā (intervāls **InventTrans.StatusDate**) un saņemšanas noliktavās GW un MW neatkarīgi no statusa.
+-   Visi saistītie pieņemšanas akti attiecīgajā sistēmas datumā un neierobežotu dienu skaitu pirms tā (intervāls **InventTrans.StatusDate** ) un saņemšanas noliktavās GW un MW neatkarīgi no statusa.
 -   Detalizēta rindas informācija par vairāk nekā vienu pasūtījumu. Semijs pārskatā var atlasīt vairākas virsraksta rindas un pēc tam noklikšķināt uz **Rādīt visu atlasīto**, lai skatītu visu atbilstošo rindu detalizētu informāciju visiem atlasītajiem pasūtījumiem.
 -   Informācija par noteiktu pirkšanas pasūtījumu. Lai parādītu tikai informāciju, kas saistīta ar noteiktu atsauces numuru pārskatā, Semijs var ievadīt konta numuru laukā **Konta numurs** un pasūtījuma numuru laukā **Atsauces numurs**.
 -   Pārskats par reģistrācijas uzdevumiem, kas ir paredzēti visām pasūtījumu rindām, kurām ir izveidots krājumu saņemšanas žurnāls, bet kuras vēl nav grāmatotas. Lai skatītu šo informāciju, Semijs laukā **Rādīt rindas** var atlasīt vienumu **Notiek izpilde**.

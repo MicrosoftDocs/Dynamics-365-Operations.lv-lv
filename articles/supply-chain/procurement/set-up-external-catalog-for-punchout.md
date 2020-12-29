@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018263"
+ms.locfileid: "4433155"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei
 
@@ -45,7 +45,7 @@ Lai iestatītu paziņojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 2. Reģistrēt kreditoru Supply Chain Management. Pirms piekļuves konfigurāciju iestatīšanas piegādātāju ārējam katalogam programmā Microsoft Dynamics 365 ir jāiestata kreditors un kreditora kontaktpersona. Ārējā kataloga kreditors ir jāpievieno arī atlasītajai sagādes kategorijai. Papildinformāciju par kreditoru reģistrāciju skatiet rakstā [Kreditoru sadarbības lietotāju pārvaldība](manage-vendor-collaboration-users.md). Informāciju par to, kā piešķirt kreditorus sagādes kategorijai, skatiet tēmā [Kreditoru apstiprināšana noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md).
 3. Pārliecinieties, vai ir iestatītas mērvienības un valūta, ko izmanto kreditors. Informāciju par to, kā izveidot mērvienību, skatiet rakstā [Mērvienību pārvaldība](../pim/tasks/manage-unit-measure.md).
 4. Konfigurējiet ārējo piegādātāju katalogu, izmantojot piegādātāju prasību ārējo kataloga vietu. Papildinformāciju par šo uzdevumu skatiet sadaļā [Ārējā piegādātāju kataloga konfigurēšana](#configure-the-external-vendor-catalog).
-5. Testējiet ārējā piegādātāju kataloga konfigurācijas, lai pārbaudītu, vai iestatījumi ir derīgi un varat piekļūt ārējam piegādātāju katalogam. Izmantojiet darbību **Validēt iestatījumus** , lai validētu iestatīšanas pieprasījuma ziņojumu, ko esat definējis. Šim ziņojumam ir jāizraisa kreditoru ārējā kataloga vietnes atvēršana pārlūkprogrammas logā. Pārbaudes laikā nevar pasūtīt preces un pakalpojumus no kreditora. Lai pasūtītu preces un pakalpojumus, ir jāpiekļūst piegādātāju katalogam no pirkšanas pieprasījuma.
+5. Testējiet ārējā piegādātāju kataloga konfigurācijas, lai pārbaudītu, vai iestatījumi ir derīgi un varat piekļūt ārējam piegādātāju katalogam. Izmantojiet darbību **Validēt iestatījumus**, lai validētu iestatīšanas pieprasījuma ziņojumu, ko esat definējis. Šim ziņojumam ir jāizraisa kreditoru ārējā kataloga vietnes atvēršana pārlūkprogrammas logā. Pārbaudes laikā nevar pasūtīt preces un pakalpojumus no kreditora. Lai pasūtītu preces un pakalpojumus, ir jāpiekļūst piegādātāju katalogam no pirkšanas pieprasījuma.
 6. Aktivizējiet ārējo katalogu, izmantojot pogu **Aktivizēt katalogu** lapā **Ārējie katalogi**. Lai darbinieki varētu lieto ārējo katalogu, vispirms tas ir jāaktivizē. Varat deaktivizēt ārējo katalogu jebkurā laikā.
 
 
@@ -58,7 +58,7 @@ Lai iestatītu paziņojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 3. Atlasiet, vai piegādātāju ārējā kataloga tīmekļa vietne ir jāparāda jaunā pārlūkprogrammas logā vai tajā pašā logā, kurā darbinieks ir izveidojis šo pieprasījumu.
 4. Atlasiet katalogu kreditoram. Sarakstā **Juridiskās personas** ir rinda katrai juridiskajai personai, kur jāiestata kreditors. Lai atļautu lietotājiem tiešā veidā pieprasīt preces no dažu juridisko personu (bet ne citu) piegādātāju kataloga, varat izmantot pogu **Neļaut piekļuvi** vai **Atļaut piekļuvi** katrai juridiskajai personai, kuras katalogam ir vai nav jābūt pieejamam.
 5. Laukā **Noklusējuma derīguma termiņš (dienās)** ievadiet dienu skaitu, kad piedāvājums, kas saņemts no ārējā kataloga, ir spēkā un kad to var izmantot, lai veiktu iegādi no ārējā kreditora. Pēc piedāvājuma izveides un izguves no piegādātāja ārējās kataloga vietnes, piedāvājums ir derīgs, sākot ar pašreizējo sistēmas datumu un paliek spēkā uz to dienu skaitu, ko ievadījāt šajā laukā.
-6. Noklikšķiniet uz pogas **Pievienot** , lai sāktu sagādes kategoriju kartēšanu ārējā katalogā. Pēc tam atlasiet kategoriju sarakstā Kategorijas nosaukums. Kategoriju saraksts ir paplašināts sagādes kategoriju variants, ko kreditors kartēja visām juridiskajām personām, kuras kreditors iestatīja.
+6. Noklikšķiniet uz pogas **Pievienot**, lai sāktu sagādes kategoriju kartēšanu ārējā katalogā. Pēc tam atlasiet kategoriju sarakstā Kategorijas nosaukums. Kategoriju saraksts ir paplašināts sagādes kategoriju variants, ko kreditors kartēja visām juridiskajām personām, kuras kreditors iestatīja.
 
     > [!NOTE]
     > Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem. Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.

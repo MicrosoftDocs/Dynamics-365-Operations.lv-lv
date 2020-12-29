@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 0c8ef901afacd4ae191f2d01114bbf4bac38b9cd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984998"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432983"
 ---
 # <a name="backflush-costing"></a>Atgriezeniska izmaksu aprēķināšana
 
@@ -40,11 +40,11 @@ Lai iespējotu izmaksu aprēķināšanu, ir jāizpilda šāda iestatīšana:
 -   **Iestatiet NP kontus ražošanas uzdevumu grupai un ražošanas plūsmai.** NP konti ražošanas plūsmai ir norādīti ražošanas uzdevumu grupā. Atgriezeniskas izmaksu aprēķināšanas ražošanas plūsma aprēķina novirzes kā starpību starp NP vērtību pirms un pēc atgriezeniskās izmaksu aprēķināšanas veikšanas katrai ražošanas plūsmai. Tādēļ ieteicams izveidot NP kontu katrai ražošanas plūsmai.
 -   **Piešķiriet izmaksu kategoriju resursu grupai.** Izmaksu kategorija ir jāpiešķir darba šūnas izpildes laika kategorijai. Lai noteiktu novirzes pēc aktivitātes, ir jāizveido izmaksu kategorija katrai darba šūnai. Izmaksu kategorijas iestatīšanai un daudzumam netiek ņemtas vērā izmaksu aprēķināšanā ražošanai lean manufacturing. Atgriezeniskajā izmaksu aprēķināšanā tiek ignorēti NP konti pa resursu grupām. Apakšuzņēmēju aktivitātēm nav nepieciešama izmaksu kategorija. Tā vietā tiek izmantota izmaksu grupa, kas ir piešķirta aktīvajam pakalpojumam.
 -   **Piešķiriet izmaksu grupas.** Lai iespējotu izmaksu seguma segmentāciju ražošanas plūsmā, ir jāpiešķir izmaksu grupas pēc izmaksu grupas tipa:
-    -   **Tiešo materiālu izmaksu grupa** — tiešajiem materiāliem ir nepieciešama izmaksu grupa, kas identificē materiālu kategoriju izmaksu aprēķināšanai. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc tiešā materiāla.
-    -   **Tiešo ražošanas izmaksu grupa** — tiešo ražošanas izmaksu grupa atspoguļo darba resursu tiešo izmaksu segumu ražošanas plūsmā. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc tiešajām ražošanas izmaksām.
-    -   **Netiešo izmaksu grupa** — netiešo izmaksu grupa ir vajadzīga, lai aprēķinātu netiešo izmaksu segumu ražošanas plūsmā. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc netiešajām izmaksām.
-    -   **Tiešo ārpakalpojumu izmaksu grupa** — izmaksu grupa pakalpojumiem sniedz iespēju iegūt apkopoto skatu par piešķirtajām izmaksām un NP un nosaka apakšuzņēmēju pakalpojumu izmaksu novirzes.
-    -   **Izmaksu grupa pabeigtai precei** — pabeigtajai precei ir nepieciešama izmaksu grupa, kas identificē preču kategoriju izmaksu aprēķināšanai. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc preču kategorijas. Preču standarta izmaksas tiek aprēķinātas, izmantojot izmaksu aprēķinu, kas ir balstīts uz materiālu komplektu (MK), kā arī uz ražošanas plūsmu un Kanban nosacījumiem vai maršrutu.
+    -   **Tiešo materiālu izmaksu grupa** — tiešajiem materiāliem ir nepieciešama izmaksu grupa, kas identificē materiālu kategoriju izmaksu aprēķināšanai. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc tiešā materiāla.
+    -   **Tiešo ražošanas izmaksu grupa** — tiešo ražošanas izmaksu grupa atspoguļo darba resursu tiešo izmaksu segumu ražošanas plūsmā. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc tiešajām ražošanas izmaksām.
+    -   **Netiešo izmaksu grupa** — netiešo izmaksu grupa ir vajadzīga, lai aprēķinātu netiešo izmaksu segumu ražošanas plūsmā. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc netiešajām izmaksām.
+    -   **Tiešo ārpakalpojumu izmaksu grupa** — izmaksu grupa pakalpojumiem sniedz iespēju iegūt apkopoto skatu par piešķirtajām izmaksām un NP un nosaka apakšuzņēmēju pakalpojumu izmaksu novirzes.
+    -   **Izmaksu grupa pabeigtai precei** — pabeigtajai precei ir nepieciešama izmaksu grupa, kas identificē preču kategoriju izmaksu aprēķināšanai. Šī izmaksu grupa sniedz iespēju iegūt apkopoto skatu par izmaksām, NP un novirzēm pēc preču kategorijas. Preču standarta izmaksas tiek aprēķinātas, izmantojot izmaksu aprēķinu, kas ir balstīts uz materiālu komplektu (MK), kā arī uz ražošanas plūsmu un Kanban nosacījumiem vai maršrutu.
 
 ### <a name="costing-sheet"></a>Izmaksu aprēķina lapa
 
@@ -84,8 +84,8 @@ Preces, kas tiek saņemtas no ražošanas plūsmas, tiek atskaitītas no NP.
 ## <a name="products-in-wip"></a>Preces NP ietvaros
 Lean manufacturing NP modelis sniedz iespēju izmantot Kanban materiālu apstrādes vienības statusu, lai pārvaldītu materiālu, daļēji pabeigtās preces un pabeigtās preces, kas ir ietverti NP.
 
--   **Piešķirts** — Kanban var būt patērēti materiāli, kuri ir uzskaitīti NP.
--   **Saņemts** — ja Kanban attiecas uz pēdējo aktivitāti, kurai vienumam **Atjaunināt krājumus saņemot** ir iestatīta opcija **Nē**, tas parāda tādas preces vai nepabeigtas preces pilnu materiālu apstrādes vienību, kas nav reģistrēta krājumos.
+-   **Piešķirts** — Kanban var būt patērēti materiāli, kuri ir uzskaitīti NP.
+-   **Saņemts** — ja Kanban attiecas uz pēdējo aktivitāti, kurai vienumam **Atjaunināt krājumus saņemot** ir iestatīta opcija **Nē**, tas parāda tādas preces vai nepabeigtas preces pilnu materiālu apstrādes vienību, kas nav reģistrēta krājumos.
 
 Ņemiet vērā, ka materiāli, kas iekļauti NP, nav redzami rīcībā esošo krājumu pārskatos. Tomēr tie ir redzami Kanban daudzuma pārskatos.
 
@@ -96,8 +96,8 @@ Preces, kas iekļautas NP, tiek patērētas, kad tiek iztukšotas attiecīgās K
 
 Plānotiem vai notikumu Kanban signāliem var iestatīt automātisku iztukšošanas reģistrāciju Kanban nosacījumā:
 
--   **Pēc materiālu apstrādes vienību saņemšanas** — pēc noklusējuma plānotiem Kanban signāliem materiāli tiek deklarēti kā patērēti, kad ir pabeigts pēdējais Kanban darbs. Fiksēta daudzuma Kanban signāliem šo opciju ieteicams izmantot tikai attiecībā uz viena nodalījuma Kanban, jo tā atgriež karti uz pieprasījuma avotu ikreiz, kad Kanban tiek saņemts galamērķī.
--   **Pēc izcelsmes pieprasījuma reģistrēšanas** — šī opcija ir pieejama tikai notikumu Kanban un ir minēto Kanban signālu noklusējuma opcija. Saistībā ar NP šī opcija ir noderīga, lai nodrošinātu, ka NP ir attīrīti, jo Kanban signāli komponentiem NP ietvaros tiek automātiski iztukšoti un tādējādi patērēti no NP, kad ir sagatavots vecākelementa Kanban.
+-   **Pēc materiālu apstrādes vienību saņemšanas** — pēc noklusējuma plānotiem Kanban signāliem materiāli tiek deklarēti kā patērēti, kad ir pabeigts pēdējais Kanban darbs. Fiksēta daudzuma Kanban signāliem šo opciju ieteicams izmantot tikai attiecībā uz viena nodalījuma Kanban, jo tā atgriež karti uz pieprasījuma avotu ikreiz, kad Kanban tiek saņemts galamērķī.
+-   **Pēc izcelsmes pieprasījuma reģistrēšanas** — šī opcija ir pieejama tikai notikumu Kanban un ir minēto Kanban signālu noklusējuma opcija. Saistībā ar NP šī opcija ir noderīga, lai nodrošinātu, ka NP ir attīrīti, jo Kanban signāli komponentiem NP ietvaros tiek automātiski iztukšoti un tādējādi patērēti no NP, kad ir sagatavots vecākelementa Kanban.
 
 Visbeidzot, Kanban materiālu apstrādes vienības var piešķirt (= nepabeigts), saņemt (= pilns) vai iztukšot. Netiek veikta daļēja iztukšošana. Tādēļ, lai iespējotu precīzu patēriņa reģistrāciju, ir svarīgi ierobežot Kanban preces daudzumu, lai tas būtu mazākas nekā patēriņš perioda ietvaros. Preces, kas tiek pārvietotas uz ražotni lielās partijās, kas aptver vairāku dienu vai nedēļu pieprasījuma apjomu, nevar patērēt NP. Tā vietā šīs preces ir jāglabā krājumos.
 

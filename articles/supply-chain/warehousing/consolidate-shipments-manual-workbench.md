@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016820"
+ms.locfileid: "4433120"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku
 
@@ -31,7 +31,7 @@ ms.locfileid: "4016820"
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF** , pirms sākat darbu.
+Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Iestatīt sūtījumu konsolidācijas politikas un preču filtrus
 
@@ -39,7 +39,7 @@ ms.locfileid: "4016820"
 
 ## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Ieslēgt manuālo sūtījumu konsolidācijas līdzekli
 
-Lai varētu izmantot *Manuālo sūtījumu konsolidācijas līdzekli* , tas ir jāieslēdz sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Lai varētu izmantot *Manuālo sūtījumu konsolidācijas līdzekli*, tas ir jāieslēdz sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Manuālā sūtījumu konsolidācija*
@@ -66,7 +66,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 #### <a name="sales-order-1-3"></a>Pārdošanas pasūtījums 1-3
 
@@ -80,14 +80,14 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 1. Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
     - **Krājuma kods:** *A0002* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
     - **Piegādes veids:** *Airwa-Air*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu otro pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu otro pasūtījuma rindu.
 
 ### <a name="create-order-set-2"></a>Izveidot 2. pasūtījuma kopu
 
@@ -100,17 +100,17 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
 
 1. Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
-    - **Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs* )
+    - **Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs*)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 1. Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
-    - **Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams* )
+    - **Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams*)
     - **Daudzums:** *1.00*
     - **Piegādes veids:** *Airwa-Air*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu otro pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu otro pasūtījuma rindu.
 
 ### <a name="create-order-set-3"></a>Izveidot 3. pasūtījuma kopu
 
@@ -126,7 +126,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 #### <a name="sales-orders-3-3-and-3-4"></a>Pārdošanas pasūtījumi 3-3 un 3-4
 
@@ -140,7 +140,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 ### <a name="create-order-set-4"></a>Izveidot 4. pasūtījuma kopu
 
@@ -155,7 +155,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 #### <a name="sales-orders-4-3-and-4-4"></a>Pārdošanas pasūtījumi 4-3 un 4-4
 
@@ -168,7 +168,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 #### <a name="sales-orders-4-5-and-4-6"></a>Pārdošanas pasūtījumi 4-5 un 4-6
 
@@ -184,7 +184,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 #### <a name="sales-orders-4-7-and-4-8"></a>Pārdošanas pasūtījumi 4-7 un 4-8
 
@@ -200,7 +200,7 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 ## <a name="release-the-orders-to-the-warehouse"></a>Pasūtījumu izlaišana noliktavā
 
@@ -208,20 +208,20 @@ Sekojiet šiem soļiem, lai izlaistu pārdošanas pasūtījumu, ko izveidojāt �
 
 1. Doties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījumi**.
 1. Atrodiet un atlasiet izlaižamo pārdošanas pasūtījumu.
-1. Darbību rūtī cilnē **Noliktava** , atlasiet **Darbības \> Pārvietot uz noliktavu** , lai pārvietotu atlasīto pārdošanas pasūtījumu.
+1. Darbību rūtī cilnē **Noliktava**, atlasiet **Darbības \> Pārvietot uz noliktavu**, lai pārvietotu atlasīto pārdošanas pasūtījumu.
 1. Atkārtojiet šo procedūru katram otrajam pārdošanas pasūtījumam, ko izveidojāt šim scenārijam.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku
 
 1. Dodieties uz **Noliktavu pārvaldība \> Pārvietot uz noliktavu \> Sūtījumu konsolidācijas rīks**.
 1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
-1. Vaicājuma redaktora dialoglodziņā cilnē **Diapazons** atlasiet **Pievienot** , lai pievienotu rindu, kurai režģī ir šādi iestatījumi:
+1. Vaicājuma redaktora dialoglodziņā cilnē **Diapazons** atlasiet **Pievienot**, lai pievienotu rindu, kurai režģī ir šādi iestatījumi:
 
     - **Tabula:** *Pārdošanas pasūtījumi*
     - **Lauks:** *Pārdošanas pasūtījums*
     - **Kritēriji:** ievadiet ar komatu atdalītu pārdošanas pasūtījumu numuru sarakstu katrai pasūtījumu kopai, ko izveidojāt šim scenārijam.
 
-1. Atlasiet **Labi** , lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
 1. Darbību rūtī atlasiet **Konsolidēt sūtījumus**.
 1. Atlasiet visus sūtījumus un pēc tam Darbību rūtī atlasiet **Konsolidēt**.
 

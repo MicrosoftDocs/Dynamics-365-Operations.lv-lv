@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018194"
+ms.locfileid: "4433130"
 ---
 # <a name="create-a-purchase-return-order"></a>Pirkšanas atgriešanas pasūtījuma izveide
 
@@ -37,11 +37,11 @@ ms.locfileid: "4018194"
 5. **Darbību rūtī** noklikšķiniet uz **Pirkšana**.
 6. Noklikšķiniet uz **Kredīta nota**. Šī ir lapa, kurā no esoša kreditora rēķina varat kopēt uz savu atgriešanas pasūtījumu. Šī ir tā pati lapa, kas tiek izmantota citām kopēšanas darbībām. Bet, tā kā mēs to atvērām no darbības Kredīta nota, šī lapa ir konfigurēta tā, lai atbalstītu atgriešanas pasūtījuma izveidošanu, kas kompensē kreditoru rēķinus.  
 7. Izvērsiet sadaļu **Parametri**.
-    - Automātiski ir atlasīta opcija **Mainīt zīmi uz pretējo** , un to nevar mainīt. Tādējādi tiek nodrošināts, ka šiem daudzumiem tiek mainīta zīme un pievienotās pasūtījuma rindas kompensēs kreditora rēķinu.  
-    - Automātiski ir atlasīta opcija **Kopēt maksas** , un to nevar mainīt. Tas nozīmē, ka maksas no kreditora rēķina tiek pievienotas pirkuma atgriešanas pasūtījumam, lai kompensētu sākotnējo maksu. Vēlāk ir iespējams modificēt izmaiņas pasūtījuma virsrakstā un rindās.  
-    - Automātiski ir atlasīta opcija **Kopēt precīzi** , un to nevar mainīt. Tādējādi tiek nodrošināts, ka tiek izveidota precīza kopija no vērtībām visos attiecīgā kreditora rēķina virsraksta un rindu laukos. Tas nozīmē, ka pirkuma atgriešanas pasūtījums tiek izveidots ar vērtībām, kas atbilst visiem kreditora rēķina dokumentā lietotajiem nosacījumiem. 
+    - Automātiski ir atlasīta opcija **Mainīt zīmi uz pretējo**, un to nevar mainīt. Tādējādi tiek nodrošināts, ka šiem daudzumiem tiek mainīta zīme un pievienotās pasūtījuma rindas kompensēs kreditora rēķinu.  
+    - Automātiski ir atlasīta opcija **Kopēt maksas**, un to nevar mainīt. Tas nozīmē, ka maksas no kreditora rēķina tiek pievienotas pirkuma atgriešanas pasūtījumam, lai kompensētu sākotnējo maksu. Vēlāk ir iespējams modificēt izmaiņas pasūtījuma virsrakstā un rindās.  
+    - Automātiski ir atlasīta opcija **Kopēt precīzi**, un to nevar mainīt. Tādējādi tiek nodrošināts, ka tiek izveidota precīza kopija no vērtībām visos attiecīgā kreditora rēķina virsraksta un rindu laukos. Tas nozīmē, ka pirkuma atgriešanas pasūtījums tiek izveidots ar vērtībām, kas atbilst visiem kreditora rēķina dokumentā lietotajiem nosacījumiem. 
     - Opcija **Dzēst pirkšanas rindas** pirms jauno rindu pievienošanas dzēš visas pirkšanas pasūtījuma rindas, kas jau pastāv pirkšanas pasūtījumā. Šajā piemērā mēs pirkuma atgriešanas pasūtījumam vēl neesam pievienojuši nevienu rindu, tāpēc tam nebūtu nekādas ietekmes. Šī opcija ir jālieto uzmanīgi, jo tā dzēš visas pastāvošās rindas bez papildu brīdinājuma.  
-    * Automātiski ir atlasīta opcija **Kopēt pasūtījuma virsrakstu** , un to nevar mainīt. Tādējādi tiek nodrošināts, ka informācija tiek kopēta no kreditora rēķina un lietota pirkuma atgriešanas pasūtījuma virsrakstā. Tas ir noderīgi, jo palīdz nodrošināt, ka pirkuma atgriešanas pasūtījums kompensē rēķinu, izmantojot līdzīgus nosacījumus.  
+    * Automātiski ir atlasīta opcija **Kopēt pasūtījuma virsrakstu**, un to nevar mainīt. Tādējādi tiek nodrošināts, ka informācija tiek kopēta no kreditora rēķina un lietota pirkuma atgriešanas pasūtījuma virsrakstā. Tas ir noderīgi, jo palīdz nodrošināt, ka pirkuma atgriešanas pasūtījums kompensē rēķinu, izmantojot līdzīgus nosacījumus.  
 8. Sakļaujiet sadaļu **Parametri**.
 9. Izvērsiet sadaļu **Rēķini**. Šī lapa ir atvērta no darbības Kredīta nota, tāpēc vienīgā pieejamā opcija ir kopēt informāciju no kreditora rēķiniem. Šajā cilnē ir parādīti visi pieejamie rēķini attiecīgajam kreditora kontam, kas ir norādīts iepriekš izveidotajā pirkuma atgriešanas pasūtījumā.   Rēķini tiek identificēti ar rēķina dokumentu vai pirkšanas pasūtījuma ID.
 10. Atrodiet kreditora rēķinu, kas ir identificēts ar rēķina numuru AP-0006, un izceliet tā rindu, noklikšķinot uz jebkura šīs rindas lauka.

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889318"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432603"
 ---
 # <a name="work-order-project-setup"></a>Darba pasūtījuma projekta iestatījumi
 
@@ -63,7 +63,7 @@ Iestatīšana nodrošina pilnīgu integrāciju ar moduli **Projektu pārvaldība
 
 1. Atlasiet **Līdzekļu pārvaldība** \> **Iestatīšana** \> **Darba pasūtījumi** \> **Projekta iestatīšana**.
 2. Cilnē **Pamatprojekts** atlasiet **Pievienot**.
-3. Laukos **Darba pasūtījuma tips**, **Funkcionālais novietojums**, **Līdzekļa veids**un **Līdzeklis** atlasiet jums nepieciešamās vērtības. Katrai rindai, kuru pievienojat, varat iestatīt tikai vienu lauku vai vairākus laukus. Iestatītais lauku skaits nosaka kombināciju, kas tiek izmantota, kad līdzekļu pārvaldībā tiek atlasīts projekta ID. 
+3. Laukos **Darba pasūtījuma tips**, **Funkcionālais novietojums**, **Līdzekļa veids** un **Līdzeklis** atlasiet jums nepieciešamās vērtības. Katrai rindai, kuru pievienojat, varat iestatīt tikai vienu lauku vai vairākus laukus. Iestatītais lauku skaits nosaka kombināciju, kas tiek izmantota, kad līdzekļu pārvaldībā tiek atlasīts projekta ID. 
 
     Ja atlasāt funkcionālo novietojumu, tiek automātiski iekļautas saistītās pakārtotās atrašanās vietas. Ja atlasāt līdzekli, varat izveidot papildu darba pasūtījuma projekta iestatīšanas rindas vienam un tam pašam līdzeklim, bet šim pamatlīdzeklim varat atlasīt dažādus projektus.
 
@@ -85,4 +85,4 @@ Iestatīšana nodrošina pilnīgu integrāciju ar moduli **Projektu pārvaldība
 > [!NOTE]
 > Katru reizi, kad tiek izveidota darba pasūtījuma rinda, līdzekļu pārvaldība meklē projektu grupu, kas jāsaista ar darba pasūtījuma uzdevuma projektu. Meklēšana ir balstīta uz iestatījumiem, kas aprakstīti šajā tēmā. Katrai projekta grupai ir saistīts projekta veids. Projekta grupas, kuru projekta veids ir **Laiks un materiāls** vai **Fiksēta cena**, ir derīgas tikai līdzekļiem, kas ir saistīti ar klienta kontu.
 >
-> Pamatprojektiem un projektu grupām, kad sistēma atlasa pieejamo darba pasūtījuma projektu vai projektu grupu, atlase ir balstīta uz ierakstiem, ko izveidojāt, izmantojot iepriekšējo procedūru. Līdzekļu pārvaldība izskata ierakstus, kas ir saistīti ar darba pasūtījuma projektu, lai pārbaudītu iespējamo atbilstību. Tā vienmēr vispirms pārbauda visraksturīgāko kombināciju. Citiem vārdiem sakot, darba pasūtījuma pamatprojektam līdzekļu pārvaldība sākumā pārbauda iespējo atbilstību laukam **Līdzeklis**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Līdzekļa veids**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Funkcionālais novietojums** un tā tālāk. Kā jūs varat redzēt lapas **Darba pasūtījuma projekta iestatīšana** izkārtojumā, šī uzvedība nozīmē, ka, lai atrastu specifiskāko kombināciju, līdzekļu pārvaldība atbilstības meklēšanai pārbauda katru ierakstu no labās puses uz kreiso. Ja atbilstība netiek atrasta, tiek izmantots noklusējuma ieraksts, kurā tiek atlasīts tikai projekta ID. Saistītās projektu grupas atrašanas process ir līdzīgs. Līdzekļu pārvaldība vispirms pārbauda iespējamo atbilstību laukam**Līdzeklis** un tad laukam **Līdzekļa veids**, un tad laukam **Darba pasūtījuma tips**. Ja atbilstība netiek atrasta, tiek izmantots noklusējuma ieraksts, kurā tiek atlasīta tikai projekta grupa.
+> Pamatprojektiem un projektu grupām, kad sistēma atlasa pieejamo darba pasūtījuma projektu vai projektu grupu, atlase ir balstīta uz ierakstiem, ko izveidojāt, izmantojot iepriekšējo procedūru. Līdzekļu pārvaldība izskata ierakstus, kas ir saistīti ar darba pasūtījuma projektu, lai pārbaudītu iespējamo atbilstību. Tā vienmēr vispirms pārbauda visraksturīgāko kombināciju. Citiem vārdiem sakot, darba pasūtījuma pamatprojektam līdzekļu pārvaldība sākumā pārbauda iespējo atbilstību laukam **Līdzeklis**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Līdzekļa veids**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Funkcionālais novietojums** un tā tālāk. Kā jūs varat redzēt lapas **Darba pasūtījuma projekta iestatīšana** izkārtojumā, šī uzvedība nozīmē, ka, lai atrastu specifiskāko kombināciju, līdzekļu pārvaldība atbilstības meklēšanai pārbauda katru ierakstu no labās puses uz kreiso. Ja atbilstība netiek atrasta, tiek izmantots noklusējuma ieraksts, kurā tiek atlasīts tikai projekta ID. Saistītās projektu grupas atrašanas process ir līdzīgs. Līdzekļu pārvaldība vispirms pārbauda iespējamo atbilstību laukam **Līdzeklis** un tad laukam **Līdzekļa veids**, un tad laukam **Darba pasūtījuma tips**. Ja atbilstība netiek atrasta, tiek izmantots noklusējuma ieraksts, kurā tiek atlasīta tikai projekta grupa.

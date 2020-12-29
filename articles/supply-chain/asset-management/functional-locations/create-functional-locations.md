@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888839"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432671"
 ---
 # <a name="create-functional-locations"></a>Izveidot funkcionālos novietojumus
 
@@ -45,7 +45,7 @@ Lai varētu strādāt ar funkcionālajiem novietojumiem, sāciet ar funkcionālo
 Ja izmantojat funkcionālos novietojumus, vispirms izveidojiet vienu noklusējuma atrašanās vietu, kas jāizmanto, veidojot jaunus līdzekļus. Šis funkcionālais novietojums ir tas, ko atlasāt **Līdzekļu pārvaldībā** > **Iestatīšanā** > **Līdzekļu pārvaldības parametros** > **Līdzekļu** saitē > laukā **Noklusējuma funkcionālais novietojums**. Noklusējuma funkcionālo novietojumu var izmantot, kad veidojat jaunus līdzekļus un vēl neesat iestatījis šo līdzekļu funkcionālā novietojuma struktūru.
 
 1. Atlasiet **Līdzekļu pārvaldība** > **Kopīgi** > **Funkcionālie novietojumi** > **Visi funkcionālie novietojumi**.  
-2. Laukā **Visi funkcionālie novietojumi**atlasiet **Jauns**.
+2. Laukā **Visi funkcionālie novietojumi** atlasiet **Jauns**.
 3. Laukā **Funkcionālais novietojums** ievietojiet ID, piemēram, "0000" vai "Noklusējums", lai norādītu, ka šis ir īpašs funkcionālais novietojums.
 4. Laukā **Nosaukums** ievadiet noklusējuma funkcionālā novietojuma nosaukumu.
 5. *Neatlasiet* pamatelementu laukā **Pamatelements** — atstājiet šo lauku tukšu.
@@ -107,13 +107,13 @@ Atlasiet **Pievienot rindu** un atlasiet atribūta veidu. Pēc tam ievietojiet a
 
 Funkcionālajam novietojumam varat atlasīt finanšu dimensijas. [Funkcionālo novietojumu veidus](../setup-for-functional-locations/functional-location-types.md) var iestatīt, lai no funkcionālā novietojuma varētu automātiski atjaunināt finanšu dimensijas. Tas nozīmē, ka finanšu dimensijā uzstādītie līdzekļi automātiski saņem funkcionālā novietojuma finanšu dimensijas. Tas noder, ja vēlaties atšķirīgus izmaksu centrus atkarībā no atrašanās vietām.
 
-Kad dati par **Vietu**, **Noliktavu**, **Adresi**un **Finanšu dimensijām** tiek atjaunināti vecākelementa funkcionālajā novietojumā, attiecīgi var atjaunināt saistītos pakārtotos funkcionālos novietojumus, ja atjaunināšanas laikā veicat šādu atlasi. Tiek atvērts dialoglodziņš, kas nodrošina atjaunināšanas opcijas.
+Kad dati par **Vietu**, **Noliktavu**, **Adresi** un **Finanšu dimensijām** tiek atjaunināti vecākelementa funkcionālajā novietojumā, attiecīgi var atjaunināt saistītos pakārtotos funkcionālos novietojumus, ja atjaunināšanas laikā veicat šādu atlasi. Tiek atvērts dialoglodziņš, kas nodrošina atjaunināšanas opcijas.
 
 ## <a name="copy-a-functional-location-structure"></a>Funkcionālā novietojuma struktūras kopēšana
 
 Ja jūsu uzņēmumam ir vairāki funkcionālie novietojumi ar līdzīgām atrašanās vietas struktūrām, varat izmantot kopēšanas funkciju Līdzekļu pārvaldībā, lai ātri izveidotu līdzīgu atrašanās vietu hierarhiju. Kopējot noteiktu funkcionālo novietojumu vai visu struktūru, jaunajai atrašanās vietai vai struktūrai ir tāds pats nosaukums kā tai, kuru kopējāt. Kad kopēšanas procedūra ir pabeigta, varat viegli mainīt nosaukumu vai citus iestatījumus jaunajam funkcionālajam novietojumam, ja jaunajam funkcionālajam novietojumam atlasītais funkcionālā novietojuma dzīves cikla stāvoklis to atļauj.
 
-1. Laukā **Visi funkcionālie novietojumi**atlasiet funkcionālo novietojumu, kuru vēlaties kopēt. Piemēram, jūs atlasāt augšējo atrašanās vietu (vecākelementu), ja vēlaties kopēt visu funkcionālā novietojuma struktūru, ieskaitot apakšvietas.
+1. Laukā **Visi funkcionālie novietojumi** atlasiet funkcionālo novietojumu, kuru vēlaties kopēt. Piemēram, jūs atlasāt augšējo atrašanās vietu (vecākelementu), ja vēlaties kopēt visu funkcionālā novietojuma struktūru, ieskaitot apakšvietas.
 2. Atlasiet pogu **Kopēt funkcionālo novietojumu**. Atrašanās vieta, kuru atlasījāt saraksta lapā, ir redzama laukā **Kopēt no**.
 3. Ievietojiet jaunās atrašanās vietas nosaukumu laukā **Jaunais funkcionālais novietojums**.
 4. Laukā **Vecākelements, zem kura jāielīmē** būtu jāievieto vecākelementa ID tikai tad, ja atrašanās vietai, kuru veidojat, jābūt daļai no esošas funkcionālā novietojuma struktūras.
@@ -126,7 +126,7 @@ Ja jūsu uzņēmumam ir vairāki funkcionālie novietojumi ar līdzīgām atraš
 
 Funkcionālais novietojums ar saistītajām apakšvietām var tikt dzēsts, ja nevienā no funkcionālajiem novietojumiem, ko mēģināt dzēst, nav uzstādīts neviens līdzeklis un ja to atļauj pašreizējais funkcionālā novietojuma dzīves cikla stāvoklis.
 
-1. Laukā **Visi funkcionālie novietojumi**atlasiet funkcionālo novietojumu, kuru vēlaties dzēst.
+1. Laukā **Visi funkcionālie novietojumi** atlasiet funkcionālo novietojumu, kuru vēlaties dzēst.
 2. Ja nepieciešams, atjauniniet funkcionālo novietojumu uz funkcionālā novietojuma dzīves cikla stāvokli, kas atļauj dzēst funkcionālo novietojumu.
 3. Atlasiet **Dzēst**.
 

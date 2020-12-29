@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cccd3517f31a82e502052f100e44322ac4cb344f
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018495"
+ms.locfileid: "4433200"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Ārējo katalogu izmantošana elektroniskai atzīmēšanas sagādei
 
@@ -37,7 +37,7 @@ Lai izmantotu ārējos katalogus, darbiniekam ir jāizveido pieprasījums lapā 
 
 Darbinieks, kurš izveido pieprasījumu, tiek dēvēts par pieprasījuma sagatavotāju. Kā sagatavotājs varat veikt tālāk aprakstītos uzdevumus.
 
-Izmantojiet rindas darbību **Ārējie katalogi** , lai atvērtu lapu, kurā ir visi norādītajam pieprasītājam, iepirkuma juridiskajai personai un saņemošajai pārvaldības struktūrvienībai pieejamie ārējie katalogi.
+Izmantojiet rindas darbību **Ārējie katalogi**, lai atvērtu lapu, kurā ir visi norādītajam pieprasītājam, iepirkuma juridiskajai personai un saņemošajai pārvaldības struktūrvienībai pieejamie ārējie katalogi.
 
 Atkarībā no jūsu atļaujām mainiet pieprasītāju, iepirkuma juridisko personu un saņemošo pārvaldības struktūrvienību. Šo vērtības izmaiņas var mainīt sarakstu ar ārējiem katalogiem, kas ir pieejami pieprasītājam. Pieejamie ārējie katalogi ir atkarīgi no pašreizējiem aktīvajiem pirkšanas ierobežojumiem iepirkuma juridiskajai personai vai saņemošajai pārvaldības struktūrvienībai. Šie ierobežojumi var atļaut vai liegt piekļuvi noteiktām sagādes kategorijām. Tādējādi var tikt ietekmēts saraksts ar ārējiem katalogiem, kas tiek kartēti uz šīm sagādes kategorijām.
 
@@ -49,7 +49,7 @@ Papildinformāciju par ierobežojumiem skatiet sadaļā [Pirkšanas ierobežojum
 Ja sagādes kategorijām ir vairākas opcijas, atlasiet pareizo sagādes kategoriju, pirms pievienojat rindas pieprasījumam.
 Pēc tam, kad rindas ir pievienotas pieprasījumam, varat pievienot vairāk rindu, neizmantojot ārējos katalogus. Vai arī varat turpināt izmantot ārējos katalogus, lai pievienotu rindas.
 
-Kad pieprasījums ir gatavs, izmantojiet darbību **Darbplūsma** > **Iesniegt** , lai to iesniegtu apstiprināšanai.
+Kad pieprasījums ir gatavs, izmantojiet darbību **Darbplūsma** > **Iesniegt**, lai to iesniegtu apstiprināšanai.
 
 ### <a name="additional-resources"></a>Papildu resursi
 

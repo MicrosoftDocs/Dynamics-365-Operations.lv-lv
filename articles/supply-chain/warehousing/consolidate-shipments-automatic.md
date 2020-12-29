@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016866"
+ms.locfileid: "4433121"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu
 
@@ -33,7 +33,7 @@ Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopas un izlaidīsi
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF** , pirms sākat darbu.
+Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Iestatīt sūtījumu konsolidācijas politikas un preču filtrus
 
@@ -99,12 +99,12 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
 
 1. Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
-    - **Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs* )
+    - **Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs*)
     - **Daudzums:** *1.00*
 
 1. Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
-    - **Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams* )
+    - **Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams*)
     - **Daudzums:** *1.00*
     - **Piegādes veids:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījum
 
 1. Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
-    - **Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs* )
+    - **Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs*)
     - **Daudzums:** *1.00*
 
 1. Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:
 
-    - **Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams* )
+    - **Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams*)
     - **Daudzums:** *1.00*
     - **Piegādes veids:** *Airwa-Air*
 
@@ -236,7 +236,7 @@ Katrai iepriekš izveidotajai pārdošanas pasūtījumu kopai tiks izpildītas t
 
 1. Dodieties uz **Noliktavas vadība \> Iestatīšana \> Kopumi \> Kopuma veidnes**.
 1. Iestatiet lauku **Kopuma veidnes veids** uz *Sūtīšana*.
-1. Meklējiet un atlasiet kopuma veidni, kas ir saistīta ar noliktavu, ko izmantojāt pasūtījuma kopās, ko izveidojāt šim scenārijam. Piemēram, ja izmantojāt noliktavu *24* , atlasiet **24 nosūtīšanas noklusējuma** kopuma veidni. Ja izmantojāt noliktavu *61* , atlasiet **61 nosūtīšanas noklusējuma** kopuma veidni.
+1. Meklējiet un atlasiet kopuma veidni, kas ir saistīta ar noliktavu, ko izmantojāt pasūtījuma kopās, ko izveidojāt šim scenārijam. Piemēram, ja izmantojāt noliktavu *24*, atlasiet **24 nosūtīšanas noklusējuma** kopuma veidni. Ja izmantojāt noliktavu *61*, atlasiet **61 nosūtīšanas noklusējuma** kopuma veidni.
 1. Darbību rūtī atlasiet **Rediģēt**.
 1. Iestatiet opciju **Apstrādāt kopumu, to pārvietojot uz noliktavu** uz *Nē*.
 
@@ -244,16 +244,16 @@ Katrai iepriekš izveidotajai pārdošanas pasūtījumu kopai tiks izpildītas t
 
 1. Doties uz **Noliktavu pārvaldība \> Pārvietot uz noliktavu \> Automātiska pārdošanas pasūtījumu nodošana**.
 1. Iestatiet lauku **Nododamais daudzums** uz *Visi*.
-1. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs** , lai atvērtu vaicājuma dialoglodziņu.
-1. Cilnē **Diapazons** atlasiet **Pievienot** , lai pievienotu rindu, kurai režģī ir šādi iestatījumi:
+1. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs**, lai atvērtu vaicājuma dialoglodziņu.
+1. Cilnē **Diapazons** atlasiet **Pievienot**, lai pievienotu rindu, kurai režģī ir šādi iestatījumi:
 
     - **Tabula:** *Pārdošanas pasūtījums*
     - **Atveidotā tabula:** *Pārdošanas pasūtījums*
     - **Lauks:** *Pārdošanas pasūtījums*
     - **Kritēriji:** Ievadiet ar komatu atdalītu pārdošanas pasūtījumu numuru sarakstu no vēlamā pasūtījuma komplekta.
 
-1. Atlasiet **Labi** , lai saglabātu vaicājumu.
-1. Atlasiet **Labi** , lai sāktu procedūru *Automātiski pārvietot uz noliktavu*.
+1. Atlasiet **Labi**, lai saglabātu vaicājumu.
+1. Atlasiet **Labi**, lai sāktu procedūru *Automātiski pārvietot uz noliktavu*.
 
 #### <a name="review-the-shipment-that-is-created-or-updated"></a>Pārskatiet izveidoto vai atjaunināto sūtījumu
 
@@ -292,7 +292,7 @@ Kad esat pabeidzis, jums vajadzētu redzēt, ka ir notikušas šādas darbības:
 
 Sekojiet [pamata nodošanas uz noliktavu procedūrai](#release-procedure), lai nodotu pārdošanas pasūtījumus no 4. pasūtījumu kopas.
 
-Kad esat pabeidzis, jums būtu jāredz, ka ir atjaunināts viens esošais sūtījums (kur **Debitora pieprasījuma** lauks ir iestatīts uz *1* ). Tai tika pievienota viena jauna rinda.
+Kad esat pabeidzis, jums būtu jāredz, ka ir atjaunināts viens esošais sūtījums (kur **Debitora pieprasījuma** lauks ir iestatīts uz *1*). Tai tika pievienota viena jauna rinda.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Izlaist pārdošanas pasūtījumus no 5. pasūtījumu kopas
 
@@ -300,7 +300,7 @@ Sekojiet [pamata nodošanas uz noliktavu procedūrai](#release-procedure), lai n
 
 Kad esat pabeidzis, jums vajadzētu redzēt, ka ir notikušas šādas darbības:
 
-- Tika atjaunināts viens esošais sūtījums (kur **Debitora pieprasījuma** lauks ir iestatīts uz *1* ). Tai tika pievienota rinda no pārdošanas pasūtījuma 5-3 (kur **Debitora pieprasījuma** lauks ir iestatīts uz *1* ).
+- Tika atjaunināts viens esošais sūtījums (kur **Debitora pieprasījuma** lauks ir iestatīts uz *1*). Tai tika pievienota rinda no pārdošanas pasūtījuma 5-3 (kur **Debitora pieprasījuma** lauks ir iestatīts uz *1*).
 - Tika izveidots viens jauns sūtījums, kur pārdošanas pasūtījumu 5-1 un 5-2 rindas tiek grupētas vienā sūtījumā.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Izlaist pārdošanas pasūtījumus no 6. pasūtījumu kopas

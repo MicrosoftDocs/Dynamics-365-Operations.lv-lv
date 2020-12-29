@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016843"
+ms.locfileid: "4433126"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
 
@@ -36,7 +36,7 @@ ms.locfileid: "4016843"
 
 Pārkraušana sadales centrā no ražošanas novietojuma uz izejošās plūsmas novietojumu ir noderīga ražotājiem, kuri saražo lielu preču daudzumu un vēlas nosūtīt preces, tiklīdz ražošanas līnijās tiek reģistrēta to pabeigšana. Mērķis ir nosūtīt preces uz sadales centriem, kas atrodas fiziski tuvu debitoru pieprasījuma vietai, nevis veidot krājumus ražošanas vietā.
 
-Ja nav tūlītēja preces pieprasījuma, tā ir jānovieto noliktavas novietojumos ražošanas vietā. Šis process tiek dēvēts arī par *iespējām atbilstošu pārkraušanu sadales centrā* , kas nozīmē, ka gadījumā, ja ir saņemts preces nosūtīšanas pieprasījums, ir jāizmanto šī iespēja, nevis jāpārvieto prece uz iekšējo noliktavu.
+Ja nav tūlītēja preces pieprasījuma, tā ir jānovieto noliktavas novietojumos ražošanas vietā. Šis process tiek dēvēts arī par *iespējām atbilstošu pārkraušanu sadales centrā*, kas nozīmē, ka gadījumā, ja ir saņemts preces nosūtīšanas pieprasījums, ir jāizmanto šī iespēja, nevis jāpārvieto prece uz iekšējo noliktavu.
 
 Tālāk sniegtajā piemērā ir aprakstītas trīs ražošanas līnijas galā (2) sāktas plūsmas versijas.
 
@@ -115,12 +115,12 @@ Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvi
 1.  Mainiet politiku pārkraušanai sadales centrā. Mainiet 1. gadījuma ietvaros izveidoto politiku pārkraušanai sadales centrā, atzīmējot izvēles rūtiņu **Pieprasījumam par pārkraušanu sadales centrā ir nepieciešams novietojums**.
 2.  Izveidojiet jaunu pārsūtīšanas pasūtījumu.
 3.  Atveriet **kravu plānošanas rīku**.
-4.  Kravu plānošanas rīkā pārejiet uz sadaļu **Kravas** un izvēlnē **Transportēšana** atlasiet opciju **Norīkojumu grafiks** , lai izveidotu jaunu norīkojumu grafiku. Ņemiet vērā, ka norīkojumu grafikā ir ietverta atsauce uz pārsūtīšanas pasūtījumu laukā **Pasūtījuma numurs**. Laukā **Plānotais sākuma datums/laiks novietojumā** varat iestatīt norīkojuma datumu un laiku. Šis datums un laiks tiek izmantots, nosakot pieprasījuma par pārkraušanu sadales centrā prioritāti pārkraušanas procesa laikā. Šajā laukā iestatītais datums un laiks tiek izmantoti, lai atjauninātu atbilstošās kravas lauka **Plānotās kravas nosūtīšanas datums un laiks** vērtību. Kopsavilkuma cilnē **Detalizēta nosūtīšanas informācija** norādītais novietojums ir novietojums, uz kuru tiek nosūtīts pārsūtīšanas pasūtījums.
+4.  Kravu plānošanas rīkā pārejiet uz sadaļu **Kravas** un izvēlnē **Transportēšana** atlasiet opciju **Norīkojumu grafiks**, lai izveidotu jaunu norīkojumu grafiku. Ņemiet vērā, ka norīkojumu grafikā ir ietverta atsauce uz pārsūtīšanas pasūtījumu laukā **Pasūtījuma numurs**. Laukā **Plānotais sākuma datums/laiks novietojumā** varat iestatīt norīkojuma datumu un laiku. Šis datums un laiks tiek izmantots, nosakot pieprasījuma par pārkraušanu sadales centrā prioritāti pārkraušanas procesa laikā. Šajā laukā iestatītais datums un laiks tiek izmantoti, lai atjauninātu atbilstošās kravas lauka **Plānotās kravas nosūtīšanas datums un laiks** vērtību. Kopsavilkuma cilnē **Detalizēta nosūtīšanas informācija** norādītais novietojums ir novietojums, uz kuru tiek nosūtīts pārsūtīšanas pasūtījums.
 5.  **Kravu plānošanas rīkā** nododiet kravu pārvietošanai uz noliktavu.
-6.  Izveidojiet krājuma Nr.  **L0101** ražošanas pasūtījumu un iestatiet tā statusu **Sākts** , norādot daudzumu 20.
+6.  Izveidojiet krājuma Nr. **L0101** ražošanas pasūtījumu un iestatiet tā statusu **Sākts**, norādot daudzumu 20.
 7.  Reģistrējiet pabeigšanu, izmantojot mobilo ierīci.
 8.  Pārejiet uz mobilo ierīču portālu un atlasiet izvēlnes vienumu **Reģistrēt pabeigšanu un izvietot**.
-9.  Reģistrējiet krājuma Nr.  **L0101** pabeigšanu, izmantojot rokas ierīci. Ņemiet vērā, ka izvietošanas novietojums tagad ir **BAYDOOR 2**. Šis novietojums ir iegūts no norīkojumu grafika, nevis novietojuma direktīvas **Pārsūtīšanas saņemšana**.
+9.  Reģistrējiet krājuma Nr. **L0101** pabeigšanu, izmantojot rokas ierīci. Ņemiet vērā, ka izvietošanas novietojums tagad ir **BAYDOOR 2**. Šis novietojums ir iegūts no norīkojumu grafika, nevis novietojuma direktīvas **Pārsūtīšanas saņemšana**.
 
 ### <a name="additional-information"></a>Papildinformācija
 

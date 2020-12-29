@@ -16,11 +16,11 @@ ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 9ca63cbc6bc6d6baed9d45bce30d0b32e156301c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988326"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432443"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Atribūtiem atbilstošas pārdošanas cenas ierobežojumiem atbilstošām preču konfigurācijām
 
@@ -32,7 +32,7 @@ Pirms sākat veidot cenu modeļus, ir jādefinē noklusējuma valūta, kas tiek 
 
 Lai iestatītu noklusējuma valūtu:
 
-1. Dodieties uz **Preču informācijas pārvaldība \> Iestatīšana \> Preču informācijas pārvaldības parametri**.
+1. Dodieties uz  **Preču informācijas pārvaldība \> Iestatīšana \> Preču informācijas pārvaldības parametri**.
 1. Atveriet cilni **Ierobežojumam atbilstošie preces konfigurācijas modeļi**.
 1. Atveriet **Noklusējuma valūta** nolaižamo sarakstu un atlasiet valūtu.
 
@@ -44,7 +44,7 @@ Lai iestatītu noklusējuma valūtu:
 
 Lai izveidotu pārdošanas cenu modeli:
 
-1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Dodieties uz  **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
 1. Atlasiet mērķa preces konfigurācijas modeli.
 1. Darbību rūtī atveriet cilni **Modelis** un grupā **Iestatīšana** atlasiet **Cenu modeļi**.
 1. Tiek atvērta lapa **Cenu modeļi**.
@@ -91,7 +91,7 @@ Tālāk esošajā piemērā _EUR_ ir noklusējuma valūta un _USD_ ir pievienota
 
 ## <a name="test-your-price-model"></a>Pārbaudīt cenas modeli
 
-Lai pārbaudītu, kā konfigurācijas sesijā darbojas pārdošanas cenas, atveriet jūsu cenas modeļa rediģēšanas lapu, kā aprakstīts sadaļā [Pārdošanas cenu modeļu izveide](#build-price-model) un pēc tam darbību rūtī atlasiet **Pārbaudīt**. Tiek atvērts dialoglodziņš **Pārbaudīt preces modeli**, kurā var rīkoties šādi:
+Lai pārbaudītu, kā konfigurācijas sesijā darbojas pārdošanas cenas, atveriet jūsu cenas modeļa rediģēšanas lapu, kā aprakstīts sadaļā [Pārdošanas cenu modeļu izveide](#build-price-model) un pēc tam darbību rūtī atlasiet  **Pārbaudīt**. Tiek atvērts dialoglodziņš **Pārbaudīt preces modeli**, kurā var rīkoties šādi:
 
 - Izmantojiet šeit piedāvātos konfigurācijas iestatījumus, lai atlasītu preces opcijas un pēc tam skatītu, kā tās ietekmē **Cena un nosūtīšanas datums** parādīto vērtību.
 - Atlasiet **Skatīt cenu sadalījumu**, lai lejupielādētu Excel dokumentu, kas parāda pilnīgu informāciju par cenas aprēķināšanu.
@@ -108,7 +108,7 @@ Kad cenu modeļi ir ieviesti, jums ir jāizveido vismaz viens atlases kritērijs
 
 Lai iestatītu cenu modeļu atlases kritērijus:
 
-1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Dodieties uz  **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
 1. Atlasiet mērķa preces konfigurācijas modeli.
 1. Darbību rūtī atveriet cilni **Modelis** un grupā **Iestatīšana** atlasiet **Cenas modeļa kritēriji**. Tiek atvērta lapa **Cenas modeļa kritēriji**.
 1. Ja nepieciešamā vaicājuma rinda vēl nepastāv, darbību rūtī atlasiet **Jauns**, lai režģim pievienotu jaunu rindu, un veiktu šādus iestatījumus:
@@ -136,7 +136,7 @@ Lai iestatītu cenu modeļu atlases kritērijus:
 
 Pēdējā darbība ir atribūtiem atbilstošu pārdošanas cenu norādīšana preču modeļa versijā. Lai izpildītu šo darbību:
 
-1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Dodieties uz  **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
 1. Atlasiet mērķa preces konfigurācijas modeli.
 1. Darbību rūtī atveriet cilni **Modelis** un grupā **Produkta modeļa informācija** atlasiet **Versijas**.
 1. Tiek atvērta lapa **Versijas**. Pārliecinieties, vai **Cenu noteikšanas metode** ir iestatīta uz **Atribūtam atbilstošs**.

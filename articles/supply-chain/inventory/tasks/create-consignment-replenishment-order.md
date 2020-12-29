@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018357"
+ms.locfileid: "4433184"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Sūtījuma papildināšanas pasūtījuma izveide
 
@@ -42,7 +42,7 @@ ms.locfileid: "4018357"
 9. Laukā **Apstiprinātais piegādes datums** ievadiet datumu.
 10. Izvērsiet sadaļu **Detalizēta informācija par rindu**.
 11. Atlasiet cilni **Krājumu izmēri**.
-12. Lai parādītu īpašnieku laukā **Krājumu izmēru īpašnieks** , atsvaidziniet lapu. Kreditors US-104 tagad ir norādīts kā īpašnieks.  
+12. Lai parādītu īpašnieku laukā **Krājumu izmēru īpašnieks**, atsvaidziniet lapu. Kreditors US-104 tagad ir norādīts kā īpašnieks.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Pārbaudiet krājumu darbības statusu
 1. Atlasiet **Krājumi**.

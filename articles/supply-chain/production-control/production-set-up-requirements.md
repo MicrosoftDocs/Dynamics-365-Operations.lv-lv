@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
-ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428404"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432530"
 ---
 # <a name="production-setup-requirements"></a>Ražošanas iestatījumu prasības
 
@@ -62,7 +62,7 @@ Pirms lietojat ražošanas kontroli, atveriet sadaļu Organizācijas administrē
 Operācijas pārstāv specifiskās aktivitātes, kas tiek izpildītas, lai ražotu pabeigtās preces. **Piezīme.** Jums ir jāzina, kāda tipa aktivitātes ir nepieciešamas, lai saražotu jūsu krājumu, kā arī jāzina šo aktivitāšu secība un prioritātes. Jums ir arī jāzina, kuri resursi ir iesaistīti un to daudzums.
 
 1.  **Operācijas** — iestatiet operācijas, lai parādītu uzdevumus, kas ir jāizpilda, lai saražotu pabeigto krājumu.
-2.  **Relācijas** — iestatiet operāciju relācijas, lai izveidotu detalizētus rekvizītus. Lai definētu operāciju relācijas, noklikšķiniet uz**Relācijas** lapā **Operācijas**.
+2.  **Relācijas** — iestatiet operāciju relācijas, lai izveidotu detalizētus rekvizītus. Lai definētu operāciju relācijas, noklikšķiniet uz **Relācijas** lapā **Operācijas**.
 
 ## <a name="setup-if-you-use-routes"></a>Iestatījums, ja izmantojat maršrutus
 Ja strādājat ar maršrutiem, tad operācijas ir nepieciešams definēt katram ražošanas maršrutam, ko iestatāt. Maršruts parāda ceļu, ko krājums veic no vienas operācijas uz citu, no ražošanas procesa sākuma līdz pat beigām.

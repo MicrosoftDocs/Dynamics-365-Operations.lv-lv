@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979506"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432824"
 ---
 # <a name="bom-designer-functionality"></a>MK veidotāja funkcionalitāte
 
@@ -64,7 +64,7 @@ Filtrs, kas tiek lietots MK un maršrutam, tiek parādīts MK veidotāja virsrak
 <tbody>
 <tr class="odd">
 <td>Preces dimensijas</td>
-<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. <strong>Piezīme.</strong> Ja atverat lapu MK koka struktūras veidotājs precei, kas nav preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</td>
+<td>Ja atlasītā pabeigtā prece ir preces šablons, tad aktīvās preces dimensijas varat definēt galvenajai atlasei. <strong>Piezīme.</strong> Ja atverat lapu MK koka struktūras veidotājs precei, kas nav&#39;preces šablons, dialoglodziņā <strong>Filtrs</strong> nevar atlasīt nevienu preces dimensiju.</td>
 </tr>
 <tr class="even">
 <td>Vieta</td>
@@ -96,7 +96,7 @@ Filtrs, kas tiek lietots MK un maršrutam, tiek parādīts MK veidotāja virsrak
 Lietojot MK struktūras veidotāju, lai pārskatītu vai rediģētu MK, kas sastāv no viena vai vairākiem veidošanas līmeņiem, maršruts, kas ir saistīts ar augstākā līmeņa krājumu, parasti aptver pilnu MK hierarhiju. Lai vienkāršotu apskatu, displejā varat bloķēt augstākā līmeņa maršrutu, noklikšķinot uz **Skatīt** &gt; **Bloķēt maršrutu**. Lai atbloķētu šo maršrutu, noklikšķiniet uz **Skatīt** &gt; **Atbloķēt maršrutu**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>MK un MK rindu pievienošana un rediģēšana
-Izmantojiet funkcijas **MK rindas**vai **MK**, lai modificētu MK rindas vai MK. Atlasot zaru kokā, zara tips nosaka, funkcijas, kas ir pieejamas.
+Izmantojiet funkcijas **MK rindas** vai **MK**, lai modificētu MK rindas vai MK. Atlasot zaru kokā, zara tips nosaka, funkcijas, kas ir pieejamas.
 
 | Funkcija                            | Apraksts                                                                                               | Zara tips un nosacījumi                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

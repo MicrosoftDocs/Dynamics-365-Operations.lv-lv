@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: ca7a5d88de4308d7be9c1bc749b9dbf1da027c2c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208827"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432987"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Darba pasūtījumi un pamatlīdzekļi
 
@@ -49,7 +49,7 @@ Attēlā ir parādīta saite starp investīciju projektu **projekta vadības un 
 
 ![3. attēls](media/26-work-orders.png)
 
-3. Kad iestatāt darba pasūtījuma projekta grupas cilnē (**Projektu grupa** lapā **Darba pasūtījumu projektu iestatīšana** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Projekta iestatīšana**), jūs izveidojat relāciju starp darba pasūtījuma veidu, kas tiek izmantots ieguldījumiem, un projekta grupu, kas izveidota ieguldījumiem **Projektu grupu** lapā modulī **Projekta pārvaldība un uzskaite** (**Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Grāmatošana** > **Projekta grupas**).
+3. Kad iestatāt darba pasūtījuma projekta grupas cilnē **Projektu grupa** lapā **Darba pasūtījumu projektu iestatīšana** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Darba pasūtījumi** > **Projekta iestatīšana**), jūs izveidojat relāciju starp darba pasūtījuma veidu, kas tiek izmantots ieguldījumiem, un projekta grupu, kas izveidota ieguldījumiem **Projektu grupu** lapā modulī **Projekta pārvaldība un uzskaite** (**Projekta pārvaldība un uzskaite** > **Iestatīšana** > **Grāmatošana** > **Projekta grupas**).
 
 ![4. attēls](media/27-work-orders.png)
 

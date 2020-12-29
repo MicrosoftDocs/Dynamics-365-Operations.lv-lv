@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207952"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432947"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Pirkšanas pasūtījuma apstiprināšanas mobilā darbvieta
 
@@ -75,7 +75,7 @@ Ja jūsu organizācijai ir izvietota Microsoft Dynamics 365 for Operations versi
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
-- [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+- [. Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 

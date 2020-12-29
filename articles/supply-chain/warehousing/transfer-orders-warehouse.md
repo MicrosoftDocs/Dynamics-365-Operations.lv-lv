@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017487"
+ms.locfileid: "4433160"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Noliktavu iestatīšana pārsūtīšanas pasūtījumiem 
 
@@ -51,5 +51,5 @@ Var izmantot noliktavas līmeņus, lai izveidotu hierarhiju, kas atbalsta pārs�
 Lapā **Transportēšanas dienas** ir jāiestata arī transportēšanas izpildes laiks starp noliktavām. 
 1. Atveriet sadaļu **Krājumu vadība > Iestatījumi > Sadale > Transportēšanas dienas**.
 2. Laukā **Saņemšanas punkts** atlasiet vienumu **noliktava**.
-3. Atlasiet **Nosūtītāja noliktava** , **Saņēmēja noliktava** un **Transportēšanas dienas**. 
+3. Atlasiet **Nosūtītāja noliktava**, **Saņēmēja noliktava** un **Transportēšanas dienas**. 
 4. (Nav obligāti) Varat arī iestatīt transportēšanas laiku atkarībā no piegādes veida cilnē **Transportēšanas dienas atbilstoši piegādes veidam**.

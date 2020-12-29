@@ -4,7 +4,7 @@ description: Šajā tēmā ir aprakstīta kopuma etiķešu drukāšana un paskai
 author: GarmMSFT
 manager: PJacobse
 ms.date: 05/01/2020
-ms.topic: configure-wave-label-printing
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016959"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4433219"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Iestatīt un lietot kopuma etiķešu drukāšanu
 
@@ -56,7 +56,7 @@ Kopuma etiķešu drukāšana piedāvā šādus uzlabojumus:
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ieslēgt līdzekli Kopuma etiķešu drukāšana
 
-Lai varētu izmantot līdzekli *Kopuma etiķešu drukāšana* , tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Lai varētu izmantot līdzekli *Kopuma etiķešu drukāšana*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Kopuma etiķešu drukāšana*
@@ -76,7 +76,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
 Lai padarītu pieejamu kopuma etiķešu drukāšanas metodi, var būt nepieciešams atkārtoti ģenerēt kopuma procesa metodes.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
-1. Apstipriniet, ka **waveLabelPrinting** ir sarakstā. Ja tā nav, darbību rūtī atlasiet **Atkārtoti ģenerēt metodes** , lai to pievienotu.
+1. Apstipriniet, ka **waveLabelPrinting** ir sarakstā. Ja tā nav, darbību rūtī atlasiet **Atkārtoti ģenerēt metodes**, lai to pievienotu.
 
 ### <a name="configure-a-wave-template"></a>Konfigurēt kopuma veidni
 
@@ -134,7 +134,7 @@ Etiķešu izkārtojums kontrolē, kāda informācija tiek drukāta uz etiķetes 
 
 1. Ja vēlaties varēt drukāt preču transporta pavadzīmes ID, cilnē **Savienojumi** atlasiet tabulu **Darba rindas** un pievienojiet tai tabulu **Sūtījumi**.
 1. Aizveriet vaicājumu redaktora dialoglodziņu.
-1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa** , **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts** , ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
+1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa**, **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts**, ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -174,7 +174,7 @@ Etiķešu izkārtojums kontrolē, kāda informācija tiek drukāta uz etiķetes 
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts** , ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts**, ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -193,7 +193,7 @@ Etiķešu izkārtojums kontrolē, kāda informācija tiek drukāta uz etiķetes 
     </Row>
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene** , ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene**, ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     ^PQ1^XZ
@@ -249,9 +249,9 @@ Pēc tam izveidojiet kopuma etiķešu veidni kopuma etiķetes veidam.
     - **Lauks:** *Konta numurs*
     - **Kritēriji:** ievadiet atbilstošo debitora konta numuru.
 
-    Kad esat pabeidzis, atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu.
+    Kad esat pabeidzis, atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu.
 
-1. Darbību rūtī atlasiet **Rediģēt vaicājumu** , lai atvērtu vaicājumu redaktora dialoglodziņu visai etiķešu veidnei.
+1. Darbību rūtī atlasiet **Rediģēt vaicājumu**, lai atvērtu vaicājumu redaktora dialoglodziņu visai etiķešu veidnei.
 1. Vaicājumu redaktora dialoglodziņā, cilnē **Kārtošana** pievienojiet rindu, kam ir turpmāk aprakstītie iestatījumi:
 
     - **Tabula:** *Darba rindas*
@@ -259,10 +259,10 @@ Pēc tam izveidojiet kopuma etiķešu veidni kopuma etiķetes veidam.
     - **Lauks:** *Atsauces kravas rindas ID (Ieraksta ID)*
     - **Meklēšanas virziens:** *Augošā secībā*
 
-1. Atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu.
+1. Atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu.
 1. Ziņojuma lodziņš aicina apstiprināt grupēšanas atiestatīšanas darbību. Lai turpinātu, atlasiet **Jā**.
 1. Darbību rūtī atlasiet **Kopuma etiķešu veidņu grupēšana**.
-1. Dialoglodziņā **Kopuma etiķešu veidņu grupēšana** atlasiet rindu, kurā lauks **Atsauces lauka nosaukums** ir iestatīts uz *Atsauces kravas rindas ID* , un pēc tam atzīmējiet izvēles rūtiņu **Etiķešu kompilācijas ID** šai rindai.
+1. Dialoglodziņā **Kopuma etiķešu veidņu grupēšana** atlasiet rindu, kurā lauks **Atsauces lauka nosaukums** ir iestatīts uz *Atsauces kravas rindas ID*, un pēc tam atzīmējiet izvēles rūtiņu **Etiķešu kompilācijas ID** šai rindai.
 
     > [!NOTE]
     > Šis iestatījums izveidos vienu etiķetes secību (“carton 1 X”) kravas rindai visā kopumā, neņemot vērā darba grupēšanas iestatījumus. Šo etiķešu secību var drukāt uz etiķešu izkārtojuma.
@@ -297,9 +297,9 @@ Numuru sērijas paplašinājumi kontrolē GS1 atbilstību noteiktām numuru sēr
     > Šeit sniegtie krājumi un daudzumi ir tikai piemēri. Tie izmantos vienības secību grupu, ko definējāt iepriekš, tāpēc tiem ir jādefinē piemērota vienību pārveidošana no *ea* uz *Box* uz *PL* un krājumiem ir jābūt *62* noliktavā. Papildinformāciju skatiet sadaļā [Mērvienību un krājumu politikas](unit-measure-stocking-policies.md).
 
 1. Atlasiet 1. pārdošanas pasūtījuma rindu. Pēc tam sadaļas **Pārdošanas pasūtījuma rinda** izvēlnē **Krājumi** atlasiet **Rezervācijas**.
-1. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu** , un pēc tam aizveriet lapu.
+1. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu**, un pēc tam aizveriet lapu.
 1. Atkārtojiet 4. un 5. soli pārdošanas pasūtījuma 2. rindai.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Notiek tālāk aprakstītie notikumi:
 
@@ -307,7 +307,7 @@ Numuru sērijas paplašinājumi kontrolē GS1 atbilstību noteiktām numuru sēr
     - Kopuma etiķetes tiek ģenerētas un izdrukātas. Etiķešu skaits būs vienāds ar kastu skaitu (šajā piemērā 376 kastu etiķetes 1. rindai un 322 kastu etiķetes 2. rindai).
     - Sūtījumiem tiek ģenerēts jauns preču transporta pavadzīmes ID. Ja konfigurējāt numuru sērijas paplašinājumus, kopuma etiķešu ID sekos **SSCC-18** numura formātam. 
 
-Varat skatīt un atkārtoti drukāt kopuma etiķetes no šādām lapām. Katras lapas darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija** , atlasiet **Kopuma etiķetes**.
+Varat skatīt un atkārtoti drukāt kopuma etiķetes no šādām lapām. Katras lapas darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija**, atlasiet **Kopuma etiķetes**.
 
 - Visi sūtījumi \> Sūtījuma informācija
 - Visas kravas \> Kravas informācija
@@ -337,7 +337,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
 Lai padarītu pieejamu kopuma etiķešu drukāšanas metodi, var būt nepieciešams atkārtoti ģenerēt kopuma procesa metodes.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
-1. Apstipriniet, ka **waveLabelPrinting** ir sarakstā. Ja tā nav, darbību rūtī atlasiet **Atkārtoti ģenerēt metodes** , lai to pievienotu.
+1. Apstipriniet, ka **waveLabelPrinting** ir sarakstā. Ja tā nav, darbību rūtī atlasiet **Atkārtoti ģenerēt metodes**, lai to pievienotu.
 
 ### <a name="set-up-a-wave-template"></a>Iestatiet kopuma veidni
 
@@ -391,7 +391,7 @@ Kopuma veidnes ļauj saistīt noteiktas kopuma metodes ar atbilstošo kopuma eti
 
 1. Ja vēlaties varēt drukāt preču transporta pavadzīmes ID, cilnē **Savienojumi** atlasiet tabulu **Darba rindas** un pievienojiet tai tabulu **Sūtījumi**.
 1. Aizveriet vaicājumu redaktora dialoglodziņu.
-1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa** , **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts** , ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
+1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa**, **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts**, ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -402,7 +402,7 @@ Kopuma veidnes ļauj saistīt noteiktas kopuma metodes ar atbilstošo kopuma eti
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts** , ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts**, ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     <Row name="WorkLine">
@@ -416,7 +416,7 @@ Kopuma veidnes ļauj saistīt noteiktas kopuma metodes ar atbilstošo kopuma eti
     </Row>
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene** , ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene**, ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     ^PQ1^XZ
@@ -451,7 +451,7 @@ Tagad etiķete ir gatava lietošanai.
     - **Lauks:** *Konta numurs*
     - **Kritēriji:** ievadiet atbilstošo debitora konta numuru.
 
-    Kad esat pabeidzis, atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu.
+    Kad esat pabeidzis, atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu.
 
 ### <a name="configure-number-sequence-extensions"></a>Konfigurēt numuru sērijas paplašinājumus
 
@@ -496,9 +496,9 @@ Numuru sērijas paplašinājumi kontrolē GS1 atbilstību noteiktām numuru sēr
     > Šeit sniegtie krājumi un daudzumi ir tikai piemēri. Krājumiem ir jābūt norādītajā noliktavā.
 
 1. Atlasiet 1. pārdošanas pasūtījuma rindu. Pēc tam sadaļas **Pārdošanas pasūtījuma rinda** izvēlnē **Krājumi** atlasiet **Rezervācijas**.
-1. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu** , un pēc tam aizveriet lapu.
+1. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu**, un pēc tam aizveriet lapu.
 1. Atkārtojiet 4. un 5. soli katrai papildu pārdošanas pasūtījuma rindai.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Notiek tālāk aprakstītie notikumi:
 
@@ -526,7 +526,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
 ### <a name="set-up-a-wave-process-method"></a>Kopuma apstrādes metodes iestatīšana
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Kopumi \> Kopuma procesa metodes**.
-1. Apstipriniet, ka **waveLabelPrinting** ir sarakstā. Ja tā nav, darbību rūtī atlasiet **Atkārtoti ģenerēt metodes** , lai to pievienotu.
+1. Apstipriniet, ka **waveLabelPrinting** ir sarakstā. Ja tā nav, darbību rūtī atlasiet **Atkārtoti ģenerēt metodes**, lai to pievienotu.
 1. Metodei **waveLabelPrinting** atzīmējiet izvēles rūtiņu **Metode atkārtojama**.
 
 ### <a name="set-up-a-wave-template"></a>Iestatiet kopuma veidni
@@ -583,7 +583,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
 
 1. Ja vēlaties varēt drukāt preču transporta pavadzīmes ID, cilnē **Savienojumi** atlasiet tabulu **Darba rindas** un pievienojiet tai tabulu **Sūtījumi**. 
 1. Aizveriet vaicājumu redaktora dialoglodziņu.
-1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa** , **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts** , ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
+1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa**, **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts**, ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
 
 
     ```plaintext
@@ -624,7 +624,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts** , ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts**, ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -643,7 +643,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     </Row>
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene** , ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene**, ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     ^PQ1^XZ
@@ -695,7 +695,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
 
 1. Ja vēlaties varēt drukāt preču transporta pavadzīmes ID, cilnē **Savienojumi** atlasiet tabulu **Darba rindas** un pievienojiet tai tabulu **Sūtījumi**.
 1. Aizveriet vaicājumu redaktora dialoglodziņu.
-1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa** , **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts** , ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
+1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa**, **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts**, ievadiet vajadzīgās galvenes kodu. Piemēram, ja lietojat Zebra printerus, varat izmantot šādu kodu.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -706,7 +706,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts** , ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes pamatteksts**, ievadiet vajadzīgā pamatteksta ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -717,7 +717,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     </Row>
     ```
 
-1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene** , ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
+1. Sadaļas **Pamatteksta sadaļa** laukā **Etiķetes kājene**, ievadiet vajadzīgās kājenes ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     ^PQ1^XZ
@@ -733,7 +733,7 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     - **Apraksts:** *Pārtraukuma etiķete*
 
 1. Darbību rūtī atlasiet **Saglabāt**.
-1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa** , **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts** , ievadiet vajadzīgās galvenes ZPL kodu. Tālāk ir minēts piemērs.
+1. Kopsavilkuma cilnei **Printera teksta izkārtojums** ir trīs sadaļas, kur var rakstīt printera kodu: **Galvenes sadaļa**, **Pamatteksta sadaļa** un **Kājenes sadaļa**. Sadaļas **Galvenes sadaļa** laukā **Etiķetes virsraksts**, ievadiet vajadzīgās galvenes ZPL kodu. Tālāk ir minēts piemērs.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -798,9 +798,9 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     - **Lauks:** *Konta numurs*
     - **Kritēriji:** ievadiet atbilstošo debitora konta numuru.
 
-    Kad esat pabeidzis, atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu.
+    Kad esat pabeidzis, atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu.
 
-1. Darbību rūtī atlasiet **Rediģēt vaicājumu** , lai atvērtu vaicājumu redaktora dialoglodziņu visai etiķešu veidnei.
+1. Darbību rūtī atlasiet **Rediģēt vaicājumu**, lai atvērtu vaicājumu redaktora dialoglodziņu visai etiķešu veidnei.
 1. Vaicājumu redaktora dialoglodziņā, cilnē **Kārtošana** pievienojiet rindu, kam ir turpmāk aprakstītie iestatījumi:
 
     - **Tabula:** *Darba rindas*
@@ -815,21 +815,21 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     - **Lauks:** *Sūtījuma ID*
     - **Meklēšanas virziens:** *Augošā secībā*
 
-1. Atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu.
+1. Atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu.
 1. Ziņojuma lodziņš aicina apstiprināt grupēšanas atiestatīšanas darbību. Lai turpinātu, atlasiet **Jā**.
 1. Darbību rūtī atlasiet **Kopuma etiķešu veidņu grupēšana**.
-1. Dialoglodziņā **Kopuma etiķešu veidņu grupēšana** rindai, kur lauks **Atsauces lauka nosaukums** ir iestatīts uz *Sūtījuma ID* , iestatiet šādas vērtības:
+1. Dialoglodziņā **Kopuma etiķešu veidņu grupēšana** rindai, kur lauks **Atsauces lauka nosaukums** ir iestatīts uz *Sūtījuma ID*, iestatiet šādas vērtības:
 
     - **Drukāt pārtraukuma etiķetes:** atzīmējiet šo izvēles rūtiņu.
-    - **Etiķetes izkārtojuma ID:** atlasiet pārtraukuma etiķeti. (Piemēram, atlasiet etiķešu izkārtojumu *Break* , ko izveidojāt iepriekš šajā scenārijā.)
+    - **Etiķetes izkārtojuma ID:** atlasiet pārtraukuma etiķeti. (Piemēram, atlasiet etiķešu izkārtojumu *Break*, ko izveidojāt iepriekš šajā scenārijā.)
     - **Printera nosaukums:** atlasiet printeri pārtraukuma etiķetēm. (Parasti, lai sadalītu etiķešu ruļļus, ir jāatlasa tas pats printeris, kas atlasīts kopsavilkuma cilnē **Kopuma etiķešu veidnes informācija**. Tomēr ir iespējami arī citi scenāriji.)
 
-1. Rindai, kuras lauks **Atsauces lauka nosaukums** ir iestatīts uz *Atsauces kravas rindas ID* , atzīmējiet izvēles rūtiņu **Etiķešu kompilācijas ID**.
+1. Rindai, kuras lauks **Atsauces lauka nosaukums** ir iestatīts uz *Atsauces kravas rindas ID*, atzīmējiet izvēles rūtiņu **Etiķešu kompilācijas ID**.
 
     > [!NOTE]
     > Šis iestatījums izveidos vienu etiķetes secību (“carton 1 X”) kravas rindai visā kopumā, neņemot vērā darba grupēšanas iestatījumus. Šo etiķešu secību var drukāt uz etiķešu izkārtojuma. Turklāt atlasītās pārtraukuma etiķetes atdala dažādu sūtījumu etiķetes.
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu **Kopuma etiķešu veidņu grupēšana**.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Kopuma etiķešu veidņu grupēšana**.
 1. Izveidojiet otru etiķešu veidni, kam ir turpmāk aprakstītie iestatījumi:
 
     - **Etiķetes veidnes nosaukums:** *Pallet labels*
@@ -852,9 +852,9 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     - **Lauks:** *Konta numurs*
     - **Kritēriji:** ievadiet atbilstošo debitora konta numuru.
 
-    Kad esat pabeidzis, atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu. 
+    Kad esat pabeidzis, atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu. 
 
-1. Darbību rūtī atlasiet **Rediģēt vaicājumu** , lai atvērtu vaicājumu redaktora dialoglodziņu visai etiķešu veidnei.
+1. Darbību rūtī atlasiet **Rediģēt vaicājumu**, lai atvērtu vaicājumu redaktora dialoglodziņu visai etiķešu veidnei.
 1. Vaicājumu redaktora dialoglodziņā, cilnē **Kārtošana** pievienojiet rindu, kam ir turpmāk aprakstītie iestatījumi:
 
     - **Tabula:** *Darba rindas*
@@ -869,16 +869,16 @@ Lai sekotu šim scenārijam, ir jābūt instalētiem demonstrācijas datiem, un 
     - **Lauks:** *Sūtījuma ID*
     - **Meklēšanas virziens:** *Augošā secībā*
 
-1. Atlasiet **Labi** , lai aizvērtu vaicājumu redaktora dialoglodziņu.
+1. Atlasiet **Labi**, lai aizvērtu vaicājumu redaktora dialoglodziņu.
 1. Ziņojuma lodziņš aicina apstiprināt grupēšanas atiestatīšanas darbību. Lai turpinātu, atlasiet **Jā**.
 1. Darbību rūtī atlasiet **Kopuma etiķešu veidņu grupēšana**.
-1. Dialoglodziņā **Kopuma etiķešu veidņu grupēšana** rindai, kur lauks **Atsauces lauka nosaukums** ir iestatīts uz *Sūtījuma ID* , iestatiet šādas vērtības:
+1. Dialoglodziņā **Kopuma etiķešu veidņu grupēšana** rindai, kur lauks **Atsauces lauka nosaukums** ir iestatīts uz *Sūtījuma ID*, iestatiet šādas vērtības:
 
     - **Drukāt pārtraukuma etiķetes:** atzīmējiet šo izvēles rūtiņu.
-    - **Etiķetes izkārtojuma ID:** atlasiet pārtraukuma etiķeti. (Piemēram, atlasiet etiķešu izkārtojumu *Break* , ko izveidojāt iepriekš šajā scenārijā.)
+    - **Etiķetes izkārtojuma ID:** atlasiet pārtraukuma etiķeti. (Piemēram, atlasiet etiķešu izkārtojumu *Break*, ko izveidojāt iepriekš šajā scenārijā.)
     - **Printera nosaukums:** atlasiet printeri pārtraukuma etiķetēm. (Parasti, lai sadalītu etiķešu ruļļus, ir jāatlasa tas pats printeris, kas atlasīts kopsavilkuma cilnē **Kopuma etiķešu veidnes informācija**. Tomēr ir iespējami arī citi scenāriji.)
 
-1. Rindai, kuras lauks **Atsauces lauka nosaukums** ir iestatīts uz *Atsauces kravas rindas ID* , atzīmējiet izvēles rūtiņu **Etiķešu kompilācijas ID**.
+1. Rindai, kuras lauks **Atsauces lauka nosaukums** ir iestatīts uz *Atsauces kravas rindas ID*, atzīmējiet izvēles rūtiņu **Etiķešu kompilācijas ID**.
 
     > [!NOTE]
     > Šis iestatījums izveidos vienu etiķetes secību (“carton 1 X”) kravas rindai visā kopumā, neņemot vērā darba grupēšanas iestatījumus. Šo etiķešu secību var drukāt uz etiķešu izkārtojuma. Turklāt atlasītās pārtraukuma etiķetes atdala dažādu sūtījumu etiķetes.
@@ -913,9 +913,9 @@ Numuru sērijas paplašinājumi kontrolē GS1 atbilstību noteiktām numuru sēr
     > Šeit sniegtie krājumi un daudzumi ir tikai piemēri. Tie izmantos vienības secību grupu, ko definējāt iepriekš, tāpēc tiem ir jādefinē piemērota vienību pārveidošana no *ea* uz *Box* uz *PL* un krājumiem ir jābūt *62* noliktavā. Papildinformāciju skatiet sadaļā [Mērvienību un krājumu politikas](unit-measure-stocking-policies.md).
 
 1. Atlasiet 1. pārdošanas pasūtījuma rindu. Pēc tam sadaļas **Pārdošanas pasūtījuma rinda** izvēlnē **Krājumi** atlasiet **Rezervācijas**.
-1. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu** , un pēc tam aizveriet lapu.
+1. Lapas **Rezervācija** darbību rūtī atlasiet **Rezervēt laidienu**, un pēc tam aizveriet lapu.
 1. Atkārtojiet 4. un 5. soli pārdošanas pasūtījuma 2. rindai.
-1. Cilnē **Noliktava** , kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
+1. Cilnē **Noliktava**, kas atrodas darbību rūtī, atlasiet **Nodot izpildei noliktavā**.
 
     Notiek tālāk aprakstītie notikumi: 
 
@@ -931,4 +931,4 @@ Varat skatīt un atkārtoti drukāt kopuma etiķetes no šādām lapām:
 - Kopuma etiķetes
 - Kopuma etiķešu vēsture
 
-Vairumam šo lapu varat atrast atbilstošo funkciju darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija** , atlasot **Kopuma etiķetes**.
+Vairumam šo lapu varat atrast atbilstošo funkciju darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija**, atlasot **Kopuma etiķetes**.

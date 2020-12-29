@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8ebd53d66eb81bbee9d3e67d05102c8df413d2a3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214101"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432739"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Atjaunināt jaunas ražošanas vienības standarta izmaksas
 
@@ -37,7 +37,7 @@ Norādījumi tālāk tiek sniegti, pieņemot, ka standarta izmaksu atjaunināša
 -   Piešķiriet instancei **Standarta izmaksas** izmaksu aprēķināšanas veidu.
 -   Piešķiriet nozīmīgu identifikatoru, kas norāda izmaksu aprēķināšanas versijas komponentus, piemēram, **2016-ATJAUNINĀJUMI**.
 -   Lauka grupā **Atļaut cenu veidus** pārbaudiet, vai ir iestatīta vienuma **Izmaksu cena** opcija **Jā**.
--   Atļaujiet veikt izmaksu ierakstus visām vietām (t.i., atstājiet lauku **Vieta**tukšu). Ja vieta ir ievadīta, izmaksu ierakstus var ievadīt tikai šai vietai.
+-   Atļaujiet veikt izmaksu ierakstus visām vietām (t.i., atstājiet lauku **Vieta** tukšu). Ja vieta ir ievadīta, izmaksu ierakstus var ievadīt tikai šai vietai.
 -   Izmantojiet regresa principu **Aktīvs**.
 
 Lai pievienotu jaunus ražošanas krājumus iesaldētajā periodā, veiciet tālāk norādītās darbības.

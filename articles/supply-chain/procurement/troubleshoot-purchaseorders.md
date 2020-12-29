@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018564"
+ms.locfileid: "4433201"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Pirkšanas pasūtījumu problēmu novēršana
 
@@ -34,13 +34,13 @@ ms.locfileid: "4018564"
 
 Šī problēma var rasties pirkšanas pasūtījuma sadaļu neatbilstības dēļ.
 
-Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts* , dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts*, dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Kad pirkšanas pasūtījumi tiek importēti, izmantojot datu pārvaldību, pirkšanas pasūtījuma rindu numuri neseko palielinājumam, kas definēts sistēmas parametros.
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Pēc noklusējuma automātiski ģenerētie rindu numuri pirkšanas pasūtījuma rindām, kas tiek importētas, izmantojot datu elementu *Pirkšanas pasūtījuma rindas V2* , neizmanto sistēmas rindu numuru palielinājumu, kas norādīts sistēmas parametros. Ja manuāli izveidojat pirkšanas pasūtījumu un pievienojat rindas, izmantojot lietotāja interfeisu (UI), rindu numuri tiek palielināti pareizi. Tomēr, ja izmantojat datu pārvaldības struktūras (DMF), tie netiek pareizi palielināti.
+Pēc noklusējuma automātiski ģenerētie rindu numuri pirkšanas pasūtījuma rindām, kas tiek importētas, izmantojot datu elementu *Pirkšanas pasūtījuma rindas V2*, neizmanto sistēmas rindu numuru palielinājumu, kas norādīts sistēmas parametros. Ja manuāli izveidojat pirkšanas pasūtījumu un pievienojat rindas, izmantojot lietotāja interfeisu (UI), rindu numuri tiek palielināti pareizi. Tomēr, ja izmantojat datu pārvaldības struktūras (DMF), tie netiek pareizi palielināti.
 
 Šī problēma rodas, ja importējat rindas, izmantojot DMF un importētajā elementā vēl nav piešķirti rindu numuri, tad sistēma izmanto DMF metodi to piešķiršanai. Šī metode vienmēr palielina rindu numurus par vienu.
 
@@ -58,7 +58,7 @@ Tas tiek darīts ar nolūku. Nodokļu grupas, termiņatlaižu un citas cenu info
 
 Šī problēma var rasties pirkšanas pasūtījuma sadaļu neatbilstības dēļ.
 
-Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts* , dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts*, dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Viena vai vairākas uzskaites sadales ir vai nu pārdalītas, vai nepilnīgi sadalītas.
 
@@ -70,7 +70,7 @@ Tiek parādīts šāds kļūdas ziņojums: “Viena vai vairākas uzskaites sada
 
 Šī problēma var rasties pirkšanas pasūtījuma sadaļu neatbilstības dēļ.
 
-Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts* , dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts*, dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>Vai var parādīt tikai manis izveidotos pirkšanas pasūtījumus?
 
@@ -80,7 +80,7 @@ Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvok
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Pat ja vienības pirkšanas pasūtījumā ir ar stāvokli *Reģistrēts* , krājumus joprojām var rezervēt. Citiem vārdiem, varat izveidot darbības saistībā ar reģistrētajiem krājumiem.
+Pat ja vienības pirkšanas pasūtījumā ir ar stāvokli *Reģistrēts*, krājumus joprojām var rezervēt. Citiem vārdiem, varat izveidot darbības saistībā ar reģistrētajiem krājumiem.
 
 ### <a name="reproduce-the-issue"></a>Problēmas atveide
 
@@ -118,7 +118,7 @@ Tas tiek darīts ar nolūku. Pirkšanas pasūtījumos prece vienmēr tiek rādī
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Precei ir apstiprināts piegādātājs, kura spēkā stāšanās datums ir, piemēram, 2018. gada 11. janvāris ( *01/11/2018* ) un beigu datums ir *Nekad*. Ja mēģināsit mainīt spēkā stāšanās datumu uz 2018. gada 10. janvāri ( *01/10/2018* ) vai 2018. gada 12. janvāri ( *01/12/2018* ), tiks parādīta šāda kļūda:
+Precei ir apstiprināts piegādātājs, kura spēkā stāšanās datums ir, piemēram, 2018. gada 11. janvāris (*01/11/2018*) un beigu datums ir *Nekad*. Ja mēģināsit mainīt spēkā stāšanās datumu uz 2018. gada 10. janvāri (*01/10/2018*) vai 2018. gada 12. janvāri (*01/12/2018*), tiks parādīta šāda kļūda:
 
 > Nevar izveidot ierakstu apstiprinātā piegādātāja sarakstā (PdsApproveVendorList). Vērtībai “Termiņa beigas” ir jābūt lielākai vai vienādai ar vērtību “Spēkā esošs”.
 
@@ -130,7 +130,7 @@ Varat pagarināt tikai periodu, kurā piegādātājs ir apstiprināts. Ir spēk�
 - Lai mainītu beigu datumu tā, lai tas būtu vēlāks par jebkuru no esošajiem periodiem, spēkā stāšanās datumam jābūt pēc vēlākā beigu datuma jebkurā esošajā ierakstā.
 - Lai samazinātu kopējo periodu, kurā kreditors ir apstiprināts, ir jādzēš vai jāmodificē esošie ieraksti. Vai arī importēšanas laikā varat izmantot slēdzi **Saīsināt**. Šis slēdzis dzēš visus esošos ierakstus tabulā apstiprinātajiem piegādātājiem pēc krājuma.
 
-Piemēra scenārijam, kas ir aprakstīts problēmas aprakstā, kur ierakstam ir spēkā stāšanās datums *01/11/2018* un beigu datums *Nekad* , jūs varat importēt jaunu ierakstu, kam ir spēkā stāšanās datums *01/10/2018* un beigu datums *Nekad*. Tomēr jūs nevarat samazināt periodu tā, lai spēkā stāšanās datums tiktu atjaunināts uz *01/12/2018* , izmantojot datu pārvaldību. Šīs izmaiņas jāveic, izmantojot lietotāja interfeisu.
+Piemēra scenārijam, kas ir aprakstīts problēmas aprakstā, kur ierakstam ir spēkā stāšanās datums *01/11/2018* un beigu datums *Nekad*, jūs varat importēt jaunu ierakstu, kam ir spēkā stāšanās datums *01/10/2018* un beigu datums *Nekad*. Tomēr jūs nevarat samazināt periodu tā, lai spēkā stāšanās datums tiktu atjaunināts uz *01/12/2018*, izmantojot datu pārvaldību. Šīs izmaiņas jāveic, izmantojot lietotāja interfeisu.
 
 ## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Pēc piegādes adreses maiņas pirkšanas pasūtījuma galvenē piegādes nosaukums netiek sinhronizēts.
 

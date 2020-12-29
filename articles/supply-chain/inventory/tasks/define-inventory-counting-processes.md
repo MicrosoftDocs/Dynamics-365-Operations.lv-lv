@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9df5db0e71f550e82820e15b1597d9e287071f83
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214002"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433041"
 ---
 # <a name="define-inventory-counting-processes"></a>Krājumu inventarizācijas procesu definēšana
 
@@ -38,10 +38,10 @@ ms.locfileid: "3214002"
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
 5. Atlasiet opciju laukā **Inventarizācijas kods**.
 
-    - **Manuāli** — ietver rindas ikreiz, kad pildāt darbu. Citiem vārdiem sakot, tiek noteikts inventarizācijas intervāls inventarizācijas grupai.  
-    - **Periods** — ietver rindas par periodu inventarizācijas žurnālā, kad perioda intervāls ir beidzies.  
-    - **Krājumos ir nulle** — ja rīcībā esošie krājumi sasniedz nulli (0), tad darba izpildes laikā inventarizācijas žurnālā tiek ģenerētas rindas. Ja rīcībā esošais krājums pēc uzskaites ir 0, rindas tiek veidotas nākamajā reizē, kad uzsākat uzskaiti.  
-    - **Minimums** — iekļauj rindas inventarizācijas žurnālā, ja rīcībā esošie krājumi ir vienādi vai ir mazāki par norādīto minimumu.  
+    - **Manuāli** — ietver rindas ikreiz, kad pildāt darbu. Citiem vārdiem sakot, tiek noteikts inventarizācijas intervāls inventarizācijas grupai.  
+    - **Periods** — ietver rindas par periodu inventarizācijas žurnālā, kad perioda intervāls ir beidzies.  
+    - **Krājumos ir nulle** — ja rīcībā esošie krājumi sasniedz nulli (0), tad darba izpildes laikā inventarizācijas žurnālā tiek ģenerētas rindas. Ja rīcībā esošais krājums pēc uzskaites ir 0, rindas tiek veidotas nākamajā reizē, kad uzsākat uzskaiti.  
+    - **Minimums** — iekļauj rindas inventarizācijas žurnālā, ja rīcībā esošie krājumi ir vienādi vai ir mazāki par norādīto minimumu.  
     - Neobligāti: ja laukā **Inventarizācijas kods** esat norādījis **Periodu**, jums ir jāievada perioda intervāls laukā **Inventarizācijas periods**. Intervālu vienība ir dienas.  
     - Palaižot darbu, lai inventarizācijas žurnālā radītu jaunas rindas, tās tiek izveidotas ar intervālu, kas norādīts šajā laukā, neatkarīgi no tā, cik bieži palaižat šo pašu darbu. Piemēram, ja **Inventarizācijas periods** ir iestatīts uz 7 un žurnāla rindas pēdējo reizi inventarizācijai tika ģenerētas 1. janvārī, ja 5. janvārī ir uzsākts cits darbs, septiņas dienas nav pagājušas, un tādēļ par šo periodu rindas netika ģenerētas rindas. Ja darbu vēlreiz palaidīsiet 8. janvārī, inventarizācijas žurnālā šim periodam rindas tiks ģenerētas, jo būs pagājušas 7 dienas.  
 
@@ -57,9 +57,9 @@ ms.locfileid: "3214002"
 
     - Šis ir detalizācijas līmenis, kas tiek lietots, grāmatojot žurnālu.  
     - Papildu: varat mainīt vērtību laukā Rezervēšana. Tas norāda metodi, kas tiks izmantota krājumu rezervēšanai inventarizācijas laikā.   
-    - **Manuāli** — vienumus rezervē manuāli Rezervācijas veidlapā.  
-    - **Automātiski** — pasūtījuma daudzumu rezervē no pieejamajiem, rīcībā esošajiem krājumiem katram vienumam.   
-    - **Izvēršana** — rezervācija ir transakcijas vispārējās plānošanas sastāvdaļa.  
+    - **Manuāli** — vienumus rezervē manuāli Rezervācijas veidlapā.  
+    - **Automātiski** — pasūtījuma daudzumu rezervē no pieejamajiem, rīcībā esošajiem krājumiem katram vienumam.   
+    - **Izvēršana** — rezervācija ir transakcijas vispārējās plānošanas sastāvdaļa.  
 
 7. Atlasiet **Saglabāt**.
 

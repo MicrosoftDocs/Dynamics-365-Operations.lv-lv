@@ -4,7 +4,7 @@ description: Šajā tēmā ir paskaidrots, kā anulēt un atkārtoti drukāt eso
 author: GarmMSFT
 manager: PJacobse
 ms.date: 07/09/2020
-ms.topic: reprint-and-void-wave-labels
+ms.topic: article
 ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016658"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4433221"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Kopuma etiķešu atkārtota drukāšana un anulēšana
 
@@ -42,7 +42,7 @@ Kopuma etiķešu atkārtotas drukāšanas līdzeklis atbalsta šādu funkcionali
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>1. scenārijs: atkārtota etiķešu drukāšana no tīmekļa klienta
 
-Varat skatīt un atkārtoti drukāt kopuma etiķetes no šādām lapām. Katras lapas darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija** , atlasiet **Kopuma etiķetes**.
+Varat skatīt un atkārtoti drukāt kopuma etiķetes no šādām lapām. Katras lapas darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija**, atlasiet **Kopuma etiķetes**.
 
 - Visi sūtījumi \> Sūtījuma informācija
 - Visas kravas \> Kravas informācija
@@ -54,7 +54,7 @@ Lai atkārtoti drukātu kopuma etiķeti no tīmekļa klienta, veiciet tālāk no
 
 1. Dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \>Sūtījuma kopumi \>Visi kopumi**.
 1. Atlasiet kopumu, no kura atkārtoti drukāt etiķetes.
-1. Darbību rūts cilnē **Kopums** , grupā **Drukāt** atlasiet **Kopuma etiķetes**.
+1. Darbību rūts cilnē **Kopums**, grupā **Drukāt** atlasiet **Kopuma etiķetes**.
 1. Izpildiet vienu vai abas no tālāk minētajām darbībām:
 
     - Lai atkārtoti drukātu etiķeti, laukā **Printera nosaukums** atlasiet printeri. (Atstājiet šo lauku tukšu, ja vēlaties tikai atjaunināt kopuma etiķetes informāciju, nedrukājot etiķeti atkārtoti.)
@@ -63,7 +63,7 @@ Lai atkārtoti drukātu kopuma etiķeti no tīmekļa klienta, veiciet tālāk no
     > [!NOTE]
     > Katru reizi, kad kopuma etiķete tiek drukāta vai atkārtoti drukāta, tās dati tiek pārvērsti, izmantojot attiecīgo kopuma etiķešu izkārtojumu, un visi vietturi tiek aizstāti ar faktiskajām vērtībām. Iegūtā virkne tiek saglabāta kā ieraksts kopuma etiķešu vēsturē. Ja izvēles rūtiņa **Atjaunināt kopuma etiķetes informāciju** tiek notīrīta, Zebra programmēšanas valodas (ZPL) saglabātie dati tiek izmantoti, kad etiķete tiek atkārtoti drukāta. Ja izvēles rūtiņa **Atjaunināt kopuma etiķetes informāciju** tiek atzīmēta, tiek ģenerēta jauna virkne. Esošās kopuma etiķetes tiek pārrēķinātas, un visas liekās etiķetes (piemēram, ja saistītās darba rindas ir atceltas vai modificētas) ir atzīmētas kā **Anulēts** un nav atkārtoti drukājamas.
 
-1. Atlasiet **Labi** , lai apstiprinātu atlasi.
+1. Atlasiet **Labi**, lai apstiprinātu atlasi.
 
 ## <a name="scenario-2-reprint-labels-from-the-warehousing-app"></a>2. scenārijs: atkārtota etiķešu drukāšana no noliktavas programmas
 
@@ -96,7 +96,7 @@ Veiciet tālāk norādītās darbības, lai izveidotu jaunu izvēlnes vienumu ko
     - **Sistēmas grupēšanas etiķete:** *Sūtījuma ID*
     - **Drukas režīms:** *Prece*
 
-1. Darbību rūtī atlasiet **Lauku saraksts** , lai atvērtu lapu, kurā var atlasīt laukus, kas tiks parādīti, lai palīdzētu darbiniekiem identificēt pareizo etiķešu rulli.
+1. Darbību rūtī atlasiet **Lauku saraksts**, lai atvērtu lapu, kurā var atlasīt laukus, kas tiks parādīti, lai palīdzētu darbiniekiem identificēt pareizo etiķešu rulli.
 1. Var norādīt līdz septiņiem laukiem. Izmantojiet nolaižamos sarakstus, lai atlasītu lauku, kas ir redzams katrā pieejamā pozīcijā. Atstājiet tukšus visus laukus, kuri nav nepieciešami. 
 
     Tas ir piemērs:
@@ -118,7 +118,7 @@ Veiciet tālāk norādītās darbības, lai izveidotu jaunu izvēlnes vienumu ko
     - **Sistēmas grupēšanas etiķete:** *Sūtījuma ID*
     - **Drukāšanas režīms:** *Uzskaitījums*
 
-1. Darbību rūtī atlasiet **Lauku saraksts** un pēc tam, izmantojot nolaižamos sarakstus, atlasiet laukus, kas tiks parādīti, lai palīdzētu darbiniekiem identificēt pareizo etiķešu rulli (piemēram, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* un *NumberOfLabels* ).
+1. Darbību rūtī atlasiet **Lauku saraksts** un pēc tam, izmantojot nolaižamos sarakstus, atlasiet laukus, kas tiks parādīti, lai palīdzētu darbiniekiem identificēt pareizo etiķešu rulli (piemēram, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* un *NumberOfLabels*).
 1. Aizvērt lapu.
 1. Izveidojiet ceturto izvēlnes vienumu un iestatiet tam šādas vērtības:
 
@@ -131,7 +131,7 @@ Veiciet tālāk norādītās darbības, lai izveidotu jaunu izvēlnes vienumu ko
     - **Sistēmas grupēšanas etiķete:** *Sūtījuma ID*
     - **Drukas režīms:** *Pēdējās derīgās kopuma etiķetes ID*
 
-1. Darbību rūtī atlasiet **Lauku saraksts** un pēc tam, izmantojot nolaižamos sarakstus, atlasiet laukus, kas tiks parādīti, lai palīdzētu darbiniekiem identificēt pareizo etiķešu rulli (piemēram, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* un *NumberOfLabels* ).
+1. Darbību rūtī atlasiet **Lauku saraksts** un pēc tam, izmantojot nolaižamos sarakstus, atlasiet laukus, kas tiks parādīti, lai palīdzētu darbiniekiem identificēt pareizo etiķešu rulli (piemēram, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* un *NumberOfLabels*).
 1. Aizvērt lapu.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Mobilās ierīces izvēlnes iestatīšana
@@ -217,4 +217,4 @@ Darba izņēmumi kontrolē saīsinātās izdošanas darbību. Veiciet tālāk no
 1. Atveriet darba apstrādes plūsmu pārdošanas pasūtījuma darbam, kas tika izveidots, sākotnēji drukājot kopuma etiķetes.
 1. Atlasiet **Saīsināta izdošana**.
 1. Atlasiet darba izņēmuma kodu, ko izveidojāt šim scenārijam.
-1. Atlasot pareizo izņēmumu, ir jābūt pieejamai izvēles rūtiņai **Anulēt un atkārtoti drukāt**. Atzīmējiet šo lodziņu un apstipriniet. Pēc apstiprināšanas tiek pārrēķināta etiķetes ruļļa secība, kas tiek identificēta ar lauka **Etiķešu kompilācijas ID** , pamatojoties uz mainīto darba rindas daudzumu. Pēc tam tas tiek atkārtoti drukāts norādītajā printerī.
+1. Atlasot pareizo izņēmumu, ir jābūt pieejamai izvēles rūtiņai **Anulēt un atkārtoti drukāt**. Atzīmējiet šo lodziņu un apstipriniet. Pēc apstiprināšanas tiek pārrēķināta etiķetes ruļļa secība, kas tiek identificēta ar lauka **Etiķešu kompilācijas ID**, pamatojoties uz mainīto darba rindas daudzumu. Pēc tam tas tiek atkārtoti drukāts norādītajā printerī.

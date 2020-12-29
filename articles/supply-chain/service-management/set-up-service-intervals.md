@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 54eba378548e1bef8ae9c3f4e7b202cf06aeff2d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984781"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432453"
 ---
 # <a name="set-up-service-intervals"></a>Pakalpojumu intervālu iestatīšana  
 
@@ -36,7 +36,7 @@ Pakalpojumu intervāls norāda biežumu, ar kādu pakalpojuma pasūtījuma rinda
 3. Ievadiet pakalpojumu intervāla ID un aprakstu.
 4. Lauka **Diapazons** atlasiet diapazonu.
 5. Laukā **Biežums** ierakstiet biežuma veidu. Biežums ir koeficents, ar kuru jāreizina vērtības, lai iegūtu pakalpojumu līguma intervālu.
-6. Lai saglabātu pakalpojumu intervālu, nospiediet taustiņu kombināciju**Alt+S**.
+6. Lai saglabātu pakalpojumu intervālu, nospiediet taustiņu kombināciju **Alt+S**.
 
 ## <a name="example"></a>Paraugs
 
@@ -49,7 +49,7 @@ Jūs vēlaties izveidot pakalpojumu intervālu ar biežumu 10 dienas.
 3. Ievadiet pakalpojumu intervāla ID un aprakstu.
 4. Laukā **Diapazons** atlasiet **Katru dienu**.
 5. Laukā **Biežums** ierakstiet 10.
-6. Lai saglabātu pakalpojumu intervālu, nospiediet taustiņu kombināciju**Alt+S**.
+6. Lai saglabātu pakalpojumu intervālu, nospiediet taustiņu kombināciju **Alt+S**.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 

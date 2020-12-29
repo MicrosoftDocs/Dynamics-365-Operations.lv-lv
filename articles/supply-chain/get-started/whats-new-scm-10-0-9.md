@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 163c2e00bd0363303596a48199a833369e51b232
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012348"
+ms.locfileid: "4433086"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.9. (2020. gada aprīlis)
 
@@ -30,13 +30,13 @@ ms.locfileid: "4012348"
 
 Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Supply Chain Management iepriekšējā versija 10.0.9. Šai versijai ir būvējuma numurs 10.0.383, un tas ir pieejams šeit:
 
-- **Priekšskatījuma laidiens** : 2020. gada februāris
+- **Priekšskatījuma laidiens**: 2020. gada februāris
 - **Vispārējā pieejamība (self-update):** 2020. gada marts
 - **Automātiskais atjauninājums:** 2020. gada aprīlis
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Daži no šiem līdzekļiem arī ir iekļauti iepriekšējā inkrementālajā laidienā, bet netika paziņoti iepriekšējā tēmā *Kas jauns* , tāpēc mēs tos pievienojam šeit. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Daži no šiem līdzekļiem arī ir iekļauti iepriekšējā inkrementālajā laidienā, bet netika paziņoti iepriekšējā tēmā *Kas jauns*, tāpēc mēs tos pievienojam šeit. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 - [Uzlabota noslodzes veidošana kopuma laikā](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Plašāku informāciju skatiet [Progresīvās noslodzes veidošana kopuma laikā](../warehousing/advanced-load-building-during-wave.md) .
 

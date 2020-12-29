@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978994"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432874"
 ---
 # <a name="credit-limits-for-customers"></a>Debitoru kredīta limiti
 
@@ -83,7 +83,7 @@ Debitora atlikušā kredītu aprēķināšanai programmatūru Dynamics 365 varat
 
 Lai norādītu informāciju, ar kuru salīdzināt, izmantojiet formu **Debitoru parādu parametri**. Lai varētu veikt izmaiņas šajā formā, jums ir jābūt drošības lomas Sistēmas administrators (-SYSADMIN-) dalībniekam. Laukā **Kredīta limita tips** atlasiet, vai ir jāveic kredīta limita pārbaudes un kāda transakciju informācija kredīta limita pārbaudes laikā ir jāietver. Atlasiet no sekojošajām opcijām:
 
--   **Nav** — kredīta limits nav jāpārbauda. Šo opciju noteiktam debitoram varat ignorēt, atzīmējot izvēles rūtiņu **Obligātais kredīta limits** formā **Debitori**. Tādā gadījumā kredīta limits tiek pārbaudīts pret debitora bilanci.
+-   **Nav** — kredīta limits nav jāpārbauda. Šo opciju noteiktam debitoram varat ignorēt, atzīmējot izvēles rūtiņu **Obligātais kredīta limits** formā **Debitori**. Tādā gadījumā kredīta limits tiek pārbaudīts pret debitora bilanci.
 
 -   **Bilance** — kredīta limits tiek pārbaudīts pret debitora bilanci.
 

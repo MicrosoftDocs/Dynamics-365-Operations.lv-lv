@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 123be2430f910dfbea438cb6a51be7203eb39fc8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216670"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432440"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Jaunināt noliktavas pārvaldību no Microsoft Dynamics AX 2012 uz Supply Chain Management 
 
@@ -37,7 +37,7 @@ Supply Chain Management vairs neatbalsta Microsoft Dynamics AX 2012 mantoto mod
 Jaunināšanas laikā visas preces, kas ir saistītas ar noliktavas dimensiju grupu, kurā tiek izmantota krājumu dimensija Paletes ID, tiek identificētas, atzīmētas kā bloķētas un netiek apstrādātas jaunināšanai.
 
 ## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Jaunināšana uz Supply Chain Management, izmantojot AX 2012 R3 WMSII
-Pēc jaunināšanas varat izmantot opciju kopu formā ***Mainīt noliktavas dimensiju grupu krājumiem**, lai atbloķētu preces, kuras jaunināšanas laikā tika bloķētas, un pēc tam apstrādāt transakcijas šīm precēm.
+Pēc jaunināšanas varat izmantot opciju kopu formā **Mainīt noliktavas dimensiju grupu krājumiem**, lai atbloķētu preces, kuras jaunināšanas laikā tika bloķētas, un pēc tam apstrādāt transakcijas šīm precēm.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Krājumu iespējošana Supply Chain Management 
 Šīs izmaiņas ir nepieciešamas, jo programmatūrā Supply Chain Management krājumu izsekošana ir daļa no noliktavas pārvaldības procesiem. Šiem procesiem visām noliktavām un to novietojumiem ir jābūt saistītiem ar novietojuma profilu. Ja vēlaties izmantot noliktavas pārvaldības procesus, ir jākonfigurē tālāk noradītie iestatījumi.

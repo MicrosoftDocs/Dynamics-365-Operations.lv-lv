@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888909"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432881"
 ---
 # <a name="schedule-work-orders"></a>Plānot darba pasūtījumus
 
@@ -88,7 +88,7 @@ Tālāk norādītajos piemēros kritiskais rādītājs ir “2”, un pakalpojum
 | WO-00010817   | Divas dienas no šodienas   | 2.                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Divas dienas no šodienas   | 3.                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **2. piemērs:**
 
@@ -98,7 +98,7 @@ Darba pasūtījumi tiks ieplānoti tālāk norādītajā secībā: WO-000108**16
 | WO-00010817   | Divas dienas no šodienas   | 2.                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Divas dienas no šodienas   | 3.                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Ja pakalpojuma līmeņa rādītājs tiek palielināts līdz “100”, nevis “5”, tad plānošanas kārtība būs: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Ja pakalpojuma līmeņa rādītājs tiek palielināts līdz “100”, nevis “5”, tad plānošanas kārtība būs: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Vērtējuma rādītāji, kas attiecas uz aprēķināšanu, kuriem uzturēšanas speciālistiem būtu jāstrādā ar darba pasūtījumiem, ir iestatīti kā skaitļi, kas tiek pievienoti katram uzturēšanas speciālistu aprēķinam darba pasūtījuma plānošanas laikā. Darba pasūtījumam tiek atlasīts uzturēšanas speciālists ar augstāko rādītāju. Tālāk ir sniegts īss apraksts par uzturēšanas speciālistu rādītājiem.
 

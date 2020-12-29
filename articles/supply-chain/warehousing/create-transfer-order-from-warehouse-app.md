@@ -17,17 +17,17 @@ ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988389"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432561"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Izveidot pārsūtīšanas pasūtījumus no noliktavas programmas
 
 [!include [banner](../includes/banner.md)]
 
-Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no noliktavas programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu, lai pievienotu noliktavas vienības pārsūtīšanas pasūtījumam. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām.
+Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no noliktavas programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu, lai pievienotu noliktavas vienības pārsūtīšanas pasūtījumam. Kad noliktavas darbinieks atlasa  **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām.
 
 ## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Iespējot pārsūtīšanas pasūtījumu izveidi no noliktavas programmas līdzekļa
 
@@ -201,7 +201,7 @@ Jūs esat mazumtirgotājs un jums ir vairākas noliktavas vienības, katra no t�
 
 Šajā sadaļā ir paskaidrots, kā iestatīt ieplānotu pakešuzdevumu, lai izpildītu izejošo sūtījuma apstiprinājumu nosūtīšanai gatavām kravām, kas saistītas ar pārsūtīšanas pasūtījuma rindām, kas ir “gatavas nosūtīšanai”.
 
-1. Dodieties uz **Noliktavas pārvaldība \>Periodiskie uzdevumi \> Apstrādāt izejošos sūtījumus**.
+1. Dodieties uz **Noliktavas pārvaldība \> Periodiskie uzdevumi \> Apstrādāt izejošos sūtījumus**.
 1. Izvērsiet sadaļu **Iekļaujamie ieraksti**.
 1. Atlasiet **Filtrēt**.
 1. Vaicājumā **WHSLoadShipConfirm** atlasiet cilni **Savienojumi**.
@@ -261,7 +261,7 @@ Minētajā piemērā tiek izmantoti divi **Noliktavas programmas notikumi** (*Iz
 
 Varat skatīt notikumu rindu un notikumu ziņojumus, ko ģenerējusi noliktavas programma, dodoties uz **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Mobilās ierīces žurnāli \> Noliktavas programmas notikumi**.
 
-Notikumu ziņojumi *Izveidot pārsūtīšanas pasūtījumu* saņems statusu *Gaida*, kas nozīmē, ka pakešuzdevums **Apstrādāt noliktavas programmas notikumus** nesaņems un neapstrādās notikumu ziņojumus. Tiklīdz notikuma ziņojuma statuss tiek atjaunināts uz *Rindā*, pakešuzdevums apstrādās notikumus. Tas notiks vienlaicīgi ar notikuma *Pabeigt pārsūtīšanas pasūtījumu* izveidi (kad darbinieks atlasa noliktavas programmas pogu **Pabeigt pasūtījumu**). Kad *Izveidot pārsūtīšanas pasūtījumu* notikuma ziņojumi ir apstrādāti, statuss tiek atjaunināts uz *Pabeigts* vai *Neizdevās*. Kad *Izveidot pārsūtīšanas pasūtījumu* statuss ir atjaunināts uz *Pabeigts*, visi saistītie notikumi tiek dzēsti no rindas.
+Notikumu ziņojumi *Izveidot pārsūtīšanas pasūtījumu* saņems statusu *Gaida*, kas nozīmē, ka pakešuzdevums **Apstrādāt noliktavas programmas notikumus** nesaņems un neapstrādās notikumu ziņojumus. Tiklīdz notikuma ziņojuma statuss tiek atjaunināts uz *Rindā*, pakešuzdevums apstrādās notikumus. Tas notiks vienlaicīgi ar notikuma *Pabeigt pārsūtīšanas pasūtījumu* izveidi (kad darbinieks atlasa noliktavas programmas pogu **Pabeigt pasūtījumu** ). Kad *Izveidot pārsūtīšanas pasūtījumu* notikuma ziņojumi ir apstrādāti, statuss tiek atjaunināts uz *Pabeigts* vai *Neizdevās*. Kad *Izveidot pārsūtīšanas pasūtījumu* statuss ir atjaunināts uz *Pabeigts*, visi saistītie notikumi tiek dzēsti no rindas.
 
 Pakešuzdevums neapstrādā **Noliktavas programmas notikumus** pārsūtīšanas pasūtījuma datu izveidei, pirms ziņojums tiek atjaunināts uz statusu *Rindā*, tāpēc pieprasītie pārsūtīšanas pasūtījumu numuri ir jāmeklē laukā **Identifikators**. Lauks **Identifikators** ir lapas **Noliktavas programmas notikumi** galvenē.
 

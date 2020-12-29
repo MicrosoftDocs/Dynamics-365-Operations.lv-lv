@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018840"
+ms.locfileid: "4433096"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -58,7 +58,7 @@ Katra pirkšanas līguma rinda ir saistības kaut ko nopirkt. Lai izpildītu sai
 -   **Uz vērtību attiecināmās saistības** — jūs pērkat jebkuru preci vai preces par konkrētu valūtas summu jebkurā sagādes kategorijā.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Cenu noteikšanas nosacījumi pirkšanas līgumiem
-Cenu noteikšanas nosacījumi var atšķirties atkarībā no saistību veida. Pirkšanas līgumu ceno noteikšanas nosacījumiem ir prioritāte attiecībā pret jebkuriem citiem cenu noteikšanas nosacījumiem, kas ir noteikti tirdzniecības līgumiem. Šajā tabulā ir aprakstīti ar cenu saistītie lauki, kurus ietekmē katrs saistību veids. Laukus, kuros ir iekļauts vārds **Jā** , var atjaunināt pasūtījuma rindā.
+Cenu noteikšanas nosacījumi var atšķirties atkarībā no saistību veida. Pirkšanas līgumu ceno noteikšanas nosacījumiem ir prioritāte attiecībā pret jebkuriem citiem cenu noteikšanas nosacījumiem, kas ir noteikti tirdzniecības līgumiem. Šajā tabulā ir aprakstīti ar cenu saistītie lauki, kurus ietekmē katrs saistību veids. Laukus, kuros ir iekļauts vārds **Jā**, var atjaunināt pasūtījuma rindā.
 
 | Saistību veids                   | Vienības cena | Cenas vienība | Atlaides procents | Termiņatlaides summa |
 |-----------------------------------|------------|------------|------------------|----------------------|
@@ -75,7 +75,7 @@ Cenu noteikšanas nosacījumi var atšķirties atkarībā no saistību veida. Pi
 -   **Minimālā izlaišanas summa un Maksimālā izlaišanas summa** — ja ir norādīta summa, jūs saņemat ziņojumu gadījumā, ja kādā pasūtījuma rindā veicat jebkādas izmaiņas, kuru dēļ pasūtījuma rinda atšķiras no piesaistītajām saistībām.
 
 ## <a name="fulfillment-calculations-for-purchase-agreements"></a>Pirkšanas līgumu izpildes aprēķini
-Izpildes daudzumi un summas tiek rādīti cilnē **Izpilde** , kopsavilkuma cilnē **Detalizēta informācija par rindu** , kas atrodas lapā **Pirkšanas līgumi**.  
+Izpildes daudzumi un summas tiek rādīti cilnē **Izpilde**, kopsavilkuma cilnē **Detalizēta informācija par rindu**, kas atrodas lapā **Pirkšanas līgumi**.  
 
 Apgabalā **Izpilde** tiek rādīta atlikusī summa vai daudzums, kas ir nepieciešams, lai izpildītu saistības.  
 

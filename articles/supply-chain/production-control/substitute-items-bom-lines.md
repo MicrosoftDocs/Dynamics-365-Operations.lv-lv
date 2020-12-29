@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0b7ee4bbb832fc21d52ff30b7acc8e6a5fd3aece
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212461"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432516"
 ---
 # <a name="material-substitution-in-manufacturing"></a>Materiālu aizstāšana ražošanā
 
@@ -39,7 +39,7 @@ Pastāv trīs materiālu aizstāšanas metodes ražošanas procesa laikā:
 -   Ražošanas laikā, kad materiāls negaidīti beidzas un tiek aizstāts ar citu materiālu.
 
 ## <a name="substituting-material-by-date"></a>Materiāla aizstāšana pēc datuma
-Aplūkosim šādu scenāriju: iekārta, ko ražo uzņēmums, satur komponentu, kas piegādātāja katalogā divu mēnešu laikā vairs nebūs pieejams. Sākot no beigu datuma, turpmāk piegādātājs piedāvās jaunu komponentu, kas var aizstāt veco komponentu. Derīguma perioda datumus var iestatīt materiālu komplekta (MK) rindās. Šajā piemērā vecā komponenta derīguma beigu termiņš tiek iestatīts, ievadot derīguma beigu datumu laukā**Līdz datumam**. Pēc tam materiālu komplektā (MK) jāiestata jauns aizstāšanas komponents tā, lai tas būtu spēkā no dienas, kad beidzas vecā komponenta derīguma termiņš. Lai to izdarītu, ievadiet sākuma datumu laukā **Datums no**.
+Aplūkosim šādu scenāriju: iekārta, ko ražo uzņēmums, satur komponentu, kas piegādātāja katalogā divu mēnešu laikā vairs nebūs pieejams. Sākot no beigu datuma, turpmāk piegādātājs piedāvās jaunu komponentu, kas var aizstāt veco komponentu. Derīguma perioda datumus var iestatīt materiālu komplekta (MK) rindās. Šajā piemērā vecā komponenta derīguma beigu termiņš tiek iestatīts, ievadot derīguma beigu datumu laukā **Līdz datumam**. Pēc tam materiālu komplektā (MK) jāiestata jauns aizstāšanas komponents tā, lai tas būtu spēkā no dienas, kad beidzas vecā komponenta derīguma termiņš. Lai to izdarītu, ievadiet sākuma datumu laukā **Datums no**.
 
 ## <a name="substituting-material-by-planning"></a>Materiāla aizstāšana pēc plānošanas
 Plānošanas laikā materiālu var aizstāt tikai tad, ja lietojat formulas, nevis MK. Aplūkosim šādu scenāriju: pārtikas ražošanas uzņēmums gatavo mērci no formulas, kurā ir 20 sastāvdaļas. Vienu sastāvdaļa formulā var aizstāt ar vienu no divām citām sastāvdaļām. Tomēr, tā kā šīs divas sastāvdaļas ir dārgākas par vajadzīgo sastāvdaļu, aizstāšana tiek izmantota tikai tad, ja vajadzīgā sastāvdaļa nav krājumā. Materiālu, ko var aizstāt, dēvē par A, turpretim divus aizstāšanas materiālus dēvē par B un C. Materiālu aizvietošanu pēc plānošanas uzrauga formulas rindu lauks **Plāna grupa** un **Prioritāte**. Piemēram: izveidojiet formulu rindas šiem trīs materiāliem, un piesaistiet formulu rindas tai pašai plāna grupai. Iestatījumos A materiāla formulas rindai ir augstākā prioritāte (zemākais numurs), C materiāla formulas rindai ir viszemākā prioritāte, bet B materiāla formulas rindai ir prioritāte, kas atrodas starp šīm divām rindām. Ja jums ir pieprasījums pēc trūkstošā komponenta, vispārējā plānošana vispirms nosaka, vai var izpildīt A materiāla pieprasījumu. Ja pieprasījumu nevar izpildīt, vispārējā plānošana izskata B un C materiālus pēc to prioritātes. Ja ir pieejams B materiāls, tas tiks izmantots pēc plānotās partijas pasūtījuma apstiprināšanas formulai. Ja nav pieejams neviens materiāls, vispārējā plānošana izveido plānotu materiāla A pasūtījumu. **Piezīme.** Iestatot formulas rindas plānu grupā, daudzums jānorāda tikai par to materiālu, kam ir augstākā prioritāte. Šis daudzums tiks izmantots, lai aprēķinātu visu materiālu pieprasījumu plānā; pat to materiālu pieprasījumu, kam ir zemāka prioritāte. Plāna grupā nevar norādīt dažādus zemākas prioritātes krājumu daudzumus.

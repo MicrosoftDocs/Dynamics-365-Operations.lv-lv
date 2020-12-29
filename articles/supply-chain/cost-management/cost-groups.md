@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9dee8e40de43480cd010b5acc41a3d87611c2ab6
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981612"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432921"
 ---
 # <a name="cost-groups"></a>Izmaksu grupas
 
@@ -49,7 +49,7 @@ Izmaksu grupas segmentācija var attiekties uz krājuma standarta izmaksu novirz
 Izmaksu grupai var tikt piešķirts izmaksu grupas tips un uzvedība papildus segmentācijas mērķiem.
 
 -   **Izmaksu grupas tips** — katrai izmaksu grupai ir jāpiešķir izmaksu grupas tips, lai norādītu, ka izmaksu grupa attiecas uz tiešu materiālu, tiešu ražošanu, tiešiem ārpakalpojumiem vai attiecas uz netiešu vai nedefinētu materiālu, ražošanu un ārpakalpojumiem. Izmaksu grupa, kas norādīta kā tiešs materiāls, var tikt piešķirta krājumiem. Tiešas ražošanas izmaksu grupa var tikt piešķirta izmaksu kategorijām. Tiešā ārpakalpojumu izmaksu grupa var tikt piešķirta pakalpojuma preces veidam, kas ļauj klasificēt ar pakalpojuma iegādi saistītas izmaksas ar pakalpojumu apakšlīgumu slēgšanas darbībām. Netieša izmaksu grupa var tikt piešķirta papildizdevumu vai nodokļu netiešajām izmaksām. Izmaksu grupa, kas norādīta kā netieša, var tikt piešķirta krājumiem, izmaksu kategorijām vai netiešajām izmaksām. Izmaksu grupu veida piešķiršana kalpo vairākiem mērķiem. Pirmkārt, tā ierobežo iespēju piešķirt izmaksu grupu un skatīt piemēroto izmaksu grupu sarakstu. Otrkārt, tā sniedz papildus segmentāciju pārskatīšanas mērķiem. Treškārt, tā var tikt izmantota, lai piešķirtu virsgrāmatas kontus novirzēm.
--   **Darbība** — katrai izmaksu grupai neobligāti var tikt piešķirta darbība, lai norādītu uz izmaksu grupu kā piederošu fiksētajām vai mainīgām izmaksām. Izmaksu grupa, kuras uzvedības vērtība ir nulle, tiek pieskaitīta pie mainīgajām izmaksām. Darbības piešķiršanu izmanto tikai atskaites mērķiem. Piemēram: izmaksas var tikt parādītas ar fiksēto un mainīgo izmaksu segmentāciju izmaksu lapā un lapā**Izmaksu izvērsums pa izmaksu grupām**. Peļņas procentu iestatījumu piešķiršana katrai izmaksu grupai padara iespējamu materiālu komplekta (MK) aprēķinu, kas nodrošina ieteicamo pārdošanas cenu, kas pamatojas uz pieeju izmaksas-plus-uzcenojums.
+-   **Darbība** — katrai izmaksu grupai neobligāti var tikt piešķirta darbība, lai norādītu uz izmaksu grupu kā piederošu fiksētajām vai mainīgām izmaksām. Izmaksu grupa, kuras uzvedības vērtība ir nulle, tiek pieskaitīta pie mainīgajām izmaksām. Darbības piešķiršanu izmanto tikai atskaites mērķiem. Piemēram: izmaksas var tikt parādītas ar fiksēto un mainīgo izmaksu segmentāciju izmaksu lapā un lapā **Izmaksu izvērsums pa izmaksu grupām**. Peļņas procentu iestatījumu piešķiršana katrai izmaksu grupai padara iespējamu materiālu komplekta (MK) aprēķinu, kas nodrošina ieteicamo pārdošanas cenu, kas pamatojas uz pieeju izmaksas-plus-uzcenojums.
 
 
 

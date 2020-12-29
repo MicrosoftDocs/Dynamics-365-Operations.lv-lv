@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ad0659a86e75dc4a5a204ebc05405f62abf2ca1e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017464"
+ms.locfileid: "4433157"
 ---
 # <a name="warehouse-management-overview"></a>Noliktavas pārvaldības pārskats
 
@@ -32,7 +32,7 @@ Modulis Noliktavas vadība jums ļauj pārvaldīt noliktavas procesus ražošan�
 ## <a name="get-started"></a>Sākt darbu
 Lai sāktu strādāt ar moduli Noliktavas vadība, jums ir jāizpilda vispārīgo noliktavas parametru iestatīšana, lai atbalstītu jūsu uzņēmuma biznesa procesus.
 
-- Dodieties uz lapu **Noliktavas vadības parametri** , kas atrodas sadaļā **Noliktavas vadība** > **Iestatījumi** , lai iestatītu vispārīgos noliktavas parametrus.
+- Dodieties uz lapu **Noliktavas vadības parametri**, kas atrodas sadaļā **Noliktavas vadība** > **Iestatījumi**, lai iestatītu vispārīgos noliktavas parametrus.
 
 Atbilstoši sava uzņēmuma vajadzībām jums ir jākonfigurē komponenti ienākošo un izejošo noliktavas procesu darbplūsmām. Vissvarīgākie komponenti, kas jums ir jākonfigurē, ir kopumu veidnes, darbu veidnes, darbu pūli un novietojumu direktīvas.
 

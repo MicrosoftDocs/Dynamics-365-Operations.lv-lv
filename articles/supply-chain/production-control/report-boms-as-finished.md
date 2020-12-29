@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c68ff6fdb77cb8de23b6b803b0300c6daa0fd106
-ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677809"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433070"
 ---
 # <a name="report-boms-as-finished"></a>Ziņošana par MK pabeigšanu
 
@@ -35,7 +35,7 @@ ms.locfileid: "3677809"
 Lapa **Ziņot kā pabeigtu** un **Maksimālais pabeigto krājumu daudzums** tiek lietotas, lai paziņot par materiālu komplektu (MK) pabeigšanu. Konceptuāli ziņošana par MK pabeigšanu ir tāds pats process kā ziņošana par ražošanas pasūtījuma pabeigšanu. Šo procesu var izmantot, piemēram, vienkāršos montāžas un komplektēšanas procesos, kur ražošanas pasūtījumiem nav nepieciešamas papildu iespējas. Lapa **Ziņot kā pabeigtu** jums ļauj ziņot par vairāku MK pabeigšanu vienā partijā. Lapā **Maksimālais pabeigto krājumu daudzums** vienlaikus varat ziņot tikai par viena MK pabeigšanu. Lapai **Ziņot kā pabeigtu** var piekļūt, izmantojot izvēlnes elementu modulī Krājumu vadība, un abām lapām var piekļūt, izmantojot izvēlnes elementus lapā **Izlaistās preces**.
 
 ## <a name="report-as-finished-page"></a>Lapa Ziņot kā pabeigtu
-Ja lapu **Ziņot kā pabeigtu**atverat no kādas izlaistas preces, tad šī lapa jums piedāvā ziņot par standarta noklusējuma daudzuma pabeigšanu. Pēc noklusējuma tiek parādīta aktīvā MK versija, bet šo MK versiju varat mainīt, ja pastāv citas apstiprinātās versijas. Šī lapa jums ļauj arī dzēst ierakstus un izveidot jaunus ierakstus izlaistajām precēm, par kurām ir jāziņo kā par pabeigtām. Lai izmantotu vaicājumu preču atlasīšanai, noklikšķiniet uz izvēlnes vienuma **Atlasīt**. Atlasītajām precēm varat manuāli apstiprināt ziņošanu par pabeigšanu, noklikšķinot uz **Labi**. Alternatīvi varat iestatīt, lai šis process tiek izpildīts partijā. Kad ir apstiprināta ziņošana par pabeigšanu, sistēma ģenerē MK žurnālu, kur tiek apstrādāta grāmatošana krājumos. Šis žurnāls sastāv no viena rindas krājuma pabeigtajai precei un viena rindas krājuma katrai MK rindai. Varat kontrolēt, vai šis žurnāls tiek grāmatots automātiski vai paliek atvērts papildu korekcijām.
+Ja lapu **Ziņot kā pabeigtu** atverat no kādas izlaistas preces, tad šī lapa jums piedāvā ziņot par standarta noklusējuma daudzuma pabeigšanu. Pēc noklusējuma tiek parādīta aktīvā MK versija, bet šo MK versiju varat mainīt, ja pastāv citas apstiprinātās versijas. Šī lapa jums ļauj arī dzēst ierakstus un izveidot jaunus ierakstus izlaistajām precēm, par kurām ir jāziņo kā par pabeigtām. Lai izmantotu vaicājumu preču atlasīšanai, noklikšķiniet uz izvēlnes vienuma **Atlasīt**. Atlasītajām precēm varat manuāli apstiprināt ziņošanu par pabeigšanu, noklikšķinot uz **Labi**. Alternatīvi varat iestatīt, lai šis process tiek izpildīts partijā. Kad ir apstiprināta ziņošana par pabeigšanu, sistēma ģenerē MK žurnālu, kur tiek apstrādāta grāmatošana krājumos. Šis žurnāls sastāv no viena rindas krājuma pabeigtajai precei un viena rindas krājuma katrai MK rindai. Varat kontrolēt, vai šis žurnāls tiek grāmatots automātiski vai paliek atvērts papildu korekcijām.
 
 ## <a name="max-report-as-finished-page"></a>Maks. pabeigto krājumu daudzums (lapa)
 Lapā **Maksimālais pabeigto krājumu daudzums** katra MK rinda norāda preces gabalu skaitu, ko var ziņot kā pabeigtu. Šis aprēķins ir balstīts uz katras materiālu rindas fiziski pieejamajiem rīcībā esošajiem krājumiem. Nākamajā piemērā viens gabals krājuma koda FG patērē divus gabalus izejmateriāla RM10 un vienu gabalu izejmateriāla RM20. Tā kā rīcībā ir tikai 10 gabali RM10, tad maksimālais daudzums FG, par ko var ziņot kā pabeigtu, ir pieci gabali. Šī vērtība tiek rādīta laukā **Maksimālais pabeigto krājumu daudzums**.

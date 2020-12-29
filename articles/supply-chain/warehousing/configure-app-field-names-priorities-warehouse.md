@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7a4cfe62aa50c423adfd116a81d7962c30b25fcf
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530493"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432701"
 ---
 # <a name="configure-app-field-names-in-the-warehouse-app"></a>Konfigurēt programmas lauku nosaukumus programmā Noliktava
 
@@ -138,7 +138,7 @@ Pamatojoties uz iepriekšējā tabulā iestatīto noliktavas programmas lauku pr
 -   2. rinda: Preces apraksts
 -   3. rinda: Izmērs
 
-Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Papildinformāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par Finance and Operations — Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet tiks rādīti informācijas lapā. Papildinformāciju un lietotāja interfeisa piemērus skatiet emuāra ziņā [Paziņojums par Finance and Operations — Noliktava](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="additional-resources"></a>Papildu resursi
 --------

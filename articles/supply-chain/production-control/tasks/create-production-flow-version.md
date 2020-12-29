@@ -17,17 +17,17 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d513e6898827de9a3fb1ed59006b817fb9006019
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983378"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432494"
 ---
 # <a name="create-a-production-flow-version"></a>Ražošanas plūsmas versijas izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šī procedūra ir vērsta uz to, lai izveidotu jaunu ražošanas plūsmas versiju. Lai veiktu šo procedūru, ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt vērtību plūsmu un ražošanas uzdevumu grupu. Lai uzzinātu vairāk par lean manufacturing ražošanas plūsmām un darbībām, skatiet tehniskos dokumentus par Lean manufacturing programmai Microsoft Dynamics AX. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Šī procedūra ir vērsta uz to, lai izveidotu jaunu ražošanas plūsmas versiju. Lai veiktu šo procedūru, ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt vērtību plūsmu un ražošanas uzdevumu grupu. Lai uzzinātu vairāk par lean manufacturing ražošanas plūsmām un darbībām, skatiet tehniskos dokumentus par Lean manufacturing programmai Microsoft Dynamics AX. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
 
 
 ## <a name="create-a-production-flow"></a>Ražošanas plūsmas izveide

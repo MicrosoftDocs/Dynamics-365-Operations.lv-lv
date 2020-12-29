@@ -16,11 +16,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: 0538701588b9c71dff4c538711606913a359de6a
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597388"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432965"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Vidējās vērtības pārvietošanas regresa izmaksu secība
 
@@ -34,7 +34,7 @@ Lai noteiktu, kuras no šīm izmaksu vērtībām ir jāizmanto vidējo aprēķin
 
 Iepriekšējās Microsoft Dynamics 365 Supply Chain Management versijās sistēma izmantoja fiksētu regresa izmaksu secību (_Pēdējā izejas plūsma – Aktīvās izmaksas – Krājuma cena_). Versijā 10.0.11 šī secība joprojām ir noklusējuma secība. Tomēr jūs varat arī ieslēgt līdzekli, kas ļauj atlasīt starp trim pieejamām alternatīvo izmaksu secībām. Šis līdzeklis var būt īpaši noderīgs uzņēmumiem, kas regulāri izmanto negatīvās krājumu vērtības.
 
-Lai būtu pieejams regresa izmaksu secības selektors, jums (vai administratoram) ir jāizmanto[Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu līdzekli ar nosaukumu _Vidējās vērtības pārvietošanas regresa izmaksu secība_.
+Lai būtu pieejams regresa izmaksu secības selektors, jums (vai administratoram) ir jāizmanto [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu līdzekli ar nosaukumu _Vidējās vērtības pārvietošanas regresa izmaksu secība_.
 
 Lai izvēlētos regresa izmaksu secību vidējās vērtības pārvietošanas aprēķinam, veiciet šīs darbības.
 

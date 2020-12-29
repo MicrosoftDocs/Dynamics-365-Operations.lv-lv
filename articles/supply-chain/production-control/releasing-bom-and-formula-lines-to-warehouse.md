@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017234"
+ms.locfileid: "4433123"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>MK un formulas rindu izlaišana nosūtīšanai uz noliktavu
 
@@ -46,7 +46,7 @@ MK un formulas rindu izlaišanai izmantotā metode tiek kontrolēta ar parametru
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>MK un formulas rindu izlaišana, izmantojot pakešuzdevumu
 
-Pakešuzdevums **Automātiska MK un formulas rindu izlaišana** apstrādā atlasītās MK un formulas rindas, kam ir atlikušais izlaižamais daudzums. Darbs ņem vērā tikai pasūtījumus ar statusu **Izlaists** , **Sākts** vai **Ziņots kā pabeigts**. Ja MK vai formulas rindā ir daudzums, kas vēl ir jāizlaiž, darbs izlaiž ne vairāk kā daudzumu, ko var segt ar fiziski jau rezervēto daudzumu un fiziski pieejamo daudzumu.
+Pakešuzdevums **Automātiska MK un formulas rindu izlaišana** apstrādā atlasītās MK un formulas rindas, kam ir atlikušais izlaižamais daudzums. Darbs ņem vērā tikai pasūtījumus ar statusu **Izlaists**, **Sākts** vai **Ziņots kā pabeigts**. Ja MK vai formulas rindā ir daudzums, kas vēl ir jāizlaiž, darbs izlaiž ne vairāk kā daudzumu, ko var segt ar fiziski jau rezervēto daudzumu un fiziski pieejamo daudzumu.
 
 ### <a name="example-of-a-batch-job-release"></a>Pakešuzdevuma izlaišanas piemērs
 
@@ -77,7 +77,7 @@ Ja materiālus izlaižat, izmantojot parametra **Veicot ražošanas pasūtījuma
 
 Lai kontrolētu operācijas, uz kurām ir jāizlaiž materiāls, izmantojiet lapu **Izlaist pārvietošanai uz noliktavu**.
 
-- Atlasiet **Ražošanas kontrole** \> **Ražošanas pasūtījumi** \> **Visi ražošanas pasūtījumi** , atlasiet kādu ražošanas pasūtījumu un pēc tam cilnē **Noliktava** atlasiet **Izlaist pārvietošanai uz noliktavu**. Pēc tam izmantojiet lauku **No operācijas Nr.** un **Līdz operācijai Nr.** , lai norādītu operācijas numuru diapazonu.
+- Atlasiet **Ražošanas kontrole** \> **Ražošanas pasūtījumi** \> **Visi ražošanas pasūtījumi**, atlasiet kādu ražošanas pasūtījumu un pēc tam cilnē **Noliktava** atlasiet **Izlaist pārvietošanai uz noliktavu**. Pēc tam izmantojiet lauku **No operācijas Nr.** un **Līdz operācijai Nr.**, lai norādītu operācijas numuru diapazonu.
 
 Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas operācijas — 10 un 20. Ja šajā piemērā ierobežojat izlaišanu uz operāciju 10, tiek izlaists tikai materiāls M9203.
 
@@ -89,11 +89,11 @@ Nākamajā attēlā ir parādīts ražošanas pasūtījums, kurā ir divas oper�
 
 Izejmateriālu varat izlaist daļējam gatavo preču daudzumam vai noteiktā vienībā.
 
-- Lai izejmateriālu izlaistu daļējam gatavo preču daudzumam, atlasiet **Ražošanas kontrole** \> **Ražošanas pasūtījumi** \> **Visi ražošanas pasūtījumi** , atlasiet kādu ražošanas pasūtījumu un pēc tam cilnē **Noliktava** atlasiet **Izlaist pārvietošanai uz noliktavu**. Pēc tam ievadiet daudzumu laukā **Daudzums**.
+- Lai izejmateriālu izlaistu daļējam gatavo preču daudzumam, atlasiet **Ražošanas kontrole** \> **Ražošanas pasūtījumi** \> **Visi ražošanas pasūtījumi**, atlasiet kādu ražošanas pasūtījumu un pēc tam cilnē **Noliktava** atlasiet **Izlaist pārvietošanai uz noliktavu**. Pēc tam ievadiet daudzumu laukā **Daudzums**.
 
-    Piemēram, tiek izveidots ražošanas pasūtījums, kurš ir plānots 1000 gabaliem (gab.). Ražotnes vadītājs plāno 100 gab. ražošanu nākamajai maiņai un vēlas izlaist materiālus tikai šai maiņai. Šajā gadījumā vadītājs var izmantot lauku **Daudzums** , lai izlaistu materiālus tiem 100 gab., kuri tiek plānoti nākamajai maiņai.
+    Piemēram, tiek izveidots ražošanas pasūtījums, kurš ir plānots 1000 gabaliem (gab.). Ražotnes vadītājs plāno 100 gab. ražošanu nākamajai maiņai un vēlas izlaist materiālus tikai šai maiņai. Šajā gadījumā vadītājs var izmantot lauku **Daudzums**, lai izlaistu materiālus tiem 100 gab., kuri tiek plānoti nākamajai maiņai.
 
-- Lai izejmateriālu izlaistu noteiktā vienībā, atlasiet **Ražošanas kontrole** \> **Ražošanas pasūtījumi** \> **Visi ražošanas pasūtījumi** , atlasiet kādu ražošanas pasūtījumu un pēc tam cilnē **Noliktava** atlasiet **Izlaist pārvietošanai uz noliktavu**. Pēc tam izmantojiet lauku **Vienība** , lai atlasītu pabeigto preču mērvienību, kādā izlaist materiālu.
+- Lai izejmateriālu izlaistu noteiktā vienībā, atlasiet **Ražošanas kontrole** \> **Ražošanas pasūtījumi** \> **Visi ražošanas pasūtījumi**, atlasiet kādu ražošanas pasūtījumu un pēc tam cilnē **Noliktava** atlasiet **Izlaist pārvietošanai uz noliktavu**. Pēc tam izmantojiet lauku **Vienība**, lai atlasītu pabeigto preču mērvienību, kādā izlaist materiālu.
 
     Pieejamās mērvienības ir definētas ar pabeigto preču vienību secību grupas ID.
 

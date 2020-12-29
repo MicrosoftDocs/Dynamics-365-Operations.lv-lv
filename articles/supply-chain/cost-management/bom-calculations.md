@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: a718a2e825630ccfaa54ff9dece1d3d19d59018c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983944"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432982"
 ---
 # <a name="bom-calculations"></a>BOM aprēķini
 
@@ -83,7 +83,7 @@ Tālāk aprakstītas situācijas, kas ilustrē divus rezerves principa lietošan
 Izmantojot izmaksu un uzcenojumu pieeju, aprēķinātā krājuma pārdošanas cena parāda peļņas koeficenta procentu likmes kopu, kas ir norādīta MK aprēķinam, un izmaksas, kas saistītas ar tā komponenta vienībām, maršrutēšanas operācijām un piemērojamajiem ražošanas papildu izdevumiem. Uzcenojums parāda peļņas koeficenta procentu likmes, kas ir piešķirtas izmaksu grupām, un izmaksu grupas, kas ir piešķirtas krājumiem, izmaksu kategorijas maršrutēšanas operācijām un netiešo izmaksu aprēķinu formulas ražošanas papildu izdevumiem. Peļņas koeficentu procentu likmju kopas ir apzīmētas kā **Standarta**, **Peļņa 1**, **Peļņa 2** un **Peļņa 3**. Piemēram, kopā “Peļņa 1” peļņas koeficenta procentu likme ar 50 procentiem varētu tikt noteikta izmaksu grupai, kas piešķirta iegādātajam materiālam, un peļņas koeficenta procentu likme ar 80 procentiem varētu būt noteikta izmaksu grupai, kas piešķirta izmaksu kategorijām maršrutēšanas operācijām. MK aprēķinu konteksts nosaka aprēķinātās pārdošanas cenas rezultātu pielietošanu:
 
 -   **MK aprēķins krājumam un noteiktā izmaksu novērtēšanas versija** - MK aprēķins ģenerē gaidošu pārdošanas cenas ierakstu izmaksu novērtēšanas versijas ietvaros. Šis pārdošanas cenas ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas** ). Galvenokārt pārdošanas cenas ieraksts darbojas kā atsauces informācija un tas netiek izmantots kā pārdošanas cenas pamats pārdošanas pasūtījumos.
--   **Noteikta pasūtījuma MK aprēķins** - lapas **MK aprēķins**variācija tiek izmantota saistībā ar pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementu. Izmaksu novērtēšanas versijas ietvaros noteikta pasūtījuma MK aprēķins neģenerē ierakstu. Tā vietā tiek izveidots aprēķina ieraksts, kas parādās lapā **MK aprēķina rezultāti**. Šis aprēķina ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas** ). Informāciju par izvēlēto aprēķina ierakstu var pārsūtīt uz sākotnējo rindas elementu. Piemēram, aprēķināto pārdošanas cenu var pārsūtīt uz pārdošanas pasūtījuma rindas elementu.
+-   **Noteikta pasūtījuma MK aprēķins** - lapas **MK aprēķins** variācija tiek izmantota saistībā ar pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementu. Izmaksu novērtēšanas versijas ietvaros noteikta pasūtījuma MK aprēķins neģenerē ierakstu. Tā vietā tiek izveidots aprēķina ieraksts, kas parādās lapā **MK aprēķina rezultāti**. Šis aprēķina ieraksts nodrošina sākumpunktu aprēķinu informācijas apskatei (piemēram, lapā **Aprēķināt krājuma izmaksas** ). Informāciju par izvēlēto aprēķina ierakstu var pārsūtīt uz sākotnējo rindas elementu. Piemēram, aprēķināto pārdošanas cenu var pārsūtīt uz pārdošanas pasūtījuma rindas elementu.
 
 ## <a name="order-specific-bom-calculations"></a>Noteikta pasūtījuma MK aprēķini
 Pasūtījuma MK aprēķina pamatā ir ražota krājuma MK aprēķins. Noteikta pasūtījuma MK aprēķins tiek veikts pārdošanas pasūtījuma, pārdošanas piedāvājuma vai pakalpojuma pasūtījuma rindas elementa kontekstā. Noteikta pasūtījuma MK aprēķins ģenerē aprēķina ierakstu, kas parādās lapā **MK aprēķinu rezultāti**. Aprēķina ierakstā ir iekļauts aprēķinātais svars, aprēķināšanas izmaksas, kuru pamatā ir aktīvie izmaksu ieraksti, un aprēķinātā pārdošanas cena. Aprēķina ierakstu, kuru ģenerē katrs noteikta pasūtījuma MK aprēķins attiecīgajam krājumam lapā **MK aprēķina rezultāti**, unikāli identificē aprēķina numurs. Aprēķina ieraksta rezultāti pēc izvēles var tikt pārsūtīti uz rindas elementu, kas ir to pamatā. Noteikta pasūtījuma MK aprēķins atšķiras no ražota krājuma MK aprēķina divos veidos:

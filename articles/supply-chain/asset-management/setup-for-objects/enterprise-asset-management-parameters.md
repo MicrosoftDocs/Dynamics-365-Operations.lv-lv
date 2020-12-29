@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889845"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432885"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -104,6 +104,6 @@ Saite **Dokumentu veidi**
 
 Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas saistīti ar darba pasūtījuma pārskatu. Tas tiek darīts, atlasot dokumenta veidu sadaļā **Pieejams** un atlasot ![bultiņa uz priekšu](media/15-setup-for-objects.png). Ja vēlaties noņemt atlasīto dokumenta veidu, atlasiet dokumenta veidu sadaļā **Atlasīts** un atlasot ![bultiņa atpakaļ](media/16-setup-for-objects.png).
 
-Saite**Numuru sērijas**
+Saite **Numuru sērijas**
 
 Atlasiet šajā sadaļā nepieciešamās numuru sērijas. Līdzekļiem ir divas numuru sērijas: viena manuāli izveidotiem līdzekļiem, bet otra —līdzekļiem, kas izveidoti, izmantojot gaidošos līdzekļus.

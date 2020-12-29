@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017671"
+ms.locfileid: "4433189"
 ---
 # <a name="work-policies"></a>Darba politikas
 
@@ -29,7 +29,7 @@ ms.locfileid: "4017671"
 
 Šajā tēmā skaidrots, kā iestatīt sistēmu un noliktavu programmu, lai tās atbalstītu darba politikas. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā tēmā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot noliktavas programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001* , kā saņemtu atrašanās vietā *RECV*.
+Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot noliktavas programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.
 
 > [!NOTE]
 > - Lai darba politika būtu aktīva, ir jādefinē vismaz viena atrašanās vieta, kas atrodas kopsavilkuma cilnē **Krājumu atrašanās vietas** **Darba politikas** lapā. 
@@ -79,7 +79,7 @@ Jūs varat izmantot noliktavas atrašanās vietu, kas piešķirta atrašanās vi
 Cilnē **Preces** iestatiet **preces atlases** lauku, lai kontrolētu, kuras preces šai politikai jāpiemēro:
 
 - **Visi** – politika ir jāpiemēro visām precēm.
-- **Atlasīts** – politika jāattiecina tikai uz precēm, kas ir uzskaitītas režģī. Izmantojiet rīkjoslu kopsavilkuma cilnē **Preces** , lai pievienotu režģim preces vai noņemtu tās no režģa.
+- **Atlasīts** – politika jāattiecina tikai uz precēm, kas ir uzskaitītas režģī. Izmantojiet rīkjoslu kopsavilkuma cilnē **Preces**, lai pievienotu režģim preces vai noņemtu tās no režģa.
 
 ## <a name="default-and-custom-to-locations"></a>Noklusējums un pielāgots "uz" vietām
 
@@ -113,7 +113,7 @@ Lai iestatītu mobilās ierīces izvēlnes elementu, lai atbalstītu saņemšanu
 
 ## <a name="example-scenario-warehouse-receiving"></a>Piemēra scenārijs: noliktavas saņemšana
 
-Visas preces, ko saņem *Pirkšanas pasūtījuma krājuma saņemšanas (un nosūtīšanas)* process, jābūt reģistrētam atrašanās vietā *FL-001* , un tiem jābūt pieejamiem *24.* noliktavā. Tomēr darbu nedrīkst izveidot. Preces, kas tiek saņemtas, izmantojot citus procesus (tas ir, lietojot citas mobilās ierīces izvēlnes vienības), jāreģistrē noklusējuma noliktavas saņemšanas vietā ( *RECV* ), un darbs ir jāizveido kā parasti. (Šajā scenārijā netiek rādīts noklusējuma saņemšanas iestatījums.)
+Visas preces, ko saņem *Pirkšanas pasūtījuma krājuma saņemšanas (un nosūtīšanas)* process, jābūt reģistrētam atrašanās vietā *FL-001*, un tiem jābūt pieejamiem *24.* noliktavā. Tomēr darbu nedrīkst izveidot. Preces, kas tiek saņemtas, izmantojot citus procesus (tas ir, lietojot citas mobilās ierīces izvēlnes vienības), jāreģistrē noklusējuma noliktavas saņemšanas vietā (*RECV*), un darbs ir jāizveido kā parasti. (Šajā scenārijā netiek rādīts noklusējuma saņemšanas iestatījums.)
 
 Šim scenārijam nepieciešami šādi elementi:
 
@@ -132,14 +132,14 @@ Lai padarītu funkcionalitāti, kas aprakstīta šajā scenārijā, pieejamu jū
 1. Atlasiet **Jauns**.
 1. Laukā **Darba politikas nosaukums** ievadiet *Pirkšanas preces izvietošanas darbs nav veikts*.
 1. Atlasiet **Saglabāt**.
-1. Kopsavilkuma cilnē **Darba pasūtījuma tipi** atlasiet **Pievienot** , lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
+1. Kopsavilkuma cilnē **Darba pasūtījuma tipi** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
 
     - **Darba pasūtījuma tips:** *Pirkšanas pasūtījumi*
     - **Darba process:** *Pirkšanas pasūtījuma krājuma saņemšana (nosūtīšana)*
     - **Darba izveides metode:** *Nekad*
     - **Pārkraušana sadales centrā politikas nosaukums:** atstājiet šo lauku tukšu.
 
-1. Kopsavilkuma cilnē **Krājumu atrašanās vietas** atlasiet **Pievienot** , lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
+1. Kopsavilkuma cilnē **Krājumu atrašanās vietas** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
 
     - **Noliktava:** *24*
     - **Atrašanās vieta:** *FL-001*
@@ -154,7 +154,7 @@ Lai padarītu funkcionalitāti, kas aprakstīta šajā scenārijā, pieejamu jū
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Izmantot noklusējuma datus** uz *Jā*.
 1. Atlasiet **Saglabāt**.
 1. Darbību rūtī atlasiet **Noklusējuma dati**.
-1. Lapā **Noklusējuma dati** darbības rūtī atlasiet **Jauns** , lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
+1. Lapā **Noklusējuma dati** darbības rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
 
     - **Noklusējuma datu lauks:** *Uz atrašanās vietu*
     - **Noliktava:** *24*
@@ -177,7 +177,7 @@ Lai padarītu funkcionalitāti, kas aprakstīta šajā scenārijā, pieejamu jū
     - **Vieta:** *2*
     - **Noliktava:** *24*
 
-1. Atlasiet **Labi** , lai aizvērtu dialoglodziņu un atvērtu jaunu pirkšanas pasūtījumu.
+1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu un atvērtu jaunu pirkšanas pasūtījumu.
 1. Kopsavilkuma cilnē **Pirkšanas pasūtījuma rindas** iestatiet šādas vērtības tukšai rindai:
 
     - **Krājuma numurs:** *A0001*
@@ -201,7 +201,7 @@ Pirkšanas pasūtījums tagad ir saņemts, bet ar to nav saistīts neviens darbs
 
 ## <a name="example-scenario-manufacturing"></a>Piemēra scenārijs: ražošana
 
-Nākamajā piemērā ir divi ražošanas pasūtījumi, *PRD-001* un *PRD-002*. Ražošanas pasūtījumā *PRD-001* ir operācija ar nosaukumu *Montāža* , kur prece *SC1* tiek ziņota kā pabeigta uz novietojumu *001*. Ražošanas pasūtījumā *PRD-002* ir operācija ar nosaukumu *Krāsošana* , un tas patērē preci *SC1* no novietojuma *001*. Ražošanas pasūtījums *PRD-002* patērē arī izejmateriālu *RM1* no novietojuma *001*. Izejmateriāls *RM1* tiek glabāts noliktavas novietojumā *BULK-001* un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu *001*. Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana *PRD-002*.
+Nākamajā piemērā ir divi ražošanas pasūtījumi, *PRD-001* un *PRD-002*. Ražošanas pasūtījumā *PRD-001* ir operācija ar nosaukumu *Montāža*, kur prece *SC1* tiek ziņota kā pabeigta uz novietojumu *001*. Ražošanas pasūtījumā *PRD-002* ir operācija ar nosaukumu *Krāsošana*, un tas patērē preci *SC1* no novietojuma *001*. Ražošanas pasūtījums *PRD-002* patērē arī izejmateriālu *RM1* no novietojuma *001*. Izejmateriāls *RM1* tiek glabāts noliktavas novietojumā *BULK-001* un ar noliktavas darbu izejmateriālu izdošanai tiks izdots uz novietojumu *001*. Izdošanas darbs tiek ģenerēts, kad tiek izlaista ražošana *PRD-002*.
 
 [![Noliktavas darba politikas](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -233,27 +233,27 @@ Ne vienmēr noliktavas procesi ietver noliktavas darbu. Definējot darba politik
 1. Atlasiet **Jauns**.
 1. Laukā **Darba politikas nosaukums** ievadiet *Izvietošanas darbs nav veikts*.
 1. Darbību rūtī atlasiet **Saglabāt**.
-1. Kopsavilkuma cilnē **Darba pasūtījuma tipi** atlasiet **Pievienot** , lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
+1. Kopsavilkuma cilnē **Darba pasūtījuma tipi** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
 
     - **Darba pasūtījuma veids:** *Pabeigto preču izvietošana*
     - **Darba process:** *Visi saistītie darba procesi*
     - **Darba izveides metode:** *Nekad*
     - **Pārkraušana sadales centrā politikas nosaukums:** atstājiet šo lauku tukšu.
 
-1. Vēlreiz atlasiet **Pievienot** , lai pievienotu otru rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
+1. Vēlreiz atlasiet **Pievienot**, lai pievienotu otru rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
 
     - **Darba pasūtījuma veids** *Līdzproduktu un blakusproduktu izvietošana*
     - **Darba process:** *Visi saistītie darba procesi*
     - **Darba izveides metode:** *Nekad*
     - **Pārkraušana sadales centrā politikas nosaukums:** atstājiet šo lauku tukšu.
 
-1. Kopsavilkuma cilnē **Krājumu atrašanās vietas** atlasiet **Pievienot** , lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
+1. Kopsavilkuma cilnē **Krājumu atrašanās vietas** atlasiet **Pievienot**, lai pievienotu rindu režģim, un pēc tam iestatiet šādas vērtības jaunajai rindai:
 
     - **Noliktava:** *51*
     - **Atrašanās vieta:** *001*
 
 1. Kopsavilkuma cilnē **Preces** iestatiet **Preces atlases** lauku uz *Atlasītie*.
-1. Kopsavilkuma cilnē **Preces** atlasiet **Pievienot** , lai režģim pievienotu rindu.
+1. Kopsavilkuma cilnē **Preces** atlasiet **Pievienot**, lai režģim pievienotu rindu.
 1. Jaunā rindā iestatiet **Krājuma numura** lauku uz *L0101*.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
@@ -276,20 +276,20 @@ Ne vienmēr noliktavas procesi ietver noliktavas darbu. Definējot darba politik
 1. Doties uz **Ražošanas kontrole \> Ražošanas pasūtījumi \> Visi ražošanas pasūtījumi**.
 1. Darbību rūtī atlasiet **Jauns ražošanas pasūtījums**.
 1. Dialoglodziņā **Ražošanas pasūtījuma izveide** iestatiet **Krājuma numura** lauku uz *L0101*.
-1. Atlasiet **Izveidot** , lai izveidotu pasūtījumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Izveidot**, lai izveidotu pasūtījumu un aizvērtu dialoglodziņu.
 
     Jauns ražošanas pasūtījums tiek pievienots režģim lapā **Visi ražošanas pasūtījumi**.
 
     Saglabāt jauno, atlasīto ražošanas pasūtījumu.
 
-1. Darbību rūts cilnē **Ražošanas pasūtījums** , grupā **Process** atlasiet **Aplēst**.
-1. Dialoglodziņā **Aplēst** izlasiet aplēsi un pēc tam atlasiet **Labi** , lai aizvērtu dialoglodziņu.
-1. Darbību rūts cilnē **Ražošanas pasūtījums** , grupā **Process** atlasiet **Sākt**.
+1. Darbību rūts cilnē **Ražošanas pasūtījums**, grupā **Process** atlasiet **Aplēst**.
+1. Dialoglodziņā **Aplēst** izlasiet aplēsi un pēc tam atlasiet **Labi**, lai aizvērtu dialoglodziņu.
+1. Darbību rūts cilnē **Ražošanas pasūtījums**, grupā **Process** atlasiet **Sākt**.
 1. Dialoglodziņā **Sākt** cilnē **Vispārīgi** iestatiet **Automātiskās MK patēriņa** lauku uz *Nekad*.
-1. Atlasiet **Labi** , lai iestatījumu saglabātu un aizvērtu dialoglodziņu.
-1. Darbību rūts cilnē **Ražošanas pasūtījums** , grupā **Process** atlasiet **Ziņot kā pabeigtu**.
-1. Dialoglodziņā **Ziņot kā pabeigts** , cilnē **Vispārīgi** iestatiet opciju **Pieņemt kļūdu** uz *Jā*.
-1. Atlasiet **Labi** , lai iestatījumu saglabātu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai iestatījumu saglabātu un aizvērtu dialoglodziņu.
+1. Darbību rūts cilnē **Ražošanas pasūtījums**, grupā **Process** atlasiet **Ziņot kā pabeigtu**.
+1. Dialoglodziņā **Ziņot kā pabeigts**, cilnē **Vispārīgi** iestatiet opciju **Pieņemt kļūdu** uz *Jā*.
+1. Atlasiet **Labi**, lai iestatījumu saglabātu un aizvērtu dialoglodziņu.
 1. Darbību rūtī cilnē **Noliktavas** grupā **Vispārīgi** atlasiet **Detalizēta informācija par darbu**.
 
 Kad ražošanas pasūtījums tiek norādīts kā pabeigts, netika ģenerēts darbs izvietošanai. Šī uzvedība notiek tāpēc, ka ir definēta darba politika, kas neļauj ģenerēt darbu, kad produkts *L0101* tiek norādīts kā pabeigts novietojumā *001*.

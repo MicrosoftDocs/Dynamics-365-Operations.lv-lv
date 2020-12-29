@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b2e06283f3b95c5ff6b4376bba63cf5a42d5feeb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981821"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432899"
 ---
 # <a name="create-a-template-bom"></a>Veidnes MK izveide   
 
@@ -84,7 +84,7 @@ Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst rindām oriģin�
 
 7.  Noklikšķiniet uz **OK**.
 
-Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā**Materiālu komplekti** esošajām MK rindām.
+Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā **Materiālu komplekti** esošajām MK rindām.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Veidnes MK izveide uz ražošanas MK pamata
 
@@ -106,7 +106,7 @@ Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā **MK**
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Veidnes MK ](template-boms.md)
+[Veidnes MK](template-boms.md)
 
   
 

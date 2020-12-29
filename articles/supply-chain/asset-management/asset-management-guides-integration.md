@@ -1,6 +1,6 @@
 ---
 title: Integrēt Dynamics 365 Supply Chain Management (Līdzekļu pārvaldība) ar Dynamics 365 Guides
-description: Šajā tēmā skaidrots, kā integrēt Līdzekļu pārvaldības moduli programmā Microsoft Dynamics 365 Supply Chain Management ar Dynamics 365 Guides, lai izmantotu jauktās realitātes ceļvežiem jūsu ikdienas pakalpojumos un uzturēšanas darbplūsmās.
+description: Šajā tēmā skaidrots, kā integrēt Līdzekļu pārvaldības moduli programmā Microsoft  Dynamics 365 Supply Chain Management ar Dynamics 365 Guides, lai izmantotu jauktās realitātes ceļvežiem jūsu ikdienas pakalpojumos un uzturēšanas darbplūsmās.
 author: kamaybac
 manager: tfehr
 ms.date: 04/28/2020
@@ -16,11 +16,11 @@ ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: f9ee7f1af8e88f56589c84bfaa063ea005aa353a
-ms.sourcegitcommit: 88b4a9d19d16b0ef6543adf7c378a08bf0e07b3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3311785"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432607"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrēt Dynamics 365 Supply Chain Management (Līdzekļu pārvaldība) ar Dynamics 365 Guides
 

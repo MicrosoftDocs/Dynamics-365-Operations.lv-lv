@@ -4,7 +4,7 @@ description: Šajā tēmā ir sniegts pārskats par funkcionalitāti, kas nodro�
 author: GarmMSFT
 manager: tfehr
 ms.date: 06/10/2020
-ms.topic: configure-number-sequence-extensions
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016129"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4433220"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Konfigurēt numuru sērijas noliktavas plūsmām
 
@@ -80,15 +80,15 @@ Lai izveidotu un rediģētu numuru sērijas, veiciet tālāk norādītās darbī
 1. Doties uz **Noliktavas pārvaldība** \> **Iestatīšana** \> **Numuru sērijas paplašinājumi**.
 1. Darbību rūtī atlasiet **Jauns**.
 1. Laukā **Numura sērijas paplašinājums** ievadiet jaunās sērijas nosaukumu. Ievadiet aprakstu laukā **Apraksts**.
-1. Kopsavilkuma cilnē **Segmenti** , izmantojiet rīkjoslas pogas, lai izveidotu numerācijas formātu, pievienojot, dzēšot un kārtojot segmentus. Katrai rindai laukā **Segments** piešķiriet segmenta veidu, lai definētu šī segmenta nolūku un saturu. Šajā tabulā aprakstīti pieejamie segmentu veidi.
+1. Kopsavilkuma cilnē **Segmenti**, izmantojiet rīkjoslas pogas, lai izveidotu numerācijas formātu, pievienojot, dzēšot un kārtojot segmentus. Katrai rindai laukā **Segments** piešķiriet segmenta veidu, lai definētu šī segmenta nolūku un saturu. Šajā tabulā aprakstīti pieejamie segmentu veidi.
 
     | Segmenta veids | apraksts |
     |---|---|
     | Konstante | Šis segmenta veids pievieno vienādu konstantes tekstu katram ģenerētajam numuram sērijā. Laukā **Vērtība** ievadiet nepieciešamo tekstu. Lauks **Garums** tiek automātiski atjaunināts uz laukā **Vērtība** ievadīto teksta garumu. |
-    | Numuru sērija | Laukā **Vērtība** ievadiet numura zīmi ( *\#* ) katrai rakstzīmei, kas jāparāda ģenerētajā sērijā. Pati numura sērija var ģenerēt garākus numurus, bet tiks rādītas tikai labās puses rakstzīmes. Lauks **Garums** tiek automātiski atjaunināts uz laukā **Vērtība** ievadīto numura zīmes numuru.<p>Lai atbilstu GS1 prasībām attiecībā uz SSCC-18 numuriem, pārliecinieties, ka šī segmenta garums ir 16 mīnus jūsu GS1 prefiksa garums.</p> |
-    | GS1 prefikss | Šis segmenta veids pievieno vērtību, kas ir iestatīta laukā **GS1 uzņēmuma prefikss** , lapā **Noliktavas pārvaldības parametri**. Lauks **Vērtība** rāda vērtību, kas ir iestatīta lapā **Noliktavas pārvaldības parametri** , un lauks **Garums** rāda rakstzīmju skaitu vērtībā. Gan lauks **Vērtība** , gan lauks **Garums** ir tikai lasāms. |
-    | Pieteikuma identifikators | Laukā **Vērtība** ievadiet pieteikuma identifikatoru, kā norādīts atbilstošajā GS1 politikā šim numura sērijas veidam. Piemēram, ievadiet *00* , priekš SSCC vai *420* priekš BOL. Lauks **Garums** tiek automātiski atjaunināts uz laukā **Vērtība** ievadīto identifikatora garumu. |
-    | Iepakojuma tips | Krājumiem, kurus var skaidri identificēt, šis segmenta veids pievieno lauka vērtību no atbilstošās vienības secības grupas (no lapas **Vienību secību grupas** ). (Šī darbība atbilst esošajai noliktavas vienību ID loģikai.) Noliktavas vienībām, kas ietver vairākas noliktavas vienības (SKU), šis segmenta veids pēc noklusējuma pievieno *0* (nulli). Šim segmenta veidam lauks **Vērtība** vienmēr tiek iestatīts uz *P* , un lauks **Garums** vienmēr tiek iestatīts uz *1*.|
-    | Kontrolcipars | Šis segmenta veids pievieno kontrolciparu, kas ir moduļa 10 aprēķins. (Šī darbība atbilst esošajai noliktavas vienību ID loģikai.) Šim segmenta veidam lauks **Vērtība** vienmēr tiek iestatīts uz jumtiņa ( *^* ), un lauks **Garums** vienmēr tiek iestatīts uz *1*. |
+    | Numuru sērija | Laukā **Vērtība** ievadiet numura zīmi (*\#*) katrai rakstzīmei, kas jāparāda ģenerētajā sērijā. Pati numura sērija var ģenerēt garākus numurus, bet tiks rādītas tikai labās puses rakstzīmes. Lauks **Garums** tiek automātiski atjaunināts uz laukā **Vērtība** ievadīto numura zīmes numuru.<p>Lai atbilstu GS1 prasībām attiecībā uz SSCC-18 numuriem, pārliecinieties, ka šī segmenta garums ir 16 mīnus jūsu GS1 prefiksa garums.</p> |
+    | GS1 prefikss | Šis segmenta veids pievieno vērtību, kas ir iestatīta laukā **GS1 uzņēmuma prefikss**, lapā **Noliktavas pārvaldības parametri**. Lauks **Vērtība** rāda vērtību, kas ir iestatīta lapā **Noliktavas pārvaldības parametri**, un lauks **Garums** rāda rakstzīmju skaitu vērtībā. Gan lauks **Vērtība**, gan lauks **Garums** ir tikai lasāms. |
+    | Pieteikuma identifikators | Laukā **Vērtība** ievadiet pieteikuma identifikatoru, kā norādīts atbilstošajā GS1 politikā šim numura sērijas veidam. Piemēram, ievadiet *00*, priekš SSCC vai *420* priekš BOL. Lauks **Garums** tiek automātiski atjaunināts uz laukā **Vērtība** ievadīto identifikatora garumu. |
+    | Iepakojuma tips | Krājumiem, kurus var skaidri identificēt, šis segmenta veids pievieno lauka vērtību no atbilstošās vienības secības grupas (no lapas **Vienību secību grupas** ). (Šī darbība atbilst esošajai noliktavas vienību ID loģikai.) Noliktavas vienībām, kas ietver vairākas noliktavas vienības (SKU), šis segmenta veids pēc noklusējuma pievieno *0* (nulli). Šim segmenta veidam lauks **Vērtība** vienmēr tiek iestatīts uz *P*, un lauks **Garums** vienmēr tiek iestatīts uz *1*.|
+    | Kontrolcipars | Šis segmenta veids pievieno kontrolciparu, kas ir moduļa 10 aprēķins. (Šī darbība atbilst esošajai noliktavas vienību ID loģikai.) Šim segmenta veidam lauks **Vērtība** vienmēr tiek iestatīts uz jumtiņa (*^*), un lauks **Garums** vienmēr tiek iestatīts uz *1*. |
 
-1. Lai skatītu galīgo numura formāta paraugu, pārbaudiet lauku **Formāts** , kas atrodas kopsavilkuma cilnes **Segmenti** apakšā.
+1. Lai skatītu galīgo numura formāta paraugu, pārbaudiet lauku **Formāts**, kas atrodas kopsavilkuma cilnes **Segmenti** apakšā.

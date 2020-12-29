@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012325"
+ms.locfileid: "4433084"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.8. (2020. gada februāris)
 
@@ -36,7 +36,7 @@ ms.locfileid: "4012325"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Daži no šiem līdzekļiem arī ir iekļauti iepriekšējā inkrementālajā laidienā, bet netika paziņoti iepriekšējā tēmā *Kas jauns* , tāpēc mēs tos pievienojam šeit. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Daži no šiem līdzekļiem arī ir iekļauti iepriekšējā inkrementālajā laidienā, bet netika paziņoti iepriekšējā tēmā *Kas jauns*, tāpēc mēs tos pievienojam šeit. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 - [Papildu atrašanās vietas zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 

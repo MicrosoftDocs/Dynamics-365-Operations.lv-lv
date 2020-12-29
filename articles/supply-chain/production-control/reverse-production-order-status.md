@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c7529e6c2bd7cb6b8386565c9f19075e56a65d3c
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826150"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432763"
 ---
 # <a name="reverse-the-production-order-status"></a>Ražošanas pasūtījuma statusa atsaukšana
 
@@ -49,7 +49,7 @@ Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Ieplānots** uz **N
 Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Izlaists** uz **ieplānots**, tiek mainīta vienīgi statusa lauka vērtība.
 
 ## <a name="from-started-to-released"></a>No Sākts uz Izlaists
-Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Sākts** uz **Izlaists**, tiek atsaukts visu to krājumu statuss, kas ir reģistrēti kā pabeigti. Ja materiāls ir izdots vai ir veikta ieejošā vai izejošā piegāde ražošanai, šie iestatījumi tiek atsaukti. Ražošanas pasūtījuma MK rindu lauka**Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Materiālu patēriņš**. Ja operācijām ražošanas maršrutā ir reģistrēts laiks vai daudzumi ir reģistrēti kā pabeigti, šie iestatījumi tiek atsaukti. Ražošanas maršruta lauka**Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Maršruta patēriņš**. Tiek atsaukti visu to krājumu iestatījumi, kas ir grāmatoti kā notiekošs process vai nepabeigtā ražošana. Lapā **Ražošanas pasūtījumu informācija** tiek atiestatīti lauki, kuros ir redzams daudzums, kas ir sākts vai reģistrēts kā pabeigts. Tiek atiestatīti arī šo transakciju datumi.
+Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Sākts** uz **Izlaists**, tiek atsaukts visu to krājumu statuss, kas ir reģistrēti kā pabeigti. Ja materiāls ir izdots vai ir veikta ieejošā vai izejošā piegāde ražošanai, šie iestatījumi tiek atsaukti. Ražošanas pasūtījuma MK rindu lauka **Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Materiālu patēriņš**. Ja operācijām ražošanas maršrutā ir reģistrēts laiks vai daudzumi ir reģistrēti kā pabeigti, šie iestatījumi tiek atsaukti. Ražošanas maršruta lauka **Nepabeigtā pasūtījuma statuss** tiek mainīts no **Pabeigts** uz **Maršruta patēriņš**. Tiek atsaukti visu to krājumu iestatījumi, kas ir grāmatoti kā notiekošs process vai nepabeigtā ražošana. Lapā **Ražošanas pasūtījumu informācija** tiek atiestatīti lauki, kuros ir redzams daudzums, kas ir sākts vai reģistrēts kā pabeigts. Tiek atiestatīti arī šo transakciju datumi.
 
 
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018679"
+ms.locfileid: "4433214"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
@@ -36,7 +36,7 @@ Atkarībā no jūsu uzņēmuma iestatījumiem, var izveidot organizācijā izman
 Kad pirkšanas pieprasījums ir apstiprināts, to var izmantot pirkšanas pasūtījuma izveidei. Pirkšanas pasūtījumi ir ārējie dokumenti, ko iepirkumu departaments iesniedz piegādātājiem.
 
 ## <a name="creating-purchase-requisitions"></a>Pirkšanas pieprasījumu izveidošana
-Pirkšanas pieprasījumu var izveidot lapā **Mani pirkšanas pieprasījumi** , kur var atlasīt nepieciešamos krājumus un pakalpojumus. Krājumus var izvēlēties jūsu organizācijas izveidotā sagādes katalogā vai var pieprasīt tos krājumus, kas nav atrodami katalogā, atlasot iepirkuma kategoriju un ievadot preces datus.  
+Pirkšanas pieprasījumu var izveidot lapā **Mani pirkšanas pieprasījumi**, kur var atlasīt nepieciešamos krājumus un pakalpojumus. Krājumus var izvēlēties jūsu organizācijas izveidotā sagādes katalogā vai var pieprasīt tos krājumus, kas nav atrodami katalogā, atlasot iepirkuma kategoriju un ievadot preces datus.  
 
 Pirms varat iesniegt pirkšanas pieprasījumu pārskatīšanai, programmā ir jākonfigurē darbplūsmas. Izmantojiet darbplūsmu, lai apstrādātu pirkšanas pieprasījumu pārskatīšanas procesā no sākotnējā statusa **Uzmetums** līdz gala statusam **Apstiprināts**.
 

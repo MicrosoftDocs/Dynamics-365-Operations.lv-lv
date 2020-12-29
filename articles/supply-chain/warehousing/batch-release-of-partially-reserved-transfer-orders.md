@@ -18,11 +18,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016294"
+ms.locfileid: "4433141"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Daļēji rezervētu pārsūtīšanas pasūtījumu partijas izlaišana
 
@@ -45,9 +45,9 @@ Lai pasūtījumu varētu daļēji pārvietot uz noliktavu pakešveidā, ir jāb�
 
 Izpildes politikas attiecībā uz pārsūtīšanas pasūtījumiem un pārdošanas pasūtījumiem tiek norādītas uzņēmuma līmenī. Atkarībā no izpildes politikas iestatījumiem pasūtījumu izlaišana pakešveidā tiks pieņemta vai noraidīta. Pēc tam pasūtījumi tiks atbilstoši apstrādāti.
 
--   Lai izveidotu izpildes politikas pārsūtīšanas pasūtījumiem un pārdošanas pasūtījumiem, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Pārvietot uz noliktavu** \> **Izpildes politika** , un pēc tam izveidojiet izpildes politiku, ievadot nosaukumu un aprakstu.
+-   Lai izveidotu izpildes politikas pārsūtīšanas pasūtījumiem un pārdošanas pasūtījumiem, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Pārvietot uz noliktavu** \> **Izpildes politika**, un pēc tam izveidojiet izpildes politiku, ievadot nosaukumu un aprakstu.
 
--   Lai norādītu izpildes koeficientu, vērtības tipu un ziņojumu, kas tiek rādīts, ja izpildes politika tiek pārkāpta, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Pārvietot uz noliktavu** \> **Izpildes politika** un pēc tam iestatiet laukus **Izpildes koeficients** , **Vērtības tips** un **Izpildes pārkāpumu ziņojums**.
+-   Lai norādītu izpildes koeficientu, vērtības tipu un ziņojumu, kas tiek rādīts, ja izpildes politika tiek pārkāpta, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Pārvietot uz noliktavu** \> **Izpildes politika** un pēc tam iestatiet laukus **Izpildes koeficients**, **Vērtības tips** un **Izpildes pārkāpumu ziņojums**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Iestatīt izpildes politikas pārsūtīšanas pasūtījumiem un pārdošanas pasūtījumiem
 

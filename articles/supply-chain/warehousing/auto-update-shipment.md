@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "3900990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432576"
 ---
 # <a name="shipment-auto-updates"></a>Sūtījuma automātiskie atjauninājumi
 
@@ -45,7 +45,7 @@ Kopuma statuss ir paredzēts arī automātiskajiem atjauninājumiem. Kad kopums,
 
 Automātiskās atjaunināšanas sūtījuma funkcionalitāte atbalsta četrus scenārijus: jaunas pasūtījuma rindas pievienošana, daudzuma palielināšana pasūtījuma rindā, daudzuma samazināšana pasūtījuma rindā un pasūtījuma rindas noņemšana.
 
-- **Pievienot jaunu pasūtījuma rindu** – Kad **Automātiskās atjaunināšanas nosūtīšanas** lauks **Noliktavas** lapas **Noliktavas** kopsavilkuma cilnē (**Noliktavas pārvaldība \>Iestatīšana \>Noliktava\>Noliktavas**) ir iestatīts uz **Vienmēr**, ja pasūtījumam ir krava un jauna pasūtījuma rinda tiek pievienota pārdošanas pasūtījumam vai pārsūtīšanas pasūtījumam, pēc tam, kad noslodze jau ir izveidota pārdošanas pasūtījumam, esošā noslodze netiek atjaunināta. Jauna kravas rinda, kurai nav atsauces uz esošo noslodzi, tiek izveidota un saistīta ar esošo sūtījumu. Jaunā rinda tiek pievienota noslodzei un palaista.
+- **Pievienot jaunu pasūtījuma rindu** – Kad **Automātiskās atjaunināšanas nosūtīšanas** lauks **Noliktavas** lapas **Noliktavas** kopsavilkuma cilnē (**Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Noliktavas**) ir iestatīts uz **Vienmēr**, ja pasūtījumam ir krava un jauna pasūtījuma rinda tiek pievienota pārdošanas pasūtījumam vai pārsūtīšanas pasūtījumam, pēc tam, kad noslodze jau ir izveidota pārdošanas pasūtījumam, esošā noslodze netiek atjaunināta. Jauna kravas rinda, kurai nav atsauces uz esošo noslodzi, tiek izveidota un saistīta ar esošo sūtījumu. Jaunā rinda tiek pievienota noslodzei un palaista.
 - **Palielināt daudzumu pasūtījuma rindā** — Kad **Automātiskās atjaunināšanas sūtījuma** lauks ir iestatīts uz **Vienmēr**, ja pasūtījumam ir krava un daudzums esošā pārdošanas pasūtījuma rindā vai pārsūtīšanas pasūtījuma rindā ir palielināts, pēc tam, kad pārdošanas pasūtījumam jau ir izveidota noslodze, tās rinda tiek palielināta par tādu pašu daudzumu kā pasūtījuma rinda. Ja noslodze tika nodota, bet netika izveidots neviens darbs, noslodzes rinda tiek palielināta par tādu pašu daudzumu kā pasūtījuma rinda.
 - **Samazināt daudzumu pasūtījuma rindā** — kad **Automātiskās atjaunināšanas sutījuma** lauks ir iestatīts uz **Vienmēr** vai **Uz daudzuma samazināšanos**, ja pasūtījumam ir paredzēts sūtīšana un daudzums esošā pārdošanas pasūtījuma rindas vai pārsūtīšanas pasūtījuma rinda tiek samazināta pēc tam, kad noslodze jau ir izveidota pārdošanas pasūtījumam, daudzums saistītajā noslodzes rindā tiek atjaunināts atbilstoši, ja vien daudzums šajā kravas rindā jau ir vienāds ar vai mazāks par jauno daudzumu pasūtījuma rindā. Šādā gadījumā noslodzes rinda netiek ietekmēta. Ja krava tika nodota, bet netika izveidots neviens darbs, daudzums saistītajā noslodzes rindā tiek atjaunināts atbilstoši, ja vien daudzums noslodzes rindā jau ir vienāds ar vai mazāks nekā jaunais daudzums pasūtījuma rindā. Šādā gadījumā noslodzes rinda tiek ietekmēta.
 - **Noņemt pasūtījuma rindu** — Kad **Automātiskās atjaunināšanas sūtījuma** lauks ir iestatīts uz **Vienmēr** vai **Uz daudzuma samazināšanos**, ja lietotājs mēģina noņemt pasūtījuma rindu, kurā pastāv kravas rinda, tiek parādīts kļūdas ziņojums.
@@ -58,7 +58,7 @@ Automātiskās atjaunināšanas sūtījuma funkcionalitāte atbalsta četrus sce
 
 Lai ieslēgtu automātiskās atjaunināšanas sūtījuma funkcionalitāti, veiciet sekojošās darbības.
 
-1. Dodieties uz **Noliktavas vadība\> Iestatīšana\> Noliktava \> Noliktavas**.
+1. Dodieties uz **Noliktavas vadība \> Iestatīšana \> Noliktava \> Noliktavas**.
 2. Atlasiet noliktavu **24**.
 3. Uz **Noliktavas** kopsavilkuma cilnes, **Automātiski atjaunināt sūtījumu** laukā mainiet vērtību no **Uz daudzuma samazināšanās** uz **Vienmēr**.
 
@@ -95,7 +95,7 @@ Lai samazinātu pārdošanas pasūtījuma rindas daudzumu, veiciet sekojošās d
 1. Dodieties uz **Pārdošana un mārketings \> Pārdošanas pasūtījumi \> Visi pārdošanas pasūtījumi**.
 2. Atlasiet pārdošanas pasūtījumu, kuru tikko izlaidāt noliktavā.
 3. Atlasiet pārdošanas pasūtījuma rindu. Laukā **Daudzums** mainiet vērtību no **10** uz **8**.
-4. No pārdošanas pasūtījuma rindas atlasiet **Noliktavas \>Sūtījuma detaļas** Lapā **Sūtījuma detaļas** **Noslodzes rindas** kopsavilkuma cilnē daudzums ataino izmaiņas pārdošanas pasūtījuma rindā.
+4. No pārdošanas pasūtījuma rindas atlasiet **Noliktavas \> Sūtījuma detaļas** Lapā **Sūtījuma detaļas** **Noslodzes rindas** kopsavilkuma cilnē daudzums ataino izmaiņas pārdošanas pasūtījuma rindā.
 
 ### <a name="increase-the-quantity-on-a-sales-order-line"></a>Palielināt pārdošanas pasūtījuma rindas daudzumu.
 
@@ -131,7 +131,7 @@ Tā kā pārdošanas pasūtījuma rinda, ko tikko pievienojāt esošajam sūtīj
 
 Lai apstrādātu kopumu, veiciet sekojošās darbības.
 
-1. Dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \>Sūtījuma kopumi \>Visi kopumi**.
+1. Dodieties uz **Noliktavas pārvaldība \> Izejošie kopumi \> Sūtījuma kopumi \> Visi kopumi**.
 2. Atlasiet iepriekš izveidoto kopumu.
 3. Darbību rūts cilnē **Kopums**, grupā **Kopums** atlasiet **Apstrādāt**.
 

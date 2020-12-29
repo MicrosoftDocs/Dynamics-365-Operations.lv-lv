@@ -17,23 +17,23 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016797"
+ms.locfileid: "4433119"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Pārvietot uz noliktavu”
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma piedāvā scenāriju, kur viena vai vairākas pārdošanas rindas ir manuāli jāpārvieto uz noliktavu no lapas **Pārvietot uz noliktavu** , un sistēmas definētā sūtījumu konsolidācijas politika ir jāignorē pirms pārvietošanas. Sūtījuma konsolidācijas politikas ignorēšana var būt nepieciešama, ja, piemēram, pasūtījums, kas parasti netiek konsolidēts ar atvērtiem sūtījumiem, ir jākonsolidē ar atvērtiem sūtījumiem.
+Šī tēma piedāvā scenāriju, kur viena vai vairākas pārdošanas rindas ir manuāli jāpārvieto uz noliktavu no lapas **Pārvietot uz noliktavu**, un sistēmas definētā sūtījumu konsolidācijas politika ir jāignorē pirms pārvietošanas. Sūtījuma konsolidācijas politikas ignorēšana var būt nepieciešama, ja, piemēram, pasūtījums, kas parasti netiek konsolidēts ar atvērtiem sūtījumiem, ir jākonsolidē ar atvērtiem sūtījumiem.
 
 Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopu un pēc tam ignorēsiet noklusējuma sūtījumu konsolidācijas politiku pirms pasūtījumu nodošanas noliktavā.
 
 ## <a name="make-demo-data-available"></a>Padarīt demonstrācijas datus pieejamus
 
-Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF** , pirms sākat darbu.
+Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management. Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Iestatīt sūtījumu konsolidācijas politikas un preču filtrus
 
@@ -50,7 +50,7 @@ Scenārija laikā jūs izveidosiet pārdošanas pasūtījumu kopu un pēc tam ig
     - **Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)
     - **Daudzums:** *1.00*
 
-1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu** , lai rezervētu pasūtījuma rindu.
+1. Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.
 
 ## <a name="release-the-sales-orders-from-the-release-to-warehouse-page"></a>Pārvietot pārdošanas pasūtījumus no lapas Pārvietot uz noliktavu
 
@@ -58,12 +58,12 @@ Sekojiet šiem soļiem, lai ignorētu sūtījuma konsolidācijas politiku izlai�
 
 1. Dodieties uz **Noliktavu pārvaldība \> Pārvietot uz noliktavu \> Pārvietot uz noliktavu**.
 1. Augšējā rūtī atlasiet pirmo pārdošanas pasūtījumu, ko izveidojāt šim scenārijam.
-1. Atlasiet **Pievienot** , lai pievienotu rindu izlaišanai noliktavā. Ievērojiet, ka apakšējā rūtī tiek lietota *Noklusējuma* sūtījumu konsolidācijas politika.
+1. Atlasiet **Pievienot**, lai pievienotu rindu izlaišanai noliktavā. Ievērojiet, ka apakšējā rūtī tiek lietota *Noklusējuma* sūtījumu konsolidācijas politika.
 1. Apakšējā rūtī atlasiet **Atlasīt jaunu sūtījumu konsolidācijas politiku**.
 1. Atlasiet politiku, kas ļauj veikt konsolidāciju ar citiem tās pašas politikas atvērtajiem sūtījumiem. Piemēram, atlasiet *CustomerOrderNo* politiku.
 1. Atlasiet **Pārvietot uz noliktavu**.
 1. Atlasiet otro un trešo pārdošanas pasūtījumu, ko izveidojāt šim scenārijam.
-1. Atlasiet **Pievienot** , lai pievienotu rindas izlaišanai noliktavā. Ievērojiet, ka apakšējā rūtī tiek lietota *Noklusējuma* politika.
+1. Atlasiet **Pievienot**, lai pievienotu rindas izlaišanai noliktavā. Ievērojiet, ka apakšējā rūtī tiek lietota *Noklusējuma* politika.
 1. Atlasiet otro rindu un pēc tam laukā **Atlasīt jaunu sūtījumu konsolidācijas politiku** atlasiet *CustomerOrderNo* politiku.
 1. Atlasiet **Pārvietot uz noliktavu** abām rindām.
 

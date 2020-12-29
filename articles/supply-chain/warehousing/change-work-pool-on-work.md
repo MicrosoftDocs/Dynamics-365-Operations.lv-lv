@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677366"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432816"
 ---
 # <a name="change-work-pool-on-work"></a>Mainīt darba pūlu darbam
 
@@ -118,7 +118,7 @@ Katrai darba veidnei varat iestatīt noklusējuma darba pūlu, pēc nepieciešam
 
 ### <a name="review-the-outbound-wave"></a>Pārskatiet izejošo kopumu
 
-1. Dodieties uz **Noliktavas pārvaldība \>Izejošie kopumi \>Sūtījuma kopumi \>Visi kopumi**.
+1. Dodieties uz **Noliktavas pārvaldība \> Izejošie kopumi \> Sūtījuma kopumi \> Visi kopumi**.
 1. Režģī meklējiet kopuma ID, kas tika izveidots no pārdošanas pasūtījuma izlaides.
 1. Atlasiet kopuma ID, lai skatītu detalizētu informāciju.
 1. Kopsavilkuma cilnē **Kopuma rindas** pārliecinieties, ka pārdošanas pasūtījumam ir norādīts sūtījuma ID.

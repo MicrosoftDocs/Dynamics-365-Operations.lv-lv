@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018541"
+ms.locfileid: "4433204"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmu problēmu novēršana
 
@@ -32,7 +32,7 @@ ms.locfileid: "4018541"
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Kļūda, atkārtoti iesniedzot pirkšanas pasūtījumu darbplūsmai pēc izmaiņu veikšanas: “Izmaiņas pirkšanas pasūtījumā X ir atļautas tikai Melnraksta stāvoklī, kad ir aktivizēta izmaiņu pārvaldība”
 
-Šī problēma rodas tikai tad, ja pirkšanas pasūtījums bija stāvoklī *Apstiprināts* , pirms jūs pieprasījāt izmaiņas. Ja tiek pieprasītas izmaiņas, kamēr pirkšanas pasūtījums ir stāvoklī *Apstiprināts* , darbplūsma var tikt veiksmīgi apstrādāta.
+Šī problēma rodas tikai tad, ja pirkšanas pasūtījums bija stāvoklī *Apstiprināts*, pirms jūs pieprasījāt izmaiņas. Ja tiek pieprasītas izmaiņas, kamēr pirkšanas pasūtījums ir stāvoklī *Apstiprināts*, darbplūsma var tikt veiksmīgi apstrādāta.
 
 ### <a name="error-description"></a>Kļūdas apraksts
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Šī problēma var rasties pirkšanas pasūtījuma sadaļu neatbilstības dēļ.
 
-Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts* , dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts*, dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 Problēma tiks novērsta, izmantojot [šo Microsoft zināšanu bāzes (KB) rakstu](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,13 +56,13 @@ Problēma tiks novērsta, izmantojot [šo Microsoft zināšanu bāzes (KB) rakst
 
 Šī problēma var rasties pirkšanas pasūtījuma sadaļu neatbilstības dēļ.
 
-Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts* , dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Lai atrisinātu šo problēmu un atiestatītu pirkšanas pasūtījumu uz stāvokli *Melnraksts*, dodieties uz **Sagāde un avoti \> Periodiskie uzdevumi \> Tīrīt \> Pirkšanas pasūtījuma sadales atiestatīšana**. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas pasūtījuma sadales kļūdas atrisināšana Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Ja pirkšanas pasūtījumā, kurā ir ieslēgta izmaiņu pārvaldība, tiek atcelts nosūtīšanas atlikums, tad pirkšanas pasūtījums tiek nosūtīts uz statusu Apstiprināts.
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Pirkšanas pasūtījums, kas pakļauts izmaiņu pārvaldībai, ja vienīgā pieprasītā izmaiņa ir nosūtīšanas atlikuma atcelšana vienai vai vairākām rindām, tiks tieši pārsūtīts uz statusu *Apstiprināts* , kad tas tiks apstiprināts un žurnāls netiks izveidots.
+Pirkšanas pasūtījums, kas pakļauts izmaiņu pārvaldībai, ja vienīgā pieprasītā izmaiņa ir nosūtīšanas atlikuma atcelšana vienai vai vairākām rindām, tiks tieši pārsūtīts uz statusu *Apstiprināts*, kad tas tiks apstiprināts un žurnāls netiks izveidots.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
@@ -74,7 +74,7 @@ Ja tas jāatspoguļo pirkšanas pasūtījuma apstiprinājumā, daudzums ir jāko
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Atceļot pirkšanas pasūtījumus, ar statusu *Apstiprināts* , atceltie pirkšanas pasūtījumi joprojām parādās **Pirkšanas pasūtījumu sagatavošanas** darbvietas pirkšanas pasūtījumu melnrakstu sarakstā.
+Atceļot pirkšanas pasūtījumus, ar statusu *Apstiprināts*, atceltie pirkšanas pasūtījumi joprojām parādās **Pirkšanas pasūtījumu sagatavošanas** darbvietas pirkšanas pasūtījumu melnrakstu sarakstā.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 

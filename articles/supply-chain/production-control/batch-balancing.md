@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016889"
+ms.locfileid: "4433127"
 ---
 # <a name="batch-balancing"></a>Partijas līdzsvarošana
 
@@ -97,7 +97,7 @@ Sastāvdaļai B ir pamata atribūts X un mērķa līmenis 30, un tā ir iekļ
 
 ### <a name="none"></a>Neviens
 
-Izmantojot partijas līdzsvarošanas procesu, ja sastāvdaļas veids ir **Nav** , partijas pasūtījuma formulas rindā aprēķinātais un līdzsvarotais daudzums ir vienādi.
+Izmantojot partijas līdzsvarošanas procesu, ja sastāvdaļas veids ir **Nav**, partijas pasūtījuma formulas rindā aprēķinātais un līdzsvarotais daudzums ir vienādi.
 
 **Piemērs**
 
@@ -107,15 +107,15 @@ Sastāvdaļa A tiek piešķirta sastāvdaļai ar veidu **Nav** un pievienota pa
 
 Kompensējošā sastāvdaļa var nobīdīt vai papildināt preci aktīvās sastāvdaļas efektu. Tāpēc patērētais kompensējošās sastāvdaļas daudzums ir atkarīgs no produkta satura.
 
--   **Pretējs efekts**  — ja aktīvā sastāvdaļas daudzums ir lielāks nekā gaidīts, ir jāpievieno mazāk kompensējošās sastāvdaļas.
+-   **Pretējs efekts** — ja aktīvā sastāvdaļas daudzums ir lielāks nekā gaidīts, ir jāpievieno mazāk kompensējošās sastāvdaļas.
 
--   **Papildinošs efekts**  — ja aktīvā sastāvdaļas daudzums ir mazāks nekā gaidīts, ir jāpievieno vairāk kompensējošās sastāvdaļas.
+-   **Papildinošs efekts** — ja aktīvā sastāvdaļas daudzums ir mazāks nekā gaidīts, ir jāpievieno vairāk kompensējošās sastāvdaļas.
 
 Aktīvās sastāvdaļas un papildu sastāvdaļas relācija tiek iestatīta lapā **Kompensācijas princips**.
 
 Lai iestatītu sastāvdaļu relācijas, izpildiet tālāk minētās darbības.
 
-1.  Atlasiet **Preču informācijas pārvaldība** \> **Rēķini, materiāli un formulas** \> **Formulas** , atveriet formulas rindu un pēc tam atlasiet **Sastāvdaļas** , lai atvērtu lapu **Kompensācijas princips**.
+1.  Atlasiet **Preču informācijas pārvaldība** \> **Rēķini, materiāli un formulas** \> **Formulas**, atveriet formulas rindu un pēc tam atlasiet **Sastāvdaļas**, lai atvērtu lapu **Kompensācijas princips**.
 
 2.  Atlasiet rindas, kas atspoguļo kompensācijas principu un pēc tam atlasiet kompensējamo aktīvo sastāvdaļu.
 
@@ -147,7 +147,7 @@ Tā kā 1,10 ir pozitīvs kompensācijas faktors, šim kompensācijas principam 
 
 **Piemērs**
 
-Tika aprēķināta prece, kas ietver sastāvdaļas A, B, C un D formulas lielumam 100 litri. Tika aprēķināts visu sastāvdaļu veidu līdzsvarotais daudzums, izņemot sastāvdaļas veidam **Palīgviela** , kas tiek izmantota vienā rindā.
+Tika aprēķināta prece, kas ietver sastāvdaļas A, B, C un D formulas lielumam 100 litri. Tika aprēķināts visu sastāvdaļu veidu līdzsvarotais daudzums, izņemot sastāvdaļas veidam **Palīgviela**, kas tiek izmantota vienā rindā.
 Palīgvielas līdzsvarotais daudzums tiek aprēķināts kā starpība starp partijas lieluma 100 litriem un sastāvdaļas A, B un C summa:
 
 100 – (20 + 25,71 + 14,72) = 39,57
@@ -171,7 +171,7 @@ Partijas līdzsvarošanas procesu var sadalīt divos apakšprocesos:
 Apakšprocesā Bilances partijas sastāvdaļas tiek aprēķināts ražošanas partijā izmantojamais sastāvdaļu daudzums, ņemot vērā atlasītās preču partijas ar aktīvo sastāvdaļu. Aprēķinu var veikt tikai tad, ja ir pilns visu sastāvdaļu segums. Nevar līdzsvarot tikai partijas daļu, kam partijas pasūtījums ir iestatīts ražošanai.
 
 [!NOTE]
-Nevar saglabāt aprēķinu un pēc tam veikt partijas līdzsvarošanas procesu vēlāk. Ja aizverat lapu **Partijas līdzsvarošana** , lai pabeigtu procesu, aprēķins ir jāatkārto.
+Nevar saglabāt aprēķinu un pēc tam veikt partijas līdzsvarošanas procesu vēlāk. Ja aizverat lapu **Partijas līdzsvarošana**, lai pabeigtu procesu, aprēķins ir jāatkārto.
 
 ### <a name="confirm-and-release-the-formula"></a>Formulas apstiprināšana un izdošana
 

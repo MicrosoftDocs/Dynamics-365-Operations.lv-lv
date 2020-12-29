@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017855"
+ms.locfileid: "4433173"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Kravu pārvadāšanas maršrutu ar vairākām pieturām plānošana
 
@@ -43,7 +43,7 @@ Maršruta plāns ietver maršruta segmentus, kas sniedz informāciju par pietur�
 Katram maršruta plānam ir jābūt saistītam ar kādu maršruta ceļvedi.
 
 ## <a name="route-guides"></a>Maršruta ceļveži
-Maršruta ceļvedis definē kritērijus kravas saskaņošanai ar konkrētu maršruta plānu. Piemēram, varat norādīt izcelsmes pārkraušanas punktu un mērķa pārkraušanas punktu, konteinera tilpuma vai svara ierobežojumus, kā arī sūtījumu pārvadātāju, pakalpojumu vai grupu. Maršrutu ceļveži ir pieejami lapā **Likmju un maršrutu rīks** , kur kravas var manuāli vai automātiski saskaņot ar maršrutiem. Ja maršruta ceļvedis ir paredzēts plānotam maršrutam, tas ir pieejams arī lapā **Kravas plānošanas rīks**.
+Maršruta ceļvedis definē kritērijus kravas saskaņošanai ar konkrētu maršruta plānu. Piemēram, varat norādīt izcelsmes pārkraušanas punktu un mērķa pārkraušanas punktu, konteinera tilpuma vai svara ierobežojumus, kā arī sūtījumu pārvadātāju, pakalpojumu vai grupu. Maršrutu ceļveži ir pieejami lapā **Likmju un maršrutu rīks**, kur kravas var manuāli vai automātiski saskaņot ar maršrutiem. Ja maršruta ceļvedis ir paredzēts plānotam maršrutam, tas ir pieejams arī lapā **Kravas plānošanas rīks**.
 
 ## <a name="scheduled-routes"></a>Plānoti maršruti
 Plānots maršruts ir iepriekš noteikts maršruta plāns, kam ir nosūtīšanas datumu grafiks. Plānoti maršruti no neplānotiem maršrutiem atšķiras ar veidu, kādā tiem tiek piešķirtas kravas. Ja piešķirat neplānotu maršrutu, izmantojot likmju un maršrutu rīku, tad tiek validēti tikai krava un maršruta ceļvedis. Ja piešķirat plānotu maršrutu, tiek ņemti vērā arī datumi un adreses no pasūtījumiem un pārkraušanas punktiem, kā arī datumi maršruta plānā. Jums nav jāizmanto likmju un maršrutu rīka lapa, lai kravas manuāli piešķirtu plānotam maršrutam. Tā vietā varat izmantot kravas plānošanas rīku, lai ierosinātu, ka kravas ir jāveido, pamatojoties uz debitoru adresēm un piegādes datumiem no pārdošanas pasūtījumiem attiecīgajam plānotajam maršrutam. Plānotajiem maršrutiem maršruta plānam būs fiksēti izcelsmes un galamērķa pārkraušanas punkti. Sūtījumu pārvadātājs un pakalpojums parasti būs vienādi visiem segmentiem, bet tie var atšķirties. Galamērķa pārkraušanas punkti tiek izveidoti, izmantojot pa ceļam apmeklēto debitoru pasta indeksus. Vienam maršruta plānam var definēt vairākus maršrutu grafikus. Šim maršruta plānam ir jābūt saistītam ar kādu maršruta ceļvedi. Taču plānotajiem maršrutiem šis plāns var būt saistīts tikai ar vienu maršruta ceļvedi. Maršruta grafiks tiek izmantots tikai tam, lai izveidotu faktiskos maršrutus lapā **Maršruta grafiks**. Kad kravas plānošanas rīkā ierosināt kravas, varat izmantot noklusējuma kravas veidni.

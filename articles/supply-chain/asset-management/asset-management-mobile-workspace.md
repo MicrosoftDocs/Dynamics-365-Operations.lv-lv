@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
 ms.openlocfilehash: 525f21d076027f1bf339e59fd0e346706044839c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216509"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432606"
 ---
 # <a name="asset-management-mobile-workspace"></a>Pamatlīdzekļulīdzeklis pārvaldības mobilā darbvieta
 
@@ -55,7 +55,7 @@ Ja jūsu organizācijai ir izvietota programma Microsoft Dynamics 365 Supply Cha
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Operations.
 
-- [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Programma Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
@@ -115,7 +115,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 5. Pie darba pasūtījuma uzdevuma redzēsiet esošos pielikumus. Atlasiet **Pielikumi**.
 
-6. Ievadiet pielikuma**Nosaukumu** un**Piezīmes**.
+6. Ievadiet pielikuma **Nosaukumu** un **Piezīmes**.
 
 7. Atlasiet **Izvēlēties attēlu**, lai izvēlētos fotoattēlu no mobilās galerijas, vai **Uzņemiet fotoattēlu**, lai fotografētu.
 
@@ -135,7 +135,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 4. Atlasiet **Kontrolsarakstus** lapā **Darba pasūtījuma uzdevumu informācija**.
 
-5. Jūs redzēsiet sarakstu ar kontrolsaraksta rindām, kas saistītas ar darba pasūtījuma uzdevumu. Atlasiet kontrolsaraksta rindu, lai skatītu**Norādījumus** un pievienotu **Piezīmes**.
+5. Jūs redzēsiet sarakstu ar kontrolsaraksta rindām, kas saistītas ar darba pasūtījuma uzdevumu. Atlasiet kontrolsaraksta rindu, lai skatītu **Norādījumus** un pievienotu **Piezīmes**.
 
 6. Atlasiet pogu Atpakaļ(**<**), lai atgrieztos iepriekšējā lapā.
 
@@ -178,8 +178,8 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
     4. Atlasiet **Gatavs**.
 
 6. Atlasiet **Pievienot krājumus**, lai izveidotu preču reģistrācijas.
-    1. Atlasiet **Krājumu numurs**uzmeklēšanas sadaļā.
-    2. Atlasiet  **Vietne** uzmeklēšanas sadaļā.
+    1. Atlasiet **Krājumu numurs** uzmeklēšanas sadaļā.
+    2. Atlasiet **Vietne** uzmeklēšanas sadaļā.
     3. Ievadiet izmantoto krājumu **Daudzumu**.
     4. Atlasiet **Gatavs**.
 
@@ -245,7 +245,7 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 5. Atlasiet **Pievienot pielikumus**.
 
-6. Ievadiet pielikuma**Nosaukumu** un**Piezīmes**.
+6. Ievadiet pielikuma **Nosaukumu** un **Piezīmes**.
 
 7. Atlasiet **Izvēlēties attēlu**, lai izvēlētos fotoattēlu no mobilās galerijas, vai **Uzņemiet fotoattēlu**, lai fotografētu.
 

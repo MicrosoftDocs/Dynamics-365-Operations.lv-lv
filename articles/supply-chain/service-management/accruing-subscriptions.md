@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5ebd65655db56ee1169f24dbc79fbfb5130f06a5
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978825"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4432732"
 ---
 # <a name="accruing-subscriptions"></a>Abonementu uzkrāšana 
 
@@ -58,7 +58,7 @@ Iegrāmatojot uzkrāto ieņēmumu, konts **NP - abonements** tiek debitēts ar u
 
 ## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a>Iestatīt kontus abonementa ieņēmumu uzkrāšanai
 
-1.  Noklikšķiniet uz **Projektu vadība un uzskaite** \> **Iestatījumi** \> **Grāmatošana** \> **Virsgrāmatas grāmatojumu iestatīšana**.
+1.  Noklikšķiniet uz **Projektu vadība un uzskaite** \> **Iestatījumi** \> **Grāmatošana** \> **Virsgrāmatas grāmatojumu iestatīšana**.
 
 2.  Noklikšķiniet uz cilnes **Ieņēmumu konti** cilnes un atlasiet **NP - abonements** vai **Uzkrātie ieņēmumi - abonements**, lai iestatītu kontus.
 
