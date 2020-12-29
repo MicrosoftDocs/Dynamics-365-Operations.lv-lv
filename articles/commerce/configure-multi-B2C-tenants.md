@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976020"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517131"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Konfigurēt vairākus B2C nomniekus Commerce vidē
 
@@ -94,17 +94,17 @@ Jūsu jaunajam Azure AD B2C nomniekam tagad ir jāparādās sarakstā sadaļā *
 1. Kreisās puses navigācijas rūtī atlasiet **Nomnieka iestatījumi**, lai to izvērstu.
 1. Atlasiet **B2C iestatījumi** un pēc tam atlasiet **Pārvaldīt**.
 1. Lai labotu B2C nomnieku, blakus tam atlasiet zīmuļa simbolu. Lai dzēstu B2C nomnieku, atlasiet atkritnes simbolu tam blakus.
-1. Atlasiet **Saglabāt**un pēc tam atlasiet **Publicēt**, lai aktivizētu izmaiņas.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Publicēt**, lai aktivizētu izmaiņas.
 
 > [!WARNING]
-> Kad B2C nomnieks ir konfigurēts dzīvai/publicētai vietai, lietotāji, iespējams, ir reģistrējušies, izmantojot kontu, kas ir nomniekā. Ja izdzēšat konfigurētu nomnieku izvēlnē **Nomnieka iestatījumi \>B2C nomnieks**, jūs noņemat šī B2C nomnieka saistību no vietām, kas ir saistītas ar jebkuru nomnieka kanālu. Šādā gadījumā lietotāji, iespējams, vairs nevarēs pieteikties savos kontos. Tāpēc, dzēšot konfigurēto nomnieku, esiet ļoti piesardzīgi.
+> Kad B2C nomnieks ir konfigurēts dzīvai/publicētai vietai, lietotāji, iespējams, ir reģistrējušies, izmantojot kontu, kas ir nomniekā. Ja izdzēšat konfigurētu nomnieku izvēlnē **Nomnieka iestatījumi \> B2C nomnieks**, jūs noņemat šī B2C nomnieka saistību no vietām, kas ir saistītas ar jebkuru nomnieka kanālu. Šādā gadījumā lietotāji, iespējams, vairs nevarēs pieteikties savos kontos. Tāpēc, dzēšot konfigurēto nomnieku, esiet ļoti piesardzīgi.
 >
 > Kad konfigurētais nomnieks tiek dzēsts, B2C nomnieks un ieraksti joprojām tiks uzturēti, bet šī nomnieka Commerce sistēmas konfigurācija tiks mainīta vai noņemta. Lietotāji, kuri mēģina pierakstīties vai pieteikties vietā, izveidos jaunu konta ierakstu noklusējuma vai nesen saistītajā B2C nomniekā, kas ir konfigurēts vietas kanālam.
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Konfigurējiet savu kanālu ar B2C nomnieku
 
 1. Piesakieties Commerce vietas veidotājam savai videi kā sistēmas administrators. Lai konfigurētu Azure AD B2C nomniekus, jums ir jābūt Commerce vides sistēmas administratoram.
 1. Kreisās puses navigācijas rūtī atlasiet **Vietnes iestatījumi**, lai to izvērstu.
-1. Atlasiet **Kanāli**un pēc tam atlasiet kanālu, ko konfigurēt.
+1. Atlasiet **Kanāli** un pēc tam atlasiet kanālu, ko konfigurēt.
 1. Rekvizītu rūts labajā pusē, laukā **Atlasiet B2C pieteikumu** atlasiet konfigurēto Azure AD B2C nomnieku, ko izmantot šim kanālam.
 1. Komandjoslā atlasiet **Saglabāt un publicēt**, lai iesniegtu jauno vai atjaunināto konfigurāciju.
 
@@ -114,11 +114,11 @@ Jūsu jaunajam Azure AD B2C nomniekam tagad ir jāparādās sarakstā sadaļā *
 
 [Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
-[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+[Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-[Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+[Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
 
 [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 

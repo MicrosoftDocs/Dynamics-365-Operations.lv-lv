@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be1e28d0b842184ce3c4f7bd9748f5e76ac67489
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430099"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529856"
 ---
 # <a name="understand-date-and-time-fields"></a>Izprotiet datuma un laika laukus
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Datuma un laika** lauki ir pamatjēdzieni programmā Dynamics 365 Human Resources. Ir svarīgi saprast, kā strādāt ar **Datuma un laika** datiem Dynamics 365 Human Resources veidlapās, Common Data Service un ārējos avotos.
 

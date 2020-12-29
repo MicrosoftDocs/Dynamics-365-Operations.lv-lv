@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897584"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528673"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Jaunumi un izmaiņas programmatūrā Dynamics 365 Talent (2019. gada 11. jūnijs)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 
@@ -54,9 +56,9 @@ Apstiprinājumi tiek rādīti informācijas paneļa sadaļā **Apstiprinājumi**
 
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Finance and Operations Platform update 27
+### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 for Finance and Operations
 
-Papildinformāciju par atjauninājumu Finance and Operations Platform update 27 skatiet rakstā [Priekšskatījuma līdzekļi Dynamics 365 Finance and Operations Platform update 27 (2019. gada jūnijs)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Papildinformāciju par atjauninājumu Platform update 27 programmai Finance and Operations skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 Finance and Operations Platform update 27 (2019. gada jūnijs)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Līdzekļu pārvaldības darbvieta programmā Talent
 

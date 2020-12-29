@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269525"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594336"
 ---
 # <a name="customize-image-focal-points"></a>Attēlu fokusa punktu pielāgošana
 
@@ -49,12 +49,14 @@ Lai definētu pielāgotu attēla fokusa punktu, veiciet šīs darbības.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Digitālo līdzekļu pārvaldības pārskats](dam-overview.md)
+[Pārskats par digitālo līdzekļu pārvaldību](dam-overview.md)
 
-[Augšupielādēt attēlus](dam-upload-images.md)
+[Attēlu augšupielāde](dam-upload-images.md)
 
-[Augšupielādēt video](dam-upload-video.md)
+[Videoklipu augšupielāde](dam-upload-video.md)
 
 [Augšupielādēt failus](dam-upload-files.md)
 
-[Apgriezt attēlus](dam-crop-images.md)
+[Attēlu apgriešana](dam-crop-images.md)
+
+[Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)

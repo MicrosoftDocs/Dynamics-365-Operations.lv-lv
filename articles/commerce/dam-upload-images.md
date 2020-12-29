@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8571c52b98a87751400dab9482168ee370834bcc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: f562d3376fde6a24e6a1e1a3f7f4192cf290ae90
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097049"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594288"
 ---
 # <a name="upload-images"></a>Augšupielādēt attēlus
 
@@ -66,7 +66,7 @@ Noklusējuma nosaukšanas nosacījumi atšķiras atkarībā no kategorijas:
 Lai augšupielādētu attēlu vietnes veidotājā, veiciet tālāk norādītās darbības.
 
 1. Kreisās puses navigācijas rūtī atlasiet **Mediju bibliotēka**.
-1. Komandu joslā atlasiet **Augšupielādēt \>Augšupielādēt mediju vienumus**.
+1. Komandu joslā atlasiet **Augšupielādēt \> Augšupielādēt mediju vienumus**.
 1. Failu pārlūka logā navigējiet uz un atlasiet vienu vai vairākus augšupielādējamos attēlu failus un pēc tam atlasiet **Atvērt**.
 1. Dialoglodziņā **Augšupielādēt multivides vienumu** ievadiet nepieciešamo nosaukumu un alternatīvo tekstu.
 1. Ievadiet neobligāto aprakstu un atslēgvārdus un, ja nepieciešams, atlasiet kategoriju. 
@@ -78,7 +78,7 @@ Lai augšupielādētu attēlu vietnes veidotājā, veiciet tālāk norādītās 
 Lai augšupielādēt vairākus attēlus kopā vietnes veidotājā, veiciet šādas darbības.
 
 1. Kreisās puses navigācijas rūtī atlasiet **Mediju bibliotēka**.
-1. Komandu joslā atlasiet **Augšupielādēt \>Augšupielādēt mapi**.
+1. Komandu joslā atlasiet **Augšupielādēt \> Augšupielādēt mapi**.
 1. Failu pārlūka logā navigējiet uz un atlasiet augšupielādējamo mapi un pēc tam atlasiet **Atvērt**.
 1. Dialoglodziņā **Augšupielādēt multivides vienumus** ievadiet neobligātos atslēgvārdus un, ja nepieciešams, atlasiet kategoriju. 
 1. Ja vēlaties publicēt mapē esošos attēlus tūlīt pēc augšupielādes, atzīmējiet izvēles rūtiņu **Publicēt multivides vienumus pēc augšupielādes**.
@@ -88,10 +88,12 @@ Lai augšupielādēt vairākus attēlus kopā vietnes veidotājā, veiciet šād
 
 [Digitālo līdzekļu pārvaldības pārskats](dam-overview.md)
 
-[Augšupielādēt video](dam-upload-video.md)
+[Videoklipu augšupielāde](dam-upload-video.md)
 
 [Augšupielādēt failus](dam-upload-files.md)
 
-[Apgriezt attēlus](dam-crop-images.md)
+[Attēlu apgriešana](dam-crop-images.md)
 
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
+
+[Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)

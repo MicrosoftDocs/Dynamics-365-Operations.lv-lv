@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cbafea9063844dd3f19e5828ab37632e04591f18
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 53faf972759c8f770017fcd3a87920410988e626
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897903"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527191"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 23. aprīlis)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
@@ -77,4 +79,4 @@ Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vā
 ## <a name="known-issues"></a>Zināmās problēmas
 
 ### <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar Finance and Operations atjauninājuma Platform update 26 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
+Līdz ar platformas atjauninājumu 26 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.

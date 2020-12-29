@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818254"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665276"
 ---
 # <a name="store-selector-module"></a>Veikala atlasītāja modulis
 
@@ -47,7 +47,7 @@ Veikala atlasītāja modulis ļauj lietotājiem meklēt veikalu rādiusu atraša
 
 Veikala atlasītāja modulis ir integrēts ar [Bing karšu REST programmas interfeisu (API)](https://docs.microsoft.com/bingmaps/rest-services/), lai izmantotu Bing ģeogrāfiskās kodēšanas un automātiskās ieteikšanas līdzekļus. Nepieciešama Bing karšu API atslēga, un tā ir jāpievieno kopīgo parametru lapā pakalpojumā Commerce headquarters. Ģeogrāfiskās kodēšanas API tiek izmantots, lai konvertētu novietojumu uz platuma un garuma vērtībām. Integrācija ar Automātiskās ieteikšanas API tiek izmantots, lai parādītu meklēšanas ieteikumus, kad lietotāji meklēšanas laukā ievada atrašanās vietas.
 
-Automātiskā ieteikšanas REST API jums ir jānodrošina, ka ir atļauti šādi vietrāži URL (pazīstami arī kā "baltajā sarakstā") jūsu vietnes satura drošības politikai (CSP). Šis iestatījums tiek veikts Commerce vietnes veidotājā, pievienojot atļautos vietrāžus URL dažādām vietnes CSP direktīvām (piemēram, **img-src**). Papildinformāciju skatiet [Satura drošības politika](manage-csp.md). 
+Automātiskā ieteikšanas REST API jums ir jānodrošina, ka ir atļauti šādi vietrāži URL jūsu vietnes satura drošības politikai (CSP). Šis iestatījums tiek veikts Commerce vietnes veidotājā, pievienojot atļautos vietrāžus URL dažādām vietnes CSP direktīvām (piemēram, **img-src**). Papildinformāciju skatiet [Satura drošības politika](manage-csp.md). 
 
 - **connect-src** direktīvai pievienojiet **&#42;.bing.com**.
 - **img-src** direktīvai pievienojiet **&#42;.virtualearth.net**.
@@ -65,6 +65,9 @@ Lai šis scenārijs darbotos, precēm jābūt konfigurētām lai tiktu izmantots
 Šajā attēlā redzams veikala atlasītāja moduļa piemērs, kas izmantots PDP.
 
 ![Veikala atlasītāja moduļa piemērs, kas izmantots PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Versijā 10.0.16 un jaunākās versijās var iespējot jaunu funkciju, kas ļauj organizācijai definēt klientiem piegādes opciju vairākus saņemšanas veidus.  Ja šī funkcija ir aktivizēta, veikala selektors un citi e-tirdzniecības moduļi tiks uzlaboti, lai ļautu pircējiem izvēlēties no potenciāli vairākām saņemšanas opcijām, ja tās ir konfigurētas.  Lai uzzinātu vairāk par šo līdzekli, skatiet [šo dokumentāciju](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Atrast veikalu režīms
 

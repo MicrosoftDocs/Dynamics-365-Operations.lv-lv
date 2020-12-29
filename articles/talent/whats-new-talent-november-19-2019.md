@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896731"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527148"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 19. novembris)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
@@ -41,9 +43,9 @@ ms.locfileid: "2896731"
 
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2621. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta numuriem portālā Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-31-for-finance-and-operations-apps"></a>Finance and Operations Platform update 31 lietojumprogramma
+### <a name="platform-update-31-for-finance-and-operations-apps"></a>Platform update 31 Finance and Operations programmām
 
-Lai iegūtu vairāk informācijas, skatiet [Priekšskatījumu līdzekļi platformas 31. atjauninājumā, kas paredzēts Finance and Operations programmām (2020. gada janvāris)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
+Lai iegūtu vairāk informācijas, skatiet [Priekšskatījumu līdzekļi platformas 31. atjauninājumā, kas paredzēts Finance and Operations programmām (2020. gada janvāris)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 
 ### <a name="feature-management-workspace-383856"></a>Līdzekļu pārvaldības darbvieta (383856)
 

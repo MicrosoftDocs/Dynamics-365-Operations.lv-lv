@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 98cb4f9049509dd700cf38a5d176447f86e9c824
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097051"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594312"
 ---
 # <a name="upload-videos"></a>Augšupielādēt videoklipus
 
@@ -51,7 +51,7 @@ Augšupielādējot videoklipu, var norādīt šādu informāciju.
 Lai augšupielādētu videoklipu vietnes veidotājā, veiciet tālāk norādītās darbības.
 
 1. Kreisās puses navigācijas rūtī atlasiet **Mediju bibliotēka**.
-1. Komandu joslā atlasiet **Augšupielādēt \>Augšupielādēt mediju vienumus**.
+1. Komandu joslā atlasiet **Augšupielādēt \> Augšupielādēt mediju vienumus**.
 1. Failu pārlūka logā navigējiet uz un atlasiet vienu vai vairākus augšupielādējamos videoklipu failus un pēc tam atlasiet **Atvērt**.
 1. Dialoglodziņā **Augšupielādēt multivides vienumu** ievadiet nepieciešamo nosaukumu un alternatīvo tekstu.
 1. Ievadiet neobligāto aprakstu un atslēgvārdus un, ja nepieciešams, atlasiet kategoriju. 
@@ -64,10 +64,12 @@ Ja ielādējat vairāku tipu līdzekļus vienlaicīgi (piemēram, attēlus un vi
 
 [Digitālo līdzekļu pārvaldības pārskats](dam-overview.md)
 
-[Augšupielādēt attēlus](dam-upload-images.md)
+[Attēlu augšupielāde](dam-upload-images.md)
 
 [Augšupielādēt failus](dam-upload-files.md)
 
-[Apgriezt attēlus](dam-crop-images.md)
+[Attēlu apgriešana](dam-crop-images.md)
 
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
+
+[Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)

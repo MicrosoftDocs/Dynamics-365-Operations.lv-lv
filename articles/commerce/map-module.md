@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817210"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665424"
 ---
 # <a name="map-module"></a>Kartes modulis
 
@@ -58,7 +58,7 @@ Attēlā zemāk redzams piemērs kartes modulim, kas tiek izmantots veikala atra
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Pievienot atļautos kartējuma vietrāžus URL uz vietnes satura drošības politikas direktīvām
 
-Lai karšu modulis darbotos ar Bing kartēm, ir jānodrošina, ka ir atļauti šādi kartēšanas vietrāži URL (pazīstami arī kā "iekļauti baltajā sarakstā") jūsu vietnes satura drošības politikā (CSP). Šis iestatījums tiek veikts Commerce vietnes veidotājā, pievienojot atļautos vietrāžus URL dažādām vietnes CSP direktīvām (piemēram, **img-src**). Papildinformāciju skatiet [Satura drošības politika](manage-csp.md). 
+Lai karšu modulis darbotos ar Bing kartēm, ir jānodrošina, ka ir atļauti šādi kartēšanas vietrāži URL jūsu vietnes satura drošības politikā (CSP). Šis iestatījums tiek veikts Commerce vietnes veidotājā, pievienojot atļautos vietrāžus URL dažādām vietnes CSP direktīvām (piemēram, **img-src**). Papildinformāciju skatiet [Satura drošības politika](manage-csp.md). 
 
 - **connect-src** direktīvai pievienojiet **&#42;.bing.com**.
 - **img-src** direktīvai pievienojiet **&#42;.virtualearth.net**.

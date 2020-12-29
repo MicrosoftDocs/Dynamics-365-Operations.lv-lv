@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ddc6593431585ed79cc15f7ede5daf856f11b959
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832865"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527246"
 ---
 # <a name="extensibility-in-attract"></a>Paplašināmība pakalpojumā Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Programma Microsoft Dynamics 365 Talent ir būvēta, izmantojot Common Data Service, un to var dažādos veidos paplašināt, izmantojot Microsoft Power Platform un iespējas, ko sniedz Common Data Service. Tāpēc varat konfigurēt un personalizēt sistēmu, izmantojot Microsoft Power Apps un Microsoft Power Automate. Varat arī iegūt papildu analīzes datus par personām, izmantojot Microsoft Power BI. Turklāt jaunās pielāgotās aktivitātes, piemēram, Power Apps un Tīmekļa satura (iframe) aktivitātes, ļauj jums adaptēt darbā pieņemšanas procesu labāk kā jebkad. Izmantojot šīs aktivitātes, varat pielāgot darbā pieņemšanas procesu atbilstoši sava uzņēmuma vajadzībām un procedūrām, un varat nodrošināt, lai gan darbā pieņemšanas grupai, gan kandidātiem būtu vienota un pielāgota funkcionalitāte.
 
@@ -70,7 +72,7 @@ Varat izmantot Microsoft Power Automate, lai izveidotu automatizētas darbplūsm
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI sniedz iespēju izveidot un skatīt pielāgotus pārskatus un informācijas paneļus, kas sniedz dziļāku ieskatu par jūsu Attract datiem. Papildinformāciju par pakalpojumu Power BI un to, kā izveidot interaktīvus pārskatus un informācijas paneļus, skatiet rakstā[Power BI dokumentācija](https://docs.microsoft.com/power-bi/).
+Power BI sniedz iespēju izveidot un skatīt pielāgotus pārskatus un informācijas paneļus, kas sniedz dziļāku ieskatu par jūsu Attract datiem. Papildinformāciju par pakalpojumu Power BI un to, kā izveidot interaktīvus pārskatus un informācijas paneļus, skatiet rakstā [Power BI dokumentācija](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Pielāgotas darbības 
 

@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 95bc75596f6f014b58160022f41ae86a825c5afc
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124754"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527270"
 ---
 # <a name="create-a-job-in-attract"></a>Izveidot darbu sistēmā Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir aprakstīti darba elementi programmā Microsoft Dynamics 365 Talent: Attract. Tajā ir arī paskaidrots, kā izveidot darbu.
 
@@ -74,7 +76,7 @@ Plašāku informāciju par aktivitātēm, kuras var pievienot darbā pieņemšan
 
 ## <a name="postings"></a>Grāmatojumi
 
-Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers (Dynamics 365 Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies. Kad darbs tiek publicēts kā tikai iekšējs, kandidātiem ir nepieciešams AAD konts, lai skatītu darbu un pieteiktos tam. Ja darbs ir publicēts kā publisks, kandidāti var skatīt darbus un pieteikties tiem, izmantojot visas autentifikācijas iespējas. 
+Pēc tam, kad darbs ir aktivizēts, to var publicēt. Darbus var publicēt tikai personāla atlases darbinieki un administratori. Darbu var publicēt vietnē Talent Careers ( Dynamics 365 Talent karjeras vietne) vai LinkedIn. Attract darba grupa nepārtraukti strādā, lai sadarbotos ar darba paneļu apkopotājiem. Laika gaitā šis saraksts paplašināsies. Kad darbs tiek publicēts kā tikai iekšējs, kandidātiem ir nepieciešams AAD konts, lai skatītu darbu un pieteiktos tam. Ja darbs ir publicēts kā publisks, kandidāti var skatīt darbus un pieteikties tiem, izmantojot visas autentifikācijas iespējas. 
 
 Plašāku informāciju par darbu publicēšanu skatiet tēmā [Karjeras vietas iestatīšana Microsoft Dynamics 365 Talent - Attract](career-site.md).
 

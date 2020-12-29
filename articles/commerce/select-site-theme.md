@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817710"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556433"
 ---
 # <a name="select-a-site-theme"></a>Vietnes dizaina atlase
 
@@ -32,7 +32,7 @@ ms.locfileid: "3817710"
 
 ## <a name="overview"></a>Pārskats
 
-Vietnes izkārtojums un stils (piemēram, fonti, lielumi un krāsas) tiek definēti ar dizainu, ko atlasāt un piemērojat vietnei. Dizainu veido un izvieto izstrādātājs jūsu uzņēmumā. Lai skatītu dizainu pārskatu, skatiet sadaļu [Dizainu pārskats](http://). Papildinformāciju par to, kā izveidot un izvietot dizainus, skatiet sadaļā [Jaunu dizainu izveide](http://).
+Vietnes izkārtojums un stils (piemēram, fonti, lielumi un krāsas) tiek definēti ar dizainu, ko atlasāt un piemērojat vietnei. Dizainu veido un izvieto izstrādātājs jūsu uzņēmumā. Lai skatītu dizainu pārskatu, skatiet sadaļu [Dizainu pārskats](e-commerce-extensibility/theming.md). Papildinformāciju par to, kā izveidot un izvietot dizainus, skatiet sadaļā [Jaunu dizainu izveide](e-commerce-extensibility/create-theme.md).
 
 Pēc noklusējuma, pirmoreiz izveidojot vietni, tā lieto tēmu ar nosaukumu **Fabrikam**. Šis noklusējuma dizains tiek nodrošināts kā Commerce moduļu bibliotēkas daļa. Pēc tam, kad esat izvietojis papildu dizainus vietnei, varat konfigurēt vietni, lai tā vietā izmantotu vienu no tiem.
 
@@ -63,3 +63,8 @@ Lai atlasītu dizainu, kas ir piemērots vietnei, veiciet tālāk norādītās d
 [Valodu pievienošana vietnei](add-languages-to-site.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
+
+[Dizainu izstrādes pārskats](e-commerce-extensibility/theming.md)
+
+[Jauna projekta tēma](e-commerce-extensibility/create-theme.md)
+

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5c66d8695ee0ff41e81c699a5d5a37075470059
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107540"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529986"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 22. oktobrī
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
@@ -56,14 +58,14 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 | --- | --- | --- |
 | 437922 | Importējot FMLA stundas, izmantojot DMF elementu, rodas tikai lasāma kļūda. | FMLA stundu elementa lietošana, lai importētu ar FMLA gadījumu saistītās stundas, neizdevās. Mēs pievienojām loģikas, lai nodrošinātu, ka importētās stundas nepārsniedz gadījumam atlikušās stundas. |
 | 512019 | Nepareiza **Pēdējās pārnešanas** summa. | Lapā **Brīvais laiks** mainot **Sākuma datumu** uz nākamā finanšu perioda pirmo dienu, tika parādīta nepareiza **Pēdējās pārnešanas** summa veidam **Ikgadējais atvaļinājums**. Tagad tiek parādīta pareizā summa. |
-| 458639 | Elements **Darbinieka kontaktpersonas** neatbalsta izmaiņu izsekošanas režīmu. | Mēs atjauninājām elementu **Darbinieka kontaktpersonas** , lai to varētu izmantot, ieviešot paši savus datu bāzes (BYOD) scenārijus.|
+| 458639 | Elements **Darbinieka kontaktpersonas** neatbalsta izmaiņu izsekošanas režīmu. | Mēs atjauninājām elementu **Darbinieka kontaktpersonas**, lai to varētu izmantot, ieviešot paši savus datu bāzes (BYOD) scenārijus.|
 | 505347 | Apmācības vadītāji varēja iesniegt atvaļinājuma pieprasījumu darbiniekam, kad tika iespējots līdzeklis Racionalizētais darbinieks. | Lomām, kas nav cilvēkresursu palīgs un cilvēkresursu vadītājs, nav atļauts iesniegt brīvā laika pieprasījumus darbiniekiem. |
-| 513490 | Atvieglojumu pārvaldības reģistrēšana: pievienojiet reģistrāciju plāniem bez seguma opcijām. | Mēs iespējojām reģistrācijas rezultātus **Plānam bez seguma opcijām**. Tagad tie tiek rādīti tabulā **Procesa rezultāti** , un tie ir pareizi sakārtoti, lai tiktu rādīti augšgalā. |
-| 517021 | Nevar atlasīt vairākus plānus ar to pašu kodu **Plāna veids** , ja **Plāna veidam** ir viena reģistrācija katram veidam. | Mēs izmainījām ierobežojumus, atlasot plānus, kuros ir atļauta tikai viena reģistrācija. Ierobežojumi tagad ir līmenī **Plāna veida kods** , nevis **Plāna veids**. Šī izmaiņa ļauj tādiem plāniem kā HSA un FSA, kas ir vienāda veida, piešķirt atsevišķu **Plāna veida kodu**. Tādējādi varat atlasīt abus plānus vienam reģistrācijas periodam. |
+| 513490 | Atvieglojumu pārvaldības reģistrēšana: pievienojiet reģistrāciju plāniem bez seguma opcijām. | Mēs iespējojām reģistrācijas rezultātus **Plānam bez seguma opcijām**. Tagad tie tiek rādīti tabulā **Procesa rezultāti**, un tie ir pareizi sakārtoti, lai tiktu rādīti augšgalā. |
+| 517021 | Nevar atlasīt vairākus plānus ar to pašu kodu **Plāna veids**, ja **Plāna veidam** ir viena reģistrācija katram veidam. | Mēs izmainījām ierobežojumus, atlasot plānus, kuros ir atļauta tikai viena reģistrācija. Ierobežojumi tagad ir līmenī **Plāna veida kods**, nevis **Plāna veids**. Šī izmaiņa ļauj tādiem plāniem kā HSA un FSA, kas ir vienāda veida, piešķirt atsevišķu **Plāna veida kodu**. Tādējādi varat atlasīt abus plānus vienam reģistrācijas periodam. |
 | 444791 | Nevar skatīt atlīdzību Darbinieku pašapkalpošanās sistēmā, kad Atlīdzības plānā ir ieslēgta opcija **Ierobežot piekļuvi**. | Darbinieka pašapkalpošanās **Atlīdzības** kartē pašreizējā atlīdzības summa un procentuālās vērtības pieaugums rādīja "0", ja darbinieks bija reģistrēts plānā, kuram bija ieslēgta opcija **Ierobežota piekļuve** un kurš bija piešķirts noteiktām lomām. Mēs atrisinājām šo problēmu, tāpēc darbinieks un vadītājs vienmēr var redzēt atlīdzības informāciju paši par sevi un saviem tiešajiem padotajiem. |
 | 457542 | Kursa informācijas atjaunināšana pēc kursa slēgšanas neatjaunina šo pašu informāciju darbiniekam, kas izgāja kursu. | Darbinieka informācija tagad tiek pareizi atjaunināta, kad maināt kursu informāciju pēc tā slēgšanas un atkārtotas atvēršanas. |
 | 515342 | Nevar ievietot datus, izmantojot **XCDSLeaveRequestDetailEntity**. Uzņēmums nav atrodams vai nepastāv. | Tagad varat izmantot **XCDSLeaveRequestDetailEntity** datu ievietošanai. |
-| 514743 | Izmantojot Microsoft Exchange, radās kļūda veidlapā **E-pasta parametri**. | Ziņojums "Nevarēja ielādēt failus vai montāžu..." tika parādīts lapā **E-pasta parametri** , kad e-pasta nodrošinātājs tika iestatīts uz **Exchange**. Šis labojums atļauj arī ielādēt lapu **E-pasta parametri** un to saglabāt, kā paredzēts. |
+| 514743 | Izmantojot Microsoft Exchange, radās kļūda veidlapā **E-pasta parametri**. | Ziņojums "Nevarēja ielādēt failus vai montāžu..." tika parādīts lapā **E-pasta parametri**, kad e-pasta nodrošinātājs tika iestatīts uz **Exchange**. Šis labojums atļauj arī ielādēt lapu **E-pasta parametri** un to saglabāt, kā paredzēts. |
 
 
 ## <a name="in-preview"></a>Priekšskatījumā

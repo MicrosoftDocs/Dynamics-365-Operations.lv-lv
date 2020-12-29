@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6bb754ca80af0a0793b5ee162a378ebbe92524c5
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197294"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528345"
 ---
 # <a name="choose-a-data-integration-technology"></a>Izvēlēties datu integrācijas tehnoloģiju
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šis raksts sniedz informāciju datu integrēšanai, kurus pārvalda Dynamics 365 Human Resources. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
 
@@ -94,7 +96,7 @@ DMF pakotne REST API tiek pilnībā atbalstīta Human Resources: Core HR.
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL datu bāze (BYOD)
 
-DMF papildus sniedz jaudīgu līdzekli (zināms kā [Atnes savu datu bāzi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database) vai BYOD (Bring Your Own Database), kas ļauj Personāla vadībai eksportēt datus uz savu Microsoft Azure SQL datu bāzi. Šī iespēja sniedz milzīgu elastību. Kad dati ir iekļauti jūsu SQL datu bāzē, varat izmantot jebkuru programmu vai starpprogrammatūru, kas var pieslēgties SQL datu glabātuvei.
+DMF papildus sniedz jaudīgu līdzekli (zināms kā [Atnes savu datu bāzi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database) vai BYOD (Bring Your Own Database)), kas ļauj Personāla vadībai eksportēt datus uz savu Microsoft Azure SQL datu bāzi. Šī iespēja sniedz milzīgu elastību. Kad dati ir iekļauti jūsu SQL datu bāzē, varat izmantot jebkuru programmu vai starpprogrammatūru, kas var pieslēgties SQL datu glabātuvei.
 
 BYOD galvenokārt ir tikai lasāms risinājums. Lai gan varat Azure SQL datu bāzē manipulēt un glabāt jebkurus datus (piemēram, datu jaucējprogrammas), Azure SQL datu bāzē glabātie dati nav sinhronizēti ar Personāla vadību.
 

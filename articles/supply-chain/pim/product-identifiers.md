@@ -19,14 +19,16 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 259c9f07fb69b07f73baeb5ce94e0a7bc29bb2d6
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984806"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529190"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -181,7 +183,7 @@ Veiciet tālāk norādītās darbības, lai konfigurētu vidi.
 
     Tagad varat uzturēt kodu veidu sarakstu. Varat mainīt kodu, nosaukumu un aprakstu. Varat arī dzēst kodu veidus. Dzēstie kodu veidi netiek izmantoti globālo preču elementu identifikatoru tabulu aizpildīšanai.
 
-4. Kad esat pabeidzis preču identifikatoru kodu veidu definēšanu, varat izveidot globālajā tabulā ietvertos identifikatorus, sākot darbu **Izveidot preču elementu identifikatorus** lapā**Preču elementu identifikatoru kodi**. Šis darbs ir jāizpilda kā pakešuzdevums. Šis darbs ir jāiestata kā periodisks pakešuzdevums, lai tabula tiktu aizpildīta atbilstoši jauniem ierakstiem.
+4. Kad esat pabeidzis preču identifikatoru kodu veidu definēšanu, varat izveidot globālajā tabulā ietvertos identifikatorus, sākot darbu **Izveidot preču elementu identifikatorus** lapā **Preču elementu identifikatoru kodi**. Šis darbs ir jāizpilda kā pakešuzdevums. Šis darbs ir jāiestata kā periodisks pakešuzdevums, lai tabula tiktu aizpildīta atbilstoši jauniem ierakstiem.
 
 Tagad varat izmantot datu elementus **Preces elementa common data service identifikatora elements**, **Preces elementa identifikatora kods** un **Preču elementu identifikatoru tvērums**, lai eksportētu identifikatorus neatkarīgi no mērķa sistēmas.
 

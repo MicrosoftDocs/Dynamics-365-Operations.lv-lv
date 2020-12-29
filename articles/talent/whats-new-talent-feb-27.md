@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897676"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529142"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 27. februāris)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Talent.
 
@@ -75,9 +77,9 @@ Tagad darbinieka fiksētajai atlīdzībai, darbinieka mainīgās atlīdzības pi
 
 Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. Piemēram, vadītāju vai reģionālo darbinieku ierakstiem. Šīs izmaiņas sniedz personāla vadības (Human resources — HR) speciālistam iespēju pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. No drošības lomām, ko var piešķirt fiksētajiem un mainīgajiem plāniem, ir atkarīga piekļuve plāniem un ar tiem saistītajiem darbinieku datiem (piemēram, algu informācijai vai prēmiju ierakstiem). Šo atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar konkrētajām piekļuves atļaujām.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations Platform update 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 for Finance and Operations
 
-Papildinformāciju par Microsoft Dynamics 365 Finance and Operations atjauninājumu Platform update 24 (2019. gada marts) skatiet rakstā [Priekšskatījuma līdzekļi Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Papildinformāciju par atjauninājumu Platform update 24 programmai Microsoft Dynamics 365 Finance and Operations (2019. gada marts) skatiet rakstā [Priekšskatījuma līdzekļi Finance and Operations Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Fiksētas atlīdzības iespējošana darbiniekiem ar gaidāmām amatu piešķirēm
 
@@ -98,19 +100,19 @@ Lai atjauninātu esošu vedni, veiciet tālāk norādītās darbības.
 
     - **No elementa Darba amati uz elementu Amati:** noņemiet šo kartējumu.
     - **No elementa Darba amati uz elementu Amatu pamatdarba piešķire:** noņemiet šo kartējumu.
-    - **No elementa Darba amati uz elementu Pamata amats:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Pamata amats**. Pārvietojiet to uz 7. pozīciju sērijā.
+    - **Darba amati uz elementu Pamata amats:** pievienot jaunu kartējumu no elementa **Darba amati** Common Data Service elementam **Pamata amats** programmā Finance and Operations. Pārvietojiet to uz 7. pozīciju sērijā.
 
         [![Kartējums no elementa Darba amati uz elementu Pamata amats](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **No elementa Darba amati uz elementu Detalizēta informācija par amatu:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Detalizēta informācija par amatu**. Pārvietojiet to uz 8. pozīciju sērijā.
+    - **Darba amati uz Informāciju par amatu:** pievienot jaunu kartējumu no elementa **Darba amati** Common Data Service elementam **Informāciju par amatu** programmā Finance and Operations. Pārvietojiet to uz 8. pozīciju sērijā.
 
         [![Kartējums no elementa Darba amati uz elementu Detalizēta informācija par amatu](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **No elementa Darba amati uz elementu Amatu ieņemšanas ilgumi:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Amatu ieņemšanas ilgumi**.
+    - **Darba amati uz Amata ilgums:** pievienot jaunu kartējumu no elementa **Darba amati** Common Data Service elementam **Amata ilgums** programmā Finance and Operations.
 
         [![Kartējums no elementa Darba amati uz elementu Amatu ieņemšanas ilgumi](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **No elementa Darba amati uz elementu Pozīciju hierarhijas:** pievienot jaunu kartējumu no pakalpojuma Common Data Service elementa **Darba amati** uz programmas Finance and Operations elementu **Pozīciju hierarhijas**. Atlasiet **Papildu vaicājums**, lai projektā padarītu pieejamu savu papildu vaicājumu.
+    - **Darba amati uz Amatu hierarhija:** pievienot jaunu kartējumu no elementa **Darba amati** Common Data Service elementam **Amatu hierarhija** programmā Finance and Operations. Atlasiet **Papildu vaicājums**, lai projektā padarītu pieejamu savu papildu vaicājumu.
 
        [![Poga Papildu vaicājums](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Lai atjauninātu esošu vedni, veiciet tālāk norādītās darbības.
         [![Komanda Pievienot nosacījuma kolonnu](./media/Add-column.png)](./media/Add-column.png)
 
     6. Dialoglodziņā **Pievienot nosacījuma kolonnu** ievadiet jaunās kolonnas nosaukumu **HIERARCHYTYPENAME**.
-    7. Nosacījuma daļā **Ja** atlasiet jebkuru lauku, izmantojiet attiecību **vienāds ar** un ievadiet jebkādu vērtību. Nosacījuma daļās ***Tad** un **Citādi** norādiet vajadzīgo noklusējuma vērtību. Šajā gadījumā abās daļās ievadiet **Rinda**.
+    7. Nosacījuma daļā **Ja** atlasiet jebkuru lauku, izmantojiet attiecību **vienāds ar** un ievadiet jebkādu vērtību. Nosacījuma daļās **_Tad_* un **Citādi** norādiet vajadzīgo noklusējuma vērtību. Šajā gadījumā abās daļās ievadiet **Rinda**.
 
         [![Dialoglodziņš Pievienot nosacījuma kolonnu](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

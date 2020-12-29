@@ -17,16 +17,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a3389d6ce5f1985f7515e777a2bafae4eae5f0c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
+ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431111"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4589067"
 ---
 # <a name="integration-with-finance-faq"></a>Integrācija ar Finance bieži uzdotajiem jautājumiem
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Šajā tēmā ir sniegtas atbildes uz bieži uzdotiem jautājumiem par to, kādi dati tiek sinhronizēti, integrējot Dynamics 365 Human Resources ar Dynamics 365 Finance.
+
+## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Vai var rediģēt Dynamics 365 Talent programmas lietotāju Power Apps?
+
+Nr.p.k. Ja rediģējat Talent programmas lietotāju, integrēšana starp Personāla vadību un Common Data Service, iespējams, neizdosies. Sekojošajā tabulā ir redzami Talent programmas lietotāja noklusējuma iestatījumi.
+
+| Pilnais vārds un uzvārds | Lietojumprogrammas ID | Azure AD Objekta ID | Lietojumprogrammas ID URI |
+| --- | --- | --- | --- |
+| Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
+
+![Noklusējuma iestatījumi Talent programmas lietotājam](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Vai tiek sinhronizēti visi dati vai tikai daži datu elementi?
 

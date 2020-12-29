@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898923"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527294"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 5. marts)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir aprakstīti jaunie vai izmainītie programmas Talent līdzekļi.
 
@@ -76,5 +78,5 @@ Drīz būs pienācis termiņš jaunināšanai uz Common Data Service. Pierakstie
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Papildu atlīdzības drošība (fiksētā un mainīgā)
 Daudzās organizācijās atlīdzības un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem, piemēram, vadītāju vai reģionālo darbinieku ierakstiem. Šīs izmaiņas sniedz iespēju pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem var piešķirt drošības lomas, no kurām ir atkarīga piekļuve plāniem un ar tiem saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem. Šo atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir piešķirtas lomas ar konkrētajām piekļuves atļaujām.
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations Platform update 24
-Papildinformāciju par atjauninājumu Finance and Operations Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 for Finance and Operations
+Papildinformāciju par atjauninājumu Platform update 24 sistēmai Finance and Operations skatiet [Jaunumi un izmaiņas Finance and Operations Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

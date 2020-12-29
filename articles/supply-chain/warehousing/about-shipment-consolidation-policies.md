@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016359"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654224"
 ---
 # <a name="shipment-consolidation-policies"></a>Sūtījumu konsolidācijas politikas
 
-Sūtījumu konsolidācijas process, kas izmanto sūtījuma konsolidācijas politikas, atļauj sūtījuma konsolidāciju automātiskās un manuālās nodošanas noliktavā laikā. Automatizētajai konsolidācijai, kas bija pieejama pirms šīs funkcijas ieviešanas, bija stingri iekodēti lauki un tika pamatota ar lauku **Konsolidēt sūtījumu, pārvietojot uz noliktavu** , kas tika iestatīts noliktavai.
+Sūtījumu konsolidācijas process, kas izmanto sūtījuma konsolidācijas politikas, atļauj sūtījuma konsolidāciju automātiskās un manuālās nodošanas noliktavā laikā. Automatizētajai konsolidācijai, kas bija pieejama pirms šīs funkcijas ieviešanas, bija stingri iekodēti lauki un tika pamatota ar lauku **Konsolidēt sūtījumu, pārvietojot uz noliktavu**, kas tika iestatīts noliktavai.
 
 Sūtījuma konsolidācijas politikas tiek izmantotas šādai funkcionalitātei:
 
@@ -37,15 +37,15 @@ Sūtījuma konsolidācijas politikas tiek izmantotas šādai funkcionalitātei:
 
 Pirms tika ieviestas sūtījuma konsolidācijas politikas, konsolidācijas funkcija eksistēja kā iestatījums noliktavas līmenī. Visi pasūtījumi visiem debitoriem no vienas noliktavas tika apstrādāti tā, it kā tiem būtu vienādas konsolidācijas prasības. Sūtījuma konsolidācijas politikas pievieno atbalstu scenārijiem, kad dažādām organizācijām ir dažādas sūtījuma konsolidācijas prasības.
 
-Vaicājumi tiek izmantoti, lai identificētu sūtījuma konsolidācijas politiku, kas tiek piemērota, un tad rediģējamu lauku kopa nosaka, kā noslodzes rindas tiek grupētas sūtīšanas līmenī. (Šis modelis atgādina modeli, kam kopums veidnes seko.) Turklāt katrai politikai ir pievienota opcija **Konsolidēt ar esošo sūtījumu**. Kad šī opcija ir ieslēgta, procedūra *Pārvietot uz noliktavu* atrod sūtījumus konsolidācijai, meklējot no esošajiem sūtījumiem, kas tika izveidoti, pamatojoties uz to pašu konsolidācijas politiku. Šādā gadījumā sistēma atlasīs esošo sūtījumu vai noslodzi, nevis veidos jaunu. Tomēr sistēma konsolidēs tikai ar esošiem sūtījumiem, kuru statuss ir *Atvērts* ; sūtījumi, kas pieder pie kopuma izdošanas ar statusu *Pārvietots* vai lielāks, netiks uzskatīti par konsolidācijas mērķiem.
+Vaicājumi tiek izmantoti, lai identificētu sūtījuma konsolidācijas politiku, kas tiek piemērota, un tad rediģējamu lauku kopa nosaka, kā noslodzes rindas tiek grupētas sūtīšanas līmenī. (Šis modelis atgādina modeli, kam kopums veidnes seko.) Turklāt katrai politikai ir pievienota opcija **Konsolidēt ar esošo sūtījumu**. Kad šī opcija ir ieslēgta, procedūra *Pārvietot uz noliktavu* atrod sūtījumus konsolidācijai, meklējot no esošajiem sūtījumiem, kas tika izveidoti, pamatojoties uz to pašu konsolidācijas politiku. Šādā gadījumā sistēma atlasīs esošo sūtījumu vai noslodzi, nevis veidos jaunu. Tomēr sistēma konsolidēs tikai ar esošiem sūtījumiem, kuru statuss ir *Atvērts*; sūtījumi, kas pieder pie kopuma izdošanas ar statusu *Pārvietots* vai lielāks, netiks uzskatīti par konsolidācijas mērķiem.
 
-Kad ir pieejamas sūtījumu konsolidācijas politikas, **Konsolidēt sūtījumu pēc pārvietošanas uz noliktavu** iestatījums, kas iepriekš bija pieejams iestatījumu lapā **Noliktavas** , ir paslēpts. Lai palīdzētu jums pāriet uz jauno sūtījumu konsolidācijas funkciju, lapa **Sūtījuma konsolidācijas politikas** izveido noklusējuma politiku, kas automātiski ietver veco esošo noliktavu iestatījumu. Pēc tam, kad ir izveidota noklusētā politika, **Konsolidēt sūtījumu pēc pārvietošanas uz noliktavu** iestatījums iestatījumu lapā **Noliktavas** vairs netiks izskatīts.
+Kad ir pieejamas sūtījumu konsolidācijas politikas, **Konsolidēt sūtījumu pēc pārvietošanas uz noliktavu** iestatījums, kas iepriekš bija pieejams iestatījumu lapā **Noliktavas**, ir paslēpts. Lai palīdzētu jums pāriet uz jauno sūtījumu konsolidācijas funkciju, lapa **Sūtījuma konsolidācijas politikas** izveido noklusējuma politiku, kas automātiski ietver veco esošo noliktavu iestatījumu. Pēc tam, kad ir izveidota noklusētā politika, **Konsolidēt sūtījumu pēc pārvietošanas uz noliktavu** iestatījums iestatījumu lapā **Noliktavas** vairs netiks izskatīts.
 
-Jūs varat izmantot lapu **Pārvietot uz noliktavu** , lai manuāli ignorētu piemērojamo konsolidācijas politiku tādā pašā veidā, kā varat ignorēt izpildes politikas.
+Jūs varat izmantot lapu **Pārvietot uz noliktavu**, lai manuāli ignorētu piemērojamo konsolidācijas politiku tādā pašā veidā, kā varat ignorēt izpildes politikas.
 
-Jūs varat izmantot **Pārvietot \> Pārvietot uz noliktavu** komandu lapā **Kravu plānošanas rīks** , lai izveidotu izejošās noslodzes, kas balstītas uz pārdošanas pasūtījumu un pārsūtīšanas pasūtījuma rindām, pirms pārvietojat tās uz noliktavu. Šīs noslodzes izmanto vienu un to pašu konsolidācijas loģiku, kas tika ieviesta kopā ar sūtījumu politiku konsolidāciju.
+Jūs varat izmantot **Pārvietot \> Pārvietot uz noliktavu** komandu lapā **Kravu plānošanas rīks**, lai izveidotu izejošās noslodzes, kas balstītas uz pārdošanas pasūtījumu un pārsūtīšanas pasūtījuma rindām, pirms pārvietojat tās uz noliktavu. Šīs noslodzes izmanto vienu un to pašu konsolidācijas loģiku, kas tika ieviesta kopā ar sūtījumu politiku konsolidāciju.
 
-Jūs varat izmantot lapu **Sūtījuma konsolidācijas rīks** , lai konsolidētu esošos sūtījumus, kas vēl nav apstiprināti, bet ir jau pārvietoti uz noliktavu. Šī funkcionalitāte atbalsta scenārijus, kuros automatizētais izlaišanas process, kam ir sava sūtījuma konsolidācija, ir palaists vairākas reizes dienā, bet iespējamās papildu konsolidācijas tiek manuāli identificētas, pirms sūtījums pārvadātājiem tiek pabeigts apstiprināšanas procesa laikā. Šī funkcionalitāte ļauj konsolidēt izejošos sūtījumus, kas ir izveidoti no pārdošanas pasūtījuma vai pārsūtīšanas pasūtījuma rindām jebkurā laikā pēc sūtījumu pārvietošanas uz noliktavu, bet pirms tie tiek apstiprināti.
+Jūs varat izmantot lapu **Sūtījuma konsolidācijas rīks**, lai konsolidētu esošos sūtījumus, kas vēl nav apstiprināti, bet ir jau pārvietoti uz noliktavu. Šī funkcionalitāte atbalsta scenārijus, kuros automatizētais izlaišanas process, kam ir sava sūtījuma konsolidācija, ir palaists vairākas reizes dienā, bet iespējamās papildu konsolidācijas tiek manuāli identificētas, pirms sūtījums pārvadātājiem tiek pabeigts apstiprināšanas procesa laikā. Šī funkcionalitāte ļauj konsolidēt izejošos sūtījumus, kas ir izveidoti no pārdošanas pasūtījuma vai pārsūtīšanas pasūtījuma rindām jebkurā laikā pēc sūtījumu pārvietošanas uz noliktavu, bet pirms tie tiek apstiprināti.
 
 **Sūtījuma konsolidācijas rīka** lapa darbojas tāpat kā noslodzes veidošanas rīks, kur varat vienlaicīgi novērtēt vairākus sūtījumus un piešķirt nekonsolidētu pasūtījumu noteiktam sūtījumam. Jūs varat piemērot sūtījumu konsolidācijas veidnes, lai novērtētu piedāvātās konsolidācijas vairākas reizes un apstiprinātu tās. Dažas kārtulas tiek ieviestas, lai nepieļautu nesankcionētu konsolidāciju un brīdinātu par iespējamām kļūdām.
 

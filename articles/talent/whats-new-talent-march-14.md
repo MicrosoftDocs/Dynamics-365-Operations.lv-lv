@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897607"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528625"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 14. marts)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir aprakstīti jaunie vai izmainītie programmas Talent līdzekļi.
 
@@ -44,8 +46,8 @@ ms.locfileid: "2897607"
 ### <a name="mass-assign-checklists-to-workers"></a>Kontrolsarakstu piešķiršana nodarbinātajiem masveidā
 Līdz ar šīs izmaiņas ieiešanu tagad varat atlasīt vairākus darbiniekus un lielapjomā piešķirt šiem darbiniekiem vienu vai vairākus kontrolsarakstus. 
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations Platform update 24
-Papildinformāciju par atjauninājumu Finance and Operations Platform update 24 skatiet [Jaunumi un izmaiņas Finance and Operations atjauninājumā Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Būtiskas izmaiņas atjauninājumā platform 24 ietver tālāk uzskaitītās. 
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 for Finance and Operations
+Papildinformāciju par atjauninājumu Platform update 24 sistēmai Finance and Operations skatiet [Jaunumi un izmaiņas Finance and Operations Platform update 24 (2019. gada marts)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Būtiskas izmaiņas atjauninājumā platform 24 ietver tālāk uzskaitītās. 
 
 - Programmā Talent ir iespējoti brīdinājumi.
 - Atjauninātā navigācijas josla tagad atrodas atbilstoši Office galvenei.
@@ -65,7 +67,7 @@ Common Data Service elementi tagad tiek sinhronizēti pareizi, kad notiek atjaun
 Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. Piemēram, tie varētu būt par vadītājiem vai reģionālajiem darbiniekiem. Šīs izmaiņas dod iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem var piešķirt drošības lomas, kuras nosaka piekļuvi plāniem un ar šiem plāniem saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem. Atlīdzību šiem darbiniekiem var apstrādāt tikai lietotāji, kuriem ir lomas ar piešķirtu piekļuvi.
 
 ###  <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar Finance and Operations atjauninājuma Platform update 24 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski nosūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
+Līdz ar platformas atjauninājumu 24 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski nosūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Dublētu darbinieku pārbaude: interfeisa izmaiņas
 Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda, cik dublikātu tika atrasts. Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto. Dublikātu forma netiek atvērta automātiski, lai izvairītos no datu ievades pārtraukšanas.

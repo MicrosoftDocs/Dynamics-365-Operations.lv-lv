@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091995"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528321"
 ---
 # <a name="overview"></a>Pārskats
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šī Izstrādātāja rokasgrāmata sniedz API un pielāgoto lauku atsauci. Tas sniedz arī informāciju par integrēšanu ar citām programmām.
 
@@ -42,7 +44,7 @@ ms.locfileid: "3091995"
   - [Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
   - [Integrācijas konfigurēšana ar Finance](hr-admin-integration-finance.md)
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
-  - [Izveidot periodiskas datu eksportēšanas programmu](hr-admin-integration-recurring-data-export.md)
+  - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)
   - Integrācija ar Office
     - [Office integrēšanas apmācība](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Elementa datu atjaunināšana programmā Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)

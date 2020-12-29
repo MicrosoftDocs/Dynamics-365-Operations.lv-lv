@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983627"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517456"
 ---
 # <a name="manage-robotstxt-files"></a>Failu robots.txt pārvaldība
 
@@ -90,11 +90,11 @@ Lai Commerce vietnē dzēstu robots.txt failu, veiciet tālāk norādītās darb
 
 [Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
-[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+[Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-[Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+[Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
 
 [Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
 

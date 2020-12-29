@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055408"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517164"
 ---
 # <a name="breadcrumb-module"></a>Atpakaļceļa modulis
 
@@ -46,10 +46,10 @@ Attēlā zemāk parādīts atpakaļceļa moduļa piemērs, kas parāda kategorij
 
 ## <a name="breadcrumb-module-settings"></a>Atpakaļceļa moduļa iestatījumi
 
-Atpakaļceļa modulis balstās uz iestatījumu **Atpakaļceļa rādīšanas veids PDP** , kas ir definēts vietnes vietņu veidotājā **Vietnes iestatījumi \> Paplašinājumi**. Šim iestatījumam ir pieejamas trīs vērtības.
+Atpakaļceļa modulis balstās uz iestatījumu **Atpakaļceļa rādīšanas veids PDP**, kas ir definēts vietnes vietņu veidotājā **Vietnes iestatījumi \> Paplašinājumi**. Šim iestatījumam ir pieejamas trīs vērtības.
 
 - **Rādīt kategoriju hierarhiju** — ja ir atlasīta šī vērtība, atpakaļceļa modulis parāda pilnu kategoriju hierarhiju precei, kas tiek skatīta PDP.
-- **Rādīt atpakaļ pie rezultātiem** — ja atlasīta šī vērtība, atpakaļceļa modulis rādīs "Atpakaļ pie rezultātiem" saiti PDP, ja lietotājs ir atvēris PDP no moduļa, kas ļauj izveidot saiti "Atpakaļ pie rezultātiem". Šī funkcionalitāte ir pieejama, ja lietotāji veic navigāciju no kategorijas, meklēšanas, saraksta un rekomendāciju saraksta lapas. Lai atbalstītu šo funkcionalitāti, preču kolekciju un meklēšanas rezultātu moduļiem ir rekvizīts, kas ir nosaukts **Atļaut atgriešanos pie rezultātiem PDP**. Šis rekvizīts sniedz jums elastību, lai definētu, kuriem moduļiem jāatbalsta "Atpakaļ pie rezultātiem" saites funkcionalitāte PDP. Piemēram, kad tiek atlasīta opcija **Rādīt atgriešanos pie rezultātiem** atpakaļceļa moduļa iestatījumam **Atpakaļceļa rādīšanas veids PDP** , un opcija **Ļaut atgriezties pie rezultātiem PDP** ir atlasīta meklēšanas lapas meklēšanas rezultātu modulim, saite "Atpakaļ pie rezultātiem" tiks parādīta, kad lietotāji no meklēšanas lapas pāriet uz PDP.
+- **Rādīt atpakaļ pie rezultātiem** — ja atlasīta šī vērtība, atpakaļceļa modulis rādīs "Atpakaļ pie rezultātiem" saiti PDP, ja lietotājs ir atvēris PDP no moduļa, kas ļauj izveidot saiti "Atpakaļ pie rezultātiem". Šī funkcionalitāte ir pieejama, ja lietotāji veic navigāciju no kategorijas, meklēšanas, saraksta un rekomendāciju saraksta lapas. Lai atbalstītu šo funkcionalitāti, preču kolekciju un meklēšanas rezultātu moduļiem ir rekvizīts, kas ir nosaukts **Atļaut atgriešanos pie rezultātiem PDP**. Šis rekvizīts sniedz jums elastību, lai definētu, kuriem moduļiem jāatbalsta "Atpakaļ pie rezultātiem" saites funkcionalitāte PDP. Piemēram, kad tiek atlasīta opcija **Rādīt atgriešanos pie rezultātiem** atpakaļceļa moduļa iestatījumam **Atpakaļceļa rādīšanas veids PDP**, un opcija **Ļaut atgriezties pie rezultātiem PDP** ir atlasīta meklēšanas lapas meklēšanas rezultātu modulim, saite "Atpakaļ pie rezultātiem" tiks parādīta, kad lietotāji no meklēšanas lapas pāriet uz PDP.
 - **Rādīt kategoriju hierarhiju un atgriezties pie rezultātiem** — šī vērtība ir iepriekšējo divu vērtību kombinācija. Atlasot šo vērtību, atpakaļceļa modulis parāda gan pilnu kategoriju hierarhiju, gan saiti "Atgriezties pie rezultātiem" (ja tā ir konfigurēta) PDP.
 
 > [!IMPORTANT]
@@ -66,19 +66,19 @@ Atpakaļceļa modulis balstās uz iestatījumu **Atpakaļceļa rādīšanas veid
 
 Lai pievienotu atpakaļceļa moduli PDP un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Vietnes iestatījumi/> paplašinājumi** un pēc tam atlasiet **Rādīt kategoriju hierarhiju** iestatījumam **Atpakaļceļa rādīšanas veids PDP**.
+1. Dodieties uz **Vietnes iestatījumi \> Paplašinājumi** un pēc tam atlasiet **Rādīt kategoriju hierarhija** iestatījumam **Atpakaļceļa rādīšanas veids PDP**.
 1. Atveriet **Veidnes** un atlasiet PDP veidni.
-1. Slotā **Konteiners** , kas satur lodziņu pirkšanas lodziņu, atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Slotā **Konteiners**, kas satur lodziņu pirkšanas lodziņu, atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Atpakaļceļs** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Dodieties uz **Lapas** un atveriet PDP, kas izmanto PDP veidni. Ja PDP vēl nepastāv, izveidojiet to.
-1. Slotā **Konteiners** , kas satur lodziņu pirkšanas lodziņu, atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Slotā **Konteiners**, kas satur lodziņu pirkšanas lodziņu, atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Atpakaļceļs** un pēc tam atlasiet **Labi**.
 1. Slota **Atpakaļceļš** rekvizītu rūtī sadaļā **Saknes** atlasiet **Saites teksts**.
 1. Dialoglodziņā **Saites teksts** ievadiet **Sākums** un pēc tam sadaļā **Saites mērķis** atlasiet **Pievienot saiti**.
 1. Dialoglodziņā **Pievienot saiti** atlasiet saiti atpakaļceļa saknei un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu.
-1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

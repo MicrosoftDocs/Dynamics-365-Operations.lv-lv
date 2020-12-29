@@ -1,5 +1,5 @@
 ---
-title: Automātiskā apstiprināšana ar Plānošanas optimizācijas rīku
+title: Automātiskā apstiprināšana, izmantojot plānošanas optimizāciju
 description: Šajā tēmā skaidrots, kā izmantot automātiskās apstiprināšanas ar Plānošanas optimizācijas rīku.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383692"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594530"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Automātiskā apstiprināšana ar Plānošanas optimizācijas rīku
+# <a name="autofirming-with-planning-optimization"></a>Automātiskā apstiprināšana, izmantojot plānošanas optimizāciju
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +35,7 @@ Automātiskā apstiprināšana ļauj apstiprināt (t.i., izlaist) plānotos pas�
 > [!NOTE]
 > Plānotā pirkšanas pasūtījuma automātisko apstiprināšanu var veikt tikai tad, ja krājums ir saistīts ar kreditoru.
 
-## <a name="turn-on-auto-firming"></a>Automātiskās apstiprināšanas ieslēgšana
+## <a name="turn-on-autofirming"></a>Automātiskās apstiprināšanas ieslēgšana
 
 Lai ieslēgtu automātisko apstiprināšanu, veiciet tālāk minētās darbības.
 
@@ -48,7 +48,7 @@ Apstiprināšanas periods tiek aprēķināts uz priekšu, sākot no vispārējā
 
 - Lai definētu noklusējuma apstiprināšanas laika ierobežojumu nodrošinājuma grupai, dodieties uz **Vispārējā plānošana**\>**Iestatījumi**\>**Nodrošinājums**\>**Nodrošinājuma grupas** un atlasiet nodrošinājuma grupu. Pēc tam no kopsavilkuma cilnes **Citi** laukā **Automātisks apstiprināšanas periods (dienas)** ievadiet dienu skaitu.
 - Lai pārrakstītu apstiprināšanas laika periodu, kas noteikts nodrošinājuma grupai noteiktam krājumam, dodieties uz **Produkta informācijas pārvaldība** \> **Izlaistās preces**, pēc tam no darbības rūts atlasiet **Plāns** un pēc tam atlasiet **Krājumu nodrošinājums**. Pēc tam cilnē **Vispārīgi** atlasiet **Ignorēt laika periodu** un laukā **Automātisks apstiprināšanas periods (dienas)** ievadiet dienu skaitu.
-- Lai pārrakstītu apstiprināšanas laika periodu, kas ir definēts nodrošinājuma grupai un krājumu nodrošinājumam noteiktam vispārējam plānam, dodieties uz **Vispārējā plānošana**\>**Iestatījumi**\>**Vispārējie plāni** un atlasiet vispārējo plānu. Pēc tam kopsavilkuma cilnē  **Periods dienās** lauciņu **Iesaldēt** uzstādiet uz **Jā** un ievadiet dienu skaitu.
+- Lai pārrakstītu apstiprināšanas laika periodu, kas ir definēts nodrošinājuma grupai un krājumu nodrošinājumam noteiktam vispārējam plānam, dodieties uz **Vispārējā plānošana**\>**Iestatījumi**\>**Vispārējie plāni** un atlasiet vispārējo plānu. Pēc tam kopsavilkuma cilnē  **Periods dienās** lauciņu **Apstiprināt** uzstādiet uz **Jā** un ievadiet dienu skaitu.
 
 Ja ir ieslēgta automātiskā apstiprināšana vispārējai plānošanai, kas izmanto Plānošanas optimizāciju, automātiskās apstiprināšanas process tiek veikts saskaņā ar automātiskās apstiprināšanas iestatījumiem. Ja automātiskā apstiprināšana nav ieslēgta vai ja plānošana tiek sākta no lapas **Tīkla prasības**, automātiskās apstiprināšanas process tiek izlaists.
 

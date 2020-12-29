@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 11a1f166080b96760cb10f4d0cdc627979c2709e
-ms.sourcegitcommit: e0bf7a81ead351f5b109061c401589295058f808
+ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "3726311"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527485"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Jaunumi un izmaiņas risinājumā Dynamics 365 Human Resources (2020. gada 20. augusts)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Human Resources. Izmaiņas attiecas uz būvējuma numuru 8.1.3478. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta atsauces numuriem portālā Lifecycle Services (LCS).
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646043"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517212"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
@@ -35,13 +35,13 @@ ms.locfileid: "3646043"
 
 Iestatot e-komercijas vidi programmā Dynamics 365 Commerce, varat konfigurēt to, lai varētu strādāt ar savu CDN pakalpojumu. 
 
-Jūsu pielāgoto domēnu var iespējot jūsu E-komercijas vides nodrošināšanas procesā. Alternatīvi varat izmantot pakalpojuma pieprasījumu, lai to iestatītu pēc nodrošināšanas procesa pabeigšanas. E-komercijas vides nodrošināšanas process ģenerē resursdatora nosaukumu, kas ir saistīts ar vidi. Šim resursdatora nosaukumam ir šāds formāts, kur \<*e-commerce-tenant-name*\> ir jūsu vides nosaukums.
+Jūsu pielāgoto domēnu var iespējot jūsu e-komercijas vides nodrošināšanas procesā. Alternatīvi varat izmantot pakalpojuma pieprasījumu, lai to iestatītu pēc nodrošināšanas procesa pabeigšanas. E-komercijas vides nodrošināšanas process ģenerē resursdatora nosaukumu, kas ir saistīts ar vidi. Šim resursdatora nosaukumam ir šāds formāts, kur \<*e-commerce-tenant-name*\> ir jūsu vides nosaukums.
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
 Resursdatora nosaukums vai galapunkts, kas tiek ģenerēts nodrošināšanas procesā, atbalsta drošligzdu slāņa (SSL) sertifikātu tikai \*. commerce.dynamics.com. Tas neatbalsta SSL pielāgotiem domēniem. Tāpēc jums ir jāpārtrauc SSL pielāgotiem domēniem savā CDN un jāpārsūta datplūsma no CDN uz resursdatora nosaukumu vai galapunktu, ko Komercija ir ģenerējusi. 
 
-Turklāt *statika* (JavaScript vai kaskādes stila lapu \[CSS\]faili) no Komercijas tiek nodrošināti no Komercijas ģenerētā galapunkta (\*.commerce.dynamics.com). Statiku var saglabāt kešatmiņā tikai tad, ja resursdatora nosaukums vai galapunkts, ko ģenerējusi Komercija, tiek novietots pēc CDN.
+Turklāt *statika* (JavaScript vai kaskādes stila lapu \[CSS\] faili) no Komercijas tiek nodrošināti no Komercijas ģenerētā galapunkta (\*.commerce.dynamics.com). Statiku var saglabāt kešatmiņā tikai tad, ja resursdatora nosaukums vai galapunkts, ko ģenerējusi Komercija, tiek novietots pēc CDN.
 
 ## <a name="set-up-ssl"></a>SSL iestatīšana
 
@@ -97,7 +97,7 @@ Lai uzstādītu maršrutēšanas kārtulu Azure optimālās ieejas pakalpojumā,
 1. Laukā **Nosaukums** ievadiet **noklusējuma**.
 1. Laukā **Pieņemtais protokols** atlasiet **HTTP un HTTPS**.
 1. Laukā **Priekšgala resursdatori** ievadiet **dynamics-ecom-tenant-name.azurefd.net**.
-1. Zem **Modeļi saskaņošanai**augšējā laukā ievadiet **/\***.
+1. Zem **Modeļi saskaņošanai** augšējā laukā ievadiet **/\** _.
 1. Sadaļā **Maršruta dati** iestatiet opciju **Maršruta tips** uz **Pārsūtīt**.
 1. Laukā **Aizmugursistēmas kopa** atlasiet **e-komercijas aizmugursistēma**.
 1. **Pārsūtīšanas protokola** lauka grupā atlasiet opciju **Saskaņot pieprasījumu**. 
@@ -110,7 +110,7 @@ Lai iestatītu kešošanas kārtulu Azure optimālās ieejas pakalpojumā, veici
 1. Laukā **Nosaukums** ievadiet **statika**.
 1. Laukā **Pieņemtais protokols** atlasiet **HTTP un HTTPS**.
 1. Laukā **Priekšgala resursdatori** ievadiet **dynamics-ecom-tenant-name.azurefd.net**.
-1. Zem **Modeļi saskaņošanai**, augšējā laukā, **/\_msdyn365/\_scnr/\***.
+1. Zem **Modeļi saskaņošanai**, augšējā laukā, **/\_msdyn365/\_scnr/\** _.
 1. Sadaļā **Maršruta dati** iestatiet opciju **Maršruta tips** uz **Pārsūtīt**.
 1. Laukā **Aizmugursistēmas kopa** atlasiet **e-komercijas aizmugursistēma**.
 1. **Pārsūtīšanas protokola** lauka grupā atlasiet opciju **Saskaņot pieprasījumu**.
@@ -146,11 +146,11 @@ Tagad jūsu CDN ir jābūt pareizi konfigurētam, lai to varētu izmantot kopā 
 
 [Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
-[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+[Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-[Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+[Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
 
 [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 

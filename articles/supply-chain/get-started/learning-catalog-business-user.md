@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 741c8af7eaabe23c03546daddd0a9a422146f575
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: c3fc8cf49b62515f41712e594076c31ae5d7654b
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793567"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668985"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Apmācības katalogs Dynamics 365 Supply Chain Management lietotājiem
 
@@ -50,6 +50,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Konfigurējiet un pārvaldiet preces un krājumus Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Preču informācija ir piegādes ķēžu un mazumtirdzniecības programmu pamats visās nozarēs. Dažādos biznesa risinājumu moduļos preču informācija un konfigurācija ir vajadzīga, lai pārvaldītu biznesa procesus, kas ir saistīti ar īpašām precēm, preču saimēm, materiālu komplektiem un preču kategorijām. Krājumu pārskati parāda dažādos veidos, cik daudz krājumu jums ir, un tas izskaidros, kā efektīvāk veikt krājumu ieguldījumus. Vispārējā plānošanas palīdz jums racionalizēt jūsu plānošanu, pamatojoties uz iepriekš noteiktiem faktoriem, lai jūs varētu efektīvi plānot materiālu pirkšanu, pārsūtīšanu vai ražošanu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 14 stundas |
 | [Konfigurējiet un pārvaldiet sagādes un piegādātājus Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Piegādātāju atrašana un darbs ar tiem, produktu iepirkumu un preču un pakalpojumu kvalitātes nodrošināšanas process ir svarīgi faktori, kas ietekmē uzņēmuma reputāciju un panākumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 14 stundas |
 | [Konfigurējiet un pārvaldiet pārdošanas un pircējus Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) | Darbs ar pircējiem, izpratne par pārdošanas procesa dzīves ciklu un pārdošanas līgumu iestatīšanu ir svarīgi faktori, kas ietekmē uzņēmuma veiksmi. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
+| [Vispārējā plānošana Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/master-planning-supply-chain-management/) | Vispārējā plānošana ļauj uzņēmumiem noteikt un ieplānot nepieciešamos izejmateriālus un jaudu, lai sasniegtu to nākotnes mērķus. Vispārējā plānošana novērtē, kuri izejmateriāli un jaudas pašlaik ir pieejamas un kuriem ir nepieciešamas izejvielas un kapacitātes, lai pabeigtu ražošanu. Piemēram, tas nosaka, kas ir jāsaražo, jāiegādājas, jāpārsūta vai jāatliek rezervei, pirms varat izpildīt ražošanu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas |
 | [Konfigurējiet un strādājiet ar noliktavas pārvaldību Dynamics 365 for Finance and Operations](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Noliktavas pārvaldība Dynamics 365 Supply Chain Management palīdz optimizēt un racionalizēt noliktavas procesus atbilstoši jūsu individuālajām vajadzībām un sniedz ieskatu jūsu krājumos, kā arī sniedz rīkus, kas palīdz palielināt klientu apmierinātību un samazināt izmaksas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 8.5 stundas |
 | [Konfigurējiet un strādājiet ar transporta pārvaldību Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Transportēšanas pārvaldības modulis Dynamics 365 Supply Chain Management palīdz atrast visefektīvāko veidu, kā piegādāt preces saviem klientiem. Transportēšanas vadība aprēķina vislētāko un ātrāko preču piegādes veidu un ļauj jums identificēt kreditoru un maršrutēšanas risinājumus ienākošajiem un izejošajiem pasūtījumiem. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 3 stundas |
 | [Darbs ar Līdzekļu pārvaldību Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Līdzekļu pārvaldība ir pievienojumprogramma Dynamics 365 Supply Chain Management, kas tiek izmantota, lai pārvaldītu līdzekļus, kas tiek izmantoti uzņēmuma ikdienas darbībā. Daži šāda veida līdzekļu piemēri ir mašīnas, ražošanas iekārtas un pacēlāji. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12.5 stundas |

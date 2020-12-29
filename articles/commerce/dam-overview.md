@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd2ec16ec441174485a9cc70f41a83337264f53b
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 69cbaafb9cc28d4e363d0ef028460235cded54dc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097050"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594360"
 ---
 # <a name="digital-asset-management-overview"></a>Digitālo līdzekļu pārvaldības pārskats
 
@@ -51,10 +51,12 @@ Digitālie līdzekļi un pārvaldības līdzekļi atrodas vietnes veidotāja sad
 
 [Augšupielādēt attēlus](dam-upload-images.md)
 
-[Augšupielādēt video](dam-upload-video.md)
+[Videoklipu augšupielāde](dam-upload-video.md)
 
 [Augšupielādēt failus](dam-upload-files.md)
 
-[Apgriezt attēlus](dam-crop-images.md)
+[Attēlu apgriešana](dam-crop-images.md)
 
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
+
+[Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)

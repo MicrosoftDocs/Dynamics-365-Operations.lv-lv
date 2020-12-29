@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765005"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517359"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -47,7 +47,7 @@ Varat izveidot pakalpojuma pieprasījumu, lai videi pievienotu papildu domēnus,
 
 ## <a name="commerce-generated-urls"></a>Commerce ģenerētie vietrāži URL
 
-Kad tiek nodrošināta e-komercijas vide, Commerce ģenerēs vietrādi URL, kas būs vides darba adrese. Šim vietrādim URL ir atsauce uz e-komercijas vietnes saiti, kas norādīta LCS pēc vides nodrošināšanas. Commerce ģenerētie vietrāži URL ir `https://<e-Commerce tenant name>.commerce.dynamics.com`formātā , kur e-komercijas nomnieka nosaukums ir nosaukums, kas ievadīts LCS Commerce videi.
+Kad tiek nodrošināta Dynamics 365 Commerce e-komercijas vide, Commerce ģenerēs vietrādi URL, kas būs vides darba adrese. Šim vietrādim URL ir atsauce uz e-komercijas vietnes saiti, kas norādīta LCS pēc vides nodrošināšanas. Commerce ģenerētie vietrāži URL ir `https://<e-commerce tenant name>.commerce.dynamics.com`formātā , kur e-komercijas nomnieka nosaukums ir nosaukums, kas ievadīts LCS Commerce videi.
 
 Ražošanas vietnes resursdatoru nosaukumus var izmantot arī smilškastes vidē. Šī opcija ir ideāli piemērota, ja kopēsit vietni no smilškastes vides uz ražošanu.
 
@@ -102,9 +102,9 @@ Ja domēna vaicājuma virkne netiek norādīta vidē ar vairākiem domēniem, Co
 
 ## <a name="traffic-forwarding-in-production"></a>Satiksmes pārsūtīšana ražošanā
 
-Varat simulēt vairākus domēnus, izmantojot domēna vaicājuma virknes parametrus pašā commerce.dynamics.com galapunktā. Bet, ja jums ir jābūt tiešraidē ražošanā, jums ir jānosūta trafiks jūsu pielāgotajam domēnam uz `<e-Commerce tenant name>.commerce.dynamics.com` galapunktu.
+Varat simulēt vairākus domēnus, izmantojot domēna vaicājuma virknes parametrus pašā commerce.dynamics.com galapunktā. Bet, ja jums ir jābūt tiešraidē ražošanā, jums ir jānosūta trafiks jūsu pielāgotajam domēnam uz `<e-commerce tenant name>.commerce.dynamics.com` galapunktu.
 
-Galapunkts `<e-Commerce tenant name>.commerce.dynamics.com` neatbalsta pielāgotus domēna drošligzdu slāņus (Secure Sockets Layers - SSLs), tāpēc ir jāiestata pielāgoti domēni, izmantojot front door pakalpojumu vai satura piegādes tīklu (content delivery network - CDN). 
+Galapunkts `<e-commerce tenant name>.commerce.dynamics.com` neatbalsta pielāgotus domēna drošligzdu slāņus (Secure Sockets Layers - SSLs), tāpēc ir jāiestata pielāgoti domēni, izmantojot front door pakalpojumu vai satura piegādes tīklu (content delivery network - CDN). 
 
 Lai iestatītu pielāgotus domēnus, izmantojot front door pakalpojumu vai CDN, ir divas opcijas:
 
@@ -152,13 +152,13 @@ Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (sa
 
   ## <a name="additional-resources"></a>Papildu resursi
 
-  [Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+  [Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
   [Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
 
   [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-  [Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+  [Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
 
   [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 

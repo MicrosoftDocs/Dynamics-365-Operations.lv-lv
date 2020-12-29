@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ca2fbbf3ffbcc7c9c32490f3733b8a94731170e
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022219"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529832"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 6. oktobris)
 
-Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
 Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
 
@@ -54,9 +56,9 @@ Zemāk minētais līdzeklis parasti ir pieejams ar šo laidienu.
 | --- | --- | --- |
 | 448806 | **Noklusējuma identifikācijas veids** tiek eksportēts kā **RecID** HCM parametros | Šīs izmaiņas personāla vadības parametru elementā pievieno papildu kolonnu, kas rāda **Noklusējuma identifikācijas veidu**. |
 | 492923 | Uzdevuma ieraksti netiek saglabāti Lifecycle Services (LCS) | Uzdevumu ierakstus tagad var saglabāt LCS. |
-| 429950 | Fiksēta kompensācija nebeidzas pareizi, mainot amatu | Mainot darbinieka amatu lapā **Pārsūtīt darbinieku** , beigu atlīdzības datums tika iestatīts vienu dienu pirms amata beigām. Tagad atlīdzības beigu datums ir tāds pats kā amata beigu datums. |
-| 467214 | **Izmaksāto algu analīze** tiek parādīta tikai tad, ja opcija **Apmaksas likmes pārvēršanas nosaukums** ir iestatīts uz **Ikgadējs** | Algu izmaksas likmes ar nosaukumu, kas nav **Ikgadējs** , netiek rādītas Atlīdzības analīzē. Ar šo atjauninājumu Atlīdzības analīze tagad izmanto visas apmaksas likmes konvertēšanas. Palaižot pārskatus pēc **Stundas** vai **Alga** , jebkura apmaksas likmes konvertēšana tagad izmanto periodu, kas nav stundas, kurš ir iekļauts filtrā **Alga**. **Stundu** filtrā tiek iekļautas tikai apmaksas likmes ar periodu **Stundas**. |
-| 482464 | Skatot **Pārskatus** , skats **Detalizēta informācija** nemainās uz režģa skatu pēc filtra piemērošanas | Pēc filtra piemērošanas pārskata režģis tiek parādīts, kā paredzēts. |
+| 429950 | Fiksēta kompensācija nebeidzas pareizi, mainot amatu | Mainot darbinieka amatu lapā **Pārsūtīt darbinieku**, beigu atlīdzības datums tika iestatīts vienu dienu pirms amata beigām. Tagad atlīdzības beigu datums ir tāds pats kā amata beigu datums. |
+| 467214 | **Izmaksāto algu analīze** tiek parādīta tikai tad, ja opcija **Apmaksas likmes pārvēršanas nosaukums** ir iestatīts uz **Ikgadējs** | Algu izmaksas likmes ar nosaukumu, kas nav **Ikgadējs**, netiek rādītas Atlīdzības analīzē. Ar šo atjauninājumu Atlīdzības analīze tagad izmanto visas apmaksas likmes konvertēšanas. Palaižot pārskatus pēc **Stundas** vai **Alga**, jebkura apmaksas likmes konvertēšana tagad izmanto periodu, kas nav stundas, kurš ir iekļauts filtrā **Alga**. **Stundu** filtrā tiek iekļautas tikai apmaksas likmes ar periodu **Stundas**. |
+| 482464 | Skatot **Pārskatus**, skats **Detalizēta informācija** nemainās uz režģa skatu pēc filtra piemērošanas | Pēc filtra piemērošanas pārskata režģis tiek parādīts, kā paredzēts. |
 | 483184 | Human Resources neģenerē atvaļinājumu uzkrājumus, atlasot **Pakāpes pamatu** kā **Koriģēto sākuma datumu** ierakstā **Atvaļinājuma reģistrācija** |**Pielāgoto sākuma datumu** aizpilda un izmanto, ģenerējot atvaļinājumu uzkrājumus.  |
 | 509731 | Prombūtnes pieprasījums turpmākai darbinieka atbrīvošanai rada problēmas, ja tas attiecas uz prombūtni pēc atbrīvošanas datuma | Tagad prombūtnes pieprasījumus var iesniegt darbiniekiem ar turpmāku atbrīvošanas datuma, ciktāl pieprasījums ir iesniegts pirms atbrīvošanas datuma. |
 | 510716 | Atlīdzības analīze ietver gan vīriešu, gan sieviešu dzimtes darbiniekus **Vīriešu vidējā stundas algā** | Atlīdzības analīzē **Vīriešu vidējā stundas alga** par **Atlīdzības demogrāfiskā analīze** ietver sieviešu vidējo algu. Tagad tā ietver tikai vīriešus. |
@@ -77,11 +79,11 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 
 Nākamajiem laidieniem ir plānoti tālāk norādītie jaunie līdzekļi.
 
-- **Kontrolsaraksta elementi, kas iekļauti Common Data Service** : kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami pakalpojumā Common Data Service.
+- **Kontrolsaraksta elementi, kas iekļauti Common Data Service**: kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami pakalpojumā Common Data Service.
 
-- **Atvieglojumu pārvaldības pamatojuma kodi** : atvieglojumu pārvaldības pamatojuma kodi drīz tiks apvienoti ar esošajiem pamatojuma kodiem programmā Human Resources. Ja izveidojāt pamatojuma kodus Priekšrocību pārvaldībā, kas ir garāki par 15 rakstzīmēm, ir jāmaina pamatojuma koda nosaukums Priekšrocību pārvaldībā veidlapā **Pamatojuma kodi** uz tādu, kas ir 15 rakstzīmes vai mazāk. Pēc nosaukuma atjaunināšanas pamatojuma kods būs redzams Personāla vadības sadaļā esošajā pamatojuma koda veidlapā. Šīs izmaiņas būs pieejamas nākotnē un tās neietekmēs jau esošo funkcionalitāti.
+- **Atvieglojumu pārvaldības pamatojuma kodi**: atvieglojumu pārvaldības pamatojuma kodi drīz tiks apvienoti ar esošajiem pamatojuma kodiem programmā Human Resources. Ja izveidojāt pamatojuma kodus Priekšrocību pārvaldībā, kas ir garāki par 15 rakstzīmēm, ir jāmaina pamatojuma koda nosaukums Priekšrocību pārvaldībā veidlapā **Pamatojuma kodi** uz tādu, kas ir 15 rakstzīmes vai mazāk. Pēc nosaukuma atjaunināšanas pamatojuma kods būs redzams Personāla vadības sadaļā esošajā pamatojuma koda veidlapā. Šīs izmaiņas būs pieejamas nākotnē un tās neietekmēs jau esošo funkcionalitāti.
 
-- **Pielāgotas saites pārvaldnieka pašapkalpošanās sistēmā** : lai atbalstītu vadītājus, mēs paplašinām iespējas pakalpojumā Vadītāja pašapkalpošanās. Mēs pievienojam iespēju pievienot pielāgotas saites cilnē **Mana grupa**. Šis līdzeklis ir līdzīgs pielāgoto saišu līdzeklim, kas atrodas Darbinieku pašapkalpošanās **Manas informācijas cilne**. Papildinformāciju skatiet sadaļā [Pielāgotas saites pakalpojumā Vadītāja pašapkalpošanās](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Pielāgotas saites pārvaldnieka pašapkalpošanās sistēmā**: lai atbalstītu vadītājus, mēs paplašinām iespējas pakalpojumā Vadītāja pašapkalpošanās. Mēs pievienojam iespēju pievienot pielāgotas saites cilnē **Mana grupa**. Šis līdzeklis ir līdzīgs pielāgoto saišu līdzeklim, kas atrodas Darbinieku pašapkalpošanās **Manas informācijas cilne**. Papildinformāciju skatiet sadaļā [Pielāgotas saites pakalpojumā Vadītāja pašapkalpošanās](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
 Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem skatiet sadaļā [Dynamics 365 Human Resources 2019 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 

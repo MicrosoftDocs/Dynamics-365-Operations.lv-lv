@@ -3,7 +3,7 @@ title: Kandidātu piesaistīšana ar LinkedIn Recruiter sistēmā Attract
 description: Izmantojiet programmas Microsoft Dynamics 365 Talent - Attract nodrošināto LinkedIn integrāciju, lai piesaistītu darba kandidātus ar LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833050"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528273"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Kandidātu piesaistīšana ar LinkedIn Recruiter sistēmā Attract
 
@@ -34,6 +34,9 @@ LinkedIn ir pasaulē lielākais tiešsaistes profesionāļu tīkls, kas sniedz j
 
 Ja šķiet, ka jums nav šīs iespējas, sazinieties ar savu administratoru. Lai varētu izmantot LinkedIn Recruiter priekšrocības no sistēmas Attract, administratoram ir [jāiestata integrācija ar LinkedIn](./attract-admin-linkedin.md). Pēc tam varat iestatīt savienojumu ar LinkedIn Recruiter un sākt meklēt kandidātus.
 
+>[!IMPORTANT]
+>No 2020. gada 1. jūlija LinkedIn vairs neatbalsta Internet Explorer 11. Lietotāji joprojām var piekļūt LinkedIn ar Internet Explorer 11, bet tiem tiks piedāvāts jaunināt vai izmantot citu pārlūkprogrammu. Plašāku informāciju skatiet [Atbalstītie Interneta pārlūki pakalpojumam LinkedIn](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Savienojuma ar LinkedIn Recruiter iestatīšana
 
 Lai varētu sākt darbu ar LinkedIn Recruiter, izmantojot sistēmu Attract, ir jāiestata savienojums ar LinkedIn Recruiter. Šai darbībai ir nepieciešami jūsu LinkedIn Recruiter akreditācijas dati.
@@ -42,19 +45,35 @@ Lai varētu sākt darbu ar LinkedIn Recruiter, izmantojot sistēmu Attract, ir j
 2. Atlasiet **Lietotāja iestatījumi**.
 3. Cilnē **Savienojumi** atlasiet **Izveidot savienojumu** blakus **LinkedIn**. Izpildiet LinkedIn sniegtos norādījumus.
 
-    ![[Iestatīt savienojumu LinkedIn Recruiter no Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Iestatīt savienojumu ar LinkedIn Recruiter no Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>LinkedIn kandidātu skatīšana sistēmā Attract
 
 Kad esat izveidojis savienojumu ar LinkedIn Recruiter, varat skatīt kandidātu LinkedIn profilus sistēmā Attract.
 
-1. Sistēmā Attract kreisajā pusē atlasiet vienumu **Darbi** vai **Talantu kopas**  un pēc tam atlasiet kandidātu.
+>[!NOTE]
+>Ja jums ir piešķirta Personāla atlases speciālista licence, varat apskatīt visu kandidātu informāciju.<br><br>
+>Ja jums ir Nolīgšanas pārvaldnieka licence vai nav piešķirta licence, noteikti izrakstieties no LinkedIn vai LinkedIn Recruiter pirms naviģēšanas uz cilni LinkedIn kandidātam programmā Attrakt. Jūs varēsiet redzēt kandidāta publiskā profila pamatdatus, piemēram, vārdu un uzvārdu.
 
-    ![[Skatīt LinkedIn kandidātus sistēmā Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
+1. Sistēmā Attract kreisajā pusē atlasiet vienumu **Darbi** vai **Talantu kopas** un pēc tam atlasiet kandidātu.
 
-2. Kandidāta profilā atlasiet cilni **LinkedIn.** Varat skatīt kandidāta profilu kopā ar InMail vēsturi un LinkedIn piezīmju vēsturi.
+    ![[LinkedIn kandidātu skatīšana sistēmā Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-Šeit var saglabāt kandidātu LinkedIn Recruiter projektā, nosūtīt inMail vai izmantot Update Me, lai iestatītu brīdinājumu LinkedIn Recruiter.
+2. Kandidāta profilā atlasiet cilni **LinkedIn** Varat skatīt kandidāta profilu un InMail vēsturi.
+
+   ![Skatīt kandidāta LinkedIn informāciju](./media/attract-candidate-linkedin-tab.png)
+
+Šeit varat veikt tālāk norādītās darbības.
+
+- Atlasiet cilni **Personāla atlases aktivitātes**, lai apskatītu:
+   
+   - Personāla atlases speciālista piezīmes (gan publiskas, gan privātas). Pēc noklusējuma piezīmes ir privātas un redzamas tikai piezīmju īpašniekam.
+   - InMail aktivitāte (bet ne InMail saturs). Ritiniet līdz lapas apakšai, lai apskatītu InMail apmaiņu ar savu potenciālo klientu un skatītu citus lietotājus jūsu organizācijā, kuri mijiedarbojas ar jūsu potenciālo klientu.
+   - Kandidātu noraidīšanas aktivitāte
+
+- Atlasiet **Sūtīt InMail**, lai nosūtītu InMail, bez nepieciešamības atstāt Attract.
+
+- Atlasiet **Saglabāt darbu**, lai saglabātu darbu, neatstājot Attract.
 
 > [!NOTE]
 > Kandidāta LinkedIn profils tiks parādīts sistēmā Attract, kad kandidāta Attract informācija atbildīs LinkedIn informācijai. Tālāk ir norādītas izmantotās atbilstības kārtulas.
@@ -87,7 +106,7 @@ LinkedIn Recruiter varat izsekot tam, vai kandidāts ir pietiecies citām vakanc
     - **Atsauksmes par interviju** — skatiet atsauksmes, ko intervētāji ir iesnieguši sistēmā Attract.
     - **Piezīmes** — skatiet piezīmes, kas ievadītas par šo kandidātu sistēmā Attract.
 
-    ![[Skatīt Attract informāciju no LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Attract informācijas skatīšana no LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Ja kandidāts nav ticis tālāk par potenciālā kandidāta posmu, kandidāta un pieteikuma dati netiks sinhronizēti ar LinkedIn Recruiter.

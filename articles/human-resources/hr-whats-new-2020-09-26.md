@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d27104a08cdc899f12942d80e693f3495d90a6ec
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040080"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527414"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 26. septembrī
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
@@ -39,7 +41,7 @@ Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās
 
 Zemāk minētais līdzeklis parasti ir pieejams ar šo laidienu:
 
-- **Platformas atjauninājums 10.0.13 tagad ir pieejams** : plašāku informāciju par atjauninājumu skatiet sadaļā [Platformas atjauninājumi programmas Finance and Operations versijai 10.0.13 (2020. gada oktobris)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **Platformas atjauninājums 10.0.13 tagad ir pieejams**: plašāku informāciju par atjauninājumu skatiet sadaļā [Platformas atjauninājumi programmas Finance and Operations versijai 10.0.13 (2020. gada oktobris)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 
@@ -51,11 +53,11 @@ Zemāk minētais līdzeklis parasti ir pieejams ar šo laidienu:
 | Problēmas numurs | Izsniegt | Apraksts |
 | --- | --- | --- |
 | 469495 | Noklusējuma finanšu dimensiju režģa un dialoglodziņa atjauninājums | Finanšu dimensiju režģis un dialoglodziņš ir atjaunināts visā programmā Human Resources. |
-| 474887 | Atvaļinājuma pieprasījuma darba vienība atver nepareizu saiti manuālā lēmumā | Kad darbplūsmas konfigurācija ietver manuālu lēmumu, pārvietojoties uz atvaļinājuma pieprasījumu no **Man piešķirtās darba vienības** , tiek atvērta nepareiza saite, parādot tukšu formu vai atvaļinājuma pieprasījumu, ko izveidojis pašreizējais lietotājs, nevis to, kas piešķirta manuālajam lēmumam. |
+| 474887 | Atvaļinājuma pieprasījuma darba vienība atver nepareizu saiti manuālā lēmumā | Kad darbplūsmas konfigurācija ietver manuālu lēmumu, pārvietojoties uz atvaļinājuma pieprasījumu no **Man piešķirtās darba vienības**, tiek atvērta nepareiza saite, parādot tukšu formu vai atvaļinājuma pieprasījumu, ko izveidojis pašreizējais lietotājs, nevis to, kas piešķirta manuālajam lēmumam. |
 | 474962 | Atvaļinājumu un kavējumu parametru elementam ir lauki ar neskaidriem etiķetēm | Atvaļinājuma un prombūtnes parametru elementa etiķetes tiek atjauninātas, lai tās būtu skaidrākas. |
 | 481401 | Uzkrāšanas apstrāde uzkaras, kad uzkrāšanas datums ir pēc uzkrāšanas sākuma datuma un mēneša beigās | Uzkrāšanas apstrāde tiek atjaunināta, lai nebūtu aizkaves, kad uzkrāšanas datuma bāze ir pēc uzkrāšanas sākuma datuma un mēneša beigās. |
 | 447167 | Ierakstu, kam beidzas derīgums, sarakstos ir neaktīvi darbinieki | Cilnē **Ieraksti, kam beidzas derīgums** sadaļā **Personāla vadība** bija iekļauti neaktīvi darbinieki. Tagad tā ietver tikai aktīvos darbiniekus. |
-| 486840 | No **Man piešķirtās darba vienības** tiek atvērts nepareizs prombūtnes atvaļinājuma pieprasījums | Atlasot prombūtnes atvaļinājuma pieprasījumu no **Man piešķirtās darba vienības** , vairs netiek atvērts visjaunākais pašreizējam lietotājam piešķirtais prombūtnes atvaļinājuma pieprasījums. |
+| 486840 | No **Man piešķirtās darba vienības** tiek atvērts nepareizs prombūtnes atvaļinājuma pieprasījums | Atlasot prombūtnes atvaļinājuma pieprasījumu no **Man piešķirtās darba vienības**, vairs netiek atvērts visjaunākais pašreizējam lietotājam piešķirtais prombūtnes atvaļinājuma pieprasījums. |
 | 506868 | Common Data Service Lauks **Nosaukums** nav iestatīts elementam **Amats** | Lauks **Nosaukums** elementos **Darbs** un **Amats** tiek rādīts kā nenorādīts. Tagad tiek parādīts lauks **Nosaukums**. |
 | 430359 | Nevar piekļūt darba beigšanas kontrolsaraksta uzdevumiem ar piešķirtām vadītāja un darbinieka lomām | Darbinieki ar turpmāku darba pārtraukšanas datumu nevarēja piekļūt kontrolsaraksta uzdevumiem, ja tiem bija tikai darbinieka vai vadītāja loma. Tagad lietotāji, kuriem ir tikai darbinieka vai vadītāja loma, var piekļūt darba beigšanas uzdevumiem ar turpmāku darba pārtraukšanas datumu. |
 | 458102 | Izveidojot jaunu darbinieku, tas netiek parādīts elementā **Darbinieka algas informācija** | Jauni darbinieki tiek iekļauti darbinieka algas informācijas elementā, neatverot darbinieka algas informāciju pirms elementa eksportēšanas. |

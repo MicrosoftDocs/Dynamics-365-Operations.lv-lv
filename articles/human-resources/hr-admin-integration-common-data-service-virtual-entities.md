@@ -3,7 +3,7 @@ title: Common Data Service virtuālo elementu konfigurēšana
 description: Šajā tēmā parādīts, kā konfigurēt virtuālos elementus Dynamics 365 Human Resources. Ģenerējiet un atjauniniet esošos virtuālos elementus un analizējiet ģenerētos un pieejamos elementus.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058158"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645605"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Common Data Service virtuālo elementu konfigurēšana
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources ir virtuālais datu avots platformā Common Data Service. Tas nodrošina pilnīgas izveides, lasīšanas, atjaunināšanas un dzēšanas (CRUD) operācijas no Common Data Service un Microsoft Power Platform. Dati virtuālajiem elementiem netiek saglabāti Common Data Service, bet gan lietojumprogrammas datu bāzē. 
 
@@ -50,11 +50,23 @@ Virtuālie personāla vadības elementi atšķiras no fiziskajām personām Comm
 
 ## <a name="setup"></a>Iestatīt
 
-Sekojiet šīm iestatīšanas darbībām, lai iespējotu virtuālos elementus jūsu vidē. 
+Sekojiet šīm iestatīšanas darbībām, lai iespējotu virtuālos elementus jūsu vidē.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>Iespējot virtuālos elementus Personāla vadībā
+
+Vispirms **Funkciju pārvaldības** darbvietā ir jāiespējo virtuālas entītijas.
+
+1. Human Resources atlasiet **Sistēmas administrēšana**.
+
+2. Atlasiet elementu **Funkciju pārvaldība**.
+
+3. Atlasiet **Virtuālā elementa atbalsts HR/CD** un pēc tam atlasiet **Iespējot**.
+
+Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu un atspējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Lietojumprogrammas reģistrēšana Microsoft Azure
 
-Vispirms lietojumprogramma ir jāreģistrē Azure portālā, lai Microsoft Identity platforma var nodrošināt autentifikāciju un autorizācijas pakalpojumus lietojumprogrammai un lietotājiem. Lai iegūtu vairāk informācijas par lietojumprogrammu reģistrāciju Azure, skatiet [Īsa pamācība: lietojumprogrammas reģistrēšana platformā Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Vispirms jūsu Personāla vadības instance ir jāreģistrē Azure portālā, lai Microsoft Identity platforma var nodrošināt autentifikāciju un autorizācijas pakalpojumus lietojumprogrammai un lietotājiem. Lai iegūtu vairāk informācijas par lietojumprogrammu reģistrāciju Azure, skatiet [Īsa pamācība: lietojumprogrammas reģistrēšana platformā Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Atveriet [Microsoft Azure portālu](https://portal.azure.com).
 
@@ -115,22 +127,34 @@ Nākamais solis ir konfigurēt virtuālā elementa datu avotu Power Apps vidē.
 
 4. **Risinājumu darbspējas centrmezglā** atlasiet ikonu **Detalizētā atrašana** lietojumprogrammas lapas augšējā labajā stūrī.
 
-5. Lapā **Detalizētā atrašana** , nolaižamajā sarakstā **Meklēt** atlasiet **Finance and Operations virtuālo datu avotu konfigurācijas**.
+5. Lapā **Detalizētā atrašana**, nolaižamajā sarakstā **Meklēt** atlasiet **Finance and Operations virtuālo datu avotu konfigurācijas**.
 
 6. Atlasiet **Rezultāti**.
 
 7. Atlasiet ierakstu **Microsoft HR datu avots**.
 
-8. Ievadiet nepieciešamo informāciju par datu avota konfigurāciju.
+8. Ievadiet nepieciešamo informāciju par datu avota konfigurāciju:
 
-   - **Mērķa URL** : jūsu personāla vadības nosaukumvietas URL.
-   - **Nomnieka ID** : Azure Active Directory (Azure AD) nomnieka ID.
-   - **AAD lietojumprogrammas ID** : lietojumprogrammas (klienta) ID, kas izveidots Microsoft Azure portālā reģistrētai lietojumprogrammai. Jūs saņēmāt šo informāciju iepriekš, veicot darbību [Lietojumprogrammas reģistrēšana Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **AAD lietojumprogrammas noslēpums** : klienta noslēpums, kas izveidots Microsoft Azure portālā reģistrētai lietojumprogrammai. Jūs saņēmāt šo informāciju iepriekš, veicot darbību [Lietojumprogrammas reģistrēšana Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Mērķa URL**: jūsu personāla vadības nosaukumvietas URL. Mērķa URL formāts ir:
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. Atlasiet **Saglabāt un aizvērt**.
+     Piemēram:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >Noteikti iekļaujiet rakstzīmi "**/**" vietrāža URL beigās, lai izvairītos no kļūdas saņemšanas.
+
+   - **Nomnieka ID**: Azure Active Directory (Azure AD) nomnieka ID.
+
+   - **AAD lietojumprogrammas ID**: lietojumprogrammas (klienta) ID, kas izveidots Microsoft Azure portālā reģistrētai lietojumprogrammai. Jūs saņēmāt šo informāciju iepriekš, veicot darbību [Lietojumprogrammas reģistrēšana Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+
+   - **AAD lietojumprogrammas noslēpums**: klienta noslēpums, kas izveidots Microsoft Azure portālā reģistrētai lietojumprogrammai. Jūs saņēmāt šo informāciju iepriekš, veicot darbību [Lietojumprogrammas reģistrēšana Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![Microsoft HR datu avots](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. Atlasiet **Saglabāt un aizvērt**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>Piešķiriet lietojumprogrammas atļaujas personāla vadībā
 
@@ -141,16 +165,16 @@ Piešķiriet atļaujas abām Azure AD lietojumprogrammām personāla vadībā:
 
 1. Personāla vadībā atveriet **Azure Active Directory lietojumprogrammu** lapu.
 
-2. Atlasiet **Jauns** , lai izveidotu jaunu lietojumprogrammas ierakstu:
+2. Atlasiet **Jauns**, lai izveidotu jaunu lietojumprogrammas ierakstu:
 
-    - Laukā **Klienta ID** , ievadiet Microsoft Azure portālā reģistrētās lietojumprogrammas klienta ID.
+    - Laukā **Klienta ID**, ievadiet Microsoft Azure portālā reģistrētās lietojumprogrammas klienta ID.
     - Laukā **Nosaukums** ievadiet Microsoft Azure portālā reģistrētās lietojumprogrammas nosaukumu.
     - Laukā **Lietotāja ID** atlasiet tā lietotāja ID, kam ir administratora atļaujas personāla vadībā un Power Apps vidē.
 
-3. Atlasiet **Jauns** , lai izveidotu otru lietojumprogrammas ierakstu:
+3. Atlasiet **Jauns**, lai izveidotu otru lietojumprogrammas ierakstu:
 
-    - **Klienta Id** : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Nosaukums** : Dynamics 365 HR Virtual Entity
+    - **Klienta Id**: f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Nosaukums**: Dynamics 365 HR Virtual Entity
     - Laukā **Lietotāja ID** atlasiet tā lietotāja ID, kam ir administratora atļaujas personāla vadībā un Power Apps vidē.
 
 ## <a name="generate-virtual-entities"></a>Virtuālo elementu ģenerēšana
@@ -162,7 +186,7 @@ Kad iestatīšana ir pabeigta, varat atlasīt virtuālos elementus, kurus vēlat
 2. Atlasiet cilni **Virtuālie elementi**.
 
 > [!NOTE]
-> Kad visa nepieciešamā uzstādīšana būs pabeigta, slēdzis **Iespējot virtuālo elementu** automātiski tiks iestatīts uz **Jā**. Ja slēdzis tiek iestatīts uz **Nē** , pārskatiet šā dokumenta iepriekšējās sadaļās norādītās darbības, lai nodrošinātu, ka visi priekšnosacījumu iestatīšana ir pabeigta.
+> Kad visa nepieciešamā uzstādīšana būs pabeigta, slēdzis **Iespējot virtuālo elementu** automātiski tiks iestatīts uz **Jā**. Ja slēdzis tiek iestatīts uz **Nē**, pārskatiet šā dokumenta iepriekšējās sadaļās norādītās darbības, lai nodrošinātu, ka visi priekšnosacījumu iestatīšana ir pabeigta.
 
 3. Atlasiet elementu vai elementus, kurus vēlaties ģenerēt pakalpojumā Common Data Service.
 

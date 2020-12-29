@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413988"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527367"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Debitoru portāla pielāgošana un izmantošana
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir aprakstītas dažādas lapas, kas pieejamas Debitoru portāla standarta variantā. Ir paskaidrots, ko dara lapas un kā tās var pielāgot.
 
 Debitora portāls standarta variantā piedāvā dažas tīmekļa lapas un darbības. Vietnes kartē zemāk ir sniegts pārskats par šīm tīmekļa lapām un darbībām, kā arī lomām, kas var veikt darbības.
 
-![![Debitoru portāla vietnes karte](media/customer-portal-site-map.png "Debitoru portāla vietnes karte")](media/customer-portal-site-map.png "Customer portal site map")
+![Debitoru portāla vietnes karte](media/customer-portal-site-map.png "Debitoru portāla vietnes karte")
 
 ## <a name="typical-customizations"></a>Parastie pielāgojumi
 
@@ -36,7 +38,7 @@ Tēmas zemāk palīdzēs jums uzzināt pamatinformāciju par Power Apps portāli
 
 - [Darbs ar veidnēm](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) — šajā tēmā sniegts vispārīgs pārskats par to, kā Power Apps portāli darbojas un kā varat veikt vienkāršus portālu pielāgojumus.
 - [Portāla satura pārvaldība](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) — šajā tēmā ir paskaidrots, kā varat pārvaldīt un pielāgot jūsu portālā redzamo saturu.
-- [CSS rediģēšana](https://docs.microsoft.com/powerapps/maker/portals/edit-css) — šī tēma palīdz izveidot sarežģītākus pielāgojumus jūsu portāla lietotāja interfeisam (UI).
+- [Rediģēt CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) — šī tēma palīdz izveidot sarežģītākus pielāgojumus jūsu portāla lietotāja interfeisam (UI).
 - [Dizaina izveide jūsu portālam](https://docs.microsoft.com/dynamics365/portals/create-theme) — šī tēma palīdz izveidot lietotāja interfeisa dizainu jūsu portālam.
 - [Portāla satura viegla izveide un eksponēšana](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) — šī tēma palīdz pārvaldīt pamatā esošos datus un elementus, ko izmantojat savam portālam.
 - [Kontaktpersonu konfigurēšana izmantošanai portālā](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) — šajā tēmā ir paskaidrots, kā izveidot un pielāgot lietotāju lomas un kā drošība un autentifikācija darbojas Power Apps portālos.
@@ -62,12 +64,12 @@ Tālāk ir norādītas standarta darbības pasūtījuma iesniegšanai no Debitor
     - **Pieprasījuma numurs** — ievadiet pasūtījuma pieprasījuma numuru. Šis lauks nav obligāts.
     - **Nosūtīt uz valsti/reģionu** — ievadiet valsti vai reģionu, uz kuru tiks nogādāti krājumi. Šis lauks tiek automātiski iestatīts lietotājiem, kuri nav administratori.
 
-    ![![Pasūtījuma informācijas lapa](media/customer-portal-order-information.png "Pasūtījuma informācijas lapa")](media/customer-portal-order-information.png "Order Information page")
+    ![Pasūtījuma informācijas lapa](media/customer-portal-order-information.png "Pasūtījuma informācijas lapa")
 
 1. Atlasiet **Nākamais**.
 1. Lapā **Krājumi** atlasiet **Pievienot krājumu**.
 
-    ![![Krājumu lapa](media/customer-portal-items.png "Krājumu lapa")](media/customer-portal-items.png "Items page")
+    ![Krājumu lapa](media/customer-portal-items.png "Krājumu lapa")
 
 1. Dialoglodziņā **Krājumu informācija** iestatiet tālak norādītos laukus.
 
@@ -76,14 +78,14 @@ Tālāk ir norādītas standarta darbības pasūtījuma iesniegšanai no Debitor
     - **Vienība** — norādiet mērvienību (piemēram, **ea.**, **kg** vai **kaste**).
     - **Prognozētā neto summa** — vērtība tiek aprēķināta kā krājuma paredzētā cena × atlasītās vienības daudzums.
 
-    ![![Dialoglodziņš Krājumu informācija](media/customer-portal-item-information.png "Dialoglodziņš Krājumu informācija")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Dialoglodziņš Krājumu informācija](media/customer-portal-item-information.png "Dialoglodziņš Krājumu informācija")
 
 1. Atlasiet **Labi**, lai pievienotu krājumu pasūtījumam.
 1. Atkārtojiet 4.–6. darbību, līdz esat pievienojis visus krājumus, ko vēlaties pasūtīt.
 1. Kad esat pabeidzis krājumu pievienošanu, lapā **Krājumi** atlasiet **Tālāk**.
 1. Lapā **Informācija par pasūtījumu** ir sniegts pasūtījuma kopsavilkums. Pārskatiet pasūtījuma saturu un informāciju par piegādi. Ja viss izskatās pareizi, atlasiet **Iesniegt**, lai iesniegtu pasūtījumu.
 
-    ![![Pasūtījuma informācijas lapa](media/customer-portal-order-submit.png "Pasūtījuma informācijas lapa")](media/customer-portal-order-submit.png "Order Information page")
+    ![Pasūtījuma informācijas lapa](media/customer-portal-order-submit.png "Pasūtījuma informācijas lapa")
 
 ### <a name="standard-data-setup"></a>Standarta datu iestatīšana
 
@@ -117,7 +119,7 @@ Varat brīvi modificēt Debitoru portāla izskatu un lietotāja interfeisu, ja n
 Nenoņemiet tālāk norādītos laukus no pārdošanas pasūtījuma elementa pakalpojumā Common Data Service, jo tie ir nepieciešami, lai izveidotu pārdošanas pasūtījumu duālajā ierakstā.
 
 - **Uzņēmums** — juridiskā persona, kam pieder pasūtījums
-- **Nosaukums** — pārdošanas pasūtījuma nosaukums
+- **Nosaukums** — pārdošanas pasūtījuma nosaukums
 - **Valūta** — cenas valūta
 - **Cenu saraksts** — debitoram pielāgoto cenu saraksts
 - **Nosūtīt uz valsti/reģionu** — valsti vai reģions, uz kuru tiks nogādāti krājumi
@@ -148,19 +150,19 @@ Visas Debitoru portālā esošās vadīklas ir iebūvētas Power Apps portālu v
 
 Tikai pielāgota vadīkla, kas ir iekļauta Debitoru portāla veidnē, tiek izmantota, lai izveidotu elementus sākumlapā.
 
-![![Elementi sākumlapā](media/customer-portal-home-page-tiles.png "Elementi sākumlapā")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Elementi sākumlapā](media/customer-portal-home-page-tiles.png "Elementi sākumlapā")
 
 Lai modificētu elementus, veiciet tālāk noradītās darbības.
 
 1. Atveriet [Portāla pārvaldības programma](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. Navigācijas rūtī kreisajā pusē atlasiet **Lapas veidnes**.
 
-    ![![Portāla pārvaldības navigācijas rūts](media/customer-portal-nav.png "Portāla pārvaldības navigācijas rūts")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Portāla pārvaldības navigācijas rūts](media/customer-portal-nav.png "Portāla pārvaldības navigācijas rūts")
 
 1. Atlasiet lapas veidni, kuras nosaukums ir **Sākums**.
 1. Laukā **Tīmekļa veidne** atlasiet saiti **Sākums**, lai atvērtu šīs lapas pirmkodu.
 
-    ![![Tīmekļa veidnes lauks](media/customer-portal-web-template.png "Tīmekļa veidnes lauks")](media/customer-portal-web-template.png "Web Template field")
+    ![Tīmekļa veidnes lauks](media/customer-portal-web-template.png "Tīmekļa veidnes lauks")
 
 1. Tagad jums vajadzētu redzēt visu šīs sākumlapas pirmkodu un varat to modificēt pēc vajadzības.
 

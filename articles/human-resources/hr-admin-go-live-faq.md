@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011428"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668949"
 ---
 # <a name="go-live-faq"></a>Bieži uzdotie jautājumi par palaišanu 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā uzskaitīti bieži uzdotie jautājumi par to, kā sākt strādāt ar Dynamics 365 Human Resources ieviešanas projektu. 
 
@@ -76,7 +78,7 @@ Datu bāzes tiek aizsargātas ar automātisko dublēšanu šādā biežumā:
 | Diferenciālā datu bāzes dublēšana | Ik pēc 12-24 stundām |
 | Darījumu žurnāla dublēšana | Ik pēc 5–10 minūtēm |
 
-Microsoft saglabā pietiekamu dublēšanu, lai nodrošinātu punkta laikā atjaunošanu (PITR) pēdējo septiņu dienu laikā. 
+Microsoft saglabā pietiekamu dublēšanu, lai nodrošinātu punkta laikā atjaunošanu (PITR) pēdējo 14 dienu laikā. 
 
 Plašāku informāciju skatiet  [Uzzināt par automātisko SQL datu bāzu dublēšanu](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 

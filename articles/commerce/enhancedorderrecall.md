@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974842"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665302"
 ---
 # <a name="recall-order-operation-in-pos"></a>Pasūtījuma operāciju atsaukšana punktā POS
 
 [!include [banner](includes/banner.md)]
 
-Pasūtījuma operāciju atsaukšana Commerce pārdošanas punktā (POS) nodrošina atjauninātus pasūtījuma meklēšanas un filtrēšanas līdzekļus un ar pasūtījumu saistītu informāciju. Šis līdzeklis ir pieejams Commerce versijās 10.0.15 un jaunākās.
+Darbība **Pasūtījuma atsaukšana** Commerce pārdošanas punktā (POS) nodrošina atjauninātus pasūtījuma meklēšanas un filtrēšanas līdzekļus un ar pasūtījumu saistītu informāciju. Šis līdzeklis ir pieejams Commerce versijās 10.0.15 un jaunākās.
 
 Lai iespējotu šo funkcionalitāti ieslēdziet līdzekli **Uzlabota pasūtījuma operāciju atsaukšana punktā POS**, kas atrodas **Līdzekļu pārvaldība** darbvietā, programmā Commerce Headquarters. Pēc līdzekļa iespējošanas, apsveriet iespēju atjaunināt [ekrāna izkārtojumus](pos-screen-layouts.md) punktā POS, lai izmantotu dažas no mainītajām iespējām.
 

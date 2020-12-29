@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979431"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666774"
 ---
 # <a name="order-promising"></a>Pasūtījumu solīšana
 
@@ -37,6 +37,12 @@ Pasūtījumu solīšana aprēķina agrākos nosūtīšanas un saņemšanas datum
 -   **ATP (pieejams solīšanai)** – ATP ir tas krājuma daudzums, kas ir pieejams un ko var apsolīt debitoram noteiktā datumā. ATP aprēķinā tiek iekļauti nesaistītie krājumi, izpildes laiki, plānotās ieejas plūsmas un izejas plūsmas.
 -   **ATP + Izejas plūsmas rezerve** – nosūtīšanas datums ir vienāds ar ATP datumu, pieskaitot krājuma izejas plūsmas rezervi. Izejas plūsmas rezerve ir laiks, kas ir nepieciešams, lai krājumus sagatavotu sūtīšanai.
 -   **CTP (iespējams solīšanai)** – pieejamība tiek aprēķināta, izmantojot izvēršanu.
+
+> [!NOTE]
+> Kad pārdošanas pasūtījums tiek atjaunināts, pasūtījuma solīšanas informācija tiek atjaunināta tikai tad, ja esošo pasūtījuma solīšanas datumu nevar izpildīt, kā parādīts sekojošajos piemēros:
+> 
+> - **1. piemērs**: pašreizējā pasūtījuma solīšanas datums ir 20. jūlijs, bet palielinātā daudzuma dēļ nevarēsiet piegādāt līdz 25. jūlijam. Tā kā pašreizējo datumu vairs nevar izpildīt, tiek izraisīta pasūtījumu solīšana.
+> -  **2. piemērs**: pašreizējā pasūtījuma solīšanas datums ir 20. jūlijs, bet samazinātā daudzuma dēļ tagad ir iespējams piegādāt 15. jūlijā. Tomēr, tā kā pašreizējo datumu joprojām var izpildīt, pasūtījumu solīšana netiek iedarbināta, un 20. jūlijs paliek pasūtījuma solīšanas datums.
 
 ## <a name="atp-calculations"></a>ATP aprēķini
 ATP daudzums tiek aprēķināts, izmantojot metodi “kopīgo ATP ar prognozējamo”. Šīs ATP aprēķināšanas metodes galvenā priekšrocība ir tāda, ka tā spēj tikt galā ar gadījumiem, kad izejas plūsmu summa ieejas plūsmās ir lielāka par pēdējo ieejas plūsmu (piemēram, ja ir jālieto daudzums no iepriekšējās ieejas plūsmas, lai atbilstu kādai prasībai). Aprēķina metode “kopīgo ATP ar prognozējamo” ietver visas izejas plūsmas, līdz kopīgais saņemamais daudzums pārsniedz kopīgo izsniedzamo daudzumu. Tāpēc šī ATP aprēķina metode novērtē, vai kaut ko no agrāka perioda daudzuma var lietot vēlākā periodā.  

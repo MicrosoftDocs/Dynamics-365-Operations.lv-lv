@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443422"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527865"
 ---
 # <a name="overview"></a>Pārskats
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šī administratora ceļvedis palīdz iestatīt, pārvaldīt un novērst problēmas Dynamics 365 Human Resources.
 
@@ -42,7 +44,7 @@ ms.locfileid: "3443422"
   - [Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
   - [Integrācijas konfigurēšana ar Finance](hr-admin-integration-finance.md)
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
-  - [Izveidot periodiskas datu eksportēšanas programmu](hr-admin-integration-recurring-data-export.md)
+  - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)
   - Integrācija ar Office
     - [Office integrēšanas apmācība](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Elementa datu atjaunināšana programmā Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -70,7 +72,7 @@ ms.locfileid: "3443422"
   - [Pielāgotu lauku izveide un darbs ar tiem](../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json)
   - [Iegult Microsoft Power Apps](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
   - [Informācijas meklēšana, izmantojot uzmeklēšanu](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
-  - [Mainīt sesijas datumu](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
+  - [Sesijas datuma maiņa](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
   - [Lietotāja izvēlētās laika joslas iestatīšana](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Pakalpojuma Lifecycle Services saprašana](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 

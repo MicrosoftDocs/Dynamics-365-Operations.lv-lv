@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645317"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528297"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Standarta ieviešanas gadījumā lietotājiem nav iespēju pašiem reģistrēties tīmekļa vietnēm, kas izveidotas, izmantojot Debitoru portālu. Lai pierakstītos tīmekļa vietnē un to izmantotu, administratoram lietotāji ir jāuzaicina. Korporācija Microsoft ar nolūku ir bloķējusi lietotāju pašu reģistrācijas iespēju.
 
@@ -64,7 +66,7 @@ Lietotāja lomas Power Apps portālos nosaka [tīmekļa lapas lomas](https://doc
 
 Šajā sadaļā ir aprakstītas tīmekļa lomas, kas tiek piegādātas ar Debitoru portālu.
 
-Plašāku informāciju par to, kā modificēt standarta lietotāja lomas skatiet sadaļā [Tīmekļa lomu izveide portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [Uz ierakstu balstītas drošības pievienošana, izmantojot elementa atļaujas portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)Power Apps portālu dokumentācijā.
+Plašāku informāciju par to, kā modificēt standarta lietotāja lomas skatiet sadaļā [Tīmekļa lomu izveide portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [Uz ierakstu balstītas drošības pievienošana, izmantojot elementa atļaujas portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Apps portālu dokumentācijā.
 
 #### <a name="administrator"></a>Administrators
 

@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056101"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527889"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrācija ar LinkedIn Talent Hub
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) ir kandidātu izsekošanas sistēmas (ATS) platforma. Tā ļauj jums izveidot, pārvaldīt un nolīgt darbiniekus vienuviet. Integrējot Microsoft Dynamics 365 Human Resources ar LinkedIn Talent Hub, varat viegli izveidot darbinieku ierakstus Human Resources kandidātiem, kuri ir nolīgti amatam.
 
@@ -99,7 +101,7 @@ Programmas lietotājam jāizveido LinkedIn Talent Hub adapteris, lai piešķirtu
     1. Mainiet lauka **Lietotāja veids** vērtību uz **Programmas lietotājs**.
     2. Iestatiet lauku **Lietotāja nosaukums** uz **Dynamics365 HR LinkedIn HRIS Integration**.
     3. Iestatiet lauku **Programmas ID** uz **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Ievadiet jebkuru vērtību laukos **Vārds** , **Uzvārds** un **Primārais e-pasts**.
+    4. Ievadiet jebkuru vērtību laukos **Vārds**, **Uzvārds** un **Primārais e-pasts**.
     5. Rīkjoslā atlasiet **Saglabāt \& Aizvērt**.
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Drošības lomas piešķiršana jaunajam lietotājam
@@ -121,9 +123,9 @@ Kad esat saglabājis un aizvēris jauno programmas lietotāju iepriekšējā sad
 1. Programmā Dynamics 365 Human Resources atveriet lapu **Azure Active Directory programmas**.
 2. Pievienojiet jaunu ierakstu sarakstam iestatiet tālāk norādītos laukus.
 
-    - **Klienta ID** : ievadiet **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    - **Nosaukums** : ievadiet Power Apps iepriekš izveidotās drošības lomas nosaukumu, piemēram, **LinkedIn Talent Hub HRIS integrācija**.
-    - **Lietotāja ID** : atlasiet lietotāju, kuram ir atļauja rakstīt datus Personāla vadībā.
+    - **Klienta ID**: ievadiet **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
+    - **Nosaukums**: ievadiet Power Apps iepriekš izveidotās drošības lomas nosaukumu, piemēram, **LinkedIn Talent Hub HRIS integrācija**.
+    - **Lietotāja ID**: atlasiet lietotāju, kuram ir atļauja rakstīt datus Personāla vadībā.
 
 ### <a name="create-the-entity-in-common-data-service"></a>Elementa izveide sistēmā Common Data Service
 
@@ -152,7 +154,7 @@ Kad kandidāts ir izgājis personāla atlases procesu un ir nolīgts, varat eksp
 
 3. Atlasiet **Mainīt posmu** un pēc tam atlasiet **Nolīgts**.
 
-4. Kandidāta izvēlnē Daudzpunkte ( **...** ) atlasiet opciju **Eksportēt uz HRIS**.
+4. Kandidāta izvēlnē Daudzpunkte (**...**) atlasiet opciju **Eksportēt uz HRIS**.
 
 5. Rūtī **Eksportēt uz HRIS** ievadiet informāciju, kas ir jāeksportē:
 

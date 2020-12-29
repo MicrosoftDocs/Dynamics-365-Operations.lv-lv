@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533394"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517310"
 ---
 # <a name="enable-location-based-store-detection"></a>Veikala noteikšanas iespējošana pēc atrašanās vietas
 
@@ -52,11 +52,11 @@ Lai ieslēgtu uz atrašanās vietu balstītu veikala atrašanu Commerce, veiciet
 
 [Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
-[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+[Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-[Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+[Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
 
 [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 

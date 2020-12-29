@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431272"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527923"
 ---
 # <a name="configure-integration-with-finance"></a>Integrācijas konfigurēšana ar Finance
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Lai integrētu Dynamics 365 Human Resources ar Dynamics 365 Finance, varat izmantot veidni No Human Resources uz Finance [datu integratorā](https://docs.microsoft.com/powerapps/administrator/data-integrator). Cilvēkresursu finansēšanas veidne ļauj datu plūsmu darbiem, amatiem un darbiniekiem. Šī veidne ļauj datiem no Human Resources plūst uz Finance, bet neļauj datiem plūst no Finance uz Human Resources.
 

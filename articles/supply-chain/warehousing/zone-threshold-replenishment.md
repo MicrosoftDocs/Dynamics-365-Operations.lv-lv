@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017326"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654176"
 ---
 # <a name="zone-threshold-replenishment"></a>Zonas sliekšņa papildināšana
 
@@ -41,7 +41,7 @@ Atšķirībā no uz novietojumu pamatotas min./maks. papildināšanas, uz zonu p
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Līdzekļa Zonas sliekšņa papildināšana ieslēgšana
 
-Lai varētu izmantot līdzekli *Zonas sliekšņa papildināšana* , tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+Lai varētu izmantot līdzekli *Zonas sliekšņa papildināšana*, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu, ja nepieciešams. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Noliktavas vadība*
 - **Līdzekļa nosaukums:** *Zonas sliekšņa papildināšana*
@@ -70,7 +70,7 @@ Lai skatītu vai rediģētu direktīvas kodus, dodieties uz **Noliktavas pārval
     - **Direktīvas kods:** _Zonas papild._
     - **Direktīvas apraksts:** _Zonas papildināšana_
 
-1. Atlasiet **Saglabāt** , lai saglabātu jauno kodu.
+1. Atlasiet **Saglabāt**, lai saglabātu jauno kodu.
 
 ### <a name="set-up-replenishment-templates"></a>Iestatīt papildināšanas veidnes
 
@@ -86,7 +86,7 @@ Papildināšanas veidne ir kārtulu kopa, kas kontrolē novietojuma papildināš
 
 1. Atlasiet **USMF** juridisko personu, lai strādātu ar demonstrācijas datiem.
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Papildināšana \> Papildināšanas veidnes**.
-1. Darbību rūtī atlasiet **Rediģēt** , lai lapu padarītu rediģējamu.
+1. Darbību rūtī atlasiet **Rediģēt**, lai lapu padarītu rediģējamu.
 1. Lai režģim **Pārskats** pievienotu rindu, darbību rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības. Pieņemiet noklusējuma vērtības visiem pārējiem laukiem.
 
@@ -95,14 +95,14 @@ Papildināšanas veidne ir kārtulu kopa, kas kontrolē novietojuma papildināš
     - **Papildināšanas veids:** _Minimums vai maksimums_
 
 1. Atlasiet **Saglabāt**.
-1. Kamēr jaunā rinda vēl ir atlasīta režģī **Pārskats** , atlasiet vērtību **Jauns** virs režģa **Detalizēta informācija par papildināšanas veidni** , lai pievienotu rindu, kas ir saistīta ar tikko izveidoto papildināšanas veidni *Zonas min./maks. papild.*
+1. Kamēr jaunā rinda vēl ir atlasīta režģī **Pārskats**, atlasiet vērtību **Jauns** virs režģa **Detalizēta informācija par papildināšanas veidni**, lai pievienotu rindu, kas ir saistīta ar tikko izveidoto papildināšanas veidni *Zonas min./maks. papild.*
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kārtas numurs:** ievadiet _1_.
     - **Apraksts:** ievadiet _Izdošanas zonas papildināšana_.
     - **Papildināšanas vienība:** atlasiet _ea_.
     - **Pieprasījuma veids:** atstājiet šo lauku tukšu.
-    - **Direktīvas kods:** šis lauks saista papildināšanas veidni ar novietojuma direktīvu. Atlasiet iepriekš izveidoto demonstrācijas datu direktīvas kodu ( _Zonas papild._ )
+    - **Direktīvas kods:** šis lauks saista papildināšanas veidni ar novietojuma direktīvu. Atlasiet iepriekš izveidoto demonstrācijas datu direktīvas kodu (_Zonas papild._)
     - **Darba veidne:** Atstājiet šo lauku tukšu.
     - **Minimālais daudzums:** šajā laukā tiek iestatīts daudzums, saistībā ar kuru tiek aktivizēta papildināšana. Ievadiet _50_.
     - **Maksimālais daudzums:** šajā laukā tiek iestatīts maksimālais krājuma daudzums, kāds var būt zonā. Ģenerētais papildināšanas darbs palielinās krājumus līdz šim daudzumam. Ievadiet _150_.
@@ -115,7 +115,7 @@ Papildināšanas veidne ir kārtulu kopa, kas kontrolē novietojuma papildināš
     - **Noliktava:** atlasiet _61_.
 
 1. Atlasiet opciju **Atlasīt produktus** virs režģa **Detalizēta informācija par papildināšanas veidni**.
-1. Dialoglodziņā **Produkta vaicājums** cilnē **Diapazon** atlasiet **Pievienot** , lai pievienotu rindu režģim.
+1. Dialoglodziņā **Produkta vaicājums** cilnē **Diapazon** atlasiet **Pievienot**, lai pievienotu rindu režģim.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** _Krājums_
@@ -123,7 +123,7 @@ Papildināšanas veidne ir kārtulu kopa, kas kontrolē novietojuma papildināš
     - **Lauks:** _Krājuma numurs_
     - **Kritēriji:** _A0001_
 
-1. Atlasiet **Labi** , lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
 1. Atlasiet opciju **Atlasīt papildināmās zonas** virs režģa **Detalizēta informācija par papildināšanas veidni**.
 1. Dialoglodziņā **Zonas vaicājums** cilnē **Diapazons** pievienojiet rindu režģim.
 1. Jaunajā rindā iestatiet šādas vērtības:
@@ -133,7 +133,7 @@ Papildināšanas veidne ir kārtulu kopa, kas kontrolē novietojuma papildināš
     - **Lauks:** _Zonas ID_
     - **Kritēriji:** _FLOOR_
 
-1. Atlasiet **Labi** , lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Labi**, lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
 
 ### <a name="set-up-location-directives"></a>Iestatīt novietojuma direktīvas
 
@@ -165,8 +165,8 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Direktīvas kods:** atstājiet šo lauku tukšu.
     - **Vairāki SKU:** opcijai iestatiet vērtību _Nē_.
 
-1. Atlasiet **Saglabāt** , lai izveidotu direktīvu, kurai ir jūsu līdz šim brīdim izveidotie iestatījumi.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , lai pievienotu režģim rindu.
+1. Atlasiet **Saglabāt**, lai izveidotu direktīvu, kurai ir jūsu līdz šim brīdim izveidotie iestatījumi.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kārtas numurs:** ievadiet _1_.
@@ -179,8 +179,8 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Meklēt iepakojuma daudzumu:** notīriet šo izvēles rūtiņu.
     - **Atļaut sadali:** atlasiet šo izvēles rūtiņu.
 
-1. Atlasiet **Saglabāt** , lai saglabātu jauno rindu.
-1. Kamēr jūsu jaunā rinda vēl ir atlasīta režģī **Rindas** , kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns** , lai režģim pievienotu rindu.
+1. Atlasiet **Saglabāt**, lai saglabātu jauno rindu.
+1. Kamēr jūsu jaunā rinda vēl ir atlasīta režģī **Rindas**, kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kārtas numurs:** ievadiet _1_.
@@ -190,9 +190,9 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Partija iespējota:** notīriet šo izvēles rūtiņu.
     - **Stratēģija:** atlasiet _Nav_.
 
-1. Atlasiet **Saglabāt** , lai saglabātu jauno darbību.
+1. Atlasiet **Saglabāt**, lai saglabātu jauno darbību.
 1. Kamēr jaunā darbība vēl ir atlasīta, atlasiet **Rediģēt vaicājumu** virs režģa **Novietojuma direktīvas darbības**.
-1. Tiks parādīts dialoglodziņš, kurā varat atlasīt novietojumus, no kuriem papildināt. Cilnē **Diapazons** atlasiet **Pievienot** , lai režģim pievienotu rindu.
+1. Tiks parādīts dialoglodziņš, kurā varat atlasīt novietojumus, no kuriem papildināt. Cilnē **Diapazons** atlasiet **Pievienot**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** _Novietojumi_
@@ -200,8 +200,8 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Lauks:** _Zonas ID_
     - **Kritēriji:** _LIELAPJOMA_
 
-1. Atlasiet **Labi** , lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
-1. Atlasiet **Saglabāt** , lai saglabātu novietojuma direktīvu.
+1. Atlasiet **Labi**, lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Saglabāt**, lai saglabātu novietojuma direktīvu.
 
 ##### <a name="create-a-replenishment-put-directive"></a>Papildināšanas izvietošanas direktīvas izveide
 
@@ -214,11 +214,11 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Darba pasūtījuma veids:** atlasiet _Izvietošana_.
     - **Vieta:** atlasiet _6_.
     - **Noliktava:** atlasiet _61_.
-    - **Direktīvas kods**  — atlasiet _Zonas papild._ , lai saistītu novietojuma direktīvu ar papildināšanas veidni, ko izveidojāt iepriekš, izmantojot iepriekš izveidoto kodu.
+    - **Direktīvas kods** — atlasiet _Zonas papild._, lai saistītu novietojuma direktīvu ar papildināšanas veidni, ko izveidojāt iepriekš, izmantojot iepriekš izveidoto kodu.
     - **Vairāki SKU:** opcijai iestatiet vērtību _Nē_.
 
-1. Atlasiet **Saglabāt** , lai izveidotu direktīvu, kurai ir jūsu līdz šim brīdim izveidotie iestatījumi.
-1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns** , lai pievienotu režģim rindu.
+1. Atlasiet **Saglabāt**, lai izveidotu direktīvu, kurai ir jūsu līdz šim brīdim izveidotie iestatījumi.
+1. Kopsavilkuma cilnē **Rindas** atlasiet **Jauns**, lai pievienotu režģim rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kārtas numurs:** ievadiet _1_.
@@ -231,8 +231,8 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Meklēt iepakojuma daudzumu:** notīriet šo izvēles rūtiņu.
     - **Atļaut sadali:** atlasiet šo izvēles rūtiņu.
 
-1. Atlasiet **Saglabāt** , lai saglabātu jauno rindu.
-1. Kamēr jūsu jaunā rinda vēl ir atlasīta režģī **Rindas** , kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns** , lai režģim pievienotu rindu.
+1. Atlasiet **Saglabāt**, lai saglabātu jauno rindu.
+1. Kamēr jūsu jaunā rinda vēl ir atlasīta režģī **Rindas**, kopsavilkuma cilnē **Novietojuma direktīvas darbības** atlasiet **Jauns**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Kārtas numurs:** ievadiet _1_.
@@ -242,9 +242,9 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Partija iespējota:** notīriet šo izvēles rūtiņu.
     - **Stratēģija:** atlasiet _Konsolidēt_.
 
-1. Atlasiet **Saglabāt** , lai saglabātu jauno darbību.
+1. Atlasiet **Saglabāt**, lai saglabātu jauno darbību.
 1. Kamēr jaunā darbība vēl ir atlasīta, atlasiet **Rediģēt vaicājumu** virs režģa **Novietojuma direktīvas darbības**.
-1. Tiks parādīts dialoglodziņš, kurā varat atlasīt papildināmo zonu. Šai zonai ir jābūt tai pašai zonai, kas norādīta papildināšanas veidnē. Cilnē **Diapazons** atlasiet **Pievienot** , lai režģim pievienotu rindu.
+1. Tiks parādīts dialoglodziņš, kurā varat atlasīt papildināmo zonu. Šai zonai ir jābūt tai pašai zonai, kas norādīta papildināšanas veidnē. Cilnē **Diapazons** atlasiet **Pievienot**, lai režģim pievienotu rindu.
 1. Jaunajā rindā iestatiet šādas vērtības:
 
     - **Tabula:** _Novietojumi_
@@ -252,8 +252,8 @@ Lai sagatavotu demonstrācijas datus tā, ka tos var izmantot scenārijā šīs 
     - **Lauks:** _Zonas ID_
     - **Kritēriji:** _FLOOR_
 
-1. Atlasiet **Labi** , lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
-1. Atlasiet **Saglabāt** , lai saglabātu novietojuma direktīvu.
+1. Atlasiet **Labi**, lai saglabātu jūsu vaicājumu un aizvērtu dialoglodziņu.
+1. Atlasiet **Saglabāt**, lai saglabātu novietojuma direktīvu.
 
 ## <a name="scenario"></a>Scenārijs
 
@@ -275,15 +275,15 @@ Kad atlasīsit **USMF** juridisko vienību, pievienojiet nepieciešamos papildu 
 
 Izpildiet šīs darbības, lai pārliecinātos, vai jūsu sistēmā ir iekļauti pietiekami daudz krājumu, kas nepieciešami parauga scenārija atbalstīšanai.
 
-1. Pārbaudiet, vai rīcībā ir krājumi krājumam *A0001* divos dažādos novietojumos izdošanas zonā ( *FLOOR* ), kas ir norādīta papildināšanas veidnē. Tomēr kopējiem krājumiem ir jābūt mazākiem par nepieciešamo minimālo daudzumu ( *50* ), kas norādīts papildināšanas veidnē. Šādi varat simulēt, kā notiek aprēķini visai zonai, nevis tikai vienam atsevišķam novietojumam. **Izmantojiet jebkuru no noliktavas procesiem, lai pēc nepieciešamības koriģētu krājumus.**
-1. Pārliecinieties, vai krājumam *A0001* ir pietiekami daudz krājumu lielapjoma novietojumā, kas norādīts zonas izdošanas novietojuma direktīvā, kur papildināšanas darbam ir jāpaņem krājumi no zonas ID *BULK*. Kopējiem krājumiem ir jābūt lielākiem par nepieciešamo maksimālo daudzumu ( *150* ), kas norādīts papildināšanas veidnē.
+1. Pārbaudiet, vai rīcībā ir krājumi krājumam *A0001* divos dažādos novietojumos izdošanas zonā (*FLOOR*), kas ir norādīta papildināšanas veidnē. Tomēr kopējiem krājumiem ir jābūt mazākiem par nepieciešamo minimālo daudzumu (*50*), kas norādīts papildināšanas veidnē. Šādi varat simulēt, kā notiek aprēķini visai zonai, nevis tikai vienam atsevišķam novietojumam. **Izmantojiet jebkuru no noliktavas procesiem, lai pēc nepieciešamības koriģētu krājumus.**
+1. Pārliecinieties, vai krājumam *A0001* ir pietiekami daudz krājumu lielapjoma novietojumā, kas norādīts zonas izdošanas novietojuma direktīvā, kur papildināšanas darbam ir jāpaņem krājumi no zonas ID *BULK*. Kopējiem krājumiem ir jābūt lielākiem par nepieciešamo maksimālo daudzumu (*150*), kas norādīts papildināšanas veidnē.
 1. Ieteicama izvēles iespēja: izpildiet šīs darbības, lai izveidotu krājumu korekcijas žurnālu.
 
     1. Dodieties uz **Krājumu pārvaldība \> Žurnāla ieraksti \> Krājumi \> Krājumu korekcija**.
     1. Atlasiet **Jauns**.
     1. Dialoglodziņā **Krājumu žurnāla izveide** laukā **Noliktava** atlasiet *61*.
     1. Atlasiet **Labi**.
-    1. Kopsavilkuma cilnē **Žurnāla rindas** izmantojiet pogu **Jauns** , lai režģim pievienotu trīs rindas un iestatītu tālāk norādītās vērtības. Pēc katras rindas iestatīšanas beigām atlasiet **Saglabāt**.
+    1. Kopsavilkuma cilnē **Žurnāla rindas** izmantojiet pogu **Jauns**, lai režģim pievienotu trīs rindas un iestatītu tālāk norādītās vērtības. Pēc katras rindas iestatīšanas beigām atlasiet **Saglabāt**.
 
         - **1. rinda**
 
@@ -291,7 +291,7 @@ Izpildiet šīs darbības, lai pārliecinātos, vai jūsu sistēmā ir iekļauti
             - **Vieta:** *6*
             - **Noliktava:** *61*
             - **Novietojums:** *02A01R1S1B*
-            - **Unikāla noliktavas vienība**  — sarakstā atlasiet esošu unikālu noliktavas vienību sarakstā vai izveidojiet jaunu unikālu noliktavas vienību.
+            - **Unikāla noliktavas vienība** — sarakstā atlasiet esošu unikālu noliktavas vienību sarakstā vai izveidojiet jaunu unikālu noliktavas vienību.
             - **Daudzums:** *1000*
 
         - **2. rinda**
@@ -300,7 +300,7 @@ Izpildiet šīs darbības, lai pārliecinātos, vai jūsu sistēmā ir iekļauti
             - **Vieta:** *6*
             - **Noliktava:** *61*
             - **Novietojums:** *07A01R2S1B*
-            - **Unikāla noliktavas vienība**  — sarakstā atlasiet esošu unikālu noliktavas vienību sarakstā vai izveidojiet jaunu unikālu noliktavas vienību.
+            - **Unikāla noliktavas vienība** — sarakstā atlasiet esošu unikālu noliktavas vienību sarakstā vai izveidojiet jaunu unikālu noliktavas vienību.
             - **Daudzums:** *15*
 
         - **3. rinda**
@@ -309,11 +309,11 @@ Izpildiet šīs darbības, lai pārliecinātos, vai jūsu sistēmā ir iekļauti
             - **Vieta:** *6*
             - **Noliktava:** *61*
             - **Novietojums:** *07A01R1S1B*
-            - **Unikāla noliktavas vienība**  — sarakstā atlasiet esošu unikālu noliktavas vienību sarakstā vai izveidojiet jaunu unikālu noliktavas vienību.
+            - **Unikāla noliktavas vienība** — sarakstā atlasiet esošu unikālu noliktavas vienību sarakstā vai izveidojiet jaunu unikālu noliktavas vienību.
             - **Daudzums:** *10*
 
     1. Darbību rūtī atlasiet **Pārbaudīt**. Pirms pāriešanas uz nākamo soli novērsiet visas atrastās kļūdas.
-    1. Darbību rūtī atlasiet **Grāmatot** , lai noliktavā grāmatotu krājumus.
+    1. Darbību rūtī atlasiet **Grāmatot**, lai noliktavā grāmatotu krājumus.
 
 ### <a name="sample-scenario-run-zone-based-minmax-replenishment"></a>Parauga scenārijs: uz zonas pamatotas min./maks. papildināšanas izpilde
 
@@ -328,8 +328,8 @@ Kad ir ievietoti visi priekšnosacījuma parauga dati, varat aktivizēt papildin
     - **Lauks:** atlasiet _Papildināšanas veidne_.
     - **Kritēriji:** atlasiet _Zonas min./maks. papild._ Šī papildināšanas veidne ir tā papildināšanas veidne, kuru izveidojāt, kad šim scenārijam sagatavojāt demonstrācijas datus.
 
-1. Atlasiet **Labi** , lai saglabātu vaicājumu, un dodieties atpakaļ uz dialoglodziņu **Papildināšana**.
-1. Atlasiet **Labi** , lai palaistu papildināšanas veidni.
+1. Atlasiet **Labi**, lai saglabātu vaicājumu, un dodieties atpakaļ uz dialoglodziņu **Papildināšana**.
+1. Atlasiet **Labi**, lai palaistu papildināšanas veidni.
 
 Papildināšanas darbs tagad ir izveidots, lai izdotu krājumus no zonas *BULK* un papildinātu zonu *FLOOR*.
 

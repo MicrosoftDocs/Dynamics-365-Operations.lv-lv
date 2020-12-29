@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e37777b8000fb3afbc72ff9c61347085816e36c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431226"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527800"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā rakstā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana Microsoft Dynamics 365 Human Resources. Šajā rakstā tiek pieņemts, ka esat iegādājies Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Human Resources pakalpojumu plāns, un nevarat izpildīt šajā rakstā aprakstītās darbības, sazinieties ar atbalsta dienestu.
 

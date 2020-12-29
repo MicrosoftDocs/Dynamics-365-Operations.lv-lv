@@ -1,5 +1,5 @@
 ---
-title: " Zvanu centra pasūtījumu izveide"
+title: Zvanu centra pasūtījumu izveide
 description: Šajā procedūrā parādīts, kā meklēt debitoru, izveidot jaunu pasūtījumu, meklēt preci un iekasēt maksājumu no debitora.
 author: josaw1
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107356"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594240"
 ---
-# <a name="create-call-center-orders"></a> Zvanu centra pasūtījumu izveide
+# <a name="create-call-center-orders"></a>Zvanu centra pasūtījumu izveide
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "4107356"
 9. Atlasiet preci, ko pievienot pārdošanas pasūtījumam.
 10. Ievadiet pārdodamo daudzumu.
 11. Atlasiet **Izveidot**.
-12. Atlasiet **Pabeigt** , lai iekasētu no debitora maksājumu.
+12. Atlasiet **Pabeigt**, lai iekasētu no debitora maksājumu.
 13. Atlasiet **Pievienot**.
     * Sadaļa Pievienot saiti ir pieejama cilnē Maksājumi. Izvērsiet cilni Maksājumi, ja tā ir sakļauta.  
 14. Atlasiet maksāšanas metodi.
@@ -55,4 +55,10 @@ ms.locfileid: "4107356"
     * Lai veiktu šo procedūru, ievadiet summu, kas ir vienāda ar pasūtījuma bilanci, kuru var redzēt lapā Pārdošanas pasūtījumu kopsavilkums pa kreisi no summas lauka. Šī darbība ļaus izpildīt pasūtījumu kā pilnībā apmaksātu.  
 17. Atlasiet **Labi**.
 18. Atlasiet **Iesniegt**.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida](../customize-email-delivery-mode.md)
+
+[Piegādes veida mainīšana programmā POS](../pos-change-delivery-mode.md)
 

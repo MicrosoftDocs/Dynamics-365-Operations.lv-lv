@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fc0490e3532dcbb9c1e91101009b2d4605315416
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097048"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594216"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Augšupielādēt failus, kas nav attēli un video
 
@@ -79,7 +79,7 @@ Tiek atbalstīti šādi dokumentu veidi:
 Lai Commerce vietnes veidotāju augšupielādētu failu, veiciet tālāk norādītās darbības.
 
 1. Kreisās puses navigācijas rūtī atlasiet **Mediju bibliotēka**.
-1. Komandu joslā atlasiet **Augšupielādēt \>Augšupielādēt mediju vienumus**.
+1. Komandu joslā atlasiet **Augšupielādēt \> Augšupielādēt mediju vienumus**.
 1. Failu pārlūkā atlasiet vienu vai vairākus failus un pēc tam atlasiet **Atvērt**.
 1. Dialoglodziņā **Augšupielādēt multivides vienumu** pēc nepieciešamības ievadiet nosaukumu, aprakstu un atslēgvārdu metadatus.
 1. Lai publicētu failus tūlīt pēc augšupielādes, atzīmējiet izvēles rūtiņu **Publicēt multivides vienumus pēc augšupielādes**.
@@ -89,10 +89,12 @@ Lai Commerce vietnes veidotāju augšupielādētu failu, veiciet tālāk norād�
 
 [Digitālo līdzekļu pārvaldības pārskats](dam-overview.md)
 
-[Augšupielādēt attēlus](dam-upload-images.md)
+[Attēlu augšupielāde](dam-upload-images.md)
 
-[Augšupielādēt video](dam-upload-video.md)
+[Videoklipu augšupielāde](dam-upload-video.md)
 
-[Apgriezt attēlus](dam-crop-images.md)
+[Attēlu apgriešana](dam-crop-images.md)
 
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
+
+[Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)

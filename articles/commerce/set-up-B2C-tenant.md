@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980968"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517384"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -55,7 +55,7 @@ Dynamics 365 Commerce izmanto Azure AD B2C, lai atbalstītu lietotāja akreditā
 
      - **Saistīt esošu Azure AD B2C nomnieku uz manu Azure abonementu**: lietojiet šo opciju, ja jums jau ir Azure AD B2C nomnieks, ar kuru vēlaties veidot saiti.
         1. Atlasiet **Saistīt esošu Azure AD B2C nomnieku uz manu Azure abonementu**.
-        1. Sadaļā **Azure AD B2C nomnieks**atlasiet atbilstošo B2C nomnieku. Ja atlasīšanas lodziņā tiek parādīts ziņojums "Nevar atrast piemērotus B2C nomniekus", jums nav esoša piemērota B2C nomnieka, un jums būs jāizveido jauns.
+        1. Sadaļā **Azure AD B2C nomnieks** atlasiet atbilstošo B2C nomnieku. Ja atlasīšanas lodziņā tiek parādīts ziņojums "Nevar atrast piemērotus B2C nomniekus", jums nav esoša piemērota B2C nomnieka, un jums būs jāizveido jauns.
         1. Sadaļā **Resursu grupa** atlasiet **Izveidot jaunu**. Ievadiet **Nosaukumu** resursu grupai, kurā būs nomnieks, atlasiet **Resursu grupas atrašanās vietu** un pēc tam atlasiet **Izveidot**.
 
     ![Saistīt esošu Azure AD B2C nomnieku uz Azure abonementu](./media/B2CImage_3.png)
@@ -237,7 +237,7 @@ Pēc tam, kad iepriekšminētās Azure AD B2C nodrošināšanas darbības ir pab
 Lai atjauninātu programmu Headquarters ar jauno Azure AD B2C informāciju, veiciet sekojošās darbības.
 
 1. Programmā Commerce dodieties uz **Commerce koplietotie parametri** un atlasiet **Identitātes nodrošinātāji** kreisajā izvēlnē.
-1. Sadaļā **identitātes nodrošinātāji**veiciet sekojošās darbības:
+1. Sadaļā **identitātes nodrošinātāji** veiciet sekojošās darbības:
     1. Lodziņā **Izdevējs** ievadiet identitātes nodrošinātāja izdevēja URL. Lai atrastu savu izdevēja URL, zemāk skatiet [Iegūt izdevēja URL](#obtain-issuer-url).
     1. Lodziņā **Nosaukums** ievadiet izdevēja ieraksta nosaukumu.
     1. Lodziņā **Veids** ievadiet **Azure AD B2C (id_token)**.
@@ -323,7 +323,7 @@ Lai saistītu B2C lietojumprogrammu ar jūsu vietni un kanālu, sekojiet šīm d
 1. Zem **Vietas iestatījumiem** atlasiet **Kanāli**.
 1. Galvenajā logā zem **Kanāli** atlasiet kanālu.
 1. Cilnes kanāla rekvizītos labajā pusē atlasiet savu B2C lietojumprogrammas nosaukumu no nolaižamās izvēlnes **Atlasīt B2C lietojumprogrammu**.
-1. Atlasiet **Aizvērt**un pēc tam atlasiet **Saglabāt un publicēt**.
+1. Atlasiet **Aizvērt** un pēc tam atlasiet **Saglabāt un publicēt**.
 
 ## <a name="additional-b2c-information"></a>B2C papildinformācija
 
@@ -345,15 +345,15 @@ Papildu administratora kontu var pievienot jūsu B2C nomnieka **Lietotāji** sad
 
 [Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
-[Jaunas e-komercijas vietnes izvietošana](deploy-ecommerce-site.md)
+[Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
 [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
-[Tiešsaistes vietnes saistīšana ar kanālu](associate-site-online-store.md)
+[Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
 
 [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 
-[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
+[URL novirzes augšuplāde lielapjomā](upload-bulk-redirects.md)Saistīt Dynamics 365 Commerce vietni ar tiešsaistes kanālu
 
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
 

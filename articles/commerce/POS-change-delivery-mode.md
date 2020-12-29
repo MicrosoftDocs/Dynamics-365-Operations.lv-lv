@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975101"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594141"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Mainīt piegādes veidu punktā POS
 
@@ -40,4 +40,10 @@ Pēc tam, kad šī funkcija ir konfigurēta POS, kad atlasāt **Mainīt piegāde
 
 Pēc tam, kad atlasāt rindas, kuras vēlaties mainīt, noklikšķiniet uz **Mainīt piegādes veidu**, lai tiktu piedāvāts izvēlēties piegādes veida opcijas. Ja atlasījāt vairākas rindas, ko mainīt, punktā POS tiek rādīti tikai piegādes veidi, kas ir konfigurēti kā atļaujami visām atlasītajām precēm. Piegādes veidus var konfigurēt, lai atbalstītu noteiktas preces un piegādes adreses. Ja ir piegādes veids, kas ir pieņemams vienai precei un adreses kombinācijai, bet nav pieņemams citai izvēlētai preces un adreses kombinācijai, piegādes veids nav pieejams. Pastāv iespēja, ka rindas jāizvēlas pa vienai, un katrai rindai jāmaina piegādes veids, ja vēlaties atlasīt piegādes veidu vienai precei, ko neatbalsta cita prece.  
 
-Pēc jauna piegādes veida atlases tiek parādīta transakciju lapa. Lai pārskatītu jaunās piegādes veida atlases, atlasiet cilni **Piegāde** transakciju sarakstā.   
+Pēc jauna piegādes veida atlases tiek parādīta transakciju lapa. Lai pārskatītu jaunās piegādes veida atlases, atlasiet cilni **Piegāde** transakciju sarakstā.
+
+## <a name="additional-resources"></a>Papildu resursi
+
+[Zvanu centra pasūtījumu izveide](tasks/create-call-center-orders.md)
+
+[Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida](customize-email-delivery-mode.md)

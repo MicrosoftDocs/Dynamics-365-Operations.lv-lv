@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896938"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528223"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Talent (2019. gada 2. aprīlis)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
@@ -54,8 +56,8 @@ Programmā Attract un Onboard problēmas, kuras lietotāji ir reģistrējuši, i
 ## <a name="changes-in-core-hr"></a>Izmaiņas programmā Core HR
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2216.
 
-### <a name="platform-update-25-for-finance-and-operations"></a>Finance and Operations Platform update 25
-Papildinformāciju par atjauninājumu Finance and Operations Platform update 25 skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform update 25 (2019. gada aprīlis)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 for Finance and Operations
+Papildinformāciju par atjauninājumu Platform Update 25 Finance and Operations skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 for Finance and Operations Platform Update 25 (2019. gada aprīlis)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Papildu atlīdzības drošība (fiksētā un mainīgā)
 Daudzās organizācijās atlīdzību un atvieglojumu pārvaldnieki var piekļūt tikai noteiktiem atlīdzības ierakstiem. To klāstā varētu ietilpt ieraksti vadītājiem vai reģionālajiem darbiniekiem. Šī izmaiņa sniedz iespēju personāla vadībai pārvaldīt un uzturēt atlīdzības plānus dažādām darbinieku grupām organizācijā. Fiksētajiem un mainīgajiem plāniem varat piešķirt drošības lomas. Šīs drošības lomas nosaka piekļuvi plāniem un saistītajiem darbinieku datiem, piemēram, algu vai prēmiju ierakstiem, lai atlīdzību darbinieku grupām varētu apstrādāt tikai attiecīgās lomas.
@@ -77,4 +79,4 @@ Organizācijām var būt nepieciešami iemeslu kodi noteiktiem atvaļinājumu ti
 Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vārda/uzvārda/nosaukuma laukus, un statuss parāda atrasto dublikātu skaitu. Varat atlasīt norādīto saiti, lai atvērtu jaunu lapu, kur novērtēt, vai atrastā atbilstība ir jāizmanto. Lai izvairītos no datu ievades pārtraukšanas, dublikātu forma netiek atvērta automātiski.
 
 ###  <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
-Līdz ar Finance and Operations atjauninājuma Platform update 25 ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 
+Līdz ar platformas atjauninājumu 25 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē. 

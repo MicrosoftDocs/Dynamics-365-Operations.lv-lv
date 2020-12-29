@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897515"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529712"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent (2019. gada 6. maijs)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Talent.
 
@@ -43,9 +45,9 @@ Kad atlasāt piedāvājuma pakotnes veidni, programma Attract tagad parāda uzve
 
 Šajā sadaļā aprakstītās izmaiņas attiecas uz būvējumu Nr. 8.1.2282. Dažos virsrakstos redzamie numuri iekavās attiecas uz atbalsta numuriem portālā Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operations Platform update 26
+### <a name="platform-update-26-for-finance-and-operations"></a>Platform update 26 for Finance and Operations
 
-Papildinformāciju par atjauninājumu Finance and Operations Platform update 26 skatiet rakstā [Priekšskatījuma līdzekļi Dynamics 365 Finance and Operations Platform update 26 (2019. gada maijs)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Papildinformāciju par atjauninājumu Platform update 26 programmai Finance and Operations skatiet rakstā [Priekšskatījuma līdzekļi versijā Dynamics 365 Finance and Operations Platform update 26 (2019. gada maijs)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service elementu atbalsts pielāgotajiem laukiem
 

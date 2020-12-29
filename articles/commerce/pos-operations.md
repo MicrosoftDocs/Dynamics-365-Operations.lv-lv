@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081343"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594117"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -197,6 +197,8 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 500 | Anulēt darījumu | Anulēt pašreizējo transakciju. | Jā | Jā | Nē | Jā | Nē |
 | 916 | Windows darbplūsmas pamats | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nē |
 | 924 | X pārskats bankas kartēm | Šī operācija netiek atbalstīta. | Nav attiecināms | Nav attiecināms | Nav attiecināms | Nav attiecināms | Jā |
+| 311 | Noņemt sistēmas atlaides no darījumiem | Noņemiet no darbības visas sistēmas piemērotās atlaides, ieskaitot uz kuponu balstītās atlaides. Tādējādi netiek noņemtas manuālās atlaides. | Jā | Jā | Jā | Jā | Nr. |
+| 312 | Atkārtoti izmantot sistēmas atlaides | Atkārtoti izmantot sistēmas atlaides darījumam, ja tās ir noņemtas, izmantojot operāciju **Noņemt sistēmas atlaides no darījuma**. | Jā | Jā | Jā | Jā | Nr. |
 
 \* Operācija ir pieejama bezsaistes režīmā tikai tad, ja tiek izveidots debitora pasūtījums vai pārdošanas piedāvājums un ja POS funkcionalitātes profilā ir konfigurēta debitoru rēķinu un pārdošanas piedāvājumu izveide bezsaistes režīmā. Operāciju nevar veikt, ja pasūtījumi tiek veidoti, izmantojot reāllaika pakalpojumu, vai ja pasūtījumi tiek atsaukti vai rediģēti.
 
