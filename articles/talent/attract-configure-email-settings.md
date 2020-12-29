@@ -1,6 +1,6 @@
 ---
 title: E-pasta iestatījumu konfigurēšana programmā Attract
-description: Šajā tēmā ir paskaidrots, kā konfigurēt iestatījumus e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 Talent  - Attract.
+description: Šajā tēmā ir paskaidrots, kā konfigurēt iestatījumus e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -20,21 +20,21 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461846"
 ---
 # <a name="configure-email-settings-in-attract"></a>E-pasta iestatījumu konfigurēšana programmā Attract
 
 [!include [banner](includes/banner.md)]
 
-Jūsu zīmols nosaka uzticēšanos un palīdz veidot attiecības ar kandidātiem, pirms viņi vēl ir paspējuši pieteikties jūsu izsludinātajiem amatiem. Pozitīva zīmola uztvere piesaista labākos talantus un pastiprina esošo darbinieku lojalitāti. Microsoft Dynamics 365 Talent: Attract ļauj konfigurēt e-pasta ziņojumus tā, lai tie atspoguļotu jūsu uzņēmuma zīmolu. Tādējādi varat nodrošināt konsekventu pieredzi darba kandidātiem visa atlases procesa gaitā.
+Jūsu zīmols nosaka uzticēšanos un palīdz veidot attiecības ar kandidātiem, pirms viņi vēl ir paspējuši pieteikties jūsu izsludinātajiem amatiem. Pozitīva zīmola uztvere piesaista labākos talantus un pastiprina esošo darbinieku lojalitāti. Microsoft Dynamics 365 Talent: Attract ļauj konfigurēt e-pasta ziņojumus tā, lai tie atspoguļotu jūsu uzņēmuma zīmolu. Tādējādi varat nodrošināt konsekventu pieredzi darba kandidātiem visa atlases procesa gaitā.
 
 Izmantojot Attract, varat veikt tālāk norādītās darbības.
 
-- Konfigurējiet e-pasta iestatījumus, lai tiktu izmantots jūsu uzņēmuma Microsoft Exchange e-pasta pakalpojumu konts. Šādā veidā kandidāti zinās, ka e-pasta ziņojumi nāk no jūsu uzņēmuma. Piemēram, varat konfigurēt iestatījumus tā, lai kandidāti saņemtu e-pasta ziņojumus no adreses `recruiting@contoso.com`, nevis no `contoso@microsoft.com`.
+- Konfigurējiet e-pasta iestatījumus, lai tiktu izmantots jūsu uzņēmuma Microsoft Exchange e-pasta pakalpojumu konts. Šādā veidā kandidāti zinās, ka e-pasta ziņojumi nāk no jūsu uzņēmuma. Piemēram, varat konfigurēt iestatījumus tā, lai kandidāti saņemtu e-pasta ziņojumus no adreses `recruiting@contoso.com`, nevis no `contoso@microsoft.com`.
 - Nodrošiniet konsekventu zīmolradi visos e-pasta ziņojumos, iestatot globālo galveni un kājeni e-pasta veidnēm. 
 
 > [!NOTE]

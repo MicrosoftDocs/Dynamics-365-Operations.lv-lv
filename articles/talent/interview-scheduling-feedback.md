@@ -15,11 +15,11 @@ ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
 ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832749"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461905"
 ---
 # <a name="schedule-interviews-in-attract"></a>Plānot intervijas programmā Attract
 
@@ -29,7 +29,7 @@ ms.locfileid: "2832749"
 
 Aktivitāte Plānotājs ir izvēles aktivitāte, kas sastāv no diviem komponentiem: Kandidāta pieejamības pieprasījums un Grafiks. Komponents Kandidāta pieejamība sniedz jums iespēju izmantot e-pastu, lai pieprasītu kandidāta pieejamību. Komponents Grafiks sniedz iespēju ieplānot intervijas, saskaņojot grafiku ar kandidātu un darbā pieņemšanas grupu.
 
-Lai iestatītu plānotāja aktivitāti, kas ietver vai ierobežo kandidātus, kuru plānošana ir paredzēta, atlasiet vērtību laukā**Personas, kuras paredzēts plānot**. Pieejamās opcijas ir **Visi kandidāti**, **Ārējie kandidāti** un **Iekšējie kandidāti**. Piemēram, ja vēlaties izlaist iekšējos kandidātus pirmajā plānošanas kārtā, varat piešķirt plānotāja aktivitāti tikai ārējiem kandidātiem, iestatot vienumam **Personas, kuras paredzēts plānot** opciju **Ārējie kandidāti**.
+Lai iestatītu plānotāja aktivitāti, kas ietver vai ierobežo kandidātus, kuru plānošana ir paredzēta, atlasiet vērtību laukā **Personas, kuras paredzēts plānot**. Pieejamās opcijas ir **Visi kandidāti**, **Ārējie kandidāti** un **Iekšējie kandidāti**. Piemēram, ja vēlaties izlaist iekšējos kandidātus pirmajā plānošanas kārtā, varat piešķirt plānotāja aktivitāti tikai ārējiem kandidātiem, iestatot vienumam **Personas, kuras paredzēts plānot** opciju **Ārējie kandidāti**.
 
 ### <a name="candidate-availability-request"></a>Kandidāta pieejamības pieprasījums
 

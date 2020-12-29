@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897193"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461888"
 ---
 # <a name="create-a-hiring-team"></a>Darbā pieņemšanas grupas izveide
 
@@ -32,7 +32,7 @@ Programmā Microsoft Dynamics 365 Talent: Onboard varat izveidot darbā pieņem�
 ## <a name="create-a-hiring-team"></a>Darbā pieņemšanas grupas izveide
 
 1. Kreisās puses izvēlnē atlasiet vienumu **Grupas**.
-2. Sadaļā **Grupas**atlasiet elementu **Pievienot** (pluszīme \[**+**\]).
+2. Sadaļā **Grupas** atlasiet elementu **Pievienot** (pluszīme \[**+**\]).
 3. Dialoglodziņa **Izveidot jaunu grupu** sadaļā **Grupas nosaukums** ievadiet darbā pieņemšanas grupas nosaukumu.
 
     ![[Jaunas komandas izveide pakalpojumā Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)

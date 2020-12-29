@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833258"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461933"
 ---
 # <a name="configure-company-information-in-attract"></a>Konfigurēt uzņēmuma informāciju programmā Attract
 
@@ -37,11 +37,11 @@ Ievadiet uzņēmuma parādāmo nosaukumu un pievienojiet uzņēmuma logotipu. P�
 
 ## <a name="linkedin-integration"></a>LinkedIn integrācija
 
-Iestatiet integrāciju ar LinkedIn Recruiter System Connect(RSC). Kad esat izveidojis savienojumi ar LinkedIn, izmantojot savus LinkedIn akreditācijas datus, varat sinhronizēt kandidāta LinkedIn profilu, pieteikumus, interviju atsauksmes un darbā pieņemšanas grupas piezīmes. Ir nepieciešama pilna LinkedIn Recruiter licence. Papildinformāciju par LinkedIn Recruiter skatiet tēmā [Recruiter System Connect (RSC) — bieži uzdotie jautājumi](https://www.linkedin.com/help/recruiter/answer/90483).
+Iestatiet integrāciju ar LinkedIn Recruiter System Connect (RSC). Kad esat izveidojis savienojumi ar LinkedIn, izmantojot savus LinkedIn akreditācijas datus, varat sinhronizēt kandidāta LinkedIn profilu, pieteikumus, interviju atsauksmes un darbā pieņemšanas grupas piezīmes. Ir nepieciešama pilna LinkedIn Recruiter licence. Papildinformāciju par LinkedIn Recruiter skatiet tēmā [Recruiter System Connect (RSC) — bieži uzdotie jautājumi](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Lietotāju atļaujas
 
-Piešķiriet lomas lietotājiem savā organizācijā. Ir pieejamas šādas lomas: **Administrators**, **Personāla atlases darbinieks**, **Par pieņemšanu darbā atbildīgais vadītājs** un**Tikai lasāms**. Papildinformāciju par lietotāju atļaujām skatiet tēmā [Drošība un lomu pārvaldība programmā Attract](./security-attract.md).
+Piešķiriet lomas lietotājiem savā organizācijā. Ir pieejamas šādas lomas: **Administrators**, **Personāla atlases darbinieks**, **Par pieņemšanu darbā atbildīgais vadītājs** un **Tikai lasāms**. Papildinformāciju par lietotāju atļaujām skatiet tēmā [Drošība un lomu pārvaldība programmā Attract](./security-attract.md).
 
 ## <a name="feature-management"></a>Līdzekļu pārvaldība
 
@@ -61,8 +61,8 @@ Varat konfigurēt darba piedāvājumu apstiprināšanas procesu. Piemēram, vara
 
 Ir pieejamas divas apstiprināšanas darbplūsmas: **Līdzteku** un **Secīgi**.
 
-- **Līdzteku** — apstiprinājumi tiek vienlaikus nosūtīti visiem apstiprinātājiem.
-- **Secīgi** — apstiprinājumi tiek sūtīti apstiprinātājiem noteiktā secībā.
+- **Līdzteku** — apstiprinājumi tiek vienlaikus nosūtīti visiem apstiprinātājiem.
+- **Secīgi** — apstiprinājumi tiek sūtīti apstiprinātājiem noteiktā secībā.
 
 Varat arī konfigurēt ar kandidātu pieredzi saistītās opcijas. Piemēram, viena opcija sniedz jums iespēju norādīt, vai kandidāti var noraidīt piedāvājumu bez papildu pārrunām. Ja iestatāt opcijas **Atļaut kandidātiem noraidīt piedāvājumu bez papildu diskusijas** vērtību **Nē**, kandidātiem ir pieejama poga **Noraidīt piedāvājumu**. Ja iestatāt šīs opcijas vērtību **Jā**, kandidāti var noraidīt piedāvājumu, atlasot iemeslu un pēc tam atlasot pogu **Noraidīt piedāvājumu**.
 

@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 5c322a0dd9a3c61a2d333fdc716acde88a2165f0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898229"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461887"
 ---
 # <a name="create-an-onboarding-template"></a>Pievienošanās veidnes izveide
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365 Talent: Onboard nodrošina dažādas veidnes, kas var pal
 ## <a name="create-a-new-onboarding-template"></a>Jaunas pievienošanas veidnes izveide
 
 1. Kreisās puses izvēlnē atlasiet **Veidnes**.
-2. Sadaļā **Manas veidnes**atlasiet elementu **Pievienot** (pluszīme \[**+**\]).
+2. Sadaļā **Manas veidnes** atlasiet elementu **Pievienot** (pluszīme \[**+**\]).
 
     [![Jaunas veidnes izveide](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)
 

@@ -19,11 +19,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832958"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461840"
 ---
 # <a name="set-up-your-career-site-in-attract"></a>Karjeras vietas iestatīšana programmā Attract
 
@@ -39,32 +39,32 @@ Pēc noklusējuma karjeras vietne ir publiska. Tāpēc kandidāti nepierakstotie
 
 Lai iestatītu vērtības tālāk minētajiem vienumiem, pierakstieties programmā Attract kā administrators, izvēlnē **Iestatījumi** (zobrata simbols) atlasiet vienumu **Administrēšanas centrs** un pēc tam atlasiet cilni **Uzņēmuma informācija**.
 
--   **Organizācijas nosaukums** — organizācijas nosaukums parādās navigācijas joslā karjeras vietnes augšdaļā. Atlasot organizācijas nosaukumu, kandidāti pāriet uz lapu, kurā norādīti visi atvērtie darbi.
+-   **Organizācijas nosaukums** — organizācijas nosaukums parādās navigācijas joslā karjeras vietnes augšdaļā. Atlasot organizācijas nosaukumu, kandidāti pāriet uz lapu, kurā norādīti visi atvērtie darbi.
 
--   **Organizācijas logotips** — organizācijas logotipa attēls parādās karjeras vietnes augšējā kreisajā stūrī. Atlasot organizācijas logotipa attēlu, kandidāti pāriet uz lapu, kurā norādīti visi atvērtie darbi.
+-   **Organizācijas logotips** — organizācijas logotipa attēls parādās karjeras vietnes augšējā kreisajā stūrī. Atlasot organizācijas logotipa attēlu, kandidāti pāriet uz lapu, kurā norādīti visi atvērtie darbi.
 
     > [!NOTE] 
     > Logotipa attēlam, kas parādās karjeras vietnē, ir fiksēts augstums 20 pikseļi (px). Attēls, ko pievienojat administrēšanas centrā, tiek mērogots atbilstoši vajadzīgajam izmēram. Tāpēc atkarībā no attēla platums var mainīties.
  
 Lai iestatītu vērtības tālāk minētajiem vienumiem, pierakstieties programmā Attract kā administrators, izvēlnē **Iestatījumi** atlasiet vienumu **Administrēšanas centrs** un pēc tam atlasiet cilni **Karjeras vietnes pārvaldība**.
 
--   **Meklētājoptimizācija** — ja šis vienums ir iespējots, visus publiskos darbus, kas publicēti Attract karjeras vietnē, varēs atrast, izmantojot meklētājprogrammas, piemēram, Bing un Google. 
+-   **Meklētājoptimizācija** — ja šis vienums ir iespējots, visus publiskos darbus, kas publicēti Attract karjeras vietnē, varēs atrast, izmantojot meklētājprogrammas, piemēram, Bing un Google. 
 
     > [!NOTE] 
     > Var būt aizkave starp šī iestatījuma ieslēgšanu un meklēšanas rezultātu parādīšanu atkarībā no izmantotajām meklētājprogrammām.
     
--   **Noteikumi un nosacījumi** — ja šis vienums ir iespējots, visiem kandidātiem, piesakoties jebkuram darbam, ir jāpiekrīt organizācijas noteikumiem un nosacījumiem. Attract administrators var konfigurēt savu piekrišanas tekstu, kā arī saiti uz noteikumu un nosacījumu lapu. 
+-   **Noteikumi un nosacījumi** — ja šis vienums ir iespējots, visiem kandidātiem, piesakoties jebkuram darbam, ir jāpiekrīt organizācijas noteikumiem un nosacījumiem. Attract administrators var konfigurēt savu piekrišanas tekstu, kā arī saiti uz noteikumu un nosacījumu lapu. 
 
         
 ## <a name="career-site-urls"></a>Karjeras vietnes vietrāži URL
 
 Tālāk minēti bieži lietotie karjeras vietnes vietrāži URL un tas, kā tiem piekļūt.
 
--   **Karjeras vietnes sākumlapas vietrādis URL** — lai skatītu karjeras vietnes sākumlapas vietrādi URL, pierakstieties programmā Attract kā administrators, atlasiet vienumu **Administrēšanas centrs** izvēlnē **Iestatījumi** un pēc tam atlasiet cilni **Karjeras vietnes pārvaldība**.
+-   **Karjeras vietnes sākumlapas vietrādis URL** — lai skatītu karjeras vietnes sākumlapas vietrādi URL, pierakstieties programmā Attract kā administrators, atlasiet vienumu **Administrēšanas centrs** izvēlnē **Iestatījumi** un pēc tam atlasiet cilni **Karjeras vietnes pārvaldība**.
 
--   **Atsevišķa darba sludinājuma pieteikuma vietrādis URL** — kad pirmo reizi [publicējat ārējo darbu](Creating-jobs-Attract.md#postings), jūs varat kopēt saiti **Pieteikties** no programmas Attract. Šīs saites vietrādis URL būs šādā formātā: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Atsevišķa darba sludinājuma pieteikuma vietrādis URL** — kad pirmo reizi [publicējat ārējo darbu](Creating-jobs-Attract.md#postings), jūs varat kopēt saiti **Pieteikties** no programmas Attract. Šīs saites vietrādis URL būs šādā formātā: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
--   **Atsevišķa darba sludinājuma vietrādis URL** — darba sludinājuma vietrādis URL ir pieteikšanās vietrāža URL apakšvirkne. To veido visi elementi līdz darba numuram. Tādējādi iepriekšējam pieteikšanās vietrādim URL darba sludinājuma vietrādis URL ir [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
+-   **Atsevišķa darba sludinājuma vietrādis URL** — darba sludinājuma vietrādis URL ir pieteikšanās vietrāža URL apakšvirkne. To veido visi elementi līdz darba numuram. Tādējādi iepriekšējam pieteikšanās vietrādim URL darba sludinājuma vietrādis URL ir [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 
 ## <a name="authentication-options"></a>Autentifikācijas opcijas
 
@@ -74,7 +74,7 @@ Kandidātiem ir pieejamas šādas pierakstīšanās opcijas Attract karjeras vie
 
     -   LinkedIn
 
-    -   Microsoft 
+    -   Microsoft
 
     -   Google
 
@@ -131,7 +131,7 @@ Varat atvieglo kandidātiem pieteikšanos jūsu amatiem, konfigurējot Attract t
 1. Piesakieties pakalpojumā Attract kā administrators.
 2. Atlasiet pogu **Iestatījumi** (zobrata simbols) lapas labās puses augšējā stūrī un pēc tam atlasiet **Administrēšanas centrs**.
 3. Atlasiet cilni **LinkedIn integrācija** un izveidojiet savienojumu ar LinkedIn personāla atlases darbinieka kontu.
-4. Sadaļā **LinkedIn Recruiter System Connectintegrācija** iestatījumam **Pieteikties, izmantojot LinkedIn** atlasiet opciju **Iespējots**.
+4. Sadaļā **LinkedIn Recruiter System Connect integrācija** iestatījumam **Pieteikties, izmantojot LinkedIn** atlasiet opciju **Iespējots**.
 
 Pēc tam, kad iestatījums ir iespējots, kandidāti var pieteikties, izmantojot viņu esošā LinkedIn profila datus. Ja kandidāti piesakās, izvēloties pogu **Pieteikties, izmantojot LinkedIn**, viņi tiek aicināti autentificēties ar LinkedIn, ja viņi vēl nav pieteikusies. Pēc tam, kad viņi ir autentificēti, viņu LinkedIn profils aizstāj visus esošos profila datus, kas redzami pieteikuma lapā. Kandidāti var rediģēt informāciju pēc nepieciešamības un pēc tam iesniegt pieteikumu. Ja kandidāts pāriet prom no lapas, nepiesakoties darbam, viņa profila dati netiek atjaunināti programmā Attract.
 

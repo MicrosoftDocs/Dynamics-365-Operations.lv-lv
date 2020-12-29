@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898252"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461853"
 ---
 # <a name="create-and-send-an-onboarding-guide"></a>Pievienošanās ceļveža izveide un nosūtīšana
 
@@ -34,7 +34,7 @@ Kad esat izveidojis pievienošanas ceļvedi, varat to nosūtīt nesen nolīgtam 
 ## <a name="create-an-onboarding-guide-from-a-template-and-send-it-to-a-single-new-hire"></a>Izveidot pievienošanas ceļvedi no veidnes un nosūtīt to vienam nesen nolīgtam darbiniekam
 
 1. Kreisās puses izvēlnē atlasiet **Veidnes**.
-2. Sadaļā **Manas veidnes**atlasiet veidni, kuru vēlaties iestatīt kā pievienošanas ceļvedi nesen nolīgtam darbiniekam.
+2. Sadaļā **Manas veidnes** atlasiet veidni, kuru vēlaties iestatīt kā pievienošanas ceļvedi nesen nolīgtam darbiniekam.
 3. Rediģējiet veidni pēc vēlēšanās. Neaizmirstiet saglabāt darbu.
 4. Kad esat pabeidzis veidnes rediģēšanu, atlasiet **Izveidot ceļvedi**.
 
@@ -44,7 +44,7 @@ Kad esat izveidojis pievienošanas ceļvedi, varat to nosūtīt nesen nolīgtam 
 
     ![[Informācijas ievadīšana par pievienošanas ceļvedi](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
-6. Sadaļā **Kad viņi sāks**atlasiet sākuma datumu.
+6. Sadaļā **Kad viņi sāks** atlasiet sākuma datumu.
 7. Ja pievienošanas ceļvedis ir automātiski jānosūta nesen nolīgtam darbiniekam konkrētā datumā, pārliecinieties, vai ir ieslēgta opcija **Ieplānot automātiskas nosūtīšanas datumu** un pēc tam atlasiet automātiskās nosūtīšanas datumu. Lai ceļvedi nosūtītu nekavējoties, izslēdziet opciju **Ieplānot automātiskās nosūtīšanas datumu**.
 8. Atlasiet **Gatavs**.
 9. Kad esat pabeidzis rediģēt pievienošanas ceļvedi, augšējā labajā stūrī atlasiet **Sūtīt**. Pēc tam izpildiet kādu no norādītajām darbībām.
@@ -58,7 +58,7 @@ Kad esat izveidojis pievienošanas ceļvedi, varat to nosūtīt nesen nolīgtam 
 Onboard ļauj nosūtīt pievienošanas ceļvedi vienlaikus vairākiemm nesen nolīgtiem darbiniekiem.
 
 1. Kreisās puses izvēlnē atlasiet **Veidnes**.
-2. Sadaļā **Manas veidnes**atlasiet veidni, kuru vēlaties iestatīt kā pievienošanas ceļvedi nesen nolīgtiem darbiniekiem.
+2. Sadaļā **Manas veidnes** atlasiet veidni, kuru vēlaties iestatīt kā pievienošanas ceļvedi nesen nolīgtiem darbiniekiem.
 3. Rediģējiet veidni pēc vēlēšanās. Neaizmirstiet saglabāt darbu.
 4. Kad esat pabeidzis veidnes rediģēšanu, atlasiet **Izveidot ceļvedi**.
 5. Logā **Izveidot ceļvedi** atlasiet **Nepieciešams pievienot vairākus cilvēkus uzreiz**.
@@ -94,7 +94,7 @@ Ne vienmēr ir jāveido ceļvedis no veidnes. Ja vēlaties, varat izveidot ceļv
 
     ![[Informācijas ievadīšana par pievienošanas ceļvedi](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
-3. Sadaļā **Kad viņi sāks**atlasiet sākuma datumu.
+3. Sadaļā **Kad viņi sāks** atlasiet sākuma datumu.
 4. Ja pievienošanas ceļvedis ir automātiski jānosūta nesen nolīgtam darbiniekam konkrētā datumā, pārliecinieties, vai ir ieslēgta opcija **Ieplānot automātiskas nosūtīšanas datumu** un pēc tam atlasiet automātiskās nosūtīšanas datumu. Lai ceļvedi nosūtītu nekavējoties, izslēdziet opciju **Ieplānot automātiskās nosūtīšanas datumu**.
 5. Atlasiet **Gatavs**.
 

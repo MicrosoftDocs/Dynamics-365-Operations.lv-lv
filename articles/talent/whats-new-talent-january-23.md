@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899132"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461824"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Jaunumi un izmaiņas programmā Dynamics 365 Talent — Core HR (2019. gada 23. janvāris)
 
@@ -51,5 +51,5 @@ Mainot darbu amatam, darba laukos pēc noklusējuma tiek iestatīts amats. Tiks 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Turpmāk darbā pieņemtajiem darbiniekiem netiek rādīts izmēģinājuma periods un kalendārs.
 Ar šīm izmaiņām lapā **Pārvaldīt izmaiņas** ir pievienoti lauki **Izmēģinājuma periods** un **Kalendārs**, lai nodrošinātu datu ievadi turpmākiem un iepriekšējiem darbiniekiem.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations Platform update 23
-Atjauninājumā Finance and Operations Platform update 23 ir iekļauti nelieli kļūdu labojumi. Plašāku informāciju skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Finance and Operations atjauninājumā Platform update 23 (2019. gada janvāris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Platform update 23 for Finance and Operations
+Atjauninājumā Platform update 23 ir iekļauti nelieli kļūdu labojumi programmai Finance and Operations. Plašāku informāciju skatiet tēmā [Jaunumi un izmaiņas programmā Dynamics 365 Finance and Operations atjauninājumā Platform update 23 (2019. gada janvāris)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

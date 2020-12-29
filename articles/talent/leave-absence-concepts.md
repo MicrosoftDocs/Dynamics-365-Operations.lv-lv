@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 03e2557e29194f17a9a586470ced5b352408b07c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898646"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461904"
 ---
 # <a name="leave-and-absence-concepts"></a>Atvaļinājumu un kavējumu jēdzieni
 
@@ -79,7 +79,7 @@ Uzkrājuma piešķiršanas datums nosaka, kad darbiniekam tiek piešķirts brīv
 Uzkrājuma politika reģistrācijas gadījumā nosaka, kā tiek aprēķināts uzkrājums, kad darbinieks ir reģistrēts uzkrāšanas perioda vidū. Ir pieejamas tālāk minētās opcijas.
 
 - **Proporcionāli sadalīts** — lai noteiktu starpību dienās, tiek izmantots datumu diapazons starp reģistrācijas datumu un sākuma datumu. Šī starpība tiek piemērota, kad uzkrājumi tiek apstrādāti.
-- **Pilns uzkrājums** — pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
+- **Pilns uzkrājums** - pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
 - **Nav uzkrājuma** — līdz nākamajam uzkrāšanas periodam netiek piešķirts uzkrājums.
 
 ### <a name="accrual-policy-on-unenrollment"></a>Uzkrājuma politika reģistrācijas pārtraukšanas gadījumā
@@ -87,7 +87,7 @@ Uzkrājuma politika reģistrācijas gadījumā nosaka, kā tiek aprēķināts uz
 Uzkrājuma politika reģistrācijas pārtraukšanas gadījumā nosaka, kā tiek aprēķināts uzkrājums, kad darbinieka reģistrācija tiek pārtraukta uzkrāšanas perioda vidū. Ir pieejamas tālāk minētās opcijas.
 
 - **Proporcionāli sadalīts** — lai noteiktu starpību dienās, tiek izmantots datumu diapazons starp reģistrācijas datumu un sākuma datumu. Šī starpība tiek piemērota, kad uzkrājumi tiek apstrādāti.
-- **Pilns uzkrājums** — pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
+- **Pilns uzkrājums** - pirmās uzkrājumu apstrādes laikā tiek piešķirta pilna uzkrājuma summa atbilstoši pakāpei.
 - **Nav uzkrājuma** — līdz nākamajam uzkrāšanas periodam netiek piešķirts uzkrājums.
 
 ## <a name="accrual-schedule"></a>Uzkrāšanas grafiks

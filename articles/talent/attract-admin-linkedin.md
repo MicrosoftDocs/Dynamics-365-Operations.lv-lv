@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833188"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461899"
 ---
 # <a name="set-up-linkedin-integration-with-attract"></a>LinkedIn integrācijas ar Attract iestatīšana
 
@@ -49,7 +49,7 @@ Informāciju par citiem veidiem, kā publicēt darbus LinkedIn, skatiet sadaļā
 
 ## <a name="configure-job-posting-to-linkedin"></a>Darbu publicēšanas LinkedIn konfigurēšana
 
-Lai varētu publicēt darbus no Attract vietnē LinkedIn, ir nepieciešams [LinkedIn uzņēmuma ID.](https://aka.ms/findID) LinkedIn uzņēmuma ID ir skaitļu virkne, kas unikāli identificē jūsu uzņēmumu vietnē LinkedIn. Papildinformāciju skatiet sadaļā [LinkedIn uzņēmuma ID sasaiste ar LinkedIn darba paneli — bieži uzdotie jautājumi ](https://aka.ms/findID).
+Lai varētu publicēt darbus no Attract vietnē LinkedIn, ir nepieciešams [LinkedIn uzņēmuma ID.](https://aka.ms/findID) LinkedIn uzņēmuma ID ir skaitļu virkne, kas unikāli identificē jūsu uzņēmumu vietnē LinkedIn. Papildinformāciju skatiet sadaļā [LinkedIn uzņēmuma ID sasaiste ar LinkedIn darba paneli — bieži uzdotie jautājumi](https://aka.ms/findID).
 
 Attract sūta jūsu darbu sludinājumus uz LinkedIn, un LinkedIn pārbauda plūsmu aptuveni reizi dienā. Var paiet līdz pat 48 stundām, līdz jūsu darbi tiks publicēti vietnē.
 
@@ -96,7 +96,7 @@ Lai darba devēji varētu veikt atlases darbus, izmantojot LinkedIn Recruiter, i
 
 ## <a name="set-up-apply-with-linkedin-in-attract"></a>Piesakies ar LinkedIn iestatīšana programmā Attract
 
-Varat atļaut kandidātiem pieteikties jūsu darbiem, izmantojot viņu LinkedIn profilus. Papildinformāciju par Piesakies ar LinkedIn skatiet [LinkedIn iespējas visur: Piesakies ar LinkedIn ](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
+Varat atļaut kandidātiem pieteikties jūsu darbiem, izmantojot viņu LinkedIn profilus. Papildinformāciju par Piesakies ar LinkedIn skatiet [LinkedIn iespējas visur: Piesakies ar LinkedIn](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
 
 Šis līdzeklis pašreiz ir priekšskatījumā. Pirms šo darbību veikšanas pārliecinieties, vai ir iespējota opcija Piesakies ar LinkedIn. Papildinformāciju par to, kā iespējot priekšskatījuma līdzekļus, skatiet rakstā [Piekļuve priekšskatījuma līdzekļiem programmā Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 

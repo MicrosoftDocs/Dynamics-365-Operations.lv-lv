@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832888"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461836"
 ---
 # <a name="create-email-templates-in-attract"></a>Izveidot e-pasta veidnes Attract
 
@@ -51,8 +51,8 @@ Pēc globālo veidņu konfigurāciju iestatīšanas administrators var sākt izv
 
 Dažiem e-pasta ziņojumu tipiem var būt vairāk par vienu saņēmēju. Piemēram, kategorijā **Plānošana** e-pasta paziņojumi, kas tiek nosūtīti, ja ir nepieciešams interviju grafika kopsavilkumu, tiek nosūtīti gan kandidātiem, gan intervētājiem. Katrā sadaļā ir divas galvenās kolonnas: **Veidnes nosaukums** un **Saņēmējs**. Katra sadaļas rinda norāda vienu veidni noteiktam e-pasta ziņojumu tipam. Sākumā katras veidnes rindā tiks parādīts slēdzenes simbols. Šis simbols norāda, ka veidne ir standarta veidne, kas tiek nodrošināta ar programmu Attract, un ka to nevar dzēst. Jebkurai veidnei administrators var izmantot daudzpunktes pogu (**...**), lai dublētu veidni, iestatītu to kā noklusējuma veidni vai dzēstu to. Kad veidne ir iestatīta kā noklusējuma veidne, var tikt īstenots viens no šādiem režīmiem. Režīmu norāda žetons vai žetoni, kas parādās veidnes rindā:
 
-- **Noklusējums** — šis žetons norāda, ka veidne ir noklusējuma veidne e-pasta ziņojumam, kas ir nosūtīts, un ka tajā tiks ievadīta informācija, kad lietotājs nosūta konkrēto e-pasta ziņojumu tipu.
-- **Noklusējums** + **Automātiskā sūtīšana** — šī žetonu kombinācija norāda, ka attiecīgā veidne ir aktīva veidne sistēmas ģenerētiem e-pasta ziņojumiem, kas tiek nosūtīti automātiski.
+- **Noklusējums** — šis žetons norāda, ka veidne ir noklusējuma veidne e-pasta ziņojumam, kas ir nosūtīts, un ka tajā tiks ievadīta informācija, kad lietotājs nosūta konkrēto e-pasta ziņojumu tipu.
+- **Noklusējums** + **Automātiskā sūtīšana** — šī žetonu kombinācija norāda, ka attiecīgā veidne ir aktīva veidne sistēmas ģenerētiem e-pasta ziņojumiem, kas tiek nosūtīti automātiski.
 
 Lai rediģētu veidni, izvēlieties rindu un veiciet izmaiņas veidnē.
 
