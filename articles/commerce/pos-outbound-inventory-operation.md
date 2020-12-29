@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971549"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413936"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Izejošo krājumu operācija punktā POS
 
@@ -129,7 +129,7 @@ Lai konfigurētu uzņēmumu atļaut nepilna pasūtījuma pārsūtīšanu, lapā 
 
 Pārsūtīšanas pasūtījumu rindas nepilno pasūtījumu procentuālās daļas var iepriekš definēt produktiem kā daļu no Commerce Headquarters produktu konfigurācijas. Vai arī iestatiet vai pārrakstiet tos noteiktā pārsūtīšanas pasūtījuma rindā, izmantojot Commerce Headquarters (HQ).
 
-Kad organizācija ir pabeigusi konfigurēt nepilno pasūtījumu pārsūtīšanu, POS lietotāji redzēs jaunu opciju **Aizvērt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta izejošā pārsūtīšanas pasūtījuma rinda, izmantojot funkciju**Izejošo operāciju**. Kad lietotāji pabeidz sūtījumu, izmantojot operāciju **Pabeigt izpildi**, tie var nosūtīt pieprasījumu Commerce Headquarters, lai atceltu atlikušo nenosūtīto daudzumu. Ja lietotājs slēdz atlikušo daudzumu, Commerce veic validāciju, pārbaudot, ka daudzums, kas tiek atcelts, atrodas nepilnā pasūtījuma procentuālās tolerances ietvaros, kas noteikts pārsūtīšanas pasūtījuma rindā. Ja nepilna pasūtījuma tolerance ir pārsniegta, tiek parādīts kļūdas ziņojumu un lietotājs nevarēs aizvērt atlikušo daudzumu, kamēr iepriekš nosūtītais un “nosūtīt tagad” daudzums neatbilst vai pārsniedz nepilna pasūtījuma toleranci.
+Kad organizācija ir pabeigusi konfigurēt nepilno pasūtījumu pārsūtīšanu, POS lietotāji redzēs jaunu opciju **Aizvērt atlikušo daudzumu** rūtī **Informācija**, kad tiks atlasīta izejošā pārsūtīšanas pasūtījuma rinda, izmantojot funkciju **Izejošo operāciju**. Kad lietotāji pabeidz sūtījumu, izmantojot operāciju **Pabeigt izpildi**, tie var nosūtīt pieprasījumu Commerce Headquarters, lai atceltu atlikušo nenosūtīto daudzumu. Ja lietotājs slēdz atlikušo daudzumu, Commerce veic validāciju, pārbaudot, ka daudzums, kas tiek atcelts, atrodas nepilnā pasūtījuma procentuālās tolerances ietvaros, kas noteikts pārsūtīšanas pasūtījuma rindā. Ja nepilna pasūtījuma tolerance ir pārsniegta, tiek parādīts kļūdas ziņojumu un lietotājs nevarēs aizvērt atlikušo daudzumu, kamēr iepriekš nosūtītais un “nosūtīt tagad” daudzums neatbilst vai pārsniedz nepilna pasūtījuma toleranci.
 
 Pēc tam, kad sūtījums ir sinhronizēts ar Commerce Headquarters (HQ), daudzumam, kas POS pārsūtīšanas pasūtījuma rindai ir definēts laukā **Nosūtīt tagad**, Commerce Headquarters (HQ) statuss tiek atjaunināts uz nosūtīts. Visi nenosūtītie daudzumi, kas iepriekš tika uzskatīti par "nosūtīt atlikumu" daudzumiem (t. i., daudzumi, kas tiks nosūtīti vēlāk), tiek uzskatīti par atceltiem daudzumiem. "Nosūtīt atlikumu" daudzums pārsūtīšanas pasūtījuma rindā ir iestatīts kā **0** (nulle), un rinda tiek uzskatīta par pilnībā nosūtītu.
 
@@ -141,7 +141,7 @@ Operācija ievēro konfigurāciju **Tukšā kvīts atļauta** noliktavas dimensi
 
 ### <a name="ship-all"></a>Nosūtīt visu
 
-Pēc nepieciešamības varat atlasīt **Nosūtīt visu**programmas joslā, lai ātri atjauninātu daudzumu **Nosūta tagad** visām dokumenta rindām uz maksimālo vērtību, kas ir pieejama izpildei šīm rindām.
+Pēc nepieciešamības varat atlasīt **Nosūtīt visu** programmas joslā, lai ātri atjauninātu daudzumu **Nosūta tagad** visām dokumenta rindām uz maksimālo vērtību, kas ir pieejama izpildei šīm rindām.
 
 ### <a name="cancel-fulfillment"></a>Atcelt izpildi
 

@@ -3,7 +3,7 @@ title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929997"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4419632"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj ātri pieprasīt prombūtni un skatīt savas prombūtnes bilances informāciju Microsoft Teams. Varat mijiedarboties ar botu, lai pieprasītu informāciju un sāktu atvaļinājuma pieprasījumu. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Turklāt varat nosūtīt personām informāciju par gaidāmo prombūtni grupās un tērzēšanā ārpus Human Resources programmas.
+Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj ātri pieprasīt prombūtni un skatīt savas prombūtnes bilances informāciju Microsoft Teams. Varat mijiedarboties ar botu, lai pieprasītu informāciju un sāktu atvaļinājuma pieprasījumu. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Varat arī nosūtīt personām informāciju par gaidāmo prombūtni grupās un tērzēšanā ārpus Human Resources programmas.
 
 ## <a name="install-the-app"></a>Programmas instalēšana
 
@@ -182,11 +182,25 @@ Ja nevarat pierakstīties lietojumprogrammā, iespējams, ka konts, kuru izmanto
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Kļūda, apstiprinot atvaļinājumu pieprasījumus personāla vadības lietojumprogrammā Teams
 
-Ja jūs saņemat kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījumus lietojumprogrammā Teams, veiciet tālāk norādītos problēmu novēršanas pasākumus:
+Ja jūs saņemat kļūdu, mēģinot apstiprināt atvaļinājumu pieprasījumus lietojumprogrammā Teams, mēģiniet veikt tālāk norādītos problēmu novēršanas pasākumus:
 
 1. Pārbaudiet, vai konts, kuru izmantojat, lai pierakstītos Microsoft Teams ir tas pats, ko izmantojat, lai piekļūtu Dynamics 365 Human Resources.
 
 2. Pārbaudiet, vai esat derīgs pieprasījuma apstiprinātājs, pārbaudot darbplūsmas iestatījumus atvaļinājumu apstiprināšanai. Papildinformāciju par atvaļinājumu pieprasījumu darbplūsmām skatiet šeit: [Atvaļinājuma pieprasījuma darbplūsmas izveide](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Zināmās pieejamības problēmas
+
+Personāla vadības programmā risinājumā Teams ir šādas pieejamības problēmas, pie kurām mēs strādājam turpmākajos laidienos.
+
+| Izsniegt | Profilakse vai skaidrojums |
+| --- | --- |
+| Tālummaiņa līdz 400% darbvirsmā slēpj dažas darbības pogas no skata. | Mēs iesakām izmantot lupu, kamēr mēs varam atbalstīt šo tālummaiņas līmeni. |
+| Cilnē **Pārtraukums** aizkadra balss paziņo par pogas darbību, kamēr tiek lasīts pārtraukuma režģa virsraksts. | Galvene un elementi režģī tiek grupēti pēc gada, un tie ir saliekami. Aizkadra balss to interpretē kā rīcībā esošu krājumu, bet tā nav. |
+| Ja jūs velkat, kamēr uznirstošais logs vai izvēlne ir atvērta, balss izlaiž uznirstošā loga vai izvēlnes satura nolasīšanu. | Pārlūkojiet saturu, izmantojot pirkstu skenēšanu. |
+| Cilnē **Pārtraukums** ir papildu vilkšanas žests, navigējot uz **Iemesla kodu** jaunā pieprasījumā. | Nav nevienas slēptas kontroles, ko vilkšanas navigācija mēģina iegūt. |
+| Ja cilnē **Pārtraukums** veicat vilkšanas žestu, kamēr ir atvērts kalendārs, jūs nokļūsiet ārpus vadīklas, nevis jauna pieprasījuma sākumā vai pieprasījuma rediģēšanā. | Kad sasniedzat **Doties uz šodienu**, ņemiet vērā, ka tās ir vadīklas beigas, pavelciet uz pretējo pusi, lai atgrieztos augšā. |
+| Aizkadra balss nelasa datumu etiķetes. | Pāra datumi vienmēr ir **Sākuma datums** un **Beigu datums**. |
+| Kad cilnē **Tērzēšana** ievadāt datumu, kamēr izmantojat atbalsta rīku vai tastatūras navigāciju, fokuss pārlec uz augšu. | Nospiediet cilni, līdz atkal tiek sasniegts ievades apgabals. |
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 

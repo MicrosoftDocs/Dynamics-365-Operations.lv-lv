@@ -1,5 +1,5 @@
 ---
-title: " Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus"
+title: Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus
 description: Šajā procedūra ir aprakstīts, kā izveidot pārdošanas cenas tirdzniecības līgumus, izmantojot kategorijas cenu noteikšanas kārtulu.
 author: scott-tucker
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141087"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414108"
 ---
-# <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus
+# <a name="category-pricing-rules-to-create-trade-agreements"></a>Kategorijas cenu noteikšanas kārtulas, lai izveidotu tirdzniecības līgumus
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: " POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros"
+title: POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros
 description: Šajā procedūrā ir aprakstīts, kā izveidot finanšu dimensijas pārdošanas punkta (POS) reģistriem un kā reģistros konfigurēt finanšu dimensijas vērtības.
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7be50eba098b7b28594c8e18c721579f4bb2e879
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140995"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414102"
 ---
-# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros
+# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>POS reģistru finanšu dimensiju izveide un dimensiju vērtību konfigurēšana reģistros
 
 [!include [banner](../includes/banner.md)]
 

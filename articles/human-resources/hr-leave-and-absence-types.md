@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969026"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419519"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atvaļinājumu un prombūtnes veidu konfigurēšana
 
@@ -42,7 +42,7 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-2. Sadaļā **Iestatīšana**atlasiet **Atvaļinājumu un kavējumu veidi**.
+2. Sadaļā **Iestatīšana** atlasiet **Atvaļinājumu un kavējumu veidi**.
 
 3. Atlasiet **Jauns**.
 
@@ -52,9 +52,9 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 
 6. Atlasiet pelnīšanas kodu no nolaižamā saraksta **Ienākumu veida kods**.
 
-7. Laukā **Nepieciešams pamatojuma kods**izvēlieties, vai vēlaties pieprasīt pamatojuma kodu. Ja vēlaties pieprasīt pamatojuma kodus, iespējams, tie ir jāpievieno. Sadaļā **Pamatojumu kodi** atlasiet **Pievienot**, atlasiet pamatojuma kodu un pēc tam blakus atzīmējiet izvēles rūtiņu**Iespējoti**.
+7. Laukā **Nepieciešams pamatojuma kods** izvēlieties, vai vēlaties pieprasīt pamatojuma kodu. Ja vēlaties pieprasīt pamatojuma kodus, iespējams, tie ir jāpievieno. Sadaļā **Pamatojumu kodi** atlasiet **Pievienot**, atlasiet pamatojuma kodu un pēc tam blakus atzīmējiet izvēles rūtiņu **Iespējoti**.
 
-8. Sadaļā **Ierobežot piekļuvi atlasītajām lomām**izvēlieties, vai vēlaties ierobežot piekļuvi. Pēc tam atlasiet drošības lomas sadaļā **Drošības lomas šim atvaļinājuma veidam**. Drošības lomas ir definētas darbplūsmā, ko atlasījāt laukā **Darbplūsmas ID** iepriekš šajā procedūrā.
+8. Sadaļā **Ierobežot piekļuvi atlasītajām lomām** izvēlieties, vai vēlaties ierobežot piekļuvi. Pēc tam atlasiet drošības lomas sadaļā **Drošības lomas šim atvaļinājuma veidam**. Drošības lomas ir definētas darbplūsmā, ko atlasījāt laukā **Darbplūsmas ID** iepriekš šajā procedūrā.
 
 9. Sadaļā **Kalendāra krāsa** izvēlieties krāsu, ko parādīt atvaļinājuma un kavējumu kalendāros šim atvaļinājuma tipam. 
 

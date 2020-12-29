@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019568"
+ms.locfileid: "4414178"
 ---
 # <a name="work-with-fragments"></a>Darbs ar fragmentiem 
 
@@ -62,10 +62,10 @@ Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmen
 
 1. Atveriet lapu vai veidni, kas satur moduli, ko vēlaties pārveidot par fragmentu.
 1. Strukturējuma rūtī pa kreisi vai tieši vizuālo lapu veidotājā atlasiet iepriekš konfigurēto moduli.
-1. Atlasiet daudzpunkti ( **...** ) blakus moduļa nosaukumam vai nu strukturējuma rūtī, vai atlasītā moduļa rīkjoslā vizuālo lapu veidotājā. 
+1. Atlasiet daudzpunkti (**...**) blakus moduļa nosaukumam vai nu strukturējuma rūtī, vai atlasītā moduļa rīkjoslā vizuālo lapu veidotājā. 
 1. Atlasiet **Koplietot kā fragmentu**. 
 1. Dialoglodziņā **Saglabāt kā fragmentu** ievadiet fragmenta nosaukumu.
-1. Atlasiet **Labi** , lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
+1. Atlasiet **Labi**, lai saglabātu moduļa konfigurāciju kā fragmentu, ko var pievienot citām lapām.
 <!-- The following image shows how to save a module configuration as a fragment.-->
 <!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
@@ -74,7 +74,7 @@ Lai konvertētu iepriekš konfigurētu moduli par atkārtoti izmantojamu fragmen
 Lai izveidotu jaunu fragmentu Commerce vietņu veidotājā, izpildiet tālāk norādītās darbības.
 
 1. Navigācijas rūtī kreisajā pusē atlasiet **Fragmenti**.
-1. Atlasiet **Jauns**. Tiek parādīts dialoglodziņš **Jauns fragments** , kurā redzami visi pieejamie moduļa veidi. Kā jau tika minēts iepriekš, fragmentus var izveidot no jebkura moduļa tipa.
+1. Atlasiet **Jauns**. Tiek parādīts dialoglodziņš **Jauns fragments**, kurā redzami visi pieejamie moduļa veidi. Kā jau tika minēts iepriekš, fragmentus var izveidot no jebkura moduļa tipa.
 1. Atlasiet sava fragmenta moduļa veidu.
 
 <!-- The following image shows where to create a new fragment.-->
@@ -91,7 +91,7 @@ Lai izveidotu jaunu fragmentu Commerce vietņu veidotājā, izpildiet tālāk no
 Lai pievienotu fragmentu lapai Commerce vietņu veidotājā, izpildiet tālāk norādītās darbības.
 
 1. Strukturējuma rūtī pa kreisi vai tieši vizuālo lapu veidotājā atlasiet konteineru vai slotu, kuram var pievienot atvašu moduļus.
-1. Atlasiet daudzpunkti ( **...** ) blakus konteinera nosaukumam vai slotam.  Vai arī, ja izmantojat vizuālo lapu veidotāju, atlasiet plus zīmi ( **+** ).  
+1. Atlasiet daudzpunkti (**...**) blakus konteinera nosaukumam vai slotam.  Vai arī, ja izmantojat vizuālo lapu veidotāju, atlasiet plus zīmi (**+**).  
 1. Atlasiet **Pievienot fragmentu**.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
@@ -109,7 +109,7 @@ Lai pievienotu fragmentu lapai Commerce vietņu veidotājā, izpildiet tālāk n
 
 Lai izņemtu fragmentu no slota vai konteinera lapā Commerce vietņu veidotājs, veiciet tālāk norādītās darbības.
 
-1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes ( **...** ) pogu, kas atrodas blakus fragmenta nosaukumam, lai noņemtu, un pēc tam atlasiet Miskastes simbolu.  Vai arī varat atlasīt fragmentu vizuālo lapu veidotājā un atlasīt atkritnes simbolu fragmentu rīkjoslā.
+1. Struktūras rūtī pa kreisi izvēlieties daudzpunktes (**...**) pogu, kas atrodas blakus fragmenta nosaukumam, lai noņemtu, un pēc tam atlasiet Miskastes simbolu.  Vai arī varat atlasīt fragmentu vizuālo lapu veidotājā un atlasīt atkritnes simbolu fragmentu rīkjoslā.
 1. Kad tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties noņemt fragmentu, atlasiet **Labi**.
 
 > [!NOTE]

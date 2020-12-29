@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097097"
+ms.locfileid: "4414193"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Varianta publicēšana un eksperimenta pabeigšana
 
@@ -43,7 +43,7 @@ Lai reklamētu labāko variantu, veiciet tālāk norādītās darbības.
 1. Dialoglodziņā **Pabeigt eksperimentu** atlasiet **Pārskatīt eksperimenta datus**. Tiek atvērts trešās puses pakalpojums, kur varat validēt rādītājus un noteikt, kurš no variantiem ir vislabākais.
 1. Dialoglodziņā **Pabeigt eksperimentu** atlasiet labāko variantu un pēc tam atlasiet **Tālāk**.
 1. Atveriet trešās puses pakalpojumu un beidziet eksperimentu.
-1. Vietnes veidotājā atlasiet **Pabeigt** , lai pārrakstītu sākotnējo tiešsaistes lapu, un publicētu labāko variantu, lai tas būtu pieejams visiem tīmekļa vietnes lietotājiem. 
+1. Vietnes veidotājā atlasiet **Pabeigt**, lai pārrakstītu sākotnējo tiešsaistes lapu, un publicētu labāko variantu, lai tas būtu pieejams visiem tīmekļa vietnes lietotājiem. 
 
 > [!NOTE]
 > Ja izvēlaties saglabāt pašreizējo tiešsaistes lapu un nepublicēt variantu, atlasiet **Pārpublicēt sākotnējo lapu**.
@@ -56,8 +56,8 @@ Lai dzēstu eksperimentu Commerce vietņu veidotājā, veiciet tālāk norādīt
 1. Kreisajā navigācijas rūtī atlasiet **Eksperimenti** un pēc tam atlasiet eksperimentu. 
     > [!NOTE]
     > Ja eksperiments joprojām ir aktīvs, pirms turpināt, beidziet eksperimentu trešās puses pakalpojumā.
-1. Komandjoslā atlasiet **Nepublicēt** , lai noņemtu varianta saturu no tiešsaistes vietnes.
-1. Atlasiet **Dzēst** , lai dzēstu eksperimentu.
+1. Komandjoslā atlasiet **Nepublicēt**, lai noņemtu varianta saturu no tiešsaistes vietnes.
+1. Atlasiet **Dzēst**, lai dzēstu eksperimentu.
 
 ## <a name="previous-step"></a>Iepriekšējā darbība
 [Eksperimenta veikšana un uzraudzība](experimentation-run-monitor.md)

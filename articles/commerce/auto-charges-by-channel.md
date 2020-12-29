@@ -16,11 +16,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175427"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414028"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automātisko maksu iespējošana un konfigurēšana katram kanālam
 
@@ -43,7 +43,7 @@ Lai iespējotu un konfigurētu automātiskās izmaksas pēc kanāla, ir jāveic 
 
 Lai aktivizētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet šādas darbības.
 
-1. Dodieties uz **Sistēmas administrēšana \> Darbvietas  \> Līdzekļu pārvaldība**.
+1. Dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
 1. Cilnē **Neiespējots**, kas atrodas sarakstā **Līdzekļa nosaukums**, atrodiet un atlasiet opciju **Iespējot filtra automātiskas izmaksas pēc kanāla**.
 1. Labajā apakšējā stūrī atlasiet opciju **Iespējot tagad**. Pēc tam, kad līdzeklis ir ieslēgts, tas tiks parādīts cilnes **Visas** sarakstā.
 1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
@@ -59,7 +59,7 @@ Tiek izveidots jauns organizācijas hierarhijas nolūks ar nosaukumu **Mazumtird
 
 Lai piešķirtu noklusējuma hierarhiju uzņēmuma hierarhijas mērķim programmā Commerce, veiciet šīs darbības.
         
-1. Dodieties uz **Organizācijas administrēšana  \> Organizācijas \> Organizācijas hierarhijas nolūki**.
+1. Dodieties uz **Organizācijas administrēšana \> Organizācijas \> Organizācijas hierarhijas nolūki**.
 1. Kreisajā rūtī atlasiet **Mazumtirdzniecības automātiskā izmaksa**.
 1. Sadaļā **Piešķirtās hierarhijas** atlasiet **Pievienot**.
 1. Dialoglodziņā **Organizācijas hierarhijas** atlasiet organizācijas hierarhiju (piemēram, **Mazumtirdzniecības veikali pēc reģiona**) un pēc tam atlasiet **Labi**.
@@ -77,7 +77,7 @@ Pēc tam, kad esat ieslēdzis līdzekli **Iespējot filtra automātiskās izmaks
 
 Lai definētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet šādas darbības.
 
-1. Pārejiet uz sadaļu **Kreditori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
+1. Pārejiet uz sadaļu **Kreditori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 1. Kreisajā rūtī laukā **Līmenis** izvēlieties vai nu **Galveni** vai **Rindu** atkarībā no jūsu biznesa vajadzībām.
 1. Laukā **Mazumtirdzniecības kanāla kods** izvēlieties atbilstošo kanāla kodu (piemēram, **Tabula** vai **Grupa**). Ja tiek izmantots noklusētais iestatījums **Visi**, izmaksas noteikumi tiek piemēroti visiem kanāliem.
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014890"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4414206"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demonstrācijas datu ekrāna izkārtojumi programmā Modern POS (MPOS) un Cloud POS
 
@@ -64,6 +64,7 @@ Ekrāna izkārojuma ID var būt ietvertas ne vairāk kā 10 rakstzīmes. ID i
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Pamata versija, kas atbalsta vairākus ekrāna izmērus un ir piemērota dažādām ierīcēm un proporcijām |
 | 3.1            | Pamata versija ar papildu paneļa **Ieteiktās preces** atbalstu        |
+| 4              | Paplašinātā versija paplašinātajam Fabrikam atjauninātajam izkārtojumam                                  |
 
 ### <a name="persona"></a>Persona
 
@@ -75,9 +76,9 @@ Ekrāna izkārojuma ID var būt ietvertas ne vairāk kā 10 rakstzīmes. ID i
 
 ### <a name="example-layout"></a>Izkārtojuma piemērs
 
-Tālāk ir sniegts ekrāna izkārtojuma ID, kam atbilst uzņēmuma Fabrikam versijas 3 izkārtojums, kas ir paredzēts veikala vadītājam.
+Tālāk ir sniegts ekrāna izkārtojuma ID, kam atbilst uzņēmuma Fabrikam versijas 4 izkārtojums, kas ir paredzēts veikala vadītājam.
 
-F3MGR
+F4MGR
 
 Tālāk esošajā attēlā ir redzams Fabrikam veikala vadītāja sveiciena ekrāna piemērs.
 
@@ -90,7 +91,7 @@ Tālāk esošajā attēlā ir redzams Fabrikam veikala vadītāja sveiciena ekr�
 Ekrāna izkārtojumam var būt pieejamas pilna lieluma ierīcēm un kompaktām ierīcēm paredzētas konfigurācijas. Tāpēc lietotāju var piešķirt vienam ekrāna izkārtojumam, kas ir piemērots veikalā izmantotajām dažāda lieluma un formas ierīcēm.
 
 - **Modern POS — pilns** — parasti pilnie izkārtojumi ir vispiemērotākie lielākiem displejiem, piemēram, personālo datoru monitoriem vai planšetdatoriem. Lietotāji var atlasīt izkārtojumā ietvertos lietotāja interfeisa elementus, norādīt šo elementu lielumu un novietojumu un konfigurēt to detalizētos rekvizītus. Pilnie izkārtojumi atbalsta gan portreta, gan ainavorientācijas konfigurācijas.
-- **Modern POS — kompakts**  — parasti kompaktie izkārtojumi ir vispiemērotākie tālruņiem vai maziem planšetdatoriem. Kompaktā izkārtojuma ierīcēm ir ierobežotas izstrādes iespējas. Lietotāji var konfigurēt saņemšanas rūts un kopsummu rūts kolonnas un laukus.
+- **Modern POS — kompakts** — parasti kompaktie izkārtojumi ir vispiemērotākie tālruņiem vai maziem planšetdatoriem. Kompaktā izkārtojuma ierīcēm ir ierobežotas izstrādes iespējas. Lietotāji var konfigurēt saņemšanas rūts un kopsummu rūts kolonnas un laukus.
 
 ### <a name="screen-resolutions-that-are-provided"></a>Nodrošinātās ekrāna izšķirtspējas
 
@@ -103,8 +104,9 @@ Tālāk esošajā tabulā ir norādīti standarta ekrāna izšķirtspējām nodr
 | Pilns\*      | 1280 × 720 | 16:9         | Planšetdatori                 |
 | Pilns        | 1366 × 768 | 16:9         | Planšetdatori ar lieliem ekrāniem |
 | Pilns        | 1440 × 960 | 3:2          | Planšetdatori ar lieliem ekrāniem |
+| Pilns\*      | 1536 x 864 | 16:9         | Planšetdatori ar lieliem ekrāniem |
 
-\* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.
+\* Šie papildu izkārtojumu lielumi ir pieejami tikai Adventure Works un Fabrikam izkārtojumiem.
 
 > [!TIP]
 > POS sistēmā tiek automātiski atlasīts izkārtojuma lielums, izvēloties pašreizējās programmas loga ekrāna izšķirtspējai tuvāko pieejamo lielumu. Lai uzzinātu pašlaik izmantotā ekrāna izkārtojuma ID un izšķirtspēju, programmā Modern POS (MPOS) vai Retail Cloud POS (CPOS) atvariet lapu **Iestatījumi** un skatiet sadaļu **Sesijas informācija**. Varat arī skatīt pašreizējās programmas vai pārlūkprogrammas rāmja faktisko loga izšķirtspēju. Kad esat uzzinājis šo informāciju, varat skatīt izkārtojuma satura avotu, pārejot uz sadaļu **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS** \> **Ekrāna izkārtojumi**.
@@ -120,7 +122,7 @@ Katrs fiktīvais uzņēmums ir paredzēts atšķirīgam mazumtirdzniecības segm
 | Uzņēmums         | Novietojums | Segments        | Izcelt | Tēma |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Sietla  | Sporta preces | Zilā   | Tumšs  |
-| Fabrikam        | Hjūstona  | Mode        | Zaļā  | Gaiša |
+| Fabrikam        | Sanfrancisko  | Mode        | Zaļā  | Gaišs |
 | Contoso         | Bostona   | Elektropreces    | Sarkanā    | Tumšs  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Dažādajiem ekrāna izkārtojumiem ir nodrošināti lietotāji. Izmantojot tāl
 | Adventure Works | A3MGR            | veikala vadītājs; | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Kasieris       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Noliktavas darbinieks   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | veikala vadītājs; | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | veikala vadītājs; | 000160, 000713         |
 | Fabrikam        | F3CSH            | Kasieris       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Noliktavas darbinieks   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | veikala vadītājs; | 000100, 000111         |

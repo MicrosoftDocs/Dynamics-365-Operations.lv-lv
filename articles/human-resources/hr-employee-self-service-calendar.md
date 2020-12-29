@@ -2,8 +2,8 @@
 title: Darba grupas kalendāra izveide
 description: Skatiet un izveidojiet darba grupas kalendārus sadaļā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969002"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419633"
 ---
 # <a name="view-team-and-company-calendars"></a>Skatīt grupas un uzņēmuma kalendārus
 
@@ -37,7 +37,7 @@ Programmā Dynamics 365 Human Resources varat skatīt darba grupas un uzņēmuma
 
 1. Darbvietā **Nodarbinātā patstāvīgi izmantojamie pakalpojumi** atlasiet **Mana komanda**.
 
-2. Atlasiet **Atvaļinājums un prombūtne**un pēc tam atlasiet **Skatīt pārvaldnieka prombūtnes kalendāru**.
+2. Atlasiet **Atvaļinājums un prombūtne** un pēc tam atlasiet **Skatīt pārvaldnieka prombūtnes kalendāru**.
 
 Pārvaldnieki var piekļūt arī grupas kalendāram no sadaļām **Manas komandas gaidošie prombūtnes pieprasījumi**, **Apstiprinātām brīvdienām** un **Brīvdienu pieprasījumi**. 
 
@@ -64,6 +64,11 @@ Kalendāros tagad ir papildu filtri un opcijas. Visos kalendāros ir skatījuma 
 Kalendāra konfigurācija sadaļā Atvaļinājumu un prombūtnes parametri nosaka pieejamās skata opcijas.
 
 Kalendārus var filtrēt arī pēc vadītāja vai nodaļas. Primārā pozīcijas piešķire nosaka darbiniekus, kas tiek rādīti, kad šie filtri ir iestatīti. 
+
+>[!IMPORTANT]
+>Pašlaik priekšskatījumā tiek apskatīts atvaļinājums un prombūtne uzņēmumos. Jums vajadzēs iespējot to savā **Smilškastes** vidē. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br><br>
+>Pēc tam iespējojiet līdzekli **Personāla vadības koplietotajos parametros**, lai rādītu juridisko personu filtru kalendāros. Papildinformāciju skatiet [Atvaļinājumu un prombūtnes parametru konfigurēšana](hr-leave-and-absence-parameters.md).<br><br>
+>Kalendāru var filtrēt pēc juridiskās personas. Ja vēlaties redzēt visus darbiniekus neatkarīgi no juridiskās personas, nodzēsiet filtru lodziņu un atlasiet funkciju Ievadīt. 
 
 Lai iegūtu informāciju par kalendāra iestatījumiem, skatiet [Kalendāra parametru konfigurēšana](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

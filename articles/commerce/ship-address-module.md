@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7233b23020e6c82f39981d530095642902461807
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818402"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414211"
 ---
 # <a name="shipping-address-module"></a>Piegādes adreses modulis
 
@@ -63,9 +63,11 @@ Piegādes adreses moduli var pievienot tikai norēķināšanās modulim. Lai ieg
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Maksājuma modulis](payment-module.md)
+[Maksājumu modulis](payment-module.md)
 
 [Piegādes opciju modulis](delivery-options-module.md)
+
+[Saņemšanas informācijas modulis](pickup-info-module.md)
 
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 

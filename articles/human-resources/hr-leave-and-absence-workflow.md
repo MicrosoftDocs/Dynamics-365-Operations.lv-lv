@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 209f0ec7236778cc0a828102e554b02206b45b73
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428689"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419484"
 ---
 # <a name="create-a-leave-request-workflow"></a>Atvaļinājuma pieprasījuma darbplūsmas izveide
 
@@ -39,7 +39,7 @@ Varat sistēmā Dynamics 365 Human Resources izveidot darbplūsmu, lai konsekven
 
 2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības darbplūsmas**.
 
-3. Atlasiet **Jauna**un pēc tam atlasiet **Atvaļinājuma un prombūtnes pieprasījums**. 
+3. Atlasiet **Jauna** un pēc tam atlasiet **Atvaļinājuma un prombūtnes pieprasījums**. 
 
 4. Kad parādās ziņojuma lodziņš **Vai atvērt šo failu?**, atlasiet **Atvērt** un piesakieties ar sava uzņēmuma akreditācijas datiem.
 

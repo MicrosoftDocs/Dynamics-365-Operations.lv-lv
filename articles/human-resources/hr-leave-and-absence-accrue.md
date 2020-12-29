@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712172"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419604"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uzkrāt atvaļinājumu un kavējumu plānus
 
@@ -33,7 +33,7 @@ Varat uzkrāt atvaļinājumu un prombūtni Dynamics 365 Human Resources vairāki
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-2. Sadaļā **Pārvaldīt atvaļinājumu**atlasiet **Uzkrāt atvaļinājumu un prombūtnes plānus**.
+2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Uzkrāt atvaļinājumu un prombūtnes plānus**.
 
 3. Tiek atvērts dialoglodziņš **Uzkrāt atvaļinājumu un prombūtnes plānus**. Sadaļā **Uzkrāt no** atlasiet vai nu **Šodienas datumu**, vai nu **Pielāgotu datumu** un ievadiet pielāgotu datumu.
 
@@ -75,7 +75,7 @@ Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu
 
 1. Lapā **Atvaļinājums un prombūtne** atlasiet cilni **Saites**.
 
-2. Sadaļā **Pārvaldīt atvaļinājumu**atlasiet **Dzēst atvaļinājumu un prombūtnes plānu uzkrājumus**.
+2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Dzēst atvaļinājumu un prombūtnes plānu uzkrājumus**.
 
 3. Dialoglodziņā **Dzēst atvaļinājumu un prombūtnes plānu uzkrājumus** atlasiet **Atvaļinājumu plāns**. 
 

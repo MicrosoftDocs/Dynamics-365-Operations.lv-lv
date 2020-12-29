@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107211"
+ms.locfileid: "4414199"
 ---
 # <a name="store-order-fulfillment"></a>Veikala pasūtījumu izpilde
 
@@ -38,15 +38,15 @@ Pasūtījumu izpildes operācija pārdošanas punktā nodrošina vienu darba apg
 
 Pasūtījumu izpildi, [Operācijas ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), var izmantot, lai piekļūtu veikala pasūtījumu izpildes darba apgabalam pārdošanas punktā.
 
-Standarta konfigurācijā pasūtījumu izpildes operācijai nav pašai savas atļaujas, bet nākotnē lietotāji varēs izmantot atļauju **Ļaut izgūt pasūtījumu** , lai izsauktu šo operāciju no pārdošanas punkta.
+Standarta konfigurācijā pasūtījumu izpildes operācijai nav pašai savas atļaujas, bet nākotnē lietotāji varēs izmantot atļauju **Ļaut izgūt pasūtījumu**, lai izsauktu šo operāciju no pārdošanas punkta.
 
-Veikala līmenī ir pieejams konfigurācijas iestatījums, kurš nosaka, vai pasūtījuma rinda pārdošanas punktā ir jāpieņem manuāli. Ja šī konfigurācijas opcija nav iestatīta, pasūtījuma rindas tiks pieņemtas pēc noklusējuma. Ja šī konfigurācijas opcija ir ieslēgta, lietotājiem pārdošanas punktā ir nepieciešams atlasīt atļauju **Atļaut pieņemt pasūtījumu** , lai pieņemtu pasūtījumus no šī pārdošanas punkta.
+Veikala līmenī ir pieejams konfigurācijas iestatījums, kurš nosaka, vai pasūtījuma rinda pārdošanas punktā ir jāpieņem manuāli. Ja šī konfigurācijas opcija nav iestatīta, pasūtījuma rindas tiks pieņemtas pēc noklusējuma. Ja šī konfigurācijas opcija ir ieslēgta, lietotājiem pārdošanas punktā ir nepieciešams atlasīt atļauju **Atļaut pieņemt pasūtījumu**, lai pieņemtu pasūtījumus no šī pārdošanas punkta.
 
 Pasūtījuma rindas pārdošanas punktā var arī noraidīt. Pasūtījuma rindas noraidīšana norāda, ka tā netiks izpildīta šajā veikalā, un attiecīgā pasūtījuma rinda tiek sūtīta atpakaļ, lai to pārpiešķirtu citam veikalam vai noliktavai. Pasūtījuma rindas noraidīšanas atļauja tiek piešķirta ar atļauju **Atļaut pasūtījumu noraidīt**.
 
 ## <a name="order-fulfillment-operation-parameters"></a>Pasūtījumu izpildes operācijas parametri
 
-Pasūtījumu izpilde nodrošina standarta komplektācijā ietvertos parametrus, kurus operācijai var lietot, kad šī operācija tiek izsaukta pārdošanas punktā. Ja ir konfigurēts parametrs **Visi pasūtījumi** , kad tiek lietota šī operācija, tiek rādīti visi pasūtījumi. Parametrs **Nosūtāmie pasūtījumi** rāda tikai pasūtījumus, kas ir jānosūta no veikala, un parametrs **Izdodamie pasūtījumi** rāda pasūtījumus, kurus ir paredzēts izdot veikalā.
+Pasūtījumu izpilde nodrošina standarta komplektācijā ietvertos parametrus, kurus operācijai var lietot, kad šī operācija tiek izsaukta pārdošanas punktā. Ja ir konfigurēts parametrs **Visi pasūtījumi**, kad tiek lietota šī operācija, tiek rādīti visi pasūtījumi. Parametrs **Nosūtāmie pasūtījumi** rāda tikai pasūtījumus, kas ir jānosūta no veikala, un parametrs **Izdodamie pasūtījumi** rāda pasūtījumus, kurus ir paredzēts izdot veikalā.
 
 ## <a name="orders-for-fulfillment"></a>Izpildāmie pasūtījumi
 
@@ -64,15 +64,15 @@ Ja ir atlasītas vairākas rindas, pasūtījuma rindas informācijas uznirstoš�
 
 ## <a name="pending-order-lines"></a>Gaidošo pasūtījumu rindas
 
-Vienotā pasūtījumu izpilde ietver spēju pieņemt pasūtījumus manuāli. Pēc noklusējuma veikalā izpildāmie pasūtījumi jau ir pieņemti. Taču, ja biznesa procesi nosaka, ka pasūtījumi ir jāpieņem darbiniekam veikala līmenī, manuālo pieņemšanu var ieslēgt mazumtirdzniecības veikala līmenī. Lai aktivizētu pasūtījuma pieņemšanu, dodieties uz sadaļu **Retail un Commerce** \> **Kanāli** \> **Veikali** \> **Visi mazumtirdzniecības veikali**. Atveriet nepieciešamo veikalu un cilnē **Vispārīgi** atrodiet apakšvirsrakstu **Pasūtījumu izpilde**. Šim apakšvirsrakstam ir opcija **Manuāla pieņemšana** , kas pēc noklusējuma ir iestatīta uz **Nē**. Šo opciju iestatot uz **Jā** un izmaiņas sinhronizējot ar kanāla datu bāzi, pasūtījumu rindām var veikt pieņemšanas procesu.
+Vienotā pasūtījumu izpilde ietver spēju pieņemt pasūtījumus manuāli. Pēc noklusējuma veikalā izpildāmie pasūtījumi jau ir pieņemti. Taču, ja biznesa procesi nosaka, ka pasūtījumi ir jāpieņem darbiniekam veikala līmenī, manuālo pieņemšanu var ieslēgt mazumtirdzniecības veikala līmenī. Lai aktivizētu pasūtījuma pieņemšanu, dodieties uz sadaļu **Retail un Commerce** \> **Kanāli** \> **Veikali** \> **Visi mazumtirdzniecības veikali**. Atveriet nepieciešamo veikalu un cilnē **Vispārīgi** atrodiet apakšvirsrakstu **Pasūtījumu izpilde**. Šim apakšvirsrakstam ir opcija **Manuāla pieņemšana**, kas pēc noklusējuma ir iestatīta uz **Nē**. Šo opciju iestatot uz **Jā** un izmaiņas sinhronizējot ar kanāla datu bāzi, pasūtījumu rindām var veikt pieņemšanas procesu.
 
-Darbinieki, kuriem ir atļauja **Atļaut pieņemt pasūtījumu** , var atvērt pasūtījumu izpildi un atlasīt rindas pieņemšanai. Kad rindas ir pieņemtas, to stāvoklis no **Gaida** mainās uz **Pieņemts** un var turpināties pārējais pasūtījumu izpildes process. Ja ir ieslēgta opcija **Manuāla pieņemšana** , pasūtījumi tiek apstrādāti tikai pēc to pieņemšanas.
+Darbinieki, kuriem ir atļauja **Atļaut pieņemt pasūtījumu**, var atvērt pasūtījumu izpildi un atlasīt rindas pieņemšanai. Kad rindas ir pieņemtas, to stāvoklis no **Gaida** mainās uz **Pieņemts** un var turpināties pārējais pasūtījumu izpildes process. Ja ir ieslēgta opcija **Manuāla pieņemšana**, pasūtījumi tiek apstrādāti tikai pēc to pieņemšanas.
 
 Pasūtījumiem, ko paredzēts izdot veikalā, nekad nav stāvokļa **Gaida**. Tas tiek darīts tādēļ, lai nepieļautu scenāriju, kad debitors ierodas veikalā, bet pasūtījuma rindu nevar apstrādāt, jo nav pieejams darbinieks, kuram ir atbilstoša atļauja.
 
 ## <a name="accepted-order-lines"></a>Pieņemtās pasūtījumu rindas
 
-Pasūtījumiem, kuriem rindas statuss ir **Pieņemts** , var turpināties pārējais pasūtījumu izpildes process pārdošanas punktā. Kad pasūtījums ir pieņemts, visas atlikušās darbības var veikt attiecībā pret pasūtījuma rindu.
+Pasūtījumiem, kuriem rindas statuss ir **Pieņemts**, var turpināties pārējais pasūtījumu izpildes process pārdošanas punktā. Kad pasūtījums ir pieņemts, visas atlikušās darbības var veikt attiecībā pret pasūtījuma rindu.
 
 Piemēram, pieņemtu pasūtījuma rindu var atlasīt un pēc tam izdot tiešā veidā, nevis izpildot izdošanu un iepakošanu.
 
@@ -105,13 +105,13 @@ Ja ir atlasītas rindas un šīm rindām tiek drukāts izdošanas saraksts, tās
 - **Iegūtais statuss:** izdots vai daļēji izdots
 - **Iegūtais iekšējās uzskaites daļas statuss:** izdots vai daļēji izdots
 
-Kad fiziskais izdošanas process ir izpildīts, rindas var atzīmēt kā **Izdots**. tlasot rindu un atzīmējot ar statusu **Izdots** , tiek veikts reāllaika pieprasījums atjaunināt šo pasūtījuma rindu. Kad rinda pārdošanas punktā tiek atzīmēta kā **Izdots** , tās statuss iekšējās uzskaites daļā arī tiek atjaunināts uz **Izdots** un krājumu transakcijas norāda, ka krājumu daudzums ir samazinājies par norādīto daudzumu.
+Kad fiziskais izdošanas process ir izpildīts, rindas var atzīmēt kā **Izdots**. tlasot rindu un atzīmējot ar statusu **Izdots**, tiek veikts reāllaika pieprasījums atjaunināt šo pasūtījuma rindu. Kad rinda pārdošanas punktā tiek atzīmēta kā **Izdots**, tās statuss iekšējās uzskaites daļā arī tiek atjaunināts uz **Izdots** un krājumu transakcijas norāda, ka krājumu daudzums ir samazinājies par norādīto daudzumu.
 
 Kad pasūtījumi tiek apstrādāti laika gaitā, daļējus daudzumus var apstrādāt konkrētai rindai. Ja ir atlasīta kāda rinda, tiek veikta darbība **Atzīmēt kā izdotu** un daudzums ir lielāks par vienu, lietotājam tiek parādīts aicinājums norādīt daudzumu. Atlikušais daudzums, ko ir paredzēts izdot, tiek aizpildīts automātiski. Ja norādītais daudzums ir mazāks par atlikušo daudzumu, rindas statuss mainās uz **Daļēji izdots**. Kad šī pasūtījuma rinda tiek atjaunināta iekšējās uzskaites daļā, tā atspoguļo arī daļēji izdoto statusu un krājumu atjaunināšanai tiek izmantots lietotāja ievadītais daudzums.
 
 Ja pasūtījuma rinda tiek izdota kļūdaini, izdošanas procesa anulēšana šai pasūtījuma rindai ir jāveic iekšējās uzskaites daļā. Pārdošanas punktā pašlaik netiek atbalstīta nekāda izdošanas anulēšanas darbība.
 
-Pasūtījumu rindas no dažādiem pasūtījumiem var atlasīt un atzīmēt kā **Izdošana** , izdrukāt vienā un tajā pašā izdošanas sarakstā vai atzīmēt kā **Izdots**.
+Pasūtījumu rindas no dažādiem pasūtījumiem var atlasīt un atzīmēt kā **Izdošana**, izdrukāt vienā un tajā pašā izdošanas sarakstā vai atzīmēt kā **Izdots**.
 
 ### <a name="pack"></a>Iepakot
 
@@ -129,7 +129,7 @@ Pasūtījumu rindas var iepakot jebkurā brīdī pēc tam, kad attiecīgā pasū
 - **Iegūtais statuss:** iepakots vai daļēji iepakots
 - **Iegūtais iekšējās uzskaites daļas statuss:** piegādāts vai daļēji piegādāts
 
-Darbību **Atzīmēt kā iepakotu** var izmantot, lai norādītu, ka rindas ir iepakotas, nedrukājot pavadzīmi. Gan darbība **Drukāt pavadzīmi** , gan darbība **Atzīmēt kā iepakotu** izveido krājumu transakcijas iekšējās uzskaites daļā. Iepakošanas rindas pārdošanas punktā izraisa pavadzīmju žurnālu ģenerēšanu iekšējās uzskaites daļā.
+Darbību **Atzīmēt kā iepakotu** var izmantot, lai norādītu, ka rindas ir iepakotas, nedrukājot pavadzīmi. Gan darbība **Drukāt pavadzīmi**, gan darbība **Atzīmēt kā iepakotu** izveido krājumu transakcijas iekšējās uzskaites daļā. Iepakošanas rindas pārdošanas punktā izraisa pavadzīmju žurnālu ģenerēšanu iekšējās uzskaites daļā.
 
 Ja kāda pasūtījuma rinda ir iepakota kļūdaini, attiecīgais pavadzīmju žurnāls ir jāizlabo iekšējās uzskaites daļā.
 
@@ -180,7 +180,7 @@ Rindas vai daļējas rindas var noraidīt. Šī opcija ļauj mainīt rindu pieš
 - **Iegūtais statuss:** noraidīts
 - **Iegūtais iekšējās uzskaites daļas statuss:** bez izmaiņām
 
-Noraidītās pasūtījumu rindas var skatīt no darbvietas **Pārdošanas pasūtījuma apstrāde un pieprasījums**. Darbvietā notīriet personu filtru, lai skatītu visas noraidītās pasūtījumu rindas dažādos veikalos. Cilnē **Noraidītās pasūtījumu rindas** , kas atrodas zem sadaļas **Pasūtījumi un izlase** , tiek rādīta detalizēta informācija par pasūtījumu rindām. Turklāt lietotāji var noklikšķināt uz pogas **Noraidītās pasūtījumu rindas** zem sadaļas **Kopsavilkums** , lai pārietu uz pārdošanas pasūtījumu skatu. Tajā tiek rādīti visi pasūtījumi, kuros ir viena vai vairākas noraidītās pasūtījumu rindas. Ja ir iespējota opcija Sadalīto pasūtījumu pārvaldība (Distributed Order Management — DOM), šie noraidītie pasūtījumi tiks automātiski pārpiešķirti izpildīšanai atbilstošajiem veikaliem, taču šīs pasūtījumu rindas var pārpiešķirt arī manuāli. Lai to izdarītu, atlasiet rindu, kurai **Izpildes statuss** tiek rādīts kā **Noraidīts** , un pēc nepieciešamības mainiet vietu/noliktavu. Noklikšķiniet uz nolaižamās izvēlnes **Atjaunināt rindu** un noklikšķiniet uz **Atiestatīt izpildes statusu** , lai atkarībā no pasūtījumu izpildes iestatījumiem šo izpildes statusu no **Noraidīts** mainītu uz **Pieņemts** vai **Gaida**. Pēc izpildes statusa atiestatīšanas veikala darbinieki šīs pasūtījuma rindas var skatīt pārdošanas punktā.
+Noraidītās pasūtījumu rindas var skatīt no darbvietas **Pārdošanas pasūtījuma apstrāde un pieprasījums**. Darbvietā notīriet personu filtru, lai skatītu visas noraidītās pasūtījumu rindas dažādos veikalos. Cilnē **Noraidītās pasūtījumu rindas**, kas atrodas zem sadaļas **Pasūtījumi un izlase**, tiek rādīta detalizēta informācija par pasūtījumu rindām. Turklāt lietotāji var noklikšķināt uz pogas **Noraidītās pasūtījumu rindas** zem sadaļas **Kopsavilkums**, lai pārietu uz pārdošanas pasūtījumu skatu. Tajā tiek rādīti visi pasūtījumi, kuros ir viena vai vairākas noraidītās pasūtījumu rindas. Ja ir iespējota opcija Sadalīto pasūtījumu pārvaldība (Distributed Order Management — DOM), šie noraidītie pasūtījumi tiks automātiski pārpiešķirti izpildīšanai atbilstošajiem veikaliem, taču šīs pasūtījumu rindas var pārpiešķirt arī manuāli. Lai to izdarītu, atlasiet rindu, kurai **Izpildes statuss** tiek rādīts kā **Noraidīts**, un pēc nepieciešamības mainiet vietu/noliktavu. Noklikšķiniet uz nolaižamās izvēlnes **Atjaunināt rindu** un noklikšķiniet uz **Atiestatīt izpildes statusu**, lai atkarībā no pasūtījumu izpildes iestatījumiem šo izpildes statusu no **Noraidīts** mainītu uz **Pieņemts** vai **Gaida**. Pēc izpildes statusa atiestatīšanas veikala darbinieki šīs pasūtījuma rindas var skatīt pārdošanas punktā.
 
 ## <a name="line-quantity-tracking"></a>Rindas daudzuma izsekošana
 
@@ -194,17 +194,17 @@ Turpinot izmantot iepriekš minēto piemēru — ja 200 dēļi ir atzīmēti k
 
 Pasūtījumu rindām pārdošanas punktā ir vairāki statusi, kas atspoguļo pasūtījuma rindas stāvokli. Ne vienmēr statuss pārdošanas punktā sakrīt ar statusu iekšējās uzskaites daļā. Pasūtījuma rindas statusu var apskatīt, izmantojot pārdošanas punkta pasūtījumu izpildes operācijas. Iekšējās uzskaites daļā pasūtījumu rindas var apskatīt no attiecīgā pasūtījuma informācijas. Pasūtījuma informācijai var piekļūt, dodoties uz sadaļu **Retail un Commerce** \> **Debitori** \> **Visi debitoru pasūtījumi**. Lai apskatītu detalizētu informāciju par pasūtījumu, atlasiet **Pasūtījuma ID**. Pasūtījuma informācijā atlasiet cilni **Pārdošanas pasūtījums** un pēc tam zem apakšvirsraksta **Skatīt** atlasiet **Detalizēts statuss**.
 
-- **Gaida**  — pasūtījumu rindām, kas ir piešķirtas kādam veikalam, bet vēl nav pieņemtas, ir statuss **Gaida** , kad tās tiek skatītas pārdošanas punktā. Rindām, kas gaida pieņemšanu pārdošanas punktā, iekšējās uzskaites daļā ir statuss **Pasūtījuma apstrādāšana**.
-- **Pieņemts**  — pasūtījumu rindām, kas ir manuāli pieņemtas vai automātiski pieņemtas, ir statuss **Pieņemts** , kad tās tiek skatītas pārdošanas punktā. Rindas ar statusu **Pieņemts** iekšējās uzskaites daļā tiek rādītas kā **Pasūtījuma apstrādāšana**.
-- **Izdošana**  — rindām, kas pašlaik tiek izdotas veikala līmenī, ir statuss **Izdošana**. Šīs pašas rindas, tās skatot no iekšējās uzskaites daļas, tiek rādītas kā **Pasūtījuma apstrādāšana**.
-- **Izdots** un **Daļēji izdots**  — rindām, kas ir izdotas vai daļēji izdotas, pārdošanas punktā ir statuss **Izdots** vai **Daļēji izdots**. Šīs pašas rindas iekšējās uzskaites daļā arī tiek rādītas ar statusu **Izdots** vai **Daļēji izdots**.
-- **Iepakots** un **Daļēji iepakots**  — rindām, kas ir iepakotas vai daļēji iepakotas, pārdošanas punktā ir statuss **Iepakots** vai **Daļēji iepakots**. Šīs pašas rindas iekšējās uzskaites daļā arī tiek rādītas ar statusu **Piegādāts** vai **Daļēji piegādāts**.
-- **Daļēji iekļauts rēķinā**  — rindām, kas ir daļēji izdotas vai daļēji nosūtītas, gan pārdošanas punktā, gan iekšējās uzskaites daļā ir statuss **Daļēji iekļauts rēķinā**.
-- **Iekļauts rēķinā**  — rindas, kas ir pilnīgi iekļautas rēķinā, pārdošanas punktā vairs netiek rādītas izpildei. Iekšējās uzskaites daļā šo rindu statuss ir **Iekļauts rēķinā**.
+- **Gaida** — pasūtījumu rindām, kas ir piešķirtas kādam veikalam, bet vēl nav pieņemtas, ir statuss **Gaida**, kad tās tiek skatītas pārdošanas punktā. Rindām, kas gaida pieņemšanu pārdošanas punktā, iekšējās uzskaites daļā ir statuss **Pasūtījuma apstrādāšana**.
+- **Pieņemts** — pasūtījumu rindām, kas ir manuāli pieņemtas vai automātiski pieņemtas, ir statuss **Pieņemts**, kad tās tiek skatītas pārdošanas punktā. Rindas ar statusu **Pieņemts** iekšējās uzskaites daļā tiek rādītas kā **Pasūtījuma apstrādāšana**.
+- **Izdošana** — rindām, kas pašlaik tiek izdotas veikala līmenī, ir statuss **Izdošana**. Šīs pašas rindas, tās skatot no iekšējās uzskaites daļas, tiek rādītas kā **Pasūtījuma apstrādāšana**.
+- **Izdots** un **Daļēji izdots** — rindām, kas ir izdotas vai daļēji izdotas, pārdošanas punktā ir statuss **Izdots** vai **Daļēji izdots**. Šīs pašas rindas iekšējās uzskaites daļā arī tiek rādītas ar statusu **Izdots** vai **Daļēji izdots**.
+- **Iepakots** un **Daļēji iepakots** — rindām, kas ir iepakotas vai daļēji iepakotas, pārdošanas punktā ir statuss **Iepakots** vai **Daļēji iepakots**. Šīs pašas rindas iekšējās uzskaites daļā arī tiek rādītas ar statusu **Piegādāts** vai **Daļēji piegādāts**.
+- **Daļēji iekļauts rēķinā** — rindām, kas ir daļēji izdotas vai daļēji nosūtītas, gan pārdošanas punktā, gan iekšējās uzskaites daļā ir statuss **Daļēji iekļauts rēķinā**.
+- **Iekļauts rēķinā** — rindas, kas ir pilnīgi iekļautas rēķinā, pārdošanas punktā vairs netiek rādītas izpildei. Iekšējās uzskaites daļā šo rindu statuss ir **Iekļauts rēķinā**.
 
 ## <a name="order-fulfillment-filtering"></a>Pasūtījuma izpildes filtrēšana
 
-Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu lietotājam ērti atrast nepieciešamo. Filtrus var mainīt, izmantojot darbību rūti, kas atrodas ekrāna **Pārdošanas punkts** apakšā. Pēc noklusējuma tiek lietots filtrs **Piegādes veids** , pamatojoties uz veidu, kā attiecīgā operācija ir iestatīta. Ja operācija ir iestatīta ar parametru **Visi pasūtījumi** , šis filtrs tiek lietots, kad piekļūstat pasūtījumu izpildei. Tas pats attiecas uz parametriem **Izdot veikalā** un **Nosūtīt no veikala**. Tālāk ir uzskaitīti citi filtri, kurus var lietot pasūtījumu izpildes skatīšanai.
+Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu lietotājam ērti atrast nepieciešamo. Filtrus var mainīt, izmantojot darbību rūti, kas atrodas ekrāna **Pārdošanas punkts** apakšā. Pēc noklusējuma tiek lietots filtrs **Piegādes veids**, pamatojoties uz veidu, kā attiecīgā operācija ir iestatīta. Ja operācija ir iestatīta ar parametru **Visi pasūtījumi**, šis filtrs tiek lietots, kad piekļūstat pasūtījumu izpildei. Tas pats attiecas uz parametriem **Izdot veikalā** un **Nosūtīt no veikala**. Tālāk ir uzskaitīti citi filtri, kurus var lietot pasūtījumu izpildes skatīšanai.
 
 - Klienta numurs
 - Debitora nosaukums

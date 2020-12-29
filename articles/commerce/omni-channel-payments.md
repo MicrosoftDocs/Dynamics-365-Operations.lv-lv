@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
 ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819817"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414171"
 ---
 # <a name="omni-channel-payments-overview"></a>Visu kanālu maksājumu apskats
 
@@ -136,7 +136,7 @@ Lai palaistu šo scenāriju, izpildiet tālāk aprakstītās darbības.
 5. Jaunā pārdošanas pasūtījuma lapā atlasiet **Virsraksts**, lai apskatītu pasūtījuma virsrakstu. 
 6. Lapā **Pasūtījuma virsraksts** iestatiet vietu uz **Centrāle** un noliktavu uz **Hjūstona**.
 7. Cilnē **Piegādāt** lauku **Piegādes veids** iestatiet uz **60** izsniegšanai klientiem.
-8. Atlasiet **Rindas**un pēc tam pievienojiet pasūtījumam vienu vai vairākas rindas. 
+8. Atlasiet **Rindas** un pēc tam pievienojiet pasūtījumam vienu vai vairākas rindas. 
 9. Atlasiet **Pabeigt**, lai pasūtījumu ievadītu pabeigšanas plūsmā.
 10. Ritiniet uz leju līdz maksājumu sadaļai, atlasiet **Pievienot** un pēc tam atlasiet rindu, kur maksāšanas metodes tips ir iestatīts uz **Kartes**. 
 11. Atlasiet plus zīmi (**+**), lai pievienotu kartes maksājumu. 

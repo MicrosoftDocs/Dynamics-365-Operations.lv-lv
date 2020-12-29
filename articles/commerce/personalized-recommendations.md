@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
-ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3700870"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414021"
 ---
 # <a name="enable-personalized-recommendations"></a>Personalizētu ieteikumu iespējošana
 
@@ -101,7 +101,7 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 1. Atveriet esošu vietnes noformētāja lapu, kas satur preču ievākšanas moduli.
 1. Navigācijas rūtī kreisajā pusē atlasiet produkta ievākšanas moduli.
 1. Navigācijas rūtī labajā pusē sadaļā **Preces** atlasiet sarakstu.
-1. Dialoglodziņā **Atlasīt preču saraksta konfigurāciju** sadaļā **Veids**atlasiet saraksta veidu.
+1. Dialoglodziņā **Atlasīt preču saraksta konfigurāciju** sadaļā **Veids** atlasiet saraksta veidu.
 1. Atzīmējiet izvēles rūtiņu **Piemērot personalizāciju** un pēc tam atlasiet **Labi**.
 
     ![Personalizācijas piemērošana populāru preču sarakstam](./media/ApplyPersonalizationToTrending.PNG)

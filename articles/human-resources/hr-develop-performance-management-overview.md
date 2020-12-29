@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628457"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419556"
 ---
 # <a name="performance-management"></a>Veiktspējas pārvaldība
 
@@ -132,7 +132,7 @@ Darbplūsmu Nodarbināto pārskats varat izmantot, lai kontrolētu pārskata aps
 
 1.  Kad pārskats tiek izveidots, tā statuss ir iestatīts uz **Nav sākts**. Šo pārskatu var rediģēt ikviens.
 
-2.  Kad darbinieks nospiež pogu **Sākt pārskatu**, pārskata statuss tiek iestatīts uz**Notiek**. Pēc tam darbinieks sāk pievienot saturu. Šajā brīdī vadītājs vairs nevar skatīt pārskata dokumentu.
+2.  Kad darbinieks nospiež pogu **Sākt pārskatu**, pārskata statuss tiek iestatīts uz **Notiek**. Pēc tam darbinieks sāk pievienot saturu. Šajā brīdī vadītājs vairs nevar skatīt pārskata dokumentu.
 
 3.  Darbinieks statusu maina uz **Gatavs pārskatīšanai**.
 

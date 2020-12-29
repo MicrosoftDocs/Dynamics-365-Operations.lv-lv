@@ -1,5 +1,5 @@
 ---
-title: " Aparatūras stacijas izveide un sasaiste"
+title: Aparatūras stacijas izveide un sasaiste
 description: Šajā procedūrā ir aprakstīts, kā izveidot jaunu aparatūras staciju.
 author: jashanno
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141041"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414106"
 ---
-# <a name="create-and-associate-a-hardware-station"></a> Aparatūras stacijas izveide un sasaiste
+# <a name="create-and-associate-a-hardware-station"></a>Aparatūras stacijas izveide un sasaiste
 
 [!include [banner](../includes/banner.md)]
 

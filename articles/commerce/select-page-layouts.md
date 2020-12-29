@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269916"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414173"
 ---
 # <a name="select-page-layouts"></a>Lapas izkārtojumu atlase
 
@@ -38,7 +38,7 @@ ms.locfileid: "3269916"
 
 Lai izveidotu izkārtojumus esošai lapai, rīkojieties, kā norādīts tālāk.
 
-1. Dodieties uz sadaļu **Lapas**un sarakstā meklējiet esošo lapu. Izmantojiet meklēšanas līdzekli, ja nepieciešams.
+1. Dodieties uz sadaļu **Lapas** un sarakstā meklējiet esošo lapu. Izmantojiet meklēšanas līdzekli, ja nepieciešams.
 1. Atlasiet lapu, atlasiet **Rediģēt**, lai to pārbaudītu, un pēc tam atlasiet lapas nosaukumu, lai to atvērtu. Pierakstiet moduļu secību.
 1. Atlasiet **Saglabāt kā jaunu izkārtojumu**.
 1. Ievadiet izkārtojuma nosaukumu un pēc tam atlasiet **Labi**.
@@ -56,7 +56,7 @@ Lai izveidotu izkārtojumus esošai lapai, rīkojieties, kā norādīts tālāk.
 
 Lai atlasītu citu izkārtojumu esošai lapai, rīkojieties, kā norādīts tālāk.
 
-1. Dodieties uz sadaļu **Lapas**un sarakstā meklējiet esošo lapu. Izmantojiet meklēšanas līdzekli, ja nepieciešams.
+1. Dodieties uz sadaļu **Lapas** un sarakstā meklējiet esošo lapu. Izmantojiet meklēšanas līdzekli, ja nepieciešams.
 1. Atlasiet lapu, atlasiet **Rediģēt**, lai to pārbaudītu, un pēc tam atlasiet lapas nosaukumu, lai to atvērtu.
 1. Atlasiet **Mainīt izkārtojumu**.
 1. Atlasiet lapas jauno izkārtojumu un pēc tam atlasiet **Labi**. Lapas redaktors tiek atsvaidzināts, lai parādītu jauno izkārtojumu.

@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413967"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mazumtirdzniecības kanālu definēšana un uzturēšana
 
@@ -87,5 +87,5 @@ Pēc detalizētas informācijas par mazumtirdzniecības veikalu ievades, veiciet
 Programma Commerce izmanto organizāciju hierarhijas, lai mazumtirdzniecības kanāliem piešķirtu struktūru. Organizācijas hierarhijas pārstāv attiecības starp organizācijām, kas veido jūsu uzņēmumu. Iestatot veikalus, varat tos pievienot organizācijas hierarhijai. Pēc tam veikali koplieto datus, kas tiek izmantoti preču klāstiem, papildināšanai un pārskatu veidošanai.
 
 > [!NOTE]
-> Lai izmantotu Commerce pārdošanas funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\>**Iestatījumi**\>**Licences konfigurācija.** Tas ir nepieciešams dažādu validāciju dēļ, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī.
+> Lai izmantotu Commerce pārdošanas funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\> **Iestatījumi** \> **Licences konfigurācija.** Tas ir nepieciešams dažādu validāciju dēļ, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī.
 

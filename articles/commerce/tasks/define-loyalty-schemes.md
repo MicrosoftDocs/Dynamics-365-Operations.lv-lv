@@ -1,5 +1,5 @@
 ---
-title: " Lojalitātes programmas shēmu definēšana"
+title: Lojalitātes programmas shēmu definēšana
 description: Šajā procedūrā ir aprakstīts, kā definēt lojalitātes programmas shēmu.
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141295"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414091"
 ---
-# <a name="define-loyalty-schemes"></a> Lojalitātes programmas shēmu definēšana
+# <a name="define-loyalty-schemes"></a>Lojalitātes programmas shēmu definēšana
 
 [!include [banner](../includes/banner.md)]
 

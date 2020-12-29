@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899353"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414110"
 ---
 # <a name="base-price-and-trade-agreements"></a>Bāzes cena un tirdzniecības līgumi
 
@@ -52,7 +52,7 @@ ms.locfileid: "3899353"
 20. Izvērsiet kopsavilkuma cilni **Pārdot**.
 21. Laukā **Cena** ievadiet skaitli. Šī cena tiek izmantota, ja netika atrasts neviens atbilstošs tirdzniecības līgums.  
 22. Noklikšķiniet uz **Saglabāt**.
-23. **Darbību rūtī**noklikšķiniet uz **Pārdot**.
+23. **Darbību rūtī** noklikšķiniet uz **Pārdot**.
 24. Klikšķiniet uz **Izveidot tirdzniecības līgumus**.
 25. Klikšķiniet **Jauns**.
 26. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.

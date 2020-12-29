@@ -18,11 +18,11 @@ ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413944"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce novērtējuma vides pārskats
 
@@ -55,12 +55,12 @@ Lai varētu nodrošināt Commerce novērtējuma vidi, skatiet sadaļu [Commerce 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Dynamics 365 Commerce novērtējuma vides nodrošināšana](provisioning-guide.md)
+[Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md)
 
-[Dynamics 365 Commerce novērtējuma vides konfigurācija](cpe-post-provisioning.md)
+[Konfigurēt Dynamics 365 Commerce novērtējuma vidi](cpe-post-provisioning.md)
 
 [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
 
 [Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
 
-[Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi](cpe-faq.md)
+[Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)

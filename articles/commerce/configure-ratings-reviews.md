@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071570"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413952"
 ---
 # <a name="configure-ratings-and-reviews"></a>Vērtējumu un atsauksmju konfigurēšana
 
@@ -42,7 +42,7 @@ Lai konfigurētu vietni vērtējumu un atsauksmju rādīšanai, veiciet šīs da
 
 1. Dodieties uz **Sākums \> Vietnes**.
 1. Atlasiet vietnes nosaukumu 
-1. Dodieties uz **Vietnes iestatījumi \>Paplašinājumi**. 
+1. Dodieties uz **Vietnes iestatījumi \> Paplašinājumi**. 
 1. Laukā **Rediģēt teksta maksimālo garumu** ievadiet maksimālo rakstzīmju skaitu atsauksmes tekstam (piemēram, **1000**). 
 1. Laukā **Rediģēt nosaukuma maksimālo garumu** ievadiet maksimālo rakstzīmju skaitu atsauksmes nosaukumam (piemēram, **55**). 
 1. Atlasiet **Saglabāt un publicēt**. 
@@ -59,7 +59,7 @@ Lai saistītu preces vērtējumu ar PDP sadaļu **Atsauksmes**, veiciet tālāk 
 
 1. Atveriet PDP veidni. 
 1. Dodieties uz **Iegādes lodziņa konteinera moduļa iestatījumi**.
-1. Sadaļā **Iegādes lodziņš**atlasiet **Preču vērtējumi** un pēc tam atzīmējiet izvēles rūtiņu **Saistīt klikšķi ar pilnu atsauksmju moduli**.
+1. Sadaļā **Iegādes lodziņš** atlasiet **Preču vērtējumi** un pēc tam atzīmējiet izvēles rūtiņu **Saistīt klikšķi ar pilnu atsauksmju moduli**.
 
 Nākamajā attēlā ir redzams, kā šī konfigurācija izskatās programmā Dynamics 365 Commerce.
 
@@ -71,7 +71,7 @@ Lai konfigurētu saiti konfidencialitātes un politikas lapai, veiciet šādas d
 
 1. Dodieties uz **Sākums \> Vietnes**.
 1. Atlasiet vietnes nosaukumu 
-1. Dodieties uz **Vietnes iestatījumi \>Paplašinājumi**.
+1. Dodieties uz **Vietnes iestatījumi \> Paplašinājumi**.
 1. Cilnē **Maršruti** zem **RNR konfidencialitāte un politika** atlasiet **Pievienot saiti**. Ja saite jau ir ievadīta un jūs vēlaties to aizstāt, atlasiet saiti. 
 1. Dialoglodziņā **Pievienot saiti** atlasiet saiti konfidencialitātes un politikas lapai un pēc tam atlasiet **Labi**. 
 1. Atlasiet **Saglabāt un publicēt**. 

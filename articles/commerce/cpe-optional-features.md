@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599824"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413945"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
 
@@ -52,7 +52,7 @@ Ja vēlaties novērtēt transakciju e-pasta līdzekļus, ir jāizpilda tālāk m
 
     `https://images-us-sb.cms.commerce.dynamics.com/cms/api/fabrikam/imageFileData/MA1nQC`.
 
-1. Aizstājiet URL pēdējo identifikatoru (augstākminētajā URL piemērā —**MA1nQC**) ar virkni **search?fileName=**. Tālāk parādīts, kā izskatās URL piemērs, kad šīs izmaiņas ir veiktas.
+1. Aizstājiet URL pēdējo identifikatoru (augstākminētajā URL piemērā —**MA1nQC** ) ar virkni **search?fileName=**. Tālāk parādīts, kā izskatās URL piemērs, kad šīs izmaiņas ir veiktas.
 
     `https://images-us-sb.cms.commerce.dynamics.com/cms/api/fabrikam/imageFileData/search?fileName=`
 
@@ -119,7 +119,7 @@ Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādu
 
     1. Atlasiet sarakstā veidni.
     1. Sadaļā **E-pasta ziņojuma saturs** no saraksta atlasiet atbilstošo valodas versiju. (Noklusējuma valoda ir **en-us**.)
-    1. Sadaļā **E-pasta**ziņojuma saturs atlasiet **Rediģēt**. Tiek parādīta rūts **Augšupielādēt e-pasta veidni**.
+    1. Sadaļā **E-pasta** ziņojuma saturs atlasiet **Rediģēt**. Tiek parādīta rūts **Augšupielādēt e-pasta veidni**.
     1. Atlasiet **Pārlūkot** un atrodiet HTML failu, kurā ir pielāgots saturs.
     1. Atlasiet **Augšupielādēt**. Veidne tiek augšupielādēta sistēmā, un tiek parādīts priekšskatījums.
     1. Atlasiet **Labi**.
@@ -172,13 +172,13 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 
 [Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
 
-[Dynamics 365 Commerce novērtējuma vides nodrošināšana](provisioning-guide.md)
+[Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md)
 
-[Dynamics 365 Commerce novērtējuma vides konfigurācija](cpe-post-provisioning.md)
+[Konfigurēt Dynamics 365 Commerce novērtējuma vidi](cpe-post-provisioning.md)
 
 [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
 
-[Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi](cpe-faq.md)
+[Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

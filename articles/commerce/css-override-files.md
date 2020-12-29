@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414053"
 ---
 # <a name="work-with-css-override-files"></a>Darbs ar CSS pārlabošanas failiem
 
@@ -33,13 +33,13 @@ ms.locfileid: "3411251"
 
 ## <a name="overview"></a>Pārskats
 
-Pastāvīgā vietā stili parasti būtu jāapstrādā, izmantojot vietnes tēmu. Tēmas nodrošina galvenos CSSun stila iestatījumus moduļiem jebkurā lapā jūsu vietnē. Tēmas tiek izveidotas, izmantojot Dynamics 365 Commerce tiešsaistes programmatūras izstrādes komplektu (SDK), un tās tiek izvietotas jūsu tīmekļa vietnēs, izmantojot Microsoft Dynamics Lifecycle Services (LCS). Tēmas atkļūdošanas iespējas un moduļa saskarnes konfigurācijas SDK palīdz vietnes izstrādātājiem izveidot pielāgojamas un vienotas vietņu noformējuma pakotnes. Kad šīs dizaina pakotnes ir izvietotas vietnē, vietnes autori var koncentrēties uz satura izveidi, rediģēšanu un publicēšanu, nevis vietnes izstrādi.
+Pastāvīgā vietā stili parasti būtu jāapstrādā, izmantojot vietnes tēmu. Tēmas nodrošina galvenos CSS un stila iestatījumus moduļiem jebkurā lapā jūsu vietnē. Tēmas tiek izveidotas, izmantojot Dynamics 365 Commerce tiešsaistes programmatūras izstrādes komplektu (SDK), un tās tiek izvietotas jūsu tīmekļa vietnēs, izmantojot Microsoft Dynamics Lifecycle Services (LCS). Tēmas atkļūdošanas iespējas un moduļa saskarnes konfigurācijas SDK palīdz vietnes izstrādātājiem izveidot pielāgojamas un vienotas vietņu noformējuma pakotnes. Kad šīs dizaina pakotnes ir izvietotas vietnē, vietnes autori var koncentrēties uz satura izveidi, rediģēšanu un publicēšanu, nevis vietnes izstrādi.
 
 Ņemot vērā parasto tēmas dzīves ciklu, atkarība no izstrādātājiem, lai veiktu stila izmaiņas, izmantojot SDK un LCS izvietošanas konveijeru, dažos gadījumos var būt pārmērīgi augsta. Vietnes prototipi vai labojumfaili var šķist apgrūtinoši, ja SDK nav konfigurēts vai jums nav laika gaidīt uz LCS izvietošanu.
 
 Minētajās situācijās var palīdzēt CSS pārlabošanas faili. Commerce autorēšanas rīkos autentificēti lietotāji var augšupielādēt CSS failu, priekšskatīt to un pēc tam aktivizēt, lai pārlabotu vietnes tēmu. SDK vai LCS papildu izvietošana nav nepieciešama. CSS pārlabošanas failā norādītie labojumi var būt tik mazi kā viena teksta stila maiņa vai tik plaši kā pilnīgas zīmola izmaiņas.
 
-Pirms izmantojat CSSpārlabošanas failus, ņemiet vērā šādus ierobežojumus:
+Pirms izmantojat CSS pārlabošanas failus, ņemiet vērā šādus ierobežojumus:
 
 - Vietnē vienlaikus var būt aktīvs tikai viens CSS pārlabošanas fails. Tādēļ visiem aktīvajiem labojumiem ir jābūt vienā pārlabošanas failā.
 - Lai gan jūs varat priekšskatīt labojumus Commerce autorēšanas rīkos, nav īpašu atkļūdošanas iespēju, lai palīdzētu identificēt visas kļūmes, kuras labojumi varētu ieviest. Citiem vārdiem sakot, izmantojot CSS pārlabošanas failus, jūsu rīcībā nav tāda pati rīkkopa, ko SDK nodrošina moduļa un autorēšanas validācijai.
@@ -61,14 +61,14 @@ Lai Commerce vietnē augšupielādētu CSS failu, veiciet tālāk norādītās d
     > Atkarībā no Commerce autorēšanas rīku versijas, ko lietojat, iespējams, navigācijas rūtī ir jāpaplašina **Iestatījumi**, lai varētu atlasīt **Dizainu**.
 
 1. Galvenās noformējuma rūts augšdaļā atlasiet cilni **CSS pārlabošana**, ja tā vēl nav atlasīta.
-1. Sadaļā **Pieejamie CSS labojumi**atlasiet **Augšupielādēt CSS failu**. Parādās failu pārlūka logs.
+1. Sadaļā **Pieejamie CSS labojumi** atlasiet **Augšupielādēt CSS failu**. Parādās failu pārlūka logs.
 1. Failu pārlūkā atrodiet un atlasiet CSS failu un pēc tam atlasiet **Atvērt**. Augšupielādētais CSS fails tagad tiek parādīts sadaļā **Pieejamie CSS labojumi**.
 
 ## <a name="preview-a-css-override-file"></a>CSS pārlabošanas faila priekšskatīšana
 
 Lai priekšskatītu CSS pārlabošanas failu, pirms veicat tā aktīvu darbību savā tiešsaistes vietnē, veiciet tālāk norādītās darbības.
 
-1. Kreisajā navigācijas rūtī atlasiet  **Dizains**un pēc tam cilnē **CSS labojums** sadaļā **Pieejamie CSS labojumi** atrodiet CSS failu, kuru vēlaties priekšskatīt.
+1. Kreisajā navigācijas rūtī atlasiet **Dizains** un pēc tam cilnē **CSS labojums** sadaļā **Pieejamie CSS labojumi** atrodiet CSS failu, kuru vēlaties priekšskatīt.
 1. Blakus CSS faila nosaukumam atlasiet **Priekšskatījuma vietne**.
 1. Dialoglodziņā **Atlasīt vietrādi URL** atlasiet tās vietnes vietrādi URL, kurai vēlaties skatīt ignorēšanas opciju, un pēc tam atlasiet **Labi**.
 1. Ja atlasītajam vietrādim URL ir vairāki varianti, parādītajā dialoglodziņā **Priekšskatījuma variācijas** atlasiet vēlamo variantu.
@@ -84,18 +84,18 @@ Kad esat priekšskatījis un apstiprinājis CSS pārlabošanas failu, varat to a
 
 Lai aktivizētu CSS pārlabošanas failu, izpildiet tālāk aprakstītās darbības.
 
-1. Kreisajā navigācijas rūtī atlasiet  **Dizains**un pēc tam cilnē **CSS labojums** sadaļā **Pieejamie CSS labojumi** atrodiet CSS failu, kuru vēlaties aktivizēt.
+1. Kreisajā navigācijas rūtī atlasiet **Dizains** un pēc tam cilnē **CSS labojums** sadaļā **Pieejamie CSS labojumi** atrodiet CSS failu, kuru vēlaties aktivizēt.
 1. Sadaļā CSS faila nosaukums atlasiet **Aktivizēt**. Pārlabotais fails nekavējoties kļūst aktīvs jūsu tiešsaistes vietnē.
 
 ## <a name="deactivate-a-css-override-file-on-your-live-site"></a>CSS pārlabošanas faila deaktivizēšana jūsu tiešsaistes vietnē
 
 Lai deaktivizētu CSS pārlabošanas failu savā vietnē, veiciet tālāk norādītās darbības.
 
-1. Kreisajā navigācijas rūtī atlasiet  **Dizains**un pēc tam cilnē **CSS labojums** sadaļā **Pieejamie CSS labojumi** atrodiet CSS failu, kuru vēlaties deaktivizēt.
+1. Kreisajā navigācijas rūtī atlasiet **Dizains** un pēc tam cilnē **CSS labojums** sadaļā **Pieejamie CSS labojumi** atrodiet CSS failu, kuru vēlaties deaktivizēt.
 1. Sadaļā CSS faila nosaukums atlasiet **Deaktivizēt**. Pārlabotais fails nekavējoties kļūst neaktīvs jūsu tiešsaistes vietnē.
 
 > [!TIP]
-> Lai piekļūtu papildu opcijām CSS pārlabošanas failiem, atlasiet daudzpunkti (**...**) blakus CSS faila nosaukumam. Opcijas **Lejupielādēt**, **Pārdēvēt**un **Aizstāt** ir noderīgas, lai ātri varētu veikt esošā CSS pārlabošanas faila izmaiņas.
+> Lai piekļūtu papildu opcijām CSS pārlabošanas failiem, atlasiet daudzpunkti (**...**) blakus CSS faila nosaukumam. Opcijas **Lejupielādēt**, **Pārdēvēt** un **Aizstāt** ir noderīgas, lai ātri varētu veikt esošā CSS pārlabošanas faila izmaiņas.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

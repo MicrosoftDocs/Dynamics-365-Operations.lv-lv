@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022009"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414214"
 ---
 # <a name="gift-card-module"></a>Dāvanu kartes modulis
 
@@ -81,11 +81,13 @@ Instrukcijas par to, kā pievienot dāvanu kartes moduli izrakstīšanās lapai 
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Maksājuma modulis](payment-module.md)
+[Maksājumu modulis](payment-module.md)
 
 [Piegādes adreses modulis](ship-address-module.md)
 
 [Piegādes opciju modulis](delivery-options-module.md)
+
+[Saņemšanas informācijas modulis](pickup-info-module.md)
 
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 

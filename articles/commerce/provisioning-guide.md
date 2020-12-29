@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce novērtējuma vides nodrošināšana
 description: Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtējuma vidi.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599854"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4414205"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtējuma vides nodrošināšana
 
@@ -48,6 +48,7 @@ Informāciju par to, kā konfigurēt Commerce novērtējuma vidi pēc tās nodro
 
 Lai varētu nodrošināt Commerce novērtējuma vidi, ir jābūt ieviestiem tālāk norādītajiem priekšnoteikumiem.
 
+- Jūs esat iekāpis novērtēšanas programmā un jums piešķirta novērtēšanas vides noslodze.
 - Jums ir piekļuve Microsoft Dynamics Lifecycle Services (LCS) portālam.
 - Jūs esat esošs Microsoft Dynamics 365 partneris vai debitors un varat izveidot Dynamics 365 Commerce projektu.
 - Jums ir administratora piekļuve Microsoft Azure abonementam, vai arī jūs kontaktējaties ar abonementa administratoru, kurš nepieciešamības gadījumā var jums palīdzēt.
@@ -91,7 +92,7 @@ Lai izvietotu vidi, veiciet tālāk norādītās darbības.
 
 1. Augšējā izvēlnē atlasiet **Mākoņvides**.
 1. Lai pievienotu vidi, atlasiet **Pievienot**.
-1. Laukā **Programmas versija** atlasiet visjaunāko versiju. Ja jums ir īpaša nepieciešamība atlasīt programmas versiju, kas nav visjaunākā versija, neatlasiet versiju pirms **10.0.8**.
+1. Laukā **Programmas versija** atlasiet visjaunāko versiju. Ja jums ir īpaša nepieciešamība atlasīt programmas versiju, kas nav visjaunākā versija, neatlasiet versiju pirms **10.0.14**.
 1. Laukā **Platformas versija** izmantojiet platformas versiju, kas tiek automātiski izvēlēta jūsu izvēlētajai programmas versijai. 
 
     ![Pieteikumu un platformu versiju atlasīšana](./media/project1.png)

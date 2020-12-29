@@ -1,5 +1,5 @@
 ---
-title: " Kredītkaršu apstrādes konfigurēšana"
+title: Kredītkaršu apstrādes konfigurēšana
 description: Šajā procedūrā ir aprakstīts, kā skatīt maksājumu nodrošinātāju sarakstu un konfigurēt maksājumu kontu debitoru parādiem.
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2cfec44bc1c767dff1109c4ecd4e2862443fb1d0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141503"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414107"
 ---
-# <a name="configure-credit-card-processing"></a> Kredītkaršu apstrādes konfigurēšana
+# <a name="configure-credit-card-processing"></a>Kredītkaršu apstrādes konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 

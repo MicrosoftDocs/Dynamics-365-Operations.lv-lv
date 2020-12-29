@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 80cbb7d22267aa6a0ae0568d0063fb95556958a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036836"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414113"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Uzdevumu sarakstu izveidošana un uzdevumu pievienošana
 
@@ -43,7 +43,7 @@ Gan vadītāji, gan darbinieki var izveidot uzdevumu sarakstus Commerce atbalsta
 Lai izveidotu uzdevumu sarakstu, izpildiet šīs darbības.
 
 1. Dodieties uz **Retail un Commerce \>Uzdevumu pārvaldība \>Uzdevumu pārvaldības administrēšana**.
-1. Atlasiet **Jauns**un pēc tam ievadiet vērtības laukos **Nosaukums**, **Apraksts**un **Īpašnieks**.
+1. Atlasiet **Jauns** un pēc tam ievadiet vērtības laukos **Nosaukums**, **Apraksts** un **Īpašnieks**.
 1. Atlasiet **Saglabāt**.
 
 ## <a name="add-tasks-to-a-task-list"></a>Uzdevumu pievienošana uzdevumu sarakstam

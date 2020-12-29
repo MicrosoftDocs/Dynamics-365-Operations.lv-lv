@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055431"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414207"
 ---
 # <a name="cart-module"></a>Groza modulis
 
@@ -50,9 +50,9 @@ Attēlā zemāk redzams groza lapas piemērs Fabrikam vietnē. Šajā piemērā 
 
 | Rekvizīts | Vērtības | Apraksts |
 |----------------|--------|-------------|
-| Virsraksts | Virsraksta teksts un virsraksta etiķete ( **H1** , **H2** , **H3** , **H4** , **H5** vai **H6** ) | Groza virsraksts, piemēram, "Iepirkumu soma", vai "Preces jūsu grozā". |
-| Rādīt “Nav krājumā” kļūdas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess** , groza lapā būs redzamas ar krājumu saistītas kļūdas. Ieteicams iestatīt šo rekvizītu kā **Patiess** , ja vietnē tiek lietotas krājumu pārbaudes. |
-| Rādīt rindu vienību piegādes izmaksas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess** , groza rindas krājumi rādīs piegādes izmaksas, ja šī informācija ir pieejama. Šis līdzeklis netiek atbalstīts Fabrikam tēmā, jo lietotāji atlasa piegādi tikai izrakstīšanās plūsmā. Tomēr šo līdzekli var ieslēgt citās darbplūsmās, ja tas ir piemērojams. |
+| Virsraksts | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Groza virsraksts, piemēram, "Iepirkumu soma", vai "Preces jūsu grozā". |
+| Rādīt “Nav krājumā” kļūdas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza lapā būs redzamas ar krājumu saistītas kļūdas. Ieteicams iestatīt šo rekvizītu kā **Patiess**, ja vietnē tiek lietotas krājumu pārbaudes. |
+| Rādīt rindu vienību piegādes izmaksas | **Patiess** vai **Nepatiess** | Ja šis rekvizīts ir iestatīts kā **Patiess**, groza rindas krājumi rādīs piegādes izmaksas, ja šī informācija ir pieejama. Šis līdzeklis netiek atbalstīts Fabrikam tēmā, jo lietotāji atlasa piegādi tikai izrakstīšanās plūsmā. Tomēr šo līdzekli var ieslēgt citās darbplūsmās, ja tas ir piemērojams. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduļi, ko var izmantot groza modulī
 
@@ -78,23 +78,23 @@ Groza modulis izgūst preču informāciju, izmantojot Commerce Scale Unit API. G
 
 Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Fragmenti** un atlasiet **Jauns** , lai izveidotu jaunu fragmentu.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
 1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Grozs**.
 1. Sadaļā **Fragmenta nosaukums** ievadiet nosaukumu **Groza fragments** un pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Grozs**.
 1. Rekvizītu rūts labajā pusē atlasiet zīmuļa simbolu, ievadiet virsraksta tekstu laukā un pēc tam atlasiet atzīmes simbolu.
-1. Slotā **Grozs** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Slotā **Grozs** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Veikalu atlasītājs** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
-1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns** , lai izveidotu jaunu veidni.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
 1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukums** ievadiet veidnes nosaukumu.
-1. Struktūras kokā atlasiet slotu **Pamatteksts** , atlasiet daudzpunktess ( **...** ), un pēc tam atlasiet **Pievienot fragmentu**.
+1. Struktūras kokā atlasiet slotu **Pamatteksts**, atlasiet daudzpunktess (**...**), un pēc tam atlasiet **Pievienot fragmentu**.
 1. Dialoglodziņā **Atlasīt fragmentu** atlasiet fragmentu **Groza fragments** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt** , lai publicētu to.
-1. Dodieties uz **Lapas** un atlasiet **Jauns** , lai izveidotu jaunu lapu.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
 1. Dialoglodziņā **Izvēlēties veidni** atlasiet iepriekš izveidoto veidni, ievadiet lapas nosaukumu un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu.
-1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -102,11 +102,13 @@ Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītu
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Maksājuma modulis](payment-module.md)
+[Maksājumu modulis](payment-module.md)
 
 [Piegādes adreses modulis](ship-address-module.md)
 
 [Piegādes opciju modulis](delivery-options-module.md)
+
+[Saņemšanas informācijas modulis](pickup-info-module.md)
 
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 

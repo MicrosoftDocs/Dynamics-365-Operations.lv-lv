@@ -20,11 +20,11 @@ ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023333"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413925"
 ---
 # <a name="retail-price-reports"></a>Mazumtirdzniecības cenu pārskati
 
@@ -40,7 +40,7 @@ Lai iespējotu cenu pārskatu, ir jāiespējo parametrs **Iespējot cenu pārska
 | Sākuma datums/beigu datums| Datumu diapazons, par kuru ir jāģenerē cenu pārskats. Pašlaik ilgums nedrīkst pārsniegt 7 dienas. |
 | Kanāls| Veikals, par kuru ir jāģenerē cenu pārskats. |
 | Parādīt preces, kam pieejami krājumi| Ja tiek iestatīta vērtība **Jā**, tiek rādītas tikai to preču cenas, kas pašlaik ir pieejamas veikala fiziskajos krājumos. |
-| Parādīt variantu cenas | Ja tiek iestatīta vērtība **Jā**, tiek parādītas variantu, kā arī preču šablonu cenas. Šo opciju drīkst**iespējot** tikai tad, ja izmantojat variantiem raksturīgas cenas, jo būtiski palielinās rindu skaits. Turpmākajos laidienos tiks iespējotas no dimensijas atkarīgas cenas, lai veikala vadītājs varētu izvēlēties dimensijas, kuru cenas ir jāparāda. |
+| Parādīt variantu cenas | Ja tiek iestatīta vērtība **Jā**, tiek parādītas variantu, kā arī preču šablonu cenas. Šo opciju drīkst **iespējot** tikai tad, ja izmantojat variantiem raksturīgas cenas, jo būtiski palielinās rindu skaits. Turpmākajos laidienos tiks iespējotas no dimensijas atkarīgas cenas, lai veikala vadītājs varētu izvēlēties dimensijas, kuru cenas ir jāparāda. |
 | Parādīt preces ar cenu izmaiņām | Ja ir iestatīta vērtība **Jā**, tiek parādītas cenas tikai tajos datumos, kad ir mainīta cena. Vienmēr tiek rādīta cena *vienu dienu pirms* laukā **Sākuma datums** atlasītā datuma, lai veikala vadītājs varētu viegli noteikt preces, kuru cenas nav mainītas visā atlasītajā periodā, kā arī skatīt pašreizējo cenu. |
 
 Pēc pārskata izveides var lejupielādēt Excel failu, lai veiktu jebkāda veida papildu filtrēšanu. Cenu pārskatu var arī izmantot, lai pārbaudītu preču vēsturiskās cenas iepriekšējos datumos.

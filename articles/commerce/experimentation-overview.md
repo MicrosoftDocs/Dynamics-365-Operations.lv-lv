@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097143"
+ms.locfileid: "4414189"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentēšana pakalpojumā Dynamics 365 Commerce
 Izmantojiet eksperimentēšanu pakalpojumā Dynamics 365 Commerce, lai pārbaudītu hipotēzi par jūsu e-komercijas lapu efektivitāti un pieņemtu lēmumus, pamatojoties uz datiem. Commerce atbalsta A/B testēšanu lapās, moduļos un fragmentos un ļauj novērtēt piedāvāto izmaiņu ietekmi uz jūsu tīmekļa vietni.
@@ -34,10 +34,10 @@ Varat veidot, rediģēt un pārvaldīt lapu un satura apstrādi, ko sauc par **v
 1. **Pareizās Commerce versijas iegūšana** — jauniniet savu moduļu bibliotēku, tiešsaistes kanāla paplašināmības programmatūras izstrādes komplektu (SDK) un Commerce Scale Unit uz Commerce versiju 10.0.13 vai jaunāku.
 1. **Eksperimenta savienotāja iestatīšana** – eksperimenta savienotājs ļauj Commerce izveidot savienojumu ar trešās puses pakalpojumiem, lai izgūtu eksperimentu sarakstu un noteiktu, kad lietotājam jāparāda eksperiments. Varat iegādāties trešās puses savienotāju pakalpojumā [AppSource](https://appsource.microsoft.com). Sekojiet izdevēja nodrošinātajām iestatīšanas instrukcijām. Kā alternatīvu var izmantot testa savienotāja paraugu no Commerce, lai testētu eksperimenta darbplūsmu, bez nepieciešamības konfigurēt ārēju pakalpojumu. Papildinformāciju skatiet sadaļā [Savienotāju konfigurēšana un iespējošana](e-commerce-extensibility/connectors.md). 
 1. **Eksperimenta līdzekļu karodziņu ieslēgšana pakalpojumā Commerce** – iespējojiet eksperimentu nomnieka līmenī, dodoties uz **Nomnieka iestatījumi > Līdzekļi** vai vietnes līmenī uz **Vietnes iestatījumi > Līdzekļi**.
-    - Iespējojiet karodziņu **Eksperimentēšana** , lai izveidotu eksperimenta moduļu variantus lapā, neietekmējot vai nekopējot citu saturu, kas nav eksperimenta daļa. Tādējādi nodrošinot, ka ārpus eksperimenta notiekošie satura atjauninājumi tiek sinhronizēti eksperimenta dzīves cikla laikā. Šī karodziņa atspējošana pārtrauc visu eksperimentu rādīšanu lietotājiem un noņem visus vietnes veidotājā esošos rediģēšanas līdzekļus.
-    - Iespējojiet karodziņu **Eksperimentēt ar lapām vai fragmentiem** , lai izpildītu eksperimentus lapā vai fragmentā. Tiek izveidota pilnīga visas lapas vai fragmenta kopija visiem lapas vai fragmenta moduļiem. Izmantojiet šo režīmu, ja vēlaties pārbaudīt visaptverošas satura izmaiņas vai kad notiekošo satura izmaiņu sinhronizēšana dažādās instancēs norit bez problēmām. Atspējojot šo karodziņu, tiek novērsta jaunu eksperimentu izveidošana un rediģēšana lapās un fragmentos.
+    - Iespējojiet karodziņu **Eksperimentēšana**, lai izveidotu eksperimenta moduļu variantus lapā, neietekmējot vai nekopējot citu saturu, kas nav eksperimenta daļa. Tādējādi nodrošinot, ka ārpus eksperimenta notiekošie satura atjauninājumi tiek sinhronizēti eksperimenta dzīves cikla laikā. Šī karodziņa atspējošana pārtrauc visu eksperimentu rādīšanu lietotājiem un noņem visus vietnes veidotājā esošos rediģēšanas līdzekļus.
+    - Iespējojiet karodziņu **Eksperimentēt ar lapām vai fragmentiem**, lai izpildītu eksperimentus lapā vai fragmentā. Tiek izveidota pilnīga visas lapas vai fragmenta kopija visiem lapas vai fragmenta moduļiem. Izmantojiet šo režīmu, ja vēlaties pārbaudīt visaptverošas satura izmaiņas vai kad notiekošo satura izmaiņu sinhronizēšana dažādās instancēs norit bez problēmām. Atspējojot šo karodziņu, tiek novērsta jaunu eksperimentu izveidošana un rediģēšana lapās un fragmentos.
     > [!NOTE]
-    > Karodziņam **Eksperimentēšana** ir jābūt iespējotam arī līdzeklī **Eksperimentēt ar lapām vai fragmentiem** , lai tas darbotos.
+    > Karodziņam **Eksperimentēšana** ir jābūt iespējotam arī līdzeklī **Eksperimentēt ar lapām vai fragmentiem**, lai tas darbotos.
     
 ## <a name="experimentation-lifecycle"></a>Eksperimenta dzīves cikls
 Eksperimenta iestatīšana, variantu izveide un eksperimenta izpildīšana ir iteratīvs process. Tālāk redzamajā diagrammā parādīts eksperimenta dzīves cikls pakalpojumā Commerce un trešās puses pakalpojumā. 

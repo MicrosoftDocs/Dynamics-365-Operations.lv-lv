@@ -1,9 +1,9 @@
 ---
-title: Pasūtījumu informācijas modulis
-description: Šī tēma apskata pasūtījuma informācijas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
-author: anupamar
+title: Pasūtījuma apstiprināšanas modulis
+description: Šī tēma apskata pasūtījuma apstiprināšanas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
+author: anupamar-ms
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,57 +17,58 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: bf33ebf9c0c5136f40fcd7e1012988d186c4169b
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015184"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414213"
 ---
-# <a name="order-details-module"></a>Pasūtījumu informācijas modulis
+# <a name="order-confirmation-module"></a>Pasūtījuma apstiprinājuma modulis
 
 [!include [banner](includes/banner.md)]
 
-Šī tēma apskata pasūtījuma informācijas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
+Šī tēma apskata pasūtījuma apstiprināšanas moduļus un apraksta, kā izmantot tos Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
-Pasūtījumu informācijas moduli izmanto, lai rādītu pasūtījuma apstiprinājuma informāciju pēc pasūtījuma veikšanas. Tas parāda pasūtījuma apstiprinājuma ID, pasūtījuma kontaktinformāciju un citus pasūtījuma datus, piemēram, krājumus, kas tika iegādāti, maksājuma informāciju un nosūtīšanas metodi.
+Pasūtījumu apstiprinājuma moduli izmanto, lai rādītu pasūtījuma apstiprinājuma informāciju pēc pasūtījuma veikšanas. Tas parāda pasūtījuma apstiprinājuma ID, pasūtījuma kontaktinformāciju un citus pasūtījuma datus, piemēram, krājumus, kas tika iegādāti, maksājuma informāciju, saņemšanas iespējas un nosūtīšanas metodi.
 
-## <a name="order-details-module-properties"></a>Pasūtījumu informācijas moduļa rekvizīti
+## <a name="order-confirmation-module-properties"></a>Pasūtījuma apstiprināšanas moduļa rekvizīti
 
-| Rekvizīta nosaukums  | Vērtības | apraksts |
+| Rekvizīta nosaukums  | Vērtības | Apraksts |
 |----------------|--------|-------------|
-| Virsraksts        | Virsraksta teksts un virsraksta etiķete ( **H1** , **H2** , **H3** , **H4** , **H5** vai **H6** ) | Pasūtījuma informācijas modulim var būt virsraksts. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
+| Virsraksts        | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pasūtījuma apstiprināšanas modulim var būt virsraksts. Pēc noklusējuma virsrakstam tiek izmantota **H2** virsraksta etiķete. Tomēr etiķeti var mainīt atbilstoši pieejamības prasībām. |
 | Kontaktpersonas tālruņa numurs | Teksts | Kontaktpersonas numuru var sniegt ar pasūtījumu saistītiem jautājumiem. |
+| Rādīt saņemšanas laika loga informācija | Patiess vai aplams | Šis rekvizīts ir pieejams risinājumā Dynamics 365 Commerce 10.0.15 un jaunākos. Kad patiess, tas rāda saņemšanas laika loga informāciju, ja tas ir paredzēts saņemšanas krājumam|
 
-## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduļi, ko var izmantot pasūtījuma informācijas lapas modulī
+## <a name="modules-that-can-be-used-on-an-order-confirmation-page"></a>Moduļi, ko var izmantot pasūtījuma konfigurācijas lapas modulī
 
-Izveidojot pasūtījuma informācijas lapu, papildus pasūtījuma informācijas modulim varat pievienot citus atbilstošus moduļus. Daži piemēri:
+Izveidojot pasūtījuma konfigurācijas lapu, papildus pasūtījuma konfigurācijas modulim varat pievienot citus atbilstošus moduļus. Daži piemēri:
 
-- **Ieteikumu modulis** — ieteikumu moduli var pievienot pasūtījuma informācijas lapai, lai klientam ieteiktu citas preces.
-- **Mārketinga moduļi** — jebkuru mārketinga moduli var pievienot pasūtījuma informācijas lapai, lai parādītu mārketinga saturu.
+- **Ieteikumu modulis** — ieteikumu moduli var pievienot pasūtījuma konfigurācijas lapai, lai klientam ieteiktu citas preces.
+- **Mārketinga moduļi** — jebkuru mārketinga moduli var pievienot pasūtījuma konfigurācijas lapai, lai parādītu mārketinga saturu.
 
-## <a name="add-an-order-details-module-to-a-page"></a>Pasūtījuma informācijas moduļa pievienošana lapā
+## <a name="add-an-order-confirmation-module-to-a-page"></a>Pasūtījuma konfigurācijas moduļa pievienošana lapā
 
-Lai pievienotu pasūtījuma informācijas moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
+Lai pievienotu pasūtījuma konfigurācijas moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns** , lai izveidotu jaunu veidni.
-1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet **Pasūtījuma informācijas veidnes** nosaukumu un pēc tam atlasiet **Labi**.
-1. Slotā **Pamatteksts** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Dodieties uz **Veidnes** un pēc tam atlasiet **Jauns**, lai izveidotu jaunu veidni.
+1. Dialoglodziņā **Jauna veidne** zem **Veidnes nosaukuma** ievadiet **Pasūtījuma konfigurācijas veidnes** nosaukumu un pēc tam atlasiet **Labi**.
+1. Slotā **Pamatteksts** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Noklusējuma lapa** un pēc tam atlasiet **Labi**.
-1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Pasūtījuma informācija** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu veidni. Pasūtījuma informācijas modulis netiks atveidots, jo tas prasa pasūtījuma apstiprināšanas numura kontekstu.
-1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt** , lai publicētu to.
-1. Dodieties uz **Lapas** un atlasiet **Jauns** , lai izveidotu jaunu lapu.
-1. Dialoglodziņā **Izvēlēties veidni** atlasiet **Pasūtījuma informācijas veidne**. Sadaļā **Lapas nosaukums** ievadiet **Pasūtījuma informācijas lapa** pēc tam atlasiet **Labi**.
-1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Pasūtījuma informācija** un pēc tam atlasiet **Labi**.
-1. Pasūtījuma informācijas moduļa rekvizītu rūtī atlasiet blakus zīmuļa simbolam **Virsraksts**.
-1. Dialoglodziņa **Virsraksts** laukā **Virsraksta teksts** ievadiet virsraksta teksta **Pasūtījuma informāciju** un pēc tam atlasiet **Labi**.
-1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums** , lai priekšskatītu lapu.
-1. Atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Pasūtījuma konfigurācija** un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu veidni. Pasūtījuma apstiprināšanas modulis netiks atveidots, jo tas prasa pasūtījuma apstiprināšanas numura kontekstu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Dodieties uz **Lapas** un atlasiet **Jauns**, lai izveidotu jaunu lapu.
+1. Dialoglodziņā **Izvēlēties veidni** atlasiet **Pasūtījuma konfigurācijas veidne**. Sadaļā **Lapas nosaukums** ievadiet **Pasūtījuma konfigurācijas lapa** pēc tam atlasiet **Labi**.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Pasūtījuma konfigurācija** un pēc tam atlasiet **Labi**.
+1. Pasūtījuma konfigurācijas moduļa rekvizītu rūtī atlasiet blakus zīmuļa simbolam **Virsraksts**.
+1. Dialoglodziņa **Virsraksts** laukā **Virsraksta teksts** ievadiet virsraksta teksta **Pasūtījuma konfigurāciju** un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt** un pēc tam atlasiet **Priekšskatījums**, lai priekšskatītu lapu.
+1. Atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -77,10 +78,12 @@ Lai pievienotu pasūtījuma informācijas moduli jaunā lapā un iestatītu nepi
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Maksājuma modulis](payment-module.md)
+[Maksājumu modulis](payment-module.md)
 
 [Piegādes adreses modulis](ship-address-module.md)
 
 [Piegādes opciju modulis](delivery-options-module.md)
+
+[Saņemšanas informācijas modulis](pickup-info-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)

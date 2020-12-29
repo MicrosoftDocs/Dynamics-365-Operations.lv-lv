@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057966"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413964"
 ---
 # <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
@@ -85,7 +85,7 @@ Lai izveidotu noklusējuma debitoru, izpildiet tālāk aprakstītās darbības.
 1. Nolaižamajā sarakstā **Valūta** atlasiet vai ievadiet valūtu (piemēram, "USD").
 1. Nolaižamajā sarakstā **Valūta** atlasiet iepriekš izveidoto debitoru grupu.
 1. Nolaižamajā srakstā **Adrešu grāmatas**  atlasiet esošu debitoru adrešu grāmatu.
-1. Atlasiet **Saglabāt**, lai saglabātu un atgrieztos debitoru detalizētās informācijas ekrānā pēc  jauna debitora.
+1. Atlasiet **Saglabāt**, lai saglabātu un atgrieztos debitoru detalizētās informācijas ekrānā pēc jauna debitora.
 
 > [!NOTE]
 > Noklusējuma debitoram adrese nav jāpievieno.

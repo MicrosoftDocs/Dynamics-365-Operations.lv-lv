@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055454"
+ms.locfileid: "4414185"
 ---
 # <a name="header-module"></a>Galvenes modulis
 
@@ -34,7 +34,7 @@ ms.locfileid: "4055454"
 
 Pakalpojumā Dynamics 365 Commerce, lapas galvene ir konfigurēta kā lapas fragments, kas ietver galveni, promo reklāmkarogu un sīkfailu piekrišanas moduļus. 
 
-Galvenes modulī ir iekļauts vietnes logotips, saites uz navigācijas hierarhiju, saites uz citām lapām vietnē, groza ikonas modulis, vēlmju simbols, pierakstīšanās opcijas un meklēšanas josla. Galvenes modulis tiek automātiski optimizēts ierīcei, izmantojot kuru, vietne tiek skatīta (citiem vārdiem sakot, darbvirsmas ierīcei vai mobilajai ierīcei). Piemēram, mobilajā ierīcē navigācijas josla ir sakļauta pogā **Izvēlne** (kas dažreiz tiek saukta par *hamburgeru izvēlni* ).
+Galvenes modulī ir iekļauts vietnes logotips, saites uz navigācijas hierarhiju, saites uz citām lapām vietnē, groza ikonas modulis, vēlmju simbols, pierakstīšanās opcijas un meklēšanas josla. Galvenes modulis tiek automātiski optimizēts ierīcei, izmantojot kuru, vietne tiek skatīta (citiem vārdiem sakot, darbvirsmas ierīcei vai mobilajai ierīcei). Piemēram, mobilajā ierīcē navigācijas josla ir sakļauta pogā **Izvēlne** (kas dažreiz tiek saukta par *hamburgeru izvēlni*).
 
 Attēlā zemāk redzams galvenes moduļa piemērs sākumlapā.
 
@@ -42,7 +42,7 @@ Attēlā zemāk redzams galvenes moduļa piemērs sākumlapā.
 
 ## <a name="properties-of-a-header-module"></a>Galvenes moduļa rekvizīti
 
-Galvenes modulis atbalsta šādus rekvizītus: **Logotipa attēls** , **Logotipa saite** un **Mana konta saites**. 
+Galvenes modulis atbalsta šādus rekvizītus: **Logotipa attēls**, **Logotipa saite** un **Mana konta saites**. 
 
 Rekvizīti **Logotipa attēls** un **Logotipa saites** tiek izmantoti, lai definētu logotipu lapā. Plašāku informāciju skatiet sadaļā [Logotipa pievienošana](add-logo.md). 
 
@@ -71,34 +71,34 @@ Rekvizīts **Mana konta saites** var tikt izmantots, lai definētu konta lapas, 
 
 Lai izveidotu galvenes fragmentu, veiciet šādas darbības.
 
-1. Dodieties uz **Fragmenti** un atlasiet **Jauns** , lai izveidotu jaunu fragmentu.
-1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Konteiners** , ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
+1. Dodieties uz **Fragmenti** un atlasiet **Jauns**, lai izveidotu jaunu fragmentu.
+1. Dialoglodziņā **Jauns fragments** atlasiet moduli **Konteiners**, ievadiet fragmenta nosaukumu un pēc tam atlasiet **Labi**.
 1. Atlasiet slotu **Noklusējuma konteiners** un pēc tam rekvizītu rūtī pa labi iestatiet rekvizītu **Platums** uz **Aizpildīt ekrānu**.
-1. Slotā **Noklusējuma konteiners** atlasiet daudzpunkti ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
-1. Dialoglodziņā **Pievienot moduli** atlasiet moduļus **Sīkdatņu piekrišana** , **Galvene** un **Veicināšanas reklāmkarogs** un pēc tam atlasiet **Labi**.
+1. Slotā **Noklusējuma konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduļus **Sīkdatņu piekrišana**, **Galvene** un **Veicināšanas reklāmkarogs** un pēc tam atlasiet **Labi**.
 1. Moduļa **Veicināšanas reklāmkarogs** rekvizītu rūtī atlasiet **Pievienot ziņojumu** un pēc tam atlasiet **Ziņojums**.
 1. Dialoglodziņā **Ziņojums** pievienojiet tekstu un saites reklāmas saturam un pēc tam atlasiet **Labi**.
 1. Moduļa **Sīkdatņu piekrišana** rekvizītu rūtī pievienojiet un konfigurējiet tekstu un saiti uz vietnes konfidencialitātes lapu.
-1. Galvenes moduļa slotā **Navigācijas izvēlne** slotā atlasiet daudzpunktes pogu ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Galvenes moduļa slotā **Navigācijas izvēlne** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Navigācijas izvēlne** un pēc tam atlasiet **Labi**.
 1. Navigācijas izvēlnes moduļa rekvizītu rūts sadaļā **Navigācijas izvēlnes avots** atlasiet **Mazumtirdzniecības serveris**.
-1. Navigācijas izvēlnes moduļa rekvizītu rūts sadaļā **Statiski izvēlnes vienumi** atlasiet **Pievienot izvēlnes vienumu** , un pēc tam atlasiet **Izvēlnes elements**. 
+1. Navigācijas izvēlnes moduļa rekvizītu rūts sadaļā **Statiski izvēlnes vienumi** atlasiet **Pievienot izvēlnes vienumu**, un pēc tam atlasiet **Izvēlnes elements**. 
 1. Dialoglodziņā **Izvēlnes vienums** sadaļā **Izvēlnes vienuma teksts** ievadiet "Kontaktpersona."
 1. Dialoglodziņā **Izvēlnes vienums** sadaļā **Izvēlnes vienuma saites mērķis** atlasiet **Pievienot saiti**.
 1. Dialoglodziņā **Pievienot saiti** atlasiet URL saites "Kontaktpersonas" lapai un pēc tam atlasiet **Labi**.  
 1. Dialoglodziņā **Izvēlnes vienums** atlasiet **Labi**.
-1. Galvenes moduļa slotā **Meklēt** slotā atlasiet daudzpunktes pogu ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Galvenes moduļa slotā **Meklēt** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Meklēt** un pēc tam atlasiet **Labi**.
 1. Meklēšanas moduļa rekvizītu rūtī konfigurējiet rekvizītus pēc vajadzības.
-1. Galvenes moduļa slotā **Groza ikona** slotā atlasiet daudzpunktes pogu ( **...** ) un pēc tam atlasiet **Pievienot moduli**.
+1. Galvenes moduļa slotā **Groza ikona** slotā atlasiet daudzpunktes pogu (**...**) un pēc tam atlasiet **Pievienot moduli**.
 1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Groza ikona** un pēc tam atlasiet **Labi**.
 1. Groza ikonas moduļa rekvizītu rūtī konfigurējiet rekvizītus pēc vajadzības. Ja vēlaties, lai groza ikona parāda groza kopsavilkumu (to sauc arī par mini grozu), kad lietotāji uz to norāda, atlasiet **Rādīt mini grozu**.
-1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu fragmentā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 Lai palīdzētu nodrošināt, ka galvene parādās katrā lapā, veiciet šīs darbības katrā lapas veidnē, kas tiek izveidota šai vietnei.
 
 1. Moduļa **Noklusējuma lapa** slotā **Galvene** pievienojiet jūsu izveidoto kājenes fragmentu.
-1. Atlasiet **Saglabāt** , atlasiet **Pabeigt rediģēšanu** , lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt** , lai publicētu to.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817358"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413988"
 ---
 # <a name="content-block-module"></a>Satura bloka modulis
 
@@ -79,7 +79,7 @@ Tālāk esošajā attēlā redzams satura bloka moduļa piemērs ar funkcijas iz
 
 Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekvizītus, veiciet šādas darbības.
 
-1. Dodieties uz **Veidnes**un izveidojiet lapas veidni ar nosaukumu **Satura bloka veidne**.
+1. Dodieties uz **Veidnes** un izveidojiet lapas veidni ar nosaukumu **Satura bloka veidne**.
 1. Noklusētās lapas **Galvenajā** slotā pievienojiet centrālo moduli.
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Izmantojiet jūsu tikko izveidoto konteinera varoņa veidni, lai izveidotu lapu ar nosaukumu **Satura bloka lapa**.

@@ -1,5 +1,5 @@
 ---
-title: " Preču iepakojumu izveide pirkšanas pasūtījumiem"
+title: Preču iepakojumu izveide pirkšanas pasūtījumiem
 description: Šajā procedūrā ir aprakstīts, ka izveidot preču pakotni un izmantot to pirkšanas pasūtījumā.
 author: josaw1
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2b0084c6b4acbf14e3afec552575d5be26114237
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141370"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414098"
 ---
-# <a name="create-product-packages-for-purchase-orders"></a> Preču iepakojumu izveide pirkšanas pasūtījumiem
+# <a name="create-product-packages-for-purchase-orders"></a>Preču iepakojumu izveide pirkšanas pasūtījumiem
 
 [!include [banner](../includes/banner.md)]
 

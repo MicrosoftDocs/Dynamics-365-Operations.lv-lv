@@ -18,11 +18,11 @@ ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001145"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414029"
 ---
 # <a name="authoring-page-overview"></a>Autorēšanas lapas pārskats
 
@@ -76,8 +76,8 @@ Poga **Mans konts** ir vēl viena poga, kas atrodas autorēšanas lapas augšēj
 
 Lai pierakstītos autorēšanas rīkā vai izrakstītos no tā, veiciet kādu no šīm darbībām.
 
-- Ja neesat vēl pierakstījies autorēšanas rīkā, atlasiet **Mans konts**\>**Pierakstīties**, lai pierakstītos.
-- Ja esat jau pierakstījies un vēlaties izrakstīties, izvēlieties **Mans konts**\>**Izrakstīties**.
+- Ja neesat vēl pierakstījies autorēšanas rīkā, atlasiet **Mans konts** \> **Pierakstīties**, lai pierakstītos.
+- Ja esat jau pierakstījies un vēlaties izrakstīties, izvēlieties **Mans konts** \> **Izrakstīties**.
 
 ## <a name="change-the-display-language-of-the-authoring-tool"></a>Autorēšanas rīka ekrāna valodas maiņa
 
@@ -85,7 +85,7 @@ Varat arī izmantot pogu **Mans konts**, lai mainītu valodu teksta virknēm, ka
 
 Lai mainītu ekrāna valodu, veiciet šādas darbības.
 
-1. Atlasiet **Mans konts**\>**Izmainīt valodu**. Parādīsies dialoglodziņš.
+1. Atlasiet **Mans konts** \> **Izmainīt valodu**. Parādīsies dialoglodziņš.
 1. Atlasiet vienu no lietotāja valodām un pēc tam atlasiet **Saglabāt**.
 
 ## <a name="create-a-new-website"></a>Jaunas vietnes izveide

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ab1609d332b96c0588b06aa086dd4fee944e5d9
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ebc5cfa490a4c8538fd081aced0844ed01d63a26
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055764"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414209"
 ---
 # <a name="cart-icon-module"></a>Groza ikonas modulis
 
@@ -55,11 +55,13 @@ Lai pievienotu groza ikonas moduli, skatiet [Galvenes modulis](author-header-mod
 
 [Norēķināšanās modulis](add-checkout-module.md)
 
-[Maksājuma modulis](payment-module.md)
+[Maksājumu modulis](payment-module.md)
 
 [Piegādes adreses modulis](ship-address-module.md)
 
 [Piegādes opciju modulis](delivery-options-module.md)
+
+[Saņemšanas informācijas modulis](pickup-info-module.md)
 
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 

@@ -19,11 +19,11 @@ ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621197"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413941"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Paplašināto garantiju izveide un konfigurēšana
 
@@ -142,7 +142,7 @@ Garantijas grupa ir saistības starp garantijas precēm un garantējamajām prec
 
 Lai iestatītu garantijas grupas piešķiri Commerce, veiciet tālāk norādītās darbības.
 
-1. Pārejiet uz  **Mazumtirdzniecība un tirdzniecība \> Preces un kategorijas \> Garantija \> Garantijas grupas**.
+1. Pārejiet uz **Mazumtirdzniecība un tirdzniecība \> Preces un kategorijas \> Garantija \> Garantijas grupas**.
 1. Atlasiet **Jauns**, lai izveidotu garantijas grupu.
 1. Laukā **Nosaukums** ievadiet jaunās grupas nosaukumu.
 1. Kopsavilkuma cilnē **Vispārīgi** laukā **Apraksts** ievadiet grupas aprakstu.

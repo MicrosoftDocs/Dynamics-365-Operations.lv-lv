@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599800"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413947"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS konfigurācija Dynamics 365 Commerce novērtējuma vidē
 
@@ -64,13 +64,13 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 ### <a name="activate-modern-pos"></a>Aktivizēt Modern POS
 
 1. Windows darbvirsmā atlasiet pogu **Sākums** un ievadiet **Retail Modern POS**.
-2. Atlasiet **Retail Modern POS**programmu, lai iniciētu aktivizāciju.
+2. Atlasiet **Retail Modern POS** programmu, lai iniciētu aktivizāciju.
 3. Atlasiet **Nākamais**. **Servera URL**, **Ierīces ID** un **Reģistra numuru** lauki ir jāiestata, izmantojot informāciju no konfigurācijas faila, ko lejupielādējāt iepriekšējā procedūrā.
 4. Atlasiet **Aktivizēt**.
 5. Tiek parādīts autentifikācijas dialoglodziņš. Atlasiet kontu, kas izmanto e-pasta adresi, kas iepriekš bija saistīta ar darbinieku **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Ja vēl neesat saistījis darbinieku ar savu identitāti, aktivizēšana nebūs veiksmīga. Šādā gadījumā izpildiet darbības sadaļā “Saistīt darbinieku ar savu identitāti”, kas aprakstītas tēmā [Dynamics 365 Commerce novērtējuma vides konfigurācija](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Ja vēl neesat saistījis darbinieku ar savu identitāti, aktivizēšana nebūs veiksmīga. Šādā gadījumā izpildiet darbības sadaļā “Saistīt darbinieku ar savu identitāti”, kas aprakstītas tēmā [Konfigurēt Dynamics 365 Commerce novērtējuma vidi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Kad tiek parādīta uzvedne ar aicinājumu ļaut organizācijai pārvaldīt ierīci, atlasiet **Tikai šo programmu**.
 7. Kad aktivizēšana ir pabeigta, atlasiet **Sākt darbu**.
@@ -104,7 +104,7 @@ BOPIS scenārijiem, kas ietver kredītkartes maksājumu, ir nepieciešama aparat
 
     - **Kartes īpašnieka vārds:** ievadiet jebkādu vārdu.
     - **Kartes numurs:** ievadiet **4111-1111-1111-1111**.
-    - **Derīguma termiņa datums:** ievadiet**10/20**.
+    - **Derīguma termiņa datums:** ievadiet **10/20**.
     - **Kartes verificēšanas vērtības (CVV) kods:** ievadiet **737**.
 
     > [!IMPORTANT]
@@ -145,11 +145,11 @@ Par visiem vispārējiem jautājumiem kā pirmo darbību vienmēr ir jākonsult�
 
 [Dynamics 365 Commerce novērtējuma vides pārskats](cpe-overview.md)
 
-[Dynamics 365 Commerce novērtējuma vides nodrošināšana](provisioning-guide.md)
+[Nodrošināt Dynamics 365 Commerce novērtējuma vidi](provisioning-guide.md)
 
 [Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
 
-[Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi](cpe-faq.md)
+[Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

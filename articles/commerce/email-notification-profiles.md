@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
-ms.sourcegitcommit: 17ffdcbf4b1801bd6ee9c9ddc18622d5d04b8a98
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180199"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413963"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-pasta paziņojumu iestatīšana
 
@@ -41,7 +41,7 @@ Papildinformāciju par e-pasta ziņojumu konfigurēšanu skatiet rakstā [E-past
 
 Lai izveidotu e-pasta paziņojumu profilu, izpildiet tālāk norādītās darbības.
 
-1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \>Komercijas e-pasta paziņojumu profils**.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \> Komercijas e-pasta paziņojumu profils**.
 1. Darbību rūtī noklikšķiniet uz **Jauns**.
 1. Lai identificētu profilu, ievadiet nosaukumu laukā **E-pasta paziņojumu profils**.
 1. Ievadiet atbilstošu aprakstu laukā **Apraksts**.
@@ -71,7 +71,7 @@ Tālāk redzamajā attēlā parādīti daži e-pasta veidnes iestatījumi.
 
 Lai izveidotu e-pasta notikumu, izpildiet tālāk norādītās darbības.
 
-1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \>Komercijas e-pasta paziņojumu profils**.
+1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Mazumtirdzniecība un komercija \> Headquarters iestatīšana \> Komercijas e-pasta paziņojumu profils**.
 1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. 
 1. **E-pasta ID** nolaižamajā sarakstā atlasiet e-pasta veidni.
 1. Nolaižamajā sarakstā atlasiet atbilstošu **E-pasta paziņojumu veidu**.

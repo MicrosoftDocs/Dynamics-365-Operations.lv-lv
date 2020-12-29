@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 588cbedb077fab0663d3d62fc4a8b8ed915635b3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001925"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414007"
 ---
 # <a name="create-a-page-url"></a>Lapas vietrāža URL izveide
 
@@ -94,7 +94,7 @@ Lai novirzītu vietrādi URL uz citu vietrādi URL, rīkojieties šādi.
 1. Novirzīšanas tipa izvēle.
 
     - **Pastāvīga novirzīšana** (301) — atlasiet šo opciju, ja zināt, ka saturs tiek pārvietots uz visiem laikiem, un tas netiks atgriezts tā iepriekšējā vietrādī URL. Meklētājprogrammas piešķirs novirzošā vietrāža URL meklētājprogrammas optimizācijas (SEO) vērtību vietrādim, uz kuru notiek novirzīšana, un atjauninās savu ierakstu, lai parādītu jauno vietrādi URL. 
-    - **Pagaidu novirzīšana (302**) — atlasiet šo opciju, lai novirzītu datplūsmu, neatjauninot meklētājprogrammas. Šo pieeju parasti izmanto, ja saturs drīz atgriezīsies uz iepriekšējo vietrādi URL.
+    - **Pagaidu novirzīšana (302)** — atlasiet šo opciju, lai novirzītu datplūsmu, neatjauninot meklētājprogrammas. Šo pieeju parasti izmanto, ja saturs drīz atgriezīsies uz iepriekšējo vietrādi URL.
 
 1. Kad esat gatavs ieviest novirzīšanu, saglabājiet un publicējiet vietrādi URL.
 

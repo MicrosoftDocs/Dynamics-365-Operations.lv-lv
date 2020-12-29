@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107379"
+ms.locfileid: "4414200"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Multikanāla papildu automātiskās maksas
 
@@ -38,7 +38,7 @@ Laidienos pirms Retail versijas 10.0 [automātisko maksu](https://docs.microsof
 
 Laidienos pirms versijas 10.0, veicot POS darījumu "Piegādāt visu" vai "Piegādāt atlasīto", POS lietotājam tiek prasīts manuāli ievadīt piegādes maksu. Lai gan programmas papildmaksu iespējas tiek izmantotas attiecībā uz to, kā maksas tiek ierakstītas pasūtījumā, netiek nodrošināts sistemātisks aprēķins — maksu vērtības aprēķinam tiek izmantota lietotāja ievadītā vērtība. Maksas var pievienot tikai kā vienu ar piegādi saistītu maksu kodu, un pēc maksu izveides tās nevar viegli rediģēt vai mainīt POS sistēmā.
 
-Versijā 10.0 un jaunākās versijās joprojām ir pieejama iespēja izmantot manuālas piegādes maksu pievienošanas uzvednes. Ja organizācija neiespējo parametru **Papildu automātiskās maksas** , tiek izmantotas tādas pašas POS sistēmas uzvednes ar aicinājumu manuāli ievadīt maksas.
+Versijā 10.0 un jaunākās versijās joprojām ir pieejama iespēja izmantot manuālas piegādes maksu pievienošanas uzvednes. Ja organizācija neiespējo parametru **Papildu automātiskās maksas**, tiek izmantotas tādas pašas POS sistēmas uzvednes ar aicinājumu manuāli ievadīt maksas.
 
 Papildu automātisko maksu līdzeklis sniedz POS lietotājiem iespēju izmantot jebkuru definēto papildmaksu sistemātisku aprēķinu, pamatojoties uz automātisko maksu iestatījumu tabulām. Turklāt lietotājiem būs iespēja pievienot vai rediģēt neierobežotu skaitu papildu maksu un nodevu jebkuram POS darījumam galvas vai līnijas līmenī (skaidras naudas darījumiem vai klientu pasūtījumiem).
 
@@ -61,7 +61,7 @@ Lai nodrošinātu papildu automātisko maksu pareizu darbību POS lietojumprogr
 Tālāk ir norādītas jaunās operācijas.
 
 - **142. Pārvaldīt maksas** — izmantojiet šo operāciju, lai sniegtu POS lietotājiem iespēju skatīt un rediģēt papildmaksas POS darījumiem, kas tika pievienotas manuāli vai sistemātiski, izmantojot automātisko maksu aprēķinus.
-- **141. Pievienot galvenes maksas**  – izmantojiet šo operāciju, lai sniegtu lietotājam iespēju manuāli pievienot galvenes līmeņa papildmaksu jebkurai POS pārdošanas darījumam (un atlasīt izmantojamo maksu kodu).
+- **141. Pievienot galvenes maksas** – izmantojiet šo operāciju, lai sniegtu lietotājam iespēju manuāli pievienot galvenes līmeņa papildmaksu jebkurai POS pārdošanas darījumam (un atlasīt izmantojamo maksu kodu).
 - **140. Pievienot rindas maksas** – izmantojiet šo operāciju, lai sniegtu lietotājam iespēju manuāli pievienot rindas līmeņa papildmaksu jebkurai POS pārdošanas darījuma rindai (un atlasīt izmantojamo maksu kodu).
 - **143. Pārrēķināt maksas** – izmantojiet šo operāciju, lai pārdošanas darījuma maksas pārrēķinātu pilnībā. Visas lietotāja iepriekš pārrakstītās automātiskās maksas tiek pārrēķinātas, pamatojoties uz pašreizējo groza konfigurāciju.
 
@@ -137,7 +137,7 @@ Mazumtirgotājs ievieš parastā procesa izņēmumu, piedāvājot nodrošināt �
 
 #### <a name="setup-and-configuration"></a>Iestatīšana un konfigurēšana
 
-Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas** , lai definētu scenārijam piemērotu maksu kodu.
+Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas**, lai definētu scenārijam piemērotu maksu kodu.
 
 ![Maksu piemērs](media/chargesexample.png)
 
@@ -145,13 +145,13 @@ Ja maksa ir jāapstrādā kā ar piegādi saistīta maksa, lai varētu lietot ar
 
 Nosūtiet maksas uz Commerce Scale Unit/kanāla DB, lai tās varētu lietot POS sistēmā, izpildot darbu **1040 sadales grafiks**.
 
-[POS ekrāna izkārtojumā](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ir jākonfigurē operācija **Pievienot galvas līmeņa maksu** , lai šo operāciju (141. operāciju) varētu izsaukt, izmantojot lietotajam POS sistēmā pieejamu pogu. Ekrāna izkārtojuma izmaiņas ir jāizplata kanālā, kā arī izmantojot sadales grafika funkciju.
+[POS ekrāna izkārtojumā](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ir jākonfigurē operācija **Pievienot galvas līmeņa maksu**, lai šo operāciju (141. operāciju) varētu izsaukt, izmantojot lietotajam POS sistēmā pieejamu pogu. Ekrāna izkārtojuma izmaiņas ir jāizplata kanālā, kā arī izmantojot sadales grafika funkciju.
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Manuālo galvas līmeņa maksu apstrāde pārdošanas laikā
 
-Lai izpildītu scenāriju POS lietojumprogrammā, POS lietotājs izveido pārdošanas darījumu, kā parasti, pievienojot tai preces un jebkādas citas konfigurācijas. Pirms maksājuma iekasēšanas lietotājam ir izpilda operācija **Pievienot galvas līmeņa maksu** , kas prasa lietotājam atlasīt maksu kodu un ievadīt maksu vērtību. Kad lietotājs ir pabeidzis šo procesu, maksa tiek pievienota pārdošanas pasūtījumam kā galvas līmenī maksa.
+Lai izpildītu scenāriju POS lietojumprogrammā, POS lietotājs izveido pārdošanas darījumu, kā parasti, pievienojot tai preces un jebkādas citas konfigurācijas. Pirms maksājuma iekasēšanas lietotājam ir izpilda operācija **Pievienot galvas līmeņa maksu**, kas prasa lietotājam atlasīt maksu kodu un ievadīt maksu vērtību. Kad lietotājs ir pabeidzis šo procesu, maksa tiek pievienota pārdošanas pasūtījumam kā galvas līmenī maksa.
 
-Šo procesu var lietot zvanu centrā, izmantojot esošo līdzekli **Maksas** , kas ir pieejams rīkjoslas cilnē **Pārdot**. Lapā **Uzturiet maksas** lietotājs var pievienot jaunu maksu rindu pasūtījuma galvai.
+Šo procesu var lietot zvanu centrā, izmantojot esošo līdzekli **Maksas**, kas ir pieejams rīkjoslas cilnē **Pārdot**. Lapā **Uzturiet maksas** lietotājs var pievienot jaunu maksu rindu pasūtījuma galvai.
 
 ### <a name="manual-line-charges-example"></a>Manuālu rindas līmeņa maksu piemērs
 
@@ -161,7 +161,7 @@ Klients ir pieprasījis, lai divi no pieciem pārdošanas pasūtījumā ietvert
 
 #### <a name="setup-and-configuration"></a>Iestatīšana un konfigurēšana
 
-Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas** , lai definētu scenārijam piemērotu maksu kodu.
+Nodrošiniet, ka šī scenārija ietvaros izmantotais maksu kods ir pareizi konfigurēts, pārejot uz sadaļu **Debitori \> Maksu iestatīšana \> Maksas**, lai definētu scenārijam piemērotu maksu kodu.
 
 Ja maksa ir jāapstrādā kā ar piegādi saistīta maksa, lai varētu lietot ar piegādi saistītas atlaides vai akcijas, iestatiet maksu koda opcijas **Piegādes maksa** vērtību **Jā**. Ja maksu ir atļauts arī sistemātiski atlīdzināt, veicot atgriešanas darījumu POS lietojumprogrammā, iestatiet opcijas **Atmaksājams** vērtību **Jā**. Karodziņš **Atmaksājams** tiek lietots tikai tad, ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Jā**.
 
@@ -173,27 +173,27 @@ Operācija **Pievienot rindas līmeņa maksu** ir jākonfigurē [POS ekrāna iz
 
 Lai izpildītu scenāriju POS lietojumprogrammā, POS lietotājs izveido pārdošanas darījumu, kā parasti, pievienojot tai preces un jebkādas citas konfigurācijas. Pirms maksājuma iekasēšanas lietotājam POS krājumu saraksta ekrānā ir jāatlasa konkrētā rinda, kurai tiks lietota maksa, un jāizpilda operācija **Pievienotu rindas līmeņa maksu**. Lietotājam tiek prasīts atlasīt maksu kodu un ievadīt maksu vērtību. Kad lietotājs ir pabeidzis šo procesu, maksa tiek saistīta ar attiecīgo rindu un pievienota pasūtījuma kopsummai kā rindas līmenī maksa. Lietotājs var atkārtot šos procesu, lai pievienotu papildu maksas citām darījuma elementu rindām, ja tas ir nepieciešams.
 
-Tādu pašu procesu var lietot zvanu centrā, izmantojot funkciju "Uzturēt maksas", kas ir pieejama nolaižamajā izvēlnē **Finanšu dati** lapas **Pārdošanas pasūtījums** sadaļā **Pārdošanas pasūtījuma rindas**. Atlasot šo opciju, tiks atvērta lapa **Uzturēt maksas** , kurā lietotājs var pievienot jaunu līnijas maksu darījumam.
+Tādu pašu procesu var lietot zvanu centrā, izmantojot funkciju "Uzturēt maksas", kas ir pieejama nolaižamajā izvēlnē **Finanšu dati** lapas **Pārdošanas pasūtījums** sadaļā **Pārdošanas pasūtījuma rindas**. Atlasot šo opciju, tiks atvērta lapa **Uzturēt maksas**, kurā lietotājs var pievienot jaunu līnijas maksu darījumam.
 
 ## <a name="additional-features"></a>Papildu iespējas
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Maksu rediģēšana POS pārdošanas darījuma ietvaros
 
-[POS ekrāna izkārtojumam](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ir jāpievieno operācija **Pārvaldīt maksas**  (142), lai lietotājs varētu skatīt un rediģēt vai pārlabot jebkuras sistēmas aprēķinātās vai manuāli izveidotās galvas vai rindas līmeņa maksas. Ja operācija netiek pievienota, lietotāji nevar pielāgot POS darījuma maksu vērtību, kā arī nevar skatīt detalizētu informāciju par maksām, piemēram, ar maksām saistīto maksu koda veidu.
+[POS ekrāna izkārtojumam](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ir jāpievieno operācija **Pārvaldīt maksas** (142), lai lietotājs varētu skatīt un rediģēt vai pārlabot jebkuras sistēmas aprēķinātās vai manuāli izveidotās galvas vai rindas līmeņa maksas. Ja operācija netiek pievienota, lietotāji nevar pielāgot POS darījuma maksu vērtību, kā arī nevar skatīt detalizētu informāciju par maksām, piemēram, ar maksām saistīto maksu koda veidu.
 
-POS sistēmas lapā **Pārvaldīt maksas** lietotājs var skatīt detalizētu informāciju gan par galvas līmeņa, gan par rindas līmeņa maksām. Lietotājs var izmantot šajā lapā pieejamo funkciju **Rediģēt** , lai mainītu iekasēto summu noteiktā maksu rindā. Kad ir manuāli pārrakstīta maksu rinda, tā netiek sistemātiski pārrēķināta, ja vien lietotājs neuzsāk operāciju **Pārrēķināt maksas**.
+POS sistēmas lapā **Pārvaldīt maksas** lietotājs var skatīt detalizētu informāciju gan par galvas līmeņa, gan par rindas līmeņa maksām. Lietotājs var izmantot šajā lapā pieejamo funkciju **Rediģēt**, lai mainītu iekasēto summu noteiktā maksu rindā. Kad ir manuāli pārrakstīta maksu rinda, tā netiek sistemātiski pārrēķināta, ja vien lietotājs neuzsāk operāciju **Pārrēķināt maksas**.
 
-Ja iestatīšanas lapā **Commerce parametri** ir konfigurēta opcija **Maksu pārlabošanas iemesla kods** , pēc maksu izmainīšanas POS lietojumprogrammā lietotājam tiek prasīts norādīt iemesla kodu.
+Ja iestatīšanas lapā **Commerce parametri** ir konfigurēta opcija **Maksu pārlabošanas iemesla kods**, pēc maksu izmainīšanas POS lietojumprogrammā lietotājam tiek prasīts norādīt iemesla kodu.
 
 Ja tiek noteikti pārrakstītu maksu iemeslu kodi, tiek nodrošināts arī jauns pārskats, kurā var pārskatīt un auditēt šīs pārlabošanas. Pārskats ir pieejams sadaļā **Mazumtirdzniecība un komercija \> Pieprasījumi un pārskati \> Maksu pārlabošanas vēsture**.
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Maksu atmaksāšana POS atgriešanas darījuma ietvaros
 
-Ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Jā** , vairs netiek lietota esošā Commerce parametra **Atmaksāt piegādes maksas** vērtība. Lai norādītu, kuras maksas ir sistemātiski jāatmaksā klientam, izmantojot papildu automātiskās maksas, pārliecinieties, vai saistītais maksu kods ir konfigurēts kā **Atmaksājams** iestatīšanas lapā **Maksu kods**. Pārliecinieties, vai iestatījumi ir sinhronizēti ar jūsu Commerce kanāla datu bāzēm, izmantojot sadales grafika apstrādi.
+Ja ir iestatīta parametra **Izmantot papildu automātiskās maksas** vērtība **Jā**, vairs netiek lietota esošā Commerce parametra **Atmaksāt piegādes maksas** vērtība. Lai norādītu, kuras maksas ir sistemātiski jāatmaksā klientam, izmantojot papildu automātiskās maksas, pārliecinieties, vai saistītais maksu kods ir konfigurēts kā **Atmaksājams** iestatīšanas lapā **Maksu kods**. Pārliecinieties, vai iestatījumi ir sinhronizēti ar jūsu Commerce kanāla datu bāzēm, izmantojot sadales grafika apstrādi.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Maksu atmaksāšana atgriešanas pasūtījuma darījuma ietvaros
 
-Maksas netiek sistemātiski atmaksātas programmā Commerce izveidoto **Atgriešanas pasūtījumu** ietvaros. Kad tiek izveidots **Atgriešanas pasūtījums** , lietotājiem ir jāatlasa opcija **Kopēt maksas**. Ja nav atlasīta opcija **Kopēt maksas** , netiek automātiski atgrieztas sākotnējā pārdošanas darījumā ietvertās maksas. Ja ir atlasīta opcija **Kopēt maksas** , visas maksas tiek kopētas uz atgriešanas pasūtījumu, un lietotājs var manuāli rediģēt vai noņemt jebkuras maksas, kuras viņš nevēlas atmaksāt. Zvanu centra atgriešanas pasūtījumu apstrādes procesā pašlaik netiek ņemts vērā karodziņš **Atmaksājams** iestatījumu sadaļā **Maksu kods**.
+Maksas netiek sistemātiski atmaksātas programmā Commerce izveidoto **Atgriešanas pasūtījumu** ietvaros. Kad tiek izveidots **Atgriešanas pasūtījums**, lietotājiem ir jāatlasa opcija **Kopēt maksas**. Ja nav atlasīta opcija **Kopēt maksas**, netiek automātiski atgrieztas sākotnējā pārdošanas darījumā ietvertās maksas. Ja ir atlasīta opcija **Kopēt maksas**, visas maksas tiek kopētas uz atgriešanas pasūtījumu, un lietotājs var manuāli rediģēt vai noņemt jebkuras maksas, kuras viņš nevēlas atmaksāt. Zvanu centra atgriešanas pasūtījumu apstrādes procesā pašlaik netiek ņemts vērā karodziņš **Atmaksājams** iestatījumu sadaļā **Maksu kods**.
 
 ### <a name="configuring-pos-receipts-to-show-charges"></a>POS kvīšu konfigurēšana maksu parādīšanai
 

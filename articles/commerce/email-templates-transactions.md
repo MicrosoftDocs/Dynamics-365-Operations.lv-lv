@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983161"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413962"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-pasta ziņojumu veidņu izveide transakciju notikumiem
 
@@ -50,7 +50,7 @@ Lai izveidotu e-pasta veidni, izpildiet tālāk norādītās darbības.
     - **Sūtītāja e-pasts** — ievadiet e-pasta adresi, kas jālieto e-pasta ziņojumiem, kas tiek nosūtīti, izmantojot šo veidni.
     - **Noklusētais valodas kods** — šis lauks norāda pēc noklusējuma nosūtītā e-pasta ziņojuma lokalizēto versiju, ja kanāls, kas izsauc šo veidni, nesniedz nekādu valodu.
 
-1. Sadaļā **E-pasta**ziņojuma saturs atlasiet **Jauns**.
+1. Sadaļā **E-pasta** ziņojuma saturs atlasiet **Jauns**.
 1. Laukā **Valoda** ievadiet e-pasta veidnes valodu. Vēlāk varat pievienot vairākas valodas un lokalizētas veidnes.
 1. Laukā **Tēma** ievadiet e-pasta tēmu, kam jāparādās e-pasta tēmas laukā.
 1. Atlasiet **Rediģēt**, lai augšupielādētu savu e-pasta veidni.

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712356"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419616"
 ---
 # <a name="request-time-off"></a>Brīvā laika pieprasīšana
 
@@ -31,7 +31,7 @@ Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtn
 
 ## <a name="request-time-off"></a>Brīvā laika pieprasīšana
 
-1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi**atlasiet opciju **Pieprasīt brīvo laiku** rūtī **Brīvā laika bilances**.
+1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Pieprasīt brīvo laiku** rūtī **Brīvā laika bilances**.
 
 2. Ievadiet informāciju par **atvaļinājuma veidu**, **Pamatojuma kodu**, **Sākuma datumu** un **Beigu datumu**.
 
@@ -49,13 +49,13 @@ Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat a
 
 ## <a name="view-leave-balances"></a>Skatīt atvaļinājumu bilances
 
-1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi**atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
+1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
 
 2. Atlasiet **Bilances**.
 
 ## <a name="view-leave-request-status"></a>Skatīt atvaļinājuma pieprasījuma statusu
 
-1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi**atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
+1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
 
 2. Lai skatītu apstiprinātos brīvā laika pieprasījumus, izvēlieties **Apstiprinātais brīvais laiks**. Lai skatītu gaidošos brīvā laika pieprasījumus, atlasiet **Brīvā laika pieprasījumi**.
 

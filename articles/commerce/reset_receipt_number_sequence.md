@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
 ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967290"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413982"
 ---
 # <a name="reset-receipt-numbers"></a>Atiestatīt kvīšu numurus 
 
@@ -67,4 +67,4 @@ Kad pienāk atiestatīšanas datums, kvīts numurs tiek atiestatīts pirmajai ka
 Lai dzēstu turpmākos atiestatīšanas datumus, varat izmantot funkcionalitāti **Notīrīt atiestatīšanas datumu**. Tomēr, ja atgriešanas datums bijis pagātnē, to nevar atsaukt. Tāpēc atiestatīšana joprojām notiks visiem reģistriem, kuros atiestatīšana vēl nav notikusi.
 
 > [!NOTE]
-> Atkarībā no atlasītā atiestatīšanas datuma un kvīts formāta, iespējams, ir dublēti kvīšu numuri. Kaut arī pārdošanas punkta (POS) sistēma var tikt galā ar šīm situācijām, tās palielina laika daudzumu, kas nepieciešams, lai apstrādātu atgriešanu, jo pārdošanas partneriem ir jāatlasa no dublētajām kvītīm. Citi sarežģījumi, kas saistīti ar datu tīrīšanu, var rasties, ja dublētās kvītis nebija plānotas sekas. Tāpēc ir ieteicams lietot dinamisko datumu rakstzīmes (piemēram, **ddd**, **MM**, **DD**un **YY**), lai pēc atiestatīšanas palīdzētu novērst dublētus kvīšu numurus.
+> Atkarībā no atlasītā atiestatīšanas datuma un kvīts formāta, iespējams, ir dublēti kvīšu numuri. Kaut arī pārdošanas punkta (POS) sistēma var tikt galā ar šīm situācijām, tās palielina laika daudzumu, kas nepieciešams, lai apstrādātu atgriešanu, jo pārdošanas partneriem ir jāatlasa no dublētajām kvītīm. Citi sarežģījumi, kas saistīti ar datu tīrīšanu, var rasties, ja dublētās kvītis nebija plānotas sekas. Tāpēc ir ieteicams lietot dinamisko datumu rakstzīmes (piemēram, **ddd**, **MM**, **DD** un **YY**), lai pēc atiestatīšanas palīdzētu novērst dublētus kvīšu numurus.

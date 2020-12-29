@@ -18,11 +18,11 @@ ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975996"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414037"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
 
@@ -58,10 +58,10 @@ Datu bāzes momentuzņēmums, ko izveido darbs **Preču pieejamība**, aprēķin
 
 Lai uzņemtu krājumu momentuzņēmumu programmā Commerce Headquarters, veiciet tālāk norādītās darbības.
 
-1. Dodieties uz **Retail un Commerce \>Retail un Commerce IT \>Preces un krājumi \>Preču pieejamība**.
+1. Dodieties uz **Retail un Commerce \> Retail un Commerce IT \> Preces un krājumi \> Preču pieejamība**.
 1. Atlasiet **Labi**, lai palaistu darbu **Preču pieejamība**. Varat arī ieplānot šo darbu, lai tas tiktu palaists partijā.
 
-Kad darbs **Preču pieejamība**ir pabeigts, notvertie dati ir jāpārceļ uz e-komercijas kanāla datu bāzēm, lai jaunāko Commerce Headquarters krājumu momentuzņēmumu varētu iekļaut novērtēto rīcībā esošo krājumu aprēķinā.
+Kad darbs **Preču pieejamība** ir pabeigts, notvertie dati ir jāpārceļ uz e-komercijas kanāla datu bāzēm, lai jaunāko Commerce Headquarters krājumu momentuzņēmumu varētu iekļaut novērtēto rīcībā esošo krājumu aprēķinā.
 
 1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 1. Palaidiet darbu **1130** (**Preču pieejamība**) darbu, lai sinhronizētu momentuzņēmuma datus, ko **Preču pieejamības** darbs, kas izveidots no Commerce Headquarters, ar jūsu kanāla datu bāzēm.
@@ -84,7 +84,7 @@ Lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpoju
 
 Lai izmainītu **Funkcionalitātes profilu**, veiciet šādas darbības:
 
-1. Dodieties uz sadaļu **Retail un Commerce\> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
+1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. Atlasiet funkcionalitātes profilu.
 1. Kopsavilkuma cilnes **Funkcijas** sadaļā **Krāj. pieejamības aprēķins** mainiet lauka **Krāj. pieejamības aprēķina režīms** no **Reāllaika pakalpojums** uz **Kanāls**. Pēc noklusējuma visi funkcionalitātes profili izmanto reāllaika pakalpojumu izsaukumus. Tāpēc šī lauka vērtība ir jāmaina, ja vēlaties izmantot kanāla puses aprēķina loģiku. Visus mazumtirdzniecības veikalus, kas ir saistīti ar izvēlēto funkcionalitātes profilu, ietekmēs šīs izmaiņas.
 
@@ -103,7 +103,7 @@ Lai nodrošinātu labāko iespējamo krājumu aplēsi, ir svarīgi, lai tiktu iz
 
 - **P-darbs** – P-darbs tiek atrasts lapā **Sadales grafiki**, un tas ir jāizpilda bieži. Šis darbs apvieno e-komercijas pasūtījumus, asinhronos debitoru pasūtījumus, kas izveidoti POS, un pārdošanas skaidrā naudā bez piegādes pasūtījumus, ko POS izveidoja no kanāla datu bāzēm programmā Commerce Headquarters, lai tos varētu apstrādāt tālāk. Līdz brīdim, kad šie dati tiek sinhronizēti no kanāla uz Commerce Headquarters, Commerce Headquarters nav informācijas par krājumu korekcijām precēm noliktavās, kas rodas no šīm transakcijām.
 - **Sinhronizēt pasūtījumus** — šis darbs apstrādā neapstrādātos transakciju datus programmā Commerce Headquarters, kurus P-darbs sniedz un pārvērš e-komerciju un asinhronu debitoru pasūtījumu transakcijas pārdošanas pasūtījumos programmā Commerce Headquarters. Kamēr šis darbs netiek apstrādāts un pārdošanas pasūtījumi nav izveidoti, transakcijas darbības netiek veidotas. Tāpēc rīcībā esošie krājumi programmā Commerce Headquarters neņems vērā transakcijas.
-- **Aprēķināt transakciju izrakstus paketē** – pārdošanas darījumiem skaidrā naudā bez piegādes, kas ir izveidoti veikalā, pakāpeniskās padeves grāmatošanas procesā tiek nodrošināts, ka ar pārdošanu saistītie krājumi tiek atjaunināti efektīvi. Lai iegūtu visefektīvāko krājumu transakciju pārdošanas skaidrā naudā bez piegādes darījumu transakcijām, pārliecinieties, ka konfigurējat sistēmu, lai izmantotu [pakāpeniskās padeves grāmatošanu ](https://docs.microsoft.com/dynamics365/commerce/trickle-feed).
+- **Aprēķināt transakciju izrakstus paketē** – pārdošanas darījumiem skaidrā naudā bez piegādes, kas ir izveidoti veikalā, pakāpeniskās padeves grāmatošanas procesā tiek nodrošināts, ka ar pārdošanu saistītie krājumi tiek atjaunināti efektīvi. Lai iegūtu visefektīvāko krājumu transakciju pārdošanas skaidrā naudā bez piegādes darījumu transakcijām, pārliecinieties, ka konfigurējat sistēmu, lai izmantotu [pakāpeniskās padeves grāmatošanu](https://docs.microsoft.com/dynamics365/commerce/trickle-feed).
 - **Grāmatot transakciju paziņojumus partijā** — šis darbs ir nepieciešams arī pakāpeniskās padeves grāmatošanai. Tas seko darbam **Aprēķināt transakciju paziņojumus partijā**. Šis darbs sistemātiski veic aprēķināto paziņojumu grāmatošanu, lai pārdošanas pasūtījumi pārdošanas pasūtījumiem skaidrā naudā bez piegādes tiktu izveidoti programmā Commerce Headquarters un Commerce Headquarters precīzāk atainotu jūsu veikala krājumus.
 - **Preču pieejamība** — šis darbs izveido krājumu momentuzņēmumu no Commerce Headquarters.
 - **1130 (Preču pieejamība)** - Šis darbs ir atrodams lapā **Sadales grafiki**, un tas ir jāizpilda uzreiz pēc darba **Preču pieejamība**. Šis darbs transportē krājumu momentuzņēmuma datus no Commerce Headquarters uz kanāla datu bāzēm.
