@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015083"
+ms.locfileid: "4408294"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Atjaunināt veidu, kā summas tiek rādītas pārskatos un dokumentos
 
@@ -50,7 +50,7 @@ Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īso
    |    <strong>Vienību saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                         Ievadiet ISO kodu, lai identificētu attiecīgo valūtu. Piemēram, ievadiet LTL, lai identificētu litus.                                                                                         |
    |   <strong>Daļu saīsinātais nosaukums (īso nosaukumu lauku grupa)</strong>    |                                                                                               Ievadiet valūtas apakšvienības apzīmējumu. Ievadiet, piemēram, “centi”.                                                                                               |
    |       <strong>Saiklis “un” starp vienībām un daļām</strong>       |                                     Atzīmējiet šo opciju, lai starp valūtas vienībām un vienības daļām drukātu saikli “un”. Piemēram, rēķinos vai pārskatos summa LTL 100,20 tiks rādīta kā “100 liti un 20 centi”.                                      |
-   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis** , **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot **Dzimumu** EUR valūtai uz **Neitrāls** , summa 1,01 EUR Kases orderī čehu valodā ir *Edno euro 01 cent*.  |
+   |       <strong>Dzimums</strong>       |  Atlasiet **Vīrietis**, **Sieviete** vai **Neitrāls**. Šis parametrs var ietekmēt summas novirzes tekstu, kas parādīts Kases orderī vietējās valodas tekstā. Piemēram, iestatot **Dzimumu** EUR valūtai uz **Neitrāls**, summa 1,01 EUR Kases orderī čehu valodā ir *Edno euro 01 cent*.  |
 
 5. Atlasiet **Saglabāt**.
 
