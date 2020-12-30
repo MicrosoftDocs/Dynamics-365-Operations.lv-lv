@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 27621
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
-ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3321670"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681404"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER veidņu dublējumkopijas
 
@@ -57,9 +56,9 @@ Ja ir nepieciešama ER formāta veidne, lai varētu izveidot izejošos dokumentu
 - Katrs lietotājs, kuram ir piešķirta **Elektroniskās pārskatu izstrādātāja** vai **sistēmas administratora** loma, tiek informēts par trūkstošo veidnes izdošanu, izmantojot darbību centru. Ziņojums, kas tiek parādīts, ir atkarīgs no vērtības, **kas tiek automātiski izpildīta, atjaunojot bojātas** veidnes partijas parametrā:
 
     - Ja šis parametrs ir iestatīts kā **izslēgts**, ziņojums iesaka sākt pakešveida apstrādi, lai automātiski LABOTU līdzīgas problēmas citiem er formāta konfigurācijas veidnēm. Ziņojumā ir ietverta saite, ko var izmantot, lai sāktu pakešveida apstrādi.
-    - Ja šis parametrs ir iestatīts kā **on**, paziņojums paziņo jums, ka trūkstošās veidnes problēma ir atklāta un ka jauns pakešapstrādes process, **atjaunot sarautas veidnes no iekšējās datu bāzes**dublējumkopijas, ir automātiski plānotais. Šī Pakešapstrāde automātiski noteiks līdzīgas problēmas citām veidnēm.
+    - Ja šis parametrs ir iestatīts kā **on**, paziņojums paziņo jums, ka trūkstošās veidnes problēma ir atklāta un ka jauns pakešapstrādes process, **atjaunot sarautas veidnes no iekšējās datu bāzes** dublējumkopijas, ir automātiski plānotais. Šī Pakešapstrāde automātiski noteiks līdzīgas problēmas citām veidnēm.
 
-Ziņojums, kas tiek parādīts, ir atkarīgs no vērtības, **kas tiek automātiski izpildīta, atjaunojot bojātas** veidnes partijas parametrā:
+Lai iestatītu parametru **Automātiski izpildīt procedūru, lai atjaunotu bojātas veidnes partijā**, veiciet tālāk norādītās darbības.
 
 1. Programmā Finance and Operations atveriet sadaļu **Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas lapa**.
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.

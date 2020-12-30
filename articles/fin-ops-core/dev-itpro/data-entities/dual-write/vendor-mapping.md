@@ -1,6 +1,6 @@
 ---
 title: Integrētie kreditoru pamatdati
-description: Šajā tēmā aprakstīta kreditoru datu integrācija starp programmām Finance and Operations un Common Data Service.
+description: Šajā tēmā aprakstīta kreditoru datu integrācija starp programmām Finance and Operations un Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997652"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685489"
 ---
 # <a name="integrated-vendor-master"></a>Integrētie kreditoru pamatdati
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,7 +39,7 @@ Abās pieejās tiek integrēti kreditoru dati starp portāliem Dynamics 365 Supp
 
 ## <a name="vendor-data-flow"></a>Kreditora datu plūsma
 
-Ja nevēlaties glabāt kreditora datus elementā **Konts/Kontaktpersona** pakalpojumā Common Data Service, varat izmantot jauno kreditora noformējumu.
+Ja nevēlaties glabāt kreditora datus elementā **Konts/Kontaktpersona** pakalpojumā Dataverse, varat izmantot jauno kreditora noformējumu.
 
 ![Kreditora datu plūsma](media/dual-write-vendor-data-flow.png)
 
@@ -50,12 +52,12 @@ Ja nevēlaties turpināt glabāt kreditora datus elementā **Konts/Kontaktperson
 
 ## <a name="templates"></a>Veidnes
 
-Kreditora dati ietver visu informāciju par kreditoru, piemēram, kreditora grupu, adreses, kontaktinformāciju, maksājuma metodi un rēķina metodi. Elementa karšu vākšana darbojas kopā kreditora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
+Kreditora dati ietver visu informāciju par kreditoru, piemēram, kreditora grupu, adreses, kontaktinformāciju, maksājuma metodi un rēķina metodi. Tabulas karšu vākšana darbojas kopā kreditora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
 
 Finance and Operations programmas | Citas Dynamics 365 programmas     | Apraksts
 ----------------------------|-----------------------------|------------
 V2 kreditors                   | Konts                     | Uzņēmumi, kas izmanto Konta elementu, lai glabātu kreditora informāciju, var turpināt to lietot tādā pašā veidā. Tie var arī izmantot skaidras kreditora funkcionalitātes priekšrocības, ko rada Finance and Operations programmu integrācija.
-V2 kreditors                   | Msdyn\_vendors              | Uzņēmumiem, kas izmanto pielāgotu risinājumu kreditoriem, var izmantot standarta komplektācijas kreditora konceptu, kas ir ieviests pakalpojumā Common Data Service saistībā ar Finance and Operations programmu integrāciju. 
+V2 kreditors                   | Msdyn\_vendors              | Uzņēmumiem, kas izmanto pielāgotu risinājumu kreditoriem, var izmantot standarta komplektācijas kreditora konceptu, kas ir ieviests pakalpojumā Dataverse saistībā ar Finance and Operations programmu integrāciju. 
 Kreditoru grupas               | msdyn\_vendorgroups         | Šī veidne sinhronizē kreditoru grupas informāciju.
 Piegādātāja maksāšanas metode       | msdyn\_vendorpaymentmethods | Šī veidne sinhronizē kreditora maksājuma metodes informāciju.
 CDS kontaktpersonas V2             | kontaktpersonas                    | [Kontaktpersonas](customer-mapping.md#cds-contacts-v2-to-contacts) veidne sinhronizē visu primāro, sekundāro un terciāro kontaktpersonas informāciju par debitoriem un kreditoriem.

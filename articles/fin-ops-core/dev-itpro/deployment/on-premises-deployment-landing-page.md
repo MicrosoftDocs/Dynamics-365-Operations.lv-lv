@@ -3,26 +3,25 @@ title: Lokālo izvietojumu sākumlapa
 description: Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem.
 author: sericks007
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367062"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679348"
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
@@ -67,10 +66,9 @@ Varat izvietot programmu Dynamics 365 Finance + Operations (lokālo versiju). Iz
 
 ## <a name="other-resources"></a>Citi resursi
 - [Lokālu izvietojumu problēmu novēršana](troubleshoot-on-prem.md)
-- [Scenāriji problēmu risināšanai lokālā vidē](onprem-tsg-implementations.md)
+- [Skripti problēmu risināšanai lokālā vidē](onprem-tsg-implementations.md)
 - [Sertifikāta rotācija](certificate-rotation-on-prem.md)
 - [Lokālā diagnostika](on-premises-diagnostics.md)
-- [Līdzekļi, kas nav ieviesti lokālajos izvietojumos](../../fin-ops/get-started/features-not-implemented-on-prem.md)
 - [Noņemtie vai novecojušie līdzekļi Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un lokālie laidieni](../migration-upgrade/on-prem-version-update-policy.md)
  

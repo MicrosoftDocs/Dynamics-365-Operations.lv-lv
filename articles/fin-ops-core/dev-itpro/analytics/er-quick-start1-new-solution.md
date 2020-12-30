@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678252"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680246"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -142,10 +141,10 @@ Kā lietotājam Elektronisko pārskatu attīstības lomā, jums ir jākonfigurē
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Konfigurējiet ER parametrus
 
-1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. IDarbvietā **Elektronisko pārskatu veidošana** atlasiet **Elektronisko pārskatu veidošanas parametri**.
-3. Lapas **Elektronisko pārskatu veidošanas parametri** cilnē **Vispārīgi** iestatiet opciju **Iespējot noformēšanas režīmu** uz **Jā**.
-4. Cilnē **Pielikumi** iestatiet šādus parametrus:
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+2. Darbvietā **Elektronisko pārskatu veidošana** atlasiet saiti **Elektronisko pārskatu veidošanas parametri**.
+3. Lapas **Elektronisko pārskatu veidošanas parametri** cilnē **Vispārīgi** iestatiet opciju **Iespējot noformēšanas režīmu** uz **Jā**.
+4. Cilnē **Pielikumi** iestatiet šādus parametrus:
 
     - Iestatiet lauku **Konfigurācijas** uz **Fails** uzņēmumam **USMF**.
     - Iestatiet **Darbu arhīvs**, **Pagaidu**, **Bāzlīnija** un **Citi** laukus uz **Fails**.
@@ -161,28 +160,28 @@ Katra ER konfigurācija tiek atzīmēta kā piederoša ER konfigurācijas nodro�
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>ER konfigurācijas nodrošinātāju saraksta pārskatīšana
 
-1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. Darbvietas **Elektronisko pārskatu veidošana** sadaļā **Saistītās saites** atlasiet **Konfigurācijas nodrošinātāji**.
 3. Lapā **Konfigurācijas nodrošinātāji** katrai konfigurācijai ir unikāls nosaukums un URL. Pārskatiet šīs lapas saturu. Ja ieraksts **Litware, Inc.** (`https://www.litware.com`) jau pastāv, izlaidiet nākamo procedūru, [Jauna ER konfigurācijas nodrošinātāja pievienošana](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Jauna ER konfigurācijas nodrošinātāja pievienošana
 
 1. Lapā **Konfigurācijas nodrošinātāji** atlasiet **Jauns**.
-2. Laukā **Nosaukums** ievadiet **Litware, Inc.**
-3. Laukā **Interneta adrese** ievadiet  `https://www.litware.com`.
-4. Atlasiet **Saglabāt**.
+2. Laukā **Nosaukums** ievadiet **Litware, Inc.**
+3. Laukā **Interneta adrese** ievadiet `https://www.litware.com`.
+4. Atlasiet **Saglabāt**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>ER konfigurācijas nodrošinātāja aktivizēšana
 
-1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
+1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 2. **Elektroniskā pārskata** darbvietā atlasiet **Litware, Inc.** jūsu konfigurācijas nodrošinātājam.
-3. Atlasiet **Iestatīt kā aktīvu**.
+3. Atlasiet **Iestatīt kā aktīvu**.
 
 Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Domēnam specifiska datu modeļa izveide
 
-Ir jāizveido jauna ER konfigurācija, kas satur [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu **Anketas** biznesa domēnam. Šis datu modelis vēlāk tiks izmantots kā datu avots, noformējot ER formātu, lai ģenerētu **Anketas** pārskatu.
+Ir jāizveido jauna ER konfigurācija, kas satur [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu **Anketas** biznesa domēnam. Šis datu modelis vēlāk tiks izmantots kā datu avots, noformējot ER formātu, lai ģenerētu **Anketas** pārskatu.
 
 Veicot darbības, kas norādītas sadaļā [Importēt jaunu datu modeļa konfigurāciju](#ImportDataModel), jūs varat importēt nepieciešamo datu modeli no norādītā XML faila. Vai arī varat veikt darbības, kas aprakstītas sadaļā [Izveidot jaunu datu modeļa konfigurāciju](#DesignDataModel), lai izveidotu šo datu modeli no jauna.
 
@@ -811,7 +810,7 @@ Sekojošajā attēlā redzams ģenerētais pārskats Excel formātā, kur jautā
 
 Kā lietotājam lomā Sistēmas administrators, jums ir jāizstrādā jauna loģika, lai konfigurēto ER formātu varētu izsaukt no lietojumprogrammas lietotāja interfeisa (UI), lai ģenerētu pielāgoto pārskatu. Pašlaik ER nepiedāvā nekādu iespēju konfigurēt šāda veida loģiku. Tāpēc ir nepieciešams atsevišķs tehniskais darbs. 
 
-Lai attīstītu jaunu loģiku, jums jāizvieto topoloģija, kas atbalsta pastāvīgu būvēšanu. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md). Jums jābūt arī piekļuvei šīs topoloģijas izstrādes videi. Papildinformāciju par pieejamo ER API skatiet sadaļā [ER struktūras API](er-apis-app73.md).
+Lai attīstītu jaunu loģiku, jums jāizvieto topoloģija, kas atbalsta pastāvīgu būvēšanu. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md). Jums jābūt arī piekļuvei šīs topoloģijas izstrādes videi. Papildinformāciju par pieejamo ER API skatiet sadaļā [ER struktūras API](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Pirmkoda modificēšana
 

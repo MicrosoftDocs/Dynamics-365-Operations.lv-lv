@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175112"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689498"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 
@@ -35,6 +35,40 @@ ms.locfileid: "3175112"
 
 > [!NOTE]
 > Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.16 laidienā
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>“Virsgrāmatas darījumu eksportēšanas formāts (BE)” elektronisko pārskatu formāts un attiecīgais “Virsgrāmatas darbību eksportēšana (BE)” modelis Beļģijai
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu ER formātu sadaļā “Standarta audita faila (SAF-T)” modelis.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: līdz 2021. gada 1. decembrim mēs plānojam vairs neatbalstīt “Virsgrāmatas darbību eksportēšanas formāts (BE)” elektronisko pārskatu (ER) formātu un attiecīgo “Virsgrāmatas darbību eksportēšanas (BE)” modeli. Tiek ieviesti jauns “Virsgrāmatas datu eksportēšanas (BE)” formāts kopā ar “Virsgrāmatas datu modeļa kartēšanu”, nevis ar “Standarta audita faila (SAF-T)” modeli. |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>“PVN 100” pārskats Apvienotajai Karalistei SSRS formātā
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jauno ER formātu — “PVN deklarācijas Excel (UK)” formāts sadaļā “Nodokļu deklarācijas modelis”.  |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: līdz 2021. gada 1. decembrim mēs plānojam vairs nesniegt atbalstu “PVN 100 pārskats” SSRS formātā. [MTD PVN līdzeklī](../localizations/emea-gbr-mtd-vat-integration.md) tika ieviests jauns formāts “PVN deklarācijas Excel (UK)” sadaļā “Nodokļu deklarācijas modelis”. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.15 laidienā
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 atbalsts Dynamics 365 ir novecojis
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
+| **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces |
+| **Izvietošanas iespēja**              | Visu|
+| **Statuss**                         | Novecojis. Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.12 laidienā
 

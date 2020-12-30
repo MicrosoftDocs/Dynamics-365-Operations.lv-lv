@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
-ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
+ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "2870268"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694473"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
@@ -97,7 +96,7 @@ Ieteicams SQL Server vienmēr izmantot ar klastera vai spoguļošanas iestatīju
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory federācijas pakalpojums (AD FS)
 
-Informāciju par AD FS lieluma maiņu skatiet rakstā [AD FS servera noslodzes dokumentācija](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Informāciju par AD FS lieluma maiņu skatiet rakstā [AD FS servera noslodzes dokumentācija](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Instanču skaita plānošanai izvietojumā ir pieejama [lieluma maiņas izklājlapa](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx).
 

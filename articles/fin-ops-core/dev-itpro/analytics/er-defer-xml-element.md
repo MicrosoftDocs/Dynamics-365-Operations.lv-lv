@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138927"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680714"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>XML elementu izpildes atlikšana ER formātos
 
@@ -201,7 +200,7 @@ Ja darbības apjoms ir daudz plašāks par apjomu dotajā piemērā, aprēķinā
 
     ![Lejupielādēts fails](./media/ER-DeferredXml-Run1.png)
 
-    Pēdējā ieraksta mezglā ir iekļauta nodokļu vērtību pašreizējā kopsumma, kas tiek aprēķināta visām apstrādātajām darbībām, izmantojot ģenerēto izvadi kā datu avotu. Šis datu avots sākas no pārskata sākuma un turpinās, aplūkojot pēdējo nodokļu darbību. Kopsavilkuma mezglā ir iekļauta visu apstrādāto darbību nodokļu vērtību summa, kas tiek aprēķināta modeļa kartēšanā, izmantojot *GroupBy* tipa datu avotu. Ievērojiet, ka šīs vērtības ir vienādas. Tādēļ **GroupBy**vietā var izmantot uz izvadi balstītu summēšanu. Salīdzinot pirmā ieraksta mezgla un kopsavilkuma mezgla izpildes laikus, varat noteikt, ka visu ierakstu mezglu ģenerēšana un summēšana tika veikta 11 milisekundēs(ms). Tāpēc, ciktāl tas attiecas uz ieraksta mezglu ģenerēšanu un nodokļu vērtību summēšanu, modificētais formāts ir aptuveni divas reizes ātrāks nekā sākotnējais formāts.
+    Pēdējā ieraksta mezglā ir iekļauta nodokļu vērtību pašreizējā kopsumma, kas tiek aprēķināta visām apstrādātajām darbībām, izmantojot ģenerēto izvadi kā datu avotu. Šis datu avots sākas no pārskata sākuma un turpinās, aplūkojot pēdējo nodokļu darbību. Kopsavilkuma mezglā ir iekļauta visu apstrādāto darbību nodokļu vērtību summa, kas tiek aprēķināta modeļa kartēšanā, izmantojot *GroupBy* tipa datu avotu. Ievērojiet, ka šīs vērtības ir vienādas. Tādēļ **GroupBy** vietā var izmantot uz izvadi balstītu summēšanu. Salīdzinot pirmā ieraksta mezgla un kopsavilkuma mezgla izpildes laikus, varat noteikt, ka visu ierakstu mezglu ģenerēšana un summēšana tika veikta 11 milisekundēs(ms). Tāpēc, ciktāl tas attiecas uz ieraksta mezglu ģenerēšanu un nodokļu vērtību summēšanu, modificētais formāts ir aptuveni divas reizes ātrāks nekā sākotnējais formāts.
 
 13. Atlasiet atribūtu **Pārskats\\Ziņojums\\Kopsavilkums\\TotalTaxAmount** un pēc tam atlasiet **Rediģēt formulu**.
 14. Ievadiet esošās izteiksmes vietā izteiksmi `SUMIF(SummingAmountKey, WsColumn, WsRow)`.

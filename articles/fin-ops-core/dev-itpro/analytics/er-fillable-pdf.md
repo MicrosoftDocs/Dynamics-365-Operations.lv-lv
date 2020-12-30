@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771310"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688129"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma i r**Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Service (RCS).
+Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma i r **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Service (RCS).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -136,7 +135,7 @@ Tālāk redzamajā attēla ir pārskata pārējo lapu PDF veidne.
 7. Atlasiet **Labi**.
 8. Darbību rūts cilnē **Importēšana** atlasiet **Importēt no PDF**.
 
-    Kad aizpildāms PDF dokuments tiek importēts kā veidne šim ER formātam, visi pieprasītie ER formāta elementi (**PDF fails**, **Lauku grupa**un **Lauks**) tiek automātiski izveidoti formātā, kas ir izstrādāts, pamatojoties uz importējamā PDF dokumenta struktūru.
+    Kad aizpildāms PDF dokuments tiek importēts kā veidne šim ER formātam, visi pieprasītie ER formāta elementi (**PDF fails**, **Lauku grupa** un **Lauks**) tiek automātiski izveidoti formātā, kas ir izstrādāts, pamatojoties uz importējamā PDF dokumenta struktūru.
 
 9. Atlasiet **Pārlūkot**. Dodieties uz failu **IntrastatReportTemplate1. PDF**, ko lejupielādējāt agrāk kā priekšnosacījumu, un atlasiet to.
 10. Atlasiet **Labi**.

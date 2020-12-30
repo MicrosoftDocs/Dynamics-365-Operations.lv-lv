@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781149"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680881"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>No valsts konteksta atkarīgu EP modeļu kartējumu konfigurēšana
 
@@ -144,7 +143,7 @@ Kā jau redzējāt, modeļa kartēšanas izvēle EP formāta izpildei darbojas �
 - Modeļa kartēšanas definīcija, ko lieto EP formāts, tiek konkretizēta (šīs tēmas piemēros **1. ieejas punkts**).
 - Visas kartēšanas konfigurācijas, kas ietver kartēšanu, kurai ir noteikta definīcija un kas ievēro jebkuru valstu/reģionu konteksta ierobežojumus, kas ir konfigurēti, var tikt izmantotas, lai palaistu EP formātu (šīs tēmas piemēros **Kartēšana (vispārīgā)**, **Pielāgotā kartēšana (vispārīgā)** un **Kartēšana (FR)**).
 - Jebkurai noklusētā modeļa kartēšanai, kurai ir valsts/reģiona konteksta ierobežojumi, ir augstākā prioritāte atlasē (šīs tēmas piemēros **Kartēšana (FR)**).
-- Jebkurai noklusētā modeļa kartēšanai, kurai nav valsts/reģiona konteksta ierobežojumi, ir nākamā augstākā prioritāte atlasē (šīs tēmas piemēros **Pielāgotā kartēšana (vispārīgi)**.
+- Jebkurai noklusētā modeļa kartēšanai, kurai nav valsts/reģiona konteksta ierobežojumi, ir nākamā augstākā prioritāte atlasē (šīs tēmas piemēros **Pielāgotā kartēšana (vispārīgi)**).
 - Visiem modeļa kartējumiem, kuriem ir valsts/reģiona konteksta ierobežojumi, ir augstāka prioritāte atlasei nekā modeļa kartēšana, kurai nav valsts/reģiona konteksta ierobežojumu.
 
 Tabulā ir sniegta informācija par modeļu kartēšanas atlases rezultātiem visiem iespējamiem gadījumiem modeļa kartēšanas iestatījumiem:
@@ -156,7 +155,7 @@ Tabulā ir sniegta informācija par modeļu kartēšanas atlases rezultātiem vi
 - 5. kolonnā ir sniegti modeļa kartēšanas atlases rezultāti EP formāta izpildei tā uzņēmuma kontrolē, kam ir valsts/reģiona A konteksts.
 - 6. kolonnā ir sniegti modeļa kartēšanas atlases rezultāti EP formāta izpildei tā uzņēmuma kontrolē, kam ir valsts/reģiona A konteksts.
 
-Tabulā ar plus zīmi (+) norāda modeļa kartēšanas konfigurācijas esamību pašreizējā Microsoft Azure pakalpojuma instancē, kas tiek izmantota EP formāta Finance vai RCS) palaišanai.
+Tabulā ar plus zīmi (+) norāda modeļa kartēšanas konfigurācijas esamību pašreizējā Microsoft Azure pakalpojuma instancē, kas tiek izmantota EP formāta (Finance vai RCS) palaišanai.
 
 | Pieteikums | Modeļa kartēšana 1 bez valsts/reģiona konteksta (MM1) | Modeļa kartēšana 2 bez valsts/reģiona konteksta (MM2) | Modeļa kartēšana 1 ar valsts/reģiona kontekstu A (MM1A) | Modeļa kartēšana 2 ar valsts/reģiona kontekstu A (MM2A) | Tiek palaists tā uzņēmuma kontrolē, kam ir valsts/reģiona konteksts A | Tiek palaists tā uzņēmuma kontrolē, kam ir valsts/reģiona konteksts B |
 |---------|---------|---------|---------|---------|---------------------------|----------------------------|
@@ -202,7 +201,7 @@ Tabulā ar plus zīmi (+) norāda modeļa kartēšanas konfigurācijas esamību 
 
 Ievērojiet, ka ir pievienots jauns ieraksts EP atkļūdošanas žurnālam izpildītā EP formātā. Tā kā šī ieraksta lauks **Līmenis** ir iestatīts uz **Info**, ieraksts ir informatīvs. Tā kā formāta komponenta lauks ir iestatīts uz **Kartēšanas konfigurācija**, ieraksts informē par modeļa kartēšanu, kas tika izmantota, izpildot EP formātu **Formāts kartējumu apgūšanai** (atlasīts laukā **Konfigurācijas nosaukums**). Lauka **Ģenerētais teksts** saturs jūs informē, ka kartēšanas komponents **Kartēšana (FR)**, kas atrodas konfigurācijā **Kartēšana (FR)** ir izmantots šī pārskata palaišanai.
 
-## <a name="appendix1"></a>1. pielikums
+## <a name="appendix-1"></a><a name="appendix1"></a>1. pielikums
 
 ### <a name="configure-a-sample-data-model"></a>Konfigurēt parauga datu modeli
 
@@ -217,7 +216,7 @@ Piesakieties savā RCS instancē.
 3.  Lapā **Konfigurācijas** atlasiet **Konfigurācijas izveidošana**.
 4.  Nolaižamā dialoglodziņa laukā **Nosaukums** ievadiet **Modelis kartējumu apgūšanai**.
 5.  Atlasiet **Izveidot konfigurāciju**.
-6.  Atlasiet kopsavilkuma cilni**Konfigurācijas komponenti**.
+6.  Atlasiet kopsavilkuma cilni **Konfigurācijas komponenti**.
 
 Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģēšanai. Šajā versijā ir ietverts datu modeļa komponents.
 
@@ -343,7 +342,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 4.  Atlasiet **Saglabāt**.
 5.  Aizvērt lapu.
 
-## <a name="appendix2"></a>2. pielikums
+## <a name="appendix-2"></a><a name="appendix2"></a>2. pielikums
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Konfigurēt parauga modeļa kartējumu vispārējai pielāgošanai
 
@@ -403,11 +402,11 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 
 Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.
 
-## <a name="appendix3"></a>3. pielikums
+## <a name="appendix-3"></a><a name="appendix3"></a>3. pielikums
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Konfigurēt parauga modeļa kartējumu valstij/reģionam specifiskai pielāgošanai
 
-Dažiem EP formātiem varētu būt valsts/reģiona specifiskas prasības datu sagatavošanai. Šādā gadījumā varat pārvaldīt atsevišķu EP modeļu kartēšanas konfigurāciju un izolēt šo valsts/reģiona specifisko prasību izpildi no vispārējās ieviešanas. Šajā papildinājumā aprakstītās procedūras izmanto EP formātu**Formāts kartējumu apgūšanai** un Francijai specifiskas prasības kā piemēru.
+Dažiem EP formātiem varētu būt valsts/reģiona specifiskas prasības datu sagatavošanai. Šādā gadījumā varat pārvaldīt atsevišķu EP modeļu kartēšanas konfigurāciju un izolēt šo valsts/reģiona specifisko prasību izpildi no vispārējās ieviešanas. Šajā papildinājumā aprakstītās procedūras izmanto EP formātu **Formāts kartējumu apgūšanai** un Francijai specifiskas prasības kā piemēru.
 
 #### <a name="create-an-er-model-mapping-configuration"></a>EP modeļa kartējuma konfigurācijas izveide
 

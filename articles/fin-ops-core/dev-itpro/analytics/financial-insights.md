@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181776"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682775"
 ---
 # <a name="financial-insights"></a>Finanšu ieskati
 
@@ -88,7 +87,7 @@ Pašlaik iegultajos Power BI pārskatos ietvertos datus nevar ierobežot, nodro�
 | Skatīt starpuzņēmumu finanšu ieskatus   | Programmā Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 šis pienākums nav piešķirts lomai. Nākamajā laidienā šis pienākums tiks piešķirts lomai Finanšu direktors. | Šis pienākums nodrošina piekļuvi darbvietas CFO apskats izvēlnes vienumam. Pēc noklusējuma aktīvais uzņēmums tiek izmantots kā filtrs. Tomēr varat pievienot visas juridiskās personas neatkarīgi no tā, vai lietotājam ir piekļuve citām juridiskajām personām. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Darbvietu “Finanšu pārskati” un “Finanšu ieskati” salīdzinājums
+## <a name="financial-reporting-vs-financial-insights"></a>Darbvietu “Finanšu pārskati” un “Finanšu ieskati” salīdzinājums
 Lai gan darbvietā **Finanšu ieskati** ir ietverti finanšu pārskati, tā neaizstāj finanšu pārskatus programmā. Noklusējuma finanšu pārskati darbvietā **Finanšu ieskati** ir ierobežoti, un tajā nav ietverti visu veidu finanšu pārskati. Finanšu pārskati joprojām ir galvenais rīks normatīvu finanšu pārskatu noformēšanai, izveidei un ģenerēšanai.
 
 Tālāk esošajā salīdzinājuma diagrammā tiks parādītas atšķirības starp šīm divām opcijām.
@@ -131,7 +130,7 @@ Lietotāji var filtrēt pārskatu, izmantojot kreisajā pusē esošo rūti **Fil
 - **Vizuālo datu līmeņa filtri** — šie filtri tiek lietoti tikai atlasītajiem vizuālajiem datiem. Šie filtri tiek lietoti papildus lapas līmeņa filtriem.
 - **Detalizētās rādīšanas filtrs** — šis filtrs filtrē no “avota” vizuālajiem datiem, kas tiek lietoti pašreizējiem vizuālajiem datiem, kad veicat detalizētu rādīšanu no avota vizuālajiem datiem uz pašreizējiem vizuālajiem datiem.
 
-![Filtrs](./media/filter.png)
+![Filtrēšanas opcijas](./media/filter.png)
 
 Lai noņemtu konkrētu filtra vērtību, atlasiet tai blakus esošo dzēšgumijas simbolu. Nenoņemiet filtru, atlasot vienumu X. Ja atlasīsit X, filtrētais lauks tiks noņemts kā filtra opcija. Ja nejauši noņemat lauku no filtra, aizveriet darbvietu un pēc tam to atkal atveriet. No jauna tiks lietoti noklusējuma filtra iestatījumi.
 
@@ -176,25 +175,25 @@ Izmantojot Power BI, ir pieejami dažādi detalizētās rādīšanas līmeņi. K
 
 Tālāk esošajā attēlā pārskats **Apgrozījuma bilance** ir sakļauts līdz augstākajam rindu hierarhijas līmenim, galvenā konta tipam.
 
-![Apgrozījuma bilance](./media/trial-balance.png)
+![Apgrozījuma bilances izraksts](./media/trial-balance.png)
 
 Lai skatītu nākamo hierarhijas līmeni, galvenā konta kategorijas, lauku **Rādīt detalizēti** iestatiet uz **Rindas** un pēc tam atlasiet pogu **Izvērst** (trešā poga pēc lauka Rādīt detalizēti). Tādējādi tiek izvērstas visas galvenā konta kategorijas. Pašlaik pakalpojumā Power BI nevar izvērst tikai vienu rindu vai kolonnu un vienlaikus joprojām skatīt visas pārējās rindas vai kolonnas.
 
-![Apgrozījuma bilance](./media/trial-balance2.png)
+![Apgrozījuma bilances detalizēta izpēte rindās](./media/trial-balance2.png)
 
 Lai izvērstu galvenos kontus visām rindām, vēlreiz izmantojiet pogu **Izvērst**. Taču, lai detalizēti rādītu galvenos kontus tikai vienai rindai, vispirms atlasiet pogu **Rādīt detalizēti** (viena lejupvērstā bultiņa loga labajā pusē) un pēc tam atlasiet detalizēti rādāmo rindu. Tālāk esošajā attēlā redzams rezultāts, kas tiek iegūts, kad pēc pogas **Rādīt detalizēti** atlasīšanas tiek atlasīta rinda **Pārdošana**.
 
-![Apgrozījuma bilance](./media/trial-balance3.png)
+![Apgrozījuma bilances izvēršanas poga](./media/trial-balance3.png)
 
 Kad esat detalizēti parādījis vienu rindu un vēlaties atgriezties pilnajā apgrozījuma bilancē, ir jānoklikšķina vairākas reizes. Izmantojot pogu **Rādīt vispārīgi** (pirmā poga pēc lauka **Rādīt detalizēti**) vispārīgi rāda tikai kategorijas **Pārdošana** kontekstā, kā parādīts tālāk esošajā attēlā.
 
-![Apgrozījuma bilance](./media/trial-balance4.png)
+![Apgrozījuma bilances detalizētas izpētes poga](./media/trial-balance4.png)
 
 Varat turpināt izmantot pogu **Rādīt vispārīgi**, lai atgrieztos augstākajā rindu kopsavilkuma līmenī.
 
 Pakalpojumā Power BI ir pieejama arī poga, kas sniedz iespēju pāriet uz nākamo hierarhijas līmeni (otrā poga pēc lauka **Rādīt detalizēti**). Izmantojot šo pogu, rezultāts atšķiras no tā, kas tiek iegūts ar pogu **Izvērst** (trešā poga pēc lauka **Rādīt detalizēti**), kuru izmanto hierarhijas izvēršanai. Izvēršot hierarhiju, tā tiek saglabāta pārskatā. Piemēram, kā parādīts iepriekš, ja izvēršat galvenā konta tipu, pārskatā joprojām ir redzams galvenā konta tips. Taču, kad pārejat uz nākamo hierarhijas līmeni, pārskatā vairs netiek rādīta vecākhierarhija, kā parādīts tālāk esošajā attēlā.
 
-![Apgrozījuma bilance](./media/trial-balance5.png)
+![Apgrozījuma bilances detalizētas izpētes atpakaļgaitas poga](./media/trial-balance5.png)
 
 Lai skatītu detalizētu informāciju par transakcijām apkopotajās bilancēs, varat atlasīt dažas summas, lai veiktu detalizēto rādīšanu programmā Finance and Operations.
 
@@ -245,6 +244,6 @@ Power BI nenodrošina tukšu rindu paslēpšanas un rādīšanas opciju. Ja rind
 
 Tālāk norādītajos resursos esošā informācija nav nepieciešama, lai iespējotu iegultos pārskatus darbvietai **CFO apskats** vai **Finanšu ieskati** ražošanas vidē. Taču tā ir noderīga izstrādes laukiem un gadījumā, ja vēlaties iegult savus Power BI pārskatus.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Piekļūšana analītiskajām darbvietām un pārskatiem 1 lodziņa vidē](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Analīzes pievienošana darbvietām, izmantojot Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

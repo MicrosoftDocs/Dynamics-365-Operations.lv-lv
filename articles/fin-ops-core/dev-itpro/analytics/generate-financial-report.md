@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181845"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688321"
 ---
 # <a name="generate-financial-reports"></a>Ģenerēt finanšu pārskatus
 
@@ -98,7 +97,7 @@ Lai dzēstu pārskata grafiku, jums ir jābūt atskaišu grafika īpašniekam, v
 
 Neievadot akreditācijas datus, kas ir nepieciešami visiem uzņēmumiem, kas ir iekļauti pārskatos, saglabājot pārskata grafiku, tiek parādīts šāds ziņojums: "Ievadiet akreditācijas datus uzņēmumiem, kuri ir iekļauti šajā pārskata grafikā. Lai ievadītu savus akreditācijas datus, atlasiet pogu Atļaujas.”
 
-Piemēram, Paula pieteicās uzņēmumā A, izmantojot savu lietotājvārdu un paroli. Viņa izveido grafiku pārskatam, kas izmanto pārskata koka definīciju, lai apkopotu datus no vairākiem uzņēmumiem. Saglabājot pārskatu grafiku, Paulai tiek parādīta uzvedne, kurā jāievada citu pārskatu koka definīcijā norādīto uzņēmumu akreditācijas dati. Kad jūsu akreditācijas datu derīguma termiņš beidzas, ietekmētie pārskati atskaišu grafikā netiek izveidoti līdz akreditācijas dati netiek atjaunināti. Pārskata rindā tiek parādīts ziņojums, lai norādītu, ka nepieciešams atjaunināt atļaujas. Pārskata grafiks neizdodas, ja notiek jebkurš no šiem scenārijiem (jo tiem ir nepieciešami akreditācijas dati):
+Piemēram, lietotājs pieteicās uzņēmumā A, izmantojot savu lietotājvārdu un paroli. Lietotājs izveido grafiku pārskatam, kas izmanto pārskata koka definīciju, lai apkopotu datus no vairākiem uzņēmumiem. Saglabājot pārskatu grafiku, lietotājam tiek parādīta uzvedne, kurā jāievada citu pārskatu koka definīcijā norādīto uzņēmumu akreditācijas dati. Kad jūsu akreditācijas datu derīguma termiņš beidzas, ietekmētie pārskati atskaišu grafikā netiek izveidoti līdz akreditācijas dati netiek atjaunināti. Pārskata rindā tiek parādīts ziņojums, lai norādītu, ka nepieciešams atjaunināt atļaujas. Pārskata grafiks neizdodas, ja notiek jebkurš no šiem scenārijiem (jo tiem ir nepieciešami akreditācijas dati):
 
 - Pārskatu kokam tika pievienots jauns uzņēmums atsevišķam pārskatam.
 - Pārskatu grupā ietvertais pārskats tika modificēts.

@@ -1,6 +1,6 @@
 ---
 title: Vispārējā problēmu novēršana
-description: Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Common Data Service.
+description: Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997258"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688263"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Common Data Service.
+
+Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
 
 > [!IMPORTANT]
 > Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati. Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.
@@ -42,7 +44,7 @@ Dažas pakotnes izvietošanas rīka versijas nav saderīgas ar duālā ieraksta 
 
 Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakotni, izpildot šīs darbības.
 
-1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt** , ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
+1. Lejupielādējiet jaunāko risinājumu pakotnes failu no Yammer.com. Kad pakotnes ZIP fails ir lejupielādēts, ar peles labo pogu noklikšķiniet uz tā un atlasiet **Rekvizīti**. Atzīmējiet izvēles rūtiņu **Atbloķēt** un pēc tam atlasiet **Piemērot**. Ja nav redzama izvēles rūtiņa **Atbloķēt**, ZIP fails jau ir atbloķēts, un šo darbību var izlaist.
 
     ![Rekvizītu dialoglodziņš](media/unblock_option.png)
 
@@ -51,11 +53,11 @@ Pēc pakotnes izvietošanas rīka instalēšanas, instalējiet risinājumu pakot
     ![Mapes Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 saturs](media/extract_package.png)
 
 3. Ielīmējiet visus kopētos failus pakotnes izvietošanas rīka mapē **Rīki**. 
-4. Palaidiet **PackageDeployer.exe** , lai atlasītu Common Data Service vidi un instalētu risinājumus.
+4. Palaidiet **PackageDeployer.exe**, lai atlasītu Dataverse vidi un instalētu risinājumus.
 
     ![Rīku mapes saturs](media/paste_copied_files.png)
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana sistēmā Common Data Service, lai skatītu kļūdas informāciju
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Spraudņa trasēšanas žurnāla iespējošana un skatīšana Dataverse, lai skatītu kļūdas informāciju
 
 **Nepieciešamā loma, lai ieslēgtu trasēšanas žurnālu un skatītu kļūdas:** sistēmas administrators
 
@@ -63,7 +65,7 @@ Lai aktivizētu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 1. Piesakieties ar modeli vadītā programmā Dynamics 365, atveriet lapu **Iestatījumi** un pēc tam sadaļā **Sistēma** atlasiet **Administrēšana**.
 2. Lapā **Administrēšana** atlasiet opciju **Sistēmas iestatījumi**.
-3. Cilnes **Pielāgošana** laukā **Spraudņa un pielāgotās darbplūsmas aktivitātes izsekošana** atlasiet **Visi** , lai iespējotu spraudņa izsekošanas žurnālu. Ja vēlaties izsekot trasēšanas žurnāliem tikai tad, ja rodas izņēmumi, varat tā vietā izvēlēties opciju **Izņēmums**.
+3. Cilnes **Pielāgošana** laukā **Spraudņa un pielāgotās darbplūsmas aktivitātes izsekošana** atlasiet **Visi**, lai iespējotu spraudņa izsekošanas žurnālu. Ja vēlaties izsekot trasēšanas žurnāliem tikai tad, ja rodas izņēmumi, varat tā vietā izvēlēties opciju **Izņēmums**.
 
 
 Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
@@ -74,18 +76,18 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Atkļūdošanas režīma iespējošana, lai novērstu tiešsaistes sinhronizācijas problēmas Finance and Operations programmās
 
-**Nepieciešamās lomas, lai apskatītu kļūdas:** sistēmas administratora duālās rakstīšanas kļūdas, kas radušās programmā Common Data Service, var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
+**Nepieciešamās lomas, lai apskatītu kļūdas:** sistēmas administratora duālās rakstīšanas kļūdas, kas radušās programmā Dataverse, var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
 
-1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration** , izmantojot Excel pievienojumprogrammu.
+1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
 
     > [!TIP]
     > Vienkāršs veids, kā atvērt entītiju, ir ieslēgt režīmu **Noformēšana** Excel pievienojumprogrammā un pēc tam darblapai pievienot **DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet rakstā [Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu](../../office-integration/use-excel-add-in.md).
 
 2. Iestatiet rekvizītu **IsDebugMode** projektam uz **Jā**.
 3. Palaidiet scenāriju, kas ģenerē kļūdas.
-4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX** ):
+4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX**):
 
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Sinhronizācijas kļūdu pārbaude Finance and Operations programmas virtuālajā mašīnā
 
@@ -99,21 +101,21 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 6. Atlasiet **Lietojumprogrammu un pakalpojumu žurnāli \> Microsoft \> Dynamics \> AX-DualWriteSync \> Darbību**.
 7. Pārskatiet neseno kļūdu sarakstu.
 
-## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Common Data Service vidi no Finance and Operations programmas
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Atsaistīt un saistīt citu Dataverse vidi no Finance and Operations programmas
 
-**Nepieciešamā loma, lai atsaistītu vidi:** sistēmas administrators vai nu Finance and Operations programmai, vai Common Data Service.
+**Nepieciešamā loma, lai atsaistītu vidi:** sistēmas administrators vai nu Finance and Operations programmai, vai Dataverse.
 
 1. Piesakieties Finance and Operations programmā.
 2. Dodieties uz **Darbvietas \>Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**.
 3. Atlasiet visus darbojošos kartējumus, pēc tam atlasiet **Apturēt**.
 4. Atlasiet **Atsaistīt vidi**.
-5. Atlasiet **Jā** , lai apstiprinātu darbību.
+5. Atlasiet **Jā**, lai apstiprinātu darbību.
 
 Tagad varat saistīt jaunu vidi.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Nevar skatīt pārdošanas pasūtījuma rindas informācijas veidlapu 
 
-Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces** , jūs varat tikt novirzīts uz Dynamics 365 projekta operāciju pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
+Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces**, varat tikt novirzīts uz Dynamics 365 Project Operations pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
 
 Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šādi:
 1. Pārejiet uz **Pasūtījuma rindas** elementu.

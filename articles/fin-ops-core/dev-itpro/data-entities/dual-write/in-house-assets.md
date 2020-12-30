@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 0e87a3d645c19fab3bb0560ba5114d193e2d0be7
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997174"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684009"
 ---
 # <a name="in-house-assets-for-servicing"></a>Iekšējie pamatlīdzekļi apkopei
 
@@ -37,7 +37,7 @@ Papildinformāciju skatiet šeit [Integrēt Dynamics 365 Field Service un Supply
 
 ## <a name="templates"></a>Veidnes
 
-Iekšējie pamatlīdzekļi ietver pamata finanšu elementa karšu vākšanu, kas darbojas kopā datu mijiedarbības laikā, kā redzams nākamajā tabulā.
+Iekšējie pamatlīdzekļi ietver pamata finanšu tabulas karšu vākšanu, kas darbojas kopā datu mijiedarbības laikā, kā redzams nākamajā tabulā.
 
 | Finance and Operations programmas | Modeļa vadītas programmas programmā Dynamics 365 | apraksts |
 |-----------------------------|-----------------------------------|-------------|

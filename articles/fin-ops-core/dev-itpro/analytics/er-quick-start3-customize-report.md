@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c19fef3e62eec48e66f7cec824afee3ebb25209e
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088224"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683020"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronisko pārskatu konfigurāciju pielāgošana, lai izveidotu elektronisku dokumentu
 
@@ -65,7 +64,7 @@ Kā lietotājam elektronisko pārskatu funkcionālā konsultanta vai elektronisk
 2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Saistītās saites** atlasiet **Elektronisko pārskatu veidošanas parametri**.
 3. Lapas **Elektronisko pārskatu veidošanas parametri** cilnē **Vispārīgi** iestatiet opciju **Iespējot noformēšanas režīmu** uz **Jā**.
 4. Cilnes **Pielikumi** laukā **Konfigurācijas** atlasiet **Fails**.
-5. Laukos **Darbu arhīvs** , **Pagaidu** , **Bāzlīnija** un **Citi** atlasiet veidu **Fails**.
+5. Laukos **Darbu arhīvs**, **Pagaidu**, **Bāzlīnija** un **Citi** atlasiet veidu **Fails**.
 
 Papildinformāciju par ER parametriem skatiet sadaļā [ER struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md).
 
@@ -103,11 +102,11 @@ Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [K
 Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instancei, jums tās ir jāimportē no ER [repozitorija](general-electronic-reporting.md#Repository), kas konfigurēts šai instancei.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji** , lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji**, lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.
 3. Lapā **Konfigurācijas repozitoriji** atlasiet repozitoriju ar veidu **Globāls** un pēc tam atlasiet **Atvērt**. Ja tiek pieprasīta autorizācija savienojumam ar Regulatory Configuration Service, izpildiet autorizācijas norādījumus.
 4. Lapā **Konfigurācijas repozitorijs** konfigurācijas koka skata kreisajā rūtī atlasiet **Peppol pārdošanas rēķina** formāta konfigurāciju.
 5. Kopsavilkuma cilnē **Versijas** atlasiet versiju **11.2.2**.
-6. Atlasiet **Importēt** , lai lejupielādētu atlasīto versiju no globālā repozitorija.
+6. Atlasiet **Importēt**, lai lejupielādētu atlasīto versiju no globālā repozitorija.
 
 ![Konfigurācijas repozitorijas lapa.](./media/er-quick-start3-import-solution1.png)
 
@@ -127,12 +126,12 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 
 Lai simulētu stāvokli, kādā būtu ER konfigurācijas pašreizējā Finance instancē, ja jūs iepriekš būtu importējis **Peppol pārdošanas rēķina** versiju **11.2.2** (piemēram, 2019. gada 7. augustā), izpildiet tālāk norādītās darbības.
 
-- Darbības rūtī atlasiet **Dzēst** , lai dzēstu visas ER konfigurācijas, kas tika publicētas pēc 2019. gada 7. augusta. Ir jāatstāj vienīgi konfigurācijas **Rēķina modelis** , **Rēķina modeļa kartēšana** (sākotnēji nosaukta par **Debitora rēķina modeļa kartēšanu** ), **UBL pārdošanas rēķins** un **Peppol pārdošanas rēķins**.
-- Pārējām ER konfigurācijām kopsavilkuma cilnē **Versijas** atlasiet **Dzēst** , lai dzēstu visas ER konfigurāciju versijas, kas tika publicētas pēc 2019. gada 7. augusta.
+- Darbības rūtī atlasiet **Dzēst**, lai dzēstu visas ER konfigurācijas, kas tika publicētas pēc 2019. gada 7. augusta. Ir jāatstāj vienīgi konfigurācijas **Rēķina modelis**, **Rēķina modeļa kartēšana** (sākotnēji nosaukta par **Debitora rēķina modeļa kartēšanu**), **UBL pārdošanas rēķins** un **Peppol pārdošanas rēķins**.
+- Pārējām ER konfigurācijām kopsavilkuma cilnē **Versijas** atlasiet **Dzēst**, lai dzēstu visas ER konfigurāciju versijas, kas tika publicētas pēc 2019. gada 7. augusta.
 
 Pēc tam pārliecinieties, vai konfigurācijas kokā ir pieejamas tālāk minētās konfigurācijas.
 
-- **Rēķina modeļa** ER datu modeļa konfigurācija (sākotnēji nosaukta par **Debitora rēķina modeli** ):
+- **Rēķina modeļa** ER datu modeļa konfigurācija (sākotnēji nosaukta par **Debitora rēķina modeli**):
 
     - Versijā 11 iekļauta [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponenta 10 versija , kas atspoguļo rēķinu izrakstīšanas biznesa domēna datu struktūru. Šī ER konfigurācija ir importēta kā **Peppol pārdošanas rēķina** ER formāta, kas tika atlasīts importēšanai, priekštece.
     - Versijā 50 ir ietverta datu modeļa ER komponenta versija 31. Šī ER konfigurācija ir importēta kā 2019. gada 7. augusta **Rēķina modeļa kartēšanas** ER modeļa kartēšanas konfigurācijas versija.
@@ -142,7 +141,7 @@ Pēc tam pārliecinieties, vai konfigurācijas kokā ir pieejamas tālāk minēt
     > [!TIP]
     > Ja neredzat šī datu modeļa versiju 50, atveriet globālo repozitoriju un importējiet ER konfigurācijas **Rēķina modeļa kartēšana** versiju 50.19.
 
-- **Rēķina modeļa kartēšana** ER datu modeļa kartēšanas konfigurācija (sākotnēji nosaukta par **Debitora rēķina modeļa kartēšanu** ):
+- **Rēķina modeļa kartēšana** ER datu modeļa kartēšanas konfigurācija (sākotnēji nosaukta par **Debitora rēķina modeļa kartēšanu**):
 
     - Versija 50.19 ir importēta kā pēdējā **Rēķina modeļa** ER datu modeļa konfigurācijas ieviešanas versija 50. Tajā ir divi [modeļu kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) ER komponenti, kas apraksta, kā datu modelis ir aizpildīts ar programmas datiem izpildlaikā.
 
@@ -186,7 +185,7 @@ Pēc tam pārliecinieties, vai konfigurācijas kokā ir pieejamas tālāk minēt
 1. Dodieties uz sadaļu **Debitori** \> **Klienti** \> **Visi klienti**.
 2. Darbību rūts cilnē **Klienti** grupā **Konti** atlasiet **Kontaktpersonas**.
 3. Atlasiet **Pievienot kontaktpersonas**.
-4. Lapā **Kontaktpersonas** , kas atrodas laukā **Vārds** , atveriet uzmeklēšanu, atlasiet **Adam Carter** un pēc tam atlasiet **Atlasīt** , lai aizvērtu uzmeklēšanu.
+4. Lapā **Kontaktpersonas**, kas atrodas laukā **Vārds**, atveriet uzmeklēšanu, atlasiet **Adam Carter** un pēc tam atlasiet **Atlasīt**, lai aizvērtu uzmeklēšanu.
 5. Atlasiet **Saglabāt**.
 6. Aizveriet lapu **Kontaktpersonas**.
 
@@ -244,11 +243,11 @@ Plašāku informāciju skatiet sadaļā [Brība teksta rēķinu izveide](../../.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Elektronisko pārskatu veidošanas darbi**.
 2. Lapā **Elektronisko pārskatu sniegšanas darbi** atlasiet sākotnējo ierakstu, kam ir uzdevuma apraksts **Sūtīt e-pasta XML**.
-3. Atlasiet **Rādīt failus** , lai piekļūtu ģenerēto failu sarakstam.
+3. Atlasiet **Rādīt failus**, lai piekļūtu ģenerēto failu sarakstam.
 
     ![Elektronisko pārskatu darbu lapa](./media/er-quick-start3-jobs-list.png)
 
-4. Atlasiet **Atvērt** , lai lejupielādētu elektronisko rēķinu XML failu, kas tiek ģenerēts.
+4. Atlasiet **Atvērt**, lai lejupielādētu elektronisko rēķinu XML failu, kas tiek ģenerēts.
 5. Analizējiet e-rēķina XML failu. Ņemiet vērā, ka debitoru nodokļu shēma pašlaik tiek rādīta ar **schemeID** un **schemeAgencyID** XML atribūtiem. Ņemiet arī vērā, ka **CBC: CustomizationID** XML elementā pašlaik ir šāds teksts: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`.
 
     ![Ģenerētā e-rēķina XML faila priekšskatījums](./media/er-quick-start3-e-invoice1.png)
@@ -258,7 +257,7 @@ Plašāku informāciju skatiet sadaļā [Brība teksta rēķinu izveide](../../.
 Varat lietot [pielāgotu lauku](../../fin-ops/get-started/user-defined-fields.md), lai veiktu tālāk minēto pielāgošanu pašreizējā Finance instancē.
 
 - Pielāgojiet datu bāzes struktūru, pievienojot jaunu pielāgotu datu bāzes lauku, kurā tiek glabāti katra debitora federālā nodokļa identifikācijas kods.
-- Pielāgojiet lapu **Klienti** , pievienojot jaunu datu ievades lauku, ko var izmantot, lai ievadītu nodokļa koda vērtību laukā Jauna pielāgota datu bāze.
+- Pielāgojiet lapu **Klienti**, pievienojot jaunu datu ievades lauku, ko var izmantot, lai ievadītu nodokļa koda vērtību laukā Jauna pielāgota datu bāze.
 
 Izpildiet tālāk norādītās darbības, lai veiktu pielāgošanu.
 
@@ -280,8 +279,8 @@ Izpildiet tālāk norādītās darbības, lai veiktu pielāgošanu.
 9. Laukā **Veids** atlasiet **Teksts**.
 10. Laukā **Garums** ievadiet **20**.
 11. Atlasiet **Saglabāt**.
-12. Parādītajā ziņojuma lodziņā atlasiet **Jā** , lai apstiprinātu, ka vēlaties izveidot jaunu **FederalTaxID** lauka ierakstu tabulai **Debitori**.
-13. Atlasiet **Ievietot** , lai <a name="insert_custom_field"></a>pievienotu lauku **FederalTaxID\_Pielāgots** pašreizējai lapai.
+12. Parādītajā ziņojuma lodziņā atlasiet **Jā**, lai apstiprinātu, ka vēlaties izveidot jaunu **FederalTaxID** lauka ierakstu tabulai **Debitori**.
+13. Atlasiet **Ievietot**, lai <a name="insert_custom_field"></a>pievienotu lauku **FederalTaxID\_Pielāgots** pašreizējai lapai.
 
     ![Lapa Visi debitori](./media/er-quick-start3-create-new-field.gif)
 
@@ -305,11 +304,11 @@ Kā lietotājs elektronisko pārskatu funkcionālā konsultanta lomā jūs varat
 #### <a name="add-a-custom-data-model-configuration"></a>Pievienot pielāgotu ER datu modeļa konfigurāciju
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
-2. Lapā **Konfigurācijas** , konfigurācijas koka skata kreisajā rūtī atlasiet **Debitora rēķina modelis**.
+2. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī atlasiet **Debitora rēķina modelis**.
 3. Darbību rūtī atlasiet **Izveidot konfigurāciju**.
-4. Nolaižamā dialoglodziņa laukā **Jauns** atlasiet **Atvasināts no nosaukuma: debitora rēķina modelis, Microsoft** , lai norādītu, ka jūsu jaunajai muitas datu modeļa konfigurācijai ir jābalstās uz ER datu modeļa konfigurāciju.
+4. Nolaižamā dialoglodziņa laukā **Jauns** atlasiet **Atvasināts no nosaukuma: debitora rēķina modelis, Microsoft**, lai norādītu, ka jūsu jaunajai muitas datu modeļa konfigurācijai ir jābalstās uz ER datu modeļa konfigurāciju.
 5. Laukā **Nosaukums** ievadiet **Rēķina modelis (Litware)**.
-6. Atlasiet **Izveidot konfigurāciju** , lai pievienotu jaunu ER konfigurāciju.
+6. Atlasiet **Izveidot konfigurāciju**, lai pievienotu jaunu ER konfigurāciju.
 
 Varat izmantot ER datu modeļa izstrādātāju, lai rediģētu **Rēķina modeļa (Litware)** versijas 50.1 ER konfigurāciju **Melnrakstā**[statuss](general-electronic-reporting.md#component-versioning).
 
@@ -341,7 +340,7 @@ Lai pievienotu jaunu federālā nodokļa identifikācijas koda vērtību, ir jā
 Jums ir [jāpabeidz](general-electronic-reporting.md#component-versioning)darbs ar jūsu pielāgotās ER datu modeļa konfigurācijas versiju 50.1, lai to padarītu pieejamu, lai varētu pievienot citas pielāgotus ER konfigurācijas.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
-2. Lapā **Konfigurācijas** , konfigurācijas koka skata kreisajā rūtī izvērsiet **Rēķina modelis** un pēc tam atlasiet **Rēķina modelis (Litware)**.
+2. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Rēķina modelis** un pēc tam atlasiet **Rēķina modelis (Litware)**.
 3. Kopsavilkuma cilnē **Versijas** atlasiet **Mainīt statusu** \> **Pabeigts** un pēc tam atlasiet **Labi**.
 
 Versijas 50.1 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un versija kļūst tikai lasāma. Ir pievienota jauna rediģējama versija, 50.2, un tās statuss ir **Melnraksts**. Varat izmantot šo versiju, lai veiktu turpmākās izmaiņas pielāgotajā ER datu modeļa konfigurācijā.
@@ -357,14 +356,14 @@ Kā lietotājs elektronisko pārskatu izstrādāja lomā jūs varat izveidot sav
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Lapā **Konfigurācijas** konfigurācijas koka skata kreisajā rūtī izvērsiet **Debitora rēķina modelis** un pēc tam atlasiet **Debitora rēķina modeļa kartēšana**.
 3. Darbību rūtī atlasiet **Izveidot konfigurāciju**.
-4. Nolaižamā dialoglodziņa laukā **Jauns** atlasiet **Atvasināts no nosaukuma: debitora rēķina modeļa kartēšana, Microsoft** , lai norādītu, ka jūsu jaunajai muitas datu modeļa konfigurācijai ir jābalstās uz ER datu modeļa kartēšanas konfigurāciju.
+4. Nolaižamā dialoglodziņa laukā **Jauns** atlasiet **Atvasināts no nosaukuma: debitora rēķina modeļa kartēšana, Microsoft**, lai norādītu, ka jūsu jaunajai muitas datu modeļa konfigurācijai ir jābalstās uz ER datu modeļa kartēšanas konfigurāciju.
 5. Laukā **Nosaukums** ievadiet **Rēķina modeļa kartēšana (Litware)**.
 6. Laukā **Mērķa modelis** atlasiet **Rēķina modelis (Litware)**.
 
     > [!IMPORTANT]
     > Šī darbība ir ļoti svarīga. Ja to izlaižat, jūs nevarēsit izmantot savu pielāgoto datu modeli konfigurētajā modeļu kartēšanā.
 
-7. Atlasiet **Izveidot konfigurāciju** , lai pievienotu jaunu ER konfigurāciju.
+7. Atlasiet **Izveidot konfigurāciju**, lai pievienotu jaunu ER konfigurāciju.
 
 ![Pielāgotas modeļa kartēšanas pievienošana konfigurācija lapā Konfigurācijas](./media/er-quick-start3-adding-custom-mapping.png)
 
@@ -380,10 +379,10 @@ Jums ir jāmodificē pielāgotā modeļa kartēšana un jādefinē, kā pielāgo
     ![Datu avota kartējuma modeļa lapa](./media/er-quick-start3-select-customer-mapping.png)
 
 5. Atlasiet **Noformētājs**.
-6. Lapā **Modeļa kartēšanas izstrādātājs** rūtī **Datu avoti** izvērsiet datu avotu **CustInvoiceJou** , kas pārstāv **CustInvoiceJour**  pieteikumu tabulu.
-7. Elementā **CustInvoiceJour** izvērsiet **Attiecības** , lai pārskatītu relāciju sarakstu no daudziem uz vienu (N:1) veidu tabulai **CustInvoiceJour**.
-8. Sadaļā **CustInvoiceJour**\>**Attiecības** izvērsiet **Debitori (CustTable)** , lai piekļūtu laukiem un attiecībām tabulā **Debitori (CustTable)**.
-9. Atlasiet datu avota lauku **FederalTaxID \_Custom** , ko esat ieviesis [iepriekš](#insert_custom_field).
+6. Lapā **Modeļa kartēšanas izstrādātājs** rūtī **Datu avoti** izvērsiet datu avotu **CustInvoiceJou**, kas pārstāv **CustInvoiceJour**  pieteikumu tabulu.
+7. Elementā **CustInvoiceJour** izvērsiet **Attiecības**, lai pārskatītu relāciju sarakstu no daudziem uz vienu (N:1) veidu tabulai **CustInvoiceJour**.
+8. Sadaļā **CustInvoiceJour**\>**Attiecības** izvērsiet **Debitori (CustTable)**, lai piekļūtu laukiem un attiecībām tabulā **Debitori (CustTable)**.
+9. Atlasiet datu avota lauku **FederalTaxID \_Custom**, ko esat ieviesis [iepriekš](#insert_custom_field).
 10. Rūtī **Datu modelis** izvērsiet **Debitora informācija (Debitors)** un atlasiet datu modeļa lauku **FederalTaxID\_Litware**.
 11. Atlasiet **Saistīt**.
 
@@ -406,7 +405,7 @@ Versijas 50.19.1 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un vers
 ![Versija 50.19.1 pabeigta lapā Konfigurācijas](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
-> Atbalstītais konfigurācijas [dzīves cikls](general-electronic-reporting-manage-configuration-lifecycle.md) nesedz datu bāzes izmaiņu dzīves ciklu. Ja eksportējat **Rēķina modeļa kartēšanas (Litware)** konfigurācijas versiju 50.19.1 no pašreizējās Finance instances un mēģināt importēt to citā instancē, kurā nav ietverts pielāgots lauks **FederalTaxID \_Custom** , tabulā **CustTable** radīsies izņēmums. Izņēmums norāda, ka importētā ER konfigurācija nav saderīga ar mērķa Finance instances metadatiem.
+> Atbalstītais konfigurācijas [dzīves cikls](general-electronic-reporting-manage-configuration-lifecycle.md) nesedz datu bāzes izmaiņu dzīves ciklu. Ja eksportējat **Rēķina modeļa kartēšanas (Litware)** konfigurācijas versiju 50.19.1 no pašreizējās Finance instances un mēģināt importēt to citā instancē, kurā nav ietverts pielāgots lauks **FederalTaxID \_Custom**, tabulā **CustTable** radīsies izņēmums. Izņēmums norāda, ka importētā ER konfigurācija nav saderīga ar mērķa Finance instances metadatiem.
 
 ### <a name="customize-the-format-configuration"></a>Formāta pielāgošanas konfigurācija
 
@@ -417,15 +416,15 @@ Kā lietotājs elektronisko pārskatu funkcionālā konsultanta lomā jūs varat
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
 2. Lapā **Konfigurācijas** konfigurācijas koka skata kreisajā rūtī izvērsiet **Debitora rēķina modelis** \> **UBL pārdošanas rēķins** un atlasiet **Peppol pārdošanas rēķins**.
 3. Darbību rūtī atlasiet **Izveidot konfigurāciju**.
-4. Nolaižamā dialoglodziņa laukā **Jauns** atlasiet **Atvasināts no nosaukuma: Peppol pārdošanas rēķins, Microsoft** , lai norādītu, ka jūsu jaunajai muitas datu modeļa konfigurācijai ir jābalstās uz ER formāta konfigurāciju.
+4. Nolaižamā dialoglodziņa laukā **Jauns** atlasiet **Atvasināts no nosaukuma: Peppol pārdošanas rēķins, Microsoft**, lai norādītu, ka jūsu jaunajai muitas datu modeļa konfigurācijai ir jābalstās uz ER formāta konfigurāciju.
 5. Laukā **Nosaukums** ievadiet **Peppol pārdošanas rēķins (Litware)**.
-6. Laukā **Datu modelis** atlasiet **Rēķina modelis (Litware)** , lai izmantotu jūsu pielāgoto datu modeli un modeļa kartēšanas komponentus.
+6. Laukā **Datu modelis** atlasiet **Rēķina modelis (Litware)**, lai izmantotu jūsu pielāgoto datu modeli un modeļa kartēšanas komponentus.
 
     > [!NOTE]
     > Šī darbība ir ļoti svarīga. Ja to izlaižat, jūs nevarēsit izmantot savu pielāgoto datu modeli konfigurētajā formātā.
 
 7. Laukā **Datu modeļlis** atlasiet saknes definīciju **InvoiceCustomer**.
-8. Atlasiet **Izveidot konfigurāciju** , lai pievienotu jaunu ER konfigurāciju.
+8. Atlasiet **Izveidot konfigurāciju**, lai pievienotu jaunu ER konfigurāciju.
 
 ![Pielāgota formāta pievienošana konfigurācija lapā Konfigurācijas](./media/er-quick-start3-adding-custom-format.png)
 
@@ -443,7 +442,7 @@ Jums ir jāmodificē pielāgotais formāts, pievienojot jaunu formāta elementu,
 4. Formāta kokā izvērsiet **XMLHeader** \> **Rēķins** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** un atlasiet **cbc:ID**.
 5. Atlasiet **Pievienot** un pēc tam atlasiet **XML** \> **Atribūts**.
 6. Dialoglodziņā **Komponenta rekvizīts** laukā **Nosaukums** ievadiet **FederalTaxID**.
-7. Atlasiet **Labi** , lai pievienotu jauna formāta elementu, lai izveidotu jaunu **FederalTaxID** XML atribūtu ģenerētajā XML failā.
+7. Atlasiet **Labi**, lai pievienotu jauna formāta elementu, lai izveidotu jaunu **FederalTaxID** XML atribūtu ģenerētajā XML failā.
 8. Formāta kokā zem **XMLHeader** \> **Rēķins** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** atlasiet **FederalTaxID**.
 9. Atlasiet **Pārvietot uz augšu**.
 
@@ -506,8 +505,8 @@ Versijas 11.2.2.1 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un ver
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Elektronisko pārskatu veidošanas darbi**.
 2. Lapā **Elektronisko pārskatu sniegšanas darbi** atlasiet pēdējo ierakstu, kam ir uzdevuma apraksts **Sūtīt e-pasta XML**.
-3. Atlasiet **Rādīt failus** , lai piekļūtu ģenerēto failu sarakstam.
-4. Atlasiet **Atvērt** , lai lejupielādētu elektronisko rēķinu XML failu, kas tiek ģenerēts.
+3. Atlasiet **Rādīt failus**, lai piekļūtu ģenerēto failu sarakstam.
+4. Atlasiet **Atvērt**, lai lejupielādētu elektronisko rēķinu XML failu, kas tiek ģenerēts.
 5. Analizējiet e-rēķina XML failu. Ņemiet vērā, ka atbilstoši jūsu pielāgošanai debitora nodokļu shēma ietver pielāgoto **FederalTaxID** XML atribūtu papildus **schemeID** un **schemeAgencyID** XML atribūtiem. Šī jaunā XML atribūta vērtība ir norādīta ar **LITWARE-6789** federālā nodokļa ID, kas tika ievadīts rēķinā iekļautajam debitoram.
 
     ![Ģenerētā e-rēķina XML faila priekšskatījums ar jūsu pielāgojumiem](./media/er-quick-start3-e-invoice2.png)
@@ -517,11 +516,11 @@ Versijas 11.2.2.1 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un ver
 Lai saglabātu standarta ER konfigurāciju kopumu jūsu finanšu instancē [atjauninātu](general-electronic-reporting-manage-configuration-lifecycle.md), jums jāimportē jaunas versijas, kad tās ir pieejamas ER [repozitorijā](general-electronic-reporting.md#Repository), kurš tika konfigurēta šai instancei.
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
-2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji** , lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.
+2. Lapas **Lokalizācijas konfigurācijas** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft** un pēc tam atlasiet **Repozitoriji**, lai skatītu Microsoft nodrošinātāja repozitoriju sarakstu.
 3. Lapā **Konfigurācijas repozitoriji** atlasiet repozitoriju ar veidu **Globāls** un pēc tam atlasiet **Atvērt**. Ja tiek pieprasīta autorizācija savienojumam ar Regulatory Configuration Service, izpildiet autorizācijas norādījumus.
 4. Lapā **Konfigurācijas repozitorijs** konfigurācijas koka skata kreisajā rūtī atlasiet **Peppol pārdošanas rēķina** formāta konfigurāciju.
-5. Kopsavilkuma cilnē **Versijas** atlasiet atlasītās er formāta konfigurācijas versiju **32.6.7** , kas tika izlaista, lai atbalstītu debitoru elektroniskos rēķinus PEPPOL BIS 3 formātā. Lai iegūtu papildinformāciju, skatiet [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
-6. Atlasiet **Importēt** , lai lejupielādētu atlasīto versiju no globālā repozitorija uz pašreizējo Finance instanci.
+5. Kopsavilkuma cilnē **Versijas** atlasiet atlasītās er formāta konfigurācijas versiju **32.6.7**, kas tika izlaista, lai atbalstītu debitoru elektroniskos rēķinus PEPPOL BIS 3 formātā. Lai iegūtu papildinformāciju, skatiet [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
+6. Atlasiet **Importēt**, lai lejupielādētu atlasīto versiju no globālā repozitorija uz pašreizējo Finance instanci.
 
 ![Versija 32.6.7, kas atlasīta lapā Konfigurāciju repozitorijs](./media/er-quick-start3-import-solution2.png)
 
@@ -567,11 +566,11 @@ Pārliecinieties, vai konfigurācijas kokā ir galīgi pieejamas šādas ER konf
 ### <a name="adopt-your-custom-er-data-model"></a>Jūsu pielāgotā ER datu modeļa pieņemšana
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Konfigurācijas**.
-2. Lapā **Konfigurācijas** , konfigurācijas koka skata kreisajā rūtī izvērsiet **Rēķina modelis** un pēc tam atlasiet **Rēķina modelis (Litware)**.
+2. Lapā **Konfigurācijas**, konfigurācijas koka skata kreisajā rūtī izvērsiet **Rēķina modelis** un pēc tam atlasiet **Rēķina modelis (Litware)**.
 3. Kopsavilkuma cilnē **Versijas** atlasītās datu modeļa konfigurācijas melnraksta versijai **50.2** atlasiet **Pārveidot**.
 4. Laukā **Mērķa versija** apstipriniet pamata ER datu modeļa konfigurācijas versijas **206** atlasi un pēc tam atlasiet **Labi**.
 
-    Jūsu pielāgotās ER datu modeļa konfigurācijas melnraksta versija tiek pārnumurēta no **50.2** uz **206.2** , lai norādītu, ka tagad tā ietver jūsu pielāgojumu, kas tika sapludināts ar izmaiņām pamata ER datu modeļa konfigurācijas jaunākajā versijā (206).
+    Jūsu pielāgotās ER datu modeļa konfigurācijas melnraksta versija tiek pārnumurēta no **50.2** uz **206.2**, lai norādītu, ka tagad tā ietver jūsu pielāgojumu, kas tika sapludināts ar izmaiņām pamata ER datu modeļa konfigurācijas jaunākajā versijā (206).
 
     > [!NOTE]
     > Pārveides darbība ir atgriezeniska. Lai atceltu pārveidi, atlasiet modeļa **Rēķina modelis (Litware)** versiju **50.1** kopsavilkuma cilnē **Versijas** un pēc tam atlasiet **Iegūt šo versiju**. Versija 206.2 tiks pārnumurēta atpakaļ uz **50.2** un melnraksta versijas 50.2 saturs atbildīs versijas 50.1 saturam.
@@ -589,20 +588,20 @@ Versijas 206.2 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un versij
 3. Kopsavilkuma cilnē **Versijas** atlasītās modeļa kartēšanas konfigurācijas melnraksta versijai **50.19.2** atlasiet **Pārveidot**.
 4. Laukā **Mērķa versija** apstipriniet pamata ER modeļa kartēšanas konfigurācijas versijas **206.132** atlasi un pēc tam atlasiet **Labi**.
 
-    Jūsu pielāgotās ER modeļa kartēšanas konfigurācijas melnraksta versija tiek pārnumurēta no **50.19.2** uz **206.132.2** , lai norādītu, ka tagad tā ietver jūsu pielāgojumu, kas tika sapludināts ar izmaiņām pamata ER modeļa kartēšanas konfigurācijas jaunākajā versijā (206.132).
+    Jūsu pielāgotās ER modeļa kartēšanas konfigurācijas melnraksta versija tiek pārnumurēta no **50.19.2** uz **206.132.2**, lai norādītu, ka tagad tā ietver jūsu pielāgojumu, kas tika sapludināts ar izmaiņām pamata ER modeļa kartēšanas konfigurācijas jaunākajā versijā (206.132).
 
     Ņemiet vērā, ka tika atklāti daži pārveides konflikti. Tagad jums ir manuāli jāatrisina šie konflikti.
 
     ![Konflikta ziņojuma pārveide lapā Konfigurācijas](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Darbības rūtī atlasiet **Veidotājs** un pēc tam kartēšanu sarakstā atlasiet **Debitora rēķins**.
-6. Katram pārveides konfliktam atlasiet **Saglabāt savu vērtību** , jo jums ir jāpatur sava pielāgotā datu modeļa versijas numurs katram komponentam, kas ir minēts.
+6. Katram pārveides konfliktam atlasiet **Saglabāt savu vērtību**, jo jums ir jāpatur sava pielāgotā datu modeļa versijas numurs katram komponentam, kas ir minēts.
 
     ![Pārveidot konfliktus Modeļu kartēšanas veidotāja lapā](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Atlasiet **Saglabāt** un pēc tam aizvēriet lapu **Modeļa kartēšanas veidotājs**.
 8. Kartēšanas sarakstā atlasiet **Projekta rēķins**.
-9. Katram pārveides konfliktam atlasiet **Saglabāt savu vērtību** , jo jums ir jāpatur sava pielāgotā datu modeļa versijas numurs katram komponentam, kas ir minēts.
+9. Katram pārveides konfliktam atlasiet **Saglabāt savu vērtību**, jo jums ir jāpatur sava pielāgotā datu modeļa versijas numurs katram komponentam, kas ir minēts.
 10. Atlasiet **Saglabāt** un pēc tam aizvēriet lapu **Modeļa kartēšanas**.
 
     > [!NOTE]
@@ -621,12 +620,12 @@ Versijas 206.132.2 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un ve
 3. Kopsavilkuma cilnē **Versijas** atlasītās formāta konfigurācijas melnraksta versijai **11.2.2.2** atlasiet **Pārveidot**.
 4. Versijas laukā **Mērķis** apstipriniet pamata ER formāta konfigurācijas versijas **32.6.7** atlasi un pēc tam atlasiet **Labi**.
 
-    Jūsu pielāgotās ER formāta konfigurācijas melnraksta versija tiek pārnumurēta no **11.2.2.2** uz **32.6.7.2** , lai norādītu, ka tagad tā ietver jūsu pielāgojumu, kas tika sapludināts ar izmaiņām pamata ER formāta konfigurācijas jaunākajā versijā (32.6.7).
+    Jūsu pielāgotās ER formāta konfigurācijas melnraksta versija tiek pārnumurēta no **11.2.2.2** uz **32.6.7.2**, lai norādītu, ka tagad tā ietver jūsu pielāgojumu, kas tika sapludināts ar izmaiņām pamata ER formāta konfigurācijas jaunākajā versijā (32.6.7).
 
     Ņemiet vērā, ka tika atklāti daži pārveides konflikti. Tagad jums ir manuāli jāatrisina šie konflikti.
 
 5. Darbību rūtī atlasiet **Noformētājs**.
-6. Katram pārveides konfliktam atlasiet **Saglabāt savu vērtību** , jo jums ir jāpatur sava pielāgotā datu modeļa versijas numurs katram komponentam, kas ir minēts.
+6. Katram pārveides konfliktam atlasiet **Saglabāt savu vērtību**, jo jums ir jāpatur sava pielāgotā datu modeļa versijas numurs katram komponentam, kas ir minēts.
 7. Atlasiet **Saglabāt**.
 8. Cilnē **Kartēšana** atlasiet veida **Modelis** datu avotu **Rēķins** un pēc tam atlasiet **Rediģēt**.
 9. Laukā **Versija** atlasiet pielāgotā datu modeļa versiju **2** un pēc tam atlasiet **Labi**.
@@ -659,8 +658,8 @@ Versijas 32.6.7.2 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un ver
 
 1. Dodieties uz **Organizācijas administrēšana** \> **Elektronisko pārskatu veidošana** \> **Elektronisko pārskatu veidošanas darbi**.
 2. Lapā **Elektronisko pārskatu sniegšanas darbi** atlasiet jaunāko ierakstu, kam ir uzdevuma apraksts **Sūtīt e-pasta XML**.
-3. Atlasiet **Rādīt failus** , lai piekļūtu ģenerēto failu sarakstam.
-4. Atlasiet **Atvērt** , lai lejupielādētu elektronisko rēķinu XML failu, kas tiek ģenerēts.
+3. Atlasiet **Rādīt failus**, lai piekļūtu ģenerēto failu sarakstam.
+4. Atlasiet **Atvērt**, lai lejupielādētu elektronisko rēķinu XML failu, kas tiek ģenerēts.
 5. Analizējiet e-rēķina XML failu. Ņemiet vērā, ka atbilstoši jūsu pielāgošanai debitora nodokļu shēma joprojām ietver pielāgoto **FederalTaxID** XML atribūtu papildus **schemeID** un **schemeAgencyID** XML atribūtiem. Turklāt, tā kā izmaiņas jaunajā bāzes **UBL pārdošanas rēķins** formāta versijā tika sapludinātas ar jūsu pielāgojumu, **CBC: CustomizationID** XML elementa teksts ir mainīts no `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` uz `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`.
 
     ![Ģenerētā e-rēķina XML faila priekšskatījums ar pielāgojumiem](./media/er-quick-start3-e-invoice3.png)

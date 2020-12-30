@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323696"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687162"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronisko pārskatu (ER) galamērķi
 
@@ -91,7 +90,7 @@ Kad esat izveidojis atsauci, varat izveidot faila galamērķi katram atsaucē mi
 
 Pēc tam dialoglodziņā **Galamērķa iestatījumi** faila galamērķim varat iespējot un atspējot atsevišķus galamērķus. Poga **Iestatījumi** tiek izmantota, lai kontrolētu visus galamērķus atlasītajam failu galamērķim. Dialoglodziņā **Galamērķa iestatījumi** varat kontrolēt katru galamērķi atsevišķi, iestatot tam opciju **Iespējots**.
 
-Finance versijās **pirms versijas 10.0.9** varat izveidot **viena faila galamērķi** katram izvades komponentam ar tādu pašu formātu, piemēram, mapi vai failu, kas ir atlasīts laukā **Faila nosaukums**. Tomēr **10.0.9 un jaunākā versijā**varat izveidot **vairākus failu galamērķus** katram tā paša formāta izvades komponentam.
+Finance versijās **pirms versijas 10.0.9** varat izveidot **viena faila galamērķi** katram izvades komponentam ar tādu pašu formātu, piemēram, mapi vai failu, kas ir atlasīts laukā **Faila nosaukums**. Tomēr **10.0.9 un jaunākā versijā** varat izveidot **vairākus failu galamērķus** katram tā paša formāta izvades komponentam.
 
 Piemēram, varat izmantot šo iespēju, lai konfigurētu faila galamērķus faila komponentam, kas tiek izmantots izejošā dokumenta ģenerēšanai Excel formātā. Vienu galamērķi ([Arhīvs](er-destination-type-archive.md)) var konfigurēt, lai uzglabātu oriģinālo Excel failu ER darbu arhīvā, un citu galamērķi ([E-pastu](er-destination-type-email.md)) var konfigurēt, lai vienlaikus [konvertētu](#OutputConversionToPDF) Excel failu PDF formātā un nosūtītu PDF failu pa e-pastu.
 

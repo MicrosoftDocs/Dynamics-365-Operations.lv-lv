@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182995"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685863"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
@@ -107,8 +106,8 @@ Apraksta šūna sniedz aprakstu par pārskata rindā esošajiem finanšu datiem,
     |-------------------------------|-----------------------------------|--------|
     | (nav)                        |                                   | Notīra šūnu **Formāta kods**. |
     | KOP                           | Kopsumma                             | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Kopsummās tiek lietoti vienkārši operatori, piemēram, **+** vai **-**. |
-    | CAL                           | Aprēķins                       | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinos tiek lietoti sarežģīti operatori, piemēram, **+**, **-**, **\***, **/** un priekšraksti **IF/THEN/ELSE**. |
-    | DES                           | Apraksts                       | Identificē pārskatā virsraksta rindas vai tukšu rindu. |
+    | CAL                           | Aprēķins                       | Identificē rindu, kas izmanto matemātiskās operācijas kolonnā **Saistītās Formulas/Rindas/Vienības**. Aprēķinos tiek lietoti sarežģīti operatori, piemēram, **+**, **-**, **\**_, _*/** un priekšraksti **IF/THEN/ELSE**. |
+    | APR                           | Apraksts                       | Identificē pārskatā virsraksta rindas vai tukšu rindu. |
     | LFT RGT CEN                   | Pa kreisi Pa labi Pa vidu                 | Izlīdzina rindas apraksta tekstu pārskata lapā neatkarīgi no teksta izvietojuma kolonnas definīcijā. |
     | MBR                           | Pamata rindas maiņa                   | Norāda rindu, kas kolonnu aprēķiniem iestata pamata rindu. |
     | KOLONNA                        | Kolonnu pārtraukumi                      | Sāk jaunu pārskata kolonnu. |
@@ -175,7 +174,7 @@ Rindas definīcijas kolonnā **Formāta kods** formātu kodi **DES**, **LFT**, *
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Rindu drukāšanas izlaišanas piemērs
 
-Šajā piemērā Māra vēlas novērst virsrakstu un pasvītrojuma zīmju drukāšanu sava pārskata rindai **Kopsumma kasē**, jo nevienā no kases kontiem nebija aktivitātes. Tāpēc 220. rindas (kas saskaņā ar formāta kodu **---** ir formatēšanas rinda) šūnā **Saistītās formulas/rindas/vienības** viņa ievada **250**, kas ir tās summas rindas kods, kuru viņa vēlas likvidēt.
+Šajā piemērā lietotājs vēlas novērst virsrakstu un pasvītrojuma zīmju drukāšanu sava pārskata rindai **Kopsumma kasē**, jo nevienā no kases kontiem nebija aktivitātes. Tāpēc 220. rindas (kas saskaņā ar formāta kodu **---** ir formatēšanas rinda) šūnā **Saistītās formulas/rindas/vienības** lietotājs ievada **250**, kas ir tās summas rindas kods, kuru lietotājs vēlas likvidēt.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -416,7 +415,7 @@ Pēc noklusējuma atskaišu veidotājs nedrukā rindas, kurās finanšu datos na
 3. Lai saglabātu izmaiņas, izvēlnē **Fails** noklikšķiniet uz **Saglabāt**.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Aizstājējzīmju un diapazonu izmantošana rindas definīcijā
-Kad dialoglodziņā **Dimensijas** ievadāt galvenā segmenta vērtību, varat ievadīt aizstājējzīmi (? vai \*) jebkurā segmenta pozīcijā. Pārskatu noformētājs izgūst visas definēto pozīciju vērtības, neņemot vērā aizstājējzīmes. Piemēram, rindas definīcija satur tikai fizisko segmentu vērtības un fiziskajiem segmentiem ir četras rakstzīmes. Ievadot **6???** kādā rindā, pārskatu noformētājam tiek dota komanda ietvert visus kontus, kuriem ir galvenā segmenta vērtība, kas sākas ar 6. Ja ievadāt **6\***, tiek atgriezti tādi paši rezultāti, taču tajos ir ietvertas arī dažāda garuma vērtības, piemēram, **60** un **600000**. Atskaišu veidotājs katru aizstājējzīmi (?) aizstāj ar pilnu iespējamo vērtību klāstu, kas ietver burtus un īpašās rakstzīmes. Piemēram, diapazonā no **12?0** līdz **12?4**, aizstājējzīme virknē **12?0** tiek aizstāta ar zemāko rakstzīmju kopas vērtību un aizstājējzīme virknē **12?4** tiek aizstāta ar augstāko rakstzīmju kopas vērtību.
+Kad dialoglodziņā **Dimensijas** ievadāt galvenā segmenta vērtību, varat ievadīt aizstājējzīmi (? vai \*) jebkurā segmenta pozīcijā. Pārskatu noformētājs izgūst visas definēto pozīciju vērtības, neņemot vērā aizstājējzīmes. Piemēram, rindas definīcija satur tikai fizisko segmentu vērtības un fiziskajiem segmentiem ir četras rakstzīmes. Ievadot **6???** kādā rindā, pārskatu noformētājam tiek dota komanda ietvert visus kontus, kuriem ir galvenā segmenta vērtība, kas sākas ar 6. Ja ievadāt **6\**_, tiek atgriezti tādi paši rezultāti, taču tajos ir ietvertas arī dažāda garuma vērtības, piemēram, _* 60** un **600000**. Atskaišu veidotājs katru aizstājējzīmi (?) aizstāj ar pilnu iespējamo vērtību klāstu, kas ietver burtus un īpašās rakstzīmes. Piemēram, diapazonā no **12?0** līdz **12?4**, aizstājējzīme virknē **12?0** tiek aizstāta ar zemāko rakstzīmju kopas vērtību un aizstājējzīme virknē **12?4** tiek aizstāta ar augstāko rakstzīmju kopas vērtību.
 
 > [!NOTE]
 > Ir jāizvairās no aizstājējzīmju izmantošanas diapazona sākuma un beigu kontos. Ja izmantojat aizstājējzīmes, norādot sākuma kontu vai beigu kontu, vaicājuma rezultāti var būt neparedzēti.
@@ -529,4 +528,4 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Finanšu pārskati](financial-reporting-intro.md)
+[Finanšu pārskatu veidošana](financial-reporting-intro.md)

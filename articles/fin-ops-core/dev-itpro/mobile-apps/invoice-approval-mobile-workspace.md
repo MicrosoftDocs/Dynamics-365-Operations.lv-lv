@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d4ea1d81b0e4f92974ceb7d46386c9d9f6e48979
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249007"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683412"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilā darbvieta Rēķinu apstiprinājumi
 
@@ -30,7 +29,7 @@ ms.locfileid: "2249007"
 
 Šī mobilā darbvieta ir paredzēta lietošanai kopā ar mobilo programmu Finance and Operations.
 
-## <a name="overview"></a>Kopsavilkums
+## <a name="overview"></a>Pārskats
 
 Mobilā darbvieta **Rēķinu apstiprinājumi** darbiniekiem un vadītājiem no moduļa Kreditori ļauj apskatītu rēķinus, kas viņiem ir piešķirti kā daļa no kreditora rēķina virsraksta darbplūsmas procesa. Varat skatīt rēķina informāciju un pat detalizētu informāciju par rindām un sadali, lai varētu labāk pieņemtu informētus apstiprinājuma lēmumus. No šīs darbvietas varat veikt pasākumus, lai rēķinu pārvietotu darbplūsmas procesā. 
 
@@ -63,9 +62,9 @@ Lai varētu izmantot šo mobilo darbvietu, vispirms ir jāizpilda tālāk norād
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobilās programmas lejupielāde un instalēšana
 
-Lejupielādēt un instalēt Finance and Operations mobilo programmu:
+Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
--   [Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [. Android tālruņiem](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Tālruņiem iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā

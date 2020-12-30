@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143319"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684286"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
 
@@ -98,11 +97,11 @@ Ar šajā apakšuzdevumā iekļautajām darbībām jums tiek parādīts, kā var
 
     Ņemiet vērā, ka izveidotais formāts šeit tiek radīts kā datu avota komponents.  
 
-6. Koka struktūrā izvērsiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record'.
-7. Koka struktūrā izvērsiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list'.
-8. Koka struktūrā izvērsiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record'.
-9. Koka struktūrā izvērsiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record'.
-10. Koka struktūrā atlasiet 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record'.
+6. Kokā izvērsiet `format: Record\*settlement: XML Element 1..1 (settlement): Record`.
+7. Kokā izvērsiet `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`.
+8. Kokā izvērsiet `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
+9. Kokā izvērsiet `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`.
+10. Kokā atlasiet `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Ņemiet vērā, ka sākotnēji definētajā 'formāta' datu avota komponentā obligāto un neobligāto formāta elementu rādīšana atšķiras.  
 11. Koka struktūrā izvērsiet zaru “Transakcijas: Ierakstu saraksts = format.settlement.'$enumerated'”.
@@ -237,15 +236,15 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 19. Aizvērt lapu.
 20. Noklikšķiniet uz Rediģēt.
 
-    Ja ir instalēts labojumfails "KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās programmas Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), izpildiet nākamo darbību "Karodziņa Noklusējums modeļu kartēšanai ieslēgšana" ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
+    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās Dynamics 365 Finance versijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
 
-21. Modeļa kartējuma noklusējums atlasiet vērtību Jā.
+21. Modeļu kartējuma laukā Noklusējums atlasiet vērtību Jā.
 22. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.
 23. Noklikšķiniet uz Veidotājs.
 24. Noklikšķiniet uz Kartēšanas modelis datu avotam.
 25. Noklikšķiniet uz Palaist.
 
-    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumus to izvietošanai dažādās versijās” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), atlasiet vēlamo modeļu kartējumu uzmeklēšanas laukā. Ja labojumfails vēl nav instalēts, pārejiet uz nākamo darbību, jo kartējums jau ir atlasīts ar noklusējuma formāta konfigurācijas definīciju.  
+    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumus to izvietošanai dažādās versijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), atlasiet vēlamo modeļu kartējumu uzmeklēšanas laukā. Ja labojumfails vēl nav instalēts, pārejiet uz nākamo darbību, jo kartējums jau ir atlasīts ar noklusējuma formāta konfigurācijas definīciju.  
     
     Ja labojumfails KB 4012871 nav instalēts, tad ņemiet vēra, ka dialoglodziņā ir iekļauts papildu modeļu kartējuma jautājums, kurš tiek izmantots, lai parsētu importējamo failu. Pēc tam dati tiek pārnesti no dialoglodziņa uz datu modeli. Pašlaik varat izvēlēties, kurš formāta kartējums ir jāizmanto atkarībā no importējamā faila tipa.  
     

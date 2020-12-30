@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248717"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695119"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācības iestatīšana un instalēšana
 Šajā tēmā ietvertā apmācība palīdzēs iestatīt RSAT un ar RSAT lietošanu saistītos rīkus un sākt darbu ar tiem. 
@@ -387,7 +386,7 @@ Lai iespējotu autentifikāciju, sertifikāts ir jāģenerē un jāinstalē taj�
 
     ![AOSService vietņu sarakstā](./media/setup_rsa_tool_49.png)
 
-3. Ar peles labo pogu noklikšķiniet uz **Pārlūkot**, lai atvērtu mapi **\<Disks\>: \\AosService\\WebRoot**. Atrodiet failu **wif.config**.
+3. Ar peles labo pogu noklikšķiniet uz **Pārlūkot**, lai atvērtu mapi **\<Drive\>: \\AosService\\WebRoot**. Atrodiet failu **wif.config**.
 
     ![Fails wif.config mapē WebRoot](./media/setup_rsa_tool_50.png)
 
@@ -501,7 +500,7 @@ Vecākās RSAT versijās bija nepieciešams instalēt Selenium un pārlūka drai
     - **Piekļuves pilnvara**— ievadiet piekļuves pilnvaru, kas ļauj izveidot savienojumu ar Azure DevOps. Izmantojiet personiskās piekļuves pilnvaru, ko izveidojāt iepriekš šajā pamācībā. Papildinformāciju skatiet sadaļā [Piekļuves autentificēšana ar personiskās piekļuves tiesībām](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
     - **Projekta nosaukums**— atlasiet Azure DevOps projekta nosaukumu.
     - **Testēšanas plāns**— atlasiet Azure DevOps testēšanas plānu, kas satur jūsu testa gadījumus. Papildinformāciju skatiet sadaļā [Testēšanas plānu un testu komplektu izveide](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Pēc testa plāna atlasīšanas atlasiet **Testēt savienojumu**, lai testētu savienojumu ar Azure DevOps.
-    - **Resursdatora nosaukums**— ievadiet testa vides resursdatora nosaukumu, piemēram, **\<myaos\>.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
+    - **Resursdatora nosaukums** — ievadiet testa vides resursdatora nosaukumu, piemēram, **\<myaos\>myaos.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
     - **SOAP resursdatora nosaukums**— ievadiet testa vides SOAP resursdatora nosaukumu. Parasti SOAP resursdatora nosaukums ir tāds pats kā resursdatora nosaukums, bet tam ir sufikss **soap**. Šeit ir piemērs: **\<myaos\>soap.cloudax.dynamics.com**. Neiekļaujiet prefiksu **https://** vai **http://**.
 
         > [!NOTE]
@@ -563,7 +562,7 @@ Vecākās RSAT versijās bija nepieciešams instalēt Selenium un pārlūka drai
 
     ![Darbvirsmas izšķirtspēja ir iestatīta uz 100%](./media/setup_rsa_tool_68.png)
 
-6. Ja pārlūka draiveri sistēmā nav instalēti, tiek parādīts brīdinājuma ziņojums ar tekstu “Šai operācijai ir nepieciešams \<pārlūka nosaukums\> draiveris. Vai vēlaties tagad automātiski lejupielādēt un instalēt to?”. Atlasiet **Jā**.
+6. Ja pārlūka draiveri sistēmā nav instalēti, tiek parādīts brīdinājuma ziņojums ar tekstu “Šai operācijai ir nepieciešams \<browser name\> draiveris. Vai vēlaties tagad automātiski lejupielādēt un instalēt to?”. Atlasiet **Jā**.
 
     ![Brīdinājuma ziņojums pārlūkam Internet Explorer](./media/setup_rsa_tool_69.png)
 

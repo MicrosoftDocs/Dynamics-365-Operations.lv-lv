@@ -3,7 +3,7 @@ title: Kandidātu izvēles rīku noteikšana un ieviešana
 description: Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, it īpaši, ja amatam ir nepieciešama unikālu prasmju kopa.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143953"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693068"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidātu izvēles rīku noteikšana un ieviešana
 
@@ -38,13 +37,13 @@ Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, i
     * Lietojiet vienumu Iegūt profilu, lai no atlasītās personas, darba vai kursa kā meklēšanas pamata iegūtu sertifikāta, prasmju un izglītības datus.   Pēc tam varat pievienot vai noņemt kritērijus, norādīt, vai kritēriji ir obligāti, kā arī kārtot kritērijus pēc to svarīguma.  
 7. Noklikšķiniet uz Darbs.
 8. Laukā Darbs ievadiet vai atlasiet kādu vērtību.
-9. Noklikšķiniet uz OK.
+9. Noklikšķiniet uz Labi.
 10. Izvērsiet diapazona kopsavilkuma cilni un pievienojiet visu nepieciešamo papildinformāciju, piemēram, nodaļu.
 11. Izvērst sertifikātu kopsavilkuma cilni, lai apskatītu vai rediģētu sertifikātus.
 12. Izvērst kopsavilkuma cilni Prasmes, lai apskatītu vai rediģētu prasmes.
 13. Izvērst kopsavilkuma cilni Izglītība, lai apskatītu vai rediģētu izglītības kritērijus.
 14. Noklikšķiniet uz Izpildīt.
-15. Noklikšķiniet uz OK.
+15. Noklikšķiniet uz Labi.
 16. Klikšķiniet Rezultāts.
 17. Klikšķiniet Rezultāts.
 18. Klikšķiniet Atsākt.

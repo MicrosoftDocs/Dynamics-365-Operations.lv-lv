@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143057"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684431"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>ER modeļa kartēšanas pārvaldība atsevišķās ER konfigurācijās
 
@@ -57,7 +56,7 @@ Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrā
 16. Aizvērt lapu.
 17. Noklikšķiniet uz Mainīt statusu.
 18. Noklikšķiniet uz Pabeigt.
-19. Noklikšķiniet uz OK.
+19. Noklikšķiniet uz Labi.
 
 ## <a name="add-a-new-er-model-mapping-configuration"></a>Pievienot jaunu ER datu modeļa kartējuma konfigurāciju
 1. Noklikšķiniet uz Izveidot konfigurāciju, lai atvērtu nolaižamo dialoglodziņu.
@@ -66,9 +65,9 @@ Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrā
     * Kartējuma paraugs  
 4. Klikšķiniet Izveidot konfigurāciju.
 5. Izvērsiet priekšnoteikumu sadaļu.
-    * Ievērojiet, ka ir automātiski pievienota grupa “Ieviešanas priekšnoteikumi”. Grupa satur priekšnoteikumu komponentu, kas attiecas uz pamata datu modeļa konfigurāciju un ir atzīmēts kā Ieviešana. Tas nozīmē, ka šī parauga kartējuma modeļa kartēšanas konfigurācija tiek uzskatīta par datu modeļa Parauga datu modelis ieviešanu. Tāpēc šis komponents liks ER lejupielādēt modeļa kartējuma konfigurāciju Kartējuma paraugs no ER repozitorija, kad tiks lejupielādēta modeļa konfigurācija Parauga datu modelis.   
+    * Ir automātiski pievienota grupa “Ieviešanas priekšnoteikumi”. Grupa satur priekšnoteikumu komponentu, kas attiecas uz pamata datu modeļa konfigurāciju un ir atzīmēts kā Ieviešana. Tas nozīmē, ka šī parauga kartējuma modeļa kartēšanas konfigurācija tiek uzskatīta par datu modeļa Parauga datu modelis ieviešanu. Tāpēc šis komponents liks ER lejupielādēt modeļa kartējuma konfigurāciju Kartējuma paraugs no ER repozitorija, kad tiks lejupielādēta modeļa konfigurācija Parauga datu modelis.   
 6. Noklikšķiniet uz Veidotājs.
-    * Ņemiet vērā, ka izveidotā modeļa kartējuma konfigurācija satur jaunu tukšu kartējumu ar tādu pašu nosaukumu kā izveidotajai konfigurācijai. Ņemiet vērā, ka gadījumā, kad atlasītā pamata modeļa konfigurācija ietver modeļa kartējumus, tie tiks kopēti uz jaunu modeļa kartēšanas konfigurāciju.   
+    * Izveidotā modeļa kartējuma konfigurācija satur jaunu tukšu kartējumu ar tādu pašu nosaukumu kā izveidotajai konfigurācijai. Gadījumā, kad atlasītā pamata modeļa konfigurācija ietver modeļa kartējumus, tie tiks kopēti uz jaunu modeļa kartēšanas konfigurāciju.   
 7. Noklikšķiniet uz Veidotājs.
 8. Kokā atlasiet 'Dynamics 365 for Operations\Tabula'.
 9. Noklikšķiniet uz Pievienot sakni.
@@ -112,7 +111,7 @@ Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrā
 16. Noklikšķiniet uz Palaist.
     * Kopsavilkuma cilnē Versijas noklikšķiniet uz Palaist.  
 17. Noklikšķiniet uz OK.
-    * Pārskatiet izvadi, kas norādīts, kurā nav pieteicies lietotājs, kurš darbojas šī formāta konfigurāciju uzņēmuma nosaukums. Ievērojiet, ka izveidotās modeļa kartēšana konfigurācija tiek izmantots šī formāta konfigurāciju, jo ir pieejams tikai vienu konfigurācijas, kas satur nepieciešamā modeļa kartējumus.   
+    * Pārskatiet izvadi, kas norādīts, kurā nav pieteicies lietotājs, kurš darbojas šī formāta konfigurāciju uzņēmuma nosaukums. Izveidotā modeļa kartēšanas konfigurācijā tiek izmantota šī formāta konfigurācija, jo ir pieejama tikai vienu konfigurācija, kas satur nepieciešamā modeļa kartējumus.   
 
 ## <a name="add-alternative-er-model-mapping-configuration"></a>Alternatīvas ER modeļa kartējuma konfigurācijas pievienošana
 1. Kokā atlasiet "Sample data model".
@@ -153,12 +152,12 @@ Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrā
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>Esošas ER modeļa kartēšanas konfigurācijas izmantošana
 1. Kokā atlasiet "Sample data model\Sample format".
 2. Noklikšķiniet uz Palaist.
-    * Ņemiet vērā, ka atlasīto melnraksta versiju ER formāta konfigurāciju nevar izpildīt, jo nav pieejams vairāk nekā viens modelis kartēšanas konfigurācijas nedefinētu datu modelis, kas ir izvēlēts kā datu avotu darbojošos ER formāta.   
-    * Nākamais, alternatīvu modeli kartēšanas konfigurācijas definē, kā vienu no kura modeļa kartējumus tiks izmantots kā datu avoti darbojas ER formātā.   
+    * Atlasīto ER formāta konfigurācijas melnraksta versiju nevar izpildīt, jo ir vairāk nekā viena modeļu kartēšanas konfigurācija, kas pieejama nedefinētam datu modelim, kurš ir izvēlēts kā aktīva ER formāta datu avots.   
+    * Pēc tam jūs definēsiet alternatīvu modeļu kartēšanas konfigurāciju kā vienu no tiem modeļu kartējumiem, kas tiks izmantoti kā datu avoti ER formāta izpildei.   
 3. Kokā atlasiet "Sample data model\Sample mapping (alternative)".
-4. Modeļa kartējuma noklusējums atlasiet vērtību Jā.
+4. Modeļu kartējuma laukā Noklusējums atlasiet vērtību Jā.
 5. Kokā atlasiet "Sample data model\Sample format".
 6. Noklikšķiniet uz Palaist.
-7. Noklikšķiniet uz OK.
-    * Ievērojiet, ka noklusējuma modeļa kartēšana konfigurācija tiek izmantots šī formāta konfigurāciju ģenerēšanai elektronisko dokumentu (izveidotās izvades satur uzņēmuma kods).  
+7. Noklikšķiniet uz Labi.
+    * Noklusējuma modeļu kartēšanas konfigurācija tiek izmantota šai formāta konfigurācijai, lai ģenerētu elektronisko dokumentu (izveidotā izvade ietver uzņēmuma kodu).  
 

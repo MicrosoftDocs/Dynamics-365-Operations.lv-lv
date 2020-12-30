@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141906"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684623"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigurāciju importēšana, lai ģenerētu dokumentus ar programmas datiem
 
@@ -28,7 +27,7 @@ ms.locfileid: "3141906"
 
 Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu".
 
-daļa: konfigurāciju importēšana)". Šajā procedūrā importēsiet nepieciešamo Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam, izmantojot tās, ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot DEMF datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failus, kas norādīti palīdzības tēmā “Elektronisko dokumentu ģenerēšana un pieteikumu datu atjaunināšana, izmantojot ER rīku" (generate-electronic-documents-update-application-data/). Faili ir Intrastat (model).xml, Intrastat (mapping).xml un Intrastat (format).xml.
+daļa: konfigurāciju importēšana". Šajā procedūrā importēsiet nepieciešamo Excel veidni ER formāta konfigurācijās, kuras ir izveidotas parauga uzņēmumam “Litware, Inc.”, un pēc tam, izmantojot tās, ģenerēsit elektroniskos dokumentus. Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma. Šīs darbības var veikt, izmantojot DEMF datu kopu. Pirms sākat, lejupielādējiet un saglabājiet failus, kas norādīti palīdzības tēmā “Elektronisko dokumentu ģenerēšana un pieteikumu datu atjaunināšana, izmantojot ER rīku" (generate-electronic-documents-update-application-data/). Faili ir Intrastat (model).xml, Intrastat (mapping).xml un Intrastat (format).xml.
 
 1. Pārejiet uz sadaļu Organizācijas administrēšana > Darbvietas > Elektronisko pārskatu veidošana.
     * Pārliecinieties, vai konfigurācijas nodrošinātājs parauga uzņēmumam “Litware, Inc.” ir pieejams un ir atzīmēts kā aktīvs. Ja neredzat šo konfigurācijas nodrošinātāju, jums vispirms ir jāizpilda darbības, kas aprakstītas procedūrā “Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu”.  

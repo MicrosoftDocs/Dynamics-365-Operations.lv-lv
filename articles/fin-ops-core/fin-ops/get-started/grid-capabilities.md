@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835090"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693778"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko var izmantot, lai uzlabotu lietotāju produktivitāti, izveidotu vairāk interesantu jūsu datu skatu un iegūtu izsmeļošu ieskatu datos. Šajā rakstā ir apskatītas tālāk norādītās iespējas 
 
@@ -95,21 +95,23 @@ Produktivitātes veicināšanai lietotāji režģa ciparu šūnās var ievadīt 
 Lai sistēma atpazītu vērtību kā izteiksmi, sāciet vērtību ar vienādības zīmi (**=**). Papildinformāciju par atbalstītajiem operatoriem un sintaksi skatiet [Atbalstītie matemātiskie simboli](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabulas datu grupēšana
-[!include [preview banner](../includes/preview-banner.md)]
+Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot rakurstabulas, līdzeklis **Grupēšana režģos**, kas ir vispārīgi ir pieejams versijā 10.0.16/platformas atjauninājumā 40 un ir atkarīgs no jaunā režģa kontroles līdzekļa, režģī ļauj lietotājiem programmās Finance and Operations organizēt savus tabulāros datus interesantākos veidos. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
 
-Biznesa lietotājiem bieži jāveic datu ekspromtanalīze. Lai gan to var izdarīt, eksportējot datus uz Microsoft Excel un izmantojot pivot tabulas, **(Priekšskatījums) Grupēšanas režģos** līdzeklis, kas ir atkarīgs no jaunā režģa kontroles līdzekļa, režģī ļauj lietotājiem programmās Finance and Operations organizēt savus tabulāros datus interesantākos veidos. Tā kā šis līdzeklis paplašina līdzekli **Kopsumma**, līdzeklis **Grupēšana** ļauj iegūt izsmeļošu ieskatu datos, sniedzot apakšsummas grupas līmenī.
-
-Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna **Grupēt pēc kolonnas** un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu. 
+Lai izmantotu šo funkciju, ar peles labo pogu noklikšķiniet uz kolonnas, pēc kuras vēlaties grupēt, un atlasiet **Grupēt pēc šīs kolonnas**. Veicot šo darbību, dati tiks šķiroti pēc atlasītās kolonnas, režģa sākumā tiks pievienota jauna kolonna **Grupēt pēc** un katras grupas sākumā tiks ievietotas “galvenes rindas”. Šīs virsraksta rindas sniedz tālak norādīto informāciju par katru grupu. 
 -  Grupas datu vērtība 
--  Kolonnas nosaukums (šī informācija būs īpaši noderīga pēc vairāku grupēšanas līmeņu atbalsta.)  
+-  Kolonnas nosaukums (šī informācija ir īpaši noderīga, ja jums ir vairāki grupēšanas līmeņi.)  
 -  Datu rindu skaits šajā grupā
 -  Kolonnu, kas konfigurētas kopsummu rādīšanai, apakšsummas
 
 Kad ir aktivizēti [Saglabātie skati](saved-views.md), šo grupēšanu var saglabāt ar personalizāciju kā daļu no skata, lai nākamreiz, kad apmeklēsiet šo lapu, nodrošinātu ātru piekļuvi.  
 
-Ja izvēlaties **Grupēt pēc šīs kolonnas** citai kolonnai, sākotnējā grupēšana tiks aizstāta, tā kā versijā 10.0.9/Platform Update 33 tiek atbalstīts tikai viens grupēšanas līmenis.
+### <a name="multiple-levels-of-grouping"></a>Vairāki grupēšanas līmeņi
+Kad dati ir grupēti pēc vienas kolonnas, datus var grupēt pēc citas kolonnas, vēlamajā kolonnā atlasot **Grupēt pēc šīs kolonnas**. Šo procesu var atkārtot, kamēr nav 5 ligzdotu grupēšanas līmeņu, kas ir maksimālais atbalstītais dziļums. Šajā brīdī vairs nevarēsit grupēt pēc papildu kolonnām.  
 
-Lai režģī atceltu grupēšanu, ar peles labo pogu noklikšķiniet uz grupēšana kolonnas un atlasiet **Atgrupēt**.  
+Jebkurā brīdī varat noņemt grupēšanu jebkurā kolonnā, ar peles labo pogu noklikšķinot uz šīs kolonnas un atlasot **Atgrupēt**. Varat arī noņemt grupēšanu no visām kolonnām, atlasot **Režģa opcijas** un pēc tam atlasot **Atgrupēt visu**.   
+
+Ņemiet vērā, ka pirms versijas 10.0.16/platformas atjauninājuma 40 tiek atbalstīts tikai viens grupēšanas līmenis. Ja šajās versijās dati ir grupēti un jūs atlasāt **Grupēt pēc šīs kolonnas** citai kolonnai, sākotnējā grupēšana tiek aizstāta.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Grupu paplašināšana un sakļaušana
 Sākotnējai datu grupēšanai būs paplašinātas visas grupas. Varat izveidot kopsavilkuma skatījumus datiem, sakļaujot atsevišķas grupas, vai arī varat izmantot grupas paplašināšanu un sakļaušanu, lai palīdzētu pārvietoties pa datiem. Lai paplašinātu vai sakļautu grupu, atbilstošajā grupas virsraksta rindā atlasiet pogu Chevron (>). Ņemiet vērā, ka atsevišķu grupu paplašināšanas/sakļaušanas stāvoklis personalizācijā **netiek** saglabāts.
@@ -165,10 +167,26 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
     -  Grupētu kartīšu saraksts atrodas lapā.
     -  Režģa kolonna ar nereaģētu paplašināmo kontroli.
 
-    Kad lietotājs pirmo reizi sastopas ar vienu no šīm situācijām, tiks parādīts ziņojums par lapas atsvaidzināšanu. Kad parādās šis ziņojums, lapa turpinās izmantot esošo režģi visiem lietotājiem līdz nākamās preces versijas atjaunināšanai. Šo scenāriju labākai apstrādei, lai varētu izmantot jauno režģi, tiks apsvērta turpmāka atjaunināšana.     
+    Kad lietotājs pirmo reizi sastopas ar vienu no šīm situācijām, tiks parādīts ziņojums par lapas atsvaidzināšanu. Kad parādās šis ziņojums, lapa turpinās izmantot esošo režģi visiem lietotājiem līdz nākamās preces versijas atjaunināšanai. Šo scenāriju labākai apstrādei, lai varētu izmantot jauno režģi, tiks apsvērta turpmāka atjaunināšana.    
+    
+-  [KB 4582758] Ieraksti ir izplūduši, mainot tālummaiņu no 100 uz jebkuru citu procentuālo vērtību
+    
+### <a name="fixed-as-part-of-10015"></a>Fiksēta kā daļa no 10.0.15    
+
+-  [KB 4582723] Displeja opcijas netiek rādītas, kad tās veiktas vēlāk formas dzīves ciklā
+
+### <a name="fixed-as-part-of-10014"></a>Fiksēta kā daļa no 10.0.14
+
+-  (Kvalitātes atjauninājums) [KB 4584752] Neparedzēta klienta kļūda ar projekta rēķinu priekšlikumu lapu
 
 ### <a name="fixed-as-part-of-10013"></a>Fiksēta kā daļa no 10.0.13
 
+-  (Kvalitātes atjauninājums) [KB 4583880] Regression Suite Automation Tool (RSAT) testi neizdodas OpenLookup darbībā ar “Nevar nolasīt nedefinēta elementa rekvizītu RowIndex”
+-  (Kvalitātes atjauninājums) [KB 4583847] Neparedzēta klienta kļūda, pārvietojoties uzmeklēšanā 
+-  (Kvalitātes atjauninājums) [Kļūda 471777] Nevar atlasīt laukus režģī, lai rediģētu vai izveidotu mobilo lietotni
+-  [Defekts 474851] Hipersaites atsauces grupas vadīklās nedarbojas 
+-  [Defekts 474848] Uzlabotie priekšskatījumi ar režģiem netiek rādīti
+-  [KB 4582726] Rekvizīts RotateSign netiek ievērots  
 -  [Defekts 470173] Neaktīvo rindu izvēles rūtiņas tiek pārslēgtas, kad tiek noklikšķināts uz šūnas laukā
 -  [Defekts 474848] Uzlabotie priekšskatījumi ar režģiem netiek rādīti
 -  [Defekts 474851] Hipersaites atsauces grupas vadīklās nedarbojas 
@@ -176,6 +194,7 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
 -  [KB 4569441] Problēmas, atveidojot vairāku kolonnu kartīšu sarakstus, rīku padomus uz attēliem un displeju opcijas dažos laukos
 -  [KB 4575279] Ne visas iezīmētās rindas tiek dzēstas Virsgrāmatas žurnālā
 -  [KB 4575233] Displeja opcijas pēc pārcelšanās uz citu rindu netiek atjaunotas
+-  [Kļūda 477884] Uzmeklēšana atgriež nepareizu vērtību/ierakstu, ja ir aktivizēta jauna režģa kontrole
 -  [KB 4571095] Preču saņemšanas grāmatošana notiek, nejauši nospiežot taustiņu Enter (pareiza lapas noklusējuma darbības apstrāde)
 -  [KB 4575437] Pārlūks ar rediģējamām vadīklām negaidīti aizveras
 -  [KB 4569418] Dublēta rinda, kas izveidota pasūtījuma grafika formā
@@ -225,7 +244,7 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
 - [KB 4558383] Pēc pēdējā ieraksta dzēšanas vadīklas ārpus režģa netiek atjauninātas.
 - [KB 4558587] Atsauces grupas, kurām ir kombinētie lodziņi aizstāšanas laukos, nerāda vērtības.
 - [KB 4562143] Lauki netiek atjaunināti pēc rindas maiņas/režģa apstrādes, kas tiek iestrēdzis pēc rindas dzēšanas.
-- [KB 4562645] Rodas izņēmums, ja tiek atvērts pārlūks, kamēr tiek izpildīti attālās servera administrēšanas rīku (RSAT) testi.
+- [KB 4562645] Rodas izņēmums, ja tiek atvērts pārlūks, kamēr tiek izpildīti attālās servera administrēšanas rīku Regression Suite Automation Tool (RSAT) testi.
 
 ### <a name="fixed-as-part-of-10010"></a>Fiksēta kā daļa no 10.0.10
 

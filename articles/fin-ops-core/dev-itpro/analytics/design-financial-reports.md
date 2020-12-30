@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002547"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686249"
 ---
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
@@ -164,7 +163,7 @@ ms.locfileid: "3002547"
 14. Aizveriet pārskatu **Konsolidēta bilance un ieņēmumu pārskats viens otram blakus**.
 15. Aizveriet lapu **Finanšu pārskata veidotājs**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>5. uzdevums. Līdzās atvērtu nodaļu pārskata izveide
+## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>5. uzdevums. Līdzās atvērtu nodaļu pārskata izveide
 Šajā uzdevumā izveidosiet jaunu pārskatu. Pārskats ir līdzās atvērtu nodaļu ieņēmumu pārskats. Varat izmantot esošu rindas definīciju, bet izveidot jaunu pārskata definīciju un jaunu kolonnas definīciju, kas izmanto dimensiju filtrus. Sāksim ar sarakstu Finanšu pārskati.
 
 1. Dodieties uz lapu **Finanšu pārskati**, kas atrodas Virsgrāmatas sadaļā Pieprasījumi un pārskati.
@@ -193,8 +192,8 @@ ms.locfileid: "3002547"
 18. **Saglabājiet** veiktās izmaiņas un **ģenerējiet** pārskatu. Kad pārskata ģenerēšana tiek pabeigta un tas tiek atvērts, varat to pārskatīt.
 
 ## <a name="additional-resources"></a>Papildu resursi
-[Finanšu pārskati](../../../finance/general-ledger/financial-reporting-getting-started.md)
+[Finanšu pārskatu veidošana](../../../finance/general-ledger/financial-reporting-getting-started.md)
 
 [Skatīt finanšu pārskatus](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics finanšu pārskatu veidošanas emuārs](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 365 Finance emuārs](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

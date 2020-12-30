@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Organizācijas apmācība
-description: Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība.
+description: Šajā tēmā ir aprakstīts Finance and Operations organizācijas apmācību Power BI saturs.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c9025baccf34195c753fc50ad38cd3016c65b53
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182972"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685839"
 ---
 # <a name="organizational-training-power-bi-content"></a>Power BI satura pakotne Organizācijas apmācība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Finance and Operations Power BI satura pakotne Organizācijas apmācība.
+Šajā tēmā ir aprakstīts Finance and Operations organizācijas apmācību Power BI saturs.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
 Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja iepriekš neesat lietojis Microsoft Power BI, papildinformāciju par to varat saņemt lapā [Power BI vadītā apmācība](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.

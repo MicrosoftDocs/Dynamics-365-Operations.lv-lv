@@ -1,6 +1,6 @@
 ---
 title: Integrētais nodoklis
-description: Šajā tēmā aprakstīta nodokļu datu integrācija starp programmām Finance and Operations un Common Data Service.
+description: Šajā tēmā aprakstīta nodokļu datu integrācija starp programmām Finance and Operations un Dataverse.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997604"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679300"
 ---
 # <a name="integrated-tax"></a>Integrētais nodoklis
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ Nodokļu iestatījuma dati nosaka iestatījumus gan netiešajiem nodokļiem (PVN
 
 ## <a name="templates"></a>Veidnes
 
-Nodokļu dati ietver elementa karšu vākšanu, kas darbojas kopā debitora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
+Nodokļu dati ietver tabulas karšu vākšanu, kas darbojas kopā debitora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
 
 Finance and Operations programmas | Modeļa vadītas programmas programmā Dynamics 365 | apraksts |
 -------------------------|---------------------------------|----|

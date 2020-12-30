@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b5534c9ed0ad6cab0bc827ff626bf65a34f9df08
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138950"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680738"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Secības elementu izpildes atlikšana ER formātos
 
@@ -155,9 +154,9 @@ Pārskatiet ER modeļa kartējuma komponenta iestatījumus, kas ir konfigurēti,
     - Lai izveidotu vienu rindu izejošajā dokumentā, elementam **Pārskats\\Rinda\\Virsraksts** nav jābūt saistītam ar datu avotu.
     - **Prefikss1** elements ģenerē **P1** simbolus, lai norādītu, ka pievienotā rinda ir pārskata virsraksta rinda.
     - Elements **IzpildesDatums Laiks** ģenerē datumu un laiku (tostarp milisekundēs), kad tiek pievienota virsraksta rinda.
-    - Elements**Pārskats\\Rindas\\Ieraksts** ir piesaistīts sarakstam **model.Data.List**, lai ģenerētu vienu rindu katram saistītā saraksta ierakstam.
+    - Elements **Pārskats\\Rindas\\Ieraksts** ir piesaistīts sarakstam **model.Data.List**, lai ģenerētu vienu rindu katram saistītā saraksta ierakstam.
     - Elements **Prefikss2** ģenerē **P2** simbolus, lai norādītu, ka pievienotā rinda ir paredzēta nodokļu darbību informācijai.
-    - Elements**TaxAmount** ir saistīts ar **model.Data.List.Value**, (kas tiek rādīta kā **\@.Vērtība** relatīvā ceļa skatā), lai ģenerētu pašreizējās nodokļu darbības nodokļu vērtību.
+    - Elements **TaxAmount** ir saistīts ar **model.Data.List.Value**, (kas tiek rādīta kā **\@.Vērtība** relatīvā ceļa skatā), lai ģenerētu pašreizējās nodokļu darbības nodokļu vērtību.
     - Elements **RunningTotal** ir vietturis nodokļu vērtību pašreizējai kopsummai. Pašlaik šim elementam nav izvades, jo tam nav konfigurēts ne saistījums, ne noklusētā vērtība.
     - Elements **ExecutionDateTime** ģenerē datumu un laiku (tostarp milisekundes), kad šajā pārskatā tiek apstrādāta pašreizējā darbība.
     - Lai izveidotu vienu rindu izejošajā dokumentā, elementam **Pārskats\\Rinda\\Kopsavilkums** nav jābūt saistītam ar datu avotu.
@@ -207,7 +206,7 @@ Ja darbību apjoms ir daudz plašāks par apjomu dotajā piemērā, summēšanas
 
     ![Lejupielādēts fails](./media/ER-DeferredSequence-Run1.png)
 
-    21. rindā ir iekļauta nodokļu vērtību pašreizējā kopsumma, kas tiek aprēķināta visām apstrādātajām darbībām, izmantojot ģenerēto izvadi kā datu avotu. Šis datu avots sākas no pārskata sākuma un turpinās, aplūkojot pēdējo nodokļu darbību. 22. rindā ir iekļauta visu apstrādāto darbību nodokļu vērtību summa, kas tiek aprēķināta modeļa kartēšanā, izmantojot *GroupBy* tipa datu avotu. Ievērojiet, ka šīs vērtības ir vienādas. Tādēļ **GroupBy**vietā var izmantot uz izvadi balstītu summēšanu. Salīdzinot 2. un 21. rindas izpildes laikus, varat noteikt, ka visu darījumu rindu ģenerēšana un summēšana tika veikta 9 milisekundēs(ms). Tāpēc, ciktāl tas attiecas uz detalizēto rindu ģēnerēšānu un nodokļu vērtību summēšanu, modificētais formāts ir aptuveni divas reizes ātrāks nekā sākotnējais formāts.
+    21. rindā ir iekļauta nodokļu vērtību pašreizējā kopsumma, kas tiek aprēķināta visām apstrādātajām darbībām, izmantojot ģenerēto izvadi kā datu avotu. Šis datu avots sākas no pārskata sākuma un turpinās, aplūkojot pēdējo nodokļu darbību. 22. rindā ir iekļauta visu apstrādāto darbību nodokļu vērtību summa, kas tiek aprēķināta modeļa kartēšanā, izmantojot *GroupBy* tipa datu avotu. Ievērojiet, ka šīs vērtības ir vienādas. Tādēļ **GroupBy** vietā var izmantot uz izvadi balstītu summēšanu. Salīdzinot 2. un 21. rindas izpildes laikus, varat noteikt, ka visu darījumu rindu ģenerēšana un summēšana tika veikta 9 milisekundēs(ms). Tāpēc, ciktāl tas attiecas uz detalizēto rindu ģēnerēšānu un nodokļu vērtību summēšanu, modificētais formāts ir aptuveni divas reizes ātrāks nekā sākotnējais formāts.
 
 14. Atlasiet skaitlisko elementu **Pārskats\\Rindas\\Kopsavilkums\\KopējāNodokļuSumma** un pēc tam atlasiet **Rediģēt formulu**.
 15. Ievadiet esošās izteiksmes vietā izteiksmi `SUMIF(SummingAmountKey, WsColumn, WsRow)`.

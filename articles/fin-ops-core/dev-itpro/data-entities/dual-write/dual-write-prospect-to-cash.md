@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997404"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683651"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
@@ -56,15 +56,15 @@ Programmā Supply Chain Management lauki **Vieta** un **Noliktava** lauki ir nep
 
 Supply Chain Management un Sales numuru sērijas nav saistītas, kad piedāvājumi un pasūtījumi tiek veidoti un sinhronizēti programmās Sales un Supply Chain Management. Ja pārdošanas pasūtījums, kas ir izveidots pārdošanai, ir sinhronizēts programmā Supply Chain Management, tām ir tāds pats pārdošanas pasūtījums kā programmā Supply Chain Management. Lai nodrošinātu, ka pārdošanas pasūtījuma numurs netiek dublēts, abām programmām jāizmanto dažādas numuru secības sistēmas.
 
-Piemēram, numuru sērija programmā Supply Chain Management ir **1, 2, 3, 4, 5,...** , un numuru sērija programmā Sales ir **100, 99, 98,...**. Ja izveidojat 100 pārdošanas pasūtījumus programmā Sales, tiks ģenerēts pasūtījuma numurs, kas jau pastāv programmā Supply Chain Management. Citiem vārdiem sakot, abas numuru sērijas laika gaitā pārklāsies, kad programmās Supply Chain Management un Sales tiks izveidoti pārdošanas pasūtījumi. Tā vietā varat izmantot numuru sēriju, piemēram, **F1, F2, F3,...** programmā Supply Chain Management un numuru sēriju, piemēram, **C1, C2, C3,...** programmā Sales. Šīs numuru sērijas nekad neveido dublētus pārdošanas pasūtījumu numurus.
+Piemēram, numuru sērija programmā Supply Chain Management ir **1, 2, 3, 4, 5,...**, un numuru sērija programmā Sales ir **100, 99, 98,...**. Ja izveidojat 100 pārdošanas pasūtījumus programmā Sales, tiks ģenerēts pasūtījuma numurs, kas jau pastāv programmā Supply Chain Management. Citiem vārdiem sakot, abas numuru sērijas laika gaitā pārklāsies, kad programmās Supply Chain Management un Sales tiks izveidoti pārdošanas pasūtījumi. Tā vietā varat izmantot numuru sēriju, piemēram, **F1, F2, F3,...** programmā Supply Chain Management un numuru sēriju, piemēram, **C1, C2, C3,...** programmā Sales. Šīs numuru sērijas nekad neveido dublētus pārdošanas pasūtījumu numurus.
 
 ## <a name="sales-quotations"></a>Pārdošanas piedāvājumi
 
 Pārdošanas piedāvājumi var tikt izveidoti programmā Sales vai Supply Chain Management. Ja veidojat piedāvājumu programmā Sales, tas tiek sinhronizēts ar programmu Supply Chain Management reāllaikā. Līdzīgā veidā, ja veidojat pasūtījumu programmā Supply Chain Management, tas reāllaikā tiek sinhronizēts ar programmu Sales. Ņemiet vērā šādus punktus:
 
-+ Piedāvājumā var pievienot atlaidi precei. Šādā gadījumā atlaide tiks sinhronizēta ar programmu Supply Chain Management. Galvenes lauki **Atlaide** , **Maksas** un **Nodokļi** tiek kontrolēti, izmantojot iestatījumus programmā Supply Chain Management. Šie iestatījumi neatbalsta integrācijas kartēšanu. Tā vietā laukus **Cena** , **Atlaide** , **Maksa** un **Nodokļi** uztur un apstrādā programmā Supply Chain Management.
-+ Lauki **Atlaide %** , **Atlaide** un **Vedmaksa** pārdošanas piedāvājuma galvenē ir tikai lasāmi faili.
-+ Noklusējuma kartējumos nav iekļauti lauki **Vedmaksas nosacījumi** , **Piegādes nosacījumi** , **Piegādes metode** un **Piegādes veids**. Lai kartētu šos laukus, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēts elements.
++ Piedāvājumā var pievienot atlaidi precei. Šādā gadījumā atlaide tiks sinhronizēta ar programmu Supply Chain Management. Galvenes lauki **Atlaide**, **Maksas** un **Nodokļi** tiek kontrolēti, izmantojot iestatījumus programmā Supply Chain Management. Šie iestatījumi neatbalsta integrācijas kartēšanu. Tā vietā laukus **Cena**, **Atlaide**, **Maksa** un **Nodokļi** uztur un apstrādā programmā Supply Chain Management.
++ Lauki **Atlaide %**, **Atlaide** un **Vedmaksa** pārdošanas piedāvājuma galvenē ir tikai lasāmi faili.
++ Noklusējuma kartējumos nav iekļauti lauki **Vedmaksas nosacījumi**, **Piegādes nosacījumi**, **Piegādes metode** un **Piegādes veids**. Lai kartētu šos laukus, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēts elements.
 
 Ja izmantojat arī Field Service risinājumu, noteikti atkārtoti iespējojiet **Piedāvājuma rindas ātrā izveide** parametru. Atkārtoti iespējojot parametru, varat turpināt izveidot piedāvājuma rindas, izmantojot ātro izveides funkciju.
 1. Dodieties uz savu Dynamics 365 Sales programmu.
@@ -98,23 +98,23 @@ Ja sinhronizējat no Supply Chain Management uz Sales tiek iegūts šāds rezult
 
 ## <a name="dual-write-solution-for-sales"></a>Duālā ieraksta risinājums programmai Sales
 
-Elementam **Pasūtījums** ir pievienoti jauni lauki, kas tiek rādīti ekrāna. Lielākā daļa šo lauku parādās programmas Sales cilnē **Integrēšana**. Lai uzzinātu vairāk par to, kā statusa lauki tiek kartētii, skatiet dokumentācijas tēmu [Iestatīt kartēšanu pārdošanas pasūtījuma statusa laukiem](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
+Elementam **Pasūtījums** ir pievienoti jauni lauki, kas tiek rādīti ekrāna. Lielākā daļa šo lauku parādās programmas Sales cilnē **Integrēšana**. Lai uzzinātu vairāk par to, kā statusa lauki tiek kartēti, skatiet [Kartēšanas iestatīšana pārdošanas pasūtījuma statusa laukiem](sales-status-map.md).
 
 + Pogas **Izveidot rēķinu** un **Atcelt pasūtījumu** lapā **Pārdošanas pasūtījumā** ir slēptas programmā Sales.
-+ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs** , lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
++ Vērtība **Pārdošanas pasūtījuma statuss** joprojām būs **Aktīvs**, lai nodrošinātu, ka Supply Chain Management var nodot veiktās izmaiņas uz pārdošanas pasūtījumu programmā Sales. Lai kontrolētu šo darbību, iestatiet lauka **Statecode \[statuss\]** noklusējuma vērtību **Aktīvs**.
 
 ## <a name="invoices"></a>Rēķini
 
 Pārdošanas rēķini tiek izveidoti programmatūrā Supply Chain Management un sinhronizēti ar Sales. Ņemiet vērā šādus punktus:
 
-+ Elementam **Rēķins** ir pievienots lauks **Rēķina numurs** , un tas ir redzams lapā.
-+ Lapā **Pārdošanas pasūtījums** ir paslēpta poga **Izveidot rēķinu** , jo rēķini tiks izveidoti programmā Supply Chain Management un sinhronizēti ar programmu Sales. Lapu **Rēķins** nevar rediģēt, jo rēķini tiks sinhronizēti no programmas Supply Chain Management.
++ Elementam **Rēķins** ir pievienots lauks **Rēķina numurs**, un tas ir redzams lapā.
++ Lapā **Pārdošanas pasūtījums** ir paslēpta poga **Izveidot rēķinu**, jo rēķini tiks izveidoti programmā Supply Chain Management un sinhronizēti ar programmu Sales. Lapu **Rēķins** nevar rediģēt, jo rēķini tiks sinhronizēti no programmas Supply Chain Management.
 + Kad saistītais rēķins programmatūrā Supply Chain Management ir sinhronizēts ar programmu Sales, lauka **Pārdošanas pasūtījuma statuss** vērtība tiek automātiski mainīta uz **Iekļauts rēķinā**. Turklāt tā pārdošanas pasūtījuma īpašnieks, no kura tika izveidots rēķins, tiek piešķirts kā rēķina īpašnieks. Tāpēc pārdošanas pasūtījuma īpašnieks var skatīt rēķinu.
-+ Noklusējuma kartējumos nav iekļauti lauki **Vedmaksas nosacījumi** , **Piegādes nosacījumi** un **Piegādes veids**. Lai kartētu šos laukus, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēts elements.
++ Noklusējuma kartējumos nav iekļauti lauki **Vedmaksas nosacījumi**, **Piegādes nosacījumi** un **Piegādes veids**. Lai kartētu šos laukus, ir jāiestata vērtību kartējums, kas ir specifisks datiem organizācijās, kurās tiek sinhronizēts elements.
 
 ## <a name="templates"></a>Veidnes
 
-Potenciālā kliente pārveidošana naudā ietver pamata elementa karšu vākšanu, kas darbojas kopā debitora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
+Potenciālā kliente pārveidošana naudā ietver pamata tabulas karšu vākšanu, kas darbojas kopā debitora datu mijiedarbības laikā, kā redzams nākamajā tabulā.
 
 | Finance and Operations programmas | Modeļa vadītas programmas programmā Dynamics 365 | apraksts |
 |-----------------------------|-----------------------------------|-------------|
@@ -126,7 +126,7 @@ Potenciālā kliente pārveidošana naudā ietver pamata elementa karšu vākša
 | CDS pārdošanas piedāvājuma virsraksts  | piedāvājumi                            |             |
 | CDS pārdošanas piedāvājuma rindas   | quotedetails                      |             |
 
-Šeit ir saistītās pamatelementa kartes potenciālā klienta pārveidošanai naudā:
+Šeit ir saistītās pamatelementa tabulas kartes potenciālā klienta pārveidošanai naudā:
 
 + [Debitori V3 uz kontiem](customer-mapping.md#customers-v3-to-accounts)
 + [CDS kontaktpersonas V2 uz kontaktpersonām](customer-mapping.md#cds-contacts-v2-to-contacts)

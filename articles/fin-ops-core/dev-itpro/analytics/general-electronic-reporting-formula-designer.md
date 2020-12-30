@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002524"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682653"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formulas veidotājs elektronisko pārskatu veidošanā (ER)
 
@@ -51,7 +50,7 @@ Lapu **Formulas veidotājs** var atvērt, veicot kādu no tālāk norādītajām
 - Definēt nosacījumus procesa kontroles pārbaudēm.
 - Definēt ziņojumu tekstu procesa kontroles pārbaudēm.
 
-## <a name="Binding"></a>Datu saistīšana
+## <a name="data-binding"></a><a name="Binding"></a>Datu saistīšana
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas pārveido no datu avotiem saņemtos datus, lai izpildes laikā šos datus varētu ievadīt datu patērētājā šādos veidos:
 
@@ -69,7 +68,7 @@ Tālāk esošajā attēlā ir parādīts, kā var lietot šī tipa izteiksmi. Š
 
 Izpildes laikā izveidotā formula `ROUND (Intrastat.AmountMST, 2)` katra tabulas Instrastat ieraksta lauka **AmountMST** vērtību noapaļo līdz diviem cipariem aiz komata. Pēc tam tā noapaļoto vērtību ievada datu modeļa **Nodokļu pārskatu veidošana** komponentā **Transaction.InvoicedAmount**.
 
-## <a name="Transformation"></a>Datu formatēšana
+## <a name="data-formatting"></a><a name="Transformation"></a>Datu formatēšana
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmi, kas formatē no datu avotiem saņemtos datus, lai šos datus varētu nosūtīt kā daļu no ģenerētā elektroniskā dokumenta. Iespējams, jums ir formatējums, kas jālieto kā tipiska kārtula, kuru nepieciešams atkārtoti izmantot kādam formātam. Šajā gadījumā formāta konfigurācijā šo formatēšanu varat vienu reizi ieviest kā nosauktu pārveidošanu, kurai ir formatēšanas izteiksme. Pēc tam šo nosaukto pārveidošanu var saistīt ar daudziem formāta komponentiem, kuriem ir nepieciešams formatēt izvadi atbilstoši jūsu izveidotajai formatēšanas izteiksmei.
 
@@ -87,7 +86,7 @@ Ja jums ir formatējums, kas ir jālieto atsevišķi, šo formatējumu varat iev
 
 [![Formatējuma lietošana atsevišķam komponentam](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation"></a>Apstrādes plūsmas kontrole
+## <a name="process-flow-control"></a><a name="Validation"></a>Apstrādes plūsmas kontrole
 
 ER formulas veidotāju var izmantot, lai definētu izteiksmes, kas kontrolē elektronisko dokumentu ģenerēšanas procesa plūsmu. Jūs varat veikt tālāk norādītos uzdevumus.
 
@@ -112,14 +111,14 @@ ER formulas veidotāju var izmantot arī, lai ģenerētu faila nosaukumu ģener�
 
 [![Apstrādes plūsmas kontrole](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled"></a>Dokumenta satura kontrole
+## <a name="document-content-control"></a><a name="Enabled"></a>Dokumenta satura kontrole
 
 ER formulu noformētāju var izmantot, lai konfigurētu izteiksmes, kuras kontrolē to, kādi dati tiks ievietoti ģenerētajos elektroniskajos dokumentos izpildlaikā. Izteiksmes var iespējot vai atspējot konkrētu formāta elementu izvadi atkarībā no apstrādes datiem un konfigurētās loģikas. Šīs izteiksmes var ievadīt viena formāta elementam cilnes **Kartēšana** laukā **Iespējots** lapā **Operāciju noformētājs**. Izteiksmes var ievadīt kā loģisku nosacījumu, kas atgriež *Būla* vērtību:
 
 - Ja nosacījums atgriež **True**, tiek palaists pašreizējais formāta elements.
 - Ja nosacījums atgriež **False**, tiek izlaists pašreizējais formāta elements.
 
-Nākamajā attēlā ir parādītas šī tipa izteiksmes. (Kā piemēru izmanto Microsoft nodrošināto**ISO20022 kredīta pārsūtīšanas (NO)** formāta konfigurācijas 11.12.11 versiju.) **XMLHeader** formāta komponents ir konfigurēts tā, lai aprakstītu kredīta pārsūtīšanas ziņojuma struktūru saskaņā ar ISO 20022 XML ziņojumu standartiem. Formāta komponents **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** ir konfigurēts, lai ģenerētajam ziņojumam pievienotu **Ustrd** XML elementu un ievietotu pārveduma formātu kā šādu XML elementu tekstu:
+Nākamajā attēlā ir parādītas šī tipa izteiksmes. (Kā piemēru izmanto Microsoft nodrošināto **ISO20022 kredīta pārsūtīšanas (NO)** formāta konfigurācijas 11.12.11 versiju.) **XMLHeader** formāta komponents ir konfigurēts tā, lai aprakstītu kredīta pārsūtīšanas ziņojuma struktūru saskaņā ar ISO 20022 XML ziņojumu standartiem. Formāta komponents **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** ir konfigurēts, lai ģenerētajam ziņojumam pievienotu **Ustrd** XML elementu un ievietotu pārveduma formātu kā šādu XML elementu tekstu:
 
 - Komponents **PaymentNotes** tiek izmantots, lai ģenerētu tekstu no maksājuma piezīmēm.
 - Komponents **DelimitedSequence** ģenerē ar komatu atdalītus rēķina numurus, kuri tiek izmantoti, lai veiktu doto kredīta pārnesi.
@@ -139,7 +138,7 @@ Nākamajā attēlā ir parādītas šī tipa izteiksmes. (Kā piemēru izmanto M
 > 
 > Pamatojoties uz šo iestatījumu, ģenerētais ziņojums par katru debitora maksājumu — XML elements **Ustrd**— saturēs vai nu maksājuma piezīmju tekstu, vai, ja šis teksts ir tukšs, sarakstu, kurā ar komatiem atdalīti rēķina numuri, kas izmantoti, lai veiktu šo maksājumu.
 
-## <a name="TestFormula"></a>Konfigurēto formulu validācija
+## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Konfigurēto formulu validācija
 
 Lapā **formulas veidotājs** atlasiet **Testēt**, lai pārbaudītu, kā darbojas konfigurētā formula.
 

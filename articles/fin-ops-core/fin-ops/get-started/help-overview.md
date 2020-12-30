@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367342"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695143"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -49,7 +48,7 @@ Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.micros
 
 Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogrammu. Labākiem rezultātiem, mēs iesakām izmantot meklēšanu vietnē, piemēram, **site:docs.microsoft.com dynamics 365 “meklējamais vārds vai frāze”**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Saņemt paziņojumus par izmaiņām, izmantojot RSS plūsmu
 
 Lai abonētu Really Simple Syndication (RSS) plūsmu visiem atjauninājumiem, kas ir docs.microsoft.com saturam, izmantojiet šādu saiti:
 
@@ -68,7 +67,7 @@ Ja vēlaties sniegt atsauksmes vai uzdot jautājumu par tēmu, pievienojiet kome
 > [!NOTE]
 > Ja vēlaties iesniegt dokumentācijas atsauksmes, jums ir jāpiesakās, izmantojot GitHub kontu. Papildinformāciju skatiet šeit: [Jūsu GitHub profila iestatīšana un pārvaldība](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Dokumentācijas papildināšana
+## <a name="contribute-to-the-documentation"></a>Dokumentācijas papildināšana
 
 Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, tēmā atlasiet pogu **Rediģēt** (zīmuļa simbols). Tālāk redzamajā videoklipā ir parādīts, kā varat papildināt mūsu dokumentāciju.
 

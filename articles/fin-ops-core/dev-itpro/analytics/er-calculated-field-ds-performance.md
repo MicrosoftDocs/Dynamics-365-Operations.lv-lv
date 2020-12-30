@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a87098e82284a4951f3a4de050f6ba3f587fd20a
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760086"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681284"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus
 
@@ -56,7 +55,7 @@ Pirmais solis ir importēt parauga ER risinājumu, lai ģenerētu kreditora darb
 4. Lapā **Konfigurācijas** importējiet ER konfigurācijas, kuras lejupielādējāt kā priekšnosacījumu pakalpojumā Finance, šādā secībā: datu modelis, modeļa kartējums, formāts. Katrai konfigurācijai rīkojieties šādi.
 
     1. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
-    2. Atlasiet **Pārlūkot**un atlasiet atbilstošu failu ER konfigurācijai XML formātā.
+    2. Atlasiet **Pārlūkot** un atlasiet atbilstošu failu ER konfigurācijai XML formātā.
     3. Atlasiet **Labi**.
 
 ![Importētās konfigurācijas Konfigurāciju lapā](./media/er-calculated-field-ds-performance-imported-configurations.png)
@@ -162,7 +161,7 @@ Veiciet šīs darbības, lai izmantotu kešatmiņu un **Aprēķinātais lauks** 
 3. Lapā **Modeļa kartēšana** darbību rūtī atlasiet **Noformētājs**.
 4. Lapā **Modeļa kartēšanas veidotājs** veiciet tālāk norādītās darbības, lai pievienotu datu avotu veidam **Tabulas ieraksts** , lai piekļūtu ierakstiem VendTable pieteikumu tabulā:
 
-    1. Rūtī **Datu avota veidi** izvērsiet **Dynamics 365 for Operations**un atlasiet **Tabulas ieraksti**.
+    1. Rūtī **Datu avota veidi** izvērsiet **Dynamics 365 for Operations** un atlasiet **Tabulas ieraksti**.
     2. Atlasiet **Pievienot sakni**.
     3. Dialoglodziņa laukā **Nosaukums** ievadiet **Vend**.
     4. Laukā **Tabula** ievadiet **VendTable**.
@@ -170,7 +169,7 @@ Veiciet šīs darbības, lai izmantotu kešatmiņu un **Aprēķinātais lauks** 
 
 5. Varat parameterizēt izsaukumus uz **Aprēķinātais lauks** veidu datu avotiem tikai tad, ja šie datu avoti atrodas konteinerā. Tāpēc veiciet šīs darbības, lai pievienotu **Tukšs konteineris** veida datu avotu, lai uzglabātu jaunu **Aprēķinātais lauks** veida parameterizētu datu avotu:
 
-    1. Rūtī **Datu avota veidi** izvērsiet **Vispārīgi**un atlasiet **Tukšs konteineris**.
+    1. Rūtī **Datu avota veidi** izvērsiet **Vispārīgi** un atlasiet **Tukšs konteineris**.
     2. Atlasiet **Pievienot sakni**.
     3. Dialoglodziņa laukā **Nosaukums** ievadiet **Box**.
     3. Atlasiet **Labi**.
@@ -190,7 +189,7 @@ Veiciet šīs darbības, lai izmantotu kešatmiņu un **Aprēķinātais lauks** 
     9. Laukā **Tips** atlasiet **Virkne**.
     10. Atlasiet **Labi**.
     11. Laukā **Formula** ievadiet **FIRSTORNULL(FILTER(Vend, Vend.AccountNum=parmVendAccNumber))**.
-    12. Atlasiet **Saglabāt**un aizvēriet lapu **Formulas veidotājs** .
+    12. Atlasiet **Saglabāt** un aizvēriet lapu **Formulas veidotājs** .
     13. Atlasiet **Labi**, lai pievienotu jaunu datu avotu.
 
 7. Veiciet šīs darbības, lai iezīmētu pievienoto datu avotu kā kešoto izpildes laikā:

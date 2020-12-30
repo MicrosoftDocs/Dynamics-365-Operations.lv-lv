@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249122"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701680"
 ---
 # <a name="vendor-invoices-overview"></a>Kreditoru rēķinu pārskats
 
@@ -112,15 +112,18 @@ Lapai **Atkopt kreditoru rēķinus** varat piekļūt tikai tad, ja jums ir pieš
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Darbplūsmas statusa atiestatīšana kreditoru rēķiniem no Neatkopjama uz Melnraksts
 
-Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Ja kreditora rēķina darbplūsmas statuss ir **Neatkopjama**, varat atiestatīt to uz **Melnraksts**, atlasot **Atsaukt**. Pēc tam varat rediģēt kreditora rēķinu. Šī funkcija ir pieejama, ja ir ieslēgts parametrs **Atiestatīt melnraksta statusu kreditora rēķina darbplūsmai** lapā **Līdzekļu pārvaldība**.
+Darbplūsmas instancei, kas apturēta, jo radās neatkopjama kļūda, būs darbplūsmas statuss **Neatkopjama**. Ja kreditora rēķina darbplūsmas statuss ir **Neatkopjama**, varat atiestatīt to uz **Melnraksts**, atlasot **Atsaukt**. Pēc tam varat rediģēt kreditora rēķinu. Šī funkcija ir pieejama, ja ir ieslēgts parametrs **Atiestatīt darbplūsmas statusu kreditora rēķiniem no “Neatkopjama” uz “Melnraksts”** lapā **Līdzekļu pārvaldība**.
 
 Varat izmantot lapu **Darbplūsmas vēsture**, lai atiestatītu darbplūsmas statusu uz  **Melnraksts**. Varat atvērt šo lapu no **Kreditora rēķins** vai no navigācijas **Kopīgi > Vaicājumi > Darbplūsma** . Lai atiestatītu darbplūsmas statusu uz **Melnraksts**, atlasiet **Atsaukt**. Varat arī atiestatīt darbplūsmas statusu uz Melnraksts, atlasot darbību **Atsaukt** lapā **Kreditora rēķins** vai **Gaidošie kreditoru rēķini**. Kad darbplūsmas statuss tiek atiestatīts uz **Melnraksts**, tas kļūst pieejams labošanai lapā **Kreditora rēķins**.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Rēķina kopsummas skatīšana lapā Gaidošie kreditoru rēķini
+Varat skatīt rēķina kopsummu lapā **Gaidošie kreditoru rēķini**, iespējojot parametru **Parādīt rēķina kopsummu gaidošo kreditoru rēķinu sarakstā** lapā **Kreditoru parametri**. 
 
 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-- [Kreditoru rēķinu politiku iestatīšana](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Iestatīt kreditoru rēķinu ierobežojumus](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Galvenie rēķinu dati kreditoru sistēmā, izmantojot kreditora rēķinu](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu](tasks/key-invoice-data-into-ap-system-invoice-pool.md)

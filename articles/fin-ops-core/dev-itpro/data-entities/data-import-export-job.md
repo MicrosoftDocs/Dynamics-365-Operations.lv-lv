@@ -3,24 +3,23 @@ title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278902"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684064"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -130,7 +129,7 @@ Darbu var vienlaikus nodrošināt pēc lomām, lietotājiem un juridiskajām per
 Darbu varat palaist vienu reizi, pēc darba definēšanas atlasot pogu **Importēt** vai **Eksportēt**. Lai iestatītu periodisko darbu, atlasiet **Izveidot periodisku datu darbu**.
 
 > [!NOTE]
-> Importēšanas vai eksportēšanas darbu var izpildīt asinhroni, atlasot pogu **Importēt** vai **Eksportēt**. Asinhronai izpildei tiek izmantota asinhronā struktūra, kas atšķiras no pakešuzdevumu struktūras. Tomēr tāpat kā pakešuzdevumu struktūrai arī asinhronajai struktūrai var tikt veikta ierobežošana un tā rezultātā darba izpilde var nenotikt nekavējoties. Darbus arī var izpildīt sinhroni, atlasot **Importēt tūlīt** vai **Eksportēt tūlīt**. Tas sāk darbu nekavējoties un ir noderīgi, ja asinhrona vai pakešuzdevumu izpilde netiek uzsākta ierobežošanas dēļ. Darbus var izpildīt arī kā pakešuzdevumu, izvēloties opciju **Izpilde partijā**. Uz partijas resursiem attiecas ierobežošana, tādēļ pakešuzdevuma izpilde var nenotikt nekavējoties. Asinhronā opcija ir noderīga, kad lietotāji mijiedarbojas tieši ar lietotāja interfeisu un nav tik pieredzējuši, lai saprastu pakešuzdevumu plānošanu. Partijas izmantošana ir alternatīvs risinājums, ja ir nepieciešams importēt vai eksportēt lielu apjomu. Pakešuzdevumus var plānot izpildei noteiktā pakešuzdevumu grupā — tas sniedz lielāku kontroli slodzes līdzsvarošanas ziņā. Ja asinhronai un pakešuzdevumu izpildei tiek veikta ierobežošana liela sistēmas resursu izmantojuma dēļ, tad kā tūlītēju risinājumu var izmantot sinhronu importēšanas/eksportēšanas versiju. Sinhronā opcija sāksies nekavējoties un bloķēs lietotāja interfeisu, jo notiek sinhrona izpilde. Pārlūkprogrammas logam jāpaliek atvērtam, kad notiek sinhrona darbība.
+> Importēšanas vai eksportēšanas darbu var izpildīt, atlasot pogu **Importēt** vai **Eksportēt**. Tas ieplānos, ka partijas darbs tiks izpildīts tikai vienu reizi. Darbs var netikt izpildīts nekavējoties, ja partijas pakalpojumu aizkavē partijas pakalpojuma noslodze. Darbus arī var izpildīt sinhroni, atlasot **Importēt tūlīt** vai **Eksportēt tūlīt**. Tas sāk darbu nekavējoties un ir noderīgi, ja partijas izpilde netiek uzsākta aizkaves dēļ. Darbus var ieplānot arī izpildīšanai vēlāk. To var izdarīt, izvēloties opciju **Izpildīt partijā**. Uz partijas resursiem attiecas ierobežošana, tādēļ pakešuzdevuma izpilde var nenotikt nekavējoties. Partijas izmantošana ir ieteicamā opcija, jo tā palīdzēs arī ar lielu datu apjomu, kas ir jāimportē vai jāeksportē. Pakešuzdevumus var plānot izpildei noteiktā pakešuzdevumu grupā — tas sniedz lielāku kontroli slodzes līdzsvarošanas ziņā.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Pārbaudīšana, vai darba norise notiek paredzētajā veidā
 Gan eksportēšanas, gan importēšanas darbiem problēmu novēršanai un izmeklēšanai ir pieejama darbu vēsture. Vēsturiskās darbu izpildes ir sakārtotas pēc laika diapazoniem.
@@ -195,7 +194,7 @@ Darba vēstures tīrīšanas funkcionalitāte datu pārvaldībā jāizmanto, lai
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-Funkcionalitātei jābūt iespējotai līdzekļu pārvaldībā, pēc tam tai var piekļūt no **Datu pārvaldība \> Darbu vēstures tīrīšana**.
+Līdzeklim **Izpildes vēstures tīrīšana** jābūt iespējotai līdzekļu pārvaldībā, pēc tam tai var piekļūt no **Datu pārvaldība \> Darbu vēstures tīrīšana**.
 
 ### <a name="scheduling-parameters"></a>Parametru plānošana
 
@@ -211,3 +210,36 @@ Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai
 
 > [!NOTE]
 > Ja sagatavošanas posmu tabulas ieraksti nav pilnībā notīrīti, pārliecinieties, ka ir ieplānota tīrīšanas darba atkārtota izpilde. Kā paskaidrots iepriekš, jebkurā tīrīšanas izpildē darbs attīrīs tikai tik daudz izpildes ID, cik tas ir iespējams norādītā maksimālo stundu laikā. Lai turpinātu atlikušo sagatavošanas posmu ierakstu tīrīšanu, ir jāieplāno darba periodiska izpilde.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Darbu vēstures tīrīšana un arhivēšana (pieejama kā priekšskatījums platformas atjauninājumā 39 vai versijā 10.0.15)
+Darbu vēstures tīrīšanas un arhivēšanas funkcionalitāte aizstāj tīrīšanas funkcionalitātes iepriekšējās versijas. Šajā sadaļā tiks izskaidrotas šīs jaunās iespējas.
+
+Viena no galvenajām izmaiņām tīrīšanas funkcionalitātē ir sistēmas partijas darba izmantošana vēstures tīrīšanai. Sistēmas partijas darba izmantošana ļauj Finance and Operations programmām automātiski ieplānot tīrīšanas partijas darbu un palaist to, tiklīdz sistēma ir gatava. Vairs nav nepieciešams manuāli ieplānot partijas darbu. Šajā noklusējuma izpildes režīmā partijas darbs tiks izpildīts katru stundu, sākot no 24:00 pusnaktī, un saglabās izpildes vēsturi par iepriekšējām 7 dienām. Iztīrītā vēsture tiek arhivēta turpmākai izguvei.
+
+> [!NOTE]
+> Tā kā šī funkcionalitāte ir priekšskatījumā, sistēmas partijas darbs nedzēsīs nevienu izpildes vēsturi, kamēr tas nebūs iespējots, izmantojot ierobežoto līdzekli DMFEnableExecutionHistoryCleanupSystemJob. Kad šis līdzeklis būs vispārēji pieejams nākotnes laidienā, šis ierobežotais līdzeklis nebūs nepieciešams, un sistēmas partijas darbs sāks tīrīšanu un arhivēšanu pēc tam, kad sistēma būs gatava, pamatojoties uz noteikto grafiku, kā paskaidrots iepriekš. 
+
+> [!NOTE]
+> Nākotnes laidienā iepriekšējās tīrīšanas funkcionalitātes versijas tiks noņemtas no Finance and Operations programmām.
+
+Otrā izmaiņa tīrīšanas procesā ir iztīrītās izpildes vēstures arhivēšana. Tīrīšanas darbs atarhivēs dzēstos ierakstus uz BLOB krātuvi, ko DIXF izmanto regulārai integrācijai. Arhivētais fails būs DIXF pakotnes formātā un būs pieejams BLOB 7 dienas, kuru laikā to iespējams lejupielādēt. Arhivēšanas faila noklusējuma 7 dienu ilgmūžību parametros iespējams mainīt uz maksimums 90 dienām.
+
+### <a name="changing-the-default-settings"></a>Noklusējuma iestatījumu maiņa
+Šī funkcionalitāte pašlaik ir priekšskatījumā, un tā ir skaidri jāieslēdz, iespējojot ierobežoto līdzekli DMFEnableExecutionHistoryCleanupSystemJob. Tīrīšanas līdzekļa izstādīšanai arī ir jābūt ieslēgtai arī līdzekļa pārvaldībā.
+
+Lai mainītu arhivētā faila ilgmūžības noklusējuma iestatījumu, dodieties uz datu pārvaldības darbvietu un atlasiet **Darba vēstures tīrīšana**. Iestatiet **Dienas, lai saglabātu pakotni BLOB** uz vērtību starp 7 un 90 (ieskaitot). Tas stāsies spēkā arhīvos, kas tiek izveidoti pēc šo izmaiņu veikšanas.
+
+### <a name="downloading-the-archived-package"></a>Arhivētās pakotnes lejupielādēšana
+Šī funkcionalitāte pašlaik ir priekšskatījumā, un tā ir skaidri jāieslēdz, iespējojot ierobežoto līdzekli DMFEnableExecutionHistoryCleanupSystemJob. Tīrīšanas līdzekļa izstādīšanai arī ir jābūt ieslēgtai arī līdzekļa pārvaldībā.
+
+Lai lejupielādētu arhivēto izpildes vēsturi, dodieties uz datu pārvaldības darbvietu un atlasiet **Darba vēstures tīrīšana**. Atlasiet **Pakotnes dublēšanas vēsture**, lai atvērtu vēstures veidlapu. Šajā veidlapā parādīts visu arhivēto pakotņu saraksts. Arhīvu var atlasīt un lejupielādēt, atlasot **Lejupielādēt pakotni**. Lejupielādētā pakotne būs DIXF pakotnes formātā, un tajā būs iekļauti tālāk norādītie faili.
+
+-   Elementa izstādīšanas tabulas fails
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

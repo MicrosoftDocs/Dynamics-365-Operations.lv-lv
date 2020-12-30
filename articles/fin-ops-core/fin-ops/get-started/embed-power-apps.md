@@ -3,7 +3,7 @@ title: Iegult pamatnes programmas no Power Apps
 description: Šajā tēmā ir paskaidrots, kā iegult pamatnes programma no pakalpojuma Microsoft Power Apps klientā, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893111"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693487"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Iegult pamatnes programmas no Power Apps
 
@@ -57,7 +56,7 @@ Konfigurējot iegulto pamatnes programmu, var atlasīt vienu lauku, kuru vēlati
 3. Konfigurējiet iegulto pakalpojumu:
 
     - Laukā **Nosaukums** ir norādīts teksts, kas ir redzams uz pogas vai cilnes, kas ietvers iegulto pakalpojumu. Iespējams, ka pakalpojuma nosaukums šajā laukā ir jāatkārto bieži.
-    - Lauks **Programmas ID** norāda vispārēji unikālu identifikatoru (globally unique identifier - GUID) pamatnes programmai, ko vēlaties iegult. Lai izgūtu šo vērtību, atrodiet pakalpojumu lapā [web.powerapps.com](https://web.powerapps.com) un pēc tam skatiet sadaļas **Detalizēta informācija** lauku **Programmas ID**.
+    - Lauks **Programmas ID** norāda vispārēji unikālu identifikatoru (globally unique identifier - GUID) pamatnes programmai, ko vēlaties iegult. Lai izgūtu šo vērtību, atrodiet pakalpojumu lapā [make.powerapps.com](https://make.powerapps.com) un pēc tam skatiet sadaļas **Detalizēta informācija** lauku **Programmas ID**.
     - Izmantojot opciju **Pakalpojuma ievades konteksts**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu kā ievadi. Skatiet tālāk šajā tēmā sadaļu ar nosaukumu [Tādas programmas izveide, kas piesaista datus, kas nosūtīti no Finance and Operations programmām](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps), lai iegūtu sīkāku informāciju par to, kā pakalpojums var piekļūt datiem, kas nosūtīti no programmām Finance and Operations.
     - Atlasiet opciju **Programmas izmērs**, kas atbilst iegulšanai paredzētajam pakalpojuma veidam. Atlasiet opciju **Plāns** mobilajām ierīcēm izveidotajiem pakalpojumiem un **Plašs** planšetdatoriem izveidotajiem pakalpojumiem. Tādējādi iegultajam pakalpojumam tiek nodrošināts pietiekami daudz vietas.
     - Kopsavilkuma cilnē **Juridiskas personas** var izvēlēties, kurām juridiskajām personām ir pieejams pakalpojums. Noklusējuma iestatījums ir nodrošina pakalpojuma pieejamību visām juridiskajām personām. Šī opcija ir pieejama tikai tad, ja ir atspējots līdzeklis [Saglabātie skati](saved-views.md). 

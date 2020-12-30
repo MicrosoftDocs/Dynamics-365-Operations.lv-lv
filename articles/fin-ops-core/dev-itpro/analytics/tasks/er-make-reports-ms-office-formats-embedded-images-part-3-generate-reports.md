@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143103"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684383"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Pārskatu ģenerēšana Office formātā, kurā ir iegultie attēli
 
@@ -39,15 +38,15 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'E
 5. Noklikšķiniet uz Drukāt paraugu.
     * Palaidiet formātu testēšanas nolūkā.  
 6. Laukā Maksājumu čeka formāts atlasiet Jā.
-7. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no čeka izkārtojuma ieraksta lauka ar datu tipu 'Konteiners', kas ir saistīts ar atlasīto bankas kontu.  
+7. Noklikšķiniet uz Labi.
+    * Pārskatiet izveidoto izvadi. Pārskatā ir iekļauts gan uzņēmuma logotips, gan pilnvarotās personas paraksts. Paraksta attēls tiek ņemts no čeka izkārtojuma ieraksta lauka ar datu tipu “Konteiners”, kas ir saistīts ar atlasīto bankas kontu.  
 8. Izvērsiet sadaļu Kopijas.
 9. Noklikšķiniet uz Rediģēt.
 10. Laukā Ūdenszīme ievadiet “Drukāt ūdenszīmi kā Anulēts”.
     * Mainiet ūdenszīmes izkārtojuma iestatījumu, lai parādītu ūdenszīmes tekstu, ģenerējot dokumentu Excel formas elementā.  
 11. Noklikšķiniet uz Drukāt paraugu.
-12. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka ūdenszīme izveidotajā pārskatā tiek rādīta atbilstoši atlasītajai opcijai.  
+12. Noklikšķiniet uz Labi.
+    * Pārskatiet izveidoto izvadi. Ūdenszīme izveidotajā pārskatā tiek rādīta atbilstoši atlasītajai opcijai.  
 13. Aizvērt lapu.
 14. Darbību rūtī noklikšķiniet uz Pārvaldīt maksājumus.
 15. Noklikšķiniet uz Čeki.
@@ -56,7 +55,7 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'E
 18. Sarakstā atzīmējiet visas rindas.
 19. Noklikšķiniet uz Drukāt čeka kopiju.
     * Palaidiet formātu, lai atkārtoti drukātu atlasītos čekus.  
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka atlasītie čeki ir izdrukāti atkārtoti. Uzņēmuma logotips un etiķetes netiek drukātas, jo tās jau ir redzamas iepriekš izdrukātajā veidlapā.  
+    * Pārskatiet izveidoto izvadi. Atlasītie čeki ir izdrukāti atkārtoti. Uzņēmuma logotips un etiķetes netiek drukātas, jo tās jau ir redzamas iepriekš izdrukātajā veidlapā.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Importētā datu modeļa kartējuma modificēšana
 1. Aizvērt lapu.
@@ -90,8 +89,8 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'E
 3. Darbību rūtī noklikšķiniet uz Iestatīt.
 4. Noklikšķiniet uz Pārbaudīt.
 5. Noklikšķiniet uz Drukāt paraugu.
-6. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka attēls no dokumentu pārvaldības pielikuma tiek izmantots kā pilnvarotas personas paraksts.  
+6. Noklikšķiniet uz Labi.
+    * Pārskatiet izveidoto izvadi. Attēls no dokumentu pārvaldības pielikuma tiek izmantots kā pilnvarotas personas paraksts.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Izmantot MS Word dokumentu kā veidni importētajā formātā
 1. Aizvērt lapu.
@@ -117,6 +116,6 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'E
 20. Izmantojiet ātro filtru, lai filtrētu pēc lauka Bankas konts vērtības USMF OPER.
 21. Noklikšķiniet uz Pārbaudīt.
 22. Noklikšķiniet uz Drukāt paraugu.
-23. Noklikšķiniet uz OK.
-    * Pārskatiet izveidoto izvadi. Ņemiet vērā, ka izvade ir izveidota kā MS Word dokuments ar iegultiem attēliem, kuros redzams uzņēmuma logotips, pilnvarotas personas paraksts un atlasītais ūdenszīmes teksts.  
+23. Noklikšķiniet uz Labi.
+    * Pārskatiet izveidoto izvadi. Izvade ir izveidota kā Word dokuments ar iegultiem attēliem, kuros redzams uzņēmuma logotips, pilnvarotas personas paraksts un atlasītais ūdenszīmes teksts.  
 

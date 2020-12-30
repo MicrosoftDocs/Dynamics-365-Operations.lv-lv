@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cc7de1473ed6ec9b93bd880b47b0c25ec5a7262
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185202"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688287"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rindas definīcijas finanšu atskaišu veidotājā
 
@@ -161,7 +160,7 @@ Rindas definīcijā norādītais formatējums ignorē visu formatējumu, kas ir 
 
 1. Pārskatu veidotājā atveriet modificējamo rindas definīciju.
 2. Atlasiet formatējamās šūnas. Lai atlasītu vairākas šūnas, atlasīšanas laikā turiet taustiņu Ctrl.
-3. Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai izveidotu rindas atkāpi, atlasiet rindu un pēc tam rīkjoslā noklikšķiniet uz **Palielināt atkāpi** ![Palielināt atkāpi](media/indent.gif "Palielināt atkāpi").
+3. Rīkjoslā noklikšķiniet uz nepieciešamā formāta pogas. Piemēram, lai rindai izveidotu atkāpi, atlasiet rindu un tad noklikšķiniet uz rīkjoslas vienuma **Palielināt atkāpi** ![Palielināt atkāpi](media/indent.gif "Palielināt atkāpi").
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolonnu pielāgošana pārskatu veidošanas laikā
 
@@ -187,4 +186,4 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Finanšu pārskati](financial-reporting-intro.md)
+[Finanšu pārskatu veidošana](financial-reporting-intro.md)

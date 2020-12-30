@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70e07fe429472b703f739baa09f700fb8970d34e
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: b513d04bfeb3a37aa0b1703d0fdde040885a5159
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744027"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680594"
 ---
 # <a name="numseqvalue-er-function"></a>NUMSEQVALUE ER funkcija
 
@@ -61,7 +60,7 @@ Teksta vērtība, kas apzīmē kodu numuru sērijai, kurai ir nepieciešama jaun
 
 `scope type`: *Uzskaitījuma vērtība*
 
-Uzskaitījuma vērtība **ERExpressionNumberSequenceScopeType**, kas definē tās numuru sērijas tvērumu, kurai ir nepieciešama jauna vērtība. Pieejamie tvērumu tipi ir **Kopīgots**, **Juridiska persona**un **Uzņēmums**.
+Uzskaitījuma vērtība **ERExpressionNumberSequenceScopeType**, kas definē tās numuru sērijas tvērumu, kurai ir nepieciešama jauna vērtība. Pieejamie tvērumu tipi ir **Kopīgots**, **Juridiska persona** un **Uzņēmums**.
 
 `scope ID`: *Virkne*
 

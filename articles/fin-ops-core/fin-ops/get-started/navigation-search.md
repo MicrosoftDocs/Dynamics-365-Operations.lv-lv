@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff4e16a2e07002043331dcc3b2b04cb8288004b4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b68182ff7da07f350e2eacaf569089e0fdf44a8d
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178973"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695065"
 ---
 # <a name="navigation-search"></a>Navigācijas meklēšana
 
@@ -37,7 +36,7 @@ Lai izmantotu šo līdzekli, noklikšķiniet uz ikonas **Meklēšana**, lai par�
 > [!NOTE]
 > Lodziņš **Meklēšana** palīdz atrast lapas un pāriet uz tām. Tas nepalīdzēs jums atrast specifiskus datus vai darbības.
 
-[![search-box](media/navigation-search.png "Meklēšanas lodziņš")
+[![meklēšanas lodziņš](media/navigation-search.png "Meklēšanas lodziņš")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Ātri pārvietoties uz konkrētu lapu
 

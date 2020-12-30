@@ -10,30 +10,29 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 5861bcaa42f7bc5ec20916fe1a44418bdd9c2ffe
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 2ce91557334a4342fa85848fc1b746b6b12c8992
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550912"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688531"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Unikāla kontu plāna norobežotāja iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
-Programmā Microsoft Dynamics AX 2012 kontu plānam un dimensijas vērtībām varēja izmantot vienu un to pašu norobežotāju. Finance and Operations pašreizējās versijās nevar būt tāds pats norobežotājs kontu plānam un dimensijas vērtībām. Ja norobežotājam ir dublikāts, to var mainīt pēc jaunināšanas. 
+Programmā Microsoft Dynamics AX 2012 kontu plānam un dimensijas vērtībām varēja izmantot vienu un to pašu norobežotāju. Pašreizējās Finance and Operations versijās nevar būt tāds pats norobežotājs kontu plānam un dimensijas vērtībām. Ja norobežotājam ir dublikāts, to var mainīt pēc jaunināšanas. 
 
 Šī funkcija ir pieejama tālāk minētajās versijās.
 - Finance and Operations versija 8.0
-- Finance and Operations versija 7.1, KB 4094701. Nevar ievadīt finanšu dimensijas, ja dimensijas vērtības satur kontu plāna norobežotāju
-- Finance and Operations versija 7.2, KB 4092967. Nevar izvēlēties apakšprojektu kā dimensiju, ja apakšprojekta formāts satur dimensijas norobežotāju
+- Finance and Operations versija 7.1, KB 4094701 Nevar ievadīt finanšu dimensijas, ja dimensijas vērtības satur kontu plāna norobežotāju
+- Finance and Operations versija 7.2, KB 4092967 Nevar izvēlēties apakšprojektu kā dimensiju, ja apakšprojekta formāts satur dimensijas norobežotāju
 
 ## <a name="update-delimiter"></a>Norobežotāja atjaunināšana
 Ja ir radies konflikts ar kontu plānu, var mainīt kontu plāna norobežotāju un projekta/apakšprojekta ID formātu. Citus dimensiju norobežotājus nevar mainīt. 

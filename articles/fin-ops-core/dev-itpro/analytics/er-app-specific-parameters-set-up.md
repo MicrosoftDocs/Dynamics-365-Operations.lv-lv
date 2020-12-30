@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: ca837026f18034cddb34d7a2d5a62002ed69106a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: b51a7ae8587a3cbb65efc4af574929efcbc8fbf8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042761"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681476"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -76,7 +75,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 5.  Kopsavilkuma cilnē **Nosacījumi** atlasiet **Pievienot**.
 6.  Jaunā ieraksta laukā **Kods** atlasiet nolaižamā saraksta bultu, lai atvērtu uzmeklēšanu.
 
-    Uzmeklēšana parāda atlases nodokļu kodu sarakstu. Šis saraksts tiek atgriezts, izmantojot datu avotu**Model.Data.Tax**, kas ticis konfigurēts bāzes ER formātā. Tā kā šis datu avots ietver lauku **Nosaukums**, uzmeklēšanas laikā parādās katra nodokļu koda nosaukums.
+    Uzmeklēšana parāda atlases nodokļu kodu sarakstu. Šis saraksts tiek atgriezts, izmantojot datu avotu **Model.Data.Tax**, kas ticis konfigurēts bāzes ER formātā. Tā kā šis datu avots ietver lauku **Nosaukums**, uzmeklēšanas laikā parādās katra nodokļu koda nosaukums.
 
     ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
@@ -89,7 +88,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
 9.  Atlasiet vērtību **Parastā taksācija**.
 
-    Pievienojot šo ierakstu, tiek definēta šāda kārtula: Vienmēr, kad tiek pieprasīts uzmeklēšanas datu avots **Atlasītājs**un nodokļa kods **VAT19** tiek nodots kā arguments, **Regulārā taksācija** tiks atgriezta kā pieprasītais taksācijas līmenis.
+    Pievienojot šo ierakstu, tiek definēta šāda kārtula: Vienmēr, kad tiek pieprasīts uzmeklēšanas datu avots **Atlasītājs** un nodokļa kods **VAT19** tiek nodots kā arguments, **Regulārā taksācija** tiks atgriezta kā pieprasītais taksācijas līmenis.
 
 10. Atlasiet **Pievienot**, tad veiciet šādas darbības:
 
@@ -208,7 +207,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 4.  Atlasiet **Pārlūkot**, lai atrastu failu, kas satur eksportētos programmai raksturīgos parametrus versijai **1.1.1**
 5.  Atlasiet **Labi**.
 
-    Tagad ER formāta versijai**1.1.2** formāta 1.2. versijai ir tie paši programmai raksturīgie parametri, kurus sākotnēji konfigurējāt versijai **1.1.1**.
+    Tagad ER formāta versijai **1.1.2** formāta 1.2. versijai ir tie paši programmai raksturīgie parametri, kurus sākotnēji konfigurējāt versijai **1.1.1**.
     
     Ņemiet vērā, ka programmai specifiskie ER formāta parametri ir atkarīgi no juridiskās personas. Lai atkārtoti izmantotu programmai specifiskos parametrus, kas ir konfigurēti vienai juridiskajai personai citā juridiskā personā, tie ir jāeksportē, kad esat pieteicies pirmajā juridiskajā personā, un pēc tam tie jāimportē pēc pieteikšanās otrā juridiskajā personā.
 

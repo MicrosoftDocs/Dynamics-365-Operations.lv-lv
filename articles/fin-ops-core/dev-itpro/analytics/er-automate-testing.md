@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771448"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681452"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testēšanas ar elektroniskiem pārskatiem automatizēšana
 
@@ -48,7 +47,7 @@ Funkcionālie prasmīgie lietotāji var autorēt piemērotības lietotājam un i
 - Grupējiet testa gadījumus nepieciešamajiem testa scenārijiem. Papildinformāciju skatiet sadaļā [Lietotāja akcepta testu izveidošana un automatizēšana](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Izmantojiet biznesa procesu modelētāju (BPM) pakalpojumā LCS, lai izveidotu piemērotības lietotājam testus.
-    - Izmantojiet BPM testu bibliotēkas, lai izveidotu testu plānu un testu komplektus pakalpojumā Microsoft Azure DevOps Services (Azure DevOps).
+    - Izmantojiet BPM testu bibliotēkas, lai izveidotu testu plānu un testu komplektus Microsoft Azure DevOps Services (Azure DevOps).
 
 Funkcionālie prasmīgie lietotāji var izpildīt piemērotības lietotājam un integrācijas testus.
 
@@ -60,7 +59,7 @@ Funkcionālie prasmīgie lietotāji var izpildīt piemērotības lietotājam un 
 Lai varētu izpildīt šajā tēmā aprakstītos uzdevumus, ir jāizpilda tālāk norādītie priekšnosacījumi.
 
 - Izvietojiet topoloģiju, kas atbalsta testu automatizāciju. Jums ir jābūt piekļuvei šīs topoloģijas instancei ar lomu **Sistēmas administrators**. Minētajā topoloģijā ir jāietver demonstrācijas dati, kas tiks izmantoti šajā piemērā. Papildinformāciju skatiet tēmā [Tādu topoloģiju izvietošana un lietošana, kuras atbalsta pastāvīgu būvēšanu un testu automatizēšanu](../perf-test/continuous-build-test-automation.md).
-- Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt to darbam ar Finance and Operations programmām un Azure DevOps, skatiet tēmā [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
+- Lai automātiski izpildītu piemērotības lietotājam un integrācijas testus, topoloģijā, kuru izmantojat, ir jāinstalē RSAT un atbilstoši jākonfigurē. Informāciju par to, kā instalēt un konfigurēt RSAT un konfigurēt to darbam ar Finance and Operations programmām un Azure DevOps, skatiet [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pievērsiet uzmanību rīka izmantošanas priekšnosacījumiem. Nākamajā attēlā ir parādīts RSAT iestatījumu piemērs. Zilajā taisnstūrī ir redzami parametri, kas norāda piekļuvi Azure DevOps. Zaļajā taisnstūrī ir redzami parametri, kas norāda piekļuvi instancei.
 
     ![RSAT iestatījumi](media/GER-Configure.png "RSAT iestatījumu dialoglodziņa ekrānuzņēmums")
 
@@ -315,7 +314,7 @@ Mēs iesakām atskaņot (un rediģēt pēc nepieciešamības) iepriekš lejupiel
 3. Atvērtās Microsoft Excel darbgrāmatas darblapā **Vispārēji** mainiet uzņēmuma kodu uz **GBSI**, jo šis uzņēmums tiks izmantots testa izpildei.
 4. Rīkā RSAT atlasiet testa gadījumu **Kreditora maksājumu apstrādes, izmantojot ER formātu BACS (UK), tests**.
 5. Atlasiet **Rediģēt**.
-6. Atvērtās Excel darbgrāmatas darblapā**Vispārēji** mainiet uzņēmuma kodu uz **GBSI.**
+6. Atvērtās Excel darbgrāmatas darblapā **Vispārēji** mainiet uzņēmuma kodu uz **GBSI.**
 7. Darblapā **ERFormatMappingRunLogTable** ievērojiet, ka šūnās A:3 un C:3 ir teksts no ER atkļūdošanas žurnāla tabulas laukiem, kas tiek izmantoti, lai validētu izvades datu un bāzlīnijas salīdzinājuma rezultātus. Šie teksti tiks izmantoti, lai novērtētu ER atkļūdošanas žurnāla ierakstus, kas ir izveidoti testa izpildes laikā.
 
     ![ERFormatMappingRunLogTable darblapa](media/GER-RSAT-RSAT-ExcelParameters.png "Ekrānuzņēmums darblapai ERFormatMappingRunLogTable")

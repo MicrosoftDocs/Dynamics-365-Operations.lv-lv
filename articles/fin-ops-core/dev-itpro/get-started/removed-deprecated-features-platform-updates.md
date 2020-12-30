@@ -3,24 +3,23 @@ title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971449"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689570"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -37,8 +36,16 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.15 versijai
 
-> [!NOTE]
-> Versija 10.0.15 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 atbalsts Dynamics 365 ir novecojis
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
+| **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces |
+| **Izvietošanas iespēja**              | Visu|
+| **Statuss**                         | Novecojis. Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio pievienojumprogramma, lai lietotu metadatu labojumfailus
 
@@ -52,10 +59,6 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.14 versijai
-
-> [!NOTE]
-> Versija 10.0.14 ir priekšskatījuma laidiens. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Pakalpojuma atjauninājumu pieejamība](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>Tiešsaistes lietotāju lapa 
 
@@ -144,7 +147,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Visual Studio 2017 aizstās Visual Studio 2015 kā izvietotā un nepieciešamā versija. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Kad tiks paziņota jaunu virtuālo mašīnu (VM) ar Visual Studio 2017 pieejamība, esošās VM, kurās ir tikai Visual Studio 2015, būs atkārtoti jāizvieto ar 2021. gada 1. laidiena vilni. |
+| **Statuss**                         | Virtuālās mašīnas, kas izvietotas versijā 10.0.13 (platformas atjauninājums 37) vai jaunākā versijā, ietver Visual Studio 2017. Versija 10.0.16 (platformas atjauninājums 40) ir galīgais laidiens ar Visual Studio 2015 atbalstu. Virtuālās mašīnas, kurām ir tikai Visual Studio 2015, nevarēs veikt jaunināšanu uz versiju 10.0.17 (platformas atjauninājums 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Lauku grupas, kas ietver nederīgas lauku atsauces
 

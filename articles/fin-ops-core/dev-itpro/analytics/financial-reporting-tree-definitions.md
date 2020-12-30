@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564171"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682677"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Atskaišu koka definīcijas finanšu atskaitēs
 
@@ -86,7 +85,7 @@ Lai izveidotu atskaišu koka definīciju, izpildiet šādas darbības.
     1. Šīs dimensijas laukā **No dimensijas**, ievadiet pirmo vērtību tās diapazonā.
     2. Laukā **Līdz dimensijai** ievadiet pēdējo vērtību tās diapazonā.
 
-9. Atkārtojiet 7. un 8. darbību katrai dimensijai apgabalā **Segmentu hierarhija un diapazoni**.
+9. Atkārtojiet 7. un 8. darbību katrai dimensijai apgabalā **Segmentu hierarhija un diapazoni**.
 10. Kad esat pabeidzis definēt veidu, kā jūsu atskaites vienības ir jāievieš jaunajā atskaišu kokā, noklikšķiniet uz **Labi**.
 11. Noklikšķiniet uz **Fails** &gt; **Saglabāt**, lai saglabātu pārskatu koku. Ievadiet unikālu nosaukumu un pārskata koka aprakstu, un pēc tam noklikšķiniet uz **Labi**.
 
@@ -106,7 +105,7 @@ Kad izmantojot atskaišu koku, summas no atskaites apakšvienībām varat apkopo
     > Ja norādāt dimensijas gan apakšvienībām, gan pamata vienībām, varat izraisīt datu dublēšanos šajā atskaitē.
 
 - Pārskata vienības, kas satur dimensijas pārskata kokā, atbilst dimensijām, kas tiek izmantotas rindu un kolonnu definīcijās. Dimensiju kombinācija nosaka šai vienībai atgrieztās summas. Piemēram, tālāk šajā rakstā sniegtajā 2. piemērā 6. un 7. rinda attiecīgi atgriež vērtības tikai nodaļām 00 un 01.
-- Summas pamata atskaites vienībām, kas atskaišu kokā nesatur dimensijas, tiek noteiktas no apakšvienību atskaites un apkopo summu uz norādīto pamatvienību. Piemēram, ja pamatvienībai (sk. Contoso USA datu apkopošanas piemēru 2. piemērā) ir divas apakšvienībās (022 un 023), un tā nesatur dimensijas, tad atskaite tiek ģenerēta katrai apakšvienībai un pamata vienībai. Pamata kopsumma sastāv no divām apakš-summām.
+- Summas pamata atskaites vienībām, kas atskaišu kokā nesatur dimensijas, tiek noteiktas no apakšvienību atskaites un apkopo summu uz norādīto pamatvienību. Piemēram, ja pamatvienībai (sk. Contoso USA datu apkopošanas piemēru 2. piemērā) ir divas apakšvienībās (022 un 023), un tā nesatur dimensijas, tad atskaite tiek ģenerēta katrai apakšvienībai un pamata vienībai. Pamata kopsumma sastāv no divām apakš-summām.
 
 ### <a name="manage-reporting-units"></a>Pārvaldīt pārskata vienības
 
@@ -165,9 +164,9 @@ Jūs varat neļaut noteiktiem lietotājiem un grupām piekļūt pārskata vienī
 3. Dialoglodziņā **Vienības drošība** atlasiet nosaukumu un pēc tam noklikšķiniet uz **Noņemt**.
 4. Noklikšķiniet uz **OK**.
 
-### <a name="link-toreports"></a>Izveidot saiti uz atskaitēm
+### <a name="link-to-reports"></a>Saite uz pārskatiem
 
-Kad rindas definīcijā esat izveidojis **pārskata** kolonnu un esat norādījis pārskatu, kuru iekļaut šajā pārskatā, ir jāatjaunina atskaišu koks, izmantojot saistīto kolonnu un informāciju par pārskatu. Atskaiti var importēt jebkurā atskaišu koka vienībā.
+Kad rindas definīcijā esat izveidojis kolonnu **Pārskats** un esat norādījis pārskatu, kuru iekļaut šajā pārskatā, pārskatu koks ir jāatjaunina ar saistīto kolonnu un informāciju par šo pārskatu. Atskaiti var importēt jebkurā atskaišu koka vienībā.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificēt atskaiti atskaišu kokā
 

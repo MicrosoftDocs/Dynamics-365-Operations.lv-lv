@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b318945c9cd10b237843d26cfdc46fc08e84e268
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 0ec6092f2992df91433bb8aaa4212fca2a0abf7c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917814"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686297"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>ER funkciju saraksts datu vākšanas kategorijā
 
@@ -35,7 +34,7 @@ Elektronisko pārskatu (ER) datu apkopošanas funkcijas tiek izmantotas, lai vei
 
 | Funkcija | Apraksts |
 |----------|-------------|
-| [CollectedList](er-functions-datacollection-collectedlist.md) | Šī funkcija atgriež vērtību*Ierakstu saraksts*, kurā ir to vērtību saraksts, ko atgrieza formāta elementu rekvizīts **Ievāktā datu atslēgas vērtība** un kas tika savākts, kad formāta elementi tika izmantoti, lai ģenerētu izejošo dokumentu formāta izpildes laikā, un kas atbilst norādītajiem nosacījumiem. Katrs nosacījums sastāv no atslēgu diapazona un atslēgas vērtības. |
+| [CollectedList](er-functions-datacollection-collectedlist.md) | Šī funkcija atgriež vērtību *Ierakstu saraksts*, kurā ir to vērtību saraksts, ko atgrieza formāta elementu rekvizīts **Ievāktā datu atslēgas vērtība** un kas tika savākts, kad formāta elementi tika izmantoti, lai ģenerētu izejošo dokumentu formāta izpildes laikā, un kas atbilst norādītajiem nosacījumiem. Katrs nosacījums sastāv no atslēgu diapazona un atslēgas vērtības. |
 | [CountIF](er-functions-datacollection-countif.md) | Šī funkcija atgriež vērtību *Vesels skaitlis*, kas apzīmē to formātu elementu skaitu, kuri tika savākti, kad formāta elementi tika izmantoti, lai ģenerētu izejošo dokumentu formāta izpildes laikā un kas atbilst norādītajam nosacījumam. Nosacījums sastāv no atslēgu diapazona un atslēgas vērtības. |
 | [CountIFs](er-functions-datacollection-countifs.md) | Šī funkcija atgriež vērtību *Vesels skaitlis*, kas apzīmē to formātu elementu skaitu, kuri tika savākti, kad formāta elementi tika izmantoti, lai ģenerētu izejošo dokumentu formāta izpildes laikā un kas atbilst norādītajiem nosacījumiem. Katrs nosacījums sastāv no atslēgu diapazona un atslēgas vērtības. |
 | [FormatElementName](er-functions-datacollection-formatelementname.md) | Šī funkcija atgriež vērtību *Virkne*, kas apzīmē pašreizējā ER formāta elementa nosaukumu. |

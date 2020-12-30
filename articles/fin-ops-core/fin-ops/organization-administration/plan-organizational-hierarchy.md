@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178933"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694693"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizācijas hierarhijas plānošana
 
@@ -45,7 +44,7 @@ Plānojot hierarhijas, ir svarīgi arī ņemt vērā attiecības starp organizā
 
 Jums ir jābūt vismaz vienai juridiskajai personai, kas pārstāv jūsu uzņēmumu. Juridiskā persona var noslēgt juridiskus līgumus, un tām ir nepieciešams sagatavot finanšu pārskatus, ziņojot par savu veiktspēju.
 
-Juridiskās personas var lietot transakciju biznesa vai konsolidācijas vajadzībām. Tas nozīmē, ka juridiskā persona programmatūrā Finance and Operations ne vienmēr atspoguļo reālu jūsu biznesa elementu. Piemēram, uzņēmumam, kas piedalās transakcijās, var piederēt meitas juridiskās personas. Šādā gadījumā transakcijām ir nepieciešama juridiskā persona un meitas juridisko personu rezultātu un bilanču konsolidēšanai ir nepieciešama virtuāla juridiskā persona.
+Juridiskās personas var lietot transakciju biznesa vai konsolidācijas vajadzībām. Tas nozīmē, ka juridiskā persona programmā Finance and Operations ne vienmēr atspoguļo reālu jūsu biznesa elementu. Piemēram, uzņēmumam, kas piedalās transakcijās, var piederēt meitas juridiskās personas. Šādā gadījumā transakcijām ir nepieciešama juridiskā persona un meitas juridisko personu rezultātu un bilanču konsolidēšanai ir nepieciešama virtuāla juridiskā persona.
 
 Jūsu biznesa iekšējās organizācijas, piemēram, reģionālos birojus, var atspoguļot ka papildu juridiskās vienības vai ka galvenās juridiskās personas pārvaldības struktūrvienības. Pārvaldības struktūrvienībai nav obligāti jābūt juridiski definētai organizācijai. Pārvaldības struktūrvienības tiek izmantotas ekonomisko resursu un biznesa darba procesu kontrolei. Piemēram, nodaļas un izmaksu centri ir pārvaldības struktūrvienības.
 
@@ -174,7 +173,7 @@ Valstīm/reģioniem, kas tiek atbalstītas, var izveidot lielāko daļu likumā 
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ja organizācija ir modelēta kā pārvaldības struktūrvienība
 
-Ar likumu noteiktie pārskati ir jāveido, izmantojot citu programmu. Ir jānodrošina, ka Finance and Operations programmās tiek reģistrēti dati, kas atbilst katras pārvaldības struktūrvienības prasībām, ja tās atšķiras no galvenās pārvaldes prasībām.
+Ar likumu noteiktie pārskati ir jāveido, izmantojot citu programmu. Jums ir jānodrošina, ka dati tiek reģistrēti Finance and Operations programmās, lai atbalstītu katras pārvaldības struktūrvienības prasības, ja tās atšķiras no galvenās pārvaldes prasībām.
 
 ### <a name="currency"></a>Valūta
 

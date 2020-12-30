@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142459"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684551"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formātu modificēšana, lai ģenerētu dokumentus ar programmas datiem
 
@@ -80,31 +79,32 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 38. Noklikšķiniet uz OK.
 39. Kokā atlasiet "File\Declaration\Data\Item".
 40. Noklikšķiniet uz Pievienot vienumu.
-41. Laukā Nosaukums ierakstiet "Commodity rec id".
-    * Preces ieraksta ID  
+41. Laukā Nosaukums ierakstiet “Commodity rec ID”.
+    * Commodity rec ID  
 42. Laukā Datu tips atlasiet "Int64".
-43. Noklikšķiniet uz OK.
+43. Noklikšķiniet uz Labi.
 44. Noklikšķiniet uz cilnes Kartēšana.
 45. Kokā atlasiet "File\Declaration\Data\File name".
 46. Noklikšķiniet uz Saistīt.
 47. Koka struktūrā izvērsiet elementu “modelis”.
 48. Kokā izvērsiet "model\Transactions".
-49. Kokā atlasiet "File\Declaration\Data\Item = model.Transactions\Commodity rec id".
-50. Kokā atlasiet "model\Transactions\Commodity rec id".
+49. Kokā atlasiet “File\Declaration\Data\Item = model.Transactions\Commodity rec ID”.
+50. Kokā atlasiet “model\Transactions\Commodity rec ID”.
 51. Noklikšķiniet uz Saistīt.
-52. Noklikšķiniet uz Saglabāt.
+52. Klikšķiniet Saglabāt.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificējiet formātu, lai saglabātu atmiņā detalizētu informāciju par pārskatu veidošanu
+
 1. Noklikšķiniet uz Kartēt formātu uz modeli.
 2. Klikšķiniet Jauns.
 3. Laukā Definīcija ievadiet vai atlasiet saknes vienumu 'Programmas datu atjauninājumam'.
-    * Pieteikumu datu atjaunināšanai  
+    * Pieteikumu datu atjaunināšanai.
 4. Laukā Nosaukums ierakstiet "Mapping to update data".
     * Kartēšana datu atjaunināšanai  
 5. Noklikšķiniet uz Saglabāt.
-    * Šis kartējums definē to, kā detalizēta informācija par Intrastat pārskatu tiek apkopota datu modelī, kura struktūru nosaka atlasītais saknes vienums 'Programmas datu atjauninājumam'. Šī detalizētā informācija, modeļa kartējums ar to pašu saknes vienumu 'Programmas datu atjauninājumam' un virziens 'Uz galamērķi' tiks izmantots pieteikumu datu atjaunināšanai. Pieteikumu datu atjaunināšana sākas tūlīt pēc tam, kad tiek ģenerēts izejošais Intrastat pārskats. Ņemiet vērā, ka izpildes laikā pieteikumu datu atjaunināšanu var izlaist, bet datu modelim ir jābūt tukšam (ar tukšu ierakstu sarakstu).   
+    * Šis kartējums definē to, kā detalizēta informācija par Intrastat pārskatu tiek apkopota datu modelī, kura struktūru nosaka atlasītais saknes vienums 'Programmas datu atjauninājumam'. Šī detalizētā informācija, modeļa kartējums ar to pašu saknes vienumu 'Programmas datu atjauninājumam' un virziens 'Uz galamērķi' tiks izmantots pieteikumu datu atjaunināšanai. Pieteikumu datu atjaunināšana sākas tūlīt pēc tam, kad tiek ģenerēts izejošais Intrastat pārskats. Izpildes laikā pieteikumu datu atjaunināšanu var izlaist, bet datu modelim ir jābūt tukšam (ar tukšu ierakstu sarakstu).
 6. Noklikšķiniet uz Veidotājs.
-    * Ņemiet vērā, ka pēc noklusējuma izejošais Intrastat pārskata formāts tiek pievienots kā datu avots šī modeļa kartēšanai.  
+    * Pēc noklusējuma izejošais Intrastat pārskata formāts tiek pievienots kā datu avots šī modeļa kartēšanai.  
     * Saistiet noformētā pārskata elementus (izmantoti kā datu avots) ar datu modeļa elementiem, kas ir filtrēts, pamatojoties uz atlasīto modeļa saknes vienumu.  
 7. Kokā izvērsiet "Archive header".
 8. Kokā izvērsiet "Archive header\Archive lines".
@@ -120,8 +120,8 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 18. Noklikšķiniet uz Pievienot funkciju.
 19. Kokā izvērsiet "format".
 20. Kokā izvērsiet "format\Declaration: XML Element(Declaration)".
-21. Kokā izvērsiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
-22. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
+21. Kokā izvērsiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
+22. Kokā atlasiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Noklikšķiniet uz Pievienot datu avotu.
 24. Laukā Formula ievadiet "COUNT(format.Declaration.Data.Item)".
     * COUNT(format.Declaration.Data.Item)  
@@ -130,23 +130,22 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 27. Kokā atlasiet "Archive header\File name".
 28. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)".
 29. Noklikšķiniet uz Saistīt.
-30. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)".
+30. Kokā atlasiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. Kokā atlasiet "Archive header\Archive lines\Item number".
 32. Noklikšķiniet uz Saistīt.
-33. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)".
+33. Kokā atlasiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. Kokā atlasiet "Archive header\Archive lines\Amount".
 35. Noklikšķiniet uz Saistīt.
-36. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)".
-37. Kokā atlasiet "Archive header\Archive lines\Commodity rec id".
+36. Kokā atlasiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
+37. Kokā atlasiet “Archive header\Archive lines\Commodity rec ID”.
 38. Noklikšķiniet uz Saistīt.
 39. Kokā atlasiet "Archive header\Archive lines".
-40. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
+40. Kokā atlasiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Noklikšķiniet uz Saistīt.
 42. Kokā atlasiet "Archive header".
-43. Kokā atlasiet "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
+43. Kokā atlasiet `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Noklikšķiniet uz Saistīt.
-45. Noklikšķiniet uz Saglabāt.
+45. Klikšķiniet Saglabāt.
 46. Aizvērt lapu.
 47. Aizvērt lapu.
 48. Aizvērt lapu.
-

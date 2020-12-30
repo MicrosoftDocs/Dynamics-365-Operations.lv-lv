@@ -3,25 +3,24 @@ title: Pirms iegādes
 description: Detalizēti norādījumi, ko izmantot, apsverot Dynamics 365 Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce iegādi.
 author: ShellyBakke
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027728"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694140"
 ---
 # <a name="before-you-buy"></a>Pirms iegādes
 
@@ -41,7 +40,7 @@ Lokālo versiju izvēloties kā izvietošanas opciju, ir jāņem vērā tālāk 
 
 - Normatīvās un atbilstības vajadzības, kas nav pieejamas mākoņa sertifikācijās.
 - Bezsaistes biznesa process ar nepastāvīgu interneta savienojumu, kas ir nepieciešams, lai piekļūtu Microsoft Dynamics Lifecycle Services (LCS) lietojumprogrammu dzīves cikla pārvaldības nolūkā.
-- [Līdzekļi, kas nav ieviesti lokālajos izvietojumos](features-not-implemented-on-prem.md).
+- [Mākoņa un lokālās versijas līdzekļu salīdzinājums](cloud-prem-comparison.md).
 - [Sistēmas prasības lokālajiem izvietojumiem](system-requirements-on-prem.md).
 
 > [!IMPORTANT]

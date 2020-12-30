@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142205"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682145"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Piekļuve programmas metadatiem, izmantojot saistītās programmas
 
@@ -54,7 +53,7 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 2. Aizvērt lapu. 
 3. Dodieties uz **Visas darbvietas** > **Elektroniskie pārskati**. 
 4. Noklikšķiniet uz **Savienotās programmas**. 
-5. Pārliecinieties, vai konfigurētā programma ir Azure programma un ir pieejama pašreizējam RCS lietotājam. Turklāt pašreizējam RCS lietotājam ir arī jābūt piekļuvei atlasītājai programmai un ir jābūt reģistrētam kā šīs programmas lietotājam ar lomu, kas dod viņam privilēģijas piekļūt programmas metadatiem. 
+5. Pārliecinieties, vai konfigurētā programma ir Azure programma un ir pieejama pašreizējam RCS lietotājam. Turklāt pašreizējam RCS lietotājam ir arī jābūt piekļuvei atlasītājai programmai un ir jābūt reģistrētam kā šīs programmas lietotājam ar lomu, kas dod tam privilēģijas piekļūt programmas metadatiem. 
 6. Klikšķiniet **Jauns**. 
 7. Laukā **Nosaukums** ierakstiet “MyConnectedApp”. 
 8. Laukā **Programma** ievadiet “https:// mycompany.operations.dynamics.com”. 

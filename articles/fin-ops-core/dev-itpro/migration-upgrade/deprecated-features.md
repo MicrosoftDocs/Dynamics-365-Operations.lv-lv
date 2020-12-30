@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040126"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679960"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Šī tēma vairs netiek atjaunināta. Lai skatītu pašreizējo to līdzekļu sarakstu, kuri ir noņemti vai novecojuši Finance and Operations programmās, meklējiet saturu **"Noņemti vai novecojuši līdzekļi"** saturu, kas attiecas uz izmantoto programmu.
@@ -229,7 +230,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 ### <a name="renaming-released-products"></a>Izlaisto preču pārdēvēšana 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Izmantojot funkciju **Pārdēvēt primāro atslēgu** , lai izmainītu izlaistās preces ItemId, tiek atjauninātas tikai tiešās ārējās atslēgas atsauces. Vecais ItemId tiks saglabāts jebkādās citās atsaucēs par izlaisto preci, piemēram, ražošanas pasūtījumos. Rezultātā var rasties neatbilstīgi dati, kas pēc tam bloķē biznesa procesu. |
+| **Novecošanas/noņemšanas pamatojums** | Izmantojot funkciju **Pārdēvēt primāro atslēgu**, lai izmainītu izlaistās preces ItemId, tiek atjauninātas tikai tiešās ārējās atslēgas atsauces. Vecais ItemId tiks saglabāts jebkādās citās atsaucēs par izlaisto preci, piemēram, ražošanas pasūtījumos. Rezultātā var rasties neatbilstīgi dati, kas pēc tam bloķē biznesa procesu. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība |
 | **Izvietošanas iespēja**              | Visu  |
@@ -239,7 +240,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer
-Klienti var izmantot darbību **Eksportēt** , kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
+Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
@@ -266,7 +267,7 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums* , nevis *kļūda* , līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
+| **Novecošanas/noņemšanas pamatojums** | Tabulu metadatu definīcijās var būt lauku grupas, kas ietver nederīgas lauku atsauces. Izvietošanas gadījumā tas var izraisīt izpildlaika kļūmes modulī Finanšu pārskati un SQL Server pārskatu izveides pakalpojumos (SSRS). Šī problēma pašlaik tiek klasificēta kā *kompilatora brīdinājums*, nevis *kļūda*, līdz ar to izvietojamas pakotnes izveidi un izvietošanu var veikt, nenovēršot problēmu. Lai novērstu šo problēmu:<br><br>1. Noņemiet nederīgo lauka atsauci no tabulas lauku grupas definīcijas.<br><br>2. Pārkompilējiet.<br><br>3. Pārliecinieties, ka ir atrisināti visi brīdinājumi vai kļūdas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Šis brīdinājums tiks aizstāts ar kompilācijas kļūdu turpmākajās versijās. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
@@ -356,7 +357,7 @@ Vairs netiek atbalstīta iespēja ieviest pielāgotas funkcijas, ko izmantot ER�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Koda noslēgšanas iniciatīva  |
-| **Vai aizstāts ar citu līdzekli?**   | Nav. Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.<br><br>Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi. Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase** , kas attiecas uz šo pielāgoto programmas klasi.  |
+| **Vai aizstāts ar citu līdzekli?**   | Nav. Katrreiz, kad ir nepieciešama jauna iebūvēta funkcija, ir nepieciešams adresēt jaunu paplašinājuma pieprasījumu ER struktūras darba grupai.<br><br>Kā pagaidu risinājumu, kamēr ER darba grupa izstrādā pieprasīto funkciju, nepieciešamo loģiku var ieprogrammēt kā pielāgotas programmas klases metodi. Šai metodei ER izteiksmē var piekļūt kā rekvizītam no pievienotā ER datu avota ar tipu **Programma\Klase**, kas attiecas uz šo pielāgoto programmas klasi.  |
 | **Ietekmētie produkta apgabali**         | Elektronisko pārskatu veidošanas struktūra                                                      |
 | **Izvietošanas iespēja**              | Visus                                                                                      |
 | **Statuss**                         | Noņemts, sākot ar Finance and Operations Enterprise Edition 7.3.    |
@@ -374,12 +375,12 @@ Abi šie pārskati vairs netiek atbalstīti programmā Finance and Operations. L
 | **Statuss**                       | Novecojis: izvēlnes elementi šiem abiem pārskatiem ir noņemti versijā 7.3. Taču produktā joprojām atrodas šiem pārskatiem paredzētais kods. Šo kodu ir plānots noņemt turpmākajos laidienos. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Vietnē AppSource pieejamās Power BI satura pakotnes
-Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība** , **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja** , kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī sistēmas administrēšanas veidlapas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
+Pakalpojumā Microsoft Power BI veikto produktu atjauninājumu dēļ satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas ir pieejamas vietnē [Microsoft AppSource](https://appsource.microsoft.com), ir novecojušas. Programmā Finance and Operations kļūst novecojušas arī sistēmas administrēšanas veidlapas, kas tika izmantotas šo satura pakotņu izvietošanai vietnē PowerBI.com.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Produktu atjauninājumi pakalpojumā Microsoft Power BI. |
-| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība** , **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja** , kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vai aizstāts ar citu līdzekli?**   | Satura pakotnes **Izmaksu pārvaldība**, **Finanšu veiktspēja** un **Mazumtirdzniecības kanāla veiktspēja**, kas pieejamas vietnē [AppSource](https://appsource.microsoft.com), tiek aizstātas ar analītiskām lietojumprogrammām, kuras nodrošina risinājumu integrāciju datu bāzes līmenī. Papildinformāciju par analītiskām programmām skatiet rakstā [Darbvietās iegultais Power BI saturs](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Ietekmētie produkta apgabali**         | Izmaksu pārvaldība, Finanses un Retail                                                                                               |
 | **Izvietošanas iespēja**              | Tikai mākonī (Integrācija ar PowerBI.com netiek atbalstīta lokālajos izvietojumos.)                                                                                                            |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2018. gada 2. ceturksnis.    |
@@ -712,7 +713,7 @@ Personāla vadības algas informācija
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar pamata lapām Alga un Personāla vadība.  |
-| **Vai aizstāts ar citu līdzekli?**   | Lapas **Atvieglojumi** , **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** \> **Alga**. |
+| **Vai aizstāts ar citu līdzekli?**   | Lapas **Atvieglojumi**, **Ienākumi** un citas saistītās lapas, kas iepriekš atradās modulī ASV alga, ir pārkonfigurētas un tagad veido daļu no moduļa Personāla vadība pamata konfigurācijas, lai palīdzētu atbalstīt ārējo algu apstrādi. Šai funkcionalitātei piekļūst, izmantojot konfigurācijas atslēgu **Personāla vadība 1** \> **Alga**. |
 | **Ietekmētie produkta apgabali**         | Personāla vadība, Alga   |
 | **Statuss**                         | Noņemts, sākot ar Dynamics 365 for Operations versiju 1611.    |
 
@@ -847,7 +848,7 @@ Darbplūsma darbinieku mērķu izveidošanas pārvaldībai ir viena no vairākā
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD un AxBC integrācijas
 
-Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu* , kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
+Programmu integrācijas struktūrā (Application Integration Framework — AIF) var veikt datu apmaiņu ar ārējām sistēmām, izmantojot biznesa loģiku, kas tiek izmantota kā pakalpojumi. Programmā Dynamics AX ir ietverti pakalpojumi, kuru darbības nodrošināšanai tiek izmantoti dokumenti un .NET Business Connector (AxBC). Dokuments tiek izveidots, izmantojot XML. XML kodā ir ietverta virsraksta informācija, kas tiek pievienota, lai izveidotu *ziņojumu*, kuru var pārsūtīt uz programmu Dynamics AX vai no tās. Dokumentu piemēros ietilpst pārdošanas pasūtījumi un pirkšanas pasūtījumi. Taču gandrīz jebkuru elementu, piemēram, debitoru, var pārstāvēt ar dokumentu. Uz dokumentiem balstītie pakalpojumi lieto **Axd \<Document\>** klases.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -869,7 +870,7 @@ Norēķinu skripti tika izmantoti, lai aprēķinātu norēķinu likmes norēķin
 
 ### <a name="boms-without-bom-versions"></a>MK bez MK versijām
 
-Kad tika atspējota konfigurācijas atslēga **MK versijas** , materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1. Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu **MK versijas**.
+Kad tika atspējota konfigurācijas atslēga **MK versijas**, materiālu komplektu (MK) versijas tika paslēptas visās formās, un starp izlaistajām precēm un MK sistēma lika izmantot attiecību 1:1. Pašreizējā Dynamics AX versijā nevar atspējot konfigurācijas atslēgu **MK versijas**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1157,7 +1158,7 @@ Pārbaudes ģenerēšanu nevar veikt, izmantojot paketi, bet lietotājs to jopro
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS atskaites
 
-Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma apgrozījuma bilance** , **Detalizēta apgrozījuma bilance** , **Kontu plāns** , **Auditācijas pieraksti** , **Bilances** un **Bilances saraksts**.
+Ir noņemtas atskaites, kas ietvēra šādus izvēlnes vienumus: **Kopsavilkuma apgrozījuma bilance**, **Detalizēta apgrozījuma bilance**, **Kontu plāns**, **Auditācijas pieraksti**, **Bilances** un **Bilances saraksts**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1359,7 +1360,7 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Zems lietojums |
-| **Vai aizstāts ar citu līdzekli?**   | Nē, bet lapa **Profila saistība** , kura tiek atvērta no lapas **Profilu grupas** , atbalsta tādu pašu biznesa scenāriju kā novecojusī lapa **Darbu plānotājs**. |
+| **Vai aizstāts ar citu līdzekli?**   | Nē, bet lapa **Profila saistība**, kura tiek atvērta no lapas **Profilu grupas**, atbalsta tādu pašu biznesa scenāriju kā novecojusī lapa **Darbu plānotājs**. |
 | **Ietekmētie produkta apgabali**         | Laiks un apmeklētība     |
 | **Statuss**                         | Šis kods nav noņemts. Taču forma JmgWorkPlanner netika migrēta.    |
 

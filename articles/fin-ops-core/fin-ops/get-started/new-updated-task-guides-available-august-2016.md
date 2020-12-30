@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812536"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694993"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
@@ -32,7 +31,7 @@ ms.locfileid: "2812536"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada augusts — visas valodas)
 
-APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusts), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet sadaļā [Kas jauns vai mainīts Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics AX 2. platformas atjauninājumu (2016. gada augusts), Dynamics AX 2016. gada maija lietojumprogrammas atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
 ### <a name="data-access"></a>Piekļuve datiem
 

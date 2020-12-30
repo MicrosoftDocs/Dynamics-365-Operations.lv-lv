@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138864"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679490"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Ļaut lietotājiem iestatīt ER formāta atsauci, pieprasot formātu no globālās krātuves
 
 [!include [banner](../includes/banner.md)]
 
-Varat izmantot struktūru [Elektroniskie pārskati](general-electronic-reporting.md) (ER), lai konfigurētu izejošajiem dokumentiem paredzētos [formātus](general-electronic-reporting.md#FormatComponentOutbound) saskaņā ar dažādu valstu/reģionu likumu prasībām. Varat arī izmantot ER struktūru, lai konfigurētu [formātus](general-electronic-reporting.md#FormatComponentInbound) ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 Finance instancē, lai apstrādātu ienākošos vai izejošos biznesa dokumentus kā daļu no noteikta biznesa procesa. 
+Varat izmantot struktūru [Elektroniskie pārskati](general-electronic-reporting.md) (ER), lai konfigurētu izejošajiem dokumentiem paredzētos [formātus](general-electronic-reporting.md#FormatComponentOutbound) saskaņā ar dažādu valstu/reģionu likumu prasībām. Varat arī izmantot ER struktūru, lai konfigurētu [formātus](general-electronic-reporting.md#FormatComponentInbound) ienākošo dokumentu parsēšanai un izmantotu informāciju no šiem dokumentiem, lai pievienotu vai atjauninātu programmas datus. Katru no šiem formātiem var izmantot jūsu Dynamics 365 Finance instancē, lai apstrādātu ienākošos vai izejošos biznesa dokumentus kā daļu no noteikta biznesa procesa.
 
 Parasti jānorāda, kāds ER formāts konkrētā biznesa procesā jāizmanto. Lai to izdarītu, atlasiet uzmeklēšanas laukā vienu ER formātu, kas ir konfigurēts kā daļa no biznesa procesam raksturīgiem parametriem. Šie uzmeklēšanas lauki parasti tiek ieviesti, izmantojot attiecīgo ER struktūras API. Plašāku informāciju skatiet [ER struktūras API kods formāta kartēšanas uzmeklēšanas atspoguļošanai](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
@@ -45,7 +44,7 @@ Ja pašreizējā Finance instancē ir iekļauti ar Intrastat biznesa procesu sai
 
 Šī uzmeklēšana piedāvā tikai tādus ER formātus, kas jau ir importēti uz pašreizējo Finance instanci. Lai [importētu](./tasks/er-import-configuration-lifecycle-services.md) ER risinājumus uz pašreizējo Finance instanci, jums vajadzīgas atļaujas, lai palaistu attiecīgo ER struktūras funkciju, kas atbalsta tādu ER risinājumu [dzīves ciklu](general-electronic-reporting-manage-configuration-lifecycle.md), kurā iekļauti ER formāti.
 
-Sākot no Finance versijas 10.0.9 (2020. gada aprīļa izlaidums), ir paplašināts lietotāja interfeiss ar ER formāta meklēšanu, kas ieviesta, izmantojot ER struktūras API. Joprojām varat atlasīt esošos ER formātus kopsavilkuma cilnē **Atlasīt formāta konfigurāciju**. Papildus tam, paplašinātā uzmeklēšana piedāvā jaunu opciju, lai meklētu globālajā krātuvē (GR) un atrastu konkrētus ER formātus. Visi ER formāti no GR tiek piedāvāti kopsavilkuma cilnē **Importēt no globālās repozitorija**.
+Sākot no Finance versijas 10.0.9 (2020. gada aprīļa izlaidums), ir paplašināts lietotāja interfeiss ar ER formāta meklēšanu, kas ieviesta, izmantojot ER struktūras API. Joprojām varat atlasīt esošos ER formātus kopsavilkuma cilnē **Atlasīt formāta konfigurāciju**. Papildus paplašinātā uzmeklēšana piedāvā jaunu opciju, lai meklētu globālajā krātuvē (GR) un atrastu konkrētus ER formātus. Visi ER formāti no GR tiek piedāvāti kopsavilkuma cilnē **Importēt no globālās repozitorija**.
 
 [![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
@@ -55,13 +54,13 @@ Atlasot kopsavilkuma cilnē **Importēt no globālā repozitorija** ER formātu,
 
 [![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Pēc tam, ja importēšana pabeigta veiksmīgi, šajā uzmeklēšanas laukā tiek saglabāta atsauce uz importēto ER formātu. Ņemiet vērā, ka, piekļūstot GR pirmo reizi, jāseko sniegtajai saitei, lai pierakstītos pakalpojumam [Regulatory Configuration Service](https://aka.ms/rcs) (RCS), ko izmanto, lai pārvaldītu piekļuvi GR uzglabāšanai.
+Pēc tam, ja importēšana pabeigta veiksmīgi, šajā uzmeklēšanas laukā tiek saglabāta atsauce uz importēto ER formātu. Piekļūstot GR pirmo reizi, jāseko sniegtajai saitei, lai pierakstītos pakalpojumam [Regulatory Configuration Service](https://aka.ms/rcs) (RCS), ko izmanto, lai pārvaldītu piekļuvi GR uzglabāšanai.
 
 [![Lapa Ārējās tirdzniecības parametri](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Kopsavilkuma cilne **Importēt no globālā repozitorija** pēc noklusējuma sniedz ER formātu sarakstu no pagaidu krātuves, kas tiek automātiski izveidota, pamatojoties uz veiktspējas uzlabojumiem paredzēto GR saturu. Tas notiek, ja kopsavilkuma cilne **Importēt no globāla repozitorija** tiek atvērta pirmo reizi, kas var ilgt vairākas sekundes.
 
-Ja kopsavilkuma cilnē **Importēt no globālā repozitorija** neredzat nepieciešamo ER formātu, bet esat pārliecināts, ka šis ER formāts ir saglabāts GR, izvēlieties opciju **Sinhronizēts**. Tādējādi tiks atjaunināta pagaidu uzglabāšana, un tas tiks sinhronizēts ar pašreizējo GR saturu.
+Ja kopsavilkuma cilnē **Importēt no globālā repozitorija** neredzat nepieciešamo ER formātu, bet esat pārliecināts, ka šis ER formāts ir saglabāts GR, izvēlieties opciju **Sinhronizēts**. Šī opcija atjauninās pagaidu uzglabāšanu, un tas tiks sinhronizēts ar pašreizējo GR saturu.
 
 ## <a name="feature-activation"></a>Līdzekļu aktivizēšana
 

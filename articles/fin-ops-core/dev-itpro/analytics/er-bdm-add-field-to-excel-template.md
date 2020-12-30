@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: fcfbcb021b192cef75d59b0db1796e994f3dc27d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893251"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681380"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Pievienot jaunus laukus biznesa dokumenta veidnei Microsoft Excel
 
@@ -79,7 +78,7 @@ Parādīsies BDP veidnes redaktora lapa. Var lietot Microsoft 365, lai rediģēt
 
 2.  Atlasiet šūnas **E8: F8**.
 3.  Excel lentē, cilnē **Sākums** atlasiet **Sapludināt un centrēt**, lai sapludinātu atlasītās šūnas jaunajā sapludinātā **E8: F8** šūnā.
-4.  Sapludinātajā šūnā **E8: F8**ievadiet **URL**.
+4.  Sapludinātajā šūnā **E8: F8** ievadiet **URL**.
 5.  Atlasiet sapludināto šūnu **E7:F7**, atlasiet **Formāta kopētājs**, tad atlasiet sapludināto šūnu **E8:F8** tādā pašā veidā, kā sapludināto šūnu **E7:F7**.
 
     ![Veidnei pievienota jauna lauka etiķete](./media/BDM-AddFldExcel-EditableTemplate3.png)
@@ -147,7 +146,7 @@ Darbvietā **Biznesa dokumentu pārvaldība**, cilnes **Veidne** cilne labajā r
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Ģenerēt biznesa dokumentus, lai pārbaudītu atjaunināto veidni
 
-1.  Programmā mainiet uzņēmumu uz **USMF**un dodieties uz **Debitoru parādi \> Rēķini \> Visi brīvā teksta rēķini.**
+1.  Programmā mainiet uzņēmumu uz **USMF** un dodieties uz **Debitoru parādi \> Rēķini \> Visi brīvā teksta rēķini.**
 2.  Atlasiet rēķinu **FTI-00000002** un pēc tam atlasiet **Drukāšanas pārvaldība**.
 3.  Kreisajā rūtī izvērtiet **Modulis - debitori \> Parādu dokumenti \> Brīvā teksta rēķins**.
 4.  Sadaļā **Brīvā teksta rēķins**, atlasiet līmeni **Sākotnējais dokuments**, lai norādītu rēķinu tvērumu apstrādei.
