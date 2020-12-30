@@ -1,0 +1,76 @@
+---
+title: Dokumentu drukāšanas pārskats
+description: Varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci. Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.
+author: TJVass
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+audience: IT Pro, Application User
+ms.reviewer: kfend
+ms.custom: 69161
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.search.region: Global
+ms.author: tjvass
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680100"
+---
+# <a name="document-printing-overview"></a><span data-ttu-id="02a32-104">Dokumentu drukāšanas pārskats</span><span class="sxs-lookup"><span data-stu-id="02a32-104">Document printing overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="02a32-105">Varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci.</span><span class="sxs-lookup"><span data-stu-id="02a32-105">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="02a32-106">Šajā rakstā ir sniegts apskats par to, kā tiek drukāti dokumenti.</span><span class="sxs-lookup"><span data-stu-id="02a32-106">This article provides an overview of how documents are printed.</span></span>
+
+## <a name="printing-overview"></a><span data-ttu-id="02a32-107">Drukāšanas apskats</span><span class="sxs-lookup"><span data-stu-id="02a32-107">Printing overview</span></span>
+
+<span data-ttu-id="02a32-108">Programma nodrošina integrētus pakalpojumus un klienta lietojumprogrammas, kas sniedz iespēju viegli ģenerēt, glabāt un izplatīt dokumentus, kuri atbalsta biznesa aktivitāti.</span><span class="sxs-lookup"><span data-stu-id="02a32-108">The application provides integrated services and client applications that make it easy to generate, store, and distribute documents that support business activity.</span></span> <span data-ttu-id="02a32-109">Varat drukāt dokumentus, izmantojot lokālu printeri vai tīklam pievienotu ierīci.</span><span class="sxs-lookup"><span data-stu-id="02a32-109">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="02a32-110">Turklāt klientā varat tiešā veidā eksportēt lapas un pārskatus PDF failu vai Microsoft Office dokumentu formātā.</span><span class="sxs-lookup"><span data-stu-id="02a32-110">In addition, you can export pages and reports directly from the client, as PDF files or Microsoft Office documents.</span></span> <span data-ttu-id="02a32-111">Visbeidzot, sadalītā noslodze jums ļauj drukāt biznesa dokumentus tieši no mobilās ierīces, izmantojot tīkla resursus.</span><span class="sxs-lookup"><span data-stu-id="02a32-111">Finally, the distributed workload lets you print business documents directly from a mobile device by using network resources.</span></span> <span data-ttu-id="02a32-112">Lai gan drukāšanas prasības var būt dažādas, visām nozarēm parasti ir jāizveido izdrukātās biznesa dokumentu kopijas, izmantojot programmu.</span><span class="sxs-lookup"><span data-stu-id="02a32-112">Although printing requirements might vary, all industries typically must create hard copies of business documents by using the application.</span></span> <span data-ttu-id="02a32-113">Dokumentu drukāšana tīkla ierīcēs no viesotām programmām rada virkni unikālu problēmu.</span><span class="sxs-lookup"><span data-stu-id="02a32-113">Printing documents on network devices from hosted applications presents a unique set of challenges.</span></span> <span data-ttu-id="02a32-114">Daži piemēri:</span><span class="sxs-lookup"><span data-stu-id="02a32-114">Here are some examples:</span></span>
+
+- <span data-ttu-id="02a32-115">Lietotāja ierīcē var nebūt pieejami drukas draiveri.</span><span class="sxs-lookup"><span data-stu-id="02a32-115">Print drivers might not be available on the user's device.</span></span>
+- <span data-ttu-id="02a32-116">Lietotāja ierīce var nebūt savienota ar uzņēmuma tīklu.</span><span class="sxs-lookup"><span data-stu-id="02a32-116">The user's device might not be connected to the corporate network.</span></span>
+
+<span data-ttu-id="02a32-117">Izmantojot atvēlēto resursdatoru un izpildot dažas vienkāršas procedūras, sistēmas administratori var konfigurēt izvietojumus tā, lai lietotāji tieši no biznesa programmām varētu drukāt tīkla ierīcēs.</span><span class="sxs-lookup"><span data-stu-id="02a32-117">By using a dedicated host and following a few easy steps, system administrators can configure deployments so that users can print directly from business applications on network devices.</span></span>
+
+### <a name="application-printing-scenarios"></a><span data-ttu-id="02a32-118">Programmas drukāšanas scenāriji</span><span class="sxs-lookup"><span data-stu-id="02a32-118">Application printing scenarios</span></span> 
+
+<span data-ttu-id="02a32-119">Nākamajā tabulā ir aprakstīti trīs primārie drukāšanas scenāriji.</span><span class="sxs-lookup"><span data-stu-id="02a32-119">The following table describes the three primary printing scenarios.</span></span>
+
+| <span data-ttu-id="02a32-120">Scenārijs</span><span class="sxs-lookup"><span data-stu-id="02a32-120">Scenario</span></span>                        | <span data-ttu-id="02a32-121">Mērķis</span><span class="sxs-lookup"><span data-stu-id="02a32-121">Goal</span></span>                                                      | <span data-ttu-id="02a32-122">Risinājums</span><span class="sxs-lookup"><span data-stu-id="02a32-122">Solution</span></span> |
+|---------------------------------|-----------------------------------------------------------|----------|
+| <span data-ttu-id="02a32-123">1. Rādītā satura drukāšana</span><span class="sxs-lookup"><span data-stu-id="02a32-123">1. Printing what you see</span></span>        | <span data-ttu-id="02a32-124">Izdrukāt tieši to, kas pārlūkprogrammā tiek rādīts pašlaik.</span><span class="sxs-lookup"><span data-stu-id="02a32-124">Print what is currently shown in the browser.</span></span>             | <span data-ttu-id="02a32-125">Pārlūkprogrammai tiek ģenerēta “drukāšanai draudzīga” tīmekļa lapas versija.</span><span class="sxs-lookup"><span data-stu-id="02a32-125">A "print-friendly" version of the webpage is generated for the browser.</span></span> |
+| <span data-ttu-id="02a32-126">2. Interaktīva drukāšana</span><span class="sxs-lookup"><span data-stu-id="02a32-126">2. Interactive printing</span></span>         | <span data-ttu-id="02a32-127">Izdrukāt precīzu dokumentu lokāli pievienotā ierīcē.</span><span class="sxs-lookup"><span data-stu-id="02a32-127">Print a precision document on a locally connected device.</span></span> | <span data-ttu-id="02a32-128">Varat eksportēt pārskata PDF versiju un lejupielādēt to pārlūkprogrammā.</span><span class="sxs-lookup"><span data-stu-id="02a32-128">You can export a PDF version of the report and download it to the browser.</span></span> |
+| <span data-ttu-id="02a32-129">3. Drukāšana tīkla ierīcē</span><span class="sxs-lookup"><span data-stu-id="02a32-129">3. Printing on a network device</span></span> | <span data-ttu-id="02a32-130">Nosūtīt precīzu dokumentu uz domēna printera ierīci.</span><span class="sxs-lookup"><span data-stu-id="02a32-130">Send a precision document to a domain printer device.</span></span>     | <span data-ttu-id="02a32-131">Precīzais dokuments tiek nosūtīts uz klienta programmu, kas darbojas serverī, kurš tiek viesots klienta domēnā.</span><span class="sxs-lookup"><span data-stu-id="02a32-131">A precision document is sent to a client application that runs on a server that is hosted in the customer's domain.</span></span> |
+
+<span data-ttu-id="02a32-132">Tā kā atkarībā no scenārija risinājumi ir dažādi, programmas nodrošina tālāk aprakstītos iebūvētos pakalpojumus un rīkus, lai palīdzētu lietotājiem sasniegt savus mērķus.</span><span class="sxs-lookup"><span data-stu-id="02a32-132">Because the solution varies, depending on the scenario, applications provide built-in services and tooling to help users accomplish their goals:</span></span>
+
+- <span data-ttu-id="02a32-133">**1. scenārijs** tiek atbalstīts pārlūkprogrammas HTML5 klienta renderēšanā.</span><span class="sxs-lookup"><span data-stu-id="02a32-133">**Scenario 1** is supported by the browser's rendering of the HTML5 client.</span></span>
+- <span data-ttu-id="02a32-134">**2. scenārijs** izmanto klienta programmas un Microsoft 365 pakalpojumus.</span><span class="sxs-lookup"><span data-stu-id="02a32-134">**Scenario 2** uses client applications and Microsoft 365 services.</span></span>
+- <span data-ttu-id="02a32-135">**3. scenārijam** ir nepieciešams pakalpojumā Microsoft Azure viesoto pakalpojumu un klienta lietojumprogrammu atbalsts.</span><span class="sxs-lookup"><span data-stu-id="02a32-135">**Scenario 3** requires support from client applications and from services that are hosted in Microsoft Azure.</span></span>
+
+<span data-ttu-id="02a32-136">Papildus platformai, kas tiek izvietota Azure abonementā, Finance and Operations programmas debitoriem nodrošina integrētu, pirmās puses Azure programmu, kas viņiem palīdz dokumentu drukāšanai vienkāršāk izmantot domēnā viesotas ierīces.</span><span class="sxs-lookup"><span data-stu-id="02a32-136">In addition to the platform that is deployed to the Azure subscription, Finance and Operations applications provide customers with an integrated, first-party Azure application that helps them more easily use domain-hosted devices to print documents.</span></span>
+
+## <a name="service-overview"></a><span data-ttu-id="02a32-137">Pakalpojuma apskats</span><span class="sxs-lookup"><span data-stu-id="02a32-137">Service overview</span></span>
+<span data-ttu-id="02a32-138">Kamēr viesoto programmu izveidotie dokumenti gaida izdrukāšanu tīklam pievienotā ierīcē, šie dokumenti tiek saglabāti Azure BLOB krātuvē.</span><span class="sxs-lookup"><span data-stu-id="02a32-138">While documents that are produced by the hosted applications are waiting to be printed on a network-connected device, they are stored in Azure blob storage.</span></span> <span data-ttu-id="02a32-139">[Dokumentu maršrutēšanas aģenta instalēšana, lai iespējotu tīkla printēšanu](install-document-routing-agent.md) izmanto Azure autentifikāciju, lai izveidotu drošu kanālu uz Azure pakalpojumiem.</span><span class="sxs-lookup"><span data-stu-id="02a32-139">The [Install the Document Routing Agent to enable network printing](install-document-routing-agent.md) uses Azure authentication to establish a secure channel to the Azure services.</span></span>
+
+<span data-ttu-id="02a32-140">**Izpildes secība**</span><span class="sxs-lookup"><span data-stu-id="02a32-140">**Execution sequence**</span></span>
+
+1. <span data-ttu-id="02a32-141">Pakalpojumā Microsoft SQL Server Reporting Services (SSRS) tiek ģenerēts pārskats, un tas tiek saglabāts Azure BLOB krātuvē.</span><span class="sxs-lookup"><span data-stu-id="02a32-141">The report is generated by Microsoft SQL Server Reporting Services (SSRS) and stored in Azure blob storage.</span></span> <span data-ttu-id="02a32-142">Pievienotie printera iestatījumi tiek glabāti kopā ar dokumentu.</span><span class="sxs-lookup"><span data-stu-id="02a32-142">Attached printer settings are stored together with the document.</span></span>
+2. <span data-ttu-id="02a32-143">Dokumentu maršrutēšanas aģents veic vaicājumus par aktīviem darbiem Azure Service Bus rindā.</span><span class="sxs-lookup"><span data-stu-id="02a32-143">The Document Routing Agent queries the Azure Service Bus queue for active jobs.</span></span>
+3. <span data-ttu-id="02a32-144">Dokumentu maršrutēšanas aģents šo dokumentu lejupielādē un spolē uz tīkla printeri.</span><span class="sxs-lookup"><span data-stu-id="02a32-144">The document is downloaded by the Document Routing Agent and spooled to the network printer.</span></span>
+
+<span data-ttu-id="02a32-145">No klienta atkarīgais risinājums ļauj lietotājiem pārvaldīt savu drukas vajadzību apjomu.</span><span class="sxs-lookup"><span data-stu-id="02a32-145">The client-based solution lets customers manage the scale of their printing needs.</span></span> <span data-ttu-id="02a32-146">Lietotāji, kuriem ir liela apjoma drukāšanas darbu slodzes, var instalēt daudzus Dokumentu maršrutēšanas aģentus, lai palielinātu vienlaicīgo drukāšanas operāciju skaitu.</span><span class="sxs-lookup"><span data-stu-id="02a32-146">Customers who have heavy-volume printing workloads can install many Document Routing Agents to increase the number of concurrent printing operations.</span></span> <span data-ttu-id="02a32-147">Savukārt citiem lietotājiem viņu gaidāmo drukāšanas nepieciešamību izpildei ir nepieciešamas tikai dažas Dokumentu maršrutēšanas aģentu instalācijas.</span><span class="sxs-lookup"><span data-stu-id="02a32-147">Alternatively, some customers require very few installations of the Document Routing Agent to handle their anticipated printing needs.</span></span>
+
+### <a name="service-components-for-network-printing"></a><span data-ttu-id="02a32-148">Pakalpojuma komponenti drukāšanai tīklā</span><span class="sxs-lookup"><span data-stu-id="02a32-148">Service components for network printing</span></span>
+
+<span data-ttu-id="02a32-149">Nākamajā diagrammā ir redzami pamata komponenti, kas palīdz atbalstīt tīkla drukāšanas operācijas.</span><span class="sxs-lookup"><span data-stu-id="02a32-149">The following diagram shows the basic components that help support network printing operations.</span></span>
+
+<span data-ttu-id="02a32-150">[![pakalpojuma-komponenti-drukāšanai-tīklā\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span><span class="sxs-lookup"><span data-stu-id="02a32-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span></span>
+
+<span data-ttu-id="02a32-151">Ņemiet vērā, ka vienu printeri var reģistrēt vairākiem dokumentu maršrutēšanas aģentiem.</span><span class="sxs-lookup"><span data-stu-id="02a32-151">Note that a single printer can be registered with multiple Document Routing Agents.</span></span> <span data-ttu-id="02a32-152">Lai atrisinātu printera preferences, viesotais pakalpojums izmanto tīkla ceļu, kas unikāli identificē katru tīkla printeri.</span><span class="sxs-lookup"><span data-stu-id="02a32-152">To resolve the printer preferences, the hosted service uses the network path that uniquely identifies every network printer.</span></span> <span data-ttu-id="02a32-153">Līdz ar to pat gadījumos, kad printeris ir reģistrēts vairākiem klientiem, programmu pieejamo printeru sarakstā tas tiek rādīts kā viena atlase.</span><span class="sxs-lookup"><span data-stu-id="02a32-153">As a result, even when a printer is registered by multiple clients, it appears as a single selection in the list of printers available in applications.</span></span>

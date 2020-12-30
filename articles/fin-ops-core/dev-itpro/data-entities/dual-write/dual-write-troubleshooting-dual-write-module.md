@@ -1,0 +1,89 @@
+---
+title: Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations lietojumprogrammās
+description: Šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar duālā ieraksta moduli Finance and Operations lietojumprogrammās.
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 03/16/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User, IT Pro
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: ramasri
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683627"
+---
+# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a><span data-ttu-id="0c795-103">Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations lietojumprogrammās</span><span class="sxs-lookup"><span data-stu-id="0c795-103">Troubleshoot issues with the dual-write module in Finance and Operations apps</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="0c795-104">Šajā rakstā ir sniegta informācija par problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.</span><span class="sxs-lookup"><span data-stu-id="0c795-104">This topic provides troubleshooting information for dual-write integration between Finance and Operations apps and Dataverse.</span></span> <span data-ttu-id="0c795-105">Konkrēti, šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar moduli **Duālais ieraksts** Finance and Operations lietojumprogrammās.</span><span class="sxs-lookup"><span data-stu-id="0c795-105">Specifically, it provides information that can help you fix issues with the **Dual-write** module in Finance and Operations apps.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="0c795-106">Dažas no problēmām, kas risinātas šajā tēmā, var būt nepieciešama vai nu sistēmas administratora loma, vai Microsoft Azure Active Directory (Azure AD) nomnieka administratora akreditācijas dati.</span><span class="sxs-lookup"><span data-stu-id="0c795-106">Some of the issues that this topic addresses might require either the system admin role or Microsoft Azure Active Directory (Azure AD) tenant admin credentials.</span></span> <span data-ttu-id="0c795-107">Katras problēmas sadaļā ir paskaidrots, vai ir nepieciešama īpaša loma vai akreditācijas dati.</span><span class="sxs-lookup"><span data-stu-id="0c795-107">The section for each issue explains whether a specific role or credentials are required.</span></span>
+
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a><span data-ttu-id="0c795-108">Nevar ielādēt duālā ieraksta moduli Finance and Operations lietojumprogrammā</span><span class="sxs-lookup"><span data-stu-id="0c795-108">You can't load the dual-write module in a Finance and Operations app</span></span>
+
+<span data-ttu-id="0c795-109">Ja nevarat atvērt lapu **Duālais ieraksts**, atlasot elementu **Duālais ieraksts** darbvietā **Datu pārvaldība**, visticamāk nedarbojas datu integrācijas pakalpojums.</span><span class="sxs-lookup"><span data-stu-id="0c795-109">If you can't open the **Dual-write** page by selecting the **Dual Write** tile in the **Data management** workspace, the data integration service is probably down.</span></span> <span data-ttu-id="0c795-110">Izveidojiet atbalsta biļeti, lai pieprasītu datu integrācijas pakalpojuma restartēšanu.</span><span class="sxs-lookup"><span data-stu-id="0c795-110">Create a support ticket to request a restart of the data integration service.</span></span>
+
+## <a name="error-when-you-try-to-create-a-new-table-map"></a><span data-ttu-id="0c795-111">Kļūda, mēģinot izveidot jaunu tabulas karti</span><span class="sxs-lookup"><span data-stu-id="0c795-111">Error when you try to create a new table map</span></span>
+
+<span data-ttu-id="0c795-112">**Nepieciešamie akreditācijas dati, lai labotu problēmu:** tas pats lietotājs, kas iestata duālo rakstīšanu.</span><span class="sxs-lookup"><span data-stu-id="0c795-112">**Required credentials to fix the issue:** The same user that setup dual-write.</span></span>
+
+<span data-ttu-id="0c795-113">Mēģinot konfigurēt jaunu elementu duālajam ierakstam, jūs varētu saņemt šādu kļūdas ziņojumu.</span><span class="sxs-lookup"><span data-stu-id="0c795-113">You might receive the following error message when you try to configure a new entity for dual-write.</span></span> <span data-ttu-id="0c795-114">Vienīgais lietotājs, kas var izveidot karti, ir lietotājs, kas uzstāda duālās rakstīšanas savienojumu.</span><span class="sxs-lookup"><span data-stu-id="0c795-114">The only user that can create a map is the user who setup the dual-write connection.</span></span>
+
+<span data-ttu-id="0c795-115">*Atbildes statusa kods nenorāda uz veiksmi: 401 (nesankcionēts)*</span><span class="sxs-lookup"><span data-stu-id="0c795-115">*Response status code does not indicate success: 401 (Unauthorized)*</span></span>
+
+
+## <a name="error-when-you-open-the-dual-write-user-interface"></a><span data-ttu-id="0c795-116">Kļūda, atverot duālā ieraksta lietotāja interfeisu</span><span class="sxs-lookup"><span data-stu-id="0c795-116">Error when you open the dual-write user interface</span></span>
+
+<span data-ttu-id="0c795-117">Mēģinot piekļūt duālajam ierakstam no **Datu pārvaldības** darbvietas, var tikt parādīts šāds kļūdas ziņojums:</span><span class="sxs-lookup"><span data-stu-id="0c795-117">You might receive the following error message when you try to access dual-write from the **Data management** workspace:</span></span>
+
+<span data-ttu-id="0c795-118">*login.microsoftonline.com atteicās izveidot savienojumu.*</span><span class="sxs-lookup"><span data-stu-id="0c795-118">*login.microsoftonline.com refused to connect.*</span></span>
+
+<span data-ttu-id="0c795-119">Lai labotu problēmu, piesakieties, izmantojot InPrivate logu pakalpojumā Microsoft Edge, inkognito logu pakalpojumā Chromium vai inkognito logu pārlūkprogrammā Google Chrome.</span><span class="sxs-lookup"><span data-stu-id="0c795-119">To fix the issue, sign in by using an InPrivate window in Microsoft Edge, an incognito window in Chromium, or an incognito window in Google Chrome.</span></span> <span data-ttu-id="0c795-120">Ir arī jāatbloķē vai jādzēš trešās puses sīkfaili.</span><span class="sxs-lookup"><span data-stu-id="0c795-120">You must also unblock or clear third-party cookies.</span></span>
+
+## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a><span data-ttu-id="0c795-121">Kļūda, saistot vidi divējādai rakstīšanai vai pievienot jaunu tabulas kartēšanu</span><span class="sxs-lookup"><span data-stu-id="0c795-121">Error when you link the environment for dual-write or add a new table mapping</span></span>
+
+<span data-ttu-id="0c795-122">**Nepieciešamās lomas, lai labotu problēmu:** sistēmas administrators abās Finance and Operations lietojumprogrammās un Dataverse.</span><span class="sxs-lookup"><span data-stu-id="0c795-122">**Required role to fix the issue:** System administrator in both Finance and Operations apps and Dataverse.</span></span>
+
+<span data-ttu-id="0c795-123">Sasaistot vai veidojot kartes, var rasties šādas kļūdas:</span><span class="sxs-lookup"><span data-stu-id="0c795-123">You might encounter the following error when linking or creating maps:</span></span>
+
+<span data-ttu-id="0c795-124">*Atbildes statusa kods nenorāda uz izdošanos: 403 (tokenexchange).<br> Sesijas ID: \<your session id\><br> saknes aktivitātes ID: \<your root activity id\>*</span><span class="sxs-lookup"><span data-stu-id="0c795-124">*Response status code does not indicate success: 403 (tokenexchange).<br> Session ID: \<your session id\><br> Root activity ID: \<your root activity id\>*</span></span>
+
+<span data-ttu-id="0c795-125">Šī kļūda var rasties, ja jums nav nepieciešamo atļauju, lai saistītu duālo ierakstu vai izveidotu kartes.</span><span class="sxs-lookup"><span data-stu-id="0c795-125">This error can occur if you don't have sufficient permissions to link dual-write or create maps.</span></span> <span data-ttu-id="0c795-126">Šī kļūda var parādīties arī tad, ja Dataverse vide ir atiestatīta, nesaistot duālo rakstīšanu.</span><span class="sxs-lookup"><span data-stu-id="0c795-126">This error can also occur if the Dataverse environment was reset without unlinking dual-write.</span></span> <span data-ttu-id="0c795-127">Ikviens lietotājs ar sistēmas administratora lomu abās Finance and Operations lietojumprogrammās un Dataverse var saistīt vides.</span><span class="sxs-lookup"><span data-stu-id="0c795-127">Any user with system administrator role in both Finance and Operations apps and Dataverse can link the environments.</span></span> <span data-ttu-id="0c795-128">Tikai lietotājs, kas iestatījis duālās rakstīšanas savienojumu, var pievienot jaunas tabulas kartes.</span><span class="sxs-lookup"><span data-stu-id="0c795-128">Only the user who setup the dual-write connection can add new table maps.</span></span> <span data-ttu-id="0c795-129">Pēc iestatīšanas jebkurš lietotājs ar sistēmas administratora lomu var pārraudzīt statusu un rediģēt kartēšanas.</span><span class="sxs-lookup"><span data-stu-id="0c795-129">After setup, any user with system administrator role can monitor the status and edit the mappings.</span></span>
+
+## <a name="error-when-you-stop-the-table-mapping"></a><span data-ttu-id="0c795-130">Kļūda, apturot tabulas kartēšanu</span><span class="sxs-lookup"><span data-stu-id="0c795-130">Error when you stop the table mapping</span></span>
+
+<span data-ttu-id="0c795-131">Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādu kļūdas ziņojumu:</span><span class="sxs-lookup"><span data-stu-id="0c795-131">You might receive the following error message when you try to stop the table mappings:</span></span>
+
+<span data-ttu-id="0c795-132">*\[Aizliegts\], \[{"statuss": 403, "avots": ","ziņojums":"Kļūda no marķiera maiņas: lietotājam nav atļauts piekļūt savienojumam dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx"}\], Attālais serveris atgrieza kļūdu: (403) Aizliegts.*</span><span class="sxs-lookup"><span data-stu-id="0c795-132">*\[Forbidden\], \[{"status":403,"source":"","message":"Error from token exchange: User is not allowed to access connection dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx"}\], The remote server returned an error: (403) Forbidden.*</span></span>
+
+<span data-ttu-id="0c795-133">Šī kļūda rodas, ja nav pieejama saistītā Dataverse vide.</span><span class="sxs-lookup"><span data-stu-id="0c795-133">This error occurs when the linked Dataverse environment isn't available.</span></span>
+
+<span data-ttu-id="0c795-134">Lai atrisinātu problēmu, izveidojiet biļeti datu integrācijas grupai.</span><span class="sxs-lookup"><span data-stu-id="0c795-134">To fix the issue, create a ticket for the Data Integration team.</span></span> <span data-ttu-id="0c795-135">Pievienojiet tīkla izsekošanu, lai datu integrācijas grupa varētu atzīmēt kartes kā **Nedarbojošās** aizmugursistēmā.</span><span class="sxs-lookup"><span data-stu-id="0c795-135">Attach the network trace so that the Data Integration team can mark the maps as **Not running** in the back end.</span></span>
+
+## <a name="error-while-trying-to-start-an-table-mapping"></a><span data-ttu-id="0c795-136">Kļūda, mēģinot sākt tabulas kartēšanu</span><span class="sxs-lookup"><span data-stu-id="0c795-136">Error while trying to start an table mapping</span></span>
+
+<span data-ttu-id="0c795-137">Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parādīta šāda kļūda:</span><span class="sxs-lookup"><span data-stu-id="0c795-137">You might receive an error like the following when you try to set that state of a mapping to **Running**:</span></span>
+
+<span data-ttu-id="0c795-138">*Nevar pabeigt sākotnējo datu sinhronizāciju. Kļūda: duālās rakstīšanas kļūme - spraudņa reģistrācija neizdevās: nevar izveidot duālās rakstīšanas uzmeklēšanas metadatus. Kļūdas objekta atsauce nav iestatīta uz objekta instanci.*</span><span class="sxs-lookup"><span data-stu-id="0c795-138">*Unable to complete initial data sync. Error: dual-write failure - plugin registration failed: Unable to build dual-write lookup metadata. Error object reference not set to an instance of an object.*</span></span>
+
+<span data-ttu-id="0c795-139">Šīs kļūdas labojums ir atkarīgs no kļūdas cēloņa:</span><span class="sxs-lookup"><span data-stu-id="0c795-139">The fix for this error depends on the cause of the error:</span></span>
+
++ <span data-ttu-id="0c795-140">Ja kartēšanai ir atkarīgi kartējumi, pārliecinieties, ka iespējojat šīs tabulas kartēšanas atkarīgos kartējumus.</span><span class="sxs-lookup"><span data-stu-id="0c795-140">If the mapping has dependent mappings, then make sure to enable the dependent mappings of this table mapping.</span></span>
++ <span data-ttu-id="0c795-141">Kartēšanai var trūkt avota vai mērķa lauku.</span><span class="sxs-lookup"><span data-stu-id="0c795-141">The mapping might be missing source or destination fields.</span></span> <span data-ttu-id="0c795-142">Ja trūkst lauks programmā Finance and Operations, izpildiet sekojošos soļus sadaļā [Trūkst entītiju lauku kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps).</span><span class="sxs-lookup"><span data-stu-id="0c795-142">If a field in the Finance and Operations app is missing, then follow the steps in the section [Missing entity fields issue on maps](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps).</span></span> <span data-ttu-id="0c795-143">Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai lauki tiktu automātiski aizpildīti atpakaļ kartēšanā.</span><span class="sxs-lookup"><span data-stu-id="0c795-143">If a field in Dataverse is missing, then click **Refresh tables** button on the mapping so that the fields are automatically populated back into the mapping.</span></span>

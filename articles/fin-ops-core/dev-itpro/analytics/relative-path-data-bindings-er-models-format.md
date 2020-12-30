@@ -1,0 +1,59 @@
+---
+title: Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem
+description: Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks ļauj lietotājiem definēt elektronisko formātu struktūras un pēc tam aprakstīt veidu, kā šīs struktūras vajadzētu aizpildīt, izmantojot datus un algoritmus, kas pastāv programmā.
+author: NickSelin
+manager: AnnBe
+ms.date: 07/03/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.search.region: global
+ms.author: nselin
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687474"
+---
+# <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a><span data-ttu-id="7b5e5-103">Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem</span><span class="sxs-lookup"><span data-stu-id="7b5e5-103">Use a relative path in data bindings of ER models and formats</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="7b5e5-104">Elektronisko pārskatu veidošanas (Electronic reporting — ER) rīks ļauj lietotājiem definēt elektronisko formātu struktūras un pēc tam aprakstīt veidu, kā šīs struktūras vajadzētu aizpildīt, izmantojot datus un algoritmus, kas pastāv programmā.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-104">The Electronic reporting (ER) tool lets users define electronic format structures and then describe how those structures should be filled by using data and algorithms that exist in the application.</span></span> <span data-ttu-id="7b5e5-105">Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju izveide](electronic-reporting-configuration.md).</span><span class="sxs-lookup"><span data-stu-id="7b5e5-105">For more information, see [Create Electronic reporting (ER) configurations](electronic-reporting-configuration.md).</span></span> <span data-ttu-id="7b5e5-106">Lai norādītu datu plūsmu Finance and Operations datu izgūšanai un to izmantotu elektroniska dokumenta ģenerēšanai, ir jāizpilda tālāk aprakstītā procedūra.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-106">To specify the data flow for retrieving Finance and Operations data and using it to generate  an electronic document, you need to do the following:</span></span>
+
+- <span data-ttu-id="7b5e5-107">Konfigurētie datu avoti ir jāsaista ar izveidotajam domēnam raksturīgā [datu modeļa](general-electronic-reporting.md#data-model-and-model-mapping-components) elementiem.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-107">Bind configured data sources to elements of the designed domain-specific [data model](general-electronic-reporting.md#data-model-and-model-mapping-components).</span></span> <span data-ttu-id="7b5e5-108">Modeļa struktūra un atlasītie datu avoti var veidot daļu no kompleksas hierarhiskas struktūras.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-108">The model structure and selected data sources might be part of a complex hierarchical structure.</span></span> <span data-ttu-id="7b5e5-109">Šī iemesla dēļ galīgie saistījumi var būt diezgan lieli un tajos var būt daudz dažādu tipu elementu (piemēram, relācijas, tabulas un metodes).</span><span class="sxs-lookup"><span data-stu-id="7b5e5-109">Because of this, final bindings can be quite large and contain many elements of different types (for example, relations, tables, and methods,).</span></span> <span data-ttu-id="7b5e5-110">Saistījumi var kļūt grūtāk lasāmi, un tos var būt diezgan sarežģīti pārskatīt un saprast, it īpaši lietotājiem, kas nav to īpašnieki.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-110">The bindings can become less readable and quite complex to review and understand, especially for non-owners.</span></span> 
+- <span data-ttu-id="7b5e5-111">Datu modeļu elementi ir jāsaista ar [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentiem, lai noteiktu, kādi dati no attiecīgā datu modeļa tiks aizpildīti uz ģenerēto formāta izvadi.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-111">Bind data model elements with [format](general-electronic-reporting.md#FormatComponentOutbound) components to define what data will be populated from the data model to the generated format’s output.</span></span>
+
+<span data-ttu-id="7b5e5-112">Lai uzlabotu ER kartēšanas noformētāju lietojamību, ir izlaists [relatīvā ceļa](er-formula-language.md#relative-path) līdzeklis.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-112">To improve usability of ER mapping designers, the [relative path](er-formula-language.md#relative-path) feature has been released.</span></span> <span data-ttu-id="7b5e5-113">Pēc noklusējuma relatīvā ceļa rādīšanas opcija ir ieslēgta visām jaunajām programmas instancēm, kur ir iespējota ER noformējuma funkcionalitāte (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service).</span><span class="sxs-lookup"><span data-stu-id="7b5e5-113">By default, the relative path representation option is turned on for any new instance of the application where ER design experience is enabled (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service).</span></span> <span data-ttu-id="7b5e5-114">Mēs ieviesām relatīvā ceļa parametru, lai lietotāji varētu turpināt izmantot pilno ceļu, strādājot ar šo ER saistījumu attēlojumu.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-114">We implemented the relative path parameter so that users can keep using the full path when work with this presentation of ER bindings.</span></span>
+
+<span data-ttu-id="7b5e5-115">[![Lietotāja parametri](./media/relative-path-01.png)](./media/relative-path-01.png)</span><span class="sxs-lookup"><span data-stu-id="7b5e5-115">[![User parameters](./media/relative-path-01.png)](./media/relative-path-01.png)</span></span>
+
+ 
+<span data-ttu-id="7b5e5-116">Kad ir ieslēgts relatīvā ceļa lietošanas parametrs, ceļu uz vecākelementa vienumu pašreizējā modeļa elementa saistījumā aizstāj viena rakstzīme @.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-116">When the relative path usage parameter is turned on, a single @ character replaces the path to the parent item in the binding of the current model element.</span></span> <span data-ttu-id="7b5e5-117">Viss saistījuma ceļš kļūst īsāks, līdz ar to viss kartējums ir skaidrāks un saprotamāks.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-117">The entire binding path becomes shorter, which makes the entire mapping more obvious and easier to understand.</span></span> <span data-ttu-id="7b5e5-118">Vairumā gadījumu ER noformētājā nav nepieciešams veikt papildu ritināšanu, lai skatītu visus datu modeļa saistījumus.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-118">In most cases, no additional scrolling is required in the ER designer to view all the bindings of the data model.</span></span>
+
+<span data-ttu-id="7b5e5-119">[![Modeļa kartējuma noformētājs](./media/relative-path-02.png)](./media/relative-path-02.png)</span><span class="sxs-lookup"><span data-stu-id="7b5e5-119">[![Model mapping designer](./media/relative-path-02.png)](./media/relative-path-02.png)</span></span>
+ 
+<span data-ttu-id="7b5e5-120">Kad sākat noformēt jaunu ER izteiksmi, ir jāievada tikai viena rakstzīme, lai definētu saistījumu ar kādu vecākelementa vienuma lauku.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-120">When you start designing a new ER expression, you need to enter only one character to define a binding to a field of the parent item.</span></span>
+
+<span data-ttu-id="7b5e5-121">[![Formulas veidotājs](./media/relative-path-03.png)](./media/relative-path-03.png)</span><span class="sxs-lookup"><span data-stu-id="7b5e5-121">[![Formula designer](./media/relative-path-03.png)](./media/relative-path-03.png)</span></span>
+ 
+<span data-ttu-id="7b5e5-122">Kad vecākelementa modeļa vienumam izlemjat mainīt datu avotu, ja izmantojat absolūto ceļu, jums šim modeļa vienumam, kā arī visiem ligzdotajiem vienumiem, ir manuāli jāmaina piesaiste uz jaunu datu avotu.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-122">When you decide to change the data source of the parent model item, with absolute path usage, you have to manually rebind this model item, as well as all nested items, to a new data source.</span></span> <span data-ttu-id="7b5e5-123">Ja ir ieslēgta relatīvā ceļa lietošana un jūs atlasāt jaunu datu avotu, kas ir jāsaista ar kādu vecākelementa vienumu, jums tiek piedāvāta opcija visiem šajā vecākelementa vienumā ligzdotajiem elementiem ar vienu klikšķi mainīt piesaisti automātiski.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-123">When relative path usage is turned on, and you select a new data source to be bound to a parent item, you are offered an option to automatically rebind all nested elements of this parent item with one click.</span></span>
+
+<span data-ttu-id="7b5e5-124">[![Ziņojums par esoša ceļa aizstāšanu](./media/relative-path-04.png)](./media/relative-path-04.png)</span><span class="sxs-lookup"><span data-stu-id="7b5e5-124">[![Replace existing path message](./media/relative-path-04.png)](./media/relative-path-04.png)</span></span>
+ 
+<span data-ttu-id="7b5e5-125">Ja apstiprināt ligzdoto vienumu piesaistes maiņu, jaunais vecākelementa vienums tiks ievietots visu to ligzdoto vienumu ceļā, kuros ir pastāvošais vecākelementa vienums.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-125">If you confirm rebinding of nested items, the new parent item will be placed to the path of each nested item containing the existing parent item.</span></span>
+<span data-ttu-id="7b5e5-126">Šis līdzeklis nesabojā ER struktūras atpakaļsaderību.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-126">This feature does not break the backward compatibility of the ER framework.</span></span> <span data-ttu-id="7b5e5-127">Visas iepriekš izveidotās ER konfigurācijas darbosies ar šo jauno līdzekli, un nav jāveic nekāda jaunināšana vai konvertēšana.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-127">All previously designed ER configurations will work with this new feature, and no upgrades or conversions are required.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="7b5e5-128">Visas izmaiņas, kas tiek ieviestas ar ligzdotu elementu masveida modificēšanu modeļa kartējumos, tiek pareizi saglabātas konfigurācijas deltā (izmaiņu izsekošanā).</span><span class="sxs-lookup"><span data-stu-id="7b5e5-128">All changes that are introduced by mass modification of bindings of nested elements in model mappings are correctly saved in a configuration delta (trace of changes).</span></span> <span data-ttu-id="7b5e5-129">Tas ļauj klientiem mainīt savu atvasināto modeļu kartējumu versiju bāzi uz jebkādu jaunu bāzes versiju, kura ir modificēta, izmantojot šo jauno līdzekli.</span><span class="sxs-lookup"><span data-stu-id="7b5e5-129">This allows customers to rebase their derived version of model mappings to any new base version of it that has been modified by using this new feature.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="7b5e5-130">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="7b5e5-130">Additional resources</span></span>
+
+[<span data-ttu-id="7b5e5-131">ER formulu valoda</span><span class="sxs-lookup"><span data-stu-id="7b5e5-131">ER formula language</span></span>](er-formula-language.md)

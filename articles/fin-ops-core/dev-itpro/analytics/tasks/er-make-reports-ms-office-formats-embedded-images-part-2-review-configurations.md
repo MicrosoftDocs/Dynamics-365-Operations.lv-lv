@@ -1,0 +1,93 @@
+---
+title: Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātā, kurā ir iegultie attēli
+description: 'Lai veiktu šīs darbības, vispirms jāveic darbības, kas aprakstītas uzdevuma ceļvedī "ER: veikt pārskatus MS Office formātos ar iegultiem attēliem (1. daļa: iestatīt parametrus)".'
+author: NickSelin
+manager: AnnBe
+ms.date: 06/13/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: lv-LV
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684359"
+---
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a><span data-ttu-id="c0cd6-103">Konfigurāciju pārskatīšana pārskatu ģenerēšanai Office formātā, kurā ir iegultie attēli</span><span class="sxs-lookup"><span data-stu-id="c0cd6-103">Review configurations to generate reports in Office format that have embedded images</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="c0cd6-104">Lai veiktu šīs darbības, vispirms jāveic darbības, kas aprakstītas uzdevuma ceļvedī "ER: veikt pārskatus MS Office formātos ar iegultiem attēliem (1. daļa: iestatīt parametrus)".</span><span class="sxs-lookup"><span data-stu-id="c0cd6-104">To complete these steps, you must first complete the steps in the "ER Make reports in MS Office formats with embedded images (Part 1: Set up parameters)" task guide.</span></span>
+
+<span data-ttu-id="c0cd6-105">Šīs procedūras aprakstā ir paskaidrots, kā izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai ģenerētu iegultus attēlus saturošus elektroniskos dokumentus programmās Microsoft Excel un Microsoft Word.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-105">This procedure shows how to design Electronic reporting (ER) configurations to generate electronic documents that contain embedded images in Microsoft Excel and Microsoft Word.</span></span> <span data-ttu-id="c0cd6-106">Šajā piemērā jūs pārskatīsit parauga uzņēmuma “Litware, Inc.” ER konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-106">In this example, you will review ER configurations for the sample company Litware, Inc.</span></span> 
+
+<span data-ttu-id="c0cd6-107">Šī procedūra ir paredzēta lietotājiem, kuriem ir piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="c0cd6-108">Šīs darbības var veikt, izmantojot USMF datu kopu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-108">The steps can be completed by using the USMF data set.</span></span>
+
+
+## <a name="review-the-imported-data-model"></a><span data-ttu-id="c0cd6-109">Pārskatīt importēto datu modeli</span><span class="sxs-lookup"><span data-stu-id="c0cd6-109">Review the imported data model</span></span>
+1. <span data-ttu-id="c0cd6-110">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="c0cd6-111">Koka struktūrā atlasiet “Čeku modelis”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-111">In the tree, select 'Model for cheques'.</span></span>
+3. <span data-ttu-id="c0cd6-112">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-112">Click Designer.</span></span>
+    * <span data-ttu-id="c0cd6-113">Šis modelis ir paredzēts, lai parādītu maksājumu čekus no biznesa viedokļa un šī modeļa kartējumu programmas datu avotiem.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-113">This model is designed to represent payment cheques from the business standpoint and the mapping of this model to the application's data sources.</span></span> <span data-ttu-id="c0cd6-114">Pārskatiet šo modeli, izmantojot ER operāciju veidotāju.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-114">Review this model by the ER Operations designer.</span></span> <span data-ttu-id="c0cd6-115">Ņemiet vērā, ka tiek rādīti šādi modeļa elementu atribūti: struktūra, nosaukums, apraksts, datu tips u.t.t.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-115">Note the attributes of the model elements that are presented: structure, name, description, data type, and so on.</span></span>   
+4. <span data-ttu-id="c0cd6-116">Kokā izvērsiet elementu “sakne”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-116">In the tree, expand 'root'.</span></span>
+5. <span data-ttu-id="c0cd6-117">Kokā atlasiet 'root\cheques'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-117">In the tree, select 'root\cheques'.</span></span>
+6. <span data-ttu-id="c0cd6-118">Kokā izvērsiet 'root\cheques'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-118">In the tree, expand 'root\cheques'.</span></span>
+7. <span data-ttu-id="c0cd6-119">Kokā izvērsiet 'root\cheques\attributes'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-119">In the tree, expand 'root\cheques\attributes'.</span></span>
+8. <span data-ttu-id="c0cd6-120">Kokā izvērsiet 'root\payer'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-120">In the tree, expand 'root\payer'.</span></span>
+9. <span data-ttu-id="c0cd6-121">Kokā atlasiet 'root\istestrun'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-121">In the tree, select 'root\istestrun'.</span></span>
+10. <span data-ttu-id="c0cd6-122">Kokā atlasiet 'root\layout'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-122">In the tree, select 'root\layout'.</span></span>
+    * <span data-ttu-id="c0cd6-123">Šī modeļa izkārtojuma elements parāda detalizētu informāciju par čeku drukāšanas formas izkārtojumu atlasītajam bankas kontam.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-123">The layout element of this model represents the details of the printing cheque form layout for the selected bank account.</span></span> <span data-ttu-id="c0cd6-124">Tajā ir iekļauti arī divi mezgli ar datu tipu “Konteiners”, lai glabātu attēlus.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-124">It also includes two nodes of the Container data type to store images.</span></span>   
+11. <span data-ttu-id="c0cd6-125">Kokā izvērsiet 'root\layout'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-125">In the tree, expand 'root\layout'.</span></span>
+12. <span data-ttu-id="c0cd6-126">Kokā atlasiet 'root\layout\company logo'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-126">In the tree, select 'root\layout\company logo'.</span></span>
+13. <span data-ttu-id="c0cd6-127">Kokā izvērsiet 'root\layout\company logo'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-127">In the tree, expand 'root\layout\company logo'.</span></span>
+14. <span data-ttu-id="c0cd6-128">Kokā atlasiet 'root\layout\company logo\image'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-128">In the tree, select 'root\layout\company logo\image'.</span></span>
+15. <span data-ttu-id="c0cd6-129">Kokā atlasiet 'root\layout\company logo\isprinted'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-129">In the tree, select 'root\layout\company logo\isprinted'.</span></span>
+16. <span data-ttu-id="c0cd6-130">Kokā atlasiet 'root\layout\signature'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-130">In the tree, select 'root\layout\signature'.</span></span>
+17. <span data-ttu-id="c0cd6-131">Kokā izvērsiet 'root\layout\signature'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-131">In the tree, expand 'root\layout\signature'.</span></span>
+18. <span data-ttu-id="c0cd6-132">Kokā atlasiet 'root\layout\signature\image'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-132">In the tree, select 'root\layout\signature\image'.</span></span>
+19. <span data-ttu-id="c0cd6-133">Kokā atlasiet 'root\layout\signature\isprinted'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-133">In the tree, select 'root\layout\signature\isprinted'.</span></span>
+    * <span data-ttu-id="c0cd6-134">Ņemiet vērā, ka divi attēla datu modeļa elementi ir saistīti ar tabulu laukiem, kas satur uzņēmuma logotipa un pilnvarotas personas paraksta attēlus binārā formātā.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-134">Note that two image data model elements are bound to the fields of the tables that contain images of the company logo and the authorized person's signature in binary format.</span></span>  
+20. <span data-ttu-id="c0cd6-135">Kokā izvērsiet 'root\layout\watermark'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-135">In the tree, expand 'root\layout\watermark'.</span></span>
+21. <span data-ttu-id="c0cd6-136">Noklikšķiniet uz Kartēšanas modelis datu avotam.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-136">Click Map model to datasource.</span></span>
+22. <span data-ttu-id="c0cd6-137">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-137">Click Designer.</span></span>
+23. <span data-ttu-id="c0cd6-138">Kokā izvērsiet “chequesselected”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-138">In the tree, expand 'chequesselected'.</span></span>
+24. <span data-ttu-id="c0cd6-139">Kokā izvērsiet elementu “izkārtojums”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-139">In the tree, expand 'layout'.</span></span>
+25. <span data-ttu-id="c0cd6-140">Kokā izvērsiet 'layout\company logo'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-140">In the tree, expand 'layout\company logo'.</span></span>
+26. <span data-ttu-id="c0cd6-141">Kokā izvērsiet 'layout\signature'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-141">In the tree, expand 'layout\signature'.</span></span>
+27. <span data-ttu-id="c0cd6-142">Kokā izvērsiet 'layout\watermark'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-142">In the tree, expand 'layout\watermark'.</span></span>
+28. <span data-ttu-id="c0cd6-143">Ieslēdziet opciju “Rādīt detalizēti”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-143">Toggle 'Show details' on.</span></span>
+    * <span data-ttu-id="c0cd6-144">Ņemiet vērā, ka čeku datu modeļa elements ir saistīts ar tabulu TmpChequePrintout, kura izpildlaikā saturēs čeku ierakstus, kurus lietotājs ir atlasījis drukāšanai.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-144">Note that the cheques data model element is bound to the TmpChequePrintout table that, at runtime, will contain records for cheques that the user has selected for printing.</span></span>   
+29. <span data-ttu-id="c0cd6-145">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-145">Close the page.</span></span>
+30. <span data-ttu-id="c0cd6-146">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-146">Close the page.</span></span>
+31. <span data-ttu-id="c0cd6-147">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-147">Close the page.</span></span>
+
+## <a name="review-the-imported-format"></a><span data-ttu-id="c0cd6-148">Pārskatīt importēto formātu</span><span class="sxs-lookup"><span data-stu-id="c0cd6-148">Review the imported format</span></span>
+1. <span data-ttu-id="c0cd6-149">Koka struktūrā izvērsiet “Čeku modelis”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-149">In the tree, expand 'Model for cheques'.</span></span>
+2. <span data-ttu-id="c0cd6-150">Kokā atlasiet 'Model for cheques\Cheques printing format'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-150">In the tree, select 'Model for cheques\Cheques printing format'.</span></span>
+3. <span data-ttu-id="c0cd6-151">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-151">Click Designer.</span></span>
+4. <span data-ttu-id="c0cd6-152">Noklikšķiniet uz Pielikumi.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-152">Click Attachments.</span></span>
+5. <span data-ttu-id="c0cd6-153">Noklikšķiniet uz Atvērt.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-153">Click Open.</span></span>
+    * <span data-ttu-id="c0cd6-154">Atveriet pievienoto pārskata veidni programmā Excel.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-154">Open the attached report's template in Excel.</span></span>  
+    * <span data-ttu-id="c0cd6-155">Pārskatiet pievienoto pārskata Excel veidni, kas tiks izmantota, lai drukātu čekus.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-155">Review the attached report's Excel template that will be used to print cheques.</span></span> <span data-ttu-id="c0cd6-156">Veidne satur divus čekus katrā lapā un ir paredzēta, lai izdrukātu čekus iepriekš izdrukātā veidlapā.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-156">The template contains two cheques per page and is designed to print cheques to the preprinted form.</span></span> <span data-ttu-id="c0cd6-157">Ņemiet vērā, ka ir iegulti divi tukši attēli.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-157">Note that two blank images are embedded.</span></span> <span data-ttu-id="c0cd6-158">Šie tukšie attēli ir paredzēti uzņēmuma logotipam un tās personas parakstam, kas pilnvaro maksājumu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-158">These blank images are for the company logo and the signature of the person who is authorizing a payment.</span></span> <span data-ttu-id="c0cd6-159">Pārbaudiet, vai attēlu nosaukumi programmā Excel ir attiecīgi CompLogo un SignatureImage.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-159">Verify that the images are named CompLogo and SignatureImage, respectively, in Excel.</span></span>   
+6. <span data-ttu-id="c0cd6-160">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-160">Close the page.</span></span>
+7. <span data-ttu-id="c0cd6-161">Kokā izvērsiet “Pārskats”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-161">In the tree, expand 'Report'.</span></span>
+8. <span data-ttu-id="c0cd6-162">Kokā izversiet 'Report\ChequeLines'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-162">In the tree, expand 'Report\ChequeLines'.</span></span>
+9. <span data-ttu-id="c0cd6-163">Kokā izvērsiet 'Report\ChequeLines\CompLogo'.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-163">In the tree, select 'Report\ChequeLines\CompLogo'.</span></span>
+10. <span data-ttu-id="c0cd6-164">Ieslēdziet opciju “Rādīt detalizēti”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-164">Toggle 'Show details' on.</span></span>
+    * <span data-ttu-id="c0cd6-165">Ņemiet vērā, ka 'CompLogo' formāta šūnas elements ir Excel vienums, kas tiek izmantots, lai aizpildītu uzņēmuma logotipa attēlu pārskatā.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-165">Note that the 'CompLogo' format's cell element represents the Excel item that is used to populate the company logo image in the report.</span></span> <span data-ttu-id="c0cd6-166">Šis formāta elements ir saistīts ar attēlu datu modeļa elementu, kas izpildlaikā satur uzņēmuma logotipa attēlu binārā formātā.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-166">This format element is bound to the image data model element that, at runtime, contains a company logo image in binary format.</span></span>   
+11. <span data-ttu-id="c0cd6-167">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-167">Click the Mapping tab.</span></span>
+12. <span data-ttu-id="c0cd6-168">Noklikšķiniet uz Rediģēšana iespējota.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-168">Click Edit enabled.</span></span>
+    * <span data-ttu-id="c0cd6-169">Ņemiet vērā, ka varat pārveidot 'CompLogo' formāta šūnas elementu, lai tas vairs nebūtu aktivizēts.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-169">Note that you can make the 'CompLogo' format's cell element so that it's no longer enabled.</span></span> <span data-ttu-id="c0cd6-170">Tādā gadījumā saistītais Excel attēla elements paslēps uzņēmuma logotipu ģenerētajā pārskatā.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-170">In this case, the associated Excel image element will hide a company logo in the generated report.</span></span> <span data-ttu-id="c0cd6-171">Ja aktivizētā izteiksme atgriež vērtību TRUE un definētā saistība neparāda attēlu, saistītais Excel attēla elements rāda attēlu, kas ir saglabāts Excel veidnē.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-171">If the enabled expression returns TRUE and the defined binding brings no image, the associated Excel image element will show an image that has been saved in the Excel template.</span></span>   
+13. <span data-ttu-id="c0cd6-172">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-172">Close the page.</span></span>
+14. <span data-ttu-id="c0cd6-173">Kokā izvērsiet “etiķetes: Konteiners”.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-173">In the tree, expand 'labels: Container'.</span></span>
+    * <span data-ttu-id="c0cd6-174">Dažas etiķetes, kas ir redzamas iepriekš izdrukātā čeka veidlapā, tiks iekļautas pārskatā, veidojot to testēšanas nolūkiem.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-174">Some labels that are presented in the preprinted cheque form will be included in the report when it's created for testing purposes.</span></span> <span data-ttu-id="c0cd6-175">Tomēr šīs etiķetes netiks drukātas īstās drukāšanas laikā, jo tās jau ir ietvertas iepriekš izdrukātajā veidlapā.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-175">However, those labels won't be printed during real printing, because the preprinted form already includes them.</span></span>  
+15. <span data-ttu-id="c0cd6-176">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c0cd6-176">Close the page.</span></span>
+
