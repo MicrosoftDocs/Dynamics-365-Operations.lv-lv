@@ -1,6 +1,6 @@
 ---
 title: Klienta maksājumu ieskati (priekšskatījums)
-description: Šī tēma apraksta maksājumu ieskatu iespēju, kas palīdz uzlabot izpratni par atsevišķu debitoru parasto maksājumu praksi un var noteikt apstākļus, kas attaisno to, ka savākšanas procesi tiek sākti agrāk, nekā citkārt.
+description: Šī tēma apraksta maksājuma ieskatu iespēju, kas var palīdzēt uzlabot izpratni par atsevišķu debitoru parasto maksājumu praksi. Šis līdzeklis var arī palīdzēt identificēt apstākļus, kas attaisno iekasēšanas procesu sākšanu agrāk, nekā to varētu sākt citādi.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774002"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644637"
 ---
 # <a name="customer-payment-insights-preview"></a>Klienta maksājumu ieskati (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šī tēma apraksta maksājumu ieskatu iespēju, kas palīdz uzlabot izpratni par atsevišķu debitoru parasto maksājumu praksi un var noteikt apstākļus, kas attaisno to, ka savākšanas procesi tiek sākti agrāk, nekā citkārt. 
+Šī tēma apraksta maksājuma ieskatu iespēju, kas var palīdzēt uzlabot izpratni par atsevišķu debitoru parasto maksājumu praksi. Šis līdzeklis var arī palīdzēt identificēt apstākļus, kas attaisno iekasēšanas procesu sākšanu agrāk, nekā to varētu sākt citādi. 
 
 ## <a name="overview"></a>Pārskats
 
-Organizācijām bieži ir grūti noteikt, kad debitori apmaksās rēķinus. Šis informācijas trūkums noved pie ne tik precīzām naudas plūsmas prognozēm, iekasēšanas procesiem, kas sākas ar novēlošanos, un pasūtījumiem, kas tiek nodoti debitoriem, kuri var neizpildīt savus maksājumus. Debitoru maksājumu ieskati (priekšskatījums) palīdz organizācijām prognozēt, kad debitora rēķins tiks apmaksāts, un palīdz organizācijām izveidot iekasēšanas stratēģijas, kas palielina savlaicīgas apmaksas iespējamību. 
+Var būt grūti noteikt, kad debitori apmaksās rēķinus. Šis informācijas trūkums noved pie ne tik precīzām naudas plūsmas prognozēm, iekasēšanas procesiem, kas sākas ar novēlošanos, un pasūtījumiem, kas tiek nodoti debitoriem, kuri var neizpildīt savus maksājumus. Debitoru maksājumu ieskati (priekšskatījums) palīdz organizācijām prognozēt, kad tiks apmaksāts debitora rēķins. Šī informācija var palīdzēt organizācijām izveidot iekasēšanas stratēģijas, kas uzlabo iespējamību par laicīgu apmaksu. 
 
 ## <a name="predictions"></a>Prognozes
 
@@ -48,7 +48,7 @@ Katram neapmaksātajam rēķinam līdzeklis Debitoru maksājumu ieskati (priekš
 -   Iespējamība, ka maksājums tiek veikts novēloti
 -   Iespējamība, ka maksājums tiek veikts ļoti novēloti
 
-Lai palīdzētu uzņēmumiem izprast kopējo maksājuma summu, ko tie var sagaidīt no debitora vienā no trijiem intervāliem (Laikā, Novēloti un Ļoti novēloti), klientu maksājumu ieskati (priekšskatījums) sniedz arī apkopotu skatījumu par paredzētajiem maksājumiem.
+Debitora maksājumu ieskati (priekšskatījums) sniedz arī apkopotu skatu par gaidāmajiem maksājumiem, kas var palīdzēt organizācijām izprast kopējo maksājuma summu, ko tās var sagaidīt no debitora vienā no trijiem intervāliem (Laikā, Novēloti un Ļoti novēloti).
 
 [![Apkopots skats uz maksājuma prognozēm](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -66,7 +66,7 @@ AI risinājuma izstrāde un izvietošana ir grūta. Ir nepieciešama datu zināt
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Kā iegūt debitoru maksājumu ieskatus (priekšskatījums)?
 
-Lūdzu nosūtiet e-pasta ziņojumu uz [Debitoru maksājumu ieskati (priekšskatījums)](mailto:fiap@microsoft.com), ja vēlaties izmēģināt Debitoru maksājumu ieskatus (priekšskatījums).
+Nosūtiet e-pasta ziņojumu uz [Debitoru maksājumu ieskati (priekšskatījums)](mailto:fiap@microsoft.com), ja vēlaties izmēģināt Debitoru maksājumu ieskatus (priekšskatījums).
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 

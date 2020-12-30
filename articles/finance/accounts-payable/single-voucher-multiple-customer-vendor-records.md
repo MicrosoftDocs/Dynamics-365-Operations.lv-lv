@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006240"
+ms.locfileid: "4445753"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Viens dokumenta ar vairākiem debitora vai kreditora ierakstiem
 
@@ -34,7 +34,7 @@ Daži visbiežāk sastopamie piemēri, kur viens dokuments tiek izmantots vairā
 
 Dokumentu, kas satur vairāk nekā vienu debitoru vai kreditoru var ievadīt, izmantojot vienu no šīm metodēm:
 
--   Izmantojot žurnālu ar atlasītu opciju **Tikai 1 dokumenta numurs** , lai katra rinda, kas tiek pievienota žurnālam ir iekļauta tajā pašā dokumentā.
+-   Izmantojot žurnālu ar atlasītu opciju **Tikai 1 dokumenta numurs**, lai katra rinda, kas tiek pievienota žurnālam ir iekļauta tajā pašā dokumentā.
 -   Izmantojot vairāku rindu dokumentu, ja nav norādīts korespondējošais virsgrāmatas konts, ar vairāk nekā vienu debitoru vai kreditoru.
 -   Ievadot dokumentu ar kontu, un korespondējošais konts ir kreditors/kreditors, debitors/debitors, kreditors/debitors vai debitors/kreditors.
 

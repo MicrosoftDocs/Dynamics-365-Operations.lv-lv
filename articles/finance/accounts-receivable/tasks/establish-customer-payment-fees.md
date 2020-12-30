@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b6475671002379d84519df05a0198a17ac000677
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143746"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445581"
 ---
 # <a name="establish-customer-payment-fees"></a>Debitoru maksājumu papildu maksu izveide
 
@@ -45,7 +45,7 @@ Izveidojiet maksāšanas papildmaksas debitoru maksājumiem.
 12. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 13. Laukā **Maksāšanas veids** atlasiet Maksāšanas veidu, kuram šī maksa tiks novērtēta. Piemēram, varat noteikt papildmaksu klientiem, ja tie veic maksājumus, izmantojot čekus nevis elektronisko maksājumu.  
 14. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-15. Ja nepieciešams, laukā**Maksājuma valūta** ievadiet maksājuma valūtu. Apmaksas valūta tiek izmantota kā papildu kritērijs, lai definētu, vai tiks noteikta papildmaksa.  Piemēram, jūsu banka var iekasēt papildu maksu par maksājumiem, kas saņemti USD valūtā, jo tā parasti veic operācijas tikai EUR valūtā.  
+15. Ja nepieciešams, laukā **Maksājuma valūta** ievadiet maksājuma valūtu. Apmaksas valūta tiek izmantota kā papildu kritērijs, lai definētu, vai tiks noteikta papildmaksa.  Piemēram, jūsu banka var iekasēt papildu maksu par maksājumiem, kas saņemti USD valūtā, jo tā parasti veic operācijas tikai EUR valūtā.  
 16. Atlasiet, vai papildmaksa būs procenti, summa vai intervāls.
 17. Laukā **Procenti/Summa** ievadiet maksas summu vai procentuālo vērtību. Ja laukā Procenti/Summa ir atlasīta vērtība Procenti, šeit ievadītā vērtība būs procentuālā daļa. Ja laukā Procenti/Summa ir atlasīta vērtība Summa, šeit ievadītā vērtība būs summa. Ja laukā Procenti/Summa ir atlasīta vērtība Intervāls, pakāpju definēšanai izmantojiet cilni Intervāls.  
 18. Laukā **Maksas valūta** atlasiet maksas valūtu. Šī ir valūta, kurā tiks izveidota papildmaksa.  

@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770601"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445613"
 ---
 # <a name="posting-definitions"></a>Grāmatošanas definīcijas
 
@@ -32,12 +32,12 @@ ms.locfileid: "2770601"
 Šajā rakstā ir sniegta informācija par grāmatošanas definīcijām un veidu, kā tās definēt un saistīt.
 Lai uzskaites ierakstos klasificētu galvenos kontus un finanšu dimensijas, atbalstītajiem grāmatošanas veidiem un dokumentiem var izmantot grāmatošanas definīcijas nevis grāmatošanas metodes. Atbalstītos dokumentus un grāmatošanas veidus varat skatīt lapā **Transakcijas grāmatošanas definīcijas**. 
 
-Lai sāktu lietot grāmatošanas definīcijas, atlasiet opciju**Izmantot grāmatošanas definīcijas** lapā **Virsgrāmatas parametri**. Pat ja izmantojat grāmatošanas definīcijas, vienalga ir jādefinē sākotnējo ierakstu grāmatošanas metodes un neatbalstītie grāmatošanas veidi un dokumenti. 
+Lai sāktu lietot grāmatošanas definīcijas, atlasiet opciju **Izmantot grāmatošanas definīcijas** lapā **Virsgrāmatas parametri**. Pat ja izmantojat grāmatošanas definīcijas, vienalga ir jādefinē sākotnējo ierakstu grāmatošanas metodes un neatbalstītie grāmatošanas veidi un dokumenti. 
 
 Lai pirkšanas pasūtījumiem iespējotu apgrūtinājumu uzskaiti un pirkšanas pieprasījumiem iespējotu apgrūtinājumu bez juridiskām saistībām uzskaiti, izmantotjiet grāmatošanas definīcijas.
 
 ## <a name="defining-posting-definitions"></a>Grāmatošanas definīciju definēšana
-Izmantojiet lapu**Grāmatošanas definīcijas**, lai norādītu atbilstības kritērijus un definētu ierakstus, kas ir jāģenerē rodoties atbilstībai. Atbilstības kritēriji tiek novērtēti sākotnējiem ierakstiem kā uzskaites sadalēm. 
+Izmantojiet lapu **Grāmatošanas definīcijas**, lai norādītu atbilstības kritērijus un definētu ierakstus, kas ir jāģenerē rodoties atbilstībai. Atbilstības kritēriji tiek novērtēti sākotnējiem ierakstiem kā uzskaites sadalēm. 
 
 Lapā **Grāmatošanas definīcijas** var arī piešķirt prioritātes numurus ierakstu rindām, lai kontrolētu secību, kādā rindas tiek novērtētas. Rindas, kurām ir zemāks prioritātes numurs, tiek novērtētas vispirms. Piemēram, tiek novērtētas visas rindas, kam ir prioritātes numurs 1, pēc tam rindas, kam ir prioritātes numurs 2, un tā tālāk. Ja konstatēta atbilstība, citi atbilstības kritēriji tiek ignorēti. Turklāt, tikai sākotnējai transakcijai atbilstošās grupas kritēriji rada ģenerētos ierakstus. 
 

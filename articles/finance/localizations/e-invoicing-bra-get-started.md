@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039873"
+ms.locfileid: "4445771"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Sākt ar elektronisko rēķinu pievienojumu Brazīlijai 
 
@@ -58,7 +58,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 1. Piesakieties savā RCS kontā
 2. Darbvietā **Globalizācijas līdzekļi** sadaļā **Līdzekli** atlasiet elementu **e-rēķinu izrakstīšana**.
-3. Lapā **E-rēķina līdzekļi** atlasiet **Importēt** , lai importētu NF-e finanšu dokumentu e-rēķinu izrakstīšanas līdzekli no Globālās krātuves.
+3. Lapā **E-rēķina līdzekļi** atlasiet **Importēt**, lai importētu NF-e finanšu dokumentu e-rēķinu izrakstīšanas līdzekli no Globālās krātuves.
 
     ![Poga ´Importēt´](media/e-Invoicing-services-get-started-BRA-Select-Import-e-Invoicing-feature.png)
 
@@ -74,7 +74,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 ### <a name="update-the-configuration-version"></a>Atjaunināt konfigurācijas versiju
 
-1. Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Konfigurācijas** vai **Dzēst** , lai pārvaldītu konfigurāciju versijas (ER failu formātu konfigurācijas).
+1. Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Konfigurācijas** vai **Dzēst**, lai pārvaldītu konfigurāciju versijas (ER failu formātu konfigurācijas).
 
     ![E-rēķinu izrakstīšanas līdzekļa konfigurāciju pārvaldība](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -89,7 +89,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
         - NFe atcelšanas eksporta formāts
 
-2. Sarakstā atlasiet konfigurācijas versiju un pēc tam atlasiet **Rediģēt** vai **Skatīt** , lai atvērtu lapu **Formāta veidotājs** , kurā var rediģēt vai skatīt konfigurāciju.
+2. Sarakstā atlasiet konfigurācijas versiju un pēc tam atlasiet **Rediģēt** vai **Skatīt**, lai atvērtu lapu **Formāta veidotājs**, kurā var rediģēt vai skatīt konfigurāciju.
 
     ![Formāta veidotāja lapas atvēršana](media/e-Invoicing-services-get-started-BRA-Configuration-ER-fomat-designer.png)
 
@@ -99,7 +99,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 ### <a name="manage-the-e-invoicing-feature-setups"></a>Pārvaldīt e-rēķinu izrakstīšanas līdzekļa iestatījumus
 
-- Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** vai **Dzēst** , lai pārvaldītu e-rēķinu izrakstīšanas līdzekļa iestatījumus (tas ir, NF-e notikumus).
+- Lapas **E-rēķina līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** vai **Dzēst**, lai pārvaldītu e-rēķinu izrakstīšanas līdzekļa iestatījumus (tas ir, NF-e notikumus).
 
 ![E-rēķinu izrakstīšanas līdzekļa iestatījumu pārvaldība](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-setup.png)
 
@@ -116,7 +116,7 @@ Lai iesniegtu NF-e atcelšanu, ir nepieciešams līdzekļa iestatījums **Atcel�
 
     ![Rediģējiet e-rēķinu izrakstīšanas līdzekļa iestatījumu](media/e-Invoicing-services-get-started-BRA-Edit-e-Invoicing-feature-setup.png)
 
-3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības** , lai pārvaldītu darbību sarakstu.
+3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības**, lai pārvaldītu darbību sarakstu.
 
     ![Cilne Darbības](media/e-Invoicing-services-get-started-BRA-Select-Actions.png)
 
@@ -135,16 +135,16 @@ Lai iesniegtu NF-e atcelšanu, ir nepieciešams līdzekļa iestatījums **Atcel�
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>Iestatiet vietrādi URL SEFAZ tīmekļa pakalpojumiem 
 
-1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Darbības** kopsavilkuma cilnē darbības **Darbības** atlasiet **Izsaukt Brazīlijas SEFAZ pakalpojumu** (darbības ID **3** ).
+1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Darbības** kopsavilkuma cilnē darbības **Darbības** atlasiet **Izsaukt Brazīlijas SEFAZ pakalpojumu** (darbības ID **3**).
 2. Kopsavilkuma cilnē **Parametri** laukā **URL adreses parametrs** ievadiet SEFAZ tīmekļa pakalpojuma vietrādi URL NF-e iesniegšanai.
-3. Kopsavilkuma cilnē **Darbības** atlasiet **Izsaukt Brazīlijas SEFAZ pakalpojumu** (darbības ID **7** ).
+3. Kopsavilkuma cilnē **Darbības** atlasiet **Izsaukt Brazīlijas SEFAZ pakalpojumu** (darbības ID **7**).
 4. Kopsavilkuma cilnē **Parametri** laukā **URL adreses parametrs** ievadiet SEFAZ tīmekļa pakalpojuma vietrādi URL NF-e iesniegšanai.
 
 #### <a name="configure-the-cancellation-feature-setup"></a>Konfigurēt līdzekļa iestatījumu Atcelšana
 
 1. Lapā **E-rēķina līdzekļi** cilnē **Iestatījumi** kolonnā **Līdzekļu iestatīšana** atlasiet **Atcelšana**.
 2. Atlasiet **Rediģēt**.
-3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības** , lai pārvaldītu darbību sarakstu.
+3. Lapā **Līdzekļu versijas iestatīšana** atlasiet cilni **Darbības**, lai pārvaldītu darbību sarakstu.
 4. Pārskatiet darbības, kas ir nepieciešami, lai pieprasītu apstiprinātā NF-e atcelšanu.
 
     | Darbības ID | Darbības nosaukums                  | Darbības apraksts                                               |
@@ -156,7 +156,7 @@ Lai iesniegtu NF-e atcelšanu, ir nepieciešams līdzekļa iestatījums **Atcel�
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>Iestatiet vietrādi URL SEFAZ tīmekļa pakalpojumiem
 
-1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Darbības** kopsavilkuma cilnē darbības **Darbības** atlasiet **Izsaukt Brazīlijas SEFAZ pakalpojumu** (darbības ID **3** ).
+1. Lapā **Līdzekļu versijas iestatīšana** cilnē **Darbības** kopsavilkuma cilnē darbības **Darbības** atlasiet **Izsaukt Brazīlijas SEFAZ pakalpojumu** (darbības ID **3**).
 2. Kopsavilkuma cilnē **Parametri** laukā **URL adreses parametrs** ievadiet SEFAZ tīmekļa pakalpojuma vietrādi URL apstiprināta NF-e atcelšanai.
 
 ### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>Padariet pieejamu e-rēķinu izrakstīšanas vidi un piešķiriet melnraksta versiju
@@ -191,7 +191,7 @@ Iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 ### <a name="turn-on-the-nf-e-federal-feature-for-brazil"></a>Ieslēdziet NF-e federālo līdzekli Brazīlijai
 
 1. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
-2. Cilnē **Līdzekļi** atzīmējiet izvēles rūtiņu **Iespējot** , kas atrodas līdzekļu reksturojuma rindā **BR00053**.
+2. Cilnē **Līdzekļi** atzīmējiet izvēles rūtiņu **Iespējot**, kas atrodas līdzekļu reksturojuma rindā **BR00053**.
 
 ### <a name="import-the-er-data-model-mapping-required-for-nf-e-fiscal-documents"></a>Importējiet ER datu modeļa kartēšanu, kas nepieciešama NF-e finanšu dokumentiem
 
@@ -206,7 +206,7 @@ Iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 1. Darbvietas **Elektronisko pārskatu veidošana** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
 2. Atlasiet **Repozitoriji**.
 3. Atlasiet **Globālais resurss \> Atvērt**.
-4. Importējiet **NF-e kļūdu žurnāla importēšana (BR)** , **NF-e atbilžu datu importēšanas formāts (BR)** un **NF-e atbilžu ziņojumu importēšana (BR)**.
+4. Importējiet **NF-e kļūdu žurnāla importēšana (BR)**, **NF-e atbilžu datu importēšanas formāts (BR)** un **NF-e atbilžu ziņojumu importēšana (BR)**.
 5. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
 6. Cilnē **Elektronisks dokuments** atlasiet **Pievienot**.
 6. Laukā **Tabulas nosaukums** ievadiet **Finanšu dokumenta virsraksts**.
@@ -231,32 +231,32 @@ Finance apstrādes laikā jūs veiksiet šādus uzdevumus:
 
 ### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>Iesniedziet NF-e finanšu dokumentus SEFAZ autorizācijai 
 
-Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , vairs nevarēsiet izmantot veco procesu, lai iesniegtu NF-e finanšu dokumentus autorizācijai ( **Eksporta/Importa NF-e process)**. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
+Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, vairs nevarēsiet izmantot veco procesu, lai iesniegtu NF-e finanšu dokumentus autorizācijai (**Eksporta/Importa NF-e process)**. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
 
 > [!NOTE]
-> Pirms turpināt, pārliecinieties, ka jums ir viens vai vairāki debitoru finanšu dokumentu modeļi 55, ko izsniedza debitoru finanšu uzņēmums. Šo finanšu dokumentu virziens ir jāiestata uz **Izejošs** , un statusam ir jābūt **Izveidots**. Papildinformāciju skatiet šeit: [Debitora finanšu dokumenta izsniegšana (Brazīlija)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
+> Pirms turpināt, pārliecinieties, ka jums ir viens vai vairāki debitoru finanšu dokumentu modeļi 55, ko izsniedza debitoru finanšu uzņēmums. Šo finanšu dokumentu virziens ir jāiestata uz **Izejošs**, un statusam ir jābūt **Izveidots**. Papildinformāciju skatiet šeit: [Debitora finanšu dokumenta izsniegšana (Brazīlija)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai vienmēr iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.
-3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs** , lai atvērtu dialoglodziņu **Pieprasījums** , kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
+3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs**, lai atvērtu dialoglodziņu **Pieprasījums**, kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
 4. Cilnē **Diapazons** atlasiet **Pievienot**.
 5. Laukā **Tabula** atlasiet **Finanšu dokumenta virsraksts**.
 6. Laukā **Atveidotā tabula** atlasiet **Finanšu dokumenta virsraksts**.
 6. Laukā **Lauks** atlasiet **Numurs**.
 7. Laukā **Kritērijs** ievadiet iesniedzamā finanšu dokumenta numuru.
 8. Lai dialoglodziņu **Pieprasījums** aizvērtu, atlasiet **Labi**.
-8. Atlasiet **Labi** , lai iesniegtu atlasītos dokumentus.
+8. Atlasiet **Labi**, lai iesniegtu atlasītos dokumentus.
 
 > [!NOTE]
 > Pirmajā mēģinājumā iesniegt dokumentu, izmantojot pakalpojumu, jums tiks piedāvāts apstiprināt savienojumu ar elektronisko rēķinu pievienojumprogrammu. Atlasiet **Noklikšķiniet šeit, lai izveidotu savienojumu ar elektronisko dokumentu iesniegšanas pakalpojumu**.
 
 ### <a name="view-all-submission-logs"></a>Skatīt visus iesniegšanas žurnālus
 
-Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , ir pieejama jauna lapa, kas ļauj sekot līdzi dokumentu iesniegšanas procesam. Varat izmantot šo lapu, lai skatītu visu iesniegto dokumentu iesniegšanas žurnālus.
+Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, ir pieejama jauna lapa, kas ļauj sekot līdzi dokumentu iesniegšanas procesam. Varat izmantot šo lapu, lai skatītu visu iesniegto dokumentu iesniegšanas žurnālus.
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Elektronisko dokumentu iesniegšanas žurnāls**.
-2. Laukā **Dokumenta veids** atlasiet **Finanšu dokumenta virsraksts** , lai filtrētu tikai finanšu dokumentus.
-3. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas** , lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
+2. Laukā **Dokumenta veids** atlasiet **Finanšu dokumenta virsraksts**, lai filtrētu tikai finanšu dokumentus.
+3. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas**, lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
 
 ![Iesniegšanas žurnāla informācijas skatīšana](media/e-Invoicing-services-get-started-BRA-View-Submission-log-details.png)
 
@@ -265,17 +265,17 @@ Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu
 
 ### <a name="view-submission-logs-through-the-fiscal-document-page"></a>Skatiet iesniegšanas žurnālus, izmantojot finanšu dokumenta lapu
 
-Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , varat arī skatīt iesniegumu žurnālus, izmantojot finanšu dokumenta lapu.
+Pēc tam, kad esat ieslēdzis līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, varat arī skatīt iesniegumu žurnālus, izmantojot finanšu dokumenta lapu.
 
 1. Dodieties uz **Virsgrāmata \> Vaicājumi un pārskati \> Finanšu dokumenti \> Visi finanšu dokumenti**.
 2. Atlasiet finanšu dokumentu, kas iepriekš tika iesniegts, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
-3. Darbības rūtī, kas atrodas cilnē **NF-e federālais** , atlasiet **Elektronisko dokumentu žurnāls**.
+3. Darbības rūtī, kas atrodas cilnē **NF-e federālais**, atlasiet **Elektronisko dokumentu žurnāls**.
 
 ![Iesniegumu žurnālu skatīšana no finanšu dokumenta lapas](media/e-Invoicing-services-get-started-BRA-View-Submission-log-from-Fiscal-document-viewer.png)
 
 ### <a name="submit-approved-nf-e-fiscal-documents-for-sefaz-cancellation"></a>Iesniedziet apstiprinātus NF-e finanšu dokumentus SEFAZ atcelšanai
 
-Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana** , vairs nevarēsiet izmantot veco procesu, lai atceltu NF-e finanšu dokumentus. Tas ir aizstāts ar jaunu atcelšanas procesu, kas ir iegults lapā **Elektronisko dokumentu iesniegšanas žurnāls**.
+Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrēšana**, vairs nevarēsiet izmantot veco procesu, lai atceltu NF-e finanšu dokumentus. Tas ir aizstāts ar jaunu atcelšanas procesu, kas ir iegults lapā **Elektronisko dokumentu iesniegšanas žurnāls**.
 
 > [!NOTE]
 > Pārliecinieties, ka esat palaidis debitora finanšu dokumenta atcelšanu apstiprinātajam NF-e finanšu dokumentam. Papildinformāciju skatiet šeit: [Debitora finanšu dokumenta atcelšana (Brazīlija)](https://docs.microsoft.com/dynamics365/finance/localizations/latam-bra-cancel-customer-fiscal-documents).
@@ -287,7 +287,7 @@ Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izra
 ### <a name="view-cancellation-submission-logs"></a>Skatīt atcelšanas iesniegšanas žurnālus
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Elektronisko dokumentu iesniegšanas žurnāls**.
-2. Laukā **Dokumenta veids** atlasiet **Finanšu dokumenta virsraksts** , lai filtrētu tikai finanšu dokumentus.
+2. Laukā **Dokumenta veids** atlasiet **Finanšu dokumenta virsraksts**, lai filtrētu tikai finanšu dokumentus.
 3. Atlasiet finanšu dokumentu un pēc tam Darbību rūtī atlasiet **Vaicājumi \> Saistītie iesniegumi**.
 
     Saistītie iesniegumi ir iesniegumi, kas attiecas uz galveno iesniegumu, kas tika veikts pirmais. Piemēram, iesniegums, kas autorizē konkrētu NF-e, ir galvenais iesniegums. Iesniegums, kas pieprasa atcelšanu tai pašai NF-e SEFAZ, ir saistīts iesniegums. Tas pastāv tikai tāpēc, ka tas pieprasa anulēt darbu, kas tika veikts, izmantojot citu iesniegumu.
@@ -296,12 +296,12 @@ Pēc tam, kad ieslēdzat līdzekli **Konfigurējamās Elektronisko rēķinu izra
 
     ![Atcelšanas iesniegšanas žurnālu apskate](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log.png)
 
-4. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas** , lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
+4. Darbības rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas**, lai skatītu detalizētu informāciju par iesniegšanas izpildes žurnāliem.
 
     ![Atcelšanas iesniegšanas žurnāla informācijas skatīšana](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Iespējojot līdzekli BR-00053 (NF-e federālais), var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestāde, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktā formātā, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumu. Administrators var iespējot un atspējot līdzekli BR-00053 (NF-e Federal), pārvietojoties uz **Organizācijas administrēšana \> Iestatījumi \> Elektroniskā dokumenta parametri**. Atlasiet cilni **Līdzekļi** , atlasiet rindu, kas satur līdzekli BR-00053, un pēc tam veiciet atbilstošo atlasi. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, lūdzu, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
+Iespējojot līdzekli BR-00053 (NF-e federālais), var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestāde, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktā formātā, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumu. Administrators var iespējot un atspējot līdzekli BR-00053 (NF-e Federal), pārvietojoties uz **Organizācijas administrēšana \> Iestatījumi \> Elektroniskā dokumenta parametri**. Atlasiet cilni **Līdzekļi**, atlasiet rindu, kas satur līdzekli BR-00053, un pēc tam veiciet atbilstošo atlasi. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, lūdzu, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
 
 
 ## <a name="additional-resources"></a>Papildu resursi

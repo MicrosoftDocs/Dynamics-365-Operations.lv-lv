@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006217"
+ms.locfileid: "4445756"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Ārvalstu valūtas pārvērtēšana Virsgrāmatai
 
@@ -41,25 +41,25 @@ Kad palaižat pārvērtēšanas procesu, tiek pārvērtēta bilance katrā galve
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Sagatavot ārvalstu valūtas pārvērtēšanas palaišanu
 Pirms palaižat pārvērtēšanas procesa, ir nepieciešami tālāk aprakstītie iestatījumi.
 
--   Lapā **Galvenais konts** :
+-   Lapā **Galvenais konts**:
 -   Ja galvenais konts ir jāpārvērtē virsgrāmatā, atzīmējiet vienumu **Ārvalstu valūtas pārvērtēšana**. Ja galvenajam kontam nav jāveic pārvērtēšana (piemēram, attiecībā uz AR un AP, ja pārvērtēšana notiek apakšgrāmatās), notīriet šīs opcijas atzīmi.
 -   Ja galvenais konts ir atzīmēts pārvērtēšanai, norādiet vērtību vienumam **Maiņas kursa tips**. Šis maiņas kursa tips tiks izmantots galvenā konta pārvērtēšanai. Finanšu pārskatu veidošanai ir pieejams atsevišķs lauks — **Finanšu pārskatu maiņas kursa tips**. Šie abi lauki netiek sinhronizēti, tādējādi ļaujot pārvērtēšanai un finanšu pārskatu veidošanai izmantot dažādus maiņas kursa tipus.
 
--   Lapā **Virsgrāmata** :
+-   Lapā **Virsgrāmata**:
 -   Norādiet vērtību vienumam **Maiņas kursa tips**. Ja galvenajā kontā nav definēts maiņas kursa tips, tad ārvalstu valūtas pārvērtēšanas laikā tiks izmantots šis maiņas kursa tips.
 -   Norādiet realizētās peļņas, realizēto zaudējumu, nerealizētās peļņas un nerealizēto zaudējumu kontus valūtas pārvērtēšanai. Realizētās peļņas un realizēto zaudējumu konti tiek izmantoti, kad tiek nokārtotas AR un AP transakcijas, bet nerealizētās peļņas un nerealizēto zaudējumu konti tiek izmantoti atvērto transakciju un virsgrāmatas galveno kontu pārvērtēšanai.
 
--   Lapā **Valūtas pārvērtēšanas konti** :
+-   Lapā **Valūtas pārvērtēšanas konti**:
 -   Katrai valūtai un uzņēmumam atlasiet citus valūtas pārvērtēšanas kontus. Ja neviens konts nav definēts, tiek izmantoti konti no lapas **Virsgrāmata**.
 
 ## <a name="process-foreign-currency-revaluation"></a>Apstrādāt ārvalstu valūtas pārvērtēšanu
-Kad iestatīšana ir pabeigta, izmantojiet lapu **Ārvalstu valūtas pārvērtēšana** , lai pārvērtētu galveno kontu bilances. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. 
+Kad iestatīšana ir pabeigta, izmantojiet lapu **Ārvalstu valūtas pārvērtēšana**, lai pārvērtētu galveno kontu bilances. Varat palaist procesu reāllaikā vai ieplānot tā palaišanu, izmantojot pakešuzdevumu. 
 
 Lapā **Ārvalstu valūtas pārvērtēšana** tiek rādīta katra pārvērtēšanas procesa vēsture, tostarp laiks, kad šis process tika palaists, kādi kritēriji bija definēti, saite uz pārvērtēšanai izveidoto dokumentu, kā arī ieraksts, ja iepriekšējā pārvērtēšana tika anulēta. Lai palaistu pārvērtēšanas procesu, atlasiet pogu **Ārvalstu valūtas pārvērtēšana**. 
 
 Vērtības **No datuma** un **Līdz datumam** definē pārvērtējamās ārvalstu valūtas bilances aprēķina datumu intervālu. Kad veicat pārvērtēšanu peļņas un zaudējumu kontos, tiek pārvērtēta summa no visām transakcijām, kas notikušas šajā datumu intervālā. Kad pārvērtējat bilances kontus, vērtība No datuma tiek ignorēta. Tās vietā pārvērtējamā bilance tiek noteikta, sākot no finanšu gada sākuma līdz vērtībai Līdz datumam. 
 
-Izmantot Izmantojot lauku **Likmes datums** , varat norādīt noklusējuma maiņas kursa datumu. Piemēram, varat pārvērtēt bilances datumu diapazonā no 1. janvāra līdz 31. janvārim, izmantojot 1. februārim norādīto maiņas kursu. 
+Izmantot Izmantojot lauku **Likmes datums**, varat norādīt noklusējuma maiņas kursa datumu. Piemēram, varat pārvērtēt bilances datumu diapazonā no 1. janvāra līdz 31. janvārim, izmantojot 1. februārim norādīto maiņas kursu. 
 
 Atlasiet, kurus galvenos kontus pārvērtēt: Visi, Bilance vai Peļņa un zaudējumi. Tiek pārvērtēti tikai tie galvenie konti, kas ir atzīmēti pārvērtēšanai (lapā Galvenais konts). Ja vēlaties precizēt galveno kontu diapazonu, norādiet galveno kontu diapazonu vai atsevišķus galvenos kontus cilnē **Iekļaujamie ieraksti**. 
 

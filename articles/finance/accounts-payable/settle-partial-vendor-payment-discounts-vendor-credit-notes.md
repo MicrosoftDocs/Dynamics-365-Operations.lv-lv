@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178911"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445434"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Tāda daļēja kreditora maksājuma segšana, kam ir atlaides kreditora kredītrēķiniem
 
@@ -58,7 +58,7 @@ Eiprila noklikšķina uz **Grāmatot**. Pēc tam viņa pārskata pabeigto noseg�
 | Atlasīts un iezīmēts | Parastais            | Inv-10070 | 3050    | 29.06.2015 | 29.07.2015 | 10070    | –1000,00                      | USD      | –200,00          |
 | Atlasīts                 | Parastais            | CR-10070  | 3050    | 02.07.2015  | 29.07.2015 | CR-10070 | 200,00                         | USD      | 198,00           |
 
-Eiprila var pārskatīt kreditoru darbības lapā **Kreditoru darbības**, atlasot kreditoru lapā **Visi kreditori**un pēc tam darbību rūtī noklikšķinot uz **Darbības**. Šajā lapā Eiprila redz, ka rēķina bilances ir –800,00. Viņa arī redz kredītrēķinu par summu 198,00 un atlaides summu 2,00.
+Eiprila var pārskatīt kreditoru darbības lapā **Kreditoru darbības**, atlasot kreditoru lapā **Visi kreditori** un pēc tam darbību rūtī noklikšķinot uz **Darbības**. Šajā lapā Eiprila redz, ka rēķina bilances ir –800,00. Viņa arī redz kredītrēķinu par summu 198,00 un atlaides summu 2,00.
 
 | Dokuments    | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance | Valūta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

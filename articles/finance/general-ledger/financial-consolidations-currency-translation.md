@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "3823459"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445707"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -98,7 +98,7 @@ Konsolidācijas rezultātu skatīšanai ir vairākas iespējas, kā norādīts t
 
 - Izveidojiet finanšu pārskatu pret konsolidācijas uzņēmumu.
 - Pārskatiet saraksta lapu **Apgrozījuma bilance** konsolidācijas uzņēmumā.
-- Konsolidācijas transakciju sarakstā lapā**Konsolidācijas** skatiet bilances, kas tiek izveidotas pēc datuma katram izcelsmes uzņēmumam par katru periodu.
+- Konsolidācijas transakciju sarakstā lapā **Konsolidācijas** skatiet bilances, kas tiek izveidotas pēc datuma katram izcelsmes uzņēmumam par katru periodu.
 
     ![Konsolidācijas darbības lapā Konsolidācija](./media/managing-consolidation-transactions.png "Konsolidācijas darbības lapā Konsolidācija")
 

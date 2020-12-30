@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188928"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445486"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 
@@ -42,14 +42,14 @@ Arnis debitoram 4031 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 2
 | 09.07.2015           | 10,00                | 990,00                         |
 | 25.07.2015          | 0,00                 | 1000,00                       |
 
-Arnijs varat apskatīt šo transakciju lapā**Debitoru darbības**.
+Arnijs varat apskatīt šo transakciju lapā **Debitoru darbības**.
 
 | Dokuments   | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance  | Valūta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10030 | Rēķins          | 25.06.2015 | 10030   | 1000,00                             |                                       | 1000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Daļēja apmaksa pirms termiņatlaides datuma
-28. jūnijā debitors 4031 veic daļēju maksājumu 294,00 apmērā. Tā kā 28. jūnijs ietilpst pirmajā termiņatlaides periodā, debitors izmanto 6,00 atlaidi. Lapā **Transakciju nosegšana** vērtība**Termiņatlaides summa** ir 20,00 un vērtība **Ņemamā termiņatlaides summa** ir 6,00.
+28. jūnijā debitors 4031 veic daļēju maksājumu 294,00 apmērā. Tā kā 28. jūnijs ietilpst pirmajā termiņatlaides periodā, debitors izmanto 6,00 atlaidi. Lapā **Transakciju nosegšana** vērtība **Termiņatlaides summa** ir 20,00 un vērtība **Ņemamā termiņatlaides summa** ir 6,00.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

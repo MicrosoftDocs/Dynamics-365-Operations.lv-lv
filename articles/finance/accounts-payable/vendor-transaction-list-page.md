@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1534aab03ac35950e875a1384dfdf2a22bc22546
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978011"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4445817"
 ---
 # <a name="vendor-transactions-list-page"></a>Kreditora darbību saraksta lapa
 
@@ -39,7 +39,7 @@ Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi
 
 4. Dialoglodziņā var izpildīt dažādus uzdevumus. Atlasiet vienu vai vairākus dokumentus un pēc tam atlasiet vienu no tālāk norādītajām pogām.
 
-    - **Skatīt saistīto** — parādīt visas konkrētā kreditora maksājumu žurnāla transakcijas un Virsgrāmatas žurnāla transakcijas, kas ir izveidotas žurnālos, kuros ir izveidoti sarakstā redzamie dokumenti. Piemēram, ja tiek rādīts maksājums, tad tiek parādīti visi maksājumi tajā maksājumu žurnālā, kurā ir izveidots šis maksājums. Ja tiek rādīts rēķins vai maksājums, kas ir izveidots Virsgrāmatas žurnālā, tad tiek parādīti visi dokumenti tajā Virsgrāmatas žurnālā, kurā ir izveidots šis rēķins vai maksājums. Tiek parādītas arī visas ar dokumentu sarakstu saistītas nosegšanas darbības. Skatot saistītos maksājumus, šīs pogas apzīmējums mainās uz **Skatīt nosegšanas darbības**. Atlasiet **Skatīt nosegšanas darbības**, lai skatītu tikai tās transakcijas, kuras tika parādītas, pirmo reizi atvērot dialoglodziņu **Skatīt nosegšanas darbības**.
+    - **Skatīt saistīto** — parādīt visus konkrētā kreditora maksājumu žurnāla darījumus un Virsgrāmatas žurnāla darījumus, kas ir izveidoti žurnālos, kuros ir izveidoti sarakstā redzamie dokumenti. Piemēram, ja tiek rādīts maksājums, tad tiek parādīti visi maksājumi tajā maksājumu žurnālā, kurā ir izveidots šis maksājums. Ja tiek rādīts rēķins vai maksājums, kas ir izveidots Virsgrāmatas žurnālā, tad tiek parādīti visi dokumenti tajā Virsgrāmatas žurnālā, kurā ir izveidots šis rēķins vai maksājums. Tiek parādītas arī visas ar dokumentu sarakstu saistītas nosegšanas darbības. Skatot saistītos maksājumus, šīs pogas apzīmējums mainās uz **Skatīt nosegšanas darbības**. Atlasiet **Skatīt nosegšanas darbības**, lai skatītu tikai tās transakcijas, kuras tika parādītas, pirmo reizi atvērot dialoglodziņu **Skatīt nosegšanas darbības**.
     - **Skatīt vēsturi** — ļauj skatīt ar dokumentiem saistīto nosegšanas vēsturi. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
     - **Skatīt uzskaiti** — ļauj skatīt visus ar atlasītajiem dokumentiem saistītos dokumentus. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
     - **Eksportēt** — eksportēt atlasītos dokumentus uz programmu Microsoft Excel.
@@ -48,7 +48,7 @@ Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi
 
 ## <a name="global-transactions"></a>Globālās transakcijas
 
-Poga **Globālās transakcijas** tiek rādīta arī sarakstu lapā **Kreditoru transakcijas**. Izmantojot šo pogu, var skatīt visas ar kreditoru saistītās transakcijas, ko veikušas visas juridiskās personas. Sarakstu lapā **Kreditora transakcijas** ir redzamas tikai to juridisko personu transakcijas, kurām lietotājam ir piekļuve saskaņā ar viņa vai viņas drošības iestatījumiem.
+Poga **Globālās transakcijas** tiek rādīta arī sarakstu lapā **Kreditoru transakcijas**. Izmantojot šo pogu, var skatīt visas ar kreditoru saistītās transakcijas, ko veikušas visas juridiskās personas. Sarakstu lapā **Debitora darījumi** ir redzami tikai to juridisko personu darījumi, kurām lietotājam ir piekļuve saskaņā ar tā drošības iestatījumiem.
 
 Sarakstu lapā tiek parādītas to kreditoru transakcijas, kuriem ir tāds pats puses ID kā atlasītajam kreditoram. Piemēram, ja juridiskas personas kreditoram US-001 ir tāds pats puses ID kā citas juridiskas personas kreditoram DE-001, tiek parādītas visas abu kreditoru ID transakcijas.
 

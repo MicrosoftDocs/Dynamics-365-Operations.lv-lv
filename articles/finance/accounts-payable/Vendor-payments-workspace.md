@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022523"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4445762"
 ---
 # <a name="vendor-payments-workspace"></a>Kreditoru maksājumu darbvieta
 
@@ -35,9 +35,9 @@ Darbvietā **Kreditoru maksājumi** tiek rādīta informācija, kas ir saistīta
 Lai datus varētu parādīt sadaļas **Kreditoru maksājumi** Power BI vizuālajos līdzekļos, ir jāizpilda tālāk aprakstītā iestatīšana.
 1. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Sistēmas parametri** un iestatiet parametrus **Sistēmas valūta** un **Sistēmas maiņas kurss**.
 2. Lai validētu finanšu kalendāra datumus, kas piešķirti aktīvajam laika periodam, dodieties uz **Virsgrāmata > Kalendāri > Finanšu kalendāri**.
-3. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata** , lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**. 
+3. Dodieties uz **Virsgrāmata > Iestatīšana > Virsgrāmata**, lai iestatītu vienumu **Uzskaites valūta** un **Maiņas kursa tips**. 
 4. Nosakiet maiņas kursu starp transakciju valūtām un uzskaites valūtu un starp uzskaites valūtu un sistēmas valūtu. Lai to izdarītu, dodieties uz **Virsgrāmata > Valūtas > Valūtas maiņas kursi**.
-5. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve** , lai atsvaidzinātu apkopošanas mērījumu **VendPaymentBIMeasureV2**.
+5. Dodieties uz **Sistēmas administrēšana > Iestatīšana > Elementu krātuve**, lai atsvaidzinātu apkopošanas mērījumu **VendPaymentBIMeasureV2**.
 
 ## <a name="my-work-view"></a>Skats Mans darbs
 

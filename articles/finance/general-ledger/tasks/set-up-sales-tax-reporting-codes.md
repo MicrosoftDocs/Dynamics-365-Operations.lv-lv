@@ -1,6 +1,6 @@
 ---
 title: Iestatīt PVN pārskatu kodus
-description: PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā.
+description: PVN pārskatu kodi attiecas uz lauka numuru, kas norādīts PVN pārskatā.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/08/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c18f4fb0db31a959647bb10d2b99d940646676e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976797"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646185"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Iestatīt PVN pārskatu kodus
 
 [!include [banner](../../includes/banner.md)]
 
-PVN pārskatu kodi attiecas uz lauka numuru PVN pārskatā. Tos izmanto valstij atbilstošu pārskatu izkārtojumos un PVN maksājumu pārskatā pēc kodiem, lai drukātu PVN summas apmaksas periodā, summējot pēc pārskata koda. Kad esat izveidojis PVN pārskata kodus, varat uz tiem atsaukties Pārskatu iestatīšanas kopsavilkuma cilnē PVN koda lapā. 
+PVN pārskatu kodi attiecas uz lauka numuru, kas norādīts PVN pārskatā. Tie tiek izmantoti konkrētu valstu pārskata izkārtojumos. Tie tiek izmantoti arī PVN maksājumā pēc koda pārskata. Šis pārskats rāda PVN summas segšanas periodam, kas apkopotas katram pārskata kodam. Kad esat izveidojis PVN pārskata kodus, varat uz šiem kodiem atsaukties Pārskatu iestatīšanas kopsavilkuma cilnēs, kurām varat piekļūt lapā **PVN kods**. 
 
 Šis paraugs izmanto DEMF demonstrācijas uzņēmumu.
 

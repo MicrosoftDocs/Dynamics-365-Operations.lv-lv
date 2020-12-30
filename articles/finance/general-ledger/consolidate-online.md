@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770739"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445584"
 ---
 # <a name="online-financial-consolidations"></a>Tiešsaistes finanšu konsolidācijas
 
@@ -42,7 +42,7 @@ Tālāk aprakstīts šīs cilnes dažādo lauku skaidrojums.
 - **Galvenais konts** – izmantojiet šīs sadaļas laukus, lai noteiktu galvenos kontus, kas tiks apstrādāti.
 
     - **No** un **līdz** – norādiet apstrādājamo kontu diapazonu. Atstājot šos laukus tukšus, visu uzņēmumu visi konti tiks pārvietoti uz konsolidācijas uzņēmumu. Tādēļ, ja konsolidējat četrus uzņēmumus un katram uzņēmumam ir cits kontu plāns, visu četru uzņēmumu visi konti tiks izveidoti konsolidācijas uzņēmumā.
-    - **Konsolidācijas konta izmantošana** — ja šī opcija ir iestatīta kā**Jā**, lauks **Atlasīt konsolidācijas kontu no** kļūst pieejams. Šajā laukā atlasiet, vai visi konti ir jākonsolidē konsolidācijas kontā, kas ir iestatīts lapā **Galvenie konti**, vai arī, vai vēlaties atlasīt kontu no kādas konsolidācijas kontu grupas.
+    - **Konsolidācijas konta izmantošana** — ja šī opcija ir iestatīta kā **Jā**, lauks **Atlasīt konsolidācijas kontu no** kļūst pieejams. Šajā laukā atlasiet, vai visi konti ir jākonsolidē konsolidācijas kontā, kas ir iestatīts lapā **Galvenie konti**, vai arī, vai vēlaties atlasīt kontu no kādas konsolidācijas kontu grupas.
     - **Konsolidācijas kontu grupa** – atlasiet grupu, kuru izmantot galvenā konta kartēšanai konsolidācijai.
 
 - **Konsolidācijas periods** – izmantojiet šīs sadaļas laukus, lai definētu konsolidācijas periodu.

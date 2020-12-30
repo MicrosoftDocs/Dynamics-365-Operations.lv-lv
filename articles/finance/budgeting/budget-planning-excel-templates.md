@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772103"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445716"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Budžeta plānošanas veidnes programmai Excel
 
@@ -67,7 +67,7 @@ Cilnē **Dizains** noklikšķiniet uz **Pievienot laukus** un pēc tam kā eleme
 
 Ar kursoru norādiet uz vēlamo vietu Excel failā. Noklikšķiniet uz **Pievienot etiķeti**, lai atlasītajai vietai pievienotu lauka etiķeti. Atlasiet vienumu **Pievienot vērtību**, lai atlasītajai vietai pievienotu šo vērtības lauku. Lai aizvērtu noformētāju, noklikšķiniet uz **Gatavs**.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Atlasīt Pievienot vērtību](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Atlasīt Pievienot vērtību](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Pievienot aprēķinātu kolonnu budžeta plāna dokumenta veidnes tabulai
 --------------------------------------------------------------
@@ -83,7 +83,7 @@ Atlasītajā lauku grupā tiek rādītas veidnē pieejamās kolonnas. Noklikšķ
 [![Pievienot un ievietot kolonnu](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar programmatūru Dynamics 365 for Finance and Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
+> Lai formulu definētu, izveidojiet šo formulu izklājlapā un pēc tam to iekopējiet logā **Dizains**. Ar Finance and Operations saistītai tabulai parasti tiek piešķirts nosaukums “AXTable1”. Piemēram, lai izklājlapā apkopotu kolonnas Pieprasījums Q1 : Pieprasījums Q4, tiek izmantota formula = AxTable1\[Pieprasījums Q1\]+AxTable1\[Pieprasījums Q2\]+AxTable1\[Pieprasījums Q3\]+AxTable1\[Pieprasījums Q4\].
 
 Atkārtojiet šīs darbības, lai ievietotu kolonnu **Korekcija**. Šai kolonnai izmantojiet formulu = AxTable1\[Kopējais pieprasījums\]\*$I$1. Šādi šūnā I1 esošā vērtība tiks izmantota reizināšanai ar vērtībām kolonnā **Kopējais pieprasījums**, lai aprēķinātu korekcijas summas.
 
@@ -120,7 +120,7 @@ Ieteicams veidni bloķēt, lai nepieļautu, ka lietotāji to aizver. Lai ieslēg
 
 Noklikšķiniet uz šīs bultiņas, lai atvērtu papildu izvēlni. Atlasiet vienumu **Bloķēt**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Atlasiet vienumu Bloķēt](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Atlasiet vienumu Bloķēt](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Vai savām budžeta plāna veidnēm varu lietot citus Excel līdzekļus, piemēram, šūnu formatēšanu, krāsas, nosacījumformatēšanu un diagrammas?
 

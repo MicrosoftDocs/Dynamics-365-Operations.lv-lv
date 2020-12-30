@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178920"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445567"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu
 
@@ -119,7 +119,7 @@ Dimensiju kontrole ļauj kontrolēt ģenerēto rindu grupēšanu pēc maksājuma
 
 #### <a name="bank-account-selection"></a>Bankas konta atlase
 
-Varat definēt standarta debeta maksājumu kontu katrai maksājumu metodei neatkarīgi no valsts konteksta. Tas tiks iestatīts maksājuma rindās, kuras ģenerētas saskaņā ar priekšlikumu. Izmantojot bankas konta līdzekli, varat definēt vairākus debeta bankas kontus, ko pārvalda dimensija un valūta vai to kombinācija, lai izmantotu dažādus debeta bankas kontus atkarībā no katras kombinācijas. Varat iestatīt šīs kombinācijas lapā **Maksājumu metodes**, izmantojot pogu **Banku konti**, kas ir pieejama visām maksāšanas metodēm, kurām ir atlasīts iestatījums **Grāmatošanas konta veids** = **Banka**.
+Varat definēt standarta debeta maksājumu kontu katrai maksājumu metodei neatkarīgi no valsts konteksta. Tas tiks iestatīts maksājuma rindās, kuras ģenerētas saskaņā ar priekšlikumu. Izmantojot bankas konta līdzekli, varat definēt vairākus debeta bankas kontus, ko pārvalda dimensija un valūta vai to kombinācija, lai izmantotu dažādus debeta bankas kontus atkarībā no katras kombinācijas. Varat iestatīt šīs kombinācijas lapā **Maksājumu metodes**, izmantojot pogu  **Banku konti**, kas ir pieejama visām maksāšanas metodēm, kurām ir atlasīts iestatījums **Grāmatošanas konta veids** = **Banka**.
 
 
 

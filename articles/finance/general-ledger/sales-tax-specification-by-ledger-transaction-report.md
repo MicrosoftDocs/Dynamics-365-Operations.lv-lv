@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976095"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445441"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>PVN specifikācija pēc virsgrāmatas darbības pārskata
 [!include [banner](../includes/banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "3976095"
 - **Nodokļu konts** — tiek uzskatīts, ka konts ir nodokļu konts, kad tiek grāmatota nodokļu darbība, un galvenais konts **PVN** žurnāla rindā ir nodokļu konts, piemēram, PVN maksājuma konts vai PVN saņemēja konts.
 - **Ar nodokļiem neapliekamais konts**— tiek uzskatīts, ka konts ir ar nodokļiem neapliekamais konts, kad tiek grāmatota nodokļu darbība, un galvenais konts sākotnējā darbībā ir ar nodokļiem neapliekamais konts, piemēram, ieņēmumu konts vai izdevumu konts.
 
-Nodokļu kontiem, **Izcelsme**, **PVN ienākumi**un **PVN maksājami** pārskata kolonnas rāda **0** (nulle). Ar nodokļiem neapliekamajiem kontiem, šīs kolonnas rāda summas.
+Nodokļu kontiem, **Izcelsme**, **PVN ienākumi** un **PVN maksājami** pārskata kolonnas rāda **0** (nulle). Ar nodokļiem neapliekamajiem kontiem, šīs kolonnas rāda summas.
 
 ## <a name="filtering-the-data-on-the-report"></a>Filtrējot pārskatā parādītos datus.
 

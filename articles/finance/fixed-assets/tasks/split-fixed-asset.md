@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000297"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514330"
 ---
 # <a name="split-a-fixed-asset"></a>Pamatlīdzekļa sadalīšana
 
@@ -39,17 +39,17 @@ ms.locfileid: "4000297"
 
 ## <a name="split-a-fixed-asset"></a>Pamatlīdzekļa sadalīšana
 
-Pirms pilnībā nolietotā līdzekļa sadalīšanas, līdzekļa grāmatas statuss ir manuāli jāmaina no **Slēgts** uz **Atvērts**. Šī darbība ir nepieciešama, jo grāmatas statusam jābūt **Atvērts** , ja ir jāgrāmato līdzekļu darbības (piemēram, izslēgšanas pārdošanai). Kad līdzekļa grāmatas statuss ir mainīts, veiciet tālāk minētās darbības, lai sadalītu līdzekli.
+Pirms pilnībā nolietotā līdzekļa sadalīšanas, līdzekļa grāmatas statuss ir manuāli jāmaina no **Slēgts** uz **Atvērts**. Šī darbība ir nepieciešama, jo grāmatas statusam jābūt **Atvērts**, ja ir jāgrāmato līdzekļu darbības (piemēram, izslēgšanas pārdošanai). Ir jāieslēdz arī parametrs **Vairāku darījumu atļaušana vienā dokumentā** lapas **Virsgrāmatas parametri** cilnē **Vispārīgi**. Pēc tam, kad līdzekļu grāmatošanas statuss ir mainīts un ir atļauti vairāki darījumi vienā dokumentā, veiciet tālāk norādītās darbības, lai sadalītu līdzekli.
 
 1. Sarakstā atrodiet un atlasiet sadalāmā pamatlīdzekļa saiti.
 2. Atlasiet **Grāmatas**. Atlasiet grāmatu, kuru nodalīt jaunajam pamatlīdzeklim.
 3. Atlasiet **Funkcijas**.
 4. Atlasiet **Pamatlīdzekļa sadalīšana**.
-5. Laukā **Uz pamatlīdzekli** , ievadiet vai atlasiet kādu vērtību.
+5. Laukā **Uz pamatlīdzekli**, ievadiet vai atlasiet kādu vērtību.
 6. Laukā **Uz grāmatu** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.
 7. Ievadiet datumu laukā **Transakcijas datums**.
 8. Ievadiet skaitli laukā **Procenti**.
-9. Laukā **Žurnāla nosaukums** , ievadiet vai atlasiet kādu vērtību.
+9. Laukā **Žurnāla nosaukums**, ievadiet vai atlasiet kādu vērtību.
 10. Atlasiet **Labi**.
 
 ## <a name="post-the-journal-transaction"></a>Žurnāla transakcijas grāmatošana

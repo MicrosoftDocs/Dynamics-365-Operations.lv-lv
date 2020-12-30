@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006119"
+ms.locfileid: "4445755"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Daļēja debitora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
 
@@ -40,7 +40,7 @@ Arnis debitoram 4028 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 2
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10010 | Rēķins          | 6/25/2015 | 10010   | 1000,00                             |                                       | 1000,00 | USD      |
 
-Izmantojot lapu **Debitors** vai **Debitora transakcijas** , Arnis var atvērt lapu **Veikt transakcijas** , lai skatītu uz rēķinu attiecināto termiņatlaižu datumus un summas. Rēķina apmaksas datums ir 25. jūlijs, un termiņatlaide par summu 10,00 ir pieejama tad, ja rēķins tiek apmaksāts līdz 9. jūlijam.
+Izmantojot lapu **Debitors** vai **Debitora transakcijas**, Arnis var atvērt lapu **Veikt transakcijas**, lai skatītu uz rēķinu attiecināto termiņatlaižu datumus un summas. Rēķina apmaksas datums ir 25. jūlijs, un termiņatlaide par summu 10,00 ir pieejama tad, ja rēķins tiek apmaksāts līdz 9. jūlijam.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -64,14 +64,14 @@ Lai redzētu atlaides summu, Arnis noklikšķina uz cilnes **Termiņatlaide**.
 | 7/25/2015          | 0,00                 | 1000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Daļējs maksājums, izmantojot lapu Debitora maksājumu ievadīšana
-Debitors 4028 veic maksājumu par summu 500,00 1. jūlijā. Lai ievadītu šo maksājumu, Arnis nenoklikšķina uz vienuma **Rindas**. Tā vietā viņš izveido jaunu maksājumu žurnālu, lai reģistrētu maksājumu, un pēc tam atver lapu **Ievadīt debitora maksājumus**. Viņš ievada maksājuma datus un atzīmē rēķinu, kā ievadītu. Ievadot summu **500,00** , Arnis ievada arī summu **500,00** lauka **Apmaksājamā summa** režģī. Tā kā uzņēmums Fabrikam piedāvā termiņatlaidi daļējiem maksājumiem, viņš redz, ka spēkā stājas arī daļējā termiņatlaide par summu 5,05. Atlaide aprēķināta šādi: 500,00 ÷ 0,99 × 0,01 = 5,05. (Šajā aprēķinā summa 500,00 tiek dalīta ar 0,99, jo ir spēkā atlaide 1 procenta apmērā. Līdz ar to debitors apmaksā 99 procentus no rēķina summas. Rezultāts pēc tam tiek reizināts ar atlaides procentuālo summu, kas ir 1 procents vai 0,01. Ja debitoram ir piešķirta pilna atlaide par summu 10,00, nosedzamā summa ir 990,00.) Atlaides dati ir redzami režģī lapas **Ievadīt debitora maksājumus** apakšā.
+Debitors 4028 veic maksājumu par summu 500,00 1. jūlijā. Lai ievadītu šo maksājumu, Arnis nenoklikšķina uz vienuma **Rindas**. Tā vietā viņš izveido jaunu maksājumu žurnālu, lai reģistrētu maksājumu, un pēc tam atver lapu **Ievadīt debitora maksājumus**. Viņš ievada maksājuma datus un atzīmē rēķinu, kā ievadītu. Ievadot summu **500,00**, Arnis ievada arī summu **500,00** lauka **Apmaksājamā summa** režģī. Tā kā uzņēmums Fabrikam piedāvā termiņatlaidi daļējiem maksājumiem, viņš redz, ka spēkā stājas arī daļējā termiņatlaide par summu 5,05. Atlaide aprēķināta šādi: 500,00 ÷ 0,99 × 0,01 = 5,05. (Šajā aprēķinā summa 500,00 tiek dalīta ar 0,99, jo ir spēkā atlaide 1 procenta apmērā. Līdz ar to debitors apmaksā 99 procentus no rēķina summas. Rezultāts pēc tam tiek reizināts ar atlaides procentuālo summu, kas ir 1 procents vai 0,01. Ja debitoram ir piešķirta pilna atlaide par summu 10,00, nosedzamā summa ir 990,00.) Atlaides dati ir redzami režģī lapas **Ievadīt debitora maksājumus** apakšā.
 
 | Ņemamā termiņatlaides summa | Paņemta termiņatlaides summa | Izmaksājamā summa |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Daļējais maksājums, izmantojot žurnāla rindas
-Arnis neatver lapu **Ievadīt debitora maksājumus** maksājumu žurnālā, bet noklikšķina uz vienuma **Rindas** , lai ievadītu maksājumu. Tiek parādīts maksājumu žurnāls, kur Arnis var ievadīt debitora 4028 rindu. Pēc tam Arnijs atver lapu **Transakciju nosegšana** , lai varētu atzīmēt nosedzamo rēķinu. Arnis atzīmē rēķinu un laukā **Nosedzamā summa** ievada summu **500,00**. Viņš tātad redz, ka laukā **Termiņatlaides summa** norādītā summa **10,00** attiecas uz visu rēķina summu, bet vērtība laukā **Piešķirtās termiņatlaides summa** ir **5,05**. Tāpēc Arnis šā rēķina nosegšanai norāda summu 505,05.
+Arnis neatver lapu **Ievadīt debitora maksājumus** maksājumu žurnālā, bet noklikšķina uz vienuma **Rindas**, lai ievadītu maksājumu. Tiek parādīts maksājumu žurnāls, kur Arnis var ievadīt debitora 4028 rindu. Pēc tam Arnijs atver lapu **Transakciju nosegšana**, lai varētu atzīmēt nosedzamo rēķinu. Arnis atzīmē rēķinu un laukā **Nosedzamā summa** ievada summu **500,00**. Viņš tātad redz, ka laukā **Termiņatlaides summa** norādītā summa **10,00** attiecas uz visu rēķina summu, bet vērtība laukā **Piešķirtās termiņatlaides summa** ir **5,05**. Tāpēc Arnis šā rēķina nosegšanai norāda summu 505,05.
 
 | Atzīmēt     | Izmantot termiņatlaidi | Dokuments   | Konts | Datums      | Izpildes datums  | Rēķins | Summa darījuma valūtā | Valūta | Nosedzamā summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -112,7 +112,7 @@ Arnis aizver lapu **Nosegt transakcijas**. Žurnālā tiek izveidota maksājuma 
 | DISC-10010 |  Termiņatlaide   | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Maksājums par atlikušo summu
-Debitors 4028 veic maksājumu par atlikušo summu 495,00 apmērā 8. jūlijā, kas atbilst termiņatlaides periodam. Arnis 8. jūlijā izveido maksājumu žurnālu un atzīmē nosedzamo transakciju. Viņš redz, ka jānosedz ir summa 495,00. Laukā **Aprēķinātā termiņatlaide** ir norādīta summa **5,00** , jo iepriekš tika piešķirta atlaide par summu 5,00.
+Debitors 4028 veic maksājumu par atlikušo summu 495,00 apmērā 8. jūlijā, kas atbilst termiņatlaides periodam. Arnis 8. jūlijā izveido maksājumu žurnālu un atzīmē nosedzamo transakciju. Viņš redz, ka jānosedz ir summa 495,00. Laukā **Aprēķinātā termiņatlaide** ir norādīta summa **5,00**, jo iepriekš tika piešķirta atlaide par summu 5,00.
 
 |   &nbsp;                | &nbsp; |
 |-------------------------|--------|

@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039850"
+ms.locfileid: "4445772"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 
@@ -121,11 +121,11 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
     ![Galvenās glabātavas parametru izvēle](media/e-invoicing-services-get-started-select-key-vault-parameters.png)
 
 5. Lai pievienotu galveno glabātavu, darbību rūtī atlasiet **Jauns**.
-6. Laukā **Laukā Key Vault URI** ievadiet galvenās glabātavas resursa atribūta vērtību **DNS nosaukums** , ko konfigurējāt risinājumā Azure. Lai iegūtu informāciju par to, kur atrast vērtību **DNS nosaukums** , skatiet sadaļu [Azure krātuves konta un galvenās glabātavas izveide](e-invoicing-create-azure-storage-account-key-vault.md).
+6. Laukā **Laukā Key Vault URI** ievadiet galvenās glabātavas resursa atribūta vērtību **DNS nosaukums**, ko konfigurējāt risinājumā Azure. Lai iegūtu informāciju par to, kur atrast vērtību **DNS nosaukums**, skatiet sadaļu [Azure krātuves konta un galvenās glabātavas izveide](e-invoicing-create-azure-storage-account-key-vault.md).
 
     ![Galvenās glabātavas URI lauks](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Kopsavilkuma cilnē **Sertifikāti** atlasiet **Pievienot** , lai ievadītu visu ciparsertifikātu nosaukumus un galvenās glabātavas noslēpumus, kas ir nepieciešami, lai izveidotu uzticamus savienojumus. Kolonnā **Veids** var norādīt, vai tas ir sertifikāts vai noslēpums. Abas vērtību kopas ir konfigurētas uz galvenās glabātavas resursu Azure.
+7. Kopsavilkuma cilnē **Sertifikāti** atlasiet **Pievienot**, lai ievadītu visu ciparsertifikātu nosaukumus un galvenās glabātavas noslēpumus, kas ir nepieciešami, lai izveidotu uzticamus savienojumus. Kolonnā **Veids** var norādīt, vai tas ir sertifikāts vai noslēpums. Abas vērtību kopas ir konfigurētas uz galvenās glabātavas resursu Azure.
 
     ![Sertifikātu pievienošana](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -146,16 +146,16 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 Elektroniskajai rēķinu izrakstīšanas pievienojumprogrammai, piemēram, Dev, Test vai ražošanas vidēm, var izveidot dažādas vides.
 
 1. Darbvietā **Globalizācijas līdzekļi** sadaļā **Vides** atlasiet elementu **e-rēķinu izrakstīšana**.
-2. Atlasiet **Jauns** , lai izveidotu vidi.
+2. Atlasiet **Jauns**, lai izveidotu vidi.
 3. Laukā **Krātuves SAS marķiera konts** ievadiet galvenās glabātavas noslēpuma nosaukumu, ko konfigurējāt galvenajā glabātavā RCS.
 
     ![Noliktavas SAS marķiera konta lauks](media/e-invoicing-services-get-started-enter-sas-token-secret.png)
 
-4. Kopsavilkuma cilnē **Lietotāji** atlasiet **Jauns** , lai piešķirtu piekļuvi lietotājiem šai videi.
+4. Kopsavilkuma cilnē **Lietotāji** atlasiet **Jauns**, lai piešķirtu piekļuvi lietotājiem šai videi.
 
     ![Pakalpojuma lietotāju pievienošana](media/e-invoicing-services-get-started-enter-service-users.png)
 
-5. Darbības rūtī atlasiet **Publicēt** , lai publicētu vidi elektronisko rēķinu izrakstīšanas pievienojumprogrammas serverī.
+5. Darbības rūtī atlasiet **Publicēt**, lai publicētu vidi elektronisko rēķinu izrakstīšanas pievienojumprogrammas serverī.
 
     ![Poga Publicēt](media/e-invoicing-services-get-started-publish-service-environment.png)
 
@@ -196,7 +196,7 @@ Elektronisko rēķinu integrācijas līdzeklis ir aktivizēts, izmantojot testē
 ### <a name="set-up-the-service-endpoint-url"></a>Pakalpojuma galapunkta URL iestatīšana
 
 1. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
-2. Cilnē **Iesniegšanas pakalpojums** , kas atrodas laukā **Pakalpojuma galapunkta URL** , ievadiet `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+2. Cilnē **Iesniegšanas pakalpojums**, kas atrodas laukā **Pakalpojuma galapunkta URL**, ievadiet `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
 3. Laukā **Vide** ievadiet elektronisko rēķinu izrakstīšanas pievienojuma vides nosaukumu, ko izveidojāt RCS iestatīšanas laikā.
 
 ![Pakalpojuma parametru ievadīšana](media/e-invoicing-services-get-started-enter-service-endpoint.png)
@@ -231,17 +231,17 @@ Ja iesniegtais rēķina dokuments pieprasa atjaunināšanu pēc atbildes uz iesn
 1. Darbvietas **Elektronisko pārskatu veidošana** sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
 2. Atlasiet **Repozitoriji**.
 3. Atlasiet **Globālais resurss** un pēc tam atlasiet **Atvērt**.
-4. Importēt **Atbildes ziņojuma modelis** , **Atbildes ziņojuma importēšanas formāts** , **Atbildes ziņojuma modeļa kartēšana uz mērķi** un **Faila satura importēšanas formāts**.
+4. Importēt **Atbildes ziņojuma modelis**, **Atbildes ziņojuma importēšanas formāts**, **Atbildes ziņojuma modeļa kartēšana uz mērķi** un **Faila satura importēšanas formāts**.
 5. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
-6. Cilnē **Elektroniskais dokuments** atlasiet **Pievienot** , lai ievadītu tabulas nosaukumu, kas ir saistīts ar jūsu valsts/reģiona specifisko rēķina dokumentu. Lai iegūtu informāciju par to, kurus tabulas nosaukumus ir jāizvēlās, skatiet valsts/reģiona specifisko tēmu "Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu".
-7. Atlasiet **Atbilžu veidi** , lai konfigurētu atbilžu veidus. Lai iegūtu informāciju par to, kurus tabulas nosaukumus ir jāizvēlās, skatiet valsts/reģiona specifisko tēmu "Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu".
+6. Cilnē **Elektroniskais dokuments** atlasiet **Pievienot**, lai ievadītu tabulas nosaukumu, kas ir saistīts ar jūsu valsts/reģiona specifisko rēķina dokumentu. Lai iegūtu informāciju par to, kurus tabulas nosaukumus ir jāizvēlās, skatiet valsts/reģiona specifisko tēmu "Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu".
+7. Atlasiet **Atbilžu veidi**, lai konfigurētu atbilžu veidus. Lai iegūtu informāciju par to, kurus tabulas nosaukumus ir jāizvēlās, skatiet valsts/reģiona specifisko tēmu "Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu".
 
 ![Atbilžu veidu iestatīšana](media/e-invoicing-services-get-started-set-up-response-types.png)
 
 ## <a name="e-invoicing-feature-names-by-country"></a>E-rēķinu izrakstīšanas līdzekļu nosaukumi pēc valstīm 
 Sekojošajā tabulā ir aprakstīti citi e-rēķinu izrakstīšanas līdzekļi, kas pieejami lejupielādei no elektronisko pārskatu globālās krātuves, lai ģenerētu elektroniskos rēķinus.
 RCS varat lejupielādēt elektronisko rēķinu izrakstīšanas līdzekļus, kas uzskaitīti šajā tabulā, ER konfigurācijas un pieejamos e-rēķinu izrakstīšanas līdzekļu iestatījumus.
-Programmā Finance varat iespējot saistītās līdzekļu atsauces lapā **Elektronisko dokumentu parametri** , lai izsniegtu elektroniskus rēķinus šīm valstīm. Lai iegūtu papildu informāciju, skatiet sadaļu [Valstu/reģionu specifiskie elektronisko rēķinu izrakstīšanas līdzekļi](#region-specific) ārgāk šajā tēmā.
+Programmā Finance varat iespējot saistītās līdzekļu atsauces lapā **Elektronisko dokumentu parametri**, lai izsniegtu elektroniskus rēķinus šīm valstīm. Lai iegūtu papildu informāciju, skatiet sadaļu [Valstu/reģionu specifiskie elektronisko rēķinu izrakstīšanas līdzekļi](#region-specific) ārgāk šajā tēmā.
 
 | Līdzekļa nosaukums                      | Apraksts                                 | ER konfigurācijas                                                                                                  | Iestatījumi                                                                                                                                                         | Valsts/reģions  | Līdzekļa atsauce      |
 |-----------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
@@ -277,19 +277,19 @@ Jūs variet iesniegt biznesa dokumentus vai nu manuāli, vai balstoties uz jūsu
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai vienmēr iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.
-3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs** , lai atvērtu dialoglodziņu **Pieprasījums** , kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
+3. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs**, lai atvērtu dialoglodziņu **Pieprasījums**, kur var izveidot vaicājumu, lai atlasītu dokumentus iesniegšanai.
 
 ![Dialoglodziņš Iesniegt elektroniskos dokumentus](media/e-invoicing-services-get-started-submission-form.png)
 
 ### <a name="filter-query"></a>Filtra vaicājums
 
-1. Dialoglodziņā **aicājums** cilnē **Diapazons** ievadiet filtra kritērijus, izmantojot laukus **Tabula** , **Atveidotā tabula** , **Lauks** un **Kritēriji**.
-2. Atlasiet **Pievienot** , lai pievienotu tik daudz papildu kritēriju, cik nepieciešams, lai atlasītu biznesa dokumentus.
+1. Dialoglodziņā **aicājums** cilnē **Diapazons** ievadiet filtra kritērijus, izmantojot laukus **Tabula**, **Atveidotā tabula**, **Lauks** un **Kritēriji**.
+2. Atlasiet **Pievienot**, lai pievienotu tik daudz papildu kritēriju, cik nepieciešams, lai atlasītu biznesa dokumentus.
 
     ![Iesniegšanas filtra kritēriju iestatīšana](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
 
 3. Lai dialoglodziņu **Pieprasījums** aizvērtu, atlasiet **Labi**.
-4. Atlasiet **Labi** , lai iesniegtu atlasītos biznesa dokumentus elektroniskajai rēķinu izrakstīšanas pievienojumprogrammai.
+4. Atlasiet **Labi**, lai iesniegtu atlasītos biznesa dokumentus elektroniskajai rēķinu izrakstīšanas pievienojumprogrammai.
 
     > [!NOTE]
     > Pirmajā mēģinājumā iesniegt dokumentu, izmantojot pakalpojumu, jums tiks piedāvāts apstiprināt savienojumu ar elektronisko rēķinu pievienojumprogrammu. Atlasiet **Noklikšķiniet šeit, lai izveidotu savienojumu ar elektronisko dokumentu iesniegšanas pakalpojumu**.
@@ -311,7 +311,7 @@ Jūs variet iesniegt biznesa dokumentus vai nu manuāli, vai balstoties uz jūsu
 
 Tā vietā, lai veiktu dokumentu manuālu iesniegšanu, varat automatizēt iesniegšanas procesu un palaist to fonā, pamatojoties uz konfigurētu pakešuzdevuma izpildes biežumu.
 
-1. Dialoglodziņā **Iesniegt elektroniskos dokumentus** , kopsavilkuma cilnē **Palaist fonā** iestatiet opciju **Pakešapstrāde** uz **Jā**.
+1. Dialoglodziņā **Iesniegt elektroniskos dokumentus**, kopsavilkuma cilnē **Palaist fonā** iestatiet opciju **Pakešapstrāde** uz **Jā**.
 2. Cilnē **Periodiskums** konfigurējiet pakešapstrādes biežumu.
 
 ![Iesniegšanas iestatīšana pēc partijas](media/e-invoicing-services-get-started-set-up-submission-batch.png)
@@ -324,7 +324,7 @@ Tā vietā, lai veiktu dokumentu manuālu iesniegšanu, varat automatizēt iesni
     ![Dokumenta veida atlasīšana, kuram skatīt iesniegšanas žurnālus](media/e-invoicing-services-get-started-select-document-type-for-viewing-submission-log.png)
 
     > [!IMPORTANT]
-    > Vērtība, kas tiek rādīta kolonnā **Iesniegšanas statuss** , kolonna attēlo statusu, kas saistīts ar paša iesniegšanas procesa pabeigšanu. Tas norāda, vai darbību plūsma, kas konfigurēta RCS, tika palaista līdz beigām, neatkarīgi no tā, vai elektroniskais dokuments tika apstiprināts vai noraidīts. Vērtība kolonnā **Iesniegšanas statuss** , nenorāda iesniegtā dokumenta statusu. Varat skatīt iesniegtā dokumenta statusu (tas ir, vai dokuments tika apstiprināts vai noraidīts) kopsavilkuma cilnē **Apstrādes darbību žurnāls** , kā aprakstīts tālāk.
+    > Vērtība, kas tiek rādīta kolonnā **Iesniegšanas statuss**, kolonna attēlo statusu, kas saistīts ar paša iesniegšanas procesa pabeigšanu. Tas norāda, vai darbību plūsma, kas konfigurēta RCS, tika palaista līdz beigām, neatkarīgi no tā, vai elektroniskais dokuments tika apstiprināts vai noraidīts. Vērtība kolonnā **Iesniegšanas statuss**, nenorāda iesniegtā dokumenta statusu. Varat skatīt iesniegtā dokumenta statusu (tas ir, vai dokuments tika apstiprināts vai noraidīts) kopsavilkuma cilnē **Apstrādes darbību žurnāls**, kā aprakstīts tālāk.
 
 3. Darbību rūtī atlasiet **Vaicājumi \> Iesniegšanas detaļas**.
 4. Iesniegšanas žurnāla informācijas skatīšana.

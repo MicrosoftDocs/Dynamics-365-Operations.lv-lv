@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899377"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445530"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Detalizētas bankas darbību saskaņošanas MT940 importēšana – Salikta datu elementa jaunināšana
 
@@ -55,7 +55,7 @@ Lai pievienotu bankas izraksta importēšanas elementu MT940 formāta atbalstam,
             3.  Augšupielādēt datu failu = SampleBankCompositeEntity.xml jauna versija.
             4.  Noklikšķiniet uz **Jā**, lai pārrakstītu esošo failu.
             5.  Noklikšķiniet uz **Jā**, lai ģenerētu jaunu kartējumu.
-            6.  Apstipriniet, ka S**equenceNumber** ir kartēts.
+            6.  Apstipriniet, ka S **equenceNumber** ir kartēts.
                 -   Noklikšķiniet uz **Skatīt karti** uz bankas izraksta elementa.
                 -   Apstipriniet, ka **SequenceNumber** ir kartēts no Avota uz Sagatavošanu.
 

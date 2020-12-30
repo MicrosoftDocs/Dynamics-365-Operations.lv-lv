@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 84cde511ab0b5cbe4b99e72832bf548336b6b28c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187226"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445450"
 ---
 # <a name="manual-depreciation"></a>Manuāls nolietojuma aprēķins
 
@@ -58,7 +58,7 @@ Nākamajā tabulā ir parādīts, ka nolietojums tiek aprēķināts katram inter
 | 2                | (11 000 – 1000) × 50% = 5000                | 5000 (10 000 – 5000)                    |
 | 3                | (11 000 – 1000) × 8% = 800                   | 4200 (5000 – 800)                       |
 
-Ja laukā**Perioda biežums** atlasāt vērtību **Reizi mēnesī**, jūs iestatāt 12 manuālus grafika intervālus. Nākamajā tabulā ir parādītas nolietojuma summas pirmajiem diviem intervāliem.
+Ja laukā **Perioda biežums** atlasāt vērtību **Reizi mēnesī**, jūs iestatāt 12 manuālus grafika intervālus. Nākamajā tabulā ir parādītas nolietojuma summas pirmajiem diviem intervāliem.
 
 | Intervāls | Nolietojuma summa            |
 |----------|--------------------------------|
@@ -72,7 +72,7 @@ Ja atlasāt lauka <strong>Perioda biežums</strong> vērtību *<strong><em>Reizi
 | 30. jūnijs     | (11 000 – 1000)× 10% = 1000 |
 | 31. decembris | (11 000 – 1000) × 50% = 5000 |
 
-Intervālu procentuālo vērtību kopsummai nav jābūt 100. Taču, ja lapā **Pamatlīdzekļu nolietojuma aprēķina tabula** esošā lauka**Uzkrātie procenti** vērtība nav **100**, tiek parādīts attiecīgs ziņojums.
+Intervālu procentuālo vērtību kopsummai nav jābūt 100. Taču, ja lapā **Pamatlīdzekļu nolietojuma aprēķina tabula** esošā lauka **Uzkrātie procenti** vērtība nav **100**, tiek parādīts attiecīgs ziņojums.
 
 
 

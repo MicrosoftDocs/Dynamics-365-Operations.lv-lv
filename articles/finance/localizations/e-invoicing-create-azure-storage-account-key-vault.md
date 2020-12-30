@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039773"
+ms.locfileid: "4445767"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Izveidot Azure krātuves kontu un galveno akreditācijas datu glabātavu
 
@@ -59,13 +59,13 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 2. Dodieties uz **BLOB pakalpojums** \> **Konteineri** un izveidojiet jaunu konteineru.
 3. Ievadiet konteinera nosaukumu un iestatiet lauku **Publiskās piekļuves līmenis** uz **Privāts (nav anonīmas piekļuves)**.
 4. Atveriet konteineru un dodieties uz **Iestatījumi \> Piekļuves politika**.
-5. Atlasiet **Pievienot politiku** , lai pievienotu saglabāto piekļuves politiku.
+5. Atlasiet **Pievienot politiku**, lai pievienotu saglabāto piekļuves politiku.
 6. Pēc nepieciešamības iestatiet laukus **Identifikators** un **Atļaujas**. Laukā **Atļaujas** jāatlasa visas atļaujas.
 
     ![BLOB krātuves atļaujas piešķiršana](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Ievadiet sākuma un beigu datumus. Beigu datumam ir jābūt nākotnē.
-8. Atlasiet **Labi** , lai saglabātu politiku, un pēc tam saglabājiet izmaiņas konteinerā.
+8. Atlasiet **Labi**, lai saglabātu politiku, un pēc tam saglabājiet izmaiņas konteinerā.
 9. Atgriezieties krātuves kontā un atveriet **Storage Explorer (priekšskatījums)**.
 10. Ar peles labo pogu noklikšķiniet uz konteinera un pēc tam atlasiet **Iegūt koplietojamās piekļuves parakstu**.
 11. Dialoglodziņā **Koplietotas piekļuves paraksts** kopējiet un saglabājiet vērtību laukā **URI**. Šī vērtība tiks izmantota nākamajā procedūrā, un tā tiks saukta par *koplietojamās piekļuves paraksta URI*.
@@ -75,7 +75,7 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Iestatiet galveno akreditācijas datu glabātavu, lai saglabātu krātuves konta URI
 
 1. Atveriet galveno akreditācijas datu glabātavu, ko plānojat izmantot kopā ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
-2. Dodieties uz **Iestatījumi** \> **Noslēpumi** un pēc tam atlasiet **Ģenerēt/Importēt** , lai izveidotu jaunu noslēpumu.
+2. Dodieties uz **Iestatījumi** \> **Noslēpumi** un pēc tam atlasiet **Ģenerēt/Importēt**, lai izveidotu jaunu noslēpumu.
 3. Lapā **Izveidot noslēpumu** laukā **Augšupielādes opcijas** atlasiet **Manuāls**.
 4. Ievadiet noslēpuma nosaukumu. Šis nosaukums tiks izmantots, iestatot pakalpojumu regulatīvās konfigurācijas pakalpojumā (Regulatory Configuration Service - RCS), un tas tiks saukts par *galvenās akreditācijas datu glabātavas nosaukums*.
 5. Laukā **Vērtība** atlasiet **Koplietojamās piekļuves paraksta URI** un pēc tam atlasiet **Izveidot**.

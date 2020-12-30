@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
-ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3653780"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645773"
 ---
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
@@ -92,6 +92,11 @@ Naudas plūsmas prognozēs var ietvert budžetus, kas ir izveidoti no budžeta m
 ### <a name="inventory-management"></a>Krājumu vadība
 
 Naudas plūsmas prognozēs var ietvert krājumu piegādes apjoma un pieprasījuma apjoma prognozes. Lapas **Naudas plūsmas prognozes iestatīšana** cilnē **Krājumu vadība** atlasiet naudas plūsmas prognozē ietveramo budžeta modeli. Atsevišķās piegādes apjoma un pieprasījuma apjoma prognozes rindās var atcelt ietveršanu naudas plūsmas prognozēs.
+
+### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Skaidras naudas plūsmas prognozēšanas dimensiju iestatīšana
+Jauna cilne lapā **Skaidras naudas plūsmas prognozes iestatīšana** ļauj kontrolēt, kādas finanšu dimensijas izmantot filtrēšanai darbvietā **Skaidras naudas plūsmas prognozēšana**. Šī cilne parādīsies tikai tad, ja ir iespējots skaidras naudas plūsmas prognozēšanas līdzeklis. 
+
+Cilnē **Dimensijas** izvēlieties no dimensiju saraksta, ko izmantot filtrēšanai, un izmantojiet bulttaustiņus, lai pārvietotu tās uz kolonnu labajā pusē. Skaidras naudas plūsmas prognozēšanas datu filtrēšanai varat atlasīt tikai divas dimensijas. 
 
 ### <a name="calculation"></a>Aprēķins
 

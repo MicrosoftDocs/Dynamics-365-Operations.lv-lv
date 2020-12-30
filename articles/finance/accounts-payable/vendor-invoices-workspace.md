@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: lv-LV
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000799"
+ms.locfileid: "4445749"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Kreditora rēķina ieraksta darbvieta
 
@@ -57,7 +57,7 @@ Lai skatītu informāciju, kas parādīta darbvietā, ir jābūt kreditoru pārv
 
 ### <a name="company-selection"></a>Uzņēmuma atlasīšana
 
-Kad ir ieslēgts līdzeklis **Automatizēt kreditora rēķinus** , darbvietas augšpusē tiek parādīts lauks **Uzņēmums**. Atlase laukā **Uzņēmums** ietekmē visu darbvietā parādīto informāciju. Pēc noklusējuma skats parāda informāciju par uzņēmumu, kurā esat pierakstījies. Laukā **Uzņēmums** atlasot citu uzņēmumu, darbvietā varat parādīt informāciju par šo uzņēmumu. Pēc tam varat atlasīt kādu no darbvietas elementiem, lai atlasītajā uzņēmumā dotos uz saistīto lapu.
+Kad ir ieslēgts līdzeklis **Automatizēt kreditora rēķinus**, darbvietas augšpusē tiek parādīts lauks **Uzņēmums**. Atlase laukā **Uzņēmums** ietekmē visu darbvietā parādīto informāciju. Pēc noklusējuma skats parāda informāciju par uzņēmumu, kurā esat pierakstījies. Laukā **Uzņēmums** atlasot citu uzņēmumu, darbvietā varat parādīt informāciju par šo uzņēmumu. Pēc tam varat atlasīt kādu no darbvietas elementiem, lai atlasītajā uzņēmumā dotos uz saistīto lapu.
 
 ### <a name="summary-tiles"></a>Kopsavilkuma elementi
 
@@ -70,9 +70,9 @@ Sadaļas **Mans darbs** elementi **Neapmaksāto rēķinu kopsavilkums** sniedz p
 
 (Šiem četriem elementiem ir nepieciešams, lai Līdzekļu pārvaldībā būtu ieslēgts līdzeklis Kreditora rēķina automatizācija.)
 
-Lai izmantotu elementu **Atgūt kreditora rēķinus** , līdzeklim ir jābūt ieslēgtam Kreditora parametros. Dodieties uz **Kreditori \> Kreditoru parametri** un pēc tam cilnē **Rēķins** iestatiet opciju **Atļaut kreditora rēķinu atgūšana** uz **Jā**.
+Lai izmantotu elementu **Atgūt kreditora rēķinus**, līdzeklim ir jābūt ieslēgtam Kreditora parametros. Dodieties uz **Kreditori \> Kreditoru parametri** un pēc tam cilnē **Rēķins** iestatiet opciju **Atļaut kreditora rēķinu atgūšana** uz **Jā**.
 
-Kad līdzeklis ir ieslēgts, redzēsit arī trīs elementus, kas sagrupēti kopā darbvietas sadaļā ar nosaukumu **Žurnāli**. Elementi ir ar nosaukumu **Žurnāli** , **Žurnāli — piešķirts man** un **Rēķinu kopa**. 
+Kad līdzeklis ir ieslēgts, redzēsit arī trīs elementus, kas sagrupēti kopā darbvietas sadaļā ar nosaukumu **Žurnāli**. Elementi ir ar nosaukumu **Žurnāli**, **Žurnāli — piešķirts man** un **Rēķinu kopa**. 
 
 Informācija sadaļā **Neapmaksātu rēķinu kopsavilkums** ir paredzēta uzņēmumam, kas iestatīts kā noklusējuma uzņēmums, jums pierakstoties.
 
@@ -86,27 +86,27 @@ Lai izveidotu jaunu rēķina ierakstu, atlasiet **Jauns** un pēc tam sarakstā 
 - Rēķinu reģistrs
 - Rēķinu apstiprināšana
 
-Ņemiet vērā, ka jūsu izveidotais ieraksts ir balstīts uz uzņēmuma filtru, nevis uzņēmumu, kurā esat pierakstījies. Piemēram, jūs esat pierakstījies uzņēmumā **UMSF** , bet uzņēmuma filtrs ir iestatīts uz **GBSI**. Šādā gadījumā, atlasot **Jauns** un pēc tam atlasot ieraksta veidu sarakstā, ieraksts tiek izveidots uzņēmumā GBSI.
+Ņemiet vērā, ka jūsu izveidotais ieraksts ir balstīts uz uzņēmuma filtru, nevis uzņēmumu, kurā esat pierakstījies. Piemēram, jūs esat pierakstījies uzņēmumā **UMSF**, bet uzņēmuma filtrs ir iestatīts uz **GBSI**. Šādā gadījumā, atlasot **Jauns** un pēc tam atlasot ieraksta veidu sarakstā, ieraksts tiek izveidots uzņēmumā GBSI.
 
 ### <a name="documents-not-invoiced-grids"></a>Dokumenti, kas nav rēķinos iekļautie režģi
 
 Sadaļā **Rēķinā neiekļautie dokumenti** ir ietverti režģi, kas parāda dokumentus, kuri gaida kreditora rēķinus.
 
-Režģī **Atvērtie pirkšanas pasūtījumi** tiek rādīti visi pirkšanas pasūtījumi, kas vēl nav pilnībā iekļauti rēķinā. Varat izmantot pogu **Izrakstīt rēķinu tūlīt** , lai izveidotu kreditora rēķinu pirkšanas pasūtījumam. Varat izmantot pogu **Priekšapmaksas rēķins** , lai izveidotu priekšapmaksas rēķinu pirkšanas pasūtījumam.
+Režģī **Atvērtie pirkšanas pasūtījumi** tiek rādīti visi pirkšanas pasūtījumi, kas vēl nav pilnībā iekļauti rēķinā. Varat izmantot pogu **Izrakstīt rēķinu tūlīt**, lai izveidotu kreditora rēķinu pirkšanas pasūtījumam. Varat izmantot pogu **Priekšapmaksas rēķins**, lai izveidotu priekšapmaksas rēķinu pirkšanas pasūtījumam.
 
-Režģī **Preču saņemšana** tiek rādītas visas saņemšanas transakcijas, kas vēl nav pilnībā iekļautas rēķinā. Varat izmantot pogu **Izrakstīt rēķinu tūlīt** , lai izveidotu kreditora rēķinu pirkšanas pasūtījumam.
+Režģī **Preču saņemšana** tiek rādītas visas saņemšanas transakcijas, kas vēl nav pilnībā iekļautas rēķinā. Varat izmantot pogu **Izrakstīt rēķinu tūlīt**, lai izveidotu kreditora rēķinu pirkšanas pasūtījumam.
 
-Režģī **Neapmaksātie kreditora rēķini** tiek rādīti visi kreditoru rēķini, kas nav iesniegti darbplūsmas sistēmai. Varat izmantot lauku **Meklēšana** un/vai uzņēmuma filtru, lai meklētu konkrētu kreditora rēķinu. Varat izmantot pogu **Rediģēt** , lai labotu transakciju, kas parādās režģī.
+Režģī **Neapmaksātie kreditora rēķini** tiek rādīti visi kreditoru rēķini, kas nav iesniegti darbplūsmas sistēmai. Varat izmantot lauku **Meklēšana** un/vai uzņēmuma filtru, lai meklētu konkrētu kreditora rēķinu. Varat izmantot pogu **Rediģēt**, lai labotu transakciju, kas parādās režģī.
 
-Režģī **Meklēt pirkšanas pasūtījumu** , varat uzmantot lauku **Meklēt** , lai meklētu konkrētu pirkšanas pasūtījumu.
+Režģī **Meklēt pirkšanas pasūtījumu**, varat uzmantot lauku **Meklēt**, lai meklētu konkrētu pirkšanas pasūtījumu.
 
 ### <a name="related-information"></a>Saistītā informācija
 
-Varat skatīt informāciju par grāmatotajiem rēķiniem, izmantojot saites darbvietas labajā pusē. Šīs saites ietver **Atvērtie kreditora rēķini** , **Rēķinu žurnāls** un **Rēķinu vēsture un salīdzināšanas informācija**. Sadaļā **Kreditori** varat piekļūt filtrētajam sarakstam, kurā redzami visi aizturētie kreditori, vai arī varat izmantot saiti **Visi kreditori**. Ir pieejamas arī saites **Visi pirkšanas pasūtījumi** un **Atvērtās priekšapmaksas**.
+Varat skatīt informāciju par grāmatotajiem rēķiniem, izmantojot saites darbvietas labajā pusē. Šīs saites ietver **Atvērtie kreditora rēķini**, **Rēķinu žurnāls** un **Rēķinu vēsture un salīdzināšanas informācija**. Sadaļā **Kreditori** varat piekļūt filtrētajam sarakstam, kurā redzami visi aizturētie kreditori, vai arī varat izmantot saiti **Visi kreditori**. Ir pieejamas arī saites **Visi pirkšanas pasūtījumi** un **Atvērtās priekšapmaksas**.
 
 ### <a name="analytics--all-companies-page"></a>Lapa Analīze — visi uzņēmumi
 
-Kad opcija **Automātiski iesniegt importētos rēķinus darbplūsmai** ir iestatīta uz **Jā** lapā **Kreditoru parametri** , varat skatīt automatizācijas analīzi. Lapa **Analīze — visi uzņēmumi** sniedz svarīgus rādītājus, piemēram, kreditoru rēķinus, ko apstiprina apstiprinātājs un uzņēmums. Šajā lapā ir piecas pārskatu lapas. Vienā lapā ir sniegts pārskats, savukārt pārējās lapās ir sniegta detalizēta informācija par kreditora automātiskajiem rādītājiem.
+Kad opcija **Automātiski iesniegt importētos rēķinus darbplūsmai** ir iestatīta uz **Jā** lapā **Kreditoru parametri**, varat skatīt automatizācijas analīzi. Lapa **Analīze — visi uzņēmumi** sniedz svarīgus rādītājus, piemēram, kreditoru rēķinus, ko apstiprina apstiprinātājs un uzņēmums. Šajā lapā ir piecas pārskatu lapas. Vienā lapā ir sniegts pārskats, savukārt pārējās lapās ir sniegta detalizēta informācija par kreditora automātiskajiem rādītājiem.
 
 Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā informācija.
 

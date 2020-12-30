@@ -1,7 +1,7 @@
 ---
 title: Pamatlīdzekļu transakciju grāmatošana grāmatošanas līmeņos
 description: Šajā rakstā ir sniegts pārskats par pamatlīdzekļu transakciju grāmatošanas līmeņa funkcionalitāti.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770716"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493676"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Pamatlīdzekļu transakciju grāmatošana grāmatošanas līmeņos
 
@@ -39,8 +39,11 @@ Pamatlīdzekļu žurnāli tiek definēti, izmantojot lapu Žurnālu nosaukumi sa
 
 Varat norādīt virsgrāmatas kontus pamatlīdzekļu darbībām lapā Pamatlīdzekļu grāmatošanas metodes. Katrai grāmatošanas metodei jāatlasa atbilstīgs darbības tips un grāmata un pēc tam jāpiešķir virsgrāmatas konti. Iestatiet grāmatošanas metodes ierakstu katrai grāmatai, kas tiek grāmatota virsgrāmatā.
 
+Pamatlīdzekli var ievadīt dokumentos, kuri atbalsta tikai **pašreizējo** grāmatošanas līmeni, piemēram, **Pirkšanas pasūtījums**, **Gaidošs kreditora rēķins**, **Pārdošanas pasūtījums** vai **Brīva teksta rēķins**. Atlasot pamatlīdzekļa ID jebkurā no šiem dokumentiem, līdzekļu grāmata tiek filtrēta grāmatā ar **pašreizējo** grāmatošanas līmeni un tiek aizpildīta automātiski grāmatošanas laikā, kad sistēma pārbauda, vai pamatlīdzekļu grāmatošanas līmenis ir **Pašreizējais**. Ja šo pārbaudi nevarēs pabeigt, grāmatošanas process tiks apturēts. 
+
 > [!NOTE] 
-> Izmantojot atvasinātās grāmatas, varat vienlaikus grāmatot transakcijas dažādos grāmatošanas līmeņos. Izveidojiet primārās grāmatas darbības žurnālā, kura grāmatošanas līmenis atbilst grāmatas grāmatošanas līmenim. Grāmatošanas laikā atvasinātās grāmatas darbības tiek grāmatotas atbilstīgajos grāmatošanas līmeņos.
+> Izmantojot atvasinātās grāmatas, varat vienlaikus grāmatot transakcijas dažādos grāmatošanas līmeņos. Primārās grāmatas darbības tiek izveidotas žurnālā vai avota dokumentā, kura grāmatošanas līmenis atbilst grāmatas grāmatošanas līmenim. Grāmatošanas laikā atvasinātās grāmatas darbības tiks grāmatotas atbilstīgajos grāmatošanas līmeņos. 
+
 
 Papildinformāciju skatiet [Atvasinātās grāmatas](derived-books.md) un [Grāmatošana, izmantojot atvasinātās grāmatas](post-derived-value-models.md).
 

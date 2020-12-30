@@ -19,11 +19,11 @@ ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138078"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445672"
 ---
 # <a name="import-currency-exchange-rates"></a>Valūtas maiņas kursu importēšana
 
@@ -55,4 +55,4 @@ Varat importēt maiņas kursus no maiņas kursu nodrošinātāju avota un tos pi
 | **Izveidot nepieciešamos valūtu pārus**    | Izmantojot šo izvēles rūtiņu, tiek kontrolēta valūtu pāru automātiskā izveide gadījumā, ja importētie valūtu pāri nepastāv. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem.                                                                                                                                                                                               |
 | **Ignorēt esošos maiņas kursus**   | Izmantojot šo izvēles rūtiņu, tiek kontrolēta valūtu pāra esošā maiņas kursa atjaunināšana gadījumā, ja jau pastāv maiņas kurss konkrētā datumā. Ja šī izvēles rūtiņa nav atzīmēta un jau pastāv cits maiņas kurss konkrētajos datumos, jaunais maiņas kurss netiek importēts.                                                                                       |
 | **Novērst importēšanu uz valsts svētku dienām** | Izmantojot šo izvēles rūtiņu, tiek kontrolēts tas, vai ir jāimportē maiņas kurss datumā, kas ir svētku diena. Piemēram, ja šī izvēles rūtiņa ir atzīmēta un kā maiņas kursu nodrošinātājs tiek izmantota Eiropas Centrālā banka, sistēmā netiek atjaunināts maiņas kurss valsts svētku dienā, kas attiecas uz pašreizējo juridisko personu. Šī opcija, iespējams, nav pieejama dažiem nodrošinātājiem. |
-| **Maiņas kurss no iepriekšējās dienas** | Šī izvēles rūtiņa ir pieejama, ja iespējojat līdzekli**ECB importēšana uz pašreizējo vai iepriekšējo datumu** lapā **Līdzekļu pārvaldība**. Šī izvēles rūtiņa ir pieejama tikai nodrošinātājam, *Eiropas Centrālajai bankai*. Atzīmējiet šo izvēles rūtiņu, lai importētu valūtas maiņas kursu, ko Eiropas Centrālā banka ir publicējusi iepriekšējā darba dienā aptuveni plkst. 16:00 pēc Centrāleiropas laika. Pēc noklusējuma šī izvēles rūtiņa ir atzīmēta. Notīriet šo izvēles rūtiņu, lai importētu valūtas maiņas kursu, kas ir publicēts tajā pašā darba dienā.  |
+| **Maiņas kurss no iepriekšējās dienas** | Šī izvēles rūtiņa ir pieejama, ja iespējojat līdzekli **ECB importēšana uz pašreizējo vai iepriekšējo datumu** lapā **Līdzekļu pārvaldība**. Šī izvēles rūtiņa ir pieejama tikai nodrošinātājam, *Eiropas Centrālajai bankai*. Atzīmējiet šo izvēles rūtiņu, lai importētu valūtas maiņas kursu, ko Eiropas Centrālā banka ir publicējusi iepriekšējā darba dienā aptuveni plkst. 16:00 pēc Centrāleiropas laika. Pēc noklusējuma šī izvēles rūtiņa ir atzīmēta. Notīriet šo izvēles rūtiņu, lai importētu valūtas maiņas kursu, kas ir publicēts tajā pašā darba dienā.  |

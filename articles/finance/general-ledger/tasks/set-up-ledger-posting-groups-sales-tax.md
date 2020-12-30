@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1481b714d089994c1f00189cdaba3ca328f00577
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983111"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644901"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Virsgrāmatas grāmatošanas grupu izveide pievienotās vērtības nodoklim
 
@@ -36,8 +36,8 @@ PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virs
 5. Laukā **Maksājamais PVN** izvēlieties galveno kontu izejošajiem PVN, kas jāmaksā nodokļu administrācijai. PVN tiek iekasēts nodokļu iestādes vietā, ja pārdodat ar nodokli apliekamas preces un pakalpojumus.  
 6. Laukā **Saņemamais PVN** izvēlieties galveno kontu ienākošajiem PVN, kas jāsaņem no nodokļu administrācijas. Kreditori iekasē nodokli nodokļu iestādes vārdā, ja pērkat ar nodokli apliekamas preces un pakalpojumus. Šis lauks nav pieejams, ja lapā **Virsgrāmatas parametri** ir atlasīta opcija Piemērot PVN nodokļu sistēmas kārtulas. Tā vietā PVN, kas tiek maksāts kreditoriem, tiek debetēts tajā pašā kontā, kurā pirkums.   
 7. Laukā **Izmantošanas nodokļa izdevumi** atlasiet galveno kontu atskaitāmo izmantošanas nodokļu grāmatošanai, kurus pārdevēji nepieprasa vai par kuriem nodokļu administrācijai nav ziņots kā par daļu no ES apgrieztās iekasēšanas GST/HST. Opcijai **Izmantošanas nodoklis** ir jābūt atlasītai, lai izmantotu lauku **PVN kods** sadaļā **PVN grupa**, kas tiek izmantota darījumā. Šis lauks nav pieejams, ja lapā **Virsgrāmatas parametri** ir atlasīta opcija **Piemērot PVN nodokļu sistēmas kārtulas**.   
-8. Laukā **Maksājamais izmantošanas nodoklis** izvēlieties galveno kontu ienākošo izmantošanas nodokļu grāmatošanai, kuri ir jāmaksā nodokļu administrācijai. Opcijai **Izmantošanas nodoklis** ir jābūt atlasītai, lai izmantotu lauku **PVN kods** sadaļā **PVN grupa**, lai grāmatotu **Izmantošanas nodokli** Ja opcija **Piemērot PVN nodokļu sistēmas kārtulas** ir atlasīta lapā **Virsgrāmatas parametri** nobīde tiek grāmatota darījuma izdevumu kontā.   
-9. Laukā **Norēķinu konts** atlasiet galveno kontu, kas ir virsgrāmatu kontu neto atlikums, kas norādīts laukos **Maksājamais izmantošanas nodoklis** un **Saņemamais PVN**. Atlikums tiks izveidots, kad tiks nokārtots PVN un grāmatošanas uzdevums izpildīts.  Ja nodokļu administrācija norēķinu periodā ir saistīta ar pārdevēja kontu, atlikums tiek nosūtīts uz pārdevēja kontu.
+8. Laukā **Maksājamais izmantošanas nodoklis** izvēlieties galveno kontu ienākošo izmantošanas nodokļu grāmatošanai, kuri ir jāmaksā nodokļu administrācijai. Opcijai **Izmantošanas nodoklis** ir jābūt atlasītai, lai izmantotu lauku **PVN kods** sadaļā **PVN grupa**, lai grāmatotu **Izmantošanas nodokli**. Ja opcija **Piemērot PVN nodokļu sistēmas kārtulas** ir atlasīta lapā **Virsgrāmatas parametri** nobīde tiek grāmatota darījuma izdevumu kontā.   
+9. Laukā **Norēķinu konts** atlasiet galveno kontu, kas ir virsgrāmatu kontu neto atlikums, kas norādīts laukos **Maksājamais izmantošanas nodoklis** un **Saņemamais PVN**. Atlikums tiks izveidots, kad tiks nokārtots PVN un grāmatošanas uzdevums ir izpildīts.  Ja nodokļu administrācija norēķinu periodā ir saistīta ar pārdevēja kontu, atlikums tiek nosūtīts uz pārdevēja kontu.
 10. Laukā **Pārdevēja skaidras naudas atlaide** atlasiet galveno kontu, lai grāmatotu skaidras naudas atlaidi PVN kodiem, kas saistīti ar šīs virsgrāmatas grāmatošanas grupu. Šī ir izvēles opcija, un, ja netiek ievadīts neviens konts, opcijai **Skaidras naudas atlaižu kodi** tiks izmantots galvenais konts. Var būt noderīgi katrai **Virsgrāmatas grāmatošanas grupai** izmantot citu kontu, ja tiek izmantots apgrieztais PVN skaidras naudas atlaides opcijai PVN grupās.  
 11. Laukā **Klienta pieteikuma atlaide** atlasiet galveno kontu, lai grāmatotu skaidras naudas atlaidi **PVN kodiem**, kas saistīti ar šīs **Virsgrāmatas grāmatošanas grupu**. Šī ir izvēles opcija, un, ja netiek ievadīts neviens konts, opcijai **Skaidras naudas atlaižu kodi** tiks izmantots galvenais konts. Var būt noderīgi katrai **Virsgrāmatas grāmatošanas grupai** izmantot citu kontu, ja tiek izmantots apgrieztais PVN skaidras naudas atlaides opcijai **PVN grupās**.  
 12. Noklikšķiniet uz **Saglabāt**.

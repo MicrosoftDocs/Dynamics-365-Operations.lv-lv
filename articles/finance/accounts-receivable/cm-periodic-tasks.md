@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977939"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4445553"
 ---
 # <a name="periodic-credit-management-tasks"></a>Periodiski kredītu pārvaldības uzdevumi
 
@@ -37,7 +37,7 @@ Uzņēmējdarbībai attīstoties un mainoties apstākļiem, var mainīties arī 
 - **Uzņēmējdarbībā kopš** — šis rezultāts ir gadu skaits, cik debitors ir darbojies uzņēmējdarbībā. Tas izmanto lauka **Uzņēmējdarbības sākums** vērtību lapā **Debitori**.
 - **Vidējais maksājuma saņemšanas laiks** — šis rezultāts ir balstīts uz debitoru parādu bilanci, pārdošanas ieņēmumiem un dienu skaitu iepriekšējā 12 mēnešu periodā.
 - **Vidējā bilance** — šis rezultāts ir balstīts uz debitoru parādu bilanci par iepriekšējo 12 mēnešu periodu.
-- **Kredīta pārvaldības grupa**, **Konta statuss**un **Valsts** — šie rezultāti izmanto informāciju no debitora.
+- **Kredīta pārvaldības grupa**, **Konta statuss** un **Valsts** — šie rezultāti izmanto informāciju no debitora.
 
 ## <a name="update-customer-balance-statistics"></a>Klienta bilances statistikas atjaunināšana
 

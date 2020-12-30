@@ -3,7 +3,7 @@ title: Automatizēts kreditoru rēķinu izrakstīšanas procesa pārskats
 description: Šajā tēmā ir aprakstīta iespēja automatizēt kreditora rēķina apstrādi un automatizēta procesa izmantošanas priekšrocības.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022500"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665326"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatizēts kreditoru rēķinu izrakstīšanas procesa pārskats
 
@@ -39,8 +39,9 @@ Automatizācijas procesus var izmantot, lai veiktu šos uzdevumus:
 - Automātiski iesniegt importētos rēķinus darbplūsmas sistēmai.
 - Preču ieejas plūsmu saskaņošana ar gaidošām kreditora rēķina rindām.
 - Simulēt grāmatošanu pirms kreditora rēķina iegrāmatošanas.
-- Ātri un efektīvi skatīt darbplūsmas vēsturi.
+- Ātri un efektīvi skatīt darbplūsmas un automatizācijas vēsturi.
 - Skatīt un analizēt kreditora rēķinu automatizētas apstrādes rezultātus.
+- Atsākt vairāku rēķinu automatizētu apstrādi.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Kreditoru rēķinu automatizācija — importēto kreditoru rēķinu iesniegšana darbplūsmas sistēmā
 
@@ -58,10 +59,13 @@ Sistēma var automātiski saskaņot grāmatotās preču ieejas plūsmas ar rēķ
 
 Grāmatošanas simulācija izpilda validācijas darbības, kas tiek veiktas kreditora rēķinu iegrāmatošanas procesā, bet neviens konts netiek atjaunināts. Lai palaistu procesu, atlasiet vienu vai vairākus rēķinus lapā **Gaidošie kreditoru rēķini**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Kreditoru rēķinu automatizācija — uzlabota pieredze darbplūsmas vēsturiskās informācijas skatīšanai piegādātāja rēķinos
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Kreditoru rēķinu automatizācija — uzlabota pieredze darbplūsmas un automatizācijas vēsturiskās informācijas skatīšanai piegādātāja rēķinos
 
-Tiek nodrošināts vienkārši lasāms kreditora rēķinu darbplūsmas vēstures skats. Kreditora rēķina darbplūsmas vēsturei var piekļūt tieši no kreditora rēķina. Tādējādi, lai atrastu informāciju, ir jāveic mazāks darbību skaits.
+Tiek nodrošināts vienkārši lasāms kreditora rēķinu darbplūsmas vēstures skats. Kreditora rēķina darbplūsmas vēsturei var piekļūt tieši no kreditora rēķina. Tādējādi, lai atrastu informāciju, ir jāveic mazāks darbību skaits. Ja jūsu organizācija ir iespējojusi automātisku importēto kreditoru rēķinu iesniegšanu darbplūsmai, importētajiem rēķiniem ir nodrošināta automatizācijas vēsture. Automatizācijas vēsture palīdz identificēt pašreizējo procesa darbību, kā arī darbības, kas jau ir pabeigtas. Kad darbība neizdodas, sistēma sniedz detalizētu informāciju, lai palīdzētu saprast kļūmes iemeslu.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Kreditoru rēķinu automatizācija — analīze un metrika
 
 Darbvieta **Kreditora rēķina ieraksts** ļauj koncentrēties uz kreditoru rēķiniem, kas netika apstrādāti, izmantojot automatizēto procesu. Elementi darbvietas saraksta informācijā par kreditoru rēķiniem, kas netika veiksmīgi iesniegti darbplūsmas sistēmā, importēti vai saskaņoti ar preču ieejas plūsmām. Tiek nodrošināta arī Microsoft Power BI metrika, lai kreditoru vadītājiem sniegtu ieskatu par kreditoru rēķinu automatizācijas efektivitāti.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Kreditora rēķina automatizācija — vairāku rēķinu automatizētas apstrādes atsākšana
+Ja importēto rēķinu neizdodas iesniegt darbplūsmai, izmantojot automatizēto procesu, sistēma noņems to no turpmākās automatizētās apstrādes. Kreditoru darbinieks var pārskatīt un rediģēt rēķinu, pirms automatizētais process to atkārtoti iesniedz darbplūsmai. Ja ar vienu un to pašu labojumu var atrisināt kļūmes iemeslu vairākos rēķinos, varat atsākt automātisko procesu lapā **Atsākt automātisko rēķinu apstrādi**. 
