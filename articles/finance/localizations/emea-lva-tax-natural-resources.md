@@ -18,11 +18,11 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 93486e137b9ae8b9acf52a22230dec348bc56307
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176136"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408281"
 ---
 # <a name="tax-on-natural-resources-report"></a>Dabas resursu nodokļa pārskats
 

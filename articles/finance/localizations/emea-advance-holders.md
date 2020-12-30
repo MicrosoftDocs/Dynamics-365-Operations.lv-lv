@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: ddc3b9ec0b7e1980cef97a97184d2639bc62901a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408264"
 ---
 # <a name="advance-holders-overview"></a>Avansa turētāju pārskats
 
@@ -55,7 +55,7 @@ Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbini
 | **Grāmatošanas metode** |  Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.               |
 |   **Apraksts**   |  Ievadiet īsu grāmatošanas metodes aprakstu.                         |
 |    **Derīgs**    |  Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. <ul> <li>**Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam. Laukā **Atsauce** ir jānorāda avansa turētāja kods.</li> <li>**Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai. Laukā **Atsauce** ir jānorāda grupas kods.</li> <li>**Viss** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu visiem avansa turētājiem.</li></ul> |
-| **Atsauce** | Atlasiet avansa turētāja kodu, ja laukā **Derīgs** ir atlasīta **Tabula**, vai atlasiet avansa turētāju grupu, ja laukā**Derīgs** ir atlasīta **Grupa**. |
+| **Atsauce** | Atlasiet avansa turētāja kodu, ja laukā **Derīgs** ir atlasīta **Tabula**, vai atlasiet avansa turētāju grupu, ja laukā **Derīgs** ir atlasīta **Grupa**. |
 | **Summu konts** | Atlasiet kopsavilkuma kontu transakciju iegrāmatošanai. |
 
 
