@@ -94,12 +94,12 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.17 (2021.\_gada aprīlis)"
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: "Commerce 10.0.16 (2021.\_februāris)"
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: "Commerce 10.0.15 (2021.\_gada janvāris)"
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: "Commerce\_10.0.14 (2020.\_gada novembris)"
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi programmā Finance and Operations
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Pakalpojuma Lifecycle Services saprašana
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: Ieviešanas dzīves cikla pārvaldība
+              items:
+                - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Finance and Operations programmu arhitektūra
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: Ieviešanas projekta pievienošana
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Vides plānošana
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Sagatavošanās līdzeklim Go Live
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: Bieži uzdotie jautājumi par Go Live
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Pakalpojuma pieprasījuma iesniegšana
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Bieži uzdotie jautājumi par abonementiem, LCS projektiem un Azure AD nomniekiem'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Vižu pārvietošana starp datu centriem
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Licenču pārvietošana starp līgumu tipiem
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS ieviešanas projektu pārvietošana uz citiem Azure AD nomniekiem
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS ieviešanas projektu pārvietošana no lokāla risinājuma uz mākoni
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Ieviest Finance and Operations Commerce projektus
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Jaunas vides, Azure DevOps un zaru iestatīšana projektiem'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Koda un vižu atjaunināšana Commerce projektiem
+                  href: dev-itpro/updating-environments.md
+                - name: Testēšanas un veiktspējas problēmas
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Arhitektūras apskats
           items:
             - name: Arhitektūra
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Sākumdatu inicializēšana jaunās Commerce vidēs
                   href: enable-configure-retail-functionality.md
-            - name: Ieviešanas dzīves cikla pārvaldība
-              items:
-                - name: Ieviešanas dzīves cikla pārvaldības sākumlapa
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations programmu arhitektūra
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Ieviešanas projekta pievienošana
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: Vides plānošana
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Sagatavošanās līdzeklim Go Live
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Bieži uzdotie jautājumi par Go Live
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Pakalpojuma pieprasījuma iesniegšana
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Bieži uzdotie jautājumi par abonementiem, LCS projektiem un Azure AD nomniekiem'
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Vižu pārvietošana starp datu centriem
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: Licenču pārvietošana starp līgumu tipiem
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: LCS ieviešanas projektu pārvietošana uz citiem Azure AD nomniekiem
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: LCS ieviešanas projektu pārvietošana no lokāla risinājuma uz mākoni
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: Vairāki LCS projekti un ražošanas vides vienā Azure AD nomniekā
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Ieviest Finance and Operations Commerce projektus
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Jaunas vides, Azure DevOps un zaru iestatīšana Commerce projektiem'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: Koda un vižu atjaunināšana Commerce projektiem
-                  href: dev-itpro/updating-environments.md
-                - name: Testēšanas un veiktspējas problēmas
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Savu kanālu iestatīšana
           items:
             - name: Kanālu apskats
@@ -500,10 +500,12 @@
                       href: work-with-order-holds.md
                 - name: Maksājumi
                   items:
-                    - name: Maksāšanas metodes
+                    - name: Maksājuma metodes
                       href: payment-methods.md
                     - name: Maksāšanas metodes zvanu centros
                       href: work-with-payments.md
+                    - name: Maksājumu atmaksas apstrāde zvanu centros
+                      href: call-center-refund-payments.md
                     - name: 'Kredītkartes iestatīšana, autorizēšana un nolasīšana'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Skaidras naudas denomināciju konfigurēšana punktam POS
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: Ieteikumu “pirkt līdzīgus modeļus” iespējošana
                   href: shop-similar-looks.md
+                - name: Ieteikumu “pirkt līdzīgus aprakstus” iespējošana
+                  href: shop-similar-description.md
                 - name: "POS\_pieredze"
                   items:
                     - name: "Preču ieteikumu pievienošana programmā\_POS"
@@ -712,7 +716,7 @@
           items:
             - name: Debitoru pasūtījumi
               items:
-                - name: Debitoru pasūtījumi pārdošanas punktā (POS)
+                - name: "Debitoru pasūtījumi programmā\_POS"
                   href: customer-orders-overview.md
                 - name: Hibrīda debitoru pasūtījumi
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: Vairāku savākšanas piegādes režīmu iespējošana
                   href: multiple-pickup-modes.md
+                - name: Debitora pasūtījuma savākšanas apstrāde programmā POS
+                  href: process-order-pickup-POS.md
             - name: Pārdošanas pasūtījumi
               items:
                 - name: Zvanu centra pasūtījumu izveide
@@ -858,6 +864,10 @@
                   href: add-cdn-support.md
                 - name: Veikala noteikšanas iespējošana pēc atrašanās vietas
                   href: enable-store-detection.md
+                - name: E-komercijas digitālās dāvanu kartes
+                  href: digital-gift-cards.md
+                - name: Dynamics 365 Commerce vietņu pārlūkprogrammas prasības
+                  href: browser-requirements.md
             - name: Parauga vietnes pārskats
               items:
                 - name: Sākumlapas pārskats
@@ -948,6 +958,8 @@
                       href: enrich-category-page.md
                     - name: Lapas satura pieejamības pārbaude
                       href: verify-accessibility.md
+                    - name: 'Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem'
+                      href: create-dynamic-pages.md
                 - name: Vietnes navigācija
                   items:
                     - name: Vietnes navigācijas pielāgošana
@@ -1058,6 +1070,8 @@
                   items:
                     - name: Preču kolekcijas moduļi
                       href: product-collection-module-overview.md
+                    - name: Ātrā skata modulis
+                      href: quick-view-module.md
                 - name: Navigācijas moduļi
                   items:
                     - name: Atpakaļceļa modulis
@@ -1066,6 +1080,10 @@
                       href: nav-menu-module.md
                     - name: Vietņu atlasītāja modulis
                       href: site-selector.md
+                - name: Meklēšanas moduļi
+                  items:
+                    - name: Meklēšanas rezultātu modulis
+                      href: search-result-module.md
                 - name: Atbilstības moduļi
                   items:
                     - name: Sīkfailu piekrišanas modulis
@@ -1106,6 +1124,18 @@
           items:
             - name: Dynamics 365 Fraud Protection integrācija ar Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: B2B e-komercija
+          items:
+            - name: B2B e-komercijas vietnes iestatīšana
+              href: b2b/set-up-b2b-site.md
+            - name: B2B organizāciju modelēšanas hierarhiju izveide
+              href: b2b/org-model.md
+            - name: Biznesa partnera lietotāju pārvaldība B2B e-komercijas vietnēs
+              href: b2b/manage-b2b-users.md
+            - name: Debitora konta maksājuma metodes konfigurācija B2B e-komercijas vietnēm
+              href: b2b/payment-method.md
+            - name: Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēm
+              href: b2b/quantity-limits.md
         - name: Pārraudzība un analīze
           items:
             - name: Pārdošanas un uzcenojuma veiktspējas pārraudzība
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: Atveidot pierakstīšanās stāvokli lokālās izstrādes laikā
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: 'Moduļa rekvizītu konfigurēšana, lai tos rādītu atkarībā no konteksta'
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: 'Moduļu globalizēšana, izmantojot CultureInfoFormatter klasi'
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure Key Vault iestatīšana drošai atslēgu pārvaldībai
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: "Gaidāmās izmaiņas komplektā Retail\_SDK"
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: "Nozīmīgas izstrādes un ALM\_izmaiņas no versijas\_10.0.10 uz\_10.0.13"
+                - name: "Izstrādes un ALM\_izmaiņas no versijas\_10.0.10 uz\_10.0.13"
                   href: dev-itpro/dev-changes-10-13.md
                 - name: Commerce un Finance and Operations būvējumu sistēmu sapludināšana
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,7 +2194,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Izvietojamu pakotņu izveide
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: Izstrādes veikšana izstrādes mākoņvidēs bez administratora piekļuves
+                - name: Izstrādes veikšana mākoņvidēs bez administratora piekļuves
                   href: dev-itpro/cloud-dev-box.md
                 - name: Commerce SDK būvējuma konveijera iestatīšana
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
@@ -2238,7 +2270,7 @@
               items:
                 - name: "Commerce Scale Unit klienta un patērētāja\_API"
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: "Jauna Retail\_Server paplašinājuma\_API izveide (Retail\_SDK versija\_10.0.11 un jaunākas versijas)"
+                - name: "Retail\_Server paplašinājuma\_API izveide (Retail\_SDK versija\_10.0.11 un jaunākas versijas)"
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: "Jauna Retail\_Server paplašinājuma\_API izveide (Retail\_SDK versija\_10.0.11 un vecākas versijas)"
                   href: dev-itpro/retail-server-extension.md
@@ -2300,7 +2332,7 @@
                   href: payment-connector-data-fields.md
                 - name: Maksājumu dublikātu aizsardzības iespējošana maksājumu savienotājam
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Maksājumu pakotnes izveidošana programmu pārlūkam Service Fabric izvietojumos
+                - name: Commerce maksājumu pakotnes izvietošana programmai Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: Trešās puses e-komercijas paplašināmība
               items:

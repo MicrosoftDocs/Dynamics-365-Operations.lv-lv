@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,41 +17,41 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dce5afdd440a3f953dea632183717d9d7273b032
-ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.openlocfilehash: 443e5e9931498799f9a96fc55c6e5d5c9f6750c6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4459515"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980410"
 ---
-# <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a><span data-ttu-id="25365-103">Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus</span><span class="sxs-lookup"><span data-stu-id="25365-103">Add fields to an Excel workbook to edit retail transactions</span></span>
+# <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a><span data-ttu-id="21187-103">Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus</span><span class="sxs-lookup"><span data-stu-id="21187-103">Add fields to an Excel workbook to edit retail transactions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="25365-104">Šajā tēmā ir aprakstīts, kā pievienot laukus Microsoft Excel darbgrāmatai, lai programmā Microsoft Dynamics 365 Commerce varat rediģēt mazumtirdzniecības darījumus.</span><span class="sxs-lookup"><span data-stu-id="25365-104">This topic describes how to add fields to a Microsoft Excel workbook so that you can edit retail transactions in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="21187-104">Šajā tēmā ir aprakstīts, kā pievienot laukus Microsoft Excel darbgrāmatai, lai programmā Microsoft Dynamics 365 Commerce varat rediģēt mazumtirdzniecības darījumus.</span><span class="sxs-lookup"><span data-stu-id="21187-104">This topic describes how to add fields to a Microsoft Excel workbook so that you can edit retail transactions in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="25365-105">Pārskats</span><span class="sxs-lookup"><span data-stu-id="25365-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="21187-105">Pārskats</span><span class="sxs-lookup"><span data-stu-id="21187-105">Overview</span></span>
 
-<span data-ttu-id="25365-106">Ģenerējot Excel failu, lai varētu rediģēt mazumtirdzniecības darījumus, fails tiek aizpildīts ar dažiem noklusējuma laukiem.</span><span class="sxs-lookup"><span data-stu-id="25365-106">When you generate an Excel file so that you can edit retail transactions, the file is filled with some default fields.</span></span> <span data-ttu-id="25365-107">Ja atjaunināmais lauks ģenerētajā Excel failā nav redzams pēc noklusējuma, varat to pievienot.</span><span class="sxs-lookup"><span data-stu-id="25365-107">If a field that must be updated isn't visible by default in the generated Excel file, you can add it.</span></span>
+<span data-ttu-id="21187-106">Ģenerējot Excel failu, lai varētu rediģēt mazumtirdzniecības darījumus, fails tiek aizpildīts ar dažiem noklusējuma laukiem.</span><span class="sxs-lookup"><span data-stu-id="21187-106">When you generate an Excel file so that you can edit retail transactions, the file is filled with some default fields.</span></span> <span data-ttu-id="21187-107">Ja atjaunināmais lauks ģenerētajā Excel failā nav redzams pēc noklusējuma, varat to pievienot.</span><span class="sxs-lookup"><span data-stu-id="21187-107">If a field that must be updated isn't visible by default in the generated Excel file, you can add it.</span></span>
 
-## <a name="add-fields-to-a-worksheet-in-an-excel-workbook"></a><span data-ttu-id="25365-108">Lauku pievienošana darblapai Excel darbgrāmatā</span><span class="sxs-lookup"><span data-stu-id="25365-108">Add fields to a worksheet in an Excel workbook</span></span>
+## <a name="add-fields-to-a-worksheet-in-an-excel-workbook"></a><span data-ttu-id="21187-108">Lauku pievienošana darblapai Excel darbgrāmatā</span><span class="sxs-lookup"><span data-stu-id="21187-108">Add fields to a worksheet in an Excel workbook</span></span>
 
-<span data-ttu-id="25365-109">Lai pievienotu laukus Excel darbgrāmatai un varētu rediģēt mazumtirdzniecības darījumus, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="25365-109">To add fields to an Excel workbook so that you can edit retail transactions, follow these steps.</span></span>
+<span data-ttu-id="21187-109">Lai pievienotu laukus Excel darbgrāmatai un varētu rediģēt mazumtirdzniecības darījumus, veiciet tālāk norādītās darbības.</span><span class="sxs-lookup"><span data-stu-id="21187-109">To add fields to an Excel workbook so that you can edit retail transactions, follow these steps.</span></span>
 
-1. <span data-ttu-id="25365-110">Lejupielādējiet un atveriet Excel failu lapā **Pārskati**, lapā **Mazumtirdzniecības darījumi** vai elementā **Darījumu validācijas kļūmes** darbvietā **Veikala finanses**.</span><span class="sxs-lookup"><span data-stu-id="25365-110">Download and open the Excel file from the **Statements** page, the **Retail transactions** page, or the **Transaction validation failures** tile in the **Store financials** workspace.</span></span>
-1. <span data-ttu-id="25365-111">Atlasiet **Dizains**.</span><span class="sxs-lookup"><span data-stu-id="25365-111">Select **Design**.</span></span>
-1. <span data-ttu-id="25365-112">Atlasiet vajadzīgās tabulas zīmuļa simbolu un pēc tam pieejamo lauku sarakstā atrodiet un atlasiet pievienojamo lauku.</span><span class="sxs-lookup"><span data-stu-id="25365-112">Select the pencil symbol for the desired table, and then, in the list of available fields, find and select the field that you want to add.</span></span>
-1. <span data-ttu-id="25365-113">Atlasiet **Pievienot** un pēc tam atlasiet **Atjaunināt**.</span><span class="sxs-lookup"><span data-stu-id="25365-113">Select **Add**, and then select **Update**.</span></span> <span data-ttu-id="25365-114">Laukus varat pārkārtot.</span><span class="sxs-lookup"><span data-stu-id="25365-114">You can reorder fields.</span></span>
-1. <span data-ttu-id="25365-115">Kad atjaunināšana ir pabeigta, atlasiet **Atsvaidzināt**, lai ienestu datus jaunajā kolonnā.</span><span class="sxs-lookup"><span data-stu-id="25365-115">After the update is completed, select **Refresh** to fetch the data for the new column.</span></span>
+1. <span data-ttu-id="21187-110">Lejupielādējiet un atveriet Excel failu lapā **Pārskati**, lapā **Mazumtirdzniecības darījumi** vai elementā **Darījumu validācijas kļūmes** darbvietā **Veikala finanses**.</span><span class="sxs-lookup"><span data-stu-id="21187-110">Download and open the Excel file from the **Statements** page, the **Retail transactions** page, or the **Transaction validation failures** tile in the **Store financials** workspace.</span></span>
+1. <span data-ttu-id="21187-111">Atlasiet **Dizains**.</span><span class="sxs-lookup"><span data-stu-id="21187-111">Select **Design**.</span></span>
+1. <span data-ttu-id="21187-112">Atlasiet vajadzīgās tabulas zīmuļa simbolu un pēc tam pieejamo lauku sarakstā atrodiet un atlasiet pievienojamo lauku.</span><span class="sxs-lookup"><span data-stu-id="21187-112">Select the pencil symbol for the desired table, and then, in the list of available fields, find and select the field that you want to add.</span></span>
+1. <span data-ttu-id="21187-113">Atlasiet **Pievienot** un pēc tam atlasiet **Atjaunināt**.</span><span class="sxs-lookup"><span data-stu-id="21187-113">Select **Add**, and then select **Update**.</span></span> <span data-ttu-id="21187-114">Laukus varat pārkārtot.</span><span class="sxs-lookup"><span data-stu-id="21187-114">You can reorder fields.</span></span>
+1. <span data-ttu-id="21187-115">Kad atjaunināšana ir pabeigta, atlasiet **Atsvaidzināt**, lai ienestu datus jaunajā kolonnā.</span><span class="sxs-lookup"><span data-stu-id="21187-115">After the update is completed, select **Refresh** to fetch the data for the new column.</span></span>
 
-<span data-ttu-id="25365-116">Jaunajam laukam un tā datiem tagad ir jābūt pieejamiem rediģēšanai programmā Excel.</span><span class="sxs-lookup"><span data-stu-id="25365-116">The new field and data for it should now be available for editing in Excel.</span></span>
+<span data-ttu-id="21187-116">Jaunajam laukam un tā datiem tagad ir jābūt pieejamiem rediģēšanai programmā Excel.</span><span class="sxs-lookup"><span data-stu-id="21187-116">The new field and data for it should now be available for editing in Excel.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="25365-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="25365-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="21187-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="21187-117">Additional resources</span></span>
 
-[<span data-ttu-id="25365-118">Darījumu, kas saistīti ar pārdošanu skaidrā naudā bez piegādes, un skaidras naudas pārvaldības darījumu rediģēšana un auditēšana</span><span class="sxs-lookup"><span data-stu-id="25365-118">Edit and audit cash and carry and cash management transactions</span></span>](edit-cash-trans.md)
+[<span data-ttu-id="21187-118">Darījumu, kas saistīti ar pārdošanu skaidrā naudā bez piegādes, un skaidras naudas pārvaldības darījumu rediģēšana un auditēšana</span><span class="sxs-lookup"><span data-stu-id="21187-118">Edit and audit cash and carry and cash management transactions</span></span>](edit-cash-trans.md)
 
-[<span data-ttu-id="25365-119">Tiešsaistes pasūtījumu un asinhrono debitoru pasūtījumu darījumu rediģēšana un auditēšana</span><span class="sxs-lookup"><span data-stu-id="25365-119">Edit and audit online order and asynchronous customer order transactions</span></span>](edit-order-trans.md)
+[<span data-ttu-id="21187-119">Tiešsaistes pasūtījumu un asinhrono debitoru pasūtījumu darījumu rediģēšana un auditēšana</span><span class="sxs-lookup"><span data-stu-id="21187-119">Edit and audit online order and asynchronous customer order transactions</span></span>](edit-order-trans.md)
 
-[<span data-ttu-id="25365-120">Mazumtirdzniecības darījumu finanšu dimensiju rediģēšana</span><span class="sxs-lookup"><span data-stu-id="25365-120">Edit financial dimensions for retail transactions</span></span>](edit-financial-dim.md)
+[<span data-ttu-id="21187-120">Mazumtirdzniecības darījumu finanšu dimensiju rediģēšana</span><span class="sxs-lookup"><span data-stu-id="21187-120">Edit financial dimensions for retail transactions</span></span>](edit-financial-dim.md)
 
-[<span data-ttu-id="25365-121">Excel darbgrāmatas izveide, lai rediģētu mazumtirdzniecības darījumus</span><span class="sxs-lookup"><span data-stu-id="25365-121">Create an Excel workbook to edit retail transactions</span></span>](create-excel-edit.md)
+[<span data-ttu-id="21187-121">Excel darbgrāmatas izveide, lai rediģētu mazumtirdzniecības darījumus</span><span class="sxs-lookup"><span data-stu-id="21187-121">Create an Excel workbook to edit retail transactions</span></span>](create-excel-edit.md)

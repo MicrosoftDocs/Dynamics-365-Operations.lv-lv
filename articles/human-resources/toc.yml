@@ -5,6 +5,10 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 28.\_janvāris"
+          href: hr-whats-new-2021-01-28.md
+        - name: "2021.\_gada 21.\_janvāris"
+          href: hr-whats-new-2021-01-21.md
         - name: "2020.\_gada 2.\_decembris"
           href: hr-whats-new-2020-12-02.md
         - name: "2020.\_gada 22.\_oktobris"
@@ -77,14 +81,18 @@
               href: hr-admin-setup-update-process.md
         - name: Datu integrācijas iestatīšana
           items:
-            - name: Izvēlēties datu integrācijas tehnoloģiju
+            - name: Datu integrācijas tehnoloģiju izvēle
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service integrācijas konfigurēšana
+            - name: Bieži uzdotie jautājumi par ierobežošanu
+              href: hr-admin-integration-throttling-faq.md
+            - name: Dataverse integrācijas konfigurēšana
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service entītijas
+            - name: Dataverse tabulas
               href: hr-developer-entities.md
-            - name: Common Data Service virtuālo elementu konfigurēšana
+            - name: Dataverse virtuālo elementu konfigurēšana
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Bieži uzdotie jautājumi par Human Resources virtuālajiem elementiem
+              href: hr-admin-virtual-entity-faq.md
             - name: Integrācijas konfigurēšana ar Finance
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
@@ -279,15 +287,15 @@
           href: hr-developer-overview.md
         - name: Paplašināšana ar Power Apps un Power Automate
           href: hr-developer-power-apps.md
-        - name: Common Data Service entītijas
+        - name: Dataverse tabulas
           href: hr-developer-entities.md
         - name: Pielāgotie lauki
           href: hr-developer-custom-fields.md
         - name: Datu integrācijas iestatīšana
           items:
-            - name: Izvēlēties datu integrācijas tehnoloģiju
+            - name: Datu integrācijas tehnoloģiju izvēle
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service integrācijas konfigurēšana
+            - name: Dataverse integrācijas konfigurēšana
               href: hr-admin-integration-common-data-service.md
             - name: Integrācijas konfigurēšana ar Finance
               href: hr-admin-integration-finance.md
@@ -317,13 +325,99 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS integrācijas API
+          items:
+            - name: Ievads
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Darbā pieņemšanas pieprasījums un saistītie elementi
+              items:
+                - name: Darbā pieņemšanas pieprasījums
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Darbā pieņemšanas pieprasījuma izglītība
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Darbā pieņemšanas pieprasījuma atrašanās vieta
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Darbā pieņemšanas pieprasījuma amats
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Darbā pieņemšanas prasmes
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Darbā pieņemšanas pieprasījuma parauga vaicājums
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Darbā pieņemšanas pieprasījuma opciju kopas
+              items:
+                - name: Darba nodokļu atvieglojumu statuss
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Darbā pieņemšanas pieprasījuma amata statuss
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Darbā pieņemšanas statuss
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Regulēšanas darba kategorija
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Kandidāts pieņemšanai darbā un saistītie elementi
+              items:
+                - name: Kandidāts pieņemšanai darbā
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Sertifikāta veids
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Puses kontaktpersona
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Persona
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Personas adrese
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Personas sertifikāts
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Personas izglītība
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Personas identifikācijas numurs.
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Personas profesionālā pieredze
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Personas izvērtēšana
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Personas prasmes
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Novērtējuma līmenis
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Izvērtēšanas tipi
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Kandidāta pieņemšanai darbā parauga vaicājums
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Kandidāta opciju kopas
+              items:
+                - name: Kandidātu integrācijas rezultāts
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Tukšs Jā Nē
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Izpildes statuss
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Kontaktpersonas tips
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Izglītības kredīta bāze
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Dzimums
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Ģimenes stāvoklis
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Gada mēneši
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Nē Jā
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Perioda vienība
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Izvērtēšanas biežums
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Izvērtēšanas biežuma ģenerēšanas veidlapa
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Prasmju līmeņa tips
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Lietotāja rokasgrāmata
       items:
         - name: Pārskats
           href: hr-hrpro-overview.md
         - name: Human Resources iestatīšana
           items:
-            - name: "Programmas Human\_Resources parametru konfigurēšana"
+            - name: Konfigurēt Human Resources parametrus
               href: hr-setup-parameters.md
             - name: Programmas Human Resources kopīgoto parametru konfigurēšana
               href: hr-setup-shared-parameters.md
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Klienta brīdinājumu paziņojumi pa e-pastu
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektroniskie paraksti
-              items:
-                - name: Elektronisko parakstu pārskats
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektronisko parakstu iestatīšana
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Pieteikumu pārvaldība
               items:
                 - name: Pārskats par pieteikumu pārvaldību
@@ -591,6 +679,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Apstrādāt likmju izmaiņas
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA pārskats
+                  href: hr-benefits-management-aca-reports.md
             - name: Atvieglojumu programmas definēšana un pārvaldība
               href: hr-benefits-manage-program.md
             - name: Atvieglojumu piemērojamības politikas
