@@ -245,3 +245,6 @@ Izmantojot mērogu vienību darba slodzi, jūs varat pārvaldīt šādus trīs p
 
 - Apstrādājiet kopuma tabulas ierakstus
 - Apstrādāt kopuma izpildes kontroles pārsūtīšanas notikumus
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

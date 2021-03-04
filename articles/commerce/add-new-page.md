@@ -91,3 +91,6 @@ Lai vietnei pievienotu jaunu vietnes lapu, veiciet tālāk norādītās darbība
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Tālāk minētajās tēmās ir apskatīti dažādi ieņēmumu atzīšanas scenā
 - [Ieņēmumu atzīšanas atkārtotā sadale — 2. scenārijs](rev-rec-reallocation-scenario-2.md) — ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā.
 - [Ieņēmumu atzīšanas atkārtotā sadale — 3. scenārijs](rev-rec-reallocation-scenario-3.md) — esošam, rēķinā iekļautam pārdošanas pasūtījumam tiek pievienota jauna rinda.
 - [Ieņēmumu atzīšanas atkārtotā sadale — 4. scenārijs](rev-rec-reallocation-scenario-4.md) — esošam, daļēji rēķinā iekļautam pārdošanas pasūtījumam tiek noņemta rinda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

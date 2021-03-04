@@ -88,3 +88,6 @@ Nākamie astoņi uzdevumu ceļveži ir uzskaitīti tādā secībā, kādā jums 
 7.  [Konfigurācijas kārtulu izveide](tasks/create-configuration-rules.md)
 8.  [Konfigurāciju izveide atbilstoši dimensijām](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

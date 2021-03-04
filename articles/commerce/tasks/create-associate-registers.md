@@ -44,3 +44,6 @@ ms.locfileid: "4414109"
     * EFT POS reģistra numurs tiek izmantots, lai informētu maksājumu apstrādātāju par to, kurš maksājumu terminālis sūta autorizācijas pieprasījumus. Šī vērtība bieži tiek saukta par “Termināļa ID” vai “TID”. Vērtība TID parasti ir atrodama uz maksājumu ierīces uzlīmes.  
 9. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Lai uzzinātu vairāk par katru eksperimenta procesa darbību, skatiet tālāk n
 
 ## <a name="next-step"></a>Nākamā darbība
 [Hipotēzes identificēšana un eksperimenta panākumu rādītāju noteikšana](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

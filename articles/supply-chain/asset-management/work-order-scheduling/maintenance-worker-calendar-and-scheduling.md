@@ -39,3 +39,6 @@ Zemāk esošajā ekrānšāviņā ir rādīts piemērs uzturēšanas speciālist
 
 Kalendāra uzstādīšana rīkiem un līdzekļiem nav nepieciešama attiecībā uz darba pasūtījuma plānošanu. Tiek pieņemts, ka rīki un līdzekļi ir uzturēšanai pieejami 24 stundas diennaktī.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

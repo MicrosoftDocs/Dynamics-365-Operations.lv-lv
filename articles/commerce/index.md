@@ -56,3 +56,6 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
 - [Pārvaldiet savu e-komercijas vietni](online-store-overview.md)
 - [Aizsardzība pret krāpniecību](dev-itpro/DFP.md)
 - [Commerce izstrāde un paplašināmība](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

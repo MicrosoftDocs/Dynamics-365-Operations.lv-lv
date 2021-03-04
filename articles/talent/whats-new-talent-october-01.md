@@ -56,3 +56,6 @@ Organizācijas piešķir prombūtnes laiku dažādi atkarībā no tā, kad darbi
 ## <a name="known-issue"></a>Zināma problēma
 
 -   **Problēma:** pievienojot nodarbinātajam jaunu pielikumu, tiek deaktivizēta poga **Jauns** un **Rediģēt**. **Risinājums:** pirms pielikuma lapas atvēršanas pārbaudiet, vai lapā **Nodarbinātais** ir aizvērta papildinformācija. Ja, ielādējot lapu **Nodarbinātais**, papildinformācija ir aizvērta, elementa **Pielikumi** pogas tiek iespējotas. (Šī problēma tiks novērsta nākamajā platformas atjauninājumā.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

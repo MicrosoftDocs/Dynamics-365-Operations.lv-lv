@@ -163,3 +163,6 @@ Ja konfigurācija tiks veikta vietā vai pat uzņēmumā, kas atšķiras no viet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

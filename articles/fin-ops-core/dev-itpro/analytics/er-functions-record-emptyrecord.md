@@ -60,3 +60,6 @@ Iegūtā ieraksta vērtība.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Ieraksta funkcijas](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

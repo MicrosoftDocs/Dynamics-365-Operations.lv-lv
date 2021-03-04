@@ -114,3 +114,6 @@ Lai varētu veikt šo procedūru, ir jāveic transakciju pārsūtīšana uz Intr
     * Piemēram atlasiet “Izejošie krājumi”.  
 27. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Papildinformāciju skatiet tālāk norādītajās tēmās.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

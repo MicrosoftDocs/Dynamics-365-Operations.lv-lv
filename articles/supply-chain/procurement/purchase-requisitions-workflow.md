@@ -121,3 +121,6 @@ Lai izmantotu kādu no darbplūsmā iestatītajiem izdevumu pārskatītājiem, o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

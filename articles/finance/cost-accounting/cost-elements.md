@@ -76,3 +76,6 @@ Tā kā izmaksu elementi pārstāv izmaksu informācijas zemāko līmeni, jums n
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

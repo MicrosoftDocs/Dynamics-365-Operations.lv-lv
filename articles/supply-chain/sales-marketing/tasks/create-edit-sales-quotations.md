@@ -70,3 +70,6 @@ ms.locfileid: "4432584"
 13. Noklikšķiniet uz **Pārdošanas pasūtījumi**.
 14. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

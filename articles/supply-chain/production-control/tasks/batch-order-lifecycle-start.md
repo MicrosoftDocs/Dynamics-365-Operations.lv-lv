@@ -92,3 +92,6 @@ Lai veiktu procedūras izpildi ar citu datu kopu, ir nepieciešama izlaista prec
 12. Aizvērt lapu.
 13. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

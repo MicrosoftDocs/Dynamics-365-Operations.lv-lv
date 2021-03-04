@@ -56,3 +56,6 @@ Kārtējo vidējo izmaksu cena noliktavai GW un partijai AAA ir USD 11,20, bet n
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

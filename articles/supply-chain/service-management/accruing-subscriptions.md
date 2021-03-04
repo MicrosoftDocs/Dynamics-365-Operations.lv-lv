@@ -152,3 +152,6 @@ Jūs varat kontrolēt virsgrāmatas darījumu skaitu, kas tiek izveidoti, grāma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

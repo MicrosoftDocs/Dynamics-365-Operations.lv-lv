@@ -46,3 +46,6 @@ ms.locfileid: "4432714"
 12. Laukā Komentārs ierakstiet vērtību.
 13. Klikšķiniet Iesniegt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

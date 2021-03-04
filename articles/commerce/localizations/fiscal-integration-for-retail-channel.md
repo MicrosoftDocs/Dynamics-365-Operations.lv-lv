@@ -150,3 +150,6 @@ Komplektā Retail SDK ir pieejama arī tālāk norādītā fiskālās integrāc
 Šāda mantotās fiskālās integrācijas funkcionalitāte, kas ir pieejama Retail SDK, neizmanto finanšu integrācijas struktūru un līdz ar vēlākiem atjauninājumiem būs novecojusi.
 
 - [Vadības ierīces integrācijas paraugs izmantošanai Zviedrijā (mantots)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

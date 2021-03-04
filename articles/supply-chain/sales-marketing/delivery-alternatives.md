@@ -153,3 +153,6 @@ Informācija šajā cilnē ir saistīta ar piegādes alternatīvo rindu, kas tie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

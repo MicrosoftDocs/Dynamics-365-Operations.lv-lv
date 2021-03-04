@@ -50,3 +50,6 @@ Pēc nomas grupu izveides varat piešķirt grāmatas katrai grupai. Izveidojot n
 1. Dodieties uz **Līdzekļu noma \> Iestatījumi \> Nomas grupa**.
 2. Atlasiet nomas grupu un pēc tam atlasiet **Grāmatas**.
 3. Atlasiet **Jauns** un pēc tam laukā **Grāmatas veids** atlasiet grāmatu, ko piešķirt nomas grupai. Nomas grupai varat piešķirt vairākas grāmatas, ja noma jāuzskaita dažādos veidos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

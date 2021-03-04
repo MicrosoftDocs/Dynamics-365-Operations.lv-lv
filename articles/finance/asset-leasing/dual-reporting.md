@@ -523,3 +523,6 @@ Pēc tam, kad visi šie žurnāla ieraksti ir izveidoti un grāmatoti, redzēsie
 | 11.         | Uzkrātais nolietojums |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

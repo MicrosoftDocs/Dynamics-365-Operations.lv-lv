@@ -91,3 +91,6 @@ Ja problēma joprojām nav novērsta, veiciet šādas darbības.
 4. Atveriet lapu **Tabulas kartēšana** no lapas **Duālais ieraksts** Finance and Operations programmā.
 5. Ja atribūts kartē netiek automātiski aizpildīts, pievienojiet to manuāli, noklikšķinot uz pogu **Pievienot atribūtu** un pēc tam noklikšķinot uz **Saglabāt**. 
 6. Atlasiet karti un noklikšķiniet uz **Palaist**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

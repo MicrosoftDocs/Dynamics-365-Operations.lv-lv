@@ -38,3 +38,6 @@ Ja vienam maršruta segmentam ir vairāki nosūtījuma pārvadātāji un pārvad
 1. Laukā **Nosaukums** ievadiet aprakstošu grupas nosaukumu.
 1. Kopsavilkuma cilnē **Detalizēta informācija** pievienojiet rindu un atlasiet nosūtīšanas pārvadātāju un pārvadātāja pakalpojumu. Atkārtojiet šo darbību, līdz esat pievienojis tik daudzus pārvadātājus, cik nepieciešams šai grupai.
 1. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

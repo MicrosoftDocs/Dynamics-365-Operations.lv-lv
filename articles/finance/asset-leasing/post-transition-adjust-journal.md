@@ -47,3 +47,6 @@ Lai grāmatotu pārejas korekciju saskaņā ar jaunajiem uzskaites standartiem, 
 
 5. Lai skatītu žurnāla ierakstu, atlasiet **Līdzekļu nomas žurnāli**.
 6. Atlasiet jauno žurnālu un pēc tam atlasiet **Grāmatot**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

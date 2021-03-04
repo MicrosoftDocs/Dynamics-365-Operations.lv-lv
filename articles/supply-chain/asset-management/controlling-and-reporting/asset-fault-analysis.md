@@ -109,3 +109,6 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
 >[!NOTE]
 >Lai pārskatītu visas kļūmju reģistrācijas, kas izveidotas darbu pasūtījumiem un uzturēšanas pieprasījumiem, klikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Līdzekļu kļūme** > **Līdzekļu kļūmes**. Lapā **Līdzekļu kļūmes** atlasiet līdzekļu kļūmes reģistrāciju un izvērsiet rūti **Saistītā informācija**, lai redzētu informāciju par saistīto darba pasūtījumu vai uzturēšanas pieprasījumu
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

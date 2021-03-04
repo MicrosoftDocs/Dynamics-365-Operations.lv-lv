@@ -54,3 +54,6 @@ ms.locfileid: "4432917"
 
 > [!NOTE]
 > Kad izveidojat darba pasūtījumu līdzeklim, ko sedz kreditora garantija, ja darba pasūtījumam garantijas periodā ir paredzamais sākuma datums, jūs saņemat paziņojumu par garantijas līgumu. Pēc tam varat atcelt darba pasūtījumu, kā nepieciešams.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

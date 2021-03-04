@@ -118,3 +118,6 @@ Ja ir nepieciešami abi Adyen un PayPal maksājumu savienotāji, pievienojiet ab
 [Dynamics 365 maksājumu savienotājs pakalpojumam PayPal](paypal.md)
 
 [Droša klientu autentifikācija, izmantojot Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

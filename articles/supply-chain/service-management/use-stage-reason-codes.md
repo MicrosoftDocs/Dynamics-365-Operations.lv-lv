@@ -73,3 +73,6 @@ Ja ir norādīts, ka iemesla kods ir nepieciešams, iemesla kods ir jāievada t�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

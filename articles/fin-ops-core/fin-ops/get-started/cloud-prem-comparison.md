@@ -175,3 +175,6 @@ Lai apskatītu iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, sk
 
 \*Lokālajās vidēs PerfTimer parāda tikai klienta rezultātus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

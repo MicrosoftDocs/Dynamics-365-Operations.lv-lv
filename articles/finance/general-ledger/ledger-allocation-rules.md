@@ -51,3 +51,6 @@ Katrai sadales kārtulai ir četri komponenti: vispārīgais, avota, galamērķa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -190,3 +190,6 @@ Tagad varat izmantot datu elementus **Preces elementa common data service identi
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Preces un preces variantu meklēšana pasūtījuma izveides laikā](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

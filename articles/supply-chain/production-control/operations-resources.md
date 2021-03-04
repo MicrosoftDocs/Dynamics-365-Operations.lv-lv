@@ -85,3 +85,6 @@ Definējot aktivitāti, piemēram, maršruta operāciju vai projekta stundu bud�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

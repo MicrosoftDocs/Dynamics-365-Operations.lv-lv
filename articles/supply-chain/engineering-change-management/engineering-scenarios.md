@@ -411,3 +411,6 @@ Produktu tagad var izlaist atkārtoti *USMF* uzņēmumam un pēc tam to var nos�
 1. Atlasiet katru uzņēmumu, kuram vēlaties nodot produktus.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Laidieni** un atgriezieties izmaiņu pasūtījumā.
 1. Darbības rūtī, cilnē **Mainīt pasūtījumu**, grupā **Produktu laidieni** atlasiet **Process**, lai izlaistu ietekmētos produktus atlasītajiem uzņēmumiem. Varat arī atlasīt **Izlaist produkta struktūru**, lai sāktu laidiena procesu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

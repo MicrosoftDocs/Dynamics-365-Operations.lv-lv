@@ -154,3 +154,6 @@ Tālāk norādītās galvenās dimensijas saturam tiek izmantotas kā filtri, la
 | Datumi                  | Datumi, Gada nobīde                                    |
 
 Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Vērtību plūsmas ir pārvaldības struktūrvienības, kas sagrupētas vienā v
 2. Aizvērt lapu.
 3. Atsvaidziniet lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

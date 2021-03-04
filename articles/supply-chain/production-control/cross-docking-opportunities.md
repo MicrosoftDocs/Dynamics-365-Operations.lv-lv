@@ -127,3 +127,6 @@ Pēc preces pabeigšanas reģistrēšanas ražošanas līnijā prece tiek pārvi
 -   Pārkraušana sadales centrā tiek atbalstīta gan ar partijas, gan ar sērijas numuru kontrolētiem krājumiem, kam partijas un sērijas numura dimensijas ir definētas virs un zem novietojuma rezervācijas hierarhijā. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

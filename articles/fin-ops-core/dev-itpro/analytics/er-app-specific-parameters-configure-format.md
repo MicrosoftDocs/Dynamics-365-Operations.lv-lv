@@ -309,3 +309,6 @@ Lai uzzinātu, kā izmantot konfigurēto ER formātu **Formatēt, lai uzzinātu,
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [Iestatīt ER formāta parametrus juridiskai personai](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

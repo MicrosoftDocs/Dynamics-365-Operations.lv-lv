@@ -40,3 +40,6 @@ Lapā **Līdzekļu atribūtu pārskats** ir parādīta atsevišķa rinda katram 
 3. Atlasiet **Labi**. Sarakstā tiek parādīti visi līdzekļi, kas izmanto atlasīto līdzekļa veidu. Katram līdzeklim visi saistītie līdzekļa atribūtu veidi tiek parādīti vienā rindā.
 
 Lapā **Līdzekļa atribūts** tiek parādīta atsevišķa rinda katram atribūta veidam, kas tiek izmantots līdzeklim. Lai atvērtu šo lapu, atlasiet **Līdzekļu pārvaldība** \> **Uzziņas** \> **Līdzekļi** \> **Līdzekļa atribūti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

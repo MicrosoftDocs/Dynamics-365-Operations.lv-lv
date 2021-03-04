@@ -143,3 +143,6 @@ Lai atspējotu scenāriju, izpildiet tālāk aprakstītās darbības.
 2. Scenārija elementā atlasiet **Konfigurēt**.
 3. Atlasiet **Tālāk**, lai dotos uz pēdējo vedņa lapu.
 4. Iestatiet opciju, lai atspējotu scenāriju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

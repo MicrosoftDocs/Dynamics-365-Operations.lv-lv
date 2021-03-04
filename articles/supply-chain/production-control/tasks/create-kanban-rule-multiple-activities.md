@@ -59,3 +59,6 @@ ms.locfileid: "4432497"
     * Ievērojiet, ka šim Kanban ir divi procesa darbi no ražošanas plūsmas. Pirmais ir SpeakerAssemblyAndPolish, un otrais ir SpeakerTestAndPackaging.  
     * Šis ir pēdējais solis!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

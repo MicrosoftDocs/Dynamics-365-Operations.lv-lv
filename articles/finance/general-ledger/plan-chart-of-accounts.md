@@ -60,3 +60,6 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
 - [Finanšu dimensijas](financial-dimensions.md)
 - [Papildu kārtulu struktūru izveide un piešķiršana](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

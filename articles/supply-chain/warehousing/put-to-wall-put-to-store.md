@@ -541,3 +541,6 @@ Ja kārtošanas pozīcijas jāslēdz manuāli, izejošās kārtošanas veidnes o
 
 > [!IMPORTANT]
 > Pēc tam, kad no kārtošanas vietas ir izveidots pārvietošanas darbs, darbu nedrīkst atcelt. Pretējā gadījumā pozīcija un tajā esošie konteineri tiks dzēsti no sistēmas un nebūs pieejami turpmākai apstrādei. Tiks noņemti arī krājumi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

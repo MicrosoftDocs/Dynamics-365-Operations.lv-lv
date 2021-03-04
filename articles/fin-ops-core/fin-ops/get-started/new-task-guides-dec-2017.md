@@ -368,3 +368,6 @@ Kad tiek dzēsta kāda BPM rinda, tiek dzēsti arī visi uzdevumu ceļveži, kas
 **Dzēsta BPM rinda**
 
 - Plānoto Kanban darbu pārvietošana
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

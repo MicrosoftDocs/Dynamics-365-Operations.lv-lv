@@ -39,3 +39,6 @@ Uzziniet kā meklēt kreditorus, balstoties uz noteiktiem kritērijiem. Šajā p
 6. Laukā Valsts/reģions ierakstiet kādu vērtību.
 7. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

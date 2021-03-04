@@ -233,3 +233,6 @@ Lai novērstu nevēlamas problēmas ar turpmāku nosegšanu šai darbībai, vien
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

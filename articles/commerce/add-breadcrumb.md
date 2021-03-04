@@ -95,3 +95,6 @@ Lai pievienotu atpakaļceļa moduli PDP un iestatītu nepieciešamos rekvizītus
 [Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

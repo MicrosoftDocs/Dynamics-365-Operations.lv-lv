@@ -111,3 +111,6 @@ Arnijs maina vērtību laukā **Izmantot termiņatlaidi** atpakaļ uz **Parasta*
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

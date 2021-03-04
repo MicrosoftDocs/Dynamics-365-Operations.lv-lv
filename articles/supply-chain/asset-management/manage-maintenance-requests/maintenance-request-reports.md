@@ -58,3 +58,6 @@ Pārskatā **Uzturēšanas pieprasījumu saraksts** tiek parādīts visu viena v
 Nākamajā attēlā ir parādīts **Uzturēšanas pieprasījumu saraksta** pārskata par visiem aktīvajiem uzturēšanas pieprasījumiem piemērs.
 
 ![Uzturēšanas pieprasījumu saraksta pārskats](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Ja visas rindas pakalpojuma pasūtījumā ir atzīmētas kā **Grāmatots**, sta
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

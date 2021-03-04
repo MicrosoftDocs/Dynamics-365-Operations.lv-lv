@@ -98,3 +98,6 @@ Tālāk redzamajā attēlā ir parādīts iegūtās diagrammas piemērs.
 ![Zona pret darba statusa vizualizāciju](media/work-viz-chart.png "Zona pret darba statusa vizualizāciju")
 
 Šajā diagrammā tiek rādītas divas zonas ar nosaukumu **GRĪDA** un **LIELAPJOMA**, kā arī zona ar nosaukumu **Tukšs**. **Tukšajā** zonā attēlotas visas darba rindas, kas nav nevienas zonas dalībnieki. Diagramma vienmēr parāda visus nesaistītos filtrētos datus kā **Tukšus**, lai nodrošinātu pēc iespējas lielāku redzamību. **GRĪDAS** zonā diagramma rāda trīs slēgtas rindas un četras atvērtās rindas. **LIELAPJOMA** zonā diagramma rāda četras slēgtas rindas, vienu atvērtu rindu un 24 atceltās rindas. Visbeidzot diagramma rāda astoņas slēgtas rindas, kas nav daļa no nevienas zonas, tāpēc ir uzskaitītas kā **Tukšas**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Par visiem vispārējiem jautājumiem kā pirmo darbību vienmēr ir jākonsult�
 [Tiešsaistes maksājumu instrumentu saglabāšana, izmantojot savienotāju Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Pārskats par Omni kanāla maksājumiem](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

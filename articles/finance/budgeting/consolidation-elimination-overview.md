@@ -90,3 +90,6 @@ Datus varat konsolidēt, izmantojot opciju **Eksportēt uzņēmuma bilances**, l
 Plašāku informāciju skatiet rakstā [Valūtas pārvērtēšana konsolidācijas uzņēmumā](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4432539"
 7. Izmantojiet ātro filtru, lai filtrētu pēc lauka Numurs ar vērtību "p000031".
     * Ja izmaksu ieraksti ir tukši, vienumu No datuma iestatiet uz 2012. gada 31. janvāri un vienumu Līdz datumam iestatiet uz 2012. gada 31. decembri.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

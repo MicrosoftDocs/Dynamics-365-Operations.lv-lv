@@ -40,3 +40,6 @@ Jūs nevarat izmantot nevienu lomu, izņemot administratoru, lai piekļūtu mobi
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Mobilās ierīces programmas emulators ir iestatīts darbam tikai ar administratora kontu. Visiem pārbaudes un klātienes apstrādes nolūkiem mēs iesakām izmantot pašu noliktavu programmu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

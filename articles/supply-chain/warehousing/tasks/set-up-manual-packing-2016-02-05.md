@@ -95,3 +95,6 @@ Iepakošanas procesu ļauj jums pārbaudīt un iepakot preces konteineros. Šaj�
 8. Laukā Svara vienība, ievadiet vai atlasiet kādu vērtību.
 9. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Rēķins par 1000 USD ar termiņatlaides nosacījumiem 20D2% tiek grāmatots 15
 > [!NOTE]
 > Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

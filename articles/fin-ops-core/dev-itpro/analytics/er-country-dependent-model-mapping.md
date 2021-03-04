@@ -496,3 +496,6 @@ Pārliecinieties, vai koplietotā modeļa kartēšanas konfigurācija nav atzīm
 - Vismaz viena EP modeļa kartēšanas konfigurācijas versija ir ar statusu **Pabeigta** vai **Kopīgota**. Šajā gadījumā versija, kurai ir visaugstākais versijas numurs, tiks izmantota EP formāta izpildei.
 - Ir ieslēgta opcija **Palaist melnrakstu** EP modeļa kartēšanas konfigurācijai. Šajā gadījumā versija, kurai ir statuss **Melnraksts**, tiks izmantota EP formāta izpildei.
 > Opcija **Palaist melnrakstu** kļūst pieejama lapā **Konfigurācijas** katrai EP modeļa kartēšanas konfigurācijai, ja ir ieslēgts EP lietotāja parametrs **Palaist iestatījumu**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Lai mainītu masveida pieņemšanas darbā projekta statusu, lapā **Masveida pi
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ Fragmentu var arī rediģēt, atlasot to lapā, veidnē vai pamata fragmentā un
 [Darbs ar iepriekš iestatītiem izkārtojumiem](work-with-layouts.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

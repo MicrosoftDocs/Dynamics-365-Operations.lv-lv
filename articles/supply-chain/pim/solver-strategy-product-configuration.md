@@ -73,3 +73,6 @@ Tālāk esošajā tabulā sniegti ieteikumi par risinātāja stratēģijas izman
 [Heiristika](https://techterms.com/definition/heuristic)
 
 [Ierobežojuma apmierinātības problēma](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Līguma izmaiņām ir tālāk izklāstītā ietekme uz detalizēto informāciju 
 - Ja ieņēmumi ir atzīti precei, daļa ieņēmumu tika atzīta nepareizi, jo atzīšana tika balstīta uz nepareizu ieņēmumu grafiku. Šīs rindas ir jāatsauc un jāatzīst vēlreiz, pamatojoties uz jauno grafiku. Šādā gadījumā tiek izveidotas jaunas ieņēmumu grafika rindas, kurām ir negatīvas summas sākotnējā atzīšanas datumā. Pēc tam tiek izveidotas jaunas rindas, lai atzītu summas, pamatojoties uz jauno ieņēmumu grafiku. Piemēram, 2019. gada 8. augustā jūs atzināt ieņēmumus 10,53 ASV dolāru apmērā. 2019. gada 8. septembrī jūs atzināt ieņēmumus 13,16 ASV dolāru apmērā. Tādēļ tajā pašā datumā tiek izveidotas divas jaunas rindas. Viena rinda ir paredzēta 10,53 ASV dolāriem un otra rinda — 13,16 ASV dolāriem. Pēc tam tiek izveidotas divdesmit četras jaunas rindas un kopējie atliktie ieņēmumi 160,61 ASV dolāru apmērā tiek tajās sadalīti. Varat grāmatot storno rindas, palaižot procesu **Izveidot žurnālu**.
 
 [![Ieņēmumu atzīšanas grafiks](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

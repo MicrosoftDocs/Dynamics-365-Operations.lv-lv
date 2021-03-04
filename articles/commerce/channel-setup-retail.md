@@ -182,3 +182,6 @@ Lai iestatītu seifus, rīkojieties, kā norādīts tālāk.
 
 [Zvanu centra kanāla iestatīšana](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

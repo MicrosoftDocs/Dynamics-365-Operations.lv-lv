@@ -49,3 +49,6 @@ Varat izveidot nodarbināto atvieglojumu plānus Microsoft Dynamics 365 Human Re
    | Plāni | Kopsavilkuma cilne plāni satur plānus, kas atbilst norādītajiem filtrēšanas kritērijiem. Atbilstošās konfigurācijas opcijas, ko iestatīja personāla vadības darbinieki, un darbinieku izvēlētās reģistrācijas atlases tiek iekļautas katrā rindā. Lauks Kvalificējušies norāda, vai pastāv pārbaudes konflikts ar plāna atlasi. |
 
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

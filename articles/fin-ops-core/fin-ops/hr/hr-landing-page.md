@@ -93,3 +93,6 @@ Varat izstrādāt un administrēt anketas, lai vāktu dažādiem nolūkiem izman
 - [Anketu projektēšana](../../../talent/design-questionnaires.md)
 - [Anketu izplatīšana un plānošana](../../../talent/distribute-questionnaires.md)
 - [Anketu rezultātu skatīšana un novērtēšana](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

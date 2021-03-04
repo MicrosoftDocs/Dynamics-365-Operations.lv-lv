@@ -243,3 +243,6 @@ Piemēram, varat modificēt formātu, ja pārskata galvenē jāuzrāda nodokļu 
 - [Konfigurēt formātu, lai veiktu uzskaiti un summēšanu](./tasks/er-format-counting-summing-1.md)
 - [ER formāta izpildes izsekošana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
 - [Secības elementu izpildes atlikšana ER formātos](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

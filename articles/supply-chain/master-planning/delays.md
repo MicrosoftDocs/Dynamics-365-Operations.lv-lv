@@ -59,3 +59,6 @@ Lapas **Plānotais pasūtījums** cilnē **Aizkaves** ir pieejams plānotā pas�
 --------
 
 [Seguma iestatījumi](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

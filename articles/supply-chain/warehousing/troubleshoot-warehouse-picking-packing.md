@@ -110,3 +110,6 @@ Ja izmantojat *Sistēmas virzītu klastera izdošanas* procesu, konfigurējot kl
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Lai labotu šo problēmu, rediģējiet klastera profilu un iestatiet opciju **Aktivizēt pozīcijas** uz *Nē*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

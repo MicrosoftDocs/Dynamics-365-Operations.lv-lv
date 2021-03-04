@@ -53,3 +53,6 @@ Izteiksme `IF( Invoice.DocumentDate = NULLDATE(), true, false)` atgriež **True*
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datuma un laika funkcijas](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

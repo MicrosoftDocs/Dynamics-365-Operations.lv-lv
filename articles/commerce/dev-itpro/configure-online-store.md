@@ -62,3 +62,6 @@ Tālāk esošajā tabulā norādītās tēmas palīdz klienta konfigurēt Commer
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

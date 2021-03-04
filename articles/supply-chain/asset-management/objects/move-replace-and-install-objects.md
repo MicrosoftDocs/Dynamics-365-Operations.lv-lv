@@ -91,3 +91,6 @@ Izmantojiet funkciju **Uzstādīt līdzekli**, lai uzstādītu līdzekļu strukt
 4. Laukā **Funkcionālais novietojums** atlasiet jauno atrašanās vietu.
 5. Pēc noklusējuma lauks **Ir spēkā** automātiski tiek iestatīts uz pašreizējo datumu un laiku. Tomēr jūs varat atlasīt citu datumu un laiku, no kura līdzekļu struktūras uzstādīšana ir spēkā.
 6. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

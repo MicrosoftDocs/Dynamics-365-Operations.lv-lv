@@ -44,3 +44,6 @@ ms.locfileid: "4445417"
 13. Atlasiet **Labi**.
 14. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

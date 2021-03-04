@@ -49,3 +49,6 @@ Lai kartētu transportēšanas statusu uz pārvadātāja statusu, veiciet sekojo
 1. Atlasiet transportēšanas statusa kodu, ko vēlaties kartēt uz atlasīto sūtījumu pārvadātāja kodu.
 1. Ievadiet ārējo kodu, ko izmanto sūtījumu pārvadātājs.
 1. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -193,3 +193,6 @@ Ir viens kārtulas izņēmums: partijas līdzsvarošanai var lietot partijas pas
 Ja formulā ir aktīvā sastāvdaļa precei, kas ir iespējota noliktavas pārvaldības procesiem, bet partijas numurs ir rezervāciju hierarhijā zemāks par vērtību Atrašanās vieta, partijas pasūtījums nav lietojams partijas līdzsvarošanā.
 
 Partijas pasūtījums, kas nav lietojams par partijas līdzsvarošanā, tiek pakļauts parastajam partijas pasūtījumu procesa ciklam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

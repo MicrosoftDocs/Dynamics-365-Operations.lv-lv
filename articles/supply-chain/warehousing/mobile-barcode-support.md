@@ -35,3 +35,6 @@ Programmas Dynamics 365 Supply Chain Management - noliktavu lietotne ir pārbaud
 
 Pirms iegādājamās aparatūras izvēles klientiem ir ieteicams testēt noliktavas skenēšanas mobilo programmu izvēlētajā aparatūrā.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

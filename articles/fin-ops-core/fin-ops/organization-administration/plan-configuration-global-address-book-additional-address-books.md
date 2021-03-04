@@ -57,3 +57,6 @@ Pēc globālās adrešu grāmatas izveidošanas pēc nepieciešamības varat izv
 **Lēmums:**
 
 - Cik daudz papildu adrešu grāmatas jūs izveidosiet?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

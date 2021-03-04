@@ -47,3 +47,6 @@ Pakešapstrādes darbs izslēdz slēgtās grāmatas. Piemēram, nolietojuma pake
 Grāmatu skaita ierobežojums tiek pielietots, ja tajā pašā žurnālā neeksistē pamatlīdzekļu ID dublikāti. Tomēr, ja pamatlīdzekļa ID ir tas pats, kas grāmatas ID, žurnāla grāmatu skaits var tikt pārsniegts, lai saglabātu pamatlīdzekļa ID tajā pašā žurnālā.
 
 Piemēram, ir 5001 pamatlīdzekļu ID, trīs grāmatas ir saistītas ar katru pamatlīdzekļa ID, un katra pamatlīdzekļu grāmata tiek grāmatota vienā grāmatošanas līmenī. Nolietojums tiek palaists trīs mēnešus pēc kārtas bez summēšanas. Nolietojuma žurnāls tiks izveidots, izmantojot pakešuzdevumu, un sistēma izveidos septiņus žurnālus, kuriem ir 667 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Rezultāts būs 2001 grāmata. Tāpēc trijos mēnešos būs 6003 žurnāla rindas, lai tajā pašā žurnālā uzturētu tos pašus pamatlīdzekļu ID. Sistēmā tiks izveidots arī viens žurnāls, kurā ir 332 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Trijos mēnešos būs 2988 rindas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

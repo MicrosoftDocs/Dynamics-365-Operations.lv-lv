@@ -155,3 +155,6 @@ Atlasiet uzņēmumu, kurš ir konsolidēto datu avots, un pēc tam izvēlieties 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ ms.locfileid: "4414087"
 5. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 6. Noklikšķiniet uz Lejupielādēt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

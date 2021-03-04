@@ -87,3 +87,6 @@ Izstrādes vidē izstrādātās ER konfigurācijas var augšupielādēt testē�
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Tās var izmantot tikai tad, ja, atceļot vispārējās plānošanas darbu no la
 4. Sadaļā **Pakešuzdevumi** atlasiet uzdevumus, kurus nepieciešams beigt.
 5. Noklikšķiniet uz **Mainīt statusu**, izvēlieties **Atcelt** un noklikšķiniet uz **Labi**.
 6. Kopsavilkuma cilnē **Pakešuzdevumi** noklikšķiniet uz **Pārtraukt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

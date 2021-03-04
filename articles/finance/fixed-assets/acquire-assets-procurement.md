@@ -109,3 +109,6 @@ Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Katru gadījumu var modificēt, neietekmējot ar tām izveidoto sēriju definēt
 ## <a name="developer-documentation"></a>Izstrādātāja dokumentācija
 
 Procesu automatizācijas struktūra ļauj izstrādātājiem paplašināt procesu automatizācijas struktūru. Šī [Procesu automatizācijas struktūras](../process-automation/process-automation-framework.md) dokumentācija sniedz informāciju par to, kā varat izveidot pielāgotus procesus, kas ir nepieciešami, lai palaistu pakešu serveri, kas paredzēts procesu automatizācijas vednim, un automātiski tiek rādīti kalendāra skatā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

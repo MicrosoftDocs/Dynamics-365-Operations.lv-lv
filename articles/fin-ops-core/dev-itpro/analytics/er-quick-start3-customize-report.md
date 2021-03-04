@@ -671,3 +671,6 @@ Versijas 32.6.7.2 statuss tiek mainīts no **Melnraksts** uz **Pabeigts** un ver
 - [ER konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](er-download-configurations-global-repo.md)
 - [Izveidot brīva teksta rēķinu](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Pielāgotu lauku izveide un darbs ar tiem](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Izveidojot sākotnējo budžeta ierakstu un izmantojot budžeta modeli un dimens
     * Lai veiktu papildu atlasi, lapas augšdaļā noklikšķiniet uz atbloķēšanas ikonas.  
 18. Noklikšķiniet uz Atjaunināt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

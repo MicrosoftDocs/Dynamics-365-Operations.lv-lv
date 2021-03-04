@@ -98,3 +98,6 @@ Ja ir iestatīts līdzeklis Attract, lietotājiem personāla vadības lapā **Da
 - Pieņemot darbā līgumdarbinieku, cilnei **Kompensācija** pieprasījumu/darbību lapā nav jābūt pieejamai.
 - Pieprasījuma par darba attiecību pārtraukšanu procesu var turpināt tikai tad, kad visos pieprasītajos laukos ir ievadīti dati.
 - Ir novērstas kārtošanas secības un datumu parādīšanas problēmas personāla vadības analīzē.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

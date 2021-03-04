@@ -66,3 +66,6 @@ Vai arī veiciet šādas darbības.
 2. Rīkjoslā noklikšķiniet uz opcijas **Pievienot programmu no Power Apps**.
 
     ![Programmas pievienošana no Power Apps, izmantojot personalizēšanas rīkjoslu](media/powerapp-bar.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

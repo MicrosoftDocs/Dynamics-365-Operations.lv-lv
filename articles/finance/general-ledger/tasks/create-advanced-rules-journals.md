@@ -58,3 +58,6 @@ ms.locfileid: "4445666"
 4. Kokā pārbaudiet "grupu, kurai vēlaties atļaut grāmatošanu šim žurnāla nosaukumam".
 5. Noklikšķiniet uz **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

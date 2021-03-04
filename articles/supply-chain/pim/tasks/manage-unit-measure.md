@@ -63,3 +63,6 @@ ms.locfileid: "4432634"
 6. Noklikšķiniet uz **Labi**.
 7. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

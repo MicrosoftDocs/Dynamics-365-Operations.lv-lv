@@ -99,3 +99,6 @@ APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietver
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Virsgrāmatas konsolidācijā ir pievienota jauna opcija, lai konsolidētu vai n
 -  Tagad varat izvēlēties, vai izmantot uzskaites valūtu vai pārskata valūtu no avota uzņēmuma kā transakcijas valūtu konsolidācijas uzņēmumā.
 
 - Ja valūtas sakrīt, tad uzskaites vai pārskata valūtas summas no avota uzņēmuma tiks kopētas tieši konsolidācijas uzņēmuma uzskaites vai pārskata valūtas summās. Ja valūtas nesakrīt, tad uzskaites vai pārskata valūtas summas konsolidācijas uzņēmumā tiek aprēķinātas, izmantojot valūtas maiņas kursu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

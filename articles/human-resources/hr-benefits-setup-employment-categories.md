@@ -36,3 +36,6 @@ Iestatiet nodarbinātības kategorijas, Dynamics 365 Human Resources, lai tās s
 3. Norādiet vērtības **Nodarbinātības veids**, **Nodarbinātības kategorija** un **Apraksts**.
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4445582"
 15. Izmantojiet cilni **Maksājuma atribūti**, lai definētu maksājuma atribūtus, kurus vēlaties izmantot šai maksāšanas metodei.
 16. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

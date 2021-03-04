@@ -83,3 +83,6 @@ Tad ievadiet datu avotu **Ieraksts 2** veidam `Container`. Šis datu avots satur
 [Saraksta funkcijas](er-functions-category-list.md)
 
 [Atkļūdot izpildītā ER formāta datu avotus, lai analizētu datu plūsmu un transformāciju](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

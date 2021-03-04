@@ -92,3 +92,6 @@ Lai izveidotu un rediģētu numuru sērijas, veiciet tālāk norādītās darbī
     | Kontrolcipars | Šis segmenta veids pievieno kontrolciparu, kas ir moduļa 10 aprēķins. (Šī darbība atbilst esošajai noliktavas vienību ID loģikai.) Šim segmenta veidam lauks **Vērtība** vienmēr tiek iestatīts uz jumtiņa (*^*), un lauks **Garums** vienmēr tiek iestatīts uz *1*. |
 
 1. Lai skatītu galīgo numura formāta paraugu, pārbaudiet lauku **Formāts**, kas atrodas kopsavilkuma cilnes **Segmenti** apakšā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

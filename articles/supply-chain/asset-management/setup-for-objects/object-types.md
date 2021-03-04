@@ -97,3 +97,6 @@ Lapā **Rezerves daļas** varat arī izveidot jaunas rezerves daļas esošajām 
 
 Lai skatītu, vai rezerves daļa atlasītajā rindā tiek izmantota jebkurā vietā Līdzekļu pārvaldībā (piemēram, saistībā ar līdzekļiem un darba pasūtījumiem), atlasiet rezerves daļas rindu un pēc tam atlasiet **Kur vienība izmantota**, lai atvērtu lapu **Kur vienība izmantota**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

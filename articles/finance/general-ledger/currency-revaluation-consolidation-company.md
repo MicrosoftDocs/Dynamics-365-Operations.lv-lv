@@ -89,3 +89,6 @@ Jūs redzēsiet papildu darbības pārskata valūtas summām.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

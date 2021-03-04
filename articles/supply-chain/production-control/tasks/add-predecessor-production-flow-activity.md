@@ -52,3 +52,6 @@ Lai uzzinātu vairāk, izlasiet rakstu krājumu “Lean manufacturing ražošana
     * Aktivitāšu relācijas noklusējuma cikla laika koeficients ir 1. Tiek pieņemts, ka abas aktivitātes tiek sāktas ar vienādu tempu vai izgatavošanas laiku. Ja pirmstecīgā aktivitāte tiek izpildīta ātrāk (īsāks izgatavošanas laiks), koeficientam ir jābūt zemākam par 1; ja pirmstecīgā aktivitāte tiek izpildīta ar lēnāk (lielāks izgatavošanas laiks) cikla laika koeficients ir lielāks par 1.  
 5. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Kataloga importēšanas faila veidne ir XSD fails, ko izmanto, lai izveidotu CMR
 3. Dialoglodziņā **Saglabāt kā** atlasiet atrašanās vietu, kur vēlaties saglabāt kataloga faila veidni, un saglabājiet failu.
 
 Papildinformāciju un piemērus skatiet šajā emuāra ierakstā: [Piegādātāju katalogi sistēmā Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Atjauninājums Finance and Operations Platform update 18 tagad ir iekļauts pro
 ## <a name="bug-fixes"></a>Kļūdu labojumi
 
 Šis laidiens ietver vairākus papildu kļūdu labojumus, tostarp atsauces uz ACA, ADA, un I9 tagad tiek aktivizēts tikai ASV uzņēmumiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

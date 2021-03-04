@@ -118,3 +118,6 @@ Gaidāmajā Commerce laidienā mazumtirgotāji kā noklusējuma debitora meklē�
 
 Lai palīdzētu novērst negaidītas veiktspējas problēmas, šī konfigurācija tiek slēpta aiz būvējumu izsniegšanas karodziņa ar nosaukumu **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Tādēļ, lai parādītu iestatījumu **Noklusējuma debitora meklēšanas režīms** lietotāja interfeisā (UI), mazumtirgotājam jāizveido atbalsta biļete tā lietotāju pieņemšanas pārbaudes (UAT) un ražošanas vidēm. Pēc tam, kad biļete ir saņemta, tehniskā grupa strādās ar mazumtirgotāju, lai pārliecinātos, ka mazumtirgotājs veic testēšanu vidēs, kas nav ražošanas vides, lai novērtētu veiktspēju un īstenotu visas nepieciešamās optimizācijas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

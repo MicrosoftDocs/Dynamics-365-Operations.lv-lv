@@ -253,3 +253,6 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 ![10. attēls](media/am-mobile-10.png)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

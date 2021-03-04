@@ -51,3 +51,6 @@ Avota dokumentiem, kas izmanto pirmdokumenta atsauces identitātes koncepciju, u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

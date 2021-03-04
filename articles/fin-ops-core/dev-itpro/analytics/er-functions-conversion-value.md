@@ -63,3 +63,6 @@ Komati un punkta rakstzīmes (.) tiek uzskatīti par decimāldaļu atdalītāji
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Tipa pārveidošanas funkcijas](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

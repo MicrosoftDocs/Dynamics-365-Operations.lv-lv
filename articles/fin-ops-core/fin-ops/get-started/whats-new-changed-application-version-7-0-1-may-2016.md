@@ -106,3 +106,6 @@ ms.locfileid: "4693146"
 [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

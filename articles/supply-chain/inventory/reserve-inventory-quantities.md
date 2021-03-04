@@ -83,3 +83,6 @@ Saistībā ar rezervācijām lapā **Krājumu un noliktavas vadības parametri**
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Krājumu rezervēšanas politikas lapā Ražošanas parametri
 
 Lauka **Rezervācija** vērtību cilnē **Vispārīgi**, lapā **Ražošanas parametri** nosaka šī ražošanas procesa noklusējuma punkts, kurā ir nepieciešams rezervēt krājumus. Piemēram, krājumus var rezervēt, kad darbs tiek plānots vai darbs tiek uzsākts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

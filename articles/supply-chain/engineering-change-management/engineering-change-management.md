@@ -185,3 +185,6 @@ Lielākā daļa tehnisko izmaiņu pasūtījumu lauku ir tādi paši kā izlaisto
 | Vides veselība un drošība | Norādiet, vai vides veselības un drošības noteikumi attiecas uz izmaiņām. Ja attiecas, tad varat atlasīt piemērojamās kārtulas. |
 
 Varat izmantot pogu **Uzturēt/kopēt izmaiņu informāciju**, lai kopētu izmaiņu informāciju starp ietekmētajiem produktiem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

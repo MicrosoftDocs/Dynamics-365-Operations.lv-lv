@@ -70,3 +70,6 @@ Varat palaist **Gaidošo līdzekļu skaitīšanu**, lai pārbaudītu, vai nav ga
 3. Šo darbu var iestatīt, lai palaistu kā pakešuzdevumu, piemēram, reizi dienā.
 
 **Brīdinājums:** ja dati pirkšanas pasūtījumā tiek mainīti *pēc tam*, kad līdzeklis ir izveidots, pamatojoties uz atbilstīgo vienību, šīs izmaiņas līdzeklim netiks atspoguļotas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

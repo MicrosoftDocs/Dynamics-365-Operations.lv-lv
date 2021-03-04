@@ -50,3 +50,6 @@ Kad tiek izmantota noliktavas programma, lai veiktu kustības, trūkst **Īpašn
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Korporācija Microsoft ir izvērtējusi šo problēmu un ir noteikusi, ka tas ir līdzekļa ierobežojums. Pašlaik noliktavas pārvaldības procesi atbalsta tikai tos krājumus, kas pieder juridiskai personai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

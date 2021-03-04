@@ -253,3 +253,6 @@ Lai izveidotu jaunu nomu, veiciet tālāk norādītās darbības.
 
    Lapā **Nomas saistību darījumi** tiek parādīta sākotnēja atzīšana, nomas procentu maksājums, nomas maksājums un nomas saistību bilance. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

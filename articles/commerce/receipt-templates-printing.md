@@ -82,3 +82,6 @@ Kvīšu profili tiek piešķirti tieši printeriem, izmantojot aparatūras profi
 
 > [!NOTE]
 > Ja tiek izmantoti divi printeri, vienu printeri var izmantot, lai izdrukātu standarta 40 sleju termodrukas kvītis. Otro printeri parasti izmanto, lai izdrukātu pilnas lapas kvītis veidus, kuros jāiekļauj papildu informācija. Šie kvīšu veidi iekļauj debitora pasūtījuma kvītis un debitora rēķinus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

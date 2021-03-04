@@ -67,3 +67,6 @@ ms.locfileid: "4432635"
 15. Laukā Vajadzība ievadiet vai atlasiet kādu vērtību.
 16. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

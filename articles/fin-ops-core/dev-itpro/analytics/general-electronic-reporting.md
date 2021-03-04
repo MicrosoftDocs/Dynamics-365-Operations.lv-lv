@@ -367,3 +367,6 @@ ER jums ļauj atvasinātā komponenta pašreizējā melnraksta versijā automāt
 
 - [Izveidot elektronisko pārskatu (EP) veidošanas konfigurāciju](electronic-reporting-configuration.md)
 - [Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

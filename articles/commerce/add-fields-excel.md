@@ -55,3 +55,6 @@ Jaunajam laukam un tā datiem tagad ir jābūt pieejamiem rediģēšanai program
 [Mazumtirdzniecības darījumu finanšu dimensiju rediģēšana](edit-financial-dim.md)
 
 [Excel darbgrāmatas izveide, lai rediģētu mazumtirdzniecības darījumus](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

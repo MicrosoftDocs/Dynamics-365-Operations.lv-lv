@@ -92,3 +92,6 @@ Atlīdzības režģi tiek izmantoti, lai definētu un uzturētu algu struktūras
 29. Sarakstā atzīmējiet visas rindas vai noņemiet tām atzīmi.
 30. Noklikšķiniet uz Lietot režģim.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

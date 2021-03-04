@@ -48,3 +48,6 @@ Lai saņemtu atbalstu darbā ar savrupo programmu Onboard, izmantojiet nākamaj�
 | Ziņojiet par problēmu. | Lapas augšējā labajā stūrī atlasiet pogu **Palīdzība** (**?**) un atlasiet **Ziņot par problēmu**. Ievadiet problēmas aprakstu un norādiet e-pasta adresi, ja vēlaties saņemt informāciju par problēmu. |
 | Saņemiet palīdzību par Talent licencēšanas jautājumiem. | Sazinieties ar vietējo partneri vai Microsoft tirdzniecības pārstāvi. |
 | Pieprasiet jaunus līdzekļus un funkcionalitātes programmā Onboard. | Atlasiet pogu **Palīdzība** (**?**) un pēc tam atlasiet **Idejas**. Varat arī apmeklēt lapu [Dynamics 365 Talent: Onboard Idejas](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), lai skatītu, meklētu vai balsotu par esošajām idejām vai pievienotu jaunas idejas. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

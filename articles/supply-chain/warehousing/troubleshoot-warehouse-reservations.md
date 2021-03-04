@@ -78,3 +78,6 @@ Tomēr, ja izmantojat krājumu, kam ir "partija zem" rezervāciju hierarhija (ar
 Tas tiek darīts ar nolūku. Ja jūs ievietojat dimensiju virs **Novietojuma** dimensijas rezervāciju hierarhijā, tas ir jānorāda pirms izdošanas uz noliktavu. Korporācija Microsoft ir izvērtējusi šo problēmu un ir noteikusi, ka tas ir līdzekļa ierobežojums laikā, kad tiek veikti izsniegumi uz noliktavu no kravas plānošanas rīka. Daļējus daudzumus nevar izlaist, ja nav norādīta viena vai vairākas dimensijas virs **Novietojuma**.
 
 Papildu informāciju skatiet [Elastīga noliktavas līmeņa dimensijas rezervēšanas politika](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

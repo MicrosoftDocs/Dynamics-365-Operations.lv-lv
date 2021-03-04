@@ -88,3 +88,6 @@ Mēģinot iespējot kartes, jūs varētu saņemt šādu kļūdas ziņojumu:
 *Duālā ieraksta kļūda - Spraudņa reģistrācija neizdevās: \[(Nevar iegūt nodalījuma karti projektam DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-.7f12cb89-1550-42e2-858e-4761fc1443ea Kļūda pārsniedz kartēšanai atļauto maksimālo nodalījumu skaitu DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Radās viena vai vairākas kļūdas*
 
 Saistot vides, pašreizējais ierobežojums ir aptuveni 40 juridiskās personas. Šī kļūda rodas, ja mēģināt iespējot kartes un starp vidēm ir saistītas vairāk nekā 40 juridiskās personas.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

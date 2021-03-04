@@ -83,3 +83,6 @@ ms.locfileid: "4432502"
     * Ņemiet vērā, kanban, kas tika izveidots M0001 nodrošināšanai, prognozējamajam ražošanas pasūtījumam.  
     * Šis ir pēdējais solis!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

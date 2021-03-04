@@ -98,3 +98,6 @@ Lai Commerce vietnes veidotāju augšupielādētu failu, veiciet tālāk norād�
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

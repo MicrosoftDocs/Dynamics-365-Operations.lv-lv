@@ -56,3 +56,6 @@ Tad sistēmai tiks ierosināts izveidot karantīnas pasūtījumu, un persona vai
 
 [Noteikšana, kā atbrīvoties no atgrieztiem krājumiem](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

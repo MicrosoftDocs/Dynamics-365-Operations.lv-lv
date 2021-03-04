@@ -227,3 +227,6 @@ Izpildes laiks + Negatīvās dienas + Pašreizējais datums – Vajadzības datu
 Sistēma izmanto tikai plānotos piegādes pasūtījumus, kas atrodas šajā periodā, un izveido jaunu plānoto pasūtījumu ārpus tā. Dinamisko negatīvo dienu priekšrocība ir tā, ka tajās tiks iekļauts atsevišķas preces izpildes laiks, lai atkārtoti izmantotu esošos pasūtījumus un izvairītos no tādu jaunu plānoto pasūtījumu izveidošanas, kuriem būs vēlāks datums izpildes laika izraisītās aizkaves dēļ. 
 
 Plašāku informāciju skatiet tēmā [Negatīvās dienas un dinamiskās negatīvās dienas](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

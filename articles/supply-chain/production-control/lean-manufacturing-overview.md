@@ -83,3 +83,6 @@ Turklāt Lean manufacturing atbalsta pirkšanas un rēķinu izrakstīšanas proc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

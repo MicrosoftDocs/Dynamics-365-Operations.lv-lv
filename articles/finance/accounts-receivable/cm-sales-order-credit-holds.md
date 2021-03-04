@@ -265,3 +265,6 @@ Pārdošanas pasūtījumus, kas ir aizturēti piespiedu kārtā, nevar palaist a
 Kredīta pārvaldību pašreiz var izmantot tikai pārdošanas pasūtījumiem. Brīva teksta rēķini, pārdošanas pasūtījumu punkts un zvanu centra pasūtījumi izmantos pagaidu kredīta limitus un apdrošināšanas/garantijas, kas tiek pievienotas, lai pielāgotu kredīta limitu. Tie neizmantos aizturēšanas kārtulas, un tie netiks ievietoti aizturēšanas sarakstā, ja ir problēma ar kredīta limitu.
 
 Nav atbalsta projektu rēķiniem kredīta pārvaldībā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
 [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

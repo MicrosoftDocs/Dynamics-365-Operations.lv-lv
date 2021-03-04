@@ -123,3 +123,6 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 [Uzdevuma reģistrētājs](task-recorder.md)
 
 [Bagātinātu palīdzības tēmu izveide ar uzdevumu reģistrētāju (ārējās saite)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

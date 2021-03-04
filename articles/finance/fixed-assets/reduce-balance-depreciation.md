@@ -85,3 +85,6 @@ Izmantojot degresīvās nolietojuma aprēķināšanas metodi, 30 procenti no nol
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

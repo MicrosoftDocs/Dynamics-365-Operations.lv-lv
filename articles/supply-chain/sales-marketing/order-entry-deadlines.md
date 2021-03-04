@@ -109,3 +109,6 @@ Tabulā parādīts, kā pasūtījumu izveides termiņi A un B vietā tiek pārve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

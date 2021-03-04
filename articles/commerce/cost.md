@@ -171,3 +171,6 @@ Izmaksu komponenta veida **Cits** un cita izmaksu veida **Vieta** kombinācija t
 
 > [!IMPORTANT]
 > Lai DOM palaišanas laikā šīs izmaksas tiktu ņemtas vērā, izmaksu faktors ir jāpievieno attiecīgajam izpildes profilam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4445621"
 17. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 18. Noklikšķiniet uz **Grāmatot**. Pamatlīdzeklis tiks izveidots un iegūts, iegrāmatojot rēķinu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

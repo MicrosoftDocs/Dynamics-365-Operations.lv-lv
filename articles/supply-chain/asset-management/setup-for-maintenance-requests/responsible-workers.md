@@ -54,3 +54,6 @@ Pirms varat iestatīt atbildīgos uzturēšanas speciālistus, ir jāiestata dar
 Nākamajā attēlā ir parādīts sarakstu lapas **Atbildīgie uzturēšanas speciālisti** piemērs.
 
 ![Atbildīgas uzturēšanas nodarbināto lapa](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

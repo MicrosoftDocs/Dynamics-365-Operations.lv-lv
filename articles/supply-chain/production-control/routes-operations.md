@@ -260,3 +260,6 @@ Tādēļ, ja iestatījumam Pārklāšanās ir atlasīta opcija Aktivizēšana, p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Ja jums ir brīvprātīgie vai citi nodarbinātie, kas nav darbinieki, iespējam
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Darbinieka un vadītāja pašapkalpošanās apskats](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

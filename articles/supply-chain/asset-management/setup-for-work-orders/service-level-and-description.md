@@ -56,3 +56,6 @@ Kad izveidojat darba pasūtījumu, iespējams, vēlaties tam definēt pakalpojum
 2. Atlasiet **Jauns**.
 3. Laukā **Apraksts** ievadiet aprakstu.
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

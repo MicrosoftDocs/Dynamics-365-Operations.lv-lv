@@ -112,3 +112,6 @@ Ja plānošanas optimizācija ir ieslēgta, vispārējā plānošana tiek veikta
 [Filtru lietošana plānam](plan-filters.md)
 
 [Plānošanas darba atcelšana](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

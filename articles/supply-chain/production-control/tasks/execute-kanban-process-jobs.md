@@ -57,3 +57,6 @@ ms.locfileid: "4432825"
 6. Laukā Derīgais daudzums ierakstiet kādu skaitli.
 7. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

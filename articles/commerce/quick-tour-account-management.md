@@ -96,3 +96,6 @@ Lai iegūtu vairāk informācijas par konta pārvaldības moduļiem un to, kā t
 
 [Pārskats par grozu un norēķināšanās lapām](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

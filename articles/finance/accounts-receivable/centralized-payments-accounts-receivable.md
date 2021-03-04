@@ -296,3 +296,6 @@ Fabrikam saņem maksājumu par 75,00 no debitora 4000, uzņēmuma Northwind Trad
 | Debitoru parādi (Fabrikam West)    |              | 75,00         |
 | Maksājuma veicējs - Fabrikam East (Fabrikam West) | 25,00        |               |
 | Debitoru parādi (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

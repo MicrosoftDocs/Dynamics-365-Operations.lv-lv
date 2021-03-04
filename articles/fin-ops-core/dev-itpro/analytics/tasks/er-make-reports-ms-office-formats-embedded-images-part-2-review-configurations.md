@@ -91,3 +91,6 @@ Lai veiktu šīs darbības, vispirms jāveic darbības, kas aprakstītas uzdevum
     * Dažas etiķetes, kas ir redzamas iepriekš izdrukātā čeka veidlapā, tiks iekļautas pārskatā, veidojot to testēšanas nolūkiem. Tomēr šīs etiķetes netiks drukātas īstās drukāšanas laikā, jo tās jau ir ietvertas iepriekš izdrukātajā veidlapā.  
 15. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Papildinformāciju skatiet sadaļā [Kreditoru rēķinu salīdzināšanas pārsk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

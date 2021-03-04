@@ -303,3 +303,6 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     ![Izmaksu salīdzinājuma diagrammas](./media/subcontract35_cost-comparison-charts.png)
 
 Trūkstoši datu iestatījumi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

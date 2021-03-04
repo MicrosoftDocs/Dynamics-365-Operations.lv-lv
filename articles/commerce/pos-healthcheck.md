@@ -83,3 +83,6 @@ Pielāgotas veselības pārbaudes var izveidot arī, lai testētu ierīces, kas 
 ## <a name="related-articles"></a>Saistītie raksti
 
 [Mūsdienu POS trigeri un drukāšana](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

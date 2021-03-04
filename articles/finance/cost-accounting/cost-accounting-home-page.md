@@ -53,3 +53,6 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

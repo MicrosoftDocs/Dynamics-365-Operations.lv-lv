@@ -43,3 +43,6 @@ Tālāk esošajā tabulā ir norādītas Power BI satura pakotnes, no kurām ir 
 | [Pārdošana un ienesīgums](sales-profitability-performance-content-pack.md) | <ul><li>Ieņēmumi pēc reģiona</li><li>Pirmie 10 debitori pēc ieņēmumiem</li><li>Pirmās 10 preces pēc ieņēmumiem</li></ul> |
 | [Kredītu un iekasēšanas pārvaldība](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Debitori, kam ir nokavēts termiņš</li><li>Debitori, kam pārsniegts kredīta limits</li><li>Vecas bilances</li></ul> |
 | [Pirkumu tēriņu analīze](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Pirkumi pēc mēneša/dienas</li><li>Pirmie 10 kreditori pēc pirkumiem</li><li>Pirmās 10 preces pēc pirkumiem</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

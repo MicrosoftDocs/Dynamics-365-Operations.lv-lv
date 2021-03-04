@@ -45,3 +45,6 @@ Lai definētu pārskatu grāmatošanas laikā pārdošanas pasūtījumu rēķino
 
 > [!NOTE]
 > Retail versijā 10.0.5. tika ieviests atbalsts uzlabotai pēc partijas izsekoto krājumu apstrādei izrakstu grāmatošanas laikā neuzlabotiem noliktavas pārvaldības scenārijiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

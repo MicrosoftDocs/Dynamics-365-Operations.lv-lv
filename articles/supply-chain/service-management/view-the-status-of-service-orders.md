@@ -55,3 +55,6 @@ Lai palīdzētu jums ātri novērtēt pakalpojuma pasūtījuma neatliekamību, G
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

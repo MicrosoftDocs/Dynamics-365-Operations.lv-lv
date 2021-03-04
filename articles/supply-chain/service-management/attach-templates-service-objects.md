@@ -55,3 +55,6 @@ Veidnes materiālu komplekts (MK) var tikt pievienots pakalpojuma objekta attiec
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Saskaņojot pārvadātāja rēķinu un kravas pavadzīmi, tas jāveic rindu pa r
 5. Noklikšķiniet, lai sekotu saitei laukā Atsauces žurnāla numurs.
 6. Noklikšķiniet uz Rindas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

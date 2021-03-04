@@ -64,3 +64,6 @@ Izlaišanas laikā tiek ģenerēts izejmateriālu izdošanas darbs. Darbs tiek �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

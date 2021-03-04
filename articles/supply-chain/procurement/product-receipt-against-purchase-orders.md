@@ -69,3 +69,6 @@ Kad pirkšanas pasūtījumā ir apstrādāta produkta ieejas plūsma, pirkšanas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

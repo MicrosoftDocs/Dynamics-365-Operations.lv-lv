@@ -362,3 +362,6 @@ Papildu administratora kontu var pievienot jūsu B2C nomnieka **Lietotāji** sad
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

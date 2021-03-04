@@ -102,3 +102,6 @@ Finance and Operations versijā 10.0.5 ER veidņu dublējumkopiju glabāšanas l
 [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
 
 [Elektronisko pārskatu (EP) veidošanas struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

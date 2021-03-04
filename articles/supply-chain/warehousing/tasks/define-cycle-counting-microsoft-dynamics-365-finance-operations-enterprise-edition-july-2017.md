@@ -96,3 +96,6 @@ Cikla inventarizācija ir noliktavas process, ko var izmantot, lai auditētu rī
 21. Noklikšķiniet uz **Labi**.
 22. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

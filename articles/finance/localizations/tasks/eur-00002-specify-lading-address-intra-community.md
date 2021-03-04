@@ -73,3 +73,6 @@ ms.locfileid: "4408257"
 37. Noklikšķiniet uz cilnes Vispārīgi.
     * Atrodiet jaunizveidoto rindu un pārbaudiet, vai sūtītājs nosūtīja preces no Itālijas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Zemāk esošajā ekrānuzņēmumā ir pievienota informācija par funkcionālo n
 
 ![Mēneša darba slodzes piemērs ar funkcionālajiem novietojumiem](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ Var izveidot pārskatu **Nosūtīts debitoriem**, lai noskaidrotu nosūtīto kr�
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Vai es varu izsekot līdzproduktus un blakusproduktus?
 Izsekot var arī līdzproduktus, bet nevar izsekot blakusprodukts, jo parasti tiem netiek piešķirtas izsekošanas dimensijas. Krājuma izsekošanas gadījumā izsekošanas dati iekļauj visus saistītos līdzproduktus. Detalizētajā informācijā līmenis, kas satur līdzproduktu, ietver vārdu "līdzprodukts". Skatīt var arī detalizētu informāciju par līdzproduktu, atlasot līmeni izsekošanas datos un pēc tam noklikšķinot uz kopsavilkuma cilnes **Ražošana**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

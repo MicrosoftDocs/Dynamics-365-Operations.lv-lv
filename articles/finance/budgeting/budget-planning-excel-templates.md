@@ -130,3 +130,6 @@ Varat arī izveidot un lietot rakurstabulas un diagrammas budžeta datu papildu 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

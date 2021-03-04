@@ -80,3 +80,6 @@ Kategoriju atribūtu grupas var piešķirt arī katrai grupai pēc vajadzības.
 [Preču kategoriju un preču pārvaldība ](category-management-product-creation.md)
 
 [Kārtošanas secības mainīšana virzīšanas tirgū elementiem](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

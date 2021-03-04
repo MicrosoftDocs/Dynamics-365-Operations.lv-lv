@@ -82,3 +82,6 @@ Materiālu komplekta (MK) daudzums ir 1, un ražošanas daudzums ir 110 Patēri�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

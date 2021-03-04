@@ -48,3 +48,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
     - Nepieciešamības gadījumā pievienojiet papildu organizācijas.  
     - Lai pievienotu organizāciju, klikšķiniet uz **Rediģēt**, tad uz **Ievietot**. Kad esat veicis vajadzīgās izmaiņas, varat **Saglabāt** melnrakstu un/vai **Publicēt** izmaiņas.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

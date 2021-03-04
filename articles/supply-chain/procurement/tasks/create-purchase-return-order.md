@@ -68,3 +68,6 @@ ms.locfileid: "4433130"
 4. Laukā **Prod. ieejas pl.** ierakstiet vērtību. Šis lauks tiek lietots, lai ievadītu atsauci, kas tiks izmantota kā dokuments produktu ieejas plūsmas žurnālam.  
 5. Noklikšķiniet uz **Labi**. Tagad preces ir reģistrētas kā nosūtītas pirkuma atgriešanas pasūtījumā, un ir izveidots produktu ieejas plūsmas žurnāls. Produktu ieejas plūsmas darbību var izmantot, lai pārskatītu ar pirkšanas pasūtījumu izveidotos žurnālus un redzētu, kas un kad tika saņemts vai atgriezts.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

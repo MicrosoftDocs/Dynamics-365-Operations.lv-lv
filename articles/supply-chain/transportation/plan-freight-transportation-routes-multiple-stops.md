@@ -53,3 +53,6 @@ Lai ierosinātu kravu, Kravas plānošanas rīks izmanto debitoru adreses un pie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

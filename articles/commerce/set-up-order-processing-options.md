@@ -84,3 +84,6 @@ Kad esat beidzis konfigurēt zvanu centra kanālu un definēt kanāla lietotāju
 > [!NOTE]
 > Lai izmantotu zvanu centra funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\>**Iestatījumi**\>**Licences konfigurācija.** Tas ir nepieciešams zvanu centra funkcionalitātes dēļ, kas veic dažādas validācijas, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

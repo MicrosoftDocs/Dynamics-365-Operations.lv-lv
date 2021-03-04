@@ -380,3 +380,6 @@ Tātad, kā jau ir redzams, jebkura ERformāta funkcionalitāti var novērtēt a
 - [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
 - [ER Jaunināt savu formātu, pieņemot šī formāta jaunu bāzes versiju](tasks/er-upgrade-format.md)
 - [ER Importēt konfigurāciju no Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

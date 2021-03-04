@@ -41,3 +41,6 @@ Sistēmu varat konfigurēt tā, lai lietotājiem sūtītu e-pasta ziņojumus, ka
 
 > [!NOTE]
 > Darbplūsmas e-pasta veidnes tiks iegūtas no sistēmas e-pasta veidnēm vai organizācijas e-pasta veidnēm atkarībā no tā, vai darbplūsma ir sistēmas līmeņa (nav specifiska uzņēmumam) vai organizācijas līmeņa (specifiska uzņēmumam) darbplūsma.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

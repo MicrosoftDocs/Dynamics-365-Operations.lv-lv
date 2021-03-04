@@ -146,3 +146,6 @@ Kad meklēšanas rezultātu sarakstā noklikšķināt uz uzdevuma ceļveža, var
 
 > [!NOTE]
 > Palīdzība programmās Retail Modern POS un Cloud POS nevar parādīt uzdevumu ceļvežus, ņemot vērā, kuru veidlapu pašlaik atvērāt vai kuru darbību izpildāt. Meklēšanas lodziņā ierakstiet procesa nosaukumu un pēc tam noklikšķiniet uz **Meklēt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

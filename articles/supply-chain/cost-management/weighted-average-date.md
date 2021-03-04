@@ -196,3 +196,6 @@ Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjauni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

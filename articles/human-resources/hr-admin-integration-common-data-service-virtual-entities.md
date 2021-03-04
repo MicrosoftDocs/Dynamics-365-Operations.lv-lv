@@ -216,3 +216,6 @@ Nolaižamā saraksta rūtī tiek rādīti pēdējie procesa izpildes rezultāti.
 [Izveidot un rediģēt virtuālos elementus, kas satur datus no ārējo datu avota](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Kas ir Power Apps portāli?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Lietojumprogrammu izveides pārskats Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

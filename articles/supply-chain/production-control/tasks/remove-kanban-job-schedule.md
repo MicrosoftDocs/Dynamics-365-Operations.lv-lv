@@ -46,3 +46,6 @@ ms.locfileid: "4432473"
 4. Noklikšķiniet uz OK.
     * Tas mainīs aktuālo darba statusu no Plānots uz Nav plānots un noņems to no apstrādes ziņojumu dēļa.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

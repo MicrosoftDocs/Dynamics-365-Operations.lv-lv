@@ -122,3 +122,6 @@ Lai pievienotu ārējo skriptu tieši veidnes vietnes veidotājā, veiciet tāl�
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

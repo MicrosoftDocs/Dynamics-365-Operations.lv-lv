@@ -37,3 +37,6 @@ Izmaksu uzskaites pakalpojumu pievienojumprogramma, kas paredzēta Microsoft Dyn
 ## <a name="related-resources"></a>Saistītie resursi
 
 [Darba sākšana ar izmaksu uzskaites pakalpojumu](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

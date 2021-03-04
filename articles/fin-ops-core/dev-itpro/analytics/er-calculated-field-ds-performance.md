@@ -300,3 +300,6 @@ Papildinformāciju par ER konfigurācijas nodrošinātājiem skatiet sadaļā [K
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
 - [Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

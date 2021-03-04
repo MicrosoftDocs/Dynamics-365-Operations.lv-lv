@@ -154,3 +154,6 @@ Pamatojoties uz atlasēm, kas ir aprakstītas iepriekš šajā sadāļā, izdoš
 | Ziņot kā pabeigtu |   Automātisks MK patēriņš    | <strong>Nekad</strong>  |
 | Ziņot kā pabeigtu | Labot pabeigtu pārskatu tiešsaistē | <strong>Statuss</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Nākamajā attēlā ir redzamas datu plūsmas.
 [Filtru lietošana plānam](plan-filters.md)
 
 [Plānošanas darba atcelšana](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

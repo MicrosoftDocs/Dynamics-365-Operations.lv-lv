@@ -64,3 +64,6 @@ Lapā **Līdzekļu skaitītāji** (**Līdzekļu pārvaldība** > **Pieprasījumi
 >[!NOTE]
 >Varat iestatīt diapazonu, lai definētu novirzes manuālā skaitītāja reģistrācijās. Varat arī norādīt ziņojuma veidu, kas tiek parādīts, ja reģistrācijas ir ārpus definētā diapazona. Papildinformāciju par to, kā iestatīt saistītos skaitītājus, skatiet [Skaitītāji](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

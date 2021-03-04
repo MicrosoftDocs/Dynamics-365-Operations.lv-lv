@@ -280,3 +280,6 @@ Ja ir jānovērtē šī modeļa kartēšana, izmantojot citas versijas programma
 ## <a name="additional-resources"></a>Papildu resursi
 
 Vai arī varat atskaņot uzdevuma ceļvedi **RCS izmantojamo programmas metadatu sagatavošana** programmā, kā arī uzdevuma ceļvežus **Piekļuve programmas metadatiem, izmantojot ER konfigurāciju** un **Piekļuve programmas metadatiem, izmantojot saistītas programmas** rīkā RCS. Šos uzdevumu ceļvežus var lejupielādēt lapā [Elektronisko pārskatu uzdevumu ceļvedis izmantošanai Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ ES direktīvā ir noteikumi, kas visām Dalībvalstīm ir jāievēro attiecība
 
 > [!NOTE]
 > Pārliecinieties, ka lauks **PVN specifikācija** ir iestatīts uz **Reģistrācijas valūta** vai **Reģistrācijas un uzņēmuma valūta** lapā **Veidlapas iestatīšana** cilnē **Vispārīgi** (**Debitori > Iestatīšana > Veidlapas > Veidlapas iestatīšana** vai **Projektu vadība un uzskaite > Iestatīšana > Veidlapas > Veidlapas iestatīšana**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

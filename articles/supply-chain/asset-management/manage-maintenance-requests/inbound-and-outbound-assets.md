@@ -71,3 +71,6 @@ Kad esat pabeidzis uzturēšanas vai labošanas darbu, līdzekli var reģistrēt
 2. Atlasiet līdzekli vai uzturēšanas pieprasījumu.
 3. Atlasiet **Piegādātie līdzekļus**.
 4. Laukā **Piegādāts** ievadiet datumu un laiku. Tad atl. **Labi**. Ieraksts tiek noņemts saraksta lapā **Izejošie līdzekļi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "4419572"
 16. Laukā Bāze atlasiet kādu opciju.
 17. Laukā Summa vai likme ievadiet kādu skaitli.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Jūs palaidīsit izveidoto modeļa kartējumu testēšanas nolūkos, lai redzēt
     * Atlasiet Pārlūkot un atlasiet failu Response4.xml.
 16. Atlasiet Labi.
     * Pārskatiet ģenerēto izvadi. Tagad atbildes veids ir pareizi atpazīts kā līdzvērtīgs failam Response1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

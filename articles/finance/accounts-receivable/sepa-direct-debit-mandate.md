@@ -54,3 +54,6 @@ Papildu resursi
 
 [Tiešā debeta pilnvarojuma izveide debitoram](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

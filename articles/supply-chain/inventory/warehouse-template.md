@@ -98,3 +98,6 @@ Lai uzzinātu vairāk par to, kā izmantot noliktavas veidni noliktavu konfigur�
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Konfigurācijas datu veidnes](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

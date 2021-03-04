@@ -80,3 +80,6 @@ Izmantojiet šo tēmu, lai iespējotu neatbilstības pārvaldības procesus. Nea
 4. Laukā **Apraksts** ierakstiet kādu vērtību.
 5. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

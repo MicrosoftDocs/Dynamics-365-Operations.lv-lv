@@ -120,3 +120,6 @@ Lai veiktu ar pārskatu nesaistīto darījumu lielapjoma rediģēšanu komponent
 [Excel darbgrāmatas izveide, lai rediģētu mazumtirdzniecības darījumus](create-excel-edit.md)
 
 [Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

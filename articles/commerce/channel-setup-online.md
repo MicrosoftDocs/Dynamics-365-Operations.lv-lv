@@ -134,3 +134,6 @@ Tālāk redzamajā attēlā parādīts izpildes grupas piešķires piemērs.
 [Zvanu centra kanāla iestatīšana](channel-setup-callcenter.md)
 
 [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

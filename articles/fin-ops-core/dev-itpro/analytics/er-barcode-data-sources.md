@@ -303,3 +303,6 @@ Tomēr, izmantojot **Svītrkoda** datu avotu, lai izveidotu svītrkodus, šo sv�
 - [Elektroniskā pārskatu veidošanas adresāti](electronic-reporting-destinations.md)
 - [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
 - [NUMBERFORMAT funkcija](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

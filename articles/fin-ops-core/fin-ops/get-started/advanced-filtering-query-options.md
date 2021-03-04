@@ -242,3 +242,6 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

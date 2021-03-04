@@ -49,3 +49,6 @@ Apstiprinot plānoto pasūtījumu, **Apstiprināšanas** dialoglodziņš sniedz 
 - **Nē** – netiek lietota krājumu marķēšana.
 - **Standarta** – krājumu marķēšana tiek atjaunināta atbilstoši piesaistei. Vajadzību pasūtījums (pieprasījums) ir marķēts pretēji izpildes pasūtījumam (piedāvājums). Ja izpildes pasūtījumā tiek saglabāts kāds daudzums, tas netiek marķēts, un atsauces informācija tiek atstāta tukša. Piemēram, ja pārdošanas pasūtījums par 100 ea ir piesaistīts pirkšanas pasūtījumam 150 ea, atsauces informācija tiks piešķirta tikai pārdošanas pasūtījumam.
 - **Paplašināts** – gan vajadzību pasūtījums (pieprasījums), gan izpildes pasūtījums (piedāvājums) ir marķēts, neraugoties uz to, vai izpildes pasūtījumā paliek pāri kāds daudzums. Piemēram, ja pārdošanas pasūtījums par 100 ea ir piesaistīts pirkšanas pasūtījumam 150 ea, atsauces informācija tiks piešķirta tikai pārdošanas pasūtījumam.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

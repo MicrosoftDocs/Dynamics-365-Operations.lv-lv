@@ -203,3 +203,6 @@ IFeatureLifecycle ir iekšējs Microsoft mehānisms līdzekļu dzīves cikla sta
 - PublicPreview — tiek parādīts pēc noklusējuma, bet ar brīdinājumu, ka līdzeklis ir priekšskatījumā.
 - Izlaists — pilnībā izlaists.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -252,3 +252,6 @@ Globalizācijas pakalpojumu lietotāji var pārvaldīt vidi, lai iestatītu glob
 10. Atlasiet **Publicēt**, lai publicētu vidi.
 
     ![Publicētā vide](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

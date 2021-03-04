@@ -39,3 +39,6 @@ Lai varētu izmantot pārkraušanas punkta konsolidāciju, ir jāiespējo opcija
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

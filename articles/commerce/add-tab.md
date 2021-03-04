@@ -84,3 +84,6 @@ Lai pievienotu cilnes moduli lapai un iestatītu rekvizītus, veiciet šādas da
 [Akordeona modulis](add-accordion.md)
 
 [Teksta bloka modulis](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

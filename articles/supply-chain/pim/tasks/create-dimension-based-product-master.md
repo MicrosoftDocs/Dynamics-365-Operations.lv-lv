@@ -42,3 +42,6 @@ ms.locfileid: "4432781"
     * Atlasiet Konfigurācijas atbilstoši dimensijām tehnoloģiju.  
 9. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

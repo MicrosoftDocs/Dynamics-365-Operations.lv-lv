@@ -64,3 +64,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 5. Noklikšķiniet uz Eksportēt.
 6. Noklikšķiniet uz PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

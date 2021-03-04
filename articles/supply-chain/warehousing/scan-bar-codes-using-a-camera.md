@@ -55,3 +55,6 @@ Kameras lapā, noklikšķinot uz pogas Kamera, tā būs pelēkota tik ilgi, līd
 
 Pavēršot kameru uz svītrkodu, labākam rezultātam gādājiet, lai svītrkods atrastos vienā līmenī ar iekavām. Kad svītrkods būs veiksmīgi noskenēts, rezultāts tiks apstrādāts un jūs varēsiet pāriet uz nākamo darbību. Ja nākamajā darbībā būs vēl viens ievades lauks, kura vēlamais ievades režīms būs iestatīts uz Skenēšana, vēlreiz tiks atvērta kamera lapa. Ja nākamā darbība nebūs skenēšanas lauks, kameras lapa netiks iniciēta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

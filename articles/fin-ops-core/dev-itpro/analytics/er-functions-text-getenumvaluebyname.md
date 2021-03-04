@@ -117,3 +117,6 @@ Ja plānojat izmantot šo pieeju lielam transakciju datu apjomam, ir jāapsver i
 [FIRSTORNULL ER funkcija](er-functions-list-firstornull.md)
 
 [WHERE ER funkcija](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

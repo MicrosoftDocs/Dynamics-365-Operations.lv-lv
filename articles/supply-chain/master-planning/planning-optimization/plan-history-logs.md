@@ -47,3 +47,6 @@ Papildus tam, lai redzētu darbu sākšanas laiku un statusu, varat skatīt žur
 [Filtru lietošana plānam](plan-filters.md)
 
 [Plānošanas darba atcelšana](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

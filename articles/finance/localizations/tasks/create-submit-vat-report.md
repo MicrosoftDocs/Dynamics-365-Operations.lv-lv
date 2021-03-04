@@ -35,3 +35,6 @@ ms.locfileid: "4445687"
 5. Laukā Izveidot elektronisko nodokļu dokumentu atlasiet Jā.
 6. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

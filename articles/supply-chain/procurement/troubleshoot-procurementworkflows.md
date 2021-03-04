@@ -80,3 +80,6 @@ Atceļot pirkšanas pasūtījumus, ar statusu *Apstiprināts*, atceltie pirkšan
 
 Šī problēma rodas tikai tiem pirkšanas pasūtījumiem, kas ir pakļauti izmaiņu pārvaldībai. Tas notiek tāpēc, ka atcelšana tiek uzskatīta par izmaiņu, kas ir jāapstiprina. Apstiprinājumu sistēma var veikt automātiski. Atceltais pirkšanas pasūtījums ir jāiesniedz apstiprināšanas darbplūsmai, lai to varētu nosūtīt uz statusu *Apstiprināts*. Pēc tam pirkšanas pasūtījums vairs netiks rādīts **Pirkšanas pasūtījumu sagatavošanas** darbvietas pirkšanas pasūtījumu melnrakstu sarakstā.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

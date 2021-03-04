@@ -145,3 +145,6 @@ Cenu simulācija ietekmē tikai to rindu, kurai tā tiek izmantota, un samazina 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Papildinformāciju skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

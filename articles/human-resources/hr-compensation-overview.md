@@ -132,3 +132,6 @@ Pēc procesa notikuma palaišanas varat ieteikt korekcijas darbinieka nopelnu pa
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

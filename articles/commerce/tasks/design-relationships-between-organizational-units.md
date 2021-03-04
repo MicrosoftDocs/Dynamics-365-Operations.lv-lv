@@ -63,3 +63,6 @@ ms.locfileid: "4414090"
 29. Noklikšķiniet uz Publicēt.
 30. Noklikšķiniet uz Aizvērt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

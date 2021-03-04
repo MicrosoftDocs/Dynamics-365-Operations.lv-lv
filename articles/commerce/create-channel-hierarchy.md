@@ -107,3 +107,6 @@ Tālāk redzamajā attēlā parādīts mezgla paraugs ar pievienotām preču īp
 [Preču klāstu iestatīšana](set-up-assortments.md)
 
 [Atribūtu un atribūtu grupu pārvaldība](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

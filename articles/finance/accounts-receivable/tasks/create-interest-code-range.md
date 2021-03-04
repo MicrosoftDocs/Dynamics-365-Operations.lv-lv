@@ -51,3 +51,6 @@ Procentu kodus var iestatīt, lai tiktu aprēķinātas dažādas procentu summas
 21. Ievadiet procentu likmi mēnesī, kas tiks izmantota, lai aprēķinātu procentus, sākot ar 7. mēnesi. Šajā piemērā atlasiet vērtību 2.5.
 22. Noklikšķiniet uz Aizvērt, lai pabeigtu iestatīšanu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

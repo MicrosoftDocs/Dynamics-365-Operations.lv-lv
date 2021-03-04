@@ -143,3 +143,6 @@ Attiecībā uz vajadzības grupas kalendāru ir svarīgi ņemt vērā aspektus, 
 
 ### <a name="updating-scm-related-calendars"></a>Ar SCM saistītu kalendāru atjaunināšana
 Lai gan ir svarīgi, ka visi atbilstīgie kalendāri tiek piešķirti attiecīgajā vietā (kreditors, debitors, noliktava, piegādes veids vai vajadzības grupa), ir svarīgi arī tos atjaunināt, lai tajos būtu redzamas izmaiņas. Sistēma noteiks ražošanas, pārsūtīšanas, pirkšanas un pārdošanas pasūtījumu datumus atkarībā no piešķirto kalendāru kombinācijas. Labākā prakse ir noskaidrot, kurš ir atbildīgs par kalendāru piešķiršanu un atjaunināšanu atbilstošajos apgabalos. Ja darbdienās rodas bojājumi vai citas neparastas izmaiņas, ir ļoti svarīgi atbilstoši atjaunināt kalendārus. Visi uzdevumi, kuri ir atkarīgi no kalendāriem, piemēram, vispārējā plānošana un ražošanas plānošana, ir jāpalaiž atkārtoti pēc kalendāru atjaunināšanas. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

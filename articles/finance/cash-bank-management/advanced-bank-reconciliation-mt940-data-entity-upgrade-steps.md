@@ -64,3 +64,6 @@ Lai pievienotu bankas izraksta importēšanas elementu MT940 formāta atbalstam,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

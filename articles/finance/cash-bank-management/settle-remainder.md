@@ -70,3 +70,6 @@ Lai nokārtotu atlikumu, veiciet tālāk norādītās darbības.
 7)  Jūs varat arī izvēlēties, vai līdz ar atlikuma nokārtošanu izveidot maksājumu žurnālu, vai tikai grāmatot bez žurnāla. Lai izveidotu maksājumu žurnālu, opcijai **Labot žurnālā** atlasiet **Jā**. Varēsiet labot maksājumu žurnālu, ko veidojat.
 8)  Noklikšķiniet uz **Nokārtot atlikumu**. Ja izvēlējāties izveidot žurnālu, poga mainīsies uz **Izveidot žurnālu**. Noklikšķiniet uz **Izveidot žurnālu**.
 9)  Ja esat izveidojis maksājumu žurnālu, žurnāla lapa atvērsies pēc noklikšķināšanas uz **Nokārtot atlikumu**. Žurnālam tiks pievienota papildu žurnāla rinda ar atlikuma norēķinu summu kā summu un ar atlikuma norēķinu kontu kā korespondējošo kontu. Ja pievienojāt debitoru vai kreditoru, lai varētu pārvietot norēķinu summu uz citu debitora vai kreditora kontu, žurnālam tiks pievienota papildu rinda, lai pārvietotu norēķinu summu uz attiecīgo debitora vai kreditora kontu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

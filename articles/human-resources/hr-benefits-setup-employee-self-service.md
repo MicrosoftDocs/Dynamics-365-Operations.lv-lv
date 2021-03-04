@@ -72,3 +72,6 @@ Microsoft Dynamics 365 Human Resources varat konfigurēt darbinieku patstāvīgi
    | **End** | Elementa pieejamības beigu datums un laiks. |
 
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

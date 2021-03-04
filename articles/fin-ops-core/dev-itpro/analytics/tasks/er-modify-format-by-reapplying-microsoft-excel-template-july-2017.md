@@ -83,3 +83,6 @@ Lai veiktu šīs procedūras darbības, jums vispirms ir jāizpilda procedūra �
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Izmantot ER formāta modificēto melnraksta versiju lietošanai maksājumu žurnāla apstrādei
 
 Pārskatiet izveidoto darblapu, ieskaitot jauno maksājuma informācijas rindu — maksājuma datumu.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

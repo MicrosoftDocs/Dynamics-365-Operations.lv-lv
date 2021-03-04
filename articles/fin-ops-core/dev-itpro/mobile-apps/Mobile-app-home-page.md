@@ -151,3 +151,6 @@ Nākamajā tabulā ir ietvertas saites uz resursiem, kas jums var palīdzēt iev
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 [Mobilās platformas resursi](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

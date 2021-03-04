@@ -85,3 +85,6 @@ Ja `input` arguments ir tukšs, tiek atgriezts jauns tukšs saraksts. Ja `input`
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

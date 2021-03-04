@@ -88,3 +88,6 @@ PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk 
 - ChartofAccounts
 
 Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai iekļautu papildu aprēķinus pārskatos un informācijas panelī, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

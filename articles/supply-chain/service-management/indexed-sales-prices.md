@@ -43,3 +43,6 @@ Piemēram, ja pamatcena ir EUR 1000 un indekss ir 110, pārdošanas cena ir EUR 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

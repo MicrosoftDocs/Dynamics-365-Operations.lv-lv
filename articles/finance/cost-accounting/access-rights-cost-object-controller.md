@@ -106,3 +106,6 @@ Papildu resursi
 - [Izmaksu kontroles darbvieta](cost-control-workspace.md)
 - [Dimensiju hierarhija](dimension-hierarchy.md)
 - [Drošības iestatīšana satura pakotnei Izmaksu uzskaite](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

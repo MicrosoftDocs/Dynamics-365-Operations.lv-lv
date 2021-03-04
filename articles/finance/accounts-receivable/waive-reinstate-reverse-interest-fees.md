@@ -95,3 +95,6 @@ Procentu transakcijas var anulēt, izmantojot pogu **Vēsture** cilnē **Iekasē
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Ja argumenta `decimals` vērtība ir mazāka par 0 (nulli), norādītais skaitl
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Matemātiskās funkcijas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

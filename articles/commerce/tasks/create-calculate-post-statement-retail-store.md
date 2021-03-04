@@ -48,3 +48,6 @@ ms.locfileid: "4414104"
 12. Sākuma lapā atlasiet **Veikala finanses**.
 13. Atlasiet cilni **Iegrāmatotie izraksti**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

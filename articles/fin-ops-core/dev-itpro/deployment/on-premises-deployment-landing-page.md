@@ -72,3 +72,6 @@ Varat izvietot programmu Dynamics 365 Finance + Operations (lokālo versiju). Iz
 - [Noņemtie vai novecojušie līdzekļi Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Programmatūras dzīves cikla politika un lokālie laidieni](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

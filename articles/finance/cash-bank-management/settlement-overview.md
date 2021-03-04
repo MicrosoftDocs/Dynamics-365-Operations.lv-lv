@@ -78,3 +78,6 @@ Mēģinot segt transakciju, jūs varat pamanīt simbolu, kas norāda, ka transak
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Atlikuma nokārtošana](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas
 - **Piegādes apjoma prognoze**: atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu gaidāmās naudas plūsmas, kas ir saistītas ar atlasīto krājuma piegādes apjoma prognozi.
 - **Pieprasījuma apjoma prognoze**: atlasiet opciju **Naudas plūsmas prognozes**, lai skatītu gaidāmās naudas plūsmas, kas ir saistītas ar atlasīto krājuma pieprasījuma apjoma prognozi.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

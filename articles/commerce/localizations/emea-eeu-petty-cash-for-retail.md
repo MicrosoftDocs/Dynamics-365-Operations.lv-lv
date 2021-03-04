@@ -93,3 +93,6 @@ Izmantojiet šādu procedūru, lai iestatītu maksājuma metodi maksājumiem vei
 
 > [!NOTE]
 > Korespondējošie konti veikalam ir jāiestata gan kases norēķinu maksāšanas metodei, gan norēķinu noņemšanas vai mainīšanas ierakstu maksāšanas metodei. Šādi norēķinu noņemšanas vai mainīšanas ierakstu transakcijām tiek izveidoti līdzsvaroti virsgrāmatas ieraksti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

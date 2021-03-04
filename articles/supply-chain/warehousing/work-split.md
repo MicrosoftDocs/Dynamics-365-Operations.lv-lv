@@ -155,3 +155,6 @@ Ja mēģināt izmantot noliktavas programmu, lai palaistu saņemšanas darbu dar
 ## <a name="other-blocked-operations"></a>Citas aizturētās operācijas
 
 Visas operācijas, kas pārveido darba rindas, darba krājumu darbības vai papildināšanas saites, kas saistītas ar sadalāmo darbu, neizdosies, un tiks parādīts šāds kļūdas ziņojums: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

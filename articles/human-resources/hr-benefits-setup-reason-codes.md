@@ -41,3 +41,6 @@ Dynamics 365 Human Resources izmanto pamatojuma kodus, lai izskaidrotu, kāpēc 
    | **Apraksts** | Pamatojuma koda apraksts. |
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

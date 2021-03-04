@@ -90,3 +90,6 @@ ms.locfileid: "4432580"
 23. Noklikšķiniet uz Piesaistītais pārdošanas līgums.
 24. Noklikšķiniet uz cilnes Izpilde.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

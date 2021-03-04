@@ -64,3 +64,6 @@ ms.locfileid: "4432487"
     * Šādi tiks izveidoti divi Kanban.  
     * Ņemiet vērā, ka šim atvilkuma Kanban nosacījumam tika izveidoti 2 Kanban pa 5 katrs.  Šā ir pēdējā darbība šajā procedūrā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

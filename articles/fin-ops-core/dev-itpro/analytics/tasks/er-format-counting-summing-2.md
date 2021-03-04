@@ -139,3 +139,6 @@ Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras "ER konfigurēt f
 83. Noklikšķiniet uz Saglabāt.
 84. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

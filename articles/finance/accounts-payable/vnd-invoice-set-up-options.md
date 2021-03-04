@@ -63,3 +63,6 @@ Ir pieejami šādi parametri:
 
 - **Automātiskās saskaņošanas mēģinājumu skaits** — atlasiet skaitu, cik reizes sistēmai jāmēģina saskaņot preču ieejas plūsmu ar rēķina rindu, pirms tā secina, ka process neizdevās. Kad tiek sasniegts norādītais mēģinājumu skaits, rēķins tiek noņemts no automatizētās apstrādes.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

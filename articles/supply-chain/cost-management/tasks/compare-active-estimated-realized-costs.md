@@ -40,3 +40,6 @@ ms.locfileid: "4432855"
 6. Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.
 7. Noklikšķiniet uz Aizvērt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

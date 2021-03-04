@@ -243,3 +243,6 @@ Lai lejupielādētu arhivēto izpildes vēsturi, dodieties uz datu pārvaldības
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

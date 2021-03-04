@@ -112,3 +112,6 @@ Iepakojuma materiāla svaru varat drukāt uz rēķina un norādīt, kurš maksā
 
 1. Dodieties uz sadaļu **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
 1. Cilnē **Atjauninājumi**, kopsavilkuma cilnē **Rēķins** iestatiet opciju **Drukāt iepakojuma materiāla svaru** uz **Jā**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

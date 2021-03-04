@@ -67,3 +67,6 @@ Lai iegūtu papildu informāciju un piemērus par šīs funkcijas izmantošanu, 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datu apkopošanas funkcijas](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

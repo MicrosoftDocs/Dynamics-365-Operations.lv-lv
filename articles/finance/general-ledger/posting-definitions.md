@@ -62,3 +62,6 @@ Veidojot saites grāmatošanas definīcijās, tiek lietoti šādi ierobežojumi:
 Papildinformāciju skatiet tēmā [Grāmatošanas definīcijas piemēri](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

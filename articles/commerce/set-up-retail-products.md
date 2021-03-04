@@ -40,3 +40,6 @@ Lai preces varētu piedāvāt atkārtošanai pārdošanai savos komercijas kanā
 4. **Pievienojiet preces klāstiem.** Klāsts ir preču kopa, ko piedāvājat savos kanālos. Varat definēt vienu vai vairākus klāstus un katru preci varat piešķirt vienam vai vairākiem klāstiem. Lai piešķirtu preces kanāliem, jūs piešķirat klāstus šiem kanāliem. Kad izveidojat klāstu, varat pievienot preces, kas vēl nav izlaistas juridiskai personai. Taču, lai preces varētu padarīt pieejamas kanālos, šīs preces vispirms ir jāizlaiž juridiskai personai.
 5. **Pievienojiet preces navigācijas hierarhijām.** Lai preces varētu pārlūkot tiešsaistē vai pārdošanas punktā (POS), vispirms tās ir jākategorizē Commerce navigācijas hierarhijā.
 6. **Pievienojiet preces katalogiem.** Lai gan šī darbība nav obligāta, ja izmantojat POS, lai izmantotu tiešsaistes veikalus, precēm ir jābūt iekļautām vismaz vienā katalogā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

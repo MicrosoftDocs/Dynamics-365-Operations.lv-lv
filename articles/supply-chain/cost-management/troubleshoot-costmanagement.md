@@ -62,3 +62,6 @@ Lūdzu, neaizmirstiet izpildīt krājumu slēgšanu kā %3 (31-01-2019), kas atb
 ## <a name="inventory-aging-report-discrepancies"></a>Krājumu vecumstruktūru pārskata neatbilstība
 
 **Krājumu vecumstruktūru pārskats** rāda dažādas vērtības, ja tās tiek apskatītas dažādās noliktavas dimensijās (piemēram, vietnē vai noliktavā). Lai iegūtu papildu informāciju par pārskata loģiku, skatiet [Krājumu vecumstruktūru pārskata piemēri un loģika](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

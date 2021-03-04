@@ -53,3 +53,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
 3. Atlasiet **Labi**.
 4. Atlasiet **Plānotie pasūtījumi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

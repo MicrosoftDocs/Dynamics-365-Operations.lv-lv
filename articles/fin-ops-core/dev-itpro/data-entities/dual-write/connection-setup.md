@@ -138,3 +138,6 @@ Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemēr
 Piemēru skatiet [V3 klientu iespējošana — kontaktpersonu tabulas karte](enable-entity-map.md#enable-table-map)
 
 Lai varētu izmantot alternatīvu pieeju, kas balstās uz datu apjomu katrā elementā, kam jāpalaiž sākotnējā sinhronizāciju, skatiet [Apsvērumi par sākotnējo sinhronizāciju](initial-sync-guidance.md).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Ja ielādējat vairāku tipu līdzekļus vienlaicīgi (piemēram, attēlus un vi
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -276,3 +276,6 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
 
 5. Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
 6. Ja eskalācijas ceļā norādītie lietotāji neatbild atvēlētajā laikā, sistēma automātiski veiks darbību ar dokumentu. Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

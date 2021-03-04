@@ -61,3 +61,6 @@ Veicot procesa auditu, ir pieejami tālāk minētie dati.
 |Darba pieteikumu vēsture | Darba pieteikums (msdyn_JobapplicatonId)<br></br>Statuss (msdyn_status) <br></br>Statusa iemesls (msdyn_statusreason) <br></br>Noraidīšanas iemesls (msdyn_rejectionreason) |
 | Vakanču vēsture | Vakance (msdyn_JobopeningId) <br></br>Statuss (msdyn_jobopeningstatus) <br></br>Statusa iemesls (msdyn_jobopeningstatusreason) |
 | Kandidātu vēsture | Kandidāts (msdyn_CandidateId) |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

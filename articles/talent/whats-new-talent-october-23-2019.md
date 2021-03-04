@@ -92,3 +92,6 @@ Aplūkojiet [Drukāšanas veiktspējas pārskati](https://docs.microsoft.com/dyn
 Katrā laidienā tiek pievienoti un atjaunināti līdzekļi. Līdzekļu pārvaldības pieredze nodrošina darbvietu, kur varat skatīt katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju.
 
 Lai iegūtu plašāku informāciju par izmaiņām, kas tiek veiktas ar funkciju pārvaldību, skatīt [Funkciju pārvaldības pārskatu](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

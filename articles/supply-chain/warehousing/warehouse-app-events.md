@@ -78,3 +78,6 @@ Lai atiestatītu nesekmīgu noliktavas programmas notikuma ziņojumu:
 1. Turpiniet darbu, līdz visi atbilstošie ziņojumi ir atiestatīti.
 
 Varat arī noņemt notikuma ziņojumu **Nesekmīgs**, izmantojot opciju **Dzēst** rīkjoslā **Noliktavas programmas notikumu ziņojumi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

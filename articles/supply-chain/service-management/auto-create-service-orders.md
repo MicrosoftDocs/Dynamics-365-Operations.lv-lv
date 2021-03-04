@@ -59,3 +59,6 @@ Pakalpojumu līgums ilgst no 2012. gada 1. janvāra līdz 2012. gada 31. decembr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

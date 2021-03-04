@@ -90,3 +90,6 @@ ms.locfileid: "4445483"
 3. Atlasiet debitoru, kuram pievienojāt šo pilnvarojumu.
 4. Ievadiet vai atlasiet vērtību laukā **Tiešā debeta pilnvarojuma ID**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

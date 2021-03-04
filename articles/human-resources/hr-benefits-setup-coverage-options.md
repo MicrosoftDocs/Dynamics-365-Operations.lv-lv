@@ -59,3 +59,6 @@ Kad seguma opcijas ir definētas, pievienojiet seguma opcijas atvieglojumu plān
    | **Atļaut darbinieku vajadzību summu** | Norāda, vai, atlasot atvieglojumus patstāvīgi izmantojamā pakalpojumā, atļaut darbiniekiem mainīt seguma summu par atvieglojumiem. Ja atzīmējat šo izvēles rūtiņu, sistēma aprēķinās atvieglojumu plāna parametrus, pamatojoties uz seguma summu, ko darbinieks ievada darbinieku patstāvīgi izmantojamajā pakalpojumā. |
 
 6. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

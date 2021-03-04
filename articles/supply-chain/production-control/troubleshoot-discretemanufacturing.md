@@ -142,3 +142,6 @@ Nevar ziņot par brāķa daudzumu ražošanas pasūtījumā, ja arī neziņojat 
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Vai var izsekot gatavo preču sērijas numurus pret patērēto preču sērijas numuriem?
 
 Nevar izsekot gatavo preču sērijas numurus ar materiālu sērijas numuriem, ko ražošanas pasūtījums patērē, lai izveidotu šīs pabeigtās preces. Šis scenārijs pašlaik netiek atbalstīts. Risinājums ir izveidot ražošanas pasūtījumus 1 daudzumam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

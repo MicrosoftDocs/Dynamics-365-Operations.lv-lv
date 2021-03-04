@@ -157,3 +157,6 @@ Lai izveidotu darbu, veiciet šādas darbības.
 
 13. Lai aktivizētu darbu, atlasiet **Aktivizēt**.
 14. Lai publicētu darbu, atveriet sadaļu **Publicētie darbi** un pēc tam atlasiet **Publicēt tagad** vietnē Talent Careers vai LinkedIn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

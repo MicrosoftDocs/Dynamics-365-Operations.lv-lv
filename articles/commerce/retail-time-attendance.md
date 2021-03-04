@@ -139,3 +139,6 @@ Commerce lietotājs izpilda darbplūsmu, lai aprēķinātu, apstiprinātu un pā
 - Kavējuma reģistrēšana
 
 Papildinformāciju par laika un apmeklētības ierakstu apstrādi skatiet tēmā[Laika un apmeklētības ierakstu apstrāde](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

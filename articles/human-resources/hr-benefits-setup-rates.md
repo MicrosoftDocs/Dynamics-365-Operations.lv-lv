@@ -93,3 +93,6 @@ Varat arī izmantot divkāršos līmeņus. Ja atlasāt **Divkāršais līmenis**
    | **Elastīgā kredīta smēķētāju likme** | Atvieglojuma izmaksu elastīgo kredītu skaits, pamatojoties uz aprēķiniem, kas noteikti smēķētāju līmenim. |
 
 5. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

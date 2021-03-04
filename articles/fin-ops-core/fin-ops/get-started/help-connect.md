@@ -99,3 +99,6 @@ Ja vēlaties sadarboties ar Microsoft, strādājot ar rīkiem un procesiem palī
 [Uzdevuma reģistrētāja resursi](../../dev-itpro/user-interface/task-recorder.md)  
 [Dokumentācijas vai apmācības izveide, izmantojot uzdevuma reģistrētāju](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Pielāgotās palīdzības GitHub repozitorijs](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

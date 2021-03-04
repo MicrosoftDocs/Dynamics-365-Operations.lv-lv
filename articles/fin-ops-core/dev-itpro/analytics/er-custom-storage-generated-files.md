@@ -341,3 +341,6 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 - [Lietojumprogrammas Paplašināmība sākumlapa](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

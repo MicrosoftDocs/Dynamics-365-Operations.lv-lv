@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Kad esat izguvis piekļuves tiesības, marķieris tiks nodots autorizācijas galvenē kā datu nesēja marķieris ar katru pieprasījumu, ko nosūtāt datu API, kā aprakstīts iepriekš.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

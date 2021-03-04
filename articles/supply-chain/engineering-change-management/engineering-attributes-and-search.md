@@ -94,3 +94,6 @@ Jānorāda tehniskā kategorija, kurai pieder šis produkts. Kategorija noteiks 
 Varat izmantot tehnisko atribūtu meklēšanu, lai atrastu produktus, meklējot to tehnisko atribūtu vērtības. Tādēļ viegli varat atrast tehniskos produktus, pamatojoties uz to īpašībām. Varat meklēt produktus, kas pieder tehnisko produktu kategorijai, vai arī varat meklēt visos tehniskos produktos.
 
 Meklēšana ir pieejama preces šablona datu lapās un no transakciju krājumiem sistēmā, piemēram, pārdošanas pasūtījumos. Lai meklētu produktu, varat izmantot lapu **Tehnisko atribūtu meklēšana**. Pēc tam varat izmantot pogu **Pievienot kā jaunu rindu**, lai pievienotu produktu pārdošanas pasūtījuma rindām. Produktus meklēšanas rezultātos var arī pievienot tieši pasūtījumam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

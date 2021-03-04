@@ -135,3 +135,6 @@ Konsolidācijas lauku saraksts (t.i., lauki, kas tiks notīrīti, ja tiem ir at�
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

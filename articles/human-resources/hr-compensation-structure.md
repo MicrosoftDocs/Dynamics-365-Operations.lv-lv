@@ -113,3 +113,6 @@ Varat piešķirt fiksētas atlīdzības plānu nodarbinātajam, līdz plānam ir
 
 8. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

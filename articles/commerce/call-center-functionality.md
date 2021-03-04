@@ -69,3 +69,6 @@ Papildus atbalstam pasūtījumu izveidei zvanu centra modulis nodrošina arī li
 ## <a name="configure-continuity-programs"></a>Nepārtrauktības programmu konfigurēšana
 
 [Nepārtrauktības programmu iestatīšana zvanu centriem](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Atcelšanas un labošanas rēķinus varat identificēti divējādi:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

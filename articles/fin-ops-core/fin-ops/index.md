@@ -145,3 +145,6 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

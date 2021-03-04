@@ -58,3 +58,6 @@ Izmaksu elementus izmaksu uzskaitē var izveidot vairākos veidos. Šajā proced
 1. Noklikšķiniet uz Skatīt dimensijas elementus.
     * Skatiet importētos virsgrāmatas kontus kā izmaksu elementus, uz kuriem var aizplūst izmaksas jūsu uzņēmumā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

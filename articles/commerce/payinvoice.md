@@ -45,3 +45,6 @@ Lai iespējotu šos scenārijus, funkcionalitātes profils veikaliem jākonfigur
 
 > [!NOTE]
 > Daļēju summu maksājums vai segšana vēl netiek atbalstīta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

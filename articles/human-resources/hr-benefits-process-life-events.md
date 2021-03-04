@@ -57,3 +57,6 @@ Piemēram, ja šodien ir 1. februāris un 14. februārī nodarbinātajam Jānim 
    4. Atlasiet **Labi**. Apstrāde tiks izpildīta ar iestatītajiem parametriem.
 
 4. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Lai redzētu, kas jauns vai mainīts katrā programmas laidienā līdz 2019. gad
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | 2016. gada novembris    | [Jaunumi un izmaiņas programmas Dynamics 365 for Operations versijā 1611 (2016. gada novembris)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016. maijs         | [Jaunumi un izmaiņas Dynamics AX programmas versijā 7.0.1 (2016. gada maijs)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016. februāris    | [Jaunumi un izmaiņas programmā Dynamics AX 7.0 (2016. gada februāris)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

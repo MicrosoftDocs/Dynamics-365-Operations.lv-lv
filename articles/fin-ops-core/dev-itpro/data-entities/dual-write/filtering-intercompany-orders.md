@@ -65,3 +65,6 @@ Katrs standarta Common Data Service elements tiek paplašināts ar atsaucēm uz 
 7. Pēc tam, kad pagarināt elementu **Piedāvājumi**, lietojiet filtru `CUSTGROUP !=  "<company>"` kā vaicājumu virkni.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Pārdošanas piedāvājuma virsraksts, vaicājuma rediģēšana":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

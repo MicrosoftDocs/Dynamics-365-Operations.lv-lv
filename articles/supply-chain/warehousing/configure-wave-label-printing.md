@@ -932,3 +932,6 @@ Varat skatīt un atkārtoti drukāt kopuma etiķetes no šādām lapām:
 - Kopuma etiķešu vēsture
 
 Vairumam šo lapu varat atrast atbilstošo funkciju darbību rūts cilnē **Sūtījumi** grupā **Saistītā informācija**, atlasot **Kopuma etiķetes**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

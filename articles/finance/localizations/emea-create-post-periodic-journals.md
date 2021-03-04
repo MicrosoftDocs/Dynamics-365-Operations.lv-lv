@@ -48,3 +48,6 @@ Piemēram, lai ģenerētu ceturkšņa grāmatojumus, laukā **Periodu skaits** i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

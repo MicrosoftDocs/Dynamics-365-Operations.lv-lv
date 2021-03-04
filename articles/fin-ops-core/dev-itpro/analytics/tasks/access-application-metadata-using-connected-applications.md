@@ -113,3 +113,6 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 11. Aizvērt lapu. 
 
 Ja ir jānovērtē šī modeļa kartēšana, izmantojot citas versijas programmas metadatus, reģistrējiet citu savienoto programmu, piešķiriet to šai modeļa kartēšanai un validējiet to ar jauniem metadatiem.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -439,3 +439,6 @@ Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot 
 [Krājumu statusi](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

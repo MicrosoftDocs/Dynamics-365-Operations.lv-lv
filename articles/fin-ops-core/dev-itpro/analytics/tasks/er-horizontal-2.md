@@ -51,3 +51,6 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz procedūras "ER Izmantot hori
 8. Noklikšķiniet uz OK.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka tikko izveidotais Excel fails ietver finanšu dimensijām atlasīto kolonnu skaitu. Pārskata galvenē šajās kolonnās ir norādīti finanšu dimensiju nosaukumi. Transakcijas rindās šajās kolonnās ir norādītas finanšu dimensijas. Palaidiet šo pārskatu un atlasiet dažādas dimensijas, lai pārliecinātos, ka pārskatu nav atkarīgs no atlasīto dimensiju skaita, vai dimensiju skaita, kas ir konfigurētas šai instancei.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

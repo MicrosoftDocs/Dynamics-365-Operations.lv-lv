@@ -253,3 +253,6 @@ Lapām ar lieliem skatu atlasītājiem (gan personalizācijas, gan vaicājumus v
 
 - Pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Ja izveidojāt šo elementu pēc skatu iespējošanas, atlasot elementu, tiks atvērta lapa ar ar šo elementu saistīto skatu.
 - Ja pārejat uz lapu un attiecīgais ieejas punkts ietver vaicājumu, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Ja tā notiek, jums vajadzētu saņemt informatīvu ziņojumu, kad skats tiek ielādēts. Varat arī to apstiprināt, pārslēdzoties uz šo skatu pēc lapas ielādes, jo tam jebkurā gadījumā vajadzētu nodrošināt vaicājuma izpildi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

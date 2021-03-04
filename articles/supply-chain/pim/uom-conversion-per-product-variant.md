@@ -107,3 +107,6 @@ Lai eksportētu mērvienību pārveidošanu uz Excel, lapā **Mērvienību pārv
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Mērvienības pārvaldība](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

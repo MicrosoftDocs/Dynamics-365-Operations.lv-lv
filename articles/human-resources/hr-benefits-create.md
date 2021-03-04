@@ -53,3 +53,6 @@ ms.locfileid: "4419503"
 6. Laukā Stājas spēkā ievadiet kādu datumu un laiku.
 7. Noklikšķiniet Izveidot atvieglojumu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

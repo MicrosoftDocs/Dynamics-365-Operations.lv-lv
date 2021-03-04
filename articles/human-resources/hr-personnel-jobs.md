@@ -87,3 +87,6 @@ Atbildības jomas ir jāizmanto, lai norādītu darba lomas, procesus un preces,
 
 ## <a name="steps-for-creating-a-job"></a>Norādījumi par darba izveidi
 Sīku jaunas darba izveides procedūras aprakstu skatiet rakstā [Jaunu darbu definēšana](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

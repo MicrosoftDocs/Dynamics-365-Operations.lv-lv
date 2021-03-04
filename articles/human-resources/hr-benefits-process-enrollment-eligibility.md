@@ -72,3 +72,6 @@ ms.locfileid: "4419499"
    | **Rezultāta statuss** | Tas būs atbilstīgs vai neatbilstīgs. Rezultāta statuss būs neatbilstīgs, ja darbinieks neatbilst piemērojamības nosacījumu kritērijam, ja darbiniekam trūkst nepieciešamās informācijas, piemēram, atalgojuma biežums vai fiksēta kompensācija, vai ja atvieglojumu plānā trūkst informācijas, kas liedz darbiniekiem tikt iesaistītam. |
    | **Rezultāta ziņojums** | Norāda, kāpēc darbiniekam nav tiesību saņemt atvieglojumu plānu vai ja piemērojamības kārtula ir pieņemta. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

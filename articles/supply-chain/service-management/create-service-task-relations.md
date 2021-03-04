@@ -75,3 +75,6 @@ Pakalpojumu uzdevuma saistības, kas iz izveidotas pakalpojumu pasūtījumā, ir
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

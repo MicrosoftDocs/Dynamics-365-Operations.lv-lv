@@ -229,3 +229,6 @@ Lai ierobežotu piekļuvi Human Resources programmai Microsoft Teams jūsu organ
 [Lejupielāde un instalēšana Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams palīdzības centrs](https://support.office.com/teams)</br>
 [Programma Human Resources programmā Teams](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

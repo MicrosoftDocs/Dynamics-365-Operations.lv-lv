@@ -78,3 +78,6 @@ Piekļūstiet BOM Designer ar pakalpojumu objektu relācijas palīdzību.
 
 Ja pakalpojumu līgumam tiek automātiski izveidoti pakalpojuma pasūtījumi, tad pakalpojumu objektu relācijas līgumā tiek izveidotas arī pakalpojumu pasūtījumos.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

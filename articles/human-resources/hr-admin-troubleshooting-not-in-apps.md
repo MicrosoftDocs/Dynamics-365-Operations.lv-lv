@@ -55,3 +55,6 @@ Lietotājs ir jāpievieno lomai Vides veidotājs programmas Microsoft Power Apps
     ![Poga Sinhr.](media/get-more.png)
 
     Kad sinhronizācija ir pabeigta, Human Resources tiks parādīta sākumlapā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -193,3 +193,6 @@ Ieņēmumu atzīšanu var izmantot arī pārdošanas pasūtījumiem, kas tiek iz
 
 - **Atliktie rēķina ieņēmumi** (sadaļā **Ieņēmumu konti**) — ievadiet ieņēmumu cenas galveno kontu, kas iegrāmato atliktajos ieņēmumos (nevis ieņēmumos). Ieņēmumu cena tiek atlikta, ja pārdošanas pasūtījuma rindai ir ieņēmumu grafiks.
 - **Atliktās izmaksas** (sadaļā **Izmaksu konti**) — ievadiet pārdoto preču pašizmaksas summas galveno kontu, kas iegrāmato atliktajā pārdoto preču pašizmaksā, ja arī ieņēmumi tiek atlikti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

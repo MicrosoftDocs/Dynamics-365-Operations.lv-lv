@@ -87,3 +87,6 @@ Iespējams, ka reizēm ir jāanulē pabeigta krājumu slēgšana, lai atgrieztu 
 > [!NOTE] 
 > Vēlreiz atvērt var tikai pēdējo slēgto krājumu periodu. Lai atsauktu vecāku krājumu slēgšanu, pa vienai ir jāatsauc visas turpmākās krājumu slēgšanas, sākot ar pēdējo slēgšanu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

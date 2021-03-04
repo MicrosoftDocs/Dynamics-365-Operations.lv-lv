@@ -70,3 +70,6 @@ Piemēram, var definēt budžeta veidošanas veicēju, to, kam tiek veidots bud�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

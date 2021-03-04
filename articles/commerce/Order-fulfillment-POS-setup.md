@@ -131,3 +131,6 @@ Pasūtījumu izpilde pārdošanas punktā ietver filtrēšanu, lai palīdzētu l
 - Veidošanas datums
 - Piegādes datums
 - Saņemšanas datums
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

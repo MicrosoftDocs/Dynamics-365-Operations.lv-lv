@@ -103,3 +103,6 @@ Parasti apakšuzņēmēja resursu grupas atrašanās vieta un izvades noliktava 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

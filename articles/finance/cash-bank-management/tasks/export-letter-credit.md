@@ -140,3 +140,6 @@ Pirms šīs procedūras izpildiet procedūru Bankas iestāžu iestatīšana un m
 3. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
     * Pārbaudiet: Sūtījuma statuss = Maksājums saņemts un bilances summa = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

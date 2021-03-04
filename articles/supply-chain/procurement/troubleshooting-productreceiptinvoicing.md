@@ -110,3 +110,6 @@ Nākamajā procedūrā ir parādīts viens šīs problēmas atveides veids.
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Tas ir atkarīgs no rēķinu un rēķinu grupu parametru iestatījumiem. Lai iegūtu papildinformāciju, skatiet šo emuāra ierakstu: [Pirkšanas izmaksu un krājumu izmaiņu uzskaite](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

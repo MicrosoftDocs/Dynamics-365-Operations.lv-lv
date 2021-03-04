@@ -64,3 +64,6 @@ Varat arī izveidot uzturēšanas speciālistu grupas un saistīt uzturēšanas 
 6. Ja resursu grupai ir jābūt saistītai ar atlasīto uzturēšanas speciālistu grupu, atlasiet **Kopēt no resursu grupas**. Laukā **Grupa** atlasiet resursu grupu, no kuras kopēt kalendāra iestatījumus. Pēc tam laukā **Nodarbināto grupa** atlasiet nodarbināto grupu, uz kuru kopēt resursu grupas kalendāra iestatījumus. Šī darbība ir būtiska tikai tad, ja vēlaties, lai uzturēšanas speciālisti darba pasūtījuma plānošanas laikā izmanto kalendāru, kas ir saistīts ar resursu (darba centru).
 
     Kopsavilkuma cilne **Detalizēta informācija** rāda to uzturēšanas speciālistu skaitu, kuri ir iestatīti atlasītajā uzturēšanas speciālistu grupā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

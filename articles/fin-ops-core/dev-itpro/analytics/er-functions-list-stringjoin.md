@@ -63,3 +63,6 @@ Ja `SPLIT("abc" , 1)` ievadāt kā datu avotu **DS**, izteiksme `STRINGJOIN (DS,
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

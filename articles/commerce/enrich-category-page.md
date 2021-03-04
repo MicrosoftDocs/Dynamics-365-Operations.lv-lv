@@ -65,3 +65,6 @@ Lai papildinātu kategorijas lapu, veiciet tālāk minētās darbības.
 [Preces lapas papildināšana](enrich-product-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

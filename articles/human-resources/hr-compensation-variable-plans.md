@@ -99,3 +99,6 @@ Vērtības **Organizatoriskās prioritātes** tiek izmantotas, lai darbinieka at
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

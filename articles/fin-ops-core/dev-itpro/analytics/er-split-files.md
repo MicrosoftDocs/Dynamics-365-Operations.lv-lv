@@ -47,3 +47,6 @@ Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevuma ceļvedi **ER XML
 [Elektronisko pārskatu (ER) galamērķi](electronic-reporting-destinations.md)
 
 [Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

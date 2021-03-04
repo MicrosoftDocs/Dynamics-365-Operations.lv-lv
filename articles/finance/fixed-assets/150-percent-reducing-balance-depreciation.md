@@ -88,3 +88,6 @@ Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietoša
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

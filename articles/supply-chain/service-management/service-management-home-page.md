@@ -71,3 +71,6 @@ Pakalpojumu pārvaldību var integrēt ar šādiem moduļiem:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

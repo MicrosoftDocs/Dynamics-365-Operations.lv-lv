@@ -60,3 +60,6 @@ Ja ir piedāvātas vismaz vienas izmaiņas, darbību rūtī tiek rādītas divas
     Lapas statuss tiek mainīts uz **Izmaiņas, kas gaida apstiprinājumu**.
 
 Darbplūsma atbilst programmas standarta darbplūsmu procesam. Apstiprinātājs tiek virzīts uz lapu **Debitors**, kurā var pārskatīt izmaiņas lapā **Piedāvātās izmaiņas** un pēc tam atlasīt **Darbplūsma \> Apstiprināt**, lai apstiprinātu darbplūsmu. Kad apstiprināšana ir pilnībā pabeigta, lauki tiek atjaunināti atbilstoši jūsu piedāvātajām vērtībām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Lai atvieglotu izmaksu objekta dimensijas dalībnieku importēšanu, izmantojiet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

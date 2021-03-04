@@ -49,3 +49,6 @@ Jūs varat atcelt atgriešanas pasūtījumu, nevis to dzēst, kad vēlaties sagl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

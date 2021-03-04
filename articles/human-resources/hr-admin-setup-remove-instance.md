@@ -85,3 +85,6 @@ Lai atjaunotu vidi:
 
 > [!Warning]
 > Power Apps vides tiek saglabātas tikai septiņas dienas pēc to dzēšanas. Jums ir jāatjauno vide septiņu dienu laikā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

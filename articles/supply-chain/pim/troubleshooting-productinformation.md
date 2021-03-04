@@ -152,3 +152,6 @@ Ja preces variants jau ir izlaists uzņēmumā A, un jūs mēģināt to izlaist 
 Poga **Jauns** lapā **Izlaistās preces varianti** izveido variantu un izlaiž to uzņēmuma kontekstā. Ja variants jau ir izveidots, nevar izmantot pogu **Jauns**, lai to izlaistu citā uzņēmumā.
 
 Lai labotu problēmu, atveriet lapu **Preču šablons** un atlasiet **Izlaistā prece**, lai izlaistu esošo variantu vēlamajā uzņēmumā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

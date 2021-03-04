@@ -123,3 +123,6 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 
 > [!NOTE]
 > Tiek importēts tas pats fails, jo formāta dizainā tiek pieņemts, ka elementam 'document' atribūts 'id' ir neobligāts.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

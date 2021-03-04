@@ -119,3 +119,6 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu 'Sistēmas administrators' vai 'E
 23. Noklikšķiniet uz Labi.
     * Pārskatiet izveidoto izvadi. Izvade ir izveidota kā Word dokuments ar iegultiem attēliem, kuros redzams uzņēmuma logotips, pilnvarotas personas paraksts un atlasītais ūdenszīmes teksts.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

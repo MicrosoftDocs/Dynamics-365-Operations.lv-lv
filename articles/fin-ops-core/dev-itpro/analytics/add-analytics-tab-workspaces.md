@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Būla vērtība, kas norāda, vai filtra rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**).     |
 | showNavPane      | Būla vērtība, kas norāda, vai navigācijas rūts jārāda (**Patiess**) vai jāpaslēpj (**Aplams**). |
 | defaultFilters   | Power BI pārskata noklusējuma filtri.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

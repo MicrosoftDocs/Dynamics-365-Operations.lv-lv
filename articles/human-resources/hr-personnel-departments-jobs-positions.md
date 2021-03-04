@@ -165,3 +165,6 @@ Varat modificēt iepriekš esošajā tabulā ietverto informāciju par amatu vai
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

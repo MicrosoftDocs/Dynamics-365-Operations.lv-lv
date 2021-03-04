@@ -55,3 +55,6 @@ ms.locfileid: "4432740"
     * Atlasiet vienu darbu.  
     * Ņemiet vērā! Kanban darba statuss tiek atgriezts uz Plānots, par ko norāda tukša Kanban ikona.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

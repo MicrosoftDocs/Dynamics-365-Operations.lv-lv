@@ -73,3 +73,6 @@ ms.locfileid: "4433148"
 9. Laukā **Pārvadājumu ilguma noteikšanas programma** atlasiet opciju no nolaižamās izvēlnes.
 10. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Koka struktūras augšējais zars atspoguļo atlasītā krājuma un partijas rī
 9. Noklikšķiniet uz vienuma **Nosūtītie pārdošanas pasūtījumi**.
 10. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Iestatiet **Iespējot** uz **Jā**, lai izmantotu savu ER konfigurāciju datu p
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

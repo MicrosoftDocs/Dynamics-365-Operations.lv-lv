@@ -99,3 +99,6 @@ Atveriet šo dokumentu programmā Word un veiciet tālāk norādītās darbības
 16. Noklikšķiniet uz **Labi**.
 17. Noklikšķiniet uz **Labi**. Analizējiet ģenerēto izvadi. Ņemiet vērā, ka izveidotā izvade tiek rādīta formātā Word, un tā ietver detalizētu informāciju par apstrādātajiem maksājumiem.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

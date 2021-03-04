@@ -59,3 +59,6 @@ ms.locfileid: "4414108"
 24. Noklikšķiniet uz cilnes Kategorijas cenu kārtulas.
     * Kanāla kategorijas cenu noteikšanas noteikumi būs redzami šajā sarakstā.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

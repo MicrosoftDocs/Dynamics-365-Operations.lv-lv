@@ -64,3 +64,6 @@ Lapu Virsgrāmatas kalendārs varat izmantot, lai apskatītu detalizētu inform�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Veiciet šīs darbības, lai pārvietotu pakalpojuma pasūtījumu uz nākamo pos
 4.  Veidlapā **Mainīt pakalpojuma posmu** atlasiet atbilstošo posmu.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

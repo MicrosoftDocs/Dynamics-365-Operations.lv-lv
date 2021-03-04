@@ -62,3 +62,6 @@ ms.locfileid: "4432973"
     * Ņemiet vērā, ka abi darbi tiek pievienoti izvēlētajam periodam.  
     * Sadaļā Perioda noslodze varat redzēt katra perioda slodzi. Laukā Patēriņš parādīts šī perioda plānotais patēriņš. Ja plānotais patēriņš ir lielāks par šajā periodā pieejamo noslodzi, tiks atlasīts pārslodzes patēriņš.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

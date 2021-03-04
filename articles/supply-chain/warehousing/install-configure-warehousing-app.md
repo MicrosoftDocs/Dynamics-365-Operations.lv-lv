@@ -274,3 +274,6 @@ Gadījumā, ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces
 1. Pārliecinieties, vai lietojumprogrammas klienta ID atbilst klienta ID, kuru pierakstījāt 2. darbībā.
 1. Rīkjoslā atlasiet **Dzēst**.
 1. Parādītajā apstiprinājuma ziņojumā atlasiet **Jā**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

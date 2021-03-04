@@ -54,3 +54,6 @@ ms.locfileid: "4432638"
 2. Sarakstā noklikšķiniet uz saites atlasītajā rindā. Noklikšķiniet uz StaticPlan saites. Jums jābūt uzņēmumā USMF.  
 3. Klikšķiniet uz **Plānotie pasūtījumi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

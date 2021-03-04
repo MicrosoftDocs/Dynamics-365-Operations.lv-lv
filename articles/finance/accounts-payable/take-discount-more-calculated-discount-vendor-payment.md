@@ -51,3 +51,6 @@ Eiprila iegrāmato maksājumu žurnālu. Rēķins tiek pilnībā nosegts, veicot
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Pamatojumu kodi ir nav obligāti. Varat izlemt, vai pieprasīt pamatojuma kodu, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

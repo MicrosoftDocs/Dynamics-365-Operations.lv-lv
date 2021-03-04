@@ -163,3 +163,6 @@ Tagad jūsu CDN ir jābūt pareizi konfigurētam, lai to varētu izmantot kopā 
 [Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

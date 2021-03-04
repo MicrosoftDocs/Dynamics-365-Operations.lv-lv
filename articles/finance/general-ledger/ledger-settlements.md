@@ -75,3 +75,6 @@ Var anulēt nosegšanu, kas tika veikta kļūdaini.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Transakciju sarakstā ietvertā kontu saraksta atjaunināšana
 
 Atlasiet **Virsgrāmatas nosegšanas konti**, lai atvērtu dialoglodziņu, kur varat rediģēt transakciju sarakstā ietvertos kontus. Atlasiet **Jauns**, lai šim sarakstam pievienotu jaunus kontus. Šis saraksts tiek izmantots, lai filtrētu lapā **Virsgrāmatas darbību sasaistīšana** redzamo transakciju sarakstu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

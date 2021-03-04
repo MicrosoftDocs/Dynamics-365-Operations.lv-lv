@@ -42,3 +42,6 @@ Apakšgrāmatas partiju pārsūtīšanai ir pieejamas šādas opcijas.
 Versijā 10.0.8 tika veikti uzlabojumi, lai uzlabotu asinhronās opcijas veiktspēju. Šis līdzeklis ir iespējots zem līdzekļa nosaukuma **Apakšgrāmatas pārsūtīšana uz Virsgrāmatas veiktspējas optimizāciju**. 
  
 Šī funkcionalitāte uzlabo datu pārsūtīšanu no apakšgrāmatas uz virsgrāmatu. Tas ļauj procesam būt efektīvākam, un tas grupē kopā mazāku darbību kopas, ko pārsūtīt. Tas ļauj efektīvāk izmantot pakešu serveri. Šai funkcionalitātei nepieciešams, ka pakešu serveris ir iestatīts, tiešsaistē un funkcionējošs, lai asinhronās pārsūtīšanas opcija darbotos. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ Pogas grupā **Projekts** Darbību rūts cilnē **Darba pasūtījums** ir saist�
 >[!NOTE]
 >Lai iekļautu darba pasūtījumam izveidotās prognozes, darbinot vispārējo plānošanu, izmantojiet prognozes modeli, kas ir atlasīts lapā **Līdzekļu pārvaldības parametri**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -192,3 +192,6 @@ Atlasīta darba statuss un jebkuru notikumu Kanban piesaistīto darbu statuss no
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

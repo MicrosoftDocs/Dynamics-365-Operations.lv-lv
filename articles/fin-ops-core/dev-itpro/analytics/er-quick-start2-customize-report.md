@@ -514,3 +514,6 @@ Lai pielāgojumam sāktu izmantot jauno versijas 3.3 formāta funkcionalitāti *
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [ER konfigurāciju lejupielāde no Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ER konfigurāciju lejupielāde no konfigurācijas pakalpojuma globālā repozitorija](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

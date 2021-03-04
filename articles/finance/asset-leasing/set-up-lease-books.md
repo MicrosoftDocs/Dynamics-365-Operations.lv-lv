@@ -53,3 +53,6 @@ Lai izveidotu nomas grāmatu, izpildiet tālāk aprakstītās darbības.
     | Īstermiņa slieksnis                     | Ievadiet mēnešu skaitu, ko izmantot kā slieksni īstermiņa nomām. Ja nomas termiņš ir mazāks par vai vienāds ar šeit ievadīto mēnešu skaitu, sistēma klasificēs nomu kā īstermiņa nomu, un tiks piemērota atliktā nomas maksa. |
     | Nelielas vērtības slieksnis                      | Ievadiet summu, ko izmantot kā nelielas vērtības nomas robežvērtību. Ja līdzekļa patiesā vērtība ir mazāka par vai vienāda ar šeit ievadīto vērtību, sistēma klasificēs nomu kā nelielas vērtības nomu, un tiks piemērota atliktā nomas maksa. |
     | Maksāt kreditoram                            | Iestatiet šo opciju kā **Jā**, lai atļautu grāmatot nomas maksājumus kā rēķinu kreditora kontā, kas norādīts katrā nomā. Kad nomas maksājums būs grāmatots, tiks kreditēts kreditora konts. Ja šī opcija ir iestatīta uz **Nē**, tā vietā tiks kreditēts konts, kas ir norādīts lapas **Nomas grāmatošanas parametri** grāmatošanas tipam **Nomas maksājums**. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

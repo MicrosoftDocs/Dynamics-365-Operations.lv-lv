@@ -113,3 +113,6 @@ Tālāk redzamajā attēlā parādīts debitoru konfigurācijas piemērs.
 [Kanālu apskats](channels-overview.md)
 
 [Uzstādīt kanālu priekšnosacījumus](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

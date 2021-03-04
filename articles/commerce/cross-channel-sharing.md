@@ -137,3 +137,6 @@ Tagad, izmantojot kanāla bāzes URL un dodoties uz šīs vietnes starpkanālu l
 [Dokumenta stāvokļi un dzīves cikls](document-states-overview.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

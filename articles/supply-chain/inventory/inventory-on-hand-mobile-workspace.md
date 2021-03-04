@@ -130,3 +130,6 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
     -   Pēc fiziskajiem krājumiem (Šajā skatā tiek rādīts kopējais daudzums.)
     -   Pēc rezervētajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts rezervētais daudzums.)
     -   Pēc pieejamajiem fiziskajiem krājumiem (Šajā skatā tiek rādīts pieejamais daudzums, kas nav rezervēts.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

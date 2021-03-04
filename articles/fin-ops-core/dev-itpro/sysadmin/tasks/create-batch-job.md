@@ -54,3 +54,6 @@ Pakešuzdevums ir uzdevumu grupa, kas tiek iesniegta Programmas objektu servera 
     - **Aizturēt**: atlasiet pakešuzdevuma statusu **aizturēt**, lai tas tiktu aizturēts no pakešuzdevumu plānotāja. Līdzvērtīgs funkcijai *apturēt*.
     - **Gaida**: atlasiet pakešuzdevuma statusu **gaida**, lai tas gaidītu rindā, līdz to izvēlēsies pakešuzdevumu plānotājs. Līdzvērtīgs funkcijai *sākt*.
 5. Noklikšķiniet uz **Labi**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

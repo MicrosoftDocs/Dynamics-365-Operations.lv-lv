@@ -66,3 +66,6 @@ Satura pakotnes Atlīdzība un atvieglojumi pārskatu aizpildīšanai tiek izman
 | Workforce\_WorkerName             | Vārds, uzvārds un pilnais vārds                                                                       | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workorce\_WorkerTrend |
 | Workforce\_WorkerTitle            | Nosaukums un darba stāža datums                                                                                   | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workorce\_WorkerTrend |
 | Workorce\_WorkerTrend            | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Darbaspēks\_Uzņēmums, Darbaspēks\_Atlīdzība, Darbaspēks\_GeographicLocation, Darbaspēks\_Veiktspēja, Darbaspēks\_WorkerName, Darbaspēks\_ReportsToWorkerName, Darbaspēks\_CalendarOffset, Darbaspēks\_Datums, Darbaspēks\_WorkerTitle, Darbaspēks\_Demogrāfiskie dati, Darbaspēks\_Nodarbinātība, Darbaspēks\_Darbs, Darbaspēks\_WorkerBenefit |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

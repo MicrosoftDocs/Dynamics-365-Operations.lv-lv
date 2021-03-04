@@ -46,3 +46,6 @@ Izmaiņas konfigurācijas noteikumos neietekmē esošās konfigurācijas. Taču 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

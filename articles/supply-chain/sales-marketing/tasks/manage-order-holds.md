@@ -70,3 +70,6 @@ ms.locfileid: "4432872"
     - Darbība **Notīrīt un iesniegt** ir spēkā tikai tad, ja izmantojat zvanu centra funkcionalitāti.  
 8. Noklikšķiniet uz **Dzēst aizturēšanas**. Tagad aizturēšana ir dzēsta no pasūtījuma un noņemta no saraksta Aktīvās aizturēšanas. Lai skatītu visas aizturēšanas vai to apakškopu pēc noteikta statusa, mainiet vērtību laukā Rādīt.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

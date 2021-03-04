@@ -74,3 +74,6 @@ Nākamajā diagrammā ir redzami pamata komponenti, kas palīdz atbalstīt tīkl
 [![pakalpojuma-komponenti-drukāšanai-tīklā\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Ņemiet vērā, ka vienu printeri var reģistrēt vairākiem dokumentu maršrutēšanas aģentiem. Lai atrisinātu printera preferences, viesotais pakalpojums izmanto tīkla ceļu, kas unikāli identificē katru tīkla printeri. Līdz ar to pat gadījumos, kad printeris ir reģistrēts vairākiem klientiem, programmu pieejamo printeru sarakstā tas tiek rādīts kā viena atlase.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

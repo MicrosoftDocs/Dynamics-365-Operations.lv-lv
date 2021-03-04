@@ -72,3 +72,6 @@ Papildiniet kanālu, pievienojot kanāla un preces īpašības. Lai definētu ī
 33. Noklikšķiniet uz OK.
 34. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Izmaksu sadales kārtulas tiek izmantotas, lai sadalītu izmaksas, kas ir finans
 5. Laukā Izmaksu vadības ierīce ievadiet vai atlasiet kādu vērtību.
 6. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

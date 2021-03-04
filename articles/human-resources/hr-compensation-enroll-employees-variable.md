@@ -41,3 +41,6 @@ Atlīdzību un atvieglojumu vadītājs var reģistrēt darbiniekus mainīgās at
 8. Pārslēdziet sadaļas Organizatoriskās prioritātes paplašinājumu.
     * Ja jāņem vērā darbinieka veiktspēja, kas novērtēta saistībā citu struktūrvienību vai nodaļu, kas neatbilst darbinieka amatam piešķirtajai, nodaļu var ignorēt. Procentu kolonnas summai jābūt 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Lietojot ārējos avotus, piemēram, DMF, lai skatītu vai autorizētu datus, ir
 
 [IDatuma un laika dati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Lietotāja izvēlētās laika joslas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

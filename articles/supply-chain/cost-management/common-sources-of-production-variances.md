@@ -63,3 +63,6 @@ Tālāk norādīti daži tipiski **ražošanas aizstāšanas** noviržu iemesli.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

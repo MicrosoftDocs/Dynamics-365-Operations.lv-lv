@@ -56,3 +56,6 @@ Varat saistīt infokodus, lai pēc viena infokoda aktivizēšanas uzreiz tiktu a
 **2. piemērs: infokodu piesaistīšana infokodu grupām**
 
 Kad pārdodat noteiktas preces, piemēram, mobilās ierīces, jūs parasti vēlaties iegūt noteiktu informācijas kopumu, piemēram, tālruņa numuru, mobilās ierīces identifikatoru (MEID) un sērijas numuru. Tomēr vēlaties arī planšetdatoriem iegūt citādu informāciju nekā mobilajam tālrunim. Varat iestatīt informācijas kodu grupu, kas ietver uzvednes par tālruņa numuru, MEID un sērijas numuru, un pēc tam saistīt šo informācijas kodu grupu ar atsevišķu informācijas kodu. Kad tiek aktivizēts precei raksturīgais infokods, šo infokodu grupu var aktivizēt kā nākamo, ļaujot jums iegūt kopējos datus bez nepieciešamības definēt vairākas saistītu infokodu kopas katrai ierīcei.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

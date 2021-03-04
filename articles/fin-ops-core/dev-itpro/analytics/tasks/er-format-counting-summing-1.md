@@ -56,3 +56,6 @@ Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas
 8. Kokā struktūrā izvērsiet 'Intrastat model'.
 9. Koka struktūrā atlasiet 'Intrastat model\Intrastat (DE)'.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Ja nevarat piekļūt lapām, kas tiek izmantotas šajā rakstā minēto uzdevumu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

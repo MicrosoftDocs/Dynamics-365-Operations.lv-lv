@@ -112,3 +112,6 @@ Lai pārskatītu žurnāla darbplūsmas vēsturi:
 1. Navigācijas rūtī izvērsiet **Krājumu pārvaldība \> Žurnāla ieraksti \> Vienumi** un pēc tam atlasiet krājumu žurnāla tipu.
 1. Atveriet attiecīgo žurnālu.
 1. Darbību rūtī atlasiet pogu **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu. Atlasiet **Darbplūsmas vēsture**. Papildinformācijai skatiet [Skatīt darbplūsmas vēsturi](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

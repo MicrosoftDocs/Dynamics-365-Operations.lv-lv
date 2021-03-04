@@ -87,3 +87,6 @@ Tālāk minētajā piemērā ir parādīts, kā modificēt sākumlapu, mainot vi
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

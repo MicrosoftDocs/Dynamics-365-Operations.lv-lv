@@ -54,3 +54,6 @@ Varat arī ievadīt apstiprinājuma ziņojumu, kas tiek parādīts, kad vednis i
 4.  Atveriet cilni **Valsts/reģioni**, lai atlasītu valsti/reģionu, kuriem šī konfigurācija ir jāizmanto.
 5.  Pabeidziet konfigurēšanu, ievērojot vadlīnijas par noklusējuma konfigurāciju.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4433134"
 6. Atlasiet **Saglabāt**.
 7. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

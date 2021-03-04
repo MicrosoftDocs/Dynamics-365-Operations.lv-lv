@@ -107,3 +107,6 @@ Iestatot kontu struktūras, varat ievērot dažas labākās prakses. Taču tās 
 Kad esat apmierināts ar jaunajiem iestatījumiem vai izmaiņām konta struktūrā, tā ir jāaktivizē. Ja konta struktūra ir piešķirta kādai virsgrāmatai, šī aktivizēšana var būt ilgstošs process, jo visas negrāmatotās transakcijas sistēmā ir jāsinhronizē ar jauno struktūru. Konta struktūras izmaiņām nav ietekmes uz grāmatotajām transakcijām.
 
 Papildinformāciju skatiet tēmās [Kontu plānu plānošana](plan-chart-of-accounts.md), [Finanšu dimensijas](financial-dimensions.md) un [Konta un dimensiju kombināciju ievade (segmentētu ierakstu kontrole)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

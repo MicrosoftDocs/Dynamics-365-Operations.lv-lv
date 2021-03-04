@@ -49,3 +49,6 @@ Papildinformāciju skatiet tēmā [Pozitīvā maksājuma failu iestatīšana un 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

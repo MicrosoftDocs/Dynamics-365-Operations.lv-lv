@@ -66,3 +66,6 @@ Personāla atlases projekti palīdz pārvaldīt personāla atlases procesu. Katr
     * Statuss Sākts nozīmē, ka projekts ir gatavs saņemt pieteikumus.  
 33. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Ar šīm izmaiņām lauka **Darbību pieprasa** noklusējuma vērtība ir lietot
 ### <a name="ideas-portal-updated"></a>Atjaunināts ideju portāls
 Programmas saites, lai iesniegtu ideju saistībā ar programmu Talent, ir atjauninātas uz jauno ideju portālu. Visas idejas, kas ievadītas vecajā portālā, ir migrētas, līdz ar to visas jūsu lieliskās idejas joprojām ir pieejamas, un citas personas var par tām balsot.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

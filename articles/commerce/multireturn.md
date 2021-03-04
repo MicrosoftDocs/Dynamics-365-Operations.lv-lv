@@ -54,3 +54,6 @@ Kad pasūtījumi ir atlasīti, tiek parādīts saraksts ar visām atgriežamajā
 
 Ja pasūtījums tiek pilnībā atgriezts, debitoram atgriezto nodokļu summa būs vienāda ar sākotnēji iekasēto nodokļu summu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

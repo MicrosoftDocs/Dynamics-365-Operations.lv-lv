@@ -73,3 +73,6 @@ Lai papildinātu preces lapu, veiciet tālāk minētās darbības.
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

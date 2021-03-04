@@ -67,3 +67,6 @@ Ja darbvieta **Darbinieku pašapkalpošanās** ir atlasīta kā lietotāja pirm�
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Darba attiecību pārtraukšanas iemesla kods atjaunina amatu piešķires ierakstu
 Darba attiecību pārtraukšanas iemesla kods tagad atjaunina amata piešķiri, pārtraucot darba saistības ar darbinieku un beidzot amata piešķiri. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

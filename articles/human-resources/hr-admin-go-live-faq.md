@@ -99,3 +99,6 @@ Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tē
  ## <a name="see-also"></a>Skatiet arī
 
  [Sagatavošana publicēšanai](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

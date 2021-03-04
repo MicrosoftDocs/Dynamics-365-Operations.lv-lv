@@ -54,3 +54,6 @@ Saskaņā ar Imigrācijas reformu un kontroles aktu (Immigration Reform and Cont
 22. Laukā Dokumenta numurs ievadiet vai atlasiet kādu vērtību.
 23. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

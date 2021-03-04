@@ -49,3 +49,6 @@ Tēmas šajā sadaļā sniedz apskatu par klientu apkalpošanas biznesa procesu 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

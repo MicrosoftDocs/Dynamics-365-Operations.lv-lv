@@ -57,3 +57,6 @@ Lietotājiem, kas manuāli ir piesaistīti drošības lomām, administratoram ar
 2. Shēmā atlasiet lomu un izvēlnē **Lomai piešķirtie lietotāji** atlasiet **Manuāli piešķirt/izslēgt lietotājus**.
 4. Sadaļā **Piešķirt lietotājus vai izslēgt lietotājus no lomas** lietotājiem, kuriem nav piešķirta loma, tiek uzskaitīti ar **Piešķires režīmu** iestatītu uz **Nav**. Atlasiet vienu vai vairākus lietotājus, kuriem jāpiešķir loma.
 5. Sadaļā **Darbību rūts** atlasiet **Piešķirt lomu**. **Piešķires režīms** tiek atjaunināts uz **Manuāli**, un lietotājiem tagad ir piešķirta jauna loma.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

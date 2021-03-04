@@ -61,3 +61,6 @@ ms.locfileid: "4445668"
 29. **Darbību rūtī** noklikšķiniet uz **Aktivizēt**.
 30. Noklikšķiniet uz **Aktivizēt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

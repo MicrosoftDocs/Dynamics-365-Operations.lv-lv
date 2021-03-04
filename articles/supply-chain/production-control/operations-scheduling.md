@@ -84,3 +84,6 @@ Ja strādājat ar ierobežotiem materiāliem, plānošana ir atkarīga arī no r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

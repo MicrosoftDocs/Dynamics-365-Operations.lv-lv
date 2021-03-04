@@ -74,3 +74,6 @@ Pēc atjauninātā galvenes fragmenta publicēšanas visās vietņu lapās, kur�
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

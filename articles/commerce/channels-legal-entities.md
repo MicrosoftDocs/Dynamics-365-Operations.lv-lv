@@ -86,3 +86,6 @@ Tālāk redzamajā attēlā parādīts juridiskas personas informācijas piemēr
 [Kanālu apskats](channels-overview.md)
 
 [Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

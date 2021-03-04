@@ -41,3 +41,6 @@ Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalīt
     + Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus. Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns. Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz **Vairāk opciju > Detalizēti**.   
 6. Ir arī iespēja mainīt **Operatīvās struktūrvienības numuru** pēc vajadzības. Ņemiet vērā, ka šis numurs ir unikāls identifikators atbilstīgajam **Puses** ierakstam un nevar būt tāds pats kā cita operatīva struktūrvienība.
 7. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

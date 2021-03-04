@@ -140,3 +140,6 @@ Lapā **Kreditoru darbības** Eiprila redz, ka jaunā bilance ir 200,00.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

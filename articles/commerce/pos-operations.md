@@ -209,3 +209,6 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 § Ja POS ir bezsaistē, atgriešanai var atsaukt tikai pašreizējā bezsaistes datu bāzē saglabātās transakcijas.
 
 \*\* Ja POS ir bezsaistē, žurnālā tiek rādītas tikai pašreizējā bezsaistes kanāla datu bāzē saglabātās transakcijas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

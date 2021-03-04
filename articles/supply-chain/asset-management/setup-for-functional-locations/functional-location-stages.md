@@ -63,3 +63,6 @@ Kad esat izveidojis dzīves cikla stāvokļus, kas nepieciešami jūsu funkcion�
 5. Ja vēlaties atlasīt visus modelim pieejamos stāvokļus, noklikšķiniet uz pogas ![atlasīt visus pieejamos posmus](media/03-setup-for-functional-locations.png). Visi stāvokļi tiek nosūtīti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
 6. Ja vēlaties modelima noņemt atlasīto stāvokli, atlasiet stāvokli sadaļā **Atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet pogu ![bultiņa atpakaļ](media/04-setup-for-functional-locations.png).
 7. Atlasiet **Dzīves cikla stāvokļa atjauninājumi**, lai definētu, kuri dzīves cikla stāvokļi var sekot atlasītajam stāvoklim.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

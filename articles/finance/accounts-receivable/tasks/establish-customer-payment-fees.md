@@ -51,3 +51,6 @@ Izveidojiet maksāšanas papildmaksas debitoru maksājumiem.
 18. Laukā **Maksas valūta** atlasiet maksas valūtu. Šī ir valūta, kurā tiks izveidota papildmaksa.  
 19. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

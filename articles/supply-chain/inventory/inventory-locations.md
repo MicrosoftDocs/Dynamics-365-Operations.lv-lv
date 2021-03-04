@@ -66,3 +66,6 @@ Varat kopēt novietojumus no vienas noliktavas uz citu, kā arī izveidot noviet
 --------
 
 [Jauna noliktavas izkārtojuma izveide](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

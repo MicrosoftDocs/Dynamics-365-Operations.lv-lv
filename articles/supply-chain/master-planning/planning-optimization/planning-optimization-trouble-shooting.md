@@ -75,3 +75,6 @@ Tas ir saistīts ar nepabeigtu funkciju, kas tiek plānota kā daļa no ražoša
 [Darba sākšana ar plānošanas optimizāciju](get-started.md)
 
 [Plānošanas optimizācijas atbilstības analīze](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

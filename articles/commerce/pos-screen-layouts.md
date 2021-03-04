@@ -205,3 +205,6 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

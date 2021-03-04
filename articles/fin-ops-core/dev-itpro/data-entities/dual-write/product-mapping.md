@@ -223,3 +223,6 @@ Pēc tam, kad sinhronizācija ir iespējota un notiek, preces no Finance and Ope
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Preču datu migrēšana no citām Dynamics 365 programmām uz Finance and Operations
 
 Ja citās Dynamics 365 programmās ir preces, kas nav iekļautas Finance and Operations, administrators var vispirms izmantot **EcoResReleasedProductCreationV2Entity**, lai importētu šīs preces Finance and Operations. Un, otrkārt, saskaņot preču datus no Finance and Operations un citām Dynamics 365 programmām, kā aprakstīts iepriekš. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

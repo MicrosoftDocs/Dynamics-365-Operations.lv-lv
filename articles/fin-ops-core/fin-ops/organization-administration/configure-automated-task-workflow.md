@@ -110,3 +110,6 @@ Varat nosūtīt lietotājiem paziņojumus, kad automatizētais uzdevums ir palai
     </table>
 
 8. Atkārtojiet 3.–7. darbību katram notikumam, ko atlasījāt 2. darbībā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

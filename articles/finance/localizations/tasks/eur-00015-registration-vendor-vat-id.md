@@ -64,3 +64,6 @@ Lai veiktu šo procedūru, jums ir jāiestata PVN ID. Šī procedūra attiecas u
 25. Laukā PVN reģistrācijas numurs ievadiet vai atlasiet kādu vērtību.
 26. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

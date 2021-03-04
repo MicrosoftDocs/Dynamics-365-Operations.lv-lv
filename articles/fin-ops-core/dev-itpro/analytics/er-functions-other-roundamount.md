@@ -91,3 +91,6 @@ Ja **model.RoundOff** parametrs ir iestatīts uz **RoundOffType.RoundUp**, `ROUN
 [Citas (biznesa jomai specifiskas) funkcijas](er-functions-category-other.md)
 
 [Matemātiskās funkcijas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

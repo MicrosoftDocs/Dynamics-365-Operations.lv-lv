@@ -101,3 +101,6 @@ Ja tas pats pārskats debitoram **Litware Retail** tiek apstrādāts 2015. gada
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Teksta funkcijas](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

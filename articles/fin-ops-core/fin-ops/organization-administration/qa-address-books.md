@@ -67,3 +67,6 @@ Pušu ierakstus varat ievadīt globālajā adrešu grāmatā vai atbilstošajā 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Vai varu tulkot adreses informāciju pušu ierakstiem?
 
 Varat iestatīt adreses informācijas tulkojumus tā, lai jūsu programmā informācija tiktu rādīta jūsu lietotāja valodā (sistēmas valodā), bet dokumentos, piemēram, pārdošanas pasūtījumos, tā tiktu rādīta citā valodā. Varat ievadīt tulkojumus valstu/reģionu nosaukumiem, adreses nolūkiem un nosaukumu/vārdu secībām. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs izveidojat pārdošanas pasūtījumu kādam debitoram Francijā. Šajā gadījumā programmā debitora ierakstu varat skatīt dāņu valodā, adreses informāciju drukātajā pārdošanas pasūtījumā varat rādīt franču valodā. Kad iestatāt tulkojumus, tulkojums jums ir jāievada katram vienumam sarakstā. Katrs vienums, kam neievadāt tulkojumu, tiks rādīts sistēmas valodā. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs sūtāt dokumentu debitoram Spānijā. Ja adreses informācijai neesat ievadījis tulkojumus Spāņu (ESP), šī informācija tiks rādīta dāņu valodā gan programmā, gan izdrukātajā dokumentā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

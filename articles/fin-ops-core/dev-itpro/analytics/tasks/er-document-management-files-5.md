@@ -96,3 +96,6 @@ Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmant
 7. Noklikšķiniet uz Labi.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka papildus rēķina ziņojumam XML formātā, viens fails tika izveidots katram pielikumam. Pielikumu faili tiek aizpildīti ar arhivētu izvadi binārā formātā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

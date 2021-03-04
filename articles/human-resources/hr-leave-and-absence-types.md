@@ -82,3 +82,6 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 - [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
 - [Pārtraukt atvaļinājumu](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

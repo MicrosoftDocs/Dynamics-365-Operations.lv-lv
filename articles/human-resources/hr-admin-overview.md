@@ -102,3 +102,5 @@ ms.locfileid: "4527865"
 - [Jaunumi un izmaiņas Human Resources](hr-admin-whats-new.md)
 - [Izstrādātāja ceļvedis](hr-developer-overview.md)
 - [Lietotāja ceļvedis](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

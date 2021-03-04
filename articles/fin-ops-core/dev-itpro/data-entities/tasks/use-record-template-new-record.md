@@ -35,3 +35,6 @@ ms.locfileid: "4685173"
 3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 4. Noklikšķiniet uz **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

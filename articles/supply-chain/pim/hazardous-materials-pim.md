@@ -61,3 +61,6 @@ Lai sāktu konfigurēt šo informāciju, izveidojiet noteikumu, ko varat izmanto
 ## <a name="warehouse-management"></a>Noliktavas vadība
 
 Kad krava ir sagatavota, var izdrukāt vairākus jaunus pārskatus. Šajos pārskatos izmanto informāciju, kas iestatīta preču informācijas pārvaldībā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

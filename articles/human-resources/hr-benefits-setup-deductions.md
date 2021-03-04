@@ -52,3 +52,6 @@ Izmantojiet ieturējumus Microsoft Dynamics 365 Human Resources, lai noteiktu, c
 4. Lai izsekotu un uzturētu izmaiņas atvieglojumu likmes iestatījumā, atlasiet **Darbības** un pēc tam atlasiet **Uzturēt versijas**.
 
 5. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

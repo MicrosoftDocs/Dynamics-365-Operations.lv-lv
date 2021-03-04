@@ -85,3 +85,6 @@ Lapā **Detalizēti pieprasījuma apjoma prognozes dati** var veikt arī manuāl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

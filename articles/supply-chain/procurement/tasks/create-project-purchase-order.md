@@ -48,3 +48,6 @@ ms.locfileid: "4433186"
     * Pārbaudiet, vai ir pieejamas pārdošanas un izmaksu cenas. Ja tās nav pieejamas, bet ir nepieciešamas, ievadiet informāciju.  
 14. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

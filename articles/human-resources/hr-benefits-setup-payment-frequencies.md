@@ -56,3 +56,6 @@ Pārveidošanas koeficienta lauki identificē pārveidošanas koeficientu no mak
    | **Stundas pārveidošanas koeficients** | Gada pārvēršanas koeficients maksājuma biežumam. Piemēram, gada konvertēšanas koeficients ikmēneša izmaksas biežumam ir: </br></br>(12 mēneša maksājumi / 2080 stundas) = 0.005769
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Laika logus varat izmantot, lai optimizētu pakalpojuma pasūtījumu rindu plān
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Laika logi](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

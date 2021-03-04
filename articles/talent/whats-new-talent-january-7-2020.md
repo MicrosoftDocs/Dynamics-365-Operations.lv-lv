@@ -53,3 +53,6 @@ ms.locfileid: "4461883"
 5. Iestatiet **Dzēšanas** atļauju uz Piešķirt.
 6. Atlasiet cilni **Nepublicētie objekti**.
 7. Atlasiet **Publicēt visus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

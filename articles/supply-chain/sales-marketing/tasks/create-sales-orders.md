@@ -68,3 +68,6 @@ Jūsu organizācijas pārdotās preces var tikt piedāvātas dažādos variantos
     Lapā **Kopsummas** tiek rādīta detalizēta informācija par visu pasūtījumu. Šī informācija ietver apakšsummas apjomu, kas ir visu rindas neto summu kopsumma, koriģēta atbilstoši beigu rindas atlaidēm, kopējā rēķina summa, kas ir apakšsummas apjoms, koriģēts atbilstoši beigu pasūtījuma līmeņa atlaidei, papildmaksas un PVN, debitora kredīta limita situācija un citas summas. Rēķina summa ir summa, kas tiks rādīta debitora rēķina dokumentā.  
     
 3. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

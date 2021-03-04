@@ -176,3 +176,6 @@ Lai turpinātu nodrošināšanas procesu un konfigurētu Commerce novērtējuma 
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

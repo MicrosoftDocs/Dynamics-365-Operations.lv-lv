@@ -110,3 +110,6 @@ Rēķinu žurnāls, kas tiek izveidots pēc grāmatošanas, neietver pamatelemen
 Svarīgi, lai rēķinu žurnālā nebūtu iekļauts komplekta pamatelements, jo visi procesi, kas tiek veikti pēc rēķina grāmatošanas, ir balstīti uz šo rēķinu žurnālu. Piemēram, ja izveidojat kredīta notu no darbības rūts cilnes **Pārdošana**, izveidotā kredīta nota ietvers komponenta krājumus, bet ne pamatelementu.
 
 [![Kredītnota, kas parāda komponentu krājumus, bet ne pamatelementu](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

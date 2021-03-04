@@ -94,3 +94,6 @@ Lai deaktivizētu noteiktu kārtulu novērtēšanu, atlasiet kārtulas ģenerēt
 [Kārtulu izveide optimizācijas padomniekam](./create-rules-optimization-advisor.md)
 
 [Optimizācijas padomnieks programmā Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

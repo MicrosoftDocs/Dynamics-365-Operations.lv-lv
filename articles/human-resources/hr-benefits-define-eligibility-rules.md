@@ -69,3 +69,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo ierakstu,
 10. Noklikšķiniet uz Saglabāt.
 11. Aizveriet formu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

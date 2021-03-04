@@ -78,3 +78,6 @@ ms.locfileid: "4419539"
 34. Atlasiet cilni **Pārskats**. Pārskatam pārvietojoties pa statusiem, darbinieks un vadītājs var pievienot komentārus katram mērķim vai kompetencei.  
 35. Atlasiet cilni **Apstiprināšanas**. Darbinieks un pārvaldnieks var apstiprināt pārskatu. Kad izpildītas visas apstiprināšanas, statuss tiek mainīts uz **Pabeigts** un vairāk izmaiņu nevar veikt.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

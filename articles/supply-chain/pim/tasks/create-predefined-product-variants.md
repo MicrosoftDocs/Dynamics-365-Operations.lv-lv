@@ -72,3 +72,6 @@ ms.locfileid: "4432778"
     * Jūs varat ģenerēt aprakstus visiem variantiem, pamatojoties uz preču dimensiju vērtību kombināciju. Apraksti nav obligāti.  
 5. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

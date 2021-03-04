@@ -207,3 +207,6 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

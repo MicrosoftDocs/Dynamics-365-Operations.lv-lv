@@ -70,3 +70,6 @@ Lai ģenerētu PVN XML failu, lapā **PVN maksājumi** atlasiet vienu vai vairā
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

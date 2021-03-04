@@ -100,3 +100,6 @@ Tālāk esošajā attēlā parādīts rezultāts pēc pielāgotā formāta palai
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

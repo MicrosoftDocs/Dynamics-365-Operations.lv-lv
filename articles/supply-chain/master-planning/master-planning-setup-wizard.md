@@ -209,3 +209,6 @@ Vednī Contoso Retailer tiek ievadītas šādas vērtības:
     - **Atbilde:** "Jā, kā definēts šajā vispārējā plānā." Tiek ievadīta **1 diena**.
 
     Contoso izmanto apstiprinātos pieprasījumus no saviem veikaliem, lai izveidotu plānotos pirkšanas pasūtījumus šo veikalu papildināšanai. Tā kā vispārējā plānošana tiek palaista katru dienu, plānošanā tiks iekļauti pieprasījumi no pēdējās dienas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

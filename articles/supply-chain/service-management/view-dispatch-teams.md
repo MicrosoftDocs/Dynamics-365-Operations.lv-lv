@@ -53,3 +53,6 @@ Informāciju par darbinieku piešķiršanu darba grupai skatiet rakstā [Ieteica
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

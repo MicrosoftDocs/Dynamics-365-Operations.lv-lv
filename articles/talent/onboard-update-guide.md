@@ -52,3 +52,6 @@ Onboard automātiski nosūtīs nesen nolīgtajam darbiniekam e-pasta ziņojumu, 
     ![[Pievienošanas veidnē veikto izmaiņu izstumšana visos no tās izveidotajos pievienošanas ceļvežos](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Izmaiņas būs redzamas nesen nolīgtajiem darbiniekiem, kas atvēr pievienošanas ceļvežus. Taču Onboard nenosūtīs e-pasta brīdinājumus nesen nolīgtajiem darbiniekiem, informējot, ka viņu pievienošanas ceļvedis ir mainījies. Lai tās viegli noteiktu, blakus katrai izmaiņai tiek parādīta sarkana atzīme **Jauns**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

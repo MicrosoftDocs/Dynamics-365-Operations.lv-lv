@@ -62,3 +62,6 @@ Ja līdzeklim ir saistītie pakārtotie līdzekļi, to var dzēst tikai tad, ja 
 
 > [!NOTE]
 > Ja nevarat dzēst līdzekli, izmantojot šo procedūru, vēl viens veids, kā rīkoties ar dzēšanu, ir iestatīt līdzekļa dzīves cikla stāvokli šim nolūkam. Piemēram, lapā **Līdzekļa dzīves cikla stāvokļi** varat iestatīt **Brāķis** vai **Dzēsts**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

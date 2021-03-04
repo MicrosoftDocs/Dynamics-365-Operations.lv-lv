@@ -89,3 +89,6 @@ Kā tas ir redzams iepriekš esošajā tabulā, žurnālā par atskaitītu tiek 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

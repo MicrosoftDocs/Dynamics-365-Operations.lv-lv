@@ -48,3 +48,6 @@ ms.locfileid: "4445680"
 3. Atlasiet **Rindas**.
 4. Atlasiet **Grāmatot**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

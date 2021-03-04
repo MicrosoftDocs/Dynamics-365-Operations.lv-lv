@@ -94,3 +94,5 @@ Iesniegtajās atsauksmēs vai produkta apskatos, lūdzu, neiekļaujiet personas 
 
 - [Human Resources jaunumi](hr-admin-whats-new.md)
 - [Dynamics 365 un Power Platform laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

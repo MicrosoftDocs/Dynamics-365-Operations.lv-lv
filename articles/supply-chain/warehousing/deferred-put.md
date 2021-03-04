@@ -110,3 +110,6 @@ Ir vairāki scenāriji, kuros atliktā izvietošanas apstrāde netiek lietots pa
 ## <a name="deleting-completed-tasks"></a>Pabeigto uzdevumu dzēšana
 
 Jūs varat dzēst atliktās izvietošanas apstrādes uzdevumus, kas ir pabeigti, atlasot tos un dzēšot tos lapā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Pēc vietnes izveides tikai tie lietotāji, kuri ir drošības grupās, kas sais
 [Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei](search-engine-optimization-considerations.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

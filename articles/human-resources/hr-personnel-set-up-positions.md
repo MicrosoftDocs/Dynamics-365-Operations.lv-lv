@@ -67,3 +67,6 @@ Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīc
 30. Laukā Nodaļa ievadiet vai atlasiet kādu vērtību.
 31. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Ja prognoze tiek ģenerēta nevis par lielu krājumu kopu, bet, piemēram, tikai
 - [Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
 
 - [Autorizēt koriģēto pieprasījuma apjoma prognozi](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Kājene, kas satur autortiesību paziņojumu, automātiski tiek parādīta visu 
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

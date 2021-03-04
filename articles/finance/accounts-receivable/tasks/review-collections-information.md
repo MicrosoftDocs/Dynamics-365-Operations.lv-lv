@@ -143,3 +143,6 @@ ms.locfileid: "4445610"
 5. Atlasiet **Rādīt sarakstu**.
 - Atlasiet debitora kontu vai akceptējiet noklusējuma ierakstu. Pēc noklusējuma saraksta lapā vai formā, no kuras atvērāt šo formu, tiek atlasīts šis debitora konts. Ja formu atvērāt no saraksta lapas, sarakstā ietvertie debitori ir tie, kuri ir ietverti iekasēšanas kopā, kas tiek izmantota saraksta lapā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

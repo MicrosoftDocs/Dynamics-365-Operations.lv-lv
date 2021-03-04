@@ -127,3 +127,6 @@ Krāsa tiek rādīta tikai zemākajā Ganta diagrammas līmenī. Atlasiet **Izv�
 1. Režģī atlasiet rindu, kur **Lauks** ir iestatīts uz **Krājuma kods**.
 1. Laukā **Kritērijs** ievadiet vērtību.
 1. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

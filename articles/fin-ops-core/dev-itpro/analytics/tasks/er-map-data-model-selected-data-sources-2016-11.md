@@ -146,3 +146,6 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu Sistēmas administ
 5. Atlasiet pašreizējās konfigurācijas pabeigto versiju.
     * Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

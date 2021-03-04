@@ -49,3 +49,6 @@ ms.locfileid: "4433164"
 15. Sarakstā atrodiet un atlasiet noliktavu, kur preces tika saņemtas.
 16. Noklikšķiniet uz Pasūtījums, lai skatītu pasūtījumus, kas tika izveidoti atlasītajai noliktavai.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

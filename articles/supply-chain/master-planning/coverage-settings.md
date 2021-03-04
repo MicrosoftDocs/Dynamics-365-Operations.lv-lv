@@ -66,3 +66,6 @@ Katrai papildināšanas metodei ir piešķirts viens no šiem vajadzības kodiem
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Vispārējo plānu pārskats](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

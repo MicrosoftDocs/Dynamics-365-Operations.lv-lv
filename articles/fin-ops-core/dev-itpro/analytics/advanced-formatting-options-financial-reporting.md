@@ -310,3 +310,6 @@ Apgalvojums **IF/THEN/ELSE** ļauj jebkuram aprēķinam būt atkarīgam no citas
 Varat noformēt pārskatus, izmantojot dimensiju vērtības, kas ietver zīmi &.
 
 Jebkurā laukā **Saite uz finanšu dimensiju** varat ievadīt tādu vērtību kā **/'P&L/'**. Iekļaujot vienpēdiņas /(/' /'/) abās dimensijas vērtības pusēs, tiek norādīts, ka izmantojat literāļa vērtību, piemēram, ietverot zīmi &.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

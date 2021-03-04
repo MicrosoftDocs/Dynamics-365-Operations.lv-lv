@@ -79,3 +79,6 @@ Darba laiku veidnes nosaka darba stundas visā nedēļā un tiek izmantotas, lai
 3. Izvērsiet sadaļu Svētdiena.
 4. Laukā Slēgts izsniegšanai atlasiet Jā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

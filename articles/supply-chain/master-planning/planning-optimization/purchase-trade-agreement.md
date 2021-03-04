@@ -90,3 +90,6 @@ Tabulā zemāk ir sniegti piemēri, kas parāda, kā dažādi tirdzniecībā izl
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas līgumi](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Lai pielietotu kopuma darbību kodus, dodieties uz atbilstošo mērķa veidni. �
 6. Laukā **Kopuma darbības kodi** atlasiet kopuma darbības kodu, ko izvēlējāties papildināšanas veidnē.
 
 Veiciet šīs darbības katrai juridiskajai personai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

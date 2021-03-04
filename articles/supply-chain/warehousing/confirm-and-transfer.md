@@ -230,3 +230,6 @@ Varat arī apstiprināt, ka darbību relācijas ir atjauninātas šādos veidos:
 - Opcija **Sadalīt daudzumu jaunai kravai** darbojas arī tad, ja dažiem atlikušā darba virsrakstiem ir statuss *Procesā*. Tāpēc joprojām varat izmantot funkcionalitāti, pat ja darbinieki jau izmanto izdošanas pasūtījumus.
 - Atlasot **Atcelt neizpildīto daudzumu**, kamēr vēl ir atlikušais darbs ar statusu *Atvērts* vai *Notiek izpilde*, tiek parādīts šāds kļūdas ziņojums: “Nevar atcelt atlikušo kravas daudzumu. Darbam ir krava. "
 - Atlasot **Atcelt neizpildīto daudzumu**, kad nav neviena atlikušā darba, bet kravā ir neatbrīvotas kravas rindas, tiek parādīts šāds kļūdas ziņojums: “Kravas nosūtīšanu nevarēja apstiprināt, jo krājuma daudzums pārsniedz procentuālo vērtību, kas definēta zem piegādes.” Lai izvairītos no kļūdas, varat iestatīt **Nepilns pasūtījums** procentuālo vērtību neatbrīvotai kravas rindai 100 procenti. Neizlaistās rindas netiks pārvietotas uz jaunu kravu, bet pašreizējā krava tiks apstiprināta ar nepietiekamu piegādi. Šādā gadījumā vairs nebūs iespējams atkārtoti nodot sākotnējo pasūtījumu. Tādēļ nāksies rīkoties citādi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

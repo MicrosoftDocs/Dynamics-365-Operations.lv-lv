@@ -37,3 +37,6 @@ Piemēram, iedomājieties, ka jūs ievadāt nomas informāciju par automašīnu 
 > Veidnes varat lietot tikai tādos apgabalos, kam varat piekļūt. Tomēr ir redzami visi veidņu nosaukumi, kad izveidojat jaunu ierakstu, un tie ir redzami arī citiem lietotājiem, ja jūs izveidojat veidnes, kas būs pieejamas visiem lietotājiem. Paturiet to prātā, kad piešķirsiet veidnēm nosaukumus. Piemēram, centieties neizmantot nosaukumus, kuri satur tādus vārdus kā “komisija”, ja ne visiem lietotājiem būtu jāzina, ka dažiem uzņēmuma darbiniekiem algas ir balstītas uz komisiju.
 
 Kad specifiskai formai pastāv viena vai vairākas veidnes, kam jums ir piekļuve, un jūs mēģināt izveidot jaunu ierakstu šajā formā, tiek parādīta lapa **Atlasiet veidni, kas paredzēta...**. Kad atlasāt veidni no saraksta, tiek izveidots jauns ieraksts, kas satur uz atlasīto veidni balstītu noklusējuma informāciju. Ja nevēlaties izmantot veidnes jaunu ierakstu izveidei, atzīmējiet izvēles rūtiņu **Nejautāt atkārtoti** lapā **Atlasiet veidni, kas paredzēta**. Lai atkal tiktu parādīts veidnes atlases dialoglodziņš, ar peles labo pogu noklikšķiniet uz jebkura ieraksta, noklikšķiniet uz **Informācija par ierakstu** un pēc tam noklikšķiniet uz **Parādīt veidnes atlasi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

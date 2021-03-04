@@ -49,3 +49,6 @@ Lai uzzinātu, kā iegūt un izmantot programmu Onboard, skatiet tālāk norād�
 - [Jaunumi un izmaiņas Dynamics 365 Talent](./whats-new.md)
 - [Nodošanas izpildei plāni](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Atbalsta saņemšana saistībā ar Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

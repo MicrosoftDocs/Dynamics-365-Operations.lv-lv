@@ -36,3 +36,6 @@ Rekvizītu **Servera autentifikācijas nolūks** no V5 sertifikāta izsniedz Bra
 Šis atjauninājums pieļauj alternatīvu sertifikātu validācijas risinājumu, kas nozīmē, ka ir iespējams izveidot drošus sakarus.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

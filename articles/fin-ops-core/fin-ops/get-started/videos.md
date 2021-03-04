@@ -167,3 +167,6 @@ ms.locfileid: "4693573"
 [FastTrack tehniskās sarunas](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) ir koncentrētas uz padziļinātas tehniskās informācijas sniegšanu un iepazīstināšanu ar ieteicamajām praksēm, kas klientiem un partneriem nodrošina ar viņu konkrētajām jomām saistītas detalizētas zināšanas.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

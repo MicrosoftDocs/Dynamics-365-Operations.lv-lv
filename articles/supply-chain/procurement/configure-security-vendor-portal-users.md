@@ -50,3 +50,6 @@ Ja viena un tā pati persona pieprasa piekļuvi vairākiem kreditoru kontiem kre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ Lai iestatītu savu grāmatošanas metodi, norādiet šādas vērtības:
 
 Plašāku informāciju skatiet šeit: [Debitoru maksājumu pārskats](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

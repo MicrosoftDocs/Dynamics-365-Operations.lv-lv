@@ -49,3 +49,6 @@ Veidojot atlīdzināšanas darbības, tiek izveidots kreditora rēķins par kred
 
 5. Lai skatītu izveidotos atlīdzības darījumus, izmantojiet pārskatu **Atmaksa** (**Debitori \> Pieprasījumi un pārskati \> Atmaksas pārskats**).
 6. Sadaļā Kreditori izveidojiet maksājumu kreditora rēķiniem, kas tika izveidoti, veicot kompensācijas procesu. Informāciju par to, kā apmaksāt kreditorus, skatiet sadaļā [Kreditoru maksājumu pārskats](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

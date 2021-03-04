@@ -142,3 +142,6 @@ Pēc tam, kad kandidāti piesakās vienam vai vairākiem darbiem, viņi var atla
 ## <a name="internal-jobs"></a>Iekšējie darbi
 
 Pašlaik darbi, kas ir atzīmēti kā iekšējie darbi un publicēti Attract karjeras vietnē, netiek parādīti karjeras vietnē. Tie ir pieejami, izmantojot tiešo vietrādi URL **Pieteikties**, ko var kopēt no programmas Attract.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

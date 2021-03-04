@@ -78,3 +78,6 @@ Pārskatiet ģenerēto XML failu.
 6. Aizvērt lapu.
 7. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

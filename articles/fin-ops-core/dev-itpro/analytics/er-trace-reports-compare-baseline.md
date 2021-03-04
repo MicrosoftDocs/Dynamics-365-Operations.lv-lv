@@ -243,3 +243,6 @@ Bāzlīnija tiek pievienota formātam **Formāts ER bāzlīniju apgūšanai**.
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Elektronisko pārskatu (EP) veidošanas struktūras konfigurēšana](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

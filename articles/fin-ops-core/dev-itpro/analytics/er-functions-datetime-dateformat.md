@@ -77,3 +77,6 @@ Ja kultūra nav definēta kā izsauktās funkcijas arguments, vērtību `culture
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datuma un laika funkcijas](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

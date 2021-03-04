@@ -48,3 +48,6 @@ Papildu informāciju skatiet rakstā [Grāmatošana ar atvasinātām grāmatām]
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 9. Dialoglodziņā **Galvēnais** atlasiet galvēno, pievienojot **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
 10. Atlasiet **Pievienot** un pēc tam atlasiet **Saglabāt Key Vault izmaiņas**.
 11. Lapā **Pārskats** nokopējiet vērtību **DNS nosaukums** galvenajai akreditācijas datu glabātavai. Šī vērtība tiks izmantota pakalpojuma iestatīšanas laikā ar RCS un tiks saukta par *galveno galvenajās akreditācijas datu glabātavas URI*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

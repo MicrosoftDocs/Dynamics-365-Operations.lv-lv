@@ -42,3 +42,6 @@ Par debitoru rēķiniem un pārdoto krājumu atgriešanas pasūtījumiem, kas ti
 
     * Dodieties uz **Organizācijas administrēšana \> Numuru sērijas \> Skaitītāju pārvaldība**. Tur vajadzētu būt ierakstam, kur **Modulis** = **Pārdošana** un **Tips** = **Rēķins**.
     * Dodieties uz **Organizācijas administrēšana \> Numuru sērijas \> Rēķinu numerācijas iestatījumi**. Atlasiet izvēles rūtiņu **Komercija** tai numuru sērijas rindai, kas tiek izmantota, lai numurētu debitoru rēķinus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

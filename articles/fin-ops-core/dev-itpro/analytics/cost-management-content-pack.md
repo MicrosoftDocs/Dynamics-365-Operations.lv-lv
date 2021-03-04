@@ -207,3 +207,6 @@ Tālāk minētās galvenās dimensijas tiek izmantotas kā filtri, lai sadalītu
 | Juridiskas personas                                          | Juridisko personu nosaukumi                              |
 | Finanšu kalendāri                                        | Finanšu kalendārs, Gads, Ceturksnis, Periods, Mēnesis   |
 | Atrašanās vieta                                                    | ID, Nosaukums, Adrese, Rajons, Valsts               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

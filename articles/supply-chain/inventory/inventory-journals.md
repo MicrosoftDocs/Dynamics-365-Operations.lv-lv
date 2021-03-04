@@ -117,3 +117,6 @@ Vēl viena atšķirība starp žurnāla datu elementiem ir iespēja izmantot sal
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datu elementi](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Ja atsevišķām darbvietas sadaļām ir filtri, katru sadaļu varat filtrēt at
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Tāpat kā ar darbvietas mēroga filtru, laukā atlasiet vai ievadiet kādu vērtību, lai filtrētu sadaļas saturu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

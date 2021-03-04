@@ -48,3 +48,6 @@ Varat skatīt detalizētu informāciju par aizkavējumiem un darbībām atlasīt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

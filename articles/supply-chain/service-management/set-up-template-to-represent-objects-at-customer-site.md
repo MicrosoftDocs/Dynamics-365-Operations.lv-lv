@@ -55,3 +55,6 @@ Izmantojiet šo procedūru, lai iestatītu veidni, kas attēlo objektus debitora
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

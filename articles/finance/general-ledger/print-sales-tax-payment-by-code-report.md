@@ -48,3 +48,6 @@ Jūs varat arī ģenerēt šo pārskatu, lai tas parāda PVN maksājumu summas P
 Tālāk redzamajā attēlā ir parādīts ģenerēta pārskata piemērs. Pārskats rāda, ka pārskata kodam **101** ir valūta **EUR**, ja **PVN valūtas** lauks ir iestatīts uz **EUR** PVN kodam, kuram ir piešķirts pārskata kods.
 
 ![PVN maksājums pēc koda pārskata piemērs](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

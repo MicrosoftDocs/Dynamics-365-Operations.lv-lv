@@ -83,3 +83,6 @@ ms.locfileid: "4445669"
 23. Gada beigu slēgšanas noklusējumi, kas jāpalaiž paketē. Tas ir vislabākais veids, kā ilgstošus procesus palaist pakešveida režīmā. Tas parasti ir viens no šiem procesiem, tāpēc pēc noklusējuma nepieciešams izmantot pakešveida režīmu.  
 24. Noklikšķiniet uz **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

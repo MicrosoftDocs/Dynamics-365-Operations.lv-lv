@@ -65,3 +65,6 @@ Izmantojiet šo procedūru, lai izveidotu jaunu elektronisko pārskatu veidošan
     * Intrastat parauga kartēšana  
 5. Klikšķiniet Izveidot konfigurāciju.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Pēc simulēto izmaksu izmaiņu ievadīšanas aprēķiniet to ražoto krājumu i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

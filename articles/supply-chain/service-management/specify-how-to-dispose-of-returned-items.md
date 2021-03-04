@@ -183,3 +183,6 @@ Katram atgriešanas metodes kodam, ko definējat, ir jāatlasa atgriešanas meto
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

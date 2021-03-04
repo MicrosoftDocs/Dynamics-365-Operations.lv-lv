@@ -60,3 +60,6 @@ Klienti var veikt daļēju maksājumu, kur atlikusī summa netiks samaksāta, ta
 
 
 Papildinformāciju skatiet šeit: [Debitora maksājumu depozīts](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

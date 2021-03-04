@@ -60,3 +60,6 @@ Pakalpojuma veidnes rindas tagad tiek kopētas uz jauno pakalpojuma pasūtījumu
 [Pakalpojumu veidnes](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

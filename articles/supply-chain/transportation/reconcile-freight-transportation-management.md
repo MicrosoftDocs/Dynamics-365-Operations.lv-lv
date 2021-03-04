@@ -47,3 +47,6 @@ Lai izmantotu automātisko saskaņošanu, jums ir jānorāda saskaņošanas graf
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

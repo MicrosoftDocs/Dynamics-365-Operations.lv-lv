@@ -111,3 +111,6 @@ Varat apstrādāt NSF maksājumus, lapā Iekasēšana noklikšķinot uz NSF maks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

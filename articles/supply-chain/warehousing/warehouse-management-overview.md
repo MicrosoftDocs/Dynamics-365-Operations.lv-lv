@@ -74,3 +74,6 @@ Viedokļi, ziņas un cita informācija par moduli “Noliktavas pārvaldība” 
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

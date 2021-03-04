@@ -55,3 +55,6 @@ Lai pievienotu veidnei finanšu dimensijas, ir jāveic papildu izmaiņas. Papild
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

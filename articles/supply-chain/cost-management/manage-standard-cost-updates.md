@@ -49,3 +49,6 @@ Tālāk sniegtajā piemērā ir parādīts, kā vienas versijas un divu versiju 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

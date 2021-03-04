@@ -109,3 +109,6 @@ Lai atlasītu un atjauninātu izlaistās preces un preču variantus, izmantojiet
 - [Preces dzīves cikla stāvokļa piešķiršana izlaistai precei](tasks/product-lifecycle-state-released-product.md)
 - [Novecojušu preču variantu atrašana un preces dzīves cikla stāvokļa piešķiršana](tasks/obsolete-product-variants.md)
 - [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Power BI satura pakotnes **Darbinieku attīstība** pārskatos ir ietvertas gan 
 | Darbinieku prasmju analīze  | Sertificēts, līmenis, līmeņa datums un prasme                                                                    | Darbinieka vārds, Prasme |
 | Veiktspēja              | Vērtējums, apraksts un vērtēšanas modelis                                                                      | Pašreizējais darbinieks, Pašreizējā pozīcija, Darbinieka tendence, Darbam vēlamās prasmes, Iepriekšējās pozīcijas piešķire, Pozīcijas tendence, Darbinieks, ar kuru ir pārtrauktas darba attiecības |
 | Prasme                    | Prasme, prasmes tips un vērtējums                                                                              | Darbinieku prasmju analīze, Darbam vēlamās prasmes |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

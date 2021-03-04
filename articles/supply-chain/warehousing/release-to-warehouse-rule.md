@@ -131,3 +131,6 @@ Varat izmantot šo demonstrāciju arī kā vadlīnijas šī līdzekļa izmantoš
 
 > [!NOTE]
 > Tas pats rezultāts tiek prognozēts, kad otrā rinda ir daļēji rezervēta. Šādā gadījumā tiks izveidots darbs rezervētās rindas daudzumam, bet ne nerezervētajam daudzumam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

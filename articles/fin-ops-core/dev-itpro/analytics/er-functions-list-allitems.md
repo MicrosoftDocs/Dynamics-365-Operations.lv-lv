@@ -65,3 +65,6 @@ Ja ievadāt **Vend** kā datu avotu *Ierakstu saraksta* datu tipam, kas attiecas
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

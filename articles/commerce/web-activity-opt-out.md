@@ -56,3 +56,6 @@ Administratori var ļaut autentificētajiem lietotājiem pašiem atteikties no t
 ### <a name="custom-extensions"></a>Pielāgoti paplašinājumi
 
 Administratori var izveidot savus paplašinājumus, lai pārvaldītu lietotāju atteikšanās pieredzi. Papildinformāciju skatiet šeit [Retail Server API izsaukšana](e-commerce-extensibility/call-retail-server-apis.md) un [Tiešsaistes kanāla paplašināšana](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

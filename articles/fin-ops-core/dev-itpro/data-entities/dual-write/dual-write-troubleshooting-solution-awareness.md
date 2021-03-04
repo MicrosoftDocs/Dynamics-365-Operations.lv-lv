@@ -45,3 +45,6 @@ Lapā **Duālais ieraksts** var tikt parādīts kļūdas ziņojums, kas līdzīg
 *Elements ar nosaukumu 'msdyn\_dualwriteentitymap' ar namemapping = 'Loģisks' netika atrasts MetadataCache.*
 
 Lai novērstu šo problēmu, pārliecinieties, vai programmā Dataverse ir instalēts duālā ieraksta pamata risinājums. Risinājumu apzināšanai duālais ieraksts ir priekšnoteikums.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

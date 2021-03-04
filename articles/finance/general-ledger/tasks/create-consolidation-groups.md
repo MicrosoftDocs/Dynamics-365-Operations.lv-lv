@@ -47,3 +47,6 @@ ms.locfileid: "4445665"
 8. Laukā Konsolidācijas konts ierakstiet kādu vērtību.
 9. Laukā Konsolidācijas konta nosaukums ierakstiet kādu vērtību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

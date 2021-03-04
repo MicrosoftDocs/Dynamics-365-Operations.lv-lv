@@ -98,3 +98,6 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūrau “ER
     * Ņemiet vērā, ka tagad ir pieejams tikai viens saknes vienums, lai kartētu programmas datu avotus. Kad ir ieviests vismaz viens modeļa kartējums, kā modeļa definīciju ER formāta pievienošanas laikā var atlasīt tikai modeļa saknes vienumus, kas ir kartēti programmas datu avotiem.   
 5. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

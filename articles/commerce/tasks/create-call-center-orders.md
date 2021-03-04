@@ -62,3 +62,6 @@ ms.locfileid: "4594240"
 
 [Piegādes veida mainīšana programmā POS](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

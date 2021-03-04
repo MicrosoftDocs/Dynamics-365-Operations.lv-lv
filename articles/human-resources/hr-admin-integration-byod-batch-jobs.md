@@ -96,3 +96,6 @@ BYOD līdzeklim ir šādi ierobežojumi:
 [Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
 [Datu importēšanas un eksportēšanas darbu pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
 [Izmaiņu izsekošanas iespējošana elementiem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

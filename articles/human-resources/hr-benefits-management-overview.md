@@ -97,3 +97,6 @@ Dažas no veiktajām izmaiņām nepieciešams apstrādāt, lai tās aktivizētu.
 - [Dzīves notikumu piemērotības apstrāde](hr-benefits-process-life-event-eligibility.md)
 - [Apjoma izmaiņu apstrāde](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

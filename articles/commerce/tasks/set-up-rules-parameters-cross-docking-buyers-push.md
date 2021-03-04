@@ -48,3 +48,6 @@ ms.locfileid: "4414080"
 14. Laukā Svars ievadiet skaitli.
 15. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

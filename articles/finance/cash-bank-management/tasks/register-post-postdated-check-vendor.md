@@ -56,3 +56,6 @@ Iestatiet ar iepriekšēju datumu datētus čekus lapā Kases un bankas pārvald
 16. Aizvērt lapu.
 17. Noklikšķiniet uz cilnes Ar iepriekšēju datumu datēti čeki.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

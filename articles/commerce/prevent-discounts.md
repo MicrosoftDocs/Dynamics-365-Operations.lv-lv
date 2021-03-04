@@ -41,3 +41,6 @@ Tālāk norādītas izlaisto preču cilnē **Komercija** pieejamās opcijas prec
 > Šie iestatījumi neierobežo cenas pārrakstīšanas darbību, jo tās gaitā tiek iestatīta pamatcena, kas netiek uzskatīta par atlaidi.
 
 [![Lauks Nepieļaut atlaides](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu,
 13. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Nospiediet taustiņu Shift, lai atlasītu vairākas lomas, ko pievienot rūtij **Atlasītās lomas** un pēc tam noklikšķiniet uz bultiņas, lai pievienotu atlasītās lomas.  
 14. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

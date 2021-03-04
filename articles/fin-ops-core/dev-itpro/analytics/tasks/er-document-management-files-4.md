@@ -69,3 +69,6 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 11. Noklikšķiniet uz Labi.
     * Pārskatiet ģenerēto izvadi. Ņemiet vērā, ka katram pielikumam ir izveidots atsevišķs XML mezgls. Pielikuma saturs tiek aizpildīts XML izvadē MIME (base64) teksta formātā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

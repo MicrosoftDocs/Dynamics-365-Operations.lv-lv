@@ -50,3 +50,6 @@ Krājumus, kas tiks izmantoti sūtījuma procesos, nepieciešams saistīt ar **I
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Kreditora sadarbība sūtījuma procesos
 Ja jūsu kreditoriem ir kreditoru sadarbības interfeiss, viņi var izmantot šo, lai pārraudzītu krājumu patēriņu jūsu bāzes vietā. Lai iegūtu papildu informāciju par kreditoru iestatīšanu kreditoru sadarbības izmantošanai, skatiet [Kreditoru portāla lietotāju drošība](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

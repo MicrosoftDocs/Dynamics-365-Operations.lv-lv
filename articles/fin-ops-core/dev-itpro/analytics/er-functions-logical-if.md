@@ -69,3 +69,6 @@ Ja pirmā rezultāta vērtība un otrā rezultāta vērtība ir *Konteinera (ier
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Loģiskas funkcijas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

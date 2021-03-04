@@ -43,3 +43,6 @@ Pēc noklusējuma Microsoft Power BI pārskati tiek atsvaidzināti ik pēc četr
 1. Atlasiet **Rediģēt** lapas augšpusē un iestatiet plānotajam sākuma datumam/laikam vērtību, kas atsvaidzinās analīzi tuvāk pašreizējam laikam.
 
 ![Pakešuzdevumi](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Izmantojot funkcionalitāti Atcelt darbu, var atcelt tikai **Pārdošanas**, **I
 Lai atbloķētu darbu, sistēma atceļ visas atlikušās darba rindas un labo noliktavas datus, kas ir saistīti ar lietotāja norādīto darba ID. Pēc tam var atsākt visas parastās noliktavas apstrādes darbības, kas ietver ietekmēto vienību daudzumu.
 
 Lai ietekmēto vienību izvietotu noteiktā vietā pēc darba atcelšanas, lietotājam jāizmanto krājumu kustība vai daudzuma korekcijas operācija mobilajā ierīcē.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -154,3 +154,6 @@ Saistītie veikali saņem aicinājumu atlasīt aparatūras staciju tikai vienu r
 - [POS hibrīdprogrammas iestatīšana operētājsistēmā Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Tīkla perifēro ierīču atbalsta pārskats](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

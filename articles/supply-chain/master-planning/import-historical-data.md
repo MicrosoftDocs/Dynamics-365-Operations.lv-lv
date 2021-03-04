@@ -59,3 +59,6 @@ Pēc vēsturisko pieprasījuma datu importēšanas varat ģenerēt pieprasījuma
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Ģenerēt statistiskās bāzlīnijas prognozi](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

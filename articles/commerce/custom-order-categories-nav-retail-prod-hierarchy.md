@@ -88,3 +88,6 @@ Parādīšanas secība kanālu navigācijas hierarhijā ir atspoguļota HQ, kata
 
 > [!NOTE]
 > Pielāgotā kārtošanas secība pēc noklusējuma ir izslēgta. Lai uzzinātu, kā ieslēgt šo un citas funkcijas, skatiet [Līdzekļu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

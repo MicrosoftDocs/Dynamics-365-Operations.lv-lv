@@ -1233,3 +1233,6 @@ Ievērojiet, ka ģenerētā pārskata kājenē nav ER formāta nosaukuma, kas ti
 - [IF funkcija](er-functions-logical-if.md)
 - [ORDERBY funkcija](er-functions-list-orderby.md)
 - [SESSIONNOW funkcija](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

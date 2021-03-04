@@ -45,3 +45,6 @@ Kad atlasāt konfigurācijas atkārtota izmantošanas atiestatīšanu, iepriekš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

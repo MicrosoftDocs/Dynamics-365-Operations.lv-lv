@@ -90,3 +90,6 @@ Otrais pārdošanas pasūtījums tagad ir iekļauts rēķinā. Kopējais debitor
 [![Dokumenta transakciju lapa ar grāmatoto uzskaites ierakstu](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Tā kā ieņēmumu un pārdošanas summa ir lielāka par 1170,44 $, iegrāmatotā starpība ir -130,17 $. Šī summa notīra bilanci no daļējā rēķina ieņēmumu klīringa konta. Šī bilance tiek grāmatota jaunajā uzskaites ierakstā pēc atkārtotās sadales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

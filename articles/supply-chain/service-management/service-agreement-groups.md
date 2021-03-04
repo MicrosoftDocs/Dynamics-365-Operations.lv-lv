@@ -42,3 +42,6 @@ Lapas **Pakalpojumu pārvaldības parametri** laukā **Pakalpojumu līgumu grupa
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Pakalpojumu līguma grupu izveide](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

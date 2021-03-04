@@ -50,3 +50,6 @@ Lai nodrošinātu labāku piekļuvi dažādām groza summām, grozā ir pievieno
 - **Piemērotais depozīts** — depozīta summa, kuru attiecina uz transakciju, kad lietotājs veic debitora pasūtījuma savākšanu. Ja nav veikta depozīta ignorēšana un ir konfigurēts 10 procentu depozīts, šajā laukā norādītā summa ir 90 procenti no kopējās debitora pasūtījuma summas.
 - **Iznesto preču summa** — kopējā tādu rindu summa, kurām piegādes veids tika iestatīts kā **Iznest**, izveidojot vai rediģējot debitora pasūtījumu vai debitoru pasūtījuma apmaiņas laikā. Šajā laukā norādītajā summā ir iekļauti nodokļi un papildmaksas.
 - **Atgriešanas summa** — kopējā tādu rindu summa, kurās ir negatīvas summas debitora pasūtījuma apmaiņas laikā. Šajā laukā norādītajā summā ir iekļauti nodokļi un papildmaksas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

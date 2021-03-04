@@ -145,3 +145,6 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 11. Skatiet atsevišķu izmaksu elementu veiktspēju.
 12. Varat arī meklēt konkrētus izmaksu elementus.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

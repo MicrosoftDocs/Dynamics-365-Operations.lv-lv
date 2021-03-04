@@ -67,3 +67,6 @@ Tālāk esošajā tabulā ir aprakstīti pārskatā pieejamie lauki.
 |           Izslēgšana: lūžņu vērtība            |                                                                                               Lūžņu vērtība pamatlīdzekļu grāmatai ar izslēgšanas-lūžņu transakciju.                                                                                               |
 |           Izslēgšana: peļņa/zaudējumi            |                                                                                 Peļņas vai zaudējumu vērtība, kas pamatlīdzekļu grāmatai aprēķināta kā daļa no izslēgšanas transakcijas.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ Kad palaižat trūkstošo kontu analīzi, ir pieejami tālāk norādītie īsin�
 [Finanšu pārskati](financial-reporting-intro.md)
 
 [Pārskatu noformētāja interfeiss](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

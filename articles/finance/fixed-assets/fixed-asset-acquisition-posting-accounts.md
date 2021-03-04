@@ -45,3 +45,6 @@ Papildinformāciju skatiet tēmā [Līdzekļu iegādāšanās, izmantojot iepirk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

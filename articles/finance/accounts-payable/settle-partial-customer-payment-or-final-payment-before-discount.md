@@ -149,3 +149,6 @@ Arnis iegrāmato žurnālu un pārskata debitora transakcijas lapā **Debitora t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -221,3 +221,6 @@ Lai palaistu saderības testu, sekojiet šiem soļiem.
 1. Darbību rūts cilnes **Noslodzes** grupā **Darbības** atlasiet **Saderības tests**.
 
 Jūs saņemat ziņojumu, kas informē par testa rezultātiem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

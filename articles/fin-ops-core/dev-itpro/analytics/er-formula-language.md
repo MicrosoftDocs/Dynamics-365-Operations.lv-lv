@@ -174,3 +174,6 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu](general-electronic-reporting-formulas-list-extension.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Lai labotu, pielāgotu vai atjauninātu jauno krājumu standarta izmaksas, veici
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

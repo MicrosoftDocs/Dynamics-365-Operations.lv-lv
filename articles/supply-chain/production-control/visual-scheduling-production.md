@@ -160,3 +160,6 @@ Ganta diagrammu var atvērt no tālāk norādītajām lapām.
 
 [Ražošanas vizuālā plānošana (demonstrācijas skripts)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

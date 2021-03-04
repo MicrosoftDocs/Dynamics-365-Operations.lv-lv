@@ -121,3 +121,6 @@ Kad visas preces ir reģistrētas, noliktavas pārvaldnieks vai pirkšanas vadī
 
 ## <a name="summary"></a>Kopsavilkums
 Lapa **Saņemšanas pārskats** var palīdzēt noliktavas pārvaldniekam un noliktavas darbiniekiem sniegt pārskatu par paredzamo darbu, kas jāveic saņemšanas procesa ietvaros. Lapu var arī izmantot, lai sāktu krājumu saņemšanas procesu, lai palīdzētu nodrošināt, ka krājumi tiek izsekoti, pirmo reizi nonākot noliktavā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

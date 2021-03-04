@@ -78,3 +78,6 @@ Veiciet šīs darbības, lai pievienotu veikala darbalaiku drukātajām pārdoš
 Tagad pārdošanas punktu kvītis ietver veikala darbalaiku. Ja veidnē tika iekļautas brīvdienas, tās tiek parādītas kvītī.
 
 ![Saņemšanas piemērs](../dev-itpro/media/Storehours3.png "Saņemšanas piemērs")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

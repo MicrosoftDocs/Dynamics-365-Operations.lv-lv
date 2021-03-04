@@ -101,3 +101,6 @@ Cilnē **Katalogi** ir pieejamas arī opcijas vērtību **Maksājumu grafiks** u
 ## <a name="additional-notes"></a>Papildu piezīmes
 
 Pašlaik, ja pārdošanas pasūtījumam zvanu centrā tiek lietots kāds avota koda ID, tas tiek izmantots, lai vadītu katalogam raksturīgās cenas, veicināšanas pasākumus, skriptus un papildu pārdošanas/šķērspārdošanas. Sistēma neaizliedz un nenovērš iespēju pārdošanas pasūtījumā pasūtīt preci, kas nav ietverta katalogā. Ja tiek pasūtīts kāds krājums, kas neietilpst katalogā, sistēma vispirms izmanto vērtību **Cenu grupa**, kas krājuma cenai vai veicināšanas pasākumiem ir definēta attiecīgajā zvanu centra kanālā (**Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**). Ja netiek atrasta neviena raksturīgā kanāla cena, šim krājumam tiek izmantota pārdošanas pamatcena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

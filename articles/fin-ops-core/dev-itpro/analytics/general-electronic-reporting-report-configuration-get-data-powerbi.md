@@ -196,3 +196,6 @@ Iestatiet integrāciju ar Power BI. Papildinformāciju skatiet rakstā [Power BI
 [Elektronisko pārskatu (ER) galamērķi](electronic-reporting-destinations.md)
 
 [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

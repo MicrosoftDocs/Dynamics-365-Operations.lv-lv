@@ -38,3 +38,6 @@ Finanšu dimensijas un galvenie konti ir galvenie implementēšanas plānošanas
 - Atlasīto kontu plāna norobežotāju nelietojiet finanšu dimensijas un galveno kontu vērtībās.
 
 Ievērojot šo paraugpraksi, jūs palīdzat garantēt konsekventu lietotāja definēto pasūtījumu attēlojumu visā sistēmā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

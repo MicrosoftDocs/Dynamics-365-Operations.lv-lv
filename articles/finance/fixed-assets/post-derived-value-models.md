@@ -59,3 +59,6 @@ Papildu informāciju skatiet tēmā [Atvasinātās grāmatas](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

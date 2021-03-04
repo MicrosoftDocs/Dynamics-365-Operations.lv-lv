@@ -65,3 +65,6 @@ Pakalpojumā [Microsoft AppSource](https://appsource.microsoft.com) ir pieejami 
 - Izmaksu pārvaldība
 - [Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
 - [Mazumtirdzniecības kanāla veiktspēja ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

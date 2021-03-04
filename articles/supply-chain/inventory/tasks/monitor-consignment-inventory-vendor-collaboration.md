@@ -43,3 +43,6 @@ ms.locfileid: "4433038"
 1. Dodieties uz Kreditoru sadarbība > Sūtījuma krājumi > Rīcībā esošie sūtījuma krājumi.
     * Sūtījuma rīcībā esošo krājumu lapā tiek rādīta rezerve, kas jums pieder klienta noliktavā. Jūs varat rādīt papildu dimensijas, piemēram, vieta un noliktava, noklikšķinot cilnes Parādīt dimensijas.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

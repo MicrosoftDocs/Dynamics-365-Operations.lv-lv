@@ -96,3 +96,6 @@ Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepi
 [Satura bloka modulis](add-hero-module.md)
 
 [Video atskaņotāja modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

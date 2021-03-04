@@ -89,3 +89,6 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 1.  Mobilajā programmā atlasiet darbvietu **Uzņēmuma direktorijs**.
 2.  Laukā **Meklēšana** ievadiet darbinieka vārdu, uzvārdu, amatu vai nodaļu, lai sāktu meklēšanu.
 3.  Atlasiet darbinieku. Tiek parādīta lapa **Darbinieka profils**. Šajā lapā ir sniegta tāda informācija kā darbinieka vārds, uzvārds, amats un nodaļa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

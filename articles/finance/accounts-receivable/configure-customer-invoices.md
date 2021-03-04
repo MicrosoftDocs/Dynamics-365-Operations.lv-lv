@@ -167,3 +167,6 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

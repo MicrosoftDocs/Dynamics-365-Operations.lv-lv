@@ -61,3 +61,6 @@ Tas ir noderīgi, ja vēlaties iegūt pārskatu par paredzamo noslodzi konkrēta
 >[!NOTE]
 >Ja vēlaties koncentrēties tikai uz noslodzes plānošanu attiecībā uz ieplānotiem darba pasūtījumiem, skatiet [Aprēķināt noslodzi ieplānotiem darba pasūtījumiem](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

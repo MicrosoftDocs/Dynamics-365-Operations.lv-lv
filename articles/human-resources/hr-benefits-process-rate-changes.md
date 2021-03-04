@@ -48,3 +48,6 @@ Apstrādājiet atvieglojumu likmju izmaiņas Microsoft Dynamics 365 Human Resour
    4. Atlasiet **Labi**. Apstrāde tiks izpildīta ar iestatītajiem parametriem.
 
 4. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

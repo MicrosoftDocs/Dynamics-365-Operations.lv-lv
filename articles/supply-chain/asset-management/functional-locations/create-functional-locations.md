@@ -132,3 +132,6 @@ Funkcionālais novietojums ar saistītajām apakšvietām var tikt dzēsts, ja n
 
 >[!NOTE]
 >Ja nevarat izdzēst funkcionālo novietojumu, varat veikt dzēšanu, šim nolūkam iestatot funkcionālā novietojuma dzīves cikla stāvokli. Piemēram, varat iestatīt stadiju "Norakstīts" vai "Dzēsts", kas nedrīkst būt aktīva stadija, veidlapā **Funkcionālā novietojuma dzīves cikla stāvokļi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

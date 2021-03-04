@@ -257,3 +257,6 @@ Preču līmenī var ignorēt atsevišķu preču atribūtu noklusējuma vērtība
 
     > [!NOTE]
     > Ja tiek izveidots koplietots preces datu nesējs un koplietotas preces īpašības, tie tiek lietoti visām precēm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

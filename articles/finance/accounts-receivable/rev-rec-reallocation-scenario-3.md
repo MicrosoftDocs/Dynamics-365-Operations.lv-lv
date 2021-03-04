@@ -81,3 +81,6 @@ Par pievienoto krājumu vēlreiz tiek izrakstīts rēķins pārdošanas pasūtī
 [![Dokumenta transakciju lapa ar grāmatoto uzskaites ierakstu](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Tā kā ieņēmumu un pārdošanas summa ir lielāka par 319,50 $, iegrāmatotā starpība ir 14,48 $. Šī summa notīra bilanci no daļējā rēķina ieņēmumu klīringa konta. Šī bilance tiek atjaunināta jaunajā uzskaites ierakstā, kas tika grāmatots pēc atkārtotās sadales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

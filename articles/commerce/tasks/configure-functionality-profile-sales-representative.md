@@ -37,3 +37,6 @@ ms.locfileid: "4414195"
 4. Atlasiet opciju laukā Uzvedne pārdošanas pārstāvim.
 5. Atlasiet Jā laukā Pieprasīt pārdošanas pārstāvi.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

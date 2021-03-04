@@ -87,3 +87,6 @@ Pārdošanas pasūtījuma rindas ierakstam noklusējuma darbība ir atvērt lapu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

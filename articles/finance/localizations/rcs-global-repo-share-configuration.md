@@ -75,3 +75,6 @@ Konfigurācija tiek koplietota ar ārējo organizāciju un ir pieejama šai orga
 ![Ar ārēju organizāciju koplietotā konfigurācija](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Lai atceltu konfigurāciju, kas iepriekš bijusi koplietota ar ārēju organizāciju, atlasiet konfigurāciju un noklikšķiniet uz **pārtraukt koplietošanu** un pēc tam atlasiet **Labi**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Priekšapmaksas rēķini ir parastā uzņēmumu darbības prakse. Piegādātājs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

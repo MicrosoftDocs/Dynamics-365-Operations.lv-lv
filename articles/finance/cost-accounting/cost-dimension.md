@@ -55,3 +55,6 @@ Kad dati ir importēti modulī Izmaksu uzskaite, varat tos izmantot, lai veidotu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

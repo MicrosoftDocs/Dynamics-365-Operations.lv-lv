@@ -180,3 +180,6 @@ Common Data Service ir pieejami šādas cilvēkresursu entitījas.
 
 [Izvēlēties datu integrācijas tehnoloģiju](hr-admin-integration-choose-technology.md)</br>
 [Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Nākamajā tabulā ir sniegta informācija par veidu, kā šī konfigurācijas a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

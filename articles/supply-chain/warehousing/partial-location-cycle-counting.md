@@ -62,3 +62,6 @@ Daļējā cikla inventarizācija procesam datums/laiks **Pēdējā cikla inventa
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Cikla inventarizācija](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

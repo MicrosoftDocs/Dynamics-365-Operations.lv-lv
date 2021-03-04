@@ -113,3 +113,6 @@ Pēc tam, kad apskatījāt pirkšanas pasūtījumu, kas jums ir piešķirts, un 
 5. Atlasīt atbilstošu darbību.
 6. Lapā **Uzdevuma izpilde** ievadiet komentāru. Ņemiet vērā! Atlasot darbību **Deleģēt**, ir jāatlasa lietotājs, kam deleģēt uzdevumu.
 7. Atlasiet **Gatavs**. Pēc darbvietas atsvaidzināšanas pirkšanas pasūtījums vairs nebūs jūsu sarakstā. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Ja jums ir operācijas resursi ar tipu **Cilvēkresursi**, kas ir saistīti ar d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

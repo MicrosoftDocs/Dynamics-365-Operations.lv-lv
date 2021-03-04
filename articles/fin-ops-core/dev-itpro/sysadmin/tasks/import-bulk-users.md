@@ -58,3 +58,6 @@ Kad importēšana ir pabeigta, tiks prasīts piešķirt lomas lietotājiem.
 ## <a name="run-in-a-sandbox-environment"></a>Izpilde smilškastes vidē
 1. Atlasiet **Partijas importēšana**.
 2. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

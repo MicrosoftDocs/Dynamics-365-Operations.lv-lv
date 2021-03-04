@@ -68,3 +68,6 @@ Pirkšanas cenu ieraksti krājumiem tiek izmantoti arī kā uzziņu informācija
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

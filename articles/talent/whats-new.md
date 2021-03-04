@@ -33,3 +33,6 @@ Katru nedēļu ir jauni programmas Talent laidieni. Šie laidieni ir uzskaitīti
 
 Satura rādītājs arī turpmāk tiks atjaunināts katru nedēļu, tādēļ apskatiet to atkārtoti, lai atrastu visus jaunos līdzekļus un izmaiņas jaunākajos programmas Talent laidienos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

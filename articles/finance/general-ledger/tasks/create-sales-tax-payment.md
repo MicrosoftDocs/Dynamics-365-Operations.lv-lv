@@ -37,3 +37,6 @@ PVN segšanas un iegrāmatošanas darba procedūra sedz PVN bilances PVN kontos 
 5. Ievadiet datumu laukā **Transakcijas datums**.
 6. Noklikšķiniet uz **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

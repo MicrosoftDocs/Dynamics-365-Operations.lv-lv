@@ -47,3 +47,6 @@ Uzņēmums A uztur finanšu ierakstus vairākiem maziem uzņēmumiem. Viens no k
 
 [Pakalpojumu objektu izveide](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

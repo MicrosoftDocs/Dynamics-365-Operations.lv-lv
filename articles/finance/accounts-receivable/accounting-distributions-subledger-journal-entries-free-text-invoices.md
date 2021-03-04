@@ -136,3 +136,6 @@ Pirms grāmatojat brīva teksta rēķinu, varat apskatīt pilnu uzskaites ieraks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

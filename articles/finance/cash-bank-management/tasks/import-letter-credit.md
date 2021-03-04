@@ -185,3 +185,6 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
     * Pārbaudiet, vai pārskatā ir ietvertas transakcijas ar šādiem elementiem Bankas dokumenta numurs, Iestādes ierobežojums, Izmantotā summa un Iestādes bilances summa.  
 8. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

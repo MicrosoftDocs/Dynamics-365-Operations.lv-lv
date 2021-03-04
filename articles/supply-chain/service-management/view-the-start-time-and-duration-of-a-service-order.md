@@ -59,3 +59,6 @@ Jūs varat arī skatīt, kad tika uzsākts un apturēts laika ieraksts pakalpoju
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 |    Kreditora bilance pret debitora bilanci     |                                                                                                                   <ul><li>Kreditora bilance pret debitora bilanci</li><li>Kreditora bilance pret debitora bilanci pēc uzņēmuma</li><li>Kreditora bilances pret debitora bilanci detaļas</li></ul>                                                                                                                    |
 |    Rēķini ar maksājuma aizturi     |                                                                                         <ul><li>Rēķini ar maksājuma aizturi</li><li>Rēķinu ar maksājuma aizturi detaļas</li><li>Rēķini ar maksājuma aizturi pēc uzņēmuma</li><li>Rēķini ar maksājuma aizturi pēc kreditoru grupas</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

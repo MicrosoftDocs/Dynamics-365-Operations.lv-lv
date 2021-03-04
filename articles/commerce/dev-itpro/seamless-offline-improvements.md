@@ -56,3 +56,6 @@ Commerce parametri parasti tiek kešoti. Tāpēc, lai sinhronizētu izmaiņas ka
 
 - [Pārdošanas punktu (POS) funkcionalitāte bezsaistē](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

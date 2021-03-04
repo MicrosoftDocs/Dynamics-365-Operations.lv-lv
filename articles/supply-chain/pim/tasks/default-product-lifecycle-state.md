@@ -62,3 +62,6 @@ ms.locfileid: "4432768"
 > [!NOTE]
 > Pieņemot, ka esat iestatījis aktīvu stāvokli, tagad ir iespējams atlasīt aktīvo stāvokli, lai ļautu preci izmantot vispārējā plānošanā un MK līmeņa aprēķinā. Protams, tam ir nozīme tikai tad, ja ir norādīta visa produkta detalizētā informācija, kas nepieciešama konsekventai plānošanai.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

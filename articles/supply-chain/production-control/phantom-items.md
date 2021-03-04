@@ -73,3 +73,6 @@ Fantoma MK var izmantot arī MK, kam ir maršruta tīkls. Maršruta tīklā vien
 Nākamajā attēlā (a) ir preces G un daļas F MK un (b) ir preces G un daļas F maršruta lapa.
 
 ![Prece G un daļa F ar maršruta lapām](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

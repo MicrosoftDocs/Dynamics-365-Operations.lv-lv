@@ -64,3 +64,6 @@ Lapā **Analīze** ir sniegti svarīgi rādītāji par pašreizējā uzņēmuma 
 -   Bilance pēc valūtas
 
 Darbvietā **Naudas pārskats — visi uzņēmumi** varat skatīt bankas informācijas analīzi par visiem uzņēmumiem. Plašāku informāciju skatiet sadaļā [Skaidras naudas pārskata Power BI saturs](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

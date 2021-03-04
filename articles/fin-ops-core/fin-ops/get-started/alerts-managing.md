@@ -82,3 +82,6 @@ Ja tiek iestatīts pakešveida apstrādes logs, apstrādājot brīdinājuma kār
 
 1. Dodieties uz sadaļu **Sistēmas administrēšana** &gt; **Periodiskie uzdevumi** &gt; **Brīdinājumi** &gt; **Ar izpildes datumu saistīti brīdinājumi**.
 2. Dialoglodziņā **Ar izpildes datumu saistīti brīdinājumi** ievadiet attiecīgo informāciju.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

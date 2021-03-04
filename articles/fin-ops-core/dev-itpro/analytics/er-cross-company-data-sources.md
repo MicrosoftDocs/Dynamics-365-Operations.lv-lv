@@ -76,3 +76,6 @@ Lai izpildītu šo uzdevuma ceļvedi, lejupielādējiet tālāk norādītos fail
 
 - [ER modeļa konfigurācija — CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER formāta konfigurācija — CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

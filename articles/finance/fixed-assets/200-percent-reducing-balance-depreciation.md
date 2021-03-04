@@ -90,3 +90,6 @@ Izmantojot 200% atlikumu bilances metodi, 200 procenti tiek dalīti ar lietoša
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

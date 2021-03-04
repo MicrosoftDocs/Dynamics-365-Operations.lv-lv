@@ -423,3 +423,6 @@ Visticamāk, esat pierakstījies pašreizējai Azure AD domēna lietojumprogramm
 
 [Elektronisko pārskatu (EP) izveides konfigurēšana, lai pārsūtītu datu uz pakalpojumu Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

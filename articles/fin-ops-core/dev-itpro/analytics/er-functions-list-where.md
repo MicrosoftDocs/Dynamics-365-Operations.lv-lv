@@ -69,3 +69,6 @@ Ja ievadāt datu avotu **DS** tipam *Aprēķinātais lauks* un tajā ir izteiksm
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

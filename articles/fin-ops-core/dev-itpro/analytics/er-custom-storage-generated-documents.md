@@ -175,3 +175,6 @@ Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk nor�
 
 - [Elektronisko pārskatu (ER) galamērķi](electronic-reporting-destinations.md)
 - [Lietojumprogrammas Paplašināmība sākumlapa](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

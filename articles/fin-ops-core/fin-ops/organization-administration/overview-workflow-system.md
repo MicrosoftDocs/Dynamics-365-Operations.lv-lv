@@ -71,3 +71,6 @@ Darbplūsmas sistēmas lietošanai organizācijā ir vairākas priekšrocības.
 + [Paralēlu zaru konfigurēšana darbplūsmā](configure-parallel-branch-workflow.md)
 + [Konfigurēt dokumenta rindas darbplūsmas](configure-line-item-workflow.md)
 + [Bieži uzdotie jautājumi par darbplūsmām](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

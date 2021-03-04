@@ -52,3 +52,6 @@ Nodaļas ir pārvaldības struktūrvienības, kas pārstāv uzņēmuma darbības
 16. Laukā Aprakstīt izmaiņas ierakstiet vērtību.
 17. Noklikšķiniet uz Publicēt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Tālāk esošais attēls rāda hierarhiju, kurai pievienoti dažādi kanāli.
 [Mazumtirdzniecības kanāla iestatīšana](channel-setup-retail.md)
     
 [Tiešsaistes veikala iestatīšana](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

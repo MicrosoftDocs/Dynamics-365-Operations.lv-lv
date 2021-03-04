@@ -69,3 +69,6 @@ Pēc inicializēšanas pabeigšanas, jums ir jākonfigurē papildu komercijas da
 - Commerce kanāli.
 - Reģistri un ierīces
 - Preču klāsts
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

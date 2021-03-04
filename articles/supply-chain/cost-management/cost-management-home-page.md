@@ -65,3 +65,5 @@ Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieej
 #### <a name="task-guides"></a>Uzdevumu ceļveži
 
 Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

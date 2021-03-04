@@ -88,3 +88,6 @@ Papildinformāciju skatiet šeit: [Slēgt virsgrāmatu perioda beigās](close-ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Kad atlasāt **Adreses izmaiņas** elementu, jauna lapa parāda detalizētu info
 > Ja vēlaties saņemt brīdinājumu vai e-pasta ziņojumu par šīm adreses izmaiņām, darbību rūts cilnē **Opcijas** varat izveidot jaunu brīdinājuma kārtulu. Papildinformāciju par brīdinājumu kārtulām skatiet sadaļā [Brīdinājumu kārtulu izveide](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
 
 > Ja vēlaties konfigurēt darbplūsmu adreses izmaiņām, varat atlasīt opciju **Sūtīt ārēji** jūsu brīdinājuma kārtulā un pēc tam izmantot Power Automate biznesa notikuma ierosināšanai un darbplūsmas konfigurēšanai. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

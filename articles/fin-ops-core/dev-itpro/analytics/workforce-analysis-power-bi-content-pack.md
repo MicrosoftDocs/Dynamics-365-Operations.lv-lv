@@ -86,3 +86,6 @@ Tālāk esošajā tabulā ir redzami elementi, uz kuriem šis saturs tika balst�
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                 | Uzņēmums, Ģeogrāfiskā vieta, Darbinieka vārds, Kam atskaitās, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs |
 | Masveida darbā pieņemšanas projekts        | Masveida darbā pieņemšanas projektu skaits, projekta īpašnieks un projekta statuss                     | Uzņēmums, masveida darbā pieņemšanas rinda |
 | Masveida darbā pieņemšanas rinda           | Nodaļa, nodarbinātības tips un amats                                           | Datums, darbs, masveida darbā pieņemšanas projekts |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

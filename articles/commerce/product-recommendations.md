@@ -88,3 +88,6 @@ Sekojošajā tabulā ir aprakstīti dažādi automatizēto preču ieteikumu veid
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

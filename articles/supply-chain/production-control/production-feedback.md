@@ -36,3 +36,6 @@ Ražošanas atsauksmes sniedz darbiniekiem atsauksmes par ražošanas darbiem. T
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -176,3 +176,6 @@ Lai uzzinātu vairāk par to, kā varat iestatīt un pielāgot Debitoru portālu
 - [Portāla jaunināšana](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portāla konfigurācijas migrācija](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Risinājuma dzīves cikla pārvaldība: programma Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

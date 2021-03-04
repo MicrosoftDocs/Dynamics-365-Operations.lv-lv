@@ -91,3 +91,6 @@ Ja lapā **Līdzekļu pārvaldība** esat iespējojis līdzekli **Paplašinātā
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektronisko pārskatu veidošanas (ER) struktūras API](er-apis-app73.md)
 - [Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

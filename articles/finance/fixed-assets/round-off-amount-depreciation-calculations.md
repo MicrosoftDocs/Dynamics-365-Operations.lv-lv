@@ -50,3 +50,6 @@ Nolietojums bez noapaļošanas ir aprēķināts par summu 2444,44. Saskaņā ar 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

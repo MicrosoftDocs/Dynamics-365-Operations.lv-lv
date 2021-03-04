@@ -145,3 +145,6 @@ Tālāk atrodamajā attēlā parādīts process (kā aprakstīts šajā tēmā) 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 - [Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

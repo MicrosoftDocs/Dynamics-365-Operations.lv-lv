@@ -95,3 +95,6 @@ Lai iespējotu šādu validāciju, kā priekšnoteikums ir jāplāno šo darbu p
 [Ienākošo krājumu operācija punktā POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Izejošo krājumu operācija punktā POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Ja tiek atlasīts **Dokuments**, rēķinu žurnālā tiek rādīts sākotnējais
 Pēc tam atveriet lapu **Visi debitori** (**Debitoru parādi \> Debitori \> Visi debitori**), atlasiet debitoru **US\_SI\_0003** un pēc tam atlasiet **Transakcijas**. **Debitora transakciju** lapa rāda tikai oriģinālo rēķinu (000008) kopā ar sākotnējo uzskaites ierakstu. Tā kā lapā **Virsgrāmatas parametri** opcija **Grāmatot rēķinu labojumus debitoru parādos** ir iestatīta uz **Nē**, tiek atjaunināta tikai virsgrāmata. Tāpēc nav parādīti storno un atjauninātie uzskaites ieraksti. Ņemiet vērā, ka tiek parādītas ieņēmumu korekcijas darbības, kas tika izveidotas [3. scenārijā ](rev-rec-reallocation-scenario-3.md).
 
 [![Sākotnējais uzskaites ieraksts debitora transakciju lapā](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

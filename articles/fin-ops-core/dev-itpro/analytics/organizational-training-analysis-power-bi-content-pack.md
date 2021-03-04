@@ -57,3 +57,6 @@ Satura pakotnes Organizācijas apmācība pārskatu aizpildīšanai tiek izmanto
 | Training\_Position        | Pozīcija, amats un pilnas slodzes ekvivalents (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Vārds, uzvārds un pilnais vārds                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Nosaukums un darba stāža datums                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

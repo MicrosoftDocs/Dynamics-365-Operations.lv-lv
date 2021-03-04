@@ -119,3 +119,6 @@ Darbinieki ar darba uzdevumiem, kuriem nav nepieciešamas tūlītējas atsauksme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

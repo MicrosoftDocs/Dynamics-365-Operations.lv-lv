@@ -73,3 +73,6 @@ Pogas darbības rūtī ir sakārtotas cilnēs. Nākamajā tabulā ir īsi apraks
 | Patapinājuma līdzekļa nosūtīšana                  | Atlasiet patapinājuma līdzekli, kam vajadzētu būt pagaidu aizstājējam līdzeklim, kurš atlasīts atlasītajā uzturēšanas pieprasījumā. |
 | Patapinājuma līdzekļa atgriešana                | Reģistrējiet patapinājuma līdzekli kā atgrieztu. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

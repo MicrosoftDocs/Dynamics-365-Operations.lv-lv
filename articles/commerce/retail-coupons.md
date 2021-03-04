@@ -82,3 +82,6 @@ Kupona funkcionalitātē ir ietverti daudzi atšķirīgi līdzekļi. Commerce He
 - **HQ tiek daļēji atjaunināts, bet Commerce Scale Unit un POS — netiek atjaunināti.** HQ atjauninājumā tiek atjaunināts kupons un atlaižu lapas, un komercijas cenu noteikšanas programma arī tiek atjaunināta. Ja tiek atjaunināts tikai viens no šiem diviem komponentiem, dažas Commerce lapas neatbildīs cenu aprēķina datiem. Tāpēc atlaižu aprēķinu laikā var rasties neparedzēti atlaižu aprēķini var kļūdas.
 - **HQ tiek atjaunināts, bet Commerce Scale Unit un POS — netiek atjaunināti (N-1).** Ne visus veikalus var atjaunināt vienlaicīgi, tādēļ HQ ieteicams atjaunināt pirms veikalu atjaunināšanas. N-1 scenārijā jaunā funkcionalitāte, kas ir saistīta ar kuponiem, nebūs pieejama veikalos, kas vēl nav atjaunināti. Piemēram, kupona funkcionalitāte ievieš rindas “Izslēgt”. Ja atlaidei izmantojat rindu izslēgšanu, tās netiks piemērotas veikalā, kurā darbojas vecāka versija.
 - **HQ netiek atjaunināts, bet Commerce Scale Unit un POS — tiek atjaunināti (N+1).** Atjauninātā Commerce Scale Unit cenu noteikšanas programma var apstrādāt mantojuma atlaižu kodus cenu aprēķinu laikā, tādēļ šajā scenārijā atjauninājumam nevajadzētu ietekmēt darbību.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

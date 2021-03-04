@@ -153,3 +153,6 @@ Piedāvājumu kandidātam var anulēt jebkurā brīdī dažādu iemeslu dēļ.
 ## <a name="closing-an-offer"></a>Piedāvājuma slēgšana 
 
 Kad piedāvājums ir pieņemts, noraidīts vai anulēts un nav nepieciešams veikt papildu darbības, varat aizvērt piedāvājumu, lai attiecīgajai piedāvājuma pakotnei nevarētu veikt turpmākus labojumus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

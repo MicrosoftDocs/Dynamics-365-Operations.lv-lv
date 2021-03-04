@@ -64,3 +64,6 @@ Ieplānojiet automātisku jūsu pakešuzdevuma vēstures tīrīšanas uzdevumu. 
 
 8. Mainiet jebkurus citus parametrus zem **Izpildīt fonā**, pēc nepieciešamības, un pēc tam atlasiet **Labi**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

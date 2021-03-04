@@ -144,3 +144,6 @@ Kad darba izveides procesa laikā tiek atlasīts vienums **Ienākošā korekcija
 - Noklusējuma inventarizācijas iemesla kods
 - Rādīt inventarizācijas iemesla kodu
 - Rediģēt inventarizācijas iemesla kodu
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

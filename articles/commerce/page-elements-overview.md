@@ -64,3 +64,6 @@ Tālāk redzamajā tabulā ir sniegts kopsavilkums par terminiem, kas jums jāzi
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
 
 [Vietnes navigācijas pielāgošana](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

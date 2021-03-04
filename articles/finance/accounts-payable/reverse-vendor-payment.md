@@ -83,3 +83,6 @@ Ja atceltais čeks tika izsniegts debitora kompensācijas izmaksai, notiek šād
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Tad ievadiet datu avotu **Ieraksts 2** veidam *Konteiners*. Šis datu avots satu
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

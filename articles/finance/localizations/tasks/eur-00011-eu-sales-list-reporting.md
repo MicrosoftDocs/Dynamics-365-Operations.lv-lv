@@ -129,3 +129,6 @@ ms.locfileid: "4408255"
 8. Laukā Valsts/reģions ierakstiet "PRT".
 9. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

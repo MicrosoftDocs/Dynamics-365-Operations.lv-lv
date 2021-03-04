@@ -51,3 +51,6 @@ ms.locfileid: "4432903"
     * Ņemiet vērā, ka transakcija ar negatīvu summu, kas atspoguļo kopējo atlaižu summu, bez rēķina atsauces tika pievienota debitora bilancei.   
 15. Noklikšķiniet uz Atcelt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Ja vien nav ar likumu noteiktas prasības izmantot nepārtrauktas numuru sērija
 Ja rodas elektropadeves traucējumi, programmas kļūda vai citas neparedzētas kļūmes, sistēma nevar automātiski pārstrādāt nepārtraukto numuru secību numurus. Lai atgūtu zaudētos numurus, manuāli vai automātiski varat palaist tīrīšanas procesu.
 
 Kad plānojat tīrīšanas procesu, rūpīgi apsveriet servera lietojumu. Mēs iesakām veikt tīrīšanu kā pakešuzdevumu ārpus sastrēgumstundām.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

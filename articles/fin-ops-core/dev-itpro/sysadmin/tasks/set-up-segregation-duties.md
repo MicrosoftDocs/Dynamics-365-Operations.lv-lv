@@ -40,3 +40,6 @@ Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem l
 12. Laukā **Drošības mazinājums** ierakstiet vērtību. Ievadiet darbību parakstu, kas jāveic, lai mazinātu drošības risku. Piemēram, var mazināt risku, veicot detalizētāku procesa pārskatīšanu, veicot ikmēneša vadības pārskatīšanu vai koplietojot resursus ar citām nodaļām.     
 13. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -42,3 +42,5 @@ Katrai organizācijai, kas piedāvā atvieglojumus, ir jākonfigurē atvieglojum
    | **Noklusējuma e-pasta sūtītāja adrese** | E-pasta adrese, ko izmantot, sūtot apstiprinājuma e-pastu. |
 
 3. Atlasiet **Saglabāt**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

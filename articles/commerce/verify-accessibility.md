@@ -85,3 +85,6 @@ Lai izmantotu integrēto [Microsoft Accessibility Insights](https://accessibilit
 [Preces lapas papildināšana](enrich-product-page.md)
 
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

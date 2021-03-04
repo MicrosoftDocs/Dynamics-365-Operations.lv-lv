@@ -55,3 +55,6 @@ Tagad varat izveidot abonementa darbības.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

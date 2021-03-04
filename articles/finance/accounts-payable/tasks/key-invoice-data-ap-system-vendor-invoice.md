@@ -73,3 +73,6 @@ ms.locfileid: "4445427"
 19. Noklikšķiniet uz **Grāmatot**.
 20. Aizveriet formu. Ņemiet vērā, ka pirkšanas pasūtījuma norāde vairs neatbilst statusam, ka tas ir saņemts, bet rēķins nav izrakstīts.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

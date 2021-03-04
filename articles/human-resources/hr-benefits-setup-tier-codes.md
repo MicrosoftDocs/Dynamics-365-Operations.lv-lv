@@ -41,3 +41,6 @@ Dynamics 365 Human Resources izmanto pakāpju kodus ar atvieglojumu likmēm, ko 
    | **Apraksts** | Atvieglojuma pakāpes koda apraksts. |
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

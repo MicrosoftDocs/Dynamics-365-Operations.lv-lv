@@ -79,3 +79,6 @@ Lauka **Koeficients** vērtība ir **50**. Šādā gadījumā nolietojums visos 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

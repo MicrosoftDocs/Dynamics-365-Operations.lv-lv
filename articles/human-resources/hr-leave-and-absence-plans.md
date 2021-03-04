@@ -383,3 +383,6 @@ Prognozētā bilance (30) = uzkrājumu summa (10 x 1) + pašreizējā bilanc
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Konfigurēt atvaļinājumu un kavējumu veidus](hr-leave-and-absence-types.md)
 - [Atvaļinājumu un prombūtnes plānu uzkrāšana](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

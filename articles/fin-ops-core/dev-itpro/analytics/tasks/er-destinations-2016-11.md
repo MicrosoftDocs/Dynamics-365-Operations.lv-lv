@@ -60,3 +60,6 @@ Formāts, ko lieto šajā piemērā, ir ISO20022 pārvietošana kredītā, taču
 21. Ierakstiet vērtību laukā Tēma.
 22. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

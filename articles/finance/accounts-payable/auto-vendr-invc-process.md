@@ -69,3 +69,6 @@ Darbvieta **Kreditora rēķina ieraksts** ļauj koncentrēties uz kreditoru rē�
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Kreditora rēķina automatizācija — vairāku rēķinu automatizētas apstrādes atsākšana
 Ja importēto rēķinu neizdodas iesniegt darbplūsmai, izmantojot automatizēto procesu, sistēma noņems to no turpmākās automatizētās apstrādes. Kreditoru darbinieks var pārskatīt un rediģēt rēķinu, pirms automatizētais process to atkārtoti iesniedz darbplūsmai. Ja ar vienu un to pašu labojumu var atrisināt kļūmes iemeslu vairākos rēķinos, varat atsākt automātisko procesu lapā **Atsākt automātisko rēķinu apstrādi**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

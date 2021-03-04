@@ -41,3 +41,6 @@ ms.locfileid: "4414105"
 9. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 10. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

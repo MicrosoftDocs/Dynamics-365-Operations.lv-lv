@@ -78,3 +78,6 @@ Lai atlasītu citu izkārtojumu esošai lapai, rīkojieties, kā norādīts tāl
 
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

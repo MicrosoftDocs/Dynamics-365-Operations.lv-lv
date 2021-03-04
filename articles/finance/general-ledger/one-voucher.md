@@ -186,3 +186,6 @@ Ja labojums ir jāveic virsgrāmatas kontā “Debitoru parādi” vai “Parād
 ### <a name="the-system-allows-it"></a>Funkcionalitāte ir pieejama sistēmā
 
 Organizācijas, neizprotot sekas, bieži izmanto funkcionalitāti “Viens dokuments” tikai tāpēc, ka sistēma ļauj to izmantot.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

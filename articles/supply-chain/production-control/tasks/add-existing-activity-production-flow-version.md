@@ -56,3 +56,6 @@ Lai varētu izpildīt šo uzdevumu, ir nepieciešama ražošanas plūsma ar jau 
 3. Ievadiet vai atlasiet vērtību laukā Aktivitāte.
 4. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

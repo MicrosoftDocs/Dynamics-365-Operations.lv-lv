@@ -45,3 +45,6 @@ Visu datu apstrādi nodrošina darbi. Katra darba un datu nodrošinātāja dokum
     * Šim piemēram atlasiet 2017. finanšu gads, 9. periods.  
 14. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

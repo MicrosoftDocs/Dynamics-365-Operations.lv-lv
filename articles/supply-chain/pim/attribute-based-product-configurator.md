@@ -141,3 +141,6 @@ Pēdējā darbība ir atribūtiem atbilstošu pārdošanas cenu norādīšana pr
 1. Darbību rūtī atveriet cilni **Modelis** un grupā **Produkta modeļa informācija** atlasiet **Versijas**.
 1. Tiek atvērta lapa **Versijas**. Pārliecinieties, vai **Cenu noteikšanas metode** ir iestatīta uz **Atribūtam atbilstošs**.
     ![Cenu noteikšanas metodes iestatīšana uz atribūtam atbilstošs](media/prod-config-versions.png "Cenu noteikšanas metodes iestatīšana uz atribūtam atbilstošs")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

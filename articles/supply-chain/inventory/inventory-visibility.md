@@ -500,3 +500,6 @@ Iepriekšējos piemēros parādītie vaicājumi var atgriezt, piemēram, šādu 
 ```
 
 Ievērojiet, ka daudzuma lauki ir strukturēti kā mērvienību vārdnīca un to saistītās vērtības.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

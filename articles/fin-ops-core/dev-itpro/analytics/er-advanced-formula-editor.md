@@ -171,3 +171,6 @@ Redaktors pašlaik tiek atbalstīts šādās tīmekļa pārlūkprogrammās:
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 - [Monako redaktors](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

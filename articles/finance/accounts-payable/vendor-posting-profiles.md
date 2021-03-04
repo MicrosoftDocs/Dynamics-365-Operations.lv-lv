@@ -119,3 +119,6 @@ Lai iestatītu savu grāmatošanas metodi, norādiet tālāk uzskaitītās vērt
 | **Segums** | Atlasiet šo opciju, lai iespējotu automātisko nosegšanu transakcijām ar šo grāmatošanas metodi. Ja šīs opcijas atzīme ir notīrīta, transakciju nosegšana jums ir jāveic manuāli, izmantojot lapu **Nosegt atvērtās transakcijas**. |
 | **Atcelt**     | Atzīmējiet šo opciju, ja vēlaties iespēju atcelt transakcijas, kurām ir šī grāmatošanas metode.                                                                                                               |
 | **Aizvērt**      | Atlasiet kādu grāmatošanas metodi, kuru mainīt, kad tiek slēgtas transakcijas ar šo grāmatošanas metodi. Darbība tiek uzskatīta par aizvērtu, kad tā ir pilnībā nosegta.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

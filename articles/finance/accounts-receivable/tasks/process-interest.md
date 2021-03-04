@@ -68,3 +68,6 @@ ms.locfileid: "4445611"
 5. Noklikšķiniet uz **Labi**.
 6. Laukā **Statuss** atlasiet 'Iegrāmatots'.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

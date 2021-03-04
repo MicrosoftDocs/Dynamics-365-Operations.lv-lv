@@ -127,3 +127,6 @@ Lai novērstu problēmu, izpildiet šīs darbības.
 
 3. Pārliecinieties, vai **externalenvironmentURL** kolonnai ir pareizs Dataverse vai programmas vietrādis URL. Dzēsiet visas dublētās rindas, kas norāda nepareizu Dataverse vietrādi URL. Dzēsiet atbilstošās rindas DUALWRITEPROJECTFIELDCONFIGURATION un DUALWRITEPROJECTCONFIGURATION tabulās.
 4. Tabulas kartēšanas apturēšana un pēc tam atsākšana
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

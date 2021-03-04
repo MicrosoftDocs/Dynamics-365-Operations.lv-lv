@@ -49,3 +49,6 @@ ms.locfileid: "4432508"
 7. Noklikšķiniet uz Pabeigt.
     * Tagad Kanban darbs izmanto citus Kanban nosacījumus. Tas var noderēt darba šūnu noslodzes līmeņu piešķiršanā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -155,3 +155,6 @@ Pašlaik publicēšanas grupu līdzeklis atbalsta tikai tīmekļa vietnes saturu
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
 
 [Vietnes navigācijas pielāgošana](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

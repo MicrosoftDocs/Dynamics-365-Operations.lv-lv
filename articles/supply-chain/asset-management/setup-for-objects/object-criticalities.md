@@ -62,3 +62,6 @@ Lai iestatītu kritiskumu, vispirms izveidojiet kritiskuma veidus, kas jāizmant
 - Kritiskums darba pasūtījumā tiek pārrēķināts katru reizi, kad darba pasūtījuma rinda tiek pievienota vai dzēsta darba pasūtījumā.
 - Ja darba pasūtījumā ir vairāki darba pasūtījuma darbi, darba pasūtījumā vienmēr tiek izmantots augstākais kritiskums saskaņā ar lauku **Koeficients** lapā **Kritiskuma veidi**.
 - Parasti līdzekļu kritiskums laika posmā var mainīties. Kritiskumu var ietekmēt jaunu iekārtu iegāde, atjaunošana un tā tālāk. Apsveriet iespēju regulāri no jauna izvērtēt savu līdzekļu kritiskās vērtības (piemēram, reizi gadā vai katru otro gadu), lai nodrošinātu, ka jūsu kritiskuma definīcijas atbilst aktuālajiem ražošanas iestatījumiem.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

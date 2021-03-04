@@ -60,3 +60,6 @@ Kad jūsu organizācija palielinās un apsverat pēctecības plānošanu, iespē
 28. Noklikšķiniet uz Atskaite.
     * Atskaitē vislabākās atbilstības ir uzskaitītas atskaites augšpusē.  Varat redzēt, ka ir uzskaitīts starpības elements.  Šis vienums apzīmē atšķirību starp prasmju kartējumā uzskaitīto līmeni un attiecīgajai personai piešķirto prasmju līmeni.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

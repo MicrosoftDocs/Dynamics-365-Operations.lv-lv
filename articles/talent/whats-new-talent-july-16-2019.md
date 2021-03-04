@@ -142,3 +142,6 @@ Organizācijas var piedāvāt darbiniekiem daudz dažādus atvaļinājumu tipus.
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Veiktspējas informācijas skatīšana tiešajām un izvērstajām atskaitēm vadītāja patstāvīgi lietojamajā pakalpojumā
 
 Jauna opcija ļaus vadītājiem apskatīt gan savas tiešās veiktspējas atskaites, gan izvērstās atskaites. Pašlaik rindu pārvaldnieki var piešķirt un atjaunināt veiktspējas mērķus un izdot jaunas atsauksmes. Turklāt tiešie vadītāji un viņu darbinieki var uzturēt un atjaunināt veiktspējas žurnālus, lai palīdzētu nodrošināt, ka veiktspējas pārskatīšanas process norit raiti. Kad šīs izmaiņas būs ieviestas, papildus savām tiešajām atskaitēm pārvaldnieki varēs skatīt un uzturēt ar veiktspēju saistītu informāciju par savām izvērstajām atskaitēm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

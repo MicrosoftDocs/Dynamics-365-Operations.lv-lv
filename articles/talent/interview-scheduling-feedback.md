@@ -102,3 +102,6 @@ Ja atlasāt lauku **Pārmantot aktivitātes Atsauksmes dalībniekus no darbā pi
 Aktivitāte Intervija ir izvēles aktivitāte, kas sastāv no trīs komponentiem: **Kandidāta pieejamības pieprasījums**, **Grafiks** un **Atsauksmes**. Izmantojiet intervijas aktivitāti darba veidnē, ja vēlaties visus komponentus Kandidāta pieejamības pieprasījums, Grafiks un Atsauksmes iekļaut procesā, nevis tos izmantot atsevišķi.
 
 Lai iekļautu vai ierobežotu kandidātus, kurus paredzēts intervēt, atlasiet vērtību laukā **Personas, kuras paredzēts intervēt**. Pieejamās opcijas ir **Visi kandidāti**, **Ārējie kandidāti** un **Iekšējie kandidāti**. Piemēram, ja vēlaties izlaist iekšējos kandidātus pirmajā intervēšanas kārtā, iestatiet vienumam **Personas, kuras paredzēts intervēt** opciju **Ārējie kandidāti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

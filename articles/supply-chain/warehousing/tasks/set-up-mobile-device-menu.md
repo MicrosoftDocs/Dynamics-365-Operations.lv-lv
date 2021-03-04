@@ -69,3 +69,6 @@ ms.locfileid: "4432990"
 5. Atlasiet bultiņu, kas norāda pa labi.
 6. Atlasiet **Saglabāt**.
 7. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Pamatojoties uz laukiem, kas atlasīti iekļaušanai diagrammā, katrs zars rād
 **Papildu opcija**
 
 Human Resources var lietot arī darbvietu **Personas**, lai skatītu ar hierarhiju saistīto informāciju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

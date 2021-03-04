@@ -102,3 +102,6 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
 7. Lai skatītu vērtības samazinājuma tīro ietekmi, dodieties uz saistību un līdzekļu darījumu tabulām. Ievērojiet, ka vērtības samazināšanās izdevumi ir samazinājuši LLT, bet nomas saistības uzskaites summa nav mainījusies.
 
 Vērtības samazinājumam ir viens cits efekts, kas jāņem vērā. Tā kā LLT summa tagad ir daudz mazāka par nomas saistībām, summai jābūt izlietotai citādi nekā pirms tam. Proti, līdzeklis tagad tiek nolietots lineārā veidā visu atlikušo nomas 84 mēnešu laikā, sākot no darījuma datuma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

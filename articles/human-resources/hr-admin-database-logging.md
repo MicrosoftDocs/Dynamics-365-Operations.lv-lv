@@ -87,3 +87,6 @@ Lai iestatītu datu bāzes žurnāla tīrīšanu, rīkojieties šādi:
    - Izveidotais datums un laiks
 
 3. Izmantojiet cilni **Datu bāzes žurnāla tīrīšana**, lai noteiktu, kad palaist žurnāla tīrīšanas uzdevumu. Pēc noklusējuma datu bāzes žurnāli ir pieejami 30 dienas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

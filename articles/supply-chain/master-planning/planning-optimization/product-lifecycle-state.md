@@ -42,3 +42,6 @@ Izlaistās preces un varianti, kuros **Preču dzīves cikla stāvokļa** lauks i
 Lai iegūtu vairāk informācijas par preču dzīves cikliem, skatiet [Preču dzīves cikla pārskats](../../pim/product-lifecycle.md).
 
 Lai iegūtu detalizētu informāciju, kas iekļauj darbības preču dzīves ciklu izmantošanai, lai izslēgtu preces no vispārējās plānošanas un MK līmeņa aprēķiniem, skatiet [Preces dzīves cikla stāvokļa izveidošana, lai izslēgtu preces no vispārējās plānošanas](../../pim/tasks/exclude-products-master-planning.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

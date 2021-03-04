@@ -130,3 +130,6 @@ Nākamajās darbībās ir paskaidrots, kā lietotājs ar lomu “Sistēmas admin
 3. Noklikšķiniet uz **Pārlūkot** un atlasiet failu **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Noklikšķiniet uz **Labi**.
 5. Pārskatiet ģenerēto failu. Ievērojiet, ka tas pats fails ir importēts, jo formāta dizainā tiek pieņemts, ka elementam “document” atribūts “id” ir neobligāts.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

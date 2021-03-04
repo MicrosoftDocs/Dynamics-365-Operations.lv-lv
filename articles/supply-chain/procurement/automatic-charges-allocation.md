@@ -177,3 +177,6 @@ Procedūrā zemāk ir parādīts, kā piešķirt galvenes līmeņa maksas rindai
         > Strādājot ar režģi **Izvēlēties rindas, ko izslēgt no sadalījuma**, noteikti atstājiet režģi atvērtu, līdz atlasāt **Piešķirt**. Ja aizvērsit režģi, pirms atlasāt **Piešķirt**, iestatījumi režģī tiks zaudēti. Tāpēc maksas tiks piešķirtas, pamatojoties uz iepriekš definētajiem kritērijiem.
 
 1. Atlasiet **Piešķirt**, lai iestatījumus piemērotu un aizvērtu dialoglodziņu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

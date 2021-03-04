@@ -68,3 +68,6 @@ Sarakstus ar darbiniekiem, kas tika ģenerēti, izmantojot filtrēšanas opcijas
 Ja nepieciešams ziņot par ietvertajām personām, jo kā darba devējs jūsu nodrošināt paša apdrošinātu segumu, tad varat skatīt arī jebkurus apgādājamos, kuri ir iekļauti atvieglojumu plānos, kas ir atzīmēti kā **Norādāms ACA pārskatā**, darbību rūts joslā atlasot darbību Skatīt apgādājamo segumu.
 
 **Piezīme.** Uzziņu lokā tiek rādīti tikai atvieglojumi, kuru plāns ir atzīmēts kā **Norādāms ACA pārskatā**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

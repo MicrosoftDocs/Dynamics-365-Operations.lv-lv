@@ -89,3 +89,6 @@ Tālāk esošajos pārskatos ir sniegta atsauces informācija par objektiem.
 - [Atskaite par licenču kodiem un konfigurācijas atslēgām](../sysadmin/license-codes-configuration-keys-report.md)
 - [Pieejamie SQL Server pārskatu izveides pakalpojumu (SSRS) pārskati](SSRS-report.md)
 - [Darbplūsmu tipu pārskats](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Lai izveidotu darbā pieņemšanas procesa veidni, izpildiet tālāk aprakstīto
     - Lai noņemtu kādu aktivitāti, izvērsiet to un pēc tam atlasiet atkritnes pogu šīs aktivitātes galvenē.
 
 8. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

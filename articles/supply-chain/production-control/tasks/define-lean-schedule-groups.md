@@ -56,3 +56,6 @@ Racionālās plānošanas grupas tiek definētas, lai grupētu un izšķirtu pre
 3. Laukā Krājumu sadalījuma princips noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4693044"
 6. Noklikšķiniet uz Saglabāt.
     * Pēc pieteikuma saglabāšanas varat tam pievienot dokumentus, tai skaitā kandidāta pieredzi un apbalvojumus apliecinošus dokumentus un pavadvēstuli.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

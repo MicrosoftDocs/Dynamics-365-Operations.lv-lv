@@ -104,3 +104,6 @@ Lai mārketinga lapai pievienotu multivides galerijas moduli, veiciet tālāk mi
 [Konteinera modulis](add-container-module.md)
 
 [Attēlu augšupielāde](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

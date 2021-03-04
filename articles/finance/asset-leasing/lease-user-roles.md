@@ -44,3 +44,6 @@ Veiciet šīs darbības, lai piešķirtu lietotājus lomām, kas tiek izmantotas
 1. Dodieties uz **Sistēmas administrēšana \> Drošība \> Piešķirt lomas lietotājiem**.
 2. Atlasiet lomu **Nomas uzturēšana**, **Nomas darbinieks** vai **Nomas skatīšana** un pēc tam atlasiet **Manuāli piešķirt/izslēgt lietotājus**.
 3. Atlasiet lietotāju, kuram piešķirt lomu, un pēc tam atlasiet **Piešķirt lomai**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

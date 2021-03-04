@@ -305,3 +305,6 @@ Sistēmas norādītie darbu secības vaicājumi ir *iekļauti*. Šo faktu ir sva
 Tāpēc šī scenārija piemērā vaicājumā bija iekļauts arī *4.*  darba ID. Pēc tā izveidošanas tika pievienotas divas rindas: viena iestatījumam 25 ea un otra — 10 ea. Darbs vienalga tika rādīts darbiniekam, jo vismaz vienā darba rindā iekļautais daudzums bija mazāks par 20 ea.
 
 Atkarībā no scenārija varat novērst šādu norisi, izmantojot darba pārtraukumus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

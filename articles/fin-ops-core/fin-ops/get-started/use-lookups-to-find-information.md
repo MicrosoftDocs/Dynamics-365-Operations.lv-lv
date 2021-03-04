@@ -83,3 +83,6 @@ Tā vietā lietotājam ir jānotīra uzmeklēšanas vadīklas vērtība, jāatve
 Pēc filtra lietošanas (skatiet nākamo attēlu) lietotājs var atrast un atlasīt rindu kā parasti.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

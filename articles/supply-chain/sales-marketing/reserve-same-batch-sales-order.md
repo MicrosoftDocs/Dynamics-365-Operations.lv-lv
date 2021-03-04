@@ -45,3 +45,6 @@ Ja rezervējat krājumus precei pārdošanas pasūtījuma rindā, kas ir iestat�
 - Partijas atlikušais glabāšanas laika dienu skaits nav pietiekams, pamatojoties uz beigu datumu un derīguma termiņa datumu, pie kura pieskaita pārdošanas debitoriem dienas.
 
 Krājumiem, kas saistīti ar noliktavas dimensiju grupu, kurai ir iespējota opcija **Izmantot noliktavas vadības procesus**, varat rezervēt konkrētus partijas numurus, izmantojot rezervāciju hierarhiju ar partijas numura krājuma dimensiju, kas noteikta virs novietojuma dimensijas. Lapa **Partijas rezervācija** pārsūtīšanas pasūtījuma rindām ļauj izvēlēties un rezervēt vairākas rindas, pamatojoties uz pieejamiem partijas numuriem. Papildinformāciju par to, kā rīkoties, ja izmantojat rezervāciju hierarhiju, kurai ir partijas numura dimensija zem vietas, skatiet rakstā [Elastīga noliktavas līmeņa dimensiju rezervācijas politika](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

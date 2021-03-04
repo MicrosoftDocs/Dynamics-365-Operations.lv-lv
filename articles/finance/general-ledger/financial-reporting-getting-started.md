@@ -173,3 +173,6 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 ## <a name="additional-resources"></a>Papildu resursi
 - [Skatīt finanšu pārskatus](view-financial-reports.md)
 - [Pārskatu koka definīcijas finanšu pārskatos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

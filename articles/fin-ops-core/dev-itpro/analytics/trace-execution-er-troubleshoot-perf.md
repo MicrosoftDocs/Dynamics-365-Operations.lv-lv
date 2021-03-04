@@ -376,3 +376,6 @@ Atkārtojiet šīs tēmas iepriekšējā sadaļā [ER formāta palaišana](#run-
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

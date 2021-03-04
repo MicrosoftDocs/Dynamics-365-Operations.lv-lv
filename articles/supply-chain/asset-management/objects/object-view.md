@@ -48,3 +48,6 @@ Funkcionālā novietojuma ID / Funkcionālā novietojuma ID (ja ir vairāk nekā
 Ja esat atlasījis līdzekli koka skatā, varat atlasīt **Aktīvos pieprasījumus** vai **Aktīvos darba pasūtījumus**, lai skatītu ar līdzekli saistītos uzturēšanas pieprasījumus vai darba pasūtījumus. Varat arī atlasīt **Atvērt** \> **Funkcionālais novietojums**, **Līdzeklis** vai **Līdzekļa MK**, lai atvērtu saistīto skatu.
 
 Opcija **Līdzekļu funkcionālie novietojumi**, kuru var atlasīt laukā **Skats**, ir pieejama arī jebkurā līdzekļa uzmeklēšanas sarakstā, kur varat atlasīt līdzekli. Koka skats tiek rādīts cilnē **Līdzekļa skats**, piemēram, kur [izveidot līdzekli](../objects/create-an-object.md) izveidojat uzturēšanas pieprasījumu vai izveidojat darba pasūtījumu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

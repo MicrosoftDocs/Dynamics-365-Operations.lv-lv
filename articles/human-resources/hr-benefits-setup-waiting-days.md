@@ -42,3 +42,6 @@ Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido 
    | **diena;** | Mēneša diena, kurā sistēmai jāiestata gaidīšanas perioda datums. |
    
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

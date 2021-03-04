@@ -43,3 +43,6 @@ Kā indeksa likmes metode ir jāatlasa **Indeksa likmes vērtību starpība** va
 
 - Atlasiet metodi **Indeksa likmes vērtību starpība**, lai aprēķinātu jaunu nomas maksājumu, pamatojoties uz starpību starp indeksa likmi sākuma datumā un visjaunāko indeksa likmi. Indeksa likme ir definēta laukā **Indeksa likme (%)**.
 - Atlasiet metodi **Indeksa likmes vērtība**, lai aprēķinātu nomas maksājumu, izmantojot procentuālo vērtību, kas norādīta laukā **Indeksa likme (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

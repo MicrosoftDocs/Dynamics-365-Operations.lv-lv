@@ -63,3 +63,6 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Field Service preces ar krājumu uzskaites vienību (no Supply Chain Management uz Field Service): Preces
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProduct1.png)](./media/FSProduct1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

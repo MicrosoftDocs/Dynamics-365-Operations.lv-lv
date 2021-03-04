@@ -136,3 +136,6 @@ Jauna spēkā esošā vidējā izmaksu cena attēlo finansiāli vai fiziski atja
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

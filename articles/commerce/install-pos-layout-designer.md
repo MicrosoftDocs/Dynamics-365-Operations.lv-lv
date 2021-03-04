@@ -63,3 +63,6 @@ Pārdošanas punkta MPOS vai mākoņa POS grafiskā dizaina interfeisu nosaka ka
 ## <a name="additional-resources"></a>Papildu resursi
 
 [ Retail Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

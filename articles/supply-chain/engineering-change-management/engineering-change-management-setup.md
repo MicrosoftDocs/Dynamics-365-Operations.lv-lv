@@ -91,3 +91,6 @@ Katrai noteikumu kopai iestatiet tālāk norādīto lauku.
 - **Stingrība** – Atlasiet stingrības līmeni, lai izveidotu noteikumus. Lai izveidotu un nosauktu līmeņus, izmantojiet lapu **Tehnisko izmaiņu stingrība**. (Papildinformāciju skatiet iepriekšējā sadaļā.)
 
 Izmantojiet pogas kopsavilkuma cilnē **Kārtulas**, lai pievienotu vai noņemtu kārtulu pašreizējam stingrības iestatījumam. Katrai kārtulai ir lauks **Kārtula** un lauks **Nosaukums**. Šos noteikumus nosaka sistēma, un tajos ir norādīti produkta iespējamo izmaiņu veidi. Nosaukums norāda izmaiņu veidu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

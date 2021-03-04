@@ -91,3 +91,6 @@ Tīmekļa satura (iframe) aktivitāte dod iespēju iegult pielāgotu tīmekļa r
 
 > [!NOTE]
 > Aktivitāte Tīmekļa aktivitāte ir pieejama tikai tad, ja jums ir visaptverošais darbā pieņemšanas papildinājums
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

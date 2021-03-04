@@ -62,3 +62,6 @@ Var simulēt rūpnīcas mašīnas signālus. Papildinformāciju skatiet šādās
 + [IoT DevKit AZ3166 savienošana ar Azure IoT centrmezglu](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Raspberry Pi tiešsaistes simulatora savienošana ar Azure IoT centrmezglu (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Ierīces simulācijas risinājuma paātrinātāja pārskats](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

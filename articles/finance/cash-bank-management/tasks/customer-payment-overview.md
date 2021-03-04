@@ -52,3 +52,6 @@ ms.locfileid: "4445574"
 21. Laukā **Maksājuma atsauce** ievadiet maksājuma atsauci. Maksājuma atsauce ir nepieciešama tikai tad, ja atzīmējat maksājumu iekļaušanai depozīta kvītī.  
 22. Lai grāmatotu starpuzņēmumu debitora rēķinu, sadaļā **Darbību rūts** noklikšķiniet uz **Grāmatot**, lai iegrāmatotu debitoru maksājumus. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

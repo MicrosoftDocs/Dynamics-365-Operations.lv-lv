@@ -62,3 +62,6 @@ Lauks **Blakusproduktu izmaksu sadalījums** lapā **Līdzprodukti** ir skaitīt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

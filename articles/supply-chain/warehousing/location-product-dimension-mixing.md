@@ -239,3 +239,5 @@ Jūs izveidosiet pirkuma pasūtījumu, kam ir trīs rindas: divas rindas satur v
 
 > [!TIP]
 > Varat atkārtot šo scenāriju, bet šoreiz iestatiet **Izmēru** - *Nē* atbilstoši kopsavilkuma cilnes sadaļā **Atļaut produktu dimensiju jaukšanu** uz *LIELAPJOMA*, **Atrašanās vietas profiliem**, lai neviens no preces dimensijām nevarētu sajaukt. Šādā gadījumā, saņemot pirkuma pasūtījumu, katrs produktu variants tiks nosūtīts uz jaunu atrašanās vietu.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

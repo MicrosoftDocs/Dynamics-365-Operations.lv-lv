@@ -55,3 +55,6 @@ Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elek
 5. Atlasiet **Aizvērt**. 
 6. Atlasiet nepieciešamo ER konfigurācijas versiju un atlasiet **Importēt**, lai ievietotu to pašreizējā instancē.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

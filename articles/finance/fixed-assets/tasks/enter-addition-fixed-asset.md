@@ -46,3 +46,6 @@ ms.locfileid: "4445603"
     * Ja papildinājums paildzina līdzekļa lietošanas ilgumu, iestatiet **Palielina lietošanas ilgumu** uz **Jā**.  
     * Šim laukam ir tikai informatīvs raksturs. Lai palielinātu līdzekļa lietošanas ilgumu, mainiet lietošanas ilgumu vērtību modeļos un/vai nolietojuma grāmatās.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

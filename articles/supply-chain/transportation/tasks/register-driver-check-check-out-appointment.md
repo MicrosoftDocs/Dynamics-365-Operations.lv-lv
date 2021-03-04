@@ -46,3 +46,6 @@ ms.locfileid: "4433151"
 1. Noklikšķiniet uz Autovadītāja reģistrēšanās pēc norīkojuma pabeigšanas
 2. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

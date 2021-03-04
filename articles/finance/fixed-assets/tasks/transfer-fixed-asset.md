@@ -48,3 +48,6 @@ ms.locfileid: "4445602"
     * Pirms pamatlīdzekļa grāmatu pārsūtīšanas pārskatiet rezultātus.  
 10. Noklikšķiniet uz **Pārsūtīt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

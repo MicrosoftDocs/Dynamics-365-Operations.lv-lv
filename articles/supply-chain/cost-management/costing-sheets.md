@@ -50,3 +50,6 @@ Izmaksu aprēķina lapa tiek parādīta kā daļa no lapas **Aprēķināt krāju
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -205,3 +205,6 @@ Tālāk redzamajā attēlā ir parādīts, kā izskatās Logic Apps Designer, ka
 Šajā apmācībā apguvāt, kā izmantot loģikas programmu, lai eksportētu datus no Human Resources un saglabātu eksportētos datus OneDrive biznesam mapē. Pēc nepieciešamības varat modificēt šīs apmācības darbības, lai pielāgotos sava biznesa vajadzībām.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

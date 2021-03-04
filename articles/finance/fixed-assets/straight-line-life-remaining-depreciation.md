@@ -80,3 +80,6 @@ Nolietojuma summa ir tāda pati katru gadu: (Pirkšanas vērtība — Lūžņu v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

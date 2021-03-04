@@ -89,3 +89,6 @@ Gada otrajā pusē jūsu klients izlemj, ka apkopes vizītes notiek pārāk reti
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Priekšnosacījumi:
 12. Noklikšķiniet uz Pabeigt.
 13. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

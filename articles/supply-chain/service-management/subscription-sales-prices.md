@@ -380,3 +380,6 @@ Pirmajā transakcijā abonementam 00020\_135 pārdošanas cena 550 EUR tiek atv
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

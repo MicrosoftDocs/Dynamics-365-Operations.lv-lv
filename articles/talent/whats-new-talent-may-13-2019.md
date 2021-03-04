@@ -82,3 +82,6 @@ Organizācijām var būt nepieciešami iemeslu kodi noteiktiem atvaļinājumu ti
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Atvaļinājumu un kavējumu transakciju sarakstu nodrošināšana personāla vadībai
 
 Iespēja izsekot darbinieku brīvajam laikam un saprast, kā tiek aprēķināts brīvais laiks, ne tikai palīdz personāla vadībai (Human Resources — HR) atbildēt uz darbinieku jautājumiem, bet arī palīdz nodrošināt darbiniekiem precīzas brīvā laika piemaksas. Personāla vadībai tagad ir jauns skats uz transakcijām (dotācijām, uzkrājumiem, korekcijām un pieprasījumiem), lai personāla vadības darbinieki redzētu brīvā laika bilanču aprēķinu ietekmējošos faktorus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Tālāk esošajā attēlā ir parādīts, kā publicēt kanālu atjauninājumus.
 [Kanālu navigācijas hierarhijas izveide](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

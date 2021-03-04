@@ -153,3 +153,6 @@ ms.locfileid: "4408261"
     
 Pārskatiet pārsūtītos datus, tostarp saņēmēja/nosūtītāja valsti/reģionu, izcelsmes valsti, svaru, daudzumu, daudzumu papildmērvienībās, preci, transakcijas kodu, rēķinu summas un statistiskās summas. Ja nepieciešams, datus var modificēt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

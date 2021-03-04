@@ -92,3 +92,6 @@ Kad esat pabeidzis reģistrāciju, atlasiet **Gatavs**, lai grāmatotu žurnālu
 -   Materiālu var pārmērīgi patērēt. Piemēram, ja tika novērtēts materiāla patēriņš 100 mārciņas, tad tas var tikt pārmērīgi patērēts ar daudzumu, piemēram, 105 mārciņas.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

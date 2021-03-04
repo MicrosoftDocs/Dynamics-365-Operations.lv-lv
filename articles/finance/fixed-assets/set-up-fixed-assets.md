@@ -84,3 +84,6 @@ Varat konfigurēt iemesla kodus, lai tie tiktu pieprasīti pamatlīdzekļu izmai
 Visbeidzot — cilnē **Numuru sērijas** jūs definējat pamatlīdzekļu numuru sērijas. **Pamatlīdzekļu** numuru sēriju var pārrakstīt ar **Pamatlīdzekļu grupu** numuru sēriju, ja tāda ir norādīta.
 
 Papildinformāciju skatiet tēmā [Pamatlīdzekļa izveide](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Izteiksme `FIRST(SPLIT("",1)).Value` izpildlaikā rāda izņēmumu.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

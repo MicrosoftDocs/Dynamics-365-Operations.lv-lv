@@ -56,3 +56,6 @@ ms.locfileid: "4432492"
 1. Iestatiet maksimālo daudzumu uz "100".
     * Izvērsiet daudzumu kopsavilkuma cilni, lai redzētu lauku Maksimālais daudzums. Nomainot maksimālo daudzumu uz 100, ļaus apstrādāt līdz pat 100 kanban.    Šā ir pēdējā darbība šajā uzdevumā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

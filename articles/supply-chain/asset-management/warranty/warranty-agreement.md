@@ -55,3 +55,6 @@ Garantijas līgumā var iekļaut vairākas līguma rindas, lai segtu darba stund
     4. Laukā **Procenti** ievadiet nodrošinājuma procentuālo vērtību garantijas rindai. Procenti norāda, cik daudz jūsu uzņēmums sedz.
 
 ![Garantijas lapa](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

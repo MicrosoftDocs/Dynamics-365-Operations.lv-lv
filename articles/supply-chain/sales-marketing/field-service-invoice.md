@@ -108,3 +108,6 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Līguma rēķini (no Field Service uz Supply Chain Management): Rēķinu rindas
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

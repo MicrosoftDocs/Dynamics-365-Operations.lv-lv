@@ -222,3 +222,6 @@ Ja lietotāji manuāli ignorē aprēķinātās maksas vai pievieno darījumam ma
 
 [Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

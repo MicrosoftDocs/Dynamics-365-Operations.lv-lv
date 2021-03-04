@@ -296,3 +296,6 @@ Pirms krājumu var izvietot klasterī, klasteris ir jāslēdz.
 ## <a name="notes-and-tips"></a>Piezīmes un padomi
 
 Gadījumos, kad klastera ID ir kļuvis par pamatnumura zīmi ligzdotai paletei, novietošanas pozīcija tiek norādīta automātiski, kad tiek skenēts klastera ID. Neviena papildu numura zīme nedrīkst tikt skenēta, pat ja numura zīmes ģenerēšana ir iestatīta uz manuālu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

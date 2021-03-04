@@ -41,3 +41,6 @@ Lai izveidotu un grāmatotu īstermiņa saistību pārklasificēšanas žurnāla
 4. Ieslēdziet parametru **Grāmatot**. Pretējā gadījumā, ja ieraksts ir jāizveido, bet nav jāgrāmato, atstājiet šo parametru izslēgtu.
 5. Ieslēdziet parametru **Priekšskatīt pirms grāmatošanas**, lai skatītu ierakstu pirms tā grāmatošanas.
 6. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Ja tiek atrasta kāda validācijas kļūda, vienīgais veids, kā šo kļūdu no
 
 > [!NOTE]
 > Kādā no turpmākajiem laidieniem tiks pievienotas papildu validēšanas kārtulas, lai atbalstītu vairāk scenāriju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Tāpēc tiek automātiski izveidoti tālāk norādītie uzskaites ieraksti, lai 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4432581"
 11. Atlasiet **Labi**.
 12. Aizvērt lapu. Līgums tagad ir spēkā. Varat sākt saistīt klienta pasūtījumus ar līgumu, lai to ieskaitītu noteiktajā mērķī.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

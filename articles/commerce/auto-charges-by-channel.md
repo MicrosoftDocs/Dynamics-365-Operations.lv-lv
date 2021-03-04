@@ -128,3 +128,6 @@ Atlasot **Transakciju opcijas \> Izmaksas \> Pārvaldīt maksas** POS programmā
 [Omni kanāla papildu automātiskās maksas](omni-auto-charges.md)
 
 [Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Zemāk redzamajā ekrānuzņēmumā ir redzams "vienuma, kurā izmantots" aprē�
 
 !["Vienuma, kurā izmantots" aprēķina piemērs](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Sekojošais piemērs parāda, kā var iegūt unikālo debitoru kontu numuru sara
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

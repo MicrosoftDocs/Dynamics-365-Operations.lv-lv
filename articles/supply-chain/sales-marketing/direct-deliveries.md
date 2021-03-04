@@ -53,3 +53,6 @@ Kad veidojat tiešo piegādi, jūsu pārdotie krājumi nekad fiziski netiek ieve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Sekojošajā ilustrācijā redzama šī darījumu sērija ar ietekmi, ko rada LI
 - Krājuma slēgšanas, kas atzīmētas ar sarkanu vertikālu punktlīniju un etiķeti *Krājuma slēgšana*.
 - Segšanas, kas ir veiktas, noslēdzot krājumus, un atzīmētas ar sarkanām diagonālām punktlīnijas bultām, kas savieno saņemšanu un izdošanu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

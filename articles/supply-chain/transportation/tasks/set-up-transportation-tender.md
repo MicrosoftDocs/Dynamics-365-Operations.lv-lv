@@ -48,3 +48,6 @@ ms.locfileid: "4432560"
 7. Klikšķiniet Iesniegt.
 8. Atlasīt maršrutu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

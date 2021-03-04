@@ -47,3 +47,6 @@ ms.locfileid: "4432884"
 14. Ievadiet kādu skaitli laukā Diapazons no.
 15. Ievadiet kādu skaitli laukā Diapazons līdz.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

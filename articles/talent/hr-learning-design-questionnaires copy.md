@@ -246,3 +246,6 @@ Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jaut�
 
 [Anketu rezultātu skatīšana un novērtēšana](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

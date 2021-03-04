@@ -68,3 +68,6 @@ Pirms varat iestatīt atvieglojumu plānus risinājumā Microsoft Dynamics 365 H
 3. Atlasiet **Saglabāt**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

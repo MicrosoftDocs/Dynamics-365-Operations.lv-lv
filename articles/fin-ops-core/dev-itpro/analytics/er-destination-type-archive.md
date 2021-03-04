@@ -57,3 +57,6 @@ Kad dokumentu tipa atrašanās vieta ir iestatīta uz **Azure krātuve**, varat 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 - [Dokumentu pārvaldības konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

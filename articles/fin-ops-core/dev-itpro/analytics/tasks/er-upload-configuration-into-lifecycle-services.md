@@ -145,3 +145,6 @@ ms.locfileid: "4684167"
     Ir jāuzskaita jūsu augšupielādētā ER konfigurācija.
 
     Ņemiet vērā, ka augšupielādēto LCS konfigurāciju var importēt citā instancē, ja nodrošinātājiem ir piekļuve šim LCS projektam.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

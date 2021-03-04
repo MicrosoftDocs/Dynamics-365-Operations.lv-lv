@@ -80,3 +80,6 @@ Līdz ar šīs izmaiņas ieviešanu dublikāti tiek noteikti, kad aizpildāt vā
 
 ### <a name="email-support-for-alerts"></a>E-pasta atbalsts brīdinājumiem
 Līdz ar platformas atjauninājumu 26 Finance and Operations ieviešanu lietotāji var izveidot brīdinājumu kārtulas, kas automātiski sūta e-pasta paziņojumus kontaktpersonām, ja kāds notikums tās aktivizē.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

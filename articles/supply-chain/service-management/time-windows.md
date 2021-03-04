@@ -45,3 +45,6 @@ Ja pakalpojumu līguma rindai nenorādāt laika logu, tad pakalpojuma pasūtīju
 
 [Laika loga izveide](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

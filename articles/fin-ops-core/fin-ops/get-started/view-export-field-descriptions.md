@@ -107,3 +107,6 @@ Informāciju par dažādajiem veidiem, kā atrast lapas, skatiet agrākā šī r
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Lauku aprakstu pielāgošana](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

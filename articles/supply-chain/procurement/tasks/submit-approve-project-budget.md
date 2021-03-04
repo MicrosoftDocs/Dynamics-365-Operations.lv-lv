@@ -57,3 +57,6 @@ Kad veidojat projekta budžetu, varat ievadīt projektam prognozētos ieņēmumu
 21. Laukā **Komentārs** ierakstiet vērtību.
 22. Noklikšķiniet uz **Iesniegt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

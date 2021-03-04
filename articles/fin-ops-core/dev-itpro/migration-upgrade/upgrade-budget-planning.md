@@ -162,3 +162,6 @@ Ir pievienoti vairāki datu elementi, lai iespējot ātru budžeta plānošanas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

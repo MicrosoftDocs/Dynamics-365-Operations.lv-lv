@@ -69,3 +69,6 @@ Ar šo procedūru tiek izveidots Kanban nosacījums, izmantojot Kanban rindas no
     * Ņemiet vērā, ka Kanban vērtībai 27 tika izveidots, lai apstrādātu aktivitāti, pamatojoties uz izveidoto Kanban nosacījumu.  
     * Šis ir pēdējais solis.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

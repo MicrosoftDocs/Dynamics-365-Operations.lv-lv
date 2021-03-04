@@ -54,3 +54,6 @@ Piešķiriet izvietojuma kodus, kad tiek saņemts krājums vai atgrieztā krāju
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

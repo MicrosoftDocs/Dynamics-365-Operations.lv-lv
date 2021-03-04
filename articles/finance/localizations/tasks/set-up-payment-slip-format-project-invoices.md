@@ -66,3 +66,6 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “DEMF” dati.
 16. Noklikšķiniet uz Saglabāt.
 17. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Lai izpildītu šīs procedūras darbības, vispirms izpildiet procedūru "ER ko
  30. Laukā Atļaut darījuma pārbaudes izveidi neaktīviem bankas kontiem atlasiet Jā.  
  31. Noklikšķiniet uz Saglabāt.  
  32. Aizvērt lapu.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

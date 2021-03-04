@@ -183,3 +183,6 @@ Apstiprināšanas process sastāv no apstiprināšanas darbībām. Veiciet šād
 1. Darbplūsmas redaktorā veiciet dubultklikšķi uz apstiprināšanas procesa. Darbplūsmas redaktorā tiek parādītas apstiprināšanas procesa darbības.
 2. Lai pievienotu apstiprināšanas darbību, velciet darbību no apgabala **Darbplūsmas elementi** uz audekla.
 3. Lai konfigurētu apstiprināšanas darbību, skatiet sadaļu [Apstiprinājuma darbību konfigurēšana darbplūsmā](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

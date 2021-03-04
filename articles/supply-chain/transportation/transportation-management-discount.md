@@ -33,3 +33,6 @@ Lai iestatītu atlaides transportēšanas pārvaldībai, dodieties uz **Transpor
 Varat izvēlēties, vai izsniegt atlaidi jūsu klientam (iestatot atlaides veidu uz klientu) vai saglabāt to uzņēmumā (iestatot atlaides veidu uz nosūtītāju). Tas ļauj definēt iestatījumu, kurā tiek nopelnīts uzcenojums aprēķinātajām kravas izmaksām.
 
 Katrai atlaidei varat iestatīt vairākus apzīmējumus, piemēram, pārvadātāju, pārvadātāja pakalpojumu, piegādes nosacījumus, klientu, galamērķi un daudz ko citu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

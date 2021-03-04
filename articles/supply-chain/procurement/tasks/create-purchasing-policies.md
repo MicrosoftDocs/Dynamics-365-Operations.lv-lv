@@ -57,3 +57,6 @@ ms.locfileid: "4432718"
 4. Atlasiet **Aizvērt**.
 - Tagad pirkšanas politikai varat iestatīt citas politikas kārtulas. Ņemiet vērā, ka tipā Politikas kārtula nevar būt kārtulu, kuras pārklājas un kuras vienlaicīgi ir aktīvas vienā un tajā pašā sagādes politikā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

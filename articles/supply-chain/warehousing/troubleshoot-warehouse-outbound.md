@@ -62,3 +62,6 @@ Krājums tiek pievienots pārdošanas rindai tiešajai piegādei no noliktavas, 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Korporācija Microsoft ir izvērtējusi šo problēmu un ir noteikusi, ka tas ir līdzekļa ierobežojums. Pašlaik WMS neatbalsta tiešo piegādi. Tāpēc, lai izmantotu tiešo piegādi, jāatlasa WMS krājums un noliktava.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

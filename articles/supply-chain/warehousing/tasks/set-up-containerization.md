@@ -81,3 +81,6 @@ ms.locfileid: "4433109"
 11. Laukā **Atlasīt lauku** ievadiet vai atlasiet kādu vērtību.
 12. Atlasiet **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

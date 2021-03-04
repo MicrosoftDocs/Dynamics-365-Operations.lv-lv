@@ -135,3 +135,6 @@ Nākamajā attēlā ir parādīts piemērs ar preces vērtējumiem zvanu centra 
 [Vērtējumu un atsauksmju pārvaldība](manage-reviews.md)
 
 [Vērtējumu un atsauksmju konfigurēšana](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

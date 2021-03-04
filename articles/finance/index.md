@@ -73,3 +73,6 @@ Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no va
 
 Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1373,3 +1373,6 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 |     <strong>Ietekmētie produkta apgabali</strong>     |                                              Virsgrāmata                                              |
 |             <strong>Statuss</strong>             |                                      Noņemts, sākot ar Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

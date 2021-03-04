@@ -57,3 +57,6 @@ Tālāk esošajā tabulā ir sniegta detalizēta informācija par rādītājiem,
 | Virsgrāmatas                   | Virsgrāmatas, ko var izmantot, lai pārskatu filtrētu pašreizējai virsgrāmatai              |
 | Budžetu kodi              | Budžetu kodi, pēc kuriem filtrēt pārskatus                                                |
 | Juridiskās personas            | Juridiskās personas, ko var izmantot, lai pārskatu filtrētu pašreizējai juridiskajai personai |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

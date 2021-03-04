@@ -45,3 +45,6 @@ Izmantojot programmu Retail, lietotāji var izpētīt veikala reāllaika veiktsp
 - Nodokļu kopsavilkums
 - Informācijas par cenas pārlabošanas notikumiem kopsavilkums
 - Informācijas par atlaidēm kopsavilkums
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

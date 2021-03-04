@@ -53,3 +53,6 @@ Lai pievienotu jaunus ražošanas krājumus iesaldētajā periodā, veiciet tāl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

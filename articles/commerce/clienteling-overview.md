@@ -124,3 +124,6 @@ Lai iestatītu integrāciju, veiciet tālāk norādītās darbības.
     4. Customer Insights var būt vairākas vides, piemēram, testa un ražošanas vides. Laukā **Vides instances ID** ievadiet atbilstošo vidi.
     5. Laukā **Alternatīvā klienta ID** ievadiet to rekvizītu programmā Customer Insights, kas ir kartēts ar klienta konta numuru. (Commerce klienta konta numurs ir klienta ID.)
     6. Atlikušie trīs rekvizīti ir mērījumi, kas tiks parādīti klienta kartē klienta grāmatā. Varat atlasīt līdz trim mērījumiem, kas jāparāda klienta kartē. (Tomēr nav jāatlasa neviens no mērījumiem.) Kā jau tika minēts iepriekš, sistēma šīs vērtības rāda vispirms, un pēc tam tā parāda klienta grāmatas atribūtu grupas vērtības.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

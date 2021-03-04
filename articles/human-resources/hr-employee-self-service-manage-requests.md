@@ -39,3 +39,5 @@ Vadītāji var pārvaldīt taimauta pieprasījumus no **Darbinieku patstāvīgi 
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Izveidot atvaļinājumu un prombūtnes plānu](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Apmācību par līdzekļiem, kas koplietoti ar citām Finance and Operations pro
 | Saturs  | Apraksts  | Formāts  | Ilgums    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Izvietošana un paplašināšana Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Šis mācību ceļš apraksta, kā izvietot   Dynamics 365 Commerce vides un veikt pirmsnodrošināšanas soļus sekmīgai Komercijas ieviešanai, izmantojot pareizo topoloģiju katra mazumtirgotāja biznesa vajadzībām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5 stundas |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

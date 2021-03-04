@@ -124,3 +124,6 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot iepriekš lejup
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas visas 7 importētā CSV faila rindas. Datus saturošo lauku virsraksta 1. rinda tika izlaista, 4 transakcijas tika pareizi parsētas un 2 transakcijas tika atpazītas kā nederīgas.
 3. Aizvērt lapu.
 4. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Lapā **Uzturēšanas budžeta rindas** jūs varat manuāli pievienot jaunu bud�
 
 - Jūs zināt, ka dažu līdzekļu atjaunošana pašlaik ir plānošanas posmā, bet saistītie uzdevumi vēl nav izveidoti līdzekļu pārvaldībā. Tomēr jūs vēlaties, lai šo uzdevumu budžeta izmaksas tiktu iekļautas uzturēšanas budžetā.
 - Kopš budžeta uzturēšanas budžeta sastādīšanas ir izveidoti jauni līdzekļi vai līdzekļu veidi, taču šiem līdzekļiem vai līdzekļu veidiem vēl nav izveidoti uzturēšanas plāni. Tomēr jūs vēlaties, lai šo līdzekļu veidu budžeta izmaksas tiktu iekļautas uzturēšanas budžetā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

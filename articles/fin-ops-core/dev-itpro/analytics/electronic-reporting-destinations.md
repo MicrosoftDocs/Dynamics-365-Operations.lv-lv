@@ -238,3 +238,6 @@ Jūsu formātam vispirms jābūt pieejamam ER konfigurācijās. Ja šis priekšn
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

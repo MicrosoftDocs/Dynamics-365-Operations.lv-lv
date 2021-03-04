@@ -57,3 +57,6 @@ Dialoglodziņā tiek atgriezta ATP informācija no Supply Chain Management. Šaj
 - Ieejas plūsmas daudzums
 - Izejas plūsmas daudzums
 - Rīcībā esošais daudzums
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

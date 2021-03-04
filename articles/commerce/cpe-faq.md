@@ -71,3 +71,6 @@ Laika ierobežojuma pagarināšana ir normas izņēmums un tiek apsvērti katrā
 [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-bopis.md)
 
 [Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

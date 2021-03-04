@@ -256,3 +256,6 @@ Tālāk minēti daži apsvērumi, kas jāņem vērā, izmantojot DOM līdzekli:
 - Pašlaik DOM ņem vērā tikai pasūtījumus, kas izveidoti no tirdzniecības kanāliem. Pārdošanas pasūtījumi tiek identificēti kā pārdošanas pasūtījumi, ja opcijai **Tirdzniecība** ir atlasīts iestatījums **Jā**.
 - Uzņēmums Microsoft nav pārbaudījis DOM ar papildu noliktavas pārvaldības funkcijām. Klientiem un partneriem ir jānosaka, vai DOM ir saderīga ar papildu noliktavas pārvaldības funkcijām un procesiem, kuri attiecas uz viņiem.
 - DOM ir pieejama tikai programmas Commerce mākoņa versijai. Tā netiek atbalstīta lokālos izvietojumos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

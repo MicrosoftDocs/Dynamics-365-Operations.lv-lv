@@ -87,3 +87,6 @@ Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksport�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

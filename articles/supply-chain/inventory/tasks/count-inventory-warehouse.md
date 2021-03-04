@@ -56,3 +56,6 @@ ms.locfileid: "4433045"
 1. Atlasiet **Krājumi**.
 2. Atlasiet **Darbības**. Šeit varat redzēt saistītās darbības, kas tiks izveidotas, grāmatojot krājumu inventarizācijas žurnālu.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

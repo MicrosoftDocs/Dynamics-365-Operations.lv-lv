@@ -94,3 +94,6 @@ Instrukcijas par to, kā pievienot dāvanu kartes moduli izrakstīšanās lapai 
 [Atbalsts ārējām dāvanu kartēm](./dev-itpro/gift-card.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

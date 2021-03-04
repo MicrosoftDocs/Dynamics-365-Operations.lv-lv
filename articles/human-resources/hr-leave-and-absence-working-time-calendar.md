@@ -75,3 +75,6 @@ Ja esat iespējojis atvaļinājumu un prombūtnes bankas brīvdienu labošanas p
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Atvaļinājumu un prombūtnes veidu konfigurēšana](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

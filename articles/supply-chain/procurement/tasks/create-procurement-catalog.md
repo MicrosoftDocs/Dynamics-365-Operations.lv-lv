@@ -66,3 +66,6 @@ ms.locfileid: "4432722"
 7. Atlasiet **Pievienot rindām**.
 8. Atlasiet **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

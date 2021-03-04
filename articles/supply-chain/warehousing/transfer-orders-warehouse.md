@@ -53,3 +53,6 @@ Lapā **Transportēšanas dienas** ir jāiestata arī transportēšanas izpildes
 2. Laukā **Saņemšanas punkts** atlasiet vienumu **noliktava**.
 3. Atlasiet **Nosūtītāja noliktava**, **Saņēmēja noliktava** un **Transportēšanas dienas**. 
 4. (Nav obligāti) Varat arī iestatīt transportēšanas laiku atkarībā no piegādes veida cilnē **Transportēšanas dienas atbilstoši piegādes veidam**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Attēlā zemāk ir parādīts groza piemērs, kas parāda krājumu Noliktavā ("
 [Veikalu atlasītāja modulis](store-selector.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

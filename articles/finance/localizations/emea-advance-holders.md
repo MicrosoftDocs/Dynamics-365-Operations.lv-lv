@@ -158,3 +158,6 @@ Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

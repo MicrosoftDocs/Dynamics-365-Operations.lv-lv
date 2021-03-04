@@ -48,3 +48,6 @@ Debitora maksājumu depozīts. Šajā uzdevumā tiek izmantots demonstrācijas u
 17. Atlasiet **Labi**. Pirmā lapa tiek izmantota, lai izveidotu depozīta kvīti.  
 18. Atlasiet **Labi**. Otrais solis ir depozīta kvīts drukāšana, bet šis solis nav obligāts.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

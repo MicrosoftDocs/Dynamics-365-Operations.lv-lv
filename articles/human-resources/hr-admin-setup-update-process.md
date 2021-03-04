@@ -105,3 +105,6 @@ Testējot priekšskatījuma līdzekļus vai izmēģinot jaunas iespējas, iespē
 [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Programmatūras dzīves cikla politika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

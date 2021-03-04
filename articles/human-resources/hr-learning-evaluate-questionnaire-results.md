@@ -72,3 +72,5 @@ Anketu statistiku varat izmantot, lai analizētu aizpildīto anketu rezultātus,
 -   Atlasiet vai apstipriniet kritērijus, lai rezultātus analizētu pēc respondenta vai anketas īpašībām. Piemēram, atlasot vienumu **Pasta indekss**, varat analizēt korelāciju starp respondenta atrašanās vietu un pareizajām atbildēm.
 
 Jūsu definētie iestatījumi tiek saglabāti, un tos var izmantot periodiskai rezultātu pārrēķināšanai.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

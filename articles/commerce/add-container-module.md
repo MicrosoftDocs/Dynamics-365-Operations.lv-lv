@@ -142,3 +142,6 @@ Lai pievienotu konteinera atskaņotāja moduli jaunā lapā un iestatītu nepiec
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

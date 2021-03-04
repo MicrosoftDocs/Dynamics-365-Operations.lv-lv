@@ -52,3 +52,6 @@ Izmantojiet šo procedūru, lai iestatītu nosacījumus preču pasūtīšanai ka
 6. Laukā **Kreditora atlase** atlasiet kādu opciju. Atlasiet kārtulu, lai kontrolētu, kāda veida kreditorus var atlasīt kategorijai, kad tiek veidoti pieprasījumi.  
 7. Noklikšķiniet uz **Aizvērt**. Jūsu definētās politikas kārtulas bija paredzētas pieprasījumiem ar tipu Patēriņš. Ja vēlaties definēt politikas pieprasījumiem ar tipu Papildināšana, jums būtu jāizveido kārtula politikas kārtulas tipam ar nosaukumu "Papildināšanas kategorijas piekļuves politikas kārtula".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

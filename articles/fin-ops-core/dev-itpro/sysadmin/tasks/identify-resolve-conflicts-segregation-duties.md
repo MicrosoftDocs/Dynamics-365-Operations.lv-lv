@@ -43,3 +43,6 @@ ms.locfileid: "4681598"
 1. Dodieties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana > Drošība > Pienākumu sadale > Pienākumu sadales nosacījumi**. Atlasiet nosacījumu.  
 2. Atlasiet **Apstiprināt pienākumus un lomas**. Ja jebkuras esošās lomas pārkāpj atlasīto nosacījumu, tiek parādīts ziņojums, kas ietver lomas nosaukumu un konfliktējošo pienākumu nosaukumus. Administratoram vai nu jānorāda drošības riska mazinājums vai jāmodificē loma, lai tā nepārkāptu pienākumu sadales nosacījumus. Ja neviena loma nepārkāpj atlasīto nosacījumu, ziņojumā norādīts, ka visas lomas ir atbilstošas.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

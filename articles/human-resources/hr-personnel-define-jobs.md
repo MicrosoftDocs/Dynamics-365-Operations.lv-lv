@@ -71,3 +71,6 @@ ms.locfileid: "4419565"
 33. Pārslēdziet sadaļas Izglītība paplašinājumu.
 34. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

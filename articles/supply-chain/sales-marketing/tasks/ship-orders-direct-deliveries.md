@@ -82,3 +82,6 @@ ms.locfileid: "4433193"
     - Tiešās piegādes lapa darboja kā rīks, kas nodrošina pirkšanas aģentam pārskatu par visām pārdošanas pasūtījuma rindām, kam tiks veikta tieša piegāde, un tas ļauj izveidot attiecīgos pirkšanas pasūtījumus. Turklāt tie var skatīt atvērtās tiešās piegādes pasūtījumus un apstiprinātos pasūtījumus cilnēs Apstiprinājums un Piegāde.  
     - Kad esat izveidojis tiešās piegādes pasūtījumu, tas tiek automātiski pārvietots uz cilni Apstiprinājums. Varat izlemt pasūtījumu apstiprināt tieši no šīs lapas. Kad pirkums ir apstiprināts, tas tiek automātiski pārvietots uz cilni Piegāde, no kuras varat reģistrēt tā saņemšanu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Ja darba publicēšana vietnē Broadbean rada problēmas, veiciet tālāk norād
 [Darbu izveide, apstiprināšana un grāmatošana programmā Attract](./creating-jobs-attract.md)
 
 [Iespējot Broadbean integrāciju programmā Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -227,3 +227,6 @@ Atskaišu veidotāja rīkjosla sniedz ātru piekļuvi komandām, kas paredzētas
 [Finanšu pārskatu veidošana](financial-reporting-intro.md)
 
 [Ģenerēt finanšu pārskatus](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

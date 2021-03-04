@@ -238,3 +238,6 @@ Kad tiek saņemts pasūtījums ar vairākiem norēķiniem un vairākām rindām,
 - [Dynamics 365 maksājumu savienotājs pakalpojumam Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [BOPIS konfigurācija Dynamics 365 Commerce novērtējuma videi](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

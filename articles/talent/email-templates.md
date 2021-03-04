@@ -81,3 +81,6 @@ Kad darbā pieņemšanas grupa sūta e-pasta ziņojumu, tā var izmantot veidnes
 
 > [!NOTE] 
 > E-pasta ziņojumiem, kas tiek nosūtīti automātiski, var izveidot vairākas veidnes. Tomēr tikai vienu veidni var iestatīt kā aktīvo veidni. Tā kā šo procesu aktivizē notikumi, tikai administrators var noteikt, kura veidne jāizmanto, balstoties uz žetonu **Noklusējums** un **Automātiskā sūtīšana** kombināciju veidņu bibliotēkā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

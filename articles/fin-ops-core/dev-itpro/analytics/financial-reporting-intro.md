@@ -96,3 +96,6 @@ Tālāk aprakstītie finanšu atskaišu veidošanas komponenti ļauj atskaites �
 
 ## <a name="additional-resources"></a>Papildu resursi
 [Ģenerēt finanšu pārskatus](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

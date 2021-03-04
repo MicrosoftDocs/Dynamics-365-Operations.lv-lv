@@ -43,3 +43,6 @@ Mazvērtīgas kopas līdzekļa norakstīšanas darbība samazina mazvērtīgās 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Tālāk redzamā tabula parāda sarakstu veidus, kas ir pieejami atlasei dialogl
 [Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [Preču ieteikumu apskats](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Lai iegūtu vairāk informācijas par to, kā autorēt izrakstīšanas lapu, ska
 [Preču papildinformācijas lapu apskats](quick-tour-pdp.md)
 
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

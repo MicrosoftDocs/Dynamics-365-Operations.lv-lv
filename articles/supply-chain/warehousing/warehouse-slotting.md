@@ -384,3 +384,6 @@ Kad visi nepieciešamie elementi ir ieviesti, varat izpildīt tālāk norādīt�
 1. Ja vēlaties, varat iestatīt automātisku periodiskuma izpildi.
 
 Scenārijā iekļautajiem uzdevumiem **neiestatiet** automātisku slotu veidošanu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

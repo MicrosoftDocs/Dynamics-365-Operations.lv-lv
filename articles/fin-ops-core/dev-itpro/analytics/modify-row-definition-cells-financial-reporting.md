@@ -529,3 +529,6 @@ Dimensiju vērtību kopa ir dimensiju vērtību grupa, kurai piešķirts nosauku
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošana](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

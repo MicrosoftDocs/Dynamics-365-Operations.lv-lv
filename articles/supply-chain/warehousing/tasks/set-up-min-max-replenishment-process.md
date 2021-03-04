@@ -120,3 +120,6 @@ ms.locfileid: "4433108"
 11. Noklikšķiniet uz **Labi**.
 12. Noklikšķiniet uz **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiskās darbības** \>
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

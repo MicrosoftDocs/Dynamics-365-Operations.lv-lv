@@ -86,3 +86,6 @@ Tālāk esošajā attēlā ir parādīti šo paziņojumu veidu piemēri.
 *Saraksts* ir nosaukums, kas tiek piešķirts ierakstu kolekcijai, ko varat ritināt. Šos ierakstus varat pārnest lapā, atlasot tos. Bieži vien tas atvērs režģi.
 
 ![Tālāk esošajā attēlā ir redzami rīkjoslu, režģu un sarakstu piemēri.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

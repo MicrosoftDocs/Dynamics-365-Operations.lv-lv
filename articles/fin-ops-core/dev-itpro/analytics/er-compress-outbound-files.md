@@ -94,3 +94,6 @@ Lai varētu pabeigt procedūras šajā tēmā, ir jāveic tālāk norādītās d
 [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 
 [XML elementu izpildes atlikšana elektronisko pārskatu formātos](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

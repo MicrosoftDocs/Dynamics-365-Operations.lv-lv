@@ -39,3 +39,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
 7. Ievadiet datumu laukā No datuma.
 8. Laukā Līdz datumam ievadiet datumu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

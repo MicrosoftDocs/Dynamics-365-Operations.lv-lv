@@ -90,3 +90,6 @@ ms.locfileid: "4679562"
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4693020"
     * Piemēram: Atvaļinājums adopcijai  
 12. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

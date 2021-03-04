@@ -64,3 +64,6 @@ Kreditorus varat arī kopēt, izmantojot PVN reģistrācijas numura meklēšanas
 
 1. Tiek parādīta opcija **Kopēt kreditoru**. Pēc noklusējuma šī opcija ir iestatīta uz **Nē**. Lai šo kreditoru kopētu uz pašreizējo juridisko personu, iestatiet šo opciju uz **Jā**.
 2. Atlasiet **Atlasīt**. Jaunais kreditors ir izveidots.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

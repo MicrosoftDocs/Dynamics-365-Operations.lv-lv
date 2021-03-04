@@ -119,3 +119,6 @@ Lai varētu vieglāk un ātrāk definēt darbības, kas ir saistītas ar katru n
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

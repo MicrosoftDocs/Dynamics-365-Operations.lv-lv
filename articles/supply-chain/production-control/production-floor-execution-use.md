@@ -146,3 +146,6 @@ Darbinieki var atvērt dokumentu, kas ir piesaistīts darbam, atlasot **Instrukc
 1. Darbinieks strādā ar ceļvedi, lai apgūtu uzdevumu.
 
 Papildinformācijas par to, kā izveidot, piešķirt un lietot ceļvežus HoloLens, skatiet sadaļā [Jauktās realitātes ceļvežu nodrošināšana darbiniekiem ražošanā](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

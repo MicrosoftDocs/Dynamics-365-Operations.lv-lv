@@ -58,3 +58,6 @@ Lai varētu izmantot līdzekli *Papildu novietojuma zona*, tas vispirms ir jāie
 7. Atlasiet **Izveidot**.
 8. Tiek saņemti ziņojumi, norādot, ka jaunie novietojumi ir pievienoti. Atlasiet pogu **Rādīt ziņojumus**, lai skatītu ziņojumus.
 9. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Noliktava \> Novietojums**. Jaunie novietojumi tiek parādīti sarakstā un visu zonu lauki ir pieejami (tas ir, esošas zonas lauks un jaunie papildu zonu lauki).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

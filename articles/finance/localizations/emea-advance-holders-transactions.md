@@ -64,3 +64,6 @@ Pēc pavadzīmju žurnāla apstrādāšanas, ja laukā **Summa pārskaitīšanai
 
 - [Avansa maksājums darbiniekam (Austrumeiropa)](tasks/advance-payment-employee.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

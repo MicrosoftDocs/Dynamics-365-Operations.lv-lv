@@ -63,3 +63,6 @@ ms.locfileid: "4445625"
 33. Noklikšķiniet uz **Labi**, lai izveidotu maksājumus.
 34. Noklikšķiniet uz **Grāmatot**, ja visi maksājumi ir apstiprināti un ģenerēti. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

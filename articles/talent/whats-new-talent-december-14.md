@@ -151,3 +151,6 @@ Atjauninātajiem kartējumiem jāizskatās, kā norādīts tālāk redzamajos at
 ![Uzdevums No sadaļas Nodarbinātie uz sadaļu Darbs](./media/WorkerMapping.png)
 
 ![Lauka Dzimums pārveidošana](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

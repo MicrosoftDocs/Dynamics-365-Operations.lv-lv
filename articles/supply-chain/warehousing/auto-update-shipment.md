@@ -140,3 +140,6 @@ Kopums ir apstrādāts un izveido darbu rezervētajiem daudzumiem noslodzes rind
 Ja sūtījuma statuss ir **Nokomplektēts** vai augstāks, pārdošanas pasūtījuma rindas daudzuma izmaiņas netiek atainotas vai validētas attiecībā pret noslodzes rindu, kas saistīta ar sūtījumu. Noslodzes rindas daudzuma izmaiņas jāveic tieši noslodzes rindā.
 
 Apstiprināšana tiek veikta pēc tam, kad darbs ir izveidots noslodzes rindai un ir veikta rezervācija. Pārdošanas pasūtījuma rindas daudzuma samazinājums pēc tam tiek validēts attiecībā pret darba rindas rezervāciju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Tagad varat piešķirt kravas plānošanas stratēģiju kravas plānošanas veid
 1. Pārskatiet piedāvātās kravas un piedāvātās kravas rindas.
 1. Darbības rūtī atlasiet **Izveidot kravu**, lai izveidotu kravas, kas pamatotas uz pirmdokumenta rindām kopsavilkuma cilnē **Piedāvātās kravas rindas**.
 1. Aizveriet lapu **Kravas plānošanas rīks**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

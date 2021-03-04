@@ -87,3 +87,6 @@ Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parād�
 
 + Ja kartēšanai ir atkarīgi kartējumi, pārliecinieties, ka iespējojat šīs tabulas kartēšanas atkarīgos kartējumus.
 + Kartēšanai var trūkt avota vai mērķa lauku. Ja trūkst lauks programmā Finance and Operations, izpildiet sekojošos soļus sadaļā [Trūkst entītiju lauku kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai lauki tiktu automātiski aizpildīti atpakaļ kartēšanā.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

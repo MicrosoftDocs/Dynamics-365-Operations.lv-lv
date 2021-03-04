@@ -45,3 +45,6 @@ Nākamajā tabulā ir norādīti pieejamo kategoriju hierarhijas tipi un katra t
 | Navigācijas hierarhija   | Lietojiet šo hierarhijas tipu preču grupēšanai un kārtošanai kategorijās tā, lai preces var pārlūkot tiešsaistē vai POS. |
 
 Izmantojot kategoriju hierarhiju savu preču kārtošanai, varat iestatīt un uzturēt preces īpašības un rekvizītus kategorijas līmenī. Šīs īpašības un rekvizīti ietver preču dimensijas iestatījumus un POS iestatījumus. Jebkādas preces, ko piešķirat kategorijām, automātiski pārmantos jūsu definētas īpašības un rekvizītus. Varat arī vienlaikus nokopēt preču rekvizītu iestatījumus vairākām precēm atlasītā kategorijā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

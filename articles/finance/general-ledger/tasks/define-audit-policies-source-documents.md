@@ -88,3 +88,6 @@ ms.locfileid: "4445671"
 57. Izvērsiet sadaļu **Saistības**.
 58. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

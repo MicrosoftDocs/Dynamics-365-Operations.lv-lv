@@ -44,3 +44,6 @@ Lapu **Rīcībā esošo krājumu koriģēšana** var izmantot, lai koriģētu r�
 -   5. februāris: daudzums ar vērtību 1 un izmaksas ar summu 13,00 USD.
 
 Lai šiem diviem krājumiem iestatītu izmaksas USD 15,00 apjomā, izmantojiet rīcībā esošās korekcijas opciju, lai koriģētu atvērtos rīcībā esošos daudzumus no pēdējā krājumu aizvēršanas perioda. **Piezīme.** Rīcībā esošās korekcijas transakcijas grāmatošanas datums būs pēdējās krājumu slēgšanas datums. Šo datumu nevar modificēt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Lapā **Seguma grupas** varat atlasīt darbību ziņojumus, kurus vēlaties, lai
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

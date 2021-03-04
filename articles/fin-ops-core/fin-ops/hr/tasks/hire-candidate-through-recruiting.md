@@ -45,3 +45,6 @@ ms.locfileid: "4692872"
 15. Izvērsiet vai sakļaujiet sadaļu Kontaktinformācija.
 16. Izvērsiet vai sakļaujiet sadaļu Personiskā informācija.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

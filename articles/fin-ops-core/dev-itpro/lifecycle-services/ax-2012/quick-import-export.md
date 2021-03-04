@@ -40,3 +40,6 @@ Esam pievienojuši līdzekli Ātrā importēšana un eksportēšana, lai lietot�
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datum�
 6. Laukā Beigu datums ievadiet datumu un laiku.
     * Beigu datumam jaunā versija netiks startēta vai aktivizēta. Šai ražošanas plūsmai arī vairs nebūs iespējams izveidot vai sākt darbus. Jūs joprojām varat izpildīt uzsāktos darbus pēc beigu datuma.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

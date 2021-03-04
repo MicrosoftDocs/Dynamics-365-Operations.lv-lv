@@ -133,3 +133,6 @@ Lai uzzinātu vairāk, skatiet [Palīdzības sistēma](../../fin-ops/get-started
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

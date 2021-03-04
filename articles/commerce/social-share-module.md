@@ -82,3 +82,6 @@ Lai pirkšanas lodziņa modulim pievienotu sociālās koplietošanas moduli, vei
 [Pirkšanas lodziņa modulis](add-buy-box.md)
 
 [Sīkfailu atbilstība](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

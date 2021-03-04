@@ -139,3 +139,6 @@ Termiņatlaides summa tiek samazināta no 10,50 uz 10,00. Maksājums un rēķins
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

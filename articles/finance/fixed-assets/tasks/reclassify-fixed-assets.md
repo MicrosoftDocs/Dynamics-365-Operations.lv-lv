@@ -46,3 +46,6 @@ Lai pārklasificētu pamatlīdzekli, veiciet tālāk minētās darbības.
 5. Laukā **Pārklasificēšanas datums** ievadiet kādu datumu.
 6. Laukā **Dokumentu sērijas** ievadiet vai atlasiet kādu vērtību.
 7. Noklikšķiniet uz **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

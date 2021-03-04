@@ -133,3 +133,6 @@ Izpildiet tālāk norādītās darbības, lai izveidotu ieteikumus kļūmju nov�
 
 > [!NOTE]
 > Varat mainīt savu kļūmju simptomu, apgabalu, tipu, iemeslu un novēršanas nosaukumus pēc saviem ieskatiem. Nosaukuma izmaiņas automātiski tiek atspoguļoti atbilstošajās kļūmju reģistrācijās.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

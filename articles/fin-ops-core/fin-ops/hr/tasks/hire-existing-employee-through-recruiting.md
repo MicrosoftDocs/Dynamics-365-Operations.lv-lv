@@ -40,3 +40,6 @@ Dažreiz brīvos amatus var aizpildīt kandidāti, kas jau ir jūsu organizācij
 9. Noklikšķiniet uz Mainīt amatu.
     * Šajā laikā var mainīt arī atlīdzību. Ja šajā laikā nepiešķirat atlīdzību, to var mainīt, ieejot darbinieka formā, atlasot cilni Atlīdzība un izvēloties "Fiksēts plāns". Kad esat atlasījis "Mainīt amatu", pieteikuma statuss tiks atjaunināts uz "Nodarbināts".  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

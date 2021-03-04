@@ -72,3 +72,6 @@ ms.locfileid: "4432721"
 5. Atlasiet **Pirkšanas līguma apstiprinājumi**. Opcija **Priekšskatījums/drukāt** ļauj drukāt pirkšanas līgumu, ko pēc tam drukāt un nosūtīt piegādātājam. Ja atjaunināt līgumu vēlāk un atkārtoti to apstiprināt, abas versijas tiks parādītas šeit.  
 6. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Veidojot šo pārskatu, tiek rādīti tālāk norādītie noklusējuma parametri
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

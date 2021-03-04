@@ -73,3 +73,6 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 [Pārskats par grozu un norēķināšanās lapām](quick-tour-cart-checkout.md)
 
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

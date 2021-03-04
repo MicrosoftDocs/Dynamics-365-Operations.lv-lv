@@ -49,3 +49,6 @@ ms.locfileid: "4433206"
 6. Iestatiet **Daudzums** uz '4'. Šeit jūs varat manuāli norādīt daudzumu, kas tiek saņemts katrai pasūtījuma rindai.  
 7. Atlasiet **Labi**. Tagad preces ir reģistrētas kā saņemtas pirkšanas pasūtījumā, un produktu ieejas plūsmas žurnāls ir izveidots kā dokuments, kas to atspoguļo. Produktu ieejas plūsmas darbību var izmantot, lai pārskatītu ar pirkšanas pasūtījumu izveidotos žurnālus un redzētu, kas un kad tika saņemts.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

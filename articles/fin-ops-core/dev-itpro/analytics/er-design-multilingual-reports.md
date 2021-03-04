@@ -210,3 +210,6 @@ Kā aprakstīts iepriekš šajā tēmā, katra [modeļa](#LinkModelEnum) vai [fo
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [Elektronisko pārskatu veidošanas funkcijas](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

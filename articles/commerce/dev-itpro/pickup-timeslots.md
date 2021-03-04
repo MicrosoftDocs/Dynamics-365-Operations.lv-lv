@@ -123,3 +123,6 @@ Sekojošajā attēlā redzams e-tirdzniecības pasūtījuma piemērs, kurā ir i
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saņemšanas informācijas modulis](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

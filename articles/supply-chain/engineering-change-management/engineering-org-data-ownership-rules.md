@@ -67,3 +67,6 @@ Tā kā inženiertehniskajam uzņēmumam pieder tehniskie dati, tas kontrolē š
 
     - Kad šie dokumenti tiek nodoti citām juridiskajām personām, operacionālais uzņēmums aizsargā dokumentus no to izņemšanas.
     - Citas juridiskas personas var pievienot pilnīgi jaunus, lokālus dokumentus. Operacionālām uzņēmumam pieder un tas uztur šos vietējos dukumentus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

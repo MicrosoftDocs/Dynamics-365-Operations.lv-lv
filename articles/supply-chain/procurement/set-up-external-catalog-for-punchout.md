@@ -114,3 +114,5 @@ Ja tika pieprasīta preces dzēšana no ārējā piegādātāju kataloga, ārēj
 
 - [CXML uzlabojumu iegāde](purchasing-cxml-enhancements.md)
 - [Ārējo katalogu izmantošana elektroniskai atzīmēšanas sagādei](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

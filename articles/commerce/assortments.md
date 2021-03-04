@@ -107,3 +107,6 @@ Commerce implementēšanas nolūkā plānojot un pārvadot preču klāstus, ņem
 - **Preču klāstā neesošu preču pārdošana un ieņēmumi no tām** — šī iespēja palīdz mazumtirgotājiem efektīvi pārvaldīt preču klāstus, ļaujot ierobežot pieejamo preču skaitu līdz precēm, kas pieder pie veikala pamata preču komplekta. Šī iespēja arī palīdz mazumtirgotājiem rīkoties situācijās, kad prece kļūdaini tiek izlaista preču klāstā vai kad prece tiek atgriezta ārpus preču klāsta derīguma termiņiem.
 
 Ja kanāla datu bāzē preces dati nepastāv, POS veic reālā laika zvanu galvenajam birojam, lai izgūtu nepieciešamo informāciju, lai preci varētu pārdot, atgriezt vai ietvert debitora pasūtījumā. Šādā veidā izgūta preces informācija ir pieejama tikai šīs transakcijas ietvaros. Prece netiek pievienota preču klāsta definīcijai. Tādēļ nepieciešamības gadījumā tiks veikti turpmāki reāllaika zvani.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

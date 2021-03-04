@@ -56,3 +56,6 @@ Lai atsauktu anulētu darījumu, veiciet šādas darbības.
 Atlasot **Atsaukšanas izsekošana**, parādās dialoglodziņš, kas rāda gan sākotnējos darījumus, gan atsauktos darījumus kopā ar saistīto numuru.
 
 Varat arī izsekot atsaukšanu, izmantojot atbilstošo lapu **Grafiki**. **Atgriešanas** lauks ir notīrīts, bet lauks **Žurnāls grāmatots** tiek atlasīts. Turklāt lauks **Pēdējais žurnāla numurs** tiek atjaunināts ar atsaukšanas darījuma žurnāla numuru un **Žurnāla numura** lauks tiek atjaunināts ar atgriešanas žurnāla numuru.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

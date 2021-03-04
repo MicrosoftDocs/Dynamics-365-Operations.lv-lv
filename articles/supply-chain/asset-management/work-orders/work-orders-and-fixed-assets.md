@@ -65,3 +65,6 @@ Attēlā ir parādīta saite starp investīciju projektu **projekta vadības un 
 
 7. Lai skatītu pārskatu par projektiem, kas saistīti ar pamatlīdzekļiem, atlasiet **Pamatlīdzekļi** > **Pamatlīdzekļi** > **Pamatlīdzekļi** un pēc tam laukā **Pamatlīdzekļa numurs** atlasiet saiti pamatlīdzeklim, lai atvērtu detaļu skatu. Paplašiniet **Saistīto informācijas** rūti lapas labajā pusē un atlasiet **Saistītie projekti** kopsavilkuma cilni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

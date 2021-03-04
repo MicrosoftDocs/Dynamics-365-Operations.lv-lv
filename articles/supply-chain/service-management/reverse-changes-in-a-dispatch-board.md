@@ -51,3 +51,6 @@ Lai nosūtīšanas pārvaldē atsauktu nesaglabātās izmaiņas, veiciet tālāk
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

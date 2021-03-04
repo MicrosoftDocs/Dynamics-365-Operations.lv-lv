@@ -536,3 +536,6 @@ Tagad varat dzēst vai atjaunināt ziņojuma statusu. Lai atjauninātu ziņojuma
 ![Ziņojuma statusa atjaun.](media/update-status.png)
 
 Ziņojuma statuss tiek atjaunināts uz **Sagatavots**, un tagad var ģenerēt pārskatu, atlasot **Ģenerēt pārskatu**. Tiek ģenerēts pārskats, un ziņoj. statuss un darb. žurn. tiek atjaunināti. Lai skatītu ģenerēto pārskatu, atlasiet pogu **Pielikums** (papīra saspraudes simbols) lapas augšējā labajā stūrī.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

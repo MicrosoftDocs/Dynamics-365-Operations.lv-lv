@@ -87,3 +87,6 @@ Pievienojot fragmentu lapu veidnēm, jūs palīdzēsiet nodrošināt, ka kājene
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

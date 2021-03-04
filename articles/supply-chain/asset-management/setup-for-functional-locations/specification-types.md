@@ -64,3 +64,6 @@ Varat izveidot savus atribūtu veidus. Turklāt varat pārsūtīt preces dimensi
 9. Saglabājiet ierakstu.
 
     Laukā **Funkcionālie novietojumi** ir norādīts to funkcionālo novietojumu skaits, kuri izmanto atribūta veidu. Laukā **Līdzekļu veidi** ir parādīts to līdzekļu veidu skaits, kuri to izmanto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4414139"
 6. Ievadiet vai atlasiet vērtību laukā Noklusējuma grupa.
 7. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

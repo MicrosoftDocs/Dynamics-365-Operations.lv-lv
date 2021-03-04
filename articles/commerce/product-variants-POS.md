@@ -115,3 +115,6 @@ Nākamajā tabulā ir plašāka informācija par pieejamajām papildu darbībām
 | Pieejamība         | Rādīt ATP informāciju atlasītajai variantu kombinācijai attiecībā uz atlasīto atrašanās vietu. |
 | Rādīt visas vietas   | Pārslēgties uz standarta krājumu pārlūkošanas skatu un izcelt informāciju par krājumu pieejamību attiecībā uz nepieciešamo krājumu variantu visos veikalos šajā veikalu vietrāžu grupā, kā arī vairumtirdzniecības bāzēs ar tipu **Standarta/noklusējuma**. |
 | Skatīt detalizētu informāciju par preci | Novirzīt lietotāju uz saistītā preces šablona lapu **Informācija par preci**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

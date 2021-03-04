@@ -100,3 +100,6 @@ Prognozes autorizēšanas pirmā daļa (**Pieprasījuma apjoma prognozes UOM > K
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

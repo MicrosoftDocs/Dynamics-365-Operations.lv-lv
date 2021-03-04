@@ -96,3 +96,6 @@ Cilnē **Valūtas pārrēķināšana** varat noteikt juridisko personu kontu un 
 Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
 
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

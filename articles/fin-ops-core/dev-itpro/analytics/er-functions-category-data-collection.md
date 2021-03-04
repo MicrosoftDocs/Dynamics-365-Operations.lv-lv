@@ -48,3 +48,6 @@ Elektronisko pārskatu (ER) datu apkopošanas funkcijas tiek izmantotas, lai vei
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

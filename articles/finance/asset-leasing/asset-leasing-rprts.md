@@ -165,3 +165,6 @@ Svērtās vidējās atlaižu likmes pārskats atbilst ASV vispārpieņemtajiem g
 |     Valūta                          |     Darījumā lietotās valūtas saīsinājums. Visi pārskati konvertēs darījuma valūtu uz pārskata valūtu.  |
 |     Atlikušie nomas maksājumi          |     Neapmaksāto nomas maksājumu kopsumma no maksājuma grafika, kas atlikusi no datuma **Sākot ar**.            |
 |     Atlikušie svērtie maksājumi       |     Atlikušie nomas maksājumi, kas ir reizināti ar izmantoto atlaižu likmi.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

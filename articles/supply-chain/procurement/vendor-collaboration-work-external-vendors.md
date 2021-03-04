@@ -259,3 +259,6 @@ Lietotājs, kurš iestata piedāvājuma pieprasījuma procesa parametrus, var iz
 - %createddate%
 
 Ja ir neieciešams kāds grozījums, un tas tiek nosūtīts pēc piedāvājuma pieprasījuma nosūtīšanas, šis piedāvājuma pieprasījums tiek atkārtoti nosūtīts visiem uzaicinātajiem kreditoriem. Publicētais dokuments tiek arī atjaunināts lapā **Atvērtie publicētie piedāvājumu pieprasījumi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

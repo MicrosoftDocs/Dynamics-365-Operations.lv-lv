@@ -289,3 +289,6 @@ Kad tiek palaists konfigurētais datu avots, kamēr ER izpilde ir [izsekota](tra
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [ER formāta izpildes izsekošana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

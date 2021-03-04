@@ -36,3 +36,6 @@ Transporta pārvaldība ļauj sadalīt ģeogrāfiskās vietas zonās. Vietu sada
 - **Optimizējiet maršruta plānošanu** - piešķirot specifiskus maršrutu plānus noteiktām zonām.
 
 Jūs definējat zonas, pamatojoties uz metadatu lauka vērtībām (piemēram, valsts, pasta indeksa diapazons vai pārvadātāja pakalpojums), kas kvalificē katru zonu. Zonu definīcijas nav nepieciešamas, ja transporta cenās netiek izmantota zonas koncepcija.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

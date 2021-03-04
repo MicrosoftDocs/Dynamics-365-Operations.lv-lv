@@ -354,3 +354,6 @@ Tagad, kad esat izveidojis visas savas politikas, jums ir jāizveido pasūtījum
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Sūtījumu konsolidācijas politikas](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

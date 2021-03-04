@@ -49,3 +49,6 @@ Laika skala tiek atjaunināta ikreiz, kad lapa tiek atvērta. Tā ietver šādu 
 - Darba pasūtījumi, ieskaitot iegrāmatoto vienību un piezīmes
 - Defekti
 - Nosacījuma novērtējums
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

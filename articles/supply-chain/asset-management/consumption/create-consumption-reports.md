@@ -78,3 +78,6 @@ Kad ir publicēts darba pasūtījumu patēriņš, varat izdrukāt darba pasūtī
 >[!NOTE]
 >Varat arī izveidot [darba pasūtījuma atskaiti](../work-orders/work-order-report.md), kas satur vel vairāk darba pasūtījuma detaļu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

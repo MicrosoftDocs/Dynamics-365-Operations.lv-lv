@@ -62,3 +62,6 @@ ms.locfileid: "4432968"
 [Izstrādes un veidošanas pakalpojumu līgumu pārskats](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

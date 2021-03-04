@@ -73,3 +73,6 @@ Lai izveidotu vai kopētu biznesa procesu veidni vai sāktu biznesa procesu, pā
 
 lai skatītu aktīvos procesus un saistītos uzdevumus, atveriet darbvietu **Biznesa procesi**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

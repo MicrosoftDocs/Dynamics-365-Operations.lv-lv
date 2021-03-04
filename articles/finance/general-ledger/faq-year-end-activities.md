@@ -137,3 +137,6 @@ Dynamics 365 Finance nedrukā 1096 gada kopsavilkumu un veidlapu ASV Informācij
 Ir pievienots jauns publiskā sektora līdzeklis **Atjaunināt 1099 informāciju pēc galvenā konta**, ko var iespējot darbvietā **Līdzekļu pārvaldība**. Šis līdzeklis ļauj saistīt 1099 kreditora vērtības ar galveno kontu uzskaites sadalē, nevis ar kreditora ieraksta noklusējuma kontu.
 
 Papildinformāciju skatiet rakstā [Kreditoru iestatīšana 1099 pārskatu veidošanai](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

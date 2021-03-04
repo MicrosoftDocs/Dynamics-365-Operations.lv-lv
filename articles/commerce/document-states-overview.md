@@ -61,3 +61,6 @@ Tālāk redzamā tabula parāda Commerce iespējamos lapas elementu dokumenta st
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
 
 [Vietnes navigācijas pielāgošana](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

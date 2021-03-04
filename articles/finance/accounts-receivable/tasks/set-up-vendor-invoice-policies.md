@@ -73,3 +73,6 @@ ms.locfileid: "4445608"
 16. Atlasiet **Labi**.
 17. Aizveriet lapas, lai atgrieztos lapā sākuma lapā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

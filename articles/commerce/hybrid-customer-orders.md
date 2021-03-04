@@ -41,3 +41,6 @@ Ja tiek atlasīta kāda groza rinda un tiek atlasīta opcija **Izdot atlasīto**
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Debitoru pasūtījumi Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

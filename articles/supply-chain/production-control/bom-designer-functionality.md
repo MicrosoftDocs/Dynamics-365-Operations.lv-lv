@@ -121,3 +121,6 @@ Noklikšķiniet uz **Iestatījumi**, lai pielāgotu informāciju, kas tiek parā
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

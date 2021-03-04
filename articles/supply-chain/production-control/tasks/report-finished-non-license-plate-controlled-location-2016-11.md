@@ -62,3 +62,6 @@ ms.locfileid: "4432472"
 18. Noklikšķiniet uz Detalizēta informācija par darbu.
     * Kad ražošanas pasūtījums tika norādīts kā pabeigts, netika ģenerēts darbs izvietošanai. Tas notiek tāpēc, ka ir definēta darba politika, kas neļauj ģenerēt darbu, kad produkts L0101 tiek norādīts kā pabeigts novietojumā 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

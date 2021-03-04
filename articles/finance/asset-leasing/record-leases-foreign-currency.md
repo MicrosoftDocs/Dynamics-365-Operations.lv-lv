@@ -53,3 +53,6 @@ Kad tiek veidoti nolietojuma izdevumu žurnāla ieraksti nomai, kas izteikta ār
 Galīgo nolietojuma izdevumu summu var aprēķināt, izmantojot nedaudz atšķirīgu maiņas kursu, lai LLT būtu pilnībā nolietots gan uzskaites valūtā, gan pārskata valūtā.
 
 Ja noma pārklasificēta kā **Atliktā nomas maksa**, sistēma automātiski notīra uzskaites un pārskata valūtas maiņas kursus, ja tie jau ir definēti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

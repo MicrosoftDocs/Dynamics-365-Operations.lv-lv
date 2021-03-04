@@ -48,3 +48,6 @@ ms.locfileid: "4414100"
 16. Laukā POS atļauju grupa ievadiet vai atlasiet vērtību. Šīs POS atļauju grupas iestatījumus izmantos visi darbinieki ar šim darbam atbilstošu amatu, ja vien darbinieku POS atļaujas netika ignorētas to amata līmenī.  
 17. Atlasiet **Saglabāt**. Pēc izmaiņu saglabāšanas ir jāpalaiž darbinieku sadales grafiks, lai izmaiņas tiktu lietotas kanāliem.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

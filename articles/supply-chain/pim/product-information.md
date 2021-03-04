@@ -96,3 +96,6 @@ Darbvietu veido elementu un divu sarakstu kopsavilkums. Sarakstā **Atvērtie pi
 ### <a name="manually-creating-a-new-released-product"></a>Manuāla jaunas izlaistās preces izveide
 
 Varat manuāli izveidot izlaistu preci vienā izpildē, atkarībā no organizācijas biznesa procesiem un noteikumiem par to, vai vajadzētu izmantot šo funkciju. Šī funkcija izveido jaunu preci un automātiski atbrīvo to pašreizējai juridiskajai personai. Lai izveidotu jaunu preci, noklikšķiniet uz **Izlaistās preces** darbvietā **Izlaisto preču uzturēšana** vai saraksta lapā **Izlaistā prece**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

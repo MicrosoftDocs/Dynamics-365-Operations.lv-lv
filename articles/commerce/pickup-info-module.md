@@ -70,3 +70,6 @@ Sekojošajā attēlā parādīts e-tirdzniecības norēķinu lapas piemērs, kur
 [Pasūtījuma apstiprinājuma modulis](order-confirmation-module.md)
 
 [Pasūtījumu informācijas modulis](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

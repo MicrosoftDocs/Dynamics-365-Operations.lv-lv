@@ -83,3 +83,6 @@ Ja pirmā rezultāta vērtība un *N*-tā rezultāta vērtība ir *Konteinera (i
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Loģiskas funkcijas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Turklāt divi unikāli pārskati, kuri izmanto hierarhijas režģa strukturēša
 - Darbvieta **Kategorijas un preču pārvaldība** &gt; **Retail un Commerce** &gt; **Preces un kategorijas** &gt; **Veikala pārvaldība** &gt; **Pārskati**
 - Darbvieta **Cenu noteikšanas un atlaižu pārvaldība** &gt; **Retail un Commerce** &gt; **Cenu noteikšana un atlaides** &gt; **Veikala pārvaldība** &gt; **Pārskati**
 - Sadaļa **Pieprasījumi un pārskati** &gt; **Retail un Commerce** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

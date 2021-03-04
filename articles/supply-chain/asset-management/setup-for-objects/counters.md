@@ -67,3 +67,6 @@ Kad līdzekļu veidi tiek pievienoti skaitītāja veidam **Skaitītājos**, šis
 
 ![1. attēls](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Kad esat izveidojis darba pasūtījuma dzīves cikla stāvokļus, kas nepiecieš
 9. Saglabājiet darba pasūtījuma dzīves cikla modeli.
 
 ![Darba pasūtījuma dzīves cikla modeļu lapa](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

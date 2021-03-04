@@ -58,3 +58,6 @@ Periodiskos žurnālus reizēm sauc par cikliski atkārtotajiem žurnāliem, jo 
 27. Laukā **Periodiskāo darbību žurnāla numurs** ievadiet vai atlasiet kādu vērtību.
 28. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 29. Noklikšķiniet uz **Labi**. Tagad periodisko darbību žurnālu var pārskatīt, apstiprināt vai grāmatot atkarībā no pieprasījuma un iestatījumiem.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

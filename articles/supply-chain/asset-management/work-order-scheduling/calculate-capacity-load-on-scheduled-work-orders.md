@@ -58,3 +58,6 @@ Ja savam aprēķinam izvēlaties noslodzes veidus **Noslodze** vai **Atlikums**,
 
 Informāciju par noslodzes aprēķināšanu uzturēšanas grafika rindām un neieplānotu darba pasūtījumiem skatiet sadaļā [Noslodzes aprēķināšana](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

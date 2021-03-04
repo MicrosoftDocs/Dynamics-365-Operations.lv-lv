@@ -68,3 +68,6 @@ ms.locfileid: "4445537"
 13. Atlasiet **Darbības**.
 14. Atlasiet izveidoto rēķinu. Rēķinu reģistra uzkrāšana tika atsaukta un iegrāmatota atbilstošajā izdevumu kontā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

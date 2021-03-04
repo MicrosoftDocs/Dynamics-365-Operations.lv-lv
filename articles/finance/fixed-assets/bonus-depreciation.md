@@ -65,3 +65,6 @@ Papildnolietojums tiek ievadīts kā procenti vai kā fiksēta summa. Kad grāma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

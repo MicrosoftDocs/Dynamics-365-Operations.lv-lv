@@ -56,3 +56,6 @@ ms.locfileid: "4445568"
 16. Izveidojiet projektu un pēc tam atveriet lietojumprogrammu, lai skatītu rezultātus.
 
     [![Izpildīta darbvieta](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

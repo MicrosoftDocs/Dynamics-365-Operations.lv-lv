@@ -50,3 +50,6 @@ Izlaisto preču izveides procesa ietvaros ir jāatlasa pirkšanas, pārdošanas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

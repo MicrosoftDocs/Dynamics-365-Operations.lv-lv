@@ -281,3 +281,6 @@ Ja konfigurācijas kokā trūkst kādas no iepriekš uzskaitītajām konfigurāc
 6. Laukā **Bankas konts** atlasiet **DEMF OPER**.
 7. Dialoglodziņā **Ģenerēt maksājumus** atlasiet **Labi**.
 8. Dialoglodziņā **Elektroniskā pārskata parametri** atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

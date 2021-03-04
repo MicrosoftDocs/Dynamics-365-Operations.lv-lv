@@ -98,3 +98,6 @@ Rēķina bilance tagad ir 0,00. Arnijs apskata informāciju lapā **Debitoru dar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

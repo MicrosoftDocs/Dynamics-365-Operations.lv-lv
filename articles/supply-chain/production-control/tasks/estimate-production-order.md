@@ -42,3 +42,6 @@ ms.locfileid: "4432476"
 1. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
 2. Noklikšķiniet uz Skatīt detalizētu informāciju par aprēķinu.
     * Šajā lapā parādīts izmaksu sadalījums. Piemēram, pirmajā rindā var apskatīt pabeigtās preces vienības kopējo izmaksu cenu. Sekojošās rindās ir izmaksas atbilstoši materiālu komplektam, ražošanas maršrutam un netiešām izmaksām.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

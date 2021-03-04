@@ -140,3 +140,6 @@ LIFO stratēģija atrod novietojumu, kas ietver jaunāko vecumstruktūras datumu
 1. Ievērojiet, ka rinda **Darba veids**, kurā ir vērtība *Izdot*, rāda **Novietojums** vērtību *FL-001*. Šis novietojums ietver noliktavas vienību ar jaunāko vecumstruktūras datumu (LIFO).
 
 Šajos scenārijos ir redzams, kā novietojuma vecumstruktūras stratēģija novirza darbu uz krājumu novietojumu, kurā ir vai nu vecākie krājumi, vai jaunākie krājumi, atkarībā no atlasītās stratēģijas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Līdzeklim Maksas sūtīšana tiek izmantotas šādas POS operācijas: Nosūtī
 Tas neietekmē iespēju atlasīt piegādes adresi.
 
 Pasūtījuma rindas izpildei izmantojamās piegādes metodes ir atkarīgas no precēm un adresēm konfigurētajiem derīgajiem piegādes veidiem. Tā kā piegādes veidu derīguma kārtulas tiek glabātas tikai modulī Headquarters (HQ), POS klientā tiek veikts reāllaika izsaukums, lai iegūtu informāciju par sūtīšanas rindai derīgajiem piegādes veidiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

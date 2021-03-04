@@ -62,3 +62,6 @@ Power BI satura pakotnes **Mācības** pārskatu aizpildīšanai tiek izmantoti 
 | Pozīcija         | Pozīcija, amats un pilnas slodzes ekvivalents (FTE)                  | Kursa darba kārtība, kursa dalībnieki |
 | Darbinieka vārds    | Vārds, uzvārds un pilnais vārds                             | Kursa dalībnieki |
 | Darbinieka amats   | Nosaukums un darba stāža datums                                         | Kursa dalībnieki |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

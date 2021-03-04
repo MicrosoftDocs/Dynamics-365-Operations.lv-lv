@@ -85,3 +85,6 @@ Papildinformācija par šo līdzekli ir pieejama vietnē [Office integrāciju ap
 ## <a name="other-fixes"></a>Citi labojumi
 
 Šajā izlaidumā ir ietverti arī vairāki kļūdu labojumi, jaunu vienumu pievienojums, esošo vienumu labojumi un lokalizētas marķējumu izmaiņas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

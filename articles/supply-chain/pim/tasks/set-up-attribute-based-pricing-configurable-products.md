@@ -52,3 +52,6 @@ ms.locfileid: "4432627"
 8. Laukā **Izteiksme** ierakstiet vērtību. Piemēram, ievadiet `50`. 
 9. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

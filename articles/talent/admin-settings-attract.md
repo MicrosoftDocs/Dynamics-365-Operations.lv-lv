@@ -69,3 +69,6 @@ Varat arī konfigurēt ar kandidātu pieredzi saistītās opcijas. Piemēram, vi
 Varat arī iestatīt piedāvājumu beigu datumu un pieprasīt tā ievērošanu. Ja iestatāt opcijas **Pieprasīt beigu datumu visiem piedāvājumiem** vērtību **Jā**, piedāvājumu derīgums beidzas, kad ir pagājis jūsu norādītais stundu vai dienu skaits.
 
 Papildinformāciju par piedāvājumu pārvaldību skatiet tēmā [Piedāvājumu pārvaldības iestatīšana](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

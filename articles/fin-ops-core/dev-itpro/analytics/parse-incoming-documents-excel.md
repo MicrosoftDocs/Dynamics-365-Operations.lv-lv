@@ -46,3 +46,6 @@ Ja vēl neesat atskaņojis tālāk norādīto uzdevuma ceļvedi, [ER nepiecieša
 | Satura apraksts    | Fails                                                            |
 |------------------------|-----------------------------------------------------------------|
 | ER modeļa konfigurācija | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

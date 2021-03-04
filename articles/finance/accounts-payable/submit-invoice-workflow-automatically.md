@@ -54,3 +54,6 @@ Rēķina rinda tiks izslēgta no automātiskās apstrādes, ja izpildīts kāds 
 - Rēķina rindas vērtība **Automatizētās preču ieejas plūsmas atbilstības statuss** ir **Nesekmīgs**.
 - Rēķins tiek izmantots.
 - Rēķins ir darbplūsmas sistēmā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

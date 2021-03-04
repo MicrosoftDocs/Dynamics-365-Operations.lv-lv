@@ -52,3 +52,6 @@ Kad ir izveidots profilaktisks uzturēšanas darbs, nākamais solis ir darba pas
 
 5. Noklikšķiniet uz **Labi**. Tiek izveidots viens vai vairāki darba pasūtījumi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

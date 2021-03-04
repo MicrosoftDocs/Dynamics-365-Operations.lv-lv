@@ -91,3 +91,6 @@ Lai iestatītu sertifikāta informāciju, veiciet tālāk norādītās darbības
 Tiek ģenerēts un parādīts pārskats, kas parāda informāciju par katras daļas izcelsmes valsti/reģion. Tālāk ir sniegts pārskata piemērs.
 
 ![Izcelsmes valsts/reģiona pārskats](media/country-of-origin-report.png "Izcelsmes valsts/reģiona pārskats")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

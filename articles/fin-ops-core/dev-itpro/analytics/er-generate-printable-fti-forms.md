@@ -224,3 +224,6 @@ Formāta parauga izteiksme **Emailing.TxtToUse.Body** ir konfigurēta tālāk no
 
 ## <a name="additional-resources"></a>Papildu resursi
 [Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

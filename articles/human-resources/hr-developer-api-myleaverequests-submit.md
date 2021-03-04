@@ -108,3 +108,5 @@ API iesniedzamā zvana ietvaros Human Resources veic biznesa loģikas validācij
 
 - [MyLeaveRequests pārskats](hr-developer-api-myleaverequests-overview.md)
 - [Autentifikācija](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

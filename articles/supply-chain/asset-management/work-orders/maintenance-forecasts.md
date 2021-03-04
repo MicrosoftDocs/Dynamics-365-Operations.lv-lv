@@ -124,3 +124,6 @@ Ja stundu izmaksas, vienumu izmaksas un izdevumi ir atjaunināti citos moduļos 
 Attēlā tālāk ir parādīts sarakstu dialoga **Atjaunināt darba pasūtījumu prognozi** piemērs.
 
 ![2. attēls](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -186,3 +186,6 @@ Papildinformāciju skatiet tēmās [PVN kodu visas summas un intervāla aprēķ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

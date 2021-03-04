@@ -164,3 +164,6 @@ Dažas formulas nevar testēt noformēšanas laikā. Piemēram, formula var atgr
 
 - [Elektronisko pārskatu veidošanas apskats](general-electronic-reporting.md)
 - [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

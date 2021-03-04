@@ -55,3 +55,6 @@ Lietotāji, kas ir ārēji nomniekam, kurā tika izvietota vide, jānorāda resu
 4. Atlasiet **Importēt lietotājus**.
 5. Atlasiet **Aizvērt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

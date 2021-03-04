@@ -43,3 +43,6 @@ ms.locfileid: "4432610"
 1. Programmā Microsoft Office noklikšķiniet uz **Atvērt**.
 2. Programmā Excel noklikšķiniet uz **Rediģēt pieprasījuma prognozi**. Programmā Excel varat pievienot, dzēst un rediģēt pieprasījuma prognozes rindas. Ja nevarat redzēt datus programmā Excel, nepieciešams pierakstīties ar iespējotu opciju "Neizrakstīties" un uzticēties datu savienojuma lietotnei.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Izmantojot pakāpeniskas plūsmas pasūtījumu izveidi, kas ieviesta Retail vers
 > Izvēlnes elementi **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Aprēķināt pārskatus partijā** un **Retail un Commerce > Retail un Commerce IT > POS grāmatošana > Grāmatot pārskatus partijā** ir noņemti ar šo jauno līdzekli.
 
 Transakciju un finanšu pārskatu veidus var izveidot arī manuāli. Dodieties uz **Retail un Commerce > Kanāli > Veikali** un noklikšķiniet uz **Pārskati**. Noklikšķiniet uz **Jauns** un pēc tam izvēlieties pārskata veidu, ko vēlaties izveidot. Laukos lapā **Pārskati** un darbībās zem lapas **Pārskatu grupa** tiks rādīti atbilstošie dati un darbības, pamatojoties uz atlasīto pārskata veidu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

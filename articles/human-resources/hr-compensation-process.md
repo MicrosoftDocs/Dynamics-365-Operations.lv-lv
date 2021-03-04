@@ -77,3 +77,6 @@ Kad ir pārskatītas darbinieka atlīdzības summas un ir veiktas visas ieteicam
 Kad viena vai vairāku darbinieku notikumu statuss ir atjaunināts uz Apstiprināts, tos var ielādēt darbinieku fiksētās atlīdzības ierakstos. To var izdarīt, lapā **Darbinieku rezultāti** atsevišķi atlasot katru darbinieka notikumu un noklikšķinot uz pogas **Ielādēt darbinieka atlīdzību** vai lapā **Apstrādes rezultāti** noklikšķinot uz **Ielādēt atlīdzību**, lai vienlaikus ielādētu visus apstiprinātos darbinieka notikumus.
 
 Dialogā **Atlīdzības ielāde** noklikšķinot uz **Labi**, lapā **Darbinieku fiksētā atlīdzība** tiks pievienotas atlīdzības darbības rindas ar vērtību, kas nav nulle.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

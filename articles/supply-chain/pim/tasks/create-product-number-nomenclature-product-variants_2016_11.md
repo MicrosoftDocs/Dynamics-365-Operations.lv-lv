@@ -102,3 +102,6 @@ ms.locfileid: "4432775"
 43. Aizvērt lapu.
 44. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Veiciet šīs darbības, lai vienreiz manuāli palaistu darbu "Sinhronizēt pas�
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

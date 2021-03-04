@@ -65,3 +65,6 @@ ms.locfileid: "4432505"
 5. Noklikšķiniet uz Atlasīt.
 6. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

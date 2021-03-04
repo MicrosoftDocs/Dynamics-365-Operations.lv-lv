@@ -65,3 +65,6 @@ Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmai�
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4432564"
 11. Laukā Nepilnas samaksas iemesla kods ievadiet vai atlasiet kādu vērtību.
 12. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

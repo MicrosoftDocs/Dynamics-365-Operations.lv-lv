@@ -50,3 +50,6 @@ ms.locfileid: "4433150"
 14. Ievadiet skaitli laukā Papildobjekta maksa.
 15. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

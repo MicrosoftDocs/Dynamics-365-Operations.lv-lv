@@ -51,3 +51,6 @@ Pamatlīdzekļa nolietojuma aprēķināšanas procesu var vienlaikus izpildīt v
 5. Noklikšķiniet uz Izveidot žurnālu.
 6. Pārejiet uz sadaļu Pamatlīdzekļi > Žurnāla ieraksti > Pamatlīdzekļu žurnāls.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -547,3 +547,6 @@ APQC vienotajā bibliotēkā (2016. gada novembris — visas valodas) ir ietv
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

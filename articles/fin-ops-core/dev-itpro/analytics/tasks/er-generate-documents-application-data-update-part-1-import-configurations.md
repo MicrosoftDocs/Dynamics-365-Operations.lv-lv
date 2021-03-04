@@ -75,3 +75,6 @@ daļa: konfigurāciju importēšana". Šajā procedūrā importēsiet nepiecieš
     * Pārskatiet formāta struktūru, kas tiek izmantota, lai ģenerētu Intrastat pārskatu. Ņemiet vērā, ka tā ir paredzēta, lai ģenerētu XML failu, aizpildot datus no datu modeļa, kas balstīts uz saknes vienumu 'Izejošajam dokumentam'. Pārbaudiet, vai lietotāja dialoglodziņa veidlapā ir definēts ģenerētā faila nosaukums (šim mērķim tiek izmantots 'fn' datu avots).   
 30. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

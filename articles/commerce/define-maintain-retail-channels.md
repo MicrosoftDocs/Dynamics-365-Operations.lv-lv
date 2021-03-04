@@ -89,3 +89,6 @@ Programma Commerce izmanto organizāciju hierarhijas, lai mazumtirdzniecības ka
 > [!NOTE]
 > Lai izmantotu Commerce pārdošanas funkcionalitāti, jāaktivizē **Vairākas izsūtīšanas** konfigurācijas atslēga. Šo konfigurācijas atslēgu var atrast atslēgās **Tirdzniecības konfigurācija** sadaļā **Sistēmas administrēšana**\> **Iestatījumi** \> **Licences konfigurācija.** Tas ir nepieciešams dažādu validāciju dēļ, pamatojoties uz piegādes adresi, kas konfigurēta pārdošanas pasūtījuma rindas līmenī.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

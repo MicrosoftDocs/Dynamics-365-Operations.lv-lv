@@ -59,3 +59,6 @@ Ja parametrs **Kreditors** ir konfigurēts kā elektronisko pārskatu (ER) datu 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saraksta funkcijas](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

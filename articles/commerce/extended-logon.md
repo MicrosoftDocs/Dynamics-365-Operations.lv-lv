@@ -67,3 +67,6 @@ Pieteikšanās pakalpojumu var paplašināt, lai atbalstītu papildu paplašinā
 ## <a name="using-extended-logon"></a>Paplašinātās pieteikšanās tiesību izmantošana
 
 Ja paplašinātā pieteikšanās opcija ir konfigurēta un darbiniekam ir piešķirts svītrkods un magnētiskā karte, darbiniekam ir tikai jānolasa vai jānoskenē karte, kamēr ir atvērta POS pieteikšanās lapa. Ja pirms pieteikšanās turpināšanas ir jāievada arī parole, darbiniekam tiek parādīta uzvedne ievadīt savu parole.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

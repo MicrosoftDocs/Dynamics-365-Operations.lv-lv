@@ -43,3 +43,6 @@ Kalendāros ir norādīta operāciju resursu noslodze un darba laiki. Šajā rak
 12. Atlasiet **Labi**.
 13. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

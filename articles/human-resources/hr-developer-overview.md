@@ -62,3 +62,6 @@ ms.locfileid: "4528321"
 - [Jaunumi un izmaiņas Human Resources](hr-admin-whats-new.md)
 - [Administratora pamācība](hr-admin-overview.md)
 - [Lietotāja ceļvedis](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

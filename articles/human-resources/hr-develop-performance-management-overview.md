@@ -163,3 +163,5 @@ Veiktspējas žurnāla avotu veidi apraksta, no kurienes veiktspējas žurnāls 
 ### <a name="review-types"></a>Pārskatīšanas tipi
 
 Veiktspējas pārskatu tipi jums palīdzēt kontrolēt pārskata uzvedību. Varat iespējot vai atspējot darbplūsmu kādam pārskatam. Ja pārskatā netiek izmantota darbplūsma, varat definēt noklusējuma statusu, kas tiks izmantots, veidojot šo pārskatu. Varat arī izlemt, vai pārskata izrakstīšana ir jāveic darbiniekam, vadītājam, vai viņiem abiem.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

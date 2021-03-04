@@ -128,3 +128,6 @@ Dynamics 365 Human Resources Lietotāja rokasgrāmata sniedz jums norādījumus,
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

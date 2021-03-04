@@ -74,3 +74,6 @@ Ekrānšāviņā redzams aprēķina **Līdzekļu stundu kontrole** piemērs.
 Cits stundu aprēķina veids ir vairāku atlasīto līdzekļu atlasīšana sadaļās **Visi līdzekļi** vai **Aktīvie līdzekļi** Pēc tam noklikšķiniet uz pogas **Stundu kontrole**, kas atrodas kopsavilkuma cilnē **Vispārīgi**. Atlasītie līdzekļi automātiski tiek ievietoti laukā **Līdzekļi** kopsavilkuma cilnē **Ieraksti, kas jāiekļauj**. Noklikšķiniet uz **Labi** dialoglodziņā **Līdzekļu stundu kontrole**, un tiks parādīts atlasīto līdzekļu aprēķins. To pašu procedūru var veikt funkcionālajiem novietojumiem sadaļās **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi** un darba pasūtījumiem sadaļās **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

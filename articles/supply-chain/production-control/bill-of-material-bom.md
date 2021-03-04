@@ -118,3 +118,6 @@ Atlasiet rindas tipu **Kreditors**, ja ražošanas procesā tiek izmantots apak�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

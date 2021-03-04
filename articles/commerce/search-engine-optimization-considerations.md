@@ -56,3 +56,6 @@ Tā kā Dynamics 365 Commerce atbalsta “ko redzat, to iegūstat”(WYSIWYG) au
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

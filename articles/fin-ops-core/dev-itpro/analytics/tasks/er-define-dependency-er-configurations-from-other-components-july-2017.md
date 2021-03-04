@@ -139,3 +139,6 @@ Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tā
 26. Kokā izvērsiet "Sample data model".
     * Ņemiet vērā, ka kartējuma konfigurācija 'Parauga kartēšana' tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo 'Parauga kartēšana' ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija 'Parauga kartēšana (alternatīvi)' netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
     * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija 'Parauga kartēšana (alternatīvi)' tiks lejupielādēta, savukārt konfigurācija 'Parauga kartēšana' tiks izlaista.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4445515"
 3. Atlasiet vai notīriet opciju **Saistīts**, lai izvēlētos galvenos kontus.
 4. Atlasiet **Labi**.
 5. Atlasiet **Jā**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

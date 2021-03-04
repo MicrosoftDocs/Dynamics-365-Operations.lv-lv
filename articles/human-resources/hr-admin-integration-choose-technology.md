@@ -144,3 +144,6 @@ Kad pieejamas tik daudzas integrācijas tehnoloģijas, dažreiz var būt sarež�
 <sup>2</sup> Microsoft veic lielus ieguldījumus, palielinot datu pārklājumu Common Data Service vienībām. Mēs iesakām izmantot Common Data Service, kad pārklājums ir pieejams. Pašlaik Common Data Service datu segums ir zems salīdzinājumā ar DMF un OData iespējotiem elementiem.
 
 <sup>3</sup>SQL datu bāzei var piekļūt programmiski.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

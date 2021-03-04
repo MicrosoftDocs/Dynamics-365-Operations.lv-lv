@@ -96,3 +96,6 @@ Tabulā zemāk ir parādīts, kurus pārdošanas pasūtījumus lietotāji katrā
 
 > [!NOTE]
 > Kaut gan Sam un Jane ir kontaktpersonas, kas strādā debitoram X, viņi var skatīt tikai tos pasūtījumus, kurus viņi paši ir ievietojuši, un neko citu. Lai gan May sistēmā ir pasūtījums, viņa nevar redzēt šo pasūtījumu Debitoru portālā, jo viņa ir neautorizēts lietotājs. (Turklāt viņa ir ievietojusi pasūtījumu, izmantojot kādu citu kanālu, nevis Debitoru portālu.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

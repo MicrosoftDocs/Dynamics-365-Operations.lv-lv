@@ -45,3 +45,6 @@ ms.locfileid: "4683142"
 - [Kreditoru maksājumu darbvieta](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI satura pakotne Noliktavas veiktspēja](warehouse-power-bi-content.md)
 - [Power BI satura pakotne Darbaspēka rādītāji](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

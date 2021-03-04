@@ -122,3 +122,6 @@ Varat apstrādāt NSF maksājumus, lapā **Iekasēšana** atlasot **NSF maksāju
 [Kredīta aizturēšana pārdošanas pasūtījumiem](./cm-sales-order-credit-holds.md)
 
 [Debitoru kredīta pārvaldības periodiskie uzdevumi](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

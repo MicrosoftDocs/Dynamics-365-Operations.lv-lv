@@ -59,3 +59,6 @@ Pēc tam ieslēdziet **Tehnikas izmaiņu pārvaldība** konfigurācijas atslēgu
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
 1. Paplašiniet **Tirdzniecības** mezglu un atzīmējiet izvēles rūtiņu **Tehnikas izmaiņu pārvaldība**.
 1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Lietotājs var atlasīt operāciju no AppBar. Atkarībā no pasūtījuma statusa
 - **Rediģēt** – ļauj lietotājiem veikt izmaiņas atlasītajā debitora pasūtījumā.
 
 - **Izdot** – uzsāk izdošanas plūsmu, kas ļauj lietotājam izvēlēties saņemamās preces un izveido izdošanas pārdošanas transakciju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

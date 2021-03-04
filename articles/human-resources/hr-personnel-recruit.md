@@ -227,3 +227,5 @@ Ja nepieciešams, varat noraidīt kandidātu pēc pieņemšanas darbā. Piemēra
 [Common Data Service virtuālo elementu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Darbaspēka pārvaldība](hr-personnel-departments-jobs-positions.md)<br>
 [Darba komponentu iestatīšana](hr-personnel-jobs.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

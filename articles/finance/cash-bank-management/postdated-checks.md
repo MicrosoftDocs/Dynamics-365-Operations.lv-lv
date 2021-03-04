@@ -99,3 +99,6 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

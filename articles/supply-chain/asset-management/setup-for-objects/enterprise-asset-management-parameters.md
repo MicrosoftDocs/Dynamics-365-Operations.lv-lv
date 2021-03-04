@@ -107,3 +107,6 @@ Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas 
 Saite **Numuru sērijas**
 
 Atlasiet šajā sadaļā nepieciešamās numuru sērijas. Līdzekļiem ir divas numuru sērijas: viena manuāli izveidotiem līdzekļiem, bet otra —līdzekļiem, kas izveidoti, izmantojot gaidošos līdzekļus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

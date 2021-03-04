@@ -95,3 +95,6 @@ Informāciju par vērtējumu un apskatu konfigurēšanu preču detalizētas info
 [Konfigurējiet vērtējumu un pārskata moduļus preces detalizētas informācijas lapās](ratings-reviews-modules.md)
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

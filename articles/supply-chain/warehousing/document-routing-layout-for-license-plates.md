@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Papildinformācija par etiķešu drukāšanu
 
 Papildinformāciju par to, kā iestatīt un drukāt etiķetes, skatiet [Iespējot numura zīmes etiķetes drukāšanu](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

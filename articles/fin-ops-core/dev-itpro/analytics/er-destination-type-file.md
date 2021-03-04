@@ -38,3 +38,6 @@ Ja lapā **Adresāta iestatījumi** opciju **Iespējots** iestatāt uz **Jā**, 
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

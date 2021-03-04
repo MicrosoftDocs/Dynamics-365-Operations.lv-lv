@@ -57,3 +57,6 @@ Ir pievienots atbalsts nodokļu reģioniem ārpus Amerikas Savienotajām Valstī
 ## <a name="benefit-enrollment-status-report"></a>Atvieglojumu reģistrācijas statusa pārskats
 
 Iebūvētā pārskatu veidošana par atvērtu reģistrēšanos atvieglojumiem palīdz jums viegli saprast, kur šajā atvērtajā reģistrēšanās procesā atrodas jūsu darbinieki. Varat uzzināt, cik darbinieki šo procesu ir pabeiguši, veic pašlaik un nav vēl sākuši. Turklāt varat ātri apskatīt visas problēmas, kas rodas, darbiniekam reģistrējoties, kā arī pilnīgu žurnālu ar visiem darbinieku iesniegumiem. Tādēļ varat ērti verificēt un auditēt darbinieku iesniegumus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

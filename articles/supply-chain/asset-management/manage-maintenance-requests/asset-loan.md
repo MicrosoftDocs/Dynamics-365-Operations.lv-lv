@@ -58,3 +58,6 @@ Lapā **Aktīvie līdzekļu patapinājumi** varat skatīt visu to patapinājuma 
 3. Laukā **Atgriezts** ievadiet datumu un laiku.
 4. Atlasiet **Labi**.
 5. Atsvaidziniet saraksta **Aktīvie līdzekļu patapinājumi** lapu un pievērsiet uzmanību, ka līdzekļa patapinājums vairs nav redzams sarakstā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

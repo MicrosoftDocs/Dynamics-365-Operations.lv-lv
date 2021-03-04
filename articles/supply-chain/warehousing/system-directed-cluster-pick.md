@@ -207,3 +207,6 @@ Pirms varēsiet iestatīt sistēmas noteikta klastera izdošanu, ir jāizveido p
 1. Pēdējais solis mobilajā ierīcē ir **Ievietot** ievietot klasteri galīgajā vietā. Atlasiet **Labi**
     - Kad ievietošanas operācija ir apstiprināta, klasteris tiek slēgts un pārtraukts, pamatojoties uz vērtību, ko klastera profilā iestatījāt laukam **Pārtraukt klasteri pie**. Darba ID arī tiek slēgti.
 1. Mobilajā ierīcē tiek parādīts ziņojums "Klasteris pabeigts".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

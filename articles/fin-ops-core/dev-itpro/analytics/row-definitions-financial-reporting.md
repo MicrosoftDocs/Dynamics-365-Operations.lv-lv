@@ -187,3 +187,6 @@ Lai atvieglotu iespēju apskatīt kolonnas, ar kurām strādājat rindas definī
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošana](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

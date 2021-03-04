@@ -59,3 +59,6 @@ Pēc tam saistiet kontus ar izdevumu tipiem. Šie konti tiks debetēti, kad tiks
 7. Atbilstošajos laukos atlasiet finanšu nomas galveno kontu un operatīvas nomas galveno kontu.
 
 Kad šīs darbības ir pabeigtas, varat pievienot izdevumus, izmantojot **izpildes izmaksu maksājuma grafika** rindas atlasītās nomas lapā **Līguma informācija**. Varat arī pievienot izdevumus, izveidojot jaunu nomu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

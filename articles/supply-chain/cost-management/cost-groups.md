@@ -54,3 +54,6 @@ Izmaksu grupai var tikt piešķirts izmaksu grupas tips un uzvedība papildus se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Izmantojiet šo procedūru, lai pārvaldītu izmaksu uzskaites virsgrāmatas dat
 14. Laukā Grāmatošanas līmenis atlasiet Pašreizējais.
 15. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

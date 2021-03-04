@@ -47,3 +47,6 @@ Pēc jauna piegādes veida atlases tiek parādīta transakciju lapa. Lai pārska
 [Zvanu centra pasūtījumu izveide](tasks/create-call-center-orders.md)
 
 [Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

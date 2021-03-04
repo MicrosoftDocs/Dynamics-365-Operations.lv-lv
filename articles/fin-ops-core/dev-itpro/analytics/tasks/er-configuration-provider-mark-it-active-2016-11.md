@@ -44,3 +44,6 @@ ms.locfileid: "4682001"
 2. Atlasiet **Iestatīt kā aktīvu**.
 
 ![Elektronisko pārskatu darbvietas lapa](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

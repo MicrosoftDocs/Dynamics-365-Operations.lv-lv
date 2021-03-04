@@ -86,3 +86,6 @@ Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

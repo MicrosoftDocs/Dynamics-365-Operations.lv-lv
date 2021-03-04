@@ -35,3 +35,6 @@ HTML lapas atrodas repozitorijā šeit: [https://github.com/Microsoft/ax-2012-d
 Aprakstu par ERD izveidi skatiet šeit: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm).
 
 Risinājums atrodas AxErd mapes saknē: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

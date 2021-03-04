@@ -114,3 +114,6 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 [Filtru lietošana plānam](plan-filters.md)
 
 [Plānošanas darba atcelšana](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

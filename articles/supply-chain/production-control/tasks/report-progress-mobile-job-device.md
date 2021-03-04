@@ -65,3 +65,6 @@ Lai varētu izpildīt šo procedūru, ar lietotāja kontu jābūt saistītai lom
 29. Noklikšķiniet uz OK.
 30. Atlasiet agrākas aiziešanas iemeslu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

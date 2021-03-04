@@ -65,3 +65,6 @@ Loģisko funkciju argumentos var izmantot datu avota atsauces, skaitliskās un t
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Loģiskas funkcijas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

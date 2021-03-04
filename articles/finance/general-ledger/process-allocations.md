@@ -44,3 +44,6 @@ Virsgrāmatas sadalījuma nosacījumus var izmantot budžeta plānos. Budžeta p
 > [!NOTE]
 > Starpuzņēmuma virsgrāmatas sadalījuma nosacījumus nevar izmantot budžeta plānošanai.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

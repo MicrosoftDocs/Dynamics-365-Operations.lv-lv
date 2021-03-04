@@ -97,3 +97,6 @@ Sistēmas darbība ir vienāda neatkarīgi no tā, vai lapas **Virsgrāmatas par
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

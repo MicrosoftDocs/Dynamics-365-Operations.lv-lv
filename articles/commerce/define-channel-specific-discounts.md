@@ -62,3 +62,6 @@ Nākamajā piemērā ir parādīti kanāla atlaižu iestatīšanas procedūrā i
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Cenu korekcijas un atlaides](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

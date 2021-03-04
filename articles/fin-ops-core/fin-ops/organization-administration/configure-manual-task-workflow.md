@@ -381,3 +381,6 @@ Kad manuālais uzdevums ir piešķirts lietotājam, lietotājam ir jāveic darb�
 5. Atzīmējiet izvēles rūtiņu **Deleģēt**, lai lietotājs varētu piešķirt uzdevumu citam lietotājam.
 6. Atzīmējiet izvēles rūtiņu **Piešķirt no jauna**, lai lietotājs varētu piešķirt no jauna uzdevumu citam lietotājam darba vienumu rindā.
 7. Atzīmējiet izvēles rūtiņu **Nodot izpildei**, lai lietotājs varētu piešķirt no jauna uzdevumu darba vienumu rindā. Pēc tam uzdevumu var pabeigt cits lietotājs.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

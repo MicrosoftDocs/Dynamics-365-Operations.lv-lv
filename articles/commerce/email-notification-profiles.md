@@ -96,3 +96,6 @@ Lai varētu nosūtīt e-pastus, ir jākonfigurē izejošais pasta pakalpojums un
 [Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 [Organizācijas un organizāciju hierarhiju pārskats](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

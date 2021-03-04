@@ -57,3 +57,6 @@ Kad tiek iestatīta rēķina atjaunināšana pakešuzdevumu apstrādei, pārdoš
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

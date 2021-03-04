@@ -48,3 +48,6 @@ Pirms izmantojat līdzekli **Atvērt jaunā logā**, ir nepieciešams konfigurē
 Līdzeklis **Atvērt jaunā logā** ir pieejams tikai tad, ja logā ir atvērta vairāk nekā viena lapa. Turklāt uznirstošais logs automātiski aizveras, kad vairs nav atvērta neviena lapa (t. i., aizverot pēdējo lappusi attiecīgajā logā). Sistēma arī aizver atvērtās lapas, kad pārejat uz citu programmas apgabalu. Tādēļ, ja ir atvērti uznirstošie logi un jūs pārejat uz citu apgabalu programmā, uznirstošie logi tiek automātiski aizvērti, jo sistēma aizvēra lapas attiecīgajos logos.
 
 Uznirstošo logu augšējā joslā ir parādīta informācija par uzņēmumu, kurā lapa tika atvērta, un tā ir tikai lasāma. Uznirstošie logi ir atkarīgi arī no pārlūkprogrammas galvenā loga. Ja galvenais logs tiek aizvērts vai atsvaidzināts, visi atvērtie uznirstošie logi kļūst tikai lasāmi. Šādā situācijā joprojām varat apskatīt informāciju šajos logos, bet nevarēsiet ar to mijiedarboties.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -240,3 +240,6 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

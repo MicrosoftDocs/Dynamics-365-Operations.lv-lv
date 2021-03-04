@@ -34,3 +34,6 @@ site:technet.microsoft.com dynamics ax 2012 “meklējamais vārds”
 –vai–
 
 site:msdn.microsoft.com dynamics ax 2012 "meklējamais vārds"
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

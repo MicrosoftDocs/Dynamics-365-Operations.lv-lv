@@ -397,3 +397,6 @@ Papildinformāciju par kvalitātes pārvaldību skatiet [Pārskats par kvalitāt
 1. Lapas augšā atlasiet izvēlnes pogu (**≡**), un pēc tam izvēlnē atlasiet **Atcelt**, lai atgrieztos izvēlnē.
 
 Tagad varat aizvērt mobilo programmu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

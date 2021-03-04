@@ -93,3 +93,6 @@ Ieteicams vispirms izpildīt uzdevuma ceļvedi Traumas un slimības iestatīšan
 36. Noklikšķiniet uz Saglabāt.
     * Incidenta statusu var atjaunināt jebkurā laikā.  Iestatīt incidentam statusu Aktīvs, ja trauma vai slimība vēl tiek ārstēts.  Slēdzgtam incidentam var tikai pievienot vai noņemt ar to saistītās izmaksas, ārstēšanu vai sistematizāciju.  Lai modificētu citu informāciju, incidents atkārtoti jāaktivizē.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

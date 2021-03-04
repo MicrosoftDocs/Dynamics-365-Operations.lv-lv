@@ -68,3 +68,6 @@ Lai atlasītu dizainu, kas ir piemērots vietnei, veiciet tālāk norādītās d
 
 [Jauna projekta tēma](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Ja kandidāti piekrīt kopīgot savus LinkedIn profilus ar jebkuru lietotāju j�
 [Vakanču publicēšana LinkedIn no pakalpojuma Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
 [Integrācijas problēmu novēršana ar LinkedIn un Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

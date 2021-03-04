@@ -57,3 +57,6 @@ Lai sāktu, atlasiet vienu no šīm tēmām.
 [Dokumenta stāvokļi un dzīves cikls](document-states-overview.md)
 
 [Šķērskanālu kopīgošanas iespējošana un izmantošana](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

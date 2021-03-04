@@ -49,3 +49,6 @@ Iegūtā teksta vērtība.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Citas (biznesa jomai specifiskas) funkcijas](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

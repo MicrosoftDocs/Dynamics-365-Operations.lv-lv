@@ -258,3 +258,6 @@ Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darb
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Palīdzības tēma: [Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

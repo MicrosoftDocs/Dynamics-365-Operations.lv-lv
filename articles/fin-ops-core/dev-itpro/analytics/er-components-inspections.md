@@ -813,3 +813,6 @@ Lai uzzinātu, kā formāta struktūru var sinhronizēt ar ER veidni [Biznesa do
 [Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
 
 [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "4433177"
     - Lauks **Atsauce uz partiju** nodrošina, ka izmaksas no pašreizējā pirkuma tiek uzliktas piesaistītajam pārdošanas pasūtījumam.  
     - Varat pārvietoties uz sākotnējo pārdošanas pasūtījumu, atverot saiti laukā **Atsauces numurs**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

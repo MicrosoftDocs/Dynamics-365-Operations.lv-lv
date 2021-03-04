@@ -128,3 +128,6 @@ Sekojošajā tabulā ir norādītās galvenās dimensijas, kas tiek izmantotas k
 | Elementi                  | ID un nosaukums                                                   |
 | Resursi                 | Resursa ID, resursa nosaukums, resursa veids un resursu grupa |
 | Preces                  | Preces numurs, preces nosaukums, krājuma ID un krājumu grupa         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

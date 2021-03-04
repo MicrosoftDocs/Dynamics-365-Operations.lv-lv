@@ -99,3 +99,6 @@ Papildu palīdzībai programmā Finance ir pieejami uzdevumu ceļveži. Lai piek
 #### <a name="videos"></a>Videoklipi
 
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot lejupielādēto
 2. Noklikšķiniet uz OK.
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas tikai 3 importētā TXT faila rindas. IBAN kods 4. rindā, kas nav derīgs, tika izlaists, un informācijas žurnālā ir reģistrēts kļūdas ziņojums.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

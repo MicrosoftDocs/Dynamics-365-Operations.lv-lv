@@ -106,3 +106,6 @@ Katrs pārskats, ko izveidojat, tiek saglabāts datu elementā **Krājumu vērt�
 1. Tiek atvērta lapa **Izpildes kopsavilkums**, kurā ir redzams eksportētā darba statuss un eksportēto elementu saraksts. Sadaļā **Elementa apstrādes statuss** atlasiet **Krājuma vērtības** elementu sarakstā un pēc tam atlasiet **Lejupielādēt failu**, lai no šī elementa lejupielādētu eksportētos datus.
 
 Papildinformāciju par to, kā izmantot datu pārvaldību, lai eksportētu datus, skatiet šeit: [Datu importēšanas un eksportēšanas darbu apskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

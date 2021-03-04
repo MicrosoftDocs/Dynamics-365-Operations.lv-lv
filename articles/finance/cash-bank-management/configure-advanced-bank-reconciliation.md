@@ -61,3 +61,6 @@ Opcija **Saskaņot pēc importēšanas** automātiski validē šo bankas izrakst
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

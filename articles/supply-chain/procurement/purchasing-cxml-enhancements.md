@@ -277,3 +277,6 @@ Lai skatītu kreditora apstiprinājuma vai kļūdas atbildes saturu, atlasiet ci
 
 - [Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei](set-up-external-catalog-for-punchout.md)
 - [Ārējo katalogu izmantošana elektroniskai atzīmēšanas sagādei](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

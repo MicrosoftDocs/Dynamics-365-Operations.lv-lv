@@ -71,3 +71,6 @@ Funkcionalitāte Atcelt bankas izraksta saskaņošanu ļauj atcelt bankas izraks
 Bankas izrakstu saskaņošanu var atcelt tikai tādā hronoloģiskā secībā, kādā tie ievadīti. Kad bankas izraksta saskaņošana ir atcelta, jaunas transakcijas un labojumi tiks atsaukti, un visas pārējās transakcijas tiks atzīmētas kā nesaskaņotas.
  
 Lai atceltu bankas izraksta saskaņošanu, atlasiet bankas izrakstu un atlasiet **Bankas izraksts > Atcelt bankas saskaņošanu**. Lapā **Atcelt bankas saskaņošanu** norādiet **Pamatojuma kodu**, **Pamatojuma komentāru** un **Atcelšanas datumu**. Atlasiet **Labi**, lai sāktu atcelšanu. Ņemiet vērā, ka bankas izraksta atcelšanas datumam jābūt bankas izraksta datumā vai pēc tā. Kad bankas izraksta saskaņošana ir atcelta, bankas izraksta lauks **Atcelšanas datums** tiks atjaunināts ar norādīto **Atcelšanas datumu**. Atlasiet pogu **Transakcijas**, lai skatītu transakcijas, kurām saskaņošana tika atcelta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

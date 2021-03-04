@@ -58,3 +58,6 @@ Kad žurnāls ir iegrāmatots, atgrieztie krājumi tiek reģistrēti krājumos u
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

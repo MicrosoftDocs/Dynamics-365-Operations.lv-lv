@@ -79,3 +79,6 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Krājumu pārsūtījumi (no Field Service uz Supply Chain Management): Krājumu pārsūtījumi
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

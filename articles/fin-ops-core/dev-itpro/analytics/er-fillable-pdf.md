@@ -301,3 +301,6 @@ Tālāk redzamajā attēlā ir parādīts ģenerēta pārskata citas lapas piem�
 
 - [ER Izveidot konfigurāciju pārskatu ģenerēšanai formātā OPENXML (2016. gada maijs)](tasks/er-design-reports-openxml-2016-11.md)
 - [ER konfigurāciju noformēšana pārskatu ģenerēšanai Word formātā](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Katrs gadījums pieprasa nopietnus apsvērumus par to, kā atjaunināt standarta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

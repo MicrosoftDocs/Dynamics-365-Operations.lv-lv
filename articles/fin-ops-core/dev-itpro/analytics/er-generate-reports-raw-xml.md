@@ -37,3 +37,6 @@ Varat izmantot jauno **RAW XML** formāta elementu, lai noformētu elektronisko 
 > Ņemiet vērā, ka šī struktūra nekontrolē to, vai XML saturs, kurš tiek ievietots ģenerētajā dokumentā, izmantojot **RAW XML** formāta elementu, ir pareizs.
 
 Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevumu ceļvežus **ER Neapstrādātu XML datu izmantošana XML pārskatu ģenerēšanai (1. daļa. Datu modeļa noformēšana)** un **ER Neapstrādātu XML datu izmantošana XML pārskatu ģenerēšanai (2. daļa. Pārskata noformēšana un palaišana)**, kuri veido daļu no biznesa procesa **7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677)** un kurus var lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684). Šajos uzdevumu ceļvežos ir izklāstīts ER formāta konfigurēšanas process neapstrādātu XML datu ievietošanai ģenerētajos failos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

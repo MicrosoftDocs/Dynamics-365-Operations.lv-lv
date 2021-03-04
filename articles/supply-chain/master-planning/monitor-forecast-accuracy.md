@@ -50,3 +50,6 @@ Supply Chain Management tiek aprēķināti tālāk norādītie prognozes precizi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

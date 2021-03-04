@@ -117,3 +117,6 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Galvenais apkopošanas mērījums       | Lauks               | Apraksts |
 |---------------------------------|---------------------|-------------|
 | Pabeigtās aktivitātes plānotās izmaksas | Sum(TotalCostPrice) | Visu pabeigtus uzdevumus ietverošo projekta transakciju veidu novērtētas izmaksu cenas kopsumma. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

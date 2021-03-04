@@ -72,3 +72,6 @@ Kalendārus var filtrēt arī pēc vadītāja vai nodaļas. Primārā pozīcijas
 
 Lai iegūtu informāciju par kalendāra iestatījumiem, skatiet [Kalendāra parametru konfigurēšana](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Tagad var piešķirt darbiniekam fiksētas atlīdzības plānu. Lapā **Darbinie
 
 Sistēma pārbaudīs, vai atlīdzības summa, kas norādīta atlīdzības plānā ar pakāpes vai indeksa veidu, ir starp noteikto darbinieka darba atlīdzības līmeņa minimālo un maksimālo atsauces punktu. Ja atlīdzības summa ir ārpus atļautā diapazona, atkarībā no tolerances līmeņa, kas ir iestatīts fiksētas atlīdzības plānā, tiek parādīts brīdinājums vai kļūdas ziņojums.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

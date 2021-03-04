@@ -147,3 +147,6 @@ Tālāk esošajā attēlā ir parādīta detalizēta informācija par konfigurē
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

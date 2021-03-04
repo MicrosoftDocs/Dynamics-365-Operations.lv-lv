@@ -67,3 +67,6 @@ Izmantojiet šo procedūru, lai izveidotu un piešķirtu izmaksu sadalījuma pol
 5. Laukā Izmaksu vadības ierīce ievadiet vai atlasiet kādu vērtību.
 6. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

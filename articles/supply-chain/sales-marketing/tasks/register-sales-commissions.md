@@ -71,3 +71,6 @@ ms.locfileid: "4432605"
 3. Aizvērt lapu.
 4. Izvēlēties **Dokuments**. Varat pārskatīt dokumentu transakcijas par komisijas summām, kas tika iegrāmatotas iepriekš definētos komisijas izdevumu un maksājamo komisiju kontos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

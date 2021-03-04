@@ -78,3 +78,6 @@ Lai izveidotu un konfigurētu Excel darbgrāmatu un varētu rediģēt mazumtirdz
 [Mazumtirdzniecības darījumu finanšu dimensiju rediģēšana](edit-financial-dim.md)
 
 [Lauku pievienošana Excel darbgrāmatai, lai rediģētu mazumtirdzniecības darījumus](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

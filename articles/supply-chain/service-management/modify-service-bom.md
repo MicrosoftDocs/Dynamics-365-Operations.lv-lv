@@ -72,3 +72,6 @@ Elementa vēsturi var ierakstīt pakalpojuma MK. Katru reizi, kad jūs atjaunin�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

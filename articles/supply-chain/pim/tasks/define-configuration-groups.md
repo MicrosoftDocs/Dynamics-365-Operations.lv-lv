@@ -40,3 +40,6 @@ ms.locfileid: "4432766"
 7. Laukā Nosaukums ierakstiet kādu vērtību.
 8. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

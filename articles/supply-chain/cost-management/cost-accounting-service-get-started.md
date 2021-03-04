@@ -111,3 +111,6 @@ Lai iestatītu integrēšanu starp izmaksu uzskaites pakalpojumu un Dynamics 365
 ## <a name="related-resources"></a>Saistītie resursi
 
 [Izmaksu uzskaites pakalpojuma sākumlapa](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Nākamajā piemērā ir parādīts, kā tiek aprēķinātas krājumu objekta un 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

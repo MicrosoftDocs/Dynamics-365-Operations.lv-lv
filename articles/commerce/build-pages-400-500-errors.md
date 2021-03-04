@@ -83,3 +83,6 @@ Lai iestatītu novirzīšanu statusa koda kļūdas atbildes lapai, veiciet tāl�
 [Jaunas vietnes lapas pievienošana](add-new-page.md)
 
 [Lapas vietrāža URL izveide](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

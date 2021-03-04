@@ -54,3 +54,6 @@ ms.locfileid: "4445426"
 10. Atlasiet **Grāmatot**.
 11. Atlasiet **Dokuments**, lai skatītu ievietotos ierakstus. Konts Rēķins, kas gaida apstiprinājumu, tiek anulēts un aizstāts ar faktisko izdevumu kontu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

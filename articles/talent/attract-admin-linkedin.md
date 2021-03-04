@@ -118,3 +118,6 @@ Varat atļaut kandidātiem pieteikties jūsu darbiem, izmantojot viņu LinkedIn 
 [Darbu izveide, apstiprināšana un grāmatošana programmā Attract](./creating-jobs-attract.md)
 
 [Integrācijas problēmu novēršana ar LinkedIn un Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

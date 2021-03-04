@@ -60,3 +60,6 @@ Izmantojot publicēšanas grupas ar eksperimentiem, ir jāņem vērā daži svar
 
 ## <a name="next-step"></a>Nākamā darbība
 [Eksperimenta izpildīšana un pārraudzīšana](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

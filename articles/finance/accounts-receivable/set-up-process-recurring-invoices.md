@@ -67,3 +67,6 @@ Ja periodiskie rēķini ir iegrāmatoti, rēķinus var drukāt no brīva teksta 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

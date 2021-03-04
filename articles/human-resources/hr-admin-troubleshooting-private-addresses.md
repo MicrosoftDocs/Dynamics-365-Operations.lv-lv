@@ -39,3 +39,6 @@ Lai atrisinātu probl., debitoram ir jāveic šādas darbības attiecībā uz du
 3. Atlasiet **Saglabāt**.
 
 ![Lapa Glob. adrešu grām. parametri](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

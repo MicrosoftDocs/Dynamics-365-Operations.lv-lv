@@ -45,3 +45,5 @@ Dynamics 365 Human Resources nodrošina analīzi, lai palīdzētu jums sniegt ie
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Izveidot atvaļinājumu un prombūtnes plānu](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4687381"
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

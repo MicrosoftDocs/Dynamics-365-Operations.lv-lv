@@ -47,3 +47,6 @@ Lai izveidotu transportēšanas metodi, veiciet tālāk norādītās darbības:
 1. Atlasiet **Jauns**, lai izveidotu jaunus transportēšanas metodi.
 1. Ievadiet transportēšanas metodei unikālu ID un aprakstošu nosaukumu.
 1. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

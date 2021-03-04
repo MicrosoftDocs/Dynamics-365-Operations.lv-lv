@@ -44,3 +44,6 @@ ms.locfileid: "4432723"
 13. Laukā **Mantot piegādātājus no galvenās kategorijas** atlasiet **Nē**.
 14. Laukā **Mantot piegādātājus no galvenās kategorijas** atlasiet **Jā**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

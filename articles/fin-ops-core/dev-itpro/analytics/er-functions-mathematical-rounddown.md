@@ -67,3 +67,6 @@ Iegūtā skaitliskā vērtība.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Matemātiskās funkcijas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

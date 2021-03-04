@@ -111,3 +111,6 @@ Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mēr�
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc preces                       | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc debitora                      | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc vietas/noliktavas              | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

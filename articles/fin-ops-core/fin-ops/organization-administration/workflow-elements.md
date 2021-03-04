@@ -89,3 +89,6 @@ Tālāk norādītie elementi ļauj izveidot darbplūsmas ar alternatīviem atzar
 ### <a name="subworkflow"></a>Pakārtotā darbplūsma
 
 *Pakārtotā darbplūsma* ir darbplūsma, kas darbojas citas darbplūsmas kontekstā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

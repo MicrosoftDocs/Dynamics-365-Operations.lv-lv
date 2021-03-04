@@ -116,3 +116,6 @@ Uzturēšanas plāni tiek izmantoti, plānojot līdzekļa profilaktiskās uztur�
 ## <a name="financial-dimensions"></a>Finanšu dimensijas
 
 Līdzeklim varat atlasīt finanšu dimensijas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

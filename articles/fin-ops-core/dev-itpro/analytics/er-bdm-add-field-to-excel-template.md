@@ -169,3 +169,6 @@ Modificētā veidne tiek izmantota, lai ģenerētu brīva teksta rēķina pārsk
 [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md)
 
 [Izveidot konfigurāciju atskaišu ģenerēšanai formātā OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

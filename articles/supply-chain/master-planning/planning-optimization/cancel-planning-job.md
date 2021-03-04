@@ -60,3 +60,6 @@ Darba statuss būs **Atcelšana**, līdz pakalpojums Plānošanas optimizācija 
 [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
 
 [Filtru lietošana plānam](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

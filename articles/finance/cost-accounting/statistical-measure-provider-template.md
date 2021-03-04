@@ -346,3 +346,6 @@ Ja iepriekš definētais dimensijas elementa sadalījuma pamats Elektrība ir pi
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Sadalījuma pamati](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ Lai ierobežotu piekļuvi Human Resources programmai Microsoft Teams jūsu organ
 [Microsoft Teams palīdzības centrs](https://support.office.com/teams)</br>
 [Atvaļinājumu pieprasījumu pārvaldība programmā Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

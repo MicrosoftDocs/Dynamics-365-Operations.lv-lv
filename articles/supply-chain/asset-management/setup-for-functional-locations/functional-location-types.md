@@ -67,3 +67,6 @@ Tagad ir izveidots noklusējuma funkcionālā novietojuma veids, kas jāizmanto 
 
 >[!NOTE] 
 >Kopsavilkuma cilnē **Vispārīgi** varat iegūt pārskatu par līdzekļu veidu skaitu, uzturēšanas plāniem, līdzekļu atribūtu prasībām, atļautajiem veidiem, atribūtiem un funkcionālajiem novietojumiem, kas iestatītas funkcionālā novietojuma veidā. Laukā **Funkcionālie novietojumi** ir norādīts to funkcionālo novietojumu skaits, kuri izmanto funkcionālā novietojuma veidu. Varat izmantot pogu **Kopēt**, lai kopētu iestatījumus no funkcionālā novietojuma veida uz atlasīto funkcionālā novietojuma veidu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ Funkcionalitāte Amatpersonas rāda noklusējuma sākotnēji definētos parakst�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Ja ir iestatīta opcijas **Izveidot debitora pasūtījumu asinhronā režīmā**
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Hibrīda debitoru pasūtījumi](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Ilustrācijā zemāk uzrādīta saraksta lapa **Visi uzturēšanas grafiki**.
 
 ![1. attēls](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

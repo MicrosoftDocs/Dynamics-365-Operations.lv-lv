@@ -41,3 +41,6 @@ ms.locfileid: "4433165"
 6. Laukā Atgriešanas metodes kods ierakstiet vērtību.
     * Atgriešanas metodes kods nosaka atlikušo atgriešanas pasūtījuma procesu reģistrētiem krājumiem. Šajā piemērā klientam jāsaņem kredīta notu. Pievienojiet atgriešanas metodes kodu, kuras satur darbību Kredīts.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

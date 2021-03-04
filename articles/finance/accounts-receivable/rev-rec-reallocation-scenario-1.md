@@ -58,3 +58,6 @@ Lai pabeigtu atkārtoto sadali, atlasiet **Apstrādāt**. Tiek parādīts uzaici
 > Lai parādītu kontekstu, kāpēc šie papildu krājumi tiek rādīti, režģim var pievienot citas kolonnas, piemēram, **Atkārtotas sadales ID** un **Pārdošanas pasūtījums**.
 > 
 > [![Papildu kolonnas ieņēmumu cenu sadalījumu lapā](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ Lai skatītu citādas versijas, varat izmantot izvēlnes vienumu **No datuma**, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

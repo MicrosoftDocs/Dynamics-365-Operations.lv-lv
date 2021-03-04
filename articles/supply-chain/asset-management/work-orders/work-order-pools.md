@@ -109,3 +109,6 @@ Kā aprakstīts iepriekšējā sadaļā, varat pievienot darba pasūtījumus dar
 
 Lai noņemtu darba pasūtījumu no darba pasūtījumu kopas, atkārtojiet šīs darbības, bet atlasiet opciju **Noņemt** 3. solī.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4433055"
 19. Darbību rūtī noklikšķiniet uz **Izdot un iepakot**.
 20. Atlasiet **Pavadzīme**. Lapa **Pavadzīmju žurnāls** satur visus pavadzīmes dokumentus, kas tika ģenerēti pasūtījumam. Ja vēlaties, varat pārskatīt datus par katru dokumentu un izdrukāt tos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

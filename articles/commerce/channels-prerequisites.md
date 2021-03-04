@@ -86,3 +86,6 @@ Lai varētu programmā Dynamics 365 Commerce izveidot kanālu, ir jāizpilda vai
 [Mazumtirdzniecības kanāla iestatīšana](channel-setup-retail.md)
     
 [Tiešsaistes veikala iestatīšana](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

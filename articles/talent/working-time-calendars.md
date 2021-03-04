@@ -56,3 +56,6 @@ Lai iestatītu kalendāru, rīkojieties šādi:
 10. Lai piešķirtu kalendāru darbiniekam, darbību rūtī atlasiet **Piešķirt darbiniekiem**. Atlasiet darbiniekus, kurus vēlaties piešķirt šim kalendāram, un pēc tam noklikšķiniet uz **Piešķirt**.
 
 Darbiniekiem nav obligāti nepieciešama pieeja piešķirtajam kalendāram. Ja ir definēts darba laika kalendārs, brīvās dienas automātiski tiek izslēgtas no pieprasījuma. Pēc noklusējuma darba laiks kalendārā tiek noteikts ar stundu vai dienu apjomu. Ja darbiniekam nav piešķirts kalendārs, visas dienas ir pieejamas brīvā laika pieprasīšanai, bet brīvā laika apjoms pēc noklusējuma neattiecas uz pieprasījumu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

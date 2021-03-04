@@ -77,3 +77,6 @@ Iegūtā teksta vērtība.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Teksta funkcijas](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

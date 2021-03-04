@@ -52,3 +52,6 @@ Lai iegūtu vairāk informācijas par darba pasūtījumu dzīves cikla stāvokļ
 8. Atlasiet **Saglabāt**.
 
 ![Darba pasūtījumu veidi](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

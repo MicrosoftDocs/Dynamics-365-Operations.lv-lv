@@ -76,3 +76,6 @@ Intervālu procentuālo vērtību kopsummai nav jābūt 100. Taču, ja lapā **P
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

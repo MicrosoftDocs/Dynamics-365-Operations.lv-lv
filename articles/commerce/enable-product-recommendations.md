@@ -114,3 +114,6 @@ Papildinformāciju par personalizēto ieteikumu saņemšanu skatiet [Personaliz�
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

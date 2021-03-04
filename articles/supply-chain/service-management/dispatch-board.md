@@ -54,3 +54,6 @@ Informāciju par to, kā veikt noteiktus uzdevumus nosūtīšanas pārvaldē, sk
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

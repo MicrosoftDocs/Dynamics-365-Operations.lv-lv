@@ -127,3 +127,6 @@ Kad budžeta kontrole ir ieslēgta, lietotāji saņems budžeta kontroles brīdi
 No šīs lapas lietotāji var atvērt lapu **Budžeta kontroles statistika pēc perioda**, lai skatītu detalizētu informāciju par budžeta pieejamību un rezervācijām atlasīto budžeta kontroles dimensiju kombinācijai. Lietotāji var arī atvērt lapu **Budžeta kontroles statistika**, lai skatītu visas budžeta pieejamību visām finanšu dimensiju kombinācijām, kas tiek lietotas budžeta kontrolē. 
 
 Ja budžeta kontrole ir ieslēgta pirkšanas pasūtījumiem, tad budžeta pārvaldnieks var lietot darbvietu **Virsgrāmatas budžeti un prognozes**, lai pārskatītu visu neapstiprināto pirkšanas pasūtījumu rindu, kuriem ir budžeta pārbaudes brīdinājumi un kļūdas. Ja budžeta pārvaldniekam ir konfigurētas budžeta pārsniegšanas atļaujas, pirkšanas pasūtījumus var apstiprināt tieši darbvietā.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

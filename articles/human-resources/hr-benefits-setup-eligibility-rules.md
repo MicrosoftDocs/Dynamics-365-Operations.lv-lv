@@ -176,3 +176,6 @@ Programmas ir atvieglojumu plānu kopa, kam ir kopīga piemērotības kārtulu k
    | **Piemērojamības kārtulas** | Atlasiet piemērotības kārtulas, ko piemērot atvieglojumu programmai. Nosakiet piemērotības kārtulas šīs lapas cilnē **Piemērotības kārtulas**. |
    
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

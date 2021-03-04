@@ -58,3 +58,6 @@ ms.locfileid: "4414106"
 23. Laukā EFT termināļa ID ierakstiet vērtību.
 24. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

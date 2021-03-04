@@ -134,3 +134,6 @@ Lai izmantotu veidņu MK, ir jāiestata divas numuru sērijas. Iestatiet vienu 
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -260,3 +260,6 @@ Iepriekšējā piemērā, lietojot ER struktūru, jums ir pieejami programmai sp
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

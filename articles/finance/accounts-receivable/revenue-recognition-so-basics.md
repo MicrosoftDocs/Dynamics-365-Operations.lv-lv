@@ -97,3 +97,6 @@ Poga **Ieņēmumu cenas sadalījums** joprojām ir pieejama, lai jūs varētu sk
 Plānotais ieņēmumu atzīšanas grafiks tiek noņemts un aizstāts ar galīgo ieņēmumu atzīšanas grafiku. Katrai pārdošanas pasūtījuma rindai tiek uzturēta detalizēta informācija par ieņēmumu grafiku, un tā tiek izmantota, lai nodotu atliktos ieņēmumus faktiskajiem ieņēmumiem, kad līgumsaistības ir izpildītas.
 
 [![Galīgais ieņēmumu atzīšanas grafiks](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

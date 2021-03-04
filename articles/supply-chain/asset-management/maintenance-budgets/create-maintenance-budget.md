@@ -59,3 +59,6 @@ Jūs varat arī izveidot jaunu uzturēšanas budžetu, kopējot esošu budžetu.
 
 > [!NOTE]
 > Uzturēšanas budžetā tiek aprēķinātas tikai budžeta izmaksas, balstoties uz uzturēšanas grafika rindām. Lai aprēķinātu faktiskās izmaksas tam pašam periodam, šo aprēķinu var veikt lapā **Līdzekļu izmaksu kontrole**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

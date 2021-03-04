@@ -854,3 +854,6 @@ Tālāk norādītās tabulas sniedz pārskatu, kas parāda, kā sistēma apstrā
     - Pārsūtīšanas pasūtījumi un izejmateriālu izdošana
 
 - Konteineru konsolidācijas kārtulai par iepakošanu pēc direktīvas vienības ir ierobežojumi. Ar pasūtījumu saistītām rezervācijām mēs iesakām neizmantot konteineru veidošanas veidnes, kur ir iespējots lauks **Iepakot pēc direktīvas vienības**. Pašreizējā versija novietojuma direktīvas netiek izmantotas, kad tiek izveidots noliktavas darbs. Tāpēc konteinerizācijas kopuma darbības laikā tiek lietota tikai viszemākā vienība vienību secību grupā (krājumu uzskaites vienība).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

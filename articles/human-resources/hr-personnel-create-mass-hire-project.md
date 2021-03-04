@@ -48,3 +48,6 @@ ms.locfileid: "4419483"
     * Ja nepieciešams, atlasiet jauno amatu nodaļu.  
 13. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

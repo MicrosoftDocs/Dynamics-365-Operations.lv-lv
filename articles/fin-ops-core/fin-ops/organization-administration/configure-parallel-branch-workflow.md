@@ -50,3 +50,6 @@ Lai noformētu un konfigurētu paralēla zara elementus, izpildiet tālāk aprak
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Izveidot darbplūsmu pārskatu](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

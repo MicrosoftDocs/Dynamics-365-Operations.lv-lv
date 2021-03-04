@@ -46,3 +46,6 @@ ms.locfileid: "4432477"
 1. Darbību rūtī noklikšķiniet uz Pārvaldīt izmaksas.
 2. Noklikšķiniet uz Skatīt izmaksu salīdzinājumu.
     * Pēc ražošanas pasūtījuma pabeigšanas var salīdzināt novērtēto izmaksu cenu ar realizēto izmaksu cenu, lai iegūtu pārskatu par ražošanas novirzēm.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

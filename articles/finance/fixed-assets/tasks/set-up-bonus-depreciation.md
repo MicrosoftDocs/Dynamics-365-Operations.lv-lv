@@ -49,3 +49,6 @@ ms.locfileid: "4445510"
     * Procentuālā daļa vai summa pēc noklusējuma tiek ņemta no speciālā nolietojuma atļautā daudzuma iestatījumiem.  
 8. Laukā Prioritāte ievadiet kādu skaitli.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

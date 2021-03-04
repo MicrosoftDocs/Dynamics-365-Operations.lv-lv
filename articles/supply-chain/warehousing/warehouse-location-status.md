@@ -169,3 +169,6 @@ Piemēra scenārijam sagatavojiet divus novietojuma profilus.
 
 > [!NOTE]
 > Novietojuma lauki tiek atjaunināti tikai ar noliktavas darbībām. Ja pārvietosit krājumus, izmantojot žurnālu vai citus procesus, kas nav noliktavas procesi, lauki netiks atjaunināti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

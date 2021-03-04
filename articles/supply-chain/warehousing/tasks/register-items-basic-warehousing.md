@@ -58,3 +58,6 @@ ms.locfileid: "4433110"
 2. Noklikšķiniet uz Produktu ieejas plūsma.
 3. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

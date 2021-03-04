@@ -108,3 +108,6 @@ Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tāl
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
 
 Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Jums ir īpaši jāpiešķir piekļuve citiem programmas lietotājiem. Jums ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Human Resources vidē. Globālajam administratoram, kas izvietoja Human Resources, ir jāpalaiž gan Attract, gan Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieka lietotājiem. Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

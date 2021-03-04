@@ -110,3 +110,6 @@ Lai pārskatītu to ražošanas darbu vēsturi, kas ir apstrādāti mēroga vien
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Ražošanas centrmezgls mēroga vienības ziņojuma procesora darbām
 
 Darbs _Ražošanas centrmezgls mēroga vienības ziņojuma procesoram_ apstrādā datus no centrmezgla uz mēroga vienību. Šis darbs tiek automātiski sākts, kad tiek izvietota ražošanas izpildes darba slodze. Tomēr to var palaist manuāli jebkurā laikā, pārejot uz **Ražošanas kontrole \> Periodiskie uzdevumi \> Biroja darba slodzes pārvadība \> Ražošanas centrmezgls mēroga vienības ziņojuma procesoram**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

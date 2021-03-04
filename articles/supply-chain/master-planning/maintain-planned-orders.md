@@ -68,3 +68,6 @@ Ja jūs plānojat apstiprināt daudzus pasūtījumus vienlaicīgi, paralēlā iz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

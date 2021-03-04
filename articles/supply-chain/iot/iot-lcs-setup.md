@@ -56,3 +56,6 @@ LCS iestatīšana tagad ir pabeigta. Nākamā darbība ir [Scenāriju iestatīš
 2. LCS dodieties uz savas Supply Chain Management vides informāciju.
 3. Ritiniet līdz sadaļai **Vides pievienojumprogrammas**.
 4. Atlasiet **Atinstalēt** IoT informācijas pievienojumprogrammai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

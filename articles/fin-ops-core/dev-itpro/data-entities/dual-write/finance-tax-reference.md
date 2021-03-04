@@ -37,3 +37,6 @@ Finanšu un nodokļu dati ir integrēti, izmantojot šādus kartējumus:
 
 + [Integrētā virsgrāmata](ledger-mapping.md)
 + [Integrētie nodokļu pamatdati](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

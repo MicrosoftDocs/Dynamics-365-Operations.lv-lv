@@ -106,3 +106,6 @@ Tālāk sniegtajos tehnoloģiju konferenču ierakstos tiek apspriesta piegādes 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 
 Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Supply Chain Management platformā Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Priekšskatot lapas, kas ir balstītas uz veidni, kurai pievienojāt metatagu fr
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

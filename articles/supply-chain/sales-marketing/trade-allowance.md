@@ -200,3 +200,6 @@ Lai iegūtu analītiskāku pārskatu par dažādiem reklāmas kampaņas izpildes
 
 Lai iegūtu analītiskāku pārskatu par dažādiem reklāmas kampaņas izpildes kritērijiem, var izmantot analīzes skatījumu. Lai atvērtu analīzes skatījumu, noklikšķiniet uz **Pārdošana un mārketings** \> **Mazumtirdzniecības atlaides** \> **Mazumtirdzniecības atlaižu līgumi**. Darbību rūtī noklikšķiniet uz **Analīze**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

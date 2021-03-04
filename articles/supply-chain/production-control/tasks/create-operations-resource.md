@@ -81,3 +81,6 @@ Operācijas resurss izpilda projekta vai ražošanas procesa aktivitātes. Šaj�
 4. Laukā Ievades novietojums ievadiet vai atlasiet kādu vērtību.
     * Norādiet noliktavas novietojumu, no kura operācijas resurss patērē materiālus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

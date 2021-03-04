@@ -54,3 +54,6 @@ Plašāku informāciju skatiet šeit: [Izveidot konsolidācijas grupas un papild
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 - Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pierakstīties).
 - Atbalstīto programmas lokalizāciju sarakstu skatiet [Starptautiskās pieejamības rokasgrāmata](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

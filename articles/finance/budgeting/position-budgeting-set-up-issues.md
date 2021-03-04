@@ -64,3 +64,6 @@ Prognozes pozīcijas izmaksu elementa rindas datumiem jābūt tālāk norādīta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

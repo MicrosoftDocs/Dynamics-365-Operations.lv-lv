@@ -190,3 +190,6 @@ Tālāk norādītā informācija tiek importēta un iekļauta jaunā darbinieka 
 
 [Common Data Service virtuālo elementu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Kas ir Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

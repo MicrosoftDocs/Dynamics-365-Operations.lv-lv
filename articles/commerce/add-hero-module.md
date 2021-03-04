@@ -107,3 +107,6 @@ Lai pievienotu centrālo moduli jaunā lapā un iestatītu nepieciešamos rekviz
 [Teksta bloka modulis](add-content-rich-block.md)
 
 [Video atskaņotāja modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

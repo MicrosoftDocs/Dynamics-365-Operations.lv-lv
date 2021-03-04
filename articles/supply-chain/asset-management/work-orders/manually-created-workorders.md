@@ -166,3 +166,6 @@ Attēlā zemāk ir parādīts dialoglodziņš **Izveidot darba pasūtījumu**.
 >[!NOTE]
 >Ja jūs vēlāties, lai darba pasūtījumi izveidotos automātiski, jūs varat ieplānot uzturēšanas plāna darbus vai līdzeklī uzstādīt "Automātiskā izveide" [uzturēšanas plāni](../preventive-and-reactive-maintenance/maintenance-plans.md) vai [uzturēšanas cikli](../preventive-and-reactive-maintenance/maintenance-rounds.md). Darba pasūtījumiem, kas ir izveidoti no uzturēšanas pieprasījumiem sarakstu lapā **Viss uzturēšanas grafiks**, ir uzturēšanas darba veidi, kas ir atlasīti uzturēšanas pieprasījumos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

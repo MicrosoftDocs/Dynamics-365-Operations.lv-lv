@@ -117,3 +117,6 @@ Divās nākamajās ilustrācijās ir parādīts darba grafiks dialoglodziņā **
 - Ātrajā cilnē **Palaist fonā** jūs uzstādīt pakešuzdevumu, lai ieplānotu ciklus regulāros intervālos.  
 - Ja cikls ir ietvers vairākās darba pasūtījumu kopās (skatīt [Darba pasūtījumu kopas](../work-orders/work-order-pools.md)), katrai kopai tiek uzrādīts viens ieraksts opcijā **Atvērt uzturēšanas grafiku kopas**. Tas tiek darīts, lai optimizētu filtrēšanas opcijas darba pasūtījumu kopām.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

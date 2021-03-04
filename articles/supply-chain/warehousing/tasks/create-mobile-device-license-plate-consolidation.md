@@ -37,3 +37,6 @@ ms.locfileid: "4432641"
 5. Laukā Režīms atlasiet 'Netiešs'.
 6. Laukā Aktivitātes kods atlasiet 'Konsolidēt noliktavas vienības.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

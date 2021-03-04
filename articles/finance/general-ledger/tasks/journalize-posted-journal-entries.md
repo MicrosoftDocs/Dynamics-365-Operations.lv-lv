@@ -40,3 +40,6 @@ ms.locfileid: "4445519"
 9. Noklikšķiniet uz **Labi**, lai aizvērtu filtra lapu.
 10. Noklikšķiniet uz **Labi**, lai uzsāktu reģistrāciju žurnālā. Kad process ir pabeigts, tiek ģenerēts pārskats.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

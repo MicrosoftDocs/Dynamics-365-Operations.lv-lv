@@ -118,3 +118,6 @@ Noklusējuma konti tiek atlasīti cilnē **Noklusētie konta iestatījumi**, kur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

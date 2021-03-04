@@ -42,3 +42,6 @@ Piemēram, pārdošanas pasūtījumam ir divi krājumi: viens piegādāšanai un
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Izdošanas statuss attiecas tikai uz pasūtījuma rindām, kur krājumi ir iespējoti noliktavas pārvaldībai. Tāpēc nodošanas statuss šajā scenārijā paliek *Daļēji izlaists*. Korporācija Microsoft ir izvērtējusi šo problēmu un ir noteikusi, ka tas ir līdzekļa ierobežojums. Paplašinājumu var pievienot kā daļu no pavadzīmes un rēķinu izrakstīšanas procesa, lai atjauninātu izlaides statusu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

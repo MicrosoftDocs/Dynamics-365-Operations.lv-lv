@@ -57,3 +57,6 @@ Veiciet tālāk norādītās darbības, lai atrisinātu problēmas ar ER veidnē
 Līdzīga problēma var rasties, ja migrējat jūsu programmas instanci uz citu atrašanās vietu, kas izmantota kā migrācijas mērķis vairāk nekā vienu reizi un kam BLOB krātuvē jau ir ER veidnes faili.
 
 Tā kā jums varētu būt vairāki ER formāta konfigurācijas, šis process var būt laikietilpīgs. Tāpēc ieteicams izmantot [ER veidņu dublējumkopiju glabātuves](er-backup-storage-templates.md) iespēju, lai automātiski atkoptu veidnes ar sarautām atsaucēm.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

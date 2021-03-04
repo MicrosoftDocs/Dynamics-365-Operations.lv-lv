@@ -35,3 +35,6 @@ Programmā Talent ir ietverta programma Attract, kas var palīdzēt jums identif
 > [!IMPORTANT]
 > Tagad Dynamics 365 Talent: Core HR funkcionalitāte ir daļa no Dynamics 365 Human Resources. Human Resources dokumentāciju varat skatīt sadaļā [Laipni lūdzam pakalpojumā Dynamics 365 Human Resources!](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

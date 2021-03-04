@@ -95,3 +95,6 @@ Veicot patēriņa reģistrācijas, noteiktā secībā reģistrācijām tiek piev
 >[!NOTE]
 >Visiem trim reģistrācijas tipiem tiek validēta finanšu dimensiju kombinācija, un nederīgas kombinācijas tiek atstatas tukšas. Šis ir standarta iestatījums ar citām Finance and Operations programmām.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4445667"
 10. Laukā **Notikumu skaits periodā** ievadiet skaitli.
 11. Laukā **Publicēt darījumus** atlasiet, kad darījumi tiek publicēti, piemēram **Ik mēnesi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Patapinājuma priekšmeti ir ieraksti, kas palīdz izsekot fiziskus vienumus, pi
 14. Noklikšķiniet uz OK.
 15. Atsvaidziniet lapu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

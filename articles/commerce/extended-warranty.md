@@ -239,3 +239,6 @@ Garantija ir pakalpojums, kas tiek sniegts konkrētai, unikālai precei. Dynamic
 [Preču klāstu iestatīšana](set-up-assortments.md)
 
 [Pārskats par numuru sērijām](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

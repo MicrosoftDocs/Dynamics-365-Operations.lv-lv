@@ -101,3 +101,6 @@ ms.locfileid: "4432578"
 11. Dodieties uz sadaļu Pārdošana un mārketings > Pārdošanas piedāvājumi > Visi piedāvājumi.
     * Pārbaudiet, vai piedāvājumi ir izveidoti visiem debitoriem, kas norādīti masveida atjaunināšanas kārtībā, pamatojoties uz atlasīto veidni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

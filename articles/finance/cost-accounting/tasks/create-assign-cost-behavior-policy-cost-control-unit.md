@@ -86,3 +86,6 @@ Izmaksu izturēšanās ir izmaksu klasifikācija fiksētajās vai mainīgajās i
 15. Laukā Izmaksu vadības ierīce ievadiet vai atlasiet kādu vērtību.
 16. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Retail versijā 10.0.3 un jaunākās versijās tiek nodrošinātas arī tālāk
 - Saskaņošanas laikā, ja atlasītā transakcija nelīdzsvarojas, lietotājam ir jāievada nesaskaņotās saskaņošanas iemesla apraksts. Lietotāji pēc nepieciešamības var atlasīt atsevišķu transakciju un saskaņot to ar atbilstošo iemesla aprakstu.
 - Lietotāji var turpināt transakciju saskaņošanu un nesaskaņošanu, līdz maiņa ir slēgta. Kad maiņa ir slēgta, transakcijas nevar norādīt kā nesaskaņotas.
 - Kad lietotājs izvēlas maiņu slēgt, Commerce pārbauda, vai maiņā nav nesaskaņotu kases pārvaldības transakciju. Ja pastāv nesaskaņotas transakcijas, lietotāji nevar slēgt maiņu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

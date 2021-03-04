@@ -49,3 +49,6 @@ Atjauninot pavadzīmi atgrieztajam krājumam, kas ir no pārdošanas līguma, at
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

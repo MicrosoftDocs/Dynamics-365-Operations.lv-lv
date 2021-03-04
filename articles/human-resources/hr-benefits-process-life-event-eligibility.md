@@ -48,3 +48,6 @@ ms.locfileid: "4419494"
    4. Atlasiet **Labi**. Apstrāde tiks izpildīta ar iestatītajiem parametriem.
 
 4. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

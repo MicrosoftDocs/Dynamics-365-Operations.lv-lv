@@ -98,3 +98,6 @@ Izmantojiet tālāk esošo tabulu, lai izlemtu, kur ir jāpiešķir rēķinu žu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

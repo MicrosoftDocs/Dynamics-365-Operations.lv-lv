@@ -53,3 +53,6 @@ Kad lietotāji uzsāk piedāvājumu Sales, duālās rakstīšanas struktūra kop
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Potenciālā klienta-naudas duālais ieraksts](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

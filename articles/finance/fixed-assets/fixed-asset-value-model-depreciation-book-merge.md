@@ -71,3 +71,6 @@ Jaunināšanas process jūsu esošos iestatījumus un visas jūsu pastāvošās 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

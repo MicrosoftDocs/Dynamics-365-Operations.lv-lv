@@ -54,3 +54,6 @@ Lai iespējotu neatbilstības pārvaldību, izpildiet tālāk aprakstītās darb
 [Kvalitātes pārvaldības procesi](quality-management-processes.md)
 
 [Iestatīt priekšnosacījumus neatbilstības pārvaldībai](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

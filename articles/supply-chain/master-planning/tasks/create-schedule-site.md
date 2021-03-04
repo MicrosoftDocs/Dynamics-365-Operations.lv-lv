@@ -56,3 +56,6 @@ ms.locfileid: "4432797"
 4. Noklikšķiniet uz Materiāli.
     * Šajā lapā varat redzēt prognozēto materiālu patēriņu ražošanas pasūtījumā iekļautajām operācijām un pašreiz pieejamos krājumus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Ja lauks **Kreditēšanas uzkrājumu atgriešana** veidlapā **Pakalpojumu pārv
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

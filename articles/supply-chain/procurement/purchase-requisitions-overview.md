@@ -202,3 +202,6 @@ Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

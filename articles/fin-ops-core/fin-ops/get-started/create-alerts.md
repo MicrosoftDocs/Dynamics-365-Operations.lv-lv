@@ -102,3 +102,6 @@ Da탑iem sekund훮rajiem datu avotiem form훮s nevar izveidot br카din훮jumus. Piem�
     ```
 2. Izveidojiet br카din훮jumu no formas SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

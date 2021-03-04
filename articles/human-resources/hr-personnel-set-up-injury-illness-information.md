@@ -65,3 +65,6 @@ Darba devējiem ir jāzina, kad darbinieki tiek ievainoti vai saslimst, notiekot
     * Uzraudzības iestādes ir iestādes, kurām ir jāziņo par incidentu. Atzīmējiet noklusējuma izvēles rūtiņu tai iestādei, kurai pēc noklusējuma tiek ziņots par traumām un slimībām.  
 23. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

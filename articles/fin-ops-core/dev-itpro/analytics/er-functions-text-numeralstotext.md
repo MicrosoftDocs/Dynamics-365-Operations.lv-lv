@@ -88,3 +88,6 @@ Valūtas kods nav obligāts. Ja tas ir definēts kā tukša virkne, tiek izmanto
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Teksta funkcijas](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Izmantojiet šo procedūru, lai konfigurētu izmaksu kontroles darbvietu, lai da
 27. Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
     * Pēc tam, kad esat atlasījis izmaksu objekta dimensiju hierarhiju, izvērsiet izmaksu elementa dimensiju hierarhiju, lai skatītu vēlamās izmaksu vērtības. Piemēram, varat izvērst hierarhiju līdz ražošanai pieskaitāmajām izmaksām, lai redzētu vērtību.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

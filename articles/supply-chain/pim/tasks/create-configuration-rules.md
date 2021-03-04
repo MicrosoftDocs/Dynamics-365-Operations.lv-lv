@@ -55,3 +55,6 @@ Ar šo procedūru tiek izveidoti konfigurācijas noteikumi, kurus var izmantot k
     * Atlasiet krājuma kodu, kas tiks atlasīts vai kura atlase tika noņemta atkarībā no izvēlētās metodes.  
 18. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

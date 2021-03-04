@@ -38,3 +38,6 @@ Perioda kods norāda abonēšanas maksas perioda apjomu vai arī intervālus, k�
 Perioda kods ir noteikts pakalpojuma abonēšanas grupā. Abonementiem tas tiek definēts, izmantojot pakalpojuma abonēšanas grupu. Jebkurai jaunai abonēšanas maksai, kuru jūs izveidosiet, tiks piedāvāts sākuma datums. Tas ir perioda sākuma datums (ja šis ir pirmais izveidotais periods) vai iepriekšējā perioda beigu datums (ja šis ir otrais vai kāds no turpmākajiem periodiem).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

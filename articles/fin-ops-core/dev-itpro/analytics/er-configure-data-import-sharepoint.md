@@ -206,3 +206,6 @@ Pārskatiet kodu modeļa `Application Suite` klasē `BankImport_RU`, lai skatīt
 
 [ER struktūras API izmaiņas programmas atjauninājumam 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

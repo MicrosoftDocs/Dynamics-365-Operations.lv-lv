@@ -599,3 +599,6 @@ Kolonnas summu var dalīt ar noteiktu periodu skaitu. Piemēram, formula **B/per
 [Rindas definīcijas finanšu atskaišu veidotājā](row-definitions-financial-reporting.md)
 
 [Papildu formatēšanas opcijas finanšu pārskatos](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

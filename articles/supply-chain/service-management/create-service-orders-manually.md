@@ -102,3 +102,6 @@ Varat izveidot pakalpojumu pasūtījumu no veidlapas **Pārdošanas pasūtījumi
 
 [Pakalpojumu pasūtījumu izveidošana (klases forma)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

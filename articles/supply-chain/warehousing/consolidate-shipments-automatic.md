@@ -318,3 +318,6 @@ Kad esat pabeidzis, jums būtu jāredz, ka ir izveidoti četri sūtījumi:
 
 - [Sūtījumu konsolidācijas politikas](about-shipment-consolidation-policies.md)
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

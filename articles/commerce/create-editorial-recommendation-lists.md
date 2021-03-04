@@ -75,3 +75,6 @@ Lai izveidotu pārvaldītu preču rekomendāciju sarakstu, veiciet šādas darb�
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

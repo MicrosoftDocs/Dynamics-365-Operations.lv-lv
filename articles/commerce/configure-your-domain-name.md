@@ -62,3 +62,6 @@ Lai saistītu jaunus domēnus ar savu e-komercijas vidi pēc e-komercijas inicia
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

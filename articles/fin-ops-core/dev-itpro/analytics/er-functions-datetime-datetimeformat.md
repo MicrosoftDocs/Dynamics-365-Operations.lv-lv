@@ -83,3 +83,6 @@ Kad `DATETIMEFORMAT` funkcija konvertē konkrētu datuma/laika vērtību, tā ņ
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Datuma un laika funkcijas](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

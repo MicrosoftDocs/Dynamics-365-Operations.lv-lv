@@ -408,3 +408,6 @@ Tagad varat saņemt 2. pārdošanas pasūtījums. Tas kļuva atbloķēts, kad ti
 - Ja vēlaties, varat manuāli ignorēt papildināšanas darba pieejamību katram darba virsrakstam no **Darba informācijas** lapas.
 - Kad sistēma iestata papildināšanas darba pieejamību, tā ņem vērā visus krājumus, kas jau ir novietojumā, pirms darbs ir pabeigts
 - Katra pārdošanas pasūtījuma darba daļa ir saistīta ar specifisku papildināšanas darbu. Nav atbilstošas pārdošanas darba pieejamības funkcionalitātes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

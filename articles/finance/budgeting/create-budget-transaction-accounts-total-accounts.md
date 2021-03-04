@@ -46,3 +46,6 @@ Tas ļauj izveidot atsevišķus budžetus visnozīmīgākajiem transakciju konti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

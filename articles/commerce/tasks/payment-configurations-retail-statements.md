@@ -53,3 +53,6 @@ ms.locfileid: "4414088"
     * Atlasiet kontu, kurā grāmatot seifa noguldījuma summas.  
 8. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Ja jums ir pārskats, kas neatbilst tam, ko varētu sagaidīt pakalpojumā D365,
 2.  Eksportējiet pārskatu uz programmu Excel
 
 Tagad vajadzētu būt iespējai no FR Excel pārskata kopēt datus uz D365 apgrozījuma bilances pārskatu un salīdzināt kolonnas “Beigu bilance”.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

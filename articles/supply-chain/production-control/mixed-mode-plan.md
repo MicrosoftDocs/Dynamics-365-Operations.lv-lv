@@ -69,3 +69,6 @@ Lai nodrošinātu pilnīgu pielāgojamību jauktajā režīmā, ir ieteicams vis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

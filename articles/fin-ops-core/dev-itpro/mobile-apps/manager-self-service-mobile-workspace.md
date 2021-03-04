@@ -97,3 +97,6 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 1.  Atlasiet vienumu **Sūtīt uzslavu**. 
 1. Ievadiet uzslavas tekstu, ko vēlaties nosūtīt. 
 1. Atlasiet **Gatavs**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

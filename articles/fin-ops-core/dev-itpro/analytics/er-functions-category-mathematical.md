@@ -47,3 +47,6 @@ Elektronisko pārskatu (ER) matemātiskās funkcijas var izmantot, lai veiktu da
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

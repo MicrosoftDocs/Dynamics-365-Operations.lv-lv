@@ -41,3 +41,6 @@ ms.locfileid: "4688023"
 | [Pārdošanas pasūtījumi](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Skatiet aktuālāko informāciju par pārdošanas pasūtījumiem.                                                                                                                          |  2017. janvāris                  |
 | [Kreditoru sadarbība](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Sniedz ieskatu kreditoriem par pirkšanas pasūtījumiem, kas viņiem ir nosūtīti apstiprināšanai. Viņi var skatīt arī informāciju par jauniem un atjauninātiem pirkšanas pasūtījumiem un kontaktpersonām. |2017. janvāris    |
 | [Līdzekļu pārvaldība](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Šī darbvieta ļauj lietotājiem skatīt un izveidot uzturēšanas pieprasījumus un darba pasūtījumus. Lietotāji var arī skatīt piešķirtos darba pasūtījumu darbus kalendārā vai saraksta skatā. Var apskatīt un meklēt arī līdzekļus un funkcionālos novietojumus. |2019. oktobris    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

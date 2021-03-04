@@ -194,3 +194,6 @@ Sekojošajā attēlā ir parādīts uzturēšanas plāna iestatīšana līdzekl�
 
 ![7. attēls](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

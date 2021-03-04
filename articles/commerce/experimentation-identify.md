@@ -40,3 +40,6 @@ Lai apstiprinātu hipotēzi, eksperimenta sekmībai vai nesekmībai jābūt tie�
 
 ## <a name="next-step"></a>Nākamā darbība
 [Eksperimenta iestatīšana](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

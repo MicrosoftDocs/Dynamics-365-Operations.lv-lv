@@ -55,3 +55,6 @@ Turklāt, ja samazinājuma periodā **Sākuma datums** ir 21. janvāris (31 m�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

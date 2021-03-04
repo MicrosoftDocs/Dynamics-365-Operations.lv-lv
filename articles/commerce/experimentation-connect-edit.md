@@ -95,3 +95,6 @@ Ja definējāt eksperimenta tvērumu kā **pilnīgu** vednī **Pievienot eksperi
 
 ## <a name="next-step"></a>Nākamā darbība
 [Eksperimenta priekšskatīšana un publicēšana](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

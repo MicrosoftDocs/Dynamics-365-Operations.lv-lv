@@ -54,3 +54,6 @@ Grāmatojot starpuzņēmumu transakciju no Virsgrāmatas žurnāla, saistītā d
 3. Sarakstā atzīmējiet atlasīto rindu.
 4. Noklikšķiniet uz Dokuments.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

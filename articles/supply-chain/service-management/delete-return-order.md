@@ -44,3 +44,6 @@ Lietojiet veidlapu **Atgriešanas pasūtījuma dzēšana**, lai dzēstu vairāku
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -241,3 +241,6 @@ Ieviešot organizācijas hierarhiju, ņemiet vērā šādu labāko praksi:
 - Pirms modelējat nopietnus restrukturizācijas scenārijus, izmantojiet hierarhijas derīguma datumus, lai veiktu ietekmes analīzi un apstiprināšanas pārbaudi.
 - Izmantojiet melnraksta režīmu, lai mainītu hierarhiju, pirms publicējat jaunu versiju ražošanas vidē.
 - Ierobežojiet cilvēku skaitu, kam ir atļaujas pievienot vai noņemt organizācijas no hierarhijas ražošanas vidē. Mazāks skaits samazina iespēju, ka var rasties dārgas kļūdas un ir jāveic labojumi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

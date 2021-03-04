@@ -94,3 +94,6 @@ Izmantojot elementu saraksta atsvaidzināšanas laikā veidotos konfigurācijas 
 Ikreiz, kad atjaunināt konfigurācijas atslēgas elementa, tabulas vai lauka līmenī, ir jāatsvaidzina elementu saraksts datu pārvaldības platformā. Šis process nodrošina, ka platforma paņem jaunākos konfigurācijas atslēgas iestatījumus. Kamēr nebūs atsvaidzināts elementu saraksts, elementu saraksta lapā tiks rādīts tālāk norādītais brīdinājums. Atjauninātās konfigurācijas atslēgas izmaiņas stāsies spēkā nekavējoties pēc elementu saraksta atsvaidzināšanas. Ieteicams validēt esošos datus projektus un darbus, lai nodrošinātu, ka pēc konfigurācijas atslēgu izmaiņu stāšanās spēkā tie darbojas, kā paredzēts.
 
 ![Mērķa lauki](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

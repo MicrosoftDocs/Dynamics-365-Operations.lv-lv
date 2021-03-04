@@ -91,3 +91,5 @@ Kad esat iesniedzis kontrolsarakstu, jūsu FastTrack risinājumu arhitekts pārs
 ## <a name="see-also"></a>Skatiet arī
 
 [Bieži uzdotie jautājumi par palaišanu](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

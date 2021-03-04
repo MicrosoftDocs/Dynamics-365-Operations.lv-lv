@@ -168,3 +168,6 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 66. Aizvērt lapu.
 67. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

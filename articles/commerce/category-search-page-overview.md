@@ -111,3 +111,6 @@ Meklēšanas rezultātu lapai ir svarīgi šādi komponenti.
 
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Kad esat iestatījis nepārtrauktības programmu, kā aprakstīts iepriekš, var
 - **Nepārtrauktības rindu paplašināšana** (ja nepieciešams) — palieliniet reižu skaitu, cik nepārtrauktības notikumu var atkārtot. Sūtījumu atkārtošana var pārsniegt ierobežojumus, kas ir iestatīti zvanu centra parametru laukā **Nepārtrauktības atkārtošanas robežvērtība**.
 - **Nepārtrauktības atjauninājuma veikšana** (ja nepieciešams) — sinhronizējiet izmaiņas starp nepārtrauktības programmu un nepārtrauktība pamata pārdošanas pasūtījumiem.
 - **Galveno nepārtrauktības rindu un pasūtījumu aizvēršana** — aizveriet nepārtrauktības pasūtījumus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

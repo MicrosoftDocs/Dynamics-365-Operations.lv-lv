@@ -66,3 +66,6 @@ Viedokļi, ziņas un cita informācija par moduli “Parādi kreditoriem” un c
 ### <a name="videos"></a>Videoklipi
 Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

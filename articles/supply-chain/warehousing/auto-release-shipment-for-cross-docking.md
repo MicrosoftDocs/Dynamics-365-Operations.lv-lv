@@ -179,3 +179,6 @@ Lai pārkrautu pabeigto preču daudzumu uz saistītā pārdošanas pasūtījuma 
 - Saistītajam pārdošanas pasūtījumam tiek sākta izlaišana uz noliktavu.
 - Pamatojoties uz izlaišanu, tiek izveidots nosūtīšanas un pārkraušanas sadales centrā darbs. Šis darbs uzdod noliktavas operatoram izvēlēties daudzumus, kas ir nepieciešami, lai izpildītu pārdošanas pasūtījuma rindu, un izvietot tos nosūtīšanas vietā, kas norādīta pārkraušanas sadales centrā novietojuma direktīvā.
 - Ja ražošanas pasūtījuma daudzums ir lielāks par daudzumu, kāds pieprasīts pārdošanas pasūtījumā, tiek izveidots regulārs izvietošanas darbs. Šis darbs uzdod noliktavas operatoram izvēlēties pabeigto preču daudzumu, kas paliek pēc pārkraušanas sadales centrā, un pārvietot to uz parasto uzglabāšanu saskaņā ar novietojuma direktīvu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

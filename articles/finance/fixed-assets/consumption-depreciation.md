@@ -68,3 +68,6 @@ Nolietojuma priekšlikums 31. janvārī ir šāds: Novērtētais daudzums × Pro
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

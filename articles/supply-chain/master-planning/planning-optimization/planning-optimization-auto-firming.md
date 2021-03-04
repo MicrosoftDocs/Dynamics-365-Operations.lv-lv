@@ -67,3 +67,6 @@ Plānošanas optimizāciju un plānošanas programmu, kas ir iebūvēta Microsof
 - Automātiskā apstiprināšana ir balstīta uz prasības datumu (beigu datuma).
 - Lai palīdzētu nodrošināt, ka pasūtījumi ir apstiprināti noteiktā laikā, apstiprināšanas laika periodam jābūt ilgākam par izpildes laiku.
 - Ja vēlaties apstiprināt visus pasūtījumus, kam jāsākas pašreizējās nedēļas laikā, apstiprināšanas laika periodam jābūt izpildes laikam plus viena nedēļa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
