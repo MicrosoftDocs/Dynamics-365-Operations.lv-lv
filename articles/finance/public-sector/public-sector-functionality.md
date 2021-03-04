@@ -1,6 +1,6 @@
 ---
 title: Publiskā sektora sākumlapa
-description: Microsoft Dynamics 365 Finance iespējo biznesa procesus, kas bieži tiek izmantoti gan publiskajā, gan privātajā sektorā, piemēram, budžeta veidošanas, iepirkumu veikšanas, parādu kreditoriem un debitoru parādu uzdevumus.
+description: Dynamics 365 Finance atbalsta kopējos publiskā sektora biznesa procesus. Tie ietver budžeta plānošanas, iepirkumu veikšanas, kreditoru un debitoru parādu uzdevumus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984688"
 ---
 # <a name="public-sector-home-page"></a>Publiskā sektora sākumlapa
 
@@ -60,9 +59,8 @@ Konfigurācijas atslēga **Publiskais sektors** iespējo lapas un vadīklas, kas
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Kā publiskā sektora konfigurācijas atslēga ir saistīta ar citām konfigurācijas atslēgām?
 Nākamajā tabulā ir sniegta informācija par veidu, kā šī konfigurācijas atslēga ir saistīta ar citām konfigurācijas atslēgām.
 
-|            |                                                                                                                                                                                                                     |
+|   **Detalizēti**         |              **Apraksts**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Detalizēti** | **Apraksts**                                                                                                                                                                                                     |
 | Vecākatslēga | Nav                                                                                                                                                                                                                |
 | Pakārtotās atslēgas | Konfigurācijas atslēga **Papildu virsgrāmatas ieraksts** (AdvancedLedgerEntry) Konfigurācijas atslēga **Publiskais sektors 1099G** (Tax1099G) Konfigurācijas atslēga **Publiskais sektors 1099S** (Tax1099S) Konfigurācijas atslēga **Francijas normatīvā** |
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459485"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115924"
 ---
 # <a name="recognize-deferred-revenue"></a>Atlikto ieņēmumu atzīšana
 
@@ -39,7 +38,7 @@ Pastāv divi veidi, kā piekļūt detalizētai informācijai par ieņēmumu atz�
 - Varat atvērt ieņēmumu atzīšanas grafiku tieši no rēķinā norādītā pārdošanas pasūtījuma. Šādā gadījumā informācija ieņēmumu grafikā tiek filtrēta, lai rādītu detalizētu informāciju tikai atlasītajam pārdošanas pasūtījumam. Šī pieeja ir noderīga, ja validējat pārdošanas pasūtījuma grafika detalizēto informāciju.
 - Varat atvērt ieņēmumu atzīšanas grafiku no lapas **Ieņēmumu atzīšana \> Periodiskie uzdevumi**. Šo pieeju bieži izmanto, kad ieņēmumi tiek atzīti perioda beigās. Kad lapa tiek atvērta pirmo reizi, netiek rādīta nekāda informācija. Izmantojiet filtrus virs režģa, lai definētu kritērijus grafika detalizētajai informācijai, kas jāparāda. Varat filtrēt pēc rēķina datumiem, ievadot datumu diapazonu, pārdošanas pasūtījumu, debitoru, projekta ID vai stāvokli.
 
-[![Lapa Ieņēmumu grafiki](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Ieņēmumu grafiku lapas ilustrācija](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 Kopsavilkuma cilne **Finanšu dimensija** zem režģa parāda pārdošanas pasūtījuma rindas finanšu dimensijas. Šīs dimensijas tika ņemtas vērā, veicot grāmatošanu atliktajos ieņēmumos. Tās tiek ņemtas vērā arī tad, kad ieņēmumi tiek atzīti. Izmantotās dimensiju vērtības ir atkarīgas no konta struktūras, kas ir piešķirta ieņēmumu un atlikto ieņēmumu galvenajiem kontiem.
 

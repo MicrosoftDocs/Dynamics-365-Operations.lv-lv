@@ -72,12 +72,12 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Finance sākumlapa
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.17 (2021.\_gada marts)"
+                      href: get-started/whats-new-changed-10-0-17.md
                     - name: "Finance 10.0.16 (2021.\_gada februāris)"
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: "Finance 10.0.15 (2021.\_gada janvāris)"
                       href: get-started/whats-new-changed-10-0-15.md
-                    - name: "Finance 10.0.14 (2020.\_gada novembris)"
-                      href: get-started/whats-new-changed-10-0-14.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
@@ -175,7 +175,7 @@
                 - name: Finance and Operations programmu arhitektūra
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/fasttrack/index
                 - name: Ieviešanas projekta pievienošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Vides plānošana
@@ -340,14 +340,6 @@
               href: accounts-receivable/copy-customer.md
             - name: Debitora darbplūsma
               href: accounts-receivable/customer-workflow.md
-            - name: Ieņēmumu atzīšanas pārskats
-              href: accounts-receivable/revenue-recognition-overview.md
-            - name: Ieņēmumu atzīšanas iestatīšana
-              href: accounts-receivable/revenue-recognition-setup.md
-            - name: Atlikto ieņēmumu atzīšana
-              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
-            - name: Ieņēmumu atzīšana pārdošanas pasūtījumos
-              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Periodisku rēķinu iestatīšana un apstrāde
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Uzskaites sadales un apakšgrāmatas žurnālu ieraksti brīva teksta rēķiniem
@@ -384,10 +376,30 @@
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Moduļa “Debitori” slēgšana
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Maksājumi un norēķini
+            - name: Ieņēmumu atzīšana
               items:
                 - name: Ieņēmumu atzīšanas pārskats
                   href: accounts-receivable/revenue-recognition-overview.md
+                - name: Ieņēmumu atzīšanas iestatīšana
+                  href: accounts-receivable/revenue-recognition-setup.md
+                - name: Atlikto ieņēmumu atzīšana
+                  href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+                - name: Ieņēmumu atzīšana pārdošanas pasūtījumos
+                  href: accounts-receivable/revenue-recognition-so-basics.md
+                - name: Ieņēmumu atzīšanas komplekti
+                  href: accounts-receivable/rev-rec-bundles.md
+                - name: Ieņēmumu atzīšanas atkārtota sadale
+                  href: accounts-receivable/rev-rec-reallocation.md
+                - name: "Ieņēmumu atzīšanas atkārtota sadale\_— 1. scenārijs"
+                  href: accounts-receivable/rev-rec-reallocation-scenario-1.md
+                - name: "Ieņēmumu atzīšanas atkārtota sadale\_— 2. scenārijs"
+                  href: accounts-receivable/rev-rec-reallocation-scenario-2.md
+                - name: "Ieņēmumu atzīšanas atkārtota sadale\_— 3. scenārijs"
+                  href: accounts-receivable/rev-rec-reallocation-scenario-3.md
+                - name: "Ieņēmumu atzīšanas atkārtota sadale\_— 4. scenārijs"
+                  href: accounts-receivable/rev-rec-reallocation-scenario-4.md
+            - name: Maksājumi un norēķini
+              items:
                 - name: Debitoru maksājumu pārskats
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: Centralizētie maksājumi modulim “Debitori”
@@ -470,6 +482,10 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Papildu piezīmju pārvaldība
               href: localizations/emea-ita-exil-structured-notes.md
+            - name: Atsauces uz sākotnējiem rēķiniem kredīta notās
+              href: accounts-receivable/original-invoice-numbers-credit-notes.md
+            - name: Dokumentu hronoloģiska numerācija
+              href: accounts-receivable/chrono-numbers.md
         - name: Budžeta veidošana
           items:
             - name: Budžeta veidošanas sākumlapa
@@ -504,6 +520,8 @@
               href: cash-bank-management/cash-bank-management.md
             - name: Naudas plūsmas prognozēšana
               href: cash-bank-management/cash-flow-forecasting.md
+            - name: Naudas plūsmas prognozēšanas iestatījumu problēmu novēršana
+              href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: Bankas pārvaldības darbvieta
               href: cash-bank-management/Bank-management-workspace.md
             - name: Bankas ārvalstu valūtas pārvērtēšana
@@ -848,10 +866,14 @@
                   href: asset-leasing/record-rou-asset-depreciation.md
                 - name: Grāmatoto nomas darījumu atsaukšana
                   href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Līdzekļu nomas konvencijas
+                  href: asset-leasing/asset-leasing-convention.md
                 - name: Nomas koriģēšana
                   href: asset-leasing/adjust-lease.md
                 - name: Līdzekļa lietošanas tiesību mazināšana
                   href: asset-leasing/impair-rou-asset.md
+                - name: Piedāvājums pārtraukt nomu
+                  href: asset-leasing/lease-termination.md
                 - name: Nomas saistīšana ar pamatlīdzekli
                   href: asset-leasing/associate-lease-with-fixed-asset.md
                 - name: Nomu reģistrēšana ārvalstu valūtās
@@ -920,6 +942,16 @@
                       href: general-ledger/consolidate-online.md
                     - name: Konsolidētu finanšu pārskatu ģenerēšana
                       href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Filiāļu datu importēšana no failiem
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Filiāļu datu eksportēšana uz failu
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: Konsolidēšana ar importu — formāts
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Juridiskas personas sagatavošana izmantošanai konsolidācijas procesā
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Iestatīt meitasuzņēmuma juridisko personu konsolidācijai
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
                 - name: Konsolidācijas grupu un papildu konsolidācijas konta izveide
                   href: general-ledger/tasks/create-consolidation-groups.md
                 - name: Galvenā konta tipi
@@ -1000,11 +1032,13 @@
                   href: general-ledger/currency-revaluation-consolidation-company.md
                 - name: Ārvalstu valūtas pārvērtēšana virsgrāmatai
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Valūtas maiņas kursu importēšana
+                - name: Importēt valūtas maiņas kursus
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Viens dokuments
                   href: general-ledger/one-voucher.md
-                - name: Virsgrāmatas norēķini
+                - name: Bieži uzdotie jautājumi par vienu dokumentu
+                  href: general-ledger/one-voucher-faq.md
+                - name: Virsgrāmatas darbību sasaistīšana
                   href: general-ledger/ledger-settlements.md
             - name: Perioda beigu slēgšana
               items:
@@ -1018,6 +1052,8 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Masveida finanšu periodu slēgšana
                   href: general-ledger/tasks/mass-financial-period-close.md
+                - name: Bieži uzdotie jautājumi par gada beigu aktivitātēm
+                  href: general-ledger/faq-year-end-activities.md
             - name: PVN
               items:
                 - name: PVN pārskats
@@ -1056,12 +1092,26 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Iestatīt PVN apmaksas periodus
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Ieturētā nodokļa iestatīšana
-                  href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: Skatīt grāmatotās PVN darbības
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: PVN maksājum drukāšana pēc koda pārskata
+                - name: PVN maksājumu drukāšana pēc koda pārskata
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: Ieturētais nodoklis
+              items:
+                - name: Ieturētā nodokļa iestatīšana
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Globālais ieturētais nodoklis
+                  items:
+                    - name: Globālā ieturētā nodokļa pārskats
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Globālā ieturētā nodokļa iestatīšana
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Ieturētais nodoklis pirkšanas darbībās
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Ieturētais nodoklis pārdošanas darbībās
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Ieturētā nodokļa maksājuma izveide
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Audita rīks
               items:
                 - name: Audita ierobežojuma nosacījumi
@@ -1070,6 +1120,52 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Pirmdokumentu audita politiku definēšana
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Finanšu pārskatu veidošana
+          items:
+            - name: Darba sākšana ar finanšu pārskatiem
+              href: general-ledger/financial-reporting-getting-started.md
+            - name: Finanšu pārskatu veidošanas pārskats
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
+            - name: Finanšu pārskata komponenti
+              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Valūtas iespējas finanšu pārskatos
+              href: general-ledger/financial-reporting-currency-capability.md
+            - name: Bilances finanšu pārskati
+              href: general-ledger/balance-sheet-financial-reports.md
+            - name: Ģenerēt finanšu pārskatus
+              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
+            - name: Ienākumu deklarācijas finanšu pārskats
+              href: general-ledger/income-statement-financial-report.md
+            - name: Apgrozījuma bilanču finanšu pārskati
+              href: general-ledger/trial-balance-financial-reports.md
+            - name: Finanšu pārskatu skatīšana
+              href: general-ledger/view-financial-reports.md
+            - name: Pārskatu noformētāja interfeiss
+              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
+            - name: Īsinājumtaustiņi finanšu pārskata sastādītājam
+              href: general-ledger/financial-reporting-keyboard-shortcuts.md
+            - name: Lietotāja preferences finanšu pārskatu noformētājā
+              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Papildu formatēšanas opcijas
+              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Pārskatu komponentu organizēšana pārskatu noformētājā
+              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Pārskatu definīcijas
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Rindu definīcijas
+              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Kolonnu definīcijas
+              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Pārskatu koka definīcijas finanšu pārskatos
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Rindu definīciju šūnu modificēšana
+              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Finanšu pārskatu data mart atiestatīšana
+              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
+            - name: Kad atiestatīt data mart
+              href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
+            - name: Bieži uzdotie jautājumi par finanšu pārskatu veidošanu
+              href: general-ledger/financial-reporting-faq.md
         - name: Finance ieskati
           items:
             - name: Finance ieskatu sākumlapa
@@ -1306,48 +1402,6 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: "Kanādas saskaņotā\_PVN aprēķināšana"
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Finanšu pārskati
-          items:
-            - name: Darba sākšana ar finanšu pārskatiem
-              href: general-ledger/financial-reporting-getting-started.md
-            - name: Finanšu pārskatu veidošanas pārskats
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
-            - name: Finanšu pārskata komponenti
-              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: Valūtas iespējas finanšu pārskatos
-              href: general-ledger/financial-reporting-currency-capability.md
-            - name: Bilances finanšu pārskati
-              href: general-ledger/balance-sheet-financial-reports.md
-            - name: Ģenerēt finanšu pārskatus
-              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
-            - name: Ienākumu deklarācijas finanšu pārskats
-              href: general-ledger/income-statement-financial-report.md
-            - name: Apgrozījuma bilanču finanšu pārskati
-              href: general-ledger/trial-balance-financial-reports.md
-            - name: Finanšu pārskatu skatīšana
-              href: general-ledger/view-financial-reports.md
-            - name: Pārskatu noformētāja interfeiss
-              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: Īsinājumtaustiņi finanšu pārskata sastādītājam
-              href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: Lietotāja preferences finanšu pārskatu noformētājā
-              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Papildu formatēšanas opcijas
-              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Pārskatu komponentu organizēšana pārskatu noformētājā
-              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Pārskatu definīcijas
-              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Rindu definīcijas
-              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Kolonnu definīcijas
-              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Pārskatu koka definīcijas finanšu pārskatos
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Rindu definīciju šūnu modificēšana
-              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Finanšu pārskatu data mart atiestatīšana
-              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: Globalizācija
           items:
             - name: Globalizācijas resursi
@@ -1358,18 +1412,30 @@
               items:
                 - name: Elektroniskās rēķinu izveides pievienojumprogrammas pārskats
                   href: localizations/e-invoicing-service-overview.md
+                - name: Elektroniskās rēķinu izveides pievienojumprogrammas administrēšanas komponenti
+                  href: localizations/e-invoicing-service-administration.md
+                - name: Elektronisko rēķinu izveides pievienojumprogrammas konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: Azure krātuves konta un Key Vault izveide
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu
-                  href: localizations/e-invoicing-get-started.md
-                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Brazīlijā
-                  href: localizations/e-invoicing-bra-get-started.md
-                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Itālijā
-                  href: localizations/e-invoicing-ita-get-started.md
-                - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Meksikā
-                  href: localizations/e-invoicing-mex-get-started.md
-                - name: Elektroniskās rēķinu izveides pievienojumprogrammas iestatīšana
-                  href: localizations/e-invoicing-setup.md
+                - name: Darba sākšana
+                  items:
+                    - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammas servisa administrēšanu
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu
+                      href: localizations/e-invoicing-get-started.md
+                    - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Brazīlijā
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: Klientu elektroniskie rēķini Ēģiptē
+                      href: localizations/emea-egy-e-invoices.md
+                    - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Itālijā
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammu lietošanai Meksikā
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: Elektroniskās rēķinu izveides pievienojumprogrammas iestatīšana
+                      href: localizations/e-invoicing-setup.md
             - name: Austrālija
               items:
                 - name: Austrālijas pārskats
@@ -1710,6 +1776,14 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Maksājumu kvīts formāta iestatīšana
                   href: localizations/tasks/set-up-payment-slip-format.md
+            - name: Ēģipte
+              items:
+                - name: Ēģiptes pārskats
+                  href: localizations/egypt.md
+                - name: Reģistrācijas numuru konfigurēšana Ēģiptē
+                  href: localizations/emea-egy-reg-numbers.md
+                - name: Rēķina izkārtojuma konfigurēšana Ēģiptei
+                  href: localizations/emea-egy-invoice-layout.md
             - name: Igaunija
               items:
                 - name: Igaunijas pārskats
@@ -1800,6 +1874,8 @@
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
                 - name: Atbalstītie standarti elektroniskajai rēķinu izrakstīšanai
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
+                - name: Piespiedu elektronisko rēķinu ģenerēšana
+                  href: localizations/emea-eur-forced-einvoices.md
                 - name: Sākotnējā rēķina atsauce (Austrumeiropa)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
                 - name: Pušu meklēšana pēc PVN ID
@@ -1968,6 +2044,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Tiešsaistes rēķinu izrakstīšanas sistēma
                   href: localizations/emea-hun-online-invoicing.md
+                - name: PVN pārskati Ungārijai
+                  href: localizations/emea-hun-sales-tax-reports.md
                 - name: Atliktie PVN aprēķini
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islande
@@ -2224,6 +2302,8 @@
                   href: localizations/italy.md
                 - name: PVN deklarāciju informācija
                   href: localizations/emea-ita-vat-statements-details.md
+                - name: Ceturkšņa PVN komunikācijas pārskats
+                  href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Melnā saraksta pārskats
                   href: localizations/emea-ita-black-list-report.md
                 - name: Kompetences datums
@@ -2278,6 +2358,10 @@
                   href: localizations/emea-ita-e-invoices.md
                 - name: Ikgadējā nodokļu komunikācija
                   href: localizations/emea-ita-yearly-tax-communication.md
+                - name: Maksājumu izsekošana
+                  href: localizations/emea-ita-payment-traceability.md
+                - name: Vienotās grāmatošanas datuma kontrole
+                  href: localizations/emea-ita-post-date-control.md
             - name: Japāna
               items:
                 - name: Japānas pārskats
@@ -2826,6 +2910,10 @@
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Līdzekļu nodokļu reģistri
                       href: localizations/rus-assets-tax-registers.md
+                    - name: Atlikto maksājumu nodokļu reģistrs
+                      href: localizations/rus-deferred-expenses-register.md
+                    - name: Naudas plūsmas nodokļu reģistri
+                      href: localizations/rus-cash-flow-tax-registers.md
             - name: Saūda Arābija
               items:
                 - name: Saūda Arābijas pārskats
@@ -2906,6 +2994,10 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Nerealizētais PVN
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Nodokļu maksātāja filiāles dimensijas
+                  href: localizations/apac-tha-tax-branch-dimensions.md
+                - name: Pārdošanas PVN pārskats
+                  href: localizations/apac-tha-sales-vat-report.md
                 - name: Ieturētais nodoklis
                   href: localizations/apac-tha-withholding-tax.md
             - name: Apvienotie Arābu Emirāti (AAE)
@@ -2991,7 +3083,7 @@
                 - name: Pēctecības plāna izstrāde
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Projektu darba laika uzskaites tabulu ievade
-                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
                 - name: Masveida darbā pieņemšanas projekti
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
                 - name: Masveida darbā pieņemšanas projekta izveide
@@ -3307,6 +3399,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: Funkcijas
                   items:
+                    - name: Konteiners
+                      items:
+                        - name: Konteinera funkcijas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                     - name: Datums un laiks
                       items:
                         - name: Datuma un laika funkcijas
@@ -3529,6 +3627,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tips: vērtība'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Konteiners: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                         - name: 'Datums un laiks: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Datums un laiks: DateToDateTime'
@@ -3570,7 +3670,11 @@
                         - name: 'Formātu izpilde, lai Excel pārskatiem dinamiski pievienotu kolonnas'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: 'Konfigurāciju noformēšana, lai ģenerētu pārskatus Word formātā'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: 'Jaunas ER konfigurācijas noformēšana, lai ģenerētu atskaites Word formātā'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
+                    - name: 'ER konfigurāciju atkārtota izmantošana ar Excel veidnēm, lai izveidotu pārskatus Word formātā'
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: 'Konfigurāciju noformēšana, lai aizpildītu PDF veidnes'
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Attēlu un formu iegulšana
@@ -3587,6 +3691,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: 'Ģenerēto XML failu sadalīšana, pamatojoties uz faila lielumu un satura daudzumu'
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+                - name: MK rakstzīmju likvidēšana ģenerētos failos
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
             - name: 'Programmas datu atjaunināšana, izmantojot elektroniskos pārskatus'
               items:
                 - name: Elektronisko dokumentu ģenerēšana un programmas datu atjaunināšana
@@ -3646,7 +3752,7 @@
                         - name: Konfigurāciju importēšana no GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronisko pārskatu konfigurāciju atjauninātu versiju importēšana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: 'Uzlabota filtrēšana, lai atrastu konfigurācijas globālajā repozitorijā (GR)'
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Konfigurāciju augšupielāde globālajā repozitorijā (GR)
@@ -3710,38 +3816,40 @@
                         - name: 'Formātu modificēšana un palaišana, lai izmantotu dokumentu pārvaldības failus'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: Datu avotu atkļūdošana
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: SVĪTRKODA izmantošana svītrkodu attēlu ģenerēšanai
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modeļu kartējumu konfigurēšana
                   items:
-                    - name: No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Vairāku atvasināto kartējumu pārvaldība viena modeļa saknei
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
                 - name: Formātu konfigurēšana
                   items:
                     - name: 'Modeļu definīciju atlase, veidojot formātus'
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 'Elektronisko pārskatu formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu formāta elementu izpildes atlikšana
                       items:
                         - name: Secības elementa izpildes atlikšana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/finance/toc.json
                         - name: XML elementa izpildes atlikšana
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/finance/toc.json
                     - name: Daudzvalodu pārskatu noformēšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Lielu izejošo dokumentu saspiešana
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigurēto elektronisko pārskatu komponentu pārbaude
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Relatīvais ceļš datu saistījumos
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: Elektronisko pārskatu risinājumu izmantošana programmā Finance and Operations
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+            - name: ER risinājumu izmantošana pakalpojumā Finance
               items:
                 - name: Struktūras konfigurēšana
                   items:
@@ -3775,6 +3883,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Adresātu konfigurēšana
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: No darbības atkarīgu adresātu konfigurēšana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Atsauces uz elektronisko pārskatu formātu iestatīšana
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Ģenerēto pārskatu automātiska validēšana
@@ -3815,6 +3925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
                     - name: "Application Update\_10.0.11"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                    - name: "Application Update\_10.0.17"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                 - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
                   items:
                     - name: 'Notikuma abonēšana, lai pieprasītu atbildi no abonēšanas apstrādātāja'
