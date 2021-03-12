@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: 04aca717c3f255799699d63fb74ee0b543f8c8ba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4445749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993267"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Kreditora rēķina ieraksta darbvieta
 
@@ -117,6 +116,3 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 | Rēķini, kurus neizdevās importēt | <ul><li>Rēķini, kurus neizdevās importēt</li><li>Rēķini, kurus uzņēmumam neizdevās importēt</li></ul> |
 | Automatizācijas kļūmes iemesli | <ul><li>Rēķini neizdevās</li><li>Rēķini neizdevās pēc uzņēmuma</li><li>Rēķini neizdevās pēc kreditoru grupas</li></ul> |
 | Darbplūsmas statuss                | <ul><li>Rēķini darbplūsmā</li><li>Kreditora rēķina darbplūsmas instances</li><li>Piešķīrums apstiprinātājam</li><li>Kreditora rēķina darbplūsma katram uzņēmumam</li><li>Vidējais dienu skaits darbplūsmā pēc apstiprinātāja</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

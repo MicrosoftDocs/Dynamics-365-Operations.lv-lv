@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432556"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992249"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 
@@ -74,22 +73,19 @@ Kad sistēma ir sagatavota, kā aprakstīts iepriekšējā sadaļā, jums ir jā
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Piemēri tam, kā plānošanas optimizācija atrod kreditoru un izpildes laikus
 
-Tabulā zemāk ir sniegti piemēri, kas parāda, kā dažādi tirdzniecībā izlaistās preces iestatījumi un tās saistītie pirkšanas tirdzniecības līgumi ietekmē vērtības, kas atrastas iegūtajam plānotajam pirkšanas pasūtījumam. **Treknraksta** vērtības abās labās puses kolonnās ir vērtības, ko atlasa plānošanas optimizācija. ***Treknraksta un slīpraksta*** vērtības citās kolonnās ir iestatījumi, kas radījuši šīs iegūtās vērtības katrai rindai.
+Tabulā zemāk ir sniegti piemēri, kas parāda, kā dažādi tirdzniecībā izlaistās preces iestatījumi un tās saistītie pirkšanas tirdzniecības līgumi ietekmē vērtības, kas atrastas iegūtajam plānotajam pirkšanas pasūtījumam. **Treknraksta** vērtības abās labās puses kolonnās ir vērtības, ko atlasa plānošanas optimizācija. **_Treknraksta un slīpraksta_* _ vērtības citās kolonnās ir iestatījumi, kas radījuši šīs iegūtās vērtības katrai rindai.
 
 | Tirdzniecībā izlaistā prece: kreditors | Noklusējuma kārtības iestatījumi: izpildes laiks | Krājumu vajadzība: ignorēt kreditoru | Krājumu vajadzība: ignorēt izpildes laiku | Tirdzniecības līgums: kreditors | Tirdzniecības līgums: izpildes laiks | Tirdzniecības līgums: ignorēt izpildes laiku | Iegūtais kreditors | Iegūtais izpildes laiks |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | Nr. | Nr. | US003 | 3 | Nr. | **US001** | **1** |
-| US001 | 1 | ***Jā: US002*** | ***Jā: 2*** | US003 | 3 | Nr. | **US002** | **2** |
-| *(Tukšs)* | 1 | Nr. | Nr. | ***US003*** | ***3*** | Nr. | **US003** | **3** |
-| *(Tukšs)* | ***1*** | Nr. | Nr. | ***US003*** | 3 | Jā | **US003** | **1** |
-| *(Tukšs)* | ***1*** | ***Jā: US002*** | Nr. | US003 | 3 | Nr. | **US002** | **1** |
-| *(Tukšs)* | ***1*** | ***Jā: US002*** | Nr. | US003 | 3 | Nr. | **US002** | **1** |
-| *(Tukšs)* | 1 | Nr. | Jā: 2 | ***US003*** | ***3*** | Nr. | **US003** | **3** |
-| *(Tukšs)* | 1 | Nr. | ***Jā: 2*** | ***US003*** | 3 | Jā | **US003** | **2** |
+| _*_US001_*_ | _*_1_*_ | Nr. | Nr. | US003 | 3 | Nr. | _ *US001** | **1** |
+| US001 | 1 | **_Jā: US002_* _ | _*_Jā: 2_*_ | US003 | 3 | Nr. | _ *US002** | **2** |
+| *(Tukšs)* | 1 | Nr. | Nr. | ***US003** _ | _*_3_*_ | Nr. | _ *US003** | **3** |
+| *(Tukšs)* | ***1** _ | Nr. | Nr. | _*_US003_*_ | 3 | Jā | _ *US003** | **1** |
+| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nr. | US003 | 3 | Nr. | _ *US002** | **1** |
+| *(Tukšs)* | ***1** _ | _*_Jā US002_*_ | Nr. | US003 | 3 | Nr. | _ *US002** | **1** |
+| *(Tukšs)* | 1 | Nr. | Jā: 2 | ***US003** _ | _*_3_*_ | Nr. | _ *US003** | **3** |
+| *(Tukšs)* | 1 | Nr. | ***Jā: 2** _ | _*_US003_*_ | 3 | Jā | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas līgumi](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

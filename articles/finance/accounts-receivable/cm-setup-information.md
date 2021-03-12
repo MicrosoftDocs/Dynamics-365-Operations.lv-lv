@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445461"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991257"
 ---
 # <a name="credit-management-setup"></a>Kredīta pārvaldības iestatīšana 
 
@@ -153,6 +152,3 @@ Izpildiet šīs darbības, lai pievienotu rindas, kas norāda kredīta limitu, k
 2. Atlasiet salīdzinājuma operatoru, kas nosaka, kā jānovērtē punktu skaitīšanas grupas informācija.
 3. Ievadiet vērtību, kas jāsalīdzina ar vērtību, kas norādīta punktu skaitīšanas grupai.
 4. Ievadiet kredīta limitu, kas jāpiešķir, ja debitora informācija atbilst vērtībai, kas norādīta punktu skaitīšanas grupai. Piemēram, jūs izveidojat automātisku kredīta limitu punktu skaitīšanas grupai **Zema**. Ja uzņēmuma darbības gadi ir viena no punktu skaitīšanas grupām, varat definēt vienu rindu, kas piešķir kredīta limitu 100 000, ja debitors ir bijis aktīvs uzņēmējdarbības veicējs piecus gadus, un citu rindu, kas piešķir kredīta limitu 200 000, ja debitors ir bijis aktīvs uzņēmējdarbības veicējs 10 gadus.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

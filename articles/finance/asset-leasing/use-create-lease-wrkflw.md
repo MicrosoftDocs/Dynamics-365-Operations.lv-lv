@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4445804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992762"
 ---
 # <a name="use-lease-approval-workflows"></a>Nomas apstiprinājuma darbplūsmu izmantošana
 
@@ -45,6 +44,3 @@ Pirms šīs procedūras izmantošanas pārliecinieties, ka vismaz nomas apstipri
 
 8. Lai pārtrauktu darbplūsmu, lapā **Darbplūsmas vēsture** atlasiet **Atsaukt**. Parādītajā dialoglodziņā ievadiet komentāŗu un pēc tam atlasiet **Labi**.
 9. Lai deaktivizētu darbplūsmu vai lai aktivizētu darbplūsmu, kas iepriekš izveidota, dodieties uz **Līdzekļu noma \> Iestatīšana \> Nomas darbplūsma**. Pēc tam lapā **Nomas darbplūsma** atlasiet **Darbplūsma \> Versijas**. Lai pašreizējo darbplūsmu padarītu neaktīvu, nomas versijas dialoglodziņā atlasiet aktīvo nomu un pēc tam atlasiet **Padarīt neaktīvu**. Lai aktivizētu esošo darbplūsmu, atlasiet darbplūsmu un pēc tam atlasiet **Padarīt aktīvu**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

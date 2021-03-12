@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d21ce20b2c7ac8c656a718749dabd76f33893da8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414019"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991469"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Pielāgotu atbilžu lapu izveide 4xx/5xx statusa koda kļūdām
 
@@ -83,6 +82,3 @@ Lai iestatītu novirzīšanu statusa koda kļūdas atbildes lapai, veiciet tāl�
 [Jaunas vietnes lapas pievienošana](add-new-page.md)
 
 [Lapas vietrāža URL izveide](create-page-url.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
