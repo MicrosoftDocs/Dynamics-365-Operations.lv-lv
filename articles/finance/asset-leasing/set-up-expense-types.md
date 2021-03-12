@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d27c5653d6305aad23142fa6f803134153661278
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4445785"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969507"
 ---
 # <a name="set-up-expense-types"></a>Izdevumu veidu iestatīšana
 
@@ -59,6 +58,3 @@ Pēc tam saistiet kontus ar izdevumu tipiem. Šie konti tiks debetēti, kad tiks
 7. Atbilstošajos laukos atlasiet finanšu nomas galveno kontu un operatīvas nomas galveno kontu.
 
 Kad šīs darbības ir pabeigtas, varat pievienot izdevumus, izmantojot **izpildes izmaksu maksājuma grafika** rindas atlasītās nomas lapā **Līguma informācija**. Varat arī pievienot izdevumus, izveidojot jaunu nomu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

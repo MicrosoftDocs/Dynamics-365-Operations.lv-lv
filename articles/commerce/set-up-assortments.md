@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15811
 ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26614d319453041177e8072793f09f52ebfd51fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414149"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969830"
 ---
 # <a name="set-up-assortments"></a>Iestatīt preču klāstus
 
@@ -55,6 +54,3 @@ Pēc tam, kad esat izpildījis priekšnoteikumus, varat izveidot preču klāstu 
 2. Atlasiet kanālus vai augsta līmeņa kanālu grupas, uz ko attiecas preču klāsts.
 3. Pievienojiet preču klāstam preču kategorijas, atsevišķas preces vai preces variantus. Varat iekļaut visas noteiktas kategorijas preces vai arī varat izslēgt atlasītās preces no kategorijas, kas ir iekļauta preču klāstā.
 4. Publicējiet preču klāstu. Publicējot preču klāstu, tiek automātiski palaists preču klāsta plānotājs. Izpildot šo procesu, tiek ģenerēts preču saraksts. Kad šis process ir pabeigts, preces kļūst pieejamas kanālos, kam ir piešķirts preču klāsts. Ja tiek mainīts publicēts preču klāsts vai kanāli, kam ir piešķirts šis preču klāsts, ir jāatjaunina šis preču klāsts. Lai atjauninātu preču klāstā, kad tiek veiktas izmaiņas, varat palaist preču klāsta plānotāju pakešuzdevuma režīmā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

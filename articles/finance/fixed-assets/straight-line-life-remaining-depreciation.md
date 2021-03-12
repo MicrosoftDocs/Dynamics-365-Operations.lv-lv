@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445706"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969008"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Atlikušā lietošanas ilguma lineārā aprēķināšanas metode
 
@@ -38,7 +37,7 @@ Lapā **Nolietojuma tabulas** laukā **Nolietojuma aprēķina gads** varat atlas
 
 ### <a name="calendar"></a>Kalendārs
 
-Atlasot opciju **Kalendārs** laukā ***Nolietojuma aprēķina gads***, tiks izmantots laika intervāls no 1. janvāra līdz 31. decembrim, pat ja ir atšķirīgi noteikts finanšu kalendārs. Opcija **Kalendārs** nolietojuma bāzi atjaunina katru gadu 1. janvārī. Parasti nolietojuma bāze ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šajā tēmā redzamajos piemēros nolietojuma bāze ir aprēķinu kolonnas pirmās izteiksmes skaitītājs. Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
+Ja atlasāt **Kalendārs** laukā **_Nolietojuma gads_*_, par to tiek uzskatīts gads no 1. janvāra līdz 31. decembrim, pat ja finanšu kalendārs ir definēts atšķirīgi. Opcija _* Kalendārs** atjaunina nolietojuma bāzi katra gada 1. janvārī. Parasti nolietojuma bāze ir atlikusī vērtība mīnus lūžņu vērtība. Tālāk šajā tēmā redzamajos piemēros nolietojuma bāze ir aprēķinu kolonnas pirmās izteiksmes skaitītājs. Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Kalendārs**, tad laukā **Perioda biežums** ir pieejamas tālāk norādītās opcijas.
 
 -   **Reizi gadā** grāmato summu 31. decembrī.
 -   **Reizi mēnesī** grāmato mēneša summu katra kalendārā mēneša beigās.
@@ -80,6 +79,3 @@ Nolietojuma summa ir tāda pati katru gadu: (Pirkšanas vērtība — Lūžņu v
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

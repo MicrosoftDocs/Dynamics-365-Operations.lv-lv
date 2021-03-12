@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca05f6174541a6e97ec94db209a99424a87550eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445738"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969357"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Izmaksu kontroles darbvietas parametru konfigurēšana
 
@@ -59,6 +58,3 @@ Izmantojiet šo procedūru, lai konfigurētu izmaksu kontroles darbvietu, lai da
 27. Laukā Izmaksu objekta dimensiju hierarhijas zars ievadiet vai atlasiet kādu vērtību.
     * Pēc tam, kad esat atlasījis izmaksu objekta dimensiju hierarhiju, izvērsiet izmaksu elementa dimensiju hierarhiju, lai skatītu vēlamās izmaksu vērtības. Piemēram, varat izvērst hierarhiju līdz ražošanai pieskaitāmajām izmaksām, lai redzētu vērtību.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

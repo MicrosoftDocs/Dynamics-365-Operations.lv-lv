@@ -3,14 +3,13 @@ title: Dynamics 365 Commerce novērtējuma vides nodrošināšana
 description: Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtējuma vidi.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4414205"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969905"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtējuma vides nodrošināšana
 
@@ -131,6 +130,22 @@ Lai inicializētu CSU, veiciet tālāk norādītās darbības.
 
 Ja nevarat atrast saiti **Pārvaldība** vides informācijas skatā, sazinieties ar Microsoft kontaktpersonu, lai saņemtu palīdzību.
 
+Izvietošanas procesa laikā, iespējams, saņemsit šādu kļūdas ziņojumu:
+
+> Novērtējuma (demonstrācijas/testa) vidēm jāreģistrē mēroga vienību savienotāja programma \<application ID\> galvenajā birojā.
+
+Ja CSU inicializācija neizdodas un saņemat šo kļūdas ziņojumu, pierakstiet programmas ID, kas ir vispārēji unikāls identifikators (GUID), un pēc tam izpildiet nākamajā sadaļā norādītās darbības, lai reģistrētu CSU izvietošanas programmu komponentā Commerce Headquarters.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>CSU izvietošanas programmas reģistrācija Commerce Headquarters (ja nepieciešams)
+
+Lai reģistrētu CSU izvietošanas programmu Commerce Headquarters, veiciet tālāk norādītās darbības.
+
+1. Komponentā Commerce Headquarters dodieties uz **Sistēmas administrēšana \> Iestatīšana \> Azure Active Directory programmas**.
+1. Kolonnā **Klienta ID** ievadiet programmas ID no saņemtā CSU inicializēšanas kļūdas ziņojuma.
+1. Kolonnā **Nosaukums** ievadiet jebkādu apraksta tekstu (piemēram, **CSU novērtējums**).
+1. Kolonnā **Lietotāja ID** ievadiet **RetailServiceAccount**.
+1. Atkārtoti mēģiniet CSU inicializāciju un izvietošanu no LCS.
+
 ### <a name="initialize-e-commerce"></a>E-tirdzniecības inicializēšana
 
 Lai inicializētu e-tirdzniecību, veiciet tālāk norādītās darbības.
@@ -176,6 +191,3 @@ Lai turpinātu nodrošināšanas procesu un konfigurētu Commerce novērtējuma 
 [Microsoft Azure portāls](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce tīmekļa vietne](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
