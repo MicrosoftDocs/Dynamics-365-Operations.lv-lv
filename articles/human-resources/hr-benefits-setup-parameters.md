@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
-ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
+ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692701"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "4962444"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Iestatīt Atvieglojumu pārvaldību un Darbinieku pašapkalpošanās parametrus visiem uzņēmumiem
 
@@ -68,6 +68,3 @@ Pirms varat iestatīt atvieglojumu plānus risinājumā Microsoft Dynamics 365 H
 3. Atlasiet **Saglabāt**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

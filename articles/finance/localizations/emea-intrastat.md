@@ -3,7 +3,7 @@ title: Intrastat pārskats
 description: Šajā tēmā ir sniegta informācija par Intrastat pārskatu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408286"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962728"
 ---
 # <a name="intrastat-overview"></a>Intrastat pārskats
 
@@ -197,7 +196,7 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 <td><ul>
 <li><strong>Vispārīgi</strong> — norādiet tālāk aprakstīto informāciju.
 <ul>
-<li>Noklusējuma transakcijas kodi pārdošanas pasūtījumiem, pirkšanas pasūtījumiem, kredīta notām un pārsūtīšanas pasūtījumiem. Transakcijas kods, kas ir iestatīts kredīta notām, tiek izmantots arī kā kods fizisko preču atgriešanai, un tas tiek izmantots noviržu fiziskajās atgriešanās pret labojumu kredīta notām.</li>
+<li>Noklusējuma transakcijas kodi pārdošanas pasūtījumiem, pirkšanas pasūtījumiem, kredīta notām un pārsūtīšanas pasūtījumiem. Transakcijas kods, kas ir iestatīts kredīta notām, tiek izmantots arī kā kods fizisko preču atgriešanai, un tas tiek izmantots noviržu fiziskajās atgriešanās pret labojumu kredīta notām. Par fizisko preču atgriešanu tiek ziņots Intrastat pārsūtīšanā ar atšķirīgu virzienu. Tiek ziņots, ka saņemšanas atgriešana ir ziņota kā nosūtīšana, un nosūtīšanas atgriešana tiek ziņota kā saņemšana.</li>
 <li>Darbinieks, kas ir atbildīgs par Intrastat atskaišu sagatavošanu.</li>
 </ul></li>
 <li><strong>Minimālā robeža</strong> — norādiet iestatījumus tādu transakciju atjaunināšanai, kas ir zem sliekšņa.
@@ -240,6 +239,3 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

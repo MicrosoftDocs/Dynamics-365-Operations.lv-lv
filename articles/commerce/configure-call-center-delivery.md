@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413955"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963114"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Zvanu centra piegādes veidu un maksu konfigurēšana
 
@@ -95,6 +94,3 @@ Jebkuram jūsu konfigurētajam piegādes veidam pēc izvēles varat piesaistīt 
 Piemēram, pasūtījumiem, kas nākamajā dienā tiks nosūtīti pa gaisu, izdošana noliktavā katru dienu ir jāpaveic līdz 13.00. Tādā gadījumā var izveidot paātrinātās izpildes kodu, un šo kodu var saistīt ar visiem nākamās dienas piegādes veidiem, kas sistēmā ir konfigurēti. Kad noliktava izveido savu izdošanas kopumu, kā filtru var izmantot atbilstošo paātrinātas izpildes kodu laukā **Paātrināt izpildi**, lai izdošana tiktu palaista tikai pasūtījumiem, kuru piegādes veidi ir saistīti ar šo kodu.
 
 Turklāt, kad tiek izveidots zvanu centra pasūtījums, paātrinātās izpildes kodu var manuāli lietot pārdošanas pasūtījuma virsrakstam vai atsevišķai pārdošanas pasūtījuma rindai. Un atkal šo kodu var izmantot kārtošanai vai pārskatu veidošanai. Reizēm pasūtījums ir jāapstrādā uzmanīgi, jo ir radusies klientu apkalpošanas problēma. Tādā gadījumā pasūtījuma virsrakstam vai rindām var lietot noteiktu paātrinātās izpildes kodu, lai palīdzētu identificēt šo pasūtījumu un piešķirt tam prioritāti izpildes procesa laikā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

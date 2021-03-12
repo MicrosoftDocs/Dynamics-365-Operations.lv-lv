@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Latvia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec744702901937976d4862f8b3a307f040d9ca3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aeba8e7d8e946d62710a79b73ff5056a721d76f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408262"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964624"
 ---
 # <a name="latvia-overview"></a>Latvijas pārskats
 
@@ -34,6 +33,3 @@ ms.locfileid: "4408262"
 - [Rēķinu un pavadzīmju numerācija](emea-invoices-packing-slips-numbering.md)
 - [Dabas resursu nodokļa pārskats](emea-lva-tax-natural-resources.md)
 - [PVN deklarācijas informācija](emea-lva-vat-statement-details.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

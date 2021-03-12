@@ -1,6 +1,6 @@
 ---
 title: Pieejamības līdzekļi
-description: Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām.
+description: Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota, lai palīdzētu lietotājiem ar īpašām vajadzībām.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 12/02/2019
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 332306abbd4eedb725efbf6022940c59419e1747
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693850"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798699"
 ---
 # <a name="accessibility-features"></a>Pieejamības līdzekļi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota ar mērķi palīdzēt lietotājiem ar īpašām vajadzībām izmantot šo programmu. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktoru.
+Šajā tēmā ir aprakstīta funkcionalitāte, kas ir izveidota, lai palīdzētu lietotājiem ar īpašām vajadzībām izmantot šo programmu. Piemēram, pastāv līdzekļi personām, kas izmanto redzes palīgtehnoloģijas, piemēram, Microsoft Windows diktoru.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows diktors un piekļuve tikai ar tastatūru
 
@@ -82,21 +82,18 @@ Taču pastāv iespēja, ka daži lauki, kurus bieži izmantojat uzdevumu veikša
 
 ![Opcija “Uzlabota ciļņu secība”](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Opcija “Uzlabota ciļņu secība”")
 
-## <a name="form-patterns"></a>Formu modeļi
+## <a name="form-patterns"></a>Veidlapu modeļi
 
-Gandrīz 90 procenti no lapām programmā ir balstītas uz nelielas modeļu kopas. Šie modeļi tiek saukti par *formu modeļiem*. Katrs formas modelis tiek izmantots, lai nodrošinātu attiecīgajā lapā visbiežāk veiktās darbības. Formas modelis palīdz garantēt atpazīstamību un izpratnes vienkāršību, jo bieži izmantotās darbības un dati dažādās lapās vienmēr atrodas tajās pašās vietās. Tā kā formu modeļu skaits ir neliels, lietotāji var viegli apgūt sistēmu neatkarīgi no tajā esošo lapu skaita, un pēc formu modeļu atpazīšanas lietotāji sistēmu var pārliecinoši izmantot.
+Gandrīz 90 procenti no lapām programmā ir balstītas uz nelielas modeļu kopas. Šie modeļi tiek saukti par *veidlapu modeļiem*. Katrs veidlapas modelis tiek izmantots, lai nodrošinātu attiecīgajā lapā visbiežāk veiktās darbības. Veidlapas modelis palīdz garantēt atpazīstamību un izpratnes vienkāršību, jo bieži izmantotās darbības un dati dažādās lapās vienmēr atrodas tajās pašās vietās. Tā kā veidlapu modeļu skaits ir neliels, lietotāji var viegli apgūt sistēmu neatkarīgi no tajā esošo lapu skaita, un pēc formu modeļu atpazīšanas lietotāji sistēmu var pārliecinoši izmantot.
 
-Papildinformāciju par formu modeļiem skatiet šeit: [Formu stili un modeļi](../../dev-itpro/user-interface/form-styles-patterns.md).
+Papildinformāciju par veidlapu modeļiem skatiet šeit: [Veidlapu stili un modeļi](../../dev-itpro/user-interface/form-styles-patterns.md).
 
 ## <a name="responsive-layout"></a>Interaktīvs izkārtojums
 
-Produkti ir izstrādāti tā, lai tie darbotos dažādās ierīcēs un ar dažādiem formu faktoriem — no vismazākajiem ekrāniem līdz vislielākajiem ekrāniem ar visaugstāko izšķirtspēju. Mūsu interaktīvā izkārtojuma programma ļauj lietotājiem tuvināt līdz 200 procentu palielinājuma līmenim (vai dažos gadījumos vairāk par 200 procentiem).
+Produkti ir izstrādāti tā, lai tie darbotos dažādās ierīcēs un ar dažādiem veidlapu faktoriem — no vismazākajiem ekrāniem līdz vislielākajiem ekrāniem ar visaugstāko izšķirtspēju. Mūsu interaktīvā izkārtojuma programma ļauj lietotājiem tuvināt līdz 200 procentu palielinājuma līmenim (vai dažos gadījumos vairāk par 200 procentiem).
 
 Viedtālruņos un citos mazos ekrānos vadīklas un veidlapas izkārtojums tiks atbilstoši pielāgots, lai nodrošinātu, ka pamatdati ir privileģēti. Šī atbilstošā izturēšanās var ietvert arī kolonnu skaita samazināšanu grupās un cilnēs uz vienu kolonnu, paslēpjot čaulas elementus un sakļaujot darbību rūti.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Norādījumi par to, kā palīdzēt izstrādātājiem un klientiem savos pielāgojumos iekļaut pieejamu domāšanu
 
-Papildinformāciju par Microsoft labākajām praksēm attiecībā uz pieejamības iespējošanu skatiet šeit: [Pieejamība formās, produktos un vadīklās](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Papildinformāciju par Microsoft labākajām praksēm attiecībā uz pieejamības iespējošanu skatiet šeit: [Pieejamība veidlapās, produktos un vadīklās](../../dev-itpro/user-interface/enable-accessibility.md).

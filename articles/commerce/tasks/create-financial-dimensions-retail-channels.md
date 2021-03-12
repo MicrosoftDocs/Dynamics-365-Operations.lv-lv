@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea36732023092f714b3a783d98b512c0fea7dade
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 86fc9c9a400bee1280b32f10b1e8f55e581e1984
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414101"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964749"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Mazumtirdzniecības kanālu finanšu dimensiju izveide un dimensiju vērtību konfigurēšana veikalos
 
@@ -55,6 +54,3 @@ ms.locfileid: "4414101"
 24. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 25. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

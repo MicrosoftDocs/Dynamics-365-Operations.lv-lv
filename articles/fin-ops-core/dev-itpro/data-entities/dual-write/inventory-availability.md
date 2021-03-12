@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4455019"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839553"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Krājumu pieejamība duālajā ierakstā
 
@@ -58,5 +58,63 @@ Dialoglodziņā tiek atgriezta ATP informācija no Supply Chain Management. Šaj
 - Izejas plūsmas daudzums
 - Rīcībā esošais daudzums
 
+## <a name="how-it-works"></a>Kā tas darbojas
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Atlasot pogu **Rīcībā esošie krājumi** lapā **Piedāvājumi**, **Pasūtījumi** vai **Rēķini**, **Rīcībā esošo krājumu API** tiek veikts tiešais duālās rakstīšanas izsaukums. API aprēķina dotās preces rīcībā esošos krājumus. Rezultāts tiek glabāts tabulās **InventCDSInventoryOnHandRequestEntity** un **InventCDSInventoryOnHandEntryEntity**, tad to ieraksta programmā Dataverse duālā ieraksta formā. Lai lietotu šo funkcionalitāti, ir jāpalaiž šādas duālās rakstīšanas kartes. Izlaist sākotnējo sinhronizāciju, kad palaižat kartes.
+
+- CDS rīcībā esošo krājumu ieraksti (msdyn_inventoryonhandentries)
+- CDS rīcībā esošo krājumu pieprasījumi (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Veidnes
+Rīcībā esošo krājumu datu atklāšanai ir pieejamas šādas veidnes.
+
+Finance and Operations programmas | Customer engagement programma | Apraksts 
+---|---|---
+[CDS krājumu rīcībā esošie ieraksti](#145) | msdyn_inventoryonhandentries |
+[CDS krājumu rīcībā esošie pieprasījumi](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>CDS rīcībā esošo krājumu ieraksti (msdyn_inventoryonhandentries)
+
+Šī veidne sinhronizē datus starp Finance and Operations programmām un Dataverse.
+
+Finance and Operations lauks | Kartes veids | Lauks Customer engagement | Noklusētā vērtība
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>CDS rīcībā esošo krājumu pieprasījumi (msdyn_inventoryonhandrequests)
+
+Šī veidne sinhronizē datus starp Finance and Operations programmām un Dataverse.
+
+Finance and Operations lauks | Kartes veids | Lauks Customer engagement | Noklusētā vērtība
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

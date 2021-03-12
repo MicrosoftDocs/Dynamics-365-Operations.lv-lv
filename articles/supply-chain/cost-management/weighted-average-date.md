@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432593"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963742"
 ---
 # <a name="weighted-average-date"></a>Vidējā svērtā uz datumu
 
@@ -32,7 +31,7 @@ ms.locfileid: "4432593"
 
 Svērtais vidējais uz datumu ir krājumu modelis, kura pamatā ir svērtā vidējā princips. Izmantojot svērtā vidējā principu, krājumu izejas plūsmas tiek novērtētas atbilstoši krājumu ieejas plūsmu vidējai vērtībai katrā atsevišķā dienā krājumu slēgšanas perioda laikā. 
 
-Veicot krājumu slēgšanu, izmantojot svērto vidējo uz datumu, visas dienas ieejas plūsmas tiek segtas ar virtuālu izejas plūsmu. Šī virtuālā izejas plūsma satur kopējo ieejas plūsmas daudzumu un vērtību šajā dienā. Virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, ar ko tiks segta izejas plūsma. Tāpēc visām izejas plūsmām ir vienādas vidējās izmaksas. Virtuālo izejas plūsmu un virtuālo ieejas plūsmu var uzskatīt par virtuālu pārsūtīšanu, ko sauc par *svērtā vidējā krājumu slēgšanas pārsūtīšanu*. 
+Veicot krājumu slēgšanu, izmantojot svērto vidējo uz datumu, visas dienas ieejas plūsmas tiek segtas ar virtuālu izejas plūsmu. Šī virtuālā izejas plūsma satur kopējo ieejas plūsmas daudzumu un vērtību šajā dienā. Virtuālajai izejas plūsmai ir atbilstoša virtuālā ieejas plūsma, ar ko tiks segta izejas plūsma. Tāpēc visām izejas plūsmām ir vienādas vidējās izmaksas. Virtuālo izejas plūsmu un virtuālo ieejas plūsmu var uzskatīt par virtuālu pārsūtīšanu, ko sauc par *svērto vidējā krājumu slēgšanas pārsūtīšanu*. 
 
 Ja konkrētajā datumā vai pirms tā ir bijusi tikai viena ieejas plūsma, vidējā vērtība nav jāaprēķina. Tā kā visas izejas plūsmas tiek segtas ar šo ieejas plūsmu, virtuālā pārsūtīšana netiek izveidota. Tāpat, ja konkrētajā datumā ir bijušas tikai izejas plūsmas un nav bijusi neviena ieejas plūsma, no kā var aprēķināt vidējo vērtību, virtuālā pārsūtīšana netiek izveidota. Ja izmantojat svērto vidējo uz datumu, varat iezīmēt krājumu transakcijas, lai noteikta krājumu ieejas plūsma tiktu segta ar noteiktu izejas plūsmu. Šādā gadījumā netiek izmantota svērtā vidējā uz datumu kārtula. Ja izmantojat svērtā vidējā datuma krājumu modeli, ieteicama ikmēneša krājumu slēgšana. 
 
@@ -51,7 +50,7 @@ Krājumu izejas plūsmas transakcijas, piemēram, pārdošanas pasūtījumi, kr�
 
 Segšanas ir krājuma slēgšanas iegrāmatojumi, kuri koriģē izdošanas pēc svērtā vidējā saskaņā ar slēgšanas datumu. 
 
-**Piezīme.** Papildinformāciju par segšanu skatiet rakstā par krājumu slēgšanu. Tālāk sniegtajos piemēros ir parādīta ietekme, ko rada svērtā vidējā izmantošana piecās konfigurācijās.
+**Piezīme:** Papildinformāciju par segšanu skatiet rakstā par krājumu slēgšanu. Tālāk sniegtajos piemēros ir parādīta ietekme, ko rada svērtā vidējā izmantošana piecās konfigurācijās.
 
 -   Svērtā vidējā uz datumu tiešā segšana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**
 -   Svērtā vidējā uz datumu apkopotā segšana, ja netiek izmantota opcija **Iekļaut fizisko vērtību**
@@ -196,6 +195,3 @@ Jauna pašreizēja vidējā izmaksu cena attēlo finansiāli vai fiziski atjauni
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
