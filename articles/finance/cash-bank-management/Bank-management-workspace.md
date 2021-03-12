@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 7fcb56440adf86194e9ae05957349dd5ebe89ce7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4445774"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985490"
 ---
 # <a name="bank-management-workspace"></a>Bankas pārvaldības darbvieta
 
@@ -64,6 +63,3 @@ Lapā **Analīze** ir sniegti svarīgi rādītāji par pašreizējā uzņēmuma 
 -   Bilance pēc valūtas
 
 Darbvietā **Naudas pārskats — visi uzņēmumi** varat skatīt bankas informācijas analīzi par visiem uzņēmumiem. Plašāku informāciju skatiet sadaļā [Skaidras naudas pārskata Power BI saturs](Cash-Overview-Power-BI-content.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

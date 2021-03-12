@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4433223"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983854"
 ---
 # <a name="troubleshoot-cost-management"></a>Ar izmaksām saistīto problēmu novēršanas pārvaldība
 
@@ -63,5 +62,22 @@ Lūdzu, neaizmirstiet izpildīt krājumu slēgšanu kā %3 (31-01-2019), kas atb
 
 **Krājumu vecumstruktūru pārskats** rāda dažādas vērtības, ja tās tiek apskatītas dažādās noliktavas dimensijās (piemēram, vietnē vai noliktavā). Lai iegūtu papildu informāciju par pārskata loģiku, skatiet [Krājumu vecumstruktūru pārskata piemēri un loģika](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Atjaunināšanas konflikts rodas, kad krājumu novērtēšanas metode ir Standarta izmaksas vai Pārvieto vidējo vērtību
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Ja grāmatojat dokumentus, piemēram, krājumu žurnālus, pirkšanas pasūtījuma rēķinus vai pārdošanas pasūtījuma rēķinus paralēli mērogošanai un veiktspējai, var tikt parādīts kļūdas ziņojums par atjauninājumu konfliktu un daži dokumenti, iespējams, netiks grāmatoti. Šī problēma rodas, kad krājumu novērtēšanas metode ir *Standarta izmaksas* vai *Pārvieto vidējo vērtību*. Abas šīs metodes ir pastāvīgas izmaksu aprēķināšanas metodes. Citiem vārdiem sakot, gala izmaksas tiek noteiktas iegrāmatošanas laikā.
+
+Ja izmantojat metodi *Pārvieto vidējo*, kļūdas ziņojums ir līdzīgs šim piemēram:
+
+> Krājumu vērtība xx.xx nav paredzama pēc proporcionālo izdevumu aprēķina
+
+Ja izmantojat metodi *Standarta izmaksas*, kļūdas ziņojums ir līdzīgs šim piemēram:
+
+> Standarta izmaksas nesakrīt ar finanšu krājumu vērtību pēc atjaunināšanas. Vērtība = xx.xx, Daudzums = yy.yy, Standarta izmaksas = zz.zz
+
+Kamēr Microsoft nav izlaidis risinājumu problēmas atrisināšanai, apsveriet iespēju izmantot šādus risinājumus, lai palīdzētu izvairīties no šīm kļūdām vai tās samazināt:
+
+- Neizdevušos dokumentu atkārtota grāmatošana.
+- Izveidojiet dokumentus, kam ir mazāk rindu.
+- Izvairieties no decimālvērtībām standarta izmaksās. Mēģiniet definēt standarta izmaksas tā, lai lauks **Cenas daudzums** būtu iestatīts uz *1*. Ja ir jānorāda **Cenas daudzuma** vērtība, kas pārsniedz *1*, mēģiniet samazināt decimāldaļu skaitu vienības standarta izmaksās. (Ideālā gadījumā jābūt mazāk nekā diviem decimāldaļskaitļiem.) Piemēram, izvairieties no standarta izmaksu iestatījumu definēšanas, piemēram, **Cena** = *10* un **Cenas daudzums** = *3* cenas, jo tie ražos vienības standarta izmaksas 3.333333 (kur decimālskaitļa vērtība atkārtojas).
+- Lielākajā daļā dokumentu izvairīties no vairākām rindām, kurās ir viena un tā pati preču un finanšu krājumu dimensiju kombinācija.
+- Samaziniet paralēlošanas pakāpi. (Šādā gadījumā sistēma var kļūt ātrāka, jo notiek mazāk atjauninājumu konfliktu un mēģinājumu.)

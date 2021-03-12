@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528748"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984988"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Apmācību katalogs Dynamics 365 Finance izstrādātājiem
 
@@ -49,8 +48,8 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Finance and Operations: Paplašināšana Dynamics 365 for Finance and Operations ar PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Izprast Microsoft PowerApps vienkāršību un kā to var integrēt ar Dynamics 365 for Finance and Operations, lai digitāli pārveidotu uzņēmumus un palielinātu lietotāju produktivitāti. | Tīmekļa konferences brīva ierakstīšana | 43 minūtes |
 | [Finance and Operations: Paplašināmība (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Mēs nodrošināsim pārskatu un atjauninājumus Microsoft paplašināšanas plāniem. Mēs detalizēti apspriedīsim dažādas risinājumu paplašināšanas veidus, kārtīgi apskatot metadatu paplašināšanas līdzekļus, kā arī iespēju paaugstināt un paplašināt kodu, tostarp izmantojot jaudīgo komandu ķēdes funkciju. | Tīmekļa konferences brīva ierakstīšana | 50 minūtes |
 | [Visual Studio Team Services (VSTS) iestatīšana (VIR782PAL)](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Šī Tech Talk veiks nepieciešamos soļus, lai konfigurētu VSTS instanci un projektu, lai veidotu savienojuma ar LCS ieviešanas projektu Dev/Test vides konfigurācijai. | Tīmekļa konferences brīva ierakstīšana | 41 minūtes |
-| [CDS datu integrētājs (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Lūdzu, pievienojies mums šai tech talk par Common Data Service (CDS) datu integratora iespējām. Tiks aplūkotas integrācijas opcijas starp Dynamics 365 Customer Engagement un Dynamics 365 Finance and Operations, kā arī integrēšanu ar citiem trešās puses risinājumiem. | Tīmekļa konferences brīva ierakstīšana | 61 minūtes |
-| [Integrācija starp Dynamics 365 for Sales un Dynamics 365 for Finance & Operations, izmantojot CDS (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Šajā Tech Talk mēs iepazīstināsim ar integrācijas scenāriju, kas tiek saukts par Prospect to cash, ar pārdošanas un mārketinga aktivitātēm Dynamics 365 for Sales un Dynamics 365 for Finance and Operationspiepildīšanu. Mēs arī aplūkosim datu integratoru un to, kā modificēt integrāciju. | Tīmekļa konferences brīva ierakstīšana | 54 minūtes |
+| [Dataverse Datu integrētājs (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Lūdzu, pievienojies mums šai Tech Talk par Dataverse datu integratora iespējām. Tiks aplūkotas integrācijas opcijas starp Dynamics 365 Customer Engagement un Dynamics 365 Finance and Operations, kā arī integrēšanu ar citiem trešās puses risinājumiem. | Tīmekļa konferences brīva ierakstīšana | 61 minūtes |
+| [Integrācija starp Dynamics 365 for Sales un Dynamics 365 for Finance & Operations, izmantojot Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Šajā Tech Talk mēs iepazīstināsim ar integrācijas scenāriju, kas tiek saukts par Prospect to cash, ar pārdošanas un mārketinga aktivitātēm Dynamics 365 for Sales un Dynamics 365 for Finance and Operationspiepildīšanu. Mēs arī aplūkosim datu integratoru un to, kā modificēt integrāciju. | Tīmekļa konferences brīva ierakstīšana | 54 minūtes |
 | [Datu pārvaldība (DYN757PAL2)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Lūdzu, pievienojies mums šai Tech Talk par datu pārvaldību. Uzziniet par pieejamām opcijām un tiem paredzētajiem scenārijiem. Mēs apspriedīsim Datu pārvaldības struktūru, veidnes, datu bāzes kopēšanu, starpuzņēmumu datu koplietošanas un veiktspējas apsvērumus. | Tīmekļa konferences brīva ierakstīšana | 58 minūtes |
 | [Azure integrācijas rīki programmatūrai Dynamics 365 for Finance and Operations (DYN386PAL)](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Šajā TechTalk tiks apskatīti rīku veidi, kurus varētu apsvērt, integrējoties programmā Dynamics 365 Finance & Operations un apskatīsim, kad izvēlēties konkrētu integrācijas rīku. Sesijas gaitā mēs iziesim cauri dažiem integrācijas scenārijiem, kas tiek organizēti, izmantojot Azure integrācijas pakalpojumus. | Tīmekļa konferences brīva ierakstīšana | 63 minūtes |
 | [Integrācijas struktūra programmatūrā Dynamics 365 for Finance & Operations (DYN385PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | Šī sesija sniegs pārskatu par Dynamics 365 for Finance & Operations integrācijas struktūru un apspriedīs atlīdzību, saskaņā ar kuru šīs struktūras varētu izmantot. | Tīmekļa konferences brīva ierakstīšana | 64 minūtes |
@@ -94,6 +93,3 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | Saturs | apraksts  | Formāts  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Eksāmens MB-500: Microsoft Dynamics 365: Finance and Operations programmu izstrādātājs](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Šis eksāmens novērtē jūsu spēju veikt šādus tehniskos uzdevumus: plānot arhitektūras un risinājuma dizainu, izmantot izstrādātāja rīkus, izveidot un izstrādāt AOT elementus, izstrādāt un pārbaudīt kodu, ieviest pārskatu, integrēt un pārvaldīt datu risinājumus, ieviest drošību un optimizēt veiktspēju. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

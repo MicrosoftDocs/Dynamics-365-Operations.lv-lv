@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432963"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983345"
 ---
 # <a name="set-up-hazardous-materials"></a>Bīstamo materiālu iestatīšana
 
@@ -284,6 +283,3 @@ Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informāci
 *Bīstamo materiālu tuneļa* specifikācija ierobežo tuneļu tipus, caur kuriem var transportēt bīstamos materiālus, identificējot izmantojamo tuneļu tipus. Tuneļu kategorijas ir izveidotas ar piemērojamiem noteikumiem par bīstamo materiālu transportu. Šī specifikācija parasti attiecas tikai uz ceļu transportu.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu tunelis**. Lapā **Bīstamo materiālu tunelis** varat izveidot jebkādu tuneļu identifikatoru skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

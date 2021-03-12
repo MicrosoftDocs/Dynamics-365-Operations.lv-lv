@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3741
 ms.assetid: c25f9d85-2702-46aa-8e61-0b4886e069b3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 139fb4fdb7d4f8034bff5e9668dc794f29fb327e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9d4f6d5bdf4f2fdc4529d9f51515ed2ac4b5b3b5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445732"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985316"
 ---
 # <a name="cash-discounts"></a>Termiņatlaides
 
@@ -66,6 +65,3 @@ Rēķins par 1000 USD ar termiņatlaides nosacījumiem 20D2% tiek grāmatots 15
 > [!NOTE]
 > Ja lapā Debitoru moduļa parametri vai Kreditoru moduļa parametri ir atlasīta opcija Aprēķināt termiņatlaides daļējiem maksājumiem, tiek izmantots valūtas maiņas kurss, kas ir spēkā katra daļējā maksājuma datumā. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

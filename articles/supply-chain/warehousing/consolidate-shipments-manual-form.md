@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ac60bef797d8e0bbe0d20f1585d5c3c0163f8788
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e580253de0d787b721c2f729ecc96db56b91af0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432544"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983019"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Manuāli konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas lapu
 
@@ -98,5 +97,3 @@ Sekojiet šiem soļiem, lai izlaistu pārdošanas pasūtījumu, ko izveidojāt �
 
 - [Sūtījumu konsolidācijas politikas](about-shipment-consolidation-policies.md)
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432751"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983573"
 ---
 # <a name="approve-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -43,6 +42,3 @@ Lauks **Statuss** palīdz izlīdzināt jūsu progresu, izmantojot tālāk norād
 - **Apstiprināts:** Ja vēlaties saglabāt labojumus vai plānojat apstiprināt plānoto pasūtījumu, mainiet statusu uz *Apstiprināts*. Plānotos pasūtījumus ar statusu *Apstiprināts* tiek uzskatīti par fiksētiem un paredzamiem galvenās plānošanas pakalpojumiem, tāpēc tie netiek modificēti vai izdzēsti vēlāku vispārējās plānošanas palaišanu laikā. Lai to sasniegtu, plānošanas loģika kopē *Apstiprinātos* plānotos pasūtījumus no vecās plāna versijas uz jauno plāna versiju vispārējās plānošanas laikā. Ņemiet vērā, ka *Apstiprinātie* plānotie pasūtījumi tiek uzskatīti par piegādēm tikai noteiktajā galvenājā plānā.
 
 Plānotos pasūtījumus var pārvaldīt no darbvietas  **Vispārējā plānošana**  , saraksta  **Plānotais pasūtījums**  vai saraksta  **Plānotie ražošanas pasūtījumi**,  **Plānotie pirkšanas pasūtījumi** un  **Plānotā pārsūtīšana**  .
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

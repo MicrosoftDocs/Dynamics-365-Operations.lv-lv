@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433078"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983172"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automātisks maksu sadalījums
 
@@ -34,7 +33,7 @@ Automātiskās maksas vai auto maksas tiek piemērotas automātiski, veidojot p�
 
 Lai piešķirtu maksas, vispirms ir jādefinē maksu kodi.
 
-1. Izpildiet kādu no norādītajām transakcijām.
+1. Izpildiet kādu no šīm darbībām:
 
     - Pirkšanas pasūtījumiem: dodieties uz **Kreditori \> Maksu iestatīšana \> Maksas kodi**.
     - Pārdošanas pasūtījumiem: dodieties uz **Debitori \> Maksu iestatīšana \> Maksas kodi**.
@@ -51,7 +50,7 @@ Lai piešķirtu maksas, vispirms ir jādefinē maksu kodi.
         > [!NOTE]
         > Lai ieslēgtu funkcionalitāti pirkšanas pasūtījumu maksu validēšanai, dodieties uz **Kreditori \> Iestatījumi \> Kreditoru parametri**. Sadaļas **Rēķina validācija** kopsavilkuma cilnē **Rēķina validācija** iestatiet opciju **Iespējot rēķinu salīdzināšanas validāciju** uz *Jā*.
 
-1. Kopsavilkuma cilnē **Grāmatošana** ietilpst sadaļas **Debets** un **Kredīts**. Atkarībā no Virsgrāmatas, kurā vēlaties grāmatot maksas, iestatiet tālāk norādītos laukus.
+1. Kopsavilkuma cilnē **Grāmatošana** ietilpst sadaļas **Debets** un **Kredīts**. Atkarībā no Virsgrāmatas, kurā vēlaties grāmatot maksas, iestatiet šādus laukus:
 
     - **Veids** — atlasiet konta veidu, kurā grāmatojat (*Virsgrāmata*, *Debitors* vai *Krājums*).
     - **Grāmatošana** — atlasiet veidojamo grāmatojumu veidu (piemēram, *Starpnieka maksa* vai *Debitora norēķini*).
@@ -68,7 +67,7 @@ Maksu grupas automātiski piešķir noteiktas maksas debitoru vai kreditoru grup
 Lai izveidotu maksu grupas pirkšanas pasūtījumiem, veiciet tālāk norādītās darbības.
 
 1. Doties uz **Kreditori \> Maksu iestatīšana \> Kreditoru maksu grupa**.
-1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet tālāk norādītos laukus.
+1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet šos laukus:
 
     - **Maksu grupa** — ievadiet maksu grupas nosaukumu.
     - **Apraksts** — ievadiet maksu grupas aprakstu.
@@ -82,7 +81,7 @@ Lai izveidotu maksu grupas pirkšanas pasūtījumiem, veiciet tālāk norādīt�
 Lai izveidotu maksu grupas pārdošanas pasūtījumiem, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Debitori \> Maksu iestatīšana \> Debitora maksu grupas**.
-1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet tālāk norādītos laukus.
+1. Darbību rūtī atlasiet **Jauns**, lai pievienotu rindu režģim, un pēc tam atlasiet šos laukus:
 
     - **Maksu grupa** — ievadiet maksu grupas nosaukumu.
     - **Apraksts** — ievadiet maksu grupas aprakstu.
@@ -95,7 +94,7 @@ Lai izveidotu maksu grupas pārdošanas pasūtījumiem, veiciet tālāk norādī
 
 Pēc maksu kodu iestatīšanas veiciet tālāk norādītās darbības, lai definētu automātiskās maksas.
 
-1. Izpildiet kādu no norādītajām transakcijām.
+1. Izpildiet kādu no šīm darbībām:
 
     - Pirkšanas pasūtījumiem: dodieties uz **Sagāde un avoti \> Iestatījumi \> Maksas \> Automātiskās maksas**.
     - Pārdošanas pasūtījumiem: dodieties uz **Debitori \> Setup \> Maksu iestatīšana \> Automātiskās maksas**.
@@ -127,11 +126,11 @@ Pēc maksu kodu iestatīšanas veiciet tālāk norādītās darbības, lai defin
     - *Viss* — piešķirt maksas visiem piegādes veidiem.
 
 1. **Tikai pārdošanas pasūtījumiem:** laukā **Piegādes veida relācija** atlasiet konkrētu piegādes veidu, ja iestatāt lauku **Piegādes veida kods** uz *Tabula*. Ja iestatāt lauku **Piegādes veida kods** uz *Grupa*, atlasiet piegādes veida grupu.
-1. Kopsavilkuma cilnē **Rindas** definējiet maksas un maksu likmes, kas tiks izmantotas, piemērojot pašreizējo automātisko maksu. Varat izmantot rīkjoslu šajā kopsavilkuma cilnē, lai pievienotu tik daudz rindu, cik nepieciešams. Katrai rindai iestatiet tālāk norādītos laukus.
+1. Kopsavilkuma cilnē **Rindas** definējiet maksas un maksu likmes, kas tiks izmantotas, piemērojot pašreizējo automātisko maksu. Varat izmantot rīkjoslu šajā kopsavilkuma cilnē, lai pievienotu tik daudz rindu, cik nepieciešams. Katrai rindai iestatiet šādus laukus:
 
     - **Valūta** — atlasiet valūtu, kas jāizmanto maksas aprēķināšanai.
     - **Maksu kodu** — atlasiet maksas kodu.
-    - **Kategorija** — atlasiet vienu no tālāk norādītajām vērtībām.
+    - **Kategorija** — atlasiet vienu no šīm vērtībām:
 
         - *Fiksēta* — maksa tiek ievadīta kā fiksēta summa rindā. Fiksētās maksas var izmantot maksām gan pasūtījuma galvenē, gan pasūtījuma rindās.
         - *Gabali* — maksa, pamatojoties uz vienību. Šīs maksas var izmantot tikai pasūtījuma rindās. Tās parādīsies, kad tiks aprēķināta pasūtījuma kopsumma.
@@ -154,7 +153,7 @@ Pēc maksu kodu iestatīšanas veiciet tālāk norādītās darbības, lai defin
 Procedūrā zemāk ir parādīts, kā piešķirt galvenes līmeņa maksas rindai. Pirms sākat šo procedūru, jums jau ir jābūt *fiksētas summas* veida galvenes līmeņa maksai un pasūtījumam, kur šī maksa tiek piemērota. Turklāt pasūtījumā jau ir jābūt vismaz vienam rindas krājumam.
 
 1. Atveriet pirkšanas pasūtījumu vai maksas pasūtījumu.
-1. Darbību rūtī veiciet vienu no tālāk norādītajām darbībām.
+1. Darbību rūtī veiciet vienu no šīm darbībām:
 
     - Pirkšanas pasūtījumiem: cilnē **Pirkšana**, kas atrodas grupā **Maksas**, atlasiet **Piešķirt maksas**.
     - Pārdošanas pasūtījumiem: cilnē **Pārdošana**, kas atrodas grupā **Maksas**, atlasiet **Piešķirt maksas**.
@@ -177,6 +176,3 @@ Procedūrā zemāk ir parādīts, kā piešķirt galvenes līmeņa maksas rindai
         > Strādājot ar režģi **Izvēlēties rindas, ko izslēgt no sadalījuma**, noteikti atstājiet režģi atvērtu, līdz atlasāt **Piešķirt**. Ja aizvērsit režģi, pirms atlasāt **Piešķirt**, iestatījumi režģī tiks zaudēti. Tāpēc maksas tiks piešķirtas, pamatojoties uz iepriekš definētajiem kritērijiem.
 
 1. Atlasiet **Piešķirt**, lai iestatījumus piemērotu un aizvērtu dialoglodziņu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
