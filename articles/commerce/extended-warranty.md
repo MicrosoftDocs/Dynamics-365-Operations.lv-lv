@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413941"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965123"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Paplašināto garantiju izveide un konfigurēšana
 
@@ -142,7 +141,7 @@ Garantijas grupa ir saistības starp garantijas precēm un garantējamajām prec
 
 Lai iestatītu garantijas grupas piešķiri Commerce, veiciet tālāk norādītās darbības.
 
-1. Pārejiet uz **Mazumtirdzniecība un tirdzniecība \> Preces un kategorijas \> Garantija \> Garantijas grupas**.
+1. Pārejiet uz **Mazumtirdzniecība un tirdzniecība \> Preces un kategorijas \> Garantija \> Garantijas grupas**.
 1. Atlasiet **Jauns**, lai izveidotu garantijas grupu.
 1. Laukā **Nosaukums** ievadiet jaunās grupas nosaukumu.
 1. Kopsavilkuma cilnē **Vispārīgi** laukā **Apraksts** ievadiet grupas aprakstu.
@@ -239,6 +238,3 @@ Garantija ir pakalpojums, kas tiek sniegts konkrētai, unikālai precei. Dynamic
 [Preču klāstu iestatīšana](set-up-assortments.md)
 
 [Pārskats par numuru sērijām](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

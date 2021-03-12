@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645438"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965556"
 ---
 # <a name="outbound-workload-visualization"></a>Izejošās darba slodzes vizualizācija
 
@@ -98,6 +97,3 @@ Tālāk redzamajā attēlā ir parādīts iegūtās diagrammas piemērs.
 ![Zona pret darba statusa vizualizāciju](media/work-viz-chart.png "Zona pret darba statusa vizualizāciju")
 
 Šajā diagrammā tiek rādītas divas zonas ar nosaukumu **GRĪDA** un **LIELAPJOMA**, kā arī zona ar nosaukumu **Tukšs**. **Tukšajā** zonā attēlotas visas darba rindas, kas nav nevienas zonas dalībnieki. Diagramma vienmēr parāda visus nesaistītos filtrētos datus kā **Tukšus**, lai nodrošinātu pēc iespējas lielāku redzamību. **GRĪDAS** zonā diagramma rāda trīs slēgtas rindas un četras atvērtās rindas. **LIELAPJOMA** zonā diagramma rāda četras slēgtas rindas, vienu atvērtu rindu un 24 atceltās rindas. Visbeidzot diagramma rāda astoņas slēgtas rindas, kas nav daļa no nevienas zonas, tāpēc ir uzskaitītas kā **Tukšas**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

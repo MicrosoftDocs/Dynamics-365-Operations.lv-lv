@@ -1,6 +1,6 @@
 ---
 title: No aktivitātēm atkarīgu apakšlīgumu slēgšana
-description: Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
+description: Šajā tēmā ir detalizēti aprakstīts, kā lean ražošanas procesā izmantot ražošanas plūsmā izmantot apakšlīgumā paredzētās aktivitātes.
 author: cvocph
 manager: tfehr
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule, PlanActivityServiceDetails, PlanActivityServiceWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,25 +18,25 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48a1943833408767fe77456f66bbe109170a29e2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 010b934821eaf04dc93d803d03a8fbd198de91a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966534"
 ---
 # <a name="activity-based-subcontracting"></a>No aktivitātēm atkarīgu apakšlīgumu slēgšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir detalizēti aprakstīts, kā lean manufacturing ražošanas plūsmā izmantot apakšlīgumā paredzētas aktivitātes.
+Šajā tēmā ir detalizēti aprakstīts, kā lean ražošanas procesā izmantot ražošanas plūsmā apakšlīgumā paredzētas aktivitātes.
 
-Programmā Microsoft Dynamics 365 Supply Chain Management ir pieejamas divas apakšlīgumu slēgšanas metodes: ražošanas pasūtījumi un lean manufacturing. Ja izmantojat lean manufacturing metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean manufacturing izmaksu aprēķināšanas risinājumā.
+Programmā Microsoft Dynamics 365 Supply Chain Management ir pieejamas divas apakšlīgumu slēgšanas metodes: ražošanas pasūtījumi un lean ražošanas process. Ja izmantojat lean ražošanas procesa metodi, tad apakšlīgumā paredzētais darbs tiek modelēts kā pakalpojums, kas ir saistīts ar kādu ražošanas plūsmas aktivitāti. Ir ieviests īpašs izmaksu grupas tips ar nosaukumu **Tiešie ārpakalpojumi**, un šādi apakšlīgumā paredzētie pakalpojumi vairs neveido daļu no materiālu komplektiem (MK). Apakšlīgumā paredzēto darbu izmaksu uzskaite ir pilnīgi integrēta lean ražošanas procesa izmaksu aprēķināšanas risinājumā.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Ražošanas plūsmas, kurās piedalās apakšuzņēmēji
 Ja par kādām aktivitātēm ir noslēgts apakšlīgums, ražošanas plūsmas pamatprincipi nemainās. Joprojām notiek materiālu plūsma starp novietojumiem, procesa aktivitātes materiālus pārvērš par precēm un pārsūtīšanas aktivitātes materiālus vai preces pārvieto no viena novietojuma uz citu. Novietojumus un darba šūnas varat modelēt kā kreditora pārvaldītas, piešķirot kreditora kontu kādai noliktavai vai kādam resursu grupas resursam.  
 
-Pamatojoties uz šīm iespējām, lean manufacturing izmantošanai nav nepieciešami nekādi specifiski līdzekļi, lai atbalstītu materiālu un preču plūsmu. Visus iespējamos scenārijus, kuros kreditori ir iesaistīti kā ražošanas vai transportēšanas pakalpojumu nodrošinātāji, var modelēt, pamatojoties uz ražošanas plūsmas un aktivitāšu arhitektūru.  
+Pamatojoties uz šīm iespējām, lean ražošanas procesa izmantošanai nav nepieciešami nekādi specifiski līdzekļi, lai atbalstītu materiālu un preču plūsmu. Visus iespējamos scenārijus, kuros kreditori ir iesaistīti kā ražošanas vai transportēšanas pakalpojumu nodrošinātāji, var modelēt, pamatojoties uz ražošanas plūsmas un aktivitāšu arhitektūru.  
 
 Piemēram, kāds apakšuzņēmējs strādā ārpus lielveikala, kurš atrodas pie šī apakšuzņēmēja. Kad pie šī apakšuzņēmēja tiek iztukšotas materiālu apstrādes vienības, Kanban kartes tiek atgrieztas uz komplektēšanas šūnu kopā ar nākamo sūtījumu. Pēc tam lielveikals pie apakšuzņēmēja tiek papildināts. Pārsūtīšanu apakšuzņēmējam un no tā var modelēt kā skaidras pārsūtīšanas aktivitātes, lai tiktu atbalstīts izdošanas un nosūtīšanas process. Ja nav nepieciešama skaidra reģistrēšana, lai atbalstītu fizisko transportēšanu, tad pārsūtīšanas aktivitātes var nelietot.  
 
@@ -88,24 +87,21 @@ Attiecībā uz procesa aktivitātēm lapas **Detalizēta informācija par** **ak
 ## <a name="service-quantity-calculation"></a>Pakalpojuma daudzuma aprēķins
 Viss pirkšanas process ir balstīts uz krājuma atsauci kādam pakalpojumam. Šī krājuma atsauce tiek mērīta pakalpojuma mērvienībās. Parasti pakalpojumu daudzums tiek izteikts kā pakalpojumu skaits (vienības) vai laiks. Lai aprēķinātu pakalpojuma daudzumu, pamatojoties uz reģistrēto Kanban darbu pabeigšanu, varat izmantot tālāk aprakstītās metodes.
 
--   **No darbu skaita atkarīgais aprēķins** – viens Kanban darbs ir vienāds ar *n* pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Ja izmantojat lean manufacturing, tad viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
+-   **No darbu skaita atkarīgais aprēķins** – viens Kanban darbs ir vienāds ar *n* pakalpojuma vienībām neatkarīgi no piegādātā preču daudzuma. Lean ražošanas procesā viens darbs atbilst vienai materiālu apstrādes vienībai. Šī aprēķināšanas metode attiecas uz visiem pakalpojumiem, kam ir fiksēta cena par materiālu apstrādes vienību. Tādēļ šī metode parasti attiecas uz pārsūtīšanas aktivitātēm. Taču to var lietot arī tādu aktivitāšu apstrādāšanai, kurās tiek apstrādātas veselas materiālu apstrādes vienības.
 -   **No preču daudzuma atkarīgais aprēķins** – pakalpojuma daudzums tiek izteikts relatīvi pret plānoto/piegādāto preču daudzumu. Kad ir aprēķināts piegādāto preču daudzums, kļūdainos daudzumus var iekļaut vai izslēgt. Šī aprēķināšanas metode attiecas uz visiem gadījumiem, kad pastāv vienošanās par pakalpojuma cenu par apstrādātās preces vienību.
 -   **No aktivitātes laika atkarīgais aprēķins** – teorētiskie aktivitātes laiki tiek aprēķināti, pamatojoties uz aktivitātes apstrādāšanas laiku, kopējo apstrādāto daudzumu un apstrādātās preces caurlaides koeficientu. Šī aprēķināšanas metode attiecas uz pakalpojumiem, kas tiek apmaksāti pēc stundu skaita un kam pastāv novirze attiecībā uz apstrādātās preces laiku.
 
 ## <a name="cost-accounting-of-subcontracted-services"></a>Apakšlīgumā paredzēto pakalpojumu izmaksu uzskaite
 Kad ir grāmatots ieejas plūsmas paziņojums vai kreditora pavadzīme par ražošanas plūsmai izveidotu pirkšanas pasūtījumu (citiem vārdiem — pirkšanas pasūtījums, kas bija ģenerēts, pamatojoties uz Kanban darbiem apakšlīgumā paredzētām aktivitātēm), tad ieejas plūsmas vērtība tiek iekļauta ražošanas plūsmas NP kontos. Arī rēķinu novirzes tiek iekļautas šajā ražošanas plūsmā. Ir ieviesta izmaksu kategorija apakšlīgumā paredzētam darbam. Šī izmaksu kategorija nodrošina caurskatāmu izsekošanu par apakšlīgumā paredzētā darba vērtību tādiem darbiem, kas ir piešķirti NP un tiek patērēti periodā.  
 
-Atgriezeniska izmaksu aprēķināšana attiecībā uz lean manufacturing izmaksu aprēķināšanas perioda beigās aprēķina faktiskās novirzes precēm, kas attiecīgajā izmaksu aprēķināšanas periodā ir saražotas no ražošanas plūsmas.
+Atgriezeniska izmaksu aprēķināšana attiecībā uz lean ražošanas procesa izmaksu aprēķināšanas perioda beigās aprēķina faktiskās novirzes precēm, kas attiecīgajā izmaksu aprēķināšanas periodā ir saražotas no ražošanas plūsmas.
 
 ## <a name="modeling-transfers-as-subcontracted-activities"></a>Pārsūtīšanu kā apakšlīgumā paredzēto aktivitāšu modelēšana
 Bieži vien ļaudis uzskata, ka transportēšana nav produktīva un nevairo nekādu vērtību. Taču kad apakšlīgumu slēgšanas izmaksas salīdzina ar iekšējās ražošanas izmaksām, ir jāņem vērā transportēšanas aktivitāšu papildu izmaksas. Ražošanas plūsmai, kas aptver vairākas atrašanās vietas un kurai ir nepieciešami transportēšanas pakalpojumi, transportēšanas izmaksas ir jāmodelē kā daļa no izmaksām par preču piegādi klientam. 
 
-Kad izmantojat lean manufacturing, no aktivitātēm atkarīga apakšlīgumu slēgšana jums ļauj integrēt pārvadātājus un transporta kreditorus, kuri materiālus un preces pārvieto starp atrašanās vietām ražošanas plūsmā. Modelējot transportēšanas aktivitāti, varat piešķirt pārvadātāju vai kreditoru. Pārsūtīšanas aktivitātes/darbs ir atkarīgs no pakalpojuma un pirkšanas līguma, un pirkšanas pasūtījumus un ieejas plūsmas paziņojumus varat izveidot, pamatojoties uz faktiskajiem pārsūtīšanas darbiem. Šī funkcionalitāte ir tāda pati kā funkcionalitāte apakšlīgumā paredzētajām procesa aktivitātēm.  
+Izmantojot lean ražošanas procesu, no aktivitātēm atkarīga apakšlīgumu slēgšana jums ļauj integrēt pārvadātājus un transporta kreditorus, kuri materiālus un preces pārvieto starp atrašanās vietām ražošanas plūsmā. Modelējot transportēšanas aktivitāti, varat piešķirt pārvadātāju vai kreditoru. Pārsūtīšanas aktivitātes/darbs ir atkarīgs no pakalpojuma un pirkšanas līguma, un pirkšanas pasūtījumus un ieejas plūsmas paziņojumus varat izveidot, pamatojoties uz faktiskajiem pārsūtīšanas darbiem. Šī funkcionalitāte ir tāda pati kā funkcionalitāte apakšlīgumā paredzētajām procesa aktivitātēm.  
 
 Supply Chain Management tagad atbalsta MK aprēķinu, kas ietver transportēšanas pakalpojumus, saistīto pirkšanas pasūtījumu izveidi, integrētu ieejas plūsmas reģistrēšanu un transportēšanas pakalpojumu izmaksu integrēšanu ražošanas plūsmas izmaksu aprēķināšanā.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

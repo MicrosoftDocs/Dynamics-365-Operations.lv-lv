@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b14bebadd7088c9bbcfb6b1c5df1fe1a3c98694d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02c4994fe6df192937f92f0167a3127ff2a8a588
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432962"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966333"
 ---
 # <a name="phantom-items"></a>Fantoma krājumi
 
@@ -35,7 +34,7 @@ ms.locfileid: "4432962"
 
 Šajā attēlā ir redzams MK struktūras divos līmeņos piemērs. Pabeigtā prece H pārstāv iekārtas montāžai paredzētu preci. Iekārtas montāža ietver divas daļas, elektroiekārtu (F), kas ietver divus materiālus (A un B), un iepakojuma materiālu grupu (G), kas arī ietver divus materiālus (C un D). Iekārtas vispārējas montāžās laikā tiek izmantots cits materiāls (E).
 
-![Prece H un daļa F](media/product-H-part-B.png)
+![Prece H un F daļa](media/product-H-part-B.png)
 
 Iepriekšējā attēlā ir redzams preces H konstruēšanas MK. Šī struktūra sniedz labu pārskatu par vispārējās iekārtas montāžas daļām un komponentiem. Taču, lai gan preces izstrādātāji varētu vēlēties, lai MK tiek parādīts šādā veidā, šī struktūra var pareizi neatspoguļot viedu, kādā iekārta tiek būvēta ražošanas laikā. 
 
@@ -73,6 +72,3 @@ Fantoma MK var izmantot arī MK, kam ir maršruta tīkls. Maršruta tīklā vien
 Nākamajā attēlā (a) ir preces G un daļas F MK un (b) ir preces G un daļas F maršruta lapa.
 
 ![Prece G un daļa F ar maršruta lapām](media/product-G-part-F-with-route-sheet.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

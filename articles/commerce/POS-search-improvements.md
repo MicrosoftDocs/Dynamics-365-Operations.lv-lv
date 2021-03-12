@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413973"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965282"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -118,6 +117,3 @@ Gaidāmajā Commerce laidienā mazumtirgotāji kā noklusējuma debitora meklē�
 
 Lai palīdzētu novērst negaidītas veiktspējas problēmas, šī konfigurācija tiek slēpta aiz būvējumu izsniegšanas karodziņa ar nosaukumu **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Tādēļ, lai parādītu iestatījumu **Noklusējuma debitora meklēšanas režīms** lietotāja interfeisā (UI), mazumtirgotājam jāizveido atbalsta biļete tā lietotāju pieņemšanas pārbaudes (UAT) un ražošanas vidēm. Pēc tam, kad biļete ir saņemta, tehniskā grupa strādās ar mazumtirgotāju, lai pārliecinātos, ka mazumtirgotājs veic testēšanu vidēs, kas nav ražošanas vides, lai novērtētu veiktspēju un īstenotu visas nepieciešamās optimizācijas.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

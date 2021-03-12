@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 68f091cca9c3c2baa03813553127ee41abe6d522
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433233"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967236"
 ---
 # <a name="release-product-structures"></a>Izlaist preču struktūras
 
@@ -160,6 +159,3 @@ Preces īpašnieki zina, kurām juridiskām personām ir nepieciešamas savas pr
 Piemēram, prece X ir piešķirta *Dizaina skapju* preces īpašnieku grupai. Prece X arī ir daļa no preces Y MK, kas ir piešķirts *Dizaina skaļruņu* preces īpašnieku grupai. Ja lietotājs no *Dizaina skaļruņu* preces īpašnieku grupas atbrīvo produktu Y un tā MK, prece X tiks izlaista kopā ar preci Y.
 
 Papildinformāciju skatiet sadaļā [Preču īpašnieki](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

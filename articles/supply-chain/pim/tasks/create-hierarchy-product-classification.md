@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439df63a4f8f0cc1c030554d18f80e9934c88b00
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74be72ac5787273e13692abdb9db18be4c5ccc08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432780"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966959"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Preču klasifikācijas hierarhijas izveide
 
@@ -67,6 +66,3 @@ ms.locfileid: "4432780"
 8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 9. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

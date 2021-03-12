@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4433087"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966283"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Ierīces iestatīšana ražotnes izpildes interfeisa palaišanai
 
@@ -80,6 +79,3 @@ Attēla zemāk augšējā daļā ir parādīts, kā interfeiss izskatās pēc no
 Pēc noklusējuma ražotnes interfeiss automātiski izrakstās, ja neviens to neizmanto 12 stundu laikā. Supply Chain Management lietotājam pēc tam ir jāpierakstās no jauna. Taču taimauta ierobežojumu var pagarināt līdz 90 dienām.
 
 Lai pagarinātu taimauta ierobežojumu, pierakstieties programmā Supply Chain Management un dodieties uz **Sistēmas administrēšana \> Lietotāji \> Sesijas paplašinājumi**. Norādiet Supply Chain Management lietotāja kontu, kas tiek izmantots, lai pierakstītos ierīcē, un stundu skaitu, cik ilgi sesijai jāpaliek aktīvai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433234"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967262"
 ---
 # <a name="product-readiness"></a>Preces gatavība
 
@@ -148,6 +147,3 @@ Katrai rindai, kuru pievienojat, iestatiet tālāk norādītos laukus.
 | Anketa | Atlasiet anketu, kas jāizmanto kontrolsarakstam. Kontrolsaraksts ir vietējais kontrolsaraksts uzņēmumā, kur pabeigta gatavības pārbaude. Sistēmai ir jāvar novērtēt, vai kontrolsaraksts ir pareizi atbildēts. Tāpēc kontrolsaraksts ir jāiestata tā, lai novērtējums tiktu veikts, pamatojoties uz pareizām atbildēm. Papildinformāciju par to, kā izveidot anketas, skatiet [Anketu lietošana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) un ar to saistītās tēmas. |
 | Automātisks apstiprinājums | Gatavības pārbaudes ieraksti ietver izvēles rūtiņu **Apstiprināts**, kas norāda apstiprinājuma statusu. Atzīmējiet izvēles rūtiņu **Automātisks apstiprinājums** pārbaudēm, kas jāiestata uz apstiprināts uzreiz pēc tam, kad piešķirtais lietotājs tos pabeidz. Nodzēsiet šo izvēles rūtiņu, lai pieprasītu tiešu apstiprinājumu kā papildu darbību. |
 | Obligāts | Atzīmējiet šo izvēles rūtiņu pārbaudēm, kas jāaizpilda piešķirtajam lietotājam. Obligātās pārbaudes nevar izlaist. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

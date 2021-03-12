@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8e92759bd567a973a0d3bce7b8b99be1edbc0e1e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432764"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966384"
 ---
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir plaši paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbinātaisu reģistrācijām. Tēmā ir iekļauti piemēri, kas parāda, kā dažādas iestatījumu opciju kombinācijas, kas ir pieejamas aprēķināšanai, ietekmē rezultātu. Dažas no šajā tēmā aplūkotajām jomām:
+Šajā tēmā ir plaši paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbināto reģistrācijām. Tēmā ir iekļauti piemēri, kas parāda, kā dažādas iestatījumu opciju kombinācijas, kas ir pieejamas aprēķināšanai, ietekmē rezultātu. Dažas no šajā tēmā aplūkotajām jomām:
 
 - Brīvais režīms
 - Virsstundas
@@ -599,6 +598,3 @@ Ja nodarbinātais darbdienā neierodas darbā un šim nodarbinātajam nav nevien
 - Automātiski ievietot kavējumu
 
 Aprēķinot ikdienas reģistrācijas nodarbinātajam, kuram ir iespējots brīvā režīma laiks, kā noklusējuma kavējuma kods tiek izmantots laukā **Automātiski ievietot brīvo režīmu -** norādītais kavējuma kods. Ja nodarbinātajam nav iespējots brīvā režīma laiks, tiek izmantots laukā **Automātiski ievietot kavējumu** norādītais kavējuma kods. Ja uzņēmumā ir gan tādi nodarbinātie, kuriem ir iespējots brīvā režīma laiks, gan tādi nodarbinātie, kuriem nav iespējots brīvā režīma laiks, ir jāiestata abi parametri.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
