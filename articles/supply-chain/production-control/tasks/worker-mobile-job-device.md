@@ -11,60 +11,59 @@ ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ada42a98a8a87e377f939d063b17f9904f6b3408
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89b75936ea9c0f25f82175a1871088da8fd74ad6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432944"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980935"
 ---
-# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="c10f4-103">Nodarbinātā konfigurēšana, izmantojot mobilo darba ierīci</span><span class="sxs-lookup"><span data-stu-id="c10f4-103">Configure a worker using the mobile job device</span></span>
+# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="f0177-103">Nodarbinātā konfigurēšana, izmantojot mobilo darba ierīci</span><span class="sxs-lookup"><span data-stu-id="f0177-103">Configure a worker using the mobile job device</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c10f4-104">Šajā tēmā ir paskaidrots, kā piešķirt pareizas lomas darbinieka lietotāja kontam un pēc tam ļaut darbiniekam veikt ražotnes ražotnes reģistrācijas.</span><span class="sxs-lookup"><span data-stu-id="c10f4-104">This topic explains how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
+<span data-ttu-id="f0177-104">Šajā tēmā ir paskaidrots, kā piešķirt pareizas lomas darbinieka lietotāja kontam un pēc tam ļaut darbiniekam veikt ražotnes ražotnes reģistrācijas.</span><span class="sxs-lookup"><span data-stu-id="f0177-104">This topic explains how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
 
-## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a><span data-ttu-id="c10f4-105">Pārbaudiet, vai darbiniekam ir piešķirta noteikta loma</span><span class="sxs-lookup"><span data-stu-id="c10f4-105">Verify that a worker is assigned a certain role</span></span>
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a><span data-ttu-id="f0177-105">Pārbaudiet, vai darbiniekam ir piešķirta noteikta loma</span><span class="sxs-lookup"><span data-stu-id="f0177-105">Verify that a worker is assigned a certain role</span></span>
 
-<span data-ttu-id="c10f4-106">Šajā piemērā, pirms konfigurējat darbinieka kontu, pārbaudiet, vai lietotājam "SHANNON" ir piešķirta mašīnas operatora loma.</span><span class="sxs-lookup"><span data-stu-id="c10f4-106">For this example, verify that user "SHANNON" is assigned the machine operator role before you configure the worker account.</span></span>
+<span data-ttu-id="f0177-106">Šajā piemērā, pirms konfigurējat darbinieka kontu, pārbaudiet, vai lietotājam "SHANNON" ir piešķirta mašīnas operatora loma.</span><span class="sxs-lookup"><span data-stu-id="f0177-106">For this example, verify that user "SHANNON" is assigned the machine operator role before you configure the worker account.</span></span>
 
-1. <span data-ttu-id="c10f4-107">Dodieties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana > Lietotāji > Lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
-2. <span data-ttu-id="c10f4-108">Meklējiet lietotāju ātrajā filtrā.</span><span class="sxs-lookup"><span data-stu-id="c10f4-108">Search for a user in the quick filter.</span></span> <span data-ttu-id="c10f4-109">Šim piemēram ievadiet `shannon`.</span><span class="sxs-lookup"><span data-stu-id="c10f4-109">For this example, enter `shannon`.</span></span>
-3. <span data-ttu-id="c10f4-110">Atlasiet saiti parādītajā lietotāja konta kolonnā **Lietotāja ID**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-110">Select the link in the **User ID** column of the user account that appears.</span></span>
-4. <span data-ttu-id="c10f4-111">Kokā **Lietotāja lomas** atlasiet **Lomas > Mašīnas operators**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-111">In the **User's roles** tree, select **Roles > Machine operator**.</span></span>
-5. <span data-ttu-id="c10f4-112">Aizveriet lapas **Lietotāja informācija** un **Lietotāji**, lai atgrieztos sākumlapā.</span><span class="sxs-lookup"><span data-stu-id="c10f4-112">Close the **user details** and **users** pages to return to the home page.</span></span>
+1. <span data-ttu-id="f0177-107">Dodieties uz **Navigācijas rūts > Moduļi > Sistēmas administrēšana > Lietotāji > Lietotāji**.</span><span class="sxs-lookup"><span data-stu-id="f0177-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
+2. <span data-ttu-id="f0177-108">Meklējiet lietotāju ātrajā filtrā.</span><span class="sxs-lookup"><span data-stu-id="f0177-108">Search for a user in the quick filter.</span></span> <span data-ttu-id="f0177-109">Šim piemēram ievadiet `shannon`.</span><span class="sxs-lookup"><span data-stu-id="f0177-109">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="f0177-110">Atlasiet saiti parādītajā lietotāja konta kolonnā **Lietotāja ID**.</span><span class="sxs-lookup"><span data-stu-id="f0177-110">Select the link in the **User ID** column of the user account that appears.</span></span>
+4. <span data-ttu-id="f0177-111">Kokā **Lietotāja lomas** atlasiet **Lomas > Mašīnas operators**.</span><span class="sxs-lookup"><span data-stu-id="f0177-111">In the **User's roles** tree, select **Roles > Machine operator**.</span></span>
+5. <span data-ttu-id="f0177-112">Aizveriet lapas **Lietotāja informācija** un **Lietotāji**, lai atgrieztos sākumlapā.</span><span class="sxs-lookup"><span data-stu-id="f0177-112">Close the **user details** and **users** pages to return to the home page.</span></span>
 
-## <a name="configure-worker-account"></a><span data-ttu-id="c10f4-113">Darbinieka konta konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="c10f4-113">Configure worker account</span></span>
-1. <span data-ttu-id="c10f4-114">Dodieties uz **Navigācijas rūts > Moduļi > Cilvēkresursi > Darbinieki > Darbinieki**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-114">Go to **Navigation pane > Modules > Human resources > Workers > Workers**.</span></span>
-2. <span data-ttu-id="c10f4-115">Meklējiet lietotāju ātrajā filtrā.</span><span class="sxs-lookup"><span data-stu-id="c10f4-115">Search for a user in the quick filter.</span></span> <span data-ttu-id="c10f4-116">Šim piemēram ievadiet `shannon`.</span><span class="sxs-lookup"><span data-stu-id="c10f4-116">For this example, enter `shannon`.</span></span>
-3. <span data-ttu-id="c10f4-117">Atlasiet saiti parādītajā lietotāja konta kolonnā **Nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-117">Select the link in the **Name** column of the user account that appears.</span></span>
-4. <span data-ttu-id="c10f4-118">Atlasiet cilni **Laika reģistrācija**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-118">Select the **Time registration** tab.</span></span>
-5. <span data-ttu-id="c10f4-119">Atlasiet **Aktivizēt reģistrācijas terminālos**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-119">Select **Activate on registration terminals**.</span></span>
-6. <span data-ttu-id="c10f4-120">Ievadiet vai atlasiet vērtības šādos laukos:</span><span class="sxs-lookup"><span data-stu-id="c10f4-120">Enter or select values in the following fields:</span></span>  
+## <a name="configure-worker-account"></a><span data-ttu-id="f0177-113">Darbinieka konta konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="f0177-113">Configure worker account</span></span>
+1. <span data-ttu-id="f0177-114">Dodieties uz **Navigācijas rūts > Moduļi > Cilvēkresursi > Darbinieki > Darbinieki**.</span><span class="sxs-lookup"><span data-stu-id="f0177-114">Go to **Navigation pane > Modules > Human resources > Workers > Workers**.</span></span>
+2. <span data-ttu-id="f0177-115">Meklējiet lietotāju ātrajā filtrā.</span><span class="sxs-lookup"><span data-stu-id="f0177-115">Search for a user in the quick filter.</span></span> <span data-ttu-id="f0177-116">Šim piemēram ievadiet `shannon`.</span><span class="sxs-lookup"><span data-stu-id="f0177-116">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="f0177-117">Atlasiet saiti parādītajā lietotāja konta kolonnā **Nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="f0177-117">Select the link in the **Name** column of the user account that appears.</span></span>
+4. <span data-ttu-id="f0177-118">Atlasiet cilni **Laika reģistrācija**.</span><span class="sxs-lookup"><span data-stu-id="f0177-118">Select the **Time registration** tab.</span></span>
+5. <span data-ttu-id="f0177-119">Atlasiet **Aktivizēt reģistrācijas terminālos**.</span><span class="sxs-lookup"><span data-stu-id="f0177-119">Select **Activate on registration terminals**.</span></span>
+6. <span data-ttu-id="f0177-120">Ievadiet vai atlasiet vērtības šādos laukos:</span><span class="sxs-lookup"><span data-stu-id="f0177-120">Enter or select values in the following fields:</span></span>  
 
-    - <span data-ttu-id="c10f4-121">**Aprēķinu grupa**</span><span class="sxs-lookup"><span data-stu-id="c10f4-121">**Calculation group**</span></span>  
-    - <span data-ttu-id="c10f4-122">**Noklusējuma aprēķinu grupa**</span><span class="sxs-lookup"><span data-stu-id="c10f4-122">**Default calculation group**</span></span>  
-    - <span data-ttu-id="c10f4-123">**Apstiprinājumu grupa**</span><span class="sxs-lookup"><span data-stu-id="c10f4-123">**Approval group**</span></span>  
-    - <span data-ttu-id="c10f4-124">**Standarta profils**</span><span class="sxs-lookup"><span data-stu-id="c10f4-124">**Standard profile**</span></span>  
-    - <span data-ttu-id="c10f4-125">**Profilu grupa**</span><span class="sxs-lookup"><span data-stu-id="c10f4-125">**Profile group**</span></span>  
+    - <span data-ttu-id="f0177-121">**Aprēķinu grupa**</span><span class="sxs-lookup"><span data-stu-id="f0177-121">**Calculation group**</span></span>  
+    - <span data-ttu-id="f0177-122">**Noklusējuma aprēķinu grupa**</span><span class="sxs-lookup"><span data-stu-id="f0177-122">**Default calculation group**</span></span>  
+    - <span data-ttu-id="f0177-123">**Apstiprinājumu grupa**</span><span class="sxs-lookup"><span data-stu-id="f0177-123">**Approval group**</span></span>  
+    - <span data-ttu-id="f0177-124">**Standarta profils**</span><span class="sxs-lookup"><span data-stu-id="f0177-124">**Standard profile**</span></span>  
+    - <span data-ttu-id="f0177-125">**Profilu grupa**</span><span class="sxs-lookup"><span data-stu-id="f0177-125">**Profile group**</span></span>  
 
-7. <span data-ttu-id="c10f4-126">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-126">Select **OK**.</span></span>
-8. <span data-ttu-id="c10f4-127">Noklikšķiniet uz **Rediģēt**, lai ievadītu jauna laika reģistrācijas darbinieka žetona numuru.</span><span class="sxs-lookup"><span data-stu-id="c10f4-127">Select **Edit** to enter a badge number for the new time registration worker.</span></span> <span data-ttu-id="c10f4-128">Ievadiet vērtību laukā **Žetona ID**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-128">Enter a value in the **Badge ID** field.</span></span>
-9. <span data-ttu-id="c10f4-129">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-129">Select **Save**.</span></span>
-10. <span data-ttu-id="c10f4-130">Aizveriet lapas **Nodarbinātā papildinformācija** un **Nodarbinātie**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-130">Close the **Worker details** and **Workers** pages.</span></span>
+7. <span data-ttu-id="f0177-126">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="f0177-126">Select **OK**.</span></span>
+8. <span data-ttu-id="f0177-127">Noklikšķiniet uz **Rediģēt**, lai ievadītu jauna laika reģistrācijas darbinieka žetona numuru.</span><span class="sxs-lookup"><span data-stu-id="f0177-127">Select **Edit** to enter a badge number for the new time registration worker.</span></span> <span data-ttu-id="f0177-128">Ievadiet vērtību laukā **Žetona ID**.</span><span class="sxs-lookup"><span data-stu-id="f0177-128">Enter a value in the **Badge ID** field.</span></span>
+9. <span data-ttu-id="f0177-129">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="f0177-129">Select **Save**.</span></span>
+10. <span data-ttu-id="f0177-130">Aizveriet lapas **Nodarbinātā papildinformācija** un **Nodarbinātie**.</span><span class="sxs-lookup"><span data-stu-id="f0177-130">Close the **Worker details** and **Workers** pages.</span></span>
 
-## <a name="assign-worker-to-device-group"></a><span data-ttu-id="c10f4-131">Nodarbinātā piešķiršana ierīču grupai</span><span class="sxs-lookup"><span data-stu-id="c10f4-131">Assign worker to device group</span></span>
-1. <span data-ttu-id="c10f4-132">Pārejiet uz sadaļu **Ražošanas kontrole > Iestatīšana > Ražošanas izpilde > Konfigurēt ierīču darba karti**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-132">Go to **Production control > Setup > Manufacturing execution > Configure job card for devices**.</span></span>
-2. <span data-ttu-id="c10f4-133">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-133">Select **Add**.</span></span>
-3. <span data-ttu-id="c10f4-134">Sarakstā atlasiet vēlamo nodarbināto.</span><span class="sxs-lookup"><span data-stu-id="c10f4-134">In the list, select the desired worker.</span></span> <span data-ttu-id="c10f4-135">Šajā piemērā atlasiet **SHANNON**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-135">For this example, select **SHANNON**.</span></span>
-4. <span data-ttu-id="c10f4-136">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-136">Select **OK**.</span></span>
-5. <span data-ttu-id="c10f4-137">Atlasiet **Rediģēt**.</span><span class="sxs-lookup"><span data-stu-id="c10f4-137">Select **Edit**.</span></span>
-6. <span data-ttu-id="c10f4-138">Laukā **Ražošanas vienība** var iestatīt noklusējuma filtru nodarbinātajam.</span><span class="sxs-lookup"><span data-stu-id="c10f4-138">In the **Production unit** field, you can set the default filter for the worker.</span></span> <span data-ttu-id="c10f4-139">Tas nodrošinās, ka, darbiniekam piesakoties ierīcē, tiek rādīti tikai ražošanas darbi atlasītajai ražošanas vienībai.</span><span class="sxs-lookup"><span data-stu-id="c10f4-139">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span> <span data-ttu-id="c10f4-140">Ievadiet vēlamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="c10f4-140">Enter the desired value.</span></span>
-7. <span data-ttu-id="c10f4-141">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="c10f4-141">Close the page.</span></span>
+## <a name="assign-worker-to-device-group"></a><span data-ttu-id="f0177-131">Nodarbinātā piešķiršana ierīču grupai</span><span class="sxs-lookup"><span data-stu-id="f0177-131">Assign worker to device group</span></span>
+1. <span data-ttu-id="f0177-132">Pārejiet uz sadaļu **Ražošanas kontrole > Iestatīšana > Ražošanas izpilde > Konfigurēt ierīču darba karti**.</span><span class="sxs-lookup"><span data-stu-id="f0177-132">Go to **Production control > Setup > Manufacturing execution > Configure job card for devices**.</span></span>
+2. <span data-ttu-id="f0177-133">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="f0177-133">Select **Add**.</span></span>
+3. <span data-ttu-id="f0177-134">Sarakstā atlasiet vēlamo nodarbināto.</span><span class="sxs-lookup"><span data-stu-id="f0177-134">In the list, select the desired worker.</span></span> <span data-ttu-id="f0177-135">Šajā piemērā atlasiet **SHANNON**.</span><span class="sxs-lookup"><span data-stu-id="f0177-135">For this example, select **SHANNON**.</span></span>
+4. <span data-ttu-id="f0177-136">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="f0177-136">Select **OK**.</span></span>
+5. <span data-ttu-id="f0177-137">Atlasiet **Rediģēt**.</span><span class="sxs-lookup"><span data-stu-id="f0177-137">Select **Edit**.</span></span>
+6. <span data-ttu-id="f0177-138">Laukā **Ražošanas vienība** var iestatīt noklusējuma filtru nodarbinātajam.</span><span class="sxs-lookup"><span data-stu-id="f0177-138">In the **Production unit** field, you can set the default filter for the worker.</span></span> <span data-ttu-id="f0177-139">Tas nodrošinās, ka, darbiniekam piesakoties ierīcē, tiek rādīti tikai ražošanas darbi atlasītajai ražošanas vienībai.</span><span class="sxs-lookup"><span data-stu-id="f0177-139">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span> <span data-ttu-id="f0177-140">Ievadiet vēlamo vērtību.</span><span class="sxs-lookup"><span data-stu-id="f0177-140">Enter the desired value.</span></span>
+7. <span data-ttu-id="f0177-141">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f0177-141">Close the page.</span></span>
 
