@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432705"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001528"
 ---
 # <a name="working-with-serialized-items"></a>Darbs ar sērijas krājumiem
 
@@ -51,12 +50,12 @@ Tas, vai ir jāreģistrē visu pavadzīmē vai rēķinā iekļauto krājumu sēr
 Varat izveidot pārdošanas pasūtījumu daļējus rēķinus un pavadzīmes un reģistrēt tikai to krājumu sērijas numurus, kas ir iekļauti šajos rēķinos un pavadzīmēs. Ja vēlaties izveidot daļēju rēķinu un pastāv vairākas pārdošanas pasūtījuma pavadzīmes, varat iekļaut sērijas numurus no vairākām pavadzīmēm. Taču varat izveidot tikai vienu pavadzīmi, kurā nav iekļauti visi sērijas numuri. Piemēram, ja ir trīs pavadzīmes un katrā no tām ir iekļauti divi serializēti krājumi, nevarat izveidot daļēju rēķinu par vienu krājumu no katras pavadzīmes.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Ko darīt, ja sērijas numuru nevar nolasīt?
-Ja sērijas numuru nevar nolasīt vai ieskenēt, varat krājumam izveidot tukšu rindu, noklikšķinot uz **Nav lasāms** lapā **Sērijas numuri**. Ja vēlāk sērijas numurs kļūst pieejams, varat atjaunināt rēķinu vai pavadzīmi. Plašāku informāciju skatiet nākamajā sadaļā “Vai varu labot vai mainīt pārdošanas pasūtījumam reģistrētos sērijas numurus?”.
+Ja sērijas numuru nevar nolasīt vai ieskenēt, varat krājumam izveidot tukšu rindu, noklikšķinot uz **Nav lasāms** lapā **Sērijas numuri**. Ja vēlāk sērijas numurs kļūst pieejams, varat atjaunināt rēķinu vai pavadzīmi. Plašāku informāciju skatiet nākamajā sadaļā “Vai varu labot vai mainīt pārdošanas pasūtījumam reģistrētos sērijas numurus?”
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Vai var labot vai mainīt pārdošanas pasūtījumam reģistrētos sērijas numurus?
 Jā, varat labot sērijas numurus, ja ir izpildīti tālāk norādītie nosacījumi.
--   **Rēķini** — varat mainīt to krājumu sērijas numurus, kas vēl nav iekļauti rēķinos. Pēc tam tiek atjaunināta arī pavadzīme. Taču, ja pārdošanas pasūtījuma rinda ir labota, reģistrējot negatīvu daudzumu, nevarat mainīt šis pārdošanas pasūtījuma rindas sērijas numurus.
--   **Pavadzīmes** — nevarat daļēji labot pavadzīmes rindu, kurā ir ietverti serializēti krājumi. Ir jāatsauc pilnais rindas daudzums. Ja pavadzīme ir atcelta vai labota, atsauktie sērijas numuri nav atkārtoti jāreģistrē, izveidojot jaunu pavadzīmi tiem pašiem serializētajiem krājumiem. Tiks izmantoti jau reģistrētie numuri.
+-   **Rēķini** — varat mainīt to krājumu sērijas numurus, kas vēl nav iekļauti rēķinos. Pēc tam tiek atjaunināta arī pavadzīme. Taču, ja pārdošanas pasūtījuma rinda ir labota, reģistrējot negatīvu daudzumu, nevarat mainīt šis pārdošanas pasūtījuma rindas sērijas numurus.
+-   **Pavadzīmes** - nevarat daļēji labot pavadzīmes rindu, kurā ir ietverti serializēti krājumi. Ir jāatsauc pilnais rindas daudzums. Ja pavadzīme ir atcelta vai labota, atsauktie sērijas numuri nav atkārtoti jāreģistrē, izveidojot jaunu pavadzīmi tiem pašiem serializētajiem krājumiem. Tiks izmantoti jau reģistrētie numuri.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Vai varu skatīt sērijas numurus, kas tika nosūtīti kopā ar noteiktu pavadzīmi vai tika iekļauti rēķinā?
 Jā, pavadzīmju žurnāla vai rēķinu žurnāla rindā var palaist vaicājumu, lai apskatītu sarakstu ar visiem dokumentā iekļautajiem sērijas numuriem.
@@ -69,7 +68,7 @@ Nē, pārdošanas procesa laikā nevarat reģistrēt pieļaujamā svara krājumu
 
 ## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Vai varu reģistrēt sērijas numurus mazumtirdzniecības POS?
 
-Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas punktā (POS), kad lietotājs pārdod krājumu, kas ir piešķirts izsekošanas dimensiju grupai, kas ir iestatīta sērijas numuru izmantošanai tikai pārdošanas procesa laikā.
+Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas punktā (POS), kad lietotājs pārdod krājumu, kas ir piešķirts izsekošanas dimensiju grupai, kas ir iestatīta sērijas numuru izmantošanai tikai pārdošanas procesa laikā.
 
 ## <a name="what-security-roles-are-required-in-order-to-register-serial-numbers-during-the-sales-process"></a>Kādas drošības lomas ir nepieciešamas, lai varētu reģistrēt sērijas numurus pārdošanas procesa laikā?
 Šī funkcionalitāte ir pieejama visām lomām, kas var pārvaldīt pārdošanas pavadzīmes un pārdošanas rēķinus. Tālāk norādītie pienākumi ļauj darbiniekiem labot sērijas numurus un reģistrēt tukšus ierakstus tad, ja sērijas numurus nevar nolasīt vai noskenēt.
@@ -80,6 +79,3 @@ Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas p
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

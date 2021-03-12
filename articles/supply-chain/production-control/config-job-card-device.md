@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c523b309ab6478ab17c682683147e668bfcff919
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432847"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998982"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigurēt darbu karti ierīcēm
 
@@ -55,16 +54,16 @@ Lai padarītu šo līdzekli pieejamu, iespējojiet tālāk norādīto līdzekli 
 
 ## <a name="manage-your-device-configurations"></a>Jūsu ierīces konfigurāciju pārvaldība
 
-Lai iestatītu ierīces konfigurācijas, pārejiet uz sadaļu **Ražošanas kontrole > Iestatīšana > Ražošanas izpilde > Konfigurēt ierīču darba karti**. Tiek atvērta lapa **Konfigurēt darbu karti ierīcēm**, kurā parādīts esošo konfigurāciju saraksts. No šejienes varat veikt tālāk norādītās darbības. 
+Lai iestatītu ierīces konfigurācijas, pārejiet uz sadaļu **Ražošanas kontrole > Iestatīšana > Ražošanas izpilde > Konfigurēt ierīču darba karti**. Tiek atvērta lapa **Konfigurēt darbu karti ierīcēm**, kurā parādīts esošo konfigurāciju saraksts. No šejienes varat veikt tālāk norādītās darbības: 
 
 - Atlasiet jebkuru ierīces konfigurāciju, kas norādīta kreisajā kolonnā, lai to skatītu un rediģētu.
 - Lai sarakstam pievienotu jaunu ierīces konfigurāciju, darbības rūtī atlasiet **Jauns**. Pēc tam ievadiet nosaukumu laukā **Konfigurācija**, lai identificētu jauno konfigurāciju. Šeit ievadītajai vērtībai ir jābūt unikālai starp visām ierīču konfigurācijām, un vēlāk to nevarēsit rediģēt.
 
-Lai iegūtu sīkāku informāciju par katru darbu kartes ierīču konfigurēšanas iestatījumu, skatiet tālāk sadaļas tālāk.
+Lai iegūtu sīkāku informāciju par katru darbu kartes ierīču konfigurēšanas iestatījumu, skatiet turpmākās sadaļas.
 
 ## <a name="general-settings"></a>Vispārīgie iestatījumi
 
-Kopsavilkuma cilne **Vispārīgi** ļauj konfigurēt katru no dažādām opcijām, kas pieejamas atlasītajai ierīces konfigurācijai. Pieejami tālāk norādītie iestatījumi.
+Kopsavilkuma cilne **Vispārīgi** ļauj konfigurēt katru no dažādām opcijām, kas pieejamas atlasītajai ierīces konfigurācijai. Pieejami tālāk norādītie iestatījumi:
 
 - **Reģistrēt daudzumu aiziešanas laikā** — iestatiet to uz **Jā**, lai mudinātu darbiniekus ziņot par notiekošajiem darbiem, kad notiek aiziešana. Ja iestatījums ir **Nē**, darbinieki netiks mudināti.
 - **Bloķēt darbinieku** — kad šī opcija ir iestatīta uz **Nē**, katrs darbinieks saņems atteikumu uzreiz pēc reģistrācijas (piemēram, jauna darba), un pēc tam ierīce atgriezīsies pierakstīšanās lapā. Ja šī opcija ir iestatīta uz **Jā**, katrs darbinieks paliks pierakstījies darba kartes ierīcē. Tomēr darbinieks joprojām varēs pieteikties manuāli, lai ļautu pieteikties citam darbiniekam, kamēr darba kartes ierīce joprojām darbojas vienā sistēmas lietotāja kontā. Plašāku informāciju par šiem tabulas kontu veidiem skatiet [Piešķirtie lietotāji](#assigned-users).
@@ -95,6 +94,3 @@ Tomēr, kā iepriekš minēts, kad izmantojat ierīces konfigurāciju ar opciju 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci](report-finished-job-device.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

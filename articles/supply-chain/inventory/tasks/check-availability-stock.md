@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand, InventOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28446e32c8f126e76b13f41f379ecf994a7b7a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d04abae36e144b429b8ebc73b4c110389fecd1f0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433047"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000163"
 ---
 # <a name="check-the-availability-of-stock"></a>Krājumu pieejamības pārbaude
 
@@ -45,7 +44,7 @@ ms.locfileid: "4433047"
 12. Aizvērt lapu.
 
 ## <a name="check-physical-on-hand-inventory"></a>Fizisko rīcībā esošo krājumu pārbaude
-1. Pārejiet uz **Navigācijas rūts > Moduļi > Npliktava vadība > Uzziņas un pārskati > Fiziskie rīcībā esošie krājumi**.
+1. Pārejiet uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Uzziņas un pārskati > Fiziskie rīcībā esošie krājumi**.
 2. Laukā **Krājuma kods** ierakstiet vērtību. Laukus Vieta un Noliktava var izmantot krājumu sarakstu filtrēšanai. 
 3. Atsvaidziniet lapu.
 4. Darbību rūtī **Darbību rūtī** noklikšķiniet uz **Parādīt dimensijas**. Cilne Dimensiju ekrāns ļauj atlasīt, cik daudz informācijas vēlaties redzēt par jūsu rīcībā esošajiem krājumiem.
@@ -60,6 +59,3 @@ ms.locfileid: "4433047"
 5. Noklikšķiniet uz **Labi**.
 6. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8f81d760e8c181891aeba92834577e8869fbdd8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432817"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001128"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>Preces apstiprināšana klastera izdošanai
 
@@ -42,6 +41,3 @@ Krājumu pārbaude klastera izdošanai notiek tādā pašā veidā kā krājumu 
 |        Opcija        |                                    Apraksts                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Preces apstiprināšana | Sniedz iespēju mobilajā ierīcē pārbaudīt katru krājumu vienību, veicot skenēšanu. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

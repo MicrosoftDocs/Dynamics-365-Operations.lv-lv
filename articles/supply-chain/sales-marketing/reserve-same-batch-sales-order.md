@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433191"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001503"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Tās pašas partijas rezervēšana pārdošanas pasūtījumam
 
@@ -45,6 +44,3 @@ Ja rezervējat krājumus precei pārdošanas pasūtījuma rindā, kas ir iestat�
 - Partijas atlikušais glabāšanas laika dienu skaits nav pietiekams, pamatojoties uz beigu datumu un derīguma termiņa datumu, pie kura pieskaita pārdošanas debitoriem dienas.
 
 Krājumiem, kas saistīti ar noliktavas dimensiju grupu, kurai ir iespējota opcija **Izmantot noliktavas vadības procesus**, varat rezervēt konkrētus partijas numurus, izmantojot rezervāciju hierarhiju ar partijas numura krājuma dimensiju, kas noteikta virs novietojuma dimensijas. Lapa **Partijas rezervācija** pārsūtīšanas pasūtījuma rindām ļauj izvēlēties un rezervēt vairākas rindas, pamatojoties uz pieejamiem partijas numuriem. Papildinformāciju par to, kā rīkoties, ja izmantojat rezervāciju hierarhiju, kurai ir partijas numura dimensija zem vietas, skatiet rakstā [Elastīga noliktavas līmeņa dimensiju rezervācijas politika](../warehousing/flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

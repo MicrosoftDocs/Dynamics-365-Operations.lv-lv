@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433139"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001179"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
@@ -210,6 +209,3 @@ Papildu ierobežojumiem, kas pašlaik attiecas uz pieļaujamā svara precēm, pi
 
 > [!NOTE]
 > Iepriekš sniegtā informācija par pieļaujamā svara etiķetēm ir derīga tikai tad, ja pieļaujamā svara precei ir pieļaujamā svara etiķetes dimensiju izsekošanas metode, kas ir pilnībā izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara preces apstrādes politikā ir iestatīts uz **Preces dimensijas, izsekošanas dimensijas un visas noliktavas dimensijas**). Ja pieļaujamā svara vienība ir tikai daļēji izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara vienuma apstrādes politikā iestatīts uz **Preces dimensijas, izsekošanas dimensijas un krājumu statusu**), ir spēkā papildu ierobežojumi. Tāpēc, ka redzamība šajā gadījumā tiek zaudēta starp etiķeti un noliktavu, daži papildu scenāriji netiek atbalstīti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

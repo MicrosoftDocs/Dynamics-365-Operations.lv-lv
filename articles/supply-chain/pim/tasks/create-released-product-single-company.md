@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90924c853793a3d70f2f2d46d8a154a19bd7d6bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79d5252d950cd83dfd1307ffb661948405102593
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432771"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999685"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Izlaistās preces izveide vienam uzņēmumam
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā izveidot vienu izlaisto preci vienas juridiskās vienības kontekstā. Pēc izlaistās preces izveides tā uzreiz ir pieejama tikai šajā vienībā. Šo procedūru var izmēģināt demonstrācijas datu uzņēmumā USMF. Šo uzdevumu parasti veic preces noformētājs.
+Šajā procedūrā parādīts, kā izveidot vienu izlaisto preci vienas juridiskās vienības kontekstā. Pēc izlaistās preces izveides tā uzreiz ir pieejama tikai šajā vienībā. Šo procedūru var izmēģināt paraugdatu uzņēmumā USMF. Šo uzdevumu parasti veic preces noformētājs.
 
 
 ## <a name="create-a-released-product"></a>Izlaistās preces izveide
@@ -103,6 +102,3 @@ ms.locfileid: "4432771"
 12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

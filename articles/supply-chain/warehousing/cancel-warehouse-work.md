@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433140"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001202"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Atcelt noliktavas darbu izņēmumu apstrādei
 
@@ -45,6 +44,3 @@ Izmantojot funkcionalitāti Atcelt darbu, var atcelt tikai **Pārdošanas**, **I
 Lai atbloķētu darbu, sistēma atceļ visas atlikušās darba rindas un labo noliktavas datus, kas ir saistīti ar lietotāja norādīto darba ID. Pēc tam var atsākt visas parastās noliktavas apstrādes darbības, kas ietver ietekmēto vienību daudzumu.
 
 Lai ietekmēto vienību izvietotu noteiktā vietā pēc darba atcelšanas, lietotājam jāizmanto krājumu kustība vai daudzuma korekcijas operācija mobilajā ierīcē.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
