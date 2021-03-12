@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f8512a59d0e9935090f97a0f0237bfefc8473955
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2c06f6f943c8a47fbe650a67017b95d799914a0e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4445789"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971357"
 ---
 # <a name="create-a-lease-group"></a>Nomas grupas izveide
 
@@ -50,6 +49,3 @@ Pēc nomas grupu izveides varat piešķirt grāmatas katrai grupai. Izveidojot n
 1. Dodieties uz **Līdzekļu noma \> Iestatījumi \> Nomas grupa**.
 2. Atlasiet nomas grupu un pēc tam atlasiet **Grāmatas**.
 3. Atlasiet **Jauns** un pēc tam laukā **Grāmatas veids** atlasiet grāmatu, ko piešķirt nomas grupai. Nomas grupai varat piešķirt vairākas grāmatas, ja noma jāuzskaita dažādos veidos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

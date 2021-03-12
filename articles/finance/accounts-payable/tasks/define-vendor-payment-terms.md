@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b69b505996b5536088578885c11a7e8c27f4975
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445428"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971857"
 ---
 # <a name="define-vendor-payment-terms"></a>Kreditora maksājumu nosacījumu definēšana
 
@@ -47,6 +46,3 @@ ms.locfileid: "4445428"
 16. Ievadiet galveno kontu, kurā tiks iegrāmatota termiņatlaide debitoru rēķiniem, pēc tam ievadiet galveno kontu, kurā tiks iegrāmatota termiņatlaide kreditoru rēķiniem. Ja lauka **Atlaižu korespondējošie konti** vērtība ir **Kreditoru atlaidēm izmantot galveno kontu**, tiks izmantots galvenais konts. Ja ir izvēlēta opcija **Konti rēķina rindās**, termiņatlaide tiks iegrāmatota līdzekļu/izdevumu kontos, kuri izmantoti rēķina rindās.  
 17. Atlasiet **Saglabāt**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

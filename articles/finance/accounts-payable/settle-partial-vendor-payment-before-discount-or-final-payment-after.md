@@ -1,5 +1,5 @@
 ---
-title: Daļēja kreditora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
+title: Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma un gala maksājumu pēc atlaižu piemērošanas datuma
 description: Šajā rakstā ir izklāstīts scenārijs, kur tiek veikti vairāki daļēji maksājumi, daži no tiem — termiņatlaides periodā, un citi — ārpus termiņatlaides perioda.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a30bd1c032d27405c17388465eb813d6c87c270
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445435"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971982"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Daļēja kreditora maksājuma nosegšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma un gala maksājumu pēc atlaižu piemērošanas datuma
 
 [!include [banner](../includes/banner.md)]
 
@@ -122,6 +121,3 @@ Pēc tam Eiprila grāmato maksājumu. Kad viņa atver lapu **Kreditoru transakci
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

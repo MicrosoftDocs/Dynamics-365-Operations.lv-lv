@@ -1,5 +1,5 @@
 ---
-title: Atlaides, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi, piemērošana
+title: Vairāk par kreditora maksājumam aprēķinātās atlaides iekasēšana
 description: Šajā rakstā ir aprakstīts scenārijs, kas izskaidro, kā tiek piemērota termiņatlaide par summu, kas ir lielāka par sākotnēji rēķinā piešķirto atlaidi. Šis scenārijs var īstenoties, ja organizācija noslēdz līgumu ar kreditoru par mazākas summas rēķinā maksāšanu.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7ee74bad071d546724f6ffe336bbe3bdf47e2a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445430"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971907"
 ---
-# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Atlaides, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi, piemērošana
+# <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Vairāk par kreditora maksājumam aprēķinātās atlaides iekasēšana
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,6 +50,3 @@ Eiprila iegrāmato maksājumu žurnālu. Rēķins tiek pilnībā nosegts, veicot
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

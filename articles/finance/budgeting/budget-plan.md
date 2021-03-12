@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445719"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971282"
 ---
 # <a name="budget-planning"></a>Budžeta plānošana
 
@@ -106,7 +105,7 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 
 2.5. Atlasiet Atsevišķi piešķirt piekļuvi noteiktām organizācijām. Atlasiet organizācijas hierarhiju, ko izveidojāt pirmās darbības laikā. Atlasiet zaru Finanses un noklikšķiniet uz pogas Piešķirt ar apakšelementiem. 
 
-***Svarīgi!*** *Veicot šo uzdevumu, pārliecinieties, ka ir atlasīts DEMF juridiskās personas konteksts, jo organizācijas drošība tiek lietota atkarībā no juridiskajās personas* 
+**_Svarīgi!_* _ _Veicot šo uzdevumu, pārliecinieties, vai ir atlasīts DEMF juridiskās personas konteksts, jo juridiskām personām* tiek lietota organizācijas drošība. 
 
 ### <a name="task-3-create-scenarios"></a>3. uzdevums. Scenāriju izveide
 3.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Lapā Scenāriji pārskatiet scenārijus, ko izmantosim tālāk šajā uzdevumā: Iepriekšējā gada faktiskās izmaksas un Budžeta. 
@@ -247,6 +246,3 @@ C. Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
