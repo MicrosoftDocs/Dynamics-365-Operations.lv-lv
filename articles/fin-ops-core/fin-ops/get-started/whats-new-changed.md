@@ -17,36 +17,36 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 41a478e436ef3c94046be1579e8840cc39fb2ed4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 132d1be340d2b9966b45fc30cd6409cfcdf7c805
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694267"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797139"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="8cb59-103">Mājas lapa “Jaunumi un izmaiņas Finance and Operations programmās”</span><span class="sxs-lookup"><span data-stu-id="8cb59-103">What's new or changed in Finance and Operations apps home page</span></span>
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="7b3ef-103">Mājas lapa “Jaunumi un izmaiņas Finance and Operations programmās”</span><span class="sxs-lookup"><span data-stu-id="7b3ef-103">What's new or changed in Finance and Operations apps home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="application-releases"></a><span data-ttu-id="8cb59-104">Programmas laidieni</span><span class="sxs-lookup"><span data-stu-id="8cb59-104">Application releases</span></span>
+## <a name="application-releases"></a><span data-ttu-id="7b3ef-104">Programmas laidieni</span><span class="sxs-lookup"><span data-stu-id="7b3ef-104">Application releases</span></span>
 
-<span data-ttu-id="8cb59-105">Lai redzētu, kas jauns vai mainīts katrā Finance and Operations programmas laidienā, skatiet šādas tēmas:</span><span class="sxs-lookup"><span data-stu-id="8cb59-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
+<span data-ttu-id="7b3ef-105">Lai redzētu, kas jauns vai mainīts katrā Finance and Operations programmas laidienā, skatiet šādas tēmas:</span><span class="sxs-lookup"><span data-stu-id="7b3ef-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
 
-- <span data-ttu-id="8cb59-106">**Finance:** [Jaunumi un izmaiņas programmā Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="8cb59-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="8cb59-107">**Supply Chain Management:** [Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="8cb59-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="8cb59-108">**Commerce:** [Jaunumi un izmaiņas programmā Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="8cb59-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
-- <span data-ttu-id="8cb59-109">**Human Resources:** [Jaunumi un izmaiņas pakalpojumā Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="8cb59-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
+- <span data-ttu-id="7b3ef-106">**Finance:** [Jaunumi un izmaiņas programmā Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="7b3ef-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="7b3ef-107">**Supply Chain Management:** [Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="7b3ef-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="7b3ef-108">**Commerce:** [Jaunumi un izmaiņas programmā Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="7b3ef-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
+- <span data-ttu-id="7b3ef-109">**Human Resources:** [Jaunumi un izmaiņas pakalpojumā Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="7b3ef-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
 
-## <a name="platform-updates"></a><span data-ttu-id="8cb59-110">Platformas atjauninājumi</span><span class="sxs-lookup"><span data-stu-id="8cb59-110">Platform updates</span></span>
+## <a name="platform-updates"></a><span data-ttu-id="7b3ef-110">Platformas atjauninājumi</span><span class="sxs-lookup"><span data-stu-id="7b3ef-110">Platform updates</span></span>
 
-<span data-ttu-id="8cb59-111">Lai redzētu, kas jauns vai mainīts Platform updates for Finance and Operations programmās, skatiet šo tēmu:</span><span class="sxs-lookup"><span data-stu-id="8cb59-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
+<span data-ttu-id="7b3ef-111">Lai redzētu, kas jauns vai mainīts Platform updates for Finance and Operations programmās, skatiet šo tēmu:</span><span class="sxs-lookup"><span data-stu-id="7b3ef-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
 
-- [<span data-ttu-id="8cb59-112">Jaunumi un izmaiņas Platform atjauninājumos</span><span class="sxs-lookup"><span data-stu-id="8cb59-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
+- [<span data-ttu-id="7b3ef-112">Jaunumi un izmaiņas Platform atjauninājumos</span><span class="sxs-lookup"><span data-stu-id="7b3ef-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
 
-## <a name="lifecycle-services-releases"></a><span data-ttu-id="8cb59-113">Lifecycle Services laidieni</span><span class="sxs-lookup"><span data-stu-id="8cb59-113">Lifecycle Services releases</span></span>
-<span data-ttu-id="8cb59-114">Lai redzētu, kas jauns vai mainīts portālā Lifecycle Services, skatiet šo tēmu:</span><span class="sxs-lookup"><span data-stu-id="8cb59-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
+## <a name="lifecycle-services-releases"></a><span data-ttu-id="7b3ef-113">Lifecycle Services laidieni</span><span class="sxs-lookup"><span data-stu-id="7b3ef-113">Lifecycle Services releases</span></span>
+<span data-ttu-id="7b3ef-114">Lai redzētu, kas jauns vai mainīts portālā Lifecycle Services, skatiet šo tēmu:</span><span class="sxs-lookup"><span data-stu-id="7b3ef-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
 
-- [<span data-ttu-id="8cb59-115">Jaunumi un izmaiņas portālā Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="8cb59-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
+- [<span data-ttu-id="7b3ef-115">Jaunumi un izmaiņas portālā Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="7b3ef-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
