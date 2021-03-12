@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2c3f087ac76412cd2dce93dcb31b796ce2cb3bc4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: b7bb6c9338808828a41801a85a1b93b420e9c75b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433242"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004746"
 ---
 # <a name="transportation-management-number-sequence"></a>Transportēšanas pārvaldība skaita sērija
 
@@ -49,6 +48,3 @@ Lai saistītu skaita sēriju ar pārvadātāju, rīkojieties šādi:
 1. Atlasiet **Rediģēt**.
 1. Kopsavilkuma cilnē **Pārskats** atlasiet opciju laukā **Pro numura sērija**.
 1. Aizvērt lapu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

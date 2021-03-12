@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433230"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005331"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Preču dzīves cikla stāvokļi un darījumi
 
@@ -76,6 +75,3 @@ Lietojiet kopsavilkuma cilni **Iespējotie biznesa procesi**, lai kontrolētu, k
 | Polise | Atlasiet vienu no šīm vērtībām, lai kontrolētu, vai un kā pašreizējais process tiks atļauts šajā dzīves cikla stāvoklī esošajām precēm:<ul><li>**Iespējots** – biznesa process ir atļauts.</li><li>**Bloķēts** – process nav atļauts. Ja lietotājs mēģina izmantot šo procesu precei, kas ir šajā dzīves cikla stāvoklī, sistēma bloķēs mēģinājumu un tā vietā rādīs kļūdu. Piemēram, varat bloķēt nolietotās preces no iegādes.</li><li>**Iespējots ar brīdinājumu** – process ir atļauts, bet tiks parādīts brīdinājums. Piemēram, jūs varētu vēlēties, lai preces prototips tiktu likts ražošanas pasūtījumā, ko izveido izpētes un attīstības nodaļa. Tomēr citām nodaļām ir jāapzinās, ka tām vēl nav jāražo prece.</li></ul> |
 
 Ja pievienojat papildu cikla stāvokļa nosacījumus kā pielāgošanu, šīs kārtulas varat skatīt lietotāja interfeisā (UI), augšējā rūtī atlasot opciju **Atsvaidzināt procesus**. Poga **Atsvaidzināt procesus** ir pieejama tikai administratoriem.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

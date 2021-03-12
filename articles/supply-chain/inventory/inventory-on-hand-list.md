@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433194"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005206"
 ---
 # <a name="inventory-on-hand-list"></a>Rīcībā esošo krājumu saraksts
 
@@ -146,6 +145,3 @@ Sistēmā ir ietverta detalizēta (neapkopota) krājumu tabula, kurā redzami š
 | IA0001 | 1 | 2 | 2 |
 
 Ievērojiet, ka iestatījumi **Filtru** rūtī attiecas uz detalizēto (neapkopoto) krājumu tabulu, kas tiek parādīta šīs sadaļas sākumā. Tādējādi kritērijs **Pieejama fiziskā** \| **vērtība ir mazāka par vai vienāda ar** \| _1_ atrod divas rindas no šīs tabulas (pirmā un trešā rinda, no kurām katra rāda **Pieejamo fizisko** vērtību _1_). Tomēr šajā scenārijā **Rīcībā esošā saraksta** lapa nav iestatīta, lai rādītu **Noliktavas** dimensiju. Tāpēc tā apvieno divas sākotnējās rindas vienā iegūtajā rindā, jo abām rindām ir vienādas vērtības visās parādītajās dimensijās. Šī rinda tiek rādīta, lai pārkāptu filtrēšanas kritēriju, jo **Pieejamā fiziskā** vērtība tiek parādīta kā _2_. Tomēr rezultāts ir pareizs, jo iestatījumi **Filtru** rūtī attiecas uz avota tabulu, nevis uz apkopoto tabulu, kas tiek rādīta **Rīcībā esošā saraksta** lapā.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

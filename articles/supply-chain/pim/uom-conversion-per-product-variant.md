@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433066"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001703"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mērvienību konvertēšana katram preces variantam
 
@@ -59,7 +58,7 @@ Lai konfigurētu preces šablonu, lai atbalstītu mērvienību pārveidošanu ka
     - **Prece** – atlasot šo vērtību, varat iestatīt mērvienību pārveidošanu preces šablonam. Šī mērvienību pārveidošana tiks izmantota kā atkāpšanās metode visiem preču variantiem, kam nav definēta neviena vienības pārvēršana.
     - **Preces variants** – atlasot šo vērtību, varat iestatīt mērvienību pārveidošanu konkrētam preces šablonam. Izmantojiet lauku **Preces variants**, lai atlasītu variantu.
 
-    ![![Jaunas pārveides pievienošana](media/uom-new-conversion.png "Jaunas pārveides pievienošana")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![Jaunas pārveides pievienošana](media/uom-new-conversion.png "Jaunas pārveides pievienošana")
 
 1. Izmantojiet citus laukus, kas tiek sniegti, lai iestatītu mērvienību pārveidošanu.
 1. Atlasiet **Labi**, lai saglabātu jauno mērvienību pārveidošanu.
@@ -107,6 +106,3 @@ Lai eksportētu mērvienību pārveidošanu uz Excel, lapā **Mērvienību pārv
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Mērvienības pārvaldība](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

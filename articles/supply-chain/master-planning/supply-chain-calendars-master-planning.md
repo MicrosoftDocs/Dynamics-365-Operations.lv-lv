@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432801"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001803"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendāri un vispārējā plānošana
 
@@ -143,6 +142,3 @@ Attiecībā uz vajadzības grupas kalendāru ir svarīgi ņemt vērā aspektus, 
 
 ### <a name="updating-scm-related-calendars"></a>Ar SCM saistītu kalendāru atjaunināšana
 Lai gan ir svarīgi, ka visi atbilstīgie kalendāri tiek piešķirti attiecīgajā vietā (kreditors, debitors, noliktava, piegādes veids vai vajadzības grupa), ir svarīgi arī tos atjaunināt, lai tajos būtu redzamas izmaiņas. Sistēma noteiks ražošanas, pārsūtīšanas, pirkšanas un pārdošanas pasūtījumu datumus atkarībā no piešķirto kalendāru kombinācijas. Labākā prakse ir noskaidrot, kurš ir atbildīgs par kalendāru piešķiršanu un atjaunināšanu atbilstošajos apgabalos. Ja darbdienās rodas bojājumi vai citas neparastas izmaiņas, ir ļoti svarīgi atbilstoši atjaunināt kalendārus. Visi uzdevumi, kuri ir atkarīgi no kalendāriem, piemēram, vispārējā plānošana un ražošanas plānošana, ir jāpalaiž atkārtoti pēc kalendāru atjaunināšanas. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

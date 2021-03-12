@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266864
 ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bed56c810792908b2521b6c44635d24261b5321a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 34d6e079beb23410caaf6e3465536598f0506b63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408280"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002888"
 ---
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 
@@ -70,6 +69,3 @@ Lai ģenerētu PVN XML failu, lapā **PVN maksājumi** atlasiet vienu vai vairā
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

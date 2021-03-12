@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 266924
 ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3ffc6b7ef23b260384bc13817a1e67ef1869da4e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ebafbe982400ca882c20eb021609e8fa656c369
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408282"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002903"
 ---
 # <a name="fixed-assets-location-change-tracking-for-latvia"></a>Sekošana līdzi pamatlīdzekļu novietojuma maiņām Latvijai
 
@@ -46,6 +45,3 @@ Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz **Saglabāt** vai ka
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

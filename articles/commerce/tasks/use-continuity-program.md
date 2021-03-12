@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2baf0127a35cc62952fd78daaf8204d35ec8d2b3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b641fb6ba5edf359a2f1f2de7b5095d73b497cf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414079"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003632"
 ---
 # <a name="using-continuity-program"></a>Izmantojot nepārtrauktības programmu
 
@@ -62,6 +61,3 @@ ms.locfileid: "4414079"
     * Ievadiet pārdošanas pasūtījuma numuru, kas atzīmējāt iepriekš šajā procedūrā. Tas saglabās apstrādes laiku minimālu šai procedūrai. Lauks pārdošanas pasūtījums ir neobligāts--jūs varat apstrādāt visus pasūtījumus jebkurai programmai.  
 21. Noklikšķiniet uz OK.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

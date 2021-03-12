@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5879f7f89d010c4d61536004c1077ca3270a98f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445557"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003446"
 ---
 # <a name="credit-limit-adjustments"></a>Kredītlimita korekcijas 
 
@@ -124,6 +123,3 @@ Darbplūsmas **Kredīta limita korekcijas** var izmantot, lai nosūtītu kredīt
 
 > [!NOTE]
 > Kad izveidojat darbplūsmu **Kredīta limita korekcijas**, varat iestatīt to, lai korekcijas tiktu automātiski grāmatotas pēc rindu apstiprināšanas. Vienkārši darbplūsmā iekļaujiet uzdevumu **Grāmatot žurnālu automātiski**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

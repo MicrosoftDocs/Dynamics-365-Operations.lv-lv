@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4445811"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003582"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Kreditoru maksājumu priekšlikumu automatizēšana
 
@@ -144,6 +143,3 @@ Tālāk norādītie nodokļi un privilēģijas ir pievienoti kreditora maksājum
 | Grafika atkārtojumu izskatīšana | Kreditoru maksājumu darbinieks, kreditoru centralizēto maksājumu darbinieks | Šis pienākums piešķir tiesības skatīt maksājuma priekšlikuma automatizācijas sērijas un gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu skatīšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul> |
 | Uzziņas par grafika sērijām      | None                                                                       | Šis pienākums piešķir tiesības skatīt sēriju iestatījumus un gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu skatīšana</li><li>Gadījumu saraksta lapas skatīšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul>|
 | Grafika atkārtojumu uzturēšana     | None                                                                       | Šis pienākums piešķir tiesības izveidot un uzturēt gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu uzturēšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
