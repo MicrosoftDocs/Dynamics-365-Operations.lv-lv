@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f1790366cebf317472bc1ef9a5ecd2a19fe755d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980835"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sinhronizējiet līguma rēķinus risinājumā Field Service ar brīva teksta rēķiniem risinājumā Supply Chain Management
 
@@ -55,23 +54,23 @@ Lai varētu veikt līguma rēķinu sinhronizāciju, ir nepieciešama tālāk nor
 
 | Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
-| rēķini       | CDS debitora brīva teksta rēķinu virsraksti |
-| invoicedetails | CDS debitora brīva teksta rēķinu rindas   |
+| rēķini       | Dataverse debitora brīva teksta rēķinu galvenes |
+| invoicedetails | Dataverse debitora brīva teksta rēķinu rindas   |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Rēķinus, kas ir izveidoti no līguma programmā Field Service, var sinhronizēt ar programmu Supply Chain Management, izmantojot Common Data Service datu integrācijas projektu. Šo rēķinu atjauninājumi tiks sinhronizēti ar brīvā teksta rēķiniem risinājumā Supply Chain Management, ja brīvā teksta rēķinu uzskaites statuss ir **Apstrāde**. Pēc brīvā teksta rēķinu grāmatošanas risinājumā Supply Chain Management un pēc uzskaites statusa atjaunināšanas uz **Pabeigts** vairs nav iespējams sinhronizēt atjauninājumus no Field Service.
+Rēķinus, kas ir izveidoti no līguma programmā Field Service, var sinhronizēt ar programmu Supply Chain Management, izmantojot Microsoft Dataverse datu integrācijas projektu. Šo rēķinu atjauninājumi tiks sinhronizēti ar brīvā teksta rēķiniem risinājumā Supply Chain Management, ja brīvā teksta rēķinu uzskaites statuss ir **Apstrāde**. Pēc brīvā teksta rēķinu grāmatošanas risinājumā Supply Chain Management un pēc uzskaites statusa atjaunināšanas uz **Pabeigts** vairs nav iespējams sinhronizēt atjauninājumus no Field Service.
 
 ## <a name="field-service-crm-solution"></a>Risinājums Field Service CRM
 
-Entītijai **Rēķins** ir pievienots lauks **Ir rindas ar līguma izcelsmi**. Šis lauks palīdz nodrošināt, ka tiek sinhronizēti tikai tie rēķini, kas izveidoti no līguma. Vērtība ir **patiess**, ja rēķinā ir vismaz viena rēķina rinda, kas izveidota no līguma.
+Tabulai **Rēķins** ir pievienota kolonna **Ir rindas ar līguma izcelsmi**. Šī kolonna palīdz nodrošināt tikai to rēķinu sinhronizāciju, kas izveidoti no līguma. Vērtība ir **patiess**, ja rēķinā ir vismaz viena rēķina rinda, kas izveidota no līguma.
 
-Entītijai **Rēķina rinda** ir pievienots lauks **Ir līguma izcelsme**. Šis lauks palīdz nodrošināt, ka tiek sinhronizētas tikai tās rēķina rindas, kas izveidotas no līguma. Vērtība ir **patiess**, ja rēķina rinda izveidota no līguma.
+Tabulai **Rēķina rinda** ir pievienota kolonna **Ir līguma izcelsme**. Šī kolonna palīdz nodrošināt tikai to rēķinu rindu sinhronizāciju, kas izveidotas no līguma. Vērtība ir **patiess**, ja rēķina rinda izveidota no līguma.
 
-**Rēķina datums** ir obligāts lauks risinājumā Supply Chain Management. Tādēļ laukā ir jābūt vērtībai risinājumā Field Service, pirms tiek veikta sinhronizēšana. Lai izpildītu šo prasību, tiek pievienota šāda loģika.
+**Rēķina datums** ir obligāts lauks risinājumā Supply Chain Management. Tādēļ kolonnā ir jābūt vērtībai risinājumā Field Service, pirms tiek veikta sinhronizēšana. Lai izpildītu šo prasību, tiek pievienota šāda loģika.
 
-- Ja entītijas **Rēķins** lauks **Rēķina datums** ir tukšs (proti, ja tajā nav vērtības), tajā tiek iestatīts pašreizējais datums, kad tiek pievienota rēķina rinda, kas izveidota no līguma.
-- Lietotājs var mainīt lauku **Rēķina datums**. Tomēr, kad lietotājs mēģina saglabāt rēķinu, kas izveidots no līguma, tiek parādīta biznesa procesa kļūda, ja rēķinā ir tukšs lauks **Rēķina datums**.
+- Ja tabulas **Rēķins** kolonna **Rēķina datums** ir tukšs (proti, ja tajā nav vērtības), tajā tiek iestatīts pašreizējais datums, kad tiek pievienota rēķina rinda, kas izveidota no līguma.
+- Lietotājs var mainīt kolonnu **Rēķina datums**. Tomēr, kad lietotājs mēģina saglabāt rēķinu, kas izveidots no līguma, tiek parādīta biznesa procesa kļūda, ja rēķinā ir tukša kolonna **Rēķina datums**.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
@@ -108,6 +107,3 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Līguma rēķini (no Field Service uz Supply Chain Management): Rēķinu rindas
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa79ab46e9fdc6f8a2b4524d372949314ac2d200
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be1e818e8a97684248c9c0b9d43c39e631f855f5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445534"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979267"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Kreditora rēķina reģistrēšana un atbilstības pārbaude pret saņemto daudzumu
 
@@ -65,6 +64,3 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Šīs dar
 10. Darbību rūtī noklikšķiniet uz Pārskatīt.
 11. Noklikšķiniet uz Detalizēta informācija par atbilstību.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

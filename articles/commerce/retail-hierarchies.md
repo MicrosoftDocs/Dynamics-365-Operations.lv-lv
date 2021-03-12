@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94b391ab5028f76debb75d25ac9469e25361cb12
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414143"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979620"
 ---
 # <a name="commerce-hierarchies"></a>Commerce hierarhijas
 
@@ -45,6 +44,3 @@ Nākamajā tabulā ir norādīti pieejamo kategoriju hierarhijas tipi un katra t
 | Navigācijas hierarhija   | Lietojiet šo hierarhijas tipu preču grupēšanai un kārtošanai kategorijās tā, lai preces var pārlūkot tiešsaistē vai POS. |
 
 Izmantojot kategoriju hierarhiju savu preču kārtošanai, varat iestatīt un uzturēt preces īpašības un rekvizītus kategorijas līmenī. Šīs īpašības un rekvizīti ietver preču dimensijas iestatījumus un POS iestatījumus. Jebkādas preces, ko piešķirat kategorijām, automātiski pārmantos jūsu definētas īpašības un rekvizītus. Varat arī vienlaikus nokopēt preču rekvizītu iestatījumus vairākām precēm atlasītā kategorijā.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445542"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979592"
 ---
 # <a name="project-invoicing"></a>Projekta rēķinu izrakstīšana
 
@@ -75,7 +74,7 @@ Ja jūsu organizācija pieprasa, ka rēķinu priekšlikumi pirms grāmatošanas 
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Skatīt piešķīruma informāciju projekta rēķinu saraksta lapās
 
-Publiskā sektora lietotāji var pievienot **Piešķīruma ID** un **Piešķīruma nosaukumu** **Projekta rēķinu priekšlikumiem** un **Projekta rēķinu** saraksta lapām. Šīs kolonnas ir iespējotas, izmantojot līdzekli **Pievienot piešķīruma informāciju projekta rēķinu saraksta lapām**. Šis līdzeklis ir izslēgts pēc noklusējuma, un to var iespējot sadaļā  **Darbvietas > Līdzekļu pārvaldība**. Sazinieties ar sistēmas administratoru, lai saņemtu palīdzību šī līdzekļa iespējošanā.
+Publiskā sektora lietotāji var pievienot **Piešķīruma ID** un **Piešķīruma nosaukumu** **Projekta rēķinu priekšlikumiem** un **Projekta rēķinu** saraksta lapām. Šīs kolonnas ir iespējotas, izmantojot līdzekli **Pievienot piešķīruma informāciju projekta rēķinu saraksta lapām**. Šis līdzeklis ir izslēgts pēc noklusējuma, un to var iespējot sadaļā **Darbvietas > Līdzekļu pārvaldība**. Sazinieties ar sistēmas administratoru, lai saņemtu palīdzību šī līdzekļa iespējošanā.
 
 ## <a name="on-account-invoicing"></a>Starpkonta rēķinu izrakstīšana
 Projektam starpkonta rēķinā ievadītā summa tiek noteikta, pamatojoties uz grafiku, pabeigtību un citiem norēķinu nosacījumiem, kas ir norādīti saistītajā projekta līgumā. Šī summa netiek aprēķināta, pamatojoties uz stundām, krājumiem, izdevumiem vai papildmaksām, kas tiek grāmatotas projektā. 
@@ -132,6 +131,3 @@ Varat izveidot rēķinu ar negatīvu summu — šāds rēķins kļūst par rēķ
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

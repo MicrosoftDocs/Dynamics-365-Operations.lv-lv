@@ -1,5 +1,5 @@
 ---
-title: Tāda daļēja kreditora maksājuma segšana, kam ir atlaides kreditora kredītrēķiniem
+title: Nosegt daļēju kreditora maksājumu, kam ir atlaides kredīta notām
 description: Šajā rakstā ir izklāstīts scenārijs, kur kredītrēķins tiek nosegts pret rēķinu.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14222
 ms.assetid: 2b19f7fd-9ff9-4ee4-bddf-f582946d008e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 701376cd080a5dda4c985aced1b08c7cb2147c27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445434"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979442"
 ---
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Tāda daļēja kreditora maksājuma segšana, kam ir atlaides kreditora kredītrēķiniem
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Nosegt daļēju kreditora maksājumu, kam ir atlaides kredīta notām
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,6 +70,3 @@ Eiprila var pārskatīt kreditoru darbības lapā **Kreditoru darbības**, atlas
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
