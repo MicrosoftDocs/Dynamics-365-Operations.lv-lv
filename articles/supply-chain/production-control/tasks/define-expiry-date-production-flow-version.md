@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 97ac33d28a49ad0f2a3956ad65b159e4ec4785c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a595ca4ff9f6753631303b656d56735320a22a69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432483"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975089"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Derīguma termiņa definēšana ražošanas plūsmas versijai
 
@@ -41,6 +40,3 @@ Lai beigtu ražošanas plūsmas versijas derīgumu un apstrādi noteiktā datum�
 6. Laukā Beigu datums ievadiet datumu un laiku.
     * Beigu datumam jaunā versija netiks startēta vai aktivizēta. Šai ražošanas plūsmai arī vairs nebūs iespējams izveidot vai sākt darbus. Jūs joprojām varat izpildīt uzsāktos darbus pēc beigu datuma.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

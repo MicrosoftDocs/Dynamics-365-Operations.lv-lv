@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432972"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974989"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Programmā Sales ietverto pārdošanas pasūtījumu tieša sinhronizācija ar programmu Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti pārdošanas pasūtījumu tiešai sinhronizēšanai programmās Dynamics 365 Sales un Dynamics 365 Supply Chain Management.
 
@@ -64,8 +65,8 @@ Lai varētu veikt pārdošanas rēķinu galveņu un rindu sinhronizāciju, ir ne
 
 | Supply Chain Management  | Pārdošana             |
 |-------------------------|-------------------|
-| CDS pārdošanas pasūtījumu virsraksti | SalesOrders       |
-| CDS pārdošanas pasūtījumu rindas   | SalesOrderDetails |
+| Dataverse Pārdošanas pasūtījumu galvenes | SalesOrders       |
+| Dataverse pārdošanas pasūtījumu rindas   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
@@ -75,7 +76,7 @@ Jums nav jāizveido pasūtījumi programmā Sales. Tā vietā varat izveidot jau
 
 Programmā Supply Chain Management filtri veidnē palīdz nodrošināt, ka tiek sinhronizēti tikai saistītie pārdošanas pasūtījumi.
 
-- Pārdošanas pasūtījumā norādītajam pasūtījumu veikušajam debitoram un rēķinu izrakstījušajam debitoram ir jābūt iegūtiem no programmas Sales, lai šie dati tiktu ietverti sinhronizēšanā. Programmā Supply Chain Management lauki **OrderingCustomerIsExternallyMaintained** un **InvoiceCustomerIsExternallyMaintained** tiek izmantoti, lai filtrētu pārdošanas pasūtījumus datu elementos.
+- Pārdošanas pasūtījumā norādītajam pasūtījumu veikušajam debitoram un rēķinu izrakstījušajam debitoram ir jābūt iegūtiem no programmas Sales, lai šie dati tiktu ietverti sinhronizēšanā. Programmā Supply Chain Management lauki **OrderingCustomerIsExternallyMaintained** un **InvoiceCustomerIsExternallyMaintained** tiek izmantoti, lai filtrētu pārdošanas pasūtījumus datu tabulās.
 - Pārdošanas pasūtījums ir jāapstiprina programmā Supply Chain Management. Ar programmu Sales tiek sinhronizēti tikai apstiprinātie pārdošanas pasūtījumi vai pārdošanas pasūtījumi, kuriem ir augstāks apstrādes statuss, piemēram, **Nosūtīts** vai **Iekļauts rēķinā**.
 - Pēc pārdošanas pasūtījuma izveidošanas vai izmainīšanas programmā Supply Chain Management ir jāizpilda pakešuzdevums **Aprēķināt pārdošanas kopsummas**. Ar programmu Sales tiek sinhronizēti tikai tie pārdošanas pasūtījumi, kuriem ir aprēķinātas pārdošanas kopsummas.
 
@@ -103,10 +104,10 @@ Kad programmā Sales ietverta pārdošanas pasūtījuma rinda tiek sinhronizēta
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Risinājums No potenciālā klienta līdz skaidrai naudai programmai Sales
 
-Elementam **Pasūtījums** ir pievienoti jauni lauki, kas tiek rādīti ekrāna.
+Tabulai **Pasūtījums** ir pievienotas jaunas kolonnas, kas tiek rādītas lapā:
 
 - **Tiek uzturēts ārēji**— Iestatiet šīs opcijas vērtību **Jā**, ja pasūtījums ir iegūts no programmas Supply Chain Management.
-- **Apstrādes statuss**— šajā laukā tiek rādīts pasūtījuma apstrādes statusu programmā Supply Chain Management. Ir pieejamas šādas vērtības:
+- **Apstrādes statuss**— šajā kolonnā tiek rādīts pasūtījuma apstrādes statusu programmā Supply Chain Management. Ir pieejamas šādas vērtības:
 
     - **Melnraksts** – sākotnējais statuss pēc pasūtījuma izveides programmā Sales. Programmā Sales var rediģēt tikai pasūtījumus, kam ir iestatīts šis apstrādes statuss.
     - **Aktīvs** – statuss pēc pasūtījuma aktivizēšanas programmā Sales, izmantojot pogu **Aktivizēt**.
@@ -141,7 +142,7 @@ Pirms pārdošanas pasūtījumu sinhronizēšanas ir svarīgi sistēmās atjauni
 - Pārejiet uz sadaļu **Iestatījumi** &gt; **Administrēšana** &gt; **Sistēmas iestatījumi** &gt; **Pārdošana** un pārliecinieties, ka ir izmantoti tālāk norādītie iestatījumi.
 
     - Ir iestatīta opcijas **Lietot sistēmas cenu noteikšanas sistēmu** vērtība **Jā**.
-    - Ir iestatīta lauka **Atlaides aprēķināšanas metode** vērtība **Rindas vienums**.
+    - Kolonnas **Atlaides aprēķināšanas metode** vērtība ir iestatīta uz **Rindas vienums**.
 
 ### <a name="setup-in-supply-chain-management"></a>Supply Chain Management iestatīšana
 
@@ -151,8 +152,8 @@ Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas i
 
 1. Atveriet sadaļu **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Pārdošanas izcelsme**.
 2. Atlasiet **Jauns**, lai izveidotu jaunu pārdošanas izcelsmi.
-3. Laukā **Pārdošanas izcelsme** ievadiet pārdošanas izcelsmes nosaukumu, piemēram, **SalesOrder**.
-4. Laukā **Apraksts** ievadiet aprakstu, piemēram, **Pārdošanas pasūtījums no Pārdošanas**.
+3. Kolonnā **Pārdošanas izcelsme** ievadiet pārdošanas izcelsmes nosaukumu, piemēram, **SalesOrder**.
+4. Kolonnā **Apraksts** ievadiet aprakstu, piemēram, **Pārdošanas pasūtījums no Pārdošanas**.
 5. Atzīmējiet izvēles rūtiņu **Izcelsmes tipa piešķire**.
 6. Laukā **Pārdošanas izcelsmes tips** iestatiet vērtību **Pārdošanas pasūtījuma integrācija**.
 7. Atlasiet **Saglabāt**.
@@ -186,7 +187,7 @@ Ja izmantojat arī darba pasūtījumu integrāciju, ir jāiestata pārdošanas i
 Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Datu integrācija.
 
 > [!NOTE]
-> Kartējums norāda to, kuru programmā Sales ietverto lauku informācija tiks sinhronizēta ar programmu Supply Chain Management vai pretēji.
+> Kartējums norāda to, kuru programmā Sales ietverto kolonnu informācija tiks sinhronizēta ar programmu Supply Chain Management vai pretēji.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pārdošanas pasūtījumi (no Supply Chain Management uz Sales) - Tiešā: PasūtījumaGalvene
 
@@ -207,6 +208,3 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

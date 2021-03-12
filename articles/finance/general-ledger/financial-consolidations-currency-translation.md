@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445707"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975768"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -125,7 +124,7 @@ Pēc nepieciešamības varat iestatīt datumu, kad eliminācijas kārtula stāja
 
 Kad pamatīpašības ir definētas, atlasiet **Rindas**, lai definētu faktiskās apstrādes kārtulas. Eliminācijai ir divas opcijas — var eliminēt neto izmaiņas summu vai definēt fiksētu summu.
 
-Atlasiet avota kontus. Varat izmantot zvaigznīti (\*) kā aizstājzīmi. Piemēram, **1\*** kā sadalījuma datu avotu atlasa visus kontus, kas sākas ar **1**.
+Atlasiet avota kontus. Varat izmantot zvaigznīti (\*) kā aizstājzīmi. Piemēram, **1\**_kā sadalījuma datu avotu atlasa visus kontus, kas sākas ar_* 1**.
 
 Kad ir atlasīti avota konti, izmantojiet lauku **Konta specifikācijas**, lai noteiktu kontu, ko izmanto no mērķa uzņēmuma. Atlasiet vērtību **Avots**, lai lietotu to pašu galveno kontu, kurš definēts avota kontā. Ja atlasāt vērtību **Lietotāja definēts**, jums ir jānorāda galamērķa konts.
 
@@ -182,6 +181,3 @@ Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie 
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

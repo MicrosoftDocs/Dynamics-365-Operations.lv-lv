@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433147"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973889"
 ---
 # <a name="transportation-management-engines"></a>Transportēšanas pārvaldības programmas
 
@@ -89,7 +88,7 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
 | **Zonas noteikšanas programma**                                | Metadati jāiestata tieši zonas šablonā.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Pārvadājumu ilguma noteikšanas programma** un **attāluma noteikšanas programma** | Izgūst metadatus tieši no attāluma noteikšanas programmas konfigurācijas iestatījumu formas.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Likmes noteikšanas programmas metadatu piemērs** Transportēšanas pārvaldības programmā ir jānorāda sūtījuma izcelsmes adrese, galamērķa administratīvais apgabals un valsts/reģions un sākuma un beigu punkts. Izmantojot šīs prasības, metadati izskatīsies kā tālāk sniegtajā tabulā norādītie dati. Tabulā ir sniegta arī informācija par nepieciešamo datu veidu.
+  **Likmes noteikšanas programmas metadatu piemērs** Transportēšanas pārvaldības programmā ir jānorāda sūtījuma izcelsmes adrese, galamērķa administratīvais apgabals un valsts/reģions un sākuma un beigu punkts. Izmantojot šīs prasības, metadati izskatīsies kā tālāk sniegtajā tabulā norādītie dati. Tabulā ir sniegta arī informācija par nepieciešamo datu veidu.
 -   Definējiet šo informāciju sadaļā **Transportēšanas pārvaldība** &gt; **Iestatīšana** lapā **Likmes bāzes veids**.
 
 | Sērija | Nosaukums                          | Lauka tips | Datu tips | Uzmeklēšanas tips    | Obligāts |
@@ -99,6 +98,3 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
 | 3        | Galamērķa sākuma pasta indekss | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 4.        | Galamērķa beigu pasta indekss   | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 5.        | Galamērķa valsts           | Piešķire | Virkne    | Valsts/reģions |           |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

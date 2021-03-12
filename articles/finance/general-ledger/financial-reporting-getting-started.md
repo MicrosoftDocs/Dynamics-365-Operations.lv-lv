@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: 24d57982981ca7b72e43c086ace381e420acb06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672448"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975690"
 ---
 # <a name="get-started-with-financial-reporting"></a>Sākt darbu ar Financial reporting 
 
@@ -46,8 +45,10 @@ Lai izveidotu un ģenerētu finanšu atskaites kādai juridiskajai personai, ša
 
 -   Finanšu kalendārs
 -   Ledger
--   Kontu diagramma
+-   Kontu plāns
 -   Valūta
+-   Darbības grāmatošana vismaz vienā kontā
+-   MainAccount ir norādīts kolonnā Atlasīts sadaļā **Virsgrāmata > Virsgrāmatas iestatīšana > Finanšu pārskatu iestatījumi**
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Drošības piekļuves piešķiršana Financial Reporting
 Finanšu atskaišu veidošanas funkcijas ir pieejamas lietotājiem, kam ir piešķirtas atbilstošās privilēģijas un pienākumi, izmantojot viņu drošības lomas. Nākamajās sadaļās šīs privilēģijas un pienākumi ir uzskaitīti kopā ar saistītajām lomām.
@@ -173,6 +174,3 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 ## <a name="additional-resources"></a>Papildu resursi
 - [Skatīt finanšu pārskatus](view-financial-reports.md)
 - [Pārskatu koka definīcijas finanšu pārskatos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

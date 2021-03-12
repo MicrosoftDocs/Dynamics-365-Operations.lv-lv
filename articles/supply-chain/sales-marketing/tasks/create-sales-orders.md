@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432582"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974814"
 ---
 # <a name="create-sales-orders"></a>izveidot pārdošanas pasūtījumus;
 
@@ -39,7 +38,7 @@ ms.locfileid: "4432582"
 
 ## <a name="enter-sales-order-line-details"></a>Ievadīt pārdošanas pasūtījuma rindas informāciju
     
-Jūsu organizācijas pārdotās preces var tikt piedāvātas dažādos variantos, kas atšķiras pēc dimensijām, piemēram, konfigurācijas, krāsas, izmēra un stila. Tāpat preces var būt iestatītas noliktavas dimensiju lietošanai, piemēram, vietām, noliktavām un paletēm, kā arī plauktu dimensiju lietošanai, piemēram, partijām un sērijas numuriem. Kad tiek piešķirtas šīm dimensijas, jums pasūtījuma rindā ir jāatlasa vērtības šīm dimensijām. Lai uzlabotu pasūtījuma izveides efektivitāti, iespējams, attiecīgo dimensiju laukus vēlaties pievienot pasūtījuma režģim.
+Jūsu organizācijas pārdotās preces var tikt piedāvātas dažādos variantos, kas atšķiras pēc dimensijām, piemēram, konfigurācijas, krāsas, izmēra un stila. Tāpat preces var būt iestatītas noliktavas dimensiju lietošanai, piemēram, vietām, noliktavām un paletēm, kā arī izsekošanas dimensiju lietošanai, piemēram, partijām un sērijas numuriem. Kad tiek piešķirtas šīm dimensijas, jums pasūtījuma rindā ir jāatlasa vērtības šīm dimensijām. Lai uzlabotu pasūtījuma izveides efektivitāti, iespējams, attiecīgo dimensiju laukus vēlaties pievienot pasūtījuma režģim.
     
 1. Sadaļā **Pārdošanas pasūtījuma rindas** atlasiet **Pārdošanas pasūtījuma rinda**.
 2. Atlasiet **Dimensijas**.
@@ -68,6 +67,3 @@ Jūsu organizācijas pārdotās preces var tikt piedāvātas dažādos variantos
     Lapā **Kopsummas** tiek rādīta detalizēta informācija par visu pasūtījumu. Šī informācija ietver apakšsummas apjomu, kas ir visu rindas neto summu kopsumma, koriģēta atbilstoši beigu rindas atlaidēm, kopējā rēķina summa, kas ir apakšsummas apjoms, koriģēts atbilstoši beigu pasūtījuma līmeņa atlaidei, papildmaksas un PVN, debitora kredīta limita situācija un citas summas. Rēķina summa ir summa, kas tiks rādīta debitora rēķina dokumentā.  
     
 3. Atlasiet **Labi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
