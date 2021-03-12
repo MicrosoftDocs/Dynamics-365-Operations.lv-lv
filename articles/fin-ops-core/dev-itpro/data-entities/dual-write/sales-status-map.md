@@ -1,6 +1,6 @@
 ---
-title: Kartēšanas iestatīšana pārdošanas pasūtījuma statusa laukiem
-description: Šajā tēmā ir paskaidrots, kā iestatīt pārdošanas pasūtījuma statusa laukus duālajam ierakstam.
+title: Kartējuma iestatīšana pārdošanas pasūtījuma statusa kolonnām
+description: Šajā tēmā ir paskaidrots, kā iestatīt pārdošanas pasūtījuma statusa kolonnas duālajam ierakstam.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4454981"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744303"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Kartēšanas iestatīšana pārdošanas pasūtījuma statusa laukiem
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Kartējuma iestatīšana pārdošanas pasūtījuma statusa kolonnām
 
 [!include [banner](../../includes/banner.md)]
 
-Laukiem, kas norāda pārdošanas pasūtījuma statusu, ir dažādas numerācijas vērtības programmā Microsoft Dynamics 365 Supply Chain Management un Dynamics 365 Sales. Lai kartētu šos laukus duālajam ierakstam, ir nepieciešams papildu iestatījums.
+Kolonnām, kas norāda pārdošanas pasūtījuma statusu, ir dažādas numerācijas vērtības programmā Microsoft Dynamics 365 Supply Chain Management un Dynamics 365 Sales. Lai kartētu šīs kolonnas duālajam ierakstam, ir nepieciešams papildu iestatījumi.
 
-## <a name="fields-in-supply-chain-management"></a>Supply Chain Management lauki
+## <a name="columns-in-supply-chain-management"></a>kolonnas programmā Supply Chain Management
 
-Programmā Supply Chain Management pārdošanas pasūtījuma statusu ataino divi lauki. Kartējamie lauki ir **Statuss** un **Dokumentu statuss**.
+Programmā Supply Chain Management pārdošanas pasūtījuma statusu ataino divas kolonnas. Kartējamas kolonnas ir **Statuss** un **Dokumentu statuss**.
 
 **Statusa** uzskaitījums norāda pasūtījuma vispārējo statusu. Šis statuss tiek norādīts pasūtījuma galvenē.
 
@@ -53,9 +53,9 @@ Programmā Supply Chain Management pārdošanas pasūtījuma statusu ataino divi
 - Pavadzīme
 - Rēķins
 
-## <a name="fields-in-sales"></a>Pārdošanas lauki
+## <a name="columns-in-sales"></a>Pārdošanas kolonnas
 
-Programmā Sales pasūtījuma statusu norāda divi lauki. Kartējamie lauki ir **Statuss** un **Apstrādes statuss**.
+Programmā Sales pasūtījuma statusu norāda divas kolonnas. Kartējamās kolonnas ir **Statuss** un **Apstrādes statuss**.
 
 **Statusa** uzskaitījums norāda pasūtījuma vispārējo statusu. Tam ir tālāk minētās vērtības:
 
@@ -110,14 +110,14 @@ Lai iespējotu **IsSOPIntegrationEnabled** atribūtu, veiciet tālāk norādīt�
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Lai iespējotu **IsSOPIntegrationEnabled** atribūtu, veiciet tālāk norādīt�
 
 Lai iespējotu **isIntegrationUser** atribūtu, veiciet tālāk norādītās darbības.
 
-1. Sadaļā Sales, dodieties uz **Iestatījumi \> Pielāgošana \> Pielāgot sistēmu**, atlasiet **Lietotāja elementu** un pēc tam atveriet **Veidlapa \> Lietotājs**.
+1. Sadaļā Sales, dodieties uz **Iestatījumi \> Pielāgošana \> Pielāgot sistēmu**, atlasiet **Lietotāja tabulu** un pēc tam atveriet **Veidlapa \> Lietotājs**.
 
     ![Lietotāja veidlapas atvēršana](media/sales-map-user.png)
 
 2. Lauku pārlūkā meklējiet **Integrēšanas lietotāja režīms** un veiciet dubultklikšķi uz tā, lai to pievienotu veidlapai. Saglabājiet izmaiņas.
 
-    ![Integrēšanas lietotāja režīma lauka pievienošana veidlapai](media/sales-map-field-explorer.png)
+    ![Integrēšanas lietotāja režīma kolonnas pievienošana veidlapai](media/sales-map-field-explorer.png)
 
 3. Sadaļā Sales dodieties uz **Iestatījums \> Drošība \> Lietotāji** un mainiet skatu no **Iespējotie lietotāji** uz **Programmas lietotāji**.
 
@@ -145,11 +145,8 @@ Lai iespējotu **isIntegrationUser** atribūtu, veiciet tālāk norādītās dar
 
     ![Programmas lietotāju saraksts](media/sales-map-user-mode.png)
 
-5. Mainiet lauka **Integrēšanas lietotāja režīms** vērtību uz **Jā**.
+5. Mainiet kolonnas **Integrēšanas lietotāja režīms** vērtību uz **Jā**.
 
-    ![Lauka Integrēšanas lietotāja režīms vērtības maiņa](media/sales-map-user-mode-yes.png)
+    ![Kolonna Integrēšanas lietotāja režīms vērtības maiņa](media/sales-map-user-mode-yes.png)
 
 Jūsu pārdošanas pasūtījumi tagad ir kartēti.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694140"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798553"
 ---
 # <a name="before-you-buy"></a>Pirms iegādes
 
@@ -30,7 +30,7 @@ Jauns Dynamics 365 Finance, Dynamics 365 Supply Chain Management vai Dynamics 36
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmais solis: izmēģiniet Finance and Operations bez maksas 30 dienas
 
-Varat izmēģināt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce 30 dienas, veicot vienkāršu reģistrēšanos ar e-pastu. Finance and Operations izmēģinājumversijā ir iekļauti darba sākšanas uzdevumu ceļveži, kuros sniegti detalizēti norādījumi, kas ļauj jums darbībā redzēt noteiktus scenārijus. Šis produkts ir pieejams izpētes un izpildes scenārijiem, taču to nevar pielāgot. Lai produkta lietošana būtu vienkāršāka un saprotamāka, ir iekļauti demonstrācijas dati. Kad līdz izmēģinājumversijas termiņa beigām būs atlikušas 3 dienas, par to tiks nosūtīts atgādinājuma e-pasta ziņojums. Detalizēta informācija ir pieejama vietnē [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Varat izmēģināt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce 30 dienas, veicot vienkāršu reģistrēšanos ar e-pastu. Finance and Operations izmēģinājumversijā ir iekļauti darba sākšanas uzdevumu ceļveži, kuros sniegti detalizēti norādījumi, kas ļauj jums darbībā redzēt noteiktus scenārijus. Šis produkts ir pieejams izpētes un izpildes scenārijiem, taču to nevar pielāgot. Lai produkta lietošana būtu vienkāršāka un saprotamāka, ir iekļauti demonstrācijas dati. Kad līdz izmēģinājumversijas termiņa beigām būs atlikušas 3 dienas, par to tiks nosūtīts atgādinājuma e-pasta ziņojums. Saņemt informāciju [Reģistrācija priekšskatīuma abonementiem](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Otrā darbība: izvēlieties izvietošanas opciju
 
@@ -72,8 +72,8 @@ Ja organizācijā ir vismaz 250 Dynamics 365 lietotāju, jums varētu būt sai
 
 Lielapjoma licencēšanai Finance and Operations pieteikumi ir pieejami, izmantojot tālāk norādīto.
 
-- Līgums Enterprise
-- Līguma Enterprise abonements
+- Enterprise līgums
+- Enterprise līguma abonements
 - Reģistrācija izglītības risinājumiem (līguma Campus and School ietvaros)
 - Microsoft produktu un pakalpojumu līgums (MPSA)
 
@@ -93,6 +93,3 @@ Microsoft FastTrack for Dynamics 365 ir pakalpojums mūsu klientiem, kas izstr�
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ja veicat jaunināšanu no programmas Dynamics AX 2012 vai migrēšanu no programmas AX 2009
 
 Ja esat debitors, kas veic jaunināšanu no programmas Microsoft Dynamics AX 2012 vai migrēšanu no programmas Microsoft Dynamics AX 2009, iespējams, jums ir pieejams ilgāks izmēģinājuma periods. Lai iegūtu papildu informāciju, rakstiet uz adresi <daxcf@microsoft.com>.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

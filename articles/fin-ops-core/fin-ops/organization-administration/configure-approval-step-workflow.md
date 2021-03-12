@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71d51f137cc0e0fcc18b39f8b92ab5c44b359609
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694080"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797100"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Apstiprināšanas darbību konfigurēšana darbplūsmā
 
@@ -276,6 +276,3 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
 
 5. Atkārtojiet 3.–4. darbību katram lietotājam, kurš jāpievieno eskalācijas ceļam. Jūs varat mainīt lietotāju secību.
 6. Ja eskalācijas ceļā norādītie lietotāji neatbild atvēlētajā laikā, sistēma automātiski veiks darbību ar dokumentu. Lai norādītu darbību, ko sistēma veic, atlasiet rindu **Darbība** un pēc tam cilnē **Beigu darbība** atlasiet darbību.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

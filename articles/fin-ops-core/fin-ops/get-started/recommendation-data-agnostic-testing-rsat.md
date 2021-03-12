@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693754"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798205"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Datu agnostiskā testēšana, izmantojot Regression Suite Automation Tool
 
@@ -49,6 +49,3 @@ Lai gan ERP lietojumprogrammas funkcionālā validācija nevar būt pilnībā da
     - Apstipriniet tikai pēc tam, kad izfiltrējat noteiktu darbību, nevis veicat vispārēju pārbaudi. Piemēram, ierakstu skaitam filtrējiet darbības numuru vai darbības datumu, lai validācija neiekļautu visas citas darbības. 
     - Ja pārbaudāt klientu bilanci vai budžetu, vispirms saglabājiet vērtību un pēc tam pievienojiet savu darbību vērtību, lai apsiprinātu gaidāmo rezultātu, nevis pārbaudītu fiksēto paredzamo vērtību. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

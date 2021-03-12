@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0b55046e6c523398b4a30e674dc9f77bb6fedf3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ca9ddaed0c4aad6aeb3877384778d33f83e6e4aa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693212"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796856"
 ---
 # <a name="record-templates-overview"></a>Ierakstu veidņu pārskats
 
@@ -37,6 +37,3 @@ Piemēram, iedomājieties, ka jūs ievadāt nomas informāciju par automašīnu 
 > Veidnes varat lietot tikai tādos apgabalos, kam varat piekļūt. Tomēr ir redzami visi veidņu nosaukumi, kad izveidojat jaunu ierakstu, un tie ir redzami arī citiem lietotājiem, ja jūs izveidojat veidnes, kas būs pieejamas visiem lietotājiem. Paturiet to prātā, kad piešķirsiet veidnēm nosaukumus. Piemēram, centieties neizmantot nosaukumus, kuri satur tādus vārdus kā “komisija”, ja ne visiem lietotājiem būtu jāzina, ka dažiem uzņēmuma darbiniekiem algas ir balstītas uz komisiju.
 
 Kad specifiskai formai pastāv viena vai vairākas veidnes, kam jums ir piekļuve, un jūs mēģināt izveidot jaunu ierakstu šajā formā, tiek parādīta lapa **Atlasiet veidni, kas paredzēta...**. Kad atlasāt veidni no saraksta, tiek izveidots jauns ieraksts, kas satur uz atlasīto veidni balstītu noklusējuma informāciju. Ja nevēlaties izmantot veidnes jaunu ierakstu izveidei, atzīmējiet izvēles rūtiņu **Nejautāt atkārtoti** lapā **Atlasiet veidni, kas paredzēta**. Lai atkal tiktu parādīts veidnes atlases dialoglodziņš, ar peles labo pogu noklikšķiniet uz jebkura ieraksta, noklikšķiniet uz **Informācija par ierakstu** un pēc tam noklikšķiniet uz **Parādīt veidnes atlasi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

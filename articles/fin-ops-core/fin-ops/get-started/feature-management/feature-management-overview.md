@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692970"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798356"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -34,7 +34,7 @@ Katrā laidienā tiek pievienoti un atjaunināti līdzekļi. Pieredze Līdzekļu
 
 Varat atvērt darbvietu **Līdzekļu pārvaldība** darbvietu, atlasot attiecīgo elementu informācijas panelī. Tiks parādīta lapa ar līdzekļu sarakstu visiem laidieniem, ko atbalsta Līdzekļu pārvaldības pieredze. Laika gaitā korporācija Microsoft uzlabos Līdzekļu pārvaldības pieredzi, lai tā iekļautu papildu funkcionalitāti, kas palīdz pārvaldīt līdzekļus.
 
-Līdzekļu sarakstā ir tālāk norādītā informācija.
+Līdzekļu sarakstā ir tālāk norādītā informācija:
 
 - **Līdzekļa nosaukums** — pievienotā līdzekļa apraksts.
 - **Iespējošanas statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
@@ -101,8 +101,8 @@ Visi līdzekļi, kurus var iespējot, tiks iespējoti. Ja līdzeklim nākotnē j
 
 Pēc noklusējuma visi līdzekļi, kas ir pievienoti jūsu videi, ir izslēgti, izņemot gadījumus, ja tie ir obligātie līdzekļi. Taču, ja vēlaties automātiski ieslēgt visus jaunos līdzekļus, varat izmantot nolaižamo sarakstu zem darbvietas nosaukuma, lai mainītu to, kas notiek pēc jaunu līdzekļu pievienošanas.
 
-- Atlasiet **Automātiski iespējot jaunus līdzekļus**, lai automātiski ieslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
-- Atlasiet **Automātiski neiespējot jaunus līdzekļus**, lai pēc noklusējuma izslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
+- Atlasiet `Enable new features automatically`, lai automātiski ieslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
+- Atlasiet `Do not enable new features automatically`, lai automātiski atslēgtu visus jaunus līdzekļus, pievienojot tos jūsu videi.
 
 
 Ja iespējosit visus līdzekļus automātiski, tas iespējos visus līdzekļus, kas tiktu iespējoti, noklikšķinot uz pogas **Iespējot visu**. Tas neiespējos līdzekļus, kuriem ir nepieciešams apstiprinājums, vai līdzekļus, kurus nevar iespējot līdz brīdim, kad tiek veikta darbība.
@@ -159,7 +159,7 @@ Nē, funkcijas kļūšana obligāta nav automātiska darbība. Preču komandām 
 ### <a name="when-do-features-become-mandatory"></a>Kad funkcijas kļūst obligātas? 
 Politika ir tāda, ka visi jaunie līdzekļi tiks atteikti uz 12 mēnešu periodu, un netiks pieprasīta izmaiņu pārvaldība, kamēr līdzekli neaktivizēsit. Preču grupas var izvēlēties, vai līdzekli padarīt par obligātu pēc šī perioda beigām. 
 
-### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kāpēc nav noteikta “obligāti iespējotā datuma”? 
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kāpēc nav noteikts “obligāti iespējotais datums”? 
 Atjaunināšanas izlaišanas laiks ir mainīgs, vides atjaunināšanas laiks ir mainīgs, un klienti var izvēlēties izlaist dažus atjauninājumus. Tāpēc konkrētus datumus ir grūti noteikt. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kur atrodas dokumentācija par līdzekļiem, kas tiek veikti obligāti? 
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Kāds IFeatureLifecycle ir ieviests ar dažām funkciju klasēm?
 IFeatureLifecycle ir iekšējs Microsoft mehānisms līdzekļu dzīves cikla stadijas norādīšanai. Līdzekļi var būt šādi:
-- PrivatePreview — lai būtu redzams, nepieciešams lidojums.
-- PublicPreview — tiek parādīts pēc noklusējuma, bet ar brīdinājumu, ka līdzeklis ir priekšskatījumā.
-- Izlaists — pilnībā izlaists.
+- `PrivatePreview` — lai būtu redzams, nepieciešams lidojums.
+- `PublicPreview` — tiek parādīts pēc noklusējuma, bet ar brīdinājumu, ka līdzeklis ir priekšskatījumā.
+- `Released`– pilnībā nodots izpildei.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

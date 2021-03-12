@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694499"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798431"
 ---
 # <a name="create-alert-rules"></a>Brīdinājumu noteikumu veidošana
 
@@ -40,7 +40,7 @@ Pakešuzdevumi datu maiņai un termiņa brīdinājumiem ir jāpalaiž, lai tiktu
 
 Notikums — notikums, kas aktivizē brīdinājuma kārtulu var būt datums, kas iestājas, vai noteiktas izmaiņas, kas ir veiktas. Ar notikumiem saistītie aktivizēšanas elementi tiek definēti dialoglodziņa **Izveidot brīdinājumu kārtulu** kopsavilkuma cilnē **Brīdināt, ja**. Konkrētajā laukā pieejamie notikumi ir atkarīgi no atlasītā aktivizēšanas elementa.
 
-Piemēram, ja tiek iestatīta lauka **Sākuma datums** brīdinājuma kārtula, piemēroti ir izpildes datuma notikumi. Tāpēc šim laukam ir pieejams notikuma veids **izpildes datums**. Tomēr, piemēram, laukam **Izmaksu centrs**, izpildes datuma notikums nav piemērots. Tāpēc notikuma veids **izpildes datums** nav pieejams. Tā vietā ir pieejams notikuma veids **ir mainījies**.
+Piemēram, ja tiek iestatīta lauka **Sākuma datums** brīdinājuma kārtula, piemēroti ir izpildes datuma notikumi. Tādējādi šim laukam ir pieejams `is due in` notikuma veids. Tomēr, piemēram, laukam **Izmaksu centrs**, izpildes datuma notikums nav piemērots. Tāpēc `is due in` notikuma veids nav pieejams. Tā vietā ir pieejams notikuma veids `has changed`.
 
 ## <a name="event-types"></a>Notikumu tipi
 
@@ -77,7 +77,7 @@ Dialoglodziņa **Izveidot brīdinājuma kārtulu** kopsavilkuma cilnē **Brīdin
 
 ## <a name="alerts-as-business-events"></a>Brīdinājumi kā biznesa notikumi
 
-Brīdinājumus var sūtīt ārēji, izmantojot biznesa notikumu satvaru. Veidojot brīdinājumu, iestatiet **Organizācijas mēroga** uz **Nē** un iestatiet **Sūtīt ārēji** uz **Jā**. Kad ir gatavs biznesa notikumu aktivizējošai brīdinājums, varat aktivizēt plūsmu, kas iebūvēta Power Automate, izmantojot trigeri **Kad notiek biznesa notikums** Finance and Operations savienotājā, vai arī tieši nosūtīt notikumu biznesa notikumu galapunktam, izmantojot **Biznesa notikumu katalogu**.
+Brīdinājumus var sūtīt ārēji, izmantojot biznesa notikumu ietvaru. Veidojot brīdinājumu, iestatiet **Organizācijas mēroga** uz **Nē** un iestatiet **Sūtīt ārēji** uz **Jā**. Kad ir gatavs biznesa notikumu aktivizējošai brīdinājums, varat aktivizēt plūsmu, kas iebūvēta Power Automate, izmantojot trigeri **Kad notiek biznesa notikums** Finance and Operations savienotājā, vai arī tieši nosūtīt notikumu biznesa notikumu galapunktam, izmantojot **Biznesa notikumu katalogu**.
 
 ## <a name="create-an-alert-rule"></a>Brīdinājuma kārtulas izveide
 
@@ -102,6 +102,3 @@ Dažiem sekundārajiem datu avotiem formās nevar izveidot brīdinājumus. Piem�
     ```
 2. Izveidojiet brīdinājumu no formas SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

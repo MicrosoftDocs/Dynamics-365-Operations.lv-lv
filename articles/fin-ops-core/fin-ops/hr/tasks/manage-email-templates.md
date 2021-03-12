@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 41777436a624f9b98956553243056b92a00c1ed6
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: b9bd15e73535f1d07b664ed659f9f15b3b0b7594
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693874"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797467"
 ---
 # <a name="manage-email-templates"></a>E-pasta veidņu pārvaldība
 
@@ -41,12 +41,9 @@ Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grā
 2. Atlasiet **Jauns**.
 3. Laukā **Atbilstošā darbība** atlasiet **Intervija**. Atlasiet saziņas darbību, kas satur grāmatzīmes, kuras jāizmanto šāda veida e-pasta saziņai.  
 4. Laukā **E-pasta veidne** ievadiet vērtību.
-5. Laukā **Temats** ievadiet vērtību. 
+5. Laukā **Temats** ievadiet vērtību.
 6. Laukā **Teksts** ierakstiet vērtību.
 7. Sarakstā atrodiet un atlasiet vajadzīgo grāmatzīmes lauku.
 8. Turpiniet rakstīt e-pasta ziņojumu, ievietojot grāmatzīmju laukus vietās, kur tie nepieciešami.
 9. Atlasiet **Saglabāt**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693406"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797788"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Ievadīt algu sākuma bilances
 
@@ -166,6 +166,3 @@ Transakcijas ir iespējams atsaukt un ievadīt no jauna. Lai transakciju atsaukt
 2. Noklikšķiniet uz **Jā**, kad tiek parādīts ziņojums “Kad anulējat šo algas pārskatu, tiek izveidots anulēšanas algas pārskats, lai kompensētu šo algas pārskatu. Nevienu no algas pārskatiem nevar rediģēt. Vai vēlaties anulēt šo samaksas pārskatu?” 
 
 Pēc algas pārskata anulēšanas varat ģenerēt jaunu nodarbinātā algas pārskatu no iepriekš izveidotā ienākumu izraksta. Pirms ģenerējat jauno algas pārskatu, noteikti labojiet visas nepareizās ienākumu izraksta rindas, un pēc tam ģenerējiet jauno algas pārskatu ar pareizajām summām. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

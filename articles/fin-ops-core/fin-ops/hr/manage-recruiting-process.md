@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f440a42ea475a42c803475d82e3027625bf4db
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694913"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798047"
 ---
 # <a name="manage-recruiting-processes"></a>Personāla atlases procesu pārvaldība
 
@@ -103,6 +103,3 @@ Lai noskaidrotu vakancei iespējami piemērotos kandidātus, var izmantot opciju
 ## <a name="hiring-applicants"></a>Kandidātu pieņemšana darbā
 
 Lai pieņemtu kandidātu darbā, izmantojiet lapu **Pieteikumi**. Pieņemot kandidātu darbā, pieteikuma ierakstam tiek piemērots statuss **Pieņemts darbā**, un kandidāta personiskais ieraksts globālajā adrešu grāmatā tiek saistīts ar jaunā darbinieka ierakstu. Jaunā darbinieka datu izmaiņas globālajā adrešu grāmatā arī tiek parādītas pieteikuma ierakstā. Tas var palīdzēt samazināt ievadāmo datu apjomu, ja jaunais nodarbinātais vēlāk piesakās citam amatam jūsu uzņēmumā. Lai pieņemtu esošu nodarbināto jaunā amatā, nolaižamajā sarakstā **Pieteikuma statuss** noklikšķiniet uz **Mainīt pozīciju**, tādējādi uzsākot amata maiņas procesu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

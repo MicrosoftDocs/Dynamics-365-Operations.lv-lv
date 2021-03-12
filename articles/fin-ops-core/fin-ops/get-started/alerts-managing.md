@@ -14,26 +14,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4e34685731a09131d2ab49a0e04479c9c20f4da8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693802"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798597"
 ---
 # <a name="batch-processing-of-alerts"></a>Brīdinājumu pakešveida apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Brīdinājumu apstrādei tiek izmantota pakešveida apstrādes funkcionalitāte. Lai brīdinājumus varētu nosūtīt, ir jāiestata pakešveida apstrāde.
+Brīdinājumu apstrādei tiek izmantota pakešveida apstrādes funkcionalitāte. Pirms procesa un piegādes brīdinājumiem ir jāiestata pakešveida apstrāde.
 
-Tiek atbalstīti divi tālāk norādītie notikumu veidi.
+Pakešapstrādes funkcionalitāte atbalsta divus notikumu tipus:
 
 - Notikumi, kurus izraisa ar izmaiņām saistīti notikumi. Šos notikumus dēvē arī par izveidošanas/dzēšanas un atjaunināšanas notikumiem.
-- Notikumi, kurus izraisa izpildes datumi.
+- Termiņu izraisītie notikumi.
 
 Pakešveida apstrādi var iestatīt abiem notikumu veidiem.
-        
+
 ## <a name="batch-processing-for-change-based-events"></a>Ar izmaiņām saistītu notikumu pakešveida apstrāde
 
 Sistēma nolasa visus ar izmaiņām saistītos notikumus, kas ir radušies pēc pēdējās izpildītās pakešveida apstrādes. Uz izmaiņām balstītie notikumi iekļauj lauku, ierakstu dzēšanas un ierakstu veidošanas atjauninājumus. Šie notikumi tiek salīdzināti ar brīdinājuma kārtulās iestatītajiem nosacījumiem. Ja notikums atbilst kārtulas nosacījumiem, pakešveida apstrāde ģenerē brīdinājumu.
@@ -82,6 +82,3 @@ Ja tiek iestatīts pakešveida apstrādes logs, apstrādājot brīdinājuma kār
 
 1. Dodieties uz sadaļu **Sistēmas administrēšana** &gt; **Periodiskie uzdevumi** &gt; **Brīdinājumi** &gt; **Ar izpildes datumu saistīti brīdinājumi**.
 2. Dialoglodziņā **Ar izpildes datumu saistīti brīdinājumi** ievadiet attiecīgo informāciju.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

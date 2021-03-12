@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694291"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797606"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Darbības darbplūsmas apstiprināšanas procesos
 
@@ -141,6 +141,3 @@ Kad apstiprinātājs pieprasa dokumenta izmaiņas, dokuments tiek nosūtīts atp
 Piemēram, Sems ir iesniedzis izdevumu atskaiti par 12 000 USD, un šis dokuments tiek piešķirts Sjū. Ja Sjū pieprasa veikt izmaiņas, izdevumu atskaite tiek sūtīta atpakaļ Semam.
 
 Sems šo izdevumu atskaiti var iesniegt atkārtoti. Viņš pirms tam var veikt pieprasītās izmaiņas vai atkārtoti iesniegt izdevumu atskaites sākotnējo versiju. Ja Sems izdevumu atskaiti iesniedz atkārtoti, tas tiek nosūtīts Frenkam apstiprināšanai, jo Frenks ir pirmais apstiprinātājs šajā apstiprināšanas procesā.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

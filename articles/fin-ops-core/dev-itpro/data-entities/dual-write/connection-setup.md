@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685669"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744857"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Norādījumi par duālā ieraksta iestatīšanu
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685669"
 Varat iestatīt duālā ieraksta savienojumu starp Finance and Operations vidi un Dataverse vidi.
 
 + **Finance and Operations vide** nodrošina **Finance and Operations programmu** (piemēram, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce un Dynamics 365 Human Resources) pamata platformu.
-+ **Dataverse vide** nodrošina pamata platformu **klientu iesaistīšanas programmām** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing un Dynamics 365 Project Service Automation).
++ **Dataverse vide** nodrošina pamata platformu **Customer Engagement programmās** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing un Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
 > Personāla vadības modulis Dynamics 365 Finance atbalsta duālās rakstīšanas savienojumus, bet Dynamics 365 Human Resources programma to neizmanto.
@@ -138,6 +138,3 @@ Lai skatītu saites uz piemēru un alternatīvu pieeju, skatiet sadaļu [Piemēr
 Piemēru skatiet [V3 klientu iespējošana — kontaktpersonu tabulas karte](enable-entity-map.md#enable-table-map)
 
 Lai varētu izmantot alternatīvu pieeju, kas balstās uz datu apjomu katrā elementā, kam jāpalaiž sākotnējā sinhronizāciju, skatiet [Apsvērumi par sākotnējo sinhronizāciju](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

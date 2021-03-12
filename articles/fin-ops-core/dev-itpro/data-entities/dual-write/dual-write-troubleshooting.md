@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688263"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744545"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -78,10 +78,10 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 **Nepieciešamās lomas, lai apskatītu kļūdas:** sistēmas administratora duālās rakstīšanas kļūdas, kas radušās programmā Dataverse, var parādīties Finance and Operations programmā. Dažos gadījumos pilns kļūdas ziņojuma teksts nav pieejams, jo ziņojums ir pārāk garš vai satur personu identificējošu informāciju (PII). Varat ieslēgt izvērsto kļūdu reģistrēšanu, izpildot tālāk aprakstītās darbības.
 
-1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts elementā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
+1. Visām projekta konfigurācijām Finance and Operations programmās ir **IsDebugMode** rekvizīts tabulā **DualWriteProjectConfiguration**. Atveriet elementu **DualWriteProjectConfiguration**, izmantojot Excel pievienojumprogrammu.
 
     > [!TIP]
-    > Vienkāršs veids, kā atvērt entītiju, ir ieslēgt režīmu **Noformēšana** Excel pievienojumprogrammā un pēc tam darblapai pievienot **DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet rakstā [Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu](../../office-integration/use-excel-add-in.md).
+    > Vienkāršs veids, kā atvērt tabulu, ir ieslēgt režīmu **Noformēšana** Excel pievienojumprogrammā un pēc tam darblapai pievienot **DualWriteProjectConfigurationEntity**. Papildinformāciju skatiet rakstā [Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu](../../office-integration/use-excel-add-in.md).
 
 2. Iestatiet rekvizītu **IsDebugMode** projektam uz **Jā**.
 3. Palaidiet scenāriju, kas ģenerē kļūdas.
@@ -118,10 +118,7 @@ Tagad varat saistīt jaunu vidi.
 Veidojot pārdošanas pasūtījumu Dynamics 365 Sales, noklikšķinot uz **+ pievienot preces**, varat tikt novirzīts uz Dynamics 365 Project Operations pasūtījuma rindas veidlapu. No šīs veidlapas nav iespējams skatīt pārdošanas pasūtījuma rindas **Informācijas** veidlapu. **Informācijas** opcija neparādās nolaižamajā sarakstā zem **Jaunas pasūtījuma rindas**. Tas notiek tāpēc, ka projekta operācijas ir uzstādītas jūsu vidē.
 
 Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šādi:
-1. Pārejiet uz **Pasūtījuma rindas** elementu.
+1. Pārejiet uz **Pasūtījuma rindas** tabulu.
 2. Atrodiet **Informācijas** veidlapu zem veidlapas zara. 
 3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**. 
 4. Mainiet drošības iestatījumu uz **Parādīt visiem**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688571"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797345"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
 [!include[banner](../includes/banner.md)]
 
-Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.md) [formāta](general-electronic-reporting.md#FormatComponentOutbound) un [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu var [validēt](er-fillable-excel.md#validate-an-er-format) izstrādes laikā. Šīs validācijas laikā tiek veikta konsekvences pārbaude, lai palīdzētu novērst izpildlaika problēmas, kas var rasties, piemēram, izpildes kļūdas un veiktspējas kritumu. Katrai atrastajai problēmai ir norādīts problemātiskā elementa ceļš. Dažām problēmām ir pieejams automātisks labojums.
+Katru konfigurēto [Elektroniskā pārskata (ER)](general-electronic-reporting.md) [formāta](general-electronic-reporting.md#FormatComponentOutbound) un [modeļa kartēšanas](general-electronic-reporting.md#data-model-and-model-mapping-components) komponentu var [validēt](er-fillable-excel.md#validate-an-er-format) izstrādes laikā. Šīs validācijas laikā tiek veikta konsekvences pārbaude, lai palīdzētu novērst izpildlaika problēmas, kas var rasties, piemēram, izpildes kļūdas un veiktspējas kritums. Katrai atrastajai problēmai ir norādīts problemātiskā elementa ceļš. Dažām problēmām ir pieejams automātisks labojums.
 
 Pēc noklusējuma validācija tiek automātiski pielietota tālāk norādītajos ER konfigurācijas gadījumos, kas satur iepriekš minētos ER komponentus.
 
@@ -101,7 +100,7 @@ Tālāk redzamajā tabulā ir sniegts pārskats par ER sniegtajām pārbaudēm. 
 <td>Kļūda</td>
 <td>
 <p>Nevar konvertēt &lt;veids&gt; veida izteiksmi uz &lt;veids&gt; veida lauku.</p>
-<p><b>Izpildlaika kļūda:</b> izņēmums no veida</p>
+<p><b>Izpildlaika kļūda:</b> veida izņēmums</p>
 </td>
 </tr>
 <tr>
@@ -374,13 +373,13 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 
     ![Datu avotu konfigurēšana lapā Rediģēt parametrus "Grupēt pēc"](./media/er-components-inspections-05a.gif)
 
-6. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs** un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
+6. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**, un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
 7. Modificējiet datu avotu **Trans**, pievienojot **Aprēķinātais lauks** veida ligzdoto lauku, lai iegūtu apgrieztu kreditora konta numuru.
 8. Piešķiriet jaunajam datu avotam nosaukumu **$AccNumber** un konfigurējiet to, lai tas ietvertu izteiksmi `TRIM(Trans.AccountNum)`.
 
     ![Datu avota konfigurēšana lapā Modeļa kartēšanas veidotājs](./media/er-components-inspections-05a.png)
 
-9. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs** un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
+9. Atlasiet **Validēt**, lai pārbaudītu rediģējamo modeļa kartēšanas komponentu lapā **Modeļa kartēšanas veidotājs**, un pārbaudiet, vai var iesniegt vaicājumu konfigurētajam datu avotam **GroupedTrans**.
 
     ![Validējiet ER modeļa kartēšanas komponentu un pārbaudiet, vai lapā Modeļa kartēšanas veidotājs var iesniegt vaicājumu konfigurētajam datu avotam GroupedTrans](./media/er-components-inspections-05b.png)
 
@@ -489,7 +488,7 @@ Varat arī atlasīt rindu vienam brīdinājumam režģī un pēc tam atlasīt **
 
 ### <a name="manual-resolution"></a>Manuāls risinājums
 
-Varat manuāli koriģēt visu validācijas režģī minēto datu avotu izteiksmes, aizstājot funkciju **WHERE** ar funkciju **FILTER**.
+Varat manuāli koriģēt visu validācijas režģī minēto datu avotu izteiksmes, aizstājot funkciju **KUR** ar funkciju **FILTRS**.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Priekšroka funkcijai ALLITEMSQUERY pret ALLITEMS
 
@@ -526,7 +525,7 @@ Varat manuāli koriģēt visu validācijas režģī minēto datu avotu izteiksme
 
 ## <a name="consideration-of-empty-list-cases"></a><a id="i9"></a>Tukšu sarakstu gadījumu apsvēršana
 
-Varat konfigurēt savu ER formāta vai modeļa kartēšanas komponentu, lai iegūtu **Ierakstu saraksts** veida datu avota lauka vērtību. ER pārbauda, vai izveidotais apskata gadījumu, kad izsauktais datu avots nesatur ierakstus (tas ir tukšs), lai novērstu izpildlaika kļūdas, kad vērtība tiek iegūta no neeksistējoša ieraksta lauka.
+Varat konfigurēt savu ER formāta vai modeļa kartēšanas komponentu, lai iegūtu **Ierakstu saraksta** veida datu avota lauka vērtību. ER pārbauda, vai izveidotais apskata gadījumu, kad izsauktais datu avots nesatur ierakstus (tas ir tukšs), lai novērstu izpildlaika kļūdas, kad vērtība tiek iegūta no neeksistējoša ieraksta lauka.
 
 Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties.
 
@@ -564,7 +563,7 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
         - Vārds, uzvārds
         - AccountNum
 
-14. Saistiet formāta elementus ar nodrošinātajiem datu avotiem tālāk norādītajā veidā.
+14. Saistiet formāta elementus ar nodrošinātajiem datu avotiem tālāk norādītajā veidā:
 
     - Saistiet formāta elementu **Norādīšana\\Puse\\Nosaukums** ar datu avota lauku **model.Vendor.Name**.
     - Saistiet formāta elementu **Norādīšana\\Puse\\AccountNum** ar datu avota lauku **model.Vendor.AccountNumber**.
@@ -573,11 +572,11 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 
     ![Tādu formāta elementu validēšana, kas ir saistīti ar datu avotiem lapā Formāta veidotājs](./media/er-components-inspections-09c.png)
 
-16. Ņemiet vērā, ka rodas validācijas kļūdas. Ziņojumā norādīts, ka iespējams izpildlaikā tiek parādītas kļūdas konfigurētajos formāta komponentos **Norādīšana\\Puse\\Nosaukums** un **Norādīšana\\Puse\\AccountNum**, ja saraksts **model.Vendor** ir tukšs.
+16. Ņemiet vērā, ka rodas validācijas kļūda. Ziņojumā norādīts, ka iespējams izpildlaikā tiek parādītas kļūdas konfigurētajos formāta komponentos **Statement\\Party\\Name** un **Statement\\Party\\AccountNum**, ja saraksts `model.Vendor` ir tukšs.
 
     ![Validācijas kļūda, kas paziņo par potenciālo kļūdu konfigurētajos formāta komponentos](./media/er-components-inspections-09d.png)
 
-Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu, atlasāt **Palaist**, lai palaistu formātu, un atlasāt neeksistējoša kreditora konta numuru. Tā kā pieprasītais kreditors nepastāv, saraksts **model.Vendor** būs tukšs (tajā nebūs ierakstu).
+Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignorējat brīdinājumu, atlasāt **Palaist**, lai palaistu formātu, un atlasāt neeksistējoša kreditora konta numuru. Tā kā pieprasītais kreditors nepastāv, saraksts `model.Vendor` būs tukšs (tajā nebūs ierakstu).
 
 ![Izpildlaika kļūdas, jo tas radās formāta kartēšanas izpildes laikā](./media/er-components-inspections-09e.png)
 
@@ -589,30 +588,30 @@ Atlasītajai rindai cilnes **Brīdinājumi** režģī varat atlasīt **Atsaistī
 
 #### <a name="option-1"></a>1. opcija
 
-Varat saistīt formāta elementu **Norādīšana\\Puse\\Nosaukums** ar datu avota krājumu **model.Vendor**. Izpildlaikā šis saistījums vispirms izsauc datu avotu **model.Vendor**. Kad **model.Vendor** atpakaļsūta tukšu ierakstu sarakstu, ligzdotie formāta elementi netiek palaisti. Tāpēc šai formāta konfigurācijai nav neviena validācijas brīdinājuma.
+Varat saistīt formāta elementu **Statement\\Party\\Name** ar datu avota krājumu `model.Vendor`. Izpildlaikā šis saistījums vispirms izsauc datu avotu `model.Vendor`. Kad `model.Vendor` atpakaļsūta tukšu ierakstu sarakstu, ligzdotie formāta elementi netiek palaisti. Tāpēc šai formāta konfigurācijai nav neviena validācijas brīdinājuma.
 
 ![Formāta element saistīšana ar datu avota krājumu lapā Formāta veidotājs](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>2. opcija
 
-Mainiet saistījumu formāta elementā **Norādīšana\\Puse\\Nosaukums** no `model.Vendor.Name` uz `FIRSTORNULL(model.Vendor).Name`. Atjauninātais saistījums nosacīti konvertē datu avota **model.Vendor** pirmo ierakstu, kam ir **Ierakstu saraksts** veids, uz jaunu **Ieraksts** veida datu avotu. Šis jaunais datu avots satur tādu pašu lauku kopu.
+Mainiet saistījumu formāta elementā **Statement\\Party\\Name** no `model.Vendor.Name` uz `FIRSTORNULL(model.Vendor).Name`. Atjauninātais saistījums nosacīti konvertē datu avota `model.Vendor` pirmo ierakstu, kam ir **Ierakstu saraksts** veids, uz jaunu **Ieraksts** veida datu avotu. Šis jaunais datu avots satur tādu pašu lauku kopu.
 
-- Ja datu avotā **model.Vendor** ir pieejams vismaz viens ieraksts, šī ieraksta lauki tiek aizpildīti ar pirmā ieraksta lauku vērtībām datu avotā **model.Vendor**. Šādā gadījumā atjauninātais saistījums atpakaļsūta kreditora nosaukumu.
+- Ja datu avotā `model.Vendor` ir pieejams vismaz viens ieraksts, šī ieraksta lauki tiek aizpildīti ar pirmā ieraksta lauku vērtībām datu avotā `model.Vendor`. Šādā gadījumā atjauninātais saistījums atpakaļsūta kreditora nosaukumu.
 - Pretējā gadījumā katrs izveidotā ieraksta lauks tiek aizpildīts ar noklusējuma vērtību šī lauka datu veidam. Šādā gadījumā tiek atpakaļsūtīta tukša virkne kā datu veida **Virkne** noklusējuma vērtība.
 
-Tādējādi nav validācijas brīdinājumu par formāta elementu **Norādīšana\\Puse\\Nosaukums**, ja tas ir saistīts ar izteiksmi `FIRSTORNULL(model.Vendor).Name`.
+Tādējādi nav validācijas brīdinājumu par formāta elementu **Statement\\Party\\Name**, ja tas ir saistīts ar izteiksmi `FIRSTORNULL(model.Vendor).Name`.
 
 ![Mainīts saistījums atrisina validācijas brīdinājumus lapā Formāta veidotājs](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>3. opcija
 
-Ja vēlaties skaidri norādīt datus, kas tiek ievadīti ģenerētajā dokumentā, ja datu avots **model.Vendor** ar veidu **Ierakstu saraksts** nenosūta atpakaļ nevienu ierakstu (šajā piemērā teksts **Nav pieejams**), mainiet saistījumu formāta elementam **Norādīšana\\Puse\\Nosaukums** no `model.Vendor.Name` uz `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Var izmantot arī izteiksmi `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Ja vēlaties skaidri norādīt datus, kas tiek ievadīti ģenerētajā dokumentā, ja datu avots `model.Vendor` ar veidu **Ierakstu saraksts** nenosūta atpakaļ nevienu ierakstu (šajā piemērā teksts **Nav pieejams**), mainiet saistījumu formāta elementam **Statement\\Party\\Name** no `model.Vendor.Name` uz `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Var izmantot arī izteiksmi `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Papildu apsvērums
 
-Pārbaude arī brīdina par citu iespējamu problēmu. Pēc noklusējuma, saistot formāta elementus **Norādīšana\\Puse\\Nosaukums** un **Norādīšana\\Puse\\AccountNum** ar atbilstošiem laukiem datu avotā **model.Vendor** ar veidu **Ierakstu saraksts**, šie saistījumi tiks palaisti un tie paņems atbilstošo lauku vērtības no pirmā ieraksta datu avotā **model.Vendor**, ja šis saraksts nav tukšs.
+Pārbaude arī brīdina par citu iespējamu problēmu. Pēc noklusējuma, saistot formāta elementus **Statement\\Party\\Name** un **Statement\\Party\\AccountNum** ar atbilstošiem laukiem datu avotā `model.Vendor` ar veidu **Ierakstu saraksts**, šie saistījumi tiks palaisti un tie paņems atbilstošo lauku vērtības no pirmā ieraksta datu avotā `model.Vendor`, ja šis saraksts nav tukšs.
 
-Tā kā formāta elements **Norādīšana\\Puse** nav saistīts ar datu avotu **model.Vendor**, elements **Norādīšana\\Puse** formāta izpildes laikā netiks atkārtots katram datu avota **model.Vendor** ierakstam. Tā vietā ģenerētais dokuments tiks aizpildīts ar informāciju tikai no pirmā ieraksta ierakstu sarakstā, ja šajā sarakstā ir vairāki ieraksti. Tādējādi var rasties problēma, ja formāts ir paredzēts, lai ģenerēto dokumentu aizpildītu ar informāciju par visiem kreditoriem no datu avota **model.Vendor**. Lai labotu šo problēmu, saistiet elementu **Norādīšana\\Puse** ar datu avotu **model.Vendor**.
+Tā kā formāta elements **Statement\\Party** nav saistīts ar datu avotu `model.Vendor`, elements **Statement\\Party** formāta izpildes laikā netiks atkārtots katram datu avota `model.Vendor` ierakstam. Tā vietā ģenerētais dokuments tiks aizpildīts ar informāciju tikai no pirmā ieraksta ierakstu sarakstā, ja šajā sarakstā ir vairāki ieraksti. Tādējādi var rasties problēma, ja formāts ir paredzēts, lai ģenerēto dokumentu aizpildītu ar informāciju par visiem kreditoriem no datu avota `model.Vendor`. Lai labotu šo problēmu, saistiet elementu **Statement\\Party** ar datu avotu `model.Vendor`.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Izteiksmes ar FILTER funkciju izpildāmība (kešdarbe)
 
@@ -692,14 +691,14 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 
     1. Pievienojiet saknes **Norādīšana** XML elementu.
     2. XML elementam **Norādīšana** pievienojiet ligzdoto XML elementu **Puse**.
-    3. XML elementam **Puse** pievienojiet tālāk norādītos XML atribūtus.
+    3. XML elementam **Puse** pievienojiet tālāk norādītos XML atribūtus:
 
         - Vārds, uzvārds
         - AccountNum
 
 14. Saistiet formāta elementus ar nodrošinātajiem datu avotiem tālāk norādītajā veidā.
 
-    - Saistiet formāta elementu **Norādīšana\\Puse** ar datu avota krājumu **model.Vendor**.
+    - Saistiet formāta elementu **Statement\\Party** ar datu avota krājumu `model.Vendor`.
     - Saistiet formāta elementu **Norādīšana\\Puse\\Nosaukums** ar datu avota lauku **model.Vendor.Name**.
     - Saistiet formāta elementu **Norādīšana\\Puse\\AccountNum** ar datu avota lauku **model.Vendor.AccountNumber**.
 
@@ -707,7 +706,7 @@ Tālāk norādītajās darbībās parādīts, kā šī problēma varētu rasties
 
     ![ER formāta komponenta validācija lapā Formāta veidotājs](./media/er-components-inspections-11c.png)
 
-16. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā norādīts, ka datu avota lauks **model.Vendor.Name** nav saistīts ar nevienu datu avotu modeļa kartēšanā, kas konfigurēta izmantošanai formātā. Tādējādi formāta elements **Norādīšana\\Puse\\Nosaukums** var nebūt aizpildīts izpildlaikā, un var rasties izņēmums izpildlaikā.
+16. Ņemiet vērā, ka notiek brīdinājums par validāciju. Ziņojumā norādīts, ka datu avota lauks **model.Vendor.Name** nav saistīts ar nevienu datu avotu modeļa kartēšanā, kas konfigurēta izmantošanai formātā. Tādējādi formāta elements **Statement\\Party\\Name** var nebūt aizpildīts izpildlaikā, un var rasties izņēmums izpildlaikā.
 
     ![ER formāta komponenta validācija lapā Formāta veidotājs](./media/er-components-inspections-11d.png)
 
@@ -813,6 +812,3 @@ Lai uzzinātu, kā formāta struktūru var sinhronizēt ar ER veidni [Biznesa do
 [Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas](trace-execution-er-troubleshoot-perf.md)
 
 [Biznesa dokumentu pārvaldības pārskats](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

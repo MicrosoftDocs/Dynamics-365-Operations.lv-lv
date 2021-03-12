@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694817"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796734"
 ---
 # <a name="create-an-operating-unit"></a>Pārvaldības struktūrvienības izveide
 
@@ -41,6 +41,3 @@ Pārvaldības struktūrvienība ir organizācija, kas tiek lietota, lai sadalīt
     + Ierakstiet informāciju par komunikācijas veidiem, piemēram, e-pasta adreses, URL un tālruņa numurus. Lai ievadītu jaunu saziņas ierakstu, noklikšķiniet uz Jauns. Lai modificētu esošo sakaru ierakstu, noklikšķiniet uz **Vairāk opciju > Detalizēti**.   
 6. Ir arī iespēja mainīt **Operatīvās struktūrvienības numuru** pēc vajadzības. Ņemiet vērā, ka šis numurs ir unikāls identifikators atbilstīgajam **Puses** ierakstam un nevar būt tāds pats kā cita operatīva struktūrvienība.
 7. Atlasiet **Saglabāt**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

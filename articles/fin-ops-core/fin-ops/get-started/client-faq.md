@@ -1,6 +1,6 @@
 ---
-title: Bieži uzdotie jautājumi par klientu
-description: Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Finance and Operations klientu.
+title: Biežāk uzdotie jautājumi par klientu
+description: Šajā rakstā ir sniegtas atbildes uz biežāk uzdotajiem jautājumiem par Finance and Operations klientu.
 author: jasongre
 manager: AnnBe
 ms.date: 09/11/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1925c23891a637ba9e9666538323274819692a06
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692922"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798503"
 ---
-# <a name="client-faq"></a>Bieži uzdotie jautājumi par klientu
+# <a name="client-faq"></a>Biežāk uzdotie jautājumi par klientu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Finance and Operations klientu.
+Šajā rakstā ir sniegtas atbildes uz biežāk uzdotajiem jautājumiem par Finance and Operations klientu.
 
 ## <a name="why-arent-symbols-loaded"></a>Kāpēc netiek ielādēti simboli?
 
@@ -54,6 +54,3 @@ Opcija **Skatīt detalizētu informāciju** ir pieejama vairākos veidos:
 
 - Ja vadīklai ir pieejama iespēja **Skatīt detalizētu informāciju** un ja vadīklai ir vērtība, šī vērtība tiek parādīta kā hipersaite. Varat noklikšķināt uz hipersaites, lai atvērtu lappusi, kurā ir papildu informācija.
 - Opcija **Skatīt detalizētu informāciju** ir pieejama arī īsinājumizvēlnēs. Plašāku informāciju par to, kad tiek parādītas īsinājumizvēlnes, noklikšķinot ar labo peles pogu, skatiet iepriekšējā sadaļā.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

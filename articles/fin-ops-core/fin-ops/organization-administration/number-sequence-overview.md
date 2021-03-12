@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2460d8c641a7e7b98b4fa5511636a1f0a47d372
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693982"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797074"
 ---
 # <a name="number-sequences-overview"></a>Numuru sēriju pārskats
 
@@ -115,6 +115,3 @@ Ja vien nav ar likumu noteiktas prasības izmantot nepārtrauktas numuru sērija
 Ja rodas elektropadeves traucējumi, programmas kļūda vai citas neparedzētas kļūmes, sistēma nevar automātiski pārstrādāt nepārtraukto numuru secību numurus. Lai atgūtu zaudētos numurus, manuāli vai automātiski varat palaist tīrīšanas procesu.
 
 Kad plānojat tīrīšanas procesu, rūpīgi apsveriet servera lietojumu. Mēs iesakām veikt tīrīšanu kā pakešuzdevumu ārpus sastrēgumstundām.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

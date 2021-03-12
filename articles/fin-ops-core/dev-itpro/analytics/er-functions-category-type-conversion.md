@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686079"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740812"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>ER funkciju saraksts veida konvertēšanas kategorijā
 
@@ -38,6 +38,14 @@ Elektronisko atskaišu veidošanas (ER) veida konvertēšanas funkcijas var izma
 | [IntValue](er-functions-conversion-intvalue.md)       | Šī funkcija atgriež *Int* vērtību, kas apzīmē norādīto virkni. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Šī funkcija atgriež *Reālu* vērtību, kas tiek konvertēta no norādītās *Virknes* vērtības. Konvertēšanas laikā tiek uzskatīti norādītie decimālo un ciparu grupēšanas atdalītāji. |
 | [Vērtība](er-functions-conversion-value.md)             | Šī funkcija atgriež *Reālu* vērtību, kas tiek konvertēta no norādītās *Virknes* vērtības. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Veida konvertēšanas funkcijas konteinera kategorijā
+
+Šajā tabulā aprakstītas veida konvertēšanas funkcijas [konteinera](er-functions-category-container.md) kategorijā.
+
+| Funkcija | Apraksts |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Šī funkcija konvertē norādīto *Virknes* veidu uz datu elementu ar datu veidu *Konteiners*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Veida konvertēšanas funkcijas datuma un laika kategorijā
 
@@ -79,6 +87,3 @@ Elektronisko atskaišu veidošanas (ER) veida konvertēšanas funkcijas var izma
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

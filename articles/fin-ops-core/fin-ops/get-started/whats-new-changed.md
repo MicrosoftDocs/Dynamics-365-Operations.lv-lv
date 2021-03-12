@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 41a478e436ef3c94046be1579e8840cc39fb2ed4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 132d1be340d2b9966b45fc30cd6409cfcdf7c805
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694267"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797139"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Mājas lapa “Jaunumi un izmaiņas Finance and Operations programmās”
 
@@ -50,6 +50,3 @@ Lai redzētu, kas jauns vai mainīts portālā Lifecycle Services, skatiet šo t
 - [Jaunumi un izmaiņas portālā Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

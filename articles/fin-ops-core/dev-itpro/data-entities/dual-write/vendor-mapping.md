@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685489"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744519"
 ---
 # <a name="integrated-vendor-master"></a>Integrētie kreditoru pamatdati
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685489"
 
 
 
-Termins *kreditors* attiecas uz piegādātāju organizāciju vai vienīgo īpašnieku, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Kaut arī *kreditors* ir reģistrēts koncepts Microsoft Dynamics 365 Supply Chain Management programmās, neviens cits kreditora koncepts nepastāv citās modeļa vadītajās Dynamics 365 programmās. Tomēr jūs varat pārslogot **Konta/Kontaktpersonas** elementu, lai glabātu informāciju par kreditoru. Integrētais kreditora šablons iepazīstina ar skaidri izteiktu kreditoru koncepciju modeļa vadītajās Dynamics 365 programmās. Varat vai nu izmantot jauno kreditora noformējumu, vai glabāt kreditora datus elementā **Konts/Kontaktpersona**. Duālais ieraksts atbalsta abas pieejas.
+Termins *kreditors* attiecas uz piegādātāju organizāciju vai vienīgo īpašnieku, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Kaut arī *kreditors* ir reģistrēts koncepts Microsoft Dynamics 365 Supply Chain Management programmās, neviens cits kreditora koncepts nepastāv citās modeļa vadītajās Dynamics 365 programmās. Tomēr jūs varat pārslogot **Konta/Kontaktpersonas** tabulu, lai glabātu informāciju par kreditoru. Integrētais kreditora šablons iepazīstina ar skaidri izteiktu kreditoru koncepciju modeļa vadītajās Dynamics 365 programmās. Varat vai nu izmantot jauno kreditora noformējumu, vai glabāt kreditora datus tabulā **Konts/Kontaktpersona**. Duālais ieraksts atbalsta abas pieejas.
 
 Abās pieejās tiek integrēti kreditoru dati starp portāliem Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service un Power Apps. Pakalpojumā Supply Chain Management dati ir pieejami darbplūsmām, piemēram, pirkšanas pieprasījumi un pirkšanas pasūtījumi.
 
 ## <a name="vendor-data-flow"></a>Kreditora datu plūsma
 
-Ja nevēlaties glabāt kreditora datus elementā **Konts/Kontaktpersona** pakalpojumā Dataverse, varat izmantot jauno kreditora noformējumu.
+Ja nevēlaties glabāt kreditora datus tabulā **Konts/Kontaktpersona** pakalpojumā Dataverse, varat izmantot jauno kreditora noformējumu.
 
 ![Kreditora datu plūsma](media/dual-write-vendor-data-flow.png)
 
-Ja nevēlaties turpināt glabāt kreditora datus elementā **Konts/Kontaktpersona** pakalpojumā , varat izmantot paplašināto kreditora noformējumu. Lai izmantotu paplašināto kreditoru noformējumu, ir jākonfigurē kreditoru darbplūsmas duālā ieraksta risinājuma pakotnē. Papildinformāciju skatiet šeit rakstā [Pārslēgšanās starp kreditoru noformējumiem ](vendor-switch.md).
+Ja nevēlaties turpināt glabāt kreditora datus tabulā **Konts/Kontaktpersona** pakalpojumā , varat izmantot paplašināto kreditora noformējumu. Lai izmantotu paplašināto kreditoru noformējumu, ir jākonfigurē kreditoru darbplūsmas duālā ieraksta risinājuma pakotnē. Papildinformāciju skatiet šeit rakstā [Pārslēgšanās starp kreditoru noformējumiem ](vendor-switch.md).
 
 ![Kreditora paplašinātā datu plūsma](media/dual-write-vendor-detail.jpg)
 
@@ -56,7 +56,7 @@ Kreditora dati ietver visu informāciju par kreditoru, piemēram, kreditora grup
 
 Finance and Operations programmas | Citas Dynamics 365 programmas     | Apraksts
 ----------------------------|-----------------------------|------------
-V2 kreditors                   | Konts                     | Uzņēmumi, kas izmanto Konta elementu, lai glabātu kreditora informāciju, var turpināt to lietot tādā pašā veidā. Tie var arī izmantot skaidras kreditora funkcionalitātes priekšrocības, ko rada Finance and Operations programmu integrācija.
+V2 kreditors                   | Konts                     | Uzņēmumi, kas izmanto Konta tabulu, lai glabātu kreditora informāciju, var turpināt to lietot tādā pašā veidā. Tie var arī izmantot skaidras kreditora funkcionalitātes priekšrocības, ko rada Finance and Operations programmu integrācija.
 V2 kreditors                   | Msdyn\_vendors              | Uzņēmumiem, kas izmanto pielāgotu risinājumu kreditoriem, var izmantot standarta komplektācijas kreditora konceptu, kas ir ieviests pakalpojumā Dataverse saistībā ar Finance and Operations programmu integrāciju. 
 Kreditoru grupas               | msdyn\_vendorgroups         | Šī veidne sinhronizē kreditoru grupas informāciju.
 Piegādātāja maksāšanas metode       | msdyn\_vendorpaymentmethods | Šī veidne sinhronizē kreditora maksājuma metodes informāciju.
@@ -75,6 +75,3 @@ Nosaukuma afiksi                | msdyn\_nameaffixes          | [Nosaukumu afiks
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683740"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744379"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valūtas datu tipa migrācija duālajai rakstīšanai
 
@@ -77,7 +77,7 @@ Lai veiktu šīs izmaiņas, ir jāatjaunina šādi iestatījumi programmā Power
 
 Ir daži ierobežojumi:
 
-+ Nevar konfigurēt elementa valūtas lauku.
++ Nevar konfigurēt elementa valūtas lauku tabulā.
 + Varat norādīt vairāk nekā četras decimāldaļas tikai **Cenu noteikšanai** un **Darījuma valūtas** līmeņos.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Sistēmas iestatījumi: cenu valūtas precizitāte
@@ -92,9 +92,6 @@ Ja vēlaties, lai konkrētas valūtas precizitātes atšķirtos no valūtas prec
 
 ![Noteiktas lokalizācijas valūtu iestatījumi](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>tabulas: valūtas lauks
+### <a name="tables-currency-column"></a>tabulas: valūtas lauks
 
 Decimāldaļu skaits, ko var konfigurēt noteiktiem valūtas laukiem, ir ierobežots līdz četriem.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 504cd1c920e75eb6bcbcdcda668336ba74fb09f3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694993"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796560"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)
 
@@ -99,6 +99,3 @@ APQC vienotajā bibliotēkā (2016. gada augusts — visas valodas) ir ietver
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada maijs)](new-updated-task-guides-available-may-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
