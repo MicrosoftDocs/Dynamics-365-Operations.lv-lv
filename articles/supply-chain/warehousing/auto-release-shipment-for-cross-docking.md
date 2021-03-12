@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432577"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977492"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automātisks sūtījums pārkraušanai sadales centrā
 
@@ -29,7 +28,7 @@ ms.locfileid: "4432577"
 
 Šajā tēmā ir aprakstīta pārkraušanas sadales centrā stratēģija, kas ļauj automātiski izdot pieprasījuma pasūtījumu noliktavai, kad ražošanas pasūtījums, ar ko piegādā pieprasījuma daudzumu, ir norādīts kā pabeigts. Tādējādi pieprasītā pasūtījuma izpildei nepieciešamais daudzums tiek pārvietots tieši no ražošanas izlaides novietojuma uz nosūtīšanas vietu.
 
-Pārkraušana sadales centrā ir noliktavas apstrādes plūsma, kurā daudzums, kas nepieciešams izejošā pasūtījuma izpildei, tiek novirzīts uz pasūtījuma nosūtīšanas doku vai sagatavošanas zonu no vietas, kur saņemts ienākošais pasūtījums. (Ienākošais pasūtījums var būt pirkšanas pasūtījums, pārsūtīšanas pasūtījums vai ražošanas pasūtījums.) Tā kā uzlabotais pārkraušana sadales centrā līdzeklis atbalsta visus piedāvājuma un pieprasījuma pasūtījumus, un tam ir nepieciešams, lai izejošais pieprasījums tiktu izdots, pirms tiek identificēta pārkraušana sadales centrā iespēja, automātiskā sūtījuma līdzeklim ir tālāk minētās īpašības.
+Pārkraušana sadales centrā ir noliktavas apstrādes plūsma, kurā daudzums, kas nepieciešams izejošā pasūtījuma izpildei, tiek novirzīts uz pasūtījuma nosūtīšanas doku vai sagatavošanas zonu no vietas, kur saņemts ienākošais pasūtījums. (Ienākošais pasūtījums var būt pirkšanas pasūtījums, pārsūtīšanas pasūtījums vai ražošanas pasūtījums.) Tā kā uzlabotais pārkraušana sadales centrā līdzeklis atbalsta visus piedāvājuma un pieprasījuma pasūtījumus, un tam ir nepieciešams, lai izejošais pieprasījums tiktu izdots, pirms tiek identificēta pārkraušana sadales centrā iespēja, automātiskā sūtījuma līdzeklim ir tālāk minētās īpašības:
 
 - Tas atbalsta tikai ražošanas pasūtījumus kā piegādi un tikai pārdošanas pasūtījumus un pārsūtīšanas pasūtījumus kā pieprasījumu.
 - Pārkraušanas sadales centrā darbību var uzsākt pat tad, ja pieprasījuma pasūtījums nav izdots noliktavai pirms piegādes kvīts reģistrēšanas (proti, pirms ražošana tika norādīta kā pabeigta).
@@ -60,14 +59,14 @@ Tipisku pārkraušanas sadales centrā plūsmu veido tālāk minētās galvenās
 
     Vai arī ražošanas plānotājs norāda, ka iezīmēšana ir jāatjaunina, kad plānotie pasūtījumi tiek apstiprināti.
 
-3. Ar ražošanas pasūtījumu tiek veiktas tālāk minētās darbības.
+3. Ar ražošanas pasūtījumu tiek veiktas tālāk minētās darbības:
 
     1. Ražošanas plānotājs novērtē un izdod ražošanas pasūtījumu. (Novērtējums ietver izejmateriālu rezervēšanu, un izlaišana ietver nodošanu noliktavai.)
     2. Noliktavas darbinieks sāk un pabeidz izejmateriālu izdošanu no glabāšanas vietas uz ražošanas ievades vietu atbilstoši ražošanas saņemšanas darbam.
     3. Ražotnes operators sāk ražošanas pasūtījumu.
     4. Pēdējā darbībā iekārtu operators izmanto mobilo ierīci, lai ziņotu par ražošanas pasūtījumu kā pabeigtu.
 
-4. Sistēma izmanto iestatījumus, lai identificētu pārkraušanas sadales centrā notikumu abiem saistītajiem pasūtījumiem un pēc tam izpilda tālāk minētos uzdevumus.
+4. Sistēma izmanto iestatījumus, lai identificētu pārkraušanas sadales centrā notikumu abiem saistītajiem pasūtījumiem un pēc tam izpilda tālāk minētos uzdevumus:
 
     1. Automātiski izdod saistīto pārdošanas pasūtījumu uz noliktavu, lai izveidotu sūtījumu.
     2. Automātiski izveido pārkraušanas sadales centrā darbu, kam ir instrukcijas izņemt pabeigtās preces no izvades vietas un pārvieto tās uz izejošo novietojumu, ko pārkraušanas sadales centrā vietas direktīvas ir piešķīrušas pārdošanas pasūtījumam.
@@ -149,9 +148,9 @@ Lai pārkrautu pabeigto preču daudzumu uz saistītā pārdošanas pasūtījuma 
 6. Dialoglodziņā **Izveidot ražošanas pasūtījumu** pārskatiet noklusējuma vērtības un pēc tam atlasiet **Izveidot**. Tiek izveidots jauns ražošanas pasūtījums, un tas ir saistīts ar pārdošanas pasūtījumu (t.i., tas ir rezervēts un atzīmēts).
 7. Nav obligāti: mainiet lauka **Daudzums** vērtību, lai tā būtu lielāka par vērtību, kas nepieciešama, lai izpildītu pārdošanas pasūtījumu. Kad ražošanas daudzums ir reģistrēts kā pabeigts, sistēma izveidos pārkraušanas sadales centrā darbu, kas paredzēts norādītajam daudzumam un izvietošanas darbam atlikušajam daudzumam atbilstoši parastajai procedūrai pabeigto preču izvietošanas apstrādei.
 
-    Kā jau tika minēts iepriekš, starp pārdošanas pasūtījumu un ražošanas pasūtījumu ir jābūt iezīmei. Pretējā gadījumā pārkraušana sadales centrā nedarbosies. Iezīmēšanu var izveidot vairākos veidos, kā norādīts tālāk.
+    Kā jau tika minēts iepriekš, starp pārdošanas pasūtījumu un ražošanas pasūtījumu ir jābūt iezīmei. Pretējā gadījumā pārkraušana sadales centrā nedarbosies. Iezīmēšanu var izveidot vairākos veidos, kā norādīts tālāk:
 
-    - Sistēma var automātiski izveidot iezīmēšanu tālāk minētajās situācijās.
+    - Sistēma var automātiski izveidot iezīmēšanu tālāk minētajās situācijās:
 
         - Ražošanas pasūtījums tiek manuāli izveidots tieši no pārdošanas pasūtījuma rindas (skatīt 6. darbību).
         - Plānotie ražošanas pasūtījumi ir apstiprināti, un lauks **Atjaunināt iezīmēšanu** tiek iestatīts uz **Standarts**.
@@ -174,11 +173,8 @@ Lai pārkrautu pabeigto preču daudzumu uz saistītā pārdošanas pasūtījuma 
 15. Programmā atveriet **Ražošana** \> **RAF un izvietošana**.
 16. Laukā **Preces ID** ievadiet ražošanas pasūtījuma numuru un citu obligāto informāciju, un pēc tam atlasiet **Labi**.
 
-Ņemiet vērā, ka tiek izpildīti tālāk aprakstītie notikumi.
+Ņemiet vērā, ka tiek izpildīti tālāk aprakstītie notikumi:
 
 - Saistītajam pārdošanas pasūtījumam tiek sākta izlaišana uz noliktavu.
 - Pamatojoties uz izlaišanu, tiek izveidots nosūtīšanas un pārkraušanas sadales centrā darbs. Šis darbs uzdod noliktavas operatoram izvēlēties daudzumus, kas ir nepieciešami, lai izpildītu pārdošanas pasūtījuma rindu, un izvietot tos nosūtīšanas vietā, kas norādīta pārkraušanas sadales centrā novietojuma direktīvā.
 - Ja ražošanas pasūtījuma daudzums ir lielāks par daudzumu, kāds pieprasīts pārdošanas pasūtījumā, tiek izveidots regulārs izvietošanas darbs. Šis darbs uzdod noliktavas operatoram izvēlēties pabeigto preču daudzumu, kas paliek pēc pārkraušanas sadales centrā, un pārvietot to uz parasto uzglabāšanu saskaņā ar novietojuma direktīvu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

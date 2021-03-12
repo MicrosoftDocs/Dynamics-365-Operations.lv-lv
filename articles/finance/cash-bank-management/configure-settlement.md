@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445729"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976457"
 ---
 # <a name="configure-settlement"></a>Segšanas konfigurēšana
 
@@ -67,6 +66,3 @@ Lai izvairītos no papildu uzskaites ierakstiem, debetu un kredītu tajā pašā
 
 -   Bieži vien organizācijas izmanto fiksētas dimensijas, lai nullētu finanšu dimensiju, kas nav nepieciešama. Parasti tas attiecas uz bilances kontiem, piemēram, debitoru parādiem/parādiem kreditoriem. Kontu struktūras var izmantot, lai neizsekotu finanšu dimensijas, kas parasti tiek nullētas.  Varat noņemt finanšu dimensiju bilances kontiem, likvidējot nepieciešamību izmantot fiksētas dimensijas.
 -   Ja jūsu organizācijai ir nepieciešamas fiksētas dimensijas debitoru parādu/parādu kreditoriem galvenajā kontā, atrodiet veidu, kā fiksētās dimensijas pēc noklusējuma lietot maksājumam, lai fiksētās dimensijas vērtība tiktu glabāta kreditora transakcijā šim maksājumam. Tādējādi sistēma var rekonstruēt debitoru parādu/parādu kreditoriem galveno kontu, lai ietvertu fiksētās dimensijas vērtības. Fiksētās dimensijas vērtību var definēt kā noklusējuma vērtību kreditoriem vai žurnāla nosaukumam maksājumu žurnālā.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

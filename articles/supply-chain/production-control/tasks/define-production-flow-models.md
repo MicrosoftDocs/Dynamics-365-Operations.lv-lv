@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432479"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977867"
 ---
 # <a name="define-production-flow-models"></a>Ražošanas plūsmas modeļu definēšana
 
@@ -46,6 +45,3 @@ Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean 
 8. Laukā Noslodzes nepietiekamības sekas atlasiet kādu opciju.
     * Opcijas ir šādas: Atlikt — plānošanas notikuma viss pieprasījums tiek atlikts līdz nākamajai pieejamajai ražošanas dienai ar pieejamu caurlaidi. Atcelt — plānošanas notikuma automātiskā plānošana tiek pārtraukta un saistītie darbi tiek atstāti neplānoti.   Pievienot pieprasītajai dienai — pieprasītie darbi tiek plānoti pieprasītajā periodā. Tas rada šūnas pārslodzi attiecīgajai dienai, plānotājam ir jāveic pārskatīšana un ir nepieciešama manuāla iejaukšanās.   Sadalīt pieejamajos periodos — dažādi plānošanas notikuma darbi tiek sadalīti visās pieejamajās ražošanas dienās, sākot ar pirmo pieejamo dienu. Minimālais sadales daudzums ir Kanban darba daudzums. Sadalē tiek piešķirts minimālais plānošanas daudzums (Kanban daudzums) katrai dienai, kurā ir pieejama pietiekama caurlaide.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

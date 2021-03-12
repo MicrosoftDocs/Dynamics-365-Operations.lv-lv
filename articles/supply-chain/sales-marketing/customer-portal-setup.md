@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529534"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977742"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529534"
 Lai ieviestu Debitoru portālu, ir jābūt tālāk minētajām licencēm.
 
 - **Power Apps portāli** — šī licence ir nepieciešama, lai viesotu Debitoru portālu. Portāli tiek licencēti, pamatojoties uz lietojumu. Plašāku informāciju skatiet [Power Apps portālu licencēšanas prasības](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Duālais ieraksts** — jums ir jābūt nepieciešamajām licencēm, lai iespējotu duālo ierakstu Supply Chain Management entītijām. Plašāku informāciju skatiet [duālā ieraksta sistēmas prasības](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Duālais ieraksts** — jums ir jābūt nepieciešamajām licencēm, lai iespējotu duālo ierakstu Supply Chain Management tabulām. Plašāku informāciju skatiet [duālā ieraksta sistēmas prasības](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Atkarības no duālā ieraksta un Power Apps portāli
 
@@ -39,13 +38,13 @@ Debitoru portāls ir atkarīgs no Power Apps portāliem un duālā ieraksta, kā
 
 ![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")
 
-Atšķirībā no citiem Supply Chain Management līdzekļiem, Debitoru portāla veidne atrodas Power Apps portālos. Tāpēc Debitoru portālu ierobežo funkcionalitāte un iespējas, ko sniedz Power Apps portāli un entītijas duālajā ierakstā.
+Atšķirībā no citiem Supply Chain Management līdzekļiem, Debitoru portāla veidne atrodas Power Apps portālos. Tāpēc Debitoru portālu ierobežo funkcionalitāte un iespējas, ko sniedz Power Apps portāli un duālā ieraksta tabulas.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Nepieciešamais iestatījums Debitoru portāla iespējošanai
 
 Kad esat pārliecinājies, ka jums ir nepieciešamās licences, varat iestatīt duālo ierakstu, kā aprakstīts [duālā ieraksta sākotnējās sinhronizācijas instrukcijas](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
 
-Duālajā ierakstā noteikti iespējojiet tālāk minēto elementu kartējumus.
+Duālajā ierakstā noteikti iespējojiet tālāk minēto tabulu kartējumus:
 
 - Pārdošanas pasūtījuma virsraksts
 - Pārdošanas pasūtījumu informācija
@@ -80,12 +79,9 @@ Lai uzzinātu, kā var iestatīt un pielāgot Debitoru portālu, jāsāk ar seko
 - [Power Apps portālu dokumentācija](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [Duālā ieraksta dokumentācija](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Lai efektīvi pārvaldītu portālus, ir jāizprot Power Apps portāli un Common Data Service dzīves cikls. Papildinformāciju skatiet tālāk norādītajos resursos.
+Lai efektīvi pārvaldītu portālus, ir jāizprot Power Apps portāli un Microsoft Dataverse dzīves cikls. Papildinformāciju skatiet tālāk norādītajos resursos.
 
 - [Par portāla dzīves ciklu](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [Portāla jaunināšana](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portāla konfigurācijas migrācija](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Risinājuma dzīves cikla pārvaldība: programma Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f012f934015e334aea468b5b62741749103d7790
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445636"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978743"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentu atlikuma bilances aprēķināšanas metode
 
@@ -77,19 +76,16 @@ Ja ir atlasīta nolietojuma aprēķināšanas gada opcija **Finanšu**, laukā *
 | Lietošanas ilgums gados             | 5.      |
 | Gada nolietojuma procenti | 40%    |
 
-Izmantojot 200% atlikumu bilances metodi, 200 procenti tiek dalīti ar lietošanas ilgumu gados. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
+200 % atlikumu bilances metode dala 200 procentus ar lietošanas ilguma gadiem. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
 
 | Periods | Ikgadējā nolietojuma summas aprēķins | Atlikusī vērtība             | Atlikusī vērtība gada beigās |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| 1. gads | (11 000 – 1000) × 40% = 4000                | 11 000 – 4000 = 7000 | 11 000 – 1000 – 4000 = 6000        |
-| 2. gads | 6000 × 40% = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
-| 3. gads | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
+| 1. gads | (11 000 – 1000) × 40% = 4000                | 11 000 – 4000 = 7000 | 11 000 – 1000 – 4000 = 6000        |
+| 2. gads | 6000 × 40% = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
+| 3. gads | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
 
 > [!NOTE] 
-> Kad summa, kas tiek aprēķināta, izmantojot 200% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas tiktu aprēķināta, izmantojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti tiek izmantota lineārā metode.
+> Kad summa, kas tiek aprēķināta, izmantojot 200% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

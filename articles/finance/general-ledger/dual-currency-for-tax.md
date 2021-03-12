@@ -3,7 +3,7 @@ title: Divkāršās valūtas atbalsts nodokļiem
 description: Šajā tēmā skaidrots, kā paplašināt divkāršas valūtu uzskaites funkciju nodokļu jomā, un ietekme uz nodokļu aprēķināšanu un grāmatošanu
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445547"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978608"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Divkāršās valūtas atbalsts PVN
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ Lai iegūtu vairāk informācijas par divkāršo valūtu, lūdzu, skatiet [Divk�
 
 Divkāršu valūtu atbalsta rezultātā ir pieejami divi jauni līdzekļi līdzekļu pārvaldībā: 
 
-- PVN konvertēšana (laidiens versijā 10.0.9)
-- Nodokļu apmaksas automātiskā bilance pārskata valūtā (laidiens versijā 10.0.11)
+- PVN konvertēšana (jauns versijā 10.0.13)
 
 Divkāršu valūtu atbalsts PVN nodrošina, ka nodokļi tiek aprēķināti precīzi nodokļu valūtā un ka PVN apmaksas bilance tiek aprēķināta precīzi gan uzskaites valūtā, gan pārskata valūtā. 
 
@@ -145,6 +143,3 @@ Papildinformāciju skatiet tālāk norādītajās tēmās.
 - [Divkāršā valūta](dual-currency.md)
 - [PVN pārskats](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
