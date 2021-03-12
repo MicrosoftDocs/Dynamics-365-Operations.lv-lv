@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527390"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987208"
 ---
 # <a name="product-information-overview"></a>Preču informācijas pārskats
 
@@ -59,7 +58,7 @@ Preces galvenokārt nosaka pēc preces numura, nosaukuma un apraksta. Lai apraks
 
 Preces definīciju var izveidot programmatūrā Supply Chain Management. Tas var arī importēt no šādām sistēmām: preces dzīves cikla pārvaldība (PLM), preču datu pārvaldība (PDM) vai preces informācijas pārvaldība (PIM). Ja tiek izmantotas vairākas Supply Chain Management instances, viena instance parasti tiek izmantota kā visu pārējo instanču preču datu šablons. Šo pieeju atbalsta liela datu elementu kopa, kas ļauj eksportēt un importēt preču definīcijas datus no vienas instances uz citu.
 
-Lai atbalstītu preces datu izplatīšanu daudzās instancēs, programma Supply Chain Management sniedz iespēju izmantot pakalpojumu Common Data Service. Preču definīcijas var eksportēt no Supply Chain Management instances uz pakalpojumu Common Data Service. Pēc tam preču definīcijas var izmantot, lai nodrošinātu preces datus citām biznesa programmām, piemēram, Dynamics 365 Sales.
+Lai atbalstītu preces datu izplatīšanu daudzās instancēs, programma Supply Chain Management sniedz iespēju izmantot pakalpojumu Microsoft Dataverse. Preču definīcijas var eksportēt no Supply Chain Management instances uz pakalpojumu Microsoft Dataverse. Pēc tam preču definīcijas var izmantot, lai nodrošinātu preces datus citām biznesa programmām, piemēram, Dynamics 365 Sales.
 
 Ņemiet vērā, ka dinamiskās un elastīgās organizācijās, preču informācijas dati mainās katru dienu. Tādēļ precīzu un aktuālu preču datu uzturēšana ir būtisks biznesa process.
 
@@ -96,6 +95,3 @@ Darbvietu veido elementu un divu sarakstu kopsavilkums. Sarakstā **Atvērtie pi
 ### <a name="manually-creating-a-new-released-product"></a>Manuāla jaunas izlaistās preces izveide
 
 Varat manuāli izveidot izlaistu preci vienā izpildē, atkarībā no organizācijas biznesa procesiem un noteikumiem par to, vai vajadzētu izmantot šo funkciju. Šī funkcija izveido jaunu preci un automātiski atbrīvo to pašreizējai juridiskajai personai. Lai izveidotu jaunu preci, noklikšķiniet uz **Izlaistās preces** darbvietā **Izlaisto preču uzturēšana** vai saraksta lapā **Izlaistā prece**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

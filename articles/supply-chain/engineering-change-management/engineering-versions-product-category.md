@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433225"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987483"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehniskās versijas un tehnisko preču kategorijas
 
@@ -162,6 +161,3 @@ Tehniskie MK un maršruti tiek veidoti no tehniskās versijas, kur tie tiek piem
 Produktiem, kuros tiek izmantota *versijas* produkta dimensija (kopā ar loģistikas ietekmi uz darījumiem), versija tiek pievienota arī MK un maršrutiem. Šī darbība palīdz diferencēt MK un secīgu versiju maršrutus neatkarīgi no iestatījuma **Ieviešanas efektivitāte**.
 
 Produktiem, kuros netiek izmantota *versijas* produkta dimensija (bez loģistikas ietekmes uz darījumiem), versija netiek pievienota arī MK vai maršrutiem. Tāpēc nebūs atšķirības starp MK un secīgu versiju maršrutiem. Šādā gadījumā ir ieteicams iestatīt opciju **Ieviest efektivitāti** uz *Jā*. Šādā veidā varat novērst tehnisko versiju pārklāšanos un aktivizēt arī jaunākās versijas MK un maršrutu, neveicot iepriekšējās versijas MK un maršruta deaktivizēšanu. Ja opcija **Ieviest efektivitāti** ir iestatīta uz *Jā*, šādā gadījumā, lai varētu aktivizēt jaunāko versiju, manuāli jāinaktivē iepriekšējo versiju MK un maršruti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

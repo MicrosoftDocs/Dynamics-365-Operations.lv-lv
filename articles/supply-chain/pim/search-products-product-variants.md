@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRFullTextIndexField, MCRFullTextParameters, PurchTable, PurchTablePart, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ff95b9e16d1a56dee13f67d0a3355f09cfc60b9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433183"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987183"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Preču un preces variantu meklēšana pasūtījuma izveides laikā
 
@@ -32,9 +31,9 @@ ms.locfileid: "4433183"
 
 Izmantojiet lauku **Krājuma kods**, lai meklētu preces un preču variantus, manuāli izveidojot pārdošanas pasūtījuma vai pirkšanas pasūtījuma rindas.  Tas ļauj jums ātri atrast preces variantus, ja jums ir tikai konfigurācijas virkne, vai vienu no pieejamajām preces dimensijām.
 
-Dažreiz pārāk liels elementu skaits var apgrūtināt darbu jo īpaši, ja pārdodat līdzīgas preces un vēlaties iegaumēt krājumu numurus vai preču meklēšanas nosaukumus, lai atrastu pareizo preci, ko pievienot pārdošanas pasūtījumam. Kā meklēšanas lauku varat izmantot lauku **Krājuma numurs** pārdošanas pasūtījuma rindā vai pirkšanas pasūtījuma rindā. Jūs varat ievadīt jebkuru preces nosaukuma daļu, kodu vai dimensiju, un iegūt uzmeklēšanu, kas parāda visus vienumus, kas atbilst meklēšanas vārdam.
+Dažreiz pārāk liels elementu skaits var apgrūtināt darbu jo īpaši, ja pārdodat līdzīgas preces un vēlaties iegaumēt krājumu numurus vai preču meklēšanas nosaukumus, lai atrastu pareizo preci, ko pievienot pārdošanas pasūtījumam. Kā meklēšanas lauku varat izmantot lauku **Krājuma numurs** pārdošanas pasūtījuma rindā vai pirkšanas pasūtījuma rindā. Jūs varat ievadīt jebkuru preces nosaukuma daļu, kodu vai dimensiju, un iegūt uzmeklēšanu, kas parāda visus vienumus, kas atbilst meklēšanas vārdam.
 
-## <a name="how-searchworks"></a>Kā darbojas meklēšana
+## <a name="how-search-works"></a>Kā darbojas meklēšana
 Meklējot preces vai preces variantus, ir svarīgi saprast, kā meklēšanas līdzeklis atrod preces, kas atbilst jūsu ievadītajam tekstam. Galvenie meklēšanas noteikumi, nodrošinot meklēšanas rezultātus ir:
 
 -   Meklēšanas rezultāti atgriezīs jebkuru atbilstošu ierakstu, neņemot vērā lauku, kurā ir ievadīts meklēšanas teksts.
@@ -44,7 +43,7 @@ Meklējot preces vai preces variantus, ir svarīgi saprast, kā meklēšanas lī
 
 ### <a name="examples"></a>Piemēri
 
-Šajos piemēros tiek izmantotas preces un preču varianti, lai parādītu kā meklēšana tiek veikta dažādās situācijās. **Priekšnosacījums**. Sadaļā **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas parametri &gt; Meklēšanas tips** atlasiet opciju **Pilnīga sakritība**.
+Šajos piemēros tiek izmantotas preces un preču varianti, lai parādītu kā meklēšana tiek veikta dažādās situācijās. **Priekšnosacījums:** sadaļā **Pārdošana un mārketings &gt; Iestatīšana &gt; Meklēšana &gt; Meklēšanas parametri &gt; Meklēšanas tips** atlasiet opciju **Pilnīga atbilstība**.
 
 | Preces veids     | Preces nosaukums    | Parādīt preces numuru | Krājums | Konfigurācija |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -52,20 +51,20 @@ Meklējot preces vai preces variantus, ir svarīgi saprast, kā meklēšanas lī
 | Preces variants  | Aktīvs skaļrunis  | D0010:::Melns:         | D0010       | 000005        |
 | Preces variants  | Aktīvs skaļrunis  | D0010:::Balts:         | D0010       | Balta         |
 
-Ievadot frāzi "skaļr" laukā **Krājuma kods**, jums tiks parādītas visas iepriekš minētās preces kā uzmeklēšanas rezultāts. Ievadot frāzi "melns" laukā **Krājuma kods**, kā rezultāts jums tiks parādīta otra prece, jo tai laukā parādīt preces numuru ir teksts "melns". Šie divi piemēri parāda, ka meklēšana notiek ne tikai lauka sākumā, atbilstība parādīsies pat tad, ja meklēšanas teksts atrodas atbilstošā ieraksta teksta virknes vidū.  
+Ievadot frāzi "runāt" laukā **Krājuma kods**, jums tiks parādītas visas iepriekš minētās preces kā uzmeklēšanas rezultāts. Ievadot frāzi "melns" laukā **Krājuma kods**, kā rezultāts jums tiks parādīta otra prece, jo tai laukā parādīt preces numuru ir teksts "melns". Šie divi piemēri parāda, ka meklēšana notiek ne tikai lauka sākumā, atbilstība parādīsies pat tad, ja meklēšanas teksts atrodas atbilstošā ieraksta teksta virknes vidū.  
 
 Ievadot '05', kā rezultātu iegūsiet tikai otro preces variantu, jo tam konfigurācijā ir '05'. Tas parāda, ka meklēšana notiek visos atļautajos laukos lapā **Meklēšanas kritēriji**.  
 
 Ievadot 'skaļr 05', jums netiks parādīti nekādi rezultāti. Tāpēc, ka meklēšana meklē pilnu ievadīto tekstu. Nevar meklēt "skaļr", un pēc tam sašaurināt rezultātus līdz tiem, kas satur '05'.  
 
-Varat ierobežot meklēšanas rezultātu skaitu, izmantojot lauku **Rezultātu skaits** lapā **Pārdošana un mārketings &gt; Iestatīšana &gt; Meklēšana &gt; Meklēšanas parametri**. Iestatot šo lauku uz 0, tiks atgriezti visi meklēšanas rezultāti. Iestatot to, piemēram, uz 10, tiks atgriezti ne vairāk kā 10 meklēšanas rezultāti.
+Varat ierobežot meklēšanas rezultātu skaitu, izmantojot lauku **Rezultātu skaits** lapā **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas parametri**. Iestatot šo lauku uz 0, tiks atgriezti visi meklēšanas rezultāti. Iestatot to, piemēram, uz 10, tiks atgriezti ne vairāk kā 10 meklēšanas rezultāti.
 
-## <a name="configure-the-productsearch"></a>Konfigurēt preču meklēšanu
+## <a name="configure-the-product-search"></a>Konfigurēt preču meklēšanu
 Pirms varat lietot preču un preču variantu meklēšanas funkciju, sekojiet šiem soļiem, lai konfigurētu preču meklēšanu. [![3 darbības preces meklēšanas konfigurēšanai\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
-### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1. solis: Iekļaut visus attiecīgās preces un preces variantu identifikatorus un dimensijas meklēšanas kritērijos
+### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1. solis: Iekļaut visus attiecīgās preces un preces variantu identifikatorus un dimensijas meklēšanas kritērijos
 
-Varat meklēt tādus preču un preču variantu identifikatorus un dimensijas kā  **Preces nosaukums, Krājuma kods**, **Parādīt preces numuru, Konfigurācija, Krāsa, Izmērs, Stils, Meklēšanas nosaukums utt**.  
+Preces un preces variantu identifikatoru un dimensiju piemēri, kurus jūs varat meklēt ir **Preces nosaukums, Krājuma kods**, **Parādīt preces numuru, Konfigurācija, Krāsa, Izmērs, Stils, Meklēšanas nosaukums u.c.**.  
 
 Pārejiet uz sadaļu **Pārdošana un mārketings &gt; Iestatījumi &gt; Meklēšana &gt; Meklēšanas kritēriji**. Lapa **Meklēšanas kritēriji** ļauj definēt debitoru, potenciālo klientu un preču meklēšanas kritērijus. Pārliecinieties, ka filtrējat lapu, izmantojot preču meklēšanas kritērijus. To var paveikt, lapas izvēlnē pārslēdzoties uz **Prece**.  
 
@@ -73,7 +72,7 @@ Lai meklēšanas kritērijiem pievienotu parādāmo preces numuru, lapas izvēln
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. solis: aizpildiet datu bāzes tabulu, kas tiek izmantota preču meklēšanā
 
-Lapā **Meklēšanas kritēriji**, noklikšķiniet uz pogas **Atjaunināt meklēšanas datus**. Dialoglodziņā **Atjaunināt meklēšanas datus** pārliecinieties, vai ir iestatīta vienuma  **Avots** vērtība **Prece**, un pēc tam noklikšķiniet uz **Labi**. Sistēmā vienā tabulā tiek apkopoti visi atlasītie meklēšanas kritēriji, kas tika norādīti, veicot 1. darbību. Ja jums ir daudz preču un preču variantu, šai operācijai var būt nepieciešams daudz laika un var tikt parādīts brīdinājums. Ieteicams ieplānot meklēšanas tabulas aizpildīšanu pakešapstrādes serverī laikā, kad serveris nav pārāk aizņemts.  
+Lapā **Meklēšanas kritēriji**, noklikšķiniet uz pogas **Atjaunināt meklēšanas datus**. Dialoglodziņā **Atjaunināt meklēšanas datus** pārliecinieties, ka **Avots** ir iestatīts uz **Prece**, un pēc tam noklikšķiniet uz **Labi**. Sistēmā vienā tabulā tiek apkopoti visi atlasītie meklēšanas kritēriji, kas tika norādīti, veicot 1. darbību. Ja jums ir daudz preču un preču variantu, šai operācijai var būt nepieciešams daudz laika un var tikt parādīts brīdinājums. Ieteicams ieplānot meklēšanas tabulas aizpildīšanu pakešapstrādes serverī laikā, kad serveris nav pārāk aizņemts.  
 
 Kamēr tabula nav aizpildīta, preču meklēšana nesniedz pareizus rezultātus. Ja jūs nesaņemat meklēšanas rezultātus, pārliecinieties, vai šī tabula ir aizpildīta.  
 
@@ -83,10 +82,7 @@ Tabulai jābūt aizpildītai, tikai kad tiek modificēti meklēšanas kritēriji
 
 Varat iespējot šo funkcionalitāti, pārejot uz sadaļu **Pārdošana un mārketings &gt; Iestatīšana &gt; Meklēšana &gt; Meklēšanas parametri** un cilnē **Vispārīgi** iestatot opcijas **Iespējot uzmeklēšanu meklēšanā** vērtību **Jā**.  
 
-Pārdošanas pasūtījuma rindas ierakstam noklusējuma darbība ir atvērt lapu **Preču meklēšana**, kad sākat ievadīt tekstu laukā **Krājuma kods** un pēc tam nospiežat **tabulēšanas** taustiņu. Lapa **Preču meklēšana** maina kontekstu pasūtījuma rindas izveides laikā, un var būt uzskatāma par nevajadzīgu iejaukšanos. Ja vēlaties iegūt meklēšanas rezultātus uzmeklēšanā, un nezaudēt kontekstu pasūtījuma rindas izveides laikā, jūs varat izmantot uzmeklēšanas meklēšanu. Ja meklējat preci vai preces variantu, bet neko neatlasāt uzmeklēšanā, un nospiežat taustiņu **Tab**, tiks parādīta lapa **Preču meklēšana**.
+Pārdošanas pasūtījuma rindas ierakstam noklusējums ir atvērt lapu **Preču meklēšana**, sākot ierakstīt laukā **Krājuma kods**, un pēc tam nospiediet taustiņu **Tab**. Lapa **Preču meklēšana** maina kontekstu pasūtījuma rindas izveides laikā, un var būt uzskatāma par nevajadzīgu iejaukšanos. Ja vēlaties iegūt meklēšanas rezultātus uzmeklēšanā, un nezaudēt kontekstu pasūtījuma rindas izveides laikā, jūs varat izmantot uzmeklēšanas meklēšanu. Ja meklējat preci vai preces variantu, bet neko neatlasāt uzmeklēšanā, un nospiežat taustiņu **Tab**, tiks parādīta lapa **Preču meklēšana**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

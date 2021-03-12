@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432754"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987557"
 ---
 # <a name="inventory-close"></a>Krājumu slēgšana
 
@@ -60,7 +59,7 @@ Vairāki uzdevumi, kuri tiek veikti lapā **Slēgšana un pielāgošana**, izrai
 Virsgrāmatas konti, kas tiek atjaunināti saistībā ar šo uzdevumu izpildi, tiek saistīti ar sākotnējām krājumu transakcijām. Piemēram, ja pārdošanas pasūtījums ir segts ar pirkšanas pasūtījumu, tiek koriģēti virsgrāmatas konti, kas tika izmantoti sākotnējam pārdošanas pasūtījumam. Tas notiek arī tad, ja šim krājumam piešķirtās krājumu grupas virsgrāmatas konti kopš pārdošanas pasūtījuma grāmatošanas ir mainījušies. Kad pēc krājumu slēgšanas tiek veidota nosegšanas summa, tā joprojām tiek grāmatota sākotnējos virsgrāmatas kontos nevis jaunajos krājumam piešķirtajos virsgrāmatas kontos. Virsgrāmatu var atjaunināt arī, atsaucot krājumu slēgšanu. 
 
 > [!NOTE] 
-> - Krājumu slēgšana ir obligāts solis mēneša beigu slēgšanas procedūrā visiem krājumu modeļiem. Tas ietver standarta un mainīgo vidējo izmaksu aprēķināšanu. Jūs nevarēsit slēgt finanšu periodu, līdz krājumu slēgšana ir veikta no perioda beigu datuma.
+> - Krājumu slēgšana ir obligāts solis mēneša beigu slēgšanas procedūrā visiem krājumu modeļiem, izņemot vidējās vērtības pārvietošanu.  Jūs tiksiet brīdināts, ja mēģināsiet aizvērt finanšu periodu, vispirms neveicot krājumu slēgšanu no perioda beigu datuma.
 > - Pirms slēgšanas procedūras izpildes var skatīt to krājumu sarakstu, kuru atjaunināšanas laikā nevar nosegt.
 > - Krājumu slēgšanu ir ieteicams veikt zemas darba slodzes laikā, lai vienmērīgāk sadalītu skaitļošanas resursus.
 
@@ -87,6 +86,3 @@ Iespējams, ka reizēm ir jāanulē pabeigta krājumu slēgšana, lai atgrieztu 
 > [!NOTE] 
 > Vēlreiz atvērt var tikai pēdējo slēgto krājumu periodu. Lai atsauktu vecāku krājumu slēgšanu, pa vienai ir jāatsauc visas turpmākās krājumu slēgšanas, sākot ar pēdējo slēgšanu.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

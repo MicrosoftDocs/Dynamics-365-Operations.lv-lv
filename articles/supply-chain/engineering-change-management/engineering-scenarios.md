@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b6270bbb6780786ed4535ca2987ed44448bd81ad
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4433238"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987583"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnisko izmaiņu pārvaldības līdzekļa pārskats
 
@@ -411,6 +410,3 @@ Produktu tagad var izlaist atkārtoti *USMF* uzņēmumam un pēc tam to var nos�
 1. Atlasiet katru uzņēmumu, kuram vēlaties nodot produktus.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Laidieni** un atgriezieties izmaiņu pasūtījumā.
 1. Darbības rūtī, cilnē **Mainīt pasūtījumu**, grupā **Produktu laidieni** atlasiet **Process**, lai izlaistu ietekmētos produktus atlasītajiem uzņēmumiem. Varat arī atlasīt **Izlaist produkta struktūru**, lai sāktu laidiena procesu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

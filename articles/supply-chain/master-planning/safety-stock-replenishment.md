@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432555"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987258"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Krājumu drošības rezerves izpilde
 
@@ -116,6 +115,3 @@ Krājumu drošības krājumu prasību transakcijas izpildes prioritāte tiek sam
 Vispārējās plānošanas segšanas posmā krājumu drošības rezerves papildināšanai vairs netiek samazināta prioritāte. Rīcībā esošos krājumus var izmantot pirms visiem pārējiem pieprasījuma veidiem. Aizkaves aprēķināšanas laikā tiks pievienota jauna loģika, pārskatot aizkavētās pārdošanas rindas, MK rindu prasības un visus citus pieprasījuma veidus, lai noteiktu, vai tos varētu piegādāt laikā, ja vien tiktu izmantota krājumu drošības rezerve. Ja sistēma konstatē, ka tā var samazināt aizkaves, izmantojot krājumu drošības rezervi, tad pārdošanas rindās vai MK rindās to sākotnējā vajadzība tiks aizstāta ar krājumu drošības rezervi, un tās vietā sistēma aktivizēs krājumu drošības rezerves papildināšanu.
 
 Ja plāns vai krājums nav iestatīts aizkavētajam aprēķinam, krājumu drošības rezerves ierobežojumam ir tāda pati prioritāte kā visiem citiem pieprasījuma veidiem. Tas nozīmē, ka rīcībā esošo un citu pieejamo krājumu rezerve ir pirms citiem pieprasījuma veidiem.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

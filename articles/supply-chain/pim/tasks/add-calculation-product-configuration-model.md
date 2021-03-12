@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49d09a3544631960e3f6b292dbdd8927dd499f07
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432793"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987058"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>Aprēķina pievienošana preces konfigurācijas modelim
 
@@ -34,11 +33,8 @@ ms.locfileid: "4432793"
 
 ## <a name="create-calculation-expression"></a>Aprēķina izteiksmes izveide
 1. Noklikšķiniet uz Rediģēt izteiksmi.
-2. Laukā ConstraintBody ievadiet 'Ja[CabinetFinish=="Balts", 10, 15]'.
+2. Laukā ConstraintBody ievadiet "Ja[CabinetFinish=="Balts", 10, 15]".
 3. Noklikšķiniet uz Pārbaudīt.
 4. Noklikšķiniet uz Aizvērt.
 5. Noklikšķiniet uz OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

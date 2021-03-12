@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3fc8cf49b62515f41712e594076c31ae5d7654b
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 75bd907b44ee320ae2d3c31193ae2f6143514c50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668985"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987458"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Apmācības katalogs Dynamics 365 Supply Chain Management lietotājiem
 
@@ -29,7 +28,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
 
-| Saturs | apraksts  | Formāts   | Ilgums    |
+| Saturs | Apraksts  | Formāts   | Ilgums    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 8 stundas |
 | [Dynamics 365 un Power Platform pamati](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
@@ -45,7 +44,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="supply-chain-management"></a>Piegādes ķēdes pārvaldība<a name="supply-chain-management"></a>
 
-| Saturs | apraksts  | Formāts   | Ilgums    |
+| Saturs | Apraksts  | Formāts   | Ilgums    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Konfigurējiet un pārvaldiet preces un krājumus Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Preču informācija ir piegādes ķēžu un mazumtirdzniecības programmu pamats visās nozarēs. Dažādos biznesa risinājumu moduļos preču informācija un konfigurācija ir vajadzīga, lai pārvaldītu biznesa procesus, kas ir saistīti ar īpašām precēm, preču saimēm, materiālu komplektiem un preču kategorijām. Krājumu pārskati parāda dažādos veidos, cik daudz krājumu jums ir, un tas izskaidros, kā efektīvāk veikt krājumu ieguldījumus. Vispārējā plānošanas palīdz jums racionalizēt jūsu plānošanu, pamatojoties uz iepriekš noteiktiem faktoriem, lai jūs varētu efektīvi plānot materiālu pirkšanu, pārsūtīšanu vai ražošanu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 14 stundas |
 | [Konfigurējiet un pārvaldiet sagādes un piegādātājus Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Piegādātāju atrašana un darbs ar tiem, produktu iepirkumu un preču un pakalpojumu kvalitātes nodrošināšanas process ir svarīgi faktori, kas ietekmē uzņēmuma reputāciju un panākumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 14 stundas |
@@ -57,7 +56,7 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="manufacturing"></a>Ražošana<a name="manufacturing"></a>
 
-| Saturs | apraksts  | Formāts  | Ilgums |
+| Saturs | Apraksts  | Formāts  | Ilgums |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Konfigurējiet un izmantojiet diskrēto ražošanu Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | Ja uzņēmums ražo tikai vienkāršas preces, ražošanu var plānot manuāli, izmantojot pareizā materiālu komplekta (MK) daļas, kas pienāk ražošanas stāvā pareizā laikā un piemērotā resursa veidā. Kā ražošanas funkcionālajam konsultantam jums ir jāzina, kā konfigurēt Dynamics 365 Supply Chain Management diskrētai ražošanai, lai jūsu klients varētu veikt un kontrolēt ražošanas ciklu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 16.5 stundas |
 | [Konfigurējiet un izmantojiet lean manufacturing Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | Lean Manufacturing ir nepārtraukta uzlabojuma ceļojums. Mērķis ir radīt tieši to, ko klients vēlas, kad viņš to vēlas, un darīt to ekonomiski. Jūs varat izmantot Lean manufacturing apvienotā (jaukta režīma) ražošanas vidē, kurā ir apvienotas dažādas piegādes, ražošanas un avotu izmantošanas stratēģijas. Šīs stratēģijas iekļauj ražošanas pasūtījumus, partiju pasūtījumus apstrādes rūpniecības nozarēm, pirkšanas pasūtījumus un pārsūtīšanas pasūtījumus. Lean manufacturing arhitektūra Dynamics 365 Supply Chain Management sastāv no ražošanas plūsmām, aktivitātēm un Kanban nosacījumiem. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12.5 stundas |
@@ -66,9 +65,6 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="exam"></a>Eksāmens<a name="exam"></a>
 
-| Saturs | apraksts  | Formāts  |
+| Saturs | Apraksts  | Formāts  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 pamati](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
