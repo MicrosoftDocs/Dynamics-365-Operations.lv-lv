@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654202"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006395"
 ---
 # <a name="advanced-load-building-during-wave"></a>Uzlabota kravu plānošana kopuma laikā
 
@@ -43,12 +42,12 @@ Lai varētu izmantot uzlabota kopuma kravu plānošanu, sistēmā ir jābūt ies
 
 - Kopuma kravu plānošanas līdzeklis:
 
-    - **Modulis:** *Noliktavas vadība*
+    - **Modulis:** *Noliktavas pārvaldība*
     - **Līdzekļa nosaukums:** *Kopuma kravu plānošanas līdzeklis*
 
 - Organizācijas līmeņa kopuma darbības kods:
 
-    - **Modulis:** *Noliktavas vadība*
+    - **Modulis:** *Noliktavas pārvaldība*
     - **Līdzekļa nosaukums:** *Organizācijas līmeņa kopuma darbības kods*
 
 ### <a name="make-sample-data-available"></a>Padarīt pieejamus datu paraugus
@@ -250,6 +249,3 @@ Scenārijā parādīts, kā šajā tēmā iepriekš aprakstītie iestatījumi ie
 1. Tikko izveidotajā pārdošanas pasūtījumā kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai pievienotu vēl vienu rindu.
 1. Jaunajā rindā iestatiet lauku **Krājuma numurs** uz *M9200* un lauku **Daudzums** uz *1*.
 1. Atkārtojiet darbības no 6 līdz 9, lai rezervētu rindu un izlaistu to noliktavā. Tā pat kā iepriekš, sistēma izveidos **jaunu** sūtījumu rindai, kuru pievienojāt. Tomēr, tā kā krājums ir no **CarAudio** krājuma grupas, tas **nespēj nodot ierobežojumus, ko iestatāt kravas komplekta grupai**. Tāpēc tas tiek **pievienots jaunai kravai**. Ja kravas plānošanas veidnē netika norādīta kravas komplekta grupa, tad sūtījums tika pievienots pirmajai kravai.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

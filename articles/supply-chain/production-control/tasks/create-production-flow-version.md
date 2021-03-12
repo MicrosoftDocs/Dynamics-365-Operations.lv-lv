@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d513e6898827de9a3fb1ed59006b817fb9006019
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 115463c57b28e681d4c6bdc227e35272861779aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432494"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006920"
 ---
 # <a name="create-a-production-flow-version"></a>Ražošanas plūsmas versijas izveide
 
@@ -64,6 +63,3 @@ ms.locfileid: "4432494"
     * Ievadiet Faktiskā cikla laika perioda dienu skaitu. Faktiskā cikla laika periods ir dienu skaits, kuru laikā darbi tiek apkopoti no faktiskās minūtes atpakaļ, lai aprēķinātu faktisko cikla laiku. Vērtību var mainīt jebkurā brīdī un tā tiek izmantota tikai faktisko cikla laiku aprēķināšanai.  
 13. Noklikšķiniet uz Saglabāt.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
