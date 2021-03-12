@@ -11,54 +11,53 @@ ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 08a806514a92a99a9f0b18b36817f49a09516ab8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594240"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964849"
 ---
-# <a name="create-call-center-orders"></a><span data-ttu-id="b68e7-103">Zvanu centra pasūtījumu izveide</span><span class="sxs-lookup"><span data-stu-id="b68e7-103">Create call center orders</span></span>
+# <a name="create-call-center-orders"></a><span data-ttu-id="35416-103">Zvanu centra pasūtījumu izveide</span><span class="sxs-lookup"><span data-stu-id="35416-103">Create call center orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b68e7-104">Šajā procedūrā parādīts, kā meklēt debitoru, izveidot jaunu pasūtījumu, meklēt preci un iekasēt maksājumu no debitora.</span><span class="sxs-lookup"><span data-stu-id="b68e7-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="b68e7-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati, un to paredzēts izmantot darbiniekam, kurš izstrādā pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="b68e7-106">Priekšnosacījumi: lietotājs, kas izpilda procedūru, ir iestatīts kā zvanu centra lietotājs, un Fabrikam pusgada katalogs ir publicēts ar vismaz vienu avota kodu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
+<span data-ttu-id="35416-104">Šajā procedūrā parādīts, kā meklēt debitoru, izveidot jaunu pasūtījumu, meklēt preci un iekasēt maksājumu no debitora.</span><span class="sxs-lookup"><span data-stu-id="35416-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="35416-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati, un to paredzēts izmantot darbiniekam, kurš izstrādā pārdošanas pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="35416-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="35416-106">Priekšnosacījumi: lietotājs, kas izpilda procedūru, ir iestatīts kā zvanu centra lietotājs, un Fabrikam pusgada katalogs ir publicēts ar vismaz vienu avota kodu.</span><span class="sxs-lookup"><span data-stu-id="35416-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 
-1. <span data-ttu-id="b68e7-107">Dodieties uz **Mazumtirdzniecība un komercija \> Debitori \> Debitoru apkalpošana**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-107">Go to **Retail and Commerce \> Customers \> Customer service**.</span></span>
-2. <span data-ttu-id="b68e7-108">Laukā **SearchText** ievadiet meklēšanas kritērijus, lai atrastu debitoru.</span><span class="sxs-lookup"><span data-stu-id="b68e7-108">For **SearchText**, enter the search criteria to look up the customer.</span></span>
-    * <span data-ttu-id="b68e7-109">Lai veiktu šo procedūru, ierakstiet “Karen” un atlasiet **Cilne**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-109">For this example procedure, enter "Karen" and select **Tab**.</span></span>  
-3. <span data-ttu-id="b68e7-110">Atlasiet Meklēt.</span><span class="sxs-lookup"><span data-stu-id="b68e7-110">Select Search.</span></span>
-    * <span data-ttu-id="b68e7-111">Demonstrācijas datos ir tikai viens debitors ar nosaukumu "Karen", tādēļ rezultāts tiks automātiski atlasīts.</span><span class="sxs-lookup"><span data-stu-id="b68e7-111">Since there is only one customer named "Karen" in demo data, the result will be automatically selected.</span></span>  
-4. <span data-ttu-id="b68e7-112">Atlasiet vienumu **Jauns pārdošanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-112">Select **New sales order**.</span></span>
-5. <span data-ttu-id="b68e7-113">Izvērsiet vai sakļaujiet sadaļas **Pārdošanas pasūtījums** galveni.</span><span class="sxs-lookup"><span data-stu-id="b68e7-113">Expand or collapse the **Sales order** header section.</span></span>
-6. <span data-ttu-id="b68e7-114">Atlasiet kataloga avota kodu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-114">Select the source code for the catalog.</span></span>
-    * <span data-ttu-id="b68e7-115">Ja nav aktīvu avota kodu, varat izlaist šo darbību.</span><span class="sxs-lookup"><span data-stu-id="b68e7-115">If there are no active source codes you can skip this step.</span></span>  
-7. <span data-ttu-id="b68e7-116">Atlasiet **Pievienot rindu**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-116">Select **Add line**.</span></span>
-8. <span data-ttu-id="b68e7-117">Laukā **Krājuma numurs**  ievadiet ar krājumu saistīto meklējamo terminu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-117">For **Item number**, enter the item search term.</span></span>
-    * <span data-ttu-id="b68e7-118">Lai veiktu šo procedūru, ievadiet daļēju krājuma numuru “8111” un nospiediet tabulēšanas taustiņu. Šī darbība parādīs krājuma meklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-118">For this sample procedure, enter a partial item number of '8111' and press tab. This action will bring up the item search window.</span></span>  
-9. <span data-ttu-id="b68e7-119">Atlasiet preci, ko pievienot pārdošanas pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="b68e7-119">Select the product to add to the sales order.</span></span>
-10. <span data-ttu-id="b68e7-120">Ievadiet pārdodamo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-120">Enter the sales quantity.</span></span>
-11. <span data-ttu-id="b68e7-121">Atlasiet **Izveidot**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-121">Select **Create**.</span></span>
-12. <span data-ttu-id="b68e7-122">Atlasiet **Pabeigt**, lai iekasētu no debitora maksājumu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-122">Select **Complete** to capture the customer payment.</span></span>
-13. <span data-ttu-id="b68e7-123">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-123">Select **Add**.</span></span>
-    * <span data-ttu-id="b68e7-124">Sadaļa Pievienot saiti ir pieejama cilnē Maksājumi. Izvērsiet cilni Maksājumi, ja tā ir sakļauta.</span><span class="sxs-lookup"><span data-stu-id="b68e7-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
-14. <span data-ttu-id="b68e7-125">Atlasiet maksāšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="b68e7-125">Select the payment method.</span></span>
-    * <span data-ttu-id="b68e7-126">Lai veiktu šo procedūru, atlasiet skaidras naudas maksāšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="b68e7-126">For this procedure, select the cash payment method.</span></span>  
-15. <span data-ttu-id="b68e7-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-127">Close the page.</span></span>
-16. <span data-ttu-id="b68e7-128">Ievadiet summu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-128">Enter the amount.</span></span>
-    * <span data-ttu-id="b68e7-129">Lai veiktu šo procedūru, ievadiet summu, kas ir vienāda ar pasūtījuma bilanci, kuru var redzēt lapā Pārdošanas pasūtījumu kopsavilkums pa kreisi no summas lauka.</span><span class="sxs-lookup"><span data-stu-id="b68e7-129">For this procedure, enter an amount equal to the order balance that can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="b68e7-130">Šī darbība ļaus izpildīt pasūtījumu kā pilnībā apmaksātu.</span><span class="sxs-lookup"><span data-stu-id="b68e7-130">This action will allow you to complete the order as fully paid.</span></span>  
-17. <span data-ttu-id="b68e7-131">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-131">Select **OK**.</span></span>
-18. <span data-ttu-id="b68e7-132">Atlasiet **Iesniegt**.</span><span class="sxs-lookup"><span data-stu-id="b68e7-132">Select **Submit**.</span></span>
+1. <span data-ttu-id="35416-107">Dodieties uz **Mazumtirdzniecība un komercija \> Debitori \> Debitoru apkalpošana**.</span><span class="sxs-lookup"><span data-stu-id="35416-107">Go to **Retail and Commerce \> Customers \> Customer service**.</span></span>
+2. <span data-ttu-id="35416-108">Laukā **SearchText** ievadiet meklēšanas kritērijus, lai atrastu debitoru.</span><span class="sxs-lookup"><span data-stu-id="35416-108">For **SearchText**, enter the search criteria to look up the customer.</span></span>
+    * <span data-ttu-id="35416-109">Lai veiktu šo procedūru, ierakstiet “Karen” un atlasiet **Cilne**.</span><span class="sxs-lookup"><span data-stu-id="35416-109">For this example procedure, enter "Karen" and select **Tab**.</span></span>  
+3. <span data-ttu-id="35416-110">Atlasiet Meklēt.</span><span class="sxs-lookup"><span data-stu-id="35416-110">Select Search.</span></span>
+    * <span data-ttu-id="35416-111">Demonstrācijas datos ir tikai viens debitors ar nosaukumu "Karen", tādēļ rezultāts tiks automātiski atlasīts.</span><span class="sxs-lookup"><span data-stu-id="35416-111">Since there is only one customer named "Karen" in demo data, the result will be automatically selected.</span></span>  
+4. <span data-ttu-id="35416-112">Atlasiet vienumu **Jauns pārdošanas pasūtījums**.</span><span class="sxs-lookup"><span data-stu-id="35416-112">Select **New sales order**.</span></span>
+5. <span data-ttu-id="35416-113">Izvērsiet vai sakļaujiet sadaļas **Pārdošanas pasūtījums** galveni.</span><span class="sxs-lookup"><span data-stu-id="35416-113">Expand or collapse the **Sales order** header section.</span></span>
+6. <span data-ttu-id="35416-114">Atlasiet kataloga avota kodu.</span><span class="sxs-lookup"><span data-stu-id="35416-114">Select the source code for the catalog.</span></span>
+    * <span data-ttu-id="35416-115">Ja nav aktīvu avota kodu, varat izlaist šo darbību.</span><span class="sxs-lookup"><span data-stu-id="35416-115">If there are no active source codes you can skip this step.</span></span>  
+7. <span data-ttu-id="35416-116">Atlasiet **Pievienot rindu**.</span><span class="sxs-lookup"><span data-stu-id="35416-116">Select **Add line**.</span></span>
+8. <span data-ttu-id="35416-117">Laukā **Krājuma numurs**  ievadiet ar krājumu saistīto meklējamo terminu.</span><span class="sxs-lookup"><span data-stu-id="35416-117">For **Item number**, enter the item search term.</span></span>
+    * <span data-ttu-id="35416-118">Lai veiktu šo procedūru, ievadiet daļēju krājuma numuru “8111” un nospiediet tabulēšanas taustiņu. Šī darbība parādīs krājuma meklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="35416-118">For this sample procedure, enter a partial item number of '8111' and press tab. This action will bring up the item search window.</span></span>  
+9. <span data-ttu-id="35416-119">Atlasiet preci, ko pievienot pārdošanas pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="35416-119">Select the product to add to the sales order.</span></span>
+10. <span data-ttu-id="35416-120">Ievadiet pārdodamo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="35416-120">Enter the sales quantity.</span></span>
+11. <span data-ttu-id="35416-121">Atlasiet **Izveidot**.</span><span class="sxs-lookup"><span data-stu-id="35416-121">Select **Create**.</span></span>
+12. <span data-ttu-id="35416-122">Atlasiet **Pabeigt**, lai iekasētu no debitora maksājumu.</span><span class="sxs-lookup"><span data-stu-id="35416-122">Select **Complete** to capture the customer payment.</span></span>
+13. <span data-ttu-id="35416-123">Atlasiet **Pievienot**.</span><span class="sxs-lookup"><span data-stu-id="35416-123">Select **Add**.</span></span>
+    * <span data-ttu-id="35416-124">Sadaļa Pievienot saiti ir pieejama cilnē Maksājumi. Izvērsiet cilni Maksājumi, ja tā ir sakļauta.</span><span class="sxs-lookup"><span data-stu-id="35416-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
+14. <span data-ttu-id="35416-125">Atlasiet maksāšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="35416-125">Select the payment method.</span></span>
+    * <span data-ttu-id="35416-126">Lai veiktu šo procedūru, atlasiet skaidras naudas maksāšanas metodi.</span><span class="sxs-lookup"><span data-stu-id="35416-126">For this procedure, select the cash payment method.</span></span>  
+15. <span data-ttu-id="35416-127">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="35416-127">Close the page.</span></span>
+16. <span data-ttu-id="35416-128">Ievadiet summu.</span><span class="sxs-lookup"><span data-stu-id="35416-128">Enter the amount.</span></span>
+    * <span data-ttu-id="35416-129">Lai veiktu šo procedūru, ievadiet summu, kas ir vienāda ar pasūtījuma bilanci, kuru var redzēt lapā Pārdošanas pasūtījumu kopsavilkums pa kreisi no summas lauka.</span><span class="sxs-lookup"><span data-stu-id="35416-129">For this procedure, enter an amount equal to the order balance that can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="35416-130">Šī darbība ļaus izpildīt pasūtījumu kā pilnībā apmaksātu.</span><span class="sxs-lookup"><span data-stu-id="35416-130">This action will allow you to complete the order as fully paid.</span></span>  
+17. <span data-ttu-id="35416-131">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="35416-131">Select **OK**.</span></span>
+18. <span data-ttu-id="35416-132">Atlasiet **Iesniegt**.</span><span class="sxs-lookup"><span data-stu-id="35416-132">Select **Submit**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b68e7-133">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="b68e7-133">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="35416-133">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="35416-133">Additional resources</span></span>
 
-[<span data-ttu-id="b68e7-134">Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida</span><span class="sxs-lookup"><span data-stu-id="b68e7-134">Customize transactional emails by mode of delivery</span></span>](../customize-email-delivery-mode.md)
+[<span data-ttu-id="35416-134">Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida</span><span class="sxs-lookup"><span data-stu-id="35416-134">Customize transactional emails by mode of delivery</span></span>](../customize-email-delivery-mode.md)
 
-[<span data-ttu-id="b68e7-135">Piegādes veida mainīšana programmā POS</span><span class="sxs-lookup"><span data-stu-id="b68e7-135">Change mode of delivery in POS</span></span>](../pos-change-delivery-mode.md)
+[<span data-ttu-id="35416-135">Piegādes veida mainīšana programmā POS</span><span class="sxs-lookup"><span data-stu-id="35416-135">Change mode of delivery in POS</span></span>](../pos-change-delivery-mode.md)
 
