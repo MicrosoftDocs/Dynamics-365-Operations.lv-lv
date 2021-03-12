@@ -11,45 +11,44 @@ ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84d96b5467b38e07a9ed31f142c27b638289284
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445477"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968758"
 ---
-# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="fc66e-103">Saskaņoti starpvienību uzskaites žurnāli</span><span class="sxs-lookup"><span data-stu-id="fc66e-103">Balanced journals for interunit accounting</span></span>
+# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="50ae1-103">Saskaņoti starpvienību uzskaites žurnāli</span><span class="sxs-lookup"><span data-stu-id="50ae1-103">Balanced journals for interunit accounting</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fc66e-104">Šajā rakstā ir izskaidrots, kā automātiski tiek noteikts žurnāla atlikums, ja lapā Virsgrāmata ir atlasīta finanšu dimensijas atlikuma noteikšana.</span><span class="sxs-lookup"><span data-stu-id="fc66e-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
+<span data-ttu-id="50ae1-104">Šajā rakstā ir izskaidrots, kā automātiski tiek noteikts žurnāla atlikums, ja lapā Virsgrāmata ir atlasīta finanšu dimensijas atlikuma noteikšana.</span><span class="sxs-lookup"><span data-stu-id="50ae1-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
 
-<span data-ttu-id="fc66e-105">Ja konta ieraksti nav saskaņoti finanšu dimensijas vērtību līmenī, tiek automātiski izveidoti papildu kona ieraksti, lai saskaņotu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="fc66e-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="fc66e-106">Šie konta ieraksti izmanto grāmatošanas tipus **Starpvienību uzskaite — debets** un **Starpvienību uzskaite — kredīts** lapā **Automātisko darījumu konti**, lai noteiktu galveno kontu.</span><span class="sxs-lookup"><span data-stu-id="fc66e-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="fc66e-107">Piemēram, kā saskaņošanas finanšu dimensija tiek atlasīta dimensija Struktūrvienība, kas ir otrais virsgrāmatas konta segments, un tiks izveidoti tālāk norādītie uzskaites ieraksti.</span><span class="sxs-lookup"><span data-stu-id="fc66e-107">For example, Business Unit, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
+<span data-ttu-id="50ae1-105">Ja konta ieraksti nav saskaņoti finanšu dimensijas vērtību līmenī, tiek automātiski izveidoti papildu kona ieraksti, lai saskaņotu žurnālu.</span><span class="sxs-lookup"><span data-stu-id="50ae1-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="50ae1-106">Šie konta ieraksti izmanto grāmatošanas tipus **Starpvienību uzskaite — debets** un **Starpvienību uzskaite — kredīts** lapā **Automātisko darījumu konti**, lai noteiktu galveno kontu.</span><span class="sxs-lookup"><span data-stu-id="50ae1-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="50ae1-107">Piemēram, kā saskaņošanas finanšu dimensija tiek atlasīta dimensija Struktūrvienība, kas ir otrais virsgrāmatas konta segments, un tiks izveidoti tālāk norādītie uzskaites ieraksti.</span><span class="sxs-lookup"><span data-stu-id="50ae1-107">For example, Business Unit, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
 
 |                      |           |
 |----------------------|-----------|
-| <span data-ttu-id="fc66e-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="fc66e-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="fc66e-109">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="fc66e-109">100.00 DR</span></span> |
-| <span data-ttu-id="fc66e-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="fc66e-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="fc66e-111">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="fc66e-111">100.00 DR</span></span> |
-| <span data-ttu-id="fc66e-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="fc66e-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="fc66e-113">200.00 CR</span><span class="sxs-lookup"><span data-stu-id="fc66e-113">200.00 CR</span></span> |
+| <span data-ttu-id="50ae1-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="50ae1-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="50ae1-109">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="50ae1-109">100.00 DR</span></span> |
+| <span data-ttu-id="50ae1-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="50ae1-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="50ae1-111">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="50ae1-111">100.00 DR</span></span> |
+| <span data-ttu-id="50ae1-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="50ae1-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="50ae1-113">200.00 CR</span><span class="sxs-lookup"><span data-stu-id="50ae1-113">200.00 CR</span></span> |
 
-<span data-ttu-id="fc66e-114">Šādā gadījumā tiek noteiktas tālāk norādītās bilances.</span><span class="sxs-lookup"><span data-stu-id="fc66e-114">In this case, the following balances are determined:</span></span>
+<span data-ttu-id="50ae1-114">Šādā gadījumā tiek noteiktas tālāk norādītās bilances.</span><span class="sxs-lookup"><span data-stu-id="50ae1-114">In this case, the following balances are determined:</span></span>
 
--   <span data-ttu-id="fc66e-115">Struktūrvienībai MSP = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="fc66e-115">For Business Unit MSP = 100.00 CR</span></span>
--   <span data-ttu-id="fc66e-116">Struktūrvienībai NY = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="fc66e-116">For Business Unit NY = 100.00 DR</span></span>
+-   <span data-ttu-id="50ae1-115">Struktūrvienībai MSP = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="50ae1-115">For Business Unit MSP = 100.00 CR</span></span>
+-   <span data-ttu-id="50ae1-116">Struktūrvienībai NY = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="50ae1-116">For Business Unit NY = 100.00 DR</span></span>
 
-<span data-ttu-id="fc66e-117">Tāpēc tiek automātiski izveidoti tālāk norādītie uzskaites ieraksti, lai saskaņotu žurnālu finanšu dimensijas vērtību līmenī.</span><span class="sxs-lookup"><span data-stu-id="fc66e-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
+<span data-ttu-id="50ae1-117">Tāpēc tiek automātiski izveidoti tālāk norādītie uzskaites ieraksti, lai saskaņotu žurnālu finanšu dimensijas vērtību līmenī.</span><span class="sxs-lookup"><span data-stu-id="50ae1-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
 
 |                                   |           |
 |-----------------------------------|-----------|
-| <span data-ttu-id="fc66e-118">(Starpvienību debets) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="fc66e-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="fc66e-119">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="fc66e-119">100.00 DR</span></span> |
-| <span data-ttu-id="fc66e-120">(Starpvienību kredīts) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="fc66e-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="fc66e-121">100.00 CR</span><span class="sxs-lookup"><span data-stu-id="fc66e-121">100.00 CR</span></span> |
+| <span data-ttu-id="50ae1-118">(Starpvienību debets) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="50ae1-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="50ae1-119">100.00 DR</span><span class="sxs-lookup"><span data-stu-id="50ae1-119">100.00 DR</span></span> |
+| <span data-ttu-id="50ae1-120">(Starpvienību kredīts) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="50ae1-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="50ae1-121">100.00 CR</span><span class="sxs-lookup"><span data-stu-id="50ae1-121">100.00 CR</span></span> |
 
 
 
