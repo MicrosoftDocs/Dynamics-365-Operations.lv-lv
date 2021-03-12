@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReqGroup, MCRSalesOrderMessages, MCRSalesTableDetailedStatus, TAMItemVendRebateGroup, TAMVendRebate, TAMVendRebateAgreementLineInfoPart, TAMVendRebateGroup, TAMVendRebateTable, TAMVendRebateTrans, ReqTransActionListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19411
 ms.assetid: 52b46d93-7d02-46b5-aad1-9fd08206bf9d
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46e170b18a3c32d443c1de55516d19408b7947d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dd9efebbe5cfea1bb2c9beedfea4fa0492040ddc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433025"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989772"
 ---
 # <a name="action-messages"></a>Darbību ziņojumi
 
@@ -39,7 +38,7 @@ Varat iestatīt veidu, kā ziņojumi tiek aprēķināti seguma grupai, kuru pies
 
 ## <a name="select-action-messages"></a>Darbību ziņojumu atlasīšana
 
-Lapā **Seguma grupas** varat atlasīt darbību ziņojumus, kurus vēlaties, lai sistēma ģenerē, kā arī atlasīt, uz kurām vajadzību grupām vai krājumiem šie ziņojumi attiecas. Varat atlasīt no tālāk uzskaitītajiem darbību ziņojumiem.
+Lapā **Seguma grupas** varat atlasīt darbību ziņojumus, kurus vēlaties, lai sistēma ģenerē, kā arī atlasīt, uz kurām vajadzību grupām vai elementiem šie ziņojumi attiecas. Varat atlasīt šādus darbību ziņojumus.
 
 | Ziņojums             | Apraksts                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -53,6 +52,3 @@ Lapā **Seguma grupas** varat atlasīt darbību ziņojumus, kurus vēlaties, lai
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432659"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989697"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Mobilās ierīces izvēlnes vienumu iestatīšana, lai nodrošinātu izdošanas rindas pārskatu
 
@@ -69,6 +68,3 @@ Lai iestatītu mobilās ierīces izvēlnes vienumu, kas nodrošinātu izdošanas
     - Izmantojiet atlikušos **Parādāmais lauks** laukus, lai pievienotu līdz septiņiem papildu parādāmajiem laukiem, pēc nepieciešamības. Katrā **Parādāmais lauks** laukā atlasiet darba rindas lauka nosaukumu. Katrai rindai tiks parādīta šī lauka vērtība. Vērtības tiks rādītas šeit atlasītajā pasūtījumā. Dažus no **Parādāmais lauks** laukiem var atstāt tukšus, ja nav nepieciešamas visas septiņas vērtības.
 
 1. Darbību rūtī atlasiet **Saglabāt** un pēc tam aizveriet lapu **Lauku saraksts**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

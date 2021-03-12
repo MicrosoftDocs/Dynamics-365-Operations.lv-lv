@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414065"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989256"
 ---
 # <a name="payment-methods-in-call-centers"></a>Maksāšanas metodes zvanu centros
 
@@ -53,6 +52,3 @@ Definējot maksājuma metodes, tām ir jābūt saistītam ar virsgrāmatu vai ba
 Atmaksas apstrādāšanas scenārijos zvanu centrs izmanto arī dažas maksāšanas metodes, kas ir definētas modulī Debitoru parādi. Lai konfigurētu šīs maksāšanas metodes, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra atmaksas metodes**. Jums ir jāizpilda šī konfigurācija, lai apstrādātu debitoriem paredzētus atmaksas čekus. Piemēram, ja debitors sākotnēji maksāja par pasūtījumu, izmantojot skaidru naudu vai čeku, lietotājs varētu vēlēties nosūtīt debitoram atmaksas čeku, izmantojot moduli Debitoru parādi. Šajā gadījumā zvanu centra skaidras naudas un čeka maksājuma tipiem ir jābūt kartētiem uz pareizo maksāšanas metodi modulī Debitoru parādi, lai palīdzētu nodrošināt pareizu atmaksas apstrādāšanu.
 
 Turklāt, ja lietotājs apstrādā atgriešanas pasūtījumu kā zvanu centra lietotājs programmatūrā Commerce, bet viņš vai viņa nevar šo atgriešanu saistīt ar sākotnējo pārdošanu, tad **Atgriešanas** maksāšanas metode ir jādefinē zvanu centra parametros. Dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Zvanu centra iestatīšana** \> **Zvanu centra parametri** un pēc tam cilnē **RMA/Atgriešana**, laukā **Maksāšanas metode** pārliecinieties, ka ir definēta kāda maksāšanas metode. Maksāšanas metode būs tā maksāšanas metode, kas tiek izmantota atmaksām. Parasti tā tiek definēta kā čeka metode vai debitora konta metode.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

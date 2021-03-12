@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: cfb9a9e1456a7d9067e3c4369a7eb7150326655d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650672"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988956"
 ---
 # <a name="number-of-books-per-journal"></a>Grāmatu skaits katrā žurnālā
 
@@ -46,7 +45,7 @@ Pakešapstrādes darbs izslēdz slēgtās grāmatas. Piemēram, nolietojuma pake
 
 Grāmatu skaita ierobežojums tiek pielietots, ja tajā pašā žurnālā neeksistē pamatlīdzekļu ID dublikāti. Tomēr, ja pamatlīdzekļa ID ir tas pats, kas grāmatas ID, žurnāla grāmatu skaits var tikt pārsniegts, lai saglabātu pamatlīdzekļa ID tajā pašā žurnālā.
 
-Piemēram, ir 5001 pamatlīdzekļu ID, trīs grāmatas ir saistītas ar katru pamatlīdzekļa ID, un katra pamatlīdzekļu grāmata tiek grāmatota vienā grāmatošanas līmenī. Nolietojums tiek palaists trīs mēnešus pēc kārtas bez summēšanas. Nolietojuma žurnāls tiks izveidots, izmantojot pakešuzdevumu, un sistēma izveidos septiņus žurnālus, kuriem ir 667 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Rezultāts būs 2001 grāmata. Tāpēc trijos mēnešos būs 6003 žurnāla rindas, lai tajā pašā žurnālā uzturētu tos pašus pamatlīdzekļu ID. Sistēmā tiks izveidots arī viens žurnāls, kurā ir 332 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Trijos mēnešos būs 2988 rindas.
+Piemēram, ir 5001 pamatlīdzekļu ID, trīs grāmatas ir saistītas ar katru pamatlīdzekļa ID, un katra pamatlīdzekļu grāmata tiek grāmatota vienā grāmatošanas līmenī. Nolietojums tiek izpildīts trīs mēnešus pēc kārtas bez summēšanas.  Nolietojuma žurnāls tiks izveidots, izmantojot pakešuzdevumu, un sistēma izveidos septiņus žurnālus, kuriem ir 667 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Rezultāts būs 2001 grāmata. Tāpēc trijos mēnešos būs 6003 žurnāla rindas, lai tajā pašā žurnālā uzturētu tos pašus pamatlīdzekļu ID. Sistēmā tiks izveidots arī viens žurnāls, kurā ir 332 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Trijos mēnešos būs 2988 rindas.
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [!Note] 
+> Ja, veidojot nolietojuma priekšlikumu, parametrs **Nolietojuma kopsavilkums** ir ieslēgts, tad vērtībai laukā **Grāmatu skaits žurnālā – Nolietojuma priekšlikums** nav ietekmes. Šajā gadījumā grāmatu skaits žurnālā ir 6000, kas ir iekšējais definētais ierobežojums.

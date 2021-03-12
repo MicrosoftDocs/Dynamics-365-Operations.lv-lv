@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445630"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990243"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Apmācības katalogs Dynamics 365 Finance lietotājiem
 
@@ -54,12 +53,10 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | [Konfigurējiet un izmantojiet budžeta veidošanu Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Visas organizācijas, neatkarīgi no tā, vai tās ir privātas vai publiskas, iestata finanšu un darbības mērķus, izveidojot budžetus. Izmantojot budžeta plānošanas sadarbības un apstrādes veidu, varat padarīt savu budžeta procesu efektīvāku. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 3.5 stundas |
 | [Konfigurējiet un pārvaldiet pamatlīdzekļus Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Pamatlīdzekļiem var iestatīt un ievadīt informāciju par to iegādi un pēc tam to pārvaldīt, samazinot to vērtību un iestatot kapitalizācijas slieksni. Pamatlīdzekļu apstrādes veidam ir jāatbilst gan starptautiskajiem grāmatvedības standartiem, gan katras valsts vai reģiona grāmatvedības likumdošanai. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4.5 stundas |
 | [Sākt darbu ar izmaksu uzskaiti piegādes ķēdēm Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Izmaksu uzskaite ļauj jums apkopot datus no dažādiem avotiem, piemēram, virsgrāmata, apakšgrāmata, budžeti un statistiska informācija. Pēc tam jūs varat analizēt, apkopot un novērtēt izmaksu datus, tādējādi vadība var pieņemt vislabākos lēmumus cenas pielāgošanai, budžetiem, izmaksu kontrolei un tā tālāk.  | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 1 stunda  |
+| [Darbs ar Izdevumu pārvaldību Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Palieliniet ienesīgumu un samaziniet izmaksas ar precīzām izdevumu pārvaldības iespējām programmā Dynamics 365 Project Operations. Uzziniet, kā konfigurēt sistēmu, izveidot un apstiprināt izdevumu pārskatus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas  |
 
 ## <a name="exam"></a>Eksāmens<a name="exam"></a>
 
-| Saturs | apraksts  | Formāts  |
+| Saturs | Apraksts  | Formāts  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 pamati](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

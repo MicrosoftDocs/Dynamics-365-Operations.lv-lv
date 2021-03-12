@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445437"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990468"
 ---
 # <a name="dual-currency"></a>Divkāršā valūta
 
@@ -209,6 +208,3 @@ Virsgrāmatas konsolidācijā ir pievienota jauna opcija, lai konsolidētu vai n
 -  Tagad varat izvēlēties, vai izmantot uzskaites valūtu vai pārskata valūtu no avota uzņēmuma kā transakcijas valūtu konsolidācijas uzņēmumā.
 
 - Ja valūtas sakrīt, tad uzskaites vai pārskata valūtas summas no avota uzņēmuma tiks kopētas tieši konsolidācijas uzņēmuma uzskaites vai pārskata valūtas summās. Ja valūtas nesakrīt, tad uzskaites vai pārskata valūtas summas konsolidācijas uzņēmumā tiek aprēķinātas, izmantojot valūtas maiņas kursu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445642"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988803"
 ---
 # <a name="sales-tax-overview"></a>PVN apskats
 
@@ -97,6 +96,3 @@ Taču, ja lietojat nosacījuma PVN, PVN nodokļu iestādei ir jāmaksā 30. j�
 Ja kā maksājuma metode tiek izmantots ar iepriekšēju datumu datēts čeks tad, kad maksājums ir izveidots, bankas konts netiek notīrīts. Dažās valstīs PVN kļūst par “realizēto” saistību, kad maksājums notīra banku, kas nozīmē, ka ar iepriekšēju datumu datēts čeks ir nosegts. Jūs varat to iespējot, atlasot **Īstenot nosacījuma nodokli, ja tiek izrakstīti ar iepriekšēju datumu datēti čeki** cilnē **Kases un bankas vadība > Iestatījumu > Kases un bankas vadības parametri > Ar iepriekšēju datumu datēti čeki**.
 
 Plašāku informāciju skatiet šeit: [Iestatīt ieturētā nodokļa kodus](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
