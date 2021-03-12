@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: ReturnDispositionCode
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16f0ddb9ad956367adc66a952bd8d12551da56a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432457"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977542"
 ---
-# <a name="set-up-disposition-codes"></a><span data-ttu-id="058af-103">Atgriešanas metožu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="058af-103">Set up disposition codes</span></span> 
+# <a name="set-up-disposition-codes"></a><span data-ttu-id="a6c62-103">Atgriešanas metožu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="a6c62-103">Set up disposition codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="058af-104">Varat iestatīt atgriešanas metodes kodus, lai norādītu, kā apstrādāt klienta atgrieztās preces.</span><span class="sxs-lookup"><span data-stu-id="058af-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="058af-105">Piemēram, izveidojiet atgriešanas metodes kodu ar nosaukumu **Labošana un atgriešana**, tā norādot, ka atgrieztā prece tiks labota un pēc tam atgriezta klientam.</span><span class="sxs-lookup"><span data-stu-id="058af-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="058af-106">Vairāk piemēru par atgriešanas metožu kodiem, kurus parasti izmanto klientu atgrieztajām precēm, skatiet sadaļā [Noteikšana, kā atbrīvoties no atgrieztiem krājumiem](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="058af-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
+<span data-ttu-id="a6c62-104">Varat iestatīt atgriešanas metodes kodus, lai norādītu, kā apstrādāt klienta atgrieztās preces.</span><span class="sxs-lookup"><span data-stu-id="a6c62-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="a6c62-105">Piemēram, izveidojiet atgriešanas metodes kodu ar nosaukumu **Labošana un atgriešana**, tā norādot, ka atgrieztā prece tiks labota un pēc tam atgriezta klientam.</span><span class="sxs-lookup"><span data-stu-id="a6c62-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="a6c62-106">Vairāk piemēru par atgriešanas metožu kodiem, kurus parasti izmanto klientu atgrieztajām precēm, skatiet sadaļā [Noteikšana, kā atbrīvoties no atgrieztiem krājumiem](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="a6c62-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
 
-<span data-ttu-id="058af-107">Varat arī iestatīt iemesla kodu, lai palīdzētu paskaidrot preces atgriešanas iemeslus.</span><span class="sxs-lookup"><span data-stu-id="058af-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="058af-108">Plašāku informāciju par iemeslu kodiem skatiet rakstā [Atgriešanas iemeslu kodu iestatīšana](set-up-return-reason-code.md).</span><span class="sxs-lookup"><span data-stu-id="058af-108">For more information about reason codes, see [Set up return reason codes](set-up-return-reason-code.md).</span></span>
+<span data-ttu-id="a6c62-107">Varat arī iestatīt iemesla kodu, lai palīdzētu paskaidrot preces atgriešanas iemeslus.</span><span class="sxs-lookup"><span data-stu-id="a6c62-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="a6c62-108">Plašāku informāciju par iemeslu kodiem skatiet rakstā [Atgriešanas iemeslu kodu iestatīšana](set-up-return-reason-code.md).</span><span class="sxs-lookup"><span data-stu-id="a6c62-108">For more information about reason codes, see [Set up return reason codes](set-up-return-reason-code.md).</span></span>
 
-1.  <span data-ttu-id="058af-109">Noklikšķiniet uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas metožu kodi**.</span><span class="sxs-lookup"><span data-stu-id="058af-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
+1.  <span data-ttu-id="a6c62-109">Noklikšķiniet uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas metožu kodi**.</span><span class="sxs-lookup"><span data-stu-id="a6c62-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
 
-2.  <span data-ttu-id="058af-110">Lai izveidotu jaunu atgriešanas metodes kodu, noklikšķiniet uz **Jauns** vai nospiediet taustiņu kombināciju CTRL+N.</span><span class="sxs-lookup"><span data-stu-id="058af-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
+2.  <span data-ttu-id="a6c62-110">Lai izveidotu jaunu atgriešanas metodes kodu, noklikšķiniet uz **Jauns** vai nospiediet taustiņu kombināciju CTRL+N.</span><span class="sxs-lookup"><span data-stu-id="a6c62-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
 
-3.  <span data-ttu-id="058af-111">Ievadiet unikālu, aprakstošu nosaukumu, atlasiet transakciju un ievadiet atgriešanas metodes koda aprakstu.</span><span class="sxs-lookup"><span data-stu-id="058af-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
+3.  <span data-ttu-id="a6c62-111">Ievadiet unikālu, aprakstošu nosaukumu, atlasiet transakciju un ievadiet atgriešanas metodes koda aprakstu.</span><span class="sxs-lookup"><span data-stu-id="a6c62-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
 
-4.  <span data-ttu-id="058af-112">Ja ar šo atgriešanas metodes kodu vēlaties saistīt kāda debitora maksas, noklikšķiniet uz pogas **Maksas**, lai atvērtu formu **Iestatīt maksas**.</span><span class="sxs-lookup"><span data-stu-id="058af-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
+4.  <span data-ttu-id="a6c62-112">Ja ar šo atgriešanas metodes kodu vēlaties saistīt kāda debitora maksas, noklikšķiniet uz pogas **Maksas**, lai atvērtu formu **Iestatīt maksas**.</span><span class="sxs-lookup"><span data-stu-id="a6c62-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
 
-5.  <span data-ttu-id="058af-113">Ja vēlaties definēt kādus ārējos kodus, lai tie atbilstu uzņēmuma paša atgriešanas metožu kodiem, noklikšķiniet uz pogas **Ārējie kodi**, lai atvērtu formu **Ārējie kodi**.</span><span class="sxs-lookup"><span data-stu-id="058af-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
+5.  <span data-ttu-id="a6c62-113">Ja vēlaties definēt kādus ārējos kodus, lai tie atbilstu uzņēmuma paša atgriešanas metožu kodiem, noklikšķiniet uz pogas **Ārējie kodi**, lai atvērtu formu **Ārējie kodi**.</span><span class="sxs-lookup"><span data-stu-id="a6c62-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="058af-114">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="058af-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a6c62-114">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="a6c62-114">See also</span></span>
 
-[<span data-ttu-id="058af-115">Debitora atgriešanas pārskats</span><span class="sxs-lookup"><span data-stu-id="058af-115">Customer returns overview</span></span>](disposition-and-return-reason-codes.md)
+[<span data-ttu-id="a6c62-115">Debitora atgriešanas pārskats</span><span class="sxs-lookup"><span data-stu-id="a6c62-115">Customer returns overview</span></span>](disposition-and-return-reason-codes.md)
 
-<span data-ttu-id="058af-116">[Atgriešanas metožu kodi (forma)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="058af-116">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="a6c62-116">[Atgriešanas metožu kodi (forma)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="a6c62-116">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
-<span data-ttu-id="058af-117">[Automātiskās maksas (forma)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="058af-117">[Auto charges (form)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span></span>
+<span data-ttu-id="a6c62-117">[Automātiskās maksas (forma)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="a6c62-117">[Auto charges (form)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span></span>
 
-<span data-ttu-id="058af-118">[Ārējie kodi (forma)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="058af-118">[External codes (form)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span></span>
+<span data-ttu-id="a6c62-118">[Ārējie kodi (forma)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="a6c62-118">[External codes (form)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span></span>
 
   
 
