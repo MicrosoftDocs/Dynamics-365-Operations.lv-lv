@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8342bf6c56adc41cc4944dc709152246ad93a3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f97b88a2637e661146e8150cd6535ff32745227a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432973"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996805"
 ---
 # <a name="schedule-kanban-jobs"></a>Kanban darbu grafika izveide
 
@@ -62,6 +61,3 @@ ms.locfileid: "4432973"
     * Ņemiet vērā, ka abi darbi tiek pievienoti izvēlētajam periodam.  
     * Sadaļā Perioda noslodze varat redzēt katra perioda slodzi. Laukā Patēriņš parādīts šī perioda plānotais patēriņš. Ja plānotais patēriņš ir lielāks par šajā periodā pieejamo noslodzi, tiks atlasīts pārslodzes patēriņš.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

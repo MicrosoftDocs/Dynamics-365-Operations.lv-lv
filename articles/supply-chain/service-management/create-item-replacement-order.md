@@ -1,5 +1,5 @@
 ---
-title: Krājumu aizstāšanas pasūtījuma izveidošana
+title: Krājumu aizstāšanas pasūtījuma izveide
 description: Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas pārbaudei.
 author: josaw1
 manager: tfehr
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReplaceItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63c175d12cac91648cb57a3f41d1769e81d57af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c0006ea9ec64cd95a709ec91509cb3a9828df160
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432970"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996655"
 ---
-# <a name="create-an-item-replacement-order"></a>Krājumu aizstāšanas pasūtījuma izveidošana 
+# <a name="create-an-item-replacement-order"></a>Krājumu aizstāšanas pasūtījuma izveide 
 
 [!include [banner](../includes/banner.md)]
 
@@ -68,6 +67,3 @@ Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

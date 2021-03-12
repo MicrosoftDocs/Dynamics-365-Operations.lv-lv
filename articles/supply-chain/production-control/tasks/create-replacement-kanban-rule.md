@@ -1,5 +1,5 @@
 ---
-title: Aizstāšanas Kanban kārtulas izveide
+title: Kanban aizstāšanas kārtulas izveide
 description: Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu kanban nosacījumu noteiktā datumā.
 author: ChristianRytt
 manager: tfehr
@@ -11,24 +11,23 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d68087afd1a0c9b675e4ac1ef2118e6aab5213d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432492"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998657"
 ---
-# <a name="create-a-replacement-kanban-rule"></a>Aizstāšanas Kanban kārtulas izveide
+# <a name="create-a-replacement-kanban-rule"></a>Kanban aizstāšanas kārtulas izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu kanban nosacījumu noteiktā datumā. Tas ir noderīgi, kad ir nepieciešams saskaņot un plānot izmaiņas ražošanas plūsmā vai papildināšanas kārtulās. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF. Šī procedūra ir paredzēta procesa inženierim vai vērtību plūsmas pārvaldniekam, kad tie sagatavo ražošanas procesu izmanītai ražošanas plūsmai vai jauniem papildināšanas noteikumiem. Šis uzdevums aizstāj kanban nosacījumu 000022 ar jaunu nosacījumu, un palielina maksimālo daudzumu jaunajam nosacījumam no 48 līdz 100.
+Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu kanban nosacījumu noteiktā datumā. Tas ir noderīgi, kad ir nepieciešams saskaņot un plānot izmaiņas ražošanas plūsmā vai papildināšanas kārtulās. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šī procedūra ir paredzēta procesa inženierim vai vērtību plūsmas pārvaldniekam, kad tie sagatavo ražošanas procesu izmanītai ražošanas plūsmai vai jauniem papildināšanas noteikumiem. Šis uzdevums aizstāj kanban nosacījumu 000022 ar jaunu nosacījumu, un palielina maksimālo daudzumu jaunajam nosacījumam no 48 līdz 100.
 
 
 ## <a name="select-a-kanban-rule-to-replace"></a>Atlasiet aizstājamo kanban nosacījumu
@@ -56,6 +55,3 @@ ms.locfileid: "4432492"
 1. Iestatiet maksimālo daudzumu uz "100".
     * Izvērsiet daudzumu kopsavilkuma cilni, lai redzētu lauku Maksimālais daudzums. Nomainot maksimālo daudzumu uz 100, ļaus apstrādāt līdz pat 100 kanban.    Šā ir pēdējā darbība šajā uzdevumā.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432545"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996330"
 ---
 # <a name="confirm-and-transfer"></a>Apstiprināt un pārsūtīt
 
@@ -230,6 +229,3 @@ Varat arī apstiprināt, ka darbību relācijas ir atjauninātas šādos veidos:
 - Opcija **Sadalīt daudzumu jaunai kravai** darbojas arī tad, ja dažiem atlikušā darba virsrakstiem ir statuss *Procesā*. Tāpēc joprojām varat izmantot funkcionalitāti, pat ja darbinieki jau izmanto izdošanas pasūtījumus.
 - Atlasot **Atcelt neizpildīto daudzumu**, kamēr vēl ir atlikušais darbs ar statusu *Atvērts* vai *Notiek izpilde*, tiek parādīts šāds kļūdas ziņojums: “Nevar atcelt atlikušo kravas daudzumu. Darbam ir krava. "
 - Atlasot **Atcelt neizpildīto daudzumu**, kad nav neviena atlikušā darba, bet kravā ir neatbrīvotas kravas rindas, tiek parādīts šāds kļūdas ziņojums: “Kravas nosūtīšanu nevarēja apstiprināt, jo krājuma daudzums pārsniedz procentuālo vērtību, kas definēta zem piegādes.” Lai izvairītos no kļūdas, varat iestatīt **Nepilns pasūtījums** procentuālo vērtību neatbrīvotai kravas rindai 100 procenti. Neizlaistās rindas netiks pārvietotas uz jaunu kravu, bet pašreizējā krava tiks apstiprināta ar nepietiekamu piegādi. Šādā gadījumā vairs nebūs iespējams atkārtoti nodot sākotnējo pasūtījumu. Tādēļ nāksies rīkoties citādi.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

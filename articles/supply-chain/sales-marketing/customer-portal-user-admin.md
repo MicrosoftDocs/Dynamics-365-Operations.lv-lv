@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528297"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996780"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
@@ -39,11 +38,11 @@ Video (parādīts iepriekš) [Aicināt klientus reģistrēties un izmantot jūsu
 
 ## <a name="prerequisite-setup"></a>Priekšnoteikumu iestatīšana
 
-Kontakti Power Apps portālos tiek saglabāti kā ieraksti elementā **Kontaktpersonas** pakalpojumā Common Data Service. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
+Kontakti Power Apps portālos tiek saglabāti kā ieraksti tabulā **Kontaktpersonas** pakalpojumā Microsoft Dataverse. Pēc tam duālais ieraksts pēc vajadzības sinhronizē šos ierakstus ar Microsoft Dynamics 365 Supply Chain Management.
 
 ![Sistēmas diagramma Debitoru portāla kontaktpersonām](media/customer-portal-contacts.png "Sistēmas diagramma Debitoru portāla kontaktpersonām")
 
-Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis elementa **Kontaktpersonas** kartēšanu duālajā ierakstā.
+Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis tabulas **Kontaktpersonas** kartēšanu duālajā ierakstā.
 
 ## <a name="the-invitation-process"></a>Uzaicinājuma process
 
@@ -58,7 +57,7 @@ Kad kontaktpersona ir izveidota, jūs varat to redzēt Supply Chain Management.
 
 Plašāku informāciju skatiet [Konfigurēt kontaktpersonu izmantošanai portālā](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) Power Apps portālu dokumentācijā.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Standarta tīmekļa lapu lomas un elementu atļaujas
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Standarta tīmekļa lapu lomas un tabulu atļaujas
 
 Lietotāja lomas Power Apps portālos nosaka [tīmekļa lapas lomas](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [elementu atļaujas](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Dažas lomas ir definētas Debitora portālam standarta variantā. Varat izveidot jaunas lomas, un jūs varat modificēt vai noņemt esošās lomas.
 
@@ -96,6 +95,3 @@ Tabulā zemāk ir parādīts, kurus pārdošanas pasūtījumus lietotāji katrā
 
 > [!NOTE]
 > Kaut gan Sam un Jane ir kontaktpersonas, kas strādā debitoram X, viņi var skatīt tikai tos pasūtījumus, kurus viņi paši ir ievietojuši, un neko citu. Lai gan May sistēmā ir pasūtījums, viņa nevar redzēt šo pasūtījumu Debitoru portālā, jo viņa ir neautorizēts lietotājs. (Turklāt viņa ir ievietojusi pasūtījumu, izmantojot kādu citu kanālu, nevis Debitoru portālu.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

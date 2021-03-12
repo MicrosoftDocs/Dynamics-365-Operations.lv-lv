@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f710403baef02173c39016406a19c82f604cc99d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433143"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996388"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -32,7 +31,7 @@ ms.locfileid: "4433143"
 Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 
 > [!NOTE]
-> Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tas neattiecas uz moduļa Krājumu vadība līdzekļiem. Izvēlnes vienumus, kas tiek rādīti izvēlnēs noliktavas mobilajā ierīcē, var konfigurēt lapā **Mobilās ierīces izvēlnes vienumi**. Tā kā izvēlnes vienumus var ietvert dažādās izvēlnēs, var viegli konfigurēt izvēļņu struktūras tā, lai noteiktiem lietotājiem tiktu rādīti darba veidi. Varat konfigurēt izvēlnes vienumus tālāk norādīto uzdevumu veikšanai.
+> Šī tēma attiecas uz moduļa Noliktavas pārvaldības līdzekļiem. Tas neattiecas uz moduļa Krājumu pārvaldība līdzekļiem. Izvēlnes vienumus, kas tiek rādīti izvēlnēs noliktavas mobilajā ierīcē, var konfigurēt lapā **Mobilās ierīces izvēlnes vienumi**. Tā kā izvēlnes vienumus var ietvert dažādās izvēlnēs, var viegli konfigurēt izvēļņu struktūras tā, lai noteiktiem lietotājiem tiktu rādīti darba veidi. Varat konfigurēt izvēlnes vienumus tālāk norādīto uzdevumu veikšanai.
 
 - Apstrādāt pieprasījumu vai veikt aktivitāti, piemēram, izdrukāt etiķeti, ģenerēt unikālos noliktavas vienību identifikatorus, sākt ražošanas pasūtījumu vai ātri atrast uzmeklēt informāciju par krājumiem kādā novietojumā,
 - Izveidot darbu, kas tiks veikts, izmantojot citu procesu. Piemēram, saņemot pirkšanas pasūtījuma krājumu, var tikt izveidots izvietošanas darbs citam darbiniekam.
@@ -439,6 +438,3 @@ Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot 
 [Krājumu statusi](../inventory/inventory-statuses.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528927"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998507"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management
 
@@ -62,13 +61,13 @@ Lai varētu veikt pārdošanas pasūtījumu galveņu un rindu sinhronizāciju, i
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | CDS pārdošanas pasūtījumu virsraksti |
-| msdyn_workorderservices | CDS pārdošanas pasūtījumu rindas   |
-| msdyn_workorderproducts | CDS pārdošanas pasūtījumu rindas   |
+| msdyn_workorders        | Dataverse Pārdošanas pasūtījumu galvenes |
+| msdyn_workorderservices | Dataverse pārdošanas pasūtījumu rindas   |
+| msdyn_workorderproducts | Dataverse pārdošanas pasūtījumu rindas   |
 
 ## <a name="entity-flow"></a>Elementu plūsma
 
-Darba pasūtījumi tiek izveidoti pakalpojumā Field Service. Ja darba pasūtījumos ir iekļautas tikai ārēji uzturētas preces un ja vērtība **Darba pasūtījuma statuss** atšķiras no vērtības **Atvērts - Neieplānots** un **Slēgts - Atcelts**, darba pasūtījumus var sinhronizēt ar risinājumu Supply Chain Management, izmantojot Common Data Service datu integrācijas projektu. Darba pasūtījumu atjauninājumi tiks sinhronizēti kā pārdošanas pasūtījumi risinājumā Supply Chain Management. Šie atjauninājumi ietver informāciju par izcelsmes veidu un statusu.
+Darba pasūtījumi tiek izveidoti pakalpojumā Field Service. Ja darba pasūtījumos ir iekļautas tikai ārēji uzturētas preces un ja vērtība **Darba pasūtījuma statuss** atšķiras no vērtības **Atvērts - Neieplānots** un **Slēgts - Atcelts**, darba pasūtījumus var sinhronizēt ar risinājumu Supply Chain Management, izmantojot Microsoft Dataverse datu integrācijas projektu. Darba pasūtījumu atjauninājumi tiks sinhronizēti kā pārdošanas pasūtījumi risinājumā Supply Chain Management. Šie atjauninājumi ietver informāciju par izcelsmes veidu un statusu.
 
 ## <a name="estimated-versus-used"></a>Vienumu Novērtēts un Izmantots salīdzinājums
 
@@ -273,6 +272,3 @@ Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004), vai (msdyn_allocated ne true))
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
