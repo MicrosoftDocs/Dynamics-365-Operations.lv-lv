@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445650"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994315"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Koplietot elektronisko pārskatu (ER) konfigurācijas Regulatory Configuration Services (RCS) globālā repozitorijā tieši ar ārējām organizācijām
 
@@ -50,7 +49,7 @@ Sekojiet šiem soļiem, lai pārbaudītu, vai konfigurācija, kuru vēlaties kop
 
 1. **Elektroniskā pārskata** darbvietā atlasiet **Repozitoriji** jūsu konfigurācijas nodrošinātājam.
 
-    ![Konfigurācijas nodrošinātāji](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![Konfigurācijas nodrošinātāji](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Atlasiet **Globālais repozitorijs** \> **Atvērt**.
 3. Meklējiet konfigurāciju, ko vēlaties koplietot. Varat izmantot filtra lauku, lai sašaurinātu meklēšanu. Ja jūs nevarat atrast konfigurāciju globālajā repozitorijā, sekojiet soļiem, lai [izveidotu un augšupielādētu jaunu elektronisko pārskatu (ER) konfigurācijas versiju](rcs-global-repo-upload.md).
@@ -64,17 +63,12 @@ Kad konfigurācijas nodrošinātājs ir izveidojis konfigurāciju, to var tieši
 3. Atlasiet konfigurāciju, ko vēlaties koplietot.
 4. Kopsavilkuma cilnē **Kopīgots ar** atlasiet **Organizācija**.
 
-    ![Koplietots izmantojot kopsavilkuma cilni](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Koplietots izmantojot kopsavilkuma cilni](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Dialoglodziņā ievadiet ārējās organizācijas domēna nosaukumu un pēc tam atlasiet **Labi**.
 
-    ![Koplietošanas konfigurācijas versija ar ārējo organizācijas dialoglodziņu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Koplietošanas konfigurācijas versija ar ārējo organizācijas dialoglodziņu](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Konfigurācija tiek koplietota ar ārējo organizāciju un ir pieejama šai organizācijai globālajā repozitorijā. No turienes to var importēt organizācijas RCS instancē vai tās programmas Finance and Operations instancēs.
 
-![Ar ārēju organizāciju koplietotā konfigurācija](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. Lai atceltu konfigurāciju, kas iepriekš bijusi koplietota ar ārēju organizāciju, atlasiet konfigurāciju un noklikšķiniet uz **pārtraukt koplietošanu** un pēc tam atlasiet **Labi**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

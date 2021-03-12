@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414028"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993732"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automātisko maksu iespējošana un konfigurēšana katram kanālam
 
@@ -77,7 +76,7 @@ Pēc tam, kad esat ieslēdzis līdzekli **Iespējot filtra automātiskās izmaks
 
 Lai definētu automātiskās izmaksas pēc kanāla programmā Commerce, veiciet šādas darbības.
 
-1. Pārejiet uz sadaļu **Kreditori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
+1. Pārejiet uz sadaļu **Debitori \> Izmaksu iestatīšana \> Automātiskās izmaksas**.
 1. Kreisajā rūtī laukā **Līmenis** izvēlieties vai nu **Galveni** vai **Rindu** atkarībā no jūsu biznesa vajadzībām.
 1. Laukā **Mazumtirdzniecības kanāla kods** izvēlieties atbilstošo kanāla kodu (piemēram, **Tabula** vai **Grupa**). Ja tiek izmantots noklusētais iestatījums **Visi**, izmaksas noteikumi tiek piemēroti visiem kanāliem.
 
@@ -128,6 +127,3 @@ Atlasot **Transakciju opcijas \> Izmaksas \> Pārvaldīt maksas** POS programmā
 [Omni kanāla papildu automātiskās maksas](omni-auto-charges.md)
 
 [Proporcionāla virsraksta maksu sadalīšana atbilstošajās pārdošanas rindās](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

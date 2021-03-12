@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995094"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finanšu ieskatu sākumlapa (priekšskatījums)
 
@@ -67,7 +66,7 @@ Tiks veiktas izmaiņas korporācijai Microsoft Dynamics 365 Finance, Microsoft D
 - Active Directory nomnieka administratoram būs jāautorizē programma AI Builder, lai piekļūtu datu ezeram.
 - Līdzeklis tiks ieslēgts programmā Dynamics 365.
 
-Zināšanas par resursu radīšanas un pārvaldīšanas procesu pakalpojumā Azure, Common Data Service un LCS būss noderīgas, pabeidzot šo procesu.
+Zināšanas par resursu radīšanas un pārvaldīšanas procesu pakalpojumā Azure, Microsoft Dataverse un LCS būss noderīgas, pabeidzot šo procesu.
 
 ## <a name="configure-finance-insights"></a>Finanšu ieskatu konfigurēšana
 
@@ -130,6 +129,3 @@ Lūdzu, sūtiet e-pastu [klientu maksājumu ieskatiem (priekšskatījums)](mailt
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
