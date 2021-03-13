@@ -10,46 +10,45 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432849"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043397"
 ---
-# <a name="extend-inventory-on-hand-data-entities"></a><span data-ttu-id="08f45-103">Paplašināt krājumu rīcībā esošos datu elementus</span><span class="sxs-lookup"><span data-stu-id="08f45-103">Extend inventory on-hand data entities</span></span>
+# <a name="extend-inventory-on-hand-data-entities"></a><span data-ttu-id="f3dc6-103">Paplašināt krājumu rīcībā esošos datu elementus</span><span class="sxs-lookup"><span data-stu-id="f3dc6-103">Extend inventory on-hand data entities</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="08f45-104">Microsoft Dynamics 365 Supply Chain Management nodrošina [paplašināmības](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) līdzekļus, kas ļauj jums [pievienot laukus tabulām, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/add-field-extension).</span><span class="sxs-lookup"><span data-stu-id="08f45-104">Microsoft Dynamics 365 Supply Chain Management provides [extensibility](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) features that let you [add fields to tables through extension](../../fin-ops-core/dev-itpro/extensibility/add-field-extension).</span></span> <span data-ttu-id="08f45-105">Šī tēma sniedz piemēru, kas parāda, kā pievienot paplašinātos laukus `INVENTORSITEONHANDENTITY` un `INVENTWAREHOUSEONHANDENTITY` skatiem, lai rīcībā esošo krājumu datu subjektu iespējas varētu strādāt ar paplašinājumiem.</span><span class="sxs-lookup"><span data-stu-id="08f45-105">This topic provides an example that shows how to add extended fields to the `INVENTORSITEONHANDENTITY` and `INVENTWAREHOUSEONHANDENTITY` views, so that the capabilities of the inventory on-hand data entities can work with the extensions.</span></span> <span data-ttu-id="08f45-106">Papildu informāciju par datu elementiem skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span><span class="sxs-lookup"><span data-stu-id="08f45-106">For more information about data entities, see [Data management overview](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span></span>
+<span data-ttu-id="f3dc6-104">Microsoft Dynamics 365 Supply Chain Management nodrošina [paplašināmības](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) līdzekļus, kas ļauj jums [pievienot laukus tabulām, izmantojot paplašinājumu](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md).</span><span class="sxs-lookup"><span data-stu-id="f3dc6-104">Microsoft Dynamics 365 Supply Chain Management provides [extensibility](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) features that let you [add fields to tables through extension](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md).</span></span> <span data-ttu-id="f3dc6-105">Šī tēma sniedz piemēru, kas parāda, kā pievienot paplašinātos laukus `INVENTORSITEONHANDENTITY` un `INVENTWAREHOUSEONHANDENTITY` skatiem, lai rīcībā esošo krājumu datu subjektu iespējas varētu strādāt ar paplašinājumiem.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-105">This topic provides an example that shows how to add extended fields to the `INVENTORSITEONHANDENTITY` and `INVENTWAREHOUSEONHANDENTITY` views, so that the capabilities of the inventory on-hand data entities can work with the extensions.</span></span> <span data-ttu-id="f3dc6-106">Papildu informāciju par datu elementiem skatiet [datu pārvaldības pārskatā](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span><span class="sxs-lookup"><span data-stu-id="f3dc6-106">For more information about data entities, see [Data management overview](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="08f45-107">Šeit ir saraksts ar dažām rīcībā esošo krājumu datu vienībām:</span><span class="sxs-lookup"><span data-stu-id="08f45-107">Here is a list of some of the inventory on-hand data entities:</span></span>
+> <span data-ttu-id="f3dc6-107">Šeit ir saraksts ar dažām rīcībā esošo krājumu datu vienībām:</span><span class="sxs-lookup"><span data-stu-id="f3dc6-107">Here is a list of some of the inventory on-hand data entities:</span></span>
 >
-> - <span data-ttu-id="08f45-108">Rīcībā esošie krājumi pēc vietas</span><span class="sxs-lookup"><span data-stu-id="08f45-108">Inventory on-hand by site</span></span>
-> - <span data-ttu-id="08f45-109">Rīcībā esošie krājumi pēc vietas V2</span><span class="sxs-lookup"><span data-stu-id="08f45-109">Inventory on-hand by site V2</span></span>
-> - <span data-ttu-id="08f45-110">Rīcībā esošie krājumi pēc noliktavas</span><span class="sxs-lookup"><span data-stu-id="08f45-110">Inventory on-hand by warehouse</span></span>
-> - <span data-ttu-id="08f45-111">Rīcībā esošie krājumi pēc noliktavas v2</span><span class="sxs-lookup"><span data-stu-id="08f45-111">Inventory on-hand by warehouse v2</span></span>
+> - <span data-ttu-id="f3dc6-108">Rīcībā esošie krājumi pēc vietas</span><span class="sxs-lookup"><span data-stu-id="f3dc6-108">Inventory on-hand by site</span></span>
+> - <span data-ttu-id="f3dc6-109">Rīcībā esošie krājumi pēc vietas V2</span><span class="sxs-lookup"><span data-stu-id="f3dc6-109">Inventory on-hand by site V2</span></span>
+> - <span data-ttu-id="f3dc6-110">Rīcībā esošie krājumi pēc noliktavas</span><span class="sxs-lookup"><span data-stu-id="f3dc6-110">Inventory on-hand by warehouse</span></span>
+> - <span data-ttu-id="f3dc6-111">Rīcībā esošie krājumi pēc noliktavas v2</span><span class="sxs-lookup"><span data-stu-id="f3dc6-111">Inventory on-hand by warehouse v2</span></span>
 
-<span data-ttu-id="08f45-112">Pēc lauku pievienošanas tabulām, kas tiek izmantotas `inventSiteOnHandView` skatā, ir jāsinhronizē programma, lai paplašinājumi tiktu pareizi atpazīti.</span><span class="sxs-lookup"><span data-stu-id="08f45-112">After you add fields to tables that are used by the `inventSiteOnHandView` view, you must sync the engine so that the extensions are correctly recognized.</span></span>
+<span data-ttu-id="f3dc6-112">Pēc lauku pievienošanas tabulām, kas tiek izmantotas `inventSiteOnHandView` skatā, ir jāsinhronizē programma, lai paplašinājumi tiktu pareizi atpazīti.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-112">After you add fields to tables that are used by the `inventSiteOnHandView` view, you must sync the engine so that the extensions are correctly recognized.</span></span>
 
-1. <span data-ttu-id="08f45-113">Paplašiniet `InventSiteOnHandView` skatu, pievienojot paplašinājuma lauku.</span><span class="sxs-lookup"><span data-stu-id="08f45-113">Extend the `InventSiteOnHandView` view by adding the extension field.</span></span>
-1. <span data-ttu-id="08f45-114">Paplašiniet `InventSiteOnHandAggregatedView` skatu ar paplašinājuma laukiem.</span><span class="sxs-lookup"><span data-stu-id="08f45-114">Extend the `InventSiteOnHandAggregatedView` view with the extension fields.</span></span>
-1. <span data-ttu-id="08f45-115">Paplašiniet `InventSiteOnHandAggregatedViewBuilder` viewBuilder klasi, modificējot `getExtensionFields()` metodi.</span><span class="sxs-lookup"><span data-stu-id="08f45-115">Extend the `InventSiteOnHandAggregatedViewBuilder` viewBuilder class by modifying the `getExtensionFields()` method.</span></span> <span data-ttu-id="08f45-116">Šādā veidā, kad viewBuilder sinhronizācija tiek palaista, varat kartēt vecos skatu laukus jaunos skatījuma laukos.</span><span class="sxs-lookup"><span data-stu-id="08f45-116">In this way, you map old view fields to new view fields when viewBuilder synchronization is run.</span></span>
+1. <span data-ttu-id="f3dc6-113">Paplašiniet `InventSiteOnHandView` skatu, pievienojot paplašinājuma lauku.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-113">Extend the `InventSiteOnHandView` view by adding the extension field.</span></span>
+1. <span data-ttu-id="f3dc6-114">Paplašiniet `InventSiteOnHandAggregatedView` skatu ar paplašinājuma laukiem.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-114">Extend the `InventSiteOnHandAggregatedView` view with the extension fields.</span></span>
+1. <span data-ttu-id="f3dc6-115">Paplašiniet `InventSiteOnHandAggregatedViewBuilder` viewBuilder klasi, modificējot `getExtensionFields()` metodi.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-115">Extend the `InventSiteOnHandAggregatedViewBuilder` viewBuilder class by modifying the `getExtensionFields()` method.</span></span> <span data-ttu-id="f3dc6-116">Šādā veidā, kad viewBuilder sinhronizācija tiek palaista, varat kartēt vecos skatu laukus jaunos skatījuma laukos.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-116">In this way, you map old view fields to new view fields when viewBuilder synchronization is run.</span></span>
 
-<span data-ttu-id="08f45-117">Piemēram, `InventTable` tabulai ir pievienoti šādi četri lauki, izmantojot paplašinājumu:</span><span class="sxs-lookup"><span data-stu-id="08f45-117">For example, you've added the following four fields to the `InventTable` table through extension:</span></span>
+<span data-ttu-id="f3dc6-117">Piemēram, `InventTable` tabulai ir pievienoti šādi četri lauki, izmantojot paplašinājumu:</span><span class="sxs-lookup"><span data-stu-id="f3dc6-117">For example, you've added the following four fields to the `InventTable` table through extension:</span></span>
 
-- <span data-ttu-id="08f45-118">Pielāgots lauks 1</span><span class="sxs-lookup"><span data-stu-id="08f45-118">Custom field 1</span></span>
-- <span data-ttu-id="08f45-119">Pielāgots lauks 2</span><span class="sxs-lookup"><span data-stu-id="08f45-119">Custom field 2</span></span>
-- <span data-ttu-id="08f45-120">Pielāgots lauks 3</span><span class="sxs-lookup"><span data-stu-id="08f45-120">Custom field 3</span></span>
-- <span data-ttu-id="08f45-121">Pielāgots lauks 4</span><span class="sxs-lookup"><span data-stu-id="08f45-121">Custom field 4</span></span>
+- <span data-ttu-id="f3dc6-118">Pielāgots lauks 1</span><span class="sxs-lookup"><span data-stu-id="f3dc6-118">Custom field 1</span></span>
+- <span data-ttu-id="f3dc6-119">Pielāgots lauks 2</span><span class="sxs-lookup"><span data-stu-id="f3dc6-119">Custom field 2</span></span>
+- <span data-ttu-id="f3dc6-120">Pielāgots lauks 3</span><span class="sxs-lookup"><span data-stu-id="f3dc6-120">Custom field 3</span></span>
+- <span data-ttu-id="f3dc6-121">Pielāgots lauks 4</span><span class="sxs-lookup"><span data-stu-id="f3dc6-121">Custom field 4</span></span>
 
-<span data-ttu-id="08f45-122">Šādā gadījumā `getExtensionFields()` metode ir jāmodificē tālāk aprakstītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="08f45-122">In the case, you must modify the `getExtensionFields()` method in the following way.</span></span>
+<span data-ttu-id="f3dc6-122">Šādā gadījumā `getExtensionFields()` metode ir jāmodificē tālāk aprakstītajā veidā.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-122">In the case, you must modify the `getExtensionFields()` method in the following way.</span></span>
 
 ```xpp
 [ExtensionOf(classStr(InventSiteOnHandAggregatedViewBuilder))]
@@ -68,4 +67,4 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 }
 ```
 
-<span data-ttu-id="08f45-123">Kad šīs darbības ir izpildītas, varat paplašināt rīcībā esošos krājumus pēc vietas un rīcībā esošos krājumus pēc noliktavas datu subjektiem, pievienojot jaunos laukus.</span><span class="sxs-lookup"><span data-stu-id="08f45-123">After you complete these steps, you can extend the inventory on-hand by site and inventory on-hand by warehouse data entities by adding the new fields.</span></span> <span data-ttu-id="08f45-124">Šādā veidā tiek nodrošināts, ka paplašinātie lauki tiek atpazīti un iekļauti datu migrācijas, kas izmanto šos datu elementus, laikā.</span><span class="sxs-lookup"><span data-stu-id="08f45-124">In this way, you ensure that the extended fields are recognized and included during data migration that uses those data entities.</span></span>
+<span data-ttu-id="f3dc6-123">Kad šīs darbības ir izpildītas, varat paplašināt rīcībā esošos krājumus pēc vietas un rīcībā esošos krājumus pēc noliktavas datu subjektiem, pievienojot jaunos laukus.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-123">After you complete these steps, you can extend the inventory on-hand by site and inventory on-hand by warehouse data entities by adding the new fields.</span></span> <span data-ttu-id="f3dc6-124">Šādā veidā tiek nodrošināts, ka paplašinātie lauki tiek atpazīti un iekļauti datu migrācijas, kas izmanto šos datu elementus, laikā.</span><span class="sxs-lookup"><span data-stu-id="f3dc6-124">In this way, you ensure that the extended fields are recognized and included during data migration that uses those data entities.</span></span>
