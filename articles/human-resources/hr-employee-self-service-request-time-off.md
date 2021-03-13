@@ -2,7 +2,7 @@
 title: Brīvā laika pieprasīšana
 description: Brīvā laika pieprasīšana pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,47 +18,47 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bbd662d5d1044e77514318eda00b3dd29dd63b6
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419616"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115226"
 ---
-# <a name="request-time-off"></a><span data-ttu-id="40744-103">Brīvā laika pieprasīšana</span><span class="sxs-lookup"><span data-stu-id="40744-103">Request time off</span></span>
+# <a name="request-time-off"></a><span data-ttu-id="9ec10-103">Brīvā laika pieprasīšana</span><span class="sxs-lookup"><span data-stu-id="9ec10-103">Request time off</span></span>
 
-<span data-ttu-id="40744-104">Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtnes bilances un skatīt savu atvaļinājumu pieprasījumu statusu pakalpojumā Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="40744-104">You can submit requests for time off, view your vacation and leave balances, and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="9ec10-104">Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtnes bilances un skatīt savu atvaļinājumu pieprasījumu statusu pakalpojumā Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="9ec10-104">You can submit requests for time off, view your vacation and leave balances, and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
 
-## <a name="request-time-off"></a><span data-ttu-id="40744-105">Brīvā laika pieprasīšana</span><span class="sxs-lookup"><span data-stu-id="40744-105">Request time off</span></span>
+## <a name="request-time-off"></a><span data-ttu-id="9ec10-105">Brīvā laika pieprasīšana</span><span class="sxs-lookup"><span data-stu-id="9ec10-105">Request time off</span></span>
 
-1. <span data-ttu-id="40744-106">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Pieprasīt brīvo laiku** rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="40744-106">In the **Employee self service** workspace, select **Request time off** in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="9ec10-106">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Pieprasīt brīvo laiku** rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-106">In the **Employee self service** workspace, select **Request time off** in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="40744-107">Ievadiet informāciju par **atvaļinājuma veidu**, **Pamatojuma kodu**, **Sākuma datumu** un **Beigu datumu**.</span><span class="sxs-lookup"><span data-stu-id="40744-107">Enter information for **Leave type**, **Reason code**, **Start date**, and **End date**.</span></span>
+2. <span data-ttu-id="9ec10-107">Ievadiet informāciju par **atvaļinājuma veidu**, **Pamatojuma kodu**, **Sākuma datumu** un **Beigu datumu**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-107">Enter information for **Leave type**, **Reason code**, **Start date**, and **End date**.</span></span>
 
-3. <span data-ttu-id="40744-108">Sadaļā **Datumi** atlasiet atvaļinājuma pieprasījuma datumus.</span><span class="sxs-lookup"><span data-stu-id="40744-108">Under **Dates**, select the dates for your leave request.</span></span>
+3. <span data-ttu-id="9ec10-108">Sadaļā **Datumi** atlasiet atvaļinājuma pieprasījuma datumus.</span><span class="sxs-lookup"><span data-stu-id="9ec10-108">Under **Dates**, select the dates for your leave request.</span></span>
 
-4. <span data-ttu-id="40744-109">Ja jums ir jāiesniedz visi apliecinošie dokumenti, atlasiet **Augšupielādēt** sadaļā **Pielikumi**.</span><span class="sxs-lookup"><span data-stu-id="40744-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
+4. <span data-ttu-id="9ec10-109">Ja jums ir jāiesniedz visi apliecinošie dokumenti, atlasiet **Augšupielādēt** sadaļā **Pielikumi**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
 
-5. <span data-ttu-id="40744-110">Ja nepieciešams, ievadiet informāciju **Komentārā**.</span><span class="sxs-lookup"><span data-stu-id="40744-110">Enter information in **Comment**, if needed.</span></span>
+5. <span data-ttu-id="9ec10-110">Ja nepieciešams, ievadiet informāciju **Komentārā**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-110">Enter information in **Comment**, if needed.</span></span>
 
-6. <span data-ttu-id="40744-111">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="40744-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="40744-112">Pretējā gadījumā atlasiet **Saglabāt melnrakstu**.</span><span class="sxs-lookup"><span data-stu-id="40744-112">Otherwise, select **Save draft**.</span></span>
+6. <span data-ttu-id="9ec10-111">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="9ec10-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="9ec10-112">Pretējā gadījumā atlasiet **Saglabāt melnrakstu**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-112">Otherwise, select **Save draft**.</span></span>
 
-## <a name="add-an-attachment-to-an-existing-request"></a><span data-ttu-id="40744-113">Pielikuma pievienošana esošam pieprasījumam</span><span class="sxs-lookup"><span data-stu-id="40744-113">Add an attachment to an existing request</span></span>
+## <a name="add-an-attachment-to-an-existing-request"></a><span data-ttu-id="9ec10-113">Pielikuma pievienošana esošam pieprasījumam</span><span class="sxs-lookup"><span data-stu-id="9ec10-113">Add an attachment to an existing request</span></span>
 
-<span data-ttu-id="40744-114">Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu.</span><span class="sxs-lookup"><span data-stu-id="40744-114">When updating an existing time off request, you can add an attachment.</span></span> <span data-ttu-id="40744-115">Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam.</span><span class="sxs-lookup"><span data-stu-id="40744-115">You can also see all of the related requests for a specific date.</span></span> 
+<span data-ttu-id="9ec10-114">Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu.</span><span class="sxs-lookup"><span data-stu-id="9ec10-114">When updating an existing time off request, you can add an attachment.</span></span> <span data-ttu-id="9ec10-115">Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam.</span><span class="sxs-lookup"><span data-stu-id="9ec10-115">You can also see all of the related requests for a specific date.</span></span> 
 
-## <a name="view-leave-balances"></a><span data-ttu-id="40744-116">Skatīt atvaļinājumu bilances</span><span class="sxs-lookup"><span data-stu-id="40744-116">View leave balances</span></span>
+## <a name="view-leave-balances"></a><span data-ttu-id="9ec10-116">Skatīt atvaļinājumu bilances</span><span class="sxs-lookup"><span data-stu-id="9ec10-116">View leave balances</span></span>
 
-1. <span data-ttu-id="40744-117">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="40744-117">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="9ec10-117">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-117">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="40744-118">Atlasiet **Bilances**.</span><span class="sxs-lookup"><span data-stu-id="40744-118">Select **Balances**.</span></span>
+2. <span data-ttu-id="9ec10-118">Atlasiet **Bilances**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-118">Select **Balances**.</span></span>
 
-## <a name="view-leave-request-status"></a><span data-ttu-id="40744-119">Skatīt atvaļinājuma pieprasījuma statusu</span><span class="sxs-lookup"><span data-stu-id="40744-119">View leave request status</span></span>
+## <a name="view-leave-request-status"></a><span data-ttu-id="9ec10-119">Skatīt atvaļinājuma pieprasījuma statusu</span><span class="sxs-lookup"><span data-stu-id="9ec10-119">View leave request status</span></span>
 
-1. <span data-ttu-id="40744-120">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="40744-120">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="9ec10-120">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-120">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="40744-121">Lai skatītu apstiprinātos brīvā laika pieprasījumus, izvēlieties **Apstiprinātais brīvais laiks**.</span><span class="sxs-lookup"><span data-stu-id="40744-121">To view your approved time-off requests, select **Approved time off**.</span></span> <span data-ttu-id="40744-122">Lai skatītu gaidošos brīvā laika pieprasījumus, atlasiet **Brīvā laika pieprasījumi**.</span><span class="sxs-lookup"><span data-stu-id="40744-122">To view your pending time-off requests, select **Time off requests**.</span></span>
+2. <span data-ttu-id="9ec10-121">Lai skatītu apstiprinātos brīvā laika pieprasījumus, izvēlieties **Apstiprinātais brīvais laiks**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-121">To view your approved time-off requests, select **Approved time off**.</span></span> <span data-ttu-id="9ec10-122">Lai skatītu gaidošos brīvā laika pieprasījumus, atlasiet **Brīvā laika pieprasījumi**.</span><span class="sxs-lookup"><span data-stu-id="9ec10-122">To view your pending time-off requests, select **Time off requests**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="40744-123">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="40744-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9ec10-123">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="9ec10-123">See also</span></span>
 
-- [<span data-ttu-id="40744-124">Atvaļinājumu un kavējumu apskats</span><span class="sxs-lookup"><span data-stu-id="40744-124">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="9ec10-124">Atvaļinājumu un kavējumu apskats</span><span class="sxs-lookup"><span data-stu-id="9ec10-124">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
