@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4623b6eaa18b65f0f61cb8c227115d59f3ff9c08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432977"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007707"
 ---
 # <a name="dual-use-goods"></a>Divējāda lietojuma preces
 
@@ -57,7 +56,7 @@ Lai iestatītu informāciju par divējāda lietojuma prasībām dažādām valst
 2. Atlasiet esošu valsts iestatījumu rediģēšanai vai darbību rūtī atlasiet **Jauns**, lai izveidotu jaunu valsts iestatījumu.
 3. Iestatiet atlasītās vai jaunās valsts iestatījumam šādas vērtības.
 
-    | Lauks | apraksts |
+    | Lauks | Apraksts |
     |---|---|
     | Valsts/reģions | Atlasiet, kuras valsts prasībām sekojat. |
     | Sertifikāts obligāts | Atzīmējiet šo izvēles rūtiņu valstīm, kas pieprasa sertifikāciju divējāda lietojuma precēm. Nodzēsiet to valstīm, kam nav nepieciešama šī sertifikācija. |
@@ -108,6 +107,3 @@ Izmantojiet lapu **Divējāda lietojuma sertifikāti**, lai iestatītu un pārva
     | Drukāt rēķinā | Atzīmējiet šo izvēles rūtiņu, lai drukātu sertifikāta numuru rēķinos, kas norādītajā datumu diapazonā ir adresēti norādītajai valstij. |
     | Drukāt pavadzīmē | Atzīmējiet šo izvēles rūtiņu, lai drukātu sertifikāta numuru pavadzīmēs, kas norādītajā datumu diapazonā ir adresētas norādītajai valstij. |
     | Drukāt pārdošanas pasūtījumā | Atzīmējiet šo izvēles rūtiņu, lai drukātu sertifikāta numuru pārdošanas pasūtījumos, kas norādītajā datumu diapazonā ir adresēti norādītajai valstij. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

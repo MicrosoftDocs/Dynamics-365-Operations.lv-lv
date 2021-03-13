@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432976"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007712"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Izteiksmes ierobežojumi un tabulas ierobežojumi preču konfigurācijas modeļos
 
@@ -110,27 +109,27 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <tr class="odd">
 <td>Implies</td>
 <td>Tas ir patiess, ja pirmais nosacījums ir nepatiess, otrais nosacījums ir patiess vai abi.</td>
-<td>Norāda[a, b], infix: a -: b</td>
+<td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operators:</strong> Norāda[x != 0, y &gt;= 0]</li>
+<li><strong>Operators:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Infiksālā pierakste:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Un</td>
+<td>And</td>
 <td>Tas ir spēkā tikai tad, ja ir spēkā visi nosacījumi. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Patiess</strong>.</td>
-<td>Un[args], infix: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operators:</strong> Un[x == 2, y &lt;= 2]</li>
+<li><strong>Operators:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Infiksālā pierakste:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Vai</td>
+<td>Or</td>
 <td>Tas ir patiess, ja jebkurš nosacījums ir patiess. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Nepatiess</strong>.</td>
-<td>Vai[args], infix: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operators:</strong> Vai[x == 2, y &lt;= 2]</li>
+<li><strong>Operators:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Infiksālā pierakste:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -144,11 +143,11 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Mīnus</td>
+<td>Minus</td>
 <td>Tas noliedz savu argumentu. Tam ir jābūt precīzi vienam nosacījumam.</td>
-<td>Mīnus[expr], infix: -expr</td>
+<td>Minus[expr], infix: -expr</td>
 <td><ul>
-<li><strong>Operators:</strong> Mīnus[x] == y</li>
+<li><strong>Operators:</strong> Minus[x] == y</li>
 <li><strong>Infiksālā pierakste:</strong> -x == y</li>
 </ul></td>
 </tr>
@@ -159,17 +158,17 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <td><strong>Operators:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Laiki</td>
+<td>Times</td>
 <td>Tas paņem preci no tā nosacījumiem. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>1</strong>.</td>
-<td>Laiki[args], infix: a * b * ... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
-<li><strong>Operators:</strong> Laiki[x, y, 2] == z</li>
+<li><strong>Operators:</strong> Times[x, y, 2] == z</li>
 <li><strong>Infiksālā pierakste:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Jauda</td>
-<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas&#39;ir labēji asociatīvs.) Tāpēc izteiksme <strong>Power[a, b, c]</strong> ir vienāda ar izteiksmi <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
+<td>Power</td>
+<td>Tas paņem eksponenciāli. Tas piemēro kāpinājumu no labās uz kreiso pusi. (Citiem vārdiem sakot, tas ir labēji asociatīvs.) Tāpēc izteiksme <strong>Power[a, b, c]</strong> ir vienāda ar izteiksmi <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> var lietot tikai tad, ja kāpinātājs ir pozitīva konstante.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operators:</strong> Power[x, 2] == y</li>
@@ -177,9 +176,9 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Maks.</td>
+<td>Max</td>
 <td>Tas dod lielāko nosacījumu. Ja nosacījumu skaits ir 0 (nulle), tas veido <strong>Bezgalība</strong>.</td>
-<td>Maks[args]</td>
+<td>Max[args]</td>
 <td><strong>Operators:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
@@ -189,11 +188,11 @@ Tālāk esošajās tabulās uzskaitīti operatori un infiksālā pierakste, ko v
 <td><strong>Operators:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
-<td>Ne</td>
+<td>Not</td>
 <td>Tas dod sava nosacījuma apgriezto loģiku. Tam ir jābūt precīzi vienam nosacījumam.</td>
-<td>Ne[expr], infix: !expr</td>
+<td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operators:</strong> Ne[x] &amp; Ne[y == 3]</li>
+<li><strong>Operators:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Infiksālā pierakste:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -222,7 +221,7 @@ Piemēri nākamajā tabulā parada, kā rakstīt infiksālo pieraksti.
 |        (x)        |                           Iekavas ignorē noklusējuma prioritāti.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Kāpēc mani izteiksmes ierobežojumi nevalidējas pareizi?
-Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Tālāk ir sniegts to rezervēto atslēgvārdu saraksts, kurus nevarat izmantot.
+Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribūtiem, sastāvdaļām vai apakšsastāvdaļām preces konfigurācijas modelī. Tālāk ir sniegts to rezervēto atslēgvārdu saraksts, kurus nevarat izmantot:
 
 -   Ceiling
 -   Element
@@ -254,6 +253,3 @@ Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribū
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646083"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009372"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognozēšanas modeļa uzlabošana (priekšskatījums)
 
@@ -42,19 +41,19 @@ Ja jūsu organizācijai nepieciešami tikai divi iznākumi, mainiet **Novēloti*
 
 ## <a name="select-fields"></a>Atlasiet pārskata laukus
 
-Kad atlasāt laukus iekļaušanai modelī, ņemiet vērā, ka sarakstā ir iekļauti visi pieejamie lauki elementā Common Data Service, kas ir kartēts Azure datu ezera datos. Dažus no šiem laukiem **nedrīkst** atlasīt. Lauki, kas nav jāatlasa, ietilpst vienā no trijām kategorijām:
+Kad atlasāt laukus iekļaušanai modelī, ņemiet vērā, ka sarakstā ir iekļauti visi pieejamie lauki Microsoft Dataverse tabulā, kas ir kartēts Azure datu ezera datos. Dažus no šiem laukiem **nedrīkst** atlasīt. Lauki, kas nav jāatlasa, ietilpst vienā no trijām kategorijām:
 
-- Šis lauks ir nepieciešams Common Data Service elementam, bet datu ezerā tam nav datu dublēšanas datu.
+- Šis lauks ir nepieciešams Dataverse tabulai, bet datu ezerā tam nav datu dublēšanas datu.
 - Lauks ir ID un tādēļ nav jēgas izmantot algoritmiskās mācīšanās līdzekli.
 - Lauks ataino informāciju, kas nebūs pieejama prognozēšanas laikā.
 
 Šajās sadaļās ir redzami lauki, kas ir pieejami rēķina un klienta elementiem, un uzskaitīti lauki, kas **nav** jāatlasa apmācībai. Kategorija, kas norādīta katram no šiem laukiem, attiecas uz kategorijām iepriekšējā sarakstā.
  
-### <a name="invoice-common-data-model-entity"></a>Rēķina Common Data Model elements
+### <a name="invoice-dataverse-table"></a>Rēķinu Dataverse tabula
 
-Nākamajā attēlā ir parādīti avoti, kas ir pieejami rēķina elementam.
+Nākamajā attēlā ir parādīti avoti, kas ir pieejami rēķina tabulai.
 
-[![Rēķina elementam pieejamie lauki](./media/available-fields.png)](./media/available-fields.png)
+[![Rēķina tabulai pieejamie lauki](./media/available-fields.png)](./media/available-fields.png)
 
 Apmācībām nav jāatlasa tālāk minētie lauki.
 
@@ -65,11 +64,11 @@ Apmācībām nav jāatlasa tālāk minētie lauki.
 - **Avota ieraksts** (2. kategorija)
 - **Avota tabula** (2. kategorija)
 
-### <a name="customer-common-data-model-entity"></a>Debitora Common Data Model elements
+### <a name="customer-dataverse-table"></a>Debitoru Dataverse tabula
 
-Nākamajā attēlā ir parādīti avoti, kas ir pieejami debitora elementam.
+Nākamajā attēlā ir parādīti avoti, kas ir pieejami debitora tabulai.
 
-[![Debitora elementam pieejamie lauki](./media/related-entities.png)](./media/related-entities.png)
+[![Debitora tabulai pieejamie lauki](./media/related-entities.png)](./media/related-entities.png)
 
 Apmācībām nav jāatlasa tālāk minētais lauks.
 
@@ -83,6 +82,3 @@ Filtri pašlaik neatbalsta debitoru maksājumu prognozēšanas scenāriju. Tāp�
 
 #### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 11dd8f05ec3e8e1b92bddea9676edd7e32f966d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 831d8efd3a380aa6a0925a3ad237e5c0878765fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4414071"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009878"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>Apmācības katalogs Dynamics 365 Commerce lietotājiem
 
@@ -52,6 +51,3 @@ Apmācību par līdzekļiem, kas koplietoti ar citām Finance and Operations pro
 | Saturs | apraksts  | Formāts   | Ilgums    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Konfigurēt un strādāt ar e-komerciju Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Tiešsaistes kanāli un Dynamics 365 Commerce e-komercijas vietne ļauj mazumtirgotājiem tiešsaistē izveidot savu zīmolu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

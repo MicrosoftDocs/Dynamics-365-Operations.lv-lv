@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2eaf0057123cd2cbcad00f95038627291dada517
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432442"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007819"
 ---
 # <a name="country-of-origin"></a>Izcelsmes valsts/reģions
 
@@ -91,6 +90,3 @@ Lai iestatītu sertifikāta informāciju, veiciet tālāk norādītās darbības
 Tiek ģenerēts un parādīts pārskats, kas parāda informāciju par katras daļas izcelsmes valsti/reģion. Tālāk ir sniegts pārskata piemērs.
 
 ![Izcelsmes valsts/reģiona pārskats](media/country-of-origin-report.png "Izcelsmes valsts/reģiona pārskats")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

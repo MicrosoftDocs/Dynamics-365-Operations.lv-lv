@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445580"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009572"
 ---
 # <a name="settle-remainder"></a>Atlikuma nokārtošana
 
@@ -70,6 +69,3 @@ Lai nokārtotu atlikumu, veiciet tālāk norādītās darbības.
 7)  Jūs varat arī izvēlēties, vai līdz ar atlikuma nokārtošanu izveidot maksājumu žurnālu, vai tikai grāmatot bez žurnāla. Lai izveidotu maksājumu žurnālu, opcijai **Labot žurnālā** atlasiet **Jā**. Varēsiet labot maksājumu žurnālu, ko veidojat.
 8)  Noklikšķiniet uz **Nokārtot atlikumu**. Ja izvēlējāties izveidot žurnālu, poga mainīsies uz **Izveidot žurnālu**. Noklikšķiniet uz **Izveidot žurnālu**.
 9)  Ja esat izveidojis maksājumu žurnālu, žurnāla lapa atvērsies pēc noklikšķināšanas uz **Nokārtot atlikumu**. Žurnālam tiks pievienota papildu žurnāla rinda ar atlikuma norēķinu summu kā summu un ar atlikuma norēķinu kontu kā korespondējošo kontu. Ja pievienojāt debitoru vai kreditoru, lai varētu pārvietot norēķinu summu uz citu debitora vai kreditora kontu, žurnālam tiks pievienota papildu rinda, lai pārvietotu norēķinu summu uz attiecīgo debitora vai kreditora kontu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc7fa705681c3f1fde96cabc430dad1dd0045b4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445566"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009322"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>150 procentu degresīvā nolietojuma aprēķināšanas metode
 
@@ -75,7 +74,7 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 | Lietošanas ilgums gados             | 5.      |
 | Gada nolietojuma procenti | 30%    |
 
-Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietošanas ilgumu gados. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
+150 % atlikumu bilances metode dala 150 procentus ar lietošanas ilguma gadiem. Šie procenti tiek reizināti ar pamatlīdzekļa atlikušo vērtību, lai noteiktu gada nolietojuma summu.
 
 | Periods | Ikgadējā nolietojuma summas aprēķins | Atlikusī vērtība             | Atlikusī vērtība gada beigās |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -84,10 +83,7 @@ Izmantojot 150% atlikumu bilances metodi, 150 procenti tiek dalīti ar lietoša
 | 3. gads | 4900 × 30% = 1470                           | 5900 – 1470 = 4430  | 4900 – 1470 = 3430                 |
 
 > [!NOTE]
-> Kad summa, kas tiek aprēķināta, izmantojot 150% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas tiktu aprēķināta, izmantojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti tiek izmantota lineārā metode.
+> Kad summa, kas tiek aprēķināta, izmantojot 150% degresīvo nolietojuma aprēķināšanas metodi, kļūst mazāka par summu, kas rastos, lietojot lineāro metodi, atlikušā kalpošanas laika aprēķināšanai parasti notiek konversija uz lineāro metodi.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

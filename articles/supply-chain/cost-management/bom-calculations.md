@@ -1,5 +1,5 @@
 ---
-title: BOM aprēķini
+title: MK aprēķini
 description: Izmaksu apkopojums un pārdošanas cenas aprēķini tiek saukti par materiālu komplektu (MK) aprēķiniem, un tos sāk lapā Aprēķini. Šajā tēmā ir sniegta informācija par MK aprēķiniem.
 author: AndersGirke
 manager: tfehr
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, ProdSetupCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -19,14 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: a718a2e825630ccfaa54ff9dece1d3d19d59018c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 11600a227d60479c99056277ad197a8a6b60d15c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432982"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008295"
 ---
-# <a name="bom-calculations"></a>BOM aprēķini
+# <a name="bom-calculations"></a>MK aprēķini
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +54,7 @@ Citas MK aprēķina variācijas ataino izmaksu novērtēšanas tipu un izmaksu n
 
 ### <a name="bom-calculations-that-use-standard-costs"></a>MK aprēķini, kuros tiek izmantotas standarta izmaksas
 
-Cenu versijas (standartcenām) politikas var noteikt 5 MK aprēķinu politiku ieviešanu. Opcija **Ierakstīšanas ierobežojums** izmaksu novērtēšanas versijas ietvaros nosaka vienu no šīm politikām, kur vienības cenā ir jāiekļauj papildmaksa. Papildmaksu iegādātajiem krājumiem var ievadīt manuāli, turpretim papildmaksa ražojumiem attēlo konstanto izmaksu aprēķināto amortizāciju. Opcija **Aprēķina ierobežojums** izmaksu novērtēšanas versijas ietvaros nosaka pārējās četras MK aprēķina politikas:
+Cenu versijas (standartcenām) politikas var noteikt piecu MK aprēķinu politiku ieviešanu. Opcija **Ierakstīšanas ierobežojums** izmaksu novērtēšanas versijas ietvaros nosaka vienu no šīm politikām, kur vienības cenā ir jāiekļauj papildmaksa. Papildmaksu iegādātajiem krājumiem var ievadīt manuāli, turpretim papildmaksa ražojumiem attēlo konstanto izmaksu aprēķināto amortizāciju. Opcija **Aprēķina ierobežojums** izmaksu novērtēšanas versijas ietvaros nosaka pārējās četras MK aprēķina politikas:
 
 -   Iegādāto krājumu izmaksu seguma avotam jābalstās uz standarta izmaksām. Citiem vārdiem sakot, MK aprēķiniem jāizmanto krājumu izmaksu ieraksti konkrētas izmaksu novērtēšanas versijas ietvaros vai regresa ietvaros, kas ietver standarta izmaksas.
 -   Lai palīdzētu nodrošināt precīzu un konsekventu standarta izmaksu aprēķinu, izvēršanas režīmam ir jābūt vienlīmeņa.
@@ -95,6 +94,3 @@ Pasūtījuma MK aprēķina pamatā ir ražota krājuma MK aprēķins. Noteikta p
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

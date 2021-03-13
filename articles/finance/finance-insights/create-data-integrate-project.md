@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: fb17d5e82709a34ff088774d9e9034adb714b58c
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 0029e093f524c61ff17a480ee3b881b3994ba95a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646257"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009453"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Datu integrētāja projekta izveide (priekšskatījums)
 
@@ -73,6 +72,3 @@ ms.locfileid: "4646257"
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

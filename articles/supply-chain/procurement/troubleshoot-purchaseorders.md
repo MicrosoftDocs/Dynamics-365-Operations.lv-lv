@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007495"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Pirkšanas pasūtījumu problēmu novēršana
 
@@ -132,7 +131,7 @@ Varat pagarināt tikai periodu, kurā piegādātājs ir apstiprināts. Ir spēk�
 
 Piemēra scenārijam, kas ir aprakstīts problēmas aprakstā, kur ierakstam ir spēkā stāšanās datums *01/11/2018* un beigu datums *Nekad*, jūs varat importēt jaunu ierakstu, kam ir spēkā stāšanās datums *01/10/2018* un beigu datums *Nekad*. Tomēr jūs nevarat samazināt periodu tā, lai spēkā stāšanās datums tiktu atjaunināts uz *01/12/2018*, izmantojot datu pārvaldību. Šīs izmaiņas jāveic, izmantojot lietotāja interfeisu.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Pēc piegādes adreses maiņas pirkšanas pasūtījuma galvenē piegādes nosaukums netiek sinhronizēts.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Pēc piegādes adreses maiņas pirkšanas pasūtījuma galvenē piegādes nosaukums netiek sinhronizēts.
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
@@ -145,6 +144,3 @@ Tas tiek darīts ar nolūku. Atlasītā adrese ir jāklasificē kā piegādes ad
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Vai ir iespējams atrast lietotāju, kurš atcēla pirkšanas pasūtījumu?
 
 Šī informācija tiek izsekota tikai tad, ja pirkšanas pasūtījums ir pakļauts izmaiņu pārvaldībai. Ja izmantojat izmaiņu pārvaldību, jūs varat redzēt, kurš iesniedzis izmaiņas (atcelšanu) un kurš tās apstiprinājis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

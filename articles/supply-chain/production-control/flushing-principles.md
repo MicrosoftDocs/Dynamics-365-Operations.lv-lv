@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84be2a4646cfc18cd1f25a4ec969acdb62cb2856
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432713"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007245"
 ---
 # <a name="flushing-principles"></a>Norakstīšanas principi
 
@@ -63,6 +62,3 @@ Pabeigšanas norakstīšanas princips norāda, ka materiāls tiks automātiski p
 
 ### <a name="available-at-location"></a>Pieejams atrašanās vietā.
 Norakstīšanas princips Pieejams atrašanās vietā norāda, ka materiāls tiks automātiski patērēts, kad tas tiks reģistrēts kā izdots ražošanai. Materiāls ir reģistrēts kā izdots no vietas, kad ir pabeigts izejmateriālu izdošanas darbs vai kad materiāls ir pieejams ražošanas ievades vietā un materiālu komplekta rinda ir izlaista nosūtīšanai uz noliktavu. Procesa laikā ģenerētais izdošanas saraksts tiek grāmatots pakešuzdevumā. Šis princips ir izmantojams, ja, piemēram, attiecībā pret vienu ražošanas pasūtījumu ir jāveic daudz izdošanas darbību. Šajā gadījumā jums nav manuāli jāatjaunina izdošanas saraksts, un jūs varat iegūt pašreizējo NP bilances skatu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

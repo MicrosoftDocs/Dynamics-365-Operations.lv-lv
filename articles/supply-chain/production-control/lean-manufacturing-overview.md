@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433124"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006995"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturing apskats
 
@@ -51,9 +50,9 @@ Lai izveidotu Lean manufacturing pamatu, ražošanas un loģistikas procesus mod
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Kanban izmantošana, lai signalizētu par prasību pieprasījumiem
 Vilkšanas sistēma preces rada tikai tad, kad preces ir nepieciešamas. Šī prakse samazina piegādes izpildes laikus un lieko krājumu daudzumu. Lai plānotu, izsekotu un apstrādātu pieprasījumus, kuru pamatā ir ražošanas plūsmas, varat izmantot Kanban. Lai izveidotu Kanban struktūru, izveidojiet Kanban nosacījumus, kas definē, kad tiek izveidoti Kanban un kā tiek izpildīti pieprasījumi. Varat izveidot divus veidu Kanban nosacījumus. Ražošanas nosacījumi izveido procesa Kanban darbus, un atvilkumu Kanban nosacījumi izveido pārsūtīšanas Kanban darbus. Varat iestatīt tālāk aprakstītās papildināšanas stratēģijas.
--   Kanban nosacījumi **Fiksēts daudzums** ir saistīti ar fiksētu skaitu materiālu apstrādes vienību, kas nozīmē, ka aktīvo Kanban skaits ir konstants. Ikreiz, kad ir patērētas visas preces no Kanban un ir manuāli iztukšotas materiālu apstrādes vienības, tiek izveidots jauns tāda paša tipa Kanban. Kad izveidojat fiksēta daudzuma Kanban nosacījumus, varat aprēķināt optimālos Kanban daudzumus un izmantotos preču daudzumus. Šajā aprēķinā tiek ņemtas vērā prognozes, faktiskais pieprasījums no atvērtajiem pasūtījumiem, izpildes laiks līdz krājumu papildināšanai un vēsturiskais pieprasījums.
+-   **Fiksēts daudzums** Kanban kārtulas ir saistītas ar fiksētu skaitu materiālu apstrādes vienību, kas nozīmē, ka aktīvo Kanban skaits ir konstants. Ikreiz, kad ir patērētas visas preces no Kanban un ir manuāli iztukšotas materiālu apstrādes vienības, tiek izveidots jauns tāda paša tipa Kanban. Kad izveidojat fiksēta daudzuma Kanban kārtulas, varat aprēķināt optimālos Kanban daudzumus un izmantotos preču daudzumus. Šajā aprēķinā tiek ņemtas vērā prognozes, faktiskais pieprasījums no atvērtajiem pasūtījumiem, izpildes laiks līdz krājumu papildināšanai un vēsturiskais pieprasījums.
 -   Kanban nosacījumi **Ieplānots** papildina pieprasījumus, kas tiek aprēķināti ar vispārējo plānošanu. Vispārējā plānošana ģenerē plānotos Kanban, kurus var apstiprināt uz Kanban.
--   Kanban nosacījumi **Notikums** papildina pieprasījumus, kas cēlušies no pārdošanas pasūtījumu rindām, ražošanas MK rindām, Kanban rindām vai minimālo krājumu iestatījumiem. Kad tiek ģenerēti notikumu Kanban, tie tiek piesaistīti izcelsmes pieprasījumiem.
+-   Kanban kārtulas **Notikums** papildina pieprasījumus, kas cēlušies no pārdošanas pasūtījumu rindām, ražošanas MK rindām, Kanban rindām vai minimālo krājumu iestatījumiem. Kad tiek ģenerēti notikumu Kanban, tie tiek piesaistīti izcelsmes pieprasījumiem.
 
 Kad tiek veidoti Kanban, tiek ģenerēts viens vai vairāki Kanban darbi, pamatojoties uz Kanban nosacījumos definētajām Kanban plūsmas aktivitātēm.
 
@@ -65,7 +64,7 @@ Lean manufacturing nodrošina redzamību par Kanban nosacījumu noteikto ražoš
 -   Izsekojiet un reģistrējiet Kanban darbu statusu.
 
 Šajā sarakstā ir aprakstīti specializētie Kanban paneļi:
--   Kanban darbu plānošana — sniedz pārskatu par Kanban darbiem. Šajā panelī tiek rādīti Kanban darbi un to statuss vienai vai vairākās darba šūnās. Darbi ir uzskaitīti atbilstoši plānošanas periodiem (dienām vai nedēļām), kas ir definēti ražošanas plūsmas modelī. Šajā panelī tiek rādīts arī noslodzes patēriņš katram plānošanas periodam, lai jūs varētu pārraudzīt plānoto noslodzi. Varat mainīt Kanban darbu statusu, pārplānot Kanban darbus uz citiem plānošanas periodiem un veikt citus uzdevumus.
+-   Kanban darbu plānošana — sniedz pārskatu par Kanban darbiem. Šajā panelī tiek rādīti Kanban darbi un to statuss vienai vai vairākās darba šūnās. Darbi ir uzskaitīti atbilstoši plānošanas periodiem (dienām vai nedēļām), kas ir definēti ražošanas plūsmas modelī. Šajā panelī tiek rādīts arī noslodzes patēriņš katram plānošanas periodam, lai jūs varētu pārraudzīt plānoto noslodzi. Varat mainīt Kanban darbu statusu, pārplānot Kanban darbus uz citiem plānošanas periodiem un veikt citus uzdevumus.
 -   Kanban panelis pārsūtīšanas darbiem — šajā panelī tiek sniegts apskats par pašreizējiem pārsūtīšanas darbiem. Varat atjaunināt un reģistrēt izdošanas sarakstus, sākt un pabeigt pārsūtīšanas darbus, kā arī veikt citus uzdevumus.
 -   Kanban panelis procesa darbiem — šis panelis ir paredzēts, lai atbalstītu normālo ražošanas plūsmu un sniegt apskatu par pašreizējo situāciju vienā vai vairākās darba šūnās. No šī paneļa Kanban darbiem var noteikt prioritātes, tos var izdot vai ražot. Šis panelis ir arī paredzēts, lai atbalstītu svītrkoda skenēšanu Kanban atskaitēm.
 
@@ -83,6 +82,3 @@ Turklāt Lean manufacturing atbalsta pirkšanas un rēķinu izrakstīšanas proc
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
