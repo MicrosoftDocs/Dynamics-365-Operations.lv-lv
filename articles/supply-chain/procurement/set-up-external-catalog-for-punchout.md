@@ -1,7 +1,7 @@
 ---
 title: Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei
 description: Šajā tēmā ir aprakstīta ārējā vai atzīmēšanas kataloga izmantošana piedāvājuma informācijas iegūšanai no kreditora un pievienošanai pieprasījumam.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433155"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016381"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei
 
@@ -44,7 +43,7 @@ Lai iestatītu paziņojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 1. Iestatiet sagādes kategoriju hierarhiju. Papildinformāciju skatiet sadaļā [Politikas iestatīšana sagādes kategoriju hierarhijai](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Reģistrēt kreditoru Supply Chain Management. Pirms piekļuves konfigurāciju iestatīšanas piegādātāju ārējam katalogam programmā Microsoft Dynamics 365 ir jāiestata kreditors un kreditora kontaktpersona. Ārējā kataloga kreditors ir jāpievieno arī atlasītajai sagādes kategorijai. Papildinformāciju par kreditoru reģistrāciju skatiet rakstā [Kreditoru sadarbības lietotāju pārvaldība](manage-vendor-collaboration-users.md). Informāciju par to, kā piešķirt kreditorus sagādes kategorijai, skatiet tēmā [Kreditoru apstiprināšana noteiktām sagādes kategorijām](tasks/approve-vendors-specific-procurement-categories.md).
 3. Pārliecinieties, vai ir iestatītas mērvienības un valūta, ko izmanto kreditors. Informāciju par to, kā izveidot mērvienību, skatiet rakstā [Mērvienību pārvaldība](../pim/tasks/manage-unit-measure.md).
-4. Konfigurējiet ārējo piegādātāju katalogu, izmantojot piegādātāju prasību ārējo kataloga vietu. Papildinformāciju par šo uzdevumu skatiet sadaļā [Ārējā piegādātāju kataloga konfigurēšana](#configure-the-external-vendor-catalog).
+4. Konfigurējiet ārējo piegādātāju katalogu, izmantojot piegādātāju prasību ārējo kataloga vietu. Papildinformāciju par šo uzdevumu skatiet sadaļā [Ārējo kreditoru kataloga konfigurēšana](#configure-the-external-vendor-catalog).
 5. Testējiet ārējā piegādātāju kataloga konfigurācijas, lai pārbaudītu, vai iestatījumi ir derīgi un varat piekļūt ārējam piegādātāju katalogam. Izmantojiet darbību **Validēt iestatījumus**, lai validētu iestatīšanas pieprasījuma ziņojumu, ko esat definējis. Šim ziņojumam ir jāizraisa kreditoru ārējā kataloga vietnes atvēršana pārlūkprogrammas logā. Pārbaudes laikā nevar pasūtīt preces un pakalpojumus no kreditora. Lai pasūtītu preces un pakalpojumus, ir jāpiekļūst piegādātāju katalogam no pirkšanas pieprasījuma.
 6. Aktivizējiet ārējo katalogu, izmantojot pogu **Aktivizēt katalogu** lapā **Ārējie katalogi**. Lai darbinieki varētu lieto ārējo katalogu, vispirms tas ir jāaktivizē. Varat deaktivizēt ārējo katalogu jebkurā laikā.
 
@@ -53,20 +52,19 @@ Lai iestatītu paziņojumu, jūsu kreditoram ir jāiesniedz jums informācija, k
 
 Šī sadaļa sniedz sīkāku informāciju par iepriekšējā sadaļā minēto 4. uzdevumu.
 
-1. Ievadiet piegādātāja ārējā kataloga nosaukumu un aprakstu. Nosaukums, ko ievadīsit, parādīsies grozā, kas atspoguļo ārējo katalogu, kas tiek rādīts darbiniekiem, kuri izveido pieprasījumu. Darbinieki var noklikšķināt uz groza, lai atvērtu katalogu no kreditora ārējā kataloga vietnes.
-2. Pievienojiet attēlu, izmantojot darbību **Ārējā kataloga attēls**. Attēls parādīsies grozā, kas atspoguļo ārējo katalogu, kas tiek rādīts darbiniekiem, kuri izveido pieprasījumu. Ņemiet vērā, ka attēla platumam un augstumam ir jābūt vienādam. Pretējā gadījumā attēls tiks parādīts nepareizi.
+1. Ievadiet kreditora ārējā kataloga nosaukumu un aprakstu. Nosaukums, ko ievadīsit, parādīsies grozā, kas atspoguļo ārējo katalogu, kas tiek rādīts darbiniekiem, kuri izveido pieprasījumu. Darbinieki var noklikšķināt uz groza, lai atvērtu katalogu no kreditora ārējā kataloga vietnes.
+2. Pievienojiet attēlu, izmantojot darbību **Ārējā kataloga attēls**. Attēls parādīsies grozā, kas atspoguļo ārējo katalogu, kas tiek rādīts darbiniekiem, kuri izveido pieprasījumu. Ņemiet vērā, ka attēla platumam un augstumam ir jābūt vienādam. Pretējā gadījumā attēls tiks parādīts nepareizi.
 3. Atlasiet, vai piegādātāju ārējā kataloga tīmekļa vietne ir jāparāda jaunā pārlūkprogrammas logā vai tajā pašā logā, kurā darbinieks ir izveidojis šo pieprasījumu.
 4. Atlasiet katalogu kreditoram. Sarakstā **Juridiskās personas** ir rinda katrai juridiskajai personai, kur jāiestata kreditors. Lai atļautu lietotājiem tiešā veidā pieprasīt preces no dažu juridisko personu (bet ne citu) piegādātāju kataloga, varat izmantot pogu **Neļaut piekļuvi** vai **Atļaut piekļuvi** katrai juridiskajai personai, kuras katalogam ir vai nav jābūt pieejamam.
 5. Laukā **Noklusējuma derīguma termiņš (dienās)** ievadiet dienu skaitu, kad piedāvājums, kas saņemts no ārējā kataloga, ir spēkā un kad to var izmantot, lai veiktu iegādi no ārējā kreditora. Pēc piedāvājuma izveides un izguves no piegādātāja ārējās kataloga vietnes, piedāvājums ir derīgs, sākot ar pašreizējo sistēmas datumu un paliek spēkā uz to dienu skaitu, ko ievadījāt šajā laukā.
-6. Noklikšķiniet uz pogas **Pievienot**, lai sāktu sagādes kategoriju kartēšanu ārējā katalogā. Pēc tam atlasiet kategoriju sarakstā Kategorijas nosaukums. Kategoriju saraksts ir paplašināts sagādes kategoriju variants, ko kreditors kartēja visām juridiskajām personām, kuras kreditors iestatīja.
+6. Noklikšķiniet uz pogas **Pievienot**, lai sāktu sagādes kategoriju kartēšanu ārējā katalogā. Pēc tam atlasiet kategoriju sarakstā Kategorijas nosaukums. Kategoriju saraksts ir paplašināts sagādes kategoriju variants, ko kreditors kartēja visām juridiskajām personām, kuras kreditors iestatīja.
 
     > [!NOTE]
-    > Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem. Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.
+    > Iepirkuma politikas tiek izmantotas, lai atļautu vai ierobežotu piekļuvi kategorijām juridiskajai personai, kura iegādājas, vai pārvaldības struktūrvienībai, kura saņem.  Lai veiktu atzīmēšanu ārējā katalogā, ir jābūt atļautai piekļuvei vismaz vienai no sagādes kategorijām, kas ir kartētas ar katalogu.
 
 7. Iestatiet cXML iestatījumu pieprasījuma ziņojumu, kas tiks nosūtīts kreditoram. Automātiski ģenerētā ziņojuma formāts ir minimālā veidne, kas ir nepieciešama, lai sāktu sesiju. Ievadiet etiķešu vērtības.
 
-Varat jebkurā brīdī pārlādēt sistēmas ģenerēto ziņojuma veidni, noklikšķinot uz vienuma **Atjaunot ziņojuma formātu**. 
-Ņemiet vērā, ka, atjaunojot ziņojuma formātu, pašreizējais ziņojuma formāts tiek aizstāts ar automātiski ģenerētu ziņojumu formātu, kurā ir tukšas etiķetes.
+Varat jebkurā brīdī pārlādēt sistēmas ģenerēto ziņojuma veidni, noklikšķinot uz vienuma **Atjaunot ziņojuma formātu**. Ņemiet vērā, ka, atjaunojot ziņojuma formātu, pašreizējais ziņojuma formāts tiek aizstāts ar automātiski ģenerētu ziņojumu formātu, kurā ir tukšas etiķetes.
 
 ### <a name="cxml-setup-message"></a>cXML iestatījumu ziņojums
 Zemāk varat atrast visu to etiķešu aprakstus, kas ir iekļautas veidnē.
@@ -91,7 +89,7 @@ Norādiet ārējā elementa nosaukumu, ko kreditors var atpazīt un kartēt vēr
 Plašāku informāciju par cXML protokolu skatiet [cXML.org tīmekļa vietnē](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Ar iepriekšēju datumu grāmatots ziņojums
-Ar iepriekšēju datumu grāmatots ziņojums ir ziņojums, kas tiek saņemts no kreditora, kad lietotājs reģistrē aiziešanu no ārējās vietnes un atgriežas programmatūrā Supply Chain Management. Ar iepriekšēju datumu grāmatotos ziņojumus nevar konfigurēt. Ziņojumi tiek izveidoti, pamatojoties uz cXML protokola definīciju. Tālāk ir norādīta informācija, kas var būt ietverta ar iepriekšēju datumu grāmatotā ziņojumā, kurš tiek saņemts pieprasījuma rindā.
+Ar iepriekšēju datumu grāmatots ziņojums ir ziņojums, kas tiek saņemts no kreditora, kad lietotājs reģistrē aiziešanu no ārējās vietnes un atgriežas programmatūrā Supply Chain Management. Ar iepriekšēju datumu grāmatotos ziņojumus nevar konfigurēt. Ziņojumi tiek izveidoti, pamatojoties uz cXML protokola definīciju. Tālāk ir norādīta informācija, kas var būt ietverta ar iepriekšēju datumu grāmatotā ziņojumā, kurš tiek saņemts pieprasījuma rindā.
 
 | No kreditora saņemts ziņojums | Kopēts pieprasījuma rindā|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Ja tika pieprasīta preces dzēšana no ārējā piegādātāju kataloga, ārēj
 
 - [CXML uzlabojumu iegāde](purchasing-cxml-enhancements.md)
 - [Ārējo katalogu izmantošana elektroniskai atzīmēšanas sagādei](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

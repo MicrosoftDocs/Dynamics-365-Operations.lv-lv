@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011375"
 ---
 # <a name="product-identifiers"></a>Preču identifikatori
 
@@ -44,7 +43,7 @@ Bieži vien preces numurs nav sākotnēji izveidots programmā Dynamics 365 Supp
 
 Ieviešot Supply Chain Management, ir īpaši jāapsver preču numerācijas metode. Efektīva numerācijas sistēma uzlabo loģistikas plūsmas un palīdz nepieļaut kļūdas. Labā preces identifikatorā ir ne vairāk kā 15 rakstzīmes. Ideālā gadījumā tajā ir ne vairāk kā 10 rakstzīmes un ne vairāk kā piecas klasifikācijas rakstzīmes. Varat arī izmantot saīsinātos nosaukumus, lai nodrošinātu ātru meklēšanu. Saīsinātais nosaukums ir papildu nosaukums, kas norāda preces klasifikāciju.
 
-Izmantojot Common Data Service, preču numurs Supply Chain Management ir arī preces numurs Common Data Service. Preču varianti tiek sinhronizēti ar pakalpojumu Common Data Service kā atšķirīgas preces.
+Izmantojot Microsoft Dataverse, preču numurs Supply Chain Management ir arī Microsoft Dataverse preces numurs. Preču varianti tiek sinhronizēti ar pakalpojumu Dataverse kā atšķirīgas preces.
 
 ## <a name="item-number-and-product-dimensions"></a>Krājuma numurs un preces dimensijas
 
@@ -167,7 +166,7 @@ Tālāk esošajā tabulā ir sniegts pārskats par importēšanas un manuālas i
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Preces elementa identifikators (visu preces identifikatoru eksportēšana)
 
-Preču elementu identifikatoru modelis tika izveidots, lai CDS versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā CDS versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa common data service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
+Preču elementu identifikatoru modelis tika izveidots, lai Dataverse versijā 1.0 varētu nodrošināt visus identifikatorus, kas tiek izmantoti preces norādīšanai. Lai vienkāršotu šo uzdevumu, visi identifikatori tiek apvienoti vienā globālā identifikatoru tabulā, ko var eksportēt kā vienu modeli. Ņemiet vērā, ka šajā Dataverse versijā netiek izmantots preces identifikatoru modelis. Tāpēc elementam **Preces elementa common data service identifikatora elements** un šim procesam ir ierobežots praktiskais pielietojums un tie, visticamāk, tiks mainīti nākamajos izlaidumos.
 
 Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem no visām galvenās juridiskās personas atsauces tabulām, izmantojot periodisku pakešuzdevumu. Jums ir jāatlasa juridiskā persona un preču kategoriju hierarhija, lai definētu globālo preces šablona tvērumu. Globālo preces identifikatoru tabulu var ģenerēt tikai tādām precēm, kas ir izlaistas atlasītajai juridiskajai personai un ir ietvertas preču hierarhijā, kura preču kategoriju hierarhijā ir atlasīta lomai **Common data service**.
 
@@ -175,7 +174,7 @@ Preces identifikatoru tabula ir globāla tabula, kas tiek aizpildīta ar datiem 
 
 Veiciet tālāk norādītās darbības, lai konfigurētu vidi.
 
-1. Atlasiet CDS kategoriju hierarhiju. Ja lapā **Kategoriju hierarhijas lomas saistības** ar lomu **Common data service** nav saistīta neviena hierarhija, ir jāizveido jauna saistība. Atlasiet lomu **Common data service** un pēc tam saistiet to kategoriju hierarhiju, kas atbilst ar CDS sinhronizējamajam preču portfelim.
+1. Atlasiet Dataverse kategoriju hierarhiju. Ja lapā **Kategoriju hierarhijas lomas saistības** ar lomu **Common data service** nav saistīta neviena hierarhija, ir jāizveido jauna saistība. Atlasiet lomu **Common data service** un pēc tam saistiet to kategoriju hierarhiju, kas atbilst Dataverse sinhronizējamajam preču portfelim.
 2. Atlasiet globālo preču pamatdatu juridisko personu. Lapas **Preču informācijas pārvaldības parametri** cilnē **Preces īpašības** atlasiet galveno uzņēmumu, kas galvenokārt tiek izmantots preču un krājumu identifikatoru uzturēšanai.
 3. Definējiet eksportējamos identifikatoru kodu veidus un kodus. Pārejiet uz sadaļu **Preču informācijas pārvaldība** &gt; **Iestatījumi** &gt; **Preču identifikatoru kodi**. Lai ģenerētu identifikatoru kodu veidus, atlasiet **Ģenerēt kodus**. Tiek ģenerēts koda tipa ieraksts atbilstoši katram identifikatora veidam, kas ir atrasts atlasītās juridiskās personas datos.
 
@@ -190,6 +189,3 @@ Tagad varat izmantot datu elementus **Preces elementa common data service identi
 ## <a name="related-topic"></a>Saistītā tēma
 
 [Preces un preces variantu meklēšana pasūtījuma izveides laikā](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

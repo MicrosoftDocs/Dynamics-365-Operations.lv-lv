@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432536"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011676"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Krājumu žurnāla apstiprināšanas darbplūsmas
 
@@ -31,6 +30,13 @@ ms.locfileid: "4432536"
 
 > [!NOTE]
 > Krājumu žurnāla apstiprināšanas darbplūsmas attiecas tikai uz transakcijām, kas ierakstītas, izmantojot Krājumu vadības moduli. Tās nestrādā ar krājumu žurnāliem, kas tiek izraisīti no Noliktavas pārvaldības moduļa.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Krājumu žurnāla apstiprināšanas darbplūsmas līdzekļa iespējošana
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulis:** *Inventāra un noliktavas pārvaldība*
+- **Funkcionalitātes nosaukums:** *Inventāra žurnāla apstiprināšanas darbplūsma*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Izveidojiet jūsu krājumu žurnāla apstiprināšanas darbplūsmas
 
@@ -112,6 +118,3 @@ Lai pārskatītu žurnāla darbplūsmas vēsturi:
 1. Navigācijas rūtī izvērsiet **Krājumu pārvaldība \> Žurnāla ieraksti \> Vienumi** un pēc tam atlasiet krājumu žurnāla tipu.
 1. Atveriet attiecīgo žurnālu.
 1. Darbību rūtī atlasiet pogu **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu. Atlasiet **Darbplūsmas vēsture**. Papildinformācijai skatiet [Skatīt darbplūsmas vēsturi](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

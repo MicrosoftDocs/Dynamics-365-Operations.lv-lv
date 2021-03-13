@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bd4392417c7fd389c1c5fadf3e61be33a2f336db
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433125"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011126"
 ---
 # <a name="visibility-into-material-exceptions"></a>Redzamība materiālu izņēmumos
 
@@ -67,6 +66,3 @@ Kad šis elements tiek atlasīts, tiek atvērta lapa **Visi ražošanas kopumi**
 Elementā **Atvērtais noliktavas darbs, kam jāpievērš uzmanība** tiek rādīts skaits ar MK un formulas rindām, kuras ir izlaistas pārvietošanai uz noliktavu, kurās ir neapstrādāts darbs un kurās izejmateriālu datums ir agrāks par vai vienāds ar darbvietas datumu. Šis rindas ir nepieciešams arī patērēt ar operācijas resursu, kas attiecas uz darbvietas filtru.
 
 Kad šis elements tiek atlasīts, tiek atvērta lapa **Viss darbs**. Šī lapa tiek filtrēta pēc tādu atvērto darba virsrakstu skaita, kuros ir darba rindas no izlaistajām MK un formulas rindām, kas atbilst šī elementa kritērijiem. No lapas **Viss darbs** šo darbu varat apstrādāt manuāli.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

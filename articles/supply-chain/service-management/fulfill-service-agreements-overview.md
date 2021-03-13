@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19d31cc3a651f4978a0f5f432c39579ccb871418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4433000"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010651"
 ---
 # <a name="fulfill-service-agreements-overview"></a>Pakalpojumu līgumu izpildes apskats 
 
@@ -67,9 +66,9 @@ ms.locfileid: "4433000"
 <td><p>Izveidojiet un uzturiet pakalpojumu abonementus.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Līguma uzraudzīšana un ieviešana</p></td>
@@ -82,9 +81,9 @@ ms.locfileid: "4433000"
 <td><p>Izveidojiet un uzturiet pakalpojuma pasūtījumus.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Līguma atjaunināšana un novērtēšana</p></td>
@@ -107,6 +106,3 @@ ms.locfileid: "4433000"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

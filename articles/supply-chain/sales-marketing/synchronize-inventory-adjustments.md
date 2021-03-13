@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ff64f28af570b792f73b51aa9caf06dd2445b2ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a598f0356034a22ee7fc0902360b8862a1944558
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010976"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmatūru Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šajā tēmā ir apskatītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto krājumu korekciju un pārsūtīšanas darbību sinhronizēšanai ar programmu Dynamics 365 Field Service.
 
@@ -45,27 +46,27 @@ Tālāk minētā veidne un pamata uzdevumi tiek izmantoti, lai sinhronizētu kr�
 - Krājumu korekcijas
 - Krājumu pārsūtīšana
 
-## <a name="entity-set"></a>Elementu kopa
+## <a name="table-set"></a>Tabulu kopa
 | Field Service                     | Supply Chain Management                          |
 |-----------------------------------|----------------------------------------------------|
-| msdyn_inventoryadjustmentproducts |   CDS krājumu korekciju žurnālu virsraksti un rindas |
-| msdyn_inventoryadjustmentproducts | CDS krājumu pārsūtīšanas žurnālu virsraksti un rindas   |
+| msdyn_inventoryadjustmentproducts | Dataverse Krājumu korekciju žurnālu virsraksti un rindas |
+| msdyn_inventoryadjustmentproducts | Dataverse Krājumu pārsūtīšanas žurnālu virsraksti un rindas   |
 
-## <a name="entity-flow"></a>Elementu plūsma
+## <a name="table-flow"></a>Tabulu plūsma
 Programmā Field Service veiktās krājumu korekcijas un pārsūtīšanas darbības tiks sinhronizētas ar programmatūru Supply Chain Management pēc tam, kad vienumam **Grāmatošanas statuss** iestatījums tiek mainīts no **Izveidots** uz **Grāmatots**. Kad tas notiek, korekcijas vai pārsūtīšanas pasūtījums tiks slēgts un kļūs tikai lasāms. Tas nozīmē, ka korekcijas un pārsūtīšanas darbības var tikt grāmatotas programmatūrā Supply Chain Management, bet tās nevar modificēt. Programmatūrā Supply Chain Management var iestatīt pakešuzdevumu, lai automātiski grāmatotu korekcijas un pārsūtītu krājumu žurnālus, kuri ģenerēti integrācijas laikā. Skatiet tālāk norādītos priekšnosacījumus, lai iegūtu informāciju par to, kā iespējot pakešuzdevumu.
 
 ## <a name="field-service-crm-solution"></a>Risinājums Field Service CRM 
-Entītijai **Prece** ir pievienots lauks **Krājumu uzskaites vienība**. Šis lauks ir nepieciešams, jo pārdošanas un krājumu uzskaites vienības ne vienmēr sakrīt programmatūrā Supply Chain Management, un noliktavas krājumiem programmatūrā Supply Chain Management ir nepieciešama krājumu uzskaites vienība.
-Atlasot preci vienumam Krājumu korekcijas prece gan krājumu korekcijām, gan krājumu pārsūtīšanai, vienība tiks iegūta no krājumu preces vērtības. Ja vērtība tiek atrasta, laukā **Vienība** tiek fiksēts iestatījums Krājumu korekcijas prece.
+Tabulai **Prece** ir pievienota kolonna **Krājumu uzskaites vienība**. Šī kolonna ir nepieciešama, jo pārdošanas un krājumu uzskaites vienības ne vienmēr sakrīt programmatūrā Supply Chain Management, un noliktavas krājumiem programmatūrā Supply Chain Management ir nepieciešama krājumu uzskaites vienība.
+Atlasot preci vienumam Krājumu korekcijas prece gan krājumu korekcijām, gan krājumu pārsūtīšanai, vienība tiks iegūta no krājumu preces vērtības. Ja vērtība tiek atrasta, kolonnā **Vienība** tiek fiksēts iestatījums Krājumu korekcijas prece.
 
-Lauks **Grāmatošanas statuss** ir pievienots gan entītijai **Krājumu korekcija**, gan entītijai **Krājumu pārvietošana**. Šo lauku izmanto kā filtru, ja korekcija vai pārsūtīšana tiek nosūtīta uz programmatūru Supply Chain Management. Šī lauka noklusējuma iestatījums ir Izveidots (1), taču tas netiek nosūtīts uz programmatūru Supply Chain Management. Atjauninot vērtību uz Grāmatots (2), tas tiek sūtīts uz programmatūru Supply Chain Management, bet pēc tam vairs nevarēsit mainīt korekciju un pārsūtīšanas darbību vai pievienot jaunas rindas.
+Kolonna **Grāmatošanas statuss** ir pievienota gan tabulai **Krājumu korekcija**, gan tabulai **Krājumu pārvietošana**. Šo kolonnu izmanto kā filtru, ja korekcija vai pārsūtīšana tiek nosūtīta uz programmatūru Supply Chain Management. Šīs kolonnas noklusējuma iestatījums ir Izveidots (1), taču tas netiek nosūtīts uz programmatūru Supply Chain Management. Atjauninot vērtību uz Grāmatots (2), tas tiek sūtīts uz programmatūru Supply Chain Management, bet pēc tam vairs nevarēsit mainīt korekciju un pārsūtīšanas darbību vai pievienot jaunas rindas.
 
-Entītijai **Krājumu korekcijas prece** ir pievienots lauks **Numuru sērija**. Šis lauks nodrošina to, ka integrācijai ir unikāls numurs, tādējādi integrācija var izveidot un atjaunināt korekciju. Veidojot pirmo krājumu korekcijas preci, tiks izveidots jauns ieraksts entītijā **P2C automātiska numerācija**, lai uzturētu izmantoto numuru sēriju un prefiksu.
+Tabulai **Krājumu korekcijas prece** ir pievienota kolonna **Numuru sērija**. Šī kolonna nodrošina to, ka integrācijai ir unikāls numurs, tādējādi integrācija var izveidot un atjaunināt korekciju. Veidojot pirmo krājumu korekcijas preci, tiks izveidots jauns ieraksts tabulā **P2C AutoNumber**, lai uzturētu izmantoto numuru sēriju un prefiksu.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Priekšnosacījumi un kartējuma iestatījums
 
 ### <a name="supply-chain-management"></a>Supply Chain Management
-Integrācijas krājumu žurnālus, kas ģenerēti integrācijas ietvaros, var automātiski grāmatot, izmantojot pakešuzdevumu. To iespējo šādi: **Krājumu vadība > Periodiskie uzdevumi > CDS integrācija > Grāmatot integrācijas krājumu žurnālus**.
+Integrācijas krājumu žurnālus, kas ģenerēti integrācijas ietvaros, var automātiski grāmatot, izmantojot pakešuzdevumu. To iespējo šādi: **Krājumu vadība > Periodiskie uzdevumi > Dataverse integrācija > Grāmatot integrācijas krājumu žurnālus**.
 
 ## <a name="template-mapping-in-data-integration"></a>Veidnes kartējums līdzeklī Datu integrācija
 
@@ -79,6 +80,3 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Krājumu pārsūtījumi (no Field Service uz Supply Chain Management): Krājumu pārsūtījumi
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSTrans1.png)](./media/FSTrans1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

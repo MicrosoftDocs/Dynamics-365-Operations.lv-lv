@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433163"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014487"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
 
@@ -50,14 +49,16 @@ Kad darbs tiek palaists, tā izpildes lielums ir 100. Citiem vārdiem sakot, tas
 
 ## <a name="possible-user-impact"></a>Iespējamā lietotāja ietekme
 
-Lietotāji var tikt ietekmēti, ja rīcībā esošo ierakstu tīrīšanas darbs dzēš visus ierakstus noteiktā līmenī (piemēram, unikālās noliktavas vienības līmenī). Šādā gadījumā funkcionalitāte, lai redzētu, ka krājumi iepriekš bijuši pieejami unikālajā noliktavas vienībā, iespējams, nedarbosies kā paredzēts, jo attiecīgie rīcībā esošie ieraksti vairs nav pieejami. (Šī funkcionalitāte pārbauda nosacījumu **Daudzums \<\> 0** iestatījumos **Parādāmās dimensijas**, kad lietotāji apskata rīcībā esošo informāciju.) Tomēr veiktspējas uzlabošanai, ko nodrošina tīrīšanas darbs, būtu jāaizstāj šis mazais funkcionalitātes zudums.
+Lietotāji var tikt ietekmēti, ja rīcībā esošo ierakstu tīrīšanas darbs dzēš visus ierakstus noteiktā līmenī (piemēram, unikālās noliktavas vienības līmenī). Šādā gadījumā funkcionalitāte, lai redzētu, ka krājumi iepriekš bijuši pieejami unikālajā noliktavas vienībā, iespējams, nedarbosies kā paredzēts, jo attiecīgie rīcībā esošie ieraksti vairs nav pieejami. Ar to var saskarties šādās situācijās:
+
+- **Rīcībā esošo krājumu sarakstā**, kad lietotājs atceļ nosacījumu **Daudzums \<\> 0** atlasa nosacījumu **Slēgtas darbības** **Dimensiju rādīšanas** iestatījumos.
+- **Fizisko krājumu pēc krājumu dimensijas** pārskatā par pagājušajiem periodiem, kad lietotājs iestata parametru **No datuma**.
+
+Tomēr veiktspējas uzlabojums, ko nodrošina tīrīšanas darbs, vajadzētu kompensēt šos mazos funkcionalitātes zaudējumus.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimālā izpildes laika iestatījuma iespējošana
 
 Pēc noklusējuma iestatījums **Maksimālais izpildes laiks** nav pieejams. Ja vēlaties to lietot, ir jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu saistīto līdzekli jūsu sistēmā. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
-- **Modulis:** *Noliktavas vadība*
+- **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Maksimālais izpildes laiks noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbam*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9caf6651813f0111b873db1769140d973f1a2e3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27a5149812a8e478dae1d2385e6c139c9f635202
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432872"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010751"
 ---
 # <a name="manage-order-holds"></a>Pasūtījumu aizturēšanas pārvaldība
 
@@ -70,6 +69,3 @@ ms.locfileid: "4432872"
     - Darbība **Notīrīt un iesniegt** ir spēkā tikai tad, ja izmantojat zvanu centra funkcionalitāti.  
 8. Noklikšķiniet uz **Dzēst aizturēšanas**. Tagad aizturēšana ir dzēsta no pasūtījuma un noņemta no saraksta Aktīvās aizturēšanas. Lai skatītu visas aizturēšanas vai to apakškopu pēc noteikta statusa, mainiet vērtību laukā Rādīt.     
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
