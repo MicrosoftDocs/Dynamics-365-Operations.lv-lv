@@ -1,7 +1,7 @@
 ---
 title: Pirkšanas atgriešanas pasūtījuma izveide
 description: Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433130"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017063"
 ---
 # <a name="create-a-purchase-return-order"></a>Pirkšanas atgriešanas pasūtījuma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP. Tajā ir arī parādīts, kā apstiprināt pasūtījumu un apstrādāt preču sūtījumu atpakaļ kreditoram. Šajā procedūrā rādīto piemēru var izmantot demonstrācijas datus uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
+Šajā procedūrā ir parādīts, kā izveidot pirkuma atgriešanas pasūtījumu, izmantojot darbību Kredīta nota, lai rindas no kreditora rēķina dokumenta kopētu jaunā PP. Tajā ir arī parādīts, kā apstiprināt pasūtījumu un apstrādāt preču sūtījumu atpakaļ kreditoram. Šajā procedūrā rādīto piemēru var izmantot paraugdatu uzņēmumā USMF. Šo uzdevumu parasti veic pirkšanas aģents.
 
 ## <a name="create-a-new-purchase-return-order"></a>Izveidot jaunu pirkuma atgriešanas pasūtījumu
 1. Pārejiet uz **Navigācijas rūts > Moduļi > Sagāde un avoti > Pirkšanas pieprasījumi > Visi pirkšanas pieprasījumi**. Vispirms ir jāizveido jauns pirkšanas pasūtījums, ko izmantot kā pirkuma atgriešanas pasūtījumu.  
@@ -68,6 +67,3 @@ ms.locfileid: "4433130"
 4. Laukā **Prod. ieejas pl.** ierakstiet vērtību. Šis lauks tiek lietots, lai ievadītu atsauci, kas tiks izmantota kā dokuments produktu ieejas plūsmas žurnālam.  
 5. Noklikšķiniet uz **Labi**. Tagad preces ir reģistrētas kā nosūtītas pirkuma atgriešanas pasūtījumā, un ir izveidots produktu ieejas plūsmas žurnāls. Produktu ieejas plūsmas darbību var izmantot, lai pārskatītu ar pirkšanas pasūtījumu izveidotos žurnālus un redzētu, kas un kad tika saņemts vai atgriezts.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

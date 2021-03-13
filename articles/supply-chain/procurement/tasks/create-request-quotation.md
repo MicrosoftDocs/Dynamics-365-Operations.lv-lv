@@ -1,7 +1,7 @@
 ---
 title: Piedāvājuma pieprasījuma izveide
 description: Šajā procedūrā ir parādīts, kā izveidot piedāvājuma pieprasījumu.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59202cb6678660ae035f9f76ebe4267bac01d78f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432648"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019908"
 ---
 # <a name="create-a-request-for-quotation"></a>Piedāvājuma pieprasījuma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā ir parādīts, kā izveidot piedāvājuma pieprasījumu. Parasti to veic pirkšanas aģents. Šo procedūru varat lietot, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Pirms sākšanas ir jāiestata lūguma tipi. Kad esat pabeidzis šo uzdevumu un esat izveidojis un nosūtījis kādu PP, varat ievadīt atbildes katram kreditoram, salīdzināt tās un piešķirt līgumu.
+Šajā procedūrā ir parādīts, kā izveidot piedāvājuma pieprasījumu. Parasti to veic pirkšanas aģents. Šo procedūru varat lietot, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus. Pirms sākšanas ir jāiestata lūguma tipi. Kad esat pabeidzis šo uzdevumu un esat izveidojis un nosūtījis kādu PP, varat ievadīt atbildes katram kreditoram, salīdzināt tās un piešķirt līgumu.
 
 
 ## <a name="prepare-a-new-rfq"></a>Sagatavot jaunu PP
@@ -81,6 +80,3 @@ Kad esat norādījis pamatinformāciju par savu PP, ir jānorāda preces vai pak
 4. Aizvērt lapu.
 5. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

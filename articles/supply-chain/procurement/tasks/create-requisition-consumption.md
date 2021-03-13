@@ -1,7 +1,7 @@
 ---
 title: Patēriņa pieprasījuma izveide
 description: Šajā tēmā ir aprakstīts pieprasījuma izveidošanas process.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acc2cdb9b74cccaefe565b0e2ae8ec4c5f2401c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c76a24999eef16f239578dd6c8cf9e2e5a8ca634
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432646"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018925"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Patēriņa pieprasījuma izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts pieprasījuma izveidošanas process. Tajā parādīti dažādi veidi, kā meklēt preces sagādes katalogā un kā pievienot preci, kas nav katalogā. Pirms sākt šo procedūru, jums ir jāiestata pirkšanas ierobežojumus uz Patēriņš kā pieprasījumu noklusējuma tipu. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Šo procedūru var veikt tikai no lietotāja profila, kas ir iestatīts kā darbinieks. Šo uzdevumu parasti veic darbinieks. **Darbinieka** pieņemšanas darbā drošības loma ļaus veikt uzdevumus, vai, ja jūs izmantojat USMF, varat pieteikties kā **Alicia**.
+Šajā tēmā ir aprakstīts pieprasījuma izveidošanas process. Tajā parādīti dažādi veidi, kā meklēt preces sagādes katalogā un kā pievienot preci, kas nav katalogā. Pirms sākt šo procedūru, jums ir jāiestata pirkšanas ierobežojumus uz Patēriņš kā pieprasījumu noklusējuma tipu. Šo procedūru var izmēģināt, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus. Šo procedūru var veikt tikai no lietotāja profila, kas ir iestatīts kā darbinieks. Šo uzdevumu parasti veic darbinieks. **Darbinieka** pieņemšanas darbā drošības loma ļaus veikt uzdevumus, vai, ja izmantojat USMF, varat pieteikties kā **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Jauna pieprasījuma izveide
@@ -92,6 +91,3 @@ ms.locfileid: "4432646"
 6. Aizvērt lapu.
 7. Atsvaidziniet lapu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

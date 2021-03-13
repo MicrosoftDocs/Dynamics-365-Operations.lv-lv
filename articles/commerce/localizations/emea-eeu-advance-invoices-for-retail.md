@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fc2af93880b634e6cec0015a2469fb8e4e56a7d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d27eec5ad2ec12d1f2e617fc3e182e2bbefa39a9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408269"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017245"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Avansa rēķini programmai Commerce Austrumeiropā
 
@@ -88,6 +87,3 @@ Veiciet šādas darbības, lai iespējotu dokumentu drukāšanu no POS, izmantoj
 
 4. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 5. Atlasiet darbu **1090** un pēc tam atlasiet **Izpildīt tūlīt**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432682"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017396"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Uzturēšanas speciālisti un speciālistu grupas
 
@@ -64,6 +63,3 @@ Varat arī izveidot uzturēšanas speciālistu grupas un saistīt uzturēšanas 
 6. Ja resursu grupai ir jābūt saistītai ar atlasīto uzturēšanas speciālistu grupu, atlasiet **Kopēt no resursu grupas**. Laukā **Grupa** atlasiet resursu grupu, no kuras kopēt kalendāra iestatījumus. Pēc tam laukā **Nodarbināto grupa** atlasiet nodarbināto grupu, uz kuru kopēt resursu grupas kalendāra iestatījumus. Šī darbība ir būtiska tikai tad, ja vēlaties, lai uzturēšanas speciālisti darba pasūtījuma plānošanas laikā izmanto kalendāru, kas ir saistīts ar resursu (darba centru).
 
     Kopsavilkuma cilne **Detalizēta informācija** rāda to uzturēšanas speciālistu skaitu, kuri ir iestatīti atlasītajā uzturēšanas speciālistu grupā.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

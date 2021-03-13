@@ -1,5 +1,5 @@
 ---
-title: Dīkstāves uzturēšanas dēļ aktivitātes
+title: Dīkstāves uzturēšanas aktivitātes
 description: Šajā tēmā ir paskaidrots, kā dīkstāve uzturēšanas dēļ tiek izmantota, lai iegūtu pārskatu par noslodzi, kas ir nepieciešama, lai veiktu uzturēšanas darbus konkrētos līdzekļos konkrētā periodā.
 author: josaw1
 manager: tfehr
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432810"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017961"
 ---
-# <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas dēļ aktivitātes
+# <a name="maintenance-downtime-activities"></a>Dīkstāves uzturēšanas aktivitātes
 
 [!include [banner](../../includes/banner.md)]
 
@@ -97,6 +96,3 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 - Jūs varat nokopēt līdzekļus no vienas dīkstāves uzturēšanas dēļ darbības citā. In **Visas dīkstāves uzturēšanas dēļ darbības** atlasiet pogu **Kopēt dīkstāves uzturēšanas dēļ darbības** un veiciet atlasi laukos **Dīkstāves uzturēšanas dēļ darbības no** un **Dīkstāves uzturēšanas dēļ darbības līdz** un noklikšķiniet uz **Labi**.
 - Laukā **Visas dīkstāves uzturēšanas dēļ darbības** noklikšķiniet uz pogas **Uzturēšanas grafika rindas** vai pogas **Aktīvi darba pasūtījumi**, lai atvērtu saistītos sarakstus un skatītu rindas, kas ir saistītas ar atlasīto dīkstāves uzturēšanas dēļ darbību.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

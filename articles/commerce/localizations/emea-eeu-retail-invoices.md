@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a00a960142b0e3955c80d75f7963f4827209bf75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f5b46748ad2f780bfd56078631f3ac66814df9cc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408267"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018846"
 ---
 # <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Debitoru rēķini un atgriešanas pārdošanas pasūtījumi Austrumeiropas valstīs
 
@@ -42,6 +41,3 @@ Par debitoru rēķiniem un pārdoto krājumu atgriešanas pasūtījumiem, kas ti
 
     * Dodieties uz **Organizācijas administrēšana \> Numuru sērijas \> Skaitītāju pārvaldība**. Tur vajadzētu būt ierakstam, kur **Modulis** = **Pārdošana** un **Tips** = **Rēķins**.
     * Dodieties uz **Organizācijas administrēšana \> Numuru sērijas \> Rēķinu numerācijas iestatījumi**. Atlasiet izvēles rūtiņu **Komercija** tai numuru sērijas rindai, kas tiek izmantota, lai numurētu debitoru rēķinus.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

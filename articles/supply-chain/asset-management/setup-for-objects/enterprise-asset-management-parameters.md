@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432885"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020658"
 ---
 # <a name="asset-management-parameters"></a>Līdzekļu pārvaldības parametri
 
@@ -34,21 +33,20 @@ Līdzekļu pārvaldībā ir jāiestata vispārējie parametri, kas attiecas uz l
 > [!NOTE]
 > Ja vēlaties iestatīt sistēmu, kas ietver demonstrācijas datus, lai testētu Līdzekļu pārvaldības līdzekļus, skatiet norādījumus šeit: [Demonstrācijas vides izvietošana](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).
 
-Saite **Līdzekļi**
+## <a name="the-assets-tab"></a>Cilne Pamatlīdzekļi
+
+Cilne **Pamatlīdzekļi** nodrošina šādus iestatījumus:
 
 - **Noklusējuma funkcionālais novietojums** ir standarta funkcionālais novietojums, kas tiek automātiski atlasīts līdzekļiem, kad veidojat jaunus līdzekļus.  
 - Laukā **Standarta kalendārs** atlasiet kalendāru, kas jāizmanto līdzekļu KPI aprēķināšanai, ja līdzeklim nav atlasīts neviens resurss.  
 - Laukā **Skats** atlasiet standarta skatu, kas tiek parādīts, atverot lapu **Līdzekļu skats** (**Līdzekļu pārvaldība** > **Kopīgi** > **Līdzekļi** > **Līdzekļu skats**).
 - **Noklusējuma pieprasījuma veids** ir standarta uzturēšanas pieprasījuma veids, kas tiek automātiski atlasīts, veidojot jaunu pieprasījumu.  
-- Ja vēlaties izveidot projektus, kas saistīti ar līdzekļiem, projektu attiecības saistībā ar **Galvenā projekta** atlasi, **Projektu hierarhiju** un iespēju **Automātiski izveidot projektus** ir iestatītas **Līdzekļu pārvaldības parametros**.  
-- Laukā **Darba pasūtījumu projekta maska** definējiet darba pasūtījumiem un pakārtotajiem apakšlīdzekļiem atļauto apakšprojektu skaitu. Darba pasūtījuma maska tiek izmantota, lai definētu, cik darba pasūtījumu var izveidot līdzeklim un lietot saistītajā darba pasūtījumu darba projektā. Darba pasūtījumu maska ir iestatīta laukā **Saistītā darba pasūtījuma maska** **Līdzekļu pārvaldības parametros** (**Līdzekļu pārvaldība** > **Iestatīšana** > **Līdzekļu pārvaldības parametri** > **Darba pasūtījumi**).  
-    >[!NOTE]
-    >Saistītā darba pasūtījuma maskas formāts ir restītes zīmju skaits (#) atkarībā no maksimālā darba pasūtījumu skaita, ko paredzēts izveidot līdzeklim. Piemērs: ## ļauj izveidot līdz 99 apakšprojektus.  
 - Darbu veidu prognozes tiek glabātas par atlasīto projektu laukā **Prognozēt projektu**. Katram darba veidam automātiski tiek izveidota jauna aktivitāte attiecībā uz prognozēto projektu. Pēc tam prognozes par darba veidu tiek saglabātas prognozētajā projektā.  
-- Laukā **Modelis** atlasiet prognozēto modeli, kas tiek izmantots darba veida un darba pasūtījumu prognozēm.  
+- Laukā **Modelis** atlasiet prognozēto modeli, kas tiek izmantots darba veida un darba pasūtījumu prognozēm.
 
+## <a name="the-work-orders-tab"></a>Cilne Darba pasūtījumi
 
-Saite **Darba pasūtījumi**
+Cilne **Darba pasūtījumi** nodrošina šādus iestatījumus:
 
 - **Noklusējuma darba pasūtījuma veids** definē standarta iestatījumus, veidojot darba pasūtījumu.  
 - **Preventīvā darba pasūtījuma veids** definē darba pasūtījuma veidu, kas tiek izmantots, veidojot darba pasūtījumus no uzturēšanas plāniem. Ja šis lauks ir atstāts tukšs, tiek izmantots darba pasūtījuma veids laukā **Noklusējuma darba pasūtījuma veids**.  
@@ -67,8 +65,9 @@ Saite **Darba pasūtījumi**
     - Uzturēšanas ciklu iestatīšanu  
 - Kopsavilkuma cilnē **Kategorija** var definēt noklusējuma kategorijas, kas attiecas uz patēriņu darba pasūtījumos.  
 
+## <a name="the-work-order-scheduling-tab"></a>Cilne Darba pasūtījuma plānošana
 
-Saite **Darba pasūtījuma plānošana**
+Cilne **Darba pasūtījuma plānošana** nodrošina šādus iestatījumus kopsavilkuma cilnē **Vispārīgi**:
 
 - **Grafika plānošanas periods** nosaka periodu dienās, kas aprēķināts no darba pasūtījuma paredzamā sākuma datuma, kura laikā darba pasūtījuma darbi tiek plānoti.  
 - **Vispārējais plāns** attiecas uz resursiem modulī **Organizācijas administrēšana**. Atlasot vispārējo plānu šajā laukā, var redzēt noslodzes rezervācijas, kas saistītas ar darba pasūtījumiem **Noslodzes rezervācijās** (**Organizācijas administrēšana** > **Resursi** > **Resursi** > atlasiet resursu > cilni **Resurss** > pogu **Noslodzes rezervācijas** ). Atatājot šo lauku tukšu, var redzēt noslodzi, kas saistīta ar darba pasūtījumiem **Noslodzē** (**Organizācijas administrēšana** \> **Resursi** \> **Resursi** \> atlasiet resursu \> cilni **Resurss** \> pogu **Noslodze** ).  
@@ -100,13 +99,10 @@ Zemāk redzamajā sarakstā aprakstītie lauki attiecas uz aprēķinātiem vērt
   - Pieņemot, ka plānojamajam darba pasūtījumam nav atlasīta atbildīgais darbinieks un atbildīgā darbinieku grupa, pievienojot un atņemot vērtējuma rādītāju vērtības piemēros iepriekš minētajos laukos **Vēlamais darbinieks**, **Vēlamā darbinieku grupa**, **Līdzekļa atrašanās vieta** un **Sākuma datums**, jūs iegūstat kopsummu 3010,00. Tas nozīmē augstu rezultātu darbiniekam, kurš jau ir atlasīts kā vēlamais darbinieks, kā arī iekļauts darba pasūtījuma vēlamajā darbinieku grupā, un darbinieks atrodas arī tajā pašā objektā, kur līdzeklis, kam nepieciešams ieplānot darbu. Tas nozīmē, ka ir labas izredzes, ka darba pasūtījuma plānošanas laikā attiecīgais darbinieks tiks atlasīts darba izpildei.  
   - Ja vienā no iepriekš minētajiem astoņiem laukiem ir ievietota vērtība "0,00", šis vērtējuma rezultāts netiks izmantots darba pasūtījuma plānošanas laikā.  
 
-Saite **Dokumentu veidi**
+## <a name="the-document-types-tab"></a>Cilne Dokumentu veidi
 
 Atlasiet dokumentu veidus, kuriem jābūt pieejamiem, drukājot pielikumus, kas saistīti ar darba pasūtījuma pārskatu. Tas tiek darīts, atlasot dokumenta veidu sadaļā **Pieejams** un atlasot ![bultiņa uz priekšu](media/15-setup-for-objects.png). Ja vēlaties noņemt atlasīto dokumenta veidu, atlasiet dokumenta veidu sadaļā **Atlasīts** un atlasot ![bultiņa atpakaļ](media/16-setup-for-objects.png).
 
-Saite **Numuru sērijas**
+## <a name="the-number-sequences-tab"></a>Cilne Numuru secība
 
 Atlasiet šajā sadaļā nepieciešamās numuru sērijas. Līdzekļiem ir divas numuru sērijas: viena manuāli izveidotiem līdzekļiem, bet otra —līdzekļiem, kas izveidoti, izmantojot gaidošos līdzekļus.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
