@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Pārdošanas un ienesīguma veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Pārdošanas un ienesīguma veiktspēja.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688239"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093567"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI satura pakotne Pārdošanas un ienesīguma veiktspēja
 
@@ -107,6 +107,3 @@ Tālāk minētās pārdošanas kuba galvenās dimensijas tiek izmantotas kā fil
 | Datumi            | Datumi                                                |
 
 Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

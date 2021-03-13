@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Atvieglojumi
-description: Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi. Tajā ir paskaidrots, kā piekļūt ietvertajiem pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+description: Šajā tēmā ir aprakstīta Power BI satura pakotne Atvieglojumi.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687260"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093085"
 ---
 # <a name="benefits-power-bi-content"></a>Power BI satura pakotne Atvieglojumi
 
@@ -47,7 +47,7 @@ Power BI satura pakotnes **Atvieglojumi** pārskatos ir ietvertas gan diagrammas
 ## <a name="understanding-the-data-model-and-entities"></a>Datu modeļa un elementu izprašana
 Power BI satura pakotnes **Atvieglojumi** pārskatu aizpildīšanai tiek izmantoti tālāk norādītie dati. Tālāk esošajā tabulā ir norādīti elementi, kas ir izmantoti satura izveidei.
 
-| Elements                   | Saturs                                                                                                   | Attiecības ar citiem elementiem |
+| Entītija                   | Saturs                                                                                                   | Attiecības ar citiem elementiem |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Kalendāra nobīde          | Kalendārs nobīdās, lai sadalītu pārskatus                                                                          | Iepriekšējās pozīcijas piešķire, Pozīcijas tendence, Darbinieka tendence, Darbinieks, ar ko patrauktas darba attiecības |
 | Uzņēmums                  | Uzņēmumi, pēc kuriem pārskatus filtrēt                                                                             | Pašreizējā atlīdzība, Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
@@ -69,6 +69,3 @@ Power BI satura pakotnes **Atvieglojumi** pārskatu aizpildīšanai tiek izmanto
 | Darbinieka vārds            | Vārds, uzvārds un pilnais vārds                                                                       | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka amats           | Nosaukums un darba stāža datums                                                                                   | Pašreizējais darbinieks, Darbinieks, ar kuru ir pārtrauktas darba attiecības, Darbinieka tendence |
 | Darbinieka tendence           | Nodarbinātie laika gaitā, skaits, uzņēmums un amats                                                        | Uzņēmums, Atlīdzība, Ģeogrāfiskā vieta, Darbinieka vārds, Pārskati par, Kalendāra nobīde, Datums, Darbinieka amats, Demogrāfiskie dati, Nodarbinātība, Darbs, Atvieglojumi |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

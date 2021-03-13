@@ -3,7 +3,7 @@ title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687162"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097285"
 ---
-# <a name="electronic-reporting-er-destinations"></a>Elektronisko pārskatu (ER) galamērķi
+# <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
 [!include [banner](../includes/banner.md)]
 
@@ -96,6 +96,8 @@ Piemēram, varat izmantot šo iespēju, lai konfigurētu faila galamērķus fail
 
 [![Vairāku galamērķu konfigurēšana viena formāta elementam](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
+Kad jūs darbināt ER formātu, vienmēr tiek palaisti visi adresāti, kas tika konfigurēti formāta komponentiem. Turklāt finanšu versijā **10.0.17 un vēlāk** ER mērķa funkcionalitāte ir uzlabota un tagad ļauj konfigurēt dažādas adresātu kopas vienam ER formātam. Šī konfigurācija atzīmē katru kopu kā konfigurētu konkrētai lietotāja darbībai. ER API ir [paplašināts](er-apis-app10-0-17.md), lai var nodrošināt darbību, ko lietotājs veic, izpildot ER formātu. Nodrošinātais darbības kods tiek nodots ER adresātiem. Atkarībā no nodrošinātā darbības koda varat palaist dažādus ER formāta adresātus. Papildinformāciju skatiet sadaļā [No darbības atkarīgu ER adresātu konfigurēšana](er-action-dependent-destinations.md).
+
 ## <a name="destination-types"></a>Galamērķu tipi
 
 ER formātiem pašlaik tiek atbalstīti tālāk norādītie galamērķi. Visus tipus varat atspējot vai iespējot vienlaicīgi. Tādējādi jūs varat nedarīt neko vai sūtīt komponentu uz visiem konfigurētajiem galamērķiem.
@@ -164,21 +166,20 @@ Lai PDF pārveides opciju padarītu pieejamu pašreizējā Finance instancē, at
 
 ### <a name="applicability"></a>Piemērojamība
 
-PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izmantoti, lai ģenerētu izvadi Microsoft Office Excel vai Word formātā (**Excel fails**). Kad šī opcija ir ieslēgta, izvade, kas tiek ģenerēta Office formātā, tiek automātiski pārveidota PDF formātā.
+PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izmantoti, lai ģenerētu izvadi programmā Office (Excel vai Word) formātā (**Excel fails**). Kad šī opcija ir ieslēgta, izvade, kas tiek ģenerēta Office formātā, tiek automātiski pārveidota PDF formātā.
 
 ### <a name="limitations"></a>Ierobežojumi
 
 > [!NOTE]
 > Šis līdzeklis ir priekšskatījuma līdzeklis, un tas ir pakļauts lietošanas noteikumiem, kas aprakstīti sadaļā [Microsoft Dynamics 365 priekšskatījumu papildu lietošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> PDF pārveides opcija ir pieejama tikai mākoņa izvietojumiem
->
-> Saražotais PDF daudzums ir ierobežots līdz maksimālam 300 lapu skaitam.
->
-> Microsoft Dynamics 365 Finance 10.0.9 versijā (2020. gada aprīlis) tiek atbalstīta tikai ainavorientācija PDF dokumentā, kas tiek ražots no Excel formāta izvades. Ar Dynamics 365 Finance versiju 10.0.10 (2020. gada maijs), jūs varat [norādīt lapas orientāciju](#SelectPdfPageOrientation) PDF dokumentā, kas tiek veidots no Excel izdrukas, kamēr jūs konfigurējat ER galamērķi.
->
-> Lai pārveidotu izvadi, kas nesatur iegultus fontus, tiek izmantoti tikai Window operētājsistēmas bieži sastopamie sistēmas fonti.
+PDF pārveides opcija ir pieejama tikai mākoņa izvietojumiem.
+
+Saražotais PDF dokuments ir ierobežots līdz maksimālam 300 lapu skaitam.
+
+Programmas Finance **10.0.9 versijā** tikai horizontāli orientētu lapas orientāciju atbalsta PDF dokuments, kas ir izveidots no Excel formāta izvades. Ar Finance **versiju 10.0.10 (2020. gada maijs) un vēlāk** jūs varat [norādīt lapas orientāciju](#SelectPdfPageOrientation) PDF dokumentā, kas tiek veidots no Excel izdrukas, kamēr jūs konfigurējat ER galamērķi.
+
+Lai pārveidotu izvadi, kas nesatur iegultus fontus, tiek izmantoti tikai Window operētājsistēmas bieži sastopamie sistēmas fonti.
 
 ### <a name="use-the-pdf-conversion-option"></a>Opcijas pārveidei PDF formātā izmantošana
 
@@ -193,7 +194,7 @@ Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF 
 [![Lappuses orientācijas atlasīšana konvertēšanai PDF formātā](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Lai būtu iespēja atlasīt PDF lappuses orientāciju, ir jāinstalē Microsoft Dynamics 365 Finance versija 10.0.10 (2020. gada maijs) vai jaunāka versija.
+> Lai būtu iespēja atlasīt PDF lappuses orientāciju, ir jāinstalē Finance 10.0.10 vai jaunāka versija.
 >
 > Atlasītā lappuses orientācija tiek lietota visām ER konfigurācijām, kas tiek ģenerētas Excel formātā un pēc tam konvertētas PDF formātā.
 >
@@ -225,7 +226,7 @@ Nr.p.k. Tiek lietota noklusējuma Microsoft Azure Blob krātuve, kas ir definēt
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Kādam nolūkam galamērķa iestatījumos tiek izmantots galamērķis Fails? Ko šis iestatījums dara?
 
-Galamērķis **Fails** tiek izmantots, lai kontrolētu dialoglodziņu. Ja iespējojat šo galamērķi vai ja konfigurācijai nav definēts nekāds galamērķis, tad pēc izvades faila izveidošanas tiek parādīts atvēršanas vai saglabāšanas dialoglodziņš.
+**Faila** mērķis tiek izmantots, lai kontrolētu jūsu tīmekļa pārlūkprogrammas dialoglodziņu, kad darbināt ER formātu interaktīvā režīmā. Ja iespējojat šo galamērķi vai ja konfigurācijai nav definēts nekāds galamērķis, tad pēc izvades faila izveidošanas tīmekļa pārlūkā tiek parādīts atvēršanas vai saglabāšanas dialoglodziņš.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Vai varat sniegt piemēru formulai, kas atsaucas uz kreditora kontu, uz kuru es varu sūtīt e-pastu?
 
@@ -237,7 +238,6 @@ Jūsu formātam vispirms jābūt pieejamam ER konfigurācijās. Ja šis priekšn
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Elektronisko ziņojumu (ER) pārskats](general-electronic-reporting.md)
+[Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Konfigurēt no darbības atkarīgus ER adresātus](er-action-dependent-destinations.md)

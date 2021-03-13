@@ -3,7 +3,7 @@ title: Pārskats par elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 description: Šajā tēmā ir sniegta informācija par elektronisko rēķinu izrakstīšanas pievienojumprogrammu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4445766"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104212"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Pārskats par elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 
@@ -45,9 +44,9 @@ Elektronisko rēķinu izrakstīšanas pievienojumprogramma var palīdzēt sasnie
 
 Lai izmantotu elektronisko rēķinu izrakstīšanas pievienojumprogrammu, tas ir jāinstalē no jūsu projekta programmā Microsoft Dynamics Lifecycle Services (LCS). Pēc tam sekojiet iestatīšanas procedūrai, lai ieslēgtu integrāciju ar programmu Finance vai Supply Chain Management. Papildinformāciju skatiet sadaļā [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Pieejamība
+## <a name="service-availability"></a><a name="availability"></a>Pakalpojuma pieejamība
 
-Sākotnēji elektronisko rēķinu izrakstīšanas pievienojumprogramma ir pieejama atlasītajiem debitoriem, izmantojot priekšskatījuma programmu. Vēlāk priekšskatījums tiks atvērts plašākam debitoru lokam. Visbeidzot pakalpojums kļūs vispārīgi pieejams. Tā kā funkcionalitāte, kas attiecas uz valsts/reģiona specifiskām prasībām, var būt ierobežota dažādās laidiena fāzēs, vienmēr pārbaudiet visjaunāko dokumentāciju, kas izceļ atbalstīto valsts/reģiona specifisko risinājumu segumu un darbības jomu.
+Pašlaik elektronisko rēķinu izrakstīšanas pievienojumprogramma ir pieejama klientiem priekšskatījuma programmas ietvaros, un nākamajā fāzē pakalpojums kļūs vispārīgi pieejams. Tā kā funkcionalitāte, kas attiecas uz valsts/reģiona specifiskām prasībām, var būt ierobežota dažādās laidiena fāzēs, vienmēr pārbaudiet visjaunāko dokumentāciju, kas izceļ atbalstīto valsts/reģiona specifisko risinājumu segumu un darbības jomu.
 
 Elektronisko rēķinu izrakstīšanas pievienojumprogramma ir izvietota šādās Azure ģeogrāfijās:
 
@@ -76,7 +75,7 @@ Elektronisko rēķinu izrakstīšanas pievienojumprogrammu var izmantot scenāri
     - Iebūvēta, viegli pagarināma un konfigurējama integrācija ar papildu saturu vairākām valstīm
 
     > [!NOTE]
-    > Pašlaik tiek atbalstīts ierobežots tiešo iesniegumu skaits. Papildinformāciju skatiet sadaļā [Pieejamība](#availability) iepriekš šajā tēmā. Nākotnē atbalsts tiks paplašināts.
+    > Pašlaik tiek atbalstīts ierobežots tiešo iesniegumu skaits. Papildinformāciju skatiet sadaļā [Pakalpojuma pieejamība](#availability) iepriekš šajā tēmā. Nākotnē atbalsts tiks paplašināts.
 
 - Atbilžu apstrāde no tīmekļa pakalpojumiem, ieskaitot konfigurējamu izņēmuma ziņojumu apstrādi
 - Elektronisko parakstu atbalsts (piemēram, izmantojot XMLDSig parakstīšanas algoritmu)
@@ -104,15 +103,9 @@ Sekojošajā attēlā ir parādīts, kā dati plūst no elektronisko rēķinu iz
 ![Elektronisko rēķinu izrakstīšanas pievienojumprogrammas datu plūsma](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Iespējojot un izmantojot elektronisko rēķinu izrakstīšanu, var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestādes, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktos formātos, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumiem. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
+Iespējojot un izmantojot elektronisko rēķinu izrakstīšanas pievienojumprogrammu, var būt nepieciešams nosūtīt ierobežotus datus, kas ietver organizācijas nodokļa reģistrācijas ID. Tas tiks nosūtīts trešo personu aģentūrām, ko pilnvarojusi nodokļu iestādes, lai nosūtītu elektroniskos rēķinus šai nodokļu iestādei iepriekš noteiktos formātos, kas nepieciešams integrācijai ar valdības tīmekļa pakalpojumiem. No šīm ārējām sistēmām importētie dati šajā Dynamics 365 tiešsaistes pakalpojumā ir pakļauti mūsu [paziņojumam par privātumu](https://go.microsoft.com/fwlink/?LinkId=512132). Lai iegūtu plašāku informāciju, skatiet sadaļas Konfidencialitātes paziņojums valstij raksturīgā līdzekļa dokumentācijā.
 
 ## <a name="additional-resources"></a>Papildu resursi
-
-- [Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md)
-- [Sākt ar elektronisko rēķinu pievienojumu Brazīlijai](e-invoicing-bra-get-started.md)
-- [Sākt ar elektronisko rēķinu pievienojumu Meksikai](e-invoicing-mex-get-started.md)
-- [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai](e-invoicing-ita-get-started.md)
-- [Elektronisko rēķinu izrakstīšanas pievienojumprogrammas iestatīšana](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Pakalpojuma administrēšana](e-invoicing-service-administration.md)
+- [Konfigurēt elektroniskos rēķinus pakalpojumā RCS](e-invoicing-configuration-rcs.md)
+- [Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

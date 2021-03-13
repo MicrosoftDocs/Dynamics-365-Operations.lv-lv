@@ -1,6 +1,6 @@
 ---
 title: ER Izveidotā formāta komponentus kartēt uz datu modeļa elementiem (2016. novembris)
-description: Nākamajā procedūrā ir parādīts, kā lietotājs ar lomu Sistēmas administrators vai lomu Elektroniskā pārskata izstrādātājs datu modeļa elementus var kartēt uz izveidotās elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas komponentiem, kas nosaka elektroniskā dokumenta formātu maksājumu biznesa jomai.
+description: Šajā tēmā ir aprakstīts, kā kartēt datu modeļa elementus uz izveidotās elektronisko pārskatu (ER) konfigurācijas komponentiem.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 043c66cf3345678aa7750ef50323700384579299
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684335"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093777"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Izveidotā formāta komponentus kartēt uz datu modeļa elementiem (2016. novembris)
 
@@ -113,6 +113,3 @@ Katru formāta versiju var konfigurēt, kā pieejamu lietošanai, sākot ar note
 1. Izvērsiet sadaļu ISO valsts/reģiona kodi.
     * Piekļuvi katram formātam var ierobežot, identificējot konkrētas valstis/reģionus, kuros formāts tiek piemērots. Ja attiecīgā formāta valstu/reģionu saraksts ir tukšs, tad šo formātu var lietot jebkurā uzņēmumā. Ja valstu/reģionu sarakstā ir iekļauti kādi ISO valsts/reģiona kodi, tad šo formātu uzņēmumos var lietot tikai tad, ja uzņēmuma primārā adrese atrodas attiecīgajā valstī/reģionā.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

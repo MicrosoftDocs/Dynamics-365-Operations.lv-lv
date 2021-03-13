@@ -3,7 +3,7 @@ title: Režģa iespējas
 description: Šajā tēmā ir aprakstīti vairāki ietekmīgi režģa kontroles līdzekļi. Lai piekļūtu šīm iespējām, ir jābūt iespējotam jaunajam režģa līdzeklim.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693778"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104313"
 ---
 # <a name="grid-capabilities"></a>Režģa iespējas
 
@@ -33,7 +33,7 @@ Jaunā režģa kontrole piedāvā daudzas noderīgas un jaudīgas iespējas, ko 
 -  Rakstīšana pirms sistēmas
 -  Matemātisko izteiksmju novērtēšana 
 -  Tabulas datu grupēšana (iespējota atsevišķi, izmantojot **(Priekšskatījums) Grupēšana režģos** līdzekli)
--  Piespraustās sistēmas kolonnas
+-  Iesaldēšanas kolonnas
 
 ## <a name="calculating-totals"></a>Aprēķina kopsummu
 Programmatūrā Finance and Operations lietotājiem ir iespēja redzēt kopsummas režģos ciparu kolonnu lejasdaļā. Šīs kopsummas tiek rādītas kājenes sadaļā režģa apakšdaļā. 
@@ -45,10 +45,10 @@ Katra Finance and Operations programmas tabulārā režģa apakšējā daļā ir
 - Kopsummas, kas atrodas konfigurēto skaitlisko kolonnu lejasdaļā
 - Datu kopā ietverto rindu skaits 
 
-Šī kājene pēc noklusējuma ir paslēpta, bet to var viegli ieslēgt. Lai parādītu režģa kājeni, noklikšķiniet ar peles labo pogu režģī uz kolonnas galvenes un atlasiet opciju **Rādīt kājeni**. Pēc tam, kad kājene ir ieslēgta noteiktam režģim, šis iestatījums tiks saglabāts, kamēr lietotājs izvēlas slēpt kājeni, ko var izdarīt, ar peles labo pogu noklikšķinot uz kolonnas galvenes un atlasot **Paslēpt kājeni**.  Ievērojiet, ka turpmākā atjauninājumā plānots pārvietot darbības **Rādīt kājeni/paslēpt kājeni** novietojumu. 
+Šī kājene pēc noklusējuma ir paslēpta, bet to var viegli ieslēgt. Lai parādītu režģa kājeni, noklikšķiniet ar peles labo pogu režģī uz kolonnas galvenes un atlasiet opciju **Rādīt kājeni**. Pēc tam, kad būsiet ieslēdzis kājeni noteiktam režģim, šis iestatījums atgādinās par sevi, līdz lietotājs izvēlēsies slēpt kājeni. Lai slēptu kājeni, ar peles labo pogu noklikšķiniet uz kolonnas galvenes un atlasiet **Slēpt kājeni**.  (Turpmākā atjauninājumā plānots pārvietot darbības **Rādīt kājeni/paslēpt kājeni** novietojumu.) 
 
 ### <a name="specifying-columns-with-totals"></a>Kolonnu ar kopsummām norādīšana
-Pašlaik kolonnas netiks konfigurētas kopsummu rādīšanai pēc noklusējuma. Tā tiek uzskatīta par vienreizējas iestatīšanas darbību, kas ir līdzīga kolonnu platumu pielāgošanai režģos. Kad esat norādījis, ka vēlaties redzēt kolonnas kopsummas, šis iestatījums tiek saglabāts nākamajai reizei, kad apmeklēsiet lapu.  
+Pašlaik neviena kolonna pēc noklusējuma nerāda kopsummas. Tā tiek uzskatīta par vienreizējas iestatīšanas darbību, kas ir līdzīga kolonnu platumu pielāgošanai režģos. Kad esat norādījis, ka vēlaties redzēt kolonnas kopsummas, šis iestatījums tiek saglabāts nākamajai reizei, kad apmeklēsiet lapu.  
 
 Ir divi veidi, kā konfigurēt kolonnu, lai parādītu kopsummu. 
 
@@ -122,8 +122,14 @@ Tāpat kā visas režģa rindas var atlasīt (vai noņemt atlasi), atzīmējot i
 ### <a name="hiding-column-names"></a>Kolonnu nosaukumu paslēpšana
 Grupējot datus, noklusējuma darbība ir parādīt kolonnas nosaukumu grupas galvenes rindā. Sākot ar versiju 10.0.14/Platformas atjauninājums 38, varat izvēlēties neiekļaut kolonnas nosaukumu grupu galvenes rindās, atlasot **Režģa opcijas** > **Paslēpt grupas kolonnas nosaukumu**.
 
-## <a name="pinned-system-columns"></a>Piespraustās sistēmas kolonnas
-Rindas atlases kolonna un rindas statusa kolonna jaunajā režģī ir piesprausta vai sasaldēta režģa kreisajā malā. Tādējādi, kad šīs kolonnas ir iekļautas režģī, tās vienmēr būs redzamas lietotājam neatkarīgi no horizontālās ritināšanas pozīcijas režģī.   
+## <a name="freezing-columns"></a>Iesaldēšanas kolonnas
+Dažas kolonnas režģī var būt pietiekoši nozīmīgas kontekstam, ko nevēlaties ritināt ārpus skata. Tā vietā vēlaties, lai vērtības šajās kolonnās vienmēr būtu redzamas. Versijā 10.0.17 funkcija **Iesaldēt kolonnas režģa elementus** nodrošina lietotājiem šādu elastīgumu. 
+
+Lai kolonnu iesaldētu, ar peles labo pogu noklikšķiniet kolonnas virsrakstā un pēc tam atlasiet **Iesaldēt kolonnu**. Pirmo reizi pabeidzot šo soli, atlasītā kolonna kļūst par pirmo kolonnu un vairs neritinās skatu. Visas sekojošās kolonnas, kas sasaldētas, tiks pievienotas pēdējās iesaldētās kolonnas labajā pusē. Lai pārkārtotu iesaldētās kolonnas pēc nepieciešamības, varat izmantot standarta funkcionalitāti Pārvietot. Tomēr iesaldētās kolonnas nevar pārvietot, lai tās parādītos starp atsaldēto kolonnu kopu. Tomēr iesaldētās kolonnas nevar pārvietot, lai tās parādītos starp atsaldēto kolonnu kopu.
+
+Lai kolonnu atsaldētu, ar peles labo pogu noklikšķiniet kolonnas virsrakstā un pēc tam atlasiet **Atsaldēt kolonnu**. 
+
+Ievērojiet, ka rindu atlase un rindu statusa kolonnas jaunajā režģī vienmēr tiek iesaldētas kā pirmās divas kolonnas. Tādējādi, kad šīs kolonnas ir iekļautas režģī, tās vienmēr būs redzamas lietotājam neatkarīgi no horizontālās ritināšanas pozīcijas režģī. Šīs divas kolonnas nevar pārkārtot.
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kā iespējot jauno režģa kontroli manā vidē? 
@@ -159,7 +165,7 @@ Ja jūsu organizācija atklāj lapu, kurā ir dažas problēmas, izmantojot jaun
 Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz **SizeToAvailable**, šīm kolonnām sākotnēji ir tāds pats platums, kāds tām būtu, ja rekvizīts būtu iestatīts uz **SizeToContent**. Tomēr tās izplešas, lai izmantotu jebkādu pieejamo papildu platumu režģī. Ja vairākām kolonnām rekvizīts ir iestatīts uz **SizeToAvailable**, visas šīs kolonnas koplieto jebkādu pieejamo papildu platumu režģī. Tomēr, ja lietotājs manuāli maina lielumu vienai no šīm kolonnām, tad kolonna kļūst statiska. Tās paliks šajā platumā un vairs neaizņems pieejamo papildu režģa platumu.  
 
 ## <a name="known-issues"></a>Zināmās problēmas
-Šajā sadaļā ir saglabāts saraksts ar zināmajām problēmām jaunajai režģa kontrolei, kamēr līdzeklis atrodas priekšskatījuma stāvoklī.  
+Šajā sadaļā tiek uzturēts saraksts ar zināmām problēmām jaunajai režģa kontrolei.  
 
 ### <a name="open-issues"></a>Aktuālās problēmas
 -  Pēc **Jaunā režģa kontroles** līdzekļa iespējošanas dažas lapas turpinās izmantot esošo režģa kontroli. Tas notiks šādās situācijās:  
@@ -170,20 +176,44 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
     Kad lietotājs pirmo reizi sastopas ar vienu no šīm situācijām, tiks parādīts ziņojums par lapas atsvaidzināšanu. Kad parādās šis ziņojums, lapa turpinās izmantot esošo režģi visiem lietotājiem līdz nākamās preces versijas atjaunināšanai. Šo scenāriju labākai apstrādei, lai varētu izmantot jauno režģi, tiks apsvērta turpmāka atjaunināšana.    
     
 -  [KB 4582758] Ieraksti ir izplūduši, mainot tālummaiņu no 100 uz jebkuru citu procentuālo vērtību
-    
+-  [KB 4592012] Radusies neparedzēta klienta kļūda IE11, ielīmējot vairākas rindas no Excel
+    -  Microsoft neatbalsta labojumu šai problēmai
+
+### <a name="fixed-as-part-of-10016"></a>Fiksēta kā daļa no 10.0.16
+
+-  [KB 4598335] Vairākrindu virknes vadīklas neattiecas uz to DisplayHecaurudēm sarakstos/kartēs 
+-  [KB 4591891] Rēķina priekšlikuma rindas pazūd, noņemiet atzīmi no rindām
+-  [KB 4592104] Nevar rediģēt ierakstus, noklikšķinot uz Labot problēmu un pārvietojoties uz citu rindu, nelabojot validācijas problēmu
+-  [KB 4594449] Datu uztvērējā trūkst pogas "Nekad" un "Notīrīt" 
+-  [KB 4594448] Laika ievadīšana jaunajam režģim tiek apstrādāta citādi
+-  [KB 4600059] Negaidīta klienta kļūda, izmantojot e-pasta ziņojumu
+-  [KB 4574584] Izdevumu pielikuma priekšskatījums nav pieejams, norādot uz kvīts ikonu
+
 ### <a name="fixed-as-part-of-10015"></a>Fiksēta kā daļa no 10.0.15    
 
+-  (Kvalitātes atjauninājums) [KB 4594444] Neprognozēta klienta kļūda ar priekšskatījumu segmentētai ieraksta vadīklai
 -  [KB 4582723] Displeja opcijas netiek rādītas, kad tās veiktas vēlāk formas dzīves ciklā
+-  [KB 4591988] Problēmas, izmantojot tastatūru, lai atlasītu vērtību no ReferenceGroup uzmeklēšanas
+-  [KB 4588958] Regression Suite Automation Tool (RSAT) tests neizdodas ar kļūdu: TypeError: nevar lasīt nedefinēta rekvizīta "tekstu"
+-  [KB 4591970] Tūlīt pēc noklikšķināšanas uz režģa tika veikta neparedzēta klienta kļūda, veicot ielīmēto no Excel
+-  [KB 4591904] Datu izmaiņas netiek saglabātas, ja pēc kontroles rediģēšanas lietotājs nekavējoties noklikšķinājis un atvēra citas kontroles uzmeklēšanu
+-  [KB 4584752] Neparedzēta klienta kļūda ar projekta rēķinu priekšlikumu lapu
+-  [KB 4584540] Nevar atstāt režģi pēc vienas rindas ielīmētas žurnāla rindā
+-  [KB 4591908] Veidojot jaunu rindu, jūs paliksiet kolonnā, kurā bijāt
 
 ### <a name="fixed-as-part-of-10014"></a>Fiksēta kā daļa no 10.0.14
 
 -  (Kvalitātes atjauninājums) [KB 4584752] Neparedzēta klienta kļūda ar projekta rēķinu priekšlikumu lapu
+-  [KB 4583880] Regression Suite Automation Tool (RSAT) testi neizdodas OpenLookup darbībā ar “Nevar nolasīt nedefinēta elementa rekvizītu RowIndex”
+-  [KB 4583847] Neparedzēta klienta kļūda, pārvietojoties uzmeklēšanā
 
 ### <a name="fixed-as-part-of-10013"></a>Fiksēta kā daļa no 10.0.13
 
+-  (Kvalitātes atjauninājums) [KB 4584752] Neparedzēta klienta kļūda ar projekta rēķinu priekšlikumu lapu
 -  (Kvalitātes atjauninājums) [KB 4583880] Regression Suite Automation Tool (RSAT) testi neizdodas OpenLookup darbībā ar “Nevar nolasīt nedefinēta elementa rekvizītu RowIndex”
 -  (Kvalitātes atjauninājums) [KB 4583847] Neparedzēta klienta kļūda, pārvietojoties uzmeklēšanā 
 -  (Kvalitātes atjauninājums) [Kļūda 471777] Nevar atlasīt laukus režģī, lai rediģētu vai izveidotu mobilo lietotni
+-  [KB 4582727] Režģis iesaldēts pēc tam, kad lietotājs saņem dialogu krājumiem ar vairākiem daudzumiem
 -  [Defekts 474851] Hipersaites atsauces grupas vadīklās nedarbojas 
 -  [Defekts 474848] Uzlabotie priekšskatījumi ar režģiem netiek rādīti
 -  [KB 4582726] Rekvizīts RotateSign netiek ievērots  
@@ -263,6 +293,3 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
 ### <a name="quality-update-for-1009platform-update-33"></a>Kvalitātes atjauninājums 10.0.9./ Platformas atjauninājums 33
 
 - [KB 4550367] Laika vērtības nav pareizi formatētas.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

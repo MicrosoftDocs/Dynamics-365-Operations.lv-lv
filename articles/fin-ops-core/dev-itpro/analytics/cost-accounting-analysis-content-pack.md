@@ -1,6 +1,6 @@
 ---
-title: Power BI satura pakotne Izmaksu uzskaites analīze
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu uzskaites analīze. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+title: Power BI satura pakotnes Izmaksu uzskaites analīze
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Izmaksu uzskaites analīze.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683875"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093390"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotne Izmaksu uzskaites analīze
+# <a name="cost-accounting-analysis-power-bi-content"></a>Power BI satura pakotnes Izmaksu uzskaites analīze
 
 [!include [banner](../includes/banner.md)]
 
@@ -123,6 +123,3 @@ Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopoš
 | Finanšu kalendāri                   | Kalendārs, Kalendāra apraksts                                                                                       |
 | Finanšu gadi                       | Kalendārais gads                                                                                                        |
 | Finanšu periodi                     | Kalendārā gada periods                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

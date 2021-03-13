@@ -1,6 +1,6 @@
 ---
 title: Kolonnu definīcijas finanšu pārskatos
-description: Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā. Tāpat kā rindas definīcijas pamata kolonnu definīcijas var izmantot vairākos pārskatos.
+description: Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687234"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093113"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
@@ -226,17 +226,16 @@ Lietotājs veido pārskatu ar sešu mēnešu dinamisko prognozi. Lietotājs vēl
 | Kolonnas platums        | 30   | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            | 10.            |
 | Drukas vadība       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Lietotājs veic dubultklikšķi uz kolonnas galvenes šūnas, lai atvērtu dialoglodziņu **Kolonnas galvene** un ievada tālāk norādīto informāciju.
+Tad lietotājs veic dubultklikšķi uz kolonnas galvenes šūnas kolonnā C, lai atvērtu dialoglodziņu **Kolonnas galvene** un ievada tālāk norādīto informāciju.
 
 | Lauks              | Vērtība                 |
 |--------------------|-----------------------|
 | Kolonnas galvenes teksts | Faktiskais                |
 | Ievietot automātisko tekstu    | Netiek veikta atlase. |
 | Formatēšanas opcijas     | Rūtiņa                   |
-| Pamatojums      | Netiek veikta atlase. |
+| Līdzināšana      | Netiek veikta atlase. |
 | Sadalīt no        | mljrd.                     |
 | Sadalīt līdz          | PAMATA                  |
-| Budžeta galvene      | BASE+1 līdz beigu kolonnai  |
 
 Pēc informācijas ievadīšanas lietotājs noklikšķina uz **Labi**. Tad lietotājs veic dubultklikšķi uz kolonnas galvenes šūnas kolonnā C, lai atvērtu dialoglodziņu **Kolonnas galvene** un ievada tālāk norādīto informāciju.
 
@@ -245,9 +244,9 @@ Pēc informācijas ievadīšanas lietotājs noklikšķina uz **Labi**. Tad lieto
 | Kolonnas galvenes teksts | Budžets                |
 | Ievietot automātisko tekstu    | Netiek veikta atlase. |
 | Formatēšanas opcijas     | Rūtiņa                   |
-| Pamatojums      | Netiek veikta atlase. |
-| Sadalīt no        | C                     |
-| Sadalīt līdz          | PAMATA+2                |
+| Līdzināšana      | Netiek veikta atlase. |
+| Sadalīt no        | BASE+1                |
+| Sadalīt līdz          | P                     |
 
 Tagad katru reizi, kad tiks izveidots šis pārskats, pāri kolonnām ar faktiskiem datiem būtu drukāts vārds Faktiski dati, bet pāri kolonnām ar budžeta prognozēm — vārds Budžets. Turklāt katru mēnesi tiks koriģets kolonnu skaits.
 
@@ -599,6 +598,3 @@ Kolonnas summu var dalīt ar noteiktu periodu skaitu. Piemēram, formula **B/per
 [Rindas definīcijas finanšu atskaišu veidotājā](row-definitions-financial-reporting.md)
 
 [Papildu formatēšanas opcijas finanšu pārskatos](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ER galamērķa ekrāna tips
-description: Šajā tēmā ir sniegta informācija par to, kā konfigurēt galamērķi ekrānu katram mapes vai faila komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.
+description: Šajā tēmā sniegta informācija par to, kā konfigurēt ekrāna mērķi katrai MAPEI vai FAILA komponentam elektronisko pārskatu (ER) formātā.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c687a435f50b54fd7bdf5b4802f4c07abd0f0e3e
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679538"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094058"
 ---
 # <a name="screen-destination"></a>Ekrāna galamērķis
 
@@ -38,6 +38,3 @@ Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priek�
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

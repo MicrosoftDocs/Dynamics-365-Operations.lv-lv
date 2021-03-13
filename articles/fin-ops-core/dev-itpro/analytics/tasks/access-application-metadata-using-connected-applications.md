@@ -1,6 +1,6 @@
 ---
 title: Piekļuve programmas metadatiem, izmantojot saistītās programmas
-description: Šajā tēmā izklāstītās darbības skaidro, ka Regulējošā konfigurēšanas pakalpojuma (RCS) lietotājs var izveidot jaunu elektroniskā pārskata (ER) kartēšanu, izmantojot metadatus programmā Finance and Operations.
+description: Šajā tēmā tiek skaidrots, kā Regulatory configuration service (RCS) lietotājs var izveidot jaunu Elektroniskā pārskata (ER) kartēšanu, izmantojot metadatus.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682145"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093334"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Piekļuve programmas metadatiem, izmantojot saistītās programmas
 
@@ -113,6 +113,3 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 11. Aizvērt lapu. 
 
 Ja ir jānovērtē šī modeļa kartēšana, izmantojot citas versijas programmas metadatus, reģistrējiet citu savienoto programmu, piešķiriet to šai modeļa kartēšanai un validējiet to ar jauniem metadatiem.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

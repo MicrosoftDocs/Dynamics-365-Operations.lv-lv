@@ -1,6 +1,6 @@
 ---
-title: Lietotāja preferences finanšu atskaišu veidotājā
-description: Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi. Varat arī kontrolēt, kā tiek rādītas atsevišķas atskaites, atskaišu bibliotēka un failu noklusējuma atrašanās vietas.
+title: Lietotāja preferences finanšu pārskatu noformētājā
+description: Šajā rakstā ir paskaidrots, kā iestatīt lietotāja preferences, lai pielāgotu jūsu lietotāju mijiedarbības finanšu atskaišu veidotājā un kontrolētu sākotnējo pierakstīšanās pieredzi.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687381"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093191"
 ---
-# <a name="user-preferences-in-financial-report-designer"></a>Lietotāja preferences finanšu atskaišu veidotājā
+# <a name="user-preferences-in-financial-report-designer"></a>Lietotāja preferences finanšu pārskatu noformētājā
 
 [!include [banner](../includes/banner.md)]
 
@@ -72,6 +72,3 @@ ms.locfileid: "4687381"
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4445767"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104233"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Izveidot Azure krātuves kontu un galveno akreditācijas datu glabātavu
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Elektronisko rēķinu izrakstīšanas pievienojumprogramma uzņemas atbildību par visu jūsu uzņēmuma datu glabāšanu Microsoft Azure resursos, kas pieder jūsu uzņēmumam. Lai nodrošinātu, ka pakalpojums darbojas pareizi un ka visiem biznesa datiem, kas ir nepieciešami un ko ģenerē Elektronisko rēķinu izrakstīšanas pievienojumprogramma, ir piekļuve tikai pievienojumprogrammai, ir jāizveido divi galvenie Azure resursi:
-
-- Azure krātuves konts (BLOB krātuve) elektronisko rēķinu glabāšanai
-- Azure atslēgu glabātuve, kur glabāt sertifikātus un krātuves konta vienoto resursu identifikatoru (Uniform Resource Identifier - URI)
-
-> [!NOTE]
-> Īpašam galvenās akreditācijas datu glabātavas resursam un debitora BLOB krātuvei ir jābūt piešķirtai tieši lietošanai ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -91,6 +80,3 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 9. Dialoglodziņā **Galvēnais** atlasiet galvēno, pievienojot **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
 10. Atlasiet **Pievienot** un pēc tam atlasiet **Saglabāt Key Vault izmaiņas**.
 11. Lapā **Pārskats** nokopējiet vērtību **DNS nosaukums** galvenajai akreditācijas datu glabātavai. Šī vērtība tiks izmantota pakalpojuma iestatīšanas laikā ar RCS un tiks saukta par *galveno galvenajās akreditācijas datu glabātavas URI*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

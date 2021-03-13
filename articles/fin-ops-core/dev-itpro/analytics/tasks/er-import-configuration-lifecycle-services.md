@@ -1,6 +1,6 @@
 ---
 title: Importēt konfigurāciju no Lifecycle Services
-description: Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācijas versiju no Microsoft Dynamics Lifecycle Services (LCS).
+description: Šajā tēmā ir aprakstīts, kā no Microsoft Dynamics Lifecycle Services (LCS) importēt jaunu elektronisko pārskatu (ER) konfigurācijas versiju.
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684455"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093699"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importēt konfigurāciju no Lifecycle Services
 
@@ -103,6 +103,3 @@ ms.locfileid: "4684455"
     Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**.
 
     Ievērojiet, ka tagad atlasītajai datu modeļa konfigurācijai ir pieejama arī koplietotā 1. versija.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

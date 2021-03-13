@@ -1,6 +1,6 @@
 ---
 title: E-pasta ziņojuma ER adresāta tips
-description: Šajā tēmā ir paskaidrots, kā konfigurēt e-pasta ziņojuma galamērķi katram MAPES vai FAILA komponentam elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.
+description: Šajā tēmā sniegta informācija par to, kā konfigurēt arhīva mērķi katrai MAPEI vai FAILA komponentam elektronisko pārskatu (ER) formātā.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690130"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094108"
 ---
 # <a name="email-er-destination-type"></a>E-pasta ziņojuma ER adresāta tips
 
@@ -65,8 +65,6 @@ Ja atlasāt **Drukāt pārvaldības e-pasta ziņojumu** kā e-pasta adreses tipu
 - Laukā **E-pasta avots** atlasiet **Nav**.
 - Laukā **Papildu e-pasta adreses, kas atdalītas ar “;”** ievadiet fiksētās e-pasta adreses.
 
-![Fiksēto e-pasta adrešu konfigurēšana](./media/er_destinations-emailfixedaddress.png)
-
 Varat arī saņemt e-pasta adreses no tās puses kontaktinformācijas, kurai ģenerējat izejošo dokumentu. Lai lietotu e-pasta adreses, kas nav fiksētas, laukā **E-pasta avots** atlasiet puses [lomu](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) faila galamērķim. Tālāk ir norādīti atbalstītās lomas.
 
 - Debitors
@@ -92,8 +90,6 @@ Lapas **Formulas veidotājs** laukā **Formula** ievadiet dokumentam specifisku 
 
 Ja konfigurētās lomas kontu numuri ir unikāli visai Microsoft Dynamics 365 Finance instancei, dialoglodziņa **E-pasta ziņojuma adresāts** lauks **E-pasta ziņojuma avota uzņēmums** var palikt tukšs.
 
-![Tukšs lauks E-pasta avota uzņēmums](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Vai arī var būt situācija, kad dažādas puses [globālajā adrešu grāmatā](../../fin-ops/organization-administration/overview-global-address-book.md) ir reģistrētas dažādos uzņēmumos ([juridiskas personas](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) tādā veidā, ka tās visas izmanto vienu konta numuru, lai aizpildītu konfigurēto lomu. Šādā gadījumā konfigurētās lomas kontu numuri nav unikāli visai finanšu instancei. Tāpēc, lai skaidri atlasītu pusi, nevar norādīt tikai konta numuru. Jānorāda arī uzņēmums, kam puse reģistrēta, lai aizpildītu konfigurēto lomu. Atlasiet pogu **Saistīt** (ķēdes simbols) blakus dialoglodziņa **E-pasta adresāts** laukam **E-pasta avota uzņēmums**, lai atvērtu lapu [Formulas veidotājs](general-electronic-reporting-formula-designer.md). Pēc tam varat izmantot šo lapu, lai konfigurētu formulu, kas izpildlaikā atgriež tā uzņēmuma kodu, kas ir atrodams vēlamajā avotā.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Lai norādītu, kāda tipa e-pasta adreses jāizmanto izpildlaikā, dialoglodzi�
 
 > [!NOTE]
 > Ja nolūki ir atlasīti laukā **Nolūks** un opcija **Primārā kontaktpersona** ir iestatīta uz **Jā** vienlaikus, katrs e-pastu ziņojums, kas atbilst vismaz vienam konfigurētajam kritērijam, tiks izmantots izpildlaikā.
-
-![E-pasta avota atribūtu konta konfigurēšana](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Konfigurācijas e-pasta ziņojums
 
@@ -145,6 +139,3 @@ Tālāk atrodamajā attēlā parādīts process (kā aprakstīts šajā tēmā) 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 - [Formulas veidotājs elektronisko pārskatu veidošanā (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
