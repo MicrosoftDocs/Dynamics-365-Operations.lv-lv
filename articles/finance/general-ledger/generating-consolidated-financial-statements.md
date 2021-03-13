@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445641"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044025"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 
@@ -67,14 +66,14 @@ Tālāk redzamajā piemērā parādīta kolonnas definīcija līdzāsparādīša
 ![Kolonnas definīcija līdzāsparādīšanas formātā](./media/column-definition-side-by-side-format.png "Kolonnas definīcija līdzāsparādīšanas formātā")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Konsolidācijas, kas izmanto organizācijas struktūras, kas izveidotas no juridiskām personām
-Organizācijas hierarhijas, kas satur dimensijas vai juridiskas personas, dinamiski izveido pārskatu koka definīcijas programmā Finanšu pārskatu sniegšana. Ērts konsolidāciju racionalizēšanas veids ir organizācijas hierarhijas pievienošana pārskatam programmā Finanšu pārskatu sniegšana. Pamatojoties uz pārskata datumu, programma Finanšu pārskatu sniegšana atlasīs organizācijas hierarhiju aktīvajā datumā vai pirms tā, kā parādīts tālāk redzamajā ilustrācijā.
+Organizācijas hierarhijas, kas satur dimensijas vai juridiskas personas, dinamiski izveido pārskatu koka definīcijas programmā Finanšu pārskatu sniegšana. Ērts konsolidāciju racionalizēšanas veids ir organizācijas hierarhijas pievienošana pārskatam programmā Finanšu pārskatu sniegšana. Pamatojoties uz pārskata datumu, programma Financial Reporting atlasīs organizācijas hierarhiju aktīvajā datumā vai pirms tā, kā parādīts tālāk redzamajā ilustrācijā.
 
-![ Dinamiski izveidot pārskata koka definīciju](./media/dynamically-create-reporting-tree-definitions.png " Dinamiski izveidot pārskata koka definīciju")
+![Dinamiski izveidot pārskata koka definīciju](./media/dynamically-create-reporting-tree-definitions.png "Dinamiski izveidot pārskata koka definīciju")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Konsolidācijas, kas ietver eliminācijas
 Eliminācijas transakcijas ir konsolidācijas procesa parasta daļa. Šajā piemērā pieci konti tiek eliminēti konsolidācijas laikā: 142600, 211400, 401420, 401180 un 510820. Uzņēmumi var iestatīt starpuzņēmumu kontus atšķirīgi. Piemēram, dažos uzņēmumos konta pēdējais cipars tiek iestatīts kā 9, ja konts tiek izmantots starpuzņēmumu transakcijās. Neatkarīgi no metodes, ja zināt starpuzņēmumu kontus, varat parādīt eliminācijas konsolidētajos finanšu pārskatos.
 
-Tālāk redzamajā ilustrācijā ir parādīta kolonnas definīcija konsolidētajam ieņēmumu paziņojumam. Katram uzņēmumam, izmantojot dimensiju filtru, ir definēti trīs peļņas un zaudējumu starpuzņēmumu konti. D kolonna ietver eliminācijas kontus tikai USMF uzņēmumam, un E kolonna ietver eliminācijas tikai DEMF uzņēmumam. Gan D kolonna, gan E kolonna ir iestatītas tā, ka tās **netiek** drukātas finanšu pārskatā.
+Tālāk redzamajā ilustrācijā ir parādīta kolonnas definīcija konsolidētajam ieņēmumu paziņojumam. Katram uzņēmumam, izmantojot dimensiju filtru, ir definēti trīs peļņas un zaudējumu starpuzņēmumu konti. F, G un H kolonnās ir iekļauti tikai USMF, USRT un DEMF uzņēmumu eliminācijas konti. Šīs kolonnas ir iestatītas tā, ka tās **netiek** drukātas finanšu pārskatā.
 
 ![Kolonnas definīcijas konsolidētais peļņas un zaudējumu pārskats](./media/column-definition-consolidated-income-statement.png "Kolonnas definīcijas konsolidētais peļņas un zaudējumu pārskats")
 
@@ -140,7 +139,7 @@ Dažādām juridiskajām personām var būt dažādi finanšu kalendāri, taču 
 - Izveidojiet kolonnas definīciju un lietojiet periodu un gadu, lai kartētu atbilstošos periodus katram uzņēmumam.
 - Sadaļā **Iestatījumi** \> **Citi** \> **Papildu opcijas** atlasiet, vai konsolidēt, izmantojot perioda beigu datumu vai perioda numuru.
 
-Veidojot kolonnas definīciju vairākiem uzņēmumiem ar atšķirīgiem finanšu periodiem, ir svarīgi apsvērt, kurš uzņēmums tiks piešķirts laukam **Uzņēmuma nosaukums** pārskata definīcijā. Šī uzņēmuma finanšu kalendārs tiks lietots kā pamata finanšu kalendārs pārskata definīcijai. Piemēram, tālāk redzamajā tabulā ir parādīts finanšu perioda iestatījums USMF un INMF uzņēmumiem. Konsolidētajiem pārskatiem lietojiet USMF izmatoto finanšu kalendāru. "Kartēšanas" kolonnā tiek rādīts līdzvērtīgais periods un gads katram uzņēmumam, ja pārskats tiek veidots uz 2018. gada 30. jūniju.
+Veidojot kolonnas definīciju vairākiem uzņēmumiem ar atšķirīgiem finanšu periodiem, ir svarīgi apsvērt, kurš uzņēmums tiks piešķirts laukam **Uzņēmuma nosaukums** pārskata definīcijā. Šī uzņēmuma finanšu kalendārs tiks lietots kā pamata finanšu kalendārs pārskata definīcijai. Piemēram, tālāk redzamajā tabulā ir parādīts finanšu periods, kas tika iestatīts USMF un INMF uzņēmumiem. Konsolidētajiem pārskatiem lietojiet USMF izmatoto finanšu kalendāru. "Kartēšanas" kolonnā tiek rādīts līdzvērtīgais periods un gads katram uzņēmumam, ja pārskats tiek veidots uz 2018. gada 30. jūniju.
 
 | Uzņēmums   | Finanšu gads                                  | Kartēšana                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -224,6 +223,3 @@ Lai iegūtu pareizi pārrēķinātas summas, kad tiek izmantotas valūtas, finan
 Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
 
 Lai iegūtu plašāku informāciju par to, kā ievadīt konsolidācijas tiešsaistē datus, skatiet sadaļu [Finanšu konsolidēšana tiešsaistē](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

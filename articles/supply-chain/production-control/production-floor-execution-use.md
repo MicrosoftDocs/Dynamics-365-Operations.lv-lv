@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4433088"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077635"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -41,11 +40,11 @@ Kad ierīce ir sagatavota, tajā tiek parādīta pierakstīšanās lapa. Šī la
 
 ## <a name="all-jobs-tab"></a>Cilne Visi darbi
 
-Cilnē **Visi darbi** ir pieejams darbu saraksts, kurā redzami visi ražošanas darbi, kuru statuss ir *Nesākts*, *Apturēts* vai *Sākts*.
+Cilnē **Visi darbi** ir pieejams darbu saraksts, kurā redzami visi ražošanas darbi, kuru statuss ir *Nesākts*, *Apturēts* vai *Sākts*. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
 
 ![Cilne Visi darbi](media/pfei-all-jobs-tab.png "Cilne Visi darbi")
 
-Darbu sarakstā ir tālāk minētās kolonnas. (Numuri atbilst iepriekšējā attēlā redzamajiem numuriem.)
+Darbu sarakstā ir tālāk minētās kolonnas. Numuri atbilst iepriekšējā attēlā redzamajiem numuriem.
 
 1. **Atlases kolonna** — kolonna, kas atrodas vistālāk pa kreisi, izmanto atzīmes, lai norādītu darbinieka atlasītos darbus. Darbinieki sarakstā var vienlaicīgi atlasīt vairākus darbus. Lai sarakstā atlasītu visus darbus, atzīmējiet izvēles rūtiņu kolonnas galvenē. Kad ir atlasīts viens darbs, detalizēta informācija par šo darbu tiek rādīta lapas apakšējā daļā.
 1. **Darba statusa kolonna** — šajā kolonnā tiek izmantoti simboli, lai norādītu katra darba statusu. Darbu, kuriem nav simbola šajā kolonnā, statuss ir *Nav sākts*. Zaļš trijstūris norāda darbus, kuru statuss ir *Sākts*. Divas dzeltenas vertikālas līnijas norāda darbus, kuru statuss ir *Apturēts*.
@@ -60,9 +59,11 @@ Darbu sarakstā ir tālāk minētās kolonnas. (Numuri atbilst iepriekšējā at
 
 ## <a name="active-jobs-tab"></a>Cilne Aktīvie darbi
 
+Cilnēs **Aktīvie darbi** ir parādīts visu to darbu saraksts, ko jau pierakstījies darbinieks ir sācis. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
+
 ![Cilne Aktīvie darbi](media/pfei-active-jobs-tab.png "Cilne Aktīvie darbi")
 
-Darbu sarakstam cilnē **Aktīvie darbi** ir tālāk minētās kolonnas.
+Darbu sarakstā ir tālāk minētās kolonnas:
 
 - **Atlases kolonna** — kolonna, kas atrodas vistālāk pa kreisi, izmanto atzīmes, lai norādītu darbinieka atlasītos darbus. Darbinieki sarakstā var vienlaicīgi atlasīt vairākus darbus. Lai sarakstā atlasītu visus darbus, atzīmējiet izvēles rūtiņu kolonnas galvenē. Kad ir atlasīts viens darbs, detalizēta informācija par šo darbu tiek rādīta lapas apakšējā daļā.
 - **Pasūtījums** – šajā kolonnā tiek rādīts darba ražošanas pasūtījuma numurs.
@@ -72,6 +73,28 @@ Darbu sarakstam cilnē **Aktīvie darbi** ir tālāk minētās kolonnas.
 - **Pabeigts** — šajā kolonnā tiek rādīts daudzums, kas darbam jau ir pabeigts.
 - **Brāķēts** — šajā kolonnā tiek rādīts daudzums, kas darbam ir brāķēts.
 - **Atlikušais** — šajā kolonnā tiek rādīts daudzums, kas darbam vēl jāpabeidz.
+
+## <a name="my-machine-tab"></a>Cilne Mana iekārta
+
+Cilne **Mana iekārta** ļauj darbiniekiem atlasīt līdzekli, kas ir saistīts ar iekārtas resursu filtra iestatījuma cilnē **Visi darbi**. Darbinieks pēc tam var skatīt atlasītā pamatlīdzekļa stāvokli un veselības stāvokli, nolasot vērtības līdz četriem atlasītajiem skaitītājiem un neseno uzturēšanas pieprasījumu un reģistrēto dīkstāves pieprasījumu sarakstu. Darbinieks var arī pieprasīt atlasītā pamatlīdzekļa uzturēšanu un reģistrēt un rediģēt iekārtas dīkstāves laiku. (Šis cilnes nosaukums ir pielāgojams un var atšķirties jūsu sistēmai.)
+ 
+![Cilne Mana iekārta](media/pfei-my-machine-tab.png "Cilne Mana iekārta")
+
+Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā attēlā redzamajiem numuriem.
+
+1. **Iekārtas līdzeklis** - izvēlieties iekārtas līdzekli, ko vēlaties izsekot. Sāciet ierakstīt nosaukumu, lai to atlasītu no atbilstošu pamatlīdzekļu saraksta, vai atlasiet palielināmo-saskaņošanas ikonu, lai atlasītu no visu līdzekļu saraksta, kas saistīts ar resursiem, kas atrodas darbu saraksta filtrā.
+
+    > [!NOTE]
+    > Supply Chain Management lietotāji var piešķirt resursu katram pamatlīdzeklim pēc nepieciešamības, izmantojot lapu **Visi līdzekļi** (cilnē **Fiksētie pamatlīdzekļi**, izmantojot nolaižamo sarakstu **Resursi**). Papildinformāciju skatiet nodaļā [Līdzekļa izveide](../asset-management/objects/create-an-object.md).
+
+1. **Iestatījumi** – izvēlieties ātrumkārbas ikonu, lai atvērtu dialoglodziņu, kur var izvēlēties, kuru skaitītāju skatīt atlasītajam iekārtas pamatlīdzeklim. Šo skaitītāju vērtības ir parādītas **Pamatlīdzekļu pārvaldības** cilnes augšpusē. **Iestatījumu** izvēlne (parādīta ekrānuzņēmumā) ļauj aktivizēt līdz pat četriem skaitītājiem. Katram skaitītājam, kuru vēlaties iespējot, izmantojiet uzmeklēšanas lauku elementa augšā, lai atlasītu skaitītāju. Uzmeklēšanas laukā ir uzskaitīti visi skaitītāji, kas saistīti ar līdzekli, kas atlasīts **Pamatlīdzekļu pārvaldības lapas** augšpusē. Iestatiet katru skaitītāju, lai pārraudzītu skaitītāja **Apkopoto** vērtību vai pēdējo **Faktisko** vērtību. Piemēram, ja iestatāt skaitītāju, kas izseko, cik stundu dators darbojas, tad to vajadzētu iestatīt uz **Uzkrāts**. Ja iestatāt skaitītāju, lai izmērītu jaunāko atjaunināto temperatūras vai spiediens, jums tas jāiestata uz **Faktiskais**. Atlasiet **Labi**, lai iestatījumus saglabātu un aizvērtu dialoglodziņu.
+
+    ![Cilne Mana iekārta](media/pfei-my-machine-tab-settings.png "Cilne Mana iekārta")
+
+1. **Pieprasījuma uzturēšana** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur varat izveidot uzturēšanas pieprasījumu. Varat sniegt aprakstu un piezīmi. Pieprasījums tiks nosūtīts Supply Chain Management lietotājam, kurš tad varēs pārveidot uzturēšanas pieprasījumu uz uzturēšanas darba pasūtījumu.
+1. **Reģistrēt dīkstāves laiku** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur reģistrēt iekārtas dīkstāves laiku. Varat atlasīt pamatojuma kodu un ievadīt dīkstāves laika posmu. Iekārtas dīkstāves reģistrācija tiek izmantota iekārtas līdzekļa efektivitātes aprēķināšanai.
+1. **Apskatīt vai rediģēt** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur var labot vai apskatīt esošos dīkstāves ierakstus.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Ražošanas darbu sākšana un pabeigšana
 
@@ -124,7 +147,7 @@ Piemēram, Šenona, ražotnes darbiniece Contoso, vēlas apmeklēt uzņēmuma sa
 
 Abos scenārijos pēc tam, kad Šenona apstiprina savu izvēli, viņa dodas vai nu uz pierakstīšanās lapu, vai uz lapu, kas gaidīs, lai viņa apstiprinātu, ka viņa ir atgriezusies no netiešās aktivitātes. Lapa, kas tiek parādīta, ir atkarīga no ražotnes izpildes interfeisa konfigurācijas. (Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Darbs pārtraukumos
+## <a name="registering-breaks"></a>Pārtraukumu reģistrēšana
 
 Darbinieki var reģistrēt pārtraukumus. Pārtraukumus var elastīgi definēt, kā aprakstīts sadaļā [Apmaksa, pamatojoties uz reģistrācijām](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Darbinieki var atvērt dokumentu, kas ir piesaistīts darbam, atlasot **Instrukc
 1. Darbinieks strādā ar ceļvedi, lai apgūtu uzdevumu.
 
 Papildinformācijas par to, kā izveidot, piešķirt un lietot ceļvežus HoloLens, skatiet sadaļā [Jauktās realitātes ceļvežu nodrošināšana darbiniekiem ražošanā](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

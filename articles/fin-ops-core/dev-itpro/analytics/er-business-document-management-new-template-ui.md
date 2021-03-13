@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681356"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092229"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Jauns dokumentu lietotāja interfeiss biznesa dokumentu pārvaldībā
+# <a name="new-document-user-interface-in-business-document-management"></a>Jauns dokumenta lietotāja interfeiss biznesa dokumentu pārvaldībā
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ Lai ieslēgtu šo līdzekli visām juridiskajām personām, veiciet tālak norā
 Pogu **Jauns dokuments** lieto, lai izveidotu un rediģētu veidni ER formāta konfigurācijā, kas pieder citam nodrošinātājam. Šajā piemērā nodrošinātājs ir Microsoft. Atlasot **Jauns dokuments**, jūs varat rezēt visas veidnes, kas pieder pašreizējiem un citiem nodrošinātājiem. Pēc veidnes atlasīšanas tā ir atvērta rediģēšanai. Rediģētā veidne būs saglabāta jaunā ER formāta konfigurācijā, kas ģenerēta automātiski.
 
 Plašāku informāciju skatiet [Biznesa dokumentu pārvaldības apskatā](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

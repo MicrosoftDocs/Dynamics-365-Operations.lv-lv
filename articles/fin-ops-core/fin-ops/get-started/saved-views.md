@@ -3,7 +3,7 @@ title: Saglabātie skati
 description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693705"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077453"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Ievads
 
@@ -123,12 +124,14 @@ Lai publicētu skatu, veiciet šādas darbības.
 1. Izveidojiet un saglabājiet tāda skata personisku kopiju, kuru vēlaties publicēt. 
 2. Kad attiecīgais skats ir ielādēts, atlasiet skata nosaukumu, lai atvērtu skata atlasītāja nolaižamo izvēlni. 
 3. Atlasiet pogu **Vairāk** un pēc tam atlasiet **Publicēt**. Tiks atvērts dialoglodziņš Publicēt.
-4. Ievadiet skata nosaukumu un (pēc izvēles) aprakstu. Jūsu ievadītais nosaukums ir tas, ko lietotāji, kuriem tiks piešķirts šis skats, redzēs skata atlasītājā. Lapas publicēto skatu nosaukumiem ir jābūt unikāliem. Nav atļauti publicēto skatu nosaukuma dublikāti pat tad, ja atšķiras lomas vai juridiskās personas, kurām tie ir lietoti.
-5. **Versija 10.0.9 un vai jaunāks:** nosaka, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Kad skats ir pārveidots par noklusējuma skatu, lietotāji to redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tiks mainīts katra mērķa lietotāja globālais noklusējuma skats. Tomēr lietotāji joprojām var mainīt savu noklusējuma skatu pēc publicēšanas.
-6. Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats. 
-7. **Versija 10.0.13 un jaunāka:** nosakiet, vai vēlaties publicēt skatu uz katras atlasītās drošības lomas pakārtotām lomām. Ja vēlaties, atlasiet izvēles rūtiņu **Iekļaut pakārtotās lomas** atbilstošajā drošības lomu rindā. Ievērojiet, ka šī izvēles rūtiņa nav pieejama lomām, kurām nav pakārtotu lomu.
-7. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
-8. Atlasiet **Publicēt**.
+4. Ievadiet skata nosaukumu. Jūsu ievadītais nosaukums ir tas, ko lietotāji, kuriem tiks piešķirts šis skats, redzēs skata atlasītājā. Lapas publicēto skatu nosaukumiem ir jābūt unikāliem. Nav atļauti publicēto skatu nosaukuma dublikāti pat tad, ja atšķiras lomas vai juridiskās personas, kurām tie ir lietoti.
+5. **Atjauniniet 10.0.17 vai jaunāku versiju:** ja **(priekšskatījums) atbalsta nosūtīšana organizācijas skatījumam** ir ieslēgts, varat pievienot tulkojumus jūsu skatījuma nosaukumam tik daudzās valodās, cik nepieciešams jūsu uzņēmumam, atlasot pogu **Sūtījumi** blakus laukam **Nosaukums**. Skatījuma nosaukums tiks parādīts lietotājiem viņu pašreizējā valodā. Varat iestatīt arī noklusēto valodu, lai norādītu tulkojumu, kas tiks rādīts lietotājiem, kuri darbojas valodās, kurām nav definēts neviens tulkojums.
+5. Nav obligāti: ievadiet skatījuma aprakstu, lai lietotāji, kas saņem šo skatu, varētu labāk izprast tā mērķi. 
+6. Nosakiet, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Kad skats ir pārveidots par noklusējuma skatu, lietotāji to redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tiks mainīts katra mērķa lietotāja globālais noklusējuma skats. Tomēr lietotāji joprojām var mainīt savu noklusējuma skatu pēc publicēšanas.
+7. Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats. 
+8. Nosakiet, vai vēlaties publicēt skatu uz katras atlasītās drošības lomas pakārtotām lomām. Ja vēlaties, atlasiet izvēles rūtiņu **Iekļaut pakārtotās lomas** atbilstošajā drošības lomu rindā. Ievērojiet, ka šī izvēles rūtiņa nav pieejama lomām, kurām nav pakārtotu lomu.
+9. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
+10. Atlasiet **Publicēt**.
 
 Ņemiet vērā, ka dažās vidēs var būt nepieciešams ilgāks laiks (līdz pat stundai), pirms lietotāji redz publicēto skatu.
 
@@ -146,27 +149,15 @@ Ja izmaiņas, kuras vēlaties veikt publicētajā skatā, ietver tikai publicē�
 1. Pārslēdzieties uz publicēto skatu, lai atvērtu parametrus, ko vēlaties atjaunināt. 
 2. Skata atlasītāja nolaižamajā izvēlnē atlasiet **Atkārtoti publicēt**. Ja izmantojat versiju 10.0.12 vai vecāku, jums jāatlasa **Publicēt** un pēc tam **Jā**, lai atjauninātu esošo skatu.
 3. Atjauniniet skata nosaukumu, aprakstu, drošības lomas un juridiskās personas. 
-4. Atlasiet **Publicēt**. 
-5. **Versija 10.0.8 un vecāka:** ja atjaunināsit publicētā skata nosaukumu, ir jādzēš arī publicētais skats ar veco nosaukumu. (Papildinformāciju skatiet sadaļā [Publicēto skatu pārvaldīšana](saved-views.md#managing-published-views).)
+4. Atlasiet **Publicēt**. Ja sākotnēji atlasījāt šo publicēto skatu kā noklusējuma skatu, pēc atkārtotas publicēšanas tas būs noklusējuma skats lietotājiem. 
 
-**Versija 10.0.9 un jaunāka:** ja sākotnēji atlasījāt šo publicēto skatu kā noklusējuma skatu, pēc atkārtotas publicēšanas tas būs noklusējuma skats lietotājiem.
-
-Ja publicētajā skatā veiktās izmaiņas ietver ar skatu saistīto personalizāciju vai filtru modificēšanu, rīkojieties šādi. 
-
-**Versija 10.0.13 un jaunāka:** veiciet nepieciešamās izmaiņas tieši skatā. Blakus skata nosaukumam ir jāparādās zvaigznītei (\*).
+Ja publicētajā skatā veiktās izmaiņas ietver ar skatu saistīto personalizāciju vai filtru modificēšanu, rīkojieties šādi.
 
 1. Ielādējiet publicēto skatu, kuru vēlaties mainīt. 
 2. Veiciet nepieciešamās izmaiņas vietējā melnrakstā.
 3. Skata atlasītāja nolaižamajā izvēlnē atlasiet **Atkārtoti publicēt**.
 4. Atlasiet **Jā**, lai norādītu, ka vēlaties publicēt skatu kopā ar tā nesaglabātajām izmaiņām. 
 5. Pielāgojiet visus publicēšanas parametrus, kam nepieciešama korekcija, un pēc tam atlasiet **Publicēt**. 
-
-**Versijas 10.0.12 un vecākas versijas**
-
-1. Ielādējiet publicēto skatu, kuru vēlaties modificēt. 
-2. Saglabājiet publicētā skata kopiju, lai izveidotu publicētā skata lokālo melnrakstu. 
-3. Veiciet lokālajā melnrakstā nepieciešamās izmaiņas.
-4. Publicējiet skatu ar oriģinālo nosaukumu. 
 
 ## <a name="managing-published-views"></a>Publicēto skatu pārvaldība
 
@@ -179,20 +170,20 @@ Visu attiecīgajā lapā esošo publicēto skatu sarakstam ir pieejams šādu da
 - **Atkārtoti publicēt** — izmantojiet darbību **Atkārtoti publicēt**, lai atkārtoti publicētu skatu pēc parametru publicēšanas (nosaukums, apraksts, drošības lomas vai juridiskās personas) izmaiņām.
 - **Publicēt** — Izmantojiet darbību **Publicēt**, lai publicētu skatu, kas pašlaik nepublicēts. 
 - **Atsaukt publicēšanu** — Izmantojiet darbību **Atsaukt publicēšanu**, lai skatu padarītu neaktīvu. Skats joprojām būs pieejams sistēmā, bet lietotāji neredzēs to skatu atlasītājā, kamēr skats netiks publicēts.
-- **Saglabāt kā personisku** — izmantojiet darbību **Saglabāt kā personisku**, lai izveidotu publicētā skata personīgo melnraksta kopiju. Šo iespēju var izmantot, lai saprastu tāda skata saturu, kas nav publicēts jums vai kas vēl nav publicēts. To var arī izmantot, lai rediģētu un pēc tam pārpublicētu skatu. Šī iespēja ir ieviesta versijā 10.0.12.
+- **Saglabāt kā personisku** — izmantojiet darbību **Saglabāt kā personisku**, lai izveidotu publicētā skata personīgo melnraksta kopiju. Šo iespēju var izmantot, lai saprastu tāda skata saturu, kas nav publicēts jums vai kas vēl nav publicēts. To var arī izmantot, lai rediģētu un pēc tam pārpublicētu skatu.
 - **Dzēst** — izmantojiet darbību **Dzēst**, lai neatgriezeniski dzēstu publicēto vai nepublicēto skatu. Šī darbība arī dzēš skatu visiem sistēmas lietotājiem. Kad ir atlasīta poga **Saglabāt**, publicēto skatījumu noņemšana stāsies spēkā. Pēc skata dzēšanas to nevar atgriezt. 
 
 ## <a name="managing-views-globally"></a>Skatījumu pārvaldīšana globāli
 
 Kaut arī dažas pārvaldības iespējas ir pieejamas katrā lapā, kā norādīts šajā tēmā, **sistēmas administratori** un **saglabātā skata administratori** var pārvaldīt skatījumus, izmantojot lapu **Personalizācija**. Jo īpaši šai lapai ir tālāk minētās sadaļas un iespējas. 
 
-- **Publicētie skati** — šajā sadaļā uzskaita visus jūsu organizācijai publicētos skatus. No šejienes varat atkārtoti publicēt skatu, kad būsit pielāgojis drošības lomas vai juridiskās personas, kurām skats ir paredzēts. Jūs varat arī eksportēt, dzēst vai atsaukt skatu publicēšanu. Versijā 10.0.12 un jaunākās versijās varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu personīgu skata kopiju, lai varētu atjaunināt skatu vai iegūt labāku izpratni par tā saturu. 
-- **Nepublicētie skati** — šajā sadaļā uzskaitītas visas jūsu sistēmā esošās organizācijas skati, kas pašlaik netiek publicēti. Šie skati visbiežāk nonāk sistēmā, izmantojot importēšanas iespēju. Jūs varat publicēt, eksportēt vai dzēst šos skatus. Darbība **Ātrā publicēšana**, kas tika pievienota versijā 10.0.12, iespējo vairākus skatus no šīs sadaļas, lai tie tiktu publicēti vienā darbībā, izmantojot esošo drošības lomu un juridisko personu konfigurācijas. Versijā 10.0.12 un jaunākās versijās varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu šo skatu personīgas kopijas, lai varētu atjaunināt skatu vai iegūt labāku izpratni par to saturu.
+- **Publicētie skati** — šajā sadaļā uzskaita visus jūsu organizācijai publicētos skatus. No šejienes varat atkārtoti publicēt skatu, kad būsit pielāgojis drošības lomas vai juridiskās personas, kurām skats ir paredzēts. Jūs varat arī eksportēt, dzēst vai atsaukt skatu publicēšanu. Varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu personīgu skata kopiju, lai varētu atjaunināt skatu vai iegūt labāku izpratni par tā saturu. 
+- **Nepublicētie skati** — šajā sadaļā uzskaitītas visas jūsu sistēmā esošās organizācijas skati, kas pašlaik netiek publicēti. Šie skati visbiežāk nonāk sistēmā, izmantojot importēšanas iespēju. Jūs varat publicēt, eksportēt vai dzēst šos skatus. Darbība **Ātrā publicēšana**, kas tika pievienota versijā 10.0.12, iespējo vairākus skatus no šīs sadaļas, lai tie tiktu publicēti vienā darbībā, izmantojot esošo drošības lomu un juridisko personu konfigurācijas. Varat izmantot darbību **Saglabāt kā personisku**, lai izveidotu šo skatu personīgas kopijas, lai varētu atjaunināt skatu vai iegūt labāku izpratni par to saturu.
 - **Personīgie skati** — šajā sadaļā uzskaitīti visi skati, kas ir sistēmas lietotāju izveidoti. No šejienes jūs varat publicēt personisku skatu organizācijai vai kopēt vienu vai vairākus no šiem skatiem citiem lietotājiem. Jūs arī varat eksportēt vai dzēst šos skatus, ja nepieciešams.
 - **Lietotāja iestatījumi** — atlasiet lietotāju, ko skatīt, vai pielāgojiet lietotāja spēju izmantot personalizēšanu vai nu visai sistēmai, vai arī noteiktām lapām, ko lietotājs ir apmeklējis. Varat skatīt un mijiedarboties ar lietotāja personalizācijām sistēmā. Varat arī dzēst visas šī lietotāja personalizācijas vai atiestatīt līdzekļa norādes lietotājam. Ja līdzekļa norādes tiek atiestatītas, visi uznirstošie logi, kas ievieš jaunus līdzekļus un ko lietotājs iepriekš noraidījis parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
 - **Sistēmas iestatījumi** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā neviena personalizācija netiek dzēsta nevienam lietotājam, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
 
-Lietotāji, kuriem ir piekļuve **Personalizēšana** lapai, var arī importēt personiskos vai organizācijas skatus, izmantojot pogu **Importēt skatus** darbības rūtī. Versijā 10.0.12 un jaunākās versijās ir pievienots mehānisms tūlītējai skatu publicēšanai, kad tie ir importēti.
+Lietotāji, kuriem ir piekļuve **Personalizēšana** lapai, var arī importēt personiskos vai organizācijas skatus, izmantojot pogu **Importēt skatus** darbības rūtī. Organizācijas skatījumiem varat atlasīt **Publicēt nekavējoties**, lai padarītu skatus pieejamus lietotājiem bez papildu precīzi formulētas publicēšanas.
 
 ## <a name="known-issues"></a>Zināmās problēmas
 Lai skatītu sarakstu ar saglabāto skatu problēmām, lūdzu, skatiet [Veidlapu izveide, kas pilnībā izmanto saglabātos skatus](../../dev-itpro/user-interface/understanding-saved-views.md).
@@ -204,27 +195,7 @@ Lai skatītu sarakstu ar saglabāto skatu problēmām, lūdzu, skatiet [Veidlapu
 > [!NOTE]
 > Līdzeklim **Saglabātie skati** ir jāiespējo personalizēšanas sistēma pakalpojumā Finance and Operations. Gadījumā, ja personalizācija ir izslēgta visā vidē, skati tiks atspējoti, pat ja veiksiet zemāk minētās darbības. 
 
-**Versija 10.0.13 un jaunāka versija**
-
-**Saglabāto skatu** līdzeklis vairs nav priekšskatījumā. Tas tagad ir pieejams tieši, izmantojot Līdzekļu pārvaldību jebkurā vidē.
-
-**Versijas no 10.0.9 līdz 10.0.12**
-
-**Saglabāto skatu** līdzeklis ir pieejams tieši Līdzekļu pārvaldībā jebkurā vidē. Tāpat kā citi priekšskatījuma līdzekļi, uz šī līdzekļa iespējošanu ražošanā attiecas [Lietošanas līguma papildu nosacījumi](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8/Platformas atjauninājums 32 un vecāks**
-
-**Saglabātie skati** var iespējot 1. līmeņa (Dev/Test) un 2. līmeņa (Smilškastes) vidē, lai nodrošinātu papildu testēšanas un noformējuma izmaiņas, veicot tālāk norādītās darbības.
-
-1. **Iespējot būvējumu izsniegšanu**: izpildīt šādu SQL priekšrakstu: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **Atiestatiet IIS**, lai notīrītu statisko būvējuma kešatmiņu. 
-3. **Atrast funkciju**: atveriet darbvietu **Funkciju pārvaldība**. Ja **Saglabātie skati** netiek parādīti sarakstā, atlasiet **Pārbaudīt, vai nav atjauninājumu**.
-4. **Iespējot funkciju**: atrodiet funkciju **Saglabātie skati** funkciju sarakstā un detalizētās informācijas rūtī atlasiet **Iespējot tūlīt**.
-
-Visas turpmākās lietotāja sesijas sāksies ar iespējotiem saglabātajiem skatiem.
+Funkciju pārvaldībā jebkurā vidē varat ieslēgt vai izslēgt līdzekli **Saglabātie skati**. Kad tas ir ieslēgts, saglabātie skati tiks iespējoti visās turpmākajās lietotāja sesijās.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Kas notiek ar esošajām personalizācijām, kad skati tiek iespējoti? 
 
@@ -253,6 +224,3 @@ Lapām ar lieliem skatu atlasītājiem (gan personalizācijas, gan vaicājumus v
 
 - Pārejot uz lapu, izmantojot elementu, attiecīgā elementa vaicājums tiks izpildīts neatkarīgi no vaicājuma, kas saistīts ar noklusējuma skatu. Ja izveidojāt šo elementu pēc skatu iespējošanas, atlasot elementu, tiks atvērta lapa ar ar šo elementu saistīto skatu.
 - Ja pārejat uz lapu un attiecīgais ieejas punkts ietver vaicājumu, sākotnējais vaicājums tiks izpildīts pirms noklusējuma skata vaicājuma. Ja tā notiek, jums vajadzētu saņemt informatīvu ziņojumu, kad skats tiek ielādēts. Varat arī to apstiprināt, pārslēdzoties uz šo skatu pēc lapas ielādes, jo tam jebkurā gadījumā vajadzētu nodrošināt vaicājuma izpildi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

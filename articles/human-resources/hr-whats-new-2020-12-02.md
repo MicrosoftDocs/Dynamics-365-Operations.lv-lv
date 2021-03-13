@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669178"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080042"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 2. decembris
 
@@ -61,7 +60,7 @@ Zemāk minētie līdzekļi parasti ir pieejami ar šo laidienu.
 | 514087 | BenefitEligibilityProcessResult jāiekļauj datu apstrādei izmantotais datums un laiks. | BenefitEligibity apstrādes rezultāts tagad ietver pēdējās apstrādes datetimestamp, kuras trūka agrāk. |
 | 526903 | Atvieglojumu reģistrācija nenotiek plāniem, kuri ietver apgādājamos, kad opcija **Automātiski izraudzītie pārstāvji** ir ieslēgta **Personāla vadības kopīgotos parametros**. | Novērsta problēma, kad apgādājamajiem neizdevās reģistrēt pabalstus, kad noklusējuma saņēmējiem bija ieslēgta opcija **Automātiski izraudzītie pārstāvji**. |
 | 521922 | Parametrs **Rādīt prombūtni bez detalizētas informācijas** rāda detalizētu informāciju par pārtraukuma pieprasījumiem grupas kavējuma kalendārā. | Atvaļinājuma tips, atvaļinājuma tipa krāsa un dienas detaļas tika rādītas grupas kavējuma kalendārā, kad opcija **Rādīt prombūtni bez detalizētas informācijas** tika iestatīta uz **Jā** sadaļā **Atvaļinājumu un prombūtnes parametros**. Tas ir ziņots, un tagad atvaļinājuma veids netiek rādīts un noklusējuma atvaļinājuma tipa krāsa (tumši zilā krāsā) tiek izmantota visiem atvaļinājumu tipiem grupas kavējumu kalendārā. |
-| 527316 | Darba, amata un darbinieka paziņojumu nosaukumu izmaiņas netiek sinhronizētas. | Nosaukumu relācija iepriekš tika pievienota Darba, Amata un Darbinieku vienībām. Šīs relācijas sinhronizācija darbojas no Personāla vadības sinhronizācijas uz Common Data Service, bet nedarbojās ar paziņojumiem no Common Data Service. Tas ir noziņots. |
+| 527316 | Darba, amata un darbinieka paziņojumu nosaukumu izmaiņas netiek sinhronizētas. | Nosaukumu relācija iepriekš tika pievienota Darba, Amata un Darbinieku vienībām. Šīs relācijas sinhronizācija darbojas no Personāla vadības sinhronizācijas uz Dataverse, bet nedarbojās ar paziņojumiem no Dataverse. Tas ir noziņots. |
 | 512275 | Noņemiet krāsu opcijas no **Atvaļinājuma un prombūtnes parametriem**. | Tagad, kad ir definētas atvaļinājumu tipa krāsas, vairs nav nepieciešamas krāsu opcijas **Atvaļinājumu un prombūtnes parametros**, tāpēc tās tika noņemtas. |
 | 437112 | Maldinošs kļūdas ziņojuma teksts darbinieka amata piešķires laikā. | Atjaunināja kļūdas ziņojumu, pieņemot darbā darbinieku un mēģinot piešķirt darbinieku amatam, kas nav aktīvs. Atjaunināts ziņojums **Norādītā pozīcija nav aktīva nodarbinātības sākuma datumā. Lūdzu, pārbaudiet šīs pozīcijas ilgumu.** |
 | 527816 | Veiktspējas problēmas ar **Pārtraukuma** lapu. | Ir uzlabojusies veiktspēja lapā **Pārtraukums**. |
@@ -92,6 +91,3 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Pārskats par Dynamics 365 Human Resources 2020. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664276"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077582"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa izstrādāšana
 
@@ -57,7 +56,7 @@ Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbība
 1. Lapas virsrakstā veiciet tālāk norādītos iestatījumus:
 
     - **Cilnes nosaukums** - norādiet cilnes nosaukumu.
-    - **Galvenais skats** – atlasiet starp diviem iepriekš definētiem darbu sarakstiem (*Aktīvie darbi* vai *Visi darbi*).
+    - **Galvenais skats** – atlasiet starp diviem iepriekš definētiem darbu sarakstiem (*Aktīvie darbi*, *Visi darbi* vai *Mana iekāŗta*).
     - **Detalizētas informācijas skats** - izvēlieties starp tukšu vērtību vai **Darba detalizēta informācija**. Ja atlasīsit tukšu vērtību, nebūs detalizēta skatījuma cilnē. Ja izvēlaties **Darba detalizētu informāciju**, detalizētajā skatījumā būs detalizēts darba apraksts, kas atlasīts darbu sarakstā galvenajā skatā.
 
 1. **Primārās rīkjoslas** sadaļā Izvēlieties, kurām pogām jābūt pieejamām primārajā rīkjoslā. Kolonnā **Pieejamās darbības** redzams saraksts ar visām pogām, kuras var pievienot. Kolonnas **Atlasītās darbības** rāda visu to pogu saraksts, kas iekļautas pašreizējā konfigurācijā. Izmantojiet pogas starp kolonnām, lai atlasītos vienumus pārvietotu starp kolonnām pēc nepieciešamības. Izmantojiet pogas augšup un lejup blakus kolonnai **Atlasītās darbībās**, lai kontrolētu secību, kādā pogas tiek rādītas lietotāja interfeisā.
@@ -79,6 +78,3 @@ Pēc tam, kad visas cilnes ir izveidotas, tās var saistīt ar konfigurāciju.
 1. Turpiniet pievienot papildu cilnes pēc nepieciešamības.
 
 1. Izmantojiet rīkjoslas pogu **Pārvietot uz augšu** un **Pārvietot uz leju**, lai pēc nepieciešamības kārtotu cilnes. Cilnes tiks rādītas no kreisās uz labo tādā secībā, kā norādīts iepriekš attēlā (cilne virspusē tiek rādīta kreisajā pusē).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

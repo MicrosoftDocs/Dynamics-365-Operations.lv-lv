@@ -1,6 +1,6 @@
 ---
 title: ER domēnam specifiska datu modeļa izveide
-description: Tālāk ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izveidot jaunu Elektronisko pārskatu (ER) konfigurāciju, kas saturēs datu modeli elektronisko maksājumu dokumentiem.
+description: Tematā aprakstīts, kā izveidot jaunu elektronisko pārskatu (ER) konfigurāciju, kas satur datu modeli elektroniskajiem maksājumu dokumentiem.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681953"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092695"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER domēnam specifiska datu modeļa izveide
 
@@ -187,6 +187,3 @@ Jūs veidojat jaunu datu modeli atlasītajai konfigurācijai. Šīs konfigurāci
 65. Noklikšķiniet uz Saglabāt.
 66. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

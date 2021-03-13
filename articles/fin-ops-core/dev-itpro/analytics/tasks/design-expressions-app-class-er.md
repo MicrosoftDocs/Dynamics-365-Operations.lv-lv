@@ -1,6 +1,6 @@
 ---
 title: ER izteiksmju noformēšana programmas klases metožu izsaukšanai
-description: Šajos norādījumos sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs.
+description: Šajā tēmā sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682025"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092089"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 
@@ -157,6 +157,3 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot lejupielādēto
 2. Noklikšķiniet uz OK.
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas tikai 3 importētā TXT faila rindas. IBAN kods 4. rindā, kas nav derīgs, tika izlaists, un informācijas žurnālā ir reģistrēts kļūdas ziņojums.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fbae4570448a6bb1309ffe0092ff9b07825d717
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682049"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092770"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER konfigurāciju noformēšana datu importēšanai no ārējiem CSV failiem
 
@@ -124,6 +124,3 @@ Testēšanas nolūkos izpildiet formāta kartēšanu, izmantojot iepriekš lejup
     * Pārskatiet izvadi XML formātā, kas parāda no atlasītā faila importētos un uz datu modeli pārnestos datus. Ņemiet vērā, ka tika apstrādātas visas 7 importētā CSV faila rindas. Datus saturošo lauku virsraksta 1. rinda tika izlaista, 4 transakcijas tika pareizi parsētas un 2 transakcijas tika atpazītas kā nederīgas.
 3. Aizvērt lapu.
 4. Aizvērt lapu.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

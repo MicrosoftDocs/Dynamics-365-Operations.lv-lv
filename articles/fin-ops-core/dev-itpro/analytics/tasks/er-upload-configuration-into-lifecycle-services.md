@@ -1,6 +1,6 @@
 ---
 title: Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services
-description: Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var izveidot jaunu elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurāciju un augšupielādēt to programmā Microsoft Dynamics Lifecycle Services (LCS).
+description: Šajā tēmā ir paskaidrots, kā lejupielādēt elektronisko pārskatu veidošanas (Electronic reporting — ER) konfigurācijas no portāla Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684167"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092545"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Augšupielādēt konfigurāciju pakalpojumos Lifecycle Services
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684167"
     Ir jāuzskaita jūsu augšupielādētā ER konfigurācija.
 
     Ņemiet vērā, ka augšupielādēto LCS konfigurāciju var importēt citā instancē, ja nodrošinātājiem ir piekļuve šim LCS projektam.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

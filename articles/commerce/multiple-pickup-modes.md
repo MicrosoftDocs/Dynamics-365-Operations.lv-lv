@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594980"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053417"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Iespējot vairākus pasūtījuma piegādes veidus klientu pasūtījumiem
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Microsoft Dynamics 365 Commerce versijā 10.0.16 un jaunākās organizācijas var noteikt vairākus piegādes veidus, kurus pircēji vai pārdošanas dalībnieki var izvēlēties brīdī, kad tie izveido pasūtījumu, kas tiks saņemts veikalā. Šādā veidā organizācijas var nodrošināt vairākas saņemšanas opcijas saviem pircējiem. Piemēram, daudzi mazumtirgotāji tagad pircējiem piedāvā pasūtījumu saņemšanu veikalā vai saņemšanu pa ceļam. Commerce atbalsta šo atšķirīgo saņemšanas piegādes veidu konfigurāciju. Lietotāji pēc tam var izmantot tos, kad tie izveido klientu pasūtījumus jebkādā atbalstītā Commerce kanālā (e-komercija, zvanu centrs vai veikals).
 
@@ -86,6 +85,3 @@ Kad kanālam ir pieejami vairāki saņemšanas piegādes veidi, klientiem tiek n
 ## <a name="considerations-for-distributed-order-management"></a>Konfigurācijas sadalīto pasūtījumu pārvaldībai
 
 [Sadales pasūtījumu pārvaldība (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) līdzekļi Commerce ignorē visas pārdošanas rindas, kas ir atzīmētas saņemšanai veikalā. Šie līdzekļi ir atjaunināti, lai nodrošinātu, ka pārdošanas rindas, kas ir saistītas ar konfigurētajiem saņemšanas piegādes veidiem, apiet DOM loģiku un netiek pārdalītas uz jaunu izpildes noliktavu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

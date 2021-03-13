@@ -1,6 +1,6 @@
 ---
 title: Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
-description: Šajā tēmā ir paskaidrots, kas ir uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
+description: Šajā tēmā ir paskaidrots, kas ir Uzdevumu reģistrētājs un uzdevumu ceļveži, kā izveidot uzdevumu ierakstus un kā pielāgot Microsoft uzdevumu ceļvežus un iekļaut tos palīdzībā.
 author: josaw1
 manager: AnnBe
 ms.date: 03/24/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b92ef15fc9f3f6a5ebb6ba4ea4eae1a0f7488995
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1bc634a324e3cc12855a1b36b9a58a9cb38eb5d2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687796"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092873"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
@@ -123,6 +123,3 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 [Uzdevuma reģistrētājs](task-recorder.md)
 
 [Bagātinātu palīdzības tēmu izveide ar uzdevumu reģistrētāju (ārējās saite)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

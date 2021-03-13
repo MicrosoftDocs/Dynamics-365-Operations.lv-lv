@@ -1,6 +1,6 @@
 ---
-title: ER konfigurāciju atkarības no citiem komponentiem definēšana
-description: 'Lai veiktu šīs darbības, vispirms ir jāveic uzdevuma ceļvedī “ER: modeļa kartēšanas konfigurāciju pārvaldība” norādītās darbības un jums ir jābūt piešķirtai piekļuvei portālam Microsoft Dynamics Lifecycle Services (LCS).'
+title: Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
+description: Šajā tēmā aprakstīts, kā projektēt elektronisko pārskatu (ER) konfigurāciju un noteikt tās atkarību no citiem programmatūras komponentiem.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681977"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092154"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigurāciju atkarības no citiem komponentiem definēšana
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Elektronisko pārskatu konfigurāciju atkarības no citiem komponentiem definēšana
 
 [!include [banner](../../includes/banner.md)]
 
@@ -139,6 +139,3 @@ Mēs dzēsīsim izveidotās konfigurācijas no sistēmas un lejupielādēsim tā
 26. Kokā izvērsiet "Sample data model".
     * Ņemiet vērā, ka kartējuma konfigurācija 'Parauga kartēšana' tika lejupielādēta kopā ar atlasīto datu modeļa konfigurāciju. Divi faili tika lejupielādēti kopā, jo 'Parauga kartēšana' ir definēts kā atlasītā datu modeļa ieviešana, un tas ir piemērojams risinājumam programmai. Konfigurācija 'Parauga kartēšana (alternatīvi)' netika lejupielādēta, jo nosacījums nepieciešamajai programmas versijai nav izpildīts.   
     * Ja pierakstīsities risinājumā Finance and Operations, reģistrēsit tādu pašu nodrošinātāju, piekļūsit tādam pašam LCS projektam un lejupielādēsit tādu pašu datu modeļa konfigurāciju, konfigurācija 'Parauga kartēšana (alternatīvi)' tiks lejupielādēta, savukārt konfigurācija 'Parauga kartēšana' tiks izlaista.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

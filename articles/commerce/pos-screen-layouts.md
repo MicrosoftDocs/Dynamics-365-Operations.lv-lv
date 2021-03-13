@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4414182"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032937"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS lietotāja interfeisa vizuālās konfigurācijas
 
@@ -117,11 +116,14 @@ Kompaktajos POS izkārtojumos pogu rindas tiek automātiski izkārtotas virzien�
 
 ![Kompaktā izkārtojuma pogu rindas](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Pogu izmēri noformētājā tiek mērogoti, lai tie ietilptu loga izmērā, tāpēc tie var precīzi atspoguļot faktiskās pogas, kas atveidotas POS. Lai labāk simulētu pogu rindas izkārtojumu, pielāgojiet noformētāja logus tādā pašā izmērā kā POS.
+
 ### <a name="images"></a>Attēli
 
 Katram ekrāna izkārtojuma lielumam var norādīt iekļaujamos POS UI attēlus. Pilnos POS izkārtojumos vienu attēlu var norādīt sveiciena ekrānam. Šis attēls tiek parādīts kā pirmais UI elements kreisajā pusē. **Transakciju** ekrānā attēlus var izmantot kā attēlu cilni vai logotipu. Kompaktajos POS izkārtojumos šie attēli netiek izmantoti.
 
-### <a name="screen-layout-designer"></a>Ekrāna izkārtojuma dizainers
+### <a name="screen-layout-designer"></a>Ekrāna izkārtojuma noformētājs
 
 Ekrāna izkārtojuma noformētājā var konfigurēt dažādus POS **Transakcijas** ekrāna aspektus visiem izkārtojuma lielumiem gan portretorientācijas, gan ainavorientācijas režīmā, kā arī pilnam un kompaktajam izkārtojumam. Ekrāna izkārtojuma noformētājam tiek izmantota tehnoloģija “ClickOnce”, lai lejupielādētu, instalētu un palaistu jaunāko programmas versiju ikreiz, kad lietotājs tai piekļūst. Noteikti pārbaudiet pārlūkprogrammas prasības attiecībā uz tehnoloģijas “ClickOnce” lietošanu. Dažām pārlūkprogrammām, piemēram, Google Chrome, ir nepieciešami paplašinājumi.
 
@@ -204,7 +206,4 @@ Pogu rindas noformētājs ļauj konfigurēt pogu rindas, ko var izmantot POS sv
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Retail pārdošanas punkta (POS) izkārtojumu veidotāja instalēšana](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Retail pārdošanas punkta (POS) izkārtojumu noformētāja instalēšana](install-pos-layout-designer.md)

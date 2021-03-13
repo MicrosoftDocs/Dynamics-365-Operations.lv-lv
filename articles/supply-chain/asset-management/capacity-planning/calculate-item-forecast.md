@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetItemForecast
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f8f38ac7bfb270f648cd561da50ee5477721ab47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 155dc720804196ccc44fad5eaf71e3563a9c68cf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432895"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022562"
 ---
 # <a name="calculate-item-forecast"></a>Aprēķināt krājumu prognozi
 
@@ -60,6 +59,3 @@ Tas ir noderīgi, ja vēlaties iegūt pārskatu par paredzamo vienuma patēriņu
 8. Ja vēlaties rādīt produkta, glabāšanas vai izsekošanas īpašības, kas saistītas ar vienumu, noklikšķiniet uz **Rādīt izmērus**. Atzīmējiet attiecīgās izvēles rūtiņas un noklikšķiniet uz **Labi**.
 
 ![1. attēls](media/02-capacity-planning.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

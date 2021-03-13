@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Prakses pārvaldnieks
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks. Tajā ir paskaidrots, kā piekļūt pārskatiem, kas ir iekļauti saturā, un ir sniegta informācija par satura izveidei izmantoto datu modeli un elementiem.
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Prakses pārvaldnieks.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685709"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092461"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI satura pakotne Prakses pārvaldnieks
 
@@ -117,6 +117,3 @@ Tālāk esošajās sadaļās ir paskaidroti apkopošanas mērījumi, kas tiek iz
 | Galvenais apkopošanas mērījums       | Lauks               | Apraksts |
 |---------------------------------|---------------------|-------------|
 | Pabeigtās aktivitātes plānotās izmaksas | Sum(TotalCostPrice) | Visu pabeigtus uzdevumus ietverošo projekta transakciju veidu novērtētas izmaksu cenas kopsumma. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

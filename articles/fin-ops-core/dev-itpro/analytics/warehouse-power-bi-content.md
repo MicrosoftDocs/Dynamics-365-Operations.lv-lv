@@ -1,6 +1,6 @@
 ---
 title: Power BI satura pakotne Noliktavas veiktspēja
-description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Noliktavas veiktspēja. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Noliktavas veiktspēja.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687405"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092820"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Power BI satura pakotne Noliktavas veiktspēja
 
@@ -111,6 +111,3 @@ Kā satura pamats tiek izmantoti tālāk norādītie galvenie apkopošanas mēr�
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc preces                       | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc debitora                      | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
 | Nosūtīšanas veiktspēja        | Nosūtīts pēc vietas/noliktavas              | CustPackingSlipOnTimeStatus           | Agri, Laikā un Vēlu (skatiet aprakstus iepriekš šajā tabulā). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
