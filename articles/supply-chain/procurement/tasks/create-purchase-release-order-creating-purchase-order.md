@@ -1,7 +1,7 @@
 ---
-title: Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu
+title: Pirkšanas izpildpasūtījuma izveide, veidojot pirkšanas pasūtījumu
 description: Šajā procedūrā parādīts, kā izmantot pirkšanas līgumu, veidojot pirkšanas pasūtījumu.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3e02bd4aaef8da7838c92199c28b1e298078c57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6f82cabebea5c9e86e898c064c70a0e7a48b49d3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432720"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016607"
 ---
-# <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Pirkšanas izpildpasūtījumu izveide, veidojot pirkšanas pasūtījumu
+# <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Pirkšanas izpildpasūtījuma izveide, veidojot pirkšanas pasūtījumu
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā izmantot pirkšanas līgumu, veidojot pirkšanas pasūtījumu. Pirkšanas līgums jālieto, veidojot pirkšanas pasūtījumu, jo pastāv vispārīgi nosacījumi, kas jāiekopē pirkšanas pasūtījuma virsrakstā. Šo uzdevumu parasti veic pirkšanas aģents. Kā šī ceļveža priekšnosacījums, jums jābūt spēkā pirkšanas līgumam ar uz preču daudzumu attiecināmam saistībām kreditoram un krājumiem. To pašu procedūru var izmantot, ja ir pirkšanas līgums ar cita veida saistībām. Šo ceļvedi varat izpildīt demonstrācijas datu uzņēmumā USMF. Ja jūs izmantojat USMF, vispirms var palaist ceļvedi "Pirkšanas līguma izveide", lai iestatītu šim ceļvedim vajadzīgos priekšnoteikumus.
+Šajā procedūrā parādīts, kā izmantot pirkšanas līgumu, veidojot pirkšanas pasūtījumu. Pirkšanas līgums jālieto, veidojot pirkšanas pasūtījumu, jo pastāv vispārīgi nosacījumi, kas jāiekopē pirkšanas pasūtījuma virsrakstā. Šo uzdevumu parasti veic pirkšanas aģents. Kā šī ceļveža priekšnosacījums, jums jābūt spēkā pirkšanas līgumam ar uz preču daudzumu attiecināmam saistībām kreditoram un krājumiem. To pašu procedūru var izmantot, ja ir pirkšanas līgums ar cita veida saistībām. Šo ceļvedi varat izpildīt paraugdatu uzņēmumā USMF. Ja jūs izmantojat USMF, vispirms var palaist ceļvedi "Pirkšanas līguma izveide", lai iestatītu šim ceļvedim vajadzīgos priekšnoteikumus.
 
 
 ## <a name="create-a-purchase-order"></a>Pirkšanas pasūtījuma izveide
@@ -64,6 +63,3 @@ ms.locfileid: "4432720"
 3. Aizvērt lapu.
 4. Aizvērt lapu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

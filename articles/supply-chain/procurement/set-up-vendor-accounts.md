@@ -1,7 +1,7 @@
 ---
 title: Kreditora kontu iestatīšana
 description: Šajā tēmā ir aprakstīti informācijas tipi, kuri jānorāda, veidojot jaunu kreditora kontu.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4433154"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016581"
 ---
 # <a name="set-up-vendor-accounts"></a>Kreditora kontu iestatīšana
 
@@ -118,6 +117,3 @@ Noklusējuma konti tiek atlasīti cilnē **Noklusētie konta iestatījumi**, kur
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
