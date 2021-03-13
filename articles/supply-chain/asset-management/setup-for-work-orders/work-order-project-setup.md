@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432603"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021558"
 ---
 # <a name="work-order-project-setup"></a>Darba pasūtījuma projekta iestatījumi
 
@@ -31,7 +30,7 @@ ms.locfileid: "4432603"
 
  
 
-Modulī **Līdzekļu pārvaldība** modulī ir nepieciešama projektu relācija katram darba pasūtījuma uzdevumam. Projekts, kas ir saistīts ar darba pasūtījuma uzdevumu, ļauj izsekot izmaksas dažādiem projektiem, kas saistīti ar līdzekļu pārvaldību, piemēram, iekšējiem uzturēšanas projektiem, servisa pārvaldības projektiem un investīciju projektiem. 
+Modulī **Līdzekļu pārvaldība** ir nepieciešama projektu relācija katram darba pasūtījuma uzdevumam. Projekts, kas ir saistīts ar darba pasūtījuma uzdevumu, ļauj izsekot izmaksas dažādiem projektiem, kas saistīti ar līdzekļu pārvaldību, piemēram, iekšējiem uzturēšanas projektiem, servisa pārvaldības projektiem un investīciju projektiem. 
 
 ## <a name="project-setup-for-a-work-order-job"></a>Projekta iestatīšana darba pasūtījuma uzdevumam
 
@@ -86,6 +85,3 @@ Iestatīšana nodrošina pilnīgu integrāciju ar moduli **Projektu pārvaldība
 > Katru reizi, kad tiek izveidota darba pasūtījuma rinda, līdzekļu pārvaldība meklē projektu grupu, kas jāsaista ar darba pasūtījuma uzdevuma projektu. Meklēšana ir balstīta uz iestatījumiem, kas aprakstīti šajā tēmā. Katrai projekta grupai ir saistīts projekta veids. Projekta grupas, kuru projekta veids ir **Laiks un materiāls** vai **Fiksēta cena**, ir derīgas tikai līdzekļiem, kas ir saistīti ar klienta kontu.
 >
 > Pamatprojektiem un projektu grupām, kad sistēma atlasa pieejamo darba pasūtījuma projektu vai projektu grupu, atlase ir balstīta uz ierakstiem, ko izveidojāt, izmantojot iepriekšējo procedūru. Līdzekļu pārvaldība izskata ierakstus, kas ir saistīti ar darba pasūtījuma projektu, lai pārbaudītu iespējamo atbilstību. Tā vienmēr vispirms pārbauda visraksturīgāko kombināciju. Citiem vārdiem sakot, darba pasūtījuma pamatprojektam līdzekļu pārvaldība sākumā pārbauda iespējo atbilstību laukam **Līdzeklis**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Līdzekļa veids**. Ja atbilstība netiek atrasta, tā meklē atbilstību laukam **Funkcionālais novietojums** un tā tālāk. Kā jūs varat redzēt lapas **Darba pasūtījuma projekta iestatīšana** izkārtojumā, šī uzvedība nozīmē, ka, lai atrastu specifiskāko kombināciju, līdzekļu pārvaldība atbilstības meklēšanai pārbauda katru ierakstu no labās puses uz kreiso. Ja atbilstība netiek atrasta, tiek izmantots noklusējuma ieraksts, kurā tiek atlasīts tikai projekta ID. Saistītās projektu grupas atrašanas process ir līdzīgs. Līdzekļu pārvaldība vispirms pārbauda iespējamo atbilstību laukam **Līdzeklis** un tad laukam **Līdzekļa veids**, un tad laukam **Darba pasūtījuma tips**. Ja atbilstība netiek atrasta, tiek izmantots noklusējuma ieraksts, kurā tiek atlasīta tikai projekta grupa.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

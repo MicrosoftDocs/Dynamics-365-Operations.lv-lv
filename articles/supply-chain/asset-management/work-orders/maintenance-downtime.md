@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 263a044a0a378e95ea271ac1c6f468f9e3287f26
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432597"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020915"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Darba pasūtījumu dīkstāve uzturēšanas dēļ
 
@@ -89,6 +88,3 @@ Lai redzētu pārskatu par visām dīkstāves uzturēšanas dēļ reģistrācij�
 >[!NOTE]
 >Visi kalendāri, izmantoti modulī **Līdzekļu pārvaldība**, tiek iestatīti **Organizācijas administrēšana** > **Uzstādīšana** > **Kalendāri** > **Kalendāri**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

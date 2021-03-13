@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7609a85f0315ee5cb5fae62d151b271ef5febe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd4da57c3849095909226db53c23b3c25301acdc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432914"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021326"
 ---
 # <a name="multi-level-assets"></a>Vairāklīmeņu līdzekļi
 
@@ -62,6 +61,3 @@ Ja līdzeklim ir saistītie pakārtotie līdzekļi, to var dzēst tikai tad, ja 
 
 > [!NOTE]
 > Ja nevarat dzēst līdzekli, izmantojot šo procedūru, vēl viens veids, kā rīkoties ar dzēšanu, ir iestatīt līdzekļa dzīves cikla stāvokli šim nolūkam. Piemēram, lapā **Līdzekļa dzīves cikla stāvokļi** varat iestatīt **Brāķis** vai **Dzēsts**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

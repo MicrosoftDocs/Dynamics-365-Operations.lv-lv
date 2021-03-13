@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorker
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4c1e068d273374c6c8ac162a92be6130d85cbe40
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8856d0c7a7b76318755dc6bcdbb1859de1fa20a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432601"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021483"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Uzturēšanas speciālista kalendārs un plānošana
 
@@ -39,6 +38,3 @@ Zemāk esošajā ekrānšāviņā ir rādīts piemērs uzturēšanas speciālist
 
 Kalendāra uzstādīšana rīkiem un līdzekļiem nav nepieciešama attiecībā uz darba pasūtījuma plānošanu. Tiek pieņemts, ka rīki un līdzekļi ir uzturēšanai pieejami 24 stundas diennaktī.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
