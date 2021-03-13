@@ -3,24 +3,23 @@ title: Regulēšanas atjauninājumi
 description: Šajā tēmā ir sniegts plānoto un izlaisto Microsoft Dynamics 365 Finance normatīvo atjauninājumu saraksts.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/13/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: a09ac2c3c198bf7d7d34a1ae1739af6b62d8dce7
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517504"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118659"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -43,43 +42,34 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |Valsts/reģions|Izpildes datums|Partijas versija|Normatīvais atjauninājums|
 |--------------------|---------------|-------|-------|
 |      Austrija         |   2020. septembris      | 10.0.15      |   PVN deklarācijas formāts U30 ir atjaunināts attiecībā uz 2020. gada pārskatu   |
-|      Bahreina         |   2020. jūnijs      | 10.0.13      |   Rēķina izsniegšanas termiņš (GCC)   |
-|      Bahreina         |   2020. septembris      | 10.0.13      |   Projekta rēķins Bahreinai   |
-|      Bahreina         |   2020. jūnijs      | 10.0.13      |   PVN deklarācija Bahreinai — darījuma apraksta iespējošana   |   
-|      Brazīlija         |   2020. gada augusts      | 10.0.14, 10.0.13      |   ADRCST deklarācija PR   |
-|      Brazīlija         |   2020. maijs      | 10.0.13      |   SPED ECF layout 6   |
-|      Brazīlija         |   2020. gada jūlijs      | 10.0.13      |   SPED fiskālā - ieraksts C176 - RS stāvoklis   |
-|      Brazīlija         |   2020. oktobris      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 — validācijas noteikumu pieņemšana Distrito Federal atvieglojumu kodam   |
-|      Brazīlija         |   2020. oktobris      | 10.0.16      |   Fiskālais SPED — izkārtojums 015   |
-|      Brazīlija         |   2020. gada novembris      | 10.0.15HF      |   Fiskālā SPED ICMS/IPI ieraksts C176 atjauninājums RS stāvoklim   |
+|      Beļģija         |   2020. decembris      | 10.0.16      |   Beļģija: “Eksportējiet Virsgrāmatas darījumus” pārskata veiktspējas uzlabošanai programmā Dynamics 365 Finance   |   
+|      Brazīlija         |   2020. gada novembris      | 10.0.15HF      |   Fiskālā SPED ICMS/IPI - ieraksts C176 - RS stāvoklis   |
+|      Brazīlija         |   2020. oktobris      | 10.0.16, 10.0.15HF      |   NF-e NT2019.001 v1.51 — validācijas noteikumu pieņemšana Distrito Federal atvieglojumu kodam   |
+|      Brazīlija         |   2020. gada oktobris, 2020. gada novembris      | 10.0.16, 10.0.15HF      |   Fiskālais SPED — izkārtojums 015   |
 |      Brazīlija         |   2020. oktobris      | 10.0.16      |   DRCST deklarācija SC — SED 262/2020   |
 |      Brazīlija         |   2020. oktobris      | 10.0.16      |   Fiskālā SPED ICMS/IPI ieraksts C176   |
-|      Čehijas Republika      |   2020. gada jūlijs      | 10.0.13      |   PVN kontroles pārskata izmaiņas XML shēmā (rēķinu saraksts)   |
-|      Čehijas Republika         |   2020. gada jūlijs      | 10.0.13      |   PVN deklarācija XML, PVN deklarācijas priekšskatījums programmā Excel un PVN kontroles pārskata XML formāti, kas balstīti uz nodokļu deklarācijas modeli   |
-|      Eiropa        |   2020. gada augusts       | 10.0.14      |   Pārsūtīt Partnera PVN ID uz Intrastat  |
-|      Somija         |   2020. gada jūlijs       | 10.0.13      |   Elektronisko rēķinu atbalsts Somijai  |
-|      Indija         |   2020. gada jūlijs      | 10.0.13      |   TCS par preču pārdošanu saskaņā ar 206C iedaļu (1H) - Robežvērtība saskaņā ar PAN darījumu uzkrāšanu.  |
-|      Indija         |   2020. gada augusts, 2020. gada jūnijs      | 10.0.13      |   Kredīta/debeta piezīme pret eksporta rēķinu  |
-|      Indija         |   2020. gada augusts      | 10.0.13      |   Elektroniskais rēķins zem GST  |
-|      Indija         |   2020. gada jūlijs      | 10.0.13      |   Jauns GSTR (ANX-1 & ANX-2) bezsaistes rīks (Beta versija)  |
-|      Indija         |   2020. oktobris      | 10.0.14HF, 10.0.13HF      |   E-rēķins saskaņā ar GST krājumu pārsūtīšanas pasūtījumā Indijai|
-|      Indija         |   2020. oktobris      | 10.0.14HF, 10.0.13HF      |   E-rēķins saskaņā ar GST Indijai ar vairākām GSTIN reģistrācijām|
-|      Indija         |   2020. septembris      | 10.0.13HF      |   Ieturētā nodokļa likme 3/5 decimāldaļu vietās|
-|      Indija         |   2020. septembris      | 10.0.14HF      |   Numuru secību grupa: GSTNSG, darbības veids: GST rēķins, kas jāiestata GST atsauces numuru secību grupai nodokļu informācijā 0073|
-|      Itālija         |   2020. gada jūlijs      | 10.0.13      |   Itālijas elektronisko rēķinu formāta izmaiņas — FatturaPA |
-|      Malaizija         |   2020. gada jūlijs      | 10.0.13      |   SST pārskats |
-|      Meksika         |   2020. septembris      | 10.0.13HF      |   CFDI URL shēmas atrašanās vieta atkarībā no Anexo 20 dokumenta |
+|      Brazīlija         |   2020. decembris      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 – digitālās platformas starpnieka identifikācija (izkārtojuma un validācijas noteikumu atjaunināšana)   |
+|      Eiropa        |   2021. janvāris       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Breksits – Ziemeļīrijas protokola ietekme uz kopienas iekšējās tirdzniecības pārskatiem ES valstīs  |
+|      Vācija        |   2021. janvāris       | 10.0.16HF      |   ELSTER UstVA PVN avansa paziņojuma formāts tika pagarināts ar diviem jauniem lodziņiem 37,50 par neatgūstamiem parādiem norakstīšanai  |
+|      Vācija        |   2021. janvāris       | 10.0.17      |   Izmaiņas ELSTER PVN avansa paziņojuma XML struktūrā (UstVA)  |
+|      Globāls        |   2021. janvāris       | 10.0.16      |   Iespējot PVN/GST shēmas apgrieztās maksas mehānismu  |
+|      Indija         |   2020. decembris      | 10.0.16, HF, 10.0.15HF      |   TCS par preču pārdošanu saskaņā ar 206 9(1H) izmaiņām, pamatojoties uz CBDT paziņojumu presei  |
+|      Latvija         |   2020. decembris      | 10.0.17      |   Intrastat formāts tiek atjaunināts, sākot no 2021  |
+|      Meksika         |   2020. decembris      | 10.0.17, 10.0.16, 10.0.15      |   Atribūta “Monto” atjauninājums |
 |      Nīderlande         |   2020. oktobris      | 10.0.16     |   Intrastat formāts tiek atjaunināts, sākot no 2021 |
-|      Norvēģija         |   2020. gada augusts      | 10.0.14     |   SAF-T — darījumu grupēšanas līmenis pēc dokumenta ir jāziņo darījumu elementa līmenī, nevis žurnāla elementa līmenī |
-|      Polija          |   2020. septembris     | 10.0.14     |   Polija: JPK-V7M (VDEK) Excel formāts — lai aizstātu SSRS pārskatu  |
-|      Polija          |   2020. gada jūlijs     | 10.0.15, 10.0.14HF, 10.0.13     |   Neobligātie dalītā maksājuma uzlabojumi |
-|      Polija          |   2020. oktobris     | 10.0.13HF     |   Obligātie dalītā maksājuma uzlabojumi |
-|      Polija          |   2020. gada novembris     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) — pārdošanas dokumenta tips FP un RO mazumtirdzniecības darījumiem |
+|      Nīderlande         |   2020. decembris      | 10.0.167     |   Nīderlandes taksonomijas jaunā versija NT15 |
+|      Polija          |   2020. septembris     | 10.0.15     |   Neobligātie dalītā maksājuma uzlabojumi |
+|      Polija          |   2020. gada novembris     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK) — pārdošanas dokumenta tips FP un RO mazumtirdzniecības darījumiem |
 |      Polija          |   2020. septembris     | 10.0.15     |   Polija: JPK-V7M (VDEK) — atslēdziet iespēju izpildīt pārskata ģenerēšanu pa daļām |
 |      Polija          |   2020. oktobris     | 10.0.16     |   JPK-V7M (VDEK) pārskats — parametra Labprātīgi sadalīts maksājums ieviešana |
-|      Krievija          |   2020. gada augusts     | 10.0.14    |   Uzskaites pārskatu formāts mainās sākot no 2020. gada  |
-|      Krievija          |   2020. gada jūlijs     | 10.0.13    |   Nolietojuma aprēķins, pamatojoties uz sākotnējo vērtību un kapitālo remontu, nodokļu uzskaitē piemērojot papildnolietojumu  |
+|      Polija          |   2020. gada novembris     | 10.0.16, 10.0.15HF     |   Retail – mazumtirdzniecības klienta rēķina izrakstīšana pēc pieprasījuma |
+|      Polija          |   2021. janvāris     | 10.0.17, 10.0.16HF, 10.0.15HF     |   Polija: JPK_KR (SAF uzskaites grāmatas) precizējumi, spēkā no 2021. gada janvāra |
 |      Krievija          |   2020. gada novembris     | 10.0.16    |   PVN deklarācijas formāts ir atjaunināts uz versiju 5.07, sākot no pārskata par 2020. gada 4. ceturksni|
+|      Krievija          |   2020. oktobris     | 10.0.16    |   Izmaiņas PBU18 uzskaites pārskatos 2020. gadam|
+|      Krievija          |   2021. janvāris     | 10.0.17    |   Jauns formāts īpašuma nodokļa deklarācijai (tehniskā versija 5.07, nevis 5.06) 2020. gada pārskatam|
+|      Spānija          |   2020. gada novembris     | 10.0.17    |   SII atjaunināšanas apstiprināšana un kļūdas v.2.1(bis) no 2021. gada 1. janvāra|
+|      Apvienotā Karaliste         |   2020. decembris     | 10.0.17, 10.0.16, 10.0.15    |   Uzņēmuma nodokļu reģistrācija klientu rēķinos (Breksits – Ziemeļīrijas protokols)|
+|      Apvienotā Karaliste          |   2020. decembris     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Breksits – Ziemeļīrijas protokola ietekme uz uzņēmumiem, kas tirgo preces gan GB, gan NI teritorijās|
 
 
 
@@ -87,6 +77,3 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 - Informācija par visiem plānotajiem un izlaistajiem normatīvajiem atjauninājumiem ir pieejama vietnē [Lifecycle Service — problēmu meklētājs](https://lcs.dynamics.com/Logon/Index) (ir nepieciešams pierakstīties).
 - Atbalstīto programmas lokalizāciju sarakstu skatiet [Starptautiskās pieejamības rokasgrāmata](https://aka.ms/dynamics_365_international_availability_deck).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
