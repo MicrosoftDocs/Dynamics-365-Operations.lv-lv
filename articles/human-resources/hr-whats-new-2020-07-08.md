@@ -1,8 +1,8 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 08. jūlijs)
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 8. jūliju.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528477"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130401"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 8. jūlijs)
 
@@ -71,9 +71,9 @@ Izveidotie un modificētie sistēmas lauki tagad ir iespējoti Human Resources t
 
 Šis laidiens izlabo kļūdu (nulles atsauce) racionalizētā darbinieka ierakstā, kad, pieņemot darbā darbinieku, izmantojat opciju **Pieņemt darbā un pievienot informāciju**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service darbinieka elementā veiktās izmaiņas netiek atspoguļotas Human Resources (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Dataverse darbinieka elementā veiktās izmaiņas netiek atspoguļotas Human Resources (455652)
 
-Izmaiņas, kas veiktas šādos laukos Common Data Service elementā **Darbinieks**, tagad tiks parādītas Human Resources:
+Izmaiņas, kas veiktas šādos laukos Dataverse elementā **Darbinieks**, tagad tiks parādītas Human Resources:
 
 - **Strādā no mājām**
 - **Darba stāža datums**
@@ -131,9 +131,9 @@ DMF elements tagad ir pieejams uzkrājumu atlikšanai.
 
 ## <a name="coming-soon"></a>Drīzumā
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Kontrolsaraksta entītijas iekļautas Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Kontrolsaraksta entītijas iekļautas Dataverse
 
-Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Common Data Service.
+Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami Dataverse.
 
 ## <a name="see-also"></a>Skatiet arī
 
@@ -141,6 +141,3 @@ Kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa 
 [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

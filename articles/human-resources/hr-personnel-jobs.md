@@ -2,7 +2,7 @@
 title: Darba komponentu iestatīšana
 description: Šajā rakstā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,18 +12,18 @@ ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManage
 audience: Application User
 ms.author: anbichse
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22f147f85db1ef3423608578e64df7f522564e0d
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419535"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130185"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
@@ -87,6 +87,3 @@ Atbildības jomas ir jāizmanto, lai norādītu darba lomas, procesus un preces,
 
 ## <a name="steps-for-creating-a-job"></a>Norādījumi par darba izveidi
 Sīku jaunas darba izveides procedūras aprakstu skatiet rakstā [Jaunu darbu definēšana](../fin-and-ops/hr/tasks/define-new-jobs.md). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

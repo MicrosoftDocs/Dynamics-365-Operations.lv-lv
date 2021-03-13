@@ -1,9 +1,9 @@
 ---
 title: Darba pasūtījumu izveidošana
 description: Šajā tēmā ir paskaidrots, kā izveidot darba pasūtījumus programmā Asset Management.
-author: josaw1
+author: johanhoffmann
 manager: tfehr
-ms.date: 08/27/2019
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,47 +11,87 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
-ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f94f8bc20753e38ce1cb6eccdfbc85c2e491ffad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
+ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432818"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "5131797"
 ---
 # <a name="creating-work-orders"></a>Darba pasūtījumu izveidošana
 
 [!include [banner](../../includes/banner.md)]
 
- 
+Kad ir izveidots profilaktisks uzturēšanas darbs, nākamais solis ir darba pasūtījumu izveide darbiem. Šo soli var izpildīt, izmantojot vienu no uzturēšanas grafikiem. Uzturēšanas grafikā ieplānotajiem darbiem var būt dažādi atsauces veidi, kā norādīts nākamajā tabulā.
 
-Kad ir izveidots profilaktisks uzturēšanas darbs, nākamais solis ir darba pasūtījumu izveide darbiem. Tas tiek darīts kādā uzturēšanas grafikā. Uzturēšanas grafikā ieplānotajiem darbiem var būt dažādi atsauces veidi.
+| Atsauces tips | Apraksts |
+|---|---|
+| Uzturēšanas plāni | Profilaktiskie uzturēšanas darbi, balstoties uz apkopes plāna veidiem *Laiks* vai *Skaitītājs*. |
+| Uzturēšanas cikls | Profilaktiskie uzturēšanas darbi, kas satur vairākus līdzekļus, kam vajadzīga viena veida uzturēšana. |
+| Uzturēšanas pieprasījums | Manuāli izveidots pieprasījums par pamatlīdzekļa uzturēšanu vai remontu. Šo pieprasījumu var konvertēt uz darba pasūtījumu. |
 
-| Atsauces tips | Apraksts                    |
-|-----------------------|------------------------------------------------------------------------------------------------------------|
-| Uzturēšanas plāni     | Profilaktiskie uzturēšanas darbi, balstoties uz apkopes plāna veidiem „Laiks” vai „Skaitītājs”.                       |
-| Uzturēšanas cikls    | Profilaktiskie uzturēšanas darbi, kas satur vairākus līdzekļus, kam vajadzīga viena veida uzturēšana.           |
-| Uzturēšanas pieprasījums   | Manuāli izveidots pieprasījums līdzekļa uzturēšanai vai remontam, ko var pārvērt par darba pasūtījumu. |
+## <a name="create-work-orders-based-on-your-maintenance-schedule"></a>Darba pasūtījumu izveide, pamatojoties uz uzturēšanas grafiku
 
+Lai izveidotu darba pasūtījumus, kas ir balstīti uz uzturēšanas grafiku, sekojiet šiem soļiem.
 
-1. Noklikšķiniet uz **Līdzekļu pārvaldība** > **Vispārīgi** > **Viss uzturēšanas grafiks** vai **Atvērt uzturēšanas grafika rindas**, vai **Atvērt uzturēšanas grafika kopas**.
+1. Atveriet vienu no šīm lapām atkarībā no tā, kā vēlaties atlasīt grafika krājumus darba pasūtījumiem:
 
-2. Atlasiet ieplānotos uzturēšanas darbus, kam vēlaties izveidot darba pasūtījumu, un noklikšķiniet uz **Darba pasūtījums**. Dialoglodziņā **Izveidot darba pasūtījumus** kopīgais paredzamais stundu skaits atlasītajām rindām tiek parādīts laukā **Uzturēšanas prognozes stundas**.
+    - Viss uzturēšanas grafiks (**Līdzekļu pārvaldība \> Uzturēšanas grafiks \> Visi uzturēšanas grafiki**)
+    - Viss uzturēšanas grafiks (**Līdzekļu pārvaldība \> Uzturēšanas grafiks \> Visi uzturēšanas grafiki**)
+    - Viss uzturēšanas grafiks (**Līdzekļu pārvaldība \> Uzturēšanas grafiks \> Visi uzturēšanas grafiki**)
 
-3. Sadaļā **Parametri** atlasiet, cik darba pasūtījumu jāizveido. Varat izveidot vienu darba pasūtījumu uzturēšanas grafika rindai vai vairākus darba uzdevumus, balstoties uz jūsu izvēli sadaļā **Viens darba pasūtījums kategorijā**.
+1. Režģī atzīmējiet izvēles rūtiņu katram plānotajam uzturēšanas darbam, kuram vēlaties izveidot darba pasūtījumu. Darbību rūtī atlasiet **Darba pasūtījums**.
 
-4. Atlasiet **Darba pasūtījuma veidu**, kas tiks izmantots visiem jūsu veidotajiem darba pasūtījumiem. Attēlā zemāk ir parādīts dialoglodziņš **Izveidot darba pasūtījumus**.
+    Tiek parādīts dialoglodziņš **Izveidot darba pasūtījumus**. Kopīgais paredzamais stundu skaits atlasītajām rindām tiek parādīts laukā **Uzturēšanas prognozes stundas**.
 
-![1. attēls](media/18-preventive-maintenance.png)
+    ![Darba pasūtījumu dialoglodziņa izveide](media/18-preventive-maintenance.png)
 
-5. Noklikšķiniet uz **Labi**. Tiek izveidots viens vai vairāki darba pasūtījumi.
+1. Sadaļā **Parametri** norādiet izveidojamo darba pasūtījumu skaitu. Izvēlieties vienu no šīm opcijām:
 
+    - **Viens darba pasūtījums katrā rindā** – izveidot vienu darba pasūtījumu katrai uzturēšanas grafika rindai.
+    - **Viens darba pasūtījums katram** – izveidojiet darba pasūtījumus, kas ir grupēti atbilstoši citu opciju iestatījumiem, kaskļūst pieejami, izvēloties šo opciju.
 
+1. Laukā **Darba pasūtījuma veids** atlasiet darba pasūtījuma veidu, ko izmantot visiem izveidotajiem darba pasūtījumiem.
+1. Atlasiet **Labi**, lai izveidotu darba pasūtījumus atbilstoši iestatījumiem.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Grupēt darba pasūtījuma rindas, kas tiek automātiski izveidotas uzturēšanas plāna izpildes laikā
+
+> [!IMPORTANT]
+> Šajā tēmā minētā funkcionalitāte ir pieejama kā daļa no privātā priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+Šī funkcija ļauj definēt noteikumus darba pasūtījumu rindu grupēšanai saskaņā ar vienu darba pasūtījumu, ja sistēma ir iestatīta darba pasūtījumu automātiskai ģenerēšanai, pamatojoties uz uzturēšanas plānu. Iepriekš automātiski izveidotie darba pasūtījumi var ietvert tikai vienu rindu. Tomēr tagad var grupēt darba pasūtījumus pēc, piemēram, pamatlīdzekļa, pamatlīdzekļa tipa vai funkcionālās atrašanās vietas. (Manuāli izveidotos darba pasūtījumus jau var grupēt šādā veidā, kā aprakstīts šīs tēmas iepriekšējā sadaļā.)
+
+### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Iespējot grupēšanu automātiski ģenerētiem darba pasūtījumiem
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
+
+- **Modulise:** *Līdzekļu pārvaldība*
+- **Līdzekļa nosaukums:** *(Priekšskatījums) Piemērot noteikumus darba pasūtījumu grupēšanai uzturēšanas plāna izpildes laikā*
+
+### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Iestatīt grupēšanu automātiski ģenerētiem darba pasūtījumiem
+
+Lai iestatītu grupēšanu automātiski ģenerētiem darba pasūtījumiem, rīkojieties šādi.
+
+1. Dodieties uz **Līdzekļu pārvaldība \> Uzstādīšana \> Preventīvā uzturēšana \> Uzturēšanas plāni**.
+1. Katram plānam, kur vēlaties izveidot grupētus darba pasūtījumus, rīkojieties šādi:
+
+    1. Sarakstu rūtī atlasiet plānu.
+    1. Kopsavilkuma cilnē **Rindas** pārliecinieties, vai katrā rindā ir atzīmēta izvēles rūtiņa **Automātiski izveidot**.
+
+1. Dodieties uz **Līdzekļu pārvaldība \> Periodiskās darbības \> Profilaktiskā uzturēšana \> Ieplānot uzturēšanas plānus**.
+1. Dialoglodziņa **Plānot uzturēšanas plānus** sadaļā **Periods** norādiet plāna laika diapazonu (cik tālu uz priekšu meklējiet plānotos uzturēšanas darbus, lai ģenerētu darbu).
+1. Iestatiet opciju **Automātiski izveidot darba pasūtījumu no grafika** uz *Jā*.
+1. Sadaļā **Apliecinājums** izvēlieties vienu no šīm opcijām:
+
+    - **Viens darba pasūtījums katrā rindā** – izveidot vienu darba pasūtījumu katrai uzturēšanas grafika rindai. (Šī opcija nodrošina to pašu funkcionalitāti, kas ir pieejama, ja ir atspējota funkcija *Piemērot darba pasūtījumu grupēšanas kārtulas, kamēr uzturēšanas plāna līdzeklis*.)
+    - **Viens darba pasūtījums katram** – izveidojiet darba pasūtījumus, kas ir grupēti atbilstoši citu opciju iestatījumiem, kaskļūst pieejami, izvēloties šo opciju.
+
+1. Ja vēlaties, lai opcijas tiek lietotas, kad palaižat tikai dažus no jūsu uzturēšanas plāniem, kopsavilkuma cilnē **Iekļaujamie ieraksti** pievienojiet filtrus pēc vajadzības, tāpat kā citiem Microsoft Dynamics 365 Supply Chain Management  pakešuzdevumiem.
+1. Kopsavilkuma cilnē **Palaist fonā** iestatiet pakešuzdevumu un plānošanas opcijas pēc vajadzības, tāpat kā citiem Supply Chain Management pakešuzdevumiem.
+1. Atlasiet **Labi**, lai palaistu un/vai plānotu atlasītos uzturēšanas plānus.

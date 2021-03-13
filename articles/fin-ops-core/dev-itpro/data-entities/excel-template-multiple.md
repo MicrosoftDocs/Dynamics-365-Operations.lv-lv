@@ -1,5 +1,5 @@
 ---
-title: Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas
+title: Datu veidnes ar vairākām darblapām
 description: Šajā tēmā ir aprakstīts, kā importēt datus programmā Finance and Operations, izmantojot Excel datu elementu veidnes.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688083"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130585"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Datu importēšana no Excel datu elementu veidnēm, kam ir vairākas darblapas
+# <a name="data-templates-with-multiple-worksheets"></a>Datu veidnes ar vairākām darblapām
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Gadījumos, kad kādā datu projektā esošiem elementiem ir nepieciešams augš
 ## <a name="upload-a-file-using-run-project"></a>Faila augšupielādēšana, izmantojot opciju Palaist projektu
 
 Varat augšupielādēt Excel failu, kamēr izmantojat opciju **Palaist projektu**, lai izpildītu importēšanas projektu. Uzmanieties, lai augšupielādētu tikai failus, kuros ir tādas pašas darblapas kā esošajiem kartējumiem uz datu elementiem datu projektā. Ja no jauna augšupielādētajā failā kāda darblapa netiek atrasta, sistēma parāda kļūdas ziņojumu un pārtrauc importēšanu. Ja kādam elementam ir jāmaina kartēšana uz darblapu, tad kartējumi datu projektā vispirms ir jāatjaunina no datu projekta, un tikai pēc tam šo failu var izmantot funkcionalitātē **Palaist projektu**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

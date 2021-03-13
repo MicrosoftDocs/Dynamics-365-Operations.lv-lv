@@ -1,8 +1,8 @@
 ---
 title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources (2020. gada 3. aprīlis)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 3. aprīli.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b00ef61cdd7ceac6c6f57187a0e6c98e94c8cb71
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526790"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127925"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Human Resources (2020. gada 3. aprīlis)
 
@@ -64,7 +64,7 @@ Sākuma dati ir atjaunināti, lai atspoguļotu pareizo saīsinājumu Manitobai u
  - Atvaļinājuma un kavējuma plāna pakāpe V2
  - Atvaļinājuma un kavējuma plāns V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service risinājums tagad ir pieejams ar šādām izmaiņām:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse risinājums tagad ir pieejams ar šādām izmaiņām:
 
 | apraksts | Labot |
 | --- | --- |
@@ -76,18 +76,18 @@ Sākuma dati ir atjaunināti, lai atspoguļotu pareizo saīsinājumu Manitobai u
 | Jaunas mainīgās atlīdzības iestatījuma entitījas | <ul><li>**Atlīdzības mainīgā plāna tips**</li><li>**Atlīdzības mainīgā sistēma**</li><li>**Izmaksas noteikumi**</li><li>**Atlīdzības mainīgā plāna līmenis**</li></ul> |
 | Jauna **Darbinieka kalendāra nodarbinātības** entitīja | <ul><li>**Darba kalendāra elements** pievienots</li></ul> |
 | Jauna **Algas pozīcijas detalizētas informācijas** entitīja | <ul><li>**Algas pozīcijas detalizēta informācija** pievienota</li></ul> |
-| Jauna **Nosaukuma** entitīja | <ul><li>**Nosaukums** pievienots</li></ul>Jaunā **Nosaukuma** entītija ir iekļauta Common Data Service, bet šajā laikā nav atsauces no **Darba amata** vai **Darba** vienībām. |
+| Jauna **Nosaukuma** entitīja | <ul><li>**Nosaukums** pievienots</li></ul>Jaunā **Nosaukuma** entītija ir iekļauta Dataverse, bet šajā laikā nav atsauces no **Darba amata** vai **Darba** vienībām. |
 
 > [!NOTE]
-> Finanšu dimensijas abām pozīcijām un nodarbinātībai nodrošina viena virziena integrēšanu personāla vadības resursu atjauninājumiem Common Data Service. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Common Data Service uz personāla vadības resursiem.
+> Finanšu dimensijas abām pozīcijām un nodarbinātībai nodrošina viena virziena integrēšanu personāla vadības resursu atjauninājumiem Dataverse. Finanšu dimensiju atjauninājumi pašlaik nesinhronizējas no Dataverse uz personāla vadības resursiem.
 
-Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Common Data Service risinājumu Personāla vadībai:
+Nākamo dažu nedēļu laikā šīs elementa izmaiņas būs pieejamas visās vidēs. Lai manuāli instalētu jaunāko Dataverse risinājumu Personāla vadībai:
 
 1.  Dodieties uz [Power Platform Administrēšanas centru](https://admin.powerplatform.microsoft.com).
 
 2.  Atlasiet **Vides**.
 
-3.  Sameklējiet vidi, ko vēlaties atjaunināt. Apkārtējai videi ir jāatbilst **Vides nosaukumam** **Common Data Service informācijas** sadaļā, kas atrodas sadaļā **Par** personāla vadības veidlapā.
+3.  Sameklējiet vidi, ko vēlaties atjaunināt. Apkārtējai videi ir jāatbilst **Vides nosaukumam** **Dataverse informācijas** sadaļā, kas atrodas sadaļā **Par** personāla vadības veidlapā.
 
 4.  Atlasiet vidi, lai skatītu vides informāciju.
 
@@ -137,5 +137,3 @@ Ja dokumenta priekšskatījums dokumentiem, kas saglabāti SharePoint programmā
 [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

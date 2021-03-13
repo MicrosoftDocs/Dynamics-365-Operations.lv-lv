@@ -1,5 +1,5 @@
 ---
-title: Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations lietojumprogrammās
+title: Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations programmās
 description: Šajā tēmā sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas ar duālā ieraksta moduli Finance and Operations lietojumprogrammās.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683627"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131249"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations lietojumprogrammās
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problēmu novēršana saistībā ar duālā ieraksta moduli Finance and Operations programmās
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Ja nevarat atvērt lapu **Duālais ieraksts**, atlasot elementu **Duālais ierak
 
 **Nepieciešamie akreditācijas dati, lai labotu problēmu:** tas pats lietotājs, kas iestata duālo rakstīšanu.
 
-Mēģinot konfigurēt jaunu elementu duālajam ierakstam, jūs varētu saņemt šādu kļūdas ziņojumu. Vienīgais lietotājs, kas var izveidot karti, ir lietotājs, kas uzstāda duālās rakstīšanas savienojumu.
+Mēģinot konfigurēt jaunu tabulu duālajam ierakstam, jūs varētu saņemt šādu kļūdas ziņojumu. Vienīgais lietotājs, kas var izveidot karti, ir lietotājs, kas uzstāda duālās rakstīšanas savienojumu.
 
 *Atbildes statusa kods nenorāda uz veiksmi: 401 (nesankcionēts)*
 
@@ -77,7 +77,7 @@ Mēģinot apturēt tabulas kartēšanu, jūs varētu saņemt šādu kļūdas zi�
 
 Lai atrisinātu problēmu, izveidojiet biļeti datu integrācijas grupai. Pievienojiet tīkla izsekošanu, lai datu integrācijas grupa varētu atzīmēt kartes kā **Nedarbojošās** aizmugursistēmā.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Kļūda, mēģinot sākt tabulas kartēšanu
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Kļūda, mēģinot sākt tabulas kartēšanu
 
 Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parādīta šāda kļūda:
 
@@ -86,7 +86,4 @@ Mēģinot iestatīt šo kartēšanas stāvokli uz **Darbojas**, var tikt parād�
 Šīs kļūdas labojums ir atkarīgs no kļūdas cēloņa:
 
 + Ja kartēšanai ir atkarīgi kartējumi, pārliecinieties, ka iespējojat šīs tabulas kartēšanas atkarīgos kartējumus.
-+ Kartēšanai var trūkt avota vai mērķa lauku. Ja trūkst lauks programmā Finance and Operations, izpildiet sekojošos soļus sadaļā [Trūkst entītiju lauku kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai lauki tiktu automātiski aizpildīti atpakaļ kartēšanā.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Kartēšanai var trūkt avota vai mērķa kolonnu. Ja trūkst kolonnas programmā Finance and Operations, izpildiet sekojošos soļus sadaļā [Tabulu kolonnu trūkums kartēs](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ja trūkst lauks programmā Dataverse, noklikšķiniet uz pogas **Atsvaidzināt tabulas** kartēšanā, lai kolonnas tiktu automātiski novirzītas atpakaļ kartēšanā.

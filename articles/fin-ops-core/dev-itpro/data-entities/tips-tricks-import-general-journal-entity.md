@@ -1,5 +1,5 @@
 ---
-title: Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu
+title: Dokumentu importēšana, izmantojot Virsgrāmatas žurnāla entītiju
 description: Šajā tēmā ir sniegti padomi par datu importēšanu virsgrāmatas žurnālā, izmantojot elementu Virsgrāmatas žurnāls.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687647"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129603"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Labākās prakses dokumentu importēšanai, izmantojot virsgrāmatas žurnāla elementu
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Dokumentu importēšana, izmantojot Virsgrāmatas žurnāla entītiju
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ Tālāk norādītajās sadaļās ir aprakstīta šo iestatījumu ietekme. Tie ar
 - Ja lauks **Dokumenta numurs** ir iestatīts uz **Automātiski ģenerēts**, tad importēšana neizdosies. Iestatījums **Automātiski ģenerēts** laukam **Dokumenta numurs** netiek atbalstīts.
 
 Pēc noklusējuma elements Virsgrāmatas žurnāls izmanto no kopas atkarīgu apstrādi. Kad esat izvērtējis savas organizācijas biznesa prasības, iestatījumu **No kopas atkarīga apstrāde** varat mainīt, noklikšķinot uz **Datu elementi** darbvietā **Datu pārvaldība**. No kopas atkarīga apstrāde tiek izmantota, lai paātrinātu importēšanas procesu. Ja neizmantojat no kopas atkarīgu apstrādi, elementa Virsgrāmatas žurnāls importēšana notiks lēnāk.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

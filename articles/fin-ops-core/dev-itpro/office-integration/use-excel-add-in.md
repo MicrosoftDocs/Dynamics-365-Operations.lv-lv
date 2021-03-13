@@ -1,9 +1,9 @@
 ---
-title: Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu
-description: Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel.
-author: ChrisGarty
+title: Skatīt un atjaunināt entītijas datus programmā Excel
+description: Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel.
+author: jasongre
 manager: AnnBe
-ms.date: 04/11/2018
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -13,30 +13,31 @@ ms.reviewer: sericks
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
-ms.author: cgarty
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a9486b3d700cdbe19fbcdba431f673d0a03014f
+ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688471"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141880"
 ---
-# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Elementa datu atvēršana programmā Excel un to atjaunināšana, izmantojot Excel pievienojumprogrammu
+# <a name="view-and-update-entity-data-with-excel"></a>Skatīt un atjaunināt entītijas datus programmā Excel 
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir paskaidrots, kā elementa datus atvērt programmā Microsoft Excel un pēc tam šos datus apskatīt, atjaunināt un rediģēt, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu elementa datus, varat sākt no programmas Excel vai Finance and Operations.
+Šajā tēmā ir paskaidrots, kā atvērt entītijas datus programmā Microsoft Excel un pēc tam skatīt, atjaunināt un rediģēt tos, izmantojot Microsoft Dynamics Office pievienojumprogrammu programmai Excel. Lai atvērtu entītijas datus, varat sākt no programmas Excel vai Finance and Operations.
 
 Atverot elementa datus programmā Excel, varat ātri un vienkārši apskatīt un rediģēt šos datus, izmantojot Excel pievienojumprogrammu. Šai pievienojumprogrammai ir nepieciešama programma Microsoft Excel 2016.
 
 > [!NOTE]
 > Ja jūsu Microsoft Azure Active Directory (Azure AD) nomnieks ir konfigurēts Active Directory federācijas pakalpojumu (AD FS) lietošanai, pārliecinieties, ka ir instalēts 2016. gada maija Office atjauninājums, lai Excel pievienojumprogramma varētu nodrošināt pareizu jūsu pierakstīšanu.
 
-Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana virsrakstu un rindu modeļiem programmatūrā Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, noskatieties īso video [Excel veidnes izveidošana galveņu un rindu modeļiem](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Atvērt elementa datus programmā Excel, kas sākat no Finance and Operations
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atveriet entītijas datus programmā Excel, sākot no programmas Finance and Operations
 1. Finance and Operations lapā atlasiet **Atvērt programmā Microsoft Office**.
 
     Ja saknes datu avots (tabula) šai lapai ir tāda pati kā saknes datu avots jebkuriem elementiem, šai lapai tiek ģenerētas noklusējuma opcijas **Atvērt programmā Excel**. Opcijas **Atvērt programmā Excel** ir atrodamas bieži izmantotajās lapās, piemēram, **Visi kreditori** un **Visi debitori**.
@@ -44,7 +45,7 @@ Lai iegūtu plašāku informāciju par Excel pievienojumprogrammas lietošanu, n
 2. Atlasiet opciju **Atvērt programmā Excel** un atveriet ģenerēto darbgrāmatu. Šajā darbgrāmatā ir saistību informācija par attiecīgo elementu, rādītājs uz jūsu vidi un rādītājs uz Excel pievienojumprogrammu.
 3. Programmā Excel atlasiet **Iespējot rediģēšanu**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**.
-5. Ja tiek prasīts pierakstīties, atlasiet **Pierakstīties** un pēc tam pierakstieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pierakstītos programmā Finance and Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no Internet Explorer un jūs pieraksta automātiski, ja iespējams. Tādēļ pārbaudiet lietotājvārdu Excel pievienojumprogrammas labajā augšējā stūrī.
+5. Ja tiek prasīts pierakstīties, atlasiet **Pierakstīties** un pēc tam pierakstieties, izmantojot tos pašus akreditācijas datus, ko izmantojāt, lai pierakstītos programmā Finance and Operations. Excel pievienojumprogramma lieto iepriekšējās pierakstīšanās kontekstu no  un jūs pieraksta automātiski, ja iespējams. (Informāciju par pārlūkprogrammu, kas tiek izmantota balstoties uz operētājsistēmas, skatiet [Pārlūkprogrammas, ko izmanto Office pievienojumprogrammas](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Lai pārliecinātos, ka pierakstīšanās ir veiksmīga, pārbaudiet lietotāja vārdu Excel pievienojumprogrammas augšējā labajā stūrī. 
 
 Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto elementu. Ņemiet vērā, ka darbgrāmatā nav nekādu datu, līdz Excel pievienojums tos ielasa.
 
@@ -53,7 +54,7 @@ Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto element
 2. Pakalpojumā Office veikals meklējiet pēc atslēgvārda **Dynamics** un pēc tam atlasiet vienumu **Pievienot**, kas atrodas blakus vienumam **Microsoft Dynamics Office pievienojumprogramma** (Excel pievienojumprogramma).
 3. Ja pirmo reizi palaižat Excel pievienojumprogrammu, atlasiet **Uzticēties šai pievienojumprogrammai**, lai iespējotu Excel pievienojumprogrammas palaišanu. Excel pievienojumprogramma darbojas rūtī, kas atrodas Excel loga labajā pusē.
 4. Atlasiet **Pievienot servera informāciju**, lai atvērtu rūti **Opcijas**.
-5. Pārlūkprogrammā nokopējiet mērķa Finance and Operations instances URL, ielīmējiet to laukā **Servera URL** un pēc tam izdzēsiet visus simbolus, kas seko resursdatora nosaukumam. Iegūtajam URL ir jāsatur tikai resursdatora nosaukums.
+5. Pārlūkprogrammā nokopējiet programmas Finance and Operations mērķa instances URL, ielīmējiet to laukā **Servera URL** un pēc tam izdzēsiet visus simbolus, kas seko resursdatora nosaukumam. Iegūtajam URL ir jāsatur tikai resursdatora nosaukums.
 
     Piemēram, ja URL ir `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, dzēsiet visu, izņemot `https://xxx.dynamics.com`.
 
@@ -72,7 +73,7 @@ Excel pievienojumprogramma automātiski nolasa datus par jūsu atlasīto element
 Kad Excel pievienojumprogramma ir ielasījusi elementa datus darbgrāmatā, varat jebkurā brīdī atjaunināt šos datus, Excel pievienojumprogrammā atlasot **Atsvaidzināt**.
 
 ## <a name="edit-entity-data-in-excel"></a>Rediģēt elementa datus programmā Excel
-Varat pēc nepieciešamības mainīt elementa datus un pēc tam tos publicēt atpakaļ, Excel pievienojumprogrammā atlasot **Publicēt**. Lai rediģētu kādu ierakstu, darblapā atlasiet kādu šūnu un pēc tam mainiet šīs šūnas vērtību. Lai pievienotu jaunu ierakstu, izpildiet tālāk aprakstītās darbības.
+Varat pēc nepieciešamības mainīt entītijas datus un pēc tam tos publicēt atpakaļ Finance and Operations programmās, atlasot Excel pievienojumprogrammā **Publicēt**. Lai rediģētu kādu ierakstu, darblapā atlasiet kādu šūnu un pēc tam mainiet šīs šūnas vērtību. Lai pievienotu jaunu ierakstu, izpildiet tālāk aprakstītās darbības.
 
 - Noklikšķiniet jebkurā datu avotu tabulas vietā un pēc tam Excel pievienojumprogrammā atlasiet **Jauns**.
 - Noklikšķiniet jebkurā vietā pēdējā datu avotu tabulas rindā un pēc tam nospiediet tabulēšanas taustiņu, līdz kursors tiek pārvietots ārā no pēdējās kolonnas šajā rindā un tiek izveidota jauna rinda.
@@ -105,6 +106,21 @@ Varat izmantot veidotāju, lai regulētu kolonnas, kuras darblapai ir pievienota
 4. Lai lietotu veiktās izmaiņas datu avotam, atlasiet **Atjaunināt**. Pēc tam atlasiet **Gatavs**, lai aizvērtu noformētāju.
 5. Ja pievienojāt lauku (kolonnu), atlasiet **Atsvaidzināt**, lai ievilktu atjauninātu datu kopu.
 
+## <a name="change-the-publish-batch-size"></a>Mainiet publicēšanas partijas lielumu
+Kad lietotāji publicē izmaiņas datu ierakstos, izmantojot Excel pievienojumprogrammu, atjauninājumi tiek iesniegti paketēs. Noklusējuma publicēšanas partijas lielums ir 100 rindas. Versijā 10.0.17 un jaunākā versijā **Atļaut publicējamā partijas lieluma konfigurēšanu Excel pievienojumprogrammas līdzeklī** sniedz elastīgu kontroli publicēšanas partijas lielumam.
+
+Sistēmas administratori var norādīt visas sistēmas ierobežojumu publicēšanas paketes lielumam darbgrāmatām "Atvērt Excel", iestatot lauku **Partijas ierobežojuma publicēšana** **Office lietojumprogrammas parametru** lapas sadaļā **Lietojumprogrammas parametri**.
+
+Publicēšanas paketes lielumu var arī mainīt atsevišķai darbgrāmatai, izmantojot Excel pievienojumprogrammu.
+
+1. Atveriet darbgrāmatu programmā Excel.
+2. Excel pievienojumprogrammas augšējā labajā stūrī atlasiet pogu **Opcijas** (zobrata ikona).
+3. Pēc izvēles iestatiet lauku **Publicēt partijas lielumu**. Jūsu iestatītās vērtības vērtībai ir jābūt mazākai par sistēmas mēroga publicēšanas paketes ierobežojumu.
+4. Atlasiet **Labi**.
+5. Saglabājiet darbgrāmatu. Ja darbgrāmatu nesaglabāsit pēc pievienojumprogrammu iestatījumu izmaiņu veikšanas, šīs izmaiņas netiks saglabātas, atverot darbgrāmatu atkārtoti.
+
+Excel darbgrāmatas veidņu autori var izmantot to pašu procedūru, lai iestatītu publicēšanas paketes lielumu veidnēm, pirms tās tiek augšupielādētas sistēmā.
+
 ## <a name="copy-environment-data"></a>Kopēt vides datus
 
 No vienas vides darblapā ielasītos datus var kopēt uz citu vidi. Taču jūs nevarat vienkārši mainīt savienojuma URL, jo darblapas datu kešatmiņā dati joprojām tiks apstrādāti kā esoši dati. Tā vietā ir jāizmanto funkcionalitāte Kopēt vides datus, lai publicētu datus jaunā vidē kā jaunus datus.
@@ -123,6 +139,4 @@ Noteiktas problēmas var atrisināt ar dažām vienkāršām darbībām.
 - **Tiek rādīta poga Ielādēt sīkprogrammas** — ja pēc pierakstīšanās Excel pievienojumprogrammai tiek rādīta poga **Ielādēt sīkprogrammas**, visticamāk, esat pierakstījies, izmantojot nepareizu lietotāja kontu. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
 - **Saņemat ziņojumu “Aizliegts”**  — ja laikā, kad Excel pievienojumprogrammā notiek metadatu ielāde, saņemat ziņojumu “Aizliegts”, tad kontam, kas ir izmantots, lai pierakstītos Excel pievienojumprogrammā, nav atļaujas lietot attiecīgo pakalpojumu, instanci vai datu bāzi. Lai atrisinātu šo problēmu, pārbaudiet, vai Excel pievienojumprogrammas labajā augšējā stūrī tiek rādīts pareizais lietotājvārds. Ja tiek rādīts nepareizs lietotājvārds, atlasiet to, izrakstieties un pēc tam atkal pierakstieties.
 - **Virs programmas Excel tiek rādīta tukša tīmekļa lapa** — ja pierakstīšanās procesa laikā tiek atvērta tukša tīmekļa lapa, tad kontam ir nepieciešams AD FS, bet Excel versija, kurā darbojas Excel pievienojumprogramma, ir pārāk veca, lai ielādētu pierakstīšanās dialoglodziņu. Lai atrisinātu šo problēmu, atjauniniet izmantoto Excel versiju. Lai atjauninātu Excel versiju, kad esat uzņēmumā, kurš atrodas atliktajā kanālā, izmantojiet [Office izvietošanas rīku](https://technet.microsoft.com/library/jj219422.aspx), lai [no atliktā kanāla pārietu uz pašreizējo kanālu](https://technet.microsoft.com/library/mt455210.aspx).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- **Datu izmaiņās publicēšanas laikā tiek saņemts taimauts** - ja saņemat taimauta ziņojumus, mēģinot publicēt datu izmaiņas entītijā, apsveriet iespēju samazināt ietekmētās darbgrāmatas publicēšanas paketes lielumu. Entītijas, kas ieraksta izraisīs lielāku loģikas apjomu, iespējams, būs jāsūta atjauninājumi mazākās paketēs, lai palīdzētu novērst taimautus.

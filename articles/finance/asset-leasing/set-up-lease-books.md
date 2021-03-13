@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4445788"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131009"
 ---
 # <a name="set-up-lease-books"></a>Nomas grāmatu iestatīšana
 
@@ -53,6 +52,4 @@ Lai izveidotu nomas grāmatu, izpildiet tālāk aprakstītās darbības.
     | Īstermiņa slieksnis                     | Ievadiet mēnešu skaitu, ko izmantot kā slieksni īstermiņa nomām. Ja nomas termiņš ir mazāks par vai vienāds ar šeit ievadīto mēnešu skaitu, sistēma klasificēs nomu kā īstermiņa nomu, un tiks piemērota atliktā nomas maksa. |
     | Nelielas vērtības slieksnis                      | Ievadiet summu, ko izmantot kā nelielas vērtības nomas robežvērtību. Ja līdzekļa patiesā vērtība ir mazāka par vai vienāda ar šeit ievadīto vērtību, sistēma klasificēs nomu kā nelielas vērtības nomu, un tiks piemērota atliktā nomas maksa. |
     | Maksāt kreditoram                            | Iestatiet šo opciju kā **Jā**, lai atļautu grāmatot nomas maksājumus kā rēķinu kreditora kontā, kas norādīts katrā nomā. Kad nomas maksājums būs grāmatots, tiks kreditēts kreditora konts. Ja šī opcija ir iestatīta uz **Nē**, tā vietā tiks kreditēts konts, kas ir norādīts lapas **Nomas grāmatošanas parametri** grāmatošanas tipam **Nomas maksājums**. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    | Līzinga līgums                       | Atlasiet konvenciju nomas sākuma datumam:<ul><li><b>Neviens</b> – kā sākuma datumu izmantot nomas sākuma datumu.</li><li><b>Pilns mēnesis</b> – kā sākuma datumu izmanto tā mēneša pirmo dienu, kurā iekrīt nomas sākuma datums.</li></ul><p>Ja atlasāt <b>Neviens</b>, pastāv risks, ka saistību norakstīšanas un līdzekļa nolietojuma grafiki uzkrās un iegrāmatos izdevumus mēneša vidū, nevis imēneša beigās. Atlasot <b>Pilns mēnesis</b>, jūs nodrošināt, ka sistēma sāks uzskaitīt nomu mēneša pirmajā datumā un visa mēneša izdevumi tiks uzkrāti un grāmatoti mēneša pēdējā dienā.</p><p><strong>Piezīme.</strong> Nomas līgumu līdzeklis ir jāieslēdz, izmantojot Līdzekļu pārvaldību. <b>Līdzekļu pārvaldības</b> darbvietā atrodiet un atlasiet līdzekli ar nosaukumu <b>Nomas līgums līdzekļa iznomāšanai</b>, un pēc tam atlasiet <b>Iespējot tūlīt</b>.</p> |

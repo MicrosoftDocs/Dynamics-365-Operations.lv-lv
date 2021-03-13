@@ -1,6 +1,6 @@
 ---
 title: Problēmu novēršana sākotnējās iestatīšanas laikā
-description: Šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
+description: Šajā tēmā ir sniegta informācija par problēmu novēršanu, kas var palīdzēt novērst problēmas, kas var rasties, veicot sākotnējo iestatīšanu duālā ieraksta integrācijai.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685591"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129985"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problēmu novēršana sākotnējās iestatīšanas laikā
 
@@ -71,13 +71,13 @@ Lai nodrošinātu programmas piekrišanu, veiciet tālāk norādītās darbības
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Pārbaudiet, vai uzņēmuma datu un duālā ieraksta komandas saistīšanas laikā ir pareizi iestatītas.
 
-Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atlasāt konfigurēšanas laikā, tiek izveidoti Dataverse vidē. Pēc noklusējuma šie uzņēmumi ir tikai lasāmi un rekvizīts **IsDualWriteEnable** ir iestatīts uz **True**. Turklāt tiek izveidots noklusējuma piederošās biznesa vienība īpašnieks un komanda un ietverts uzņēmuma nosaukums. Pirms iespējojat kartes, pārbaudiet, vai ir norādīts noklusējuma grupas īpašnieks. Lai atrastu elementu **Uzņēmumi (CDM\_uzņēmums)**, veiciet tālāk norādītās darbības.
+Lai nodrošinātu, ka duālais ieraksts darbojas pareizi, uzņēmumi, kurus atlasāt konfigurēšanas laikā, tiek izveidoti Dataverse vidē. Pēc noklusējuma šie uzņēmumi ir tikai lasāmi un rekvizīts **IsDualWriteEnable** ir iestatīts uz **True**. Turklāt tiek izveidots noklusējuma piederošās biznesa vienība īpašnieks un komanda un ietverts uzņēmuma nosaukums. Pirms iespējojat kartes, pārbaudiet, vai ir norādīts noklusējuma grupas īpašnieks. Lai atrastu tabulu **Uzņēmumi (CDM\_Uzņēmums)**, veiciet tālāk norādītās darbības.
 
-1. Modeļa vadītā programmā pakalpojumā Dynamics 365 augšējā labajā stūrī atlasiet filtru.
+1. Modeļa vadītajā programmā pakalpojumā Dynamics 365 augšējā labajā stūrī atlasiet filtru.
 2. Nolaižamajā sarakstā atlasiet **Uzņēmums**.
 3. Atlasiet **Palaist**, lai skatītu rezultātus.
 4. Atlasiet uzņēmumu, kas bija saistīts, konfigurējot duālo ierakstu.
-5. Pārbaudiet, vai laukam **Noklusējuma atbildīgā grupa** ir vērtība. Šajā attēlā lauks **Noklusējuma atbildīgā grupa** ir iestatīts uz **USMF Dual Write**.
+5. Pārbaudiet, vai kolonnai **Noklusējuma atbildīgā grupa** ir vērtība. Šajā attēlā lauks **Noklusējuma atbildīgā grupa** ir iestatīts uz **USMF Duālais ieraksts**.
 
     ![Noklusējuma atbildīgās grupas pārbaude](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ Mēģinot iespējot kartes, jūs varētu saņemt šādu kļūdas ziņojumu:
 *Duālā ieraksta kļūda - Spraudņa reģistrācija neizdevās: \[(Nevar iegūt nodalījuma karti projektam DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-.7f12cb89-1550-42e2-858e-4761fc1443ea Kļūda pārsniedz kartēšanai atļauto maksimālo nodalījumu skaitu DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Radās viena vai vairākas kļūdas*
 
 Saistot vides, pašreizējais ierobežojums ir aptuveni 40 juridiskās personas. Šī kļūda rodas, ja mēģināt iespējot kartes un starp vidēm ir saistītas vairāk nekā 40 juridiskās personas.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

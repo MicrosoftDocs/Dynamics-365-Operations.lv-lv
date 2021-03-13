@@ -2,7 +2,7 @@
 title: Laipni lūdzam, Dynamics 365 Human Resources!
 description: Dynamics 365 Human Resources sniedz darbaspēka ieskatus, kas ir nepieciešami, lai veidotu uz datiem balstītu darbinieku pieredzi vairākās jomās.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65100ba5798ac5731d510c8f6f112bb7a33b4e65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1136d4c811f819665202f5f93e54b63b98188970
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529784"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129548"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>Laipni lūdzam, Dynamics 365 Human Resources!
 
@@ -61,7 +61,7 @@ Human Resources savieno cilvēkus un operāciju datus, lai palīdzētu jums opti
 
 [Pārskats](hr-developer-overview.md)</br>
 [Paplašināšana ar Power Apps un Power Automate](hr-developer-power-apps.md)</br>
-[Human Resources elementi programmā Common Data Service](hr-developer-entities.md)</br>
+[Human Resources elementi programmā Dataverse](hr-developer-entities.md)</br>
 [Pielāgotie lauki](hr-developer-custom-fields.md)</br>
 [Datu integrācijas iestatīšana](hr-admin-integration-choose-technology.md)</br>
 [Elementa API atsauce](hr-developer-api-authentication.md)
@@ -78,6 +78,3 @@ Human Resources savieno cilvēkus un operāciju datus, lai palīdzētu jums opti
 [Atvaļinājumu un kavējumu pārvaldība](hr-leave-and-absence-overview.md)</br>
 [Darbinieku attīstība](hr-develop-performance-management-overview.md)</br>
 [Izveidojiet kursus](hr-learning-courses.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

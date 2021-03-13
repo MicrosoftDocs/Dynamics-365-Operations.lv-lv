@@ -1,8 +1,8 @@
 ---
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 18. februāris)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 18. februāri.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526982"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128069"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 18. februāris)
 
@@ -43,17 +43,17 @@ Jaunā **Darbinieka** veidlapa tagad atceras meklēšanas vērtības, ja maināt
 
 Fiksētās un mainīgās atlīdzības pārvaldības elementi tagad rāda pareizos ierakstus jaunajā veidlapā **Darbinieks**. Attiecas tikai uz racionalizētās darbinieku veidlapas priekšskatījuma līdzekli. Varat iespējot šo priekšskatījuma līdzekli **Līdzekļu pārvaldībā**. Papildinformāciju skatiet tēmā [Līdzekļu pārvaldība](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Tukša statusa lauks dažiem atvaļinājuma pieprasījumu ierakstiem pakalpojumā Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Tukša statusa lauks dažiem atvaļinājuma pieprasījumu ierakstiem pakalpojumā Dataverse (414915)
 
-Šī izmaiņa labo Common Data Service problēmu, kad **Statusa** lauks atvaļinājuma pieprasījumā ir iestatīts uz **Pārskats**. Common Data Service tagad ataino statusu.
+Šī izmaiņa labo Dataverse problēmu, kad **Statusa** lauks atvaļinājuma pieprasījumā ir iestatīts uz **Pārskats**. Dataverse tagad ataino statusu.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Prasmju atbilstību analīze ir iespējama tikai piešķirtajam darbam (411390)
 
 Tagad varat veikt prasmju atbilstību analīzi par jebkuru darbu, kas definēts Human Resources.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Sistēmas valūta netiek sinhronizēta no Common Data Service uz Human Resources jaunās vidēs (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Sistēmas valūta netiek sinhronizēta no Dataverse uz Human Resources jaunās vidēs (418011)
 
-Sistēmas valūtu Common Data Service tagad var sinhronizēt ar Human Resources.
+Sistēmas valūtu Dataverse tagad var sinhronizēt ar Human Resources.
 
 ## <a name="in-preview"></a>Priekšskatījumā
 
@@ -63,9 +63,9 @@ Sistēmas valūtu Common Data Service tagad var sinhronizēt ar Human Resources.
 
 ## <a name="coming-soon"></a>Drīzumā
 
-### <a name="updated-common-data-service-solution"></a>Atjaunināts Common Data Service risinājums
+### <a name="updated-dataverse-solution"></a>Atjaunināts Dataverse risinājums
 
-Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmaiņām:
+Jauns Dataverse risinājums drīzumā būs pieejams ar šādām izmaiņām:
 
 | Apraksts | Labot |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmai�
 | Jaunas mainīgās atlīdzības iestatījuma entitījas | **Atlīdzības mainīgā plāna tips**</br>**Atlīdzības mainīgā sistēma**</br>**Izmaksas noteikumi**</br>**Atlīdzības mainīgā plāna līmenis** |
 | Jauna **Darbinieka kalendāra nodarbinātības** entitīja | **Darba kalendāra elements** pievienots |
 | Jauna **Algas pozīcijas detalizētas informācijas** entitīja | **Algas pozīcijas detalizēta informācija** pievienota |
-| Jauna **Nosaukuma** entitīja | **Nosaukums** pievienots. Jaunais elements **Nosaukums** tiks iekļauts sinhronizācijas procesā starp Human Resources un Common Data Service. Tam nebūs sākotnējas atsauces no entitījām **Amats** vai **Darbs**. |
+| Jauna **Nosaukuma** entitīja | **Nosaukums** pievienots. Jaunais elements **Nosaukums** tiks iekļauts sinhronizācijas procesā starp Human Resources un Dataverse. Tam nebūs sākotnējas atsauces no entitījām **Amats** vai **Darbs**. |
 
 ## <a name="see-also"></a>Skatiet arī
 
@@ -84,5 +84,3 @@ Jauns Common Data Service risinājums drīzumā būs pieejams ar šādām izmai�
 [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

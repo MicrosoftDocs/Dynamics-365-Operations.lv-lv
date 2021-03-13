@@ -1,6 +1,6 @@
 ---
 title: Formātu modificēšana, lai ģenerētu dokumentus ar programmas datiem
-description: 'Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģenerēt dokumentus ar pieteikumu datu atjaunināšanu (3. daļa — modeļa un kartējuma modificēšana)".'
+description: Šajā procedūrā ir parādīts, kā noformēt elektroniskās atskaišu veidošanas (ER) konfigurācijas, lai ģenerētu elektronisku dokumentu.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684551"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129401"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formātu modificēšana, lai ģenerētu dokumentus ar programmas datiem
 
@@ -149,6 +149,3 @@ Lai pabeigtu šīs procedūras darbības, vispirms jāpabeidz procedūra "ER: ģ
 46. Aizvērt lapu.
 47. Aizvērt lapu.
 48. Aizvērt lapu.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Nodaļu izveide un ietveršana nodaļu hierarhijā
 description: Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategoriju vai funkcionālo apgabalu. Nodaļa ir atbildīga par noteiktu organizācijas jomu, piemēram, pārdošanu, uzskaiti vai personāla vadību. Nodaļas var izmantot, lai ziņotu par funkcionālām jomām. Nodaļām var būt peļņas un zaudējumu atbildība.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab9d16c8b8596f0890e0256f33608fda99a5312f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419479"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130377"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Nodaļu izveide un ietveršana nodaļu hierarhijā
 
@@ -54,6 +54,3 @@ Lai pievienotu nodaļu nodaļu hierarhijai, rīkojieties šādi.
 
 ## <a name="steps-for-creating-a-department"></a>Norādījumi par nodaļas izveidi
 Sīku jaunas nodaļas izveides procedūras aprakstu skatiet rakstā [Jaunu nodaļu definēšana](../fin-and-ops/hr/tasks/define-new-departments.md). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

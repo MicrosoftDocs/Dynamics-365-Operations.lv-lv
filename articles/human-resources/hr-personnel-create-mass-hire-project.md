@@ -2,7 +2,7 @@
 title: Masveida darbā pieņemšanas projekta izveide
 description: Šajā procedūrā aprakstīts process masveida darbā pieņemšanas projekta iestatīšanai.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ddcfd531e7b5c76ac4b15cee54880f6868a73f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbec24099ca0b6e3c97cc479bc949f47e8592b77
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419483"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130329"
 ---
 # <a name="create-a-mass-hire-project"></a>Masveida darbā pieņemšanas projekta izveide
 
@@ -48,6 +48,3 @@ ms.locfileid: "4419483"
     * Ja nepieciešams, atlasiet jauno amatu nodaļu.  
 13. Noklikšķiniet uz OK.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

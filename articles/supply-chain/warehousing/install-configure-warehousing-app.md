@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
@@ -19,19 +18,22 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
+ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432994"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5142279"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Šajā tēmā aprakstīts, kā noliktavas konfigurēt mākoņa izvietojumiem. Ja meklējat informāciju par to, kā noliktavas konfigurēt lokālajiem izvietojumiem, skatiet [Noliktavas lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šajā tēmā ir aprakstīts, kā konfigurēt veco lietotni Warehousing. Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu (pašreiz publiskā priekšskatījumā), skatiet sadaļu lietotnes [Warehouse Management mobile instalēšana un savienošana](install-configure-warehouse-management-app.md).
+
+> [!NOTE]
+> Šajā tēmā aprakstīts, kā konfigurēt noliktavas lietotni mākoņa izvietojumiem. Ja meklējat informāciju par to, kā konfigurēt noliktavas lietotni lokālajiem izvietojumiem, skatiet [Warehousing lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Noliktavas programma ir pieejama Google Play veikalā un Microsoft Store. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
 
@@ -274,6 +276,3 @@ Gadījumā, ja ierīce ir nozaudēta vai apdraudēta, ir jāliedz šīs ierīces
 1. Pārliecinieties, vai lietojumprogrammas klienta ID atbilst klienta ID, kuru pierakstījāt 2. darbībā.
 1. Rīkjoslā atlasiet **Dzēst**.
 1. Parādītajā apstiprinājuma ziņojumā atlasiet **Jā**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
