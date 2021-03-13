@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695143"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154157"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -163,7 +163,4 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šī vietne vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šī vietne sniedz novērtējumu un pārdošanas informāciju. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Šī vietne vieso apmācību resursus, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Šī vietne vieso apmācību resursus, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |

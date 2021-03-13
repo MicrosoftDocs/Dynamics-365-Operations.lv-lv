@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679960"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154389"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -39,7 +39,7 @@ ms.locfileid: "4679960"
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://docs.microsoft.com/dynamics/s-e/). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 ar 31. platformas atjauninājumu
 
@@ -970,7 +970,7 @@ Atbilstības centrs bija uzņēmuma portāla vietne dokumentācijas prasību pā
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Šī funkcionalitāte ir aizstāta ar citu līdzekli. |
-| **Vai ir aizstāts ar citu līdzekli?**   | Common data service                                      |
+| **Vai ir aizstāts ar citu līdzekli?**   | Dataverse                                      |
 | **Ietekmētie produkta apgabali**         | Dynamics savienotājs                         |
 | **Statuss**                         | Noņemts, sākot ar Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ Windows 8 planšetdatoru programma nodrošināja izdevumu ievades un apstiprin�
 |     <strong>Ietekmētie produkta apgabali</strong>     |                                              Virsgrāmata                                              |
 |             <strong>Statuss</strong>             |                                      Noņemts, sākot ar Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

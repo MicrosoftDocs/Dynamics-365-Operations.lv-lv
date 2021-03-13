@@ -3,24 +3,23 @@ title: Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: dd982ae60da1c2958d6d759bb5dd256a71fabf6c
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689539"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154205"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Commerce
 
@@ -34,7 +33,22 @@ ms.locfileid: "4689539"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 > [!NOTE]
-> Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+> Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://docs.microsoft.com/dynamics/s-e/). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.17 laidienā
+
+> [!Important]
+> Versija 10.0.17 ir pieejama kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="full-dataset-generation-interval-is-deprecated"></a>Pilns datu kopas ģenerēšanas intervāls ir novecojis
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Sākot ar šo laidienu, Dynamics 365 Headquarters veidlapas **Commerce plānotāja parametri** lauks **Pilns datu kopas ģenerēšanas intervāls dienās** ir novecojis. Sākot ar šo laidienu, lauks tiks vizuāli noņemts, lai vērtību nevarētu rediģēt. Tas paliek kā **0** vērtība. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Ietekmētie produkta apgabali**         | Dynamics 365 Commerce |
+| **Izvietošanas iespēja**              | Visu|
+| **Statuss**                         | Novecojis. Neizmantojiet šo lauku vai nemainiet tajā esošo vērtību.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Noņemtie vai novecojuši līdzekļi programmas Commerce 10.0.15 laidienā
 
@@ -108,6 +122,3 @@ ms.locfileid: "4689539"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Iepriekšēji paziņojumi par noņemtiem vai novecojušiem līdzekļiem
 Lai uzzinātu vairāk par līdzekļiem, kas iepriekšējos laidienos ir noņemti vai novecojuši, skatiet [Noņemti vai novecojuši līdzekļi iepriekšējos laidienos](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

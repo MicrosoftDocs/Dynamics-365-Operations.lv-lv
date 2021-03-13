@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 036b43d8730b52bddc93c0fc3b47d9d62649e898
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529832"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152177"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 6. oktobris)
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529832"
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
-Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šajā laidienā
 
@@ -73,13 +72,13 @@ Tālāk norādītie jaunie līdzekļi ir priekšskatījumā. Papildinformāciju 
 | --- | --- | --- |
 | Programma Human Resources programmā Microsoft Teams | [Darbinieka atvaļinājuma un prombūtnes pieredze programmā Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Programma Human Resources programmā Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Atvaļinājumu pieprasījumu pārvaldība programmā Teams](hr-teams-leave-app.md) |
 | Uzlaboti darbplūsmas pieprasījumi un apstiprinājumi | [Organizācijas un personāla vadības darbplūsmas pieredzes uzlabojumi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Konfigurācijas opcija, lai novietotu sarakstu Man piešķirtie darba elementi](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Virtuālie elementi Common Data Service programmai Human Resources | [Dynamics 365 Human Resources pamatdatu izvēršana programmā Common Data Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Common Data Service virtuālo elementu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Virtuālie elementi Dataverse programmai Human Resources | [Dynamics 365 Human Resources pamatdatu izvēršana programmā Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Dataverse virtuālo elementu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Drīzumā
 
 Nākamajiem laidieniem ir plānoti tālāk norādītie jaunie līdzekļi.
 
-- **Kontrolsaraksta elementi, kas iekļauti Common Data Service**: kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami pakalpojumā Common Data Service.
+- **Kontrolsaraksta elementi, kas iekļauti Dataverse**: kontrolsaraksta elementi Pievienošana, Noņemšana, Pārsūtīšana un Biznesa procesi drīz būs pieejami pakalpojumā Dataverse.
 
 - **Atvieglojumu pārvaldības pamatojuma kodi**: atvieglojumu pārvaldības pamatojuma kodi drīz tiks apvienoti ar esošajiem pamatojuma kodiem programmā Human Resources. Ja izveidojāt pamatojuma kodus Priekšrocību pārvaldībā, kas ir garāki par 15 rakstzīmēm, ir jāmaina pamatojuma koda nosaukums Priekšrocību pārvaldībā veidlapā **Pamatojuma kodi** uz tādu, kas ir 15 rakstzīmes vai mazāk. Pēc nosaukuma atjaunināšanas pamatojuma kods būs redzams Personāla vadības sadaļā esošajā pamatojuma koda veidlapā. Šīs izmaiņas būs pieejamas nākotnē un tās neietekmēs jau esošo funkcionalitāti.
 
@@ -90,9 +89,6 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunumi un izmaiņas programmā Human Resources](hr-admin-whats-new.md)</br>
-[Pārskats par Dynamics 365 Human Resources 2020. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2020. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

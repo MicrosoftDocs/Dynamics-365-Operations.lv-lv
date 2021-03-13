@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527414"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152201"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2020. gada 26. septembrī
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527414"
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources. Papildinformāciju par mūsu atjaunināšanas procesu un grafiku skatiet sadaļā [Atjaunināšanas process](hr-admin-setup-update-process.md).
 
-Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Papildinformāciju par jaunajiem līdzekļiem un to paredzētajiem vispārējās pieejamības datumiem skatiet sadaļā [Dynamics 365 Human Resources 2020 laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Šajā laidienā
 
@@ -58,7 +57,7 @@ Zemāk minētais līdzeklis parasti ir pieejams ar šo laidienu:
 | 481401 | Uzkrāšanas apstrāde uzkaras, kad uzkrāšanas datums ir pēc uzkrāšanas sākuma datuma un mēneša beigās | Uzkrāšanas apstrāde tiek atjaunināta, lai nebūtu aizkaves, kad uzkrāšanas datuma bāze ir pēc uzkrāšanas sākuma datuma un mēneša beigās. |
 | 447167 | Ierakstu, kam beidzas derīgums, sarakstos ir neaktīvi darbinieki | Cilnē **Ieraksti, kam beidzas derīgums** sadaļā **Personāla vadība** bija iekļauti neaktīvi darbinieki. Tagad tā ietver tikai aktīvos darbiniekus. |
 | 486840 | No **Man piešķirtās darba vienības** tiek atvērts nepareizs prombūtnes atvaļinājuma pieprasījums | Atlasot prombūtnes atvaļinājuma pieprasījumu no **Man piešķirtās darba vienības**, vairs netiek atvērts visjaunākais pašreizējam lietotājam piešķirtais prombūtnes atvaļinājuma pieprasījums. |
-| 506868 | Common Data Service Lauks **Nosaukums** nav iestatīts elementam **Amats** | Lauks **Nosaukums** elementos **Darbs** un **Amats** tiek rādīts kā nenorādīts. Tagad tiek parādīts lauks **Nosaukums**. |
+| 506868 | Dataverse Lauks **Nosaukums** nav iestatīts elementam **Amats** | Lauks **Nosaukums** elementos **Darbs** un **Amats** tiek rādīts kā nenorādīts. Tagad tiek parādīts lauks **Nosaukums**. |
 | 430359 | Nevar piekļūt darba beigšanas kontrolsaraksta uzdevumiem ar piešķirtām vadītāja un darbinieka lomām | Darbinieki ar turpmāku darba pārtraukšanas datumu nevarēja piekļūt kontrolsaraksta uzdevumiem, ja tiem bija tikai darbinieka vai vadītāja loma. Tagad lietotāji, kuriem ir tikai darbinieka vai vadītāja loma, var piekļūt darba beigšanas uzdevumiem ar turpmāku darba pārtraukšanas datumu. |
 | 458102 | Izveidojot jaunu darbinieku, tas netiek parādīts elementā **Darbinieka algas informācija** | Jauni darbinieki tiek iekļauti darbinieka algas informācijas elementā, neatverot darbinieka algas informāciju pirms elementa eksportēšanas. |
 
@@ -85,6 +84,3 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Dynamics 365 Human Resources 2020. gada laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atjaunināšanas process](hr-admin-setup-update-process.md)
 [Pārvaldības līdzekļi](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

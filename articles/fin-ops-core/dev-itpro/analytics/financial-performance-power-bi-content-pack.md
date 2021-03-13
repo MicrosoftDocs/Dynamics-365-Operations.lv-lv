@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 53dbf90b09ce532731ecaabc45418926da6083d5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682749"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154365"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com risinājums Finanšu veiktspēja
 
@@ -87,7 +87,4 @@ PowerBI.com risinājuma **Finanšu veiktspēja** pamatā tika izmantoti tālāk 
 - Virsgrāmatas
 - ChartofAccounts
 
-Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai iekļautu papildu aprēķinus pārskatos un informācijas panelī, varat modificēt [Microsoft Excel darbgrāmatu](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Šie elementi tika izmantoti, lai datu modelī izveidotu aprēķinātus mērus. Šie aprēķinātie mēri tiek lietoti, lai aprēķinātu galvenos veiktspējas rādītājus (key performance indicators — KPI) un pārskatus, kas tiek izmantoti saturā. Pēc noklusējuma saturs apkopo datus par pēdējiem trīs gadiem un vienu turpmāko gadu. Lai iekļautu papildu aprēķinus pārskatos un informācijas panelī, varat modificēt [Microsoft Excel darbgrāmatu](https://docs.microsoft.com/dynamics/s-e/). Šī darbgrāmata ir noklusējuma datu modelis, kas tika izmantots satura izveidošanai.

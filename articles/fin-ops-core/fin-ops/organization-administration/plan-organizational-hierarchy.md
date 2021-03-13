@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694693"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154413"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organizācijas hierarhijas plānošana
 
@@ -166,7 +166,7 @@ Pārvaldības struktūrvienības izmanto mātes juridiskās personas valsts kont
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ja organizācija ir modelēta kā juridiska persona
 
-Valstīm/reģioniem, kas tiek atbalstītas, var izveidot lielāko daļu likumā noteikto pārskatu. Informāciju par to, kuri pārskati ir pieejami katrā valstī/reģionā, skatiet [Microsoft Dynamics lokalizācijas portālā](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Ir nepieciešami CustomerSource pieteikšanās dati.)
+Valstīm/reģioniem, kas tiek atbalstītas, var izveidot lielāko daļu likumā noteikto pārskatu. Informāciju par to, kuri pārskati ir pieejami katrā valstī/reģionā, skatiet [Microsoft Dynamics lokalizācijas portālā](https://docs.microsoft.com/dynamics/s-e/). (Ir nepieciešami CustomerSource pieteikšanās dati.)
 
 > [!NOTE]
 > Grāmatošanas līmenis virsgrāmatā ļauj veikt pielāgošanas ierakstus mātes uzņēmumā, kas izmanto citu uzskaites standartu nekā meitas uzņēmums. Piemēram, uzņēmumam, kas izmanto Apvienotās Karalistes vispārpieņemtos grāmatvedības principus (UK GAAP), varat veikt pielāgošanas ierakstus grāmatošanas līmeni. Šos ierakstus var konsolidēt mātes uzņēmumā, kas izmanto Amerikas Savienoto Valstu vispārpieņemtos grāmatvedības principus (GAAP). Pielāgošanas ieraksti neietekmē UK GAAP pārskatu.
@@ -241,6 +241,3 @@ Ieviešot organizācijas hierarhiju, ņemiet vērā šādu labāko praksi:
 - Pirms modelējat nopietnus restrukturizācijas scenārijus, izmantojiet hierarhijas derīguma datumus, lai veiktu ietekmes analīzi un apstiprināšanas pārbaudi.
 - Izmantojiet melnraksta režīmu, lai mainītu hierarhiju, pirms publicējat jaunu versiju ražošanas vidē.
 - Ierobežojiet cilvēku skaitu, kam ir atļaujas pievienot vai noņemt organizācijas no hierarhijas ražošanas vidē. Mazāks skaits samazina iespēju, ka var rasties dārgas kļūdas un ir jāveic labojumi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

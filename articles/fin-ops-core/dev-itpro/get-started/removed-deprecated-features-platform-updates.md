@@ -3,7 +3,7 @@ title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689570"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154091"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -32,7 +32,55 @@ ms.locfileid: "4689570"
 
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
-Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](https://docs.microsoft.com/dynamics/s-e/). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Līdzeklis noņemts 2021. gada 28. janvārī
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Pakešuzdevums SQL indeksa defragmentēšanai
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Lai samazinātu operāciju, uzraudzības un klientu indeksa pārvaldības uzturēšanu papildu atbalstu, šī funkcija ir noņemta. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Notiekot uz priekšu, indeksa uzturēšanu veiks Microsoft pakalpojumi. Tas tiks veikts nepārtraukti, neietekmējot lietotāja darba noslodzes. |
+| **Ietekmētie produkta apgabali**         | Finance and Operations programmas|
+| **Izvietošanas iespēja**              | Mākoņa izvietošana — ietekmē Microsoft pārvaldītas ražošanas vides un 2. pakāpes, izmantojot 5. pakāpes tekstlodziņa vides. |
+| **Statuss**                         | Šī funkcija ir noņemta. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.17 versijai
+
+> [!IMPORTANT]
+> Versija 10.0.17 ir pieejama kā daļa no priekšskatījuma laidiena. Saturs un funkcionalitāte var tikt mainīti. Papildinformāciju par priekšskatījuma laidieniem skatiet sadaļā [Bieži uzdotie jautājumi par vienas versijas pakalpojuma atjauninājumiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Lai atbalstītu jaunākās Visual Studio versijas, ir jāveic dažas izmaiņas X++ paplašinājumos programmai Visual Studio. Šīs izmaiņas nav saderīgas ar Visual Studio 2015. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Visual Studio 2017 aizstās Visual Studio 2015 kā izvietotā un nepieciešamā versija. |
+| **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis. Pēc atjaunināšanas iepriekšējie X++ rīki tiks noņemti no Visual Studio 2015. gada versijas un netiks atjaunināti Visual Studio 2015. gada versijā. Viesotie būvējumi netiek neietekmēti. Lai mainītu atkarību no MSBuild 14.0 Visual Studio (2015) uz MSBuild 15.0 (Visual Studio2017), būvējuma konveijers ir manuāli jāatjaunina, kā aprakstīts [Azure konveijera atjauninājumu konveijerā](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Lietotāja bilde 
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Lietotāja displejs, kas tiek rādīts navigācijas joslas labajā pusē, tika izgūts, izmantojot API no Dynamics 365 virsraksta kontroles, kas ir novecojusi. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Tā vietā lietotāji redzēs viņu iniciāļus navigācijas joslā apļa pusē. Tas ir tas pats vizuālais, kas pašreiz tiek izmantots izstrādes mašīnām. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Noņemts, sākot ar versiju 10.0.17 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Uzņēmuma portāla (EP) nolietojuma aprēķins  
+
+|   |  |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Ar Dynamics AX 2012 uzņēmuma portālu (EP) saistītie metadatu artefakti ir novecojuši, jo EP nekad netiek atbalstīts programmās Finance and Operations. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
+| **Ietekmētie produkta apgabali**         | Tīmekļa klients |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis. Visi EP kodi ir ieplānoti izņemšanai no 2021. gada oktobra. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.15 versijai
 
@@ -192,6 +240,3 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Iepriekšēji paziņojumi par noņemtiem vai novecojušiem līdzekļiem
 Lai uzzinātu vairāk par līdzekļiem, kas iepriekšējos laidienos ir noņemti vai novecojuši, skatiet [Noņemti vai novecojuši līdzekļi iepriekšējos laidienos](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
