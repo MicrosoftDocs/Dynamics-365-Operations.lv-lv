@@ -2,7 +2,7 @@
 title: Integrācijas konfigurēšana ar Dayforce
 description: Integrācija starp Microsoft Dynamics 365 Human Resources un Ceridian Dayforce balstās uz vairākām konfigurācijas darbībām, kas ir aprakstītas šajā rakstā. Pirms maksājuma izpildes apstrādes vispirms ir jākonfigurē integrācija gan Human Resources, gan Dayforce.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419469"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113400"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integrācijas konfigurēšana ar Dayforce
 
@@ -676,6 +676,3 @@ Darbinieki var sniegt pases informāciju. Šīs informācijas identifikācijas t
 
 Darbinieki var sniegt vairākus identifikācijas numurus, kuru identifikācijas tips ir **Pase**. Taču pakalpojumā Dayforce tiek integrēts tikai pašreizējais aktīvais pases ieraksts. Ja visiem pases ierakstiem ir beidzies derīgiem, pakalpojumā Dayforce tiek integrēta pēdējā izdotā pase.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Līdzekļu pārvaldība
+title: Līdzekļu pārvaldība programmā Human Resources
 description: Uzziniet, kā Dynamics 365 Human Resources ieslēgt vai izslēgt jaunos līdzekļus.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419585"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113458"
 ---
-# <a name="manage-features"></a>Līdzekļu pārvaldība
+# <a name="manage-features-in-human-resources"></a>Līdzekļu pārvaldība programmā Human Resources
 
 Microsoft Dynamics 365 Human Resources mēs pastāvīgi ieviešam jaunas iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Mēs nodrošinām priekšskatījuma līdzekļus, kas ir gandrīz gatavi vispārīgai pieejamībai un ir tikuši plaši testēti. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
 
@@ -94,5 +94,3 @@ Iesniegtajās atsauksmēs vai produkta apskatos, lūdzu, neiekļaujiet personas 
 
 - [Human Resources jaunumi](hr-admin-whats-new.md)
 - [Dynamics 365 un Power Platform laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

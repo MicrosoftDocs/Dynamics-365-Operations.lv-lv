@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4419621"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113365"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Sagatavošanās darba ar Human Resources sākšanai
 
@@ -53,28 +53,36 @@ Tabulā zemāk ir uzskaitīti visi procesa soļi, paredzamais ilgums un atbildī
 
 ## <a name="completing-the-lcs-methodology"></a>LCS metodoloģijas pabeigšana
 
-Svarīgs atskaites punkts katrā īstenošanas projektā ir pārslēgšana uz ražošanas vidi. 
-
-Lai palīdzētu nodrošināt ražošanas vides izmantošanu sākšanas operācijām, korporācija Microsoft nodrošina ražošanas instanci tikai tad, kad ieviešana tuvojas **Ekspluatācijas** fāzei — pēc tam, kad ir pabeigtas nepieciešamās aktivitātes LCS metodoloģijā. Plašāku informāciju par vidēm jūsu abonementā skatiet sadaļā  [Dynamics 365 licencēšanas rokasgrāmata](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-Klientiem ir jāpabeidz fāzes **Analīze**, **Projektēšana un izstrāde** un **Testēšana** LCS metodoloģijā, pirms ir pieejama poga  **Konfigurēt** , kas nepieciešama ražošanas vides pieprasīšanai. Lai varētu pabeigt fāzi LCS, jums vispirms ir jāizpilda visas nepieciešamās darbības šajā fāzē. Kad visas fāzes darbības ir pabeigtas, varat pabeigt visu fāzi. Ja jāveic izmaiņas, vienmēr varat atvērt fāzi vēlāk. Papildinformāciju skatiet sadaļā  [Lifecycle Services (LCS) programmu Finance and Operations klientiem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Darbības pabeigšanas procesam ir divas tālāk minētās daļas. 
+Svarīgs atskaites punkts katrā īstenošanas projektā ir pārslēgšana uz ražošanas vidi. Darbības pabeigšanas procesam ir divas tālāk minētās daļas. 
 
 - Paveikt faktisko darbu, piemēram, atbilstību analīzi vai lietotāju akceptēšanas testēšanu (UAT). 
 - Atzīmēt atbilstošo darbību LCS metodoloģijā kā pabeigtu. 
 
-Laba prakse ir pabeigt darbības metodoloģijā, virzoties uz priekšu ieviešanā. Negaidiet līdz pēdējai minūtei. Lai varētu iegūt ražošanas vidi, neklikšķiniet vienkārši uz visām darbībām. Klienta interesēs ir stingra ieviešana. 
+Laba prakse ir pabeigt darbības metodoloģijā, virzoties uz priekšu ieviešanā. Negaidiet līdz pēdējai minūtei. Klienta interesēs ir stingra ieviešana. 
 
 ## <a name="uat-for-your-solution"></a>UAT jūsu risinājumam
 
 UAT fāzes laikā ieviešanas projektā smilškastes vidē ir jāpārbauda visi jūsu ieviestie biznesa procesi un visi veiktie pielāgojumi. Lai palīdzētu nodrošināt sekmīgu darba sākšanu, pabeidzot UAT fāzi, ņemiet vērā tālāk minēto. 
 
+- Iesakām, lai jūsu UAT process sāktos ar iztīrītu un jaunu vidi, kur dati no jūsu GOLD konfigurācijas tiek kopēti vidē pirms UAT procesa sākšanas. Iesakām izmantot ražošanas vidi kā jūsu GOLD vidi līdz brīdim, kad vide kļūst par ražošanas vidi.
 - Testa gadījumi aptver visu prasību jomu. 
 - Testējiet, izmantojot migrētos datus. Šajos datos jāiekļauj pamatdati, piemēram, darbinieki, darbi un amati. Iekļaujiet arī sākuma bilances, piemēram, atvaļinājumu un prombūtnes uzkrājumus. Visbeidzot iekļaujiet atvērtās transakcijas, piemēram, pašreizējās atvieglojumu reģistrācijas. Pabeidziet testēšanu ar visiem datu veidiem pat tad, ja datu kopa nav pabeigta. 
 - Testējiet, izmantojot pareizās drošības lomas (noklusējuma lomas un pielāgotās lomas), kas piešķirtas lietotājiem. 
 - Pārliecinieties, vai risinājums atbilst visām uzņēmumas un nozarei specifiskām reglamentējošām prasībām. 
 - Dokumentējiet visus līdzekļus un iegūstiet no klienta apstiprinājumu un parakstu. 
+
+## <a name="mock-go-live"></a>Pārbaudes objekta darba sākšana
+
+Pirms darbības veikšanas ir jāveic pārbaudes objekta darba sākšana, lai pārbaudītu darbības, kas jāveic pārslēgšanai no mantojuma sistēmām uz jauno sistēmu. Veiciet savu pārbaudes objekta darba sākšana smilškastes vidē un ietveriet visas darbības pārslēgšanas plānā.
+
+- Iesakām izmantot ražošanas vidi kā GOLD konfigurācijas vidi līdz pat darba sākšanai.
+- Nodrošiniet, ka ir ieviests spēcīgs pārvaldības procesā, lai aizsargātu ražošanas vidi no nejaušām darbībām vai atjauninājumiem pirms darba sākšanas.
+- Kad esat gatavs veikt UAT vai sākt pārbaudāmā objekta darbu, atsvaidziniet smilškastes vidi no ražošanas vides. Papildinformāciju skatiet sadaļā [Instances kopēšana](hr-admin-setup-copy-instance.md).
+- Pārbaudiet katru pārslēgšanas plāna darbību smilškastes vidē un pēc tam pārbaudiet smilškastes vidi, veicot vietas pārbaudes vai veicot pārbaudes no UAT skriptiem vidē.
+  - Testos jāietver visa datu migrācija, tostarp transformācijas, kas nepieciešamas darba sākšanai.
+  - Šajā procesā ir jāietver kādā no mantojuma sistēmām veiktās prakses samazināšana.
+  - Noteikti ietveriet visas integrācijas pārslēgšanas darbības vai ārējās sistēmas darbības jūsu pārbaudāmā objekta pārslēgšanā.
+- Ja rodas problēmas pārbaudāmā objekta pārslēgšanas laikā, var būt nepieciešama otra pārbaudāmā objekta pārslēgšana. Tāpēc ir ieteicams savā projekta plānā plānot divas pārbaudāmā objekta pārslēgšanas.
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack darba sākšanas novērtējums
 
@@ -91,5 +99,3 @@ Kad esat iesniedzis kontrolsarakstu, jūsu FastTrack risinājumu arhitekts pārs
 ## <a name="see-also"></a>Skatiet arī
 
 [Bieži uzdotie jautājumi par palaišanu](hr-admin-go-live-faq.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

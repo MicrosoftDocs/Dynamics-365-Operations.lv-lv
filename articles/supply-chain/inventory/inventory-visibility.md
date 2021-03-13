@@ -1,7 +1,7 @@
 ---
 title: Krājumu uztveramības pievienojumprogramma
 description: Šajā tēmā ir aprakstīts, kā instalēt un konfigurēt krājumu uztveramības pievienojumprogrammu sistēmai Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625069"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114674"
 ---
 # <a name="inventory-visibility-add-in"></a>Krājumu uztveramības pievienojumprogramma
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Krājumu uztveramības pievienojumprogramma ir neatkarīgs un ļoti mērogojams pakalpojums, kas nodrošina reāllaika rīcībā esošo krājumu izsekošanu, tādējādi sniedzot globālu skatījumu uz krājumu uztveramību.
 
 Visa informācija, kas saistīta ar rīcībā esošajiem krājumiem, tiek eksportēta uz pakalpojumu gandrīz reāllaikā, izmantojot zema līmeņa SQL integrāciju. Ārējās sistēmas piekļūst pakalpojumam, izmantojot RESTful API, lai vaicātu rīcībā esošo informāciju par noteiktajām dimensiju kopām, tādējādi izgūstot pieejamo rīcībā esošo pozīciju sarakstu.
 
-Krājumu uztveramība ir Common Data Service iebūvēts pakalpojums, kas nozīmē, ka varat to pagarināt, izveidojot Power Apps un pielietojot Power BI, lai nodrošinātu pielāgotu funkcionalitāti, kas atbilst jūsu biznesa vajadzībām. Var arī jaunināt indeksu, lai veiktu krājumu vaicājumus.
+Krājumu uztveramība ir Microsoft Dataverse iebūvēts pakalpojums, kas nozīmē, ka varat to pagarināt, izveidojot Power Apps un pielietojot Power BI, lai nodrošinātu pielāgotu funkcionalitāti, kas atbilst jūsu biznesa vajadzībām. Var arī jaunināt indeksu, lai veiktu krājumu vaicājumus.
 
 Krājumu uztveramība nodrošina konfigurācijas opcijas, kas ļauj to integrēt ar vairākām trešās puses sistēmām. Tā atbalsta standartizētu krājumu dimensiju, pielāgoto paplašināšanos un standartizētu, konfigurējamu aprēķināto daudzumu.
 
@@ -80,28 +80,55 @@ Lai instalētu Krājumu uztveramības pievienojumprogrammu, jums jārīkojas š�
 
 Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi:
 
-1. Iegūt jūsu `aadToken` un izsaukt galapunktu: https://securityservice.operations365.dynamics.com/token.
-1. Nomainiet to `client_assertion` pamattekstā ar savu `aadToken`.
-1. Aizstājiet kontekstu pamattekstā ar vidi, kurā vēlaties izvietot pievienojumprogrammu.
-1. Nomainiet pamatteksta apjomu ar sekojošo:
+1. Pieteikties Azure portālā un izmantot to, lai atrastu `clientId` un `clientSecret` lietotu Supply Chain Management programmu.
+1. Panest marķieri Azure Active Directory (`aadToken`), iesniedzot HTTP pieprasījumu ar šādiem rekvizītiem:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Metode** - `GET`
+    - **Pamatteksta saturs (formas dati)**:
 
-    - MCK tvērums -"https://inventoryservice.operations365.dynamics.cn/.default"  
-    (Jūs varat atrast Azure Active Directory programmas ID un nomnieka ID MCK `appsettings.mck.json`.)
-    - PROD tvērums -"https://inventoryservice.operations365.dynamics.com/.default"  
-    (Jūs varat atrast Azure Active Directory programmas ID un nomnieka ID PROD `appsettings.prod.json`.)
+        | key | vērtība |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Jums jāsaņem `aadToken` atbilde, kas ir līdzīga šim piemēram.
 
-    Rezultātiem vajadzētu izskatīties līdzīgi kā tālāk sniegtais piemērs.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Formulējiet JSON pieprasījumu, kas ir līdzīgs šim:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Kur:
+    - Vērtībai `client_assertion` jābūt `aadToken` tai, kas saņemta iepriekšējā solī.
+    - Vērtībai `context` ir jābūt vides ID, kur vēlaties izvietot pievienojumprogrammu.
+    - Iestatiet visas citas vērtības, kā parādītas piemērā.
+
+1. Iesniedziet HTTP pieprasījumu ar šādiem rekvizītiem:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Metode** - `POST`
+    - **HTTP virsraksts** - iekļaut API versiju (atslēga ir `Api-Version`un vērtība ir `1.0`)
+    - **Pamatteksts** - iekļaut JSON pieprasījumu, ko izveidojāt iepriekšējā darbībā.
 
 1. `access_token` jūs saņemsiet atbildē. Tas ir tas, kas jums nepieciešams kā nesēja marķieris, lai izsauktu krājumu redzamības API. Tālāk ir minēts piemērs.
 
@@ -500,6 +527,3 @@ Iepriekšējos piemēros parādītie vaicājumi var atgriezt, piemēram, šādu 
 ```
 
 Ievērojiet, ka daudzuma lauki ir strukturēti kā mērvienību vārdnīca un to saistītās vērtības.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

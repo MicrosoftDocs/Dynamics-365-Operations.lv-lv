@@ -1,5 +1,5 @@
 ---
-title: Iesniegt rēķinus darbplūsmas sistēmai un saskaņot preču ieejas plūsmas rindas (priekšskatījums)
+title: Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
 description: Šajā tēmā ir paskaidrota kreditoru rēķinu iesniegšana darbplūsmas sistēmā un automātiska grāmatoto preču ieejas plūsmas rindu saskaņošana ar kreditora rēķiniem.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4445432"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115660"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Iesniegt rēķinus darbplūsmas sistēmai un saskaņot preču ieejas plūsmas rindas (priekšskatījums)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir paskaidrota kreditoru rēķinu iesniegšana darbplūsmas sistēmā un automātiska grāmatoto preču ieejas plūsmas rindu saskaņošana ar kreditora rēķiniem.
 
@@ -47,13 +45,10 @@ Process tiks veikts, līdz saskaņotais preču ieejas plūsmas daudzums būs vie
 
 Rēķina rindas, kurām ir trīsvirzienu atbilstības ierobežojumi, kur saskaņotais ieejas plūsmas daudzums ir mazāks par daudzumu rēķinā, tiks iekļauts automatizētajā saskaņošanas procesā ar preču ieejas plūsmu.
 
-Lai skatītu statusu **Pēdējā atbilstība** rēķiniem, kas nav iekļauti automatizētajā darbplūsmā iesniegšanas procesā, atveriet rēķinu no lapas **Kreditoru rēķini**. Skatot rēķinu, atbilstošā validācijas informācija tiek atjaunināta.
+Lai skatītu statusu **Pēdējā atbilstība** rēķiniem, kas nav iekļauti automatizētajā darbplūsmā iesniegšanas procesā, atveriet rēķinu no lapas **Kreditoru rēķini**. Skatot rēķinu, atbilstošā validācijas informācija tiek atjaunināta. Statusu **Pēdējā atbilstība** var atjaunināt automātiski, izmantojot fona uzdevumu **Pārbaudīt rēķina atbilstību**. Varat konfigurēt statusa **Pēdējā atbilstība** sautomātiskās atjaunināšanas procesu lapas **Procesu automatizācija** cilnē **Fona procesi** (**Sistēmas adminstrēšana\> Iestatīšana\> Procesa automatizācija**).
 
 Rēķina rinda tiks izslēgta no automātiskās apstrādes, ja izpildīts kāds no šiem nosacījumiem:
 
 - Rēķina rindas vērtība **Automatizētās preču ieejas plūsmas atbilstības statuss** ir **Nesekmīgs**.
 - Rēķins tiek izmantots.
 - Rēķins ir darbplūsmas sistēmā.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

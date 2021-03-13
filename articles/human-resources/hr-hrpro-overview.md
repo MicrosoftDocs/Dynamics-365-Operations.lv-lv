@@ -2,7 +2,7 @@
 title: Pārskats
 description: Dynamics 365 Human Resources Lietotāja rokasgrāmata sniedz jums norādījumus, kā iestatīt Human Resources, kompensācijas un atvieglojumus saviem darbiniekiem un pārvaldīt personālu.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419613"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115250"
 ---
 # <a name="overview"></a>Pārskats
 
@@ -60,10 +60,9 @@ Dynamics 365 Human Resources Lietotāja rokasgrāmata sniedz jums norādījumus,
 [Amata pārskatu attiecību modificēšana](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Nodarbinātā informācijas ievade](hr-personnel-enter-worker-information.md)</br>
 [Patapinātie krājumi nodarbinātajiem](hr-personnel-loan-item-worker.md)</br>
-[Projekta grafiku ievade](hr-personnel-enter-project-timesheets.md)</br>
 [Masveida darbā pieņemšanas projekti](hr-personnel-mass-hire-projects.md)</br>
 [Amatu iestatīšana](hr-personnel-set-up-positions.md)</br>
-[Savainojumu un slimību informācijas iestatīšana](hr-personnel-set-up-injury-illness-information.md)</br>
+[Iestatīt savainojumu un slimību informāciju](hr-personnel-set-up-injury-illness-information.md)</br>
 
 ## <a name="set-up-compensation-plans"></a>Atlīdzības plānu iestatīšana
 
@@ -128,6 +127,3 @@ Dynamics 365 Human Resources Lietotāja rokasgrāmata sniedz jums norādījumus,
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

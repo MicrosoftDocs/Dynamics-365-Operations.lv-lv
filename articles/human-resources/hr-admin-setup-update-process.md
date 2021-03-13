@@ -2,7 +2,7 @@
 title: Procesa atjaunināšana
 description: Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus lietojumprogrammu un platformu izmaiņām.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527815"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113383"
 ---
 # <a name="update-process"></a>Procesa atjaunināšana
 
@@ -43,7 +43,7 @@ Human Resources atjauninājumi tiek automātiski piemēroti visām vidēm. Human
 
     Visi atbalstītie datu centri tiek atjaunināti ik pēc divām nedēļām, ja vien nav norādīts citādi. Atjauninājumos, kas notiek reizi divās nedēļās, ir ietverti ASV, Austrālijas, Eiropas, Apvienotās Karalistes, Āzijas un Kanādas reģioni. 
 
-- **Common Data Service risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Common Data Service. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā atjauninājumi reizi divās nedēļās, un paiet aptuveni sešas nedēļas līdz tie tiek kopēti visos datu centros. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar pakalpojumu atjauninājumiem reizi divās nedēļās.
+- **Dataverse risinājuma atjauninājumi**: šie atjauninājumi pēc nepieciešamības parādās aptuveni ik pēc sešām nedēļām. Tie ietver jaunus elementus un izmaiņas esošajos elementos Dataverse. Šie atjauninājumi tiek izlaisti tiem pašiem reģioniem kā atjauninājumi reizi divās nedēļās, un paiet aptuveni sešas nedēļas līdz tie tiek kopēti visos datu centros. Risinājumu atjauninājumi var būt vai var nebūt saskaņoti ar pakalpojumu atjauninājumiem reizi divās nedēļās.
 
 > [!NOTE]
 > Kad tie tiek izlaisti, risinājuma atjauninājumi ir pieejami visiem datu centriem. Ja nevēlaties gaidīt, kamēr atjauninājumi tiek kopēti automātiski, varat lietot šos atjauninājumus manuāli jebkurā vidē jebkurā datu centrā.
@@ -105,6 +105,3 @@ Testējot priekšskatījuma līdzekļus vai izmēģinot jaunas iespējas, iespē
 [Jaunumi un izmaiņas Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Programmatūras dzīves cikla politika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

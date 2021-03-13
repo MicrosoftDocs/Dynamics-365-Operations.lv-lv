@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669179"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113333"
 ---
 # <a name="recruit-job-candidates"></a>Personāla atlases kandidāti
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources palīdz pārvaldīt personāla atlases pieprasījum
 Ja neizmantojat atsevišķu personāla atlases programmu, varat arī manuāli pārvaldīt kandidātus Personāla vadībā.
 
 >[!NOTE]
->Ja jūs esat administrators vai izstrādātājs un vēlaties integrēt Personāla vadību, izmantojot trešās puses personāla atlases programmu, skatiet [Konfigurēt Common Data Service integrāciju](hr-admin-integration-common-data-service.md) un [Konfigurēt Common Data Service virtuālos elementus](hr-admin-integration-common-data-service-virtual-entities.md)
+>Ja jūs esat administrators vai izstrādātājs un vēlaties integrēt Personāla vadību, izmantojot trešās puses personāla atlases programmu, skatiet [Konfigurēt Dataverse integrāciju](hr-admin-integration-common-data-service.md) un [Konfigurēt Dataverse virtuālās tabulas](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Varat arī atrast darbā pieņemšanas integrācijas programmas [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Ja neizmantojat atsevišķu personāla atlases programmu, varat arī manuāli p�
 
 ## <a name="enable-recruiting-requests"></a>Iespējot personāla atlases pieprasījumus
 
-Ja vēlaties iesniegt darbā pieņemšanas pieprasījumus Personāla vadībā, vispirms ir jāaktivizē funkcionalitāte **Personāla vadības parametros**.
+Ja vēlaties iesniegt darbā pieņemšanas pieprasījumus Personāla vadībā, vispirms ir jāaktivizē funkcionalitāte **Personāla vadības kopīgajos parametros**.
 
 1. Darbvietā **Personāla vadība** atlasiet **Saites**.
 
-2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības parametri**.
+2. Sadaļā **Iestatījumi** atlasiet **Personāla vadības kopīgotie parametri**.
 
-3. Cilnē **Vispārīgi** sadaļā **Personāla atlase** iestatiet **Iespējot personāla atlases pieprasījumus** uz **Jā**.
-
-   ![Iespējot personāla atlases pieprasījumus](./media/hr-recruit-0-enable-requests.png)
+3. Cilnē **Pieņemšana darbā** sadaļā **Personāla atlase** iestatiet **Iespējot personāla atlases pieprasījumus** uz **Jā**.
 
 ## <a name="add-a-recruiting-request-location"></a>Pievienot personāla atlases pieprasījuma vietu
 
@@ -224,8 +222,6 @@ Ja nepieciešams, varat noraidīt kandidātu pēc pieņemšanas darbā. Piemēra
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Common Data Service virtuālo elementu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Darbaspēka pārvaldība](hr-personnel-departments-jobs-positions.md)<br>
 [Darba komponentu iestatīšana](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Atvaļinājumu un prombūtnes pieprasījumu pārvaldība
 description: Skatiet un apstipriniet atvaļinājumu un prombūtnes pieprasījumus sistēmā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 365d933a2d33b7e1929f9f68e02050b624e30839
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a47065a28f116cde5ce2983acada2f735f8c5edf
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419618"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115298"
 ---
-# <a name="manage-leave-and-absence-requests"></a>Atvaļinājumu un prombūtnes pieprasījumu pārvaldība
+# <a name="manage-leave-and-absence-requests"></a>Atvaļinājumu un kavējumu pieprasījumu pārvaldība
 
-Vadītāji var pārvaldīt taimauta pieprasījumus no **Darbinieku patstāvīgi izmantojamo pakalpojumu** darbvietas sistēmā Dynamics 365 Human Resources. Pieprasījumi var būt vienkārši vienas dienas pieprasījumi vai vairāku dienu pieprasījumi, tostarp vairāki atvaļinājumu un prombūtnes laika veidi. Ja nav iespējota darbplūsma, pieprasījumi tiek automātiski apstiprināti. Ja ir iespējota darbplūsma, apstiprinājumi var tikt apstiprināti automātiskai vai arī var tikt pieprasīta parakstīšana, atkarībā no darbplūsmas konfigurācijas.
+Pārvaldīt taimauta pieprasījumus no **Darbinieku patstāvīgi izmantojamo pakalpojumu** darbvietas sistēmā Dynamics 365 Human Resources. Pieprasījumi var būt vienkārši vienas dienas pieprasījumi vai vairāku dienu pieprasījumi, tostarp vairāki atvaļinājumu un prombūtnes laika veidi. Ja nav iespējota darbplūsma, pieprasījumi tiek automātiski apstiprināti. Kad ir iespējota darbplūsma, apstiprinājumi var tikt apstiprināti automātiskai vai arī tikt pieprasīta parakstīšana, atkarībā no darbplūsmas konfigurācijas.
 
 1. Darbvietā **Nodarbinātā patstāvīgi izmantojamie pakalpojumi** atlasiet **Mana komanda**.
 
@@ -39,5 +39,3 @@ Vadītāji var pārvaldīt taimauta pieprasījumus no **Darbinieku patstāvīgi 
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Izveidot atvaļinājumu un prombūtnes plānu](hr-leave-and-absence-plans.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

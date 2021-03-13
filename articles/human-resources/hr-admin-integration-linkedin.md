@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527889"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113475"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrācija ar LinkedIn Talent Hub
 
@@ -127,14 +127,14 @@ Kad esat saglabājis un aizvēris jauno programmas lietotāju iepriekšējā sad
     - **Nosaukums**: ievadiet Power Apps iepriekš izveidotās drošības lomas nosaukumu, piemēram, **LinkedIn Talent Hub HRIS integrācija**.
     - **Lietotāja ID**: atlasiet lietotāju, kuram ir atļauja rakstīt datus Personāla vadībā.
 
-### <a name="create-the-entity-in-common-data-service"></a>Elementa izveide sistēmā Common Data Service
+### <a name="create-the-table-in-dataverse"></a>Tabulas izveide sistēmā Dataverse
 
 > [!IMPORTANT]
-> Integrācija ar LinkedIn Talent Hub ir atkarīga no virtuālajiem elementiem pakalpojumā Common Data Service programmai Human Resources. Kā priekšnosacījums šai darbībai iestatījumā jums ir jākonfigurē virtuālie elementi. Papildinformāciju par to, kā konfigurēt virtuālos elementus, skatiet sadaļā [Common Data Service virtuālo elementu konfigurēšana](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Integrācija ar LinkedIn Talent Hub ir atkarīga no virtuālajām tabulām pakalpojumā Dataverse programmai Human Resources. Kā priekšnosacījums šai darbībai iestatījumā jums ir jākonfigurē virtuālās tabulas. Papildinformāciju par to, kā konfigurēt virtuālās tabulas, skatiet sadaļā [Dataverse virtuālo tabulu konfigurēšana](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. Human Resources atveriet lapu **Common Data Service (CDS) integrācija**.
+1. Human Resources atveriet lapu **Dataverse integrācija**.
 
-2. Atlasiet cilni **Virtuālie elementi**.
+2. Atlasiet cilni **Virtuālās tabulas**.
 
 3. Filtrējiet elementa sarakstu pēc elementa etiķetes, lai atrastu **LinkedIn eksportētais kandidāts**.
 
@@ -188,8 +188,5 @@ Tālāk norādītā informācija tiek importēta un iekļauta jaunā darbinieka 
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Common Data Service virtuālo elementu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Kas ir Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Dataverse virtuālo tabulu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

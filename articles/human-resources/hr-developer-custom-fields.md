@@ -2,7 +2,7 @@
 title: Pielāgotie lauki
 description: Jūs varat pievienot pielāgotus laukus lapām programmā Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 583e29d9b0bae34ffc2f519bb775b9e099682fe0
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: eb27808d72728e2e2ac98fdfb8fa0643ad8f3219
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529558"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115492"
 ---
 # <a name="custom-fields"></a>Pielāgotie lauki
 
@@ -31,14 +31,12 @@ ms.locfileid: "4529558"
 
 Jūs varat pievienot pielāgotus laukus lapām programmā Dynamics 365 Human Resources. Plašāku informāciju par to, kā izveidot pielāgotus laukus, skatiet rakstā [Darbs ar pielāgotiem laukiem un to izveide](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-Lielākā daļa Common Data Service entītiju, kas atbalsta pielāgotos laukus. Pilnam entītiju sarakstam Common Data Service skatiet [Common Data Service entītijas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+Lielākā daļa Dataverse tabulu atbalsta pielāgotos laukus. Pilnam tabulu sarakstam Dataverse skatiet [Dataverse tabulas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
 
-Noteikti iespējojiet visus pielāgotos laukus, ko izveidojat, lai tos varētu izmantot sistēmā Common Data Service. Papildinformāciju skatiet rakstā [Pielāgotu lauku rādīšana datu elementos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+Noteikti iespējojiet visus pielāgotos laukus, ko izveidojat, lai tos varētu izmantot sistēmā Dataverse. Papildinformāciju skatiet rakstā [Pielāgotu lauku rādīšana datu elementos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Common Data Service entītijas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[Dataverse tabulas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Pielāgotu lauku izveide un darbs ar tiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Pielāgoto lauku sniegšana datu elementos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

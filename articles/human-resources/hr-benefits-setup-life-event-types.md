@@ -2,7 +2,7 @@
 title: Konfigurēt dzīves notikumu tipus
 description: Microsoft Dynamics 365 Human Resources izmanto dzīves notikumu veidus, lai definētu notikumus, kas ir atļauts atjaunināt darbinieku atvieglojumu reģistrāciju.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419532"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113434"
 ---
 # <a name="configure-life-event-types"></a>Konfigurēt dzīves notikumu tipus
 
@@ -88,6 +88,3 @@ Kad izveidojat dzīves notikuma veidu, varat izvēlēties kādu no tālāk norā
 | **Piemērojamības kārtulas labošanas termiņa beigas (ne ASV)** | Papildu cilvēkresursi > Atvieglojumi > Plāni > Atvieglojumi > Piemērotības nosacījumu labošana | Dzīves notikumu izmaiņu apstrādes izmantošana. Piemēram, ja rediģējat plāna piemērojamības kārtulas labošanas beigu datumu, lai tas būtu šodien, plkst. 17:00, jebkurā laikā pēc 17:00 vai nākamajās dienās un pēc tam palaižat dzīves notikuma izmaiņu apstrādi, parādās ziņojums, kas apgalvo, ka piemērojamības kārtulas labošanai ir beidzies derīgums. |
 | **Jauns atvieglojumu plāns (nav ASV)** | Papildu cilvēkresursi > Atvieglojumi > Plāni > Jauns | <ul><li>Piemērojamības opcijas tiek pievienotas pašreizējam plānam</li><li>Ir pievienots jauns plāns ar pievienotām piemērojamības opcijām</li></ul></br></br>Cilvēkresursu personālam vajadzētu šajā instancē palaist dzīves notikuma piemērojamības apstrādi |
 | **Piemērojamības kārtulas maiņa (ne ASV)** | Papildu cilvēkresursi > Atvieglojumi > Noteikumi/opcija > Piemērojamības noteikumi | Dzīves notikumu piemērojamības apstrādes izmantošana. Reģistrēti, ja **EhrBenefitEligibilityRule** ierakstiem ir mainītas šādas vērtības: **UseEmplCategory**, **UseEmplStatus** vai **UseEmplType**. Atjaunina tikai dzīves notikuma darbības, kas jau pastāv mainītai kārtulai vai piemērojamības kritērijam. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

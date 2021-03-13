@@ -2,7 +2,7 @@
 title: Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
 description: Programmā Microsoft Dynamics 365 Human Resources, varat izmantot MyLeaveRequests iesniegt () lietojumprogrammu programmēšanas interfeiss (API), lai darbplūsmā iesniegtu atvaļinājuma pieprasījumu.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51be70edbe1439340377fd01b9760d49d3a75348
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419476"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115516"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Atvaļinājuma pieprasījuma iesniegšana darbplūsmai
 
@@ -108,5 +108,3 @@ API iesniedzamā zvana ietvaros Human Resources veic biznesa loģikas validācij
 
 - [MyLeaveRequests pārskats](hr-developer-api-myleaverequests-overview.md)
 - [Autentifikācija](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

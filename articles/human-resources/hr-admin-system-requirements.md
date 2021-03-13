@@ -2,7 +2,7 @@
 title: Sistēmas prasības
 description: Šajā rakstā aprakstītas prasības Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f68b8f642ada1345e7097b5e7220e222b132b1dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e7d7389c1bcf0f6024464e37b36d39efae5b832
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419578"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113382"
 ---
 # <a name="system-requirements"></a>Sistēmas prasības
 
@@ -64,6 +64,3 @@ Varat lejupielādēt PDF failu ar valstīm, reģioniem un valodām, ko atbalsta
 > Lietotāja interfeiss ir lokalizēts citās valodās, bet visi lietotāja dati tiek saglabāti tajā valodā, kādā tika ievadīti. Varat izveidot e-pasta ziņojumus un veidnes citās valodās, taču dati, piemēram, plānošanas informācija, pagaidām ir pieejami tikai angļu valodā.
 
 Ja esat izstrādātājs un vēlaties izveidot valstij vai reģionam specifiskus pielāgojumus vai izveidot risinājumu valstij vai reģionam, ko Microsoft pašlaik neatbalsta, skatiet lapu [Globalizācija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

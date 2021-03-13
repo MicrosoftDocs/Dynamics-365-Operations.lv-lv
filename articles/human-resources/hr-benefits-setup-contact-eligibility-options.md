@@ -2,7 +2,7 @@
 title: Personisko kontaktpersonu piemērotības opciju konfigurēšana
 description: Konfigurējiet personisko kontaktpersonu piemērotības opcijas Microsoft Dynamics 365 Human Resources. Personiskās kontaktpersonas var būt saņēmēji vai apgādājamie.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419567"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113420"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Personisko kontaktpersonu piemērotības opciju konfigurēšana
 
@@ -45,6 +45,3 @@ ms.locfileid: "4419567"
    | **Vecums** | Piemērotās personiskās kontaktpersonas maksimālais vecums atvieglojumu plānam. Šis lauks ir aktīvs tikai tad, ja atlasāt attiecības. Šis vecums tiek salīdzināts ar personiskās kontaktpersonas aprēķināto vecumu. Aprēķinātais vecums ir: (seguma datums — personiskās kontaktpersonas dzimšanas datums / 365). Tas vienmēr ir vesels skaitlis. |
 
 4. Atlasiet **Saglabāt**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

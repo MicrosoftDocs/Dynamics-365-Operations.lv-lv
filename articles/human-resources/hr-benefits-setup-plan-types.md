@@ -2,7 +2,7 @@
 title: Izveidot plānu tipus
 description: Plāna tips programmā Microsoft Dynamics 365 Human Resources ir noteikta tipa atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419569"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113403"
 ---
 # <a name="create-plan-types"></a>Izveidot plānu tipus
 
@@ -63,6 +63,3 @@ Plāna tips var definēt vajadzību opcijas. Vajadzību opcijas ir definētas ve
    | **Pārskata veidošanas logs** | Norāda dzīves notikuma pārskata veidošanas logu dienās. **Piezīme**: Ja neievadāt summu, sistēma pieņem, ka pārskata logs ir nulle un dzīves notikumu neapstrādās. |
 
 5. Atlasiet **Saglabāt**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

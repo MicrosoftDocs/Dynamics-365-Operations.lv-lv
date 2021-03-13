@@ -2,7 +2,7 @@
 title: Instances kopēšana
 description: Varat izmantot Microsoft Dynamics Lifecycle Services (LCS), lai kopētu Microsoft Dynamics 365 Human Resources datu bāzi uz smilškastes vidi.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527841"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113399"
 ---
 # <a name="copy-an-instance"></a>Instances kopēšana
 
@@ -41,7 +41,7 @@ Lai kopētu instanci, ņemiet vērā šādus padomus:
 
 - Kopējot Human Resources datu bāzi, netiek kopēti Microsoft Power Apps vidē esošie elementi (programmas vai dati). Informāciju par to, kā kopēt elementus Power Apps vidē, skatiet [Vides kopēšana](https://docs.microsoft.com/power-platform/admin/copy-environment). Power Apps videi, ko vēlaties pārrakstīt, jābūt smilškastes videi. Jums ir jābūt globālā nomnieka administratoram, lai mainītu Power Apps ražošanas vidi uz smilškastes vidi. Papildinformāciju par Power Apps vides mainīšanu skatiet [Instances pārslēgšana](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Ja nokopējat instanci savā smilškastes vidē un vēlaties integrēt smilškastes vidi ar Common Data Service, ir atkārtoti jāizmanto pielāgoti lauki Common Data Service vienībām. Skatiet [Lietot pielāgotus laukus Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Ja nokopējat instanci savā smilškastes vidē un vēlaties integrēt smilškastes vidi ar Dataverse, ir atkārtoti jāizmanto pielāgoti lauki Dataverse tabulām. Skatiet [Lietot pielāgotus laukus Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Human Resources datu bāzes kopēšanas sekas
 
@@ -72,15 +72,15 @@ Lai pabeigtu šo uzdevumu, vispirms kopējiet instanci un pēc tam pierakstietie
 
 4. Uzdevumrūtī **Kopēt instanci** atlasiet instanci, kuru pārrakstīt, un pēc tam atlasiet **Kopēt**. Uzgaidiet, līdz lauka **Kopēšanas statuss** vērtība tiek atjaunināta uz **Pabeigts**.
 
-   ![[Instances atlasīšana pārrakstīšanai](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Atlasīt instanci, lai pārrakstītu](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Atlasiet **Power Platform** un pierakstieties Microsoft Power Platform administrēšanas centrā.
 
-   ![[Atlasiet Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Atlasīt Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Atlasiet Power Apps vidi, kas jākopē, un pēc atlasiet **Kopēt**.
 
-7. Kad kopēšanas process ir pabeigts, pierakstieties mērķa instancē un iespējojiet Common Data Service integrāciju. Papildinformāciju un instrukcijas skatiet [Common Data Service integrācijas konfigurēšana](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Kad kopēšanas process ir pabeigts, pierakstieties mērķa instancē un iespējojiet Dataverse integrāciju. Papildinformāciju un instrukcijas skatiet [Dataverse integrācijas konfigurēšana](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Datu elementi un statusi
 
@@ -122,11 +122,11 @@ Visi mērķa smilškastes vides lietotāji, ieskaitot administratorus, tiek aizs
 
 Visi lietotāji, kuri nav administratori, ir atspējoti mērķa smilškastes vidē, lai novērstu neatļautu pierakstīšanos smilškastes vidē. Ja, nepieciešams, administratori var no jauna iespējot lietotājus.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Lietot pielāgotus laukus Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Lietot pielāgotus laukus Dataverse
 
-Ja nokopējat instanci savā smilškastes vidē un vēlaties integrēt smilškastes vidi ar Common Data Service, ir atkārtoti jāizmanto pielāgoti lauki Common Data Service vienībām.
+Ja nokopējat instanci savā smilškastes vidē un vēlaties integrēt smilškastes vidi ar Dataverse, ir atkārtoti jāizmanto pielāgoti lauki Dataverse tabulām.
 
-Katram pielāgotajam laukam, kas ir pakļauts Common Data Service vienībām, veiciet šādas darbības:
+Katram pielāgotajam laukam, kas ir pakļauts Dataverse tabulām, veiciet šādas darbības:
 
 1. Dodieties uz pielāgoto lauku un atlasiet **Rediģēt**.
 
@@ -140,7 +140,7 @@ Katram pielāgotajam laukam, kas ir pakļauts Common Data Service vienībām, ve
 
 6. Vēlreiz atlasiet **Lietot izmaiņas**.
 
-Noņemšana, izmaiņu lietošana, atkārtota atlase un atkārtota izmaiņu veikšana pieprasa atjaunināt shēmu Common Data Service, lai iekļautu pielāgotos laukus.
+Noņemšana, izmaiņu lietošana, atkārtota atlase un atkārtota izmaiņu veikšana pieprasa atjaunināt shēmu Dataverse, lai iekļautu pielāgotos laukus.
 
 Plašāku informāciju par pielāgotajiem laukiem, skatiet rakstā [Darbs ar pielāgotiem laukiem un to izveide](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ Plašāku informāciju par pielāgotajiem laukiem, skatiet rakstā [Darbs ar pie
 [Noņemt instanci](hr-admin-setup-remove-instance.md)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

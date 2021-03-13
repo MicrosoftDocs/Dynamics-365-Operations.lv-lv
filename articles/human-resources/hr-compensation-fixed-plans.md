@@ -2,7 +2,7 @@
 title: Fiksētas atlīdzības plāna izveide
 description: Fiksēta atlīdzība attiecas uz darbinieka regulāro bruto algu vai darba samaksu. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izveidot fiksētas atlīdzības plānu un reģistrēt darbiniekus.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 06f4a335adfc1e6f438589613efec02f92bfd756
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa370ad5b873d707aba865b7f90e22acfc4825ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419562"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113345"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Fiksētās atlīdzības plānu izveidošana
 
@@ -98,6 +98,3 @@ Tagad var piešķirt darbiniekam fiksētas atlīdzības plānu. Lapā **Darbinie
 
 Sistēma pārbaudīs, vai atlīdzības summa, kas norādīta atlīdzības plānā ar pakāpes vai indeksa veidu, ir starp noteikto darbinieka darba atlīdzības līmeņa minimālo un maksimālo atsauces punktu. Ja atlīdzības summa ir ārpus atļautā diapazona, atkarībā no tolerances līmeņa, kas ir iestatīts fiksētas atlīdzības plānā, tiek parādīts brīdinājums vai kļūdas ziņojums.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

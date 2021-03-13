@@ -2,7 +2,7 @@
 title: Izvēlēties datu integrācijas tehnoloģiju
 description: Šis raksts sniedz informāciju par datu integrēšanu, kurus pārvalda Personāla vadība. Tas apraksta dažādas integrēšanas tehnoloģijas, lai palīdzētu jums izlemt, kuras tehnoloģijas vislabāk atbilst jūsu vajadzībām.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ee394172fb531e7aecc1be411f9adf2dd184d15e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528345"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113456"
 ---
 # <a name="choose-a-data-integration-technology"></a>Izvēlēties datu integrācijas tehnoloģiju
 
@@ -36,42 +36,48 @@ ms.locfileid: "4528345"
 Biznesa dati ir galvenie līdzekļi, kas padara uzņēmumu unikālu. Biznesa dati ir ļoti vērtīgi. Lai uzlabotu biznesa procesus un biznesa informāciju visā uzņēmumā, varat izmantot attiecības starp datiem, kas apkopoti jūsu uzņēmumā. Mēs cenšamies nodrošināt vieglu, drošu un stabilu piekļuvi jūsu biznesa datiem neatkarīgi no sistēmas, no kā tie tiek iegūti.
 
 Vēsturiski datu integrācija starp vairākām sistēmām ir bijusi sarežģīta.
-Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
-Personāla vadība dod priekšroku Common Data Service kā Personāla vadības datu publiskajam interfeisam. Laika gaitā mēs sagaidām, ka visi svarīgākie dati, ko pārvalda Human Resources, tiks sniegti Common Data Service. Mēs iesakām Common Data Service kā izvēles tehnoloģiju lielākajai daļai integrācijas pieteikumu.
+Personāla vadība dod priekšroku Dataverse kā Personāla vadības datu publiskajam interfeisam. Laika gaitā mēs sagaidām, ka visi svarīgākie dati, ko pārvalda Human Resources, tiks sniegti Dataverse. Mēs iesakām Dataverse kā izvēles tehnoloģiju lielākajai daļai integrācijas pieteikumu.
 
-Mēs saprotam, ka Common Data Service vēl nav ietverti visi dati, kuri jūsu programmai ir nepieciešami. Mēs arī saprotam jūsu projekta grafikam, iespējams, būs nepieciešama alternatīva tehnoloģija. Noteikti dariet mums zināmu, kad Common Data Service neatbilst jūsu integrācijas vajadzībām.
+Mēs saprotam, ka Dataverse vēl nav ietverti visi dati, kuri jūsu programmai ir nepieciešami. Mēs arī saprotam jūsu projekta grafikam, iespējams, būs nepieciešama alternatīva tehnoloģija. Noteikti dariet mums zināmu, kad Dataverse neatbilst jūsu integrācijas vajadzībām.
 
 ## <a name="integration-technologies"></a>Integrācijas tehnoloģijas
 
 Turpmākajās sadaļās aprakstītas dažādas datu integrācijas tehnoloģijas, kas pieejamas lietošanai Human Resources.
 
-### <a name="common-data-service-entities"></a>Common Data Service elementi
+### <a name="dataverse-tables"></a>Dataverse tabulas
 
-Common Data Service ir izvēlētais publisko datu interfeiss Human Resources. Tas attīstījās no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) risinājumi.
+Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas attīstījās no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) risinājumi.
 
-Common Data Service nodrošina platformu un API datu entītijām. Kad tiek izvietota Personāla vadība, tie tiek savienoti ar Common Data Service instanci. Personāla vadības datu entītijas tiek izvietotas šajā Common Data Service instancē. Entītijas un to dati ir pieejami jebkurai programmai, kas var pieslēgties Common Data Service instancei. Personāla vadība sinhronizē datus uz un no Common Data Service entītijām.
-
-Ja datu entītijas, ko pieprasa jūsu integrēšanas programmas, ir Common Data Service, jūs varat pilnībā izmantot [Common Data Service un API, ko tā atbalsta](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Starp atbalstītajiem API ir [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), kas nodrošina OData ieviešanu, lai piekļūtu Common Data Service.
-
-Common Data Service elementi un to saistītie API ir vislabākā opcija, lai piekļūtu Personāla vadības datiem, izmantojot tīmekļa programmas, tīmekļa pakalpojumus/API un no jebkuru citu programmu, kas pieslēdzas OData plūsmām.
+Dataverse nodrošina platformu un API datu tabulām. Kad tiek izvietota Personāla vadība, tie tiek savienoti ar Dataverse instanci. Personāla vadības datu entītijas tiek izvietotas šajā Dataverse instancē. Tabulas un to dati ir pieejami jebkurai programmai, kas var pieslēgties Dataverse instancei. Human Resources sinhronizē datus uz un no Dataverse tabulām.
 
 > [!NOTE]
-> Tā kā lēmums padarīt Common Data Service par izvēlēto datu interfeisu Personāla vadībai ir salīdzinoši nesens, varat nākt pie atziņas, ka Personāla vadības datu elementi, kas nepieciešami integrācijai, vēl nav pieejami Common Data Service.
-</br>
-> Sarakstu ar Personāla vadības elementiem, kas pieejami Common Data Service, skatiet [Personāla vadība un Common Data Service](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+Ja datu tabulas, ko pieprasa jūsu integrēšanas programmas, ir Dataverse, jūs varat pilnībā izmantot [Dataverse un API, ko tā atbalsta](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Starp atbalstītajiem API ir [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), kas nodrošina OData ieviešanu, lai piekļūtu Dataverse.
+
+Dataverse tabulas un to saistītie API ir vislabākā opcija, lai piekļūtu Personāla vadības datiem, izmantojot tīmekļa programmas, tīmekļa pakalpojumus/API un no jebkuru citu programmu, kas pieslēdzas OData plūsmām.
+
+> [!NOTE]
+> Tā kā lēmums padarīt Dataverse par izvēlēto datu interfeisu Personāla vadībai ir salīdzinoši nesens, varat nākt pie atziņas, ka Personāla vadības datu elementi, kas nepieciešami integrācijai, vēl nav pieejami Dataverse.
+> </br>
+> Sarakstu ar Personāla vadības elementiem, kas pieejami Dataverse, skatiet [Personāla vadība un Dataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > Ja jūsu integrācijai nepieciešamie Personāla vadības elementi vēl nav pieejami, jums būs vai nu jāgaida, kamēr datu elementi tika padarīti pieejami, vai arī būs jāizmanto kāda no tālāk aprakstītajām integrācijas tehnoloģijām.
 > </br>
-> Pēc noklusējuma Common Data Service integrācija ir izslēgta jaunās vidēs, kurās nav ietverti nodrošinātie demonstrācijas dati. Tā ir ieslēgta jaunās vidēs, kas ietver demonstrācijas datus, un vide sāk sinhronizēt datus, kad tie tiek nodrošināti. Pēc tam, kad jūsu vide ir gatava sinhronizēt datus, varat ieslēgt integrāciju.
+> Pēc noklusējuma Dataverse integrācija ir izslēgta jaunās vidēs, kurās nav ietverti nodrošinātie demonstrācijas dati. Tā ir ieslēgta jaunās vidēs, kas ietver demonstrācijas datus, un vide sāk sinhronizēt datus, kad tie tiek nodrošināti. Pēc tam, kad jūsu vide ir gatava sinhronizēt datus, varat ieslēgt integrāciju.
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF elementi
 
-Personāla vadība, kas galvenokārt tiek veidota uz tās pašas platformas kā Finance and Operations programmas, sniedz [Datu pārvaldības struktūru (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Common Data Service elementi ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
+Personāla vadība, kas galvenokārt tiek veidota uz tās pašas platformas kā Finance and Operations programmas, sniedz [Datu pārvaldības struktūru (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
 
-- Common Data Service elementi vēl nav pieejami.
+- Dataverse tabulas vēl nav pieejamas.
 
 - Integrācijai ir nepieciešamas augstas veiktspējas lielapjoma datu importēšanas/eksportēšanas iespējas.
+
+> [!NOTE]
+> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
 DMF elementi pašlaik sniedz vispilnīgāko Human Resources datu segumu.
 
@@ -92,7 +98,7 @@ DMF nodrošina [REST API](https://docs.microsoft.com/dynamics365/unified-operati
 
 - Importēšanas/eksportēšanas operācijas statusa pārbaude.
 
-DMF pakotne REST API tiek pilnībā atbalstīta Human Resources: Core HR.
+DMF pakotne REST API tiek pilnībā atbalstīta Human Resources.
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL datu bāze (BYOD)
 
@@ -109,7 +115,7 @@ BYOD ir piemērots pārskatu risinājumiem, datu integrācijām, datu jaucējpro
 
 Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). [Finance and Operations OData pakalpojumam](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) paredzētais dokuments attiecas uz Personāla vadību, izņemot, lai izveidotu savus OData elementus.
 
-Lai gan Common Data Service un OData implementācijai, ko sniedz Common Data Service (izmantojot [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), tiek dota priekšroka pret Human Resources datu pakalpojumu, Human Resources datu pakalpojumam pašlaik ir pilnīgāks elementu segums Human Resources datiem.
+Lai gan Dataverse un OData implementācijai, ko sniedz Dataverse (izmantojot [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), tiek dota priekšroka pret Human Resources datu pakalpojumu, Human Resources datu pakalpojumam pašlaik ir pilnīgāks elementu segums Human Resources datiem.
 
 ### <a name="excel-add-in"></a>Excel pievienojumprogramma
 
@@ -119,9 +125,9 @@ Excel pievienojumprogramma ir piemērota speciālai datu importēšanai/eksport�
 
 ### <a name="data-integrator"></a>Datu integrētājs
 
-Jūs varat izmantot [Datu integratora pakalpojumu](https://docs.microsoft.com/powerapps/administrator/data-integrator), lai integrētu datus uz un no Common Data Service. Datu integrētāju ļauj jums definēt integrācijas projektus, bieži pamatojoties uz iepriekš noteiktām veidnēm, ko programmas izstrādātāji ir pielāgojuši noteiktām integrācijām. Jūs varat ieplānot integrācijas projektu palaišanu automātiskai izpildei periodiskā grafikā vai to palaišanai manuāli.
+Jūs varat izmantot [Datu integratora pakalpojumu](https://docs.microsoft.com/powerapps/administrator/data-integrator), lai integrētu datus uz un no Dataverse. Datu integrētāju ļauj jums definēt integrācijas projektus, bieži pamatojoties uz iepriekš noteiktām veidnēm, ko programmas izstrādātāji ir pielāgojuši noteiktām integrācijām. Jūs varat ieplānot integrācijas projektu palaišanu automātiskai izpildei periodiskā grafikā vai to palaišanai manuāli.
 
-Datu integratora projekti ir piemēroti Common Data Service partijas integrācijai. Tā ir lieliska izvēle integrācijai starp Dynamics 365 saimes programmām. Piemēram, Microsoft nodrošina Datu integrētāja veidni, ko var izmantot datu integrācijai no Personāla vadības uz Dynamics 365 Finance. Jūs varat uzzināt vairāk par veidni sadaļā [Integrācija no Dynamics 365 Human Resources uz Dynamics 365 Finance](hr-admin-integration-finance.md).
+Datu integratora projekti ir piemēroti Dataverse partijas integrācijai. Tā ir lieliska izvēle integrācijai starp Dynamics 365 saimes programmām. Piemēram, Microsoft nodrošina Datu integrētāja veidni, ko var izmantot datu integrācijai no Personāla vadības uz Dynamics 365 Finance. Jūs varat uzzināt vairāk par veidni sadaļā [Integrācija no Dynamics 365 Human Resources uz Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
@@ -129,21 +135,18 @@ Datu integrētājs atbalsta [Power Query](https://docs.microsoft.com/power-query
 
 ## <a name="deciding-on-an-integration-technology"></a>Lemšana par integrācijas tehnoloģiju
 
-Kad pieejamas tik daudzas integrācijas tehnoloģijas, dažreiz var būt sarežģīti pieņemt lēmumu par to, kādu integrācijas pieeju izmantot. Pieaugot datu segumam Common Data Service, lēmums kļūs vieglāks, jo Common Data Service vairumā gadījumu būs izvēlētais datu interfeiss. Bet līdz tam laikam varat nākt pie atziņas, ka Common Data Service vēl neatbilst jūsu vajadzībām. Zemāk redzamā tabula apkopo atsevišķus integrācijas tehnoloģiju opciju raksturlielumus.
+Kad pieejamas tik daudzas integrācijas tehnoloģijas, dažreiz var būt sarežģīti pieņemt lēmumu par to, kādu integrācijas pieeju izmantot. Pieaugot datu segumam Dataverse, lēmums kļūs vieglāks, jo Dataverse vairumā gadījumu būs izvēlētais datu interfeiss. Bet līdz tam laikam varat nākt pie atziņas, ka Dataverse vēl neatbilst jūsu vajadzībām. Zemāk redzamā tabula apkopo atsevišķus integrācijas tehnoloģiju opciju raksturlielumus.
 
 | Tehnoloģija/Rīks/API    | Atkārtotas integrācijas                   | Sinhrons/asinhrons                    | Programmatiska piekļuve, izmantojot API        | Atbilstoši datu apjomi                                   | Datu segums                       |
 |------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|------------------------------------------------------------|-------------------------------------|
-| Common Data Service elementi           | Jā, izmantojot datu integrētāju vai starpprogrammatūru | Sinhrons, asinhrons, pakete (izmantojot datu integrētāju) | Jā, izmantojot Dynamics 365 tīmekļa API (OData) | Mainās atkarībā no izmantošanas gadījuma (atbalsta lapošana interaktīvai lietošanai) | Uzlabojas<sup>2</sup>                       |
+| Dataverse tabulas           | Jā, izmantojot datu integrētāju vai starpprogrammatūru | Sinhrons, asinhrons, pakete (izmantojot datu integrētāju) | Jā, izmantojot Dynamics 365 tīmekļa API (OData) | Mainās atkarībā no izmantošanas gadījuma (atbalsta lapošana interaktīvai lietošanai) | Uzlabojas<sup>2</sup>                       |
 | DMF elementi           | Jā, ieplānots, izmantojot starpprogrammatūru        | Asinhrons, pakete                                | Jā, izmantojot DMF pakotnes REST API         | Augsts (simtiem tūkstošu ierakstu)                    | Augsta                                |
 | DMF pakotnes REST API   | Jā, ieplānots, izmantojot starpprogrammatūru        | Asinhrons, pakete                                | Jā                                       | Augsts (simtiem tūkstošu ierakstu)                    | API atbalsta visus DMF elementus       |
 | BYOD                   | Jā, ieplāno Human Resources administrators        | Asinhrons, pakete                                | Nē<sup>3</sup>                                    | Augsts (simtiem tūkstošu ierakstu)                    | Atbalsta visus DMF elementus           |
 | OData iespējotie elementi | Jā, izmantojot starpprogrammatūru                    | Sinhronizēt                                        | Jā, izmantojot Human Resources datu pakalpojumu (OData)  | Mainās atkarībā no izmantošanas gadījuma (atbalsta lapošana interaktīvai lietošanai) | Augsta                                |
 | Excel pievienojumprogramma           | Nē                                       | Sinhronizēt                                        | Nē                                        | Vidējs (desmitiem tūkstošu ierakstu)                      | Atbalsta visus OData iespējotos elementus |
-| Datu integrētājs        | Jā, ieplānots datu integrētājā        | Asinhrons, pakete                                | Nē                                        | Mainās atkarībā no izmantošanas gadījuma                                       | Atbalsta visus Common Data Service elementus           |
+| Datu integrētājs        | Jā, ieplānots datu integrētājā        | Asinhrons, pakete                                | Nr.                                        | Mainās atkarībā no izmantošanas gadījuma                                       | Atbalsta visas Dataverse tabulas           |
 
-<sup>2</sup> Microsoft veic lielus ieguldījumus, palielinot datu pārklājumu Common Data Service vienībām. Mēs iesakām izmantot Common Data Service, kad pārklājums ir pieejams. Pašlaik Common Data Service datu segums ir zems salīdzinājumā ar DMF un OData iespējotiem elementiem.
+<sup>2</sup> Microsoft veic lielus ieguldījumus, palielinot datu pārklājumu Dataverse tabulām. Mēs iesakām izmantot Dataverse, kad pārklājums ir pieejams. Pašlaik Dataverse datu segums ir zems salīdzinājumā ar DMF un OData iespējotiem elementiem.
 
 <sup>3</sup>SQL datu bāzei var piekļūt programmiski.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Integrācija ar Finance bieži uzdotajiem jautājumiem
 description: Šajā rakstā paskaidrots, kādi dati tiek sinhronizēti Human Resources un Finance integrācijas laikā.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589067"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113410"
 ---
 # <a name="integration-with-finance-faq"></a>Integrācija ar Finance bieži uzdotajiem jautājumiem
 
@@ -32,7 +32,7 @@ ms.locfileid: "4589067"
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Vai var rediģēt Dynamics 365 Talent programmas lietotāju Power Apps?
 
-Nr.p.k. Ja rediģējat Talent programmas lietotāju, integrēšana starp Personāla vadību un Common Data Service, iespējams, neizdosies. Sekojošajā tabulā ir redzami Talent programmas lietotāja noklusējuma iestatījumi.
+Nr.p.k. Ja rediģējat Human Resources programmas lietotāju, integrēšana starp Personāla vadību un Dataverse, iespējams, neizdosies. Sekojošajā tabulā ir redzami Talent programmas lietotāja noklusējuma iestatījumi.
 
 | Pilnais vārds un uzvārds | Lietojumprogrammas ID | Azure AD Objekta ID | Lietojumprogrammas ID URI |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ Nr.p.k. Ja rediģējat Talent programmas lietotāju, integrēšana starp Person�
 
 Tiek sinhronizēta datu apakškopa. Visu elementu sarakstu skatiet [Integrācija ar Dynamics 365 Finance](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Kāpēc es neredzu nevienu datu sinhronizāciju Common Data Service?
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Kāpēc es neredzu nevienu datu sinhronizāciju Dataverse?
 
-Pēc noklusējuma Common Data Service integrēšana ir izslēgta jaunās vidēs, kurās nav ietverti nodrošinātie demonstrācijas dati. Pēc noklusējuma tas ir ieslēgts jaunās vidēs, kas ietver demo datus, un datu sinhronizācija sākas, kad tiek nodrošināta vide. Pēc tam, kad jūsu vide ir gatava sinhronizēt datus, varat ieslēgt integrāciju. Papildinformāciju skatiet sadaļu [Konfigurēt Common Data Service integrāciju](hr-admin-integration-common-data-service.md).
+Pēc noklusējuma Dataverse integrēšana ir izslēgta jaunās vidēs, kurās nav ietverti nodrošinātie demonstrācijas dati. Pēc noklusējuma tas ir ieslēgts jaunās vidēs, kas ietver demo datus, un datu sinhronizācija sākas, kad tiek nodrošināta vide. Pēc tam, kad jūsu vide ir gatava sinhronizēt datus, varat ieslēgt integrāciju. Papildinformāciju skatiet sadaļu [Konfigurēt Dataverse integrāciju](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Vai var izveidot jaunu kartējumu, neizmantojot veidnes?
 
-Veidnes ir sākumpunkts. Varat izveidot savu veidni, taču veidne vienmēr ir nepieciešama, veidojot integrācijas projektu. Plašāku informāciju par datu integrētāju (DI), veidnēm un projektiem skatiet rakstā [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Veidnes ir sākumpunkts. Varat izveidot savu veidni, taču veidne vienmēr ir nepieciešama, veidojot integrācijas projektu. Plašāku informāciju par datu integrētāju (DI), veidnēm un projektiem skatiet rakstā [Datu integrēšana pakalpojumā Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Vai var kartēt finanšu dimensijas pārsūtīšanai starp Human Resources un Finance?
 
-Finanšu dimensijas pašlaik nav pakalpojumā Common Data Service un līdz ar to nav noklusējuma veidnes sastāvdaļa. Šis elements ir plānots, bet pašlaik nav zināms izlaišanas laiks.
+Finanšu dimensijas pašlaik nav pakalpojumā Dataverse un līdz ar to nav noklusējuma veidnes sastāvdaļa. Šis elements ir plānots, bet pašlaik nav zināms izlaišanas laiks.
 
 Tādu datu gadījumā, kuri atrodas Finance, bet kuru nav Human Resources, saistiet abas sistēmas kopā, izmantojot Human Resources vienumu **Konfigurēt saites**.
 
@@ -76,7 +76,7 @@ Ar opciju “Papildu vaicājums” varat filtrēt un pārveidot avota datus pirm
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Vai var norādīt, kurus laukus nosūtīt uz risinājumu Finance konkrētam elementam?
 
-Laukus var pievienot vai noņemt no integrācijas uzdevuma. Ne visi datu lauki, kas pastāv Common Data Service elementā, tiks aizpildīti no Human Resources.
+Laukus var pievienot vai noņemt no integrācijas uzdevuma. Ne visi datu lauki, kas pastāv Dataverse tabulā, tiks aizpildīti no Human Resources.
 Papildu datus var aizpildīt, izmantojot Power Apps.
 
 ![Pievienot vai noņemt laukus no integrācijas uzdevuma](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ Nē, datu integrētājs nevarēs iegūt dzēstos ierakstus datu pārsūtīšanai
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Vai var atkārtoti palaist izpildi ar kļūdām? Ja tas tā ir, vai tiks nosūtīts fails pilnībā vai tikai izmaiņas?
 
-Pirmoreiz palaižot datu integrētāju, vienmēr tiek veikta pilna izpilde. Turpmāko palaišanas reižu pamatā ir izmaiņu izsekošana. Izpildot kļūdainu palaišanu, tiek izgūti ieraksti palaišanas ietvaros un tiek nosūtītas jaunākās izmaiņas no Common Data Service.
+Pirmoreiz palaižot datu integrētāju, vienmēr tiek veikta pilna izpilde. Turpmāko palaišanas reižu pamatā ir izmaiņu izsekošana. Izpildot kļūdainu palaišanu, tiek izgūti ieraksti palaišanas ietvaros un tiek nosūtītas jaunākās izmaiņas no Dataverse.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Saglabājot projektu, tiek parādīts kļūdas ziņojums: “Projektam ir kartēšanas kļūdas.” Ko darīt?
 
@@ -109,15 +109,15 @@ Jā, katrai juridiskajai personai risinājumā Finance ir nepieciešams atseviš
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Ir nepieciešams pārsūtīt datus, kas nav daļa no Microsoft nodrošinātās noklusējuma veidnes. Vai to var izdarīt?
 
-Jā, esošajai veidnei var pievienot vai noņemt laukus. Veidni var modificēt, lai iekļautu papildu datus no citiem Common Data Service elementiem. Lai elements tiktu iekļauts veidnē, tam ir jāatrodas pakalpojumā Common Data Service. 
+Jā, esošajai veidnei var pievienot vai noņemt laukus. Veidni var modificēt, lai iekļautu papildu datus no citām Dataverse tabulām. Lai elements tiktu iekļauts veidnē, tam ir jāatrodas pakalpojumā Dataverse. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Tikko tika izveidotas jaunas Finance un Human Resources vides, un tiek rādīts kļūdas ziņojums “Datu vērtība ir ārpus integritātes ierobežojumiem”. Kādēļ?
 
 Minētajai kļūdai var būt šādi iemesli:
 
-- Datu pārsūtīšanas dēļ avotā (Common Data Service) tika izgūti dublēti ieraksti.
+- Datu pārsūtīšanas dēļ avotā (Dataverse) tika izgūti dublēti ieraksti.
 
-- Datu pārsūtīšanai ir nulles vērtības laukiem, kas ir nepieciešami Finance and Operations. Pārbaudiet datus, kas atrodas Common Data Service un atbilst Finance and Operations prasībām.
+- Datu pārsūtīšanai ir nulles vērtības laukiem, kas ir nepieciešami Finance and Operations. Pārbaudiet datus, kas atrodas Dataverse un atbilst Finance and Operations prasībām.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ja radušās izpildes kļūdas un darbinieka ID netika sinhronizēts, kā atrast vēsturē darbu, kurā ir nesekmīgi apstrādātais darbinieka ieraksts?
 
@@ -139,27 +139,27 @@ Izsekojiet laiku datu integrētāja izpildes vēsturē un meklējiet projektu ar
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Pēc Human Resources un Finance integrācijas Finance nevar redzēt savus Human Resources datus. Ko darīt?
 
-Integrācija risinājumā Finance paredz divas darbības. Vispirms pārliecinieties, vai Human Resources dati ir atjaunināti un ir pieejami Common Data Service. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā Power Apps, skatot datus, kuri ir datu elementos.
+Integrācija risinājumā Finance paredz divas darbības. Vispirms pārliecinieties, vai Human Resources dati ir atjaunināti un ir pieejami Dataverse. Šī sinhronizācija tiek veikta gandrīz reālā laikā, un to var pārbaudīt risinājumā Power Apps, skatot datus, kuri ir datu tabulās.
 
-![Dati pakalpojumā Common Data Service](media/DataInCDS.png)
+![Dati pakalpojumā Dataverse](media/DataInCDS.png)
 
-Ja dati pakalpojumā Common Data Service netiek rādīti paredzētajā veidā, pārbaudiet, vai integrācijā šis elements tiek atbalstīts. Lai iekļautu papildu datus pakalpojumā Common Data Service, būs nepieciešamas izmaiņas no Microsoft puses.
+Ja dati pakalpojumā Dataverse netiek rādīti paredzētajā veidā, pārbaudiet, vai integrācijā šis elements tiek atbalstīts. Lai iekļautu papildu datus pakalpojumā Dataverse, būs nepieciešamas izmaiņas no Microsoft puses.
 
-Ja elements tiek atbalstīts un šie dati ir pieejami pakalpojumā Common Data Service, pārbaudiet, vai datu integrētājā ir pareizs kartējums. Ja integrētāja kartējums ir pareizs, pārbaudiet, vai ir veiksmīgi izpildīti datu pārvaldības darbi. Pakešveida darbu izpildes laikā var rasties kļūdas. Plašāku informāciju par to, kā izmantot rīku Datu pārvaldība, skatiet sadaļā [Datu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Ja elements tiek atbalstīts un šie dati ir pieejami pakalpojumā Dataverse, pārbaudiet, vai datu integrētājā ir pareizs kartējums. Ja integrētāja kartējums ir pareizs, pārbaudiet, vai ir veiksmīgi izpildīti datu pārvaldības darbi. Pakešveida darbu izpildes laikā var rasties kļūdas. Plašāku informāciju par to, kā izmantot rīku Datu pārvaldība, skatiet sadaļā [Datu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Manu darbinieku adreses ir nepareizas pēc tam, kad tās ir importētas risinājumā Finance. Ko darīt?
 
-Vienuma **Atrašanās vietas ID** numuru sērija izmanto vienu un to pašu modeli gan Human Resources, gan Finance. Numuru sērijai ir jābūt unikālai abās pusēs, lai nebūtu adrešu sadursmju, integrējot datus no Common Data Service uz Finance and Operations.
+Vienuma **Atrašanās vietas ID** numuru sērija izmanto vienu un to pašu modeli gan Human Resources, gan Finance. Numuru sērijai ir jābūt unikālai abās pusēs, lai nebūtu adrešu sadursmju, integrējot datus no Dataverse uz Finance and Operations.
 
 Veicot Human Resources ieviešanu, pārbaudiet, vai Human Resources un Finance nav vienādas numuru sērijas. Pārbaudiet, vai visas numuru sērijas nav identiskas, ja dati tiek uzturēti abās sistēmās.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Izveidojot savienojumu kopu, savienojums netiek rādīts nolaižamajā sarakstā Savienojums. Ko darīt?
 
-Pārliecinieties, ka, veidojot savienojumus, izvēlaties Dynamics 365 Finance un Common Data Service.
+Pārliecinieties, ka, veidojot savienojumus, izvēlaties Dynamics 365 Finance un Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Veicot nodarbinātību sinhronizāciju, tiek parādīti kļūdas ziņojumi “CompanyInfo_FK neeksistē” vai “Vērtība “31.12.2154. 23:59:59” laukā “Nodarbinātības beigu datums” nav atrasta saistītajā tabulā “Nodarbinātība”.” Ko darīt?
 
-Pārliecinieties, ka veicat kartēšanu pareizajai juridiskajai personai. Juridiskās personas sinhronizēšana neietilpst noklusējuma veidnē, tāpēc ir paredzēts, ka visas juridiskās personas, kas atrodas Human Resources un Common Data Service, atrodas arī Finance.
+Pārliecinieties, ka veicat kartēšanu pareizajai juridiskajai personai. Juridiskās personas sinhronizēšana neietilpst noklusējuma veidnē, tāpēc ir paredzēts, ka visas juridiskās personas, kas atrodas Human Resources un Dataverse, atrodas arī Finance.
 Pārliecinieties, ka esat atlasījis pareizās juridiskās personas saistītajai savienojumu kopai.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Pēc mana projekta iestatīšanas lauku kartējums risinājumam Finance ir tukšs. Ko darīt?
@@ -172,15 +172,12 @@ Atsvaidziniet datu elementus risinājumā Finance, atverot sadaļu **Datu pārva
 
 - Datu integrētājs (DI): 
 
-  - [Datu integrēšana pakalpojumā Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Datu integrēšana pakalpojumā Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [Datu integrētāja kļūdu pārvaldība un problēmu novēršana](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Atbildes sniegšana uz DSR pieprasījumiem sistēmas ģenerētiem žurnāliem platformā Power Apps, Microsoft Power Automate un Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atbildes sniegšana uz DSR pieprasījumiem sistēmas ģenerētiem žurnāliem platformā Power Apps, Microsoft Power Automate un Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Datu pārvaldība:
 
   - [Datu pārvaldība](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

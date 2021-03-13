@@ -1,8 +1,8 @@
 ---
-title: Pārskats
+title: Administrēšanas pārskats
 description: Šī administratora ceļvedis palīdz iestatīt, pārvaldīt un novērst problēmas Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527865"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113468"
 ---
-# <a name="overview"></a>Pārskats
+# <a name="administration-overview"></a>Administrēšanas pārskats
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527865"
 
 - Datu integrācijas iestatīšana
   - [Datu integrācijas tehnoloģijas izvēle](hr-admin-integration-choose-technology.md)
-  - [Common Data Service integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
+  - [Dataverse integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
   - [Integrācijas konfigurēšana ar Finance](hr-admin-integration-finance.md)
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
   - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ ms.locfileid: "4527865"
 - [Jaunumi un izmaiņas Human Resources](hr-admin-whats-new.md)
 - [Izstrādātāja ceļvedis](hr-developer-overview.md)
 - [Lietotāja ceļvedis](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

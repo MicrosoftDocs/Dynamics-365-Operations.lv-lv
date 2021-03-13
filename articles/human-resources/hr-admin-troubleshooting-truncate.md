@@ -2,7 +2,7 @@
 title: Izvairīšanās no teksta saīsināšanas amatu hierarhijā un eksportēšana uz Visio
 description: Šajā rakstā ir paskaidrots, kā atrisināt problēmu, kas izraisa personu vārdu un amatu nosaukumu saīsināšanu, kad debitori skata amatu hierarhiju programmā Microsoft Dynamics 365 Human Resources. Teksta saīsināšana var apgrūtināt ekrānuzņ. veikšanu vai hierarhijas drukāšanu.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419552"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113398"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Izvairīšanās no teksta saīs. amatu hierarhijā un eksport. uz Visio
 
@@ -104,6 +104,3 @@ Pamatojoties uz laukiem, kas atlasīti iekļaušanai diagrammā, katrs zars rād
 **Papildu opcija**
 
 Human Resources var lietot arī darbvietu **Personas**, lai skatītu ar hierarhiju saistīto informāciju.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

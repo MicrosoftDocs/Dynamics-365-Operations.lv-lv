@@ -2,7 +2,7 @@
 title: Talent paplašināšana ar Power Apps un Power Automate
 description: Šajā rakstā ir aprakstīti paplašināmības scenāriju piemēri programmai Microsoft Dynamics 365 Human Resources, kuros tiek izmantota programmatūra Microsoft Power Apps un Microsoft Power Automate.
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e6885c67f42ead34b5e10cc1b1a80a88fd2d59b9
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527030"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115370"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Paplašināšana ar Power Apps un Power Automate
 
@@ -51,7 +51,7 @@ Lai lejupielādētu programmu **Integrācija ar Microsoft 365, Power Automate**,
 
 Veidne **Power Automate – SQL savienojums un izpilde** izveido savienojumu ar Microsoft SQL Server un nodrošina SQL vaicājumu izpildi.
 
-Lai arī šī veidne lasa un atjaunina SQL tabulas, varat to izvērst un izmantot citos scenārijos. Piemēram, to var izmantot, lai aizpildītu sagatavošanas tabulu pakalpojumā Common Data Service ar ierakstiem no SQL Server un periodiski sinhronizētu sagatavošanas tabulu, izmantojot inkrementālu sadali no SQL Server.
+Lai arī šī veidne lasa un atjaunina SQL tabulas, varat to izvērst un izmantot citos scenārijos. Piemēram, to var izmantot, lai aizpildītu sagatavošanas tabulu pakalpojumā Dataverse ar ierakstiem no SQL Server un periodiski sinhronizētu sagatavošanas tabulu, izmantojot inkrementālu sadali no SQL Server.
 
 Detalizēts vaicājums ir integrēts ar plūsmu, lai iespējotu datu transformāciju un inkrementālo sadali.
 
@@ -60,5 +60,3 @@ Lai lejupielādētu veidni **Power Automate – SQL savienojums un izpilde**, ej
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Risinājums Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
