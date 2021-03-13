@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19761
 ms.assetid: e4c6622d-1e2d-4a4d-8047-c553a25d4f87
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70713fb25584e26f97bcb7c769da6954aa36b81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b8b3de89235c6dac52f059af9665ea70f80d83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4432441"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007796"
 ---
-# <a name="configuration-rules"></a><span data-ttu-id="e9187-104">Konfigurācijas noteikumi</span><span class="sxs-lookup"><span data-stu-id="e9187-104">Configuration rules</span></span>
+# <a name="configuration-rules"></a><span data-ttu-id="95f1d-104">Konfigurācijas noteikumi</span><span class="sxs-lookup"><span data-stu-id="95f1d-104">Configuration rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e9187-105">Šajā rakstā ir sniegta vispārīga informācija par konfigurācijas kārtulām.</span><span class="sxs-lookup"><span data-stu-id="e9187-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="e9187-106">Konfigurācijas kārtulas nosaka attiecības starp krājumiem materiālu komplektos (MK), kas attiecas uz precēm, kurām tiek izmantota konfigurācijas atbilstoši dimensijām tehnoloģija.</span><span class="sxs-lookup"><span data-stu-id="e9187-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
+<span data-ttu-id="95f1d-105">Šajā rakstā ir sniegta vispārīga informācija par konfigurācijas kārtulām.</span><span class="sxs-lookup"><span data-stu-id="95f1d-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="95f1d-106">Konfigurācijas kārtulas nosaka attiecības starp krājumiem materiālu komplektos (MK), kas attiecas uz precēm, kurām tiek izmantota konfigurācijas atbilstoši dimensijām tehnoloģija.</span><span class="sxs-lookup"><span data-stu-id="95f1d-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
 
-<span data-ttu-id="e9187-107">Konfigurācijas noteikumi ir pieejami, kad definējat dimensijām atbilstošas konfigurācijas modeļus.</span><span class="sxs-lookup"><span data-stu-id="e9187-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="e9187-108">Konfigurācijas noteikumi tiek izmantoti, lai ieviestu vai aizliegto noteiktas krājumu kombinācijas materiālu komplektā (MK).</span><span class="sxs-lookup"><span data-stu-id="e9187-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="e9187-109">Pēc tam, kad ir izveidots MK un atbilstošie krājumi ir piešķirti attiecīgajām konfigurācijas grupām, var definēt vienu vai vairākus konfigurācijas noteikumus.</span><span class="sxs-lookup"><span data-stu-id="e9187-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="e9187-110">Ja divi krājumi ir jālieto kopā, tiek izmantots operators **Atlasīt**, lai nodrošinātu ietveršanu.</span><span class="sxs-lookup"><span data-stu-id="e9187-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="e9187-111">Ja divi krājumi viens otru izslēdz, tiek izmantots operators **Atcelt atlasi**, lai nodrošinātu izslēgšanu.</span><span class="sxs-lookup"><span data-stu-id="e9187-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
+<span data-ttu-id="95f1d-107">Konfigurācijas noteikumi ir pieejami, kad definējat dimensijām atbilstošas konfigurācijas modeļus.</span><span class="sxs-lookup"><span data-stu-id="95f1d-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="95f1d-108">Konfigurācijas noteikumi tiek izmantoti, lai ieviestu vai aizliegto noteiktas krājumu kombinācijas materiālu komplektā (MK).</span><span class="sxs-lookup"><span data-stu-id="95f1d-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="95f1d-109">Pēc tam, kad ir izveidots MK un atbilstošie krājumi ir piešķirti attiecīgajām konfigurācijas grupām, var definēt vienu vai vairākus konfigurācijas noteikumus.</span><span class="sxs-lookup"><span data-stu-id="95f1d-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="95f1d-110">Ja divi krājumi ir jālieto kopā, tiek izmantots operators **Atlasīt**, lai nodrošinātu ietveršanu.</span><span class="sxs-lookup"><span data-stu-id="95f1d-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="95f1d-111">Ja divi krājumi viens otru izslēdz, tiek izmantots operators **Atcelt atlasi**, lai nodrošinātu izslēgšanu.</span><span class="sxs-lookup"><span data-stu-id="95f1d-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
 
-<span data-ttu-id="e9187-112">**Piezīme.** Šī informācija attiecas tikai uz preču šabloniem, kas izmanto dimensijām atbilstošas konfigurācijas tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="e9187-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
+<span data-ttu-id="95f1d-112">**Piezīme.** Šī informācija attiecas tikai uz preču šabloniem, kas izmanto dimensijām atbilstošas konfigurācijas tehnoloģiju.</span><span class="sxs-lookup"><span data-stu-id="95f1d-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
 
-<span data-ttu-id="e9187-113">Izmaiņas konfigurācijas noteikumos neietekmē esošās konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="e9187-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="e9187-114">Taču ir svarīgi iestatīt noteikumus pirms jaunas konfigurācijas definēšanas un pārbaudīt noteikumus, ja uzskatāt, ka tie ir mainīti.</span><span class="sxs-lookup"><span data-stu-id="e9187-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
+<span data-ttu-id="95f1d-113">Izmaiņas konfigurācijas noteikumos neietekmē esošās konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="95f1d-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="95f1d-114">Taču ir svarīgi iestatīt noteikumus pirms jaunas konfigurācijas definēšanas un pārbaudīt noteikumus, ja uzskatāt, ka tie ir mainīti.</span><span class="sxs-lookup"><span data-stu-id="95f1d-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
 
-<span data-ttu-id="e9187-115">**Piezīme.** ja tiek izmantota metode **Atlasīt**, tiek automātiski atlasīta atvasinātā konfigurācijas grupa, krājuma kods un konfigurācija.</span><span class="sxs-lookup"><span data-stu-id="e9187-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="e9187-116">Ja tiek izmantota metode **Atcelt atlasi**, nevar atlasīt atvasināto konfigurāciju, krājuma kodu un konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="e9187-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
+<span data-ttu-id="95f1d-115">**Piezīme.** ja tiek izmantota metode **Atlasīt**, tiek automātiski atlasīta atvasinātā konfigurācijas grupa, krājuma kods un konfigurācija.</span><span class="sxs-lookup"><span data-stu-id="95f1d-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="95f1d-116">Ja tiek izmantota metode **Atcelt atlasi**, nevar atlasīt atvasināto konfigurāciju, krājuma kodu un konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="95f1d-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="e9187-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="e9187-117">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="95f1d-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="95f1d-117">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="e9187-118">Uz dimensijām balstītas preču konfigurācijas pārskats</span><span class="sxs-lookup"><span data-stu-id="e9187-118">Dimension-based product configuration overview</span></span>](dimension-based-product-configuration.md)
+[<span data-ttu-id="95f1d-118">Uz dimensijām balstītas preču konfigurācijas pārskats</span><span class="sxs-lookup"><span data-stu-id="95f1d-118">Dimension-based product configuration overview</span></span>](dimension-based-product-configuration.md)
 
 
 
