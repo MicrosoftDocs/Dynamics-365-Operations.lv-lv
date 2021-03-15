@@ -86,3 +86,6 @@ Lai pievienotu pasūtījuma konfigurācijas moduli jaunā lapā un iestatītu ne
 [Saņemšanas informācijas modulis](pickup-info-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Ja vēlaties, lai konkrētas valūtas precizitātes atšķirtos no valūtas prec
 ### <a name="tables-currency-column"></a>tabulas: valūtas lauks
 
 Decimāldaļu skaits, ko var konfigurēt noteiktiem valūtas laukiem, ir ierobežots līdz četriem.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

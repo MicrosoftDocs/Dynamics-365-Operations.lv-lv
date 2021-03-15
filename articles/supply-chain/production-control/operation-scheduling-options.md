@@ -133,3 +133,6 @@ Pašreizējās vērtības var saglabāt kā noklusējuma vērtības. Ir divas op
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

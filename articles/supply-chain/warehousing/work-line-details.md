@@ -127,3 +127,6 @@ Lai izveidotu izdošanas darbu, veiciet tālāk norādītās darbības.
 
 > [!IMPORTANT]
 > Ja darba rindai atcelsit tikai daļu daudzuma, no kravas rindas ir jānoņem arī novecojušais daudzums. Pretējā gadījumā, ja netiek iestatīta pareiza nepietiekamas piegādes vērtība, kravas rindai nevar apstiprināt sūtīšanu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

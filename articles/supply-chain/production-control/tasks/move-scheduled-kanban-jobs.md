@@ -61,3 +61,6 @@ ms.locfileid: "4961644"
 2. Nokl. **Tālāk**. Ņemiet vērā, ka darbs tiek pārvietots sarakstā par vienu rindu uz leju. 
 
 3. Nokl. **Atpakaļ**. Ņemiet vērā, ka darbs tiek pārvietots sarakstā par vienu rindu uz augšu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

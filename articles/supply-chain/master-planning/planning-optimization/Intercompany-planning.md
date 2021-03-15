@@ -87,3 +87,6 @@ Sekojošajā attēlā parādīts, kā šis piemērs var parādīties lapā **Vai
 Sekojošajā attēlā parādīts, kā šis piemērs var parādīties lapā **Vairāklīmeņu piesaiste** plānotās ražošanas pasūtījumam.
 
 ![Starpuzņēmumu piemērs, kas ietver trīs uzņēmumus](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

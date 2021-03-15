@@ -94,3 +94,6 @@ Pasūtījuma MK aprēķina pamatā ir ražota krājuma MK aprēķins. Noteikta p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

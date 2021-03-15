@@ -71,3 +71,6 @@ Lai izveidotu pakalpojumu objektu attiecības pakalpojuma pasūtījumam, veiciet
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

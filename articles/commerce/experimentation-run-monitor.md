@@ -52,3 +52,6 @@ Ja kāda iemesla dēļ ir nepieciešams veikt izmaiņas variantos, veiciet tāl�
 
 ## <a name="next-step"></a>Nākošā darbība
 [Varianta publicēšana un eksperimenta pabeigšana](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

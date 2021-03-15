@@ -190,3 +190,6 @@ Tālāk norādītā informācija tiek importēta un iekļauta jaunā darbinieka 
 
 [Dataverse virtuālo tabulu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ ms.locfileid: "4998707"
 5. Izvērsiet sadaļu Vairāki Kanban.
     * Ņemiet vērā, ka Kanban tika izveidots, lai nepieciešamos materiālus pārsūtītu uz noliktavu 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

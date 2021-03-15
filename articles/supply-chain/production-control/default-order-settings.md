@@ -203,3 +203,6 @@ Lai iestatītu pārbaudes opciju:
 1. Cilnē **Vispārīgi** iestatiet **Pārbaude noklusējuma pasūtījumu daudzumiem** uz vienu no šīm vērtībām:
     - **Stingrā** — Atlasiet šo opciju, lai nodrošinātu, ka visas **Standarta pasūtījuma daudzuma** vērtības būs **Vairāku** vērtību reizinājums katrai kopsavilkuma cilnei (**Pirkšanas pasūtījums**, **Krājumi** un **Pārdošanas pasūtījums**).
     - **Standarta** — Atlasiet šo opciju, lai izmantotu standarta pārbaudi (kas darbojas tieši tāpat, kā, kad šis līdzeklis nav iespējots).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Taču, ja lietojat nosacījuma PVN, PVN nodokļu iestādei ir jāmaksā 30. j�
 Ja kā maksājuma metode tiek izmantots ar iepriekšēju datumu datēts čeks tad, kad maksājums ir izveidots, bankas konts netiek notīrīts. Dažās valstīs PVN kļūst par “realizēto” saistību, kad maksājums notīra banku, kas nozīmē, ka ar iepriekšēju datumu datēts čeks ir nosegts. Jūs varat to iespējot, atlasot **Īstenot nosacījuma nodokli, ja tiek izrakstīti ar iepriekšēju datumu datēti čeki** cilnē **Kases un bankas vadība > Iestatījumu > Kases un bankas vadības parametri > Ar iepriekšēju datumu datēti čeki**.
 
 Plašāku informāciju skatiet šeit: [Iestatīt ieturētā nodokļa kodus](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

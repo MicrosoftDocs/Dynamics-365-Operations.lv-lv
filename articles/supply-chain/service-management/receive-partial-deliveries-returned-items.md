@@ -50,3 +50,6 @@ Ja atgrieztajā sūtījumā ir mazāk nekā pilns daudzums no atgriešanas pasū
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Konsolidētā partijas pasūtījumā var ietilpt jebkāda tālāk uzskaitīto pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

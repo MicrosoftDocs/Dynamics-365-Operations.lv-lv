@@ -40,3 +40,6 @@ Ieturētā nodokļa maksājuma uzdevums sedz ieturētā nodokļa bilances no kre
 7. Noklikšķiniet uz **Labi**.
 
 ![Ieturētā nodokļa maksājuma parametri](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

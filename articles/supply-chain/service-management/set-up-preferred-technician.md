@@ -67,3 +67,6 @@ Jebkuru darbinieku var atlasīt kā ieteicamo tehnisko speciālistu pakalpojumu 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

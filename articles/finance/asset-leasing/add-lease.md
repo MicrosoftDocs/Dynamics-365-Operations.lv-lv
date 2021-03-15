@@ -88,3 +88,6 @@ Visi žurnāla ieraksti, kas ir izveidoti Līdzekļu nomā, ir ietverti Līdzek�
 
 > [!NOTE]
 > Līdzekļu nomas žurnālu nevar izveidot manuāli. Tas tiek izveidots automātiski, izveidojot nomas grafikus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

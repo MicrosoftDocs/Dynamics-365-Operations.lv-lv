@@ -79,3 +79,6 @@ Lai anulētu kredītkartes autorizāciju, varat mainīt maksājuma metodi, izvē
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

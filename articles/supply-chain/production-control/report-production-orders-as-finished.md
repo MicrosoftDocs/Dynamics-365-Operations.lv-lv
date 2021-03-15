@@ -47,3 +47,6 @@ Ražošanas pasūtījumu var iestatīt uz statusu **Fiziski pabeigts**, izmantoj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

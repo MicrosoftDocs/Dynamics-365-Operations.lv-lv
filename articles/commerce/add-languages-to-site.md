@@ -175,3 +175,6 @@ Pievienotā valoda tagad būs pieejama. Varat konfigurēt savu vietni, lai to iz
 [Autortiesību paziņojuma pievienošana](add-copyright-notice.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

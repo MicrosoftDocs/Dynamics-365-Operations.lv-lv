@@ -87,3 +87,6 @@ Tālāk esošajā attēlā redzama juridiska persona, kas pievienota hierarhijas
 [Kanālu apskats](channels-overview.md)
 
 [Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

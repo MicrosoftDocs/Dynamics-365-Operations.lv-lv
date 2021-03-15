@@ -91,3 +91,6 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti uzdevu
 26. Noklikšķiniet uz Pabeigt.
 27. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

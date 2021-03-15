@@ -81,3 +81,6 @@ Pārskats **Nodokļu nolietojums** lietotājiem Latvijā sniedz iespēju veidot 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

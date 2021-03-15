@@ -89,3 +89,6 @@ Zemāk esošajā attēlā ir parādīts četru līdzekļu IP aprēķina ekrānuz
 - Varat vienlaicīgi atlasīt vairākus līdzekļus **Visi līdzekļi**, pēc tam noklikšķiniet uz pogas **Līdzekļa KPI** cilnē **Vispārīgi**. Pēc tam noklikšķiniet uz **Labi** dialogā **Aprēķinā līdzekļa KPI**, lai aprēķinātu KPI atlasītajiem līdzekļiem.  
 - IP aprēķina rezultāti var saturēt vai nesaturēt [uzturēšanas dīkstāves reģistrācijas](../work-orders/maintenance-downtime.md) atkarībā no iestatījumiem un uzturēšanas dīkstāves iemeslu kodu izmantošanas. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Lai parādītu paziņojumu skaitu uz pogas, ir jāpārliecinās, ka tiek atjauni
 Tālāk attēlā ir parādīts rezultāts, atlasot dažāda izmēra pogu **Augšējā labajā stūrī** vai **Vidū** laukā **Satura pielāgošana**.
 
 ![Reāllaika saturs POS pogās](./media/ButtonsWithLiveContent.png "Reāllaika saturs POS pogās")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Debitoru portāls tiek nodrošināts kā Power Apps portālu veidne. Tas ir atka
 ![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")
 
 Debitoru portāls darbojas kā sākumpunkts organizācijām, kas vēlas izmantot Power Apps portālus, lai izveidotu ārēji vērstu tīmekļa vietni, kura izmanto datus no to Supply Chain Management instalācijas. Tas palīdz organizācijām savienot duālo ierakstu, Supply Chain Management un Power Apps portālus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

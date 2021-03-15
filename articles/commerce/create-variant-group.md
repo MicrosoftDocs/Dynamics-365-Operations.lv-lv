@@ -72,3 +72,6 @@ Tālāk redzamajā attēlā parādīts "brīvā stila krekla izmēru" izmēru gr
 [Mazumtirdzniecības preču iestatīšana](set-up-retail-products.md)
 
 [Preces dimensijas](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

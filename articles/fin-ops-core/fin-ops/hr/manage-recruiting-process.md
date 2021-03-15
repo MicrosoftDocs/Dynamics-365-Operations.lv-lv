@@ -103,3 +103,6 @@ Lai noskaidrotu vakancei iespējami piemērotos kandidātus, var izmantot opciju
 ## <a name="hiring-applicants"></a>Kandidātu pieņemšana darbā
 
 Lai pieņemtu kandidātu darbā, izmantojiet lapu **Pieteikumi**. Pieņemot kandidātu darbā, pieteikuma ierakstam tiek piemērots statuss **Pieņemts darbā**, un kandidāta personiskais ieraksts globālajā adrešu grāmatā tiek saistīts ar jaunā darbinieka ierakstu. Jaunā darbinieka datu izmaiņas globālajā adrešu grāmatā arī tiek parādītas pieteikuma ierakstā. Tas var palīdzēt samazināt ievadāmo datu apjomu, ja jaunais nodarbinātais vēlāk piesakās citam amatam jūsu uzņēmumā. Lai pieņemtu esošu nodarbināto jaunā amatā, nolaižamajā sarakstā **Pieteikuma statuss** noklikšķiniet uz **Mainīt pozīciju**, tādējādi uzsākot amata maiņas procesu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

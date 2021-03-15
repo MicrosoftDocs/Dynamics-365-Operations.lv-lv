@@ -53,3 +53,6 @@ ms.locfileid: "4992224"
 2. Sarakstā atzīmējiet atlasīto rindu.
 3. Laukā Preces dzīves cikla stāvoklis ievadiet vai atlasiet kādu vērtību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

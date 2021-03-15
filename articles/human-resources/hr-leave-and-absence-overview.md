@@ -54,3 +54,6 @@ Jūsu darbinieki var iesniegt brīvā laika pieprasījumus, un tos var pārvald�
 [Brīvā laika pieprasīšana](hr-employee-self-service-request-time-off.md)
 [Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

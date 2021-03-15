@@ -69,3 +69,6 @@ ms.locfileid: "5006062"
 38. **Darbību rūtī** noklikšķiniet uz „Pārdot”
 39. Noklikšķiniet uz **Pārdošanas cena**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

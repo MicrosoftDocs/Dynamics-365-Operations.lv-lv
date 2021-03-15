@@ -82,3 +82,6 @@ Ja izmantojat nomas importēšanas struktūru, lai atjauninātu nomas, un proces
 
 1. Doties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Iestatīšana \> Atjaunināt lauku atlasi**.
 2. Parādītajā lapā atlasiet atjaunināmos laukus un pēc tam atlasiet zaļo bultiņu, lai pārvietotu tos uz sarakstu **Atlasītie lauki**. Tikai lauki sarakstā **Atlasītie lauki** var tikt atjaunināti, izmantojot nomas importēšanas komplektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

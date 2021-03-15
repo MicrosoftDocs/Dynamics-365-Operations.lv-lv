@@ -75,3 +75,6 @@ Papildus ņemiet vērā, ka fizisko krājumu maksimālo korespondējošo vērtī
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -249,3 +249,6 @@ Scenārijā parādīts, kā šajā tēmā iepriekš aprakstītie iestatījumi ie
 1. Tikko izveidotajā pārdošanas pasūtījumā kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** atlasiet **Pievienot rindu**, lai pievienotu vēl vienu rindu.
 1. Jaunajā rindā iestatiet lauku **Krājuma numurs** uz *M9200* un lauku **Daudzums** uz *1*.
 1. Atkārtojiet darbības no 6 līdz 9, lai rezervētu rindu un izlaistu to noliktavā. Tā pat kā iepriekš, sistēma izveidos **jaunu** sūtījumu rindai, kuru pievienojāt. Tomēr, tā kā krājums ir no **CarAudio** krājuma grupas, tas **nespēj nodot ierobežojumus, ko iestatāt kravas komplekta grupai**. Tāpēc tas tiek **pievienots jaunai kravai**. Ja kravas plānošanas veidnē netika norādīta kravas komplekta grupa, tad sūtījums tika pievienots pirmajai kravai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

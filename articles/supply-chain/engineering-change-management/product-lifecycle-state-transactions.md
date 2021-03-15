@@ -75,3 +75,6 @@ Lietojiet kopsavilkuma cilni **Iespējotie biznesa procesi**, lai kontrolētu, k
 | Polise | Atlasiet vienu no šīm vērtībām, lai kontrolētu, vai un kā pašreizējais process tiks atļauts šajā dzīves cikla stāvoklī esošajām precēm:<ul><li>**Iespējots** – biznesa process ir atļauts.</li><li>**Bloķēts** – process nav atļauts. Ja lietotājs mēģina izmantot šo procesu precei, kas ir šajā dzīves cikla stāvoklī, sistēma bloķēs mēģinājumu un tā vietā rādīs kļūdu. Piemēram, varat bloķēt nolietotās preces no iegādes.</li><li>**Iespējots ar brīdinājumu** – process ir atļauts, bet tiks parādīts brīdinājums. Piemēram, jūs varētu vēlēties, lai preces prototips tiktu likts ražošanas pasūtījumā, ko izveido izpētes un attīstības nodaļa. Tomēr citām nodaļām ir jāapzinās, ka tām vēl nav jāražo prece.</li></ul> |
 
 Ja pievienojat papildu cikla stāvokļa nosacījumus kā pielāgošanu, šīs kārtulas varat skatīt lietotāja interfeisā (UI), augšējā rūtī atlasot opciju **Atsvaidzināt procesus**. Poga **Atsvaidzināt procesus** ir pieejama tikai administratoriem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

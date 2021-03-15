@@ -88,3 +88,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [Zvanu centra kanāla iestatīšana](channel-setup-callcenter.md)
 
 [Iestatīt organizāciju hierarhijas](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

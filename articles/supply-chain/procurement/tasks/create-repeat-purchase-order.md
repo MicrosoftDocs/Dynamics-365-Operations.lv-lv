@@ -69,3 +69,6 @@ Tā vietā, lai kopētu visu pasūtījumu, biežāk tiek izveidots jauns pirkša
 4. Atlasiet vēlamā pirkšanas pasūtījuma rindu. Ņemiet vērā, ka ir atlasīta arī vienīgā pasūtījuma rinda, kas atrodas šajā pirkšanas pasūtījumā (PO).  
 5. Atlasiet **Labi**. Jūsu pirkšanas pasūtījumam ir pievienota papildu pasūtījuma rinda.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 | Novērtējumu kartes        | Pamatlīdzekļu detalizēta informācija |
 
 Lai skatītu analīzi ar datiem, vispirms ir jāatsvaidzina apkopošanas mērījums AssetTransactionMeasure lapā **Elementu krātuve**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

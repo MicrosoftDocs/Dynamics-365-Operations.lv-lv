@@ -103,3 +103,6 @@ Klienti var vēlēties iegūt savu personas datu digitālo kopiju un arī skatī
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

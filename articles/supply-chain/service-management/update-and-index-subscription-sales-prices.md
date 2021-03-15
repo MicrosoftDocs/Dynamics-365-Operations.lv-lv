@@ -54,3 +54,6 @@ Abonementa pamata cena vai indekss ir atjaunināts ar norādīto vērtību.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

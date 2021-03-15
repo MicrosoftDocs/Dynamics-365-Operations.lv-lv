@@ -45,3 +45,6 @@ Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido 
    | **Gaidīšanas diena** | Atlasiet gaidīšanas dienu, ko izmantot, lai aprēķinātu gaidīšanas datumu. |
 
 4. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
 - [Finanšu dimensiju definēšana](tasks/define-financial-dimensions.md)
 - [Finanšu dimensijas noklusējuma veidņu uzturēšana](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

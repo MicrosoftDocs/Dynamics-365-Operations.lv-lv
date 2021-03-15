@@ -40,3 +40,6 @@ ms.locfileid: "4975870"
 10. Ievadiet vai atlasiet vērtību laukā **Pamatlīdzeklis**.
 11. Atlasiet **Grāmatot**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

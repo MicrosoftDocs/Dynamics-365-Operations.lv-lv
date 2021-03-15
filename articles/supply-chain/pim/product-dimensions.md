@@ -145,3 +145,6 @@ Versijas dimensija darbojas tāpat kā citas preces dimensijas. Tomēr, ņemot v
 
 > [!IMPORTANT]
 > Ieslēdzot un lietojot versijas dimensiju, daži risinājumi, kas atsaucas uz krājumu dimensijām, var pārstāt darboties. Lai apstiprinātu un labotu šīs problēmas, sazinieties ar neatkarīgā programmatūras pārdevēju (ISV), lai uzzinātu par ietekmētajiem risinājumiem. Papildinformāciju skatiet šeit [Iespējot versijas dimensiju](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

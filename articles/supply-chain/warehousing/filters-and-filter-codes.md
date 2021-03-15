@@ -165,3 +165,6 @@ Lai iestatītu kreditoru filtru kodus, izpildiet šīs darbības.
 ## <a name="see-also"></a>Skatiet arī
 
 [Papildinformāciju skatiet wMS-Warehouse Filtru kodu rakstu](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

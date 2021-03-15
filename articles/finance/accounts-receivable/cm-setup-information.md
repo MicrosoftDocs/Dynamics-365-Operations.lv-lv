@@ -152,3 +152,6 @@ Izpildiet šīs darbības, lai pievienotu rindas, kas norāda kredīta limitu, k
 2. Atlasiet salīdzinājuma operatoru, kas nosaka, kā jānovērtē punktu skaitīšanas grupas informācija.
 3. Ievadiet vērtību, kas jāsalīdzina ar vērtību, kas norādīta punktu skaitīšanas grupai.
 4. Ievadiet kredīta limitu, kas jāpiešķir, ja debitora informācija atbilst vērtībai, kas norādīta punktu skaitīšanas grupai. Piemēram, jūs izveidojat automātisku kredīta limitu punktu skaitīšanas grupai **Zema**. Ja uzņēmuma darbības gadi ir viena no punktu skaitīšanas grupām, varat definēt vienu rindu, kas piešķir kredīta limitu 100 000, ja debitors ir bijis aktīvs uzņēmējdarbības veicējs piecus gadus, un citu rindu, kas piešķir kredīta limitu 200 000, ja debitors ir bijis aktīvs uzņēmējdarbības veicējs 10 gadus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

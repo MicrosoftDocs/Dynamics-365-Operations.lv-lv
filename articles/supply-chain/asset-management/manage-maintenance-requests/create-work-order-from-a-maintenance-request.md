@@ -54,3 +54,6 @@ Pēc uzturēšanas pieprasījumu izveides tos var viegli pārvērst par darba pa
 
     ![Atvērt jaunu darba pasūtījumu](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

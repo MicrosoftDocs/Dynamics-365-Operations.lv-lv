@@ -54,3 +54,6 @@ Ir daži apstākļi, kad nav ieteicams atiestatīt data mart. Tie ietver.
 > Tālāk norādītajiem punktiem ir divas lietas, kas *neatiestata* data mart. <br>
 > - Atiestatīšana nenoņem pārskata dizainus. <br>
 > - Atiestatīšana, ja nav atlasīta, nenoņem uzņēmuma datus vai lietotāja datus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4964798"
 3. Palaidiet sadales grafiku 1070, lai sinhronizētu izmaiņas ar kanālu datu bāzi. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

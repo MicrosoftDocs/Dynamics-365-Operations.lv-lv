@@ -72,3 +72,6 @@ Ja izmantojat cikla inventarizācijas plānus, lai izveidotu inventarizācijas d
 14. Noklikšķiniet uz OK.
 15. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

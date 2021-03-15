@@ -65,3 +65,6 @@ ms.locfileid: "4980994"
 5. **Darbību rūtī** noklikšķiniet uz Plāns.
 6. Noklikšķiniet uz **Krājumu vajadzība**. Ņemiet vērā, ka **Minimālais daudzums** ir atjaunināts ar jaunu minimālo daudzumu no drošības krājumu žurnāla.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

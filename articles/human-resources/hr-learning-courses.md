@@ -137,3 +137,6 @@ Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku paša
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

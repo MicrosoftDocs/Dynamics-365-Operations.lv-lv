@@ -103,3 +103,6 @@ ms.locfileid: "5093699"
     Šajā piemērā atlasiet konfigurācijas versiju, kuras statuss ir **Koplietots**.
 
     Ievērojiet, ka tagad atlasītajai datu modeļa konfigurācijai ir pieejama arī koplietotā 1. versija.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Kad pielāgotā lapa ir publicēta, tā tiks apkalpota dinamiskās lapas, kam ir
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
 
 [Tiešsaistes kanāla paplašināmība](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

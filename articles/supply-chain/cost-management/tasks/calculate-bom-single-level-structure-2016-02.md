@@ -43,3 +43,6 @@ ms.locfileid: "5011776"
     * Lai augšējā izvēlnē redzētu šo opciju, iespējams, ir jānoklikšķina uz daudzpunktes (...).    Izmaksu sastāvs: * 10 — atvasināts no ITEM_A, 10 — no ITEM_B, 10 — no BOM_2. Šajā gadījumā nav informācijas par BOM_2, jo tas tika ievadīts kā standarta izmaksas 10, bet nav iegūts, veicot aprēķinu.  * 7 tiek atvasināts no uzstādīšanas laika, kuram ir konstantas izmaksas, un papildu 7 tiek atvasināts no izpildlaika darbības (Process).  * Pastāv arī citas summas, kas atbilst netiešajām izmaksām.  
 9. @SysTaskRecorder:_RequestClose
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

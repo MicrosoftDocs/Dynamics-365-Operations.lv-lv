@@ -114,3 +114,6 @@ Lai noņemtu jau eksistējošu saistību starp uzturēšanā esošu pamatlīdzek
 1. Atrast un atvērt pamatlīdzekli.
 1. **Pamatlīdzekļu** kopsavilkuma cilnē nodzēsiet vērtību no **Funkcionālā novietojuma** lauka.
 1. Darbību rūtī atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

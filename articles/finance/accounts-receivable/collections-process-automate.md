@@ -117,3 +117,6 @@ Ja darbības veids ir e-pasta ziņojums procesa detalizētajā informācijā, š
 |     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Automātiski grāmatot parādu piedziņas vēstules           |     Parādu piedziņas vēstules darbības veidi iegrāmatos vēstuli automatizācijas laikā.                                      |
 |     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Aktivitāšu izveide automātizācijai                |     Izveidojiet un aizveriet aktivitātes darbību veidiem, kas nav saistīti ar aktivitātēm, lai skatītu visas automatizētās darbības, kas veikti kontā.        |
 |     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Dienas, lai saglabātu parādu piedziņas procesu automatizāciju     |     Nosaka parādu piedziņas vēstures glabāšanas dienu skaitu.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

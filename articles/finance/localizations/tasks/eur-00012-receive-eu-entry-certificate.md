@@ -41,3 +41,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
     * Pievienojiet žurnālam papildu informāciju.  
     * Piemēram, pievienojiet skenētu ES ieraksta sertifikāta attēlu žurnālam.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

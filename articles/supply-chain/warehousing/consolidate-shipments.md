@@ -38,3 +38,6 @@ Tālāk norādītie scenāriji jums izskaidros sūtījumu konsolidācijas proces
 
 - [Sūtījumu konsolidācijas politikas](about-shipment-consolidation-policies.md)
 - [Sūtījumu konsolidācijas politiku konfigurēšana](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

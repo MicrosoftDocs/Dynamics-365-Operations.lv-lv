@@ -68,3 +68,6 @@ Lai iestatītu mobilās ierīces izvēlnes vienumu, kas nodrošinātu izdošanas
     - Izmantojiet atlikušos **Parādāmais lauks** laukus, lai pievienotu līdz septiņiem papildu parādāmajiem laukiem, pēc nepieciešamības. Katrā **Parādāmais lauks** laukā atlasiet darba rindas lauka nosaukumu. Katrai rindai tiks parādīta šī lauka vērtība. Vērtības tiks rādītas šeit atlasītajā pasūtījumā. Dažus no **Parādāmais lauks** laukiem var atstāt tukšus, ja nav nepieciešamas visas septiņas vērtības.
 
 1. Darbību rūtī atlasiet **Saglabāt** un pēc tam aizveriet lapu **Lauku saraksts**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

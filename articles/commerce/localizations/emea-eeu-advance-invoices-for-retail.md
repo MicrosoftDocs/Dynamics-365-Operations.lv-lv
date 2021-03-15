@@ -87,3 +87,6 @@ Veiciet šādas darbības, lai iespējotu dokumentu drukāšanu no POS, izmantoj
 
 4. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 5. Atlasiet darbu **1090** un pēc tam atlasiet **Izpildīt tūlīt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

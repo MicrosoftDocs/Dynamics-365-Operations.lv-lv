@@ -63,3 +63,6 @@ Parametrs **Daudzums** norāda, vai paketē ir jāizlaiž viss daudzums vai fizi
 -   Lai parametru **Daudzums** un **Atļaut daļēji pārvietotu pasūtījumu pārvietošanu** iestatītu pārsūtīšanas pasūtījumiem, noklikšķiniet uz **Noliktavas vadība** \> **Pārvietot uz noliktavu** \> **Pārsūtīšanas pasūtījumu automātiska pārvietošana**.
 
 -   Lai parametru **Daudzums** un **Atļaut daļēji pārvietotu pasūtījumu pārvietošanu** iestatītu pārdošanas pasūtījumiem, noklikšķiniet uz **Noliktavas vadība** \> **Pārvietot uz noliktavu** \> **Pārdošanas pasūtījumu automātiska pārvietošana**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

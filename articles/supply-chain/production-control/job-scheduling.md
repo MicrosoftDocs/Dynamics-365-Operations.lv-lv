@@ -76,3 +76,6 @@ Darbu plānošana ņem vērā resursiem norādītos efektivitātes procentus. Ef
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

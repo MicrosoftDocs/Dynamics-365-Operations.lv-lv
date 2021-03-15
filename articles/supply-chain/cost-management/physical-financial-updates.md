@@ -73,3 +73,6 @@ Kad finansiāla transakcija tiek iegrāmatota, transakcijas ieraksta statuss ir 
 -   Negatīva daudzuma krājumu žurnāli, tādi kā pārvietošana, pelņa un zaudējumi, uzskaite, materiālu komplekti un pārsūtīšana
 
 Darbības, kas samazina daudzumu, tiek grāmatotas, norādot pašreizējo vidējo pašizmaksu. Līdz ar to, lai izdošanas transakcijas segtu ar saņemšanas darbībām, pamatojoties uz katram krājumam piešķirto krājumu modeli, ir nepieciešama krājumu slēgšanas procedūra.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

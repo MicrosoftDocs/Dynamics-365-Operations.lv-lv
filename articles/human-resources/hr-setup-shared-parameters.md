@@ -45,3 +45,6 @@ Cilnē **Amati** norādiet, vai jauni amati ir pieejami piešķiršanai pēc nok
 
 -   **Vienmēr** — darbiniekus jauniem amatiem var piešķirt amatu izveides brīdī. Izveidojot amatus, datums un laiks **Pieejams piešķirei** cilnē **Vispārīgi** lapā **Amati** tiek automātiski iestatīti uz izveides datumu un laiku.
 -   **Nekad** — darbiniekus jauniem amatiem nevar piešķirt amatu izveides brīdī. Ja šī opcija ir atlasīta, kļūstot pieejamam katram jaunam amatam būs jāatver forma **Amats** un pēc tam cilnē **Vispārīgi** jāievada datums **Pieejams piešķirei**, lai iespējotu darbinieka piešķiri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

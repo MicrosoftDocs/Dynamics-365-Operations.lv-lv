@@ -36,3 +36,6 @@ Jūs reģistrējat un iegrāmatojat visas pakalpojumu pasūtījumu darbības, iz
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

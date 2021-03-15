@@ -214,3 +214,5 @@ Vadītāji var redzēt visus savas grupas mērķus, izmantojot elementu **Grupas
 Cilnē **Pārskati** ir apkopoti pārskati, kuri darbiniekam ir katrā statusā: **Izpilde**, **Gatavs pārskatīšanai** un **Galīgais pārskats**. Lai piekļūtu darbinieka pārskatam, atlasiet pogu **Detalizēta informācija** un pēc tam atlasiet pārskatus, pie kuriem sadarboties. Pamatojoties uz to, kur pārskats atrodas darbplūsmas procesā, varat redzēt, vai pārskatam ir pieejams atjauninājums. 
 
 Varat redzēt visus grupas pārskatus, izmantojot elementu **Grupas veiktspējas pārskati** cilnes **Mana komanda** sadaļā **Kopsavilkums**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

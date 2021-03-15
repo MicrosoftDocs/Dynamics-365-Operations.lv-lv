@@ -71,3 +71,6 @@ Budžeta pārvaldnieks izveido budžeta plāna veidni programmā Microsoft Word,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Svītrkoda maskas ir jāpiešķir svītrkodiem, pirms tos var izmantot. Turpinot
 5. Noklikšķiniet uz **Saglabāt**.
 
 Svītrkoda masku var izmantot, lai izveidotu svītrkodus precēm. Minētās darbības ir piemēri, kā izveidot svītrkoda maskas precēm, taču tās arī norāda, kā izveidot svītrkoda maskas visiem pārējiem atbalstītajiem svītrkodu tipiem. Svītrkodu maskas, tipi un garumi jāpielāgo izmantošanai attiecīgajā vidē.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

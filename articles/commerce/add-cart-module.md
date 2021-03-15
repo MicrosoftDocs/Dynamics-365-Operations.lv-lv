@@ -117,3 +117,6 @@ Lai pievienotu groza moduli jaunā lapā un iestatītu nepieciešamos rekvizītu
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
 
 [Izveidot tiešsaistes funkcionalitātes profilu](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

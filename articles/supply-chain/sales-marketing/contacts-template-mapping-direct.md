@@ -141,3 +141,6 @@ Tālāk esošajos attēlos ir redzams piemērs veidnes kartējumam līdzeklī Da
 [Programmā Supply Chain Management ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana ar programmu Sales](sales-invoice-template-mapping-direct.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras “ER konfigurēt
 21. Noklikšķiniet uz Atvērt.
     * Pārskatiet izveidoto XML failu, kas ietver uzskaites un summēšanas datus, kas tika apkopoti atlasītās konfigurācijas izpildes laikā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

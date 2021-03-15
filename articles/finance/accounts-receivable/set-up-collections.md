@@ -114,3 +114,6 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 
  - [Iekasēšanas informācijas pārskatīšana](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

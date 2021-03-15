@@ -56,3 +56,6 @@ Varat arī iestatīt sākotnējo dinamisko plānu tā, lai tas tiktu atjaunots a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

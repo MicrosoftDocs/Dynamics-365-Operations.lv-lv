@@ -109,3 +109,6 @@ Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija. Š�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

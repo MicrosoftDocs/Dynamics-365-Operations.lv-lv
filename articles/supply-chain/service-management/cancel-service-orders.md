@@ -77,3 +77,6 @@ Atlasītie pakalpojumu pasūtījumi tiek atcelti vai arī to progresa statuss ti
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

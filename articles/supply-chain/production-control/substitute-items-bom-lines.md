@@ -48,3 +48,6 @@ Aplūkosim šādu scenāriju: metināšanai nepieciešams metāla plāksnes gaba
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

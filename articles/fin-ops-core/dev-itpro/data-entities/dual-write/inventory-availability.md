@@ -118,3 +118,6 @@ Finance and Operations lauks | Kartes veids | Lauks Customer engagement | Noklus
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

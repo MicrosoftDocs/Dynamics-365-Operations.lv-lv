@@ -136,3 +136,6 @@ Būs pieejamas tālāk norādītās lapas un izvēlnes vienumi, kas saistīti ar
  - **Ārējās tirdzniecības parametri** (**Nodoklis** > **Iestatījumi** > **PVN** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**). Skatiet [Valsts/reģiona rekvizītu iestatīšana](#Set-up-Country/region-properties).
 
 Izvēles rūtiņa **Apgrieztā maksāšana** būs pieejama lapās **PVN grupa** un **Grāmatotais PVN**. Lai iegūtu papildu informāciju, skatiet sadaļas [PVN grupu un krājumu PVN grupu iestatīšana](#sales-tax-item-sales-tax-groups), [Apgrieztā maksāšana pārdošanas rēķinā](#reverse-charge-sale) un [Apgrieztā maksāšana pirkšanas rēķinā](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

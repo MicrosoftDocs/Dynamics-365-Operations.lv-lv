@@ -123,3 +123,6 @@ Tālāk norādītās galvenās dimensijas tiek lietotas kā filtri, lai apkopoš
 | Finanšu kalendāri                   | Kalendārs, Kalendāra apraksts                                                                                       |
 | Finanšu gadi                       | Kalendārais gads                                                                                                        |
 | Finanšu periodi                     | Kalendārā gada periods                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

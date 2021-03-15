@@ -186,3 +186,6 @@ Ir divi kārtulas izņēmumi, kad partijas līdzsvarošanai var lietot partijas 
 1. Ja formulas mērvienība atšķiras no aktīvās sastāvdaļas krājumu mērvienības, partijas pasūtījums nav piemērojams partijas līdzsvarošanai.
 
 Partijas pasūtījums, kas nav lietojams par partijas līdzsvarošanā, tiek pakļauts parastajam partijas pasūtījumu procesa ciklam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Piemēram, nodarbinātā ierodas darbā plkst. 10.00 un atlasa kavējuma kodu, 
 ### <a name="calculate-and-approve-absence"></a>Kavējuma aprēķināšana un apstiprināšana
 
 - Atlasiet **Apmeklētības laiks** &gt; **Pārskatīt un apstiprināt** &gt; **Apstiprināt vai aprēķināt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

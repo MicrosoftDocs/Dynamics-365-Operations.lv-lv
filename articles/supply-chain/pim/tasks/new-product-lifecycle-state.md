@@ -34,3 +34,6 @@ ms.locfileid: "4986833"
 3. Laukā Stāvoklis ierakstiet vērtību.
 4. Apraksta laukā ierakstiet vērtību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

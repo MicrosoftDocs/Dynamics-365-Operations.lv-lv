@@ -54,3 +54,6 @@ Lai pievienotu nodaļu nodaļu hierarhijai, rīkojieties šādi.
 
 ## <a name="steps-for-creating-a-department"></a>Norādījumi par nodaļas izveidi
 Sīku jaunas nodaļas izveides procedūras aprakstu skatiet rakstā [Jaunu nodaļu definēšana](../fin-and-ops/hr/tasks/define-new-departments.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

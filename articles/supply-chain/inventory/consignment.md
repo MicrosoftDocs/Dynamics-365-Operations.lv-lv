@@ -102,3 +102,6 @@ Ja jūsu kreditoriem ir kreditoru sadarbības interfeiss, viņi var izmantot šo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

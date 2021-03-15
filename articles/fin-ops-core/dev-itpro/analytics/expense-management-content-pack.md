@@ -93,3 +93,6 @@ Saturā ietilpst pārskatu lapu komplekts. Katra lapa sastāv no rādītāju kop
 | Darbinieku statistika | Izdevumu pārskati pēc izmaksu tipa            |
 |                     | Personiskie izdevumi                       |
 |                     | Izdevumu pārskati pēc statistikas grupas     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "4992274"
 8. Laukā Preces numurs ierakstiet vērtību.
 9. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

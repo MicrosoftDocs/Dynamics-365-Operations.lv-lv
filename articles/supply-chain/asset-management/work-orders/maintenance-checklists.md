@@ -79,3 +79,6 @@ Attēlā tālāk parādīts uzturēšanas kontrolsaraksta piemērs.
 
 ![1. attēls](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

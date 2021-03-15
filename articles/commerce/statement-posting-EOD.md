@@ -173,3 +173,6 @@ Izrakstu grāmatošanas līdzeklim ir veikti citi, aizmugursistēmas uzlabojumi,
 
     - Pārejiet uz sadaļu **Retail un Commerce** \> **Headquarters iestatīšana** \> **Parametri** \> **Commerce parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Krājumu atjaunināšana**, laukā **Detalizācijas līmenis** atlasiet **Kopsavilkums**.
     - Pārejiet uz sadaļu **Retail un Commerce** \> **Headquarters iestatīšana** \> **Parametri** \> **Commerce parametri**. Pēc tam cilnē **Grāmatošana**, kopsavilkuma cilnē **Apkopošana** opciju **Dokumentu transakcijas** iestatiet uz **Jā**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

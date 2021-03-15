@@ -58,3 +58,6 @@ ms.locfileid: "4968608"
 17. Aizvērt lapu.
 18. Atlasiet **Aktivizēt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

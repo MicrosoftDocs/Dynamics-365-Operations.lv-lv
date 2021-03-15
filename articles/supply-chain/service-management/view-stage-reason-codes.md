@@ -44,3 +44,6 @@ Skatiet un modificējiet pakalpojuma pasūtījuma stadiju iemeslu sarakstu. Izma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

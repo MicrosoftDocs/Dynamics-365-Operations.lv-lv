@@ -62,3 +62,6 @@ Iegrāmatotos žurnālu dokumentus var saglabāt kā dokumentu veidnes un piemē
 29. Laukā **Summa** ievadiet naudas summu, ko piemērot vaučerim. Lauks **Summa** tie rādīts tikai, ja vaučera veidne ir tips „Procenti”.  
 30. Noklikšķiniet uz **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

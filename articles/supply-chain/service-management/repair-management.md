@@ -112,3 +112,6 @@ Kad labošanas problēma ir atrisināta, varat aizvērt labošanas rindu. Iestat
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

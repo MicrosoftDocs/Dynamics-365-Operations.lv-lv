@@ -61,3 +61,6 @@ ms.locfileid: "5003632"
     * Ievadiet pārdošanas pasūtījuma numuru, kas atzīmējāt iepriekš šajā procedūrā. Tas saglabās apstrādes laiku minimālu šai procedūrai. Lauks pārdošanas pasūtījums ir neobligāts--jūs varat apstrādāt visus pasūtījumus jebkurai programmai.  
 21. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

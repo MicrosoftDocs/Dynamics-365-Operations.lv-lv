@@ -84,3 +84,6 @@ Krājumi, kas vēl nav rezervēti, tiek rezervēti izdošanas saraksta ģenerē�
 Tiklīdz visas izdošanas rindas lapā **Izdošanas saraksta reģistrācija** ir izdotas, saistītais sūtījums tiek pabeigts. Pēc tam var uzsākt procesu pārdošanas pasūtījumu pavadzīmēm, pamatojoties uz izdotajiem krājumiem.
 
 [![Atjaunināt izejošos sūtījumus](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

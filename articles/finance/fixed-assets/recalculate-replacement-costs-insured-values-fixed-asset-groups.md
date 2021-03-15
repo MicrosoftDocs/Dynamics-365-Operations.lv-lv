@@ -77,3 +77,6 @@ Nākamajā dienā jūsu vadītājs jūs informē, ka datoru vērtība ir samazin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

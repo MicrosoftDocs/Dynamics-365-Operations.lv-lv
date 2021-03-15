@@ -59,3 +59,6 @@ Lai definētu pielāgotu attēla fokusa punktu, veiciet šīs darbības.
 [Attēlu apgriešana](dam-crop-images.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

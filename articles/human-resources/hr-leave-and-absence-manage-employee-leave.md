@@ -56,3 +56,6 @@ Koriģējot darbinieka atvaļinājuma bilanci, jūs varat iekļaut iemesla kodu 
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Atvaļinājumu un kavējumu pieprasījumu pārvaldība](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

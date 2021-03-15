@@ -125,3 +125,6 @@ Atgriezeniskā izmaksu aprēķināšana jāveic, lai periodiski novērtētu NP u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

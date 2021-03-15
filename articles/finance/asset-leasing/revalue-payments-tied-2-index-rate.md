@@ -67,3 +67,6 @@ Lai skatītu nomas pārvērtēšanas procesa ietekmi uz IFRS 16 nomām, atveriet
 Varat skatīt tikko izveidoto maksājumu grafiku, kas sākas pārvērtēšanas datumā, un parādīt kopējo atjaunināto maksājuma summu. Jauns nomas saistību amortizācijas grafiks un līdzekļu nolietojuma grafiks arī ir izveidots, lai atspoguļotu koriģēto maksājumu grafiku.
 
 Žurnāla ieraksts automātiski iegrāmatoja korekcijas žurnāla ierakstu kontā izmaiņām nomas maksājumos, kas saistīti ar indeksa pārvērtēšanu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

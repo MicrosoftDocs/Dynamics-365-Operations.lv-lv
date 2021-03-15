@@ -478,3 +478,6 @@ Nosegtā summa tiek rādīta laukā <strong>Nosegts valūtā</strong>, lapā <st
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Pabeigšanas norakstīšanas princips norāda, ka materiāls tiks automātiski p
 
 ### <a name="available-at-location"></a>Pieejams atrašanās vietā.
 Norakstīšanas princips Pieejams atrašanās vietā norāda, ka materiāls tiks automātiski patērēts, kad tas tiks reģistrēts kā izdots ražošanai. Materiāls ir reģistrēts kā izdots no vietas, kad ir pabeigts izejmateriālu izdošanas darbs vai kad materiāls ir pieejams ražošanas ievades vietā un materiālu komplekta rinda ir izlaista nosūtīšanai uz noliktavu. Procesa laikā ģenerētais izdošanas saraksts tiek grāmatots pakešuzdevumā. Šis princips ir izmantojams, ja, piemēram, attiecībā pret vienu ražošanas pasūtījumu ir jāveic daudz izdošanas darbību. Šajā gadījumā jums nav manuāli jāatjaunina izdošanas saraksts, un jūs varat iegūt pašreizējo NP bilances skatu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

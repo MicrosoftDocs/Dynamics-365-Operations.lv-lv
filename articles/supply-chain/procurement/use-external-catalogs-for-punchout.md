@@ -54,3 +54,5 @@ Kad pieprasījums ir gatavs, izmantojiet darbību **Darbplūsma** > **Iesniegt**
 
 - [Ārēja kataloga iestatīšana elektroniskai atzīmēšanas sagādei](set-up-external-catalog-for-punchout.md)
 - [CXML uzlabojumu iegāde](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

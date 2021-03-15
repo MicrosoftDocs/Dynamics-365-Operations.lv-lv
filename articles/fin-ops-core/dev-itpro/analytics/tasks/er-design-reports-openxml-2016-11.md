@@ -150,3 +150,6 @@ Lai izpildītu tālāk norādītās darbības, vispirms izpildiet darbības, kas
 17. Laukā **Bankas konts** ievadiet `GBSI OPER`.
 18. Atlasiet **Labi**, pēc tam vēlreiz atlasiet **Labi**. Pārskatiet izveidoto darblapu, tostarp informāciju par maksājuma rindām, kā arī kopsummas katram valūtas kodam, kas ir izmantots šajā maksājuma ziņojumā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

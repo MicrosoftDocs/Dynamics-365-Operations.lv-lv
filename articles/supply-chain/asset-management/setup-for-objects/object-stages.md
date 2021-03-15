@@ -69,3 +69,6 @@ Kad esat izveidojis nepieciešamos līdzekļa dzīves cikla stāvokļus, varat i
 
 6. Atlasiet **Dzīves cikla stāvokļa atjauninājumi**, lai definētu, kuri līdzekļa dzīves cikla stāvokļi var sekot atlasītajam dzīves cikla stāvoklim.
 7. Izmantojiet kopsavilkuma cilni **Līdzekļa stāvoklis**, ja apstrādat līdzekļus, kurus saņemat remontam. Sadaļā **Ienākošais/Izejošais** varat atlasīt līdzekļa dzīves cikla stāvokļus, lai norādītu remontam saņemtā līdzekļa darbplūsmu. Ja piedāvājat patapinājuma līdzekļus debitoriem vai nodaļām, sadaļā **Patapinājums** varat atlasīt dzīves cikla stāvokļus patapinājuma līdzekļiem.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

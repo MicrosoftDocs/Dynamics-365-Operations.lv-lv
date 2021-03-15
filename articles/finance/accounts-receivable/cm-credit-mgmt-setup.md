@@ -78,3 +78,6 @@ Vairāki kredīta pārvaldības statistikas dati ir iekļauti papildinformācija
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numuru secības un koplietojamie numuru secības parametri
 
 Lai apstrādātu kredīta limita korekcijas, nepieciešams žurnāla ID. Jums ir jāpievieno kredīta limita korekcijas numurs, kas jāizmanto, lai ģenerētu žurnāla ID.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

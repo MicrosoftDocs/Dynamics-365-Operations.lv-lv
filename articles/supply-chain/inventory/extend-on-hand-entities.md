@@ -68,3 +68,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Kad šīs darbības ir izpildītas, varat paplašināt rīcībā esošos krājumus pēc vietas un rīcībā esošos krājumus pēc noliktavas datu subjektiem, pievienojot jaunos laukus. Šādā veidā tiek nodrošināts, ka paplašinātie lauki tiek atpazīti un iekļauti datu migrācijas, kas izmanto šos datu elementus, laikā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

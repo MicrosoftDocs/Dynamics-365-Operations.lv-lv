@@ -82,3 +82,6 @@ ms.locfileid: "4999710"
 17. Ievadiet skaitli laukā Pa sērijām.
 18. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -290,3 +290,6 @@ Kad viens elektroniskais rēķinu izrakstīšanas līdzeklis ir atvasināts no c
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

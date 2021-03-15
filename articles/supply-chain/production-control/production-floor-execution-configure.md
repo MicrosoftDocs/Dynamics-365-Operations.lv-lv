@@ -99,3 +99,6 @@ Pakešuzdevums periodiski notīra ierakstus atsauču tabulā ierīcēm, kurās p
 1. Darbības rūtī atlasiet **Notīrīt klienta konfigurācijas**.
 1. Dialoglodziņā **Notīrīt klienta konfigurāciju** iestatiet lauku **Dienu skaits** uz neaktivitātes dienu skaitu (pirms šodienas), kas jāņem vērā. Tiks noņemtas visas konfigurācijas un pierakstīšanās ieraksti ierīcēm, kas šajā laikā nav bijušas aktīvas.
 1. Atlasiet **Labi**, lai notīrītu atbilstīgās konfigurācijas, pamatojoties uz iestatījumu **Dienu skaits**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

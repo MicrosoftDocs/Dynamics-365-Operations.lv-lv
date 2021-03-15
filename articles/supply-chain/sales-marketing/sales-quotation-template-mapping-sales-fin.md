@@ -142,3 +142,6 @@ Tālāk esošajos attēlos parādīts piemērs ar veidnes kartēšanu datu integ
 
 [No potenciālā klienta līdz skaidrai naudai](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

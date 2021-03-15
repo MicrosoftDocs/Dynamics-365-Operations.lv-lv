@@ -112,3 +112,6 @@ Kā alternatīvu veidlapas **Saņemšanas apskats** izmantošanai varat izmantot
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

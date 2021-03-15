@@ -52,3 +52,6 @@ Veikala vadītāji var izmantot uzdevumu pārvaldību, lai piešķirtu uzdevumus
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

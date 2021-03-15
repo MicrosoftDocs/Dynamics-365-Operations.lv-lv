@@ -51,3 +51,6 @@ Tālāk norādītais ekrānšāviņš parāda lapas **Ieplānotie darba pasūtī
 
 ![1. attēls](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

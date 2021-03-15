@@ -67,3 +67,6 @@ Lai dzēstu turpmākos atiestatīšanas datumus, varat izmantot funkcionalitāti
 
 > [!NOTE]
 > Atkarībā no atlasītā atiestatīšanas datuma un kvīts formāta, iespējams, ir dublēti kvīšu numuri. Kaut arī pārdošanas punkta (POS) sistēma var tikt galā ar šīm situācijām, tās palielina laika daudzumu, kas nepieciešams, lai apstrādātu atgriešanu, jo pārdošanas partneriem ir jāatlasa no dublētajām kvītīm. Citi sarežģījumi, kas saistīti ar datu tīrīšanu, var rasties, ja dublētās kvītis nebija plānotas sekas. Tāpēc ir ieteicams lietot dinamisko datumu rakstzīmes (piemēram, **ddd**, **MM**, **DD** un **YY**), lai pēc atiestatīšanas palīdzētu novērst dublētus kvīšu numurus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

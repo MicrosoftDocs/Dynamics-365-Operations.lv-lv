@@ -58,3 +58,6 @@ Jūs varat izveidot mērķus, pievienot aktivitātes mērķiem, izsekot mērīju
     * Bieži ir vairāki mērķi, kas ir vienādi vai līdzīgi grupas dalībniekiem vai visiem darbiniekiem.     Jūsu personāla vadības administrators vai vadītājs var izveidot mērķa grupas, kurās ir viena vai vairākas mērķu veidnes. Jūs varat pievienot mērķus no mērķu grupas, un pēc tam modificēt tos, lai tie atbilstu jūsu kalendāram.  
     * Kad esat izveidojis pārskatu, jūs varat pievienot mērķi pārskatīšanai. Skatiet pārskatu uzdevuma ceļvedi, lai uzzinātu, kā jūs varat pievienot mērķi jūsu pārskatiem.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

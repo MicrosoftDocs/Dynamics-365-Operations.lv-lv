@@ -59,3 +59,6 @@ ms.locfileid: "4988140"
     * Piemēram, atlasiet "DEMF OPER" bankas kontu.  
 6. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

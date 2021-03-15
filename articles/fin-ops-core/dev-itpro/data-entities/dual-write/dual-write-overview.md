@@ -109,3 +109,6 @@ Lai izveidotu paritāti ar Finance and Operations pieteikumiem, duālais ierakst
 
 Papildinformāciju par gaidāmajām izmaiņām skatiet sadaļā [Kas jauns vai mainīts duālā rakstā](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

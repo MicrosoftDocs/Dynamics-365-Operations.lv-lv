@@ -147,3 +147,6 @@ Papildu iestatīšanas lapas ir sakārtotas pēc funkcionalitātes.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

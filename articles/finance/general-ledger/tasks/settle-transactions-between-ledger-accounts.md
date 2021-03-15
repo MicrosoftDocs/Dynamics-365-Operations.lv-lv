@@ -48,3 +48,6 @@ ms.locfileid: "4994419"
 7. Noklikšķiniet uz Virsgrāmatas darbību sasaistīšana.
 8. Sarakstā atzīmējiet atlasīto rindu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

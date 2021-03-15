@@ -174,3 +174,6 @@ Ja šī aprēķināšanas metode tiek izmantota daļējas atgriešanas gadījum�
 [Omni kanāla papildu automātiskās maksas](omni-auto-charges.md)
 
 [Automātisko maksu iespējošana un konfigurēšana katram kanālam](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

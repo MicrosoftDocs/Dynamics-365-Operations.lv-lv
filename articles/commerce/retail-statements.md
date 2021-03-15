@@ -87,3 +87,6 @@ Kad grāmatojat pārskatu, pārskatā tiek izveidoti pārdošanas pasūtījumi u
 - Transakcijām, kurām programmā ir pievienots debitors, POS sistēmā tiek ģenerēti atsevišķi pārdošanas pasūtījumi un rēķini — pa vienam katram unikālajam debitoram.
 
 Pārskatā iekļautajiem maksājumiem automātiski tiek izveidoti maksājumu žurnāli, un POS veikalā tiek atjaunināti krājumi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4798984"
     - Ar pogu **Mainīt piešķiri** tiek atvērts dialoglodziņš, kur darba vienumu varat piešķirt citam lietotājam.  
     - Pārliecinieties, ka sadaļa **Izsekošanas detaļas** ir izvērsta. Šajā sadaļā varat apskatīt atlasītā dokumenta darbplūsmas vēsturi.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

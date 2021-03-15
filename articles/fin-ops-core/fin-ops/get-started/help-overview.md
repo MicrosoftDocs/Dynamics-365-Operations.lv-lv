@@ -164,3 +164,6 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šī vietne sniedz novērtējumu un pārdošanas informāciju. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Šī vietne vieso apmācību resursus, lejupielādējamas atskaites un tehniskos dokumentus un ir primārā atbalsta vietne pakalpojumu plāna turētājiem. Lai piekļūtu dažiem šīs vietnes resursiem, var būt nepieciešams pakalpojumu plāns. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

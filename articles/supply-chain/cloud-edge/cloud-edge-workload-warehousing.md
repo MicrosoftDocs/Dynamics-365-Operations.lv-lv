@@ -292,3 +292,6 @@ Izmantojot mērogu vienību darba slodzi, jūs varat pārvaldīt šādus trīs p
 - Apstrādājiet kopuma tabulas ierakstus
 - Noliktavas centrmezgla mērogotai vienībai ziņojumu apstrādātājs
 - Apstrādāt daudzuma atjaunināšanas pieprasījumus noliktavas pasūtījuma rindām
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

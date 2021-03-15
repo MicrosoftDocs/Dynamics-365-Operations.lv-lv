@@ -54,3 +54,6 @@ Visiem abonementu grupai pievienotajiem abonementiem varat veikt tālāk norād�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

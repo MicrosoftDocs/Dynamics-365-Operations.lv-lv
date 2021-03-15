@@ -127,3 +127,6 @@ Tiek izveidoti ģenerētie virsgrāmatas ieraksti, lai reģistrētu sākotnējo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

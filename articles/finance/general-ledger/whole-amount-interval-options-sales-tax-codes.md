@@ -89,3 +89,6 @@ Papildinformāciju skatiet [Nodokļu likmes, kuru pamatā ir maržinālā bāze 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

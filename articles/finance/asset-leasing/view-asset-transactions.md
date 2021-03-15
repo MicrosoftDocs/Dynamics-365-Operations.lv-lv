@@ -47,3 +47,6 @@ Lapā **Līdzekļa darījums** rāda darījumus, kas palielina vai samazina noma
 Lai skatītu nomas izdevumu darījumus, atlasiet nomu lapā **Nomas kopsavilkums** un pēc tam atlasiet **Grāmatas**, lai atvērtu nomas grāmatas, kas piesaistītas nomas ierakstam. Pēc tam atlasiet **Izdevumu darījumi**.
 
 Lapā **Izdevumu darījumi** ir redzami visi izdevumi, kas ir grāmatoti saistība ar nomu, piemēram, procentu izdevumi, nolietojuma izdevumi un visas izpildes izmaksas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ Lai importētu bāzlīnijas iestatījumus no XML faila, kas saglabāts Microsoft
 
 - [Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām](er-trace-reports-compare-baseline.md)
 - [Uzdevuma reģistrētāja resursi](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

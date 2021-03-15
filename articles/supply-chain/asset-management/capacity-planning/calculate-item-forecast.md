@@ -59,3 +59,6 @@ Tas ir noderīgi, ja vēlaties iegūt pārskatu par paredzamo vienuma patēriņu
 8. Ja vēlaties rādīt produkta, glabāšanas vai izsekošanas īpašības, kas saistītas ar vienumu, noklikšķiniet uz **Rādīt izmērus**. Atzīmējiet attiecīgās izvēles rūtiņas un noklikšķiniet uz **Labi**.
 
 ![1. attēls](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -238,3 +238,6 @@ Jūs variet konfigurēt, lai sistēma automātiski atiestatītu skaitītāju kat
 1. Dodieties uz **Līdzekļu pārvaldība \> Iestatīšana \> Darba pasūtījumi \> Dzīves cikla stāvokļi**.
 1. Saraksta rūtī atlasiet darba pasūtījuma dzīves cikla stāvokli, kurā ir jāatiestata atbilstošais skaitītājs.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Atiestatīt skaitītāju** uz *Jā*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

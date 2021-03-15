@@ -50,3 +50,6 @@ Papildinformāciju skatiet tēmā [Finanšu pārskatu skatīšana](view-financia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

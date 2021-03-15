@@ -69,3 +69,6 @@ Kad programmā Sales ir aizpildītas kolonnas, tiek piemēroti šādi ierobežoj
 + Pakalpojumā Sales netiek replicēti maksu un maksu sadalījumu iestatījumi no programmas Supply Chain Management.
 + Cenu noteikšanā netiek ņemtas vērā īpašas mazumtirdzniecības cenas, kas konkretizētas pārdošanas pasūtījuma rindas lapas kolonnā **Mazumtirdzniecības kanāls** programmā Supply Chain Management.
 + Atlaides, kas definētas programmas Supply Chain Management sadaļā **Mazumtirdzniecības atlaižu pārvaldība**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

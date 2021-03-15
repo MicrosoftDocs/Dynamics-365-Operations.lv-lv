@@ -50,3 +50,6 @@ Ir pieejami daudz atlaižu veidi.
 - **Nosūtīšanas atlaide** – atlaide, kas tiek piemērota, kad darbības kopsumma ir lielāka par norādīto summu un pasūtījumā tiek izmantots noteikts piegādes veids (piemēram, divu dienu piegāde vai nakts piegāde).
 
 Gan cenu korekcijas, gan atlaides var saistīt ar cenu grupām. Pēc tam cenu grupas var saistīt ar kanāliem, kategorijām, piederībām un lojalitātes programmām.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

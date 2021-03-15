@@ -54,3 +54,6 @@ Veiktspējas žurnāls satur informāciju, kas attiecas uz to, kā jūs sasniedz
 20. Laukā Apraksts ievadiet 'Paldies visiem par palīdzību konferencē!'.
 21. Noklikšķiniet uz Sūtīt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -159,3 +159,6 @@ Ganta diagrammu var atvērt no tālāk norādītajām lapām.
 
 [Ražošanas vizuālā plānošana (demonstrācijas skripts)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

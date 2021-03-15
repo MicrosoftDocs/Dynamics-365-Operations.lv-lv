@@ -86,3 +86,6 @@ Rezultāts tiek plānots 25 gab. pasūtījumam. (= 25 gab. &minus;0 gab.), lai u
 [Plāna vēstures un plānošanas žurnālu skatīšana](plan-history-logs.md)
 
 [Plānošanas darba atcelšana](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

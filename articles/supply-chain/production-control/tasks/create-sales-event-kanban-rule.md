@@ -73,3 +73,6 @@ ms.locfileid: "4998632"
 2. Noklikšķiniet uz Skatīt piesaistes koku.
     * Ņemiet vērā, ka tiek izveidots Kanban ar tādu pašu daudzumu kā pārdošanas rindā. Varat arī redzēt, ko problēmām ar materiāliem vajadzēja saražot L0050. Šā ir pēdējā darbība šajā procedūrā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

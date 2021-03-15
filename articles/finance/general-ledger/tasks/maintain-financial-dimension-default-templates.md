@@ -41,3 +41,6 @@ ms.locfileid: "4968631"
 11. Ievadiet finanšu dimensijas vērtības, kas atbilst ievadītajiem procentiem.
 12. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

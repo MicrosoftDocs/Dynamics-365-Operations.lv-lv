@@ -87,3 +87,6 @@ Uzņēmums, kas izmanto Budžeta plānošanas funkcionalitāti, var izveidot un 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

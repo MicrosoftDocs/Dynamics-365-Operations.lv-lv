@@ -53,3 +53,6 @@ Pirms veicat standarta izmaksu konvertēšanu, izpildiet šīs darbības:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

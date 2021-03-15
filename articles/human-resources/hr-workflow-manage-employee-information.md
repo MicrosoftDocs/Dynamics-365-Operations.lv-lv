@@ -73,3 +73,6 @@ Lai konfigurētu pamata darbplūsmu, kas tiek sākta, kad darbinieks pieprasa sa
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

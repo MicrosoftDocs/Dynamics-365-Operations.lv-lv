@@ -93,3 +93,6 @@ Lai pieprasītu lietotāja drošības lomu modificēšanu, veiciet tālāk norā
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

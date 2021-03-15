@@ -105,3 +105,6 @@ Grāmatojot dokumentu, dokumentam tiek piešķirta atbilstoša numuru secību gr
 
 > [!NOTE]
 > Dažām valstīm jau ir noteikta loģika dokumentu numerācijai. Šajā gadījumā valstij noteiktā loģika pārrakstīs **Hronoloģiskās numerācijas** funkciju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

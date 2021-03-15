@@ -96,3 +96,6 @@ ms.locfileid: "4974264"
     * Norādiet, no kura pasta koda ir spēkā šī likmes bāzes piešķire.
 10. Laukā **Saņemšanas valsts reģions** ierakstiet "ASV".
 11. Atlasiet **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

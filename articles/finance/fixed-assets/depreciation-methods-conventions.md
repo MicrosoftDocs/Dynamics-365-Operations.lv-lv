@@ -90,3 +90,6 @@ Varat atlasīt kādu no tālāk norādītajām nolietojuma metodēm.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

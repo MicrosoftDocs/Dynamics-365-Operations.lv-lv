@@ -118,3 +118,6 @@ Lai palīdzētu nodrošināt, ka galvene parādās katrā lapā, veiciet šīs d
 [Vietņu atlasītāja modulis](site-selector.md)
 
 [Veikalu atlasītāja modulis](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

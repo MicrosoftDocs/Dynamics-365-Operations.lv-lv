@@ -236,3 +236,5 @@ Lai anketas jautājumu hierarhijas izveidošanai izmantotu nosacījuma jautājum
 Juridiskā persona saviem klientiem piedāvā gan preces, gan pakalpojumus. Kā parasti notiek šādos gadījumos, daži klienti iegādājas tikai preces, daži iegādājas tikai pakalpojumus, un daži iegādājas gan preces, gan pakalpojumus. Līdz ar to, kad juridiskā persona izplata klientu apmierinātības aptauju, tā anketai lieto nosacījuma struktūru, lai klientiem, kas iegādājas tikai pakalpojumus, nevajadzētu atbildēt uz jautājumiem par precēm. 
 
 Alternatīvi varat iestatīt anketu tā, lai gadījumā, ja respondents 1. jautājumam atlasa atbildi A, tad anketas secībā nākamais ir 2. jautājums. Taču, ja respondents 1. jautājumam atlasa atbildi B, nākamais tiek rādīts 5. jautājums.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

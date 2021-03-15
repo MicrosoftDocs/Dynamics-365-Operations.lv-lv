@@ -43,3 +43,6 @@ Derīgai MK versijai, vietai specifiskai vai vispārīgai, jāatbilst vajadzīga
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

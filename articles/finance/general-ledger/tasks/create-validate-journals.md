@@ -42,3 +42,6 @@ ms.locfileid: "5021458"
 12. Noklikšķiniet uz **Grāmatot**.
 13. Noklikšķiniet **Dokuments**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

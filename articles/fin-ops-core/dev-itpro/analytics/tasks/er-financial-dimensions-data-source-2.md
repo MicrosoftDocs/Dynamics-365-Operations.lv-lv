@@ -147,3 +147,6 @@ Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti proced
 4. Noklikšķiniet uz Pabeigt.
 5. Noklikšķiniet uz Labi.
 ![ER modeļa kartēšanas noformētāja lapa](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

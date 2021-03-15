@@ -42,3 +42,6 @@ ms.locfileid: "5001778"
 8. Izvērsiet sadaļu augšpus pieprasījuma detaļas.
     * Šajā sadaļā jūs varat skatīt detalizētu informāciju par to, kā tiks izpildīts pieprasījums. Iespējams, būs jāgaida, līdz piegādes uzņēmumā tiek veikta vispārējā plānošana, pirms jūs varat skatīt papildu informāciju šeit.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

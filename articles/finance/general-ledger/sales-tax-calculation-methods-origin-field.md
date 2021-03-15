@@ -130,3 +130,6 @@ Dokumentam/žurnālam ir iestatīta parametra Summas ietver PVN vērtība Nē Tr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

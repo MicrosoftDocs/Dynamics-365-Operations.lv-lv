@@ -114,3 +114,6 @@ Rezultāti atšķiras pieejamās informācijas dēļ darba izveides laikā. Ja o
 [![2. piemērs](media/ReplenTemp_example_2.png "2. piemērs")](media/ReplenTemp_example_2_large.png)
 
 Tāpēc, lai iegūtu maksimālo daudzumu uz papildinātajām atrašanās vietām, ir jāiestata opcija **Atļaut sadalīt** uz *Jā* novietojuma direktīvās papildināšanas izdošanai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

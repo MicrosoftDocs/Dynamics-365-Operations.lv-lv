@@ -98,3 +98,6 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
 | 3        | Galamērķa sākuma pasta indekss | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 4.        | Galamērķa beigu pasta indekss   | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 5.        | Galamērķa valsts           | Piešķire | Virkne    | Valsts/reģions |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

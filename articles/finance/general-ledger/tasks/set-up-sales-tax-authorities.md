@@ -40,3 +40,6 @@ PVN iestādes ir iestādes, kurām jāziņo par iekasēto PVN un tas jāiemaksā
 10. Ievadiet skaitli Noapaļošanas laukā.
 11. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

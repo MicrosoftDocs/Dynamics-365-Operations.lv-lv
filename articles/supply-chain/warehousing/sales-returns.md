@@ -330,3 +330,6 @@ Atgriešanas pasūtījumā nav atsauces uz debitora rēķinu. Atgrieztais krāju
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Atvērtos jautājumos respondenti var sniegt savu atbildi. Varat kontrolēt, vai
     * Atvērtam jautājumam tiek izmantots tips Teksts vai Piezīme.  
 6. Laukā Teksts ievadiet savu jautājumu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

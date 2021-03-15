@@ -121,3 +121,6 @@ Ja tiek ieviesta jauna sertifikāta versija, ko nevar atjaunināt visos veikalos
 
 > [!NOTE]
 > Vispirms jaunā sertifikāta versija tiks izsaukta Commerce Runtime. Ja sertifikāts vēl nav atjaunināts noteiktā veikalā vai noteiktā terminālī, tiks izsaukta iepriekšējā versija.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

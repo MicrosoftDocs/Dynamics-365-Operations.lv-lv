@@ -300,3 +300,6 @@ Fabrikam ģenerē 75,00 lielu maksājumu kreditoram 3004, Fourth Coffee. Maksāj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

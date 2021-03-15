@@ -67,3 +67,6 @@ Periodiskajam darbam **Konsolidēt** tagad ir iestatīta konsolidētā juridisk�
 
 > [!NOTE]
 > Pirms konsolidācijas apstrādāšanas meitasuzņēmumu juridiskās personas ir jāsagatavo konsolidēšanai. Papildinformāciju skatiet sadaļā [Meitasuzņēmuma juridiskās personas konsolidācijas iestatīšana](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

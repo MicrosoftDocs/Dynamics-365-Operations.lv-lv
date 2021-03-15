@@ -38,3 +38,6 @@ ms.locfileid: "5016406"
 5. Noklikšķiniet uz OK.
     * Pirkšanas pasūtījumu tagad var pabeigt un apstrādāt tāpat kā jebkuru citu pasūtījumu. Ar veidu, kā tas tiek darīts, nav saistīta neviena izteikta īpašība. Rēķins ņems vērā veicamu transakciju uz kreditora kontu, kas tika izveidota ar šo pasūtījumu, un pēc tam tiks apstrādāts maksājums.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Lai dzēstu eksperimentu Commerce vietņu veidotājā, veiciet tālāk norādīt
 
 ## <a name="previous-step"></a>Iepriekšējā darbība
 [Eksperimenta veikšana un uzraudzība](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Attēlā zemāk ir parādīta lapa **Līdzekļu apkopotā vērtība**.
 
 - Varat iestatīt skaitītājus, kas ir saistīti ar citu skaitītāju. Šādā gadījumā, atjauninot skaitītāju, vienlaikus automātiski tiek atjaunināti saistītie skaitītāji. Papildinformāciju par to, kā iestatīt saistītos skaitītājus, skatiet tēmā [Skaitītāji](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

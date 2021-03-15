@@ -84,3 +84,6 @@ Pilnīgu sarakstu ar plānotajiem līdzekļiem un to ieplānotajiem laidieniem s
 [Dynamics 365 Human Resources 2020. gada laidiena 2. kopuma pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atjaunināšanas process](hr-admin-setup-update-process.md)
 [Pārvaldības līdzekļi](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

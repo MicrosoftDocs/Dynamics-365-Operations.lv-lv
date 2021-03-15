@@ -159,3 +159,6 @@ Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piem�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

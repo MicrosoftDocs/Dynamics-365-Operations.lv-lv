@@ -41,3 +41,6 @@ Krājumu pārbaude klastera izdošanai notiek tādā pašā veidā kā krājumu 
 |        Opcija        |                                    Apraksts                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Preces apstiprināšana | Sniedz iespēju mobilajā ierīcē pārbaudīt katru krājumu vienību, veicot skenēšanu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

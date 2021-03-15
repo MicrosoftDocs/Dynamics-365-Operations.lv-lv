@@ -85,3 +85,6 @@ Rēķinu salīdzināšanas pārbaudes neizmanto kreditoru rēķinu ierobežojumu
 24. Aizvērt lapu.
 25. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

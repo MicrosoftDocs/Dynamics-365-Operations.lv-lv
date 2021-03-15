@@ -79,3 +79,6 @@ Ja tiek lietota klasteru izdošana, ir svarīgi veikt krājumu apstiprināšanu,
 1. Mobilās ierīces izvēlnes vienumā atveriet iestatīšanas formu darba apstiprināšanai:  **Noliktavas pārvaldība** \> **Noliktavas pārvaldība** \> **Iestatījumi** \>  **Mobilā ierīce** \> **Mobilās ierīces izvēlnes vienumi**.
 
 1. Mobilās ierīces izvēlnes vienumā atveriet sadaļu **Darba apstiprinājuma iestatīšana**. Opcija **Preces apstiprināšana** jums ļauj skenēšanas laikā mobilajā ierīcē pārbaudīt katru krājumu vienību.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

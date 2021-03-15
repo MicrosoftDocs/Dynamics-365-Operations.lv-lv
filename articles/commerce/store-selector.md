@@ -145,3 +145,6 @@ Lai konfigurētu veikala atlasītāja moduli, lai rādītu veikala atrašanās v
 [Bing karšu REST API](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Karšu modulis](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

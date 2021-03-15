@@ -66,3 +66,6 @@ Lai pārskatītu izpildlaika funkcionalitāti, izpildiet attiecīgo procedūru. 
 ## <a name="see-also"></a>Skatiet arī
 
 - [XML elementu izpildes atlikšana elektronisko pārskatu formātos](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Meklēšanas rezultātu sarakstā tiek parādīti ne vairāk kā 10 vienumi. Ja 
 ## <a name="development"></a>Izstrāde
 
 No izstrādes viedokļa navigācijas meklēšanas funkcionalitāte ir ļoti vienkārši izmantojama, jo izvēļņu vienumus meklēšanas rezultātos ir iespējams parādīt gandrīz uzreiz pēc to izvietošanas. Ja uz izvēļņu vienumiem ir izveidota saite no navigācijas rūts vai informācijas paneļa, tie automātiski kļūst meklējami.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

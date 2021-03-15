@@ -57,3 +57,6 @@ Tas, kā veidojat savu funkcionālo novietojumu hierarhiju, ir atkarīgs no uzņ
 Nākamajā attēlā ir parādīts tādu funkcionālo novietojumu piemērs, kuru pamatā ir debitori.
 
 ![Shēmā ir parādītie funkcionālie novietojumi, pamatojoties uz klientiem](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

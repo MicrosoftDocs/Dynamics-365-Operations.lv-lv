@@ -193,3 +193,6 @@ Plašāku informāciju skatiet sadaļā [Trīsvirzienu atbilstības ierobežojum
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

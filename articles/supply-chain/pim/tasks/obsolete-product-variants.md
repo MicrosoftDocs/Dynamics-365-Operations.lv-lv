@@ -72,3 +72,6 @@ ms.locfileid: "4986858"
 
 8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

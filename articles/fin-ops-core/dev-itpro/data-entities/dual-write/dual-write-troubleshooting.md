@@ -122,3 +122,6 @@ Lai atkārtoti iespējotu **Informācijas** veidlapas opciju, rīkojieties šād
 2. Atrodiet **Informācijas** veidlapu zem veidlapas zara. 
 3. Atlasiet **Informācijas** veidlapu un noklikšķiniet uz **Iespējot drošības lomas**. 
 4. Mainiet drošības iestatījumu uz **Parādīt visiem**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

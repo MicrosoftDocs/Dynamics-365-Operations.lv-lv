@@ -87,3 +87,6 @@ Lai ignorētu maksājumus un kredītrēķinus, aprēķinot atgādinājuma vēstu
 
 1. Ejiet uz **Navigācijas rūts > Moduļi > Kredīts un atgūšana > Iestatīšana > Kreditoru parametri** un noklikšķiniet uz cilnes **Atgūšana**. 
 2. Mainiet parametra **Ignorēt maksājumus un kredītrēķinus, aprēķinot atgādinājuma vēstules kodu vērtību** uz **Jā**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

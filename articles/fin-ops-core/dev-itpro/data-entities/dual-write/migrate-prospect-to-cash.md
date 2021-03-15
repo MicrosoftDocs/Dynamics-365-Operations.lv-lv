@@ -98,3 +98,6 @@ Tā kā dati no tabulas **Preces** ir paredzēti vienvirziena plūsmai no progra
 ## <a name="quote-and-quote-product-tables"></a>Piedāvājuma un piedāvājuma preču tabulas
 
 Lai iegūtu informāciju par **Piedāvājumu** tabulu, izpildiet iepriekš šīs tēmas sadaļā [Pasūtījumu tabula](#order-table) norādītās instrukcijas. Lai iegūtu informāciju par **Piedāvājuma preču** tabulu, izpildiet iepriekš šīs tēmas sadaļā [Pasūtījuma preču tabula](#order-products-table) norādītās instrukcijas.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

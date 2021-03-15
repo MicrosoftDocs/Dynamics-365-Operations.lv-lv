@@ -143,3 +143,6 @@ Papildinformāciju skatiet tālāk norādītajās tēmās.
 - [Divkāršā valūta](dual-currency.md)
 - [PVN pārskats](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

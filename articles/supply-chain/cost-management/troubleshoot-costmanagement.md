@@ -81,3 +81,6 @@ Kamēr Microsoft nav izlaidis risinājumu problēmas atrisināšanai, apsveriet 
 - Izvairieties no decimālvērtībām standarta izmaksās. Mēģiniet definēt standarta izmaksas tā, lai lauks **Cenas daudzums** būtu iestatīts uz *1*. Ja ir jānorāda **Cenas daudzuma** vērtība, kas pārsniedz *1*, mēģiniet samazināt decimāldaļu skaitu vienības standarta izmaksās. (Ideālā gadījumā jābūt mazāk nekā diviem decimāldaļskaitļiem.) Piemēram, izvairieties no standarta izmaksu iestatījumu definēšanas, piemēram, **Cena** = *10* un **Cenas daudzums** = *3* cenas, jo tie ražos vienības standarta izmaksas 3.333333 (kur decimālskaitļa vērtība atkārtojas).
 - Lielākajā daļā dokumentu izvairīties no vairākām rindām, kurās ir viena un tā pati preču un finanšu krājumu dimensiju kombinācija.
 - Samaziniet paralēlošanas pakāpi. (Šādā gadījumā sistēma var kļūt ātrāka, jo notiek mazāk atjauninājumu konfliktu un mēģinājumu.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

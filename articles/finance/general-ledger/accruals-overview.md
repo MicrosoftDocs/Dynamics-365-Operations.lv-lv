@@ -45,3 +45,6 @@ Atverot žurnālu, izvēlnē **Funkcijas** varat noklikšķināt uz **Virsgrāma
 
 
 Plašāku informāciju skatiet šeit: [Uzkrāšanas shēmu izveide](tasks/create-accrual-schemes.md) un [Virsgrāmatas uzkrājumu darbību izveide](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

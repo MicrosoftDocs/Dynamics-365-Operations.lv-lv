@@ -45,3 +45,6 @@ Periodiskie rēķini tiek izmantoti, lai klientiem regulāri izrakstītu rēķin
 6. Noklikšķiniet uz Grāmatot.
     * Iegrāmatojiet atlasītos rēķinus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

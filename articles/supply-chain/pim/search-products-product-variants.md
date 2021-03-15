@@ -86,3 +86,6 @@ Pārdošanas pasūtījuma rindas ierakstam noklusējums ir atvērt lapu **Preču
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

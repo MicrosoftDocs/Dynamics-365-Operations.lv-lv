@@ -70,3 +70,6 @@ ms.locfileid: "4981084"
 7. Noklikšķiniet uz Grāmatot.
 8. Noklikšķiniet uz OK.
     * Maršruta karšu žurnālā tiek reģistrēts uz atsevišķām operācijām patērētais laiks. Var ziņot arī par labu vai kļūdainu daudzumu.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

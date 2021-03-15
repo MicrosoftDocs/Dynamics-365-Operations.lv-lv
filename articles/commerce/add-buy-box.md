@@ -135,3 +135,6 @@ Lai pievienotu iegādes lodziņa moduli jaunā lapā un iestatītu nepieciešamo
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

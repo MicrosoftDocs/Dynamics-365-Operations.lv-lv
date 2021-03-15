@@ -45,3 +45,6 @@ Lai izvēlētos regresa izmaksu secību vidējās vērtības pārvietošanas apr
     - **Aktīvās izmaksas — Krājuma cena** — organizācijām var rasties veiktspējas problēmas, ja tās izmanto biznesa procesus, kuros krājumi regulāri ir negatīvi, un tajā pašā laikā transakciju apjoms ir augsts. Šis iestatījums var palīdzēt mazināt šīs veiktspējas problēmas.
 
 ![Krājumu uzskaites parametri](media/inventory-accounting-parameters.png "Krājumu uzskaites parametri")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

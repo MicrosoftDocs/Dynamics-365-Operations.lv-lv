@@ -129,3 +129,6 @@ Tālāk norādīto biznesa dokumentu sarakstu kontrolē funkcija, **PM pārskatu
 [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
 
 [Elektronisko atskaišu veidošanas struktūras API izmaiņas atjauninājumam Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

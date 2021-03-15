@@ -80,3 +80,6 @@ Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Konteinera funkcijas](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

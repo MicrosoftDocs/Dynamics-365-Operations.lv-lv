@@ -343,3 +343,6 @@ Tālāk ir sniegtas dažas piezīmes un padomi darbam ar līdzekli.
 
 - Ja izmantojat dinamiskos novietojumus, papildināšanas darbs tiks izveidots vai nu pirmajam pieejamajam novietojumam, vai novietojumam, kurā jau ir krājumi, ja novietojuma direktīvas darbība ir iestatīta izmantot stratēģiju **Konsolidēt**.
 - Ja zonu vietā izmantojat fiksētus novietojumus, izmantojiet [standarta min./maks. papildināšanu](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

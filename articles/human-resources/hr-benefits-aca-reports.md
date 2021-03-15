@@ -87,3 +87,6 @@ Ja jums ir jāsniedz pārskats par iekļautajām personām, jo jūs nodrošināt
 
 > [!NOTE]
 > Pieprasījuma logā tiek rādīti tikai atvieglojumu plāni, kas atzīmēti kā **Norādāms ACA pārskatā**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

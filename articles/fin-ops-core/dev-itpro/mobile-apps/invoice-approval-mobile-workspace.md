@@ -86,3 +86,6 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 7.  Atlasiet vienumu **Pielikumi**, lai skatītu visas šim rēķinam pievienotās piezīmes vai failus.
 8.  Lapā **Rēķina informācija** atlasiet atbilstošo darbplūsmas darbību, lai pabeigtu savu pārskatīšanas procesu.
 9.  Atlasiet **Gatavs**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Šīs dar
 10. Darbību rūtī noklikšķiniet uz Pārskatīt.
 11. Noklikšķiniet uz Detalizēta informācija par atbilstību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

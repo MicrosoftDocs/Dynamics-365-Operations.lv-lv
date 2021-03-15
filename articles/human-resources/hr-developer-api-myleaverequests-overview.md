@@ -64,3 +64,5 @@ MyLeaveRequests elements programmā Microsoft Dynamics 365 Human Resources snied
 
 - [Atvaļinājuma pieprasījuma iesniegšana darbplūsmai](hr-developer-api-myleaverequests-submit.md)
 - [Autentifikācija](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

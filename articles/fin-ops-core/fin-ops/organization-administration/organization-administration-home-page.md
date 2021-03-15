@@ -101,3 +101,6 @@ Ierakstu veidnes var jums palīdzēt izveidot ierakstus ātrāk. Varat izveidot 
 - [Dokumentu pārvaldības konfigurēšana](configure-document-management.md)
 - [Konfigurēt un sūtīt e-pastu](configure-email.md)
 - [Datuma/laika dati un laika joslas](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Sekojošajā attēlā parādīts darba pasūtījuma pārskata piemērs, kas veid
 
 ![2. attēls](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

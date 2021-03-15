@@ -40,3 +40,6 @@ Ir svarīgi iestatīt jūsu importa darba laika joslu uz universālo koordinēto
 4. Mainiet **Laika joslu** uz **Universālo koordinēto laika joslu** un nomainiet **Valodu** uz **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

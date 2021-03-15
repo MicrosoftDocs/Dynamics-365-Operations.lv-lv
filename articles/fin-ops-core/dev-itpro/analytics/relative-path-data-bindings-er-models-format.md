@@ -57,3 +57,6 @@ Ja apstiprināt ligzdoto vienumu piesaistes maiņu, jaunais vecākelementa vienu
 ## <a name="additional-resources"></a>Papildu resursi
 
 [ER formulu valoda](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

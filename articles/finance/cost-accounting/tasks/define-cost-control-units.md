@@ -40,3 +40,6 @@ ms.locfileid: "4990696"
 10. Laukā Dimensija ievadiet vai atlasiet kādu vērtību.
 11. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

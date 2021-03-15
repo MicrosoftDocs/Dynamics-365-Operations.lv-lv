@@ -157,3 +157,6 @@ Dodieties uz **Retail un Commerce \> Kanāli \> Veikali \> Visi mazumtirdznie
 Šāds iestatījums nodrošinās, ka operāciju uzskaites daļas pārskati ietver tās pašas darbības, kas ietvertas POS maiņās, un dati tiek apkopoti pēc attiecīgās maiņas.
 
 Plašāku informāciju par izrakstu un slēgšanas metodēm skatiet tēmā [Veikalu konfigurācijas mazumtirdzniecības izrakstiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

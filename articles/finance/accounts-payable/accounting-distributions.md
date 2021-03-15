@@ -56,3 +56,6 @@ Vispārīgās uzskaites sadales iespējas nodrošina tālāk aprakstītās uzska
 Versijā 10.0.13 ir pievienots līdzeklis, kas validē uzskaites sadales tabulu, lai nodrošinātu, ka jaunie lauki ir iestatīti pareizi. Šo līdzekli sauc **Iespējot papildu datu validēšanu dokumentiem, izmantojot pirmdokumenta uzskaites struktūru**. Lai izmantotu šo līdzekli, tas ir jāaktivizē, izmantojot darbvietu **Līdzekļu pārvaldība**. Lai iespējotu šo līdzekli, meklējiet līdzekļa nosaukumu laukā **Meklēt**, kas atrodas lapā **Līdzekļu pārvaldība**, un pēc tam atlasiet **Iespējot tagad**.
 
 Papildinformāciju skatiet sadaļā [Uzskaites sadales un apakšgrāmatas žurnāla ieraksti kreditora rēķiniem](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -141,3 +141,6 @@ Vadības moduļa pakalpojums ir pakalpojums, kas pārvalda jūsu izvietojumu un 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizācija un pārabonēšana
 
 Tādi uzdevumam būtiski pakalpojumi kā AOS ir jāvieso virtuālajās mašīnās ar specializētiem resursiem — kodoliem, atmiņu un disku.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

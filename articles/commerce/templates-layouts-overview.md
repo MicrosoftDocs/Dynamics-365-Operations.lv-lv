@@ -111,3 +111,6 @@ Lai sāktu izmantot iepriekš iestatītus izkārtojumus, skatiet sadaļu [Darbs 
 [Darbs ar iepriekš iestatītiem izkārtojumiem](work-with-layouts.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

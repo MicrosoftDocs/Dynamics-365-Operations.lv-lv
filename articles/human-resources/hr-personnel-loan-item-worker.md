@@ -44,3 +44,6 @@ ms.locfileid: "5130161"
 2. Noklikšķiniet uz Rediģēt.
 3. Ievadiet datumu laukā Faktiskā atgriešana.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

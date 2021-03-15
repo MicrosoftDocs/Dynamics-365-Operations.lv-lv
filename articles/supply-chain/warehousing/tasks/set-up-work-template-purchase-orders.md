@@ -60,3 +60,6 @@ ms.locfileid: "4976867"
 6. Laukā **Darba klases ID** ievadiet vērtību. Izdošanas un izvietošanas instrukcijas ir kopa. Katrai izdošanas/izvietošanas kopai ir jābūt vienai un tai pašai darba klasei. Izmantojiet to pašu darba klasi, kuru norādījāt izdošanas instrukcijai.  
 7. Atlasiet **Saglabāt**. Pievērsiet uzmanību, ka tagad ir atzīmēta izvēles rūtiņa **Derīgs**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Katra standarta Dataverse tabula tiek paplašināta ar atsaucēm uz kolonnu **In
 8. Pēc tabulas **Piedāvājumi** paplašināšanas lietojiet filtru `CUSTGROUP != "<company>"` kā vaicājumu virkni.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Rediģēt vaicājuma dialoglodziņu Pārdošanas pasūtījumu galvene CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

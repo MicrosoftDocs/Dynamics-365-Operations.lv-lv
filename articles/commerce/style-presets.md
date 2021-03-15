@@ -127,3 +127,6 @@ Priekšiestatījuma stila vērtības tiek aktivizētas visā publiski redzamajā
 [Valodu pievienošana vietnei](add-languages-to-site.md)
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

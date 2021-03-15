@@ -51,3 +51,6 @@ Tālāk sniegtajās tēmās ir aprakstīts, kā plānot dziņa darbus, ja izmant
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

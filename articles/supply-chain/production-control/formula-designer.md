@@ -120,3 +120,6 @@ Noklikšķiniet uz **Iestatīšana**, lai pielāgotu formulu veidotāja koka ska
 |     MK     | Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti koka struktūrā. Formulu veidotājs abu ciļņu apakšdaļā rāda atlasītos kritērijus. |
 |    Maršruts    |                                           Izmantojiet izvēles rūtiņas, lai atlasītu kritērijus, kas tiek parādīti maršrutiem.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Ja izveidojat pakalpojumu pasūtījumus manuāli vai automātiski no pakalpojuma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

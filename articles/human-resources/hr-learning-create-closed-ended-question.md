@@ -68,3 +68,6 @@ Slēgto jautājumu atbildēm varat norādīt opcijas, no kurām respondents var 
 5. Laukā Atbilžu grupa ievadiet vai atlasiet kādu vērtību.
 6. Ierakstiet vērtību laukā Teksts.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Ieturētais nodoklis tiek aprēķināts **Piegādātāja maksājumu žurnālā**
 Atvasinātā ieturētā nodokļa summa tiks atskaitīta no piegādātāja maksājuma un grāmatota **Ieturētā nodokļa korespondējošais konts** saistītā dokumentā.
 
 ![Ieturētā nodokļa konts, kas rāda saistīto dokumentu](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

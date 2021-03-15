@@ -66,3 +66,6 @@ Tiešsaistes funkcionalitātes profilā ir sniegti dažādi tiešsaistes kanāli
 [Mazumtirdzniecības kanāla iestatīšana](channel-setup-retail.md)
 
 [Zvanu centra kanāla iestatīšana](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

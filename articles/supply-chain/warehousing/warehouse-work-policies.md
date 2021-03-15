@@ -300,3 +300,6 @@ Papildinformāciju par mobilās ierīces izvēlnes elementiem skatiet [Mobilo ie
 Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu un darba politikām, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Papildinformāciju par saņemšanas noslodzes pārvaldību skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

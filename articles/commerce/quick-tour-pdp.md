@@ -87,3 +87,6 @@ Ja mārketinga saturs ir unikāls konkrētai precei, PDP var pievienot jebkuru m
 [Konta pārvaldības lapu pārskats](quick-tour-account-management.md)
 
 [Preces informācijas bagātināšanas lapa](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

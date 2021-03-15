@@ -33,3 +33,6 @@ ms.locfileid: "4964624"
 - [Rēķinu un pavadzīmju numerācija](emea-invoices-packing-slips-numbering.md)
 - [Dabas resursu nodokļa pārskats](emea-lva-tax-natural-resources.md)
 - [PVN deklarācijas informācija](emea-lva-vat-statement-details.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

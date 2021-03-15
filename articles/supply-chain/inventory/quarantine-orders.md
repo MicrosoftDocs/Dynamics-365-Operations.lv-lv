@@ -66,3 +66,6 @@ Karantīnas pasūtījuma procesa ietvaros ir iespējams norakstīt krājumu. Aps
 --------
 
 [Krājumu bloķēšana](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

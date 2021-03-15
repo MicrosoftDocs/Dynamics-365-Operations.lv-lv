@@ -113,3 +113,6 @@ Lai saistītu ceļvedi ar uzturēšanas kontrolsaraksta veidni, sekojiet šiem s
 
 - [Duālā ieraksta pārskats](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Pārskats par līdzekļu pārvaldību](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

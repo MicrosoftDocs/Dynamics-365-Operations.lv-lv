@@ -135,3 +135,5 @@ ms.locfileid: "5011476"
 
 > [!NOTE]
 > Funkcija *Kvalitātes pārvaldība noliktavas procesiem* sniedz papildu opcijas kvalitātes piesaistes iestatīšanai. Tas pievieno jaunu nosacījumu (**Piemērojams noliktavas veids**) un jaunu iestatījumu (**Kvalitātes apstrādes politika**). Ja esat iespējojis šo līdzekli, skatiet sīkāku informāciju [Kvalitātes pārvaldība noliktavas procesiem](../quality-management-for-warehouses-processes.md).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Katru formāta versiju var konfigurēt, kā pieejamu lietošanai, sākot ar note
 1. Izvērsiet sadaļu ISO valsts/reģiona kodi.
     * Piekļuvi katram formātam var ierobežot, identificējot konkrētas valstis/reģionus, kuros formāts tiek piemērots. Ja attiecīgā formāta valstu/reģionu saraksts ir tukšs, tad šo formātu var lietot jebkurā uzņēmumā. Ja valstu/reģionu sarakstā ir iekļauti kādi ISO valsts/reģiona kodi, tad šo formātu uzņēmumos var lietot tikai tad, ja uzņēmuma primārā adrese atrodas attiecīgajā valstī/reģionā.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

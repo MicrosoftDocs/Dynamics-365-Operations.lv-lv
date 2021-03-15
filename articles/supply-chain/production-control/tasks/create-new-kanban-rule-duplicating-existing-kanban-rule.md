@@ -43,3 +43,6 @@ ms.locfileid: "5011001"
 3. Noklikšķiniet uz OK.
     * Ņemiet vērā, ka tiek izveidoti dublēti Kanban nosacījumi 000017.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

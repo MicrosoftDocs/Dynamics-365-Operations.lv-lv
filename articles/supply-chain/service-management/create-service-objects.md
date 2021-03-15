@@ -42,3 +42,6 @@ Pakalpojumu objekti ir klienta līdzekļi un preces, kurām jūs varat veikt pak
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

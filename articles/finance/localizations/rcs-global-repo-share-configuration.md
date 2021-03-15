@@ -72,3 +72,6 @@ Kad konfigurācijas nodrošinātājs ir izveidojis konfigurāciju, to var tieši
 Konfigurācija tiek koplietota ar ārējo organizāciju un ir pieejama šai organizācijai globālajā repozitorijā. No turienes to var importēt organizācijas RCS instancē vai tās programmas Finance and Operations instancēs.
 
 6. Lai atceltu konfigurāciju, kas iepriekš bijusi koplietota ar ārēju organizāciju, atlasiet konfigurāciju un noklikšķiniet uz **pārtraukt koplietošanu** un pēc tam atlasiet **Labi**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

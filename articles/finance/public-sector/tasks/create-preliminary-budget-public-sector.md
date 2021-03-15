@@ -52,3 +52,6 @@ Varat izveidot sākotnējos budžeta reģistra ierakstus noteiktam budžeta mode
 19. Noklikšķiniet uz Atjaunināt.
     * Lai apskatītu izmaiņu rezultātus, zilās krāsas joslā noklikšķiniet uz Ziņojuma detalizēta informācija.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

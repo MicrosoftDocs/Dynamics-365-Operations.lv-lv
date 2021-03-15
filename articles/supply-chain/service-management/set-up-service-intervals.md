@@ -53,3 +53,6 @@ Jūs vēlaties izveidot pakalpojumu intervālu ar biežumu 10 dienas.
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Pakalpojumu intervāli ](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

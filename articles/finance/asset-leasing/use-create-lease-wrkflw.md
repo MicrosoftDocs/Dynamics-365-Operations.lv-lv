@@ -44,3 +44,6 @@ Pirms šīs procedūras izmantošanas pārliecinieties, ka vismaz nomas apstipri
 
 8. Lai pārtrauktu darbplūsmu, lapā **Darbplūsmas vēsture** atlasiet **Atsaukt**. Parādītajā dialoglodziņā ievadiet komentāŗu un pēc tam atlasiet **Labi**.
 9. Lai deaktivizētu darbplūsmu vai lai aktivizētu darbplūsmu, kas iepriekš izveidota, dodieties uz **Līdzekļu noma \> Iestatīšana \> Nomas darbplūsma**. Pēc tam lapā **Nomas darbplūsma** atlasiet **Darbplūsma \> Versijas**. Lai pašreizējo darbplūsmu padarītu neaktīvu, nomas versijas dialoglodziņā atlasiet aktīvo nomu un pēc tam atlasiet **Padarīt neaktīvu**. Lai aktivizētu esošo darbplūsmu, atlasiet darbplūsmu un pēc tam atlasiet **Padarīt aktīvu**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

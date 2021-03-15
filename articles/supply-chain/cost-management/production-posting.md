@@ -56,3 +56,6 @@ Sadaļā **Ražošanas kontroles parametri** lauku **Grāmatošana Virsgrāmatā
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

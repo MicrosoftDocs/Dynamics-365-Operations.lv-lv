@@ -41,3 +41,6 @@ Ja ir radies konflikts ar kontu plānu, var mainīt kontu plāna norobežotāju 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Kā noteikt, vai jūsu vidē ir nepieciešams atjaunināt norobežotājus 
 Ja norobežotāji jauninātajā vidē ir konfliktējoši, var veidoties nestabilitāte, ievadot vērtības segmentētas ievades vadīklā vai dimensiju ievades vadīklā. Tas nozīmē, ka būs nepieciešams vienmēr izmantot meklēšanas rezultātus vai uznirstošo izvēlni, ievadot kontu un dimensiju kombinācijas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

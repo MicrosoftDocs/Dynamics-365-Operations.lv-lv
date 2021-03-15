@@ -43,3 +43,6 @@ Darba laika plānošanas rekvizīti tiek izmantoti, lai kategorizētu darba laik
 3. Laukā Vērtība ierakstiet kādu vērtību.
 4. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

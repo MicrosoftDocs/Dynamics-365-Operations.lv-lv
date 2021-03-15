@@ -70,3 +70,6 @@ Līdzeklis Mērogojams ir pieejams tikai tad, ja krājuma komponenti formulā ir
 
 ## <a name="use-step-consumption"></a>Pakāpeniskā patēriņa lietošana
 Pakāpeniskais patēriņš likvidē nepieciešamību kādai sastāvdaļai ievadīt daudzumu cilnē **Formulas rinda**. Tā vietā pakāpeniskais patēriņš ir konfigurēts tā, lai tam būtu vērtība **No sērijas** un vērtība **Daudzums**. Tiek atlasīta informācija no pakāpeniskā patēriņa katram sērijas ierakstam, kas apmierina partijas pasūtījuma daudzumu. Pakāpeniskais patēriņš ir noderīgs, ja patēriņa ātrums nav lineārs attiecībā pret partijas pasūtījuma lielumu un tikai palielina vajadzību, kad ir sasniegts noteikts daudzuma slieksnis. Lai iespējotu šo līdzekli jaunai formulai, zem grupas **Patēriņa aprēķins** attiecīgās sastāvdaļas formulas iestatījumu no **Standarta** mainiet uz **Pakāpenisks**. Šo patēriņa metodi varat norādīt lapas **Formulas rinda** cilnē **Iestatījumi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

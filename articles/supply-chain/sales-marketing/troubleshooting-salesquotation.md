@@ -39,3 +39,6 @@ Mēģinot iestatīt pārdošanas daudzumu (**SalesQty** lauks) pārdošanas pied
 
 Pārdošanas daudzumu nevar iestatīt precēm, kas ir pakalpojumu krājumi. Piemēram, ja piedāvājat krājuma instalēšanas pakalpojumu, nav jēgas ierakstīt daudzumu, jo fiziska krājuma nav. Ir tikai pakalpojums.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

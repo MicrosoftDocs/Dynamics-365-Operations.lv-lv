@@ -95,3 +95,6 @@ Iespējams, pirkšanas pasūtījuma izpildi ir nepieciešams aizkavēt. Piemēra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

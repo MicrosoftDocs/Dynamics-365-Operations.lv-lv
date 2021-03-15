@@ -87,3 +87,6 @@ Neviens ieraksts netiek izveidots uzskaites valūtai, ja bankas valūta atbilst 
 Ja ir nepieciešams anulēt pārvērtēšanas transakciju, atlasiet pogu **Anulēt transakciju** lapas **Ārvalstu valūtas pārvērtēšana** darbību rūtī. Tiek izveidots jauns ārvalstu valūtas pārvērtēšanas vēsturiskais ieraksts, lai uzturētu vēsturiskos auditācijas pierakstus par to, kad pārvērtēšana notika vai tika anulēta.
 
 Lai anulētu vairākas pārvērtēšanas, vispirms jāanulē jaunākā pārvērtēšana. Pēc tam turpiniet anulēt vecākas pārvērtēšanas datumu secībā. Pēc tam varat apstrādāt jaunas pārvērtēšanas anulētajiem periodiem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

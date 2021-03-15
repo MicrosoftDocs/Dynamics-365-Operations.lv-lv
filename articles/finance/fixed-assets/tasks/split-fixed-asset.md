@@ -62,3 +62,6 @@ Pirms pilnībā nolietotā līdzekļa sadalīšanas, līdzekļa grāmatas status
     - Jaunajam aktīvam tiek izveidota Iegādes transakcija par tādu pašu summu.
 
 4. Atlasiet **Grāmatot**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

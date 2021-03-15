@@ -71,3 +71,6 @@ Mazumtirgotāji bieži izvēlas nepiemērot atlaidi dažiem produktiem, piemēra
 
 > [!NOTE]
 > Kad konfigurācija **Novērst visas atlaides** ir ieslēgta uz **Jā**, precei netiks piemērotas atlaides. Netiks piešķirtas pat uz norēķinu balstītās atlaides.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

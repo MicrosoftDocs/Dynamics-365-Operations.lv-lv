@@ -36,3 +36,6 @@ Lai iestatītu partijas darbu vai apstrādātu vairāku nomu maksājumu rēķinu
 > Turpmākie darījumi, piemēram, saistību amortizācijas grafiki, maksājumi, nolietojums un izdevumi, tiks grāmatoti tikai pēc tam, kad tiks grāmatota atbilstošās nomas sākotnējā atzīšana.
 >
 > Žurnāla ieraksti tiek izveidoti, bet tie netiks grāmatoti, līdz atlasīsiet komandu **Izpildīt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ ms.locfileid: "4986808"
 5. Laukā Preces dzīves cikla stāvoklis ievadiet vai atlasiet kādu vērtību.
 6. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

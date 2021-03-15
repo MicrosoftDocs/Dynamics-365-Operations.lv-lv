@@ -46,3 +46,6 @@ Ražoto krājumu amortizēto konstanto izmaksu aprēķinātais apjoms ir nosaukt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

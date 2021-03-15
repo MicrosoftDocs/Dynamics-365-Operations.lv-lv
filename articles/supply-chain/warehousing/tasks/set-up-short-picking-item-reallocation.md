@@ -63,3 +63,6 @@ Ir iespējams definēt vairākus darba izņēmumus ar dažādām krājumu pārda
 6. Sarakstā atlasiet **Lietotāja ID**. Piemēram, 24.
 7. Izvērsiet kopsavilkuma cilni **Darbs**.
 8. Laukā **Atļaut manuālu krājuma atkārtotu sadali** atlasiet vērtību **Jā**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Dažreiz organizācija pārtrauc piedāvāt noteiktus atvieglojumus. Šādā gad
 Līdzīgi, masveida atvieglojumu pagarināšana ļauj pagarināt atvieglojumu un darbinieku reģistrēšanās beigu datumu šim atvieglojumam, ja nolemjat piedāvāt atvieglojumu ilgāk nekā sākotnēji plānots.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

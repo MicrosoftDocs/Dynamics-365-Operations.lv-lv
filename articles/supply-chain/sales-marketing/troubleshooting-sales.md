@@ -112,3 +112,6 @@ Supply Chain Management pašlaik neatbalsta komisijas maksu aprēķināšanu ieg
 Komplekta krājums nav pieejams pirkšanas pasūtījumam, jo, pārbaudot komplekta krājuma pārdošanas pasūtījuma rindas, jūs ievērosit, ka daudzums ir *0* (nulle) un statuss ir *Atcelts*. Tas tiek darīts ar nolūku. Pārdošanas pasūtījums iegādājas tikai komplekta krājuma komponentus. Tas nepērk pašu komplekta krājumu.
 
 Ja ir nepieciešams iegādāties komplektu, apsveriet, vai ir nepieciešams to atzīmēt kā komplekta krājumu, jo šī funkcionalitāte faktiski ir paredzēta ieņēmumu atzīšanas scenārijiem. Papildinformāciju par komplektu krājumiem, skatiet sadaļā [Komplekti](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

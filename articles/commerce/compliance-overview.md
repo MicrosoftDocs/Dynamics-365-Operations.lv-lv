@@ -45,3 +45,6 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto, apm
 [Konfidencialitātes politikas lapas pievienošana](add-privacy-page.md)
 
 [Aizstāt lietotāja ID, kas saistīti ar izsekotām satura izmaiņām](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

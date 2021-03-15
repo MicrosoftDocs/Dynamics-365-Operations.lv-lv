@@ -246,3 +246,6 @@ Nākamajā piemērā varat redzēt visaugstāko un viszemāko statusu piedāvāj
 | Pieņemiet vienu piedāvājumu. (vai vismaz vienu rindu) |                          Saņemts                           |                           Pieņemts                           |                    Saņemts                    |                    Pieņemts                     |                   Saņemts                   |                   Pieņemts                    |
 |           Atsakiet visus pārējos piedāvājumus.           |                          Atteikts                           |                           Pieņemts                           |                    Atteikts                    |                    Pieņemts                     |                   Atteikts                   |                   Pieņemts                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

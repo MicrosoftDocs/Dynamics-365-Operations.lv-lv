@@ -94,3 +94,6 @@ Izmantojiet šo procedūru, lai izveidotu pārskatu hierarhiju organizācijas p�
     * Atlasiet dimensijas elementu, kas atbilst zaram.  
 59. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

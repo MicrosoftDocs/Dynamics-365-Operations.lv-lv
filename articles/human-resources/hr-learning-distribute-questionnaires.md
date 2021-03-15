@@ -131,3 +131,6 @@ Kad esat izstrādājis un izplatījis kādu anketu, šo anketu var aizpildīt at
 Anketas var tikt padarītas pieejamas noteiktiem lietotājiem vai lietotāju grupām, vai visiem lietotājiem tīklā.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

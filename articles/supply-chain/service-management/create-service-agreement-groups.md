@@ -42,3 +42,6 @@ Pakalpojumu līgumu grupas is noderīgas pakalpojumu līgumu kārtošanai un fil
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Pakalpojumu līguma pārskats](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

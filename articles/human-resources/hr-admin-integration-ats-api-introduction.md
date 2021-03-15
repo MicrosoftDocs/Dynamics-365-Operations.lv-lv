@@ -137,3 +137,5 @@ Opciju kopas:
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Microsoft Dataverse Web API izmantošana](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Opciju kopu izveide un atjaunināšana, izmantojot Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

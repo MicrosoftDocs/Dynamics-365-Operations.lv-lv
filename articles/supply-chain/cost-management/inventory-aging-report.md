@@ -364,3 +364,6 @@ Jaunais pārskats izskatīsies līdzīgi kā tālāk sniegtais piemērs.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

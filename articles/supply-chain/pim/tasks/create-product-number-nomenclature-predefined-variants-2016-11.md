@@ -57,3 +57,6 @@ ms.locfileid: "5007545"
 5. Ievadiet vai atlasiet vērtību laukā **Produkta varianta numura nomenklatūra**.
 6. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

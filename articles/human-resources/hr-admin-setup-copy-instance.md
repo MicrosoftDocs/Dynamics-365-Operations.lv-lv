@@ -150,3 +150,6 @@ Plašāku informāciju par pielāgotajiem laukiem, skatiet rakstā [Darbs ar pie
 [Noņemt instanci](hr-admin-setup-remove-instance.md)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

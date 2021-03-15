@@ -105,3 +105,6 @@ Supply Chain Management tagad atbalsta MK aprēķinu, kas ietver transportēša
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

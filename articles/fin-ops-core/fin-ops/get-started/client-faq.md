@@ -54,3 +54,6 @@ Opcija **Skatīt detalizētu informāciju** ir pieejama vairākos veidos:
 
 - Ja vadīklai ir pieejama iespēja **Skatīt detalizētu informāciju** un ja vadīklai ir vērtība, šī vērtība tiek parādīta kā hipersaite. Varat noklikšķināt uz hipersaites, lai atvērtu lappusi, kurā ir papildu informācija.
 - Opcija **Skatīt detalizētu informāciju** ir pieejama arī īsinājumizvēlnēs. Plašāku informāciju par to, kad tiek parādītas īsinājumizvēlnes, noklikšķinot ar labo peles pogu, skatiet iepriekšējā sadaļā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

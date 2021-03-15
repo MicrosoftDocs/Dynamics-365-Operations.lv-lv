@@ -82,3 +82,6 @@ Kad iestatīšanas dati ir pieejami, varat izveidot līdzekli.
 1. Lapā **Visi funkcionālie novietojumi** pārliecinieties, vai vēlamais funkcionālais novietojums, kurā līdzeklis tiks izveidots automātiski, izmanto šim nolūkam izveidoto funkcionālā novietojuma veidu.
 2. Sarakstā atlasiet funkcionālo novietojumu.
 3. Atlasiet **Atjaunināt funkcionālā novietojuma stāvokli** un pēc tam atlasiet dzīves cikla stāvokli, kuru izveidojāt šim nolūkam. Tagad funkcionālajā novietojumā tiek automātiski uzstādīts viens līdzeklis. Šim līdzeklim ir tāds pats nosaukums kā funkcionālajam novietojumam.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

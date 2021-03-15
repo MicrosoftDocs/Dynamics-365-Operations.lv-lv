@@ -275,3 +275,6 @@ Tā kā klastera profils iestata pozīciju skaitu uz 2, sistēma automātiski no
     Tiek saņemts ziņojums "Klasteris pabeigts".
 
 Tagad varat izmantot izvēlnes vienumu **Pārdošanas izdošana**, lai izdotu atlikušo daudzumu. Pēc tam varat izmantot izvēlnes vienumu **Pārdošanas iekraušana** , lai pārvietotu vienumus no sagatavošanas vietas uz iekraušanas doku.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

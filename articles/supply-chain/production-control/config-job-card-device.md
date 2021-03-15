@@ -94,3 +94,6 @@ Tomēr, kā iepriekš minēts, kad izmantojat ierīces konfigurāciju ar opciju 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

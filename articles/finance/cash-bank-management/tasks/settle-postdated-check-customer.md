@@ -55,3 +55,6 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
 10. Noklikšķiniet uz Dokuments.
 11. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

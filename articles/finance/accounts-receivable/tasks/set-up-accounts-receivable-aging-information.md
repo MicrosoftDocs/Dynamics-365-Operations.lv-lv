@@ -58,3 +58,6 @@ ms.locfileid: "5012090"
 2. Atlasiet debitoru ar bilanci.
 3. Izvērsiet apgabala lodziņu **Vecumstruktūras fakts**, lai skatītu vecās bilances. Vecumstruktūras perioda definīcija šai papildinformācijai tiek ņemta no parametros norādītās noklusējuma vecumstruktūras perioda definīcijas. Varat to mainīt, izmantojot izvēlni Iekasēt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

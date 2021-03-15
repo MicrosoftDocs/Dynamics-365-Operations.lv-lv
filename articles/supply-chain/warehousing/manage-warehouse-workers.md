@@ -56,3 +56,6 @@ Darba vienumu apstrādei izmantotā laika analīze var palīdzēt organizēt uzl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

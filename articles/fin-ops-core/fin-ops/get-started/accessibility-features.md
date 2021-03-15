@@ -97,3 +97,6 @@ Viedtālruņos un citos mazos ekrānos vadīklas un veidlapas izkārtojums tiks 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Norādījumi par to, kā palīdzēt izstrādātājiem un klientiem savos pielāgojumos iekļaut pieejamu domāšanu
 
 Papildinformāciju par Microsoft labākajām praksēm attiecībā uz pieejamības iespējošanu skatiet šeit: [Pieejamība veidlapās, produktos un vadīklās](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

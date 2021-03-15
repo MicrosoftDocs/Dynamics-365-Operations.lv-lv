@@ -598,3 +598,6 @@ Ja nodarbinātais darbdienā neierodas darbā un šim nodarbinātajam nav nevien
 - Automātiski ievietot kavējumu
 
 Aprēķinot ikdienas reģistrācijas nodarbinātajam, kuram ir iespējots brīvā režīma laiks, kā noklusējuma kavējuma kods tiek izmantots laukā **Automātiski ievietot brīvo režīmu -** norādītais kavējuma kods. Ja nodarbinātajam nav iespējots brīvā režīma laiks, tiek izmantots laukā **Automātiski ievietot kavējumu** norādītais kavējuma kods. Ja uzņēmumā ir gan tādi nodarbinātie, kuriem ir iespējots brīvā režīma laiks, gan tādi nodarbinātie, kuriem nav iespējots brīvā režīma laiks, ir jāiestata abi parametri.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

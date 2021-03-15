@@ -42,3 +42,6 @@ ms.locfileid: "4994394"
 12. Darbību rūtī noklikšķiniet uz **Oriģinālais dokuments**.
 13. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Tālāk redzamajā attēlā ir parādīts izlaistās preces konfigurācijas piem
 [Izveidot juridiskās personas](channels-legal-entities.md)
 
 [Variantu grupas izveide](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

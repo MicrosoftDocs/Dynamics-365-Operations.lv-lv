@@ -49,3 +49,6 @@ Lietotājs nevar pielāgot iegultos Microsoft Power BI pārskatus.
 **Ilgterm. risināj.**
 
 Būs pieejamas papildu Power BI opcijas, un pakalpojumā Dataverse tiks iekļauti vairāk datu un elementu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

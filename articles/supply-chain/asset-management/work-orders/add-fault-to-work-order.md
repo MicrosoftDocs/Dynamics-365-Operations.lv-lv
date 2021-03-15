@@ -79,3 +79,6 @@ Saraksta **Visi līdzekļi** lapā varat izdrukāt līdzekļu kļūmju pārskatu
 >[!NOTE]
 >Lai izdrukātu kļūmju pārskatu vairākiem līdzekļiem vai līdzekļu veidiem, atlasiet **Līdzekļu pārvaldība** > **Pārskati** > **Līdzekļi** > **Līdzekļu kļūmes**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

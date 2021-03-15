@@ -68,3 +68,6 @@ Pasūtījums tiek saglabāts, tas tiek atzīmēts ar karodziņu **Neapstrādāt*
 Lai skatītu un pārvaldītu pasūtījumus, kas ir aizturēti pārkāpuma pārskatīšanai, dodieties uz **Retail un Commerce** \> **Debitori** \> **Pasūtījumu aizturēšana**. Lapā **Pasūtījumu aizturēšana** atlasiet ierakstu sarakstā un pēc tam noklikšķiniet uz **Pasūtījuma aizturēšana**, lai atvērtu detalizētāku skatu, kurā ietverta informācija par aizturēšanas iemeslu. Kopsavilkuma cilnē **Detalizēta informācija par pārkāpumu** varat skatīt sistemātiskos pārkāpumu kritērijus, kuriem tika noteikta atbilstība attiecīgā pasūtījuma gadījumā, un izmantotos vērtējumus. Ja pasūtījums tika aizturēts manuāli, varat pārskatīt visus komentārus, kurus ievadīja lietotājs, kas aizturēja pasūtījumu, apskatot kopsavilkuma cilnes **Piezīmes** sadaļu **Pārkāpuma piezīmes**.
 
 Lai iegūtu vairāk informācijas par to, kā darboties ar pasūtījumu aizturēšanu, skatiet sadaļu [Pasūtījumu aizturēšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -152,3 +152,6 @@ Izveidojiet jaunu vai atlasiet esošu pirkšanas pasūtījumu. Noklikšķiniet u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4798023"
 2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 3. Izvērsiet sadaļu Pielikumi.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

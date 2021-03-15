@@ -161,3 +161,6 @@ Tehniskie MK un maršruti tiek veidoti no tehniskās versijas, kur tie tiek piem
 Produktiem, kuros tiek izmantota *versijas* produkta dimensija (kopā ar loģistikas ietekmi uz darījumiem), versija tiek pievienota arī MK un maršrutiem. Šī darbība palīdz diferencēt MK un secīgu versiju maršrutus neatkarīgi no iestatījuma **Ieviešanas efektivitāte**.
 
 Produktiem, kuros netiek izmantota *versijas* produkta dimensija (bez loģistikas ietekmes uz darījumiem), versija netiek pievienota arī MK vai maršrutiem. Tāpēc nebūs atšķirības starp MK un secīgu versiju maršrutiem. Šādā gadījumā ir ieteicams iestatīt opciju **Ieviest efektivitāti** uz *Jā*. Šādā veidā varat novērst tehnisko versiju pārklāšanos un aktivizēt arī jaunākās versijas MK un maršrutu, neveicot iepriekšējās versijas MK un maršruta deaktivizēšanu. Ja opcija **Ieviest efektivitāti** ir iestatīta uz *Jā*, šādā gadījumā, lai varētu aktivizēt jaunāko versiju, manuāli jāinaktivē iepriekšējo versiju MK un maršruti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Starpuzņēmumu segšanas dokumentiem varat definēt noklusējuma aprakstus. Nok
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

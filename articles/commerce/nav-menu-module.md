@@ -72,3 +72,6 @@ Detalizētu informāciju par navigācijas izvēlnes moduļa pievienošanu galven
 [Sīkfailu atbilstība](cookie-compliance.md)
 
 [Galvenes modulis](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

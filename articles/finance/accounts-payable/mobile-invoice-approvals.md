@@ -534,3 +534,6 @@ Pamatojoties uz 2. scenārija prasībām, var izstrādāt tālāk norādītos 1
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

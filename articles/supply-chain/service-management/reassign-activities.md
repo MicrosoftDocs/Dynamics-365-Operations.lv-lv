@@ -57,3 +57,6 @@ Lai piešķirtu aktivitāti citam darbiniekam, veiciet šādas darbības:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

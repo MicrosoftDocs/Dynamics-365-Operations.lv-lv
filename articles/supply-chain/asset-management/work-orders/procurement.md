@@ -99,3 +99,6 @@ Ilustrācijā ir redzams **Pirkšanas pasūtījuma** lapas piemērs ar uzsvaru u
 
 Lai skatītu vai ievadītu aktivitātes numuru, kas saistīts ar Darba pasūtījuma pirkšanas pieprasījuma rindu, saraksta lapā **Darba pasūtījuma pirkšanas pieprasījums** atlasiet pirkšanas pieprasījuma ierakstu un pēc tam kolonnā **Pirkšanas pieprasījums** atlasiet saiti pirkšanas pieprasījumam. Jūs varat atrast **Aktivitātes numuru** lauku cilnē **Projekts**, kas atrodas **Rindas detaļas** kopsavilkuma cilnē.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

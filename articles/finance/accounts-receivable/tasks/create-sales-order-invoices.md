@@ -67,3 +67,6 @@ ms.locfileid: "4991021"
 10. Noklikšķiniet uz **Atcelt**.
 11. Noklikšķiniet uz pogas **Jā**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Tēmā ir izskaidrots, kā iestatīt apstiprināšanas darbplūsmu, kas tiks pal
 14. Lapā **Darbplūsma izveide** atlasiet **Aizvērt**.
 14. Atlasiet jauno darbplūsmu un pēc tam atlasiet **Versijas**. Pēc tam atlasiet **Padarīt aktīvu**, lai nodrošinātu, ka darbplūsma ir aktīva.
 15. Atlasiet **Aizvērt**. Tiek parādīta jauna aktīvā versija.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

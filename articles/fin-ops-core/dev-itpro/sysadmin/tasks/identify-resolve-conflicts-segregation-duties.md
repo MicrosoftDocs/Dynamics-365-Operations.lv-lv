@@ -59,3 +59,6 @@ Kad lietotājiem tiek piešķirtas lomas, automātiski tiek ieviestas pienākumu
 
 > [!NOTE]
 > Ja vienam un tam pašam lietotājam ir norādīti vairāki konflikti, atlasiet lietotāja ierakstu un novērtējiet **Lietotāju** lapā piešķirtās lomas. Lai izvairītos no šī konflikta, apstipriniet katru kārtulu pēc tās pievienošanas vai modificēšanas.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

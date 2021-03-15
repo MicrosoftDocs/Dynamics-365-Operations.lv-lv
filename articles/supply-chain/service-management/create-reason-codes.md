@@ -40,3 +40,6 @@ Kad tiek prasīts pamatojuma kods pakalpojumu pasūtījuma posma atjaunināšana
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

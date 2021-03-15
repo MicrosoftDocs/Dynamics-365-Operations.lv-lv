@@ -67,3 +67,6 @@ Vienības maiņas pasūtījumi parasti tiek izveidoti pēc produkta atgriešanas
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

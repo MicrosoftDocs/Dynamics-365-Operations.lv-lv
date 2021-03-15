@@ -107,3 +107,6 @@ Dažreiz debets var tikt importēts kā kredīts un kredīts var tikt importēts
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

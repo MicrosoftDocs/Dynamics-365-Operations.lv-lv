@@ -36,3 +36,6 @@ ms.locfileid: "4987083"
 5. Noklikšķiniet uz Jauns.
     * Noklikšķiniet uz Pārlūkot. Atrodiet attēlu, kuru vēlaties izmantot, atlasiet to, un pēc tam aizveriet dialoglodziņu.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

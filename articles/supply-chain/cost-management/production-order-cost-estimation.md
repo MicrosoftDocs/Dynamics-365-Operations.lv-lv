@@ -64,3 +64,6 @@ Izmaksu novērtējums sniedz arī tālāk uzskaitīto informāciju.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

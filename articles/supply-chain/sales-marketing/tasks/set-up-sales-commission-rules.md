@@ -95,3 +95,6 @@ ms.locfileid: "5010725"
 17. Sarakstā atlasiet komisijas grupu, kuru izveidojāt agrāk.
 18. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

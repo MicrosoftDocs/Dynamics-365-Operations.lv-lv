@@ -45,3 +45,6 @@ Tālāk uzskaitīti daži tipiski scenāriji.
 + izsniegt preces pašreizējā vai citā veikalā;
 + atcelt pasūtījumu pašreizējā vai citā veikalā;
 + atgriezt pasūtījumu ar vai bez čeka (kvīts) pašreizējā vai citā veikalā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

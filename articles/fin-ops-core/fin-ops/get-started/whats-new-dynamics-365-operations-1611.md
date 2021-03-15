@@ -945,3 +945,6 @@ Pašlaik Retail Modern POS ir pieejams tikai kā operētājsistēmas Windows 8.1
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

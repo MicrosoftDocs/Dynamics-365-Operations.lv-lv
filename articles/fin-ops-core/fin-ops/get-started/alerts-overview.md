@@ -88,3 +88,6 @@ Videoklips [Kā izmantot brīdinājumus, lai pārraudzītu filtrēto datu](https
 Videoklips [Brīdinājumu noteikumu opcijas](https://youtu.be/cpzimwOjicM) (parādīts iepriekš) ir ietverts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurš ir pieejams vietnē YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

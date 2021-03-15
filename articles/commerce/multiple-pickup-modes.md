@@ -85,3 +85,6 @@ Kad kanālam ir pieejami vairāki saņemšanas piegādes veidi, klientiem tiek n
 ## <a name="considerations-for-distributed-order-management"></a>Konfigurācijas sadalīto pasūtījumu pārvaldībai
 
 [Sadales pasūtījumu pārvaldība (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) līdzekļi Commerce ignorē visas pārdošanas rindas, kas ir atzīmētas saņemšanai veikalā. Šie līdzekļi ir atjaunināti, lai nodrošinātu, ka pārdošanas rindas, kas ir saistītas ar konfigurētajiem saņemšanas piegādes veidiem, apiet DOM loģiku un netiek pārdalītas uz jaunu izpildes noliktavu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

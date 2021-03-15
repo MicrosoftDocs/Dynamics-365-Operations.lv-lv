@@ -645,3 +645,6 @@ APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļ
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada augusts)](new-updated-task-guides-available-august-2016.md)
 
 [Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

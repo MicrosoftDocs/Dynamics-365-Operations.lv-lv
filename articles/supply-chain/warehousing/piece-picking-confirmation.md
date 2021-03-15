@@ -50,3 +50,6 @@ Tālāk minētās opcijas ir pieejamas atlasei, ja darbs ir izdošanas vai inven
 | Vienības izdošanas apstiprinājums | Izdošanai un inventarizācijai pieejamie darba veidi. Preču apstiprināšana tiek automātiski atlasīta. Ļauj apstiprināt katru krājuma vienību no mobilās ierīces. |
 |  Maksimālais vienību skaits  |                   Darbs, kas pieejams izdošanai, ja vienības izdošanas apstiprināšana ir iespējota. Iestata vienību skaita ierobežojumu, kas ir jāapstiprina.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ ms.locfileid: "5006795"
     - Atlaižu uzkrājumu konts ir kreditēts pārstāvēt nākotnes saistības debitoram.
     - Atlaižu izdevumu konts ir debetēts, lai atpazītu izmaksas, kas radušās saistībā ar pārdošanu.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

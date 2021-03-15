@@ -54,3 +54,6 @@ ms.locfileid: "4982370"
 1. Noklikšķiniet uz Publicēt.
 2. Noklikšķiniet uz Jā.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

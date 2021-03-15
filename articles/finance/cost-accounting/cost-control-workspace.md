@@ -157,3 +157,6 @@ Papildu resursi
 [Piekļuves tiesību definēšana izmaksu objektu kontrolieriem](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

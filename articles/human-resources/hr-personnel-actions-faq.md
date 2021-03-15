@@ -92,3 +92,6 @@ Piemērs.
 - Spēkā stāšanās datums darbības **Nolīgt nodarbināto** galvenē ir datums, ko ievadījāt laukā **Darba attiecību uzsākšanas datums**.
 - Spēkā stāšanās datums darbības **Pārcelt nodarbināto** galvenē ir datums, ko šim nodarbinātajam ievadījāt laukā **Norīkojuma sākuma datums**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

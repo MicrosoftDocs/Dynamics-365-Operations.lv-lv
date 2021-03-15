@@ -38,3 +38,6 @@ Nākamajā attēlā sniegts pārskats darba plūsmai no uzturēšanas plānu un 
 
 ![1. attēls](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

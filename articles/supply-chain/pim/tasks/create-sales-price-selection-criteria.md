@@ -53,3 +53,6 @@ ms.locfileid: "4999660"
 4. Laukā Kritēriji atlasiet debitoru grupu 10. 
 5. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

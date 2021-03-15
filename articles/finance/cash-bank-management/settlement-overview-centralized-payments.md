@@ -107,3 +107,6 @@ Kreditoru maksājumiem darbības “apmaksāt līdz” un “apmaksāt no” mak
 
 ## <a name="withholding-tax"></a>Ieturētais nodoklis
 Ar rēķinu saistīts kreditora konts tiek izmantots, lai noteiktu, vai jāaprēķina ieturētais nodoklis. Ja tiek piemērots ieturējuma nodoklis, to aprēķina ar rēķinu saistītajā juridiskajā personā. Ja juridiskās personas izmanto dažādas valūtas, tiek izmantots ar rēķinu saistītās juridiskās personas maiņas kurss.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

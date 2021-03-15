@@ -44,3 +44,6 @@ ms.locfileid: "5127059"
 12. Laukā Pakļautās personas amats ievadiet vai atlasiet vērtību.  Piemērs: 000437
 13. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

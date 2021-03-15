@@ -141,3 +141,6 @@ Eiprila grāmato maksājumu žurnālu un pārskata kreditora transakcijas lapā 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

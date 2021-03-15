@@ -204,3 +204,6 @@ Izraksti ir skati vadītājiem, kas atbild par izmaksu kontroli. Izrakstus defin
 Versijas tiek izmantotas, lai simulētu, skatītu un salīdzinātu dažādus rezultātus. Pēc noklusējuma visas faktiskās izmaksas tiek skatītas vienu bāzes versijā, kas ir pazīstama kā *faktiskā*. Budžetiem un aprēķiniem jūs varat strādāt ar tik versijām, cik nepieciešams. Piemēram, budžeta datus var importēt sākotnējā versijā, un pēc tam pārskatīt budžetu pārskatītajā versijā. Aprēķiniem jūs varat izveidot vairākas versijas. Šajās dažādajās versijās, pēc tam var izveidot aprēķinus, izmantojot dažādus aprēķina noteikumus, kas tiks izmantoti izmaksu sadalījumam.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

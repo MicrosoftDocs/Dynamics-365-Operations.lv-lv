@@ -40,3 +40,6 @@ Lai varētu izveidot Kanban darbus un varētu apstrādāt darbības kādai ražo
 5. Noklikšķiniet uz Aktivizēt.
 6. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

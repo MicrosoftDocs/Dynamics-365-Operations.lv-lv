@@ -110,3 +110,6 @@ Ražošanas plānotājs plāno materiālu vajadzības krājumiem, kas ir formula
 19. Laukā Atspējot visus plānošanas procesus atlasiet Nē.
 20. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

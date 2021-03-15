@@ -279,3 +279,6 @@ Lai iepakotu sūtījumu, veiciet sekojošās darbības.
     ![Nosūtīšanas uzlīmes piemērs](media/sps-label-example.png "Nosūtīšanas uzlīmes piemērs")
 
 1. Ievērojiet, ka **Konteinera manifesta ID** un **Kopējās kravas** vērtības ir pievienotas kā saņemtas no pārvadātāja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

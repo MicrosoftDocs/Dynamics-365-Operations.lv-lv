@@ -182,3 +182,6 @@ Tagad ir **Rēķina modeļa kartēšana**, **Projekta rēķina modeļa kartēša
 - [Elektronisko pārskatu modeļa kartēšanas pārvaldība atsevišķās elektronisko pārskatu konfigurācijās](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [No valsts konteksta atkarīgu elektronisko pārskatu modeļu kartējumu konfigurēšana](er-country-dependent-model-mapping.md)
 - [Elektronisko pārskatu veidošanas (ER) API izmaiņas](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

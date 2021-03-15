@@ -48,3 +48,6 @@ ms.locfileid: "4985166"
 15. Noklikšķiniet uz OK.
     *  Procesa rezultāti tiek attēloti masveida atjaunināšana pārskatā.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4987008"
 11. Laukā **Kategorija** ievadiet vai atlasiet vērtību.
 12. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Dokumentu PVN tiek aprēķināts, dokumenta rindās norādot PVN grupu un krāju
 29. Noklikšķiniet uz Pārdošanas nodoklis.
 30. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -503,3 +503,6 @@ Ir jādefinē kvalitātes piesaiste katrai biznesa procesā ietvertajai variāci
 [Neatbilstības pārvaldība](enable-nonconformance-management.md)
 
 [Kvalitātes pārvaldība noliktavas procesiem](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

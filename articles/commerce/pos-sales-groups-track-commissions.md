@@ -87,3 +87,6 @@ POS sniedz lietotājiem iespēju konfigurēt pogu režģus, kas tiek ietverti ek
 ## <a name="calculating-commissions"></a>Komisijas maksu aprēķins
 
 Norādītajā pārdošanas grupā ietverto darbinieku komisijas maksa tiek aprēķināta izraksta vai pārdošanas pasūtījuma grāmatošanas laikā. Komisijas maksas summa tiek noteikta, pamatojoties uz nodarbinātā komisijas daļu, kas ir definēta pārdošanas grupai, ar to saistītajiem debitora komisijas maksas aprēķina iestatījumiem un/vai transakcijā ietvertajām precēm.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

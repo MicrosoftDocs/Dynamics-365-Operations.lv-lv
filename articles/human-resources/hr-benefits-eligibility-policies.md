@@ -49,3 +49,6 @@ Definējiet nosacījumu tvērumu ierobežojumu ietvaros. Piemēram, ja izveidoja
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -238,3 +238,6 @@ Lai kontrolētu, vai darbiniekiem ir atkārtoti jāizmanto esoša noliktavas vie
 
 > [!NOTE]
 > Lai konfigurētu etiķeti, dodieties uz **Noliktavas vadība \> Iestatīšana \> Dokumentu maršrutēšana \> Dokumentu maršrutēšana**. Papildinformāciju skatiet [Iespējot noliktavas vienības etiķetes drukāšanu](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

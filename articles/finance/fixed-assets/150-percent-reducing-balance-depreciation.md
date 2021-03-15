@@ -87,3 +87,6 @@ Ja kā nolietojuma aprēķināšanas gadu atlasāt opciju **Finanšu**, tad lauk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

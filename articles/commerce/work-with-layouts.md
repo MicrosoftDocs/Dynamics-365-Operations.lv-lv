@@ -108,3 +108,6 @@ Pēc tam, kad iepriekš iestatītā izkārtojuma izmaiņas ir priekšskatītas, 
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
 
 [Darbs ar veidnēm](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

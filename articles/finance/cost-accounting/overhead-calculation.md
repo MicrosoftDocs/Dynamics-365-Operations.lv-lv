@@ -1414,3 +1414,6 @@ Finanšu grāmatvedībā 10 000,00 izmaksas par elektrību tiek grāmatotas uz 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

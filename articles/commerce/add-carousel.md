@@ -85,3 +85,6 @@ Lai pievienotu karuseļa moduli jaunā lapā un iestatītu nepieciešamos rekviz
 [Satura bloka modulis](add-hero-module.md)
 
 [Video atskaņotāja modulis](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

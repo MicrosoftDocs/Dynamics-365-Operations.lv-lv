@@ -76,3 +76,6 @@ Lai lappusei pievienotu iframe moduli, lai parādītu ārējo videoklipu, rīkoj
 [Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

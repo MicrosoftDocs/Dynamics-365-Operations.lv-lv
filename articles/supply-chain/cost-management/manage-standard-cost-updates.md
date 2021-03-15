@@ -51,3 +51,6 @@ Aktivizējot jaunu standarta cenu, rīcībā esošo krājumu vērtība parasti t
 - **Nav** nozīmē, ka ārvalstu valūtas pārvērtēšanas transakcijās nav grāmatotas nekādas finanšu dimensijas. Ja konta struktūrā ir noteikta obligāta finanšu dimensija, pārvērtēšanas process tiek veikts, bet tiek izveidoti uzskaites ieraksti bez finanšu dimensijām. Šajā gadījumā lietotāji vispirms saņems brīdinājuma ziņojumu, tādējādi, ja nepieciešams, viņi var atcelt pārvērtēšanu.
 - **Tabula** - Krājuma finanšu dimensijas pēc tam tiek grāmatotas pārvērtēšanas darbībās. Šis ir noklusētais iestatījums un atbilst sākotnējai sistēmas funkcionalitātei, ieslēdzot funkciju *Krājumu standarta izmaksu pārvērtēšanas noklusēto finanšu dimensiju*.
 - **Grāmatošana** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas pārvērtētās transakcijas finanšu dimensijas. Pēc noklusējuma finanšu dimensijas no oriģinālās darbības krājumu konta tiks izmantotas gan krājumu kontam, gan pārvērtēšanas kontam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

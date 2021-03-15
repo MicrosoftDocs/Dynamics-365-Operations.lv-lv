@@ -60,3 +60,6 @@ ms.locfileid: "4988829"
 8. Lai noteiktā laikā palaistu konsolidāciju kā pakešuzdevumu, iestatiet opciju **Pakešapstrāde** uz **Jā**. Lai nekavējoties palaistu konsolidāciju, atlasiet **Labi**. 
 
 Darījumi un bilances, kas tikuši norādīti konsolidācijai meitasuzņēmumos, tiek pievienoti attiecīgajiem kontiem konsolidētajā juridiskajā personā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

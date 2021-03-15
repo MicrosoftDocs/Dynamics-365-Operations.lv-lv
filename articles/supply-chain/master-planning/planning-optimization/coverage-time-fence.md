@@ -85,3 +85,6 @@ Iestatot vajadzības periodus, apsveriet šādus punktus:
 - Starpuzņēmumu pieprasījums tiks ignorēts, ja aprēķinātais nosūtīšanas datums nav vajadzības periodā. Ievērojiet, ka iebūvētajā vispārējā plānošanā starpuzņēmumu pieprasījumu ierobežo vajadzību periods.
 - Pieprasījuma apjoma prognozes tiks ignorētas, ja budžeta datums nav norādīts vajadzību periodā. Ievērojiet, ka iebūvētajā vispārējā plānošanā starpuzņēmumu pieprasījumu ierobežo vajadzību periods.
 - Optimizācijas plānošana ir laika josla - zināms. Tas apsver laika joslu piegādes un pieprasījumu vietās un plānošanas izpildes laiku. Piemēram, galvenā plānošana tiek izraisīta 11.00 no Dānijas vietas (GMT+1 laika josla) 15. oktobrī, un tiek izmantots desmit dienu vajadzības periods. Šajā gadījumā piegāde un pieprasījums no vietas Sietlā (GMT-8 laika josla) ir iekļauts līdz 02.00 25. oktobrī (= desmit 24 stundu dienas pēc vispārējās plānošanas aktivizēšanas mīnus deviņas stundas laika joslas starpība). Ievērojiet, ka iebūvētā vispārējās plānošanas programma ņem vērā tikai laika perioda datumu. Tāpēc rezultāts var atšķirties.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

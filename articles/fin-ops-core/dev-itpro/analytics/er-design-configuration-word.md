@@ -72,3 +72,6 @@ Izpildot konfigurēto ER formātu, pievienotā Word veidne tiek izmantota, lai �
 
 - [ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā](./tasks/er-design-configuration-word-2016-11.md)
 - [Iegulstiet attēlus un formas jūsu ģenerētajos dokumentos, izmantojot ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

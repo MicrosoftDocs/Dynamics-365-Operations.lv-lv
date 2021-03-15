@@ -104,3 +104,6 @@ Spēja atsaukt žurnālu darbplūsmā, kurai ir statuss "neatkopjama" ir iespēj
 
 ## <a name="delete-journal-lines"></a>Dzēst Žurnāla rindas
 Iespēja ātri dzēst visas žurnāla rindas ir iespējota žurnālā ar **Funkcijas** > **Dzēst žurnāla rindas.** Lai iespējotu šo līdzekli, **Līzekļa pārvaldība** atlasiet **Dzēst žurnāla veiktspējas optimizācijas** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

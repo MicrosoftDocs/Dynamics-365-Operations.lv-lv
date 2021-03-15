@@ -182,3 +182,6 @@ Lai ievadītu komentārus par izmaiņām, ko veicāt šajā darbplūsmā, rīkoj
 2. Laukā **Ievadīt komentārus par darbplūsmu** ievadiet savus komentārus.
 3. Pārskatiet savus komentārus. Pēc komentāru pievienošanas tos nevar pārveidot.
 4. Noklikšķiniet uz **Pievienot**, lai pievienotu jūsu komentārus apgabalā **Komentāru vēsture**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

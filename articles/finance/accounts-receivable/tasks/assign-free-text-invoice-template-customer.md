@@ -49,3 +49,6 @@ ms.locfileid: "4969632"
     + Gada — atlasiet šo opciju un ievadiet gadu skaitu laukā Uz. Piemēram, ja ievadāt 2, tad rēķins šim debitoram tiks ģenerēts ik pēc diviem gadiem.  
 14. Laukā **Par** ievadiet skaitli.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Augot organizācijai, jāsāk pēctecības plānošana. Pēctecības plānošan�
 27. Atlasiet **Rezultāts**.
 28. Atlasiet **Pārskats**. Pārskatā vislabākās atbilstības ir uzskaitītas atskaites augšpusē. Varat redzēt, ka ir uzskaitīts starpības elements. Starpība ir atšķirība starp prasmju kartēšanas līmeni un personas prasmju līmeni.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

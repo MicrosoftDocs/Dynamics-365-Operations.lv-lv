@@ -54,3 +54,6 @@ Ražošanas plānotājs aprēķina materiālu un noslodzes prasības noteikta kr
 2. Noklikšķiniet uz Apstiprināt.
 3. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

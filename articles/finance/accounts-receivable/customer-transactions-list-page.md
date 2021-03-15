@@ -96,3 +96,6 @@ Katra lauka izmaiņas citādi ietekmē transakciju.
 - **Rediģēt termiņatlaides nosacījumus** — termiņatlaides tiek mainītas atbilstoši bāzes datumam un termiņatlaides nosacījumiem.
 
 Kad maksājuma iestatījumu rediģēšana ir pabeigta, atlasiet **Aizvērt**, lai saglabātu izmaiņas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

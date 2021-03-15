@@ -82,3 +82,6 @@ Pogas darbības rūtī ir sakārtotas cilnēs. Nākamajā tabulā ir īsi apraks
 | Defekti                              | Atveriet lapu **Līdzekļu defekti**, kur varat skatīt to līdzekļu defektu reģistrāciju sarakstu, kas ir saistīti ar atlasīto funkcionālo novietojumu. |
 | Funkcionālo novietojumu stāvokļa atjaunināšana    | Atjauniniet atlasītā funkcionālā novietojuma stadiju.                                                                                        |
 | Dzīves cikla stāvokļa žurnāls                 | Skatiet žurnālu, kurā parādītas atlasītā funkcionālā novietojuma stadijas.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

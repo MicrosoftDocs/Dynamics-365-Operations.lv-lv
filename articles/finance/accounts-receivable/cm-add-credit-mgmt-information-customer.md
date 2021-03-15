@@ -101,3 +101,6 @@ Varat izveidot apdrošināšanas polises un garantijas visiem lapā **Visi debit
     Šādā gadījumā faktiskais kredīta limits ir 125 000 (= A + \[B × C\]).
     
     Tomēr, ja atzīmējat izvēles rūtiņu **Iekļauts pieejamībā**, vērtība **Atjaunināt kredīta limitu** 50 000 (= 50,00 procenti no 100 000) tiek noņemta, un pieejamības vērtība ir 75 000 (= A + \[B × C\] – B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

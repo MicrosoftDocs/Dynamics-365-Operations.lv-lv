@@ -53,3 +53,6 @@ Importa inkaso palīdz nodrošināt, ka pārdevējam tiek samaksāts, kad pircē
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

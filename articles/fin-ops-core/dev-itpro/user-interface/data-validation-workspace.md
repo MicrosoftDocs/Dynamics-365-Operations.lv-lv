@@ -56,3 +56,6 @@ Lai varētu lietot darbvietu **Datu validēšanas kontrolsaraksts**, vispirms ir
 Izmantojot uzdevumu jomas, varat grupēt datu validēšanas uzdevumus loģiskās jomās atbilstošo to piederībai organizācijā. Piemēram, Kreditori, Debitori vai Virsgrāmata var izmantot kā uzdevumu jomas.
 
 **Izvēlnes vienuma nosaukums** ir saistīts ar uzdevuma darbu, un to var lietot, lai tieši pārietu uz saistīto lapu, izmantojot darbvietā pieejamo uzdevuma saiti. Piemēram, moduļa Parādi kreditoriem pārskata **Kreditoru vecumstruktūras** izpildes datu validēšanas uzdevums var būt saistīts ar lapu **Kreditoru vecumstruktūras pārskats**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

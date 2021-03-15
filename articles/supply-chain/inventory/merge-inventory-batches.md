@@ -139,3 +139,6 @@ Partiju sapludināšanas krājumu žurnālu var apstiprināt saraksta lapā **Vi
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Kāpēc pēc krājuma ar pieļaujamo svaru sapludināšanas krājumu žurnālā netiek rādīta informāciju par pieļaujamo svaru?
 Krājumus ar pieļaujamo svaru var sapludināt līdzīgi kā citus krājumus. Tomēr informācija par pieļaujamo svaru krājumu žurnālā nav redzama. Informāciju par pieļaujamo svaru ieteicams pārbaudīt pirms ieraksta par partiju sapludināšanu pārsūtīšanas uz krājumu žurnālu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

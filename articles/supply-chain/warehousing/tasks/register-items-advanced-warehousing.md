@@ -75,3 +75,6 @@ Pierakstiet izveidotā pirkšanas pasūtījuma numuru, un atzīmējiet arī krā
     * Kad esat noklikšķinājis uz Labi, pārbaudiet ziņojumu joslu. Tajā vajadzētu būt ziņojumam par operācijas pabeigšanu.  
 5. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

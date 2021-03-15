@@ -86,3 +86,6 @@ Lai pievienotu akordeona moduli FAQ lapai un iestatītu tās rekvizītus vietņu
 [Cilnes modulis](add-tab.md)
 
 [Teksta bloka modulis](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Lai iegūtu detalizētu informāciju par to, kā konfigurēt kartes moduli lapā
 [Bing karšu pārvaldība organizācijā](./dev-itpro/manage-bing-maps.md)
 
 [Bing karšu V8 tīmekļa kontrole](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

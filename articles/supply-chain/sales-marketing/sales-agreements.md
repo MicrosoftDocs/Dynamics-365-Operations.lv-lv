@@ -112,3 +112,6 @@ Finanšu dimensijas varat kopēt pārdošanas līguma dokumentu galvenēs vai at
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

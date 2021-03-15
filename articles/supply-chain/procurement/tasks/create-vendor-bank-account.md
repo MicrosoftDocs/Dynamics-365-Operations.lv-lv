@@ -57,3 +57,6 @@ ms.locfileid: "5019257"
 25. Laukā **Bankas konts** atlasiet kontu, ko tikko izveidojāt.
 26. Noklikšķiniet uz **Saglabāt**. Šo adresi var pārmantot no banku grupas, ja tāda ir norādīta, vai šeit varat to pievienot.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

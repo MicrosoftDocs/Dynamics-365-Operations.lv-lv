@@ -67,3 +67,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
 11. Noklikšķiniet uz Labi.
 12. Noklikšķiniet uz Labi.
 13. Noklikšķiniet uz Izveidot maksājumus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Sistēma nosaka, kurš zars tiek izmantots, novērtējot iesniegto dokumentu, la
     2. Formas apgabalā **Pārbaudīt nosacījumu** atlasiet ierakstu.
     3. Noklikšķiniet uz **Tests**. Sistēma novērtē ierakstu, lai noteiktu, vai tas atbilst jūsu definētajiem nosacījumiem.
     4. Noklikšķiniet uz **Labi** vai **Atcelt**, lai atgrieztos formā **Rekvizīti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

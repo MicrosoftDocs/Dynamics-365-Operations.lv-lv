@@ -170,3 +170,6 @@ Pirms varēsiet iestatīt izdošanas rindas grupēšanu, ir jāizveido daži pie
 >   - Darba rindas, kurām ir nepabeigti papildināšanas darbi
 >   - Pārizidošana
 >   - Saīsināta izdošana ar krājuma atkārtotu sadali
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

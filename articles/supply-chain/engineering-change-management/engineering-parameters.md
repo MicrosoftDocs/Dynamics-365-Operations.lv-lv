@@ -56,3 +56,6 @@ Sekojošajā tabulā ir aprakstīti lauki, kas ir pieejami cilnē **Tehnisko izm
 | Nozīmīguma kārtula | Atlasiet, kā jānosaka tehnisko izmaiņu pasūtījuma stingrība. Atlasiet *Manuāli*, ja lietotājam ir paredzēts ievadīt vērtību laukā **Stingrība**. Atlasiet opciju *Aprēķināt*, lai sistēma aprēķinātu lauka **Stingrība** vērtību, kad atlasāt **Aprēķināt stingrību** tehnisko izmaiņu pasūtījuma darbības rūtī. Šādā gadījumā sistēma izmanto stingrības kārtulas, kas ir definētas lapā **Stingrības kārtulu kopa**. Atlasiet opciju *Aprēķināt automātiski*, lai lauka **Stingrība** vērtība tiktu automātiski aprēķināta un aizpildīta atbilstoši stingrības kārtulu kopām. |
 | Atkārtoti izlaist ietekmētās preces | Šis lauks ir piemērojams, atkārtoti izlaižot produktus, izmantojot tehnisko izmaiņu pasūtījumu. Varat izvēlēties, vai dialoglodziņā **Relīzes** ir jāpiedāvā visi produkti vai tikai ietekmētie produkti. |
 | Izlaižamie MK līmeņi | Izlaižamā MK līmeņa dziļums. Ja MK ir vairāk līmeņu (tas ir, ja tas ir dziļāks) nekā šeit norādītajai vērtībai, tiks izlaisti tikai līmeņi līdz norādītajai vērtībai. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

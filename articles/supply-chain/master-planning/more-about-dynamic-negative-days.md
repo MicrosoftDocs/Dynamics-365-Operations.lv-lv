@@ -250,3 +250,6 @@ Lai palīdzētu nodrošināt, ka jūsu uzņēmumam tiek ievadītas pareizas vēr
 ## <a name="see-also"></a>Skatiet arī
 
 Plašāku informāciju skatiet oriģinālajā emuāra ierakstā [Vairāk par (dinamiskajām) negatīvajām dienām](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

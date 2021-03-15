@@ -77,3 +77,6 @@ Lai pievienotu ātrā skata moduli preču kolekciju modulim programmā Commerce 
 [Preču kolekciju modulis](product-collection-module-overview.md)
 
 [Meklēšanas rezultātu modulis](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

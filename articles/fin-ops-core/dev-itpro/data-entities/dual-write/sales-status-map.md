@@ -150,3 +150,6 @@ Lai iespējotu **isIntegrationUser** atribūtu, veiciet tālāk norādītās dar
     ![Kolonna Integrēšanas lietotāja režīms vērtības maiņa](media/sales-map-user-mode-yes.png)
 
 Jūsu pārdošanas pasūtījumi tagad ir kartēti.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

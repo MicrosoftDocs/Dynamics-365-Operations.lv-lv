@@ -97,3 +97,6 @@ Varat definēt vairākas MK aprēķinu grupas, atkarībā no tā, kāda brīdin�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

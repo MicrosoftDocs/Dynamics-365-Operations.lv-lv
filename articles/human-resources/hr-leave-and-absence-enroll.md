@@ -60,3 +60,5 @@ Kad esat izveidojis atvaļinājumu un prombūtnes plānu programmā Dynamics 365
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
 - [Izveidot atvaļinājumu un prombūtnes plānu](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

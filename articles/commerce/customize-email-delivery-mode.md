@@ -71,3 +71,6 @@ Lai konfigurētu e-pasta veidnes noteiktiem piegādes veidiem programmā Commerc
 [Zvanu centra pasūtījumu izveide](tasks/create-call-center-orders.md)
 
 [Piegādes veida mainīšana programmā POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

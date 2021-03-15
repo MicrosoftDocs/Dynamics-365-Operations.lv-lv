@@ -41,3 +41,6 @@ Lai apstiprinātu vairākus maksājumu grafikus, veiciet tālāk norādītās da
     - Lai apstiprinātu visas grāmatas, ieslēdziet parametru **Visām grāmatām**.
 
 Informācija par nesen apstiprinātajām grāmatām tiek parādīta lapā **Apstiprinātās grāmatas**. Kad maksājumu grafiki ir apstiprināti, nomai var grāmatot sākotnējos atzīšanas žurnāla ierakstus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

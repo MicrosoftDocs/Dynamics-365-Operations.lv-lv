@@ -54,3 +54,6 @@ Ja vēlaties plānot un izpildīt uzturēšanas darbu darba pasūtījumā, ir j�
 
 > [!NOTE]
 > Parasti, strādājot programmā Dynamics 365 Supply Chain Management un modulī **Līdzekļu pārvaldība**, jūs atlasāt **Jauns**, lai izveidotu jaunu ierakstu, atlasāt **RediģētEdit**, lai atjauninātu esošu ierakstu, un atlasāt **Saglabāt**, lai saglabātu jaunus vai rediģētus datus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

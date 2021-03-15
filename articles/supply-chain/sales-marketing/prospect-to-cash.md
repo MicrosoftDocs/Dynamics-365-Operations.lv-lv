@@ -81,3 +81,6 @@ Lai lietotu risinājumu No potenciālā klienta līdz skaidrai naudai, ir jābū
 
 - Dynamics 365 Sales versija 1612 (8.2.1.207) (DB 8.2.1.207) tiešsaistes versija vai jaunāka versija.
 - Risinājums skaidrai naudai programmai Dynamics 365 Sales, versija 1.15.0.0 vai jaunāka. Risinājumu var lejupielādēt no pakalpojuma AppSource. [Lejupielādēt Dynamics 365, No potenciālā klienta līdz skaidrai naudai](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

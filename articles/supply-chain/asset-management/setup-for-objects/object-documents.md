@@ -49,3 +49,6 @@ Līdzekļu pārvaldībā varat iestatīt dokumentus tā, lai tie tiktu automāti
 
 4. Atlasiet **Pielikumi**. Tiek parādīta standarta lapa **Dokumentu apstrāde**.
 5. Iestatiet dokumentus vai piezīmes, kas jāpievieno līdzekļa dokumenta ierakstam. Pēc dokumentu pievienošanas lauks **Pielikumi** parāda ar ierakstu saistīto dokumentu skaitu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

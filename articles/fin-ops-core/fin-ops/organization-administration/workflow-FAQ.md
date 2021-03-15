@@ -59,3 +59,6 @@ Noklusējuma lauka vērtība **Darbplūsmas vienumu skaitam partijā** lapā **D
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Kas ir Darbplūsmas uzlabotās kļūdas līdzeklis?
 Darbplūsmas uzlabotās kļūdas līdzeklis versijā 10.0.13 pievieno kļūdu kodus, lai diferencētu dažādas darbplūsmas kļūdu klases. Paziņotie kļūdu ziņojumi lielākoties būs līdzīgi, bet ar nelielām atšķirībām, lai tos padarītu vieglāk saprotamus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

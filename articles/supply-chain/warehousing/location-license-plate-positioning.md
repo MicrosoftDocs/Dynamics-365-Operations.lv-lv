@@ -280,3 +280,6 @@ Tagad, kad ir iestatīts līdzeklis *Novietojuma noliktavas vienības pozīcija*
     ![1. pozīcijas novietojums](media/LocationLicensePlatePositioning.png "1. pozīcijas novietojums")
 
 1. Ievadiet novietojuma izveidoto noliktavas vienības ID un pēc tam sekojiet uzvednēm, lai izdotu pārdošanas pasūtījumu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Krājumu vajadzības pakalpojumu pasūtījumiem tiek apstrādātas ar projektu. 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

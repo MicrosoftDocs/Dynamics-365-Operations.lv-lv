@@ -43,3 +43,6 @@ Kad neatbilstība ir identificēta, var būt nepieciešams sazināties ar kredit
 Plašāku informāciju skatiet [Izpēte/izņēmumu novēršana](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

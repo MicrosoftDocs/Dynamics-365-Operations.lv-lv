@@ -148,3 +148,6 @@ Ar atskaites definīciju tiek saglabāti tikai noklusējuma bāzes perioda iesta
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošana](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Varat izmantot lapu **Detalizēta informācija par darbu**, lai skatītu izveido
 > Kad tiek parādīts dialoglodziņš **Mainīt darba pūlu**, lauks **Darba pūla ID** var būt tukšs pēc noklusējuma. Ja lauks ir tukšs, kad atlasāt **Labi**, lai piemērotu izmaiņas, darba pūls tiks pilnībā noņemts no darba.
 >
 > Papildus darba pūlu pārslēgšanai šo procedūru var izmantot, lai pievienotu darba pūlu jebkuram darba vienumam, kuram nav darba pūla, vai noņemtu darba pūlu no jebkura darba vienuma, kuram tāds ir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

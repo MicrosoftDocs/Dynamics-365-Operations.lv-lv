@@ -44,3 +44,6 @@ Nākamajā tabulā ir sniegtas saites uz informāciju par galvenajiem anketu uzd
 | [Anketas izstrāde](hr-learning-design-questionnaires.md) | Šajā rakstā ir sniegta informācija par to, kā veidot anketu. Izstrādāšanas process ietver priekšnosacījumu, atbilžu un jautājumu iestatīšanu, un tad to kombinēšanu vienā anketā. |
 | [Anketu izplatīšana un plānošana](hr-learning-distribute-questionnaires.md) | Šajā rakstā ir sniegta informācija par to, kā anketu izplatīt respondentiem un kā anketas aizpildīt. |
 | [Skatīt un novērtēt anketas rezultātus](hr-learning-evaluate-questionnaire-results.md) | Šajā raksta ir sniegta informācija par to, kā skatīt un novērtēt no aizpildītām anketām iegūtos rezultātus. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

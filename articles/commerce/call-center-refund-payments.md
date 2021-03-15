@@ -108,3 +108,6 @@ Vai arī organizācija var iestatīt opciju **Atļaut maksājuma ignorēšanu** 
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Maksāšanas metodes zvanu centros](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

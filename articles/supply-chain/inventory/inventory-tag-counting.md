@@ -35,3 +35,6 @@ Izveidojot rindas lapā **Etiķešu skaitīšana**, katrai krājuma vienībai ti
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Cikla inventarizācija](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

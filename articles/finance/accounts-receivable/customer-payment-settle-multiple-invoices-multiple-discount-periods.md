@@ -100,3 +100,6 @@ Arnijs apskata informāciju lapā **Debitoru darbības**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

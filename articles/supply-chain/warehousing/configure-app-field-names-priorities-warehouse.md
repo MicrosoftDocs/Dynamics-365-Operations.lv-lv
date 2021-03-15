@@ -143,3 +143,6 @@ Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet
 --------
 
 [Instalēt un konfigurēt noliktavas programmas pārskatu](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

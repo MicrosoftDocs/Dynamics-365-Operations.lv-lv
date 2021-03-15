@@ -51,3 +51,6 @@ Tāpat kā katram jaunam līdzeklim, klientiem ir jāņem vērā Laidiena plāns
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Kad tiks noteikts novecošanas datums, kur tas tiks paziņots?
 
 Viena dokumenta novecošana ir būtiska izmaiņa, par ko tiks plaši brīdināts. Tas tiks paziņots, izmantojot produkta dokumentāciju, emuāra ierakstu un paziņojumus attiecīgajās Microsoft konferencēs, krietni pirms datuma, kad novecošana stāsies spēkā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

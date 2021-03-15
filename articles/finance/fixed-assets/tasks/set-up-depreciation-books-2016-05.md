@@ -54,3 +54,6 @@ ms.locfileid: "5009222"
 6. Ievadiet skaitli laukā Lietošanas ilgums.
     * Ņemiet vērā, ka lauka Nolietojuma periodi vērtība tiek aprēķināta pēc vērtības Lietošanas ilgums iestatīšanas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

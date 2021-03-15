@@ -113,3 +113,6 @@ Ieteicams nepalaist šos pakešuzdevumus pārāk bieži (ik pēc dažām minūt�
 > Veiktspējas apsvērumu dēļ, kad kanāla puses krājumu pieejamības aprēķini tiek izmantoti, lai veiktu krājumu pieejamības pieprasījumu, izmantojot e-komercijas API vai jauno POS kanāla puses krājumu loģiku, aprēķins izmanto kešatmiņu, lai noteiktu, vai ir pagājis pietiekami daudz laika, lai attaisnotu aprēķina loģikas atkārtotu palaišanu. Noklusējuma kešdarbe ir iestatīta uz 60 sekundēm. Piemēram, jūs ieslēdzāt sava veikala kanāla puses aprēķinu un apskatījāt rīcībā esošos krājumus, kas paredzēti precei lapā **Krājumu uzmeklēšana**. Ja pēc tam tiek pārdota viena preces vienība, **Krājumu uzmeklēšanas** lapa nerāda samazinātos krājumus, līdz kešatmiņa nav notīrīta. Pēc tam, kad lietotāji grāmato darījumus POS, tiem ir jāgaida 60 sekundes, pirms tie pārbauda, vai rīcībā esošie krājumi ir samazināti.
 
 Ja jūsu biznesa scenārijs prasa mazāku kešatmiņas laiku, sazinieties ar savu preču atbalsta pārstāvi, lai saņemtu palīdzību.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

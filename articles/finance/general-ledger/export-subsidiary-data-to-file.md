@@ -70,3 +70,6 @@ Jūs izmantojat lapu **Eksportēt** (**Sistēmas administrēšana \> Darbvietas 
 5. Atlasiet **Labi**, lai palaistu eksportu.
 
 Kad eksports ir pabeigts, parādās ziņojums, kas uzskaita ierakstu daudzumu, kas tikuši saglabāti katrā failā. Pēc tam failus varat importēt konsolidētajā juridiskajā personā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

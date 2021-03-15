@@ -86,3 +86,6 @@ ms.locfileid: "4984794"
 4. Darbību rūtī noklikšķiniet uz Rēķins.
 5. Noklikšķiniet uz Skatīt izsniegtos ierakstu sertifikātus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

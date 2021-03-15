@@ -79,3 +79,6 @@ Ja šī informācija nav norādīta pareizi, jūs saņemat ziņojumu, kad ģener
 3. Laukā **Pasūtījuma veids** atlasiet **Plānots un apstiprināts**, **Plānots** vai **Apstiprināts**, lai norādītu pasūtījumu veidu, kurus projektēt pārskatā.
 4. Laukā **Noslodzes veids** atlasiet noslodzes veidu, lai norādītu, vai darba noslodzi ir nepieciešams projektēt tilpumam vai svaram.
 5. Laukā **Darba noslodze** atlasiet darba noslodzes iestatījumu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

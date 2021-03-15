@@ -75,3 +75,6 @@ Tālāk norādītajā attēlā katru mēnesi tiek reģistrēti 2000 km. Tāpēc
 
 ![4. attēls](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

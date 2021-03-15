@@ -300,3 +300,6 @@ Skaidrais **izmaksu sadalījuma** un **izmaksu apkopošanas politiku** nošķīr
 -  [Izmaksu elementu dimensijas](cost-elements.md)
 -  [Dimensiju hierarhija](dimension-hierarchy.md)
 -  [Pieskaitāmo izmaksu aprēķināšana](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

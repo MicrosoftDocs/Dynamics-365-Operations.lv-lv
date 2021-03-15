@@ -58,3 +58,6 @@ Vērtējumu un apskatu risinājums nodrošina arī biznesa informācijas (BI) ve
 [Vērtējumu un atsauksmju konfigurēšana](configure-ratings-reviews.md)
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

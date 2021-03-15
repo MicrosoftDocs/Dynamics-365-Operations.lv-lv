@@ -37,3 +37,6 @@ ms.locfileid: "5002027"
 6. Laukā No datuma iestatiet datumu “01.12.2012”.
 7. Laukā Līdz datumam iestatiet datumu “31.12.2012”.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

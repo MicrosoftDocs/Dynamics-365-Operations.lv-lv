@@ -666,3 +666,6 @@ Pabeidziet kārtoto krājumu izdošanas darbu. Kad tas ir pabeigts, krājumi tik
     Darbs ir pabeigts.
 
 No šī brīža tiek lietoti visi pārējie noliktavas procesi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

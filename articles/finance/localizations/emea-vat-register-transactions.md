@@ -33,3 +33,6 @@ Juridiskām personām, kuru primārā adrese ir Igaunijā, Lietuvā, Čehijā, U
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

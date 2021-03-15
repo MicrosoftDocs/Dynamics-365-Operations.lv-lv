@@ -88,3 +88,6 @@ Lai pievienotos lojalitātes programmai, mārketinga lapu var izveidot, izmantoj
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

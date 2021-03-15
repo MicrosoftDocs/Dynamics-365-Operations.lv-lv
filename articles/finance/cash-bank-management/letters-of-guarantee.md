@@ -64,3 +64,6 @@ Lai iegūtu papildu informāciju, skatiet šādas tēmas:
 [Bankas iestāžu iestatīšana un garantijas vēstuļu grāmatošanas profili](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

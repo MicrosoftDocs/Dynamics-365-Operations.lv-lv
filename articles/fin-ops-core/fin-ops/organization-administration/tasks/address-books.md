@@ -41,3 +41,6 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu,
 7. Noklikšķiniet uz bultiņas, lai pievienotu atlasītās pieejamās grupas adrešu grāmatai.
 8. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

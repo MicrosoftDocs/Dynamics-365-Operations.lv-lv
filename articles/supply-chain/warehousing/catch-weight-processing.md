@@ -209,3 +209,6 @@ Papildu ierobežojumiem, kas pašlaik attiecas uz pieļaujamā svara precēm, pi
 
 > [!NOTE]
 > Iepriekš sniegtā informācija par pieļaujamā svara etiķetēm ir derīga tikai tad, ja pieļaujamā svara precei ir pieļaujamā svara etiķetes dimensiju izsekošanas metode, kas ir pilnībā izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara preces apstrādes politikā ir iestatīts uz **Preces dimensijas, izsekošanas dimensijas un visas noliktavas dimensijas**). Ja pieļaujamā svara vienība ir tikai daļēji izsekota (tas ir, ja parametrs **Pieļaujamā svara etiķetes dimensiju izsekošanas metode** pieļaujamā svara vienuma apstrādes politikā iestatīts uz **Preces dimensijas, izsekošanas dimensijas un krājumu statusu**), ir spēkā papildu ierobežojumi. Tāpēc, ka redzamība šajā gadījumā tiek zaudēta starp etiķeti un noliktavu, daži papildu scenāriji netiek atbalstīti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

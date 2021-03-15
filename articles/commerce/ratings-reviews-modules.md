@@ -99,3 +99,6 @@ Preces atsauksmju saraksta modulī ir ietverts slots, kur varat pievienot vērt�
 [Galvenes modulis](author-header-module.md)
 
 [Kājenes modulis](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ PVN tiek aprēķināts un iegrāmatots galvenajos kontos, kas ir norādīti Virs
 11. Laukā **Klienta pieteikuma atlaide** atlasiet galveno kontu, lai grāmatotu skaidras naudas atlaidi **PVN kodiem**, kas saistīti ar šīs **Virsgrāmatas grāmatošanas grupu**. Šī ir izvēles opcija, un, ja netiek ievadīts neviens konts, opcijai **Skaidras naudas atlaižu kodi** tiks izmantots galvenais konts. Var būt noderīgi katrai **Virsgrāmatas grāmatošanas grupai** izmantot citu kontu, ja tiek izmantots apgrieztais PVN skaidras naudas atlaides opcijai **PVN grupās**.  
 12. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

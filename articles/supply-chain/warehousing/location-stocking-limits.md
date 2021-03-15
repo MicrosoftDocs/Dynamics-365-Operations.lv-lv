@@ -103,3 +103,6 @@ Lai izskaidrotu šo acīmredzamo kļūmi, ir jāsaprot atrašanās vietas uzkrā
 
 > [!NOTE]
 > Nevar izmantot novietojuma dimensijas ierobežojumus, lai kontrolētu, piemēram, to krājumu papildināšanu, kuriem ir dažādi daudzumi vienā un tajā pašā vietā. Šādā gadījumā izmantojiet *papildināšanas veidni*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

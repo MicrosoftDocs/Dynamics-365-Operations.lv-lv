@@ -51,3 +51,6 @@ ms.locfileid: "4978607"
 21. Laukā **Valūtas pārrēķināšanas tips** atlasiet maiņas kursu aprēķināšanas metodi kontam.
 22. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

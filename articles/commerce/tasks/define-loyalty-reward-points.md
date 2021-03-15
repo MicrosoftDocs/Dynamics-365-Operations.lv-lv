@@ -45,3 +45,6 @@ ms.locfileid: "5000488"
 10. Laukā Termiņa beigu laika vienība atlasiet opciju.
 11. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

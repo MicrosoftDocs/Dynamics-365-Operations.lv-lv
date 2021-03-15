@@ -166,3 +166,6 @@ Kreditoru atlaižu apstrādes process ietver vairākus manuālus izsekošanas uz
 - Uzkrāto atlaižu prasību ģenerēšana
 - Prognozēto saņemamās un pagaidu peļņas uzkrāšana virsgrāmatā
 - Kreditora bilances un peļņas un zaudējumu pārskata atjaunināšana ar izpildāmajiem atvieglojumiem
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

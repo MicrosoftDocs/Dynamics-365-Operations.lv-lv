@@ -71,3 +71,6 @@ Krājumu uzskaites var būt plānotas vai neplānotas. Plānotais krājumu skait
 ## <a name="inventory-lookup"></a>Krājumu pārlūkošana
 
 Pašreizējo rīcībā esošo preču daudzumu vairākiem veikaliem un noliktavām var skatīt lapā **Krājumu pārlūkošana**. Papildus pašreizējam rīcībā esošajam daudzumam katram atsevišķajam veikalam var skatīt arī turpmākos solīšanai pieejamos (ATP) daudzumus. Atlasiet veikalu, kam vēlaties skatīt ATP krājumus, un pēc tam atlasiet **Rādīt veikalu pieejamību**. Papildinformāciju par pieejamām konfigurācijas opcijām, skatiet sadaļā [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

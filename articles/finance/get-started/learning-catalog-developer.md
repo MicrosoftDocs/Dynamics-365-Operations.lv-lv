@@ -93,3 +93,6 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | Saturs | apraksts  | Formāts  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Eksāmens MB-500: Microsoft Dynamics 365: Finance and Operations programmu izstrādātājs](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Šis eksāmens novērtē jūsu spēju veikt šādus tehniskos uzdevumus: plānot arhitektūras un risinājuma dizainu, izmantot izstrādātāja rīkus, izveidot un izstrādāt AOT elementus, izstrādāt un pārbaudīt kodu, ieviest pārskatu, integrēt un pārvaldīt datu risinājumus, ieviest drošību un optimizēt veiktspēju. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

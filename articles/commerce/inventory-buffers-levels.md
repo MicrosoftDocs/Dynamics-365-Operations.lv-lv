@@ -148,3 +148,6 @@ Lai konfigurētu preces pieejamības API atbildi, veiciet tālāk norādītās d
 [Krājumu iestatījumu lietošana](inventory-settings.md)
 
 [Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

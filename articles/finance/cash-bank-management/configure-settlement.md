@@ -66,3 +66,6 @@ Lai izvairītos no papildu uzskaites ierakstiem, debetu un kredītu tajā pašā
 
 -   Bieži vien organizācijas izmanto fiksētas dimensijas, lai nullētu finanšu dimensiju, kas nav nepieciešama. Parasti tas attiecas uz bilances kontiem, piemēram, debitoru parādiem/parādiem kreditoriem. Kontu struktūras var izmantot, lai neizsekotu finanšu dimensijas, kas parasti tiek nullētas.  Varat noņemt finanšu dimensiju bilances kontiem, likvidējot nepieciešamību izmantot fiksētas dimensijas.
 -   Ja jūsu organizācijai ir nepieciešamas fiksētas dimensijas debitoru parādu/parādu kreditoriem galvenajā kontā, atrodiet veidu, kā fiksētās dimensijas pēc noklusējuma lietot maksājumam, lai fiksētās dimensijas vērtība tiktu glabāta kreditora transakcijā šim maksājumam. Tādējādi sistēma var rekonstruēt debitoru parādu/parādu kreditoriem galveno kontu, lai ietvertu fiksētās dimensijas vērtības. Fiksētās dimensijas vērtību var definēt kā noklusējuma vērtību kreditoriem vai žurnāla nosaukumam maksājumu žurnālā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Papildinformāciju skatiet tālāk norādītajās tēmās.
 [Bankas iestādes līguma izveide akreditīvam](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

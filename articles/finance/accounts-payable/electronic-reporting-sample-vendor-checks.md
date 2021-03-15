@@ -43,3 +43,6 @@ Programmā Microsoft Dynamics 365 Finance ir ietverts formāta paraugs, kurā č
 - Kad maksājumu žurnālā ģenerējat konfigurētā bankas konta maksājumus, tiek drukāti norādītā formāta čeki.
 
 Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas formāta mainīšana](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Detalizētas informācijas skatā varat atjaunināt dažādu informāciju. Daži
 
 > [!NOTE]
 > Ja atlasāt līdzekli, veidojot uzturēšanas pieprasījumu, varat līdzeklim pievienot vienu kļūmi. Pēc uzturēšanas pieprasījuma izveides varat pievienot vairāk kļūmju — kā nepieciešams. Lai pievienotu kļūmes, atlasiet **Līdzekļa kļūme** lapā **Visi uzturēšanas pieprasījumi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

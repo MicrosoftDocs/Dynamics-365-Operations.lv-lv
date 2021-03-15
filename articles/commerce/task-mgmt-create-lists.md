@@ -92,3 +92,6 @@ Lai konfigurētu POS operāciju, lai to varētu saistīt ar uzdevumu, veiciet š
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

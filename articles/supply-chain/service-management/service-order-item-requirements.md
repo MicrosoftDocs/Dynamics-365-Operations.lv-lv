@@ -69,3 +69,6 @@ Ja elementa prasības ir izveidotas pakalpojuma pasūtījumā, nebūs iespējams
 
 [Krājumu vajadzības (forma)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

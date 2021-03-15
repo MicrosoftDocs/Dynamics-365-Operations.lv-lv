@@ -86,3 +86,6 @@ Lai izmantotu integrēto [Microsoft Accessibility Insights](https://accessibilit
 [Kategorijas ielādes lapas papildināšana](enrich-category-page.md)
 
 [Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

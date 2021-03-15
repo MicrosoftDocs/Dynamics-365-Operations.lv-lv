@@ -75,3 +75,6 @@ Iepriekšējā piemērā darbību meklēšana parādīja rezultātus no standart
 ## <a name="action-search-vs-navigation-search"></a>Darbību meklēšana un Navigācijas meklēšana
 
 Tā kā darbību meklēšana ir paredzēta darbību atrašanai un palaišanai noteiktā lapā, pastāv atsevišķa meklēšanas metode, kas ir paredzēta lapu atrašanai un pāriešanai uz tām. Plašāku informāciju skatiet rakstā [Navigācijas meklēšana](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

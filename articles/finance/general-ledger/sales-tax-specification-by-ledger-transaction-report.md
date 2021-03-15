@@ -57,3 +57,6 @@ Veidojot pārskatu, ie pieejami tālāk norādītie noklusējuma lauki. Izmantoj
 Lai pārskatā rādītu tikai ar nodokļiem neapliekamos kontus, iestatiet filtra nosacījumu, piemēram, zvaigznīti (\*), kā parādīts sekojošajā ilustrācijā.
 
 ![Pārskats, kas parāda ar nodokļiem neapliekamos kontus](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

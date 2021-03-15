@@ -276,3 +276,6 @@ Katras valsts PVN deklarācijai ir jāatbilst attiecīgās valsts likumdošanas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

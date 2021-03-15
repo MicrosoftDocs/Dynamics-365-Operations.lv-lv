@@ -56,3 +56,6 @@ Varat arī iestatīt iemesla kodu, lai palīdzētu paskaidrot preces atgriešana
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

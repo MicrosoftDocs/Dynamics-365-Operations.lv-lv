@@ -84,3 +84,6 @@ ms.locfileid: "4961376"
 5. Lauka **Inventarizācijas grupa** nolaižamajā izvēlnē atlasiet inventarizācijas grupu. Varat atlasīt noteiktu inventarizācijas grupu, kas piemērojama vienumam noteiktajā jūsu atlasītajā noliktavā. Kad šajā noliktavā tiek veikta inventarizācija, šī inventarizācijas politika konkrētajam krājumam ignorē vispārējo inventarizācijas politiku.  
 6. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

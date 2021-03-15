@@ -241,3 +241,6 @@ Jūsu formātam vispirms jābūt pieejamam ER konfigurācijās. Ja šis priekšn
 [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 
 [Konfigurēt no darbības atkarīgus ER adresātus](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Ja izmantojat divas valūtas vai izmantojat vienu valūtu, bet darījumi tiek gr
 Realizētā peļņa un zaudējumi ir peļņa un zaudējumi, kas gūti no pabeigtiem darījumiem. Tie tiek ierakstīti peļņas un zaudējumu aprēķinā. Nerealizētā peļņa un zaudējumi ir peļņa un zaudējumi, kas ir radušies, bet darījums nav pabeigts. Citiem vārdiem, esat, piemēram, grāmatojis rēķinu, bet tas vēl nav nosegts un apmaksāts. Nerealizētā peļņa un zaudējumi tiek ierakstīti bilancē.
 
 Lai iegūtu vairāk informācijas par to, kā izmantot divas valūtas, skatiet [Divas valūtas](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Sekojiet šīm darbībām, lai iestatītu duālās rakstīšanas savienojumu.
 > [!NOTE]
 > Jūs nevarat atsaistīt vides, izmantojot portālu LCS. Lai noņemtu saiti videi, atveriet **Datu integrācijas** darbvietu Finance and Operations vidē un pēc tam atlasiet **Noņemt saiti**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

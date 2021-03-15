@@ -52,3 +52,6 @@ ms.locfileid: "5012345"
 19. Noklikšķiniet uz Izveidot pasūtījumu.
 20. Noklikšķiniet uz Jā.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4968407"
 9. Laukā Sākotnējais fokuss atlasiet dimensiju, uz kuru būs vērsts fokuss, kad tiek izmantots šis aizstājvārds.
     * Kad ievadīsiet saīsni un konts un dimensijas tiks aizpildītas, lauks Sākotnējais fokuss ir lauks, kur tiks pārvietots kursors vai fokuss.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Kad pabeidzat iepriekš šajā tēmā aprakstītos soļus sadaļā [Noklusējuma
 2. Laukā **Atsauču tabula** atlasiet datu bāzes tabulu, no kuras pievienot parametru datu aprakstam.
 3. Laukā **Atsauču lauks** atlasiet datu bāzes lauku, no kuras pievienot parametru datu aprakstam.
 4. Atkārtojiet 1. līdz 3. soli, lai pievienotu vairāk parametru.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

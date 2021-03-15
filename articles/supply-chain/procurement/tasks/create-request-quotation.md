@@ -80,3 +80,6 @@ Kad esat norādījis pamatinformāciju par savu PP, ir jānorāda preces vai pak
 4. Aizvērt lapu.
 5. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

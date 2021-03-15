@@ -146,3 +146,6 @@ Ir pieejama šāda informācija: kreditora nosaukums, adreses, kontaktinformāci
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pārvaldīt kreditoru sadarbības lietotājus](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

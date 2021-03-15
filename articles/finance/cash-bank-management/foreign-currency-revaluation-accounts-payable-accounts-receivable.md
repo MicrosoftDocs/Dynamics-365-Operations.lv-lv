@@ -65,3 +65,6 @@ Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

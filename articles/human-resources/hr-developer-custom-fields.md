@@ -40,3 +40,5 @@ Noteikti iespējojiet visus pielāgotos laukus, ko izveidojat, lai tos varētu i
 [Dataverse tabulas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Pielāgotu lauku izveide un darbs ar tiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Pielāgoto lauku sniegšana datu elementos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

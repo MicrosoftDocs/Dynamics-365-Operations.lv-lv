@@ -235,3 +235,6 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
 - [Sākt ar elektronisko rēķinu pievienojumu Meksikai](e-invoicing-mex-get-started.md)
 - [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai](e-invoicing-ita-get-started.md)
 - [Klientu elektroniskie rēķini Ēģiptē](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

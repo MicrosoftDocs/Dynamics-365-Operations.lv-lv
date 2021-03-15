@@ -78,3 +78,6 @@ Lai izpildītu šo procedūru, jums ir jāizpilda iepriekšējie 4 ceļveži ša
 5. Noklikšķiniet uz OK.
 6. Noklikšķiniet uz Aktivizēt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

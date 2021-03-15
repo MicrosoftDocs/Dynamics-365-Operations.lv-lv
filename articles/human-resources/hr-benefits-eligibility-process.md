@@ -54,3 +54,6 @@ ms.locfileid: "5113346"
 25. Atveriet kolonnas filtru Statuss.
 26. Kārtot no A uz Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

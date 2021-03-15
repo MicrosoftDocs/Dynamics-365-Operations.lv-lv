@@ -53,3 +53,6 @@ Lai iestatītu jūsu panākumu rādītājus, rīkojieties šādi.
 
 ## <a name="next-step"></a>Nākamā darbība
 [Eksperimenta pievienošana un rediģēšana](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

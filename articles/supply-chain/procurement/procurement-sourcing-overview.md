@@ -92,3 +92,6 @@ Rēķinos iekļautie pirkšanas pasūtījumi tiek reģistrēti kā kreditori kre
 ## <a name="vendor-performance"></a>Kreditora veiktspēja
 
 Pirkšanas veiktspēja un pārskatīšana tiek atbalstīta, izmantojot *sagādes un kreditoru pārskatus*, kuri ietver tēriņu analīzi un kreditora veiktspējas analīzi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

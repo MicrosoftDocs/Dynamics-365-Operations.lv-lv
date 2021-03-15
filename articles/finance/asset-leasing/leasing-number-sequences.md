@@ -36,3 +36,6 @@ ms.locfileid: "5128959"
 4. Atlasiet numuru sēriju **nomas ID** atsaucei. Šī numuru sērija tiek izmantota, lai ģenerētu katras nomas unikālo identifikatoru.
 5. Atlasiet numuru sēriju **procesa ID** atsaucei. Šī numuru sērija tiek izmantota, lai ģenerētu katras indeksa pārvērtēšanas procesa unikālo identifikatoru.
 6. Atlasiet numuru sēriju **Izbeigšanas priekšlikuma ID** atsaucei. Šī numuru sērija tiek izmantota, lai ģenerētu katra izbeigšanas priekšlikuma unikālo identifikatoru.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "5007570"
 3. Laukā **Izsekošanas dimensiju grupa** ievadiet vai atlasiet kādu vērtību. Izsekošanas dimensijas grupa nosaka, kuras izsekošanas dimensijas ir jāievada katrai transakcijai attiecīgajai precei un kā tā tiks apstrādāta krājumos.  
 4. Atlasiet **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Lai pievienotu biznesa partnerus un lietotājus Commerce Headquarters, veiciet t
 [Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēs](quantity-limits.md)
 
 [Pārskats par numuru sērijām](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

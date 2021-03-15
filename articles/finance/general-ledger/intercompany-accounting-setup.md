@@ -49,3 +49,6 @@ Lapā **Starpuzņēmumu uzskaite** var viegli iestatīt savstarpējās attiecīb
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

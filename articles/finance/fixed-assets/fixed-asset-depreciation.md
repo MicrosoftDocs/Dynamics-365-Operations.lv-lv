@@ -56,3 +56,6 @@ Papildinformāciju skatiet rakstā [Nolietojuma metodes un konvencijas](deprecia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

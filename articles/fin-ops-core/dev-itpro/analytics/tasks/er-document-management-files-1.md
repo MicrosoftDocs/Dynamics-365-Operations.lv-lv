@@ -74,3 +74,6 @@ Tiks izveidota sava debitoru rēķina modeļa konfigurācija, iegūstot to no ko
 3. Laukā Nosaukums ierakstiet 'Customer invoice model (custom)'.
 4. Klikšķiniet Izveidot konfigurāciju.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

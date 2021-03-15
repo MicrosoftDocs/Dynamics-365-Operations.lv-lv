@@ -147,3 +147,6 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati.
     * Pārbaudiet grāmatotos žurnāla ierakstus.  
 16. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

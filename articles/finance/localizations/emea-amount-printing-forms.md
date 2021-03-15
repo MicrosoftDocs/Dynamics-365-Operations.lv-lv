@@ -53,3 +53,6 @@ Lai kādai valodai iestatītu valūtas vienību un apakšvienību pilnos un īso
 
 5. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Viens veids, kā veikt manuālu atbilstības šajā piemērā ir turpināt šād
 1. Saskaņot Inv1 un Inv 2 ar FB vienu pēc otra. FB ir pilnībā saskaņots.
 
 Kā redzams šajā piemērā, atbilstošie kravas rēķini ar negatīvām summām ir jāveic tikai manuāli. Tas nodrošina, ka vienmēr ir iespējams saskaņot kravas pavadzīmes ar negatīvām summām un kravas pavadzīmi, kas nav pilnībā saskaņotas, jo tādējādi var kontrolēt atbilstošo secību.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

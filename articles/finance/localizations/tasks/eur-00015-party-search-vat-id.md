@@ -41,3 +41,6 @@ ms.locfileid: "4984844"
 7. Noklikšķiniet uz Meklēt.
     * Tiks parādītas visas puses ar šo reģistrācijas ID.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

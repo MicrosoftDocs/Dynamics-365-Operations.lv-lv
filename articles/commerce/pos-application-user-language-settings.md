@@ -64,3 +64,6 @@ POS lietotāja valodas iestatījums tiek iestatīts, lapas **Darbinieks** sadaļ
 | **Uzņēmums** | Noklusējums                    | Noklusējums                                                       |
 | **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                             |
 | **Lietotājs**    | Ignorē veikalu vai uzņēmumu | Nekad                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

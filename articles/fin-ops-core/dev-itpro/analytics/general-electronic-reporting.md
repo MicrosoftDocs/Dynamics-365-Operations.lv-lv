@@ -298,3 +298,6 @@ ER konfigurāciju saraksts programmai Finance tiek pastāvīgi atjaunināts. Atv
 
 - [Elektronisko pārskatu veidošanas (ER) konfigurāciju izveide](electronic-reporting-configuration.md)
 - [Elektronisko pārskatu veidošanas (ER) konfigurāciju dzīves cikla pārvaldība](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

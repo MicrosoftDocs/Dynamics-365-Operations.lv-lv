@@ -79,3 +79,6 @@ Apstiprināšanas darbību varat piešķirt šādām dalībnieku grupām.
 - [Biznesa procesu darbplūsmu definēšana pirkšanas pieprasījumiem](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Pirkšanas pieprasījuma darbplūsma](purchase-requisitions-workflow.md)
 - [Kreditoru pievienošana](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

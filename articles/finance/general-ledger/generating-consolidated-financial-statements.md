@@ -223,3 +223,6 @@ Lai iegūtu pareizi pārrēķinātas summas, kad tiek izmantotas valūtas, finan
 Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
 
 Lai iegūtu plašāku informāciju par to, kā ievadīt konsolidācijas tiešsaistē datus, skatiet sadaļu [Finanšu konsolidēšana tiešsaistē](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

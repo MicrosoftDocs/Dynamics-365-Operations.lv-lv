@@ -39,3 +39,6 @@ Izdošanas darbs ir bloķēts atkarīgā papildināšanas darba dēļ.
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Kad izmantojat kopuma pieprasījuma papildināšanu, ja izdošanas vieta ir jāpapildina, lai izpildītu avota pasūtījuma pieprasījumu, sistēma izveido gan papildināšanas darbu, gan izdošanas darbu. Tomēr tas bloķē izdošanas darbu, līdz papildināšanas darbs ir pabeigts. Šī darbība ir tīša, jo izdošanas vietai nav pietiekami daudz krājumu, ja vien papildināšanas darbs nav pabeigts. Pabeidziet papildināšanas darbu un pēc tam apstrādājiet izdošanas darbu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

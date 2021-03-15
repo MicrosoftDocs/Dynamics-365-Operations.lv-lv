@@ -56,3 +56,6 @@ Apstiprinot pārdošanas piedāvājumu, iegūtie pārdošanas pasūtījumi uzrad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

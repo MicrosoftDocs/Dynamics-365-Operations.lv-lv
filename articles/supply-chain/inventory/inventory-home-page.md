@@ -57,3 +57,6 @@ Viedokļi, jaunumi un cita informācija par moduli Krājumu vadība un citiem ri
 
 ### <a name="task-guides"></a>Uzdevumu ceļveži
 Papildu palīdzība ir pieejama uzdevumu ceļvežu formā. Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas **Palīdzība**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

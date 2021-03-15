@@ -48,3 +48,6 @@ Varat izveidot ikmēneša rēķinus atsevišķām nomām, vai arī varat izmanto
 6. Kad darījums ir iegrāmatots, varat skatīt informāciju par darījumu un nomas saistību uzskaites vērtību, nomas grāmatā atlasot **Saistību darījumi**.
 
     Maksājumu grafikā būs atlasīta izvēles rūtiņa **Žurnāls grāmatots**, un rindā tiks parādīts rēķinu žurnāla numurs. Pēc tam, kad ir izveidots maksājumu žurnāls un ieraksts šim žurnālam, ieraksts ir jāanulē, pirms to var izveidot atkārtoti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

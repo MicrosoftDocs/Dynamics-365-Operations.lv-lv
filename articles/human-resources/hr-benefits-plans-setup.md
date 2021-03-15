@@ -159,3 +159,6 @@ Varat norādīt plāna aprakstu, lai palīdzētu darbiniekiem izvēlēties atvie
 1. Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Plāni** atlasiet **Atvieglojumu plāni**.
 
 2. Atlasiet **Brīvā režīma kredīta programmas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

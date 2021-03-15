@@ -93,3 +93,6 @@ Jūs nevarēsit apstrādāt vai pabeigt budžetus konsolidētā uzņēmumā. Iet
 Plašāku informāciju skatiet rakstā [Valūtas pārvērtēšana konsolidācijas uzņēmumā](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

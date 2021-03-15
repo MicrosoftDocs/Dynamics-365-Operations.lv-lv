@@ -83,3 +83,6 @@ Lai piešķirtu kontus nomas grāmatām un grupām, kas ir izveidotas, ir jākon
     > [!NOTE]
     > Atlasītais finanšu vai operatīvais konts tiks debetēts, kad tiek iegrāmatots plānotais izdevumu rēķins.
     > **Nomas izdevumu nobīde** tiks izmantota kā izpildes izmaksu darījumu grāmatošanas tips, bet grāmatojiet noteiktā **korespondējošā kontā** **Izpildes izmaksu maksājumu grafika rindās** nomas informācijā vai nomas grāmatas veidlapā.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

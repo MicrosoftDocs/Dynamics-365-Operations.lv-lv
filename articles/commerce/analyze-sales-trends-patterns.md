@@ -42,3 +42,6 @@ Lietotāji arī var izpētīt pārdošanas tendences un modeļus pa stundām da�
 - Darbvieta **Veikala pārvaldīt** &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikala pārvaldība** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundai**
 - Darbvieta **Veikala finanses** &gt; **Mazumtirdzniecība un komercija** &gt; **Kanāli** &gt; **Veikala finanses** &gt; **Pārskati** &gt; **Kanāla pārdošanas pārskats pa stundai**
 - Sadaļa **Pieprasījumi un pārskati** &gt; **Mazumtirdzniecība un komercija** &gt; **Pieprasījumi un pārskati** &gt; **Pārdošanas pārskati** &gt; **Kanāla pārdošanas pārskats pa stundai**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

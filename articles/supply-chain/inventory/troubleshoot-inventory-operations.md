@@ -157,3 +157,6 @@ Mēģinot grāmatot krājumu darbību vai krājumu rezervēšanu, tiek saņemts 
 
 > [!IMPORTANT]
 > Ir stingri ieteicams rūpīgi rediģēt skriptu, kā tas nepieciešams jūsu videi, pārbaudīt to pārbaudes vidē un pēc tam pārbaudīt iegūtos datus pirms skripta palaišanas ražošanas vidē.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

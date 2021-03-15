@@ -47,3 +47,6 @@ ms.locfileid: "4967009"
 17. Daudzuma laukā iestatiet vērtību 1000.
 18. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

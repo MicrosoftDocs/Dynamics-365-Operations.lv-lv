@@ -42,3 +42,6 @@ Ja kravā ir vairāki sūtījumi, varat ģenerēt apvienotu preču transporta pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Varat definēt standarta debeta maksājumu kontu katrai maksājumu metodei neatk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

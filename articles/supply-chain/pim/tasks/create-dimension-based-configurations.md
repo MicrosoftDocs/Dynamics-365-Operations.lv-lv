@@ -52,3 +52,6 @@ ms.locfileid: "5011276"
     * Ievadiet konfigurācijas aprakstu, lai paskaidrotu, ko tā satur.  
 11. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

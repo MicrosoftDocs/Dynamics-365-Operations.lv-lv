@@ -45,3 +45,6 @@ Vairāki konfigurācijas iestatījumi ietekmē Līdzekļu nomas darbību. Šie i
 
     > [!NOTE]
     > Ieteicams saglabāt šo opciju iestatītu uz **Nē**. Šīs opcijas iestatījums tiek izmantots kā validācija un kontrole, lai novērstu, ka slēgtas grāmatas versijā nolietojums tiek piemērots nejauši. Saglabājot opciju iestatītu uz **Nē**, varat nodrošināt precīzu atlikušo vērtību un nākotnes nolietojuma aprēķinus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

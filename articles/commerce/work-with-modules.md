@@ -172,3 +172,6 @@ Lai konfigurētu konteinera moduli lapā, rīkojieties, kā norādīts tālāk.
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Izmantojot pārskatu **Noviržu analīzes izraksts**, var analizēt pārvērtē�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Lai piekristu savā vietnē izmantot vērtējumus un apskatus, veiciet tālāk m
 [Preču vērtējumu sinhronizācija Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

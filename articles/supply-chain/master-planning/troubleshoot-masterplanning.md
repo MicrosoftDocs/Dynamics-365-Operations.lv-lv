@@ -88,3 +88,6 @@ Viens no veidiem, kā uzlabot veiktspēju ar iebūvēto vispārējās plānošan
 
 > [!NOTE]
 > Tas ierobežos šim vispārējam plānam veikto sprādzienu periodu uz vienu dienu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Jā, lietotājam ir jāievada sērijas numurs mazumtirdzniecības pārdošanas p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

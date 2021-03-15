@@ -49,3 +49,6 @@ Izmantojiet datu elementus, lai importētu un eksportētu datus. Tabulā ir snie
 
 > [!NOTE]
 > Lai importētu produktus sistēmā, jūs varat izmantot datu elementu **Izlaistās preces V2** tikai tad, ja koplietotā prece jau ir izveidota. Pretējā gadījumā, lai importētu produktus sistēmā, jāizmanto datu elements **Produkta izveide**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

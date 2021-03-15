@@ -56,3 +56,6 @@ Ja atrašanās vietas direktīvas rindai ir atlasīta tūlītēja papildināšan
 
 - Pārliecinieties, ka lietotā pieprasījuma papildināšanas veidne ir iestatīta tā, lai izmantotu pareizās atrašanās vietas veidnes un darba veidnes, kuru tips ir **Papildināšana**.
 - Pārliecinieties, ka ir pietiekami daudz pieejamu krājumu atrašanās vietās, kurās pieprasījuma papildināšanas veidne meklē pieejamus krājumus papildināšanai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

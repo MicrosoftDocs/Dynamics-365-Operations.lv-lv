@@ -87,3 +87,6 @@ Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

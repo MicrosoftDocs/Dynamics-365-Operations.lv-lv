@@ -97,3 +97,6 @@ Drukājot brīvā teksta, klienta un projekta kredīta notas, tajās tiks iekļa
 
 > [!NOTE]
 > Pārliecinieties, vai dokumentu drukājamie formāti ir pareizi konfigurēti, pieņemot, ka tiks drukātas atsauces uz sākotnējiem rēķiniem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

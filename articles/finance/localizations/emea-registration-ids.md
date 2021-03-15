@@ -111,3 +111,6 @@ Papildinformāciju par reģistrācijas ID apstrādāšanu, tostarp nepieciešam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

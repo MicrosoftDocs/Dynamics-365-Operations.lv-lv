@@ -36,3 +36,6 @@ Varat iestatīt noapaļošanas kārtulas pakalpojumā Dynamics 365 Human Resourc
 3. Norādiet vērtības **Noapaļošanai līdz tuvākajam**, **Scenārijam** un **Noapaļošanas veidlapai**.
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

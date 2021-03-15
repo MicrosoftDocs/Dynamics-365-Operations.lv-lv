@@ -302,3 +302,6 @@ Lai izveidotu rēķina detalizētas informācijas lapu vietnes veidotājā, izpi
 [Satura bloka modulis](../add-hero-module.md)
 
 [Preču kolekcija](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

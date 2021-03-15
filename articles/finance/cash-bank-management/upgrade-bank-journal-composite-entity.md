@@ -54,3 +54,6 @@ Lai saliktajam elementam BankJournalEntity pievienotu papildu lauku BankTransact
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

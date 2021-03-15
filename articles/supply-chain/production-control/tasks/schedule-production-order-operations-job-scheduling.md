@@ -55,3 +55,6 @@ ms.locfileid: "4981135"
 6. Darbību rūtī atlasiet **Ražošanas pasūtījums**.
 7. Atlasiet **Visi darbi**. Ņemiet vērā, ka, pamatojoties uz aktīvo maršrutu, ar darbu plānošanu tiek izveidoti 5 darbi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

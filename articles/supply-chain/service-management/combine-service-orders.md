@@ -112,3 +112,6 @@ Papildu pakalpojumu pasūtījumu rindu grupēšana pakalpojumu pasūtījumos not
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

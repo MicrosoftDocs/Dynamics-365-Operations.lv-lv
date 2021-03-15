@@ -246,3 +246,6 @@ C. Pārejiet uz Budžeta veidošana &gt; Iestatīšana &gt; Budžeta plānošana
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

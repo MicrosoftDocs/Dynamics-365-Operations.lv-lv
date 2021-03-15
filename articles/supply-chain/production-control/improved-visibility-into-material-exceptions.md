@@ -66,3 +66,6 @@ Kad šis elements tiek atlasīts, tiek atvērta lapa **Visi ražošanas kopumi**
 Elementā **Atvērtais noliktavas darbs, kam jāpievērš uzmanība** tiek rādīts skaits ar MK un formulas rindām, kuras ir izlaistas pārvietošanai uz noliktavu, kurās ir neapstrādāts darbs un kurās izejmateriālu datums ir agrāks par vai vienāds ar darbvietas datumu. Šis rindas ir nepieciešams arī patērēt ar operācijas resursu, kas attiecas uz darbvietas filtru.
 
 Kad šis elements tiek atlasīts, tiek atvērta lapa **Viss darbs**. Šī lapa tiek filtrēta pēc tādu atvērto darba virsrakstu skaita, kuros ir darba rindas no izlaistajām MK un formulas rindām, kas atbilst šī elementa kritērijiem. No lapas **Viss darbs** šo darbu varat apstrādāt manuāli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "5060765"
 7. Iestatiet ieturēto nodokļu grupas lapā **Pakalpojumu krājuma ieturēto nodokļu grupas** krājumam vai pakalpojumam.
 
 8. Iestatiet **Minimālo rēķina summu** lapā **Virsgrāmatas parametri > Ieturētais nodoklis**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

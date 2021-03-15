@@ -200,3 +200,6 @@ Pirms darba sākšanas sagatavojiet kopuma veidni, kā tas ir iepriekš izklāst
 1. Atlasiet kopuma ID, kas tika izveidots no trešā pārdošanas pasūtījuma.
 1. Atlasiet kopuma ID saiti, lai atvērtu lapu ar detalizētu informāciju par kopumu.
 1. Ņemiet vērā, ka sūtījums tika pievienots kopsavilkuma cilnei **Kopuma rindas** kopā ar pirmajam pārdošanas pasūtījumam paredzēto sūtījumu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

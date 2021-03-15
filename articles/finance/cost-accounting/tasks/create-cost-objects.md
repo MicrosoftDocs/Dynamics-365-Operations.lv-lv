@@ -50,3 +50,6 @@ ms.locfileid: "4990771"
 ## <a name="view-the-imported-cost-centers"></a>Skatīt importēto izmaksu centrus
 1. Noklikšķiniet uz Skatīt dimensijas elementus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

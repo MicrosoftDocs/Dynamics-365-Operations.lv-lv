@@ -95,3 +95,6 @@ Bankas izraksta transakcijas, kas saskaņošanas darblapā tika atzīmētas kā 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

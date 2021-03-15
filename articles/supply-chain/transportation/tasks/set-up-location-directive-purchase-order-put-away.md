@@ -85,3 +85,6 @@ ms.locfileid: "5004906"
 4. Laukā **Kritēriji** ierakstiet kādu vērtību.
 5. Atlasiet **Labi**. Varat turpināt pievienot direktīvas rindas un direktīvas darbības, līdz tiks ņemti vērā visi iespējamie scenāriji jūsu noliktavā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

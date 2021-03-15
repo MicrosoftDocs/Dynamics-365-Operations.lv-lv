@@ -79,3 +79,6 @@ Attēla zemāk augšējā daļā ir parādīts, kā interfeiss izskatās pēc no
 Pēc noklusējuma ražotnes interfeiss automātiski izrakstās, ja neviens to neizmanto 12 stundu laikā. Supply Chain Management lietotājam pēc tam ir jāpierakstās no jauna. Taču taimauta ierobežojumu var pagarināt līdz 90 dienām.
 
 Lai pagarinātu taimauta ierobežojumu, pierakstieties programmā Supply Chain Management un dodieties uz **Sistēmas administrēšana \> Lietotāji \> Sesijas paplašinājumi**. Norādiet Supply Chain Management lietotāja kontu, kas tiek izmantots, lai pierakstītos ierīcē, un stundu skaitu, cik ilgi sesijai jāpaliek aktīvai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

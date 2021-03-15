@@ -217,3 +217,6 @@ Darba izņēmumi kontrolē saīsinātās izdošanas darbību. Veiciet tālāk no
 1. Atlasiet **Saīsināta izdošana**.
 1. Atlasiet darba izņēmuma kodu, ko izveidojāt šim scenārijam.
 1. Atlasot pareizo izņēmumu, ir jābūt pieejamai izvēles rūtiņai **Anulēt un atkārtoti drukāt**. Atzīmējiet šo lodziņu un apstipriniet. Pēc apstiprināšanas tiek pārrēķināta etiķetes ruļļa secība, kas tiek identificēta ar lauka **Etiķešu kompilācijas ID**, pamatojoties uz mainīto darba rindas daudzumu. Pēc tam tas tiek atkārtoti drukāts norādītajā printerī.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Ja kanban tiek iztukšots kļūdas dēļ, vai saņemtu kanban nepieciešams iztu
 2. Sarakstā atzīmējiet atlasīto rindu.
     * Ņemiet vērā, ka materiālu apstrādes vienības statuss ir Iztukšots.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

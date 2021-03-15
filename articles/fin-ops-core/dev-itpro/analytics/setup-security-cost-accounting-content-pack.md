@@ -63,3 +63,6 @@ Mēs pieņemam, ka jūsu organizācija vēlas ierobežot datu piekļuvi. Ja, izp
 
 ## <a name="additional-resources"></a>Papildu resursi
 Papildinformāciju par Power BI rindas līmeņa drošību skatiet rakstā [Modeļa drošības pārvaldība modelim pakalpojumā Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

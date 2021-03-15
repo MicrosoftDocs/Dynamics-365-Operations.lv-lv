@@ -60,3 +60,6 @@ Ja ir iestatīta opcijas **Ierobežot izmantošanu atmaksām bez kvīts** vērt�
 
 Ja transakcijā ir ietverta gan atgriešana ar kvīti, gan atgriešana bez kvīts, ierobežojuma nosacījumi netiek lietoti, jo transakcijai tiek izmantota atgriešanas darbplūsma ar kvīti. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

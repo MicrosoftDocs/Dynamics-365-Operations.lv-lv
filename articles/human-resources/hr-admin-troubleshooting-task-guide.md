@@ -63,3 +63,6 @@ Rīkojieties šādi, lai atkārtotu uzd. ceļv. no LCS.
 2. Atl. **Atvērt no LCS**.
 3. Atlasiet bibliotēku un BPM zaru, kurā ir saglabātais uzd. ceļvedis.
 4. Atv. uzd. ceļvedi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

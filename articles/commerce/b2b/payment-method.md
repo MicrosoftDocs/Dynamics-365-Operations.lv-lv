@@ -76,3 +76,6 @@ Lai apstiprinātu, vai klienta konta maksājuma metode ir iespējota, veiciet t�
 [Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēs](quantity-limits.md)
 
 [SDK un moduļu bibliotēkas atjauninājumi](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

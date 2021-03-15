@@ -42,3 +42,6 @@ ms.locfileid: "4977267"
 10. Atlasiet **Jā** laukā **Atļaut ciklu skaitīšanu**.
 11. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

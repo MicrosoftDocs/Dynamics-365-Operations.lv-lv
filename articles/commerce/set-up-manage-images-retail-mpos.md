@@ -208,3 +208,6 @@ Kataloga, kategorijas, darbinieka un debitora attēlus, kas jāizmanto bezsaiste
 5. Veiciet līdzīgu procedūru citiem elementiem, piemēram, Kategorijai, Darbiniekam un Debitoram.
 
     [![Bezsaistes attēls](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

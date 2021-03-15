@@ -50,3 +50,6 @@ Ir ļoti svarīgi saprast izvēles rūtiņas **Saglabāt bāzlīnijas pieprasīj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

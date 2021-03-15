@@ -90,3 +90,6 @@ Publiskā priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līm
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
 Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

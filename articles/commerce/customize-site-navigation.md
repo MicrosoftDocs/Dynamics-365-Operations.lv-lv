@@ -109,3 +109,6 @@ Lai navigācijas izvēlnei pievienotu pielāgotās navigācijas opcijas, veiciet
 [Lapas vietrāža URL izveide](create-page-url.md)
 
 [Darbs ar publicēšanas grupām](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

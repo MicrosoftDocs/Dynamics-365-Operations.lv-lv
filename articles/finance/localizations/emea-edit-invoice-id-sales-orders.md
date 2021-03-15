@@ -60,3 +60,6 @@ Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā un P
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

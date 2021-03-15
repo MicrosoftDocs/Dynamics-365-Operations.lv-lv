@@ -86,3 +86,6 @@ Nākamajā scenārijā atvilkumu Kanban pārsūtīšanas aktivitāte ir konfigur
 
 Kad Kanban ir patērēts ražošanas ievades novietojumā, šis Kanban tiek ziņots kā tukšs un plūsmai tiek pievienots jauns Kanban. Kad tiek izveidots Kanban darbs, tad Kanban kopumam tiek pievienota kopuma rinda. Kad Kanban kopums tiek apstrādāts, tiek izveidots noliktavas darbs Kanban izdošanai. Noliktavas darbinieks apstrādā darbu Kanban izdošanai, un darbs viņu instruē izdot šo materiālu Kanban darbam noliktavas novietojumā. Kad šis noliktavas darbinieks apstiprina izdošanu, Kanban tiek automātiski izpildīts, un noliktavas darbinieks tiek instruēts izvietot materiālu ražošanas ievades novietojumā.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

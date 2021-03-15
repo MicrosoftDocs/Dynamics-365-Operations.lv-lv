@@ -41,3 +41,6 @@ Iestatiet nodarbinātības veidus Dynamics 365 Human Resources, lai tās saskaņ
    | **Apraksts** | Nodarbinātības veida apraksts. |
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

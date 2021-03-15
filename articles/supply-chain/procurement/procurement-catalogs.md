@@ -75,3 +75,6 @@ Atjauninājumi tiek publicēti automātiski vai manuāli atkarībā no opcijas, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

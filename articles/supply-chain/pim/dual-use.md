@@ -107,3 +107,6 @@ Izmantojiet lapu **Divējāda lietojuma sertifikāti**, lai iestatītu un pārva
     | Drukāt rēķinā | Atzīmējiet šo izvēles rūtiņu, lai drukātu sertifikāta numuru rēķinos, kas norādītajā datumu diapazonā ir adresēti norādītajai valstij. |
     | Drukāt pavadzīmē | Atzīmējiet šo izvēles rūtiņu, lai drukātu sertifikāta numuru pavadzīmēs, kas norādītajā datumu diapazonā ir adresētas norādītajai valstij. |
     | Drukāt pārdošanas pasūtījumā | Atzīmējiet šo izvēles rūtiņu, lai drukātu sertifikāta numuru pārdošanas pasūtījumos, kas norādītajā datumu diapazonā ir adresēti norādītajai valstij. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

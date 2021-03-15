@@ -152,3 +152,6 @@ Dabas resursu nodokļi tiek rēķināti krājumu žurnālu transakciju laikā un
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

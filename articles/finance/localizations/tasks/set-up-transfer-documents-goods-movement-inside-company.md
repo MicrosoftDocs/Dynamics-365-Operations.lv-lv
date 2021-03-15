@@ -73,3 +73,6 @@ ms.locfileid: "4988049"
 10. Noklikšķiniet uz Pavadzīme.
 11. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

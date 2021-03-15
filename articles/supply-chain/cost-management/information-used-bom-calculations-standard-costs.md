@@ -83,3 +83,6 @@ Vairākus informācijas avotus var norādīt, inicializējot MK aprēķinu. Tas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ Lai pievienotu norēķināšanās moduli jaunā lapā un iestatītu nepieciešam
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

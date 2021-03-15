@@ -97,3 +97,6 @@ Izejmateriālu varat izlaist daļējam gatavo preču daudzumam vai noteiktā vie
     Pieejamās mērvienības ir definētas ar pabeigto preču vienību secību grupas ID.
 
     Piemēram, pabeigtai precei ir šāda mērvienību konvertēšana starp mārciņām (mārc.) un paletēm (PL): 1 PL = 100 mārc. Lai izveidotu ražošanas pasūtījumu 10 000 mārc. pabeigto preču, varat izlaist izejmateriālus tādam palešu skaitam, kādu plānojat saražot. Kā vienību atlasiet **PL** un pēc tam atlasiet atbilstošu skaitu laukā **Daudzums**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

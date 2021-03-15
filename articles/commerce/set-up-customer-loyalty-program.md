@@ -150,3 +150,6 @@ Turklāt mazumtirgotāji var definēt maksimālo lojalitātes programmas atlīdz
 
     > [!NOTE]
     > Atšķirībā no citām periodiskajām atlaidēm, piemēram, daudzuma, vienkāršajām, komplekta un sliekšņa atlaidēm, piegādes atlaides lietošanas gadījumā netiek pievienota atlaides rinda, bet gan tiek tiešā veidā rediģēta piegādes maksa un maksas aprakstam pievienots atlaides nosaukums.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -181,3 +181,6 @@ Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie 
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
 Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

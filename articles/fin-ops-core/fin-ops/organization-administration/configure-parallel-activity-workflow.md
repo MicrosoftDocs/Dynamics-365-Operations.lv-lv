@@ -53,3 +53,6 @@ Lai pievienotu un konfigurētu šīs paralēlās aktivitātes zarus, izpildiet t
     > Zaru secība nav svarīga, jo visi paralēlās aktivitātes zari darbojas vienlaicīgi.
 
 3. Lai konfigurētu katru zaru, skatiet sadaļu [Konfigurēt paralēlus zarus darbplūsmā](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

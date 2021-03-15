@@ -44,3 +44,6 @@ Uzturēšanas pieprasījuma veids definē piederību uzturēšanas pieprasījuma
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu veidi** piemērs.
 
 ![Uzturēšanas pieprasījumu tipu lapa](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ Tālāk esošajā tabulā parādīts galvenais noteikums.
 | Saņemamais PVN | Negatīvs              | Saņemamā nodokļa konts | Negatīvs (kredīts)  |
 | Maksājamais PVN    | Pozitīvs              | Kreditoru konts    | Negatīvs (kredīts)  |
 | Maksājamais PVN    | Negatīvs              | Kreditoru konts    | Pozitīvs (debits)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

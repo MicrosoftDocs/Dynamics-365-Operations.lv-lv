@@ -159,3 +159,6 @@ Preces īpašnieki zina, kurām juridiskām personām ir nepieciešamas savas pr
 Piemēram, prece X ir piešķirta *Dizaina skapju* preces īpašnieku grupai. Prece X arī ir daļa no preces Y MK, kas ir piešķirts *Dizaina skaļruņu* preces īpašnieku grupai. Ja lietotājs no *Dizaina skaļruņu* preces īpašnieku grupas atbrīvo produktu Y un tā MK, prece X tiks izlaista kopā ar preci Y.
 
 Papildinformāciju skatiet sadaļā [Preču īpašnieki](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

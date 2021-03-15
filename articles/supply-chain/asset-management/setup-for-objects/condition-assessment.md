@@ -65,3 +65,6 @@ Kad esat veicis nosacījumu novērtējuma reģistrēšanu līdzeklim, varat izdr
 
 >[!NOTE]
 >Varat arī reģistrēt nosacījumu novērtējumu darba pasūtījumā (**Līdzekļu pārvaldība** > **Kopīgi** > **Darba pasūtījumi** > **Visi darba pasūtījumi** > **Nosacījumu novērtējuma** poga.)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

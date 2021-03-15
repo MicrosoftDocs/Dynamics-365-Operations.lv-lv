@@ -61,3 +61,6 @@ Procedūrā tiek izmantoti demonstrācijas uzņēmuma “USMF” dati. Šīs dar
 9. Darbību rūtī nokl. uz **Pārskatīt**.
 10. Nokl. **Atb. det. inf**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

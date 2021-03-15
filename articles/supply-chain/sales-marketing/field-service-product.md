@@ -72,3 +72,6 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service preces (no Supply Chain Management uz Field Service): Preces — Preces
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

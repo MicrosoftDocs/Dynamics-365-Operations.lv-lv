@@ -44,3 +44,6 @@ Atkarībā no uzņēmuma politikas atgriešanas sūtījuma krājumus var nosūt�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

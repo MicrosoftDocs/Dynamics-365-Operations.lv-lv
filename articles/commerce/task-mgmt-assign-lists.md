@@ -91,3 +91,6 @@ Lai izsekotu uzdevumu saraksta statusam visiem uzdevumiem, kas piešķirti jums,
 [Uzdevumu sarakstu izveidošana un uzdevumu pievienošana](task-mgmt-create-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

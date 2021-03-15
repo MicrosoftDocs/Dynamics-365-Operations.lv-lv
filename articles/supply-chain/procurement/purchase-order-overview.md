@@ -91,3 +91,6 @@ Lauks **Apstiprinājuma statuss** tiek izmantots, kad pirkšanas pasūtījumam t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

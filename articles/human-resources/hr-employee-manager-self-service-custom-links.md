@@ -48,3 +48,6 @@ Lai izmantotu šo līdzekli, iespējojiet **Pielāgotās saites vadītāja paša
 ## <a name="see-also"></a>Skatiet arī
 
 [Darbinieka un vadītāja pašapkalpošanās apskats](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

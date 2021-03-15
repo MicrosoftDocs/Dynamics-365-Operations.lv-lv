@@ -76,3 +76,6 @@ Visbeidzot, pievienojiet automatizētu uzdevumu budžeta plānošanas stadijas s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

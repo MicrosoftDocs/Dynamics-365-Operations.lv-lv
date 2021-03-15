@@ -35,3 +35,6 @@ Nākamajā tēmā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrator
 5. Laukā **Laika zona** atlasiet opciju no nolaižamās izvēlnes saraksta.
 6. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

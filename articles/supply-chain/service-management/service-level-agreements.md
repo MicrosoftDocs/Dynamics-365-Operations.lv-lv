@@ -80,3 +80,6 @@ Kad veidojat jaunu pakalpojumu pasūtījumu kādam pakalpojumu līgumam, kuram i
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

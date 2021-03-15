@@ -78,3 +78,6 @@ Katrā pakalpojumu līguma rindā ir detalizēti aprakstīts piedāvātā pakalp
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Pakalpojumu līgumu izveide](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ GTIN kodus piešķir GS1 uzņēmums. Šajā piemērā jums būs jāievada kods p
 11. Ievadiet vērtību laukā GTIN.
 12. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

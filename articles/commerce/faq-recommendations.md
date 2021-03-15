@@ -99,3 +99,6 @@ Pēc preču ieteikumu iespējošanas kontroles POS ekrānam ir jāpievieno ietei
 [Manuāli izveidot pārraudzītus ieteikumus](create-editorial-recommendation-lists.md)
 
 [Izveidot ieteikumus ar demonstrācijas datiem](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

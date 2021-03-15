@@ -54,3 +54,6 @@ Pēc tam, kad esat izpildījis priekšnoteikumus, varat izveidot preču klāstu 
 2. Atlasiet kanālus vai augsta līmeņa kanālu grupas, uz ko attiecas preču klāsts.
 3. Pievienojiet preču klāstam preču kategorijas, atsevišķas preces vai preces variantus. Varat iekļaut visas noteiktas kategorijas preces vai arī varat izslēgt atlasītās preces no kategorijas, kas ir iekļauta preču klāstā.
 4. Publicējiet preču klāstu. Publicējot preču klāstu, tiek automātiski palaists preču klāsta plānotājs. Izpildot šo procesu, tiek ģenerēts preču saraksts. Kad šis process ir pabeigts, preces kļūst pieejamas kanālos, kam ir piešķirts preču klāsts. Ja tiek mainīts publicēts preču klāsts vai kanāli, kam ir piešķirts šis preču klāsts, ir jāatjaunina šis preču klāsts. Lai atjauninātu preču klāstā, kad tiek veiktas izmaiņas, varat palaist preču klāsta plānotāju pakešuzdevuma režīmā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

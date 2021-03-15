@@ -158,3 +158,6 @@ Tabulās ir parādītas vērtības, kas ir iestatītas cilnēs **Vispārīgi** u
 11. Lai skatītu izbeigšanas neto ietekmi, kur LLT līdzekļa un nomas saistību vērtība būs 0 (nulle), atveriet saistību un līdzekļu darījumu tabulu.
 
 Tagad nomas statusam ir jābūt **Izbeigts**. Šai nomai netiks iegrāmatoti papildu žurnāla ieraksti, izņemot gadījumus, kad izbeigšana tiek anulēta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

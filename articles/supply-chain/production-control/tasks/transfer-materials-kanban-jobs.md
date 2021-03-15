@@ -65,3 +65,6 @@ ms.locfileid: "4981035"
 2. Noklikšķiniet uz Pabeigt.
     * Šī darbība pabeigs abu darbu pārsūtīšanu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

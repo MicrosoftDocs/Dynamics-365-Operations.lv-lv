@@ -66,3 +66,6 @@ Iespējojiet izmaiņu izsekošanu datu elementu projektiem.
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projekti (no Supply Chain Management uz Field Service): Projekti
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

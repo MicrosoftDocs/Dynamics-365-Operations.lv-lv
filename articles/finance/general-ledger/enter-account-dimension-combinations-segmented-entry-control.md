@@ -113,3 +113,6 @@ Tabulā ir aprakstīti īsinājumtaustiņi, ko var izmantot, ja pārlūkošanas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

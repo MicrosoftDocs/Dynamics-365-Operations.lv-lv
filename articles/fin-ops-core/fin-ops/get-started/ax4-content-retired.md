@@ -31,3 +31,6 @@ No vietnēm TechNet un MSDN ir noņemts Microsoft Dynamics AX 4.0 saturs. Plaš
 
 - [Microsoft dzīves cikla politika](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [Atbalstītie ceļi jaunināšanai uz Dynamics AX 2012](https://technet.microsoft.com/library/dd362093.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

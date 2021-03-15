@@ -127,3 +127,6 @@ Zvanu centra programmā zvanu centra aģenti var atlasīt saņemšanas veikalu v
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Saņemšanas informācijas modulis](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

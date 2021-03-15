@@ -56,3 +56,6 @@ Nosacījuma jautājumi ļauj norādīt, kurš turpinājuma jautājums tiks attē
 10. Koka struktūrā atlasiet "Jautājumi\Par padarīto darbu saņemu pienācīgu atalgojumu."
     * Ievērojiet, ka jautājumu koks tika atjaunināts, lai attēlotu sakarību.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "5113374"
 14. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 15. Šī lapa ļauj apskatīt, kuri darbinieki ir reģistrēti atvieglojumiem, kā arī kuri darbinieki nav reģistrēti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

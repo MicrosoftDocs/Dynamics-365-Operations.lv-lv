@@ -38,3 +38,6 @@ Ja opciju **Iespējots** iestatāt uz **Jā**, tad tiek izveidots izvades priek�
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

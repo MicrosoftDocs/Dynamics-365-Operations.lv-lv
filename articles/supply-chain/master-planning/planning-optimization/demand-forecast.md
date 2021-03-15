@@ -273,3 +273,6 @@ Prognozes samazināšanas principam ir jāpiešķir krājumu seguma grupa. Lai p
 ### <a name="reduce-a-forecast-by-transactions"></a>Prognozes samazināšana pēc transakcijām
 
 Ja kā prognozes samazināšanas metode tiek atlasīta opcija **Transakcijas — samazināšanas princips** vai **Transakcijas — dinamiskais periods**, var norādīt, kuras transakcijas samazina prognozi. Lapas **Pārklājuma grupas** kopsavilkuma cilnes **Cits** laukā **Samazināt prognozi pēc** atlasiet **Visas transakcijas**, ja visām transakcijām ir jāsamazina prognozi, vai **Pasūtījumi**, ja prognozi jāsamazina tikai pārdošanas pasūtījumiem.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

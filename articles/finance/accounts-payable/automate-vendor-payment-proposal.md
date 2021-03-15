@@ -143,3 +143,6 @@ Tālāk norādītie nodokļi un privilēģijas ir pievienoti kreditora maksājum
 | Grafika atkārtojumu izskatīšana | Kreditoru maksājumu darbinieks, kreditoru centralizēto maksājumu darbinieks | Šis pienākums piešķir tiesības skatīt maksājuma priekšlikuma automatizācijas sērijas un gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu skatīšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul> |
 | Uzziņas par grafika sērijām      | None                                                                       | Šis pienākums piešķir tiesības skatīt sēriju iestatījumus un gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu skatīšana</li><li>Gadījumu saraksta lapas skatīšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul>|
 | Grafika atkārtojumu uzturēšana     | None                                                                       | Šis pienākums piešķir tiesības izveidot un uzturēt gadījumus, izmantojot tālāk minētās privilēģijas.<ul><li>Grafika atkārtojumu uzturēšana</li><li>Gadījumu nedēļas skata skatīšana</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

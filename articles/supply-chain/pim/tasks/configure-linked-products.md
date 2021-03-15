@@ -39,3 +39,6 @@ ms.locfileid: "4986983"
 10. Laukā Daudzums ievadiet skaitli.
 11. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

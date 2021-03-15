@@ -109,3 +109,6 @@ Kad jūsu sistēmā ir ieslēgta bīstamo materiālu funkcija, **preču transpor
 ## <a name="packing-list-report"></a>Iepakojuma saraksta pārskats
 
 Kad sistēmā ir ieslēgta bīstamo materiālu funkcija, iepakošanas sarakstos ir ietverta papildu informācija, kas saistīta ar preču nosūtīšanas tekstu. Šis pārskats ir pieejams lapā **Visas kravas**, kā parasti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

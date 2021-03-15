@@ -429,3 +429,6 @@ Tālāk esošajā piemērā ir parādīta izmaksu sadales kārtula, kurā kā sa
 |    CC002    |     FI      | 3,075.00  | (3075,00 ÷ 18 162,50) × Summa  |
 |    CC003    |     KrP      | 13,250.00 | (13 250,00 ÷ 18 162,50) × Summa |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

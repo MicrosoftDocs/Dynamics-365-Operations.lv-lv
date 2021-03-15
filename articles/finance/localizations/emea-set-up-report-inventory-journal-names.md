@@ -47,3 +47,6 @@ Lai iestatītu attiecības starp konkrētu pārskatu un kādu žurnāla tipu, la
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

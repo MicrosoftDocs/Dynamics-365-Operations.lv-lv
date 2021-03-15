@@ -56,3 +56,6 @@ Pēc tam tiek izveidots ražošanas pasūtījuma precei C, un prece A tiek pievi
     - **Prece C:** 2
 
 Šī uzvedība nodrošina, ka ražošanas pasūtījuma MK izmaiņas neietekmē turpmākos izmaksu aprēķinus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -153,3 +153,6 @@ Katram izdevumu tipam atlasītais konts tiek debetēts, ja tiek ģenerēts maks�
 
 > [!NOTE]
 > Korespondējošais konts tiek atlasīts nomas līmenī rindās, kas attiecas uz izpildes izmaksu maksājumu grafiku. Šo korespondējošo kontu var saistīt ar kreditoru vai ar Virsgrāmatas kontu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

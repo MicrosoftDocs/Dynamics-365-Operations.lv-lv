@@ -83,3 +83,6 @@ Abās SEPA tiešā debeta shēmās debitoriem ir noteiktas tiesības uz atmaksu.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

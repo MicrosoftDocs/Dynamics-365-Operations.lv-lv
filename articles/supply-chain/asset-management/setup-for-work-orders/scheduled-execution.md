@@ -42,3 +42,6 @@ Plānotās izpildes iestatījums, kas ir saistīts ar darba pasūtījumiem, var 
 6. Atlasiet **Saglabāt**.
 
 ![Plānotā izpilde](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

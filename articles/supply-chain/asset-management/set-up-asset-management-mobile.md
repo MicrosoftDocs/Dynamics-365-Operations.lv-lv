@@ -84,3 +84,6 @@ Lai līdzekļu pārvaldības līdzekļi būtu pieejami mobilajā programmā Fina
 Papildinformāciju par to, kā strādāt ar **Līdzekļu pārvaldības** mobilo darbvietu, skatiet sadaļā [Līdzekļu pārvaldības mobilās darbvietas izmantošana](asset-management-mobile-workspace.md).
 
 Papildinformāciju par Finance and Operations (Dynamics 365) mobilo programmu skatiet [mobilās programmas sākumlapā](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

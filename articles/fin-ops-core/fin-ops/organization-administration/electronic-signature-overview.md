@@ -109,3 +109,6 @@ Lai norādītu apstiprinātājus, rīkojieties šādi.
 1. Lapas **Opcijas** cilnē **Konti** noklikšķiniet uz **Norādīt apstiprinātāju**.
 2. Laukā **Apstiprinātāja lietotāja ID** atlasiet tā lietotāja ID, kuram ir jāparakstās par cita lietotāja veiktajām izmaiņām.
 3. Laukā **Parakstīties par lietotāja ID** atlasiet tā lietotāja ID, par kura veiktajām izmaiņām ir jāparakstās.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

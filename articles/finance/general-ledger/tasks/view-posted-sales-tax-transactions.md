@@ -48,3 +48,6 @@ ms.locfileid: "4994344"
 2. Darbības rūtī atlasiet **PVN kods**.
 3. Atlasiet **Grāmatots PVN**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

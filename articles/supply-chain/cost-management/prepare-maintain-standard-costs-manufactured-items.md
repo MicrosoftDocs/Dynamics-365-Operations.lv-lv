@@ -72,3 +72,6 @@ Ja maršrutēšanas informāciju vēlaties izmantot izmaksu aprēķināšanai, i
 
 [Saražojamo vai sagādājamo preču iestatīšana](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "4988267"
     * Ja poga Importēt nav pieejama, tas nozīmē, ka šī konfigurācija jau ir importēta.  
 9. Noklikšķiniet uz Jā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

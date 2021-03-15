@@ -67,3 +67,6 @@ Iestatiet organizācijas hierarhijas, lai apskatītu savu uzņēmumu no dažād�
 Katrai hierarhijai tiek piešķirts mērķis. Hierarhijas mērķis nosaka organizāciju veidus, ko var iekļaut hierarhijā. Mērķis nosaka arī pielietojuma scenārijus, kuros hierarhiju var izmantot.
 
 Organizācijas hierarhijā var koplietot parametrus, politiku un transakcijas. Organizācija var mantot vai ignorēt savas pamatorganizācijas parametrus. Tomēr koplietojamie pamatdati, piemēram, preces un adrešu grāmatas, attiecas uz visu organizāciju un tos nevar ignorēt atsevišķām organizācijām. Organizāciju un hierarhiju izveidi ir rūpīgi jāplāno. Papildinformāciju skatiet rakstā [Jūsu organizācijas hierarhijas plānošana](plan-organizational-hierarchy.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

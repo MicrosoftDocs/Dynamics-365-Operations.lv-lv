@@ -73,3 +73,6 @@ ms.locfileid: "4981310"
     * Šādi tiks izveidoti 5 Kanban.  
     * Ņemiet vērā, ka šim ražošanas Kanban nosacījumam tika izveidoti 5 Kanban pa 10 katrs. Šā ir pēdējā darbība šajā procedūrā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

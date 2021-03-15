@@ -198,3 +198,6 @@ Ja importēšana notika sekmīgi, jūs saņemat ziņojumu, ka jūsu izraksts tik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

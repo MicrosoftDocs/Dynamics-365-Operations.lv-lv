@@ -83,3 +83,6 @@ Plānošanas scenārijos, kuros ietilpst ražošana, mēs iesakām izvairīties 
 Lai arī pakārtotie pakārtotie krājumi tiek automātiski noteikti un ietverti vispārējā plānošanā, kad tiek izmantota iebūvētā vispārējās plānošanas programma, plānošanas optimizācija neveic šo darbību.
 
 Piemēram, ja viena produkta A MK struktūras skrūve tiek izmantota arī preces B ražošanai, tad visi produkti A un B preču MK struktūrā jāiekļauj filtrā. Tā kā tā var būt ļoti sarežģīta, lai nodrošinātu, ka visas preces ir daļa no filtra, ieteicams izvairīties no filtrētas vispārējās plānošanas, kad ir iesaistīti ražošanas pasūtījumi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

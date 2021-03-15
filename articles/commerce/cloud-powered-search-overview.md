@@ -81,3 +81,6 @@ Izmantojot uzlabotu kārtošanu programmā Dynamics 365 Commerce, klienti var k�
 [Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
 
 [SEO metadatu pārvaldība](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Lai gan ERP lietojumprogrammas funkcionālā validācija nevar būt pilnībā da
     - Apstipriniet tikai pēc tam, kad izfiltrējat noteiktu darbību, nevis veicat vispārēju pārbaudi. Piemēram, ierakstu skaitam filtrējiet darbības numuru vai darbības datumu, lai validācija neiekļautu visas citas darbības. 
     - Ja pārbaudāt klientu bilanci vai budžetu, vispirms saglabājiet vērtību un pēc tam pievienojiet savu darbību vērtību, lai apsiprinātu gaidāmo rezultātu, nevis pārbaudītu fiksēto paredzamo vērtību. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

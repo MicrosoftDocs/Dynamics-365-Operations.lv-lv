@@ -73,3 +73,6 @@ Darbinieka detalizētas informācijas lapas cilnē **Commerce** tiks ievadīti l
 [Izveidot mazumtirdzniecības funkcionalitātes profilu](retail-functionality-profile.md)
 
 [Nodarbinātā konfigurēšana](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

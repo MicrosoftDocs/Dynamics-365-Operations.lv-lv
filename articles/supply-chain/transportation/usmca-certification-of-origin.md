@@ -139,3 +139,6 @@ Lietotājam, kas paraksta sertifikāciju, ir manuāli jāievada lappušu skaits 
 ### <a name="page-numbers"></a>Lappušu numuri
 
 Pašreizējā lappuse un izdrukāto lappušu skaits dokumenta apakšpusē.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Tagad sveiciena ziņojums tiks parādīts katras vietnes lapas, kura izmanto atl
 
 [Skripta koda pievienošana vietnes lapām, lai atbalstītu telemetriju](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

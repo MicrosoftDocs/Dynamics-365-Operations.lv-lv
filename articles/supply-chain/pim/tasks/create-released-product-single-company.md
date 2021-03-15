@@ -102,3 +102,6 @@ ms.locfileid: "4999685"
 12. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

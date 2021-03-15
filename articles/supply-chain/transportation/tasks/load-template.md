@@ -53,3 +53,6 @@ Kad izveidojat jaunu kravu, varat piešķirt kravas veidni. Kravas veidnē ir ie
 1. Darbību rūtī cilnē **Piedāvājums un pieprasījums** grupā **Pievienot**, atlasiet **Jaunai kravai**.
 1. Dialoglodziņā **Kravas veidne** laukā **Kravas veidnes ID** atlasiet veidni, ko piemērot.
 1. Atlasiet **Labi**, lai pielietotu veidni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

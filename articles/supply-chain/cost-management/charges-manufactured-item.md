@@ -39,3 +39,6 @@ Maksas saražotajiem krājumiem vienmēr tiek iekļautas krājumu vienības izma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

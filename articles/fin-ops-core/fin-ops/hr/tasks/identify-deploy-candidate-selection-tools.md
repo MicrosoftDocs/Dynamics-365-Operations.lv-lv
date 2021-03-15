@@ -57,3 +57,6 @@ Var būt grūti atrast kvalificētu kandidātu kopu, lai aizpildītu vakances, i
 24. Aizvērt lapu.
 25. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

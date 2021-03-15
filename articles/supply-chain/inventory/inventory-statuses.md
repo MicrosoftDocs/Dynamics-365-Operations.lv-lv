@@ -64,3 +64,6 @@ Varat mainīt krājumu statusus, izmantojot lapu **Rīcībā esošs pēc novieto
 > - Lapā **Rīcībā esošs pēc atrašanās vietas** varat grupēt rindas, pamatojoties uz parādītajām dimensijām, izmantojot pogu **Parādīt dimensijas** un mainīt atlasīto rindu statusu.
 > - Lapā **Rīcībā esošs pēc atrašanās vietas** varat atlasīt vairākus ierakstus un tad izmantot pogu **Krājumu statusa maiņa**, lai tos visus uzreiz mainītu.
 > - **Krājumu statusa maiņa** periodiskajā uzdevumā būs iespējams filtrēt pēc izsekošanas dimensijām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

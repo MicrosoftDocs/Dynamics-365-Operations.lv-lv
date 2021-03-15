@@ -104,3 +104,6 @@ Aprēķini nav iekļauti validācijā. Ir jāpārbauda preču konfigurācijas mo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

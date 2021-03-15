@@ -78,3 +78,6 @@ Human Resources savieno cilvēkus un operāciju datus, lai palīdzētu jums opti
 [Atvaļinājumu un kavējumu pārvaldība](hr-leave-and-absence-overview.md)</br>
 [Darbinieku attīstība](hr-develop-performance-management-overview.md)</br>
 [Izveidojiet kursus](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

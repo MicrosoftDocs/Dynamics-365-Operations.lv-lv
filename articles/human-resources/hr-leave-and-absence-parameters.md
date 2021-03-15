@@ -92,3 +92,6 @@ Pirms atvaļinājumu un prombūtnes plānu iestatīšanas pakalpojumā Dynamics 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

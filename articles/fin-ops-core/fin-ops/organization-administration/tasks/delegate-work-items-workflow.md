@@ -60,3 +60,6 @@ Ja plānojat atrasties ārpus biroja vai noteiktu laika periodu nevarēsiet rīk
 8. Laukā **Beigu datums/laiks** ievadiet datumu un laiku.
 9. Atlasiet izvēles rūtiņu **Iespējots** deleģēšanas noteikumu aktivizēšanai. 
 10. Laukā **Komentārs** ievadiet paskaidrojošu komentāru, kāpēc deleģējat šos darba vienumus.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

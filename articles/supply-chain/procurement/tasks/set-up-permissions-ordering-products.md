@@ -44,3 +44,6 @@ ms.locfileid: "5017296"
 2. Izmantojiet ātro filtru, lai atrastu darbinieku, kuru tikko pievienojāt kā prasītāju.
 3. Atlasiet šo pieprasītāju. Sarakstā Sagatavotājs tiek rādītas personas, kam ir atļauja pasūtīt krājumus kreisajā rūtī atlasītā pieprasītāja vārdā.  Šeit varat pievienot papildu sagatavotājus. Šis skats jums ļauj arī piešķirt pieprasītājam atļauju izveidot pieprasījumus juridiskajās personās un pārvaldības struktūrvienībās, kas nav šīs personas primārā juridiskā persona vai pārvaldības struktūrvienība.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

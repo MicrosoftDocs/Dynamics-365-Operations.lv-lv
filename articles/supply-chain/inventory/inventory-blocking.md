@@ -69,3 +69,6 @@ Varat norādīt, kuri krājumu statusi ir aizturēšanas statusi, izmantojot par
 [Kvalitātes pārvaldības procesi](quality-management-processes.md)
 
 [Preču kvalitātes pārbaude](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Lai iestatītu grupēšanu automātiski ģenerētiem darba pasūtījumiem, rīko
 1. Ja vēlaties, lai opcijas tiek lietotas, kad palaižat tikai dažus no jūsu uzturēšanas plāniem, kopsavilkuma cilnē **Iekļaujamie ieraksti** pievienojiet filtrus pēc vajadzības, tāpat kā citiem Microsoft Dynamics 365 Supply Chain Management  pakešuzdevumiem.
 1. Kopsavilkuma cilnē **Palaist fonā** iestatiet pakešuzdevumu un plānošanas opcijas pēc vajadzības, tāpat kā citiem Supply Chain Management pakešuzdevumiem.
 1. Atlasiet **Labi**, lai palaistu un/vai plānotu atlasītos uzturēšanas plānus.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

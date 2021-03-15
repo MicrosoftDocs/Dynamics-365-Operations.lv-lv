@@ -77,3 +77,6 @@ Pogas darbības rūtī ir sakārtotas cilnēs. Nākamajā tabulā ir īsi apraks
 | Rezerves daļas          | Skatiet apstiprināto un alternatīvo rezerves daļu sarakstu, kuras var izmantot līdzeklim.                                                                               |
 | Līdzekļa patēriņš    | Izdrukājiet pārskatu, kurā ir parādītas līdzekļa patēriņa reģistrācijas.                                                                                                |
 | Līdzekļa defekts          | Izdrukājiet pārskatu, kurā ir parādītas līdzekļa defektu reģistrācijas.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

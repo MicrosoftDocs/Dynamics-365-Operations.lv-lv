@@ -44,3 +44,6 @@ Līdzīgi **trešās puses statusa** kolonnā var tikt parādītas tālāk esoš
 Diagrammā ir parādītas abas statusu kopas un kā tās ir savstarpēji saistītas.
 
 [ ![Eksperimentu statusi](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

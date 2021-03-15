@@ -41,3 +41,6 @@ ms.locfileid: "4977767"
 6. Noklikšķiniet uz Sagatavot.
     * Sagatavošanas process ir pabeigts. Izvēles rūtiņa ar atzīmi visām izdošanas saraksta rindām norāda, tiek piegādes statuss ir Izdots.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

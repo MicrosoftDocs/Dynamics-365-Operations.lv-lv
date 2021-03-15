@@ -204,3 +204,6 @@ Ar aktivizēšanu saistītā papildinformācija ietver darbinieku, kurš mainīj
 ### <a name="client-data-synchronization"></a>Klienta datu sinhronizācija
 
 Visas izmaiņas POS klientā, izņemot izmaiņas ierīces aktivizēšanas statusā, ir nepieciešams sinhronizēt ar kanālu datu bāzi, lai tās stātos spēkā. Lai izmaiņas sinhronizētu ar kanālu datu bāzi, dodieties uz **Mazumtirdzniecība un komercija** &gt; **Mazumtirdzniecības un komercijas IT** &gt; **Sadales grafiks** un palaidiet nepieciešamo sadales grafiku. Lai sinhronizētu klienta datu izmaiņas, jums ir jāpalaiž sadales grafiki **Reģistri** and **Kanāla konfigurācija**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

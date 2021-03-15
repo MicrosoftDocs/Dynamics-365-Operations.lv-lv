@@ -80,3 +80,6 @@ Tāpēc nosūtīšanas datums tiek iestatīts uz 10 dienām no šī brīža, pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

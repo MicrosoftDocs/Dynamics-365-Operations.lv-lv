@@ -81,3 +81,6 @@ Lai ātri un viegli atsauktu aizturētu transakciju, noskenējiet drukātās pav
 ### <a name="void-a-suspended-transaction"></a>Aizturētas transakcijas anulēšana
 
 Aizturētās transakcijas varat anulēt, vai nu atsaucot transakciju un pēc tam veicot operāciju **Transakcijas anulēšana**, vai atlasot transakciju sarakstā **Transakcijas atsaukšana** un programmas joslā atlasot **Anulēt**. Var arī konfigurēt veikalu tā, lai lietotājiem piedāvātu anulēt aizturētās transakcijas, kad lietotāji slēdz maiņu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

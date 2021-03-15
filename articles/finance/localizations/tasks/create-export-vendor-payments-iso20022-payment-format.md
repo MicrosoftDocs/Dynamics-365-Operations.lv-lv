@@ -49,3 +49,6 @@ ms.locfileid: "4964545"
     3.    Ievadiet vērtību laukā **Faila nosaukums**. Šī piemēra ietvaros ģenerētas fails būs saderīgs ar SEPA, jo maksājuma valūta ir EUR. Lai ģenerētu maksājumus citās valūtās, var izmantot arī ISO20022 kredīta pārskaitījumu, kā arī citus kreditora maksājumu formātus
     4.    Ievadiet vai atlasiet vērtību laukā **Bankas konts**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

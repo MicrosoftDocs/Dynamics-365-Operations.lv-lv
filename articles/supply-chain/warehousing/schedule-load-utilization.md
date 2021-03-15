@@ -71,3 +71,6 @@ Telpas izmantošanu varat projektēt, ģenerējot pārskatu **Noliktavas noslodz
 
 4. Laukā **Noslodzes veids** atlasiet **Tilpums** vai **Svars**, lai norādītu noliktavas pārvaldības struktūrvienību, kurai projektēt telpu.
 5. Laukā **Telpu izmantošanas iestatījumi** atlasiet telpas izmantošanas iestatījumus, uz kā ir jābalsta projektēšana.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

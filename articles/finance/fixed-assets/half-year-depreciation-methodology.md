@@ -41,3 +41,6 @@ Pirmais ekspluatācijas gads noslēgsies 2020. gada decembrī, kas nozīmē, ka 
    [![Nolietojuma grafiks pusgada nolietojuma konvencijai](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Paplašinātie nolietojuma periodi, kas pievienoti ar pusgada konvenciju, nodrošina precīzāku nolietojuma sadalījumu. Sešu mēnešu konvencija labāk atspoguļo nolietojuma izdevumus, kas ir noderīgi pārskatu sniegšanai peļņas un zaudējumu pārskatā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 | Saturs  | apraksts  | Formāts  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 pamati](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Pierādiet, ka saprotat Microsoft Dynamics 365; Power Platform; mākoņa koncepcijas; licencēšanas opcijas un izvietošanas opcijas, un opcijas nodošanai izpildei. | Eksāmens; izmaksas var mainīties atkarībā no reģiona |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

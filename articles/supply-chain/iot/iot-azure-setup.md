@@ -161,3 +161,6 @@ Lai saglabātu Redis kešatmiņas savienojuma virknes noslēpumu, rīkojieties �
 > Atjauninot vienu no savienojuma virknēm, ir jāatjaunina arī slepenās vērtības.
 
 Tagad ir pabeigta nepieciešamo Azure resursu nodrošināšana. Nākamā darbība ir [instalēt IoT informācijas pievienojumprogrammu Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

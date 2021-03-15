@@ -58,3 +58,6 @@ Izmantojiet šo uzdevumu ceļvedi, lai izveidotu atgādinājuma vēstuļu sērij
 26. Izvērsiet kopsavilkuma cilni **Piezīme**.
 27. Ievadiet tekstu, kuru saturēs atgādinājuma vēstules ar atlasīto atgādinājuma vēstuļu kodu. Varat iztulkot šo tekstu vairākās valodās, izmantojot izvēlni Tulkojumi, kas atrodas virs piezīmes lodziņa.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

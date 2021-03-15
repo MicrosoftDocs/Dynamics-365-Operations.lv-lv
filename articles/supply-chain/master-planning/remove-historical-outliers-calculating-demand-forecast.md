@@ -50,3 +50,6 @@ Varat izslēgt novirzes punktus, lai uzlabotu prognozes precizitāti. Šis uzdev
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Tālāk esošajā attēlā ir redzams piemērs veidnes kartēšanai līdzeklī D
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

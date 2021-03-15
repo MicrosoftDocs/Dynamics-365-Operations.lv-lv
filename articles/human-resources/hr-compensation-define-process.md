@@ -100,3 +100,6 @@ Kompensācijas procesi tiek izmantoti, lai noteiktu jaunas atlīdzības summas u
 10. Noklikšķiniet uz Apstiprināts.
     * Pēc ieraksta apstiprināšanas to var ielādēt darbinieka oficiālajā atlīdzības ierakstā. Jaunā atlīdzība stājas spēkā darbības datumā, kas iestatīts kompensācijas procesā.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4991335"
 15. Noklikšķiniet uz Kartes transakcijas.
 16. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

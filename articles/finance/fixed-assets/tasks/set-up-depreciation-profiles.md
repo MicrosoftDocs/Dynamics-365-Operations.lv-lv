@@ -39,3 +39,6 @@ Nolietojuma metodes nosaka līdzekļu nolietojuma tipu un biežumu.   Šajā ier
 7. Laukā **Perioda biežums** atlasiet opciju.
 8. Aizveriet formu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

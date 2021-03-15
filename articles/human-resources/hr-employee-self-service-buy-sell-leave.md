@@ -53,3 +53,6 @@ Jūsu atlikumi tiks automātiski atjaunināti vai pirms atjaunināšanas tiks ve
 
 [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)</br>
 [Atvaļinājuma iegādes un pārdošanas politiku pārvaldība](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

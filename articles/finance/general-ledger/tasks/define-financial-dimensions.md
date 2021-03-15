@@ -54,3 +54,6 @@ ms.locfileid: "4994594"
 9. Laukā **Dimensijas vērtība** ievadiet nosaukumu, lai aprakstītu savu finanšu dimensijas vērtību.
 10. Laukā **Apraksts** ierakstiet aprakstu, kas apraksta jūsu finanšu dimensijas vērtību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

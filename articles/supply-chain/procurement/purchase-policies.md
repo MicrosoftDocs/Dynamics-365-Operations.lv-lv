@@ -150,3 +150,6 @@ Izmantojot pirkšanas pasūtījuma izveides un pieprasījuma konsolidācijas nos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika s�
 5. Noklikšķiniet uz Detalizēta informācija par prognozes rindu.
     * Šajā lapā varat apskatīt precizitātes vērtības, vēsturisko pieprasījumu un prognozi. Varat arī veikt prognožu izmaiņas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

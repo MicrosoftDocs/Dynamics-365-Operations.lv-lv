@@ -43,3 +43,6 @@ Papildu pogas lapā **Izmaksu kategorijas** ļauj piekļūt ar projektu saistīt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

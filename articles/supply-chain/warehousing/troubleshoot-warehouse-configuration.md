@@ -108,3 +108,6 @@ Lai ļautu darbiniekiem veikt šīs izmaiņas, varat izveidot izvēlnes elementu
 - **Rādīt krājumu statusu:** *Jā*
 
 Varat iestatīt citus laukus lapā pēc nepieciešamības.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

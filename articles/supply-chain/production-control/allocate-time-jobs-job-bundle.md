@@ -110,3 +110,6 @@ Koriģētās vienas stundas izmaksas un darba laiks tiek iegrāmatots ražošana
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

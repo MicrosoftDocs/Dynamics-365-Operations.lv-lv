@@ -272,3 +272,6 @@ Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004), vai (msdyn_allocated ne true))
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

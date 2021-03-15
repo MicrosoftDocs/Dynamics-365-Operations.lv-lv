@@ -45,3 +45,6 @@ Ražošanas plūsmas modeļi apraksta, kā tiek aprēķināta un uzturēta lean 
 8. Laukā Noslodzes nepietiekamības sekas atlasiet kādu opciju.
     * Opcijas ir šādas: Atlikt — plānošanas notikuma viss pieprasījums tiek atlikts līdz nākamajai pieejamajai ražošanas dienai ar pieejamu caurlaidi. Atcelt — plānošanas notikuma automātiskā plānošana tiek pārtraukta un saistītie darbi tiek atstāti neplānoti.   Pievienot pieprasītajai dienai — pieprasītie darbi tiek plānoti pieprasītajā periodā. Tas rada šūnas pārslodzi attiecīgajai dienai, plānotājam ir jāveic pārskatīšana un ir nepieciešama manuāla iejaukšanās.   Sadalīt pieejamajos periodos — dažādi plānošanas notikuma darbi tiek sadalīti visās pieejamajās ražošanas dienās, sākot ar pirmo pieejamo dienu. Minimālais sadales daudzums ir Kanban darba daudzums. Sadalē tiek piešķirts minimālais plānošanas daudzums (Kanban daudzums) katrai dienai, kurā ir pieejama pietiekama caurlaide.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

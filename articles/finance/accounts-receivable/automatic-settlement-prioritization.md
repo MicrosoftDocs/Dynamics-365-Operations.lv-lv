@@ -82,3 +82,6 @@ Ja nav nevienas lietotāja definētas nosegšanas prioritātes, transakcijas tie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

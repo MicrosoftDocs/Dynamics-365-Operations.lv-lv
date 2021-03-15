@@ -56,3 +56,6 @@ Ar šo procedūru tiek parādīts, kā ātri izveidot jaunu formulu, kopējot no
 3. Noklikšķiniet uz OK.
 4. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

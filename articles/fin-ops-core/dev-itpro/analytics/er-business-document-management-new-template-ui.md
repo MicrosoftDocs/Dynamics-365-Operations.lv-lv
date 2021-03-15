@@ -64,3 +64,6 @@ Lai ieslēgtu šo līdzekli visām juridiskajām personām, veiciet tālak norā
 Pogu **Jauns dokuments** lieto, lai izveidotu un rediģētu veidni ER formāta konfigurācijā, kas pieder citam nodrošinātājam. Šajā piemērā nodrošinātājs ir Microsoft. Atlasot **Jauns dokuments**, jūs varat rezēt visas veidnes, kas pieder pašreizējiem un citiem nodrošinātājiem. Pēc veidnes atlasīšanas tā ir atvērta rediģēšanai. Rediģētā veidne būs saglabāta jaunā ER formāta konfigurācijā, kas ģenerēta automātiski.
 
 Plašāku informāciju skatiet [Biznesa dokumentu pārvaldības apskatā](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

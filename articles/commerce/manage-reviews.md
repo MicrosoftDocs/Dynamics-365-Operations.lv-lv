@@ -131,3 +131,6 @@ Lai skatītu vērtējumu un atsauksmju tendences Commerce vietņu veidotājā, r
 [Vērtējumu un atsauksmju konfigurēšana](configure-ratings-reviews.md)
 
 [Preču vērtējumu sinhronizācija Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

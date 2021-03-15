@@ -107,3 +107,6 @@ Tālāk minētās pārdošanas kuba galvenās dimensijas tiek izmantotas kā fil
 | Datumi            | Datumi                                                |
 
 Pēc noklusējuma saturs nodrošina pašreizējā kalendārā gada datu rādīšanu. Taču varat mainīt datumu filtru pārskata filtru sadaļā. Varat mainīt arī uzņēmuma filtru.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

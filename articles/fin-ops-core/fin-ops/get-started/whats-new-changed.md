@@ -50,3 +50,6 @@ Lai redzētu, kas jauns vai mainīts portālā Lifecycle Services, skatiet šo t
 - [Jaunumi un izmaiņas portālā Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

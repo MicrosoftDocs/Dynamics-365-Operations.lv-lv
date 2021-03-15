@@ -47,3 +47,6 @@ Varat pārsūtīt informāciju no uzņēmuma datu bāzes uz jauna dokumenta grā
 8. Turpiniet rakstīt e-pasta ziņojumu, ievietojot grāmatzīmju laukus vietās, kur tie nepieciešami.
 9. Atlasiet **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

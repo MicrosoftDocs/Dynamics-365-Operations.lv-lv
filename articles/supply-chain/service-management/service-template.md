@@ -57,3 +57,6 @@ Ir vienkāršāk noteikt pakalpojuma veidnes rindas, ko vēlaties pārkopēt, ja
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Kopēt pakalpojumu veidņu rindas](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

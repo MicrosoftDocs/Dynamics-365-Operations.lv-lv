@@ -38,3 +38,6 @@ Varat izmantot pakalpojumu veidņu grupas, lai kārtotu un filtrētu pakalpojumu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

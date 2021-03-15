@@ -80,3 +80,6 @@ Tālāk esošajā attēlā ir redzams veidnes kartējums līdzeklī Datu integr�
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Noliktavas (no Supply Chain Management uz Field Service): Noliktava
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Darbiniekam, kuram vēlaties atļaut pārvietot rezervētus krājumus, sadaļā 
 Šis līdzeklis ir arī pārnests uz versiju Microsoft Dynamics AX 2012 R3, kā arī būs pieejams CU12 ietvaros.
 To var arī lejupielādēt atsevišķi, izmantojot KB numur 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

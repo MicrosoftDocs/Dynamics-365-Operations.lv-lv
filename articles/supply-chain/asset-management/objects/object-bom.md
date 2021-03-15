@@ -83,3 +83,6 @@ Varat manuāli izveidot vienību rindas līdzekļiem.
 5. Ja vienībai beigsies derīguma termiņš, laukā **Beigu datums** ievadiet beigu datumu.
 6. Laukā **Vienības numurs** atlasiet vienību. Nosaukums tiek automātiski ievadīts laukā **Preces nosaukums**.
 7. Laukā **Daudzums** ievadiet daudzumu. Lauks **Mērvienība** tiek automātiski atjaunināts.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

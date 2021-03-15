@@ -100,3 +100,6 @@ Sekojošajā ilustrācijā redzams grafisks pārskats par dažādiem projektiem,
 
 ![6. attēls](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

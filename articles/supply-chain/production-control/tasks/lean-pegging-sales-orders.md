@@ -56,3 +56,6 @@ ms.locfileid: "4994183"
 5. Koka struktūrā atlasiet Pārdošanas rinda 000832\Kanban 000558\L0001 izdošana\Kanban 000559.
     * Otrā Kanban darba status arī ir Plānots, jo visa piesaistes koka statuss ir Plānots. Ņemiet vērā! Kanban darba statuss tika mainīts no Nav plānots uz Plānots.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

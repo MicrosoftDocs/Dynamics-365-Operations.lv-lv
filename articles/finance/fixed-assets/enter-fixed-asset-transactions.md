@@ -67,3 +67,6 @@ Jebkuru pamatlīdzekļa transakcijas tipu var grāmatot lapā Virsgrāmatas žur
 Pamatlīdzekļa nolietojuma periodu atlikusī vērtība netiek atjaunināta, ja nolietojuma transakcijas veida žurnāla rinda tiek ievadīta manuāli vai importēta, izmantojot datu elementu. Šī vērtība tiek atjaunināta, kad žurnāla rinda tiek izveidota, izmantojot nolietojuma priekšlikuma procesu.
 
 Plašāku informāciju skatiet rakstā [Pamatlīdzekļu integrācija](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

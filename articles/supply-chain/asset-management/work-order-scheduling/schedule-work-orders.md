@@ -137,3 +137,6 @@ Lai skatītu un strādātu ar Ganta diagrammu:
     - Lai pārplānotu parādīto darba pasūtījumu, atlasiet un pēc tam velciet to uz atbilstošo jauno datumu un laiku.
 
 1. Ja veicāt izmaiņas, darbības rūtī noklikšķiniet uz **Saglabāt**, lai tās saglabātu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

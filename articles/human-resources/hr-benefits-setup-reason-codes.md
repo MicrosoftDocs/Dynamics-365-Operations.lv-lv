@@ -79,3 +79,5 @@ Jūs redzēsit reklāmkarogu darbvietas **Atvieglojumu pārvaldība** lapā **Sa
 Kad iemeslu kodi ir migrēti uz Personāla pārvaldību, opcija tos izmantot Atvieglojumu pārvaldībā tiek automātiski iestatīta uz **Jā**.
 
 [![Izmantot iemesla kodu Atvieglojumu pārvaldībā](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

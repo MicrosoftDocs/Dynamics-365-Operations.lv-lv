@@ -44,3 +44,6 @@ Globālā ieturētā nodokļa funkcionalitāte ir uzlabota kreditoru un debitoru
 
 > [!NOTE]
 > Globālo ieturētā nodokļa funkcionalitāti nevar iespējot tām valstīm/reģioniem, kur lokalizēti ieturētā nodokļa risinājumi jau pastāv. Šīs teritorijas ietver Indiju, Brazīliju, Taizemi, Saūda Arābiju, Īriju, Lielbritāniju un Amerikas Savienotās Valstis, bet ne tikai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

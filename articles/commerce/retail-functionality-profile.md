@@ -63,3 +63,6 @@ Lai izveidotu jaunu funkcionalitāti, veiciet šādas darbības.
 [Ekrāna izkārtojuma pārskats](pos-screen-layouts.md)       
 
 [Retail Hardware Station konfigurēšana un instalēšana](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

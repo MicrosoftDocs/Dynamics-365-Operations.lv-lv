@@ -109,3 +109,6 @@ Iespējojot un izmantojot elektronisko rēķinu izrakstīšanas pievienojumprogr
 - [Pakalpojuma administrēšana](e-invoicing-service-administration.md)
 - [Konfigurēt elektroniskos rēķinus pakalpojumā RCS](e-invoicing-configuration-rcs.md)
 - [Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

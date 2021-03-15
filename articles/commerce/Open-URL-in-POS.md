@@ -82,3 +82,6 @@ Lai konfigurētu URL, kas tiks atvērts POS, veiciet šādas darbības.
 5. Atl. **Atvērt URL** kā darbību.
 6. Ievadiet URL, kuru gribat izmantot.
 7. Konfigurējiet, vai atvērt URL jaunā logā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

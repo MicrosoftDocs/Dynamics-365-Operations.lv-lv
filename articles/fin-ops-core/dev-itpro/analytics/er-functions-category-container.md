@@ -43,3 +43,6 @@ ms.locfileid: "4739094"
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
 [Elektronisko atskaišu veidošanas formulas valoda](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

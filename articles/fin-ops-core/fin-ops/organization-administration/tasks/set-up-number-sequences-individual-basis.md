@@ -40,3 +40,6 @@ ms.locfileid: "4796634"
 8. Izvērsiet sadaļu **Vispārīgi**. Kopsavilkuma cilnē Vispārīgi, norādiet, vai numuru sērija ir manuāla, un nepārtraukta vai ar pārtraukumiem. Turklāt, ievadiet mazāko un lielāko numuru, ko var izmantot šajā numuru sērijā. Nav ieteicams numuru sēriju ar pārtraukumiem mainīt pret nepārtrauktu numuru sēriju. Šāda numuru sērija nevar būt patiesi nepārtraukta. Šī izmaiņa var izraisīt arī atslēgu dublikātu pārkāpumus datu bāzē. Turklāt nepārtrauktām numuru sērijām ir lielāka ietekme uz veiktspēju.   
 9. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

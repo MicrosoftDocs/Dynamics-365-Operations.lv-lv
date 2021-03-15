@@ -37,3 +37,6 @@ Izmaksu uzskaites virsgrāmata atspoguļo vispārējo pārskata vienību. To def
 8. Laukā Statistiskā dimensija ievadiet vai atlasiet kādu vērtību.
 9. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Lai ieslēgtu Commerce vietnes veidotāju B2B pasūtījuma daudzuma ierobežoša
 [Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas vietnēs](manage-b2b-users.md)
 
 [Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

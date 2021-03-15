@@ -61,3 +61,6 @@ Lai iegūtu vairāk informācijas par to, kā iestatīt noteikumus un vērtības
 ## <a name="warehouse-management"></a>Noliktavas vadība
 
 Sagatavojot sūtījumu Noliktavas pārvaldībā, varēsit drukāt vairākus jaunus pārskatus, kas izmanto informāciju, kas iestatīta preču informācijas pārvaldībā. Plašāku informāciju par pieejamiem pārskatiem un to lietošanu skatiet šeit: [Bīstamo materiālu pieprasījumi un pārskati](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

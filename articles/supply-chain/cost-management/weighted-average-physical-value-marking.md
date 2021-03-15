@@ -229,3 +229,6 @@ Turpmāk redzamajā diagrammā ir atspoguļota darbību sērija ar ietekmēm, iz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

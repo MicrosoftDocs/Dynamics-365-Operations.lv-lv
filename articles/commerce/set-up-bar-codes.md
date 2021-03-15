@@ -46,3 +46,6 @@ Svītrkodus var arī izveidot manuāli vai automātiski. Lai izveidotu svītrkod
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Svītrkodu masku iestatīšana](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

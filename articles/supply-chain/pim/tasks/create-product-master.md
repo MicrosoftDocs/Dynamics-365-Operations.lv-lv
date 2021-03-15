@@ -60,3 +60,6 @@ Izveidojiet preces šablonu iepriekš definētiem variantiem. Demonstrācijas da
 10. Noklikšķiniet uz **Saglabāt**.
 11. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

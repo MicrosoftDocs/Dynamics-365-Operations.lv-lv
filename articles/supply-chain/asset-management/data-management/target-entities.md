@@ -52,3 +52,6 @@ Darbvietā **Datu pārvaldība** varat apskatīt mērķa elementu kopsavilkumu, 
 
     ![3. attēls](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Lai palaistu rediģējamā formāta melnraksta versiju, tā ir jāpadara [palai�
 
 - [ER konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā](../er-design-configuration-word.md)
 - [Iegulstiet attēlus un formas jūsu ģenerētajos dokumentos, izmantojot ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -621,3 +621,6 @@ Jūs esat iestatījis darba un atrašanās vietas datus noliktavai 51, lai nodro
 
 > [!NOTE]
 > Apsveriet iespēju pievienot izvadīto kvalitāti uz mobilās ierīces izvēlnes krājumu, kur aktivitātes kods ir *Parādīt atvērto darbu sarakstu*. Piemēram, demonstrācijas datos skatiet mobilās ierīces izvēlnes krājumu ar nosaukumu **Darbu saraksts**. Vispirms pievienojiet *Kvalitātes pārbaudes pasūtījuma* darba klasi uz lietotāja vērstu izvēlnes krājumu, jo šī darba klase ir nepieciešama darbam, kam jāparādās darbu sarakstā. Pēc tam pievienojiet *Kvalitātes pārbaudes pasūtījuma* darba klasi izvēlnes vienumam **Darbu saraksts**. Lietotāji, kuriem ir piekļuve darba sarakstam, pēc tam varēs izvietot un apstrādāt darbu, ko automātiski izveido kvalitātes pārbaudes pasūtījuma apstiprināšana.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

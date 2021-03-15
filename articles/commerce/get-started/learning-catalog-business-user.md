@@ -51,3 +51,6 @@ Apmācību par līdzekļiem, kas koplietoti ar citām Finance and Operations pro
 | Saturs | apraksts  | Formāts   | Ilgums    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Konfigurēt un strādāt ar e-komerciju Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Tiešsaistes kanāli un Dynamics 365 Commerce e-komercijas vietne ļauj mazumtirgotājiem tiešsaistē izveidot savu zīmolu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 4 stundas   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

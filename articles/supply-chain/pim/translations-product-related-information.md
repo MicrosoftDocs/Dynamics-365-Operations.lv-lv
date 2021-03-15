@@ -127,3 +127,6 @@ Jebkurā laikā varat pārvaldīt ar precēm saistītas informācijas tulkojumus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

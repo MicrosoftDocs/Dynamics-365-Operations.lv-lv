@@ -52,3 +52,6 @@ Pārbaudiet, vai Elementu krātuves mērījumi "Naudas plūsmas mērījums V2" u
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Vai Elementu krātuves elementi ir atsvaidzināti?
 
 Periodiski jāatsvaidzina elementi, lai nodrošinātu, ka dati ir pašreizējie un precīzi. Lai manuāli atsvaidzinātu noteiktu elementu, pārejiet uz sadaļu **Sistēmas administrēšana \> Iestatīšanas \> Elementu krātuve** atlasiet elementu un pēc tam atlasiet **Atsvaidzināt**. Datus var atjaunināt arī automātiski. Lapā **Elementu krātuve** iestatiet opciju **Automātiskā atsvaidzināšana iespējota** uz **Jā**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

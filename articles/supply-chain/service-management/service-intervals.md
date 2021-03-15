@@ -93,3 +93,6 @@ Laika periodā, kuru norādījāt dialoglodziņā **Pakalpojumu pasūtījumu izv
 
 [Pakalpojumu intervālu iestatīšana](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Izmantojot anketēšanas plānošanu, var plānot un sadalīt anketas vairākiem
 2. Noklikšķiniet uz Beigt.
 3. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

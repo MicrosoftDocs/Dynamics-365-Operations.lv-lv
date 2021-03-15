@@ -65,3 +65,6 @@ Microsoft Dynamics 365 Human Resources var rasties veiktspējas problēmas, ja i
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Veiktspējas optimizēšana ar automātiskās tīrīšanas uzdevumiem](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

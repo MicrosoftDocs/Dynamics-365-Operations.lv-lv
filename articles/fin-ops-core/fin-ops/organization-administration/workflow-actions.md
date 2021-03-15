@@ -141,3 +141,6 @@ Kad apstiprinātājs pieprasa dokumenta izmaiņas, dokuments tiek nosūtīts atp
 Piemēram, Sems ir iesniedzis izdevumu atskaiti par 12 000 USD, un šis dokuments tiek piešķirts Sjū. Ja Sjū pieprasa veikt izmaiņas, izdevumu atskaite tiek sūtīta atpakaļ Semam.
 
 Sems šo izdevumu atskaiti var iesniegt atkārtoti. Viņš pirms tam var veikt pieprasītās izmaiņas vai atkārtoti iesniegt izdevumu atskaites sākotnējo versiju. Ja Sems izdevumu atskaiti iesniedz atkārtoti, tas tiek nosūtīts Frenkam apstiprināšanai, jo Frenks ir pirmais apstiprinātājs šajā apstiprināšanas procesā.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

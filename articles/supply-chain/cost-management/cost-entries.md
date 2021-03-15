@@ -71,3 +71,6 @@ Lapa **Izmaksu ieraksti** ļauj veikt filtrēšanu pēc dokumenta ID un dokument
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

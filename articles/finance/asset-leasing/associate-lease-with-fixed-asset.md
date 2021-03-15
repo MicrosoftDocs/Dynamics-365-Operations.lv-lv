@@ -53,3 +53,6 @@ Tagad pamatlīdzeklim var aprēķināt nolietojumu, izmantojot standarta nolieto
 
 > [!NOTE]
 > Ja saistāt pamatlīdzekli ar nomu, Līdzekļa nomā pogas **Līdzekļa nolietojums** un **Nomas vērtības samazinājums** ir atspējotas. Varat skatīt līdzekļa nolietojumu un nomas vērtības samazinājuma darījumus no Pamatlīdzekļiem. Poga **Līdzekļu darījumi**, kas atver pieprasījuma formu, arī ir atspējota. Arī pieprasījumu **Līdzekļa darījumi** varat atvērt Pamatlīdzekļos.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

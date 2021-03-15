@@ -51,3 +51,6 @@ ms.locfileid: "5011151"
 4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
     * Pabeigtās ražošanas žurnāls ir grāmatots. Ja vēlaties veikt korekcijas žurnālā, varat manuāli izveidot jaunu žurnālu, kurā varat veikt izmaiņas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

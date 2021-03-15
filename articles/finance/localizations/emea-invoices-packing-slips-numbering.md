@@ -127,3 +127,6 @@ Lauks **Atjaunināmie dokumenti** ietekmē lauku **Dokumenta statuss** žurnāl�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

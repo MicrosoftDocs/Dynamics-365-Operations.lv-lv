@@ -44,3 +44,6 @@ Ražošanas pasūtījumu var izveidot šādos scenārijos:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

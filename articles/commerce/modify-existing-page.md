@@ -88,3 +88,6 @@ Tālāk minētajā piemērā ir parādīts, kā modificēt sākumlapu, mainot vi
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
 
 [Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

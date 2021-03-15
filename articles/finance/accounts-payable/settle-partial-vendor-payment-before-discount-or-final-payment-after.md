@@ -121,3 +121,6 @@ Pēc tam Eiprila grāmato maksājumu. Kad viņa atver lapu **Kreditoru transakci
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

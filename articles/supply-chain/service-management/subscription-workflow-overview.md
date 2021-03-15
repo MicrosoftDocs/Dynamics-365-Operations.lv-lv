@@ -56,3 +56,6 @@ Katra mēneša beigās viena mēneša ienākumus no debitora abonementa var uzkr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

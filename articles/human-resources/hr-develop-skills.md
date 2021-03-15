@@ -62,3 +62,6 @@ Prasmju kartēšanas profili ļauj atrast pašreizējos darbiniekus vai kandidā
 Varat izveidot prasmju profila analīzi, lai skatītu darbinieka, kandidāta vai kontaktpersonas kompetenču sarakstu no konkrēta datuma. Varat izveidot prasmju starpības analīzi, lai salīdzinātu personas prasmes un konkrētam darbam nepieciešamās prasmes.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

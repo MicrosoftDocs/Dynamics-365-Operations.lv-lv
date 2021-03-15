@@ -94,3 +94,6 @@ Jebkuram jūsu konfigurētajam piegādes veidam pēc izvēles varat piesaistīt 
 Piemēram, pasūtījumiem, kas nākamajā dienā tiks nosūtīti pa gaisu, izdošana noliktavā katru dienu ir jāpaveic līdz 13.00. Tādā gadījumā var izveidot paātrinātās izpildes kodu, un šo kodu var saistīt ar visiem nākamās dienas piegādes veidiem, kas sistēmā ir konfigurēti. Kad noliktava izveido savu izdošanas kopumu, kā filtru var izmantot atbilstošo paātrinātas izpildes kodu laukā **Paātrināt izpildi**, lai izdošana tiktu palaista tikai pasūtījumiem, kuru piegādes veidi ir saistīti ar šo kodu.
 
 Turklāt, kad tiek izveidots zvanu centra pasūtījums, paātrinātās izpildes kodu var manuāli lietot pārdošanas pasūtījuma virsrakstam vai atsevišķai pārdošanas pasūtījuma rindai. Un atkal šo kodu var izmantot kārtošanai vai pārskatu veidošanai. Reizēm pasūtījums ir jāapstrādā uzmanīgi, jo ir radusies klientu apkalpošanas problēma. Tādā gadījumā pasūtījuma virsrakstam vai rindām var lietot noteiktu paātrinātās izpildes kodu, lai palīdzētu identificēt šo pasūtījumu un piešķirt tam prioritāti izpildes procesa laikā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

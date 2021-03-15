@@ -202,3 +202,6 @@ Papildinformāciju par to, kā konfigurēt e-pasta vēstules Dynamics 365 Commer
 [Iestatīt e-pasta saņemšanu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [E-pasta kvīšu sūtīšana no Modern POS ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

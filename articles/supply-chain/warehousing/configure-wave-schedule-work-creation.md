@@ -110,3 +110,6 @@ Kad *Grafika darba izveides* funkcionalitāte ir aktivizēta, kopuma apstrāde i
 Lai skatītu kopumu apstrādes pakešuzdevumus, atlasiet darbību rūtī **Pakešuzdevumi** lapā **Visi kopumi**.
 
 No šejienes jūs varat skatīt visu pakešuzdevumu detaļas katram pakešuzdevumu laukā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

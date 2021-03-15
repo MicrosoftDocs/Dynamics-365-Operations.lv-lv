@@ -40,3 +40,6 @@ ms.locfileid: "4984735"
 6. Laukā Rādīt detalizētu informāciju atlasiet opciju Jā.
 7. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

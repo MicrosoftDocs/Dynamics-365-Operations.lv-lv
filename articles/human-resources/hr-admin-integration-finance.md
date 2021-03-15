@@ -255,3 +255,5 @@ Vietas ID, kas tiek izmantots nodarbinātā adresē, nav numuru sērijas daļa. 
 Tālāk redzamajā attēlā ir parādīts piemērs veidnes kartēšanai Datu integratorā. 
 
 ![Veidnes kartēšana](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

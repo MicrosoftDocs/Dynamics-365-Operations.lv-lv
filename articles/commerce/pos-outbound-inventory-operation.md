@@ -192,3 +192,6 @@ Pilnībā nosūtītie pārsūtīšanas pasūtījumi tiek pārvietoti uz cilni **
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Ienākošo krājumu operācija punktā POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

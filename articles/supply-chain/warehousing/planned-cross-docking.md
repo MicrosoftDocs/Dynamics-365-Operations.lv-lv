@@ -315,3 +315,6 @@ Patlaban abiem darba ID ir vienāda mērķa numura zīme. Lai veiktu nākamās d
 Sekojošajā attēlā ir parādīts, kā programmā Microsoft Dynamics 365 Supply Chain Management var tikt parādīts aizpildīts nosūtīšanas bez uzglabāšanas darbs.
 
 ![Nosūtīšanas bez uzglabāšanas darbs ir pabeigts](media/PlannedCrossDockingWork.png "Nosūtīšanas bez uzglabāšanas darbs ir pabeigts")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

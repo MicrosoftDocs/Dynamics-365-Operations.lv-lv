@@ -60,3 +60,6 @@ Papildus finanšu pārskatiem varat izmantot tālāk aprakstītos Virsgrāmatas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

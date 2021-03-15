@@ -125,3 +125,6 @@ Kad ģenerējat maksājumus, tiek ģenerēts maksājuma fails, un jums tiek lūg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

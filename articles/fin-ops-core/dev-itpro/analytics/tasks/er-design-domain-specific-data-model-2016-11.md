@@ -187,3 +187,6 @@ Jūs veidojat jaunu datu modeli atlasītajai konfigurācijai. Šīs konfigurāci
 65. Noklikšķiniet uz Saglabāt.
 66. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Ir jāizveido jauns izvēlnes vienums ar režīma darbu, kas neizmanto pastāvo�
 - Jaukto noliktavas vienību saņemšana un izvietošana
 
 Pirmdokumenta rindu identificēšanas opcijas ir pirkšanas pasūtījuma krājums, pirkšanas pasūtījuma rinda, atgriešanas pasūtījums, pārsūtīšanas pasūtījuma krājums un pārsūtīšanas pasūtījuma rinda. Šīs opcijas varat mainīt saņemšanas secību atsevišķā noliktavas vienībā. Pēdējā opcija ir pēc kravas krājuma. Var pievienot vairākus krājumus vienai noliktavas vienībai, bet nevar pārslēgties starp vairākām kravām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

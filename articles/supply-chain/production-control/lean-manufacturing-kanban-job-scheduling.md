@@ -72,3 +72,6 @@ Saraksta lapa **Kanban darbu plānošana** satur papildinformāciju, kur redzama
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

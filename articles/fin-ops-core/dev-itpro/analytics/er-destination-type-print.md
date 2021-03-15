@@ -70,3 +70,6 @@ Lai izmantotu konkrētu [lapas orientāciju](electronic-reporting-destinations.m
 
 - [Elektronisko pārskatu veidošanas (ER) apskats](general-electronic-reporting.md)
 - [Elektroniskās pārskatu veidošanas (ER) adresāti](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "5008094"
 2. Atlasiet **Aizvērt neatbilstību**.
 3. Atlasiet **Jā**.
 4. Aizveriet lapas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

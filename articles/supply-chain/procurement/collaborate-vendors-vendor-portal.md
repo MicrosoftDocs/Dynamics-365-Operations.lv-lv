@@ -103,3 +103,6 @@ Tālāk redzamajā tabulā ir parādīts statusa un versijas izmaiņu piemērs, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

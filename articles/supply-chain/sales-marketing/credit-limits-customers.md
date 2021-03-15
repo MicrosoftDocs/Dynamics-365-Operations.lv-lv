@@ -137,3 +137,6 @@ Reizēm debitora kredīta limitu var būt nepieciešams pārbaudīt manuāli. De
 1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Pārdošanas pasūtījumi** \> **Visi pārdošanas pasūtījumi**. Veiciet dubultklikšķi uz pārdošanas pasūtījuma.
 
 2.  Formas **Pārdošanas pasūtījums** darbību rūts cilnē **Pārvaldīt** noklikšķiniet uz **Pārbaudīt kredīta limitu**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ES pārdošanas saraksta izveidošana un iesniegšana
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

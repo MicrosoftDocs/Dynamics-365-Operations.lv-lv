@@ -97,3 +97,6 @@ Konfigurācijas versija tiek dzēsta un tiek parādīts apstiprinājuma ziņojum
 > [!NOTE]
 > Konfigurācijas var dzēst tikai konfigurāciju nodrošinātājs, kas tās izveidoja. Ja konfigurācija ir koplietota ar citu organizāciju, tad pirms tās dzēšanas, konfigurācijas koplietošana ir jāatceļ.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Paplašinājums ietver datu faila ar nosaukumu 'RecoMockDataset.csv', kas ļauj 
 [Manuāli izveidot pārraudzītus ieteikumus](create-editorial-recommendation-lists.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

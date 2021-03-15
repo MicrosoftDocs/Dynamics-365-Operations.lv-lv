@@ -220,3 +220,6 @@ Kad dokumenta statuss ir **Pieprasīts**, tas ir redzams cilnē **Aktīvs**. Tom
 ## <a name="related-topics"></a>Saistītās tēmas
 
 [Izejošo krājumu operācija punktā POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

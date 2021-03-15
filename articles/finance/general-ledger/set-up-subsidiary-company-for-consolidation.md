@@ -80,3 +80,6 @@ Neatkarīgi no tā, vai konti ir kartēti, notīriet izvēles rūtiņu **Izmanto
 
 > [!NOTE]
 > Šo metodi iespējams izmantot kontu diagrammas izveidošanai konsolidētajā juridiskajā personā no kādas meitasuzņēmuma juridiskās personas kontu diagrammas. (Plašāku informāciju skatiet [Konsolidācijas kontu grupas un papildu konsolidācijas konti](../budgeting/consolidation-account-groups-consolidation-accounts.md).) Pēc tam piešķiriet atbilstošu konsolidācijas konversijas principu katram konsolidētam galvenajam kontam un izpildiet konsolidāciju visām meitasuzņēmuma juridiskajām personām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

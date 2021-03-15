@@ -254,3 +254,6 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 27. Aizvērt lapu.
 28. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

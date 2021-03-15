@@ -41,3 +41,6 @@ Varat iestatīt dažādu veidu pieprasījumus, ko izmantot savā uzņēmumā. Uz
 Nākamajā attēlā ir parādīts sarakstu lapas **Detalizēta informācija par uzturēšanas pieprasījumiem** piemērs.
 
 ![Visu uzturēšanas pieprasījumu saraksta lapa](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

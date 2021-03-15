@@ -47,3 +47,6 @@ ms.locfileid: "4964775"
 17. Sarakstā atrodiet un atlasiet dimensijas vērtību reģistram, kas tiek atjaunināts.
 18. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

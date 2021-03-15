@@ -183,3 +183,6 @@ Microsoft Dynamics 365 Human Resources izmanto Dataverse, lai iespējotu paplaš
 [Human Resources virtuālās tabulas: Bieži uzdotie jautājumi](hr-admin-virtual-entity-faq.md)<br>
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminoloģijas atjauninājumi](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

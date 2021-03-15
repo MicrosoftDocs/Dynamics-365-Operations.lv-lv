@@ -59,3 +59,6 @@ ms.locfileid: "5022260"
 2. Kolonnā **Līdzeklis** atlasiet saiti līdzeklim. Tiek atvērta lapa **Detalizēta informācija**.
 3. Atlasiet **Rediģēt**.
 4. Kopsavilkuma cilnē **Vispārīgi** atlasiet vērtības laukos **Ražotājs** un **Modelis**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

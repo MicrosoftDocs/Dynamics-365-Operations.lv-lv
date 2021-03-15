@@ -112,3 +112,6 @@ Tabulā ir aprakstīti Noliktavas pārvaldības modulim pieejamie saglabātie sk
 | Visi kopumi | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats kopuma apstrādei |
 | Kravu plānošanas rīks | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts darba plānošanas resursa skats |
 | Detalizēta informācija par darbu | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Saglabāts skats darba detalizētās informācijas lapai |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

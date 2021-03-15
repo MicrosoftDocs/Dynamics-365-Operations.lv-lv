@@ -149,3 +149,6 @@ Pēc tam, kad veidnes izmaiņas ir priekšskatītas, veiciet vienu no tālāk no
 [Pārskats par veidnēm un izkārtojumiem](templates-layouts-overview.md)
 
 [Darbs ar iepriekš iestatītiem izkārtojumiem](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

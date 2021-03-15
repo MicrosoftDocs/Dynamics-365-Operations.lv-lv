@@ -120,3 +120,6 @@ Kad par 2011. gada darbībām tiek sagatavots rēķins, pārdošanas cena EUR 2
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

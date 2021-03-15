@@ -137,3 +137,6 @@ Lai ģenerētu pārskatu **Organizācijas pārdošanas pārskats**, veiciet tāl
 ## <a name="additional-resources"></a>Papildu resursi
 
 - [Commerce sākumlapa](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

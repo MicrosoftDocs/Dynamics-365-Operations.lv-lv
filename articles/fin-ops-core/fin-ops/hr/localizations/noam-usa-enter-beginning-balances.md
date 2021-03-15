@@ -166,3 +166,6 @@ Transakcijas ir iespējams atsaukt un ievadīt no jauna. Lai transakciju atsaukt
 2. Noklikšķiniet uz **Jā**, kad tiek parādīts ziņojums “Kad anulējat šo algas pārskatu, tiek izveidots anulēšanas algas pārskats, lai kompensētu šo algas pārskatu. Nevienu no algas pārskatiem nevar rediģēt. Vai vēlaties anulēt šo samaksas pārskatu?” 
 
 Pēc algas pārskata anulēšanas varat ģenerēt jaunu nodarbinātā algas pārskatu no iepriekš izveidotā ienākumu izraksta. Pirms ģenerējat jauno algas pārskatu, noteikti labojiet visas nepareizās ienākumu izraksta rindas, un pēc tam ģenerējiet jauno algas pārskatu ar pareizajām summām. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

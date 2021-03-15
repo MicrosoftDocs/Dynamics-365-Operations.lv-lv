@@ -60,3 +60,6 @@ Ja ir vismaz viena piedāvātā izmaiņa, darbību rūtī tiek rādītas divas p
     Lapas statuss tiek mainīts uz **Izmaiņas, kas gaida apstiprinājumu**.
 
 Darbplūsma atbilst standarta darbplūsmas procesam. Apstiprinātājs tiek virzīts uz lapu **Kreditors**, kurā var pārskatīt izmaiņas lapā **Piedāvātās izmaiņas** un pēc tam atlasīt **Darbplūsma \> Apstiprināt**, lai apstiprinātu darbplūsmu. Kad apstiprināšana ir pilnībā pabeigta, lauki tiek atjaunināti atbilstoši jūsu piedāvātajām vērtībām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

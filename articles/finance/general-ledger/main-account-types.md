@@ -40,3 +40,6 @@ Plašāku informāciju skatiet šeit: [Iestatīt galvenā konta kategorijas](tas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -159,3 +159,6 @@ Tālāk redzamajā tabulā ir uzskaitīti maksājumu grafika pirmie 12 mēneši.
 
 > [!NOTE]
 > Ja gada maksājuma veids tiek mainīts uz **Gada maksājuma termiņš**, maksājums būs janvārī, nevis decembrī.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

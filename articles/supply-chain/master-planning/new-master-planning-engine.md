@@ -115,3 +115,6 @@ Es lietoju versiju 10.0.16 vai jaunāku, un, palaižot vispārējo plānošanu, 
 > Lūdzu, aizpildiet šo anketu, lai sāktu darbu, un, ja nepieciešams pieprasiet izņēmumu no migrācijas uz plānošanas optimizāciju.
 
 **Atbilde:** Nē, vispārējā plānošana netiek bloķēta. Vispārējās plānošanas izpilde tika veiksmīgi pabeigta, un rezultātu var izmantot parastajā veidā. Tomēr, lai izvairītos no šī kļūdas ziņojuma saņemšanas turpmākās vispārējās plānošanas izpildes laikā, jums ir nekavējoties jāmigrē uz plānošanas optimizāciju vai jāpieprasa izņēmums, izmantojot saiti kļūdas ziņojumā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -152,3 +152,6 @@ Cilnē <strong>Vispārīgi</strong>, lapā <strong>Detalizēta informācija par 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

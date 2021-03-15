@@ -37,3 +37,6 @@ Attēlā zemāk ir ilustrēta par interfeisiem ar citiem moduļiem programmā Fi
 ![Pārskats par to, kā Līdzekļu pārvaldība integrē](media/overview-integrate2.jpg)
 
 Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un veikt uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā, piemēram, mašīnām, ražošanas iekārtām un transportlīdzekļiem. Līdzekļu pārvaldība atbalsta risinājumus daudzās nozarēs.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

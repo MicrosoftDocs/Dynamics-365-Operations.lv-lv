@@ -107,3 +107,6 @@ Kad slēgšanas grafiks ir pabeigts, atlasiet tam opciju **Slēgts**. Uzdevumu v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

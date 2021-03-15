@@ -52,3 +52,6 @@ ms.locfileid: "4987033"
 20. Aizvērt lapu.
 21. Aizveriet formu **Detalizēta informācija par izlaistajām precēm**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

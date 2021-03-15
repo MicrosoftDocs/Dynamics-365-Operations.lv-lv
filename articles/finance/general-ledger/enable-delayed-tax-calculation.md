@@ -64,3 +64,6 @@ Sistēma piešķir prioritāti žurnāla virsraksta iestatījumam. Pēc noklusē
 4. Cilnē **Iestatīšana** iestatiet opciju **Aizkavētais nodokļa aprēķins** uz **Jā**.
 
 ![Virsgrāmatas žurnāla lapas attēls](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

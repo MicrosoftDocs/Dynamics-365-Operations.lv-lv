@@ -72,3 +72,6 @@ Globālajā adrešu grāmatā iestatītie parametri nosaka lomas, kuras var skat
     - Lai augšupielādētu attēlu, atlasiet **Augšupielādēt jaunu attēlu**.
     - Lai noņemtu attēlu, atlasiet attēlu un pēc tam atlasiet **Noņemt**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

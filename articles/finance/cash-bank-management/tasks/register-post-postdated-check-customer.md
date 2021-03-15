@@ -49,3 +49,6 @@ Var reģistrēt detalizētu informāciju par iegrāmatoto no klienta saņemto č
 15. Noklikšķiniet uz Grāmatot.
 16. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

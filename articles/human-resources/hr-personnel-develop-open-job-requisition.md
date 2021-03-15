@@ -66,3 +66,5 @@ Personāla atlases projekti jums palīdz pārvaldīt personāla atlases procesu.
 32. Atlasiet **Personāla atlases projekta statuss**.
 33. Atlasiet **Sākt**. Statuss **Sākts** nozīmē, ka projekts ir gatavs saņemt pieteikumus.  
 34. Atlasiet **Labi**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

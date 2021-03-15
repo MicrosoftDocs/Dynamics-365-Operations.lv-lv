@@ -76,3 +76,6 @@ Pirms sākat iekasēšanas darbību iestatīšanu vai apstrādi, jums ir jāsapr
 [Kredīta aizturēšana pārdošanas pasūtījumiem](./cm-sales-order-credit-holds.md)
 
 [Debitoru kredīta pārvaldības periodiskie uzdevumi](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

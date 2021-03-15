@@ -102,3 +102,6 @@ Lai lietotu filtrēšanu, pamatojoties uz uzņēmuma kontekstu pielāgotās veid
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Lietot uzņēmuma kontekstu":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

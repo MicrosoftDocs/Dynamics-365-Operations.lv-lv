@@ -60,3 +60,6 @@ Piemēram, prece X ir piešķirta *Dizaina skapju* preces īpašnieku grupai. Pr
 ## <a name="product-owners-and-approvals"></a>Preces īpašnieki un apstiprinājumi
 
 Tā kā preces īpašnieki zina, vai īpašas tehniskās izmaiņas dos labumu viņu precēm, bieži ir lietderīgi iekļaut tās kā apstiprināšanas procesa daļu tehnisko izmaiņu pārvaldībā. Varat īstenot šo pieeju, iestatot preces īpašniekus kā dalībnieku nodrošinātājus darbplūsmās, kas tiek izmantotas tehnisko izmaiņu pārvaldībai. Pēc tam sistēma piešķirs apstiprināšanas uzdevumus darbplūsmās, pamatojoties uz precēm, kas ir tehnisko izmaiņu pieprasījumos un tehnisko izmaiņu pasūtījumos. Plašāku informāciju skatiet rakstā [Pārvaldīt izmaiņas tehniskajām precēm](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

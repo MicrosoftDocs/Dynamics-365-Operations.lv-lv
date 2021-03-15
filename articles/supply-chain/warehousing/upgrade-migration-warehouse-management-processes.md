@@ -82,3 +82,6 @@ Pirms izlaisto preču lietošanas modulī **Noliktavas pārvaldība** precēm ir
 6.  Lapā **Mainīt noliktavas dimensiju grupu krājumiem** pievienojiet krājumu kodus, noliktavas dimensiju grupas un vienību secību grupas. Šo darbību var veikt tieši lapā, izmantojot Microsoft Office integrāciju vai izmantojot datu elementa apstrādi sadaļā [Datu pārvaldība](../../dev-itpro/data-entities/data-entities.md).
 7.  Pārbaudiet izmaiņas. Kā daļa no pārbaudes procesa notiek dažādas datu integritātes pārbaudes. Lielāka jaunināšanas procesa ietvaros, iespējams, avota ieviešanā ir jākoriģē radušās problēmas. Šajā gadījumā būs nepieciešama papildu datu jaunināšana.
 8.  Apstrādājiet izmaiņas. Visu krājumu dimensiju atjaunināšana var ilgt kādu laiku. Varat pārraudzīt norisi, izmantojot pakešuzdevumus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

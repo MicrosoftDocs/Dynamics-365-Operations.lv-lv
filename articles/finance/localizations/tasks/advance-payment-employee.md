@@ -170,3 +170,6 @@ ms.locfileid: "4990045"
 12. Aizvērt lapu.
 13. Noklikšķiniet uz Transakcijas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

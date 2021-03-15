@@ -53,3 +53,6 @@ Ja vēl atlikusī nosedzamā summa ir ļoti neliela, varat veikt daļējo maksā
 
 
 Plašāku informāciju skatiet šeit: [Kreditora maksājumu pārskats](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

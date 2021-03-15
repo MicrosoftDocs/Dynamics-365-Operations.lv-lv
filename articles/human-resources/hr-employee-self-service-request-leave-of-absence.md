@@ -53,3 +53,6 @@ Varat iesniegt kavējuma atvaļinājuma pieprasījumu un skatīt savu atvaļinā
 ## <a name="see-also"></a>Skatiet arī
 
 [Pārtraukt atvaļinājumu](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

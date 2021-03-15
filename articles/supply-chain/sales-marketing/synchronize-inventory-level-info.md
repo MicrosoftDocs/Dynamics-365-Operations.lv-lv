@@ -92,3 +92,6 @@ Varat lietot filtrus ar funkcionalitāti Izvērsts vaicājums un filtrēšana, l
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Preču krājumi (no Supply Chain Management uz Field Service): Preču krājumi
 
 [![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

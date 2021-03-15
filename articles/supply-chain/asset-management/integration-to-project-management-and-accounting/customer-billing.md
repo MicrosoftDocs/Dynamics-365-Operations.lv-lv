@@ -177,3 +177,6 @@ Jums joprojām jābūt lapā **Projekta iestatījumi** (**Līdzekļu pārvaldīb
 1. Darbību rūts cilnē **Rēķini** atlasiet **Jauna rēķina piedāvājums**.
 1. Dialoglodziņa **Izveidot rēķina priekšlikumu** sadaļā **Projekta darbības** atzīmējiet **Izvēles** rūtiņu katrai rindai, ko vēlaties iekļaut rēķinā.
 1. Atlasiet **Labi**, lai aizvērtu dialoglodziņu un skatītu jaunu rēķina piedāvājumu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

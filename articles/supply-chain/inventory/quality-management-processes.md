@@ -100,3 +100,6 @@ Ieteicams labojumiem definēt unikālu dokumenta tipu, izmantojot lapu **Dokumen
 [Kvalitātes pasūtījumu iestatīšana](tasks/set-up-quality-orders.md)
 
 [Preču kvalitātes pārbaude](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Papildinformāciju par galveņu fragmentiem un moduļiem skatiet šeit: [Galvene
 [Galvenes modulis](author-header-module.md) 
 
 [Sīkfailu atbilstība](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

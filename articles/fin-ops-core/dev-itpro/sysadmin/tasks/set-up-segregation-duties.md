@@ -42,3 +42,6 @@ Var iestatīt nosacījumus, lai atdalītu uzdevumus, kas ir jāveic dažādiem l
 
 > [!IMPORTANT] 
 > Veidojot kārtulu, pienākumu sadales kārtulas netiek pārbaudītas. Varat izveidot kārtulu, kas izveido konfliktu esošajām lomām. Esošās lietotāja lomu piešķires var arī būt pretrunā ar jauno kārtulu. Pēc kārtulas izveidošanas vai modificēšanas ir jāpārbauda atbilstība. Papildinformāciju skatiet sadaļā [Pienākumu sadales konfliktu identificēšana un atrisināšana](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

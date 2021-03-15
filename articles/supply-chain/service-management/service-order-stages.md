@@ -46,3 +46,6 @@ Iestatot pakalpojuma posmu, var izveidot vairākas opcijas vai zarus, lai tos at
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

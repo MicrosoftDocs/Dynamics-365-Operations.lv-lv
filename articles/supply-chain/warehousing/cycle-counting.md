@@ -139,3 +139,6 @@ Jūs varat pielāgot inventarizācijas laikā aprēķinātās vērtības starpī
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

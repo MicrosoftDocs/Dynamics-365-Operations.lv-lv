@@ -40,3 +40,6 @@ Laidienos pirms 10.0.13 izlaiduma, ja neizmantojat taupīgo ražošanas izmaksu 
 > Jūs gatavojaties izpildīt Krājumu slēgšanu ar datumu %1. Nav reģistrēta neviena Atgriezeniska izmaksu aprēķināšana ar datumu %1 salīdzināšanas perioda beigas. Lūdzu atceraties veikt Atgriezenisko izmaksu aprēķināšanu ar datumu %1 salīdzināšanas perioda beigas. Krājumu novērtējums, pārdoto preču izmaksas un novirzes Apakšgrāmatās vai Virsgrāmatā var nebūt pareizas, kamēr tās nav izpildītas.
 
 Šī problēma ir novērsta, 10.0.13 laidienā un jaunākos. Papildinformāciju skatiet [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Papildinformāciju par mobilās ierīces izvēlnes elementiem skatiet [Mobilo ie
 Papildinformāciju par ražošanas scenāriju *Reģistrēt pabeigšanu* skatiet [Noliktavas darba politiku pārskats](warehouse-work-policies.md).
 
 Papildinformāciju par saņemšanas noslodzes pārvaldību skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

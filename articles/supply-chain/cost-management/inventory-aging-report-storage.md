@@ -56,3 +56,6 @@ Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo sistēmā. Admin
     > Veidlapā netiek iekļautas starpsummas, kas definētas pārskata izkārtojumā.
 
 Datu elements **Krājumu novecošanas pārskats** ļauj eksportēt **Krājumu vecumstruktūru pārskata glabāšana** pārskatu, lietojot filtru laukam **Procesa identifikators – nosaukums** jebkurā formātā, ko atbalsta datu pārvaldība.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

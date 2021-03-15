@@ -76,3 +76,6 @@ Atrašanās vietas direktīvas nosaka, *kur* krājumi jāizdod un *kur* tie jāi
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Palīdzības tēma: [Novietojuma direktīvu izveide](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

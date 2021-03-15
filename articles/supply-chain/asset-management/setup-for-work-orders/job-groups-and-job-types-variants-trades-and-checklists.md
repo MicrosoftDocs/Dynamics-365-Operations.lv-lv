@@ -266,3 +266,6 @@ Lietojot Līdzekļu pārvaldību, varat automātiski atjaunināt jebkādas izmai
 2. Dialoglodziņā **Atjaunināt uzturēšanas darba tipa prognozi**, ātrajā cilnē **Iekļaujamie ieraksti** jūs varat pēc vajadzības pievienot konkrētu uzturēšanas darbu tipu izvēli. Atlasiet **Filtrs** un pēc tam **Atlasīt**, lai veiktu atlasi.
 3. Ātrajā cilnē **Palaist fonā** jūs varat pēc vajadzības uzstādīt automātisko atjauninājumu kā pakešuzdevumu.
 4. Atlasiet **Labi**, lai sāktu prognozes atjaunināšanu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

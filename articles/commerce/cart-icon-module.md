@@ -65,3 +65,6 @@ Lai pievienotu groza ikonas moduli, skatiet [Galvenes modulis](author-header-mod
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

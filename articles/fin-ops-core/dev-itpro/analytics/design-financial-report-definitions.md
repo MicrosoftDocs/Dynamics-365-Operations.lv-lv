@@ -84,3 +84,6 @@ Tālāk redzamajā tabulā ir aprakstītas pārskata definīcijas cilnes un info
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

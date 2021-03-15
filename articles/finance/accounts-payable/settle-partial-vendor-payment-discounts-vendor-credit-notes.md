@@ -70,3 +70,6 @@ Eiprila var pārskatīt kreditoru darbības lapā **Kreditoru darbības**, atlas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

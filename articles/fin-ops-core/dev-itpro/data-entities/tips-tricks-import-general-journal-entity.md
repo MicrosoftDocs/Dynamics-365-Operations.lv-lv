@@ -65,3 +65,6 @@ Tālāk norādītajās sadaļās ir aprakstīta šo iestatījumu ietekme. Tie ar
 - Ja lauks **Dokumenta numurs** ir iestatīts uz **Automātiski ģenerēts**, tad importēšana neizdosies. Iestatījums **Automātiski ģenerēts** laukam **Dokumenta numurs** netiek atbalstīts.
 
 Pēc noklusējuma elements Virsgrāmatas žurnāls izmanto no kopas atkarīgu apstrādi. Kad esat izvērtējis savas organizācijas biznesa prasības, iestatījumu **No kopas atkarīga apstrāde** varat mainīt, noklikšķinot uz **Datu elementi** darbvietā **Datu pārvaldība**. No kopas atkarīga apstrāde tiek izmantota, lai paātrinātu importēšanas procesu. Ja neizmantojat no kopas atkarīgu apstrādi, elementa Virsgrāmatas žurnāls importēšana notiks lēnāk.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

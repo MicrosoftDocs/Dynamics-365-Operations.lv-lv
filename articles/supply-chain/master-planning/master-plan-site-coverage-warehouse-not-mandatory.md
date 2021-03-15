@@ -62,3 +62,6 @@ Nākamajā grafikā ir attēlots, kā tiek veikta vispārējā plānošana. Para
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

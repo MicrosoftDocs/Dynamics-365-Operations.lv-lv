@@ -105,3 +105,6 @@ Lai pievienotu video atskaņotāja moduli jaunā lapā un iestatītu nepiecieša
 [Teksta bloka modulis](add-content-rich-block.md)
 
 [Satura bloka modulis](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

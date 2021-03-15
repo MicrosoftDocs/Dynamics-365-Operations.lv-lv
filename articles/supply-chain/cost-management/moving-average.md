@@ -154,3 +154,6 @@ Ja pēc darījuma jaunais rīcībā esošais daudzums ir pozitīvs, darījums ti
 
 > [!NOTE]
 > Virsgrāmatu nevar saskaņot ar krājumiem, izmantojot opciju **Transakciju laika kārtošana**. Pārskats ir jādrukā, izmantojot opciju **Grāmatošanas datums**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

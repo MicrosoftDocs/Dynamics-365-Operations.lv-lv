@@ -98,3 +98,6 @@ Nākamais uzdevums ir izveidot IP, lai no kreditoriem saņemtu piedāvājumus pa
 8. Atlasiet lapu.
 9. Atlasiet Pabeigt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

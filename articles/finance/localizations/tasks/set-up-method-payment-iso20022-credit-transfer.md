@@ -47,3 +47,6 @@ Pirms uzdevuma pabeigšanas, ir jāiestata eksporta formāta konfigurācijas un 
 10. Laukā Maksājumu konts norādiet vērtības DEMF OPER.
 11. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

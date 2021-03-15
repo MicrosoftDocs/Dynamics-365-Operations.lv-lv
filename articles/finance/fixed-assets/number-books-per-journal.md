@@ -49,3 +49,6 @@ Piemēram, ir 5001 pamatlīdzekļu ID, trīs grāmatas ir saistītas ar katru pa
 
 > [!Note] 
 > Ja, veidojot nolietojuma priekšlikumu, parametrs **Nolietojuma kopsavilkums** ir ieslēgts, tad vērtībai laukā **Grāmatu skaits žurnālā – Nolietojuma priekšlikums** nav ietekmes. Šajā gadījumā grāmatu skaits žurnālā ir 6000, kas ir iekšējais definētais ierobežojums.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

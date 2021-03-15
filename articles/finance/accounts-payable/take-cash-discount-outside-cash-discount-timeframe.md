@@ -90,3 +90,6 @@ Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

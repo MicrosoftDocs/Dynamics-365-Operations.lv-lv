@@ -225,3 +225,6 @@ Lai iespējotu atliktas finanšu reģistrācijas manuālu izpildīšanu, POS izk
     1. Atlasiet atjaunināmo izkārtojumu.
     2. Pievienojiet jaunu pogu un iestatiet pogas rekvizītu **Pabeigt finanšu reģistrācijas procesu**.
     3. Lapā **Sadales grafiks** palaidiet darbu **1090**, lai jūsu veiktās izmaiņas pārsūtītu uz kanāla datu bāzi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

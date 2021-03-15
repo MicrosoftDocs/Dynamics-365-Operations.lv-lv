@@ -55,3 +55,6 @@ Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

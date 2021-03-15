@@ -66,3 +66,6 @@ Pirms tabulas ierobežojumu var izmantot preces konfigurācijas modelī, tabulas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

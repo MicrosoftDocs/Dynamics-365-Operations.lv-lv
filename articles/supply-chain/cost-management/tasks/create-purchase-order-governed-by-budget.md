@@ -61,3 +61,6 @@ Izmantojiet šo procedūru, lai izveidotu pirkšanas pasūtījumu, kurā ir pār
 4. Noklikšķiniet uz Skatīt budžeta pārbaudes kļūdas vai brīdinājumus.
 5. Noklikšķiniet uz Aizvērt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -158,3 +158,6 @@ ms.locfileid: "5092254"
 42. Noklikšķiniet uz **Saglabāt**.
 43. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

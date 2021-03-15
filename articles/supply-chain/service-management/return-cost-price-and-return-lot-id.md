@@ -111,3 +111,6 @@ Ja izmantojat lauku **Atgrieztā laidiena ID** atgriešanas pasūtījuma rindā,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

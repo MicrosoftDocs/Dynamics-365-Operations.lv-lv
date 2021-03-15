@@ -74,3 +74,6 @@ Lai pievienotu alternatīvu adresi pakalpojuma pasūtījumam, rīkojieties šād
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

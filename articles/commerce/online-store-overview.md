@@ -120,3 +120,6 @@ Informāciju par to, kā pārvaldīt vietnes saturu, skatiet tālāk norādītaj
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
 
 [Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

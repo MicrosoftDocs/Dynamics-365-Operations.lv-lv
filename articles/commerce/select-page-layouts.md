@@ -79,3 +79,6 @@ Lai atlasītu citu izkārtojumu esošai lapai, rīkojieties, kā norādīts tāl
 
 [Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

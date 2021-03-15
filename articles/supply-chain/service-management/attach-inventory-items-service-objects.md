@@ -50,3 +50,6 @@ vienība tagad ir pievienots pakalpojuma objektam un visas inventāra dimensijas
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Sekojošajā attēlā redzama loģika, kas tiek izmantota, kad atlaides vienlaic
 Sekojošajā attēlā redzama loģika, kas tiek izmantota, kad atlaides vienlaicīguma kontrole ir iestatīta kā **Labākā cena tikai prioritātē, vienmēr salikts prioritātē**.
 
 ![Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē](./media/Model_2.png "Optimālas cenas loģika tikai prioritātes ietvaros, vienmēr salikta prioritātē").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

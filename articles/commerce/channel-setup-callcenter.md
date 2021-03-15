@@ -135,3 +135,6 @@ Lai iestatītu cenu grupu, rīkojieties šādi:
 [Pārkāpumu brīdinājumu iestatīšana un darbs ar tiem](set-up-fraud-alerts.md)
 
 [Nepārtrauktības programmu iestatīšana zvanu centriem](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

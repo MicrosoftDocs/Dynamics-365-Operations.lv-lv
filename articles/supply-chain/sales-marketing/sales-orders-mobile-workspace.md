@@ -141,3 +141,6 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 4.  Atlasiet debitoru.
 5.  Atlasiet vienumu **Kontaktinformācija** vai **Pārdošanas pasūtījumi**. Ja atlasāt vienumu **Pārdošanas pasūtījumi**, tiek parādīts šī debitora pārdošanas pasūtījumu saraksts.
 6.  Atlasiet vienumu **Pārdošanas pasūtījums**. Tagad varat skatīt informāciju par pārdošanas pasūtījuma rindām, informāciju par sūtījumiem, debitora kontaktinformāciju un pasūtījuma veicēja kontaktinformāciju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

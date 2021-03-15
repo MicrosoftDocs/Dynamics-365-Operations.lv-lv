@@ -45,3 +45,6 @@ Lai izbeigtu aktīvas ražošanas plūsmas versiju, jums nepieciešams iestatīt
     * Neturpiniet, ja neesat 100% pārliecināts, ka šī ražošanas plūsmas versija ir novecojusi. Noklikšķinot uz Ok (Labi), beidzas visi aktīvie kanban nosacījumi, un tiek nekavējoties pārtrauktas visas ražošanas un papildināšanas darbības ar šo ražošanas plūsmas versiju.  
 6. Noklikšķiniet uz OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -803,3 +803,6 @@ Viens no RSAT svarīgākajiem līdzekļiem ir testa gadījumu savienošana ķēd
 2. Pārbaudiet, vai abi testa gadījumi ir sekmīgi.
 
     ![Rezultātu lauks ir iestatīts kā sekmīgs abiem testa gadījumiem](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

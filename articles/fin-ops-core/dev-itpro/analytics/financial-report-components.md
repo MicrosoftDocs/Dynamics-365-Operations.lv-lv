@@ -126,3 +126,6 @@ Kad atverat kādu veidošanas bloku, citiem lietotājiem ir tikai lasīšanas pi
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskati](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

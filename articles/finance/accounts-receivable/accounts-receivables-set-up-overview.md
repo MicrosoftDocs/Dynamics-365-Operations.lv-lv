@@ -109,3 +109,6 @@ Plašāku informāciju skatiet rakstā [Kredīts un iekasēšana modulī Debitor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

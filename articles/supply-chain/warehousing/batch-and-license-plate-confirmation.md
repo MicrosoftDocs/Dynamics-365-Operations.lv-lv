@@ -47,3 +47,6 @@ Partijas un numura zīmes apstiprināšanas funkciju var iestatīt, izmantojot m
 
 1. Izmantojot mobilās ierīces izvēlnes vienumus, pārejiet uz darba konfigurēšanas iestatījumu sadaļu.  
 1. Atlasiet partijas vai numura zīmes apstiprināšanas opciju. Abas opcijas ir pieejamas darba tipa izdošanām, kam nav iespējota automātiskā apstiprināšana.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Ja uzkrājumi tiek apstrādāti, kamēr darbinieka atvaļinājums tiek atlikts, 
 - [Konfigurēt atvaļinājumu un kavējumu veidus](hr-leave-and-absence-types.md)
 - [Atvaļinājumu un prombūtnes plānu uzkrāšana](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

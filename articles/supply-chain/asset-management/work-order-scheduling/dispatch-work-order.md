@@ -59,3 +59,6 @@ Tālāk redzamais attēls parāda nosūtīšanas atlašu piemēru dialoglodziņ�
 [!NOTE]
 Ja vēlaties dzēst darba pasūtījuma grafiku, atlasiet darba pasūtījumu sadaļā **Visi darba pasūtījumi** un pēc tam noklikšķiniet uz **Dzēst grafiku** cilnē **Vispārīgi**. Izdzēšot grafiku, neaizmirstiet manuāli atjaunināt darba pasūtījuma dzīves cikla stāvokli.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

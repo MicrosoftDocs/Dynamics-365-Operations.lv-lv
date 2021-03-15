@@ -46,3 +46,6 @@ ms.locfileid: "5113397"
 15. Noklikšķiniet uz Atvieglojumi.
 16. Sarakstā atrodiet atvieglojumu un atlasiet ierakstu. Ievērojiet jauno vajadzību beigu datumu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

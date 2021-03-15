@@ -112,3 +112,6 @@ Tālāk redzamā tabula parāda sarakstu veidus, kas ir pieejami atlasei dialogl
 [Preču ieteikumu apskats](product-recommendations.md)
 
 [Ātrā skata modulis](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

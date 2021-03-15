@@ -42,3 +42,6 @@ Attēlā tālāk ir parādīts sarakstu lapas **Aktīvie darba pasūtījumu uztu
 
 Īsu aprakstu par pogām sarakstu lapā **Aktīvie darba pasūtījuma uzturēšanas uzdevumi** skatiet [Ievads par darba pasūtījumiem](../work-orders/introduction-to-work-orders.md), kur aprakstītas identiskas pogas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

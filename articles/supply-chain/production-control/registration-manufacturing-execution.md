@@ -61,3 +61,6 @@ Darbinieki var veikt dažāda veida reģistrācijas ierakstus ražošanas izpild
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

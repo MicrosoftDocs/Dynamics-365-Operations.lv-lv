@@ -47,3 +47,6 @@ Dynamics 365 Commerce vietnes vislabāk atbalsta šādas tīmekļa pārlūkprogr
 [Failu robots.txt pārvaldība](manage-robots-txt-files.md)
 
 [Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

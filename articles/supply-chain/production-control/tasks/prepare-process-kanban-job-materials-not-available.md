@@ -51,3 +51,6 @@ ms.locfileid: "4994095"
 6. Noklikšķiniet uz Sagatavot.
     * Ņemiet vērā, ka ikona Darba statusa laukā norāda, ka darbs ir gatavs.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

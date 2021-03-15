@@ -37,3 +37,6 @@ Ja importētais rēķins ir pakļauts darbplūsmā iesniegšanas procesam, varat
 - **Pārtraukts** — automatizētie procesi, kas ir definēti lapā **Kreditoru parametri**, ir palaisti, bet vismaz viena procesa darbība neizdevās. Arī statuss **Pārtraukts** tiek piemērots, ja lauks **Iekļaut automatizētajā apstrādē** ir iestatīts uz **Nē**. Varat apskatīt kļūmes, atlasot **Skatīt visjaunākos rezultātus**.
 - **Darbplūsmā** — importētais rēķins ir iesniegts darbplūsmas sistēmā, vai nu automatizētā darbplūsmā iesniegšanas procesa rezultātā, vai manuāli.
 - **Darbplūsma pabeigta** — darbplūsmas process importētajam rēķinam ir pabeigts.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

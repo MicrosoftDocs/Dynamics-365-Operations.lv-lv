@@ -62,3 +62,6 @@ Pēc noklusējuma iestatījums **Maksimālais izpildes laiks** nav pieejams. Ja 
 
 - **Modulis:** *Noliktavas pārvaldība*
 - **Līdzekļa nosaukums:** *Maksimālais izpildes laiks noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbam*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

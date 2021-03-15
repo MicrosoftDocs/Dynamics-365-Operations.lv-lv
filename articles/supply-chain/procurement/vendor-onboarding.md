@@ -174,3 +174,6 @@ Potenciālā piegādātāja reģistrācijas pieprasījumam izmantojot darbību *
 |         Apstiprināts         |                                                                               Piegādātāja pieprasījums ir apstiprināts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
 |         Noraidīts         |                                                                               Piegādātāja pieprasījums ir noraidīts.                                                                               |                                                                                                   Tiek izdzēsts potenciālā piegādātāja reģistrācijas pieprasījums, kreditora reģistrācijas vednī ievadītie dati un piegādātāja pieprasījums.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

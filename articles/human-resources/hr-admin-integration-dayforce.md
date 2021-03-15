@@ -676,3 +676,6 @@ Darbinieki var sniegt pases informāciju. Šīs informācijas identifikācijas t
 
 Darbinieki var sniegt vairākus identifikācijas numurus, kuru identifikācijas tips ir **Pase**. Taču pakalpojumā Dayforce tiek integrēts tikai pašreizējais aktīvais pases ieraksts. Ja visiem pases ierakstiem ir beidzies derīgiem, pakalpojumā Dayforce tiek integrēta pēdējā izdotā pase.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Nākamajā tabulā ir redzama katrā pārskata lapā pieejamā vizuālā inform�
 | Rēķini, kurus neizdevās importēt | <ul><li>Rēķini, kurus neizdevās importēt</li><li>Rēķini, kurus uzņēmumam neizdevās importēt</li></ul> |
 | Automatizācijas kļūmes iemesli | <ul><li>Rēķini neizdevās</li><li>Rēķini neizdevās pēc uzņēmuma</li><li>Rēķini neizdevās pēc kreditoru grupas</li></ul> |
 | Darbplūsmas statuss                | <ul><li>Rēķini darbplūsmā</li><li>Kreditora rēķina darbplūsmas instances</li><li>Piešķīrums apstiprinātājam</li><li>Kreditora rēķina darbplūsma katram uzņēmumam</li><li>Vidējais dienu skaits darbplūsmā pēc apstiprinātāja</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Detalizētās bankas darbību saskaņošanas funkcija ļauj importēt banku izra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

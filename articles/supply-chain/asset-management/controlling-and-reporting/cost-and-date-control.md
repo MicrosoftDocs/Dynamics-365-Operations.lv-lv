@@ -107,3 +107,6 @@ Tālāk esošajā ekrānuzņēmumā ir parādīts līdzekļu aprēķina rezultā
 ![Piemēram, aprēķina rezultāts ir Darba pasūtījuma datuma kontrole](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

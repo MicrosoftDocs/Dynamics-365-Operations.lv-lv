@@ -124,3 +124,6 @@ Kad pirkšanas pieprasījums ir saistīts ar pirkšanas līgumu, pirkšanas līg
 
 Tirdzniecības līgumus var izveidot jebkurai atbildei uz piedāvājuma pieprasījumu (PP) neatkarīgi no tā, vai tie ir pieņemti vai noraidīti. Papildinformāciju skatiet rakstā [Piedāvājuma pieprasījumu (PP) pārskats](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

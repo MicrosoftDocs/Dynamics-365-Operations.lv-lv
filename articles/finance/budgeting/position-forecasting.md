@@ -217,3 +217,6 @@ Lai redzētu, kuros budžeta plānos prognozes pozīcija tika iekļauta, jūs va
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

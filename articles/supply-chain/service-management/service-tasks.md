@@ -89,3 +89,6 @@ Kad automātiski veidojat pakalpojumu pasūtījumus, kā grupēšanas kritēriju
 2. Cilnes **Iestatījumi** laukā **Pakalpojumu pasūtījumu kombinēšana** atlasiet **Pēc pakalpojuma uzdevuma**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

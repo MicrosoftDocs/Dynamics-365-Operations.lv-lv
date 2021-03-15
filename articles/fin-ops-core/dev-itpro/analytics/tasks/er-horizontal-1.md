@@ -148,3 +148,6 @@ Ir nepieciešams arī lejupielādēt un saglabāt veidnes ar pārskata paraugu l
 49. Noklikšķiniet uz Saglabāt.
 50. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

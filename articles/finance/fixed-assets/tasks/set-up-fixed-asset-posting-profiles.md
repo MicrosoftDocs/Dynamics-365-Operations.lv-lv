@@ -122,3 +122,6 @@ ms.locfileid: "4994819"
 88. Laukā **Galvenais konts** norādiet vēlamās vērtības.
 89. Laukā **Korespondējošais konts** norādiet vēlamās vērtības.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

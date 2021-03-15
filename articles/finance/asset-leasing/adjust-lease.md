@@ -134,3 +134,6 @@ Ja noma ir koriģēta, varat apskatīt dažādas tās versijas. Varat arī skat�
 
 2. Lai skatītu vēsturiskos grafikus, atveriet izmanīto nomu no lapas **Nomas kopsavilkums**, atlasiet vajadzīgo grāmatu un pēc tam darbību rūtī atlasiet **Grāmatas versijas vēsture**.
 3. Lapā **Grāmatas versija** atlasiet versiju un grafiku, lai to skatītu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

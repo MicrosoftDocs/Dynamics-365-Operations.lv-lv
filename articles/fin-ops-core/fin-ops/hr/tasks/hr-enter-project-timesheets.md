@@ -51,3 +51,6 @@ Veicot šo procedūru, varat izveidot darba laika uzskaites tabulu, izmantojot t
 21. Noklikšķiniet uz **Iesniegt**.
 22. Noklikšķiniet uz **Iesniegt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

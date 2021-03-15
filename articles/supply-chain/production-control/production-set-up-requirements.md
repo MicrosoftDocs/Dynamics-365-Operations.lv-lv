@@ -80,3 +80,6 @@ Ja strādājat ar maršrutiem, tad operācijas ir nepieciešams definēt katram 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

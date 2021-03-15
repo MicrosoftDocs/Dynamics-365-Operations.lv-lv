@@ -116,3 +116,6 @@ Izmantot šo procedūru, varat iegūt informāciju par to, kā izveidot jaunu el
 68. Klikšķiniet Saglabāt.
     * Ņemiet vērā, ka lauks 'Izpilde' norāda, ka šī grupēšana tiks veikta izpildes laikā atmiņā pat tad, ja nav definēts neviens apkopojums un atlasītais datu avots, kura tips ir 'Tabulas ieraksti', attiecas uz to pašu 'Intrastat' tabulu. Tas skaidrojams ar to, ka datu avots satur dažus aprēķinātus laukus, kurus vēl nevar transformēt SQL datu bāzes līmenī.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

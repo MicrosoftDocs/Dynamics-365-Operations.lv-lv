@@ -82,3 +82,6 @@ Jūs varat arī iespējot laukus **Sākuma laiks** un **Beigu laiks** veidlapas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

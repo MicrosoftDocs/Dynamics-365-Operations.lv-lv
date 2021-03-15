@@ -64,3 +64,6 @@ Atsevišķi pārskati sniedz informāciju par katru darbības veidu. Izmantojiet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

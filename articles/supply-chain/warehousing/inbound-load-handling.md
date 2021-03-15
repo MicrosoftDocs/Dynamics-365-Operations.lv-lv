@@ -477,3 +477,6 @@ Pirmās noslodzes saņemšanas uzdevums tagad ir pabeigts. Divi preču saņemša
     - **Daudzums** – ievadiet _7_, kas ir atlikušais daudzums, ko kreditors ir pilnvarots piegādāt kā daļu no kopējā pirkšanas pasūtījuma daudzuma 12 (kur 10 ir sākotnējais pasūtījuma daudzums, un 2 ir atļautais 20 procentu pārsniegšanas daudzums). Atcerieties, ka 5 gb jau ir reģistrēti attiecībā pret pirmo noslodzi.
 
 Otrā noslodze tagad ir atjaunināta ar daudzumu 7, un to var saņemt preču saņemšanā, kas tiek atjaunināta, pamatojoties uz šo daudzumu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

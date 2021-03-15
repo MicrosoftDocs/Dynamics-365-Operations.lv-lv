@@ -47,3 +47,6 @@ Ar nosegšanu saistītā informācija tiek tverta un to var parādīt lapā **No
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -161,3 +161,6 @@ Jo ER konfigurācijas ir kopīgotas starp uzņēmumiem, var aizpildīt rokasgrā
 7. Noklikšķiniet uz Labi.
     * Noklusējuma modeļu kartēšanas konfigurācija tiek izmantota šai formāta konfigurācijai, lai ģenerētu elektronisko dokumentu (izveidotā izvade ietver uzņēmuma kodu).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

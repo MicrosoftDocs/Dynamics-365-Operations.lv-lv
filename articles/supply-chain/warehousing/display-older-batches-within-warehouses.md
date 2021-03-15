@@ -39,3 +39,6 @@ Konfigurācija **Rādīt vecākās partijas noliktavā** ir pieejama mobilās ie
 
 - Sadaļā **Noliktavas pārvaldība** > **Iestatīšana** > **Mobilā ierīce** > **Mobilās ierīces izvēlnes vienumi** iestatiet opciju **Izmantot esošo darbu** uz **Jā** izvēlnes vienumam un laukā **Izdot vecāko partiju** atlasiet **Brīdināt**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

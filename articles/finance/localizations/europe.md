@@ -99,3 +99,6 @@ ms.locfileid: "5099903"
 
 - [Elektronisko pārskatu veidošanas apskats](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Lejupielādēt elektronisko pārskatu veidošanas konfigurāciju no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

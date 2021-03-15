@@ -88,3 +88,6 @@ Lai pievienotu teksta bloka moduli jaunā lapā un iestatītu nepieciešamos rek
 
 [Video atskaņotāja modulis](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

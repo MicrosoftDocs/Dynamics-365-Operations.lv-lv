@@ -42,3 +42,6 @@ ms.locfileid: "4978540"
 | 6            | BusinessUnit, 1 Nodaļa, 2 | Finanšu dimensijas atribūti, kas ir definēti segmenta secībā.<p>Varat izmantot **Eksporta** lapu, lai pārbaudītu, kā atribūti ir definēti.</p> |
 | 7            | 002,1,658 | <ul><li>Finanšu dimensijas vērtība</li><li>Finanšu dimensija kā indekss, kas norādīts RecordDimensions</li><li>Nenoteikts, unikāls ieraksta ID, kas ir saistīts ar unikālo ieraksta ID no RecordTrans vai RecordTrans2</li></ul> |
 | 8            | 002,1,1 | <ul><li>Dimensijas vērtības, kas ir saistītas ar darījumu no RecordBudget</li><li>Finanšu dimensija kā indekss, kas norādīts RecordDimensions</li><li>Nenoteikts rindas ieraksta ID, kas ir saskaņots ar darījumu rindu secību failā</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

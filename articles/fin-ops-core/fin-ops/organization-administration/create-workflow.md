@@ -83,3 +83,6 @@ Kad esat gatavs saglabāt un aktivizēt darbplūsmu, izpildiet tālāk aprakstī
 
     - Lai aktivizētu šo darbplūsmas versiju, noklikšķiniet uz **Aktivizēt jauno versiju**. Kad darbplūsma ir aktīva, lietotāji var tajā iesniegt dokumentus apstrādei.
     - Ja nevēlaties aktivizēt šo versiju, noklikšķiniet uz **Neaktivizēt jauno versiju**. Varat aktivizēt darbplūsmu vēlāk.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

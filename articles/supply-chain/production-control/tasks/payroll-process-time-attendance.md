@@ -69,3 +69,6 @@ ms.locfileid: "4977792"
 7. Noklikšķiniet uz Rediģēt.
 8. Laukā Apmaksas līgums ievadiet vai atlasiet kādu vērtību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

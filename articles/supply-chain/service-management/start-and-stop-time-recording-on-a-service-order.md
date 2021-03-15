@@ -64,3 +64,6 @@ Izmantojiet šo procedūru, lai sāktu un apturētu laika reģistrēšanu pakalp
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

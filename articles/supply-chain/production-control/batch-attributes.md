@@ -52,3 +52,6 @@ Rezervējat partijas pārdošanas pasūtījumam, lai izpildītu debitora pasūt�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

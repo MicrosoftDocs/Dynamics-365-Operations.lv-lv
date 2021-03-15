@@ -41,3 +41,6 @@ Kad līdzekļu nolietojuma aprēķināšana ir atjaunināta, var izpildīt katra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

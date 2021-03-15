@@ -99,3 +99,6 @@ Darba šūna ir specifiska resursu grupu forma, kuru var izmantot lean manufactu
 ## <a name="save"></a>Saglabāt
 1. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

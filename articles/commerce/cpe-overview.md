@@ -63,3 +63,6 @@ Lai varētu nodrošināt Commerce novērtējuma vidi, skatiet sadaļu [Commerce 
 [Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi](cpe-optional-features.md)
 
 [Dynamics 365 Commerce novērtējuma vide - bieži uzdotie jautājumi](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

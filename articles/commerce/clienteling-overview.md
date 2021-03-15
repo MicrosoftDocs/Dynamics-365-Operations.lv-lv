@@ -132,3 +132,6 @@ Pēc lauku atjaunināšanas atlasiet **Pārbaudīt**, lai nodrošinātu, ka nosl
 8. Sadaļā Commerce lapā **Commerce parametri** cilnē **Klientu piesaiste** kopsavilkuma cilnē **Dynamics 365 Customer Insights** iestatiet **Lietojumprogrammas ID** "CI_Access_AppID" (no 1. soļa iepriekš). **Slepenajam vārdam** izvēlieties slepeno vārdu, kas ievadīts iepriekš 7. darbībā ("CISecret"). Atlasiet opcijai **Iespējot Customer Insights** iestatījumu **Jā**. Ja iestatīšana kāda iemesla dēļ neizdosies, tiks parādīts kļūdas ziņojums, un šī opcija tiks iestatīta uz **Nē**. 
 
 Customer Insights var būt vairākas vides, piemēram, testa un ražošanas vides. Laukā **Vides instances ID** ievadiet atbilstošo vidi. Laukā **Alternatīvā klienta ID** ievadiet to rekvizītu programmā Customer Insights, kas ir kartēts ar klienta konta numuru. (Commerce klienta konta numurs ir klienta ID.) Atlikušie trīs rekvizīti ir pasākumi, kas tiks parādīti klienta kartē klientu grāmatā. Varat atlasīt līdz trim mērījumiem, kas jāparāda klienta kartē. Tomēr nav nepieciešams atlasīt nekādus pasākumus. Kā iepriekš norādīts, sistēma vispirms parāda šīs vērtības, un tad tā parāda klientu grāmatas atribūtu grupas vērtības.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

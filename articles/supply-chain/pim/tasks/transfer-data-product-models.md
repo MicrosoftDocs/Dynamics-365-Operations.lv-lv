@@ -36,3 +36,6 @@ Lai eksportētu datus par preces konfigurācijas modeli, ir jābūt pieejamam vi
 5. Noklikšķiniet uz Eksportēt preču modeli.
     * Lejupielādes process dažādās pārlūkprogrammās ir atšķirīgs atkarībā no tā, kā ir iestatīti drošības iestatījumi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

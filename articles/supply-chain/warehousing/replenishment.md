@@ -78,3 +78,6 @@ Tā vietā, lai pieprasījumu vajadzētu saskaitīt sadalījuma procesa beigās 
 |   Novietojuma direktīvas   |                                                       Novietojuma direktīvas ir nepieciešamas, lai vadītu darbu uz novietojumiem, kur ir nepieciešama papildināšana, un uz novietojumiem, no kuriem tiek iegūti krājumi.                                                        |
 |     Darbu veidnes      |                                                   Darba veidnes ar tipu <strong>Papildināšana</strong> ir nepieciešamas, lai izveidotu papildināšanas darbu un krājumus varētu pārvietot uz vēlamajiem novietojumiem.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

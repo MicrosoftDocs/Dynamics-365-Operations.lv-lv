@@ -145,3 +145,6 @@ Sistēmā ir ietverta detalizēta (neapkopota) krājumu tabula, kurā redzami š
 | IA0001 | 1 | 2 | 2 |
 
 Ievērojiet, ka iestatījumi **Filtru** rūtī attiecas uz detalizēto (neapkopoto) krājumu tabulu, kas tiek parādīta šīs sadaļas sākumā. Tādējādi kritērijs **Pieejama fiziskā** \| **vērtība ir mazāka par vai vienāda ar** \| _1_ atrod divas rindas no šīs tabulas (pirmā un trešā rinda, no kurām katra rāda **Pieejamo fizisko** vērtību _1_). Tomēr šajā scenārijā **Rīcībā esošā saraksta** lapa nav iestatīta, lai rādītu **Noliktavas** dimensiju. Tāpēc tā apvieno divas sākotnējās rindas vienā iegūtajā rindā, jo abām rindām ir vienādas vērtības visās parādītajās dimensijās. Šī rinda tiek rādīta, lai pārkāptu filtrēšanas kritēriju, jo **Pieejamā fiziskā** vērtība tiek parādīta kā _2_. Tomēr rezultāts ir pareizs, jo iestatījumi **Filtru** rūtī attiecas uz avota tabulu, nevis uz apkopoto tabulu, kas tiek rādīta **Rīcībā esošā saraksta** lapā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

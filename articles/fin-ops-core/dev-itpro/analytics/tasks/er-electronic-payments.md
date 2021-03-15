@@ -81,3 +81,6 @@ Lai veiktu šīs darbības, vispirms veiciet "Konfigurācijas izveide ar maksāj
 25. Noklikšķiniet uz OK.
     * Analizējiet izveidoto maksājumu failu XML formātā. Salīdziniet to ar izstrādāto dokumenta izkārtojumu un definētajiem maksājuma transakcijas atribūtiem.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

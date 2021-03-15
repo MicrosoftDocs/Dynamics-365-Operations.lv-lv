@@ -74,3 +74,6 @@ Lai papildinātu preces lapu, veiciet tālāk minētās darbības.
 [Lapas satura pieejamības pārbaude](verify-accessibility.md)
 
 [Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

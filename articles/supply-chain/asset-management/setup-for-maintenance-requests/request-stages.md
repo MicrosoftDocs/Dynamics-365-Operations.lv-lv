@@ -80,3 +80,6 @@ Kad esat izveidojis dzīves cikla stāvokļus, kas nepieciešami uzturēšanas p
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu dzīves cikla modeļi** piemērs.
 
 ![Uzturēšanas dzīves cikla modeļu lapa](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

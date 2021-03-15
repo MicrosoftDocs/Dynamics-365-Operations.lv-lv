@@ -60,3 +60,6 @@ Nosegšana būs 100,00; tiks iekļauts maksājums 99,00 un atlaide 1,00.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

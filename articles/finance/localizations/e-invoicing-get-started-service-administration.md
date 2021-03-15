@@ -150,3 +150,6 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 3. Laukā **Vide** ievadiet elektronisko rēķinu izrakstīšanas pievienojuma vides nosaukumu.
 4. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

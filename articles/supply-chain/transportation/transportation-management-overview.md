@@ -86,3 +86,6 @@ Programmatūra Supply Chain Management nodrošina noslodzes plānošanas stratē
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

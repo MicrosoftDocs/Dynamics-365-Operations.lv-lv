@@ -60,3 +60,6 @@ Lapā **Novērtējuma profili** varat pārskatīt visus pieejamos novērtējuma 
 
 > [!NOTE]
 > Lapā **Nosūtīšanas pārvadātāji** izveidotie profili tiek parādīti arī lapā **Novērtējuma profili**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

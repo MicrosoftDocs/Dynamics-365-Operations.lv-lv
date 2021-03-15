@@ -60,3 +60,6 @@ Plašāku informāciju skatiet rakstā [Audita ierobežojuma nosacījumi](audit-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

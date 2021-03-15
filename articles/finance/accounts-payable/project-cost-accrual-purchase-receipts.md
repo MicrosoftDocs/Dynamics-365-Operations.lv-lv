@@ -82,3 +82,6 @@ Kreditora rēķina stāvoklis ir Nenokārtots, līdz tiek saņemts faktiskais kr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

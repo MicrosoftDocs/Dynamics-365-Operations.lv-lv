@@ -409,3 +409,6 @@ Kad Supply Chain Management ģenerē darbus ražotnei, tas apkopos atbilstošos 
 - Ja definējat vairākas maršruta operāciju saites, kas ietver *Visas* saites un piešķir tām ceļvežus, darbam tiks parādīts tikai ceļveži, kas saistīti ar viskonkrētāko saiti.  
 
 ![Shēma, kā atrisināt atbilstošos ceļvežus](media/instruction-guides-Resolve.png "Shēma, kā atrisināt atbilstošos ceļvežus")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

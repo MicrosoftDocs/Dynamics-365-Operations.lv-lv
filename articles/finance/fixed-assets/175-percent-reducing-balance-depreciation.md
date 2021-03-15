@@ -87,3 +87,6 @@ Izmantojot 175% degresīvā nolietojuma aprēķināšanas metodi, 175 procenti t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

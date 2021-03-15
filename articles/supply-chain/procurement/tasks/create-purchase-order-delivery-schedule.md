@@ -73,3 +73,6 @@ Lai preču ieejas plūsmas varētu apstrādāt, pirkšanas pasūtījumam ir jāb
 6. Sakļaujiet sadaļu **Rindas**.
 7. Atlasiet **Labi**, lai iegrāmatotu ieejas plūsmu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

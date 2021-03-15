@@ -96,3 +96,6 @@ Nākamajā attēlā ir parādīts detalizētā skata **Dīkstāves uzturēšanas
 - Jūs varat nokopēt līdzekļus no vienas dīkstāves uzturēšanas dēļ darbības citā. In **Visas dīkstāves uzturēšanas dēļ darbības** atlasiet pogu **Kopēt dīkstāves uzturēšanas dēļ darbības** un veiciet atlasi laukos **Dīkstāves uzturēšanas dēļ darbības no** un **Dīkstāves uzturēšanas dēļ darbības līdz** un noklikšķiniet uz **Labi**.
 - Laukā **Visas dīkstāves uzturēšanas dēļ darbības** noklikšķiniet uz pogas **Uzturēšanas grafika rindas** vai pogas **Aktīvi darba pasūtījumi**, lai atvērtu saistītos sarakstus un skatītu rindas, kas ir saistītas ar atlasīto dīkstāves uzturēšanas dēļ darbību.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

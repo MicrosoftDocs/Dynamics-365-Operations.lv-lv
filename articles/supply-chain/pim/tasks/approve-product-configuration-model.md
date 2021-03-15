@@ -48,3 +48,6 @@ ms.locfileid: "4987108"
     * Aktivizējiet preču modeļa versiju. Vienam preču modelim vienlaicīgi var būt aktīva tikai viena prece.  
 13. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

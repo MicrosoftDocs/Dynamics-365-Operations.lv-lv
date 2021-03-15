@@ -66,3 +66,6 @@ Lai ieviestu Lean Manufacturing, mēs izvēlējāmies ražošanas plūsmas un ak
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

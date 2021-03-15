@@ -293,3 +293,6 @@ Ja izstrādātājs jaunā režģa kolonnās iestata rekvizītu **WidthMode** uz 
 ### <a name="quality-update-for-1009platform-update-33"></a>Kvalitātes atjauninājums 10.0.9./ Platformas atjauninājums 33
 
 - [KB 4550367] Laika vērtības nav pareizi formatētas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

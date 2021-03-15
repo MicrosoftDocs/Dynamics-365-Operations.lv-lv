@@ -45,3 +45,6 @@ Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas pr
 8. Sarakstā noņemiet atzīmi no atlasītās rindas.
     * Atlasiet nākamo projekta amatu un turpiniet ievadīt darbinieka informāciju katrai personai, kuru pieņemat darbā.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

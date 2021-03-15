@@ -65,3 +65,6 @@ Pēc pielāgotās apgriešanas pabeigšanas attēla izmaiņas stāsies spēkā g
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
 
 [Augšupielādēt un apkalpot statiskos failus](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

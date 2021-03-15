@@ -88,3 +88,6 @@ Lai redzētu pārskatu par visām dīkstāves uzturēšanas dēļ reģistrācij�
 >[!NOTE]
 >Visi kalendāri, izmantoti modulī **Līdzekļu pārvaldība**, tiek iestatīti **Organizācijas administrēšana** > **Uzstādīšana** > **Kalendāri** > **Kalendāri**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

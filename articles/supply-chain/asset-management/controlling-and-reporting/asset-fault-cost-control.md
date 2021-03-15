@@ -61,3 +61,6 @@ Programmā Līdzekļu pārvaldība, varat aprēķināt reģistrēto līdzekļu k
     ![1. attēls](media/05-controlling-and-reporting.png)
 
 Papildinformāciju par kļūmju iestatīšanu skatiet tēmā [Kļūmju pārvaldība](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

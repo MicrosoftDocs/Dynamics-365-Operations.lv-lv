@@ -195,3 +195,6 @@ Klientiem, kuri vēl nav ieslēguši [Saglabāti skati](saved-views.md) līdzekl
 Kad personalizējat krājumu dimensiju iestatījumus lapā, ņemiet vērā iestatījumus, kas izveidoti, izmantojot opciju **Parādīt dimensijas**. Piemēram, jūs izmantojat personalizāciju, lai paslēptu kolonnu partijas numuru krājumu dimensijai, bet šī kolonna tiek rādīta nākamajā reizē, kad lapa tiek atvērta. Tā notiek, jo iestatījumi **Dimensiju rādīšana** kontrolē, kuras krājumu dimensiju kolonnas tiek rādītas. Iestatījumi **Dimensiju rādīšana** tiek lietoti visās lapās, un tiem ir prioritāte pār jebkādiem personalizētajiem krājumu dimensiju lauku iestatījumiem atsevišķās lapās.
 
 Tāpēc, tāpat kā iepriekšējā piemērā, ja nevēlaties, lai lapā tiek parādīta partijas numura krājumu dimensijas kolonna, ir jānoņem attiecīgās dimensijas atzīme konkrētās lapas opcijas **Parādīt dimensijas** ietvaros.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

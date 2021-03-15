@@ -161,3 +161,6 @@ Pirms vajadzības darbības sākšanas ir jāveic pirmsvajadzības solis, kura l
 - **Vienlaicīgi viena lielas noslodzes rutīna** — nepalaidiet vispārējo plānošanu kopā ar citām lielas noslodzes rutīnām.
 - **Pārskatīt sesijas žurnālu.**
 - **Krājumu filtrēšana** — izmantojiet dzīves cikla stāvokli, lai izslēgtu krājumus no vispārējās plānošanas izpildes. (Neizmantojiet krājuma numurus.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

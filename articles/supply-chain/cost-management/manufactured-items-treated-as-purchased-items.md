@@ -41,3 +41,6 @@ Lai izvairītos no šī aprēķina, atlasiet karodziņu **Pārtraukt izvēršanu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

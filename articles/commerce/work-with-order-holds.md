@@ -102,3 +102,6 @@ Ja lietotāji vēlas dzēst aizturi, bet veikt papildu izmaiņas pasūtījumā, 
 ## <a name="reporting-options"></a>Pārskatu veidošanas opcijas
 
 Dodieties uz **Retail un Commerce** \> **Pieprasījumi un pārskati** \> **Zvanu centra pārskati** \> **Pasūtījumu aizturēšanas pārskats**, lai veidotu pārskatu par aizturētiem pasūtījumiem pēc datumu diapazona, aizturēšanas koda vai citiem saistītajiem kritērijiem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Informācija šajā cilnē ir saistīta ar alternatīvo piegādes rindu, kas tie
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Pasūtījumu solīšana](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

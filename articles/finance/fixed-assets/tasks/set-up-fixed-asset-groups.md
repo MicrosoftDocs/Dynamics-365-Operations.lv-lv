@@ -38,3 +38,6 @@ ms.locfileid: "4994844"
 8. Laukā **Nolietojuma vienošanās** atlasiet opciju.
 9. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

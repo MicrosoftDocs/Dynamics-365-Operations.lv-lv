@@ -164,3 +164,6 @@ Ja pozitīvā maksājuma fails ir jāmaina, to var atsaukt. Lapā **Pozitīvā m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

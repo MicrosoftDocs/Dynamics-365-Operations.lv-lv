@@ -69,3 +69,6 @@ Izmantojot šo piemēru, komunālo izdevumu galvenajam kontam tiks izveidots jau
 > Pēc izvēles jūs varat izmantot pogu **Kopēt**, lai dublētu atlasīto sadalījumu.
 
 Kad galvenajam kontam ir izveidots sadalījuma nosacījums, sistēma automātiski grāmatos jaunu dokumentu, kolīdz tiks grāmatots dokuments, kas atbilst avota finanšu dimensijām sadalījuma nosacījumos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

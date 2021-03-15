@@ -32,3 +32,6 @@ ms.locfileid: "4796877"
 2. Laukā **Datums** ievadiet datumu.
 3. Atlasiet **Labi**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

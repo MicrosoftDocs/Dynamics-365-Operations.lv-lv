@@ -59,3 +59,6 @@ Kad pārdošanas pasūtījums ir iegrāmatots, iegrāmatotā izmaksu summa ir US
 
 > [!NOTE]
 > Salīdzinājumam — ja, iegrāmatojot pārdošanas pasūtījumu, izvēles rūtiņa **Iekļaut fizisko vērtību** šim krājumam ir atlasīta, iegrāmatoto izmaksu summa ir USD 12,00.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -169,3 +169,6 @@ Tiek rādītas visas pasūtījuma rindas atbildē veiktās izmaiņas. Taču aug�
 
 ### <a name="open-confirmed-orders"></a>Atvērtie apstiprinātie pasūtījumi
 Kad debitors apstiprina pirkšanas pasūtījumu (t.i., pirkšanas pasūtījuma statuss mainās uz **Apstiprināts**), tas tiek parādīts atvērto apstiprināto pasūtījumu sarakstā. Tas šajā sarakstā paliek, līdz debitors to reģistrē kā saņemtu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

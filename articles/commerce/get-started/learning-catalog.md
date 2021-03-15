@@ -140,3 +140,6 @@ Atrodiet pareizo tiešsaistes apmācību, personiskās darbnīcas un notikumus s
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

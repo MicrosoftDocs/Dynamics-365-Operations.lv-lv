@@ -47,3 +47,6 @@ Izvēršanas pieprasīšana materiālu komplekta (MK) versijas izveido pieprasī
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

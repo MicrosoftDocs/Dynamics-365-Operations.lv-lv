@@ -72,3 +72,6 @@ Ja e-komercijas vietnes līdzeklis vai modulis izmanto nebūtisku sīkfailu, vie
 [Sīkfailu piekrišanas modulis](cookie-consent-module.md) 
  
 [Galvenes modulis](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Lai novērstu eksponenciāli pieaugošā novērtējamo kombināciju daudzuma pro
 ![Formula robežvērtības aprēķināšanai](./media/overlapping-discount-combo-06.jpg)
 
 Kad ir aprēķināta katras atlaides robežvērtība kopīgo preču kopā, tad kopīgajām precēm tiek lietotas visas atlaides secībā no lielākās robežvērtības līdz mazākajai robežvērtībai. Šīs metodes ietvaros ikreiz pēc atsevišķas atlaides instances lietošanas netiek salīdzinātas visas atlikušās atlaižu iespējas. Tā vietā tiek vienu reizi salīdzinātas pārklātās atlaides, kas pēc tam tiek lietotas noteiktajā secībā. Netiek veikta papildu salīdzināšana. Sliekšņvērtību programmatūras pārslēgšanai uz robežvērtības metodi varat konfigurēt lapas **Commerce parametri** cilnē **Atlaide**. Pieņemamais kopējās atlaides parēķina laiks atšķirtas dažādās mazumtirdzniecības nozarēs. Taču parasti šis laiks ir no dažiem desmitiem milisekunžu līdz vienai sekundei.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

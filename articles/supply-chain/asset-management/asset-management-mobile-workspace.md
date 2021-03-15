@@ -239,3 +239,6 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 1. Atlasiet **Gatavs**.
 
     ![Pievienojiet pielikumu uzturēšanas pieprasījumam](media/am-mobile-10.png "Pievienot pielikumu uzturēšanas pieprasījumam")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

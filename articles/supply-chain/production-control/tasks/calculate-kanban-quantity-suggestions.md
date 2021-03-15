@@ -84,3 +84,6 @@ ms.locfileid: "4981385"
     * Ņemiet vērā, ka 4 ir fiksētais Kanban daudzums, kas noteikts Kanban daudzuma aprēķinā.  
 5. Noklikšķiniet uz cilnes ListPanel.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ PVN pārskatu kodi attiecas uz lauka numuru, kas norādīts PVN pārskatā. Tie 
 6. Laukā **Īss apraksts** ievadiet aprakstu iekšējai lietošanai.
 7. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

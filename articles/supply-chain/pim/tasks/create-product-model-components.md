@@ -37,3 +37,6 @@ Ierobežojumam atbilstošos preces konfigurācijas modeļos komponenti tiek izma
 7. Apraksta laukā ierakstiet vērtību.
 8. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

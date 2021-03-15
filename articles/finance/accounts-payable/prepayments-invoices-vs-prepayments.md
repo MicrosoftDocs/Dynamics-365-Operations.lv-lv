@@ -65,3 +65,6 @@ Priekšapmaksas rēķini ir ierasta uzņēmumu darbības prakse. Kreditors izsni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

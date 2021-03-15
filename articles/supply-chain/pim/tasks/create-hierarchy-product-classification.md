@@ -66,3 +66,6 @@ ms.locfileid: "4966959"
 8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 9. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

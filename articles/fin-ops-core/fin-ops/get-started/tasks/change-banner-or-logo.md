@@ -39,3 +39,6 @@ ms.locfileid: "4798074"
 6. Dodieties uz **Navigācijas rūts > Moduļi > Standarta > Standarta > Noklusējuma informācijas panelis**. Jaunajam reklāmkarogam vai logotipa attēlam būtu jābūt redzamam informācijas panelī.  
     
     Var būt nepieciešams mainīt savu uzņēmumu uz to, kuram augšupielādējāt reklāmkarogu, izmantojot uzņēmuma atlasītāju.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

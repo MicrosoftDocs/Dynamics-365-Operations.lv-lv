@@ -50,3 +50,6 @@ Standarta izmaksu krājumu izmaksu datus iespējams kopēt uz citu izmaksu versi
 
 [Sagatavošanās saglabāt ražotajiem krājumiem standarta izmaksas](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

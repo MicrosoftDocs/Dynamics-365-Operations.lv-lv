@@ -61,3 +61,6 @@ Kad tiek izmantota pakāpeniskās plūsmas pārskata grāmatošana, lai transakc
 Detalizēta informācija par finanšu saskaņošanu maiņā tiek sinhronizēta ar Commerce Headquarters, izmantojot P–darbu.
 
 Finanšu mazumtirdzniecības pārskati Commerce Headquarters neaprēķina kopsummas, lai parādītu informāciju par pārskata rindām. Tā vietā POS klienta faktiskie apjomi tiek izmantoti finanšu mazumtirdzniecības pārskatu izveidei un grāmatošanai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

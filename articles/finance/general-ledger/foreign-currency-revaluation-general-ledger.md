@@ -112,3 +112,6 @@ Varat anulēt pārvērtēšanas rezultātus neatkarīgi no datumu secības, tač
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

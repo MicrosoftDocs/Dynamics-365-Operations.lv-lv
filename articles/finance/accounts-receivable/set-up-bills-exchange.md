@@ -85,3 +85,6 @@ Lapā **Debitori** katram debitoram, kas piekritis maksāt, izmantojot vekseli, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 
     > [!NOTE]
    > Sistēma izveido vienu darba ID katrai kustībai, kas ir jāpabeidz. Ja norādāt novietojumu, kurā jau ir krājumi, tiek izveidots tikai viens darba ID. Ja norādāt jaunu novietojumu, tiek izveidoti divi darba ID.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

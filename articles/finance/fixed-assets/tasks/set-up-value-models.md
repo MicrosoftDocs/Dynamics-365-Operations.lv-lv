@@ -53,3 +53,6 @@ ms.locfileid: "4994794"
     * Ņemiet vērā, ka Nolietojuma periodi tiek aprēķināti pēc vērtības Lietošanas ilgums iestatīšanas.  
     * Jūs varat arī iestatīt nolietojuma aprēķināšanas metodi, ja nepieciešams nodokļu vajadzībām.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

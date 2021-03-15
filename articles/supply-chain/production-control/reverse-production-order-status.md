@@ -52,3 +52,6 @@ Ja atsaucat ražošanas pasūtījuma statusu, mainot to no **Sākts** uz **Izlai
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

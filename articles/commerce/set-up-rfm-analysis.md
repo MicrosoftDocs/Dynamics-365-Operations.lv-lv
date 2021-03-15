@@ -96,3 +96,6 @@ Lai skatītu RFM analīzes ierakstus vai notīrītu vēsturi, izmantojiet tālā
 2. Lapā **RFM analīze** atlasiet ierakstu, kuru vēlaties apskatīt.
 3. Lai skatītu ierakstu vēsturi, atlasiet kopsavilkuma cilni **Vēsture**.
 4. Lai notīrītu ieraksta vēsturi, atlasiet **Notīrīt vēsturi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

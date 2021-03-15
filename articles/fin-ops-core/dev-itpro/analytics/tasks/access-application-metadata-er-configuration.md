@@ -125,3 +125,6 @@ Nākamajās darbībās ir paskaidrots, kā Regulatory Configuration Service (RC
 > [!NOTE]
 > Šāds veids, kā iegūt informāciju par programmas metadatiem, ir vienīgais pieejamais lokāli izvietotajām programmām (kad risinājumā tiek izmantots vietējas biznesa datu (LBD) izvietošanas vai lokālas izvietošanas modelis).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

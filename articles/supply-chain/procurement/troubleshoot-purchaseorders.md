@@ -144,3 +144,6 @@ Tas tiek darīts ar nolūku. Atlasītā adrese ir jāklasificē kā piegādes ad
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Vai ir iespējams atrast lietotāju, kurš atcēla pirkšanas pasūtījumu?
 
 Šī informācija tiek izsekota tikai tad, ja pirkšanas pasūtījums ir pakļauts izmaiņu pārvaldībai. Ja izmantojat izmaiņu pārvaldību, jūs varat redzēt, kurš iesniedzis izmaiņas (atcelšanu) un kurš tās apstiprinājis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

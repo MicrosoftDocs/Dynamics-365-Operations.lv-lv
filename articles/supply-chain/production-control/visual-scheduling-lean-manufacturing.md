@@ -94,3 +94,6 @@ Kanban plānošanas paneli var atvērt, izmantojot izvēlnes vienumu tālāk nor
 
 [Kanban darbu plānošana ražošanai lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

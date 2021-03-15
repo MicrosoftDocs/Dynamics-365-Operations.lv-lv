@@ -57,3 +57,6 @@ Resursu grupa ir operācijas resursu kopa, kas parasti atbilst darba šūnu fizi
 6. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
 7. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

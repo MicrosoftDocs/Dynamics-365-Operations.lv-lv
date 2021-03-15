@@ -69,3 +69,6 @@ ms.locfileid: "4972284"
 27. Noklikšķiniet uz Saglabāt.
     * Ikreizi, kad tiek mainīti lojalitātes programmas shēmas kanāli, ir jāizpilda darbība Procesa lojalitātes programmas shēmas. Tādā veidā kanāli saņems atjauninātas lojalitātes programmas shēmas.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

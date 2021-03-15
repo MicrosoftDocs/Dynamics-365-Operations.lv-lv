@@ -48,3 +48,6 @@ Resursu iespējas apraksta, kādas operācijas šie resursi var paveikt. Plāno�
 5. Laukā Līmenis ievadiet kādu skaitli.
     * Ja norādāt, ka darbam vai operācijai ir nepieciešama īpaša iespēja, varat arī norādīt minimālo nepieciešamo līmeni. Izmantojiet iespēju līmeni, lai atšķirtu resursus, kas var izpildīt to pašu darbu, bet ar atšķirīgu ātrumu, jaudu, izmēriem un citiem faktoriem.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

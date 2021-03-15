@@ -62,3 +62,6 @@ Commerce Headquarters lietotāji var skatīt rekvizītu vērtības visiem klient
 [Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs](payment-method.md)
 
 [Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēs](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

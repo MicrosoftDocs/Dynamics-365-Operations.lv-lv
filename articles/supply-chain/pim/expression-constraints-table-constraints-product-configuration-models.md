@@ -253,3 +253,6 @@ Nevar izmantot rezervētus atslēgas vārdus kā risinātāja nosaukumus atribū
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

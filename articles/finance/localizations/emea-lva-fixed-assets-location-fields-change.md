@@ -45,3 +45,6 @@ Jūsu modifikācija tiek saglabāta, kad noklikšķināt uz **Saglabāt** vai ka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -249,3 +249,6 @@ Ja pirms kreditora rēķina reģistrēšanas žurnālā priekšskatāt apakšgr�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

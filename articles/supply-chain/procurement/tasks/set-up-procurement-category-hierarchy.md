@@ -44,3 +44,6 @@ ms.locfileid: "5017321"
 4. Atlasiet preces, ko vēlaties pievienot sagādes kategorijai.
 5. Atlasiet bultu, lai pievienotu preces tabulai **Atlasīts**.
 6. Atlasiet **Labi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

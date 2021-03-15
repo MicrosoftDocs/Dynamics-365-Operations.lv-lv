@@ -48,3 +48,6 @@ Lai saistītu skaita sēriju ar pārvadātāju, rīkojieties šādi:
 1. Atlasiet **Rediģēt**.
 1. Kopsavilkuma cilnē **Pārskats** atlasiet opciju laukā **Pro numura sērija**.
 1. Aizvērt lapu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

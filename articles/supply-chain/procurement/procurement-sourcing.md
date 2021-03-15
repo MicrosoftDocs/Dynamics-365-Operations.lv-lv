@@ -103,3 +103,6 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

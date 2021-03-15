@@ -579,3 +579,6 @@ Tabulā ir parādīts ER konfigurāciju saraksts, kas atbalsta konfigurējamus b
 |                             | Pārdošanas pasūtījuma pavadzīme (LT) (Excel)           |
 |                             | Pārdošanas pasūtījuma pavadzīme (PL) (Excel)           |
 |                             | Pārdošanas pasūtījuma pavadzīme (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

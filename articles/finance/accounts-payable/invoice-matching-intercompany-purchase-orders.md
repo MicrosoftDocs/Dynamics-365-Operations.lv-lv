@@ -69,3 +69,6 @@ Piemēram, izpildiet tālāk aprakstītās darbības.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

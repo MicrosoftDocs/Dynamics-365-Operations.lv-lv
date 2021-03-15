@@ -103,3 +103,6 @@ Lai skatītu atļautos atgriešanas norēķinu tipus POS, veiciet kādā no nāk
 
 
 ![Maksāšanas metožu saraksts](media/Return-policy-page5.PNG "Atļautie atmaksas veidi")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

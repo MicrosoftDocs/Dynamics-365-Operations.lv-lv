@@ -70,3 +70,6 @@ ms.locfileid: "4981065"
 8. Izmantojiet ātro filtru, lai Krājuma numura laukā filtrētu pēc vērtības P300.
     * Ņemiet vērā, ka pasūtījumiem tagad tiek noteikta secība atbilstoši krāsu un izmēru prioritātei, un plānoto pasūtījumu izpilde tiek sākta no pirmā pasūtījuma un piegādes datuma. Pārbaudiet pasūtījuma datuma kolonna vai Sākuma datumu grafika papildinformācijas rūtī.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

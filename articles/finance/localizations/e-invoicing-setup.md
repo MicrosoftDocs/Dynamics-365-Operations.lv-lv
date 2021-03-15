@@ -360,3 +360,6 @@ Veiciet šīs darbības, lai pārvaldītu elektronisko rēķinu izrakstīšanas 
 
     > [!NOTE]
     > Kad atlasāt **Jā**, konfigurācijas versiju statuss tiek automātiski mainīts no **Pabeigts** uz **Koplietojams**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

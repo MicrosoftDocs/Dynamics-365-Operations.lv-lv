@@ -97,3 +97,6 @@ Lai rēķinu kopsummu salīdzināšanai norādītu kreditoram raksturīgas toler
 
 1. Lai atsevišķiem kreditoriem norādītu tolerances, kas pārraksta noklusējuma toleranci, atlasiet **Kreditora konts**.
 2. Ievadiet novirzes procentuālo daļu, kuru pieņemsiet šim piegādātājam.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

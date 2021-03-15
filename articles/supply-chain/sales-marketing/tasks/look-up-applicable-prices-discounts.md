@@ -59,3 +59,6 @@ Pārliecinieties, ka laukā Debitora konts ir norādīts klienta numurs US-001
     * Precei T0012 ir divi rindas atlaides līgumi, kuros 5 procentu atlaide norādīta pasūtījuma rindas daudzumam no 1 līdz 10 un 7 procentu atlaide pasūtījuma daudzumam virs 10. Ievērojiet, ka atlaides tiek lietots preču grupai, šajā piemērā, Grupas kodam 01, kura daļa ir prece T0012.  
 4. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

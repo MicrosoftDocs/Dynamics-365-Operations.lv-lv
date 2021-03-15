@@ -207,3 +207,6 @@ Tiek rādīta seguma informācija par darbinieka apgādājamiem.
 
 > [!NOTE]
 > Lapā tiek rādīti tikai tie atvieglojumu plāni, kas ir atzīmēti kā **Norādāmi ACA pārskatā**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

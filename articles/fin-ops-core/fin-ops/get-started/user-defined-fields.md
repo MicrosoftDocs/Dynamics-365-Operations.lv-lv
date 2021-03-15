@@ -162,3 +162,6 @@ Veiktspējas un tehnisku iemeslu dēļ pielāgotos laukus pašlaik var pievienot
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Vai es varu norādīt pielāgotus laukus no izstrādātāja rīkiem?  
 
 Pielāgotus laukus var pārvaldīt tikai ar lietotāja interfeisu, un tos nevar norādīt ar kodu. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -835,3 +835,6 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot koplietot
 [Perifērijas simulators programmai Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

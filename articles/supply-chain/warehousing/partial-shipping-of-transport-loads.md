@@ -65,3 +65,6 @@ Ir jāizveido jauns izvēlnes elements, kas ļauj veikt transportēšanas kravu 
 
 1. Atlasiet **Noliktavas pārvaldība** \> **Kravas** \> **Transportēšanas kravas**.
 2. Darbību rūtī, cilnē **Nosūtīt un saņemt**, grupā **Apstiprināt** atlasiet **Transportēšana**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

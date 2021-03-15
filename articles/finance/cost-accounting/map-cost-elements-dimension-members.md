@@ -52,3 +52,6 @@ Jūs varat jebkurā laikā atjaunināt izmaksu elementa dimensijas definīcijas.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus pamatdatu ie
 4. Atlasiet **Nākamais**.
 5. Atl. **Pabeigt**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

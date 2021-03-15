@@ -45,3 +45,6 @@ Pamatlīdzekļus vajadzētu piešķirt pareizai pamatlīdzekļu grupai. Pamatlī
 6. Noklikšķiniet uz OK.
 7. Noklikšķiniet uz Jā.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

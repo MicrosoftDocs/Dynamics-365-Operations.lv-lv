@@ -57,3 +57,6 @@ Ja nepieciešams mainīt izdošanas daudzumu pēc tam, kad jau atlasīti krājum
 Ja līdzeklis **Uzlabota lietotāja pieredze izdošanas pasūtījuma apstrādei pārdošanas punktā** ir ieslēgts, organizācijas var pievienot pogu operācijai **Izdošanas rindu mainīšana** darījuma lapas ekrāna izkārtojumam. Kad programmā POS ir izveidots izdošanas darījuma grozs un atlasīti krājumi, varat izvēlēties **Izdošanas rindu mainīšanu**, ja ir nepieciešams mainīt izdošanas krājumus, bet nevēlaties anulēt visu darījumu. Parādītajā **Izdošanas rindu mainīšanas** dialoglodziņā varat mainīt izdošanas krājumus un daudzumus. Pēc tam darījuma grozs tiek atjaunināts, lai atspoguļotu veiktās izmaiņas.
 
 ![Izdošanas krājumu mainīšanas dialoglodziņš](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

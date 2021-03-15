@@ -56,3 +56,6 @@ ms.locfileid: "4968558"
 26. Laukā **Kreditora atlaižu galvenais konts** ievadiet galveno kontu, kurā tiks grāmatota termiņatlaide kreditora rēķiniem.
 27. Noklikšķiniet uz **Saglabāt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Noklusējuma ieturētā nodokļa grupa un krājuma ieturētā nodokļa grupa tik
 Ieturētais nodoklis tiek aprēķināts un grāmatots **Klientu maksājumu žurnālā**. Varat manuāli koriģēt piemērojamo ieturētā nodokļa kodu, kā arī faktisko ieturētā nodokļa summu cilnē **Ieturētais nodoklis** lapā **Transakciju kārtošana**.
 
 Aprēķinātā ieturētā nodokļa summa tiks atskaitīta no klienta maksājuma un grāmatota kontā **Ieturētā nodokļa korespondējošais konts** saistītā dokumentā.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

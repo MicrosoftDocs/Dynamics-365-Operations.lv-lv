@@ -74,3 +74,6 @@ Varat pievienot šādus aprēķinus:
 
 - *ResultDecimal* = *Ievade* x *Procenti* ÷ 100
 - *ResultInteger* = *ResultDecimal*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Anketu statistiku var izmantot, lai aprēķinātu vidējās vērtības, kopsumma
 2. Klikšķiniet Rezultāts.
 3. Aizvērt lapu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Iesniegšanas žurnālos ir iekļautas šādas papildu funkcijas:
 - **Atcelt iesniegšanas** – šī funkcija iespējo īpašu iesniegšanas procesu scenārijos, kuros elektroniskais rēķins jāapstiprina ārējam tīmekļa pakalpojumam. Tas sniedz norādījumus Elektronisko rēķinu izrakstīšanas pakalpojumam nosūtīt īpašu ziņojumu, kas paredzēts apstiprināta elektroniskā rēķina statusa atcelšanai tīmekļa pakalpojuma datu bāzē.
 - **Atkārtoti iesniegt dokumentu** - atkārtoti iesniedziet elektronisko dokumentu, kas jau ir iesniegts elektronisko rēķinu izrakstīšanas pievienojumprogrammā. **Iesniegšanas informācijas** lapā tiek izveidots pilnīgi jauns žurnāls.
 - **Sūtīt saistīto iesniegumu**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Izmaksu kontrolieris var izmantot šo procedūru, lai kartētu izmaksu elementa 
     * Šim piemēram atlasiet dimensijas elementu 6001004 Telefono.  
 11. Noklikšķiniet uz Saglabāt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Lai novirzītu vietrādi URL uz citu vietrādi URL, rīkojieties šādi.
 [Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
 
 [Valodu pievienošana vietnei](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

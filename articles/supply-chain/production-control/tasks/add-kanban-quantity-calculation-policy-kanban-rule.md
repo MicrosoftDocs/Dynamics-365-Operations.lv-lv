@@ -62,3 +62,6 @@ ms.locfileid: "4998821"
 8. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
     * Atlasiet politiku Speaker2016, kuru izveidojāt iepriekšējā apakšuzdevumā.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Plašāku informāciju par iestatījumiem, kas ir saistīti ar vērtējuma rezul
 
 > [!NOTE]
 > Ja maināt līdzekļu pakalpojumu līmeņa ierakstu lapā **Līdzekļu pakalpojumu līmeņi** pēc tam, kad esat to jau izmantojis darba pasūtījumā, pakalpojumu līmenis uzturēšanas pieprasījumiem un darba pasūtījumiem netiek atbilstoši atjaunināts.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

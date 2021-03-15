@@ -64,3 +64,6 @@ Jauna ienākošo kravu apstrādes funkcija *Pārsniedzot kravas daudzumu* izlabo
 1. Noslodzes daudzumu pārmērīga saņemšana
 
 Lai iegūtu papildu informāciju, skatiet [Reģistrēto preču daudzumu grāmatošana uz pirkšanas pasūtījumiem](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

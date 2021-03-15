@@ -128,3 +128,6 @@ Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Ele
 - [Maksājuma metodes iestatīšana ISO20022 pārvietošanai kredītā](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Maksājumu metodes iestatīšana ISO20022 tiešajam debetam](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Kreditoru un kreditoru bankas kontu iestatīšana ISO20022 kredīta pārsūtījumiem](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

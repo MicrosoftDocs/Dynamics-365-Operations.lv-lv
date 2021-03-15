@@ -328,3 +328,6 @@ Plānošanas programmas veiktspēju var optimizēt, izmantojot parametrus, kas a
 
 > [!NOTE]
 > Taimautiem iestatītās vērtības tiks piemērotas gan izpildei nodoto ražošanas pasūtījumu, gan plānoto pasūtījumu plānošanai, kā daļai no MRP. Tā rezultātā, iestatot ļoti lielas vērtības, var būtiski palielināt MRP izpildes laiku, kad tiek palaists plāns ar daudziem plānotiem ražošanas pasūtījumiem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -350,3 +350,6 @@ Veiciet šīs darbības, ja lēmums ir jāpieņem noteiktā laikā.
     - **Gadi** — izvēlieties dienu, nedēļu un mēnesi, līdz kuram ir jāpieņem lēmums. Piemēram, iespējams, vēlēsities, lai lēmums tiktu pieņemts līdz decembra trešās nedēļas piektdienai.
 
 4. Ja laika ierobežojums ir pārsniegts, sistēma pieņems lēmumu. Sarakstā **Darbība** atlasiet opciju, kura sistēmai būtu jāizvēlas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

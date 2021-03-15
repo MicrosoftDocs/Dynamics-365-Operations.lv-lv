@@ -46,3 +46,6 @@ Varat plānot turpmākos dzīves notikumus Dynamics 365 Human Resources.
    | Līnija | Turpmākā dzīves notikuma rindas numurs. |
 
 4. Atlasiet **Saglabāt**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

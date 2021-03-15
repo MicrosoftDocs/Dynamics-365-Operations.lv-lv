@@ -110,3 +110,6 @@ Lai konfigurētu elementu **Uzdevumi** POS programmas sākumlapā, veiciet šīs
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
 
 [Uzdevumu pārvaldība punktā POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Lai konfigurētu pielāgotu summu digitālai dāvanu kartei Commerce vietnes vei
 [Izveidot tiešsaistes funkcionalitātes profilu](online-functionality-profile.md)
 
 [Atbalsts ārējām dāvanu kartēm](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

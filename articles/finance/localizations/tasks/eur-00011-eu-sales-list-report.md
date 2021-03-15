@@ -100,3 +100,6 @@ ms.locfileid: "5009082"
 7. Noklikšķiniet uz OK.
 8. Laukā Atlase izvēlieties vienumu Slēgts.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

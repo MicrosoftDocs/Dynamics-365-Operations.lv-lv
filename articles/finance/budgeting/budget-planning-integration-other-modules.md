@@ -146,3 +146,6 @@ Pieejamie papildu pārskati ietver pārskatu **Prognozes pozīcijas pēc budžet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

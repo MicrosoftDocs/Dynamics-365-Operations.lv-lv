@@ -78,3 +78,6 @@ Pēc tam, kad visas cilnes ir izveidotas, tās var saistīt ar konfigurāciju.
 1. Turpiniet pievienot papildu cilnes pēc nepieciešamības.
 
 1. Izmantojiet rīkjoslas pogu **Pārvietot uz augšu** un **Pārvietot uz leju**, lai pēc nepieciešamības kārtotu cilnes. Cilnes tiks rādītas no kreisās uz labo tādā secībā, kā norādīts iepriekš attēlā (cilne virspusē tiek rādīta kreisajā pusē).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

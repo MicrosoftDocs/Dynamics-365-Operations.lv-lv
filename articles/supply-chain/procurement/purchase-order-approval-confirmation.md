@@ -98,3 +98,6 @@ Ja PP ir izmaiņu vadībā, jebkādas izmaiņas, piemēram, pasūtījuma atcelš
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

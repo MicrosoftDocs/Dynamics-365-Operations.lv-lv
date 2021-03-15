@@ -55,3 +55,6 @@ Dažus ražošanas darba veidus var saistīt ar projekta laika aprēķiniem un p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

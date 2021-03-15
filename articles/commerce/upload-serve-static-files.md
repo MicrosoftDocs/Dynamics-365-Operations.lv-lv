@@ -105,3 +105,6 @@ Lai mainītu vietrāža URL ceļu, veiciet tālāk norādītās darbības.
 [Attēlu apgriešana](dam-crop-images.md)
 
 [Attēlu fokusa punktu pielāgošana](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

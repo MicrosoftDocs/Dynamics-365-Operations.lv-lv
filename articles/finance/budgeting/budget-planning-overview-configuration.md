@@ -204,3 +204,6 @@ Varat arī izmantot izvēlni **Darbības**, lai izveidotu jaunu procesu, kopējo
 Cita noderīga komanda izvēlnē **Darbības** ir **Skatīt budžeta procesa statusu**. Šī komanda grafiski parāda budžeta plānus procesā, kā arī attiecīgos datus, piemēram, plānu darbplūsmu statusu, kopsavilkumus pēc summas un vienības, kā arī satur viena klikšķa navigācijas iespēju uz pašiem budžeta plāniem.
 
 [![Budžeta plānošanas procesa statuss](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

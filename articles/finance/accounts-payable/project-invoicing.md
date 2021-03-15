@@ -131,3 +131,6 @@ Varat izveidot rēķinu ar negatīvu summu — šāds rēķins kļūst par rēķ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

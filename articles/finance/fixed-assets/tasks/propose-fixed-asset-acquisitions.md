@@ -42,3 +42,6 @@ ms.locfileid: "4990443"
 - Tikai pamatlīdzekļi ar iegādes datumu un iegādes cenu, kas ir iestatīta grāmatā, tiks iekļauti iegādes priekšlikumā.  
 11. Lapā atlasiet cilni **Grāmatas**.
 12. Atlasiet **Grāmatot**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

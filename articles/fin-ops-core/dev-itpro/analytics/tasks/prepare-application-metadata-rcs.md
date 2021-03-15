@@ -80,3 +80,6 @@ Mēs pievienojām metadatu informāciju par Intrastat ierakstu tabulu.
 3.    Noklikšķiniet uz **Labi**. 
     
 Izveidotā ER metadatu konfigurācija ir saglabāta kā XML fails, kuru var importēt pakalpojumā RCS un izmantot kā avotu informācijai par metadatiem ārējās tirdzniecības uzņēmējdarbības jomai. Balstoties uz šo informāciju, mēs varam norādīt kartējumu starp programmas metadatiem un ER datu modeli.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

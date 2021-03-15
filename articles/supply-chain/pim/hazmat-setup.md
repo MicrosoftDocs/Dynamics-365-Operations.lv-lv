@@ -283,3 +283,6 @@ Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informāci
 *Bīstamo materiālu tuneļa* specifikācija ierobežo tuneļu tipus, caur kuriem var transportēt bīstamos materiālus, identificējot izmantojamo tuneļu tipus. Tuneļu kategorijas ir izveidotas ar piemērojamiem noteikumiem par bīstamo materiālu transportu. Šī specifikācija parasti attiecas tikai uz ceļu transportu.
 
 Lai iestatītu vērtības šai specifikācijai, dodieties uz **Preces informācijas pārvaldība \> Iestatījumi \> Bīstamo materiālu nosūtīšanas dokumentācija \> Bīstamo materiālu tunelis**. Lapā **Bīstamo materiālu tunelis** varat izveidot jebkādu tuneļu identifikatoru skaitu un konfigurēt katru ar identifikācijas kodu un īsu aprakstu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

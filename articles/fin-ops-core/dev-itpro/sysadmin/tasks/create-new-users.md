@@ -81,3 +81,6 @@ Lai mainītu lietotāja ID, datu bāzē ir jāpārdēvē atslēga. Ja, izmantojo
 Papildinformāciju par B2B lietotāju implementēšanu skatiet [sadaļā "Eksportēt B2B lietotājus uz Azure AD](../implement-b2b.md).
 
 Informāciju par iepriekškonfigurētiem sistēmas kontiem skatiet [Iepriekš konfigurētos sistēmas kontus](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

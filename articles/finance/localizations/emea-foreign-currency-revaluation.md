@@ -71,3 +71,6 @@ Ir jāpārvērtē un jākoriģē banku konti, ja pastāv maiņas kursu atšķir�
 
 > [!NOTE]
 > Virsgrāmatā var skatīt divas atsevišķas transakcijas: uzskaites valūtai un pārskata valūtai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

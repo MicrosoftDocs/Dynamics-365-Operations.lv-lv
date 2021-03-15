@@ -54,3 +54,6 @@ Ja nedefinējāt pamatlīdzekļa numuru Excel pievienojumprogrammas veidnē vai 
 
 > [!WARNING]
 > Fiksētais līdzekļa ieraksts netiks dzēsts, ja darījumi tika grāmatoti saistītajā grāmatā vai ja jaunizveidotais fiksētais līdzeklis ir ievadīts žurnāla rindā, bet nav grāmatots. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

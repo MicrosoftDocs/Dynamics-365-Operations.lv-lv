@@ -107,3 +107,6 @@ Kapitālās izmaksas lietošanas ilgums ir tāds pats kā pamatlīdzeklim un sā
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

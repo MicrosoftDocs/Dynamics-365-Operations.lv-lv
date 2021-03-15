@@ -106,3 +106,6 @@ Varat ievadīt piedāvājumu vai nu kā kreditors, vai kā sagādes speciālists
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skatīt ģenerēto pirkšanas pasūtījumu
 
 Darbību rūts cilnē **Vispārīgi** atlasiet **Pirkšanas pasūtījums**. Lapā, kas tiek parādīta, ir pirkšanas pasūtījums, kas tika ģenerēts, kad pieņēmāt piedāvājumu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

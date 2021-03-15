@@ -53,3 +53,6 @@ Nākamajā attēlā ir redzami uzturēšanas grafika izmaksu aprēķina rezultā
 
 ![1. attēls](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

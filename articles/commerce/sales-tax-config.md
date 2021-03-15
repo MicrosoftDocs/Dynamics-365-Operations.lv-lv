@@ -81,3 +81,6 @@ Pasūtījuma rindām ar saņemšanu veikalā vai saņemšanu pa ceļam tiek liet
 
 [Nodokļa atbrīvojuma aprēķināšana](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Pēc autorizēšanas rīka ielādes varat atlasīt **Sākums**, lai atgrieztos p
 [Meklētājprogrammas optimizēšanas (SEO) apsvērumi jūsu vietnei](search-engine-optimization-considerations.md)
 
 [Satura drošības politikas (CSP) pārvaldība](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Lai uzzinātu vairāk par šo līdzekli, atskaņojiet ER uzdevumu ceļvežu kop
 - [ER datu modeļa konfigurācija: Intrastat (modelis)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER modeļa kartējuma konfigurācija: Intrastat (kartēšana)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER formāta konfigurācija: Intrastat (formāts)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Varat turpināt precizēt meklēšanu, atlasot dokumenta veidu, piemēram, "kred
 [![Lietotais biznesa dokumenta tipa filtrs un imports](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Filtrētus rezultātus var importēt lietotāju RCS repozitorijā vai Dynamics 365 Finance vidē atsevišķi vai kā kopu. Lai to izdarītu, atlasiet konfigurāciju grupu un noklikšķiniet uz **Importēt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Lai pievienotu meklēšanas rezultātu moduli kategorijas lapai, veiciet tālāk
 [Moduļu bibliotēkas pārskats](starter-kit-overview.md)
 
 [Ātrā skata modulis](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

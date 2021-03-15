@@ -126,3 +126,6 @@ Lai veiktu pilnu sinhronizāciju tabulā starp Human Resources un Dataverse:
 [Human Resources virtuālās tabulas: Bieži uzdotie jautājumi](hr-admin-virtual-entity-faq.md)<br>
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminoloģijas atjauninājumi](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

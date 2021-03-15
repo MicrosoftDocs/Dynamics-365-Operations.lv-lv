@@ -44,3 +44,6 @@ Par kravu uzskatāmo konteineru skaits tiek aprēķināts, pamatojoties uz konte
 -   Lai konteineram iestatītu svaru un tilpumu, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru tipi**.
 
 -   Lai iestatītu konteinera izmantojuma procentuālo vērtību, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru grupas** un ievadiet vērtību laukā **Konteinera izmantojuma procentuālā vērtība**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

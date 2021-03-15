@@ -110,3 +110,6 @@ Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā **MK**
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu
 
 [Atvaļinājumu un kavējumu apskats](hr-leave-and-absence-overview.md)</br>
 [Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

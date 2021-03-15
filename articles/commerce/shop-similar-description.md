@@ -98,3 +98,6 @@ Sekojošajā attēlā ir parādīta izvēles rūtiņa **Iespējot Pirkt līdzīg
 [Manuāli izveidot pārraudzītus ieteikumus](create-editorial-recommendation-lists.md)
 
 [Bieži uzdotie jautājumi par preču ieteikumiem](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

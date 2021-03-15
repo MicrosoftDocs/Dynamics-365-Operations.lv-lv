@@ -333,3 +333,6 @@ Pārsūtīšanas pasūtījumi tiek izveidoti, neizmantojot **Piegādes datuma ko
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Vai var izmantot noliktavas vienību ar fiziski negatīviem rīcībā esošiem krājumiem?
 
 Līdzeklis atbalsta tikai pozitīvus fiziskos rīcībā esošos daudzumus. Pārliecinieties, ka fiziski rīcībā esošais daudzums noliktavā un krājumu statusa līmenī ir pozitīvs, pirms noliktavas vienību piešķiršanas pārsūtīšanas pasūtījumam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

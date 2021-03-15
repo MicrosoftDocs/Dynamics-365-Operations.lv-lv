@@ -45,3 +45,6 @@ Juridiskā persona ir organizācija, kas tiek identificēta ar reģistrāciju ju
 15. Izvērsiet sadaļu **Nodokļa reģistrācija**. Sadaļā **Nodokļa reģistrācija** ievadiet reģistrācijas numurus, kas tiek izmantoti, atskaitoties nodokļu iestādēm.
 16. Izvērsiet sadaļu **Nodoklis 1099**. Sadaļā **Nodoklis 1099** ievadiet 1099 informāciju par juridisko iestādi.  
 17. Noklikšķiniet uz **Saglabāt**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

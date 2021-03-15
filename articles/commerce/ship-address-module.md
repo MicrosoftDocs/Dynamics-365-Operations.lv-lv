@@ -71,3 +71,6 @@ Piegādes adreses moduli var pievienot tikai norēķināšanās modulim. Lai ieg
 [Pasūtījumu informācijas modulis](order-confirmation-module.md)
 
 [Dāvanu kartes modulis](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

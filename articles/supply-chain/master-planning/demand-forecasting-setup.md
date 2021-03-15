@@ -101,3 +101,6 @@ Cilnē **Sadalījuma principi** jūs varat iestatīt **Prognozēšanas algoritma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

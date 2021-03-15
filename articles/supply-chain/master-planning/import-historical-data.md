@@ -61,3 +61,6 @@ Pēc vēsturisko pieprasījuma datu importēšanas varat ģenerēt pieprasījuma
 
 [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)  
 [Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Katrai rindai, kuru pievienojat, iestatiet tālāk norādītos laukus.
 | Anketa | Atlasiet anketu, kas jāizmanto kontrolsarakstam. Kontrolsaraksts ir vietējais kontrolsaraksts uzņēmumā, kur pabeigta gatavības pārbaude. Sistēmai ir jāvar novērtēt, vai kontrolsaraksts ir pareizi atbildēts. Tāpēc kontrolsaraksts ir jāiestata tā, lai novērtējums tiktu veikts, pamatojoties uz pareizām atbildēm. Papildinformāciju par to, kā izveidot anketas, skatiet [Anketu lietošana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) un ar to saistītās tēmas. |
 | Automātisks apstiprinājums | Gatavības pārbaudes ieraksti ietver izvēles rūtiņu **Apstiprināts**, kas norāda apstiprinājuma statusu. Atzīmējiet izvēles rūtiņu **Automātisks apstiprinājums** pārbaudēm, kas jāiestata uz apstiprināts uzreiz pēc tam, kad piešķirtais lietotājs tos pabeidz. Nodzēsiet šo izvēles rūtiņu, lai pieprasītu tiešu apstiprinājumu kā papildu darbību. |
 | Obligāts | Atzīmējiet šo izvēles rūtiņu pārbaudēm, kas jāaizpilda piešķirtajam lietotājam. Obligātās pārbaudes nevar izlaist. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

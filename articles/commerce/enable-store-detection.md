@@ -68,3 +68,6 @@ Lai ieslēgtu uz atrašanās vietu balstītu veikala atrašanu Commerce, veiciet
 [Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
 
 [Atbalsta pievienošana satura piegādes tīklam (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

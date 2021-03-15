@@ -156,3 +156,6 @@ Tālāk redzamajā ilustrācija ir parāda ietekme, ko rada LIFO krājumu modeļ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

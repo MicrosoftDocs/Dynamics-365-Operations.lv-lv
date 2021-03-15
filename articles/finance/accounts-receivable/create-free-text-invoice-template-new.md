@@ -67,3 +67,6 @@ ms.locfileid: "4991169"
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Brīva teksta rēķina veidnes saglabāšana
 Pašreizējo brīva teksta rēķinu varat saglabāt arī kā veidni. Cilnē Rēķins atlasot Saglabāt kā veidni, ievadiet veidnes nosaukumu un aprakstu. Ja veidne ar tādu nosaukumu jau pastāv, tiks parādīts paziņojums par to, ka veidne ar šādu nosaukumu jau pastāv. Jūs vienalga varat noklikšķināt uz Labi, lai to aizstātu. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

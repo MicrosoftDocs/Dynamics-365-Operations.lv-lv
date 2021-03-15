@@ -1033,3 +1033,6 @@ Nav pievienoti jauni līdzekļi.
 [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md)
 
 [Jauni uzdevumu ceļveži (2016. gada februāris)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

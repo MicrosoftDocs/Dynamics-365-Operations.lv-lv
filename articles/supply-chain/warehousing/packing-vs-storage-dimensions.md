@@ -133,3 +133,6 @@ Kad esat sagatavojis sistēmu tā, kā aprakstīts iepriekšējā sadaļā, esat
 1. Atveriet mobilo ierīci, piesakieties noliktavā 63 un dodieties uz sadaļu **Krājums \> Pielāgošana**.
 1. Ievadiet **Loc** = *SHORT-01*. Izveidojiet jaunu numura zīmi ar **Krājumu** = *A0001* un **Daudzumu** = *1 gab.*.
 1. Atlasiet **Labi**. Tiks saņemts kļūdas ziņojums "Atrašanās vieta SHORT-01 neizdevās, jo krājums A0001 neatbilst novietojumā norādītajām dimensijām." Tas tādēļ, ka preces *Noliktavas* tipa dimensijas ir lielākas par noliktavas profilā norādītajām dimensijām.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

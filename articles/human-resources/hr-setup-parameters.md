@@ -50,3 +50,6 @@ Iestatījumi cilnē **Numuru sērija** nosaka sērijas, kas tiek izmantotas, lai
 
 > [!NOTE]
 > Nostrādāto stundu skaits nedrīkst pārsniegt 1250 un nodarbinātības garums nedrīkst pārsniegt 12 mēnešus. Šīs maksimālās vērtības ir saskaņā ar federālo likumu Amerikas Savienotajās Valstīs. Visbeidzot, iestatījumi cilnē **Darbinieku pašapkalpošanās** nosaka informāciju, ko vadītāji var ievadīt savu darbinieku vārdā.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

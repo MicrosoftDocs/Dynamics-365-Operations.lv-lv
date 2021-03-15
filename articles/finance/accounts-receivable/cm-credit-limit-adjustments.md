@@ -123,3 +123,6 @@ Darbplūsmas **Kredīta limita korekcijas** var izmantot, lai nosūtītu kredīt
 
 > [!NOTE]
 > Kad izveidojat darbplūsmu **Kredīta limita korekcijas**, varat iestatīt to, lai korekcijas tiktu automātiski grāmatotas pēc rindu apstiprināšanas. Vienkārši darbplūsmā iekļaujiet uzdevumu **Grāmatot žurnālu automātiski**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

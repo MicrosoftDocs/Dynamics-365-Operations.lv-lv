@@ -82,3 +82,6 @@ Ar jebkuru no šīm metodēm datu jaunināšanas skripts izmantos arī numuru s�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

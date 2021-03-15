@@ -63,3 +63,6 @@ Vietas atlasītāja moduli var pievienot [Galvenes modulim](author-header-module
 [Atpakaļceļa modulis](add-breadcrumb.md)
 
 [Navigācijas izvēlnes modulis](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

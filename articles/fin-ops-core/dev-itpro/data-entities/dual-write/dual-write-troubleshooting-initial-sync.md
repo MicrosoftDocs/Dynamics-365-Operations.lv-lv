@@ -211,3 +211,6 @@ Ja jebkādām rindām debitora tabulā ir vērtības kolonnās **ContactPersonID
     Rindu sākotnējā sinhronizācija tagad ir pabeigta.
 
 8. Programmā Finance and Operations vēlreiz iespējojiet izmaiņu izsekošanu tabulā **Debitori V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

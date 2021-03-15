@@ -70,3 +70,6 @@ Lai modelētu lean manufacturing apakšlīguma darbu, jāizveido darba šūna, k
 24. Laukā Vienība noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
 25. ResolveChanges vienumam Vienība.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

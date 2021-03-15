@@ -63,3 +63,6 @@ Nākamajā attēlā ir redzama cilne **Uzdevumu saraksti**.
 [Uzdevumu sarakstu izveidošana un uzdevumu pievienošana](task-mgmt-create-lists.md)
 
 [Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

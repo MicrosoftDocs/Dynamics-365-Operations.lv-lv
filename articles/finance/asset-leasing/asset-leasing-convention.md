@@ -50,3 +50,6 @@ Lai skatītu vai piešķirtu nomas līgumu, izpildiet šīs darbības.
 3. Atlasiet **Saglabāt**.
 
 Izveidojot nomu, katras grāmatas sākuma datums tiek automātiski ievadīts, pamatojoties uz nomas sākuma datumu un uz nomas līgumu, kas norādīts grāmatai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

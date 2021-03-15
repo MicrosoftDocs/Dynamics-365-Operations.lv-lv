@@ -108,3 +108,6 @@ Lai izpildītu tālāk norādītās darbības, vispirms izpildiet procedūras da
 
 ![EP datu modeļa veidotāja lapa](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

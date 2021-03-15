@@ -58,3 +58,6 @@ ms.locfileid: "5011451"
 1. Noklikšķiniet uz **Krājumi**.
 2. Noklikšķiniet uz **Transakcijas**. Šeit varat redzēt darbības, kas tika izveidotas, grāmatojot žurnālu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,5 @@ Lai lejupielādētu veidni **Power Automate – SQL savienojums un izpilde**, ej
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Risinājums Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

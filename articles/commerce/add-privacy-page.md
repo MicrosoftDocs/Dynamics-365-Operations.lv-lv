@@ -108,3 +108,6 @@ Uz fragmentu tagad var atsaukties veidnē citām vietnes lapām. Ja uz šo fragm
 [Sīkfailu atbilstība](cookie-compliance.md)
 
 [Aizstāt lietotāja ID, kas saistīti ar izsekotām satura izmaiņām](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
