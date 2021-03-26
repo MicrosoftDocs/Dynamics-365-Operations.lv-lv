@@ -17,31 +17,34 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8b65fe3968698da1c5b76cf2d0ef706f3f1ec4bb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6f818fa552fe5651dc7d56de265fe989c57fa822
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972661"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257077"
 ---
-# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="eebb4-103">Rēķinu apmaksas scenāriju iestatīšana</span><span class="sxs-lookup"><span data-stu-id="eebb4-103">Set up pay invoice scenarios</span></span>
+# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="932d8-103">Rēķinu apmaksas scenāriju iestatīšana</span><span class="sxs-lookup"><span data-stu-id="932d8-103">Set up pay invoice scenarios</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="eebb4-104">Rēķinu apmaksāšanas funkcionalitāte programmā Dynamics 365 Commerce ir paplašināta, lai atbalstītu tālāk minētos elementus.</span><span class="sxs-lookup"><span data-stu-id="eebb4-104">The Pay invoice functionality in Dynamics 365 Commerce has been expanded to support:</span></span>
+<span data-ttu-id="932d8-104">Rēķinu apmaksāšanas funkcionalitāte programmā Dynamics 365 Commerce ir paplašināta, lai atbalstītu tālāk minētos elementus.</span><span class="sxs-lookup"><span data-stu-id="932d8-104">The Pay invoice functionality in Dynamics 365 Commerce has been expanded to support:</span></span>
 
-- <span data-ttu-id="eebb4-105">Vairāku pārdošanas pasūtījumu rēķinu apmaksa vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="eebb4-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
-- <span data-ttu-id="eebb4-106">Dažādu debitora rēķinu veidu, tostarp brīva teksta rēķinu, projekta rēķinu un kredīta notu, apmaksa.</span><span class="sxs-lookup"><span data-stu-id="eebb4-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
+- <span data-ttu-id="932d8-105">Vairāku pārdošanas pasūtījumu rēķinu apmaksa vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="932d8-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
+- <span data-ttu-id="932d8-106">Dažādu debitora rēķinu veidu, tostarp brīva teksta rēķinu, projekta rēķinu un kredīta notu, apmaksa.</span><span class="sxs-lookup"><span data-stu-id="932d8-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
 
-<span data-ttu-id="eebb4-107">Lai iespējotu šos scenārijus, funkcionalitātes profils veikaliem jākonfigurē, kā norādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="eebb4-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
+<span data-ttu-id="932d8-107">Lai iespējotu šos scenārijus, funkcionalitātes profils veikaliem jākonfigurē, kā norādīts tālāk.</span><span class="sxs-lookup"><span data-stu-id="932d8-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
 
-1. <span data-ttu-id="eebb4-108">Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> POS iestatījumi \> POS profili \> Funkcionalitātes profili** un izvēlieties profilu, kas ir piesaistīts veikaliem, kuriem vēlaties veikt izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="eebb4-108">Go to **Retail and Commerce \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
-2. <span data-ttu-id="eebb4-109">Cilnē **Funkcijas** pēc nepieciešamības konfigurējiet tālāk norādītos parametrus.</span><span class="sxs-lookup"><span data-stu-id="eebb4-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
+1. <span data-ttu-id="932d8-108">Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Kanāla iestatīšana \> POS iestatījumi \> POS profili \> Funkcionalitātes profili** un izvēlieties profilu, kas ir piesaistīts veikaliem, kuriem vēlaties veikt izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="932d8-108">Go to **Retail and Commerce \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+2. <span data-ttu-id="932d8-109">Cilnē **Funkcijas** pēc nepieciešamības konfigurējiet tālāk norādītos parametrus.</span><span class="sxs-lookup"><span data-stu-id="932d8-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
 
-    - <span data-ttu-id="eebb4-110">**Pārdošanas pasūtījuma rēķins** — atlasiet **Jā**, lai atļautu lietotājiem apmaksāt vienu vai vairākus pārdošanas pasūtījuma rēķinus vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="eebb4-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="eebb4-111">**Brīva teksta rēķins** — atlasiet **Jā**, lai atļautu lietotājiem apmaksāt vienu vai vairākus brīva teksta rēķinus vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="eebb4-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="eebb4-112">**Projekta rēķins** — atlasiet **Jā**, lai atļautu lietotājiem apmaksāt vienu vai vairākus projekta rēķinus vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="eebb4-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="eebb4-113">**Pārdošanas pasūtījuma kredīta nota** — atlasiet **Jā**, lai atļautu lietotājiem nosegt vairākas pārdošanas pasūtījumu kredīta notas ar atvērtiem rēķiniem vai apstrādāt atmaksu debitoram par atvērtu kredīta notu.</span><span class="sxs-lookup"><span data-stu-id="eebb4-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
+    - <span data-ttu-id="932d8-110">**Pārdošanas pasūtījuma rēķins** — atlasiet **Jā**, lai atļautu lietotājiem apmaksāt vienu vai vairākus pārdošanas pasūtījuma rēķinus vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="932d8-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="932d8-111">**Brīva teksta rēķins** — atlasiet **Jā**, lai atļautu lietotājiem apmaksāt vienu vai vairākus brīva teksta rēķinus vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="932d8-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="932d8-112">**Projekta rēķins** — atlasiet **Jā**, lai atļautu lietotājiem apmaksāt vienu vai vairākus projekta rēķinus vienā POS transakcijā.</span><span class="sxs-lookup"><span data-stu-id="932d8-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="932d8-113">**Pārdošanas pasūtījuma kredīta nota** — atlasiet **Jā**, lai atļautu lietotājiem nosegt vairākas pārdošanas pasūtījumu kredīta notas ar atvērtiem rēķiniem vai apstrādāt atmaksu debitoram par atvērtu kredīta notu.</span><span class="sxs-lookup"><span data-stu-id="932d8-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="eebb4-114">Daļēju summu maksājums vai segšana vēl netiek atbalstīta.</span><span class="sxs-lookup"><span data-stu-id="eebb4-114">Payment or settlement of partial amounts is not yet supported.</span></span>
+> <span data-ttu-id="932d8-114">Daļēju summu maksājums vai segšana vēl netiek atbalstīta.</span><span class="sxs-lookup"><span data-stu-id="932d8-114">Payment or settlement of partial amounts is not yet supported.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
