@@ -14,6 +14,8 @@
               items:
                 - name: "Jaunumi un izmaiņas Platform atjauninājumos\_— sākumlapa"
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.18 (2021.\_gada maijs)"
+                  href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: "Platform atjauninājumi versijai\_10.0.17 (2021.\_gada aprīlis)"
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: "Platform atjauninājumi versijai\_10.0.16 (2021.\_gada februāris)"
@@ -22,6 +24,8 @@
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
+                - name: Noņemtie vai novecojušie līdzekļi sākumlapā
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Noņemtie vai novecojušie platformas līdzekļi
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
@@ -38,6 +42,8 @@
               href: business-events/app-business-events.md
             - name: Darbplūsmas biznesa notikumi
               href: business-events/business-events-workflow.md
+            - name: Partijas biznesa notikumi
+              href: business-events/system-business-events.md
             - name: Brīdinājumi kā biznesa notikumi
               href: business-events/alerts-business-events.md
             - name: Biznesa notikumi programmā Microsoft Flow
@@ -216,10 +222,14 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Iekšējie līdzekļi apkalpošanai
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Integrēts nodarbinātais, darbs un amats'
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: Krājumu pieejamība
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 'Integrēts nodarbinātais, darbs un amats'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Piezīmju integrācija
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: Kartēšanas atsauce
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: Atbalsts duālajam ierakstam
                           items:
                             - name: Atbalsts Field Service un Project Service Automation risinājumiem
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Lifecycle Services (LCS) savienojuma izveide pakalpojumā Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Viesotā Azure Pipeline atjaunināšana jaunām NuGet pakotnēm
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Mantotā konveijera atjaunināšana pakalpojumā Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Autoparka pārvaldības programmas piemērs
@@ -1100,8 +1112,6 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Pārraudzība un diagnostika
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Ietekmes analīzes pārskats
-              href: lifecycle-services/impact-analysis-report.md
             - name: Vides pakalpojumu restartēšana
               href: lifecycle-services/restart-environment-services.md
             - name: Ziņošana par ražošanas pārtraukumu
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B lietotāju eksportēšana uz Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Datu uzturēšana
+              href: sysadmin/DataMaintenancePortal.md
             - name: Drošība
               items:
                 - name: Uz lomām balstīta drošība

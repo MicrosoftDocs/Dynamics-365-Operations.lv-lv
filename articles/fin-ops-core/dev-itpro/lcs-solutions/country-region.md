@@ -1,27 +1,26 @@
 ---
 title: Globalizācijas resursi
 description: Šajā tēmā ir saraksts ar resursiem, kas jums var noderēt, lai uzzinātu papildinformāciju par valstij/reģionam specifisko funkcionalitāti un piedāvājumiem.
-author: ShylaThompson
+author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154123"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560922"
 ---
 # <a name="globalization-resources"></a>Globalizācijas resursi
 
@@ -55,7 +54,6 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 
 #### <a name="regulatory-updates"></a>Normatīvie atjauninājumi
 -   [Normatīvie atjauninājumi](../../../finance/localizations/regulatory-updates.md)
--   [Lokalizācijas portāls](https://docs.microsoft.com/dynamics/s-e/) (tiek atjaunināts katru nedēļu)
 -   [Problēmu meklētājs portālā Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (tiek atjaunināts katru dienu)
 
 #### <a name="communication-and-alerts"></a>Saziņa un brīdinājumi

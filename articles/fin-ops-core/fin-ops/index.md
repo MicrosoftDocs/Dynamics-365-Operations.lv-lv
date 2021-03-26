@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
-ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
+ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "5073111"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562376"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations programmas dokumentācija
 
@@ -62,7 +61,7 @@ Liela daļa šī satura attiecas arī uz saistītajiem produktiem: Dynamics 365 
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Pakalpojumu atjauninājumu apturēšana</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Paziņojumu saņemšana par pakalpojumu atjauninājumiem</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Datu uzdevuma automatizēšana</a></p>
-<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation tool</a></p>
 
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integrācijas</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Biznesa notikumi</a></p>
