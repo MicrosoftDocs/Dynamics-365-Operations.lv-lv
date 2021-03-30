@@ -1,6 +1,6 @@
 ---
 title: Starpkanālu koplietošanas iespējošana un izmantošana
-description: Šajā tēmā ir aprakstīts, kā iespējot un izmantot Microsoft Dynamics 365 Commerce vietņu veidotāja starpkanālu koplietošanas līdzekli.
+description: Šajā tēmā aprakstīts, kā iespējot un lietot starpkanālu kopīgošanas līdzekli Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
 manager: annbe
 ms.date: 10/16/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3990365dda0a0cff7adcc1d97120293d43f6e858
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207827"
 ---
-# <a name="enable-and-use-cross-channel-sharing"></a>Starpkanālu koplietošanas iespējošana un izmantošana
+# <a name="enable-and-use-cross-channel-sharing"></a>Koplietošana vairākos kanālos — iespējošana un izmantošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iespējot un izmantot Microsoft Dynamics 365 Commerce vietņu veidotāja starpkanālu koplietošanas līdzekli.
+Šajā tēmā aprakstīts, kā iespējot un lietot starpkanālu kopīgošanas līdzekli Microsoft Dynamics 365 Commerce vietnes veidotājā.
 
 ## <a name="overview"></a>Pārskats
 

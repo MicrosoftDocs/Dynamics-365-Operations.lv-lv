@@ -1,6 +1,6 @@
 ---
 title: Galvenes modulis
-description: Šajā tēmā ir apskatīti galvenes moduļi un aprakstīts, kā izveidot lapas galvenes programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti galvenes moduļi un aprakstīta lapu galveņu izveide risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1373397c4499ed65835bcc71c6fc628ff356e4e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 569fb5ac3d30be30044ef9b928ecf1f6dde20aab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211428"
 ---
 # <a name="header-module"></a>Galvenes modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir apskatīti galvenes moduļi un aprakstīts, kā izveidot lapas galvenes programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti galvenes moduļi un aprakstīta lapu galveņu izveide risinājumā Microsoft Dynamics 365 Commerce.
 
 Pakalpojumā Dynamics 365 Commerce, lapas galvene ir konfigurēta kā lapas fragments, kas ietver galveni, promo reklāmkarogu un sīkfailu piekrišanas moduļus. 
 

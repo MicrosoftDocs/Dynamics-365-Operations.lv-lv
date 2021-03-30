@@ -1,6 +1,6 @@
 ---
-title: Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu
-description: Šajā tēmā ir paskaidrots, kā saistīt savu Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem.
+title: Dynamics 365 Commerce vietnes saistīšana ar tiešsaistes kanālu
+description: Šajā tēmā paskaidrots, kā saistīt Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem.
 author: bicyclingfool
 manager: AnnBe
 ms.date: 07/02/2020
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc93441bd09deccdb8c7ecf955c0ec5177c0b31e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bb39b54e45e387067720dcbc5d9ccffbf8bf08b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211526"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Dynamics 365 Commerce vietnes saistīšana ar tiešsaistes kanālu
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā saistīt savu Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem. 
+Šajā tēmā paskaidrots, kā saistīt Microsoft Dynamics 365 Commerce vietni ar vienu vai vairākiem tiešsaistes veikaliem. 
 
 Pēc tam, kad esat nodrošinājis Dynamics 365 Commerce e-komercijas vidi, izmantojot Microsoft Dynamics Lifecycle Services (LCS) portālu, varat izveidot savu pirmo e-komercijas vietni. Sākotnēji veidojot vietni, jūs saistiet vietni ar iepriekš izveidoto tiešsaistes veikalu. Šī darbība piesaista vietni tiešsaistes kanālam un ļauj vietnei rādīt navigācijas hierarhiju, preces, kategorijas, cenas, piegādes opcijas un visu pārējo, kas definēts tiešsaistes veikalā.
 

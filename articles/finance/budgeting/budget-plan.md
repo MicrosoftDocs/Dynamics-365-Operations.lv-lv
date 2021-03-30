@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210413"
 ---
 # <a name="budget-planning"></a>Budžeta plānošana
 
@@ -105,7 +105,7 @@ Budžeta plānošanas procesā izmanto īpašas drošības politikas, lai konfig
 
 2.5. Atlasiet Atsevišķi piešķirt piekļuvi noteiktām organizācijām. Atlasiet organizācijas hierarhiju, ko izveidojāt pirmās darbības laikā. Atlasiet zaru Finanses un noklikšķiniet uz pogas Piešķirt ar apakšelementiem. 
 
-**_Svarīgi!_* _ _Veicot šo uzdevumu, pārliecinieties, vai ir atlasīts DEMF juridiskās personas konteksts, jo juridiskām personām* tiek lietota organizācijas drošība. 
+***Svarīgi!** _ _Pārliecinieties, ka veicot šo uzdevumu, jūs esat DEMF juridiskās personas kontekstā, jo katrai juridiskajai personai tiek piemērota organizācijas drošība* 
 
 ### <a name="task-3-create-scenarios"></a>3. uzdevums. Scenāriju izveide
 3.1. Pārejiet uz Budžeta veidošana&gt;Iestatīšana &gt; Budžeta plānošana &gt; Budžeta plānošanas konfigurācija. Lapā Scenāriji pārskatiet scenārijus, ko izmantosim tālāk šajā uzdevumā: Iepriekšējā gada faktiskās izmaksas un Budžeta. 

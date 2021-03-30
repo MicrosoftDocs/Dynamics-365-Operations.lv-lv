@@ -1,6 +1,6 @@
 ---
 title: Teksta bloka modulis
-description: Šajā tēmā tiek stāstīts par teksta bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti Text block moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cad6a26ea1858d6afac33ef8eab10e16b404035b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3926f23e4e762a49ef94ef0c8f3291e7e9a4a6a2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206395"
 ---
 # <a name="text-block-module"></a>Teksta bloka modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par teksta bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti Text block moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Teksta bloka modulis ir modulis, kas tiek izmantots teksta satura pievienošanai. Tas var būt gan informatīvs, gan reklāmas saturs.
 

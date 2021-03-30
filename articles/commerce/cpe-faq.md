@@ -1,6 +1,6 @@
 ---
 title: Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi
-description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce novērtējuma vidi.
+description: Šajā tēmā sniegtas atbildes uz bieži uzdotiem jautājumiem par Microsoft Dynamics 365 Commerce novērtēšanas vidi.
 author: v-chgri
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6b8d7d7364087dacf3b4479ab008609ecffeaacb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 241853c12c5b6a7fdbd1cf7353b4274f4dd99cc1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000979"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213894"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Bieži uzdotie jautājumi par Dynamics 365 Commerce novērtējuma vidi
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Dynamics 365 Commerce novērtēšanas vides BUJ
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem par Microsoft Dynamics 365 Commerce novērtējuma vidi.
+Šajā tēmā sniegtas atbildes uz bieži uzdotiem jautājumiem par Microsoft Dynamics 365 Commerce novērtēšanas vidi.
 
 **Vai mēs varam izmantot Commerce novērtējuma vidi kā e-komercijas vitrīnu klientiem, kas pašlaik ievieš mazumtirdzniecību?**
 

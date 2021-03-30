@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f98fbc14fc2946499a9c003eb0bd0edb7f2017e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214732"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Atmaksas apstrāde zvanu centros
 
 Šajā tēmā skaidrots, kā atmaksas tiek ģenerētas, izmantojot zvanu centrus, kad tiek izveidotas atgriešanas, vai kad pasūtījumi vai pasūtījuma rindas tiek atceltas.
 
-Lietotājs, kas izveido atgriešanas pasūtījumu klientam kā zvanu centra lietotājs programmā Microsoft Dynamics 365 Commerce Headquarters izmanto **Atgriešanas pasūtījuma** lapu, lai izveidotu sākotnējo atgriešanas materiālu autorizāciju (AKA). AKA definē preces, ko klients vēlas atgriezt vai apmainīt, un tas izveido saistītu atgriešanas pārdošanas pasūtījumu, kam ir **Atgrieztā pasūtījuma** tips. Šis saistītais atgrieztais pasūtījums tiek izmantots, lai izsekotu atgriezto krājumu un visu iegrāmatoto kredīta notu vai maksājumu atmaksu grāmatošanu.
+Lietotājs, kurš izveidot atmaksas pasūtījumu klientam kā zvanu centra lietotājs Microsoft Dynamics 365 Commerce galvenajā birojā, izmanto lapu **Atmaksas pasūtījums**, lai izveidotu sākotnējo materiālu atgriezes autorizāciju (RMA). AKA definē preces, ko klients vēlas atgriezt vai apmainīt, un tas izveido saistītu atgriešanas pārdošanas pasūtījumu, kam ir **Atgrieztā pasūtījuma** tips. Šis saistītais atgrieztais pasūtījums tiek izmantots, lai izsekotu atgriezto krājumu un visu iegrāmatoto kredīta notu vai maksājumu atmaksu grāmatošanu.
 
 Ja opcijas **Iespējot pasūtījuma pabeigšanu** iestatījums ir **Jā** zvanu centra kanālam, zvanu centra lietotājam, kas izveido AKA, ir jāpalaiž pasūtījuma pabeigšanas apstrādes plūsma, **Atgriešanas pasūtījuma** lapā atlasot **Pabeigts**. Funkcija **Pabeigts** nodrošina aprēķinātu atgriešanas darbību kopsavilkumu, kas ieskicē paredzēto atmaksas summu. Turklāt, kad tas ir pareizi konfigurēts, tas sistemātiski izveido atmaksas maksājuma rindu pret atgriezto pasūtījumu.
 
