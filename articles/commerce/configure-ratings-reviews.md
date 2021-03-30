@@ -1,6 +1,6 @@
 ---
 title: Vērtējumu un atsauksmju konfigurēšana
-description: Šajā tēmā ir aprakstīts, kā konfigurēt E-komercijas vietni, lai rādītu klientu vērtējumus un atsauksmes programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā konfigurēt e-komercijas vietni, lai klientiem rādītu vērtējumus un atsauksmes risinājumā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/17/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fcdf571378c25d71b3ef4f3baad062a25390417
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 130c80c1d68c7fb207a4fa073fe2b0476cbdd409
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993554"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220538"
 ---
 # <a name="configure-ratings-and-reviews"></a>Vērtējumu un atsauksmju konfigurēšana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā konfigurēt E-komercijas vietni, lai rādītu klientu vērtējumus un atsauksmes programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā konfigurēt e-komercijas vietni, lai klientiem rādītu vērtējumus un atsauksmes risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 

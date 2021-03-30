@@ -16,18 +16,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 450efd595a1cc1b72b2e62afbdd4518bcca59cb0
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 91cb01637faa69bd3c7fefefae69c60cb948510e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035935"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211229"
 ---
 # <a name="create-org-modeling-hierarchies-for-b2b-organizations"></a>Organizāciju hierarhiju modelēšanas izveidošana B2B organizācijām
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot organizāciju hierarhiju modelēšanu bizness-biznesam (B2B) organizācijām Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir aprakstīts, kā izveidot organizāciju hierarhiju modelēšanu bizness-biznesam (B2B) organizācijām programmā Microsoft Dynamics 365 Commerce.
 
 Programmā Commerce Headquarters biznesa partneru organizācijas tiek pārstāvētas ar klientu un klientu hierarhiju entītijām. Biznesa partnera organizācija un tās lietotāji tiek attēloti kā klienti, un klientu hierarhijas tiek izmantotas, lai saistītu šos klientus vienu ar otru.
 

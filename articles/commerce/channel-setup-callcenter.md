@@ -1,6 +1,6 @@
 ---
 title: Zvanu centra kanāla iestatīšana
-description: Šajā tēmā aprakstīts, kā izveidot jaunu zvanu centra kanālu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā izveidot jaunu zvanu centra kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 03/13/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b25626dafc07d576699ceba3cc9ca691db45cb9f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 878774c8e5485211525e7e7b63973173f6874b26
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997754"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218373"
 ---
 # <a name="set-up-a-call-center-channel"></a>Zvanu centra kanāla iestatīšana
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot jaunu zvanu centra kanālu programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā izveidot jaunu zvanu centra kanālu risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 

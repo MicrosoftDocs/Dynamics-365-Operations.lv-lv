@@ -1,6 +1,6 @@
 ---
-title: Izveidot jaunu preci pakalpojumā Commerce
-description: Šajā tēmā aprakstīts, kā izveidot jaunu preci programmā Microsoft Dynamics 365 Commerce.
+title: Jaunas preces izveide programmā Commerce
+description: Šajā tēmā aprakstīts, kā izveidot jaunu produktu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb0137468d690649abb18b9d19673ff740d52e5d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207923"
 ---
-# <a name="create-a-new-product-in-commerce"></a>Izveidot jaunu preci pakalpojumā Commerce
+# <a name="create-a-new-product-in-commerce"></a>Jaunas preces izveide programmā Commerce
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot jaunu preci programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā izveidot jaunu produktu risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 

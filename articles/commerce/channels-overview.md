@@ -1,6 +1,6 @@
 ---
 title: Kanālu apskats
-description: Šajā tēmā sniegts pārskats par kanāliem programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā sniegts kanālu pārskats risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e060fe2a578296f079653244ed4d5676313e5ea8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8ac188832bdaeba430eed7f08e91a9c2214a0e15
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963064"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219105"
 ---
 # <a name="channels-overview"></a>Kanālu apskats
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par kanāliem programmā Microsoft Dynamics 365 Commerce. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc katra kanāla iestatīšanas.
+Šajā tēmā sniegts kanālu pārskats risinājumā Microsoft Dynamics 365 Commerce. Rakstā ir ietverta informācija par uzdevumiem, kas jums ir jāizpilda gan pirms, gan pēc katra kanāla iestatīšanas.
 
 ## <a name="types-of-channels"></a>Kanālu veidi
 
@@ -44,7 +44,7 @@ Zvanu centra kanāli attēlo zvanu centra kārtību un debitoru pārvaldību.
 
 ### <a name="online-channels"></a>Tiešsaistes kanāli
 
-Tiešsaistes kanāli ir tiešsaistes e-Commerce veikali. Kad tiešsaistes kanāls ir izveidots, vietne ir jāizveido, izmantojot Microsoft Dynamics 365 Commerce vietnes veidošanas rīku vai citu trešās puses e-Commerce risinājumu.
+Tiešsaistes kanāli ir tiešsaistes e-Commerce veikali. Pēc tiešsaistes kanāla izveides, ir jāizveido vietne, izmantojot Microsoft Dynamics 365 Commerce vietnes veidošanas rīku vai citu trešās puses e-komercijas risinājumu.
 
 ## <a name="channel-setup-basics"></a>Kanāla iestatīšanas pamati
 

@@ -1,6 +1,6 @@
 ---
 title: Darbs ar publicēšanas grupām
-description: Šajā tēmā ir aprakstīts publicēšanas grupu līdzeklis Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā ir aprakstīts publicēšanas grupu līdzeklis programmā Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969880"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244843"
 ---
 # <a name="work-with-publish-groups"></a>Darbs ar publicēšanas grupām
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts publicēšanas grupu līdzeklis Microsoft Dynamics 365 Commerce.
+Šajā tēmā ir aprakstīts publicēšanas grupu līdzeklis programmā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 

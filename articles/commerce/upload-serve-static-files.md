@@ -1,6 +1,6 @@
 ---
-title: Augšupielādēt un apkalpot statiskos failus
-description: Šajā tēmā ir aprakstīts, kā augšupielādēt statisku failu Microsoft Dynamics 365 Commerce vietnes veidotājā un kā izveidot pielāgotu vietrādi URL un faila nosaukumu, ko var izmantot, lai pieprasītu šo failu.
+title: Statisku failu augšupielāde un apkalpošana
+description: Šajā tēmā ir aprakstīts, kā augšupielādēt statisku failu programmas Microsoft Dynamics 365 Commerce vietnes veidotājā un kā izveidot pielāgotu vietrādi URL un faila nosaukumu, ko var izmantot, lai pieprasītu šo failu.
 author: StuHarg
 manager: annbe
 ms.date: 11/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1d709d99737ad05af1fb19d9f3ef7b87a8db80d3
-ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
+ms.openlocfilehash: aba9dde2ed9d5fa09e92fcdd784a53f208930eda
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031824"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211023"
 ---
-# <a name="upload-and-serve-static-files"></a>Augšupielādēt un apkalpot statiskos failus
+# <a name="upload-and-serve-static-files"></a>Statisku failu augšupielāde un apkalpošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā augšupielādēt statisku failu Microsoft Dynamics 365 Commerce vietnes veidotājā un kā izveidot pielāgotu vietrādi URL un faila nosaukumu, ko var izmantot, lai pieprasītu šo failu.
+Šajā tēmā ir aprakstīts, kā augšupielādēt statisku failu programmas Microsoft Dynamics 365 Commerce vietnes veidotājā un kā izveidot pielāgotu vietrādi URL un faila nosaukumu, ko var izmantot, lai pieprasītu šo failu.
 
 Daži trešās puses savienotāji pieprasa, lai fails tiktu viesots un apkalpots no e-komercijas vietnes. Šie savienotāji sagaida, ka fails tiks atgriezts pēc pieprasījumiem uz konkrētu atzvanīšanas vietrāža URL ceļu un faila nosaukumu. Tāpēc šajā tēmā ir paskaidrots, kā augšupielādēt un apkalpot statisku failu, kam ir lietotāja definējams vietrādis URL un faila nosaukums Dynamics 365 Commerce e-komercijas vietnē.
 

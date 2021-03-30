@@ -1,6 +1,6 @@
 ---
-title: Mākoņa darbināts meklēšanas pārskats
-description: Šajā tēmā ir sniegts pārskats par mākoņa darbināto meklēšanu programmā Microsoft Dynamics 365 Commerce.
+title: Mākoņa darbinātas meklēšanas pārskats
+description: Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 manager: annbe
 ms.date: 06/29/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5a9cb82053640b7abdba420e087d0707208979de
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e94338cb55f3298d0a33d7b086480f16e83f271
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997654"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220660"
 ---
-# <a name="cloud-powered-search-overview"></a>Mākoņa darbināts meklēšanas pārskats
+# <a name="cloud-powered-search-overview"></a>Mākoņa darbinātas meklēšanas pārskats
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par mākoņa darbināto meklēšanu programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 

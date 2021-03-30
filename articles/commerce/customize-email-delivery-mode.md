@@ -1,6 +1,6 @@
 ---
 title: Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida
-description: Šajā tēmā ir aprakstīts, kā iestatīt pielāgotas e-pasta veidnes noteiktiem paziņojuma tipiem un piegādes veidiem programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā iestatīt pielāgotas e-pasta veidnes konkrētiem paziņojumu veidiem un piegādes veidiem risinājumā Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
 ms.date: 11/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: f4ecb990cfe792e92142f922c43c71ef8494e117
-ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
+ms.openlocfilehash: d0d96ddb20b2b09751d8c0c0bf8af713de35279a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031852"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222637"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Darījumu e-pasta ziņojumu pielāgošana pēc piegādes veida
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Darbību e-pasta ziņojumu pielāgošana pēc piegādes veida
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt pielāgotas e-pasta veidnes noteiktiem paziņojuma tipiem un piegādes veidiem programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā iestatīt pielāgotas e-pasta veidnes konkrētiem paziņojumu veidiem un piegādes veidiem risinājumā Microsoft Dynamics 365 Commerce.
 
 Transakciju e-pasta vēstules tagad var tikt pielāgotas kombinācijai no paziņojuma veida (piemēram, **Pasūtījums izveidots**, **Pasūtījums iepakots** vai **Pasūtījumam ir izrakstīts rēķins**) un piegādes veida (piemēram, pa nakti, savākšana no veikala vai savākšana ietves malā). Pielāgoti transakciju e-pasta ziņojumi ļauj mazumtirgotājiem nodrošināt saviem klientiem pasūtījumu izpildi, kas ir pielāgota pasūtījuma piegādes veidam. Piemēram, "pasūtījums iepakots" notikums var tikt pielāgots, lai tas nodrošinātu saņemšanas ietves malā instrukcijas debitoriem, kuri izvēlas savākšanu ietves malā. Tā var arī sniegt informāciju par pārvadājumu pārvadātāju un piegādi klientiem, kuri izvēlas nosūtīt pasūtījumu.
 

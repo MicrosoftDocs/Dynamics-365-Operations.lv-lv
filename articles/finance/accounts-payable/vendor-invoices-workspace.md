@@ -1,6 +1,6 @@
 ---
 title: Kreditora rēķina ieraksta darbvieta
-description: Šajā tēmā ir paskaidrots, kā iestatīt darbvietu, kas saistīta ar kreditora rēķiniem, un kas parāda informāciju, kura pieejama izmantojot Microsoft Power BI.
+description: Šajā tēmā ir paskaidrots, kā iestatīt darbvietu, kas saistīta ar kreditora rēķiniem, un kas parāda informāciju, kura pieejama izmantojot programmu Microsoft Power BI.
 author: abruer
 manager: AnnBe
 ms.date: 09/28/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 04aca717c3f255799699d63fb74ee0b543f8c8ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a32fc46fe6ac33abe5fcebb2ee5e2c92f468f84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993267"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254130"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Kreditora rēķina ieraksta darbvieta
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā ir paskaidrots, kā iestatīt darbvietu, kas saistīta ar kreditora rēķiniem, un kas parāda informāciju, kura pieejama izmantojot Microsoft Power BI. Kreditora rēķina informācija šajā darbvietā tiek filtrēta noteiktiem lietotājiem, un tā tiek rādīta grafiskā formātā.
+Šajā tēmā ir paskaidrots, kā iestatīt darbvietu, kas saistīta ar kreditora rēķiniem, un kas parāda informāciju, kura pieejama izmantojot programmu Microsoft Power BI. Kreditora rēķina informācija šajā darbvietā tiek filtrēta noteiktiem lietotājiem, un tā tiek rādīta grafiskā formātā.
 
 ## <a name="overview"></a>Pārskats
 

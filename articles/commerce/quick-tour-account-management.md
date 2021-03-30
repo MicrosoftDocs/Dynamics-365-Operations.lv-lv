@@ -1,6 +1,6 @@
 ---
 title: Konta pārvaldības lapu pārskats
-description: Šajā tēmā sniegts pārskats par konta pārvaldības lapām Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā sniegts pārskats par konta pārvaldības lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4cd4ee3ef2b1c3538ec267fe12eef38d525f6a83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244819"
 ---
 # <a name="account-management-pages-overview"></a>Konta pārvaldības lapu pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā sniegts pārskats par konta pārvaldības lapām Microsoft Dynamics 365 Commerce.
+Šajā tēmā sniegts pārskats par konta pārvaldības lapām programmā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 
