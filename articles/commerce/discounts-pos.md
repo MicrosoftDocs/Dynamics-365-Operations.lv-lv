@@ -1,6 +1,6 @@
 ---
-title: Rādīt atlaides punktā POS
-description: Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas partneriem uzzināt par veicināšanas pasākumiem un to, kā tos var izmantot šķērspārdošanas un piedāvājuma kustībām.
+title: Atlaižu rādīšana punktā POS
+description: Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas asistentiem uzzināt par veicināšanas pasākumiem, un kā tos izmantot šķērspārdošanā un piedāvājumos.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 07/29/2020
@@ -18,18 +18,18 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 118e7689e5d37aae18d3823b957301ddfa89369a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3934390b86f821233c2620405e316cf732b3d7bf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230620"
 ---
 # <a name="show-discounts-in-pos"></a>Rādīt atlaides punktā POS
 
 [!include [banner](includes/banner.md)]
 
-Veicināšanas pasākumiem ir svarīga loma, motivējot klientus, kuri pieņem pirkšanas lēmumus. Piemēram, brīvdienas var radīt vislielāko pārdošanas apjomu mazumtirgotājiem, jo viss mazumtirdzniecības tirgus tiek pārpludināts ar vilinošiem veicināšanas pasākumiem un atlaidēm. Ja veikalu sadarbības partneri ir informēti par un izprot pieejamos veicināšanas pasākumus, viņi var viegli izmantot šos veicināšanas pasākumus, lai šķērspārdotu un piedāvātu preces. Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas partneriem uzzināt par veicināšanas pasākumiem un to, kā tos var izmantot šķērspārdošanas un piedāvājuma kustībām.
+Veicināšanas pasākumiem ir svarīga loma, motivējot klientus, kuri pieņem pirkšanas lēmumus. Piemēram, brīvdienas var radīt vislielāko pārdošanas apjomu mazumtirgotājiem, jo viss mazumtirdzniecības tirgus tiek pārpludināts ar vilinošiem veicināšanas pasākumiem un atlaidēm. Ja veikalu sadarbības partneri ir informēti par un izprot pieejamos veicināšanas pasākumus, viņi var viegli izmantot šos veicināšanas pasākumus, lai šķērspārdotu un piedāvātu preces. Šajā tēmā izskaidrots, kā Microsoft Dynamics 365 Commerce palīdz pārdošanas asistentiem uzzināt par veicināšanas pasākumiem, un kā tos izmantot šķērspārdošanā un piedāvājumos.
 
 ## <a name="learn-about-store-discounts"></a>Uzziniet par veikalu atlaidēm
 

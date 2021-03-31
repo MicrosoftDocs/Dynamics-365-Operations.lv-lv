@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bddfc706f85192f112f08e172934c7ff66faf35d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 277f11bc6aa74ac9bb9f476b07be7bbf29025342
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227404"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
 
@@ -90,7 +90,7 @@ Noteiktu parametru saraksts ir atkarīgs no kredīta pārskaitījuma formāta. N
 <td>Formāts</td>
 <td>Atlasiet formātu pārskaitījumu informācijai, atkarībā no jūsu valsts/reģiona vai bankas prasībām:
 <ul>
-<li><strong>Strd</strong> — atlasiet šo opciju, lai izmantotu strukturēto formātu, kad viena maksājuma rinda tiek segta pret vienu rēķinu. Šī opcija nav pieejama Francijas, Vācijas un Nīderlandes valstij/reģionam raksturīgajiem eksporta formātiem.</li>
+<li><strong>Strd</strong> — atlasiet šo opciju, lai izmantotu strukturēto formātu, kad viena maksājuma rinda tiek segta pret vienu rēķinu. Šī opcija na&#39;v pieejama Francijas, Vācijas un Nīderlandes valstij/reģionam raksturīgajiem eksporta formātiem.</li>
 <li><strong>Ustrd</strong> — atzīmējiet šo opciju, lai izmantotu nestrukturēto formātu, kad maksājums tiek segts pret vairākiem rēķiniem. Nosegtajiem rēķiniem rēķinu numuri tiek apvienoti un izmantoti kā pārskaitījuma informācija. Saskaņā ar ISO 20022 vadlīnijām nestrukturētā pārskaitījumu informācija ir ierobežota līdz 140 rakstzīmēm.</li>
 </ul></td>
 </tr>

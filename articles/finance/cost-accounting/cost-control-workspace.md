@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226441"
 ---
 # <a name="cost-control-workspace"></a>Izmaksu kontroles darbvieta 
 
@@ -55,7 +55,7 @@ Kopsavilkuma cilnē **Datu filtrēšana** varat definēt pārskata pamata datus.
 |-------------------------------------------------------------------|-------------|
 | Izmaksu uzskaites virsgrāmata                                            | **Izmaksu uzskaites virsgrāmata**, kas tiek izmantota pārskata izveidei. Vērtība ir atkarīga no lauka **Izmaksu vadības ierīce** vērtības. |
 | Izmaksu vadības ierīce                                                 | No atlasītās vērtības ir atkarīgs tas, kura izmaksu kontroles virsgrāmata un kuri izmaksu objekti tiks izmantoti pārskata izveidei. |
-| Statistisko dimensiju hierarhija, Izmaksu elementu dimensiju hierarhija | Darbvietas **Izmaksu kontrole** konfigurācijas ieraksts var nodrošināt pārskatu par beznaudas vai naudas vērtībām, taču nevis vienā izkārtojumā. Atlasiet lauka **Izmaksu elementu dimensiju hierarhija**, lai veidotu pārskatu par naudas vērtībām. Atlasiet lauka **Statistisko dimensiju hierarhija**, lai veidotu pārskatu par beznaudas vērtībām. No atlasītā dimensiju hierarhijas ieraksta ir atkarīga pārskata veidošanas un apkopojuma līmeņu struktūra.<blockquote>[!NOTE]<br>Lai līdzās skatītu naudas un beznaudas vērtības, varat eksportēt datus uz programmu Microsoft Excel izmantošanai ar Microsoft Power BI satura pakotni.</blockquote> |
+| Statistisko dimensiju hierarhija, Izmaksu elementu dimensiju hierarhija | Darbvietas **Izmaksu kontrole** konfigurācijas ieraksts var nodrošināt pārskatu par beznaudas vai naudas vērtībām, taču nevis vienā izkārtojumā. Atlasiet lauka **Izmaksu elementu dimensiju hierarhija**, lai veidotu pārskatu par naudas vērtībām. Atlasiet lauka **Statistisko dimensiju hierarhija**, lai veidotu pārskatu par beznaudas vērtībām. No atlasītā dimensiju hierarhijas ieraksta ir atkarīga pārskata veidošanas un apkopojuma līmeņu struktūra.<blockquote>[!NOTE]<br>Lai blakus vienu otrai skatītu nemonetāras un monetāras vērtības, varat eksportēt datus uz Microsoft Excel attiecībā uz Microsoft Power BI satura paku.</blockquote> |
 | Izmaksu objektu dimensiju hierarhija                                   | Atlasiet definētā pārskata mērķim piemērotas izmaksu objekta dimensijas hierarhiju. |
 | Budžeta sākotnējā versija                                           | Atlasiet tās budžeta versijas ID, kas šī pārskata kontekstā ir sākotnējais budžets. |
 | Budžeta pārskatītā versija                                            | Atlasiet tās budžeta versijas ID, kas šī pārskata kontekstā tiek izmantota kā sākotnējais budžets. |
