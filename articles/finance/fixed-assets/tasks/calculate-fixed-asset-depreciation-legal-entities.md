@@ -15,38 +15,41 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b09bbe4d0143aa521ca0a4cf67e86b7165b0f4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8d228c387e8a6bf956f729a69e2296130db32dbd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968958"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210051"
 ---
-# <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="3cac5-103">Pamatlīdzekļu nolietojuma aprēķināšana juridiskajām personām</span><span class="sxs-lookup"><span data-stu-id="3cac5-103">Calculate fixed asset depreciation across legal entities</span></span>
+# <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="e1867-103">Pamatlīdzekļu nolietojuma aprēķināšana juridiskajām personām</span><span class="sxs-lookup"><span data-stu-id="e1867-103">Calculate fixed asset depreciation across legal entities</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3cac5-104">Pamatlīdzekļa nolietojuma aprēķināšanas procesu var vienlaikus izpildīt vairākām juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="3cac5-104">Fixed asset depreciation can be run across legal entities in a single step.</span></span> <span data-ttu-id="3cac5-105">Šajā procedūras aprakstā ir paskaidrots, kā iestatīt un izpildīt šo procesu vairākām juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="3cac5-105">This procedure shows you to how set up and run the process for multiple legal entities.</span></span> <span data-ttu-id="3cac5-106">Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.</span><span class="sxs-lookup"><span data-stu-id="3cac5-106">It uses the accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="e1867-104">Pamatlīdzekļa nolietojuma aprēķināšanas procesu var vienlaikus izpildīt vairākām juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="e1867-104">Fixed asset depreciation can be run across legal entities in a single step.</span></span> <span data-ttu-id="e1867-105">Šajā procedūras aprakstā ir paskaidrots, kā iestatīt un izpildīt šo procesu vairākām juridiskajām personām.</span><span class="sxs-lookup"><span data-stu-id="e1867-105">This procedure shows you to how set up and run the process for multiple legal entities.</span></span> <span data-ttu-id="e1867-106">Tas izmanto grāmatveža lomu un demonstrācijas datus USMF juridiskajai personai.</span><span class="sxs-lookup"><span data-stu-id="e1867-106">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="set-up-cross-company-depreciation-run-journals"></a><span data-ttu-id="3cac5-107">Starpuzņēmumu nolietojuma žurnālu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="3cac5-107">Set up cross company depreciation run journals</span></span>
-1. <span data-ttu-id="3cac5-108">Pārejiet uz sadaļu Pamatlīdzekļi > Iestatījumi > Pamatlīdzekļu parametri.</span><span class="sxs-lookup"><span data-stu-id="3cac5-108">Go to Fixed assets > Setup > Fixed assets parameters.</span></span>
-2. <span data-ttu-id="3cac5-109">Izvērsiet sadaļu Pamatlīdzekļu priekšlikumi.</span><span class="sxs-lookup"><span data-stu-id="3cac5-109">Expand the Fixed asset proposals section.</span></span>
-3. <span data-ttu-id="3cac5-110">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="3cac5-110">Click Add.</span></span>
-4. <span data-ttu-id="3cac5-111">Laukā Grāmatošanas līmenis ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="3cac5-111">In the Posting layer field, enter or select a value.</span></span>
-5. <span data-ttu-id="3cac5-112">Laukā Žurnāla nosaukums, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="3cac5-112">In the Journal name field, enter or select a value.</span></span>
-    * <span data-ttu-id="3cac5-113">Atkārtojiet žurnāla iestatīšanas darbības katras juridiskās personas lapā Pamatlīdzekļu parametri.</span><span class="sxs-lookup"><span data-stu-id="3cac5-113">Repeat the journal setup on the Fixed asset parameters page in each legal entity.</span></span>  
+## <a name="set-up-cross-company-depreciation-run-journals"></a><span data-ttu-id="e1867-107">Starpuzņēmumu nolietojuma žurnālu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="e1867-107">Set up cross company depreciation run journals</span></span>
+1. <span data-ttu-id="e1867-108">Pārejiet uz sadaļu Pamatlīdzekļi > Iestatījumi > Pamatlīdzekļu parametri.</span><span class="sxs-lookup"><span data-stu-id="e1867-108">Go to Fixed assets > Setup > Fixed assets parameters.</span></span>
+2. <span data-ttu-id="e1867-109">Izvērsiet sadaļu Pamatlīdzekļu priekšlikumi.</span><span class="sxs-lookup"><span data-stu-id="e1867-109">Expand the Fixed asset proposals section.</span></span>
+3. <span data-ttu-id="e1867-110">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="e1867-110">Click Add.</span></span>
+4. <span data-ttu-id="e1867-111">Laukā Grāmatošanas līmenis ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1867-111">In the Posting layer field, enter or select a value.</span></span>
+5. <span data-ttu-id="e1867-112">Laukā Žurnāla nosaukums, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1867-112">In the Journal name field, enter or select a value.</span></span>
+    * <span data-ttu-id="e1867-113">Atkārtojiet žurnāla iestatīšanas darbības katras juridiskās personas lapā Pamatlīdzekļu parametri.</span><span class="sxs-lookup"><span data-stu-id="e1867-113">Repeat the journal setup on the Fixed asset parameters page in each legal entity.</span></span>  
 
-## <a name="depreciation-run"></a><span data-ttu-id="3cac5-114">Nolietojuma izpilde</span><span class="sxs-lookup"><span data-stu-id="3cac5-114">Depreciation run</span></span>
-1. <span data-ttu-id="3cac5-115">Pārejiet uz sadaļu Pamatlīdzekļi > Žurnāla ieraksti > Izveidot nolietojuma piedāvājumu.</span><span class="sxs-lookup"><span data-stu-id="3cac5-115">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
-2. <span data-ttu-id="3cac5-116">Laukā Grāmatošanas līmenis ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="3cac5-116">In the Posting layer field, enter or select a value.</span></span>
-    * <span data-ttu-id="3cac5-117">Pēc noklusējuma tiek izmantots lapā Pamatlīdzekļu parametri norādītais žurnāla nosaukums.</span><span class="sxs-lookup"><span data-stu-id="3cac5-117">The journal name will default from the Fixed asset parameters.</span></span> <span data-ttu-id="3cac5-118">Šeit to var mainīt pašreizējai juridiskajai personai.</span><span class="sxs-lookup"><span data-stu-id="3cac5-118">It can be changed here for the current legal entity.</span></span>  
-3. <span data-ttu-id="3cac5-119">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="3cac5-119">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="3cac5-120">Atlasiet nolietojuma aprēķināšanas izpildē ietveramās juridiskās personas.</span><span class="sxs-lookup"><span data-stu-id="3cac5-120">Select the legal entities to be included in the depreciation run.</span></span>  
-    * <span data-ttu-id="3cac5-121">Sarakstā tiek rādītas tikai tās juridiskās personas, kam ir žurnāli, kuri ir iestatīti pamatlīdzekļu ieteikumiem lapā Pamatlīdzekļu parametri.</span><span class="sxs-lookup"><span data-stu-id="3cac5-121">Only legal entities with journals set up for Fixed asset proposals on the Fixed asset parameters page will be shown in the list.</span></span>  
-4. <span data-ttu-id="3cac5-122">Atlasiet lauka Grāmatot žurnālus vērtību Jā.</span><span class="sxs-lookup"><span data-stu-id="3cac5-122">Select Yes in the Post journals field.</span></span>
-    * <span data-ttu-id="3cac5-123">Filtrēšanas laukos ir ietverti visi to juridisko personu pamatlīdzekļi, grupas un grāmatas, kas ir atlasītas šai nolietojuma aprēķināšanas izpildei.</span><span class="sxs-lookup"><span data-stu-id="3cac5-123">Filtering fields include all fixed assets, groups, and books for the legal entities selected for this depreciation run.</span></span>  
-    * <span data-ttu-id="3cac5-124">Pēc noklusējuma ir iespējota opcija Pakešapstrāde.</span><span class="sxs-lookup"><span data-stu-id="3cac5-124">The Batch processing option is enabled by default.</span></span> <span data-ttu-id="3cac5-125">Ja ir iespējota šī opcija, nolietojuma žurnāla izveide un grāmatošana notiek fonā.</span><span class="sxs-lookup"><span data-stu-id="3cac5-125">When this option is enabled, the depreciation journal creation and posting will run in the background.</span></span>  
-5. <span data-ttu-id="3cac5-126">Noklikšķiniet uz Izveidot žurnālu.</span><span class="sxs-lookup"><span data-stu-id="3cac5-126">Click Create journal.</span></span>
-6. <span data-ttu-id="3cac5-127">Pārejiet uz sadaļu Pamatlīdzekļi > Žurnāla ieraksti > Pamatlīdzekļu žurnāls.</span><span class="sxs-lookup"><span data-stu-id="3cac5-127">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+## <a name="depreciation-run"></a><span data-ttu-id="e1867-114">Nolietojuma izpilde</span><span class="sxs-lookup"><span data-stu-id="e1867-114">Depreciation run</span></span>
+1. <span data-ttu-id="e1867-115">Pārejiet uz sadaļu Pamatlīdzekļi > Žurnāla ieraksti > Izveidot nolietojuma piedāvājumu.</span><span class="sxs-lookup"><span data-stu-id="e1867-115">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
+2. <span data-ttu-id="e1867-116">Laukā Grāmatošanas līmenis ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="e1867-116">In the Posting layer field, enter or select a value.</span></span>
+    * <span data-ttu-id="e1867-117">Pēc noklusējuma tiek izmantots lapā Pamatlīdzekļu parametri norādītais žurnāla nosaukums.</span><span class="sxs-lookup"><span data-stu-id="e1867-117">The journal name will default from the Fixed asset parameters.</span></span> <span data-ttu-id="e1867-118">Šeit to var mainīt pašreizējai juridiskajai personai.</span><span class="sxs-lookup"><span data-stu-id="e1867-118">It can be changed here for the current legal entity.</span></span>  
+3. <span data-ttu-id="e1867-119">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="e1867-119">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="e1867-120">Atlasiet nolietojuma aprēķināšanas izpildē ietveramās juridiskās personas.</span><span class="sxs-lookup"><span data-stu-id="e1867-120">Select the legal entities to be included in the depreciation run.</span></span>  
+    * <span data-ttu-id="e1867-121">Sarakstā tiek rādītas tikai tās juridiskās personas, kam ir žurnāli, kuri ir iestatīti pamatlīdzekļu ieteikumiem lapā Pamatlīdzekļu parametri.</span><span class="sxs-lookup"><span data-stu-id="e1867-121">Only legal entities with journals set up for Fixed asset proposals on the Fixed asset parameters page will be shown in the list.</span></span>  
+4. <span data-ttu-id="e1867-122">Atlasiet lauka Grāmatot žurnālus vērtību Jā.</span><span class="sxs-lookup"><span data-stu-id="e1867-122">Select Yes in the Post journals field.</span></span>
+    * <span data-ttu-id="e1867-123">Filtrēšanas laukos ir ietverti visi to juridisko personu pamatlīdzekļi, grupas un grāmatas, kas ir atlasītas šai nolietojuma aprēķināšanas izpildei.</span><span class="sxs-lookup"><span data-stu-id="e1867-123">Filtering fields include all fixed assets, groups, and books for the legal entities selected for this depreciation run.</span></span>  
+    * <span data-ttu-id="e1867-124">Pēc noklusējuma ir iespējota opcija Pakešapstrāde.</span><span class="sxs-lookup"><span data-stu-id="e1867-124">The Batch processing option is enabled by default.</span></span> <span data-ttu-id="e1867-125">Ja ir iespējota šī opcija, nolietojuma žurnāla izveide un grāmatošana notiek fonā.</span><span class="sxs-lookup"><span data-stu-id="e1867-125">When this option is enabled, the depreciation journal creation and posting will run in the background.</span></span>  
+5. <span data-ttu-id="e1867-126">Noklikšķiniet uz Izveidot žurnālu.</span><span class="sxs-lookup"><span data-stu-id="e1867-126">Click Create journal.</span></span>
+6. <span data-ttu-id="e1867-127">Pārejiet uz sadaļu Pamatlīdzekļi > Žurnāla ieraksti > Pamatlīdzekļu žurnāls.</span><span class="sxs-lookup"><span data-stu-id="e1867-127">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
