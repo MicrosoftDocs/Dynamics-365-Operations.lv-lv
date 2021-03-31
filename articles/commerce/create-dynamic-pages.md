@@ -1,6 +1,6 @@
 ---
-title: Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem
-description: Šajā tēmā ir aprakstīts, kā iestatīt Microsoft Dynamics 365 Commerce e-komercijas lapu, kas var kalpot dinamiskam saturam, balstoties uz URL parametriem.
+title: Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem
+description: Šajā tēmā aprakstīts, kā iestatīts Microsoft Dynamics 365 Commerce e-komercijas lapu, kura var apkalpot dinamisku saturu, pamatojoties URL parametros.
 author: StuHarg
 manager: AnnBe
 ms.date: 01/28/2021
@@ -17,19 +17,19 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208019"
 ---
-# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinamisko e-komercijas lapu izveidošana, pamatojoties uz URL parametriem
+# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinamisku e-komercijas lapu izveide, pamatojoties uz URL parametriem
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Šajā tēmā ir aprakstīts, kā iestatīt Microsoft Dynamics 365 Commerce e-komercijas lapu, kas var kalpot dinamiskam saturam, balstoties uz URL parametriem.
+Šajā tēmā aprakstīts, kā iestatīts Microsoft Dynamics 365 Commerce e-komercijas lapu, kura var apkalpot dinamisku saturu, pamatojoties URL parametros.
 
 E-komercijas lapu var konfigurēt, lai tā kalpotu dažādam saturam, pamatojoties uz segmentu vietrāža URL ceļā. Tāpēc šī lapa ir pazīstama kā dinamiskā lapa. Segments tiek izmantots kā parametrs lapas satura izgūšanai. Piemēram, lapa, kas ir nosaukta par **blog\_viewer**, tiek izveidota un saistīta ar URL `https://fabrikam.com/blog`. Pēc tam šo lapu var izmantot, lai parādītu dažādu saturu, balstoties uz pēdējo segmentu URL ceļā. Piemēram, pēdējais segments vietrādī URL `https://fabrikam.com/blog/article-1` ir **article-1**.
 

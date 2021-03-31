@@ -1,6 +1,6 @@
 ---
 title: Logotipa pievienošana
-description: Šajā tēmā ir aprakstīts, kā pievienot logotipu savai vietnei programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā pievienot logotipu vietnei risinājumā Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
 ms.date: 09/15/2020
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 073c3d6f8d5ee88d51efb41f6b9c1a204b82fa12
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 143c1ab33547119ceab0a4fba165669bc8b22bf4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980311"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207583"
 ---
 # <a name="add-a-logo"></a>Logotipa pievienošana
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pievienot logotipu savai vietnei programmā Microsoft Dynamics 365 Commerce.
+Šajā tēmā aprakstīts, kā pievienot logotipu vietnei risinājumā Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Pārskats
 

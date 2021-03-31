@@ -1,6 +1,6 @@
 ---
 title: Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
-description: Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce novērtējuma videi.
+description: Šajā tēmā paskaidrots, kā konfigurēt neobligātos līdzekļus Microsoft Dynamics 365 Commerce novērtējuma videi.
 author: psimolin
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993454"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213822"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles funkciju konfigurācija Dynamics 365 Commerce novērtējuma videi
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Izvēles līdzekļu konfigurēšana Dynamics 365 Commerce novērtēšanas videi
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā konfigurēt izvēles funkcijas Microsoft Dynamics 365 Commerce novērtējuma videi.
+Šajā tēmā paskaidrots, kā konfigurēt neobligātos līdzekļus Microsoft Dynamics 365 Commerce novērtējuma videi.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -102,7 +102,7 @@ Katram darījuma notikumam, kuram vēlaties sūtīt e-pasta ziņojumus, jums ir 
 
 Iespējams, vēlēsieties pielāgot e-pasta veidnes, lai tās izmantotu dažādus attēlus. Varat arī atjaunināt veidņu saites, lai tās pārvietotu uz novērtējuma vidi. Šī procedūra izskaidro, kā lejupielādēt noklusējuma veidnes, pielāgot tās un atjaunināt veidnes sistēmā.
 
-1. Sava datora tīmekļa pārlūkprogrammā lejupielādējiet [Microsoft Dynamics 365 Commerce novērtējuma noklusējuma e-pasta veidnes .zip failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
+1. Tīmekļa pārlūkā lejupielādējiet [Microsoft Dynamics 365 Commerce novērtējuma noklusējuma e-pasta veidņu ZIP failu](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) savā lokālajā datorā. Šajā failā ir ietverti tālāk norādītie HTML dokumenti.
 
     - Pasūtījuma apstiprinājuma veidne
     - Dāvanu kartes izsniegšanas veidne
@@ -136,7 +136,7 @@ Tālāk minētie marķieri attiecas uz vispārēju pārdošanas pasūtījumu.
 | Marķējuma nosaukums | Marķieris |
 |-------------------|-------|
 | Pasūtījuma numurs      | %salesid% |
-| Debitora nosaukums   | %customername% |
+| Klienta vārds/nosaukums   | %customername% |
 | Piegādes adrese  | %deliveryaddress% |
 | Norēķinu adrese   | %customeraddress% |
 | Ordera datums        | %shipdate% |
@@ -157,9 +157,9 @@ Tālāk esošie marķieri tiek aizstāti ar vērtībām katram produktam pasūt�
 | Preču saraksts — sākums   | \<!--%tablebegin.salesline% --\> |
 | Preču saraksts — beigas     | \<!--%tableend.salesline%--\> |
 | Preces nosaukums           | %lineproductname% |
-| apraksts            | %lineproductdescription% |
+| Apraksts            | %lineproductdescription% |
 | Daudzums               | %linequantity% |
-| Rindas vienības cena        | %lineprice% (verificēt) |
+| Rindas vienības cena        | %lineprice% (pārbaudīt) |
 | rindas preču kopsumma        | %linenetamount% |
 | rindas atlaide          | %linediscount% |
 | Nosūtīšanas datums              | %lineshipdate% |

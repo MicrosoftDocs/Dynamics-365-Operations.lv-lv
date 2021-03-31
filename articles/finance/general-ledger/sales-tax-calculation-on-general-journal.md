@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e420632c248b5b43d4983c5eb483cac580e67f20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 25eb8dd6965f659f0febe53a6340cb1381c5664f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975562"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204910"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>PVN aprēķins vispārējā žurnālā.
 [!include [banner](../includes/banner.md)]
@@ -41,7 +41,7 @@ Procesu var sadalīt trīs daļās:
 
 PVN virziena noteikšanas veids ir atkarīgs no konta tipa dokumentā. PVN virzienu nosaka konta tipa un PVN koda kombinācija. Tālāk norādītajās sadaļās ir sīkāk aprakstītas iespējas. 
 
-### <a name="account-type-is-project"></a>Konta  tips ir projekts.
+### <a name="account-type-is-project"></a>Konta tips ir projekts.
 
 Ja dokumentam ir žurnāla rinda, kur konta tips ir **Projekts**, visas žurnāla rindas dokumentā lieto vienu un to pašu nodokļu virzienu. Tālāk esošajā attēlā ir parādīts kārtula. Šie punkti parāda iespējamos nodokļu norādījumus projektu kontos.
 

@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 144559b14878a44afd8a77648bb5ce1d3ba17832
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ff3795f26ab10ac19cc3a0dd00dca65095118f45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131296"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207307"
 ---
 # <a name="propose-a-lease-for-termination"></a>Nomas izbeigšanas ierosinājums
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Ja noma tiek izbeigta pirms termiņa, līdzekļu noma var reģistrēt žurnāla ierakstu par izbeigšanu, lai norakstītu nomas saistības, līdzekļa lietošanas tiesības (LLT) un uzkrāto nolietojumu, kā arī iegrāmatotu peļņu vai zaudējumus. Pirmstermiņa izbeigšanas process izbeidz nomu un ar to saistītās nomas grāmatas. Tas neizbeidz atsevišķas nomas grāmatas. Šajā tēmā aprakstīta funkcionalitāte, kas ļauj ierosināt nomas izbeigšanu un apstrādāt nomas izbeigšanas žurnāla ierakstu.
 

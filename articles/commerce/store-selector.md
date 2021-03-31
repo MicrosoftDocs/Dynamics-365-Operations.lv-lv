@@ -1,6 +1,6 @@
 ---
 title: Veikala atlasītāja modulis
-description: Šajā tēmā tiek stāstīts par veikala atlasītāja moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205126"
 ---
-# <a name="store-selector-module"></a>Veikala atlasītāja modulis
+# <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par veikala atlasītāja moduli un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 
 Klienti var izmantot veikala atlasītāja moduli, lai paņemtu preci atlasītajā veikalā pēc tiešsaistes pirkšanas. Commerce versijā 10.0.13 veikala atlasītāja modulis ietver arī papildu iespējas, kas var parādīt lapu **Atrast veikalu**, kurā redzami tuvumā esošie veikali.
 

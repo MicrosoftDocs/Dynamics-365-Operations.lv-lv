@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980510"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206467"
 ---
 # <a name="checkout-module"></a>Norēķināšanās modulis
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pievienot norēķināšanas moduli lapā un iestatīt nepieciešamos rekvizītus.
-
-## <a name="overview"></a>Pārskats
 
 Norēķināšanās modulis ir īpašs konteiners, kas vieso visus moduļus, kuri nepieciešami pasūtījuma izveidei. Tas sniedz pakāpenisku plūsmu, ko klients izmanto, lai ievadītu visu atbilstošo informāciju pirkuma veikšanai. Tiek fiksēta piegādes adrese, nosūtīšanas metode un norēķinu informācija. Tas sniedz arī pasūtījuma kopsavilkumu un citu informāciju, kas saistīta ar klienta pasūtījumu.
 

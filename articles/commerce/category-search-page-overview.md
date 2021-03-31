@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2a7eab8e7f5d300930f8a093afff2d848d8a2db7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7a40df479bffdc6fdee8f0a7f64fde980cbbdbab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997853"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215725"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par noklusējuma kategorijas ielādes lapu un meklēšanas rezultātu lapu programmā Microsoft Dynamics 365 Commerce E-komercija.
+Šajā tēmā sniegts pārskats par noklusējuma kategorijas reklāmas mērķlapu un meklēšanas rezultātu lapu Microsoft Dynamics 365 Commerce e-komercijas vietnē.
 
 ## <a name="default-category-landing-page"></a>Noklusējuma kategorijas ielādes lapa
 

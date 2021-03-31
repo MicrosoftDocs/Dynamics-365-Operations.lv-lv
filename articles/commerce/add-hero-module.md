@@ -1,6 +1,6 @@
 ---
 title: Satura bloka modulis
-description: Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aplūkoti satura bloka moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6359c915d053bb00c969b166325f675c0003ead
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206275"
 ---
 # <a name="content-block-module"></a>Satura bloka modulis
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā tiek stāstīts par satura bloka moduļiem un aprakstīts, kā tos pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aplūkoti satura bloka moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Satura bloka modulis tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Piemēram, mazumtirgotājs var pievienot satura bloka moduli e-Commerce sākumlapai, lai reklamētu jaunu preci un piesaistītu klientu uzmanību.
 

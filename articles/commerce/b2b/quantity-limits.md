@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e70648da2cc1c526625b6e34fd0867d40abb5a85
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211181"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēs
 
@@ -31,7 +31,7 @@ ms.locfileid: "5035937"
 
 Lielākajai daļai preču grupēšanu nosaka mērvienība. Grupēšana ietekmē preču pārdošanas veidu. Dažām precēm var būt daudzumu papildu grupēšana. Šī grupēšana nosaka, vai preces var pārdot kā atsevišķas vai daudzkārtējas vienības, un, vai ir jāievēro minimālais vai maksimālais pasūtījuma daudzuma ierobežojums.
 
-Daudzuma ierobežošanas līdzeklis nodrošina, ka minimālie, maksimālie, daudzkārtējie un standarta daudzumi, kas konfigurēti Microsoft Dynamics 365 Commerce (noklusējuma pasūtījuma iestatījumos vai Commerce vietnes veidotāja vietnes iestatījumos), tiek lietoti klientu pasūtījumiem, kas tiek novietoti e-komercijas vietnē. Preces daudzuma ierobežojumi pārdošanas punktam (POS) un zvanu centriem pašlaik netiek atbalstīti.
+Daudzuma ierobežošanas līdzeklis nodrošina, ka minimālie, maksimālie, daudzkārtējie un standarta daudzumi, kas konfigurēti programmā Microsoft Dynamics 365 Commerce (noklusējuma pasūtījuma iestatījumos vai Commerce vietnes veidotāja vietnes iestatījumos), tiek lietoti klientu pasūtījumiem, kas tiek novietoti e-komercijas vietnē. Preces daudzuma ierobežojumi pārdošanas punktam (POS) un zvanu centriem pašlaik netiek atbalstīti.
 
 Daudzi mazumtirgotāji nodrošina iespēju izmantot klientu pasūtījumus (sauktus arī par īpašajiem pasūtījumiem), lai izpildītu dažādas preču un izpildes prasības. Tālāk uzskaitīti daži tipiski scenāriji.
 
@@ -81,7 +81,7 @@ Lai ieslēgtu Commerce vietnes veidotāju B2B pasūtījuma daudzuma ierobežoša
 
 [Organizāciju hierarhiju modelēšanas izveidošana B2B organizācijām](org-model.md)
 
-[Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas vietnēs](manage-b2b-users.md)
+[Biznesa partnera lietotāju pārvaldība B2B e-komercijas vietnēs](manage-b2b-users.md)
 
 [Klienta konta maksājuma metodes konfigurēšana B2B e-komercijas vietnēs](payment-method.md)
 
