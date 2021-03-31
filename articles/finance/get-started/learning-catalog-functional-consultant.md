@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3f74cc290617ce2b8401dbf8dc20fb8c2b2dacf8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90ba04e46d9755397b665dcdbd4355edea49eb18
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984963"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223858"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Dynamics 365 Finance funkcionālo konsultantu apmācības katalogs
 
@@ -30,7 +30,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 
 ## <a name="get-started"></a>Sākt darbu<a name="get-started"></a>
 
-| Saturs| apraksts  | Formāts  | Ilgums  |
+| Saturs| Apraksts  | Formāts  | Ilgums  |
 |--------|--------------|---------|---------|
 | [Uzziniet Microsoft Dynamics 365 un Power Platformbiznesa vērtību](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Vai vēlaties uzzināt par biznesa lietotnēm? Varbūt nezināt, kā sākt darbu ar Microsoft Dynamics 365 un Power Platform pieteikumiem? Uzziniet, kā biznesa lietojumprogrammu pilnvaras var palīdzēt pārveidot jūsu biznesu. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Dynamics 365 un Power Platform pamati](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Vai vēlaties uzzināt par biznesa lietotnēm? Sāciet ar šo mācīšanās ceļu, lai uzzinātu, kā tiek izmantotas Dynamics 365 lietojumprogrammas. Uzzini par mākoņa koncepcijām, Power Platformun par to, kā uzsākt darbu ar Dynamics 365 lietojumprogrammām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 5.5 stundas |
@@ -40,7 +40,7 @@ Funkcionāliem konsultantiem mūsu darba uzdevuma analīzes pētījumi parādīj
 
 ## <a name="core-platform-knowledge"></a>Zināšanas par galveno platformu<a name="core-platform-knowledge"></a>
 
-| Saturs  | apraksts | Formāts  | Ilgums    |
+| Saturs  | Apraksts | Formāts  | Ilgums    |
 |----------|-------------|---------|-----------|
 | [Izmantojiet Lifecycle Services, lai izstrādātu un plānotu Finance and Operations programmu ieviešanu](https://docs.microsoft.com/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) ir sadarbības darbvieta, ko klienti un to partneri izmanto, lai pārvaldītu Finance and Operations programmas no iepriekšējas pārdošanas līdz ieviešanas stadijai un visbeidzot – ražošanas videi. Tas nodrošina kontrolsarakstus un rīkus, kas palīdz pārvaldīt projektu, ieskaitot iepriekšējas izveides metodoloģijas, lai palīdzētu ieviest un regulāri atjaunināt pakalpojumus. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 2 stundas |
 | [Konfigurējiet savu organizāciju Finance and Operations programmās](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | Kā funkcionālam konsultantam, kas strādā ar Finance and Operations programmām, jums ir jāsaprot, kā iestatīt organizāciju savam debitoram. Šis apmācības ceļš citu uzdevumu starpā parāda, kā iestatīt juridiskās personas, ieviest drošības iestatījumus, personalizēt lietotāja interfeisu lietotājiem, izstrādāt un veidot mobilās programmas, un ieviest kopējās integrācijas. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 12 stundas |
