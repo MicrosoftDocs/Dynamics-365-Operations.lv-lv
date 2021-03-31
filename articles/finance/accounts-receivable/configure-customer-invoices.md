@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d278bda917d829caaedc7682ef9bebeb151d2bb9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ff988fff23611805c2849a63c2aaba74fc255d4c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991250"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217582"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
@@ -89,16 +89,16 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <ul>
 <li><strong>Piegādāt tūlīt</strong> — atlasiet visus daudzumus, kas ir ievadīti laukā <strong>Piegādāt tūlīt</strong>. Izmantojiet šo opciju, lai apstiprinātu vai piegādātu daļēju pasūtījumu.</li>
 <li><strong>Izdots</strong> — atlasiet visus daudzumus, kas ir izdoti.</li>
-<li><strong>Visi</strong> — atlasiet visus pārdošanas pasūtījumā ietvertos daudzumus, kas vēl nav atjaunināti, izmantojot pašreizējo dokumenta tipu.</li>
+<li><strong>Visi</strong> — atlasiet visus pārdošanas pasūtījumā ietvertos daudzumus, kas vēl&#39;nav atjaunināti, izmantojot pašreizējo dokumenta tipu.</li>
 <li><strong>Pavadzīme</strong> — atlasiet visus daudzumus, kas ir atjaunināti ar pavadzīmi.</li>
-<li><strong>Izdotais daudzums un neuzkrātās preces</strong> — atlasiet visus daudzumus, kas ir izdoti, un visus preču daudzumus, kas nav uzkrāti.</li>
+<li><strong>Izdotais daudzums un neuzkrātās preces</strong> — atlasiet visus daudzumus, kas ir izdoti, un visus preču daudzumus, kas nav&#39;uzkrāti.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Grāmatošana</td>
 <td><ul>
 <li>Atlasiet šo opciju, lai reģistrētu žurnālā pārdošanas pasūtījumu.</li>
-<li>Notīriet šo opciju, lai drukātu pro forma pārdošanas pasūtījumu. <strong>Piezīme.</strong> Ja esat izveidojis maksājumu grafika līgumu, pro forma pārdošanas pasūtījumā netiek rādīts maksājumu grafiks. Maksājumu grafiki tiek rādīti tikai faktiskos pārdošanas pasūtījumos.</li>
+<li>Notīriet šo opciju, lai drukātu pro forma pārdošanas pasūtījumu. <strong>Piezīme.</strong> Ja esat izveidojis maksājumu grafika līgumu, pro forma pārdošanas pasūtījumā netiek&#39;rādīts maksājumu grafiks. Maksājumu grafiki tiek rādīti tikai faktiskos pārdošanas pasūtījumos.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -116,7 +116,7 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <li><strong>Pašreizējais</strong> — drukāt dokumentus pēc katra rēķina atjaunināšanas.</li>
 <li><strong>Pēc</strong> — drukāt dokumentus pēc visu rēķinu atjaunināšanas.</li>
 </ul>
-<strong>Piezīme.</strong> Lauks <strong>Drukāt</strong> ir pieejams tikai tad, ja atlasāt opciju <strong>Drukāt rēķinu</strong>, <strong>Drukāt apstiprinājumu</strong>, <strong>Drukāt izdošanas sarakstu</strong> vai <strong>Drukāt pavadzīmi</strong>. Piemēram, lapā <strong>Formu kārtošana</strong> esat iestatījis sistēmu, lai informāciju kārtotu pēc rēķina konta. Pēc tam varat atlasīt <strong>Pēc</strong>, lai drukātu dokumentus partijā, kas tiek kārtota pēc rēķina konta. Pretējā gadījumā dokumenti tiek drukāti pirms apstrādes pabeigšanas un dokumenti netiek kārtoti secībā, kas ir norādīta lapā <strong>Formu kārtošana</strong>.</td>
+<strong>Piezīme.</strong> Lauks <strong>Drukāt</strong> ir pieejams tikai tad, ja atlasāt opciju <strong>Drukāt rēķinu</strong>, <strong>Drukāt apstiprinājumu</strong>, <strong>Drukāt izdošanas sarakstu</strong> vai <strong>Drukāt pavadzīmi</strong>. Piemēram, lapā <strong>Formu kārtošana</strong> esat iestatījis sistēmu, lai informāciju kārtotu pēc rēķina konta. Pēc tam varat atlasīt <strong>Pēc</strong>, lai drukātu dokumentus partijā, kas tiek kārtota pēc rēķina konta. Pretējā gadījumā dokumenti tiek drukāti pirms apstrādes pabeigšanas un dokumenti netiek&#39;kārtoti secībā, kas ir norādīta lapā <strong>Formu kārtošana</strong>.</td>
 </tr>
 <tr class="even">
 <td>Drukāt rēķinu</td>
@@ -146,16 +146,16 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 </tr>
 <tr class="odd">
 <td>Kreditēt atlikušo summu</td>
-<td>Ja grāmatojat kredīta notu, atzīmējiet šo opciju, lai saglabātu atlikušo daudzumu pasūtījumā. Ja šī opcija ir notīrīta, atlikušais daudzums ir iestatīts uz 0 (nulle).</td>
+<td>Ja&#39;grāmatojat kredīta notu, atzīmējiet šo opciju, lai saglabātu atlikušo daudzumu pasūtījumā. Ja šī opcija ir notīrīta, atlikušais daudzums ir iestatīts uz 0 (nulle).</td>
 </tr>
 <tr class="even">
 <td>Kopgrāmatojums, kas paredzēts:</td>
 <td>Atlasiet, kā jāveic vairāku pārdošanas pasūtījumu apkopošana:
 <ul>
-<li><strong>Nav</strong> — neveikt pārdošanas pasūtījumu apkopošanu. Piemēram, katram pārdošanas pasūtījumam tiks veidots atsevišķs rēķins.</li>
+<li><strong>Nav</strong> — neveik&#39;t pārdošanas pasūtījumu apkopošanu. Piemēram, katram pārdošanas pasūtījumam tiks veidots atsevišķs rēķins.</li>
 <li><strong>Rēķina konts</strong> — apkopot visus atlasītos pasūtījumus, balstoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem.</li>
 <li><strong>Pasūtījums</strong> — atlasītu pasūtījumu diapazonu atkopot vienā, jūsu norādītā pasūtījumā. Pasūtījumu apkopošana ir atkarīga no kritērijiem, ko iestatāt lapā<strong>Kopgrāmatošanas parametri</strong>. Ja atlasāt šo opciju, ir jāatlasa kāda vērtība laukā <strong>Pārdošanas pasūtījums</strong>.</li>
-<li><strong>Automātisks kopsavilkums</strong> — ja lapā <strong>Kopgrāmatošana</strong> ir norādīti kopgrāmatojumi, apkopojiet visus atlasītos pasūtījumus, pamatojoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem. Ja nav norādīti kopgrāmatojumi, pasūtījums tiek grāmatots atsevišķi.</li>
+<li><strong>Automātisks kopsavilkums</strong> — ja lapā <strong>Kopgrāmatošana</strong> ir norādīti kopgrāmatojumi, apkopojiet visus atlasītos pasūtījumus, pamatojoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem. Ja na&#39;v norādīti kopgrāmatojumi, pasūtījums tiek grāmatots atsevišķi.</li>
 <li><strong>Pavadzīme</strong> — atlasīto pasūtījumu diapazonu apkopo vienā rēķinā par katru pavadzīmi. Šī opcija ir pieejama tikai tad, ja laukā <strong>Daudzums</strong> ir atlasīta vērtība <strong>Pavadzīme</strong>.</li>
 </ul></td>
 </tr>

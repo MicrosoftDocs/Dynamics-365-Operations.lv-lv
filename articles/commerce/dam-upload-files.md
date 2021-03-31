@@ -1,6 +1,6 @@
 ---
 title: Augšupielādēt failus, kas nav attēli un video
-description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce vietnes veidotājā var augšupielādēt bināros failus, kas nav attēli un videoklipi.
+description: Šajā tēmā aprakstīts, kā augšupielādēt bināros failus, kas nav attēli un video, risinājuma Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
 manager: annbe
 ms.date: 03/03/2020
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3392f5f36d04e8cb0a9d6e6b7db31ff62c987649
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c065aa961cf5c2d6770ae47c63a75953e6d38e00
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995774"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222541"
 ---
-# <a name="upload-files-other-than-images-and-videos"></a>Augšupielādēt failus, kas nav attēli un video
+# <a name="upload-files-other-than-images-and-videos"></a>Failu, kas nav attēli un videoklipi, augšupielāde
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce vietnes veidotājā var augšupielādēt failus, kas nav attēli un videoklipi.
+Šajā tēmā aprakstīts, kā augšupielādēt failus, kas nav attēli un video, risinājuma Microsoft Dynamics 365 Commerce vietnes veidotājā.
 
 ## <a name="overview"></a>Pārskats
 

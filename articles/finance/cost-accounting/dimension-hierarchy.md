@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995194"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217390"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
@@ -52,7 +52,7 @@ Var izveidot tālāk norādīto dimensiju veidu dimensiju hierarhiju.
 > [!NOTE]
 > - Ja ir nepieciešamas dažādas perspektīvas, vienai dimensijai var izveidot vairākas dimensiju hierarhijas.
 > - Dimensiju hierarhiju var saistīt tikai ar vienu dimensiju.
-> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Ja pārskatu izveidei izmantojat Microsoft Excel vai Microsoft Power BI, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan programmai Excel, gan pakalpojumam Power BI ir nepieciešama fiksēta shēma.
+> - Dimensiju hierarhijas struktūrā var ietvert neierobežotu skaitu līmeņu. Visi līmeņi ir pieejami darbvietā **Izmaksu kontrole**. Lietojot Microsoft Excel vai Microsoft Power BI atskaišu sagatavošanas nolūkā, tiek eksportēti tikai pirmie 15 dimensiju hierarhijas līmeņi. Šis ierobežojums pastāv tāpēc, ka gan programmai Excel, gan pakalpojumam Power BI ir nepieciešama fiksēta shēma.
 > - Dimensiju hierarhija nav atkarīga no datuma. Tāpēc visas dimensiju hierarhijas izmaiņas tiek nekavējoties saglabātas ierakstā, un jūs nevarat salīdzināt stāvokli pirms noteikta datuma un pēc noteikta datuma.
 
 ## <a name="dimension-hierarchy-type"></a>Dimensiju hierarhijas tips

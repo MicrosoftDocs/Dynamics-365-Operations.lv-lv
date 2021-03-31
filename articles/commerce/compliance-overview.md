@@ -1,6 +1,6 @@
 ---
 title: Atbilstības pārskats
-description: Šajā tēmā ir sniegts pārskats par atbilstības vadlīnijām, kas tiek nodrošinātas ar Microsoft Dynamics 365 Commerce, lai palīdzētu jums veidot atbilstošas uzņēmuma vietnes.
+description: Šī tēma ir pārskats atbilstības vadlīnijām, kas ir nodrošinātas ar Microsoft Dynamics 365 Commerce, lai palīdzētu padarīt jūsu organizācijas vietnes atbilstošas.
 author: BrianShook
 manager: annbe
 ms.date: 01/08/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c06d4e02affc48cf8b9b533d2cd4c1cd0d85e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd47f9ad8ef7bca37986819bcc11f4c4c4d5ab0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220634"
 ---
 # <a name="compliance-overview"></a>Atbilstības pārskats
 
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir sniegts pārskats par atbilstības vadlīnijām, kas tiek nodrošinātas ar Microsoft Dynamics 365 Commerce, lai palīdzētu jums veidot atbilstošas uzņēmuma vietnes. Atbilstība ir svarīgs faktors visiem uzņēmumiem, jo tā palīdz lietotāju bāzi savienot ar savas vietnes saturu. Uzturot atbilstību, jūs varat arī palīdzēt aizsargāt savu uzņēmumu no dārgas juridiskas darbības vai lieliem naudas sodiem.
+Šī tēma ir pārskats atbilstības vadlīnijām, kas ir nodrošinātas ar Microsoft Dynamics 365 Commerce, lai palīdzētu padarīt jūsu organizācijas vietnes atbilstošas. Atbilstība ir svarīgs faktors visiem uzņēmumiem, jo tā palīdz lietotāju bāzi savienot ar savas vietnes saturu. Uzturot atbilstību, jūs varat arī palīdzēt aizsargāt savu uzņēmumu no dārgas juridiskas darbības vai lieliem naudas sodiem.
 
 Atbilstības dokumentācijā ir iekļauts pārskats par jomām, kuras jums jāņem vērā, izmantojot Dynamics 365 Commerce, lai palīdzētu jums izpildīt sava uzņēmuma atbilstības prasības.
 

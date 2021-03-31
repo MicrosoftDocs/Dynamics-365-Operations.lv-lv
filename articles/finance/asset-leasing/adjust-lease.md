@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219991"
 ---
 # <a name="adjust-leases"></a>Nomas korekcija
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tēmā paskaidrots, kā koriģēt nomu. Korekcija var būt nepieciešama, ja tiek izmainīti nomas noteikumi, noma tiek pagarināta vai mainās citi apstākļi. Līdzekļu noma atbilst vadlīnijām, ko par nomas izmaiņu sniedz Grāmatvedības standartu kodifikācijas temats 842 (ASC 842) un Starptautiskais finanšu pārskatu standarts 16 (IFRS 16). ASC 842-20-15-1 definē izmaiņas nomā kā jebkādas līguma noteikumu un nosacījumu izmaiņas, kas izraisa izmaiņas nomas apjomā vai atlīdzībā. IFRS 16 39. pants nosaka, ka nomniekam jāpārvērtē nomas saistības, lai tās atspoguļotu izmaiņās nomas maksājumos.
 

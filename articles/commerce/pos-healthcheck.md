@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216679"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Veselības pārbaude POS perifērijas ierīcēm un pakalpojumiem
 
@@ -34,7 +34,7 @@ ms.locfileid: "5000538"
 
 Mazumtirdzniecības veikali var būt sarežģītas vides, kur tiek izmantotas daudzas lietojumprogrammas un ierīces. Pieaugot operācijām, var būt sarežģīti nodrošināt darbību raitu norisi, piemēram, atkarībā no perifērijas ierīcēm, kas var pārtraukt vai netīši kļūt atvienotas dienas gaitā. Problēmu novēršana, kas saistītas ar ierīcēm un pakalpojumiem, var dārgi izmaksāt lielākiem komersantiem un tikpat apgrūtinoša mazākām darbībām.
 
-Microsoft Dynamics 365 Commerce versijas 10.0.10 un jaunākas ietver veselības pārbaudes operāciju, kas var palīdzēt novērst daļu no šīm izmaksām un aiztaupīt satraukumu. Šī operācija nodrošina ierīču testēšanas metodi tieši no POS ārpus parastajām operācijām. Tādēļ tas var palīdzēt mazumtirgotājiem noteikt problēmas pirms to rašanās.
+Programmas Microsoft Dynamics 365 Commerce versijas 10.0.10 un jaunākas ietver veselības pārbaudes operāciju, kas var palīdzēt novērst daļu no šīm izmaksām un aiztaupīt satraukumu. Šī operācija nodrošina ierīču testēšanas metodi tieši no POS ārpus parastajām operācijām. Tādēļ tas var palīdzēt mazumtirgotājiem noteikt problēmas pirms to rašanās.
 
 ## <a name="key-terms"></a>Galvenie termini
 
