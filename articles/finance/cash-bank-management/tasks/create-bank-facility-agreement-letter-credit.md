@@ -15,38 +15,41 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bffb5c802e8fa261e52197d1293ffb15c35981f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40d13e996b08efecb19be961c592230567656a4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225493"
 ---
-# <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="f0bf4-103">Bankas iestādes līguma izveide akreditīvam</span><span class="sxs-lookup"><span data-stu-id="f0bf4-103">Create a bank facility agreement for a letter of credit</span></span>
+# <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="82704-103">Bankas iestādes līguma izveide akreditīvam</span><span class="sxs-lookup"><span data-stu-id="82704-103">Create a bank facility agreement for a letter of credit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f0bf4-104">Šajā uzdevumā ir parādīta bankas iestādes līguma izveidošana, lai apstrādātu akreditīvu.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="f0bf4-105">Pirms šī uzdevuma veikšanas ir jāizveido bankas iestādes un grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="f0bf4-106">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums “USMF”.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-106">This task uses the demo company 'USMF'.</span></span>  
+<span data-ttu-id="82704-104">Šajā uzdevumā ir parādīta bankas iestādes līguma izveidošana, lai apstrādātu akreditīvu.</span><span class="sxs-lookup"><span data-stu-id="82704-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="82704-105">Pirms šī uzdevuma veikšanas ir jāizveido bankas iestādes un grāmatošanas metodes.</span><span class="sxs-lookup"><span data-stu-id="82704-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="82704-106">Šajā uzdevumā tiek izmantots demonstrācijas uzņēmums “USMF”.</span><span class="sxs-lookup"><span data-stu-id="82704-106">This task uses the demo company 'USMF'.</span></span>  
 
 
-## <a name="create-bank-facility-agreement"></a><span data-ttu-id="f0bf4-107">Izveidot bankas iestādes līgumu</span><span class="sxs-lookup"><span data-stu-id="f0bf4-107">Create Bank facility agreement</span></span>
-1. <span data-ttu-id="f0bf4-108">Pārejiet uz sadaļu Kases un bankas pārvaldība > Akreditīvi > Bankas iestādes līgumi.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-108">Go to Cash and bank management > Letters of credit > Bank facility agreements.</span></span>
-2. <span data-ttu-id="f0bf4-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-109">Click New.</span></span>
-3. <span data-ttu-id="f0bf4-110">Laukā Līguma numurs ievadiet līguma numuru saskaņā ar līgumu, kas noslēgts ar banku.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-110">In the Agreement number field, enter the agreement number according to the agreement with the bank.</span></span>
-4. <span data-ttu-id="f0bf4-111">Laukā Bankas konts ievadiet konta numuru izdevējbankā.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-111">In the Bank account field, enter the account number at the issuing bank.</span></span>
-5. <span data-ttu-id="f0bf4-112">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-112">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="f0bf4-113">Laukā Sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-113">In the Start date field, enter a date and time.</span></span>
-7. <span data-ttu-id="f0bf4-114">Laukā Beigu datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-114">In the End date field, enter a date and time.</span></span>
-8. <span data-ttu-id="f0bf4-115">Izvērsiet vai sakļaujiet sadaļu Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-115">Expand or collapse the General section.</span></span>
-9. <span data-ttu-id="f0bf4-116">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-116">Click Add line.</span></span>
-10. <span data-ttu-id="f0bf4-117">Laukā Iestādes tips noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-117">In the Facility type field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="f0bf4-118">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-118">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="f0bf4-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-119">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="f0bf4-120">Laukā Limits ievadiet iestādes summu, par kuru esat ar šo banku vienojies.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-120">In the Limit field, enter the facility amount that was negotiated with the bank.</span></span>
-14. <span data-ttu-id="f0bf4-121">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-121">Click Save.</span></span>
-15. <span data-ttu-id="f0bf4-122">Noklikšķiniet uz Paplašināt, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-122">Click Extend to open the drop dialog.</span></span>
-16. <span data-ttu-id="f0bf4-123">Laukā Jauns līguma numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-123">In the New agreement number field, type a value.</span></span>
-17. <span data-ttu-id="f0bf4-124">Laukā Beigu datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-124">In the End date field, enter a date and time.</span></span>
-18. <span data-ttu-id="f0bf4-125">Noklikšķiniet uz Paplašināt.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-125">Click Extend.</span></span>
-19. <span data-ttu-id="f0bf4-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="f0bf4-126">Close the page.</span></span>
+## <a name="create-bank-facility-agreement"></a><span data-ttu-id="82704-107">Izveidot bankas iestādes līgumu</span><span class="sxs-lookup"><span data-stu-id="82704-107">Create Bank facility agreement</span></span>
+1. <span data-ttu-id="82704-108">Pārejiet uz sadaļu Kases un bankas pārvaldība > Akreditīvi > Bankas iestādes līgumi.</span><span class="sxs-lookup"><span data-stu-id="82704-108">Go to Cash and bank management > Letters of credit > Bank facility agreements.</span></span>
+2. <span data-ttu-id="82704-109">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="82704-109">Click New.</span></span>
+3. <span data-ttu-id="82704-110">Laukā Līguma numurs ievadiet līguma numuru saskaņā ar līgumu, kas noslēgts ar banku.</span><span class="sxs-lookup"><span data-stu-id="82704-110">In the Agreement number field, enter the agreement number according to the agreement with the bank.</span></span>
+4. <span data-ttu-id="82704-111">Laukā Bankas konts ievadiet konta numuru izdevējbankā.</span><span class="sxs-lookup"><span data-stu-id="82704-111">In the Bank account field, enter the account number at the issuing bank.</span></span>
+5. <span data-ttu-id="82704-112">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="82704-112">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="82704-113">Laukā Sākuma datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="82704-113">In the Start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="82704-114">Laukā Beigu datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="82704-114">In the End date field, enter a date and time.</span></span>
+8. <span data-ttu-id="82704-115">Izvērsiet vai sakļaujiet sadaļu Vispārīgi.</span><span class="sxs-lookup"><span data-stu-id="82704-115">Expand or collapse the General section.</span></span>
+9. <span data-ttu-id="82704-116">Noklikšķiniet uz Pievienot rindu.</span><span class="sxs-lookup"><span data-stu-id="82704-116">Click Add line.</span></span>
+10. <span data-ttu-id="82704-117">Laukā Iestādes tips noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="82704-117">In the Facility type field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="82704-118">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="82704-118">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="82704-119">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="82704-119">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="82704-120">Laukā Limits ievadiet iestādes summu, par kuru esat ar šo banku vienojies.</span><span class="sxs-lookup"><span data-stu-id="82704-120">In the Limit field, enter the facility amount that was negotiated with the bank.</span></span>
+14. <span data-ttu-id="82704-121">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="82704-121">Click Save.</span></span>
+15. <span data-ttu-id="82704-122">Noklikšķiniet uz Paplašināt, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="82704-122">Click Extend to open the drop dialog.</span></span>
+16. <span data-ttu-id="82704-123">Laukā Jauns līguma numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="82704-123">In the New agreement number field, type a value.</span></span>
+17. <span data-ttu-id="82704-124">Laukā Beigu datums ievadiet datumu un laiku.</span><span class="sxs-lookup"><span data-stu-id="82704-124">In the End date field, enter a date and time.</span></span>
+18. <span data-ttu-id="82704-125">Noklikšķiniet uz Paplašināt.</span><span class="sxs-lookup"><span data-stu-id="82704-125">Click Extend.</span></span>
+19. <span data-ttu-id="82704-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="82704-126">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

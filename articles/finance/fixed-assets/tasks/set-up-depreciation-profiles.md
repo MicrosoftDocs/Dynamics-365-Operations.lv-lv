@@ -15,27 +15,30 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7cf50474a467af2cd8cd3f1e97cac3ed410fde7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 13ae9bd714988d079a933e20e6e17209161e46eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994869"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224673"
 ---
-# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="1df55-103">Nolietojuma profilu iestatīšana un izveide</span><span class="sxs-lookup"><span data-stu-id="1df55-103">Set up and create depreciation profiles</span></span>
+# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="a2b64-103">Nolietojuma profilu iestatīšana un izveide</span><span class="sxs-lookup"><span data-stu-id="a2b64-103">Set up and create depreciation profiles</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1df55-104">Nolietojuma metodes nosaka līdzekļu nolietojuma tipu un biežumu.</span><span class="sxs-lookup"><span data-stu-id="1df55-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="1df55-105">Šajā ierakstā izmantots USMF demonstrācijas uzņēmums un grāmatveža loma.</span><span class="sxs-lookup"><span data-stu-id="1df55-105">This recording uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="a2b64-104">Nolietojuma metodes nosaka līdzekļu nolietojuma tipu un biežumu.</span><span class="sxs-lookup"><span data-stu-id="a2b64-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="a2b64-105">Šajā ierakstā izmantots USMF demonstrācijas uzņēmums un grāmatveža loma.</span><span class="sxs-lookup"><span data-stu-id="a2b64-105">This recording uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-a-depreciation-profile"></a><span data-ttu-id="1df55-106">Nolietojuma profila izveide</span><span class="sxs-lookup"><span data-stu-id="1df55-106">Create a depreciation profile</span></span>
-1. <span data-ttu-id="1df55-107">Navigācijas rūtī ejiet uz **Moduļi > Pamatlīdzekļi > Iestatīšana > Nolietojuma profili**.</span><span class="sxs-lookup"><span data-stu-id="1df55-107">In the Navigation pane, go to **Modules > Fixed assets > Setup > Depreciation profiles**.</span></span>
-2. <span data-ttu-id="1df55-108">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="1df55-108">Click **New**.</span></span>
-3. <span data-ttu-id="1df55-109">Laukā **Nolietojuma profils** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="1df55-109">In the **Depreciation profile** field, type a value.</span></span>
-4. <span data-ttu-id="1df55-110">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="1df55-110">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="1df55-111">Atlasiet opciju laukā **Metode**.</span><span class="sxs-lookup"><span data-stu-id="1df55-111">In the **Method** field, select an option.</span></span> <span data-ttu-id="1df55-112">Izvēloties samazinošo bilanci, jums būs jāievada procentuāls lielums laukā **Procentuālā vērtība**.</span><span class="sxs-lookup"><span data-stu-id="1df55-112">If selecting reducing balance, you will need to enter a percentage in the **Percentage** field.</span></span>  
-6. <span data-ttu-id="1df55-113">Laukā **Nolietojuma gads** atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="1df55-113">In the **Depreciation year** field, select an option.</span></span>
-7. <span data-ttu-id="1df55-114">Laukā **Perioda biežums** atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="1df55-114">In the **Period frequency** field, select an option.</span></span>
-8. <span data-ttu-id="1df55-115">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="1df55-115">Close the form.</span></span>
+## <a name="create-a-depreciation-profile"></a><span data-ttu-id="a2b64-106">Nolietojuma profila izveide</span><span class="sxs-lookup"><span data-stu-id="a2b64-106">Create a depreciation profile</span></span>
+1. <span data-ttu-id="a2b64-107">Navigācijas rūtī ejiet uz **Moduļi > Pamatlīdzekļi > Iestatīšana > Nolietojuma profili**.</span><span class="sxs-lookup"><span data-stu-id="a2b64-107">In the Navigation pane, go to **Modules > Fixed assets > Setup > Depreciation profiles**.</span></span>
+2. <span data-ttu-id="a2b64-108">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="a2b64-108">Click **New**.</span></span>
+3. <span data-ttu-id="a2b64-109">Laukā **Nolietojuma profils** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a2b64-109">In the **Depreciation profile** field, type a value.</span></span>
+4. <span data-ttu-id="a2b64-110">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a2b64-110">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="a2b64-111">Atlasiet opciju laukā **Metode**.</span><span class="sxs-lookup"><span data-stu-id="a2b64-111">In the **Method** field, select an option.</span></span> <span data-ttu-id="a2b64-112">Izvēloties samazinošo bilanci, jums būs jāievada procentuāls lielums laukā **Procentuālā vērtība**.</span><span class="sxs-lookup"><span data-stu-id="a2b64-112">If selecting reducing balance, you will need to enter a percentage in the **Percentage** field.</span></span>  
+6. <span data-ttu-id="a2b64-113">Laukā **Nolietojuma gads** atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="a2b64-113">In the **Depreciation year** field, select an option.</span></span>
+7. <span data-ttu-id="a2b64-114">Laukā **Perioda biežums** atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="a2b64-114">In the **Period frequency** field, select an option.</span></span>
+8. <span data-ttu-id="a2b64-115">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="a2b64-115">Close the form.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
