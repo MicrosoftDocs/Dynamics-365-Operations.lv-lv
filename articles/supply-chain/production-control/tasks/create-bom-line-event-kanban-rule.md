@@ -1,6 +1,6 @@
 ---
 title: MK rindas notikumu Kanban kārtulas izveide
-description: Šis uzdevums fokusējas nepieciešamajam iestatījumam, lai izveidotu notikuma kanban nosacījumu, lai nodrošinātu piegādes ražošanas MK rindām, jauktā racionālā un klasiskā ražošanas vidē.
+description: Šis uzdevums fokusējas nepieciešamajam iestatījumam, lai izveidotu notikuma Kanban nosacījumu, lai nodrošinātu piegādes ražošanas MK rindām, jauktā racionālā un klasiskā ražošanas vidē.
 author: ChristianRytt
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcef749139635b2d8858a85154ff7619c16857d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a6df9632d6e2798fad2b3462055a9495394583f6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255281"
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>MK rindas notikumu Kanban kārtulas izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šis uzdevums fokusējas nepieciešamajam iestatījumam, lai izveidotu notikuma kanban nosacījumu, lai nodrošinātu piegādes ražošanas MK rindām, jauktā racionālā un klasiskā ražošanas vidē. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts procesa inženierim vai vērtību plūsmas pārvaldniekam, kad tie gatavojas jaunas vai modificētas preces ražošanai.
+Šis uzdevums fokusējas nepieciešamajam iestatījumam, lai izveidotu notikuma Kanban nosacījumu, lai nodrošinātu piegādes ražošanas MK rindām, jauktā racionālā un klasiskā ražošanas vidē. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USMF. Šis uzdevums ir paredzēts procesa inženierim vai vērtību plūsmas pārvaldniekam, kad tie gatavojas jaunas vai modificētas preces ražošanai.
 
 
 ## <a name="create-a-new-kanban-rule"></a>Izveidot jaunu Kanban nosacījumu

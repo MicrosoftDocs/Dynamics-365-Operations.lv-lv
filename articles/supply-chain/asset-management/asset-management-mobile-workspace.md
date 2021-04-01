@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: afda807714f14efb1cbab4ecfdd273aac52f4558
-ms.sourcegitcommit: 995c678b4715be267f1f97148902a6b3dde3bcab
+ms.openlocfilehash: 65b3261367243b747b790c4a9ce5b4189aca85c8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "5033156"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260134"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Līdzekļu pārvaldības mobilās darbvietas izmantošana
 
@@ -186,11 +186,11 @@ Lejupielādējiet un instalējiet mobilo programmu Dynamics 365 for Unified Ope
 
 1. Mobilajā ierīcē atveriet darbvietu **Līdzekļu pārvaldība**.
 
-1. Atlasiet **Visus uzutrēšanas darba pasūtījumus**.
+1. Atlasiet **Visus uzturēšanas darba pasūtījumus**.
 
 1. Atlasiet darba pasūtījumu, kam vēlaties atjaunināt dzīves cikla stāvokli.
 
-1. Ekrāna apakšpusē atlasiet pogu **Atjaunināt statusu** .
+1. Ekrāna apakšpusē atlasiet pogu **Atjaunināt statusu**.
 
 1. Atlasiet jaunu dzīves cikla stāvokli no saraksta.
 
