@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1b75d5cec991b2863e7e0213257ac63d5ab566a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233203"
 ---
 # <a name="advanced-load-building-during-wave"></a>Uzlabota kravu plānošana kopuma laikā
 
@@ -191,7 +191,7 @@ Varat iestatīt tik daudz kravas plānošanas veidnes, cik ir nepieciešams. Tom
 1. Lai režģim pievienotu rindu, darbību rūtī atlasiet **Jauns**.
 1. Jaunajā rindā iestatiet šādas vērtības.
 
-    | Lauks | apraksts | USMF demonstrācijas datu vērtība |
+    | Lauks | Apraksts | USMF demonstrācijas datu vērtība |
     |---|---|---|
     | Sērijas numurs | Secība, kādā tiks novērtētas veidnes. | *1* |
     | Noslodzes plānošanas veidnes nosaukums | Ievadiet unikālu kravas plānošanas veidnes identifikatoru. Jums ir jāievada tās veidnes nosaukums, kuru iepriekš izveidojāt vai atjauninājāt šajā iestatījumā. | *62 Sūtījums pēc noklusējuma* |

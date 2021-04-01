@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233179"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automātisks sūtījums pārkraušanai sadales centrā
 
@@ -33,7 +33,7 @@ Pārkraušana sadales centrā ir noliktavas apstrādes plūsma, kurā daudzums, 
 - Tas atbalsta tikai ražošanas pasūtījumus kā piegādi un tikai pārdošanas pasūtījumus un pārsūtīšanas pasūtījumus kā pieprasījumu.
 - Pārkraušanas sadales centrā darbību var uzsākt pat tad, ja pieprasījuma pasūtījums nav izdots noliktavai pirms piegādes kvīts reģistrēšanas (proti, pirms ražošana tika norādīta kā pabeigta).
 
-Šai pārkraušanas sadales centrā funkcijai ir divas priekšrocības.
+Šai pārkraušanas sadales centrā funkcijai ir divas priekšrocības:
 
 - Noliktavas darbības var izlaist pabeigto preču daudzuma izvietošanu parastajā noliktavas uzglabāšanas zonā, ja šie daudzumi drīzumā atkal atlasīti, lai izpildītu izejošo pasūtījumu. Tā vietā daudzumus var pārvietot vienu reizi no izdošanas novietojuma uz iepakošanas/nosūtīšanas vietu. Šādā veidā funkcionalitāte palīdz minimizēt krājumu apstrādes reižu skaitu un galu galā palīdz maksimāli palielināt laika un vietas ietaupījumu noliktavas ražotnē.
 - Noliktavas darbības var atlikt pārdošanas pasūtījumu un pārsūtīšanas pasūtījumu izdošanu noliktavai, līdz pabeigto preču izlaide saistītam ražošanas pasūtījumam tiek norādīta kā pabeigta. Šī priekšrocība varētu būt īpaši svarīga pasūtījuma veikšanas ražošanas vidē, kur ražošanas izpildes laiks parasti ir ilgāks par izpildes laiku preču ražošanas krājumam vidē.

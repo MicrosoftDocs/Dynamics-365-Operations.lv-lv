@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016935"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237380"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
@@ -80,23 +80,23 @@ Lapā **Sagādes un avotu parametri** varat atlasīt veidni, ko izmantot kredito
 - %Piedāvājuma atgriešanas iemesls%
 - %Grozījuma iemesls%
 - %Grozījumu sagatavoja%
-- %Uzņēmums%
+- %Company%
 - %Piedāvājuma pieprasījuma gadījuma nosaukums%
 - %Derīguma datums un laiks%
-- %Datums%
+- %Date%
 
-Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls% tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Uzņēmums% vērtības tiek automātiski iegūtas no PP. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
+Marķieri %Piedāvājuma atgriešanas iemesls% un %Grozījuma iemesls% tiek aizstāti ar tekstu, ko sagādes speciālists var ievadīt, pabeidzot grozījumu vednī **Grozījums**. Marķieru %Grozījumu sagatavoja% un %Company% vērtības tiek automātiski iegūtas no RFQ. Marķieris %Date% tiek aizstāts ar pašreizējo datumu.
 
 Ja kādu piedāvājuma pieprasījumu vēlaties atcelt pēc tam, kad tas ir nosūtīts, to var izdarīt no piedāvājuma pieprasījuma gadījuma. Lai atceltu, ir nepieciešama e-pasta veidne, lai nosūtītu kreditoru kontaktpersonām paziņojumu par atcelšanu. Veidnei ir jābūt atlasītai lapā **Sagādes un avotu parametri**. Kad tiek izveidota veidne, tajā var būt tālāk norādītie aizstāšanas marķieri.
 
 - %Atcelšanas iemesls%
 - %Piedāvājuma pieprasījuma gadījums%
 - %Piedāvājuma pieprasījumu atcēla%
-- %Uzņēmums%
+- %Company%
 - %Piedāvājuma pieprasījuma gadījuma nosaukums%
-- %Datums%
+- %Date%
 
-Marķieris %Atcelšanas iemesls% tiek aizstāts ar tekstu, ko sagādes speciālists var ievadīt vednī **Atcelšana**. Marķieris %Datums% tiek aizstāts ar pašreizējo datumu.
+Marķieris %Atcelšanas iemesls% tiek aizstāts ar tekstu, ko sagādes speciālists var ievadīt vednī **Atcelšana**. Marķieris %Date% tiek aizstāts ar pašreizējo datumu.
 
 Ja piedāvājumā vēlaties izmantot iemeslu kodus, lai norādītu, kāpēc tas tika atteikts vai pieņemts, jums ir jāiestata iemeslu kodi lapā **Kreditoru iemesli**.
 
