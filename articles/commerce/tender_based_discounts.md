@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98631d8f9fb2c05621f69fa67c9b60472198ee6b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232571"
 ---
 # <a name="tender-based-discounts"></a>Uz konkursu balstītas atlaides
 
@@ -34,7 +34,7 @@ Tā ir kopīga prakse starp mazumtirgotājiem, lai izlaistu privātas, firmas kr
 
 Alternatīvā gadījumā tirgotāji, kas nesniedz zīmola kredītkartes, varētu vēlēties mudināt klientus maksāt, izmantojot citus norēķinu veidus, piemēram, skaidru naudu, dāvanu kartes vai lojalitātes programmas punktus. Šādā veidā viņi var palīdzēt samazināt kredītkaršu apstrādes maksu izdevumus. Tāpēc mazumtirgotāji var nodrošināt atlaides klientiem, kuri lieto šos alternatīvos norēķinu veidus.
 
-Microsoft Dynamics 365 Commerce mazumtirgotāji var konfigurēt atlaides procentus, kas tiek piemēroti kvalificētām rindām, ja klients maksā, izmantojot izvēlēto norēķinu veidu. Klients var izlemt, vai veikt daļēju vai pilnu maksājumu, un Commerce nosaka atbilstošo atlaides summu. Ievērojiet, ka atlaides vienmēr tiek dotas par kvalificētu krājumu iepriekšēju nodokļu summu.
+Programmā Microsoft Dynamics 365 Commerce mazumtirgotāji var konfigurēt atlaides procentus, kas tiek piemēroti kvalificētām rindām, ja klients maksā, izmantojot izvēlēto norēķinu veidu. Klients var izlemt, vai veikt daļēju vai pilnu maksājumu, un Commerce nosaka atbilstošo atlaides summu. Ievērojiet, ka atlaides vienmēr tiek dotas par kvalificētu krājumu iepriekšēju nodokļu summu.
 
 Ar norēķiniem balstītās atlaides nekonkurē ar uz krājumu balstītām atlaidēm, piemēram, periodiskām vai manuālām atlaidēm. Tās vienmēr tiek izvirzītas virs krājuma atlaidēm. Tāpēc, pat ja krājumam tiek lietota ekskluzīva periodiska atlaide, uz norēķiniem balstītā atlaide tiek izmantota papildus ekskluzīvajai periodiskajai atlaidei. Turklāt, ja darījumam tiek piemērota sliekšņa atlaide, un uz norēķiniem balstītā atlaide samazina kopsummu zem sliekšņa, sliekšņa atlaide tiek izmantota transakcijai.
 

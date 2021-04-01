@@ -1,5 +1,5 @@
 ---
-title: Integrēšanas ar programmu Microsoft Dynamics 365 Field Service pārskats
+title: Pārskats par integrāciju ar Microsoft Dynamics 365 Field Service
 description: Šajā tēmā ir sniegts apskats par integrāciju ar Microsoft Dynamics 365 Field Service.
 author: ChristianRytt
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1b1f88c77ed891839adb57c2ba5e2f72f35fda6d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b0fafd46143979a734151b4011e537991347862
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237898"
 ---
-# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integrēšanas ar programmu Microsoft Dynamics 365 Field Service pārskats
+# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Pārskats par integrāciju ar Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 

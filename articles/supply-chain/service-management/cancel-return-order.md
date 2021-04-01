@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55f6a8a2d42826cc80f0db3251d804655d1566ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 796ae8b396eaf1f078ee7ede9f477a401c20f494
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001418"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232090"
 ---
 # <a name="cancel-a-return-order"></a>Atgriešanas pasūtījuma atcelšana 
 
@@ -36,11 +36,11 @@ Jūs varat atcelt atgriešanas pasūtījumu, nevis to dzēst, kad vēlaties sagl
 > <P>Tikai atdošanas pasūtījumi, kuru statuss ir <STRONG>Izveidots</STRONG>, var tikt atcelti. Atdošanas pasūtījumi ar statusu <STRONG>Atvērts</STRONG> vai <STRONG>Slēgts</STRONG> nevar tikt atcelti.</P>
 
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atdošanas pasūtījumi** \> **Visi atdošanas pasūtījumi**.
+1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atgriešanas pasūtījumi** \> **Visi atgriešanas pasūtījumi**.
     
     –vai–
     
-    Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atdošanas pasūtījumi** \> **Izveidotie atdošanas pasūtījumi**.
+    Noklikšķiniet uz **Pārdošana un mārketings** \> **Vispārīgi** \> **Atgriešanas pasūtījumi** \> **Izveidotie atgriešanas pasūtījumi**.
 
 2.  Atlasiet atgriešanas pasūtījumu, kas jāatceļ.
 
