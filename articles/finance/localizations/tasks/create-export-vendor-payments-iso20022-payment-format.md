@@ -15,37 +15,40 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2c3d538a4e032ca9cfafff3232ad235019654ed7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231480"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="f0853-103">Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022</span><span class="sxs-lookup"><span data-stu-id="f0853-103">Create and export vendor payments using ISO20022 payment format</span></span>
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="e019e-103">Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022</span><span class="sxs-lookup"><span data-stu-id="e019e-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f0853-104">Šajā tēmā ir paskaidrots, kā izveidot maksājumu rindas kreditora maksājumu žurnālā un ģenerēt kreditora maksājuma failu, izmantojot ISO2022 kredīta pārskaitījuma piemēru.</span><span class="sxs-lookup"><span data-stu-id="f0853-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
+<span data-ttu-id="e019e-104">Šajā tēmā ir paskaidrots, kā izveidot maksājumu rindas kreditora maksājumu žurnālā un ģenerēt kreditora maksājuma failu, izmantojot ISO2022 kredīta pārskaitījuma piemēru.</span><span class="sxs-lookup"><span data-stu-id="e019e-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
 
-<span data-ttu-id="f0853-105">Šī ir piektā procedūra no piecām, kas parāda kreditoru maksājumu procesu, izmantojot elektronisko pārskatu veidošanas konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="f0853-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="f0853-106">Lai izpildītu šo piemēru, izmantojiet DEMF demonstrācijas datus.</span><span class="sxs-lookup"><span data-stu-id="f0853-106">Use the DEMF demo data to complete this example.</span></span>
+<span data-ttu-id="e019e-105">Šī ir piektā procedūra no piecām, kas parāda kreditoru maksājumu procesu, izmantojot elektronisko pārskatu veidošanas konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="e019e-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="e019e-106">Lai izpildītu šo piemēru, izmantojiet DEMF demonstrācijas datus.</span><span class="sxs-lookup"><span data-stu-id="e019e-106">Use the DEMF demo data to complete this example.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f0853-107">Paraugs</span><span class="sxs-lookup"><span data-stu-id="f0853-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e019e-107">Paraugs</span><span class="sxs-lookup"><span data-stu-id="e019e-107">Example</span></span>
 
-1.    <span data-ttu-id="f0853-108">Pārejiet uz sadaļu **Kreditori > Maksājumi > Maksājumu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="f0853-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
-2.    <span data-ttu-id="f0853-109">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="f0853-109">Click **New**.</span></span>
-3.    <span data-ttu-id="f0853-110">Ievadiet vai atlasiet vērtību laukā **Nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="f0853-110">In the **Name** field, enter or select a value.</span></span>
-4.    <span data-ttu-id="f0853-111">Noklikšķiniet uz **Rindas >Maksājuma priekšlikums > Izveidot maksājuma priekšlikumu**.</span><span class="sxs-lookup"><span data-stu-id="f0853-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
-5.    <span data-ttu-id="f0853-112">Izvērsiet sadaļu **Iekļaujamie ieraksti**.</span><span class="sxs-lookup"><span data-stu-id="f0853-112">Expand the **Records to include** section.</span></span>
-6.    <span data-ttu-id="f0853-113">Noklikšķiniet uz **Filtrēt**.</span><span class="sxs-lookup"><span data-stu-id="f0853-113">Click **Filter**.</span></span>
-7.    <span data-ttu-id="f0853-114">Sarakstā atlasiet vienumam **Kreditoru tabula** un **Kreditora konta lauks** atbilstošo rindu.</span><span class="sxs-lookup"><span data-stu-id="f0853-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
-8.    <span data-ttu-id="f0853-115">Ievadiet vai atlasiet vērtību laukā **Kritēriji**.</span><span class="sxs-lookup"><span data-stu-id="f0853-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="f0853-116">Apmaksājamo kreditoru transakciju atlasei varat izmantot jebkuru kritēriju, šī piemēra ietvaros izmantojiet kreditora kontu DE-001.</span><span class="sxs-lookup"><span data-stu-id="f0853-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
-12.    <span data-ttu-id="f0853-117">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="f0853-117">Click **OK**.</span></span>
-13.    <span data-ttu-id="f0853-118">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="f0853-118">Click **OK**.</span></span>
-14.    <span data-ttu-id="f0853-119">Noklikšķiniet uz **Izveidot maksājumus**.</span><span class="sxs-lookup"><span data-stu-id="f0853-119">Click **Create payments**.</span></span>
-15. <span data-ttu-id="f0853-120">Ģenerējiet ISO20022 maksājuma failu.</span><span class="sxs-lookup"><span data-stu-id="f0853-120">Generate an ISO20022 payment file.</span></span>
-    1.    <span data-ttu-id="f0853-121">Noklikšķiniet uz **Ģenerēt maksājumus**.</span><span class="sxs-lookup"><span data-stu-id="f0853-121">Click **Generate payments**.</span></span>
-    2.    <span data-ttu-id="f0853-122">Ievadiet vai atlasiet vērtību laukā **Maksājuma metode**.</span><span class="sxs-lookup"><span data-stu-id="f0853-122">In the **Method of payment** field, enter or select a value.</span></span>
-    3.    <span data-ttu-id="f0853-123">Ievadiet vērtību laukā **Faila nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="f0853-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="f0853-124">Šī piemēra ietvaros ģenerētas fails būs saderīgs ar SEPA, jo maksājuma valūta ir EUR.</span><span class="sxs-lookup"><span data-stu-id="f0853-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="f0853-125">Lai ģenerētu maksājumus citās valūtās, var izmantot arī ISO20022 kredīta pārskaitījumu, kā arī citus kreditora maksājumu formātus</span><span class="sxs-lookup"><span data-stu-id="f0853-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
-    4.    <span data-ttu-id="f0853-126">Ievadiet vai atlasiet vērtību laukā **Bankas konts**.</span><span class="sxs-lookup"><span data-stu-id="f0853-126">In the **Bank account** field, enter or select a value.</span></span>
+1.    <span data-ttu-id="e019e-108">Pārejiet uz sadaļu **Kreditori > Maksājumi > Maksājumu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="e019e-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
+2.    <span data-ttu-id="e019e-109">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="e019e-109">Click **New**.</span></span>
+3.    <span data-ttu-id="e019e-110">Ievadiet vai atlasiet vērtību laukā **Nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="e019e-110">In the **Name** field, enter or select a value.</span></span>
+4.    <span data-ttu-id="e019e-111">Noklikšķiniet uz **Rindas >Maksājuma priekšlikums > Izveidot maksājuma priekšlikumu**.</span><span class="sxs-lookup"><span data-stu-id="e019e-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
+5.    <span data-ttu-id="e019e-112">Izvērsiet sadaļu **Iekļaujamie ieraksti**.</span><span class="sxs-lookup"><span data-stu-id="e019e-112">Expand the **Records to include** section.</span></span>
+6.    <span data-ttu-id="e019e-113">Noklikšķiniet uz **Filtrēt**.</span><span class="sxs-lookup"><span data-stu-id="e019e-113">Click **Filter**.</span></span>
+7.    <span data-ttu-id="e019e-114">Sarakstā atlasiet vienumam **Kreditoru tabula** un **Kreditora konta lauks** atbilstošo rindu.</span><span class="sxs-lookup"><span data-stu-id="e019e-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
+8.    <span data-ttu-id="e019e-115">Ievadiet vai atlasiet vērtību laukā **Kritēriji**.</span><span class="sxs-lookup"><span data-stu-id="e019e-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="e019e-116">Apmaksājamo kreditoru transakciju atlasei varat izmantot jebkuru kritēriju, šī piemēra ietvaros izmantojiet kreditora kontu DE-001.</span><span class="sxs-lookup"><span data-stu-id="e019e-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
+12.    <span data-ttu-id="e019e-117">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e019e-117">Click **OK**.</span></span>
+13.    <span data-ttu-id="e019e-118">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="e019e-118">Click **OK**.</span></span>
+14.    <span data-ttu-id="e019e-119">Noklikšķiniet uz **Izveidot maksājumus**.</span><span class="sxs-lookup"><span data-stu-id="e019e-119">Click **Create payments**.</span></span>
+15. <span data-ttu-id="e019e-120">Ģenerējiet ISO20022 maksājuma failu.</span><span class="sxs-lookup"><span data-stu-id="e019e-120">Generate an ISO20022 payment file.</span></span>
+    1.    <span data-ttu-id="e019e-121">Noklikšķiniet uz **Ģenerēt maksājumus**.</span><span class="sxs-lookup"><span data-stu-id="e019e-121">Click **Generate payments**.</span></span>
+    2.    <span data-ttu-id="e019e-122">Ievadiet vai atlasiet vērtību laukā **Maksājuma metode**.</span><span class="sxs-lookup"><span data-stu-id="e019e-122">In the **Method of payment** field, enter or select a value.</span></span>
+    3.    <span data-ttu-id="e019e-123">Ievadiet vērtību laukā **Faila nosaukums**.</span><span class="sxs-lookup"><span data-stu-id="e019e-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="e019e-124">Šī piemēra ietvaros ģenerētas fails būs saderīgs ar SEPA, jo maksājuma valūta ir EUR.</span><span class="sxs-lookup"><span data-stu-id="e019e-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="e019e-125">Lai ģenerētu maksājumus citās valūtās, var izmantot arī ISO20022 kredīta pārskaitījumu, kā arī citus kreditora maksājumu formātus</span><span class="sxs-lookup"><span data-stu-id="e019e-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
+    4.    <span data-ttu-id="e019e-126">Ievadiet vai atlasiet vērtību laukā **Bankas konts**.</span><span class="sxs-lookup"><span data-stu-id="e019e-126">In the **Bank account** field, enter or select a value.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
