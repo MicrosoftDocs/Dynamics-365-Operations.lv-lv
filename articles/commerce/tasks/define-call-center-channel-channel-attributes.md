@@ -14,88 +14,91 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59193d5d6a54fba89394e9700beb3b9596c47391
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d5e4ef84abcfd0948c46c5312078f2a940840144
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256953"
 ---
-# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="d256e-103">Zvanu centra kanālu izveide un kanāla atribūtu definēšana</span><span class="sxs-lookup"><span data-stu-id="d256e-103">Create call center channels and define channel attributes</span></span>
+# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="e64bb-103">Zvanu centra kanālu izveide un kanāla atribūtu definēšana</span><span class="sxs-lookup"><span data-stu-id="e64bb-103">Create call center channels and define channel attributes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d256e-104">Šajā procedūrā ir aprakstīts, kā izveidot jaunu komerckanālu un definēt kanāla atribūtus.</span><span class="sxs-lookup"><span data-stu-id="d256e-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="d256e-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="d256e-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="d256e-106">Šī procedūra ir paredzēta lomai komercijas IT.</span><span class="sxs-lookup"><span data-stu-id="d256e-106">This procedure is intended for the Commerce IT role.</span></span>
+<span data-ttu-id="e64bb-104">Šajā procedūrā ir aprakstīts, kā izveidot jaunu komerckanālu un definēt kanāla atribūtus.</span><span class="sxs-lookup"><span data-stu-id="e64bb-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="e64bb-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo uzdevumu, ir USRT.</span><span class="sxs-lookup"><span data-stu-id="e64bb-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="e64bb-106">Šī procedūra ir paredzēta lomai komercijas IT.</span><span class="sxs-lookup"><span data-stu-id="e64bb-106">This procedure is intended for the Commerce IT role.</span></span>
 
 
-## <a name="create-new-store"></a><span data-ttu-id="d256e-107">Izveidot jaunu veikalu</span><span class="sxs-lookup"><span data-stu-id="d256e-107">Create new store</span></span>
-1. <span data-ttu-id="d256e-108">Dodieties uz Visas darbvietas > Kanāla izvietošana.</span><span class="sxs-lookup"><span data-stu-id="d256e-108">Go to All workspaces > Channel deployment.</span></span>
-2. <span data-ttu-id="d256e-109">Noklikšķiniet uz Jauns kanāls.</span><span class="sxs-lookup"><span data-stu-id="d256e-109">Click New channel.</span></span>
-3. <span data-ttu-id="d256e-110">Noklikšķiniet uz Veikals.</span><span class="sxs-lookup"><span data-stu-id="d256e-110">Click Store.</span></span>
-4. <span data-ttu-id="d256e-111">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d256e-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="d256e-112">Laukā Veikala numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="d256e-112">In the Store number field, type a value.</span></span>
-6. <span data-ttu-id="d256e-113">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="d256e-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-114">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="d256e-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d256e-116">Laukā Noliktavas laika josla atlasiet atbilstošo opciju.</span><span class="sxs-lookup"><span data-stu-id="d256e-116">In the Store time zone field, select an option.</span></span>
-10. <span data-ttu-id="d256e-117">Laukā Kanāla profils noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="d256e-118">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="d256e-119">Laukā Valoda noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-119">In the Language field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="d256e-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="d256e-121">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-121">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="d256e-122">Laukā PVN grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="d256e-123">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-123">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="d256e-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="d256e-125">Laukā Debitoru adrešu grāmata noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d256e-126">Atlasiet adrešu grāmatu, kura ir izmantota debitoru saistīšanai ar šo veikalu.</span><span class="sxs-lookup"><span data-stu-id="d256e-126">Select the address book used to link customers to this store.</span></span>  
-19. <span data-ttu-id="d256e-127">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-127">In the list, find and select the desired record.</span></span>
-20. <span data-ttu-id="d256e-128">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-128">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="d256e-129">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="d256e-129">Click Select.</span></span>
-22. <span data-ttu-id="d256e-130">Laukā Darbinieku adrešu grāmata noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="d256e-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d256e-131">Atlasiet adrešu grāmatu, kura ir izmantota kasieru saistīšanai ar šo kanālu.</span><span class="sxs-lookup"><span data-stu-id="d256e-131">Select the address book used to link cashiers to this channel.</span></span>  
-23. <span data-ttu-id="d256e-132">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-132">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="d256e-133">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-133">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="d256e-134">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="d256e-134">Click Select.</span></span>
-26. <span data-ttu-id="d256e-135">Laukā Noklusējuma debitors noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="d256e-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="d256e-136">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-136">In the list, click the link in the selected row.</span></span>
-28. <span data-ttu-id="d256e-137">Izvērsiet vai sakļaujiet sadaļu Ekrāna izkārtojums.</span><span class="sxs-lookup"><span data-stu-id="d256e-137">Expand or collapse the Screen layout section.</span></span>
-29. <span data-ttu-id="d256e-138">Laukā Ekrāna izkārtojuma ID noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="d256e-139">Atlasiet noklusējuma POS ekrāna izkārtojumu šim veikalam.</span><span class="sxs-lookup"><span data-stu-id="d256e-139">Select the default POS screen layout for this store.</span></span>  
-30. <span data-ttu-id="d256e-140">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-140">In the list, find and select the desired record.</span></span>
-31. <span data-ttu-id="d256e-141">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-141">In the list, click the link in the selected row.</span></span>
-32. <span data-ttu-id="d256e-142">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="d256e-142">On the Action Pane, click Set up.</span></span>
-33. <span data-ttu-id="d256e-143">Noklikšķiniet uz Kanāla atribūti.</span><span class="sxs-lookup"><span data-stu-id="d256e-143">Click Channel attributes.</span></span>
-34. <span data-ttu-id="d256e-144">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d256e-144">Click New.</span></span>
-35. <span data-ttu-id="d256e-145">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-145">In the Name field, click the drop-down button to open the lookup.</span></span>
-36. <span data-ttu-id="d256e-146">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-146">In the list, find and select the desired record.</span></span>
-37. <span data-ttu-id="d256e-147">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-147">In the list, click the link in the selected row.</span></span>
-38. <span data-ttu-id="d256e-148">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d256e-148">Click Save.</span></span>
-39. <span data-ttu-id="d256e-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d256e-149">Close the page.</span></span>
-40. <span data-ttu-id="d256e-150">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="d256e-150">On the Action Pane, click Set up.</span></span>
-41. <span data-ttu-id="d256e-151">Noklikšķiniet uz Maksāšanas metodes.</span><span class="sxs-lookup"><span data-stu-id="d256e-151">Click Payment methods.</span></span>
-42. <span data-ttu-id="d256e-152">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d256e-152">Click New.</span></span>
-43. <span data-ttu-id="d256e-153">Laukā Maksāšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
-44. <span data-ttu-id="d256e-154">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-154">In the list, click the link in the selected row.</span></span>
-45. <span data-ttu-id="d256e-155">Izvērsiet vai sakļaujiet sadaļu Grāmatošana.</span><span class="sxs-lookup"><span data-stu-id="d256e-155">Expand or collapse the Posting section.</span></span>
-46. <span data-ttu-id="d256e-156">Laukā Konta numurs norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="d256e-156">In the Account number field, specify the desired values.</span></span>
-47. <span data-ttu-id="d256e-157">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d256e-157">Click Save.</span></span>
-48. <span data-ttu-id="d256e-158">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d256e-158">Close the page.</span></span>
-49. <span data-ttu-id="d256e-159">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="d256e-159">On the Action Pane, click Set up.</span></span>
-50. <span data-ttu-id="d256e-160">Noklikšķiniet uz Skaidrās naudas uzskaite.</span><span class="sxs-lookup"><span data-stu-id="d256e-160">Click Cash declaration.</span></span>
-51. <span data-ttu-id="d256e-161">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d256e-161">Click New.</span></span>
-52. <span data-ttu-id="d256e-162">Laukā Summa transakcijas valūtā ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="d256e-162">In the Amount in transaction currency field, enter a number.</span></span>
-53. <span data-ttu-id="d256e-163">Laukā Valūta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
-54. <span data-ttu-id="d256e-164">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-164">In the list, find and select the desired record.</span></span>
-55. <span data-ttu-id="d256e-165">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-165">In the list, click the link in the selected row.</span></span>
-56. <span data-ttu-id="d256e-166">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d256e-166">Click Save.</span></span>
-57. <span data-ttu-id="d256e-167">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d256e-167">Close the page.</span></span>
-58. <span data-ttu-id="d256e-168">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="d256e-168">On the Action Pane, click Set up.</span></span>
-59. <span data-ttu-id="d256e-169">Noklikšķiniet uz Veikala vietrāžu grupas piešķire.</span><span class="sxs-lookup"><span data-stu-id="d256e-169">Click Store locator group assignment.</span></span>
-60. <span data-ttu-id="d256e-170">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="d256e-170">Click New.</span></span>
-61. <span data-ttu-id="d256e-171">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="d256e-171">In the list, mark the selected row.</span></span>
-62. <span data-ttu-id="d256e-172">Laukā Vietrāžu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d256e-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
-63. <span data-ttu-id="d256e-173">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="d256e-173">In the list, find and select the desired record.</span></span>
-64. <span data-ttu-id="d256e-174">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="d256e-174">In the list, click the link in the selected row.</span></span>
-65. <span data-ttu-id="d256e-175">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="d256e-175">Click Save.</span></span>
-66. <span data-ttu-id="d256e-176">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d256e-176">Close the page.</span></span>
+## <a name="create-new-store"></a><span data-ttu-id="e64bb-107">Izveidot jaunu veikalu</span><span class="sxs-lookup"><span data-stu-id="e64bb-107">Create new store</span></span>
+1. <span data-ttu-id="e64bb-108">Dodieties uz Visas darbvietas > Kanāla izvietošana.</span><span class="sxs-lookup"><span data-stu-id="e64bb-108">Go to All workspaces > Channel deployment.</span></span>
+2. <span data-ttu-id="e64bb-109">Noklikšķiniet uz Jauns kanāls.</span><span class="sxs-lookup"><span data-stu-id="e64bb-109">Click New channel.</span></span>
+3. <span data-ttu-id="e64bb-110">Noklikšķiniet uz Veikals.</span><span class="sxs-lookup"><span data-stu-id="e64bb-110">Click Store.</span></span>
+4. <span data-ttu-id="e64bb-111">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="e64bb-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="e64bb-112">Laukā Veikala numurs ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="e64bb-112">In the Store number field, type a value.</span></span>
+6. <span data-ttu-id="e64bb-113">Laukā Noliktava noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="e64bb-114">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-114">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="e64bb-115">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="e64bb-116">Laukā Noliktavas laika josla atlasiet atbilstošo opciju.</span><span class="sxs-lookup"><span data-stu-id="e64bb-116">In the Store time zone field, select an option.</span></span>
+10. <span data-ttu-id="e64bb-117">Laukā Kanāla profils noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="e64bb-118">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="e64bb-119">Laukā Valoda noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-119">In the Language field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="e64bb-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="e64bb-121">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-121">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="e64bb-122">Laukā PVN grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="e64bb-123">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-123">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="e64bb-124">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="e64bb-125">Laukā Debitoru adrešu grāmata noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e64bb-126">Atlasiet adrešu grāmatu, kura ir izmantota debitoru saistīšanai ar šo veikalu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-126">Select the address book used to link customers to this store.</span></span>  
+19. <span data-ttu-id="e64bb-127">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-127">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="e64bb-128">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-128">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="e64bb-129">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-129">Click Select.</span></span>
+22. <span data-ttu-id="e64bb-130">Laukā Darbinieku adrešu grāmata noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e64bb-131">Atlasiet adrešu grāmatu, kura ir izmantota kasieru saistīšanai ar šo kanālu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-131">Select the address book used to link cashiers to this channel.</span></span>  
+23. <span data-ttu-id="e64bb-132">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-132">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="e64bb-133">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-133">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="e64bb-134">Noklikšķiniet uz Atlasīt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-134">Click Select.</span></span>
+26. <span data-ttu-id="e64bb-135">Laukā Noklusējuma debitors noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanas logu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="e64bb-136">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-136">In the list, click the link in the selected row.</span></span>
+28. <span data-ttu-id="e64bb-137">Izvērsiet vai sakļaujiet sadaļu Ekrāna izkārtojums.</span><span class="sxs-lookup"><span data-stu-id="e64bb-137">Expand or collapse the Screen layout section.</span></span>
+29. <span data-ttu-id="e64bb-138">Laukā Ekrāna izkārtojuma ID noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e64bb-139">Atlasiet noklusējuma POS ekrāna izkārtojumu šim veikalam.</span><span class="sxs-lookup"><span data-stu-id="e64bb-139">Select the default POS screen layout for this store.</span></span>  
+30. <span data-ttu-id="e64bb-140">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-140">In the list, find and select the desired record.</span></span>
+31. <span data-ttu-id="e64bb-141">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-141">In the list, click the link in the selected row.</span></span>
+32. <span data-ttu-id="e64bb-142">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-142">On the Action Pane, click Set up.</span></span>
+33. <span data-ttu-id="e64bb-143">Noklikšķiniet uz Kanāla atribūti.</span><span class="sxs-lookup"><span data-stu-id="e64bb-143">Click Channel attributes.</span></span>
+34. <span data-ttu-id="e64bb-144">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e64bb-144">Click New.</span></span>
+35. <span data-ttu-id="e64bb-145">Laukā Nosaukums noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-145">In the Name field, click the drop-down button to open the lookup.</span></span>
+36. <span data-ttu-id="e64bb-146">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-146">In the list, find and select the desired record.</span></span>
+37. <span data-ttu-id="e64bb-147">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-147">In the list, click the link in the selected row.</span></span>
+38. <span data-ttu-id="e64bb-148">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-148">Click Save.</span></span>
+39. <span data-ttu-id="e64bb-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-149">Close the page.</span></span>
+40. <span data-ttu-id="e64bb-150">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-150">On the Action Pane, click Set up.</span></span>
+41. <span data-ttu-id="e64bb-151">Noklikšķiniet uz Maksāšanas metodes.</span><span class="sxs-lookup"><span data-stu-id="e64bb-151">Click Payment methods.</span></span>
+42. <span data-ttu-id="e64bb-152">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e64bb-152">Click New.</span></span>
+43. <span data-ttu-id="e64bb-153">Laukā Maksāšanas metode noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
+44. <span data-ttu-id="e64bb-154">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-154">In the list, click the link in the selected row.</span></span>
+45. <span data-ttu-id="e64bb-155">Izvērsiet vai sakļaujiet sadaļu Grāmatošana.</span><span class="sxs-lookup"><span data-stu-id="e64bb-155">Expand or collapse the Posting section.</span></span>
+46. <span data-ttu-id="e64bb-156">Laukā Konta numurs norādiet vēlamās vērtības.</span><span class="sxs-lookup"><span data-stu-id="e64bb-156">In the Account number field, specify the desired values.</span></span>
+47. <span data-ttu-id="e64bb-157">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-157">Click Save.</span></span>
+48. <span data-ttu-id="e64bb-158">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-158">Close the page.</span></span>
+49. <span data-ttu-id="e64bb-159">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-159">On the Action Pane, click Set up.</span></span>
+50. <span data-ttu-id="e64bb-160">Noklikšķiniet uz Skaidrās naudas uzskaite.</span><span class="sxs-lookup"><span data-stu-id="e64bb-160">Click Cash declaration.</span></span>
+51. <span data-ttu-id="e64bb-161">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e64bb-161">Click New.</span></span>
+52. <span data-ttu-id="e64bb-162">Laukā Summa transakcijas valūtā ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="e64bb-162">In the Amount in transaction currency field, enter a number.</span></span>
+53. <span data-ttu-id="e64bb-163">Laukā Valūta noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
+54. <span data-ttu-id="e64bb-164">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-164">In the list, find and select the desired record.</span></span>
+55. <span data-ttu-id="e64bb-165">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-165">In the list, click the link in the selected row.</span></span>
+56. <span data-ttu-id="e64bb-166">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-166">Click Save.</span></span>
+57. <span data-ttu-id="e64bb-167">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-167">Close the page.</span></span>
+58. <span data-ttu-id="e64bb-168">Darbību rūtī noklikšķiniet uz Iestatīt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-168">On the Action Pane, click Set up.</span></span>
+59. <span data-ttu-id="e64bb-169">Noklikšķiniet uz Veikala vietrāžu grupas piešķire.</span><span class="sxs-lookup"><span data-stu-id="e64bb-169">Click Store locator group assignment.</span></span>
+60. <span data-ttu-id="e64bb-170">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="e64bb-170">Click New.</span></span>
+61. <span data-ttu-id="e64bb-171">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-171">In the list, mark the selected row.</span></span>
+62. <span data-ttu-id="e64bb-172">Laukā Vietrāžu grupa noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
+63. <span data-ttu-id="e64bb-173">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-173">In the list, find and select the desired record.</span></span>
+64. <span data-ttu-id="e64bb-174">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="e64bb-174">In the list, click the link in the selected row.</span></span>
+65. <span data-ttu-id="e64bb-175">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e64bb-175">Click Save.</span></span>
+66. <span data-ttu-id="e64bb-176">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e64bb-176">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
