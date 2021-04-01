@@ -1,6 +1,6 @@
 ---
 title: Kavējuma reģistrēšana sadaļā Laiks un apmeklētība
-description: Šajā tēmā ir paskaidros, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
+description: Šajā tēmā ir paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
 author: johanhoffmann
 manager: tfehr
 ms.date: 05/26/2017
@@ -16,24 +16,24 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 961b87fb066018f9f6ecc3dcc3cc88e64574bb64
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246553"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Kavējuma reģistrēšana sadaļā Laiks un apmeklējums
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīti kavējuma jēdzieni un ir paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
+Šajā tēmā ir aprakstīti kavējuma jēdzieni un paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
 
 ## <a name="absence-that-is-based-on-regular-work-hours"></a>Kavējums, pamatojoties uz parasto darba laiku
 
 Par nodarbinātā kavējumu tiek uzskatīts viss laiks, ko nodarbinātais nestrādā savā parastajā darba laikā. Parastais darba laiks ir definēts nodarbinātā standarta laika profilā.
 
-Piemēram, nodarbinātais strādā atbilstoši dienas profilam ar ierašanās laiku plkst. 7:00 un aiziešanas laiku plkst. 15:00. Ja nodarbinātais ierodas plkst. 9.00, tiek uzskatīts, ka viņš šajā dienā ir kavējis darbu no plkst. 7.00 līdz plkst. 9.00.
+Piemēram, nodarbinātais strādā atbilstoši dienas profilam ar ierašanās laiku plkst. 7.00 un aiziešanas laiku plkst. 15.00. Ja nodarbinātais ierodas plkst. 9.00, tiek uzskatīts, ka viņš šajā dienā ir kavējis darbu no plkst. 7.00 līdz plkst. 9.00.
 
 Šādā gadījumā nodarbinātajiem tiek prasīts ievadīt kavējuma iemeslu. Viņi var norādīt iemeslu, atlasot kavējuma kodu.
 

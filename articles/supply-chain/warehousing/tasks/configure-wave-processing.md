@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e22816b33739141fbcd188d631a07313db415959
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bf2938137f1e6aa525f18b4d6863257d362137b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977292"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239090"
 ---
 # <a name="configure-wave-processing"></a>Kopuma apstrādes konfigurēšana
 
@@ -31,7 +31,7 @@ ms.locfileid: "4977292"
 
 1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Uzstādīšana > Kopumi > Kopumu veidnes**.
 2. Klikšķiniet **Jauns**.
-3. Ierakstiet vērtību laukā **Kopuma veidnes nosaukums**. Iestatot kopuma veidni, norādiet secību, kādā veidnes tiks saskaņotas ar izlaistajām rindām pārdošanas pasūtījumos, ražošanas pasūtījumos vai kanban. Kad rindas tiek nodotas uz noliktavu vai uz ražošanu, tiek izmantota pirmā kopuma veidne, kas atbilst kritērijiem. Mēs iesakām šī saraksta sākumā novietot veidnes ar visspecifiskākajiem kritērijiem. Jo plašāki kritēriji, jo vairāk iespējams, ka rinda atbildīs kritērijiem, un rezultātā rindas var tikt piešķirtas nepareizajam kopumam.  
+3. Ierakstiet vērtību laukā **Kopuma veidnes nosaukums**. Iestatot kopuma veidni, norādiet secību, kādā veidnes tiks saskaņotas ar izlaistajām rindām pārdošanas pasūtījumos, ražošanas pasūtījumos vai Kanban. Kad rindas tiek nodotas uz noliktavu vai uz ražošanu, tiek izmantota pirmā kopuma veidne, kas atbilst kritērijiem. Mēs iesakām šī saraksta sākumā novietot veidnes ar visspecifiskākajiem kritērijiem. Jo plašāki kritēriji, jo vairāk iespējams, ka rinda atbildīs kritērijiem, un rezultātā rindas var tikt piešķirtas nepareizajam kopumam.  
 4. Laukā **Kopuma veidnes apraksts** ierakstiet kādu vērtību.
 5. Laukā **Vieta** ievadiet vai atlasiet kādu vērtību. Ja izmantojat USMF, varat atlasīt "Vieta 2".  
 6. Laukā **Noliktava** ievadiet vai atlasiet kādu vērtību. Ja izmantojat krājumu USMF, varat atlasīt 24. noliktavu.  
