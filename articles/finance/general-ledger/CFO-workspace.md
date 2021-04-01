@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30506b17331d15e1164f513b34ff71f612828f8b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985116"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256695"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Pievienot finanšu dimensijas CFO darbvietai
 
@@ -33,7 +33,7 @@ ms.locfileid: "4985116"
 1. Finance lapā **Elementu krātuve** atjauniniet **LedgerActivityMeasure** un **BudgetActivityMeasure** mērus.
 2. Programmā Microsoft Visual Studio atveriet lietojumprogrammu pārlūku un meklējiet **LedgerCFO**.
 3. Sadaļā **Resursi** atveriet **LedgerCFOWorkspacePBIX**.
-4. Kad resurss tiek atvērts Microsoft Power BI darbvirsmā, atlasiet vienumu **Iegūt datus**, vienumu **SQL Server datu bāze** un pēc tam vienumu **Izveidot savienojumu**.
+4. Kad Microsoft Power BI Desktop tiek atvērts resurss, atlasiet **Iegūt datus**, atlasiet **SQL servera datu bāze** un pēc tam atlasiet **Pieslēgties**.
 5. Ievadiet servera nosaukumu un ievadiet **AxDW** kā datu bāzi. Atlasiet **DirectQuery** un pēc tam **Labi**.
 6. Meklējiet un atlasiet **LedgerActivityMeasure\_DimensionCombination** un pēc tam atlasiet **Ielādēt**.
 

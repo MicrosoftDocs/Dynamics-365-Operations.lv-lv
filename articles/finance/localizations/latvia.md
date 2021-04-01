@@ -15,12 +15,12 @@ ms.search.region: Latvia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aeba8e7d8e946d62710a79b73ff5056a721d76f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 27c82dbd4e387b1b145c0afb27cfa8d518f8daca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254403"
 ---
 # <a name="latvia-overview"></a>Latvijas pārskats
 
