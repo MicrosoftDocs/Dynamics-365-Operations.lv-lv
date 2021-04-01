@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: f5b51047dbfc95406ebcdda2255b58e41044a6a6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cf64c3dea6fe08c36388f5f7147795221cf85b8a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224479"
 ---
 # <a name="planning-optimization-overview"></a>Plānošanas optimizācijas pārskats
 
@@ -60,7 +60,7 @@ Ja Plānošanas optimizācijas pievienojumprogramma ir atinstalēta, visi saist�
 2. Plānošanas optimizācija pieprasa vajadzīgos datus, izmantojot iebūvēto savienotāju.
 3. SQL datu bāze sūta pieprasīto informāciju par iestatīšanas, šablona un darbības datiem plānošanas optimizēšanai, izmantojot savienotāju. Savienotājs tulko informāciju starp Supply Chain Management un plānošanas optimizācijas pakalpojumu.
 4. Plānošanas optimizācijas pakalpojuma rīcībā ir ar plānošanu saistīti dati atmiņā un tiek veikti vajadzīgie aprēķini.
-5. Plānošanas rezultāts tiek nosūtīts uz Supply Chain Management  datu bāzi, izmantojot savienotāju. Rezultātos ietilpst informācija, piemēram, plānotie pasūtījumi un piesaistes informācija. Plānošanas optimizācija nosūta signālu uz Supply Chain Management, lai norādītu, ka plānošanas izpilde ir pabeigta. Tas arī nosūta jebkādus svarīgus ziņojumus un brīdinājumus.
+5. Plānošanas rezultāts tiek nosūtīts uz Supply Chain Management datu bāzi, izmantojot savienotāju. Rezultātos ietilpst informācija, piemēram, plānotie pasūtījumi un piesaistes informācija. Plānošanas optimizācija nosūta signālu uz Supply Chain Management, lai norādītu, ka plānošanas izpilde ir pabeigta. Tas arī nosūta jebkādus svarīgus ziņojumus un brīdinājumus.
 
 Nākamajā attēlā ir redzamas datu plūsmas.
 

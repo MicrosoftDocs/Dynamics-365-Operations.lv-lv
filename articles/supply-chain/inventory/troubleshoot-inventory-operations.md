@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3a22229106753d265a90f0ef05f5ac82dc745bbd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee1bfbf1b5aa736e1ee5bd38403b6c94c2bd036b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967159"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225006"
 ---
 # <a name="troubleshoot-inventory-operations"></a>Krājumu problēmu novēršanas operācijas
 
@@ -105,17 +105,17 @@ Esošajā laidienā krājumu darbplūsmas nosacījumi attiecas tikai uz žurnāl
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Filtra rūts filtri **Rīcībā esošo krājumu saraksta** lapā nefiltrē rezultātus, kā paredzēts.
+Filtra rūts filtri **Rīcībā esošo krājumu saraksta**  lapā nefiltrē rezultātus, kā paredzēts.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Tas tiek darīts ar nolūku.
 
- **Rīcībā esošo krājumu saraksta** lapa tiek apkopota no detalizētas rīcībā esošo krājumu tabulas, kas ietver visas pieejamās dimensijas. Tomēr saraksts šajā lapā ir kopsavilkums. Tāpēc tā var apvienot rindas no avota tabulas, apkopojot vērtības atbilstoši parādītajām dimensijām.
+ **Rīcībā esošo krājumu saraksta**  lapa tiek apkopota no detalizētas rīcībā esošo krājumu tabulas, kas ietver visas pieejamās dimensijas. Tomēr saraksts šajā lapā ir kopsavilkums. Tāpēc tā var apvienot rindas no avota tabulas, apkopojot vērtības atbilstoši parādītajām dimensijām.
 
 Filtri, ko iestatāt Filtru rūtī, attiecas uz avota tabulu, nevis uz apkopoto sarakstu. Dažreiz šī uzvedība var radīt neparedzētus rezultātus, kā parādīts [šajos piemēros](inventory-on-hand-list.md#examples).
 
-Tomēr  [režģī sniegtie filtri](inventory-on-hand-list.md#grid-filters) *attiecas* uz apkopoto sarakstu. Šie filtri ietver gan QuickFilter režģa augšpusē, gan katra kolonnas virsraksta filtru.
+Tomēr  [režģī sniegtie filtri](inventory-on-hand-list.md#grid-filters) *attiecas*  uz apkopoto sarakstu. Šie filtri ietver gan QuickFilter režģa augšpusē, gan katra kolonnas virsraksta filtru.
 
 ## <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>Krājumu žurnālā mērvienības un mērvienību daudzums nedarbojas pareizi.
 
