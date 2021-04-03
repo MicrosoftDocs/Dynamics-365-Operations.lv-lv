@@ -16,32 +16,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be38076be7f57ca9072221d1c8b8a524e81ab62b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113429"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464890"
 ---
-# <a name="enter-worker-information"></a><span data-ttu-id="a1cae-103">Nodarbinātā informācijas ievade</span><span class="sxs-lookup"><span data-stu-id="a1cae-103">Enter worker information</span></span>
+# <a name="enter-worker-information"></a><span data-ttu-id="57240-103">Nodarbinātā informācijas ievade</span><span class="sxs-lookup"><span data-stu-id="57240-103">Enter worker information</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="a1cae-104">Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas projektu un ģenerējis amatus, nākamais solis ir ievadīt darbinieka informāciju par cilvēkiem, kas pieņemti darbā.</span><span class="sxs-lookup"><span data-stu-id="a1cae-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="a1cae-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="a1cae-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a1cae-106">Demonstrācijas dati ietver atvērtu masveida darbā pieņemšanas projektu.</span><span class="sxs-lookup"><span data-stu-id="a1cae-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="a1cae-107">Lai sāktu šo procedūru, pārejiet uz sadaļu Personāla vadība > Personāla atlase > Masveida darbā pieņemšanas projekti.</span><span class="sxs-lookup"><span data-stu-id="a1cae-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
+<span data-ttu-id="57240-104">Kad personāla atlases darbinieks ir izveidojis masveida darbā pieņemšanas projektu un ģenerējis amatus, nākamais solis ir ievadīt darbinieka informāciju par cilvēkiem, kas pieņemti darbā.</span><span class="sxs-lookup"><span data-stu-id="57240-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="57240-105">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="57240-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="57240-106">Demonstrācijas dati ietver atvērtu masveida darbā pieņemšanas projektu.</span><span class="sxs-lookup"><span data-stu-id="57240-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="57240-107">Lai sāktu šo procedūru, pārejiet uz sadaļu Personāla vadība > Personāla atlase > Masveida darbā pieņemšanas projekti.</span><span class="sxs-lookup"><span data-stu-id="57240-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 
-1. <span data-ttu-id="a1cae-108">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a1cae-108">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="a1cae-109">Noklikšķiniet uz Detalizēta informācija par amatu.</span><span class="sxs-lookup"><span data-stu-id="a1cae-109">Click Position details.</span></span>
-    * <span data-ttu-id="a1cae-110">Rediģējiet darbinieka sākuma datumu.</span><span class="sxs-lookup"><span data-stu-id="a1cae-110">Edit the start date for the worker.</span></span>  
-    * <span data-ttu-id="a1cae-111">Rediģējiet darbinieka beigu datumu.</span><span class="sxs-lookup"><span data-stu-id="a1cae-111">Edit the end date for the worker.</span></span>  
-    * <span data-ttu-id="a1cae-112">Mainiet darbinieka tipu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a1cae-112">Change the worker type for the worker, if needed.</span></span>  
-3. <span data-ttu-id="a1cae-113">Laukā Vārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a1cae-113">In the First name field, type a value.</span></span>
-4. <span data-ttu-id="a1cae-114">Laukā Otrais vārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a1cae-114">In the Middle name field, type a value.</span></span>
-5. <span data-ttu-id="a1cae-115">Laukā Uzvārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a1cae-115">In the Last name field, type a value.</span></span>
-    * <span data-ttu-id="a1cae-116">Mainiet darbinieka darbu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a1cae-116">Change the job for the worker, if needed.</span></span>  
-    * <span data-ttu-id="a1cae-117">Mainiet darbinieka nodaļu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a1cae-117">Change the department for the worker, if needed.</span></span>  
-    * <span data-ttu-id="a1cae-118">Mainiet darbinieka pilnas slodzes ekvivalenta statusu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="a1cae-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
-6. <span data-ttu-id="a1cae-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a1cae-119">Click OK.</span></span>
-7. <span data-ttu-id="a1cae-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="a1cae-120">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="a1cae-121">Sarakstā noņemiet atzīmi no atlasītās rindas.</span><span class="sxs-lookup"><span data-stu-id="a1cae-121">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="a1cae-122">Atlasiet nākamo projekta amatu un turpiniet ievadīt darbinieka informāciju katrai personai, kuru pieņemat darbā.</span><span class="sxs-lookup"><span data-stu-id="a1cae-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
+1. <span data-ttu-id="57240-108">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="57240-108">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="57240-109">Noklikšķiniet uz Detalizēta informācija par amatu.</span><span class="sxs-lookup"><span data-stu-id="57240-109">Click Position details.</span></span>
+    * <span data-ttu-id="57240-110">Rediģējiet darbinieka sākuma datumu.</span><span class="sxs-lookup"><span data-stu-id="57240-110">Edit the start date for the worker.</span></span>  
+    * <span data-ttu-id="57240-111">Rediģējiet darbinieka beigu datumu.</span><span class="sxs-lookup"><span data-stu-id="57240-111">Edit the end date for the worker.</span></span>  
+    * <span data-ttu-id="57240-112">Mainiet darbinieka tipu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="57240-112">Change the worker type for the worker, if needed.</span></span>  
+3. <span data-ttu-id="57240-113">Laukā Vārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="57240-113">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="57240-114">Laukā Otrais vārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="57240-114">In the Middle name field, type a value.</span></span>
+5. <span data-ttu-id="57240-115">Laukā Uzvārds ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="57240-115">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="57240-116">Mainiet darbinieka darbu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="57240-116">Change the job for the worker, if needed.</span></span>  
+    * <span data-ttu-id="57240-117">Mainiet darbinieka nodaļu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="57240-117">Change the department for the worker, if needed.</span></span>  
+    * <span data-ttu-id="57240-118">Mainiet darbinieka pilnas slodzes ekvivalenta statusu, ja nepieciešams.</span><span class="sxs-lookup"><span data-stu-id="57240-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
+6. <span data-ttu-id="57240-119">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="57240-119">Click OK.</span></span>
+7. <span data-ttu-id="57240-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="57240-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="57240-121">Sarakstā noņemiet atzīmi no atlasītās rindas.</span><span class="sxs-lookup"><span data-stu-id="57240-121">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="57240-122">Atlasiet nākamo projekta amatu un turpiniet ievadīt darbinieka informāciju katrai personai, kuru pieņemat darbā.</span><span class="sxs-lookup"><span data-stu-id="57240-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
