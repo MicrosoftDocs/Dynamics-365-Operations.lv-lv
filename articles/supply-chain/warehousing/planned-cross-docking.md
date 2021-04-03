@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970310"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556270"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -37,14 +37,14 @@ Saņemšanas pasūtījuma saņemšanas laikā pārkraušanas sadales centrā ies
 > [!NOTE]
 > Krājumu darbības **tiek** reģistrētas, atceļot pārkraušanas sadales centrā darbu, pat ja iestatījumi šai iespējai ir ieslēgti Noliktavas pārvaldības parametros.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Iespējot plānoto pārkraušanas opciju
+## <a name="turn-on-the-planned-cross-docking-features"></a>Iespējot plānotās pārkraušanas opcijas
 
-Pirms izmantot uzlabotu plānoto pārkraušanu sadales centrā, funkcijai ir jābūt iespējotai sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet tālāk norādītās funkcijas šādā secībā:
 
-- **Modulis:** *Noliktavas pārvaldība*
-- **Opcijas nosaukums:** *Plānotā pārkraušana sadales centrā*
+1. *Plānotā pārkraušana sadales centrā*
+2. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*
 
-## <a name="setup"></a>Iestatījumi
+## <a name="setup"></a>Iestatīt
 
 ### <a name="regenerate-load-posting-methods"></a>Atkārtoti ģenerēt noslodzes grāmatošanas metodes
 
@@ -89,6 +89,10 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
     - **Atkārtoti apliecināt piegādes kvīti:** *Nē*
 
         Šī opcija nosaka, vai, saņemot kvīti, ir atkārtoti jāapliecina piegāde. Ja šī opcija ir iestatīta uz *Jā*, ir jāpārbauda gan maksimālais laika logs, gan beigu dienu diapazons.
+
+    - **Direktīvas kods:** atstājiet šo lauku tukšu
+
+        Šī opcija ļauj sistēmai izmantot novietojuma direktīvas, lai palīdzētu noteikt labāko novietojumu, uz kuru pārvietot krājumus pārkraušanai sadales centrā. To var iestatīt, katrai atbilstošai veidnei pārkraušanai sadales centrā piešķirot direktīvas kodu. Katrs direktīvas kods identificē unikālu novietojuma direktīvu.
 
     - **Validēt maksimālo laika logu:** *Jā*
 

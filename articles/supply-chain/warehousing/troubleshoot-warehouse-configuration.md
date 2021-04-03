@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994007"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487101"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Ar noliktavas konfigurāciju saistīto problēmu novēršana
 
@@ -109,5 +109,32 @@ Lai ļautu darbiniekiem veikt šīs izmaiņas, varat izveidot izvēlnes elementu
 
 Varat iestatīt citus laukus lapā pēc nepieciešamības.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Doka pārvaldības profils novietojuma profilā nepieļauj krājumu tipu sajaukšanu.
+
+### <a name="issue-description"></a>Problēmas apraksts
+
+Jūs izmantoja *sūtījumu konsolidācijas politikas*. *Novietojuma profilam* esat iestatījis *doka pārvaldības profilu*, taču, kad darbs ir izveidots, krājumu tipi beigu vietā tiek jaukti.
+
+### <a name="issue-resolution"></a>Problēmas risinājums
+
+Doka pārvaldības profiliem nepieciešams, lai darbs tiktu sadalīts iepriekš. Citiem vārdiem sakot, doka pārvaldības profils sagaida, ka darba galvenei nebūs vairāku izvietošanas vietu.
+
+Lai doka pārvaldības profils efektīvi pārvaldītu krājumu jaukšanu, ir jāiestata darba galvenes pārtraukums.
+
+Šajā piemērā mūsu doka pārvaldības profils tiek konfigurēts tā, ka **Krājumu veidi, kas nedrīkst būt jaukti**, tiek iestatīts *Kravas ID*, un mēs tam iestatām darba galvenes pārtraukumu:
+
+1. Doties uz **Noliktavas pārvaldība \> Iestatījumi \> Darbs \> Darba veidnes**.
+1. Atlasiet rediģējamā **Darba pasūtījuma veidu** (piemēram, *Pirkšanas pasūtījumi*).
+1. Atlasiet darba veidni rediģēšanai.
+1. Darbību rūtī atlasiet **Rediģēt vaicājumu**.
+1. Atveriet cilni **Kārtošana** un pievienojiet rindu ar šādiem iestatījumiem:
+    - **Tabula** - *Pagaidu darba darbības*
+    - **Atveidotā tabula** - *Pagaidu darba darbības*
+    - **Lauks** - *Sūtījuma ID*
+1. Atlasiet **Labi**.
+1. Jūs atgriežaties lapā **Darbu veidnes**. Darbību rūtī atlasiet **Darba galvenes pārtraukumi**.
+1. Darbību rūtī atlasiet **Rediģēt**.
+1. Atzīmējiet izvēles rūtiņu, kas saistīta ar **lauka nosaukuma** *sūtījuma ID*.
+1. Darbību rūtī atlasiet **Saglabāt**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

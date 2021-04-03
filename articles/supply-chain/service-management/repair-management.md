@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001352"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470645"
 ---
 # <a name="repair-management"></a>Labošanas pārvaldība       
 
@@ -37,15 +37,11 @@ Iestatiet simptomu, diagnozes un atrises iestatījumus. Tos visus vēlāk var pi
 
 Izmantojiet šīs iestatīšanas veidlapas, lai ievadītu informāciju, kas tiks izmantota, lai norādītu labošanai simptomus, diagnozi un atrisinājumu.
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Nosacījumi**.
-
-2.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Simptomu apgabali**.
-
-3.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Diagnozes apgabali**.
-
-4.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Atrisinājumi**.
-
-5.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Labošanas posmi**.
+- **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Nosacījumi**.
+- **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Simptomu apgabali**.
+-  **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Diagnozes apgabali**.
+- **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Atrisinājumi**.
+- **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Labošana** \> **Labošanas posmi**.
 
 ## <a name="symptoms-and-conditions"></a>Simptomi un nosacījumi
 
@@ -85,15 +81,15 @@ Variet izveidot arī remonta rindas katram remonta procesa solim.
 
 2.  Izvēlieties pakalpojuma pasūtījumu ar pakalpojuma objektu, ko nepieciešams izlabot.
 
-3.  Noklikšķiniet uz **Labošana** \> **Labošanas rindas**, lai atvērtu veidlapas **Labošanas rindas**.
+3.  Noklikšķiniet uz **Labot** \> **Labot rindas**, lai atvērtu veidlapu **Labot rindas**.
 
-4.  Lai izveidotu jaunu rindu, nospiediet taustiņu kombināciju CTRL+N.
+4.  Atlasiet **Jauns**, lai izveidotu jaunu rindu.
 
 5.  Izvēlieties pakalpojuma objektu. Varat izvēlēties jebkuru objektu, kam pakalpojuma pasūtījumā iestatīta objekta relācija.
 
 6.  Izvēlieties jebkuru priekšiestatīto simptomu, diagnozes un izpildes vērtību, kas ir svarīga labošanas rindā un, ja nepieciešams, pēc tam klikšķiniet uz cilnes **Piezīme**, lai izveidotu piezīmi labošanas rindai.
 
-7.  Nospiediet CTRL+S, lai saglabātu jauno remonta rindu. Veidlapas **Labošanas rindas** cilnē **Vispārīgi** lauks **Izveides datums un laiks** tiek atjaunināts ar saglabāšanas laiku.
+7.  Atlasiet **Saglabāt**, lai saglabātu jauno, laboto rindu. Veidlapas **Labošanas rindas** cilnē **Vispārīgi** lauks **Izveides datums un laiks** tiek atjaunināts ar saglabāšanas laiku.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Sekošana norisei un labošanas problēmu atrisināšana
 

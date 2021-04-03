@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7a1b955d200afa7474eb8940a118118cfc2f8904
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232162"
 ---
 # <a name="accruing-subscriptions"></a>Abonementu uzkrāšana 
 
@@ -47,7 +47,7 @@ Vairāk informācijas var atrast [Abonēšanas parametri (veidlapa)](https://tec
 
 ## <a name="setup-requirements"></a>Uzstādīšanas prasības
 
-Lai uzkrātu ieņēmumus, pārliecinieties, vai šīs datu prasības ir ievērotas.
+Lai uzkrātu ieņēmumus, pārliecinieties, vai šīs datu prasības ir ievērotas:
 
 ## <a name="account-setup"></a>Konta iestatīšana
 
@@ -92,35 +92,35 @@ Jums ir jāiestata rēķina izrakstīšanas perioda kods. Ja vien nevēlaties uz
 <td><ul>
 <li><p><strong>Gadi</strong></p></li>
 <li><p><strong>Ceturksnis</strong></p></li>
-<li><p><strong>mēnesis;</strong></p></li>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Mēnesis;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ceturksnis</strong></p></td>
 <td><ul>
 <li><p><strong>Ceturksnis</strong></p></li>
-<li><p><strong>mēnesis;</strong></p></li>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Mēnesis;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>mēnesis;</strong></p></td>
+<td><p><strong>Mēnesis;</strong></p></td>
 <td><ul>
-<li><p><strong>mēnesis;</strong></p></li>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Mēnesis;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nedēļa</strong></p></td>
 <td><ul>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>diena;</strong></p></td>
+<td><p><strong>Diena;</strong></p></td>
 <td><ul>
-<li><p><strong>diena;</strong></p></li>
+<li><p><strong>Diena;</strong></p></li>
 </ul></td>
 </tr>
 </tbody>

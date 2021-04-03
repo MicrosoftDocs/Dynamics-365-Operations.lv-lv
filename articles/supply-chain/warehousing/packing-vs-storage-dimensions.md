@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPhysDimUOM
+ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,16 +16,17 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078286"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501298"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Iestatīt dažādas iepakošanas un glabāšanas dimensijas
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Daži krājumi tiek iepakoti vai uzglabāti tā, ka katram no vairākiem dažādiem procesiem fiziskās dimensijas var būt atšķirīgas. Funkcija *Iepakojuma preces dimensijas* ļauj iestatīt katram produktam vienu vai vairākus dimensiju tipus. Katrs dimensiju tips sniedz fizisko mērījumu kopu (svars, platums, dziļums un augstums) un nosaka procesu, kur tiek pielietotas šīs fiziskās mērījumu vērtības. Kad šī funkcija ir aktivizēta, sistēma atbalsta šādus dimensiju tipus:
 

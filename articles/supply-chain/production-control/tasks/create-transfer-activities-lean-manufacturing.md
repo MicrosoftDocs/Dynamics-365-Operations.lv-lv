@@ -1,6 +1,6 @@
 ---
-title: Lean manufacturing pārsūtīšanas aktivitāšu izveide
-description: Izveidojiet lean manufacturing pārsūtīšanas aktivitāti.
+title: Lean ražošanas procesa pārsūtīšanas aktivitāšu izveide
+description: Lean ražošanas procesa pārsūtīšanas aktivitāšu izveide.
 author: cvocph
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 629acdebd321154873feddcdfd8555d33e931f4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e3c92c5fc9cdba7c77942fae5c32d625cc939f1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996830"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237922"
 ---
-# <a name="create-transfer-activities-for-lean-manufacturing"></a>Lean manufacturing pārsūtīšanas aktivitāšu izveide
+# <a name="create-transfer-activities-for-lean-manufacturing"></a>Lean ražošanas procesa pārsūtīšanas aktivitāšu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Izveidojiet lean manufacturing pārsūtīšanas aktivitāti. 
+Lean manufacturing pārsūtīšanas aktivitāšu izveide. 
 
 Priekšnosacījumi: 
 
