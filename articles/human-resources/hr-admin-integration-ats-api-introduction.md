@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125597"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464036"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidāta izsekošanas sistēmas integrācijas API ievads
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā tēmā aprakstīts Dynamics 365 Human Resources kandidāta izsekošanas sistēmas (ATS) integrācijas API. API nolūks ir nodrošināt racionalizētu integrāciju starp Dynamics 365 Human Resources un partnera ATS.
 
@@ -125,7 +127,7 @@ Opciju kopas:
 - [Dzimums](hr-admin-integration-ats-api-gender.md)
 - [Ģimenes stāvoklis](hr-admin-integration-ats-api-marital-status.md)
 - [Gada mēneši](hr-admin-integration-ats-api-months-of-year.md)
-- [Nē/jā](hr-admin-integration-ats-api-no-yes.md)
+- [Nē Jā](hr-admin-integration-ats-api-no-yes.md)
 - [Perioda vienība](hr-admin-integration-ats-api-period-unit.md)
 - [Izvērtēšanas biežums](hr-admin-integration-ats-api-screening-frequency.md)
 - [Izvērtēšanas biežums ǵenerāts no](hr-admin-integration-ats-api-screening-frequency-generate-from.md)

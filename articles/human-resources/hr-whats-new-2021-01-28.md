@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4739b5b1b6c61e829dd931ba8d4c9e0e49c8aed
-ms.sourcegitcommit: fb335954f73eaa2233ef6fb1e7fab1ece3c50756
+ms.openlocfilehash: d9a28ceb74a6cf90e72ccdc91186b685d7d838cb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5081295"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463362"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources 2021. gada 28. janvāris
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā sadaļā ir aprakstīti līdzekļi, kas ir jauni, mainīti vai drīzumā gaidāmi programmā Dynamics 365 Human Resources.
 
