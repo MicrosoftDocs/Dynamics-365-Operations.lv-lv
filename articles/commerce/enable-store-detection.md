@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3f7e9a3acde508f405ce85f125db552c3ae3656b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b34f156642b23f7b9754dac1ee81c7d0004872d8
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000728"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478192"
 ---
 # <a name="enable-location-based-store-detection"></a>Veikala noteikšanas iespējošana pēc atrašanās vietas
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā ieslēgt uz atrašanās vietu balstītu veikala atrašanu jūsu Dynamics 365 Commerce vietnē.
-
-## <a name="overview"></a>Pārskats
 
 Uz atrašanās vietu balstīta veikala atrašana Commerce ļauj nodrošināt klientiem būtisku vietnes saturu, pamatojoties uz to atrašanās vietu. Ja ir ieslēgta uz atrašanās vietu balstīta veikala atrašana, Commerce atveidošanas pakalpojums izmanto informāciju par valsti / reģionu no klienta tīmekļa pārlūkprogrammas IP adreses, lai novirzītu klientu uz visatbilstošāko pieejamo ģeogrāfiskās vietas konfigurāciju.
 

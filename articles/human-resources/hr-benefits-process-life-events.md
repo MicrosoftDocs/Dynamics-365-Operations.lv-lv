@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: cfb0fc54e3904655cea0c795a46c540bd2a529a2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113373"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466258"
 ---
 # <a name="process-life-events"></a>Dzīves notikumu apstrāde
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Darbinieku dzīves cikla laikā Microsoft Dynamics 365 Human Resources katrs darbinieks var sastapties ar dažādām dzīves notikumu izmaiņām. Piemēram, laulība, izmaiņas nodarbinātībā vai apgādājamā/saņēmēja maiņa. Lai izmantotu dzīves notikumus, atvieglojumu parametru veidlapā ir jāiespējo dzīves notikumi, jāiestata dzīves notikumu veidi un dzīves notikumu opcijas plānu veidiem.
 

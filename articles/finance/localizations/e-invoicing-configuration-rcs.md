@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104411"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592626"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izrakstīšanas pievienojumprogrammas konfigurēšana Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valst
 | Beļģija        | Beļģijas elektroniskais rēķins (BE)      | Pārdošanas un projektu rēķini |
 | Brazīlija         | Brazīlijas NF-e (BR)                  | 55. finanšu dokumenta modelis, labojumu vēstules, atcelšanas un anulēšanas |
 | Brazīlija         | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti |
-| Brazīlija         | Brazīlijas NFS-e São Paulo (BR)       | Pakalpojuma finanšu dokumenti |
 | Dānija        | Dānijas elektroniskais rēķins (DK)       | Pārdošanas un projektu rēķini |
 | Ēģipte          | Ēģiptes elektroniskais rēķins (EG) | Pārdošanas un projektu rēķini |
 | Igaunija        | Igaunijas elektroniskais rēķins (EE)     | Pārdošanas un projektu rēķini |
@@ -119,10 +118,6 @@ Elektronisko rēķinu izrakstīšanas funkcijas sastāv no šādām konfigurēja
 
 - NFS-e ABRASF Kuritiba (BR)
 - NFS-e ABRASF Uzzināt Kuritibu (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Brazīlijas (BR) NFS-e: NFS-e Sanpaulu pilsēta
-
-- NFS-e Sanpaulu (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Dānijas (DK) elektroniskais rēķins: pārdošanas un projekta rēķini Dānijai
 
@@ -210,7 +205,7 @@ Elektronisko rēķinu izrakstīšanas funkcijas sastāv no šādām konfigurēja
 | Izsauciet Brazīlijas SEFAZ pakalpojumu                  | Integrēt ar Brazīlijas SEFAZ pakalpojumu finanšu dokumenta iesniegšanai.       | Priekšskatījumā           |
 | Izsaukt Meksikas PAC pakalpojumu                      | Integrēt ar Meksikas PAC pakalpojumu CFDI iesniegšanai.                      | Priekšskatījumā           |
 | Apstrādāt atbildi                              | Analizējiet atbildi, kas saņemta no tīmekļa pakalpojumu zvana.                     | Vispārēji pieejams  |
-| Izmantot MS Power Automate                         | Integrējiet ar Microsoft izveidoto Power Automate plūsmu.                       | Priekšskatījumā           |
+| Izmantot MS Power Automate                         | Integrējiet ar Microsoft Power Automate iebūvētu plūsmu.                       | Priekšskatījumā           |
 
 ## <a name="configuration-providers"></a>Konfigurācijas nodrošinātāji
 

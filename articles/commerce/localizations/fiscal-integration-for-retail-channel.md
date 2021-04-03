@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d766515d82e021f41e0cc0a9a877f25551817ad5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250834"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanālu finanšu integrācijas apskats
 
@@ -110,7 +110,7 @@ Ja darbspējas pārbaude neizdodas, POS rāda darbspējas pārbaudes dialoglodzi
 
 Ja transakcijas vai notikuma finanšu reģistrācija ir veiksmīga, kanāla datu bāzē tiek izveidota finanšu transakcija, kas tiek saistīta ar sākotnējo transakciju vai notikumu. Līdzīgi gadījumā, ja neveiksmīgai finanšu reģistrācijai tiek atlasīta opcija **izlaist** vai **Atzīmēt kā reģistrētu**, šī informācija tiek saglabāta finanšu transakcijā. Finanšu transakcijā ir ietverta finanšu ierīces vai pakalpojuma finanšu atbilde. Ja finanšu reģistrācijas process sastāv no vairākām darbībām, katrai procesa darbībai, kuras rezultāts ir veiksmīga vai neveiksmīga reģistrācija, tiek izveidota finanšu transakcija.
 
-Finanšu transakcijas kopā ar transakcijām tiek pārsūtītas uz Headquarters, izmantojot funkciju *P darbs*. Lapas **Veikalu transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar  transakcijām.
+Finanšu transakcijas kopā ar transakcijām tiek pārsūtītas uz Headquarters, izmantojot funkciju *P darbs*. Lapas **Veikalu transakcijas** kopsavilkuma cilnē **Finanšu transakcijas** varat skatīt finanšu transakcijas, kas ir saistītas ar transakcijām.
 
 Finanšu transakcijā ir saglabāta tālāk norādītā detalizētā informācija.
 
