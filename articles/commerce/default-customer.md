@@ -1,6 +1,6 @@
 ---
 title: Noklusējuma debitora izveide
-description: Šajā tēmā aprakstīts, kā izveidot noklusējuma debitoru, ko izmantot, veidojot kanālu programmā Microsoft Dynamics 365 Commerce.
+description: Šajā tēmā aprakstīts, kā izveidot noklusējuma klientu, kuru lietot, veidojot kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1dd4dfc5b8ca7af66941d081b4c20be0f5d6001d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993404"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477904"
 ---
 # <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā izveidot noklusējuma debitoru, ko izmantot, veidojot kanālu programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā izveidot noklusējuma klientu, kuru lietot, veidojot kanālu risinājumā Microsoft Dynamics 365 Commerce.
 
 Veidojot kanālu, būs jānorāda noklusējuma debitors. Noklusējuma debitoru var viegli izveidot, vispirms izveidojot debitoru grupu un debitoru adrešu grāmatu.
 

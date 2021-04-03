@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001952"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476679"
 ---
 # <a name="engineering-change-management-overview"></a>Tehnoloģisko izmaiņu pārvaldības pārskats
 
@@ -44,20 +44,24 @@ Tehnikas izmaiņu pārvaldība, kas palīdz plānot un pārvaldīt preču versij
 
 Iepriekšējais video ([Izmaiņu pārvaldības iespējas sistēmā Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) ir iekļauts [Finance and Operations atskaņošanas sarakstā](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kas pieejams YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Ieslēgt tehnikas izmaiņu pārvaldību jūsu sistēmai
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Ieslēgt inženierzinātnes izmaiņu pārvaldības un versijas dimensijas funkcijas jūsu sistēmai
 
-Vispirms ieslēdziet tehnikas izmaiņu pārvaldību, veicot šādas darbības.
+Pirms izmantot inženierzinātnes izmaiņu pārvaldības funkciju un tā konfigurācijas atslēgu, kā aprakstīts *Inženierzinātnes izmaiņu pārvaldības* inženierzinātnes izmaiņu pārvaldības funkciju un tā konfigurācijas atslēgu. Ja vēlaties arī izsekot preču versijas dimensiju darījumos (nav obligāti), ir jāaktivizē arī funkcionalitāte *Preces versijas dimensija* un tās konfigurācijas atslēga.
+
+Vispirms, ieslēdziet šīs funkcijas, veicot šādas darbības.
 
 1. Dodieties uz [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Pārbaudīt, vai nav atjauninājumu.
 1. Ieslēdziet līdzekli, kura nosaukums ir **Tehnikas izmaiņu pārvaldība**.
+1. Pēc tam, ja vēlaties to izmantot, iespējojiet arī funkciju ar nosaukumu **Preces dimensijas versija**.
 
-Pēc tam ieslēdziet **Tehnikas izmaiņu pārvaldība** konfigurācijas atslēgu, veicot šādas darbības.
+Tad ieslēdziet konfigurācijas atslēgas, veicot šādas darbības.
 
 1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
-1. Paplašiniet **Tirdzniecības** mezglu un atzīmējiet izvēles rūtiņu **Tehnikas izmaiņu pārvaldība**.
+1. Izvērst zaru **Tirdzniecība**
+1. Atzīmējiet izvēles rūtiņu **Inženierzinātnes izmaiņu pārvaldība**.
+1. Ja vēlaties to izmantot, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**.
 1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

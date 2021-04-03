@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e822d0097443d7da347c29ebfa63ad6a2d7cbf8b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e65fc54f87664caec95b2bc2c579d0820ae08c0f
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000641"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477688"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Personalizētu ieteikumu izvēle
+# <a name="opt-out-of-personalized-recommendations"></a>Atteikšanās no personalizētiem ieteikumiem
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā izskaidrots, kā varat ļaut klientiem izvēlēties, vai saņemt personalizētus ieteikumus risinājumā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Konta izveides laikā tiek automātiski iestatīts, ka jauni debitori saņems personalizētus ieteikumus. Tomēr Dynamics 365 Commerce piedāvā dažādus veidus, kā mazumtirgotāji ļauj lietotājiem izvēlēties nesaņemt šos ieteikumus un ierobežot savu personas datu apstrādi. Autentificēti lietotāji, kas atsakās saņemt personalizētus ieteikumus, nekavējoties beigs redzēt personalizētos sarakstus. Turklāt visi personiskie dati, kas tiek vākti personalizēšanai, tiks noņemti no personalizēto ieteikumu modeļiem.
 

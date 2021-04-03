@@ -3,7 +3,7 @@ title: Programma Human Resources programmā Teams
 description: Šī tēma iepazīstina jūs ar programmu Microsoft Dynamics 365 Human Resources sadaļā Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113413"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487877"
 ---
 # <a name="human-resources-app-in-teams"></a>Programma Human Resources programmā Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj darbiniekiem ātri pieprasīt prombūtni un skatīt savu laiku ārpusbilances informāciju Microsoft Teams. Darbinieki var sazināties ar botu, lai pieprasītu informāciju. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Turklāt darbinieki var nosūtīt personām informāciju par gaidāmo prombūtni grupās un tērzēšanas sarunās ārpus personāla vadības lietojumprogrammas.
 
-![Human Resources Teams atstāj programmu botu](./media/hr-admin-teams-leave-app-bot.png)
+![Human Resources Teams atstāj programmu botu](./media/hr-teams-leave-app-bot.png)
 
 ![Human Resources Teams atstāj programmas cilni Brīvais laiks](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj 
 
 ## <a name="install-and-setup"></a>Instalēt un iestatīt
 
-Human Resources programmu varat atrast Teams veikalā. Informāciju par programmas Teams instalēšanu skatiet sadaļā [Pārvaldīt atvaļinājumu pieprasījumus programmā Teams](hr-teams-leave-app.md).
+Dynamics 365 Human Resources programmu varat atrast Teams veikalā. Informāciju par programmas Teams instalēšanu skatiet sadaļā [Pārvaldīt atvaļinājumu pieprasījumus programmā Teams](hr-teams-leave-app.md).
 
 Lai iegūtu informāciju par programmu atļauju pārvaldību programmā Teams, skatiet sadaļu [Programmu atļauju ierobežojumu pārvaldība sistēmā Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Ja vēlaties, lai lietotāji programmā skatītu atvaļinājumu un prombūtnes kalendāru, funkcionalitātes pārvaldībā aktivizējiet kalendāru **Atvaļinājums un kavējumi darba komandās**. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Iespējot paziņojumus programmai Human Resources programmā Teams
 
-Ja vēlaties, lai lietotāji saņemtu paziņojumus par atvaļinājumu pieprasījumiem programmā Teams, paziņojumi ir jāiespējo programmā Human Resources.
+Ja vēlaties, lai lietotāji saņemtu paziņojumus par atvaļinājumu pieprasījumiem programmā Teams, paziņojumi ir jāiespējo programmā Dynamics 365 Human Resources.
 
 >[!NOTE]
->Paziņojumus saņems tikai tie lietotāji, kuri ir pieteikušies Teams un izmanto Human Resources Teams programmu.
+>Paziņojumus saņems tikai tie lietotāji, kuri ir pieteikušies Teams un izmanto Dynamics 365 Human Resources Teams programmu.
 
 1. Human Resources atlasiet **Sistēmas administrēšana**.
 
@@ -66,7 +68,7 @@ Ja vēlaties, lai lietotāji saņemtu paziņojumus par atvaļinājumu pieprasīj
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Ieslēdziet vai izslēdziet Teams paziņojumus atsevišķiem lietotājiem
 
-Pēc tam, kad esat iespējojis paziņojumus Human Resources Teams programmai, varat ieslēgt vai izslēgt paziņojumus atsevišķiem lietotājiem.
+Pēc tam, kad esat iespējojis paziņojumus Dynamics 365 Human Resources Teams programmai, varat ieslēgt vai izslēgt paziņojumus atsevišķiem lietotājiem.
 
 1. Human Resources atlasiet **Sistēmas administrēšana**.
 
@@ -82,9 +84,28 @@ Pēc tam, kad esat iespējojis paziņojumus Human Resources Teams programmai, va
 
 6. Atlasiet **Saglabāt**.
 
-## <a name="known-issues"></a>Zināmās problēmas
+## <a name="supported-languages"></a>Atbalstītās valodas
 
-| Izsniegt | Statuss |
+Programma Dynamics 365 Human Resources lietotnē Teams atbalsta šādas valodas:
+
+| Atrašanās vietas ID | Valoda |
+| --- | --- |
+| de-DE | Vācu (Vācija) |
+| es-ES | Spāņu (Spānija) |
+| es-MX | Spāņu (Meksika) |
+| fr-CA | Franču (Kanāda) |
+| fr-FR | Franču (Francija) |
+| it-IT | Itāļu (Itālija) |
+| nl-NL | Holandiešu (Nīderlande) |
+| pt-BR | Portugāļu (Brazīlija) |
+| tr-TR | Turku (Turcija) |
+| zh-(CN) | Ķīniešu (vienkāršotā) |
+
+## <a name="notes"></a>Piezīmes
+
+Turpmākajiem laidieniem ir noslīdētas šādas darba vienības:
+
+| Darbplūsmas elements | Statuss |
 | --- | --- |
 | Bilance nav pareiza, iesniedzot prombūtni nākotnes datumam. | Videoklips vēl nav pieejams. Parādās pašreizējā datuma bilance. |
 | Nevar atcelt **Pārskatā** pieprasījumu. | Šī funkcionalitāte pašlaik netiek atbalstīta, un tā tiks pievienota nākošajā laidienā. |

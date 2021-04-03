@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c156ae4a8a19a428378581a0d5c7dc01d86b5ec7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b10aa50c4a89b2642262f624ac3a6d89cd6ebb4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999885"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258658"
 ---
 # <a name="define-coverage-rules-for-items"></a>Krājumu vajadzības kārtulu definēšana
 
@@ -35,7 +35,7 @@ Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūr
 3. Laukā **Vajadzības grupa** ierakstiet vērtību.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
 5. Laukā **Kalendārs** ierakstiet vērtību. Izvēlieties kalendāru, ko vispārējā plānošana izmanto, lai izveidotu papildināšanas ieteikumus šajā grupā iekļautajiem krājumiem.  
-6. Laukā **Vajadz. aprēķ. metode** atlasiet opciju. Šai procedūrai atlasiet 'Vajadzība'.  
+6. Laukā **Vajadzības kods** atlasiet opciju. Šai procedūrai atlasiet 'Prasība'.  
 7. Laukā **Vajadzības periods (dienās)** ievadiet '90'. Šīs grupas krājumiem vispārējā plānošana izveidos papildināšanas ieteikumus līdz 90 dienām nākotnē.  
 8. Laukā **Dienas(-)** ievadiet “1”.
 9. Laukā **Dienas(+)** ievadiet “1”.

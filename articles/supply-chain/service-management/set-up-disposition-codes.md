@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977542"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470695"
 ---
 # <a name="set-up-disposition-codes"></a>Atgriešanas metožu kodu iestatīšana 
 
@@ -33,9 +33,9 @@ Varat iestatīt atgriešanas metodes kodus, lai norādītu, kā apstrādāt klie
 
 Varat arī iestatīt iemesla kodu, lai palīdzētu paskaidrot preces atgriešanas iemeslus. Plašāku informāciju par iemeslu kodiem skatiet rakstā [Atgriešanas iemeslu kodu iestatīšana](set-up-return-reason-code.md).
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas metožu kodi**.
+1.  **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas metožu kodi**.
 
-2.  Lai izveidotu jaunu atgriešanas metodes kodu, noklikšķiniet uz **Jauns** vai nospiediet taustiņu kombināciju CTRL+N.
+2.  Atlasiet **Jauns**, lai izveidotu jaunu pamatojuma kodu.
 
 3.  Ievadiet unikālu, aprakstošu nosaukumu, atlasiet transakciju un ievadiet atgriešanas metodes koda aprakstu.
 

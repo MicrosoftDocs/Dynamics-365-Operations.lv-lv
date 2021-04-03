@@ -17,29 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965972"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470981"
 ---
-# <a name="create-reason-codes"></a>Iemeslu kodu izveide    
+# <a name="create-reason-codes"></a>Iemeslu kodu izveide
 
 [!include [banner](../includes/banner.md)]
 
+1. Dodieties uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu pasūtījumi** \> **Posmu pamatojuma kodi**.
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu pasūtījumi** \> **Posmu pamatojuma kodi**.
+1. Atlasiet **Jauns**, lai izveidotu jaunu pamatojuma kodu.
 
-2.  Nospiediet CTRL+N, lai izveidotu jaunu pamatojuma kodu.
-
-3.  Nospiediet CTRL+S, lai saglabātu šo pamatojuma kodu.
+1. Atlasiet **Saglabāt**, lai saglabātu pamatojuma kodu.
 
 Kad tiek prasīts pamatojuma kods pakalpojumu pasūtījuma posma atjaunināšanas izskaidrošanai, ir iespējams atlasīt jebkuru no šeit izveidotajiem kodiem.
 
-  
-
-
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

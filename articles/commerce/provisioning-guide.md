@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commerce novērtējuma vides nodrošināšana
-description: Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtējuma vidi.
+title: Dynamics 365 Commerce novērtēšanas vides nodrošinājums
+description: Šajā tēmā ir paskaidrots, kā nodrošināt programmas Microsoft Dynamics 365 Commerce novērtējuma vidi.
 author: psimolin
 manager: annbe
 ms.date: 12/17/2020
@@ -17,25 +17,23 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969905"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478168"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtējuma vides nodrošināšana
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce novērtēšanas vides nodrošinājums
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir paskaidrots, kā nodrošināt Microsoft Dynamics 365 Commerce novērtējuma vidi.
+Šajā tēmā ir paskaidrots, kā nodrošināt programmas Microsoft Dynamics 365 Commerce novērtējuma vidi.
 
 Pirms sākat, iesakām ātri iziet caur šai tēmai, lai iegūtu priekšstatu par to, kas ir nepieciešams procesam.
 
 > [!NOTE]
 > Commerce novērtējuma vides nav vispārpieejamas, un tās tiek piešķirtas partneriem un klientiem pēc pieprasījuma. Lai iegūtu plašāku informāciju, sazinieties ar sava Microsoft partnera kontaktpersonu.
-
-## <a name="overview"></a>Pārskats
 
 Lai veiksmīgi nodrošinātu Commerce novērtējuma vidi, ir jāizveido projekts ar noteiktu preces nosaukumu un veidu. Videi un Commerce Scale Unit (CSU) arī ir daži specifiski parametri, kas jāizmanto, vēloties nodrošināt e-tirdzniecību. Šajā tēmā sniegtās instrukcijas apraksta visas nepieciešamās darbības, lai pabeigtu nodrošināšanu, un parametrus, kas jāizmanto.
 

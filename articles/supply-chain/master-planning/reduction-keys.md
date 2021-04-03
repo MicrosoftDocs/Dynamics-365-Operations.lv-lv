@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001853"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470773"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozes samazināšanas principi
 
@@ -198,7 +198,7 @@ Tāpēc tiek izveidoti tālāk norādītie plānotie pasūtījumi.
 Prognozes samazināšanas principu izmanto metodē **Transakcijas — samazināšanas princips** un **Procenti — samazināšanas princips**, lai samazinātu prognozes vajadzības. Lai izveidotu un iestatītu samazināšanas principu, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz sadaļu **Vispārējā plānošana \> Iestatījumi \> Segums \> Samazināšanas principi**.
-2. Atlasiet **Jauns** vai nospiediet **Ctrl + N**, lai izveidotu samazināšanas principu.
+2. Atlasiet **Jauns**, lai izveidotu samazināšanas principu.
 3. Ievadiet prognozes samazināšanas principa unikālu identifikatoru laukā **Samazināšanas princips**. Pēc tam laukā **Nosaukums** ievadiet nosaukumu. 
 4. Definējiet periodus un samazināšanas principa procentus katram periodam.
 

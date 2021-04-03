@@ -1,6 +1,6 @@
 ---
 title: Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
-description: Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce izveidot pielāgotas lapas, kas apstrādā Azure Active Directory (Azure AD) bizness–patērētājs (B2C) nomnieku lietotāju pielāgotas pierakstīšanās gadījumus.
+description: Šajā tēmā aprakstīts, kā veidot pielāgotas lapas risinājumā Microsoft Dynamics 365 Commerce, kuras apstrādā pielāgotu pieteikšanos Azure Active Directory (Azure AD) lietotājiem un no biznesa uz patērētāju (B2C) vērstiem nomniekiem.
 author: brianshook
 manager: annbe
 ms.date: 09/15/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a55da9683c43ac75109fd256e481b02a4d565914
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970082"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477952"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā Microsoft Dynamics 365 Commerce izveidot pielāgotas lapas, kas apstrādā Azure Active Directory (Azure AD) bizness–patērētājs (B2C) nomnieku lietotāju pielāgotas pierakstīšanās gadījumus.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā veidot pielāgotas lapas risinājumā Microsoft Dynamics 365 Commerce, kuras apstrādā pielāgotu pieteikšanos Azure Active Directory (Azure AD) lietotājiem un no biznesa uz patērētāju (B2C) vērstiem nomniekiem.
 
 Lai izmantotu pielāgotās lapas, kas ir autorizētas Dynamics 365 Commerce, lai apstrādātu lietotāja pierakstīšanās plūsmas, ir jāiestata Azure AD politikas, kas tiks raksturotas Commerce vidē. Varat konfigurēt Azure AD B2C politikas "Parakstīšanās un pierakstīšanās", "Profila rediģēšana" un "Paroles atiestatīšana", izmantojot Azure AD B2C programmu. Tādējādi Azure AD B2C nomnieka un politiku nosaukumi var tikt raksturoti nodrošināšanas procesa laikā, kas tiek veikts Commerce videi, izmantojot Microsoft Dynamics Lifecycle Services (LCS).
 

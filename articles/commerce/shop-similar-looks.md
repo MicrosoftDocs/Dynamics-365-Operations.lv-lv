@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 95e4246d6c5f9ac5bc86b626be0d971f756c5130
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0b3585ce326e47b119b3f6c41436b9e6494ec87
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985615"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478096"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>Iespējot "pirkt līdzīgas preces" rekomendācijas
+# <a name="enable-shop-similar-looks-recommendations"></a>Ieteikumu “pirkt līdzīgus modeļus” iespējošana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā iespējot "pirkt līdzīgas preces" preču ieteikumus programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 "Pirkt līdzīgas preces" ieteikumu līdzeklis Dynamics 365 Commerce izmanto mākslīgā intelekta un mašīnu mācīšanās spēku (AI-ML), lai sniegtu rekomendācijas par vizuāli līdzīgiem produktiem klientiem. Veidojot "pirkt līdzīgas preces" ieteikumus pieejamus visiem mazumtirdzniecības kanāliem Commerce, mazumtirgotāji var palielināt klientu apmierinātību, palīdzot klientiem viegli atrast to, ko viņi vēlas.
 
