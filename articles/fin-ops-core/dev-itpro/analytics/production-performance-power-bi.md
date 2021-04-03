@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c815a2e37f9882d695bf170a806301a3145d0f06
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a48db429e2518898f2b22845d36e1c5171d71cbe
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094216"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567846"
 ---
 # <a name="production-performance-power-bi-content"></a>Power BI satura pakotne Ražošanas veiktspēja
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kas ir iekļauts Microsoft Power BI satura pakotnē **Ražošanas veiktspēja**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīts, kas ir iekļauts satura pakotnē **PRažošanas veiktspēja** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="overview"></a>Pārskats
 
@@ -51,7 +50,7 @@ Zemāk norādītajā tabulā ir sniegts pārskats par vizualizācijām, kas ir i
 
 | Pārskata lapa                                | Diagrammas | Elementi |
 |--------------------------------------------|--------|-------|
-| Ražošanas veiktspēja                     | <ul><li>Ražošanu skaits pēc datuma</li><li>Ražošanu skaits pēc preces un krājumu grupas</li><li>Plānoto ražošanu skaits pēc datuma</li><li>Apakšējās 10 preces pēc savlaicīgas un pilnīgas izpildes</li></ul> | <ul><li>Pasūtījumu kopskaits</li><li>Savlaicīgi un pilnībā %</li><li>Nepilnīgi, %</li><li>Pirms termiņa, %</li><li>Nokavēts termiņš, %</li></ul> |
+| Ražošanas veiktspēja                     | <ul><li>Ražošanu skaits pēc datuma</li><li>Ražošanu skaits pēc preces un krājumu grupas</li><li>Plānoto ražošanu skaits pēc datuma</li><li>Apakšējās 10 preces pēc savlaicīgas &amp; pilnīgas izpildes</li></ul> | <ul><li>Pasūtījumu kopskaits</li><li>Savlaicīgi &amp; pilnībā %</li><li>Nepilnīgi, %</li><li>Pirms termiņa, %</li><li>Nokavēts termiņš, %</li></ul> |
 | Brāķi pēc preces                         | <ul><li>Brāķa proporcija (miljonās daļas) pēc datuma</li><li>Brāķa proporcija (miljonās daļas) pēc preces un krājumu grupas</li><li>Saražotais daudzums pēc datuma</li><li>Pirmās 10 preces pēc faktiskās likmes</li></ul> | <ul><li>Brāķa proporcija (miljonās daļas)</li><li>Brāķa daudzums</li><li>Kopējais daudzums</li></ul> |
 | Brāķa tendences pēc preces                   | Brāķa proporcija (miljonās daļas) pēc saražotā daudzuma | Brāķa proporcija (miljonās daļas) |
 | Brāķi pēc resursa                        | <ul><li>Brāķa proporcija (miljonās daļas) pēc datuma</li><li>Brāķa proporcija (miljonās daļas) pēc resursa un vietas</li><li>Brāķa proporcija (miljonās daļas) pēc darbības</li><li>Pirmie 10 resursi pēc brāķa proporcijas</li></ul> | Brāķa daudzums |

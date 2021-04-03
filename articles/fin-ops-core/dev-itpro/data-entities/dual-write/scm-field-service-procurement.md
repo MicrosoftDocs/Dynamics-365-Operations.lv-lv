@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141908"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579976"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrēt sagādes starp Supply Chain Management un Field Service
 
@@ -47,8 +46,8 @@ Lai integrētu Supply Chain Management ar Field Service, jums jāinstalē šādi
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
-+ **Duālā rakstīšana** - Papildinformāciju skatiet [Duālās rakstīšanas mājas](dual-write-home-page.md#dual-write-setup)lapā.
-+ **Dynamics 365 Field Service** – Papildinformāciju skatiet sadaļā [Kā instalēt Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Duālā rakstīšana** - Papildinformāciju skatiet [Duālās rakstīšanas mājas](dual-write-home-page.md#dual-write-setup)lapā.
+- **Dynamics 365 Field Service** – Papildinformāciju skatiet sadaļā [Kā instalēt Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Kad tie ir iespējoti Microsoft Dataverse, duālajā ierakstā un Field Service ir ieviesti vairāki risinājumu līmeņi, kas paplašinās vidi ar jauniemmetadatiem, formām, skatiem un loģiku. Šos risinājumus var iespējot jebkurā secībā, tomēr parasti jūs tos instalējiet šādā secībā:
 
@@ -57,8 +56,8 @@ Kad tie ir iespējoti Microsoft Dataverse, duālajā ierakstā un Field Service 
 3. **Paplašināts Supply Chain Management** – Supply Chain Management paplašinātā versija tiek automātiski instalēta, kad vidē ir aktivizēts duālais ieraksts. 
 4. **OneFSSCM risinājums** - OneFSSCM tiek automātiski instalēts atkarībā no tā, kurš risinājums (Field Service vai Supply Chain Management) ir instalēts pēdējais.
 
-    + Ja vidē jau ir instalēts Field Service un tiek aktivizēts duālais ieraksts, kas instalē Supply Chain Management paplašināto versiju, tiek instalēts OneFSSCM.
-    + Ja vidē jau ir instalēts Field Service un tiek aktivizēts duālais ieraksts, kas instalē Supply Chain Management paplašināto versiju, tiek instalēts OneFSSCM.
+    - Ja vidē jau ir instalēts Field Service un tiek aktivizēts duālais ieraksts, kas instalē Supply Chain Management paplašināto versiju, tiek instalēts OneFSSCM.
+    - Ja vidē jau ir instalēts Field Service un tiek aktivizēts duālais ieraksts, kas instalē Supply Chain Management paplašināto versiju, tiek instalēts OneFSSCM.
 
 ## <a name="initial-synchronization"></a>Sākotnējā sinhronizācija
 
@@ -124,22 +123,22 @@ Turklāt Dataverse ietver loģiku, kas kartē kreditorus ar to saistītajiem kon
 
 ## <a name="supported-scenarios"></a>Atbalstītie scenāriji
 
-+ Pirkšanas pasūtījumus var izveidot un atjaunināt Dataverse lietotāji. Tomēr procesu un datus kontrolē Supply Chain Management. Supply Chain Management pirkšanas pasūtījumu kolonnu atjauninājumi tiek piemēroti, kad atjauninājumi ir no Field Service. Piemēram, jūs nevarat atjaunināt pirkšanas pasūtījumu, ja tas ir pabeigts. 
-+ Ja pirkšanas pasūtījumu kontrolē izmaiņu pārvaldība Supply Chain Management, Field Service lietotājs var atjaunināt pirkšanas pasūtījumu tikai tad, ja Supply Chain Management apstiprinājuma statuss ir *Melnraksts*.
-+ Vairākas kolonnas pārvalda tikai Supply Chain Management, un tās nevar atjaunināt Field Service. Lai uzzinātu, kuras kolonnas nevar atjaunināt, pārskatiet produkta kartēšanas tabulas. Parasti lielākā daļa šo kolonnu tiek iestatītas kā tikai lasāmas Dataverse lapās. 
+- Pirkšanas pasūtījumus var izveidot un atjaunināt Dataverse lietotāji. Tomēr procesu un datus kontrolē Supply Chain Management. Supply Chain Management pirkšanas pasūtījumu kolonnu atjauninājumi tiek piemēroti, kad atjauninājumi ir no Field Service. Piemēram, jūs nevarat atjaunināt pirkšanas pasūtījumu, ja tas ir pabeigts. 
+- Ja pirkšanas pasūtījumu kontrolē izmaiņu pārvaldība Supply Chain Management, Field Service lietotājs var atjaunināt pirkšanas pasūtījumu tikai tad, ja Supply Chain Management apstiprinājuma statuss ir *Melnraksts*.
+- Vairākas kolonnas pārvalda tikai Supply Chain Management, un tās nevar atjaunināt Field Service. Lai uzzinātu, kuras kolonnas nevar atjaunināt, pārskatiet produkta kartēšanas tabulas. Parasti lielākā daļa šo kolonnu tiek iestatītas kā tikai lasāmas Dataverse lapās. 
 
     Piemēram, cenu informācijas kolonnas pārvalda Supply Chain Management. Supply Chain Management ir tirdzniecības līgumi, no kuriem Field Service var gūt labumu. Kolonnas, piemēram, **Cena par vienību**, **Atlaide**  un **Neto summa** ir tikai no Supply Chain Management. Lai pārliecinātos par cenas sinhronizāciju ar Field Service, jāizmanto **Sinhronizācijas** līdzeklis lapās **Pirkšanas pasūtījums** un **Pirkšanas pasūtījuma prece** Dataverse, ievadot pirkšanas pasūtījuma datus. Papildinformāciju skatiet sadaļā [Sinhronizācija ar Dynamics 365 Supply Chain Management sagādes datiem pēc pieprasījuma](#sync-procurement).
 
-+ **Kopsummas** kolonna ir pieejama tikai Field Service, jo Supply Chain Management nav atjauninātas pirkšanas pasūtījuma kopsummas. Supply Chain Management kopsummas tiek aprēķinātas, pamatojoties uz vairākiem parametriem, kas nav pieejami Field Service.
-+ Pirkšanas pasūtījuma rindas, kurās ir norādīta tikai sagādes kategorija vai kur norādītā prece ir *Pakalpojuma* preces tipa vai Field Service preces tipa krājums, var tikt iniciēta tikai Supply Chain Management. Pēc tam rindas tiek sinhronizētas ar Dataverse un ir redzamas sadaļā Field Service.
-+ Ja ir instalēts tikai Field Service, nevis Supply Chain Management, kolonna **Noliktava** ir obligāta pirkšanas pasūtījumā. Tomēr, ja piegādes ķēdes pārvaldība ir instalēta, šī prasība ir atcelta, jo Supply Chain Management pieļauj pirkšanas pasūtījuma rindas, kur noteiktos gadījumos nav norādīta noliktava.
-+ Produktu ieejas plūsmas (pirkšanas pasūtījumu ieejas plūsmas Dataverse) pārvalda Supply Chain Management, un tās nevar izveidot Dataverse, ja ir instalēta Supply Chain Management. Produktu ieejas plūsmas no Supply Chain Management tiek sinhronizētas no Supply Chain Management uz Dataverse.
-+ Supply Chain Management ir atļauts veikt nesniegšanu. OneFSSCM risinājums pievieno loģiku, tādējādi, kad tiek izveidota vai atjaunināta produktu ieejas plūsmas rinda (vai pirkšanas pasūtījuma ieejas plūsmas prece Dataverse), tiek izveidota Dataverse krājumu žurnāla rinda, lai koriģētu atlikušo daudzumu, kas ir pasūtīts neproduktīgiem piegādes scenārijiem.
+- **Kopsummas** kolonna ir pieejama tikai Field Service, jo Supply Chain Management nav atjauninātas pirkšanas pasūtījuma kopsummas. Supply Chain Management kopsummas tiek aprēķinātas, pamatojoties uz vairākiem parametriem, kas nav pieejami Field Service.
+- Pirkšanas pasūtījuma rindas, kurās ir norādīta tikai sagādes kategorija vai kur norādītā prece ir *Pakalpojuma* preces tipa vai Field Service preces tipa krājums, var tikt iniciēta tikai Supply Chain Management. Pēc tam rindas tiek sinhronizētas ar Dataverse un ir redzamas sadaļā Field Service.
+- Ja ir instalēts tikai Field Service, nevis Supply Chain Management, kolonna **Noliktava** ir obligāta pirkšanas pasūtījumā. Tomēr, ja piegādes ķēdes pārvaldība ir instalēta, šī prasība ir atcelta, jo Supply Chain Management pieļauj pirkšanas pasūtījuma rindas, kur noteiktos gadījumos nav norādīta noliktava.
+- Produktu ieejas plūsmas (pirkšanas pasūtījumu ieejas plūsmas Dataverse) pārvalda Supply Chain Management, un tās nevar izveidot Dataverse, ja ir instalēta Supply Chain Management. Produktu ieejas plūsmas no Supply Chain Management tiek sinhronizētas no Supply Chain Management uz Dataverse.
+- Supply Chain Management ir atļauts veikt nesniegšanu. OneFSSCM risinājums pievieno loģiku, tādējādi, kad tiek izveidota vai atjaunināta produktu ieejas plūsmas rinda (vai pirkšanas pasūtījuma ieejas plūsmas prece Dataverse), tiek izveidota Dataverse krājumu žurnāla rinda, lai koriģētu atlikušo daudzumu, kas ir pasūtīts neproduktīgiem piegādes scenārijiem.
 
 ## <a name="unsupported-scenarios"></a>Neatbalstītie scenāriji
 
-+ Field Service neļauj rindas pievienot atceltam pirkšanas pasūtījumam Supply Chain Management. Kā risinājumu varat mainīt pirkšanas pasūtījuma sistēmas statusu Field Service un pēc tam pievienot jauno rindu sadaļā Field Service vai Supply Chain Management.
-+ Lai gan sagādes rindas ietekmē krājumu līmeņus abās sistēmās, šī integrācija nesniedz krājumu līdzinājumu Supply Chain Management un Field Service. Gan Field Service, gan Supply Chain Management ir citi procesi, kas atjaunina krājumu līmeņus. Šie procesi ir ārpus sagādes sfēras.
+- Field Service neļauj rindas pievienot atceltam pirkšanas pasūtījumam Supply Chain Management. Kā risinājumu varat mainīt pirkšanas pasūtījuma sistēmas statusu Field Service un pēc tam pievienot jauno rindu sadaļā Field Service vai Supply Chain Management.
+- Lai gan sagādes rindas ietekmē krājumu līmeņus abās sistēmās, šī integrācija nesniedz krājumu līdzinājumu Supply Chain Management un Field Service. Gan Field Service, gan Supply Chain Management ir citi procesi, kas atjaunina krājumu līmeņus. Šie procesi ir ārpus sagādes sfēras.
 
 ## <a name="status-management"></a>Statusa pārvaldība
 
@@ -161,13 +160,13 @@ Rindu apstiprināšanas statusi ir aktīvi tikai tad, ja ir rindas darbplūsma.
 
 Statusa kolonnām tiek pielietotas šādas kārtulas:
 
-+ Supply Chain Management statusu nevar atjaunināt no Field Service. Tomēr dažos gadījumos Field Service statuss tiks atjaunināts, mainoties pirkšanas pasūtījuma statusam Supply Chain Management.
-+ Ja Pirkšanas pasūtījums Supply Chain Management tiek mainīts un tiek apstrādātas izmaiņas, apstiprinājuma statuss ir *Melnraksts* vai *Tiek pārskatīts*. Šajā gadījumā Field Service apstiprinājuma statuss tiks iestatīts uz *Null*.
-+ Ja pirkšanas pasūtījuma apstiprinājuma statuss Supply Chain Management ir iestatīts uz *Apstiprināts*, *Ārēji pārskatīt*, *Apstiprināts* vai *Pabeigts*, Field Service pirkšanas pasūtījuma apstiprinājuma statuss tiks iestatīts uz *Apstiprināts*.
-+ Ja pirkšanas pasūtījuma apstiprinājuma statuss Supply Chain Management ir iestatīts uz *Noraidīts*, Field Service pirkšanas pasūtījuma apstiprinājuma statuss tiks iestatīts uz *Noraidīts*.
-+ Ja dokumenta virsraksta statuss Supply Chain Management ir mainīts uz *Atvērts pasūtījums (neizpildīts pasūtījums)* un Field Service pirkšanas pasūtījuma statuss ir *Melnraksts* vai *Atcelts*, Field Service pirkšanas pasūtījuma statuss tiks mainīts uz *Iesniegts*.
-+ Ja dokumentu virsraksta statuss Supply Chain Management tiek mainīts uz *Atcelts* un neviena pirkšanas pasūtījuma ieejas plūsmas preces Field Service nav saistītas ar pirkšanas pasūtījumu (izmantojot pirkšanas pasūtījuma preces), Field Service sistēmas statuss tiek iestatīts uz *Atcelts*.
-+ Ja pirkšanas pasūtījuma rindas statuss Supply Chain Management ir *Atcelts*, pirkšanas pasūtījuma preces statuss Field Service tiek iestatīts uz *Atcelts*. Turklāt, ja pirkšanas pasūtījuma rindas statuss Supply Chain Management ir mainīts no *Atcelts* uz *Neizpildīts pasūtījums*, pirkšanas pasūtījuma preces krājuma statuss Field Service tiek iestatīts uz *Gaida*.
+- Supply Chain Management statusu nevar atjaunināt no Field Service. Tomēr dažos gadījumos Field Service statuss tiks atjaunināts, mainoties pirkšanas pasūtījuma statusam Supply Chain Management.
+- Ja Pirkšanas pasūtījums Supply Chain Management tiek mainīts un tiek apstrādātas izmaiņas, apstiprinājuma statuss ir *Melnraksts* vai *Tiek pārskatīts*. Šajā gadījumā Field Service apstiprinājuma statuss tiks iestatīts uz *Null*.
+- Ja pirkšanas pasūtījuma apstiprinājuma statuss Supply Chain Management ir iestatīts uz *Apstiprināts*, *Ārēji pārskatīt*, *Apstiprināts* vai *Pabeigts*, Field Service pirkšanas pasūtījuma apstiprinājuma statuss tiks iestatīts uz *Apstiprināts*.
+- Ja pirkšanas pasūtījuma apstiprinājuma statuss Supply Chain Management ir iestatīts uz *Noraidīts*, Field Service pirkšanas pasūtījuma apstiprinājuma statuss tiks iestatīts uz *Noraidīts*.
+- Ja dokumenta virsraksta statuss Supply Chain Management ir mainīts uz *Atvērts pasūtījums (neizpildīts pasūtījums)* un Field Service pirkšanas pasūtījuma statuss ir *Melnraksts* vai *Atcelts*, Field Service pirkšanas pasūtījuma statuss tiks mainīts uz *Iesniegts*.
+- Ja dokumentu virsraksta statuss Supply Chain Management tiek mainīts uz *Atcelts* un neviena pirkšanas pasūtījuma ieejas plūsmas preces Field Service nav saistītas ar pirkšanas pasūtījumu (izmantojot pirkšanas pasūtījuma preces), Field Service sistēmas statuss tiek iestatīts uz *Atcelts*.
+- Ja pirkšanas pasūtījuma rindas statuss Supply Chain Management ir *Atcelts*, pirkšanas pasūtījuma preces statuss Field Service tiek iestatīts uz *Atcelts*. Turklāt, ja pirkšanas pasūtījuma rindas statuss Supply Chain Management ir mainīts no *Atcelts* uz *Neizpildīts pasūtījums*, pirkšanas pasūtījuma preces krājuma statuss Field Service tiek iestatīts uz *Gaida*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Sinhronizēt ar Supply Chain Management sagādes datiem pēc pieprasījuma
 

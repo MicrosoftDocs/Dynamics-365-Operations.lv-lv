@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077582"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501034"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa izstrādāšana
 
@@ -45,7 +46,7 @@ Attēlā redzami šādi elementi:
 
 Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbības:
 
-1. Dodieties uz **Ražošanas kontrole &gt; Uzstādīšana &gt; Ražošanas izpilde**.
+1. Dodieties uz **Ražošanas kontrole \> Iestatījumi \> Ražošanas izpilde \> Konfigurēt ražotnes izpildi**.
 
 1. Darbību rūtī atlasiet **Izveidot cilnes**, lai atvērtu lapu **Izveidot cilnes**.
 
@@ -67,7 +68,7 @@ Lai izveidotu un konfigurētu jaunu cilni, veiciet tālāk norādītās darbība
 
 Pēc tam, kad visas cilnes ir izveidotas, tās var saistīt ar konfigurāciju.
 
-1. Dodieties uz **Ražošanas kontrole &gt; Uzstādīšana &gt; Konfigurēt ražošanas līmeņa izpildi**.
+1. Dodieties uz **Ražošanas kontrole \> Iestatījumi \> Ražošanas izpilde \> Konfigurēt ražotnes izpildi**.
 
     ![Konfigurēt ražošanas līmeņa izpildi](media/pfe-config-prod-floor-execution.png "Konfigurēt ražošanas līmeņa izpildi")
 

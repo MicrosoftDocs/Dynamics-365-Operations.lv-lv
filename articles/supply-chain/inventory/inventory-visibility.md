@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114674"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574226"
 ---
 # <a name="inventory-visibility-add-in"></a>Krājumu uztveramības pievienojumprogramma
 
@@ -48,11 +48,64 @@ Papildinformāciju skatiet šeit: [Lifecycle Services resursi](https://docs.micr
 Pirms instalējat Krājumu uztveramības pievienojumprogrammu, jums ir jādara sekojošais:
 
 - Iegūt LCS ieviešanas projektu, kurā ir vismaz viens izvietošanas vides objekts.
-- Ģenerējiet sava piedāvājuma beta atslēgas LCS.
-- Iespējojiet beta atslēgas savam piedāvājumam savam lietotājam LCS.
-- Sazinieties ar Microsoft krājumu redzamības preču darba grupu un norādiet vides ID, kur vēlaties izvietot krājumu uztveramības pievienojumprogrammu.
+- Pārliecinieties, ka pievienojumprogrammu pārskata iestatīšanas priekšnoteikumi, kas sniegti [Pievienojumprogrammu pārskatā](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) ir pabeigti. Krājumu redzamībai nav nepieciešama dubultās rakstīšanas saistīšana.
+- Sazinieties ar krājumu redzamības grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), lai iegūtu šādus trīs nepieciešamos failus:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (Ja jūsu darbinātā Supply Chain Management versija ir agrāka nekā versija 10.0.18)
+
+> [!NOTE]
+> Pašlaik atbalstītās valstis un reģioni ietver Kanādu, Amerikas Savienotās Valstis un Eiropas Savienību (ES).
 
 Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties ar krājumu redzamības preču darba grupu.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Dataverse iestatīšana
+
+Lai iestatītu Dataverse, rīkojieties, kā norādīts tālāk.
+
+1. Pievienojiet pakalpojumu principu savam nomniekam:
+
+    1. Instalējiet Azure AD PowerShell moduli v2, kā aprakstīts [Azure Active Directory instalēšana PowerShell grafikam](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Izpildiet šādu PowerShell komandu.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Izveidot programmas lietotāju, lai noteiktu krājumu redzamību Dataverse šeit:
+
+    1. Atveriet Dataverse vides URL.
+    1. Dodieties uz **Papildu iestatījumi \> Sistēma \> Drošība \> Lietotāji** un izveidojiet programmas lietotāju. Izmantojiet skata izvēlni, lai mainītu lapas skatu uz **Programmas lietotāji**.
+    1. Atlasiet **Jauns**. Iestatiet Programmas ID uz *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Saglabājot izmaiņas, objekta ID tiks ielādēts automātiski.) Šo nosaukumu var pielāgot. Piemēram, to var mainīt uz *Krājumu redzamība*. Pēc pabeigšanas atlasiet **Saglabāt**.
+    1. Atlasiet **Piešķirt lomu** un pēc tam atlasiet **Sistēmas administrators**. Ja ir loma ar nosaukumu **Common Data Service Lietotājs**, atlasiet to arī.
+
+    Papildinformāciju skatiet nodaļā [Programmas lietotāja izveide](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Importēt `Inventory Visibility Dataverse Solution.zip` failu, kas ietver Dataverse ar konfigurāciju saistītos elementus un Power Apps:
+
+    1. Doties uz lapu **Risinājumi**.
+    1. Atlasiet **Importēt**.
+
+1. Importēt konfigurācijas jaunināšanas trigera plūsmu:
+
+    1. Doties uz lapu Microsoft Flow.
+    1. Pārliecinieties, vai pastāv savienojums ar nosaukumu *Dataverse (mantojums)*. (Ja tāda nav, izveidojiet to.)
+    1. Importēt `Inventory Visibility Configuration Trigger.zip` failu. Pēc tā importēšanas trigeris parādīsies zem **Manas plūsmas**.
+    1. Inicializējiet tālāk norādītos četrus mainīgos, pamatojoties uz vides informāciju:
+
+        - Azure nomnieka ID
+        - Azure Lietojumprogrammas klienta ID
+        - Azure Lietojumprogrammas klienta noslēpums
+        - Krājumu redzamības galapunkts
+
+            Papildinformāciju par šo mainīgo skatiet tālāk šīs tēmas sadaļā [Krājumu redzamības integrācijas iestatīšana](#setup-inventory-visibility-integration).
+
+        ![Konfigurācijas trigeris](media/configuration-trigger.png "Konfigurācijas trigeris")
+
+    1. Atlasiet **Ieslēgt**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Pievienojumprogrammas instalēšana
 
@@ -61,14 +114,16 @@ Lai instalētu Krājumu uztveramības pievienojumprogrammu, jums jārīkojas š�
 1. Pierakstieties portālā [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index).
 1. Sākumlapā atlasiet projektu, kurā tiek izvietota jūsu vide.
 1. Projekta lapā atlasiet vidi, kurā vēlaties instalēt pievienojumprogrammu.
-1. Vides lapā ritiniet uz leju, līdz redzat sadaļu **Vides pievienojumprogrammas**. Ja sadaļa nav redzama, pārliecinieties, vai ir pilnībā apstrādātas priekšnosacījumu beta atslēgas.
+1. Vides lapā ritiniet uz leju, līdz redzat sadaļu **Vides pievienojumprogrammas** sadaļā **Power Platform integrācija**, kur varat atrast Dataverse vides nosaukumu.
 1. Sadaļā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+
     ![Vides lapa portālā LCS](media/inventory-visibility-environment.png "Vides lapa portālā LCS")
+
 1. Atlasiet saiti **Instalēt jaunu pievienojumprogrammu**. Tiek atvērts pieejamo pievienojumprogrammu saraksts.
-1. Sarakstā atlasiet **Krājumu pakalpojums**. (Ņemiet vērā, ka tagad to var uzskaitīt kā **Krājumu uztveramības pievienojumprogramma sistēmai Dynamics 365 Supply Chain Management**.)
+1. Atlasiet no saraksta **Krājumu redzamība**.
 1. Ievadiet vērtības savai video šādiem laukiem:
 
-    - **AAD lietojumprogrammas ID**
+    - **AAD Lietojumprogrammas (klienta) ID**
     - **AAD nomnieka ID**
 
     ![Pievienot iestatīšanas lapā](media/inventory-visibility-setup.png "Pievienojumprogrammas iestatīšanas lapa")
@@ -76,11 +131,74 @@ Lai instalētu Krājumu uztveramības pievienojumprogrammu, jums jārīkojas š�
 1. Piekrist noteikumiem un nosacījumam, atlasot izvēles rūtiņu **Noteikumi un nosacījumi**.
 1. Atlasiet **Instalēt**. Pievienojumprogrammu statuss tiks rādīts kā **Instalē**. Kad tas ir izdarīts, atsvaidziniet lapu, lai redzētu statusa maiņu uz **Instalēts**.
 
-### <a name="get-a-security-service-token"></a>Iegūt drošības pakalpojuma marķieri
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Pievienojumprogrammas atinstalēšana
+
+Lai atinstalētu pievienojumprogrammu, atlasiet **Atinstalēt**. Kad atsvaidzināsiet LCS, Krājumu uztveramības pievienojumprogramma tiks noņemta. Atinstalēšanas process noņems pievienojumprogrammu reģistrāciju un arī sāks darbu, lai notīrītu visus pakalpojumā saglabātos biznesa datus.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Patērēt rīcībā esošos krājumu datus no Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Izvietot Krājumu redzamības integrācijas pakotni
+
+Ja jūs palaidāt Supply Chain Management versiju 10.0.17 vai agrāk, sazinieties ar Krājumu redzamības standarta atbalsta komandu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), lai iegūtu iepakojuma failu. Pēc tam izvietojiet pakotni LCS.
+
+> [!NOTE]
+> Ja izvietošanas laikā rodas versiju neatbilstības kļūda, X++ projekts ir jāimportē manuāli izstrādes vidē. Pēc tam izveidojiet izvietojamu pakotni savā izstrādes vidē un izvietojiet to ražošanas vidē.
+> 
+> Kods ir iekļauts Supply Chain Management versijā 10.0.18. Ja izmantojat šo versiju vai jaunāku, izvietošana nav nepieciešama.
+
+Pārliecinieties, ka jūsu Supply Chain Management vidē ir ieslēgtas šādas funkcijas. (Pēc noklusējuma tās ir iespējotas.)
+
+| Līdzekļa apraksts | Koda versija | Pārslēgt klasi |
+|---|---|---|
+| Iespējot vai atspējot krājumu dimensiju izmantošana InventSum tabulā | 10.0.11 | InventUseDimOfInventSumToggle |
+| Iespējot vai atspējot krājumu dimensiju izmantošana InventSumDelta tabulā | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Pievienojumprogrammas Krājumu redzamība integrācijas iestatīšana
+
+1. Programmā Supply Chain Management atveriet **[Līdzekļu pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbvietu un iespējojiet **Krājumu redzamības integrācijas** līdzekli.
+1. Pārejiet uz sadaļu **Krājumu pārvaldība \> Iestatījumi \> Krājumu redzamības integrēšanas parametri** un ievadiet URL, kurā palaižat Krājumu redzamību.
+
+    Atrodiet LCS vides Azure reģionu un pēc tam ievadiet vietrādi URL. URL ir šāda veidlapa:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Piemēram, ja esat Eiropā, jūsu videi būs viens no šiem vietrāžiem URL:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Pieejami šādi reģioni.
+
+    | Azure reģions | Reģiona īsais nosaukums |
+    |---|---|
+    | Austrālijas austrumi | eau |
+    | Austrālijas dienvidaustrumi | seau |
+    | Kanādas centrālā daļā | cca |
+    | Kanādas austrumi | eca |
+    | Ziemeļeiropa | neu |
+    | Rietumeiropa | weu |
+    | ASV austrumi | eus |
+    | ASV rietumi | wus |
+
+1. Dodieties uz **Krājumu pārvaldība \> Periodiskie \> Krājumu redzamības integrāciju** un iespējojiet darbu. Visi krājumu izmaiņu notikumi no Supply Chain Management tagad tiks grāmatoti Krājumu redzamībai.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>Krājumu redzamības pievienojumprogrammas publiskais API
+
+Krājumu redzamības pievienojumprogrammas publiskais REST API piedāvā vairākus specifiskus integrācijas galapunktus. Tas atbalsta trīs galvenos mijiedarbības tipus:
+
+- Iegrāmatojot pievienojumprogrammas rīcībā esošās izmaiņas no ārējās sistēmas
+- Tiek vaicāti pašreizējie rīcībā esošie daudzumi no ārējās sistēmas
+- Automātiska sinhronizācija ar Supply Chain Management rīcībā esošiem krājumiem
+
+Automātiskā sinhronizācija nav daļa no publiskā API. Tā vietā tā tiek apstrādāta fonā vidēm, kurās ir iespējota krājumu redzamības pievienojumprogramma.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentifikācija
+
+Platformas drošības marķieris tiek izmantots, lai izsauktu Krājumu redzamības pievienojumprogrammu. Tāpēc, izmantojot programmu, ir jāizveido *Azure Active Directory (Azure AD) marķieris* ar Azure AD lietotni. Pēc tam ir jāizmanto Azure AD marķieris, lai iegūtu *piekļuves pilnvaras* no drošības pakalpojuma.
 
 Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi:
 
-1. Pieteikties Azure portālā un izmantot to, lai atrastu `clientId` un `clientSecret` lietotu Supply Chain Management programmu.
+1. Pieteikties Azure portālā un izmantot to, lai atrastu `clientId` un `clientSecret` savai Supply Chain Management programmai.
 1. Panest marķieri Azure Active Directory (`aadToken`), iesniedzot HTTP pieprasījumu ar šādiem rekvizītiem:
     - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
     - **Metode** - `GET`
@@ -140,27 +258,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Pievienojumprogrammas atinstalēšana
-
-Lai atinstalētu pievienojumprogrammu, atlasiet **Atinstalēt**. Atsvaidziniet LCS un Krājumu uztveramības pievienojumprogramma tiks noņemts. Atinstalēšanas process noņems pievienojumprogrammu reģistrāciju un arī sāks darbu, lai notīrītu visus pakalpojumā saglabātos biznesa datus.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Krājumu uztveramības pievienojumprogrammas publiskais API
-
-Krājumu uztveramības pievienojumprogrammas publiskais REST API piedāvā vairākus specifiskus integrācijas galapunktus. Tas atbalsta trīs galvenos mijiedarbības tipus:
-
-- Iegrāmatojot pievienojumprogrammā rīcībā esošās izmaiņas no ārējās sistēmas.
-- Tiek vaicāti pašreizējie rīcībā esošie daudzumi no ārējās sistēmas.
-- Automātiska sinhronizācija ar Supply Chain Management rīcībā esošiem krājumiem.
-
-Automātiskā sinhronizēšana nav daļa no publiskā API, bet tā vietā tiek apstrādāta fonā vidēm, kam ir iespējota Krājumu uztveramības pievienojumprogramma.
-
-### <a name="authentication"></a>Autentifikācija
-
-Platformas drošības marķieris tiek izmantots, lai izsauktu Krājumu uztveramības pievienojumprogrammu, tāpēc jums ir jāizveido Azure Active Directory marķieris, izmantojot savu Azure Active Directory programmu.
-
-Papildinformāciju par to, kā iegūt drošības marķieri, skatiet šeit: [Krājumu uztveramības pievienojumprogrammas instalēšana](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Konfigurēt krājumu uztveramības API
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Konfigurēt krājumu uztveramības API
 
 Pirms pakalpojuma izmantošanas ir jāpabeidz konfigurācijas, kas aprakstītas sekojošās apakšsadaļās. Konfigurācija var atšķirties atkarībā no jūsu vides datiem. Tā galvenokārt ietver četras daļas:
 
@@ -257,7 +355,7 @@ Vaicājuma kritērijus var ievietot pieprasījuma pamattekstā.
 
 #### <a name="custom-measurement"></a>Pielāgots mērījums
 
-Noklusējuma mērījumu daudzumi ir saistīti ar Supply Chain Management, tomēr, iespējams, vēlēsities izveidot daudzumu, kas sastāv no noklusējuma mērījumu kombinācijas. Lai to paveiktu, var izveidot pielāgoto daudzumu konfigurāciju, kas tiks pievienota rīcībā esošo vaicājumu izvadei.
+Noklusējuma mērījumu daudzumi ir saistīti ar Supply Chain Management. Tomēr, iespējams, vēlēsieties daudzumu, kas veidots no noklusēto mērījumu kombinācijas. Lai to paveiktu, var izveidot pielāgoto daudzumu konfigurāciju, kas tiks pievienota rīcībā esošo vaicājumu izvadei.
 
 Funkcionalitāte vienkārši ļauj definēt mērvienību kopu, kas tiks pievienota, un/vai mēru kopa, kas tiks atņemta, lai izveidotu pielāgotu mērījumu.
 

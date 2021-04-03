@@ -1,6 +1,6 @@
 ---
 title: Atbalsta pievienošana satura piegādes tīklam (CDN)
-description: Šajā tēmā ir aprakstīts, kā pievienot satura piegādes tīklu (CDN) jūsu Microsoft Dynamics 365 Commerce videi.
+description: Šajā tēmā aprakstīts, kā pievienot satura piegādes tīklu savai Microsoft Dynamics 365 Commerce videi.
 author: brianshook
 manager: annbe
 ms.date: 07/31/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985958"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582723"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā pievienot satura piegādes tīklu (CDN) jūsu Microsoft Dynamics 365 Commerce videi.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā pievienot satura piegādes tīklu savai Microsoft Dynamics 365 Commerce videi.
 
 Iestatot e-komercijas vidi programmā Dynamics 365 Commerce, varat konfigurēt to, lai varētu strādāt ar savu CDN pakalpojumu. 
 
@@ -96,7 +93,7 @@ Lai uzstādītu maršrutēšanas kārtulu Azure optimālās ieejas pakalpojumā,
 1. Laukā **Nosaukums** ievadiet **noklusējuma**.
 1. Laukā **Pieņemtais protokols** atlasiet **HTTP un HTTPS**.
 1. Laukā **Priekšgala resursdatori** ievadiet **dynamics-ecom-tenant-name.azurefd.net**.
-1. Zem **Modeļi saskaņošanai** augšējā laukā ievadiet **/\** _.
+1. Zem **Modeļi saskaņošanai** augšējā laukā ievadiet **/\***.
 1. Sadaļā **Maršruta dati** iestatiet opciju **Maršruta tips** uz **Pārsūtīt**.
 1. Laukā **Aizmugursistēmas kopa** atlasiet **e-komercijas aizmugursistēma**.
 1. **Pārsūtīšanas protokola** lauka grupā atlasiet opciju **Saskaņot pieprasījumu**. 
@@ -109,7 +106,7 @@ Lai iestatītu kešošanas kārtulu Azure optimālās ieejas pakalpojumā, veici
 1. Laukā **Nosaukums** ievadiet **statika**.
 1. Laukā **Pieņemtais protokols** atlasiet **HTTP un HTTPS**.
 1. Laukā **Priekšgala resursdatori** ievadiet **dynamics-ecom-tenant-name.azurefd.net**.
-1. Zem **Modeļi saskaņošanai**, augšējā laukā, **/\_msdyn365/\_scnr/\** _.
+1. Zem **Modeļi saskaņošanai**, augšējā laukā, **/\_msdyn365/\_scnr/\***.
 1. Sadaļā **Maršruta dati** iestatiet opciju **Maršruta tips** uz **Pārsūtīt**.
 1. Laukā **Aizmugursistēmas kopa** atlasiet **e-komercijas aizmugursistēma**.
 1. **Pārsūtīšanas protokola** lauka grupā atlasiet opciju **Saskaņot pieprasījumu**.
@@ -143,25 +140,7 @@ Tagad jūsu CDN ir jābūt pareizi konfigurētam, lai to varētu izmantot kopā 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Domēna nosaukuma konfigurēšana](configure-your-domain-name.md)
-
-[Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
-
-[E-komercijas vietnes izveide](create-ecommerce-site.md)
-
-[Vietnes Dynamics 365 Commerce saistīšana ar tiešsaistes kanālu](associate-site-online-store.md)
-
-[Failu robots.txt pārvaldība](manage-robots-txt-files.md)
-
-[Novirzīšanas URL lielapjoma augšupielāde](upload-bulk-redirects.md)
-
-[B2C nomnieka iestatīšana programmā Commerce](set-up-B2C-tenant.md)
-
-[Pielāgotu lapu iestatīšana lietotāja pieteikumiem](custom-pages-user-logins.md)
-
-[Vairāku B2C nomnieku konfigurēšana Commerce vidē](configure-multi-B2C-tenants.md)
-
-[Veikala noteikšanas iespējošana pēc atrašanās vietas](enable-store-detection.md)
+[Satura piegādes tīkla ieviešanas opcijas](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
