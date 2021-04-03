@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: d348993422b24776098657dcef25a088ba2f826b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092427"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564547"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizēt atskaites komponentus atskaišu veidotājā
 
@@ -99,9 +98,9 @@ Nākamajā tabulā ir aprakstītas vadīklas cilnē **Atskaišu grupa**.
 <td>Detalizācijas līmenis</td>
 <td>Norādiet detalizētības līmeni, kāds ir iekļauts atskaitēs.
 <ul>
-<li><strong>Finanšu</strong> — augstākā līmeņa kopsavilkuma pārskats. Nevarat detalizēti skatīt kontus un dimensijas, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot pārskatu koku.</li>
-<li><strong>Finanšu un Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
-<li><strong>Finanšu, Konts un Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
+<li><strong>Finanšu</strong> — augstākā līmeņa kopsavilkuma pārskats. Nevara&#39;t detalizēti skatīt kontus un dimensijas, izņemot tos kontus un dimensijas, kas ir pievienoti, izmantojot pārskatu koku.</li>
+<li><strong>Finanšu &amp; Konts</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par kontu.</li>
+<li><strong>Finanšu, Konts, &amp; Transakcija</strong> — pārskats, kas satur augsta līmeņa kopsavilkumu un detalizētu informāciju par transakciju.</li>
 </ul></td>
 </tr>
 <tr>

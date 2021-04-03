@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6215fe1f32bcb4833bd009b7c33e09edbba17817
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: d6eb3d686e8f60de51001deffb4c2460c181a4ab
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093001"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565170"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER formāta konfigurēšana, lai veiktu uzskaiti un summēšanu (2. daļa. Aprēķinu konfigurēšana)
 
@@ -116,7 +115,7 @@ Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras "ER konfigurēt f
 61. Klikšķiniet Saglabāt.
 62. Aizvērt lapu.
 63. Kokā struktūrā izvērsiet 'Intrastat\Data: Sequence\Dispatches: Sequence?'.
-64. Kokā struktūrā izvērsiet 'Intrastat\Data: Sequence\Dispatches: Sequence?\Record =  Intrastat.CommodityRecord'.
+64. Kokā struktūrā izvērsiet 'Intrastat\Data: Sequence\Dispatches: Sequence?\Record = Intrastat.CommodityRecord'.
 65. Noklikšķiniet uz cilnes Formāts.
 66. Koka struktūrā atlasiet 'Intrastat\Data\Dispatches\Record\Invoice amount EUR'.
 67. Noklikšķiniet uz cilnes Kartēšana.
@@ -127,7 +126,7 @@ Lai veiktu šīs darbības, vispirms ir jāpabeidz procedūras "ER konfigurēt f
 72. Aizvērt lapu.
     * Aprēķiniet šīs secības rindas rēķinā iekļauto summu vērtību. Rezultāti tiks izmantoti ar nosaukumu "InvoicedAmountEUR" atsevišķi dažādiem Intrastat virzieniem un preces kodiem. Uzskatiet to par virtuālu Excel izklājlapas izveidi. Katra transakcijas rindas, kur pirmā kolonna ir "bloķēt", tiek aizpildīta ar attiecīgi ar vērtību "Importēt" un "Eksportēt". Otrs bloks "ierakstīt" tiek aizpildīts ar preces koda vērtību un trešā kolonna "InvoicedAmountEUR" tiek aizpildīta ar rēķina summas vērtību.  
 73. Kokā struktūrā izvērsiet 'Intrastat\Data\Arrivals?'.
-74. Koka struktūrā izvērsiet 'Intrastat\Data\Arrivals?\Record =  Intrastat.CommodityRecord'.
+74. Koka struktūrā izvērsiet 'Intrastat\Data\Arrivals?\Record = Intrastat.CommodityRecord'.
 75. Noklikšķiniet uz cilnes Formāts.
 76. Koka struktūrā atlasiet 'Intrastat\Data\Arrivals\Record\Invoice amount EUR'.
 77. Noklikšķiniet uz cilnes Kartēšana.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024674"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500602"
 ---
 # <a name="manage-standard-cost-updates"></a>Standarta izmaksu atjauninājumu pārvaldība
 
@@ -45,6 +45,8 @@ Tālāk sniegtajā piemērā ir parādīts, kā vienas versijas un divu versiju 
 Šajā piemērā tika izmantota viena papildu izmaksu aprēķināšanas versija, lai pārvaldītu atjauninājumus par 2020. gadu. Var izmantot vairākas izmaksu aprēķināšanas versijas, piemēram, atsevišķu versiju katram atjauninājumu paketei. Ja tiek izmantotas vairākas papildu izmaksu aprēķināšanas versijas, atkāpšanās ir jāizsaka kā aktīvās izmaksas, jo aktīvās izmaksas ir ietvertas vairākās izmaksu aprēķināšanas versijās.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Finanšu dimensijas standarta izmaksu pārvērtēšanai
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Aktivizējot jaunu standarta cenu, rīcībā esošo krājumu vērtība parasti tiks pārvērtēta, izmantojot standarta izmaksu pārvērtēšanas darbības. Parasti krājuma finanšu dimensijas pēc tam tiek grāmatotas darbībās. Tomēr, ja vēlaties kontrolēt, vai un kā finanšu dimensijas ir iegrāmatotas, izmantojiet [līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu līdzekli ar nosaukumu *Noklusējuma finanšu dimensiju opcijas krājumu standarta izmaksu pārvērtēšanai*. Pēc šīs funkcijas iespējošanas dodieties uz **Izmaksu pārvaldība > Krājumu uzskaites politiku iestatījumi > Parametri** un iestatiet jauno **Finanšu dimensiju izcelsmes** nolaižamo sarakstu uz vienu no šīm vērtībām:
 
