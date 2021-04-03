@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118685"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260651"
 ---
 # <a name="product-dimensions"></a>Preces dimensijas
 
@@ -106,7 +106,7 @@ Kad pārbaudāt savu risinājumu saderību ar versijas dimensiju, meklējiet š�
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Kartes:** ja kāda karte izmanto krājumu dimensijas, atbilstošais relāciju kartējums uz šīm kartēm ir jāatjaunina, lai tās ietvertu versijas dimensiju. Paplašinātajā modelī vai tabulas paplašinājumiem skatiet tabulas, kurās lauki ietver krājumu dimensijas.
-1. **Microsoft Dynamics 365 Commerce funkcionalitāte:** pēc tam, kad tā ir ieslēgta, versijas dimensija tiks rādīta visā Commerce noteiktajā kodā Dynamics 365 Supply Chain Management. Tomēr versijas dimensiju vēl neatbalsta Commerce kanāla datu bāze vai pārdošanas punktā (POS), vai e-komercijas programmas. Šīs ar Commerce saistītās programmas neatbalstīs lietotājus, kas pārdod/nosūta vai atgriež/saņem krājumus pēc versijas dimensijas. Krājumu pieejamības uzmeklēšanas funkcijas neatšķir krājumu, izmantojot versijas dimensiju Commerce programmās. Šī uzvedība atgādina pašreizējo konfigurācijas dimensijas uzvedību programmā Commerce.
+1. **Microsoft Dynamics 365 Commerce funkcionalitāte:** pēc tam, kad tā ir ieslēgta, versijas dimensija tiks rādīta visā Commerce noteiktajā kodā programmā Dynamics 365 Supply Chain Management. Tomēr versijas dimensiju vēl neatbalsta Commerce kanāla datu bāze vai pārdošanas punktā (POS), vai e-komercijas programmas. Šīs ar Commerce saistītās programmas neatbalstīs lietotājus, kas pārdod/nosūta vai atgriež/saņem krājumus pēc versijas dimensijas. Krājumu pieejamības uzmeklēšanas funkcijas neatšķir krājumu, izmantojot versijas dimensiju Commerce programmās. Šī uzvedība atgādina pašreizējo konfigurācijas dimensijas uzvedību programmā Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Ieslēdziet versijas dimensiju
 

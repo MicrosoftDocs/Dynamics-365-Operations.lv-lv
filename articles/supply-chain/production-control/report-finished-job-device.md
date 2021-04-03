@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2e9258d0a2f2006f404b24f15605af5a2ad1b281
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986508"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262145"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
 
@@ -31,7 +31,7 @@ Darbinieki izmanto lapu **Pārskatu norises** darba kartes ierīcē, lai ziņotu
 - Kontrolēt, vai un kā krājumiem tiek pievienoti pabeigtie daudzumi.
 - Kontrolē, vai un kā partijas numuri tiek ģenerēti un pielietoti, ziņojot par pabeigšanu.
 - Kontrolē, vai un kā sērijas numuri tiek ģenerēti un pielietoti, ziņojot par pabeigšanu.
-- Kontrolē, vai un kā ziņot par pabeigšanu reģistrācijas numura zīmē.
+- Kontrolē, vai un kā ziņot par pabeigšanu unikālajā noliktavas vienībā.
 
 ## <a name="control-whether-quantities-that-are-reported-as-finished-are-added-to-inventory"></a>Kontrolēt, vai krājumiem ir pievienoti pabeigtie daudzumi
 
@@ -220,13 +220,13 @@ Papildu noliktavas procesi var izmantot noliktavas unikālās vienības dimensij
 
 Lai izmantotu šajā sadaļā aprakstītos līdzekļus, jāizmanto [līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai ieslēgtu tālāk norādītos līdzekļus (minētajā secībā).
 
-1. Darbu kartes ierīcei ir pievienota noliktavas vienībai, lai ziņotu par pabeigšanu
+1. Darbu kartes ierīcei ir pievienota unikālai noliktavas vienībai, lai ziņotu par pabeigšanu
 1. Iespējojiet unikāla noliktavas vienības identifikatora automātisku ģenerēšanu, kad darba kartes ierīcē norādīts pabeigts statuss
 1. Izdrukāt etiķeti no darba karšu ierīces
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Iestatīt ziņošanu par pabeigšanu noliktavas unikālajai vienībai
 
-Lai kontrolētu, vai darbiniekiem ir atkārtoti jāizmanto esoša noliktavas vienība vai jāģenerē jauna noliktavas vienība, kad tiek reģistrēta krājumu pabeigšana, izpildiet tālāk norādītās darbības.
+Lai kontrolētu, vai darbiniekiem ir atkārtoti jāizmanto esoša unikālā noliktavas vienība vai jāģenerē jauna noliktavas vienība, kad tiek reģistrēta krājumu pabeigšana, izpildiet tālāk norādītās darbības.
 
 1. Dodieties uz **Ražošanas kontrole \> Iestatīšana \> Ražošanas izpilde \> Konfigurēt darbu karti ierīcēm**.
 2. Iestatiet tālāk norādītās opcijas katrai ierīcei.

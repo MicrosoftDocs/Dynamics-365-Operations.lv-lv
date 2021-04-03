@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258903"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.15. (2021. gada janvāris)
 
@@ -37,7 +37,7 @@ ms.locfileid: "5014537"
 
 Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
-- Mākoņa un Edge mēroga vienības pārvaldība ar ražošanas un noliktavas izpildes slodzēm<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm](../cloud-edge/cloud-edge-landing-page.md).
+- Mākoņa un malas mēroga vienības pārvaldība ar ražošanas un noliktavas izpildes slodzēm<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Papildinformāciju skatiet šeit: [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](../warehousing/create-transfer-order-from-warehouse-app.md).
 
