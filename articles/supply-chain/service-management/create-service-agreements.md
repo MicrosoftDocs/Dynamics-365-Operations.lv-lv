@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef5ca8cc9c80581b9f7ef69bd8c4403d3d0296e8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f883d5b312c042a995e30998fc24da5b1c02f22a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965973"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470861"
 ---
 # <a name="create-service-agreements"></a>Pakalpojumu līgumu izveide
 
@@ -34,7 +34,7 @@ ms.locfileid: "4965973"
 
 1. Pārejiet uz **Pakalpojumu vadība**.
 2. Noklikšķiniet uz **Pakalpojumu līgumi**, lai izveidotu jaunu pakalpojumu līguma rindu lapas galvenē. 
-3. Klikšķiniet **Jauns**. Ievadiet aprakstu, atlasiet atsauci uz projektu laukā **Projekta ID** un aizpildiet atlikušos laukus un rindas pakalpojumu līgumam. Noklikšķiniet uz **Saglabāt**.
+3. Atlasiet **Jauns**. Ievadiet aprakstu, atlasiet atsauci uz projektu laukā **Projekta ID** un aizpildiet atlikušos laukus un rindas pakalpojumu līgumam. Atlasiet **Saglabāt**.
 4. Cilnē **Relācijas** atlasiet **Pakalpojumu objekti** vai **Pakalpojumu uzdevumi**, lai izveidotu pakalpojumu objektu relācijas vai pakalpojumu uzdevumu relācijas pakalpojumu līgumam. Pakalpojuma objekti un uzdevumi ar izveidotām saistībām var tikt pievienoti pakalpojumu līguma rindām.
 5. Lapas apakšējā pusē izveidojiet pakalpojumu līguma rindas nokopējot rindas no pakalpojuma veidnes vai arī pašrocīgi izveidojot pakalpojumu līguma rindas.
 
@@ -45,14 +45,14 @@ ms.locfileid: "4965973"
 
 1. Lapā **Pakalpojumu līgumi** rindu režģī pievienojiet pakalpojumu līguma rindu. 
 2. Ievadiet attiecīgu informāciju par pakalpojumu līgumu rindu. 
-3. Lai saglabātu rindu un aizvērtu lapu, nospiediet taustiņu kombināciju **CTRL+S**.
+3. Atlasiet **Saglabāt**, lai saglabātu rindu, tad aizveriet lapu.
 
 ## <a name="create-a-service-agreement-from-project"></a>Pakalpojumu līguma izveide no formas Projekts
 
-1. Noklikšķiniet uz **Projektu pārvaldība un uzskaite**.
-2. Noklikšķiniet uz **Visi projekti**.
+1. Atlasiet **Projektu pārvaldība un uzskaite**.
+2. Atlasiet **Visi projekti**.
 3. Atlasiet projektu no saraksta.
-4. **Darbību rūtī** noklikšķiniet uz **Pārvaldīt**. **Jaunajā** darbību grupā noklikšķiniet uz **Pakalpojums** un atlasiet **Pakalpojuma līgums**.
+4. **Darbību rūtī** atlasiet **Pārvaldīt**. Darbību grupā **Jauns** atlasiet **Pakalpojums** un atlasiet **Pakalpojuma līgums**.
 5. Lai ievadītu projekta atsauci, izpildiet sadaļā **Pakalpojumu līguma izveidošana** sniegtos norādījumus, kā tika aprakstīts iepriekš šajā tēmā.
 
 

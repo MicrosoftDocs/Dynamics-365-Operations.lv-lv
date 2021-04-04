@@ -1,5 +1,5 @@
 ---
-title: Pakalpojuma pasūtījuma stadiju iestatīšana
+title: Iestatīt pakalpojuma pasūtījumu posmus
 description: Iestatiet pakalpojuma pasūtījuma stadijas.
 author: ShylaThompson
 manager: tfehr
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aca699283a9de6ea551bd02184498aed88143e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9774d5f4e97d3f768366ba552e5928929bacf508
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991644"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470933"
 ---
-# <a name="set-up-service-order-stages"></a>Pakalpojuma pasūtījuma stadiju iestatīšana 
+# <a name="set-up-service-order-stages"></a>Iestatīt pakalpojuma pasūtījumu posmus 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu stadijas**.
+1.  Dodieties uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu pasūtījumi** \> **Pakalpojumu stadijas**.
 
-2.  Nospiediet taustiņu kombināciju CTRL+N, lai izveidotu jaunu ierakstu.
+2.  Atlasiet **Jauns**, lai izveidotu jaunu ierakstu.
 
 3.  Laukā **Pakalpojuma stadija** un **Apraksts** norādiet pakalpojuma stadijas ID un aprakstu.
 
