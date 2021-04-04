@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004631"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500506"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Novietojuma direktīvas krājumu izdošanas vecumstruktūras
 
@@ -119,7 +119,7 @@ FIFO stratēģija atrod novietojumu, kas ietver vecāko vecumstruktūras datumu,
 1. Lapā **Pārdošanas pasūtījums**, darbību rūtī cilnē **Noliktava** grupā **Darbības**, atlasiet **Pārvietot uz noliktavu**. Tiek parādīti informatīvi ziņojumi. Sistēma izveido sūtījumu, pievieno to jaunajai kravai un izveido nepieciešamo darbu.
 1. Kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas** izvēlnē **Noliktava**, atlasiet **Darba informācija**, lai atvērtu darbu, kas tika izveidots šim pārdošanas pasūtījumam. Ievērojiet, ka rinda **Darba veids**, kurā ir vērtība *Izdot*, rāda **Novietojums** vērtību *FL-002*. Šis novietojums ietver noliktavas vienību ar vecāko vecumstruktūras datumu (FIFO).
 1. Atlasiet **Noliktava \> Sūtījuma informācija**.
-1. Kopsavilkuma cilnē **_Vispārīgi_* pierakstiet kopuma ID, lai varētu to izmantot 2. scenārijā.
+1. Kopsavilkuma cilnē **Vispārīgi** pierakstiet kopuma ID, lai varētu to izmantot 2. scenārijā.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>2. scenārijs: iestatīt un izmantot LIFO novietojuma vecumstruktūras
 

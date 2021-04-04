@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2920a03eaec226b306d03ebf8b899113128c410e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 872b5cface7af19e2ef970e624c0cb5ce14e75b1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113395"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466138"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Pēc nepieciešamo parametrus konfigurēšanas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources varat izveidot piemērotības noteikumus, komplektus, periodus un programmas, ko saistīsiet ar saviem atvieglojumu plāniem.
 

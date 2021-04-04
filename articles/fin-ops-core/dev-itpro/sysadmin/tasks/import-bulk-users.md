@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679818"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571009"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Lietotāju importēšana no Azure Active Directory
 
@@ -46,11 +45,11 @@ Sistēmas administratori var izmantot šo procedūru, lai importētu lielu skait
 2. Pārejiet uz sadaļu **Sistēmas administrēšana > Lietotāji > Lietotāji**.
 3. Noklikšķiniet uz **Partijas importēšana**.
 4. Izvērsiet sadaļu **Palaist fonā**.
-4. Laukā **Partijas apstrāde** atlasiet **Jā.
+4. Laukā **Partijas apstrāde** atlasiet **Jā**.
 6. Laukā **Partijas grupa** ievadiet vai atlasiet kādu vērtību. Šis solis nav obligāts.  
 7. Laukā **Privāts** atlasiet **Jā**. Šis solis nav obligāts.  
 8. Laukā **Kritisks darbs** atlasiet **Jā**. Šis solis nav obligāts.  
-9. Laukā **Pārraudzības kategorija atlasiet kādu opciju.
+9. Laukā **Pārraudzības kategorija** atlasiet kādu opciju.
 10. Noklikšķiniet uz **Labi**.
 
 Kad importēšana ir pabeigta, tiks prasīts piešķirt lomas lietotājiem.
