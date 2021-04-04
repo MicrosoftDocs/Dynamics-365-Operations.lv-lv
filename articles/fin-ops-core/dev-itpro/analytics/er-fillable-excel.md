@@ -3,10 +3,9 @@ title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094033"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574177"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -54,7 +53,7 @@ Jums ir jāpievieno **Excel\\Fails** komponents konfigurētajam ER formātam, la
 Lai norādītu izejošā dokumenta izkārtojumu, pievienojiet Excel darbgrāmatu, kam ir paplašinājums .xlsx, **Excel\\Faila** komponentam kā veidni izejošajiem dokumentiem.
 
 > [!NOTE]
-> Manuāli pievienojot veidni, jāizmanto [dokumenta veids](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), kas ir konfigurēts šim nolūkam [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Manuāli pievienojot veidni, jāizmanto [dokumenta veids](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), kas ir konfigurēts šim nolūkam [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Pielikuma pievienošana Excel\Faila komponentam](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Papildinformāciju par attēlu un formu iegulšanu skatiet sadaļā [Attēlu un 
 
 **Lappuses pārtraukuma** komponents liek programmai Excel sākt jaunu lapu. Šis komponents nav nepieciešams, ja vēlaties izmantot programmas Excel noklusējuma lapošanu, bet to vajadzētu izmantot, ja vēlaties, lai Excel seko savam ER formātam struktūras lapošanai.
 
+## <a name="footer-component"></a>Kājenes komponents
+
+Komponents **Kājene** tiek izmantots, lai aizpildītu kājenes Excel darbgrāmatas ģenerētās darblapas apakšdaļā.
+
+> [!NOTE]
+> Varat pievienot šo komponentu katram komponentam **Lapa**, lai norādītu dažādas kājenes dažādām darblapām ģenerētajā Excel darbgrāmatā.
+
+Konfigurējot atsevišķu komponentu **Kājene**, var lietot rekvizītu **Virsraksta/kājenes izskats**, lai norādītu lapas, kurām komponents tiek izmantots. Ir pieejamas šādas vērtības:
+
+- **Jebkurš** — palaist konfigurēto komponentu **Kājene** jebkurai vecākelementa Excel darblapas lapai.
+- **Pirmais** — palaist konfigurēto komponentu **Kājene** tikai pirmajai vecākelementa Excel darblapas lapai.
+- **Pāra** — palaist konfigurēto komponentu **Kājene** tikai vecākelementa Excel darblapas pāra lapām.
+- **Nepāra** — palaist konfigurēto komponentu **Kājene** tikai vecākelementa Excel darblapas nepāra lapām.
+
+Vienam komponentam **Lapa** var pievienot vairākus komponentus **Kājene**, no kuriem katram ir atšķirīga vērtība rekvizītam **Galvenes/kājenes izskats**. Šādā veidā Excel darblapā var izveidot dažādas kājenes dažādiem lapu veidiem.
+
+> [!NOTE]
+> Pārliecinieties, ka katram komponentam **Kājene**, ko pievienojat vienam komponentam **Lapa**, ir atšķirīga vērtība rekvizītam **Galvenes/kājenes izskats**. Pretējā gadījumā rodas [validācijas kļūda](er-components-inspections.md#i16). Saņemtajā kļūdas ziņojumā ir informācija par nekonsekvenci.
+
+Zem pievienotā komponenta **Kājene** pievienojiet nepieciešamos **Teksts\\Virkne**, **Teksts\\DateTime** vai cita veida ligzdotos komponentus. Konfigurējiet šo komponentu saistījumus, lai norādītu, kā tiek aizpildīta lapas kājene.
+
+Lai pareizi formatētu ģenerētās kājenes saturu, varat izmantot arī īpašus [formatēšanas kodus](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers). Lai uzzinātu, kā izmantot šo pieeju, izpildiet darbības [1. piemērā](#example-1) tālāk šajā tēmā.
+
+> [!NOTE]
+> Konfigurējot ER formātus, noteikti apsveriet Excel [ierobežojumu](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) un maksimālo rakstzīmju skaitu vienai galvenei vai kājenei.
+
+## <a name="header-component"></a>Galvenes komponents
+
+Komponents **Galvene** tiek izmantots, lai aizpildītu galvenes Excel darbgrāmatas ģenerētās darblapas augšdaļā. Tas tiek izmantots līdzīgi komponentam **Kājene**.
+
 ## <a name="edit-an-added-er-format"></a>Rediģēt pievienoto ER formātu
 
 ### <a name="update-a-template"></a>Veidnes atjaunināšana
@@ -175,6 +204,48 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
     >[!NOTE]
     > Formulas pārrēķins tiek manuāli izpildīts piespiedu kārtā, kad izveidotais dokuments tiek atvērts priekšskatījumam, izmantojot Excel.
     > Neizmantojiet šo opciju, ja konfigurējat ER galamērķi, kas pieņem izveidotā dokumenta izmantošanu bez tā priekšskatījuma programmā Excel (PDF pārvēršana, nosūtīšana e-pasta utt.), jo izveidotajā dokumentā var nebūt vērtības šūnās, kas satur formulas.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>1. piemērs: formāta kājenes saturs
+
+1. Izmantojiet nodrošinātās ER konfigurācijas, lai [ģenerētu](er-generate-printable-fti-forms.md) drukājamu brīvā teksta rēķina (FTI) dokumentu.
+2. Pārskatiet ģenerētā dokumenta kājeni. Ievērojiet, ka tā satur informāciju par pašreizējās lapas numuru un kopējo lapu skaitu dokumentā.
+
+    ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā](./media/er-fillable-excel-footer-1.gif)
+
+3. ER formāta veidotājā [atveriet](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) parauga ER formātu pārskatīšanai.
+
+    Darblapas **Rēķins** kājene tiek ģenerēta, pamatojoties uz divu to komponentu **Virkne** iestatījumiem, kas atrodas zem komponenta **Kājene**:
+
+    - Pirmais komponents **Virkne** aizpilda šādus īpašus formatēšanas kodus, lai programma Excel piemērotu specifisku formatēšanu:
+
+        - **&C** — izlīdzināt kājenes tekstu centrā.
+        - **&"Segoe UI,Regular"&8** — rāda kājenes tekstu "Segoe UI Regular" fontā 8 punktu lielumā.
+
+    - Otrais komponents **Virkne** aizpilda tekstu, kas satur pašreizējo lapas numuru un kopējo lapu skaitu pašreizējā dokumentā.
+
+    ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs](./media/er-fillable-excel-footer-2.png)
+
+4. Pielāgojiet parauga ER formātu, lai modificētu pašreizējās lapas kājeni:
+
+    1. [Izveidojiet](er-quick-start2-customize-report.md#DeriveProvidedFormat) atvasinātu **Brīvā teksta rēķina (Excel) pielāgoto** ER formātu, kas ir pamatots uz parauga ER formātu.
+    2. Pievienojiet pirmo jauno komponentu **Virkne** pāri **Rēķina** darblapas komponentam **Kājene**:
+
+        1. Pievienojiet komponentu **Virkne**, kas izlīdzina uzņēmuma nosaukumu kreisajā pusē un parāda to 8 punktu "Segoe UI Regular" fontā (**"&L&"Segoe UI,Regular"&8"**).
+        2. Pievienojiet komponentu **Virkne**, kas aizpilda uzņēmuma nosaukumu (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Pievienojiet otro jauno komponentu **Virkne** pāri **Rēķina** darblapas komponentam **Kājene**:
+
+        1. Pievienojiet komponentu **Virkne**, kas izlīdzina apstrādes datumu labajā pusē un parāda to 8 punktu "Segoe UI Regular" fontā (**"&R&"Segoe UI,Regular"&8"**).
+        2. Pievienojiet komponentu **Virkne**, kas aizpilda apstrādes datumu pielāgotā formātā (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs](./media/er-fillable-excel-footer-3.png)
+
+    4. [Aizpildiet](er-quick-start2-customize-report.md#CompleteDerivedFormat) atvasinātā   **Brīvā teksta rēķina (Excel) pielāgotā** ER formāta melnraksta versiju.
+
+5. [Konfigurējiet](er-generate-printable-fti-forms.md#configure-print-management) drukas pārvaldību, lai izmantotu atvasināto **Brīvā teksta rēķina (Excel) pielāgoto** ER formātu, nevis ER parauga formātu.
+6. Ģenerējiet drukājamu FTI dokumentu un pārskatiet ģenerētā dokumenta kājeni.
+
+    ![Ģenerētā dokumenta kājenes pārskatīšana Excel formātā](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

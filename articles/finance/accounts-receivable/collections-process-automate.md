@@ -1,9 +1,9 @@
 ---
 title: Parādu piedziņas procesa automatizācija
-description: Šajā tēmā aprakstīts parādu piedziņas procesa stratēģiju iestatīšanas process, kas automātiski identificē debitoru rēķinus, kas pieprasa e-pasta atgādinājumu, parādu piedziņas aktivitātes (piemēram, tālruņa zvanu) vai parādu piedziņas vēstuli, kas jānosūta debitoram.
+description: Šajā tēmā aprakstīts, kā tiek iestatītas parādu piedziņas procesa stratēģijas, kuras automātiski nosaka klientu rēķinus, kuriem ir nepieciešams e-pasta atgādinājums, parādu piedziņa vai vēstule par parādu piedziņu, kas jānosūta klientam.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969705"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582755"
 ---
 # <a name="collections-process-automation"></a>Parādu piedziņas procesa automatizācija
 
@@ -28,10 +28,12 @@ ms.locfileid: "4969705"
 
 Šajā tēmā aprakstīts parādu piedziņas procesa stratēģiju iestatīšanas process, kas automātiski identificē debitoru rēķinus, kas pieprasa e-pasta atgādinājumu, parādu piedziņas aktivitātes (piemēram, tālruņa zvanu) vai parādu piedziņas vēstuli, kas jānosūta debitoram. 
 
-Uzņēmumi pavada ievērojamu laiku, pētot vecus bilances pārskatus, klientu kontus un atvērtos rēķinus, lai noteiktu, ar kuriem klientiem jāsazinās par atvērtu rēķinu vai konta bilanci. Šis pētījums taupa parādu piedziņas aģenta laiku, kas pavadīts sazinoties ar debitoriem, lai apkopotu nokavētās bilances vai atrisinātu strīdus par rēķiniem. Parādu piedziņas procesu automatizācija ļauj iestatīt uz stratēģiju balstītu pieeju jūsu parādu piedziņas procesam. Tas palīdz konsekventi veikt parādu piedziņas darbības, nodrošinot pielāgotus e-pasta atgādinājumus vai ieprogrammētu atgādinājuma vēstuļu sūtīšanas procesu. 
+Organizācijām paiet daudz laika, pārskatot novecojušas bilanču atskaites, klientu grāmatvedību un atvērtos rēķinus, lai uzzinātu, ar kuriem klientiem vajadzētu sazināties par atvērtu rēķinu vai konta bilanci. Šis pētījums taupa parādu piedziņas aģenta laiku, kas pavadīts sazinoties ar debitoriem, lai apkopotu nokavētās bilances vai atrisinātu strīdus par rēķiniem. Parādu piedziņas procesu automatizācija ļauj iestatīt uz stratēģiju balstītu pieeju jūsu parādu piedziņas procesam. Tas palīdz konsekventi veikt parādu piedziņas darbības, nodrošinot pielāgotus e-pasta atgādinājumus vai ieprogrammētu atgādinājuma vēstuļu sūtīšanas procesu. 
 
 ## <a name="collections-process-setup"></a>Parādu piedziņas procesa iestatīšana
 Varat izmantot lapu **Parādu piedziņas procesa iestatīšana** (**Kredīts un parādu piedziņa > Iestatīšana > Parādu piedziņas procesa iestatīšana**), lai izveidotu automatizētu parādu piedziņas procesu, kas plāno aktivitātes, sūta e-pasta ziņojumus un veido un grāmato debitoru parādu piedziņas vēstules. Procesa darbības pamatā ir sākuma vai vecākais atvērtais rēķins. Katra darbība izmanto šo rēķinu, lai noteiktu, kādai saziņai vai aktivitātei ir jānotiek ar noteiktu debitoru.  
+
+Parādu piedziņas darba grupas parasti izsūta savlaicīgu brīdinājumu saistībā ar neapmaksātu rēķinu, lai klientu informētu par to, ka drīz beigsies rēķina apmaksas termiņš. Ir iespējams iestatīt atlasi **Iepriekšēju atgādinājumu**, lai katrā procesa hierarhijā varētu katram rēķinam izpildīt vienu darbību, kad rēķina termiņš sasniedz šo darbību.
 
 ### <a name="process-hierarchy"></a>Procesa hierarhija
 Katru debitoru kopu var piešķirt tikai vienai procesu hierarhijai. Šīs darbības hierarhijas rangs identificē, kurš process būs prioritārs, ja debitors ir iekļauts vairāk nekā vienā kopā, kam ir piešķirta procesu hierarhija. Kopas ID nosaka, kuri debitori tiks piešķirti procesam. 
@@ -82,6 +84,7 @@ Ja darbības veids ir e-pasta ziņojums procesa detalizētajā informācijā, š
 |                                                           |     Biznesa dokuments                           |     Definē aktivitāti vai e-pasta veidni, kas tiek izmantota procesa darbības laikā.                                                                        |
 |                                                           |     Kad                                          |     Nosaka, vai procesa darbība notiks pirms vai pēc sākuma rēķina apmaksas datuma kopā ar lauku **Dienas, kas saistītas ar rēķina apmaksas datumu** .        |
 |                                                           |     Dienas attiecībā pret rēķina samaksas termiņu        |     Kopā ar lauku **Kad** tas identificē procesa darbības hronometrāžu.                                                                          |
+|                                                           |     Iepriekšējs atgādinājums                                   |     Šī atlase ļauj iestatīt hierarhiju vienai darbībai katram procesam un palaist attiecībā uz katru rēķinu, tam sasniedzot termiņa kritēriju.                                                |
 |                                                           |     Saņēmējs                                     |     Norāda, vai e-pasta ziņojums tiks nosūtīts debitoram, pārdošanas grupai vai parādu piedziņas aģenta kontaktpersonai.                                                   |
 |                                                           |     Biznesa nolūka kontaktpersona                    |     Nosaka, kura saņēmēja e-pasta adrese tiek izmantota e-pasta komunikācijā.                                                                                 |
 
@@ -100,16 +103,21 @@ Ja darbības veids ir e-pasta ziņojums procesa detalizētajā informācijā, š
 ### <a name="collections-history"></a>Iekasēšanas vēsture 
 |     Lapa                              |     Lauks     |      Apraksts                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Parādu piedziņas procesa iestatīšana       |               |     Aplūkojiet atlasītās procesu hierarhijas neseno vēsturi.     |
+|     Parādu piedziņas procesa iestatīšana       |               |     Skatiet atlasītās procesa hierarhijas jaunāko vēsturi.       |
 
 ### <a name="collection-process-assignment"></a>Parādu piedziņas procesa piešķire
 |     Lapa                              |     Lauks     |      Apraksts                                                  |
 |------------------------------------   |-------------- |-----------------------------------------------------------    |
-|     Parādu piedziņas procesa iestatīšana       |               |     Skatīt debitorus, kas piešķirti parādu piedziņas procesam.  
+|     Parādu piedziņas procesa iestatīšana       |               |     Skatiet klientus, kas piešķirti parādu piedziņas procesam.  
 |     Manuāla piešķire               |               |     Skatiet debitorus, kas ir manuāli piešķirti procesam, vai atlasiet debitorus, lai tos piešķirtu procesam. |
 |     Priekšskatījuma procesa piešķire      |               |     Priekšskatiet debitorus, kas tiks piešķirti stratēģijai, kad tā tiek palaista.   |
 |     Priekšskatīt debitora piešķiri     |               |     Skatiet stratēģiju, kas piešķirta noteiktam debitoram.    |
  
+ ### <a name="process-simulation"></a>Procesa simulācija
+|     Lapa                              |     Lauks     |      Apraksts                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Procesa simulācija                 |               |     Skatiet darbības, kuras tiks izveidotas, ja šajā laikā tiks palaista atlasītā procesa automatizācija. |
+
 ### <a name="parameters"></a>Parametri
 |     Lapa                                                                  |     Lauks                                             |      Apraksts                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
@@ -117,6 +125,7 @@ Ja darbības veids ir e-pasta ziņojums procesa detalizētajā informācijā, š
 |     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Automātiski grāmatot parādu piedziņas vēstules           |     Parādu piedziņas vēstules darbības veidi iegrāmatos vēstuli automatizācijas laikā.                                      |
 |     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Aktivitāšu izveide automātizācijai                |     Izveidojiet un aizveriet aktivitātes darbību veidiem, kas nav saistīti ar aktivitātēm, lai skatītu visas automatizētās darbības, kas veikti kontā.        |
 |     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Dienas, lai saglabātu parādu piedziņas procesu automatizāciju     |     Nosaka parādu piedziņas vēstures glabāšanas dienu skaitu.                                                       |
+|     Debitoru parametri > Parādu piedziņas procesu automatizācija     |     Izslēgt rēķinu pēc pēdējās procesa darbības aktivizēšanas    |     Rēķins, kas sasniedzis parādu piedziņas pēdējo darbību, netiks izmantots, lai izveidotu turpmākus procesa automatizācijas darbības veidus. Nākamais vecākais rēķins noteiks nākamo procesa automatizācijas darbību, lai nodrošinātu, ka tiek turpinātas parādu piedziņas procesa automatizācijas darbības.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

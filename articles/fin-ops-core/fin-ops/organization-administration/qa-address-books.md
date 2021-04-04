@@ -3,10 +3,9 @@ title: Bieži uzdotie jautājumi par adrešu grāmatām
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem saistībā ar adrešu grāmatām.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796902"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559945"
 ---
 # <a name="address-books-faq"></a>Bieži uzdotie jautājumi par adrešu grāmatām
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Kā pārbaudīt, vai nav ierakstu dublikātu?
 
@@ -68,5 +68,10 @@ Pušu ierakstus varat ievadīt globālajā adrešu grāmatā vai atbilstošajā 
 
 Varat iestatīt adreses informācijas tulkojumus tā, lai jūsu programmā informācija tiktu rādīta jūsu lietotāja valodā (sistēmas valodā), bet dokumentos, piemēram, pārdošanas pasūtījumos, tā tiktu rādīta citā valodā. Varat ievadīt tulkojumus valstu/reģionu nosaukumiem, adreses nolūkiem un nosaukumu/vārdu secībām. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs izveidojat pārdošanas pasūtījumu kādam debitoram Francijā. Šajā gadījumā programmā debitora ierakstu varat skatīt dāņu valodā, adreses informāciju drukātajā pārdošanas pasūtījumā varat rādīt franču valodā. Kad iestatāt tulkojumus, tulkojums jums ir jāievada katram vienumam sarakstā. Katrs vienums, kam neievadāt tulkojumu, tiks rādīts sistēmas valodā. Piemēram, jūsu sistēmas valoda ir Dāņu, un jūs sūtāt dokumentu debitoram Spānijā. Ja adreses informācijai neesat ievadījis tulkojumus Spāņu (ESP), šī informācija tiks rādīta dāņu valodā gan programmā, gan izdrukātajā dokumentā.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Pēc adrešu importēšanas, kad piekļūstu ierakstiem, kāpēc nevar rediģēt importētās adreses?
+
+Importējot adreses, ir lauks ar etiķeti **IsLocationOwner**, vai puse, kas saistīta ar atrašanās vietu (adresi), ir adreses īpašnieks. Ja puse ir adreses īpašnieks, adresi var rediģēt, kad tai piekļūstat, izmantojot pusi globālajā adrešu grāmatā vai no šablona ieraksta veidlapas (piemēram, debitors, kreditors vai darbinieks). Ja puse nav adreses īpašnieks, ierakstu nevar rediģēt no iepriekš uzskaitītajām veidlapām. Importējot adreses, lauks **IsLocationOwner** ir jāiestata uz **Jā**, ja vēlaties, lai adrese būtu rediģējama, izmantojot saistīto pusi. Tomēr ir reizes, kad šis lauks tiek nepareizi importēts. Lai novērstu šo problēmu, atrašanās vietas īpašnieku var atjaunināt globālajā adrešu grāmatā no puses ieraksta vai no lapas **Apstiprināt atrašanās vietas īpašniekus**. Lai atjauninātu vienas puses ierakstu, pārejiet uz sadaļu **Globālo adrešu grāmatu > Adrese**. Lai mainītu atrašanās vietas īpašnieku, atlasiet **Rediģēt**, kas palaidīs lapu  **Rediģēt adresi**. Atlasiet **Mainīt atrašanās vietas īpašnieku**, lai skatītu iepriekšējo atrašanās vietas īpašnieku ar pašlaik atlasīto pusi, kas ir jaunais atrašanās vietas īpašnieks. Ja iepriekšējais atrašanās vietas īpašnieks ir tukšs, tas nozīmē, ka atrašanās vietas īpašnieks nav izveidots. Atlasot opciju **Papildu**, tiks atvērta lapa **Pārvaldīt adreses**, kur var iestatīt arī atrašanās vietas īpašnieku. Atlasiet atjaunināmo atrašanās vietu un pēc tam izvēlnē atlasiet **Iestatīt atrašanās vietas īpašnieku**. Lai atjauninātu atrašanās vietas īpašnieku vairākiem ierakstiem, dodieties uz **Globālā adrešu grāmata > Atrašanās vietas > Apstiprināt aatrašanās vietas īpašniekus**. Sarakstā ir atrašanās vietas, kas ir saistītas ar vienu pusi, bet šī puse nav īpašnieks. Atlasot **Apstiprināt īpašnieku**, **Piedāvātās īpašnieka puses ID** tiks iestatīts kā saistītās adreses īpašnieks. Kad puse ir iestatīta kā īpašnieks, saistītā adrese būs rediģējama no puses ieraksta. Lai mainītu atrašanās vietas īpašnieku, lapā **Drošības konfigurācija** jums ir jāpiešķir privilēģija **Iestatīt atrašanās vietas īpašnieku**.  Sistēmas administratoram šī privilēģija ir piešķirta pēc noklusējuma.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992574"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457333"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Plānošanas optimizācijas problēmu novēršana 
 
@@ -48,12 +48,6 @@ Iespējojot plānošanas optimizāciju, iebūvētā vispārējās plānošanas p
 Plānošanas optimizācija dažās jomās atšķiras no iebūvētā vispārējās plānošanas projekta. To var izraisīt arī vēl nepabeigtas funkcijas.
 
 **Labojums**: palaist plānošanas optimizācijas saderības analīzi un pēc tam analizēt rezultātus, vienlaikus atsaucoties uz saistīto dokumentāciju, lai izprastu ietekmi. Papildinformāciju skatiet [Plānošanas optimizācijas ietilpināšanas analīze](planning-optimization-fit-analysis.md).
-
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>Vispārējā plānošana neievēro vajadzību periodu
-
-Tas ir saistīts ar plānošanas optimizācijas vēl nepabeigtu funkciju.
-
-**Labojums**: kamēr nav pieejama nepabeigtā funkcija, filtrējiet vai dzēsiet plānotos pasūtījumus, lai noņemtu piegādes ieteikumus ārpus vajadzību perioda.
 
 ## <a name="cant-enable-planning-optimization"></a>Nevar iespējot plānošanas optimizāciju
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967236"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580919"
 ---
 # <a name="release-product-structures"></a>Izlaist preču struktūras
 
@@ -76,8 +76,6 @@ Piemēram, kā pieņemt preci, skatiet [Preču pārskatīšana un apstiprināša
 ## <a name="release-policies"></a>Laidiena politikas
 
 Ne visiem darbību uzņēmumiem ir vajadzīgi tie paši preces dati. Parasti darbības uzņēmumiem, kas ražo tehnikas preces, ir nepieciešama MK, turpretī darbības uzņēmumam, kas pārdod tikai tehnikas preces, nav nepieciešams MK. Varat izmantot laidiena politikas, lai izveidotu parametrus, kas tiek izmantoti preču izlaišanai.
-
-Tehniskajām precēm laidiena politika tiek piešķirta tehnikas preču kategorijā, un lauks ir obligāts. Standarta precēm politika tiek piešķirta koplietojamai precei, un lauks nav obligāts.
 
 Papildinformāciju par produktu kategorijām skatiet [Tehnisko versiju un tehnisko preču kategorijas](engineering-versions-product-category.md).
 

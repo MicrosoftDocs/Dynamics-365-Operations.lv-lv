@@ -3,7 +3,7 @@ title: Darba sākšana ar Elektroniskās rēķinu izrakstīšanas pievienojumpro
 description: Šajā tēmā ir paskaidrots, kā sākt darbu ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104408"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592530"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Darba sākšana ar Elektroniskās rēķinu izrakstīšanas pievienojumprogrammas pakalpojuma administrēšanu
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104408"
 Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi priekšnosacījumi:
 
 - Jums ir jābūt piekļuvei jūsu Microsoft Dynamics Lifecycle Services (LCS) kontam.
-- Jums jābūt LCS projektam, kas ietver Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management programmu versiju 10.0.13 vai jaunāku. Turklāt šīs programmas ir jāizvieto vienā no tālāk minētajām Azure ģeogrāfiskām vietām:
+- Jums jābūt LCS projektam, kas ietver Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management programmu versiju 10.0.17 vai jaunāku. Turklāt šīs programmas ir jāizvieto vienā no tālāk minētajām Azure ģeogrāfiskām vietām:
 
     - ASV austrumi
     - ASV rietumi
@@ -52,6 +52,13 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 2. Atlasiet **Priekšskatījuma līdzekļu pārvaldības** elementu.
 3. Sadaļā **Publiskā priekšskatījuma līdzekļi** atlasiet **e-rēķinu izrakstīšanas pakalpojumu**.
 4. Pārliecinieties, vai opcija **Priekšskatījuma līdzeklis iespējots** ir iestatīta uz **Jā**.
+5. LCS informācijas panelī atlasiet savu LCS izvietošanas projektu. LCS projektam jādarbojas.
+7. Cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+8. Atlasiet **e-rēķinu izrakstīšanas pakalpojumi** un laikā **AAD programmas ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī ir fiksēta vērtība.
+10. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta nomnieka ID.
+11. Pārskatiet noteikumus un nosacījumus un atzīmējiet izvēles rūtiņu.
+12. Atlasiet **Instalēt**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Iestatiet RCS integrācijas parametrus ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 
@@ -73,7 +80,7 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 ## <a name="create-key-vault-secret"></a>Izveidojiet Galvenās glabātavas noslēpumu
 
 1. Piesakieties savā RCS kontā.
-2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Vide** atlasiet elementu **e-rēķinu izrakstīšana**.
+2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Vide** atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
 3. Lapā **Vides iestatījumi** darbības rūtī atlasiet **Pakalpojuma vide** un atlasiet **Atslēgas glabātuves parametri**.
 4. Atlasiet **Jauns**, lai izveidotu atslēgas glabātuves noslēpumu.
 5. Laukā **Nosaukums** ievadiet atslēgas glabātuves noslēpuma nosaukumu. Ievadiet aprakstu laukā **Apraksts**.
@@ -82,22 +89,31 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 ## <a name="create-storage-account-secret"></a>Izveidojiet krātuves noslēpumu
 
-1. Lapā **Atslēgas glabātuves parametri** sadaļā **Sertifikāti** atlasiet **Pievienot**.
-2. Laukā **Nosaukums** ievadiet to pašu glabātuves konta noslēpumu. Ievadiet aprakstu laukā **Apraksts**.
-3. Laukā **Tips** atlasiet **Sertifikāts**.
-4. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+1. Dodieties uz **Sistēmas administrēšana** > **Iestatījumi** > **Atslēgas glabātavas parametri** un atlasiet Atslēgas glabātavas noslēpumu.
+2. Sadaļā **Sertifikāti** atlasiet **Pievienot**.
+3. Laukā **Nosaukums** ievadiet glabāšanas konta noslēpuma nosaukumu un laukā **Apraksts** ievadiet aprakstu.
+4. Laukā **Tips** atlasiet **Sertifikāts**.
+5. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
+
+## <a name="create-a-digital-certificate-secret"></a>Ciparsertifikātu noslēpuma izveide
+
+1. Dodieties uz **Sistēmas administrēšana** > **Iestatījumi** > **Atslēgas glabātavas parametri** un atlasiet Atslēgas glabātavas noslēpumu.
+2. Sadaļā **Sertifikāti** atlasiet **Pievienot**.
+3. Laukā **Nosaukums** ievadiet ciparsertifikāta noslēpuma nosaukumu un laukā **Apraksts** ievadiet aprakstu.
+4. Laukā **Tips** atlasiet **Sertifikāts**.
+5. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Izveidot elektronisko rēķinu izrakstīšanas pievienojumprogrammas vidi
 
 1. Piesakieties savā RCS kontā.
-2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Vide** atlasiet elementu **e-rēķinu izrakstīšana**.
+2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Vide** atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
 
 ## <a name="create-a-service-environment"></a>Pakalpojumu vides izveide
 
 1. Lapā **Vides iestatījumi** darbību rūtī atlasiet **Pakalpojuma vide**.
 2. Atlasiet **Jauns**, lai izveidotu jaunu pakalpojuma vidi.
 3. Laukā **Nosaukums** ievadiet e-rēķinu izrakstīšanas vides nosaukumu. Ievadiet aprakstu laukā **Apraksts**.
-4. Laukā **Krātuves SAS marķiera noslēpums** atlasiet tā sertifikāta nosaukumu, kas jāizmanto, lai autentificētu piekļuvi krātuves kontam.
+4. Laukā **Krātuves SAS marķiera noslēpums** atlasiet tā krātuves konta noslēpuma nosaukumu, kas jāizmanto, lai autentificētu piekļuvi krātuves kontam.
 5. Sadaļā **Lietotāji** atlasiet **Pievienot**, lai pievienotu lietotāju, kuram ir atļauts iesniegt elektroniskos rēķinus, izmantojot vidi, un arī pievienojieties krātuves kontam.
 6. Laukā **Lietotāja ID** ievadiet lietotāja aizstājvārdu. Laukā **E-pasta adrese** ievadiet lietotāja e-pasta adresi.
 7. Atlasiet **Saglabāt**.

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec952f8c121f97396c135d10258a6431e8f2257e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3412f446fe9fb8e3c2ca5407b22680dec3c3b82
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113473"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579335"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Resources laidienu. Šīs sadaļas tēmās ir detalizēta informācija par katra izlaiduma izdarītajām izmaiņām.
 
@@ -49,9 +51,11 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 Lai uzzinātu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
+[2021. gada 8. marts](hr-whats-new-2021-03-08.md)</br>
+[2021. gada 22. februāris](hr-whats-new-2021-02-22.md)</br>
 [2021. gada 28. janvāris](hr-whats-new-2021-01-28.md)</br>
 [2021. gada 21. janvāris](hr-whats-new-2021-01-21.md)</br>
-[2020. gada 02. decembris](hr-whats-new-2020-12-02.md)</br>
+[2020. gada 2. decembris](hr-whats-new-2020-12-02.md)</br>
 [2020. gada 22. oktobris](hr-whats-new-2020-10-22.md)</br>
 [2020. gada 16. septembris](hr-whats-new-2020-09-16.md)</br>
 [2020. gada 3. septembris](hr-whats-new-2020-09-03.md)</br>

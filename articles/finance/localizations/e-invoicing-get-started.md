@@ -3,7 +3,7 @@ title: Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111224"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592554"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
 
@@ -38,7 +38,6 @@ ms.locfileid: "5111224"
 | Beļģijas elektroniskais rēķins (BE)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
 | Brazīlijas NF-e (BR)                  | <p>55. modeļa finanšu dokuments</p><p>Labojuma vēstule</p> |
 | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti |
-| Brazīlijas NFS-e São Paulo (BR)       | Pakalpojuma finanšu dokumenti |
 | Dānijas elektroniskais rēķins (DK)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
 | Ēģiptes elektroniskais rēķins (EG)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
 | Igaunijas elektroniskais rēķins (EE)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
@@ -64,14 +63,14 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importēt Elektronisko rēķinu izrakstīšanas līdzekli no Microsoft konfigurācijas nodrošinātāja 
 
 1. Piesakieties savā Regulēšanas konfigurācijas pakalpojuma (RCS) kontā.
-2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Līdzekli** atlasiet elementu **e-rēķinu izrakstīšana**.
+2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Līdzekli** atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojums**.
 3. Atlasiet **Importēt** un pēc tam atlasiet **Sinhronizēt**.
 4. Filtrējiet kolonnu **Konfigurācijas nodrošinātājs** pēc termina **Microsoft**.
 5. Šīs tēmas sākumā tabulā atlasiet Elektroniskās rēķinu izrakstīšanas līdzekļa nosaukumu un pēc tam atlasiet **Importēt**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Izveidojiet Elektronisko rēķinu izrakstīšanas līdzekli jūsu organizācijas nodrošinātājā
 
-1. RCS pakalpojumā darbvietā **Globalizācijas līdzeklis** sadaļā **Līdzekli** atlasiet elementu **e-rēķinu izrakstīšana**.
+1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
 2. Atlasiet **Pievienot** > **Pamatojoties uz esošo līdzekli**, un laukā **Nosaukums** ievadiet Elektronisko rēķinu izrakstīšanas līdzekļa nosaukumu.
 3. Laukā **Apraksts** ievadiet līdzekļa aprakstu.
 4. Sadaļā **Bāzes līdzekļa lauks** atlasiet importēto elektronisko rēķinu izrakstīšanas līdzekli no Microsoft konfigurācijas nodrošinātāja.
@@ -79,7 +78,9 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>Elektronisko rēķinu izrakstīšanas funkcijas konfigurēšana
 
-Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija. Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
+Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija. 
+
+Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
 
 ## <a name="configure-the-application-setup"></a>Lietojumprogrammas iestatīšanas konfigurēšana
 
@@ -100,7 +101,6 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Beļģijas elektroniskais rēķins (BE)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | Brazīlijas NF-e (BR)                  | <p>Finanšu dokuments</p><p>Labojuma vēstule</p> | Finanšu dokuments |
     | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti | Finanšu dokuments |
-    | Brazīlijas NFS-e São Paulo (BR)       | Pakalpojuma finanšu dokumenti | Finanšu dokuments |
     | Dānijas elektroniskais rēķins (DK)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | Ēģiptes elektroniskais rēķins (EG)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | Igaunijas elektroniskais rēķins (EE)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
@@ -122,7 +122,6 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Beļģijas elektroniskais rēķins (BE)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | Brazīlijas NF-e (BR)                  | <p>Finanšu dokuments</p><p>Labojuma vēstule</p> | <p>Klienta rēķina konteksta modelis — Finanšu dokumenta konteksts</p><p>Klienta rēķina konteksta modelis — FD labojuma vēstules konteksts</p> |
     | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti| Klienta rēķina konteksta modelis — Finanšu dokumenta konteksts |
-    | Brazīlijas NFS-e São Paulo (BR)       | Pakalpojuma finanšu dokumenti| Klienta rēķina konteksta modelis — Finanšu dokumenta konteksts |
     | Dānijas elektroniskais rēķins (DK)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | Ēģiptes elektroniskais rēķins (EG)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | Igaunijas elektroniskais rēķins (EE)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
@@ -144,7 +143,6 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Beļģijas elektroniskais rēķins (BE)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | Brazīlijas NF-e (BR)                  | <p>Finanšu dokuments</p><p>Labojuma vēstule</p> | <p>Finanšu dokumenta kartēšana — Finanšu dokumenta kartēšana</p><p>Finanšu dokumenta kartēšana — labojumu vēstules kartēšana</p> |
     | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti | Finanšu dokumenta kartēšana — Finanšu dokumenta kartēšana |
-    | Brazīlijas NFS-e São Paulo (BR)       | Pakalpojuma finanšu dokumenti | Finanšu dokumenta kartēšana — Finanšu dokumenta kartēšana |
     | Dānijas elektroniskais rēķins (DK)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | Ēģiptes elektroniskais rēķins (EG)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | Igaunijas elektroniskais rēķins (EE)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
@@ -158,7 +156,9 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
 
-Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija. Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
+Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija.
+
+Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>Elektronisko rēķinu izrakstīšanas funkcijas izvietošana
 
@@ -177,27 +177,26 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
 
 1. Piesakieties Finance vai Supply Chain Management instancēs un pārbaudiet, vai esat pareizajā juridiskajā personā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Iestatījumi** \> **Elektronisko dokumentu parametri**.
-3. Cilnē **Līdzekļi** atlasiet funkcijas atsauci vai atsauces, kas ir uzskaitītas tālāk sniegtajā tabulā, lai ieslēgtu līdzekli Elektronisko rēķinu izrakstīšana Finance vai Supply Chain Management instancēs.
+3. Cilnē **Līdzekļi** atlasiet valstij/reģionam specifisko līdzekli, lai ieslēgtu Elektronisko rēķinu izrakstīšanas līdzekli programmai Finance vai Supply Chain Management. Tabulā zemāk sniegts saraksts ar elektroniskajiem rēķinu izrakstīšanas līdzekļiem, kas pieejami noteiktai valstij/reģioniem. 
 
-    | Līdzekļa nosaukums                         | Valsts/reģions  | Līdzekļa atsauce |
-    |--------------------------------------|-----------------|-------------------|
-    | Austrijas elektroniskie rēķini (AT)    | Austrija         | EUR-00023 |
-    | Beļģijas elektroniskais rēķins (BE)      | Beļģija         | EUR-00023 |
-    | Brazīlijas NF-e (BR)                  | Brazīlija          | BR-00053 |
-    | Brazīlijas NFS-e ABRASF Curitiba (BR) | Brazīlija          | BR-00095 |
-    | Brazīlijas NFS-e São Paulo (BR)       | Brazīlija          | BR-00095 |
-    | Dānijas elektroniskais rēķins (DK)       | Dānija         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Nīderlandes elektroniskais rēķins (NL)        | Nīderlande | EUR-00023 |
-    | Ēģiptes elektroniskais rēķins (EG)     | Ēģipte           | EG-00008 |
-    | Igaunijas elektroniskais rēķins (EE)     | Igaunija         | EUR-00023 |
-    | Somijas elektroniskais rēķins (FI)      | Somija         | EUR-00023 |
-     Francijas elektroniskais rēķins (FR)       | Francija           | EUR-00023 |
-    | Vācijas elektroniskais rēķins (DE)       | Vācija         | EUR-00023 |
-    | Meksikas CFDI Interfactura (MX)       | Meksika          | <p>MX-00010</p><p>MX-00016</p> |
-    | Norvēģijas elektroniskais rēķins (NO)    | Norvēģija          | <p>EUR-00023</p><p>NO-00010</p> |
-    | Spānijas elektroniskais rēķins (ES)      | Spānija           | <p>EUR-00023</p><p>ES-00025</p> |
-    | Itālijas elektroniskais rēķins (IT)      | Itālija           | <p>EUR-00023</p><p>IT-00036</p> |
-    | PEPPOL elektroniskais rēķins            | Eiropa          | EUR-00023 |
+    | Līdzekļa nosaukums                                          | Valsts/reģions  |
+    |-------------------------------------------------------|-----------------|
+    | Austrijas elektroniskie rēķini (AT)                     | Austrija         |
+    | Beļģijas elektroniskais rēķins (BE)                       | Beļģija         |
+    | CFDI Meksikas elektroniskais rēķins (MX)                  | Meksika          |
+    | Dānijas elektroniskais rēķins (DK)                        | Dānija         |
+    | Nīderlandes elektroniskais rēķins (NL)                         | Nīderlande |
+    | Ēģiptes elektroniskais rēķins (EG)                      | Ēģipte           |
+    | Igaunijas elektroniskais rēķins (EE)                      | Igaunija         |
+    | Somijas elektroniskais rēķins (FI)                       | Somija         |
+    | Francijas elektroniskais rēķins (FR)                        | Francija          |
+    | Vācijas elektroniskais rēķins (DE)                        | Vācija         |
+    | Itālijas elektroniskais rēķins (IT)                       | Itālija           |
+    | NF-e Federal — Brazīlijas elektroniskais rēķins (BR)      | Brazīlija          |
+    | NFS-e — Brazīlijas pakalpojumu (pilsētas) elektroniskais rēķins   | Brazīlija          |
+    | Norvēģijas elektroniskais rēķins (NO)                     | Norvēģija          |
+    | PEPPOL elektroniskais rēķins                             | Globāls          |
+    | Spānijas elektroniskais rēķins (ES)                       | Spānija           |
 
 4. Atlasiet **Saglabāt**.
 
@@ -226,11 +225,11 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
 
 3. Atlasiet režģī esošu rēķinu un pēc tam atlasiet **Uzziņas** \> **Iesniegšanas informācija**.
 
-Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija. Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 
 - [Elektroniskās rēķinu izveides pievienojumprogrammas pārskats](e-invoicing-service-overview.md)
+- [Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammas servisa administrēšanu](e-invoicing-get-started-service-administration.md)
 - [Sākt ar elektronisko rēķinu pievienojumu Brazīlijai](e-invoicing-bra-get-started.md)
 - [Sākt ar elektronisko rēķinu pievienojumu Meksikai](e-invoicing-mex-get-started.md)
 - [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai](e-invoicing-ita-get-started.md)

@@ -3,7 +3,7 @@ title: Atvaļinājuma pieprasījumu pārvaldība programmā Teams
 description: Šajā tēmā parādīts, kā pieprasīt prombūtni Dynamics 365 Human Resources programmā Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128165"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571732"
 ---
-# <a name="manage-leave-requests-in-teams"></a>Atvaļinājuma pieprasījumu pārvaldība programmā Teams
+# <a name="manage-leave-requests-in-teams"></a>Atvaļinājumu pieprasījumu pārvaldība programmā Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj ātri pieprasīt prombūtni un skatīt savas prombūtnes bilances informāciju Microsoft Teams. Varat mijiedarboties ar botu, lai pieprasītu informāciju un sāktu atvaļinājuma pieprasījumu. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Varat arī nosūtīt personām informāciju par gaidāmo prombūtni grupās un tērzēšanā ārpus Human Resources programmas.
+Microsoft Dynamics 365 Human Resources programma sadaļā Microsoft Teams ļauj ātri pieprasīt prombūtni un skatīt savas prombūtnes bilances informāciju Microsoft Teams. Varat mijiedarboties ar botu, lai pieprasītu informāciju un sāktu atvaļinājuma pieprasījumu. Cilne **Brīvais laiks** sniedz detalizētu informāciju. Varat arī nosūtīt personām informāciju par gaidāmo prombūtni programmā Teams un tērzēšanā ārpus Human Resources programmas.
 
 ## <a name="install-the-app"></a>Programmas instalēšana
 
-Human Resources programmu varat atrast Teams veikalā.
+Dynamics 365 Human Resources programmu varat atrast Teams veikalā.
 
 1. Sadaļā Microsoft Teams atlasiet daudzpunkti.
 
@@ -70,29 +70,21 @@ Pēc programmas instalēšanas, tiek parādīts sveiciena ziņojums, informējot
 
 Varat lūgt botam:
 
-- Rādīt prombūtnes bilances informāciju katram atvaļinājuma veidam, kurā esat reģistrēts.
-
-   ![Human Resources Teams atstāj programmas bilances rādīšanu](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Rādīt papildu informāciju par konkrētu atvaļinājuma veidu.
-
-   ![Human Resources Teams atstāj programmas informācijas rādīšanu](./media/hr-teams-leave-app-bot-details.png)
-
 - Izveidot atvaļinājuma pieprasījumu.
 
-   ![Human Resources Teams atstāj programmas atvaļinājuma pieprasījumu](./media/hr-teams-leave-app-bot-request.png)
- 
-Pēc atvaļinājuma pieprasījuma sākšanas varat pielāgot dienas tieši kartē.
+  ![Sākt atvaļinājuma pieprasījumu Teams tērzētavā](./media/hr-teams-leave-app-initiate.png)
 
-![Human Resources Teams atstāj programmas rediģēšanas pieprasījumu](./media/hr-teams-leave-app-bot-edit.png)
- 
-Kad esat pabeidzis ievadīt informāciju, atlasiet **Iesniegt**, lai to iesniegtu apstiprināšanai. Varat arī atlasīt **Saglabāt kā melnrakstu**, lai atgrieztos pie tā vēlāk.
+- Tērzēšanas bots aizpildīs jūsu atvaļinājuma pieprasījumu. Atlasiet **Izslēgt pieprasījuma laiku** un rediģējiet detalizētu informāciju par jūsu pieprasījumu.
 
-![Human Resources Teams atstāj programmas pieprasījuma iesniegšanu](./media/hr-teams-leave-app-bot-submit.png)
+  ![Atvaļinājuma pieprasījuma informācijas rediģēšana](./media/hr-teams-leave-app-details.png)
+
+- Kad esat beidzis rediģēt atvaļinājuma pieprasījuma detaļas, atlasiet **Iesniegt**, lai to iesniegtu apstiprināšanai.
+
+  ![Iesniegt atvaļinājuma pieprasījumu](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Atvaļinājuma pārvaldība programmā Teams
 
-Cilne **Brīvais laiks** ļauj skatīt:
+Cilne **Brīvais laiks** ļauj skatīt: 
 
 - Bilances informāciju katram atvaļinājuma veidam, kurā esat reģistrēts
 
@@ -164,21 +156,51 @@ Ja esat vādītājs ar tiešajiem pārskatiem, varat apskatīt savas grupas apst
 
 1. Programmā Human Resources risinājumā Teams atlasiet **Brīvais laiks**.
 
-2. Atlasiet **Grupas kalendārs**.
+2. Atlasiet **Grupas kalendārs**. Kalendārā tiek rādīti jūsu tiešo pārskatu apstiprinātais un gaidošais brīvais laiks.
 
    ![Skatīt kalendāru programmā Human Resources Teams](./media/hr-teams-leave-app-view-calendar.png)
 
-Kalendārā tiek rādīti jūsu tiešo pārskatu apstiprinātais un gaidošais brīvais laiks.
+   > [!NOTE]
+   > Ja neredzat grupas kalendāru, palūdziet savam administratoram to iespējot. Papildinformāciju skatiet sadaļā [Instalēšana un iestatīšana](hr-admin-teams-leave-app.md#install-and-setup).
 
-![Brīvā laika kalendārs programmā Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Atbalstītās valodas
+
+Programma Dynamics 365 Human Resources lietotnē Teams atbalsta šādas valodas:
+
+| Atrašanās vietas ID | Valoda |
+| --- | --- |
+| de-DE | Vācu (Vācija) |
+| es-ES | Spāņu (Spānija) |
+| es-MX | Spāņu (Meksika) |
+| fr-CA | Franču (Kanāda) |
+| fr-FR | Franču (Francija) |
+| it-IT | Itāļu (Itālija) |
+| nl-NL | Holandiešu (Nīderlande) |
+| pt-BR | Portugāļu (Brazīlija) |
+| tr-TR | Turku (Turcija) |
+| zh-(CN) | Ķīniešu (vienkāršotā) |
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 
-Ja jums rodas problēmas, pierakstoties vai izmantojot personāla vadības lietojumprogrammu Teams, izmēģiniet šīs problēmu novēršanas instrukcijas. Ja pēc problēmu novēršanas problēmas joprojām pastāv, sazinieties ar atbalsta dienestu. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](hr-admin-troubleshooting-support.md).
+Ja jums rodas problēmas, pierakstoties vai izmantojot Dynamics 365 Human Resources Teams programmu, izmēģiniet šīs problēmu novēršanas instrukcijas. Ja pēc problēmu novēršanas problēmas joprojām pastāv, sazinieties ar atbalsta dienestu. Lai iegūtu papildinformāciju, skatiet [Iegūt atbalstu](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Nevar pierakstīties personāla vadības lietojumprogrammā Teams
 
 Ja nevarat pierakstīties lietojumprogrammā, iespējams, ka konts, kuru izmantojat, lai pierakstītos Microsoft Teams nav saistīts ar darbinieka ierakstu Dynamics 365 Human Resources. Sazinieties ar sistēmas administratoru, lai pārliecinātos, ka darbinieka ieraksts ir pareizi saistīts.
+
+### <a name="translations-dont-display-correctly"></a>Tulkojumi netiek rādīti pareizi
+
+Ja tulkojumi netiek rādīti kā gaidīti, pārliecinieties, ka programmā Teams atlasītā valoda atbilst Human Resources atlasītajai valodai sadaļā **Lietotāja opcijas**.
+
+Teams sadaļā skatiet **Programmas valoda** **Iestatījumos**.
+
+![Teams iestatījumi](./media/hr-teams-leave-app-settings.png)
+
+Sadaļā Cilvēkresursi atlasiet **Iestatījumi** un pēc tam atlasiet **Lietotāja opcijas**. Pārbaudiet, vai lauks **Valoda** atbilst **Lietojumprogrammas valodas** laukam programmā Teams.
+
+![Cilvēkresursu Lietotāja opcijas](./media/hr-teams-leave-app-user-options.png)
+
+Ja joprojām pastāv tulkošanas problēmas, ļauj mums zināt. Papildinformāciju skatiet sadaļā [Iegūt atbalstu Finance and Operations programmām vai Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Kļūda, apstiprinot atvaļinājumu pieprasījumus personāla vadības lietojumprogrammā Teams
 
@@ -198,7 +220,6 @@ Personāla vadības programmā risinājumā Teams ir šādas pieejamības probl�
 | Cilnē **Pārtraukums** aizkadra balss paziņo par pogas darbību, kamēr tiek lasīts pārtraukuma režģa virsraksts. | Galvene un elementi režģī tiek grupēti pēc gada, un tie ir saliekami. Aizkadra balss to interpretē kā rīcībā esošu krājumu, bet tā nav. |
 | Cilnē **Pārtraukums** ir papildu vilkšanas žests, navigējot uz **Iemesla kodu** jaunā pieprasījumā. | Nav nevienas slēptas kontroles, ko vilkšanas navigācija mēģina iegūt. |
 | Ja cilnē **Pārtraukums** veicat vilkšanas žestu, kamēr ir atvērts kalendārs, jūs nokļūsiet ārpus vadīklas, nevis jauna pieprasījuma sākumā vai pieprasījuma rediģēšanā. | Kad sasniedzat **Doties uz šodienu**, ņemiet vērā, ka tās ir vadīklas beigas, pavelciet uz pretējo pusi, lai atgrieztos augšā. |
-| Aizkadra balss nelasa datumu etiķetes. | Pāra datumi vienmēr ir **Sākuma datums** un **Beigu datums**. |
 | Kad cilnē **Tērzēšana** ievadāt datumu, kamēr izmantojat atbalsta rīku vai tastatūras navigāciju, fokuss pārlec uz augšu. | Nospiediet cilni, līdz atkal tiek sasniegts ievades apgabals. |
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti

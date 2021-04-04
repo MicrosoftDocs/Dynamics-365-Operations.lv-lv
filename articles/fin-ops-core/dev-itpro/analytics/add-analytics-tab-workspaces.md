@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680940"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568494"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analīzes iespēju pievienošana darbvietām, izmantojot Power BI Embedded
 
@@ -29,11 +28,11 @@ ms.locfileid: "4680940"
 > Šis līdzeklis tiek atbalstīts programmā Finance and Operations (7.2 un jaunākās versijās).
 
 ## <a name="introduction"></a>Ievads
-Šajā tēmā ir aprakstīts, kā iegult Microsoft Power BI pārskatu darbvietas cilnē **Analīze**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
+Šajā tēmā parādīts, kā iegult Microsoft Power BI atskaiti darbvietas cilnē **Analītika**. Šeit sniegtā piemēra ietvaros paplašināsim darbvietu **Rezervēšanas pārvaldība** autoparka pārvaldības programmā, lai cilnē **Analīze** iegultu analītisku darbvietu.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 + Piekļuve izstrādātāju videi, kas darbina platformas 8. atjauninājumu vai jaunāku atjauninājumu.
-+ Analītisks pārskats (.pbix formāta fails), kurš ir izveidots, izmantojot Microsoft Power BI Desktop, un kura datu modelis ir iegūts no elementu krātuves datu bāzes.
++ Analītiskā atskaite (.pbix fails), kas tika izveidota, izmantojot Microsoft Power BI Desktop un kuras datu modelis tiek iegūts no Entitīju veikalu datu bāzes.
 
 ## <a name="overview"></a>Pārskats
 Neatkarīgi no tā, vai paplašināt esošu programmas darbvietu vai ieviešat jaunu darbvietu, varat izmantot iegultos analītiskos skatus, lai nodrošinātu visaptverošus un interaktīvus biznesa datu skatus. Analītiskās darbvietas cilnes pievienošanas procesā ir četras darbības.

@@ -3,7 +3,7 @@ title: Elektroniskās rēķinu izrakstīšanas pievienojumprogrammas administrē
 description: Šajā tēmā sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu izrakstīšanas pievienojumprogrammas administrēšanu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104410"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592578"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Elektroniskās rēķinu izrakstīšanas pievienojumprogrammas administrēšanas komponenti
 
@@ -39,11 +39,15 @@ Izmantojiet Microsoft Azure, lai izveidotu noslēpumus atslēgai, kas atrodas kr
 
 Izmantojiet Microsoft Dynamics Lifecycle Services (LCS), lai iespējotu pievienojumprogrammu mikropakalpojumiem jūsu LCS izvietošanas projektam.
 
-Pakalpojumā LCS atlasiet elementu **Priekšskatījuma līdzekļu pārvaldība** un pēc tam ieslēdziet līdzekli **E-rēķinu izrakstīšanas pakalpojums**.
+> [!NOTE]
+> Mikropakalpojuma pievienojumprogrammas LCS instalācijai ir nepieciešama vismaz 2. pakāpes virtuālā mašīna. Lai iegūtu vairāk informācijas par vides plānošanu, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) ir interfeiss, ko izmanto, lai konfigurētu elektronisko rēķinu izrakstīšanas pievienojumprogrammu. Resursi, piemēram, vides un elektronisko rēķinu izrakstīšanas līdzekļi, tiek izveidoti, uzturēti un viesoti pakalpojumā RCS. Kad resursi ir gatavi, tie tiek publicēti Elektronisko rēķinu izrakstīšanas pievienojumprogrammas pakalpojumā.
+
+Informāciju par RCS pierakstīšanos skatiet sadaļā [Regulatory services](https://marketing.configure.global.dynamics.com/).
 
 Papildinformāciju par RCS skatiet sadaļā [Regulatory Configuration Services (RCS) — Globalizācijas līdzekļi](rcs-globalization-feature.md)
 
@@ -53,22 +57,14 @@ Pirms RCS izmantošanas Elektronisko rēķinu konfigurēšanai, jums jākonfigur
 
 #### <a name="service-endpoint"></a>Pakalpojuma galapunkts
 
-Elektronisko rēķinu izrakstīšanas pievienojumprogrammas galapunkta URL var atšķirties atbilstoši Azure datu centra ģeogrāfijai. Šajā tabulā ir uzskaitīti pieejamības dati par reģionu:
+Elektronisko rēķinu izrakstīšanas pievienojumprogramma ir pieejama vairākās Azure datucentru ģeogrāfijās. Tabulā zemāk ir uzskaitīti pieejamības dati par reģionu.
 
-| Azure datacenter ģeogrāfija | Pakalpojuma galapunkta URL                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| ASV austrumi                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| ASV rietumi                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Ziemeļeiropa                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Rietumeiropa                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>Lietojumprogrammas ID
-
-Programmas ID ir Elektronisko rēķinu izrakstīšanas pievienojumprogrammas ID. Šajā gadījumā vērtība ir fiksēta: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>LCS vides ID
-
-LCS vides ID ir jūsu organizācijas LCS abonementa ID.
+| Azure datacenter ģeogrāfija |
+|----------------------------|
+| ASV austrumi                    |
+| ASV rietumi                    |
+| Ziemeļeiropa                   |
+| Rietumeiropa                    |
 
 ### <a name="service-environments"></a>Pakalpojumu vides
 
