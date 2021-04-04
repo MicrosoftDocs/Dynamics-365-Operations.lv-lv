@@ -18,34 +18,39 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05cb032a5f0417f24e1d85186820b866cdd2613f
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 7cec59a0ed478752b44fd28494f549007cbfbddb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115032"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463242"
 ---
-# <a name="suspend-leave"></a><span data-ttu-id="cc8d9-103">Pārtraukt atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="cc8d9-103">Suspend leave</span></span>
+# <a name="suspend-leave"></a><span data-ttu-id="154b9-103">Pārtraukt atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="154b9-103">Suspend leave</span></span>
 
-<span data-ttu-id="cc8d9-104">Jūs varat aizturēt atvaļinājumu darbiniekam, lai pārtrauktu atvaļinājumu uzkrājumu apstrādi atsevišķiem atvaļinājumu veidiem.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-104">You can suspend leave for an employee to stop leave accruals from being processed for selected leave types.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="suspend-leave-and-absence-for-an-employee"></a><span data-ttu-id="cc8d9-105">Atvaļinājuma un prombūtnes aizturēšana nodarbinātajam</span><span class="sxs-lookup"><span data-stu-id="cc8d9-105">Suspend leave and absence for an employee</span></span>
+<span data-ttu-id="154b9-104">Jūs varat aizturēt atvaļinājumu darbiniekam, lai pārtrauktu atvaļinājumu uzkrājumu apstrādi atsevišķiem atvaļinājumu veidiem.</span><span class="sxs-lookup"><span data-stu-id="154b9-104">You can suspend leave for an employee to stop leave accruals from being processed for selected leave types.</span></span> 
 
-1. <span data-ttu-id="cc8d9-106">Darbinieka ierakstā atlasiet **Atvaļinājums**.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-106">On the employee's record, select **Leave**.</span></span>
+## <a name="suspend-leave-and-absence-for-an-employee"></a><span data-ttu-id="154b9-105">Atvaļinājuma un prombūtnes aizturēšana nodarbinātajam</span><span class="sxs-lookup"><span data-stu-id="154b9-105">Suspend leave and absence for an employee</span></span>
 
-2. <span data-ttu-id="cc8d9-107">Atlasiet **Aizturēt atvaļinājumu**.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-107">Select **Suspend leave**.</span></span>
+1. <span data-ttu-id="154b9-106">Darbinieka ierakstā atlasiet **Atvaļinājums**.</span><span class="sxs-lookup"><span data-stu-id="154b9-106">On the employee's record, select **Leave**.</span></span>
 
-3. <span data-ttu-id="cc8d9-108">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-108">Select **New**.</span></span>
+2. <span data-ttu-id="154b9-107">Atlasiet **Aizturēt atvaļinājumu**.</span><span class="sxs-lookup"><span data-stu-id="154b9-107">Select **Suspend leave**.</span></span>
 
-4. <span data-ttu-id="cc8d9-109">Dialoglodziņā **Aizturēo atvaļinājumu uzkrājumu** atlasiet **Atvaļinājuma veidu** kopā ar atlikšanas **Sākuma datumu** un **Beigu datumu**.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-109">In the **Suspend leave accrual** dialog box, select the **Leave type** along with the **Start date** and **End date** for the suspension.</span></span>
+3. <span data-ttu-id="154b9-108">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="154b9-108">Select **New**.</span></span>
 
-5. <span data-ttu-id="cc8d9-110">Pēc izvēles varat pievienot **Komentāru** atlikšanai.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-110">Optionally, you can add a **Comment** for the suspension.</span></span> 
+4. <span data-ttu-id="154b9-109">Dialoglodziņā **Aizturēo atvaļinājumu uzkrājumu** atlasiet **Atvaļinājuma veidu** kopā ar atlikšanas **Sākuma datumu** un **Beigu datumu**.</span><span class="sxs-lookup"><span data-stu-id="154b9-109">In the **Suspend leave accrual** dialog box, select the **Leave type** along with the **Start date** and **End date** for the suspension.</span></span>
 
-<span data-ttu-id="cc8d9-111">Ja uzkrājumi tiek apstrādāti, kamēr darbinieka atvaļinājums tiek atlikts, uzkrājums netiks veikts aizturēto atvaļinājumu veidiem.</span><span class="sxs-lookup"><span data-stu-id="cc8d9-111">If accruals are processed while the employee's leave is suspended, no accrual will be made for the suspended leave types.</span></span>
+5. <span data-ttu-id="154b9-110">Pēc izvēles varat pievienot **Komentāru** atlikšanai.</span><span class="sxs-lookup"><span data-stu-id="154b9-110">Optionally, you can add a **Comment** for the suspension.</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="cc8d9-112">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="cc8d9-112">See also</span></span>
+<span data-ttu-id="154b9-111">Ja uzkrājumi tiek apstrādāti, kamēr darbinieka atvaļinājums tiek atlikts, uzkrājums netiks veikts aizturēto atvaļinājumu veidiem.</span><span class="sxs-lookup"><span data-stu-id="154b9-111">If accruals are processed while the employee's leave is suspended, no accrual will be made for the suspended leave types.</span></span>
 
-- [<span data-ttu-id="cc8d9-113">Atvaļinājumu un kavējumu apskats</span><span class="sxs-lookup"><span data-stu-id="cc8d9-113">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="cc8d9-114">Konfigurēt atvaļinājumu un kavējumu veidus</span><span class="sxs-lookup"><span data-stu-id="cc8d9-114">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
-- [<span data-ttu-id="cc8d9-115">Atvaļinājumu un prombūtnes plānu uzkrāšana</span><span class="sxs-lookup"><span data-stu-id="cc8d9-115">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)
+## <a name="see-also"></a><span data-ttu-id="154b9-112">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="154b9-112">See also</span></span>
 
+- [<span data-ttu-id="154b9-113">Atvaļinājumu un kavējumu apskats</span><span class="sxs-lookup"><span data-stu-id="154b9-113">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="154b9-114">Konfigurēt atvaļinājumu un kavējumu veidus</span><span class="sxs-lookup"><span data-stu-id="154b9-114">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+- [<span data-ttu-id="154b9-115">Atvaļinājumu un prombūtnes plānu uzkrāšana</span><span class="sxs-lookup"><span data-stu-id="154b9-115">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
