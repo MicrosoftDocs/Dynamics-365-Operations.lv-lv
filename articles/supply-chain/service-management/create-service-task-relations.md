@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974664"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470741"
 ---
 # <a name="create-service-task-relations"></a>Izveidot pakalpojumu uzdevuma attiecības    
 
@@ -36,9 +36,9 @@ Jūs varat saistīt pakalpojumu uzdevumus ar pakalpojumu līgumiem vai pakalpoju
 
 2.  Atlasiet eksistējošu pakalpojumu līgumu un izveidojiet jaunu pakalpojumu līgumu
 
-3.  Darbību rūts noklikšķiniet uz pogas **Pakalpojumu uzdevumi**.
+3.  Darbību rūtī noklikšķiniet uz pogas **Pakalpojumu uzdevumi**.
 
-4.  Veidlapā **Pakalpojumu uzdevumi** nospiediet taustiņu kombināciju CTRL + N, lai izveidotu jaunu rindu, un pēc tam atlasiet pakalpojuma uzdevumu sarakstā **Pakalpojumu uzdevumi**, lai pakalpojumu līgumam pievienotu pakalpojuma uzdevumu.
+4.  Veidlapā **Pakalpojumu uzdevumi** atlasiet **Jauns**, lai izveidotu jaunu rindu, un pēc tam atlasiet pakalpojuma uzdevumu sarakstā **Pakalpojumu uzdevumi**, lai pakalpojumu līgumam pievienotu pakalpojuma uzdevumu.
 
 5.  Cilnes **Apraksts** brīvā teksta laukos ievadiet jebkuru iekšēju vai ārēju notu aprakstus.
 
@@ -54,9 +54,9 @@ Pakalpojuma līgumā izveidotā pakalpojumu uzdevumu saistība ir pieejama no vi
 
 2.  Atlasiet eksistējošu pakalpojumu pasūtījumu un izveidojiet jaunu pakalpojumu pasūtījumu.
 
-3.  Darbību rūts noklikšķiniet uz pogas **Pakalpojumu uzdevumi**.
+3.  Darbību rūtī noklikšķiniet uz pogas **Pakalpojumu uzdevumi**.
 
-4.  Veidlapā **Pakalpojumu uzdevumi** nospiediet taustiņu kombināciju CTRL + N, lai izveidotu jaunu rindu, un pēc tam atlasiet pakalpojuma uzdevumu sarakstā **Pakalpojumu uzdevumi**, lai pakalpojumu pasūtījumam pievienotu pakalpojuma uzdevumu.
+4.  Veidlapā **Pakalpojumu uzdevumi** atlasiet **Jauns**, lai izveidotu jaunu rindu, un pēc tam atlasiet pakalpojuma uzdevumu sarakstā **Pakalpojumu uzdevumi**, lai pakalpojumu līgumam pievienotu pakalpojuma uzdevumu.
 
 5.  Cilnes **Apraksts** brīvā teksta laukos ievadiet jebkuru iekšēju vai ārēju notu aprakstus.
 

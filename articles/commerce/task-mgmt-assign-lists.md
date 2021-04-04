@@ -1,6 +1,6 @@
 ---
 title: Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem
-description: " Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem Microsoft Dynamics 365 Commerce."
+description: Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem programmā Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ee924f5bf95d47814e7ca09b392a3d10b5e9b9dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d249809f15b50c59620d69a901a427dc3ecb2f0
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006264"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477588"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Uzdevumu sarakstu piešķiršana veikaliem vai darbiniekiem
 
 [!include [banner](includes/banner.md)]
 
- Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā piešķirt uzdevumu sarakstus veikaliem vai darbiniekiem programmā Microsoft Dynamics 365 Commerce.
 
 Uzdevumu pārvaldība programmā Dynamics 365 Commerce ļauj piešķirt uzdevumu sarakstu vairākiem veikaliem vai darbiniekiem vai arī veikalu un darbinieku kombinācijai. Piemēram, reģionālais vadītājs 20 veikaliem varētu vēlēties piešķirt uzdevumu sarakstu **Gatavošanās atvaļinājumu sezonai** visiem 20 veikaliem.
 

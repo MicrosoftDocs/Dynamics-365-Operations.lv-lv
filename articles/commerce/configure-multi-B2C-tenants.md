@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997604"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477760"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Konfigurēt vairākus B2C nomniekus Commerce vidē
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kad un kā iestatīt vairākus katra kanāla Microsoft Azure Active Directory (Azure AD) biznesa-patērētāja (B2C) nomniekus lietotāja autentifikācijai īpašā Dynamics 365 Commerce vidē.
-
-## <a name="overview"></a>Pārskats
 
 Dynamics 365 Commerce izmanto Azure AD B2C mākoņa identitātes pakalpojumu, lai atbalstītu lietotāja akreditācijas datus un autentifikācijas plūsmas. Lietotāji var izmantot autentifikācijas plūsmas, lai pieteiktos, pierakstītos un atjaunotu savu paroli. Azure AD B2C saglabā lietotāja sensitīvo autentifikācijas informāciju, piemēram, lietotāja vārdu un paroli. Lietotāja ieraksts ir unikāls katram B2C nomniekam, un tas izmanto vai nu lietotājvārda (e-pasta adreses) akreditācijas datus vai sociālās identitātes nodrošinātāja akreditācijas datus.
 

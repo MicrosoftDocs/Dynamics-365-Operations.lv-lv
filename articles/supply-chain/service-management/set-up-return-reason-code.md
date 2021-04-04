@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991719"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470672"
 ---
 # <a name="set-up-return-reason-codes"></a>Atgriešanas iemeslu kodu iestatīšana   
 
@@ -31,9 +31,9 @@ ms.locfileid: "4991719"
 
 ## <a name="set-up-return-reason-code-groups"></a>Atgriešanas iemeslu kodu grupu iestatīšana 
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodu grupas**.
+1.  Dodieties uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodu grupas**.
 
-2.  Nospiediet taustiņu kombināciju CTRL+N, lai izveidotu rindu jaunai atgriešanas iemeslu kodu grupai.
+2.  Atlasiet **Jauns**, lai izveidotu rindu jaunai atgriešanas iemeslu kodu grupai.
 
 3.  Laukā **Atgriešanas iemeslu kodu grupa** ierakstiet šīs grupas identifikatoru.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991719"
 
 Šī procedūra palīdz izveidot atgriešanas iemeslu kodus, kurus var izmantot, lai norādītu, kāpēc debitors atgrieza preci.
 
-1.  Noklikšķiniet uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodi**.
+1.  Dodieties uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodi**.
 
 2.  Spiediet CTRL+N, lai izveidotu jaunu atgriešanas iemesla koda rindu.
 

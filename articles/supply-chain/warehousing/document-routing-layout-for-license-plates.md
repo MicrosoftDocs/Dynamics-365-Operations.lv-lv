@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973764"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558266"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
 
 [!include [banner](../includes/banner.md)]
+
 
 Dokumenta maršrutēšanas izkārtojums nosaka numura zīmes etiķešu izskatu un uz tām izdrukātos datus. Konfigurējiet drukāšanas trigera punktus, iestatot mobilās ierīces izvēlnes elementus un darba veidnes.
 
@@ -51,6 +52,10 @@ Kā daļa no etiķešu drukāšanas procesa teksts `$LicensePlateId$` šajā pie
 Lai apskatītu vērtības, kas tiks drukātas, dodieties uz **Noliktavas pārvaldība \> Vaicājumi un pārskati \> Numura zīmes etiķetes**.
 
 Vairāki plaši pieejami etiķešu ģenerēšanas rīki var jums palīdzēt formatēt etiķetes izkārtojuma tekstu. Daudzi no šiem rīkiem atbalsta `$FieldName$` formātu. Turklāt Microsoft Dynamics 365 Supply Chain Management izmanto īpašu formatēšanas loģiku kā daļu no lauka kartējuma dokumenta maršrutēšanas izkārtojumam.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
+
+Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Krājumu darbību arhīvs*.
 
 ## <a name="custom-number-formats"></a>Pielāgoti skaitļu formāti
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963314"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470523"
 ---
 # <a name="work-with-location-directives"></a>Darbs ar novietojuma direktīvām
 
@@ -239,7 +239,7 @@ Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal
     - **Noapaļot līdz pilnai LP un FEFO partijai** — Šī stratēģija apvieno stratēģijas elementus *FEFO partijas rezervācija* un *Noapaļot līdz pilnam LP*. Tas ir derīgs tikai partijas iespējotiem krājumiem un novietojuma direktīvām, kurām ir *Saņemt* darba tips. Lai izmantotu stratēģiju *FEFO partijas rezervēšana*, rindai jābūt partijas iespējotai, un stratēģiju *Noapaļot līdz pilnam LP* var izmantot tikai papildināšanai. Ja šī stratēģija ir konfigurēta kopā ar atrašanās vietas uzkrājumu limitu, tas var izraisīt atlasītās ievietošanas darba vietas pārslogošanu un krājumu veidošanas ierobežojumu ignorēšanu.
     - **Noapaļot uz augšu līdz pilnai NV** - šī stratēģija tiek izmantota, lai noapaļotu krājumu daudzumu, lai tas atbilstu noliktavas vienību daudzumam, kas ir piešķirts izdodamajiem krājumiem. Šo stratēģiju var izmantot tikai *Saņemt* veida papildināšanas novietojuma direktīvām. Ja šī stratēģija ir konfigurēta kopā ar atrašanās vietas uzkrājumu limitu, tas var izraisīt atlasītās ievietošanas darba vietas pārslogošanu un krājumu veidošanas ierobežojumu ignorēšanu.
     - **Numura zīmes vadīšana** - Izmantojiet šo stratēģiju, izlaižot pasūtījumu nosūtīšanai uz noliktavu, lai izveidotu izdošanas un izvietošanas darbu, atrašanās vietas direktīvā tiek izmantota stratēģija. Šo pieeju var izmantot vairākām numura zīmēm. Šī stratēģija mēģinās rezervēt un izveidot izdošanas darbu novietojumos, kur tiek glabātas pieprasītās noliktavas vienības, kas ir saistītas ar pārsūtīšanas pasūtījuma rindām. Tomēr, ja šīs darbības nevar pabeigt, bet joprojām vēlaties izveidot izdošanas darbu, jums vajadzētu atgriezties pie citas atrašanās vietas direktīvas darbību stratēģijas. Atkarībā no jūsu biznesa procesu prasībām, iespējams, vēlēsities meklēt arī citā noliktavas apgabalā.
-    - **Tukša vieta bez ienākoša darba** - Izmantojiet šo stratēģiju, lai atrastu tukšas vietas. Novietojums tiek uzskatīts par tukšu, ja tam nav fizisku krājumu un nav gaidāms ienākošais darbs. Šo stratēģiju var izmantot tikai *Saņemt* darba veida novietojuma direktīvām.
+    - **Tukša vieta bez ienākoša darba** - Izmantojiet šo stratēģiju, lai atrastu tukšas vietas. Novietojums tiek uzskatīts par tukšu, ja tam nav fizisku krājumu un nav gaidāms ienākošais darbs. Šo stratēģiju var izmantot tikai *Nosūtīt* darba veida novietojuma direktīvām.
     - **Atrašanās vietas vecumstruktūras FIFO** - Izmantot FIFO (first in, first out) stratēģiju, lai nosūtītu gan partijas izsekotos krājumus, gan partijas neizsekotos krājumus, pamatojoties uz datumu, kad krājumi ievadīti noliktavā. Šī iespēja var būt īpaši noderīga partijas neizsekotajiem krājumiem, kuru beigu datums nav pieejams kārtošanai. FIFO stratēģija atrod novietojumu, kas ietver vecāko vecumstruktūras datumu, un tad piešķir izdošanu, pamatojoties uz šo vecumstruktūras datumu.
     - **Atrašanās vietas vecumstruktūras LIFO** - Izmantot LIFO (last in, last out) stratēģiju, lai nosūtītu gan partijas izsekotos krājumus, gan partijas neizsekotos krājumus, pamatojoties uz datumu, kad krājumi ievadīti noliktavā. Šī iespēja var būt īpaši noderīga partijas neizsekotajiem krājumiem, kuru beigu datums nav pieejams kārtošanai. LIFO stratēģija atrod novietojumu, kas ietver jaunāko vecumstruktūras datumu, un tad piešķir izdošanu, pamatojoties uz šo vecumstruktūras datumu.
 

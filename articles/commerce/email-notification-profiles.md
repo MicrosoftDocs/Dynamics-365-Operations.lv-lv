@@ -1,9 +1,9 @@
 ---
 title: E-pasta paziņojumu iestatīšana
 description: Šajā tēmā aprakstīts, kā izveidot e-pasta paziņojumu profilu programmā Microsoft Dynamics 365 Commerce.
-author: samjarawan
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000828"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555311"
 ---
-# <a name="set-up-an-email-notification-profile"></a>E-pasta paziņojumu iestatīšana
-
+# <a name="set-up-an-email-notification-profile"></a>E-pasta paziņojumu profila iestatīšana
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā izveidot e-pasta paziņojumu profilu programmā Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Pārskats
-
-Pirms kanālu izveides jums vajadzēs iestatīt profilu, lai nodrošinātu, ka dažādiem notikumiem, piemēram, pasūtījuma izveidei, pasūtījuma nosūtīšanas statusam un maksājuma kļūmei, var nosūtīt e-pasta paziņojumus.
+Veidojot kanālus, varat iestatīt e-pasta paziņojuma profilu. Šādā veidā e-pasta ziņojumi var tikt nosūtīti debitoriem par dažādiem darbību notikumiem, piemēram, pasūtījuma izveidi, pasūtījuma nosūtīšanas statusu un maksājuma kļūmi.
 
 Papildinformāciju par e-pasta ziņojumu konfigurēšanu skatiet rakstā [E-pasta ziņojumu konfigurēšana un sūtīšana](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Lai izveidotu e-pasta paziņojumu profilu, izpildiet tālāk norādītās darbī
 
 ### <a name="create-an-email-template"></a>E-pasta veidnes izveidošana
 
-Lai varētu izveidot e-pasta paziņojumu, jāizveido organizācijas e-pasta veidne, kurā iekļauta sūtītāju e-pasta informācija un e-pasta veidne.
+Lai e-pasta paziņojuma tipu varētu iespējot, programmā Commerce Headquarters ir jāizveido organizācijas e-pasta veidne. Šī veidne definē e-pasta tēmu, sūtītāju, noklusējuma valodu un e-pasta pamattekstu katrai valodai, ko vēlaties atbalstīt.
 
 Lai izveidotu e-pasta veidni, izpildiet tālāk norādītās darbības.
 
@@ -58,7 +55,7 @@ Lai izveidotu e-pasta veidni, izpildiet tālāk norādītās darbības.
 1. Laukā **Sūtītāja nosaukums** ievadiet sūtītāja nosaukumu.
 1. Ievadiet jēgpilnu aprakstu laukā **Epasta apraksts**.
 1. Laukā **Sūtītāja e-pasta adrese** ievadiet sūtītāju e-pasta adresi.
-1. Sadaļā **Vispārīgi** aizpildiet visu izvēles informāciju (piemēram, e-pasta prioritāte).
+1. Sadaļā **Vispārīgi** atlasiet noklusējuma valodu e-pasta veidnei. Noklusējuma valoda tiks lietota, ja norādītajai valodai nav lokalizētas veidnes.
 1. Paplašiniet sadaļu **E-pasta ziņojuma saturs** un atlasiet **Jauns**, lai izveidotu veidnes saturu. Katram satura vienumam atlasiet valodu un norādiet e-pasta tēmas rindu. Ja e-pasta ziņojumā būs pamatteksts, pārliecinieties, ir atzīmēta izvēles rūtiņa **Ir pamatteksts**.
 1. Darbības rūtī atlasiet **E-pasta ziņojums**, lai nodrošinātu e-pasta pamatteksta veidni.
 

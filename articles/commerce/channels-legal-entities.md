@@ -1,6 +1,6 @@
 ---
 title: Izveidot juridiskās personas
-description: Šajā tēmā ir aprakstīts, kā izveidot juridiskas personas programmā Microsoft Dynamics 365 Commerce, kas jāveido un jākonfigurē pirms kanālu izveides.
+description: Šajā tēmā aprakstīts, kā izveidot juridisku personu risinājumā Microsoft Dynamics 365 Commerce, kas jāizveido un jākonfigurē pirms kanālu izveides.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9491feb004366a02155225bfb323773e130f3dc9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993607"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478216"
 ---
 # <a name="create-legal-entities"></a>Izveidot juridiskās personas
 
-
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā izveidot juridiskas personas programmā Microsoft Dynamics 365 Commerce, kas jāveido un jākonfigurē pirms kanālu izveides.
-
-## <a name="overview"></a>Pārskats
+Šajā tēmā aprakstīts, kā izveidot juridisku personu risinājumā Microsoft Dynamics 365 Commerce, kas jāizveido un jākonfigurē pirms kanālu izveides.
 
 Juridiskā persona ir organizācija, kurai ir reģistrēta vai likumā noteikta juridiskā struktūra. Juridiskas personas var noslēgt juridiskos līgumus, un tām ir nepieciešams sagatavot pārskatus, lai ziņotu par savu veiktspēju.
 

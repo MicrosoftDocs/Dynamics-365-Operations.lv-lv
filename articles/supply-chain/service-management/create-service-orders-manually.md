@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c10990f96fecf55e005650257f83c28423203b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 72b600bc59119a6304fa043240a34051435f8691
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001417"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470957"
 ---
 # <a name="create-service-orders-manually"></a>Pakalpojumu pasūtījumu manuālā izveide    
 
@@ -36,17 +36,17 @@ Pakalpojumu pasūtījumus varat izveidot manuāli, izmantojot pakalpojumu līgum
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Pakalpojumu pasūtījuma manuāla izveide no pakalpojumu līguma
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
+1.  Atlasiet **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojumu līgumi** \> **Pakalpojumu līgumi**.
 
 2.  Izvēlieties pakalpojumu līgumu un izveidojiet jaunu pakalpojumu līgumu.
 
-3.  Noklikšķiniet uz cilnes **Piegāde** un grupā **Izveidot** noklikšķiniet uz **Plānotie pakalpojumu pasūtījumi**, lai atvērtu veidlapu **Pakalpojumu pasūtījumu izveide**.
+3.  Atlasiet cilni **Piegāde** un grupā **Izveidot** atlasiet **Plānotie pakalpojumu pasūtījumi**, lai atvērtu veidlapu **Pakalpojumu pasūtījumu izveide**.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Pakalpojumu pasūtījuma manuāla izveide pakalpojumu pasūtījumu formā
 
-1.  Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
+1.  Atlasiet **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.
 
-2.  Nospiediet Ctrl+N, lai veidotu jaunu pakalpojumu pasūtījumu.
+2.  Atlasiet **Jauns**, lai izveidotu jaunu pakalpojuma pasūtījumu.
 
 3.  Pakalpojumu pasūtījumam izveidojiet pakalpojumu pasūtījuma rindas.
 
@@ -55,9 +55,9 @@ Pakalpojumu pasūtījumus varat izveidot manuāli, izmantojot pakalpojumu līgum
 
 ## <a name="create-a-service-order-from-a-project"></a>Pakalpojumu pasūtījuma izveide no projekta
 
-1.  Noklikšķiniet uz **Projektu pārvaldība un uzskaite** \> **Vispārīgi** \> **Projekti** \> **Visi projekti**.
+1.  Dodieties uz **Projektu pārvaldība un uzskaite** \> **Vispārīgi** \> **Projekti** \> **Visi projekti**.
 
-2.  Veidlapas **Projekti** **Darbību rūtī** cilnē **Pārvaldība** noklikšķiniet uz \> **Pakalpojums** \> **Pakalpojumu pasūtījumi**.
+2.  Veidlapas **Projekti** **Darbību rūtī** cilnē **Pārvaldīt** noklikšķiniet uz \> **Pakalpojums** \> **Pakalpojumu pasūtījumi**.
 
 3.  Izpildiet iepriekš norādītās darbības, lai manuāli izveidotu pakalpojumu pasūtījumu veidlapā **Pakalpojumu pasūtījumi**. Laukā **Projekta ID** tiek parādīta projekta atsauce.
 
@@ -74,13 +74,13 @@ Varat izveidot pakalpojumu pasūtījumu no veidlapas **Pārdošanas pasūtījumi
 
 3.  Cilnē **Pārdošanas pasūtījums** noklikšķiniet uz vienuma **Pakalpojuma pasūtījums**, lai palaistu vedni **Izveidot jaunu pakalpojumu pasūtījumu, izmantojot pārdošanas pasūtījumu**.
 
-4.  Noklikšķiniet uz **Tālāk \>** un pēc tam lapā **Atlasīt pakalpojumu pasūtījuma līgumu** veiciet tālākminētās darbības.
+4.  Noklikšķiniet uz **Tālāk \>** un pēc tam lapā **Atlasīt pakalpojumu pasūtījuma līgumu** veiciet šādas darbības:
     
       - Izmantojiet lauku **Pakalpojuma līgums**, lai atlasītu pakalpojuma līgumu ar kuru ir jāsaista jaunais pakalpojuma pasūtījums.
     
       - Pēc izvēles: izmantojiet lauku **Projekta ID**, lai saistītu šo pakalpojuma pasūtījumu ar konkrētu projektu.
 
-5.  Noklikšķiniet uz **Tālāk \>** un pēc tam lapā **Pakalpojuma pasūtījuma izveide** veiciet tālākminētās darbības.
+5.  Noklikšķiniet uz **Tālāk \>** un pēc tam lapā **Pakalpojuma pasūtījuma izveide** veiciet šādas darbības:
     
       - Laukā **Ieteicamais pakalpojuma laiks** ievadiet pakalpojuma izsaukuma sākuma datumu un laiku.
     
@@ -90,14 +90,14 @@ Varat izveidot pakalpojumu pasūtījumu no veidlapas **Pārdošanas pasūtījumi
     
       - Laukā **Kontaktpersonas ID** atlasiet klienta uzņēmuma kontaktpersonu, ar kuru ir jāsazinās saistībā ar šo pakalpojuma pasūtījumu.
 
-6.  Noklikšķiniet uz **Tālāk \>** un pēc tam uz **Pabeigt**.
+6.  Atlasiet **Tālāk \>** un pēc tam atlasiet **Pabeigt**.
 
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Pakalpojuma pasūtījumi](service-orders.md)
+[Pakalpojumu pasūtījumi](service-orders.md)
 
-[Automātiska pakalpojuma pasūtījumu izveide](create-service-orders-automatically.md)
+[Automātiska pakalpojumu pasūtījumu izveide](create-service-orders-automatically.md)
 
 [Pakalpojumu pasūtījumu izveidošana (klases forma)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 

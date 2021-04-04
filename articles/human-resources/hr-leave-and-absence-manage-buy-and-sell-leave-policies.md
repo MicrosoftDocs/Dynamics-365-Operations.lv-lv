@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89563204cf1423ddce47d7bacace8f14edf87005
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ccc6bf2e8b070e92cc4dbb98d8ec35ce60723516
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116000"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468087"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Atvaļinājuma iegādes un pārdošanas politiku pārvaldība
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Varat nodrošināt, ka darbinieki var nopirkt un pārdot atvaļinājumu, izveidojot atvaļinājuma pirkšanas un pārdošanas politiku. Šīs politikas var konfigurēt, lai izmantotu darbplūsmu apstiprinājumiem, iestatīt maksimālās summas un likmes un iestatīt likmes pirkšanai un pārdošanai. 
 

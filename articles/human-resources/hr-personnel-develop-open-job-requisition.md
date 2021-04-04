@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 858c97e1563dac59f3dd5aff7191427f104d7aed
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129571"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467775"
 ---
 # <a name="create-and-open-job-requisition"></a>Darba pieprasījuma izveide un atvēršana
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Personāla atlases projekti jums palīdz pārvaldīt personāla atlases procesu. Pēc personāla atlases projekta izveides varat veikt tālāk minētos uzdevumus.
 

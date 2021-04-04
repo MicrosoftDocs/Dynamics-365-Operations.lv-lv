@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983548"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501130"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Vispārējā plānošana ar pieprasījuma apjoma prognozēm
 
@@ -249,7 +249,7 @@ Tāpēc tiek izveidoti tālāk norādītie plānotie pasūtījumi.
 Prognozes samazināšanas principu izmanto metodē **Transakcijas — samazināšanas princips** un **Procenti — samazināšanas princips**, lai samazinātu prognozes vajadzības. Lai izveidotu un iestatītu samazināšanas principu, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz sadaļu **Vispārējā plānošana \> Iestatījumi \> Segums \> Samazināšanas principi**.
-2. Atlasiet **Jauns** vai nospiediet **Ctrl + N**, lai izveidotu samazināšanas principu.
+2. Atlasiet **Jauns**, lai izveidotu samazināšanas principu.
 3. Ievadiet prognozes samazināšanas principa unikālu identifikatoru laukā **Samazināšanas princips**. Pēc tam laukā **Nosaukums** ievadiet nosaukumu. 
 4. Definējiet periodus un samazināšanas principa procentus katram periodam.
 
@@ -265,8 +265,8 @@ Prognozes samazināšanas principam ir jāpiešķir krājumu seguma grupa. Lai p
 2. Kopsavilkuma cilnes **Cits** laukā **samazināšanas princips** atlasiet seguma grupai piešķiramo samazināšanas principu. Samazināšanas princips tad stājas spēkā visiem krājumiem, kas pieder seguma grupai.
 3. Lai samazināšanas principu izmantotu prognozes samazināšanas aprēķināšanai vispārējās plānošanas laikā, ir jādefinē šis iestatījums prognozes plānā vai vispārējā plāna iestatīšanas laikā. Dodieties uz vienu no tālāk norādītajām sadaļām.
 
-    - Vispārējā plānošana \> Iestatījumi \> Plāni \> Prognozes plāni
-    - Vispārējā plānošana \> Iestatījumi \> Plāni \> Vispārējie plāni
+    - **Vispārējā plānošana \> Iestatījumi \> Plāni \> Prognozes plāni**
+    - **Vispārējā plānošana \> Iestatījumi \> Plāni \> Vispārējie plāni**
 
 4. Lapas **Prognozes plāni** vai **Vispārējie plāni** kopsavilkuma cilnes **Vispārīgi** laukā **Prognozes vajadzību samazināšanai izmantotā metode** atlasiet vai nu opciju **Procenti — samazināšanas princips**, vai opciju **Transakcijas — samazināšanas princips**.
 
@@ -274,5 +274,69 @@ Prognozes samazināšanas principam ir jāpiešķir krājumu seguma grupa. Lai p
 
 Ja kā prognozes samazināšanas metode tiek atlasīta opcija **Transakcijas — samazināšanas princips** vai **Transakcijas — dinamiskais periods**, var norādīt, kuras transakcijas samazina prognozi. Lapas **Pārklājuma grupas** kopsavilkuma cilnes **Cits** laukā **Samazināt prognozi pēc** atlasiet **Visas transakcijas**, ja visām transakcijām ir jāsamazina prognozi, vai **Pasūtījumi**, ja prognozi jāsamazina tikai pārdošanas pasūtījumiem.
 
+## <a name="forecast-models-and-submodels"></a>Prognozes modeļi un apakšmodeļi
+
+Šajā sadaļā ir aprakstīts, kā izveidot prognozes modeļus un kā kombinēt vairākus prognozes modeļus, iestatot apakšmodeļus.
+
+*Budžeta modelis* nosauc un identificē konkrētu prognozi. Pēc prognozes modeļa izveides tam var pievienot prognozes rindas. Lai pievienotu prognozes rindas vairākiem krājumiem, izmantojiet lapu **Pieprasīt prognozes rindas**. Lai pievienotu prognozes rindas noteiktam atlasītajam krājumam, izmantojiet lapu **Izlaistās preces**.
+
+Prognozes modelis var ietvert prognozes no citiem prognozes modeļiem. Lai sasniegtu šādu rezultātu, pievienojiet citus prognozes modeļus kā pamata prognozes *apakšmodeļus*. Pirms pievienot to kā pamata prognozes modeļa apakšmodeli, tas jāizveido.
+
+Iegūtā struktūra sniedz jaudīgu prognožu kontroles veidu, jo tā ļauj apvienot (apkopot) ievadi no vairākām atsevišķām prognozēm. Tādēļ no plānošanas skata ir viegli apvienot simulāciju prognozes. Piemēram, varat iestatīt simulāciju, kas ir balstīta uz regulāras prognozes un prognozes par veicināšanas pasākumu apvienojumu.
+
+### <a name="submodel-levels"></a>Apakšmodeļa līmeņi
+
+Apakšmodeļu skaits nav ierobežots, ko var pievienot pamata prognozes modelim. Tomēr struktūra var būt tikai viena līmeņa dziļumā. Citiem vārdiem sakot, prognozes modelim, kas ir cita prognozes modeļa apakšmodelis, nevar būt savi apakšmodeļi. Kad pievienojat apakšmodeļus prognozes modelim, sistēma pārbauda, vai šis prognozes modelis jau ir cita prognozes modeļa apakšmodelis.
+
+Ja vispārējais plāns saskaras ar apakšmodeli, kuram ir savi apakšmodeļi, saņemat kļūdas ziņojumu.
+
+#### <a name="submodel-levels-example"></a>Apakšmodeļa līmeņu piemērs
+
+Prognozes modelim A prognozes modelis B ir b kā apakšmodelis. Tāpēc prognozes modelim B nevar būt savi apakšmodeļi. Ja mēģināt prognozes modelim B pievienot apakšmodeli, tiek parādīts šāds kļūdas ziņojums: "Prognozes modelis B ir modeļa A apakšmodelis."
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Prognozes apkopotas starp prognožu modeļiem
+
+Prognozes rindas, kas parādās tajā pašā dienā, tiks apkopotas savā prognozes modelī un tā apakšmodeļos.
+
+#### <a name="aggregation-example"></a>Apkopojuma piemērs
+
+Prognozes modelim A prognozes modelis B un C ir kā apakšmodelis.
+
+- Prognozes modelis A ietver pieprasījuma apjoma prognozi 2 gabaliem (gab.) 15. jūnijā.
+- Prognozes modelis B ietver pieprasījuma apjoma prognozi 3 gabaliem (gab.) 15. jūnijā.
+- Prognozes modelis C ietver pieprasījuma apjoma prognozi 4 gabaliem (gab.) 15. jūnijā.
+
+Rezultātā pieprasījuma apjoma prognoze būs viens pieprasījums 9 gab. (2 + 3 + 4) 15. jūnijā.
+
+> [!NOTE]
+> Katrs apakšmodelis izmanto pats savus, nevis pamata prognozes modeļa parametrus.
+
+### <a name="create-a-forecast-model"></a>Izveidojiet prognozes modeli
+
+Lai izveidotu prognozes modeli, izpildiet tālāk aprakstītās darbības.
+
+1. Dodieties uz **Vispārējā plānošana \> Iestatījumi \> Pieprasījuma prognozēšana \> Prognožu modeļi**.
+1. Darbību rūtī atlasiet **Jauns**.
+1. Iestatiet šādus laukus jaunajam prognozes modelim:
+
+    - **Modelis** – Ievadiet modeļa unikālo identifikatoru.
+    - **Nosaukums** - Ievadiet modeļa aprakstošo nosaukumu.
+    - **Apturēts** – parasti šī opcija jāiestata uz *Nē*. Iestatiet to uz *Jā* tikai tad, ja vēlaties novērst visu modelim piešķirto prognožu rindu rediģēšanu.
+
+    > [!NOTE]
+    > Lauks **Iekļaut naudas plūsmas prognozēs** un lauki kopsavilkuma cilnē **Projekts** nav saistīti ar vispārējo plānošanu. Tāpēc šajā kontekstā tos var ignorēt. Tās jāņem vērā tikai tad, ja strādājat ar **Projektu vadības un uzskaites moduļa** prognozēm.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Apakšmodeļu piešķiršana prognožu modelim
+
+Lai piešķirtu apakšmodeļus prognozes modelim, rīkojieties šādi.
+
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Prognozes \> Prognožu modeļi**.
+1. Saraksta rūtī izvēlieties prognozes modeli, kam vēlaties iestatīt apakšmodeli.
+1. Kopsavilkuma cilnē **Apakšmodelis** atlasiet **Pievienot**, lai režģim pievienotu rindu.
+1. Jaunajā rindā iestatiet šādus laukus:
+
+    - **Apakšmodelis** – atlasiet prognozes modeli, kas jāpievieno kā apakšmodelis. Šim prognozes modelim jau ir jāpastāv, un tam nevar būt savs apakšmodelis.
+    - **Nosaukums** - Ievadiet apakšmodeļa aprakstošo nosaukumu. Piemēram, šis nosaukums var norādīt apakšmodeļa saistību ar pamata prognozes modeli.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

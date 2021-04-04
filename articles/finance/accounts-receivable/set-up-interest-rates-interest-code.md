@@ -3,7 +3,7 @@ title: Procentu likmju iestatīšana interešu kodam
 description: Procentu kodi satur iestatījumus, kas nosaka, kad procenti tiek aprēķināti un kā tie tiek aprēķināti nokavētiem kontiem.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971633"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555369"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Procentu likmju iestatīšana interešu kodam
 
@@ -46,10 +46,19 @@ Varat iestatīt procentu likmes, kas aprēķina noteiktu procentu.
 
 - Procentu summa attiecas uz visām valūtām.
 - Iespējams ievadīt neobligātus procentu summas ierobežojumus.
-- Vienums <strong>Procenti</strong> ir atlasīts laukā <strong>Aprēķināt procentus, pamatojoties uz</strong>, kurš atrodas lapā <strong>Iestatīt procentu kodus</strong>.
+- Vienums **Procenti** ir atlasīts laukā **Aprēķināt procentus, pamatojoties uz**, kurš atrodas lapā **Iestatīt procentu kodus**.
 
 Piemēram, lai iestatītu procentu kodu, kas novērtē 5 procentu soda naudu par katriem diviem mēnešiem, kuros rēķina maksājums pārsniedz transakcijas izpildes datumu, laukā **Aprēķināt procentus ik pēc šāda laikposma** ir jāievada 2 un jāatlasa **Mēnesis**.
 
+> [!NOTE] 
+> Jaunais algoritms procentu paziņojuma aprēķināšanai ir pievienots, izmantojot līdzekļu pārvaldību. Lai lietotu šo algoritmu, iespējojiet līdzekli **(GBL) Ļauj aprēķināt procentus par dienu kā gada procentus, dalītus ar 365**. Papildinformāciju par šā līdzekļa iespējošanu skatiet rakstā [Pārskats par līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> Procentu paziņojuma summas aprēķina formula ir šāda: 
+>  
+> Procentu paziņojuma summa = maksājamā summa * gada procenti % / 365 * nokavēto dienu skaits
+>  
+> Šis līdzeklis ir pieejams versijā 10.0.18 vai jaunākās versijās.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Uz summām balstītas procentu likmes
 Varat iestatīt procentu likmes, kas aprēķina norādīto summu pēc valūtām.
 - Procentu summa tiek norādīta katrai valūtai procentu kodā.

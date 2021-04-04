@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001828"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476703"
 ---
 # <a name="inventory-statuses"></a>Krājumu statusi
 
@@ -45,6 +45,9 @@ Krājumu statuss ir viena no dimensijām noliktavas dimensiju grupā. Krājumu s
 
 Ienākošam darbam varat izmantot noliktavas vienības ar statusu Pieejams vai Nav pieejams. Piemēram, izveidojiet pieejamības statusu ar nosaukumu *Gatavs*, nepieejamības statusu ar nosaukumu *Bojāts* un bloķēšanas statusu ar nosaukumu *Bloķēts*. Veidojot pirkšanas pasūtījumu saņemtām vai atgrieztām vienībām, ja kāda no vienībām ir bojāta vai sadalīta, pirkšanas pasūtījuma rindā varat mainīt šo vienību krājuma statusu uz *Bojāts*. Kad šīs vienības ir saņemtas, automātiski tiek iestatīts statuss *Bloķēts*. Ja skenējat bojātos vienumus, izmantojot mobilo ierīci, programma Supply Chain Management var izmantot vietas direktīvas un darba veidnes, lai rādītu informāciju par atbilstošo vietu vai vietu diapazonu, kur varat novietot šos vienumus. Atgrieztajām vienībām lapā *Krājumu darbības* tiek izveidots izsniegšanas veids **Rezervācija**.
 
+> [!NOTE]
+> To vietu krājumu statusu, kuros pastāv atvērts darbs, nevar mainīt. Piemēram, ja pirkāt krājuma saņemšanu, bet nepaveicāt izvietošanas soli, saņemšanas vietai būtu atvērts darbs, un, mēģinot mainīt krājumu statusu šajā vietā, rodas kļūda. Saistītā darba pabeigšana vai atcelšana ļautu mainīt statusu.
+ 
 Izejošam darbam izmantojiet vienības, kam krājuma statuss ir Pieejams. Ja ir vienības ar statusu *Bojāts*, un šīm vienībām tiek palaista vispārējā plānošana, tās tiek uzskatītas par trūkstošām, un krājums tiek automātiski papildināts.
 
 Kad krājumu statusi ir iestatīti, varat iestatīt noklusējuma krājumu statusu vietai, vienībai un noliktavai. Varat arī iestatīt noklusējuma statusu pārdošanas, pārsūtīšanas un pirkšanas pasūtījumiem. Noklusējuma pārdošanas pasūtījumu un izejošo pārsūtīšanas pasūtījumu statusam opcija **Krājuma bloķēšana** nevar būt iestatīta uz *Jā*. Krājuma statusu, kas tiek mantots no vietas, noliktavas, vienības, pirkšanas pasūtījuma, pārsūtīšanas pasūtījuma vai pārdošanas pasūtījuma noklusējuma iestatījumiem, var mainīt, izmantojot mobilo ierīci, pirkšanas un pārdošanas pasūtījumu vai pārsūtīšanas pasūtījuma rindu.

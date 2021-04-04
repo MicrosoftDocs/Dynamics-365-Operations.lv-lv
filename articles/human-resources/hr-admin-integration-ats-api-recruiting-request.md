@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125429"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500626"
 ---
 # <a name="recruiting-request"></a>Pieņemšanas darbā pieprasījums
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Šajā tēmā aprakstīts pieņemšanas darbā pieprasījuma elements, kas iestatīts programmā Dynamics 365 Human Resources.
 
@@ -98,7 +100,8 @@ Apraksta pieprasījumu pieņemt darbā.
 | **Darba veida ID vērtība**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Tikai lasāms<br>Neobligāti<br>Ārējā atslēga: mshr_hcmjobtypenentity elementa mshr_hcmjobtypeentityid | Sistēmas ģenerēts ar darba veida identifikators, kas saistīts ar darbu darbā pieņemšanas pieprasījumam. |
 | **Nodokļu atvieglojumu statuss**<br>mshr_exemptstatus<br>*JobExemptStatus* opciju kopa | Tikai lasāms<br>Neobligāti | FLSA neapliekamā statusa pamatā ir darba veids. |
 | **Plānotais sākuma datums**<br>mshr_estimatedstartdate<br>*Datums* | Lasīt/rakstīt<br>Obligāts | Plānotais datums, kad kandidāts sāktu darbu. |
-| **Ārējais apraksts**<br>mshr_externaldescription<br>*Virkne* | Lasīt/rakstīt<br>Neobligāti | Uz kandidātu orientēts darba/amata apraksts. | Atlīdzības zemais slieksnis<br>mshr_compensationlowthreshold<br>*Dubults* | Lasīt/rakstīt<br>Neobligāti | Atlīdzības līmeņa apakšējā robeža. |
+| **Ārējais apraksts**<br>mshr_externaldescription<br>*Virkne* | Lasīt/rakstīt<br>Neobligāti | Uz kandidātu orientēts darba/amata apraksts. | 
+| **Atlīdzības zemais slieksnis**<br>mshr_compensationlowthreshold<br>*Dubults* | Lasīt/rakstīt<br>Neobligāti | Atlīdzības līmeņa apakšējā robeža. |
 | **Atlīdzības kontrolpunkts**<br>mshr_compensationcontrolpoint<br>*Dubults* | Lasīt/rakstīt<br>Neobligāti | Atlīdzības līmeņa kontrolpunkts. |
 | **Atlīdzības augstais slieksnis**<br>mshr_compensationhighthreshold<br>*Dubults* | Lasīt/rakstīt<br>Neobligāti | Atlīdzības līmeņa augšējā robeža. |
 | **Atlīdzības līmenis**<br>mshr_compensationlevelid<br>*Virkne* | Lasīt/rakstīt<br>Neobligāti | Darba atlīdzības līmenis. Darbu var iestatīt ar vairākiem atlīdzības līmeņiem. Šis atribūts norāda šim pieprasījumam atlasīto darba atlīdzības līmeni. |
