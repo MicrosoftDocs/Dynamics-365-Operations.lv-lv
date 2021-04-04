@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113403"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463916"
 ---
 # <a name="create-plan-types"></a>Izveidot plānu tipus
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Plāna tips programmā Microsoft Dynamics 365 Human Resources ir noteikta tipa atvieglojumu augsta līmeņa grupēšana. Katram plāna tipam ir plāna tipa kods, kas nosaka plāna tipa kārtulas. Piemēram, plāna tipa Pamata dzīve būtu plāna tipa kods Life, jo tas ir sava veida dzīvības apdrošināšanas plāns, un tam jāatbilst kārtulām, kas noteiktas plāna tipa kodam Life. Cits plāna tips var būt Papildu dzīve, arī ar plāna tipa kodu Life.
 

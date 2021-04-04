@@ -2,11 +2,10 @@
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097285"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569723"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -166,12 +165,14 @@ Lai PDF pārveides opciju padarītu pieejamu pašreizējā Finance instancē, at
 
 ### <a name="applicability"></a>Piemērojamība
 
-PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izmantoti, lai ģenerētu izvadi programmā Office (Excel vai Word) formātā (**Excel fails**). Kad šī opcija ir ieslēgta, izvade, kas tiek ģenerēta Office formātā, tiek automātiski pārveidota PDF formātā.
-
-### <a name="limitations"></a>Ierobežojumi
+PDF pārveides opciju var ieslēgt tikai tiem failu komponentiem, kas tiek izmantoti, lai ģenerētu izvadi programmā Office (Excel vai Word) formātā (**Excel fails**). Kad šī opcija ir ieslēgta, izvade, kas tiek ģenerēta Office formātā, tiek automātiski pārveidota PDF formātā. Programmas Finance versijās **pirms versijas 10.0.18** šo opciju var ieslēgt tikai **Excel\\faila** tipa komponentiem, kas tiek izmantoti, lai ģenerētu izvadi [Excel](er-fillable-excel.md) vai [Word](er-design-configuration-word.md) formātā. Taču versijā **10.0.18 un jaunākā versijā** šo opciju var ieslēgt arī **kopējā\\failu** tipa komponentiem.
 
 > [!NOTE]
-> Šis līdzeklis ir priekšskatījuma līdzeklis, un tas ir pakļauts lietošanas noteikumiem, kas aprakstīti sadaļā [Microsoft Dynamics 365 priekšskatījumu papildu lietošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Jāpievērš uzmanība brīdinājuma ziņojumam, ko saņemat, ieslēdzot PDF pārveides opciju **kopējā\\failu** tipa ER komponentam. Šis ziņojums informē, ka izstrādes laikā nav veida, kā nodrošināt, lai atlasītais faila komponents izpildlaikā atklāj saturu PDF formātā vai PDF konvertējamu saturu. Tāpēc opciju vajadzētu ieslēgt tikai tad, ja esat pārliecināts, ka atlasītais faila komponents ir konfigurēts, lai izpildlaikā rādītu saturu PDF formātā vai PDF konvertējamu saturu.
+> 
+> Ja **Excel\\faila** tipam ieslēdzat PDF pārveides opciju, ja šis komponents atklāj saturu formātā, kas nav PDF, un ja atklāto saturu nevar pārvērst PDF formātā, izpildlaikā parādās izņēmums. Saņemtais ziņojums informē, ka ģenerēto saturu nevar pārveidot PDF formātā.
+
+### <a name="limitations"></a>Ierobežojumi
 
 PDF pārveides opcija ir pieejama tikai mākoņa izvietojumiem.
 

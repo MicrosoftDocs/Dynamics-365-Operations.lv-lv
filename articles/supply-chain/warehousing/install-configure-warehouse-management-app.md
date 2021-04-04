@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142327"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487029"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalējiet un savienojiet lietotni Warehouse Management mobile
 
@@ -31,9 +31,7 @@ ms.locfileid: "5142327"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Šajā tēmā ir aprakstīts, kā konfigurēt jauno lietotni Warehouse Management mobile, kas pašlaik ir publiskā priekšskatījumā. Ja vēlaties meklēt informāciju par vecās noliktavas programmas konfigurēšanu, skatiet sadaļu [Warehouse lietotnes instalēšana un savienošana](../../supply-chain/warehousing/install-configure-warehousing-app.md).
-
-Warehouse Management mobile lietotnes publiskais priekšskatījums ir pieejams lejupielādei programmā Microsoft App Center. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
+> Šajā tēmā aprakstīts, kā konfigurēt jauno lietotni Warehouse Management mobile. Ja vēlaties meklēt informāciju par vecās noliktavas programmas konfigurēšanu, skatiet sadaļu [Warehouse lietotnes instalēšana un savienošana](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Šajā tēmā ir paskaidrots, kā instalēt lietotni Warehouse Management mobile katrā jūsu mobilajā ierīcē un konfigurēt to, lai izveidotu savienojumu ar Supply Chain Management vidi. Varat katru ierīci konfigurēt manuāli vai importēt savienojuma iestatījumus, izmantojot failu vai skenējot QR kodu.
 
@@ -53,17 +51,27 @@ Pirms izmantojat lietotni, jūsu sistēmā jābūt iespējotai saistītai funkci
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Iegūt lietotni Warehouse Management mobile
 
-Lai lejupielādētu programmu, izmantojiet vienu no šīm saitēm:
+Mazākiem izvietojumiem, iespējams, vēlēsities instalēt programmu no katras ierīces attiecīgā veikala un pēc tam manuāli konfigurēt savienojumu ar jūsu izmantotajām vidēm.
 
-- **Windows (UWP):** [Lietojumprogrammu centra priekšskatījuma programma - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Lielākām izvietošanām jūs varat automatizēt programmu izvietošanu un/vai konfigurāciju, kas var būt ērtāk, ja pārvaldāt daudzas ierīces. Piemēram, varat izmantot mobilās ierīces pārvaldības un mobilās lietojumprogrammas pārvaldības risinājumu, piemēram, [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Papildinformāciju par Intune izmantošanu, lai pievienotu lietojumprogrammas, skatiet [Programmu pievienošana Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Tā kā šī programma ir priekšskatījuma programma, tās instalēšanai ir jāveic daži papildu soļi. Detalizētu informāciju skatiet sadaļā [Būvējuma instalēšana no Lietojumprogrammu centra](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Programmas instalēšana no programmu veikala
 
-- **Android:** [Lietojumprogrammu centra priekšskatījuma programma - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Vienkāršākais veids, kā instalēt programmu vienā ierīcē, ir instalēt to no programmu veikala, kas vienmēr nodrošina visjaunāko vispārīgi pieejamo versiju. Programmā Microsoft Intune var arī saņemt programmas no programmu veikaliem. Izmantojiet vienu no šīm saitēm, lai instalētu programmu no programmu veikala:
 
-    Tā kā šī programma ir priekšskatījuma programma, tās instalēšanai ir jāveic daži papildu soļi. Papildinformāciju skatiet [Android lietotņu testēšana](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Warehouse Management Microsoft Store veikalā](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Mazākiem izvietojumiem, iespējams, vēlēsities instalēt programmu no katras ierīces attiecīgā veikala un pēc tam manuāli konfigurēt savienojumu ar jūsu izmantotajām vidēm. Taču varat arī automatizēt programmas izvietošanu un/vai konfigurāciju. Šī pieeja varētu būt ērta, ja pārvaldāt daudzas ierīces un izmantojat mobilās ierīces pārvaldības un mobilās lietojumprogrammas pārvaldības risinājumu, piemēram, [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Papildinformāciju par Intune izmantošanu, lai pievienotu lietojumprogrammas, skatiet [Programmu pievienošana Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Warehouse Management Google Play veikalā](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Lejupielādēt programmu no programmas Microsoft App Center
+
+Tā vietā, lai lejupielādētu programmu no Microsoft App Center, varat izvēlēties alternatīvu programmas instalēšanai no programmu veikala. Programmu centrs nodrošina instalējamas pakotnes, ko var līdzielādēt. Papildus pašreizējai versijai, programmu centrs ļauj arī lejupielādēt iepriekšējās versijas un sniegt priekšskatījuma versijas ar gaidāmajām funkcijām, kuras varat izmēģināt. Lai lejupielādētu noliktavas pārvaldības mobilās programmas pašreizējās, iepriekšējās vai priekšskatījuma versijas no programmas Microsoft App Center, izmantojiet vienu no šīm saitēm:
+
+- **Windows (UWP):** [Noliktavu pārvaldība (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Norādījumus par lejupielādētas pakotnes instalēšanu Windows ierīcē un nepieciešamo sertifikātu iestatīšanai skatiet sadaļā [Būvējuma instalēšana no App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android:** [Noliktavu pārvaldība (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Lejupielādējot priekšskatījuma versiju, tās instalēšanai ir jāveic daži papildu soļi. Papildinformāciju skatiet [Android lietotņu testēšana](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory
 

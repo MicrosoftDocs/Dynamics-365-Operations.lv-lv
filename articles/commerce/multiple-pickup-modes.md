@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
-ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
+ms.openlocfilehash: 38413f96eec97e93beb6998871a40c7ef755073c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5053417"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251287"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Iespējot vairākus pasūtījuma piegādes veidus klientu pasūtījumiem
 
 [!include [banner](includes/banner.md)]
 
 
-Microsoft Dynamics 365 Commerce versijā 10.0.16 un jaunākās organizācijas var noteikt vairākus piegādes veidus, kurus pircēji vai pārdošanas dalībnieki var izvēlēties brīdī, kad tie izveido pasūtījumu, kas tiks saņemts veikalā. Šādā veidā organizācijas var nodrošināt vairākas saņemšanas opcijas saviem pircējiem. Piemēram, daudzi mazumtirgotāji tagad pircējiem piedāvā pasūtījumu saņemšanu veikalā vai saņemšanu pa ceļam. Commerce atbalsta šo atšķirīgo saņemšanas piegādes veidu konfigurāciju. Lietotāji pēc tam var izmantot tos, kad tie izveido klientu pasūtījumus jebkādā atbalstītā Commerce kanālā (e-komercija, zvanu centrs vai veikals).
+Programmas Microsoft Dynamics 365 Commerce versijā 10.0.16 un jaunākās organizācijas var noteikt vairākus piegādes veidus, kurus pircēji vai pārdošanas dalībnieki var izvēlēties brīdī, kad tie izveido pasūtījumu, kas tiks saņemts veikalā. Šādā veidā organizācijas var nodrošināt vairākas saņemšanas opcijas saviem pircējiem. Piemēram, daudzi mazumtirgotāji tagad pircējiem piedāvā pasūtījumu saņemšanu veikalā vai saņemšanu pa ceļam. Commerce atbalsta šo atšķirīgo saņemšanas piegādes veidu konfigurāciju. Lietotāji pēc tam var izmantot tos, kad tie izveido klientu pasūtījumus jebkādā atbalstītā Commerce kanālā (e-komercija, zvanu centrs vai veikals).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Piegādes veidu iespējošana un konfigurēšana
 

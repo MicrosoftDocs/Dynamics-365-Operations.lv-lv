@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b34cc2e9921df6e3ef619e2b2adaf8d2069fbac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5afcb8171b674281faf8100d5c01fdff8d6ff764
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974564"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470789"
 ---
 # <a name="create-a-template-bom"></a>Veidnes MK izveide   
 
@@ -33,9 +33,9 @@ Veidnes MK var izveidot, izmantojot jebkuru no tālāk aprakstītajām metodēm.
 
 ## <a name="create-a-template-bom-manually"></a>Manuāla veidnes MK izveide
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
+1.  Dodieties uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
 
-2.  Nospiediet taustiņu kombināciju CTRL + N, lai atvērtu veidlapu **Veidnes MK izveide**.
+2.  Atlasiet **Jauns**, lai atvērtu veidlapu **Izveidot MK veidni**.
 
 3.  Sadaļā **Kopēt MK rindas no atsauces** atlasiet opciju **Manuāli**.
 
@@ -45,15 +45,15 @@ Veidnes MK var izveidot, izmantojot jebkuru no tālāk aprakstītajām metodēm.
 
 6.  Laukos **Sākuma datums** un **Beigu datums** ievadiet datumu intervālu, kurā veidnes MK ir aktīvs.
 
-7.  Noklikšķiniet uz **OK**.
+7.  Atlasiet **Labi**.
 
 Tiek izveidots jauns, tukšs veidnes MK.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>Veidnes MK izveide uz citas veidnes MK pamata
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
+1.  Atlasiet **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
 
-2.  Nospiediet taustiņu kombināciju CTRL + N, lai atvērtu veidlapu **Veidnes MK izveide**.
+2.  Atlasiet **Jauns**, lai atvērtu veidlapu **Izveidot MK veidni**.
 
 3.  Sadaļā **Kopēt MK rindas no atsauces** atlasiet opciju **Veidnes MK**.
 
@@ -63,15 +63,15 @@ Tiek izveidots jauns, tukšs veidnes MK.
 
 6.  Laukos **Sākuma datums** un **Beigu datums** ievadiet datumu intervālu, kurā veidnes MK ir aktīvs.
 
-7.  Noklikšķiniet uz **OK**.
+7.  Atlasiet **Labi**.
 
 Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst rindām oriģinālajā veidnes MK.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>Veidnes MK izveide uz krājuma MK pamata
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
+1.  Atlasiet **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
 
-2.  Nospiediet taustiņu kombināciju CTRL + N, lai atvērtu veidlapu **Veidnes MK izveide**.
+2.  Atlasiet **Jauns**, lai atvērtu veidlapu **Izveidot MK veidni**.
 
 3.  Sadaļā **Kopēt MK rindas no atsauces** atlasiet **MK**.
 
@@ -81,15 +81,15 @@ Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst rindām oriģin�
 
 6.  Laukos **Sākuma datums** un **Beigu datums** ievadiet datumu intervālu, kurā veidnes MK ir aktīvs.
 
-7.  Noklikšķiniet uz **OK**.
+7.  Atlasiet **Labi**.
 
 Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā **Materiālu komplekti** esošajām MK rindām.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Veidnes MK izveide uz ražošanas MK pamata
 
-1.  Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
+1.  Atlasiet **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Veidņu MK**.
 
-2.  Nospiediet taustiņu kombināciju CTRL + N, lai atvērtu veidlapu **Veidnes MK izveide**.
+2.  Atlasiet **Jauns**, lai atvērtu veidlapu **Izveidot MK veidni**.
 
 3.  Sadaļā **Kopēt MK rindas no atsauces** atlasiet **Ražošana**.
 
@@ -99,7 +99,7 @@ Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā **Mate
 
 6.  Laukos **Sākuma datums** un **Beigu datums** ievadiet datumu intervālu, kurā veidnes MK ir aktīvs.
 
-7.  Noklikšķiniet uz **OK**.
+7.  Atlasiet **Labi**.
 
 Tiek izveidots jauns veidnes MK, izmantojot rindas, kas atbilst sarakstā **MK** esošajām MK rindām.
 
