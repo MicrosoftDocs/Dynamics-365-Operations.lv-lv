@@ -3,7 +3,7 @@ title: Elektronisko rēķinu izdošana programmās Finance un Supply Chain Manag
 description: Šajā tēmā ir paskaidrots, kā izdot elektronisko rēķinus programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104409"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486957"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management
 
@@ -35,25 +35,35 @@ ms.locfileid: "5104409"
 
 ## <a name="feature-activation"></a>Līdzekļu aktivizēšana
 
-Lai sāktu elektronisko rēķinu izdošanu, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu, jāaktivizē funkcionalitātes atsauce programmās Finance un Supply Chain Management.
+Lai izsniegtu elektronisko rēķinu, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu, jāaktivizē līdzeklis programmās Finance un Supply Chain Management.
 
-Katra funkcionalitātes atsauce atbilst noteiktai elektronisko rēķinu izrakstīšanas funkcijai, kas atbilst valsts/reģiona elektronisko rēķinu izrakstīšanas prasībām.
+Katrs līdzeklis atbilst noteiktai elektronisko rēķinu izrakstīšanas funkcijai, kas atbilst valsts/reģiona elektronisko rēķinu izrakstīšanas prasībām.
 
-Šajā tabulā ir parādīts saraksts ar funkcionalitātes atsaucēm, ko atbalsta elektronisko rēķinu izrakstīšanas pievienojumprogramma.
+Tabulā zemāk ir parādīts saraksts ar līdzekļiem, ko Elektronisko rēķinu izrakstīšanas pievienojumprogramma var atbalstīt.
 
-| Līdzekļa atsauce | Vārds, uzvārds                                              | Valsts/reģions |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e Federal — Brazīlijas elektroniskais rēķins       | Brazīlija         |
-| BR-00095          | NFS-e Brazīlijas elektroniskie rēķini               | Brazīlija         |
-| DK-00001          | E-rēķini publiskajam sektoram (OIOUBL) - DK    | Dānija        |
-| EG-00008          | E-rēķinu izrakstīšana Ēģiptei                             | Ēģipte          |
-| ES-00025          | Elektroniskais rēķins publiskajam sektoram           | Spānija          |
-| EUR-00023         | Eiropas Savienības e-rēķini publiskajam sektoram       | Eiropa         |
-| ITA-00036         | IT - E-rēķinu izrakstīšana publiskajam sektoram (FatturaPA) | Itālija          |
-| MX-00010          | E-rēķinu izrakstīšana CFDI                                  | Meksika         |
-| MX-00016          | E-rēķinu izrakstīšana CFDI — atcelšanas process           | Meksika         |
+| Nosaukums/vārds, uzvārds                                              | Valsts/reģions |
+|---------------------------------------------------|----------------|
+|Austrijas elektroniskais rēķins                        |Austrija         |
+|Beļģijas elektroniskais rēķins                         |Beļģija         |
+|NF-e Federal — Brazīlijas elektroniskais rēķins       |Brazīlija          |
+|NFS-e — Brazīlijas pakalpojumu (pilsētas) elektroniskais rēķins|Brazīlija          |
+|Dānijas elektroniskais rēķins                          |Dānija         |
+|Ēģiptes elektroniskais rēķins                        |Ēģipte           |
+|Igaunijas elektroniskais rēķins                        |Igaunija         |
+|Somijas elektroniskais rēķins                         |Somija         |
+|Francijas elektroniskais rēķins                          |Francija          |
+|Vācijas elektroniskais rēķins                          |Vācija         |
+|PEPPOL — globāls elektroniskais rēķins                 |Globāls          |
+|Itālijas elektroniskais rēķins                         |Itālija           |
+|CFDI — Meksikas elektroniskais rēķins                  |Meksika          |
+|Nīderlandes elektroniskais rēķins                           |Nīderlande     |
+|Norvēģijas elektroniskais rēķins                       |Norvēģija          |
+|Spānijas elektroniskais rēķins                         |Spānija           |
 
-Gadījumos, kad ir mantojuma elektronisko rēķinu izrakstīšanas funkcija, tiek atbalstīta valsts lokalizāciju tvērums, funkcionalitātes atsauces aktivizēšana ļauj izdot elektroniskos rēķinus, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu, un izslēdz iepriekšējo funkciju.
+Kad ir mantojuma Elektronisko rēķinu izrakstīšanas līdzeklis, kas tiek atbalstīts valsts/reģiona lokalizāciju tvērumā, viena no šo līdzekļu aktivizēšana izslēdz mantojuma līdzekli un iespējo elektroniskos rēķinu izsniegšanu, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
+
+> [!IMPORTANT]
+> Pēc Elektronisko rēķinu pievienojumprogrammas integrācijas funkcijas iespējošanas jaunā Elektronisko rēķinu izrakstīšanas pieredze pēc noklusējuma tiek izslēgta. Varat izmantot šo līdzekļu koncepciju, lai izvēles veidā iespējotu jaunu pieredzi juridiskām personām, izmantojot valstij/reģionam specifisku funkcionalitāti. Opcija **Globāli** kontrolē jauno pieredzi pārējiem apgabaliem/reģioniem, kas nav īpaši norādīti tabulā.
 
 ## <a name="submit-electronic-documents"></a>Iesniegt elektroniskos dokumentus
 

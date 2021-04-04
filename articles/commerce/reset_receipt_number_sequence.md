@@ -18,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 97ec85ebccacd3a827e8a016098939134823dceb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243699"
 ---
 # <a name="reset-receipt-numbers"></a>Atiestatīt kvīšu numurus 
 
@@ -32,7 +32,7 @@ ms.locfileid: "4979722"
 > [!NOTE]
 > Pirms šīs funkcijas izmantošanas ir nepieciešams atlasīt **Neatkarīgās secības** rekvizītu visiem saņemšanas tipiem funkcionalitātes profilā. Turklāt ierīces sistēmas laika joslai, kur tiek izmantots POS, jāsakrīt ar atbilstošo veikala laika joslu. Šo ierobežojumu dēļ mēs iesakām nelietot šo līdzekli ražošanā, kamēr mēs strādājam, lai atrisinātu šīs problēmas nākamajam izlaidumam. 
 
-Mazumtirgotāji ģenerē kvīšu numurus dažādām darbībām veikalā, piemēram, pārdošanas skaidrā naudā bez piegādes transakcijām, atgriešanas transakcijām, klientu pasūtījumiem, piedāvājumiem un maksājumiem. Lai gan mazumtirgotāji definē savus kvīšu formātus, dažām valstīm vai reģioniem ir noteikumi, kas ierobežo šos kvīšu formātus. Piemēram, šie noteikumi var ierobežot kvīts rakstzīmju skaitu, pieprasīt secīgus saņemšanas numurus, ierobežot dažas speciālās rakstzīmes vai pieprasīt atgriezt saņemšanas numurus gada sākumā. Microsoft Dynamics 365 Commerce padara kvīšu numuru pārvaldību ļoti elastīgu, lai palīdzētu tirgotājiem atbilst normatīvajām prasībām. Šajā tēmā skaidrots, kā izmantot funkcionalitāti kvīšu numuru atiestatīšanai.
+Mazumtirgotāji ģenerē kvīšu numurus dažādām darbībām veikalā, piemēram, pārdošanas skaidrā naudā bez piegādes transakcijām, atgriešanas transakcijām, klientu pasūtījumiem, piedāvājumiem un maksājumiem. Lai gan mazumtirgotāji definē savus kvīšu formātus, dažām valstīm vai reģioniem ir noteikumi, kas ierobežo šos kvīšu formātus. Piemēram, šie noteikumi var ierobežot kvīts rakstzīmju skaitu, pieprasīt secīgus saņemšanas numurus, ierobežot dažas speciālās rakstzīmes vai pieprasīt atgriezt saņemšanas numurus gada sākumā. Programma Microsoft Dynamics 365 Commerce padara kvīšu numuru pārvaldību ļoti elastīgu, lai palīdzētu tirgotājiem atbilst normatīvajām prasībām. Šajā tēmā skaidrots, kā izmantot funkcionalitāti kvīšu numuru atiestatīšanai.
 
 Pakalpojumā Commerce saņemšanas formāti var būt burtciparu formā. Tajos var ievietot gan statisko saturu, gan dinamisko saturu. Statiskais saturs ietver alfabētisku rakstzīmi, ciparus un speciālās rakstzīmes. Dinamiskajā saturā ir viena vai vairākas rakstzīmes, kas attēlo tādu informāciju kā veikala numurs, termināļa numurs, datums, mēnesis, gads un numuru sērijas, kas tiek automātiski palielinātas. Formāti ir definēti funkcionalitātes profila sadaļā **Kvīts numerācija**. Sekojošajā tabulā ir aprakstītas rakstzīmes, kas attēlo dinamisko saturu.
 
