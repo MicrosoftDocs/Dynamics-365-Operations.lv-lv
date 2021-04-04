@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 8ea0bcafa616e5b12ac0a997af87c7d57564362d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092795"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563755"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Power BI satura pakotne Darbaspēka rādītāji
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīta Microsoft Power BI satura pakotne **Darbaspēka rādītāji**. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
+Šajā tēmā ir aprakstīta satura pakotne **Darbaspēka rādītāji** programmā Microsoft Power BI. Tajā ir paskaidrots, kā piekļūt Power BI pārskatiem, kā arī ir sniegta informācija par satura izstrādei izmantoto datu modeli un elementiem.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
 Power BI saturs **Darbaspēka rādītāji** tiek rādīts darbvietā **Personāla pārvaldība**, ja izmantojat kādu no tālāk norādītajiem produktiem.

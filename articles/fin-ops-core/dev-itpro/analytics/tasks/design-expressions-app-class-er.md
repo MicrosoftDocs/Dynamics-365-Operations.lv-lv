@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 11b4d185703731d8491ad10bdeedea40ce811f5d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092089"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564098"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 
@@ -143,8 +142,8 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
 40. Aizvērt lapu.
     * Pārbaudes nosacījums ir konfigurēts, lai atgrieztu vērtību FALSE jebkuram nederīgam IBAN kodam, izsaucot programmas klases 'ISO7064' esošo metodi 'verifyMOD1271_36'. Ņemiet vērā, ka IBAN koda vērtība tiek definēta dinamiski izpildlaikā kā izsaukšanas metodes arguments, pamatojoties uz parsēšanas TXT faila saturu.   
 41. Noklikšķiniet uz Rediģēt ziņojumu.
-42. Laukā Formula ievadiet “CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)”.
-    * CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)”.  
+42. Laukā Formula ievadiet “CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)”.
+    * CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)”.  
 43. Noklikšķiniet uz Saglabāt.
 44. Aizvērt lapu.
 45. Noklikšķiniet uz Saglabāt.
