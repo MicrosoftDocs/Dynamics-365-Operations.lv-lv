@@ -18,27 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e56edc19591ba535518f1cac54d29427ca233ab9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: aba4a073e714e950b8efed1692ff2de7b3d557fa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113402"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468327"
 ---
-# <a name="configure-waiting-days"></a><span data-ttu-id="05056-103">Konfigurēt gaidīšanas dienas</span><span class="sxs-lookup"><span data-stu-id="05056-103">Configure waiting days</span></span>
+# <a name="configure-waiting-days"></a><span data-ttu-id="33c23-103">Konfigurēt gaidīšanas dienas</span><span class="sxs-lookup"><span data-stu-id="33c23-103">Configure waiting days</span></span>
 
-<span data-ttu-id="05056-104">Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido ikmēneša atskaites punktu, ko izmantot atvieglojumu plāniem.</span><span class="sxs-lookup"><span data-stu-id="05056-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a monthly milestone to use for benefit plans.</span></span> <span data-ttu-id="05056-105">Piemēram, gaidīšanas diena 15 atbilst katra mēneša 15. datumam.</span><span class="sxs-lookup"><span data-stu-id="05056-105">For example, a waiting day of 15 represents the 15th day of each month.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="05056-106">Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Gaidīšanas dienas**.</span><span class="sxs-lookup"><span data-stu-id="05056-106">In the **Benefits management** workspace, under **Setup**, select **Waiting days**.</span></span>
+<span data-ttu-id="33c23-104">Risinājumā Microsoft Dynamics 365 Human Resources gaidīšanas dienas izveido ikmēneša atskaites punktu, ko izmantot atvieglojumu plāniem.</span><span class="sxs-lookup"><span data-stu-id="33c23-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a monthly milestone to use for benefit plans.</span></span> <span data-ttu-id="33c23-105">Piemēram, gaidīšanas diena 15 atbilst katra mēneša 15. datumam.</span><span class="sxs-lookup"><span data-stu-id="33c23-105">For example, a waiting day of 15 represents the 15th day of each month.</span></span> 
 
-2. <span data-ttu-id="05056-107">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="05056-107">Select **New**.</span></span>
+1. <span data-ttu-id="33c23-106">Darbvietā **Atvieglojumu pārvaldība**, sadaļā **Iestatījumi** atlasiet **Gaidīšanas dienas**.</span><span class="sxs-lookup"><span data-stu-id="33c23-106">In the **Benefits management** workspace, under **Setup**, select **Waiting days**.</span></span>
 
-3. <span data-ttu-id="05056-108">Norādiet vērtības tālāk minētajos laukos.</span><span class="sxs-lookup"><span data-stu-id="05056-108">Specify values for the following fields:</span></span>
+2. <span data-ttu-id="33c23-107">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="33c23-107">Select **New**.</span></span>
 
-   | <span data-ttu-id="05056-109">Lauks</span><span class="sxs-lookup"><span data-stu-id="05056-109">Field</span></span> | <span data-ttu-id="05056-110">Apraksts</span><span class="sxs-lookup"><span data-stu-id="05056-110">Description</span></span> |
+3. <span data-ttu-id="33c23-108">Norādiet vērtības tālāk minētajos laukos.</span><span class="sxs-lookup"><span data-stu-id="33c23-108">Specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="33c23-109">Lauks</span><span class="sxs-lookup"><span data-stu-id="33c23-109">Field</span></span> | <span data-ttu-id="33c23-110">Apraksts</span><span class="sxs-lookup"><span data-stu-id="33c23-110">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="05056-111">**Gaidīšanas diena**</span><span class="sxs-lookup"><span data-stu-id="05056-111">**Waiting day**</span></span> | <span data-ttu-id="05056-112">Unikāls gaidīšanas dienas identifikators.</span><span class="sxs-lookup"><span data-stu-id="05056-112">A unique identifier for the waiting day.</span></span> |
-   | <span data-ttu-id="05056-113">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="05056-113">**Description**</span></span> | <span data-ttu-id="05056-114">Gaidīšanas dienas apraksts.</span><span class="sxs-lookup"><span data-stu-id="05056-114">A description of the waiting day.</span></span> |
-   | <span data-ttu-id="05056-115">**diena;**</span><span class="sxs-lookup"><span data-stu-id="05056-115">**Day**</span></span> | <span data-ttu-id="05056-116">Mēneša diena, kurā sistēmai jāiestata gaidīšanas perioda datums.</span><span class="sxs-lookup"><span data-stu-id="05056-116">The day of the month that the system should set the waiting period date to.</span></span> |
+   | <span data-ttu-id="33c23-111">**Gaidīšanas diena**</span><span class="sxs-lookup"><span data-stu-id="33c23-111">**Waiting day**</span></span> | <span data-ttu-id="33c23-112">Unikāls gaidīšanas dienas identifikators.</span><span class="sxs-lookup"><span data-stu-id="33c23-112">A unique identifier for the waiting day.</span></span> |
+   | <span data-ttu-id="33c23-113">**Apraksts**</span><span class="sxs-lookup"><span data-stu-id="33c23-113">**Description**</span></span> | <span data-ttu-id="33c23-114">Gaidīšanas dienas apraksts.</span><span class="sxs-lookup"><span data-stu-id="33c23-114">A description of the waiting day.</span></span> |
+   | <span data-ttu-id="33c23-115">**diena;**</span><span class="sxs-lookup"><span data-stu-id="33c23-115">**Day**</span></span> | <span data-ttu-id="33c23-116">Mēneša diena, kurā sistēmai jāiestata gaidīšanas perioda datums.</span><span class="sxs-lookup"><span data-stu-id="33c23-116">The day of the month that the system should set the waiting period date to.</span></span> |
    
-4. <span data-ttu-id="05056-117">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="05056-117">Select **Save**.</span></span>
+4. <span data-ttu-id="33c23-117">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="33c23-117">Select **Save**.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

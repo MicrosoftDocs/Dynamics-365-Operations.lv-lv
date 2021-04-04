@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,63 +16,66 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5d192b8679d6df2c44a0038fe4ffc181a6a54df
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f17d3439870710766906013e74452c2e76fec4ce
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685307"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560017"
 ---
-# <a name="translate-er-function"></a><span data-ttu-id="64684-103">TRANSLATE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="64684-103">TRANSLATE ER function</span></span>
+# <a name="translate-er-function"></a><span data-ttu-id="94f03-103">TRANSLATE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="94f03-103">TRANSLATE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="64684-104">`TRANSLATE` funkcija atgriež *Virknes* vērtību, kas satur noteiktā teksta rakstzīmju aizstāšanas rezultātu citas nodrošinātās kopas rakstzīmēs.</span><span class="sxs-lookup"><span data-stu-id="64684-104">The `TRANSLATE` function returns a *String* value that contains the result of the character replacement of specified text in characters of another provided set.</span></span>
+<span data-ttu-id="94f03-104">`TRANSLATE` funkcija atgriež *Virknes* vērtību, kas satur noteiktā teksta rakstzīmju aizstāšanas rezultātu citas nodrošinātās kopas rakstzīmēs.</span><span class="sxs-lookup"><span data-stu-id="94f03-104">The `TRANSLATE` function returns a *String* value that contains the result of the character replacement of specified text in characters of another provided set.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="64684-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="64684-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="94f03-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="94f03-105">Syntax</span></span>
 
 ```vb
 TRANSLATE (text , pattern, replacement)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="64684-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="64684-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="94f03-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="94f03-106">Arguments</span></span>
 
-<span data-ttu-id="64684-107">`text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="64684-107">`text`: *String*</span></span>
+<span data-ttu-id="94f03-107">`text`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="94f03-107">`text`: *String*</span></span>
 
-<span data-ttu-id="64684-108">*Virknes* tipa datu avota datu tipa derīgs ceļš.</span><span class="sxs-lookup"><span data-stu-id="64684-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="94f03-108">*Virknes* tipa datu avota datu tipa derīgs ceļš.</span><span class="sxs-lookup"><span data-stu-id="94f03-108">The valid path of a data source of the *String* type.</span></span>
 
-<span data-ttu-id="64684-109">`pattern`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="64684-109">`pattern`: *String*</span></span>
+<span data-ttu-id="94f03-109">`pattern`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="94f03-109">`pattern`: *String*</span></span>
 
-<span data-ttu-id="64684-110">Teksts, kas ir jāaizstāj.</span><span class="sxs-lookup"><span data-stu-id="64684-110">The text that must be replaced.</span></span>
+<span data-ttu-id="94f03-110">Teksts, kas ir jāaizstāj.</span><span class="sxs-lookup"><span data-stu-id="94f03-110">The text that must be replaced.</span></span>
 
-<span data-ttu-id="64684-111">`replacement`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="64684-111">`replacement`: *String*</span></span>
+<span data-ttu-id="94f03-111">`replacement`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="94f03-111">`replacement`: *String*</span></span>
 
-<span data-ttu-id="64684-112">Teksts, ko izmantot kā aizvietotāju.</span><span class="sxs-lookup"><span data-stu-id="64684-112">The text to use as a replacement.</span></span>
+<span data-ttu-id="94f03-112">Teksts, ko izmantot kā aizvietotāju.</span><span class="sxs-lookup"><span data-stu-id="94f03-112">The text to use as a replacement.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="64684-113">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="64684-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="94f03-113">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="94f03-113">Return values</span></span>
 
-<span data-ttu-id="64684-114">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="64684-114">*String*</span></span>
+<span data-ttu-id="94f03-114">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="94f03-114">*String*</span></span>
 
-<span data-ttu-id="64684-115">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="64684-115">The resulting text value.</span></span>
+<span data-ttu-id="94f03-115">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="94f03-115">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="64684-116">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="64684-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="94f03-116">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="94f03-116">Usage notes</span></span>
 
-<span data-ttu-id="64684-117">`TRANSLATE` funkcija aizstāj pa vienai rakstzīmei reizē.</span><span class="sxs-lookup"><span data-stu-id="64684-117">The `TRANSLATE` function replaces one character at a time.</span></span> <span data-ttu-id="64684-118">Funkcija aizvieto pirmo `text` argumenta rakstzīmi ar `pattern` argumenta pirmo rakstzīmi un pēc tam otro rakstzīmi un seko tai pašai plūsmai līdz beigām.</span><span class="sxs-lookup"><span data-stu-id="64684-118">The function replaces the first character of the `text` argument with the first character of the `pattern` argument and then the second character and follows the same flow until finished.</span></span> <span data-ttu-id="64684-119">Kad rakstzīme no `text` un `pattern` argumentiem atbilst, tā tiek aizstāta ar rakstzīmi no `replacement` argumenta, kas atrodas tādā pašā pozīcijā kā rakstzīme no `pattern` argumenta.</span><span class="sxs-lookup"><span data-stu-id="64684-119">When a character from the `text` and `pattern` arguments match, it is replaced by a character from the `replacement` argument that is located in the same position as the character from the `pattern` argument.</span></span> <span data-ttu-id="64684-120">Ja rakstzīme tiek parādīta vairākas reizes `pattern` argumentā, tiek izmantota `replacement` argumenta kartēšana, kas atbilst šīs rakstzīmes pirmajam parādīšanās gadījumam.</span><span class="sxs-lookup"><span data-stu-id="64684-120">If a character appears multiple times in the `pattern` argument, the `replacement` argument mapping that corresponds to the first occurrence of this character is used.</span></span>
+<span data-ttu-id="94f03-117">`TRANSLATE` funkcija aizstāj pa vienai rakstzīmei reizē.</span><span class="sxs-lookup"><span data-stu-id="94f03-117">The `TRANSLATE` function replaces one character at a time.</span></span> <span data-ttu-id="94f03-118">Funkcija aizvieto pirmo `text` argumenta rakstzīmi ar `pattern` argumenta pirmo rakstzīmi un pēc tam otro rakstzīmi un seko tai pašai plūsmai līdz beigām.</span><span class="sxs-lookup"><span data-stu-id="94f03-118">The function replaces the first character of the `text` argument with the first character of the `pattern` argument and then the second character and follows the same flow until finished.</span></span> <span data-ttu-id="94f03-119">Kad rakstzīme no `text` un `pattern` argumentiem atbilst, tā tiek aizstāta ar rakstzīmi no `replacement` argumenta, kas atrodas tādā pašā pozīcijā kā rakstzīme no `pattern` argumenta.</span><span class="sxs-lookup"><span data-stu-id="94f03-119">When a character from the `text` and `pattern` arguments match, it is replaced by a character from the `replacement` argument that is located in the same position as the character from the `pattern` argument.</span></span> <span data-ttu-id="94f03-120">Ja rakstzīme tiek parādīta vairākas reizes `pattern` argumentā, tiek izmantota `replacement` argumenta kartēšana, kas atbilst šīs rakstzīmes pirmajam parādīšanās gadījumam.</span><span class="sxs-lookup"><span data-stu-id="94f03-120">If a character appears multiple times in the `pattern` argument, the `replacement` argument mapping that corresponds to the first occurrence of this character is used.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="64684-121">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="64684-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="94f03-121">1. piemērs</span><span class="sxs-lookup"><span data-stu-id="94f03-121">Example 1</span></span>
 
-<span data-ttu-id="64684-122">`TRANSLATE ("abcdef", "cd", "GH")` aizvieto norādītā  **"abcdef"** teksta **"c"** rakstzīmi ar `replacement` teksta **"G"** rakstzīmi sakarā ar:</span><span class="sxs-lookup"><span data-stu-id="64684-122">`TRANSLATE ("abcdef", "cd", "GH")` replaces the **"c"** character of the specified  **“abcdef”** text with the **"G"** character of the `replacement` text due to the following:</span></span>
--   <span data-ttu-id="64684-123">Rakstzīme **"c"** tiek parādīta `pattern` teksta pirmajā pozīcijā.</span><span class="sxs-lookup"><span data-stu-id="64684-123">The **"c"** character is presented in the `pattern` text in the first position.</span></span>
--   <span data-ttu-id="64684-124">`replacement` teksta pirmajā pozīcijā ir ietverta rakstzīme **"G"**.</span><span class="sxs-lookup"><span data-stu-id="64684-124">The first position of the `replacement` text contains the **"G"** character.</span></span>
+<span data-ttu-id="94f03-122">`TRANSLATE ("abcdef", "cd", "GH")` aizvieto norādītā  **"abcdef"** teksta **"c"** rakstzīmi ar `replacement` teksta **"G"** rakstzīmi sakarā ar:</span><span class="sxs-lookup"><span data-stu-id="94f03-122">`TRANSLATE ("abcdef", "cd", "GH")` replaces the **"c"** character of the specified  **“abcdef”** text with the **"G"** character of the `replacement` text due to the following:</span></span>
+-   <span data-ttu-id="94f03-123">Rakstzīme **"c"** tiek parādīta `pattern` teksta pirmajā pozīcijā.</span><span class="sxs-lookup"><span data-stu-id="94f03-123">The **"c"** character is presented in the `pattern` text in the first position.</span></span>
+-   <span data-ttu-id="94f03-124">`replacement` teksta pirmajā pozīcijā ir ietverta rakstzīme **"G"**.</span><span class="sxs-lookup"><span data-stu-id="94f03-124">The first position of the `replacement` text contains the **"G"** character.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="64684-125">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="64684-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="94f03-125">2. piemērs</span><span class="sxs-lookup"><span data-stu-id="94f03-125">Example 2</span></span>
 
-<span data-ttu-id="64684-126">`TRANSLATE ("abcdef", "ccd", "GH")` atgriež **"abGdef"**.</span><span class="sxs-lookup"><span data-stu-id="64684-126">`TRANSLATE ("abcdef", "ccd", "GH")` returns **"abGdef"**.</span></span>
+<span data-ttu-id="94f03-126">`TRANSLATE ("abcdef", "ccd", "GH")` atgriež **"abGdef"**.</span><span class="sxs-lookup"><span data-stu-id="94f03-126">`TRANSLATE ("abcdef", "ccd", "GH")` returns **"abGdef"**.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="64684-127">3. piemērs</span><span class="sxs-lookup"><span data-stu-id="64684-127">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="94f03-127">3. piemērs</span><span class="sxs-lookup"><span data-stu-id="94f03-127">Example 3</span></span>
 
-<span data-ttu-id="64684-128">`TRANSLATE ("abccba", "abc", "123")` atgriež **"123321"**.</span><span class="sxs-lookup"><span data-stu-id="64684-128">`TRANSLATE ("abccba", "abc", "123")` returns **"123321"**.</span></span>
+<span data-ttu-id="94f03-128">`TRANSLATE ("abccba", "abc", "123")` atgriež **"123321"**.</span><span class="sxs-lookup"><span data-stu-id="94f03-128">`TRANSLATE ("abccba", "abc", "123")` returns **"123321"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="64684-129">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="64684-129">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="94f03-129">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="94f03-129">Additional resources</span></span>
 
-[<span data-ttu-id="64684-130">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="64684-130">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="94f03-130">Teksta funkcijas</span><span class="sxs-lookup"><span data-stu-id="94f03-130">Text functions</span></span>](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

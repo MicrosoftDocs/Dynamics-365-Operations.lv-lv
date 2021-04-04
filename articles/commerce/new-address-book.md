@@ -16,43 +16,43 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b25e4d560d94c3481b717939e28f1eaa2f2ecde
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976643"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477855"
 ---
-# <a name="create-new-address-book"></a><span data-ttu-id="d19b6-103">Izveidot jaunu adrešu grāmatu</span><span class="sxs-lookup"><span data-stu-id="d19b6-103">Create new address book</span></span>
-
+# <a name="create-new-address-book"></a><span data-ttu-id="321ca-103">Izveidot jaunu adrešu grāmatu</span><span class="sxs-lookup"><span data-stu-id="321ca-103">Create new address book</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d19b6-104">Šajā tēmā aprakstīts, kā izveidot jaunu adrešu grāmatu programmā Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="d19b6-104">This topic describes how to create a new address book in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="321ca-104">Šajā tēmā aprakstīts, kā izveidot jaunu adrešu grāmatu programmā Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="321ca-104">This topic describes how to create a new address book in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="d19b6-105">Pārskats</span><span class="sxs-lookup"><span data-stu-id="d19b6-105">Overview</span></span>
+<span data-ttu-id="321ca-105">Adrešu grāmatas tiek izmantotas pakalpojumā Commerce dažādu iemeslu dēļ, tostarp debitoru un kanāla darbinieku sarakstu glabāšanai.</span><span class="sxs-lookup"><span data-stu-id="321ca-105">Address books are used in Commerce for various reasons including storing customer lists and employee lists for a channel.</span></span> <span data-ttu-id="321ca-106">Adrešu grāmatas var izmantot vienam kanālam vai koplietot starp kanāliem.</span><span class="sxs-lookup"><span data-stu-id="321ca-106">Address books can be used for a single channel or shared between channels.</span></span>
 
-<span data-ttu-id="d19b6-106">Adrešu grāmatas tiek izmantotas pakalpojumā Commerce dažādu iemeslu dēļ, tostarp debitoru un kanāla darbinieku sarakstu glabāšanai.</span><span class="sxs-lookup"><span data-stu-id="d19b6-106">Address books are used in Commerce for various reasons including storing customer lists and employee lists for a channel.</span></span> <span data-ttu-id="d19b6-107">Adrešu grāmatas var izmantot vienam kanālam vai koplietot starp kanāliem.</span><span class="sxs-lookup"><span data-stu-id="d19b6-107">Address books can be used for a single channel or shared between channels.</span></span>
+## <a name="create-a-new-address-book"></a><span data-ttu-id="321ca-107">Izveidot jaunu adrešu grāmatu</span><span class="sxs-lookup"><span data-stu-id="321ca-107">Create a new address book</span></span>
 
-## <a name="create-a-new-address-book"></a><span data-ttu-id="d19b6-108">Izveidot jaunu adrešu grāmatu</span><span class="sxs-lookup"><span data-stu-id="d19b6-108">Create a new address book</span></span>
-
-<span data-ttu-id="d19b6-109">Lai izveidotu jaunu adrešu grāmatu, izpildiet tālāk aprakstītās darbības.</span><span class="sxs-lookup"><span data-stu-id="d19b6-109">To create a new address book, follow these steps.</span></span>
+<span data-ttu-id="321ca-108">Lai izveidotu jaunu adrešu grāmatu, izpildiet tālāk aprakstītās darbības.</span><span class="sxs-lookup"><span data-stu-id="321ca-108">To create a new address book, follow these steps.</span></span>
  
-1. <span data-ttu-id="d19b6-110">Navigācijas rūtī pārejiet uz **Moduļi \> Kanāla iestatīšana \> Adrešu grāmatas**.</span><span class="sxs-lookup"><span data-stu-id="d19b6-110">In the navigation pane, go to **Modules \> Channel setup \> Address books**.</span></span>
-1. <span data-ttu-id="d19b6-111">Darbību joslā atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="d19b6-111">On the action bar, select **New**.</span></span>
-1. <span data-ttu-id="d19b6-112">Ievadīt nosaukumu un apraksta informāciju.</span><span class="sxs-lookup"><span data-stu-id="d19b6-112">Enter name and description information.</span></span>
-1. <span data-ttu-id="d19b6-113">Darbību joslā atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="d19b6-113">On the action bar, select **Save**.</span></span>
+1. <span data-ttu-id="321ca-109">Navigācijas rūtī pārejiet uz **Moduļi \> Kanāla iestatīšana \> Adrešu grāmatas**.</span><span class="sxs-lookup"><span data-stu-id="321ca-109">In the navigation pane, go to **Modules \> Channel setup \> Address books**.</span></span>
+1. <span data-ttu-id="321ca-110">Darbību joslā atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="321ca-110">On the action bar, select **New**.</span></span>
+1. <span data-ttu-id="321ca-111">Ievadīt nosaukumu un apraksta informāciju.</span><span class="sxs-lookup"><span data-stu-id="321ca-111">Enter name and description information.</span></span>
+1. <span data-ttu-id="321ca-112">Darbību joslā atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="321ca-112">On the action bar, select **Save**.</span></span>
 
-<span data-ttu-id="d19b6-114">Šajā attēlā ir parādīta darbinieka adrešu grāmatas izveide mazumtirdzniecības veikalam.</span><span class="sxs-lookup"><span data-stu-id="d19b6-114">The following image shows the creation of an employee address book for a retail store.</span></span>
+<span data-ttu-id="321ca-113">Šajā attēlā ir parādīta darbinieka adrešu grāmatas izveide mazumtirdzniecības veikalam.</span><span class="sxs-lookup"><span data-stu-id="321ca-113">The following image shows the creation of an employee address book for a retail store.</span></span>
 
 ![Darbinieka adrešu grāmatas piemērs](media/address-books.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="d19b6-116">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="d19b6-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="321ca-115">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="321ca-115">Additional resources</span></span>
 
-[<span data-ttu-id="d19b6-117">Informācijas kodi un informācijas kodu grupas</span><span class="sxs-lookup"><span data-stu-id="d19b6-117">Info codes and info code groups</span></span>](info-codes-retail.md)           
+[<span data-ttu-id="321ca-116">Informācijas kodi un informācijas kodu grupas</span><span class="sxs-lookup"><span data-stu-id="321ca-116">Info codes and info code groups</span></span>](info-codes-retail.md)           
 
-[<span data-ttu-id="d19b6-118">Izveidot mazumtirdzniecības funkcionalitātes profilu</span><span class="sxs-lookup"><span data-stu-id="d19b6-118">Create a retail functionality profile</span></span>](retail-functionality-profile.md)      
+[<span data-ttu-id="321ca-117">Izveidot mazumtirdzniecības funkcionalitātes profilu</span><span class="sxs-lookup"><span data-stu-id="321ca-117">Create a retail functionality profile</span></span>](retail-functionality-profile.md)      
 
-[<span data-ttu-id="d19b6-119">Ekrāna izkārtojuma pārskats</span><span class="sxs-lookup"><span data-stu-id="d19b6-119">Screen layout overview</span></span>](pos-screen-layouts.md)       
+[<span data-ttu-id="321ca-118">Ekrāna izkārtojuma pārskats</span><span class="sxs-lookup"><span data-stu-id="321ca-118">Screen layout overview</span></span>](pos-screen-layouts.md)       
 
-[<span data-ttu-id="d19b6-120">Retail Hardware Station konfigurēšana un instalēšana</span><span class="sxs-lookup"><span data-stu-id="d19b6-120">Configure and install Retail hardware station</span></span>](retail-hardware-station-configuration-installation.md)  
+[<span data-ttu-id="321ca-119">Retail Hardware Station konfigurēšana un instalēšana</span><span class="sxs-lookup"><span data-stu-id="321ca-119">Configure and install Retail hardware station</span></span>](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
