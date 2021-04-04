@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,69 +16,72 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69b76a06bcd3ba002d9543447e60afa14d5a6ce6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f466e3ffe368bf30236060d820621e723106fc1d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687030"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562473"
 ---
-# <a name="case-er-function"></a><span data-ttu-id="3a43a-103">CASE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="3a43a-103">CASE ER function</span></span>
+# <a name="case-er-function"></a><span data-ttu-id="38e21-103">CASE ER funkcija</span><span class="sxs-lookup"><span data-stu-id="38e21-103">CASE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3a43a-104">`CASE` funkcija novērtē norādītās izteiksmes vērtību pret norādītajām alternatīvajām opcijām un atgriež pirmās opcijas, kas ir vienāda ar norādītās izteiksmes vērtību, rezultātu.</span><span class="sxs-lookup"><span data-stu-id="3a43a-104">The `CASE` function evaluates the value of the specified expression against the specified alternative options and returns the result of the first option that equals the value of the specified expression.</span></span> <span data-ttu-id="3a43a-105">Pretējā gadījumā tas atgriež neobligātu noklusējuma rezultātu, ja noklusējuma rezultāts ir norādīts kā pēdējās funkcijas izsauktais arguments, pirms kura neatrodas opcija.</span><span class="sxs-lookup"><span data-stu-id="3a43a-105">Otherwise, it returns the optional default result, if a default result is specified as the last argument of the called function that isn't preceded by an option.</span></span> <span data-ttu-id="3a43a-106">Atgrieztā vērtība var būt jebkura atbalstītā datu tipa vērtība.</span><span class="sxs-lookup"><span data-stu-id="3a43a-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="38e21-104">`CASE` funkcija novērtē norādītās izteiksmes vērtību pret norādītajām alternatīvajām opcijām un atgriež pirmās opcijas, kas ir vienāda ar norādītās izteiksmes vērtību, rezultātu.</span><span class="sxs-lookup"><span data-stu-id="38e21-104">The `CASE` function evaluates the value of the specified expression against the specified alternative options and returns the result of the first option that equals the value of the specified expression.</span></span> <span data-ttu-id="38e21-105">Pretējā gadījumā tas atgriež neobligātu noklusējuma rezultātu, ja noklusējuma rezultāts ir norādīts kā pēdējās funkcijas izsauktais arguments, pirms kura neatrodas opcija.</span><span class="sxs-lookup"><span data-stu-id="38e21-105">Otherwise, it returns the optional default result, if a default result is specified as the last argument of the called function that isn't preceded by an option.</span></span> <span data-ttu-id="38e21-106">Atgrieztā vērtība var būt jebkura atbalstītā datu tipa vērtība.</span><span class="sxs-lookup"><span data-stu-id="38e21-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3a43a-107">Sintakse</span><span class="sxs-lookup"><span data-stu-id="3a43a-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="38e21-107">Sintakse</span><span class="sxs-lookup"><span data-stu-id="38e21-107">Syntax</span></span>
 
 ```vb
 CASE (expression, option 1, result 1[, option 2, result 2, …, option N, result N, default result])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="3a43a-108">Argumenti</span><span class="sxs-lookup"><span data-stu-id="3a43a-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="38e21-108">Argumenti</span><span class="sxs-lookup"><span data-stu-id="38e21-108">Arguments</span></span>
 
-<span data-ttu-id="3a43a-109">`expression`: *Primitīvs datu tips* (Būla, skaitlisks vai teksta)</span><span class="sxs-lookup"><span data-stu-id="3a43a-109">`expression`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="38e21-109">`expression`: *Primitīvs datu tips* (Būla, skaitlisks vai teksta)</span><span class="sxs-lookup"><span data-stu-id="38e21-109">`expression`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="3a43a-110">Derīga izteiksme, kas atgriež vērtību no primitīva datu tipa.</span><span class="sxs-lookup"><span data-stu-id="3a43a-110">A valid expression that returns a value of the primitive data type.</span></span>
+<span data-ttu-id="38e21-110">Derīga izteiksme, kas atgriež vērtību no primitīva datu tipa.</span><span class="sxs-lookup"><span data-stu-id="38e21-110">A valid expression that returns a value of the primitive data type.</span></span>
 
-<span data-ttu-id="3a43a-111">`option 1`: *Primitīvs datu tips* (Būla, skaitlisks vai teksta)</span><span class="sxs-lookup"><span data-stu-id="3a43a-111">`option 1`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="38e21-111">`option 1`: *Primitīvs datu tips* (Būla, skaitlisks vai teksta)</span><span class="sxs-lookup"><span data-stu-id="38e21-111">`option 1`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="3a43a-112">Derīga izteiksme, kas atgriež vērtību no tā paša primitīva datu tipa kā izsauktās `expression` funkcijas argumentu.</span><span class="sxs-lookup"><span data-stu-id="3a43a-112">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="3a43a-113">Šis arguments ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="3a43a-113">This argument is required.</span></span>
+<span data-ttu-id="38e21-112">Derīga izteiksme, kas atgriež vērtību no tā paša primitīva datu tipa kā izsauktās `expression` funkcijas argumentu.</span><span class="sxs-lookup"><span data-stu-id="38e21-112">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="38e21-113">Šis arguments ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="38e21-113">This argument is required.</span></span>
 
-<span data-ttu-id="3a43a-114">`result 1`: *Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="3a43a-114">`result 1`: *Any of the supported data types*</span></span>
+<span data-ttu-id="38e21-114">`result 1`: *Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="38e21-114">`result 1`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="3a43a-115">Atgrieztais rezultāts, kas atbilst iepriekšējai opcijai.</span><span class="sxs-lookup"><span data-stu-id="3a43a-115">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="3a43a-116">Šis arguments ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="3a43a-116">This argument is required.</span></span>
+<span data-ttu-id="38e21-115">Atgrieztais rezultāts, kas atbilst iepriekšējai opcijai.</span><span class="sxs-lookup"><span data-stu-id="38e21-115">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="38e21-116">Šis arguments ir obligāts.</span><span class="sxs-lookup"><span data-stu-id="38e21-116">This argument is required.</span></span>
 
-<span data-ttu-id="3a43a-117">`option N`: *Primitīvs datu tips* (Būla, skaitlisks vai teksta)</span><span class="sxs-lookup"><span data-stu-id="3a43a-117">`option N`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="38e21-117">`option N`: *Primitīvs datu tips* (Būla, skaitlisks vai teksta)</span><span class="sxs-lookup"><span data-stu-id="38e21-117">`option N`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="3a43a-118">Derīga izteiksme, kas atgriež vērtību no tā paša primitīva datu tipa kā izsauktās `expression` funkcijas argumentu.</span><span class="sxs-lookup"><span data-stu-id="3a43a-118">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="3a43a-119">ŠIs arguments nav obligāts.</span><span class="sxs-lookup"><span data-stu-id="3a43a-119">This argument is optional.</span></span>
+<span data-ttu-id="38e21-118">Derīga izteiksme, kas atgriež vērtību no tā paša primitīva datu tipa kā izsauktās `expression` funkcijas argumentu.</span><span class="sxs-lookup"><span data-stu-id="38e21-118">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="38e21-119">ŠIs arguments nav obligāts.</span><span class="sxs-lookup"><span data-stu-id="38e21-119">This argument is optional.</span></span>
 
-<span data-ttu-id="3a43a-120">`result N`: *Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="3a43a-120">`result N`: *Any of the supported data types*</span></span>
+<span data-ttu-id="38e21-120">`result N`: *Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="38e21-120">`result N`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="3a43a-121">Atgrieztais rezultāts, kas atbilst iepriekšējai opcijai.</span><span class="sxs-lookup"><span data-stu-id="3a43a-121">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="3a43a-122">ŠIs arguments nav obligāts.</span><span class="sxs-lookup"><span data-stu-id="3a43a-122">This argument is optional.</span></span>
+<span data-ttu-id="38e21-121">Atgrieztais rezultāts, kas atbilst iepriekšējai opcijai.</span><span class="sxs-lookup"><span data-stu-id="38e21-121">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="38e21-122">ŠIs arguments nav obligāts.</span><span class="sxs-lookup"><span data-stu-id="38e21-122">This argument is optional.</span></span>
 
-<span data-ttu-id="3a43a-123">`default result`: *Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="3a43a-123">`default result`: *Any of the supported data types*</span></span>
+<span data-ttu-id="38e21-123">`default result`: *Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="38e21-123">`default result`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="3a43a-124">Rezultāts, kas ir jāatgriež, ja nav atbilstības.</span><span class="sxs-lookup"><span data-stu-id="3a43a-124">The result that should be returned if there is no match.</span></span> <span data-ttu-id="3a43a-125">ŠIs arguments nav obligāts.</span><span class="sxs-lookup"><span data-stu-id="3a43a-125">This argument is optional.</span></span>
+<span data-ttu-id="38e21-124">Rezultāts, kas ir jāatgriež, ja nav atbilstības.</span><span class="sxs-lookup"><span data-stu-id="38e21-124">The result that should be returned if there is no match.</span></span> <span data-ttu-id="38e21-125">ŠIs arguments nav obligāts.</span><span class="sxs-lookup"><span data-stu-id="38e21-125">This argument is optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="3a43a-126">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="3a43a-126">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="38e21-126">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="38e21-126">Return values</span></span>
 
-<span data-ttu-id="3a43a-127">*Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="3a43a-127">*Any of the supported data types*</span></span>
+<span data-ttu-id="38e21-127">*Jebkurš no atbalstītajiem datu tipiem*</span><span class="sxs-lookup"><span data-stu-id="38e21-127">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="3a43a-128">Jebkura atbalstītā datu tipa iegūtā vērtība.</span><span class="sxs-lookup"><span data-stu-id="3a43a-128">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="38e21-128">Jebkura atbalstītā datu tipa iegūtā vērtība.</span><span class="sxs-lookup"><span data-stu-id="38e21-128">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="3a43a-129">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="3a43a-129">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="38e21-129">Lietošanas piezīmes</span><span class="sxs-lookup"><span data-stu-id="38e21-129">Usage notes</span></span>
 
-<span data-ttu-id="3a43a-130">Izņēmums tiek rādīts izpildlaikā, ja nav atbilstības un nav definēts izvēles noklusējuma rezultāts.</span><span class="sxs-lookup"><span data-stu-id="3a43a-130">An exception is thrown at runtime if there is no match and an optional default result isn't defined.</span></span>
+<span data-ttu-id="38e21-130">Izņēmums tiek rādīts izpildlaikā, ja nav atbilstības un nav definēts izvēles noklusējuma rezultāts.</span><span class="sxs-lookup"><span data-stu-id="38e21-130">An exception is thrown at runtime if there is no match and an optional default result isn't defined.</span></span>
 
-<span data-ttu-id="3a43a-131">Visi rezultāti ir jānorāda, izmantojot vienu datu tipu.</span><span class="sxs-lookup"><span data-stu-id="3a43a-131">All results must be specified by using the same data type.</span></span> <span data-ttu-id="3a43a-132">Noformēšanas laikā tiek parādīts izņēmums, ja konfigurēto rezultātu datu tipi nesakrīt.</span><span class="sxs-lookup"><span data-stu-id="3a43a-132">An exception is thrown at design time if the data types of the configured results don't match.</span></span>
+<span data-ttu-id="38e21-131">Visi rezultāti ir jānorāda, izmantojot vienu datu tipu.</span><span class="sxs-lookup"><span data-stu-id="38e21-131">All results must be specified by using the same data type.</span></span> <span data-ttu-id="38e21-132">Noformēšanas laikā tiek parādīts izņēmums, ja konfigurēto rezultātu datu tipi nesakrīt.</span><span class="sxs-lookup"><span data-stu-id="38e21-132">An exception is thrown at design time if the data types of the configured results don't match.</span></span>
 
-<span data-ttu-id="3a43a-133">Ja pirmā rezultāta vērtība un *N*-tā rezultāta vērtība ir *Konteinera (ieraksta)* vai *Ierakstu saraksta* datu tipa vērtības, rezultātam ir tikai tie lauki, kas ir abās vērtībās.</span><span class="sxs-lookup"><span data-stu-id="3a43a-133">If the first result value and the *N* th result value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="38e21-133">Ja pirmā rezultāta vērtība un *N*-tā rezultāta vērtība ir *Konteinera (ieraksta)* vai *Ierakstu saraksta* datu tipa vērtības, rezultātam ir tikai tie lauki, kas ir abās vērtībās.</span><span class="sxs-lookup"><span data-stu-id="38e21-133">If the first result value and the *N* th result value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3a43a-134">Paraugs</span><span class="sxs-lookup"><span data-stu-id="3a43a-134">Example</span></span>
+## <a name="example"></a><span data-ttu-id="38e21-134">Paraugs</span><span class="sxs-lookup"><span data-stu-id="38e21-134">Example</span></span>
 
-<span data-ttu-id="3a43a-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` atgriež virkni **"WINTER"**, ja pašreizējās lietojumprogrammas sesijas datums ir no oktobra līdz decembrim.</span><span class="sxs-lookup"><span data-stu-id="3a43a-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` returns the string **"WINTER"** if the current application session date is between October and December.</span></span> <span data-ttu-id="3a43a-136">Pretējā gadījumā šī izteiksme atgriež tukšu virkni.</span><span class="sxs-lookup"><span data-stu-id="3a43a-136">Otherwise, it returns a blank string.</span></span>
+<span data-ttu-id="38e21-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` atgriež virkni **"WINTER"**, ja pašreizējās lietojumprogrammas sesijas datums ir no oktobra līdz decembrim.</span><span class="sxs-lookup"><span data-stu-id="38e21-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` returns the string **"WINTER"** if the current application session date is between October and December.</span></span> <span data-ttu-id="38e21-136">Pretējā gadījumā šī izteiksme atgriež tukšu virkni.</span><span class="sxs-lookup"><span data-stu-id="38e21-136">Otherwise, it returns a blank string.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="3a43a-137">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="3a43a-137">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="38e21-137">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="38e21-137">Additional resources</span></span>
 
-[<span data-ttu-id="3a43a-138">Loģiskas funkcijas</span><span class="sxs-lookup"><span data-stu-id="3a43a-138">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="38e21-138">Loģiskas funkcijas</span><span class="sxs-lookup"><span data-stu-id="38e21-138">Logical functions</span></span>](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
