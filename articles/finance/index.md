@@ -2,11 +2,9 @@
 title: Finance mājas lapa
 description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,63 +14,65 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218887"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813487"
 ---
-# <a name="finance-home-page"></a><span data-ttu-id="3f9ba-103">Finance mājas lapa</span><span class="sxs-lookup"><span data-stu-id="3f9ba-103">Finance home page</span></span>
+# <a name="finance-home-page"></a><span data-ttu-id="0a445-103">Finance mājas lapa</span><span class="sxs-lookup"><span data-stu-id="0a445-103">Finance home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="3f9ba-104">Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
+<span data-ttu-id="0a445-104">Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="0a445-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
 
-<span data-ttu-id="3f9ba-105">Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-105">Select a feature area to learn more about it.</span></span>
+<span data-ttu-id="0a445-105">Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.</span><span class="sxs-lookup"><span data-stu-id="0a445-105">Select a feature area to learn more about it.</span></span>
 
 :::row:::
     :::column:::
-        - [<span data-ttu-id="3f9ba-106">Kreditori</span><span class="sxs-lookup"><span data-stu-id="3f9ba-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
-        - [<span data-ttu-id="3f9ba-107">Debitori</span><span class="sxs-lookup"><span data-stu-id="3f9ba-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
-        - [<span data-ttu-id="3f9ba-108">Budžeta veidošana</span><span class="sxs-lookup"><span data-stu-id="3f9ba-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
-        - [<span data-ttu-id="3f9ba-109">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="3f9ba-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
-        - [<span data-ttu-id="3f9ba-110">Izmaksu uzskaite</span><span class="sxs-lookup"><span data-stu-id="3f9ba-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+        - [<span data-ttu-id="0a445-106">Kreditori</span><span class="sxs-lookup"><span data-stu-id="0a445-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+        - [<span data-ttu-id="0a445-107">Debitori</span><span class="sxs-lookup"><span data-stu-id="0a445-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
+        - [<span data-ttu-id="0a445-108">Budžeta veidošana</span><span class="sxs-lookup"><span data-stu-id="0a445-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
+        - [<span data-ttu-id="0a445-109">Kases un bankas vadība</span><span class="sxs-lookup"><span data-stu-id="0a445-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+        - [<span data-ttu-id="0a445-110">Izmaksu uzskaite</span><span class="sxs-lookup"><span data-stu-id="0a445-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="3f9ba-111">Izdevumu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="3f9ba-111">Expense management</span></span>](expense-management/expense-management.md)
-        - [<span data-ttu-id="3f9ba-112">Finanšu pārskatu veidošana</span><span class="sxs-lookup"><span data-stu-id="3f9ba-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
-        - [<span data-ttu-id="3f9ba-113">Pamatlīdzekļi</span><span class="sxs-lookup"><span data-stu-id="3f9ba-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
-        - [<span data-ttu-id="3f9ba-114">Virsgrāmata un finanšu atskaišu veidošana</span><span class="sxs-lookup"><span data-stu-id="3f9ba-114">General ledger and Financial reporting</span></span>](general-ledger/general-ledger.md) 
-        - [<span data-ttu-id="3f9ba-115">Projektu pārvaldība un uzskaite</span><span class="sxs-lookup"><span data-stu-id="3f9ba-115">Project management and accounting</span></span>](project-management/overview-project-management-accounting.md)
-        - [<span data-ttu-id="3f9ba-116">Publiskais sektors</span><span class="sxs-lookup"><span data-stu-id="3f9ba-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+        - [<span data-ttu-id="0a445-111">Izdevumu pārvaldība</span><span class="sxs-lookup"><span data-stu-id="0a445-111">Expense management</span></span>](expense-management/expense-management.md)
+        - [<span data-ttu-id="0a445-112">Finanšu pārskatu veidošana</span><span class="sxs-lookup"><span data-stu-id="0a445-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [<span data-ttu-id="0a445-113">Pamatlīdzekļi</span><span class="sxs-lookup"><span data-stu-id="0a445-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+        - [<span data-ttu-id="0a445-114">Virsgrāmata un finanšu atskaišu veidošana</span><span class="sxs-lookup"><span data-stu-id="0a445-114">General ledger and Financial reporting</span></span>](general-ledger/general-ledger.md) 
+        - [<span data-ttu-id="0a445-115">Projektu pārvaldība un uzskaite</span><span class="sxs-lookup"><span data-stu-id="0a445-115">Project management and accounting</span></span>](project-management/overview-project-management-accounting.md)
+        - [<span data-ttu-id="0a445-116">Publiskais sektors</span><span class="sxs-lookup"><span data-stu-id="0a445-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
 
 
-## <a name="additional-resources"></a><span data-ttu-id="3f9ba-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="3f9ba-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0a445-117">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="0a445-117">Additional resources</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="3f9ba-118">Emuāri</span><span class="sxs-lookup"><span data-stu-id="3f9ba-118">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="0a445-118">Emuāri</span><span class="sxs-lookup"><span data-stu-id="0a445-118">Blogs</span></span>
 
-- [<span data-ttu-id="3f9ba-119">Microsoft Dynamics 365 emuārs</span><span class="sxs-lookup"><span data-stu-id="3f9ba-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-- [<span data-ttu-id="3f9ba-120">Financials emuārs</span><span class="sxs-lookup"><span data-stu-id="3f9ba-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
-- [<span data-ttu-id="3f9ba-121">Microsoft Dynamics Operations partneru kopienas emuārs</span><span class="sxs-lookup"><span data-stu-id="3f9ba-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
+- [<span data-ttu-id="0a445-119">Microsoft Dynamics 365 emuārs</span><span class="sxs-lookup"><span data-stu-id="0a445-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [<span data-ttu-id="0a445-120">Financials emuārs</span><span class="sxs-lookup"><span data-stu-id="0a445-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [<span data-ttu-id="0a445-121">Microsoft Dynamics Operations partneru kopienas emuārs</span><span class="sxs-lookup"><span data-stu-id="0a445-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="task-guides"></a><span data-ttu-id="3f9ba-122">Uzdevumu ceļveži</span><span class="sxs-lookup"><span data-stu-id="3f9ba-122">Task guides</span></span>
-<span data-ttu-id="3f9ba-123">Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="3f9ba-124">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-124">To access task guides, click the Help button on any page.</span></span>
+### <a name="task-guides"></a><span data-ttu-id="0a445-122">Uzdevumu ceļveži</span><span class="sxs-lookup"><span data-stu-id="0a445-122">Task guides</span></span>
+<span data-ttu-id="0a445-123">Papildu palīdzībai programmā Finance and Operations ir pieejami uzdevumu ceļveži.</span><span class="sxs-lookup"><span data-stu-id="0a445-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="0a445-124">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</span><span class="sxs-lookup"><span data-stu-id="0a445-124">To access task guides, click the Help button on any page.</span></span>
 
-### <a name="videos"></a><span data-ttu-id="3f9ba-125">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="3f9ba-125">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="0a445-125">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="0a445-125">Videos</span></span>
 
-<span data-ttu-id="3f9ba-126">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="3f9ba-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="0a445-126">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="0a445-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
-### <a name="countryregion-functionality"></a><span data-ttu-id="3f9ba-127">Valsts/reģiona funkcionalitāte</span><span class="sxs-lookup"><span data-stu-id="3f9ba-127">Country/region functionality</span></span>
+### <a name="countryregion-functionality"></a><span data-ttu-id="0a445-127">Valsts/reģiona funkcionalitāte</span><span class="sxs-lookup"><span data-stu-id="0a445-127">Country/region functionality</span></span>
 
-<span data-ttu-id="3f9ba-128">Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="3f9ba-129">Skatiet palīdzības satura sadaļu [Lokalizācija un regulēšanas līdzekļi](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), lai uzzinātu par valsts/reģiona funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
+<span data-ttu-id="0a445-128">Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem.</span><span class="sxs-lookup"><span data-stu-id="0a445-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="0a445-129">Skatiet palīdzības satura sadaļu [Lokalizācija un regulēšanas līdzekļi](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), lai uzzinātu par valsts/reģiona funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="0a445-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
 
-### <a name="additional-content"></a><span data-ttu-id="3f9ba-130">Papildu saturs</span><span class="sxs-lookup"><span data-stu-id="3f9ba-130">Additional content</span></span>
+### <a name="additional-content"></a><span data-ttu-id="0a445-130">Papildu saturs</span><span class="sxs-lookup"><span data-stu-id="0a445-130">Additional content</span></span>
 
-<span data-ttu-id="3f9ba-131">Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-131">Supply chain management functionality covers parts of the procure-to-pay process that includes requisitioning, ordering, receiving, invoicing and paying for the goods and services your organization purchases.</span></span> <span data-ttu-id="3f9ba-132">Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-132">Refer to the [Supply Chain Management home page](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) for information about the capabilities for managing purchases, inventory, and manufacturing.</span></span> 
+<span data-ttu-id="0a445-131">Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas.</span><span class="sxs-lookup"><span data-stu-id="0a445-131">Supply chain management functionality covers parts of the procure-to-pay process that includes requisitioning, ordering, receiving, invoicing and paying for the goods and services your organization purchases.</span></span> <span data-ttu-id="0a445-132">Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām.</span><span class="sxs-lookup"><span data-stu-id="0a445-132">Refer to the [Supply Chain Management home page](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) for information about the capabilities for managing purchases, inventory, and manufacturing.</span></span>
 
+## <a name="elearning-courses"></a><span data-ttu-id="0a445-133">Elektronisko mācību kursi</span><span class="sxs-lookup"><span data-stu-id="0a445-133">eLearning courses</span></span>
 
+<span data-ttu-id="0a445-134">Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platformā Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).</span><span class="sxs-lookup"><span data-stu-id="0a445-134">For online courses and training, check out [Dynamics 365 Finance on Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).</span></span>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: "Platform atjauninājumi versijai\_10.0.16 (2021.\_gada februāris)"
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: "Platform atjauninājumi versijai\_10.0.15 (2021.\_gada janvāris)"
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Integrēts nodarbinātais, darbs un amats'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Pušu un globālā adrešu grāmata
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Power Portal izmantošana kopā ar pušu datu modeli
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Piezīmju integrācija
                               href: data-entities/dual-write/notes-integration.md
                             - name: Kartēšanas atsauce
@@ -526,13 +528,15 @@
                   items:
                     - name: Lokālo projektu iestatīšana LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Lokālas vides iestatīšana un izvietošana
+                    - name: "Lokālas vides iestatīšana un izvietošana (41.\_Platform atjauninājums un jaunākas versijas)"
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: "Lokālas vides iestatīšana un izvietošana (12.–40.\_Platform atjauninājums)"
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                       href: deployment/deploy-retail-onprem.md
                     - name: Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Vides uzturēšana
+                - name: Vides darbības
                   items:
                     - name: Atjauninājumu lietošana lokālā izvietojumā
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Tikai paketes un tikai interaktīvo AOS mezglu konfigurēšana lokālos izvietojumos
                       href: deployment/onprem-batchonly.md
+                    - name: Augstas pieejamības konfigurēšana SQL Server pārskatu izveides pakalpojumu (SSRS) mezgliem
+                      href: deployment/onprem-SSRSHA.md
                     - name: Starpniekserveru konfigurēšana lokālās vidēs
                       href: deployment/onprem-reverseproxy.md
                     - name: Lokālā diagnostika
@@ -1136,27 +1142,31 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform integrācija
           items:
-            - name: Microsoft Power Platform integrācija ar Finance and Operations
-              href: power-platform/overview.md
-            - name: Pievienojumprogrammu apskats
-              href: power-platform/add-ins-overview.md
-            - name: Elementa modelēšana
-              href: power-platform/entity-modeling.md
-            - name: Programmas dzīves cikla pārvaldība
-              href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations un Dataverse administratora atsauce
-              href: power-platform/admin-reference.md
-            - name: Power Apps portāli ar Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajiem elementiem
-              href: power-platform/faq.md
+            - name: Virtuālie elementi
+              items:
+                - name: Microsoft Power Platform integrācija ar Finance and Operations
+                  href: power-platform/overview.md
+                - name: Elementa modelēšana
+                  href: power-platform/entity-modeling.md
+                - name: Programmas dzīves cikla pārvaldība
+                  href: power-platform/application-lifecycle-management.md
+                - name: Finance and Operations un Dataverse administratora atsauce
+                  href: power-platform/admin-reference.md
+                - name: Power Apps portāli ar Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Bieži uzdotie jautājumi par Finance and Operations virtuālajiem elementiem
+                  href: power-platform/faq.md
+            - name: Pievienojumprogrammas
+              items:
+                - name: Pievienojumprogrammu apskats
+                  href: power-platform/add-ins-overview.md
         - name: Mobilā platforma
           items:
             - name: Mobilās platformas resursi
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: Darba sākšana
               items:
-                - name: Sākt darbu ar mobilo platformu
+                - name: Darba sākšana ar mobilo platformu
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Arhitektūras un noformējuma apsvērumi
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Regression Suite Automation Tool apmācība
               href: perf-test/rsat/rsat-tutorial.md
+            - name: 'To lietotāju konfigurēšana, kas nav administratori'
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Paraugprakse
               href: perf-test/rsat/rsat-best-practices.md
             - name: 'Datu diagnostikas testēšana, izmantojot Regression Suite Automation Tool'
