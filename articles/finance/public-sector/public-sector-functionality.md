@@ -2,11 +2,9 @@
 title: Publiskā sektora sākumlapa
 description: Dynamics 365 Finance atbalsta kopējos publiskā sektora biznesa procesus. Tie ietver budžeta plānošanas, iepirkumu veikšanas, kreditoru un debitoru parādu uzdevumus.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d4b499337d26e2209ee73f2f8ea93f55a124652
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4c4b7221cb5b0ea1fdbb4e05831cdd6dd482e321
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218736"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823544"
 ---
 # <a name="public-sector-home-page"></a>Publiskā sektora sākumlapa
 

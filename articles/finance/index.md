@@ -2,11 +2,9 @@
 title: Finance mājas lapa
 description: Šajā tēmā ir saraksts ar palīdzības tēmām un citiem resursiem finanšu pārvaldības līdzekļiem programmā Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218887"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813487"
 ---
 # <a name="finance-home-page"></a>Finance mājas lapa
 
@@ -71,8 +69,10 @@ Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no va
 
 ### <a name="additional-content"></a>Papildu saturs
 
-Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām. 
+Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas procesa daļas, kas ietver pieprasīšanu, pasūtīšanu, saņemšanu, rēķinu izrakstīšanu un apmaksu par precēm un pakalpojumiem, ko jūsu organizācija iegādājas. Skatiet [Supply Chain Management mājas lapu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md), lai iegūtu informāciju par pirkumu, krājumu un ražošanas pārvaldības iespējām.
 
+## <a name="elearning-courses"></a>Elektronisko mācību kursi
 
+Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platformā Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

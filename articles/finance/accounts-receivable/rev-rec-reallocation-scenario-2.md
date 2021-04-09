@@ -2,11 +2,9 @@
 title: Ieņēmumu atzīšanas atkārtota sadale — 2. scenārijs
 description: Šajā tēmā ir iekļauts atkārtotas sadales scenārijs, kurā ir ievadīti divi pārdošanas pasūtījumi, un pēc tam debitors pievieno līgumam krājumu, kad pirmais pārdošanas pasūtījums ir iekļauts rēķinā. Kad līgumam tiek pievienots jauns krājums, to var pievienot jaunam pārdošanas pasūtījumam vai esošajam pārdošanas pasūtījumam.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: aed5e30f09b69ffa70025b8339b0f1782afe587a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 31a0b26fbf2383c90caaa8c1ea0e56ab5f377609
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238356"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814204"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Ieņēmumu atzīšanas atkārtota sadale — 2. scenārijs
 

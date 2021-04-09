@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 22.\_marts"
+          href: hr-whats-new-2021-03-22.md
         - name: "2021.\_gada 8.\_marts"
           href: hr-whats-new-2021-03-08.md
         - name: "2021.\_gada 22.\_februāris"
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: 'Veiktspējas optimizēšana, izmantojot automātiskās tīrīšanas uzdevumus'
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Iestrēgušu pakešuzdevumu atiestatīšana
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Analīzes pārskati netiek atjaunināti
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Nevar izveidot vidi Power Apps administrēšanas centrā
