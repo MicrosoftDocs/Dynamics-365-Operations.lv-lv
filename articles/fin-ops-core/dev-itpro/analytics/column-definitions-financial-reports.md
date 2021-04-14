@@ -2,7 +2,6 @@
 title: Kolonnu definīcijas finanšu pārskatos
 description: Šajā rakstā ir sniegta informācija par kolonnu definīcijām. Kolonnas definīcija ir pārskata komponents jeb veidošanas bloks, kas nosaka katras kolonnas saturu pārskatā.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3fb41234d255ff9b5ad3756156eeadca2c94546b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2b3b45b155528c6037b332f2dc381bfe7bea0ed1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559849"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754473"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolonnu definīcijas finanšu pārskatos
 
@@ -193,7 +192,7 @@ Pārskata veidotājs var automātiski ģenerēt kolonnas galvenes, pamatojoties 
 
 Nosacījuma savienošanas galvenēs var apvienot vairākas kolonnas, ņemot vērā konkrēta perioda datus. Piemēram, ja skatāt finanšu gada budžeta pārskatu un vēlaties skatīt iepriekšējo mēnešu faktiskos budžetus, kā arī nākamo mēnešu plānotos budžetus, varat izmantot nosacījuma savienošanas galveni, lai automātiski atjauninātu pārskata galveni. Veidojot nosacījuma savienošanas galveni, ņemiet vērā tālāk norādīto:
 
-- Jebkurš apturēšanas nosacījums (lauks **Sadalīt uz**), kas ir noteikts pirms sākuma nosacījuma (lauks **Sadalīt no**) tiek ignorēts. Piemēram, kolonnai B sadalīšanas nosacījums ir definēts kā PAMATA+1 līdz PAMATA un vienums PAMATA ir norādīts kolonnā C, bet vienums PAMATA+1 — kolonnā D. Šādā gadījumā apturēšanas nosacījums kolonnā C tiek ignorēts, un galveņu drukāšana tiek sākta kolonnā D.
+- Jebkurš apturēšanas nosacījums (lauks **Sadalīt uz** ), kas ir noteikts pirms sākuma nosacījuma (lauks **Sadalīt no** ) tiek ignorēts. Piemēram, kolonnai B sadalīšanas nosacījums ir definēts kā PAMATA+1 līdz PAMATA un vienums PAMATA ir norādīts kolonnā C, bet vienums PAMATA+1 — kolonnā D. Šādā gadījumā apturēšanas nosacījums kolonnā C tiek ignorēts, un galveņu drukāšana tiek sākta kolonnā D.
 - Ja norādītās kolonnu galvenes pārklājas, to pārklājums būs redzams, drukājot pārskatu. Pārskats tiek ģenerēts, bet laukā **Pārskata rindas statuss** tiek parādīts šāds brīdinājums: “Kolonnas galvenes, kas izmanto pamatu, pārklājas ar citām kolonnu galvenēm, un var izraisīt teksta pārklāšanos.” Piemēram, kolonnas B galvenes definīcija ir B līdz PAMATA+1, un kolonnas D galvenes definīcija ir PAMATA+1 līdz F. Šajā gadījumā galvenes tiek drukātas viena uz otras un nav salasāmas. Ikreiz, kad definīcijā **Sadalīt no/Sadalīt uz** tiek izmantota vērtība PAMATA, noteikti skatiet ģenerēto pārskatu, lai redzētu, vai galvenes nepārklājas.
 - Ja sadales definīcijā norādāt PAMATA, tad kolonnā bez drukāšanas (**NP**) tas tiek ignorēts, neskatoties uz to, kas ir norādīts kolonnas definīcijā. Būtībā, šis scenārijs ir tāds pats kā kolonnas galvenes definīcijas neizveidošana.
 - Nosacījuma drukāšanas kolonnām (**P&lt;B**, **P&gt;=B**) nosacījuma laiduma galvenes darbojas kā jebkura parasta kolonnas galvenes definīcija. Piemēram, ja nosacījums ir aplams, drukāšana tiek sākta no jebkādas secīgas kolonnas, kas atbilst sadalījuma nosacījumam.
@@ -271,7 +270,7 @@ Kad norādāt kolonnas definīciju, formatēšanas kolonnas detalizētās rindas
 
 ### <a name="changing-the-column-width"></a>Kolonnu platuma maiņa
 
-Šūna **Kolonnas platums** norāda rakstzīmju skaitu, lai noteiktu kolonnas platumu izveidotajā pārskatā. Kolonnas platums ir svarīgs kolonnām, kas satur summas (**CALC**, **WKS** vai **FD** tipa kolonnas), aprakstus (**DESC** tipa kolonnas), vai aizpildījumu (**FILL** tipa kolonnas). Pēc noklusējuma tiek atlasīta opcija **Automātiskā ietilpināšana**, lai katras kolonnas platums tiktu automātiski koriģēts, lai ietilpinātu saturu.
+Šūna **Kolonnas platums** norāda rakstzīmju skaitu, lai noteiktu kolonnas platumu izveidotajā pārskatā. Kolonnas platums ir svarīgs kolonnām, kas satur summas ( **CALC**, **WKS** vai **FD** tipa kolonnas), aprakstus ( **DESC** tipa kolonnas), vai aizpildījumu ( **FILL** tipa kolonnas). Pēc noklusējuma tiek atlasīta opcija **Automātiskā ietilpināšana**, lai katras kolonnas platums tiktu automātiski koriģēts, lai ietilpinātu saturu.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Kolonnas platuma norādīšana pārskatā
 
@@ -306,7 +305,7 @@ Kad norādāt kolonnas definīciju, formatēšanas kolonnas detalizētās rindas
 | Drukas vadības kods | Atšifrējums                                     | Apraksts |
 |--------------------|-------------------------------------------------|-------------|
 | NED                 | Nedrukāt                                     | Šajā kolonnā esošās summas netiek iekļautas drukātajā pārskatā un izmantotas aprēķinos. Lai nedrukājamu kolonnu iekļautu aprēķinā, šī kolonna jānorāda tieši aprēķina formulā. Piemēram, nedrukājama kolonna C ir iekļauta šādā aprēķinā: **B+C+D**. Tomēr, nedrukājamā kolonna C nav iekļauta šādā aprēķinā: **B:D**. |
-| MZK                | Zīmes maiņa, ja rindas parastā bilance ir kredīts | Tiek izveidots budžets vai salīdzinošs pārskats, kurā nevēlamā novirze (piemēram, ieņēmumu deficīts vai izdevumu pārtēriņš) vienmēr tiek rādīta kā negatīva. Lietojiet šo kodu, lai kolonnā **CALC** kolonnas summai mainītu zīmi uz pretējo, ja tipiska dotās rindas bilance ir kredīts (saskaņā ar **C**, rindas definīcijas kolonnā **Parastā bilance**).<p><strong>Piezīme:</strong> <strong>TOT</strong> un </strong>CAL</strong> rindām, kas parasti ietver kredīta bilanci, pārliecinieties, ka esat ievadījis <strong>C</strong>, rindas definīcijas kolonnā <strong>Parastā bilance</strong>.</p> |
+| MZK                | Zīmes maiņa, ja rindas parastā bilance ir kredīts | Tiek izveidots budžets vai salīdzinošs pārskats, kurā nevēlamā novirze (piemēram, ieņēmumu deficīts vai izdevumu pārtēriņš) vienmēr tiek rādīta kā negatīva. Lietojiet šo kodu, lai kolonnā **CALC** kolonnas summai mainītu zīmi uz pretējo, ja tipiska dotās rindas bilance ir kredīts (saskaņā ar **C**, rindas definīcijas kolonnā **Parastā bilance** ).<p><strong>Piezīme:</strong> <strong>TOT</strong> un </strong>CAL</strong> rindām, kas parasti ietver kredīta bilanci, pārliecinieties, ka esat ievadījis <strong>C</strong>, rindas definīcijas kolonnā <strong>Parastā bilance</strong>.</p> |
 | X0                 | Neietvert kolonnu, ja visas tās vērtības ir vienādas ar nulli vai ir tukšas          | Izslēdziet **FD** kolonnu no pārskata, ja visas šūnas kolonnā ir vai nu tukšas vai satur nulles. |
 | NN                 | Nepieļaut noapaļošanu                               | Kolonnā esošās summas netiek noapaļotas. |
 | NA                 | Nepieļaut apkopošanu                                 | Nepieļauj apkopošanu. Ja pārskatā izmantojat pārskatu koku, šajā kolonnā esošās summas netiek apkopotas attiecīgajos vecākmezglos. |
@@ -508,7 +507,7 @@ Precīzai salīdzināšanai jūs varat arī izmantot jebkuru burtu un ciparu rak
 
 Daudzvalūtu pārskatā var parādīt summas virsgrāmatas uzskaites valūtā, virsgrāmatas pārskata valūtā, sākotnējā darījuma valūtā vai pārrēķinātajā pārskata valūtā. Uzņēmuma uzskaites valūta tiek definēta virsgrāmatas iestatījumos. Pievērsiet uzmanību, ka šis iestatījums nav tas pats, kas operētājsistēmas reģionālo opciju iestatījums, kur varat konfigurēt noklusējuma valūtas simbolu, kas ir jāizmanto pārskatos. Kolonnas definīcijā ir pieejamas tālāk norādītas šūnas, kas ir saistītas ar valūtas datiem.
 
-- **Valūtas parādīšana** — norādiet valūtas tipu (uzskaites, pārskata, darījuma vai pārrēķinātā pārskata valūta), kurā tiek rādīti darījumi. Pārrēķināšanas uz pārskata valūtu funkcionalitāte dažreiz tiek dēvēta par valūtas pārrēķināšanu. Valūtas pārrēķināšana nodrošina iespēju pārskatā ietvert virsgrāmatas summas, kas ir norādītas citā valūtā nekā uzņēmuma funkcionālā vai pārskata valūtā vai valūtā, kurā ievadījāt darījumu.
+- **Valūtas parādīšana** — norādiet valūtas tipu (uzskaites, pārskata, darījuma vai pārrēķinātā pārskata valūta), kurā tiek rādīti darījumi. Pārrēķināšanas uz pārskata valūtu funkcionalitāte dažreiz tiek dēvēta par valūtas pārrēķināšanu. Valūtas pārrēķināšana nodrošina iespēju pārskatā ietvert virsgrāmatas summas, kas ir norādītas citā valūtā nekā uzņēmuma funkcionālā vai pārskata valūtā vai valūtā, kurā ievadījāt darījumu.
 - **Valūtas filtrs** – norādiet valūtas filtru. Atskaitē tiek rādītas tikai darbības, kas tika ievadītas atlasītajā valūtā.
 
 > 

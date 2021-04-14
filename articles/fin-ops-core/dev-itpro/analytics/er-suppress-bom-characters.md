@@ -2,7 +2,6 @@
 title: Izveidot ER konfigurācijas, lai likvidētu MK rakstzīmes ģenerētos failos
 description: Šajā tēmā skaidrots, kā konfigurēt elektronisko pārskatu (ER) formātu, lai ģenerētu pārskatus, kas likvidētu baita pasūtījuma zīmes (MK) rakstzīmes.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9260db2edab75c9876ddf5af99bee4ff174c64e1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568977"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743537"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Izveidot ER konfigurācijas, lai likvidētu MK rakstzīmes ģenerētos failos
 
 [!include [banner](../includes/banner.md)]
 
-Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md), lai ģenerētu izejošos dokumentus. Lai izveidotu dokumentus kā teksta vai XML failus, risinājumā jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound)komponentu. Lai norādītu [rakstzīmju kodēšanas veidu](https://docs.microsoft.com/windows/win32/intl/character-sets), kas apzīmē rakstzīmju kopu ģenerētos failos, ER formātam jāsatur **Kopējā\\Faila** formāta elements. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta](general-electronic-reporting.md#component-versioning) versija ER formāta noformētājā un jāpievieno **Kopējais\\Faila** elements. Laukā **Kodēšana** norādiet izpildlaikā ģenerēto izejošo failu kodēšanas veidu, izmantojot šo komponentu.
+Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md), lai ģenerētu izejošos dokumentus. Lai izveidotu dokumentus kā teksta vai XML failus, risinājumā jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu. Lai norādītu [rakstzīmju kodēšanas veidu](https://docs.microsoft.com/windows/win32/intl/character-sets), kas apzīmē rakstzīmju kopu ģenerētos failos, ER formātam jāsatur **Kopējā\\Faila** formāta elements. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta](general-electronic-reporting.md#component-versioning) versija ER formāta noformētājā un jāpievieno **Kopējais\\Faila** elements. Laukā **Kodēšana** norādiet izpildlaikā ģenerēto izejošo failu kodēšanas veidu, izmantojot šo komponentu.
 
 > [!NOTE]
 > Ja formāts ietver nepareizu kodēšanas nosaukumu, saglabājot izmaiņas formāta iestatījumos, tiek parādīts kļūdas ziņojums.
@@ -39,7 +38,7 @@ Ja kā kodēšanas veidu norādāt **UTF-8**, **UTF-16** vai **UTF-32**, kļūst
 
 ![Opcijas Likvidēt MK rakstzīmes iestatīšana lapā Formāta veidotājs](./media/er-suppress-bom-characters-image2.gif)
 
-Lai pārskatītu izpildlaika funkcionalitāti, izpildiet attiecīgo procedūru. Piemēram, izpildiet darbības tēmā [XML elementu XML elementu izpildes atliktā izpilde ER formātos](er-defer-xml-element.md). Kad esat izpildījis soļus sadaļā [Modificēt formātu, lai aprēķins būtu balstīts uz šīs tēmas ģenerēto izvades](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output)sadaļu, izpildiet šīs papildu darbības.
+Lai pārskatītu izpildlaika funkcionalitāti, izpildiet attiecīgo procedūru. Piemēram, izpildiet darbības tēmā [XML elementu XML elementu izpildes atliktā izpilde ER formātos](er-defer-xml-element.md). Kad esat izpildījis soļus sadaļā [Modificēt formātu, lai aprēķins būtu balstīts uz šīs tēmas ģenerēto izvades](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) sadaļu, izpildiet šīs papildu darbības.
 
 1. Norādiet UTF kodējumu:
 

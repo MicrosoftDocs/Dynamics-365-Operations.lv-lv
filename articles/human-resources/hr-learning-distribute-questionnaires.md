@@ -2,11 +2,9 @@
 title: Anketu izplatīšana un plānošana
 description: Šajā rakstā ir skaidrots, kā jūsu izveidotās anketas izplatīt tā, lai tās būtu pieejamas tai personai vai personu grupai, kas anketas aizpildīs.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8c79e7b39e092bb85677fed19a53d5b9bf24962
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: cd0c519cfb8af811ef733804ea1086680990df00
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464986"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790600"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Anketu izplatīšana un plānošana
 
@@ -48,7 +46,7 @@ Varat iestatīt anketu grupas un pēc tam iekļaut respondentus, kuriem šī ank
 
 Anketu grupas varat izveidot no šādām lapām:
 
--   **Anketu grupas** — atlasīto anketu var aizpildīt tikai anketu grupā iekļautās personas. Piemēram, jūsu mērķauditorija ir darbuzņēmēji, tāpēc jūs izveidojat anketu grupu, kas ir raksturīga šiem respondentiem.
+-   **Anketu grupas** — atlasīto anketu var aizpildīt tikai anketu grupā iekļautās personas. Piemēram, jūsu mērķauditorija ir darbuzņēmēji, tāpēc jūs izveidojat anketu grupu, kas ir raksturīga šiem respondentiem.
 -   **Aptauju grupu dalībnieki** — anketu grupām varat pievienot personas.
 
 Lai anketai piešķirtu anketu grupu, lapā **Anketas** noklikšķiniet uz **Lietotāja tiesības**. Kad anketa ir saglabāta kā aktīva, anketu grupas dalībnieki var aizpildīt šo anketu. Šī funkcionalitāte noder, ja anketu vēlaties testēt ar atlasītu personu grupu, pirms to izplatāt lielākai grupai, vai ja anketu vēlaties izmantot ļoti specifiskai mērķauditorijai.

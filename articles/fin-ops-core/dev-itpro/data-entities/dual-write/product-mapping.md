@@ -2,7 +2,6 @@
 title: Vienotā preču pieredze
 description: Šajā tēmā ir aprakstīta preču datu integrācija starp programmām Finance and Operations un Dataverse
 author: t-benebo
-manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560463"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750744"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -95,11 +94,11 @@ Pašreizējā dubulto ierakstu spraudņu ieviešana, kas saista noklusējuma cen
 
 Pēc noklusējuma preces no Finance and Operations programmām tiek sinhronizētas ar citām Dynamics 365 programmām statusā **Melnraksts**. Lai sinhronizētu preci ar statusu **Aktīvs**, lai varētu to tieši izmantot pārdošanas pasūtījuma piedāvājumos, ir jāizvēlas, piemēram, šāds iestatījums: cilnē **Sistēma > Administrēšana > Sistēmas administrēšana > Sistēmas iestatījumi > Pārdošana** atlasiet opciju **Izveidot preces aktīvā stāvoklī = Jā**. 
 
-Kad preces ir sinhronizētas, jāievada lauka **Pārdošanas vienība**  vērtība programmā Finance and Operations, jo tas ir obligāts lauks programmā Sales.
+Kad preces ir sinhronizētas, jāievada lauka **Pārdošanas vienība** vērtība programmā Finance and Operations, jo tas ir obligāts lauks programmā Sales.
 
 Preču saimju veidošana no Dynamics 365 Sales netiek atbalstīta, izmantojot preču dubulto ierakstu sinhronizāciju.
 
-Ņemiet vērā, ka preču sinhronizācija notiek no Finance and Operations programmām uz Dataverse. Tas nozīmē, ka preču elementa lauku vērtības var mainīt pakalpojumā Dataverse, taču, kad sinhronizācija tiks uzsākta (kad preces lauks tiek modificēts programmā Finance and Operations), to vērtības tiks pārrakstītas pakalpojumā Dataverse. 
+Ņemiet vērā, ka preču sinhronizācija notiek no Finance and Operations programmām uz Dataverse. Tas nozīmē, ka preču elementa lauku vērtības var mainīt pakalpojumā Dataverse, taču, kad sinhronizācija tiks uzsākta (kad preces lauks tiek modificēts programmā Finance and Operations ), to vērtības tiks pārrakstītas pakalpojumā Dataverse. 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 

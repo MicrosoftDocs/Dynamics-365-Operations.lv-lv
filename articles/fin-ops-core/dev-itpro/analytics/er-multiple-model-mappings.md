@@ -2,7 +2,6 @@
 title: Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 description: Šajā tēmā skaidrots, kā pārvaldīt vairākus atvasinātus kartējumus, kas tika konfigurēti atsevišķam modeļa saknei.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb4fcda42361b0f14e37027d21739dfc42b44cb1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a774a0edf00a17be674b7a1bb07f6494e90554c3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565495"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743683"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Pārvaldīt vairākus atvasinātos kartējumus viena modeļa saknei
 
@@ -98,7 +97,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 
 ## <a name="customize-the-imported-er-configurations"></a>Importēto ER konfigurāciju pielāgošana
 
-Šajā sadaļā skaidrots, kā [pielāgot](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration)Microsoft nodrošinātos modeļu kartējumus. Piemēram, pielāgošanai var būt nepieciešams ieviest pielāgoto loģiku vai pievienot trūkstošos saistījumus.
+Šajā sadaļā skaidrots, kā [pielāgot](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration) Microsoft nodrošinātos modeļu kartējumus. Piemēram, pielāgošanai var būt nepieciešams ieviest pielāgoto loģiku vai pievienot trūkstošos saistījumus.
 
 ### <a name="customize-the-invoice-model-mapping-configuration"></a>Rēķinu modeļa kartēšanas konfigurācijas pielāgošana
 
@@ -125,7 +124,7 @@ Lai pievienotu standarta ER konfigurācijas savai pašreizējai Finance instance
 
 Tagad ir **Rēķinu modeļu kartēšana** un **Rēķina modeļa kartēšanas Litware** konfigurācijas, kur katrai no tām ir modeļa kartēšana, kas ir konfigurēta **InvoiceCustomer** saknes definīcijai. Skaidri piešķiriet vienu no modeļa kartējumiem kā noklusējuma modeļa kartēšanu, ko izmanto kāds no ER formātiem, piemēram, **Brīva teksta rēķina (Excel)** formāts, kas ietver modeļa datu avotu, kam ir **InvoiceCustomer** saknes definīcija. Pretējā gadījumā, palaižot, rediģējot vai validējot kādu no ER formātiem, tiek parādīts šāds izņēmums, lai jūs paziņotu, ka neviens noklusējuma modeļa kartējums nav skaidri piešķirts:
  
-> Konfigurācijās datu modelim pastāv vairāk \<model name\>\<root descriptor\>nekā viens modeļa \<configuration names separated by commas\>kartējums. Iestatiet vienu no konfigurācijām kā noklusējumu.
+> Konfigurācijās datu modelim pastāv vairāk '\<model name\> (\<root descriptor\>)' nekā viens modeļa \<configuration names separated by commas\>kartējums. Iestatiet vienu no konfigurācijām kā noklusējumu.
 
 ![Atver formātu rediģēšanai konfigurāciju lapā](./media/er-multiple-model-mappings-image6.gif)
 

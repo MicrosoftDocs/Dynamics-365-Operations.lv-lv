@@ -2,7 +2,6 @@
 title: Vispārējā problēmu novēršana
 description: Šajā rakstā ir sniegta informācija par vispārējo problēmu novēršanu duālā ieraksta integrācijai starp Finance and Operations programmām un Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 4b97fffce6d1c3ea143e0d8445769e794d0c46a4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748829"
 ---
 # <a name="general-troubleshooting"></a>Vispārējā problēmu novēršana
 
@@ -84,7 +83,7 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 
 2. Iestatiet rekvizītu **IsDebugMode** projektam uz **Jā**.
 3. Palaidiet scenāriju, kas ģenerē kļūdas.
-4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX**):
+4. Izvērstie žurnāli ir pieejami DualWriteErrorLog tabulā. Lai meklētu datus tabulas pārlūkā, izmantojiet tālāk minēto vietrādi URL (ja nepieciešams, nomainiet **XXX** ):
 
     `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
@@ -105,7 +104,7 @@ Lai skatītu trasēšanas žurnālu, veiciet tālāk minētās darbības.
 **Nepieciešamā loma, lai atsaistītu vidi:** sistēmas administrators vai nu Finance and Operations programmai, vai Dataverse.
 
 1. Piesakieties Finance and Operations programmā.
-2. Dodieties uz **Darbvietas \>Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**.
+2. Dodieties uz **Darbvietas \> Datu pārvaldība** un atlasiet elementu **Duālais ieraksts**.
 3. Atlasiet visus darbojošos kartējumus, pēc tam atlasiet **Apturēt**.
 4. Atlasiet **Atsaistīt vidi**.
 5. Atlasiet **Jā**, lai apstiprinātu darbību.

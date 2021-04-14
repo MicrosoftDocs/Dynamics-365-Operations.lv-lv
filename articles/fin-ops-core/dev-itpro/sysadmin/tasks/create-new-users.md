@@ -2,7 +2,6 @@
 title: Jaunu lietotāju izveide
 description: Lietotāji ir jūsu organizācijas iekšējie darbinieki vai ārējie debitori un kreditori, kuriem nepieciešama piekļuve sistēmai sava darba veikšanai.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f30f6292ed0a4de93ba75341bc917f9205c4e39c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571057"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745841"
 ---
 # <a name="create-new-users"></a>Jaunu lietotāju izveide
 
@@ -33,7 +32,7 @@ Papildinformāciju par to, kā pirkt un licencēt Finance and Operations lietoju
 Sistēmas administratori var [piešķirt licences lietotājiem](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) [Microsoft 365 administrēšanas centrā](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Ārēja lietotāja pievienošana Azure AD un licences piešķiršana 
-Ārējiem lietotājiem jābūt norādītiem savā nomnieka direktorijā (Azure Active Directory (Azure AD)), lai tiem varētu piešķirt licences. Šie ārējie lietotāji jāpievieno nomniekam Azure AD kā vieslietotāji un pēc tam jāpiešķir atbilstošās licences. Finance and Operations programmām ir prasība, ka viesa lietotāja uzņēmumam ir jāizmanto Azure AD. Papildinformāciju skatiet [Azure Active Directory B2B sadarbības lietotāju pievienošana Azure portālā](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Ārējiem lietotājiem jābūt norādītiem savā nomnieka direktorijā (Azure Active Directory (Azure AD)), lai tiem varētu piešķirt licences. Šie ārējie lietotāji jāpievieno nomniekam Azure AD kā vieslietotāji un pēc tam jāpiešķir atbilstošās licences. Finance and Operations programmām ir prasība, ka viesa lietotāja uzņēmumam ir jāizmanto Azure AD. Papildinformāciju skatiet [Pievienot Azure Active Directory B2B sadarbības lietotājus Azure portālā](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Jaunu lietotāju importēšana no Azure AD 
 1. Dodieties uz **Sistēmas administrēšana** \> **Lietotāji** \> **Lietotāji**.
@@ -52,7 +51,7 @@ Sistēmas administratori var [piešķirt licences lietotājiem](https://docs.mic
 4. Laukā **Lietotāja vārds** ievadiet lietotāja vārdu.  
 5. Laukā **Nodrošinātājs**:
  - Iekšējiem lietotājiem izmantojiet noklusējuma vērtību. Piemēram, Azure AD nomnieka prefikss https://sts.windows.net/.  
- - Kontiem, kas Azure AD nav lietotāji, piemēram, Service-2-Service, ievadiet pamatteksta vērtību. Piemēram, NA. Šī vērtība palīdzēs izvairīties no nepareiziem autentifikācijas izsaukumi, kas var izraisīt kļūdas, ja tiek izmantota derīga identitātes nodrošinātāja vērtība.  
+ - Kontiem, kasAzure AD nav lietotāji, piemēram, Service-2-Service, ievadiet pamatteksta vērtību. Piemēram, NA. Šī vērtība palīdzēs izvairīties no nepareiziem autentifikācijas izsaukumi, kas var izraisīt kļūdas, ja tiek izmantota derīga identitātes nodrošinātāja vērtība.  
  - Ārējiem vai viesa lietotājiem pievienojiet viņu Azure AD nomnieka vārdu pēc https://sts.windows.net/.
 6. Laukā **E-pasts** ievadiet pilnu lietotāja e-pasta/lietotāja principa nosaukumu.  
 7. Laukā **Uzņēmums** atlasiet noklusējuma starta uzņēmumu lietotājam. 

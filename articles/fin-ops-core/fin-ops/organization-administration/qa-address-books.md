@@ -2,7 +2,6 @@
 title: Bieži uzdotie jautājumi par adrešu grāmatām
 description: Šajā tēmā ir sniegtas atbildes uz bieži uzdotajiem jautājumiem saistībā ar adrešu grāmatām.
 author: msftbrking
-manager: AnnBe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 57462e673a5f2a13f1b4a74d44482df3d0dab08f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559945"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747565"
 ---
 # <a name="address-books-faq"></a>Bieži uzdotie jautājumi par adrešu grāmatām
 
@@ -70,7 +69,7 @@ Varat iestatīt adreses informācijas tulkojumus tā, lai jūsu programmā infor
 
 ## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Pēc adrešu importēšanas, kad piekļūstu ierakstiem, kāpēc nevar rediģēt importētās adreses?
 
-Importējot adreses, ir lauks ar etiķeti **IsLocationOwner**, vai puse, kas saistīta ar atrašanās vietu (adresi), ir adreses īpašnieks. Ja puse ir adreses īpašnieks, adresi var rediģēt, kad tai piekļūstat, izmantojot pusi globālajā adrešu grāmatā vai no šablona ieraksta veidlapas (piemēram, debitors, kreditors vai darbinieks). Ja puse nav adreses īpašnieks, ierakstu nevar rediģēt no iepriekš uzskaitītajām veidlapām. Importējot adreses, lauks **IsLocationOwner** ir jāiestata uz **Jā**, ja vēlaties, lai adrese būtu rediģējama, izmantojot saistīto pusi. Tomēr ir reizes, kad šis lauks tiek nepareizi importēts. Lai novērstu šo problēmu, atrašanās vietas īpašnieku var atjaunināt globālajā adrešu grāmatā no puses ieraksta vai no lapas **Apstiprināt atrašanās vietas īpašniekus**. Lai atjauninātu vienas puses ierakstu, pārejiet uz sadaļu **Globālo adrešu grāmatu > Adrese**. Lai mainītu atrašanās vietas īpašnieku, atlasiet **Rediģēt**, kas palaidīs lapu  **Rediģēt adresi**. Atlasiet **Mainīt atrašanās vietas īpašnieku**, lai skatītu iepriekšējo atrašanās vietas īpašnieku ar pašlaik atlasīto pusi, kas ir jaunais atrašanās vietas īpašnieks. Ja iepriekšējais atrašanās vietas īpašnieks ir tukšs, tas nozīmē, ka atrašanās vietas īpašnieks nav izveidots. Atlasot opciju **Papildu**, tiks atvērta lapa **Pārvaldīt adreses**, kur var iestatīt arī atrašanās vietas īpašnieku. Atlasiet atjaunināmo atrašanās vietu un pēc tam izvēlnē atlasiet **Iestatīt atrašanās vietas īpašnieku**. Lai atjauninātu atrašanās vietas īpašnieku vairākiem ierakstiem, dodieties uz **Globālā adrešu grāmata > Atrašanās vietas > Apstiprināt aatrašanās vietas īpašniekus**. Sarakstā ir atrašanās vietas, kas ir saistītas ar vienu pusi, bet šī puse nav īpašnieks. Atlasot **Apstiprināt īpašnieku**, **Piedāvātās īpašnieka puses ID** tiks iestatīts kā saistītās adreses īpašnieks. Kad puse ir iestatīta kā īpašnieks, saistītā adrese būs rediģējama no puses ieraksta. Lai mainītu atrašanās vietas īpašnieku, lapā **Drošības konfigurācija** jums ir jāpiešķir privilēģija **Iestatīt atrašanās vietas īpašnieku**.  Sistēmas administratoram šī privilēģija ir piešķirta pēc noklusējuma.
+Importējot adreses, ir lauks ar etiķeti **IsLocationOwner**, vai puse, kas saistīta ar atrašanās vietu (adresi), ir adreses īpašnieks. Ja puse ir adreses īpašnieks, adresi var rediģēt, kad tai piekļūstat, izmantojot pusi globālajā adrešu grāmatā vai no šablona ieraksta veidlapas (piemēram, debitors, kreditors vai darbinieks). Ja puse nav adreses īpašnieks, ierakstu nevar rediģēt no iepriekš uzskaitītajām veidlapām. Importējot adreses, lauks **IsLocationOwner** ir jāiestata uz **Jā**, ja vēlaties, lai adrese būtu rediģējama, izmantojot saistīto pusi. Tomēr ir reizes, kad šis lauks tiek nepareizi importēts. Lai novērstu šo problēmu, atrašanās vietas īpašnieku var atjaunināt globālajā adrešu grāmatā no puses ieraksta vai no lapas **Apstiprināt atrašanās vietas īpašniekus**. Lai atjauninātu vienas puses ierakstu, pārejiet uz sadaļu **Globālo adrešu grāmatu > Adrese**. Lai mainītu atrašanās vietas īpašnieku, atlasiet **Rediģēt**, kas palaidīs lapu **Rediģēt adresi**. Atlasiet **Mainīt atrašanās vietas īpašnieku**, lai skatītu iepriekšējo atrašanās vietas īpašnieku ar pašlaik atlasīto pusi, kas ir jaunais atrašanās vietas īpašnieks. Ja iepriekšējais atrašanās vietas īpašnieks ir tukšs, tas nozīmē, ka atrašanās vietas īpašnieks nav izveidots. Atlasot opciju **Papildu**, tiks atvērta lapa **Pārvaldīt adreses**, kur var iestatīt arī atrašanās vietas īpašnieku. Atlasiet atjaunināmo atrašanās vietu un pēc tam izvēlnē atlasiet **Iestatīt atrašanās vietas īpašnieku**. Lai atjauninātu atrašanās vietas īpašnieku vairākiem ierakstiem, dodieties uz **Globālā adrešu grāmata > Atrašanās vietas > Apstiprināt aatrašanās vietas īpašniekus**. Sarakstā ir atrašanās vietas, kas ir saistītas ar vienu pusi, bet šī puse nav īpašnieks. Atlasot **Apstiprināt īpašnieku**, **Piedāvātās īpašnieka puses ID** tiks iestatīts kā saistītās adreses īpašnieks. Kad puse ir iestatīta kā īpašnieks, saistītā adrese būs rediģējama no puses ieraksta. Lai mainītu atrašanās vietas īpašnieku, lapā **Drošības konfigurācija** jums ir jāpiešķir privilēģija **Iestatīt atrašanās vietas īpašnieku**.  Sistēmas administratoram šī privilēģija ir piešķirta pēc noklusējuma.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: ER migrācijas tīrīšana
 description: Šajā tēmā skaidrots, kā var izmantot ER migrācijas tīrīšanas funkciju, lai atrisinātu problēmas ar ER veidnēm.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: b09afc30c401e2dccfc4114261dc5e713c8c470c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565519"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750890"
 ---
 # <a name="er-migration-cleanup"></a>ER migrācijas tīrīšana 
 
@@ -33,13 +32,13 @@ Ja mēģināt palaist ER formātu, kas izmanto veidni, lai ģenerētu biznesa do
 
 [![Palaist ER formātu](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
-Jūs redzēsiet līdzīgu kļūdu, ja pārvietosieties uz **Konfigurācijas** lapu ( **Organizācijas administrēšana**\> **Elektroniskie pārskati**\> **Konfigurācijas**) un konfigurāciju kokā, mēģināsiet dzēst ER formāta konfigurāciju, kas izmanto veidni.
+Jūs redzēsiet līdzīgu kļūdu, ja pārvietosieties uz **Konfigurācijas** lapu (**Organizācijas administrēšana** \> **Elektroniskie pārskati** \> **Konfigurācijas**) un konfigurāciju kokā, mēģināsiet dzēst ER formāta konfigurāciju, kas izmanto veidni.
 
 [![ER formāta dzēšana](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Veiciet tālāk norādītās darbības, lai atrisinātu problēmas ar ER veidnēm, kurām nevarat piekļūt.
 
-1.  Dodieties uz **Organizācijas administrēšana**\> **Periodiskie**\> **Migrācijas tīrīšana** lapu.
+1.  Dodieties uz **Organizācijas administrēšana** \> **Periodiskie** \> **Migrācijas tīrīšana** lapu.
 2.  Atlasiet ER formāta konfigurāciju, ko nevar izpildīt vai dzēst.
 3.  Atlasiet **Dzēst**.
 4.  Apstipriniet atlasītās ER formāta konfigurācijas dzēšanu.

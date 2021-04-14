@@ -1,8 +1,7 @@
 ---
 title: Jauni uzdevumu ceļveži (2016. gada februāris)
-description: Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.  Tika publicētas tādas bibliotēkas kā APQC vienotā bibliotēka programmai Microsoft Dynamics 365 for Operations (2016. gada februāris) un Darba sākšana (2016. gada februāris).
+description: Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,22 +14,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9caad79ab5c5b8796116f54ceead0097481c42e9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87c7b92b31456afc4c44427949bb2ae4dbbbf5c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566556"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749806"
 ---
 # <a name="new-task-guides-february-2016"></a>Jauni uzdevumu ceļveži (2016. gada februāris)
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī. Tika publicētas tādas bibliotēkas kā APQC vienotā bibliotēka programmai Microsoft Dynamics AX(2016. gada februāris) un Darba sākšana (2016. gada februāris).
+Šajā tēmā ir norādīti uzdevumu ceļveži, kas tika izlaisti Microsoft BMP bibliotēkās 2016. gada februārī. Tika publicētas tādas bibliotēkas kā APQC vienotā bibliotēka programmai Microsoft Dynamics AX (2016. gada februāris) un Darba sākšana (2016. gada februāris).
 
-## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada februāris)
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Uzdevumu ceļveži APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada februāris)
 
-APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli saistībā ar laidienu Dynamics AX 7.0.0. Ja jums ir nepieciešamas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli saistībā ar laidienu Dynamics AX 7.0.0. Ja jums ir nepieciešamas šo uzdevumu ceļvežu lokalizētās versijas, tās ir pieejamas APQC vienotajā bibliotēkā programmai Microsoft Dynamics AX (2016. gada maijs). Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
 ### <a name="accounts-payable"></a>Kreditori
 
@@ -475,7 +474,7 @@ APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļ
 | Aprēķina pievienošana preces konfigurācijas modelim                 | Globālais         |
 | Apstiprināt preces konfigurācijas modeli                              | Globālais         |
 | Izpildīt izlaistas preces šablona pamata iestatīšanu              | Globālais         |
-| Uz dimensijas \\financial-dimensions\\ balstīta preces šablona izveide  | Globālais         |
+| Uz dimensijas ..\\financial-dimensions\\balstīta preces šablona izveide  | Globālais         |
 | Preču klasifikācijas hierarhijas izveide                       | Globālais         |
 | Izveidot preces konfigurācijas modeli                               | Globālais         |
 | Izveidot preces šablonu                                            | Globālais         |
@@ -488,7 +487,7 @@ APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļ
 | Preces konfigurācijas modeļa MK uzturēšana                     | Globālais         |
 | Preces modeļa maršruta uzturēšana                                 | Globālais         |
 | Izlaisto preču pārvaldība                                           | Globālais         |
-| Uz dimensijas \\financial-dimensions\\ balstīta preces šablona izlaide | Globālais         |
+| Uz dimensijas ..\\financial-dimensions\\balstīta preces šablona izlaide | Globālais         |
 | Datu pārsūtīšana par preču modeļiem                                   | Globālais         |
 
 ### <a name="public-sector"></a>Publiskais sektors
@@ -630,7 +629,7 @@ APQC vienotajā bibliotēkā (2016. gada februāris) ir ietverti uzdevumu ceļ
 | Elektroniskie pārskati                               | Globālais         |
 | Darbinieku pašapkalpošanās                              | Globālais         |
 | Kā samazināt jūsu vidējo maksājuma saņemšanas termiņu          | Globālais         |
-| Ievads AX lokalizēšanas funkcionalitātē      | Globālais         |
+| Ievads AX lokalizēšanas funkcionalitātē      | Globālais         |
 | Iepazīstināšana ar valstij specifiskajiem līdzekļiem attiecībā uz Japānu | Japāna          |
 | Izcenojuma un veicināšanu pārvaldība                      | Globālais         |
 | Vadītāja pašapkalpošanās                               | Globālais         |

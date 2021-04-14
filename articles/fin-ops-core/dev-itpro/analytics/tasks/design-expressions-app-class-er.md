@@ -2,7 +2,6 @@
 title: ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 description: Šajā tēmā sniegta informācija par to, kā atkārtoti izmantot esošo programmas loģiku elektronisko pārskatu veidošanas (ER) konfigurācijās, izsaucot nepieciešamās programmas klašu metodes ER izteiksmēs.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11b4d185703731d8491ad10bdeedea40ce811f5d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 37cf01ac4b23717ebddaaefe6bcb06be0ff82dc6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564098"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752512"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER izteiksmju noformēšana programmas klases metožu izsaukšanai
 
@@ -101,7 +100,7 @@ Lai izpildītu tālāk norādītās darbības, vispirms ir jāizpilda darbības,
     * Kartēšana uz datu modeli  
 6. Noklikšķiniet uz Saglabāt.
 7. Noklikšķiniet uz Veidotājs.
-8. Koka struktūrā atlasiet Dynamics 365 for Operations\Klase.
+8. Koka struktūrā atlasiet 'Dynamics 365 for Operations\Klase.
 9. Noklikšķiniet uz Pievienot sakni.
     * Pievienojiet jaunu datu avotu, lai izsauktu esošo programmas loģiku IBAN kodu pārbaudei.  
 10. Laukā Nosaukums ierakstiet “check_codes”.

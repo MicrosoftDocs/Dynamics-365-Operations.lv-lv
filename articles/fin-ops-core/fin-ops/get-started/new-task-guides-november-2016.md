@@ -2,7 +2,6 @@
 title: Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)
 description: Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics 365 for Operations (2016. gada novembris — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa9910ec65899926a57b974f7e9a3f1f2becc5d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0c97b0bb3f18408cb4defe0a7aa52a5a5a08ce04
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566532"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749782"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Jauni vai atjaunināti uzdevumu ceļveži (2016. gada novembris)
 
@@ -28,10 +27,10 @@ ms.locfileid: "5566532"
 
 Šajā tēmā ir norādīti jaunie vai atjauninātie uzdevumu ceļveži, kas ir izlaisti Microsoft APQC vienotajā bibliotēkā programmai Microsoft Dynamics 365 for Operations (2016. gada novembris — visas valodas). Netika izlaista neviena jauna darba sākšanas bibliotēka.
 
-APQC vienotajā bibliotēkā (2016. gada novembris — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3. platformas atjauninājumu, Microsoft Dynamics AX 2. platformas atjauninājumu, Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
+APQC vienotajā bibliotēkā (2016. gada novembris — visas valodas) ir ietverti uzdevumu ceļveži, kas ir paredzēti izmantošanai kā palīdzības materiāli kopā ar Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3. platformas atjauninājumu, Microsoft Dynamics AX 2. platformas atjauninājumu, Dynamics AX 2016. gada maija atjauninājumu un Microsoft Dynamics AX 2016. gada februāra laidienu. Papildinformāciju par šiem laidieniem skatiet tēmā [Jaunumi un izmaiņas Finance and Operations sākumlapā](whats-new-changed.md). Šajā bibliotēkā ir pieejamas uzdevumu ceļvežu lokalizētās versijas. Papildinformāciju par to, kā izveidot palīdzības sistēmas savienojumu ar uzdevumu ceļvežu bibliotēku, skatiet tēmā [Palīdzības sistēma](help-overview.md).
 
 > [!NOTE]
-> Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics 365 for Operations 2016. gada novembra atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Microsoft Dynamics AX versijās.
+> Zvaigznīte (\*) blakus biznesa procesa modelētāja (BPM) rindai norāda, ka šī biznesa procesa uzdevuma ceļvedis ir izveidots Dynamics 365 for Operations 2016. gada novembra atjauninājumam un netiek atbalstīts iepriekšējās Microsoft Microsoft Dynamics AX versijās.
 
 ### <a name="accounts-payable"></a>Kreditori
 
@@ -301,13 +300,13 @@ APQC vienotajā bibliotēkā (2016. gada novembris — visas valodas) ir ietv
 | MY-00010 GST – ģenerēt GAF failus nepieciešamajā formātā                                                                         | Singapūra, Malaizija un Taizeme |
 | MY-00011 02 Ģenerēt debitora debeta notu projekta pārdošanai                                                                       | Singapūra, Malaizija un Taizeme |
 | MY-00011 03 Ģenerēt debitora kredīta notu projekta pārdošanai                                                                      | Singapūra, Malaizija un Taizeme |
-|  Izveidot pirkšanas pasūtījumu, kas satur krājumus, uz ko attiecas apgrieztais PVN                                                        | Apvienotā Karaliste                    |
-|  Izveidot pārdošanas pasūtījumu, kas satur krājumus, uz ko attiecas apgrieztais PVN                                                           | Apvienotā Karaliste                    |
+| Izveidot pirkšanas pasūtījumu, kas satur krājumus, uz ko attiecas apgrieztais PVN                                                        | Apvienotā Karaliste                    |
+| Izveidot pārdošanas pasūtījumu, kas satur krājumus, uz ko attiecas apgrieztais PVN                                                           | Apvienotā Karaliste                    |
 | GB-00002 Iestatīt apgrieztā PVN krājumu grupas, kārtulas un parametrus                                                            | Apvienotā Karaliste                    |
 | GB-00009 Izveidot kredīta notu par seguma atlaidi                                                                         | Apvienotā Karaliste                    |
 | GB-00009 Iestatīt kredīta notas parametrus par savlaicīga maksājuma atlaidi                                                             | Apvienotā Karaliste                    |
-|  Iestatīt krājumu PVN grupas apgrieztajam PVN                                                                              | Apvienotā Karaliste                    |
-|  Iestatīt PVN grupas apgrieztajam PVN                                                                                   | Apvienotā Karaliste                    |
+| Iestatīt krājumu PVN grupas apgrieztajam PVN                                                                              | Apvienotā Karaliste                    |
+| Iestatīt PVN grupas apgrieztajam PVN                                                                                   | Apvienotā Karaliste                    |
 
 ### <a name="expense-management"></a>Izmaksu pārvaldība
 
@@ -413,7 +412,7 @@ APQC vienotajā bibliotēkā (2016. gada novembris — visas valodas) ir ietv
 | Izveidot produktam svītrkodu                                        | Globāls         |
 | \*Preces numuru nomenklatūras izveide iepriekš definētiem preces variantiem | Globāls         |
 | \*Preces numuru nomenklatūras izveide konfigurētiem preces variantiem | Globāls         |
-| \* Krājuma noklusējuma pasūtījuma iestatījumu definēšana                            | Globāls         |
+| \*Krājuma noklusējuma pasūtījuma iestatījumu definēšana                            | Globāls         |
 | Izveidojiet pārdošanas pasūtījumu konfigurējamas produktam                        | Globāls         |
 | Izveidot pārdošanas cenu atlases kritērijus                                  | Globāls         |
 | Ievadiet produkta GTIN kodu                                      | Globāls         |
