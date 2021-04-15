@@ -2,7 +2,6 @@
 title: Rindu definīciju šūnu modificēšana
 description: Šajā tēmā ir izskaidrota informācija, kas ir nepieciešama katrai šūnai finanšu atskaites rindas definīcijā, un paskaidrots, kā šo informāciju ievadīt.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e1164166ece4df1257ef7300c1c68f4b20ec76c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564595"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755256"
 ---
 # <a name="modify-row-definition-cells"></a>Rindu definīciju šūnu modificēšana
 
@@ -276,7 +275,7 @@ Tālāk sniegtā piemēra ietvaros pārskata D kolonnas 160.–490. rindas vē
 
 Valūtas formatēšana attiecas naudas līdzekļu daudzumu un ietver valūtas simbolu. Ir pieejamas tālāk minētās opcijas.
 
-- **Valūtas simbols** — valūtas simbols, kas ir ietverams pārskatā. Šī vērtība ignorē uzņēmuma informācijas **Reģionālās opcijas** iestatījumu.
+- **Valūtas simbols** — valūtas simbols, kas ir ietverams pārskatā. Šī vērtība ignorē uzņēmuma informācijas **Reģionālās opcijas** iestatījumu.
 - **Negatīvi skaitļi** — negatīvie skaitļi var būt atzīmēti ar mīnusa zīmi (-), tie var parādīties iekavās vai tie var būt atzīmēti ar trīsstūri (∆).
 - **Decimāldaļas vietas** — ciparu skaits, ko rādīt pēc komata.
 - **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā.
@@ -310,7 +309,7 @@ Procentuālā formatēšana ietver procenta simbolu (%). Ir pieejamas tālāk m
 
 Izmantojiet pielāgotu formatēšanas kategoriju, lai izveidotu pielāgoto formātu, kas aizstās esošo. Ir pieejamas tālāk minētās opcijas.
 
-- **Tips** — pielāgotais formāts.
+- **Tips** — pielāgotais formāts.
 - **Nulles vērtības ignorēšanas teksts** — teksts, kas jāiekļauj pārskatā, ja summa ir 0 (nulle). Šis teksts tiek rādīts apgabala **Paraugs** pēdējā rindā.
 
     > [!NOTE]
@@ -363,14 +362,14 @@ Kad atlasāt noteiktu kontu, atskaišu veidotājs parasti kombinē kontu un fina
 |------------------|-------------------------------------------------------------------------------------------|
 | /BB              | Konta sākuma bilance.                                                     |
 | /\#              | Bilance norādītajam periodam.                                                     |
-| /-\#             | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
-| /+\#             | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
+| /-\#             | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
+| /+\#             | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
 | /C               | Bilance pašreizējam periodam.                                                       |
-| /C-\#            | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
-| /C+\#            | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
+| /C-\#            | Bilance periodam, kas ir \# periodus pirms pašreizējā perioda.                  |
+| /C+\#            | Bilance periodam, kas ir \# periodus pēc pašreizējā perioda.                   |
 | /Y               | Līdzšinējā gada bilance līdz pašreizējam periodam.                                      |
-| /Y-\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pirms pašreizējā perioda. |
-| /Y+\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pēc pašreizējā perioda.  |
+| /Y-\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pirms pašreizējā perioda. |
+| /Y+\#            | Līdzšinējā gada bilance līdz periodam, kas ir \# periodus pēc pašreizējā perioda.  |
 
 ### <a name="book-code-modifiers"></a>Grāmatas koda modifikatori
 
@@ -428,7 +427,7 @@ Jūs varat norādīt segmentu vērtību vai dimensiju vērtību diapazonu. Norā
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Vairāku segmentu vai vairāku dimensiju diapazoni
 
-Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\\financial-dimensions\\dimension-by-dimension basis. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams.
+Ja ievadāt diapazonu, izmantojot vairāku dimensiju vērtību kombinācijas, diapazona salīdzināšana tiek veikta katrai dimensijai atsevišķi ..\\financial-dimensions\\dimension-by-dimension basis. Diapazona salīdzināšanu nevar veikt rakstzīmi pēc rakstzīmes vai daļēji balstoties uz segmentu. Piemēram, diapazons **+Konts=\[5000:6000\], Nodaļa=\[1000:2000\], Izmaksu centrs=\[00\]** ietver tikai tos kontus, kas atbilst katram segmentam. Šī scenārija ietvaros pirmajai dimensijai ir jābūt diapazonā no 5000 līdz 6000, otrajai dimensijai ir jābūt diapazonā no 1000 līdz 2000 un pēdējai dimensijai ir jābūt 00. Piemēram, diapazons **+Konts=\[5100\], Nodaļa=\[1100\], Izmaksu centrs=\[01\]** netiek ietverts pārskatā, jo pēdējais segments ir ārpus norādītā diapazona. Ja segmenta vērtībā ir atstarpes, iekļaujiet šo vērtību kvadrātiekavās (\[ \]). Četrzīmju segmentam ir derīgas šādas vērtības: **\[ 234\], \[123 \], \[1 34\]**. Dimensiju vērtības ir jāietver kvadrātiekavās (\[ \]), un pārskatu noformētājs šīs iekavas pievieno jūsu vietā. Ja vairāku segmentu vai vairāku dimensiju diapazonā ir ietvertas aizstājējzīmes (? vai \*), tiek noteikta visa vairāku segmentu vai vairāku dimensiju diapazona lielākā un mazākā robežvērtība un pēc tam tiek iekļautas šīs robežvērtības un visas starp tām esošās vērtības. Ja jums ir liels diapazons, piemēram, viss kontu diapazons no 40000 līdz 99999, vajadzētu norādīt derīgu sākuma kontu un beigu kontu, ja vien iespējams.
 
 > [!NOTE] 
 > Pārskatu veidotājs nevar atlasīt Microsoft Dynamics ERP sistēmā esošos kontus, dimensijas vai laukus, kuros ir ietverta jebkura no šīm rezervētajām rakstzīmēm: &, \*, \[, \], { vai }. Varat pievienot & zīmi tikai tad, kad automātiski veidojat rindu definīcijas, izmantojot dialoglodziņu **Ievietot rindas no dimensijām**.

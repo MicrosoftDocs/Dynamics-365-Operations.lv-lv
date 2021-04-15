@@ -2,7 +2,6 @@
 title: Mākoņa un lokālās versijas līdzekļu salīdzinājums
 description: Šajā tēmā ir parādīts, kādi līdzekļi tiek atbalstīti mākoņa un lokālajā versijā.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566640"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744055"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Mākoņa un lokālās versijas līdzekļu salīdzinājums
 
@@ -43,9 +42,9 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |---------------------|-----------------------------|-----------|-----------------|
 | Atbilstība un sertifikācijas        |                                                                                           | Jā       | Jā             |
 |                                      | SOC 1 1. tipa sertifikācija                                                                | Jā       | Nē              |
-| Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             
+| Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             |
 |                                      | Eksportēt datus uz jūsu pašu datu noliktavu                                                    | Jā       | Jā             |
-|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā              |
+|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā             |
 |                                      | Datu integrācijas                                                                         | Jā       | Jā             |
 | Dokumentu vadība                  |                                                                                           | Jā       | Jā             |
 | Finanšu pārvaldība                 |                                                                                           | Jā       | Jā             |
@@ -62,8 +61,8 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |                                      | Analītiskās darbvietas                                                                     | Jā       | Nr.              |
 |                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nav              |
 |                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nav              |
-|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Nē              |
-|                                      | Telemetrija tiek pārsūtīta uz mākoni                                                   | Jā       | Nē              |
+|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Jā             |
+|                                      | Telemetrija tiek pārsūtīta uz mākoni                                                   | Jā       | Nr.              |
 | Lifecycle Services                   |                                                                                           | Jā       | Jā             |
 |                                      | Konfigurējami biznesa procesi                                                           | Jā       | Nē              |
 | Lokalizācijas                        |                                                                                           | Jā       | Jā             |
@@ -85,7 +84,7 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 
 | **Zona**                | **Līdzeklis**             | **Mākonis** | **Darba telpās** |
 |-------------------------|-------------------|-----------|-----------------|
-| Līdzekļu pārvaldība                     |                                                                                           | Jā       | Nr. |
+| Līdzekļu pārvaldība                     |                                                                                           | Jā       | Nr.              |
 | Atbilstība un sertifikācijas        |                                                                                           | Jā       | Jā             |
 |                                      | SOC 1 1. tipa sertifikācija                                                                | Jā       | Nav              |
 | Izmaksu uzskaite                      |                                                                                           | Jā       | Jā             |
@@ -96,7 +95,7 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 | Datu pārvaldība un integrācija      |                                                                                           | Jā       | Jā             |
 |                                      | Konfigurācijas vadīts paplašinājums                                                            | Jā       | Nav              |
 |                                      | Eksportēt datus uz jūsu pašu datu noliktavu                                                    | Jā       | Jā             |
-|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā              |
+|                                      | Iespējot inkrementālo atjauninājumu eksportēšanu uz datu elementu                                 | Jā       | Jā             |
 |                                      | Datu integrācijas                                                                         | Jā       | Jā             |
 | Dokumentu vadība                  |                                                                                           | Jā       | Jā             |
 | Palīdzība                                 |                                                                                           | Jā       | Nē              |
@@ -111,8 +110,8 @@ Nākamajās tabulās ir uzskaitīti programmu apgabali. Mākoņa un lokālās ve
 |                                      | Analītiskās darbvietas                                                                     | Jā       | Nr.              |
 |                                      | Inteliģents biznesa process: ieteikumi                                             | Jā       | Nav              |
 |                                      | OData saturošu Power BI pārskatu izveide, izmantojot Power BI darbvirsmu vai Excel PowerQuery rīkus    | Jā       | Nav              |
-|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Nē              |
-|                                      | Telemetrija tiek pārsūtīta uz mākoni                                                   | Jā       | Nē              |
+|                                      | SQL Server pārskatu izveides pakalpojumi (SSRS) atbalsta mērogošanu uz āru                                 | Jā       | Jā             |
+|                                      | Telemetrija tiek pārsūtīta uz mākoni                                                   | Jā       | Nr.              |
 | Krājumu vadība                 |                                                                                           | Jā       | Jā             |
 | Lifecycle Services                   |                                                                                           | Jā       | Jā             |
 |                                      | Konfigurējami biznesa procesi                                                           | Jā       | Nē              |
@@ -173,7 +172,7 @@ Lai apskatītu iespēju sarakstu, kuras ir pieejamas lokālajos izvietojumos, sk
 |                            | Jaunināšana un atbalsts iepriekšējām versijām | Jā       | Nr.              |
 | Visual Studio izstrāde  |                                           | Jā       | Jā             |
 
-\*Lokālajās vidēs PerfTimer parāda tikai klienta rezultātus.
+\* Lokālajās vidēs PerfTimer parāda tikai klienta rezultātus.
 
 
 

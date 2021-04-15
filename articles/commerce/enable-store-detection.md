@@ -2,11 +2,9 @@
 title: Veikala noteikšanas iespējošana pēc atrašanās vietas
 description: Šajā tēmā ir aprakstīts, kā ieslēgt uz atrašanās vietu balstītu veikala atrašanu jūsu Dynamics 365 Commerce vietnē.
 author: brianshook
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b34f156642b23f7b9754dac1ee81c7d0004872d8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478192"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799135"
 ---
 # <a name="enable-location-based-store-detection"></a>Veikala noteikšanas iespējošana pēc atrašanās vietas
 

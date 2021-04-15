@@ -2,11 +2,9 @@
 title: Izstrādes apskats
 description: Šī Izstrādātāja rokasgrāmata sniedz API un pielāgoto lauku atsauci. Tas sniedz arī informāciju par integrēšanu ar citām programmām.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e390592b000c8f6006aa489fd3823c4f15cb2cb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 5e67749e6f10b1c9202605b26164e30e5d39aa28
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467799"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793589"
 ---
 # <a name="development-overview"></a>Izstrādes apskats
 
@@ -43,7 +41,7 @@ ms.locfileid: "5467799"
 
 - Datu integrācijas iestatīšana
   - [Datu integrācijas tehnoloģijas izvēle](hr-admin-integration-choose-technology.md)
-  - [Dataverse integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
+  - [Pakalpojuma Dataverse integrācijas konfigurēšana](hr-admin-integration-common-data-service.md)
   - [Integrācijas konfigurēšana ar Finance](hr-admin-integration-finance.md)
   - [Integrācijas konfigurēšana ar Dayforce](hr-admin-integration-dayforce.md)
   - [Periodiskas datu eksportēšanas programmas izveide](hr-admin-integration-recurring-data-export.md)

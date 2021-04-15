@@ -2,7 +2,6 @@
 title: Manuālu lēmumu konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt manuāla lēmuma rekvizītus.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f49083c3564aa24c4c5b2e79aafcfd13bd1793ab
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e16ed97351423a50aff433d535ea4c575d97e7fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563110"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747883"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Manuālu lēmumu konfigurēšana darbplūsmā
 
@@ -106,8 +105,8 @@ Varat nosūtīt lietotājiem paziņojumus, ja lēmums ir pieņemts, deleģēts v
 1. Kreisajā rūtī noklikšķiniet uz **Paziņojumi**.
 2. Atzīmējiet izvēles rūtiņu pie notikumiem, par kuriem tiek sūtīti paziņojumi:
 
-    - **\[1. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
-    - **\[2. izvēle\]**  — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
+    - **\[1. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[1. izvēle\]**.
+    - **\[2. izvēle\]** — piešķirtais lietotājs ir atlasījis vienumu **\[2. izvēle\]**.
     - **Deleģēt**— piešķirtais lietotājs lēmumu ir piešķīris citam lietotājam.
     - **Eskalēt** — piešķirtais lietotājs nav pieņēmis lēmumu atvēlētajā laikā.
 
@@ -212,9 +211,9 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir manuālais l
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem lēmums jāpiešķir: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek piešķirts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek piešķirts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek piešķirts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -290,9 +289,9 @@ Ja lietotājs nepieņem lēmumu atvēlētajā laikā, lēmums ir nokavēts. Lēm
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic lēmuma eskalācija: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — lēmums tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — lēmums tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — lēmums netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>

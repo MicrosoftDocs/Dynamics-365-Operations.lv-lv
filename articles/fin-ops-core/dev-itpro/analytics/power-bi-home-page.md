@@ -2,7 +2,6 @@
 title: Power BI satura sākumlapa
 description: Šajā tēmā ir uzskaitīti pieejamie PowerBI.com risinājumi, kā arī ir norādīti resursi, kur par attiecīgajiem risinājumiem varat uzzināt vairāk.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a3a16fa3fb92b446eecf6459b5a7c65f7560c20
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0be4f3526e7a81398a3e06aef9432ef0c60945ed
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564467"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753122"
 ---
 # <a name="power-bi-content-home-page"></a>Power BI satura mājas lapa
 
@@ -59,11 +58,11 @@ Tālāk minētie PowerBI.com risinājumi ir pieejami LCS koplietojamo līdzekļu
 Pakalpojumā [Microsoft AppSource](https://appsource.microsoft.com) ir pieejami tālāk norādītie PowerBI.com risinājumi.
 
 > [!NOTE]
-> Šie risinājumi ir novecojuši, kā tas ir dokumentēts rakstā [Vietnē AppSource pieejamās Power BI satura pakotnes](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Šie risinājumi ir novecojuši, kā tas ir dokumentēts rakstā [Power BI satura pakotnes pieejamās AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - Izmaksu pārvaldība
 - [Finanšu veiktspēja](financial-performance-power-bi-content-pack.md)
-- [Mazumtirdzniecības kanāla veiktspēja ](retail-channel-performance-dashboard-power-bi-data.md)
+- [Mazumtirdzniecības kanāla veiktspēja](retail-channel-performance-dashboard-power-bi-data.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Optimizācijas padomnieka pārskats
 description: Šajā tēmā ir aprakstīts, kā varat izmantot optimizācijas padomnieku, lai palīdzētu nodrošināt optimālu Finance and Operations konfigurāciju.
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b3c839e7c75201ca61dceee43a058b391be56fcf
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 37cc903c97fc4838a8017419ba392256f37fe019
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568244"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745959"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizācijas padomnieka pārskats
 
@@ -68,7 +67,7 @@ Ja netiek izmantota īpaša funkcionalitāte, kuras vadībai ir nepieciešama ko
 
 ### <a name="business-data-consistency-and-cleanup"></a>Biznesa datu konsekvence un tīrīšana
 
-Ja pamatdati nav pareizi (piemēram, ja ir pārveidotas nedefinētas mērvienības vai ja pārveidotās mērvienības ir dalītas ar 0 \[nulle\]), tiek ģenerēta optimizācijas iespēja, kas ieteiks izlabot datus. 
+Ja pamatdati nav pareizi (piemēram, ja ir pārveidotas nedefinētas mērvienības vai ja pārveidotās mērvienības ir dalītas ar 0 \[nulle\]), tiek ģenerēta optimizācijas iespēja, kas ieteiks izlabot datus. 
 
 Ja jums ir pārāk daudz pakešuzdevumu vēstures ierakstu, novecojušu krājumu, slēgtu rīcībā esošo ierakstu noliktavas iespējotajiem krājumiem u. c. ierakstu vai ja šie ieraksti un krājumi ir pārāk veci, tiek ģenerēta optimizācijas iespēja, kas ieteiks iztīrīt datus. Iztīrot datus, varat palīdzēt uzlabot sistēmas veiktspēju kopumā.
 

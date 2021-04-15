@@ -2,7 +2,6 @@
 title: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 description: Šajā tēmā izskaidrots, kā paplašināt elektronisko pārskatu veidošanas (Electronic Reporting — ER) formātu ģenerēto dokumentu glabāšanas vietu sarakstu.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b71ad5a9701922eb94b1d611e2d3f6a945ce6c06
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562242"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753724"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
 
@@ -111,8 +110,8 @@ public DocuRef insertFile(
 
 Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk norādītie ER galamērķi.
 
-- **Arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Aplams**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas atlasīts šajā ER galamērķī, nosaka pievienotā faila glabāšanas vietu (Microsoft Azure krātuve vai Microsoft SharePoint mape).
-- **Darbu arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Pareizs**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas ir konfigurēts ER parametros, nosaka pievienotā faila glabāšanas vietu (Azure krātuve vai SharePoint mape).
+- **Arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Aplams**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas atlasīts šajā ER galamērķī, nosaka pievienotā faila glabāšanas vietu (Microsoft Azure krātuve vai Microsoft SharePoint mape).
+- **Darbu arhīvs** — ja tiek izmantots šis galamērķis, tabulā ERFormatMappingRunJobTable tiek izveidots jauns ieraksts par izpildīto ER formātu. Lauks **Arhivēts** šajā ierakstā ir iestatīts uz **Pareizs**. Ja ER formāts ir veiksmīgi izpildīts, ģenerētais dokuments tiek pievienots šim ierakstam, un tiek parādīts notikums **AttachingFile()**. Dokumenta veids, kas ir konfigurēts ER parametros, nosaka pievienotā faila glabāšanas vietu (Azure krātuve vai SharePoint mape).
 
 ![Elektronisko pārskatu veidošanas parametru lapa](media/er-extend-file-storages-parameters.png)
 
@@ -125,7 +124,7 @@ Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk nor�
 
 ## <a name="modify-source-code"></a>Pirmkoda modificēšana
 
-1. Pievienojiet jaunu klasi savam Microsoft Visual Studio projektam un ievadiet kodu, lai abonētu notikumu **AttachingFile()**, kas tika minēts iepriekš. (Papildinformāciju par izmantoto paplašināmības modeli skatiet tēmā [Atbildēšana, izmantojot EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Piemēram, jaunai klasei ievadiet kodu, kas veic tālāk norādītās darbības.
+1. Pievienojiet jaunu klasi savam Microsoft Visual Studio projektam un ievadiet kodu, lai abonētu notikumu **AttachingFile()**, kas tika minēts iepriekš. (Papildinformāciju par izmantoto paplašināmības modeli skatiet tēmā [Atbildēšana, izmantojot EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Piemēram, jaunai klasei ievadiet kodu, kas veic tālāk norādītās darbības.
 
     1. Saglabājiet ģenerētos failus vietējās failu sistēmas mapē serverī, kurā darbojas pakalpojums Application Object Server (AOS).
     2. Saglabājiet šos ģenerētos failus tikai tad, ja tiek izmantots jaunais dokumenta veids (piemēram, veids **FileX**, kura nosaukumā ir atslēgvārds “(LOCAL)”), kamēr fails tiek pievienots ierakstam ER izpildes darbu žurnālā.
@@ -167,7 +166,7 @@ Notikums **AttachingFile()** tiek parādīts, kad tiek apstrādāti tālāk nor�
 ## <a name="run-the-er-format-that-you-created-or-imported"></a>Izveidotā vai importētā ER formāta palaišana
 
 1. Izpildiet izveidoto vai importēto ER formātu.
-2. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Elektronisko pārskatu veidošanas darbi**. Atrodiet ierakstu, kas bija izveidots šim izpildes darbam un kuram ir pievienots ģenerētais fails.
+2. Dodieties uz **Organizācijas administrēšana \> Elektronisko pārskatu veidošana \> Elektronisko pārskatu veidošanas darbi**. Atrodiet ierakstu, kas bija izveidots šim izpildes darbam un kuram ir pievienots ģenerētais fails.
 3. Izpētiet vietējo mapi **c:\\0**, lai atrastu pašu ģenerēto failu.
 
 ## <a name="additional-resources"></a>Papildu resursi

@@ -2,8 +2,7 @@
 title: Lokālo izvietojumu sākumlapa
 description: Šajā tēmā ir sniegta informācija un saites uz saturu par lokālajiem izvietojumiem.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749309"
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
@@ -38,14 +37,16 @@ Varat izvietot programmu Dynamics 365 Finance + Operations (lokālo versiju). Iz
 
 ## <a name="onboard"></a>Pievienošana
 - [Lokālo projektu iestatīšana pakalpojumā Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Lokālu vižu iestatīšana un izvietošana (Platform update 12 un jaunākas versijas)](setup-deploy-on-premises-pu12.md)
+- [Lokālu vižu iestatīšana un izvietošana (Platform update 41 un jaunākas versijas)](setup-deploy-on-premises-pu41.md)
+- [Lokālas vides iestatīšana un izvietošana (12.–40. Platform atjauninājums)](setup-deploy-on-premises-pu12.md)
 - [Tīkla printera ierīču instalēšana lokālās vidēs](../analytics/install-network-printer-onprem.md)
 - [SQL Server pārskatu izveides pakalpojumu konfigurēšana lokāliem izvietojumiem](../analytics/configure-ssrs-on-premises.md)
-- [Pielāgotu modeļu izstrāde un izvietošana lokālām vidēm](develop-deploy-custom-models-on-premises.md)
+- [Pielāgotu modeļu izstrāde un izvietošana lokālās vidēs](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Darbs lokālajā izvietojumā
+- [Augstas pieejamības konfigurēšana SQL Server pārskatu izveides pakalpojumu (SSRS) mezgliem](onprem-SSRSHA.md)
 - [Dokumentu pārvaldības konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md)
-- [Elektronisko pārskatu veidošanas (ER) konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Elektronisko atskaišu veidošanas (ER) konfigurāciju importēšana](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentu ģenerēšana, publicēšana un drukāšana lokālos izvietojumos](../analytics/printing-capabilities-on-premises.md)
 - [Starpniekserveru konfigurēšana lokālās vidēs](onprem-reverseproxy.md)
 - [Tehniskā atbalsta iestatīšana Finance and Operations programmām](../lifecycle-services/support-experience.md)

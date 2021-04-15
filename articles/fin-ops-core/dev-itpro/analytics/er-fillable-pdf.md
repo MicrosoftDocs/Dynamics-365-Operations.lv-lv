@@ -2,8 +2,7 @@
 title: Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (Electronic reporting — ER)formāta izstrādi, lai aizpildītu PDF veidni.
 author: NickSelin
-manager: AnnBe
-ms.date: 04/19/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ac7f1c3fc0b03a42012ea14369eef554c6ea30f3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561786"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753292"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Elektronisko pārskatu konfigurāciju izstrāde, lai aizpildītu PDF veidnes
 
 [!include[banner](../includes/banner.md)]
 
-Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma i r **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Service (RCS).
+Šajā tēmā minētās procedūras ir piemēri, kas parāda, kā lietotājs, kura loma ir **Sistēmas administrators** vai **Elektroniskā pārskata izstrādātājs**, lomā var konfigurēt elektronisko pārskatu (ER) formātu, kas ģenerē pārskatus kā PDF failus, izmantojot aizpildāmus PDF dokumentus kā pārskatu veidnes. Šīs darbības var veikt jebkurā uzņēmumā, kas izmanto Dynamics 365 Finance vai Regulatory Configuration Service (RCS).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -46,15 +45,15 @@ Pirms sākat, jums ir nepieciešams kāds no tālāk minētajiem piekļuves veid
 
 Ir jāizpilda arī procedūra [Konfigurācijas nodrošinātāju izveide un atzīmēšana par aktīviem](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Visbeidzot jums ir jālejupielādē tālāk norādītie faili lapā [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
+Visbeidzot lejupielādējiet tālāk norādītus failus.
 
 | Satura apraksts                       | Faila nosaukums                                     |
 |-------------------------------------------|-----------------------------------------------|
-| Pārskata pirmās lapas veidne | [IntrastatReportTemplate1.pdf](https://mbs.microsoft.com/Files/public/CS)                  |
-| Pārskata pārējo lapu veidne    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
-| Parauga ER formāts — PDF                          | [Intrastat report (PDF).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
-| Parauga ER formāts — Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
-| Parauga datu kopa                            | [Intrastat sample data.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
+| Pārskata pirmās lapas veidne | [IntrastatReportTemplate1.pdf](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
+| Pārskata pārējo lapu veidne    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
+| Parauga ER formāts — PDF                          | [Intrastat report (PDF).version.1.1.xml](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
+| Parauga ER formāts — Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
+| Parauga datu kopa                            | [Intrastat sample data.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>Formāta konfigurācijas noformēšana
 
@@ -134,7 +133,7 @@ Tālāk redzamajā attēla ir pārskata pārējo lapu PDF veidne.
 7. Atlasiet **Labi**.
 8. Darbību rūts cilnē **Importēšana** atlasiet **Importēt no PDF**.
 
-    Kad aizpildāms PDF dokuments tiek importēts kā veidne šim ER formātam, visi pieprasītie ER formāta elementi (**PDF fails**, **Lauku grupa** un **Lauks**) tiek automātiski izveidoti formātā, kas ir izstrādāts, pamatojoties uz importējamā PDF dokumenta struktūru.
+    Kad aizpildāms PDF dokuments tiek importēts kā veidne šim ER formātam, visi pieprasītie ER formāta elementi (**PDF fails**, **Lauku grupa** un **Lauks** ) tiek automātiski izveidoti formātā, kas ir izstrādāts, pamatojoties uz importējamā PDF dokumenta struktūru.
 
 9. Atlasiet **Pārlūkot**. Dodieties uz failu **IntrastatReportTemplate1. PDF**, ko lejupielādējāt agrāk kā priekšnosacījumu, un atlasiet to.
 10. Atlasiet **Labi**.
@@ -162,9 +161,9 @@ Tālāk redzamajā attēla ir pārskata pārējo lapu PDF veidne.
 
     Šis formāta elements tiks izmantots, lai ģenerētu pārskata **Intrastat kontrole** pirmo lapu. Šajā lapā tiks parādīts pārskata kopsavilkums un detalizēta informācija par ārējās tirdzniecības transakcijām.
 
-    Ja lauks **Valodas preferences** tiks atstāts tukšs, iestatījums **Valodas preferences** (galvenais elements **PDF apvienotājs**) noteiks tā pārskata valodu, kas tiek ģenerēts, izmantojot šo formāta elementu. Varat atlasīt citu vērtību, lai ignorētu galvenā elementa iestatījumu.
+    Ja lauks **Valodas preferences** tiks atstāts tukšs, iestatījums **Valodas preferences** (galvenais elements **PDF apvienotājs** ) noteiks tā pārskata valodu, kas tiek ģenerēts, izmantojot šo formāta elementu. Varat atlasīt citu vērtību, lai ignorētu galvenā elementa iestatījumu.
 
-    Ja lauks **Kultūras preferences** tiks atstāts tukšs, iestatījums **Kultūras preferences** (galvenais elements **PDF apvienotājs**) noteikts tā pārskata lokalizāciju, kas tiek ģenerēts, izmantojot šo formāta elementu. Lokalizācija nosaka vērtību un datumu formātu pārskata lapās. Varat atlasīt citu vērtību, lai ignorētu galvenā elementa iestatījumu.
+    Ja lauks **Kultūras preferences** tiks atstāts tukšs, iestatījums **Kultūras preferences** (galvenais elements **PDF apvienotājs** ) noteikts tā pārskata lokalizāciju, kas tiek ģenerēts, izmantojot šo formāta elementu. Lokalizācija nosaka vērtību un datumu formātu pārskata lapās. Varat atlasīt citu vērtību, lai ignorētu galvenā elementa iestatījumu.
 
 17. Darbības rūtī atlasiet cilni **Importēt**. Ņemiet vērā, ka atlasītajam formāta elementam **PDF fails** ir kļuvusi pieejama poga **Atjaunināt no PDF faila**.
 
@@ -220,15 +219,15 @@ Pēc tam importējiet parauga ER formātu, ko iepriekš lejupielādējāt, lai 
 
     Ņemiet vērā tālāk norādīto informāciju.
 
-    - Formāta elements **Izvade \> 1. lapa** (tips **PDF fails**) nav piesaistīts nevienam datu avotam, un šī formāta elementa izteiksme **Iespējots** ir tukša. Tāpēc izpildes laikā PDF veidne **IntrastatReportTemplate1** tiks aizpildīta tikai vienu reizi, kad tiek ģenerēts atsevišķs PDF dokuments.
-    - Formāta elements **Izvade \> N. lapa** (tips **PDF fails**) ir piesaistīts tipa **Ierakstu saraksts** datu avotam **Paging.PageN**, un šī formāta elementa izteiksme **Iespējots** ir tukša. Tāpēc izpildes laikā PDF veidne **IntrastatReportTemplate2** tiks aizpildīta katram ierakstam no piesaistīto ierakstu saraksta, kad tiek ģenerēts atsevišķs PDF dokuments.
+    - Formāta elements **Izvade \> 1. lapa** (tips **PDF fails** ) nav piesaistīts nevienam datu avotam, un šī formāta elementa izteiksme **Iespējots** ir tukša. Tāpēc izpildes laikā PDF veidne **IntrastatReportTemplate1** tiks aizpildīta tikai vienu reizi, kad tiek ģenerēts atsevišķs PDF dokuments.
+    - Formāta elements **Izvade \> N. lapa** (tips **PDF fails** ) ir piesaistīts tipa **Ierakstu saraksts** datu avotam **Paging.PageN**, un šī formāta elementa izteiksme **Iespējots** ir tukša. Tāpēc izpildes laikā PDF veidne **IntrastatReportTemplate2** tiks aizpildīta katram ierakstam no piesaistīto ierakstu saraksta, kad tiek ģenerēts atsevišķs PDF dokuments.
     - Tā kā formāta elementi **1. lapa: PDF fails** un **N. lapa:: PDF fails** ir formāta elementa **Izvade: PDF apvienotājs** atvasinātie elementi, visi aizpildītie PDF dokumenti tiks sapludināti vienā gala PDF dokumentā.
     - Datu avoti **Paging.Page1** un **Paging.PageN** tiek konfigurēti kā datu avota **Paging.Pages** ierakstu filtri. Šis datu avots ir konfigurēts, lai sadalītu visu ārējās tirdzniecības transakciju kopumu partijās. Katrā no partijām ietverts līdz 42 ierakstiem. Transakciju sadalīšanai partijās tiek izmantota šāda ER izteikmse:
 
         SPLITLIST(Totals.CommodityRecord,42)
 
-    - Datu avotā **Paging.Pages** ir elements **Paging.Pages.Enumerated**, kas atgriež detalizēto informāciju par katru partijā iekļauto ierakstu. Šajā detalizētajā informācijā ir iekļauta ieraksta secība pašreizēja partijā (lauks **Paging.Pages.Enumerated.Number**). Lauks **Paging.Pages.Enumerated.Number** tiek izmantots formāta elementu **PDF lauks** izteiksmē **Nosaukums**, lai dinamiski ģenerētu lauka nosaukumu, kas ir balstīts uz transakcijas numuru partijā. Pēc tam ģenerētais lauka nosaukums tiek izmantots, lai aizpildītu atbilstošo PDF lauku izmantotajā PDF veidnē.
-    - Formāta elements **Izvade \> N. lapa \> 2. detalizēta informācija** (tips **PDF grupa**) ir piesaistīts datu avotam **Paging.PageN.Enumerated** (vai **\@.Enumerated**, ja tiek izmantots skatīšanas režīms **Relatīvais ceļš**), kura tips ir **Ierakstu saraksts**. Tāpēc izpildes laikā šīs PDF grupas ligzdotie elementi tiks aizpildīti katram ierakstam no piessaistīto ierakstu saraksta. Tādējādi tiek virtuāli ģenerētas atsevišķas PDF rindas, kad katram N. no 42. ierakstiem sarakstā **Paging.PageN.Enumerated** tiek aizpildīti šādi PDF lauki: Datums N, Virziens N, Prece N utt. Tātad šajā ziņā formāta elementa **Lauka grupa** uzvedība līdzinās formāta elementu **XML \> Secība** un **Teksts \> Secība** uzvedībai.
+    - Datu avotā **Paging.Pages** ir elements **Paging.Pages.Enumerated**, kas atgriež detalizēto informāciju par katru partijā iekļauto ierakstu. Šajā detalizētajā informācijā ir iekļauta ieraksta secība pašreizēja partijā (lauks **Paging.Pages.Enumerated.Number** ). Lauks **Paging.Pages.Enumerated.Number** tiek izmantots formāta elementu **PDF lauks** izteiksmē **Nosaukums**, lai dinamiski ģenerētu lauka nosaukumu, kas ir balstīts uz transakcijas numuru partijā. Pēc tam ģenerētais lauka nosaukums tiek izmantots, lai aizpildītu atbilstošo PDF lauku izmantotajā PDF veidnē.
+    - Formāta elements **Izvade \> N. lapa \> 2. detalizēta informācija** (tips **PDF grupa** ) ir piesaistīts datu avotam **Paging.PageN.Enumerated** (vai **\@.Enumerated**, ja tiek izmantots skatīšanas režīms **Relatīvais ceļš** ), kura tips ir **Ierakstu saraksts**. Tāpēc izpildes laikā šīs PDF grupas ligzdotie elementi tiks aizpildīti katram ierakstam no piessaistīto ierakstu saraksta. Tādējādi tiek virtuāli ģenerētas atsevišķas PDF rindas, kad katram N. no 42. ierakstiem sarakstā **Paging.PageN.Enumerated** tiek aizpildīti šādi PDF lauki: Datums N, Virziens N, Prece N utt. Tātad šajā ziņā formāta elementa **Lauka grupa** uzvedība līdzinās formāta elementu **XML \> Secība** un **Teksts \> Secība** uzvedībai.
 
 3. Kokā izvērsiet sadaļu **Izvade \> N. lapa \> Details2**.
 4. Kokā atlasiet **Izvade \> N. lapa \> Details2 \> PageFooter**.

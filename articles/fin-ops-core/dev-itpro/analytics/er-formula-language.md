@@ -2,7 +2,6 @@
 title: Elektronisko atskaišu veidošanas formulas valoda
 description: Šajā tēmā ir sniegta informācija pat to, kā izmantot formulu valodu elektronisko atskaišu (ER) veidošanā.
 author: NickSelin
-manager: kfend
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 846a9373fc15065513e634b15d9dac1eccc46a99
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561809"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753268"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronisko atskaišu veidošanas formulas valoda
 
@@ -43,7 +42,7 @@ ER izteiksmes var saturēt jebkuru vai visus no šādiem elementiem:
 
 Kad veidojat izteiksmes, varat lietot teksta un skaitļu konstantes (t.i., vērtības, kas netiek aprēķinātas). Piemēram, izteiksme `VALUE ("100") + 20` lieto skaitļu konstanti **20** un virknes konstanti **"100"**, un atgriež skaitlisku vērtību **120**.
 
-ER formulas veidotājs atbalsta atsoļa sekvences. Tādējādi varat norādīt, kura izteiksmes virkne ir jāapstrādā citādi. Piemēram, izteiksme `"Leo Tolstoy ""War and Peace"" Volume 1"`atgriež teksta virkni **Leo Tolstoy "War and Peace" Volume 1**.
+ER formulas veidotājs atbalsta atsoļa sekvences. Tādējādi varat norādīt, kura izteiksmes virkne ir jāapstrādā citādi. Piemēram, izteiksme `"Leo Tolstoy ""War and Peace"" Volume 1"` atgriež teksta virkni **Leo Tolstoy "War and Peace" Volume 1**.
 
 ## <a name=""></a><a name="Operators">Operatori</a>
 
@@ -87,7 +86,7 @@ Ir svarīgi, kādā secībā tiek vērtētas saliktas izteiksmes daļas. Piemēr
 | 2          | Salīdzinājums     | … &lt; …<br>… &lt;= …<br>… =&gt; …<br>… &gt; …<br>… = …<br>… &lt;&gt; … |
 | 1          | Atdalīšana     | … , …                                                                   |
 
-Ja izteiksmē ir vairāki secīgi operatori ar vienādu prioritātes vērtību, šie operatori tiek vērtēti no kreisās uz labo pusi. Piemēram, izteiksme  `1 + 6 / 2 \* 3 > 5` atgriež vērtību **true**. Ieteicams izmantot iekavas, lai skaidri norādītu vēlamo operāciju secību izteiksmēs, lai izteiksmes būtu vieglāk lasāmas un uzturamas.
+Ja izteiksmē ir vairāki secīgi operatori ar vienādu prioritātes vērtību, šie operatori tiek vērtēti no kreisās uz labo pusi. Piemēram, izteiksme `1 + 6 / 2 \* 3 > 5` atgriež vērtību **true**. Ieteicams izmantot iekavas, lai skaidri norādītu vēlamo operāciju secību izteiksmēs, lai izteiksmes būtu vieglāk lasāmas un uzturamas.
 
 ## <a name=""></a><a name="References">Atsauces</a>
 
@@ -112,15 +111,15 @@ Varat ierobežot veidu, kādā vērtības tiek nodotas šī tipa metodes paramet
 
 ## <a name=""></a><a name="Paths">Ceļi</a>
 
-Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējā ER datu modeļa kartēšana ietver datu avotu **InvoiceTransactions**, un šis datu avots atgriež ierakstu sarakstu. Ieraksta **InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, un šie abi lauki atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto summu, var noformēt šādu izteiksmi: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Šīs `InvoiceTransactions.AmountDebit`izteiksmes konstrukcija ir ceļš, kas tiek izmantots, lai piekļūtu veida **Record List** datu avota **InvoiceTransactions** laukam *AmountDebit*.
+Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējā ER datu modeļa kartēšana ietver datu avotu **InvoiceTransactions**, un šis datu avots atgriež ierakstu sarakstu. Ieraksta **InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, un šie abi lauki atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto summu, var noformēt šādu izteiksmi: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Šīs `InvoiceTransactions.AmountDebit` izteiksmes konstrukcija ir ceļš, kas tiek izmantots, lai piekļūtu veida **Record List** datu avota **InvoiceTransactions** laukam *AmountDebit*.
 
 ### <a name="relative-path"></a>Relatīvais ceļš
 
-Ja strukturētā datu avota ceļš sākas ar zīmi "at" (@), tas ir relatīvs ceļš. "At" zīme tiek rādīta atlikušās izmantotās hierarhiskā koka absolūtā ceļa daļas vietā. Tālāk redzamajā attēlā parādīts piemērs. Šeit absolūtais ceļš `Ledger.'accountingCurrency()'`norāda, ka **Virsgrāmatas** datu avota uzskaites valūtas vērtība tiek ievadīta datu modeļa laukā **AccountingCurrency**.
+Ja strukturētā datu avota ceļš sākas ar zīmi "at" (@), tas ir relatīvs ceļš. "At" zīme tiek rādīta atlikušās izmantotās hierarhiskā koka absolūtā ceļa daļas vietā. Tālāk redzamajā attēlā parādīts piemērs. Šeit absolūtais ceļš `Ledger.'accountingCurrency()'` norāda, ka **Virsgrāmatas** datu avota uzskaites valūtas vērtība tiek ievadīta datu modeļa laukā **AccountingCurrency**.
 
 ![Absolūtā ceļa piemērs ER modeļa kartēšanas noformētāja lapā](./media/ER-FormulaLanguage-AbsolutePath.png)
 
-Šajā ilustrācijā ir parādīts piemērs tam, kā tiek izmantots relatīvais ceļš. Relatīvais ceļš `@.AccountNum` norāda, ka lauks **AccountNum** datu avotā **Intrastat** (kas datu modeļa hierarhiskajā kokā tiek parādīts vienu līmeni virs lauka **AccountNum**) tiek izmantots, lai datu modeļa laukā **AccountNum** ievadītu debitora vai kreditora kodu.
+Šajā ilustrācijā ir parādīts piemērs tam, kā tiek izmantots relatīvais ceļš. Relatīvais ceļš `@.AccountNum` norāda, ka lauks **AccountNum** datu avotā **Intrastat** (kas datu modeļa hierarhiskajā kokā tiek parādīts vienu līmeni virs lauka **AccountNum** ) tiek izmantots, lai datu modeļa laukā **AccountNum** ievadītu debitora vai kreditora kodu.
 
 ![Relatīvā ceļa piemērs ER modeļa kartēšanas noformētāja lapā](./media/ER-FormulaLanguage-RelativePath1.png)
 

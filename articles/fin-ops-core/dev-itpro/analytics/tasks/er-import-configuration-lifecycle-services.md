@@ -2,7 +2,6 @@
 title: Importēt konfigurāciju no Lifecycle Services
 description: Šajā tēmā ir aprakstīts, kā no Microsoft Dynamics Lifecycle Services (LCS) importēt jaunu elektronisko pārskatu (ER) konfigurācijas versiju.
 author: NickSelin
-manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 636ed27c157c8322cc1be4ca8eca10ef37eb8bbc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569513"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752368"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importēt konfigurāciju no Lifecycle Services
 

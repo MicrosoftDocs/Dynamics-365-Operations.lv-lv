@@ -2,11 +2,9 @@
 title: Autentifikācija
 description: Šajā rakstā ir sniegta informācija par to, kā autentificēties Microsoft Dynamics 365 Human Resources datu programmu programmēšanas interfeisā (API).
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 60774d162d733404166e710932291a736eb0d8b4
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465538"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793685"
 ---
 # <a name="authentication"></a>Autentifikācija
 
@@ -66,7 +64,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 2. Ja jūsu konts sniedz piekļuvi vairāk nekā vienam nomniekam, izvēlieties savu kontu augšējā labajā stūrī un iestatiet savu portāla sesiju uz Azure Active Directory (Azure AD) nomnieku, kuru vēlaties izmantot.
 
-3. Kreisajā rūtī atlasiet **Azure Active Directory** pakalpojumu un pēc tam atlasiet **Pieteikumu reģistrācijas \>Jauna reģistrācija**.
+3. Kreisajā rūtī atlasiet **Azure Active Directory** pakalpojumu un pēc tam atlasiet **Pieteikumu reģistrācijas \> Jauna reģistrācija**.
 
 4. Kad parādās lapa **Reģistrēt pieteikumu**, ievadiet savu pieteikuma reģistrācijas informāciju:
 
@@ -81,8 +79,8 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
     - **Novirzīt URI (nav obligāti)** — atlasiet veidojamās programmas tipu: **Tīmekļa** vai **Publiskais klients (mobilā un datora)**. Pēc tam ievadiet programmas novirzīšanas URI (vai atbildes vietrādi URL).
 
-        - Tīmekļa lietotnēm norādiet programmas bāzes vietrādi URL. Piemēram, `http://localhost:31544`var būt tīmekļa programmas vietrādis URL, kas tiek palaists lokālajā datorā. Pēc tam lietotāji izmanto šo vietrādi URL, lai pieteiktos tīmekļa klienta programmā.
-        - Publiskajām klientu lietotnēm norādiet URI, kuras Azure AD izmanto, lai atgrieztu marķiera atbildes. Ievadiet vērtību, kas ir konkrēta jūsu programmai, piemēram,`myapp://auth`.
+        - Tīmekļa lietotnēm norādiet programmas bāzes vietrādi URL. Piemēram, `http://localhost:31544` var būt tīmekļa programmas vietrādis URL, kas tiek palaists lokālajā datorā. Pēc tam lietotāji izmanto šo vietrādi URL, lai pieteiktos tīmekļa klienta programmā.
+        - Publiskajām klientu lietotnēm norādiet URI, kuras Azure AD izmanto, lai atgrieztu marķiera atbildes. Ievadiet vērtību, kas ir konkrēta jūsu programmai, piemēram, `myapp://auth`.
 
         Lai skatītu konkrētus piemērus tīmekļa programmām vai vietējām programmām, iesākumam skatiet [Microsoft identitātes platforma (iepriekš Azure Active Directory izstrādātājiem)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
 

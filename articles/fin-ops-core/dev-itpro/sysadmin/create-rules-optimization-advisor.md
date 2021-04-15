@@ -2,7 +2,6 @@
 title: Kārtulu izveide optimizācijas padomniekam
 description: Šajā tēmā ir aprakstīts, kā pievienot jaunas kārtulas darbvietai Optimizācijas padomnieks.
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67e740a1e00c425f0e09b5f0fc960cf2778efd89
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d2a0d6d2e70bfb797de919b536fa1ca62fd181a8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568290"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746005"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Kārtulu izveide optimizācijas padomniekam
 
@@ -100,13 +99,13 @@ Vēl divas metodes, kas jāievieš, ir **opportunityTitle** un **opportunityDeta
 
 Metodes **opportunityTitle** atgrieztais nosaukums tiek parādīts darbvietas **Optimizācijas padomnieks** kolonnā **Optimizācijas iespēja**. Tas ir redzams arī kā galvene sānu rūtī, kurā parādīta papildinformācija par iespēju. Parasti šai metodei tiek piešķirts atribūts **DiagnosticRuleSubscription**, kas izmanto tālāk norādītos argumentus. 
 
-* **Diagnostikas apgabals** — tipa **DiagnosticArea** uzskaitījums, kas norāda, kuram lietojumprogrammas apgabalam pieder kārtula, piemēram, **DiagnosticArea::SCM**. 
+* **Diagnostikas apgabals** — tipa **DiagnosticArea** uzskaitījums, kas norāda, kuram lietojumprogrammas apgabalam pieder kārtula, piemēram, **DiagnosticArea::SCM**. 
 
-* **Kārtulas nosaukums** — virkne ar kārtulas nosaukumu. Tas tiks parādīts formas **Diagnostikas apstiprināšanas kārtula** kolonnā **Kārtulas nosaukums** (**DiagnosticsValidationRuleMaintain**). 
+* **Kārtulas nosaukums** — virkne ar kārtulas nosaukumu. Tas tiks parādīts formas **Diagnostikas apstiprināšanas kārtula** kolonnā **Kārtulas nosaukums** (**DiagnosticsValidationRuleMaintain**). 
 
-* **Izpildes biežums** — tipa **DiagnosticRunFrequency** uzskaitījums, kas norāda, cik bieži ir jāpalaiž kārtula, piemēram, **DiagnosticRunFrequency::Daily**. 
+* **Izpildes biežums** — tipa **DiagnosticRunFrequency** uzskaitījums, kas norāda, cik bieži ir jāpalaiž kārtula, piemēram, **DiagnosticRunFrequency::Daily**. 
 
-* **Kārtulas apraksts** — virkne, kas sniedz detalizētāku kārtulas aprakstu. Tas tiks parādīts formas **Diagnostikas apstiprināšanas kārtula** kolonnā **Kārtulas apraksts** (**DiagnosticsValidationRuleMaintain**). 
+* **Kārtulas apraksts** — virkne, kas sniedz detalizētāku kārtulas aprakstu. Tas tiks parādīts formas **Diagnostikas apstiprināšanas kārtula** kolonnā **Kārtulas apraksts** (**DiagnosticsValidationRuleMaintain**). 
 
 > [!NOTE]
 > Atribūts **DiagnosticRuleSubscription** nepieciešams, lai kārtula darbotos. Parasti tas tiek izmantots metodei **opportunityTitle**, taču to var piešķirt jebkurai klases metodei.

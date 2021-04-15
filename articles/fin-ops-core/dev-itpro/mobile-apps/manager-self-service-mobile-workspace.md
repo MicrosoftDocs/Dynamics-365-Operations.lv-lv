@@ -2,7 +2,6 @@
 title: Mobilā darbvieta Mana grupa
 description: Šajā tēmā ir sniegta informācija par mobilo darbvietu Mana grupa, kas vadītājiem ļauj skatīt viņu tiešos pārskatus un paplašinātos darbiniekus.
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dc2f8b5195fb5210ca6399cbf744f210671f475
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 06ddad1f2df895da4819a06e3552acab8e9aff78
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570095"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744737"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobilā darbvieta Mana grupa
 
@@ -75,7 +74,7 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 
 ## <a name="sign-in-to-the-mobile-app"></a>Pierakstīšanās mobilajā programmā
 1.  Palaidiet programmu savā mobilajā ierīcē.
-2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
+2.  Ievadiet savu Microsoft Dynamics 365 vietrādi URL.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 

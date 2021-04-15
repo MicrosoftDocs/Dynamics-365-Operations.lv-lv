@@ -2,11 +2,9 @@
 title: Noklusējuma debitora izveide
 description: Šajā tēmā aprakstīts, kā izveidot noklusējuma klientu, kuru lietot, veidojot kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477904"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799183"
 ---
 # <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
 
@@ -67,14 +65,14 @@ Tālāk redzamajā attēlā ir parādīts adresu gramatas piemērs.
 
 ![Adrešu grāmata](media/address-book.png)
 
-## <a name="create-a-default-customer"></a>Noklusējuma debitora izveide
+## <a name="create-a-default-customer&quot;></a>Noklusējuma debitora izveide
 
 Lai izveidotu noklusējuma debitoru, izpildiet tālāk aprakstītās darbības.
 
 1. Navigācijas rūtī pārejiet uz **Moduļi \> Mazumtirdzniecība un komercija \> Debitori \> Visi debitori**.
 1. Darbību rūtī atlasiet **Jauns**.
-1. Nolaižamajā sarakstā **Tips** atlasiet "Persona".
-1. Nolaižamajā sarakstā **Debitora konts** atlasiet vai ievadiet konta numuru (piemēram, "100001").
+1. Nolaižamajā sarakstā **Tips** atlasiet &quot;Persona&quot;.
+1. Nolaižamajā sarakstā **Debitora konts** atlasiet vai ievadiet konta numuru (piemēram, &quot;100001").
 1. Nolaižamajā sarakstā **Vārds** atlasiet vai ievadiet vārdu (piemēram, "Noklusējums").
 1. Nolaižamajā sarakstā **Otrais vārds** atlasiet vai ievadiet vārdu (piemēram, "Mazumtirdzniecība").
 1. Nolaižamajā sarakstā **Uzvārds** atlasiet vai ievadiet vārdu (piemēram, "Debitors").
