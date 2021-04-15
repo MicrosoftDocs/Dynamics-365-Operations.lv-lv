@@ -2,7 +2,6 @@
 title: Ātrā importēšana un eksportēšana
 description: Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām.
 author: margoc
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
@@ -15,27 +14,27 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.openlocfilehash: 57d0ce9d483f4c849855e4247b4fd0fd067abb1b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e57b75fc1a697958d6a6e739ad809952217d3b4f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565310"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744791"
 ---
-# <a name="quick-import-export"></a><span data-ttu-id="62cda-103">Ātrā importēšana un eksportēšana</span><span class="sxs-lookup"><span data-stu-id="62cda-103">Quick import export</span></span>
+# <a name="quick-import-export"></a><span data-ttu-id="7725a-103">Ātrā importēšana un eksportēšana</span><span class="sxs-lookup"><span data-stu-id="7725a-103">Quick import export</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="62cda-104">Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām.</span><span class="sxs-lookup"><span data-stu-id="62cda-104">The purpose of Quick import export is to let you import and export with fewer steps.</span></span>
+<span data-ttu-id="7725a-104">Ātrās importēšanas un eksportēšanas mērķis ir ļaut jums veikt importēšanu un eksportēšanu tikai ar dažām darbībām.</span><span class="sxs-lookup"><span data-stu-id="7725a-104">The purpose of Quick import export is to let you import and export with fewer steps.</span></span>
 
-<span data-ttu-id="62cda-105">Esam pievienojuši līdzekli Ātrā importēšana un eksportēšana, lai lietotājiem ļautu importēt vai eksportēt vienkāršus darbus, kurus lietotāji vēlas ātri izpildīt.</span><span class="sxs-lookup"><span data-stu-id="62cda-105">We added the Quick Import Export feature to let users import or export simple jobs that they want to execute quickly.</span></span> <span data-ttu-id="62cda-106">Ideālā gadījumā šis līdzeklis tiek lietots scenārijos, kur fails automātiski kartē uz sistēmu un lietotājam nav nepieciešams veikt detalizētu kartēšanu vai izveidot atkārtotus importēšanas vai eksportēšanas darbus.</span><span class="sxs-lookup"><span data-stu-id="62cda-106">Ideally this feature is used in scenarios in which a file automatically maps to the system and user does not need to go through advanced mapping or create repeated import or export jobs.</span></span>
+<span data-ttu-id="7725a-105">Esam pievienojuši līdzekli Ātrā importēšana un eksportēšana, lai lietotājiem ļautu importēt vai eksportēt vienkāršus darbus, kurus lietotāji vēlas ātri izpildīt.</span><span class="sxs-lookup"><span data-stu-id="7725a-105">We added the Quick Import Export feature to let users import or export simple jobs that they want to execute quickly.</span></span> <span data-ttu-id="7725a-106">Ideālā gadījumā šis līdzeklis tiek lietots scenārijos, kur fails automātiski kartē uz sistēmu un lietotājam nav nepieciešams veikt detalizētu kartēšanu vai izveidot atkārtotus importēšanas vai eksportēšanas darbus.</span><span class="sxs-lookup"><span data-stu-id="7725a-106">Ideally this feature is used in scenarios in which a file automatically maps to the system and user does not need to go through advanced mapping or create repeated import or export jobs.</span></span>
 
-- <span data-ttu-id="62cda-107">Šis līdzeklis atbalsta strādāšanu gan ar standarta, gan ar pielāgotajiem elementiem.</span><span class="sxs-lookup"><span data-stu-id="62cda-107">This feature supports working with both out-of-the-box and custom entities.</span></span>
-- <span data-ttu-id="62cda-108">Varat importēt no failiem un — ja izmantojat ODBC datu avotu — varat atlasīt kādu vaicājumu, ko izmantot sava importa definēšanai.</span><span class="sxs-lookup"><span data-stu-id="62cda-108">You can import from files, and if you are using an ODBC data source, you can select a query to use to define your import.</span></span>
-- <span data-ttu-id="62cda-109">Ir jābūt iepriekš definētiem avota datu formātiem elementam AX vai Fails, un jums ir jāzina, kur tie atrodas.</span><span class="sxs-lookup"><span data-stu-id="62cda-109">You must have previously defined source data formats for either AX or File, and know where they are located.</span></span>
-- <span data-ttu-id="62cda-110">Lai izmantotu ātro importēšanu/eksportēšanu, jums nav nepieciešams izveidot apstrādes grupu — sistēma tādu izveidos automātiski, kad izpildīs importēšanas vai eksportēšanas darbu.</span><span class="sxs-lookup"><span data-stu-id="62cda-110">You do not need to create a processing group to use quick import/export, one will be automatically created by the system when executing the import or export job.</span></span> <span data-ttu-id="62cda-111">Tāpat varat arī norādīt, lai tiktu saglabāta ar ātro importēšanu/eksportēšanu importēto datu vēsture.</span><span class="sxs-lookup"><span data-stu-id="62cda-111">You can also choose keep the history of the data imported by the quick import/export.</span></span>
+- <span data-ttu-id="7725a-107">Šis līdzeklis atbalsta strādāšanu gan ar standarta, gan ar pielāgotajiem elementiem.</span><span class="sxs-lookup"><span data-stu-id="7725a-107">This feature supports working with both out-of-the-box and custom entities.</span></span>
+- <span data-ttu-id="7725a-108">Varat importēt no failiem un — ja izmantojat ODBC datu avotu — varat atlasīt kādu vaicājumu, ko izmantot sava importa definēšanai.</span><span class="sxs-lookup"><span data-stu-id="7725a-108">You can import from files, and if you are using an ODBC data source, you can select a query to use to define your import.</span></span>
+- <span data-ttu-id="7725a-109">Ir jābūt iepriekš definētiem avota datu formātiem elementam AX vai Fails, un jums ir jāzina, kur tie atrodas.</span><span class="sxs-lookup"><span data-stu-id="7725a-109">You must have previously defined source data formats for either AX or File, and know where they are located.</span></span>
+- <span data-ttu-id="7725a-110">Lai izmantotu ātro importēšanu/eksportēšanu, jums nav nepieciešams izveidot apstrādes grupu — sistēma tādu izveidos automātiski, kad izpildīs importēšanas vai eksportēšanas darbu.</span><span class="sxs-lookup"><span data-stu-id="7725a-110">You do not need to create a processing group to use quick import/export, one will be automatically created by the system when executing the import or export job.</span></span> <span data-ttu-id="7725a-111">Tāpat varat arī norādīt, lai tiktu saglabāta ar ātro importēšanu/eksportēšanu importēto datu vēsture.</span><span class="sxs-lookup"><span data-stu-id="7725a-111">You can also choose keep the history of the data imported by the quick import/export.</span></span>
 
-  <span data-ttu-id="62cda-112">Ņemiet vērā, ka ātrā importēšana un eksportēšana pieņem, ka jūs pārzināt DIXF jēdzienus.</span><span class="sxs-lookup"><span data-stu-id="62cda-112">Note that Quick import export assumes that you are familiar with the concepts of DIXF.</span></span>
+  <span data-ttu-id="7725a-112">Ņemiet vērā, ka ātrā importēšana un eksportēšana pieņem, ka jūs pārzināt DIXF jēdzienus.</span><span class="sxs-lookup"><span data-stu-id="7725a-112">Note that Quick import export assumes that you are familiar with the concepts of DIXF.</span></span>
 
 
 
