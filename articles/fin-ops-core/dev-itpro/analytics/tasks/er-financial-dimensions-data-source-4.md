@@ -2,7 +2,6 @@
 title: ER finanšu dimensijas, ko izmanto kā datu avotu (4. daļa. Pārskata palaišana)
 description: Šajā tēmā ir aprakstīts, kā konfigurēt elektronisko pārskatu (ER) modeli, lai finanšu dimensijas izmantotu kā datu avotu ER pārskatiem. (4. daļa)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,39 +13,39 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7cc1a60234ef09b80950cbf0c7f18b0d65709d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565218"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752392"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a><span data-ttu-id="2ade6-104">ER finanšu dimensijas, ko izmanto kā datu avotu (4. daļa. Pārskata palaišana)</span><span class="sxs-lookup"><span data-stu-id="2ade6-104">ER Use financial dimensions as a data source (Part 4 - Run the report)</span></span>
+# <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a><span data-ttu-id="44265-104">ER finanšu dimensijas, ko izmanto kā datu avotu (4. daļa. Pārskata palaišana)</span><span class="sxs-lookup"><span data-stu-id="44265-104">ER Use financial dimensions as a data source (Part 4 - Run the report)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2ade6-105">Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="2ade6-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="2ade6-106">Šīs darbības var veikt uzņēmumā DEMF.</span><span class="sxs-lookup"><span data-stu-id="2ade6-106">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="44265-105">Tālāk ir paskaidrots kā lietotājs, kam piešķirta loma sistēmas administrators vai elektroniskā pārskata izstrādātājs var konfigurēt datu modeli Elektroniskie pārskati (ER) izmantošanai finanšu dimensijās, kā datu avotu ER pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="44265-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="44265-106">Šīs darbības var veikt uzņēmumā DEMF.</span><span class="sxs-lookup"><span data-stu-id="44265-106">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="2ade6-107">Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti procedūrā "ER Finanšu dimensijas, ko izmanto kā datu avotu" (3. daļa: Pārskata izkārtošana).</span><span class="sxs-lookup"><span data-stu-id="2ade6-107">To complete these steps, you must first complete the steps in the "ER Use financial dimensions as a data source (Part 3: Design the report)" procedure.</span></span> <span data-ttu-id="2ade6-108">Jums nepieciešams konfigurēt arī noklusējuma dokumentu veidus Elektronisko pārskatu veidošanas parametru lapā.</span><span class="sxs-lookup"><span data-stu-id="2ade6-108">You must also configure default document types on the Electronic reporting parameters page.</span></span> <span data-ttu-id="2ade6-109">Noklusējuma dokumentu veidi tiek iestatīti arī lejupielādējot un importējot jebkādu ER konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="2ade6-109">Default document types are also set when you download and import any ER configuration.</span></span> 
+<span data-ttu-id="44265-107">Lai izpildītu šos soļus, vispirms ir jāpabeidz soļi, kas aprakstīti procedūrā "ER Finanšu dimensijas, ko izmanto kā datu avotu" (3. daļa: Pārskata izkārtošana).</span><span class="sxs-lookup"><span data-stu-id="44265-107">To complete these steps, you must first complete the steps in the "ER Use financial dimensions as a data source (Part 3: Design the report)" procedure.</span></span> <span data-ttu-id="44265-108">Jums nepieciešams konfigurēt arī noklusējuma dokumentu veidus Elektronisko pārskatu veidošanas parametru lapā.</span><span class="sxs-lookup"><span data-stu-id="44265-108">You must also configure default document types on the Electronic reporting parameters page.</span></span> <span data-ttu-id="44265-109">Noklusējuma dokumentu veidi tiek iestatīti arī lejupielādējot un importējot jebkādu ER konfigurāciju.</span><span class="sxs-lookup"><span data-stu-id="44265-109">Default document types are also set when you download and import any ER configuration.</span></span> 
 
 
-## <a name="run-report"></a><span data-ttu-id="2ade6-110">Palaist pārskatu</span><span class="sxs-lookup"><span data-stu-id="2ade6-110">Run report</span></span>
-1. <span data-ttu-id="2ade6-111">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="2ade6-111">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="2ade6-112">Kokā izvērsiet 'Finanšu dimensiju parauga modelis'.</span><span class="sxs-lookup"><span data-stu-id="2ade6-112">In the tree, expand 'Financial dimensions sample model'.</span></span>
-3. <span data-ttu-id="2ade6-113">Kokā atlasiet 'Finanšu dimensiju parauga modelis\Virsgrāmatas žurnāla pārskats'.</span><span class="sxs-lookup"><span data-stu-id="2ade6-113">In the tree, select 'Financial dimensions sample model\Ledger journal report'.</span></span>
-4. <span data-ttu-id="2ade6-114">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="2ade6-114">Click Run.</span></span>
-<span data-ttu-id="2ade6-115">![ER konfigurāciju lapa](../media/er-financial-dimensions-guides-run1.png)</span><span class="sxs-lookup"><span data-stu-id="2ade6-115">![ER configurations page](../media/er-financial-dimensions-guides-run1.png)</span></span>
-5. <span data-ttu-id="2ade6-116">Ievadiet vai atlasiet vērtību laukā Dimensijas nosaukums.</span><span class="sxs-lookup"><span data-stu-id="2ade6-116">In the Dimension name field, enter or select a value.</span></span>
-    * <span data-ttu-id="2ade6-117">Lai atlasītu visas pašreizējā uzņēmuma dimensijas, ievadiet tālāk norādīto informāciju: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span><span class="sxs-lookup"><span data-stu-id="2ade6-117">To select all dimensions in the current company, enter the following information:  BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span></span>  
+## <a name="run-report"></a><span data-ttu-id="44265-110">Palaist pārskatu</span><span class="sxs-lookup"><span data-stu-id="44265-110">Run report</span></span>
+1. <span data-ttu-id="44265-111">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="44265-111">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="44265-112">Kokā izvērsiet 'Finanšu dimensiju parauga modelis'.</span><span class="sxs-lookup"><span data-stu-id="44265-112">In the tree, expand 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="44265-113">Kokā atlasiet 'Finanšu dimensiju parauga modelis\Virsgrāmatas žurnāla pārskats'.</span><span class="sxs-lookup"><span data-stu-id="44265-113">In the tree, select 'Financial dimensions sample model\Ledger journal report'.</span></span>
+4. <span data-ttu-id="44265-114">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="44265-114">Click Run.</span></span>
+<span data-ttu-id="44265-115">![ER konfigurāciju lapa](../media/er-financial-dimensions-guides-run1.png)</span><span class="sxs-lookup"><span data-stu-id="44265-115">![ER configurations page](../media/er-financial-dimensions-guides-run1.png)</span></span>
+5. <span data-ttu-id="44265-116">Ievadiet vai atlasiet vērtību laukā Dimensijas nosaukums.</span><span class="sxs-lookup"><span data-stu-id="44265-116">In the Dimension name field, enter or select a value.</span></span>
+    * <span data-ttu-id="44265-117">Lai atlasītu visas pašreizējā uzņēmuma dimensijas, ievadiet tālāk norādīto informāciju: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span><span class="sxs-lookup"><span data-stu-id="44265-117">To select all dimensions in the current company, enter the following information:  BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span></span>  
 ![ER konfigurāciju lapa](../media/er-financial-dimensions-guides-run2.png)
-6. <span data-ttu-id="2ade6-119">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="2ade6-119">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="2ade6-120">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="2ade6-120">Click Filter.</span></span>
-8. <span data-ttu-id="2ade6-121">Atlasiet rindu tabulai Virsgrāmatas žurnāls un laukam Žurnāla iedaļas numurs.</span><span class="sxs-lookup"><span data-stu-id="2ade6-121">Select the row for the Ledger journal table and the Journal batch number field.</span></span>
-9. <span data-ttu-id="2ade6-122">Laukā Kritēriji ierakstiet '00057'.</span><span class="sxs-lookup"><span data-stu-id="2ade6-122">In the Criteria field, type '00057'.</span></span>
-10. <span data-ttu-id="2ade6-123">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="2ade6-123">Click OK.</span></span>
-11. <span data-ttu-id="2ade6-124">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="2ade6-124">Click OK.</span></span>
-<span data-ttu-id="2ade6-125">![ER konfigurāciju lapa](../media/er-financial-dimensions-guides-run3.png)</span><span class="sxs-lookup"><span data-stu-id="2ade6-125">![ER configurations page](../media/er-financial-dimensions-guides-run3.png)</span></span>
-    * <span data-ttu-id="2ade6-126">Pārskatiet ģenerēto izvadi.</span><span class="sxs-lookup"><span data-stu-id="2ade6-126">Review the generated output.</span></span> <span data-ttu-id="2ade6-127">Katrai darbībai no izvēlētās partija, tiek piedāvātas finanšu dimensijas no atbilstošajām dimensijām.</span><span class="sxs-lookup"><span data-stu-id="2ade6-127">For each transaction of the selected batch, the financial dimensions from the corresponding dimensions set are presented.</span></span> <span data-ttu-id="2ade6-128">Palaidiet šo pārskatu un atlasiet dažādas dimensijas, lai pārliecinātos, ka pārskatu nav atkarīgs no atlasīto dimensiju skaita, vai dimensiju skaita, kas ir konfigurētas šai instancei.</span><span class="sxs-lookup"><span data-stu-id="2ade6-128">Run this report and select different dimensions to see that the report is not dependent on the number of selected dimensions or the number of dimensions configured for this instance.</span></span>  
+6. <span data-ttu-id="44265-119">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="44265-119">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="44265-120">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="44265-120">Click Filter.</span></span>
+8. <span data-ttu-id="44265-121">Atlasiet rindu tabulai Virsgrāmatas žurnāls un laukam Žurnāla iedaļas numurs.</span><span class="sxs-lookup"><span data-stu-id="44265-121">Select the row for the Ledger journal table and the Journal batch number field.</span></span>
+9. <span data-ttu-id="44265-122">Laukā Kritēriji ierakstiet '00057'.</span><span class="sxs-lookup"><span data-stu-id="44265-122">In the Criteria field, type '00057'.</span></span>
+10. <span data-ttu-id="44265-123">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="44265-123">Click OK.</span></span>
+11. <span data-ttu-id="44265-124">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="44265-124">Click OK.</span></span>
+<span data-ttu-id="44265-125">![ER konfigurāciju lapa](../media/er-financial-dimensions-guides-run3.png)</span><span class="sxs-lookup"><span data-stu-id="44265-125">![ER configurations page](../media/er-financial-dimensions-guides-run3.png)</span></span>
+    * <span data-ttu-id="44265-126">Pārskatiet ģenerēto izvadi.</span><span class="sxs-lookup"><span data-stu-id="44265-126">Review the generated output.</span></span> <span data-ttu-id="44265-127">Katrai darbībai no izvēlētās partija, tiek piedāvātas finanšu dimensijas no atbilstošajām dimensijām.</span><span class="sxs-lookup"><span data-stu-id="44265-127">For each transaction of the selected batch, the financial dimensions from the corresponding dimensions set are presented.</span></span> <span data-ttu-id="44265-128">Palaidiet šo pārskatu un atlasiet dažādas dimensijas, lai pārliecinātos, ka pārskatu nav atkarīgs no atlasīto dimensiju skaita, vai dimensiju skaita, kas ir konfigurētas šai instancei.</span><span class="sxs-lookup"><span data-stu-id="44265-128">Run this report and select different dimensions to see that the report is not dependent on the number of selected dimensions or the number of dimensions configured for this instance.</span></span>  
 ![ER konfigurāciju lapa](../media/er-financial-dimensions-guides-run4.png)
 
 

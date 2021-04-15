@@ -2,11 +2,9 @@
 title: Bāzes cena un tirdzniecības līgumi
 description: Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus.
 author: josaw1
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
@@ -16,58 +14,58 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bab25988a9d4aad4d4e36fd9bdffbbf52473435e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4d0042e51524c1d50568e969b59923a7ba4a65
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259475"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789808"
 ---
-# <a name="base-price-and-trade-agreements"></a><span data-ttu-id="266bd-103">Bāzes cena un tirdzniecības līgumi</span><span class="sxs-lookup"><span data-stu-id="266bd-103">Base price and trade agreements</span></span>
+# <a name="base-price-and-trade-agreements"></a><span data-ttu-id="8c6b1-103">Bāzes cena un tirdzniecības līgumi</span><span class="sxs-lookup"><span data-stu-id="8c6b1-103">Base price and trade agreements</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="266bd-104">Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus.</span><span class="sxs-lookup"><span data-stu-id="266bd-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="266bd-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="266bd-105">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="8c6b1-104">Šajā procedūrā parādīts, kā izveidot kanāla pārdošanas cenas tirdzniecības līgumus.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="8c6b1-105">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma “USRT” dati.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-105">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="266bd-106">**Navigācijas rūtī** ejiet uz **Moduļi > Retail un Commerce > Cenošanas un atlaižu pārvaldība > Cenu grupas > Visas cenu grupas**.</span><span class="sxs-lookup"><span data-stu-id="266bd-106">In the **Navigation pane**, go to **Modules > Retail and Commerce > Pricing and discounts management > Price groups > All price groups**.</span></span> <span data-ttu-id="266bd-107">Cenu grupas ir veids, kā tirdzniecības līgumi tiek piešķirti noteiktiem kanāliem.</span><span class="sxs-lookup"><span data-stu-id="266bd-107">Price groups are how trade agreements are assigned to specific channels.</span></span> <span data-ttu-id="266bd-108">Izmantojot cenu grupas, lai tirdzniecības līgumus piešķirtu kanāliem, var cenas var noteikt konkrētam kanālam.</span><span class="sxs-lookup"><span data-stu-id="266bd-108">Using price groups to assign trade agreements to a channel enables channel-specific pricing.</span></span>  
-2. <span data-ttu-id="266bd-109">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="266bd-109">Click **New**.</span></span>
-3. <span data-ttu-id="266bd-110">Laukā **Cenu grupas** ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="266bd-110">In the **Price groups** field, type a value.</span></span>
-4. <span data-ttu-id="266bd-111">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="266bd-111">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="266bd-112">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="266bd-112">Click **Save**.</span></span>
-6. <span data-ttu-id="266bd-113">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="266bd-113">Close the page.</span></span>
-7. <span data-ttu-id="266bd-114">**Navigācijas rūtī** dodieties uz **Moduļi > Retail un Commerce > Kanāli > Veikali > Visi mazumtirdzniecības veikali**.</span><span class="sxs-lookup"><span data-stu-id="266bd-114">In the **Navigation pane**, go to **Modules > Retail and Commerce > Channels > Stores > All stores**.</span></span>
-8. <span data-ttu-id="266bd-115">Sarakstā atlasiet Ņujorka.</span><span class="sxs-lookup"><span data-stu-id="266bd-115">In the list, select 'New York'</span></span>
-9. <span data-ttu-id="266bd-116">Darbību rūtī noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="266bd-116">On the Action Pane, click **Store**.</span></span>
-10. <span data-ttu-id="266bd-117">Noklikšķiniet uz **Cenu grupas**.</span><span class="sxs-lookup"><span data-stu-id="266bd-117">Click **Price groups**.</span></span>
-11. <span data-ttu-id="266bd-118">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="266bd-118">Click **New**.</span></span>
-12. <span data-ttu-id="266bd-119">Laukā **Cenu grupas** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.</span><span class="sxs-lookup"><span data-stu-id="266bd-119">In the **Price groups** field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="266bd-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="266bd-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="266bd-121">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="266bd-121">Click **Save**.</span></span>
-15. <span data-ttu-id="266bd-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="266bd-122">Close the page.</span></span>
-16. <span data-ttu-id="266bd-123">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="266bd-123">Close the page.</span></span>
-17. <span data-ttu-id="266bd-124">**Navigācijas rūtī** ejiet uz **Moduļi > Retail un Commerce > Produkti un kategorijas > Izlaistie produkti pēc kategorijas**.</span><span class="sxs-lookup"><span data-stu-id="266bd-124">In the **Navigation pane**, go to **Modules > Retail and Commerce > Products and categories > Released products by category**.</span></span>
-18. <span data-ttu-id="266bd-125">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="266bd-125">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="266bd-126">Noklikšķiniet uz **Rediģēt**.</span><span class="sxs-lookup"><span data-stu-id="266bd-126">Click **Edit**.</span></span>
-20. <span data-ttu-id="266bd-127">Izvērsiet kopsavilkuma cilni **Pārdot**.</span><span class="sxs-lookup"><span data-stu-id="266bd-127">Expand the **Sell** fastTab.</span></span>
-21. <span data-ttu-id="266bd-128">Laukā **Cena** ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="266bd-128">In the **Price** field, enter a number.</span></span> <span data-ttu-id="266bd-129">Šī cena tiek izmantota, ja netika atrasts neviens atbilstošs tirdzniecības līgums.</span><span class="sxs-lookup"><span data-stu-id="266bd-129">This price is used if no applicable trade agreements are found.</span></span>  
-22. <span data-ttu-id="266bd-130">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="266bd-130">Click **Save**.</span></span>
-23. <span data-ttu-id="266bd-131">**Darbību rūtī** noklikšķiniet uz **Pārdot**.</span><span class="sxs-lookup"><span data-stu-id="266bd-131">On the **Action Pane**, click **Sell**.</span></span>
-24. <span data-ttu-id="266bd-132">Klikšķiniet uz **Izveidot tirdzniecības līgumus**.</span><span class="sxs-lookup"><span data-stu-id="266bd-132">Click **Create trade agreements**.</span></span>
-25. <span data-ttu-id="266bd-133">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="266bd-133">Click **New**.</span></span>
-26. <span data-ttu-id="266bd-134">Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.</span><span class="sxs-lookup"><span data-stu-id="266bd-134">In the **Name** field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="266bd-135">Sarakstā atlasiet rindu **Tirdzniecība**.</span><span class="sxs-lookup"><span data-stu-id="266bd-135">In the list, select **Commerce**.</span></span> <span data-ttu-id="266bd-136">Demonstrācijas datos žurnāla nosaukumam **Commerce** ir noklusējuma relācija **Cena (pārdošanas)**.</span><span class="sxs-lookup"><span data-stu-id="266bd-136">In the demo data, the **Commerce** journal name has the default relation of **Price (sales)**.</span></span> <span data-ttu-id="266bd-137">Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.</span><span class="sxs-lookup"><span data-stu-id="266bd-137">That means all new lines created will default to sales price trade agreements.</span></span>  
-28. <span data-ttu-id="266bd-138">**Darbību rūtī** noklikšķiniet uz **Rindas**.</span><span class="sxs-lookup"><span data-stu-id="266bd-138">On the **Action pane**, click **Lines**.</span></span>
-29. <span data-ttu-id="266bd-139">Laukā **Puses koda veids** atlasiet "Grupa".</span><span class="sxs-lookup"><span data-stu-id="266bd-139">In the **Party code type** field, select 'Group'.</span></span>
-30. <span data-ttu-id="266bd-140">Laukā **Konta atlase** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.</span><span class="sxs-lookup"><span data-stu-id="266bd-140">In the **Account selection** field, click the drop-down button to open the lookup.</span></span>
-31. <span data-ttu-id="266bd-141">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="266bd-141">In the list, find and select the desired record.</span></span> <span data-ttu-id="266bd-142">Tādējādi tiks pabeigta piesaiste no kanāla uz cenu grupu uz tirdzniecības līgumu.</span><span class="sxs-lookup"><span data-stu-id="266bd-142">This will complete the link from Channel to Price group to Trade agreement.</span></span>  
-32. <span data-ttu-id="266bd-143">Laukā **Vienuma attiecība** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="266bd-143">In the **Item relation** field, type a value.</span></span>
-33. <span data-ttu-id="266bd-144">Laukā **Summa valūtā** ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="266bd-144">In the **Amount in currency** field, enter a number.</span></span>
-34. <span data-ttu-id="266bd-145">Kopsavilkuma cilnē **Detaļas** atzīmējiet vai noņemiet atzīmi izvēles rūtiņai **Atrast nākamo**.</span><span class="sxs-lookup"><span data-stu-id="266bd-145">In the **Details** fastTab, check or uncheck the **Find next** checkbox.</span></span> <span data-ttu-id="266bd-146">Kad iespēja **Atrast nākamo** iestatīta kā „Jā”, cenošanas programma turpinās meklēt piemērojamos tirdzniecības līgumus ar zemāku pārdošanas cenu.</span><span class="sxs-lookup"><span data-stu-id="266bd-146">When **Find next** is set to 'Yes', the pricing engine will continue to search for applicable trade agreements with a lower sale price.</span></span> <span data-ttu-id="266bd-147">Kad iespēja **Atrast nākamo** iestatīta kā „Nē”, cenošanas programma beidz meklēt un izmanto tirdzniecības līgumu.</span><span class="sxs-lookup"><span data-stu-id="266bd-147">When **Find next** is set to 'No', the price engine stops searching and uses the trade agreement.</span></span>  
-35. <span data-ttu-id="266bd-148">Noklikšķiniet uz **Grāmatot**.</span><span class="sxs-lookup"><span data-stu-id="266bd-148">Click **Post**.</span></span>
-36. <span data-ttu-id="266bd-149">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="266bd-149">Click **OK**.</span></span>
-37. <span data-ttu-id="266bd-150">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="266bd-150">Close the page.</span></span>
-38. <span data-ttu-id="266bd-151">**Darbību rūtī** noklikšķiniet uz „Pārdot”</span><span class="sxs-lookup"><span data-stu-id="266bd-151">On the **Action Pane**, click Sell.</span></span>
-39. <span data-ttu-id="266bd-152">Noklikšķiniet uz **Pārdošanas cena**.</span><span class="sxs-lookup"><span data-stu-id="266bd-152">Click **Sales price**.</span></span>
+1. <span data-ttu-id="8c6b1-106">**Navigācijas rūtī** ejiet uz **Moduļi > Retail un Commerce > Cenošanas un atlaižu pārvaldība > Cenu grupas > Visas cenu grupas**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-106">In the **Navigation pane**, go to **Modules > Retail and Commerce > Pricing and discounts management > Price groups > All price groups**.</span></span> <span data-ttu-id="8c6b1-107">Cenu grupas ir veids, kā tirdzniecības līgumi tiek piešķirti noteiktiem kanāliem.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-107">Price groups are how trade agreements are assigned to specific channels.</span></span> <span data-ttu-id="8c6b1-108">Izmantojot cenu grupas, lai tirdzniecības līgumus piešķirtu kanāliem, var cenas var noteikt konkrētam kanālam.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-108">Using price groups to assign trade agreements to a channel enables channel-specific pricing.</span></span>  
+2. <span data-ttu-id="8c6b1-109">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-109">Click **New**.</span></span>
+3. <span data-ttu-id="8c6b1-110">Laukā **Cenu grupas** ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-110">In the **Price groups** field, type a value.</span></span>
+4. <span data-ttu-id="8c6b1-111">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-111">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="8c6b1-112">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-112">Click **Save**.</span></span>
+6. <span data-ttu-id="8c6b1-113">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-113">Close the page.</span></span>
+7. <span data-ttu-id="8c6b1-114">**Navigācijas rūtī** dodieties uz **Moduļi > Retail un Commerce > Kanāli > Veikali > Visi mazumtirdzniecības veikali**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-114">In the **Navigation pane**, go to **Modules > Retail and Commerce > Channels > Stores > All stores**.</span></span>
+8. <span data-ttu-id="8c6b1-115">Sarakstā atlasiet Ņujorka.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-115">In the list, select 'New York'</span></span>
+9. <span data-ttu-id="8c6b1-116">Darbību rūtī noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-116">On the Action Pane, click **Store**.</span></span>
+10. <span data-ttu-id="8c6b1-117">Noklikšķiniet uz **Cenu grupas**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-117">Click **Price groups**.</span></span>
+11. <span data-ttu-id="8c6b1-118">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-118">Click **New**.</span></span>
+12. <span data-ttu-id="8c6b1-119">Laukā **Cenu grupas** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-119">In the **Price groups** field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="8c6b1-120">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="8c6b1-121">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-121">Click **Save**.</span></span>
+15. <span data-ttu-id="8c6b1-122">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-122">Close the page.</span></span>
+16. <span data-ttu-id="8c6b1-123">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-123">Close the page.</span></span>
+17. <span data-ttu-id="8c6b1-124">**Navigācijas rūtī** ejiet uz **Moduļi > Retail un Commerce > Produkti un kategorijas > Izlaistie produkti pēc kategorijas**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-124">In the **Navigation pane**, go to **Modules > Retail and Commerce > Products and categories > Released products by category**.</span></span>
+18. <span data-ttu-id="8c6b1-125">Sarakstā noklikšķiniet uz saites atlasītajā rindā.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-125">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="8c6b1-126">Noklikšķiniet uz **Rediģēt**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-126">Click **Edit**.</span></span>
+20. <span data-ttu-id="8c6b1-127">Izvērsiet kopsavilkuma cilni **Pārdot**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-127">Expand the **Sell** fastTab.</span></span>
+21. <span data-ttu-id="8c6b1-128">Laukā **Cena** ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-128">In the **Price** field, enter a number.</span></span> <span data-ttu-id="8c6b1-129">Šī cena tiek izmantota, ja netika atrasts neviens atbilstošs tirdzniecības līgums.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-129">This price is used if no applicable trade agreements are found.</span></span>  
+22. <span data-ttu-id="8c6b1-130">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-130">Click **Save**.</span></span>
+23. <span data-ttu-id="8c6b1-131">**Darbību rūtī** noklikšķiniet uz **Pārdot**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-131">On the **Action Pane**, click **Sell**.</span></span>
+24. <span data-ttu-id="8c6b1-132">Klikšķiniet uz **Izveidot tirdzniecības līgumus**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-132">Click **Create trade agreements**.</span></span>
+25. <span data-ttu-id="8c6b1-133">Klikšķiniet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-133">Click **New**.</span></span>
+26. <span data-ttu-id="8c6b1-134">Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-134">In the **Name** field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="8c6b1-135">Sarakstā atlasiet rindu **Tirdzniecība**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-135">In the list, select **Commerce**.</span></span> <span data-ttu-id="8c6b1-136">Demonstrācijas datos žurnāla nosaukumam **Commerce** ir noklusējuma relācija **Cena (pārdošanas)**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-136">In the demo data, the **Commerce** journal name has the default relation of **Price (sales)**.</span></span> <span data-ttu-id="8c6b1-137">Tas nozīmē, ka visām jaunajām rindām pēc noklusējuma tiks iestatīti pārdošanas cenas tirdzniecības līgumi.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-137">That means all new lines created will default to sales price trade agreements.</span></span>  
+28. <span data-ttu-id="8c6b1-138">**Darbību rūtī** noklikšķiniet uz **Rindas**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-138">On the **Action pane**, click **Lines**.</span></span>
+29. <span data-ttu-id="8c6b1-139">Laukā **Puses koda veids** atlasiet "Grupa".</span><span class="sxs-lookup"><span data-stu-id="8c6b1-139">In the **Party code type** field, select 'Group'.</span></span>
+30. <span data-ttu-id="8c6b1-140">Laukā **Konta atlase** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-140">In the **Account selection** field, click the drop-down button to open the lookup.</span></span>
+31. <span data-ttu-id="8c6b1-141">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-141">In the list, find and select the desired record.</span></span> <span data-ttu-id="8c6b1-142">Tādējādi tiks pabeigta piesaiste no kanāla uz cenu grupu uz tirdzniecības līgumu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-142">This will complete the link from Channel to Price group to Trade agreement.</span></span>  
+32. <span data-ttu-id="8c6b1-143">Laukā **Vienuma attiecība** ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-143">In the **Item relation** field, type a value.</span></span>
+33. <span data-ttu-id="8c6b1-144">Laukā **Summa valūtā** ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-144">In the **Amount in currency** field, enter a number.</span></span>
+34. <span data-ttu-id="8c6b1-145">Kopsavilkuma cilnē **Detaļas** atzīmējiet vai noņemiet atzīmi izvēles rūtiņai **Atrast nākamo**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-145">In the **Details** fastTab, check or uncheck the **Find next** checkbox.</span></span> <span data-ttu-id="8c6b1-146">Kad iespēja **Atrast nākamo** iestatīta kā „Jā”, cenošanas programma turpinās meklēt piemērojamos tirdzniecības līgumus ar zemāku pārdošanas cenu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-146">When **Find next** is set to 'Yes', the pricing engine will continue to search for applicable trade agreements with a lower sale price.</span></span> <span data-ttu-id="8c6b1-147">Kad iespēja **Atrast nākamo** iestatīta kā „Nē”, cenošanas programma beidz meklēt un izmanto tirdzniecības līgumu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-147">When **Find next** is set to 'No', the price engine stops searching and uses the trade agreement.</span></span>  
+35. <span data-ttu-id="8c6b1-148">Noklikšķiniet uz **Grāmatot**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-148">Click **Post**.</span></span>
+36. <span data-ttu-id="8c6b1-149">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-149">Click **OK**.</span></span>
+37. <span data-ttu-id="8c6b1-150">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-150">Close the page.</span></span>
+38. <span data-ttu-id="8c6b1-151">**Darbību rūtī** noklikšķiniet uz „Pārdot”</span><span class="sxs-lookup"><span data-stu-id="8c6b1-151">On the **Action Pane**, click Sell.</span></span>
+39. <span data-ttu-id="8c6b1-152">Noklikšķiniet uz **Pārdošanas cena**.</span><span class="sxs-lookup"><span data-stu-id="8c6b1-152">Click **Sales price**.</span></span>
 
 
 

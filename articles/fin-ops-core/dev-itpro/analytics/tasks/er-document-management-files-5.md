@@ -2,7 +2,6 @@
 title: ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (5. daļa. Formāta modificēšana un darbināšana)
 description: Šajā tēmā ir aprakstīts, kā konfigurēt elektronisko pārskatu (ER) formātu dokumentu pārvaldības failu (pielikumu) izmantošanai ER izvadē. (5. daļa)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,86 +13,86 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6062945dfea0eec02e5055e9ebe697189267e051
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f954b76a09bf7c5edd4c608d400318fbd9386778
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749097"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a><span data-ttu-id="e60a1-104">ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (5. daļa. Formāta modificēšana un darbināšana)</span><span class="sxs-lookup"><span data-stu-id="e60a1-104">ER Use Document Management files in format outputs (Part 5 - Modify and run format)</span></span>
+# <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a><span data-ttu-id="3be1c-104">ER dokumentu pārvaldības faili, ko izmanto formāta izvades datos (5. daļa. Formāta modificēšana un darbināšana)</span><span class="sxs-lookup"><span data-stu-id="3be1c-104">ER Use Document Management files in format outputs (Part 5 - Modify and run format)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e60a1-105">Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē.</span><span class="sxs-lookup"><span data-stu-id="e60a1-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="e60a1-106">Šīs darbības var veikt uzņēmumā DEMF.</span><span class="sxs-lookup"><span data-stu-id="e60a1-106">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="3be1c-105">Tālāk aprakstītie soļi izskaidro, kā lietotājs, kam piešķirta sistēmas administratora vai elektroniskā pārskata izstrādātāja loma, var konfigurēt elektroniskā pārskata (ER) formātu, lai izmantotu dokumentu pārvaldības failus (pielikumi) ER izvadē.</span><span class="sxs-lookup"><span data-stu-id="3be1c-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="3be1c-106">Šīs darbības var veikt uzņēmumā DEMF.</span><span class="sxs-lookup"><span data-stu-id="3be1c-106">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="e60a1-107">Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmantot dokumentu pārvaldības failus formāta izvadēs (4. daļa: Formatēšanas izpilde)".</span><span class="sxs-lookup"><span data-stu-id="e60a1-107">To complete these steps, you must first complete the steps in the "ER Use Document Management files in format outputs (Part 4: Run format)" procedure.</span></span>
+<span data-ttu-id="3be1c-107">Lai veiktu šīs darbības, vispirms pabeidziet darbības procedūrā "ER izmantot dokumentu pārvaldības failus formāta izvadēs (4. daļa: Formatēšanas izpilde)".</span><span class="sxs-lookup"><span data-stu-id="3be1c-107">To complete these steps, you must first complete the steps in the "ER Use Document Management files in format outputs (Part 4: Run format)" procedure.</span></span>
 
-<span data-ttu-id="e60a1-108">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="e60a1-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="3be1c-108">Šī procedūra ir paredzēta līdzeklim, kas tika pievienots Dynamics 365 for Operations versijā 1611.</span><span class="sxs-lookup"><span data-stu-id="3be1c-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a><span data-ttu-id="e60a1-109">Modificējiet formātu, lai aizpildītu pielikumus, ģenerējot ziņojumus binārā formātā</span><span class="sxs-lookup"><span data-stu-id="e60a1-109">Modify the format to populate attachments into generating messages in binary format</span></span>
-1. <span data-ttu-id="e60a1-110">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="e60a1-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="e60a1-111">Koka struktūrā izvērsiet 'Customer invoice model'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-111">In the tree, expand 'Customer invoice model'.</span></span>
-3. <span data-ttu-id="e60a1-112">Kokā izvērsiet "Debitora rēķina modelis\Debitora rēķina modelis (pielāgots)".</span><span class="sxs-lookup"><span data-stu-id="e60a1-112">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
-4. <span data-ttu-id="e60a1-113">Kokā atlasiet "Debitora rēķina modelis\Debitora rēķina modelis (pielāgots)\Elektronisks rēķina parauga ziņojums".</span><span class="sxs-lookup"><span data-stu-id="e60a1-113">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
-5. <span data-ttu-id="e60a1-114">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="e60a1-114">Click Designer.</span></span>
-    * <span data-ttu-id="e60a1-115">Jūs aizpildīsiet rēķina ziņojumu, veidojot ražojumu kā XML failu, izmantojot unikoda kodējumu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-115">You will populate the invoice message in the generating output as an XML file using UNICODE encoding.</span></span>  
-6. <span data-ttu-id="e60a1-116">Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-116">Click Add root to open the drop dialog.</span></span>
-7. <span data-ttu-id="e60a1-117">Kokā atlasiet "Vispārīgi\Fails".</span><span class="sxs-lookup"><span data-stu-id="e60a1-117">In the tree, select 'Common\File'.</span></span>
-8. <span data-ttu-id="e60a1-118">Laukā Nosaukums ierakstiet 'Xml ziņojums'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-118">In the Name field, type 'Xml message'.</span></span>
-    * <span data-ttu-id="e60a1-119">Xml ziņojums</span><span class="sxs-lookup"><span data-stu-id="e60a1-119">Xml message</span></span>  
-9. <span data-ttu-id="e60a1-120">Laukā Kodēšana ierakstiet "UTF-8".</span><span class="sxs-lookup"><span data-stu-id="e60a1-120">In the Encoding field, type 'UTF-8'.</span></span>
-    * <span data-ttu-id="e60a1-121">UTF-8</span><span class="sxs-lookup"><span data-stu-id="e60a1-121">UTF-8</span></span>  
-10. <span data-ttu-id="e60a1-122">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e60a1-122">Click OK.</span></span>
-    * <span data-ttu-id="e60a1-123">Konfigurējiet ražojuma veidošanu kā arhivēto failu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-123">Configure the generating output as a zipped file.</span></span>  
-11. <span data-ttu-id="e60a1-124">Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-124">Click Add root to open the drop dialog.</span></span>
-12. <span data-ttu-id="e60a1-125">Kokā atlasiet "Vispārīgi\Mape".</span><span class="sxs-lookup"><span data-stu-id="e60a1-125">In the tree, select 'Common\Folder'.</span></span>
-13. <span data-ttu-id="e60a1-126">Laukā Nosaukums ierakstiet 'Arhivēta izvade.</span><span class="sxs-lookup"><span data-stu-id="e60a1-126">In the Name field, type 'Zip output'.</span></span>
-    * <span data-ttu-id="e60a1-127">Zip izvade</span><span class="sxs-lookup"><span data-stu-id="e60a1-127">Zip output</span></span>  
-14. <span data-ttu-id="e60a1-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e60a1-128">Click OK.</span></span>
-15. <span data-ttu-id="e60a1-129">Kokā atlasiet 'Arhivēta izvade'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-129">In the tree, select 'Zip output'.</span></span>
-    * <span data-ttu-id="e60a1-130">Pievienojiet pielikumus veidošanas arhivētajam failam kā failus ar sākotnējiem nosaukumiem un paplašinājumiem.</span><span class="sxs-lookup"><span data-stu-id="e60a1-130">Add attachments to the generating zipped file as files with original names and extensions.</span></span>  
-16. <span data-ttu-id="e60a1-131">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-131">Click Add to open the drop dialog.</span></span>
-17. <span data-ttu-id="e60a1-132">Kokā atlasiet "Vispārīgi\Fails".</span><span class="sxs-lookup"><span data-stu-id="e60a1-132">In the tree, select 'Common\File'.</span></span>
-18. <span data-ttu-id="e60a1-133">Laukā Nosaukums, ierakstiet 'Pievienotais fails'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-133">In the Name field, type 'Attached file'.</span></span>
-    * <span data-ttu-id="e60a1-134">Pievienotais fails</span><span class="sxs-lookup"><span data-stu-id="e60a1-134">Attached file</span></span>  
-19. <span data-ttu-id="e60a1-135">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e60a1-135">Click OK.</span></span>
-20. <span data-ttu-id="e60a1-136">Kokā atlasiet 'Arhivēta izvade\Pievienotais fails'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-136">In the tree, select 'Zip output\Attached file'.</span></span>
-21. <span data-ttu-id="e60a1-137">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-137">Click Add to open the drop dialog.</span></span>
-22. <span data-ttu-id="e60a1-138">Koka struktūrā atlasiet 'Text\Base64'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-138">In the tree, select 'Text\Base64'.</span></span>
-23. <span data-ttu-id="e60a1-139">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="e60a1-139">Click OK.</span></span>
+## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a><span data-ttu-id="3be1c-109">Modificējiet formātu, lai aizpildītu pielikumus, ģenerējot ziņojumus binārā formātā</span><span class="sxs-lookup"><span data-stu-id="3be1c-109">Modify the format to populate attachments into generating messages in binary format</span></span>
+1. <span data-ttu-id="3be1c-110">Dodieties uz Organizācijas administrēšana > Elektronisko atskaišu veidošana > Konfigurācijas.</span><span class="sxs-lookup"><span data-stu-id="3be1c-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="3be1c-111">Koka struktūrā izvērsiet 'Customer invoice model'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-111">In the tree, expand 'Customer invoice model'.</span></span>
+3. <span data-ttu-id="3be1c-112">Kokā izvērsiet "Debitora rēķina modelis\Debitora rēķina modelis (pielāgots)".</span><span class="sxs-lookup"><span data-stu-id="3be1c-112">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="3be1c-113">Kokā atlasiet "Debitora rēķina modelis\Debitora rēķina modelis (pielāgots)\Elektronisks rēķina parauga ziņojums".</span><span class="sxs-lookup"><span data-stu-id="3be1c-113">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
+5. <span data-ttu-id="3be1c-114">Noklikšķiniet uz Veidotājs.</span><span class="sxs-lookup"><span data-stu-id="3be1c-114">Click Designer.</span></span>
+    * <span data-ttu-id="3be1c-115">Jūs aizpildīsiet rēķina ziņojumu, veidojot ražojumu kā XML failu, izmantojot unikoda kodējumu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-115">You will populate the invoice message in the generating output as an XML file using UNICODE encoding.</span></span>  
+6. <span data-ttu-id="3be1c-116">Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-116">Click Add root to open the drop dialog.</span></span>
+7. <span data-ttu-id="3be1c-117">Kokā atlasiet "Vispārīgi\Fails".</span><span class="sxs-lookup"><span data-stu-id="3be1c-117">In the tree, select 'Common\File'.</span></span>
+8. <span data-ttu-id="3be1c-118">Laukā Nosaukums ierakstiet 'Xml ziņojums'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-118">In the Name field, type 'Xml message'.</span></span>
+    * <span data-ttu-id="3be1c-119">Xml ziņojums</span><span class="sxs-lookup"><span data-stu-id="3be1c-119">Xml message</span></span>  
+9. <span data-ttu-id="3be1c-120">Laukā Kodēšana ierakstiet "UTF-8".</span><span class="sxs-lookup"><span data-stu-id="3be1c-120">In the Encoding field, type 'UTF-8'.</span></span>
+    * <span data-ttu-id="3be1c-121">UTF-8</span><span class="sxs-lookup"><span data-stu-id="3be1c-121">UTF-8</span></span>  
+10. <span data-ttu-id="3be1c-122">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="3be1c-122">Click OK.</span></span>
+    * <span data-ttu-id="3be1c-123">Konfigurējiet ražojuma veidošanu kā arhivēto failu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-123">Configure the generating output as a zipped file.</span></span>  
+11. <span data-ttu-id="3be1c-124">Noklikšķiniet uz Pievienot sakni, lai atvērtu nolaižamo dialogu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-124">Click Add root to open the drop dialog.</span></span>
+12. <span data-ttu-id="3be1c-125">Kokā atlasiet "Vispārīgi\Mape".</span><span class="sxs-lookup"><span data-stu-id="3be1c-125">In the tree, select 'Common\Folder'.</span></span>
+13. <span data-ttu-id="3be1c-126">Laukā Nosaukums ierakstiet 'Arhivēta izvade.</span><span class="sxs-lookup"><span data-stu-id="3be1c-126">In the Name field, type 'Zip output'.</span></span>
+    * <span data-ttu-id="3be1c-127">Zip izvade</span><span class="sxs-lookup"><span data-stu-id="3be1c-127">Zip output</span></span>  
+14. <span data-ttu-id="3be1c-128">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="3be1c-128">Click OK.</span></span>
+15. <span data-ttu-id="3be1c-129">Kokā atlasiet 'Arhivēta izvade'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-129">In the tree, select 'Zip output'.</span></span>
+    * <span data-ttu-id="3be1c-130">Pievienojiet pielikumus veidošanas arhivētajam failam kā failus ar sākotnējiem nosaukumiem un paplašinājumiem.</span><span class="sxs-lookup"><span data-stu-id="3be1c-130">Add attachments to the generating zipped file as files with original names and extensions.</span></span>  
+16. <span data-ttu-id="3be1c-131">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-131">Click Add to open the drop dialog.</span></span>
+17. <span data-ttu-id="3be1c-132">Kokā atlasiet "Vispārīgi\Fails".</span><span class="sxs-lookup"><span data-stu-id="3be1c-132">In the tree, select 'Common\File'.</span></span>
+18. <span data-ttu-id="3be1c-133">Laukā Nosaukums, ierakstiet 'Pievienotais fails'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-133">In the Name field, type 'Attached file'.</span></span>
+    * <span data-ttu-id="3be1c-134">Pievienotais fails</span><span class="sxs-lookup"><span data-stu-id="3be1c-134">Attached file</span></span>  
+19. <span data-ttu-id="3be1c-135">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="3be1c-135">Click OK.</span></span>
+20. <span data-ttu-id="3be1c-136">Kokā atlasiet 'Arhivēta izvade\Pievienotais fails'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-136">In the tree, select 'Zip output\Attached file'.</span></span>
+21. <span data-ttu-id="3be1c-137">Noklikšķiniet uz Pievienot, lai atvērtu nolaižamo dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-137">Click Add to open the drop dialog.</span></span>
+22. <span data-ttu-id="3be1c-138">Koka struktūrā atlasiet 'Text\Base64'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-138">In the tree, select 'Text\Base64'.</span></span>
+23. <span data-ttu-id="3be1c-139">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="3be1c-139">Click OK.</span></span>
 
-## <a name="map-new-format-elements-to-data-model"></a><span data-ttu-id="e60a1-140">Kartējiet jaunus formatēšanas elementus datu modelī</span><span class="sxs-lookup"><span data-stu-id="e60a1-140">Map new format elements to data model</span></span>
-1. <span data-ttu-id="e60a1-141">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="e60a1-141">Click the Mapping tab.</span></span>
-2. <span data-ttu-id="e60a1-142">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="e60a1-142">In the tree, expand 'model'.</span></span>
-3. <span data-ttu-id="e60a1-143">Koka struktūrā izvērsiet 'model\Invoice attachments'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-143">In the tree, expand 'model\Invoice attachments'.</span></span>
-4. <span data-ttu-id="e60a1-144">Kokā atlasiet 'Arhivēta izvade\Pievienotais fails\Base64'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-144">In the tree, select 'Zip output\Attached file\Base64'.</span></span>
-5. <span data-ttu-id="e60a1-145">Koka struktūrā atlasiet 'model\Invoice attachments\File content'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-145">In the tree, select 'model\Invoice attachments\File content'.</span></span>
-6. <span data-ttu-id="e60a1-146">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e60a1-146">Click Bind.</span></span>
-7. <span data-ttu-id="e60a1-147">Kokā atlasiet 'Arhivēta izvade\Pievienotais fails'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-147">In the tree, select 'Zip output\Attached file'.</span></span>
-8. <span data-ttu-id="e60a1-148">Noklikšķiniet uz rediģēt faila nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-148">Click Edit filename.</span></span>
-9. <span data-ttu-id="e60a1-149">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="e60a1-149">In the tree, expand 'model'.</span></span>
-10. <span data-ttu-id="e60a1-150">Koka struktūrā izvērsiet 'model\Invoice attachments'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-150">In the tree, expand 'model\Invoice attachments'.</span></span>
-11. <span data-ttu-id="e60a1-151">Koka struktūrā atlasiet 'model\Invoice attachments\File name'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-151">In the tree, select 'model\Invoice attachments\File name'.</span></span>
-12. <span data-ttu-id="e60a1-152">Noklikšķiniet uz Pievienot datu avotu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-152">Click Add data source.</span></span>
-13. <span data-ttu-id="e60a1-153">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e60a1-153">Click Save.</span></span>
-14. <span data-ttu-id="e60a1-154">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-154">Close the page.</span></span>
-15. <span data-ttu-id="e60a1-155">Koka struktūrā atlasiet 'model\Invoice attachments'.</span><span class="sxs-lookup"><span data-stu-id="e60a1-155">In the tree, select 'model\Invoice attachments'.</span></span>
-16. <span data-ttu-id="e60a1-156">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="e60a1-156">Click Bind.</span></span>
-17. <span data-ttu-id="e60a1-157">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="e60a1-157">Click Save.</span></span>
-18. <span data-ttu-id="e60a1-158">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="e60a1-158">Close the page.</span></span>
+## <a name="map-new-format-elements-to-data-model"></a><span data-ttu-id="3be1c-140">Kartējiet jaunus formatēšanas elementus datu modelī</span><span class="sxs-lookup"><span data-stu-id="3be1c-140">Map new format elements to data model</span></span>
+1. <span data-ttu-id="3be1c-141">Noklikšķiniet uz cilnes Kartēšana.</span><span class="sxs-lookup"><span data-stu-id="3be1c-141">Click the Mapping tab.</span></span>
+2. <span data-ttu-id="3be1c-142">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="3be1c-142">In the tree, expand 'model'.</span></span>
+3. <span data-ttu-id="3be1c-143">Koka struktūrā izvērsiet 'model\Invoice attachments'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-143">In the tree, expand 'model\Invoice attachments'.</span></span>
+4. <span data-ttu-id="3be1c-144">Kokā atlasiet 'Arhivēta izvade\Pievienotais fails\Base64'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-144">In the tree, select 'Zip output\Attached file\Base64'.</span></span>
+5. <span data-ttu-id="3be1c-145">Koka struktūrā atlasiet 'model\Invoice attachments\File content'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-145">In the tree, select 'model\Invoice attachments\File content'.</span></span>
+6. <span data-ttu-id="3be1c-146">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3be1c-146">Click Bind.</span></span>
+7. <span data-ttu-id="3be1c-147">Kokā atlasiet 'Arhivēta izvade\Pievienotais fails'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-147">In the tree, select 'Zip output\Attached file'.</span></span>
+8. <span data-ttu-id="3be1c-148">Noklikšķiniet uz rediģēt faila nosaukumu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-148">Click Edit filename.</span></span>
+9. <span data-ttu-id="3be1c-149">Koka struktūrā izvērsiet elementu “modelis”.</span><span class="sxs-lookup"><span data-stu-id="3be1c-149">In the tree, expand 'model'.</span></span>
+10. <span data-ttu-id="3be1c-150">Koka struktūrā izvērsiet 'model\Invoice attachments'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-150">In the tree, expand 'model\Invoice attachments'.</span></span>
+11. <span data-ttu-id="3be1c-151">Koka struktūrā atlasiet 'model\Invoice attachments\File name'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-151">In the tree, select 'model\Invoice attachments\File name'.</span></span>
+12. <span data-ttu-id="3be1c-152">Noklikšķiniet uz Pievienot datu avotu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-152">Click Add data source.</span></span>
+13. <span data-ttu-id="3be1c-153">Klikšķiniet Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3be1c-153">Click Save.</span></span>
+14. <span data-ttu-id="3be1c-154">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-154">Close the page.</span></span>
+15. <span data-ttu-id="3be1c-155">Koka struktūrā atlasiet 'model\Invoice attachments'.</span><span class="sxs-lookup"><span data-stu-id="3be1c-155">In the tree, select 'model\Invoice attachments'.</span></span>
+16. <span data-ttu-id="3be1c-156">Noklikšķiniet uz Saistīt.</span><span class="sxs-lookup"><span data-stu-id="3be1c-156">Click Bind.</span></span>
+17. <span data-ttu-id="3be1c-157">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="3be1c-157">Click Save.</span></span>
+18. <span data-ttu-id="3be1c-158">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="3be1c-158">Close the page.</span></span>
 
-## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="e60a1-159">Atlasītajam rēķinam noformētas atskaites palaišana</span><span class="sxs-lookup"><span data-stu-id="e60a1-159">Run the designed report for the selected invoice</span></span>
-1. <span data-ttu-id="e60a1-160">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="e60a1-160">Click Run.</span></span>
-2. <span data-ttu-id="e60a1-161">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="e60a1-161">Expand the Records to include () section.</span></span>
-3. <span data-ttu-id="e60a1-162">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="e60a1-162">Click Filter.</span></span>
-4. <span data-ttu-id="e60a1-163">Atlasiet rindu no debitora rēķinu žurnāla un pārdošanas pasūtījuma lauka.</span><span class="sxs-lookup"><span data-stu-id="e60a1-163">Select the row of the Customer invoice journal and the Sales order field.</span></span>
-5. <span data-ttu-id="e60a1-164">Laukā Kritēriji, kritērija laukā "Pārdošanas pasūtījums" laukā ierakstiet pasūtījuma numuru 000148.</span><span class="sxs-lookup"><span data-stu-id="e60a1-164">In the Criteria field, In the criteria "Sales order" field, type the order number 000148.</span></span>
-    * <span data-ttu-id="e60a1-165">000148</span><span class="sxs-lookup"><span data-stu-id="e60a1-165">000148</span></span>  
-6. <span data-ttu-id="e60a1-166">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="e60a1-166">Click OK.</span></span>
-7. <span data-ttu-id="e60a1-167">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="e60a1-167">Click OK.</span></span>
-    * <span data-ttu-id="e60a1-168">Pārskatiet ģenerēto izvadi.</span><span class="sxs-lookup"><span data-stu-id="e60a1-168">Review the generated output.</span></span> <span data-ttu-id="e60a1-169">Ņemiet vērā, ka papildus rēķina ziņojumam XML formātā, viens fails tika izveidots katram pielikumam.</span><span class="sxs-lookup"><span data-stu-id="e60a1-169">Note,that in addition to the invoice message in XML format, a single file has been created for each attachment.</span></span> <span data-ttu-id="e60a1-170">Pielikumu faili tiek aizpildīti ar arhivētu izvadi binārā formātā.</span><span class="sxs-lookup"><span data-stu-id="e60a1-170">The attachment files are populated with the zipped output in binary format.</span></span>  
+## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="3be1c-159">Atlasītajam rēķinam noformētas atskaites palaišana</span><span class="sxs-lookup"><span data-stu-id="3be1c-159">Run the designed report for the selected invoice</span></span>
+1. <span data-ttu-id="3be1c-160">Noklikšķiniet uz Palaist.</span><span class="sxs-lookup"><span data-stu-id="3be1c-160">Click Run.</span></span>
+2. <span data-ttu-id="3be1c-161">Izvērsiet sadaļu Iekļaujamie ieraksti.</span><span class="sxs-lookup"><span data-stu-id="3be1c-161">Expand the Records to include () section.</span></span>
+3. <span data-ttu-id="3be1c-162">Noklikšķiniet uz Filtrēt.</span><span class="sxs-lookup"><span data-stu-id="3be1c-162">Click Filter.</span></span>
+4. <span data-ttu-id="3be1c-163">Atlasiet rindu no debitora rēķinu žurnāla un pārdošanas pasūtījuma lauka.</span><span class="sxs-lookup"><span data-stu-id="3be1c-163">Select the row of the Customer invoice journal and the Sales order field.</span></span>
+5. <span data-ttu-id="3be1c-164">Laukā Kritēriji, kritērija laukā "Pārdošanas pasūtījums" laukā ierakstiet pasūtījuma numuru 000148.</span><span class="sxs-lookup"><span data-stu-id="3be1c-164">In the Criteria field, In the criteria "Sales order" field, type the order number 000148.</span></span>
+    * <span data-ttu-id="3be1c-165">000148</span><span class="sxs-lookup"><span data-stu-id="3be1c-165">000148</span></span>  
+6. <span data-ttu-id="3be1c-166">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="3be1c-166">Click OK.</span></span>
+7. <span data-ttu-id="3be1c-167">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="3be1c-167">Click OK.</span></span>
+    * <span data-ttu-id="3be1c-168">Pārskatiet ģenerēto izvadi.</span><span class="sxs-lookup"><span data-stu-id="3be1c-168">Review the generated output.</span></span> <span data-ttu-id="3be1c-169">Ņemiet vērā, ka papildus rēķina ziņojumam XML formātā, viens fails tika izveidots katram pielikumam.</span><span class="sxs-lookup"><span data-stu-id="3be1c-169">Note,that in addition to the invoice message in XML format, a single file has been created for each attachment.</span></span> <span data-ttu-id="3be1c-170">Pielikumu faili tiek aizpildīti ar arhivētu izvadi binārā formātā.</span><span class="sxs-lookup"><span data-stu-id="3be1c-170">The attachment files are populated with the zipped output in binary format.</span></span>  
 
 
 

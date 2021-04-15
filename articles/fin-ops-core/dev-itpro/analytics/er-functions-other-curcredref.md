@@ -2,7 +2,6 @@
 title: CURCREDREF ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota CURCREDREF elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5f126d71abdc9e3e488b4e8476850dc7763fe5a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 65f04e23000e4d2429574db71b18b6907403855e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567620"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744347"
 ---
-# <a name="curcredref-er-function"></a><span data-ttu-id="1411a-103">CURCREDREF ER funkcija</span><span class="sxs-lookup"><span data-stu-id="1411a-103">CURCREDREF ER function</span></span>
+# <a name="curcredref-er-function"></a><span data-ttu-id="0b300-103">CURCREDREF ER funkcija</span><span class="sxs-lookup"><span data-stu-id="0b300-103">CURCREDREF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1411a-104">`CURCREDREF` funkcija atgriež *Virknes* vērtību, kas apzīmē kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem.</span><span class="sxs-lookup"><span data-stu-id="1411a-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="0b300-104">`CURCREDREF` funkcija atgriež *Virknes* vērtību, kas apzīmē kreditora atsauci, pamatojoties uz norādītā rēķina numura cipariem.</span><span class="sxs-lookup"><span data-stu-id="0b300-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1411a-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="1411a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0b300-105">Sintakse</span><span class="sxs-lookup"><span data-stu-id="0b300-105">Syntax</span></span>
 
 ```vb
 CURCREDREF (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="1411a-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="1411a-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="0b300-106">Argumenti</span><span class="sxs-lookup"><span data-stu-id="0b300-106">Arguments</span></span>
 
-<span data-ttu-id="1411a-107">`invoice number digits`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="1411a-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="0b300-107">`invoice number digits`: *Virkne*</span><span class="sxs-lookup"><span data-stu-id="0b300-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="1411a-108">Teksta vērtība, kas attēlo rēķina numura ciparus.</span><span class="sxs-lookup"><span data-stu-id="1411a-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="0b300-108">Teksta vērtība, kas attēlo rēķina numura ciparus.</span><span class="sxs-lookup"><span data-stu-id="0b300-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="1411a-109">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="1411a-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0b300-109">Atgrieztās vērtības</span><span class="sxs-lookup"><span data-stu-id="0b300-109">Return values</span></span>
 
-<span data-ttu-id="1411a-110">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="1411a-110">*String*</span></span>
+<span data-ttu-id="0b300-110">*Virkne*</span><span class="sxs-lookup"><span data-stu-id="0b300-110">*String*</span></span>
 
-<span data-ttu-id="1411a-111">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="1411a-111">The resulting text value.</span></span>
+<span data-ttu-id="0b300-111">Iegūtā teksta vērtība.</span><span class="sxs-lookup"><span data-stu-id="0b300-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1411a-112">Paraugs</span><span class="sxs-lookup"><span data-stu-id="1411a-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0b300-112">Paraugs</span><span class="sxs-lookup"><span data-stu-id="0b300-112">Example</span></span>
 
-<span data-ttu-id="1411a-113">`CURCredRef ("VEND-200002")` atgriež **"2200002"**.</span><span class="sxs-lookup"><span data-stu-id="1411a-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
+<span data-ttu-id="0b300-113">`CURCredRef ("VEND-200002")` atgriež **"2200002"**.</span><span class="sxs-lookup"><span data-stu-id="0b300-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="1411a-114">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="1411a-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0b300-114">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="0b300-114">Additional resources</span></span>
 
-[<span data-ttu-id="1411a-115">Citas (biznesa jomai specifiskas) funkcijas</span><span class="sxs-lookup"><span data-stu-id="1411a-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="0b300-115">Citas (biznesa jomai specifiskas) funkcijas</span><span class="sxs-lookup"><span data-stu-id="0b300-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
