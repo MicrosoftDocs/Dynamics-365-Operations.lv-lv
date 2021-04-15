@@ -2,11 +2,9 @@
 title: Debitora darbību saraksta lapa
 description: Šajā tēmā ir sniegta informācija par saraksta lapu Debitora transakcijas programmā Microsoft Dynamics 365 Finance.
 author: mikefalkner
-manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: d327c53d2486f8fdb9cd0ee049427c26cf4e0dcc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9ee8b64375bcd73447206f552df61f9122d949a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236870"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814228"
 ---
 # <a name="customer-transactions-list-page"></a>Debitora darbību saraksta lapa
 
@@ -38,12 +36,12 @@ Darbību rūts poga **Skatīt nosegšanas darbības** nodrošina ātru piekļuvi
 
 4. Dialoglodziņā var izpildīt dažādus uzdevumus. Atlasiet vienu vai vairākus dokumentus un pēc tam atlasiet vienu no tālāk norādītajām pogām.
 
-    - **Skatīt saistīto** — parādīt visas konkrētā debitora maksājumu žurnāla transakcijas un Virsgrāmatas žurnāla transakcijas, kas ir izveidotas žurnālos, kuros ir izveidoti sarakstā redzamie dokumenti. Piemēram, ja tiek rādīts maksājums, tad tiek parādīti visi maksājumi tajā maksājumu žurnālā, kurā ir izveidots šis maksājums. Ja tiek rādīts rēķins vai maksājums, kas ir izveidots Virsgrāmatas žurnālā, tad tiek parādīti visi dokumenti tajā Virsgrāmatas žurnālā, kurā ir izveidots šis rēķins vai maksājums. Tiek parādītas arī visas ar dokumentu sarakstu saistītas nosegšanas darbības. Skatot saistītos maksājumus, šīs pogas apzīmējums mainās uz **Skatīt nosegšanas darbības**. Atlasiet **Skatīt nosegšanas darbības**, lai skatītu tikai tās transakcijas, kuras tika parādītas, pirmo reizi atvērot dialoglodziņu **Skatīt nosegšanas darbības**.
-    - **Skatīt vēsturi** — ļauj skatīt ar dokumentiem saistīto nosegšanas vēsturi. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
-    - **Skatīt uzskaiti** — ļauj skatīt visus ar atlasītajiem dokumentiem saistītos dokumentus. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
-    - **Eksportēt** — eksportēt atlasītos dokumentus uz programmu Microsoft Excel.
-    - **Nosegšanas transakcijas** — šī poga tiek parādīta tikai tad, ja oriģinālais atlasītais dokuments nav pilnībā nosegts. Atlasot šo pogu, tiek parādīts dialoglodziņš **Nosegšanas transakcijas**, kurā var atlasīt nosegšanas transakcijas.
-    - **Nosegšanas darbību atsaukšana** — šī poga tiek parādīta tikai tad, ja oriģinālais atlasītais dokuments, ir pilnībā nosegts. Atlasot šo pogu, tiek parādīts dialoglodziņš **Nosegšanas darbību atsaukšana**, kurā var atsaukt nosegšanas darbības, kuras ir veiktas šim dokumentam.
+    - **Skatīt saistīto** — parādīt visas konkrētā debitora maksājumu žurnāla transakcijas un Virsgrāmatas žurnāla transakcijas, kas ir izveidotas žurnālos, kuros ir izveidoti sarakstā redzamie dokumenti. Piemēram, ja tiek rādīts maksājums, tad tiek parādīti visi maksājumi tajā maksājumu žurnālā, kurā ir izveidots šis maksājums. Ja tiek rādīts rēķins vai maksājums, kas ir izveidots Virsgrāmatas žurnālā, tad tiek parādīti visi dokumenti tajā Virsgrāmatas žurnālā, kurā ir izveidots šis rēķins vai maksājums. Tiek parādītas arī visas ar dokumentu sarakstu saistītas nosegšanas darbības. Skatot saistītos maksājumus, šīs pogas apzīmējums mainās uz **Skatīt nosegšanas darbības**. Atlasiet **Skatīt nosegšanas darbības**, lai skatītu tikai tās transakcijas, kuras tika parādītas, pirmo reizi atvērot dialoglodziņu **Skatīt nosegšanas darbības**.
+    - **Skatīt vēsturi** — ļauj skatīt ar dokumentiem saistīto nosegšanas vēsturi. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
+    - **Skatīt uzskaiti** — ļauj skatīt visus ar atlasītajiem dokumentiem saistītos dokumentus. Atlasiet **Aizvērt**, lai aizvērtu dialoglodziņu.
+    - **Eksportēt** — eksportēt atlasītos dokumentus uz programmu Microsoft Excel.
+    - **Nosegšanas transakcijas** — šī poga tiek parādīta tikai tad, ja oriģinālais atlasītais dokuments nav pilnībā nosegts. Atlasot šo pogu, tiek parādīts dialoglodziņš **Nosegšanas transakcijas**, kurā var atlasīt nosegšanas transakcijas.
+    - **Nosegšanas darbību atsaukšana** — šī poga tiek parādīta tikai tad, ja oriģinālais atlasītais dokuments, ir pilnībā nosegts. Atlasot šo pogu, tiek parādīts dialoglodziņš **Nosegšanas darbību atsaukšana**, kurā var atsaukt nosegšanas darbības, kuras ir veiktas šim dokumentam.
 
 ## <a name="global-transactions"></a>Globālās transakcijas
 
@@ -62,16 +60,16 @@ Lai piekļūtu funkcijai, veiciet tālāk norādītās darbības.
 
 Filtrs atvērto transakciju parādīšanai ir aizstāts ar jaunu filtru, kas ļauj skatīt transakciju papildu kombinācijas. Laukā **Rādīt** ir pieejamas tālāk norādītās opcijas.
 
-- **Visi** — ļauj skatīt visas atlasīto debitoru transakcijas (atvērtas un slēgtas).
-- **Slēgts** — ļauj skatīt tikai tās transakcijas, kuras ir pilnībā nosegtas un aizvērtas.
-- **Atvērts** — ļauj skatīt tikai tās transakcijas, kuras nav pilnībā nosegtas.
+- **Visi** — ļauj skatīt visas atlasīto debitoru transakcijas (atvērtas un slēgtas).
+- **Slēgts** — ļauj skatīt tikai tās transakcijas, kuras ir pilnībā nosegtas un aizvērtas.
+- **Atvērts** — ļauj skatīt tikai tās transakcijas, kuras nav pilnībā nosegtas.
 - **Atvērt, ieskaitot tās, kas slēgtas datumā vai pēc datuma** — rādīt tikai tās transakcijas, kas vēl nav pilnībā nosegtas jūsu norādītajā datumā vai pēc tā. Atlasot šo opciju, var mainīt datumu, kas ir redzams blakus šim filtram. Sarakstā transakcijas, kurām laukā **Pēdējais nosegšanas datums** vērtība ir norādītajā datumā vai pēc tā, tiek parādītas arī tad, ja šīs transakcijas pašreizējā datumā ir pilnībā nosegtas. Tomēr bilance norāda bilances uz pašreizējo datumu, nevis uz atlasīto datumu.
 
 Atzīmējiet izvēles rūtiņu **Slēpt valūtas konvertēšanas transakcijas**, lai slēptu valūtu pārrēķināšanas transakcijas.
 
 ## <a name="modify-due-dates-and-discount-dates"></a>Apmaksas un atlaides datumu mainīšana
 
-Var atjaunināt debitora atvērtu transakciju apmaksas un atlaides datumu. Laidienā 8.1 tagad sarakstu lapā **Debitoru transakcijas** varat pievienot paredzētos apmaksas datumus. Noklikšķinot dialoglodziņā **Atjaunināt apmaksas un termiņatlaides datumu** uz apmaksas datuma sarakstu lapā **Debitora transakcijas**, jūs varat arī mainīt apmaksas un atlaides datumu, apmaksas nosacījumus un termiņatlaides nosacījumus.
+Var atjaunināt debitora atvērtu transakciju apmaksas un atlaides datumu. Laidienā 8.1 tagad sarakstu lapā **Debitoru transakcijas** varat pievienot paredzētos apmaksas datumus. Noklikšķinot dialoglodziņā **Atjaunināt apmaksas un termiņatlaides datumu**  uz apmaksas datuma sarakstu lapā **Debitora transakcijas**, jūs varat arī mainīt apmaksas un atlaides datumu, apmaksas nosacījumus un termiņatlaides nosacījumus.
 
 ### <a name="activate-the-feature"></a>Funkcijas aktivizēšana
 
@@ -90,7 +88,7 @@ Sarakstu lapā **Debitora transakcijas** tiek parādītas visas debitora transak
 Katra lauka izmaiņas citādi ietekmē transakciju.
 
 - **Rediģēt bāzes datumu** — apmaksas un atlaides datums tiek mainīts tā, lai bāzes datums ir dokumenta datums.
-- **Rediģēt apmaksas datumu** — tiek mainīts tikai paredzētais apmaksas datums.
+- **Rediģēt apmaksas datumu** — tiek mainīts tikai paredzētais apmaksas datums.
 - **Rediģēt atlaides datumu** — mainīts tiek tikai atlaides datums.
 - **Rediģēt maksājuma nosacījumus** — apmaksas datums tiek mainīts atbilstoši bāzes datumam un apmaksas nosacījumiem.
 - **Rediģēt termiņatlaides nosacījumus** — termiņatlaides tiek mainītas atbilstoši bāzes datumam un termiņatlaides nosacījumiem.

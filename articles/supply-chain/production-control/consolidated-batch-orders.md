@@ -2,11 +2,9 @@
 title: Konsolidēti partijas pasūtījumi
 description: Šajā rakstā ir aprakstīts konsolidēto partijas pasūtījumu jēdziens.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed722ba0c79afa038f1af7b4491f3ff18b052067
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e8d7656889b69cfd1dcffb45b52eb649bce59629
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246385"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809234"
 ---
 # <a name="consolidated-batch-orders"></a>Konsolidēti partijas pasūtījumi
 
@@ -35,7 +33,7 @@ Saražotais lielapjoma krājums ir pamatkrājums, bet iepakotais krājums ir apa
 
 Iepakotos krājumus var iepakot viena vai vairāku izmēru konteineros, kas tiek uzskatīti par vienu vienību. Konsolidējot pasūtījumus no lielapjoma krājuma, visus saistītos partijas pasūtījumus varat skatīt vienā skatījumā — tas noder, lai noteiktu visu atlikušo darbu, kas vēl jāpaveic.  
 
-Konsolidētā partijas pasūtījumā var ietilpt jebkāda tālāk uzskaitīto pasūtījumu kombinācija.
+Konsolidētā partijas pasūtījumā var ietilpt jebkāda tālāk uzskaitīto pasūtījumu kombinācija:
 
 -   Viens lielapjoma pasūtījums un vairāki iepakotie pasūtījumi
 -   Vairāki lielapjoma pasūtījumi un vairāki iepakotie pasūtījumi

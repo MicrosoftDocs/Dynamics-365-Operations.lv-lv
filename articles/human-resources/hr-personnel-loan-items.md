@@ -2,11 +2,9 @@
 title: Nodarbinātajiem aizdotu priekšmetu pārvaldīšana
 description: Patapinājuma priekšmeti ir ieraksti, kas vadītājiem palīdz izsekot fiziskos priekšmetus, kurus jūsu uzņēmums patapina saviem darbiniekiem.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5517ee621f1c41b6348dc965e8846d677aa1bb56
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: dccab8cc2b166fe0ca22e05c14ae858f47aaf3e1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464818"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803445"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Nodarbinātajiem aizdotu priekšmetu pārvaldīšana
 
@@ -44,7 +42,7 @@ Izmantojot darbvietu Darbinieku patstāvīgi izmantojamais pakalpojums, darbinie
 
 Vadītāji var skatīt patapinājuma priekšmetus savām tiešajām atskaitēm. Tāpat viņiem var piešķirt atļauju pievienot jaunus patapinājuma priekšmetus savu darbinieku vārdā.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a> Ziņošana par nozaudētiem vai laikā neatdotiem patapinājuma priekšmetiem
+ <a name="account-for-lost-or-misplaced-loan-items"></a>Ziņošana par nozaudētiem vai laikā neatdotiem patapinājuma priekšmetiem
 -----------------------------------------
 
 Ja priekšmets ir bojāts vai netiek atdots laikā, ievadiet fiktīvu atdošanas ierakstu. Pēc tam dzēsiet priekšmetu vai paturiet to apskatā un mainiet aprakstu, lai norādītu, ka priekšmets nav pieejams.

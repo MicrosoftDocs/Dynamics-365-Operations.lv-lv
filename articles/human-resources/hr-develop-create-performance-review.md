@@ -2,11 +2,9 @@
 title: Veiktspējas pārskatu izveide
 description: Šajā tēmā paskaidrots, kā izveidot rezultātu pārskatu, un tajā aprakstīts katras pārskata nodaļas nolūks.
 author: andreabichsel
-manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 031f1ecf6b9ee0673021e838c4a4e23755199543
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: acbfcadb32d3bfb66d290b89e3c90124f80a1be8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465610"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805590"
 ---
 # <a name="create-performance-reviews"></a>Veiktspējas pārskatu izveide
 
@@ -44,7 +42,7 @@ ms.locfileid: "5465610"
 
 8. Atlasiet **Mērķa pievienošana pārskatam**, lai pievienotu mērķi. Kad pabeigts, atlasiet **Labi**.
 9. Atlasiet **Pievienot kompetenci**, lai atvērtu nolaižamo dialoglodziņu.
-10. Laukā **Nosaukums** ievadiet vērtību. 
+10. Laukā **Nosaukums** ievadiet vērtību.
 11. Laukā **Apraksts** ievadiet `Increase customer skills by working with the support team`.
 12. Atlasiet **Labi**.
 13. Atlasiet **Sakļaut visas**.
@@ -58,7 +56,7 @@ ms.locfileid: "5465610"
 20. Atlasiet **Labi**.
 21. Atlasiet cilni **Darbības**.
 22. Atlasiet **Pievienot**.
-23. Laukā **Nosaukums** ievadiet vērtību. 
+23. Laukā **Nosaukums** ievadiet vērtību.
 24. Laukā **Apraksts** ierakstiet kādu vērtību.
 25. Laukā **Sākuma datums** ievadiet datumu.
 26. Laukā **Pabeigšanas datums** ievadiet datumu.

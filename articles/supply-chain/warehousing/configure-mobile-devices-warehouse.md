@@ -2,11 +2,9 @@
 title: Mobilo ierīču iestatīšana darbam noliktavā
 description: Šajā tēmā ir aprakstīts, kā konfigurēt izvēlnes vienumus, kurus noliktavas darbinieki izmanto, veicot darbu mobilajā ierīcē.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232987"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808802"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -64,7 +62,7 @@ Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs**
 | Notīrīt numuru sērijas kešatmiņu | Dzēsiet numuru sērijas numurus no numuru sērijas kešatmiņas. Šo aktivitāti parasti veic sistēmas administrators, lai novērstu kešdarbes problēmas, kad tiek izmantota mobilā ierīce. |
 | Mainīt partijas atgriešanas metodi | Atļaujiet darbiniekam norādīt krājuma un partijas atgriešanas metodes kodu. Veicot šo atlasi, tiek atjaunināts partijai norādītais atgriešanas metodes kods. |
 | Parādīt atvērto darbu sarakstu | Parādiet pieejamo darbu sarakstu noteiktam lietotājam. Pēc tam lietotājs var atlasīt veicamo darbu un saņem norādījumus tā veikšanai. Šo sarakstu ir paredzēts skatīt planšetdatoros, kuru ekrāna izmērs ir vismaz 7 collas. Kad atlasāt šo opciju, kļūst pieejami izvēlnes vienumi **Rediģēt vaicājumu** un **Lauku saraksts**. Lapā **Rediģēt vaicājumu** varat iestatīt sarakstā parādīto darbu kritērijus. Lapā **Lauku saraksts** varat atlasīt darbu sarakstā parādāmos laukus. Piemēram, varat samazināt parādīto lauku skaitu, lai lietotājs varētu ātrāk atlasīt piemērotāko darba vienumu. Kopsavilkuma cilnes **Vispārīgi** laukā **Ierakstu skaits lapā** varat arī atlasīt vienā lapā parādāmo darbu ierakstu skaitu. Ja ir atlasīta opcija **Ļauj lietotājiem filtrēt pēc darba transakcijas veida**, darbu sarakstā tiek ietverta vadīkla **Filtrēt darbu**, ko lietotājs var izmantot filtrēšanai pēc transakcijas veida. Lietotājiem darbu sarakstā tiek rādīti tikai tie darbi, kuriem attiecīgajam lietotājam ir atļauja piekļūt. Jums ir jāpārliecinās, ka lietotājiem ir atļauja piekļūt vienu vai vairākiem lietotāja noteiktajiem izvēlnes vienumiem, kas atbalsta noteiktās darba klases tipus, kam šiem lietotājiem ir jāspēj piekļūt. Atļaujas tiek pārbaudītas, kad lietotājs mēģina izpildīt sarakstā iekļautu darbu.|
-| Izveidot pārsūtīšanas pasūtījumu no noliktavas vienības | Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no noliktavas programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām. Papildinformāciju skatiet sadaļā [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](create-transfer-order-from-warehouse-app.md)
+| Izveidot pārsūtīšanas pasūtījumu no noliktavas vienības | Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no Warehouse Management mobile programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām. Papildinformāciju skatiet sadaļā [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Citam darbiniekam vai procesam paredzēta darba izveides izvēlnes vienumu konfigurēšana

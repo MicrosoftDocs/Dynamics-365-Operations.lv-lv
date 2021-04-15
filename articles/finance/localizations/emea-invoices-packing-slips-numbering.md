@@ -2,11 +2,9 @@
 title: Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 description: Šajā tēmā ir paskaidrots, kā iestatīt numuru sērijas rēķiniem un pavadzīmēm un kā dokumentiem iestatīt pašnumerācijas diapazonus.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Latvia, Lithuania
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 055f9feab044599438c1abd3054de7945b44baf3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa687324ce3d5d75d47b749fc8c156ddcc96d705
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212932"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814960"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>Rēķinu un pavadzīmju numurēšana Latvijai un Lietuvai
 
@@ -66,9 +64,9 @@ Pamatdatu ierakstiem un transakciju ierakstiem varat iestatīt unikālas dokumen
 <td>Konta kods</td>
 <td>Atlasiet, kā šī numuru sērija tiek lietota rēķiniem. Pieejamas šādas opcijas
 <ul>
-<li><strong>Tabula</strong> — šī numuru sērija ir pieejama tikai lietotājam, kurš ir atlasīts laukā <strong>Kods</strong>.</li>
-<li><strong>Grupa</strong> — šī numuru sērija ir pieejama tikai grupai, kura ir atlasīta laukā <strong>Kods</strong>.</li>
-<li><strong>Visi</strong> — šī numuru sērija ir pieejama visiem lietotājiem.</li>
+<li><strong>Tabula</strong> — šī numuru sērija ir pieejama tikai lietotājam, kurš ir atlasīts laukā <strong>Kods</strong>.</li>
+<li><strong>Grupa</strong> — šī numuru sērija ir pieejama tikai grupai, kura ir atlasīta laukā <strong>Kods</strong>.</li>
+<li><strong>Visi</strong> — šī numuru sērija ir pieejama visiem lietotājiem.</li>
 </ul></td>
 </tr>
 <tr class="even">

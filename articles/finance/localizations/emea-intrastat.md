@@ -2,11 +2,9 @@
 title: Intrastat pārskats
 description: Šajā tēmā ir sniegta informācija par Intrastat pārskatu veidošanu preču — un noteiktos gadījumos arī pakalpojumu — tirdzniecībai starp dažādām Eiropas Savienības (ES) valstīm/reģioniem. Tajā ir sniegts pārskats par atskaišu veidošanas procesu, kā arī aprakstīti nepieciešamie iestatījumi un priekšnosacījumi.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8447cb644e7fe0a5ed55fd08091f42a57341f790
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212969"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814997"
 ---
 # <a name="intrastat-overview"></a>Intrastat pārskats
 
@@ -36,7 +34,7 @@ Nākamajās sadaļās ir aprakstīta vispārējā informācijas plūsma, kas tie
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Ievadiet transakciju, kas šķērso citas ES valsts/reģiona robežu
 
-Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Programmā Microsoft Dynamics 365 for Operations (1611) šis līdzeklis ir paplašināts un sniedz iespēju norādīt EK iekšējo transakciju iekraušanas adreses. Ja iekraušanas adrese atšķiras no kreditora uzņēmuma adreses (vai ja atšķiras debitora uzņēmuma adrese atgriešanas pasūtījumam), tad Intrastat pārskatu veidošana strādā ar šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
+Debitora rēķins, brīva teksta rēķins, pirkšanas rēķins, projekta rēķins, debitora pavadzīme, kreditora produktu ieejas plūsma vai pārsūtīšanas pasūtījums tiek pārsūtīti uz Intrastat žurnālu tikai tad, ja mērķa (nosūtīšanai) vai nosūtīšanas (saņemšanai) valsts/reģiona tips ir **ES**. Programmā Microsoft Dynamics 365 for Operations (1611) šis līdzeklis ir paplašināts un sniedz iespēju norādīt EK iekšējo transakciju iekraušanas adreses. Ja iekraušanas adrese atšķiras no kreditora uzņēmuma adreses (vai ja atšķiras debitora uzņēmuma adrese atgriešanas pasūtījumam), tad Intrastat pārskatu veidošana strādā ar šo informāciju. Kad veidojat kādu pārdošanas pasūtījumu, brīva teksta rēķinu, pirkšanas pasūtījumu, kreditora rēķinu, projekta rēķinu vai pārsūtīšanas pasūtījumu, dažiem laukiem, kas ir saistīti ar ārējo tirdzniecību, dokumenta virsrakstā vai rindā ir noklusējuma vērtības. Noklusējuma transakcijas kods tiek ņemts no atbilstošā lauka lapā **Ārējās tirdzniecības parametri**. Noklusējuma preču kods, izcelsmes valsts/reģions un izcelsmes novads tiek ņemti no krājuma. Šīs noklusējuma vērtības varat mainīt, ka arī varat aizpildīt citu ar ārējo tirdzniecību saistīto informāciju: statistisko procedūru, transportēšanas metodi un ostu.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Lietojiet Intrastat žurnālu, lai ģenerētu informāciju par tirdzniecību starp ES valstīm/reģioniem
 
@@ -81,10 +79,10 @@ Nākamajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatu veidoš
 <td>Detalizēta informācija par izlaistajām precēm</td>
 <td>Izlaistajām precēm iestatiet šādus ārējās tirdzniecības datus:
 <ul>
-<li><strong>Preču kods</strong> — atlasiet no atlasīto preču saraksta, kas ir izgūts no piešķirtajām preču kategorijām vai no pilnā Intrastat preču kodu saraksta.</li>
+<li><strong>Preču kods</strong> — atlasiet no atlasīto preču saraksta, kas ir izgūts no piešķirtajām preču kategorijām vai no pilnā Intrastat preču kodu saraksta.</li>
 <li><strong>Statistiskie maksu procenti</strong></li>
-<li><strong>Izcelsmes valsts/reģions</strong> — atlasiet noklusējuma valsti/reģionu, kur preces tika pilnībā iegūtas vai saražotas.</li>
-<li><strong>Izcelsmes/adresāta novads</strong> — saņemamajām precēm atlasiet mērķa noklusējuma novadu un nosūtāmajam precēm atlasiet izcelsmes noklusējuma novadu.</li>
+<li><strong>Izcelsmes valsts/reģions</strong> — atlasiet noklusējuma valsti/reģionu, kur preces tika pilnībā iegūtas vai saražotas.</li>
+<li><strong>Izcelsmes/adresāta novads</strong> — saņemamajām precēm atlasiet mērķa noklusējuma novadu un nosūtāmajam precēm atlasiet izcelsmes noklusējuma novadu.</li>
 <li><strong>Neto svars (kg)</strong></li>
 </ul></td>
 </tr>
@@ -102,7 +100,7 @@ Nākamajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatu veidoš
 </tr>
 <tr class="even">
 <td>Elektroniskie pārskati</td>
-<td>Iestatiet elektronisko pārskatu izveides konfigurācijas, lai eksportētu Intrastat datus uz elektronisku failu, kura formāts atbilst attiecīgo iestāžu prasībām, un priekšskatītu Intrastat datus lietotājam draudzīgā, lasāmā formātā (piemēram, Microsoft Excel formātā).</td>
+<td>Iestatiet elektronisko pārskatu izveides konfigurācijas, lai eksportētu Intrastat datus uz elektronisku failu, kura formāts atbilst attiecīgo iestāžu prasībām, un priekšskatītu Intrastat datus lietotājam draudzīgā, lasāmā formātā (piemēram, Microsoft Excelformātā).</td>
 </tr>
 <tr class="even">
 <td>Noliktavas</td>
@@ -139,26 +137,26 @@ Nākamajās sadaļās ir aprakstīti Intrastat atskaitēm nepieciešamie iestat�
 </tr>
 <tr class="even">
 <td>Darbību kodi</td>
-<td>Iestatiet transakcijas veidu saskaņā ar jūsu valsts/reģiona prasībām. Katram jūsu iestatītajam transakcijas kodam jums ir jāiestata kārtulas rēķinu summu un statistisko summu aprēķināšanai pārsūtīšanas pasūtījumiem un pārdošanas/pirkšanas pasūtījumiem.
+<td>Iestatiet transakcijas veidu saskaņā ar jūsu valsts&#39;/reģiona&#39;prasībām. Katram jūsu iestatītajam transakcijas kodam jums ir jāiestata kārtulas rēķinu summu un statistisko summu aprēķināšanai pārsūtīšanas pasūtījumiem un pārdošanas/pirkšanas pasūtījumiem.
 <ul>
 <li>Pārsūtīšanas pasūtījumiem rēķina summu un statistisko summu aprēķināšanai jūs iestatāt vienu no šādām kārtulām:
 <ul>
-<li><strong>Tukšs</strong> — summa būs 0 (nulle).</li>
-<li><strong>Finanšu izmaksu summa</strong> — summa būs vienāda ar finanšu izmaksām.</li>
-<li><strong>Kopējās izmaksas</strong> — summa būs vienāda ar transakcijas kopējām izmaksām.</li>
-<li><strong>Manuāls</strong> — summa būs vienāda ar summu, kas ir manuāli norādīta pārsūtīšanas pasūtījuma rindā.</li>
+<li><strong>Tukšs</strong> — summa būs 0 (nulle).</li>
+<li><strong>Finanšu izmaksu summa</strong> — summa būs vienāda ar finanšu izmaksām.</li>
+<li><strong>Kopējās izmaksas</strong> — summa būs vienāda ar transakcijas kopējām izmaksām.</li>
+<li><strong>Manuāls</strong> — summa būs vienāda ar summu, kas ir manuāli norādīta pārsūtīšanas pasūtījuma rindā.</li>
 </ul></li>
 <li>Pārdošanas pasūtījumiem un pirkšanas pasūtījumiem rēķina summu un statistisko summu aprēķināšanai jūs iestatāt vienu no šādām kārtulām:
 <ul>
-<li><strong>Tukšs</strong> — summa būs 0 (nulle).</li>
-<li><strong>Rēķina summa</strong> — summa būs vienāda ar summu, kas ir iekļauta rēķinā par šo preci.</li>
+<li><strong>Tukšs</strong> — summa būs 0 (nulle).</li>
+<li><strong>Rēķina summa</strong> — summa būs vienāda ar summu, kas ir iekļauta rēķinā par šo preci.</li>
 <li><strong>Pamatsumma</strong> — summa būs vienāda ar summu, par kādu tiktu izrakstīts rēķins, pirms tiek piemērotas jebkādas atlaides.</li>
 </ul></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Transportēšanas metodes</td>
-<td>Iestatiet transportēšanas režīmu saskaņā ar jūsu valsts/reģiona prasībām. Katram piegādes režīmam varat iestatīt noklusējuma transportēšanas metodi cilnē <strong>Ārējā tirdzniecība</strong>.</td>
+<td>Iestatiet transportēšanas režīmu saskaņā ar jūsu valsts&#39;/reģiona&#39;prasībām. Katram piegādes režīmam varat iestatīt noklusējuma transportēšanas metodi cilnē <strong>Ārējā tirdzniecība</strong>.</td>
 </tr>
 <tr class="even">
 <td>Ostas</td>
@@ -194,7 +192,7 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 <tr class="odd">
 <td>Vispārīgi</td>
 <td><ul>
-<li><strong>Vispārīgi</strong> — norādiet tālāk aprakstīto informāciju.
+<li><strong>Vispārīgi</strong> — norādiet tālāk aprakstīto informāciju.
 <ul>
 <li>Noklusējuma transakcijas kodi pārdošanas pasūtījumiem, pirkšanas pasūtījumiem, kredīta notām un pārsūtīšanas pasūtījumiem. Transakcijas kods, kas ir iestatīts kredīta notām, tiek izmantots arī kā kods fizisko preču atgriešanai, un tas tiek izmantots noviržu fiziskajās atgriešanās pret labojumu kredīta notām. Par fizisko preču atgriešanu tiek ziņots Intrastat pārsūtīšanā ar atšķirīgu virzienu. Tiek ziņots, ka saņemšanas atgriešana ir ziņota kā nosūtīšana, un nosūtīšanas atgriešana tiek ziņota kā saņemšana.</li>
 <li>Darbinieks, kas ir atbildīgs par Intrastat atskaišu sagatavošanu.</li>
@@ -204,15 +202,15 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 <li>Sliekšņa summa un svars</li>
 <li>Preču kods, ko lietot transakcijām, kuras atrodas zem sliekšņa</li>
 </ul></li>
-<li><strong>Pārsūtīt</strong> — norādiet kritērijus transakciju pārsūtīšanai uz Intrastat žurnālu. Varat norādīt, ka transakcijas tiek pārsūtītas tikai tad, ja krājumi atbilst vienam vai visiem no tālāk norādītajiem kritērijiem.
+<li><strong>Pārsūtīt</strong> — norādiet kritērijus transakciju pārsūtīšanai uz Intrastat žurnālu. Varat norādīt, ka transakcijas tiek pārsūtītas tikai tad, ja krājumi atbilst vienam vai visiem no tālāk norādītajiem kritērijiem.
 <ul>
-<li>Krājumi nav pakalpojumu krājumi.</li>
+<li>Krājumi nav&#39;pakalpojumu krājumi.</li>
 <li>Krājumiem nav preces koda.</li>
 <li>Krājumiem ir svars.</li>
 <li>Krājumiem ir papildu vienības.</li>
 </ul></li>
 <li><strong>Pārbaudīt iestatījumus</strong> — norādiet kārtulas Intrastat datu pilnīguma pārbaudīšanai. Varat atlasīt, kuri dati tiek pārbaudīti.</li>
-<li><strong>Noapaļošanas nosacījumi</strong> — norādiet tālāk uzskaitītos iestatījumus attiecībā uz summu un svaru noapaļošanu Intrastat atskaitēs.
+<li><strong>Noapaļošanas nosacījumi</strong> — norādiet tālāk uzskaitītos iestatījumus attiecībā uz summu un svaru noapaļošanu Intrastat atskaitēs.
 <ul>
 <li>Noapaļošanas nosacījums (precizitāte)</li>
 <li>Noapaļošanas metode: uz augšu, uz leju vai parastā</li>
@@ -220,13 +218,13 @@ Lai iestatītu parametrus nākamajā tabulā, izmantojiet lapu **Ārējās tirdz
 <li>Instrukcijas par tādu svaru noapaļošanu, kas ir mazāk par 1 kilogramu (kg): uz augšu līdz 1 kg, parastā, vai bez noapaļošanas</li>
 </ul></li>
 <li><strong>Elektronisko atskaišu veidošana</strong> — norādiet atsauces uz elektronisko atskaišu konfigurācijām, lai varētu ģenerēt elektronisku failu un atskaiti.</li>
-<li><strong>Preču kodu hierarhija</strong> — norādiet kategoriju hierarhiju ar tipu <strong>Preču kods</strong>, kas apzīmē Intrastat preču kodu CN8.</li>
-  <li> <strong>Maiņas kursa tips</strong> — ja vēlaties, norādiet maiņas kursu, ko izmantot, lai ziņotu par Intrastat pārdošanas un pirkšanas transakcijām ārvalstu valūtās. Šis vienums tiek izmantots arī tad, ja kurss atšķiras no maiņas kursa, kas tiek lietots transakcijas grāmatošanai.</li>  
+<li><strong>Preču kodu hierarhija</strong> — norādiet kategoriju hierarhiju ar tipu <strong>Preču kods</strong>, kas apzīmē Intrastat preču kodu CN8.</li>
+  <li> <strong>Maiņas kursa tips</strong> — ja vēlaties, norādiet maiņas kursu, ko izmantot, lai ziņotu par Intrastat pārdošanas un pirkšanas transakcijām ārvalstu valūtās. Šis vienums tiek izmantots arī tad, ja kurss atšķiras no maiņas kursa, kas tiek lietots transakcijas grāmatošanai.</li>  
 </ul></td>
 </tr>
 <tr class="even">
 <td>Aģenta kontaktinformācija</td>
-<td>Norādiet aģenta nosaukumu/vārdu un uzvārdu, adresi, PVN reģistrācijas numuru, tālruņa numuru un faksa numuru.</td>
+<td>Norādiet aģenta&#39;nosaukumu/vārdu un uzvārdu, adresi, PVN reģistrācijas numuru, tālruņa numuru un faksa numuru.</td>
 </tr>
 <tr class="odd">
 <td>Valsts/reģiona rekvizīti</td>

@@ -2,11 +2,9 @@
 title: Periodiskas datu eksportēšanas programmas izveide
 description: Šajā rakstā parādīts, kā izveidot Microsoft Azure loģikas programmu, kas eksportē datus no Microsoft Dynamics 365 Human Resources uz periodisku grafiku.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc9b5c97f855f1d8eb44765c98473b69f96adec
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466981"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801123"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Periodiskas datu eksportēšanas programmas izveide
 
@@ -70,7 +68,7 @@ Pabeigtā loģikas programma būs līdzīga tālāk redzamajam attēlam.
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>1. darbība: datu eksportēšanas projekta izveide Human Resources
 
-Human Resources izveidojiet datu eksportēšanas projektu, kas eksportē nodarbinātos. Nosauciet projektu **Nodarbināto eksportēšana** un pārliecinieties, ka opcija **Ģenerēt datu pakotni** ir iestatīta uz **Jā**. Pievienojiet projektam atsevišķu elementu (**Nodarbinātais**) un atlasiet formātu tā eksportēšanai. (Šajā pamācībā tiek izmantots Microsoft Excel formāts.)
+Human Resources izveidojiet datu eksportēšanas projektu, kas eksportē nodarbinātos. Nosauciet projektu **Nodarbināto eksportēšana** un pārliecinieties, ka opcija **Ģenerēt datu pakotni** ir iestatīta uz **Jā**. Pievienojiet projektam atsevišķu elementu (**Nodarbinātais**) un atlasiet formātu tā eksportēšanai. (Šajā pamācībā tiek izmantotsMicrosoft Excel formāts.)
 
 ![Nodarbināto datu projekta eksportēšana](media/integration-logic-app-export-workers-project.png)
 

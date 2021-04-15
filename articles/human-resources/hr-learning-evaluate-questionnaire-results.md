@@ -2,11 +2,9 @@
 title: Anketu rezultātu skatīšana un novērtēšana
 description: Šajā rakstā ir skaidrots, kā varat skatīt un novērtēt respondentu aizpildīto anketu rezultātus.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 54530a8735cb8ce4b21688eae86fda83035133ed
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: fbb0d1fb80101f086d817d2ef38e0a07490d1df1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464962"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802555"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Anketu rezultātu skatīšana un novērtēšana
 
@@ -56,10 +54,10 @@ Lapā **Atbildes** varat skatīt detalizētu informāciju par atbildēm, iegūto
 
 -   **Rezultātu atskaite** — šajā atskaitē tiek rādīts grafisks attēlojums par nopelnīto punktu skaitu katrai rezultātu grupai atlasītajai atbilžu sesijai.
 -   **Atbilžu atskaite** — šajā atskaitē tiek rādītas atbildes, ko respondents atlasīja katram anketas jautājumam.
--   **Nepareizās atbildes** — šajā atskaitē tiek rādīta informācija, kas ir saistīta ar respondenta atlasītajām nepareizajām atbildēm.
+-   **Nepareizās atbildes** — šajā atskaitē tiek rādīta informācija, kas ir saistīta ar respondenta atlasītajām nepareizajām atbildēm.
 
 > [!NOTE]
-> Atskaite **Rezultāti**  ir pieejama tikai tad, ja anketai lietojat rezultātu grupas un ja lapā **Anketas** atlasījāt vienumu **Rezultātu lapa**. Atskaite **Atbilde** un atskaite **Nepareizās atbildes** ir pieejamas tikai tad, ja lapā **Anketas** atlasījāt vienumu **Atbilžu atskaite**.
+> Atskaite **Rezultāti** ir pieejama tikai tad, ja anketai lietojat rezultātu grupas un ja lapā **Anketas** atlasījāt vienumu **Rezultātu lapa**. Atskaite **Atbilde** un atskaite **Nepareizās atbildes** ir pieejamas tikai tad, ja lapā **Anketas** atlasījāt vienumu **Atbilžu atskaite**.
 
 ## <a name="questionnaire-statistics"></a>Anketu statistika
 

@@ -2,11 +2,9 @@
 title: Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
 description: Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90e68dd819e90c8b603af10784638250a1bb4363
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 89cb38656766b23761665518f9ec39f78349f79b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231620"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810322"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Daļēja kreditora maksājuma segšana un galīgā maksājuma segšana par pilnu summu pirms atlaides datuma
 
@@ -30,7 +28,7 @@ ms.locfileid: "5231620"
 
 Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti daļēji maksājumi pēc kreditora rēķina un tiek pielāgota termiņatlaide.
 
-Fabrikam pērk preces no kreditora 3064. Kreditors dod Fabrikam 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**. 25. jūnijā Eiprila ievada rēķinu par summu 1000,00 kreditoram 3064.
+Fabrikam pērk preces no kreditora 3064. Kreditors dod Fabrikam 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Rēķini ir jāapmaksā 30 dienu laikā. Turklāt kreditors Fabrikam termiņatlaides ļauj saņemt arī par daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Kreditoru moduļa parametri**. 25. jūnijā Eiprila ievada rēķinu par summu 1000,00 kreditoram 3064.
 
 ## <a name="vendor-invoice-on-june-25"></a>Kreditora rēķins 25. jūnijā
 25. jūnijā Eiprila ievada un grāmato rēķinu par summu 1000,00 kreditoram 3064. Eiprila var skatīt šo transakciju lapā **Debitoru transakcijas**.

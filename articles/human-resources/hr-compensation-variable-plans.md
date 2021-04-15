@@ -2,11 +2,9 @@
 title: Mainīgās atlīdzības plānu izveide
 description: Mainīgā atlīdzība veido darbinieka nestandarta algu, piemēram, prēmijas vai samaksu uzņēmuma akcijās. Šajā rakstā ir aprakstīti komponenti, kas ir jāiestata, lai varētu izmantot mainīgo atlīdzību un darbinieku reģistrēt mainīgās atlīdzības plānā.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 4bf2c6525f245a72811f4f239479be360c0c434c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465658"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800883"
 ---
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
 
@@ -45,7 +43,7 @@ Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas n
 ## <a name="variable-compensation-plans"></a>Atlīdzības mainīgās daļas struktūras
 **Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības tips. Mainīgās atlīdzības tips nosaka, vai sistēma kā atlīdzību aprēķina valūtas summu vai vienību skaitu. Jums jāiestata arī aprēķina metode.
 
--   **Noteiktā laikā** — mainīgās atlīdzības aprēķina pamatā ir fiksēta atlīdzība, kas darbiniekam ir jāizmaksā noteiktā datumā. Šis datums tiek norādīts procesa notikumā, kad tiek apstrādātas jaunas atlīdzības summas.
+-   **Noteiktā laikā** — mainīgās atlīdzības aprēķina pamatā ir fiksēta atlīdzība, kas darbiniekam ir jāizmaksā noteiktā datumā. Šis datums tiek norādīts procesa notikumā, kad tiek apstrādātas jaunas atlīdzības summas.
 -   **Salikts** — atlīdzības summa tiek aprēķināta katrai unikalajai fiksētas atlīdzības izmaksu likmei, kas procesa notikumā darbiniekam bija iestatita no perioda sākuma datuma līdz perioda beigu datumam. Pēc tam likmes tiek saskaitītas, lai noteiktu gala atlīdzību. Piemēram, cikla laikā darbinieks tika pārcelts citā amatā, kam paredzēta citāda izmaksu likme. Šajā gadījumā mainīgā atlīdzība tiek pielāgota atbilstoši laika periodam, kad darbiniekam bija paredzēta katra izmaksu likme.
 
 Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parastās pamata izpeļņas, vai arī kā vienību skaita kopu.
@@ -55,7 +53,7 @@ Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parast�
 
 Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, vai visiem darbiniekiem ir jāsaņem vienāds palielinājums neatkarīgi no datuma, kurā viņi tika pieņemti darbā (**Nolīgšanas kārtula** = **Nav**), vai arī šiem darbiniekiem ir jāsaņem procenti no atlīdzības atkarībā no tā, cik ilgi viņi bija nodarbināti cikla laikā (**Nolīgšanas kārtula** = **Procenti**). 
 
-**Līdzekļu faktors** — ļauj koriģēt darbinieku atlīdzību, ņemot vērā darbinieka nodaļas sniegumu. Veiktspējas rādītājus katrai nodaļai var iestatīt lapas **Nodaļas** sadaļā **Saistītās formas** &gt; **Atlīdzība** &gt; **Veiktspēja**. Atlīdzība, ko saņem attiecīgās nodaļas darbinieki, ir atkarīga no vērtības laukā **Sasniegtie mērķa procenti**, kas norāda nodaļas sniegumu.
+**Līdzekļu faktors** — ļauj koriģēt darbinieku atlīdzību, ņemot vērā darbinieka nodaļas sniegumu. Veiktspējas rādītājus katrai nodaļai var iestatīt lapas **Nodaļas** sadaļā **Saistītās formas** &gt; **Atlīdzība** &gt; **Veiktspēja**. Atlīdzība, ko saņem attiecīgās nodaļas darbinieki, ir atkarīga no vērtības laukā **Sasniegtie mērķa procenti**, kas norāda nodaļas sniegumu.
 
 -   Ja nodaļas sniegums ir 100 procenti, atlīdzība šīs nodaļas darbiniekiem tiek aprēķināta, ņemot vērā procentuālo vērtību, kas ir iestatīta laukā **Izmaksa pie 100%**.
 -   Ja nodaļas sniegums ir lielāks par 100 procentiem, sistēma pievieno procentu likmi, kas ir iestatīta laukā **Katram 1% virs mērķa**, procentu likmei, kas ir iestatīta laukā **Izmaksa pie 100%**, līdz tiek sasniegta vērtība, kas ir iestatīta laukā **Augstākā pieļaujamā izmaksa**.
