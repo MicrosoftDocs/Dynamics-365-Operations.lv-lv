@@ -2,7 +2,6 @@
 title: Izveidot juridisko personu
 description: Juridiskā persona ir organizācija, kas tiek identificēta ar reģistrāciju juridiskā iestādē.
 author: sericks007
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 981f73752a39c765a4e872164a8d6ee19f2941fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c4801480ea22dd0edcc0efb42c50055730acc13e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560631"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747445"
 ---
 # <a name="create-a-legal-entity"></a>Izveidot juridisko personu
 
@@ -30,7 +29,7 @@ Juridiskā persona ir organizācija, kas tiek identificēta ar reģistrāciju ju
 1. Dodieties uz **Navigācijas rūts > Moduļi > Organizācijas administrēšana > Organizācijas > Juridiskas personas**.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Nosaukums** ierakstiet kādu vērtību.
-4. Laukā **Uzņēmums** ievadiet vērtību. 
+4. Laukā **Uzņēmums** ievadiet vērtību.
 5. Laukā **Valsts/reģions** ievadiet vai atlasiet kādu vērtību.
 6. Noklikšķiniet uz **Labi**. Sadaļā **Vispārīgi** norādiet šādu vispārējo informāciju par juridisko personu: ievadiet meklēšanas nosaukumu, ja ir nepieciešams meklēšanas nosaukums. Meklēšanas nosaukums ir alternatīvs nosaukums, ko var lietot šīs juridiskās personas meklēšanai. Atlasiet, vai šī juridiskā persona tiek izmantota kā konsolidēšanas uzņēmums. Atlasiet, vai šī juridiskā persona tiek izmantota kā korekcijas uzņēmums. 
 7. Izvērsiet sadaļu **Adreses**. Sadaļā **Adreses** noklikšķiniet uz **Rediģēt**, lai ierakstītu informāciju par adresi, piemēram, ielas nosaukumu un numuru, pasta indeksu un pilsētu.

@@ -2,8 +2,7 @@
 title: SPLITLIST ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota SPLITLIST elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559142"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745573"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER funkcija
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559142"
 
 `SPLITLIST` funkcija sadala norādīto sarakstu apakšsarakstos (jeb partijās), kuri katrs satur norādītu ierakstu skaitu. Pēc tam tā atgriež rezultātu kā jaunu *Ierakstu saraksta* vērtību, kas sastāv no partijām.
 
-## <a name="syntax"></a>Sintakse
+## <a name="syntax-1"></a>Sintakse 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Sintakse 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumenti
@@ -44,6 +49,10 @@ SPLITLIST (list, number)
 `number`: *Vesels skaitlis*
 
 Maksimālais ierakstu skaits partijā.
+
+`on-demand reading flag`: *Būla*
+
+Vērtība *Būla*, kas norāda, vai pēc pieprasījuma jāģenerē apakšsarakstu elementi.
 
 ## <a name="return-values"></a>Atgrieztās vērtības
 
@@ -62,6 +71,8 @@ Atgriezts partiju saraksts satur šādus elementus:
 - **BatchNumber:** *Vesels skaitlis*
 
     Pašreizējās partijas numurs atgrieztajā sarakstā.
+
+Ja lasīšanas karodziņš pēc pieprasījuma ir iestatīts uz **Patiess**, pēc pieprasījuma tiek ģenerēti apakšsaraksti, kas ļauj samazināt atmiņas patēriņu, bet var izraisīt veiktspējas samazināšanos, ja elementi netiek izmantoti secīgi.
 
 ## <a name="example"></a>Paraugs
 

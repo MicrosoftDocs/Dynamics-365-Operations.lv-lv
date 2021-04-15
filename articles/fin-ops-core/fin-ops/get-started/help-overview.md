@@ -2,7 +2,6 @@
 title: Palīdzības sistēma
 description: Šajā tēmā ir sniegts pārskats par Palīdzības sistēmu Finance and Operations programmām.
 author: edupont04
-manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4763b0bc4ba0222e290a9056f421506c2f4eaf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560881"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749832"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -157,7 +156,7 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Šī vietne vieso vai savieno ar visu produktu dokumentāciju programmatūrai Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/) | Šī vietne ir brīva Microsoft eLearning vietne. |
-| [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Šī vietne nodrošina mākonī izvietotu sadarbības darbvietu, ko debitori un partneri var izmantot, lai pārvaldītu projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Tā ir noderīga visām ieviešanas fāzēm. |
+| [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Šī vietne nodrošina mākonī izvietotu sadarbības darbvietu, ko debitori un partneri var izmantot, lai pārvaldītu projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Tā ir noderīga visām ieviešanas fāzēm. |
 | [Atbalsta emuārs](https://aka.ms/AXSupportBlog) | Šī vietne sniedz padomus un ieteikumus, ko ir publicējusi Atbalsta darba grupa. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šī vietne vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |

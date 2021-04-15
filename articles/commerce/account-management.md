@@ -2,11 +2,9 @@
 title: Konta pārvaldības lapas un moduļi
 description: Šajā tēmā aplūkotas konta pārvaldības lapas un moduļi risinājumā Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206635"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796298"
 ---
 # <a name="account-management-pages-and-modules"></a>Konta pārvaldības lapas un moduļi
 
@@ -51,9 +49,9 @@ Pasūtījumu vēstures lapā tiek izmantots pasūtījuma vēstures modulis, lai 
 
 Pasūtījumu informācijas lapa sniedz detalizētu informāciju par katru pasūtījumu, un tai var piekļūt no pasūtījumu vēstures lapas. Tā izmanto pasūtījuma informācijas moduli, kas pieprasa pārdošanas ID vai transakcijas ID, lai izgūtu pasūtījuma informāciju.
 
-### <a name="user-profile-page"></a>Lietotāja profila lapa
+### <a name="my-profile-page"></a>Mana profila lapa
 
-Lietotāja profila lapā tiek rādīta lietotāja konta informācija, piemēram, lietotāja vārds un e-pasta adrese. Tā izmanto lietotāja profila informāciju un lietotāja profila rediģēšanas moduļus. Lai gan e-pasta adresi nevar noņemt, to var rediģēt. Lietotāja profila lapā tiek rādītas arī lietotāja preferences, kas ļauj lietotājam piedalīties vai atteikties no noteiktām funkcijām, piemēram, ieteikumu sarakstu personalizēšanas. 
+Mana profila lapa rāda informāciju par lietotāja konta profilu, izmantojot konta profila moduli. Lapa parāda e-pasta adresi, kas saistīta ar lietotāja kontu, kā arī konta preferences. Iestatot pielāgotos debitora atribūtus, šos atribūtus parādīs arī sadaļa "Papildinformācija". Lietotāji var rediģēt savu vārdu, preferences vai papildu informāciju (ja pieejama).
 
 ### <a name="user-address-page"></a>Lietotāja adreses lapa
 

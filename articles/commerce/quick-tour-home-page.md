@@ -2,11 +2,9 @@
 title: Sākumlapas pārskats
 description: Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce mājas lapu.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 11c440663214f4991770390c0757c92ef02755f5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244767"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792199"
 ---
 # <a name="home-page-overview"></a>Sākumlapas pārskats
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegts pārskats par programmas Microsoft Dynamics 365 Commerce mājas lapu.
-
-## <a name="overview"></a>Pārskats
 
 Mājas lapa ir noklusējuma lapa, kur pircēji dodas, kad tie apmeklē e-tirdzniecības vietni. Parasti šī lapa parāda preces un veicināšanas pasākumus, izmantojot mārketinga moduļu kombināciju. Mājas lapai jābūt papildinātai ar attēliem un tekstu, lai iesaistītu pircējus.
 

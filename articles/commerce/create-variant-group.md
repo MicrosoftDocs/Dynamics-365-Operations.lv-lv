@@ -2,11 +2,9 @@
 title: Variantu grupas izveide
 description: Šajā tēmā aprakstīts, kā izveidot izmēra, stila vai krāsu varianta grupu produktam risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4c34aca043f10fef38f186800c429cac36c41ce7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0462958d8225de145a8d886b096f96cd3f2cb5c5
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207851"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799545"
 ---
 # <a name="create-a-variant-group"></a>Variantu grupas izveide
 
@@ -41,7 +39,7 @@ Dynamics 365 Commerce atbalsta vairākus preču variantus. Vislabāk iestatīt v
 
 Lai izveidotu izmēra grupu, izpildiet tālāk aprakstītās darbības.
  
-1. Navgācijas rūtī pārejiet uz **Moduļi \> Mazumtirdzniecība un tirdzniecība \> Preces un kategorijas \> Variantu grupas \> Izmēru grupas**.
+1. Navgācijas rūtī pārejiet uz **Moduļi \> Mazumtirdzniecība un komercija \> Preces un kategorijas \> Variantu grupas \> Izmēru grupas**.
 1. Darbību rūtī atlasiet **Jauns**.
 1. Laukā **Izmēra grupa** ievadiet izmēra grupas nosaukumu.
 1. Lodziņā **Apraksts** ievadiet atbilstošu aprakstu.

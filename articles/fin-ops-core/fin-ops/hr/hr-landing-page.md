@@ -1,8 +1,7 @@
 ---
-title: Cilvēkresursu pārskats
-description: Personāla vadība racionalizē daudzus ikdienas lietvedības uzdevumus un automatizē vairākus ar jūsu organizācijas personālu saistītus procesus. Personāla vadības darbiniekiem tā nodrošina arī struktūru uzraudzības jomu pārvaldīšanai. Šajās jomās ietilpst darbinieku pieņemšana darbā, kā arī ieturējumu un atvieglojumu administrēšana, apmācība, darba izpildes novērtējumi un izmaiņu pārvaldība.
+title: Human Resources pārskats
+description: Cilvēku resursi racionalizē rutīnas uzskaites uzdevumus, automatizē procesus, kas saistīti ar jūsu uzņēmuma personālu, un nodrošina cilvēku resursu personāla struktūru, lai pārvaldītu uzraudzībā esošās jomas.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566702"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752184"
 ---
-# <a name="human-resources-overview"></a>Cilvēkresursu pārskats
+# <a name="human-resources-overview"></a>Human Resources pārskats
 
 [!include [banner](../includes/banner.md)]
 

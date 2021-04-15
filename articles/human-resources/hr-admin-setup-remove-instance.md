@@ -2,11 +2,9 @@
 title: Noņemt instanci
 description: Šajā rakstā ir detalizēti aprakstīts, kā noņemt izmēģinājuma vai ražošanas vidi Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e6d1eff32b6f925541760f0c0408238f3c4d947
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466860"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795025"
 ---
 # <a name="remove-an-instance"></a>Noņemt instanci
 
@@ -58,7 +56,7 @@ Lai noņemtu visu Power Apps vidi, tostarp Human Resources vidi un saistītās p
 3. Atlasiet noņemamo vidi.
 4. Atlasiet **Dzēst** un apstipriniet dzēšanu. 
 5. Uzgaidiet, līdz ir pabeigta dzēšana.
-6. Pierakstieties [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS), izmantojot kontu, ko izmantojāt, lai abonētu Human Resources. 
+6. Pierakstieties [Lifecycle Services](https://lcs.dynamics.com/Logon/Index) (LCS), izmantojot kontu, ko izmantojāt, lai abonētu Human Resources. 
 7. Atlasiet Human Resources projektu, kurā ir ietverta vide. 
 8. Savā LCS projektā atlasiet elementu **Human Resources programmas pārvaldība**. 
 9. Atlasiet noņemamo instanci. 

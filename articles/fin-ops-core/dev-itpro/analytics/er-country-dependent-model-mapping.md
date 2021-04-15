@@ -2,7 +2,6 @@
 title: No valsts konteksta atkarīgu EP modeļu kartējumu konfigurēšana
 description: Šajā tēmā skaidrots, kā var iestatīt EP modeļa kartējumus, lai tie būtu atkarīgi no juridiskās personas, kas kontrolē to izmantošanu, valsts/reģiona konteksta.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 48d2e3c81d038cc55f6f100f3081561506946199
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 83cd99350f58a56d121d694393edc4eb98af728a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562290"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753772"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>No valsts konteksta atkarīgu EP modeļu kartējumu konfigurēšana
 
@@ -43,11 +42,11 @@ Lai izpildītu šajā tēmā aprakstītos piemērus, jums ir nepieciešama tāl�
     - Elektronisko pārskatu veidošanas funkcionālais konsultants
     - Sistēmas administrators
 
-Dažām šīs tēmas darbībām ir nepieciešama EP formāta izpilde. Dažos gadījumos EP formāta izpildi ietekmē tā uzņēmuma valsts/reģiona konteksts, ar kuru pašlaik esat pieteicies. Varat palaist EP formātu pašreizējā RCS instancē, ja uzņēmums, kam ir nepieciešamās valsts/reģiona konteksts, ir pieejams RCS. Pretējā gadījumā ir jāaugšupielādē aizpildīta EP modeļa kartēšanas un ER formāta konfigurāciju versija, kas izmanto EP datu modeli jūsu Finance instancē, un tad jāpalaiž EP formāts šajā Finance instancē. Lai iegūtu informāciju par to, kā importēt konfigurācijas, kas atrodas RCS par finanšu instanci, skatiet [Konfigurāciju importēšana no RCS ](rcs-download-configurations.md).
+Dažām šīs tēmas darbībām ir nepieciešama EP formāta izpilde. Dažos gadījumos EP formāta izpildi ietekmē tā uzņēmuma valsts/reģiona konteksts, ar kuru pašlaik esat pieteicies. Varat palaist EP formātu pašreizējā RCS instancē, ja uzņēmums, kam ir nepieciešamās valsts/reģiona konteksts, ir pieejams RCS. Pretējā gadījumā ir jāaugšupielādē aizpildīta EP modeļa kartēšanas un ER formāta konfigurāciju versija, kas izmanto EP datu modeli jūsu Finance instancē, un tad jāpalaiž EP formāts šajā Finance instancē. Lai iegūtu informāciju par to, kā importēt konfigurācijas, kas atrodas RCS par finanšu instanci, skatiet [Konfigurāciju importēšana no RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Viena modeļa kartēšanas gadījums
 
-Veiciet darbības šīs tēmas [1. papildinājumā](#appendix1), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana(vispārīgā**), kas ietver modeļa kartēšanu **Ieejas punkta** 1 definīcijai.
+Veiciet darbības šīs tēmas [1. papildinājumā](#appendix1), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana(vispārīgā** ), kas ietver modeļa kartēšanu **Ieejas punkta** 1 definīcijai.
 
 ![ER konfigurāciju lapa](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -60,7 +59,7 @@ Ievērojiet, ka tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas t
 
 ## <a name="multiple-shared-model-mappings-case"></a>Vairāku koplietojamo modeļu kartējumu gadījums
 
-Veiciet darbības šīs tēmas [2. papildinājumā](#appendix2), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija  **Kartēšana (Vispārīga)** un **Pielāgota kartēšana (vispārīga)**, kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
+Veiciet darbības šīs tēmas [2. papildinājumā](#appendix2), lai izstrādātu obligāto EP komponentus. Tagad jums ir modeļa kartēšanas konfigurācija **Kartēšana (Vispārīga)** un **Pielāgota kartēšana (vispārīga)**, kas ietver modeļa kartēšanu **1. ieejas punkta** definīcijai.
 
 ![ER konfigurāciju lapa](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -91,7 +90,7 @@ Veiciet šīs darbības, lai definētu modeļa kartēšanas konfigurāciju **Pie
 2.  Kopsavilkuma cilnē **Versijas** atlasiet **Palaist**.
 3.  Atlasiet **Labi**.
 
-Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas tika ģenerēts, izmantojot izpildīto EP formātu. Tā kā šis formāts ir konfigurēts, lai izmantotu definīciju **1. ieejas punkts**, un kā noklusējuma konfigurācija tika atlasīts modeļa kartēšanas konfigurācija **Pielāgotā kartēšana (vispārīgi)**, izpildītais EP formāts izmantoja modeļa kartēšanu **Kartēšanas kopija (vispārīgi)** konfigurācijā  **Pielāgotā kartēšana (vispārīgi)** kā datu avotu. Tāpēc lejupielādētajam failam ir teksts **Vispārīgā pielāgotā funkcionalitāte 1**.
+Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas tika ģenerēts, izmantojot izpildīto EP formātu. Tā kā šis formāts ir konfigurēts, lai izmantotu definīciju **1. ieejas punkts**, un kā noklusējuma konfigurācija tika atlasīts modeļa kartēšanas konfigurācija **Pielāgotā kartēšana (vispārīgi)**, izpildītais EP formāts izmantoja modeļa kartēšanu **Kartēšanas kopija (vispārīgi)** konfigurācijā **Pielāgotā kartēšana (vispārīgi)** kā datu avotu. Tāpēc lejupielādētajam failam ir teksts **Vispārīgā pielāgotā funkcionalitāte 1**.
 
 > [!NOTE]
 > Ja maināt uzņēmumu, ar kuru pašlaik esat pieteicies, un vēlreiz palaižat šo EP formātu, jūs iegūstat tādu pašu saturu ģenerētajā failā, jo noklusētā EP modeļa kartēšanas konfigurācija nesatur no uzņēmuma atkarīgus ierobežojumus.
@@ -106,12 +105,12 @@ Ievērojiet, ka modeļa kartēšanas konfigurācijas **Kartēšana (FR)** 1. ver
 
 ### <a name="run-the-configured-format"></a>Konfigurētā formāta izpilde
 
-1.  Mainīt uzņēmumu uz  **FRSI**.
+1.  Mainīt uzņēmumu uz **FRSI**.
 2.  Lapā **Konfigurācijas**, konfigurāciju kokā atlasiet vienumu **Formāts kartējumu apgūšanai**.
 3.  Kopsavilkuma cilnē **Versijas** atlasiet **Palaist**.
 4.  Atlasiet **Labi**.
 
-Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas tika ģenerēts, izmantojot izpildīto EP formātu. Tā kā šis formāts ir konfigurēts, lai izmantotu definīciju **1. ieejas punkts**, un kā noklusējuma konfigurācija tika atlasīts modeļa kartēšanas konfigurācija **Pielāgotā kartēšana (vispārīgi)**, izpildītais EP formāts izmantoja modeļa kartēšanu **Kartēšanas kopija (vispārīgi)** konfigurācijā  **Pielāgotā kartēšana (vispārīgi)** kā datu avotu. Tāpēc lejupielādētajam failam ir teksts **Vispārīgā pielāgotā funkcionalitāte 1**.
+Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas tika ģenerēts, izmantojot izpildīto EP formātu. Tā kā šis formāts ir konfigurēts, lai izmantotu definīciju **1. ieejas punkts**, un kā noklusējuma konfigurācija tika atlasīts modeļa kartēšanas konfigurācija **Pielāgotā kartēšana (vispārīgi)**, izpildītais EP formāts izmantoja modeļa kartēšanu **Kartēšanas kopija (vispārīgi)** konfigurācijā **Pielāgotā kartēšana (vispārīgi)** kā datu avotu. Tāpēc lejupielādētajam failam ir teksts **Vispārīgā pielāgotā funkcionalitāte 1**.
 
 ### <a name="define-the-france-specific-mapping-configuration-as-the-default-configuration"></a>Noteikt Francijai specifisko kartēšanas konfigurāciju kā noklusēto konfigurāciju
 
@@ -130,7 +129,7 @@ Veiciet šīs darbības, lai definētu pielāgoto modeļa kartēšanas konfigur�
 2.  Kopsavilkuma cilnē **Versijas** atlasiet **Palaist**.
 3.  Atlasiet **Labi**.
 
-Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas tika ģenerēts, izmantojot izpildīto EP formātu. Tā kā šis formāts ir konfigurēts, lai izmantotu definīciju **1. ieejas punkts**, un kā noklusējuma konfigurācija tika atlasīts modeļa kartēšanas konfigurācija **Kartēšana (FR)**, izpildītais EP formāts izmantoja modeļa kartēšanu **Kartēšana (FR)** konfigurācijā  **Kartēšana (FR)** kā datu avotu. Tāpēc lejupielādētajam failam ir teksts **FR funkcionalitāte 1**.
+Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūks piedāvā lejupielādēt teksta failu, kas tika ģenerēts, izmantojot izpildīto EP formātu. Tā kā šis formāts ir konfigurēts, lai izmantotu definīciju **1. ieejas punkts**, un kā noklusējuma konfigurācija tika atlasīts modeļa kartēšanas konfigurācija **Kartēšana (FR)**, izpildītais EP formāts izmantoja modeļa kartēšanu **Kartēšana (FR)** konfigurācijā **Kartēšana (FR)** kā datu avotu. Tāpēc lejupielādētajam failam ir teksts **FR funkcionalitāte 1**.
 
 > [!NOTE]
 > Ja maināt uzņēmumu, ar kuru pašlaik esat pieteicies, un vēlreiz palaižat šo EP formātu, izlaide būs atkarīga no atlasītā uzņēmuma valsts/reģiona konteksta.
@@ -139,10 +138,10 @@ Ievērojiet, ka atlasītā EP formāta izpilde ir veiksmīga. Tīmekļa pārlūk
 
 Kā jau redzējāt, modeļa kartēšanas izvēle EP formāta izpildei darbojas šādā veidā:
 
-- Modeļa kartēšanas definīcija, ko lieto EP formāts, tiek konkretizēta (šīs tēmas piemēros **1. ieejas punkts**).
-- Visas kartēšanas konfigurācijas, kas ietver kartēšanu, kurai ir noteikta definīcija un kas ievēro jebkuru valstu/reģionu konteksta ierobežojumus, kas ir konfigurēti, var tikt izmantotas, lai palaistu EP formātu (šīs tēmas piemēros **Kartēšana (vispārīgā)**, **Pielāgotā kartēšana (vispārīgā)** un **Kartēšana (FR)**).
-- Jebkurai noklusētā modeļa kartēšanai, kurai ir valsts/reģiona konteksta ierobežojumi, ir augstākā prioritāte atlasē (šīs tēmas piemēros **Kartēšana (FR)**).
-- Jebkurai noklusētā modeļa kartēšanai, kurai nav valsts/reģiona konteksta ierobežojumi, ir nākamā augstākā prioritāte atlasē (šīs tēmas piemēros **Pielāgotā kartēšana (vispārīgi)**).
+- Modeļa kartēšanas definīcija, ko lieto EP formāts, tiek konkretizēta (šīs tēmas piemēros **1. ieejas punkts** ).
+- Visas kartēšanas konfigurācijas, kas ietver kartēšanu, kurai ir noteikta definīcija un kas ievēro jebkuru valstu/reģionu konteksta ierobežojumus, kas ir konfigurēti, var tikt izmantotas, lai palaistu EP formātu (šīs tēmas piemēros **Kartēšana (vispārīgā)**, **Pielāgotā kartēšana (vispārīgā)** un **Kartēšana (FR)** ).
+- Jebkurai noklusētā modeļa kartēšanai, kurai ir valsts/reģiona konteksta ierobežojumi, ir augstākā prioritāte atlasē (šīs tēmas piemēros **Kartēšana (FR)** ).
+- Jebkurai noklusētā modeļa kartēšanai, kurai nav valsts/reģiona konteksta ierobežojumi, ir nākamā augstākā prioritāte atlasē (šīs tēmas piemēros **Pielāgotā kartēšana (vispārīgi)** ).
 - Visiem modeļa kartējumiem, kuriem ir valsts/reģiona konteksta ierobežojumi, ir augstāka prioritāte atlasei nekā modeļa kartēšana, kurai nav valsts/reģiona konteksta ierobežojumu.
 
 Tabulā ir sniegta informācija par modeļu kartēšanas atlases rezultātiem visiem iespējamiem gadījumiem modeļa kartēšanas iestatījumiem:
@@ -150,7 +149,7 @@ Tabulā ir sniegta informācija par modeļu kartēšanas atlases rezultātiem vi
 - 1. kolonna norāda, vai pirmais modeļu kartējums, kam nav norādīts valsts/reģiona konteksta ierobežojumi (piemēram koplietošanas kartējumam **Kartēšana (vispārīgā))**, ir klātesošs, un, ja ir, vai opcija **Noklusējums modeļa kartēšanai** ir iestatīta uz **Jā**.
 - 2. kolonna norāda, vai otrais modeļu kartējums, kam nav norādīti valsts/reģiona konteksta ierobežojumi (piemēram koplietošanas kartējumam **Pielāgotā kartēšana (vispārīgā))**, ir klātesošs, un, ja ir, vai opcija **Noklusējums modeļa kartēšanai** ir iestatīta uz **Jā**.
 - 3. kolonna norāda, vai pirmais modeļu kartējums, kam ir norādīti valsts/reģiona A konteksta ierobežojumi (piemēram Francijai specifiskajam kartējumam **Kartēšana (FR))**, ir klātesošs, un, ja ir, vai opcija **Noklusējums modeļa kartēšanai** ir iestatīta uz **Jā**.
-- 4. kolonna norāda, vai otrais modeļu kartējums, kam ir norādīti valsts/reģiona A konteksta ierobežojumi un, ja ir, vai opcija **Noklusējums modeļa kartēšanai**  ir iestatīta uz **Jā**.
+- 4. kolonna norāda, vai otrais modeļu kartējums, kam ir norādīti valsts/reģiona A konteksta ierobežojumi un, ja ir, vai opcija **Noklusējums modeļa kartēšanai** ir iestatīta uz **Jā**.
 - 5. kolonnā ir sniegti modeļa kartēšanas atlases rezultāti EP formāta izpildei tā uzņēmuma kontrolē, kam ir valsts/reģiona A konteksts.
 - 6. kolonnā ir sniegti modeļa kartēšanas atlases rezultāti EP formāta izpildei tā uzņēmuma kontrolē, kam ir valsts/reģiona A konteksts.
 
@@ -193,14 +192,14 @@ Tabulā ar plus zīmi (+) norāda modeļa kartēšanas konfigurācijas esamību 
 
 ### <a name="review-the-er-debug-log"></a>Skatīt EP atkļūdošanas žurnālu
 
-1.  Navigācijas rūtī pārejiet uz sadaļu  **Moduļi \> Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas atkļūdošanas žurnāls**.
+1.  Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas atkļūdošanas žurnāls**.
 2.  Atlasiet pogu **Pārlādēt šo lapu**.
 
 ![EP palaišanas žurnālu lapa](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
-Ievērojiet, ka ir pievienots jauns ieraksts EP atkļūdošanas žurnālam izpildītā EP formātā. Tā kā šī ieraksta lauks **Līmenis** ir iestatīts uz **Info**, ieraksts ir informatīvs. Tā kā formāta komponenta lauks ir iestatīts uz **Kartēšanas konfigurācija**, ieraksts informē par modeļa kartēšanu, kas tika izmantota, izpildot EP formātu **Formāts kartējumu apgūšanai** (atlasīts laukā **Konfigurācijas nosaukums**). Lauka **Ģenerētais teksts** saturs jūs informē, ka kartēšanas komponents **Kartēšana (FR)**, kas atrodas konfigurācijā **Kartēšana (FR)** ir izmantots šī pārskata palaišanai.
+Ievērojiet, ka ir pievienots jauns ieraksts EP atkļūdošanas žurnālam izpildītā EP formātā. Tā kā šī ieraksta lauks **Līmenis** ir iestatīts uz **Info**, ieraksts ir informatīvs. Tā kā formāta komponenta lauks ir iestatīts uz **Kartēšanas konfigurācija**, ieraksts informē par modeļa kartēšanu, kas tika izmantota, izpildot EP formātu **Formāts kartējumu apgūšanai** (atlasīts laukā **Konfigurācijas nosaukums** ). Lauka **Ģenerētais teksts** saturs jūs informē, ka kartēšanas komponents **Kartēšana (FR)**, kas atrodas konfigurācijā **Kartēšana (FR)** ir izmantots šī pārskata palaišanai.
 
-## <a name="appendix-1"></a><a name="appendix1"></a>1. pielikums
+## <a name="appendix-1"></a><a name="appendix1"></a> 1. pielikums
 
 ### <a name="configure-a-sample-data-model"></a>Konfigurēt parauga datu modeli
 
@@ -260,7 +259,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 1.  Lapā **Konfigurācijas** atlasiet **Konfigurācijas izveidošana**.
 2.  Nolaižamajā dialoglodziņā lauku grupā **Jauns** atlasiet opciju **Modeļa kartēšana, pamatojoties uz datu modeli Modelis kartējumu apgūšanai**.
 3.  Laukā **Nosaukums** ievadiet **Kartēšana (Vispārīgā)**.
-4.  Laukā **Datu modeļa definīcija**  atlasiet **1. ieejas punkts**.
+4.  Laukā **Datu modeļa definīcija** atlasiet **1. ieejas punkts**.
 5.  Atlasiet **Izveidot konfigurāciju**.
 
 Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģēšanai. Šajā versijā ir ietverts datu modeļa kartēšanas komponents.
@@ -282,7 +281,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 7.  Atlasiet **Saglabāt**.
 8.  Aizveriet lapu **Modeļa kartējuma noformētājs**.
 9.  Atlasiet **Jauns**.
-10. Laukā **Definīcija**  atlasiet **2. ieejas punkts**.
+10. Laukā **Definīcija** atlasiet **2. ieejas punkts**.
 11. Laukā **Nosaukums** ievadiet **Kartēšana (Vispārīgā) 2**.
 12. Atlasiet **Noformētājs**.
 13. Sadaļā **Datu modelis** atlasiet **Rediģēt**.
@@ -318,7 +317,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 2.  Atlasiet **Izveidot konfigurāciju**.
 3.  Nolaižamajā dialoglodziņā lauku grupā **Jauns** atlasiet opciju **Formāts, pamatojoties uz datu modeli Modelis EP kartējumu apgūšanai**.
 4.  Laukā **Nosaukums** ievadiet **Formāts EP kartējumu apgūšanai**.
-5.  Laukā **Datu modeļa definīcija**  atlasiet **1. ieejas punkts**.
+5.  Laukā **Datu modeļa definīcija** atlasiet **1. ieejas punkts**.
 6.  Atlasiet **Izveidot konfigurāciju**.
 
 Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģēšanai. Šajā versijā ir ietverts formāta komponents.
@@ -341,7 +340,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 4.  Atlasiet **Saglabāt**.
 5.  Aizvērt lapu.
 
-## <a name="appendix-2"></a><a name="appendix2"></a>2. pielikums
+## <a name="appendix-2"></a><a name="appendix2"></a> 2. pielikums
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Konfigurēt parauga modeļa kartējumu vispārējai pielāgošanai
 
@@ -401,7 +400,7 @@ Ievērojiet, ka šīs EP konfigurācijas melnraksta 1. versija ir gatava rediģ�
 
 Ņemiet vērā, ka izveidotā konfigurācija tiek saglabāta kā pabeigta versija 1.
 
-## <a name="appendix-3"></a><a name="appendix3"></a>3. pielikums
+## <a name="appendix-3"></a><a name="appendix3"></a> 3. pielikums
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Konfigurēt parauga modeļa kartējumu valstij/reģionam specifiskai pielāgošanai
 

@@ -2,11 +2,9 @@
 title: Lapas satura pieejamības pārbaude
 description: Šajā tēmā ir aprakstīts, kā pārbaudīt lapas satura pieejamību programmā Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 186044fc7a360f227cecffb39bad0e225245dd4d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 885696c13b0e5353e6dbd9dc21cf075d5e301786
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210975"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791635"
 ---
 # <a name="verify-page-content-accessibility"></a>Lapas satura pieejamības pārbaude
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā pārbaudīt lapas satura pieejamību programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Kad esat pabeidzis izmainīt lapu, nepieciešams pārliecinieties, vai saturs ir pieejams ikvienam tīmekļa lietotājam. Commerce autorēšanas rīkos varat viegli pārbaudīt lapas satura pieejamību, izmantojot integrēto pakalpojumu [Microsoft Accessibility Insights](https://accessibilityinsights.io/). Šis pakalpojums pārbauda jūsu lapas saturu, izmantojot jaunākās [Globālā tīmekļa konsorcija (World Wide Web Consortium — W3C) pieejamības](https://www.w3.org/standards/webdesign/accessibility) vadlīnijas.
 

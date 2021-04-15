@@ -1,8 +1,7 @@
 ---
 title: Brīdinājumu noteikumu veidošana
-description: Šajā tēmā ir sniegta informācija par brīdinājumiem un izskaidrots, kā izveidot brīdinājuma kārtulu tā, lai varētu saņemt paziņojumu par notikumiem, piemēram, par datumu, kas iestājas, vai noteiktām izmaiņām, kuras ir veiktas.
-author: tjvass
-manager: AnnBe
+description: Šajā tēmā ir sniegta informācija par brīdinājumiem un ir paskaidrots, kā izveidot brīdinājuma kārtulu.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
@@ -11,17 +10,17 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559412"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749201"
 ---
-# <a name="create-alert-rules"></a>Brīdinājumu noteikumu veidošana
+# <a name="create-alert-rules"></a>Brīdinājumu kārtulu veidošana
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,9 +44,9 @@ Piemēram, ja tiek iestatīta lauka **Sākuma datums** brīdinājuma kārtula, p
 
 Rasties var trīs notikumu veidi.
 
-- **Izveides veida un dzēšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek izveidots vai dzēsts ieraksts.
-- **Atjaunināšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek mainīti konkrēta lauka dati.
-- **Izpildes datuma veida notikumi** — šie notikumi aktivizē brīdinājumu, ja ir iestājies datums.
+- **Izveides veida un dzēšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek izveidots vai dzēsts ieraksts.
+- **Atjaunināšanas veida notikumi** — šie notikumi aktivizē brīdinājumu, ja tiek mainīti konkrēta lauka dati.
+- **Izpildes datuma veida notikumi** — šie notikumi aktivizē brīdinājumu, ja ir iestājies datums.
     
 Veiktās izmaiņas var aktivizēt lietotājs. Piemēram, lietotājs maina pirkuma pasūtījuma piegādes datumu. Vai arī izmaiņas var tikt veiktas procesa robežās. Piemēram, izmaiņas lapas laukā **Statuss** notiek, lai norādītu dažādu procesu dzīves ciklu sistēmā.
 
@@ -59,8 +58,8 @@ Piemēram, var norādīt, ka sistēmai ir jānosūta brīdinājums, ja tiek main
 
 Pēc tam jūs vēlaties saņemt brīdinājumu par konkrētiem pirkšanas pasūtījumiem. Piemēram, atlasīt var no vienu no tālāk norādītajām opcijām. Šīs opcijas definē brīdinājuma kārtulas nosacījumus.
 
-- **Pašreiz atlasītais ieraksts** — brīdinājums tiek nosūtīts, ja tiek nomainīts noteikta pirkšanas pasūtījuma statuss **Saņemts**.
-- **Visi ieraksti** — brīdinājums tiek nosūtīts, ja tiek mainīts pašreiz atvērtajā lapā redzamā krājuma pirkšanas pasūtījuma statuss. Lai izveidotu noteiktu ierakstu kopuma kārtulas, var izmantot lapā pieejamo papildu filtrēšanu. Piemēram, var izveidot brīdinājumu, kas tiek aktivizēts par debitoru konkrētā debitoru grupā visiem pirkšanas pasūtījumiem.
+- **Pašreiz atlasītais ieraksts** — brīdinājums tiek nosūtīts, ja tiek nomainīts noteikta pirkšanas pasūtījuma statuss **Saņemts**.
+- **Visi ieraksti** — brīdinājums tiek nosūtīts, ja tiek mainīts pašreiz atvērtajā lapā redzamā krājuma pirkšanas pasūtījuma statuss. Lai izveidotu noteiktu ierakstu kopuma kārtulas, var izmantot lapā pieejamo papildu filtrēšanu. Piemēram, var izveidot brīdinājumu, kas tiek aktivizēts par debitoru konkrētā debitoru grupā visiem pirkšanas pasūtījumiem.
     
 ## <a name="expiry-of-rule"></a>Kārtulas derīguma termiņa beigas
 
