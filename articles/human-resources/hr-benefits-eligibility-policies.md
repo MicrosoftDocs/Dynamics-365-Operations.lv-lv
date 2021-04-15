@@ -2,11 +2,9 @@
 title: Atvieglojumu piemērojamības ierobežojumi
 description: Šajā rakstā ir sniegta informācija par atvieglojumu piemērojamības ierobežojumiem, kas jums palīdz noteikt, kurš ir piemērots noteiktu atvieglojumu saņemšanai.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,35 +16,35 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e0c0aa7eebf32fc404e0519c6068b4427e6b87b2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: a5046f1d32fb965c7cb3793daf1ba40b9c2a1d10
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465154"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805902"
 ---
-# <a name="benefit-eligibility-policies"></a><span data-ttu-id="63534-103">Atvieglojumu piemērojamības politikas</span><span class="sxs-lookup"><span data-stu-id="63534-103">Benefit eligibility policies</span></span>
+# <a name="benefit-eligibility-policies"></a><span data-ttu-id="02024-103">Atvieglojumu piemērojamības politikas</span><span class="sxs-lookup"><span data-stu-id="02024-103">Benefit eligibility policies</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="63534-104">Šajā rakstā ir sniegta informācija par atvieglojumu piemērojamības ierobežojumiem, kas jums palīdz noteikt, kurš ir piemērots noteiktu atvieglojumu saņemšanai.</span><span class="sxs-lookup"><span data-stu-id="63534-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
+<span data-ttu-id="02024-104">Šajā rakstā ir sniegta informācija par atvieglojumu piemērojamības ierobežojumiem, kas jums palīdz noteikt, kurš ir piemērots noteiktu atvieglojumu saņemšanai.</span><span class="sxs-lookup"><span data-stu-id="02024-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
 
-<span data-ttu-id="63534-105">Veidojot priekšrocības, ir jāizlemj, kuriem darbiniekiem tās būs pieejamas.</span><span class="sxs-lookup"><span data-stu-id="63534-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="63534-106">Tālāk redzamajā tabulā ir parādīti piemēri priekšrocībām, kuras var iespējot konkrētiem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="63534-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
+<span data-ttu-id="02024-105">Veidojot priekšrocības, ir jāizlemj, kuriem darbiniekiem tās būs pieejamas.</span><span class="sxs-lookup"><span data-stu-id="02024-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="02024-106">Tālāk redzamajā tabulā ir parādīti piemēri priekšrocībām, kuras var iespējot konkrētiem darbiniekiem.</span><span class="sxs-lookup"><span data-stu-id="02024-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
 
-| <span data-ttu-id="63534-107">Atvieglojumi</span><span class="sxs-lookup"><span data-stu-id="63534-107">Benefit</span></span>          | <span data-ttu-id="63534-108">Kam šī priekšrocība ir pieejama</span><span class="sxs-lookup"><span data-stu-id="63534-108">Who the benefit is available to</span></span> |
+| <span data-ttu-id="02024-107">Atvieglojumi</span><span class="sxs-lookup"><span data-stu-id="02024-107">Benefit</span></span>          | <span data-ttu-id="02024-108">Kam šī priekšrocība ir pieejama</span><span class="sxs-lookup"><span data-stu-id="02024-108">Who the benefit is available to</span></span> |
 |------------------|---------------------------------|
-| <span data-ttu-id="63534-109">Veselības apdrošināšana</span><span class="sxs-lookup"><span data-stu-id="63534-109">Health insurance</span></span> | <span data-ttu-id="63534-110">Visi darbinieki</span><span class="sxs-lookup"><span data-stu-id="63534-110">All employees</span></span>                   |
-| <span data-ttu-id="63534-111">Mobilais tālrunis</span><span class="sxs-lookup"><span data-stu-id="63534-111">Mobile phone</span></span>     | <span data-ttu-id="63534-112">Pārdošanas daļa, vadītāji</span><span class="sxs-lookup"><span data-stu-id="63534-112">Sales staff, executives</span></span>         |
-| <span data-ttu-id="63534-113">Stāvvietas caurlaide</span><span class="sxs-lookup"><span data-stu-id="63534-113">Parking passes</span></span>   | <span data-ttu-id="63534-114">Vadošie darbinieki</span><span class="sxs-lookup"><span data-stu-id="63534-114">Executives</span></span>                      |
+| <span data-ttu-id="02024-109">Veselības apdrošināšana</span><span class="sxs-lookup"><span data-stu-id="02024-109">Health insurance</span></span> | <span data-ttu-id="02024-110">Visi darbinieki</span><span class="sxs-lookup"><span data-stu-id="02024-110">All employees</span></span>                   |
+| <span data-ttu-id="02024-111">Mobilais tālrunis</span><span class="sxs-lookup"><span data-stu-id="02024-111">Mobile phone</span></span>     | <span data-ttu-id="02024-112">Pārdošanas daļa, vadītāji</span><span class="sxs-lookup"><span data-stu-id="02024-112">Sales staff, executives</span></span>         |
+| <span data-ttu-id="02024-113">Stāvvietas caurlaide</span><span class="sxs-lookup"><span data-stu-id="02024-113">Parking passes</span></span>   | <span data-ttu-id="02024-114">Vadošie darbinieki</span><span class="sxs-lookup"><span data-stu-id="02024-114">Executives</span></span>                      |
 
-<span data-ttu-id="63534-115">Lai izveidotu piemērojamības ierobežojumus, tiek izmantoti tālāk minētie komponenti.</span><span class="sxs-lookup"><span data-stu-id="63534-115">The following components in are used to create eligibility policies:</span></span>
+<span data-ttu-id="02024-115">Lai izveidotu piemērojamības ierobežojumus, tiek izmantoti tālāk minētie komponenti.</span><span class="sxs-lookup"><span data-stu-id="02024-115">The following components in are used to create eligibility policies:</span></span>
 
--   <span data-ttu-id="63534-116">Ierobežojuma nosacījumu veidi</span><span class="sxs-lookup"><span data-stu-id="63534-116">Policy rule types</span></span>
--   <span data-ttu-id="63534-117">Atvieglojumu piemērojamības ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="63534-117">Benefit eligibility policies</span></span>
+-   <span data-ttu-id="02024-116">Ierobežojuma nosacījumu veidi</span><span class="sxs-lookup"><span data-stu-id="02024-116">Policy rule types</span></span>
+-   <span data-ttu-id="02024-117">Atvieglojumu piemērojamības ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="02024-117">Benefit eligibility policies</span></span>
 
-<span data-ttu-id="63534-118">Ierobežojuma nosacījumu veidi definē vaicājuma parametrus, kas tiek izmantoti, izstrādājot noteiktus ierobežojuma nosacījumus.</span><span class="sxs-lookup"><span data-stu-id="63534-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="63534-119">Pēc ierobežojuma nosacījumu veidu izveides, var izveidot priekšrocības piemērojamības ierobežojumus.</span><span class="sxs-lookup"><span data-stu-id="63534-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="63534-120">Politikas ļauj izveidot noteikumu kopu, kas tiek lietota vienai vai vairākām juridiskām personām.</span><span class="sxs-lookup"><span data-stu-id="63534-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="63534-121">Katras politikas ietvaros varat skatīt jebkuru priekšrocības piemērojamības ierobežojuma nosacījumu veidu, ko izveidojāt agrāk.</span><span class="sxs-lookup"><span data-stu-id="63534-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
+<span data-ttu-id="02024-118">Ierobežojuma nosacījumu veidi definē vaicājuma parametrus, kas tiek izmantoti, izstrādājot noteiktus ierobežojuma nosacījumus.</span><span class="sxs-lookup"><span data-stu-id="02024-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="02024-119">Pēc ierobežojuma nosacījumu veidu izveides, var izveidot priekšrocības piemērojamības ierobežojumus.</span><span class="sxs-lookup"><span data-stu-id="02024-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="02024-120">Politikas ļauj izveidot noteikumu kopu, kas tiek lietota vienai vai vairākām juridiskām personām.</span><span class="sxs-lookup"><span data-stu-id="02024-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="02024-121">Katras politikas ietvaros varat skatīt jebkuru priekšrocības piemērojamības ierobežojuma nosacījumu veidu, ko izveidojāt agrāk.</span><span class="sxs-lookup"><span data-stu-id="02024-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
 
-<span data-ttu-id="63534-122">Definējiet nosacījumu tvērumu ierobežojumu ietvaros.</span><span class="sxs-lookup"><span data-stu-id="63534-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="63534-123">Piemēram, ja izveidojat priekšrocību piemērojamības ierobežojuma nosacījumu veidu ar nosaukumu **Vadītāji**, varat norādīt šī nosacījuma lomu saistībā ar šo politiku.</span><span class="sxs-lookup"><span data-stu-id="63534-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="63534-124">Šajā piemērā nosacījums var noteikt, ka nosacījumā jāietver visi amata nosaukumi, kas satur vārdu "vadītājs".</span><span class="sxs-lookup"><span data-stu-id="63534-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="63534-125">Pēc tam, kad esat definējis nosacījumu parametrus vai nosacījumus, kas tiek iekļauti ierobežojumos, varat piešķirt noteikt nosacījumu priekšrocībai.</span><span class="sxs-lookup"><span data-stu-id="63534-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
+<span data-ttu-id="02024-122">Definējiet nosacījumu tvērumu ierobežojumu ietvaros.</span><span class="sxs-lookup"><span data-stu-id="02024-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="02024-123">Piemēram, ja izveidojat priekšrocību piemērojamības ierobežojuma nosacījumu veidu ar nosaukumu **Vadītāji**, varat norādīt šī nosacījuma lomu saistībā ar šo politiku.</span><span class="sxs-lookup"><span data-stu-id="02024-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="02024-124">Šajā piemērā nosacījums var noteikt, ka nosacījumā jāietver visi amata nosaukumi, kas satur vārdu "vadītājs".</span><span class="sxs-lookup"><span data-stu-id="02024-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="02024-125">Pēc tam, kad esat definējis nosacījumu parametrus vai nosacījumus, kas tiek iekļauti ierobežojumos, varat piešķirt noteikt nosacījumu priekšrocībai.</span><span class="sxs-lookup"><span data-stu-id="02024-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
 
 
 
