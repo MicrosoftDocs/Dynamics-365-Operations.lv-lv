@@ -2,7 +2,6 @@
 title: Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 description: Šajā tēmā ir aprakstīts, kā iestatīt materiālu apstrādes aprīkojuma interfeisu (MHAX), lai varētu izveidot savienojumu ar ārējā fiziskās materiālu apstrādes (MH) sistēmām.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571846"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810514"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materiālu apstrādes aprīkojuma interfeiss (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Jūs variet izmantot *materiālu apstrādes aprīkojuma interfeisu* (MHAX), lai ārējās fiziskās materiālu apstrādes (MH) sistēmas savienotu ar noliktavu, ko pārvalda papildu noliktavas pārvaldība (WMS) Microsoft Dynamics 365 Supply Chain Management. Interfeiss starp WMS un MH sistēmām sastāv no divām rindām: viena izejošajiem notikumiem (WMS uz MH) un viena ienākošajiem notikumiem (MH uz WMS). WMS sistēma ģenerē izejošos notikumus, balstoties uz darba rindām, kas ir izveidotas dažādos darba izveides un izpildes procesos. LĪDZ ar to MH sistēma regulāri reaģē uz WMS sistēmu, meklē jaunus notikumus un apstrādā atbildes. Kad MH ir pabeigta notikumu apstrāde saskaņā ar darba instrukcijām, tā nosūta ienākošos notikumus, piemēram, darba rindas pabeigšanu un īsu izdošanu.
 

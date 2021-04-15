@@ -2,11 +2,9 @@
 title: Dimensiju hierarhija
 description: Šajā tēmā ir sniegta informācija par dimensiju hierarhijām. Izmantojot dimensiju hierarhiju, varat definēt pārskatu struktūru, izmaksu ierobežojumus un drošības iestatījumus modulī Izmaksu uzskaite.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217390"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810178"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiju hierarhija
 
@@ -124,12 +122,13 @@ Organizācijas pārskatu prasībām atbilstošu dimensiju hierarhiju var iestat�
 
 Pārskatu dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
 
-|                   | Dimensijas elementu diapazons   |                         |
+**Dimensijas elementu diapazons**
+
+|   Zari           |   Avota dimensijas elements   |   Mērķa dimensijas elements   |
 |-------------------|---------------------------|-------------------------|
-| **Mezgli**         | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Organizācija      |                           |                         |
 | &nbsp;&nbsp;Administrators         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Ražošana    |                           |                         |
@@ -146,12 +145,13 @@ Ierobežojuma prasībām atbilstošu dimensiju hierarhiju var iestatīt tālāk 
 
 Ierobežojuma dimensiju hierarhiju var iestatīt tālāk norādītajā veidā.
 
-|                   | Dimensijas elementu diapazons   |                         |
+**Dimensijas elementu diapazons**
+
+|   Zari           |   Avota dimensijas elements   |   Mērķa dimensijas elements   |
 |-------------------|---------------------------|-------------------------|
-| **Mezgli**         | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Izmaksu izturēšanās     |                           |                         |
 | &nbsp;&nbsp;Fiksētas izmaksas    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Mainīgas izmaksas | 40001                     | 40010                   |
+| &nbsp;&nbsp;Mainīgas izmaksas | 40001                     | 40010                   |
 
 > [!NOTE]
 > Sadaļā **Dimensijas elementu diapazons** mezgls var ietvert 1:_n_ dimensiju elementu diapazonus. Varat ievietot vēl neesošu dimensiju elementu ID. Tādējādi hierarhija tiek padarīta viegli pielāgojama.  
@@ -166,8 +166,8 @@ Varat pārvietot mezglu hierarhijā uz augšu un uz leju tā pašreizējā līme
 
 Lai pārvietotu mezglu uz jaunu vietu hierarhijā, ir jāatlasa mērķa mezgls. Mezglu var pārvietot divos tālāk norādītajos veidos.
 
-- **Pārvietot zem** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **zem** atlasītā mērķa mezgla.
-- **Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.
+- **Pārvietot zem** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **zem** atlasītā mērķa mezgla.
+- **Pārvietot pēc** — pārvietojiet atlasīto mezglu no tā pašreizējās pozīcijas hierarhijā un ievietojiet to **pēc** atlasītā mērķa mezgla tā hierarhijas līmeņa ietvaros.
 
 > [!NOTE] 
 > Eksportējot datus uz programmu Excel vai pakalpojumu Power BI, netiek saglabāta mezglu secība, jo šie rīki pēc noklusējuma izmantoto burtciparu kārtošanas secību. Secība ir jāmaina manuāli.
@@ -297,9 +297,10 @@ Pastāv iespēja, ka visi vadītāji varēs piekļūt ļoti sensitīviem uzņēm
 
 Hierarhiju veidotājā ir pieejama jauna kopsavilkuma cilne **Lietotāji**. Tajā varat ievietot vienu vai vairākus lietotāju ID katrā hierarhijas mezglā.
 
-|                 | Lietotāji            | Dimensijas elementu diapazons   |                         |
+**Lietotāju un dimensijas elementu diapazoni**
+
+|   Zari         |   Lietotāja ID        |   Avota dimensijas elements   |   Mērķa dimensijas elements   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Mezgli**       | **Lietotāja ID**      | **Avota dimensijas elements** | **Mērķa dimensijas elements** |
 | Organizācija    | Bendžamins, Klēra |                           |                         |
 | &nbsp;&nbsp;Administrators         | Aprīlī            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finansēt   | Alīsija           | CC002                     | CC003                   |

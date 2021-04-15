@@ -1,12 +1,10 @@
 ---
-title: Konfigurēt programmas lauku nosaukumus programmā Noliktava
-description: Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 Supply Chain Management.
+title: Warehouse Management mobile programmas lauku konfigurēšana
+description: Šajā tēmā ir aprakstīts, kā definēt un konfigurēt Warehouse Management mobile programmā atainotos lauku nosaukumus un prioritātes.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232963"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808826"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Konfigurēt programmas lauku nosaukumus programmā Noliktava
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobile programmas lauku konfigurēšana
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā definēt un konfigurēt noliktavu programmas lauku nosaukumus un prioritātes programmatūrā Dynamics 365 Supply Chain Management. 
+Šajā tēmā ir aprakstīts, kā definēt un konfigurēt Warehouse Management mobile programmā atainotos lauku nosaukumus un prioritātes.
 
 > [!NOTE]
-> Šī tēma attiecas uz moduļa Noliktavas vadība līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Noliktava ir lietojumprogramma, ko varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos noliktavu programmas lauku nosaukumus un prioritātes un kā tie tiek izmantoti programmā Noliktava. Detalizētu informāciju par to, kā konfigurēt savienojumu ar programmu Noliktava, skatiet apmācībā [Noliktavas programmas instalēšanas un konfigurēšanas pārskats](install-configure-warehousing-app.md).
+> Šī tēma attiecas uz Warehouse Management līdzekļiem. Tā neattiecas uz moduļa Krājumu vadība līdzekļiem. Warehouse Management mobile lietojumprogramma ir programma, ko varat izmantot noliktavas uzdevumu veikšanai. Varat definēt un konfigurēt programmā lietoto lauku nosaukumus, kā arī konfigurēt prioritāti, kādai šie lauku nosaukumi ir jāpiešķir. Šajā tēmā ir paskaidrots, kā definēt un konfigurēt šos Warehouse Management mobile programmas lauku nosaukumus un prioritātes un kā tie tiek izmantoti.
 
 ## <a name="configure-warehouse-app-field-names"></a>Konfigurēt noliktavas programmas lauku nosaukumus
 
@@ -142,7 +140,7 @@ Atlikušie metadati, piemēram, Novietojums, netiks rādīti uzdevumu lapā, bet
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Instalēt un konfigurēt noliktavas programmas pārskatu](install-configure-warehousing-app.md)
+[Noliktavas pārvaldības mobilās programmas instalēšana un savienošana](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

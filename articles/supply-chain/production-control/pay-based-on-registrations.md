@@ -2,11 +2,9 @@
 title: Apmaksa atbilstoši reģistrācijām
 description: Šajā tēmā ir paskaidrots, kā tiek aprēķināta apmaksa, pamatojoties uz nodarbināto reģistrācijām.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed2ee6c09f8b8a404d36c635eb5dbd9383653f81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250410"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814830"
 ---
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
@@ -51,13 +49,13 @@ Tālāk ir aprakstīti divi scenāriji, kuru pamatā ir brīvā režīma profils
 
 | Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00.00 | 06.00 | Pirmdienās  |
-| Brīvais režīms +         | 06.00 | 07.00 | Pirmdienās  |
-| Ierašanās laiks      | 07.00 | 07.00 | Pirmdienās  |
-| Standarta laiks | 07.00 | 14.30 | Pirmdienās  |
-| Brīvais režīms-         | 14.30 | 15.30 | Pirmdienās  |
-| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdienās  |
-| Virsstundas     | 15.30 | 06.00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 ### <a name="scenario-1-a-worker-registers-clock-in-during-a-flex-period-and-clock-out-during-a-flex--period"></a>1. scenārijs: nodarbinātais reģistrē ierašanās laiku brīvā režīma + periodā un aiziešanas laiku brīvā režīma - periodā
 
@@ -204,13 +202,13 @@ Kā piemēru aplūkojiet tālāk norādīto brīvā režīma profilu, kas atbils
 
 | Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00.00 | 06.00 | Pirmdienās  |
-| Brīvais režīms +         | 06.00 | 07.00 | Pirmdienās  |
-| Ierašanās laiks      | 07.00 | 07.00 | Pirmdienās  |
-| Standarta laiks | 07.00 | 14.30 | Pirmdienās  |
-| Brīvais režīms-         | 14.30 | 15.30 | Pirmdienās  |
-| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdienās  |
-| Virsstundas     | 15.30 | 06.00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
@@ -261,15 +259,15 @@ Kā piemēru aplūkojiet tālāk norādīto laika profilu, kurā ir iekļauts ne
 
 | Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00.00 | 06.00 | Pirmdienās  |
-| Brīvais režīms +         | 06.00 | 07.00 | Pirmdienās  |
-| Ierašanās laiks      | 07.00 | 07.00 | Pirmdienās  |
-| Standarta laiks | 07.00 | 12.00 | Pirmdienās  |
-| Pārtraukums         | 12.00 | 12.30 | Pirmdienās  |
-| Standarta laiks | 12.30 | 14.30 | Pirmdienās  |
-| Brīvais režīms-         | 14.30 | 15.30 | Pirmdienās  |
-| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdienās  |
-| Virsstundas     | 15.30 | 06.00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 12.00 | Pirmdiena  |
+| Pārtraukums         | 12.00 | 12.30 | Pirmdiena  |
+| Standarta laiks | 12.30 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
@@ -294,13 +292,13 @@ Kā piemēru aplūkojiet tālāk norādīto laika profilu, kurā nav iekļauti p
 
 | Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00.00 | 06.00 | Pirmdienās  |
-| Brīvais režīms +         | 06.00 | 07.00 | Pirmdienās  |
-| Ierašanās laiks      | 07.00 | 07.00 | Pirmdienās  |
-| Standarta laiks | 07.00 | 14.30 | Pirmdienās  |
-| Brīvais režīms-         | 14.30 | 15.30 | Pirmdienās  |
-| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdienās  |
-| Virsstundas     | 15.30 | 06.00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
@@ -345,13 +343,13 @@ Kā piemēru aplūkojiet tālāk norādīto laika profilu.
 
 | Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00.00 | 06.00 | Pirmdienās  |
-| Brīvais režīms +         | 06.00 | 07.00 | Pirmdienās  |
-| Ierašanās laiks      | 07.00 | 07.00 | Pirmdienās  |
-| Standarta laiks | 07.00 | 14.30 | Pirmdienās  |
-| Brīvais režīms-         | 14.30 | 15.30 | Pirmdienās  |
-| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdienās  |
-| Virsstundas     | 15.30 | 06.00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 Tālāk ir attēlotas nodarbinātā dienas laikā veiktās reģistrācijas.
 
@@ -458,13 +456,13 @@ Tālāk aprakstītajos scenārijos ir parādīti apmaksas elementi un apstiprin�
 
 | Profila tips  | Sākums    | Beigas      | diena;     |
 |---------------|----------|----------|---------|
-| Virsstundas     | 00.00 | 06.00 | Pirmdienās  |
-| Brīvais režīms +         | 06.00 | 07.00 | Pirmdienās  |
-| Ierašanās laiks      | 07.00 | 07.00 | Pirmdienās  |
-| Standarta laiks | 07.00 | 14.30 | Pirmdienās  |
-| Brīvais režīms-         | 14.30 | 15.30 | Pirmdienās  |
-| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdienās  |
-| Virsstundas     | 15.30 | 06.00 | Otrdienās |
+| Virsstundas     | 00.00 | 06.00 | Pirmdiena  |
+| Brīvais režīms +         | 06.00 | 07.00 | Pirmdiena  |
+| Ierašanās laiks      | 07.00 | 07.00 | Pirmdiena  |
+| Standarta laiks | 07.00 | 14.30 | Pirmdiena  |
+| Brīvais režīms-         | 14.30 | 15.30 | Pirmdiena  |
+| Aiziešanas laiks     | 15.30 | 15.30 | Pirmdiena  |
+| Virsstundas     | 15.30 | 06.00 | Otrdiena |
 
 ### <a name="scenario-1-the-worker-clocks-in-later-than-planned"></a>1. scenārijs: nodarbinātais reģistrē ierašanās laiku vēlāk, nekā plānots
 
@@ -561,7 +559,7 @@ Turpretim, ja izvēles rūtiņa **Samazināt virsstundu skaitu** atlasītajam ka
 
 Tālāk norādītajā piemērā ir parādīts, kā var samazināt nodarbinātā brīvā režīma bilanci, pārveidojot kavējuma periodu par brīvā režīma - periodu.
 
-Nodarbinātais reģistrē ierašanās laiku plkst. 07.00 un reģistrē aiziešanas laiku plkst. 13.00 Nodarbinātais ir noslēdzis vienošanos ar vadītāju, ka piektdienās drīkst doties mājās agrāk, ja šīs stundas tiek atņemtas no nodarbinātā brīvā režīma bilances. Kad nodarbinātais reģistrē aiziešanas laiku plkst. 13.00, nodarbinātais tiek aicināts atlasīt kavējuma kodu, jo atlikušās darbdienas daļas kavējuma periods nav plānotajā brīvā režīma - periodā. Lai pārveidotu atlikušo darbdienas daļu par brīvā režīma - periodu, nodarbinātais var atlasīt kavējuma kodu, kas ir iestatīts nodarbinātā brīvā režīma bilances samazināšanai.
+Nodarbinātais reģistrē ierašanās laiku plkst. 07.00 un reģistrē aiziešanas laiku plkst. 13.00 Nodarbinātais ir noslēdzis vienošanos ar vadītāju, ka piektdien drīkst doties mājās agrāk, ja šīs stundas tiek atņemtas no nodarbinātā brīvā režīma bilances. Kad nodarbinātais reģistrē aiziešanas laiku plkst. 13.00, nodarbinātais tiek aicināts atlasīt kavējuma kodu, jo atlikušās darbdienas daļas kavējuma periods nav plānotajā brīvā režīma - periodā. Lai pārveidotu atlikušo darbdienas daļu par brīvā režīma - periodu, nodarbinātais var atlasīt kavējuma kodu, kas ir iestatīts nodarbinātā brīvā režīma bilances samazināšanai.
 
 Lai samazinātu brīvā režīma stundu bilanci nodarbinātajiem, kuri reģistrē kavējumu darbdienā, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Grupas** &gt; **Kavējumu grupas** un atzīmējiet izvēles rūtiņu **Samazināt brīvo režīmu**.
 

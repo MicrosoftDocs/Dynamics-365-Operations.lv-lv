@@ -2,11 +2,9 @@
 title: Integrācijas konfigurēšana ar Finance
 description: Šajā rakstā ir aprakstīta funkcionalitāte, kas pieejama integrācijai no Dynamics 365 Human Resources un Dynamics 365 Finance.
 author: andreabichsel
-manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d0bb72662e538dd4451800eb5b11b4f1988cd
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465250"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801171"
 ---
 # <a name="configure-integration-with-finance"></a>Integrācijas konfigurēšana ar Finance
 
@@ -57,7 +55,7 @@ Lai piekļūtu veidnei no Human Resources uz Finance.
 
 2. Atlasiet **Projekti** un pēc tam augšējā labajā stūrī atlasiet **Jauns projekts**. Katrai juridiskajai personai, ko vēlaties integrēt Finance, izveidojiet jaunu projektu.
 
-3. Atlasiet **Human Resources (No Human Resources Dataverse uz Finance**), lai sinhronizētu ierakstus no Human Resources uz Finance.
+3. Atlasiet **Human Resources (No Human Resources Dataverse uz Finance)**, lai sinhronizētu ierakstus no Human Resources uz Finance.
 
 Veidne izmanto šādus pamatā esošos uzdevumus, lai sinhronizētu ierakstus no Human Resources uz Finance:
 

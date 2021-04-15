@@ -1,12 +1,10 @@
 ---
-title: Dynamics 365 Supply Chain Management versijas 10.0.17 priekšskatījums (2021. gada aprīlis)
+title: Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.17. (2021. gada aprīlis)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.17.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571816"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813175"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management versijas 10.0.17 priekšskatījums (2021. gada aprīlis)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Jaunumi vai izmaiņas risinājumā Dynamics 365 Supply Chain Management 10.0.17. (2021. gada aprīlis)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.17 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.761, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.17. Šai versijai ir būvējuma numurs 10.0.761, un tas ir pieejams šeit:
 
 - **Priekšskatījuma laidiens:** 2021. gada februāris
 - **Vispārēja laidiena (paša veikts atjauninājums) pieejamība:** 2021. gada marts
@@ -36,9 +33,9 @@ ms.locfileid: "5571816"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi.  Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
-Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami.
 
 ### <a name="asset-management"></a>Līdzekļu pārvaldība
 
@@ -68,9 +65,13 @@ Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvald
 
 - [pogramma Warehouse Management mobile](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Lai iegūtu papildu informāciju, skatiet [Warehouse Management lietotnes instalēšana un savienošana](../warehousing/install-configure-warehouse-management-app.md) un [Mobilo ierīču lietotāju iestatījumi](../warehousing/mobile-device-user-settings.md).
 
+- Kopuma izpildes paziņojumi<br> - Plašāku informāciju skatiet sadaļā [Kopuma izpildes paziņojumi](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>Ražošana
 
-- [Līdzekļu pārvaldības funkcionalitāte ražošanas stāva izpildes interfeisam](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Papildinformāciju skatiet sadaļā [Kā darbinieki izmanto ražotnes izpildes interfeisu](../production-control/production-floor-execution-use.md).
+- [Līdzekļu pārvaldības funkcionalitāte ražošanas stāva izpildes interfeisam](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](../production-control/production-floor-execution-configure.md).
+
+- Vienota darbu ID numuru secība<br> - Papildinformāciju skatiet 
 
 - [Noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem ignorēšana](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - papildinformāciju skatiet sadaļā [Ignorēt ražošanas materiālu rezervācijas noklusējuma principu](../production-control/override-default-reservation-principle.md).
 

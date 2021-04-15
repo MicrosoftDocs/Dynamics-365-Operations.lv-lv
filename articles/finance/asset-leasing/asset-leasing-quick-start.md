@@ -2,11 +2,9 @@
 title: Līdzekļu nomas sākšana
 description: Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4f1bdf74dc5319f0b3ba145969b064ad33d5010
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229602"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814132"
 ---
 # <a name="asset-leasing-get-started"></a>Līdzekļu nomas sākšana
 
@@ -41,16 +39,16 @@ Iznomāts līdzeklis ietver šādus galvenos komponentus:
 
 - **Nomas līgums** — iznomātājam pieder līdzeklis un viņš piekrīt nomniekam iznomāt līdzekli uz noteiktu laika periodu apmaiņā pret periodiskiem nomas maksājumiem. Papildus juridiskajam līgumam starp iznomātāju un nomnieku, nomas līgumā tiek ietverti pārvaldības lēmumi, piemēram, atjaunošanas opcijas izmantošana un īpašumtiesību maiņa.
 
-- **Nomas aprēķins un klasifikācija pēc grāmatvedības standarta** — nomas aprēķinā un klasifikācijā tiek noteikts grāmatvedības standarts, kas tiks piemērots sākotnējā un turpmākajā novērtēšanā, kā arī klasifikācijas tests, kas nosaka nomas veidu. Noma var tikt klasificēta kā finanšu noma, operatīvā noma, īstermiņa noma vai nelielas vērtības noma. Sistēma arī aprēķina nākotnes minimālo nomas maksājumu pašreizējo vērtību, lai veiktu novērtēšanu un klasifikāciju.
+- **Nomas aprēķins un klasifikācija pēc grāmatvedības standarta** — nomas aprēķinā un klasifikācijā tiek noteikts grāmatvedības standarts, kas tiks piemērots sākotnējā un turpmākajā novērtēšanā, kā arī klasifikācijas tests, kas nosaka nomas veidu. Noma var tikt klasificēta kā finanšu noma, operatīvā noma, īstermiņa noma vai nelielas vērtības noma. Sistēma arī aprēķina nākotnes minimālo nomas maksājumu neto pašreizējo vērtību, lai veiktu novērtēšanu un klasifikāciju.
 
-- **Nomas darījumi** — līdzekļu noma atbalsta bilances nomas līdzekļa lietošanas tiesību sākotnējo atzīšanu, kā arī turpmāku novērtēšanu gan bilances nomas, gan ārpusbilances nomas gadījumā. Sākotnējās atzīšanas darījums nosaka nākotnes minimālo nomas maksājumu pašreizējo vērtību. Šie dati tiek izmantoti, lai noteiktu sākotnējo līdzekļa lietošanas tiesību un nomas saistību vērtību, kas ietekmē organizācijas bilanci. Ikmēneša nomas darījumu turpmākā novērtēšana ietver nomas saistību procentu uzkrāšanu, kas palielina nomas saistības. Tas arī nosaka nomas maksājumu uzkrājumu, kas samazina nomas saistības, un kas vēlāk tiks maksāts iznomātājam. Novērtējumā ietilpst arī līdzekļa lietošanas tiesību amortizācija.
+- **Nomas darījumi** — līdzekļu noma atbalsta bilances nomas līdzekļa lietošanas tiesību sākotnējo atzīšanu, kā arī turpmāku novērtēšanu gan bilances nomas, gan ārpusbilances nomas gadījumā. Sākotnējās atzīšanas darījums nosaka nākotnes minimālo nomas maksājumu neto pašreizējo vērtību. Šie dati tiek izmantoti, lai noteiktu sākotnējo līdzekļa lietošanas tiesību un nomas saistību vērtību, kas ietekmē organizācijas bilanci. Ikmēneša nomas darījumu turpmākā novērtēšana ietver nomas saistību procentu uzkrāšanu, kas palielina nomas saistības. Tas arī nosaka nomas maksājumu uzkrājumu, kas samazina nomas saistības, un kas vēlāk tiks maksāts iznomātājam. Novērtējumā ietilpst arī līdzekļa lietošanas tiesību amortizācija.
 
   Ārpusbilances nomas gadījumā sistēma aprēķina lineārās nomas izdevumus atkarībā no tā, kas ir mazāks: aktīva saimnieciskā dzīve vai nomas termiņš. Nomas pielāgojumi novērtē līguma izmaiņas, piemēram, nomas termiņa pagarināšanu un darījumu ar vērtības samazinājumu, kas izmanto līdzekļa lietošanas tiesības neatlīdzināmiem izdevumiem.
 
   Līdzekļu noma tiek integrēta virsgrāmatā, lai nodrošinātu, ka visi iegrāmatotie nomas darījumi atjaunina kontu plānu. Līdzekļu noma tiek integrēta kreditoros, lai izsekotu iznomātāju rēķiniem kreditoros un veiktu nākotnes maksājumus no tiem. Integrācija pamatlīdzeklī ļauj izsekot nomai pamatlīdzekļu reģistrā un grāmatot līdzekļa lietošanas tiesību darījumus, tajā skaitā sākotnējo atzīšanu, nolietojumu un līdzekļa vērtības samazinājumu tieši pamatlīdzekļos.   
 
 ## <a name="asset-leasing-components"></a>Līdzekļu nomas komponenti 
-Līdzekļu nomas kartes nomā informāciju, maksājumu grafikus, sākuma un beigu datumus un maksājumu biežumu. Kā arī automatizē aprēķinus pašreizējai vērtībai, ikmēneša nomas maksājumiem, procentiem un nomas amortizācijai. Atkarībā no konfigurācijas sistēma veic nomas klasifikācijas testus. Sistēma izveido un grāmato arī atbilstošos nomas darījumus, kuru pamatā ir izmantotā grāmatvedības standarta definētais regulējums.
+Līdzekļu nomas kartes nomā informāciju, maksājumu grafikus, sākuma un beigu datumus un maksājumu biežumu. Kā arī automatizē aprēķinus neto pašreizējai vērtībai, ikmēneša nomas maksājumiem, procentiem un nomas amortizācijai. Atkarībā no konfigurācijas sistēma veic nomas klasifikācijas testus. Sistēma izveido un grāmato arī atbilstošos nomas darījumus, kuru pamatā ir izmantotā grāmatvedības standarta definētais regulējums.
 
 Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksājumu grafiks, nomas un nomas grāmatu klasifikācijas testi un attiecīgie grāmatvedības darījumi.
 
@@ -62,13 +60,13 @@ Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksāju
 
 - **Līdzekļa lietderīgās lietošanas laiks** — attēlo līdzekļa atlikušos lietderīgās lietošanas laika periodus no nomas sākuma datuma. Līdzekļa lietderīgās lietošanas laiks tiks ņemta vērā klasifikācijas testa vienādojumā. Tas atšķiras no lietderīgā lietošanas laika, kas definēts pamatlīdzekļos.
 
-- **Salīdzināmā aizņēmuma procentu likme** — šī ir procentu likme, kas tiks izmantota pašreizējās vērtības aprēķināšanai. Sistēma izmantos netiešo likmi, ja tā ir definēta nomas datos, nomas maksājumu pašreizējo vērtību aprēķināšanai. Ja netiešā likme nav definēta, sistēma izmantos salīdzināmā aizņēmuma procentu likmi.
+- **Salīdzināmā aizņēmuma procentu likme** — šī ir procentu likme, kas tiks izmantota neto pašreizējās vērtības aprēķināšanai. Sistēma izmantos netiešo likmi, ja tā ir definēta nomas datos, nomas maksājumu neto pašreizējo vērtību aprēķināšanai. Ja netiešā likme nav definēta, sistēma izmantos salīdzināmā aizņēmuma procentu likmi.
 
 - **Priekšsamaksas veids** — šis ir nomas maksājums, kas jāveic vai nu maksājuma perioda sākumā, vai perioda beigās. Tas varētu būt avansa maksājums vai priekšsamaksa (nomas maksājuma perioda sākumā) vai apmaksājama priekšsamaksa (nomas maksājuma perioda beigās).
 
   Pirmo mēnesi uzskata par periodu, kura vērtība ir nulle, par maksājumu avansā; pirmo mēnesi uzskata par parāda pirmo periodu.
 
-- **Pievienošanas intervāls** — norāda periodu skaitu, kurā procenti tiek pievienoti gadā. Tas varētu būt reizi mēnesī (12 periodi gadā), reizi ceturksnī (4 periodi gadā), pusgadā (2 periodi gadā), vai reizi gadā (1 periods gadā). Periodu skaits tiks ņemts vērā pašreizējās vērtības aprēķinā.
+- **Pievienošanas intervāls** — norāda periodu skaitu, kurā procenti tiek pievienoti gadā. Tas varētu būt reizi mēnesī (12 periodi gadā), reizi ceturksnī (4 periodi gadā), pusgadā (2 periodi gadā), vai reizi gadā (1 periods gadā). Periodu skaits tiks ņemts vērā neto pašreizējās vērtības aprēķinā.
 
 - **Sākuma datums** — šis ir datums, kad iznomātājs padara līdzekli pieejamu nomniekam. Visi nomas aprēķini un darījumi tiks balstīti uz sākuma datumu. Sākuma datumam vajadzētu būt perioda sākumā (pirmais mēnesis), lai nodrošinātu turpmāko aprēķinu pareizību. Varat izmantot lauku **Līguma parakstīšanas datums**, lai ievadītu faktisko datumu, kad līgums tika parakstīts.
 
@@ -81,7 +79,7 @@ Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksāju
 
 - **Maksājumu biežums** — norāda, vai maksājums ir jāveic reizi mēnesī, reizi ceturksnī, pusgadā vai reizi gadā. Beigu datums tiek aprēķināts automātiski, pamatojoties uz sākuma datumu un ievadīto periodu skaitu.
 
-- **Maksājumu grafiks** — šī ir aprēķinātā pašreizējā vērtība, pamatojoties uz nomas maksājumu aptverto laika ilgumu, maksājumu summu, saliktajiem periodiem un priekšsamaksas veidu.
+- **Maksājumu grafiks** — šī ir aprēķinātā neto pašreizējā vērtība, pamatojoties uz nomas maksājumu aptverto laika ilgumu, maksājumu summu, saliktajiem periodiem un priekšsamaksas veidu.
 
 - **Periodi** — tie ir nomas periodi, kas atspoguļo pievienošanas intervālu un priekšsamaksas veidu. Pievienošanas intervāls nosaka, kā periodi tiks sadalīti. Varat iestatīt šādus pievienošanas intervālus:
 
@@ -92,10 +90,10 @@ Diagrammā ir parādīta nomas grāmata, nomas līgums, aprēķinātais maksāju
 
 Pirmais periods sāksies ar nulles periodu, ja priekšsamaksas veids ir priekšsamaksa. Pretējā gadījumā pirmais periods sāksies ar viens, ja priekšsamaksas veids ir parāds.
 
-- **Mēneši** — norāda kalendāro mēnešu skaitu, kas pārsniedz nomas ilgumu. Maksājuma summa ir maksājamā summa, kas definēta maksājumu biežumā. Aprēķinātā pašreizējā vērtība ir pašreizējā vērtība, kas balstīta uz nomas maksājumiem periodos, pievienošanas intervāliem un salīdzināmā aizņēmuma procentu likmi.
+- **Mēneši** — norāda kalendāro mēnešu skaitu, kas pārsniedz nomas ilgumu. Maksājuma summa ir maksājamā summa, kas definēta maksājumu biežumā. Aprēķinātā neto pašreizējā vērtība ir neto pašreizējā vērtība, kas balstīta uz nomas maksājumiem periodos, pievienošanas intervāliem un salīdzināmā aizņēmuma procentu likmi.
 
 > [!NOTE] 
-> Pašreizējā vērtība tiek aprēķināta, pamatojoties uz diskontētās naudas plūsmas vienādojumu.
+> Neto pašreizējā vērtība tiek aprēķināta, pamatojoties uz diskontētās naudas plūsmas vienādojumu.
 
 - **Grāmatas** — šis ir iepriekš konfigurēts iestatījums, kas tiks saistīts ar katru nomu. Grāmatā ir definēts piemērotais grāmatvedības standarts, nomas veidi un slieksnis, kas tiek izmantots kā klasifikācijas testu pamats. Klasifikācijas testus izmanto automātiskai nomas veida piešķiršanai.
 
@@ -107,7 +105,7 @@ Pirmais periods sāksies ar nulles periodu, ja priekšsamaksas veids ir priekšs
 
   - **Nomas termiņš** — šī ir lietderīgā lietošanas laika procentuālā vērtība, kas jāizmanto klasifikācijas testā. Sistēma klasificēs nomu kā finanšu, ja nomas veids ir iestatīts uz automātisks un ja nomas termiņa līdzekļa lietderīgās lietošanas laiks ir lielāks vai vienāds ar šeit norādīto procentuālo vērtību.
 
-  - **Pašreizējā vērtība** — šī ir līdzekļa patiesās vērtības procentuālā vērtība, kas jāizmanto klasifikācijas testā. Sistēma klasificēs nomu kā finanšu, ja nomas veids ir iestatīts uz automātisks un ja turpmāko nomas maksājumu pašreizējā vērtība pār līdzekļa patieso vērtību ir lielāka vai vienāda ar šeit norādīto procentuālo vērtību.
+  - **Neto pašreizējā vērtība** — šī ir līdzekļa patiesās vērtības procentuālā vērtība, kas jāizmanto klasifikācijas testā. Sistēma klasificēs nomu kā finanšu, ja nomas veids ir iestatīts uz automātisks un ja turpmāko nomas maksājumu neto pašreizējā vērtība pār līdzekļa patieso vērtību ir lielāka vai vienāda ar šeit norādīto procentuālo vērtību.
 
   - **Īstermiņa noma** — ja nomas termiņš ir mazāks vai vienāds ar definēto vērtību, noma tiks klasificēta kā īstermiņa noma.
 
@@ -115,7 +113,7 @@ Pirmais periods sāksies ar nulles periodu, ja priekšsamaksas veids ir priekšs
 
   - **Nomas klasifikācija un darījumi** — nomas klasifikācija ir automātisks process, lai klasificētu nomas, pamatojoties uz grāmatās noteiktajiem sliekšņiem papildus citiem klasifikācijas testa kritērijiem, lai noteiktu, vai noma ir finanšu noma, operatīvā noma, īstermiņa noma vai nelielas vērtības noma. To izmanto arī, lai noteiktu, vai tiek ievērots atliktās nomas maksas process.
 
-Klasifikācijas testi ietver īpašumtiesību nodošanu, pirkšanas opciju, nomas termiņu, pašreizējo vērtību un unikālu līdzekli. Diagramma attēlo nomas klasifikācijas testus.
+Klasifikācijas testi ietver īpašumtiesību nodošanu, pirkšanas opciju, nomas termiņu, neto pašreizējo vērtību un unikālu līdzekli. Diagramma attēlo nomas klasifikācijas testus.
 
 [![Nomas klasifikācijas testi](./media/overview-03.png)](./media/overview-03.png)
 
@@ -124,22 +122,22 @@ Katrs nomas veids dažādu nomas darījumu uzskaiti veic atšķirīgi. Darījumi
 ## <a name="asset-leasing-transactions"></a>Līdzekļu nomas darījumi
 
 #### <a name="initial-recognition"></a>Sākotnējā atzīšana 
-Iznomātā līdzekļa sākotnējā atzīšana izmanto pašreizējo aprēķināto vērtību, lai to varētu grāmatot bilancē. Uzskaites ieraksts šim darījumam tiek ģenerēts automātiski. Šis darījums debetē līdzekļa lietošanas tiesību kontu un kreditē operatīvo nomas saistību kontu, kā aprakstīts tālāk. Ja pamatlīdzeklis ir saistīts ar nomu, sākotnējās atzīšanas ieraksts tiks atainots kā pamatlīdzekļa iegāde. Šajā scenārijā ir jādefinē pamatlīdzekļu grāmatošanas metode, lai iegrāmatotu līdzekļa lietošanas tiesību kontu. 
+Iznomātā līdzekļa sākotnējā atzīšana izmanto neto pašreizējo aprēķināto vērtību, lai to varētu grāmatot bilancē. Uzskaites ieraksts šim darījumam tiek ģenerēts automātiski. Šis darījums debetē līdzekļa lietošanas tiesību kontu un kreditē operatīvo nomas saistību kontu, kā aprakstīts tālāk. Ja pamatlīdzeklis ir saistīts ar nomu, sākotnējās atzīšanas ieraksts tiks atainots kā pamatlīdzekļa iegāde. Šajā scenārijā ir jādefinē pamatlīdzekļu grāmatošanas metode, lai iegrāmatotu līdzekļa lietošanas tiesību kontu. 
 
 > [!NOTE]
 > Operatīvās nomas tiek atbalstītas, izmantojot tikai ASV vispārpieņemtos grāmatvedības principus ASC 842.
 
 |     Veids                                          |     Debetkarte                     |     Kredītkarte                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Operatīvā noma saskaņā ar ASV vispārpieņemtajiem grāmatvedības principiem              |     Līdzekļa lietošanas tiesības      |     Operatīvās nomas saistības       |
-|     Finanšu noma saskaņā ar SFPS un ASV vispārpieņemtajiem grāmatvedības principiem        |     Līdzekļa lietošanas tiesības      |     Operatīvās nomas saistības       |
+|     Operatīvā noma saskaņā ar ASV vispārpieņemtajiem grāmatvedības principiem            |     Līdzekļa lietošanas tiesības        |     Operatīvās nomas saistības     |
+|     Finanšu noma saskaņā ar SFPS un ASV vispārpieņemtajiem grāmatvedības principiem      |     Līdzekļa lietošanas tiesības        |     Finanšu nomas saistības       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Nomas saistību amortizācija (procentu izdevumi) 
 Nomas procenti tiek atzīti, aprēķinot procentus nomas sākuma bilancei, perioda nomas maksājumam, procentu aizņēmuma likmei un pievienošanas intervāla periodiem gadā. Procentu summa palielina operatīvās nomas saistību kontu to kreditējot, kas tiks atspoguļots organizācijas bilancē. Darījums ietver arī debeta ierakstu procentu izdevumu kontā, kas atspoguļots finanšu nomu peļņas un zaudējumu aprēķinā, kā arī operatīvo nomu izdevumu kontā.
 
 |     Veids                                          |     Debetkarte                     |     Kredītkarte                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Operatīvās nomas saistības ieraksts saskaņā ar ASV vispārpieņemtajiem grāmatvedības principiem ASC 842    |     Procentu izdevumi          |     Operatīvās nomas saistības         |
+|     Operatīvās nomas saistības ieraksts saskaņā ar ASV vispārpieņemtajiem grāmatvedības principiem ASC 842    |     Nomas izdevumi         |     Operatīvās nomas saistības         |
 |     Finanšu nomas saistības ieraksts saskaņā ar SFPS un ASV vispārpieņemtajiem grāmatvedības principiem      |     Procentu izdevumi          |     Finanšu nomas saistības           |
 
 #### <a name="accrued-lease-payment"></a>Uzkrātais nomas maksājums
@@ -151,7 +149,7 @@ Uzkrātais nomas maksājums tiek atzīts par nomas līdzekļa maksājumu, kas ti
 |     Finanšu noma saskaņā ar SFPS un ASV vispārpieņemtajiem grāmatvedības principiem        |  Finanšu nomas saistības      |   Kreditoru saistības (apakšgrāmata)/parādzīmes  |
 
 #### <a name="asset-depreciation"></a>Līdzekļu nolietojums
-Līdzekļa lietošanas tiesību nolietojums tiek aprēķināts atkarībā no tā, kurš ir mazāks — līdzekļa lietderīgās lietošanas laiks vai nomas termiņš. ASV vispārpieņemto grāmatvedības principu (ASC 842) nolietojuma aprēķināšanas metode ir balstīta uz lineārās nomas izdevumu un procentu summas starpību. Finanšu nomas procenti tiek aprēķināti, izmantojot standarta lineāro metodi. Nomas nolietojums ietekmē peļņas un zaudējuma aprēķinu, debetējot procentu izdevumus. Bilanci ietekmē finanšu nomu uzkrātais līdzekļa lietošanas tiesību konts. Operatīvo nomu nolietojums tiek kreditēts nomas izdevumu kontā. Ja noma ir saistīta ar pamatlīdzekli, nolietojuma darījumi tiks izpildīti tikai no pamatlīdzekļu moduļa. 
+Līdzekļa lietošanas tiesību nolietojums tiek aprēķināts atkarībā no tā, kurš ir mazāks — līdzekļa lietderīgās lietošanas laiks vai nomas termiņš. ASV vispārpieņemto grāmatvedības principu darbības līzinga (ASC 842) nolietojuma aprēķināšanas metode ir balstīta uz lineārās nomas izdevumu un procentu summas starpību. Finanšu nomas nolietojums tiek aprēķināts, izmantojot standarta lineāro metodi. Nomas nolietojums ietekmē peļņas un zaudējuma aprēķinu, debetējot procentu izdevumus. Bilanci ietekmē finanšu nomu uzkrātais līdzekļa lietošanas tiesību konts. Ja noma ir saistīta ar pamatlīdzekli, nolietojuma darījumi tiks izpildīti tikai no pamatlīdzekļu moduļa. 
 
 |     Veids                                          |     Debetkarte                     |     Kredītkarte                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |

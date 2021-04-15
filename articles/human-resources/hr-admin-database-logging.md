@@ -2,11 +2,9 @@
 title: Datu bāzu reģistrācijas konfigurēšana un pārvaldība
 description: Jūs variet reģistrēt izmaiņas tabulās un laukos Dynamics 365 Human Resources ar datu bāzes reģistrēšanu.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467653"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801339"
 ---
 # <a name="configure-and-manage-database-logging"></a>Datu bāzu reģistrācijas konfigurēšana un pārvaldība
 
@@ -68,7 +66,22 @@ Lai uzlabotu veiktspēju, ierobežojiet reģistrēšanas ierakstus, atlasot reģ
 Varat izmantot **Reģistrēšanas datu bāzes izmaiņu** ceļvedi, lai iestatītu datu bāzes reģistrēšanu. Ceļvedis sniedz elastīgu veidu, kā iestatīt reģistrāciju tabulām vai laukiem.
 
 1. Dodieties uz **Sistēmas administrēšanu > Saites > Datu bāzes > Datu bāzes žurnāla iestatījumi**. Atlasiet **Jauns**, lai sāktu **Datu bāzes izmaiņu reģistrēšanas** ceļvedi.
-2. Pabeidziet ceļvedi.
+2. Atlasiet **Nākamais**. 
+3. Vedņa lapā **Tabulas un lauki** atlasiet tabulas un laukus, kuros vēlaties iespējot datu bāzes reģistrēšanu, un atlasiet **Tālāk**.
+
+   > [!Note]
+   > Datu bāzes reģistrēšana nav pieejama visās personāla vadības datu bāzes tabulās. Atlasot **Rādīt visas tabulas** zem saraksta, tiek izvērsts tabulu un lauku saraksts, lai parādītu visas datu bāzes tabulas, kurām ir pieejama datu bāzes reģistrēšana, bet tā būs pilna datu bāzu tabulu saraksta apakškopa.
+
+4. Vedņa lapā **Izmaiņu tipi** atlasiet datu operācijas, kurām vēlaties reģistrēt katras tabulas un lauka izmaiņas, un atlasiet **Tālāk**. Tālāk esošajā tabulā ir sniegts reģistrēšanai pieejamo datu operāciju apraksts.
+5. Lapā **Pabeigt** pārskatiet veiktās izmaiņas un atlasiet **Pabeigt**.
+
+| Operācija | Apraksts |
+| -- | -- |
+| Izsekot jaunās darbības | Izveidojiet žurnālu jauniem ierakstiem, kas izveidoti tabulā. |
+| Grāmatot | Izveidojiet žurnālu tabulu ierakstu atjauninājumiem vai atsevišķi atlasītu tabulas lauku atjauninājumiem. Ja izvēlaties reģistrēt tabulas atjauninājumus, žurnāla ieraksts tiek izveidots ikreiz, kad tiek atjaunināts jebkurš tabulas ieraksta lauks. Ja izvēlaties reģistrēt atjauninājumus noteiktiem laukiem, žurnāla ieraksts tiek izveidots tikai tad, kad šiem tabulas ierakstu laukiem tiek veikti atjauninājumi. |
+| Delete | Izveidojiet žurnālu ierakstiem, kas izdzēsti no tabulas. |
+| Pārdēvēt atslēgu | Kad tabulas atslēga ir pārdēvēta, izveidojiet žurnāla ierakstu. |
+
 
 ## <a name="clean-up-database-logs"></a>Iztīrīt datu bāzes žurnālus
 

@@ -2,11 +2,9 @@
 title: Bieži uzdotie jautājumi par palaišanu
 description: Šajā tēmā uzskaitīti bieži uzdotie jautājumi par to, kā sākt strādāt ar Dynamics 365 Human Resources ieviešanas projektu.
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d667d94983d5c8f8e6140259922396d4299a15e3
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467600"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804021"
 ---
 # <a name="go-live-faq"></a>Bieži uzdotie jautājumi par palaišanu 
 
@@ -46,11 +44,11 @@ Kad kvalificētie debitori ir šajā posmā, Microsoft FastTrack darba grupa str
 
 ## <a name="what-are-the-prerequisites-to-deploying-a-production-environment"></a>Kādi ir priekšnosacījumi ražošanas vides izvietošanai? 
 
-Priekšnosacījumu sarakstu skatiet tēmā  [Sagatavošanās darba sākšanai](hr-admin-go-live-prepare.md). 
+Priekšnosacījumu sarakstu skatiet tēmā [Sagatavošanās darba sākšanai](hr-admin-go-live-prepare.md). 
 
 ## <a name="what-is-a-go-live-assessment"></a>Kas ir darba sākšanas novērtējums?  
 
-Darba sākšanas novērtējums ir daļa no  [Microsoft FastTrack programmas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Šīs pārskatīšanas laikā risinājuma arhitekts izvērtē, vai ieviešanas projekts ir gatavs veiksmīgai pārslēgšanai un darba sākšanai. Šī pārskatīšana ir obligāta katram ieviešanas projektam, pirms varat pieprasīt sākt darbu ražošanas vidē. 
+Darba sākšanas novērtējums ir daļa no [Microsoft FastTrack programmas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Šīs pārskatīšanas laikā risinājuma arhitekts izvērtē, vai ieviešanas projekts ir gatavs veiksmīgai pārslēgšanai un darba sākšanai. Šī pārskatīšana ir obligāta katram ieviešanas projektam, pirms varat pieprasīt sākt darbu ražošanas vidē. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Mūsu smilškastes vides ir izvietotas centrālajā ASV datu centrā. Mēs vēlamies, lai mūsu ražošanas vides tiktu izvietotas ASV Rietumu datu centros. Vai es varu atlasīt ASV Rietumus kā datu centru savā ražošanas konfigurācijā? 
 
@@ -82,7 +80,7 @@ Datu bāzes tiek aizsargātas ar automātisko dublēšanu šādā biežumā:
 
 Microsoft saglabā pietiekamu dublēšanu, lai nodrošinātu punkta laikā atjaunošanu (PITR) pēdējo 14 dienu laikā. 
 
-Plašāku informāciju skatiet  [Uzzināt par automātisko SQL datu bāzu dublēšanu](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Plašāku informāciju skatiet [Uzzināt par automātisko SQL datu bāzu dublēšanu](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Vai varu pieprasīt manas ražošanas datu bāzes dublējuma kopiju? 
 
@@ -96,7 +94,7 @@ Mēs iesakām uzturēt skaidru to elementu sarakstu, kas konfigurēti jūsu smil
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Ko darīt, ja mana ražošanas vide nedarbojas? 
 
-Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tēmā  [Ziņošana par ražošanas pārtraukumu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
+Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tēmā [Ziņošana par ražošanas pārtraukumu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
 
  ## <a name="see-also"></a>Skatiet arī
 

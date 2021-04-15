@@ -2,11 +2,9 @@
 title: Kavējuma reģistrēšana sadaļā Laiks un apmeklētība
 description: Šajā tēmā ir paskaidrots, kā reģistrēt kavējumu sadaļā Laiks un apmeklējums.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961b87fb066018f9f6ecc3dcc3cc88e64574bb64
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246553"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809282"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Kavējuma reģistrēšana sadaļā Laiks un apmeklējums
 
@@ -83,7 +81,7 @@ Piemēros ir izmantots tālāk norādītais profils.
 
 | Ierašanās | Standarta laiks    | Pārtraukums             | Standarta laiks | Brīvais režīms-        | Aiziešana | Brīvais režīms +        |
 |----------|------------------|-------------------|---------------|--------------|-----------|--------------|
-| 8:00     | No 9.00 līdz 11.30 | No 11.30 līdz 12.00 | No 12.00 līdz 15.00 | No 15.00 līdz 16.00 | 16.00      | No 16.00 līdz 18.00 |
+| 8.00     | No 9.00 līdz 11.30 | No 11.30 līdz 12.00 | No 12.00 līdz 15.00 | No 15.00 līdz 16.00 | 16.00      | No 16.00 līdz 18.00 |
 
 ### <a name="example-1-signing-out-during-a-flex--period"></a>1. piemērs: izrakstīšanās brīvā režīma- periodā
 

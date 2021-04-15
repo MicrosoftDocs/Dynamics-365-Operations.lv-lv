@@ -2,11 +2,9 @@
 title: Darba komponentu iestatīšana
 description: Šajā rakstā ir aprakstīti konceptuālie elementi, kas var būt iekļauti darbā, un sniegti piemēri par to, kā šos elementus varat lietot savā organizācijā.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0148518ca80832ecb7a26e28ec76c4b14bb1a194
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464866"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803493"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
@@ -43,9 +41,9 @@ Darbu amati ir jāuztur, izmantojot lapu **Amati**, kuru varat atvērt, izmantoj
 ## <a name="job-types"></a>Darbu tipi
 Darbu tipi tiek izmantoti, lai līdzīgus darbus grupētu kategorijās. Darbu tipi nav obligāti. Tomēr, ja plānojat izmantot darbu tipus, kad iestatāt atlīdzību pārvaldības piemērotības nosacījumus, pirms darbu iestatīšanas ir jāiestata darbu tipi. Daži darbu tipu piemēri ir pilna laika un nepilna laika, vai algots un stundu apmaksa. Darbu tipi tiek uzturēti lapā **Darbu tipi**. Lapā **Darbu tipi** ievadiet darbu tipa nosaukumu un īsu aprakstu. Laukā **Atbrīvojuma statuss** atlasiet vienu no tālāk norādītajām opcijām, lai norādītu Godīga darba standartu akta (Fair Labor Standards Act — FLSA) atbrīvojuma statusu darbiem, kam ir tālāk norādītais darba tips.
 
--   **Atbrīvojums** — darbi ir atbrīvoti no virsstundām saskaņā ar FLSA.
--   **Bez atbrīvojuma** — darbi nav atbrīvoti no virsstundām saskaņā ar FLSA.
--   **Nav piemērojams** — FLSA segums nav piemērojams.
+-   **Atbrīvojums** — darbi ir atbrīvoti no virsstundām saskaņā ar FLSA.
+-   **Bez atbrīvojuma** — darbi nav atbrīvoti no virsstundām saskaņā ar FLSA.
+-   **Nav piemērojams** — FLSA segums nav piemērojams.
 
 ## <a name="job-functions"></a>Darba funkcijas
 Darba funkcijas apraksta augsta līmeņa funkcionālās kategorijas un attiecas uz augsta līmeņa pienākumiem. Darba funkcijas nav obligātas. Darba funkcijas varat lietot kopā ar darbu tipiem, lai filtrētu atlīdzību plānus noteiktiem darbiem. Darba funkcijas un darbu tipus varat saistīt ar atlīdzību plāniem, iestatot piemērotības kārtulas lapā **Piemērotības kārtulas**. Pēc tam varat pievienot līmeņu komplektu atlīdzību plānam, kurš attiecas uz noteiktu darba tipa un darba funkcijas kombināciju, kuru definējāt, izmantojot piemērotības kārtulu. (Šie līdzekļi attiecas gan uz fiksētās atlīdzības plāniem, gan uz mainīgās atlīdzības plāniem.) Taču, ja atlīdzību pārvaldības piemērotības kārtulu iestatīšanas laikā plānojat izmantot darba funkcijas, tad darba funkcijas ir jāiestata pirms darbu iestatīšanas. Nākamajā tabulā ir parādīti daži darba funkciju piemēri.
@@ -71,13 +69,13 @@ Darba uzdevumi apraksta pamata uzdevumus, kuri ir jāveic darbiniekam, kas ieņe
 <tr class="odd">
 <td>Pārdošanas daļas vadītājs</td>
 <td><ul>
-<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja darba izpildi.</li>
-<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja kavējumu pieprasījumus vai reģistrācijas.</li>
+<li><strong>Izpildes novērtēšana</strong> — novērtēt katra pārdevēja&#39;darba izpildi.</li>
+<li><strong>Kavējumu izskatīšana</strong> — apstiprināt vai noraidīt katra pārdevēja&#39;kavējumu pieprasījumus vai reģistrācijas.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Grāmatvedis</td>
-<td><strong>Finanšu pārskata sniegšana</strong> — sniegt iknedēļas finanšu pārskatus finanšu direktoram.</td>
+<td><strong>Finanšu pārskata sniegšana</strong> — sniegt iknedēļas finanšu pārskatus finanšu direktoram.</td>
 </tr>
 </tbody>
 </table>

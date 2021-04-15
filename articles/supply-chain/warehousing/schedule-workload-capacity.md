@@ -2,11 +2,9 @@
 title: Darba noslodzes ieplānošana
 description: Šajā tēmā ir paskaidrots, kā iestatīt un plānot darba noslodzi darbiniekiem noliktavā vai visai noliktavai.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4eac4838a4df8f1f5863f1ce1895e7aded5fb08b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2458009dabd71e6c8423e8e607a0cedb4765b88
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239282"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817345"
 ---
 # <a name="schedule-workload-capacity"></a>Darba noslodzes plānošana
 

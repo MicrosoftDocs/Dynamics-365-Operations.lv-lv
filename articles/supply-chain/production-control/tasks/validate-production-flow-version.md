@@ -1,12 +1,10 @@
 ---
 title: Ražošanas plūsmas un versijas pārbaude
-description: Šajā procedūrā tiek parādīts, kā izveidot lean manufacturing jaunu ražošanas plūsmu un pirmo versiju.
+description: Šajā procedūrā tiek parādīts, kā izveidot Lean ražošanā jaunu ražošanas plūsmu un pirmo versiju.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
@@ -16,22 +14,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bceb5b61fea55c78cb2bb65b8d7cde66679ef01
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b46e3983cc95062e1c2073bb649f60df64807b99
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254267"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810986"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Ražošanas plūsmas un versijas pārbaude
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā tiek parādīts, kā izveidot lean manufacturing jaunu ražošanas plūsmu un pirmo versiju. Priekšnosacījumi: ir jādefinē lean manufacturing ražošanas uzdevuma parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt Vērtību plūsmu un Ražošanas uzdevumu grupu. Skatiet tehniskos dokumentus par Lean manufacturing, lai iepazītos ar ražošanas plūsmu un aktivitāšu koncepciju. Šī procedūra attiecas uz juridisko personu USMF demonstrācijas datos. Tomēr, pieņemot, ka juridiskā persona ir konfigurēta lean manufacturing, var izmantot citas juridiskas personas.
+Šajā procedūrā tiek parādīts, kā izveidot Lean ražošanā jaunu ražošanas plūsmu un pirmo versiju. Priekšnosacījumi: ir jādefinē Lean ražošanas parametrus un klases laika mērvienības. Jums arī ir nepieciešams definēt Vērtību plūsmu un Ražošanas uzdevumu grupu. Skatiet tehniskos dokumentus par Lean ražošanas procesu, lai iepazītos ar ražošanas plūsmu un aktivitāšu koncepciju. Šī procedūra attiecas uz juridisko personu USMF demonstrācijas datos. Tomēr, pieņemot, ka juridiskā persona ir konfigurēta Lean ražošanas procesā, var izmantot citas juridiskas personas.
 
 
 ## <a name="create-a-production-flow"></a>Ražošanas plūsmas izveide
-1. Pārejiet uz sadaļu Ražošanas kontrole > Iestatījumi > Racionālās ražošanas plūsma > Ražošanas plūsmas.
+1. Pārejiet uz sadaļu Ražošanas kontrole > Iestatījumi > Lean ražošanas plūsma > Ražošanas plūsmas.
 2. Noklikšķiniet uz Jauns.
 3. Laukā Nosaukums ierakstiet kādu vērtību.
 4. Apraksta laukā ierakstiet vērtību.
