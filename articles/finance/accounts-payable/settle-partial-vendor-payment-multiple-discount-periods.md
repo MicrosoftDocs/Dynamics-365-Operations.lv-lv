@@ -2,11 +2,9 @@
 title: Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 description: Šajā rakstā ir aprakstīts scenārijs, kurā tiek veikti vairāki daļējie maksājumi kreditoram, kas piedāvā vairākas termiņatlaides.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbcaca97203c47bf7eac02ba410763a4e1a7b34a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56e2b3a8dadd824fa0170a1db19fffeaecb47775
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227284"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827870"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Daļēju kreditora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 
@@ -54,12 +52,12 @@ Eiprila 28. jūnijā izveido kreditoram 3054 rēķinu par summu 1000,00. Eiprila
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Parastais            | Inv-10060 | 3054    | 28.06.2015 | 28.07.2015 | 10060   | 1000,00                       | USD      | 300,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 02.07.2015 |
-| Termiņatlaides summa         | –20,00    |
+| Termiņatlaides summa         | -20,00    |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
 | Ņemamā termiņatlaides summa | –6,12     |
@@ -70,12 +68,12 @@ Tā kā ir pieejama termiņatlaide, Eiprila vēlas mainīt maksājuma summu, lai
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Parastais            | Inv-10060 | 3054    | 28.06.2015 | 28.07.2015 | 10060   | 1000,00                       | USD      | 294,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 02.07.2015 |
-| Termiņatlaides summa         | –20,00    |
+| Termiņatlaides summa         | -20,00    |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
 | Ņemamā termiņatlaides summa | –6,00     |
@@ -103,11 +101,11 @@ Eiprila izlemj maksāt summu 495,00 un saņemt termiņatlaidi 5,00 apmērā. Tā
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Parastais            | Inv-10060 | 3054    | 28.06.2015 | 28.07.2015 | 10060   | 1000,00                       | USD      | 495,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 12.07.2015 |
+| Termiņatlaides datums           | 7/12/2015 |
 | Termiņatlaides summa         | -10,00    |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | –6,00     |

@@ -2,11 +2,9 @@
 title: Finanšu ieskatu sākumlapa (priekšskatījums)
 description: Finanšu ieskats nodrošina konfigurējamu un paplašināmus modeļus, lai palīdzētu jums precīzi un inteliģenti prognozēt jūsu uzņēmuma naudas plūsmu, prognozēt, kad saņemsiet maksājumu par neapmaksātajiem ieņēmumiem, un ģenerēt budžeta priekšlikumu, kas var paātrināt budžeta procesu. Visi šie līdzekļi ir balstīti uz inteliģentiem algoritmiskās mācīšanās modeļiem.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3026517a20e7e59e6223894dcc8078e32e4a9c5e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245548"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818564"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finanšu ieskatu sākumlapa (priekšskatījums)
 
@@ -33,7 +31,7 @@ Finanšu ieskats nodrošina konfigurējamu un paplašināmus modeļus, lai palī
 
 Finanšu ieskatu priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
 
-Priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -93,7 +91,7 @@ Plašāku informāciju par to, kā iestatīt un izmantot naudas plūsmas prognoz
 
 ### <a name="enable-budget-proposals"></a>Budžeta priekšlikumu iespējošana
 
-Budžeta priekšlikumu līdzeklis izmanto algoritmiskās mācīšanās modeli kopā ar organizācijas vēsturiskajiem datiem, lai ģenerētu budžeta priekšlikumu. Ģenerētais priekšlikums var palīdzēt sākt budžeta izveides procesu, kas ir efektīvāks par manuālu procesu. Konkrētas šī līdzekļa iespējošanas darbības skatiet sadaļā [Budžeta priekšlikumu iespējošana](enable-budget-proposal.md). 
+Budžeta priekšlikumu līdzeklis izmanto algoritmiskās mācīšanās modeli kopā ar organizācijas vēsturiskajiem datiem, lai ģenerētu budžeta priekšlikumu. Ģenerētais priekšlikums var palīdzēt sākt budžeta izveides procesu, kas ir efektīvāks par manuālu procesu. Konkrētas šī līdzekļa iespējošanas darbības skatiet sadaļā  [Budžeta priekšlikumu iespējošana](enable-budget-proposal.md). 
 
 ## <a name="using-finance-insights-features"></a>Finanšu ieskatu līdzekļu izmantošana
 

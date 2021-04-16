@@ -2,11 +2,9 @@
 title: Pamatlīdzekļu integrācija
 description: Pamatlīdzekļus var integrēt ar Virsgrāmatu, krājumu vadību, debitoriem un kreditoriem. Varat arī uzstādīt, lai pamatlīdzekļi integrētos ar pirkšanas pasūtījumiem.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba1fad55082abaaeaf1874698d7475597f23904f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240918"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826838"
 ---
 # <a name="fixed-assets-integration"></a>Pamatlīdzekļu integrācija
 
@@ -82,7 +80,7 @@ Katras pasūtījuma rindas integrācija tiek aktivizēta lapas **Pirkšanas pas�
 ## <a name="project-management-and-accounting"></a>Projektu vadība un uzskaite
 Jūs varat projektu piesaistīti līdzekli, kas ietekmē projektu. Jūs varat arī piesaistīt katru posmu, uzdevumu vai apakšprojektu dažādiem līdzekļiem. Viens pamatlīdzeklis var būt saistīts ar katru projekta ierakstu. Jūs veidojat saistību, kad ievadāt pamatlīdzekļa numuru lapas **Projekti** laukā **Pamatlīdzekļa numurs**. Projekta veidam ir jābūt **Iekšējs** vai **Izmaksu projekts**. 
 
-Varat arī izmantot lapu **Projekti**, lai skatītu detalizētu informāciju par līdzekļiem, kas ir saistīti ar projektiem. Ja vēlaties skatīt pamatlīdzekļa ierakstu, noklikšķiniet uz līdzekļa saites kopsavilkuma cilnē **Iestatīšana**, lai atvērtu lapu **Pamatlīdzekļi**. Pēc tam noklikšķiniet uz **Projekti** &gt; **Visi projekti**, lai skatītu projektus, kas ir saistīti ar pamatlīdzekli. 
+Varat arī izmantot lapu **Projekti**, lai skatītu detalizētu informāciju par līdzekļiem, kas ir saistīti ar projektiem. Ja vēlaties skatīt pamatlīdzekļa ierakstu, noklikšķiniet uz līdzekļa saites kopsavilkuma cilnē **Iestatīšana**, lai atvērtu lapu **Pamatlīdzekļi**. Pēc tam noklikšķiniet uz **Projekti** &gt; **Visi projekti**, lai skatītu projektus, kas ir saistīti ar pamatlīdzekli. 
 
 Parasti pamatlīdzekļi tiek saistīti ar projektiem, ja projekti ir saistīti ar darbu, apkopi vai līdzekļu uzlabošanu. Kad projekts ir pabeigts, līdzekļa vērtības palielināšana netiek veikta automātiski. Tāpēc, ja ir nepieciešama vērtības palielināšana, tā jāveic manuāli. 
 

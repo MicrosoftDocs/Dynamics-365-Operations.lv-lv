@@ -1,12 +1,10 @@
 ---
 title: Darba pasūtījumu dzīves ciklu stāvokļi
-description: Šajā tēmā ir paskaidroti darba pasūtījuma dzīves cikla stāvokļi līdzekļu pārvaldībā.
-author: josaw1
-manager: tfehr
+description: Šajā tēmā ir paskaidroti darba pasūtījuma dzīves cikla stāvokļi Līdzekļu pārvaldībā.
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLifecycleState, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e72c56765ad51a4f43fb01d842f5940a4d1a025e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825618"
 ---
 # <a name="work-order-lifecycle-states"></a>Darba pasūtījumu dzīves ciklu stāvokļi
 
@@ -33,7 +31,7 @@ ms.locfileid: "5248843"
 
 Darba pasūtījuma dzīves cikla stāvokļi definē stāvokļus, kurus darba pasūtījums var iziet. Piemēri ietver tādus stāvokļus kā **Izveidots**, **Ieplānots**, **Notiek izpilde** un **Pabeigts**. Darba pasūtījuma dzīves cikla stāvokļus var manuāli atjaunināt darba pasūtījumā, kā arī tie var tikt atjaunināti automātiski (piemēram, darba pasūtījuma plānošanas laikā).
 
-Darba pasūtījuma dzīves cikla stāvokļi, kas nepieciešami jūsu darba pasūtījumiem, ir jāpievieno atbilstošajiem projekta posmiem lapā **Projekta pārvaldības un uzskaites parametri** (**Projekta pārvaldība un uzskaite** \> **Projekta pārvaldības un uzskaites parametri**). Vispirms jūs iestatāt projekta posmus lapā Projektu pārvaldība un uzskaite. Pēc tam līdzekļu pārvaldībā jūs iestatāt darba pasūtījuma dzīves cikla stāvokļus un darba pasūtījuma dzīves cikla modeļus.
+Darba pasūtījuma dzīves cikla stāvokļi, kas nepieciešami jūsu darba pasūtījumiem, ir jāpievieno atbilstošajiem projekta posmiem lapā **Projekta pārvaldības un uzskaites parametri** (**Projekta pārvaldība un uzskaite** \> **Projekta pārvaldības un uzskaites parametri**). Vispirms jūs iestatāt projekta posmus lapā Projektu pārvaldība un uzskaite. Pēc tam Līdzekļu pārvaldībā jūs iestatāt darba pasūtījuma dzīves cikla stāvokļus un darba pasūtījuma dzīves cikla modeļus.
 
 Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba pasūtījums** un **Grafiks**, kopsavilkuma cilnē **Vispārīgi**, lapā **Darba pasūtījuma dzīves cikla stāvoklis** (**Līdzekļa pārvaldība** \> **Iestatīšana** \> **Darba pasūtījumi** \> **Dzīves cikla stāvokļi**).
 
@@ -49,7 +47,7 @@ Tālāk esošajā tabulā ir aprakstītas opcijas, kas atrodas sadaļās **Darba
 | Iestatīt faktisko sākumu              | Iestatiet šo opciju uz **Jā**, ja lietotājam ir nepieciešams piedāvāt atlasīt faktisko darba pasūtījuma sākuma datumu un laiku, kad tas ir atjaunināts šajā dzīves cikla stāvoklī. |
 | Iestatīt faktiskās beigas                | Iestatiet šo opciju uz **Jā**, ja lietotājam ir nepieciešams piedāvāt atlasīt faktisko darba pasūtījuma beigu datumu un laiku, kad tas ir atjaunināts šajā dzīves cikla stāvoklī. |
 | Grāmatot žurnālus                 | Iestatiet šo opciju uz **Jā**, ja ir nepieciešams automātiski publicēt darba pasūtījuma žurnālus, kad darba pasūtījums ir atjaunināts šajā dzīves cikla stāvoklī. Ja rodas kļūda žurnāla publicēšanas laikā, tiks parādīt ziņojums un darba pasūtījuma dzīves cikla stāvokļa atjauninājums tiks atcelts. Lai skatītu darba pasūtījuma žurnāla rindas, atlasiet **Līdzekļa pārvaldība** \> **Kopējs** \> **Darba pasūtījumi** \> **Visi darba pasūtījumi**, **Aktīvie darba pasūtījumi** vai **Mani aktīvie darba pasūtījumi**, atlasiet darba pasūtījumu sarakstā un tad atlasiet **Žurnāli**. Šī automātiskās darba pasūtījuma žurnāla publicēšanas iestatīšana noteiktā dzīves cikla stāvoklī ir tāda pati kā, ja atlasāt **Publicēt žurnālus** lapā **Darba pasūtījuma žurnāli**.<p>**Piezīme.** Ja iestatāt šo opciju uz **Jā**, žurnāli tiek automātiski publicēti, ja nav iestatīta apstiprināšanas darbplūsma. Ja jūsu uzņēmums izmanto žurnāla apstiprinājuma iestatīšanu, kas ir konfigurēta lapā **Žurnāla apstiprinājums** (**Projektu pārvaldība un uzskaite** \> **Iestatīšana** \> **Žurnāli** \> **Žurnāla apstiprinājums**), pārvaldniekam vai darbiniekam ir jāapstiprina un jāpublicē patēriņa reģistrācijas.</p> |
-| Apstrādāt uzturēšanas kontrolsarakstu | Iestatiet šo opciju uz **Jā**, ja ir jāapstrādā visi uzturēšanas kontrolsaraksti, kad darba pasūtījums tiek atjaunināts šajā dzīves cikla stāvoklī. Šīs apstrādes ietvaros tiek iegrāmatotas visas skaitītāja reģistrācijas, kas veiktas apkopes kontrolsarakstā, un tiek novērtēts visu apkopes kontrolsarakstu rezultāts. Tiek novērtētas uzturēšanas kontrolsaraksta rindas, kuru rezultāti ir **Sekmīgi** un **Nesekmīgi**, un, ja kaut vienas rindas rezultāts ir nesekmīgs, viss uzturēšanas kontrolsaraksts līdzekļu pārvaldībā tiek atzīmēts kā **Nesekmīgs**. |
+| Apstrādāt uzturēšanas kontrolsarakstu | Iestatiet šo opciju uz **Jā**, ja ir jāapstrādā visi uzturēšanas kontrolsaraksti, kad darba pasūtījums tiek atjaunināts šajā dzīves cikla stāvoklī. Šīs apstrādes ietvaros tiek iegrāmatotas visas skaitītāja reģistrācijas, kas veiktas apkopes kontrolsarakstā, un tiek novērtēts visu apkopes kontrolsarakstu rezultāts. Tiek novērtētas uzturēšanas kontrolsaraksta rindas, kuru rezultāti ir **Sekmīgi** un **Nesekmīgi**, un, ja kaut vienas rindas rezultāts ir nesekmīgs, viss uzturēšanas kontrolsaraksts Līdzekļu pārvaldībā tiek atzīmēts kā **Nesekmīgs**. |
 | Pabeigts                         | Iestatiet šo opciju uz **Jā**, ja darba pasūtījuma uzdevuma grafika statuss visiem darba pasūtījuma uzdevumiem, kas izveidoti darba pasūtījumā, automātiski ir jāatjaunina uz statusu **Gatavs**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli. |
 | Sākšana                         | Iestatiet šo opciju uz **Jā**, ja darba pasūtījuma uzdevuma grafika statuss visiem darba pasūtījuma uzdevumiem, kas izveidoti darba pasūtījumā, automātiski ir jāatjaunina uz statusu **Sākts**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli. |
 | Beigt                           | Iestatiet šo opciju uz **Jā**, ja darba pasūtījuma uzdevuma grafika statuss visiem darba pasūtījuma uzdevumiem, kas izveidoti darba pasūtījumā, automātiski ir jāatjaunina uz statusu **Pabeigts**, kad darba pasūtījums tiek atjaunināts uz šo dzīves cikla stāvokli. |

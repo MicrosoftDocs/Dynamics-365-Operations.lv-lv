@@ -2,11 +2,9 @@
 title: Vispārējās plānošanas iestatīšanas vednis
 description: Šajā tēmā ir aprakstītas dažādas svarīgas stratēģijas un parametri, kas tiek izmantoti vispārējās plānošanas iestatīšanai.
 author: t-benebo
-manager: tfehr
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: f2f4d115c29cc87b5202ffd372871ae76780236b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232330"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829695"
 ---
 # <a name="master-planning-setup-wizard"></a>Vispārējās plānošanas iestatīšanas vednis
 
@@ -78,7 +76,7 @@ Vedņa lapā **Pašreizējā plāna tvērums** jūs atbildat uz jautājumiem, ka
 
 Piemēram, budžeta plāna funkcijai vednis vaicā: "Vai vēlaties izmantot budžeta plānu vispārējā plānošanā, lai plānotie pasūtījumi tiktu ieteikti tā, lai izpildītu prognozēto pieprasījumu?"
 
-Pieejamas šādas opcijas
+Pieejamas šādas opcijas:
 
 - **Nē** — vispārējā plānošana neieteiks plānotos pasūtījumus, lai izpildītu prognozi. Cilnē **Laika periodi** lapā **Vispārējie plāni** (**Vispārējā plānošana \> Iestatīšana \> Plāni \> Vispārējie plāni**) vednis iestatīs opciju **Budžeta plāns (laika periods)** uz **Jā** un dienu skaitu iestatīs uz **0** (nulle). Šis iestatījums ignorēs laika periodu, kas ir norādīts vajadzību grupā. Tā kā dienu skaits ir iestatīts uz **0** (nulle), šī funkcija netiks izmantota.
 - **Jā, kā definēts šajā vispārējā plānā** — kļūst pieejams lauks, kur var ievadīt dienu skaitu, ko vispārējā plānošana ieteiks plānotajiem pasūtījumiem, lai izpildītu prognozēto pieprasījumu. Vednis iestatīs opciju **Budžeta plāns (laika periods)** uz **Jā** un dienu skaitu iestatīs uz to dienu skaitu, kas ir ievadīts laukā **Budžeta plāns** cilnē **Laika periodi** lapā **Vispārējie plāni**. Šis iestatījums ignorēs vērtības, kas ir iestatītas vajadzību grupās.

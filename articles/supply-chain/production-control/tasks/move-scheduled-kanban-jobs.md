@@ -2,11 +2,9 @@
 title: Plānoto Kanban darbu pārvietošana
 description: Šajā procedūrā parādīts, kā pārvietot plānotu procesu Kanban darbus uz citu periodu.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/07/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b945cdfa3e013c213e718962499831df126f09b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d58ee740824809f15da68db66616bb01d5dbfab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259750"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825018"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Plānoto Kanban darbu pārvietošana
 
@@ -38,7 +36,7 @@ ms.locfileid: "5259750"
    - Atlasiet darba šūnu 1250. 
 4. Noklikšķiniet uz **Atlasīt**. 
 
-5. Laukā **Rādīt darba statusu** atlasiet **Plānots**. Šādi darbu saraksts tiek filtrēts, lai parādītu tikai plānotos kanban darbus. 
+5. Laukā **Rādīt darba statusu** atlasiet **Plānots**. Šādi darbu saraksts tiek filtrēts, lai parādītu tikai plānotos Kanban darbus. 
 
 ## <a name="move-kanban-jobs-to-a-different-period"></a>Pārv. Kanban darbus uz citu periodu. 
 
@@ -52,7 +50,7 @@ ms.locfileid: "5259750"
 
 5. Nokl. **Nāk. per**. 
 
-6. Nokl. **Sākums**, lai darbu pārv. uz darbu sar. sākumu un tas būtu pirmais. darbs iepr. periodā. 
+6. Noklikšķiniet uz **Sākums**, lai pārvietotu darbu uz darbu saraksta sākumu un tas būtu pirmais darbs iepriekšējā periodā. 
 
 ## <a name="move-a-job-within-a-period"></a>Darba pārv. per. ietvaros. 
 

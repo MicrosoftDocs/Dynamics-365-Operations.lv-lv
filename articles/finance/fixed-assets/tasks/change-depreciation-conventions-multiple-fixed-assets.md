@@ -2,11 +2,9 @@
 title: Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem
 description: Šis uzdevums atjaunina nolietojuma nosacījumus noteiktai pamatlīdzekļu grupai.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c64e4f7117c4ca70236a02b4d36a88e9f2a9906
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a71b24b0c2ea072aeff8c994cfdac10bc57b64c6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210027"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823984"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Nolietojuma konvenciju maiņa vairākiem pamatlīdzekļiem
 

@@ -2,11 +2,9 @@
 title: Nolietojuma grāmatas jaunināšanas apskats
 description: Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
@@ -16,26 +14,26 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 016787fa0636b0a3c0d17d2e4fd890cf56d8f519
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d42936a94e0f4d50ae227d760d5bee6e1e3a12e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241238"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826982"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Nolietojuma grāmatas jaunināšanas apskats
 
 [!include [banner](../includes/banner.md)]
 
-Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu. 
+Iepriekšējos laidienos pamatlīdzekļiem pastāvēja divi vērtēšanas jēdzieni — vērtības modeļi un nolietojuma grāmatas. Programmā Microsoft Dynamics 365 for Operations (1611) vērtības modeļa funkcionalitāte un nolietojuma grāmatas funkcionalitāte ir apvienotas vienā jēdzienā, kas tiek saukts par grāmatu. Šajā tēmā ir norādīts uz dažiem faktoriem, kas ir jāņem vērā, veicot jaunināšanu. 
 
 Jaunināšanas process jūsu esošos iestatījumus un visas pastāvošās transakcijas pārvietos uz jaunās grāmatas struktūru. Vērtību modeļi saglabāsies pašreizējā stāvokli, kā grāmata, kas grāmato Virsgrāmatā. Nolietojuma grāmatas tiks pārvietotas uz grāmatu, kurai opcija **Grāmatot virsgrāmatā** ir iestatīta uz **Nē**. Nolietojuma grāmatas žurnāla nosaukumi tiks pārvietoti uz virsgrāmatas žurnāla nosaukumu, kura grāmatošanas slānis ir iestatīts uz **Nav**. Nolietojuma grāmatas transakcijas tiks pārvietotas uz pamatlīdzekļu transakcijām. 
 
 Pirms palaižat datu jaunināšanu, jums ir jāsaprot abas opcijas, kas ir pieejamas nolietojuma grāmatas žurnālu rindu jaunināšanai uz transakciju dokumentiem, un numuru sēriju, kas tiks izmantota dokumentu sērijai. 
 
-1. opcija: **Sistēmas definēta numuru sērija** — šī ir noklusējuma opcija jauninājuma veiktspējas optimizēšanai. Jauninājums neizmantos numuru sēriju struktūru, bet tās vietā dokumentiem izmantos no kopas atkarīgu pieeju. Pēc jaunināšanas tiks veidota jaunā numuru sērija, kuras **Nākamā skaitļu kopa** attiecīgi būs pamatota uz jauninātajām transakcijām. Pēc noklusējuma izmantotā numuru sērija būs formātā FADBUpgr\#\#\#\#\#\#\#\#\#. Kad izmantojot šo pieeju, formāta pielāgošanai jums ir pieejami vairāki tālāk aprakstītie parametri.
+1. opcija:  **Sistēmas definēta numuru sērija** — šī ir noklusējuma opcija jauninājuma veiktspējas optimizēšanai. Jauninājums neizmantos numuru sēriju struktūru, bet tās vietā dokumentiem izmantos no kopas atkarīgu pieeju. Pēc jaunināšanas tiks veidota jaunā numuru sērija, kuras **Nākamā skaitļu kopa** attiecīgi būs pamatota uz jauninātajām transakcijām. Pēc noklusējuma izmantotā numuru sērija būs formātā FADBUpgr\#\#\#\#\#\#\#\#\#. Kad izmantojot šo pieeju, formāta pielāgošanai jums ir pieejami vairāki tālāk aprakstītie parametri.
 
--   **Numuru sērijas kods** — kods šīs numuru sērijas identificēšanai. Šis numuru sērijas kods nevar pastāvēt, jo tas tiks izveidots ar jaunināšanu.
+-   **Numuru sērijas kods** — kods šīs numuru sērijas identificēšanai. Šis numuru sērijas kods nevar pastāvēt, jo tas tiks izveidots ar jaunināšanu.
     -   Konstantes nosaukums: **NumberSequenceDefaultCode**
     -   Noklusējuma vērtība: “FADBUpgr”
 -   **Prefikss** — konstanta virknes vērtība, kas tiks izmantota kā prefikss dokumentu numuriem.
@@ -48,7 +46,7 @@ Pirms palaižat datu jaunināšanu, jums ir jāsaprot abas opcijas, kas ir pieej
     -   Konstantes nosaukums: **NumberSequenceDefaultParameterStartNumber**
     -   Noklusējuma vērtība: 1
 
-2. opcija: **Pastāvoša lietotāja definēta numuru sērija** — šī opcija jums ļauj definēt numuru sēriju, ko lietot jauninājumam. Apsveriet iespēju lietot šo opciju, ja ir nepieciešama detalizēta numuru sērijas konfigurēšana. Lai lietotu numuru sēriju, jums ir nepieciešams jauninājuma klasi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans modificēt ar tālāk norādīto informāciju.
+2. opcija: **Pastāvoša lietotāja definēta numuru sērija** — šī opcija jums ļauj definēt numuru sēriju, ko lietot jauninājumam. Apsveriet iespēju lietot šo opciju, ja ir nepieciešama detalizēta numuru sērijas konfigurēšana. Lai lietotu numuru sēriju, jums ir nepieciešams jauninājuma klasi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans modificēt ar tālāk norādīto informāciju.
 
 -   **Numuru sērijas kods** — šīs numuru sērijas kods.
     -   Konstantes nosaukums: **NumberSequenceExistingCode**

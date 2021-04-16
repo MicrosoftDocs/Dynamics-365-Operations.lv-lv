@@ -2,11 +2,9 @@
 title: LIFO uz datums ar fizisko vērtību un iezīmēšanu
 description: Pēdējie iekšā, pirmie ārā uz datumu (LIFO uz datumu) ir krājumu modelis, kura pamatā ir LIFO princips. Izdotais krājums nosedz pirmo saņemto krājumu, ņemot vērā krājumu darbības veikšanas fizisko datumu. Izmantojot vienumu LIFO datums, ja pirms izdošanas nav nevienas saņemšanas, izdošana nosedz jebkuru saņemšu, kas rodas pēc izdošanas datuma. Vairākas izdošanas vienā un tajā pašā datumā ir jānosedz secībā – pēdējā izdošana, pēdējā saņemšana.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e88ae89ec10a03cfb7bd057bc5f2c33071b55b4a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233827"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821541"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO uz datums ar fizisko vērtību un iezīmēšanu
 
@@ -77,7 +75,7 @@ Varat atzīmēt krājuma izvēles rūtiņu **Iekļaut fizisko vērtību** lapā 
 
 Šajā piemērā krājumu modeļu grupai ir atzīmēta fiziskās vērtības iekļaušana. 
 
-Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas.
+Tālāk esošajā ilustrācijā ir redzamas tālāk norādītās transakcijas:
 
 -   1.a Krājumu fiziska saņemšana daudzumam 1 pie cenas USD 10,00 par katru.
 -   1.b Krājuma finansiāla saņemšana par daudzumu 1 par summu USD 10,00 katrs.

@@ -2,11 +2,9 @@
 title: Konfigurācija Finanšu ieskatiem (priekšskatījums)
 description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finanšu ieskatos.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cf29e3c05f9fdcc685017a4c640ef32c40989c73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208561"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818804"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Konfigurācija Finanšu ieskatiem (priekšskatījums)
 
@@ -293,7 +291,7 @@ Windows PowerShell skripts tiek nodrošināts, lai varētu viegli iestatīt Azur
 > [!NOTE]
 > Izpildiet tālāk norādītās darbības, lai palaistu PowerShell skriptu. Azure CLI opcija "Izmēģiniet to" vai skripta palaišana datorā, iespējams, nedarbosies.
 
-Izpildiet tālāk norādītās darbības, lai konfigurētu Azure, izmantojot Windows PowerShell skriptu. Jums ir jābūt tiesībām izveidot Azure resursu grupu, Azure resursus un Azure AD pieteikumu. Lai iegūtu informāciju par nepieciešamajām atļaujām, skatiet [Azure AD atļauju pārbaude](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Izpildiet tālāk norādītās darbības, lai konfigurētu Azure, izmantojot Windows PowerShell skriptu. Jums ir jābūt tiesībām izveidot Azure resursu grupu, Azure resursus un Azure AD pieteikumu. Lai iegūtu informāciju par nepieciešamajām atļaujām, skatiet [Pakalpojuma Azure AD atļauju pārbaude](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. [Azure portālā](https://portal.azure.com) dodieties uz savu mērķa Azure abonementu. Atlasiet pogu **Mākoņa čaula**, kas atrodas pa labi no lauka **Meklēt**.
 2. Atlasiet **PowerShell**.

@@ -2,11 +2,9 @@
 title: Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
 description: Šajā tēmā aprakstīts, kā lietot rēķinu reģistru, lai izveidotu rēķinus.
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670dd2ec15aa26791758ec4bea2b431482499436
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9c54f610e45d288ed58fd209d290d73bfe1ff2f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227164"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820669"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Rēķinu datu ievade kreditoru sistēmā, izmantojot rēķinu kopu
 
@@ -42,7 +40,7 @@ ms.locfileid: "5227164"
 2. Atlasiet **Jauns**.
 3. Lai atlasītu nosaukumu rēķinu reģistram, kuru vēlaties izmantot, atveriet uzmeklēšanu.
 4. Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.
-5. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas. 
+5. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas.
 6. Uzmeklēšanas skatā atlasiet kreditoru. Piemēram, atlasiet piegādātāju **1001**.
 7. Laukā **Rēķins** ievadiet rēķina numuru
 8. Laukā **Apraksts** ierakstiet kādu vērtību.

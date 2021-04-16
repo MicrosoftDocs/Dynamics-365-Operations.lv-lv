@@ -1,12 +1,10 @@
 ---
-title: Unikālas noliktavas vienības saņemšana, izmantojot noliktavas programmu
-description: Šajā tēmā ir izskaidrots, kā iestatīt noliktavas programmu, lai atbalstītu unikālas noliktavas vienības saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
+title: Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu
+description: Šajā tēmā skaidrots, kā iestatīt Warehouse Management mobile programmu, lai atbalstītu numura zīmes saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245158"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823195"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Unikālas noliktavas vienības saņemšana, izmantojot noliktavas programmu
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir izskaidrots, kā iestatīt noliktavas programmu, lai tā atbalstītu unikālas noliktavas vienības saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
+Šajā tēmā skaidrots, kā iestatīt Warehouse Management mobile programmu, lai tā atbalstītu numura zīmes saņemšanas procesa izmantošanu, lai saņemtu fizisko krājumu.
 
 Jūs varat izmantot šo funkcionalitāti, lai ātri ierakstītu ienākošo krājumu saņemšanu, kas ir saistīts ar iepriekšējo paziņojums par nosūtīšanu (ASN). Sistēma automātiski izveido ASN, kad noliktavas pārvaldības procesi tiek izmantoti, lai nosūtītu pārsūtīšanas pasūtījumu. Pirkšanas pasūtījuma procesam ASN var tikt manuāli reģistrēts, vai to var automātiski importēt, izmantojot ienākošo ASN datu elementa procesu.
 
@@ -72,7 +70,7 @@ Lai šo funkcionalitāti padarītu pieejamu jūsu sistēmā, ir jāieslēdz līd
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Rādīt vai izlaist saņemšanas kopsavilkuma lapu
 
-Jūs varat izmantot līdzekli *Kontrolēt, vai mobilajās ierīcēs tiktu parādīta saņemšanas kopsavilkuma lapa*, lai izmantotu papildu detalizēto Noliktavu programmu plūsmu kā daļu no numura zīmes saņemšanas procesa.
+Jūs varat izmantot līdzekli *Kontrolēt, vai mobilajās ierīcēs tiktu parādīta saņemšanas kopsavilkuma lapa*, lai izmantotu papildu detalizēto Warehouse Management mobile programmas plūsmu kā daļu no numura zīmes saņemšanas procesa.
 
 Kad šis līdzeklis ir ieslēgts, mobilās ierīces izvēlnes vienumi numura zīmes saņemšanas vai numura zīmes saņemšanas un izvietošanas laikā nodrošinās iestatījumu **Parādīt saņemšanas kopsavilkuma lapu**. Šim iestatījumam ir šādas opcijas:
 

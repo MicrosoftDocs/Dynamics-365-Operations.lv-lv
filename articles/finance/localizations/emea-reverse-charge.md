@@ -2,11 +2,9 @@
 title: PVN/GST shēmas apgrieztās maksāšanas mehānisms
 description: Šajā tēmā ir paskaidrots, kā iestatīt apgriezto pievienotās vērtības nodokli (PVN) Eiropas valstīs, Saūda Arābijā un Singapūrā.
 author: epodkolz
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 007fab0594c443a3060d6b6640b032ec270f5298
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236249"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818308"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>PVN/GST shēmas apgrieztās maksāšanas mehānisms
 
@@ -132,7 +130,7 @@ Pēc līdzekļa iespējošanas cilne **Apgrieztā maksāšana** ir pieejama vis�
 
 Būs pieejamas tālāk norādītās lapas un izvēlnes vienumi, kas saistīti ar līdzekļa iestatīšanu.
  - **Apgrieztās maksāšanas krājuma grupas** (**Nodoklis** > **Iestatījumi** > **PVN** > **Apgrieztās maksāšanas krājuma grupas**). Plašāku informāciju skatiet sadaļā [Apgrieztās maksāšanas krājuma grupas iestatīšana](#reverse-charge-item-group).
- - **Apgrieztās maksāšanas kārtulas** (**Nodoklis** > **Iestatījumi** > **PVN** > **Apgrieztās maksāšanas kārtulas**). Skatiet [Apgrieztās maksāšanas kārtulu iestatīšana](#reverse-charge-rules).
+ - **Apgrieztās maksāšanas kārtulas**  (**Nodoklis** > **Iestatījumi** > **PVN** > **Apgrieztās maksāšanas kārtulas**). Skatiet [Apgrieztās maksāšanas kārtulu iestatīšana](#reverse-charge-rules).
  - **Ārējās tirdzniecības parametri** (**Nodoklis** > **Iestatījumi** > **PVN** > **Ārējā tirdzniecība** > **Ārējās tirdzniecības parametri**). Skatiet [Valsts/reģiona rekvizītu iestatīšana](#Set-up-Country/region-properties).
 
 Izvēles rūtiņa **Apgrieztā maksāšana** būs pieejama lapās **PVN grupa** un **Grāmatotais PVN**. Lai iegūtu papildu informāciju, skatiet sadaļas [PVN grupu un krājumu PVN grupu iestatīšana](#sales-tax-item-sales-tax-groups), [Apgrieztā maksāšana pārdošanas rēķinā](#reverse-charge-sale) un [Apgrieztā maksāšana pirkšanas rēķinā](#reverse-charge-purchase).
