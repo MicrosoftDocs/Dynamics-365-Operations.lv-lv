@@ -2,11 +2,9 @@
 title: Kanban aizstāšanas kārtulas izveide
 description: Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu Kanban nosacījumu noteiktā datumā.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de048577ac372474b72728d7774e3159a159afc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d5aebd88dee9621d2c85af3a4fb5bf76ae8e6b80
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221827"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828950"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Kanban aizstāšanas kārtulas izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu kanban nosacījumu noteiktā datumā. Tas ir noderīgi, kad ir nepieciešams saskaņot un plānot izmaiņas ražošanas plūsmā vai papildināšanas kārtulās. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šī procedūra ir paredzēta procesa inženierim vai vērtību plūsmas pārvaldniekam, kad tie sagatavo ražošanas procesu izmanītai ražošanas plūsmai vai jauniem papildināšanas noteikumiem. Šis uzdevums aizstāj kanban nosacījumu 000022 ar jaunu nosacījumu, un palielina maksimālo daudzumu jaunajam nosacījumam no 48 līdz 100.
+Šī procedūra aizstāj esošo kanban nosacījumu ar jaunu Kanban nosacījumu noteiktā datumā. Tas ir noderīgi, kad ir nepieciešams saskaņot un plānot izmaiņas ražošanas plūsmā vai papildināšanas kārtulās. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šī procedūra ir paredzēta procesa inženierim vai vērtību plūsmas pārvaldniekam, kad tie sagatavo ražošanas procesu izmanītai ražošanas plūsmai vai jauniem papildināšanas noteikumiem. Šis uzdevums aizstāj kanban nosacījumu 000022 ar jaunu nosacījumu, un palielina maksimālo daudzumu jaunajam nosacījumam no 48 līdz 100.
 
 
 ## <a name="select-a-kanban-rule-to-replace"></a>Atlasiet aizstājamo kanban nosacījumu

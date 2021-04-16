@@ -2,11 +2,9 @@
 title: SEPA kredīta pārskaitījuma apskats
 description: Šajā rakstā ir sniegta vispārīga informācija par ISO 20022 kredīta pārskaitījumiem, kas ietver vienotās eiro maksājumu zonas (SEPA) kredīta pārskaitījumus un citus elektroniskos maksājumus kreditoriem. SEPA kredīta pārskaitījums ir noteikta tipa maksājums (eiro valūtā), ko viens uzņēmums vai privātpersona veic citam uzņēmumam vai privātpersonai. Tēmā ir arī paskaidrots, kā iestatīt un pārsūtīt SEPA kredīta pārskaitījuma maksājuma failu.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277f11bc6aa74ac9bb9f476b07be7bbf29025342
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227404"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830740"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
 
@@ -90,7 +88,7 @@ Noteiktu parametru saraksts ir atkarīgs no kredīta pārskaitījuma formāta. N
 <td>Formāts</td>
 <td>Atlasiet formātu pārskaitījumu informācijai, atkarībā no jūsu valsts/reģiona vai bankas prasībām:
 <ul>
-<li><strong>Strd</strong> — atlasiet šo opciju, lai izmantotu strukturēto formātu, kad viena maksājuma rinda tiek segta pret vienu rēķinu. Šī opcija na&#39;v pieejama Francijas, Vācijas un Nīderlandes valstij/reģionam raksturīgajiem eksporta formātiem.</li>
+<li><strong>Strd</strong> — atlasiet šo opciju, lai izmantotu strukturēto formātu, kad viena maksājuma rinda tiek segta pret vienu rēķinu. Šī opcija na&#39;v pieejama Francijas, Vācijas un Nīderlandes valstij/reģionam raksturīgajiem eksporta formātiem.</li>
 <li><strong>Ustrd</strong> — atzīmējiet šo opciju, lai izmantotu nestrukturēto formātu, kad maksājums tiek segts pret vairākiem rēķiniem. Nosegtajiem rēķiniem rēķinu numuri tiek apvienoti un izmantoti kā pārskaitījuma informācija. Saskaņā ar ISO 20022 vadlīnijām nestrukturētā pārskaitījumu informācija ir ierobežota līdz 140 rakstzīmēm.</li>
 </ul></td>
 </tr>

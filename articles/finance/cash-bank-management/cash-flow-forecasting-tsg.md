@@ -2,11 +2,9 @@
 title: Problēmu novēršana naudas plūsmas prognozēšanas iestatīšanā
 description: Šajā tēmā ir sniegtas atbildes uz jautājumiem, kas var rasties skaidras naudas plūsmas prognozēšanas konfigurēšanas gaitā. Tā apraksta biežāk uzdotos jautājumus (BUJ) par naudas plūsmas iestatīšanu, naudas plūsmas atjauninājumiem un naudas plūsmas Power BI.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232493"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827318"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Problēmu novēršana naudas plūsmas prognozēšanas iestatīšanā
 
@@ -47,11 +45,19 @@ Pirms naudas plūsmas prognozes var parādīties Power BI skatījumos, ir jāvei
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Kādēļ naudas plūsma Power BI darbojas iepriekšējās versijās, bet tagad ir tukša?
 
-Pārbaudiet, vai Elementu krātuves mērījumi "Naudas plūsmas mērījums V2" un "LedgerCovLiquidityMeasurement" ir konfigurēti. Papildinformāciju par to, kā strādāt ar datiem Elementa krātuvē, skatiet [Power BI integrācija ar elementu krātuvi](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) Pārbaudiet, vai ir izpildītas visas darbības, kas jāveic, lai skatītu Power BI saturu. Plašāku informāciju skatiet sadaļā [Skaidras naudas pārskata Power BI saturs](Cash-Overview-Power-BI-content.md).
+Pārbaudiet, vai Elementu krātuves mērījumi "Naudas plūsmas mērījums V2" un "LedgerCovLiquidityMeasurement" ir konfigurēti. Lai iegūtu papildinformāciju par to, kā strādāt ar datiem entītiju krātuvē, skatiet sadaļu [Power BI integrācija ar Elementu krātuvi](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Pārbaudiet, vai ir pabeigtas visas darbības, kas nepieciešamas Power BI satura skatīšanai. Plašāku informāciju skatiet sadaļā [Skaidras naudas pārskata Power BI saturs](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Vai Elementu krātuves elementi ir atsvaidzināti?
 
 Periodiski jāatsvaidzina elementi, lai nodrošinātu, ka dati ir pašreizējie un precīzi. Lai manuāli atsvaidzinātu noteiktu elementu, pārejiet uz sadaļu **Sistēmas administrēšana \> Iestatīšanas \> Elementu krātuve** atlasiet elementu un pēc tam atlasiet **Atsvaidzināt**. Datus var atjaunināt arī automātiski. Lapā **Elementu krātuve** iestatiet opciju **Automātiskā atsvaidzināšana iespējota** uz **Jā**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Kuru aprēķinu metodi lietot, aprēķinot naudas plūsmas prognozes?
+
+Naudas plūsmas prognozes aprēķina metodei ir divas svarīgas atlases opcijas. Opcija **Jauns** aprēķinās naudas plūsmas prognozes jaunajiem dokumentiem un dokumentiem, kas ir mainījušies kopš pēdējā pakešuzdevuma izpildes. Šī opcija darbojas ātrāk, jo apstrādā mazāku dokumentu apakškopu. Opcija **Kopsumma** pārrēķinās naudas plūsmas prognozes katram dokumentam sistēmā. Šīs opcijas pabeigšanai nepieciešams vairāk laika, jo tai ir vairāk darba.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Kā uzlabot naudas plūsmas prognozēšanas periodiskā pakešuzdevuma veiktspēju?
+
+veikt naudas plūsmas prognozi vienu reizi dienā ārpusslodzes stundu laikā, izmantojot aprēķina metodi **Jauns**. Ieteicams izmantot šo pieeju sešas dienas nedēļā. Pēc tam vienu reizi nedēļā palaidiet naudas plūsmas prognozi, izmantojot aprēķina metodi **Kopējais** dienā ar vismazāko aktivitātes daudzumu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

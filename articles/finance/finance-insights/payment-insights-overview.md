@@ -2,11 +2,9 @@
 title: Debitoru maksājumu prognozes (priekšskatījums)
 description: Šī tēma apraksta maksājuma prognožu iespēju, kas var palīdzēt labāk izprast debitora parasto maksājumu praksi. Šis līdzeklis var arī palīdzēt identificēt apstākļus, kas varētu izraisīt to, ka jūs sākat iekasēšanas procesu agrāk, nekā to varētu sākt citādi.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 398320726a5749f80584ba281095a5dbd668ae87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241342"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827270"
 ---
 # <a name="customer-payment-predictions-preview"></a>Debitoru maksājumu prognozes (priekšskatījums)
 
@@ -73,7 +71,7 @@ Iepriekš parasti bija sarežģīti izstrādāt un izvietot mākslīgā intelekt
 
 Finanšu ieskatu publiskais priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu papildu reģioniem.
 
-Publiskā priekšskatījuma līdzekļus jāieslēdz tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Publiskā priekšskatījuma līdzekļus jāieslēdz tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 

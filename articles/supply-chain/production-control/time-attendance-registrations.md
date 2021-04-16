@@ -2,11 +2,9 @@
 title: Laika un apmeklētības reģistrācijas pārskats
 description: Laika reģistrācijas darbinieki var ievadīt dažādus laika reģistrācijas veidus, piemēram, ierašanās laiku, aiziešanas laiku, netiešu aktivitāšu un kavējumu reģistrāciju. Šajā tēmā ir aprakstīta reģistrācija, tās aprēķināšana, apstiprināšana un darbplūsmas izmantošana, lai pievienotu struktūru un automātisko apstiprināšanu darba laika uzskaites tabulu apstiprināšanas procesam.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22ad53e333e6c85f8e55f04c27c6573c5738ec84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ed7a596ef0c8a17cdc2e8b943d3f73d00340f26e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226693"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840825"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Laika un apmeklētības reģistrācijas pārskats
 

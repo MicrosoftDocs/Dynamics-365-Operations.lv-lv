@@ -2,13 +2,11 @@
 title: Redzamība materiālu izņēmumos
 description: Šajā tēmā ir aprakstīts, kā varat iegūt labāku redzamību par izņēmumiem attiecībā uz izejmateriāliem ražošanas pasūtījumos un partijas pasūtījumos.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246169"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831990"
 ---
 # <a name="visibility-into-material-exceptions"></a>Redzamība materiālu izņēmumos
 
@@ -59,9 +57,13 @@ Kad atlasāt šo elementu, tiek atvērta lapa **Pārvietot uz noliktavu**. Šaj�
 
 Kad MK vai formulas rinda tiek izlaista, atkarībā no ražošanas kopuma veidnes konfigurācijas tā tiek pievienota jaunam ražošanas kopumam vai jau pastāvošam atvērtam kopumam. Izmantojot laidiena veidnes konfigurāciju, kopumu varat arī iestatīt tā, lai tas tiktu apstrādāts automātiski, kad tiek izlaista MK vai formulas rinda. Kad kopums ir apstrādāts, tiek ģenerēts noliktavas darbs izejmateriālu izdošanai. Ja laidiena veidne ir konfigurēta tā, ka kopumi netiek apstrādāti izlaišanas laikā, šis kopums saglabājas neapstrādātā stāvoklī. Elementā **Neapstrādātie kopumi, kuriem jāpievērš uzmanība** tiek rādīts skaits ar MK un formulas rindām, kas ir izlaistas pārvietošanai uz noliktavu neapstrādātos laidienos un kam izejmateriālu datums ir agrāks par vai vienāds ar darbvietas datumu. Šis rindas ir nepieciešams arī patērēt ar operācijas resursu, kas attiecas uz darbvietas filtru.
 
-Kad šis elements tiek atlasīts, tiek atvērta lapa **Visi ražošanas kopumi**. Šī lapa tiek filtrēta pēc tādu atvērto kopumu skaita, kuros ir kopuma rindas no izlaistajām MK un formulas rindām, kas atbilst šī elementa kritērijiem. No lapas **Visi ražošanas kopumi** šo kopumu varat apstrādāt manuāli.
+Kad šis elements tiek atlasīts, tiek atvērta lapa **Visi ražošanas kopumi**. Šī lapa tiek filtrēta pēc tādu atvērto kopumu skaita, kuros ir kopuma rindas no izlaistajām MK un formulas rindām, kas atbilst šī elementa kritērijiem.
 
-## <a name="open-warehouse-work-needing-attention"></a>Atvērtais noliktavas darbs, kam jāpievērš uzmanība
+### <a name="manually-maintain-production-waves"></a>Manuāli uzturēt ražošanas kopumus
+
+Lapā **Visi ražošanas kopumi** varat izmantot pogas darbības rūts cilnē **Kopums**, lai manuāli **Apstrādātu** un **Izlaistu** laidienu. Varat izmantot arī opciju **Uzturēt ražošanas**, lai skatītu un uzturētu **Ražošanas MK kopas datus**, kas tiek lietoti, lai apstrādātu sakārtošanas procesu.
+
+## <a name="open-warehouse-work-needing-attention"></a>Atvērtais noliktavas darbs, kam nepieciešama uzraudzība
 
 Elementā **Atvērtais noliktavas darbs, kam jāpievērš uzmanība** tiek rādīts skaits ar MK un formulas rindām, kuras ir izlaistas pārvietošanai uz noliktavu, kurās ir neapstrādāts darbs un kurās izejmateriālu datums ir agrāks par vai vienāds ar darbvietas datumu. Šis rindas ir nepieciešams arī patērēt ar operācijas resursu, kas attiecas uz darbvietas filtru.
 

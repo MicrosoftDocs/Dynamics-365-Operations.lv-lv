@@ -2,11 +2,9 @@
 title: Problēmu novēršana saistībā ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību
 description: Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, jauninot un migrējot uz uzlaboto noliktavu pārvaldību.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208091"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826399"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Problēmu novēršana saistībā ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208091"
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Šis kļūdas ziņojums tiek parādīts noliktavu programmā, jo pašparakstītie sertifikāti nav uzticami Android 8+ lokālā vidē.
+Šis kļūdas ziņojums tiek parādīts Warehouse Management mobile programmā, jo pašparakstītie sertifikāti nav uzticami Android 8+ lokālā vidē.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
-Izmantojiet ārēju (publisku) sertificēšanas iestādi (CA). Šīs problēmas labojums ir pieejams noliktavu programmas 1.9.0.0 versijā. Plašāku informāciju par šo problēmu un to, kā to novērst, skatiet šeit: [Noliktavu programmas savienojuma problēmu novēršana](troubleshoot-warehouse-app-connection.md).
+Izmantojiet ārēju (publisku) sertificēšanas iestādi (CA). Šīs problēmas labojums ir pieejams noliktavu programmas 1.9.0.0 versijā. Plašāku informāciju par šo problēmu un to, kā to novērst, skatiet šeit: [Warehouse Management mobile programmas savienojuma problēmu novēršana](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Kāds ir apstiprinātais process pārejai no pamata noliktavas uz papildu noliktavu?
 

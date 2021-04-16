@@ -2,11 +2,9 @@
 title: Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.16. (2021. gada februāris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236079"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829985"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.16. (2021. gada februāris)
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236079"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
 - [Pielāgojama ražotnes izpildes saskarne](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Papildinformāciju skatiet tēmā [Ierīces iestatīšana lai palaistu ražotnes izpildes interfeisu](../production-control/production-floor-execution-setup.md).
 
 - [Krājumu uztveramības pievienojumprogramma Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Plašāku informāciju skatiet [Krājumu uztveramības pievienojumprogramma](../inventory/inventory-visibility.md)
+
+- Vienota darbu ID numuru secība<br> - Lai iegūtu papildu informāciju, skatiet [Unificēto numuru sēriju darbu ID](../production-control/unified-job-ids.md).
 
 - [Numura zīmes avota dokumenta rindās validēšana](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Papildinformāciju skatiet [Noliktavas konfigurācijas pārskats](../warehousing/warehouse-configuration.md).
 
@@ -74,8 +74,8 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 - [Ar rezervāciju noliktavas pārvaldībā saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-reservations.md)
 - [Pārdošanas pasūtījumu problēmu novēršana](../sales-marketing/troubleshooting-sales.md)
 - [Pārdošanas piedāvājumu problēmu novēršana](../sales-marketing/troubleshooting-salesquotation.md)
-- [Ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Noliktavas programmas savienojuma problēmu novēršana](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Problēmu novēršana saistībā ar jaunināšanu un migrāciju uz uzlaboto noliktavu pārvaldību](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
+- [Warehouse Management mobile programmas savienojuma problēmu novēršana](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Ar noliktavas konfigurāciju saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Ar noliktavas papildināšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Ar noliktavas iestatīšanu saistīto problēmu novēršana](../warehousing/troubleshoot-warehouse-setup.md)

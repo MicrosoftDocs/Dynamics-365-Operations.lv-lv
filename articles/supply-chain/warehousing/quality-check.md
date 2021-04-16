@@ -2,11 +2,9 @@
 title: Kvalitātes pārbaude
 description: Šajā tēmā ir sniegta informācija par Kvalitātes pārbaudes līdzekli. Šis līdzeklis ļauj noliktavas darbiniekiem ātri veikt pārbaudes uz vietas, kamēr tie saņem krājumus saņemšanas doka zonā.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228469"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838230"
 ---
 # <a name="quality-check"></a>Kvalitātes pārbaude
 
@@ -301,7 +299,7 @@ Pēc tam, kad pirkšanas pasūtījums ir izveidots, to var saņemt, izmantojot *
 
 #### <a name="receive-pallet-1"></a>Saņemt paletes 1
 
-1. Pierakstieties noliktavas programmā kā lietotājs noliktavai *51*. (Ievadiet *51* kā lietotāja ID un *1* kā paroli.)
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs noliktavā *51*. (Ievadiet *51* kā lietotāja ID un *1* kā paroli.)
 1. Dodieties uz **Ienākošie \> PP rindas saņemšana**.
 1. Laukā **PONUM** ievadiet savu pirkuma pasūtījuma numuru.
 1. Apstipriniet pirkšanas pasūtījumu numuru.

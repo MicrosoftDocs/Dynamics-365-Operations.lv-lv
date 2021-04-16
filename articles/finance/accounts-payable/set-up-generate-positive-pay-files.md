@@ -2,11 +2,9 @@
 title: Pozitīvo maksājumu failu iestatīšana un ģenerēšana
 description: Šajā tēmā ir izskaidrots, kā iestatīt pozitīvo maksājumu un ģenerēt pozitīvo maksājumu failus.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227380"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830716"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitīvo maksājumu failu iestatīšana un ģenerēšana
 
@@ -140,6 +138,9 @@ Pozitīvā maksājuma faili tiek izveidoti, izmantojot datu elementus. Lai varē
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> XML nosaukumiem XSLT ir jāatbilst XML mezglu apvalkam. Gan XSLT, gan XML faili ir reģistrjutīgi. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Piešķirt pozitīvā maksājuma formātu bankas kontam
 Katram bankas kontam, kuram vēlaties izveidot pozitīvā maksājuma datus, ir jāpiešķir iepriekšējā sadaļā norādīto pozitīvā maksājuma formāts. Lapā **Bankas konti** atlasiet pozitīvā maksājuma formātu, kas atbilst bankas kontam. Laukā **Pozitīvā maksājuma sākuma datums** ievadiet pozitīvo maksājumu failu izveides sākuma datumu. Šajā laukā obligāti jāievada datums. Pretējā gadījumā pirmais izveidotais pozitīvā maksājuma fails ietvers visus čekus, kas jebkad ir izveidoti šim bankas kontam.

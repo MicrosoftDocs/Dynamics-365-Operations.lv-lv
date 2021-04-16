@@ -2,11 +2,9 @@
 title: Ārvalstu valūtas pārvērtēšana bankas kontiem
 description: Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanu bankas kontiem.
 author: panolte
-manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Latvia, Lithuania, Poland
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86d62d5d281eaf243b61d2d86591257f758d5d3d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 00ddba2ddc9351590e16b167cc0be06ba89cc377
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264981"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826097"
 ---
 # <a name="foreign-currency-revaluation-for-bank-accounts"></a>Ārvalstu valūtas pārvērtēšana bankas kontiem
 

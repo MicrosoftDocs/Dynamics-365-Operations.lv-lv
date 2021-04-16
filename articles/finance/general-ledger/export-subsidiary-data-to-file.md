@@ -2,11 +2,9 @@
 title: Filiāļu datu eksportēšana uz failiem
 description: Šajā tēmā skaidrots, kā sagatavoties eksportēt datus no Microsoft Dynamics 365 Finance un pēc tam importēt tos konsolidētā juridiskajā personā.
 author: jinniew
-manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 33c17cc2c1dcaa57244bf0bfaa661b11b221e2f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bae0a28c59f327e47378eef6392d5e304bbde9a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826182"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Filiāļu datu eksportēšana uz failiem
 
 [!include [banner](../includes/banner.md)]
 
-Jūs izmantojat lapu **Eksportēt** (**Sistēmas administrēšana \> Darbvietas \>Importēt/eksportēt**), lai sagatavotu filiāli datu eksportēšanai uz failiem, kurus pēc tam var importēt konsolidētā juridiskajā personā. Papildinformāciju par importēšanas un eksportēšanas procesiem skatiet [Datu importēšanas un eksportēšanas darbu apskatā](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+Jūs izmantojat lapu **Eksportēt** (**Sistēmas administrēšana \> Darbvietas \> Importēt/eksportēt**), lai sagatavotu filiāli datu eksportēšanai uz failiem, kurus pēc tam var importēt konsolidētā juridiskajā personā. Papildinformāciju par importēšanas un eksportēšanas procesiem skatiet [Datu importēšanas un eksportēšanas darbu apskatā](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
 
 1. Juridiskas personas izveidošana konsolidācijas procesam. Informāciju par to, kā izveidot juridiskās personas, skatiet sadaļā [Juridiskas personas izveidošana](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Papildinformāciju skatiet sadaļās [Juridiskas personas sagatavošana izmantošanai konsolidācijas procesā](prepare-company-for-consolidation.md) un [Meitasuzņēmuma juridiskās personas konsolidācijas iestatīšana](set-up-subsidiary-company-for-consolidation.md). 
 
