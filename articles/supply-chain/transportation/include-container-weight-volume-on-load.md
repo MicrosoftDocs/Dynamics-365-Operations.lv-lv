@@ -2,11 +2,9 @@
 title: Konteinera svara un tilpuma ietveršana kravā
 description: Šajā tēmā ir aprakstīts, kā iestatīt un lietot funkcionalitāti konteinera svara un tilpuma ietveršanai kravās.
 author: pjacobse
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
@@ -16,34 +14,34 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a58510f46b1390296f46039e2ba741b1248b4a64
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d747d2cdafeedf77b8b2df1cbc8debdc0675729
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5265987"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824056"
 ---
-# <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="06c5f-103">Konteinera svara un tilpuma ietveršana kravā</span><span class="sxs-lookup"><span data-stu-id="06c5f-103">Include container weight and volume on load</span></span>
+# <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="95831-103">Konteinera svara un tilpuma ietveršana kravā</span><span class="sxs-lookup"><span data-stu-id="95831-103">Include container weight and volume on load</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="06c5f-104">Funkcionalitāte konteinera svara un tilpuma ietveršanai kravā skaidri parāda kravu veidojošo konteineru un krājumu kopējo svaru un tilpumu.</span><span class="sxs-lookup"><span data-stu-id="06c5f-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
+<span data-ttu-id="95831-104">Funkcionalitāte konteinera svara un tilpuma ietveršanai kravā skaidri parāda kravu veidojošo konteineru un krājumu kopējo svaru un tilpumu.</span><span class="sxs-lookup"><span data-stu-id="95831-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
 
-<span data-ttu-id="06c5f-105">Krava ietver atsevišķu sūtījumu vai vairākus sūtījumus, un šie sūtījumi ietver atsevišķus krājumus, kas pieder vienam pārdošanas pasūtījumam vai vairākiem pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="06c5f-105">A load contains a single shipment or multiple shipments, and these shipments contain distinct items that belong to a single sales order or multiple sales orders.</span></span> <span data-ttu-id="06c5f-106">Šie krājumi tiek ievietoti konteinerā, un konteineri tiek ievietoti kravā.</span><span class="sxs-lookup"><span data-stu-id="06c5f-106">The items are stored inside a container, and containers are loaded on a load.</span></span> <span data-ttu-id="06c5f-107">Arī krājumi, kas atrodas ārpus konteinera, var veidot daļu no kravas.</span><span class="sxs-lookup"><span data-stu-id="06c5f-107">Items that are outside a container can also be part of a load.</span></span> <span data-ttu-id="06c5f-108">Pamatojoties uz šiem nosacījumiem, sistēma aprēķina vērtības attiecībā uz kravas svaru un tilpumu, ņemot vērā gan konteineru, gan krājumu svaru un tilpumu.</span><span class="sxs-lookup"><span data-stu-id="06c5f-108">Based on these conditions, the system calculates values for the weight and volume on the load by considering the weight and volume of both containers and items.</span></span>
+<span data-ttu-id="95831-105">Krava ietver atsevišķu sūtījumu vai vairākus sūtījumus, un šie sūtījumi ietver atsevišķus krājumus, kas pieder vienam pārdošanas pasūtījumam vai vairākiem pārdošanas pasūtījumiem.</span><span class="sxs-lookup"><span data-stu-id="95831-105">A load contains a single shipment or multiple shipments, and these shipments contain distinct items that belong to a single sales order or multiple sales orders.</span></span> <span data-ttu-id="95831-106">Šie krājumi tiek ievietoti konteinerā, un konteineri tiek ievietoti kravā.</span><span class="sxs-lookup"><span data-stu-id="95831-106">The items are stored inside a container, and containers are loaded on a load.</span></span> <span data-ttu-id="95831-107">Arī krājumi, kas atrodas ārpus konteinera, var veidot daļu no kravas.</span><span class="sxs-lookup"><span data-stu-id="95831-107">Items that are outside a container can also be part of a load.</span></span> <span data-ttu-id="95831-108">Pamatojoties uz šiem nosacījumiem, sistēma aprēķina vērtības attiecībā uz kravas svaru un tilpumu, ņemot vērā gan konteineru, gan krājumu svaru un tilpumu.</span><span class="sxs-lookup"><span data-stu-id="95831-108">Based on these conditions, the system calculates values for the weight and volume on the load by considering the weight and volume of both containers and items.</span></span>
 
-<span data-ttu-id="06c5f-109">Ja aprēķinātās vērtības nav precīzs, varat tās pielāgot, ievadot faktiskās vērtības attiecībā uz kravas svaru un tilpumu.</span><span class="sxs-lookup"><span data-stu-id="06c5f-109">If the calculated values aren’t precise, you can adjust them by entering the actual values for the weight and volume on the load.</span></span> <span data-ttu-id="06c5f-110">Svara un tilpuma vērtības tiek izmantotas transportēšanas pārvaldības procesos.</span><span class="sxs-lookup"><span data-stu-id="06c5f-110">The values for the weight and volume are used in transportation management processes.</span></span> <span data-ttu-id="06c5f-111">Šis vērtības tiek izmantotas, piemēram, likmju un maršrutu rīkā, kur tās palīdz definēt kravu likmi un maršrutu, un tās tiek izmantotas arī transportēšanas norēķinos un transportlīdzekļu vadītāju reģistrēšanai norīkojuma izpildei.</span><span class="sxs-lookup"><span data-stu-id="06c5f-111">For example, the values are used in the rate route workbench, where they help define the rate and route for loads, and they are also used for transportation tenders and driver check-in.</span></span>
+<span data-ttu-id="95831-109">Ja aprēķinātās vērtības nav precīzs, varat tās pielāgot, ievadot faktiskās vērtības attiecībā uz kravas svaru un tilpumu.</span><span class="sxs-lookup"><span data-stu-id="95831-109">If the calculated values aren’t precise, you can adjust them by entering the actual values for the weight and volume on the load.</span></span> <span data-ttu-id="95831-110">Svara un tilpuma vērtības tiek izmantotas transportēšanas pārvaldības procesos.</span><span class="sxs-lookup"><span data-stu-id="95831-110">The values for the weight and volume are used in transportation management processes.</span></span> <span data-ttu-id="95831-111">Šis vērtības tiek izmantotas, piemēram, likmju un maršrutu rīkā, kur tās palīdz definēt kravu likmi un maršrutu, un tās tiek izmantotas arī transportēšanas norēķinos un transportlīdzekļu vadītāju reģistrēšanai norīkojuma izpildei.</span><span class="sxs-lookup"><span data-stu-id="95831-111">For example, the values are used in the rate route workbench, where they help define the rate and route for loads, and they are also used for transportation tenders and driver check-in.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="06c5f-112">Darbības tvērums</span><span class="sxs-lookup"><span data-stu-id="06c5f-112">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="95831-112">Darbības tvērums</span><span class="sxs-lookup"><span data-stu-id="95831-112">Where it applies</span></span>
 
-<span data-ttu-id="06c5f-113">Funkcionalitāte konteinera svara un tilpuma ietveršanai kravā attiecas uz transportēšanas pārvaldības procesiem, piemēram, uz likmju un maršrutu rīku, transportēšanas norēķiniem un transportlīdzekļu vadītāju reģistrēšanu norīkojuma izpildei.</span><span class="sxs-lookup"><span data-stu-id="06c5f-113">The functionality for including the container weight and volume on a load applies in transportation management processes, such as the rate route workbench, transportation tenders, and driver check-in.</span></span>
+<span data-ttu-id="95831-113">Funkcionalitāte konteinera svara un tilpuma ietveršanai kravā attiecas uz transportēšanas pārvaldības procesiem, piemēram, uz likmju un maršrutu rīku, transportēšanas norēķiniem un transportlīdzekļu vadītāju reģistrēšanu norīkojuma izpildei.</span><span class="sxs-lookup"><span data-stu-id="95831-113">The functionality for including the container weight and volume on a load applies in transportation management processes, such as the rate route workbench, transportation tenders, and driver check-in.</span></span>
 
-## <a name="how-it-is-set-up"></a><span data-ttu-id="06c5f-114">Kā to iestatīt</span><span class="sxs-lookup"><span data-stu-id="06c5f-114">How it is set up</span></span>
+## <a name="how-it-is-set-up"></a><span data-ttu-id="95831-114">Kā to iestatīt</span><span class="sxs-lookup"><span data-stu-id="95831-114">How it is set up</span></span>
 
-<span data-ttu-id="06c5f-115">Par kravu uzskatāmo konteineru skaits tiek aprēķināts, pamatojoties uz konteinera svaru un tilpumu, kā arī uz konteinera izmantojuma procentuālo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="06c5f-115">The number of containers that should be considered for a load is calculated based on the weight and volume of the container, and on the percentage of the container is used.</span></span>
+<span data-ttu-id="95831-115">Par kravu uzskatāmo konteineru skaits tiek aprēķināts, pamatojoties uz konteinera svaru un tilpumu, kā arī uz konteinera izmantojuma procentuālo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="95831-115">The number of containers that should be considered for a load is calculated based on the weight and volume of the container, and on the percentage of the container is used.</span></span>
 
--   <span data-ttu-id="06c5f-116">Lai konteineram iestatītu svaru un tilpumu, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru tipi**.</span><span class="sxs-lookup"><span data-stu-id="06c5f-116">To set the weight and volume for a container, click **Warehouse management** \> **Setup** \> **Containers** \> **Container types**.</span></span>
+-   <span data-ttu-id="95831-116">Lai konteineram iestatītu svaru un tilpumu, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru tipi**.</span><span class="sxs-lookup"><span data-stu-id="95831-116">To set the weight and volume for a container, click **Warehouse management** \> **Setup** \> **Containers** \> **Container types**.</span></span>
 
--   <span data-ttu-id="06c5f-117">Lai iestatītu konteinera izmantojuma procentuālo vērtību, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru grupas** un ievadiet vērtību laukā **Konteinera izmantojuma procentuālā vērtība**.</span><span class="sxs-lookup"><span data-stu-id="06c5f-117">To set the container utilization percentage, click **Warehouse management** \> **Setup** \> **Containers** \> **Container groups**, and then enter a value in the **Container utilization percentage** field.</span></span>
+-   <span data-ttu-id="95831-117">Lai iestatītu konteinera izmantojuma procentuālo vērtību, noklikšķiniet uz **Noliktavas vadība** \> **Iestatījumi** \> **Konteineri** \> **Konteineru grupas** un ievadiet vērtību laukā **Konteinera izmantojuma procentuālā vērtība**.</span><span class="sxs-lookup"><span data-stu-id="95831-117">To set the container utilization percentage, click **Warehouse management** \> **Setup** \> **Containers** \> **Container groups**, and then enter a value in the **Container utilization percentage** field.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
