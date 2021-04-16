@@ -2,7 +2,6 @@
 title: ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā
 description: Šajā tēmā ir aprakstīts, kā pārskatu formātus, kas tika veidoti, lai ģenerētu pārskatus kā Excel darbgrāmatas, var konfigurēt, lai ģenerētu pārskatus kā Word dokumentus.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 601896bad72b079759b1a07efba8717101e94362
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569315"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755062"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER konfigurāciju ar Excel veidnēm atkārtota izmantošana, lai veidotu pārskatus Word formātā
 
@@ -116,7 +115,7 @@ Ja pārzināt Word dokumentus, ko var noformēt kā veidlapas, kurās ir [satura
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Pārskatīt Word veidni, kur pielāgotā XML daļa ir kartēta uz satura vadīklām
 
 1. Finanšu dokumentu lapā **Pielikumi** atlasiet **Dzēst**, lai noņemtu Word veidni, kam nav kartējumu starp **Pārskata** pielāgotās XML daļas un satura kontroles elementiem. Atlasiet **Jā**, lai apstiprinātu izmaiņas.
-2. Atlasiet **Jauns**\>**Fails**, lai pievienotu jaunu veidnes failu, kas satur kartējumus starp **Pārskata** pielāgotās XML daļas elementiem un satura vadīklām.
+2. Atlasiet **Jauns** \> **Fails**, lai pievienotu jaunu veidnes failu, kas satur kartējumus starp **Pārskata** pielāgotās XML daļas elementiem un satura vadīklām.
 
     > [!NOTE]
     > Izmantojiet dokumenta veidu, kas [konfigurēts](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ER parametros, lai glabātu ER formāta veidnes.
@@ -143,7 +142,7 @@ Lai palaistu rediģējamā formāta melnraksta versiju, tā ir jāpadara [palai�
 1. Dodieties uz **Kreditori** \> **Maksājumi** \> **Maksājumu žurnāls**.
 2. Iepriekš ievadītajā maksājumu žurnālā atlasiet **Rindas**.
 3. Lapā **Kreditoru maksājumi** atlasiet visas režģa rindas.
-4. Atlasiet **Maksājuma statusu**\>**Nav**.
+4. Atlasiet **Maksājuma statusu** \> **Nav**.
 
     ![Maksājumi apstrāde lapā Kreditora maksājumi](../media/er-design-configuration-word-2016-11-image05.png)
 

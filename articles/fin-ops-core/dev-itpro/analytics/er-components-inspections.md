@@ -2,7 +2,6 @@
 title: Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 description: Šajā tēmā paskaidrots, kā pārbaudīt konfigurētos Elektronisko pārskatu (ER) komponentus, lai novērstu izpildlaika problēmas, kas varētu rasties.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574129"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753844"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Konfigurēto ER komponentu pārbaude, lai novērstu izpildlaika problēmas
 
@@ -631,7 +630,7 @@ Tādējādi nav validācijas brīdinājumu par formāta elementu **Statement\\Pa
 
 #### <a name="option-3"></a>3. opcija
 
-Ja vēlaties skaidri norādīt datus, kas tiek ievadīti ģenerētajā dokumentā, ja datu avots `model.Vendor` ar veidu **Ierakstu saraksts** nenosūta atpakaļ nevienu ierakstu (šajā piemērā teksts **Nav pieejams**), mainiet saistījumu formāta elementam **Statement\\Party\\Name** no `model.Vendor.Name` uz `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Var izmantot arī izteiksmi `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Ja vēlaties skaidri norādīt datus, kas tiek ievadīti ģenerētajā dokumentā, ja datu avots `model.Vendor` ar veidu **Ierakstu saraksts** nenosūta atpakaļ nevienu ierakstu (šajā piemērā teksts **Nav pieejams** ), mainiet saistījumu formāta elementam **Statement\\Party\\Name** no `model.Vendor.Name` uz `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Var izmantot arī izteiksmi `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Papildu apsvērums
 
@@ -666,19 +665,19 @@ Tālāk redzamajā attēlā parādīta izpildlaika kļūda, kas rodas, ja ignor�
 
 ![Izpildlaika kļūda, kas rodas, palaižot formāta kartēšanu lapā Formāta veidotājs](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Automātisks risinājums
+### <a name="automatic-resolution&quot;></a>Automātisks risinājums
 
 Nav pieejama opcija automātiski novērst šo problēmu.
 
-### <a name="manual-resolution"></a>Manuāls risinājums
+### <a name=&quot;manual-resolution&quot;></a>Manuāls risinājums
 
-#### <a name="option-1"></a>1. opcija
+#### <a name=&quot;option-1&quot;></a>1. opcija
 
 Noņemiet karodziņu **Kešatmiņa** no datu avota **Kreditors**. Tad datu avots **FilteredVendor** kļūs izpildāms, bet datu avotam **Kreditors**, uz kuru dota atsauce tabulā VendTable, tiks veikta piekļuve katru reizi, kad tiek izsaukts datu avots **FilteredVendor**.
 
-#### <a name="option-2"></a>2. opcija
+#### <a name=&quot;option-2&quot;></a>2. opcija
 
-Mainiet datu avota **FilteredVendor** izteiksmi no `FILTER(Vendor, Vendor.AccountNum="US-101")` uz `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šādā gadījumā datu avotam **Kreditors**, uz kuru dota atsauce tabulā VendTable, tiks veikta piekļuve tikai, pirmo reizi izsaucot datu avotu **Kreditors**. Tomēr ierakstu atlase tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
+Mainiet datu avota **FilteredVendor** izteiksmi no `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` uz `WHERE(Vendor, Vendor.AccountNum="US-101")`. Šādā gadījumā datu avotam **Kreditors**, uz kuru dota atsauce tabulā VendTable, tiks veikta piekļuve tikai, pirmo reizi izsaucot datu avotu **Kreditors**. Tomēr ierakstu atlase tiks veikta atmiņā. Tāpēc šī pieeja var izraisīt sliktu veiktspēju.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Trūkst saistījuma
 

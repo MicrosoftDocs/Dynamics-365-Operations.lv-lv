@@ -2,8 +2,7 @@
 title: ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
 description: Šajā tēmā aprakstīts, kā izveidot elektronisko pārskatu konfigurācijas datu importēšanai programmā Microsoft Dynamics 365 Finance no ārējā faila.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564294"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751466"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Izveidot nepieciešamās konfigurācijas, lai importētu datus no ārēja faila
 
 [!include [banner](../../includes/banner.md)]
 
-Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu" aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Ir nepieciešams arī lejupielādēt un lokāli saglabāt failus, kuri norādīti tālāk tēmā Elektronisko atskaišu veidošanas pārskats (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Tālāk sniegtajā darbību aprakstā ir paskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektroniskā pārskata izstrādātājs var izstrādāt elektronisko pārskatu izveides (Electronic reporting — ER) konfigurācijas, lai importētu datus lietojumprogrammā no ārēja faila. Šajā piemērā jūs izveidosiet nepieciešamās ER konfigurācijas konfigurācijas parauga uzņēmumam Litware, Inc. Lai izpildītu šīs darbības, vispirms ir jāizpilda uzdevuma ceļvedī "ER Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu" aprakstītās darbības. Šīs darbības var veikt, izmantojot USMF datu kopu. Nepieciešams arī lejupielādēt un saglabāt tālāk norādītos failus lokāli: 
+
+| Satura apraksts                       | Faila nosaukums                                     |
+|-------------------------------------------|-----------------------------------------------|
+| ER datu modeļa konfigurācija - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| ER formāta konfigurācija - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Ienākošā dokumenta XML formātā paraugs                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Darbgrāmatas piemērs ienākoša dokumenta datu pārvaldīšanai                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 ER biznesa lietotājiem sniedz iespēju konfigurēt procesu, kādā ārējo datu faili tabulās tiek importēti formātā .XML vai formātā .TXT. Vispirms ir jāizveido abstrakts datu modelis un ER datu modeļa konfigurācija, kas pārstāv importējamos datus. Pēc tam ir jādefinē importējamā faila struktūra un metode, ko izmantosiet, lai datus no faila pārnestu uz abstrakto datu modeli. Abstraktajam datu modelim ir jāizveido ER formāta konfigurācija, kas kartē uz izveidoto datu modeli. Pēc tam datu modeļa konfigurācija ir jāpaplašina ar kartējumu, kas apraksta veidu, kādā importētie dati tiek saglabāti kā abstrakta datu modeļa dati un kā tie tiek lietoti, lai atjauninātu tabulas .  ER datu modeļa konfigurācijai ir jāpievieno jauns modeļa kartējums, kas apraksta datu modeļa saistījumu ar programmas galamērķiem.  
 
@@ -235,7 +241,7 @@ Testēšanas nolūkos izpildiet šo formāta kartēšanu. Lietojiet iepriekš le
 19. Aizvērt lapu.
 20. Noklikšķiniet uz Rediģēt.
 
-    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās Dynamics 365 Finance versijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
+    Ja ir instalēts labojumfails “KB 4012871 GER modeļu kartējumu atbalsts atdalītās konfigurācijās ar iespēju norādīt atšķirīgus priekšnosacījumu veidus to izvietošanai dažādās Dynamics 365 Financeversijās” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), izpildiet nākamo darbību “Karodziņa Noklusējums modeļu kartēšanai ieslēgšana” ar ievadīto formāta konfigurāciju. Pretējā gadījumā izlaidiet nākamo darbību.  
 
 21. Modeļu kartējuma laukā Noklusējums atlasiet vērtību Jā.
 22. Koka struktūrā atlasiet zaru “1099 Maksājumu modelis”.

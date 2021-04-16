@@ -2,7 +2,6 @@
 title: Datu importēšanas no SharePoint konfigurēšana
 description: Šajā tēmā ir paskaidrots, kā importēt datus no Microsoft SharePoint.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 5cf136f40a1f787b2388d648c475d4fdf1a0f9ca
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562314"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753796"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Datu importēšanas no SharePoint konfigurēšana
 
@@ -60,9 +59,9 @@ Noskatieties uzdevumu ceļvežus **ER: datu importēšana no Microsoft Excel fai
 > Formāts kreditoru transakciju importēšanai ir atlasīts kā noklusējuma modeļa kartēšana. Tādēļ, ja palaižat modeļa kartēšanu **1099 maksājumu modelis** un šī modeļa kartēšana ir ar tipu **Uz galamērķi**, modeļa kartēšana palaiž šo formātu, lai importēt datus no ārējiem failiem. Pēc tam tā izmanto šos datus, lai atjauninātu programmas tabulas.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>SharePoint piekļuves konfigurēšana failu glabāšanai
-Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē piekļuve SharePoint Server instancei, ko izmantos pašreizējais uzņēmums. Šajā piemērā šis uzņēmums ir USMF. Norādījumus skatiet rakstā [SharePoint krātuves konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē piekļuve SharePoint Server instancei, ko izmantos pašreizējais uzņēmums. Šajā piemērā šis uzņēmums ir USMF. Norādījumus skatiet rakstā [Krātuves SharePoint konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Veiciet rakstā [SharePoint krātuves konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) norādītās darbības.
+1. Veiciet rakstā [Krātuves SharePoint konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage) norādītās darbības.
 2. Atveriet konfigurēto SharePoint vietni.
 3. Izveidojiet šādas mapes ienākošo elektronisko pārskatu failu glabāšanai:
 
@@ -80,7 +79,7 @@ Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē p
 4. Dodieties uz **Organizācijas administrēšana > Dokumentu pārvaldība > Dokumentu veidi**.
 5. Izveidojiet tālāk norādīto tipu dokumentus, kas tiks izmantoti, lai piekļūtu izveidotajām SharePoint mapēm. Norādījumus skatiet sadaļā [Dokumentu tipu konfigurēšana](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
-|Dokumenta tips        | Grupa              | Vieta      | SharePoint mape      |
+|Dokumenta tips       | Grupa              | Vieta      | SharePoint mape      |
 |--------------------|--------------------|---------------|------------------------|
 |SP galvenais             |Fails                |SharePoint     |Failu importēšanas avots (galvenais)|
 |SP alternatīvais             |Fails                |SharePoint     |Failu importēšanas avots (alternatīvais)|
@@ -100,7 +99,7 @@ Lai glabātu elektronisko pārskatu failus SharePoint vietā, ir jākonfigurē p
     [![ER failu avota iestatījums](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
-> - ER *avots* tiek definēts katram programmas uzņēmumam atsevišķi. Savukārt ER *konfigurācijas* tiek koplietotas dažādos uzņēmumos.
+> - ER *avots* tiek definēts katram programmas uzņēmumam atsevišķi. Savukārt ER *konfigurācijas* tiek koplietotas dažādos uzņēmumos.
 > - Kad dzēšat ER avota iestatījumu kādam ER formātam, pēc apstiprināšanas tiek dzēsti arī visi pievienotie failu stāvokļi (skatiet tālāk).
 
 ## <a name="review-the-files-states-for-the-er-format"></a>Failu stāvokļu pārskatīšana ER formātam
@@ -119,11 +118,11 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
 2. Lapā **Failu stāvokļi avotiem** atlasiet **Atsvaidzināt**, lai šo lapu atsvaidzinātu. Pakalpojumā SharePoint augšupielādētajam Excel failam šajā lapā tiek rādīts statuss **Gatavs**. Pašlaik tiek atbalstīti tālāk norādītie statusi.
 
-    - **Gatavs** — tiek automātiski piešķirts katram jaunajam failam SharePoint mapē. Šis statuss nozīmē, ka fails ir gatavs importēšanai.
-    - **Importēšana** — ER pārskats to piešķir automātiski, kad importēšanas process šo failu bloķē, lai novērstu iespēju to izmantot ar citiem procesiem (ja daudzi no tiem darbojas vienlaikus).
-    - **Importēts** — ER pārskats to piešķir automātiski, kad faila importēšana ir sekmīgi pabeigta. Šis statuss nozīmē, ka importētais fails ir izdzēsts no konfigurētā failu avota (SharePoint mapes).
-    - **Nesekmīgi** — ER pārskats to piešķir automātiski, kad faila importēšana ir pabeigta ar kļūdām vai izņēmumiem.
-    - **Aizturēts** — to manuāli piešķir šīs lapas lietotājs. Šis statuss nozīmē, ka fails pagaidām netiks importēts. Šo statusu var izmantot, lai atliktu dažu failu importēšanu.
+    - **Gatavs** — tiek automātiski piešķirts katram jaunajam failam SharePoint mapē. Šis statuss nozīmē, ka fails ir gatavs importēšanai.
+    - **Importēšana** — ER pārskats to piešķir automātiski, kad importēšanas process šo failu bloķē, lai novērstu iespēju to izmantot ar citiem procesiem (ja daudzi no tiem darbojas vienlaikus).
+    - **Importēts** — ER pārskats to piešķir automātiski, kad faila importēšana ir sekmīgi pabeigta. Šis statuss nozīmē, ka importētais fails ir izdzēsts no konfigurētā failu avota (SharePoint mapes).
+    - **Nesekmīgi** — ER pārskats to piešķir automātiski, kad faila importēšana ir pabeigta ar kļūdām vai izņēmumiem.
+    - **Aizturēts** — to manuāli piešķir šīs lapas lietotājs. Šis statuss nozīmē, ka fails pagaidām netiks importēts. Šo statusu var izmantot, lai atliktu dažu failu importēšanu.
 
     [![Atjaunināta ER failu stāvokļu lapa atlasītajiem avotiem](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
@@ -163,7 +162,7 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 ## <a name="prepare-an-excel-file-for-import"></a>Excel faila sagatavošana importēšanai
 1. Atveriet Excel failu, ko izmantojāt iepriekš. 3. rindas 1. kolonnā pievienojiet kreditora kodu, kas nepastāv programmā. Pievienojiet šai rindai papildu aplamu kreditora informāciju.
 
-    [![Microsoft Excel faila paraugs importēšanai no SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Pakalpojuma Microsoft Excel faila paraugs importēšanai no SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Augšupielādējiet atjaunināto Excel failu, kurā ir ietvertas kreditoru transakcijas, SharePoint mapē **Failu importēšanas avots (galvenais)**.
 3. Atveriet ER konfigurāciju koku, atlasiet **1099 maksājumu modelis** un izvēstiet ER modeļa komponentu sarakstu.
@@ -185,7 +184,7 @@ Varat arī atvērt lapu **Failu stāvokļi avotiem**, atlasot **Organizācijas a
 
     [![ER failu stāvokļu lapa atlasītajiem avotiem](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
-   Sadaļā **Avotu žurnāls importēšanas formātam** ir norādīts, ka importēšanas process bija nesekmīgs un fails atrodas SharePoint mapē Kļūdainie faili (nav atzīmēta izvēles rūtiņa **Ir dzēsts**). Ja labojat šo failu pakalpojumā SharePoint, pievienojot pareizo kreditora kodu, un pēc tam pārvietojat to uz SharePoint mapi Failu importēšanas avots (galvenais), varat vēlreiz importēt failu.
+   Sadaļā **Avotu žurnāls importēšanas formātam** ir norādīts, ka importēšanas process bija nesekmīgs un fails atrodas SharePoint mapē Kļūdainie faili (nav atzīmēta izvēles rūtiņa **Ir dzēsts** ). Ja labojat šo failu pakalpojumā SharePoint, pievienojot pareizo kreditora kodu, un pēc tam pārvietojat to uz SharePoint mapi Failu importēšanas avots (galvenais), varat vēlreiz importēt failu.
 
 11. Atlasiet **Kreditori** \> **Periodiskie uzdevumi** \> **Nodoklis 1099** \> **Kreditora nodokļa 1099 nosegšana**, ievadiet atbilstošās vērtības laukā **No datuma** un **Līdz datumam** un pēc tam atlasiet **Manuālas 1099 transakcijas**.
 

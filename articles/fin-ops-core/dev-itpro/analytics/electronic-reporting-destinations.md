@@ -2,7 +2,6 @@
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
-manager: tfehr
 ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569723"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751320"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -43,7 +42,7 @@ Versijā Microsoft Dynamics AX 7.0 (2016. gada februāris) ER galamērķu funk
 
 Ja vēlaties, varat instalēt vienu no tālāk norādītajiem priekšnosacījumiem. Taču ņemiet vērā, ka šīs alternatīvas sniedz ierobežotāku ER galamērķa funkcionalitāti.
 
-- Lietojumprogrammas Microsoft Dynamics AX versija 7.0.1 (2016. gada maijs)
+- Lietojumprogrammas Microsoft Dynamics AX versija 7.0.1 (2016. gada maijs)
 - [Elektroniskās ziņošanas galamērķa pārvaldības programmas labojumfails](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Iekļauts arī [Drukāšanas](er-destination-type-print.md) adresāta tips. Lai to izmantotu, instalējiet Microsoft Dynamics 365 Finance versiju 10.0.9 ( 2020. gada aprīlis).
@@ -67,8 +66,8 @@ Iestatot opciju **Partijas apstrāde** uz **Jā**, ER formāts tiek palaists [pa
 
 Informāciju par šo darbu varat atrast vairākās vietās:
 
-- Dodieties uz **Kopīgi**\> **Vaicājumi**\> **Pakešuzdevumi**\> **Mani pakešuzdevumi**, lai pārbaudītu ieplānotā darba statusu.
-- Dodieties uz **Uzņēmuma administrēšana**\> **Elektronisko pārskatu izveide**\> **Elektronisko pārskatu izveides darbi**, lai pārbaudītu plānotā darba statusu un pabeigtā darba izpildes rezultātus. Kad darba izpilde ir sekmīgi pabeigta, atlasiet **Rādīt failus** lapā **Elektronisko pārskatu izveides darbi**, lai iegūtu izveidoto izejošo dokumentu.
+- Dodieties uz **Kopīgi** \> **Vaicājumi** \> **Pakešuzdevumi** \> **Mani pakešuzdevumi**, lai pārbaudītu ieplānotā darba statusu.
+- Dodieties uz **Uzņēmuma administrēšana** \> **Elektronisko pārskatu izveide** \> **Elektronisko pārskatu izveides darbi**, lai pārbaudītu plānotā darba statusu un pabeigtā darba izpildes rezultātus. Kad darba izpilde ir sekmīgi pabeigta, atlasiet **Rādīt failus** lapā **Elektronisko pārskatu izveides darbi**, lai iegūtu izveidoto izejošo dokumentu.
 
     > [!NOTE]
     > Šis dokuments tiek saglabāts kā pašreizējā darba ieraksta pielikums un to kontrolē [Dokumentu pārvaldības](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) struktūra. [Dokumenta veids](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), kas tiek izmantots, lai uzglabātu šī veida ER artefaktus, ir konfigurēts [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
@@ -203,7 +202,7 @@ Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF 
 
 ## <a name="security-considerations"></a>Drošības apsvērumi
 
-ER galamērķiem tiek izmantoti divu tipu privilēģijas un pienākumi. Viens tips kontrolē lietotāja vispārējo spēju uzturēt galamērķus, kas ir konfigurēti kādai juridiskajai personai (t.i., tas kontrolē piekļuvi lapai **Elektronisko pārskatu veidošanas adresāti**). Otrs tips kontrolē programmas lietotāja spēju izpildes laikā ignorēt galamērķu iestatījumus, ko konfigurēja ER izstrādātājs vai ER funkcionālais konsultants.
+ER galamērķiem tiek izmantoti divu tipu privilēģijas un pienākumi. Viens tips kontrolē lietotāja vispārējo spēju uzturēt galamērķus, kas ir konfigurēti kādai juridiskajai personai (t.i., tas kontrolē piekļuvi lapai **Elektronisko pārskatu veidošanas adresāti** ). Otrs tips kontrolē programmas lietotāja spēju izpildes laikā ignorēt galamērķu iestatījumus, ko konfigurēja ER izstrādātājs vai ER funkcionālais konsultants.
 
 | Loma (AOT nosaukums)                     | Lomas nosaukums                                  | Pienākums (AOT nosaukums)                     | Pienākuma nosaukums                                                        |
 |-------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------------------|

@@ -2,7 +2,6 @@
 title: Skatīt un izveidot finanšu pārskatus
 description: Šajā rakstā ir sniegti vingrinājumi, kas palīdz saprast finanšu pārskatu skatīšanu un izveidi programmā Microsoft Dynamics 365 Finance.
 author: jcart1106
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97ecc4daa05f4cbc10266d00366bf69e063af2ff
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564870"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749708"
 ---
 # <a name="view-and-design-financial-reports"></a>Skatīt un izveidot finanšu pārskatus
 
@@ -195,7 +194,7 @@ ms.locfileid: "5564870"
 
 [Skatīt finanšu pārskatus](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics 365 Finance emuārs](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+[Dynamics 365 Finance emuārs](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

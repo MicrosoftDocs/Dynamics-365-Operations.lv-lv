@@ -2,7 +2,6 @@
 title: Migrēt potenciālo klientu uz kases datiem no datu integrētāja uz duālo rakstīšanas metodi
 description: Šajā tēmā aprakstīts, kā migrēt potenciālo klientu uz skaidras naudas datiem no datu integrētāja uz duālo rakstīšanas metodi.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: 93614e43b108671de686458887c1d6dd6fe04f7a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f6758fe366c2ea59dc75be2f1070650eb5c2f9fc
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570568"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750864"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrēt potenciālo klientu uz kases datiem no datu integrētāja uz duālo rakstīšanas metodi
 
@@ -82,7 +81,7 @@ Tā kā dati no tabulas **Rēķini** ir paredzēti vienvirziena plūsmai no prog
 2. Kopējiet kolonnas **Pasūtījuma ID** vērtību CSV failā uz kolonnu **Pārdošanas pasūtījuma numura**.
 3. Kopējiet kolonnas **Pasūtījuma ID** vērtību CSV failā uz kolonnu **Rēķina debitora numurs**.
 4. Kopējiet CSV faila kolonnas **Nosūtīt uz valsti/reģionu** vērtību uz kolonnu **Nosūtīt uz valsti/reģionu**. Šādas vērtības piemēri ietver **ASV** un **Savienotie Štati**.
-5. Iestatiet **Pieprasīto saņemšanas datuma** kolonnu. Ja neizmantojat saņemšanas datumu, CSV failā izmantojiet **Pieprasītā piegādes datuma**, **Izpildes datuma** un  **Datuma iesniegšanas** kolonnas. Šīs vērtības piemērs ir **2020-03-27T00:00:00Z**.
+5. Iestatiet **Pieprasīto saņemšanas datuma** kolonnu. Ja neizmantojat saņemšanas datumu, CSV failā izmantojiet **Pieprasītā piegādes datuma**, **Izpildes datuma** un **Datuma iesniegšanas** kolonnas. Šīs vērtības piemērs ir **2020-03-27T00:00:00Z**.
 6. Iestatiet kolonnu **Valoda**. Šīs vērtības piemērs ir **en-us**.
 7. Iestatiet kolonnu **Pasūtījuma tips**, izmantojot kolonnu **Balstīts uz krājumu**.
 

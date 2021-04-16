@@ -2,7 +2,6 @@
 title: Konfigurēt no darbības atkarīgus ER adresātus
 description: Šajā tēmā ir paskaidrots, kā konfigurēt no darbībām atkarīgus galamērķus elektroniskās ziņošanas (ER) formātā, kas ir konfigurēts izejošo dokumentu ģenerēšanai.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 80624e286fd1300b8de6fd8a7fc67c246cb3a41b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569639"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751236"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Konfigurēt no darbības atkarīgus ER adresātus
 
@@ -33,7 +32,7 @@ Microsoft Dynamics 365 Finance **10.0.17 un jaunākā versijā** ER formātu var
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Konfigurēt no darbības atkarīgus ER adresātus
 
-Lai esosajā Finance Instance konfigurētu no darbības atkarīgus ER adresātus un iespējotu [jaunu](er-apis-app10-0-17.md)  ER API, atveriet [Līdzekļu pārvaldības](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) darbvietu un iespējojiet funkciju **Konfigurēt noteiktus ER adresātus, kas jāizmanto dažādām PM darbībām**. Lai izpildlaikā [noteiktiem](#reports-list-wave1) pārskatiem izmantotu konfigurētus ER adresātus, iespējojiet funkciju **Maršruta izvades PM pārskati, pamatojoties uz ER adresātiem, kas ir raksturīgi lietotāja darbībai (1. kopums)**.
+Lai esosajā Finance Instance konfigurētu no darbības atkarīgus ER adresātus un iespējotu [jaunu](er-apis-app10-0-17.md) ER API, atveriet [Līdzekļu pārvaldības](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) darbvietu un iespējojiet funkciju **Konfigurēt noteiktus ER adresātus, kas jāizmanto dažādām PM darbībām**. Lai izpildlaikā [noteiktiem](#reports-list-wave1) pārskatiem izmantotu konfigurētus ER adresātus, iespējojiet funkciju **Maršruta izvades PM pārskati, pamatojoties uz ER adresātiem, kas ir raksturīgi lietotāja darbībai (1. kopums)**.
 
 ## <a name="configure-action-dependent-er-destinations"></a>Konfigurēt no darbības atkarīgus ER adresātus
 

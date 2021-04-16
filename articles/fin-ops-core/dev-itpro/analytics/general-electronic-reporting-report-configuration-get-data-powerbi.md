@@ -2,7 +2,6 @@
 title: Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
 description: Šajā tēmā ir paskaidrots, kā varat lietot elektronisko pārskatu izveides (Electronic Reporting — ER) konfigurāciju, lai nodrošinātu datu pārsūtīšanu no savas instances uz Power BI pakalpojumiem.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568705"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750086"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronisko pārskatu izveides (ER) konfigurēšana, lai pārsūtītu datus uz pakalpojumu Power BI
 
@@ -99,7 +98,7 @@ Lai modificētu formāta konfigurāciju **Importēšanas/eksportēšanas aktivit
 
     [![Saistīšanas pabeigšana](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
 
-Pēc tā palaišanas ER formāts ģenerē izvades rezultātu Excel formātā. Informāciju par Intrastat transakcijām tas nosūta uz izvades rezultātu, un tās atdala kā transakcijas, kuras apraksta importēšanas aktivitātes vai eksportēšanas aktivitātes. Noklikšķiniet uz **Palaist**, lai testētu jauno ER formātu ar Intrastat transakciju sarakstu, kas ir norādīts lapā **Intrastat** (**Nodokļi** &gt; **Deklarācijas** &gt; **Ārējā tirdzniecība** &gt; **Intrastat**).
+Pēc tā palaišanas ER formāts ģenerē izvades rezultātu Excel formātā. Informāciju par Intrastat transakcijām tas nosūta uz izvades rezultātu, un tās atdala kā transakcijas, kuras apraksta importēšanas aktivitātes vai eksportēšanas aktivitātes. Noklikšķiniet uz **Palaist**, lai testētu jauno ER formātu ar Intrastat transakciju sarakstu, kas ir norādīts lapā **Intrastat** (**Nodokļi** &gt; **Deklarācijas** &gt; **Ārējā tirdzniecība** &gt; **Intrastat**).
 
 [![Lapa Intrastat](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
 
@@ -113,7 +112,7 @@ Ir nepieciešams konfigurēt ER struktūru, lai jaunā ER formāta konfigurācij
 - Izvades rezultāts ir jānosūta uz atlasītā SharePoint Server servera mapi.
 - Katrai formātā konfigurācijas izpildei ir jāizveido tā paša Excel faila jauna versija.
 
-Lapā **Elektroniskie pārskati** (**Organizācijas administrēšana** &gt; **Elektroniskie pārskati**) noklikšķiniet uz vienuma **Elektroniskās pārskatu veidošanas adresāts** un pievienojiet jaunu adresātu. Laukā **Atsauce** atlasiet iepriekš izveidoto formāta konfigurāciju **Importēšanas/eksportēšanas aktivitātes**. Izpildiet tālāk aprakstītās darbības, lai atsaucei pievienotu jaunu faila adresāta ierakstu.
+Lapā **Elektroniskie pārskati** (**Organizācijas administrēšana** &gt; **Elektroniskie pārskati**) noklikšķiniet uz vienuma **Elektroniskās pārskatu veidošanas adresāts** un pievienojiet jaunu adresātu. Laukā **Atsauce** atlasiet iepriekš izveidoto formāta konfigurāciju **Importēšanas/eksportēšanas aktivitātes**. Izpildiet tālāk aprakstītās darbības, lai atsaucei pievienotu jaunu faila adresāta ierakstu.
 
 1. Laukā **Nosaukums** ievadiet faila adresāta nosaukumu.
 2. Laukā **Faila nosaukums** atlasiet nosaukumu **Excel izvades fails** Excel faila formāta komponentam.
@@ -124,7 +123,7 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 2. Laukā **SharePoint** atlasiet iepriekš izveidoto dokumenta tipu **Kopīgots**.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>Plānot konfigurētā ER formāta izpildi
-1. Lapā **Konfigurācijas** (**Organizācijas administrēšana** &gt; **Elektroniskie pārskati** &gt; **Konfigurācijas**) esošajā konfigurācijas kokā atlasiet iepriekš izveidoto konfigurāciju **Importēšanas/eksportēšanas aktivitātes**.
+1. Lapā **Konfigurācijas** (**Organizācijas administrēšana** &gt; **Elektroniskie pārskati** &gt; **Konfigurācijas**) esošajā konfigurācijas kokā atlasiet iepriekš izveidoto konfigurāciju **Importēšanas/eksportēšanas aktivitātes**.
 2. Lai šo formātu padarītu pieejamu lietošanai, versijas 1.1 statusu no **Melnraksts** mainiet uz **Pabeigts**.
 
     [![Lapa Konfigurācijas](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
@@ -135,7 +134,7 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 
     [![Dialoglodziņš Elektronisko pārskatu parametri](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
-6. Kad tas ir konfigurēts, ER pārskata izpildes darbs ir atrodams lapā **Pakešuzdevumi** (**Sistēmas administrēšana &gt; Pieprasījumi &gt; Pakešuzdevumi**).
+6. Kad tas ir konfigurēts, ER pārskata izpildes darbs ir atrodams lapā **Pakešuzdevumi** (**Sistēmas administrēšana &gt; Pieprasījumi &gt; Pakešuzdevumi**).
 
     [![Lapa Pakešuzdevumi](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
@@ -148,7 +147,7 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
 
     [![Datu kopas izveidošana](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. Atlasiet **SharePoint — darba grupas vietnes** un pēc tam ievadiet izmantotā SharePoint Server servera ceļu (mūsu piemērā tas ir `https://ax7partner.litware.com`).
+2. Atlasiet **SharePoint — darba grupas vietnes** un pēc tam ievadiet izmantotā SharePoint Server servera ceļu (mūsu piemērā tas ir`https://ax7partner.litware.com` ).
 3. Pārlūkojiet līdz mapei **/Koplietotie dokumenti/GER dati/PowerBI** un atlasiet izveidoto Excel failu kā jaunās Power BI datu kopas datu avotu.
 
     [![Excel faila atlasīšana](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
@@ -182,9 +181,9 @@ Noklikšķiniet uz pogas **Iestatījumi** jaunajam adresāta ierakstam. Pēc tam
     [![Atjaunināta karte](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Piekļuve Power BI pārskatam programmā Finance
-Iestatiet integrāciju ar Power BI. Papildinformāciju skatiet rakstā [Power BI integrācijas konfigurēšana darbvietām](configure-power-bi-integration.md).
+Iestatiet integrāciju ar Power BI. Papildinformāciju skatiet rakstā [Pakalpojuma Power BI integrācijas konfigurēšana darbvietām](configure-power-bi-integration.md).
 
-1. Darbvietas **Elektronisko pārskatu izveide** lapā, kas atbalsta Power BI integrāciju (**Organizācijas administrēšana** &gt; **Darbvietas** &gt; **Elektronisko pārskatu izveides darbvieta**), noklikšķiniet uz **Opcijas** &gt; **Atvērt pārskatu katalogu**.
+1. Darbvietas **Elektronisko pārskatu izveide** lapā, kas atbalsta Power BI integrāciju (**Organizācijas administrēšana** &gt; **Darbvietas** &gt; **Elektronisko pārskatu izveides darbvieta**), noklikšķiniet uz **Opcijas** &gt; **Atvērt pārskatu katalogu**.
 2. Atlasiet jūsu izveidoto Power BI pārskatu **Importēšanas un eksportēšanas informācija**, lai šis pārskats tiktu parādīts kā darbības vienums atlasītajā lapā.
 3. Noklikšķiniet uz darbības vienuma, lai atvērtu lapu, kurā ir redzams pārskats, ko noformējāt pakalpojumā Power BI.
 

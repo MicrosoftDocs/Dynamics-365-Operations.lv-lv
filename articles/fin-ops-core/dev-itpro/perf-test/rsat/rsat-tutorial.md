@@ -2,7 +2,6 @@
 title: Regression Suite Automation Tool apmācība
 description: Šajā tēmā ir parādīts, kā izmantot Regression Suite Automation Tool (RSAT). Tajā ir aprakstīti dažādi līdzekļi un sniegti piemēri, kuros izmantota papildu skriptēšana.
 author: robinarh
-manager: AnnBe
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: b8866d43ea8b6b6bea34c01cbcbc9e3575081c4c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5a9f19168093f24a7f152b2b5b23b3728ca80222
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568384"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745169"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool apmācība
 

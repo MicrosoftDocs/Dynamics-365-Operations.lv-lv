@@ -2,7 +2,6 @@
 title: Līdzekļu pārvaldības pārskats
 description: Šajā tēmā ir aprakstīts līdzeklis Līdzekļu pārvaldība un tā lietošanas iespējas.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6226fc69048b724a96f3de516c26829fdf50e7a2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570925"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754804"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -35,20 +34,20 @@ Varat atvērt darbvietu **Līdzekļu pārvaldība** darbvietu, atlasot attiecīg
 
 Līdzekļu sarakstā ir tālāk norādītā informācija:
 
-- **Līdzekļa nosaukums** — pievienotā līdzekļa apraksts.
-- **Iespējošanas statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
-- **Iespējošanas datums** — datums, kad līdzeklis tika ieslēgts vai kad to ir plānots ieslēgt.
-- **Līdzeklis pievienots** — datums, kad līdzeklis tika pievienots jūsu videi. Šis datums tiek ievadīts automātiski, kad mēneša laidiena cikla laikā tiek atjaunināta jūsu vide.
-- **Modulis** — modulis, ko ietekmē jaunais līdzeklis.
+- **Līdzekļa nosaukums** — pievienotā līdzekļa apraksts.
+- **Iespējošanas statuss** — simbols norāda, vai līdzeklis ir ieslēgts (atzīme), nav ieslēgts (tukšs), tiek plānota tā ieslēgšana (pulkstenis) vai arī ir ieslēgts obligāti (piekaramā atslēga); ir jāpievērš uzmanība, pirms to ieslēdzat (brīdinājums), vai to nevar iespējot (X). Redzamais iestatījums tiek izmantots visām juridiskajām personām. Ņemiet vērā, ka pat tad, ja līdzeklis ir ieslēgts, to joprojām kontrolē drošība. Tāpēc šis līdzeklis būs pieejams tikai tiem lietotājiem, kuriem ir piekļuve tam, pamatojoties uz lietotāja drošības lomu. Tas būs pieejams arī tikai juridiskajās personās, kurām lietotājam ir piekļuve.
+- **Iespējošanas datums** — datums, kad līdzeklis tika ieslēgts vai kad to ir plānots ieslēgt.
+- **Līdzeklis pievienots** — datums, kad līdzeklis tika pievienots jūsu videi. Šis datums tiek ievadīts automātiski, kad mēneša laidiena cikla laikā tiek atjaunināta jūsu vide.
+- **Modulis** — modulis, ko ietekmē jaunais līdzeklis.
 
 Kad atlasāt līdzekli, detalizētas informācijas rūtī pa labi no līdzekļu saraksta tiek parādīta papildinformācija. Rūts augšā redzēsit līdzekļa nosaukumu, pievienošanas datumu, moduli, ko ietekmē šis līdzeklis, un saiti **Papildinformācija**. Atlasiet šo saiti, lai skatītu līdzekļa dokumentāciju. Ja dokumentācija nav pieejama, jūs tiekat novirzīts uz pagaidu lapu. Detalizētas informācijas rūtī ir ietverts arī lauks **Komentāri**, kur varat pievienot savus komentārus par šo līdzekli.
 
 Arī darbvietā **Līdzekļu pārvaldība** ir vairākas cilnes, un katrā no tām tiek rādīts līdzekļu saraksts.
 
-- **Jauns** — šajā cilnē tiek rādīti visi līdzekļi, kas ir pievienoti kopš pēdējās ikmēneša atjaunināšanas. Ja esat izlaidis kādu ikmēneša atjauninājumu, šajā cilnē tiek rādīti visi jaunie līdzekļi, kas ir pievienoti kopš pēdējās reizes, kad veicāt atjaunināšanu. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
-- **Nav iespējots** — šajā cilnē tiek rādīti visi līdzekļi, kas nav ieslēgti. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno, neieslēgto līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
-- **Ieplānots** — šajā cilnē tiek rādīti visi līdzekļi, kurus ir plānots ieslēgt nākotnē. Saraksta augšā tiek rādīti līdzekļi, kuru plānotais datums ir visdrīzāk. Kopējais plānoto jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
-- **Visi** — šajā cilnē tiek rādīti visi līdzekļi. Jaunākie līdzekļi tiek parādīti saraksta sākumā.
+- **Jauns** — šajā cilnē tiek rādīti visi līdzekļi, kas ir pievienoti kopš pēdējās ikmēneša atjaunināšanas. Ja esat izlaidis kādu ikmēneša atjauninājumu, šajā cilnē tiek rādīti visi jaunie līdzekļi, kas ir pievienoti kopš pēdējās reizes, kad veicāt atjaunināšanu. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
+- **Nav iespējots** — šajā cilnē tiek rādīti visi līdzekļi, kas nav ieslēgti. Jaunākie līdzekļi tiek parādīti saraksta sākumā. Kopējais jauno, neieslēgto līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
+- **Ieplānots** — šajā cilnē tiek rādīti visi līdzekļi, kurus ir plānots ieslēgt nākotnē. Saraksta augšā tiek rādīti līdzekļi, kuru plānotais datums ir visdrīzāk. Kopējais plānoto jauno līdzekļu skaits tiek rādīts arī lapas augšā esošajā elementā.
+- **Visi** — šajā cilnē tiek rādīti visi līdzekļi. Jaunākie līdzekļi tiek parādīti saraksta sākumā.
 
 ## <a name="turn-on-a-feature"></a>Līdzekļa ieslēgšana
 
@@ -179,7 +178,7 @@ Funkciju lidojumi ir reāllaika ieslēgšanas/izslēgšanas slēdži, ko kontrol
 Jā, ja līdzeklis ietekmē tādas vides darbību, kurai nav funkcionālas ietekmes, tad to var iespējot pēc noklusējuma.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kā var pārbaudīt līdzekļa iespējošanu kodā?
-Lietojiet metodi **isFeatureEnabled**, kas atrodas klasē **FeatureStateProvider**, padodot tai līdzekļu klases instanci. Piemērs: 
+Lietojiet metodi **isFeatureEnabled**, kas atrodas klasē **FeatureStateProvider**, padodot tai līdzekļu klases instanci. Piemērs:
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
@@ -189,7 +188,7 @@ if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::ins
 **FeatureClass** rekvizītu var izmantot, lai norādītu, ka daži metadati ir saistīti ar līdzekli. Jāizmanto līdzeklim izmantotais klases nosaukums, piemēram, **BatchContentionPreventionFeature**. Šie metadati ir redzami tikai šajā līdzeklī. **Rekvizīts FeatureClass** ir pieejams izvēlnēs, izvēlnes elementos, uzskaitījuma vērtībās un tabulas/skata laukos.
 
 ### <a name="what-is-a-feature-class"></a>Kas ir līdzekļu klase?
-Līdzekļu pārvaldības līdzekļi ir definēti kā *līdzekļu klases*. Līdzekļu klases **ievieš IFeatureMetadata** un izmanto līdzekļu klases atribūtu, lai identificētu sevi līdzekļu pārvaldības darbvietā. Ir pieejami daudzi līdzekļu klašu piemēri, ko var pārbaudīt, lai iespējotu kodu, izmantojot **FeatureStateProvider** API, un metadatos, izmantojot **FeatureClass** rekvizītu. Piemērs: 
+Līdzekļu pārvaldības līdzekļi ir definēti kā *līdzekļu klases*. Līdzekļu klases **ievieš IFeatureMetadata** un izmanto līdzekļu klases atribūtu, lai identificētu sevi līdzekļu pārvaldības darbvietā. Ir pieejami daudzi līdzekļu klašu piemēri, ko var pārbaudīt, lai iespējotu kodu, izmantojot **FeatureStateProvider** API, un metadatos, izmantojot **FeatureClass** rekvizītu. Piemērs:
 
 ```xpp
 [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]

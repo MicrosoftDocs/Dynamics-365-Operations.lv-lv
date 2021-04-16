@@ -2,7 +2,6 @@
 title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
-manager: AnnBe
 ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f019b856c9eb03d745442266677138b8d7a5f50
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570516"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751004"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -167,9 +166,9 @@ Sākot ar platformas atjauninājumu 29, šī funkcionalitāte ir novecojusi. Tā
 
 Sagatavošanas tabulas varat iztīrīt, izmantojot līdzekli **Sagatavošanas iztīrīšana** darbvietā **Datu pārvaldība**. Lai atlasītu, kuri ieraksti ir jāizdzēš un no kuras sagatavošanas tabulas, varat izmantot tālāk aprakstītās opcijas.
 
-- **Elements** — ja ir nodrošināts tikai elements, no šī elementa sagatavošanas tabulas tiek dzēsti visi ieraksti. Atlasiet šo opciju, lai šim elementam iztīrītu visus datus visos datu projektos un visos darbos.
-- **Darba ID** — ja ir nodrošināts tikai darba ID, no atbilstošajām sagatavošanas tabulām tiek dzēsti visi ieraksti visiem elementiem atlasītajā darbā.
-- **Datu projekti** — ja ir atlasīts tikai datu projekts, atlasītajam datu projektam tiek dzēsti visi ieraksti visiem elementiem un visos darbos.
+- **Elements** — ja ir nodrošināts tikai elements, no šī elementa sagatavošanas tabulas tiek dzēsti visi ieraksti. Atlasiet šo opciju, lai šim elementam iztīrītu visus datus visos datu projektos un visos darbos.
+- **Darba ID** — ja ir nodrošināts tikai darba ID, no atbilstošajām sagatavošanas tabulām tiek dzēsti visi ieraksti visiem elementiem atlasītajā darbā.
+- **Datu projekti** — ja ir atlasīts tikai datu projekts, atlasītajam datu projektam tiek dzēsti visi ieraksti visiem elementiem un visos darbos.
 
 Šīs opcijas varat arī kombinēt, lai dzēšamo ierakstu kopu ierobežotu vēl vairāk.
 
@@ -199,7 +198,7 @@ Līdzeklim **Izpildes vēstures tīrīšana** jābūt iespējotai līdzekļu pā
 
 Plānojot tīrīšanas procesu, ir jānorāda tālāk norādītie parametri, lai definētu tīrīšanas kritērijus.
 
--   **Vēstures saglabāšanas dienu skaits**  — šis iestatījums tiek izmantots, lai kontrolētu izpildes vēstures apjomu, kas jāsaglabā. Tas tiek norādīts kā dienu skaits. Kad tīrīšanas darbs ir ieplānots kā periodisks pakešuzdevums, šis iestatījums darbosies kā pastāvīgi kustīgs logs, tādējādi vienmēr atstājot norādītā dienu skaita vēsturi neskartu un dzēšot pārējo. Noklusējums ir 7 dienas.
+-   **Vēstures saglabāšanas dienu skaits** — šis iestatījums tiek izmantots, lai kontrolētu izpildes vēstures apjomu, kas jāsaglabā. Tas tiek norādīts kā dienu skaits. Kad tīrīšanas darbs ir ieplānots kā periodisks pakešuzdevums, šis iestatījums darbosies kā pastāvīgi kustīgs logs, tādējādi vienmēr atstājot norādītā dienu skaita vēsturi neskartu un dzēšot pārējo. Noklusējums ir 7 dienas.
 
 -   **Darba izpildes stundu skaits** — atkarībā no notīrāmā vēstures apjoma kopējais tīrīšanas darba izpildes laiks var būt robežās no dažām minūtēm līdz dažām stundām. Šim parametram ir jābūt iestatītam uz to stundu skaitu, cik ilgā darbs tiks izpildīts. Kad tīrīšanas darbs ir izpildīts noteiktam stundu skaitam, darbs tiks aizvērts un atsāks tīrīšanu nākamreiz, kad tas tiks palaists, pamatojoties uz atkārtošanās grafiku.
 

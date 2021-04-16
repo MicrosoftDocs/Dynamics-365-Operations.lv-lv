@@ -2,7 +2,6 @@
 title: Starpuzņēmumu datu avoti elektroniskajos pārskatos (ER)
 description: Šajā tēmā ir paskaidrots, kā elektroniskajos pārskatos (Electronic Reporting — ER) varat izmantot starpuzņēmumu datu avotus.
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9eee9ba70e800c78622b774d8140b104fa0ad911
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7528a84bae388dd8b159405043570b647d6e2cb4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562266"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753748"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Starpuzņēmumu datu avoti elektroniskajos pārskatos (ER)
 
@@ -67,7 +66,7 @@ Pēc noklusējuma tvērums ietver visus pašreizējās programmas uzņēmumus. T
 
 Ņemiet vērā, ka gadījumā, ja ir izslēgta opcija **Izmantot melnrakstu** vienam ER formātam piešķirtai organizācijas hierarhijai, starpuzņēmumu datu avotu tvēruma identificēšanai tiks izmantotas juridiskās personas no šīs organizācijas hierarhijas pēdējās publicētās versijas. ER struktūrā vēl netiek atbalstīti organizācijas hierarhiju spēkā stāšanās datumi.
 
-Hierarhiju var piešķirt formātam noteiktā lapā, kurai var piekļūt no ER darbvietas vai izmantojot izvēlnes vienumu **Organizācijas administrēšana \>Elektroniskie pārskati \> Juridisko personu filtrs formātiem**. Lai piekļūtu šai lapai, lietotājam ir jābūt piešķirtai privilēģijai **Uzturēt juridisko personu filtrus formātiem** (ERMaintainFormatMappingLegalEntityFilters). No hierarhijas atkarīgu juridisko personu tvēruma ierobežojums formātam tiek lietots papildus ierobežojumam, kuru lietotājs var manuāli norādīt sistēmas vaicājuma dialoglodziņā. Palaižot šo formātu, tiek izmantota šo ierobežojumu krustošanās.
+Hierarhiju var piešķirt formātam noteiktā lapā, kurai var piekļūt no ER darbvietas vai izmantojot izvēlnes vienumu **Organizācijas administrēšana \> Elektroniskie pārskati \> Juridisko personu filtrs formātiem**. Lai piekļūtu šai lapai, lietotājam ir jābūt piešķirtai privilēģijai **Uzturēt juridisko personu filtrus formātiem** (ERMaintainFormatMappingLegalEntityFilters). No hierarhijas atkarīgu juridisko personu tvēruma ierobežojums formātam tiek lietots papildus ierobežojumam, kuru lietotājs var manuāli norādīt sistēmas vaicājuma dialoglodziņā. Palaižot šo formātu, tiek izmantota šo ierobežojumu krustošanās.
 
 Lai par šo līdzekli uzzinātu vairāk, noskatieties uzdevuma ceļvedi **ER Piekļuve no uzņēmuma atkarīgu tabulu ierakstiem starpuzņēmumu režīmā**, kas veido daļu no biznesa procesa 7.5.4.3 IT pakalpojumu/risinājumu komponentu iegāde/izstrāde (10677) un ko var lejupielādēt no [Microsoft lejupielādes centra](https://go.microsoft.com/fwlink/?linkid=874684). Šajā uzdevuma rokasgrāmatā ir izklāstīts ER modeļa kartēšanas un ER formāta konfigurēšanas process, lai piekļūtu programmas tabulām starpuzņēmumu režīmā.
 

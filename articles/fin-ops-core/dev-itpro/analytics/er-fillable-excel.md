@@ -2,7 +2,6 @@
 title: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 description: Šī tēma sniedz informāciju par to, kā veidot elektronisko pārskatu (ER) formātu, lai aizpildītu Excel veidni un pēc tam ģenerētu izejošos Excel formāta dokumentus.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574177"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753316"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
 
@@ -240,7 +239,7 @@ Kad tiek ģenerēts izejošais dokuments Microsoft Excel darbgrāmatas formātā
 
         ![Kājenes ER formāta komponenta pārskatīšana lapā Formāta veidotājs](./media/er-fillable-excel-footer-3.png)
 
-    4. [Aizpildiet](er-quick-start2-customize-report.md#CompleteDerivedFormat) atvasinātā   **Brīvā teksta rēķina (Excel) pielāgotā** ER formāta melnraksta versiju.
+    4. [Aizpildiet](er-quick-start2-customize-report.md#CompleteDerivedFormat) atvasinātā **Brīvā teksta rēķina (Excel) pielāgotā** ER formāta melnraksta versiju.
 
 5. [Konfigurējiet](er-generate-printable-fti-forms.md#configure-print-management) drukas pārvaldību, lai izmantotu atvasināto **Brīvā teksta rēķina (Excel) pielāgoto** ER formātu, nevis ER parauga formātu.
 6. Ģenerējiet drukājamu FTI dokumentu un pārskatiet ģenerētā dokumenta kājeni.

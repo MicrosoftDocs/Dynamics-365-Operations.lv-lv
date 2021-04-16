@@ -2,7 +2,6 @@
 title: Power BI satura pakotne Kompensācija un atvieglojumi
 description: Šajā tēmā ir aprakstīta Power BI satura pakotne Kompensācija un atvieglojumi.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 07a8be0a4c333e9d465341d9384e4b9a706f9e75
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ec8df69423add8f118d3ce1ad4bae95ea6abb469
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559825"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754426"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>Power BI satura pakotne Kompensācija un atvieglojumi
 
@@ -29,7 +28,7 @@ ms.locfileid: "5559825"
 Šajā tēmā ir aprakstīta Power BI satura pakotne Kompensācija un atvieglojumi. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Satura pakotnē iekļautie pārskati
-Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Power BI vadītās mācīšanās lapa](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
+Kad ir izveidots satura pakotnes savienojums ar jūsu datiem, pārskatos tiek rādīti jūsu organizācijas dati. Ja nekad neesat lietojis Microsoft Power BI, varat par to vairāk uzzināt rakstā [Vadītās mācīšanās lapa Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Satura pakotnē iekļautajos pārskatos ir gan diagrammas, gan tabulas, kas satur papildinformāciju. Tabulā ir sniegts pārskatu apraksts.
 
 | Pārskats                     | Saturs                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|

@@ -2,11 +2,9 @@
 title: Procesa atjaunināšana
 description: Microsoft Dynamics 365 Human Resources ir īsts programmatūras pakalpojums (software as a service — SaaS), kas nodrošina nepārtrauktus, bezkontakta pakalpojumu atjauninājumus lietojumprogrammu un platformu izmaiņām.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466836"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791537"
 ---
 # <a name="update-process"></a>Procesa atjaunināšana
 
@@ -58,14 +56,14 @@ Ja nepieciešams, Human Resources nodrošina arī tālāk minētos labojumu veid
 
 Laidieni tiek pārbaudīti, testēti un apstiprināti iekšējā vidē. Pēc izveidotā ir izrakstīšanas, tas tiek izvietots ražošanā.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Laidienu ritma izņēmumi 2020. gadā
+## <a name="release-cadence-exceptions-in-2021"></a>Laidienu ritma izņēmumi 2021. gadā
 
-Lai uzskaitītu brīvdienas, 2020. gada novembra un decembra izlaišanas grafiks ir šāds:
+Lai uzskaitītu brīvdienas, 2021. gada novembra un decembra izlaišanas grafiks ir šāds:
 
-- Novembra izlaidums: 2. novembris - 13. novembris
-- Decembra izlaidums: 30. novembris - 11. decembris
+- Novembra izlaidums: 1. novembris - 14. novembris
+- Decembra izlaidums: 29. novembris - 12. decembris
  
-Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2021. gada 11. janvārī.
+Divu nedēļu izlaidumu kadence tiks atsākta kā parasti 2022. gada 10. janvārī.
 
 ## <a name="communications"></a>Komunikācija
 
