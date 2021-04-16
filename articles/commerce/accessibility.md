@@ -2,11 +2,9 @@
 title: Pieejamības līdzekļi un iespējas
 description: Šajā tēmā ir sniegta informācija par pieejamības līdzekļiem un iespējām programmā Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 094ad8d34e13051ce7596be462070ead4cbc4f14
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206659"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796322"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Pieejamības līdzekļi un iespējas
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā ir sniegta informācija par pieejamības līdzekļiem un iespējām programmā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Pieejamības funkcijas un iespējas nodrošina funkcionālus līdzekļus visiem lietotājiem, lai piekļūtu un veiktu darbības, lai viņi varētu sasniegt savus mērķus. Šim plašajam lietotāju lokam var būt nepieciešami dzirdes, redzes, mobilitātes vai neirodaudzveidības palīgrīki.
 

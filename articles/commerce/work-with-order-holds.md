@@ -2,11 +2,9 @@
 title: Zvanu centra pasūtījumu aizturēšanas konfigurēšana un darbs ar to
 description: Šajā tēmā ir aprakstīts, kā strādāt ar pasūtījumu aizturēšanu, izmantojot Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: cd7ad1bdb9d2421a4b5ad96755867d2a389464a6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210855"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800387"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Zvanu centra pasūtījumu aizturēšanas konfigurēšana un darbs ar to
 
@@ -37,7 +35,7 @@ Lai izmantotu zvanu centra pasūtījumu aizturēšanas funkcijas, vispirms ir j�
 
 Lai norādītu, kāda tipa piezīme tiks saglabāta, kad lietotāji, kas aiztur pārdošanas pasūtījumu, ievada papildu piezīmes, dodieties uz **Debitoru parādi** \> **Iestatījumi** \> **Debitoru parādu parametri** un pēc tam kopsavilkuma cilnes **Pārdošanas iestatījumi** cilnē **Vispārīgi** iestatiet lauku **Piezīmes veids**. Izmantojiet lauku **Pārdošanas pasūtījuma statuss “Aizturēts”**, lai definētu krāsu, kas tiks izmantota, lai iezīmētu pārdošanas pasūtījumus, kas ir aizturēti, kad tie tiek aplūkoti lapā **Klientu apkalpošana**.
 
-Lai izveidotu aizturēšanas iemeslu kodu papildu kopu, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Informācijas kodi**. Šos informācijas kodus var izmantot kā sekundāro iemesla kodu, lai papildus definētu galveno aizturēšanas kodu. Atlasiet **Jauns**, lai izveidotu iemeslu kodu kopu, un pēc tam atlasiet **Apakškodi**, lai definētu papildu iemeslu sarakstu. Lai saistītu definētos informācijas kodus ar zvanu centra kanālu, dodieties uz **Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**. Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Aizturēšanas kods**.
+Lai izveidotu aizturēšanas iemeslu kodu papildu kopu, dodieties uz **Mazumtirdzniecība un komercija** \> **Kanāla iestatīšana** \> **Informācijas kodi**. Šos informācijas kodus var izmantot kā sekundāro iemesla kodu, lai papildus definētu galveno aizturēšanas kodu. Atlasiet **Jauns**, lai izveidotu iemeslu kodu kopu, un pēc tam atlasiet **Apakškodi**, lai definētu papildu iemeslu sarakstu. Lai saistītu definētos informācijas kodus ar zvanu centra kanālu, dodieties uz **Retail un Commerce** \> **Kanāli** \> **Zvanu centri** \> **Visi zvanu centri**. Kopsavilkuma cilnē **Vispārīgi** iestatiet lauku **Aizturēšanas kods**.
 
 ## <a name="putting-orders-on-hold"></a>Pasūtījumu aizturēšana
 

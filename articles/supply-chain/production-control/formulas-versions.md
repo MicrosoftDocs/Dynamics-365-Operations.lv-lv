@@ -2,11 +2,9 @@
 title: Formulas un formulu versijas
 description: Šajā tēmā ir sniegta informācija par formulām un formulu versijām. Formula procesa ražošanā nosaka konkrētu procesu materiālus, sastāvdaļas un rezultātus. Formulas tiek izmantotas, lai procesa ražošanā plānotu un ražotu preces.
 author: cvocph
-manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee15fc2a3edd9d0cc8cff17123981bc90ceeff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e8a168da2309709baaf9f8006880d738f754751d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246193"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809114"
 ---
 # <a name="formulas-and-formula-versions"></a>Formulas un formulu versijas
 

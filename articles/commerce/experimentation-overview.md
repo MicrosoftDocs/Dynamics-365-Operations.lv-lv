@@ -2,11 +2,9 @@
 title: Eksperimentēšana pakalpojumā Dynamics 365 Commerce
 description: Eksperimentēšana ļauj veidot, rediģēt un pārvaldīt lapu izkārtojumu un satura apstrādi vietnes veidotājā. E-komercijas lapām un lapas entītijām ir iespējots nepārtraukts eksperimentēšanas atbalsts.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d836f0e431c444c07186da123579f5cce9895be5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238610"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798991"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentēšana pakalpojumā Dynamics 365 Commerce
 Izmantojiet eksperimentēšanu pakalpojumā Dynamics 365 Commerce, lai pārbaudītu hipotēzi par jūsu e-komercijas lapu efektivitāti un pieņemtu lēmumus, pamatojoties uz datiem. Commerce atbalsta A/B testēšanu lapās, moduļos un fragmentos un ļauj novērtēt piedāvāto izmaiņu ietekmi uz jūsu tīmekļa vietni.

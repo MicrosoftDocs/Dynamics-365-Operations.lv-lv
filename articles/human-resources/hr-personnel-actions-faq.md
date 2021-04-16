@@ -2,11 +2,9 @@
 title: Bieži uzdotie jautājumi par personāla darbībām
 description: Šajā rakstā ir atbildes uz jautājumiem, kas varētu rasties, ja jūsu organizācija izmanto personāla darbības. Personāla darbības ir papildu darbības, kas jāizpilda, kad veicat noteiktus uzdevumus saistībā ar personālu.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 0fb24ff25ba59c5440684c457267d826d35b7ac4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467120"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794497"
 ---
 # <a name="personnel-actions-faq"></a>Bieži uzdotie jautājumi par personāla darbībām
 
@@ -49,7 +47,7 @@ Personāla darbībām var būt tālāk norādītie statusi.
 - **Notiek pārskatīšana** – personāla darbība ir iesniegta darbplūsmai, bet darbplūsma nav pabeigta.
 - **Apstiprināts gaida** – darbplūsma ir pabeigta, bet izmaiņas joprojām tiek veiktas. Atcelts – darbplūsma tika atcelta vai personāla darbība tika atsaukta. Noraidīts – apstiprinātājs noraidīja darbības pieprasījumu.
 - **Darbības apstrāde** – darbības pieprasījums ir apstiprināts, un izmaiņas tiek apstrādātas.
-- **Darbplūsma izpildīta** – darbplūsma ir pabeigta un izmaiņas ir apstrādātas. Nesekmīgi – darbplūsmu neizdevās izpildīt, jo informācija ir novecojusi. Noklikšķiniet uz Aktivizēt no jauna, lai parādītu visjaunāko informāciju un turpinātu.
+- **Darbplūsma izpildīta**  – darbplūsma ir pabeigta un izmaiņas ir apstrādātas. Nesekmīgi – darbplūsmu neizdevās izpildīt, jo informācija ir novecojusi. Noklikšķiniet uz Aktivizēt no jauna, lai parādītu visjaunāko informāciju un turpinātu.
 - **Pabeigts** – amats tika sekmīgi izveidots vai modificēts, vai darbinieks tika sekmīgi pieņemts darbā vai pārsūtīts, vai darba attiecības ar šo darbinieku ir sekmīgi izbeigtas, vai ir veiksmīgi mainīta darbinieka atlīdzība. Kļūda – radās problēma, kas nav novecojušas informācijas izmantošana. Atveriet žurnālu Personāla darbību ziņojumu žurnāls, lai noteiktu kļūdas iemeslu.
 - **Liegts** – apstiprinātājs darbības pieprasījumu liedza.
 

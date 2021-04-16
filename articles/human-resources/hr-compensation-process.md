@@ -2,11 +2,9 @@
 title: Atlīdzības apstrāde
 description: Atlīdzības apstrāde dod iespēju aprēķināt jaunas bāzes atlīdzības summas jūsu darbiniekiem, pamatojoties uz kapitāla korekcijām, nopelnu palielinājuma mērķiem un veiktspēju.
 author: andreabichsel
-manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3ab2117ea0d4cf7413dddf09d953e0da39e6882a
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 59627edd4503d9d4d5a87d8eb09b4be4f855c112
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465706"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800931"
 ---
 # <a name="process-compensation"></a>Atlīdzības apstrāde
 
@@ -59,9 +57,9 @@ Pakāpju sistēmai var pievienot tikai sadaļas **Fiksēta atlīdzība** darbīb
 | Fiksētās atlīdzības darbības veids | Funkcionalitāte                                                                                                                                                                                           |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Solis                           | Cilnē Vispārīgi norāda, vai šai darbībai jāpārvieto darbiniek uz priekšu par nulle darbībām, vienu darbību vai divām darbībām.                                                                                  |
-|                                | **Nulle darbības** — darbinieks saņems pašreizējas darbības algas likmi.                                                                                                                      |
-|                                | **Viena darbība** — sistēma pārbauda, vai darbinieks jau ir sava līmeņa pēdējā atsauces punktā.                                                                                             |
-|                                | **Divas darbības** — sistēma pārvietos darbinieku uz priekšu par divām darbībām pašreizējā līmenī. Ja darbinieks sasniedz pēdējo līmeņa atsauces punktu, sistēma darbinieku var pārvietot tikai par vienu vai nulle darbībām. |
+|                                | **Nulle darbības** — darbinieks saņems pašreizējas darbības algas likmi.                                                                                                                      |
+|                                | **Viena darbība** — sistēma pārbauda, vai darbinieks jau ir sava līmeņa pēdējā atsauces punktā.                                                                                             |
+|                                | **Divas darbības** — sistēma pārvietos darbinieku uz priekšu par divām darbībām pašreizējā līmenī. Ja darbinieks sasniedz pēdējo līmeņa atsauces punktu, sistēma darbinieku var pārvietot tikai par vienu vai nulle darbībām. |
 
 ## <a name="run-the-compensation-process"></a>Atlīdzības procesa palaišana
 Kad apstrādes notikumam ir iestatīti nepieciešamie datumu lauki, sistēmas un darbības, lapā **Apstrādes notikums** varat noklikšķināt uz **Palaist procesu**. Tiks atvērts dialogs **Palaist atlīdzības apstrādes notikumus**. Šajā dialogā noklikšķiniet uz opcijas **Rādīt pārstrādes rezultātus**, lai skatītu, kā atlīdzības summas tika aprēķinātas katram darbiniekam. Noklikšķinot uz **Labi**, tiks palaists atlīdzības process visiem darbiniekiem, kuri atlasītajos atlīdzības plānos ir no cikla beigu datumam.

@@ -2,11 +2,9 @@
 title: Integrācija ar LinkedIn Talent Hub
 description: Šajā tēmā ir paskaidrots, kā iestatīt pintegrāciju starp Microsoft Dynamics 365 Human Resources un LinkedIn Talent Hub.
 author: jaredha
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2a017d67177bcbee86abf920cf8d83f37312c5eb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465202"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805062"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrācija ar LinkedIn Talent Hub
 
@@ -132,7 +130,7 @@ Kad esat saglabājis un aizvēris jauno programmas lietotāju iepriekšējā sad
 ### <a name="create-the-table-in-dataverse"></a>Tabulas izveide sistēmā Dataverse
 
 > [!IMPORTANT]
-> Integrācija ar LinkedIn Talent Hub ir atkarīga no virtuālajām tabulām pakalpojumā Dataverse programmai Human Resources. Kā priekšnosacījums šai darbībai iestatījumā jums ir jākonfigurē virtuālās tabulas. Papildinformāciju par to, kā konfigurēt virtuālās tabulas, skatiet sadaļā [Dataverse virtuālo tabulu konfigurēšana](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Integrācija ar LinkedIn Talent Hub ir atkarīga no virtuālajām tabulām pakalpojumā Dataverse programmai Human Resources. Kā priekšnosacījums šai darbībai iestatījumā jums ir jākonfigurē virtuālās tabulas. Papildinformāciju par to, kā konfigurēt virtuālās tabulas, skatiet sadaļā [Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
 1. Human Resources atveriet lapu **Dataverse integrācija**.
 
@@ -190,7 +188,7 @@ Tālāk norādītā informācija tiek importēta un iekļauta jaunā darbinieka 
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Dataverse virtuālo tabulu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
 

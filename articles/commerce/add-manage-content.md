@@ -2,11 +2,9 @@
 title: Satura pievienošanas veidi
 description: Šajā tēmā sniegts pārskats un atlasītas saites par to, kur un kā uzsākt satura pārvaldību, izmantojot Microsoft Dynamics 365 Commerce vietnes veidotāja tīmekļa autorēšanas rīku kopu.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208067"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797579"
 ---
 # <a name="ways-to-add-content"></a>Satura pievienošanas veidi
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā sniegts pārskats un atlasītas saites uz dokumentiem par to, kā pārvaldīt saturu, izmantojot Microsoft Dynamics 365 Commerce vietnes veidotāja tīmekļa autorēšanas rīku kopu.
-
-## <a name="overview"></a>Pārskats
 
 Ir vairāki veidi, kā mainīt vietnes izskatu, darbību un saturu. Atkarībā no noteiktā pielāgošanas līmeņa, daudzas no šīm izmaiņām var īstenot lietotāji, kas nav izstrādātāji, izmantojot vietnes veidotāju, tīmekļa autorēšanas rīku, kas ietverts pakalpojumā Dynamics 365 Commerce. Vietnes veidotājs ļauj izveidot veidnes, izvēlēties tēmas un atlasīt un konfigurēt moduļus, nerakstot nevienu kodu. Turpretī ir nepieciešamas izstrādes prasmes, lai izveidotu jaunu tēmu vai moduli, jo ir jāizmanto E-komercijas programmatūras izstrādes komplekts (SDK) un Microsoft Dynamics Lifecycle Services (LCS) izvietošanas darbplūsma.
 

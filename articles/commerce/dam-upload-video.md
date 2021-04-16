@@ -2,11 +2,9 @@
 title: Augšupielādēt videoklipus
 description: Šajā tēmā aprakstīts, kā augšupielādēt videoklipus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d74e7116d68074bfc917784a8f51f85d5682c5d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213846"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799209"
 ---
 # <a name="upload-videos"></a>Augšupielādēt videoklipus
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā augšupielādēt videoklipus Microsoft Dynamics 365 Commerce vietnes veidotājā.
-
-## <a name="overview"></a>Pārskats
 
 Commerce vietnes veidotāja multivides bibliotēka ļauj augšupielādēt videoklipus. Vienmēr augšupielādējiet videoklipa versiju ar augstāko bitu pārraides ātrumu un izšķirtspēju, jo videoklips tiks automātiski pārveidots, lai tas būtu piemērots dažādām skatvietām un to pārtraukumpunktiem.
 

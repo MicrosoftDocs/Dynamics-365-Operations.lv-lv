@@ -2,11 +2,9 @@
 title: Atbalsta pievienošana satura piegādes tīklam (CDN)
 description: Šajā tēmā aprakstīts, kā pievienot satura piegādes tīklu savai Microsoft Dynamics 365 Commerce videi.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582723"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797843"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Atbalsta pievienošana satura piegādes tīklam (CDN)
 
@@ -41,11 +39,7 @@ Turklāt *statika* (JavaScript vai kaskādes stila lapu \[CSS\] faili) no Komerc
 
 ## <a name="set-up-ssl"></a>SSL iestatīšana
 
-Lai palīdzētu nodrošināt, ka SSL ir iestatīts un ka statika saglabāta kešatmiņā, jums ir jākonfigurē savs CDN, lai tas būtu saistīts ar resursdatora nosaukumu, ko ģenerēja Komercija jūsu videi. Sekojošais modelis ir arī jāsaglabā kešatmiņā tikai statikai. 
-
-/\_msdyn365/\_scnr/\*
-
-Pēc tam, kad jūs sniedzat savu Komercijas vidi kopā ar sniegto pielāgoto domēnu, vai pēc tam, kad jūs nodrošināt pielāgotu domēnu jūsu videi, izmantojot pakalpojuma pieprasījumu, norādiet savu pielāgoto domēnu resursdatora nosaukumam vai galapunktam, ko ģenerējusi Komercija.
+Pēc tam, kad jūs sniedzat savu Commerce vidi kopā ar sniegto pielāgoto domēnu, vai pēc tam, kad jūs nodrošināt pielāgotu domēnu jūsu videi, izmantojot pakalpojuma pieprasījumu, norādiet savu pielāgoto domēnu resursdatora nosaukumam vai galapunktam, ko ģenerēja Commerce.
 
 Kā iepriekš tika minēts, ģenerētais resursdatora nosaukums vai galapunkts atbalsta SSL sertifikātu tikai attiecībā uz \*. commerce.dynamics.com. Tas neatbalsta SSL pielāgotiem domēniem.
 
@@ -62,7 +56,7 @@ CDN iestatīšanas process sastāv no šīm vispārīgajām darbībām.
 
 1. Pievienojiet priekšgala resursdatoru.
 1. Konfigurējiet aizmugursistēmas kopu.
-1. Iestatiet kārtulas maršrutēšanai un saglabāšanai kešatmiņā.
+1. Maršrutēšanas noteikumu iestatīšana.
 
 ### <a name="add-a-front-end-host"></a>Priekšgala resursdatora pievienošana
 
@@ -74,8 +68,9 @@ Lai iegūtu informāciju par to, kā iestatīt Azure optimālās ieejas pakalpoj
 
 Lai konfigurētu aizmugursistēmas kopu Azure optimālās ieejas pakalpojumā, veiciet tālāk norādītās darbības.
 
-1. Pievienojiet **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** aizmugursistēmas kopai kā pielāgotu resursdatoru, kam ir tukšs aizmugursistēmas resursdatora virsraksts.
+1. Pievienojiet **&lt;ecom-nomnieka nosaukumu&gt;.commerce.dynamics.com** servera kopai kā pielāgotu resursdatoru, kam ir servera resursdatora virsraksts, kas ir tāds pats kā **&lt;ecom-nomnieka nosaukums&gt;.commerce.dynamics.com**.
 1. Zem **Slodzes līdzsvarošana** atstājiet noklusējuma vērtības.
+1. Deaktivēt veselības pārbaudes aizmugursistēmas kopai.
 
 Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmu** Azure optimālās ieejas pakalpojumā ar ievadīto aizmugursistēmas resursdatora virsrakstu.
 
@@ -83,7 +78,11 @@ Lai konfigurētu aizmugursistēmas kopu Azure optimālās ieejas pakalpojumā, v
 
 Šajā attēlā redzams dialoglodziņš **Pievienot aizmugursistēmas kopa** Azure optimālās ieejas pakalpojumā ar noklusējuma noslodzes balansēšanas vērtībām.
 
-![c](./media/CDN_BackendPool_2.png)
+![Pievienot aizmugursistēmas kopas dialoglodziņa turpinājumu](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Noteikti atspējojiet **Veselības zondes**, iestatot savu Azure Front Door pakalpojumu pakalpojumam Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Kārtulu iestatīšāna Azure optimālās ieejas pakalpojumā
 
@@ -100,24 +99,6 @@ Lai uzstādītu maršrutēšanas kārtulu Azure optimālās ieejas pakalpojumā,
 1. Iestatiet opciju **URL pārrakstīšana** uz **Atspējots**.
 1. Iestatiet opciju **Saglabāšana kešatmiņā** uz **Atspējots**.
 
-Lai iestatītu kešošanas kārtulu Azure optimālās ieejas pakalpojumā, veiciet šādas darbības.
-
-1. Pievienojiet kešošanas kārtulu.
-1. Laukā **Nosaukums** ievadiet **statika**.
-1. Laukā **Pieņemtais protokols** atlasiet **HTTP un HTTPS**.
-1. Laukā **Priekšgala resursdatori** ievadiet **dynamics-ecom-tenant-name.azurefd.net**.
-1. Zem **Modeļi saskaņošanai**, augšējā laukā, **/\_msdyn365/\_scnr/\***.
-1. Sadaļā **Maršruta dati** iestatiet opciju **Maršruta tips** uz **Pārsūtīt**.
-1. Laukā **Aizmugursistēmas kopa** atlasiet **e-komercijas aizmugursistēma**.
-1. **Pārsūtīšanas protokola** lauka grupā atlasiet opciju **Saskaņot pieprasījumu**.
-1. Iestatiet opciju **URL pārrakstīšana** uz **Atspējots**.
-1. Iestatiet opciju **Saglabāšana kešatmiņā** uz **Atspējots**.
-1. Laukā **Vaicājuma virknes kešošanas uzvedība** atlasiet **Saglabāt kešatmiņā katru unikālo vietrādi URL**.
-1. **Dinamiskās saspiešanas** lauka grupā atlasiet opciju **Iespējots**.
-
-Šajā attēlā redzams dialoglodziņš **Pievienot kārtulu** Azure optimālās ieejas pakalpojumā.
-
-![Dialoglodziņš Kārtulas pievienošana](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Ja domēns, ko izmantosiet, jau ir aktīvs un dzīvs, izveidojiet atbalsta biļeti no **Atbalsta** elementa, kas atrodas [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/), lai saņemtu palīdzību nākamajiem soļiem. Papildinformāciju skatiet sadaļā [Iegūt atbalstu Finance and Operations programmām vai Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
