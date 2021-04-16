@@ -2,11 +2,9 @@
 title: Atlīdzības plāni
 description: Atlīdzību un atvieglojumu vadītāji atlīdzību pārvaldību var izmantot, lai organizācijas darbiniekiem uzturētu un apstrādātu fiksētās un mainīgās atlīdzības sistēmas.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d537f17dad7e511400c48c6e624f7644048d1c6d
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 1be212cae4b0df136bb19b9521fd80aa29f7e094
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465730"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793757"
 ---
 # <a name="compensation-plans"></a>Atlīdzības plāni
 
@@ -55,7 +53,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 <td>Ar fiksētājām atlīdzības darbībām tiek sasniegti divi mērķi:
 <ul>
 <li>Darbības var norādīt, kāda informācija ir jāreģistrē, kad mainās darbinieka atlīdzība. Piemēram, varat pieprasīt, lai tiktu reģistrēts izmaiņu iemesls, piemēram, paaugstināšana vai pazemināšana amatā.</li>
-<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, izpildot tipa Kapitāls darbības, darbinieku alga tiek salīdzināta ar darbinieka līmeņa minimālo atsauces punktu un tiek nodrošināts, ka darbiniekam tiek samaksāta vismaz minimālā summa.</li>
+<li>Darbības var nodrošināt, ka fiksētās atlīdzības plānu apstrādāšanas laikā tiek lietots kāds aprēķins.  Piemēram, izpildot tipa Kapitāls darbības, darbinieku alga tiek salīdzināta ar darbinieka&#39;līmeņa minimālo atsauces punktu un tiek nodrošināts, ka darbiniekam tiek samaksāta vismaz minimālā summa.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -64,7 +62,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 </tr>
 <tr class="odd">
 <td>Diapazona lietojuma matrica</td>
-<td>Diapazona lietojuma matrica jums palīdz pārcelt darbiniekus uz kontrolpunktu viņu darbiem. Varat izmantot diapazona lietojumu arī apmaksas likmes kapitāla kontrolei uzņēmumā, neņemot vērā atsevišķa darbinieka veiktspēju vai kopējo uzņēmuma veiktspēju. Piemēram, darbinieki, kas savā diapazonā ir zemāk apmaksāti, saņem lielāku procentuālo pieaugumu nekā darbinieki, kas savā diapazonā ir augstāk apmaksāti. Šādi varat sistemātiski nobīdīt kapitāla atšķirības. Diapazona lietojums tiek aprēķināts šādi: (Fiksēta apmaksas likme - Diapazona minimums) ÷ (Diapazona maksimums - Diapazona minimums).</td>
+<td>Diapazona lietojuma matrica jums palīdz pārcelt darbiniekus uz kontrolpunktu viņu darbiem. Varat izmantot diapazona lietojumu arī apmaksas likmes kapitāla kontrolei uzņēmumā, neņemot vērā atsevišķa darbinieka&#39;veiktspēju vai kopējo uzņēmuma veiktspēju. Piemēram, darbinieki, kas savā diapazonā ir zemāk apmaksāti, saņem lielāku procentuālo pieaugumu nekā darbinieki, kas savā diapazonā ir augstāk apmaksāti. Šādi varat sistemātiski nobīdīt kapitāla atšķirības. Diapazona lietojums tiek aprēķināts šādi: (Fiksēta apmaksas likme - Diapazona minimums) ÷ (Diapazona maksimums - Diapazona minimums).</td>
 </tr>
 <tr class="even">
 <td>Atsauces punkta iestatījumi</td>

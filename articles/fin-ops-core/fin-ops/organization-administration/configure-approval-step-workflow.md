@@ -2,7 +2,6 @@
 title: Apstiprināšanas darbību konfigurēšana darbplūsmā
 description: Šajā tēmā ir paskaidrots, kā konfigurēt apstiprināšanas darbības rekvizītus.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5442b7db0a1ccd2a2e07faf8635ac12ff06c560
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565738"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751780"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Apstiprināšanas darbību konfigurēšana darbplūsmā
 
@@ -113,9 +112,9 @@ Veiciet šīs darbības, lai norādītu personu, kurai jāpiešķir apstiprinā�
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem darbība jāpiešķir: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — darbība tiek piešķirta visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — darbība tiek piešķirta tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — darbība netiek piešķirta diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>
@@ -235,9 +234,9 @@ Ja lietotājs neveic darbības ar dokumentu atvēlētajā laikā, dokuments ir n
     </ol>
     </li>
     <li>Cilnē <strong>Hierarhijas opcijas</strong> norādiet attiecīgajā diapazonā esošos lietotājus, kuriem jāveic dokumenta eskalācija: <ul>
-    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
-    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
-    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
+    <li><strong>Piešķirt visiem izgūtajiem lietotājiem</strong> — dokuments tiek eskalēts visiem diapazonā esošajiem lietotājiem.</li>
+    <li><strong>Piešķirt tikai pēdējam izgūtajam lietotājam</strong> — dokuments tiek eskalēts tikai pēdējam lietotājam diapazonā.</li>
+    <li><strong>Neiekļaut lietotājus, kuri atbilst šādiem nosacījumiem</strong> — dokuments netiek eskalēts diapazonā esošajiem lietotājiem, kuri atbilst konkrētam nosacījumam. Lai norādītu nosacījumu, noklikšķiniet uz <strong>Pievienot nosacījumu</strong>.</li>
     </ul>
     </li>
     </ol>

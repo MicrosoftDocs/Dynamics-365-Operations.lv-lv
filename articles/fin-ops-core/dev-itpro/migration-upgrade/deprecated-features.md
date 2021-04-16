@@ -2,7 +2,6 @@
 title: Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 description: Šajā tēmā ir aprakstīti līdzekļi, kas ir noņemti vai kuri tika plānoti noņemšanai no Dynamics 365 for Finance and Operations un iepriekšējiem šīs preces laidieniem.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559334"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745267"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -51,7 +50,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. decembrim mēs plānojam vairs neatbalstīt ķīniešu dokumentu tipu iestatīšanu bez kontu grupu atlases. Sīkāka informācija par jauna līdzekļa izstrādi pieejama sadaļā Jaunumi 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 ar 30. platformas atjauninājumu
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 ar 30. platformas atjauninājumu
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -106,7 +105,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **Iekšzemes nodokļu pārskatu – Līdzekļa atsauci IT-00003**. |
 
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 ar 29. platformas atjauninājumu
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 ar 29. platformas atjauninājumu
 
 ### <a name="us-payroll-tax-updates"></a>ASV algas nodokļa atjauninājumi
 
@@ -131,7 +130,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus  |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada decembris. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 ar 28. platformas atjauninājumu
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francija: FEC uzskaites datu eksports XML formātā
 
@@ -155,7 +154,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Statuss**                         | Novecojis: sākot ar 2020. aprīli, mantotā navigācijas josla vairs nebūs pieejama. Līdz tam brīdim klienti var atgriezties pie mantotās navigācijas joslas, izmantojot lapu **Klienta veiktspējas opcijas**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 ar 26. platformas atjauninājumu
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 ar 26. platformas atjauninājumu
 
 
 ### <a name="legacy-default-action-behavior"></a>Mantotā noklusējuma darbību uzvedība
@@ -199,7 +198,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir 2020. gada aprīlis. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 ar 25. platformas atjauninājumu
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 ar 25. platformas atjauninājumu
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Novecojušie API un iespējamas traucējumus radošas izmaiņas
 
@@ -224,7 +223,7 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: brīdinājums tiks aizstāts ar kompilēšanas kļūdu 26. platformas atjauninājumā. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 ar 24. platformas atjauninājumu
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 ar 24. platformas atjauninājumu
 
 ### <a name="renaming-released-products"></a>Izlaisto preču pārdēvēšana 
 | &nbsp;  |&nbsp;  |
@@ -233,10 +232,10 @@ Atbalsts no projekta atkarīgu pārdošanas pasūtījumu izveidei, ja projekta l
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr.p.k. |
 | **Ietekmētie produkta apgabali**         | Preču informācijas pārvaldība |
 | **Izvietošanas iespēja**              | Visu  |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 10.0.0 ar 24. platformas atjauninājumu.|
+| **Statuss**                         | Noņemts, sākot ar Finance and Operations 10.0.0 ar 24. platformas atjauninājumu.|
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 ar 23. platformas atjauninājumu
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server pārskatu izveides pakalpojumu vadīkla ReportViewer
 Klienti var izmantot darbību **Eksportēt**, kas paredzēta iegultajā SQL Server pārskatu izveides pakalpojumu (SSRS) vadīklā ReportViewer, lai lejupielādētu dokumentus, kas izveidoti Finance and Operations programmās. Šis pārskata HTML noformējums nodrošina lietotājiem dokumenta priekšskatījumu bez lapdales.
@@ -275,7 +274,7 @@ Izstrādātājs var modificēt iegultos galvenos veiktspējas rādītājus (KPI)
 #### <a name="complete-list"></a>Pilnīgs saraksts
 Lai piekļūtu pilnīgam tādu API sarakstam, kuriem tiek pārtraukts atbalsts, skatiet tēmu [Atbalsta pārtraukšana metodēm un metadatu elementiem](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 ar 20. platformas atjauninājumu
+## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 ar 20. platformas atjauninājumu
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partijas pārnešanas noteikumi apakšgrāmatas žurnāla kontu ierakstiem
 Režīms Sinhronā pārnešana Virsgrāmatas parametros ir novecojis.  Šis režīms ir aizstāts tikai ar opciju Asinhroni un plānoto partiju, kas jau pastāv kā pārnešanas opcijas. Papildinformāciju skatiet emuārā [Virsgrāmatas parametri — partijas pārsūtīšanas kārtulas](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -297,7 +296,7 @@ Līdzeklis deklarāciju .txt un .xml failu formātu konfigurēšanai.
 | **Vai aizstāts ar citu līdzekli?**   | Jā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Finanšu pārskatu veidotājs Krievijai
 Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz XLS un DOC pārskatu veidnēm eksportēšanai. Funkcionālās daļas: datu eksportēšana uz XLS un DOC pārskata veidnēm, vaicājumi, fiksētie rekvizīti ir noņemti. 
@@ -308,7 +307,7 @@ Rīks uzskaites un nodokļu pārskatu datu vākšanas iestatīšanai un datu uz 
 | **Vai aizstāts ar citu līdzekli?**   | Jā. Finanšu pārskatu iestatīšanas lietotāja interfeiss ir jāizmanto, lai iestatītu datu apkopošanas kārtulas pēc Virsgrāmatas kontiem vai nodokļu reģistriem. Datu eksportēšana uz dažādu failu veidiem, fiksēti rekvizīti un vaicājumam līdzīgu datu apkopošanas kārtulas ir jākonfigurē elektronisko pārskatu sadaļā. |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata. |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integrācija ar ārējiem nodrošinātājiem elektronisko pārskatu sūtīšanai pa sakaru kanāliem Krievijai
 Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi tālākai nosūtīšanai oficiālajiem elektronisko pārskatu nodrošinātajiem, kā arī importēšanai atpakaļ valsts iestādēm.
@@ -319,7 +318,7 @@ Līdzeklis izveidoto deklarācijas elektronisko failu eksportēšanai uz mapi t�
 | **Vai aizstāts ar citu līdzekli?**   | Jā.  |
 | **Ietekmētie produkta apgabali**         | Virsgrāmata, nodokļi |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Peļņas nod. reģ. vednis
@@ -331,10 +330,10 @@ Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis r
 | **Vai aizstāts ar citu līdzekli?**   | Nav |
 | **Ietekmētie produkta apgabali**         | Nodoklis |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
+| **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
 
 
-## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 ar 15. platformas atjauninājumu
+## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 ar 15. platformas atjauninājumu
 Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.
 
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations Enterprise Edition 7.3 ar 12. platformas atjauninājumu

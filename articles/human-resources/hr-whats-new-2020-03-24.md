@@ -2,11 +2,9 @@
 title: Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 24. marts)
 description: Šajā rakstā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Microsoft Dynamics 365 Human Resources uz 2020. gada 24. martu.
 author: andreabichsel
-manager: tfehr
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22c5e83a7f180a340e98b81a197daa95d3569cc3
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3ba5fa3724410993f78b2d0b43fed9f764cc166d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463698"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790336"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Human Resources (2020. gada 24. marts)
 
@@ -39,11 +37,11 @@ Ir mainīt limits vižu skaitam projektā pakalpojumos Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Platformas izmaiņas
 
-- Pilnas lapas lietojumprogrammas (priekšskatījums) - Šī priekšskatījuma funkcija, kas paredz saglabāto skatu funkcijas iespējošanu, ļauj Power Apps un trešo pušu programmas pievienot kā pilnas lapas programmas, izmantojot informācijas paneli. 
+- Pilnas lapas lietojumprogrammas (priekšskatījums) - Šī priekšskatījuma funkcija, kas paredz saglabāto skatu funkcijas iespējošanu, ļauj Power Apps un trešo pušu programmas pievienot kā pilnas lapas programmas, izmantojot informācijas paneli.
 
 - Saglabātie skati (priekšskatījums) — Šis priekšskatījuma līdzeklis iespējo saglabātos skatījumus, kas ir nozīmīgs personalizēšanas apakšsistēmas papildinājums. Šis līdzeklis ļauj lietotājiem iegūt vairākas nosauktas personalizācijas kopas uz lapu. Varat arī publicēt skatus uz drošības lomām.
 
-- Optimizēta ¨ir viens no¨ filtrēšanas iespēja - Šī funkcija ļauj optimizētu "ir viens no" filtrēšanas iespēju, kas atvieglo vairāku filtru vērtību ievadīšanu. Tai ir vienkāršāks individuālo vai visu filtru vērtību noņemšanas mehānisms, kā arī filtra vērtību vizualizācija ir kompaktāka un intuitīvāka. 
+- Optimizēta ¨ir viens no¨ filtrēšanas iespēja - Šī funkcija ļauj optimizētu "ir viens no" filtrēšanas iespēju, kas atvieglo vairāku filtru vērtību ievadīšanu. Tai ir vienkāršāks individuālo vai visu filtru vērtību noņemšanas mehānisms, kā arī filtra vērtību vizualizācija ir kompaktāka un intuitīvāka.
 
 - Ieteicamie lauki — Lietotājiem bieži ir jāpievieno lauki režģim vai lapai. Tas var būt sarežģīti ar tik daudziem pieejamiem laukiem. Tā vietā, lai meklētu pēc liela saraksta, šis līdzeklis ļauj sistēmai pāriet pāri ieteicamo lauku kopai, pamatojoties uz to, ko citi lietotāji visbiežāk pievieno līdzīgos scenārijos.
 

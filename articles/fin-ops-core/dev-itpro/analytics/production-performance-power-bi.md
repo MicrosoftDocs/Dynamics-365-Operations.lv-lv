@@ -2,7 +2,6 @@
 title: Power BI satura pakotne Ražošanas veiktspēja
 description: Šajā tēmā ir aprakstīts, kas ir iekļauts Power BI satura pakotnē Ražošanas veiktspēja.
 author: AndersGirke
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a48db429e2518898f2b22845d36e1c5171d71cbe
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4118d8f5e147d27e1620d236dbe0e0bd40dc3068
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567846"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753068"
 ---
 # <a name="production-performance-power-bi-content"></a>Power BI satura pakotne Ražošanas veiktspēja
 
@@ -40,7 +39,7 @@ Power BI satura pakotne sniedz ieskatu par organizācijas spēju savlaicīgi un 
 Power BI satura pakotnē **Ražošanas veiktspēja** ir iekļauti dati no ražošanas pasūtījumiem un partijas pasūtījumiem. Pārskatos nav iekļauti dati, kas ir saistīti ar Kanban ražošanām.
 
 ## <a name="accessing-the-power-bi-content"></a>Piekļuve Power BI satura pakotnei
-Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražošanas veiktspēja** (**Ražošanas kontrole** \> **Pieprasījumi un pārskati** \> **Ražošanas veiktspējas analīze** \> **Ražošanas veiktspēja**). 
+Power BI satura pakotne **Ražošanas veiktspēja** tiek rādīta lapā **Ražošanas veiktspēja** (**Ražošanas kontrole** \> **Pieprasījumi un pārskati** \> **Ražošanas veiktspējas analīze** \> **Ražošanas veiktspēja**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI satura pakotnē iekļautie rādītāji
 
@@ -102,7 +101,7 @@ Nākamajā tabulā ir parādīts, kā galvenie apkopošanas mērījumi tiek izma
 | Nokavēts termiņš               | Ražošanas pasūtījums\[Ir RAF'ed\] = TRUE && Ražošanas pasūtījums\[Piegādātā vērtība\] = 1 |
 | Pirms termiņa                 | Ražošanas pasūtījums\[Is RAF'ed\] = TRUE && Ražošanas pasūtījums\[Kavētās dienas\] \< 0 |
 | Ir pilnībā               | Ražošanas pasūtījums\[Derīgais daudzums\] \>= Ražošanas pasūtījums\[Plānotais daudzums\] |
-| Ir RAF'ed                | Ražošanas pasūtījums\[Ražošanas statusa vērtība\] = 5 \|\| Ražošanas pasūtījums\[Ražošanas statusa vērtība\] = 7 |
+| Ir RAF'ed                | Ražošanas pasūtījums\[Ražošanas statusa vērtība\] = 5 \|\| Ražošanas pasūtījums\[Ražošanas statusa vērtība\] = 7 |
 | Nokavēts termiņš un pilnībā           | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Ir pilnībā\] = TRUE && Ražošanas pasūtījums\[Nokavēts termiņš\] = TRUE)) |
 | Nokavēts termiņš \#                  | COUNTROWS(FILTER(Ražošanas pasūtījums, Ražošanas pasūtījums\[Nokavēts termiņš\] = TRUE)) |
 | Nokavēts termiņš, %                   | IFERROR( IF(Ražošanas pasūtījums\[Nokavēts termiņš \#\] \<\> 0, Ražošanas pasūtījums\[Nokavēts termiņš \#\], IF(Ražošanas pasūtījums\[Pasūtījumu kopskaits\] = 0, BLANK(), 0)) / Ražošanas pasūtījums\[Pasūtījumu kopskaits\], BLANK()) |
@@ -111,7 +110,7 @@ Nākamajā tabulā ir parādīts, kā galvenie apkopošanas mērījumi tiek izma
 | Pasūtījumu kopskaits             | COUNTROWS(Ražošanas pasūtījums) |
 | Kopējais daudzums           | SUM(Ražošanas pasūtījums\[Derīgais daudzums\]) + SUM(Ražošanas pasūtījums\[Brāķa daudzums\]) |
 | Brāķa proporcija (miljonās daļas)        | IF(Maršruta darbības\[Apstrādātais daudzums\] = 0, BLANK(), (SUM(Maršruta darbības\[Brāķa daudzums\]) / Maršruta darbības\[Apstrādātais daudzums\]) \* 1000000) |
-| Apvienotā brāķa proporcija (miljonās daļas) | IF(Maršruta darbības\[Kopējais apvienotais daudzums\] = 0, BLANK(), (SUM(Maršruta darbības\[Brāķa daudzums\]) / Maršruta darbības\[Kopējais apvienotais daudzums\])\* 1000000) |
+| Apvienotā brāķa proporcija (miljonās daļas) | IF(Maršruta darbības\[Kopējais apvienotais daudzums\] = 0, BLANK(), (SUM(Maršruta darbības\[Brāķa daudzums\]) / Maršruta darbības\[Kopējais apvienotais daudzums\]) \* 1000000) |
 | Apstrādātais daudzums       | SUM(Maršruta darbības\[Derīgais daudzums\]) + SUM(Maršruta darbības\[Brāķa daudzums\]) |
 | Kopējais apkopotais daudzums     | SUM(Ražošanas pasūtījums\[Derīgais daudzums\]) + SUM(Maršruta darbības\[Brāķa daudzums\]) |
 

@@ -2,7 +2,6 @@
 title: Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 description: Šajā tēmā skaidrots, kā noformēt elektronisko pārskatu (ER) risinājumu, lai izdrukātu pielāgotu pārskatu.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562615"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743731"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -93,7 +92,7 @@ Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas adminis
         - [Pārskata kontrolētāja klases pievienošana](#ControllerClass)
         - [Izvēlnes elementa pievienošana](#MenuItem)
         - [Izvēlnes krājuma pievienošana izvēlnei](#Menu)
-        - [Visual Studio projekta izveide](#BuildVSProject)
+        - [Izveidot Visual Studio projektu](#BuildVSProject)
 
     - [Formāta palaišana no programmas](#RunFormatFromApp)
 
@@ -1042,7 +1041,7 @@ Pievienojiet jūsu Visual Studio projektam jaunu **QuestionnairesErReport** izv�
 
 Pievienojiet projektam esošu **KM** izvēlni jūsu Visual Studio projektam. Šai izvēlnei ir jāpievieno jauns **Izejošā** tipa **QuestionnairesErReport** krājums izvēlnei. Šim krājumam ir jāattiecas uz **QuestionnairesErReport** izvēlnes elementu, kas aprakstīts iepriekšējā sadaļā.
 
-#### <a name="build-a-visual-studio-project"></a><a name="BuildVSProject"></a>Visual Studio projekta izveide
+#### <a name="build-a-visual-studio-project"></a><a name="BuildVSProject"></a>Izveidot Visual Studio projektu
 
 Izveidojiet savu projektu, lai jaunais izvēlnes elements būtu pieejams lietotājiem.
 

@@ -2,7 +2,6 @@
 title: Izmantojiet SAVIENOJUMA datu avotus ER modeļu kartējumos, lai iegūtu datus no vairākām programmas tabulām
 description: Šajā tēmā ir paskaidrots, kā elektroniskajos pārskatos (Electronic Reporting — ER) varat izmantot SAVIENOJUMA veida datu avotus.
 author: NickSelin
-manager: AnnBe
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: e872ff38d2115273fe76f5a2f54197c55cc7a2e0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565545"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743981"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Izmantojiet SAVIENOJUMA datu avotus, lai iegūtu datus no vairākām programmas tabulām elektronisko pārskatu (ER) modeļu kartējumos
 
@@ -122,12 +121,12 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 2. Atlasiet **Noformētājs**, lai atvērtu kartējumu sarakstu.
 3. Atlasiet **Noformētājs**, lai pārskatītu kartēšanas detalizētu informāciju.
 4. Atlasiet **Rādīt detalizētu informāciju**.
-5. Konfigurācijas kokā izvērsiet **Set1**  un **Set1.Details** datu modeļa vienības.
+5. Konfigurācijas kokā izvērsiet **Set1** un **Set1.Details** datu modeļa vienības.
 
     1. Saistīšanas **Detalizēta informācija: ierakstu saraksts = versijas** norāda, ka vienums **Set1.Details** ir saistīts ar **Versijas** datu avotu, kas atgriež tabulas **ERSolutionVersionTable** ierakstus. Katrs šīs tabulas ieraksts pārstāv vienu ER konfigurācijas versiju. Šīs tabulas saturs ir parādīts kopsavilkuma cilnē **Versijas** cilnē, kas atrodas lapā **Konfigurācijas**.
-    2. Saistīšanas **ConfigurationVersion: virkne = @.PublicVersionNumber** nozīmē, ka katras ER konfigurācijas versijas publiskās versijas vērtība tiek ņemta no tabulas  **ERSolutionVersionTable** lauka **PublicVersionNumber** un ievietota vienībā **ConfigurationVersion**.
+    2. Saistīšanas **ConfigurationVersion: virkne = @.PublicVersionNumber** nozīmē, ka katras ER konfigurācijas versijas publiskās versijas vērtība tiek ņemta no tabulas **ERSolutionVersionTable** lauka **PublicVersionNumber** un ievietota vienībā **ConfigurationVersion**.
     3. Saistīšana **ConfigurationTitle: virkne = @.'>Relations'.Solution.Name** norāda, ka ER konfigurācijas nosaukums ir ņemts no tabulas **ERSolutionTable** lauka **Nosaukums**, izmantojot daudzi pret vienu relāciju (**'>Relācijas'**) starp tabulām **ERSolutionVersionTable** un **ERSolutionTable**. Dotās programmas instances ER konfigurāciju nosaukumi tiek rādīti konfigurāciju kokā lapā **Konfigurācijas**.
-    4. Saistīšana **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** nozīmē, ka konfigurācijas nodrošinātāja, kam pieder pašreizējā konfigurācija, nosaukums ir ņemts no tabulas **ERVendorTable** lauka **Nosaukums**, ko novērtē, izmantojot daudzi pret vienu relāciju starp tabulām **ERSolutionTable** un **ERVendorTable**. ER konfigurācijas nodrošinātāju nosaukumi tiek rādīti konfigurāciju kokā **Konfigurācijas** lapā katras konfigurācijas lapas galvenē. Visu ER konfigurācijas nodrošinātāju sarakstu var atrast tabulas lapā **Organizācijas administrēšana \> Elektroniskie pārskati\> Konfigurācijas nodrošinātājs**.
+    4. Saistīšana **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** nozīmē, ka konfigurācijas nodrošinātāja, kam pieder pašreizējā konfigurācija, nosaukums ir ņemts no tabulas **ERVendorTable** lauka **Nosaukums**, ko novērtē, izmantojot daudzi pret vienu relāciju starp tabulām **ERSolutionTable** un **ERVendorTable**. ER konfigurācijas nodrošinātāju nosaukumi tiek rādīti konfigurāciju kokā **Konfigurācijas** lapā katras konfigurācijas lapas galvenē. Visu ER konfigurācijas nodrošinātāju sarakstu var atrast tabulas lapā **Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas nodrošinātājs**.
 
     ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set1Review.PNG)
 
@@ -143,7 +142,7 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
 Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konfigurēts, lai piekļūtu informācijai par ER konfigurāciju versijām, detalizētai informācijai par konfigurācijām un konfigurācijas nodrošinātājiem, izmantojot **Savienošanas** datu avota veidu.
 
-1. Konfigurācijas kokā izvērsiet **Set2**  un **Set2.Details** datu modeļa vienības. Saistījums **Detalizēta informācija: ierakstu saraksts = detalizēta informācija** norāda, ka vienība **Set2.Details** ir saistīta ar datu avotu **Detalizēta informācija**, kas ir konfigurēts kā **Savienojuma** veida datu avots.
+1. Konfigurācijas kokā izvērsiet **Set2** un **Set2.Details** datu modeļa vienības. Saistījums **Detalizēta informācija: ierakstu saraksts = detalizēta informācija** norāda, ka vienība **Set2.Details** ir saistīta ar datu avotu **Detalizēta informācija**, kas ir konfigurēts kā **Savienojuma** veida datu avots.
 
     ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set2Review.PNG)
 
@@ -158,13 +157,13 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
     ![SAVIENOJUMA datu avota parametru lapa](./media/GER-JoinDS-JoinDSEditor.PNG)
 
-    Šī lapa tiek izmantota, lai izstrādātu nepieciešamo **Savienojuma veida** datu avotu. Izpildlaikā šis datu avots izveidos vienu saistītu ierakstu sarakstu no datu avotiem, kas atrodas režģī **Savienotais saraksts**. Ierakstu savienošana tiks sākta no datu avota **ConfigurationProviders**, kas atrodas režģī kā pirmais (kolonna **Veids** tam ir tukša). Visu citu datu avotu ieraksti pēc tam tiks pievienoti pamata datu avota ierakstiem, pamatojoties uz to secību šajā režģī. Visiem savienošanās datu avotiem jābūt konfigurētiem kā datu avotiem, kas ligzdoti mērķa datu avotā (`1Versions` datu avots ir ligzdots zem `1Configurations`; `1Configurations` datu avots ir ligzdots zem **ConfigurationProviders**). Katram konfigurētajam datu avotam ir jāietver savienojuma nosacījumi. Šī konkrētā **Savienojuma** datu avotā ir definēti tālāk norādītie savienojumi.
+    Šī lapa tiek izmantota, lai izstrādātu nepieciešamo **Savienojuma veida** datu avotu. Izpildlaikā šis datu avots izveidos vienu saistītu ierakstu sarakstu no datu avotiem, kas atrodas režģī **Savienotais saraksts**. Ierakstu savienošana tiks sākta no datu avota **ConfigurationProviders**, kas atrodas režģī kā pirmais (kolonna **Veids** tam ir tukša). Visu citu datu avotu ieraksti pēc tam tiks pievienoti pamata datu avota ierakstiem, pamatojoties uz to secību šajā režģī. Visiem savienošanās datu avotiem jābūt konfigurētiem kā datu avotiem, kas ligzdoti mērķa datu avotā (`1Versions` datu avots ir ligzdots zem `1Configurations`; `1Configurations` datu avots ir ligzdots zem **ConfigurationProviders** ). Katram konfigurētajam datu avotam ir jāietver savienojuma nosacījumi. Šī konkrētā **Savienojuma** datu avotā ir definēti tālāk norādītie savienojumi.
 
-    - Katrs **ConfigurationProviders** datu avota ieraksts (attiecas uz **ERVendorTable** tabulu) ir savienots ar tikai tādiem **1Konfigurācijas** ierakstiem (minēts tabulā **ERSolutionTable**), kuriem ir tāda pati vērtība laukā **SolutionVendor** un **RecId**. **Iekšējā savienojuma** veids tiek lietots šim savienojumam, kā arī tālāk minētajiem nosacījumiem ierakstu saskaņošanai.
+    - Katrs **ConfigurationProviders** datu avota ieraksts (attiecas uz **ERVendorTable** tabulu) ir savienots ar tikai tādiem **1Konfigurācijas** ierakstiem (minēts tabulā **ERSolutionTable** ), kuriem ir tāda pati vērtība laukā **SolutionVendor** un **RecId**. **Iekšējā savienojuma** veids tiek lietots šim savienojumam, kā arī tālāk minētajiem nosacījumiem ierakstu saskaņošanai.
 
     FILTRS (Konfigurācijas, Configurations.SolutionVendor = ConfigurationProviders.RecId)
 
-    - Katrs **1Konfigurācijas** datu avota ieraksts (attiecas uz **ERSolutionTable** tabulu) ir savienots ar tikai tādiem **1Versijas** ierakstiem (minēts tabulā **ERSolutionVersionTable**), kuriem ir tāda pati vērtība laukā **Solution** un **RecId**. **Iekšējā savienojuma** veids tiek lietots šim savienojumam, kā arī tālāk minētajiem nosacījumiem ierakstu saskaņošanai.
+    - Katrs **1Konfigurācijas** datu avota ieraksts (attiecas uz **ERSolutionTable** tabulu) ir savienots ar tikai tādiem **1Versijas** ierakstiem (minēts tabulā **ERSolutionVersionTable** ), kuriem ir tāda pati vērtība laukā **Solution** un **RecId**. **Iekšējā savienojuma** veids tiek lietots šim savienojumam, kā arī tālāk minētajiem nosacījumiem ierakstu saskaņošanai.
 
     FILTRS (ConfigurationVersions, ConfigurationVersions.Solution = ConfigurationProviders.'1Configurations'.RecId)
 

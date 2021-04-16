@@ -2,7 +2,6 @@
 title: Word satura vadīklu likvidēšana ģenerētajos pārskatos
 description: Šajā tēmā paskaidrots, kā konfigurēt elektronisko pārskatu (ER) formātu, lai ģenerētu pārskatus kā Microsoft Word failus, kuros satura vadīklas ir likvidētas.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 81ad25514154dd8982aa4f849f0b2bfeb85270f7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562122"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753605"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Word satura vadīklu likvidēšana ģenerētajos pārskatos
 
@@ -92,7 +91,7 @@ Pašlaik SampleVendPaymDocReportBounded.docx fails tiek izmantots kā veidne, la
 
 1. Pārejiet uz sadaļu **Kreditori** \> **Maksājumi** \> **Maksājumu žurnāls**.
 2. Lapas **Kreditora maksājumi** cilnē **Saraksts** atlasiet visus maksājumus.
-3. Atlasiet **Maksājuma statusu**\>**Nav**.
+3. Atlasiet **Maksājuma statusu** \> **Nav**.
 4. Atlasiet **Ģenerēt maksājumus**.
 5. Laukā **Maksājuma metode** atlasiet **Elektronisks**.
 6. Laukā **Bankas konts** atlasiet **GBSI OPER**.
@@ -109,7 +108,7 @@ Ja vēlaties likvidēt kopsavilkuma sadaļu ģenerētajā dokumentā, pamatojoti
 
 1. Pārejiet uz sadaļu **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu sniegšana** un atveriet ER formāta melnraksta versiju rediģēšanai.
 2. Atlasiet **Pārskatu konfigurācijas**. 
-3. Lapā **Konfigurācijas** konfigurācijas koka skatā izvērsiet  **Maksājuma modelis** \> **Parauga darblapas pārskats**.
+3. Lapā **Konfigurācijas** konfigurācijas koka skatā izvērsiet **Maksājuma modelis** \> **Parauga darblapas pārskats**.
 4. Atlasiet **Noformētājs**.
 5. Lapā **Formāta veidotājs** izvērsiet **Word** un atlasiet **SummaryLines**.
 6. Cilnē **Kartēšana** pievienojiet jaunu datu avotu, lai lietotājam izpildlaikā uzdotu jautājumu, vai kopsavilkuma sadaļa būtu jālikvidē.
@@ -137,7 +136,7 @@ Ja vēlaties likvidēt kopsavilkuma sadaļu ģenerētajā dokumentā, pamatojoti
     3. Atlasiet **Saglabāt** un aizvēriet lapu **Formulas veidotājs** .
 
         > [!NOTE]
-        > Šī formula tiks lietota ģenerētam dokumentam pēc **visu pārējo formāta elementu izpildes**. Lai lietotu šo formulu, Word satura vadīkla, kas ir atzīmēta kā formāta elements, kam šī formula ir konfigurēta (šajā gadījumā **SummaryLines**) atrodas ģenerētā dokumentā. Pēc tam šī satura vadīkla tiek pilnībā noņemta kopā ar to rindu Word tabulā, kurā tā atrodas. Kopsavilkuma sadaļas detalizētās informācijas rinda tiek izņemta no ģenerētā dokumenta.
+        > Šī formula tiks lietota ģenerētam dokumentam pēc **visu pārējo formāta elementu izpildes**. Lai lietotu šo formulu, Word satura vadīkla, kas ir atzīmēta kā formāta elements, kam šī formula ir konfigurēta (šajā gadījumā **SummaryLines** ) atrodas ģenerētā dokumentā. Pēc tam šī satura vadīkla tiek pilnībā noņemta kopā ar to rindu Word tabulā, kurā tā atrodas. Kopsavilkuma sadaļas detalizētās informācijas rinda tiek izņemta no ģenerētā dokumenta.
         >
         > Izstrādes laikā varat konfigurēt formulu **Noņemts** formāta elementam, kaut arī Word veidnē, kuru izmantojat, nevienai satura vadīklai, ko izmantojat, nav taga, kas atbilst formāta elementa nosaukumam, kam konfigurēts rekvizīts **Noņemts**. Apstiprinot formātu izstrādes laikā, saņemsit [brīdinājumu](er-components-inspections.md#i14) par šo neatbilstību.
         >

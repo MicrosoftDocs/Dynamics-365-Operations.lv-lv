@@ -2,7 +2,6 @@
 title: Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 description: Šī tēma sniedz informāciju par to, kā izmantot Aprēķināto lauka tipu ER datu avotiem.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569205"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749493"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Atbalsta Aprēķināto lauka tipa ER datu avotu parametru izsaukumus.
 
@@ -194,7 +193,7 @@ Lapā **Formāta veidotājs** konfigurētajam parametru aprēķinātajam laukam 
 
 ![Izvērsts aprēķināto lauku līmeņu saraksts](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Izmantojiet konfigurēto aprēķināto lauku saistījuma formāta elementiem
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Izmantojiet konfigurēto aprēķināto lauku saistījuma formāta elementiem
 
 1. Atlasiet **Model.Data2.Levels**, lai atlasītu konfigurēto aprēķināto lauku.
 2. Atlasiet **Statement.Taxation.Regular** formāta elementu.
@@ -215,7 +214,7 @@ Lapā **Formāta veidotājs** konfigurētajam parametru aprēķinātajam laukam 
 9. Atlasiet **Saistīt**.
 10. Atlasiet **Jā**, lai apstiprinātu pašlaik izmantotā datu avota **Level3** aizstāšanu ar jauno avotu **Līmeņi** visos ligzdotu formātu elementos zem atlasītā formāta elementa.
 
-   Norādot aprēķinātā lauka parametru argumentu XML elementam, kas apzīmē nodokļu līmeni (piemēram, **Model.Data2.Levels("Reduced")** kā teksta vērtība), jums nav jādara tas pats ligzdotajiem XML atribūtiem — to saistījumi automātiski mantos argumenta vērtību, kas definēta pamatlīmenī (**Model.Data2.Levels.aggregated.Base**, nevis **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Norādot aprēķinātā lauka parametru argumentu XML elementam, kas apzīmē nodokļu līmeni (piemēram, **Model.Data2.Levels(&quot;Reduced")** kā teksta vērtība), jums nav jādara tas pats ligzdotajiem XML atribūtiem — to saistījumi automātiski mantos argumenta vērtību, kas definēta pamatlīmenī (**Model.Data2.Levels.aggregated.Base**, nevis **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Jebkura parametra aprēķinātā lauka atkārtotie izsaukumi netiek atbalstīti.
 
