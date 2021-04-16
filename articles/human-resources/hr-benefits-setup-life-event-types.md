@@ -2,11 +2,9 @@
 title: Konfigurēt dzīves notikumu tipus
 description: Microsoft Dynamics 365 Human Resources izmanto dzīves notikumu veidus, lai definētu notikumus, kas ir atļauts atjaunināt darbinieku atvieglojumu reģistrāciju.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 44aecf003432bf803b5658f1eb89298d03f53423
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466042"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805638"
 ---
 # <a name="configure-life-event-types"></a>Konfigurēt dzīves notikumu tipus
 
@@ -81,7 +79,7 @@ Kad izveidojat dzīves notikuma veidu, varat izvēlēties kādu no tālāk norā
 | **Ar tiesu piespriests atbalsts** | Nodarbinātais > Profils > Personiskā informācija > Personiskie Kontakti > Pakārtotie > Atbalsts pēc tiesas prasības (QMSCO/QDRO un spēkā stāšanās datumi | Neaktivizē nevienu automātisko atjauninājumu. Tas neietekmē piemērojamību; tas ieraksta dzīves notikumu. |
 | **Miris** | Nodarbinātais > Profils > Personiskā informācija > Miršanas datums | Ir ievadīts miršanas datums |
 | **Apliecinājums par apdrošināšanu** | <ul><li>Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture > Datumu pārvaldnieka > Informācija par atvieglojumiem</li><li> Nodarbinātais > Nodarbinātība > Informācija par atvieglojumiem > Pārbaudes datums</li></ul> | <ul><li>Nodarbinātais ievada pārbaudes datumu</li><li>Nodarbinātais iestata EvidenceOfInsurability lauku uz **Jā**</li></ul> |
-| **Saņēmējs** | Nodarbinātais >Profils > Personiskā informācija > Personiskie kontakti | Tiek pievienota personīgā kontaktpersona un ir aizpildīts lauks **Saņēmējs** un **Spēkā stāšanās datums**. Personiskajai kontaktpersonai ir jābūt ar veidu **Bērns**, **Laulātais**, **Dzīvesbiedrs**, **Atvase**, **Ģimenes kontaktpersona**, **Cita kontaktpersona**, **Vecāks**,**Saņēmēja īpašums**,**Saņēmēja organizācija** vai **Saņēmēja trests**. |
+| **Saņēmējs** | Nodarbinātais >Profils > Personiskā informācija > Personiskie kontakti | Tiek pievienota personīgā kontaktpersona un ir aizpildīts lauks **Saņēmējs** un **Spēkā stāšanās datums**. Personiskajai kontaktpersonai ir jābūt ar veidu **Bērns**, **Laulātais**, **Dzīvesbiedrs**, **Atvase**, **Ģimenes kontaktpersona**, **Cita kontaktpersona**, **Vecāks**, **Saņēmēja īpašums**, **Saņēmēja organizācija** vai **Saņēmēja trests**. |
 | **Darbinieka medicīniskā aprūpe** | Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture > Datumu pārvaldnieka > Informācija par atvieglojumiem | <ul><li>**EhrMedicareEligibilityDate** ir mainīts</li><li>**MedicareEligibile** ir iestatīts uz **Jā**</li></ul> |
 | **Dzimšanas diena** | Nodarbinātais > Profils > Personiskā informācija > Personiskās kontaktpersonas > Informācija par pakārtoto > Informācija par dzimšanu | Tiek pievienots vai atjaunināts dzimšanas datums (ne pēc dzīves notikuma izmaiņu apstrādes). Piemērs: Ja bērna **Personīgā kontakta piemērojamības opcijas** ir iestatītas uz Vecums: 26 sadaļā Iestatījumi > Atvieglojumi > Personiskās kontaktpersonas piemērojamības opcijas un, ja cilvēkresursu personāls veic dzīves notikuma izmaiņas jebkurā dienā pēc tam, kad pakārtotais kļuvis 26 gadu vecs, parādās ziņojums, ka uz pakārtoto vairs neattiecas nodrošinājums. |
 | **Nodarbinātā piemērojamības izmaiņas (nav noteiktas ASV)** | <ul><li>Nodarbinātais > Nodarbinātība</li><li>Nodarbinātais > Nodarbinātais > Versijas > Nodarbinātības vēsture</li></ul> | <ul><li>Nodarbinātā veida, nodarbinātības kategorijas vai piecu lietotājam definējamu piemērojamības lauku maiņa</li><li>**HcmEmploymentDetail.EhrEmploymentType** izmaiņas (tiek apstrādātas tikai *mainītiem* nodarbinātības informācijas ierakstiem, bet ne *jauniem* nodarbinātības ierakstiem, piemēram, atkārtotai līgšanai vai pārtraukšanai).</li></ul> |

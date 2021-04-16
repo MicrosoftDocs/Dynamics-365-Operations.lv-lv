@@ -2,7 +2,6 @@
 title: Aparatūras lieluma maiņas prasības lokālām vidēm
 description: Šajā tēmā uzskaitītas aparatūras lieluma maiņas prasības lokālai videi.
 author: sericks007
-manager: AnnBe
 ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 07bbfa7c655a7125e0a9c61d2af2ba49b45782b0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570877"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748749"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
@@ -43,8 +42,8 @@ Skatoties attēlā no kreisās uz labo pusi, pirmais un svarīgākais faktors, k
 
 Tāpat kā apzināties noslodzi, kas ietekmē jūsu infrastruktūru, jums arī padziļinātāk jāizprot tālāk norādītie faktori.
 
-- **Transakcijas** — parasti transakcijām ir noteiktas noslodzes virsotnes dienā/nedēļā. Tas galvenokārt ir atkarīgs no transakcijas tipa. Laika un izdevumu ieraksti parasti sekmē maksimālo noslodzi vienreiz nedēļā, savukārt pārdošanas pasūtījumu ieraksti bieži sistēmā nonāk lielā apjomā, izmantojot integrāciju, vai tiek ievadīti pakāpeniski dienas laikā.
-- **Vienlaicīgo lietotāju skaits** — vienlaicīgo lietotāju skaits ir otrs svarīgākais lieluma maiņas faktors. Uzticamu lieluma maiņas novērtējumu nevar iegūt, pamatojoties uz vienlaicīgo lietotāju skaitu, tādēļ, ja šie ir vienīgie jums pieejami dati, aprēķiniet aptuveno skaitu un, kad jūsu rīcībā ir vairāk datu, atkārtoti pārskatiet šo informāciju. Precīza vienlaicīgo lietotāju definīcija ietver tālāk norādīto.
+- **Transakcijas** — parasti transakcijām ir noteiktas noslodzes virsotnes dienā/nedēļā. Tas galvenokārt ir atkarīgs no transakcijas tipa. Laika un izdevumu ieraksti parasti sekmē maksimālo noslodzi vienreiz nedēļā, savukārt pārdošanas pasūtījumu ieraksti bieži sistēmā nonāk lielā apjomā, izmantojot integrāciju, vai tiek ievadīti pakāpeniski dienas laikā.
+- **Vienlaicīgo lietotāju skaits** — vienlaicīgo lietotāju skaits ir otrs svarīgākais lieluma maiņas faktors. Uzticamu lieluma maiņas novērtējumu nevar iegūt, pamatojoties uz vienlaicīgo lietotāju skaitu, tādēļ, ja šie ir vienīgie jums pieejami dati, aprēķiniet aptuveno skaitu un, kad jūsu rīcībā ir vairāk datu, atkārtoti pārskatiet šo informāciju. Precīza vienlaicīgo lietotāju definīcija ietver tālāk norādīto.
 
     - Nosauktie lietotāji nav vienlaicīgi lietotāji.
     - Vienlaicīgie lietotāji vienmēr ir nosaukto lietotāju apakškopa. 
@@ -56,10 +55,10 @@ Tāpat kā apzināties noslodzi, kas ietekmē jūsu infrastruktūru, jums arī p
     - Darbs ar transakcijām/pieprasījumiem uzskaites laikā.
     - Sesija nav dīkstāves sesija.
 
-- **Datu salikums** — tas galvenokārt attiecas uz to, kā sistēma tiks iestatīta un konfigurēta. Piemēram, cik jums būs juridisko personu, krājumu, MK līmeņu un cik sarežģīti būs drošības iestatījumi. Katram no šiem faktoriem var būt neliela ietekme uz veiktspēju, tāpēc šos faktorus var neitralizēt, veicot gudras izvēles attiecībā uz infrastruktūru.
-- **Paplašinājumi** — pielāgojumi var būt vienkārši vai sarežģīti. Pielāgojumu skaitam un sarežģītības un lietojuma raksturam ir dažāda ietekme uz nepieciešamo infrastruktūras lielumu. Sarežģītiem pielāgojumiem ir ieteicams veikt veiktspējas novērtējumus, lai nodrošinātu ne tikai to efektivitātes pārbaudi, bet arī izpratni par infrastruktūras vajadzībām. Vēl būtiskāk tas ir gadījumos, kad paplašinājumi nav kodēti saskaņā ar labākajām praksēm veiktspējas un mērogojamības nodrošināšanai.
-- **Pārskatu veidošana un analīze** — šie faktori parasti ietver smagu vaicājumu palaišanu dažādām datu bāzēm sistēmā. Izprotot un samazinot dārgu pārskatu izpildes biežumu, varēsit labāk izprast to ietekmi.
-- **Trešo pušu risinājumi** — šiem risinājumiem, piemēram, ISV, ir tāda pati ietekme un ieteikumi kā paplašinājumiem.
+- **Datu salikums** — tas galvenokārt attiecas uz to, kā sistēma tiks iestatīta un konfigurēta. Piemēram, cik jums būs juridisko personu, krājumu, MK līmeņu un cik sarežģīti būs drošības iestatījumi. Katram no šiem faktoriem var būt neliela ietekme uz veiktspēju, tāpēc šos faktorus var neitralizēt, veicot gudras izvēles attiecībā uz infrastruktūru.
+- **Paplašinājumi** — pielāgojumi var būt vienkārši vai sarežģīti. Pielāgojumu skaitam un sarežģītības un lietojuma raksturam ir dažāda ietekme uz nepieciešamo infrastruktūras lielumu. Sarežģītiem pielāgojumiem ir ieteicams veikt veiktspējas novērtējumus, lai nodrošinātu ne tikai to efektivitātes pārbaudi, bet arī izpratni par infrastruktūras vajadzībām. Vēl būtiskāk tas ir gadījumos, kad paplašinājumi nav kodēti saskaņā ar labākajām praksēm veiktspējas un mērogojamības nodrošināšanai.
+- **Pārskatu veidošana un analīze** — šie faktori parasti ietver smagu vaicājumu palaišanu dažādām datu bāzēm sistēmā. Izprotot un samazinot dārgu pārskatu izpildes biežumu, varēsit labāk izprast to ietekmi.
+- **Trešo pušu risinājumi** — šiem risinājumiem, piemēram, ISV, ir tāda pati ietekme un ieteikumi kā paplašinājumiem.
 
 ## <a name="sizing-your-environment"></a>Mainīt vides izmērus
 
@@ -117,7 +116,7 @@ Instanču skaita plānošanai izvietojumā ir pieejama [lieluma maiņas izklājl
     - 1–4 partijas pavedieni katram kodolam
     - Lielums atbilstoši pakešizpildes loga raksturlielumiem
 
-- Ņemiet vērā, ka AOS, datu pārvaldībai un partijai platformā Service Fabric ir viena loma. Ir jāmaina lielums atbilstoši šīm trīs darba slodzēm kopā, nevis atsevišķi kā programmā Microsoft Dynamics AX 2012.
+- Ņemiet vērā, ka AOS, datu pārvaldībai un partijai platformā Service Fabric ir viena loma. Ir jāmaina lielums atbilstoši šīm trīs darba slodzēm kopā, nevis atsevišķi kā programmā Microsoft Dynamics AX 2012.
 - Ir spēkā tie paši SQL Server mainīguma faktori.
 
 ### <a name="high-availability"></a>Augsta pieejamība

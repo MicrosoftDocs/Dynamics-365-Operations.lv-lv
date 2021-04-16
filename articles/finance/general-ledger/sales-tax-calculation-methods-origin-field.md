@@ -2,11 +2,9 @@
 title: PVN aprēķina metodes laukā Izcelsme
 description: Šajā rakstā ir aprakstītas lauka Izcelsme opcijas PVN kodu lapā un kā PVN tiek aprēķināts atkarībā no atlasītās PVN koda opcijas.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be935b80e06158d9634989ba03747f4a59247f8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204934"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815360"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVN aprēķina metodes laukā Izcelsme
 
@@ -38,7 +36,7 @@ Aprēķina metode Procenti no neto summas ir lauka Izcelsme noklusējuma vērtī
 
 Nodokļa likme ir 25%. Rēķina rindā ir norādīts daudzums 10 vienības ar vienības cenu 1,00, un debitors var saņemt rindas atlaidi 10% Neto summa: (10 x 1,00) – 10% = 9,00 PVN: 9,00 x 25% = 2,25 Kopsumma: 9,00 + 2,25 = 11,25
 
-## <a name="percentage-of-gross-amount"></a> Procenti no bruto summas
+## <a name="percentage-of-gross-amount"></a>Procenti no bruto summas
 Ja atlasāt metodi Procenti no bruto summas, PVN tiek aprēķināts kā procenti no bruto pārdošanas summas. Bruto summa ir rindas neto summa, ieskaitot visus rindas nodokļus un nodevas, izņemot to vienu nodokli, kuram lauka Izcelsme vērtība ir Procenti no bruto summas.
 ### <a name="example"></a>Paraugs
 
@@ -71,7 +69,7 @@ Neto summa: 10,00 1. NODOKLIS: 10,00 x 10% = 1,00 2. NODOKLIS: 1,00 x 20% = 0,20
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nevar veikt daudzlīmeņu nodokļa aprēķinu, pamatojoties uz nodokli. Nevar aprēķināt nodokli, pamatojoties uz nodokli, kas jau ir aprēķināts, pamatojoties uz citu nodokli. Transakcijai var veikt vairākus vienlīmeņa nodokļa koda aprēķinus, pamatojoties uz nodokli. |
 
-## <a name="amount-per-unit"></a> Summa uz vienu vienību
+## <a name="amount-per-unit"></a>Summa uz vienu vienību
 Ja atlasāt lauka Izcelsme vērtību Sumam uz vienu vienību, PVN tiek aprēķināts kā fiksēta summa uz vienību, kas tiek reizināta ar dokumenta rindā ievadīto daudzumu. Laukā Vienība ir jāatlasa vienība. Summa uz vienu vienību tiek norādīta lapā PVN koda vērtības.
 ### <a name="example"></a>Paraugs
 
@@ -81,7 +79,7 @@ PVN kods ir iestatīts kā: USD 1,20 uz vienu vienību = kasti Pārdošanas rē�
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ja transakcija ir ievadīta, izmantojot citu vienību, nevis PVN kodam norādīto vienību, tā tiek automātiski konvertēta, pamatojoties uz vienību konvertācijām, kas ir iestatītas lapā Mērvienību pārveidošana. |
 
-###  <a name="amount-per-unit-additional-option"></a> Summa uz vienību, papildu opcija
+###  <a name="amount-per-unit-additional-option"></a>Summa uz vienību, papildu opcija
 
 Cilnē Aprēķins varat atlasīt, vai kā summa uz vienību aprēķinātais nodoklis tiek aprēķināts un pieskaitīts neto pirms citiem nodokļu kodiem un tiek pieskaitīts neto summai, pirms tiek aprēķināti citi nodokļu kodi, kuriem ir atlasīta lauka Izcelsme vērtība Procenti no neto summas.
 
@@ -109,7 +107,7 @@ PVN: lauka Izcelsme vērtība ir Procenti no neto summas NODOKĻA aprēķinam ir
 
 3. un 1. piemēra rezultāti ir vienādi, jo ir tikai viens nodoklis. Pieņemsim, ka jums ir divi NODOKĻI un tikai viens no tiem ir iekļauts neto summā PVN aprēķinam. 1. NODOKLIS: 5,00, izmantojot metodi Summa uz vienu vienību un opciju Aprēķināts pirms PVN aprēķināšanas 2. NODOKLIS: 2,50, izmantojot metodi Summa uz vienu vienību un neizmantojot opciju Aprēķināts pirms PVN aprēķināšanas PVN: 25%, izmantojot metodi Procenti no neto summas Neto summa: 10,00 1. NODOKLIS: 1 x 5,00 = 5,00 2. NODOKLIS: 1 x 2,50 = 2,50 Ar PVN apliekamā neto summa: 10,00 + 5,00 = 15,00 PVN: 15,00 x 25% = 3,75 PVN kopā, ieskaitot nodokļus: 5,00 + 2,50 + 3,75 = 11,25 Kopsumma: 10,00 + 11,25 = 21,25 25% PVN tiek aprēķināts summai, ko veido neto summa (10,00) + 1. NODOKLIS (5,00) = 15,00. 2. NODOKLIS tiek pieskaitīts nodokļu summai pēc PVN aprēķināšanas.
 
-## <a name="calculated-percentage-of-net-amount"></a> Neto summai aprēķinātie procenti
+## <a name="calculated-percentage-of-net-amount"></a>Neto summai aprēķinātie procenti
 Izmantojot metodi Neto summai aprēķinātie procenti, nodokļu aprēķins tiek veikts atšķirīgi atkarībā no dokumenta vai žurnāla parametra Summas ietver PVN iestatījuma.
 ### <a name="example-1"></a>1. piemērs
 

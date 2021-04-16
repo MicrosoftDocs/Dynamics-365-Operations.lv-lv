@@ -2,7 +2,6 @@
 title: Kopējo izmaksu modulis
 description: Kopējo izmaksu modulis palīdz uzņēmumiem racionalizēt ienākošās kravas nosūtīšanas darbības, sniedzot lietotājiem pilnīgu finanšu un nepilnu kontroli pār importēto kravu no ražotāja uz noliktavu.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500336"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823341"
 ---
 # <a name="landed-cost-module"></a>Kopējo izmaksu modulis
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **Kopējo izmaksu** modulis palīdz uzņēmumiem racionalizēt ienākošās kravas nosūtīšanas darbības, sniedzot lietotājiem pilnīgu finanšu un nepilnu kontroli pār importēto kravu no ražotāja uz noliktavu. Importētajām precēm kopējās izmaksas var būt 40 procenti vai vairāk no katras importētās preces kopējām izmaksām. Tāpēc ir jāsniedz precīzs kopējo izmaksu novērtējums.
 

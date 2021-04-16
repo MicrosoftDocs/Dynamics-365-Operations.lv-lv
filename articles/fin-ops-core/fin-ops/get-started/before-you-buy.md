@@ -2,7 +2,6 @@
 title: Pirms iegādes
 description: Detalizēti norādījumi, ko izmantot, apsverot Dynamics 365 Finance, Dynamics 365 Supply Chain Management vai Dynamics 365 Commerce iegādi.
 author: ShellyBakke
-manager: AnnBe
 ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9081848bd608c817a02257a1845fe692f2833754
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 648a793b15df5597c0c4c6f2f972e28bb0ce79a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560779"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750918"
 ---
 # <a name="before-you-buy"></a>Pirms iegādes
 
@@ -83,15 +82,15 @@ Microsoft nodrošina elastīgu un nozarē vadošu atbalstu, pakalpojumus un resu
 Papildu resursus skatiet:
 
 - [Dynamics 365 atbalsts](https://www.microsoft.com/dynamics365/support)
-- [ Microsoft Dynamics mākoņpakalpojuma atbalsta priekšrocību īsā lietošanas pamācība](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Pakalpojuma Microsoft Dynamics mākoņpakalpojuma atbalsta priekšrocību īsā lietošanas pamācība](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ceturtā darbība: uzziniet par FastTrack un plānojiet savu izvietojumu
 
 Microsoft FastTrack for Dynamics 365 ir pakalpojums mūsu klientiem, kas izstrādāts ar mērķi palīdzēt jums viegli un ar pārliecību pāriet uz Dynamics 365, lai jūs ātrāk varētu realizēt biznesa vērtību. Piedaloties FastTrack programmā, saņemsit norādījumus par labākajām praksēm un to, kā plānot veiksmīgu izlaidi. Jūs uzzināsit arī veidus, kā iespējot jaunus lietotājus un paplašināt iespējas — to visu varēsit darīt sev piemērotākajā brīdī. Turklāt jums būs piekļuve Microsoft tehniskajiem resursiem, kas palīdzēs nodrošināt veiksmīgu pieredzi darbā ar Dynamics 365. Papildinformāciju skatiet sadaļā [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
 
-## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ja veicat jaunināšanu no programmas Dynamics AX 2012 vai migrēšanu no programmas AX 2009
+## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ja veicat jaunināšanu no programmas Dynamics AX 2012 vai migrēšanu no programmas AX 2009
 
-Ja esat debitors, kas veic jaunināšanu no programmas Microsoft Dynamics AX 2012 vai migrēšanu no programmas Microsoft Dynamics AX 2009, iespējams, jums ir pieejams ilgāks izmēģinājuma periods. Lai iegūtu papildu informāciju, rakstiet uz adresi <daxcf@microsoft.com>.
+Ja esat debitors, kas veic jaunināšanu no programmas Microsoft Dynamics AX 2012 vai migrēšanu no programmas Microsoft Dynamics AX 2009, iespējams, jums ir pieejams ilgāks izmēģinājuma periods. Lai iegūtu papildu informāciju, rakstiet uz adresi <daxcf@microsoft.com>.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

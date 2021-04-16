@@ -1,8 +1,7 @@
 ---
 title: Papildu filtrēšanas un vaicājumu sintakse
-description: Šajā tēmā ir aprakstītas filtrēšanas un vaicājumu opcijas, kas ir pieejamas, ja rūts Filtrēšana dialoglodziņā Detalizētā filtrēšana/kārtošana vai režģa kolonnas filtros izmantojat operatoru atbilst.
+description: Šajā tēmā aprakstītas filtrēšanas un vaicājumu opcijas dialoglodziņā Papildu filtrēšana/kārtošana un atbilstības operators filtrēšanas rūtī vai režģa kolonnas galvenes filtros.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15805e24c46603afd34d40c5f94c1422b01cab4c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fdb55a9552759e5f2b670a4eeb4e5d6572ebfb77
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566070"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744103"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Papildu filtrēšanas un vaicājumu sintakse
 
@@ -167,9 +166,9 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet datumu, kas atbilst sesijas datumam. Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</td>
 <td>
 <ul>
-<li><strong>Rīt</strong> — ievadiet <strong>(Day(1))</strong>.</li>
-<li><strong>Šodien</strong> — ievadiet <strong>(Day(0))</strong>.</li>
-<li><strong>Vakar</strong> — ievadiet <strong>(Day(-1))</strong>.</li>
+<li><strong>Rīt</strong> — ievadiet <strong>(Day(1))</strong>.</li>
+<li><strong>Šodien</strong> — ievadiet <strong>(Day(0))</strong>.</li>
+<li><strong>Vakar</strong> — ievadiet <strong>(Day(-1))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -178,8 +177,8 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet datumu diapazonu, kas atbilst sesijas datumam. Pozitīvās vērtības norāda turpmākos datumus, bet negatīvas vērtības norāda iepriekšējos datumus.</td>
 <td>
 <ul>
-<li><strong>Pēdējās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,0))</strong>.</li>
-<li><strong>Iepriekšējās 30 dienas un nākamās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,30))</strong>.</li>
+<li><strong>Pēdējās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,0))</strong>.</li>
+<li><strong>Iepriekšējās 30 dienas un nākamās 30 dienas</strong> — ievadiet <strong>(DayRange(-30,30))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -188,7 +187,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrast visus datumus pēc norādītā atbilstošā datuma.</td>
 <td>
 <ul>
-<li><strong>Vairāk nekā 30 dienas no šodienas</strong> — ievadiet <strong>(GreaterThanDate(30))</strong>.</li>
+<li><strong>Vairāk nekā 30 dienas no šodienas</strong> — ievadiet <strong>(GreaterThanDate(30))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -197,7 +196,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet visus datumu/laika ierakstus pēc pašreizējā laika.</td>
 <td>
 <ul>
-<li><strong>Visi turpmākie datumi/laiki</strong> — ievadiet <strong>(GreaterThanUtcNow())</strong>.</li>
+<li><strong>Visi turpmākie datumi/laiki</strong> — ievadiet <strong>(GreaterThanUtcNow())</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -206,7 +205,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet visus datumus pirms norādītā atbilstošā datuma.</td>
 <td>
 <ul>
-<li><strong>Mazāk nekā septiņas dienas no šodienas</strong> — ievadiet <strong>(LessThanDate(7))</strong>.</li>
+<li><strong>Mazāk nekā septiņas dienas no šodienas</strong> — ievadiet <strong>(LessThanDate(7))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -215,7 +214,7 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet visus datumu/laika ierakstus pirms pašreizējā laika.</td>
 <td>
 <ul>
-<li><strong>Vis iepriekšējie datumi/laiki</strong> — ievadiet <strong>(LessThanUtcNow())</strong>.</li>
+<li><strong>Vis iepriekšējie datumi/laiki</strong> — ievadiet <strong>(LessThanUtcNow())</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -224,8 +223,8 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet pašreizējo mēnesi datumu diapazonā, kurā norādīti mēneši.</td>
 <td>
 <ul>
-<li><strong>Iepriekšējie divi mēneši</strong> — ievadiet <strong>(MonthRange(-2,0))</strong>.</li>
-<li><strong>Nākamie trīs mēneši</strong> — ievadiet <strong>(MonthRange(0,3))</strong>.</li>
+<li><strong>Iepriekšējie divi mēneši</strong> — ievadiet <strong>(MonthRange(-2,0))</strong>.</li>
+<li><strong>Nākamie trīs mēneši</strong> — ievadiet <strong>(MonthRange(0,3))</strong>.</li>
 </ul>
 </td>
 </tr>
@@ -234,8 +233,8 @@ Papildinformāciju, kā arī vairākus piemērus par <strong>SysQueryRangeUtil</
 <td>Atrodiet pašreizējo gadu datumu diapazonā, kurā norādīti gadi.</td>
 <td>
 <ul>
-<li><strong>Nākamais gads</strong> — ievadiet <strong>(YearRange(0, 1))</strong>.</li>
-<li><strong>Iepriekšējais gads</strong> — ievadiet <strong>(YearRange(-1,0))</strong>.</li>
+<li><strong>Nākamais gads</strong> — ievadiet <strong>(YearRange(0, 1))</strong>.</li>
+<li><strong>Iepriekšējais gads</strong> — ievadiet <strong>(YearRange(-1,0))</strong>.</li>
 </ul>
 </td>
 </tr>

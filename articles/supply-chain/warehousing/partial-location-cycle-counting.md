@@ -2,11 +2,9 @@
 title: Daļēja novietojuma cikla inventarizācija
 description: Cikla inventarizācijas plāni vada faktiskās inventarizācijas operācijas. Varat pieprasīt, ka tiek uzskaitītas tikai noteiktas preces un preču varianti, nevis lai visi rīcībā esošie krājumi kādā novietojumā.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234685"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818900"
 ---
 # <a name="partial-location-cycle-counting"></a>Daļēja novietojuma cikla inventarizācija
 
@@ -48,7 +46,7 @@ Lai varētu apstrādāt daļēja cikla inventarizācijas darbu, kā daļa no cik
 Daļējā cikla inventarizācija procesam datums/laiks **Pēdējā cikla inventarizācija** novietojumam netiks atjaunināts, kaut arī visi krājumi, kas atrodas norādītajā novietojumā, tiek saskaitīti. Daļējā cikla inventarizācija neņem vērā parametru **Dienas starp cikla inventarizāciju** lapā **Cikla inventarizācijas plāni** . Daļēja cikla inventarizācija neatbalsta vienlaicīgu vairāku krājumu inventarizāciju vienā un tajā pašā novietojumā. Daļējas cikla inventarizācijas funkcionalitātes rezultātā viens un tāds pats novietojums krājumam var tikt skaitīts vairākas reizes, kad tiek palaists **Procesa cikla inventarizācijas plāns** . Lai izvairītos no šāda scenārija, norādiet filtrus laukā **Atlasīt novietojumus** .
 
 > [!NOTE]
-> Noliktavas programma nenodrošina pogu **Pievienot LP vai preci**, kad izmantojat daļēju cikla skaitīšanas procesu.
+> Warehouse Management mobile programma nenodrošina pogu **Pievienot LP vai preci**, kad izmantojat daļēju cikla skaitīšanas procesu.
 
 ## <a name="example"></a>Paraugs
 

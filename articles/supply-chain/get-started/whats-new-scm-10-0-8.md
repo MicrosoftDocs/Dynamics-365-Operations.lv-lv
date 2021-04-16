@@ -2,11 +2,9 @@
 title: Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.8. (2020. gada februāris)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.8.
 author: kamaybac
-manager: tfehr
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 25dfcfffe3fc551f2b45dfe152b72e2d65061d8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1762425642ee976b32c9daf3fbb90961fa983d19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207115"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819404"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.8. (2020. gada februāris)
 
@@ -31,7 +29,7 @@ ms.locfileid: "5207115"
 
 - **Priekšskatījuma laidiens:** 2019. gada decembris
 - **Vispārējā pieejamība (self-update):** 2020. gada janvāris
-- **Automātisks atjauninājums:** 2020 februāris
+- **Automātisks atjauninājums:** 2020. gada februāris
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 

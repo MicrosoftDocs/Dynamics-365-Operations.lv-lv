@@ -2,30 +2,27 @@
 title: Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 description: Šajā tēmā ir aprakstīts, kā izmantot darba veidnes un vietas direktīvas, lai noteiktu noliktavā veikta darba veidu un vietu.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808922"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Pieļaujamā svara preču apstrāde noliktavas pārvaldības ietvaros
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Līdzekļa pieejamība
 
@@ -52,7 +49,7 @@ Tā kā krājumu svars brīdī, kad tie tiek saņemti noliktavā, var atšķirti
 > [!NOTE]
 > Mobilās ierīces darbība izraisīs transakcijas korekcijas tikai tad, ja preces pieļaujamā svara izejošā svara novirzes metode, kas saistīta ar apstrādes politiku ir **Atļauta svara novirze**.
 
-**1. piemērs**
+### <a name="example-1"></a>1. piemērs
 
 Ražošanas procesa **Reģistrēt pabeigšanu** laikā tiek noteikts, ka tādas ienākošās plūsmas noliktavas vienības svars, kas satur astoņas pieļaujamā svara preces kastes, ir 80,1 kg. Pēc tam noliktavas vienība tiek noglabāta pabeigto preču zonā, un uzglabāšanas perioda laikā tiek zaudēta daļa svara.
 
@@ -60,7 +57,7 @@ Vēlāk, pārdošanas pasūtījuma izdošanas procesa laikā tiek noteikts, ka t
 
 Šādā gadījumā sistēma automātiski koriģē starpību, grāmatojot transakciju par trūkstošajiem 0,3 kg.
 
-**2. piemērs**
+### <a name="example-2"></a>2. piemērs
 
 Preces definīcijā ir iestatīta pieļaujamā svara vienības **Kaste** minimālā svara tolerances vērtība 8 kg un maksimālā svara tolerances vērtība 12 kg.
 
@@ -106,7 +103,7 @@ Turklāt, ja prece tiek izsekota ar etiķeti, pastāv parametrs **Izejošo etiķ
 **Ja tiek izmantota pieļaujamā svara etiķetes izsekošanas metode**, katrai saņemtajai pieļaujamā svara vienībai vienmēr ir jāizveido etiķete un katrai etiķetei vienmēr ir jābūt saistītai ar svaru.
 
 Piemēram, tiek izmantota pieļaujamā svara vienība **Kaste** un jūs saņemat vienu paleti ar astoņām kastēm. Šādā gadījumā ir jāizveido astoņas unikālas pieļaujamā svara etiķetes un ar katru etiķeti ir jāsaista svars. Atkarībā no ienākošās plūsmas pieļaujamā svara etiķetes var noteikt visu astoņu kastu svaru un pēc tam ar katru kasti saistīt vidējo svaru vai arī katrai kastei var noteikt unikālu svaru.
-Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**, ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc noliktavas programma neprasa, lai tiktu tvertas pieļaujamā svara etiķetes kā daļa no ražošanas pārskata kā pabeigtas darbības.
+Lietojot līdzekli **Izmantot esošās pieļaujamā svara birkas, atskaitoties par ražošanas pasūtījumiem kā pabeigtiem**, ar procesu, kas iespējots, izmantojot mobilās ierīces izvēlnes elementu, krājumi tiek atjaunināti, pamatojoties uz esošo pieļaujamā svara birkas informāciju. Tāpēc Warehouse Management mobile programma neprasa, lai tiktu tvertas pieļaujamā svara etiķetes kā daļa no ražošanas pārskata kā pabeigtas darbības.
 
 **Ja netiek izmantota pieļaujamā svara etiķešu izsekošanas metode**, var noteikt katras dimensiju kopas (piemēram, katras noliktavas vienības un izsekošanas dimensijas) svaru. Svaru var arī noteikt apkopotajā līmenī, piemēram, piecām noliktavas vienībām (paletēm).
 
@@ -194,7 +191,11 @@ Dažas darbplūsmas neatbalsta pieļaujamā svara preču apstrādi noliktavas p�
 
 ### <a name="catch-weight-tags"></a>Pieļaujamā svara etiķetes
 
-Pieļaujamā svara etiķeti var izveidot, izmantojot noliktavas programmas procesu, to var manuāli izveidot veidlapā vai izveidot, izmantojot datu elementa procesu. Ja pieļaujamā svara etiķete tiek saistīta ar ienākošā pirmdokumenta rindu, piemēram, pirkšanas pasūtījuma rindu, etiķete tiek reģistrēta. Ja rinda tiek izmantota izejošai apstrādei, etiķete tiks atjaunināta, kad būs nosūtīta.
+Pieļaujamā svara etiķeti var izveidot, izmantojot Warehouse Management mobile programmas procesu, to var manuāli izveidot veidlapā **Noliktavu pārvaldība > Uzziņas un pārskati > Pieļaujamā svara etiķete** vai izveidot, izmantojot datu elementa procesu. Ja pieļaujamā svara etiķete tiek saistīta ar ienākošā pirmdokumenta rindu, piemēram, pirkšanas pasūtījuma rindu, etiķete tiek reģistrēta. Ja rinda tiek izmantota izejošai apstrādei, etiķete tiks atjaunināta, kad būs nosūtīta. Visus vēsturiskos pieļaujamā svara etiķetes reģistrācijas notikumus var skatīt, izmantojot etiķetes **Pieļaujamā svara reģistrācijas** opciju lapā **Pieļaujamā svara etiķete**.
+
+Lai manuāli atjauninātu pieļaujamā svara etiķetes svara vērtību, var izmantot opciju **Mainīt etiķetes tverto svaru**. Ievērojiet, ka rīcībā esošo krājumu svars netiks pielāgots kā daļa no šī manuālā procesa, bet varat viegli izmantot **Rīcībā esošo neatbilstību tvertā svara etiķešu krājumu** lapu ar pieļaujamā svara etiķetēm, lai meklētu neatbilstības starp pašlaik aktīvajām pieļaujamā svara etiķetēm un pašreizējiem krājumiem.
+
+Citas manuālas opcijas ir **Reģistrēt etiķeti** pirmdokumenta rindā un **Reģistrēt darbu** ar esošu noliktavas darbu.
 
 Papildu ierobežojumiem, kas pašlaik attiecas uz pieļaujamā svara precēm, pieļaujamā svara precēm, kas ir ar etiķetēm, ir citi ierobežojumi, kas pašlaik tiek piemēroti.
 

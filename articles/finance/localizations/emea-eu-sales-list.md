@@ -2,11 +2,9 @@
 title: ES pārdošanas saraksta pārskats
 description: Šajā rakstā ir sniegta informācija par Eiropas Savienības (ES) pārdošanas saraksta atskaišu veidošanu.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d87931994edc4502927edfa15e6506f2e5d42f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214478"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826131"
 ---
 # <a name="eu-sales-list-reporting"></a>ES pārdošanas saraksta pārskats
 
@@ -120,7 +118,7 @@ Tālāk esošajā tabulā ir norādīti priekšnoteikumi, kas ir jāizpilda pirm
 <li>Cilne <strong>Valsts/reģiona parametri</strong>: identificējiet ES dalībvalstīs. Katrai ES dalībvalstij, izveidojiet ierakstu lapā un norādiet šādu informāciju:
 <ul>
 <li><strong>Valsts/reģions</strong> – atlasiet valsti/reģionu.</li>
-<li><strong>Valsts/reģiona tips</strong> – ja vērtība <strong>Valsts/reģions</strong> ir valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>Iekšzemes</strong>. Ja vērtība <strong>Valsts/reģions</strong> ir cita ES dalībvalsts, nevis valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>ES</strong>. Ja lauka <strong>Valsts/reģions</strong> vērtība nav ES dalībvalsts, atlasiet vienumu <strong>Trešā valsts/reģions</strong>.</li>
+<li><strong>Valsts/reģiona tips</strong> – ja vērtība <strong>Valsts/reģions</strong> ir valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>Iekšzemes</strong>. Ja vērtība <strong>Valsts/reģions</strong> ir cita ES dalībvalsts, nevis valsts/reģions, kurā ir reģistrēts jūsu uzņēmums, atlasiet <strong>ES</strong>. Ja lauka <strong>Valsts/reģions</strong> vērtība nav&#39;ES dalībvalsts, atlasiet vienumu <strong>Trešā valsts/reģions</strong>.</li>
 </ul></li>
 <li>Cilne <strong>Numuru sērijas</strong>: rindā, kur vērtība <strong>Atsauce</strong> vērtība ir <strong>ES pārdošanas saraksts</strong>, atlasiet numuru sērijas kodu.</li>
 </ul></td>
@@ -155,7 +153,7 @@ Jūs varat izveidot pārskatu **ES pārdošanas saraksts**, izmantojot funkciju 
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>ES pārdošanas saraksta pārskata perioda aizvēršana
 
-Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts**), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
+Kad esat pabeidzis pārskata sniegšanas procesu noteiktam laika periodam (piemēram, kad nodokļu iestādes ir pieņēmušas pārskatu **ES pārdošanas saraksts** ), jūs varat atzīmēt ESL ierakstus, kas pārskatā tiek iekļauti periodam, iestatot vērtību **Pārskata statuss** kā **Slēgts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā slēgts**, lapā **ES pārdošanas saraksts**. Ja jūs atgriežat perioda slēgšanu, varat atzīmēt ESL ierakstus, iestatot vērtību **Pārskata statuss** kā **Iekļauts**. Šie ieraksti tad var vēlreiz tikt iekļauti pārskatā **ES pārdošanas saraksts**. Lai iestatītu šo statusu, izmantojiet funkciju **Atzīmēt kā** **iekļauti**, lapā **ES pārdošanas saraksts**.
 
 
 

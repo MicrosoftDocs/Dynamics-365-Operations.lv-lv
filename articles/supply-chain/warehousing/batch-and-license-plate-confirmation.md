@@ -2,11 +2,9 @@
 title: Partijas un numura zīmes apstiprināšana
 description: Šajā tēmā ir aprakstīts, kā iestatīt un lietot partijas un numura zīmes apstiprināšanas funkciju mobilajā ierīcē.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c309061b31f10209c22cb90cc08c971b697f6dc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c588e6ed11d275b75133e2824f3d385048050426
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233131"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837541"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Partijas un numura zīmes apstiprināšana
 
 [!include [banner](../includes/banner.md)]
 
-Partijas apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā partija. Tikai veicot partijas augstākā līmeņa vienumu darba izdošanu (partijas austākais līmenis norāda, ka partija līmenis meklēšanas hierarhijā ir augstāks nekā atrašanās vietas līmenis), jums ir jāapstiprina, ka izdotā partija atbilst darba rindā norādītajai partijai.
+Partijas apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā partija. Tikai veicot *partijas augstākā līmeņa\[novietojuma\]* vienumu darba izdošanu (partijas austākais līmenis norāda, ka partija līmenis meklēšanas hierarhijā ir augstāks nekā atrašanās vietas līmenis), jums ir jāapstiprina, ka izdotā partija atbilst darba rindā norādītajai partijai.
 
 Numura zīmes apstiprināšanas funkcija sniedz iespēju mobilajā ierīcē apstiprināt to, ka tiek izdota pareizā numura zīme. Veicot izdošanu no sagatavošanas vietas, jums ir jāpārliecinās, ka izdotā numura zīme atbilst ar darbu saistītajai numura zīmei. Ja darbs tiek sākts, skenējot numura zīmi, konfigurēšanas darbība tiek izlaista.
 

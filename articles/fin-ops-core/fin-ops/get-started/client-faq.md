@@ -2,7 +2,6 @@
 title: Biežāk uzdotie jautājumi par klientu
 description: Šajā rakstā ir sniegtas atbildes uz biežāk uzdotajiem jautājumiem par Finance and Operations klientu.
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a7d311bfcd65e23e4062f105435d05cb1ceda6b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8f4311e93505f1d59f6beeae01a2a2e796ad47cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567044"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749225"
 ---
 # <a name="client-faq"></a>Biežāk uzdotie jautājumi par klientu
 
@@ -35,7 +34,7 @@ Jūsu pārlūkprogrammas drošības iestatījumi var liegt simbolu pareizu ielā
 - Ja šī problēma rodas pārlūkprogrammā Internet Explorer, noklikšķiniet uz **Rīki** un pēc tam noklikšķiniet uz **Interneta opcijas**. Pēc tam dialoglodziņā Interneta opcijas, cilnē **Konfidencialitāte** noklikšķiniet uz **Pielāgots līmenis** un pārliecinieties, ka ir atlasīta opcija **Fontu lejupielāde**.
 - Pretējā gadījumā, iespējams, programmas vietne ir jāpievieno uzticamo vietņu sarakstam.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Man pietrūkst lentes, kas bija pieejama programmā Dynamics AX 2012. Vai darbību rūšu cilnes ir iespējams turēt atvērtas visu laiku?
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Man pietrūkst lentes, kas bija pieejama programmā Dynamics AX 2012. Vai darbību rūšu cilnes ir iespējams turēt atvērtas visu laiku?
 
 Mēs plānojam drīzumā ieviest šo līdzekli. Tad lietotājiem būs iespēja izvēlēties, ka darbību rūtīs cilnes ir atvērtas visu laiku. Pretējā gadījumā, ja cilnes netiek izmantotas, tās tiek sakļautas, lai iegūtu vairāk ekrāna vietas lapai.
 
