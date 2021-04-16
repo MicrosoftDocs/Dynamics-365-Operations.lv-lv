@@ -2,11 +2,9 @@
 title: Pārskats par finanšu konsolidācijām un valūtas konvertāciju
 description: Šajā tēmā ir aprakstītas finanšu konsolidācijas un valūtas pārrēķināšana Virsgrāmatā.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f7f86b3ec260365252519fc61192f0fb1315bfd2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249391"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811365"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -49,11 +47,11 @@ Lietotāji var izmantot tiešsaistes konsolidēšanas vai finanšu pārskatu sni
 ## <a name="benefits-of-using-consolidate-online"></a>Konsolidēšanas tiešsaistē lietošanas priekšrocības
 Klienti, kuri izmanto moduli **Konsolidācijas**, gūst dažādas tālāk minētās priekšrocības.
 
-- **Datu dziļums** — var izveidot konsolidētus pārskatus, kas apvieno faktiskos un budžeta datus gan konta līmenī, gan dimensiju līmenī.
-- **Dinamiskas konsolidācijas** — konsolidācijas var apstrādāt vairākas reizes.
-- **Audita iespējas** — dimensijas un konti tiek uzturēti analīzei un auditam, un bilances tiek izveidotas pēc datuma.
-- **Valūtas konvertācija** — var iestatīt kontu diapazonus un likmes, lai veiktu konvertāciju no izcelsmes uzņēmuma uzskaites valūtas uz konsolidēšanas uzņēmuma uzskaites valūtu.
-- **Elimināciju apstrāde konsolidētā vai eliminācijas uzņēmumā** — var apstrādāt un grāmatot eliminācijas kā vienu procesu konsolidācijas laikā. Vai arī varat apstrādāt piedāvājumu atsevišķi.
+- **Datu dziļums** — var izveidot konsolidētus pārskatus, kas apvieno faktiskos un budžeta datus gan konta līmenī, gan dimensiju līmenī.
+- **Dinamiskas konsolidācijas** — konsolidācijas var apstrādāt vairākas reizes.
+- **Audita iespējas** — dimensijas un konti tiek uzturēti analīzei un auditam, un bilances tiek izveidotas pēc datuma.
+- **Valūtas konvertācija** — var iestatīt kontu diapazonus un likmes, lai veiktu konvertāciju no izcelsmes uzņēmuma uzskaites valūtas uz konsolidēšanas uzņēmuma uzskaites valūtu.
+- **Elimināciju apstrāde konsolidētā vai eliminācijas uzņēmumā** — var apstrādāt un grāmatot eliminācijas kā vienu procesu konsolidācijas laikā. Vai arī varat apstrādāt piedāvājumu atsevišķi.
 
 ## <a name="supported-consolidation-scenarios"></a>Atbalstīto konsolidāciju scenāriji
 Tālāk aprakstīti daži konsolidēšanas tiešsaistē programmas atbalstītie konsolidācijas scenāriji.
@@ -161,11 +159,11 @@ Plašāku informāciju par valūtas pārvērtēšanas darbību modulī **Virsgr�
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Priekšrocības, ko sniedz funkcijas Finanšu pārskatu sniegšana izmantošana finanšu konsolidācijām un valūtas pārrēķināšanai vai lai papildinātu funkciju Konsolidēt tiešsaistē konsolidēto pārskatu sniegšanai
 Klienti, kuri izmanto funkciju Finanšu pārskati finanšu konsolidācijai un valūtas pārrēķināšanai vai lai papildinātu funkciju Konsolidēt tiešsaistē konsolidētajiem pārskatiem, gūst vairākas tālāk aprakstītās priekšrocības.
 
-- **Datu dziļums** — var izveidot konsolidētus pārskatus, kas apvieno faktiskos un budžeta datus gan konta līmenī, gan dimensiju līmenī. Programmā Finance šie dati ietver datus gan no budžeta kontroles, gan no budžeta plānošanas.
-- **Dinamiskās konsolidācijas** — konsolidācijas var veikt jebkurā laikā un jebkurā organizatoriskās hierarhijas līmenī.
-- **Pilnīga audita iespējas** — visas dimensijas, konti un transakciju dati tiek uzturēti analīzei un auditam. Turklāt funkcija Finanšu pārskatu sniegšana nodrošina pilnīgu skatījumu uz sākotnējo transakciju jebkurai no konsolidētajām juridiskajām personām.
-- **Racionalizēta valūtas pārrēķināšana** — pēc minimālā uzstādījuma programmā Finance jebkuru funkcijas Finanšu pārskatu veidošana pārskatu var pārrēķināt uzstādītajā pārskata valūtā. Turklāt jūs varat iestatīt neierobežotu pārskata valūtu skaitu.
-- **Elimināciju grāmatošana izcelsmes vietā** — varat izveidot un izdrukāt eliminācijas pārskatu, lai pārbaudītu eliminācijas transakcijas. Pēc tam varat grāmatot jaunas eliminācijas kā standarta starpuzņēmumu transakcijas. Varat arī izmantot eliminācijas juridisko personu jebkurai transakcijai, kuru nevēlaties savās juridiskajās personās.
+- **Datu dziļums** — var izveidot konsolidētus pārskatus, kas apvieno faktiskos un budžeta datus gan konta līmenī, gan dimensiju līmenī. Programmā Finance šie dati ietver datus gan no budžeta kontroles, gan no budžeta plānošanas.
+- **Dinamiskās konsolidācijas** — konsolidācijas var veikt jebkurā laikā un jebkurā organizatoriskās hierarhijas līmenī.
+- **Pilnīga audita iespējas** — visas dimensijas, konti un transakciju dati tiek uzturēti analīzei un auditam. Turklāt funkcija Finanšu pārskatu sniegšana nodrošina pilnīgu skatījumu uz sākotnējo transakciju jebkurai no konsolidētajām juridiskajām personām.
+- **Racionalizēta valūtas pārrēķināšana** — pēc minimālā uzstādījuma programmā Finance jebkuru funkcijas Finanšu pārskatu veidošana pārskatu var pārrēķināt uzstādītajā pārskata valūtā. Turklāt jūs varat iestatīt neierobežotu pārskata valūtu skaitu.
+- **Elimināciju grāmatošana izcelsmes vietā** — varat izveidot un izdrukāt eliminācijas pārskatu, lai pārbaudītu eliminācijas transakcijas. Pēc tam varat grāmatot jaunas eliminācijas kā standarta starpuzņēmumu transakcijas. Varat arī izmantot eliminācijas juridisko personu jebkurai transakcijai, kuru nevēlaties savās juridiskajās personās.
 
 ## <a name="supported-consolidation-scenarios"></a>Atbalstīto konsolidāciju scenāriji
 Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie konsolidācijas scenāriji.
@@ -180,7 +178,7 @@ Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie 
 - Biznesa vienības konsolidācijas
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolidēto finanšu pārskatu ģenerēšana
-Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
+Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu [Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

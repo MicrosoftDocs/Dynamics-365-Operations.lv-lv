@@ -2,11 +2,9 @@
 title: Ar noliktavas konfigurāciju saistīto problēmu novēršana
 description: Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, konfigurējot Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487101"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814396"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Ar noliktavas konfigurāciju saistīto problēmu novēršana
 
@@ -38,7 +36,7 @@ ms.locfileid: "5487101"
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
-Pārliecinieties, ka numura zīmes ID nav rezervējis kas cits. Šī problēma parasti radās, kad vērtība, ko lietotājs skenēja noliktavas lietotnē, bija gan derīga atrašanās vieta, gan derīgs numura zīmes ID. Tomēr šī problēma tika atrisināta versijā 10.0.11.
+Pārliecinieties, ka numura zīmes ID nav rezervējis kas cits. Šī problēma parasti radās, kad vērtība, ko lietotājs skenēja Warehouse Management mobile lietotnē, bija gan derīga atrašanās vieta, gan derīgs numura zīmes ID. Tomēr šī problēma tika atrisināta versijā 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Tiek parādīts šāds kļūdas ziņojums: "Šai numura zīmei ir jābūt norādītai šajā novietojumā."
 
@@ -82,7 +80,7 @@ Pārbaudiet, vai lauki **Vienības secības grupas ID** un **Vienības konvertē
 
 Versijā 10.0.15 ir pievienots jauns līdzeklis *Novērtēt visas darbības vairāku SKU novietojuma direktīvām* (skatiet [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Šis līdzeklis novērtē visas darbības vairāku SKU novietojuma direktīvām. Ja jums ir nepieciešams šis līdzeklis, izmantojiet [funkciju pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai to ieslēgtu.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Nevar izmantot noliktavas programmu, lai veiktu daļēju izdošanu.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Nevaru izmantot Warehouse Management mobile programmu, lai veiktu daļēju izdošanu.
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
@@ -100,7 +98,7 @@ Vēlaties veikt krājumu statusa izmaiņas daļējam paketes daudzumam.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
-Lai ļautu darbiniekiem veikt šīs izmaiņas, varat izveidot izvēlnes elementu noliktavas programmai. Izveidojiet (vai rediģējiet) izvēlnes vienumu lapā **Mobilās ierīces izvēlnes vienumi**, kam ir sekojošie iestatījumi:
+Lai ļautu darbiniekiem veikt šīs izmaiņas, varat izveidot izvēlnes elementu Warehouse Management mobile programmai. Izveidojiet (vai rediģējiet) izvēlnes vienumu lapā **Mobilās ierīces izvēlnes vienumi**, kam ir sekojošie iestatījumi:
 
 - **Režīms:** *Darbs*
 - **Izmantot esošo darbu:** *Nē*

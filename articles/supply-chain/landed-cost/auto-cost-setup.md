@@ -2,7 +2,6 @@
 title: Automātiska izmaksu iestatīšana
 description: Šajā tēmā ir aprakstīts, kā iestatīt izmaksu noteikumus dažādiem ienākošo reisu līmeņiem. Pamatojoties uz šiem noteikumiem, sistēma aprēķina izmaksas un automātiski pievieno tās. Tādēļ lietotājiem nav manuāli jāpievieno izmaksas.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501154"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841963"
 ---
 # <a name="auto-costs-setup"></a>Automātiska izmaksu iestatīšana
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Var izmantot lapu **Automātiskās izmaksas**, lai iestatītu izmaksu noteikumus dažādām izmaksu zonām (piemēram, reisiem, nosūtīšanas konteineriem, konteineriem, pirkšanas pasūtījumiem, krājumiem vai pārsūtīšanas pasūtījuma rindām). Pamatojoties uz noteikumiem un laukiem, kurus lietotāji atlasa, kad tie izveido ierakstus vienai no izmaksu jomām, sistēma aprēķina izmaksas un automātiski pievieno tās. Tādēļ lietotājiem nav manuāli jāpievieno izmaksas.
 

@@ -2,11 +2,9 @@
 title: Mobilās ierīces izvēlnes vienumu iestatīšana, lai nodrošinātu izdošanas rindas pārskatu
 description: Šajā tēmā ir paskaidrots, kā definēt visu darba rindu sarakstu, kas tiks parādīts noliktavas darbiniekiem, kuri apstrādā noliktavas darbu mobilajā ierīcē. Šī iespēja var būt noderīga noliktavas darbiniekiem, kuriem bieži ir nepieciešams pārskats par izdošanas rindām darba pasūtījumā, lai varētu optimizēt izdošanas secību.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 22e724b60ec5cc8bf39a520022f43784d3a328eb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6eaba6da313f398c8d30f9a26c959ee971812e21
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232915"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818876"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Mobilās ierīces izvēlnes vienumu iestatīšana, lai nodrošinātu izdošanas rindas pārskatu
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir paskaidrots, kā konfigurēt opcijas, kas saistītas ar izdošanas rindas pārskatu mobilās ierīces izvēlnes vienumiem, kas tiek izmantoti, lai apstrādātu izdošanas darbu. Izdošanas rindas pārskats ļauj noliktavas darbiniekiem skatīt un atlasīt no saraksta visas darba rindas, kas saistītas ar viņu pašreizējo uzdevumu. Šī iespēja palīdz darbiniekiem optimizēt izdošanas secību. Līdzeklis nodrošina opcijas, kas aizvieto standarta **Izlaist** pogu, ļaujot darbiniekiem pārlūkot rindas pa vienai, fiksētā secībā. (Tomēr pogas izmantošanas opcija joprojām ir pieejama.)
 
@@ -52,17 +49,17 @@ Lai iestatītu mobilās ierīces izvēlnes vienumu, kas nodrošinātu izdošanas
 
 1. Kopsavilkuma cilnē **Vispārīgi** konfigurējiet līdzekli, iestatot lauku **Rādīt darba rindu sarakstu** uz vienu no šīm vērtībām:
 
-    - **Rādīt tikai pēc pieprasījuma** – darbinieki var izvēlēties skatīt izdošanas rindu sarakstu, noliktavas programmā atlasot pogu **Pāriet uz**.
-    - **Rādīt katras izdošanas sākumā** – darbinieki redz sarakstu katru reizi, kad tiek sākta vai pabeigta izdošanas rinda. Viņi var skatīt sarakstu arī atkārtoti, noliktavas programmā atlasot pogu **Pāriet uz**.
-    - **Rādīt tikai pirmās izdošanas sākumā** – darbinieki redz sarakstu katru reizi, kad tiek sākts jauns izdošanas darbs, bet ne pēc katras rindas. Viņi var skatīt sarakstu arī atkārtoti, noliktavas programmā atlasot pogu **Pāriet uz**.
-    - **Nekad nerādīt** – noliktavas programmā tiek parādīta standarta poga **Izlaist** un tiek izslēgts darba rindu saraksta rādījums. Poga **Izlaist** ļauj darbiniekiem pārlūkot rindas pa vienai, fiksētā secībā. Viņi var arī pārlūkot sarakstu tik daudz reižu, cik nepieciešams, līdz visas rindas ir apstrādātas.
+    - **Rādīt tikai pēc pieprasījuma** – darbinieki var izvēlēties skatīt izdošanas rindu sarakstu, Warehouse Management mobile programmā atlasot pogu **Pāriet uz**.
+    - **Rādīt katras izdošanas sākumā** – darbinieki redz sarakstu katru reizi, kad tiek sākta vai pabeigta izdošanas rinda. Viņi var skatīt sarakstu arī atkārtoti, Warehouse Management mobile programmā atlasot pogu **Pāriet uz**.
+    - **Rādīt tikai pirmās izdošanas sākumā** – darbinieki redz sarakstu katru reizi, kad tiek sākts jauns izdošanas darbs, bet ne pēc katras rindas. Viņi var skatīt sarakstu arī atkārtoti, Warehouse Management mobile programmā atlasot pogu **Pāriet uz**.
+    - **Nekad nerādīt** – Warehouse Management mobile programmā tiek parādīta standarta poga **Izlaist** un tiek izslēgts darba rindu saraksta rādījums. Poga **Izlaist** ļauj darbiniekiem pārlūkot rindas pa vienai, fiksētā secībā. Viņi var arī pārlūkot sarakstu tik daudz reižu, cik nepieciešams, līdz visas rindas ir apstrādātas.
 
 1. Darbību rūtī atlasiet **Saglabāt**.
 
     Ja lauku **Rādīt darba rindu sarakstu** iestatāt uz jebkādu vērtību, izņemot *Nekad nerādīt*, tad darbību rūts poga **Lauku saraksts** kļūst pieejama.
 
 1. Darbību rūtī atlasiet **Lauku saraksts**.
-1. Lapā **Lauku saraksts** konfigurējiet informāciju, ko noliktavas programma rāda katrai rindai sarakstā.
+1. Lapā **Lauku saraksts** konfigurējiet informāciju, ko Warehouse Management mobile programma rāda katrai rindai sarakstā.
 
     - Lauks **Primārā kontrole** vienmēr ir iestatīts uz *LineNum*. Tāpēc katra saraksta rinda sākas ar rindas numuru.
     - Izmantojiet atlikušos **Parādāmais lauks** laukus, lai pievienotu līdz septiņiem papildu parādāmajiem laukiem, pēc nepieciešamības. Katrā **Parādāmais lauks** laukā atlasiet darba rindas lauka nosaukumu. Katrai rindai tiks parādīta šī lauka vērtība. Vērtības tiks rādītas šeit atlasītajā pasūtījumā. Dažus no **Parādāmais lauks** laukiem var atstāt tukšus, ja nav nepieciešamas visas septiņas vērtības.

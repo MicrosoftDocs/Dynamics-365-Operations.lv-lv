@@ -1,12 +1,10 @@
 ---
 title: Uzturēšanas plāni
 description: Šajā tēmā ir izskaidroti uzturēšanas plāni programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500818"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839611"
 ---
 # <a name="maintenance-plans"></a>Uzturēšanas plāni
 
@@ -195,8 +193,6 @@ Sekojošajā attēlā ir parādīts uzturēšanas plāna iestatīšana līdzekl�
 
 ## <a name="counter-based-maintenance-enhancements"></a>Uz skaitītāju balstītas uzturēšanas uzlabojumi
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Uz *Skaitītāju bāzēts uzturēšanas uzlabojumu* līdzeklis iepazīstina ar šādu funkcionalitāti:
 
 - Opcija automātiski ievietot skaitītāju, kura vērtība ir *0* (nulle), kad tiek izveidots pamatlīdzeklis. Šī opcija var būt noderīga, ja izmantojat prognozējošu uzturēšanu, kas ir balstīta uz skaitītāju. Ja netiek izmantots līdzeklis *Uz skaitītāju balstītie uzturēšanas uzlabojumi*, skaitītāji ar vērtību *0* (nulle) ir manuāli jāievieto.
@@ -209,7 +205,7 @@ Uz *Skaitītāju bāzēts uzturēšanas uzlabojumu* līdzeklis iepazīstina ar �
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Līdzekļu pārvaldība*
-- **Līdzekļa nosaukums:** *(Priekšskatījums) Uz skaitītāju balstīti uzturēšanas uzlabojumi*
+- **Līdzekļa nosaukums:** *Uz skaitītāju balstīti uzturēšanas uzlabojumi*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Izveidot un inicializēt skaitītājus, kad izveidots līdzeklis
 

@@ -2,11 +2,9 @@
 title: Kandidāta izsekošanas sistēmas integrācijas API ievads
 description: Šajā tēmā aprakstīts Dynamics 365 Human Resources kandidāta izsekošanas sistēmas (ATS) integrācijas API.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464036"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798422"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidāta izsekošanas sistēmas integrācijas API ievads
 
@@ -45,10 +43,10 @@ Papildinformāciju par personāla atlases pieprasījumu un kandidātu funkcional
 
 Šis API ir veidots Microsoft Dataverse (iepriekš Common Data Service). Visa RESTful mijiedarbība ar šo API tiek veikta, izmantojot Microsoft Dataverse Web API, kas izmanto OData. Šis API ir Dataverse Web API apakškopa. Dataverse Web API nosaka tādus raksturlielumus kā autentifikācija, SLA, pakete, vienlaicīguma kontrole un kļūdu apstrāde.
 
-Vispārīgāku informāciju par Microsoft Dataverse Web API skatiet šeit:
+Vispārīgāku informāciju par Microsoft Dataverse Web API skatiet šeit:
 
 - [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [Microsoft Dataverse Web API izmantošana](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
+- [Izmantot Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
 - [Microsoft Dataverse izstrādātāja rokasgrāmata](https://docs.microsoft.com/powerapps/developer/data-platform)
 
 Iepriekš minētajā dokumentācijā ir ietvertas detalizētas un izstrādātāja norādes par Dataverse Web API izmantošanu, piemēram, [autentifikācijas pārvaldību](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [darbību veikšanu](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postman izmantošanu ar API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) un [izmaiņu izsekošanas vai delta marķieru izmantošanu](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) ar API.
@@ -61,7 +59,7 @@ Iepriekš minētajā dokumentācijā ir ietvertas detalizētas un izstrādātāj
 
 Galapunkti ATS integrācijai API izmanto Microsoft Dataverse virtuālās tabulas platformas iespējas. Pēc noklusējuma virtuālās tabulas un to saistītie API galapunkti nav izvietoti Human Resources vidēs, iespējojot organizācijas, lai noteiktu, kuri OData galapunkti būs redzami vidē. Lai izmantotu API, videi ir jāizveido Human Resources elementu virtuālās tabulas. 
 
-Informāciju par API virtuālo tabulu ģenerēšanu skatiet [Dataverse virtuālo tabulu konfigurēšana](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Informāciju par API virtuālo tabulu ģenerēšanu skatiet [Konfigurēt Dataverse virtuālās tabulas](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
 ## <a name="data-model"></a>Datu modelis
 
@@ -137,7 +135,7 @@ Opciju kopas:
 
 [Kandidātu pieņemšana darbā](hr-personnel-recruit.md)<br>
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Microsoft Dataverse Web API izmantošana](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
+[Izmantot Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Opciju kopu izveide un atjaunināšana, izmantojot Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

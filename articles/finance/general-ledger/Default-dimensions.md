@@ -2,11 +2,9 @@
 title: Finanšu dimensijas un grāmatošana
 description: Plānojot un iestatot kontu plānu, ir jāņem vērā, kā dažādi komponenti darbosies kopā, kad grāmatosit dokumentu vai žurnālu. Šie komponenti ir konta struktūras, papildu noteikumi un līdzsvarošanas un fiksētās dimensijas. Šajā tēmā izskaidrots katrs komponents un kā tie darbojas kopā.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 086270fda7da17c60239c7c86e9ff4ab3f31ef77
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225251"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823864"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
@@ -121,7 +119,7 @@ Daži no tālāk norādītajiem resursiem attiecas uz mūsu programmatūras vec�
 
 [Plānot kontu plānu](plan-chart-of-accounts.md) 
 
-[Kontu plāna plānošanas programmā AX 2012 emuārs](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
+[Kontu plāna plānošanas programmā AX 2012 emuārs](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
 
 [Dimensiju noklusējuma vērtību lietošana uzskaites sadalēs](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 

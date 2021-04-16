@@ -2,11 +2,9 @@
 title: Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 description: Šajā tēmā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 9cbe0308902071c066d18ce71e6e33422207e8ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245596"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818630"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 
@@ -68,7 +66,7 @@ Lai iegūtu detalizētāku rezultātu analīzi, ir labs sākumpunkts, lai pārsk
 
 Šos datus var izvērst, kā norādīts tālāk.
 
-|                          | Prognozēts laikā | Prognozēts vēlu | Prognozēts ļoti vēlu |
+| &nbsp;                   | Prognozēts laikā | Prognozēts vēlu | Prognozēts ļoti vēlu |
 |--------------------------|-------------------|----------------|---------------------|
 | Faktiskais laiks maksājumam   | **71**            | 0              | 21                  |
 | Faktiskais nokavētais maksājums      | 5                 | **0**          | 27                  |
@@ -80,7 +78,7 @@ Vispirms ir jāmeklē visizplatītākā faktiskā vērtība. Kaut arī šī vēr
 
 Jums ir svarīgi saprast, cik sabalansēta ir datu kopa. Šajā gadījumā 92 rēķini 171 tika apmaksāti savlaicīgi, 32 tika apmaksāti novēloti, un 47 tika apmaksāti ļoti novēloti. Šīs vērtības norāda samērā līdzsvarotu datu kopu, jo katrā klasifikācijā ir netriviāli rezultāti. Situācija, kad vienai no valstīm ir ļoti maz rezultātu, algoritmiskās mācīšanās modelim var būt sarežģīta.
 
-Modeļa precizitāti norāda testa datu kopas pareizo prognožu skaits. Šīs pareizās prognozes ir vērtības, kas iepriekšējā piemērā redzamas treknrakstā. Šādā gadījumā vērtības veido aprēķināto precizitāti 67,8 procenti (= \[71 + 0 + 45 \] ÷ 171). Šī vērtība parāda 14 procentu uzlabojumu virs bāzlīnijas minējuma (54 procenti) un ir viens no modeļa kvalitātes rādītājiem.
+Modeļa precizitāti norāda testa datu kopas pareizo prognožu skaits. Šīs pareizās prognozes ir vērtības, kas iepriekšējā piemērā redzamas treknrakstā. Šādā gadījumā vērtības veido aprēķināto precizitāti 67,8 procenti (= \[71 + 0 + 45\] ÷ 171). Šī vērtība parāda 14 procentu uzlabojumu virs bāzlīnijas minējuma (54 procenti) un ir viens no modeļa kvalitātes rādītājiem.
 
 Ja jūs rūpīgāk aplūkosiet neskaidrību matricu, jūs ievērosiet, ka modelis spēj labi prognozēt laicīgus un ļoti novēlotus rēķinu maksājumus. Tomēr tas nepareizi prognozēja visus 32 rēķinus, kas faktiski apmaksāti ar novēlošanos (bet ne ar lielu novēlošanos). Šis rezultāts liecina, ka modelim nepieciešama papildu izpēte un uzlabošana.
 

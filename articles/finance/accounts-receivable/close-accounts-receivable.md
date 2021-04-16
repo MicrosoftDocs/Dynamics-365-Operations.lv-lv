@@ -2,11 +2,9 @@
 title: Slēgt moduli Debitoru parādi
 description: Šajā tēmā ir norādītas lapas, kas atbalsta debitoru parādu slēgšanas biznesa procesu.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5beab66bcb64322d75e7a2ef1d1f40b13c35a06f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc3355f7fa6f72906e427203234de7ece27595e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244537"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835440"
 ---
 # <a name="close-accounts-receivable"></a>Slēgt moduli Debitoru parādi
 
@@ -42,7 +40,7 @@ Aizvērt Virsgrāmatas periodus
 |Apstiprināt pārdošanas pasūtījumu                   | Labot pārdošanas pasūtījumus.                                                                       |
 |Ārvalstu valūtas pārvērtēšana          | Izveidojiet darbības, kas atjaunina debitoru atvērto darbību vērtību ārvalstu valūtās.                                                                                                                         |
 | Žurnāls                              | Iegrāmatojiet rēķinus, maksājumus un parādzīmes.                                             |
-| Žurnāla dokuments                      |<ul><li>**Maksājumu žurnāls** – veidojiet, apstrādājiet un grāmatojiet maksājumus.</li><li>**Vekseļu izrakstīšanas žurnāls** – grāmatojiet vekseļus.</li><li>**Vekseļu noraidīšanas žurnāls** – grāmatojiet noraidītos vekseļus.</li><li>**Vekseļu atkārtotas izrakstīšanas žurnāls** – grāmatojiet atkārtoti izrakstītos vekseļus.</li><li>**Pārskaitījumu žurnāls** – grāmatojiet pārskaitījumus.</li><li>**Vekseļu apmaksas žurnāls** — grāmatojiet apmaksātos vekseļus.</li></ul>                   |
+| Žurnāla dokuments                      |<ul><li>**Maksājumu žurnāls** – veidojiet, apstrādājiet un grāmatojiet maksājumus.</li><li>**Vekseļu izrakstīšanas žurnāls** – grāmatojiet vekseļus.</li><li>**Vekseļu noraidīšanas žurnāls** – grāmatojiet noraidītos vekseļus.</li><li>**Vekseļu atkārtotas izrakstīšanas žurnāls** – grāmatojiet atkārtoti izrakstītos vekseļus.</li><li>**Pārskaitījumu žurnāls** – grāmatojiet pārskaitījumus.</li><li>**Vekseļu apmaksas žurnāls** — grāmatojiet apmaksātos vekseļus.</li></ul>                   |
 | Pavadzīmes grāmatošana                 | Atjauniniet pavadzīmes pārdošanas pasūtījumiem.                                                     |
 | Grāmatot brīva teksta rēķinu               | Iegrāmatojiet brīva teksta rēķinus.                                                                   |
 | Rēķina grāmatošana                      | Grāmatojiet rēķinus pārdošanas pasūtījumiem.                                                            |

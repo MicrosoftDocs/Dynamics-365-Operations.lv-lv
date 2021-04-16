@@ -2,11 +2,9 @@
 title: Kā darbinieki izmanto ražotnes izpildes interfeisu
 description: Šajā tēmā aprakstīts, kā izmantot ražotnes izpildes interfeisu no darbinieka skata punkta.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500794"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814660"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Ražotnes izpildes interfeiss ir optimizēts skārienvadībai. Tā dizains nodrošina vizuālo kontrastu, kas atbilst pieejamības prasībām ražotnes vidēm. Tas piedāvā visas tās pašas funkcionālās iespējas kā darba kartes ierīce. Tomēr tas arī rada iespēju daudzus darbus sākt paralēli no darbu saraksta. (Šī iespēja ir pazīstama arī kā *darbu apvienošana*.) Turklāt no darbu saraksta darbinieki var atvērt ceļvedi, kas izveidots Microsoft Dynamics 365 rokasgrāmatā. Tādējādi tie var iegūt vizuālus norādījumus HoloLens.
 
@@ -90,7 +87,7 @@ Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā att�
 
 1. **Iestatījumi** – izvēlieties ātrumkārbas ikonu, lai atvērtu dialoglodziņu, kur var izvēlēties, kuru skaitītāju skatīt atlasītajam iekārtas pamatlīdzeklim. Šo skaitītāju vērtības ir parādītas **Pamatlīdzekļu pārvaldības** cilnes augšpusē. **Iestatījumu** izvēlne (parādīta ekrānuzņēmumā) ļauj aktivizēt līdz pat četriem skaitītājiem. Katram skaitītājam, kuru vēlaties iespējot, izmantojiet uzmeklēšanas lauku elementa augšā, lai atlasītu skaitītāju. Uzmeklēšanas laukā ir uzskaitīti visi skaitītāji, kas saistīti ar līdzekli, kas atlasīts **Pamatlīdzekļu pārvaldības lapas** augšpusē. Iestatiet katru skaitītāju, lai pārraudzītu skaitītāja **Apkopoto** vērtību vai pēdējo **Faktisko** vērtību. Piemēram, ja iestatāt skaitītāju, kas izseko, cik stundu dators darbojas, tad to vajadzētu iestatīt uz **Uzkrāts**. Ja iestatāt skaitītāju, lai izmērītu jaunāko atjaunināto temperatūras vai spiediens, jums tas jāiestata uz **Faktiskais**. Atlasiet **Labi**, lai iestatījumus saglabātu un aizvērtu dialoglodziņu.
 
-    ![Cilne Mana iekārta](media/pfei-my-machine-tab-settings.png "Cilne Mana iekārta")
+    ![Cilne Manas iekārtas iestatījumi](media/pfei-my-machine-tab-settings.png "Cilne Manas iekārtas iestatījumi")
 
 1. **Pieprasījuma uzturēšana** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur varat izveidot uzturēšanas pieprasījumu. Varat sniegt aprakstu un piezīmi. Pieprasījums tiks nosūtīts Supply Chain Management lietotājam, kurš tad varēs pārveidot uzturēšanas pieprasījumu uz uzturēšanas darba pasūtījumu.
 1. **Reģistrēt dīkstāves laiku** – atlasiet šo pogu, lai atvērtu dialoglodziņu, kur reģistrēt iekārtas dīkstāves laiku. Varat atlasīt pamatojuma kodu un ievadīt dīkstāves laika posmu. Iekārtas dīkstāves reģistrācija tiek izmantota iekārtas līdzekļa efektivitātes aprēķināšanai.

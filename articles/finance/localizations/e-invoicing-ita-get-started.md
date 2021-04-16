@@ -1,12 +1,10 @@
 ---
-title: Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai
-description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai elektronisko rēķinu izrakstīšanas pievienojumprogrammai programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+title: Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā
+description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Itālijā.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259224"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840104"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> Elektronisko rēķinu izrakstīšanas pievienojumprogramma Itālija, iespējams, pašlaik neatbalsta visas funkcijas, kas ir pieejamas elektroniskajiem rēķiniem Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management. 
+> Elektronisko rēķinu izrakstīšana Itālija, iespējams, pašlaik neatbalsta visas funkcijas, kas ir pieejamas elektroniskajiem rēķiniem Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management. 
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu pievienojumu Itālijai. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt to elektronisko rēķinu iesniegšanas procesu, kas tiek ģenerēti Itālijai specifiskajā **FatturaPA** formātā, izmantojot šo pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus.
+Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi lietošanai Itālijā. Tas palīdz veikt konfigurācijas darbības, kas ir atkarīgas no valsts risinājumos Regulatory Configuration Services (RCS) un Finance. Tas arī palīdz veikt to elektronisko rēķinu iesniegšanas procesu, kas tiek ģenerēti Itālijai specifiskajā **FatturaPA** formātā, izmantojot šo pakalpojumu, un tas izskaidro, kā pārskatīt apstrādes rezultātus.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Pirms šajā tēmā aprakstīto darbību veikšanas ir jāpabeidz darbības sadaļā [Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md).
+Pirms šajā tēmā aprakstīto darbību veikšanas ir jāpabeidz darbības sadaļā [Sākt darbu ar elektronisko rēķinu izrakstīšanu](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS iestatījumi
 
@@ -48,7 +46,7 @@ RCS iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 4. Publicējiet e-rēķinu izrakstīšanas līdzekli.
 
 > [!NOTE]
-> "E-rēķina izrakstīšanas līdzeklis" ir vispārējs nosaukums resursam, kas ir konfigurēts un publicēts, lai varētu patērēt elektronisko rēķinu izrakstīšanas pievienojumprogrammas serveri. Šādā gadījumā debitoru elektronisko rēķinu eksportēšana ir uzstādāmais e-rēķinu līdzeklis.
+> "E-rēķina izrakstīšanas līdzeklis" ir vispārējs nosaukums resursam, kas ir konfigurēts un publicēts, lai varētu patērēt elektronisko rēķinu izrakstīšanas serveri. Šādā gadījumā debitoru elektronisko rēķinu eksportēšana ir uzstādāmais e-rēķinu līdzeklis.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importējiet e-rēķinu izrakstīšanas līdzekli
 
@@ -153,7 +151,7 @@ Varat publicēt e-rēķinu izrakstīšanas līdzekli, mainot versijas statusu uz
 
 ![E-rēķinu izrakstīšanas līdzekļa statusa maiņa](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Iestatiet elektronisko rēķinu izrakstīšanas pievienojumprogrammas integrāciju programmā Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Iestatiet elektronisko rēķinu izrakstīšanas integrāciju programmā Finance
 
 Finance iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
@@ -193,17 +191,17 @@ Finance iestatīšanas laikā jūs veiksiet šādus uzdevumus:
 
 Finance apstrādes laikā jūs veiksiet šādus uzdevumus:
 
-1. Ģenerēt itāļu e-rēķinus, izmantojot elektronisko rēķinu izrakstīšanas pievienojumprogrammu
+1. Ģenerēt itāļu e-rēķinus, izmantojot elektronisko rēķinu izrakstīšanu
 2. Skatiet izpildes žurnālus un pārskatiet apstrādes rezultātus
 
 ### <a name="generate-electronic-invoices"></a>Ģenerēt elektroniskos rēķinus
 
-Pēc tam, kad ieslēdzat līdzekli **Konfigurējamu elektronisko rēķinu pievienošana** un aktivizējat līdzekli **IT00036**, vairs nevar izmantot veco finanšu procesu itāļu e-rēķinu ģenerēšanai. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
+Pēc tam, kad ieslēdzat līdzekli **Konfigurējamas elektronisko rēķinu izrakstīšanas pievienošana** un aktivizējat līdzekli **IT00036**, vairs nevar izmantot veco finanšu procesu itāļu e-rēķinu ģenerēšanai. Tas ir aizstāts ar jaunu procesu, kura nosaukums ir **Iesniegt elektroniskus dokumentus**.
 
 Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dokumentiem.
 
 > [!NOTE]
-> Pirms turpināt, pārbaudiet, vai ir pabeigts itāļu e-rēķiniem nepieciešamais iestatījums. Plašāku informāciju skatiet šeit: [Debitoru elektroniskie rēķini](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Ņemiet vērā, ka daži no šajā tēmā aprakstītajiem iestatīšanas darbībam var nebūt pieejamas elektronisko rēķinu izrakstīšanas pievienojumprogrammas aktivizēšanas dēļ.
+> Pirms turpināt, pārbaudiet, vai ir pabeigts itāļu e-rēķiniem nepieciešamais iestatījums. Plašāku informāciju skatiet šeit: [Debitoru elektroniskie rēķini](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Ņemiet vērā, ka daži no šajā tēmā aprakstītajiem iestatīšanas darbībam var nebūt pieejamas elektronisko rēķinu izrakstīšanas aktivizēšanas dēļ.
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.
@@ -220,7 +218,7 @@ Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dok
 2. Lai dialoglodziņu **Pieprasījums** aizvērtu, atlasiet **Labi**.
 3. Atlasiet **Labi**, iesniedziet atlasītos dokumentus.
 
-> ! [PIEZĪME] Pirmajā mēģinājumā iesniegt dokumentu, izmantojot pakalpojumu, jums tiks piedāvāts apstiprināt savienojumu ar elektronisko rēķinu pievienojumprogrammu. Atlasiet **Noklikšķiniet šeit, lai izveidotu savienojumu ar elektronisko dokumentu iesniegšanas pakalpojumu**.
+> ! [PIEZĪME] Pirmajā mēģinājumā iesniegt dokumentu, izmantojot pakalpojumu, jums tiks piedāvāts apstiprināt savienojumu ar elektronisko rēķinu izrakstīšanu. Atlasiet **Noklikšķiniet šeit, lai izveidotu savienojumu ar elektronisko dokumentu iesniegšanas pakalpojumu**.
 
 #### <a name="view-submission-logs"></a>Skatīt iesniegšanas žurnālus
 
@@ -242,9 +240,9 @@ Varat skatīt visu iesniegto dokumentu iesniegšanas žurnālus.
 
 ## <a name="related-topics"></a>Saistītās tēmas
 
-- [Pārskats par elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-service-overview.md)
-- [Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu](e-invoicing-get-started.md)
-- [Elektronisko rēķinu izrakstīšanas pievienojumprogrammas iestatīšana](e-invoicing-setup.md)
+- [Elektroniskās rēķinu izveides pārskats](e-invoicing-service-overview.md)
+- [Darba sākšana ar elektroniskās rēķinu izveidi](e-invoicing-get-started.md)
+- [Elektronisko rēķinu izrakstīšanas iestatīšana](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

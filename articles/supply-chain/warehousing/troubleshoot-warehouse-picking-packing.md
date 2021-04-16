@@ -2,11 +2,9 @@
 title: Problēmu novēršana saistībā ar izdošanu un iepakošanu
 description: Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, izdodot un iepakojot programmā Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 01e33b63e09a035f5243bd57faf53b522737c987
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a54fa9dc21fb1691d74905a1215f4dfea31f136
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223246"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828134"
 ---
 # <a name="troubleshoot-picking-and-packing"></a>Problēmu novēršana saistībā ar izdošanu un iepakošanu
 
@@ -44,7 +42,7 @@ ms.locfileid: "5223246"
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Šis kļūdas ziņojums tiek parādīts noliktavas programmā, skenējot numura zīmes ID.
+Šis kļūdas ziņojums tiek parādīts Warehouse Management mobile programmā, skenējot numura zīmes ID.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
@@ -68,7 +66,7 @@ Lai labotu šo problēmu, dodieties uz **Sistēmas administrēšana \> Periodisk
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
-Noliktavas darbiniekam jāizmanto *Īsā izdošanas* procedūra noliktavas programmā. Ja mēģināt izvēlēties vairākas partijas no vienas un tās pašas vietas, varat arī izmantot **Pilno** opciju noliktavas programmā.
+Noliktavas darbiniekam jāizmanto *Īsā izdošanas* procedūra Warehouse Management mobile programmā. Ja mēģināt izvēlēties vairākas partijas no vienas un tās pašas vietas, varat arī izmantot **Pilno** opciju programmā.
 
 ## <a name="i-cant-move-inventory-to-a-location-that-is-license-platecontrolled"></a>Nevar pārvietot krājumu uz atrašanās vietu, ko kontrolē numura zīme.
 
