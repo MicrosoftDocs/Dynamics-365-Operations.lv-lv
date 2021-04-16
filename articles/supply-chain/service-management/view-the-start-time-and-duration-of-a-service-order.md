@@ -2,11 +2,9 @@
 title: Pakalpojuma pasūtījuma sākuma laika un ilguma skatīšana
 description: Jūs varat skatīt, kad tika uzsākts darbs ar pakalpojuma pasūtījumu un kad pakalpojuma pasūtījums būs pabeigts.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,43 +15,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15247587f04813121473f24d4c3c849ec1ba7bb8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 30d4297fa213dc83a3267eee0a5e732d106e383c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824154"
 ---
-# <a name="view-the-start-time-and-duration-of-a-service-order"></a><span data-ttu-id="9cf74-103">Pakalpojumu pasūtījumu sākuma laika un ilguma apskatīšana</span><span class="sxs-lookup"><span data-stu-id="9cf74-103">View the start time and duration of a service order</span></span> 
+# <a name="view-the-start-time-and-duration-of-a-service-order"></a><span data-ttu-id="ac993-103">Pakalpojumu pasūtījumu sākuma laika un ilguma apskatīšana</span><span class="sxs-lookup"><span data-stu-id="ac993-103">View the start time and duration of a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="9cf74-104">Jūs varat skatīt, kad tika uzsākts darbs ar pakalpojuma pasūtījumu un kad pakalpojuma pasūtījums būs pabeigts.</span><span class="sxs-lookup"><span data-stu-id="9cf74-104">You can view when the work on the service order was started and when the service order is going to be completed.</span></span>
+<span data-ttu-id="ac993-104">Jūs varat skatīt, kad tika uzsākts darbs ar pakalpojuma pasūtījumu un kad pakalpojuma pasūtījums būs pabeigts.</span><span class="sxs-lookup"><span data-stu-id="ac993-104">You can view when the work on the service order was started and when the service order is going to be completed.</span></span>
 
-<span data-ttu-id="9cf74-105">Jūs varat arī skatīt, kad tika uzsākts un apturēts laika ieraksts pakalpojuma pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="9cf74-105">You can also view when the time recording for a service order was started and stopped.</span></span> <span data-ttu-id="9cf74-106">Kad pakalpojuma pasūtījums tiek apturēts, laiks, kurā pakalpojuma pasūtījums ir jāpabeidz, tiek atlikts.</span><span class="sxs-lookup"><span data-stu-id="9cf74-106">When a service order is stopped, the time at which the service order must be completed is postponed.</span></span>
+<span data-ttu-id="ac993-105">Jūs varat arī skatīt, kad tika uzsākts un apturēts laika ieraksts pakalpojuma pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="ac993-105">You can also view when the time recording for a service order was started and stopped.</span></span> <span data-ttu-id="ac993-106">Kad pakalpojuma pasūtījums tiek apturēts, laiks, kurā pakalpojuma pasūtījums ir jāpabeidz, tiek atlikts.</span><span class="sxs-lookup"><span data-stu-id="ac993-106">When a service order is stopped, the time at which the service order must be completed is postponed.</span></span>
 
-## <a name="view-the-start-time-for-a-service-order"></a><span data-ttu-id="9cf74-107">Skatīt sākuma laiku pakalpojuma pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="9cf74-107">View the start time for a service order</span></span>
+## <a name="view-the-start-time-for-a-service-order"></a><span data-ttu-id="ac993-107">Skatīt sākuma laiku pakalpojuma pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="ac993-107">View the start time for a service order</span></span>
 
-1.  <span data-ttu-id="9cf74-108">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="9cf74-108">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="9cf74-109">Atlasiet un veiciet dubultklikšķi uz pasūtījuma, lai atvērtu detalizētas informācijas formu.</span><span class="sxs-lookup"><span data-stu-id="9cf74-109">Select and double-click an order to open the details form.</span></span>
+1.  <span data-ttu-id="ac993-108">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="ac993-108">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="ac993-109">Atlasiet un veiciet dubultklikšķi uz pasūtījuma, lai atvērtu detalizētas informācijas formu.</span><span class="sxs-lookup"><span data-stu-id="ac993-109">Select and double-click an order to open the details form.</span></span>
 
-2.  <span data-ttu-id="9cf74-110">Cilnē **Vispārīgi** skatiet laiku, kad darbs tika uzsākts kādam pakalpojuma pasūtījumam laukā **Sākuma laiks**.</span><span class="sxs-lookup"><span data-stu-id="9cf74-110">On the **General** tab, view the time that the work was started for a service order in the **Start time** field.</span></span>
+2.  <span data-ttu-id="ac993-110">Cilnē **Vispārīgi** skatiet laiku, kad darbs tika uzsākts kādam pakalpojuma pasūtījumam laukā **Sākuma laiks**.</span><span class="sxs-lookup"><span data-stu-id="ac993-110">On the **General** tab, view the time that the work was started for a service order in the **Start time** field.</span></span>
 
-## <a name="view-the-time-remaining-to-complete-a-service-order"></a><span data-ttu-id="9cf74-111">Skatīt atlikušo laiku pakalpojuma pasūtījuma pabeigšanai</span><span class="sxs-lookup"><span data-stu-id="9cf74-111">View the time remaining to complete a service order</span></span>
+## <a name="view-the-time-remaining-to-complete-a-service-order"></a><span data-ttu-id="ac993-111">Skatīt atlikušo laiku pakalpojuma pasūtījuma pabeigšanai</span><span class="sxs-lookup"><span data-stu-id="ac993-111">View the time remaining to complete a service order</span></span>
 
-1.  <span data-ttu-id="9cf74-112">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="9cf74-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="9cf74-113">Atlasiet un veiciet dubultklikšķi uz pasūtījuma, lai atvērtu detalizētas informācijas formu.</span><span class="sxs-lookup"><span data-stu-id="9cf74-113">Select and double-click an order to open the details form.</span></span>
+1.  <span data-ttu-id="ac993-112">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="ac993-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="ac993-113">Atlasiet un veiciet dubultklikšķi uz pasūtījuma, lai atvērtu detalizētas informācijas formu.</span><span class="sxs-lookup"><span data-stu-id="ac993-113">Select and double-click an order to open the details form.</span></span>
 
-2.  <span data-ttu-id="9cf74-114">Cilnē **Vispārīgi** skatiet atlikušo laiku pakalpojuma pasūtījuma pabeigšanai laukā **Vēlākais pabeigšanas laiks**.</span><span class="sxs-lookup"><span data-stu-id="9cf74-114">On the **General** tab, view the time remaining to complete a service order in the **Latest completion time** field.</span></span>
+2.  <span data-ttu-id="ac993-114">Cilnē **Vispārīgi** skatiet atlikušo laiku pakalpojuma pasūtījuma pabeigšanai laukā **Vēlākais pabeigšanas laiks**.</span><span class="sxs-lookup"><span data-stu-id="ac993-114">On the **General** tab, view the time remaining to complete a service order in the **Latest completion time** field.</span></span>
 
-## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a><span data-ttu-id="9cf74-115">Skatīt sākuma laika un pabeigšanas laika ierakstus pakalpojuma pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="9cf74-115">View the start time and stop time recording entries for a service order</span></span>
+## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a><span data-ttu-id="ac993-115">Skatīt sākuma laika un pabeigšanas laika ierakstus pakalpojuma pasūtījumam</span><span class="sxs-lookup"><span data-stu-id="ac993-115">View the start time and stop time recording entries for a service order</span></span>
 
-1.  <span data-ttu-id="9cf74-116">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="9cf74-116">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="9cf74-117">Atlasiet un veiciet dubultklikšķi uz pasūtījuma, lai atvērtu detalizētas informācijas formu.</span><span class="sxs-lookup"><span data-stu-id="9cf74-117">Select and double-click an order to open the details form.</span></span>
+1.  <span data-ttu-id="ac993-116">Klikšķiniet uz **Pakalpojumu pārvaldība** \> **Vispārīgi** \> **Pakalpojuma pasūtījumi** \> **Pakalpojuma pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="ac993-116">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="ac993-117">Atlasiet un veiciet dubultklikšķi uz pasūtījuma, lai atvērtu detalizētas informācijas formu.</span><span class="sxs-lookup"><span data-stu-id="ac993-117">Select and double-click an order to open the details form.</span></span>
 
-2.  <span data-ttu-id="9cf74-118">Sadaļā **Darbību rūts** noklikšķiniet uz cilnes **Nosūtīt** \> **Laika reģistrēšana**, lai atvērtu formu **SLA laika reģistrēšana** un skatītu laika uzskaites ierakstus pakalpojuma pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="9cf74-118">On the **Action Pane**, click the **Dispatch** tab \> **Time recording** to open the **SLA time recording** form and view the time recording entries for the service order.</span></span>
+2.  <span data-ttu-id="ac993-118">Sadaļā **Darbību rūts** noklikšķiniet uz cilnes **Nosūtīt** \> **Laika reģistrēšana**, lai atvērtu formu **SLA laika reģistrēšana** un skatītu laika uzskaites ierakstus pakalpojuma pasūtījumam.</span><span class="sxs-lookup"><span data-stu-id="ac993-118">On the **Action Pane**, click the **Dispatch** tab \> **Time recording** to open the **SLA time recording** form and view the time recording entries for the service order.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9cf74-119">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="9cf74-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ac993-119">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="ac993-119">See also</span></span>
 
-<span data-ttu-id="9cf74-120">[Pakalpojumu pasūtījumi (forma)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="9cf74-120">[Service orders (form)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span></span>
+<span data-ttu-id="ac993-120">[Pakalpojumu pasūtījumi (forma)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="ac993-120">[Service orders (form)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span></span>
 
   
 

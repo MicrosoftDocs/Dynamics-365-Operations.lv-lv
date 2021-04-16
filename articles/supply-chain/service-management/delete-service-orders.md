@@ -2,11 +2,9 @@
 title: Dzēst pakalpojumu pasūtījumus
 description: Dzēst pakalpojumu pasūtījumus
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,36 +15,36 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a141ec1574dbd1cbbf4640063999797c711a8d72
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 98ddb6be5d15344abdc603f978ce5deb5e5db7e8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247434"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824562"
 ---
-# <a name="delete-service-orders"></a><span data-ttu-id="eb3aa-103">Dzēst pakalpojumu pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="eb3aa-103">Delete service orders</span></span> 
+# <a name="delete-service-orders"></a><span data-ttu-id="b427a-103">Dzēst pakalpojumu pasūtījumus</span><span class="sxs-lookup"><span data-stu-id="b427a-103">Delete service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="eb3aa-104">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiskie** \> **Pakalpojumu pasūtījumi** \> **Dzēst pakalpojumu pasūtījumus**.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-104">Click **Service management** \> **Periodic** \> **Service orders** \> **Delete service orders**.</span></span>
+1.  <span data-ttu-id="b427a-104">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Periodiskie** \> **Pakalpojumu pasūtījumi** \> **Dzēst pakalpojumu pasūtījumus**.</span><span class="sxs-lookup"><span data-stu-id="b427a-104">Click **Service management** \> **Periodic** \> **Service orders** \> **Delete service orders**.</span></span>
 
-2.  <span data-ttu-id="eb3aa-105">Veidlapā **Dzēst pakalpojumu pasūtījumus** noklikšķiniet uz **Atlasīt**, lai norādītu kritērijus, ar ko atlasīt dzēšamos pakalpojumu pasūtījumus, un tad noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-105">On the **Delete service orders** form, click **Select** to specify the criteria to select the service orders to be deleted, and then click **OK**.</span></span>
+2.  <span data-ttu-id="b427a-105">Veidlapā **Dzēst pakalpojumu pasūtījumus** noklikšķiniet uz **Atlasīt**, lai norādītu kritērijus, ar ko atlasīt dzēšamos pakalpojumu pasūtījumus, un tad noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="b427a-105">On the **Delete service orders** form, click **Select** to specify the criteria to select the service orders to be deleted, and then click **OK**.</span></span>
 
-3.  <span data-ttu-id="eb3aa-106">Atlasiet izvēles rūtiņu **Rādīt informācijas žurnālu**, lai izveidotu informācijas žurnālu, kurā redzami izdzēstie pakalpojuma pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-106">Select the **Show Infolog** check box to generate an Infolog that displays the deleted service orders.</span></span>
+3.  <span data-ttu-id="b427a-106">Atlasiet izvēles rūtiņu **Rādīt informācijas žurnālu**, lai izveidotu informācijas žurnālu, kurā redzami izdzēstie pakalpojuma pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="b427a-106">Select the **Show Infolog** check box to generate an Infolog that displays the deleted service orders.</span></span>
 
-4.  <span data-ttu-id="eb3aa-107">Noklikšķiniet uz **OK**.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-107">Click **OK**.</span></span>
+4.  <span data-ttu-id="b427a-107">Noklikšķiniet uz **OK**.</span><span class="sxs-lookup"><span data-stu-id="b427a-107">Click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="eb3aa-108">Ja nenorādāt nevienu kritēriju pakalpojumu pasūtījumu atlasei, tiek dzēsti visi pakalpojumu pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-108">If you do not specify any criteria to select the service orders, all service orders are deleted.</span></span> <span data-ttu-id="eb3aa-109">Tomēr, ja aizverat veidlapu <STRONG>Dzēst pakalpojumu pasūtījumus</STRONG>, jums ir iespēja dzēst visus pakalpojumu pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-109">However, when you exit the <STRONG>Delete service orders</STRONG> form, you will have the option to delete all service orders.</span></span></P>
-> <P><span data-ttu-id="eb3aa-110">Tāpat ir iespējams izdzēst tikai tos pakalpojumu pasūtījumus, kuru posmam jums ir atļauta dzēšana.</span><span class="sxs-lookup"><span data-stu-id="eb3aa-110">Also, you can only delete service orders with a stage that lets you delete them.</span></span></P>
+> <P><span data-ttu-id="b427a-108">Ja nenorādāt nevienu kritēriju pakalpojumu pasūtījumu atlasei, tiek dzēsti visi pakalpojumu pasūtījumi.</span><span class="sxs-lookup"><span data-stu-id="b427a-108">If you do not specify any criteria to select the service orders, all service orders are deleted.</span></span> <span data-ttu-id="b427a-109">Tomēr, ja aizverat veidlapu <STRONG>Dzēst pakalpojumu pasūtījumus</STRONG>, jums ir iespēja dzēst visus pakalpojumu pasūtījumus.</span><span class="sxs-lookup"><span data-stu-id="b427a-109">However, when you exit the <STRONG>Delete service orders</STRONG> form, you will have the option to delete all service orders.</span></span></P>
+> <P><span data-ttu-id="b427a-110">Tāpat ir iespējams izdzēst tikai tos pakalpojumu pasūtījumus, kuru posmam jums ir atļauta dzēšana.</span><span class="sxs-lookup"><span data-stu-id="b427a-110">Also, you can only delete service orders with a stage that lets you delete them.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="eb3aa-111">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="eb3aa-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b427a-111">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="b427a-111">See also</span></span>
 
-[<span data-ttu-id="eb3aa-112">Pakalpojuma pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="eb3aa-112">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="b427a-112">Pakalpojuma pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="b427a-112">Service orders</span></span>](service-orders.md)
 
   
 

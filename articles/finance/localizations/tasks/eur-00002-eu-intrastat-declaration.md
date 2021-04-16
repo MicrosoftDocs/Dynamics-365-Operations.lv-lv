@@ -2,11 +2,9 @@
 title: EUR-00002 Ģenerēt ES Intrastat deklarāciju
 description: Šajā procedūrā ir aprakstīti soļi, kas nepieciešami, lai eksportētu Intrastat deklarāciju elektroniskā faila formātā un priekšskatītu deklarācijas datus Excel formātā.
 author: Anasyash
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
@@ -15,103 +13,103 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f42f7dbb22300f31b10ece9a44a563c8d438b50b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 24caceffd8c0bf29a3f9cc45b7bd1977e119359d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228032"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822607"
 ---
-# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="0378f-103">EUR-00002 Ģenerēt ES Intrastat deklarāciju</span><span class="sxs-lookup"><span data-stu-id="0378f-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
+# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="24796-103">EUR-00002 Ģenerēt ES Intrastat deklarāciju</span><span class="sxs-lookup"><span data-stu-id="24796-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0378f-104">Šajā procedūrā ir aprakstīti soļi, kas nepieciešami, lai eksportētu Intrastat deklarāciju elektroniskā faila formātā un priekšskatītu deklarācijas datus Excel formātā.</span><span class="sxs-lookup"><span data-stu-id="0378f-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
+<span data-ttu-id="24796-104">Šajā procedūrā ir aprakstīti soļi, kas nepieciešami, lai eksportētu Intrastat deklarāciju elektroniskā faila formātā un priekšskatītu deklarācijas datus Excel formātā.</span><span class="sxs-lookup"><span data-stu-id="24796-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
 
-<span data-ttu-id="0378f-105">Lai varētu veikt šo procedūru, ir jāveic transakciju pārsūtīšana uz Intrastat.</span><span class="sxs-lookup"><span data-stu-id="0378f-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
+<span data-ttu-id="24796-105">Lai varētu veikt šo procedūru, ir jāveic transakciju pārsūtīšana uz Intrastat.</span><span class="sxs-lookup"><span data-stu-id="24796-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
 
-<span data-ttu-id="0378f-106">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma DEMF dati.</span><span class="sxs-lookup"><span data-stu-id="0378f-106">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="24796-106">Šajā procedūrā tiek izmantoti demonstrācijas uzņēmuma DEMF dati.</span><span class="sxs-lookup"><span data-stu-id="24796-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="import-configurations-with-settings"></a><span data-ttu-id="0378f-107">Importēt konfigurācijas ar iestatījumiem</span><span class="sxs-lookup"><span data-stu-id="0378f-107">Import configurations with settings</span></span>
-1. <span data-ttu-id="0378f-108">Dodieties uz Darbvietas > Elektronisko atskaišu veidošana</span><span class="sxs-lookup"><span data-stu-id="0378f-108">Go to Workspaces > Electronic reporting</span></span>
-2. <span data-ttu-id="0378f-109">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="0378f-109">Click Set active.</span></span>
-3. <span data-ttu-id="0378f-110">Noklikšķiniet uz Repozitoriji.</span><span class="sxs-lookup"><span data-stu-id="0378f-110">Click Repositories.</span></span>
-4. <span data-ttu-id="0378f-111">Noklikšķiniet uz Atvērt.</span><span class="sxs-lookup"><span data-stu-id="0378f-111">Click Open.</span></span>
-5. <span data-ttu-id="0378f-112">Atveriet kolonnas Konfigurācijas nosaukums filtru.</span><span class="sxs-lookup"><span data-stu-id="0378f-112">Open Configuration name column filter.</span></span>
-6. <span data-ttu-id="0378f-113">Lietojiet filtru laukam “Konfigurācijas nosaukums” ar vērtību “Intrastat (DE)”, izmantojot filtra operatoru “sākas ar”.</span><span class="sxs-lookup"><span data-stu-id="0378f-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
-    * <span data-ttu-id="0378f-114">Atlasiet konfigurācijas nosaukumu, kas attiecas uz jūsu juridiskās personas valsti.</span><span class="sxs-lookup"><span data-stu-id="0378f-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="0378f-115">Šai procedūrai kā piemērs tiek izmantota Vācijas juridiskā persona (DEMF), līdz ar to ir jāizvēlas “Intrastat (DE)”.</span><span class="sxs-lookup"><span data-stu-id="0378f-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
-    * <span data-ttu-id="0378f-116">Noklikšķiniet uz Importēt un pēc tam uz Jā.</span><span class="sxs-lookup"><span data-stu-id="0378f-116">Click Import and then click Yes.</span></span>  
-7. <span data-ttu-id="0378f-117">Atveriet kolonnas Konfigurācijas nosaukums filtru.</span><span class="sxs-lookup"><span data-stu-id="0378f-117">Open Configuration name column filter.</span></span>
-8. <span data-ttu-id="0378f-118">Lietojiet filtru laukam “Konfigurācijas nosaukums” ar vērtību “Intrastat pārskats”, izmantojot filtra operatoru “sākas ar”.</span><span class="sxs-lookup"><span data-stu-id="0378f-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
-    * <span data-ttu-id="0378f-119">Noklikšķiniet uz Importēt un pēc tam uz Jā.</span><span class="sxs-lookup"><span data-stu-id="0378f-119">Click Import and then click Yes.</span></span>  
+## <a name="import-configurations-with-settings"></a><span data-ttu-id="24796-107">Importēt konfigurācijas ar iestatījumiem</span><span class="sxs-lookup"><span data-stu-id="24796-107">Import configurations with settings</span></span>
+1. <span data-ttu-id="24796-108">Dodieties uz Darbvietas > Elektronisko atskaišu veidošana</span><span class="sxs-lookup"><span data-stu-id="24796-108">Go to Workspaces > Electronic reporting</span></span>
+2. <span data-ttu-id="24796-109">Noklikšķiniet uz Iestatīt aktīvu.</span><span class="sxs-lookup"><span data-stu-id="24796-109">Click Set active.</span></span>
+3. <span data-ttu-id="24796-110">Noklikšķiniet uz Repozitoriji.</span><span class="sxs-lookup"><span data-stu-id="24796-110">Click Repositories.</span></span>
+4. <span data-ttu-id="24796-111">Noklikšķiniet uz Atvērt.</span><span class="sxs-lookup"><span data-stu-id="24796-111">Click Open.</span></span>
+5. <span data-ttu-id="24796-112">Atveriet kolonnas Konfigurācijas nosaukums filtru.</span><span class="sxs-lookup"><span data-stu-id="24796-112">Open Configuration name column filter.</span></span>
+6. <span data-ttu-id="24796-113">Lietojiet filtru laukam “Konfigurācijas nosaukums” ar vērtību “Intrastat (DE)”, izmantojot filtra operatoru “sākas ar”.</span><span class="sxs-lookup"><span data-stu-id="24796-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="24796-114">Atlasiet konfigurācijas nosaukumu, kas attiecas uz jūsu juridiskās personas valsti.</span><span class="sxs-lookup"><span data-stu-id="24796-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="24796-115">Šai procedūrai kā piemērs tiek izmantota Vācijas juridiskā persona (DEMF), līdz ar to ir jāizvēlas “Intrastat (DE)”.</span><span class="sxs-lookup"><span data-stu-id="24796-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
+    * <span data-ttu-id="24796-116">Noklikšķiniet uz Importēt un pēc tam uz Jā.</span><span class="sxs-lookup"><span data-stu-id="24796-116">Click Import and then click Yes.</span></span>  
+7. <span data-ttu-id="24796-117">Atveriet kolonnas Konfigurācijas nosaukums filtru.</span><span class="sxs-lookup"><span data-stu-id="24796-117">Open Configuration name column filter.</span></span>
+8. <span data-ttu-id="24796-118">Lietojiet filtru laukam “Konfigurācijas nosaukums” ar vērtību “Intrastat pārskats”, izmantojot filtra operatoru “sākas ar”.</span><span class="sxs-lookup"><span data-stu-id="24796-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="24796-119">Noklikšķiniet uz Importēt un pēc tam uz Jā.</span><span class="sxs-lookup"><span data-stu-id="24796-119">Click Import and then click Yes.</span></span>  
 
-## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="0378f-120">Iestatīt ārējās tirdzniecības parametrus</span><span class="sxs-lookup"><span data-stu-id="0378f-120">Set up Foreign trade parameters</span></span>
-1. <span data-ttu-id="0378f-121">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri</span><span class="sxs-lookup"><span data-stu-id="0378f-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
-2. <span data-ttu-id="0378f-122">Izvērsiet sadaļu Elektroniskie pārskati.</span><span class="sxs-lookup"><span data-stu-id="0378f-122">Expand the Electronic reporting section.</span></span>
-3. <span data-ttu-id="0378f-123">Laukā Faila formāta kartēšana ievadiet vai atlasiet vērtību Intrastat (DE)</span><span class="sxs-lookup"><span data-stu-id="0378f-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
-4. <span data-ttu-id="0378f-124">Laukā Pārskata formāta kartēšana ievadiet vai atlasiet vērtību Intrastat pārskats</span><span class="sxs-lookup"><span data-stu-id="0378f-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
-5. <span data-ttu-id="0378f-125">Izvērsiet sadaļu Noapaļošanas nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="0378f-125">Expand the Rounding rules section.</span></span>
-    * <span data-ttu-id="0378f-126">Jums ir jāiestata noapaļošanas nosacījumi, kas ir spēkā jūsu valstī/reģionā Intrastat pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="0378f-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
-6. <span data-ttu-id="0378f-127">Ievadiet skaitli laukā Noapaļošanas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="0378f-127">In the Rounding rule field, enter a number.</span></span>
-    * <span data-ttu-id="0378f-128">Ievadiet noapaļošanas precizitāti, piemēram, ievadiet “0,01”.</span><span class="sxs-lookup"><span data-stu-id="0378f-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
-7. <span data-ttu-id="0378f-129">Ievadiet skaitli laukā Aiz komata esošo ciparu skaits summai.</span><span class="sxs-lookup"><span data-stu-id="0378f-129">In the Number of decimals for amount field, enter a number.</span></span>
-    * <span data-ttu-id="0378f-130">Piemēram, ievadiet “2”.</span><span class="sxs-lookup"><span data-stu-id="0378f-130">For example, enter '2'.</span></span>  
-8. <span data-ttu-id="0378f-131">Atlasiet opciju laukā Noapaļošana zem 1 kg.</span><span class="sxs-lookup"><span data-stu-id="0378f-131">In the Rounding below 1 kg field, select an option.</span></span>
-    * <span data-ttu-id="0378f-132">Piemēram, atlasiet “Noapaļošana uz augšu līdz 1 kg”.</span><span class="sxs-lookup"><span data-stu-id="0378f-132">For example, select 'Rounding up to 1 kg'.</span></span>  
-9. <span data-ttu-id="0378f-133">Ievadiet skaitli laukā Noapaļošanas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="0378f-133">In the Rounding rule field, enter a number.</span></span>
-    * <span data-ttu-id="0378f-134">Piemēram, ievadiet “1”, lai noapaļotu svaru līdz veselam skaitlim.</span><span class="sxs-lookup"><span data-stu-id="0378f-134">For example, enter '1' for rounding weight to the integer.</span></span>  
-10. <span data-ttu-id="0378f-135">Izvērsiet sadaļu Minimālā robeža.</span><span class="sxs-lookup"><span data-stu-id="0378f-135">Expand the Minimum limit section.</span></span>
-11. <span data-ttu-id="0378f-136">Laukā Svars ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="0378f-136">In the Weight field, enter a number.</span></span>
-    * <span data-ttu-id="0378f-137">Piemēram, ievadiet “10” kā minimālo svaru.</span><span class="sxs-lookup"><span data-stu-id="0378f-137">For example, enter '10' as the minimum weight.</span></span>  
-12. <span data-ttu-id="0378f-138">Laukā Summa ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="0378f-138">In the Amount field, enter a number.</span></span>
-    * <span data-ttu-id="0378f-139">Piemēram, ievadiet “200” kā minimālo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-139">For example, enter '200' as the minimum amount.</span></span>  
-13. <span data-ttu-id="0378f-140">Laukā Prece ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="0378f-140">In the Commodity field, enter or select a value.</span></span>
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="24796-120">Iestatīt ārējās tirdzniecības parametrus</span><span class="sxs-lookup"><span data-stu-id="24796-120">Set up Foreign trade parameters</span></span>
+1. <span data-ttu-id="24796-121">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Ārējās tirdzniecības parametri</span><span class="sxs-lookup"><span data-stu-id="24796-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+2. <span data-ttu-id="24796-122">Izvērsiet sadaļu Elektroniskie pārskati.</span><span class="sxs-lookup"><span data-stu-id="24796-122">Expand the Electronic reporting section.</span></span>
+3. <span data-ttu-id="24796-123">Laukā Faila formāta kartēšana ievadiet vai atlasiet vērtību Intrastat (DE)</span><span class="sxs-lookup"><span data-stu-id="24796-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
+4. <span data-ttu-id="24796-124">Laukā Pārskata formāta kartēšana ievadiet vai atlasiet vērtību Intrastat pārskats</span><span class="sxs-lookup"><span data-stu-id="24796-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
+5. <span data-ttu-id="24796-125">Izvērsiet sadaļu Noapaļošanas nosacījumi.</span><span class="sxs-lookup"><span data-stu-id="24796-125">Expand the Rounding rules section.</span></span>
+    * <span data-ttu-id="24796-126">Jums ir jāiestata noapaļošanas nosacījumi, kas ir spēkā jūsu valstī/reģionā Intrastat pārskatiem.</span><span class="sxs-lookup"><span data-stu-id="24796-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
+6. <span data-ttu-id="24796-127">Ievadiet skaitli laukā Noapaļošanas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="24796-127">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="24796-128">Ievadiet noapaļošanas precizitāti, piemēram, ievadiet “0,01”.</span><span class="sxs-lookup"><span data-stu-id="24796-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
+7. <span data-ttu-id="24796-129">Ievadiet skaitli laukā Aiz komata esošo ciparu skaits summai.</span><span class="sxs-lookup"><span data-stu-id="24796-129">In the Number of decimals for amount field, enter a number.</span></span>
+    * <span data-ttu-id="24796-130">Piemēram, ievadiet “2”.</span><span class="sxs-lookup"><span data-stu-id="24796-130">For example, enter '2'.</span></span>  
+8. <span data-ttu-id="24796-131">Atlasiet opciju laukā Noapaļošana zem 1 kg.</span><span class="sxs-lookup"><span data-stu-id="24796-131">In the Rounding below 1 kg field, select an option.</span></span>
+    * <span data-ttu-id="24796-132">Piemēram, atlasiet “Noapaļošana uz augšu līdz 1 kg”.</span><span class="sxs-lookup"><span data-stu-id="24796-132">For example, select 'Rounding up to 1 kg'.</span></span>  
+9. <span data-ttu-id="24796-133">Ievadiet skaitli laukā Noapaļošanas nosacījums.</span><span class="sxs-lookup"><span data-stu-id="24796-133">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="24796-134">Piemēram, ievadiet “1”, lai noapaļotu svaru līdz veselam skaitlim.</span><span class="sxs-lookup"><span data-stu-id="24796-134">For example, enter '1' for rounding weight to the integer.</span></span>  
+10. <span data-ttu-id="24796-135">Izvērsiet sadaļu Minimālā robeža.</span><span class="sxs-lookup"><span data-stu-id="24796-135">Expand the Minimum limit section.</span></span>
+11. <span data-ttu-id="24796-136">Laukā Svars ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="24796-136">In the Weight field, enter a number.</span></span>
+    * <span data-ttu-id="24796-137">Piemēram, ievadiet “10” kā minimālo svaru.</span><span class="sxs-lookup"><span data-stu-id="24796-137">For example, enter '10' as the minimum weight.</span></span>  
+12. <span data-ttu-id="24796-138">Laukā Summa ievadiet skaitli.</span><span class="sxs-lookup"><span data-stu-id="24796-138">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="24796-139">Piemēram, ievadiet “200” kā minimālo daudzumu.</span><span class="sxs-lookup"><span data-stu-id="24796-139">For example, enter '200' as the minimum amount.</span></span>  
+13. <span data-ttu-id="24796-140">Laukā Prece ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="24796-140">In the Commodity field, enter or select a value.</span></span>
 
-## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="0378f-141">Iestatīt Intrastat arhivēšanu</span><span class="sxs-lookup"><span data-stu-id="0378f-141">Set up Compression of Intrastat</span></span>
-1. <span data-ttu-id="0378f-142">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Intrastat arhivēšana.</span><span class="sxs-lookup"><span data-stu-id="0378f-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
-2. <span data-ttu-id="0378f-143">Noklikšķiniet uz Noņemt.</span><span class="sxs-lookup"><span data-stu-id="0378f-143">Click Remove.</span></span>
-3. <span data-ttu-id="0378f-144">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="0378f-144">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="0378f-145">Piemēram, sadaļā Pieejams atlasiet vienumu Prece.</span><span class="sxs-lookup"><span data-stu-id="0378f-145">For example, select Commodity in the Available section.</span></span>  
-4. <span data-ttu-id="0378f-146">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="0378f-146">Click Add.</span></span>
+## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="24796-141">Iestatīt Intrastat arhivēšanu</span><span class="sxs-lookup"><span data-stu-id="24796-141">Set up Compression of Intrastat</span></span>
+1. <span data-ttu-id="24796-142">Dodieties uz Nodokļi > Iestatīšana > Ārējā tirdzniecība > Intrastat arhivēšana.</span><span class="sxs-lookup"><span data-stu-id="24796-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
+2. <span data-ttu-id="24796-143">Noklikšķiniet uz Noņemt.</span><span class="sxs-lookup"><span data-stu-id="24796-143">Click Remove.</span></span>
+3. <span data-ttu-id="24796-144">Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.</span><span class="sxs-lookup"><span data-stu-id="24796-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="24796-145">Piemēram, sadaļā Pieejams atlasiet vienumu Prece.</span><span class="sxs-lookup"><span data-stu-id="24796-145">For example, select Commodity in the Available section.</span></span>  
+4. <span data-ttu-id="24796-146">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="24796-146">Click Add.</span></span>
 
-## <a name="generate-intrastat-declaration"></a><span data-ttu-id="0378f-147">Ģenerēt Intrastat deklarāciju</span><span class="sxs-lookup"><span data-stu-id="0378f-147">Generate Intrastat declaration</span></span>
-1. <span data-ttu-id="0378f-148">Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat</span><span class="sxs-lookup"><span data-stu-id="0378f-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
-2. <span data-ttu-id="0378f-149">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="0378f-149">Click Validate.</span></span>
-    * <span data-ttu-id="0378f-150">Pārbaude tiek veikta saskaņā ar lauku Iestatījumu pārbaude lapā Ārējās tirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="0378f-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
-3. <span data-ttu-id="0378f-151">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0378f-151">Click OK.</span></span>
-4. <span data-ttu-id="0378f-152">Noklikšķiniet uz Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="0378f-152">Click Update.</span></span>
-5. <span data-ttu-id="0378f-153">Noklikšķiniet uz Minimālā robeža.</span><span class="sxs-lookup"><span data-stu-id="0378f-153">Click Minimum limit.</span></span>
-6. <span data-ttu-id="0378f-154">Laukā Sākuma datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-154">In the Start date field, enter a date.</span></span>
-    * <span data-ttu-id="0378f-155">Piemēram, ievadiet 2015. gada 1. janvāris.</span><span class="sxs-lookup"><span data-stu-id="0378f-155">For example, enter January 1, 2015.</span></span>  
-7. <span data-ttu-id="0378f-156">Laukā Arhivēt atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="0378f-156">Select Yes in the Compress field.</span></span>
-8. <span data-ttu-id="0378f-157">Laukā Beigu datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-157">In the End date field, enter a date.</span></span>
-    * <span data-ttu-id="0378f-158">Piemēram, ievadiet 2015. gada 31. janvāris.</span><span class="sxs-lookup"><span data-stu-id="0378f-158">For example, enter January 31, 2015.</span></span>  
-9. <span data-ttu-id="0378f-159">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0378f-159">Click OK.</span></span>
-10. <span data-ttu-id="0378f-160">Noklikšķiniet uz Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="0378f-160">Click Update.</span></span>
-11. <span data-ttu-id="0378f-161">Noklikšķiniet uz Arhivēt.</span><span class="sxs-lookup"><span data-stu-id="0378f-161">Click Compress.</span></span>
-    * <span data-ttu-id="0378f-162">Šī arhivēšana tiek veikta atbilstoši tam, kā ir iestatīti Instrastat arhivēšanas iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="0378f-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
-12. <span data-ttu-id="0378f-163">Laukā Sākuma datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-163">In the Start date field, enter a date.</span></span>
-    * <span data-ttu-id="0378f-164">Piemēram, ievadiet 2015. gada 1. janvāris.</span><span class="sxs-lookup"><span data-stu-id="0378f-164">For example, enter January 1, 2015.</span></span>  
-13. <span data-ttu-id="0378f-165">Laukā Beigu datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-165">In the End date field, enter a date.</span></span>
-    * <span data-ttu-id="0378f-166">Piemēram, ievadiet 2015. gada 31. janvāris.</span><span class="sxs-lookup"><span data-stu-id="0378f-166">For example, enter 31st January 2015.</span></span>  
-14. <span data-ttu-id="0378f-167">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0378f-167">Click OK.</span></span>
-15. <span data-ttu-id="0378f-168">Noklikšķiniet uz Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="0378f-168">Click Update.</span></span>
-16. <span data-ttu-id="0378f-169">Noklikšķiniet uz Atjaunot sērijas numurus.</span><span class="sxs-lookup"><span data-stu-id="0378f-169">Click Regenerate sequence numbers.</span></span>
-17. <span data-ttu-id="0378f-170">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0378f-170">Click OK.</span></span>
-18. <span data-ttu-id="0378f-171">Noklikšķiniet uz Izvade.</span><span class="sxs-lookup"><span data-stu-id="0378f-171">Click Output.</span></span>
-19. <span data-ttu-id="0378f-172">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="0378f-172">Click Report.</span></span>
-20. <span data-ttu-id="0378f-173">Laukā No datuma ievadiet pārskata perioda pirmo datumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-173">In the From date field, enter the first date of the reporting period.</span></span>
-    * <span data-ttu-id="0378f-174">Piemēram, iestatiet datumu “2015. gada 1. janvāris”.</span><span class="sxs-lookup"><span data-stu-id="0378f-174">For example, set the date to January 1, 2015.</span></span>  
-21. <span data-ttu-id="0378f-175">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="0378f-175">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="0378f-176">Piemēram, ievadiet 2015. gada 31. janvāris.</span><span class="sxs-lookup"><span data-stu-id="0378f-176">For example, enter January 31, 2015.</span></span>  
-22. <span data-ttu-id="0378f-177">Laukā Ģenerēt failu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="0378f-177">Select Yes in the Generate file field.</span></span>
-23. <span data-ttu-id="0378f-178">Ierakstiet vērtību laukā Faila nosaukums.</span><span class="sxs-lookup"><span data-stu-id="0378f-178">In the File name field, type a value.</span></span>
-24. <span data-ttu-id="0378f-179">Laukā Ģenerēt pārskatu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="0378f-179">Select Yes in the Generate report field.</span></span>
-25. <span data-ttu-id="0378f-180">Ierakstiet vērtību laukā Pārskata faila nosaukums.</span><span class="sxs-lookup"><span data-stu-id="0378f-180">In the Report file name field, type a value.</span></span>
-26. <span data-ttu-id="0378f-181">Laukā Virziens atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="0378f-181">In the Direction field, select an option.</span></span>
-    * <span data-ttu-id="0378f-182">Piemēram atlasiet “Izejošie krājumi”.</span><span class="sxs-lookup"><span data-stu-id="0378f-182">For example, select 'Dispatches'.</span></span>  
-27. <span data-ttu-id="0378f-183">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="0378f-183">Click OK.</span></span>
+## <a name="generate-intrastat-declaration"></a><span data-ttu-id="24796-147">Ģenerēt Intrastat deklarāciju</span><span class="sxs-lookup"><span data-stu-id="24796-147">Generate Intrastat declaration</span></span>
+1. <span data-ttu-id="24796-148">Dodieties uz Nodokļi > Deklarācijas > Ārējā tirdzniecība > Intrastat</span><span class="sxs-lookup"><span data-stu-id="24796-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
+2. <span data-ttu-id="24796-149">Noklikšķiniet uz Pārbaudīt.</span><span class="sxs-lookup"><span data-stu-id="24796-149">Click Validate.</span></span>
+    * <span data-ttu-id="24796-150">Pārbaude tiek veikta saskaņā ar lauku Iestatījumu pārbaude lapā Ārējās tirdzniecības parametri.</span><span class="sxs-lookup"><span data-stu-id="24796-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
+3. <span data-ttu-id="24796-151">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="24796-151">Click OK.</span></span>
+4. <span data-ttu-id="24796-152">Noklikšķiniet uz Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="24796-152">Click Update.</span></span>
+5. <span data-ttu-id="24796-153">Noklikšķiniet uz Minimālā robeža.</span><span class="sxs-lookup"><span data-stu-id="24796-153">Click Minimum limit.</span></span>
+6. <span data-ttu-id="24796-154">Laukā Sākuma datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="24796-154">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="24796-155">Piemēram, ievadiet 2015. gada 1. janvāris.</span><span class="sxs-lookup"><span data-stu-id="24796-155">For example, enter January 1, 2015.</span></span>  
+7. <span data-ttu-id="24796-156">Laukā Arhivēt atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="24796-156">Select Yes in the Compress field.</span></span>
+8. <span data-ttu-id="24796-157">Laukā Beigu datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="24796-157">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="24796-158">Piemēram, ievadiet 2015. gada 31. janvāris.</span><span class="sxs-lookup"><span data-stu-id="24796-158">For example, enter January 31, 2015.</span></span>  
+9. <span data-ttu-id="24796-159">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="24796-159">Click OK.</span></span>
+10. <span data-ttu-id="24796-160">Noklikšķiniet uz Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="24796-160">Click Update.</span></span>
+11. <span data-ttu-id="24796-161">Noklikšķiniet uz Arhivēt.</span><span class="sxs-lookup"><span data-stu-id="24796-161">Click Compress.</span></span>
+    * <span data-ttu-id="24796-162">Šī arhivēšana tiek veikta atbilstoši tam, kā ir iestatīti Instrastat arhivēšanas iestatījumi.</span><span class="sxs-lookup"><span data-stu-id="24796-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
+12. <span data-ttu-id="24796-163">Laukā Sākuma datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="24796-163">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="24796-164">Piemēram, ievadiet 2015. gada 1. janvāris.</span><span class="sxs-lookup"><span data-stu-id="24796-164">For example, enter January 1, 2015.</span></span>  
+13. <span data-ttu-id="24796-165">Laukā Beigu datums ievadiet kādu datumu.</span><span class="sxs-lookup"><span data-stu-id="24796-165">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="24796-166">Piemēram, ievadiet 2015. gada 31. janvāris.</span><span class="sxs-lookup"><span data-stu-id="24796-166">For example, enter 31st January 2015.</span></span>  
+14. <span data-ttu-id="24796-167">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="24796-167">Click OK.</span></span>
+15. <span data-ttu-id="24796-168">Noklikšķiniet uz Atjaunināt.</span><span class="sxs-lookup"><span data-stu-id="24796-168">Click Update.</span></span>
+16. <span data-ttu-id="24796-169">Noklikšķiniet uz Atjaunot sērijas numurus.</span><span class="sxs-lookup"><span data-stu-id="24796-169">Click Regenerate sequence numbers.</span></span>
+17. <span data-ttu-id="24796-170">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="24796-170">Click OK.</span></span>
+18. <span data-ttu-id="24796-171">Noklikšķiniet uz Izvade.</span><span class="sxs-lookup"><span data-stu-id="24796-171">Click Output.</span></span>
+19. <span data-ttu-id="24796-172">Noklikšķiniet uz Atskaite.</span><span class="sxs-lookup"><span data-stu-id="24796-172">Click Report.</span></span>
+20. <span data-ttu-id="24796-173">Laukā No datuma ievadiet pārskata perioda pirmo datumu.</span><span class="sxs-lookup"><span data-stu-id="24796-173">In the From date field, enter the first date of the reporting period.</span></span>
+    * <span data-ttu-id="24796-174">Piemēram, iestatiet datumu “2015. gada 1. janvāris”.</span><span class="sxs-lookup"><span data-stu-id="24796-174">For example, set the date to January 1, 2015.</span></span>  
+21. <span data-ttu-id="24796-175">Laukā Līdz datumam ievadiet datumu.</span><span class="sxs-lookup"><span data-stu-id="24796-175">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="24796-176">Piemēram, ievadiet 2015. gada 31. janvāris.</span><span class="sxs-lookup"><span data-stu-id="24796-176">For example, enter January 31, 2015.</span></span>  
+22. <span data-ttu-id="24796-177">Laukā Ģenerēt failu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="24796-177">Select Yes in the Generate file field.</span></span>
+23. <span data-ttu-id="24796-178">Ierakstiet vērtību laukā Faila nosaukums.</span><span class="sxs-lookup"><span data-stu-id="24796-178">In the File name field, type a value.</span></span>
+24. <span data-ttu-id="24796-179">Laukā Ģenerēt pārskatu atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="24796-179">Select Yes in the Generate report field.</span></span>
+25. <span data-ttu-id="24796-180">Ierakstiet vērtību laukā Pārskata faila nosaukums.</span><span class="sxs-lookup"><span data-stu-id="24796-180">In the Report file name field, type a value.</span></span>
+26. <span data-ttu-id="24796-181">Laukā Virziens atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="24796-181">In the Direction field, select an option.</span></span>
+    * <span data-ttu-id="24796-182">Piemēram atlasiet “Izejošie krājumi”.</span><span class="sxs-lookup"><span data-stu-id="24796-182">For example, select 'Dispatches'.</span></span>  
+27. <span data-ttu-id="24796-183">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="24796-183">Click OK.</span></span>
 
 
 

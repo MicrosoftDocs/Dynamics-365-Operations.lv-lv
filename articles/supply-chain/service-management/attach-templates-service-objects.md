@@ -2,11 +2,9 @@
 title: Veidņu pievienošana pakalpojumu objektiem
 description: Veidnes materiālu komplekts (MK) var tikt pievienots pakalpojuma objekta attiecībai.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
@@ -17,39 +15,39 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cac9a0180e132fb0f81fbbbf076b04fbfcf59bf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6cbdac74eaf5d57aa6fc80e53686f1aaa776685
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259774"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824586"
 ---
-# <a name="attach-templates-to-service-objects"></a><span data-ttu-id="2c4fc-103">Veidņu pievienošana pakalpojumu objektiem</span><span class="sxs-lookup"><span data-stu-id="2c4fc-103">Attach templates to service objects</span></span>    
+# <a name="attach-templates-to-service-objects"></a><span data-ttu-id="e739a-103">Veidņu pievienošana pakalpojumu objektiem</span><span class="sxs-lookup"><span data-stu-id="e739a-103">Attach templates to service objects</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2c4fc-104">Veidnes materiālu komplekts (MK) var tikt pievienots pakalpojuma objekta attiecībai.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-104">A template bill of materials (BOM) can be attached to a service object relation.</span></span> <span data-ttu-id="2c4fc-105">Tādā gadījumā pakalpojuma objekta attiecība var tikt saistīta vai nu ar pakalpojuma pasūtījumu vai arī pakalpojumu līgumu.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-105">The service object relation can then be associated with either service orders or service agreements.</span></span>
+<span data-ttu-id="e739a-104">Veidnes materiālu komplekts (MK) var tikt pievienots pakalpojuma objekta attiecībai.</span><span class="sxs-lookup"><span data-stu-id="e739a-104">A template bill of materials (BOM) can be attached to a service object relation.</span></span> <span data-ttu-id="e739a-105">Tādā gadījumā pakalpojuma objekta attiecība var tikt saistīta vai nu ar pakalpojuma pasūtījumu vai arī pakalpojumu līgumu.</span><span class="sxs-lookup"><span data-stu-id="e739a-105">The service object relation can then be associated with either service orders or service agreements.</span></span>
 
-1.  <span data-ttu-id="2c4fc-106">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Pakalpojumu objekti**.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-106">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+1.  <span data-ttu-id="e739a-106">Noklikšķiniet uz **Pakalpojumu pārvaldība** \> **Iestatījumi** \> **Pakalpojumu objekti** \> **Pakalpojumu objekti**.</span><span class="sxs-lookup"><span data-stu-id="e739a-106">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
 
-2.  <span data-ttu-id="2c4fc-107">Izvēlieties pakalpojuma objektu.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-107">Select a service object.</span></span>
+2.  <span data-ttu-id="e739a-107">Izvēlieties pakalpojuma objektu.</span><span class="sxs-lookup"><span data-stu-id="e739a-107">Select a service object.</span></span>
 
-3.  <span data-ttu-id="2c4fc-108">Noklikšķiniet uz **Pakalpojumu līgumi** vai **Pakalpojuma pasūtījumi**, lai attēlotu pakalpojumu līgumus vai pakalpojuma pasūtījumus, ar ko ir bijis saistīts pakalpojumu objekts.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-108">Click **Service agreements** or **Service orders** to display the service agreements or service orders that the service object has been associated with.</span></span>
+3.  <span data-ttu-id="e739a-108">Noklikšķiniet uz **Pakalpojumu līgumi** vai **Pakalpojuma pasūtījumi**, lai attēlotu pakalpojumu līgumus vai pakalpojuma pasūtījumus, ar ko ir bijis saistīts pakalpojumu objekts.</span><span class="sxs-lookup"><span data-stu-id="e739a-108">Click **Service agreements** or **Service orders** to display the service agreements or service orders that the service object has been associated with.</span></span>
 
-4.  <span data-ttu-id="2c4fc-109">Atlasiet pakalpojumu līgumu vai pakalpojuma pasūtījumu, noklikšķiniet uz **Funkcijas**, tad noklikšķiniet uz **Pievienot veidnes MK**.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-109">Select a service agreement or a service order, click **Functions**, and then click **Attach template BOM**.</span></span>
+4.  <span data-ttu-id="e739a-109">Atlasiet pakalpojumu līgumu vai pakalpojuma pasūtījumu, noklikšķiniet uz **Funkcijas**, tad noklikšķiniet uz **Pievienot veidnes MK**.</span><span class="sxs-lookup"><span data-stu-id="e739a-109">Select a service agreement or a service order, click **Functions**, and then click **Attach template BOM**.</span></span>
 
-5.  <span data-ttu-id="2c4fc-110">Atlasiet veidnes MK, ko pievienot objektam.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-110">Select the template BOM to attach to the object.</span></span>
+5.  <span data-ttu-id="e739a-110">Atlasiet veidnes MK, ko pievienot objektam.</span><span class="sxs-lookup"><span data-stu-id="e739a-110">Select the template BOM to attach to the object.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="2c4fc-111">Lai pārvietotu pievienoto MK uz citu pakalpojumu objektu vai arī izdzēstu pievienoto MK, veidlapā <STRONG>Pakalpojuma objekti</STRONG> noklikšķiniet uz <STRONG>Funkcijas</STRONG> un pēc tam noklikšķiniet uz <STRONG>Pārvietot pakalpojuma MK</STRONG> vai <STRONG>Dzēst pakalpojuma MK</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="2c4fc-111">To move an attached BOM to another service object or to delete an attached BOM, in the <STRONG>Service objects</STRONG> form, click <STRONG>Functions</STRONG>, and then click <STRONG>Move service BOM</STRONG> or <STRONG>Delete service BOM</STRONG>.</span></span></P>
+> <P><span data-ttu-id="e739a-111">Lai pārvietotu pievienoto MK uz citu pakalpojumu objektu vai arī izdzēstu pievienoto MK, veidlapā <STRONG>Pakalpojuma objekti</STRONG> noklikšķiniet uz <STRONG>Funkcijas</STRONG> un pēc tam noklikšķiniet uz <STRONG>Pārvietot pakalpojuma MK</STRONG> vai <STRONG>Dzēst pakalpojuma MK</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e739a-111">To move an attached BOM to another service object or to delete an attached BOM, in the <STRONG>Service objects</STRONG> form, click <STRONG>Functions</STRONG>, and then click <STRONG>Move service BOM</STRONG> or <STRONG>Delete service BOM</STRONG>.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2c4fc-112">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="2c4fc-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e739a-112">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="e739a-112">See also</span></span>
 
-[<span data-ttu-id="2c4fc-113">Pakalpojumu objektu izveide</span><span class="sxs-lookup"><span data-stu-id="2c4fc-113">Create service objects</span></span>](create-service-objects.md)
+[<span data-ttu-id="e739a-113">Pakalpojumu objektu izveide</span><span class="sxs-lookup"><span data-stu-id="e739a-113">Create service objects</span></span>](create-service-objects.md)
 
   
 
