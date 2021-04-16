@@ -2,11 +2,9 @@
 title: Segšanas konfigurēšana
 description: Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums ir svarīgi saprast un pareizi definēt parametrus, lai tie atbilstu jūsu biznesa prasībām. Šajā tēmā ir aprakstīti parametri, kas tiek izmantoti segšanai gan modulim Parādi kreditoriem, gan modulim Debitoru parādi.
 author: kweekley
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee37bc38c1027e2b52e25b331f65be6f2f5edd98
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2acfe35363558398d873c7fd3a377d6db7785f19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254063"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830452"
 ---
 # <a name="configure-settlement"></a>Segšanas konfigurēšana
 
@@ -33,7 +31,7 @@ Transakciju segšanas veids un laiks var būt sarežģītas tēmas, tāpēc jums
 Segšanu apstrādi programmā Microsoft Dynamics 365 Finance ietekmē tālāk norādītie parametri. Segšana ir rēķina nosegšanas process saistībā ar maksājumu vai kredīta notu. Šie parametri atrodas lapas **Debitoru moduļa parametri** un **Kreditoru moduļa parametri** apgabalā **Segšana**.
 
 - **Automātiska segšana** — iestatiet šai opcijai **Jā**, ja transakcija ir jāsedz automātiski attiecībā pret citām atvērtajām transakcijām, kad tā tiek grāmatota. Ja šai opcijai tiek iestatīts **Nē**, lietotāji var manuāli nosegt transakcijas, kad tie ievada maksājumus, vai arī vēlāk, izmantojot lapu **Transakciju nosegšana**.
-- **Termiņatlaižu administrēšana** — norādiet, kā [termiņatlaide tiek apstrādāta, ja rēķins ir pārmaksāts](cash-discount-handling-overpayments.md). Pārmaksas gadījumā termiņatlaidi var samazināt, to var apstrādāt kā starpību vai atstāt kreditora vai debitora kontā.
+- **Termiņatlaižu administrēšana** — norādiet, kā [termiņatlaide tiek apstrādāta, ja rēķins ir pārmaksāts](cash-discount-handling-overpayments.md). Pārmaksas gadījumā termiņatlaidi var samazināt, to var apstrādāt kā starpību vai atstāt kreditora vai debitora kontā.
   -   **Nespecifiska** — termiņatlaides summa tiek samazināta atbilstoši pārmaksātajai summai. Šādi vienmēr tiek darīts neatkarīgi no tā, vai pārmaksātā summa ir lielāka vai mazāka par summu, kas tiek ievadīta laukā **Maksimālā pārmaksa vai nepilna samaksa**.
   -   **Specifiska** — pārmaksas summa tiek grāmatota termiņatlaides starpības virsgrāmatas kontā vai paliek kā bilance debitora vai kreditora kontā. Specifiska uzvedība ir atkarīga no tā, vai pārmaksas summa ir starp 0,00 un summu, kas ievadīta laukā **Maksimālā pārmaksa vai nepilna samaksa**, vai arī pārmaksas summa ir lielāka nekā summa laukā **Maksimālā pārmaksa vai nepilna samaksa**.
 - **Maks. sīknaudas starpība** — ievadiet maksimālo atļauto sīknaudas starpību segtajām transakcijām. Ja sīknaudas starpība ir vienāda ar vai mazāka par sīknaudas starpību, kas ir norādīta šajā laukā, tad starpība tiks grāmatota sīknaudas starpības virsgrāmatas kontā, kurš ir norādīts lapā **Automātisko darījumu konti**.
@@ -54,7 +52,7 @@ Segšanu apstrādi programmā Microsoft Dynamics 365 Finance ietekmē tālāk no
   -   **Konti rēķina rindās** — termiņatlaide tiek grāmatota Virsgrāmatas kontos sākotnējā rēķinā.
 - **Atzīmēt līnijas brīva teksta rēķinos un procentu paziņojumos (tikai kreditoriem)** — iestatiet šai opcijai **Jā**, lai iespējotu pogu **Atzīmēt rēķina rindas** lapā **Ievadīt debitora maksājumus**, **Maksājumu žurnāla dokuments** un **Transakciju nosegšana**. Šī poga ļauj lietotājiem atzīmēt atsevišķas rindas nosegšanai.
 - **Noteikt segšanai prioritāti (tikai kreditoriem)** — iestatiet šai opcijai **Jā**, lai iespējotu pogu **Atzīmēt pēc prioritātes** lapā **Ievadīt debitora maksājumus** un **Transakciju nosegšana**. Šī poga lietotājiem ļauj piešķirt iepriekš definētu transakciju segšanas kārtību.  Ja transakcijai tika izmantota segšanas kārtība, tad pirms grāmatošanas šo kārtību un maksājuma sadalījumu var modificēt.
-- **Izmantot prioritāti automātiskai segšanai** — šīs opcijas vērtību iestatiet uz **Jā**, lai transakciju automātiskās segšanas laikā izmantotu definēto prioritāšu secību. Šis lauks ir pieejams tikai tad, ja opcijai **Noteikt segšanai prioritāti** un **Automātiska segšana** ir norādīta vērtība **Jā**.
+- **Izmantot prioritāti automātiskai segšanai** — šīs opcijas vērtību iestatiet uz **Jā**, lai transakciju automātiskās segšanas laikā izmantotu definēto prioritāšu secību. Šis lauks ir pieejams tikai tad, ja opcijai **Noteikt segšanai prioritāti** un **Automātiska segšana** ir norādīta vērtība **Jā**.
 
 ## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Fiksētas dimensijas debitoru parādu/parādu kreditoriem galvenajos kontos
 

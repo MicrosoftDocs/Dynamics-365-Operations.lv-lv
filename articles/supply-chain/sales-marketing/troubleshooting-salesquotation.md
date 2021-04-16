@@ -2,11 +2,9 @@
 title: Pārdošanas piedāvājumu problēmu novēršana
 description: Šajā tēmā ir aprakstīts, kā labot problēmas, kas var rasties, strādājot ar pārdošanas piedāvājumiem.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTable, SalesQuotationTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9a9cc821d2fe9accad1dae210271682cdd2ce4ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 09529ba729170be7281e2ae04008d3ba4a58e060
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232210"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824754"
 ---
 # <a name="troubleshoot-sales-quotations"></a>Pārdošanas piedāvājumu problēmu novēršana
 

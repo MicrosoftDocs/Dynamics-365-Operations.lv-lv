@@ -2,11 +2,9 @@
 title: PVN pārskati Eiropai
 description: Šajā tēmā ir sniegta vispārīga informācija par pievienotās vērtības nodokļa (PVN) pārskatu iestatīšanu un ģenerēšanu noteiktām Eiropas valstīm.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444726e6295fb127316af9c8382ccb4d25d28ce3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 743298a1c32f5fc706ad7a47d9b559569946889b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232006"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832664"
 ---
 # <a name="vat-reporting-for-europe"></a>PVN pārskati Eiropai
 
@@ -64,7 +62,7 @@ PVN pārskatu kodi ir lodziņu kodi PVN deklarācijā vai etiķešu nosaukumi XM
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>PVN kodi PVN pārskatiem
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  PVN transakciju bāzes summas un nodokļu summas PVN deklarācijā var apkopot pārskatu kodos (XML etiķetēs vai deklarācijas lodziņos). Šo iespēju varat iestatīt, saistot PVN pārskatu kodus dažādiem transakciju tipiem PVN kodos lapā <strong>PVN kodi</strong>. Nākamajā tabulā ir aprakstīti transakciju tipi pārskatu iestatīšanai PVN kodiem. Šajā aprēķinā ir iekļautas transakcijas no visu tipu avotiem, izņemot PVN.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> PVN transakciju bāzes summas un nodokļu summas PVN deklarācijā var apkopot pārskatu kodos (XML etiķetēs vai deklarācijas lodziņos). Šo iespēju varat iestatīt, saistot PVN pārskatu kodus dažādiem transakciju tipiem PVN kodos lapā <strong>PVN kodi</strong>. Nākamajā tabulā ir aprakstīti transakciju tipi pārskatu iestatīšanai PVN kodiem. Šajā aprēķinā ir iekļautas transakcijas no visu tipu avotiem, izņemot PVN.
 
 <table>
 <colgroup>

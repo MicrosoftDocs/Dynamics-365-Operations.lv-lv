@@ -2,11 +2,9 @@
 title: Avansa turētāju pārskats
 description: Uzziniet par avansa turētāja funkcionalitāti programmā Microsoft Dynamics 365 Finance.
 author: LizaGolub
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d9f96629e2634981c5d9f36479d341bcffcdf48b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dabde875e719ca2ffb5033cdbb8229e005203eae
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209914"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839940"
 ---
 # <a name="advance-holders-overview"></a>Avansa turētāju pārskats
 
@@ -53,7 +51,7 @@ Lai izveidotu metodi avansa turētāju transakcijām, izmantojiet lapu **Darbini
 |-----------------|---------------------------------------------------------------------------------------------------|
 | **Grāmatošanas metode** |  Ievadiet grāmatošanas metodes identifikācijas kodu avansa turētājam.               |
 |   **Apraksts**   |  Ievadiet īsu grāmatošanas metodes aprakstu.                         |
-|    **Derīgs**    |  Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. <ul> <li>**Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam. Laukā **Atsauce** ir jānorāda avansa turētāja kods.</li> <li>**Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai. Laukā **Atsauce** ir jānorāda grupas kods.</li> <li>**Viss** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu visiem avansa turētājiem.</li></ul> |
+|    **Derīgs**    |  Grāmatošanas metodes iestatīšanas nolūkos grupēšanas līmenim atlasiet kādu no tālāk norādītajām opcijām. <ul> <li>**Tabula** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu vienam avansa turētājam. Laukā **Atsauce** ir jānorāda avansa turētāja kods.</li> <li>**Grupa** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu avansa turētāju grupai. Laukā **Atsauce** ir jānorāda grupas kods.</li> <li>**Viss** — šī opcija tiek izmantota, lai iestatītu grāmatošanas profilu visiem avansa turētājiem.</li></ul> |
 | **Atsauce** | Atlasiet avansa turētāja kodu, ja laukā **Derīgs** ir atlasīta **Tabula**, vai atlasiet avansa turētāju grupu, ja laukā **Derīgs** ir atlasīta **Grupa**. |
 | **Summu konts** | Atlasiet kopsavilkuma kontu transakciju iegrāmatošanai. |
 
@@ -91,10 +89,10 @@ Lai varētu izveidot avansa turētāju, nodarbinātajiem jau ir jābūt iestatī
 3. Lai norādītu, ka darbinieks ir avansa turētājs, kopsavilkuma cilnē **Vispārēji** iestatiet opcijas **Avansa turētājs** vērtību **Jā**.
 4. Laukā **Grupa** atlasiet avansa turētāju grupu, kurai pieder darbinieks.
 5. Laukā **Personas identifikācijas dokuments** norādiet detalizētu informāciju par personas identifikācijas dokumentu.
-    - **Sērija** — ievadiet tā dokumenta sēriju, kurš tiek izmantots avansa turētāja identitātes verificēšanai.
-    - **Numurs** — ievadiet tā dokumenta numuru, kurš tiek izmantots avansa turētāja identitātes verificēšanai.
-    - **Izsniegšanas datums** — atlasiet vai ievadiet dokumenta izsniegšanas datumu.
-    - **Izsniedza** — ievadiet detalizētu informāciju par iestādi vai personu, kas izsniedza šo dokumentu.
+    - **Sērija** — ievadiet tā dokumenta sēriju, kurš tiek izmantots avansa turētāja identitātes verificēšanai.
+    - **Numurs** — ievadiet tā dokumenta numuru, kurš tiek izmantots avansa turētāja identitātes verificēšanai.
+    - **Izsniegšanas datums** — atlasiet vai ievadiet dokumenta izsniegšanas datumu.
+    - **Izsniedza** — ievadiet detalizētu informāciju par iestādi vai personu, kas izsniedza šo dokumentu.
 6. Atlasiet **Saglabāt** vai aizveriet lapu.
 
 > [!NOTE]

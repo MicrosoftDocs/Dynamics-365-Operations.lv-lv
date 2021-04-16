@@ -2,11 +2,9 @@
 title: Automātisks sūtījums pārkraušanai sadales centrā
 description: Šajā tēmā ir aprakstīta pārkraušanas sadales centrā stratēģija, kas ļauj automātiski izdot pieprasījuma pasūtījumu noliktavai, kad ražošanas pasūtījums, ar ko piegādā pieprasījuma daudzumu, tiek norādīts kā pabeigts, lai daudzums tiktu pārvietots tieši no ražošanas izlaides novietojuma uz nosūtīšanas vietu.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233179"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831438"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automātisks sūtījums pārkraušanai sadales centrā
 
@@ -163,7 +161,7 @@ Lai pārkrautu pabeigto preču daudzumu uz saistītā pārdošanas pasūtījuma 
 8. Lapas **Ražošanas pasūtījums** darbību rūtī cilnes **Ražošanas pasūtījums** grupā **Process** atlasiet **Novērtējums** un pēc tam atlasiet **Labi**. Pasūtījums tiek novērtēts, un izejmateriāla daudzums tiek rezervēts ražošanai.
 9. Cilnes **Ražošanas pasūtījums** darbību rūtī grupā **Process** atlasiet **Nodot izpildei** un pēc tam atlasiet **Labi**. Izejmateriāliem tiek izveidots noliktavas izdošanas darbs.
 10. Atveriet un pārskatiet darbu. Darbību rūtī cilnē **Noliktavas** grupā **Vispārīgi** atlasiet **Detalizēta informācija par darbu**. Pierakstiet darba ID.
-11. Pierakstieties noliktavas programmā, lai palaistu darbu 51. noliktavā.
+11. Pierakstieties Warehouse Management mobile lietotnē, lai palaistu darbu 51. noliktavā.
 12. Dodieties uz **Ražošana** \> **Ražošanas izdošana**.
 13. Ievadiet darba ID, lai sāktu un pabeigtu izejmateriālu izdošanu. 
 

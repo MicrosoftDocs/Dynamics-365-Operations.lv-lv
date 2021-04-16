@@ -2,11 +2,9 @@
 title: Elektr. ziņojumapm.
 description: Šajā tēmā ir sniegts apskats par elektronisko ziņojumapmaiņu un tās iestatīšanai nepieciešamo informāciju programmā Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 214d5cc2c3670b22fb4c28e5868fd9aade12ce84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236774"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823792"
 ---
 # <a name="electronic-messaging"></a>Elektroniskā ziņojumapmaiņa
 
@@ -37,7 +35,7 @@ Elektroniskā ziņojumapm. balstās uz šādiem elementiem:
 
 - **Elektroniskais ziņojums** — pārskats vai deklarācija, par ko ir jāziņo un/vai kas jānosūta iekšēji. Piemērs ir pārskats, ko nosūta nodokļu iestādei.
 - **Elektroniskā ziņojuma vienumi** — ieraksti, kas jāiekļauj ziņojumā, par kuru tiek ziņots.
-- **Elektroniskā ziņojumu apstrāde** — darbību ķēde, kas ir jāizpilda, lai savāktu nepieciešamos datus, ģenerētu pārskatus, uzglabātu datus Microsoft Azure Blob krātuvē, pārsūtītu pārskatus ārpus sistēmas, saņemtu atbildes no sistēmas ārpuses un atjauninātu datu bāzi, pamatojoties uz saņemto informāciju. Darbības ķēdē var saistīt vai atsaistīt
+- **Elektroniskā ziņojumu apstrāde** — darbību ķēde, kas ir jāizpilda, lai savāktu nepieciešamos datus, ģenerētu pārskatus, uzglabātu datus Microsoft Azure Blob krātuvē, pārsūtītu pārskatus ārpus sistēmas, saņemtu atbildes no sistēmas ārpuses un atjauninātu datu bāzi, pamatojoties uz saņemto informāciju. Darbības ķēdē var saistīt vai atsaistīt
 
 Šajā attēlā ir parādīta elektroniskās ziņojumapmaiņas datu plūsma.
 
@@ -169,7 +167,7 @@ Cilnē **Datu avotu iestatīšana** pievienojiet rindu katram datu avotam, kas t
 
 ### <a name="web-applications"></a>Tīmekļa lietojumprogrammas
 
-Tīmekļa programmas iestatījumus izmanto, lai iestatītu tīmekļa programmu, lai tā atbalstītu Open Authorization (OAuth) 2.0. OAuth ir atvērts standarts, kas ļauj lietotājam piešķirt “drošu deleģēto piekļuvi” programmai lietotāju vārdā, nenorādot lietotāju piekļuves akreditācijas datus. Varat arī izpildīt autorizēšanas procesu, iegūstot autorizācijas kodu un piekļuves marķieri. Tīmekļa programmas iestatījumus varat iestatīt lapā **Tīmekļa programmas** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Tīmekļa programmas**).
+Tīmekļa programmas iestatījumus izmanto, lai iestatītu tīmekļa programmu, lai tā atbalstītu Open Authorization (OAuth) 2.0. OAuth ir atvērts standarts, kas ļauj lietotājam piešķirt “drošu deleģēto piekļuvi” programmai lietotāju vārdā, nenorādot lietotāju piekļuves akreditācijas datus. Varat arī izpildīt autorizēšanas procesu, iegūstot autorizācijas kodu un piekļuves marķieri. Tīmekļa programmas iestatījumus varat iestatīt lapā **Tīmekļa programmas** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Tīmekļa programmas**).
 
 Nākamajā tabulā ir aprakstīti lauki lapā **Tīmekļa programmas**.
 
@@ -193,9 +191,9 @@ Nākamajā tabulā ir aprakstīti lauki lapā **Tīmekļa programmas**.
 
 Turklāt lapas **Tīmekļa programmas** darbību rūtī ir pieejamas šādas pogas autorizācijas procesa atbalstam:
 
-- **Iegūt autorizācijas kodu** — inicializē tīmekļa programmas autorizāciju.
-- **Iegūt piekļuves marķieri** — inicializē piekļuves marķiera ieguves procesu.
-- **Atsvaidzināt piekļuves marķieri** — atsvaidzina piekļuves marķieri.
+- **Iegūt autorizācijas kodu** — inicializē tīmekļa programmas autorizāciju.
+- **Iegūt piekļuves marķieri** — inicializē piekļuves marķiera ieguves procesu.
+- **Atsvaidzināt piekļuves marķieri** — atsvaidzina piekļuves marķieri.
 
 Kad tīmekļa programmas piekļuves marķieris ir saglabāts sistēmas datubāzē šifrētā formātā, to var izmantot tīmekļa pakalpojumu pieprasījumiem. Drošības nolūkos pieeja piekļuves marķierim ir jāierobežo tikai drošības lomām, kurām ir atļauts risināt šos pieprasījumus. Ja lietotāji ārpus drošības grupas mēģina risināt pieprasījumu, tiek parādīts kļūdas paziņojums, ka viņiem nav atļauts sadarboties, izmantojot atlasīto tīmekļa programmu. Lai iestatītu drošības lomas, kurām nepieciešama pieeja piekļuves marķierim, izmantojiet kopsavilkuma cilni **Drošības lomas** lapā **Tīmekļa programmas**. Ja drošības lomas tīmekļa programmai nav definētas, tikai sistēmas administrators var sadarboties, izmantojot šo tīmekļa programmu.
 
@@ -294,7 +292,7 @@ Tabulā ir parādīti beigu statusi, kas ir jāiestata dažādiem darbību tipie
 
 ### <a name="electronic-message-processing"></a>Elektroniska ziņojuma apstrāde
 
-Elektroniska ziņojuma apstrāde ir elektronisko ziņojumu funkcionalitātes pamatkoncepts. Tā apkopo darbības, kuras jānovērtē elektroniskajam ziņojumam. Darbības var saistīt, izmantojot sākotnējo statusu un beigu statusu. Vai arī darbības, kuru tips ir **Lietotāja apstrāde**, var sākt neatkarīgi. Lapā **Elektroniskā ziņojuma apstrāde** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Elektroniskā ziņojuma apstrāde**) varat arī atlasīt papildu laukus, kuri ir jāatbalsta apstrādei vai nu ziņojuma līmenī, vai ziņojuma vienumu līmenī.
+Elektroniska ziņojuma apstrāde ir elektronisko ziņojumu funkcionalitātes pamatkoncepts. Tā apkopo darbības, kuras jānovērtē elektroniskajam ziņojumam. Darbības var saistīt, izmantojot sākotnējo statusu un beigu statusu. Vai arī darbības, kuru tips ir **Lietotāja apstrāde**, var sākt neatkarīgi. Lapā **Elektroniskā ziņojuma apstrāde** (**Nodoklis** \> **Iestatījumi** \> **Elektroniskie ziņojumi** \> **Elektroniskā ziņojuma apstrāde**) varat arī atlasīt papildu laukus, kuri ir jāatbalsta apstrādei vai nu ziņojuma līmenī, vai ziņojuma vienumu līmenī.
 
 Kopsav. cilne **Darbība** ļauj pievienot iepr. definētas darb. apstrādei. Var norādīt, vai darbība ir jāpalaiž atsevišķi vai arī to var sākt apstrāde. Lai norādītu, ka darbību apstrādē var inicializēt tikai lietotājs, iestatiet attiecīgajai darbībai laukā **Izpildīt atsevišķi** vienumu **Jā**. Ja darbības ir jāizpilda apstrādē ziņojumiem vai ziņojumu vienumiem, kuru statuss ir definēts kā sākotnējais statuss šai darbībai, iestatiet laukā **Izpildīt atsevišķi** vienumu **Nē**. Darbības, kuru tips ir **Lietotāja darbība**, vienmēr ir jāpalaiž atsevišķi.
 
@@ -320,10 +318,10 @@ Kopsav. cilnē **Ziņojumi** tiek rādīti atlasītās apstrādes elektron. ziņ
 
 - **Jauns** — šī poga ir saistīta ar darbībām, kuru tips ir **Izveidot ziņojumu**.
 - **Dzēst** — šī poga ir pieejama, ja atlasītā ziņojuma pašreizējam statusam ir atzīmēta izvēles rūtiņa **Atļaut dzēšanu**.
-- **Apkopot datus** — šī poga ir saistīta ar darbībām, kuru tips ir **Aizpildīt ierakstus**.
+- **Apkopot datus** — šī poga ir saistīta ar darbībām, kuru tips ir **Aizpildīt ierakstus**.
 - **Ģenerēt pārskatu** — šī poga ir saistīta ar darbību tipu **Elektr. pārsk. veidoš. eksporta ziņojums**.
 - **Sūtīt pārskatu** — šī poga ir saistīta ar darbību tipu **Tīmekļa pakalpojums**.
-- **Importēt atbildi** — šī poga ir saistīta ar darbībām, kuru tips ir **Elektroniskā pārskata veidošanas imports**.
+- **Importēt atbildi** — šī poga ir saistīta ar darbībām, kuru tips ir **Elektroniskā pārskata veidošanas imports**.
 - **Atjaunināt statusu** — šī poga ir saistīta ar darbību tipu **Ziņojuma līmeņa lietotāja apstrāde**.
 - **Ziņojuma vienumi** — atv. lapu **Elektr. ziņoj. vienumi**.
 
@@ -333,9 +331,9 @@ Kopsavilkuma cilnē **Ziņojuma papildu lauki** ir redzami visi papildu lauki, k
 
 Kopsav. cilnē **Ziņojuma vienumi** ir redzami visi ziņ. vienumi, kas saistīti ar atlasīto ziņojumu. Atkarībā no atlasītā ziņojuma vienuma statusa dažas darbības var palaist, izmantojot pogas virs režģa:
 
-- **Dzēst** — šī poga ir pieejama, ja atlasītā ziņojuma vienuma pašreizējam statusam ir atzīmēta izvēles rūtiņa **Atļaut dzēšanu**.
-- **Atjaunināt statusu** — šī poga ir saistīta ar darbību tipu **Lietotāja apstrāde**.
-- **Oriģinālais dokuments** — atveriet lapu, kurā redzams sākotnējais dokuments atlasītajam ziņojuma vienumam.
+- **Dzēst** — šī poga ir pieejama, ja atlasītā ziņojuma vienuma pašreizējam statusam ir atzīmēta izvēles rūtiņa **Atļaut dzēšanu**.
+- **Atjaunināt statusu** — šī poga ir saistīta ar darbību tipu **Lietotāja apstrāde**.
+- **Oriģinālais dokuments** — atveriet lapu, kurā redzams sākotnējais dokuments atlasītajam ziņojuma vienumam.
 
 Visi pārskati, kas jau ir ģenerēti un saņemti attiecībā uz ziņojumu, ir pievienoti attiecīgajam ziņojumam. Lai skatītu ar ziņojumu saistītos pielikumus, atlasiet ziņojumu un pēc tam atlasiet pogu **Pielikums** (papīra saspraudes simbols) lapas augšējā labajā stūrī.
 

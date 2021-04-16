@@ -2,11 +2,9 @@
 title: Ienākošo noliktavas operāciju problēmu novēršana
 description: Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, strādājot ar noliktavas ienākošajām noliktavas operācijām programmā Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250886"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828230"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Ienākošo noliktavas operāciju problēmu novēršana
 
@@ -65,5 +63,22 @@ Jauna ienākošo kravu apstrādes funkcija *Pārsniedzot kravas daudzumu* izlabo
 
 Lai iegūtu papildu informāciju, skatiet [Reģistrēto preču daudzumu grāmatošana uz pirkšanas pasūtījumiem](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Kad reģistrēju ienākošos pasūtījumus, es saņemu šādu kļūdas ziņojumu: "Daudzums nav derīgs."
+
+### <a name="issue-description"></a>Problēmas apraksts
+
+Ja **Numura zīmes grupēšanas politikas** lauks ir iestatīts uz *Lietotājs, kas ir definēts* mobilās ierīces izvēlnes elementam, kas tiek izmantots ienākošo pasūtījumu reģistrēšanai, saņemat kļūdas ziņojumu ("Daudzums nav derīgs"), un reģistrāciju nevar pabeigt.
+
+### <a name="issue-cause"></a>Izsniegšanas iemesls
+
+Ja *Lietotājs, kas ir definēts* tiek izmantots kā numura zīmi grupēšanas politika, sistēma ienākošos krājumus sadala atsevišķās numura vienībai, kā norādīts vienību secību grupā. Ja partijas vai sērijas numuri tiek izmantoti saņemtā krājuma izsekošanai, katras partijas vai sērijas daudzumi ir jānorāda uz reģistrēto numura zīmi. Ja numura zīmei norādītais daudzums pārsniedz daudzumu, kas joprojām ir jāsaņem saskaņā ar pašreizējām dimensijām, saņemat kļūdas ziņojumu.
+
+### <a name="issue-resolution"></a>Problēmas risinājums
+
+Kad reģistrējiet krājumu, izmantojot mobilās ierīces izvēlnes vienumu, kura **Numura zīmi grupēšanas politikas** lauks ir iestatīts uz *Lietotājs, kas ir definēts*, sistēmai var būt nepieciešams apstiprināt vai ievadīt numura zīmi numurus, partijas numurus vai sērijas numurus.
+
+Numura zīmes apstiprināšanas lapā sistēma parādīs daudzumu, kas ir piešķirts pašreizējai numura zīmei. Partijas vai sērijas apstiprinājuma lapās sistēma rādīs daudzumu, kas ir jāsaņem pašreizējā numura zīmi. Šeit tiks iekļauts arī lauks, kur varat ievadīt daudzumu, ko reģistrēt numura zīmes un paketes vai sērijas numura kombinācijai. Šajā gadījumā pārliecinieties, ka numura zīmei reģistrētais daudzums nepārsniedz daudzumu, kas joprojām ir jāsaņem.
+
+Ja saņemšanas pasūtījuma reģistrācijā tiek ģenerēts pārāk daudz numura zīmju, **Numura zīmes grupēšanas politikas** lauka vērtību var mainīt uz *Numura zīmes grupēšanu*, krājumam var piešķirt jaunu vienību secību grupu vai vienību secību grupas opciju **Numura zīmju grupai** var deaktivizēt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

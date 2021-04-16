@@ -2,11 +2,9 @@
 title: PVN deklarācijas informācija Latvijai
 description: Šajā tēmā ir paskaidrots, kā iestatīt PVN deklarāciju juridiskajām personām Latvijā.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b48f4ee644c4c697e68b57eec0eb04cf8b2d6017
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4c3ceed717967a87a97c26f2c55c424415f80719
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208445"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830409"
 ---
 # <a name="vat-statement-details-for-latvia"></a>PVN deklarācijas informācija Latvijai
 

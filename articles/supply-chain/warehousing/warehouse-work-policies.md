@@ -2,11 +2,9 @@
 title: Darba politikas
 description: Šajā tēmā ir izskaidrots, kā iestatīt darba politiku.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3e7814790bce0aee648421e3a69d702fd0012404
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248551"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838134"
 ---
 # <a name="work-policies"></a>Darba politikas
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā skaidrots, kā iestatīt sistēmu un noliktavu programmu, lai tās atbalstītu darba politikas. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā tēmā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
+Šajā tēmā skaidrots, kā iestatīt sistēmu un Warehouse Management mobile programmu, lai tās atbalstītu darba politikas. Varat izmantot šo funkcionalitāti, lai ātri reģistrētu krājumus, neveidojot izvietošanas darbu, kad saņemat pirkšanas vai pārsūtīšanas pasūtījumus vai kad aizpildāt ražošanas procesus. Šajā tēmā ir sniegta vispārīga informācija. Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot noliktavas programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.
+Darba politika kontrolē, vai noliktavas darbs tiek izveidots, kad saražotais krājums ir fiziski pabeigts vai kad preces tiek saņemtas, izmantojot Warehouse Management mobile programmu. Katra darba politika tiek iestatīta, definējot nosacījumus, uz kuriem tas attiecas: darba pasūtījuma tipi un procesi, krājumu novietojums un (pēc izvēles) preces. Piemēram, pirkšanas pasūtījums precei *A0001* ir jāsaņem atrašanās vietā *RECV* noliktavā *24*. Vēlāk prece tiek patērēta citā procesā atrašanās vietā *RECV*. Šādā gadījumā varat iestatīt darba politiku, lai novērstu izvietošanas darba neveidošanu, kad darbinieks ziņo preci *A0001*, kā saņemtu atrašanās vietā *RECV*.
 
 > [!NOTE]
 > - Lai darba politika būtu aktīva, ir jādefinē vismaz viena atrašanās vieta, kas atrodas kopsavilkuma cilnē **Krājumu atrašanās vietas** **Darba politikas** lapā. 
@@ -297,7 +295,7 @@ Kad ražošanas pasūtījums tiek norādīts kā pabeigts, netika ģenerēts dar
 
 Papildinformāciju par mobilās ierīces izvēlnes elementiem skatiet [Mobilo ierīču iestatīšana noliktavas darbam](configure-mobile-devices-warehouse.md).
 
-Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu un darba politikām, skatiet [Numura zīmes saņemšana ar noliktavas programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
+Lai iegūtu detalizētu informāciju, kas saistīta ar numura zīmes saņemšanu un darba politikām, skatiet [Numura zīmes saņemšana ar Warehouse Management mobile programmas starpniecību](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Papildinformāciju par saņemšanas noslodzes pārvaldību skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](inbound-load-handling.md).
 

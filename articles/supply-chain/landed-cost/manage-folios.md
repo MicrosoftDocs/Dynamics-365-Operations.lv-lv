@@ -2,7 +2,6 @@
 title: Pārvaldīt folio
 description: Šajā tēmā ir aprakstīts, kā strādāt ar folio. Parasti folio veido viena kreditora preces vienai entītijai vai uzņēmumam vienā sūtījumā. Folio preces var būt vienā konteinerā vai izplatītas starp vairākiem konteineriem.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2205ad8da1987130e97054b3f20749bce61198dd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 99159d2197648b8f17a719b74c8cd6ea4bffe550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500842"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833837"
 ---
 # <a name="manage-folios"></a>Pārvaldīt folio
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Folio bieži nosaka muitas noteikumi. Tas var ietvert viena kreditora preces vienam elementam vai uzņēmumam vienā sūtījumā. Folio preces var būt vienā konteinerā vai izplatītas starp vairākiem konteineriem.
 

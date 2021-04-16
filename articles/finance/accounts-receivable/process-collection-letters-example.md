@@ -2,7 +2,6 @@
 title: Atgādinājuma vēstuļu apstrādes piemērs
 description: Šajā tēmā aplūkots piemērs, kas parāda atgādinājuma vēstuļu izveides, drukāšanas un grāmatošanas procesu.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: df4252513f9e3a02632561b4e465c98edc888ea7
-ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
+ms.openlocfilehash: 1b80532463d86dd59b867fca2ee24675396ce717
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5558315"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826351"
 ---
 # <a name="process-collection-letters-example"></a>Atgādinājuma vēstuļu apstrādes piemērs
 
@@ -93,7 +92,7 @@ Ilustrācijā zemāk ir parādīta tabulā esošā informācija tā, kā tā bū
 
 8. Pārejiet uz **Kredīts un iekasēšana \> Atgādinājuma vēstule \> Pārskatīt un apstrādāt atgādinājuma vēstules** un izpildiet tālāk minētās darbības.
 
-    1. Ņemiet vērā, ka atgādinājuma vēstules kods gan virsrakstā, gan darbības rindās ir  **1. atgādinājuma vēstule**, jo šī atgādinājuma vēstule secībā ir pirmā atgādinājuma vēstule. (Lai skatītu darbību rindas, iespējams, būs jāatlasa kopsavilkuma cilne **Darījumi**.)
+    1. Ņemiet vērā, ka atgādinājuma vēstules kods gan virsrakstā, gan darbības rindās ir **1. atgādinājuma vēstule**, jo šī atgādinājuma vēstule secībā ir pirmā atgādinājuma vēstule. (Lai skatītu darbību rindas, iespējams, būs jāatlasa kopsavilkuma cilne **Darījumi**.)
 
    [![Pārbaude, vai galvenē un rindās ir viens un tas pats atgādinājuma vēstules kods](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 

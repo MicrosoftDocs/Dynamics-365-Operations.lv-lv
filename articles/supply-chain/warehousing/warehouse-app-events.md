@@ -2,11 +2,9 @@
 title: Noliktavas programmas notikumi
 description: Šajā tēmā aprakstīta noliktavas programmas notikumu apstrāde, ko izmanto, lai apstrādātu noliktavas programmas notikumu ziņojumus kā daļu no pakešuzdevuma.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248647"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837397"
 ---
 # <a name="warehouse-app-event-processing"></a>Noliktavas lietojumprogrammas notikumu apstrāde
 
 [!include [banner](../includes/banner.md)]
 
-Pakešuzdevumi, kas tiek izpildīti Supply Chain Management, var izmantot datus no noliktavas programmas izsniegtās notikumu apstrādes rindas, lai atbilstoši reaģētu uz signalizētajiem notikumiem. Šis līdzeklis rindai pievieno svarīgus notikumus, atbildot uz noteiktiem darbību veidiem, ko veikuši darbinieki, izmantojot programmu. Piemēram, izmantojot līdzekli **Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas**, pārsūtīšanas pasūtījuma virsraksts un rindas tiek izveidotas un atjauninātas aizmugursistēmā, kad sistēma palaiž pakešuzdevumu **Apstrādāt noliktavas programmas notikumus**.
+Pakešuzdevumi, kas tiek izpildīti Supply Chain Management, var izmantot datus no noliktavas programmas izsniegtās notikumu apstrādes rindas, lai atbilstoši reaģētu uz signalizētajiem notikumiem. Šis līdzeklis rindai pievieno svarīgus notikumus, atbildot uz noteiktiem darbību veidiem, ko veikuši darbinieki, izmantojot programmu. Piemēram, izmantojot līdzekli *Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas*, pārsūtīšanas pasūtījuma virsraksts un rindas tiek izveidotas un atjauninātas aizmugursistēmā, kad sistēma palaiž pakešuzdevumu **Apstrādāt noliktavas programmas notikumus**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Iespējot līdzekli Apstrādāt noliktavas programmas notikumus
 
@@ -50,7 +48,7 @@ Iestatiet ieplānotu pakešuzdevumu, lai apstrādātu noliktavas programmas noti
 
 ## <a name="query-warehouse-app-events"></a>Vaicājumu noliktavas programmas notikumi
 
-Varat skatīt notikumu rindu un notikumu ziņojumus, ko ģenerējusi noliktavas programma, dodoties uz **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Mobilās ierīces žurnāli \> Noliktavas programmas notikumi**.
+Varat skatīt notikumu rindu un notikumu ziņojumus, ko ģenerējusi Warehouse Management mobile programma, dodoties uz **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Mobilās ierīces žurnāli \> Noliktavas programmas notikumi**.
 
 ## <a name="the-standard-event-queue-process"></a>Standarta notikumu rindas process
 

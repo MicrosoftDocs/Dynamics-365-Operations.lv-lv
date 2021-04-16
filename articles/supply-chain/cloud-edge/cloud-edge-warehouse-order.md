@@ -2,11 +2,9 @@
 title: Noliktavas pasūtījumi darba slodzes mākoņa un malas mēroga vienībām
 description: Šajā tēmā ir sniegta informācija par noliktavas pasūtījuma iespēju, kas tiek izmantota kā daļa no noliktavas mēroga vienības darba noslodzes.
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556366"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836690"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Noliktavas pasūtījumi darba slodzes mākoņa un malas mēroga vienībām
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556366"
 
 *Noliktavas pasūtījumi* ir pasūtījuma veids, kas tika izveidots, lai atbalstītu pārkraušanas centra un mēroga vienību noliktavas izvietošanu. Tie ļauj saņemt krājumus, veicot noliktavas darba noslodzi mēroga vienībā. Ties pašlaik tiek lietoti tikai pirkšanas pasūtījumos.
 
-Noliktavas pasūtījumi tiek izmantoti kā daļa no noliktavas pārvaldības apstrādes, piemēram, kad noliktavas programma tiek izmantota, lai reģistrētu fiziskos rīcībā esošos krājumus ienākošā pirkšanas pasūtījuma apstrādes laikā. Noliktavas pasūtījumi tiek izveidoti kā daļa no *Pārsūtīšanas uz noliktavu* procesa, kas ir pieejams pirkšanas pasūtījumiem, kuros norādīta mēroga vienības noliktava un krājumi, kas ir iespējoti noliktavas pārvaldības procesu izmantošanai.
+Noliktavas pasūtījumi tiek izmantoti kā daļa no noliktavas pārvaldības apstrādes, piemēram, kad Warehouse Management mobile programma tiek izmantota, lai reģistrētu fiziskos rīcībā esošos krājumus ienākošā pirkšanas pasūtījuma apstrādes laikā. Noliktavas pasūtījumi tiek izveidoti kā daļa no *Pārsūtīšanas uz noliktavu* procesa, kas ir pieejams pirkšanas pasūtījumiem, kuros norādīta mēroga vienības noliktava un krājumi, kas ir iespējoti noliktavas pārvaldības procesu izmantošanai.
 
 > [!IMPORTANT]
 > Noliktavas pasūtījumi ir pieejami tikai izvietošanās, kas izmanto noliktavas [pārvaldības darba noslodzes mākoņa un malas mēroga vienībām](cloud-edge-workload-warehousing.md).
@@ -70,7 +68,7 @@ Lai atceltu pārdošanas pasūtījumu, veiciet šādas darbības.
 
 ## <a name="monitor-a-warehouse-order"></a>Noliktavas pasūtījuma uzraudzīšana
 
-**Noliktavas pasūtījuma rindu** skatā varat pārraudzīt ienākošās saņemšanas progresu, pārskatot kolonnas **Saņemamais daudzums** vērtības. Lai skatītu detaļas, kas saistītas ar darbu, kas paveikts, izmantojot noliktavas programmu, veiciet vienu no šīm darbībām.
+**Noliktavas pasūtījuma rindu** skatā varat pārraudzīt ienākošās saņemšanas progresu, pārskatot kolonnas **Saņemamais daudzums** vērtības. Lai skatītu detaļas, kas saistītas ar darbu, kas paveikts, izmantojot Warehouse Management mobile programmu, veiciet vienu no šīm darbībām.
 
 - Pārejiet uz sadaļu **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Noliktavas pasūtījumu rindas** un izmantojiet filtru, lai atrastu meklētās rindas.
 - Dodieties uz **Sagāde un avoti \> Pirkšanas pieprasījumi \> Visi pirkšanas pieprasījumi**, un atveriet attiecīgo pirkšanas pasūtījumu. Sadaļā **Pirkšanas pasūtījuma rindas** atlasiet vienu vai vairākas rindas un pēc tam rīkjoslā atlasiet **Noliktava \> Noliktavas ieejas plūsmas ieraksti**.

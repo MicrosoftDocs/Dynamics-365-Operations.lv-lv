@@ -2,11 +2,9 @@
 title: Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
 description: Šajā tēmā ir aprakstīts, kā var izsekot uzkrātajām projekta izmaksām pirkšanas pavadzīmēs programmā Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2b92f1f5caf34bf798b86380b73c2dcc7de17b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 615e22234323e2235fba002c50f9ab9c230c021e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231644"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827894"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Uzkrātās projekta izmaksas pirkšanas pavadzīmēs
 
@@ -70,7 +68,7 @@ Sagādes kategorijas var kartēt ar preču kategorijām lapā **Sagādes kategor
 
 **3. darbība.** Izveidojiet kreditora rēķina melnrakstu. 
 
-Preces ieejas plūsmas grāmatošana neietekmē projekta informāciju. Lai to atrisinātu, varat ģenerēt kreditora rēķina melnrakstu uzreiz pēc pirkšanas ieejas plūsmas grāmatošanas. Pārejiet uz lapu **Pirkšanas pasūtījums** &gt; **cilni Rēķins** &gt; **Ģenerēt** &gt; **Rēķins**. Tādējādi tiek izveidots nenokārtota rēķina dokuments, kas nodrošina projekta informācijas atjaunināšanu. 
+Preces ieejas plūsmas grāmatošana neietekmē projekta informāciju. Lai to atrisinātu, varat ģenerēt kreditora rēķina melnrakstu uzreiz pēc pirkšanas ieejas plūsmas grāmatošanas. Pārejiet uz **Pirkšanas pasūtījums** lapu &gt; **cilni Rēķins** &gt; **Ģenerēt** &gt; **Rēķins**. Tādējādi tiek izveidots nenokārtota rēķina dokuments, kas nodrošina projekta informācijas atjaunināšanu. 
 
 Izveidojot kreditora rēķina melnrakstu, tiek ģenerētas nepabeigtas projekta transakcijas. 
 [![Nepabeigtie projektu darījumi](./media/accruals8-1024x225.png)](./media/accruals8.png) 

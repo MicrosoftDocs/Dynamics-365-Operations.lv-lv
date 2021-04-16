@@ -1,12 +1,10 @@
 ---
-title: Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
-description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+title: Darba sākšana ar elektroniskās rēķinu izveidi
+description: Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,83 +15,82 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: cf553f2ffecf18859b88932e68360231ca46410f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592554"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840128"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on"></a>Sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu
+# <a name="get-started-with-electronic-invoicing"></a>Darba sākšana ar elektroniskās rēķinu izveidi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
-
-Šajā tabulā uzskaitīti Elektronisko rēķinu izrakstīšanas līdzekļi un biznesa dokumenti, kuriem tie var tikt pielietoti.
-
-| Līdzekļa nosaukums                         | Biznesa dokuments |
-|--------------------------------------|-------------------|
-| Austrijas elektroniskie rēķini (AT)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Beļģijas elektroniskais rēķins (BE)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Brazīlijas NF-e (BR)                  | <p>55. modeļa finanšu dokuments</p><p>Labojuma vēstule</p> |
-| Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti |
-| Dānijas elektroniskais rēķins (DK)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Ēģiptes elektroniskais rēķins (EG)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Igaunijas elektroniskais rēķins (EE)     | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Somijas elektroniskais rēķins (FI)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Francijas elektroniskais rēķins (FR)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Vācijas elektroniskais rēķins (DE)       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| FatturaPA (IT)                       | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Meksikas CFDI Interfactura (MX)       | <p>Pārdošanas rēķins</p><p>Pavadzīme</p><p>Krājumu pārsūtīšana</p><p>Maksājuma papildinājums</p> |
-| Nīderlandes elektroniskais rēķins (NL)        | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Norvēģijas elektroniskais rēķins (NO)    | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
-| PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> |
+Šajā tēmā ir sniegta informācija, kas palīdzēs sākt darbu ar elektronisko rēķinu izveidi. Šajā tēmā ir sniegta informācija par Regulatory Configuration Services (RCS) un Dynamics 365 Finance, kā arī sniegtas darbības, kas jāveic, lai iesniegtu biznesa dokumentus un pārskatītu apstrādes rezultātus.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
 Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi priekšnosacījumi:
 
-- Konfigurējiet savu Regulēšanas konfigurācijas pakalpojumu (RCS) un jūsu Microsoft Dynamics 365 Finance vai Dynamics 365 Supply Chain Management vidi, lai jūs varētu iesniegt elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
-- Izveidojiet pakalpojumu vidi un publicējiet to Elektronisko rēķinu izrakstīšanas pievienojumprogrammā. Papildinformāciju skatiet sadaļā [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammas pakalpojuma administrēšana](e-invoicing-get-started-service-administration.md).
-- Izveidojiet pievienotu pievienojumprogrammu. Papildinformāciju skatiet sadaļā [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammas pakalpojuma administrēšana](e-invoicing-get-started-service-administration.md).
+- Konfigurējiet Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) un Microsoft Dynamics 365 Finance vai Dynamics 365 Supply Chain Management vidi. Papildinformāciju skatiet sadaļā [Sākt ar elektronisko rēķinu izrakstīšanas pakalpojuma administrēšana](e-invoicing-get-started-service-administration.md).
 - Izveidojiet konfigurācijas nodrošinātāju jūsu uzņēmumam. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importēt Elektronisko rēķinu izrakstīšanas līdzekli no Microsoft konfigurācijas nodrošinātāja 
 
 1. Piesakieties savā Regulēšanas konfigurācijas pakalpojuma (RCS) kontā.
-2. Darbvietā **Globalizācijas līdzeklis** sadaļā **Līdzekli** atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojums**.
+2. Darbvietas **Globalizācijas līdzekļi** sadaļā **Līdzekļi** atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 3. Atlasiet **Importēt** un pēc tam atlasiet **Sinhronizēt**.
 4. Filtrējiet kolonnu **Konfigurācijas nodrošinātājs** pēc termina **Microsoft**.
 5. Šīs tēmas sākumā tabulā atlasiet Elektroniskās rēķinu izrakstīšanas līdzekļa nosaukumu un pēc tam atlasiet **Importēt**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Izveidojiet Elektronisko rēķinu izrakstīšanas līdzekli jūsu organizācijas nodrošinātājā
 
-1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojumprogramma**.
+1. Darbvietas **Globalizācijas līdzekļi** sadaļas **Līdzekļi** RCS atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
 2. Atlasiet **Pievienot** > **Pamatojoties uz esošo līdzekli**, un laukā **Nosaukums** ievadiet Elektronisko rēķinu izrakstīšanas līdzekļa nosaukumu.
 3. Laukā **Apraksts** ievadiet līdzekļa aprakstu.
 4. Sadaļā **Bāzes līdzekļa lauks** atlasiet importēto elektronisko rēķinu izrakstīšanas līdzekli no Microsoft konfigurācijas nodrošinātāja.
 5. Atlasiet **Izveidot līdzekli**.
 
-## <a name="configure-the-electronic-invoicing-feature"></a>Elektronisko rēķinu izrakstīšanas funkcijas konfigurēšana
+## <a name="country-specific-configuration-for-electronic-invoicing-feature"></a>Valsts konfigurācijas elektronisko rēķinu līdzeklim
 
-Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija. 
+Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama specifiska konfigurācija. 
 
 Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
+
+## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Modeļu kartēšanas konfigurāciju importēšana no elektronisko pārskatu veidošanas
+
+1. Programmā RCS atlasiet darbvietu **Elektronisko pārskatu veidošana**.
+2. Sarakstā **Microsoft** konfigurācijas nodrošinātāji, atlasiet **Repozitoriji**.
+3. Atlasiet **Globāls** un darbību rūtī atlasiet **Atvērt**.
+4. Importējiet modeļa kartēšanas konfigurācijas atbilstoši tālāk norādītajai tabulai pēc līdzekļa nosaukuma.
+
+| Līdzekļa nosaukums                         | Modeļa kartējuma konfigurācija |
+|--------------------------------------|-----------------------------|
+| Austrijas elektroniskie rēķini (AT)    | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Beļģijas elektroniskais rēķins (BE)      | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Brazīlijas NF-e (BR)                  | <p>Debitora rēķina konteksta modelis</p><p>Finanšu dokumenti</p><p>Atbildes ziņojuma modelis</p> |
+| Brazīlijas NFS-e ABRASF Curitiba (BR) | <p>Debitora rēķina konteksta modelis</p><p>Finanšu dokumenti</p><p>Atbildes ziņojuma modelis</p> |
+| Dānijas elektroniskais rēķins (DK)       | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Ēģiptes elektroniskais rēķins (EG)     | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p><p>Atbildes ziņojuma modelis</p> |
+| Igaunijas elektroniskais rēķins (EE)     | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Somijas elektroniskais rēķins (FI)       | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Francijas elektroniskais rēķins (FR)       | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Vācijas elektroniskais rēķins (DE)       | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| FatturaPA (IT)                       | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Meksikas CFDI Interfactura (MX)       | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p><p>Atbildes ziņojuma modelis</p> |
+| Nīderlandes elektroniskais rēķins (NL)        | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Norvēģijas elektroniskais rēķins (NO)    | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| Spānijas elektroniskais rēķins (ES)      | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+| PEPPOL elektroniskais rēķins            | <p>Debitora rēķina konteksta modelis</p><p>Rēķina modelis</p> |
+
 
 ## <a name="configure-the-application-setup"></a>Lietojumprogrammas iestatīšanas konfigurēšana
 
 1. Atlasiet jūsu izveidoto elektronisko rēķinu izrakstīšanas līdzekli.
-2. Cilnē **Versija** pārbaudiet, vai ir atlasīta **Melnraksta** versija.
-3. Cilnē **Iestatījumi** atlasiet **Lietojumprogrammas iestatīšana**.
-
-    > [!NOTE]
-    > Pārbaudiet, vai jūsu uzņēmums ir iestatīts kā **Aktīvs** konfigurācijas nodrošinātājs. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātāju un atzīmēt to kā aktīvu.](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-
-4. Atlasiet **Līdzekļa iestatīšana** un pēc tam atlasiet **Saistītā lietojumprogramma**.
-5. Sadaļā **Elektronisko dokumentu tipi** atlasiet **Pievienot**.
-6. Katram biznesa dokumentam, kuru šī funkcija atbalsta, atlasiet un ievadiet **Tabulas nosaukuma** vērtību saskaņā ar šo tabulu.
+2. Cilnē **Iestatījumi** atlasiet **Lietojumprogrammas iestatīšana**.
+3. Laukā **Savienot programmu** atlasiet savienojumu, kas ir saistīts ar jūsu Finance vai Supply Chain Management instanci.
+4. Sadaļā **Elektronisko dokumentu tipi** atlasiet **Pievienot**.
+5. Atlasiet un ievadiet vērtību **Tabulas nosaukums** atbilstoši tālāk norādītajai tabulai.
 
     | Līdzekļa nosaukums                         | Biznesa dokuments | Tabulas nosaukums |
     |--------------------------------------|-------------------|------------|
@@ -114,7 +111,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Debitoru rēķinu žurnāls</p><p>Projekta rēķins</p> |
 
-7. Katram biznesa dokumentam, kuru šī funkcija atbalsta, atlasiet un ievadiet **Konteksta** vērtību saskaņā ar šo tabulu.
+7. Katram izveidotajam tabulas nosaukumam atlasiet un ievadiet konteksta vērtību atbilstoši šai tabulai.
 
     | Līdzekļa nosaukums                         | Biznesa dokuments | Konteksts |
     |--------------------------------------|-------------------|---------|
@@ -135,7 +132,7 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Klienta rēķina konteksta modelis — Klienta rēķina konteksts</p><p>Klienta rēķina konteksta modelis — Projekta rēķina konteksts</p> |
 
-8. Katram biznesa dokumentam, kuru šī funkcija atbalsta, atlasiet un ievadiet **Biznesa dokumentu kartēšanas** vērtību saskaņā ar šo tabulu.
+8. Katram tabulas nosaukumam un kontekstam atlasiet un ievadiet biznesa dokumenta kartējuma vērtību atbilstoši šai tabulai.
 
     | Līdzekļa nosaukums                         | Biznesa dokuments | Biznesa dokumenta kartējums |
     |--------------------------------------|-------------------|---------------------------|
@@ -156,21 +153,32 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
     | Spānijas elektroniskais rēķins (ES)      | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
     | PEPPOL elektroniskais rēķins            | <p>Pārdošanas rēķins</p><p>Projekta rēķins</p> | <p>Rēķina modeļa kartēšana - Klienta rēķins</p><p>Rēķina modeļa kartēšana - Projekta rēķins</p> |
 
-Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcijai var būt nepieciešama papildu konfigurācija.
+
+## <a name="country-specific-configuration-of-application-setup"></a>Valstij specifiska lietojumprogrammas iestatījumu konfigurācija
+
+Atkarībā no valsts vai reģiona Programmas iestātījumam var būt nepieciešama specifiska konfigurācija. 
 
 Īpašiem soļiem skatiet dokumentāciju "Sākt darbu", kas ir pieejama jūsu valstij vai reģionam.
 
-## <a name="deploy-the-electronic-invoicing-feature"></a>Elektronisko rēķinu izrakstīšanas funkcijas izvietošana
+## <a name="deploy-the-electronic-invoicing-feature-to-service-environment"></a>Elektroniskās rēķinu izrakstīšanas līdzekļa izvietošana pakalpojuma vidē
 
 1. Cilnē **Versijas** atlasiet izvietojamā elektronisko rēķinu izrakstīšanas līdzekļa versiju.
 2. Atlasiet **Mainīt statusu** \> **Pabeigts**.
 3. Atlasiet **Mainīt statusu** \> **Publicēt**.
 4. Atlasiet **Izvietot**.
+5. Iestatiet opciju **Izvietot savienotā programmā** uz **Nē**.
+6. Iestatiet opciju **Izvietot pakalpojuma vidē** uz **Jā**.
+7. Laukā **Pakalpojumu vide** atlasiet elektronisko rēķinu izrakstīšanu pakalpojuma vidi, kurā vēlaties izvietot Elektronisko rēķinu izrakstīšanas līdzekli.
+8. Laukā **No datuma** atlasiet datumu, kad Elektronisko rēķinu izrakstīšanas funkcijai jāstājas spēkā Elektronisko rēķinu izrakstīšanā.
+9. Atlasiet **Labi**.
+
+## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektroniskās rēķinu izrakstīšanas līdzekļa izvietošana saistītajā programmā
+
+1. Cilnē **Versijas** atlasiet izvietojamā elektronisko rēķinu izrakstīšanas līdzekļa versiju.
+4. Atlasiet **Izvietot**.
 5. Iestatiet opciju **Izvietot savienotā programmā** uz **Jā**.
-6. Lapā **Savienot programmu** atlasiet savienojumu, kas ir saistīts ar jūsu Finance vai Supply Chain Management instanci.
-7. Iestatiet opciju **Izvietot pakalpojuma vidē** uz **Jā**.
-8. Laukā **Pakalpojumu vide** atlasiet elektronisko rēķinu izrakstīšanas pievienojumprogrammu pakalpojuma vidi, kurā vēlaties izvietot Elektronisko rēķinu izrakstīšanas līdzekli.
-9. Laukā **No datuma** atlasiet datumu, kad Elektronisko rēķinu izrakstīšanas funkcijai jāstājas spēkā Elektronisko rēķinu izrakstīšanas pievienojumprogrammā.
+6. Laukā **Savienot programmu** atlasiet savienojumu, kas ir saistīts ar jūsu Finance vai Supply Chain Management instanci.
+7. Iestatiet opciju **Izvietot pakalpojuma vidē** uz **Nē**.
 10. Atlasiet **Labi**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Ieslēdziet Elektronisko rēķinu izrakstīšanas līdzekli Finance vai Supply Chain Management instancēs
@@ -228,11 +236,11 @@ Atkarībā no valsts vai reģiona elektronisko rēķinu izrakstīšanas funkcija
 
 ## <a name="related-topics"></a>Saistītās tēmas
 
-- [Elektroniskās rēķinu izveides pievienojumprogrammas pārskats](e-invoicing-service-overview.md)
-- [Darba sākšana ar elektroniskās rēķinu izveides pievienojumprogrammas servisa administrēšanu](e-invoicing-get-started-service-administration.md)
-- [Sākt ar elektronisko rēķinu pievienojumu Brazīlijai](e-invoicing-bra-get-started.md)
-- [Sākt ar elektronisko rēķinu pievienojumu Meksikai](e-invoicing-mex-get-started.md)
-- [Sākt ar elektronisko rēķinu izrakstīšanas pievienojumprogrammu Itālijai](e-invoicing-ita-get-started.md)
+- [Elektroniskās rēķinu izveides pārskats](e-invoicing-service-overview.md)
+- [Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu](e-invoicing-get-started-service-administration.md)
+- [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā](e-invoicing-bra-get-started.md)
+- [Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā](e-invoicing-mex-get-started.md)
+- [Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā](e-invoicing-ita-get-started.md)
 - [Klientu elektroniskie rēķini Ēģiptē](emea-egy-e-invoices.md)
 
 

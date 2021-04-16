@@ -2,11 +2,9 @@
 title: Apakšlīgumu slēgšana
 description: Šajā sadaļā ir izskaidrots, kā veidot ražošanas apakšlīgumu slēgšanas kritisku analīzi programmā Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255545"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825186"
 ---
 # <a name="subcontracting"></a>Apakšlīgumu slēgšana
 
@@ -210,7 +208,7 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
 
     ![Divi izejmateriālu izdošanas darbu komplekti lapā Darbs](./media/subcontract22_work-page.png)
 
-26. Lai apstrādātu noliktavas darba operāciju 10, palaidiet noliktavas programmu.
+26. Lai apstrādātu noliktavas darba operāciju 10, palaidiet Warehouse Managemen mobile programmu.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     - Laukā **No operācijas Nr.** atlasiet **10**.
     - Laukā **Uz operācijas Nr.** atlasiet **10**.
 
-    ![Cilnē Vispārīgi iestatītās vērtības](./media/subcontract23_start-dialog.png)
+    ![Cilnē Vispārīgi iestatītās vērtības 1](./media/subcontract23_start-dialog.png)
 
 31. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Sākšana**, un atveriet atkal lapu **Visi ražošanas pasūtījumi**.
 
     Ievērojiet, ka ražošanas pasūtījuma statuss tagad ir **Sākts**. Operācijai 10 nepieciešamie materiāli tiek izmantoti pēc izdošanas saraksta žurnāla automātiskas grāmatošanas. Laika patēriņš darbībai 10 tiek uzskaitīts pēc maršruta karšu žurnāla automātiskas grāmatošanas.
 
-32. Lai apstrādātu noliktavas darba operāciju 20, palaidiet noliktavas programmu.
+32. Lai apstrādātu noliktavas darba operāciju 20, palaidiet Warehouse Managemen mobile programmu.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Ir izveidots preces D8100 “Pārklāts korpuss” 10 gabalu ražošanas pasūt
     - Laukā **Daudzums** ievadiet **10**.
     - Iestatiet opcijas **Grāmatot izdošanas sarakstu tagad** vērtību **Nē**.
 
-    ![Cilnē Vispārīgi iestatītās vērtības](./media/subcontract24_general-tab.png)
+    ![Cilnē Vispārīgi iestatītās vērtības 2](./media/subcontract24_general-tab.png)
 
 35. Atlasiet **Labi**, lai aizvērtu dialoglodziņu **Sākšana**, un atveriet atkal lapu **Visi ražošanas pasūtījumi**.
 

@@ -2,11 +2,9 @@
 title: Izvietošanas klasteri
 description: Izvietošanas klasteri piedāvā veidu, kā vienlaicīgi izvēlēties vairākas numura zīmes un pēc tam lietot tās izvietošanai dažādās atrašanās vietās. Tie var būt ļoti noderīgi mazumtirdzniecības uzņēmumiem, kur numura zīmes parasti nav pilnas noliktavas paletes.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228445"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840369"
 ---
 # <a name="putaway-clusters"></a>Izvietošanas klasteri
 
@@ -230,7 +228,7 @@ Pievienojiet izvēlnes elementus, ko tikko izveidojāt mobilās programmas saņe
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Saņemt un kārtot krājumus klasterī
 
-1. Pierakstieties noliktavas lietotnē kā lietotājs, kurš ir iespējots noliktavā *61*.
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs, kurš ir iespējots noliktavā *61*.
 1. Galvenajā izvēlnē atlasiet **Ienākošs**.
 1. Izvēlnē **Ienākošie** atlasiet **Saņemt un kārtot klasteri**.
 1. Laukā **Ponum** ievadiet savu pirkuma pasūtījuma numuru.
@@ -272,7 +270,7 @@ Pirms krājumu var izvietot klasterī, klasteris ir jāslēdz.
 
 #### <a name="put-the-cluster-away"></a>Klastera izvietošana
 
-1. Pierakstieties noliktavas lietotnē kā lietotājs, kurš ir iespējots noliktavā *61*.
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs, kurš ir iespējots noliktavā *61*.
 1. Galvenajā izvēlnē atlasiet **Ienākošs**.
 1. Izvēlnē **Ienākošie** atlasiet **Klastera izvietošana**.
 1. Atlasiet **Klastera ID** un ievadiet klastera ID, ko iepriekš ievadījāt slēgtajam klasterim.

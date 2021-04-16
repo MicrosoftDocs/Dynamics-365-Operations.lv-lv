@@ -2,11 +2,9 @@
 title: Vispārējas plānošanas un vairākvietu funkcionalitātes pārskats
 description: Vispārējā plānošanā tiek ņemti vērā vietas iestatījumi un noliktavas krājumu dimensijas.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, InventSite
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da8db87f44c974b3fee8e249e318669ca8e9f2b8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e30bb8dfb790958b30cb3be807847ee737fb5026
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220828"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833573"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Vispārējas plānošanas un vairākvietu funkcionalitātes pārskats
 
@@ -35,7 +33,7 @@ Vietas dimensija ir obligāta, un varat iestatīt, lai noliktavas dimensija būt
 
 Kad dimensija ir obligāta, dimensijas lielumu jāievada visās krājuma darbībās. Tādējādi vispārējās plānošanas laikā sākotnējam pieprasījumam ir zināma vieta un noliktava. Vietas dimensija ir savienojama tā, ka arī zemākā līmeņa pieprasījuma izvēršanas laikā vietas lielums nemainās.
 
-Kad noliktava nav iestatīta kā obligāta, tā var nebūt zināma sākotnējā pieprasījumā. Plānošanas dzinim jānosaka, kādu noliktava izmantot, pamatojoties uz iestatījumiem, kas definēti vienībai, atsevišķām noliktavām un pasūtījuma rindas detaļām.
+Kad noliktava nav iestatīta kā obligāta, tā var nebūt zināma sākotnējā pieprasījumā. Plānošanas programmai jānosaka, kādu noliktava izmantot, pamatojoties uz iestatījumiem, kas definēti vienībai, atsevišķām noliktavām un pasūtījuma rindas detaļām.
 
 Tālāk sniegtajās tēmās ir aprakstīts, kā plānot dziņa darbus, ja izmantojamās noliktavas noteikšanai definēti dažādi iestatījumi.
 

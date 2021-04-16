@@ -2,11 +2,9 @@
 title: Problēmu novēršana saistībā ar rezervācijām noliktavas pārvaldībā
 description: Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, strādājot ar noliktavu recervācijām programmā Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248719"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828110"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Problēmu novēršana saistībā ar rezervācijām noliktavas pārvaldībā
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, strādājot ar noliktavu recervācijām programmā Microsoft Dynamics 365 Supply Chain Management.
+
+Tēmām, kas ir saistītas ar pakešu un sēriju numuru reģistrācijām, skatiet informāciju par [Noliktavas pakešuzdevumu un sēriju rezervāciju hierarhiju problēmu novēršanu](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md).
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>Tiek atgriezta sekojošā kļūda: “Rezervācijas nevar noņemt, jo ir izveidots darbs, kas balstās uz rezervāciju.”
 
@@ -63,20 +63,6 @@ Pārliecinieties, vai krājumu darbības fiziski nerezervē daudzumu. Piemēram,
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
 Šo problēmu, iespējams, izraisa atvērts darbs. Vai nu pabeidziet darbu, vai saņemiet bez darba izveides. Pārliecinieties, vai krājumu darbības fiziski nerezervē daudzumu. Piemēram, šīs darbības var būt atvērti kvalitātes pasūtījumi, krājumu bloķēšanas ieraksti vai izdošanas pasūtījumi.
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>Tiek parādīts šāds kļūdas ziņojums: "Jāpiešķir kopumam, noslodzes rindām ir jānorāda dimensijas virs novietojuma. Lai piešķirtu šīs dimensijas, rezervējiet un atkārtoti izveidojiet noslodzes rindu."
-
-### <a name="issue-description"></a>Problēmas apraksts
-
-Kad izmantojat krājumu, kam ir "partija virs" rezervāciju hierarhija (ar **Partijas numura** dimensiju, kas novietota *virs* **Novietojuma** dimensijas), **Izlaist uz noliktavu** komanda lapā **Kravas plānošanas rīks** daļējam daudzumam nestrādā. Šis kļūdas ziņojums tiek parādīts, un nav izveidots neviens darbs daļējam daudzumam.
-
-Tomēr, ja izmantojat krājumu, kam ir "partija zem" rezervāciju hierarhija (ar **Partijas numura** dimensiju, kas novietota *zem* **Novietojuma** dimensijas), varat izlaist kravu no lapas **Kravas plānošanas rīks** daļējam daudzumam.
-
-### <a name="issue-resolution"></a>Problēmas risinājums
-
-Tas tiek darīts ar nolūku. Ja jūs ievietojat dimensiju virs **Novietojuma** dimensijas rezervāciju hierarhijā, tas ir jānorāda pirms izdošanas uz noliktavu. Korporācija Microsoft ir izvērtējusi šo problēmu un ir noteikusi, ka tas ir līdzekļa ierobežojums laikā, kad tiek veikti izsniegumi uz noliktavu no kravas plānošanas rīka. Daļējus daudzumus nevar izlaist, ja nav norādīta viena vai vairākas dimensijas virs **Novietojuma**.
-
-Papildu informāciju skatiet [Elastīga noliktavas līmeņa dimensijas rezervēšanas politika](flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

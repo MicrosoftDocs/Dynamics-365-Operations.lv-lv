@@ -2,7 +2,6 @@
 title: Sagādes un avotu parametri Kopīgajās izmaksās
 description: Šajā tēmā ir aprakstīts, kā iestatīt atbilstošos Sagādes un plānošanas parametrus, kad izmantojat Kopīgo izmaksu moduli.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 49e046a1437917cfa866f690511789496fac2c53
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: df91fcb97794be32924707fcecf2b5fb34844596
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500746"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833933"
 ---
 # <a name="procurement-and-sourcing-parameters-for-landed-cost"></a>Sagādes un avotu parametri Kopīgajās izmaksās
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **Sagādes un avotu parametru** lapai ir daži iestatījumi, kas ir īpaši svarīgi, kad izmantojat **Kopīgo izmaksu** moduli.  Izmantojiet dialoglodziņu **Atjaunināt pasūtījuma rindas**, kas ir atvērts no lapas **Sagādes un avotu parametri**, lai norādītu, vai pirkšanas pasūtījuma rindas automātiski jāatjaunina, kad pirkšanas pasūtījuma galvenē tiek veiktas izmaiņas.
 

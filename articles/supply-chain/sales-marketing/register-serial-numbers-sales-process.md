@@ -2,11 +2,9 @@
 title: Darbs ar sērijas krājumiem
 description: Šajā tēmā ir paskaidrots, kā pārdošanas procesa laikā varat reģistrēt sērijas numurus iepakojuma pavadzīmēs vai rēķinos. Šo darbību var izmantot, ja uzņēmums vēlas reģistrēt sērijas numurus pakalpojumu un garantijas nodrošināšanas nolūkos, bet nevēlas saglabāt krājumu sērijas numurus no saņemšanas līdz izsniegšanas brīdim.
 author: omulvad
-manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba21fd5c3dc425236b7b0ae91b355c522b937a6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d423c1ab992c0c83c7e7fc14c7bba424048d396
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231844"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839057"
 ---
 # <a name="working-with-serialized-items"></a>Darbs ar sērijas krājumiem
 

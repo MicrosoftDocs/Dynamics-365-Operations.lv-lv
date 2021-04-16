@@ -2,11 +2,9 @@
 title: Izveidot debitora rēķinu
 description: '**Debitora rēķins par pārdošanas pasūtījumu** ir rēķins, kas ir saistīts ar pārdošanu un ko uzņēmums izsniedz debitoram.'
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff988fff23611805c2849a63c2aaba74fc255d4c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c033684e56f97a5da80a1934ee1299229f58cfba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217582"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830620"
 ---
 # <a name="create-a-customer-invoice"></a>Izveidot debitora rēķinu
 
@@ -32,7 +30,7 @@ ms.locfileid: "5217582"
 
 **Brīva teksta rēķins** nav saistīts ar pārdošanas pasūtījumu. Tajā ir pasūtījuma rindas, kurās ir iekļauti virsgrāmatas konti, brīva teksta apraksti un jūsu ievadītā pārdošanas summa. Šāda veida rēķinā jūs nevarat ievadīt krājuma kodu. Jums ir jāievada atbilstoša informācija par PVN. Galvenais konts pārdošanai ir norādīts katrā rēķina rindā, kuru varat izplatīt vairākiem virsgrāmatas kontiem, lapā **Brīva teksta rēķins** noklikšķinot uz **Sadalīt summas**. Turklāt debitora bilance tiek grāmatota kopsavilkuma kontā no grāmatošanas metodes, kas tiek izmantota brīva teksta rēķinam.
 
-Papildinformāciju skatiet šeit: 
+Papildinformāciju skatiet šeit:
 
 [Izveidot brīvā teksta rēķinus](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -87,11 +85,11 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <td>Daudzums</td>
 <td>Atlasiet daudzumus, uz ko balstīt dokumentu grāmatošanu. Pieejamās opcijas ir atkarīgas no grāmatojamā dokumenta tipa, piemēram, vai dokuments ir pavadzīme vai rēķins.
 <ul>
-<li><strong>Piegādāt tūlīt</strong> — atlasiet visus daudzumus, kas ir ievadīti laukā <strong>Piegādāt tūlīt</strong>. Izmantojiet šo opciju, lai apstiprinātu vai piegādātu daļēju pasūtījumu.</li>
-<li><strong>Izdots</strong> — atlasiet visus daudzumus, kas ir izdoti.</li>
-<li><strong>Visi</strong> — atlasiet visus pārdošanas pasūtījumā ietvertos daudzumus, kas vēl&#39;nav atjaunināti, izmantojot pašreizējo dokumenta tipu.</li>
-<li><strong>Pavadzīme</strong> — atlasiet visus daudzumus, kas ir atjaunināti ar pavadzīmi.</li>
-<li><strong>Izdotais daudzums un neuzkrātās preces</strong> — atlasiet visus daudzumus, kas ir izdoti, un visus preču daudzumus, kas nav&#39;uzkrāti.</li>
+<li><strong>Piegādāt tūlīt</strong> — atlasiet visus daudzumus, kas ir ievadīti laukā <strong>Piegādāt tūlīt</strong>. Izmantojiet šo opciju, lai apstiprinātu vai piegādātu daļēju pasūtījumu.</li>
+<li><strong>Izdots</strong> — atlasiet visus daudzumus, kas ir izdoti.</li>
+<li><strong>Visi</strong> — atlasiet visus pārdošanas pasūtījumā ietvertos daudzumus, kas vēl&#39;nav atjaunināti, izmantojot pašreizējo dokumenta tipu.</li>
+<li><strong>Pavadzīme</strong> — atlasiet visus daudzumus, kas ir atjaunināti ar pavadzīmi.</li>
+<li><strong>Izdotais daudzums un neuzkrātās preces</strong> — atlasiet visus daudzumus, kas ir izdoti, un visus preču daudzumus, kas nav&#39;uzkrāti.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -113,8 +111,8 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <td>Drukāt</td>
 <td>Atlasiet, kad drukāt dokumentus:
 <ul>
-<li><strong>Pašreizējais</strong> — drukāt dokumentus pēc katra rēķina atjaunināšanas.</li>
-<li><strong>Pēc</strong> — drukāt dokumentus pēc visu rēķinu atjaunināšanas.</li>
+<li><strong>Pašreizējais</strong> — drukāt dokumentus pēc katra rēķina atjaunināšanas.</li>
+<li><strong>Pēc</strong> — drukāt dokumentus pēc visu rēķinu atjaunināšanas.</li>
 </ul>
 <strong>Piezīme.</strong> Lauks <strong>Drukāt</strong> ir pieejams tikai tad, ja atlasāt opciju <strong>Drukāt rēķinu</strong>, <strong>Drukāt apstiprinājumu</strong>, <strong>Drukāt izdošanas sarakstu</strong> vai <strong>Drukāt pavadzīmi</strong>. Piemēram, lapā <strong>Formu kārtošana</strong> esat iestatījis sistēmu, lai informāciju kārtotu pēc rēķina konta. Pēc tam varat atlasīt <strong>Pēc</strong>, lai drukātu dokumentus partijā, kas tiek kārtota pēc rēķina konta. Pretējā gadījumā dokumenti tiek drukāti pirms apstrādes pabeigšanas un dokumenti netiek&#39;kārtoti secībā, kas ir norādīta lapā <strong>Formu kārtošana</strong>.</td>
 </tr>
@@ -134,10 +132,10 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <td>Kredīta limita pārbaude</td>
 <td>Atlasiet informāciju, kas ir jāanalizē, veicot kredīta limita pārbaudi.
 <ul>
-<li><strong>Nav</strong> — nav vajadzības pēc kredīta limita pārbaudes.</li>
-<li><strong>Bilance</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci.</li>
-<li><strong>Bilance + pavadzīme vai produktu ieejas plūsma</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci un piegādēm.</li>
-<li><strong>Bilance+viss</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci, piegādēm un atvērtajiem pasūtījumiem.</li>
+<li><strong>Nav</strong> — nav vajadzības pēc kredīta limita pārbaudes.</li>
+<li><strong>Bilance</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci.</li>
+<li><strong>Bilance + pavadzīme vai produktu ieejas plūsma</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci un piegādēm.</li>
+<li><strong>Bilance+viss</strong> — kredīta limits tiek pārbaudīts pret debitora bilanci, piegādēm un atvērtajiem pasūtījumiem.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -152,11 +150,11 @@ Grāmatošanas procesa darbību maina tālāk uzskaitītie lauki.
 <td>Kopgrāmatojums, kas paredzēts:</td>
 <td>Atlasiet, kā jāveic vairāku pārdošanas pasūtījumu apkopošana:
 <ul>
-<li><strong>Nav</strong> — neveik&#39;t pārdošanas pasūtījumu apkopošanu. Piemēram, katram pārdošanas pasūtījumam tiks veidots atsevišķs rēķins.</li>
-<li><strong>Rēķina konts</strong> — apkopot visus atlasītos pasūtījumus, balstoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem.</li>
-<li><strong>Pasūtījums</strong> — atlasītu pasūtījumu diapazonu atkopot vienā, jūsu norādītā pasūtījumā. Pasūtījumu apkopošana ir atkarīga no kritērijiem, ko iestatāt lapā<strong>Kopgrāmatošanas parametri</strong>. Ja atlasāt šo opciju, ir jāatlasa kāda vērtība laukā <strong>Pārdošanas pasūtījums</strong>.</li>
-<li><strong>Automātisks kopsavilkums</strong> — ja lapā <strong>Kopgrāmatošana</strong> ir norādīti kopgrāmatojumi, apkopojiet visus atlasītos pasūtījumus, pamatojoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem. Ja na&#39;v norādīti kopgrāmatojumi, pasūtījums tiek grāmatots atsevišķi.</li>
-<li><strong>Pavadzīme</strong> — atlasīto pasūtījumu diapazonu apkopo vienā rēķinā par katru pavadzīmi. Šī opcija ir pieejama tikai tad, ja laukā <strong>Daudzums</strong> ir atlasīta vērtība <strong>Pavadzīme</strong>.</li>
+<li><strong>Nav</strong> — neveik&#39;t pārdošanas pasūtījumu apkopošanu. Piemēram, katram pārdošanas pasūtījumam tiks veidots atsevišķs rēķins.</li>
+<li><strong>Rēķina konts</strong> — apkopot visus atlasītos pasūtījumus, balstoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem.</li>
+<li><strong>Pasūtījums</strong> — atlasītu pasūtījumu diapazonu atkopot vienā, jūsu norādītā pasūtījumā. Pasūtījumu apkopošana ir atkarīga no kritērijiem, ko iestatāt lapā <strong>Kopgrāmatošanas parametri</strong>. Ja atlasāt šo opciju, ir jāatlasa kāda vērtība laukā <strong>Pārdošanas pasūtījums</strong>.</li>
+<li><strong>Automātisks kopsavilkums</strong> — ja lapā <strong>Kopgrāmatošana</strong> ir norādīti kopgrāmatojumi, apkopojiet visus atlasītos pasūtījumus, pamatojoties uz lapā <strong>Kopgrāmatošanas parametri</strong> iestatītajiem kritērijiem. Ja na&#39;v norādīti kopgrāmatojumi, pasūtījums tiek grāmatots atsevišķi.</li>
+<li><strong>Pavadzīme</strong> — atlasīto pasūtījumu diapazonu apkopo vienā rēķinā par katru pavadzīmi. Šī opcija ir pieejama tikai tad, ja laukā <strong>Daudzums</strong> ir atlasīta vērtība <strong>Pavadzīme</strong>.</li>
 </ul></td>
 </tr>
 </tbody>
