@@ -2,11 +2,9 @@
 title: Iestatīt parakstītājus drukātajām formām
 description: Juridiskajām personām Čehijā, Igaunijā, Ungārijā, Lietuvā, Latvijā, Polijā un Krievijā varat iestatīt parakstītājus un amatus debitoriem un kreditoriem, kas drukā tādus dokumentus kā rēķini un kases orderi.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6947a71992e2b30fedd7e4594fa041b459b851ff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7825aaa8486eb063928ccfc1c67e1f79669c1a1f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236218"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818277"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Iestatīt parakstītājus drukātajām formām
 
@@ -116,11 +114,11 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 </tr>
 <tr class="even">
 <td>Vārds, uzvārds</td>
-<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong>). Ja parakstītāja vārds nav iekļauts šajā sarakstā, manuāli ievadiet parakstītāja pilnu vārdu.</td>
+<td>Atlasiet parakstītāja vārdu un uzvārdu. Sarakstā esošie vārdi tiek ņemti no tabulas Kontaktpersonas vai tabulas Darbinieki, ņemot vērā parakstītāja tipu (tas ir, atkarībā no tā, vai ir atzīmēta izvēles rūtiņa <strong>Mūsu</strong> ). Ja parakstītāja&#39;vārds nav&#39;iekļauts šajā sarakstā, manuāli ievadiet parakstītāja pilnu vārdu.</td>
 </tr>
 <tr class="odd">
 <td>Amata nosaukums</td>
-<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav iekļauts šajā sarakstā, manuāli ievadiet parakstītāja amatu.</td>
+<td>Atlasiet parakstītāja darba nosaukumu. Ja parakstītāja amats nav&#39;iekļauts šajā sarakstā, manuāli ievadiet parakstītāja amatu.</td>
 </tr>
 <tr class="even">
 <td>Konta kods</td>
@@ -138,8 +136,8 @@ Lai iestatītu parakstītājus tādiem dokumentiem, ko uzņēmums drukā, izmant
 <td>Saistība ar noliktavu</td>
 <td>Atlasiet, vai parakstītājs ir piešķirts visām noliktavām vai tikai konkrētai noliktavai. Pieejamas šādas opcijas
 <ul>
-<li><strong>Visi</strong> — parakstītājs ir piešķirts visām noliktavām.</li>
-<li><strong>Ieraksts</strong> — parakstītājs ir piešķirts konkrētai noliktavai.</li>
+<li><strong>Visi</strong> — parakstītājs ir piešķirts visām noliktavām.</li>
+<li><strong>Ieraksts</strong> — parakstītājs ir piešķirts konkrētai noliktavai.</li>
 </ul></td>
 </tr>
 <tr class="even">

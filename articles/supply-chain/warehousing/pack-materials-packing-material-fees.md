@@ -2,11 +2,9 @@
 title: Iepakojuma materiāli un maksas
 description: Šajā tēmā sniegta informācija par iepakojuma materiālu maksām, kas tiek maksātas pārstrādes uzņēmumiem noteiktos intervālos.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9ca8653bb3dc00285774d4ead9a8c14c606f24
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b37e61a3c48d646dce9007229fcb7fa4ecde45a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234733"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816344"
 ---
 # <a name="packing-materials-and-fees"></a>Iepakojuma materiāli un maksas
 
@@ -42,16 +40,16 @@ Vienu vai vairākas iepakojuma vienības varat definēt vienam krājumam, krāju
 
 Pirms varat aprēķināt iepakojuma materiālu svaru, iepakojuma materiālu maksas vai abus, ir jāieslēdz aprēķins un jānosaka, kuri materiāli un maksas attiecas uz kurām precēm.
 
-1. Dodieties uz **Krājumu pārvaldība \> Iestatīšana \> Krājumu un noliktavas pārvaldības parametri**.
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Krājumu un noliktavas pārvaldības parametri**.
 1. Cilnes **Vispārīgi** sadaļā **Iepakojuma materiāls** iestatiet opciju **Aprēķināt iepakojuma materiālu maksas** uz **Jā**.
-1. Dodieties uz **Krājumu pārvaldība \>Iestatījumi \>Iepakojuma materiāls \>Iepakojuma grupas** un izveidojiet visas jūsu izmantotās iepakojuma grupas. Visi iepakojuma grupas krājumi izmanto vienu un to pašu iepakojuma materiālu sadalījumu. Ja neizmantojat iepakojuma grupas, varat šo darbību izlaist.
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Iepakojuma materiāls \> Iepakojuma grupas** un izveidojiet visas jūsu izmantotās iepakojuma grupas. Visi iepakojuma grupas krājumi izmanto vienu un to pašu iepakojuma materiālu sadalījumu. Ja neizmantojat iepakojuma grupas, varat šo darbību izlaist.
 
     > [!TIP]
     > Pēc tam, kad esat izveidojis iepakojuma grupas, katrai precei var piešķirt grupu pēc vajadzības. Dodieties uz **Preču informācijas pārvaldība \>Preces \> Izlaistās preces**, atlasiet preci un pēc tam kopsavilkuma cilnē **Pārvaldīt krājumus**, laukā **Iepakojuma grupa** atlasiet attiecīgo iepakojuma grupu.
 
-1. Dodieties uz **Krājumu pārvaldība \>Iestatīšana \> Iepakojuma materiāls \> Iepakojuma materiāla kodi**, definējiet katru iepakojuma materiāla veidu, kuru izmantojat, un konkretizējiet vienību, kurā iepakojuma materiāls tiek patērēts, kad sagatavojat sūtījumus.
-1. Dodieties uz **Krājumu pārvaldība \>Iestatīšana \> Iepakojuma materiāls \> Iepakojuma materiāla maksas** un iestatiet papildmaksu katram tikko definētajam iepakojuma materiāla veidam. Maksas tiek aprēķinātas, pamatojoties uz vienas patērētās vienības cenu.
-1. Lai krājumiem iedalītu iepakojuma materiālus, dodieties uz **Krājumu pārvaldība \> Iestatīšana \> Iepakojuma materiāls \> Iepakojuma materiālu sadalījums** un izveidojiet sadalījumus. Varat izveidoti tik daudz sadalījumu, cik nepieciešams. Varat sadalīt iepakojuma materiālus atsevišķiem krājumiem, krājumu grupām (iepakošanas grupām) vai visiem krājumiem atkarībā no tā, cik detalizēta ir jūsu sadale.
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Iepakojuma materiāls \> Iepakojuma materiāla kodi**, definējiet katru iepakojuma materiāla veidu, kuru izmantojat, un konkretizējiet vienību, kurā iepakojuma materiāls tiek patērēts, kad sagatavojat sūtījumus.
+1. Dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Iepakojuma materiāls \> Iepakojuma materiāla maksas** un iestatiet papildmaksu katram tikko definētajam iepakojuma materiāla veidam. Maksas tiek aprēķinātas, pamatojoties uz vienas patērētās vienības cenu.
+1. Lai krājumiem iedalītu iepakojuma materiālus, dodieties uz **Krājumu pārvaldība \> Iestatījumi \> Iepakojuma materiāls \> Iepakojuma materiālu sadalījums** un izveidojiet sadalījumus. Varat izveidoti tik daudz sadalījumu, cik nepieciešams. Varat sadalīt iepakojuma materiālus atsevišķiem krājumiem, krājumu grupām (iepakošanas grupām) vai visiem krājumiem atkarībā no tā, cik detalizēta ir jūsu sadale.
 
     Katram izveidotajam sadalījumam izpildiet tālākās darbības.
 
@@ -109,7 +107,7 @@ Lai ģenerētu pārskatu, kurā redzamas visas iepakojuma materiālu maksas, ko 
 
 Iepakojuma materiāla svaru varat drukāt uz rēķina un norādīt, kurš maksā saistītās maksas. Svars tiek summēts pēc iepakojuma koda.
 
-1. Dodieties uz sadaļu **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
+1. Dodieties uz sadaļu **Debitoru parādi \> Iestatījumi \> Debitoru parādu parametri**.
 1. Cilnē **Atjauninājumi**, kopsavilkuma cilnē **Rēķins** iestatiet opciju **Drukāt iepakojuma materiāla svaru** uz **Jā**.
 
 

@@ -2,11 +2,9 @@
 title: Noklusējuma korespondējošie konti kreditoru rēķinam un rēķinu apstiprinājumu žurnāliem
 description: Šajā tēmā sniegtā informācija palīdzēs jums izlemt, vai rēķinu žurnāliem ir jāpiešķir noklusējuma konti.
 author: abruer
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e67bebcfb934a3e6dae78cafd7bb2b01c05e450
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e859d166d19cd97d4b19c989b7a1bbe6832d218b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250630"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820741"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Noklusējuma korespondējošie konti kreditoru rēķinam un rēķinu apstiprinājumu žurnāliem
 
@@ -52,7 +50,7 @@ Izmantojiet tālāk esošo tabulu, lai izlemtu, kur ir jāpiešķir rēķinu žu
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Kreditoru grupa</strong> — iestatiet kreditoru grupu noklusējuma korespondējošos kontus lapā <strong>Noklusētie konta iestatījumi</strong>, ko varat atvērt lapā <strong>Kreditoru grupas</strong>.</td>
+<td><strong>Kreditoru grupa</strong> — iestatiet kreditoru grupu noklusējuma korespondējošos kontus lapā <strong>Noklusētie konta iestatījumi</strong>, ko varat atvērt lapā <strong>Kreditoru grupas</strong>.</td>
 <td><ul>
 <li>Kreditora konts</li>
 <li>Kreditoru kontu žurnāla ieraksti kreditoru grupā, ja kreditoru kontiem nav norādīti noklusējuma konti</li>
@@ -67,7 +65,7 @@ Izmantojiet tālāk esošo tabulu, lai izlemtu, kur ir jāpiešķir rēķinu žu
 <td>Izmantojiet šo opciju, ja parasti maksājat par viena veida precēm, ko nodrošina vieni un tie paši kreditori.</td>
 </tr>
 <tr class="odd">
-<td><strong>Žurnālu nosaukumi</strong> — iestatiet žurnālu noklusējuma korespondējošos kontus lapā <strong>Žurnālu nosaukumi</strong>. Atlasiet opciju <strong>Fiksēts korespondējošais konts</strong>. Ņemiet vērā, ka nevara&#39;t norādīt žurnālu nosaukumu noklusējuma korespondējošos kontus, ja žurnālu nosaukumiem atbilstošais žurnāla veids ir <strong>Rēķinu reģistrs</strong> vai <strong>Apstiprinājums</strong>.</td>
+<td><strong>Žurnālu nosaukumi</strong> — iestatiet žurnālu noklusējuma korespondējošos kontus lapā <strong>Žurnālu nosaukumi</strong>. Atlasiet opciju <strong>Fiksēts korespondējošais konts</strong>. Ņemiet vērā, ka nevara&#39;t norādīt žurnālu nosaukumu noklusējuma korespondējošos kontus, ja žurnālu nosaukumiem atbilstošais žurnāla veids ir <strong>Rēķinu reģistrs</strong> vai <strong>Apstiprinājums</strong>.</td>
 <td><ul>
 <li>Žurnāla virsraksts, kurā tiek izmantots žurnāla nosaukums</li>
 <li>Žurnāla ieraksti žurnālos, kuros tiek lietots žurnāla nosaukums</li>
@@ -76,16 +74,16 @@ Izmantojiet tālāk esošo tabulu, lai izlemtu, kur ir jāpiešķir rēķinu žu
 <td>Izmantojiet šo opciju, lai iestatītu žurnālus noteiktām maksām vai izdevumiem, kas tiek iekasēti no konkrētiem kontiem neatkarīgi no kreditora vai kreditoru grupas, kurā ir ietverts kreditors.</td>
 </tr>
 <tr class="even">
-<td><strong>Žurnālu nosaukumi</strong> — iestatiet žurnālu noklusējuma korespondējošos kontus lapā <strong>Žurnālu nosaukumi</strong>. Noņemiet atzīmi no opcijas <strong>Fiksēts korespondējošais konts</strong>. Ņemiet vērā, ka nevara&#39;t norādīt žurnālu nosaukumu noklusējuma korespondējošos kontus, ja žurnālu nosaukumiem atbilstošais žurnāla veids ir <strong>Rēķinu reģistrs</strong> vai <strong>Apstiprinājums</strong>.</td>
+<td><strong>Žurnālu nosaukumi</strong> — iestatiet žurnālu noklusējuma korespondējošos kontus lapā <strong>Žurnālu nosaukumi</strong>. Noņemiet atzīmi no opcijas <strong>Fiksēts korespondējošais konts</strong>. Ņemiet vērā, ka nevara&#39;t norādīt žurnālu nosaukumu noklusējuma korespondējošos kontus, ja žurnālu nosaukumiem atbilstošais žurnāla veids ir <strong>Rēķinu reģistrs</strong> vai <strong>Apstiprinājums</strong>.</td>
 <td><ul>
 <li>Žurnāla virsraksts</li>
 <li>Žurnāla ieraksti žurnālos, kuros tiek lietots žurnāla nosaukums</li>
 </ul></td>
-<td>Šie noklusējuma ierakstu tiek izmantoti žurnālu virsrakstu lapās, un žurnāla virsraksta lapā norādītais korespondējošais konts tiek izmantots kā noklusējuma ieraksts žurnālu dokumentu lapās. Lapā <strong>Žurnālu nosaukumi</strong> norādītie noklusējuma konti tiek izmantoti tikai tad, ja nav iestatīti kreditora konta noklusējuma konti.</td>
-<td>Izmantojiet šo opciju, lai iestatītu noklusējuma kontus, kas tiek izmatoti tad, ja nav piešķirts kreditora noklusējuma korespondējošais konts.</td>
+<td>Šie noklusējuma ierakstu tiek izmantoti žurnālu virsrakstu lapās, un žurnāla virsraksta lapā norādītais korespondējošais konts tiek izmantots kā noklusējuma ieraksts žurnālu dokumentu lapās. Lapā <strong>Žurnālu nosaukumi </strong>norādītie noklusējuma konti tiek izmantoti tikai tad, ja nav iestatīti kreditora konta noklusējuma konti.</td>
+<td>Izmantojiet šo opciju, lai iestatītu noklusējuma kontus, kas tiek izmatoti tad, ja nav&#39;piešķirts kreditora noklusējuma korespondējošais konts.</td>
 </tr>
 <tr class="odd">
-<td><strong>Žurnāla virsraksts</strong> — iestatiet žurnāla noklusējuma korespondējošo kontu, kas tiks izmantots kā noklusējuma ieraksts žurnālu dokumentu lapās. Ņemiet vērā, ka nevara&#39;t norādīt žurnāla virsraksta noklusējuma korespondējošos kontus, ja žurnālu nosaukumiem atbilstošais žurnāla veids ir <strong>Rēķinu reģistrs</strong> vai <strong>Apstiprinājums</strong>.</td>
+<td><strong>Žurnāla virsraksts</strong> — iestatiet žurnāla noklusējuma korespondējošo kontu, kas tiks izmantots kā noklusējuma ieraksts žurnālu dokumentu lapās. Ņemiet vērā, ka nevara&#39;t norādīt žurnāla virsraksta noklusējuma korespondējošos kontus, ja žurnālu nosaukumiem atbilstošais žurnāla veids ir <strong>Rēķinu reģistrs</strong> vai <strong>Apstiprinājums</strong>.</td>
 <td>Žurnāla ieraksti žurnālā</td>
 <td>Žurnāla noklusējuma korespondējošais konts tiek izmantots kā noklusējuma ieraksts žurnālu dokumentu lapās.</td>
 <td>Izmantojiet šo opciju, lai paātrinātu datu ievadi, ja vairumā žurnāla ierakstu tiek izmantots viens un tas pats korespondējošais konts.</td>

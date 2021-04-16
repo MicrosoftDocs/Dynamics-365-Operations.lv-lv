@@ -2,7 +2,6 @@
 title: Tranzīta preču apstrāde
 description: Šajā tēmā ir aprakstīts, kā strādāt ar tranzīta preču pasūtījumiem. Kad pasūtījums vai reiss ir iestatīts izmantot tranzītā apstrādātās preces, par precēm var izrakstīt rēķinu, pirms tās ir saņemtas patēriņam noliktavā.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500408"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823413"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzīta preču apstrāde
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šajā tēmā ir aprakstīts, kā strādāt ar tranzīta preču pasūtījumiem. Šis pasūtījuma veids tiek izmantots tikai **Kopīgo izmaksu** modulī. Kad pasūtījums vai reiss ir iestatīts izmantot tranzītā apstrādātās preces, par precēm var izrakstīt rēķinu, pirms tās ir saņemtas patēriņam noliktavā. Tā vietā preces tiek iekļautas rēķinā, kad tās atstāj kreditora noliktavu vai izcelsmes ostu, un finanšu izmaksas tiek atpazītas, kad sākas reiss. Šī funkcionalitāte ļauj jums pareizi īpašumtiesības nodot krājumiem, jo preces bieži kļūst par jūsu organizācijas rekvizītu, kad tās atstāj nosūtīšanas ostu.
 
@@ -135,7 +133,7 @@ Kopējās izmaksas pievieno šādus darba izveides procesus mobilās ierīces iz
 
 Šo procesu konfigurācijas iestatījumi ir līdzīgi [pirkšanas pasūtījuma saņemšanas un izvietošanas darba izveides procesu iestatījumiem](https://technet.microsoft.com/library/dn553216.aspx). Tomēr *Tranzīta preču krājuma saņemšanas un izvietošanas* procesā tiek pievienots arī šāds lauks.
 
-- **Iespējojiet sūtīšanas konteinera pabeigtību** — ja šī opcija ir iestatīta uz *Jā*, kad izvietošanas darbs ir pabeigts, noliktavas programma nodrošina papildu opciju ar nosaukumu **Sūtījumu konteiners ir pabeigts**. Kad šī opcija ir atlasīta, darbiniekam tiks lūgts apstiprināt konteinera pabeigšanas apstiprinājumu. Šajā brīdī visas īsās ieejas plūsmas tiks apstrādātas kā nepiegādāšanas darbības.
+- **Iespējojiet sūtīšanas konteinera pabeigtību** — ja šī opcija ir iestatīta uz *Jā*, kad izvietošanas darbs ir pabeigts, Warehouse Management mobile programma nodrošina papildu opciju ar nosaukumu **Sūtījumu konteiners ir pabeigts**. Kad šī opcija ir atlasīta, darbiniekam tiks lūgts apstiprināt konteinera pabeigšanas apstiprinājumu. Šajā brīdī visas īsās ieejas plūsmas tiks apstrādātas kā nepiegādāšanas darbības.
 
 ### <a name="location-directives"></a>Vietas direktīvas
 

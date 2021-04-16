@@ -2,11 +2,9 @@
 title: PVN maksājumi un noapaļošanas kārtulas
 description: Šajā rakstā ir izskaidrots, kā iestatīt noapaļošanas kārtulu PVN iestādēm paredzētās atskaitēs, un sniegta informācija par PVN bilances noapaļošanu nosegšanas un PVN iegrāmatošanas darba laikā.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7be9be728a6515bb1fc1c9bc90938a3d33ea8da8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edbe92d009c77702a21d32afb5aebe93bc5e2ee0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204958"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815384"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVN maksājumi un noapaļošanas kārtulas
 
@@ -42,7 +40,7 @@ Kopējā PVN summa par periodu atbilst kredīta bilancei –98 765,43. Juridisk�
 
 Juridiskā persona vēlas izmantot noapaļošanas metodi, kas noapaļo bilanci līdz tuvākajam veselam skaitlim (1,00). Lietotājs, kurš ir atbildīgs par PVN uzskaiti, veic tālāk norādītās darbības.
 
-1. Noklikšķiniet uz  **Nodokļi** > **Netiešie nodokļi** > **PVN** > **Nodokļu iestādes**.
+1. Noklikšķiniet uz **Nodokļi** > **Netiešie nodokļi** > **PVN** > **Nodokļu iestādes**.
 2. Kopsavilkuma cilnes **Vispārīgi** laukā **Noapaļošanas veids** atlasiet opciju **Parastais**.
 3. Laukā **Noapaļošana** ievadiet vērtību 1,00.
 4. Kad ir pienācis laiks maksāt PVN nodokļu iestādei, dodieties uz **Nodokļi** > **Deklarācijas** > **PVN** > **Nosegt un grāmatot PVN**. PVN apmaksas kontā jūs redzēsiet nodokļu parāda summa **98 765,43** tiek noapaļota līdz **98 765**.

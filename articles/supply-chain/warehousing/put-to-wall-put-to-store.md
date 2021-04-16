@@ -2,11 +2,9 @@
 title: Novietot pie sienas – Novietot veikalā
 description: Šajā tēmā ir sniegta informācija par funkcionalitāti Novietot pie sienas – novietot veikalā. Šī funkcionalitāte ļauj apstrādāt scenārijus, kuros ir jākonsolidē prece fasēšanas sagatavošanas zonā, pamatojoties uz konfigurējamajiem kritērijiem. Tas palīdz samazināt izdošanas laiku, jo ļauj veikt izdošanu vienai mērķa noliktavas vienībai, un var izmantot vairāk izvietošanas vietu nekā klastera izdošana.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228517"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823291"
 ---
 # <a name="put-to-wall---put-to-store"></a>Novietot pie sienas – Novietot veikalā
 
@@ -524,7 +522,7 @@ Tagad, kad visi krājumi ir novietoti kārtošanas vietā, tie ir jākārto pare
 
 Ja kārtošanas pozīcijas jāslēdz manuāli, izejošās kārtošanas veidnes opcijai **Automātiski slēgt kārtošanas pozīciju** jābūt iestatītai uz *Nē*, un slēgšana jāveic pirms krājumus var pārvietot uz angāra durvis zonu. Pozīcijas var slēgt dažādos veidos:
 
-- Izmantojot noliktavas programmu:
+- Ar lietotni Warehouse Management mobile:
 
     - Lietotājs var skenēt vienu no krājumiem, kas jau ir pozīcijā, un pēc tam atlasīt **Slēgt**, lai slēgtu pozīciju.
     - Ja lietotājs skenē konteineru, kas jau ir sakārtots, tiek parādīts kļūdas ziņojums. Tomēr lietotājs joprojām var turpināt pozīcijas slēgšanu.

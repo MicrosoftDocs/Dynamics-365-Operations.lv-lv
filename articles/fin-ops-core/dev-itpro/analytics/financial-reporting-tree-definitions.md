@@ -1,27 +1,26 @@
 ---
 title: Pārskatu koka definīcijas finanšu pārskatos
 description: Šajā rakstā ir aprakstītas pārskatu koka definīcijas. Pārskata koka definīcija ir pārskata komponents, kas nosaka organizācijas struktūru.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568779"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819942"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Pārskatu koka definīcijas finanšu pārskatos
 
@@ -74,7 +73,7 @@ Lai izveidotu atskaišu koka definīciju, izpildiet šādas darbības.
     | Iekļaut/rakstzīmju pozīcijas       | Šajā sadaļā ir uzskaitītas dimensijas, kas ir definētas finanšu datos, un ir parādīts rakstzīmju skaits visgarākajā katrai dimensijai definētajā vērtībā. Atzīmējiet dimensijas izvēles rūtiņu, lai šo dimensiju iekļautu atskaišu koka hierarhijā. |
     | Segmenta hierarhija un diapazoni     | Šajā sadaļā ir parādīta dimensiju hierarhija. Jūs varat pārvietot dimensijas sarakstā, lai mainītu to pārskata izveides secību. Laukos **No dimensijas** un **Līdz dimensijai** varat norādīt katras dimensijas vērtību diapazonu. Ja diapazonu nenorādāt, atskaišu kokā tiek iekļautas visas dimensiju vērtības.<blockquote>[!NOTE] Ja izmantojat vairākas dimensijas, rezultātos tiek atgrieztas tikai iegrāmatotās dimensiju kombinācijas.</blockquote> |
 
-    Ekrānuzņēmumam, kurā ir parādīts dialoglodziņa **Ievietot atskaišu vienības no dimensijām** piemērs, skatiet sadaļu “Dialoglodziņa Ievietot atskaišu vienības no dimensijām piemērs” tālāk šajā rakstā.
+    Ilustrācijai, kurā ir parādīts dialoglodziņa **Ievietot atskaišu vienības no dimensijām** piemērs, skatiet sadaļu “Dialoglodziņa Ievietot atskaišu vienības no dimensijām piemērs” tālāk šajā rakstā.
 
 5. Lai izveidotu papildu segmentus (piemēram, vienu segmentu sadalot divos īsākos segmentos), noklikšķiniet uz nepieciešamās vietas laukā **Rakstzīmes pozīcija** un pēc tam noklikšķiniet uz **Sadalīt segmentus**.
 6. Lai divus segmentus sapludinātu vienā segmentā, noklikšķiniet vienā no sapludināmo segmentu rūtiņām un pēc tam noklikšķiniet uz **Apvienot segmentus**.
@@ -186,39 +185,39 @@ Kad rindas definīcijā esat izveidojis kolonnu **Pārskats** un esat norādīji
 - Viszemākā līmeņa detalizācijas atskaites vienības (Home Sales, Auto Sales, Client Services un Operations) apzīmē nodaļas finanšu datos. Šīs pārskata vienības ir diagrammas ēnotais apgabals.
 - Augstāka līmeņa kopsavilkuma vienības apkopo informāciju no detaļu vienībām.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso kopsavilkuma pārskata struktūra — 1. piemērs](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Atskaites vienības struktūra — 2. piemērs
 
 Nākamajā diagrammā ir redzams atskaišu koks, kam ir organizatoriska struktūra, kura ir sadalīta pēc biznesa funkcijas.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso kopsavilkuma pārskata struktūra — 2. piemērs](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dialoglodziņa Ievietot atskaišu vienības no dimensijām piemērs
 
 Nākamajā attēlā ir parādīts dialoglodziņa **Ievietot atskaišu vienības no dimensijām** piemērs. Šajā piemērā rezultāti atgriezīs biznesa vienību, izmaksu centru un nodaļu kombinācijas.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Ievietot pārskatu vienības](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Iegūtā atskaišu koka definīcija tiek kārtota pēc biznesa vienības, pēc tam tiek kārtota pēc izmaksu centra, un pēc tam — pēc nodaļas. Piektās pārskata vienības dimensija ir **Biznesa vienība = \[001\], Izmaksu centrs =\[\], Nodaļa = \[022\]**, un tā norāda pārskata vienību kontiem, kas atbilst biznesa vienībai 001 un nodaļai 022.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Pārskata koka ilustrācija](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Datu apkopojuma piemēri
 
 Nākamajos piemēros ir parādīta iespējamā informācija, kas tiek izmantota atskaišu koka definīcijā tādiem datiem, kas tiek apkopoti.
 
-#### <a name="example-1"></a>1. piemērs
+#### <a name="example-1"></a>1. piemērs
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Mutli uzņēmuma apkopojums](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
-#### <a name="example-2"></a>2. piemērs
+#### <a name="example-2"></a>2. piemērs
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Starpuzņēmumu nodaļu apkopojums](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Finanšu pārskati](financial-reporting-intro.md)
+[Finanšu pārskatu veidošana](financial-reporting-intro.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

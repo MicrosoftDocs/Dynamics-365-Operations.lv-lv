@@ -2,11 +2,9 @@
 title: Grāmatu skaits katrā žurnālā
 description: Šī tēma apraksta attiecības starp žurnāliem un līdzekļu grāmatām, kad, izmantojot pakešuzdevumu, izveidojat pamatlīdzekļa iegādes vai nolietojuma priekšlikumu. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256719"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822037"
 ---
 # <a name="number-of-books-per-journal"></a>Grāmatu skaits katrā žurnālā
 
 [!include [banner](../includes/banner.md)]
 
-Šī tēma apraksta attiecības starp žurnāliem un līdzekļu grāmatām, kad, izmantojot pakešuzdevumu, izveidojat pamatlīdzekļa iegādes vai nolietojuma priekšlikumu. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam, izmantojot laukus sadaļā **Grāmatu skaits žurnālā**, cilnē **Vispārīgi**, kas atrodama lapā **Parametri** ( **Pamatlīdzekļi \> Iestatījumi \> Pamatlīdzekļu iestatījumi**). Šie lauki ļauj jums sadalīt pamatlīdzekļu grāmatu skaitu uz iegādes žurnālu un nolietojuma žurnālu.
+Šī tēma apraksta attiecības starp žurnāliem un līdzekļu grāmatām, kad, izmantojot pakešuzdevumu, izveidojat pamatlīdzekļa iegādes vai nolietojuma priekšlikumu. Varat definēt maksimālo grāmatu skaitu, kas ir iekļautas katrai iegādei un nolietojumam, izmantojot laukus sadaļā **Grāmatu skaits žurnālā**, cilnē **Vispārīgi**, kas atrodama lapā **Parametri** (**Pamatlīdzekļi \> Iestatījumi \> Pamatlīdzekļu iestatījumi**). Šie lauki ļauj jums sadalīt pamatlīdzekļu grāmatu skaitu uz iegādes žurnālu un nolietojuma žurnālu.
 
 Iegādes priekšlikumam noklusētā vērtība ir vismaz 10 000 grāmatas. Nolietojuma priekšlikumam noklusētā vērtība ir vismaz 2000 grāmatas.
 
@@ -43,11 +41,14 @@ Varat izmantot pakešapstrādi, lai izpildītu nolietojumu tai pašai iegūto l�
 
 Pakešapstrādes darbs izslēdz slēgtās grāmatas. Piemēram, nolietojuma pakešuzdevumā ir slēgtas 10 no pirmajām 2000 grāmatām ir slēgtas. Pirmajā gadījumā pirmajā žurnālā būs ietvertas grāmatas, kas ir saistītas ar pamatlīdzekļiem, kuri numurēti no 1 līdz 2011. Otrajā žurnālā būs ietvertas grāmatas, kas ir saistītas ar pamatlīdzekļiem, kuri numurēti no 2012 līdz 4000.
 
+> [!NOTE]
+> Ja jums ir pamatlīdzekļu ID ar dažādiem atdalītājiem (piemēram, – vai/) un pakešuzdevumos veidojat pamatlīdzekļu darbības, katram atdalītāja tipam ir jāpalaiž atsevišķs pakešuzdevums. Sistēma nevar apstrādāt dažādus atdalītājus vienā pakešuzdevumā.
+
 Grāmatu skaita ierobežojums tiek pielietots, ja tajā pašā žurnālā neeksistē pamatlīdzekļu ID dublikāti. Tomēr, ja pamatlīdzekļa ID ir tas pats, kas grāmatas ID, žurnāla grāmatu skaits var tikt pārsniegts, lai saglabātu pamatlīdzekļa ID tajā pašā žurnālā.
 
 Piemēram, ir 5001 pamatlīdzekļu ID, trīs grāmatas ir saistītas ar katru pamatlīdzekļa ID, un katra pamatlīdzekļu grāmata tiek grāmatota vienā grāmatošanas līmenī. Nolietojums tiek izpildīts trīs mēnešus pēc kārtas bez summēšanas.  Nolietojuma žurnāls tiks izveidots, izmantojot pakešuzdevumu, un sistēma izveidos septiņus žurnālus, kuriem ir 667 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Rezultāts būs 2001 grāmata. Tāpēc trijos mēnešos būs 6003 žurnāla rindas, lai tajā pašā žurnālā uzturētu tos pašus pamatlīdzekļu ID. Sistēmā tiks izveidots arī viens žurnāls, kurā ir 332 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Trijos mēnešos būs 2988 rindas.
 
-> [!Note] 
+> [!NOTE] 
 > Ja, veidojot nolietojuma priekšlikumu, parametrs **Nolietojuma kopsavilkums** ir ieslēgts, tad vērtībai laukā **Grāmatu skaits žurnālā – Nolietojuma priekšlikums** nav ietekmes. Šajā gadījumā grāmatu skaits žurnālā ir 6000, kas ir iekšējais definētais ierobežojums.
 
 

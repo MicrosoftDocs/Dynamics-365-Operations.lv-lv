@@ -2,11 +2,9 @@
 title: Elektronisko pārskatu kreditoru čeku paraugi
 description: Šajā tēmā ir sniegta vispārīga informācija pat to, kā izmantot elektronisko pārskatu čeku paraugu formātus.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 72581a6d852fe6eb5b4ad894027c1f5a3b5363e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a48a20939b346b2d8536128107a730761b13f71c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250606"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820717"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Elektronisko pārskatu kreditoru čeku paraugi
 
@@ -39,7 +37,7 @@ Programmā Microsoft Dynamics 365 Finance ir ietverts formāta paraugs, kurā č
 - Pirms čeku drukāšanas, izmantojot ER izveides rīku, ER konfigurāciju kopā ir jāimportē vismaz viena aktīva čeka konfigurācija. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 - Konfigurējot bankas konta skaidras naudas un bankas vadības čekus, atzīmējiet izvēles rūtiņu **Vispārīgs elektroniskās eksportēšanas formāts** un pēc tam kā eksportēšanas formāta konfigurāciju atlasiet atbilstošo čeka formātu.
 - Ir jānorāda arī pārskaitījuma sadaļā drukājamo kvīts rindu skaits. Aprēķinot šo skaitu, noteikti pieskaitiet galvenes rindas. Abiem čeku paraugu formātiem ieteicamais kvīts rindu skaits ir 17. Taču šis skaits mainīsies atkarībā no jūsu čeku kopas un printera draiveriem.
-- Ir ieteicams izdrukāt izmēģinājuma čeku, lai pārbaudītu čeka izkārtojumu. Lai izdrukātu izmēģinājuma čeku, atlasiet opciju **Drukāt paraugu**. Čeku formātu paraugi vislabāk darbojas tad, ja programmasMicrosoft Excel printera papildu rekvizītu sadaļā ir iestatīta opcijas **Piemales** vērtība **Nav**. Pēc izmēģinājuma čeka izdrukāšanas iespējojiet Excel izvades rediģēšanu un konfigurējiet lapas izkārtojumu, visām piemalēm iestatot vērtību **0** (nulle). Salīdziniet čeku izmēģinājuma kopijas ar čeku kopu un pielāgojiet iestatījumus, līdz izkārtojums jūs apmierina.
+- Ir ieteicams izdrukāt izmēģinājuma čeku, lai pārbaudītu čeka izkārtojumu. Lai izdrukātu izmēģinājuma čeku, atlasiet opciju **Drukāt paraugu**. Čeku formātu paraugi vislabāk darbojas tad, ja programmas Microsoft Excel printera papildu rekvizītu sadaļā ir iestatīta opcijas **Piemales** vērtība **Nav**. Pēc izmēģinājuma čeka izdrukāšanas iespējojiet Excel izvades rediģēšanu un konfigurējiet lapas izkārtojumu, visām piemalēm iestatot vērtību **0** (nulle). Salīdziniet čeku izmēģinājuma kopijas ar čeku kopu un pielāgojiet iestatījumus, līdz izkārtojums jūs apmierina.
 - Kad maksājumu žurnālā ģenerējat konfigurētā bankas konta maksājumus, tiek drukāti norādītā formāta čeki.
 
 Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas formāta mainīšana](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).

@@ -2,11 +2,9 @@
 title: Budžeta plānošanas datu sadalījums
 description: Šajā tēmā ir aprakstītas dažādās sadalījuma metodes, kas ir pieejamas programmā Microsoft Dynamics 365 Finance, un to lietošana.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3ce04e8936ace70d83febc6be1e39c210fecfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bef79df8d9806771f87a6f77a0c9094887050646
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210389"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822207"
 ---
 # <a name="budget-planning-data-allocation"></a>Budžeta plānošanas datu sadalījums
 
@@ -39,19 +37,19 @@ Trīs sadalījuma metodes (sadalīt periodos, sadalīt uz dimensijām un izmanto
 > Summēšanai jāizmanto unikāls scenārijs, kas atšķiras no scenārija, kas tika izmantots sadalei vai citām modifikācijām, kas iepriekš tika veiktas pamatplānā.  
 
 [![Sadalīt pa periodiem piešķiršanas metode](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
-**Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu pa mērķa scenārija periodiem, tiek izmantota periodu sadalījuma kategorija. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         
+**Sadalīt pa periodiem** — lai budžeta plāna rindas no avota budžeta plāna scenārija sadalītu pa mērķa scenārija periodiem, tiek izmantota periodu sadalījuma kategorija. Avota summa tiek piešķirta vairākām rindām mērķa scenārijā, pamatojoties uz procentuālo attiecību un datumu, kas ir noteikti perioda sadalījuma kategorijā.         
 
 [![Sadalījums uz dimensijām piešķiršanas metode](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Sadalījums uz dimensijām** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz vienu vai vairākām rindām mērķa scenārijā, balstoties uz procentuālo sadalījumu un finanšu dimensijām, kas definētas atlasītajā budžeta sadalījuma noteikumā.           
 
 ![Apkopošanas diagramma](./media/aggregatechart-300x230.png)
-**Apkopot** — budžeta plāna rindas tiek apkopotas no avota budžeta plāna scenārija saistītajos (pakārtotajos) budžeta plānos uz mērķa scenāriju pamata budžeta plānā. Šī metode ļauj budžeta summas, kas sagatavotas zemākā organizācijas līmenī, konsolidēt augstākā līmenī.          
+**Apkopot** — budžeta plāna rindas tiek apkopotas no avota budžeta plāna scenārija saistītajos (pakārtotajos) budžeta plānos uz mērķa scenāriju pamata budžeta plānā. Šī metode ļauj budžeta summas, kas sagatavotas zemākā organizācijas līmenī, konsolidēt augstākā līmenī.          
 
 [![Izplatīšanas diagramma](./media/distributechart-300x230.png)](./media/distributechart.png)
-**Izplatīt** — budžeta plāna rindas tiek izplatītas no avota budžeta plānošanas scenārija pamata budžeta plānā uz mērķa scenāriju saistītajos (pakārtotajos) budžeta plānos, pamatojoties uz saistīto plānu organizācijas vienību finanšu dimensijām. Šī metode ļauj budžeta summas, kas sagatavotas augstākā organizācijas līmenī, izplatīt lokālai pārskatīšanai.           
+**Izplatīt** — budžeta plāna rindas tiek izplatītas no avota budžeta plānošanas scenārija pamata budžeta plānā uz mērķa scenāriju saistītajos (pakārtotajos) budžeta plānos, pamatojoties uz saistīto plānu organizācijas vienību finanšu dimensijām. Šī metode ļauj budžeta summas, kas sagatavotas augstākā organizācijas līmenī, izplatīt lokālai pārskatīšanai.           
 
 [![Virsgrāmatas sadalījuma kārtulas](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
-**Izmantot Virsgrāmatas sadalījuma kārtulas** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz mērķa scenāriju saskaņā ar atlasīto Virsgrāmatas sadalījuma kārtulu. 
+**Izmantot Virsgrāmatas sadalījuma kārtulas** — budžeta plāna rindas tiek sadalītas no avota budžeta plānošanas scenārija uz mērķa scenāriju saskaņā ar atlasīto Virsgrāmatas sadalījuma kārtulu. 
 
 [![Kopēt no budžeta plāna](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Kopēt no budžeta plāna** — tāpat kā izplatīšanas sadalījuma metodē, budžeta plāna rindas tiek veidotas mērķa plānā, pamatojoties uz rindām saistītajā budžeta plānā. Tomēr šajā metodē avota budžeta plānam nav jābūt priekštecim, tas var būt jebkurā augstākā līmenī budžeta plānu hierarhijā. Šī sadalījuma metode ir noderīga, ja konsolidētās summas sākotnēji tiek iekļautas budžetā daudz augstākā līmenī un tās jāpārsūta uz zemāku organizācijas līmeni sīkākai pārskatīšanai un pielāgošanai, pirms tās var saņemt augstāka līmeņa apstiprinājumu.          

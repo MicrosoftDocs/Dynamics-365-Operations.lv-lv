@@ -1,12 +1,10 @@
 ---
-title: Noliktavā nodarbināto pārvaldība
-description: Šajā rakstā ir aprakstīts, kā varat izmantot noliktavas lietotni, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
+title: Noliktavas nodarbināto pārvaldība
+description: Šajā rakstā ir aprakstīts, kā varat izmantot Warehouse Management mobile programmu, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216839"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818972"
 ---
-# <a name="manage-warehouse-workers"></a>Noliktavā nodarbināto pārvaldība
+# <a name="manage-warehouse-workers"></a>Noliktavas nodarbināto pārvaldība
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir aprakstīts, kā varat izmantot noliktavas lietotni, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
+Šajā rakstā ir aprakstīts, kā varat izmantot Warehouse Management mobile programmu, lai palīdzētu kontrolēt un uzraudzīt noliktavu darbinieku veikto darbu.
 
 Ja jūs izmantojat funkcionalitāti Noliktavas pārvaldībā, visas noliktavas darbinieku operācijas tiek sauktas par *darbu*. Tāds darbs kā rīcībā esošo krājumu izsniegšana, pārvietošana un uzskaite tiek reģistrēts, izmantojot mobilās ierīces. Pirms noliktavas darbinieks var veikt darbu, viņam ir jābūt saistītam ar darbinieku Personāla vadībā. Ar katru **Darbinieka** kontu var būt saistīti vairāki noliktavas darba lietotāji. Šie darba lietotāji var strādāt dažādās noliktavās, un tiem var būt atšķirīgi piekļuves līmeņi dažādām mobilās ierīces izvēlnēm. Noliktavas darba lietotājus var uzskatīt par vairākām pieteikšanām atlasītajam darbiniekam. Katram darba lietotājam ir noklusētā noliktava, un noteiktas darbplūsmas tiek atklātas caur izvēlnes elementiem, kas ir pieejami šī darba lietotājam. 
 

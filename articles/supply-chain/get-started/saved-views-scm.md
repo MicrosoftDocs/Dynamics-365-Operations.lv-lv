@@ -2,11 +2,9 @@
 title: Standarta saglabātie skati Supply Chain Management
 description: Šajā tēmā aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot.
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500698"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821253"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standarta saglabātie skati Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management ietver vairākus saglabātus skatus, ko varat iespējot un lietot pēc nepieciešamības. Daži no šiem standarta saglabātajiem skatiem ir optimizēti un nosaukti noteiktai lomai vai uzdevumam (piemēram, "Kvalitātes kontrole" vai "Saņemšana"). Citi ir optimizēti, tādējādi tajos ir ietverti tikai lauki un iestatījumi, ko norāda Microsoft lietošanas statistika, visbiežāk tiek izmantoti debitori. Uz šiem saglabātajiem skatiem parasti tiek saukti kā uz *vienkāršotajiem* skatiem. Šajā tēmā aprakstīti pieejamie standarta saglabātie skati un skaidrots, kā tos iespējot un pielāgot.
 
@@ -82,14 +79,16 @@ Tabulā ir aprakstīti Sagādes un avotu modulim pieejamie saglabātie skati.
 
 ## <a name="saved-views-for-the-production-control-module"></a>Preču kontroles moduļa saglabātie skati
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Tabulā ir aprakstīti Preču kontroles modulim pieejamie saglabātie skati.
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Ražošanas pasūtījuma MK lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
-| Ražosanas pasūtījumu informācijas lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
-| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
-| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
+| Ražošanas pasūtījuma MK lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
+| Ražosanas pasūtījumu informācijas lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
+| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
+| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Pārdošanas un mārketinga moduļa saglabātie skati
 

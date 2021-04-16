@@ -2,11 +2,9 @@
 title: Ignorēt noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem
 description: Šajā tēmā ir aprakstīts, kā iestatīt noklusējuma rezervācijas principu katrai krājumu modeļu grupai, lai katram krājumam, kas ir daļa no ražošanas materiālu komplekta (MK) vai partijas pasūtījuma formulas, automātiski var piemērot dažādus rezervēšanas principus.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501106"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814806"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorēt noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *Ignorēšanas noklusējuma ražošanas rezervēšanas* funkcija ļauj iestatīt noklusējuma rezervēšanas principu katrai krājumu modeļu grupai. Tāpēc katram krājumam, kas ir daļa no ražošanas materiālu komplektu (MK) vai partijas pasūtījuma formulas, var automātiski piemērot dažādus rezervēšanas principus. Varat atlasīt, vai katrai krājumu modeļu grupai ir jāignorē pasūtījumam iestatītais noklusējuma rezervēšanas princips un kāds rezervēšanas princips jāizmanto (*manuāls*, *novērtējums*, *plānošana*, *izpilde* vai *sākums*).
 
