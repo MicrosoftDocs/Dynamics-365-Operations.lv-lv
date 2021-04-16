@@ -2,11 +2,9 @@
 title: Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
 description: Šajā tēmā ir paskaidrota kreditoru rēķinu iesniegšana darbplūsmas sistēmā un automātiska grāmatoto preču ieejas plūsmas rindu saskaņošana ar kreditora rēķiniem.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231546"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827822"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Rēķinu iesniegšana darbplūsmu sistēmā un produktu ieejas plūsmu atbilstības nodrošināšana
 
@@ -41,7 +39,9 @@ Darbplūsmas vērtība **Iesniedza** ir fona uzdevumā **Kreditoru rēķinu iesn
 
 Kā daļu no bezkontakta kreditoru rēķinu izrakstīšanas procesa, sistēma var automātiski saskaņot grāmatotās produktu ieejas plūsmas ar rēķina rindām. Šim uzdevumam ir jādefinē trīsvirzienu atbilstības ierobežojumi. Šis līdzeklis ir pieejams, ja līdzeklis **Kreditoru rēķinu izrakstīšanas automatizācija** ir iespējots lapā **Līdzekļu pārvaldība**.
 
-Process tiks veikts, līdz saskaņotais preču ieejas plūsmas daudzums būs vienāds ar rēķina daudzumu. Kā daļu no šī procesa var norādīt maksimālo reižu skaitu, kuru laikā sistēmai jāmēģina saskaņot preču ieejas plūsmu ar rēķina rindu, pirms tiek secināts, ka process nav izdevies. Process darbosies fonā vai nu katru stundu, vai katru dienu. Automatizēto saskaņošanas procesu var palaist kā daļu no rēķinu iesniegšanas procesa darbplūsmas sistēmā. Vai arī varat to palaist kā savrupu procesu. Iestatījumi preču ieejas plūsmu un rēķina rindu saskaņošanas procesam tiek konfigurēti cilnē **Kreditoru rēķinu izrakstīšanas automatizācija** lapā **Parādu kreditoriem parametri** (**Kreditori \> Iestatījumi \> Parādu kreditoriem parametri**).
+Atbilstības process tiks veikts, līdz saskaņotais preču ieejas plūsmas daudzums būs vienāds ar rēķina daudzumu. Tomēr, ja vienai rēķina rindai ir vairākas produktu ieejas plūsmas, process ir jāpalaiž vairākas reizes, lai sasniegtu pilnu daudzuma atbilstību. Var norādīt maksimālo reižu skaitu, kuru laikā sistēmai jāmēģina saskaņot preču ieejas plūsmu ar rēķina rindu, pirms tiek secināts, ka process nav izdevies. Process darbosies fonā vai nu katru stundu, vai katru dienu. 
+
+Automatizēto saskaņošanas procesu var palaist kā daļu no rēķinu iesniegšanas procesa darbplūsmas sistēmā. Vai arī varat to palaist kā savrupu procesu. Iestatījumi preču ieejas plūsmu un rēķina rindu saskaņošanas procesam tiek konfigurēti cilnē **Kreditoru rēķinu izrakstīšanas automatizācija** lapā **Parādu kreditoriem parametri** (**Kreditori \> Iestatījumi \> Parādu kreditoriem parametri**).
 
 Rēķina rindas, kurām ir trīsvirzienu atbilstības ierobežojumi, kur saskaņotais ieejas plūsmas daudzums ir mazāks par daudzumu rēķinā, tiks iekļauts automatizētajā saskaņošanas procesā ar preču ieejas plūsmu.
 

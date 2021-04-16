@@ -2,7 +2,6 @@
 title: Kopējās izmaksas pret Transportēšanas pārvaldību
 description: Korporācija Microsoft Dynamics 365 Supply Chain Management nodrošina divus dažādus moduļus darbam ar transportēšanas, Transportēšanas pārvaldību (TMS) un Kopējām izmaksām. Šajā tēmā apkopota funkcionalitāte, kas šiem diviem moduļiem ir kopēja, un iezīmētas to atšķirības.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500722"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833861"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Kopējās izmaksas pret Transportēšanas pārvaldību
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management nodrošina divus dažādus moduļus darbam ar transportēšanu: **Transportēšanas pārvaldību** (TMS) un **Kopējām izmaksām**. Šajā tēmā apkopota funkcionalitāte, kas šiem diviem moduļiem ir kopēja, un iezīmētas to atšķirības. Šo informāciju iespējams izmantot, lai izlemtu, kurš modulis vislabāk atbilst jūsu uzņēmējdarbības praksei. Varat atrast, ka dažas uzņēmējdarbības prakses darbojas labāk ar TMS, turpretim citas darbojas vislabāk ar kopējām izmaksām. Pēc tam atkarībā no uzņēmējdarbības vajadzībām var izvēlēties izmantot tikai vienu moduli vai kombinēt šos divus moduļus.
 
@@ -158,15 +156,15 @@ Gan TMS, gan Kopējās izmaksas nodrošina funkcionalitāti preču saņemšanas 
 
 ### <a name="tms-receiving-by-container-features"></a>TMS saņemšana pēc konteinera īpatnībām
 
-TMS atbalsta ienākošos ASN, visus saņemšanas variantus caur noliktavas programmu un visas klienta saņemšanas metodes caur Supply Chain Management.
+TMS atbalsta ienākošos ASN, visus saņemšanas variantus caur Warehouse Management mobile programmu un visas klienta saņemšanas metodes caur Supply Chain Management.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Kopējo izmaksu saņemšana pēc konteinera īpatnībām
 
 Lai atbalstītu saņemšanu pēc konteinera, ar sūtījuma izmaksām tiek izveidoti pārvadāšanas konteinera ieraksti un tiek asociēti pirkšanas pasūtījumi ar noteiktu pārvadāšanas konteineru, izmantojot tā konteinera ID. Pēc tam pieskaitāmās izmaksas var piemērot šim pārvadāšanas konteineram un sadalīt tā, lai tās būtu saistītas ar atbilstošajiem pirkšanas pasūtījumiem.
 
-Konteinerus Kopējās izmaksās var saņemt, izmantojot jaunu ieejas plūsmas tipu, kas pazīstams kā *tranzīta preču saņemšana*, saņemšanas žurnālos vai izmantojot mobilās ierīces saņemšanu. Kad tiek izmantoti saņemšanas žurnāli, daudzumus var inicializēt no precēm tranzīta pasūtījumā vai oriģinālā pirkšanas pasūtījuma rindām konteinerā. Kopējās izmaksas nodrošina divus darba veidus saņemšanai no noliktavas programmas.
+Konteinerus Kopējās izmaksās var saņemt, izmantojot jaunu ieejas plūsmas tipu, kas pazīstams kā *tranzīta preču saņemšana*, saņemšanas žurnālos vai izmantojot mobilās ierīces saņemšanu. Kad tiek izmantoti saņemšanas žurnāli, daudzumus var inicializēt no precēm tranzīta pasūtījumā vai oriģinālā pirkšanas pasūtījuma rindām konteinerā. Kopējās izmaksas nodrošina divus darba veidus saņemšanai no Warehouse Management mobile programmas.
 
-Kopējās izmaksas nesniedz ASN preču elektroniskajai saņemšanai. Turklāt netiek atbalstītas noliktavas programmas plūsmas, kas apstrādā noslodzes saņemšanu, numura zīmes saņemšanu vai jauktu noliktavas vienības saņemšanu.
+Kopējās izmaksas nesniedz ASN preču elektroniskajai saņemšanai. Turklāt netiek atbalstītas Warehouse Management mobile programmas plūsmas, kas apstrādā noslodzes saņemšanu, numura zīmes saņemšanu vai jauktu noliktavas vienības saņemšanu.
 
 ## <a name="rate-shopping-by-vendor"></a>Novērtēt iepirkšanos pēc kreditora
 

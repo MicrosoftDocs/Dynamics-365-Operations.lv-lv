@@ -2,11 +2,9 @@
 title: Noliktavas darba problēmu novēršana
 description: Šajā tēmā ir aprakstīts, kā labot biežākās problēmas, kas var rasties, strādājot ar noliktavas darbu programmā Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237063"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837445"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Noliktavas darba problēmu novēršana
 
@@ -40,11 +38,11 @@ Numura zīmi nevar pārvietot, izmantojot **Kustības** izvēlnes elementu, ja s
 
 Šī problēma tiks labota ar izmaiņām, kas izvietotas [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687). Šīs izmaiņas padarīs **Sērijas numura** lauku neobligātu, ja ir atļautas tukšas ieejas plūsmas un tukšas izejas plūsmas.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Kad es apstrādāju kustības, es saņemu šādu kļūdas ziņojumu: "noliktavas īpašnieks %1 nav atļauts šajā procesā."
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Kad es apstrādāju kustības, es saņemu šādu kļūdas ziņojumu programmā Warehouse Management mobile: "Noliktavas īpašnieks %1 nav atļauts šajā procesā."
 
 ### <a name="issue-description"></a>Problēmas apraksts
 
-Kad tiek izmantota noliktavas programma, lai veiktu kustības, trūkst **Īpašnieka** izsekošanas dimensijas. Regulārs krājumu pārsūtīšanas žurnāls no Supply Chain Management klienta tiek rādīts, lai darbotos, kā paredzēts, un to var grāmatot tikai tad, ja ir ievadīta **Īpašnieka** dimensija.
+Kad tiek izmantota Warehouse Management mobile programma, lai veiktu kustības, trūkst **Īpašnieka** izsekošanas dimensijas. Regulārs krājumu pārsūtīšanas žurnāls no Supply Chain Management klienta tiek rādīts, lai darbotos, kā paredzēts, un to var grāmatot tikai tad, ja ir ievadīta **Īpašnieka** dimensija.
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 

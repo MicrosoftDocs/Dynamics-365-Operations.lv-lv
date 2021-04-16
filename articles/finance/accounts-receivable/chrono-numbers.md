@@ -2,11 +2,9 @@
 title: Dokumentu un kvīšu hronoloģiska numerācija
 description: Šajā tēmā skaidrots, kā iestatīt un izmantot hronoloģiskus numurus piemērojamiem dokumentiem un saistītajām kvītīm.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254529"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838865"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentu un kvīšu hronoloģiska numerācija
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Dažās valstīs pastāv juridiska prasība numurēt dokumentus un saistītās kvītis hronoloģiskā secībā. Hronoloģija ir jāatbalsta ar periodiem. Visiem skaitļiem, kas attiecas uz agrākiem periodiem, jābūt mazākiem par skaitļiem, kas pieder vēlākiem periodiem. Lai atbilstu šai prasībai, ir ieviesta hronoloģiska numerācijas funkcionalitāte. Šajā tēmā skaidrots, kā konfigurēt un izmantot hronoloģiskus numurus piemērojamiem dokumentiem un saistītajām kvītīm.
 

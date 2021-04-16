@@ -2,11 +2,9 @@
 title: Tiešsaistes finanšu konsolidācijas
 description: Šajā tēmā ir aprakstītas tiešsaistes finanšu konsolidācijas Virsgrāmatā.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: b25d52524d1b115a7513a73eafa1aef44e25562d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212305"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826766"
 ---
 # <a name="online-financial-consolidations"></a>Tiešsaistes finanšu konsolidācijas
 
@@ -94,7 +92,7 @@ Cilnē **Valūtas pārrēķināšana** varat noteikt juridisko personu kontu un 
 
 Lai iegūtu papildu informāciju par konsolidāciju un valūtas pārrēķiniem, skatiet šīs tēmas pamata tēmu [Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats](./financial-consolidations-currency-translation.md).
 
-Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu[Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
+Informāciju par scenārijiem, kuros varētu veidot konsolidētos finanšu pārskatus, skatiet sadaļu [Konsolidēto finanšu pārskatu veidošana](./generating-consolidated-financial-statements.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

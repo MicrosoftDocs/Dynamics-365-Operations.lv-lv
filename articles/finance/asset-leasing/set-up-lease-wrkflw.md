@@ -2,11 +2,9 @@
 title: Nomas apstiprinājuma darbplūsmu iestatīšana
 description: Tēmā ir izskaidrots, kā iestatīt apstiprināšanas darbplūsmu, kas tiks palaista, kad tiek izveidota jauna noma.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1eaa2f5cc191ec93c30f4f10a662a87e501a341d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d5416b3b24d5fbb3ac46afb3c672212d41d42d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249585"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827558"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Nomas apstiprinājuma darbplūsmu iestatīšana
 

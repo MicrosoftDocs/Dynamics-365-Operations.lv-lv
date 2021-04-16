@@ -2,11 +2,9 @@
 title: Darba sadale
 description: Šajā tēmā ir sniegta informācija par darba sadales funkcionalitāti. Šī funkcionalitāte ļauj sadalīt lielus darba pasūtījumus vairākos mazākos darba pasūtījumos, kurus pēc tam var piešķirt vairākiem noliktavas darbiniekiem. Tādējādi vienu un to pašu darbu var vienlaikus paņemt vairāki noliktavas darbinieki.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245086"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830766"
 ---
 # <a name="work-split"></a>Darba sadale
 
@@ -69,7 +67,7 @@ Pēc tam ieslēdziet līdzeli *Darba sadale*, kas ir norādīts tālāk norādī
 >
 > - Pašlaik darbu sadala cits lietotājs. Ja mēģināt atvērt sadalīšanas lapu darbam, ko jau ir sadalījis cits lietotājs, tiek parādīts šāds kļūdas ziņojums: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts. Pēc dažām minūtēm mēģiniet vēlreiz. Ja turpināt saņemt šādu paziņojumu, sazinieties ar vadītāju."
 
-Jauns darba aizturēšanas iemesls *Sadalīt darbu* norāda, kad darba ID atrodas sadalīšanas procesā. Tas ir redzams gan lapā **Sadalīt darbu** lapā, gan noliktavas programmā, ja lietotājs mēģina palaist darbu. Ja tiek izmantoti aizturēšanas iemesli, lauka nosaukums **Aizturēts kopums** no darba ID tiek mainīts uz **Aizturēts**.
+Jauns darba aizturēšanas iemesls *Sadalīt darbu* norāda, kad darba ID atrodas sadalīšanas procesā. Tas ir redzams gan lapā **Sadalīt darbu**, gan Warehouse Management mobile programmā, ja lietotājs mēģina palaist darbu. Ja tiek izmantoti aizturēšanas iemesli, lauka nosaukums **Aizturēts kopums** no darba ID tiek mainīts uz **Aizturēts**.
 
 ## <a name="initiate-a-work-split"></a>Sākt darba sadali
 
@@ -147,9 +145,9 @@ Lai pabeigtu darba sadali, ir jānoņem *Sadalīt darbu* aizturēšanas iemesls.
 
 Kad *Sadalīt darbu* aizturēšanas iemesls ir noņemts, darbu var palaist mobilajā ierīcē, ar nosacījumu, ka stāvoklis **Aizturēts** darba ID ir iestatīts uz *Nē*.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Lietotāja aizturēšana noliktavas programmā
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Kustības bloķēšana Warehouse Management mobile programmā
 
-Ja mēģināt izmantot noliktavas programmu, lai palaistu saņemšanas darbu darba ID, kas jau ir sadalīts, saņemsit šādu kļūdas ziņojumu: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts." Ja saņemat šo ziņojumu, atlasiet **Atcelt**. Pēc tam varat turpināt apstrādāt citu darbu.
+Ja mēģināt izmantot Warehouse Management mobile programmu, lai palaistu saņemšanas darbu darba ID, kas jau ir sadalīts, saņemsit šādu kļūdas ziņojumu: "Darbs ar ID \#\#\#\# pašlaik tiek sadalīts." Ja saņemat šo ziņojumu, atlasiet **Atcelt**. Pēc tam varat turpināt apstrādāt citu darbu.
 
 ## <a name="other-blocked-operations"></a>Citas aizturētās operācijas
 
