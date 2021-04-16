@@ -2,11 +2,9 @@
 title: Atgriešanas iemeslu kodu iestatīšana
 description: Iestatiet atgriešanas iemeslu kodu grupas.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 audience: Application User
@@ -17,47 +15,47 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: baf48076b31b5b465234167e001bf58b6427dc86
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470672"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835754"
 ---
-# <a name="set-up-return-reason-codes"></a><span data-ttu-id="fd4c6-103">Atgriešanas iemeslu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="fd4c6-103">Set up return reason codes</span></span>   
+# <a name="set-up-return-reason-codes"></a><span data-ttu-id="e016c-103">Atgriešanas iemeslu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="e016c-103">Set up return reason codes</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="set-up-return-reason-code-groups"></a><span data-ttu-id="fd4c6-104">Atgriešanas iemeslu kodu grupu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="fd4c6-104">Set up return reason code groups</span></span> 
+## <a name="set-up-return-reason-code-groups"></a><span data-ttu-id="e016c-104">Atgriešanas iemeslu kodu grupu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="e016c-104">Set up return reason code groups</span></span> 
 
-1.  <span data-ttu-id="fd4c6-105">Dodieties uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodu grupas**.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-105">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason code groups**.</span></span>
+1.  <span data-ttu-id="e016c-105">Dodieties uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodu grupas**.</span><span class="sxs-lookup"><span data-stu-id="e016c-105">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason code groups**.</span></span>
 
-2.  <span data-ttu-id="fd4c6-106">Atlasiet **Jauns**, lai izveidotu rindu jaunai atgriešanas iemeslu kodu grupai.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-106">Select **New** to create a line for a new return reason code group.</span></span>
+2.  <span data-ttu-id="e016c-106">Atlasiet **Jauns**, lai izveidotu rindu jaunai atgriešanas iemeslu kodu grupai.</span><span class="sxs-lookup"><span data-stu-id="e016c-106">Select **New** to create a line for a new return reason code group.</span></span>
 
-3.  <span data-ttu-id="fd4c6-107">Laukā **Atgriešanas iemeslu kodu grupa** ierakstiet šīs grupas identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-107">In the **Return reason code group** field, type an identifier for this group.</span></span>
+3.  <span data-ttu-id="e016c-107">Laukā **Atgriešanas iemeslu kodu grupa** ierakstiet šīs grupas identifikatoru.</span><span class="sxs-lookup"><span data-stu-id="e016c-107">In the **Return reason code group** field, type an identifier for this group.</span></span>
 
-4.  <span data-ttu-id="fd4c6-108">Laukā **Apraksts** ierakstiet īsu frāzi, lai paskaidrotu, kā šī grupa tiks lietota.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-108">In the **Description** field, type a brief phrase to explain how this group will be used.</span></span>
+4.  <span data-ttu-id="e016c-108">Laukā **Apraksts** ierakstiet īsu frāzi, lai paskaidrotu, kā šī grupa tiks lietota.</span><span class="sxs-lookup"><span data-stu-id="e016c-108">In the **Description** field, type a brief phrase to explain how this group will be used.</span></span>
 
-## <a name="set-up-return-reason-codes"></a><span data-ttu-id="fd4c6-109">Atgriešanas iemeslu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="fd4c6-109">Set up return reason codes</span></span> 
+## <a name="set-up-return-reason-codes"></a><span data-ttu-id="e016c-109">Atgriešanas iemeslu kodu iestatīšana</span><span class="sxs-lookup"><span data-stu-id="e016c-109">Set up return reason codes</span></span> 
 
-<span data-ttu-id="fd4c6-110">Šī procedūra palīdz izveidot atgriešanas iemeslu kodus, kurus var izmantot, lai norādītu, kāpēc debitors atgrieza preci.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-110">This procedure helps you set up return reason codes that you can use to indicate why a product was returned by the customer.</span></span>
+<span data-ttu-id="e016c-110">Šī procedūra palīdz izveidot atgriešanas iemeslu kodus, kurus var izmantot, lai norādītu, kāpēc debitors atgrieza preci.</span><span class="sxs-lookup"><span data-stu-id="e016c-110">This procedure helps you set up return reason codes that you can use to indicate why a product was returned by the customer.</span></span>
 
-1.  <span data-ttu-id="fd4c6-111">Dodieties uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodi**.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-111">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason codes**.</span></span>
+1.  <span data-ttu-id="e016c-111">Dodieties uz **Pārdošana un mārketings** \> **Iestatīšana** \> **Pārdošanas pasūtījumi** \> **Atgriešanas darbības** \> **Atgriešanas iemeslu kodi**.</span><span class="sxs-lookup"><span data-stu-id="e016c-111">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason codes**.</span></span>
 
-2.  <span data-ttu-id="fd4c6-112">Spiediet CTRL+N, lai izveidotu jaunu atgriešanas iemesla koda rindu.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-112">Press CTRL + N to create a new return reason code line.</span></span>
+2.  <span data-ttu-id="e016c-112">Spiediet CTRL+N, lai izveidotu jaunu atgriešanas iemesla koda rindu.</span><span class="sxs-lookup"><span data-stu-id="e016c-112">Press CTRL + N to create a new return reason code line.</span></span>
 
-3.  <span data-ttu-id="fd4c6-113">Laukā **Atgriešanas iemesla kods** ievadiet tekstu, lai identificētu šo kodu.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-113">In the **Return reason code** field, enter text to identify this code.</span></span>
+3.  <span data-ttu-id="e016c-113">Laukā **Atgriešanas iemesla kods** ievadiet tekstu, lai identificētu šo kodu.</span><span class="sxs-lookup"><span data-stu-id="e016c-113">In the **Return reason code** field, enter text to identify this code.</span></span>
 
-4.  <span data-ttu-id="fd4c6-114">Laukā **Apraksts** ievadiet tekstu, lai aprakstītu šo atgriešanas iemesla kodu.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-114">In the **Description** field, enter text to describe the return reason code.</span></span>
+4.  <span data-ttu-id="e016c-114">Laukā **Apraksts** ievadiet tekstu, lai aprakstītu šo atgriešanas iemesla kodu.</span><span class="sxs-lookup"><span data-stu-id="e016c-114">In the **Description** field, enter text to describe the return reason code.</span></span>
 
-5.  <span data-ttu-id="fd4c6-115">Izmantojiet nolaižamo sarakstu **Atgriešanas iemeslu kodu grupa**, lai šo kodu pievienotu atgriešanas iemeslu kodu grupai.</span><span class="sxs-lookup"><span data-stu-id="fd4c6-115">Use the **Return reason code group** drop-down list to add the code to a return reason code group.</span></span>
+5.  <span data-ttu-id="e016c-115">Izmantojiet nolaižamo sarakstu **Atgriešanas iemeslu kodu grupa**, lai šo kodu pievienotu atgriešanas iemeslu kodu grupai.</span><span class="sxs-lookup"><span data-stu-id="e016c-115">Use the **Return reason code group** drop-down list to add the code to a return reason code group.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="fd4c6-116">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="fd4c6-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e016c-116">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="e016c-116">See also</span></span>
 
-<span data-ttu-id="fd4c6-117">[Atgriešanas iemeslu kodu grupas (forma)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="fd4c6-117">[Return reason code groups (form)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span></span>
+<span data-ttu-id="e016c-117">[Atgriešanas iemeslu kodu grupas (forma)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e016c-117">[Return reason code groups (form)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span></span>
 
-<span data-ttu-id="fd4c6-118">[Atgriešanas iemeslu kodi (forma)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="fd4c6-118">[Return reason codes (form)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span></span>
+<span data-ttu-id="e016c-118">[Atgriešanas iemeslu kodi (forma)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e016c-118">[Return reason codes (form)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span></span>
 
  
 

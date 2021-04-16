@@ -2,11 +2,9 @@
 title: Pamatlīdzekļa sadalīšana
 description: Šajā tēmā paskaidrots, kā atdalīt procentuālu daļu no vienas pamatlīdzekļu grāmatas uz jaunu pamatlīdzekļu grāmatu.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
@@ -15,53 +13,53 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db601be192b57fbec220193d3c9fde1a4f50c085
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: aa21d5698275ff691ca83d29abd297a796b652d1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213512"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823912"
 ---
-# <a name="split-a-fixed-asset"></a><span data-ttu-id="d60af-103">Pamatlīdzekļa sadalīšana</span><span class="sxs-lookup"><span data-stu-id="d60af-103">Split a fixed asset</span></span>
+# <a name="split-a-fixed-asset"></a><span data-ttu-id="70045-103">Pamatlīdzekļa sadalīšana</span><span class="sxs-lookup"><span data-stu-id="70045-103">Split a fixed asset</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d60af-104">Šajā tēmā paskaidrots, kā atdalīt procentuālu daļu no vienas pamatlīdzekļu grāmatas uz jaunu pamatlīdzekļu grāmatu.</span><span class="sxs-lookup"><span data-stu-id="d60af-104">This topic explains how to split a percentage of one asset book to a new asset book.</span></span> <span data-ttu-id="d60af-105">Tas izmanto grāmatveža lomu un USMF demonstrācijas datus.</span><span class="sxs-lookup"><span data-stu-id="d60af-105">It uses the Accountant role and USMF demo data.</span></span>
+<span data-ttu-id="70045-104">Šajā tēmā paskaidrots, kā atdalīt procentuālu daļu no vienas pamatlīdzekļu grāmatas uz jaunu pamatlīdzekļu grāmatu.</span><span class="sxs-lookup"><span data-stu-id="70045-104">This topic explains how to split a percentage of one asset book to a new asset book.</span></span> <span data-ttu-id="70045-105">Tas izmanto grāmatveža lomu un USMF demonstrācijas datus.</span><span class="sxs-lookup"><span data-stu-id="70045-105">It uses the Accountant role and USMF demo data.</span></span>
 
-## <a name="create-a-new-fixed-asset"></a><span data-ttu-id="d60af-106">Izveidojiet jaunu pamatlīdzekli</span><span class="sxs-lookup"><span data-stu-id="d60af-106">Create a new fixed asset</span></span>
+## <a name="create-a-new-fixed-asset"></a><span data-ttu-id="70045-106">Izveidojiet jaunu pamatlīdzekli</span><span class="sxs-lookup"><span data-stu-id="70045-106">Create a new fixed asset</span></span>
 
-1. <span data-ttu-id="d60af-107">Navigācijas rūtī dodieties uz **Moduļi \> Pamatlīdzekļi \> Pamatlīdzekļi \> Pamatlīdzekļi**.</span><span class="sxs-lookup"><span data-stu-id="d60af-107">In the navigation pane, go to **Modules \> Fixed assets \> Fixed assets \> Fixed assets**.</span></span>
-2. <span data-ttu-id="d60af-108">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="d60af-108">Select **New**.</span></span>
-3. <span data-ttu-id="d60af-109">Ievadiet vai atlasiet vērtību laukā **Pamatlīdzekļa grupa**.</span><span class="sxs-lookup"><span data-stu-id="d60af-109">In the **Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="d60af-110">Ievērojiet pamatlīdzekļa numuru, kuru būs nepieciešams izmantot vēlāk sadalīšanas procesā.</span><span class="sxs-lookup"><span data-stu-id="d60af-110">Note the fixed asset number to use in the split process later.</span></span>
-4. <span data-ttu-id="d60af-111">Laukā **Nosaukums** ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="d60af-111">In the **Name** field, enter a value.</span></span>
-5. <span data-ttu-id="d60af-112">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="d60af-112">Close the form.</span></span>
+1. <span data-ttu-id="70045-107">Navigācijas rūtī dodieties uz **Moduļi \> Pamatlīdzekļi \> Pamatlīdzekļi \> Pamatlīdzekļi**.</span><span class="sxs-lookup"><span data-stu-id="70045-107">In the navigation pane, go to **Modules \> Fixed assets \> Fixed assets \> Fixed assets**.</span></span>
+2. <span data-ttu-id="70045-108">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="70045-108">Select **New**.</span></span>
+3. <span data-ttu-id="70045-109">Ievadiet vai atlasiet vērtību laukā **Pamatlīdzekļa grupa**.</span><span class="sxs-lookup"><span data-stu-id="70045-109">In the **Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="70045-110">Ievērojiet pamatlīdzekļa numuru, kuru būs nepieciešams izmantot vēlāk sadalīšanas procesā.</span><span class="sxs-lookup"><span data-stu-id="70045-110">Note the fixed asset number to use in the split process later.</span></span>
+4. <span data-ttu-id="70045-111">Laukā **Nosaukums** ievadiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="70045-111">In the **Name** field, enter a value.</span></span>
+5. <span data-ttu-id="70045-112">Aizveriet formu.</span><span class="sxs-lookup"><span data-stu-id="70045-112">Close the form.</span></span>
 
-## <a name="split-a-fixed-asset"></a><span data-ttu-id="d60af-113">Pamatlīdzekļa sadalīšana</span><span class="sxs-lookup"><span data-stu-id="d60af-113">Split a fixed asset</span></span>
+## <a name="split-a-fixed-asset"></a><span data-ttu-id="70045-113">Pamatlīdzekļa sadalīšana</span><span class="sxs-lookup"><span data-stu-id="70045-113">Split a fixed asset</span></span>
 
-<span data-ttu-id="d60af-114">Pirms pilnībā nolietotā līdzekļa sadalīšanas, līdzekļa grāmatas statuss ir manuāli jāmaina no **Slēgts** uz **Atvērts**.</span><span class="sxs-lookup"><span data-stu-id="d60af-114">Before a fully depreciated asset is split, the asset book status should be manually changed from **Closed** to **Open**.</span></span> <span data-ttu-id="d60af-115">Šī darbība ir nepieciešama, jo grāmatas statusam jābūt **Atvērts**, ja ir jāgrāmato līdzekļu darbības (piemēram, izslēgšanas pārdošanai).</span><span class="sxs-lookup"><span data-stu-id="d60af-115">This step is required because the book status has to be **Open** if you must post transactions for the asset (for example, for a disposal sale).</span></span> <span data-ttu-id="d60af-116">Ir jāieslēdz arī parametrs **Vairāku darījumu atļaušana vienā dokumentā** lapas **Virsgrāmatas parametri** cilnē **Vispārīgi**.</span><span class="sxs-lookup"><span data-stu-id="d60af-116">You must also turn on the **Allow multiple transactions within one voucher** parameter on the **General** tab of the **General ledger parameters** page.</span></span> <span data-ttu-id="d60af-117">Pēc tam, kad līdzekļu grāmatošanas statuss ir mainīts un ir atļauti vairāki darījumi vienā dokumentā, veiciet tālāk norādītās darbības, lai sadalītu līdzekli.</span><span class="sxs-lookup"><span data-stu-id="d60af-117">After the asset book status is changed and multiple transactions within one voucher have been allowed, complete the following steps to split the asset.</span></span>
+<span data-ttu-id="70045-114">Pirms pilnībā nolietotā līdzekļa sadalīšanas, līdzekļa grāmatas statuss ir manuāli jāmaina no **Slēgts** uz **Atvērts**.</span><span class="sxs-lookup"><span data-stu-id="70045-114">Before a fully depreciated asset is split, the asset book status should be manually changed from **Closed** to **Open**.</span></span> <span data-ttu-id="70045-115">Šī darbība ir nepieciešama, jo grāmatas statusam jābūt **Atvērts**, ja ir jāgrāmato līdzekļu darbības (piemēram, izslēgšanas pārdošanai).</span><span class="sxs-lookup"><span data-stu-id="70045-115">This step is required because the book status has to be **Open** if you must post transactions for the asset (for example, for a disposal sale).</span></span> <span data-ttu-id="70045-116">Ir jāieslēdz arī parametrs **Vairāku darījumu atļaušana vienā dokumentā** lapas **Virsgrāmatas parametri** cilnē **Vispārīgi**.</span><span class="sxs-lookup"><span data-stu-id="70045-116">You must also turn on the **Allow multiple transactions within one voucher** parameter on the **General** tab of the **General ledger parameters** page.</span></span> <span data-ttu-id="70045-117">Pēc tam, kad līdzekļu grāmatošanas statuss ir mainīts un ir atļauti vairāki darījumi vienā dokumentā, veiciet tālāk norādītās darbības, lai sadalītu līdzekli.</span><span class="sxs-lookup"><span data-stu-id="70045-117">After the asset book status is changed and multiple transactions within one voucher have been allowed, complete the following steps to split the asset.</span></span>
 
-1. <span data-ttu-id="d60af-118">Sarakstā atrodiet un atlasiet sadalāmā pamatlīdzekļa saiti.</span><span class="sxs-lookup"><span data-stu-id="d60af-118">In the list, find and select the link of the fixed asset to split.</span></span>
-2. <span data-ttu-id="d60af-119">Atlasiet **Grāmatas**.</span><span class="sxs-lookup"><span data-stu-id="d60af-119">Select **Books**.</span></span> <span data-ttu-id="d60af-120">Atlasiet grāmatu, kuru nodalīt jaunajam pamatlīdzeklim.</span><span class="sxs-lookup"><span data-stu-id="d60af-120">Select the book to split to the new asset.</span></span>
-3. <span data-ttu-id="d60af-121">Atlasiet **Funkcijas**.</span><span class="sxs-lookup"><span data-stu-id="d60af-121">Select **Functions**.</span></span>
-4. <span data-ttu-id="d60af-122">Atlasiet **Pamatlīdzekļa sadalīšana**.</span><span class="sxs-lookup"><span data-stu-id="d60af-122">Select **Split fixed asset**.</span></span>
-5. <span data-ttu-id="d60af-123">Laukā **Uz pamatlīdzekli**, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d60af-123">In the **To fixed asset** field, enter or select a value.</span></span>
-6. <span data-ttu-id="d60af-124">Laukā **Uz grāmatu** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="d60af-124">In the **To book** field, select the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="d60af-125">Ievadiet datumu laukā **Transakcijas datums**.</span><span class="sxs-lookup"><span data-stu-id="d60af-125">In the **Transaction date** field, enter a date.</span></span>
-8. <span data-ttu-id="d60af-126">Ievadiet skaitli laukā **Procenti**.</span><span class="sxs-lookup"><span data-stu-id="d60af-126">In the **Percent** field, enter a number.</span></span>
-9. <span data-ttu-id="d60af-127">Laukā **Žurnāla nosaukums**, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d60af-127">In the **Journal name** field, enter or select a value.</span></span>
-10. <span data-ttu-id="d60af-128">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="d60af-128">Select **OK**.</span></span>
+1. <span data-ttu-id="70045-118">Sarakstā atrodiet un atlasiet sadalāmā pamatlīdzekļa saiti.</span><span class="sxs-lookup"><span data-stu-id="70045-118">In the list, find and select the link of the fixed asset to split.</span></span>
+2. <span data-ttu-id="70045-119">Atlasiet **Grāmatas**.</span><span class="sxs-lookup"><span data-stu-id="70045-119">Select **Books**.</span></span> <span data-ttu-id="70045-120">Atlasiet grāmatu, kuru nodalīt jaunajam pamatlīdzeklim.</span><span class="sxs-lookup"><span data-stu-id="70045-120">Select the book to split to the new asset.</span></span>
+3. <span data-ttu-id="70045-121">Atlasiet **Funkcijas**.</span><span class="sxs-lookup"><span data-stu-id="70045-121">Select **Functions**.</span></span>
+4. <span data-ttu-id="70045-122">Atlasiet **Pamatlīdzekļa sadalīšana**.</span><span class="sxs-lookup"><span data-stu-id="70045-122">Select **Split fixed asset**.</span></span>
+5. <span data-ttu-id="70045-123">Laukā **Uz pamatlīdzekli**, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="70045-123">In the **To fixed asset** field, enter or select a value.</span></span>
+6. <span data-ttu-id="70045-124">Laukā **Uz grāmatu** atlasiet nolaižamā saraksta pogu, lai atvērtu uzmeklēšanu.</span><span class="sxs-lookup"><span data-stu-id="70045-124">In the **To book** field, select the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="70045-125">Ievadiet datumu laukā **Transakcijas datums**.</span><span class="sxs-lookup"><span data-stu-id="70045-125">In the **Transaction date** field, enter a date.</span></span>
+8. <span data-ttu-id="70045-126">Ievadiet skaitli laukā **Procenti**.</span><span class="sxs-lookup"><span data-stu-id="70045-126">In the **Percent** field, enter a number.</span></span>
+9. <span data-ttu-id="70045-127">Laukā **Žurnāla nosaukums**, ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="70045-127">In the **Journal name** field, enter or select a value.</span></span>
+10. <span data-ttu-id="70045-128">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="70045-128">Select **OK**.</span></span>
 
-## <a name="post-the-journal-transaction"></a><span data-ttu-id="d60af-129">Žurnāla transakcijas grāmatošana</span><span class="sxs-lookup"><span data-stu-id="d60af-129">Post the journal transaction</span></span>
+## <a name="post-the-journal-transaction"></a><span data-ttu-id="70045-129">Žurnāla transakcijas grāmatošana</span><span class="sxs-lookup"><span data-stu-id="70045-129">Post the journal transaction</span></span>
 
-1. <span data-ttu-id="d60af-130">Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Pamatlīdzekļi \> Žurnāla ieraksti \> Pamatlīdzekļu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="d60af-130">In the navigation pane, go to **Modules \> Fixed assets \> Journal entries \> Fixed assets journal**.</span></span>
-2. <span data-ttu-id="d60af-131">Sarakstā atlasiet žurnālu, kas izveidots sadalīšanas procesā.</span><span class="sxs-lookup"><span data-stu-id="d60af-131">In the list, select the journal created with the split process.</span></span>
-3. <span data-ttu-id="d60af-132">Atlasiet **Rindas**.</span><span class="sxs-lookup"><span data-stu-id="d60af-132">Select **Lines**.</span></span>
+1. <span data-ttu-id="70045-130">Navigācijas rūtī pārejiet uz sadaļu **Moduļi \> Pamatlīdzekļi \> Žurnāla ieraksti \> Pamatlīdzekļu žurnāls**.</span><span class="sxs-lookup"><span data-stu-id="70045-130">In the navigation pane, go to **Modules \> Fixed assets \> Journal entries \> Fixed assets journal**.</span></span>
+2. <span data-ttu-id="70045-131">Sarakstā atlasiet žurnālu, kas izveidots sadalīšanas procesā.</span><span class="sxs-lookup"><span data-stu-id="70045-131">In the list, select the journal created with the split process.</span></span>
+3. <span data-ttu-id="70045-132">Atlasiet **Rindas**.</span><span class="sxs-lookup"><span data-stu-id="70045-132">Select **Lines**.</span></span>
 
-    - <span data-ttu-id="d60af-133">Pārbaudiet izveidotās žurnāla rindas.</span><span class="sxs-lookup"><span data-stu-id="d60af-133">Verify the journal lines created.</span></span>
-    - <span data-ttu-id="d60af-134">Oriģinālajam aktīvam izveidota Iegādes pielāgošanas transakcija, lai samazinātu vērtību par sadalīšanas procesā norādīto procentuālo daļu.</span><span class="sxs-lookup"><span data-stu-id="d60af-134">An Acquisition adjustment transaction is created for the original asset to decrease the value by the percentage specified during the split process.</span></span>
-    - <span data-ttu-id="d60af-135">Jaunajam aktīvam tiek izveidota Iegādes transakcija par tādu pašu summu.</span><span class="sxs-lookup"><span data-stu-id="d60af-135">An Acquisition transaction is created for the new asset for the same amount.</span></span>
+    - <span data-ttu-id="70045-133">Pārbaudiet izveidotās žurnāla rindas.</span><span class="sxs-lookup"><span data-stu-id="70045-133">Verify the journal lines created.</span></span>
+    - <span data-ttu-id="70045-134">Oriģinālajam aktīvam izveidota Iegādes pielāgošanas transakcija, lai samazinātu vērtību par sadalīšanas procesā norādīto procentuālo daļu.</span><span class="sxs-lookup"><span data-stu-id="70045-134">An Acquisition adjustment transaction is created for the original asset to decrease the value by the percentage specified during the split process.</span></span>
+    - <span data-ttu-id="70045-135">Jaunajam aktīvam tiek izveidota Iegādes transakcija par tādu pašu summu.</span><span class="sxs-lookup"><span data-stu-id="70045-135">An Acquisition transaction is created for the new asset for the same amount.</span></span>
 
-4. <span data-ttu-id="d60af-136">Atlasiet **Grāmatot**.</span><span class="sxs-lookup"><span data-stu-id="d60af-136">Select **Post**.</span></span>
+4. <span data-ttu-id="70045-136">Atlasiet **Grāmatot**.</span><span class="sxs-lookup"><span data-stu-id="70045-136">Select **Post**.</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
