@@ -2,11 +2,9 @@
 title: Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
 description: Šajā rakstā ir aprakstīta debitoru rēķinu segšanas maksājumu ietekme. Scenārija aprakstā galvenā uzmanība pievērsta izmaiņām, kas rodas apakšgrāmatā, nevis virsgrāmatā.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250558"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835151"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
 
@@ -48,9 +46,9 @@ Arnis debitoram 4027 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 2
 
 Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Ja nemainīsit vērtību **Nosedzamā summa** uz 297,00, parādītās vērtības **Termiņatlaides summa** būs atšķirīgas. Tomēr, grāmatojot maksājumu, 3,00 tiks apstrādāti kā termiņatlaide, jo nosegšana automātiski pielāgos vērtību **Nosedzamā summa**.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
-| Termiņatlaides datums           | 09.07.2015 |
+| Termiņatlaides datums           | 09.07.2015. |
 | Termiņatlaides summa         | 10,00     |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
@@ -71,12 +69,12 @@ Atlikušo rēķinu klients 4027 apmaksā 11. jūlijā, kas ir pēc termiņatlaid
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Atlasīts | Parastais            | FTI-10020 | 4027    | 25.06.2015. | 25.07.2015. | 10020   | 700,00                               | USD      | 700,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 09.07.2015. |
-| Termiņatlaides summa         | 0,00      |
+| Termiņatlaides summa         | 0.00      |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 3,00      |
 | Ņemamā termiņatlaides summa | 0,00      |
@@ -87,12 +85,12 @@ Ja Arnijs maina vērtību laukā **Izmantot termiņatlaidi** uz **Vienmēr**, ie
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
 | Atlasīts | Vienmēr            | FTI-10020 | 4027    | 25.06.2015. | 25.07.2015. | 10020   | 700,00                               |                                       | USD      | 693,00           |
 
-Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
+Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 09.07.2015. |
-| Termiņatlaides summa         | 7,00      |
+| Termiņatlaides summa         | 7.00      |
 | Izmantot termiņatlaidi            | Vienmēr    |
 | Paņemta termiņatlaides summa          | 3,00      |
 | Ņemamā termiņatlaides summa | 7,00      |
