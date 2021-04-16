@@ -2,11 +2,9 @@
 title: Nomu pārvaldība, izmantojot nomas importēšanas struktūru
 description: Šajā tēmā skaidrots, kā izmantot nomas importēšanas struktūru, lai vienlaicīgi koriģētu vairākas nomas.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 90727e8624c8edb7cd9458089dd9d6dfaad67a7f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207235"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819798"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Nomu pārvaldība, izmantojot nomas importēšanas struktūru
 
@@ -46,7 +44,7 @@ Sistēma var izpildīt trīs tālāk minētos procesus, izmantojot nomas import�
 | Labot ierakstu | Migrētās nomas, kurām ir šī procesa tipa atjaunināšanas lauka vērtības nomai, kas jau ir sistēmā. Tiek atjaunināti tikai tie lauki, kas ir atlasīti lapā **Atjaunināt lauku atlasi**. Mēs iesakām atlasīt nefinanšu laukus lapā **Atjaunināt lauku atlasi**, jo šis procesa tips nepielāgo nomu. |
 | Koriģēt ierakstu | Migrētās nomas, kurām ir šis procesa tips, pielāgo nomu. Šī korekcija izraisa finanšu nomas modifikāciju. Pēc nomas apstrādāšanas sistēma izveido jaunu maksājumu grafiku, izmantojot jaunos datus no nomas importēšanas komplekta. Sistēma neapstiprina maksājuma grafiku u negrāmato korekcijas žurnāla ierakstu. |
 
-Pēc informācijas augšupielādes, izmantojot **Datu pārvaldības** darbvietu, atveriet **Virsraksta importēšanas** lapu ( **Līdzekļa noma \>Nomas importēšanas struktūra \> Virsraksta importēšana**). Šajā lapā uzskaitītas visas trīs datu entītijas, kas tika uzskaitītas iepriekš.
+Pēc informācijas augšupielādes, izmantojot **Datu pārvaldības** darbvietu, atveriet **Virsraksta importēšanas** lapu (**Līdzekļa noma \> Nomas importēšanas struktūra \> Virsraksta importēšana**). Šajā lapā uzskaitītas visas trīs datu entītijas, kas tika uzskaitītas iepriekš.
 
 Lai skatītu nomas sagatavošanas posmu datus pirms apstrādes palaišanas, atlasiet **Sagatavošanas posmu dati**.
 

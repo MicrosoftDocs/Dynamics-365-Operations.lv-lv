@@ -1,12 +1,10 @@
 ---
-title: Elektronisko rēķinu izrakstīšanas pievienojumprogrammas konfigurēšana Regulatory Configuration Services (RCS)
-description: Šajā tēmā skaidrots, kā konfigurēt Elektronisko rēķinu izrakstīšanas pievienojumprogrammu Dynamics 365 Regulatory Configuration Services (RCS).
+title: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
+description: Šajā tēmā skaidrots, kā konfigurēt Elektronisko rēķinu izrakstīšanu Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592626"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840248"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izrakstīšanas pievienojumprogrammas konfigurēšana Regulatory Configuration Services (RCS)
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Šajā tēmā sniegta informācija par Elektronisko rēķinu izrakstīšanas konfigurācijas iespējām Dynamics 365 Regulatory Configuration Services (RCS).
 
-Šajā tēmā sniegta informācija par Elektronisko rēķinu izrakstīšanas pievienojumprogrammas konfigurācijas iespējām Dynamics 365 Regulatory Configuration Services (RCS).
-
-Izmantojot konfigurācijas iespējas, Elektronisko rēķinu izrakstīšanas pievienojumprogramma palīdz jums izpildīt uzņēmējdarbības un regulēšanas prasības elektroniskajiem rēķiniem bez nepieciešamības veikt kodēšanu. Un scenārijos, kuros elektroniskie rēķini ir elektroniski jāapstiprina tīmekļa pakalpojumiem, konfigurācijas iespējas palīdz arī izpildīt pakalpojumu prasības ziņojumu apmaiņai ar tīmekļa pakalpojumiem, neveicot nekādu kodēšanu.
+Izmantojot konfigurācijas iespējas, Elektronisko rēķinu izrakstīšana palīdz jums izpildīt uzņēmējdarbības un regulēšanas prasības elektroniskajiem rēķiniem bez nepieciešamības veikt kodēšanu. Un scenārijos, kuros elektroniskie rēķini ir elektroniski jāapstiprina tīmekļa pakalpojumiem, konfigurācijas iespējas palīdz arī izpildīt pakalpojumu prasības ziņojumu apmaiņai ar tīmekļa pakalpojumiem, neveicot nekādu kodēšanu.
 
 ## <a name="electronic-reporting"></a>Elektroniskie pārskati
 
-Elektroniskie pārskati (EP) atbalsta Elektronisko rēķinu izrakstīšanas lietojumprogrammu.
+Elektroniskie pārskati (EP) atbalsta Elektronisko rēķinu izrakstīšanu.
 
-Datu modeļa kartēšana un formāti ir konfigurējami komponenti, kas tiek izveidoti un uzturēti ar ER un izmantoti Elektronisko rēķinu izrakstīšanas pievienojumprogrammā. ER formāta veidotājs ir rīks failu formātu izveidošanai un uzturēšanai. Tas tiek izmantots, lai konfigurētu elektronisko rēķinu izrakstīšanas funkcijas.
+Datu modeļa kartēšana un formāti ir konfigurējami komponenti, kas tiek izveidoti un uzturēti ar ER un izmantoti Elektronisko rēķinu izrakstīšanā. ER formāta veidotājs ir rīks failu formātu izveidošanai un uzturēšanai. Tas tiek izmantots, lai konfigurētu elektronisko rēķinu izrakstīšanas funkcijas.
 
 Papildinformāciju skatiet tēmā [Pārskats par elektronisko pārskatu (EP) veidošanu](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Elektroniskās rēķinu izveides funkcijas
 
-Elektronisko rēķinu izrakstīšanas funkcijas ir atbildīgas par elektronisko rēķinu ģenerēšanu, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu. Tās iekapsulē konfigurācijas noteikumus un izmanto tos, lai apstrādātu datus, ko Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management nosūta elektronisko rēķinu izrakstīšanas pievienojumprogrammai un elektroniskajiem rēķiniem.
+Elektronisko rēķinu izrakstīšanas funkcijas ir atbildīgas par elektronisko rēķinu ģenerēšanu, izmantojot Elektronisko rēķinu izrakstīšanu. Tās iekapsulē konfigurācijas noteikumus un izmanto tos, lai apstrādātu datus, ko Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management nosūta elektronisko rēķinu izrakstīšanai un elektroniskajiem rēķiniem.
 
 Funkcijas atbalsta arī scenārijus, kuros ir nepieciešama atbilstība failu formāta specifikācijām un izvade ir atsevišķs elektronisks fails. Vairākumā gadījumu failu formāta specifikācijas publicē nodokļu iestāde.
 
@@ -81,13 +77,13 @@ Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valst
 
 Elektronisko rēķinu izrakstīšanas funkcijas sastāv no šādām konfigurējamu komponentu grupām:
 
-- **Formāti** – formāti ļauj jums konfigurēt, kas elektronisko rēķinu izrakstīšanas pievienojumprogrammai ir jāizveido, kad elektroniskais dokuments kļūst par elektronisku rēķinu. Formāti ietver formāta konfigurāciju elektroniskajam rēķinam, kā arī failiem un ziņojumiem, kas tiek lietoti, lai iesniegtu pieprasījumus un saņemtu atbildes, kad nepieciešama komunikācija ar ārēju tīmekļa pakalpojumu.
-- **Darbības** – darbības ļauj konfigurēt, kā elektronisko rēķinu izrakstīšanas pievienojumprogramma ģenerē elektroniskā dokumenta pārveidošanu, ko Finance un Supply Chain Management instances iesniedza elektroniskajā rēķinā.
-- **Piemērojamības noteikumi** – piemērojamības noteikumi ļauj konfigurēt kontekstu, kuru elektronisko rēķinu izrakstīšanas pievienojumprogrammai ir jāapsver, lai apstrādātu elektronisko rēķinu izrakstīšanas līdzekli.
-- **Mainīgie** – mainīgie ļauj konfigurēt atbalstu konfigurācijas loģikas uzbūvei. Mainīgie var darboties kā vērtību ievade, lai veiktu noteiktu darbību. Alternatīvi tie var darboties kā vērtību apmaiņa starp Finance un Supply Chain Management instancēm un Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
-- **Elektronisko dokumentu modeļu kartēšana** – elektronisko dokumentu modeļa kartēšana ļauj konfigurēt EP modeļa kartēšanu. Modeļa kartēšana definē abstraktā rēķina datu kartēšanu, kas ir integrēta Elektronisko rēķinu pievienojumprogrammā, kad tiek iesniegti elektroniskie dokumenti.
+- **Formāti** – formāti ļauj jums konfigurēt, kas elektronisko rēķinu izrakstīšanai ir jāizveido, kad elektroniskais dokuments kļūst par elektronisku rēķinu. Formāti ietver formāta konfigurāciju elektroniskajam rēķinam, kā arī failiem un ziņojumiem, kas tiek lietoti, lai iesniegtu pieprasījumus un saņemtu atbildes, kad nepieciešama komunikācija ar ārēju tīmekļa pakalpojumu.
+- **Darbības** – darbības ļauj konfigurēt, kā elektronisko rēķinu izrakstīšana ģenerē elektroniskā dokumenta pārveidošanu, ko Finance un Supply Chain Management instances iesniedza elektroniskajā rēķinā.
+- **Piemērojamības noteikumi** – piemērojamības noteikumi ļauj konfigurēt kontekstu, kuru elektronisko rēķinu izrakstīšanai ir jāapsver, lai apstrādātu elektronisko rēķinu izrakstīšanas līdzekli.
+- **Mainīgie** – mainīgie ļauj konfigurēt atbalstu konfigurācijas loģikas uzbūvei. Mainīgie var darboties kā vērtību ievade, lai veiktu noteiktu darbību. Alternatīvi tie var darboties kā vērtību apmaiņa starp Finance un Supply Chain Management instancēm un Elektronisko rēķinu izrakstīšanu.
+- **Elektronisko dokumentu modeļu kartēšana** – elektronisko dokumentu modeļa kartēšana ļauj konfigurēt EP modeļa kartēšanu. Modeļa kartēšana definē abstraktā rēķina datu kartēšanu, kas ir integrēta Elektronisko rēķinu izrakstišanā, kad tiek iesniegti elektroniskie dokumenti.
 - **Rēķina konteksta modelis** - rēķina konteksta modelis ļauj konfigurēt EP rēķina konteksta modeli un definēt elektroniskās rēķinu izrakstīšanas funkcijas kontekstu.
-- **Atbilžu tipi** – atbilžu tipi ļauj jums konfigurēt, ko Elektronisko rēķinu izrakstīšanas pievienojumprogrammai jāatjaunina Finance un Supply Chain Management instancēs kā elektroniskā rēķina apstrādes rezultāts.
+- **Atbilžu tipi** – atbilžu tipi ļauj jums konfigurēt, ko Elektronisko rēķinu izrakstīšanai jāatjaunina Finance un Supply Chain Management instancēs kā elektroniskā rēķina apstrādes rezultāts.
 
 ### <a name="formats"></a>Formāti
 
@@ -237,7 +233,7 @@ Elektronisko rēķinu izrakstīšanas līdzekļa versijas seko dzīves ciklam, k
 
 - **Melnraksts** – ja funkcijas versija ir ar šo statusu, varat labot tās konfigurācijas atribūtus un jebkuru no tās artefaktiem (piemēram, faila formāta konfigurācijas).
 - **Pabeigts** - ja funkcijas versija ir ar šo statusu, tā ir publicēta Globālajā repozitorijā, kas ir saistīts ar jūsu organizāciju. Funkcijas versiju vai jebkuru no EP komponentiem vairs nevar rediģēt.
-- **Publicēts** - ja funkcijas versija ir ar šo statusu, tā ir publicēta Elektronisko rēķinu izrakstīšanas pievienojumprogrammā. Funkcijas versiju vai jebkuru no EP komponentiem vairs nevar rediģēt.
+- **Publicēts** - ja funkcijas versija ir ar šo statusu, tā ir publicēta Elektronisko rēķinu izrakstīšanā. Funkcijas versiju vai jebkuru no EP komponentiem vairs nevar rediģēt.
 
 ### <a name="feature-configurations"></a>Līdzekļa konfigurācijas
 
@@ -266,14 +262,14 @@ Izmantojot programmas iestatījumus, jūs varat konfigurēt daļu no elektronisk
 
 Pakalpojumā RCS izmantojiet komandu **Izvietot**, lai publicētu elektronisko rēķinu izrakstīšanas līdzekļa versiju. Atlasiet **Izvietot** un pēc tam atlasiet vienu no šīm opcijām, lai definētu izvietošanas mērķi: 
 
-- **Pakalpojuma vide** – kad izvietošanas mērķis ir pakalpojumu vide, elektroniskā rēķina līdzekļa versija tiek publicēta pakalpojuma vidē. Elektronisko rēķinu izrakstīšanas pievienojumprogramma ir gatava saņemt un apstrādāt elektroniskos dokumentus, ko sūta Finance un Supply Chain Management instances.
+- **Pakalpojuma vide** – kad izvietošanas mērķis ir pakalpojumu vide, elektroniskā rēķina līdzekļa versija tiek publicēta pakalpojuma vidē. Elektronisko rēķinu izrakstīšana ir gatava saņemt un apstrādāt elektroniskos dokumentus, ko sūta Finance un Supply Chain Management instances.
 - **Saistītā programma** - Kad izvietošanas mērķis ir saistītā programma, konfigurācija, ko nodrošina programmas iestatīšana, tiek rakstīta Finance un Supply Chain Management instancēs, kas iepriekš saistīta ar to.
 
 Tikai elektronisko rēķinu izrakstīšanas līdzekļu versijas ar statusu **Pabeigts** var izvietot pakalpojumu vidē vai savienotā programmā.
 
 ### <a name="removing-feature-versions"></a>Līdzekļa versiju noņemšana
 
-Pakalpojumā RCS izmantojiet komandu **Atcelt izvietošanu**, lai noņemtu noteiktu elektronisko rēķinu izrakstīšanas līdzekļa versiju no pakalpojumu vides Elektronisko rēķinu izrakstīšanas pievienojumprogrammā.
+Pakalpojumā RCS izmantojiet komandu **Atcelt izvietošanu**, lai noņemtu noteiktu elektronisko rēķinu izrakstīšanas līdzekļa versiju no pakalpojumu vides Elektronisko rēķinu izrakstīšanā.
 
 > [!IMPORTANT]
 > Komanda **Atcelt izvietošanu** darbojas tikai pakalpojumu vidēs. Tā nenoņem elektronisko rēķinu izrakstīšanas līdzekļu versijas no savienotajām pievienojumprogrammām.

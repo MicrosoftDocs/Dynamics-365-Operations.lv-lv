@@ -2,11 +2,9 @@
 title: Darba pasūtījumu izveidošana
 description: Šajā tēmā ir paskaidrots, kā izveidot darba pasūtījumus programmā Asset Management.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500578"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836738"
 ---
 # <a name="creating-work-orders"></a>Darba pasūtījumu izveidošana
 
@@ -62,16 +60,14 @@ Lai izveidotu darba pasūtījumus, kas ir balstīti uz uzturēšanas grafiku, se
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Grupēt darba pasūtījuma rindas, kas tiek automātiski izveidotas uzturēšanas plāna izpildes laikā
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Šī funkcija ļauj definēt noteikumus darba pasūtījumu rindu grupēšanai saskaņā ar vienu darba pasūtījumu, ja sistēma ir iestatīta darba pasūtījumu automātiskai ģenerēšanai, pamatojoties uz uzturēšanas plānu. Iepriekš automātiski izveidotie darba pasūtījumi var ietvert tikai vienu rindu. Tomēr tagad var grupēt darba pasūtījumus pēc, piemēram, pamatlīdzekļa, pamatlīdzekļa tipa vai funkcionālās atrašanās vietas. (Manuāli izveidotos darba pasūtījumus jau var grupēt šādā veidā, kā aprakstīts šīs tēmas iepriekšējā sadaļā.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Iespējot grupēšanu automātiski ģenerētiem darba pasūtījumiem
 
 Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
-- **Modulise:** *Līdzekļu pārvaldība*
-- **Līdzekļa nosaukums:** *(Priekšskatījums) Piemērot noteikumus darba pasūtījumu grupēšanai uzturēšanas plāna izpildes laikā*
+- **Modulis:** *Līdzekļu pārvaldība*
+- **Līdzekļa nosaukums:** *Piemērot noteikumus darba pasūtījumu grupēšanai uzturēšanas plāna izpildes laikā*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Iestatīt grupēšanu automātiski ģenerētiem darba pasūtījumiem
 

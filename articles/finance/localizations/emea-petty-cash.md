@@ -2,11 +2,9 @@
 title: Mazie kases posteņi Austrumeiropai un Krievijai
 description: Šajā tēmā ir sniegta informācija par mazo kases posteņu funkcionalitāti, kas lietotājiem Igaunijā, Lietuvā, Čehijā, Ungārijā, Latvijā, Polijā un Krievijā ļauj sistēmā atainot kases operācijas.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCashBalance, RCashCountStatementForm, RCashPosting, RCashRemainLimit, RCashReportJour_PL, RCashTable, RCashTableBalance, RCashTableCredLimit, RCashTableLastRevaluation, RCashTableTransactions, RCashTrans
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d6eaeb48184d30450a9da68b4f8419b1f3c77f6f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a721d5602fa7b569b56e85e1bd66a8e543a39a41
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231501"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832701"
 ---
 # <a name="petty-cash-for-eastern-europe-and-russia"></a>Mazie kases posteņi Austrumeiropai un Krievijai
 
@@ -78,8 +76,8 @@ Lai kādam kases kontam iestatītu kases bilances kontroles kārtulas, atlasiet 
 <td>Valūtas tips</td>
 <td>Atlasiet valūtas tipu no tālāk uzskaitītajiem.
 <ul>
-<li><strong>Uzskaites valūta</strong> — izmantot uzņēmuma pamata valūtas kodu.</li>
-<li><strong>Norādītā valūta</strong> — izmantot valūtas kodu, kas atšķiras no uzņēmuma pamata valūtas koda.</li>
+<li><strong>Uzskaites valūta</strong> — izmantot uzņēmuma pamata valūtas kodu.</li>
+<li><strong>Norādītā valūta</strong> — izmantot valūtas kodu, kas atšķiras no uzņēmuma pamata valūtas koda.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -90,17 +88,17 @@ Lai kādam kases kontam iestatītu kases bilances kontroles kārtulas, atlasiet 
 <td>Atlikuma limita veids</td>
 <td>Atlasiet vienu no tālāk aprakstītajām pieejamajām vērtībām.
 <ul>
-<li><strong>Maksimums</strong> — šim kases kontam kases atlikums nedrīkst pārsniegt summu <strong>Atlikuma limits</strong> (augstākā vērtība).</li>
-<li><strong>Minimums</strong> — šim kases kontam kases atlikums nedrīkst būt zemāks par summu <strong>Atlikuma limits</strong> (zemākā vērtība).</li>
+<li><strong>Maksimums</strong> — šim kases kontam kases atlikums nedrīkst pārsniegt summu <strong>Atlikuma limits</strong> (augstākā vērtība).</li>
+<li><strong>Minimums</strong> — šim kases kontam kases atlikums nedrīkst būt zemāks par summu <strong>Atlikuma limits</strong> (zemākā vērtība).</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pārbaudīt atlikuma limitu</td>
 <td>No nākamajām opcijām atlasiet, kas kases dokumentiem notiek apstiprināšanas procesa laikā, ja šim kases kontam tiek pārsniegta summa <strong>Atlikuma limits</strong>.
 <ul>
-<li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
-<li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Kases dokuments tiek ratificēts vai apstiprināts.</li>
-<li><strong>Kļūda</strong> — nedrīkst pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un kases dokuments netiek ratificēts vai apstiprināts.</li>
+<li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
+<li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Kases dokuments tiek ratificēts vai apstiprināts.</li>
+<li><strong>Kļūda</strong> — nedrīkst&#39;pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un kases dokuments netiek&#39;ratificēts vai apstiprināts.</li>
 </ul>
 Papildinformāciju par kases dokumentu apstiprināšanas procesu skatiet tālāk šīs tēmas sadaļā &quot;Kases transakciju apstiprināšana un grāmatošana&quot;.</td>
 </tr>
@@ -131,8 +129,8 @@ Kases grāmatošanas metodes definē grāmatojumus virsgrāmatā. Lai iestatītu
 <td>Derīgs</td>
 <td>Atlasiet, vai grāmatošanas metode attiecas uz konkrētu kases kontu vai uz visiem kases kontiem.
 <ul>
-<li><strong>Tabula</strong> — ja kases kontam pastāv kāda grāmatošanas metodes rinda, tad kases transakciju grāmatošanai tiek lietota šī rinda.</li>
-<li><strong>Visi</strong> — šim kases kontam nav grāmatošanas metodes rindas.</li>
+<li><strong>Tabula</strong> — ja kases kontam pastāv kāda grāmatošanas metodes rinda, tad kases transakciju grāmatošanai tiek lietota šī rinda.</li>
+<li><strong>Visi</strong> — šim kases kontam nav grāmatošanas metodes rindas.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -188,17 +186,17 @@ Lai iestatītu noklusējuma vērtības kases un bankas vadības parametriem mazo
 <td>Pārbaudīt operāciju limitu</td>
 <td>Norādiet, kas notiek, ja tiek pārsniegts operācijām ar kontrahentiem noteiktais limits.
 <ul>
-<li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
-<li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Šī operācija tiek grāmatota.</li>
-<li><strong>Kļūda</strong> — nedrīkst pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un operācija netiek grāmatota.</li>
+<li><strong>Pieņemt</strong> — limits var tikt pārsniegts.</li>
+<li><strong>Brīdinājums</strong> — limits var tikt pārsniegts, bet lietotājam tiek parādīts brīdinājuma ziņojums. Šī operācija tiek grāmatota.</li>
+<li><strong>Kļūda</strong> — nedrīkst&#39;pārsniegt ierobežojumu. Lietotājs saņem kļūdas ziņojumu, un operācija netiek&#39;grāmatota.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Pārbaudes metode</td>
 <td>Atlasiet pārbaudes metodi, kas tiek lietota, lai operācijām kontrolētu pārsniegšanas limitu summas.
 <ul>
-<li><strong>Operācija</strong> — pārbaude tiek veikta katrai transakcijai</li>
-<li><strong>Līgums</strong> — pārbaude tiek veikta katrai transakcijai, kam ir norādīts līgums ar kontrahentu.</li>
+<li><strong>Operācija</strong> — pārbaude tiek veikta katrai transakcijai</li>
+<li><strong>Līgums</strong> — pārbaude tiek veikta katrai transakcijai, kam ir norādīts līgums ar kontrahentu.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -255,8 +253,8 @@ Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases
 <td>Debetkarte</td>
 <td>Ievadiet kases dokumenta summu vienā no tālāk norādītajiem laukiem.
 <ul>
-<li><strong>Debets</strong> — izmantojiet šo lauku, lai reģistrētu kases ieņēmumus un kases ieņēmumu orderi.</li>
-<li><strong>Kredīts</strong> — izmantojiet šo lauku, lai reģistrētu kases izdevumus un kases izdevumu orderi.</li>
+<li><strong>Debets</strong> — izmantojiet šo lauku, lai reģistrētu kases ieņēmumus un kases ieņēmumu orderi.</li>
+<li><strong>Kredīts</strong> — izmantojiet šo lauku, lai reģistrētu kases izdevumus un kases izdevumu orderi.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -273,7 +271,7 @@ Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases
 </tr>
 <tr class="even">
 <td>Pasūtījuma numurs</td>
-<td>Ja šim kases kontam nav norādīta neviena cita numuru sērija, šis lauks tiek aizpildīts automātiski, pamatojoties uz parametros norādīto numuru sēriju. Ja nepieciešams, šajā lauka pasūtījuma numuru varat ievadīt manuāli. Lai nepieļautu kases dokumentu numerācijas nesakritības, tiek lietots šāds kontroles kritērijs: tāda kases dokumenta numurs, kura operācijas datums ir agrāks, nedrīkst būt lielāks par tāda kases dokumenta numuru, kura operācijas datums ir vēlāks. Ja šis kontroles kritērijs nav nepieciešams, tad kases un bankas vadības parametru sadaļā atzīmējiet izvēles rūtiņu <strong>Grāmatošana agrākā datumā</strong>.</td>
+<td>Ja šim kases kontam nav norādīta neviena cita numuru sērija, šis lauks tiek aizpildīts automātiski, pamatojoties uz parametros norādīto numuru sēriju. Ja nepieciešams, šajā lauka pasūtījuma numuru varat ievadīt manuāli. Lai nepieļautu kases dokumentu numerācijas nesakritības, tiek lietots šāds kontroles kritērijs: tāda kases dokumenta numurs, kura operācijas datums ir agrāks, nedrīkst&#39;būt lielāks par tāda kases dokumenta numuru, kura operācijas datums ir vēlāks. Ja šis kontroles kritērijs nav&#39;nepieciešams, tad kases un bankas vadības parametru sadaļā atzīmējiet izvēles rūtiņu <strong>Grāmatošana agrākā datumā</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Apstiprināšanas statuss</td>
@@ -283,9 +281,9 @@ Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases
 <td>Dokumenta tips</td>
 <td>Lauks cilnē <strong>Kases orderis</strong> tiek automātiski aizpildīts tālāk aprakstītajā veidā, pamatojoties uz summu, kuru ievadījāt šim kases dokumentam.
 <ul>
-<li><strong>Kases ieņēmumu orderis</strong> — šī vērtība tiek lietota, ja kases kontam summu ievadījāt laukā <strong>Debets</strong>.</li>
-<li><strong>Kases izdevumu orderis</strong> — šī vērtība tiek lietota, ja kases kontam summu ievadījāt laukā <strong>Kredīts</strong>.</li>
-<li><strong>Labojums</strong> — kases kontam ievadījāt negatīvu summu laukā <strong>Debets</strong> vai laukā <strong>Kredīts</strong>.</li>
+<li><strong>Kases ieņēmumu orderis</strong> — šī vērtība tiek lietota, ja kases kontam summu ievadījāt laukā <strong>Debets</strong>.</li>
+<li><strong>Kases izdevumu orderis</strong> — šī vērtība tiek lietota, ja kases kontam summu ievadījāt laukā <strong>Kredīts</strong>.</li>
+<li><strong>Labojums</strong> — kases kontam ievadījāt negatīvu summu laukā <strong>Debets</strong> vai laukā <strong>Kredīts</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -308,10 +306,10 @@ Lai izveidotu kases dokumentu, izmantojot orderu žurnālu, dodieties uz **Kases
 <td>Pārstāvja tips</td>
 <td>Šim laukam var būt tālāk aprakstītās vērtības.
 <ul>
-<li><strong>Nodarbinātais</strong> — uzmeklēšanas sadaļā <strong>Pārstāvis</strong> ir ietverts darbinieku saraksts, ja ir iestatīta lauka <strong>Korespondējošais konts</strong> vērtība <strong>Virsgrāmata</strong> vai <strong>Banka</strong>, vai kontrahenta kontaktpersonu saraksts, ja ir iestatīta lauka <strong>Korespondējošais konts</strong> vērtība <strong>Debitors</strong> vai <strong>Kreditors</strong>. Lai iestatītu pārstāvjus, dodieties uz <strong>Pamata</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Kontaktpersonas</strong> &gt; <strong>Kontaktpersona</strong>.</li>
-<li><strong>Cits</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar citiem debitoriem. Lai iestatītu saņēmējus, kas netiek rādīti tabulā <strong>Debitori</strong> vai <strong>Kreditori</strong>, pārejiet uz sadaļu uz <strong>Virsgrāmata</strong> &gt; <strong>Saņēmēji</strong>. Šis tips ir pieejams tikai Latvijai. (Ir jābūt iespējotai konfigurācijas atslēgai <strong>CSELatvia</strong>.)</li>
-<li><strong>Kreditors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar kreditoriem. Lai iestatītu kreditorus, dodieties uz <strong>Parādi kreditoriem</strong> &gt; <strong>Kreditori</strong>.</li>
-<li><strong>Debitors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar debitoriem. Lai iestatītu debitorus, dodieties uz <strong>Debitoru parādi</strong> &gt; <strong>Debitori</strong>.</li>
+<li><strong>Nodarbinātais</strong> — uzmeklēšanas sadaļā <strong>Pārstāvis</strong> ir ietverts darbinieku&#39;saraksts, ja ir iestatīta lauka <strong>Korespondējošais konts</strong> vērtība <strong>Virsgrāmata</strong> vai <strong>Banka</strong>, vai kontrahenta kontaktpersonu saraksts, ja ir iestatīta lauka <strong>Korespondējošais konts</strong> vērtība <strong>Debitors</strong> vai <strong>Kreditors</strong>. Lai iestatītu pārstāvjus, dodieties uz <strong>Pamata</strong> &gt; <strong>Iestatīšana</strong> &gt; <strong>Kontaktpersonas</strong> &gt; <strong>Kontaktpersona</strong>.</li>
+<li><strong>Cits</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar citiem debitoriem. Lai iestatītu saņēmējus, kas netiek&#39;rādīti tabulā <strong>Debitori</strong> vai <strong>Kreditori</strong> , pārejiet uz sadaļu uz <strong>Virsgrāmata</strong> &gt; <strong>Saņēmēji</strong>. Šis tips ir pieejams tikai Latvijai. (Ir jābūt iespējotai konfigurācijas atslēgai <strong>CSELatvia</strong>.)</li>
+<li><strong>Kreditors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar kreditoriem. Lai iestatītu kreditorus, dodieties uz <strong>Parādi kreditoriem</strong> &gt; <strong>Kreditori</strong>.</li>
+<li><strong>Debitors</strong> — uzmeklēšanā <strong>Pārstāvis</strong> ir saraksts ar debitoriem. Lai iestatītu debitorus, dodieties uz <strong>Debitoru parādi</strong> &gt; <strong>Debitori</strong>.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -394,8 +392,8 @@ Lai izveidotu kases transakciju, izmantojot virsgrāmatas žurnālu, dodieties u
 <td>Debetkarte</td>
 <td>Ievadiet kases dokumenta summu vienā no tālāk norādītajiem laukiem.
 <ul>
-<li><strong>Debets</strong> — izmantojiet šo lauku, lai reģistrētu kases ieņēmumus un kases ieņēmumu orderi.</li>
-<li><strong>Kredīts</strong> — izmantojiet šo lauku, lai reģistrētu kases izdevumus un kases izdevumu orderi.</li>
+<li><strong>Debets</strong> — izmantojiet šo lauku, lai reģistrētu kases ieņēmumus un kases ieņēmumu orderi.</li>
+<li><strong>Kredīts</strong> — izmantojiet šo lauku, lai reģistrētu kases izdevumus un kases izdevumu orderi.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -439,7 +437,7 @@ Tālāk norādītos uzdevumus var izpildīt šeit: **Kases un bankas vadība** &
 <tbody>
 <tr class="odd">
 <td>Pārbaudīt atlikuma limitu</td>
-<td>Pārbaudiet atlikumu atlasītajam kases kontam noteiktajā datumā un parādiet rezultātu informatīvā ziņojumā. Atlikuma aprēķina var skaitīt tikai apstiprinātās transakcijas. Netiek ņemtas vērā transakcijas, kas ir atzīmētas ar statusu <strong>Algām</strong>.</td>
+<td>Pārbaudiet atlikumu atlasītajam kases kontam noteiktajā datumā un parādiet rezultātu informatīvā ziņojumā. Atlikuma aprēķina var skaitīt tikai apstiprinātās transakcijas. Netiek&#39;ņemtas vērā transakcijas, kas ir atzīmētas ar statusu <strong>Algām</strong>.</td>
 </tr>
 <tr class="even">
 <td>Skaidras naudas atlikuma pārrēķins</td>
@@ -453,8 +451,8 @@ Tālāk norādītos uzdevumus var izpildīt šeit: **Kases un bankas vadība** &
 <td>Kase — Valūtas pārrēķins FIFO un LIFO (tikai Polijai)</td>
 <td>Aprēķiniet valūtas pārrēķinu pēc Polijas standartiem. Izmantojiet funkciju <strong>Filtrēt</strong> cilnē <strong>Iekļaujamie ieraksti</strong>, lai norādītu kases kontu, kuram izpildīt šo uzdevumu. Atzīmējiet izvēles rūtiņu <strong>Pārrēķins</strong>, lai izpildītu pilnu valūtas maiņas starpības pārrēķinu visiem atvērtajiem periodiem. Tālāk ir aprakstīts, kā notiek valūtas pārrēķināšana, ja tiek izmantota metode “pirmais iekšā, pirmais ārā” (first in, first out – FIFO) un metode “pēdējais iekšā, pirmais ārā” (last in, first out — LIFO).
 <ul>
-<li><strong>FIFO metode</strong> — sistēma meklē izdevumu transakciju, kurai ir agrāks transakcijas datums (mazāks kārtas numurs), un to nosedz ar ieejas plūsmas transakciju, kurai ir agrāks transakcijas datums (mazāks kārtas numurs).</li>
-<li><strong>LIFO metode</strong> — sistēma meklē izdevumu transakciju, kurai ir vēlāks transakcijas datums (lielāks kārtas numurs), un to nosedz ar ieejas plūsmas transakciju, kurai ir vēlāks transakcijas datums (lielāks kārtas numurs).</li>
+<li><strong>FIFO metode</strong> — sistēma meklē izdevumu transakciju, kurai ir agrāks transakcijas datums (mazāks kārtas numurs), un to nosedz ar ieejas plūsmas transakciju, kurai ir agrāks transakcijas datums (mazāks kārtas numurs).</li>
+<li><strong>LIFO metode</strong> — sistēma meklē izdevumu transakciju, kurai ir vēlāks transakcijas datums (lielāks kārtas numurs), un to nosedz ar ieejas plūsmas transakciju, kurai ir vēlāks transakcijas datums (lielāks kārtas numurs).</li>
 </ul>
 Nosegtā summa tiek rādīta laukā <strong>Nosegts valūtā</strong>, lapā <strong>Kases transakcija</strong>. Ja pastāv valūtas pārrēķina starpība, šī summa tiek rādīta laukā <strong>Valūtas pārrēķina summa</strong>, un tabulā <strong>Kases transakcija</strong> tiek ģenerēta transakcija ar dokumenta tipu <strong>Valūtas kursu starpība</strong>. Virsgrāmatas konti peļņas/zaudējumu transakcijām ir iestatīti tabulā <strong>Valūta</strong> (<strong>Peļņa no valūtas kursa svārstībām</strong> un <strong>Zaudējumi no valūtas kursa svārstībām</strong>).</td>
 </tr>

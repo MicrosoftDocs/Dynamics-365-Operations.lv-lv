@@ -2,11 +2,9 @@
 title: Krājuma konsolidācija – novietojuma izmantojums
 description: Šajā tēmā ir sniegta informācija par funkcionalitāti, kas noliktavu pārvaldniekiem atvieglo iespēju skatīt un filtrēt noliktavas novietojumu tilpuma izmantojumu. Pārvaldnieki var atlasīt novietojumus un izveidot krājumu pārvietošanas darbu tieši no lapas Krājuma konsolidācija, lai konsolidētu krājumus, un tādējādi labāk izmantotu noliktavas telpu.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835579"
 ---
 # <a name="item-consolidation---location-utilization"></a>Krājuma konsolidācija – novietojuma izmantojums
 
@@ -147,9 +145,9 @@ Līdzeklis *Noliktavas novietojuma statuss* pievieno četrus jaunus laukus lapai
 
 1. Atlasiet **Saglabāt**.
 
-## <a name="example-scenario"></a>Piemēra situācija
+## <a name="example-scenario"></a>Piemērs
 
-Šajā scenārijā tiek izmantota noliktavas programma mobilajā ierīcē, lai veiktu krājumu *ienākošo korekciju* diviem noliktavas novietojumiem.
+Šajā scenārijā tiek izmantota Warehouse Management mobile programma, lai veiktu krājumu *korekciju* diviem noliktavas novietojumiem.
 
 ### <a name="add-inventory-to-locations"></a>Krājumu pievienošana novietojumiem
 

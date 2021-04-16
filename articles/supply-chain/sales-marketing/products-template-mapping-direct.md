@@ -2,11 +2,9 @@
 title: Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
 description: Šajā tēmā ir aprakstītas veidnes un pamata uzdevumi, kas tiek izmantoti programmā Dynamics 365 Supply Chain Management ietverto preču sinhronizēšanai ar programmu Dynamics 365 Sales.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f5e91d4dac8ea6d19fa32abca4e9ff73c7cd4a88
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 29bb9d05aa939ec82595e153faf03f290e219589
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234997"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817825"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Programmā Supply Chain Management esošo produktu tieša sinhronizēšana ar produktiem programmā Sales
 
@@ -53,13 +51,13 @@ Tālāk norādītā veidne un pamata uzdevumi tiek izmantoti programmā Supply C
 
 Lai varētu veikt preču sinhronizāciju, nav nepieciešams neviens sinhronizācijas uzdevums.
 
-## <a name="entity-set"></a>Elementu kopa
+## <a name="entity-set"></a>Entītiju kopa
 
 | Supply Chain Management    | Pārdošana    |
 |----------------------------|----------|
 | Pārdodamas izlaistās preces | Preces |
 
-## <a name="entity-flow"></a>Elementu plūsma
+## <a name="entity-flow"></a>Entītiju plūsma
 
 Preces tiek pārvaldītas programmā Supply Chain Management un tiek sinhronizēti ar programmu Sales. Datu elements **Pārdodamas izlaistās preces** programmā Supply Chain Management nodrošina tikai *pārdodamo* preču eksportēšanu. Pārdodamās preces ir preces, par kurām ir pieejama informācija, kas ir nepieciešama, lai tās varētu izmantot pārdošanas pasūtījumā. Tie paši noteikumi attiecas uz preces validāciju, izmantojot funkciju **Validēt** lapā **Izlaistā prece**.
 

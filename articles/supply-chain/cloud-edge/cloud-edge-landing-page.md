@@ -2,11 +2,9 @@
 title: Mākoņa un malas mēroga vienības ražošanas un noliktavu pārvaldības darba slodzēm
 description: Šajā tēmā ir sniegta informācija par mākoņa un malas mēroga vienībām ražošanas un noliktavas pārvaldības darba slodzēm.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240441"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836714"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Mākoņa un malas mēroga vienības ražošanas un noliktavu pārvaldības darba slodzēm
 
@@ -124,10 +122,10 @@ Plašāku informāciju skatiet [ražošanas mēroga vienības darba slodzes info
 Noliktavas vadībai, mākoņa un malas mēroga vienībām sniedz šādas iespējas pat tad, ja malas vienības nav saistītas ar mākoni:
 
 - Atlasīto kopuma metožu apstrāde ir aktivizēta pārdošanas pasūtījumiem un pieprasījuma papildināšanai.
-- Noliktavas darbinieki var palaist pārdošanas un pieprasījuma papildināšanas noliktavas darbu, izmantojot noliktavas programmu.
-- Noliktavas darbinieki var uzzināt par rīcībā esošajiem krājumiem, izmantojot noliktavas programmu.
-- Noliktavas darbinieki var izveidot un palaist krājumu kustības, izmantojot noliktavas programmu.
-- Noliktavas darbinieki var reģistrēt pirkšanas pasūtījumus un veikt atlikšanu, izmantojot noliktavas lietojumprogrammu.
+- Noliktavas darbinieki var palaist pārdošanas un pieprasījuma papildināšanas noliktavas darbu, izmantojot Warehouse Management mobile programmu.
+- Noliktavas darbinieki var uzzināt par rīcībā esošajiem krājumiem, izmantojot Warehouse Management mobile programmu.
+- Noliktavas darbinieki var izveidot un palaist krājumu kustības, izmantojot Warehouse Management mobile programmu.
+- Noliktavas darbinieki var reģistrēt pirkšanas pasūtījumus un veikt atlikšanu, izmantojot Warehouse Management mobile programmu.
 
 Plašāku informāciju skatiet [noliktavas mēroga vienības darba slodzes informācijā](cloud-edge-workload-warehousing.md).
 

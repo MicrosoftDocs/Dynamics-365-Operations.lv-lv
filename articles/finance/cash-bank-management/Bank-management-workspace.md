@@ -2,11 +2,9 @@
 title: Bankas pārvaldības darbvieta
 description: Šajā tēmā ir sniegta informācija par darbvietu Banku vadība. Šajā darbvietā tiek rādīta informācija, kas ir saistīta ar uzņēmuma bankas kontiem, un tajā ir ietverts skats Kopsavilkums un lapa Analīze. Skatā Kopsavilkums tiek rādīti kopsavilkuma elementi, bankas konta informācija, bilances diagramma un saistītā informācija. Analītikas lapā tiek izmantotas Microsoft Power BI iespējas, lai rādītu vizuālos elementus, kuri ir saistīti ar bankas konta bilanci.
 author: saraschi2
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3c5d248c5431b7a54835c699618a0a27ab760754
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 262b871a7c35d01283386af6454bb2852197e3b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260211"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818828"
 ---
 # <a name="bank-management-workspace"></a>Bankas pārvaldības darbvieta
 

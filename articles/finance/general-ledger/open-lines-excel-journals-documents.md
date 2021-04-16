@@ -2,11 +2,9 @@
 title: Žurnālu rindu un dokumentu publicēšana programmā Excel
 description: Šajā tēmā ir paskaidrots, kā ievadīt un publicēt Virsgrāmatas žurnālu rindas programmā Microsoft Excel. Tajā ir ietverta informācija par dažādajām veidnēm, ko varat izmantot atkarībā no ievadītās transakcijas veida.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f87ce1dcbae779f875abcbffd1781bbf076b1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230254"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834480"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Žurnālu rindu un dokumentu publicēšana programmā Excel
 
@@ -32,15 +30,14 @@ ms.locfileid: "5230254"
 
 Lietotāji var ievadīt un publicēt finanšu žurnālu rindas programmā Microsoft Excel. Pēc tam, kad lietotājs ir izveidojis žurnālu, izmantojot pogu **Atvērt rindas programmā Excel**, var skatīt pieejamās veidnes. Veidnes ir izstrādātas noteiktiem scenārijiem, taču žurnālā netiek atbalstītas visas konta veidu kombinācijas. Tālāk esošajā tabulā ir redzamas pieejamās veidnes un to atbalstītie kontu veidi.
 
-|                          |                                                                                                                         |                                                                                         |
+| Veidne             | Atbalstītie kontu veidi | Piekļuve veidnei                                                          |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Veidne**             | **Atbalstītie kontu veidi**                                                                                             | **Piekļuve veidnei**                                                          |
 | Virsgrāmatas žurnāla rindas     | Konts: Virsgrāmata, Debitors, Kreditors, Banka Korespondējošais konts: Virsgrāmata, Debitors, Kreditors, Banka Tiek atbalstīti starpuzņēmumu konti       | Virsgrāmatas žurnāls                                                                         |
 | Rēķinu reģistrs         | Konts: Kreditors Korespondējošais konts: Virsgrāmata Starpuzņēmumu konti netiek atbalstīti                                                    | Parādu kreditoriem rēķinu reģistrs                                                                     |
 | Rēķinu žurnāls          | Konti: Kreditors Korespondējošais konts: Virsgrāmata Tiek atbalstīti starpuzņēmumu konti                                                      | Kreditora rēķinu žurnāls                                                                      |
 | Kreditora rēķins           |                                                                                                                         | Kreditora rēķins                                                                          |
 | Debitoru rēķinu žurnāls | Konts: Debitors Korespondējošais konts: Virsgrāmata Tiek atbalstīti starpuzņēmumu konti                                                     | Virsgrāmatas žurnāls                                                                         |
-| Brīva teksta rēķins        |                                                                                                                         | Lapā **Brīva teksta rēķins** noklikšķiniet uz **Atvērt programmā Excel** (Microsoft Office ikona). |
+| Brīva teksta rēķins        |                                                                                                                         | Lapā **Brīva teksta rēķins** noklikšķiniet uz **Atvērt programmā Excel** ( Microsoft Office ikona). |
 | Pamatlīdzekļu žurnāls     | Virsgrāmatas, bankas, debitora vai kreditora līdzeklis. Starpuzņēmumu konti netiek atbalstīti.                                               | Pamatlīdzekļu žurnāls                                                                     |
 | Kreditoru maksājumu žurnāls   | Konts: Kreditors Korespondējošais konts: Virsgrāmata, banka Tiek atbalstīti starpuzņēmumu konti                                                 | Kreditoru maksājumu žurnāls                                                                  |
 | Debitoru maksājumu žurnāls | Konts: Debitors Korespondējošais konts: Virsgrāmata, Banka Tiek atbalstīti starpuzņēmumu konti                                               | Debitoru maksājumu žurnāls                                                                |

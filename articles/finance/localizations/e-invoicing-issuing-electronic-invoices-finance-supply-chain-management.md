@@ -1,12 +1,10 @@
 ---
 title: Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management
-description: Šajā tēmā ir paskaidrots, kā izdot elektronisko rēķinus programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+description: Šajā tēmā ir paskaidrots, kā izdot elektroniskus rēķinus programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management ar elektronisko rēķinu izrakstīšanu.
 author: gionoder
-manager: AnnBe
-ms.date: 02/26/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,29 +15,27 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 8d6ef59b64a96e13bdc2e5ddf299ef7ab98e105c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486957"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840080"
 ---
-# <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektronisko rēķinu izdošana programmās Finance un Supply Chain Management
+# <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
-Šajā tēmā ir paskaidrots, kā izdot elektronisko rēķinus programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+Šajā tēmā ir paskaidrots, kā izdot elektroniskus rēķinus programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management ar elektronisko rēķinu izrakstīšanu.
 
 
 ## <a name="feature-activation"></a>Līdzekļu aktivizēšana
 
-Lai izsniegtu elektronisko rēķinu, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu, jāaktivizē līdzeklis programmās Finance un Supply Chain Management.
+Lai izsniegtu elektronisko rēķinu, izmantojot Elektronisko rēķinu izrakstīšanu, jāaktivizē līdzeklis programmās Finance un Supply Chain Management.
 
 Katrs līdzeklis atbilst noteiktai elektronisko rēķinu izrakstīšanas funkcijai, kas atbilst valsts/reģiona elektronisko rēķinu izrakstīšanas prasībām.
 
-Tabulā zemāk ir parādīts saraksts ar līdzekļiem, ko Elektronisko rēķinu izrakstīšanas pievienojumprogramma var atbalstīt.
+Tabulā zemāk ir parādīts saraksts ar līdzekļiem, ko Elektronisko rēķinu izrakstīšana var atbalstīt.
 
 | Nosaukums/vārds, uzvārds                                              | Valsts/reģions |
 |---------------------------------------------------|----------------|
@@ -60,19 +56,19 @@ Tabulā zemāk ir parādīts saraksts ar līdzekļiem, ko Elektronisko rēķinu 
 |Norvēģijas elektroniskais rēķins                       |Norvēģija          |
 |Spānijas elektroniskais rēķins                         |Spānija           |
 
-Kad ir mantojuma Elektronisko rēķinu izrakstīšanas līdzeklis, kas tiek atbalstīts valsts/reģiona lokalizāciju tvērumā, viena no šo līdzekļu aktivizēšana izslēdz mantojuma līdzekli un iespējo elektroniskos rēķinu izsniegšanu, izmantojot Elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
+Kad ir mantojuma Elektronisko rēķinu izrakstīšanas līdzeklis, kas tiek atbalstīts valsts/reģiona lokalizāciju tvērumā, viena no šo līdzekļu aktivizēšana izslēdz mantojuma līdzekli un iespējo elektroniskos rēķinu izsniegšanu, izmantojot Elektronisko rēķinu izrakstīšanu.
 
 > [!IMPORTANT]
-> Pēc Elektronisko rēķinu pievienojumprogrammas integrācijas funkcijas iespējošanas jaunā Elektronisko rēķinu izrakstīšanas pieredze pēc noklusējuma tiek izslēgta. Varat izmantot šo līdzekļu koncepciju, lai izvēles veidā iespējotu jaunu pieredzi juridiskām personām, izmantojot valstij/reģionam specifisku funkcionalitāti. Opcija **Globāli** kontrolē jauno pieredzi pārējiem apgabaliem/reģioniem, kas nav īpaši norādīti tabulā.
+> Pēc Elektronisko rēķinu izrakstīšanas integrācijas funkcijas iespējošanas jaunā Elektronisko rēķinu izrakstīšanas pieredze pēc noklusējuma tiek izslēgta. Varat izmantot šo līdzekļu koncepciju, lai izvēles veidā iespējotu jaunu pieredzi juridiskām personām, izmantojot valstij/reģionam specifisku funkcionalitāti. Opcija **Globāli** kontrolē jauno pieredzi pārējiem apgabaliem/reģioniem, kas nav īpaši norādīti tabulā.
 
 ## <a name="submit-electronic-documents"></a>Iesniegt elektroniskos dokumentus
 
-Elektronisko dokumentu iesniegšanas process ir viens saziņas punkts starp Finance un Supply Chain Management un Elektronisko rēķinu izrakstīšanas pievienojumprogrammu. Katra iesniegšanas notikuma laikā sakaru plūsma ir abos virzienos:
+Elektronisko dokumentu iesniegšanas process ir viens saziņas punkts starp Finance un Supply Chain Management un Elektronisko rēķinu izrakstīšanu. Katra iesniegšanas notikuma laikā sakaru plūsma ir abos virzienos:
 
-- **No Finance un Supply Chain Management uz Elektronisko rēķinu izrakstīšanas pievienojumprogrammu** - Finance un Supply Chain Management sūta abstraktos rēķinus elektronisko rēķinu pievienojumprogrammai. Pēc vajadzības tie nosūta arī mainīgo saturus, kas tika konfigurēti, kā daļa no elektronisko rēķinu izrakstīšanas funkcijām.
-- **No Elektronisko rēķinu izrakstīšanas pievienojumprogrammas uz Finance un Supply Chain Management** – atkarībā no elektronisko rēķinu izrakstīšanas funkcijas, Finance un Supply Chain Management saņem atjauninājumus no Elektronisko rēķinu izrakstīšanas pievienojumprogrammas par iepriekš iesniegto rēķinu apstrādes rezultātiem. Tie saņem arī mainīgo saturus, kas tika konfigurēti, kā daļa no elektronisko rēķinu izrakstīšanas funkcijām.
+- **No Finance un Supply Chain Management uz Elektronisko rēķinu izrakstīšanu** - Finance un Supply Chain Management sūta abstraktos rēķinus elektronisko rēķinu izrakstīšanai. Pēc vajadzības tie nosūta arī mainīgo saturus, kas tika konfigurēti, kā daļa no elektronisko rēķinu izrakstīšanas funkcijām.
+- **No Elektronisko rēķinu izrakstīšanas uz Finance un Supply Chain Management** – atkarībā no elektronisko rēķinu izrakstīšanas funkcijas, Finance un Supply Chain Management saņem atjauninājumus no Elektronisko rēķinu izrakstīšanas par iepriekš iesniegto rēķinu apstrādes rezultātiem. Tie saņem arī mainīgo saturus, kas tika konfigurēti, kā daļa no elektronisko rēķinu izrakstīšanas funkcijām.
 
-Lai iesniegtu elektroniskos dokumentus Elektronisko rēķinu izrakstīšanas pievienojumprogrammai, Finance un Supply Chain Management dodieties uz **Organizācijas administrēšana &gt; Periodiskie &gt; Elektroniskie dokumenti &gt; Iesniegt elektroniskos dokumentus**.
+Lai iesniegtu elektroniskos dokumentus Elektronisko rēķinu izrakstīšanai, Finance un Supply Chain Management dodieties uz **Organizācijas administrēšana &gt; Periodiskie &gt; Elektroniskie dokumenti &gt; Iesniegt elektroniskos dokumentus**.
 
 Sākums ir grāmatots rēķins. Šis rēķins var būt no dažādiem nosaukumiem, piemēram, pārdošanas pasūtījumiem, projekta rēķiniem vai brīva teksta rēķiniem.
 
@@ -83,25 +79,25 @@ Iesniegšanas procesu var palaist manuāli vai fonā.
 
 ## <a name="view-the-submission-logs"></a>Skatīt iesniegšanas žurnālus
 
-Pakalpojumos Finance un Supply Chain Management jūs varat izmantot iesniegšanas žurnālus, lai aplūkotu iesniegšanas procesa rezultātus Elektronisko rēķinu izrakstīšanas pievienojumprogrammā. Dodieties uz **Organizācijas administrēšana &gt; Periodiski &gt; Elektroniskie dokumenti &gt; Elektronisko dokumentu iesniegšana** un pēc tam laukā **Dokumenta tips** atlasiet vērtību, lai filtrētu rēķinu tipu, ko rāda žurnāli.
+Pakalpojumos Finance un Supply Chain Management jūs varat izmantot iesniegšanas žurnālus, lai aplūkotu iesniegšanas procesa rezultātus Elektronisko rēķinu izrakstīšanā. Dodieties uz **Organizācijas administrēšana &gt; Periodiski &gt; Elektroniskie dokumenti &gt; Elektronisko dokumentu iesniegšana** un pēc tam laukā **Dokumenta tips** atlasiet vērtību, lai filtrētu rēķinu tipu, ko rāda žurnāli.
 
 Pastāv trīs iespējamie iesniegšanas statusi:
 
-- **Plānots** - Elektronisko rēķinu izrakstīšanas pievienojumprogramma saņemta no Finance un Supply Chain Management, kā arī notiek elektronisko rēķinu izrakstīšanas līdzekļa apstrāde.
-- **Pabeigts** – Elektronisko rēķinu izrakstīšanas pievienojumprogramma veiksmīgi apstrādāja elektronisko rēķinu izrakstīšanas funkciju, it kā tā būtu konfigurēta tās palaišanai.
-- **Neizdevās** - Elektronisko rēķinu izrakstīšanas pievienojumprogramma konstatēja kļūdu, vai tā tika apturēta ar izņēmumu Elektronisko rēķinu izrakstīšanas funkcijas apstrādes laikā.
+- **Plānots** - Elektronisko rēķinu izrakstīšana saņemta no Finance un Supply Chain Management, kā arī notiek elektronisko rēķinu izrakstīšanas līdzekļa apstrāde.
+- **Pabeigts** – Elektronisko rēķinu izrakstīšana veiksmīgi apstrādāja elektronisko rēķinu izrakstīšanas funkciju, it kā tā būtu konfigurēta tās palaišanai.
+- **Neizdevās** - Elektronisko rēķinu izrakstīšana konstatēja kļūdu, vai tā tika apturēta ar izņēmumu Elektronisko rēķinu izrakstīšanas funkcijas apstrādes laikā.
 
 > [!IMPORTANT]
-> Iesniegšanas statuss attiecas uz apstrādes statusu, ko Elektronisko rēķinu izrakstīšanas pievienojumprogramma veic uz elektronisko rēķinu izrakstīšanas līdzekli. Tam nav atsauces uz elektroniskā rēķina beigu statusu.
+> Iesniegšanas statuss attiecas uz apstrādes statusu, ko Elektronisko rēķinu izrakstīšana veic uz elektronisko rēķinu izrakstīšanas līdzekli. Tam nav atsauces uz elektroniskā rēķina beigu statusu.
 >
-> Piemēram, ja ārējā tīmekļa pakalpojumā ir jāiesniedz elektroniskais rēķins apstiprināšanai, iesniegšanas statuss varētu būt **Pabeigts**, bet elektroniskā rēķina statuss varētu būt **Noraidīts**. Šajā gadījumā Elektronisko rēķinu izrakstīšanas pievienojumprogramma veiksmīgi apstrādāja elektronisko rēķinu izrakstīšanas funkciju, it kā tā būtu konfigurēta tās apstrādei. Tomēr elektroniskais rēķins tika noraidīts, jo tas neatbilst kritērijiem, ar kuriem tīmekļa pakalpojums tika izveidots rēķina apstiprināšanai.
+> Piemēram, ja ārējā tīmekļa pakalpojumā ir jāiesniedz elektroniskais rēķins apstiprināšanai, iesniegšanas statuss varētu būt **Pabeigts**, bet elektroniskā rēķina statuss varētu būt **Noraidīts**. Šajā gadījumā Elektronisko rēķinu izrakstīšana veiksmīgi apstrādāja elektronisko rēķinu izrakstīšanas funkciju, it kā tā būtu konfigurēta tās apstrādei. Tomēr elektroniskais rēķins tika noraidīts, jo tas neatbilst kritērijiem, ar kuriem tīmekļa pakalpojums tika izveidots rēķina apstiprināšanai.
 
 Iesniegšanas žurnālos ir iekļautas šādas papildu funkcijas:
 
 - **Papildinformācija par iesniegšanu** – skatīt detalizētu informāciju par galveno iesniegšanu. Vizualizēšana parāda pilnīgu izpildes žurnālu darbībām, kas ir konfigurētas elektronisko rēķinu izrakstīšanas līdzeklī. Tas arī ļauj lietotājiem lejupielādēt failus, kas tiek izveidoti apstrādes laikā. Scenārijos, kuros rēķinu jāapstiprina ārējam tīmekļa pakalpojumam, tas ļauj lietotājiem skatīt rēķina statusu.
 - **Saistītās iesniegšanas** - skatīt detalizētu informāciju par pakārtotajām iesniegšanām.
-- **Atcelt iesniegšanas** – šī funkcija iespējo īpašu iesniegšanas procesu scenārijos, kuros elektroniskais rēķins jāapstiprina ārējam tīmekļa pakalpojumam. Tas sniedz norādījumus Elektronisko rēķinu izrakstīšanas pakalpojumam nosūtīt īpašu ziņojumu, kas paredzēts apstiprināta elektroniskā rēķina statusa atcelšanai tīmekļa pakalpojuma datu bāzē.
-- **Atkārtoti iesniegt dokumentu** - atkārtoti iesniedziet elektronisko dokumentu, kas jau ir iesniegts elektronisko rēķinu izrakstīšanas pievienojumprogrammā. **Iesniegšanas informācijas** lapā tiek izveidots pilnīgi jauns žurnāls.
+- **Atcelt iesniegšanas** – šī funkcija iespējo īpašu iesniegšanas procesu scenārijos, kuros elektroniskais rēķins jāapstiprina ārējam tīmekļa pakalpojumam. Tas sniedz norādījumus Elektronisko rēķinu izrakstīšanai nosūtīt īpašu ziņojumu, kas paredzēts apstiprināta elektroniskā rēķina statusa atcelšanai tīmekļa pakalpojuma datu bāzē.
+- **Atkārtoti iesniegt dokumentu** - atkārtoti iesniedziet elektronisko dokumentu, kas jau ir iesniegts elektronisko rēķinu izrakstīšanā. Lapā **Iesniegšanas informācijas** tiek izveidots jauns žurnāls.
 - **Sūtīt saistīto iesniegumu**
 
 

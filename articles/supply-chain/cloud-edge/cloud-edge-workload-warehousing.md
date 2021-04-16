@@ -2,11 +2,9 @@
 title: Noliktavas pārvaldība darba slodzēm mākoņa un malas mēroga vienībām
 description: Šajā tēmā ir sniegta informācija par līdzekli, kas iespējo mēroga vienības, lai palaistu atlasītos procesus no jūsu noliktavas pārvaldības darba slodzes.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580969"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832398"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -70,7 +68,7 @@ Centrmezglam pieder šādi dati:
 - Pasūtījuma sadalījums un nosūtīšanas noslodzes apstrāde
 - Nodošana izpildei noliktavā, sūtījumu izveide, kopuma izveides un pabeigšanas procesi
 
-Mēroga vienībām pieder faktiskā kopuma apstrāde (piemēram, darba sadalījums, papildināšanas darbs un pieprasījuma darba izveidošana) pēc kopuma izlaišanas. Tāpēc noliktavas darbinieki var apstrādāt nosūtīšanas darbu, izmantojot noliktavas programmu, kas ir saistīta ar šo mēroga vienību.
+Mēroga vienībām pieder faktiskā kopuma apstrāde (piemēram, darba sadalījums, papildināšanas darbs un pieprasījuma darba izveidošana) pēc kopuma izlaišanas. Tāpēc noliktavas darbinieki var apstrādāt nosūtīšanas darbu, izmantojot Warehouse Management mobile programmu, kas ir saistīta ar šo mēroga vienību.
 
 ![Kopuma apstrādes plūsma](./media/wes-wave-processing-ga.png "Kopuma apstrādes plūsma")
 
@@ -94,7 +92,7 @@ Jums jāuzsāk *Pārsūtīt uz noliktavu* process, kamēr esat pieteicies pārkr
 
 Izmantojot **Automātisko pirkšanas pasūtījumu nolaišanu**, var atlasīt noteiktas pirkšanas pasūtījuma rindas, pamatojoties uz vaicājumu. Tipisks scenārijs būtu iestatīt periodisku pakešuzdevumu, kas atbrīvo visas apstiprinātās pirkšanas pasūtījuma rindas, kam paredzēts saņemt nākamo dienu.
 
-Darbinieks var palaist saņemšanas procesu, izmantojot noliktavas programmu, kas ir saistīta ar šo mēroga vienību. Pēc tam dati tiek ierakstīti pēc mēroga vienības un paziņoti pret saņemšanas noliktavas pasūtījumu. Turpmākās saņemšanas izveidošanu un apstrādi arī veiks mēroga vienība.
+Darbinieks var palaist saņemšanas procesu, izmantojot Warehouse Management mobile programmu, kas ir saistīta ar šo mēroga vienību. Pēc tam dati tiek ierakstīti pēc mēroga vienības un paziņoti pret saņemšanas noliktavas pasūtījumu. Turpmākās saņemšanas izveidošanu un apstrādi arī veiks mēroga vienība.
 
 Ja neizmantojat procesu *nodošana noliktavā*, un tāpēc neizmantojat *noliktavas pasūtījumus*, centrmezgls var apstrādāt noliktavas saņemšanu un darbu apstrādi neatkarīgi no mēroga vienībām.
 
@@ -117,10 +115,10 @@ Lietotājiem, kuri darbojas kā noliktavas pārvaldnieki centrmezglā, kā arī 
 Šādus noliktavas izpildes procesus var iespējot WES darba slodzei mēroga vienībās:
 
 - Atlasītās kopuma metodes pārdošanas un pārsūtīšanas pasūtījumiem (sadalījums, pieprasījuma papildināšana, konteinerizīme, darba izveide un kopuma etiķešu drukāšana)
-- Pārdošanas un pārsūtīšanas pasūtījumu noliktavas darba apstrāde, izmantojot noliktavas programmu (tostarp papildināšanas darbu)
-- Rīcībā esošo krājumu vaicājums, izmantojot noliktavas lietojumprogrammu
-- Krājumu kustības izveidošana un izpilde, izmantojot noliktavas programmu
-- Pirkšanas pasūtījumu reģistrēšana un saņemšanas darba veikšana, izmantojot noliktavas lietojumprogrammu
+- Pārdošanas un pārsūtīšanas pasūtījumu noliktavas darba apstrāde, izmantojot Warehouse Management mobile programmu (tostarp papildināšanas darbu)
+- Rīcībā esošo krājumu vaicājums, izmantojot Warehouse Management mobile programmu
+- Krājumu kustības izveidošana un izpilde, izmantojot Warehouse Management mobile programmu
+- Pirkšanas pasūtījumu reģistrēšana un saņemšanas darba veikšana, izmantojot Warehouse Management mobile lietojumprogrammu
 
 Tālāk norādītie darba pasūtījumu veidi pašlaik tiek atbalstīti WES darba slodzēm uz mēroga vienību izvietojumiem:
 
@@ -133,7 +131,7 @@ Tālāk norādītie darba pasūtījumu veidi pašlaik tiek atbalstīti WES darba
 Neviena cita avota dokumentu apstrāde pašlaik netiek atbalstīta mēroga vienībās. Piemēram, WES darba slodzei mēroga vienībā, jūs nevarat veikt pārsūtīšanas pasūtījuma saņemšanas procesu (pārsūtīšanas ieejas plūsmu) vai apstrādāt cikla inventarizācijas darbu.
 
 > [!NOTE]
-> Mobilās ierīces izvēlnes vienumi un pogas neatbalstītām funkcionalitātēm netiek rādītas _noliktavas programmā_, kad tā ir saistīta ar apjoma vienību izvietošanu.
+> Mobilās ierīces izvēlnes vienumi un pogas neatbalstītām funkcionalitātēm netiek rādītas _Warehouse Management mobile programmā_, kad tā ir saistīta ar apjoma vienību izvietošanu.
 
 > [!WARNING]
 > Ja izmantojat darba slodzi mēroga vienībā, nevar palaist neatbalstītus procesus konkrētai noliktavai centrmezglā. Vēlāk šajā tēmā sniegtās tabulas dokumentē atbalstītās iespējas.
@@ -164,7 +162,7 @@ Neviena cita avota dokumentu apstrāde pašlaik netiek atbalstīta mēroga vien�
 - Noliktavas darba apstrāde ar nosūtīšanas piezīmēm
 - Noliktavas darba apstrāde ar cikla inventarizācijas sliekšņa aktivizēšanu
 - Noliktavas darba apstrāde ar materiālu apstrādes/warehouse automation
-- Preces šablona datu attēla izmantošana (piemēram, noliktavas programmā)
+- Preces šablona datu attēla izmantošana (piemēram, Warehouse Management mobile programmā)
 
 > [!WARNING]
 > Dažas noliktavas funkcionalitātes nebūs pieejamas noliktavām, kas darbojas kā noliktavas pārvaldības darba noslodzes, izmantojot mēroga vienību, un arī netiek atbalstīta pārkraušanas punktu vai mēroga vienības darba noslodze.
@@ -253,7 +251,7 @@ Sekojošajā tabulā ir parādīts, kuri noliktavas darbību un izņēmumu nodo�
 | Kustība                                           | Jā | Jā                          |
 | Kustība pēc veidnes                               | Jā | Jā                          |
 | Starpnoliktavu pārsūtīšana                                 | Jā | Nr.                           |
-| Pārsūtīšanas pasūtījumu izveide no noliktavas programmas           | Jā | Nr.                           |
+| Pārsūtīšanas pasūtījumu izveide no Warehouse Management mobile programmas           | Jā | Nr.                           |
 | Korekcija (ienākošā/izejošā)                                | Jā | Nr.                           |
 | Krājumu statusa maiņa                            | Jā | Nr.                           |
 | Cikla inventarizācijas un nesakritību uzskaites apstrāde | Jā | Nr.                           |

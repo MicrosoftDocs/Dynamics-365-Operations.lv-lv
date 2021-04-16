@@ -2,11 +2,9 @@
 title: Nomas grāmatošanas tipi
 description: Šajā tēmā aprakstīti līdzekļu iznomāšanas transakcijām izmantotie grāmatošanas tipi.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841145"
 ---
 # <a name="lease-posting-types"></a>Nomas grāmatošanas tipi
 
@@ -90,15 +88,6 @@ Konts ir saistīts ar LLT līdzekļa kontrāro līdzekļu kontu. Šis konts tiek
 **Žurnāla ierakstu piemērs**: nolietojuma uzkrājumi<br>
 **Debets**: nolietojuma izdevumi XXX<br>
 **Kredīts**: uzkrātais nolietojums XXX
-
-## <a name="retained-earnings"></a>Nesadalītā peļņa
-
-Konts ir saistīts ar saglabātajiem ienākumiem. Šis konts var tikt debetēts vai kreditēts pārejas korekcijas žurnāla ierakstā, izmantojot pilnu retrospektīvo metodi vai kumulatīvās pieaugošās opcijas metodi A. Starpība starp sākotnējo LLT līdzekli un nomas saistībām ir rezervēta nesadalītajai peļņai. Retos gadījumos saglabātie ienākumi var tikt ietekmēti arī nomas modifikācijas laikā, ja nomas klasifikācija tiek mainīta no finansējuma uz darbību, lai rakstītu LLT līdzekli uz augšu vai uz leju tā, lai tā būtu vienāds ar nomas saistībām.
-
-**Žurnāla ierakstu piemērs**: pārejas korekcija (pilnīgas atpakaļejošas vai kumulatīvas papildopcijas metode A)<br>
-**Debets**: nomas saistības XXX<br>
-**Kredīts**: nomas līdzeklis XXX<br>
-**Kredīts**: nesadalītā peļņa XXX
 
 ## <a name="variable-payment"></a>Mainīgais maksājums
 
