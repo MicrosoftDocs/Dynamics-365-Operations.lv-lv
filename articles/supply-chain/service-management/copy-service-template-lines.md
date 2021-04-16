@@ -2,11 +2,9 @@
 title: Kopēt pakalpojumu veidņu rindas
 description: Veidnes informāciju var pārkopēt gan uz pakalpojuma līgumu, gan uz pakalpojuma pasūtījumu.
 author: ShylaThompson
-manager: tfehr
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable, SMAServiceOrderTable
 audience: Application User
@@ -17,46 +15,46 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7efa5b8de0eb948e2e6d202b3e0751a3cc365db6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 73bcfb2018822cebf0d602cdf014f06073d98009
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204468"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840537"
 ---
-# <a name="copy-service-templates-lines"></a><span data-ttu-id="2a53a-103">Kopēt pakalpojumu veidņu rindas</span><span class="sxs-lookup"><span data-stu-id="2a53a-103">Copy service templates lines</span></span> 
+# <a name="copy-service-templates-lines"></a><span data-ttu-id="4dedc-103">Kopēt pakalpojumu veidņu rindas</span><span class="sxs-lookup"><span data-stu-id="4dedc-103">Copy service templates lines</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2a53a-104">Veidnes informāciju var pārkopēt gan uz pakalpojuma līgumu, gan uz pakalpojuma pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="2a53a-104">Template information can be copied to either a service agreement or a service order.</span></span>
+<span data-ttu-id="4dedc-104">Veidnes informāciju var pārkopēt gan uz pakalpojuma līgumu, gan uz pakalpojuma pasūtījumu.</span><span class="sxs-lookup"><span data-stu-id="4dedc-104">Template information can be copied to either a service agreement or a service order.</span></span>
 
-## <a name="copy-service-template-lines-into-a-service-agreement"></a><span data-ttu-id="2a53a-105">Pārkopējiet pakalpojumu veidnes rindu uz pakalpojuma līgumu</span><span class="sxs-lookup"><span data-stu-id="2a53a-105">Copy service template lines into a service agreement</span></span>
+## <a name="copy-service-template-lines-into-a-service-agreement"></a><span data-ttu-id="4dedc-105">Pārkopējiet pakalpojumu veidnes rindu uz pakalpojuma līgumu</span><span class="sxs-lookup"><span data-stu-id="4dedc-105">Copy service template lines into a service agreement</span></span>
 
-1. <span data-ttu-id="2a53a-106">Noklikšķiniet uz **Pakalpojumu līgumi**.</span><span class="sxs-lookup"><span data-stu-id="2a53a-106">Click **Service agreements**.</span></span>
-2. <span data-ttu-id="2a53a-107">Veiciet dubultklikšķi uz pakalpojuma līguma, lai atvērtu lapu **Pakalpojumu līgumi**.</span><span class="sxs-lookup"><span data-stu-id="2a53a-107">Double-click a service agreement to open the **Service agreements** page.</span></span>
-3. <span data-ttu-id="2a53a-108">Lai atvērtu lapu **Pakalpojumu veidnes rindu kopēšana**, noklikšķiniet uz **Veidnes rindas**.</span><span class="sxs-lookup"><span data-stu-id="2a53a-108">Click **Template lines** to open the **Copy service template lines** page.</span></span>
-4. <span data-ttu-id="2a53a-109">Cilnē **Koka vadīkla** izvērsiet koku, atrodiet veidni ar līnijām, ko vēlaties pārkopēt uz pakalpojuma līgumu, un pēc tam atlasiet pakalpojuma veidni.</span><span class="sxs-lookup"><span data-stu-id="2a53a-109">On the **Tree control** tab, expand the tree, find the template that contains the lines that you want to copy to the service agreement, and then select the service template.</span></span>
-5. <span data-ttu-id="2a53a-110">Cilnē **Līnijas** atzīmējiet izvēles rūtiņu **Atlasīt** tām pakalpojuma veidnes līnijām, ko vēlaties pārkopēt.</span><span class="sxs-lookup"><span data-stu-id="2a53a-110">On the **Lines** tab, select the **Select** check box for the service template lines that you want to copy.</span></span>
-6. <span data-ttu-id="2a53a-111">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="2a53a-111">Click **OK**.</span></span>
-7. <span data-ttu-id="2a53a-112">Aizveriet lapas, lai saglabātu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="2a53a-112">Close the pages to save your changes.</span></span>
+1. <span data-ttu-id="4dedc-106">Noklikšķiniet uz **Pakalpojumu līgumi**.</span><span class="sxs-lookup"><span data-stu-id="4dedc-106">Click **Service agreements**.</span></span>
+2. <span data-ttu-id="4dedc-107">Veiciet dubultklikšķi uz pakalpojuma līguma, lai atvērtu lapu **Pakalpojumu līgumi**.</span><span class="sxs-lookup"><span data-stu-id="4dedc-107">Double-click a service agreement to open the **Service agreements** page.</span></span>
+3. <span data-ttu-id="4dedc-108">Lai atvērtu lapu **Pakalpojumu veidnes rindu kopēšana**, noklikšķiniet uz **Veidnes rindas**.</span><span class="sxs-lookup"><span data-stu-id="4dedc-108">Click **Template lines** to open the **Copy service template lines** page.</span></span>
+4. <span data-ttu-id="4dedc-109">Cilnē **Koka vadīkla** izvērsiet koku, atrodiet veidni ar līnijām, ko vēlaties pārkopēt uz pakalpojuma līgumu, un pēc tam atlasiet pakalpojuma veidni.</span><span class="sxs-lookup"><span data-stu-id="4dedc-109">On the **Tree control** tab, expand the tree, find the template that contains the lines that you want to copy to the service agreement, and then select the service template.</span></span>
+5. <span data-ttu-id="4dedc-110">Cilnē **Līnijas** atzīmējiet izvēles rūtiņu **Atlasīt** tām pakalpojuma veidnes līnijām, ko vēlaties pārkopēt.</span><span class="sxs-lookup"><span data-stu-id="4dedc-110">On the **Lines** tab, select the **Select** check box for the service template lines that you want to copy.</span></span>
+6. <span data-ttu-id="4dedc-111">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="4dedc-111">Click **OK**.</span></span>
+7. <span data-ttu-id="4dedc-112">Aizveriet lapas, lai saglabātu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="4dedc-112">Close the pages to save your changes.</span></span>
 
-<span data-ttu-id="2a53a-113">Pakalpojuma veidnes rindas tagad tiek kopētas uz pakalpojuma līgumu kopā ar pievienoto objektu un pakalpojuma uzdevuma relācijām.</span><span class="sxs-lookup"><span data-stu-id="2a53a-113">The service template lines are now copied to the service agreement, together with the attached service object and service task relations.</span></span>
+<span data-ttu-id="4dedc-113">Pakalpojuma veidnes rindas tagad tiek kopētas uz pakalpojuma līgumu kopā ar pievienoto objektu un pakalpojuma uzdevuma relācijām.</span><span class="sxs-lookup"><span data-stu-id="4dedc-113">The service template lines are now copied to the service agreement, together with the attached service object and service task relations.</span></span>
 
-## <a name="copy-service-template-lines-into-a-service-order"></a><span data-ttu-id="2a53a-114">Pārkopējiet pakalpojuma veidnes rindas un pakalpojuma pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="2a53a-114">Copy service template lines into a service order</span></span>
+## <a name="copy-service-template-lines-into-a-service-order"></a><span data-ttu-id="4dedc-114">Pārkopējiet pakalpojuma veidnes rindas un pakalpojuma pasūtījumu</span><span class="sxs-lookup"><span data-stu-id="4dedc-114">Copy service template lines into a service order</span></span>
 
-1. <span data-ttu-id="2a53a-115">Noklikšķiniet uz **Pakalpojumu pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="2a53a-115">Click **Service orders**.</span></span>
-2. <span data-ttu-id="2a53a-116">Lai atvērtu lapu **Pakalpojumu pasūtījumi**, veiciet dubultklikšķi uz pakalpojuma pasūtījuma.</span><span class="sxs-lookup"><span data-stu-id="2a53a-116">Double-click a service order to open the **Service orders** page.</span></span>
-3. <span data-ttu-id="2a53a-117">Lai atvērtu lapu **Pakalpojumu veidnes rindu kopēšana**, noklikšķiniet uz Kopēt \> Pakalpojumu veidnes rindu kopēšana.</span><span class="sxs-lookup"><span data-stu-id="2a53a-117">Click Copy \> Copy template lines to open the **Copy service template lines** page.</span></span>
-4. <span data-ttu-id="2a53a-118">Cilnē **Koka vadīkla** izvērsiet koku, atrodiet veidni ar līnijām, ko vēlaties pārkopēt uz pakalpojuma pasūtījumu, un pēc tam atlasiet pakalpojuma veidni.</span><span class="sxs-lookup"><span data-stu-id="2a53a-118">On the **Tree control** tab, expand the tree, find the template that contains the lines that you want to copy to the service order, and then select the service template.</span></span>
-5. <span data-ttu-id="2a53a-119">Cilnē **Līnijas** atzīmējiet izvēles rūtiņu **Atlasīt** tām pakalpojuma veidnes līnijām, ko vēlaties pārkopēt.</span><span class="sxs-lookup"><span data-stu-id="2a53a-119">On the **Lines** tab, select the **Select** check box for the service template lines that you want to copy.</span></span>
-6. <span data-ttu-id="2a53a-120">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="2a53a-120">Click **OK**.</span></span>
-7. <span data-ttu-id="2a53a-121">Aizveriet lapas, lai saglabātu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="2a53a-121">Close the pages to save your changes.</span></span>
+1. <span data-ttu-id="4dedc-115">Noklikšķiniet uz **Pakalpojumu pasūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="4dedc-115">Click **Service orders**.</span></span>
+2. <span data-ttu-id="4dedc-116">Lai atvērtu lapu **Pakalpojumu pasūtījumi**, veiciet dubultklikšķi uz pakalpojuma pasūtījuma.</span><span class="sxs-lookup"><span data-stu-id="4dedc-116">Double-click a service order to open the **Service orders** page.</span></span>
+3. <span data-ttu-id="4dedc-117">Lai atvērtu lapu **Pakalpojumu veidnes rindu kopēšana**, noklikšķiniet uz Kopēt \> Pakalpojumu veidnes rindu kopēšana.</span><span class="sxs-lookup"><span data-stu-id="4dedc-117">Click Copy \> Copy template lines to open the **Copy service template lines** page.</span></span>
+4. <span data-ttu-id="4dedc-118">Cilnē **Koka vadīkla** izvērsiet koku, atrodiet veidni ar līnijām, ko vēlaties pārkopēt uz pakalpojuma pasūtījumu, un pēc tam atlasiet pakalpojuma veidni.</span><span class="sxs-lookup"><span data-stu-id="4dedc-118">On the **Tree control** tab, expand the tree, find the template that contains the lines that you want to copy to the service order, and then select the service template.</span></span>
+5. <span data-ttu-id="4dedc-119">Cilnē **Līnijas** atzīmējiet izvēles rūtiņu **Atlasīt** tām pakalpojuma veidnes līnijām, ko vēlaties pārkopēt.</span><span class="sxs-lookup"><span data-stu-id="4dedc-119">On the **Lines** tab, select the **Select** check box for the service template lines that you want to copy.</span></span>
+6. <span data-ttu-id="4dedc-120">Noklikšķiniet uz **Labi**.</span><span class="sxs-lookup"><span data-stu-id="4dedc-120">Click **OK**.</span></span>
+7. <span data-ttu-id="4dedc-121">Aizveriet lapas, lai saglabātu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="4dedc-121">Close the pages to save your changes.</span></span>
 
-<span data-ttu-id="2a53a-122">Pakalpojuma veidnes rindas tagad tiek kopētas uz jauno pakalpojuma pasūtījumu kopā ar pievienoto objektu un pakalpojuma uzdevuma relācijām.</span><span class="sxs-lookup"><span data-stu-id="2a53a-122">The service template lines are now copied to the new service order, together with the attached service object and service task relations.</span></span> 
+<span data-ttu-id="4dedc-122">Pakalpojuma veidnes rindas tagad tiek kopētas uz jauno pakalpojuma pasūtījumu kopā ar pievienoto objektu un pakalpojuma uzdevuma relācijām.</span><span class="sxs-lookup"><span data-stu-id="4dedc-122">The service template lines are now copied to the new service order, together with the attached service object and service task relations.</span></span> 
 
-## <a name="related-topics"></a><span data-ttu-id="2a53a-123">Saistītās tēmas</span><span class="sxs-lookup"><span data-stu-id="2a53a-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4dedc-123">Saistītās tēmas</span><span class="sxs-lookup"><span data-stu-id="4dedc-123">Related topics</span></span>
 
-[<span data-ttu-id="2a53a-124">Pakalpojumu veidnes</span><span class="sxs-lookup"><span data-stu-id="2a53a-124">Service templates</span></span>](service-template.md)
+[<span data-ttu-id="4dedc-124">Pakalpojumu veidnes</span><span class="sxs-lookup"><span data-stu-id="4dedc-124">Service templates</span></span>](service-template.md)
 
 
 
