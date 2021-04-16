@@ -2,11 +2,9 @@
 title: Kanāla atribūtu definēšana
 description: Papildiniet kanālu, pievienojot kanāla un preces īpašības.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,60 +14,60 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f0c774c6fca47bf046fc4f73baac18319e0d125
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256929"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791587"
 ---
-# <a name="define-channel-attributes"></a><span data-ttu-id="b4526-103">Kanāla atribūtu definēšana</span><span class="sxs-lookup"><span data-stu-id="b4526-103">Define channel attributes</span></span>
+# <a name="define-channel-attributes"></a><span data-ttu-id="a7d7a-103">Kanāla atribūtu definēšana</span><span class="sxs-lookup"><span data-stu-id="a7d7a-103">Define channel attributes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b4526-104">Papildiniet kanālu, pievienojot kanāla un preces īpašības.</span><span class="sxs-lookup"><span data-stu-id="b4526-104">Enrich the channel by adding channel and product attributes.</span></span> <span data-ttu-id="b4526-105">Lai definētu īpašības, organizācijas noklusējuma hierarhijai ir jāpievieno kanāls.</span><span class="sxs-lookup"><span data-stu-id="b4526-105">You must add the channel to the organization default hierarchy before you can define the attributes.</span></span>
+<span data-ttu-id="a7d7a-104">Papildiniet kanālu, pievienojot kanāla un preces īpašības.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-104">Enrich the channel by adding channel and product attributes.</span></span> <span data-ttu-id="a7d7a-105">Lai definētu īpašības, organizācijas noklusējuma hierarhijai ir jāpievieno kanāls.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-105">You must add the channel to the organization default hierarchy before you can define the attributes.</span></span>
 
 
-## <a name="define-channel-product-attribute"></a><span data-ttu-id="b4526-106">Definējiet kanāla preces īpašības.</span><span class="sxs-lookup"><span data-stu-id="b4526-106">Define channel product attribute.</span></span>
-1. <span data-ttu-id="b4526-107">Dodieties uz Mazumtirdzniecība un komercija > Kanāla iestatīšana > Kanālu kategorijas un preču īpašības.</span><span class="sxs-lookup"><span data-stu-id="b4526-107">Go to Retail and Commerce > Channel setup > Channel categories and product attributes.</span></span>
-2. <span data-ttu-id="b4526-108">Koka struktūrā atlasiet Contoso Retail\Fashion\Houston.</span><span class="sxs-lookup"><span data-stu-id="b4526-108">In the tree, select 'Contoso Retail\Fashion\Houston'.</span></span>
-3. <span data-ttu-id="b4526-109">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="b4526-109">Click Edit.</span></span>
-4. <span data-ttu-id="b4526-110">Laukā Kategoriju hierarhija ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="b4526-110">In the Category hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="b4526-111">Navigācijas hierarhija tiks izmantota preces pārlūkošanai kanālos.</span><span class="sxs-lookup"><span data-stu-id="b4526-111">The navigation hierarchy will be used for navigating the product inside your channels.</span></span>  
-5. <span data-ttu-id="b4526-112">Izvērsiet sadaļu Atribūtu grupa.</span><span class="sxs-lookup"><span data-stu-id="b4526-112">Expand the Attribute group section.</span></span>
-6. <span data-ttu-id="b4526-113">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="b4526-113">Click Add.</span></span>
-    * <span data-ttu-id="b4526-114">Atribūtu grupa tiks parādīta preces detalizētas informācijas sadaļā, kas ir noderīga preču filtra izmantojošanas laikā.</span><span class="sxs-lookup"><span data-stu-id="b4526-114">The attribute group will be shown in the product details and also will help when using the product filter.</span></span>  
-7. <span data-ttu-id="b4526-115">Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="b4526-115">In the Name field, enter or select a value.</span></span>
-8. <span data-ttu-id="b4526-116">Noklikšķiniet uz Skatīt atribūtus.</span><span class="sxs-lookup"><span data-stu-id="b4526-116">Click View attributes.</span></span>
-9. <span data-ttu-id="b4526-117">Izvērsiet sadaļu Atribūti.</span><span class="sxs-lookup"><span data-stu-id="b4526-117">Expand the Attributes section.</span></span>
-10. <span data-ttu-id="b4526-118">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="b4526-118">Click Add.</span></span>
-11. <span data-ttu-id="b4526-119">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="b4526-119">In the list, mark the selected row.</span></span>
-12. <span data-ttu-id="b4526-120">Noklikšķiniet uz AddBtn.</span><span class="sxs-lookup"><span data-stu-id="b4526-120">Click AddBtn.</span></span>
-13. <span data-ttu-id="b4526-121">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="b4526-121">Click OK.</span></span>
-14. <span data-ttu-id="b4526-122">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="b4526-122">Click Save.</span></span>
-15. <span data-ttu-id="b4526-123">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b4526-123">Close the page.</span></span>
-16. <span data-ttu-id="b4526-124">Izvērsiet sadaļu Preces.</span><span class="sxs-lookup"><span data-stu-id="b4526-124">Expand the Products section.</span></span>
-17. <span data-ttu-id="b4526-125">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="b4526-125">Click Add.</span></span>
-18. <span data-ttu-id="b4526-126">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="b4526-126">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="b4526-127">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="b4526-127">Click Add.</span></span>
-    * <span data-ttu-id="b4526-128">Tādā pašā veidā var pievienot vairākas preces.</span><span class="sxs-lookup"><span data-stu-id="b4526-128">Similarly you can add multiple products.</span></span>  
-20. <span data-ttu-id="b4526-129">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="b4526-129">Click OK.</span></span>
-21. <span data-ttu-id="b4526-130">Noklikšķiniet uz Atribūti.</span><span class="sxs-lookup"><span data-stu-id="b4526-130">Click Attributes.</span></span>
-22. <span data-ttu-id="b4526-131">Izvērsiet sadaļu Kanāla plašsaziņas līdzekļi.</span><span class="sxs-lookup"><span data-stu-id="b4526-131">Expand the Channel media section.</span></span>
-23. <span data-ttu-id="b4526-132">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="b4526-132">Click Edit.</span></span>
-24. <span data-ttu-id="b4526-133">Laukā Kanāls atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="b4526-133">In the Channel field, select an option.</span></span>
-25. <span data-ttu-id="b4526-134">Atzīmējiet izvēles rūtiņu Noklusējums.</span><span class="sxs-lookup"><span data-stu-id="b4526-134">Select the Default check box.</span></span>
-26. <span data-ttu-id="b4526-135">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="b4526-135">Click OK.</span></span>
-27. <span data-ttu-id="b4526-136">Izvērsiet sadaļu Kanāla preces īpašības.</span><span class="sxs-lookup"><span data-stu-id="b4526-136">Expand the Channel product attributes section.</span></span>
-28. <span data-ttu-id="b4526-137">Laukā Zīmols ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="b4526-137">In the Brand field, type a value.</span></span>
-    * <span data-ttu-id="b4526-138">Tādā pašā veidā var iestatīt citus atribūtus.</span><span class="sxs-lookup"><span data-stu-id="b4526-138">Similarly you can set the other attributes.</span></span>  
-29. <span data-ttu-id="b4526-139">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="b4526-139">Click Save.</span></span>
-30. <span data-ttu-id="b4526-140">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="b4526-140">Close the page.</span></span>
-31. <span data-ttu-id="b4526-141">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="b4526-141">Click Save.</span></span>
-32. <span data-ttu-id="b4526-142">Noklikšķiniet uz Publicēt kanāla atjauninājumus.</span><span class="sxs-lookup"><span data-stu-id="b4526-142">Click Publish channel updates.</span></span>
-    * <span data-ttu-id="b4526-143">Pēc publicēšanas dati būs gatavi sinhronizācijai kanālu tabulās.</span><span class="sxs-lookup"><span data-stu-id="b4526-143">After publish the data will be ready for sync with the channel tables.</span></span> <span data-ttu-id="b4526-144">Ja publicēšana netika veikta, modificētie dati netiks sinhronizēti kanālu tabulās.</span><span class="sxs-lookup"><span data-stu-id="b4526-144">If you didn't publish the modified data will not be synced with the channel tables.</span></span>  
-33. <span data-ttu-id="b4526-145">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="b4526-145">Click OK.</span></span>
-34. <span data-ttu-id="b4526-146">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="b4526-146">Click Save.</span></span>
+## <a name="define-channel-product-attribute"></a><span data-ttu-id="a7d7a-106">Definējiet kanāla preces īpašības.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-106">Define channel product attribute.</span></span>
+1. <span data-ttu-id="a7d7a-107">Dodieties uz Mazumtirdzniecība un komercija > Kanāla iestatīšana > Kanālu kategorijas un preču īpašības.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-107">Go to Retail and Commerce > Channel setup > Channel categories and product attributes.</span></span>
+2. <span data-ttu-id="a7d7a-108">Koka struktūrā atlasiet Contoso Retail\Fashion\Houston.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-108">In the tree, select 'Contoso Retail\Fashion\Houston'.</span></span>
+3. <span data-ttu-id="a7d7a-109">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-109">Click Edit.</span></span>
+4. <span data-ttu-id="a7d7a-110">Laukā Kategoriju hierarhija ievadiet vai atlasiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-110">In the Category hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="a7d7a-111">Navigācijas hierarhija tiks izmantota preces pārlūkošanai kanālos.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-111">The navigation hierarchy will be used for navigating the product inside your channels.</span></span>  
+5. <span data-ttu-id="a7d7a-112">Izvērsiet sadaļu Atribūtu grupa.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-112">Expand the Attribute group section.</span></span>
+6. <span data-ttu-id="a7d7a-113">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-113">Click Add.</span></span>
+    * <span data-ttu-id="a7d7a-114">Atribūtu grupa tiks parādīta preces detalizētas informācijas sadaļā, kas ir noderīga preču filtra izmantojošanas laikā.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-114">The attribute group will be shown in the product details and also will help when using the product filter.</span></span>  
+7. <span data-ttu-id="a7d7a-115">Laukā Nosaukums ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-115">In the Name field, enter or select a value.</span></span>
+8. <span data-ttu-id="a7d7a-116">Noklikšķiniet uz Skatīt atribūtus.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-116">Click View attributes.</span></span>
+9. <span data-ttu-id="a7d7a-117">Izvērsiet sadaļu Atribūti.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-117">Expand the Attributes section.</span></span>
+10. <span data-ttu-id="a7d7a-118">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-118">Click Add.</span></span>
+11. <span data-ttu-id="a7d7a-119">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-119">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="a7d7a-120">Noklikšķiniet uz AddBtn.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-120">Click AddBtn.</span></span>
+13. <span data-ttu-id="a7d7a-121">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-121">Click OK.</span></span>
+14. <span data-ttu-id="a7d7a-122">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-122">Click Save.</span></span>
+15. <span data-ttu-id="a7d7a-123">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-123">Close the page.</span></span>
+16. <span data-ttu-id="a7d7a-124">Izvērsiet sadaļu Preces.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-124">Expand the Products section.</span></span>
+17. <span data-ttu-id="a7d7a-125">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-125">Click Add.</span></span>
+18. <span data-ttu-id="a7d7a-126">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-126">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="a7d7a-127">Noklikšķiniet uz Pievienot.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-127">Click Add.</span></span>
+    * <span data-ttu-id="a7d7a-128">Tādā pašā veidā var pievienot vairākas preces.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-128">Similarly you can add multiple products.</span></span>  
+20. <span data-ttu-id="a7d7a-129">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-129">Click OK.</span></span>
+21. <span data-ttu-id="a7d7a-130">Noklikšķiniet uz Atribūti.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-130">Click Attributes.</span></span>
+22. <span data-ttu-id="a7d7a-131">Izvērsiet sadaļu Kanāla plašsaziņas līdzekļi.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-131">Expand the Channel media section.</span></span>
+23. <span data-ttu-id="a7d7a-132">Noklikšķiniet uz Rediģēt.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-132">Click Edit.</span></span>
+24. <span data-ttu-id="a7d7a-133">Laukā Kanāls atlasiet opciju.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-133">In the Channel field, select an option.</span></span>
+25. <span data-ttu-id="a7d7a-134">Atzīmējiet izvēles rūtiņu Noklusējums.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-134">Select the Default check box.</span></span>
+26. <span data-ttu-id="a7d7a-135">Noklikšķiniet uz Labi.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-135">Click OK.</span></span>
+27. <span data-ttu-id="a7d7a-136">Izvērsiet sadaļu Kanāla preces īpašības.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-136">Expand the Channel product attributes section.</span></span>
+28. <span data-ttu-id="a7d7a-137">Laukā Zīmols ierakstiet vērtību.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-137">In the Brand field, type a value.</span></span>
+    * <span data-ttu-id="a7d7a-138">Tādā pašā veidā var iestatīt citus atribūtus.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-138">Similarly you can set the other attributes.</span></span>  
+29. <span data-ttu-id="a7d7a-139">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-139">Click Save.</span></span>
+30. <span data-ttu-id="a7d7a-140">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-140">Close the page.</span></span>
+31. <span data-ttu-id="a7d7a-141">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-141">Click Save.</span></span>
+32. <span data-ttu-id="a7d7a-142">Noklikšķiniet uz Publicēt kanāla atjauninājumus.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-142">Click Publish channel updates.</span></span>
+    * <span data-ttu-id="a7d7a-143">Pēc publicēšanas dati būs gatavi sinhronizācijai kanālu tabulās.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-143">After publish the data will be ready for sync with the channel tables.</span></span> <span data-ttu-id="a7d7a-144">Ja publicēšana netika veikta, modificētie dati netiks sinhronizēti kanālu tabulās.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-144">If you didn't publish the modified data will not be synced with the channel tables.</span></span>  
+33. <span data-ttu-id="a7d7a-145">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-145">Click OK.</span></span>
+34. <span data-ttu-id="a7d7a-146">Noklikšķiniet uz Saglabāt.</span><span class="sxs-lookup"><span data-stu-id="a7d7a-146">Click Save.</span></span>
 
 
 
