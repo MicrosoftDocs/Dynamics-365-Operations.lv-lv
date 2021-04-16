@@ -2,11 +2,9 @@
 title: Ražošanas plānošana
 description: Šajā tēmā ir aprakstīta ražošanas plānošana un skaidrots, kā modificēt plānotos ražošanas pasūtījumus, izmantojot plānošanas optimizāciju.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470837"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839227"
 ---
 # <a name="production-planning"></a>Ražošanas plānošana
 
 Optimizācijas plānošana atbalsta vairākus ražošanas scenārijus. Ja migrēsiet no esošās iebūvētās vispārējās plānošanas programmas, ir svarīgi atcerēties kādu no mainītajiem scenārijiem.
 
 Tālāk sniegtais video sniedz īsu ievadu dažiem šajā tēmā minētajiem koncepcijām: [Dynamics 365 Supply Chain Management: optimizācijas uzlabojumu plānošana](https://youtu.be/u1pcmZuZBTw).
+
+## <a name="turn-on-this-feature-for-your-system"></a>Līdzekļa ieslēgšana sistēmā
+
+Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet līdzekli *Plānotie ražošanas pasūtījumi Plānošanas optimizācijai*.
 
 ## <a name="planned-production-orders"></a>Plānotie ražošanas pasūtījumi
 

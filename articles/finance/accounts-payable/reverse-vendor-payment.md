@@ -2,11 +2,9 @@
 title: Kreditoru maksājumu atcelšana
 description: Šajā rakstā aprakstītas maksājuma atcelšanas, dzēšanas, anulēšanas un noraidīšanas atšķirības. Papildus šeit ir aprakstītas divas kreditora čeka atcelšanas metodes.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65aefa75de772fa39b45fc376349b75a3662cd73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ffcaae6e060ecc9cac4439523f11cc514ce1b5b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227430"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827942"
 ---
 # <a name="reverse-a-vendor-payment"></a>Kreditoru maksājumu atcelšana
 
@@ -63,7 +61,7 @@ Ja esat lietotājs, kuram jāpārskata atcelšanas, varat apstiprināt un grāma
 Grāmatojot čeka atcelšanu, notiek šādi notikumi:
 
 -   Čeka status tiek atjaunināts uz **Atcelšana**.
--   Ja atcelšanas laikā anulēšanas lapā tika atlasīta opcija **Saskaņot**, čeks tiek saskaņots (ir atlasīta opcija **Saskaņots**) un nav redzams lapā **Kontu saskaņošana**.
+-   Ja atcelšanas laikā anulēšanas lapā tika atlasīta opcija **Saskaņot**, čeks tiek saskaņots (ir atlasīta opcija **Saskaņots** ) un nav redzams lapā **Kontu saskaņošana**.
 -   Lai palielinātu bankas konta bilanci, atcelšanas dokuments ir iegrāmatots attiecībā pret bankas kontu, no kura tika izsniegts čeks.
 -   Dokuments tiek iegrāmatots virsgrāmatā.
 -   Modifikāciju informācija tiek atjaunināta lauka grupā **Vēsture** lapā **Pārbaudīt**.

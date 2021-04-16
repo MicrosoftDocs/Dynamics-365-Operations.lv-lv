@@ -2,7 +2,6 @@
 title: Dynamics 365 Supply Chain Management 10.0.18. priekšskatījums (2021. gada maijs)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571792"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832134"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18. priekšskatījums (2021. gada maijs)
 
@@ -36,17 +35,17 @@ ms.locfileid: "5571792"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
 - Automātiska pirkšanas pasūtījumu izlaišana (uzlabojumi [Noliktavas izpildē ar mēroga vienībām mākonī](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](../cloud-edge/cloud-edge-workload-warehousing.md).
 
 - [Uzņēmuma mēroga krājumu veiktspējas uzlabojumi un arhivēšana](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Plašāku informāciju par darbībām ar krājumu skatiet [Arcīva krājumu drarbības](../inventory/archive-inventory-transactions.md)
 
-- [Veidņu pārvaldība](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Veidņu pārvaldība](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Plašāku informāciju skatiet [Atlaižu pārvaldības moduļa pārskats](../rebate-management/rebate-management-overview.md)
 
 - Vienkāršots interfeiss tikai ierašanās un aiziešanas laikam (uzlabojumi [Uzlabotās ražošanas izpildes interfeisa uzlabojumi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](../production-control/production-floor-execution-configure.md).
 
-Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 

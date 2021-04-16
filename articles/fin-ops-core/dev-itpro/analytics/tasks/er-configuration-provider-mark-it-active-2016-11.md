@@ -2,7 +2,6 @@
 title: Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus
 description: Šajā tēmā ir paskaidrots, kā lietotājs, kuram ir piešķirta loma “Sistēmas administrators” vai “Elektronisko pārskatu izstrādātājs”, var izveidot konfigurācijas nodrošinātāju.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11ff1d531b0467cf75ec98b092fe6010f4fa95c0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 27e1275199d098fffb56db61ed6bfd2fc3cdb790
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569791"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755134"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus
 

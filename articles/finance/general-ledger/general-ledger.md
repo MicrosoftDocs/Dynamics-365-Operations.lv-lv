@@ -2,11 +2,9 @@
 title: Vispārīgā virsgrāmata un finanšu ziņošanas pārskats
 description: Izmantojiet Virsgrāmatu, lai definētu un pārvaldītu juridiskās personas finanšu ierakstus.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3fc00cc29e37c853d7cabfa928d8e069c40a581
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249195"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832878"
 ---
 # <a name="general-ledger-home-page"></a>Virsgrāmatas sākumlapa
 
@@ -54,20 +52,20 @@ Turklāt kārtulas ir regulāri jāatjaunina, kad nodokļu iestādes maina savas
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="financial-reporting"></a>Finanšu pārskati
 Dodieties uz sadaļu [Financial reporting pārskats](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md), lai iegūtu informāciju par finanšu pārskatiem.
 
 #### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 
 ### <a name="videos"></a>Videoklipi
 
-Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 #### <a name="community-blogs"></a>Kopienas emuāri
 

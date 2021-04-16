@@ -2,11 +2,9 @@
 title: Numura zīmes uzlīmes drukāšanas iespējošana
 description: Šajā tēmā parādīts, kā iespējot seriālā pārvadāšanas konteinera koda (SSCC) marķējuma drukāšanu pēc tam, kad pēdējais vienums ir izņemts no inventāra pārdošanas pavadzīmju darba procesā.
 author: perlynne
-manager: tfehr
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f62e1587135591079b50d52f87d0a1b0ce7d0806
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0a608e9a2356f9dd49bbec1bcbe5489af5931d44
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238922"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830886"
 ---
 # <a name="enable-license-plate-label-printing"></a>Numura zīmes uzlīmes drukāšanas iespējošana
 
@@ -31,7 +29,7 @@ ms.locfileid: "5238922"
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Iestatīt GS1 uzņēmuma prefiksu
-1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas vadība > Iestatīšana> Noliktavas vadības parametri**.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana> Noliktavas vadības parametri**.
 2. Laukā **GS1 uzņēmuma prefikss** ievadiet sava GS1 uzņēmuma numura 7 ciparus.
 3. Atlasiet **Saglabāt**.
 4. Aizvērt lapu.
@@ -50,7 +48,7 @@ ms.locfileid: "5238922"
 11. Aizvērt lapu.
 
 ## <a name="create-the-document-route-layout"></a>Izveidot dokumentu maršruta izkārtojumu
-1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas vadība > Iestatīšana> Dokumentu maršrutēšana > Dokumentu maršrutēšanas izkārtojumi**. Iespējojiet SPKK izkārtojumu.  
+1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana> Dokumentu maršrutēšana > Dokumentu maršrutēšanas izkārtojumi**. Iespējojiet SPKK izkārtojumu.  
 2. Atlasiet **Jauns**.
 3. Laukā **Izkārtojuma ID** ievadiet vērtību. 
 4. Laukā **Apraksts** ierakstiet kādu vērtību.
@@ -59,7 +57,7 @@ ms.locfileid: "5238922"
 7. Aizvērt lapu.
 
 ## <a name="set-up-the-document-routing"></a>Iestatīt dokumentu maršrutēšanu
-1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas vadība > Iestatīšana> Dokumentu maršrutēšana > Dokumentu maršrutēšana**.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana> Dokumentu maršrutēšana > Dokumentu maršrutēšana**.
 2. Laukā **Darba pasūtījuma tips** atlasiet opciju.
 3. Atlasiet **Jauns**.
 4. Laukā **Noliktava** atlasiet vērtību.
@@ -71,7 +69,7 @@ ms.locfileid: "5238922"
 10. Aizvērt lapu.
 
 ## <a name="create-mobile-device-menu"></a>Izveidot mobilās ierīces izvēlni
-1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas vadība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlne**.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlne**.
 2. Atlasiet **Jauns**.
 3. Laukā **Izvēlnes vienuma nosaukums** ievadiet vērtību.
 4. Laukā **Nosaukums** ievadiet vērtību. 
@@ -83,7 +81,7 @@ ms.locfileid: "5238922"
 10. Laukā **Darba klases ID** ievadiet vērtību.
 11. Atlasiet **Saglabāt**.
 12. Aizvērt lapu.
-13. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas vadība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlne**.
+13. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana > Mobilā ierīce > Mobilās ierīces izvēlne**.
 14. Kokā atlasiet to izvēlnes vienumu, kuru izveidojāt iepriekš.
 15. Atlasiet **Rediģēt**.
 16. Atlasiet bultu, lai izvēlnei pievienotu izvēlnes vienumu.
@@ -91,7 +89,7 @@ ms.locfileid: "5238922"
 18. Aizvērt lapu.
 
 ## <a name="update-a-work-template"></a>Atjaunināt darba veidni
-1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas vadība > Iestatīšana> Darbs > Darba veidnes**.
+1. Dodieties uz **Navigācijas rūts > Moduļi > Noliktavas pārvaldība > Iestatīšana> Darbs > Darba veidnes**.
 2. Atlasiet **Rediģēt**.
 3. Atlasiet **Jauns**.
 4. Laukā **Darba tips** atlasiet **Drukāt**.

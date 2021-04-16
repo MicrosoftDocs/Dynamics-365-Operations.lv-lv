@@ -2,11 +2,9 @@
 title: Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 description: Šī tēma apraksta noliktavas apstrādes procesu ienākošajām slodzēm pirkšanas pasūtījumiem.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235344"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835634"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
@@ -66,7 +64,7 @@ Kad noliktavā vispirms ierodas ienākošā noslodze, noliktavas darbiniekiem ir
 
 - **Mobilās ierīces izvēlne, kas ir konfigurēta, lai atbalstītu noslodzes saņemšanu**
 
-    [Noliktavas programma](install-configure-warehousing-app.md) mobilajām ierīcēm atbalsta šādus darba izveides procesus:
+    [Warehouse Management mobile programma](../warehousing/install-configure-warehouse-management-app.md) mobilajām ierīcēm atbalsta šādus darba izveides procesus:
 
     - Kravas krājuma saņemšana
     - Kravas krājuma saņemšana un izvietošana
@@ -285,7 +283,7 @@ Lai, izmantojot šos scenārijus, strādātu ar norādītajiem parauga ierakstie
 
 Pirms noliktavas saņemšanas darbinieki var izmantot mobilo ierīci, lai reģistrētu ienākošos krājumus, kas ir saistīti ar noslodzi, šim nolūkam ir jāizveido mobilās ierīces izvēlnes elements.
 
-Šajā sadaļā jūs izveidosiet mobilās ierīces izvēlnes elementu un pievienosiet to esošai izvēlnei. Noliktavas darbinieks pēc tam var atlasīt izvēlnes elementu noliktavas programmā.
+Šajā sadaļā jūs izveidosiet mobilās ierīces izvēlnes elementu un pievienosiet to esošai izvēlnei. Noliktavas darbinieks pēc tam var atlasīt izvēlnes elementu Warehouse Management mobile programmā.
 
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatīšana \> Mobilās ierīce \> Mobilās ierīces izvēlnes vienumi** un pārliecinieties, ka mobilās ierīces izvēlnē ir ietverts izvēlnes elements, kam ir šādi iestatījumi:
 

@@ -2,7 +2,6 @@
 title: Darbvieta Datu validēšanas kontrolsaraksts
 description: Darbvieta Datu validēšanas kontrolsaraksts sniedz iespēju sekot datu validēšanas procesam vairākos uzņēmumos un jomās un saistībā ar vairākām personām.
 author: bking
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 1fdc2ae0363690984544c59a356540a9b737956d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96385f94ac8e3f3d16924c079af0d6d258d5ec39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569101"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752644"
 ---
 # <a name="data-validation-checklist-workspace"></a>Datu validēšanas kontrolsaraksta darbvieta
 
@@ -48,7 +47,7 @@ Pēc uzdevuma pabeigšanas laukā **Aizpildījis** tiek automātiski ievadīts t
 
 ## <a name="configure-data-validation-project-page"></a>Lapa Konfigurēt datu validēšanas projektu
 
-Lai varētu lietot darbvietu **Datu validēšanas kontrolsaraksts**, vispirms ir jākonfigurē process, izmantojot lapu **Konfigurēt datu validēšanas projektu**. (Noklikšķiniet uz **Darbvietas** \> **Datu validēšanas kontrolsaraksts** \> **Konfigurēt datu validēšanas projektu**.)
+Lai varētu lietot darbvietu **Datu validēšanas kontrolsaraksts**, vispirms ir jākonfigurē process, izmantojot lapu **Konfigurēt datu validēšanas projektu**. (Noklikšķiniet uz **Darbvietas** \> **Datu validēšanas kontrolsaraksts** \> **Konfigurēt datu validēšanas projektu**.)
 
 ## <a name="task-areas"></a>Uzdevumu apgabali
 

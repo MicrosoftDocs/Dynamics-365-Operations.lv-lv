@@ -1,12 +1,10 @@
 ---
 title: Ar izmaksām saistīto problēmu novēršanas pārvaldība
 description: Šajā tēmā ir aprakstīts, kā labot problēmas, kas var rasties, strādājot ar izmaksu pārvaldību.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262457"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834293"
 ---
 # <a name="troubleshoot-cost-management"></a>Ar izmaksām saistīto problēmu novēršanas pārvaldība
 
@@ -37,7 +35,7 @@ ms.locfileid: "5262457"
 
 Apakšsummas var radīt problēmas, ja rezultāts tiek eksportēts, it īpaši, ja lietotāji maina ieraksta secību.
 
-Lai pārbaudītu apakšsummas, varat eksportēt rezultātu uz Microsoft Excel. Vai arī, ja vēlaties pārbaudīt apakšsummas Supply Chain Management, izmantojiet [funkciju pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai iespējotu *Jauno režģu kontroli* un *(Priekšskatījums) Grupēšana režģos* līdzekļus, kas nodrošina daudz elastīgāku veidu, kā apskatīt jebkuras grupas apakšsummu pēc kolonnas. Plašāku informāciju skatiet sadaļā [Režģa iespējas](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Lai pārbaudītu apakšsummas, varat eksportēt rezultātu uz Microsoft Excel. Vai arī, ja vēlaties pārbaudīt apakšsummas Supply Chain Management, izmantojiet [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), lai iespējotu *Jauno režģu kontroli* un *Grupēšanu režģos* līdzekļus, kas nodrošina daudz elastīgāku veidu, kā apskatīt jebkuras grupas apakšsummu pēc kolonnas. Plašāku informāciju skatiet sadaļā [Režģa iespējas](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Krājumu vērtības uzglabāšanas pārskats neatbalsta virsgrāmatas konta informāciju
 

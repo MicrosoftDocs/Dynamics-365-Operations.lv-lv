@@ -2,11 +2,9 @@
 title: Darbs ar novietojuma direktīvām
 description: Šajā tēmā ir aprakstīts, kā strādāt ar atrašanās vietas direktīvām. Novietojuma direktīvas ir lietotāja definēti nosacījumi, kas palīdz identificēt izdošanas un izvietošanas novietojumus krājumu kustībai.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470523"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838398"
 ---
 # <a name="work-with-location-directives"></a>Darbs ar novietojuma direktīvām
 
@@ -152,7 +150,7 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
     > [!IMPORTANT]
     > Lai varētu veikt gan vairāku vienumu, gan vienas SKU izvietošanu, ir jānorāda divas rindas ar vienādu struktūru un iestatījumiem, bet vienai rindai ir jāiestata opcija **Vairākas SKU** uz *Jā* vienai rindai un *Nē* citai. Tāpēc, lai veiktu izvietošanas operācijas, jums ir jābūt divām identiskām atrašanās vietas direktīvām, pat ja jums nav jāatšķir atsevišķas SKU un vairāki SKU uz darba ID. Bieži, ja nav iestatītas abas šīs atrašanās vietas direktīvas, neparedzētas biznesa procesu atrašanās vietas tiks iegūtas no izmantotās atrašanās vietas direktīvas. Ja nepieciešams apstrādāt pasūtījumus, kas ietver vairākas noliktavas vienības, ir jāizmanto līdzīgi iestatījumi novietojuma direktīvām, kurām ir *saņemt* no **Darba tips**.
 
-    Lietojiet opciju **Vairākas SKU** darba rindām, kas apstrādā vairāk nekā vienu krājuma numuru. (Krājuma kods darba informācijā būs tukšs, un tas tiks attēlots kā **Vairākas** noliktavas programmas apstrādes lapās.)
+    Lietojiet opciju **Vairākas SKU** darba rindām, kas apstrādā vairāk nekā vienu krājuma numuru. (Krājuma kods darba informācijā būs tukšs, un tas tiks attēlots kā **Vairāki** noliktavas programmas apstrādes lapās.)
 
     Tipiskā piemērā darba veidne ir iestatīta tā, lai tai būtu vairāk nekā viens saņemšanas/izvietošanas pāris. Šādā gadījumā, iespējams, vēlēsities meklēt noteiktu izstādīšanas atrašanās vietu, ko izmantot rindām ar *Izvietošana* no **Darba veids**.
 
@@ -171,7 +169,7 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
     > [!NOTE]
     > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet sadaļā [Lauki, kas ir raksturīgi darbu pasūtījumu veidiem](#fields-specific-types).
 
-- **Izvietojuma kods** — Šis lauks tiek izmantots novietojuma direktīvās, kurām ir darba pasūtījuma veidi *Pirkšanas pasūtījumi*, *Pabeigto produktu saņemšana* vai *Atgriešanas pasūtījumi* un darba veids *Izvietošana*. Izmantojiet to, lai vadītu plūsmu, izmantojot noteiktu novietojuma direktīvu, atkarībā no izvietojuma koda, ko darbinieks atlasīja noliktavas programmā. Piemēram, var nosūtīt atpakaļ atgrieztos produktus uz pārbaudes atrašanās vietu, pirms tie tiek atgriezti krājumos. Izvietojuma kodu var saistīt ar krājumu statusu. Šādā veidā to var izmantot, lai mainītu krājuma statusu kā saņemšanas procesa daļu. Piemēram, jums ir izvietojuma kods, *QA*, kas iestata krājuma statusu uz *QA*. Pēc tam varat izmantot atsevišķu atrašanās vietas direktīvu, lai pārvietotu šo krājumu uz karantīnas novietojumu.
+- **Izvietojuma kods** — Šis lauks tiek izmantots novietojuma direktīvās, kurām ir darba pasūtījuma veidi *Pirkšanas pasūtījumi*, *Pabeigto produktu saņemšana* vai *Atgriešanas pasūtījumi* un darba veids *Izvietošana*. Izmantojiet to, lai vadītu plūsmu, izmantojot noteiktu novietojuma direktīvu, atkarībā no izvietojuma koda, ko darbinieks atlasīja Warehouse Management mobile programmā. Piemēram, var nosūtīt atpakaļ atgrieztos produktus uz pārbaudes atrašanās vietu, pirms tie tiek atgriezti krājumos. Izvietojuma kodu var saistīt ar krājumu statusu. Šādā veidā to var izmantot, lai mainītu krājuma statusu kā saņemšanas procesa daļu. Piemēram, jums ir izvietojuma kods, *QA*, kas iestata krājuma statusu uz *QA*. Pēc tam varat izmantot atsevišķu atrašanās vietas direktīvu, lai pārvietotu šo krājumu uz karantīnas novietojumu.
 
     > [!NOTE]
     > Šis lauks ir pieejams tikai atlasītajiem darba pasūtījumu veidiem, kur ir atļauta papildināšana. Pilnīgu sarakstu skatiet sadaļā [Lauki, kas ir raksturīgi darbu pasūtījumu veidiem](#fields-specific-types).

@@ -2,11 +2,9 @@
 title: Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 description: Šajā rakstā ir izskaidrots, kā tiek nosegti daļēji debitora maksājumi, ja ir vairāki atlaižu periodi.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241718"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835104"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 
@@ -56,7 +54,7 @@ Arnijs varat apskatīt šo transakciju lapā **Debitoru darbības**.
 
 Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā. Ja nemainīsiet vērtību **Nosedzamā summa** uz **294,00**, vērtības **Termiņatlaides summa**, kas tiks rādītas, atšķirsies. Tomēr 6,00 tiks ņemti kā termiņatlaide, grāmatojot maksājumu, jo nosegšana automātiski pielāgo vērtību **Nosedzamā summa**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 30.06.2015 |
 | Termiņatlaides summa         | 20,00     |
@@ -75,7 +73,7 @@ Pēc tam Arnijs grāmato maksājumu, rēķina bilance ir 700,00.
 
 Atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 09.07.2015 |
 | Termiņatlaides summa         | 30,00     |

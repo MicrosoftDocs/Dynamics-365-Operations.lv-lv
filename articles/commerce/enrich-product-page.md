@@ -2,11 +2,9 @@
 title: Preces lapas papildināšana
 description: Šajā tēmā aprakstīts, kā papildināt preces lapu Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d7899ac79805abeb55323bd21f83b3af38e09b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f6c1a9474ed514426386b1d7b4a72b62129cdb8a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238682"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799052"
 ---
 # <a name="enrich-a-product-page"></a>Preces lapas papildināšana
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā aprakstīts, kā papildināt preces lapu Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Pēc noklusējuma jūsu vietne izmanto vispārējo lapu, lai parādītu preces datus. Šajā lapā ir ietverta pamatinformācija par preci un vadīklas, kas nepieciešamas tās pārdošanai. Tomēr varat papildināt no Tirdzniecības mēroga vienības servera nākošo informāciju ar papildu attēliem vai tekstu par konkrēto preci. Šis process ir pazīstams kā preces lapas papildināšana.
 

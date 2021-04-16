@@ -1,12 +1,10 @@
 ---
 title: Līdzekļu skaitītāju automātiska atjaunināšana
 description: Šajā tēmā aprakstīta automātiska līdzekļu skaitītāju atjaunināšana programmā Asset Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9911d5b96bb58b5def3e7dfee0f36826d99f6ba1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f15aea2f867de6f0bcf01ecfd046efc44581a1ec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263690"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820446"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Pamatlīdzekļu skaitītāju automātiska atjaunināšana
 

@@ -2,11 +2,9 @@
 title: Mākoņa darbinātas meklēšanas pārskats
 description: Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e94338cb55f3298d0a33d7b086480f16e83f271
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220660"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800425"
 ---
 # <a name="cloud-powered-search-overview"></a>Mākoņa darbinātas meklēšanas pārskats
-
 
 [!include [banner](includes/banner.md)]
 
 Šajā tēmā sniegts pārskats par mākoņu darbinātu meklēšanu risinājumā Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Pārskats
 
 Preces atrodamība palīdz nodrošināt to, ka klienti var ātri un viegli atrast preces, pārlūkojot kategorijas, meklējot un filtrējot. Mazumtirgotāji uzskata preces pamanīšanu par primāro rīku mijiedarbībai ar klientiem visos kanālos.
 

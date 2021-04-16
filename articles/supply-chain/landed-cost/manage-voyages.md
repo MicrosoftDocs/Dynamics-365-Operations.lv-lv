@@ -2,7 +2,6 @@
 title: Pārvaldīt reisus
 description: Šajā tēmā ir aprakstīts, kā strādāt ar reisiem. Parasti reiss ir kuģis. Tomēr atkarībā no jūsu prakses un procedūrām var pārstāvēt kreditoru, pirkšanas pasūtījumu vai kādu citu krājumu, kas ir noderīgs jūsu organizācijai.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501010"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833789"
 ---
 # <a name="manage-voyages"></a>Pārvaldīt reisus
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Parasti reiss ir kuģis. Tomēr atkarībā no jūsu prakses un procedūrām var pārstāvēt kreditoru, pirkšanas pasūtījumu vai kādu citu krājumu, kas ir noderīgs jūsu organizācijai.
 
@@ -74,9 +72,9 @@ Darbību rūts lapā **Reisi** nodrošina pogas, kas ļauj strādāt ar atlasīt
 | Grāmatot rēķinu | Grāmatojiet rēķinu visām pirkšanas pasūtījuma rindām reisā. Ja reisa preces tiks veiktas tranzītā caur tranzītapstrādes precēm, pirms saņemšanas procesa beigām tiks izrakstīts rēķins pirkšanas pasūtījuma rindām. Kad sākotnējais pirkšanas pasūtījums ir iekļauts rēķinā, tiks izveidoti ar oriģinālajām pirkšanas pasūtījuma rindām saistītie preču tranzīta pasūtījumi. Šos pasūtījumus pēc tam var saņemt noliktava. Ja tiek izmantotas vairāku uzņēmumu kravas, katram uzņēmumam tiek atvērts jauns rēķina grāmatošanas dialoglodziņš. |
 | Nosūtīšanas pārsūtīšanas pasūtījums | Grāmatojiet pārsūtīšanas pasūtījuma reisu visām pirkšanas pasūtījuma rindām reisā. Kad šī poga ir atlasīta, atjaunināšanai būs pieejami tikai pārsūtīšanas pasūtījumi. |
 | Saņemt pārsūtīšanas pasūtījumu | Grāmatojiet pārsūtīšanas pasūtījuma reisu visām pirkšanas pasūtījuma rindām reisā. |
-| Saņemtās tranzītpreces | Saņemt visas pasūtījuma rindas, kas ir tranzītā reisā. Šī poga ir viena no trim opcijām, kas ir pieejamas preču saņemšanai tranzītā reisā. (Pārējās divas opcijas ir **Izveidojiet saņemšanas žurnāla** pogu, kas vēlāk ir aprakstīta šajā tabulā, un noliktavas programmā.) Šī opcija ir vienkāršākā opcija, un apstrādās preces tranzītā no tranzītkrājumu noliktavas un galamērķa noliktavā. Ja vēlaties veikt lielāku procesa kontroli, izmantojiet saņemšanas žurnālu vai mobilo ierīci, lai apstrādātu preču saņemšanu. |
+| Saņemtās tranzītpreces | Saņemt visas pasūtījuma rindas, kas ir tranzītā reisā. Šī poga ir viena no trim opcijām, kas ir pieejamas preču saņemšanai tranzītā reisā. (Pārējās divas opcijas ir **Izveidojiet saņemšanas žurnāla** pogu, kas vēlāk ir aprakstīta šajā tabulā, un Warehouse Management mobile programmā.) Šī opcija ir vienkāršākā opcija, un apstrādās preces tranzītā no tranzītkrājumu noliktavas un galamērķa noliktavā. Ja vēlaties veikt lielāku procesa kontroli, izmantojiet saņemšanas žurnālu vai mobilo ierīci, lai apstrādātu preču saņemšanu. |
 | Atrast automātiskās izmaksas | Atrast atbilstošās reisa izmaksas. Ja šīs izmaksas jau ir atrastas vai atjauninātas, tiek saņemts šāds ziņojums: "Pastāv rēķinā neiekļautas izmaksu rindas. Vai vēlaties tos pārrakstīt?" Tiks atrastas visas izmaksas, kas nebija saistītas ar reisu izveides laikā. Ievērojiet, ka reisu izmaksas, kas ir pievienotas reisam un kurām izrakstīts rēķins, netiks pārrakstītas. |
-| Izveidot saņemšanas žurnālu | <p>Atveriet dialoglodziņu **Izveidot saņemšanas žurnālu**, kurā varat izveidot saņemšanas žurnālu, kas nosaka atrašanās vietu. Minētajā dialoglodziņā ir pieejamas šādas opcijas:</p><ul><li>**Izveidojiet no tranzīt precēm** vai **Izveidot no pārsūtīšanas pasūtījuma** – šīs opcijas etiķete mainās atkarībā no tā, vai izmantojat preču tranzīta procesu. Iestatiet to uz *Jā*, lai atvērtu saņemšanas žurnāla lapu, kas ļauj apstrādāt standarta saņemšanas žurnālu tranzīt precēm, kas ir saistītas ar reisu. Ja krājums jau ir saņemts gala adresāta noliktavā, tas netiks pievienots saņemšanas žurnāla rindām.</li><li>**Inicializēt daudzumu** — iestatiet šo opciju kā *Jā*, lai inicializētu saņemto daudzumu, pamatojoties uz preču daudzumu, kas norādīts reisa rindā. Ja reisa rinda ir daļēji saņemta, šis daudzums ir atlikušais daudzums. Ieteicams saglabāt šo opciju iestatīt uz *Jā*.</li><li>**Izveidot no pasūtījuma rindām** – iestatiet šo opciju uz *Jā*, lai izmantotu pasūtījuma rindu vērtību.</li></ul><p>Šī poga ir viena no trim opcijām, kas ir pieejamas preču saņemšanai tranzīta reisā. (Citas opcijas ir **Saņemt tranzīta preces** poga, kas iepriekš aprakstīta šajā tabulā, un noliktavas programma.)</p> |
+| Izveidot saņemšanas žurnālu | <p>Atveriet dialoglodziņu **Izveidot saņemšanas žurnālu**, kurā varat izveidot saņemšanas žurnālu, kas nosaka atrašanās vietu. Minētajā dialoglodziņā ir pieejamas šādas opcijas:</p><ul><li>**Izveidojiet no tranzīt precēm** vai **Izveidot no pārsūtīšanas pasūtījuma** – šīs opcijas etiķete mainās atkarībā no tā, vai izmantojat preču tranzīta procesu. Iestatiet to uz *Jā*, lai atvērtu saņemšanas žurnāla lapu, kas ļauj apstrādāt standarta saņemšanas žurnālu tranzīt precēm, kas ir saistītas ar reisu. Ja krājums jau ir saņemts gala adresāta noliktavā, tas netiks pievienots saņemšanas žurnāla rindām.</li><li>**Inicializēt daudzumu** — iestatiet šo opciju kā *Jā*, lai inicializētu saņemto daudzumu, pamatojoties uz preču daudzumu, kas norādīts reisa rindā. Ja reisa rinda ir daļēji saņemta, šis daudzums ir atlikušais daudzums. Ieteicams saglabāt šo opciju iestatīt uz *Jā*.</li><li>**Izveidot no pasūtījuma rindām** – iestatiet šo opciju uz *Jā*, lai izmantotu pasūtījuma rindu vērtību.</li></ul><p>Šī poga ir viena no trim opcijām, kas ir pieejamas preču saņemšanai tranzīta reisā. (Citas opcijas ir **Saņemt tranzīta preces** poga, kas iepriekš aprakstīta šajā tabulā, un Warehouse Management mobile programma.)</p> |
 | Uzkrāt izmaksas | Uzkrāt izmaksas, kur izmaksu tipam ir norādīts debeta Virsgrāmatas konts. Šī poga parasti tiek lietota, kad krājums ir tranzītā vai kad preces ir saņemtas un iekļautas rēķinā. |
 | Apkopot izmaksas | Pārvietojiet izmaksas no nosūtīšanas konteinera līmeņa uz reisa līmeni. Šo pogu var izmantot koplietotos pakalpojumos/nosūtīšanas scenārijā, kur vairākiem elementiem ir kopīga pārvadāšanas konteinera vai kartona kārbas vieta. Piemēram, reisam ir 40 pēdu kravas pārvadāšanas konteiners un 20 pēdu kravas pārvadāšanas konteiners, un iedalīšana tiek veikta pēc apjoma. Šajā gadījumā iespējams, ka preces/entītijas, kas koplieto vai izmanto vietu 20 pēdu kravas pārvadāšanas konteinerā, var tikt inicializētas. Lai pašizmaksas sadalītu vienmērīgi, dažas organizācijas varētu vēlēties pārsūtīt izmaksas uz reisu un sadalīt tās, balstoties uz reisa līmeņa iedalīšana metodi. |
 | Mainīt maršruta veidni | Atveriet dialoglodziņu, kur var nomainīt reisa veidni. Pēc veidnes maiņas reisa izmaksas tiks dzēstas. Tāpēc, iespējams, būs jāatlasa **Meklēt automātiskās izmaksas** (skatiet aprakstu iepriekš šajā tabulā) vai vēlreiz jāpievieno izmaksas manuāli. |
