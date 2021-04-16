@@ -2,11 +2,9 @@
 title: Dataverse integrācijas konfigurēšana
 description: Varat ieslēgt vai izslēgt integrāciju starp Microsoft Dataverse un Microsoft Dynamics 365 Human Resources. Varat arī skatīt detalizētu informāciju par sinhronizāciju, dzēst izsekošanas datus un vēlreiz sinhronizēt tabulu, lai palīdzētu novērst ar datiem saistītās problēmas starp abām vidēm.
 author: andreabichsel
-manager: tfehr
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 73e2d2d56da812060961c34d7cb72b71b6b2df34
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 080f66e4e13df44a77f0499c6d69686f0e3d7021
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465802"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801195"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse integrācijas konfigurēšana
 
@@ -70,7 +68,7 @@ Iespējamas, velēsieties izslēgt integrāciju tālāk minētajās situācijās
 
 - Lai izslēgtu integrāciju, iestatiet opciju uz **Nē**.
 
-[![Dataverse integrācijas ieslēgšana vai izslēgšana](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Pakalpojuma Dataverse integrācijas ieslēgšana vai izslēgšana](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Lai veiktu datu migrācijas uzdevumus, ieteicams izslēgt Dataverse integrāciju. Lielas datu augšupielādes var būtiski ietekmēt veiktspēju. Piemēram, 2000 darbinieku augšupielādēšana var aizņemt vairākas stundas, ja integrācija ir iespējota, un mazāk par vienu stundu, kad tā ir atspējota. Šajā piemērā sniegtie numuri ir tikai demonstrācijas nolūkiem. Precīzs laika apjoms, kas nepieciešams, lai importētu ierakstus, var būtiski atšķirties atkarībā no daudziem faktoriem.
@@ -124,7 +122,7 @@ Lai veiktu pilnu sinhronizāciju tabulā starp Human Resources un Dataverse:
 ## <a name="see-also"></a>Skatiet arī
 
 [Dataverse tabulas](hr-developer-entities.md)<br>
-[Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Pakalpojuma Dataverse virtuālo tabulu konfigurēšana](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resources virtuālās tabulas: Bieži uzdotie jautājumi](hr-admin-virtual-entity-faq.md)<br>
 [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminoloģijas atjauninājumi](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)

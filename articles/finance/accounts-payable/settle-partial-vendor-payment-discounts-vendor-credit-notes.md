@@ -2,11 +2,9 @@
 title: Nosegt daļēju kreditora maksājumu, kam ir atlaides kredīta notām
 description: Šajā rakstā ir izklāstīts scenārijs, kur kredītrēķins tiek nosegts pret rēķinu.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227308"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827846"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Nosegt daļēju kreditora maksājumu, kam ir atlaides kredīta notām
 
@@ -42,10 +40,10 @@ Eiprila 29. jūnijā izveido kreditoram 3050 rēķinu par summu 1000,00. 2. jūl
 
 Kredītrēķina atlaides informācija ir redzama lapas **Nosegt atvērtās transakcijas** apakšdaļā.
 
-|                              |           |
+| Lauks                        | Vērtība     |
 |------------------------------|-----------|
 | Termiņatlaides datums           | 13.07.2015 |
-| Termiņatlaides summa         | 2,00      |
+| Termiņatlaides summa         | 2.00      |
 | Izmantot termiņatlaidi            | Parastais    |
 | Paņemta termiņatlaides summa          | 0,00      |
 | Ņemamā termiņatlaides summa | 2,00      |

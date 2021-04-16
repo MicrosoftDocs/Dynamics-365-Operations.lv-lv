@@ -2,11 +2,9 @@
 title: Ar iepriekšēju datumu datēti čeki
 description: Šajā rakstā ir sniegta informācija par ar iepriekšēju datumu datētu čeku atbalstu programmā Microsoft Dynamics 365 Finance. Ar iepriekšēju datumu datēti čeki ir čeki, kas tiek izsniegti, lai veiktu vai saņemtu maksājumus nākotnes datumā. Tāpēc šādu čeku nevar iekasēt pirms norādītā datuma.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7562999a09e0036a7ea765c0cb0954412bbbda69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9e937361802aa1443f3e2ef9f3bb95d3f4966da7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815792"
 ---
 # <a name="postdated-checks"></a>Ar iepriekšēju datumu datēti čeki
 

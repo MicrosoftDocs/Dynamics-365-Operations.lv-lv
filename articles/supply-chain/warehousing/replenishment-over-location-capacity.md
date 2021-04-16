@@ -2,11 +2,9 @@
 title: Papildināšana, pārsniedzot vietas ietilpību
 description: Šajā tēmā ir sniegta informācija par funkciju Papildināšana, pārsniedzot vietas ietilpību. Šī funkcija ļauj veikt visus papildināšanas darbus, kas būs nepieciešami šīs dienas izveidošanai, un pārvalda šī papildināšanas darba pieejamību, lai nodrošinātu, ka saņemšanas vieta neizbeidzas krājumi un tā nepārsniedz noslodzi.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228397"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823243"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildināšana, pārsniedzot vietas ietilpību
 
@@ -241,7 +239,7 @@ Atkarībā no rīcībā esošajiem daudzumiem izveidotie darba daudzumi var neda
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Rīcībā esošo krājumu numura zīmes ID
 
-Vēlāk šajā scenārijā jūs izmantosiet noliktavas programmu (vai emulatoru), kur ir jāidentificē numura zīme, lai pabeigtu izdošanas un papildināšanas scenārijus.
+Vēlāk šajā scenārijā jūs izmantosiet Warehouse Management mobile programmu (vai emulatoru), kur ir jāidentificē numura zīme, lai pabeigtu izdošanas un papildināšanas scenārijus.
 
 Lai atrastu numura zīmes ID, kas būs nepieciešams vēlāk, veiciet sekojošās darbības.
 
@@ -266,7 +264,7 @@ Pirmajos divos darba ID tiks veikta noliktavas novietojuma papildināšana. Darb
 
 #### <a name="replenishment"></a>Papildināšana
 
-1. Pierakstieties noliktavas programmā kā lietotājs noliktavā *61*. (Ievadiet *61* kā lietotāja ID un *1* kā paroli.)
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs noliktavā *61*. (Ievadiet *61* kā lietotāja ID un *1* kā paroli.)
 1. Doties uz **Krājumi \> Papildināšana**.
 
     Jūs tiekat aicināts pabeigt pirmo papildināšanas darbu. Tiek parādīts krājuma kods, daudzums, novietojumu, no kura izdot.
@@ -296,7 +294,7 @@ Kamēr no novietojuma netiks izdots pietiekami daudz krājumu, lai mobilās ier�
 
 Pirms atlikušo papildināšanas darba uzdevumu var pabeigt, izdošanas novietojums ir jāsamazina līdz līmenim, kurā atlikušo papildināšanas darbu var atbloķēt. Citiem vārdiem sakot, rīcībā esošo krājumu daudzuma summa novietojumā un papildināšanas daudzums nedrīkst pārsniegt **Pārpildes daudzuma** vērtību. Ja šī summa ir mazāka nekā pārpildes daudzums, atlikušais papildināšanas darbs tiks atbloķēts.
 
-1. Pierakstieties noliktavas programmā kā lietotājs noliktavā *61*. (Ievadiet *61* kā lietotāja ID un *1* kā paroli.)
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs noliktavā *61*. (Ievadiet *61* kā lietotāja ID un *1* kā paroli.)
 1. Doties uz **Izejošs \> Pārdošanas saņemšana**.
 1. Ievadiet pirmo darba ID pārdošanas pasūtījumam 1.
 

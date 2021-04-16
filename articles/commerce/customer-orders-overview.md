@@ -2,11 +2,9 @@
 title: Debitoru pasūtījumi Pārdošanas punktā (POS)
 description: Šajā tēmā ir sniegta informācija par debitoru pasūtījumiem Pārdošanas punktā (POS). Debitoru pasūtījumi tiek saukti arī par īpašajiem pasūtījumiem. Šajā tēmā ir iekļauta diskusija par saistītajiem parametriem un transakciju plūsmām.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220514"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821012"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Debitoru pasūtījumi Pārdošanas punktā (POS)
 
@@ -61,7 +59,8 @@ Commerce versijā 10.0.12 un vēlākā versijā, organizācijas var noteikt, vai
 
 Strādājot ar klientu pasūtījumiem POS punktā, ir jāapsver daži krātuves kanāla iestatījumi. Šie iestatījumi ir pieejami programmas Commerce Headquarters lapā **Krātuves** .
 
-- **Noliktava** – Šis lauks norāda noliktavu, kas tiek izmantota, lai izpildītu pasūtījumus, kas ir konfigurēti nosūtīšanai no krātuves.
+- **Noliktava** — šajā laukā tiek norādīta noliktava, kas tiks izmantota, samazināt krājumus kasē un veikt, kā arī ar šo veikalu saistītus debitoru saņemšanas pasūtījumus. Saskaņā ar labāko praksi iesakām izmantot unikālas noliktavas katram veikala kanālam, lai novērstu konfliktējošas biznesa loģikas problēmas veikalos.
+- **Nosūtīšanas noliktava** — šajā laukā tiek norādīta noliktava, kas tiks izmantota, samazināt krājumus kasē un veikt, kā arī ar šo veikalu saistītus debitoru saņemšanas pasūtījumus. Ja jūsu vidē ir iespējota funkcija **Spēja norādīt atrašanās vietas kā "Piegāde" vai "Savākšana"**, POS lietotāji var izvēlēties konkrētu noliktavu nosūtīšanai no POS, nevis izvēlēties veikalu nosūtīšanai no tās. Tādēļ, kad šī funkcija ir aktivizēta, nosūtīšanas noliktava vairs netiek izmantota, jo lietotājs izvēlētos konkrētu noliktavu, no kuras nosūtīt pasūtījumu, kad pasūtījums ir izveidots.
 - **Izpildes grupas piešķire** – Atlasiet šo pogu (cilnē **Iestatīt** darbības rūtī), lai sasaistītu izpildes grupas, uz kurām ir atsauce, lai parādītu saņemšanas vietu vai sūtījuma izcelsmes opcijas, kad debitoru pasūtījumi tiek veidoti POS punktā.
 - **Izmantot mērķa nodokli** – Šī opcija norāda, vai piegādes adrese tiek izmantota, lai noteiktu nodokļu grupu, kas tiek lietota pasūtījuma rindām, kas tiek nosūtītas uz debitora adresi.
 - **Izmantot uz debitoru balstītu nodokli** – Šī opcija norāda, vai nodokļu grupa, kas ir noteikta klienta piegādes adresei, tiek izmantota debitoru pasūtījumu apmaksai, kas tiek izveidoti POS punktā nosūtīšanai uz klienta mājām.

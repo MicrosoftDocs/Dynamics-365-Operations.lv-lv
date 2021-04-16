@@ -2,11 +2,9 @@
 title: Pārdošanas notikuma Kanban kārtulas izveide
 description: Šī procedūra fokusējas uz iestatījumiem, kas ir vajadzīgi, lai izveidotu Kanban nosacījumu, kas tiek izraisīts pārdošanas pasūtījuma izveides laikā.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e33be986886d31c5275df3e36e2ce632f32c6f0d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9325bbb8d28587baeb60cdf1fc37121c236f1a10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228567"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828926"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Pārdošanas notikuma Kanban kārtulas izveide
 
@@ -66,7 +64,7 @@ ms.locfileid: "5228567"
 7. Laukā Noliktava ievadiet vai atlasiet kādu vērtību.
     * Iestatiet Noliktava uz 13.  
 8. Daudzuma laukā iestatiet vērtību 75.
-    * Ievadiet daudzumu 50 vai lielāku, lai izraisītu izveidotos Kanban nosacījumus.  
+    * Ievadiet daudzumu 50 vai lielāku, lai izraisītu izveidoto Kanban nosacījumu.  
 
 ## <a name="verify-that-kanban-is-created"></a>Pārbaude, vai Kanban ir izveidots
 1. Noklikšķiniet uz Preces un piegādes.

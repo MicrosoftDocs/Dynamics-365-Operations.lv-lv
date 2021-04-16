@@ -2,11 +2,9 @@
 title: Izmaksu uzskaites sākumlapa
 description: Šajā tēmā ir sniegts saraksts ar palīdzības tēmām un citiem resursiem, kas ir pieejami izmaksu uzskaitei.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3485818ff67e20a5354e4bebc4903faaa36f6286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841121"
 ---
 # <a name="cost-accounting-home-page"></a>Izmaksu uzskaites sākumlapa
 
@@ -36,7 +34,7 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 ## <a name="quick-links"></a>Tiešās saites
 
-|      |   |
+| &nbsp; | &nbsp;  |
 |------|---|
 |  [Bāzes elementu konfigurēšana (elektroniskās mācības)](https://mbspartner.microsoft.com/Home) (nepieciešams CustomerSource konts)  |[Izmaksu elementu dimensijas](cost-elements.md)  |
 |  [Dimensiju hierarhija](dimension-hierarchy.md)  |[Izmaksu vadības ierīču definēšana](./tasks/define-cost-control-units.md)| 
@@ -46,7 +44,7 @@ Nākamajā mācību kartē ir parādītas galvenās koncepcijas un uzdevumi, kur
 
 ## <a name="get-started-videosbr"></a>Darba sākšanas videoklipi<br/>
 
-|  |  |                             |
+| &nbsp; | &nbsp;  | &nbsp;  |
 |------------------------|--------------------|-----------------------------|
 | [Darba sākšana risinājumā Izmaksu uzskaite](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Izmaksu uzskaites mobilā darbvieta](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Excel izmantošana izmaksu uzskaites analīzei](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 

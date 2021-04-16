@@ -2,11 +2,9 @@
 title: Automatizēts kreditoru rēķinu izrakstīšanas procesa pārskats
 description: Šajā tēmā ir aprakstīta iespēja automatizēt kreditora rēķina apstrādi un automatizēta procesa izmantošanas priekšrocības.
 author: abruer
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ad26dbfb4e45e15cd6e6f2ab32bc69f108ffb5a
-ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
+ms.openlocfilehash: 37dd76773abb69819bfd32bb2813bb8b42b2a375
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "5555163"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820839"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatizēts kreditoru rēķinu izrakstīšanas procesa pārskats
 
@@ -47,7 +45,7 @@ Automatizācijas procesus var izmantot, lai veiktu šos uzdevumus:
 Kā daļu no bezkontakta kreditoru rēķinu izrakstīšanas procesa, varat likt sistēmai automātiski iesniegt importētu rēķinu darbplūsmas sistēmā. Process darbosies fonā, izmantojot jūsu norādīto biežumu (katru stundu vai dienu). Iespējai automātiski iesniegt importētos rēķinus darbplūsmas sistēmā ir nepieciešams, lai process sāktos ar importētu rēķinu. Lai nodrošinātu, ka rēķinu var pilnībā apstrādāt bez manuālas iejaukšanās, darbplūsmas konfigurācijā ir jāiekļauj automatizēts grāmatošanas uzdevums.
 
 
-Rēķinus, kas saistīti ar pirkšanas pasūtījumiem (PP), un rēķinus, kas ietver ar PP nesaistītu sagādes kategoriju, un neuzkrātas rindas var automātiski iesniegt darbplūsmas sistēmā. Rēķinus, kurus ievada manuāli, un rēķinus, kurus izveido, izmantojot darbvietu **Kreditoru sadarbības rēķinu izrakstīšana** ir manuāli jāiesniedz darbplūsmas sistēmā. Iepriekšēja maksājuma lietošanas apstrāde importētiem rēķiniem ir jāveic manuāli. Varat manuāli piemērot iepriekšējus maksājums pirms vai pēc importētā rēķina izvietošanas. Iepriekšējos maksājumus varat manuāli piemērot neizvietotiem standarta rēķiniem, izmantojot lapu **Kreditoru rēķini**. Pēc izvietošanas sagatavotais iepriekšējais maksājums būs pieejams manuālai piemērošanai citiem rēķiniem no šī kreditora lapā **Kreditori** (**Kreditori\>Vispārīgi\>Kreditori\>Visi kreditori\>Rēķinu cilne\>Piemērot**).
+Rēķinus, kas saistīti ar pirkšanas pasūtījumiem (PP), un rēķinus, kas ietver ar PP nesaistītu sagādes kategoriju, un neuzkrātas rindas var automātiski iesniegt darbplūsmas sistēmā. Rēķinus, kurus ievada manuāli, un rēķinus, kurus izveido, izmantojot darbvietu **Kreditoru sadarbības rēķinu izrakstīšana** ir manuāli jāiesniedz darbplūsmas sistēmā. Iepriekšēja maksājuma lietošanas apstrāde importētiem rēķiniem ir jāveic manuāli. Varat manuāli piemērot iepriekšējus maksājums pirms vai pēc importētā rēķina izvietošanas. Iepriekšējos maksājumus varat manuāli piemērot neizvietotiem standarta rēķiniem, izmantojot lapu **Kreditoru rēķini**. Pēc izvietošanas sagatavotais iepriekšējais maksājums būs pieejams manuālai piemērošanai citiem rēķiniem no šī kreditora lapā **Kreditori** (**Kreditori \> Vispārīgi \> Kreditori \> Visi kreditori \> Rēķinu cilne \> Piemērot**).
 
 Automatizācijas līdzeklis nodrošina elastīgu struktūru, kas ļauj definēt uzņēmuma specifiskos noteikumus importēto kreditoru rēķinu iesniegšanai darbplūsmas sistēmā un grāmatoto preču ieejas plūsmas rindu saskaņošana ar gaidošām kreditora rēķina rindām.
 

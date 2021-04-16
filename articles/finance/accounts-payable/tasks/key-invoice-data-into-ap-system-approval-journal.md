@@ -2,11 +2,9 @@
 title: Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu
 description: Šajā tēmā paskaidrots, kā izmantot rēķinu reģistru, lai izveidotu rēķinus, un tad izmantot apstiprināšanas žurnālu, lai atjauninātu izdevumu kontus.
 author: abruer
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0fee32d9fd1ab89b1a8cedb2e1965674586d4e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d01c04fcf707109cd7bc6f056846506914e96dec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227188"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838889"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Rēķinu datu ievade kreditoru modulī, izmantojot apstiprināšanas žurnālu
 
@@ -32,7 +30,7 @@ ms.locfileid: "5227188"
 1. Navigācijas rūtī pārejiet uz sadaļu **Moduļi > Kreditori > Rēķini > Rēķinu reģistrs**.
 2. Atlasiet **Jauns**.
 3. Atlasiet nosaukumu tam rēķinu reģistram, kuru vēlaties lietot.
-4. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas. 
+4. Atlasiet **Rindas**, lai atvērtu reģistru un ievadītu izmaksu rindas.
 5. Atlasiet kreditoru. Piemēram, ievadiet vai atlasiet `US-104`.
 6. Laukā **Rēķins** ierakstiet kādu vērtību.
 7. Laukā **Apraksts** ierakstiet kādu vērtību.

@@ -1,12 +1,10 @@
 ---
-title: " Pamatlīdzekļu uzskaite nodokļu aprēķinam"
+title: Pamatlīdzekļu uzskaite nodokļu aprēķinam
 description: Šajā tēmā ir sniegta informācija par nodokļu nolietojuma funkcionalitāti Latvijai.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepreciationProfile, AssetTable, AssetTaxDepreciation
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Latvia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b49f3fe7f305ed4ee2152ca676570203d51cc32
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4b76bc1ff4e2e62f78b2fe21e9e1ea29428acb09
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243557"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840977"
 ---
-# <a name="fixed-assets-accounting-for-tax-purposes"></a> Pamatlīdzekļu uzskaite nodokļu aprēķinam
+# <a name="fixed-assets-accounting-for-tax-purposes"></a>Pamatlīdzekļu uzskaite nodokļu aprēķinam
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,9 +42,9 @@ Iestatot nolietojuma tabulu, ņemiet vērā tālāk minēto.
 ## <a name="set-up-books"></a>Iestatīt grāmatas
 Izmantojiet lapu **Grāmatas**, lai definētu nodokļu kategoriju. Grāmatas tiek sauktas arī par nodokļu kategorijām. Lai izveidotu grāmatu, atlasiet nolietojuma tabulu, kurai lapas **Nolietojuma tabulas** laukā **Metode** ir atzīmēta vērtība **Degresīvā**. Lapa **Grāmatas** juridiskajām personām Latvijā ietver tālāk uzskaitītos laukus.
 
--   **Grāmatošanas līmenis** — šajā laukā atlasiet vērtību **Nodokļi**.
--   **Summēt par kategoriju** — atzīmējiet šo opciju, ja nodokļu nolietojums ir jāsummē un jāaprēķina visiem pamatlīdzekļiem, kam laukā **Kategorija** ir atlasīta vienāda grāmata.
--   **Nodokļu koeficienti** — varat iestatīt nodokļu koeficientus katram koeficientam, lai finanšu gadam koriģētu iegādes cenu.
+-   **Grāmatošanas līmenis** — šajā laukā atlasiet vērtību **Nodokļi**.
+-   **Summēt par kategoriju** — atzīmējiet šo opciju, ja nodokļu nolietojums ir jāsummē un jāaprēķina visiem pamatlīdzekļiem, kam laukā **Kategorija** ir atlasīta vienāda grāmata.
+-   **Nodokļu koeficienti** — varat iestatīt nodokļu koeficientus katram koeficientam, lai finanšu gadam koriģētu iegādes cenu.
 
 Papildinformāciju par grāmatu iestatīšanu skatiet rakstā [Nolietojuma grāmatu iestatīšana (2016. gada maijs)](../fixed-assets/tasks/set-up-depreciation-books-2016-05.md)
 

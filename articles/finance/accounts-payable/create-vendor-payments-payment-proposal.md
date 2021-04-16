@@ -2,11 +2,9 @@
 title: Kreditoru maksājumu izveide, izmantojot maksājuma priekšlikumu
 description: Šajā tēmā ir sniegts maksājumu priekšlikumu opciju pārskats, kā arī ir iekļauti daži piemēri, kas izskaidro, kā maksājumu priekšlikumi darbojas.
 author: abruer
-manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17dc55245128d0986532c993507af5046e5e0f69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 95862a0dc55ec1d77b7d1a53209ba41fed48f82a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212998"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820765"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu
 
@@ -35,11 +33,11 @@ Organizācijas bieži izmanto maksājumu priekšlikumus, lai izveidotu kreditoru
 Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieejamas dažādas apmaksājamo rēķinu atlases opcijas. Cilnē **Parametrs** ir pieejamas opcijas, ko vairums uzņēmumu izmanto visbiežāk. Kopsavilkuma cilnē **Iekļaujamie ieraksti** varat norādīt, kuri rēķini vai kreditori ir jāiekļauj apmaksai, definējot dažādu raksturlielumu diapazonus. Piemēram, ja vēlaties maksāt tikai noteiktai kreditoru grupai, varat definēt filtru šai kreditoru grupai. Šī funkcionalitāte bieži tiek izmantota, lai atlasītu rēķinus ar noteiktu maksāšanas metodi. Piemēram, ja definējat filtru kur **Maksāšanas metode** = **Čeks**, tad apmaksai tiek atlasīti tikai tie rēķini, kuriem ir norādīta attiecīgā maksāšanas metode, ja vien tie atbilst arī citiem vaicājumā norādītajiem kritērijiem. Cilnē **Papildu parametri** ir ietvertas papildu opcijas, no kurām dažas var nebūt piemērotas jūsu organizācijai. Piemēram, šajā cilnē ir ietvertas opcijas rēķinu apmaksai, izmantojot centralizētos maksājumus.
 
 ## <a name="parameters"></a>Parametri
--   **Atlasīt rēķinus pēc** — rēķinus, kuru datums atbilst laukos **Sākuma datums** un **Beigu datums** norādītajam datumu diapazonam, var atlasīt pēc apmaksas datuma, termiņatlaides datuma vai abiem datumiem. Ja izmantojat termiņatlaides datumu, tad sistēmā vispirms tiek meklēti rēķini, kuru termiņatlaides datums ir diapazonā no sākuma līdz beigu datumam. Pēc tam sistēmā tiek noteikts, vai rēķins ir piemērots termiņatlaides saņemšanai, izmantojot sezonas datumu, lai pārliecinātos, ka termiņatlaides datums nav jau pagājis.
+-   **Atlasīt rēķinus pēc** — rēķinus, kuru datums atbilst laukos **Sākuma datums** un **Beigu datums** norādītajam datumu diapazonam, var atlasīt pēc apmaksas datuma, termiņatlaides datuma vai abiem datumiem. Ja izmantojat termiņatlaides datumu, tad sistēmā vispirms tiek meklēti rēķini, kuru termiņatlaides datums ir diapazonā no sākuma līdz beigu datumam. Pēc tam sistēmā tiek noteikts, vai rēķins ir piemērots termiņatlaides saņemšanai, izmantojot sezonas datumu, lai pārliecinātos, ka termiņatlaides datums nav jau pagājis.
 -   **Sākuma datums** un **Beigu datums** — apmaksai tiek atlasīti rēķini, kuru apmaksas datums vai termiņatlaides datums ir šajā datumu diapazonā.
 -   **Agrākais maksājuma datums** — ievadiet agrāko maksājuma datumu. Piemēram, laukos **Sākuma datums** un **Beigu datums** ir norādīts diapazons no 1. septembra līdz 10. septembrim, bet agrākais maksājuma datums ir 5. septembris. Šādā gadījumā visiem rēķiniem, kuru apmaksas datums ir no 1. septembra līdz 5. septembrim, maksājuma datums ir 5. septembris. Taču visiem rēķiniem, kuru apmaksas datums ir no 5. septembra līdz 10. septembrim, maksājuma datums ir vienāds ar katra rēķina apmaksas datumu.
 -   **Vērtības robeža** — ievadiet maksimālo visu maksājumu kopsummu.
--   **Izveidot maksājumus bez rēķina priekšskatīšanas** — ja šai opcijai ir iestatīta vērtība **Jā**, tad maksājumi tiek nekavējoties izveidoti lapā **Kreditoru maksājumi**. Lapa **Maksājuma priekšlikums** tiek izlaista. Tāpēc maksājumi tiek izveidoti ātrāk. Maksājumus joprojām var modificēt lapā **Kreditoru maksājumi**. Varat arī atgriezties lapā **Maksājuma priekšlikums**, izmantojot pogu **Rediģēt atlasītā maksājuma rēķinus**.
+-   **Izveidot maksājumus bez rēķina priekšskatīšanas** — ja šai opcijai ir iestatīta vērtība **Jā**, tad maksājumi tiek nekavējoties izveidoti lapā **Kreditoru maksājumi**. Lapa **Maksājuma priekšlikums** tiek izlaista. Tāpēc maksājumi tiek izveidoti ātrāk. Maksājumus joprojām var modificēt lapā **Kreditoru maksājumi**. Varat arī atgriezties lapā **Maksājuma priekšlikums**, izmantojot pogu **Rediģēt atlasītā maksājuma rēķinus**.
 
 ## <a name="advanced-options"></a>Detalizētās opcijas
 - **Pārbaudīt kreditora bilanci** — ja ir iestatīta šīs opcijas vērtība **Jā**, pirms jebkura rēķina apmaksas sistēmā tiek pārbaudīts, vai kreditoram nav debeta bilances. Ja kreditoram ir debeta bilance, netiek izveidots neviens maksājums. Piemēram, kreditoram var būt kredītrēķini vai maksājumi, kas ir iegrāmatoti, bet vēl nav nosegti. Šādos gadījumos kreditoram nav jāmaksā. Tā vietā kredītrēķini vai maksājumi ir jāsedz ar neapmaksātajiem rēķiniem.
@@ -49,11 +47,11 @@ Maksājuma priekšlikuma vaicājumā ir ietvertas dažādas cilnes, kur ir pieej
 - **Drukāt tikai pārskatu** — iestatiet šīs opcijas vērtību **Jā**, lai maksājuma piedāvājuma rezultāti tiktu ietverti pārskatā, neizveidojot nevienu maksājumu.
 - **Iekļaut kreditora rēķinus no citām juridiskām personām** — ja jūsu organizācijā tiek izmantots centralizēts maksāšanas process un maksāšanas priekšlikumā ir jāietver rēķini no citām juridiskajām personām, kas ir ietvertas meklēšanas kritērijos, iestatiet šīs opcijas vērtību **Jā**.
 - **Piedāvāt atsevišķu kreditora maksājumu pēc juridiskās personas** — ja ir iestatīta šīs opcijas vērtība **Jā**, katra kreditora katrai juridiskajai personai tiek izveidots atsevišķs maksājums. Maksājumā tiek norādīts tas kreditors, kas ir norādīts katras juridiskās personas rēķinā. Ja ir iestatīta šīs opcijas vērtība **Nē** un vienam kreditoram ir rēķini no vairākām juridiskajām personām, tiek izveidots viens rēķins par atlasīto rēķinu kopsummu. Maksājumā tiek norādīts pašreizējās juridiskās personas kreditors. Ja nepastāv pašreizējās juridiskās personas kreditora konts, tiek izmantots pirmā apmaksājamā rēķina kreditora konts.
-- **Maksājuma valūta** — šajā laukā tiek norādīta valūta, kurā tiek izveidoti visi maksājumi. Ja valūta nav norādīta, katrs rēķins tiek maksāts rēķina valūtā.
+- **Maksājuma valūta** — šajā laukā tiek norādīta valūta, kurā tiek izveidoti visi maksājumi. Ja valūta nav norādīta, katrs rēķins tiek maksāts rēķina valūtā.
 - **Maksājuma nedēļas diena** — ievadiet nedēļas dienu, kad ir jāveic maksājums. Šis lauks tiek izmantots tikai tad, ja maksāšanas metode ir iestatīta rēķinu kopsummas apmaksai noteiktā nedēļas dienā.
-- **Korespondējošā konta tips** un **Korespondējošais konts** — iestatiet šos laukus, lai definētu noteiktu konta tipu (piemēram, **Virsgrāmata** vai **Banka**) un korespondējošo kontu (piemēram, noteiktu bankas kontu). Rēķina apmaksas metodē ir noteikts noklusējuma korespondējošā konta tips un korespondējošais konts, bet varat izmantot šos laukus, lai mainītu noklusējuma vērtības.
-- **Apkopotā maksājuma datums** — to izmanto tikai tad, ja lauks **Periods** maksāšanas metodei ir iestatīts uz **Kopsumma**. Ja ir definēts datums, visi maksājumi tiek izveidoti šajā datumā. Lauks **Agrākais maksājuma datums** tiek ignorēts.
-- **Papildu filtri** — kopsavilkuma cilnē **Iekļaujamie ieraksti** varat definēt papildu kritēriju diapazonus. Piemēram, ja vēlaties maksāt tikai kādai kreditoru grupai, varat definēt filtru šai kreditoru grupai. Šī funkcionalitāte bieži tiek izmantota, lai atlasītu rēķinus ar noteiktu maksāšanas metodi. Piemēram, ja definējat filtru kur **Maksāšanas metode** = **Čeks**, tad apmaksai tiek atlasīti tikai tie rēķini, kuriem ir norādīta attiecīgā maksāšanas metode, ja vien tie atbilst arī citiem vaicājumā norādītajiem kritērijiem.
+- **Korespondējošā konta tips** un **Korespondējošais konts** — iestatiet šos laukus, lai definētu noteiktu konta tipu (piemēram, **Virsgrāmata** vai **Banka**) un korespondējošo kontu (piemēram, noteiktu bankas kontu). Rēķina apmaksas metodē ir noteikts noklusējuma korespondējošā konta tips un korespondējošais konts, bet varat izmantot šos laukus, lai mainītu noklusējuma vērtības.
+- **Apkopotā maksājuma datums** — to izmanto tikai tad, ja lauks **Periods** maksāšanas metodei ir iestatīts uz **Kopsumma**. Ja ir definēts datums, visi maksājumi tiek izveidoti šajā datumā. Lauks **Agrākais maksājuma datums** tiek ignorēts.
+- **Papildu filtri** — kopsavilkuma cilnē **Iekļaujamie ieraksti** varat definēt papildu kritēriju diapazonus. Piemēram, ja vēlaties maksāt tikai kādai kreditoru grupai, varat definēt filtru šai kreditoru grupai. Šī funkcionalitāte bieži tiek izmantota, lai atlasītu rēķinus ar noteiktu maksāšanas metodi. Piemēram, ja definējat filtru kur **Maksāšanas metode** = **Čeks**, tad apmaksai tiek atlasīti tikai tie rēķini, kuriem ir norādīta attiecīgā maksāšanas metode, ja vien tie atbilst arī citiem vaicājumā norādītajiem kritērijiem.
 
 ## <a name="scenarios"></a>Scenāriji
 

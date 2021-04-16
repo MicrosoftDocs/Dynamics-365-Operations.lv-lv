@@ -2,11 +2,9 @@
 title: Novietojuma produkta dimensiju sajaukšana
 description: Šajā tēmā ir sniegta informācija par novietojuma produktu dimensiju jaukšanu. Šī novietojuma profila funkcionalitāte palīdz uzlabot novietojumu pārvaldību, izmantojot produkta variantus vai produktus ar dimensijām, piemēram, modes industrijā. Tas ļauj jums izlemt, vai konfigurācijas, krāsas, stilus un izmērus var kombinēt noteiktam novietojuma profilam, vai arī tikai vienu no šīm dimensijām, vai to kombināciju var pievienot tam pašam novietojumam.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217033"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831294"
 ---
 # <a name="location-product-dimension-mixing"></a>Novietojuma produkta dimensiju sajaukšana
 
@@ -206,9 +204,9 @@ Jūs izveidosiet pirkuma pasūtījumu, kam ir trīs rindas: divas rindas satur v
 
 1.Atlasiet **Saglabāt**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Saņemt pirkuma pasūtījumu rindas noliktavas lietotnē
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Saņemt pirkuma pasūtījumu rindas Warehouse Management mobile programmā
 
-1. Pierakstieties noliktavas lietotnē kā lietotājs, kurš ir iespējots noliktavā *24*.
+1. Pierakstieties Warehouse Management mobile programmā kā lietotājs, kurš ir iespējots noliktavā *24*.
 1. Atlasiet izvēlni **Ienākošie**.
 1. Atlasiet **PO rindas saņemšana**.
 1. Atlasiet lauku **PONUM** un pēc tam ievadiet pirkuma pasūtījuma numuru.
