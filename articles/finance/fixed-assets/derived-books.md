@@ -2,11 +2,9 @@
 title: Atvasinātās grāmatas
 description: Šajā rakstā ir sniegts pārskats par atvasināto grāmatu funkcionalitāti.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
@@ -17,33 +15,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee7471e952409c7848015d2af07738e034e0d222
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c53d72220890803d561ebe057acfdf0974bd421b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241150"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826910"
 ---
-# <a name="derived-books"></a><span data-ttu-id="c0d4b-103">Atvasinātās grāmatas</span><span class="sxs-lookup"><span data-stu-id="c0d4b-103">Derived books</span></span>
+# <a name="derived-books"></a><span data-ttu-id="4cd36-103">Atvasinātās grāmatas</span><span class="sxs-lookup"><span data-stu-id="4cd36-103">Derived books</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c0d4b-104">Šajā rakstā ir sniegts pārskats par atvasināto grāmatu funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-104">This article provides an overview of derived book functionality.</span></span>
+<span data-ttu-id="4cd36-104">Šajā rakstā ir sniegts pārskats par atvasināto grāmatu funkcionalitāti.</span><span class="sxs-lookup"><span data-stu-id="4cd36-104">This article provides an overview of derived book functionality.</span></span>
 
-<span data-ttu-id="c0d4b-105">Atvasināto grāmatu mērķis ir vienkāršot regulāriem intervāliem plānotu pamatlīdzekļu grāmatu transakciju grāmatošanu.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="c0d4b-106">Izvēlieties vienu grāmatu kā primāro grāmatu.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-106">You choose one book as the primary book.</span></span> <span data-ttu-id="c0d4b-107">Tā parasti ir grāmata, ko izmanto grāmatvedības nolietojumam.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="c0d4b-108">Pēc tam šim modelim tiek pievienotas citas grāmatas, kas ir iestatītas darbību grāmatošanai tādos pašos intervālos kā noteikti primārajā grāmatā.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="c0d4b-109">PVN nolietojuma grāmatas bieži tiek iestatītas kā atvasinātās grāmatas.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-109">Tax depreciation books are often set up as derived books.</span></span> 
+<span data-ttu-id="4cd36-105">Atvasināto grāmatu mērķis ir vienkāršot regulāriem intervāliem plānotu pamatlīdzekļu grāmatu transakciju grāmatošanu.</span><span class="sxs-lookup"><span data-stu-id="4cd36-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="4cd36-106">Izvēlieties vienu grāmatu kā primāro grāmatu.</span><span class="sxs-lookup"><span data-stu-id="4cd36-106">You choose one book as the primary book.</span></span> <span data-ttu-id="4cd36-107">Tā parasti ir grāmata, ko izmanto grāmatvedības nolietojumam.</span><span class="sxs-lookup"><span data-stu-id="4cd36-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="4cd36-108">Pēc tam šim modelim tiek pievienotas citas grāmatas, kas ir iestatītas darbību grāmatošanai tādos pašos intervālos kā noteikti primārajā grāmatā.</span><span class="sxs-lookup"><span data-stu-id="4cd36-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="4cd36-109">PVN nolietojuma grāmatas bieži tiek iestatītas kā atvasinātās grāmatas.</span><span class="sxs-lookup"><span data-stu-id="4cd36-109">Tax depreciation books are often set up as derived books.</span></span> 
 
-<span data-ttu-id="c0d4b-110">Izplatītākās iestatāmās darbības iegrāmatošanai uz atvasinātajām grāmatām ir iegādes, iegādes pielāgojumi un izslēgšanas.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
+<span data-ttu-id="4cd36-110">Izplatītākās iestatāmās darbības iegrāmatošanai uz atvasinātajām grāmatām ir iegādes, iegādes pielāgojumi un izslēgšanas.</span><span class="sxs-lookup"><span data-stu-id="4cd36-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
 
-## <a name="example"></a><span data-ttu-id="c0d4b-111">Paraugs</span><span class="sxs-lookup"><span data-stu-id="c0d4b-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4cd36-111">Paraugs</span><span class="sxs-lookup"><span data-stu-id="4cd36-111">Example</span></span>
 
-<span data-ttu-id="c0d4b-112">Grāmata B un grāmata C ir iestatītas kā atvasinātās grāmatas grāmatai A darbību tipam Iegāde.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="c0d4b-113">Grāmatā A ievadiet pamatlīdzekļa 123 iegādes darbību par summu 1500,00.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
+<span data-ttu-id="4cd36-112">Grāmata B un grāmata C ir iestatītas kā atvasinātās grāmatas grāmatai A darbību tipam Iegāde.</span><span class="sxs-lookup"><span data-stu-id="4cd36-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="4cd36-113">Grāmatā A ievadiet pamatlīdzekļa 123 iegādes darbību par summu 1500,00.</span><span class="sxs-lookup"><span data-stu-id="4cd36-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
 
-<span data-ttu-id="c0d4b-114">Kad darbība ir iegrāmatota, grāmatas B pamatlīdzeklim 123 un grāmatas C pamatlīdzeklim 123 tiek ģenerēta un iegrāmatota iegādes darbība par summu 1500,00.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="c0d4b-115">Kad tiek sagatavotas primārās grāmatas darbības pamatlīdzekļu žurnālā, ir iespējams arī apskatīt un rediģēt atvasināto grāmatu darbības.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="c0d4b-116">Ja primārās grāmatas darbības tiek sagatavotas citā žurnālā, atvasināto vērtību darbības netiek parādītas.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="c0d4b-117">Tomēr, kad primārās grāmatas darbības ir iegrāmatotas, tās tiek iegrāmatotas atbilstošajos kontos un grāmatošanas līmeņos.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
+<span data-ttu-id="4cd36-114">Kad darbība ir iegrāmatota, grāmatas B pamatlīdzeklim 123 un grāmatas C pamatlīdzeklim 123 tiek ģenerēta un iegrāmatota iegādes darbība par summu 1500,00.</span><span class="sxs-lookup"><span data-stu-id="4cd36-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="4cd36-115">Kad tiek sagatavotas primārās grāmatas darbības pamatlīdzekļu žurnālā, ir iespējams arī apskatīt un rediģēt atvasināto grāmatu darbības.</span><span class="sxs-lookup"><span data-stu-id="4cd36-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="4cd36-116">Ja primārās grāmatas darbības tiek sagatavotas citā žurnālā, atvasināto vērtību darbības netiek parādītas.</span><span class="sxs-lookup"><span data-stu-id="4cd36-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="4cd36-117">Tomēr, kad primārās grāmatas darbības ir iegrāmatotas, tās tiek iegrāmatotas atbilstošajos kontos un grāmatošanas līmeņos.</span><span class="sxs-lookup"><span data-stu-id="4cd36-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
 
 > [!NOTE]                                                                                                                               
-> <span data-ttu-id="c0d4b-118">Grāmatas, kas iestatītas, lai grāmatotu darbības intervālos, kas atšķiras no primārās grāmatas intervāliem, jāpievieno pamatlīdzeklim kā atsevišķas grāmatas, nevis kā atvasinātas grāmatas.</span><span class="sxs-lookup"><span data-stu-id="c0d4b-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
+> <span data-ttu-id="4cd36-118">Grāmatas, kas iestatītas, lai grāmatotu darbības intervālos, kas atšķiras no primārās grāmatas intervāliem, jāpievieno pamatlīdzeklim kā atsevišķas grāmatas, nevis kā atvasinātas grāmatas.</span><span class="sxs-lookup"><span data-stu-id="4cd36-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
 
-<span data-ttu-id="c0d4b-119">Papildu informāciju skatiet rakstā [Grāmatošana ar atvasinātām grāmatām](post-derived-value-models.md).</span><span class="sxs-lookup"><span data-stu-id="c0d4b-119">For more information, see [Post with derived books](post-derived-value-models.md).</span></span>
+<span data-ttu-id="4cd36-119">Papildu informāciju skatiet rakstā [Grāmatošana ar atvasinātām grāmatām](post-derived-value-models.md).</span><span class="sxs-lookup"><span data-stu-id="4cd36-119">For more information, see [Post with derived books](post-derived-value-models.md).</span></span>
 
 
 
