@@ -2,11 +2,9 @@
 title: Valūtas maiņas kursu importēšana
 description: Šajā tēmā sniegta informācija par prasībām ārvalstu valūtas atsauces kursu importēšanai, ko publicē maiņas kursu nodrošinātāji.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249123"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823744"
 ---
 # <a name="import-currency-exchange-rates"></a>Valūtas maiņas kursu importēšana
 
@@ -35,9 +33,8 @@ Tālāk esošajās sadaļās ir aprakstīta informācijas plūsma, kas tiek izma
 ## <a name="configure-an-exchange-rate-provider"></a>Maiņas kursu nodrošinātāja konfigurēšana
 Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas ir nepieciešama maiņas kursu nodrošinātājiem. Izmantojiet lapu **Konfigurēt maiņas kursu nodrošinātājus**, lai atlasītu maiņas kursu nodrošinātājus. Dynamics 365 Finance demonstrācijas datu kopā ir ietverti maiņas kursu nodrošinātāji. Tālāk esošajā tabulā ir sniegts lapā pieejamo vadīklu apraksts.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Lauks** | **Apraksts**                                                                                                                                                                                                             |
+| Lauks | Apraksts                   |
+|-----------|-----------------------------------|
 | **Nosaukums**  | Maiņas kursu nodrošinātāja nosaukums.                                                                                                                                                                                     |
 | **Atslēga**   | Nodrošinātājam nepieciešamās katras konfigurācijas informācijas daļas unikālais identifikators. Šī informācija tiek automātiski pievienota katram maiņas kursu nodrošinātājam, kurš tiek pievienots. |
 | **Value** | Informāciju par katru atslēgu. Šī informācija tiek pievienota katram maiņas kursu nodrošinātājam, kurš tiek pievienots.                                                                                         |
@@ -45,9 +42,8 @@ Lai varētu importēt maiņas kursus, vispirms ir jāiestata informācija, kas i
 ## <a name="import-currency-exchange-rates"></a>Valūtas maiņas kursu importēšana
 Varat importēt maiņas kursus no maiņas kursu nodrošinātāju avota un tos pievienot lapai **Valūtas maiņas kursi**. Izmantojiet lapu **Importēt valūtas maiņas kursus**, lai importētu maiņas kursus. Tālāk esošajā tabulā ir sniegti to failu apraksti, kas ir nepieciešami, lai veiksmīgi pabeigtu importēšanas procesu.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Lauks**                              | **Apraksts**                                                                                                                                                                                                                                                                                                                                                             |
+| Lauks | Apraksts                   |
+|-----------|-----------------------------------|
 | **Maiņas kursa tips**                 | Maiņas kursa tips.                                                                                                                                                                                                                                                                                                                                                      |
 | **Maiņas kurus nodrošinātājs**             | Maiņas kursu nodrošinātājs.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importēt uz**                       | Izmantojot šo parametru, tiek norādīts, vai importēt datus par šodienu vai konkrētu datumu diapazonu. Ja vēlaties izmantot datumu diapazonu, ievadiet vai atlasiet sākuma un beigu datumu.                                                                                                                                                                                                                |

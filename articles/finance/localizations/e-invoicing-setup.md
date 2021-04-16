@@ -1,12 +1,10 @@
 ---
-title: Elektronisko rēķinu izrakstīšanas pievienojuma iestatīšana
-description: Šajā tēmā ir paskaidrots, kā iestatīt elektronisko rēķinu izrakstīšanas pievienojumu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
+title: Elektronisko rēķinu izrakstīšanas iestatīšana
+description: Šajā tēmā ir paskaidrots, kā iestatīt elektronisko rēķinu izrakstīšanu programmās Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,62 +15,62 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209950"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840008"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>Elektronisko rēķinu izrakstīšanas pievienojuma iestatīšana
+# <a name="set-up-electronic-invoicing"></a>Elektronisko rēķinu izrakstīšanas iestatīšana
 
 [!include [banner](../includes/banner.md)]
 
 
-Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa iestatīšana ir process, kurā ir nepieciešama konfigurācija, izmantojot regulatīvo konfigurācijas pakalpojumu (Regulatory Configuration Services - RCS) vidi un publicējot šo konfigurāciju elektronisko rēķinu izrakstīšanas pievienojuma serverim. Iestatīšana ļauj izveidot konfigurējamus noteikumus, kas iespējo elektronisko rēķinu izrakstīšanas pievienojumu, lai internetā izmantotu drošu protokolu, lai sazinātos un veiktu datu apmaiņu ar trešās puses elementu, izmantojot tīmkļa pakalpojumus.
+Elektronisko rēķinu izrakstīšanas līdzekļa iestatīšana ir process, kurā ir nepieciešama konfigurācija, izmantojot regulatīvo konfigurācijas pakalpojumu (Regulatory Configuration Services - RCS) vidi un publicējot šo konfigurāciju elektronisko rēķinu izrakstīšanas serverim. Iestatīšana ļauj izveidot konfigurējamus noteikumus, kas iespējo elektronisko rēķinu izrakstīšanu, lai internetā izmantotu drošu protokolu, lai sazinātos un veiktu datu apmaiņu ar trešās puses elementu, izmantojot tīmkļa pakalpojumus.
 
 Konfigurējamība ir atkarīga no elektroniskās ziņošanas (Electronic reporting — ER) formāta konfigurācijas, jo tā ir veids, kā izveidot saturu, kas tiek nosūtīts un saņemts, izmantojot digitālos failus. Tā arī paļaujas uz saziņas darbību saskaņu, lai nosūtītu pieprasījumus un saņemtu atbildes no trešās puses tīmekļa pakalpojumiem, neprasot ievadīt kodu.
 
 ## <a name="overview"></a>Pārskats
 
-"Elektronisko rēķinu izrakstīšanas pievienojuma līdzeklis" ir vispārējs nosaukums resursam, kas ir konfigurēts un publicēts, lai varētu patērēt elektronisko rēķinu izrakstīšanas pievienojuma serveri. Līdzekļa iestatījums apvieno, cita starpā, elektroniskās ziņošanas ER konfigurāciju formātus, lai izveidotu konfigurējamas eksporta un importa failus, un darbību un darbību plūsmu izmantošanu, lai iespējotu konfigurējamu noteikumu izveidi, lai nosūtītu pieprasījumus, importētu atbildes un parsētu atbildes saturu.
+"Elektronisko rēķinu izrakstīšanas līdzeklis" ir vispārējs nosaukums resursam, kas ir konfigurēts un publicēts, lai varētu patērēt elektronisko rēķinu izrakstīšanas serveri. Līdzekļa iestatījums apvieno, cita starpā, elektroniskās ziņošanas ER konfigurāciju formātus, lai izveidotu konfigurējamas eksporta un importa failus, un darbību un darbību plūsmu izmantošanu, lai iespējotu konfigurējamu noteikumu izveidi, lai nosūtītu pieprasījumus, importētu atbildes un parsētu atbildes saturu.
 
-Sekojošajā attēlā ir parādīts, elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa galvēnos komponentus.
+Sekojošajā attēlā ir parādīts, elektronisko rēķinu izrakstīšanas līdzekļa galvēnos komponentus.
 
-![Pārskats par elektronisko rēķinu izrakstīšanas pievienojuma līdzekli](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Pārskats par elektronisko rēķinu izrakstīšanas līdzekli](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Rēķinu formātu un darbības plūsmu izmaiņu dēļ līdzekļa iestatījums var atšķirties atkarībā no valsts vai reģiona, vai atbilstoši biznesa prasībām.
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa iestatīšana
+## <a name="set-up-the-electronic-invoicing-feature"></a>Elektroniskās rēķinu izrakstīšanas līdzekļa iestatīšana
 
-Iestatīšanas process ir jāpabeidz jūsu RCS vidē. Veiciet šīs darbības, lai izveidotu jaunu elektronisko rēķinu izrakstīšanas pievienojuma līdzekli.
+Iestatīšanas process ir jāpabeidz jūsu RCS vidē. Veiciet šīs darbības, lai izveidotu jaunu elektronisko rēķinu izrakstīšanas līdzekli.
 
 1. Pierakstieties savā RCS vidē.
-2. Darbvietā **Globalizācijas līdzekļi** sadaļā **Līdzekli** atlasiet elementu **Elektronisko rēķinu izrakstīšanas pievienojums**.
-3. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** atlasiet **Importēt**, lai importētu ER datu modeļa konfigurāciju no globālās krātuves.
-4. Atlasiet **Pievienot**, lai izveidotu elektronisku rēķinu izrakstīšanas pievienojuma līdzekli. Varat vai nu izveidot līdzekli no fragmenta, vai arī iegūt to no pastāvoša elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
+2. Darbvietas **Globalizācijas līdzekļi** sadaļā **Līdzekļi** atlasiet elementu **Elektronisko rēķinu izrakstīšana**.
+3. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** atlasiet **Importēt**, lai importētu ER datu modeļa konfigurāciju no globālās krātuves.
+4. Atlasiet **Pievienot**, lai izveidotu elektronisku rēķinu izrakstīšanas līdzekli. Varat vai nu izveidot līdzekli no fragmenta, vai arī iegūt to no pastāvoša elektronisko rēķinu izrakstīšanas līdzekļa.
 
-    ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> Kad izveidojat jaunu elektronisko rēķinu izrakstīšanas pievienojuma līdzekli, tam ir versijas numurs, un tā noklusētais statuss ir iestatīts kā **Melnraksts**.
+> Kad izveidojat jaunu elektronisko rēķinu izrakstīšanas līdzekli, tam ir versijas numurs, un tā noklusētais statuss ir iestatīts kā **Melnraksts**.
 
 ### <a name="configurations"></a>Konfigurācijas
 
-Konfigurācijās ir ER formāta konfigurācijas, kas nepieciešamas transformācijām un lai izveidotu failus, kas tiks apmainīti sakaru laikā ar trešās puses tīmekļa pakalpojumiem. Elektroniskās rēķinu pievienošanas līdzeklim var būt tik daudz ER failu formāta konfigurāciju, cik nepieciešams, pamatojoties uz integrēšanas tehnisko specifikāciju, ko sniedz tīmekļa pakalpojumu sniedzējs.
+Konfigurācijās ir ER formāta konfigurācijas, kas nepieciešamas transformācijām un lai izveidotu failus, kas tiks apmainīti sakaru laikā ar trešās puses tīmekļa pakalpojumiem. Elektroniskās rēķinu izrakstīšanas līdzeklim var būt tik daudz ER failu formāta konfigurāciju, cik nepieciešams, pamatojoties uz integrēšanas tehnisko specifikāciju, ko sniedz tīmekļa pakalpojumu sniedzējs.
 
-Veiciet šīs darbības, lai pievienotu ER formātu elektronisko rēķinu izrakstīšanas pievienojuma līdzeklim.
+Veiciet šīs darbības, lai pievienotu ER formātu elektronisko rēķinu izrakstīšanas līdzeklim.
 
-1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** cilnē **Konfigurācijas** atlasiet **Pievienot** ER faila formāta konfigurācijas elektronisko rēķinu izrakstīšanas pievienojuma līdzeklim.
+1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** cilnē **Konfigurācijas** atlasiet **Pievienot** ER faila formāta konfigurācijas elektronisko rēķinu izrakstīšana līdzeklim.
 
-    ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa konfigurācijas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa konfigurācijas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no nulles, ir manuāli jāpievieno visas ER faila formāta konfigurācijas. Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no esoša līdzekļa, ER faila formāta konfigurācijas tiek veidotas automātiski, jo tās tiek pārmantotas no oriģinālā elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
+    > Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no nulles, ir manuāli jāpievieno visas ER faila formāta konfigurācijas. Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no esoša līdzekļa, ER faila formāta konfigurācijas tiek veidotas automātiski, jo tās tiek pārmantotas no oriģinālā elektronisko rēķinu izrakstīšanas līdzekļa.
 
 2. Atlasiet **Rediģēt**, lai atvērtu lapu **Formāta veidotājs**, kur varat rediģēt ER faila formāta konfigurāciju.
 
-    ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa konfigurāciju rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Rediģējot formātu, konfigurācijas versijas statuss tiek iestatīts uz **Melnraksts**.
@@ -83,20 +81,20 @@ Veiciet šīs darbības, lai pievienotu ER formātu elektronisko rēķinu izraks
 
 ### <a name="feature-setups"></a>Līdzekļa iestatījumi
 
-Līdzekļa iestatījumi iekļauj sakaru un drošības nosacījumus ar trešās puses tīmekļa pakalpojumu. Elektronisko rēķinu izrakstīšanas pievienojuma līdzeklim var būt tik daudz līdzekļu, cik nepieciešams, balstoties uz biznesa noteikumu, kuru vēlaties sasniegt.
+Līdzekļa iestatījumi iekļauj sakaru un drošības nosacījumus ar trešās puses tīmekļa pakalpojumu. Elektronisko rēķinu izrakstīšanas līdzeklim var būt tik daudz līdzekļu, cik nepieciešams, balstoties uz biznesa noteikumu, kuru vēlaties sasniegt.
 
-Veiciet šīs darbības, lai pievienotu līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas pievienojuma līdzeklim.
+Veiciet šīs darbības, lai pievienotu līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas līdzeklim.
 
-1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas pievienojuma līdzeklim.
+1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** cilnē **Iestatījumi** atlasiet **Pievienot** līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas līdzeklim.
 
-    ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa iestatījumu pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa iestatījumu pievienošana](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
-    > Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no nulles, ir manuāli jāpievieno visus nepieciešamos līdzekļa iestatījumus. Kad izveidojat elektronisko rēķinu izrakstīšanas pievienojuma līdzekli no esoša līdzekļa, visi līdzekļa iestatījumi tiek veidoti automātiski, jo tie tiek pārmantoti no oriģinālā elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa.
+    > Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no nulles, ir manuāli jāpievieno visus nepieciešamos līdzekļa iestatījumus. Kad izveidojat elektronisko rēķinu izrakstīšanas līdzekli no esoša līdzekļa, visi līdzekļa iestatījumi tiek veidoti automātiski, jo tie tiek pārmantoti no oriģinālā elektronisko rēķinu izrakstīšanas līdzekļa.
 
 2. Atlasiet **Rediģēt**, lai rediģētu līdzekļa versijas iestatījumu.
 
-    ![Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa iestatījumu rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Elektronisko rēķinu izrakstīšanas līdzekļa iestatījumu rediģēšana](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Izmantojiet lapu **Līdzekļa versijas iestatīšana**, lai konfigurētu darbības, piemērojamības noteikumi un mainīgos.
 
@@ -104,7 +102,7 @@ Veiciet šīs darbības, lai pievienotu līdzekļa iestatījumus elektronisko r�
 
 ### <a name="actions"></a>Darbības
 
-Darbības ir iepriekšdefinētais darbību saraksts, kas tiek izpildītas secīgā secībā. Šis saraksts attēlo darbību sadalījumu, kas nepieciešams, lai pilnībā izpildītu elektronisko rēķinu izrakstīšanas pievienojuma līdzekli. Vienā elektronisko rēķinu izrakstīšanas pievienojuma līdzeklī darbības var iekļaut saziņu abos virzienos: adresāta pieprasījumu nosūtīšanu un atbildes saņemšanu, un tā satura parsēšanu.
+Darbības ir iepriekšdefinētais darbību saraksts, kas tiek izpildītas secīgā secībā. Šis saraksts attēlo darbību sadalījumu, kas nepieciešams, lai pilnībā izpildītu elektronisko rēķinu izrakstīšanas līdzekli. Vienā elektronisko rēķinu izrakstīšanas līdzeklī darbības var iekļaut saziņu abos virzienos: adresāta pieprasījumu nosūtīšanu un atbildes saņemšanu, un tā satura parsēšanu.
 
 Katra darbība ietver iepriekš definēto parametru sarakstu, kas nepieciešams darbībai, lai sasniegtu tās mērķi. Pēc izvēles var tikt sniegti papildu parametri.
 
@@ -255,7 +253,7 @@ Pieejamie parametri atšķiras atkarībā no darbības, kas atlasīta kopsavilku
 
 ### <a name="applicability-rules"></a>Piemērojamības kārtulas
 
-Piemērojamības noteikumi ļauj izveidot loģiskus noteikumus, kas nosaka līdzekļa iestatījuma lietojuma kontekstu. Tādējādi saskaņošana starp kontekstu, ko sniedz biznesa dokuments, kas tiek nosūtīts apstrādei, kopā ar piemērojamības noteikuma kritērijiem, nosaka, kurš elektronisko rēķinu pievienošanas līdzeklis tiek izmantots, lai apstrādātu šo iesniegumu.
+Piemērojamības noteikumi ļauj izveidot loģiskus noteikumus, kas nosaka līdzekļa iestatījuma lietojuma kontekstu. Tādējādi saskaņošana starp kontekstu, ko sniedz biznesa dokuments, kas tiek nosūtīts apstrādei, kopā ar piemērojamības noteikuma kritērijiem, nosaka, kurš elektronisko rēķinu izrakstīšanas līdzeklis tiek izmantots, lai apstrādātu šo iesniegumu.
 
 #### <a name="set-up-applicability-rules"></a>Piemērojamības noteikumu iestatīšana
 
@@ -290,7 +288,7 @@ Tālāk esošajā tabula apraksta laukus, kas ir pieejami **Piemērojamības not
 
 ### <a name="variables"></a>Mainīgie
 
-Varat izveidot mainīgos un pēc tam izmantot tos kā ievades vērtību konkrētas darbības parametram. Varat arī tās izmantot, lai apmainītos starp elektronisko rēķinu izrakstīšanas pievienojuma pakalpojumiem un klientu ar informāciju, kas ir rezultāts noteiktai darbībai, kā daļa no iesniegto dokumentu plūsmas.
+Varat izveidot mainīgos un pēc tam izmantot tos kā ievades vērtību konkrētas darbības parametram. Varat arī tās izmantot, lai apmainītos starp elektronisko rēķinu izrakstīšanas pakalpojumiem un klientu ar informāciju, kas ir rezultāts noteiktai darbībai, kā daļa no iesniegto dokumentu plūsmas.
 
 #### <a name="set-up-variables"></a>Iestatīt mainīgos lielumus
 
@@ -318,45 +316,45 @@ Validācija pārbauda visas konfigurācijas konsekvenci. Piemēram, ja noteikts 
 
 ## <a name="environments"></a>Vides
 
-Elektronisko rēķinu izrakstīšanas pievienojuma videi ir jābūt saistītai ar elektronisko rēķinu izrakstīšanas pievienojuma līdzekli, un tam ir jābūt iespējotam. Elektronisko rēķinu izrakstīšanas pievienojuma vide ir jāizveido un jāpublicē iepriekš, izmantojot globalizācijas līdzekļu konfigurāciju jūsu organizācijas RCS kontā.
+Elektronisko rēķinu izrakstīšanas videi ir jābūt saistītai ar elektronisko rēķinu izrakstīšanas līdzekli, un tam ir jābūt iespējotam. Elektronisko rēķinu izrakstīšanas vide ir jāizveido un jāpublicē iepriekš, izmantojot globalizācijas līdzekļu konfigurāciju jūsu organizācijas RCS kontā.
 
-Lai iespējotu Elektronisko rēķinu izrakstīšanas pievienojuma vidi elektronisko rēķinu izrakstīšanas pievienojuma līdzeklim.
+Lai iespējotu Elektronisko rēķinu izrakstīšanas vidi elektronisko rēķinu izrakstīšanas līdzeklim.
 
-1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** cilnē **Vides** atlasiet **Iespējot** līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas pievienojuma vidi.
+1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** cilnē **Vides** atlasiet **Iespējot** līdzekļa iestatījumus elektronisko rēķinu izrakstīšanas vidi.
 2. Laukā **Spēkā no** ievadiet datumu, kad jauna vide stājās spēkā.
 
-![Iespējot elektronisko rēķinu izrakstīšanas pievienojumprogrammas vidi](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Iespējot elektronisko rēķinu izrakstīšanas vidi](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organizācijas
 
-Elektronisko rēķinu izrakstīšanas pievienojuma līdzekli var koplietot vairākos uzņēmumos.
+Elektronisko rēķinu izrakstīšanas līdzekli var koplietot vairākos uzņēmumos.
 
-- Lapā **Elektroniskās rēķinu izrakstīšanas pievienojuma līdzekļi** cilnē **Organizācijas** atlasiet **Kopīgot ar**, lai pievienotu organizāciju, ar kuru vēlaties koplietot elektronisko rēķinu izrakstīšanas pievienojumprogrammu.
+- Lapā **Elektroniskās rēķinu izrakstīšanas līdzekļi** cilnē **Organizācijas** atlasiet **Kopīgot ar**, lai pievienotu organizāciju, ar kuru vēlaties koplietot elektronisko rēķinu izrakstīšanu.
 
-Lai apturētu elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa koplietošanu ar organizāciju, atlasiet **Noņemt koplietojumu**.
+Lai apturētu elektronisko rēķinu izrakstīšanas līdzekļa koplietošanu ar organizāciju, atlasiet **Noņemt koplietojumu**.
 
 ## <a name="versions"></a>Versijas
 
-Versijas palīdz kontrolēt elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa dzīves ciklu, pārvaldot tā statusu. Varat izveidot jaunu esošā elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa versiju vai arī, ja ir pabeigta visa elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa konfigurācija, varat mainīt līdzekļa statusu uz **Pabeigts** un pēc tam uz **Publicēt**.
+Versijas palīdz kontrolēt elektronisko rēķinu izrakstīšanas līdzekļa dzīves ciklu, pārvaldot tā statusu. Varat izveidot jaunu esošā elektronisko rēķinu izrakstīšanas līdzekļa versiju vai arī, ja ir pabeigta visa elektronisko rēķinu izrakstīšanas līdzekļa konfigurācija, varat mainīt līdzekļa statusu uz **Pabeigts** un pēc tam uz **Publicēt**.
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Izveidot jaunu esoša elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa versiju
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>Izveidot jaunu esoša elektronisko rēķinu izrakstīšanas līdzekļa versiju
 
-1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** režģī pa kreisi atlasiet elektronisko rēķinu izrakstīšanas pievienojuma līdzekli.
-2. Cilnē **Versijas** atlasiet **Jauns**, lai pievienotu jaunu elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa versiju.
+1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** režģī pa kreisi atlasiet elektronisko rēķinu izrakstīšanas līdzekli.
+2. Cilnē **Versijas** atlasiet **Jauns**, lai pievienotu jaunu elektronisko rēķinu izrakstīšanas līdzekļa versiju.
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Mainīt elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa statusu
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>Mainīt elektronisko rēķinu izrakstīšanas līdzekļa statusu
 
-Veiciet šīs darbības, lai pārvaldītu elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa dzīves ciklu.
+Veiciet šīs darbības, lai pārvaldītu elektronisko rēķinu izrakstīšanas līdzekļa dzīves ciklu.
 
-1. Lapā **Elektronisko rēķinu izrakstīšanas pievienojuma līdzekļi** režģī pa kreisi atlasiet elektronisko rēķinu izrakstīšanas pievienojuma līdzekli.
+1. Lapā **Elektronisko rēķinu izrakstīšanas līdzekļi** režģī pa kreisi atlasiet elektronisko rēķinu izrakstīšanas līdzekli.
 2. Cilnē **Versijas** atlasiet **Mainīt statusu** un pēc tam mainiet statusu no **Melnraksts** uz **Pabeigts**.
-3. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties aizpildīt elektronisko rēķinu izrakstīšanas pievienojuma līdzekli un visus tā komponentus. Atlasiet **Jā**, lai apstiprinātu darbību vai **Nē**, lai to atceltu.
+3. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties aizpildīt elektronisko rēķinu izrakstīšanas līdzekli un visus tā komponentus. Atlasiet **Jā**, lai apstiprinātu darbību vai **Nē**, lai to atceltu.
 
     > [!NOTE]
-    > Kad atlasāt **Jā**, konfigurācijas versiju, kas ir elektronisko rēķinu izrakstīšanas pievienojuma līdzekļa komponenti, statuss automātiski tiek mainīts no **Melnraksts** uz **Pabeigts**.
+    > Kad atlasāt **Jā**, konfigurācijas versiju, kas ir elektronisko rēķinu izrakstīšanas līdzekļa komponenti, statuss automātiski tiek mainīts no **Melnraksts** uz **Pabeigts**.
 
 4. Atlasiet **Mainīt statusu** un pēc tam mainiet statusu no **Pabeigt** uz **Publicēt**.
-5. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties publicēt elektronisko rēķinu izrakstīšanas pievienojuma līdzekli un visus tā komponentus globālajā repozitorijā. Atlasiet **Jā**, lai apstiprinātu darbību vai **Nē**, lai to atceltu.
+5. Tiek parādīta uzvedne, lai apstiprinātu, ka vēlaties publicēt elektronisko rēķinu izrakstīšanas līdzekli un visus tā komponentus globālajā repozitorijā. Atlasiet **Jā**, lai apstiprinātu darbību vai **Nē**, lai to atceltu.
 
     > [!NOTE]
     > Kad atlasāt **Jā**, konfigurācijas versiju statuss tiek automātiski mainīts no **Pabeigts** uz **Koplietojams**.

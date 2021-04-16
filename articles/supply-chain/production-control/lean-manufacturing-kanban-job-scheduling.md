@@ -1,12 +1,10 @@
 ---
 title: Kanban darbu plānošana metodei lean manufacturing
-description: Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus.
+description: Šajā rakstā ir sniegta informācija par vizuālo kontroli pār Kanban darbu plānošanu un dažādajiem veidiem, kā plānot Kanban darbus.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3616b353d33540bcab6769c51a474d79bf374602
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25d3de7d9d49cbd05f7d3d3daa42f51e60dc0f8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246073"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825847"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Kanban darbu plānošana metodei lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Šajā rakstā ir sniegta informācija par vizuālo kontroli pār kanban darbu plānošanu un dažādajiem veidiem, kā plānot kanban darbus.  
+Šajā rakstā ir sniegta informācija par vizuālo kontroli pār Kanban darbu plānošanu un dažādajiem veidiem, kā plānot Kanban darbus.  
 
 Lapa **Kanban darbu plānošana** nodrošina lean manufacturing darba šūnu vizuālu kontroli. Tā sniedz visu Kanban darbu pārskatu un nodrošina vairākas filtrēšanas iespējas. No šīs lapas var pārvietoties uz visām citām lapām, kas ir saistītas ar Kanban konfigurāciju un izpildi.
 
