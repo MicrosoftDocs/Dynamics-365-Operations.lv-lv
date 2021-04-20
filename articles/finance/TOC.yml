@@ -932,8 +932,10 @@
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Finanšu dimensiju definēšana
                   href: general-ledger/tasks/define-financial-dimensions.md
-                - name: Finanšu dimensijas noklusējuma veidņu uzturēšana
+                - name: Finanšu dimensiju noklusējuma veidņu uzturēšana
                   href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Finanšu dimensiju kopas
+                  href: general-ledger/financial-dimension-sets.md
                 - name: Kontu struktūru izveide
                   href: general-ledger/tasks/create-account-structures.md
                 - name: Finanšu dimensijas un grāmatošana
@@ -1414,38 +1416,66 @@
           items:
             - name: Globalizācijas resursi
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
+            - name: Globalizācijas pakalpojumi
+              items:
+                - name: Globalizācijas pakalpojumu pārskats
+                  href: localizations/globalization-services-overview.md
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: Regulatory configuration service pārskats
+                      href: localizations/rcs-overview.md
+                    - name: "Regulatory configuration service\_— globalizācijas līdzekļi"
+                      href: localizations/rcs-globalization-feature.md
+                    - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory configuration service un to augšupielāde globālajā repozitorijā
+                      href: localizations/rcs-global-repo-upload.md
+                - name: Elektroniskā rēķinu izrakstīšana
+                  items:
+                    - name: Elektronisko rēķinu izveides pārskats
+                      href: localizations/e-invoicing-service-overview.md
+                    - name: Elektronisko rēķinu izveides administrēšanas komponenti
+                      href: localizations/e-invoicing-service-administration.md
+                    - name: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
+                      href: localizations/e-invoicing-configuration-rcs.md
+                    - name: Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                    - name: Azure krātuves konta un Key Vault izveide
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                    - name: Darba sākšana
+                      items:
+                        - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
+                          href: localizations/e-invoicing-get-started-service-administration.md
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi
+                          href: localizations/e-invoicing-get-started.md
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
+                          href: localizations/e-invoicing-bra-get-started.md
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
+                          href: localizations/e-invoicing-eg-get-started.md
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Itālijā
+                          href: localizations/e-invoicing-ita-get-started.md
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
+                          href: localizations/e-invoicing-mex-get-started.md
+                        - name: Elektronisko rēķinu izveides iestatīšana
+                          href: localizations/e-invoicing-setup.md
+                    - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
+                      href: localizations/e-invoicing-faq.md
+                - name: Nodokļu aprēķins
+                  items:
+                    - name: Nodokļu aprēķina pārskats
+                      href: localizations/global-tax-calcuation-service-overview.md
+                    - name: Darba sākšana ar nodokļu aprēķinu
+                      href: localizations/global-get-started-with-tax-calculation-service.md
+                    - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                    - name: Datu lauku pievienošana nodokļu konfigurācijās
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                    - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                    - name: Vairāki PVN reģistrācijas numuri
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Pamatdatu uzmeklēšanas vides iestatīšana
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
-            - name: Elektronisko rēķinu izveide
-              items:
-                - name: Elektronisko rēķinu izveides pārskats
-                  href: localizations/e-invoicing-service-overview.md
-                - name: Elektronisko rēķinu izveides administrēšanas komponenti
-                  href: localizations/e-invoicing-service-administration.md
-                - name: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
-                  href: localizations/e-invoicing-configuration-rcs.md
-                - name: Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
-                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
-                - name: Azure krātuves konta un Key Vault izveide
-                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Darba sākšana
-                  items:
-                    - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
-                      href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Darba sākšana ar elektronisko rēķinu izveidi
-                      href: localizations/e-invoicing-get-started.md
-                    - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
-                      href: localizations/e-invoicing-bra-get-started.md
-                    - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
-                      href: localizations/e-invoicing-eg-get-started.md
-                    - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Itālijā
-                      href: localizations/e-invoicing-ita-get-started.md
-                    - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
-                      href: localizations/e-invoicing-mex-get-started.md
-                    - name: Elektronisko rēķinu izveides iestatīšana
-                      href: localizations/e-invoicing-setup.md
-                - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
-                  href: localizations/e-invoicing-faq.md
             - name: Austrālija
               items:
                 - name: Austrālijas pārskats
@@ -1468,6 +1498,8 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: PVN deklarācija
                   href: localizations/emea-aut-vat-statement-details.md
+                - name: Pārrobežu pakalpojumu pārskats
+                  href: localizations/emea-aut-cross-border-services-report.md
             - name: Bahreina
               items:
                 - name: Bahreinas pārskats
@@ -1492,6 +1524,8 @@
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Saskaņošanas pārskati
                   href: localizations/emea-bel-reconciliation-reports.md
+                - name: Žurnālu pārskati
+                  href: localizations/emea-bel-journal-reports.md
                 - name: Maksājumu bilances pārskatu iestatīšana
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM iestatīšana un uzturēšana
@@ -1692,7 +1726,7 @@
               items:
                 - name: Ķīnas pārskats
                   href: localizations/china.md
-                - name: Finance and Operations darbību nodrošina 21Vianet Ķīnā
+                - name: "Finance and Operations\_— darbību nodrošina 21Vianet Ķīnā"
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: Materiālu komplektu salīdzinājums
                   href: localizations/apac-chn-bom-comparison.md
@@ -2118,32 +2152,6 @@
                       href: localizations/ind-news-letter-10-0-13.md
                     - name: Jaunumi un izmaiņas versijā 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
-                - name: Pamatlīdzekļi
-                  items:
-                    - name: Indijas pamatlīdzekļu pārskats
-                      href: localizations/apac-ind-fixed-assets.md
-                    - name: Dienu kalendāra pievienošana pamatlīdzekļu grāmatai
-                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Aprēķināt maiņas nolietojumu
-                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Krājumu modeļu grupas izveide kapitāla krājumiem
-                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Izveidot un grāmatot nolietojumu
-                      href: localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Maiņas tipa un nozares definēšana grāmatās un pievienošana pamatlīdzekļiem
-                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Pamatlīdzekļu transakciju anulēšana
-                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Maiņas nolietojuma aprēķins
-                      href: localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Dienu finanšu kalendāra iestatīšana
-                      href: localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Parametru iestatīšana nolietojuma aprēķināšanai
-                      href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Līdzekļu grupas nolietojuma iestatīšana nolietojuma grāmatām
-                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Kapitāla līdzekļu pārsūtīšana uz pamatlīdzekļiem
-                      href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: Netiešie nodokļi
                   items:
                     - name: "Indijas\_GST"
@@ -2300,6 +2308,10 @@
                                   href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
                                 - name: Debitora maksājumu atmaksas
                                   href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Projekta pārvaldības darījumi
+                              items:
+                                - name: Preču un pakalpojumu nodokļa (GST) projekta darījumi
+                                  href: localizations/apac-ind-gst-project-transactions.md
                             - name: Nodokļu korekcija
                               items:
                                 - name: Nodokļa summas korekcija
@@ -2336,6 +2348,32 @@
                           href: localizations/apac-ind-tax-thresholds.md
                         - name: Avotā iekasētais nodoklis par preču pārdošanu
                           href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                - name: Pamatlīdzekļi
+                  items:
+                    - name: Indijas pamatlīdzekļu pārskats
+                      href: localizations/apac-ind-fixed-assets.md
+                    - name: Dienu kalendāra pievienošana pamatlīdzekļu grāmatai
+                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
+                    - name: Aprēķināt maiņas nolietojumu
+                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
+                    - name: Krājumu modeļu grupas izveide kapitāla krājumiem
+                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
+                    - name: Izveidot un grāmatot nolietojumu
+                      href: localizations/apac-ind-calculate-post-depreciation.md
+                    - name: Maiņas tipa un nozares definēšana grāmatās un pievienošana pamatlīdzekļiem
+                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
+                    - name: Pamatlīdzekļu transakciju anulēšana
+                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
+                    - name: Maiņas nolietojuma aprēķins
+                      href: localizations/apac-ind-calculation-shift-depreciation.md
+                    - name: Dienu finanšu kalendāra iestatīšana
+                      href: localizations/tasks/apac-ind-day-based-calendar.md
+                    - name: Parametru iestatīšana nolietojuma aprēķināšanai
+                      href: localizations/tasks/apac-ind-set-up-depreciation.md
+                    - name: Līdzekļu grupas nolietojuma iestatīšana nolietojuma grāmatām
+                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                    - name: Kapitāla līdzekļu pārsūtīšana uz pamatlīdzekļiem
+                      href: localizations/tasks/apac-ind-transfer-capital-items.md
             - name: Itālija
               items:
                 - name: Itālijas pārskats
@@ -2958,6 +2996,8 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Nominālo izdevumu reģistri
                       href: localizations/rus-rated-expenses-registers.md
+                    - name: Kreditoru parādu nodokļu reģistri un parādu norakstīšana
+                      href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
             - name: Saūda Arābija
               items:
                 - name: Saūda Arābijas pārskats
@@ -3034,14 +3074,20 @@
                   href: localizations/thailand.md
                 - name: Krājumu karšu pārskati
                   href: localizations/apac-tha-stock-card-reports.md
+                - name: Nodokļu rēķini
+                  href: localizations/apac-tha-tax-invoices.md
                 - name: Nodokļu rēķina aizstāšana/korekcija
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Nerealizētais PVN
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Vidējais PVN pirkšanas darījumiem
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Nodokļu maksātāja filiāles dimensijas
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Pārdošanas PVN pārskats
                   href: localizations/apac-tha-sales-vat-report.md
+                - name: Vidējais PVN pirkšanas darījumiem
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Ieturētais nodoklis
                   href: localizations/apac-tha-withholding-tax.md
             - name: Apvienotie Arābu Emirāti (AAE)
@@ -3088,7 +3134,7 @@
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
             - name: Human Resources iestatīšana
               items:
-                - name: Konfigurēt Human Resources parametrus
+                - name: Human Resources parametru konfigurēšana
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigurēt Human Resources koplietotos parametrus
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
@@ -3869,10 +3915,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: 'Formātu modificēšana un palaišana, lai izmantotu dokumentu pārvaldības failus'
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: Datu avotu atkļūdošana
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: SVĪTRKODA izmantošana svītrkodu attēlu ģenerēšanai
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 'UZMEKLĒŠANAS datu avotu konfigurēšana, lai izmantotu elektronisko pārskatu programmai raksturīgos parametrus'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Datu avotu atkļūdošana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modeļu kartējumu konfigurēšana
                   items:
                     - name: No valsts konteksta atkarīgu ER modeļu kartējumu konfigurēšana
