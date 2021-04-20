@@ -37,9 +37,9 @@ Dati datu modelī tiek pārnesti ar objektiem un ieviesti klasēs.
 
 Šeit ir galveno objektu saraksts:
 
-* AxClass/TaxIntegration **Dokuments** objekts
-* AxClass/TaxIntegration **Rinda** objekts
-* AxClass/TaxIntegration **TaxLine** objekts
+* AxClass/TaxIntegration **Document** Object
+* AxClass/TaxIntegration **Line** Object
+* AxClass/TaxIntegration **TaxLine** Object
 
 Šajā ilustrācijā parādīts, kā šie objekti ir saistīti.
 
@@ -59,7 +59,7 @@ Plūsmas datus ietekmē aktivitātes.
 
 ### <a name="key-activities"></a>Galvenās aktivitātes
 
-* AxClass/TaxIntegration **Aprēķins** ActivityOnDocument
+* AxClass/TaxIntegration **Calculation** ActivityOnDocument
 * AxClass/TaxIntegration **CurrencyExchange** ActivityOnDocument
 * AxClass/TaxIntegration **DataPersistence** ActivityOnDocument
 * AxClass/TaxIntegration **DataRetrieval** ActivityOnDocument
