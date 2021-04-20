@@ -68,7 +68,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail kanāla komponentu instalēšanas darbības lokālā vidē
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: "Finance\_+\_Operations (on-premises) iegāde"
+                - name: Finance + Operations (lokāli) iegāde
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange ieviešanas vadlīnijas
                   href: dev-itpro/implementation-considerations-cdx.md
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station konfigurēšana un instalēšana
                   href: retail-hardware-station-configuration-installation.md
-                - name: Plaša patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
+                - name: Plaša mantotā patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce komponentu notikumi diagnostikai un problēmu novēršanai
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1056,6 +1056,16 @@
                       href: author-header-module.md
                     - name: Kājenes modulis
                       href: author-footer-module.md
+                - name: 'Lapu, metadatu un skriptu moduļi'
+                  items:
+                    - name: Noklusējuma lapas modulis
+                      href: default-page-module.md
+                    - name: Lapas kopsavilkuma moduļi
+                      href: page-summary-module.md
+                    - name: Metatagu modulis
+                      href: metatags-module.md
+                    - name: Ārējo un iekļauto skriptu moduļi
+                      href: script-module.md
                 - name: Preces papildinformācijas lapas moduļi
                   items:
                     - name: Pirkšanas lodziņa modulis

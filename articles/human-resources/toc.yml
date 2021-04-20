@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 5.\_aprīlis"
+          href: hr-whats-new-2021-04-05.md
         - name: "2021.\_gada 22.\_marts"
           href: hr-whats-new-2021-03-22.md
         - name: "2021.\_gada 8.\_marts"
@@ -305,6 +307,8 @@
               href: hr-admin-integration-choose-technology.md
             - name: Dataverse integrācijas konfigurēšana
               href: hr-admin-integration-common-data-service.md
+            - name: Dataverse virtuālo tabulu konfigurēšana
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Integrācijas konfigurēšana ar Finance
               href: hr-admin-integration-finance.md
             - name: Integrācijas konfigurēšana ar Dayforce
@@ -321,6 +325,12 @@
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Office integrācijas problēmu novēršana
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 'Izstrādes problēmu novēršana, izmantojot Dataverse virtuālās tabulas'
+          items:
+            - name: Dataverse virtuālās tabulas vaicājumu optimizācija
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Bieži uzdotie jautājumi par Human Resources tabulām
+              href: hr-admin-virtual-entity-faq.md
         - name: Elementa API atsauce
           items:
             - name: Autentifikācija
@@ -419,13 +429,29 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: Prasmju līmeņa tips
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: Algu aprēķina integrācijas API
+          items:
+            - name: Ievads
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Algu aprēķina elementu ģenerēšana un pārskatīšana
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Algots darbinieks
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: Algas nodarbinātā adrese
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: Algu aprēķina fiksētās atlīdzības plāns
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: Algas pozīcijas darbs
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Algas pozīcija
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: Lietotāja rokasgrāmata
       items:
         - name: Pārskats
           href: hr-hrpro-overview.md
         - name: Human Resources iestatīšana
           items:
-            - name: Konfigurēt Human Resources parametrus
+            - name: Human Resources parametru konfigurēšana
               href: hr-setup-parameters.md
             - name: Programmas Human Resources kopīgoto parametru konfigurēšana
               href: hr-setup-shared-parameters.md
