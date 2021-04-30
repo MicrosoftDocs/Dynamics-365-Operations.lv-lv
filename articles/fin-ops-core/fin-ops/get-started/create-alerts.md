@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 869a2f83360c1d6515bbe2868f1450f76ff3a13f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749201"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909843"
 ---
 # <a name="create-alert-rules"></a>Brīdinājumu kārtulu veidošana
 
@@ -101,7 +101,7 @@ Dažiem sekundārajiem datu avotiem formās nevar izveidot brīdinājumus. Piem�
 2. Izveidojiet brīdinājumu no formas SysTableBrowser.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Izmaiņās balstīti brīdinājumi nedarbojas attiecībā uz pakešu statusa izmaiņām
-Izmaiņās balstīti brīdinājumi nedarbojas ar pakešu statusa izmaiņām, jo tie ir izslēgti ar sniegumu saistītu iemeslu dēļ. Tā vietā jums vajadzētu iestatīt iespēju **Pakešu brīdinājumi**. Papildu informāciju skatiet tēmā [Brīdinājumu iestatīšana pakešu uzlabotām veidlapām](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
+Izmaiņās balstīti brīdinājumi nedarbojas ar pakešu statusa izmaiņām, jo tie ir izslēgti ar sniegumu saistītu iemeslu dēļ. Tā vietā jums vajadzētu iestatīt iespēju **Pakešu brīdinājumi**. Papildu informāciju skatiet tēmā [Brīdinājumu iestatīšana pakešu uzlabotām veidlapām](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

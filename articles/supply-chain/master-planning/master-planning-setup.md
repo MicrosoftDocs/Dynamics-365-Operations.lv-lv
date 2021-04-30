@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833405"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909407"
 ---
 # <a name="set-up-master-planning"></a>Vispārējās plānošanas iestatīšana
 
@@ -106,11 +106,11 @@ Katram plānam lapas **Vispārējie plāni** kopsavilkuma cilnē **Vispārīgi**
 
 ### <a name="operations-scheduling"></a>Operāciju plānošana
 
-Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam. Operāciju plānošana neizvērš ražošanas maršruta operācijas darbos. Plašāku informāciju par operāciju plānošanu skatiet tēmā [Operāciju plānošana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Operāciju plānošanu var lietot, lai sniegtu vispārēju ražošanas procesa novērtējumu laika periodam. Operāciju plānošana neizvērš ražošanas maršruta operācijas darbos. Plašāku informāciju par operāciju plānošanu skatiet tēmā [Operāciju plānošana](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Darbu plānošana
 
-Darbu plānošana ir detalizētāka plānošanas metode, kurā katra operācija tiek sadalīta atsevišķos uzdevumos vai darbos. Darbu plānošana ietver informāciju par noslodzi. Tā parasti tiek izmantota atsevišķu darbu plānošanai ražotnē nekavējoties vai īstermiņa periodā. Plašāku informāciju par darbu plānošanu skatiet tēmā [Darbu plānošana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Darbu plānošana ir detalizētāka plānošanas metode, kurā katra operācija tiek sadalīta atsevišķos uzdevumos vai darbos. Darbu plānošana ietver informāciju par noslodzi. Tā parasti tiek izmantota atsevišķu darbu plānošanai ražotnē nekavējoties vai īstermiņa periodā. Plašāku informāciju par darbu plānošanu skatiet tēmā [Darbu plānošana](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Periods dienās
 
@@ -158,7 +158,7 @@ Darbību ziņojumi iesaka izmaiņas, ko var veikt esošajam piegādes pasūtīju
 
 Iestatot opcijai **Darbības ziņojums** vienumu **Jā**, var pārlabot darbības ziņojuma periodu, kas definēts krājumam vispārējās plānošanas laikā. Šādā gadījumā ievadiet dienu skaitu, kuru laikā vispārējai plānošanai jāveido vajadzību darbību ziņojumi. Darbību ziņojumu periods tiek aprēķināts, sākot no pašreizējā datuma.
 
-Plašāku informāciju par darbību ziņojumiem skatiet tēmā [Darbību ziņojumi](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Plašāku informāciju par darbību ziņojumiem skatiet tēmā [Darbību ziņojumi](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Darbības ziņojumu aprēķins izraisa ilgāku izpildes laiku vispārējai plānošanai. Ja darbības ziņojumi netiek regulāri analizēti un pielietoti (katru dienu, katru nedēļu utt.), apsveriet iespēju izslēgt aprēķinu vispārējās plānošanas izpildes laikā. Lai izslēgtu aprēķinu, lapā **Vispārējie plāni** iestatiet periodam **Darbības ziņojums** vērtību **0** (nulle) vispārējam plānam, kas tiek palaists. Arī pārliecinieties, ka iestatījums **Darbības ziņojuma** ir izslēgts visām vajadzību grupām.
@@ -223,7 +223,7 @@ Izpildes laiks + Negatīvās dienas + Pašreizējais datums – Vajadzības datu
 
 Sistēma izmanto tikai plānotos piegādes pasūtījumus, kas atrodas šajā periodā, un izveido jaunu plānoto pasūtījumu ārpus tā. Dinamisko negatīvo dienu priekšrocība ir tā, ka tajās tiks iekļauts atsevišķas preces izpildes laiks, lai atkārtoti izmantotu esošos pasūtījumus un izvairītos no tādu jaunu plānoto pasūtījumu izveidošanas, kuriem būs vēlāks datums izpildes laika izraisītās aizkaves dēļ. 
 
-Plašāku informāciju skatiet tēmā [Negatīvās dienas un dinamiskās negatīvās dienas](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Plašāku informāciju skatiet tēmā [Negatīvās dienas un dinamiskās negatīvās dienas](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

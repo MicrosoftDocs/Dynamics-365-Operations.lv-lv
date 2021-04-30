@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823413"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909455"
 ---
 # <a name="goods-in-transit-processing"></a>Tranzīta preču apstrāde
 
@@ -40,7 +40,7 @@ Aktivizējot moduli **Kopējās izmaksas**, tiek uzlaboti *Piegādes elementu st
 
 Ja opcija **Tranzīta preču pārvaldība** ir iestatīta uz *Jā* piemērojamiem piegādes nosacījumiem, preces tiek novietotas tranzītkravu noliktavā. Šī darbība tiek izraisīta tikai tad, ja krājumu ieejas plūsma nav apstrādāta pirms rēķina apstrādes. Kad pasūtījuma piegādes nosacījumi ir iestatīti preču izmantošanai tranzītā, lietotāji vairs nevar grāmatot produktu ieejas plūsmu pirkšanas pasūtījumam. Ja mēģināts, rodas kļūda. Kļūdas ziņojums norāda, ka, lai turpinātu, tām ir jāizmanto tranzīkravu funkcionalitāte.
 
-Lai strādātu ar piegādes nosacījumu informāciju tranzītā citām precēm, dodieties uz **Sagāde un plānošana \> Iestatījumi \> Izplatīšana \> Piegādes nosacījumi**. Šajā tabulā ir aprakstīti lauki, kurus **Kopējo izmaksu** modulis pievieno **Piegādes nosacījumu** lapai, lai atbalstītu funkcionalitāti "Preces tranzītā". Abi lauki ir kopsavilkuma cilnē **Vispārīgi**. Plašāku informāciju par citiem šīs lapas laukiem skatiet [Piegādes nosacījumi (veidlapa)](https://technet.microsoft.com/library/aa575567.aspx).
+Lai strādātu ar piegādes nosacījumu informāciju tranzītā citām precēm, dodieties uz **Sagāde un plānošana \> Iestatījumi \> Izplatīšana \> Piegādes nosacījumi**. Šajā tabulā ir aprakstīti lauki, kurus **Kopējo izmaksu** modulis pievieno **Piegādes nosacījumu** lapai, lai atbalstītu funkcionalitāti "Preces tranzītā". Abi lauki ir kopsavilkuma cilnē **Vispārīgi**. Plašāku informāciju par citiem šīs lapas laukiem skatiet [Piegādes nosacījumi (veidlapa)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Lauks | Apraksts |
 |---|---|
@@ -55,7 +55,7 @@ Kopējās sūtījuma izmaksas pievieno divus jaunus noliktavu veidus: *tranzītk
 
 *Tranzīta preču* noliktavas tips, tiks saistītas ar jūsu tranzītkrājumu noliktavu un šī noliktava tiks izmantota, lai apstrādātu preces tranzītpasūtījumus pirms to saņemšanas gala adresāta noliktavā. Parasti viena tranzītkrājumu noliktava ir pietiekoši katrai vietai, ja Vieta un Noliktava ir vienīgās krājumu dimensijas, kas tiek izmantotas krājumu pārvaldībai. Ja tiek izmantota arī Krājumu dimensija Vieta, katrai vietas un noliktavas kombinācijai ir jāiestata noliktava, kas atrodas tranzītā, lai varētu norādīt arī noklusējuma atrašanās vietu.
 
-Lai strādātu ar noliktavām precēm tranzītā, pārejiet uz sadaļu **Krājumu pārvaldība \> Iestatījumi \> Krājumu sadale \> Noliktavas**. Šajā tabulā ir aprakstīti lauki, kurus **Kopējo izmaksu** modulis pievieno lapai **Noliktavas**, lai atbalstītu funkcionalitāti "Preces tranzītā". Abi lauki ir kopsavilkuma cilnē **Vispārīgi**. Papildinformāciju par citiem lapas laukiem skatiet [Noliktavas (veidlapa)](https://technet.microsoft.com/library/aa620570.aspx).
+Lai strādātu ar noliktavām precēm tranzītā, pārejiet uz sadaļu **Krājumu pārvaldība \> Iestatījumi \> Krājumu sadale \> Noliktavas**. Šajā tabulā ir aprakstīti lauki, kurus **Kopējo izmaksu** modulis pievieno lapai **Noliktavas**, lai atbalstītu funkcionalitāti "Preces tranzītā". Abi lauki ir kopsavilkuma cilnē **Vispārīgi**. Papildinformāciju par citiem lapas laukiem skatiet [Noliktavas (veidlapa)](/dynamicsax-2012//warehouses-form).
 
 | Lauks | Apraksts |
 |---|---|
@@ -109,7 +109,7 @@ Preces var arī saņemt, izveidojot saņemšanas žurnālu. Saņemšanas žurnā
     - **Izveidot no tranzīt precēm** – iestatiet šo opciju kā *Jā*, lai no atlasītā reisa, konteinera vai folio atlasītās tranzīta rindas iegūtu daudzumus.
     - **Izveidot no pasūtījuma rindām** – iestatiet šo opciju kā *Jā*, lai iestatītu noklusējuma daudzumu saņemšanas žurnālā no pirkšanas pasūtījuma rindām. Noklusējuma daudzumu saņemšanas žurnālā var iestatīt šādā veidā, ja daudzums pirkšanas pasūtījuma rindā sakrīt ar daudzumu preču tranzīta pasūtījumā.
 
-1. Apstrādājiet saņemšanas žurnālu, kā tas ir aprakstīts [Krājumu saņemšanas reģistrēšanai krājumu saņemšanas žurnālā](https://technet.microsoft.com/library/aa571129.aspx).
+1. Apstrādājiet saņemšanas žurnālu, kā tas ir aprakstīts [Krājumu saņemšanas reģistrēšanai krājumu saņemšanas žurnālā](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > Saņemšanas žurnāls parasti tiek izmantots situācijās, kad tiek izmantotas atrašanās vietas un partijas/sērijas izsekošana, bet netiek izmantota noliktavas pārvaldība.
@@ -131,15 +131,14 @@ Kopējās izmaksas pievieno šādus darba izveides procesus mobilās ierīces iz
 - Tranzītpreču krājuma saņemšana
 - TRanzīta preču krājuma saņemšana un izvietošana
 
-Šo procesu konfigurācijas iestatījumi ir līdzīgi [pirkšanas pasūtījuma saņemšanas un izvietošanas darba izveides procesu iestatījumiem](https://technet.microsoft.com/library/dn553216.aspx). Tomēr *Tranzīta preču krājuma saņemšanas un izvietošanas* procesā tiek pievienots arī šāds lauks.
+Šo procesu konfigurācijas iestatījumi ir līdzīgi [pirkšanas pasūtījuma saņemšanas un izvietošanas darba izveides procesu iestatījumiem](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Tomēr *Tranzīta preču krājuma saņemšanas un izvietošanas* procesā tiek pievienots arī šāds lauks.
 
 - **Iespējojiet sūtīšanas konteinera pabeigtību** — ja šī opcija ir iestatīta uz *Jā*, kad izvietošanas darbs ir pabeigts, Warehouse Management mobile programma nodrošina papildu opciju ar nosaukumu **Sūtījumu konteiners ir pabeigts**. Kad šī opcija ir atlasīta, darbiniekam tiks lūgts apstiprināt konteinera pabeigšanas apstiprinājumu. Šajā brīdī visas īsās ieejas plūsmas tiks apstrādātas kā nepiegādāšanas darbības.
 
 ### <a name="location-directives"></a>Vietas direktīvas
 
-Kopējās izmaksas pievieno jaunu darba pasūtījuma tipu, kura nosaukums ir *Preces tranzītā* **Novietojuma direktīvu** lapā. Šim darba pasūtījuma tipam jābūt konfigurētam tādā pašā veidā kā [pirkšanas pasūtījuma darba pasūtījuma tipiem](https://technet.microsoft.com/library/dn553184.aspx).
+Kopējās izmaksas pievieno jaunu darba pasūtījuma tipu, kura nosaukums ir *Preces tranzītā* **Novietojuma direktīvu** lapā. Šim darba pasūtījuma tipam jābūt konfigurētam tādā pašā veidā kā [pirkšanas pasūtījuma darba pasūtījuma tipiem](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Darbu veidnes
 
-Kopējās izmaksas pievieno jaunu darba pasūtījuma tipu, kura nosaukums ir *Preces tranzītā* **Darba veidņu** lapā. Šim darba pasūtījuma tipam jābūt konfigurētam tādā pašā veidā kā [pirkšanas pasūtījuma darba pasūtījuma tipiem](https://technet.microsoft.com/library/dn553184.aspx).
-
+Kopējās izmaksas pievieno jaunu darba pasūtījuma tipu, kura nosaukums ir *Preces tranzītā* **Darba veidņu** lapā. Šim darba pasūtījuma tipam jābūt konfigurētam tādā pašā veidā kā [pirkšanas pasūtījuma darba pasūtījuma tipiem](/dynamicsax-2012/appuser-itpro/create-a-work-template).

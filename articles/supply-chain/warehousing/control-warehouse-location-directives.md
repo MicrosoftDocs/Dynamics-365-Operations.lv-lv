@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91c8df8a111132d75ec02b79912c66e02aef4ea6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36471cf76615e22c2ca80163756e2fd05aaf6a0f
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831318"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911276"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Kontrolēt noliktavas darbu, izmantojot darbu veidnes un novietojuma direktīvas
 
@@ -73,7 +73,7 @@ Atrašanās vietas direktīvas nosaka, *kur* krājumi jāizdod un *kur* tie jāi
 ## <a name="additional-resources"></a>Papildu resursi
 
 - Video: [Noliktavas pārvaldības konfigurācija Deep Dive](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Palīdzības tēma: [Novietojuma direktīvu izveide](create-location-directive.md)
+- Palīdzības tēma: [Darbs ar novietojuma direktīvām](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b66fd7c0ca79f21ff51beee22e4fc57c37a1904
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821181"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909601"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.11. (2020. gada jūlijs)
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821181"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju vai video, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
-- [Krājumu rīcībā esošā pārskata glabāšana](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [Krājumu rīcībā esošā pārskata glabāšana](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Noliktavas vienības identifikatora saņemšanas uzlabojumi, izmantojot noliktavas programmu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Plašāku informāciju skatiet [Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Noliktavas vienības identifikatora saņemšanas uzlabojumi, izmantojot noliktavas programmu](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Plašāku informāciju skatiet [Numura zīmes saņemšana, izmantojot Warehouse Management mobile programmu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Rindas rezervācijas uzlabojumi partijas numura rezervēšanas veidlapai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Papildinformāciju skatiet [Tās pašas partijas rezervēšana pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md).
+- [Rindas rezervācijas uzlabojumi partijas numura rezervēšanas veidlapai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Papildinformāciju skatiet [Tās pašas partijas rezervēšana pārdošanas pasūtījumam](../sales-marketing/reserve-same-batch-sales-order.md).
 
-- [Jaunas datu vienības ražošanas vietai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Jaunas datu vienības ražošanas vietai](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Noslodzes daudzumu saņemšana par daudz](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Papildinformāciju skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](../warehousing/inbound-load-handling.md).
+- [Noslodzes daudzumu saņemšana par daudz](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Papildinformāciju skatiet [Ienākošo noslodžu noliktavas apstrāde pirkšanas pasūtījumu veikšanai](../warehousing/inbound-load-handling.md).
 
-- [Pabeigtība pakešuzdevumu numuriem no darbu kartes ierīces](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Papildinformāciju skatiet [Ziņojums par pabeigšanu no darbu kartes ierīces](../production-control/report-finished-job-device.md).
+- [Pabeigtība pakešuzdevumu numuriem no darbu kartes ierīces](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Papildinformāciju skatiet [Ziņojums par pabeigšanu no darbu kartes ierīces](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -61,7 +61,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 1. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 1. kopuma plānu](/dynamics365-release-plan/2020wave1/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823792"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897604"
 ---
 # <a name="electronic-messaging"></a>Elektroniskā ziņojumapmaiņa
 
@@ -29,7 +29,7 @@ Nesen valdības un likumdošanas iestādes dažādās valstīs un reģionos vis�
 
 Elektronisko ziņojumu funkcionalitāte programmā Finance atbalsta dažādus procesus elektroniskajai sadarbspējai starp Finance un sistēmām, kuras valdības un likumdošanas iestādes nodrošina oficiālās informācijas ziņošanai, iesniegšanai un saņemšanai.
 
-Elektr. ziņojumu funkcionalitāte ir integrēta modulī **Elektronisko pārskatu veidošana** (ER). Tāpēc varat iestatīt ER formātus elektroniskajiem ziņojumiem. Papildinf. sk. tēmā [Elektr. pārskatu veidošana (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Elektr. ziņojumu funkcionalitāte ir integrēta modulī **Elektronisko pārskatu veidošana** (ER). Tāpēc varat iestatīt ER formātus elektroniskajiem ziņojumiem. Papildinf. sk. tēmā [Elektr. pārskatu veidošana (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Elektroniskā ziņojumapm. balstās uz šādiem elementiem:
 
@@ -56,7 +56,7 @@ Elektronisko ziņojumu funkcionalitāte atbalsta šādus scenārijus:
 
 ## <a name="set-up-electronic-messaging"></a>Elektr. ziņojumapm. iestat.
 
-Elektr. ziņojumapm. var jums palīdzēt uzturēt dažādus elektr. pārskatu veidošanas procesus dažādiem dok. tipiem. Dažos sarežģītos scenārijos elektroniskajai ziņojumapmaiņai ir iestatīta daudzu ziņojumu statusu, ziņojumu vienumu statusu, darbību, papildu lauku un izpildāmo klašu kombinācija. Šādu scenāriju gadījumā datu elementu pakotnes ir pieejamas importam. Ja izmantojat šīs datu elementu pakotnes, importējiet tās juridiskajā personā, izmantojot rīku Datu pārvaldība. Plašāku inf. par to, kā izmantot rīku Datu pārvaldība, sk. sadaļā [Datu pārvaldība](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Elektr. ziņojumapm. var jums palīdzēt uzturēt dažādus elektr. pārskatu veidošanas procesus dažādiem dok. tipiem. Dažos sarežģītos scenārijos elektroniskajai ziņojumapmaiņai ir iestatīta daudzu ziņojumu statusu, ziņojumu vienumu statusu, darbību, papildu lauku un izpildāmo klašu kombinācija. Šādu scenāriju gadījumā datu elementu pakotnes ir pieejamas importam. Ja izmantojat šīs datu elementu pakotnes, importējiet tās juridiskajā personā, izmantojot rīku Datu pārvaldība. Plašāku inf. par to, kā izmantot rīku Datu pārvaldība, sk. sadaļā [Datu pārvaldība](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Ja neimportējat datu elementu pakotni, varat manuāli iestatīt elektronisko ziņojumu funkcionalitāti. Šajā gadījumā ir jāiestata šādi elementi:
 

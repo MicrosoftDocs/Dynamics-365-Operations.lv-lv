@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818630"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897916"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 
@@ -41,7 +41,7 @@ Lapā **Finanšu ieskatu parametri** pakalpojumā Microsoft Dynamics 365 Finance
 
 Atvērtajā lapā ir redzama tālāk minētā informācija.
 
-- Sadaļā **Veiktspēja** modeļa veiktspējas pakāpe sniedz skatījumu uz modeļa kvalitāti. Plašāku informāciju par šo pakāpi skatiet sadaļā [Prognozēšanas modeļa veiktspēja](https://docs.microsoft.com/ai-builder/prediction-performance), kas atrodama AI Builder dokumentācijā.
+- Sadaļā **Veiktspēja** modeļa veiktspējas pakāpe sniedz skatījumu uz modeļa kvalitāti. Plašāku informāciju par šo pakāpi skatiet sadaļā [Prognozēšanas modeļa veiktspēja](/ai-builder/prediction-performance), kas atrodama AI Builder dokumentācijā.
 - Sadaļā **Visietekmīgākie dati** parādīts, cik svarīgi jūsu modelim bija dažādi datu ievades tipi. Varat novērtēt šo sarakstu un atbilstošos procentus, lai noteiktu, vai informācija atbilst tam, ko zināt par savu uzņēmumu un tirgu.
 
     [![Prognozēšanas modeļa sadaļas Veiktspēja un Visietekmīgākie dati](./media/models.png)](./media/models.png)

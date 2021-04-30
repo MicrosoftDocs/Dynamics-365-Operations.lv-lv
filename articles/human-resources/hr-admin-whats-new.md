@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5806022"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892181"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Jaunumi un izmaiņas programmā Human Resources
 
@@ -39,7 +39,7 @@ Katras divas nedēļas mēs nodrošinām jaunu Microsoft Dynamics 365 Human Reso
 
 Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšanas procesu Human Resources, skatiet tālāk minētos rakstus: 
 
-- [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [Pārskats par Dynamics 365 Human Resources 2019. gada laidiena 2. kopumu](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Procesa atjaunināšana](hr-admin-setup-update-process.md)
 
@@ -49,6 +49,7 @@ Lai iegūtu papildinformāciju par gaidāmajiem līdzekļiem vai atjaunināšana
 
 Lai uzzinātu, kas jauns vai mainīts katrā Personāla vadības laidienā divreiz nedēļā, skatiet šādus rakstus:
 
+[2021. gada 5. aprīlis](hr-whats-new-2021-04-05.md)</br>
 [2021. gada 22. marts](hr-whats-new-2021-03-22.md)</br>
 [2021. gada 8. marts](hr-whats-new-2021-03-08.md)</br>
 [2021. gada 22. februāris](hr-whats-new-2021-02-22.md)</br>
@@ -81,7 +82,7 @@ Lai uzzinātu, kas jauns vai mainīts katrā Personāla vadības laidienā divre
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Pārskats par Dynamics 365 Human Resources 2020. gada laidiena 2. kopumu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Pārskats par Dynamics 365 Human Resources 2020. gada laidiena 2. kopumu](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Procesa atjaunināšana](hr-admin-setup-update-process.md)</br>
 [Līdzekļu pārvaldība](hr-admin-manage-features.md)
 

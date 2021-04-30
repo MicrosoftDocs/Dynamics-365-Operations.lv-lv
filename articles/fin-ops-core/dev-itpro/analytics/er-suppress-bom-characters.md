@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743537"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893280"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Izveidot ER konfigurācijas, lai likvidētu MK rakstzīmes ģenerētos failos
 
 [!include [banner](../includes/banner.md)]
 
-Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md), lai ģenerētu izejošos dokumentus. Lai izveidotu dokumentus kā teksta vai XML failus, risinājumā jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu. Lai norādītu [rakstzīmju kodēšanas veidu](https://docs.microsoft.com/windows/win32/intl/character-sets), kas apzīmē rakstzīmju kopu ģenerētos failos, ER formātam jāsatur **Kopējā\\Faila** formāta elements. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta](general-electronic-reporting.md#component-versioning) versija ER formāta noformētājā un jāpievieno **Kopējais\\Faila** elements. Laukā **Kodēšana** norādiet izpildlaikā ģenerēto izejošo failu kodēšanas veidu, izmantojot šo komponentu.
+Varat noformēt [elektronisko pārskatu (Electronic Reporting — ER)](general-electronic-reporting.md) [risinājumu](er-quick-start1-new-solution.md), lai ģenerētu izejošos dokumentus. Lai izveidotu dokumentus kā teksta vai XML failus, risinājumā jāietver ER [konfigurācija](general-electronic-reporting.md#Configuration), kas satur ER [formāta](general-electronic-reporting.md#FormatComponentOutbound) komponentu. Lai norādītu [rakstzīmju kodēšanas veidu](/windows/win32/intl/character-sets), kas apzīmē rakstzīmju kopu ģenerētos failos, ER formātam jāsatur **Kopējā\\Faila** formāta elements. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta](general-electronic-reporting.md#component-versioning) versija ER formāta noformētājā un jāpievieno **Kopējais\\Faila** elements. Laukā **Kodēšana** norādiet izpildlaikā ģenerēto izejošo failu kodēšanas veidu, izmantojot šo komponentu.
 
 > [!NOTE]
 > Ja formāts ietver nepareizu kodēšanas nosaukumu, saglabājot izmaiņas formāta iestatījumos, tiek parādīts kļūdas ziņojums.
 
 ![Saknes elementu pievienošana Formātu noformētāja lapā](./media/er-suppress-bom-characters-image1.gif)
 
-Ja kā kodēšanas veidu norādāt **UTF-8**, **UTF-16** vai **UTF-32**, kļūst pieejama opcija **Likvidēt MK rakstzīmes**. Iestatiet šo opciju kā **Jā**, lai likvidētu [baitu pasūtījuma atzīmes (MK) rakstzīmes](https://docs.microsoft.com/globalization/encoding/byte-order-mark) izejošos failos, kas tiek ģenerēti izpildlaikā,kad tiek palaists rediģējams ER formāts.
+Ja kā kodēšanas veidu norādāt **UTF-8**, **UTF-16** vai **UTF-32**, kļūst pieejama opcija **Likvidēt MK rakstzīmes**. Iestatiet šo opciju kā **Jā**, lai likvidētu [baitu pasūtījuma atzīmes (MK) rakstzīmes](/globalization/encoding/byte-order-mark) izejošos failos, kas tiek ģenerēti izpildlaikā,kad tiek palaists rediģējams ER formāts.
 
 > [!NOTE]
 > Ja atstājat tukšu lauku **Kodēšana**, tad tiek izmantota **UTF-8** noklusējuma vērtība.

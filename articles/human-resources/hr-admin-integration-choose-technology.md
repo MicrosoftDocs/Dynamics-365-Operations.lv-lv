@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0e50cc1e18400258a4ad5da008e1719d39bd1da
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0d2978d680efa59b1ba9cfcd7f58655da0ff4107
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801219"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890104"
 ---
 # <a name="choose-a-data-integration-technology"></a>Izvēlēties datu integrācijas tehnoloģiju
 
@@ -36,7 +36,7 @@ ms.locfileid: "5801219"
 Biznesa dati ir galvenie līdzekļi, kas padara uzņēmumu unikālu. Biznesa dati ir ļoti vērtīgi. Lai uzlabotu biznesa procesus un biznesa informāciju visā uzņēmumā, varat izmantot attiecības starp datiem, kas apkopoti jūsu uzņēmumā. Mēs cenšamies nodrošināt vieglu, drošu un stabilu piekļuvi jūsu biznesa datiem neatkarīgi no sistēmas, no kā tie tiek iegūti.
 
 Vēsturiski datu integrācija starp vairākām sistēmām ir bijusi sarežģīta.
-Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Microsoft veic darbības, lai atvieglotu datu integrāciju, un liels solis pretī šim mērķim tiek realizēts, izmantojot [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Personāla vadība dod priekšroku Dataverse kā Personāla vadības datu publiskajam interfeisam. Laika gaitā mēs sagaidām, ka visi svarīgākie dati, ko pārvalda Human Resources, tiks sniegti Dataverse. Mēs iesakām Dataverse kā izvēles tehnoloģiju lielākajai daļai integrācijas pieteikumu.
 
@@ -48,21 +48,21 @@ Turpmākajās sadaļās aprakstītas dažādas datu integrācijas tehnoloģijas,
 
 ### <a name="dataverse-tables"></a>Dataverse tabulas
 
-Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas attīstījās no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) risinājumi.
+Dataverse ir izvēlētais publisko datu interfeiss Human Resources. Tas attīstījās no Dynamics 365 XRM platformas, ko izmanto [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) risinājumi.
 
 Dataverse nodrošina platformu un API datu tabulām. Kad tiek izvietota Personāla vadība, tie tiek savienoti ar Dataverse instanci. Personāla vadības datu entītijas tiek izvietotas šajā Dataverse instancē. Tabulas un to dati ir pieejami jebkurai programmai, kas var pieslēgties Dataverse instancei. Human Resources sinhronizē datus uz un no Dataverse tabulām.
 
 > [!NOTE]
-> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
-Ja datu tabulas, ko pieprasa jūsu integrēšanas programmas, ir Dataverse, jūs varat pilnībā izmantot [Dataverse un API, ko tā atbalsta](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Starp atbalstītajiem API ir [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), kas nodrošina OData ieviešanu, lai piekļūtu Dataverse.
+Ja datu tabulas, ko pieprasa jūsu integrēšanas programmas, ir Dataverse, jūs varat pilnībā izmantot [Dataverse un API, ko tā atbalsta](/powerapps/?panel=developer#pivot=home). Starp atbalstītajiem API ir [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), kas nodrošina OData ieviešanu, lai piekļūtu Dataverse.
 
 Dataverse tabulas un to saistītie API ir vislabākā opcija, lai piekļūtu Personāla vadības datiem, izmantojot tīmekļa programmas, tīmekļa pakalpojumus/API un no jebkuru citu programmu, kas pieslēdzas OData plūsmām.
 
 > [!NOTE]
 > Tā kā lēmums padarīt Dataverse par izvēlēto datu interfeisu Personāla vadībai ir salīdzinoši nesens, varat nākt pie atziņas, ka Personāla vadības datu elementi, kas nepieciešami integrācijai, vēl nav pieejami Dataverse.
 > </br>
-> Sarakstu ar Personāla vadības elementiem, kas pieejami Dataverse, skatiet [Personāla vadība un Dataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> Sarakstu ar Personāla vadības elementiem, kas pieejami Dataverse, skatiet [Personāla vadība un Dataverse](/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > Ja jūsu integrācijai nepieciešamie Personāla vadības elementi vēl nav pieejami, jums būs vai nu jāgaida, kamēr datu elementi tika padarīti pieejami, vai arī būs jāizmanto kāda no tālāk aprakstītajām integrācijas tehnoloģijām.
 > </br>
@@ -70,14 +70,14 @@ Dataverse tabulas un to saistītie API ir vislabākā opcija, lai piekļūtu Per
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF elementi
 
-Personāla vadība, kas galvenokārt tiek veidota uz tās pašas platformas kā Finance and Operations programmas, sniedz [Datu pārvaldības struktūru (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
+Personāla vadība, kas galvenokārt tiek veidota uz tās pašas platformas kā Finance and Operations programmas, sniedz [Datu pārvaldības struktūru (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF ir zināms arī kā Datu importēšanas un eksportēšanas struktūra (DIXF). Personāla vadība nodrošina datu elementu kopu, ko varat izmantot, lai importētu un eksportētu Personāla vadības datus. Lai gan Dataverse tabulas ir Personāla vadības izvēlētais datu integrācijas interfeiss, DMF elementi joprojām ir noderīgi dažos tālāk minētajos gadījumos:
 
 - Dataverse tabulas vēl nav pieejamas.
 
 - Integrācijai ir nepieciešamas augstas veiktspējas lielapjoma datu importēšanas/eksportēšanas iespējas.
 
 > [!NOTE]
-> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 DMF elementi pašlaik sniedz vispilnīgāko Human Resources datu segumu.
 
@@ -90,7 +90,7 @@ DMF var būt vislabākā izvēle, ja ir nepieciešama liela caurlaides spēja (p
 
 ### <a name="dmf-package-rest-api"></a>DMF pakotnes REST API
 
-DMF nodrošina [REST API](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api) manipulēšanai ar datu pakotnēm. Šo API var izmantot, lai programmiski mijiedarbotos ar DMF, atļaujot, piemēram, tādas darbības, kas minētas tālāk.
+DMF nodrošina [REST API](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api) manipulēšanai ar datu pakotnēm. Šo API var izmantot, lai programmiski mijiedarbotos ar DMF, atļaujot, piemēram, tādas darbības, kas minētas tālāk.
 
 - Datu pakotnes importēšana.
 
@@ -102,36 +102,36 @@ DMF pakotne REST API tiek pilnībā atbalstīta Human Resources.
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL datu bāze (BYOD)
 
-DMF papildus sniedz jaudīgu līdzekli (zināms kā [Atnes savu datu bāzi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database) vai BYOD (Bring Your Own Database)), kas ļauj Personāla vadībai eksportēt datus uz savu Microsoft Azure SQL datu bāzi. Šī iespēja sniedz milzīgu elastību. Kad dati ir iekļauti jūsu SQL datu bāzē, varat izmantot jebkuru programmu vai starpprogrammatūru, kas var pieslēgties SQL datu glabātuvei.
+DMF papildus sniedz jaudīgu līdzekli (zināms kā [Atnes savu datu bāzi](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database) vai BYOD (Bring Your Own Database)), kas ļauj Personāla vadībai eksportēt datus uz savu Microsoft Azure SQL datu bāzi. Šī iespēja sniedz milzīgu elastību. Kad dati ir iekļauti jūsu SQL datu bāzē, varat izmantot jebkuru programmu vai starpprogrammatūru, kas var pieslēgties SQL datu glabātuvei.
 
 BYOD galvenokārt ir tikai lasāms risinājums. Lai gan varat Azure SQL datu bāzē manipulēt un glabāt jebkurus datus (piemēram, datu jaucējprogrammas), Azure SQL datu bāzē glabātie dati nav sinhronizēti ar Personāla vadību.
 
-BYOD ir piemērots pārskatu risinājumiem, datu integrācijām, datu jaucējprogrammām un kā datu avots [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) konveijeram.
+BYOD ir piemērots pārskatu risinājumiem, datu integrācijām, datu jaucējprogrammām un kā datu avots [Azure Data Factory](/azure/data-factory/) konveijeram.
 
 > [!NOTE]
 > BYOD nav pieejams Attract un Onboard.
 
 ### <a name="odata-enabled-entities"></a>OData iespējotie elementi
 
-Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). [Finance and Operations OData pakalpojumam](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) paredzētais dokuments attiecas uz Personāla vadību, izņemot, lai izveidotu savus OData elementus.
+Lielākā daļa DMF elementu ir iespējoti arī piekļuvei, izmantojot Human Resources datu pakalpojumu (OData). [Finance and Operations OData pakalpojumam](/dynamics365/unified-operations/dev-itpro/data-entities/odata) paredzētais dokuments attiecas uz Personāla vadību, izņemot, lai izveidotu savus OData elementus.
 
-Lai gan Dataverse un OData implementācijai, ko sniedz Dataverse (izmantojot [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), tiek dota priekšroka pret Human Resources datu pakalpojumu, Human Resources datu pakalpojumam pašlaik ir pilnīgāks elementu segums Human Resources datiem.
+Lai gan Dataverse un OData implementācijai, ko sniedz Dataverse (izmantojot [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), tiek dota priekšroka pret Human Resources datu pakalpojumu, Human Resources datu pakalpojumam pašlaik ir pilnīgāks elementu segums Human Resources datiem.
 
 ### <a name="excel-add-in"></a>Excel pievienojumprogramma
 
-[Excel pievienojumprogramma](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json) padara OData iespējoto elementu izmantošanu ārpus acīmredzamā. Tas nodrošina ērtu veidu, kā lietotājam iegūt un modificēt Human Resources datus, izmantojot pazīstamo Excel lietotāja interfeisu.
+[Excel pievienojumprogramma](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) padara OData iespējoto elementu izmantošanu ārpus acīmredzamā. Tas nodrošina ērtu veidu, kā lietotājam iegūt un modificēt Human Resources datus, izmantojot pazīstamo Excel lietotāja interfeisu.
 
 Excel pievienojumprogramma ir piemērota speciālai datu importēšanai/eksportēšanai, ko veic biznesa domēna eksperti. Lai veiktu periodisku datu integrāciju, kam nepieciešama programmatiska automatizācija, piemērotāka būs cita integrācijas tehnoloģija.
 
 ### <a name="data-integrator"></a>Datu integrētājs
 
-Jūs varat izmantot [Datu integratora pakalpojumu](https://docs.microsoft.com/powerapps/administrator/data-integrator), lai integrētu datus uz un no Dataverse. Datu integrētāju ļauj jums definēt integrācijas projektus, bieži pamatojoties uz iepriekš noteiktām veidnēm, ko programmas izstrādātāji ir pielāgojuši noteiktām integrācijām. Jūs varat ieplānot integrācijas projektu palaišanu automātiskai izpildei periodiskā grafikā vai to palaišanai manuāli.
+Jūs varat izmantot [Datu integratora pakalpojumu](/powerapps/administrator/data-integrator), lai integrētu datus uz un no Dataverse. Datu integrētāju ļauj jums definēt integrācijas projektus, bieži pamatojoties uz iepriekš noteiktām veidnēm, ko programmas izstrādātāji ir pielāgojuši noteiktām integrācijām. Jūs varat ieplānot integrācijas projektu palaišanu automātiskai izpildei periodiskā grafikā vai to palaišanai manuāli.
 
 Datu integratora projekti ir piemēroti Dataverse partijas integrācijai. Tā ir lieliska izvēle integrācijai starp Dynamics 365 saimes programmām. Piemēram, Microsoft nodrošina Datu integrētāja veidni, ko var izmantot datu integrācijai no Personāla vadības uz Dynamics 365 Finance. Jūs varat uzzināt vairāk par veidni sadaļā  [Integrācija no Dynamics 365 Human Resources uz Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
-Datu integrētājs atbalsta [Power Query](https://docs.microsoft.com/power-query/power-query-what-is-power-query), izmantojot tā [Advanced Query līdzekli](https://docs.microsoft.com/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query nodrošina spēcīgu, elastīgu datu filtrēšanu un pārveidošanu, ieskaitot bagātinātu M formulas valodu. Power Query, visticamāk, būs zināms, ja esat izstrādājis Power BI pārskatus.
+Datu integrētājs atbalsta [Power Query](/power-query/power-query-what-is-power-query), izmantojot tā [Advanced Query līdzekli](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query nodrošina spēcīgu, elastīgu datu filtrēšanu un pārveidošanu, ieskaitot bagātinātu M formulas valodu. Power Query, visticamāk, būs zināms, ja esat izstrādājis Power BI pārskatus.
 
 ## <a name="deciding-on-an-integration-technology"></a>Lemšana par integrācijas tehnoloģiju
 

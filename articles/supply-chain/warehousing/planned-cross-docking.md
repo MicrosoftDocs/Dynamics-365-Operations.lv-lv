@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810418"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911252"
 ---
 # <a name="planned-cross-docking"></a>Plānotā pārkraušana sadales centrā
 
@@ -28,19 +28,21 @@ ms.locfileid: "5810418"
 
 Pārkraušana sadales centrā ļauj darbiniekiem izlaist ienākošo krājumu izvietošanu un izejošo krājumu izsniegšanu, kas jau ir atzīmēta izejošam pasūtījumam. Tāpēc, krājuma saskares reižu skaits tiek minimizēts iespēju robežās. Turklāt, ņemot vērā, ka ir mazāka mijiedarbība ar sistēmu, laika un vietas ietaupījums noliktavas ražotnē ir palielināts.
 
-Pirms var veikt pārkraušanu sadales centrā, lietotājam ir jākonfigurē jauna nosūtīšanas nosūtīšanai paredzētā veidne, kurā ir norādīts piegādes avots un citas prasību kopas pārkraušanai sadales centrā. Kad izejošais pasūtījums ir izveidots, rinda ir jāatzīmē ar ienākošo pasūtījumu, kas ietver to pašu elementu.
+Pirms var veikt pārkraušanu sadales centrā, ir jākonfigurē jauna nosūtīšanas nosūtīšanai paredzētā veidne, kurā ir norādīts piegādes avots un citas prasību kopas pārkraušanai sadales centrā. Kad izejošais pasūtījums ir izveidots, rinda ir jāatzīmē ar ienākošo pasūtījumu, kas ietver to pašu elementu. Varat izvēlēties direktīvas koda lauku veidnē Pārkraušana sadales centrā, kas ir līdzīgs tam, kā iestatījāt papildināšanas un pirkšanas pasūtījumus.
 
 Saņemšanas pasūtījuma saņemšanas laikā pārkraušanas sadales centrā iestatījums automātiski nosaka nepieciešamību veikt pārkraušanu sadales centrā un izveido vajadzīgā daudzuma kustības darbu, pamatojoties uz novietojuma direktīvas iestatījumiem.
 
 > [!NOTE]
-> Krājumu darbības **tiek** reģistrētas, atceļot pārkraušanas sadales centrā darbu, pat ja iestatījumi šai iespējai ir ieslēgti Noliktavas pārvaldības parametros.
+> Krājumu darbības *tiek* reģistrētas, atceļot pārkraušanas sadales centrā darbu, pat ja iestatījumi šai iespējai ir ieslēgti Noliktavas pārvaldības parametros.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Iespējot plānotās pārkraušanas opcijas
 
 Ja sistēmā vēl nav ietverti šajā tēmā aprakstītie līdzekļi, pārejiet uz sadaļu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un iespējojiet tālāk norādītās funkcijas šādā secībā:
 
 1. *Plānotā pārkraušana sadales centrā*
-2. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*
+1. *Pārkraušana sadales centrā — veidnes ar atrašanās vietas norādēm*
+    > [!NOTE]
+    > Šis līdzeklis ļauj lauku **Direktīvas kods** norādīt veidnē Pārkraušana sadales centrā līdzīgi tam, kā iestatījāt papildināšanas veidnes. Šī līdzekļa iespējošana neļauj galarezultātā pievienot direktīvas kodu darba veidnes Pārkraušana sadales centrā rindām pēdējai *Izvietojuma* rindai. Tas nodrošina, ka darba izveides laikā var noteikt pēdējo izvietošanas novietojumu, pirms tiek apsvērtas darba veidnes.
 
 ## <a name="setup"></a>Iestatīt
 
@@ -90,7 +92,7 @@ Plānotā pārkraušana sadales centrā tiek ieviesta kā noslodzes grāmatošan
 
     - **Direktīvas kods:** atstājiet šo lauku tukšu
 
-        Šī opcija ļauj sistēmai izmantot novietojuma direktīvas, lai palīdzētu noteikt labāko novietojumu, uz kuru pārvietot krājumus pārkraušanai sadales centrā. To var iestatīt, katrai atbilstošai veidnei pārkraušanai sadales centrā piešķirot direktīvas kodu. Katrs direktīvas kods identificē unikālu novietojuma direktīvu.
+        Šo opciju aktivizē līdzeklis *Veidnes Pārkraušana sadales centrā ar novietojuma direktīvam*. Sistēma izmanto novietojuma direktīvas, lai palīdzētu noteikt labāko novietojumu, uz kuru pārvietot krājumus pārkraušanai sadales centrā. To var iestatīt, katrai atbilstošai veidnei pārkraušanai sadales centrā piešķirot direktīvas kodu. Ja direktīvas kods ir iestatīts, sistēma meklē vietas direktīvas pēc direktīvas koda, ģenerējot darbu. Šādā veidā var ierobežot novietojuma direktīvas, kas tiek izmantotas noteiktai veidnei Pārkraušana sadales centrā.
 
     - **Validēt maksimālo laika logu:** *Jā*
 

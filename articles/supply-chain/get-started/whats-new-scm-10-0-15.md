@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821157"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909971"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.15. (2021. gada janvāris)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5821157"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
 - Mākoņa un Edge mēroga vienības pārvaldība ar ražošanas un noliktavas izpildes slodzēm<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm](../cloud-edge/cloud-edge-landing-page.md).
 
-- [Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Papildinformāciju skatiet šeit: [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [Izveidot un apstrādāt pārsūtīšanas pasūtījumus no noliktavas programmas](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Papildinformāciju skatiet šeit: [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [Noklusējuma PP atbildes lauki kreditoru piedāvājumu izteikšanai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Papildinformāciju skatiet šeit: [Piedāvājuma pieprasījumu (PP) pārskats](../procurement/request-quotations.md).
+- [Noklusējuma PP atbildes lauki kreditoru piedāvājumu izteikšanai](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Papildinformāciju skatiet šeit: [Piedāvājuma pieprasījumu (PP) pārskats](../procurement/request-quotations.md).
 
-- [Tehnoloģisko izmaiņu pārvaldības pievienojumprogramma programmai Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Plašāku informāciju skatiet rakstā [Inženierijas izmaiņu pārvaldības apskats](../engineering-change-management/product-engineering-overview.md).
+- [Tehnoloģisko izmaiņu pārvaldības pievienojumprogramma programmai Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Plašāku informāciju skatiet rakstā [Inženierijas izmaiņu pārvaldības apskats](../engineering-change-management/product-engineering-overview.md).
 
-- [Jauktās realitātes ceļveži ražošanai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Papildinformāciju skatiet šeit: [Jauktas realitātes ceļvežu nodrošināšana ražošanas darbiniekiem](../production-control/instruction-guides-in-production-overview.md).
+- [Jauktās realitātes ceļveži ražošanai](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Papildinformāciju skatiet šeit: [Jauktas realitātes ceļvežu nodrošināšana ražošanas darbiniekiem](../production-control/instruction-guides-in-production-overview.md).
 
-- [Jaunas lietotāja iespējas ražotnes izpildei](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Papildinformāciju skatiet sadaļā [Kā darbinieki izmanto ražotnes izpildes interfeisu](../production-control/production-floor-execution-use.md).
+- [Jaunas lietotāja iespējas ražotnes izpildei](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Papildinformāciju skatiet sadaļā [Kā darbinieki izmanto ražotnes izpildes interfeisu](../production-control/production-floor-execution-use.md).
 
-- [Apstrādāt noliktavas programmas notikumus](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Papildinformāciju skatiet šeit: [Noliktavas programmas notikumu apstrāde](../warehousing/warehouse-app-events.md).
+- [Apstrādāt noliktavas programmas notikumus](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Papildinformāciju skatiet šeit: [Noliktavas programmas notikumu apstrāde](../warehousing/warehouse-app-events.md).
 
-- [Lapas Izlaistie produkti saglabātie skati](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Papildinformāciju skatiet sadaļā [Saglabātie skati](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [Lapas Izlaistie produkti saglabātie skati](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Papildinformāciju skatiet sadaļā [Saglabātie skati](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - USMCA izcelsmes sertifikāta dokuments<br> - Papildu informācijai skatiet [USMCA izcelsmes sertifikācija](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +69,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

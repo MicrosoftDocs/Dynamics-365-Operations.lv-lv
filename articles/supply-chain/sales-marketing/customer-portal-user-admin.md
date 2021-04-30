@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840705"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907769"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Debitoru portāla lietotāju izveide un pārvaldība
 
@@ -44,26 +44,26 @@ Pirms sākat uzaicināt jaunus debitorus, pārliecinieties, ka esat iespējojis 
 
 ## <a name="the-invitation-process"></a>Uzaicinājuma process
 
-Lai uzaicinātu esošo kontaktpersonu Debitoru portālā, izpildiet norādījumus sadaļā [Uzaicināt kontaktpersonas savos portālos](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) Power Apps portālu dokumentācijā.
+Lai uzaicinātu esošo kontaktpersonu Debitoru portālā, izpildiet norādījumus sadaļā [Uzaicināt kontaktpersonas savos portālos](/powerapps/maker/portals/configure/invite-contacts) Power Apps portālu dokumentācijā.
 
-Pirmsuzaicināt debitoru pievienoties Debitoru portālam, pārliecinieties, ka debitora [kontaktinformācijas ieraksts](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ir pieejams un ir iestatīts, kā norādīts zemāk.
+Pirmsuzaicināt debitoru pievienoties Debitoru portālam, pārliecinieties, ka debitora [kontaktinformācijas ieraksts](/powerapps/maker/portals/configure/configure-contacts) ir pieejams un ir iestatīts, kā norādīts zemāk.
 
 1. Iestatiet lauku **Uzņēmums** uz to juridisko personu, kurai vēlaties pievienot debitoru programmatūrā Supply Chain Management.
 2. Iestatiet lauku **Kontu skaits** uz to debitora kontu skaitu, kādu vēlaties lietotājam programmatūrā Supply Chain Management.
 
 Kad kontaktpersona ir izveidota, jūs varat to redzēt Supply Chain Management.
 
-Plašāku informāciju skatiet [Konfigurēt kontaktpersonu izmantošanai portālā](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) Power Apps portālu dokumentācijā.
+Plašāku informāciju skatiet [Konfigurēt kontaktpersonu izmantošanai portālā](/powerapps/maker/portals/configure/configure-contacts) Power Apps portālu dokumentācijā.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Standarta tīmekļa lapu lomas un tabulu atļaujas
 
-Lietotāja lomas Power Apps portālos nosaka [tīmekļa lapas lomas](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [elementu atļaujas](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Dažas lomas ir definētas Debitora portālam standarta variantā. Varat izveidot jaunas lomas, un jūs varat modificēt vai noņemt esošās lomas.
+Lietotāja lomas Power Apps portālos nosaka [tīmekļa lapas lomas](/powerapps/maker/portals/configure/create-web-roles) un [elementu atļaujas](/powerapps/maker/portals/configure/assign-entity-permissions). Dažas lomas ir definētas Debitora portālam standarta variantā. Varat izveidot jaunas lomas, un jūs varat modificēt vai noņemt esošās lomas.
 
 ### <a name="out-of-box-web-roles"></a>Standarta tīmekļa lapu lomas
 
 Šajā sadaļā ir aprakstītas tīmekļa lomas, kas tiek piegādātas ar Debitoru portālu.
 
-Plašāku informāciju par to, kā modificēt standarta lietotāja lomas skatiet sadaļā [Tīmekļa lomu izveide portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) un [Uz ierakstu balstītas drošības pievienošana, izmantojot elementa atļaujas portāliem](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Apps portālu dokumentācijā.
+Plašāku informāciju par to, kā modificēt standarta lietotāja lomas skatiet sadaļā [Tīmekļa lomu izveide portāliem](/powerapps/maker/portals/configure/create-web-roles) un [Uz ierakstu balstītas drošības pievienošana, izmantojot elementa atļaujas portāliem](/powerapps/maker/portals/configure/assign-entity-permissions) Power Apps portālu dokumentācijā.
 
 #### <a name="administrator"></a>Administrators
 

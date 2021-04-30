@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 50c9ac9106487fe04ccf704907c59b9a414b6cc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840753"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907843"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Debitoru portāla Dynamics 365 Supply Chain Management pārskats
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840753"
 
 Mūsdienīgas piegādes ķēžu sistēmas balstās uz integrāciju. Tās prasa, lai krājumi, debitoru pieprasījums un pārdošanas nodaļas tiktu integrēti, nevis atrastos atsevišķos silosos. Debitoru portāls palīdz uzņēmumiem, kas lieto Microsoft Dynamics 365 Supply Chain Management, uzlabot šo integrāciju un efektīvāk uzturēt klientu informētību.
 
-Debitoru portāls ir [Power Apps portāls](https://docs.microsoft.com/powerapps/maker/portals/overview), kas ļauj uzņēmumiem izveidot ārēju no uzņēmuma uzņēmumam (B2B) tīmekļa vietni scenārijiem, kas saistīti ar pārdošanas pasūtījumu apstrādi. Veidne izmanto [duālais ieraksts](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), Supply Chain Management un Power Apps portālus, lai ļautu ārējiem uzņēmuma klientiem skatīt un izveidot datus no uzņēmuma Dynamics 365 vides.
+Debitoru portāls ir [Power Apps portāls](/powerapps/maker/portals/overview), kas ļauj uzņēmumiem izveidot ārēju no uzņēmuma uzņēmumam (B2B) tīmekļa vietni scenārijiem, kas saistīti ar pārdošanas pasūtījumu apstrādi. Veidne izmanto [duālais ieraksts](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md), Supply Chain Management un Power Apps portālus, lai ļautu ārējiem uzņēmuma klientiem skatīt un izveidot datus no uzņēmuma Dynamics 365 vides.
 
 Debitoru portāla veidnei ir visas pielāgošanas iespējas, ko piedāvā portāla Power Apps līdzekļi. Veidni var viegli mainīt, lai attēlotu uzņēmuma zīmolu, pievienotu palielinātu funkcionalitāti un mainītu lietotāja pieredzi. Visu funkcionalitāti, ko veidnes piedāvā standartā, var modificēt pēc vajadzības.
 
@@ -48,20 +48,20 @@ Debitoru portāla veidnei ir visas pielāgošanas iespējas, ko piedāvā portā
 Debitoru portāls ir paredzēts uzņēmumiem, kas lieto Supply Chain Management un kas ir tālāk minētās īpašības.
 
 - Tie vēlas izveidot ārēji vērstu tīmekļa vietni, kas komunicē pasūtījumu apstrādes informāciju (piemēram, pasūtījuma statusu vai konta informāciju) tieši no sistēmas Supply Chain Management saviem uzņēmuma klientiem.
-- Tie pāriet no Dynamics AX 2012 uz Supply Chain Management, un iepriekš izmantoja [AX 2012 Klientu pašapkalpošanās portālu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-the-customer-self-service-portal).
+- Tie pāriet no Dynamics AX 2012 uz Supply Chain Management, un iepriekš izmantoja [AX 2012 Klientu pašapkalpošanās portālu](/dynamicsax-2012/appuser-itpro/about-the-customer-self-service-portal).
 
 Tālāk minētie organizāciju veidi **nav** labi kandidāti Debitoru portāla ieviešanai.
 
-- Uzņēmumi, kas vēlas izveidot tīmekļa vietni klientiem, kas nav uzņēmuma klienti. Šiem uzņēmumiem būtu jāapsver [Dynamics 365 Commerce e-komercijas vietnes izveide](https://docs.microsoft.com/dynamics365/commerce/create-ecommerce-site).
+- Uzņēmumi, kas vēlas izveidot tīmekļa vietni klientiem, kas nav uzņēmuma klienti. Šiem uzņēmumiem būtu jāapsver [Dynamics 365 Commerce e-komercijas vietnes izveide](../../commerce/create-ecommerce-site.md).
 - Uzņēmumi, kas jau izmanto esošu Power Apps portālu tīmekļa vietni līdzīgam mērķim. Šie uzņēmumi nesaņems nekādu papildu labumu no Debitoru portāla. Debitoru portāls tiek piegādāts kā veidne, kas darbojas kā ceļvedis un sākumpunkts debitoriem, kuri vēlas "savienot punktus" starp dubulto ierakstu, Supply Chain Management un Power Apps portāliem. Ja esat jau iestatījis tīmekļa vietni, kas kalpo šim mērķim, jūs nevarēsit iegūt lielu vērtību no Debitoru portāla veidnes izmantošanas šīs tīmekļa vietnes atkārtotai nodrošināšanai.
 
 ## <a name="how-does-it-work"></a>Kā tas notiek?
 
 Debitoru portāls tiek nodrošināts kā Power Apps portālu veidne. Tas ir atkarīgs no Power Apps portāliem un duālā ieraksta.
 
-[Power Apps portāli](https://docs.microsoft.com/powerapps/maker/portals/overview) ir līdzeklis, kas ļauj lietotājiem izveidot ārēji vērstu tīmekļa vietni, kurā var pierakstīties cilvēki, kas nav organizācijas locekļi. Lai izveidotu portālus, ir nepieciešama neliela kodēšana vai tā nav vajadzīga vispār. Debitoru portāls ir viena no daudzām [Dynamics 365 portāla veidnēm](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365), kas pieejamas no Microsoft.
+[Power Apps portāli](/powerapps/maker/portals/overview) ir līdzeklis, kas ļauj lietotājiem izveidot ārēji vērstu tīmekļa vietni, kurā var pierakstīties cilvēki, kas nav organizācijas locekļi. Lai izveidotu portālus, ir nepieciešama neliela kodēšana vai tā nav vajadzīga vispār. Debitoru portāls ir viena no daudzām [Dynamics 365 portāla veidnēm](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365), kas pieejamas no Microsoft.
 
-[Duālais ieraksts](https://docs.microsoft.com/powerapps/maker/portals/overview) ir standarta infrastruktūras produkts, kas nodrošina gandrīz reāllaika mijiedarbību starp Customer Engagement programmām un Finance and Operations programmām. Duālais ieraksts nodrošina divvirzienu integrāciju starp Finance and Operations programmām un Microsoft Dataverse. Tāpēc tas nodrošina integrētu lietotāja pieredzi programmās. Debitora portāls ir atkarīgs no tabulām, kas tiek sinhronizētas ar duālo ierakstu. Pirms Supply Chain Management datus var sakārtoti Debitoru portālā, ir jāiespējo duālais ieraksts visām atbilstošajām tabulām.
+[Duālais ieraksts](/powerapps/maker/portals/overview) ir standarta infrastruktūras produkts, kas nodrošina gandrīz reāllaika mijiedarbību starp Customer Engagement programmām un Finance and Operations programmām. Duālais ieraksts nodrošina divvirzienu integrāciju starp Finance and Operations programmām un Microsoft Dataverse. Tāpēc tas nodrošina integrētu lietotāja pieredzi programmās. Debitora portāls ir atkarīgs no tabulām, kas tiek sinhronizētas ar duālo ierakstu. Pirms Supply Chain Management datus var sakārtoti Debitoru portālā, ir jāiespējo duālais ieraksts visām atbilstošajām tabulām.
 
 ![Debitoru portāla atkarības](media/customer-portal-elements.png "Debitoru portāla atkarības")
 

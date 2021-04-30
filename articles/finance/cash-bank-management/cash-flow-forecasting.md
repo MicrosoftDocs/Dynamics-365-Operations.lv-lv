@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819654"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897408"
 ---
 # <a name="cash-flow-forecasting"></a>Naudas plūsmas prognozēšana
 
@@ -144,7 +144,7 @@ Darbvietā **Naudas pārskats — visi uzņēmumi** tiek rādīti naudas plūsm
 
 Darbvietā **Naudas pārskats — pašreizējais uzņēmums** tiek rādīti naudas plūsmas prognozēšanas analīzes dati uzņēmumam definētajā uzskaites valūtā. Analīzei izmantoto uzskaites valūtu var definēt lapā **Virsgrāmata**. Šajā darbvietā ir sniegts pārskats par pašreizējā uzņēmuma naudas plūsmas prognozēšanu un bankas kontu bilancēm. Skaidras naudas ieejas un izejas plūsmas diagramma sniedz pārskatu par gaidāmo naudas plūsmu un bilancēm uzskaites valūtā, kā arī detalizētu informāciju par prognozētajām transakcijām. Varat skatīt arī prognozētās bilances noteiktā valūtā.
 
-Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI saturs](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+Papildinformāciju par naudas plūsmas prognozēšanas analīzi skatiet tēmā [Skaidras naudas Power BI saturs](./cash-overview-power-bi-content.md).
 
 Tālāk norādītajās lapās varat arī skatīt naudas plūsmas prognozēšanas datus par noteiktiem kontiem, pasūtījumiem un krājumiem.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811292"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897040"
 ---
 # <a name="get-started-with-financial-reporting"></a>Sākt darbu ar Financial reporting 
 
@@ -148,7 +148,7 @@ Pastāv dažas tipiskas problēmas, kas var radīt traucējumus, atverot pārska
 * Pārlūkprogrammā Internet Explorer atlasiet **Iestatījumi**, pēc tam atlasiet **Interneta opcijas**. Atlasiet cilni **Drošība**. Atlasiet Uzticamās vietnes. Apgabalā ar nosaukumu Šīs zonas drošības līmenis, mainiet opciju uz **Vidēji zems**.
 * Atspējojiet uznirstošo elementu bloķētāju savā pārlūkprogrammā.
 * Darbstacijām ir nepieciešams instalēt Microsoft .NET Framework 4.6.2 vai jaunāku versiju. Šo Microsoft .NET Framework versiju var lejupielādēt un instalēt no [Microsoft lejupielādes centra](https://www.microsoft.com/download/details.aspx?id=53345).
-* Lietojot pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat Chrome inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Papildinformāciju par Chrome ClickOnce paplašinājumu skatiet šeit: [Sistēmas prasības mākoņa izvietojumiem](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Lietojot pārlūkprogrammu Chrome, ir jāinstalē paplašinājums ClickOnce, lai varētu lejupielādēt Pārskatu noformētāja klientu. Ja lietojat Chrome inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmā. Papildinformāciju par Chrome ClickOnce paplašinājumu skatiet šeit: [Sistēmas prasības mākoņa izvietojumiem](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Ja izmantojat pārlūkprogrammu Microsoft Edge ar pārlūku Chrome, jums nav jāinstalē Edge Chromium paplašinājums ClickOnce. Tomēr, lai lejupielādētu pārskatu veidotāja klientu, ir jāiespējo ClickOnce opcija. Ja lietojat inkognito režīmu, pārliecinieties, ka paplašinājums ClickOnce ir iespējots inkognito režīmam.
      1. Atveriet jaunu pārlūkprogrammu Microsoft Edge.
      2. Ievadiet **edge://flags** un atlasiet **Enter**.
