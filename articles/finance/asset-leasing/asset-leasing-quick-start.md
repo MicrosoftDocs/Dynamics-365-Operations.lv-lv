@@ -2,11 +2,11 @@
 title: Līdzekļu nomas sākšana
 description: Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju.
 author: moaamer
-ms.date: 10/16/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814132"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892437"
 ---
 # <a name="asset-leasing-get-started"></a>Līdzekļu nomas sākšana
 
 [!include [banner](../includes/banner.md)]
 
 Šajā tēmā ir aprakstīta līdzekļu nomas iespēja un veicamās darbības, lai izveidotu līdzekļu nomu un skatītu to informāciju. Tēmā ir definēta arī terminoloģija, kas tiek izmantota lietotāja interfeisā un dokumentācijā. Līdzekļu noma ir papildu iespēja finanšu darbību pārvaldībai, izsekošanai un automatizēšanai nomātajiem līdzekļiem Microsoft Dynamics 365 Finance. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai. Līdzekļu noma ir integrēta ar citiem Dynamics 365 Finance komponentiem, tostarp pamatlīdzekļiem, kreditoriem un virsgrāmatu.
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Drbvietā **Līdzekļu pārvaldība** atrodiet un atlasiet līdzekli ar nosaukumu **Līdzekļa noma**, un pēc tam noklikšķiniet pogu **Iespējot tūlīt**.
 
 Lai iegūtu vairāk informācijas par grāmatvedības standartiem, skatiet 16. SFPS standarta dokumentāciju un ASV vispārpieņemtos grāmatvedības principus ASC 842.
 

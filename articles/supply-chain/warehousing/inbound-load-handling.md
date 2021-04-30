@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835634"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910019"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
 Šī tēma apraksta noliktavas apstrādes procesu ienākošajām slodzēm pirkšanas pasūtījumiem.
 
-Katrai saņemšanas noslodzei jūsu sistēmai jau ir jāiekļauj saistītais pārdošanas pasūtījums, un tas var ietvert arī saistīto noslodzes specifikāciju un/vai transportēšanas plānu. Lai iegūtu vairāk informācijas par to, kā izveidot un pārvaldīt ienākošo kravu, skatiet [Biznesa process: transportēšanas plānošana ienākošajām slodzēm](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Katrai saņemšanas noslodzei jūsu sistēmai jau ir jāiekļauj saistītais pārdošanas pasūtījums, un tas var ietvert arī saistīto noslodzes specifikāciju un/vai transportēšanas plānu. Lai iegūtu vairāk informācijas par to, kā izveidot un pārvaldīt ienākošo kravu, skatiet [Biznesa process: transportēšanas plānošana ienākošajām slodzēm](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Pārskats: kā ienākošās slodzes tiek veidotas, reģistrētas un saņemtas
 
@@ -38,11 +38,11 @@ Sekojošajā attēlā redzama parastā plūsma ienākošo slodžu apstrādei, ku
 
 1. **Ienākošās noslodzes ieraksts tiek izveidots, lai plānotu ierašanos un tā saturu.**
 
-    Saņemšanas noslodzes ieraksts parāda kreditora sūtījumu vienam vai vairākiem pirkšanas pasūtījumiem. Paredzams, ka noslodze nokļūs noliktavā kā viena fiziska transportēšanas vienība (piemēram, kravas automašīnas). Saņemšanas noslodzes ieraksts tiek izmantots plānošanas nolūkiem un ļauj loģistikas koordinatoram izsekot kravas virzību no kreditora. Tas tiek izmantots arī, lai reģistrētu pasūtījumu rindu daudzumus un pārvaldītu norisi, izmantojot noliktavas operācijas, piemēram, saņemšanas un izvietošanas darbu. Noslodzes var izveidot automātiski vai manuāli, un tās var būt pamatotas vai nu uz pirkšanas pasūtījuma, vai arī no kreditora papildu sūtījuma paziņojuma (ASN). Papildinformāciju skatiet [Ienākošās noslodzes izveide vai modificēšana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Saņemšanas noslodzes ieraksts parāda kreditora sūtījumu vienam vai vairākiem pirkšanas pasūtījumiem. Paredzams, ka noslodze nokļūs noliktavā kā viena fiziska transportēšanas vienība (piemēram, kravas automašīnas). Saņemšanas noslodzes ieraksts tiek izmantots plānošanas nolūkiem un ļauj loģistikas koordinatoram izsekot kravas virzību no kreditora. Tas tiek izmantots arī, lai reģistrētu pasūtījumu rindu daudzumus un pārvaldītu norisi, izmantojot noliktavas operācijas, piemēram, saņemšanas un izvietošanas darbu. Noslodzes var izveidot automātiski vai manuāli, un tās var būt pamatotas vai nu uz pirkšanas pasūtījuma, vai arī no kreditora papildu sūtījuma paziņojuma (ASN). Papildinformāciju skatiet [Ienākošās noslodzes izveide vai modificēšana](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Kreditors apstiprina noslodzes nosūtīšanu.**
 
-    Kad kreditors nosūta noslodzi, loģistikas koordinators saņemšanas noliktavā apstiprina noslodzes nosūtīšanu. Ja saņemšanas uzņēmums izmanto **Transportēšanas pārvaldības** moduli, saņemšanas sūtījuma apstiprināšana izraisīs citus noslodzes pārvaldības procesus, kas ir saistīti ar ienākošajām noslodzēm. Papildinformācijai skatiet [Noslodzes apstiprināšana nosūtīšanai](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Kad kreditors nosūta noslodzi, loģistikas koordinators saņemšanas noliktavā apstiprina noslodzes nosūtīšanu. Ja saņemšanas uzņēmums izmanto **Transportēšanas pārvaldības** moduli, saņemšanas sūtījuma apstiprināšana izraisīs citus noslodzes pārvaldības procesus, kas ir saistīti ar ienākošajām noslodzēm. Papildinformācijai skatiet [Noslodzes apstiprināšana nosūtīšanai](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Noslodze pienāk noliktavā, un darbinieki reģistrē daudzumus.**
 

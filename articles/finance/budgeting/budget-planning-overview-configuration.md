@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822135"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898214"
 ---
 # <a name="budget-planning-overview"></a>Budžeta plānošanas pārskats
 
@@ -75,7 +75,7 @@ Neobligāta, bet ieteicama pirmā darbība ir izveidot shēmu, kas parāda jūsu
 
 Lapā **Organizācijas hierarhija** varat konkretizēt organizācijas hierarhiju par budžeta plānošanas hierarhiju katrā budžeta plānošanas procesā. Budžeta plānošanas hierarhijai nav jāatbilst standarta organizācijas hierarhijai, kas tiek izmantota citiem mērķiem. Tā kā šī hierarhija tiek izmantota, lai apkopotu un izplatītu datus, varat izvēlēties atšķirīgu struktūru. Piemēra shēmā pārdošanas nodaļas pakļaujas galvenās pārvaldes līmenim, kurā ir budžeta un finanšu nodaļas. Šī struktūra, iespējams, atšķiras no struktūras, kas tiek izmantota, lai pārvaldītu operācijas pārdošanas nodaļās. Katram budžeta plānošanas procesam var piešķirt tikai vienu organizācijas hierarhiju.
 
-Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Papildinformāciju skatiet rakstā [Organizācijas un organizāciju hierarhijas](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Lietotāja drošība
 
@@ -163,7 +163,7 @@ Papildus budžeta summu kolonnām varat definēt kolonnas budžeta plāna laukie
 
 Piemēram shēmai, iespējams, vēlēsieties izveidot kolonnas scenārijiem "PY pārdošana," "Līgumi" un "Prognoze". (Šajā ilustrācijā parādīta shēmas atbilstošā sadaļa.) Pēc tam varat sadalīt visus vai vienu no šiem scenārijiem atsevišķās kolonnās katram finanšu gada ceturksnim, lai pārdošanas nodaļas vadītājs var precīzi ievadīt katra perioda prognozētās summas.
 
-[![Kolonnas](./media/columns.png)](./media/columns.png)
+[![Shēmas sadaļu ilustrācija kolonnu pievienošanai](./media/columns.png)](./media/columns.png)
 
 Varat arī konkretizēt, vai katru izkārtojuma elementu (kolonnu) ir atļauts rediģēt un vai tas ir pieejams jebkurā darblapas veidnē, kas ir izveidota šim izkārtojumam. Piemēra shēmas izkārtojumā, kas tiek izmantots "Novērtēšanas" stadijā, "Prognožu" kolonnas ir rediģējamas, bet kolonnas "PY pārdošana" un "Līgumi" ir tikai lasāmas.
 

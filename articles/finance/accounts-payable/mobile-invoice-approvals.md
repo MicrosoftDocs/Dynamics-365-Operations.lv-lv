@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828038"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897700"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
@@ -32,7 +32,7 @@ Mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risin
 
 | Priekšnoteikumi                                                                                            | apraksts                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |[Mobilā platforma](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Iepriekš izlasiet mobilo risinājumu rokasgrāmatu.                                                                                |[Mobilā platforma](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Vide, kurā ir instalēta versija 1611 un 3. platformas atjauninājums (2016. gada novembris)                   |
 | Instalējiet labojumfailu KB 3204341.                                                                              | Uzdevumu reģistrētājs var kļūdaini reģistrēt divas nolaižamo dialoglodziņu aizvēršanas komandas; tas ir ietverts 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums) |
 | Instalējiet labojumfailu KB 3207800.                                                                              | Šis labojumfails sniedz iespēju skatīt pielikumus mobilajā klientā; tas ir ietverts 3. platformas atjauninājumā (2016. gada novembrī izlaistais atjauninājums)           |
@@ -213,7 +213,7 @@ Lai izstrādātu rēķina detalizētas informācijas lapu mobilajām ierīcēm, 
 
 11. Kad ir pievienoti visi divu iepriekšējo darbību aprakstā norādītie lauki, noklikšķiniet uz **Gatavs**. Lapai ir jālīdzinās tālāk esošajam attēlam.
     
-    [![Lapa pēc lauku pievienošanas](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Ilustrācija, kas parāda pievienotos papildu laukus](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Noklikšķiniet uz **Gatavs**, lai izslēgtu rediģēšanas režīmu.
 

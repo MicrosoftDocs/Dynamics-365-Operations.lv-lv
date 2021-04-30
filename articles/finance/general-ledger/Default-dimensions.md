@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823864"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897312"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
@@ -83,17 +83,17 @@ Noklusējuma dimensijas žurnāla virsrakstā izraisīs to, ka nodaļa 023 tiks 
 
 Tomēr, grāmatojot rindu, tiek lietota fiksētā dimensija, un rinda tiek grāmatota nodaļā 022. Tālāk esošajā attēlā parādīts grāmatots dokuments, kur pārdošanas kontā ir lietota fiksētā dimensija.
 
-[![Dokumentu darbības](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Dokumentu darījumi ar lietotām fiksētām dimensijām](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>2. piemērs
 
 Šajā piemērā tiek lietoti tādi paši iestatījumi kā pirmajā piemērā. Tomēr mēs pievienosim otru komponentu un izmantosim dimensiju Nodaļa kā līdzsvarošanas dimensiju. Tālāk esošajā attēlā vērtība **Nodaļa** ir iestatīta kā USMF virsgrāmatas līdzsvarošanas finanšu dimensija.
 
-[![Virsgrāmata](./media/ledger.png)](./media/ledger.png)
+[![Ilustrācija, kas parāda deparatmentu kā līdzsvarošanas finanšu dimensiju](./media/ledger.png)](./media/ledger.png)
 
 Ja tiek lietots viens un tas pats žurnāla virsraksta iestatījums un tiek grāmatota viena un tā pati transakcija, fiksētā dimensija tiek lietota kā pirmā. Pēc tam tiek lietota līdzsvarošanas loģika, kas palīdz nodrošināt, lai katrai nodaļai būtu līdzsvarots ieraksts. Tālāk esošajā attēlā parādītas dokumenta transakcijas, kurās ietverts līdzsvarojošais ieraksts pēc fiksētās dimensijas lietošanas.
 
-[![Dokumentu darbības](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Dokumentu darījumi pēc līdzsvarošanas ieraksta lietošanas](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>3. piemērs
 
@@ -119,11 +119,11 @@ Daži no tālāk norādītajiem resursiem attiecas uz mūsu programmatūras vec�
 
 [Plānot kontu plānu](plan-chart-of-accounts.md) 
 
-[Kontu plāna plānošanas programmā AX 2012 emuārs](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
+[Kontu plāna plānošanas programmā AX 2012 emuārs](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) — šī saite ved uz septiņu daļu publikāciju sērijas 1. daļu.
 
-[Dimensiju noklusējuma vērtību lietošana uzskaites sadalēs](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Dimensiju noklusējuma vērtību lietošana uzskaites sadalēs](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Dimensiju noklusējuma vērtību lietošana dimensiju struktūrā](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Dimensiju noklusējuma vērtību lietošana dimensiju struktūrā](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: f21e9b94b5aa30b2cdb18692e8cc9c8d00f758d6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805038"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890080"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD plānoto pakešuzdevumu optimizēšana
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Šajā tēmā ir izskaidrots, kā optimizēt veiktspēju, kad lietojat savu datu bāzes (BYOD) līdzekli. Plašāku informāciju par BYOD skatiet [Lietot savu datu bāzi (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+Šajā tēmā ir izskaidrots, kā optimizēt veiktspēju, kad lietojat savu datu bāzes (BYOD) līdzekli. Plašāku informāciju par BYOD skatiet [Lietot savu datu bāzi (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Veiktspējas apsvērumi datu eksportam
 
-Kad entītijas ir publicētas mērķa datu bāzē, varat izmantot eksporta funkciju **Datu pārvaldības** darbvietā, lai pārvietotu datus. Eksporta funkcija ļauj definēt Datu kustības darbu, kas ietver vienu vai vairākas entītijas. Papildinformāciju par datu pārvaldību skatiet [Datu importēšanas un eksportēšanas darbu apskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+Kad entītijas ir publicētas mērķa datu bāzē, varat izmantot eksporta funkciju **Datu pārvaldības** darbvietā, lai pārvietotu datus. Eksporta funkcija ļauj definēt Datu kustības darbu, kas ietver vienu vai vairākas entītijas. Papildinformāciju par datu pārvaldību skatiet [Datu importēšanas un eksportēšanas darbu apskats](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Varat izmantot **Eksporta** lapu, lai eksportētu datus uz dažādiem mērķa datu formātiem, piemēram, komatatdalīto vērtību (CSV) failu. Šī lapa atbalsta arī SQL datu bāzes kā citu mērķi.
 
@@ -61,7 +61,7 @@ Lai iegūtu vislabākos rezultātus, vienmēr izmantojiet opciju **Eksportēt pa
 
 Kad pievienojat entītiju datu eksportam, varat darīt vai nu pakāpenisku (eksports), vai pilnu virzību. Pilna virzība dzēš visus esošos ierakstus no elementa BYOD datu bāzē. Pēc tam tā ievieto pašreizējo ierakstu kopu no Human Resources elementa.
 
-Lai veiktu pakāpenisko virzību, ir jāieslēdz izmaiņu izsekošana katram elementam **Elementu** lapā. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Lai veiktu pakāpenisko virzību, ir jāieslēdz izmaiņu izsekošana katram elementam **Elementu** lapā. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Ja izvēlaties pakāpenisko virzību, pirmā virzība vienmēr ir pilnā virzība. SQL izseko izmaiņas no šīs pirmās pilnās virzības. Kad tiek ievietots jauns ieraksts vai ieraksts tiek atjaunināts vai dzēsts, izmaiņas tiek atspoguļotas mērķa entītijā.
 
@@ -88,14 +88,14 @@ BYOD līdzeklim ir šādi ierobežojumi:
 
 **Problēma:** kad elements ir pilnībā novirzīts, jūs redzat lielu ierakstu kopu BYOD, kad izmantojat **Atlasīt** izrakstu. Tomēr, kad veicat pakāpenisko virzību, ir redzami tikai daži ieraksti BYOD. Šķiet, it kā pakāpeniskā virzība dzēsa visus ierakstus un pievienoja tikai mainītos ierakstus BYOD.
 
-**Risinājums:** SQL izmaiņu izsekošanas tabulas var nebūt paredzētajā stāvoklī. Šāda veida gadījumos iesakām izslēgt izmaiņu izsekošanu entītijai un pēc tam to atkal ieslēgt. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Risinājums:** SQL izmaiņu izsekošanas tabulas var nebūt paredzētajā stāvoklī. Šāda veida gadījumos iesakām izslēgt izmaiņu izsekošanu entītijai un pēc tam to atkal ieslēgt. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Datu pārvaldības pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Datu importēšanas un eksportēšanas darbu pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Izmaiņu izsekošanas iespējošana elementiem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Datu pārvaldības pārskats](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Savas datu bāzes izmantošana (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Datu importēšanas un eksportēšanas darbu pārskats](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Izmaiņu izsekošanas iespējošana elementiem](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

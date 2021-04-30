@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743731"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891797"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -119,7 +119,7 @@ Tālāk aprakstītajās darbībās izskaidrots, kā lietotājs sistēmas adminis
 
 - [Papildu resursi](#References)
 
-Šajā piemērā tiks izveidots jauns ER risinājums [Anketas](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) modulim. Šis jaunais ER risinājums sniedz iespēju izveidot pārskatu, izmantojot Microsoft Excel darblapu kā veidni. Pēc tam varat izveidot **Anketu** pārskatu Excel vai PDF formātā papildus esošo SQL Server pārskatu izveides pakalpojumu (SSRS) pārskata ģenerēšanai. Jauno pārskatu var arī modificēt vēlāk pēc pieprasījuma. Kodēšana nav nepieciešama.
+Šajā piemērā tiks izveidots jauns ER risinājums [Anketas](../../../human-resources/hr-learning-questionnaires.md) modulim. Šis jaunais ER risinājums sniedz iespēju izveidot pārskatu, izmantojot Microsoft Excel darblapu kā veidni. Pēc tam varat izveidot **Anketu** pārskatu Excel vai PDF formātā papildus esošo SQL Server pārskatu izveides pakalpojumu (SSRS) pārskata ģenerēšanai. Jauno pārskatu var arī modificēt vēlāk pēc pieprasījuma. Kodēšana nav nepieciešama.
 
 1. Lai palaistu esošo pārskatu, dodieties uz **Anketa** \> **Dizains** \> **Anketas pārskats**.
 

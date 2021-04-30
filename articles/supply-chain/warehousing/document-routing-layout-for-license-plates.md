@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838278"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907991"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Dokumenta maršrutēšanas izkārtojums numura zīmes etiķetēm
 
@@ -73,7 +73,7 @@ Sekojošie piemēri parāda, kā varat pielāgot darba daudzuma (**Daudzums**) l
 - Lai vienmēr parādītu četrus ciparus (izmantojot nulles kā vietturus), lietojiet `$Qty:0000$`. Piemēram, ja daudzums ir 10, etiķetē tiks parādīts "0010".
 - Lai vienmēr parādītu divas decimāldaļas vietas, izmantojiet `$Qty:0.00$`. Piemēram, ja daudzums ir 10, etiķetē tiks parādīts "10.00".
 
-Pilnīgu pieejamo skaitļu formāta virkņu sarakstu skatiet [Pielāgotās skaitļu formāta virknes](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Pilnīgu pieejamo skaitļu formāta virkņu sarakstu skatiet [Pielāgotās skaitļu formāta virknes](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Pielāgotu virkņu formāti
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Šajā piemērā datums 2020. gada 30. aprīlis tiks drukāts kā "30-04-2020".
 
-Pilnīgu pieejamo datuma/laika formātu sarakstu skatiet [Pielāgotās datuma un laika formāta virknes](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Pilnīgu pieejamo datuma/laika formātu sarakstu skatiet [Pielāgotās datuma un laika formāta virknes](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Drukāt atsevišķas rindas no vairākrindu datiem
 

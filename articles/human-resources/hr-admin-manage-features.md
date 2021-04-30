@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793829"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889840"
 ---
 # <a name="manage-features-in-human-resources"></a>Līdzekļu pārvaldība programmā Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793829"
 
 Microsoft Dynamics 365 Human Resources mēs pastāvīgi ieviešam jaunas iespējas, un vēlamies, lai klienti šos jaunos līdzekļus varētu izbaudīt pēc iespējas ātrāk. Mēs nodrošinām priekšskatījuma līdzekļus, kas ir gandrīz gatavi vispārīgai pieejamībai un ir tikuši plaši testēti. Mums vēl tikai ir jāpabeidz pēdējais posms — klientu atsauksmju un validāciju saņemšana —, pirms šie līdzekļi kļūst vispārēji pieejami.
 
-Papildinformāciju par Human Resources jaunajiem līdzekļiem skatiet [Human Resources jaunumi](hr-admin-whats-new.md) un [Dynamics 365 un Power Platform laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Papildinformāciju par Human Resources jaunajiem līdzekļiem skatiet [Human Resources jaunumi](hr-admin-whats-new.md) un [Dynamics 365 un Power Platform laidiena plāns](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-**Funkciju pārvaldības** darbvieta sniedz katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju. Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+**Funkciju pārvaldības** darbvieta sniedz katrā laidienā piegādāto līdzekļu sarakstu. Pēc noklusējuma jaunie līdzekļi ir izslēgti. Varat izmantot darbvietu, lai tos ieslēgtu un skatītu ar tiem saistīto dokumentāciju. Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Visi jaunie līdzekļi paliek priekšskatījumā vismaz 30 dienas, un parasti 30-60 dienas. Galvenās funkcijas parasti ir pieejamas katra gada oktobrī un aprīlī pēc priekšskatījuma perioda. Tiklīdz jūs redzat jaunas iespējas **Līdzekļu pārvaldības** darbvietā, varat tās ieslēgt. Daži līdzekļi var būt ieslēgti pēc noklusējuma.
 
@@ -93,6 +93,6 @@ Iesniegtajās atsauksmēs vai produkta apskatos, lūdzu, neiekļaujiet personas 
 ## <a name="see-also"></a>Skatiet arī
 
 - [Human Resources jaunumi](hr-admin-whats-new.md)
-- [Dynamics 365 un Power Platform laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Dynamics 365 un Power Platform laidiena plāns](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

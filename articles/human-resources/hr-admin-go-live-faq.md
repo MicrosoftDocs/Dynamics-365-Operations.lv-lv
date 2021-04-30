@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e1b4b336953ef6bd74da009b3bb44fbcf2eab5a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804021"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892327"
 ---
 # <a name="go-live-faq"></a>Bieži uzdotie jautājumi par palaišanu 
 
@@ -48,7 +48,7 @@ Priekšnosacījumu sarakstu skatiet tēmā [Sagatavošanās darba sākšanai](
 
 ## <a name="what-is-a-go-live-assessment"></a>Kas ir darba sākšanas novērtējums?  
 
-Darba sākšanas novērtējums ir daļa no [Microsoft FastTrack programmas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Šīs pārskatīšanas laikā risinājuma arhitekts izvērtē, vai ieviešanas projekts ir gatavs veiksmīgai pārslēgšanai un darba sākšanai. Šī pārskatīšana ir obligāta katram ieviešanas projektam, pirms varat pieprasīt sākt darbu ražošanas vidē. 
+Darba sākšanas novērtējums ir daļa no [Microsoft FastTrack programmas](/dynamics365/fasttrack/). Šīs pārskatīšanas laikā risinājuma arhitekts izvērtē, vai ieviešanas projekts ir gatavs veiksmīgai pārslēgšanai un darba sākšanai. Šī pārskatīšana ir obligāta katram ieviešanas projektam, pirms varat pieprasīt sākt darbu ražošanas vidē. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Mūsu smilškastes vides ir izvietotas centrālajā ASV datu centrā. Mēs vēlamies, lai mūsu ražošanas vides tiktu izvietotas ASV Rietumu datu centros. Vai es varu atlasīt ASV Rietumus kā datu centru savā ražošanas konfigurācijā? 
 
@@ -56,7 +56,7 @@ LCS neierobežo iespēju atlasīt citu datu centru, kad izvietojat Human Resourc
 
 Ja vēlaties, lai jūsu ražošanas vide būtu ASV Rietumu datu centrs, vispirms atkārtoti izvietojiet savas smilšu vides ASV Rietumu datu centrā, pārbaudiet tās un izrakstieties. 
 
-Informāciju par pareizā datu centra atlasīšanu skatiet tēmā [Tīkla prasības](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
+Informāciju par pareizā datu centra atlasīšanu skatiet tēmā [Tīkla prasības](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Kāda līmeņa piekļuve man ir Azure resursiem manās Human Resources vidēs?  
 
@@ -64,7 +64,7 @@ Piekļuve Human Resources vidēm ir ierobežota. Jūs nevarat piekļūt virtuāl
 
 Lai gan nevarat piekļūt saviem Azure resursiem vai Dynamics 365 Human Resources videi tieši, ir papildu līdzekļi, ko varat izmantot, lai piekļūtu saviem datiem:
 
-- Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli Savas datu bāzes izmantošana (BYOD), lai sinhronizētu datus. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
+- Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli Savas datu bāzes izmantošana (BYOD), lai sinhronizētu datus. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
 
 - Varat izmantot Dataverse integrāciju, lai sinhronizētu atlases elementus Dataverse datu bāzē. Papildinformāciju skatiet šeit: [Dataverse tabulas](hr-developer-entities.md). 
 
@@ -80,11 +80,11 @@ Datu bāzes tiek aizsargātas ar automātisko dublēšanu šādā biežumā:
 
 Microsoft saglabā pietiekamu dublēšanu, lai nodrošinātu punkta laikā atjaunošanu (PITR) pēdējo 14 dienu laikā. 
 
-Plašāku informāciju skatiet [Uzzināt par automātisko SQL datu bāzu dublēšanu](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Plašāku informāciju skatiet [Uzzināt par automātisko SQL datu bāzu dublēšanu](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Vai varu pieprasīt manas ražošanas datu bāzes dublējuma kopiju? 
 
-Nr.p.k. Tomēr varat iesniegt datu bāzes atsvaidzināšanas pakalpojuma pieprasījumu, lai iekopētu ražošanas vidi savā smilškastes vidē. Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli BYOD, lai sinhronizētu datus no savas ražošanas vides. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
+Nr.p.k. Tomēr varat iesniegt datu bāzes atsvaidzināšanas pakalpojuma pieprasījumu, lai iekopētu ražošanas vidi savā smilškastes vidē. Azure SQL datu bāzi varat izvietot savā Azure nomniekā un izmantot līdzekli BYOD, lai sinhronizētu datus no savas ražošanas vides. Plašāku informāciju skatiet tēmā [Savas datu bāzes izmantošana (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Kā es varu pārvietot savu smilškastes vidi uz ražošanu darba sākšanai? 
 
@@ -94,7 +94,7 @@ Mēs iesakām uzturēt skaidru to elementu sarakstu, kas konfigurēti jūsu smil
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Ko darīt, ja mana ražošanas vide nedarbojas? 
 
-Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tēmā [Ziņošana par ražošanas pārtraukumu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
+Lai ziņotu par ražošanas pārtraukumu, izpildiet procesu, kas aprakstīts tēmā [Ziņošana par ražošanas pārtraukumu](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
 
  ## <a name="see-also"></a>Skatiet arī
 

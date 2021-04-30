@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833861"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909479"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Kopējās izmaksas pret Transportēšanas pārvaldību
 
@@ -51,8 +51,8 @@ TMS un Kopējās izmaksas nekopīgo atsauces datus tādām entītijām kā izmak
 
 Tālāk pārskati nedarbojas kopā ar tranzīta precēm, ko nodrošina Kopējās izmaksas:
 
-- [Starpuzņēmumu tranzītpreču kopsummu pārskats](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Starpuzņēmumu tranzītpreču kopsummu pārskats](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Starpuzņēmumu tranzītpreču kopsummu pārskats](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Starpuzņēmumu tranzītpreču kopsummu pārskats](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Šie pārskati pieņem, ka preces tiek nodotas tranzītā, tiklīdz tiek izsniegts pārdošanas pavadzīme un ka tās tiek ņemtas inventāra sarakstā no tranzīta saņemšanas brīdī. Tomēr tranzīta preces netiek apstrādātas šādā veidā. Tāpēc, ja izmantojat preces tranzītā un starpuzņēmumu darbībās kopā, šo abu pārskatu rezultāti būs nepareizi.
 

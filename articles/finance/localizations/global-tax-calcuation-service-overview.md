@@ -1,8 +1,8 @@
 ---
-title: Nodokļu aprēķināšanas pakalpojums (Priekšskatījums)
-description: Šajā tēmā ir izskaidrots nodokļu aprēķināšanas pakalpojuma vispārējais tvērums un iezīmes.
+title: Nodokļu aprēķins (priekšskatījums)
+description: Šajā tēmā ir izskaidrots nodokļu aprēķina iespēju vispārējais tvērums un iezīmes.
 author: wangchen
-ms.date: 03/02/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,59 +16,57 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 518d3fda7b97e55d23beea6a1ba0e50b44a7aa0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3df952e0632807e55f176e63dc2047be5e622ec2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818228"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892353"
 ---
-# <a name="tax-calculation-service-preview"></a>Nodokļu aprēķināšanas pakalpojums (Priekšskatījums)
+# <a name="tax-calculation-preview"></a>Nodokļu aprēķins (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Nodokļu aprēķināšanas pakalpojums ir hipermērogojams daudznomnieku pakalpojums, kas ļauj Global Tax Engine automatizēt un vienkāršot nodokļu noteikšanas un aprēķināšanas procesu. Nodokļu programma ir pilnībā konfigurējama. Elementi, kurus var konfigurēt, ietver, bet ne tikai, apliekamo datu modeli, nodokļu kodu, nodokļu piemērošanas matricu un nodokļu aprēķina formulu. Nodokļu programma darbojas pamata pakalpojumu platformā un piedāvā modernu tehnoloģiju un Microsoft Azure eksponenciālu mērogošanu.
+Nodokļu aprēķins ir hipermērogojams daudznomnieku pakalpojums, kas ļauj Global Tax Engine automatizēt un vienkāršot nodokļu noteikšanas un aprēķināšanas procesu. Nodokļu programma ir pilnībā konfigurējama. Elementi, kurus var konfigurēt, ietver, bet ne tikai, apliekamo datu modeli, nodokļu kodu, nodokļu piemērošanas matricu un nodokļu aprēķina formulu. Nodokļu programma darbojas pamata pakalpojumu platformā un piedāvā modernu tehnoloģiju un Microsoft Azure eksponenciālu mērogošanu.
 
-Nodokļu aprēķināšanas pakalpojums ir integrēts ar Dynamics 365 Finance un Dynamics 365 Supply Chain Management. Visbeidzot tas integrēs arī ar Dynamics 365 Project Operations, Dynamics 365 Commerce un citām pirmās puses un trešās puses programmām.
+Nodokļu aprēķins ir integrēts ar Dynamics 365 Finance un Dynamics 365 Supply Chain Management. Visbeidzot tas integrēs arī ar Dynamics 365 Project Operations, Dynamics 365 Commerce un citām pirmās puses un trešās puses programmām.
 
-Nodokļu aprēķināšanas pakalpojums ir Microsoft nodokļu programma, kas piedāvā eksponenciālu mērogošanu. Tas var palīdzēt veikt šādus uzdevumus:
+Nodokļu aprēķins ir uz mikroservisu balstīta nodokļu programma, kas piedāvā eksponenciālu mērogošanu. Tas var palīdzēt veikt šādus uzdevumus:
 
-- Konfigurējiet nodokļu aprēķina pakalpojumu, izmantojot Regulatory Configuration Service (RCS). RCS ir uzlabota elektronisko pārskatu (Electronic reporting - ER) veidotāja versija un ir pieejama kā savrups pakalpojums.
+- Konfigurējiet nodokļu aprēķinu, izmantojot Regulatory Configuration Service (RCS). RCS ir uzlabota elektronisko pārskatu (Electronic reporting - ER) veidotāja versija un ir pieejama kā savrups pakalpojums.
 - Konfigurējiet nodokļu matricu, lai automātiski noteiktu nodokļu kodus un likmes.
 - Konfigurējiet nodokļu matricu, lai automātiski noteiktu nodokļu reģistrācijas numuru.
 - Konfigurējiet nodokļu aprēķina veidotāju, lai definētu formulas un nosacījumus.
 - Kopīgojiet nodokļu noteikšanas un aprēķināšanas risinājumu visām juridiskajām personām.
 
-Lai izmantotu nodokļu aprēķināšanas pakalpojumu, instalējiet nodokļu aprēķina pakalpojuma pievienojumprogrammu savam projektam pakalpojumā Microsoft Dynamics Lifecycle Services (LCS). Pēc tam pabeidziet iestatīšanu RCS un iespējojiet nodokļu aprēķināšanas pakalpojumu Finance un Supply Chain Management. Papildinformāciju skatiet sadaļā [Sākt darbu ar nodokļu pakalpojumu](https://go.microsoft.com/fwlink/?linkid=2138482).
+Lai izmantotu nodokļu aprēķināšanas pakalpojumu, instalējiet nodokļu aprēķina pakalpojuma pievienojumprogrammu savam projektam pakalpojumā Microsoft Dynamics Lifecycle Services (LCS). Pēc tam pabeidziet iestatīšanu RCS un iespējojiet nodokļu aprēķināšanas pakalpojumu Finance un Supply Chain Management. Papildinformāciju skatiet sadaļā [Sākt darbu ar nodokļu pakalpojumu](./global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Pieejamība
 
-Nodokļu aprēķināšanas pakalpojums ir pieejams tikai smilškastes vidē un izvēlētajiem debitoriem, izmantojot publisku priekšskatījuma programmu. Visbeidzot, tas kļūs plaši pieejams visiem debitoriem un ražošanas vidēs.
+Nodokļu aprēķins ir pieejams tikai smilškastes vidē un izvēlētajiem debitoriem, izmantojot publisku priekšskatījuma programmu. Visbeidzot, tas kļūs plaši pieejams visiem debitoriem un ražošanas vidēs.
 
-Jaunie līdzekļi tiks piegādāti nodokļu aprēķināšanas pakalpojumā. Tāpēc noteikti iepazīstieties ar visjaunāko dokumentāciju, lai uzzinātu par atbalstīto funkciju segumu un darbības jomu.
+Arī turpmāk tiks piegādāti jauni līdzekļi, tāpēc noteikti iepazīstieties ar visjaunāko dokumentāciju, lai uzzinātu par atbalstīto funkciju segumu un darbības jomu.
 
-Nodokļu aprēķināšanas pakalpojums ir izvietots tālāk redzamajās Azure ģeogrāfiskās lapās. Tas tiks izvietots arī vairākās Azure ģeogrāfiskās vietās atbilstoši debitoru vajadzībām:
+Nodokļu aprēķins ir izvietots tālāk redzamajās Azure ģeogrāfiskās lapās. Tas tiks izvietots arī vairākās Azure ģeogrāfiskās vietās atbilstoši debitoru vajadzībām:
 
 - ASV
 - Eiropa
-- Francija
-- Apvienotā Karaliste
 
 > [!NOTE]
-> Nodokļu aprēķināšanas pakalpojums neatbalsta Dynamics 365 lokālas izvietošanas. Tas neatbalsta arī agrākas versijas, piemēram, Dynamics AX 2012.
+> Nodokļu aprēķins neatbalsta Dynamics 365 lokālas izvietošanas. Tas neatbalsta arī agrākas versijas, piemēram, Dynamics AX 2012.
 
 ## <a name="feature-highlights"></a>Līdzekļu iezīmēšana
 
 - Konfigurējama nodokļu matrica, lai automātiski noteiktu un aprēķinātu nodokli
-- Atbalstīt vairākus pievienotās vērtības nodokļa (PVN) reģistrācijas numurus
+- Atbalstīt vairākus nodokļa reģistrācijas numurus
 - Pārsūtīšanas pasūtījuma atbalsts nodokļu noteikšanai un aprēķinam
-- Pārsūtīšanas pasūtījuma atbalsts vairāku PVN reģistrācijas numuru noteikšanai
+- Pārsūtīšanas pasūtījuma atbalsts vairāku nodokļa reģistrācijas numuru noteikšanai
 
 ## <a name="supported-transactions"></a>Atbalstītie darījumi
 
-Nodokļu aprēķināšanas pakalpojumu var iespējot juridiska persona un darījums. Tālāk ir norādīti atbalstītie darījumi.
+Nodokļu aprēķinu var iespējot juridiska persona un darījums. Tālāk ir norādīti atbalstītie darījumi.
 
 - Pārdošanas process
 
@@ -107,10 +105,10 @@ Nodokļu aprēķināšanas pakalpojumu var iespējot juridiska persona un darīj
 
 ## <a name="related-resources"></a>Saistītie resursi
 
-[Darba sākšana ar nodokļu pakalpojumu](https://go.microsoft.com/fwlink/?linkid=2138482)
+[Darba sākšana ar nodokļu pakalpojumu](./global-get-started-with-tax-calculation-service.md)
 
-[Vairāki PVN reģistrācijas numuri](https://go.microsoft.com/fwlink/?linkid=2153387)
+[Vairāki PVN reģistrācijas numuri](./emea-multiple-vat-registration-numbers.md)
 
-[Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumam](https://go.microsoft.com/fwlink/?linkid=2153388)
+[Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumam](./tasks/tax-feature-support-for-transfer-order.md)
 
-[Kā veidot paplašinājumu nodokļu pakalpojumā](https://go.microsoft.com/fwlink/?linkid=2138483)
+[Kā veidot paplašinājumu nodokļu pakalpojumā](./tax-service-add-data-fields-tax-integration-by-extension.md)

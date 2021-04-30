@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840729"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907819"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Debitoru portāla instalēšana, iestatīšana un atjaunināšana
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840729"
 
 Lai ieviestu Debitoru portālu, ir jābūt tālāk minētajām licencēm.
 
-- **Power Apps portāli** — šī licence ir nepieciešama, lai viesotu Debitoru portālu. Portāli tiek licencēti, pamatojoties uz lietojumu. Plašāku informāciju skatiet [Power Apps portālu licencēšanas prasības](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Power Apps portāli** — šī licence ir nepieciešama, lai viesotu Debitoru portālu. Portāli tiek licencēti, pamatojoties uz lietojumu. Plašāku informāciju skatiet [Power Apps portālu licencēšanas prasības](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Duālais ieraksts** — jums ir jābūt nepieciešamajām licencēm, lai iespējotu duālo ierakstu Supply Chain Management tabulām. Plašāku informāciju skatiet [duālā ieraksta sistēmas prasības](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Atkarības no duālā ieraksta un Power Apps portāli
@@ -40,7 +40,7 @@ Atšķirībā no citiem Supply Chain Management līdzekļiem, Debitoru portāla 
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Nepieciešamais iestatījums Debitoru portāla iespējošanai
 
-Kad esat pārliecinājies, ka jums ir nepieciešamās licences, varat iestatīt duālo ierakstu, kā aprakstīts [duālā ieraksta sākotnējās sinhronizācijas instrukcijas](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Kad esat pārliecinājies, ka jums ir nepieciešamās licences, varat iestatīt duālo ierakstu, kā aprakstīts [duālā ieraksta sākotnējās sinhronizācijas instrukcijas](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Duālajā ierakstā noteikti iespējojiet tālāk minēto tabulu kartējumus:
 
@@ -74,14 +74,14 @@ Papildu funkcionalitāti Debitoru portālam var pievienot vēlāk. Visas izmaiņ
 
 Lai uzzinātu, kā var iestatīt un pielāgot Debitoru portālu, jāsāk ar sekojošās pamattehnoloģiju dokumentācijas pārskatīšanu.
 
-- [Power Apps portālu dokumentācija](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps portālu dokumentācija](/powerapps/maker/portals/overview)
 - [Duālā ieraksta dokumentācija](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Lai efektīvi pārvaldītu portālus, ir jāizprot Power Apps portāli un Microsoft Dataverse dzīves cikls. Papildinformāciju skatiet tālāk norādītajos resursos.
 
-- [Par portāla dzīves ciklu](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Portāla jaunināšana](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portāla konfigurācijas migrācija](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Par portāla dzīves ciklu](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Portāla jaunināšana](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portāla konfigurācijas migrācija](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Risinājuma dzīves cikla pārvaldība: programma Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

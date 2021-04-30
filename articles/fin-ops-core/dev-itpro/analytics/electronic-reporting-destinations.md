@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751320"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893608"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -57,7 +57,7 @@ ER formāta konfigurācijas noklusētā uzvedība ir atkarīga no norādītā iz
 
 Ja dialoglodziņā **Intrastat pārskats** kopsavilkuma cilnē **Palaist fonā** iestatāt **Partijas apstrāde** opciju uz **Nē**, ER formāts nekavējoties tiek palaists interaktīvā režīmā. Kad šī izpilde ir veiksmīgi pabeigta, lejupielādei ir pieejams ģenerēts izejošais dokuments.
 
-Iestatot opciju **Partijas apstrāde** uz **Jā**, ER formāts tiek palaists [partijas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) režīmā. Tiek izveidots atbilstošais pakešuzdevums, pamatojoties uz parametriem, ko norādāt cilnē **Palaist fonā** dialoglodziņā **ER parametri**.
+Iestatot opciju **Partijas apstrāde** uz **Jā**, ER formāts tiek palaists [partijas](../sysadmin/batch-processing-overview.md) režīmā. Tiek izveidots atbilstošais pakešuzdevums, pamatojoties uz parametriem, ko norādāt cilnē **Palaist fonā** dialoglodziņā **ER parametri**.
 
 > [!NOTE]
 > Darba apraksts tiek uzsākts, lai informētu par ER formāta kartēšanas izpildi. Tajā ir ietvertas arī izpildīto ER komponentu nosaukums.
@@ -70,7 +70,7 @@ Informāciju par šo darbu varat atrast vairākās vietās:
 - Dodieties uz **Uzņēmuma administrēšana** \> **Elektronisko pārskatu izveide** \> **Elektronisko pārskatu izveides darbi**, lai pārbaudītu plānotā darba statusu un pabeigtā darba izpildes rezultātus. Kad darba izpilde ir sekmīgi pabeigta, atlasiet **Rādīt failus** lapā **Elektronisko pārskatu izveides darbi**, lai iegūtu izveidoto izejošo dokumentu.
 
     > [!NOTE]
-    > Šis dokuments tiek saglabāts kā pašreizējā darba ieraksta pielikums un to kontrolē [Dokumentu pārvaldības](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) struktūra. [Dokumenta veids](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), kas tiek izmantots, lai uzglabātu šī veida ER artefaktus, ir konfigurēts [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Šis dokuments tiek saglabāts kā pašreizējā darba ieraksta pielikums un to kontrolē [Dokumentu pārvaldības](../../fin-ops/organization-administration/configure-document-management.md) struktūra. [Dokumenta veids](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), kas tiek izmantots, lai uzglabātu šī veida ER artefaktus, ir konfigurēts [ER parametros](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - Lapā **Elektronisko pārskatu izveides darbi** atlasiet **Rādīt failus**, lai skatītu visu to kļūdu un brīdinājumu sarakstu, kas tika izveidoti darba izpildes laikā.
 

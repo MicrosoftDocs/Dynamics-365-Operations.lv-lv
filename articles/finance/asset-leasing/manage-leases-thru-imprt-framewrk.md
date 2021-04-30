@@ -2,11 +2,11 @@
 title: Nomu pārvaldība, izmantojot nomas importēšanas struktūru
 description: Šajā tēmā skaidrots, kā izmantot nomas importēšanas struktūru, lai vienlaicīgi koriģētu vairākas nomas.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819798"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880914"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Nomu pārvaldība, izmantojot nomas importēšanas struktūru
 
@@ -51,9 +51,9 @@ Lai skatītu nomas sagatavošanas posmu datus pirms apstrādes palaišanas, atla
 Salīdzināšanas funkcija ļauj salīdzināt ierakstu, ko importējat, ar atbilstošo ierakstu, kas jau ir jūsu sistēmā. Lai salīdzinātu atsevišķu nomas ierakstu, atlasiet nomu un pēc tam atlasiet **Salīdzināt**. Šī darbība jāveic, lai ģenerētu pārskatu **Atšķirības**, pirms migrējat nomas ierakstus. Salīdzināšanas funkcija salīdzina sagatavošanas posmu datos norādītās vērtības ar to nomu vērtībām, kas pašlaik ir sistēmā.
 
 > [!NOTE]
-> Salīdzināšanas funkcionalitāte nedarbojas nomām, kurām ir **pievienošanas ieraksta** procesa tips, jo nav nekā, ko salīdzināt ar šo nomu.
+> Salīdzināšanas funkcionalitāte nedarbojas nomām, kurām ir **Pievienot ieraksutu** procesa tips, jo nav nekā, ko salīdzināt ar šo nomu.
 >
-> Lai vienlaicīgi salīdzinātu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks \> Salīdzināt** un atlasiet **Salīdzināt**.
+> Lai vienlaicīgi salīdzinātu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks** un atlasiet **Salīdzināt**.
 
 Katram elementam varat apskatīt atšķirības starp to, kas pašlaik ir sistēmā, un to, kas atrodas sagatavošanas posmos. Katram elementam sagatavošanas tabulās atlasiet opciju **Skatīt atšķirības**. Redzamais dialoglodziņš rāda pašreizējo vērtību un piedāvāto sagatavošanas vērtību.
 
@@ -62,17 +62,17 @@ Varat arī atjaunināt sagatavošanas posma vērtību, mainot to kolonnā **Jaun
 Jūs varat pārbaudīt nomas, lai nodrošinātu, ka ieraksti var tikt ienesti sistēmā, neieviešot kļūdas. Pirms nomas ieraksts tiek migrēts, sistēma izpilda vairākas pārbaudes, lai nodrošinātu, ka ieraksts tiks sekmīgi importēts. Lai apstiprinātu atsevišķu nomu, atlasiet **Pārbaudīt**.
 
 > [!NOTE]
-> Lai vienlaicīgi pārbaudītu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks \> Pārbaudīt** un atlasiet **Pārbaudīt**.
+> Lai vienlaicīgi pārbaudītu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks** un atlasiet **Pārbaudīt**.
 
 Lai apstrādātu atsevišķu nomu, atlasiet **Migrēt nomas ierakstus** lapā **Virsraksta importēšana**. Kad noma tiek migrēta, sistēma veic darbību, kas norādīta laukā **Procesa tips**.
 
 > [!NOTE]
-> Lai vienlaicīgi pārbaudītu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks \> Pārbaudīt** un atlasiet **Pārbaudīt**.
+> Lai vienlaicīgi migrētu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks** un atlasiet **Migrēt**.
 
 Pēc tam, kad noma ir salīdzināta, varat palaist pārskatu, lai skatītu atšķirības katrai nomai, kas iekļauta importēšanas ID. Lai palaistu pārskatu vienam nomas līgumam, atlasiet šo nomu sagatavošanas posma datos un pēc tam atlasiet **Salīdzināt un skatīt pārskatu \> Atšķirību pārskats**.
 
 > [!NOTE]
-> Lai vienlaicīgi pārbaudītu vairākas nomas, dodieties uz **Līdzekļu noma \> Pieprasījumi un pārskati \> Atšķirību pārskats** un atlasiet **Salīdzināt**.
+> Lai vienlaicīgi salīdzinātu vairākas nomas, dodieties uz **Līdzekļu noma \> Nomas importēšanas struktūra \> Periodisks** un atlasiet **Salīdzināt**. 
 
 ## <a name="set-up-update-fields"></a>Iestatīt atjaunināšanas laukus
 

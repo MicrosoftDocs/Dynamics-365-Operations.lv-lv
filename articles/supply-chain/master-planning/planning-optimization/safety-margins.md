@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841867"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908297"
 ---
 # <a name="safety-margins"></a>Drošības rezerves
 
@@ -87,7 +87,7 @@ Ievērojiet, ka tad, kad tiek lietota izejas plūsmas rezerve, saistītie piedā
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Ieslēgt drošības rezerves Līdzekļu pārvaldībā
 
-Lai varētu izmantot šo līdzekli ar Plānošanas optimizāciju, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
+Lai varētu izmantot šo līdzekli ar Plānošanas optimizāciju, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [Līdzekļu pārvaldības](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Tur šī iespēja ir uzskaitīta tālāk minētajā veidā:
 
 - **Modulis:** _Vispārējā plānošana_
 - **Līdzekļa nosaukums:** _Rezervi Plānošanas optimizācijai_

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794473"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891082"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Nodaļu izveide un ietveršana nodaļu hierarhijā
 
@@ -53,7 +53,7 @@ Lai pievienotu nodaļu nodaļu hierarhijai, rīkojieties šādi.
 6.  Kad esat pabeidzis, hierarhijas veidotājā noklikšķiniet uz **Publicēt**. Varat ievadīt spēkā stāšanās datumu, kas norāda, kad šī hierarhija ir jāpublicē. Piemēram, lai pievienotu jaunu nodaļu nākamā kalendārā gada sākumā, iestatiet spēkā stāšanās datumu uz jaunā kalendāra gada 1. janvāri. Hierarhijas izmaiņas stāsies spēkā šajā datumā.
 
 ## <a name="steps-for-creating-a-department"></a>Norādījumi par nodaļas izveidi
-Sīku jaunas nodaļas izveides procedūras aprakstu skatiet rakstā [Jaunu nodaļu definēšana](../fin-and-ops/hr/tasks/define-new-departments.md). 
+Sīku jaunas nodaļas izveides procedūras aprakstu skatiet rakstā [Jaunu nodaļu definēšana](./hr-personnel-define-departments.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

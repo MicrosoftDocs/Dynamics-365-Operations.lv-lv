@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830740"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897166"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredīta pārskaitījuma apskats
 
@@ -54,7 +54,7 @@ Eiropas valstu kredīta pārskaitījuma maksājuma formāts ir ieviests, izmanto
 Vienmēr atveriet koplietojamo līdzekļu bibliotēku portālā Microsoft Dynamics Lifecycle Services (LCS) un skatiet jaunāko to pieejamo failu sarakstu, kuru pamatlīdzekļa tips ir **GER konfigurācija**. Nākamajā sadaļā “Kas man ir jāiestata?” ir norādīta saite uz tēmu, kurā paskaidrots, kā izveidot LCS repozitoriju, lai pārskatītu pieejamās konfigurācijas un importētu atlasītās konfigurācijas.
 
 ## <a name="what-do-i-have-to-set-up"></a>Kas man ir jāiestata?
--   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Lai varētu izveidot kredīta pārskaitījumu failus, jūsu ER konfigurācijās ir nepieciešams importēt vismaz vienu aktīvu kredīta pārskaitījuma konfigurāciju. Norādījumus skatiet sadaļā [Elektronisko atskaišu veidošanas konfigurāciju lejupielāde no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Kad konfigurējat kreditoru maksājuma metodes, atzīmējiet izvēles rūtiņu **Vispārīga elektronisko atskaišu veidošana** un atlasiet atbilstošo kredīta pārskaitījuma formātu (piemēram, **ISO 20022 kredīta pārskaitījums (AT)**) kā eksporta formāta konfigurāciju.
 -   Jums ir arī jāiestata juridiskās personas un bankas konta informācija.
 -   Lai izveidotu derīgus kredīta pārsūtīšanas maksājumus, ir nepieciešami bankas kontu numuri, IBAN un dažreiz SWIFT kodi (BIC) vai citi identifikatori. Tādēļ jums tie ir jāiestata gan kreditora bankas kontam, gan bankas kontam tai organizācijai, kas pieprasa pārskaitījumu.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805086"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890008"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integrācijas konfigurēšana ar Dayforce
 
@@ -53,8 +53,8 @@ Kad integrācija ir ieslēgta, tiek izveidota datu eksportēšanas pakotne un fa
 
 Papildinformāciju par Azure krātuves kontiem un Azure krātuves savienojuma virknēm skatiet tālāk minētajos Azure rakstos.
 
-- [Par Azure krātuves kontiem](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Azure krātuves savienojuma virkņu konfigurēšana](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [Par Azure krātuves kontiem](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Azure krātuves savienojuma virkņu konfigurēšana](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Tehniskā informācija par algu aprēķina integrācijas iespējošanu
 
@@ -65,6 +65,7 @@ Algu aprēķina integrācijas ieslēgšanai ir divi primārie iznākumi, kā nor
 
 > [!NOTE]
 > Datu pakotne, kas pārsūtīta uz SFTP galapunktu, tiek šifrēta, izmantojot pakotnes unikālo atslēgu. Atslēga glabājas Azure Key Vault krātuvē, kam var piekļūt, tikai izmantojot Ceridian. Nav iespējams atšifrēt un pārbaudīt datu pakotnes saturu. Ja ir jāpārbauda datu pakotnes saturs, eksportējiet datu projektu “Algu aprēķina integrācijas eksportēšana” manuāli, lejupielādējiet to un pēc tam atveriet to. Eksportējot manuāli, pakotne netiks šifrēta un pārsūtīta.
+> Piemēram, ja integrācijas faili tiek sūtīti no Dynamics 365 Human Resources UAT vai smilškastes vides uz Ceridian Dayforce testa vidi, varat izmantot tālāk norādīto galveno akreditācijas datu komplekta URL: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Datu konfigurēšana 
 
@@ -124,10 +125,10 @@ Dayforce izveido tālāk norādītos ieturējumus, pamatojoties uz atvieglojumu 
 
 Papildinformāciju par atvieglojumu programmas definēšanu un pārvaldību skatiet tālāk minētajos rakstos.
 
-- [Darbinieku atvieglojumu programmas nodrošināšana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Izveidot jaunu atvieglojumu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Atvieglojumu piemērotības kārtulu un ierobežojumu definēšana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Atvieglojumu reģistrēšana un noņemšana nodarbinātajiem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Darbinieku atvieglojumu programmas nodrošināšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Izveidot jaunu atvieglojumu](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Atvieglojumu piemērotības kārtulu un ierobežojumu definēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Atvieglojumu reģistrēšana un noņemšana nodarbinātajiem](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Atlīdzība 
 
@@ -137,20 +138,20 @@ Dayforce izmanto atlīdzības informāciju, lai aprēķinātu darbinieka stundas
 
 Papildinformāciju par atlīdzības plāniem skatiet tālāk minētajos rakstos.
 
-- [Fiksētās atlīdzības plānu izveidošana](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Mainīgās atlīdzības plānu izveidošana](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Algas/atlīdzības organizācijas un plānu izstrāde](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Procesa kompensācija](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [Atlīdzības procesa definēšana un rezultātu aprēķināšana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Darbinieka reģistrēšana fiksētās atlīdzības plānā](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Darbinieka reģistrēšana mainīgās atlīdzības plānā](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Fiksētās atlīdzības plānu izveidošana](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Mainīgās atlīdzības plānu izveidošana](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Algas/atlīdzības organizācijas un plānu izstrāde](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Procesa kompensācija](/dynamics365/unified-operations/talent/process-compensation)
+- [Atlīdzības procesa definēšana un rezultātu aprēķināšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Darbinieka reģistrēšana fiksētās atlīdzības plānā](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Darbinieka reģistrēšana mainīgās atlīdzības plānā](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Darbi 
 
 Darbs ir uzdevumu un atbildības jomu kopums, kas ir jāizpilda personai, kura veic darbu. Papildinformāciju skatiet tālāk minētajos rakstos.
 
-- [Darba komponentu iestatīšana](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [Jaunu darbu definēšana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Darba komponentu iestatīšana](/dynamics365/unified-operations/talent/create-job)
+- [Jaunu darbu definēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Amati
 
@@ -174,8 +175,8 @@ Ja vienā nodaļā ar to pašu darbu ir saistīti vairāki amati, tie pakalpojum
 
 Papildinformāciju skatiet tālāk minētajos rakstos.
 
-- [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Amatu iestatīšana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Amatu iestatīšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Nodaļas
 
@@ -183,8 +184,8 @@ Nodaļa ir pārvaldības struktūrvienība, kas pārstāv organizācijas kategor
 
 Papildinformāciju skatiet tālāk minētajos rakstos.
 
-- [Nodaļas izveide un tās saistīšana ar nodaļu hierarhiju](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Jaunu nodaļu definēšana](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Nodaļas izveide un tās saistīšana ar nodaļu hierarhiju](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Jaunu nodaļu definēšana](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Apmaksas cikli un apmaksas periodi
 

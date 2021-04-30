@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825210"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908039"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Kreditoru sadarbība ar debitoriem
 
@@ -31,7 +31,7 @@ ms.locfileid: "5825210"
 - **Pirkšanas pasūtījuma akceptēšana** — pārraudzīt un atbildēt uz pirkšanas pasūtījumiem (purchase order — PO).
 - **Piegādātāja piedāvājuma izteikšana** — skatīt piedāvājumu pieprasījumus (request for quotation — RFQ) un reaģēt uz tiem, ievadot piedāvājumus.
 - **Kreditora informācija** — skatīt un atjaunināt kreditora pamatdatus.
-- **Rēķinu izrakstīšana** — strādāt ar rēķiniem. Šajā tēmā nav aprakstīta darbvieta **Rēķinu izrakstīšana**. Papildinformāciju par šo darbvietu skatiet šeit: [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Rēķinu izrakstīšana** — strādāt ar rēķiniem. Šajā tēmā nav aprakstīta darbvieta **Rēķinu izrakstīšana**. Papildinformāciju par šo darbvietu skatiet šeit: [Kreditoru sadarbības rēķinu izrakstīšanas darbvieta](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Kreditori var pārraudzīt arī informāciju par sūtījumu krājumiem.
 

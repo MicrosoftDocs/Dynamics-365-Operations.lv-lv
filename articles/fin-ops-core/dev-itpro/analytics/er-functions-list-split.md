@@ -2,7 +2,7 @@
 title: SPLIT ER funkcija
 description: Šajā tēmā ir sniegta informācija par to, kā tiek izmantota SPLIT elektroniskā pārskata (ER) funkcija.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745597"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853447"
 ---
 # <a name="split-er-function"></a>SPLIT ER funkcija
 
@@ -79,6 +79,14 @@ Ja `input` arguments ir tukšs, tiek atgriezts jauns tukšs saraksts. Ja `input`
 ## <a name="example-2"></a>2. piemērs
 
 `SPLIT ("XAb aBy", "aB")` atgriež jaunu sarakstu, kas sastāv no trim ierakstiem ar **Virknes** veida lauku *Vērtība*. Laukam **Vērtība** pirmajā ierakstā ir teksts **"X"**, laukam **Vērtība** otrajā ierakstā ir teksts **"&nbsp;"**, un laukam **Vērtība** trešajā ierakstā ir teksts **"y"**. 
+
+## <a name="example-3"></a>3. piemērs
+
+Varat izmantot funkciju [INDEKSS](er-functions-list-index.md), lai piekļūtu atsevišķiem norādītās ievades virknes elementiem. Ja ievadāt datu avotu **MansSaraksts** tipam **Aprēķinātais lauks** un konfigurējiet tam izteiksmi `SPLIT("abc", 1)`, izteiksme `INDEX(MyList,2).Value` atgriež tekstu **b**.
+
+## <a name="example-4"></a>4. piemērs
+
+Funkcija [UZSKAITĪT](er-functions-list-enumerate.md) arī var palīdzēt piekļūt atsevišķiem norādītās ievades virknes elementiem. Ja vispirms ievadāt **Aprēķinātā lauka** tipa **MansSaraksts** datu avotu un konfigurējat tai izteiksmi `SPLIT("abc", 1)`, pēc tam ievadiet **Aprēķinātā lauka** tipa **UzskaitījumaSaraksts** datu avotu un konfigurējat to izteiksmei `ENUMERATE(MyList)`, izteiksme `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` atgriež tekstu **"b"**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 

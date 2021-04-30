@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825522"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909208"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Sagādes un avotu sākumlapa
 
@@ -83,12 +83,12 @@ Sagāde un avoti aptver visas darbības no preces un pakalpojumus nepieciešamī
 ## <a name="prices-and-discounts"></a>Cenas un atlaides
 -   [Pirkšanas līgumi](purchase-agreements.md)
 -   [Pirkšanas līguma izveide](tasks/create-purchase-agreement.md)
--   [Kreditoru atlaides](https://docs.microsoft.com/dynamics/s-e/) (tehniskais apraksts)
+-   [Kreditoru atlaides](/dynamics/s-e/) (tehniskais apraksts)
 
 ## <a name="product-receipt-and-invoicing"></a>Preču ieejas plūsma un rēķinu izrakstīšana
 -   [Produktu ieejas plūsma pret pirkšanas pasūtījumiem](product-receipt-against-purchase-orders.md)
--   [Apskats par kreditoru rēķiniem](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Kreditoru grāmatošanas metodes](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Apskats par kreditoru rēķiniem](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Kreditoru grāmatošanas metodes](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Sagādes un avotu darbplūsmas
 -   [Sagādes un avotu apskats](procurement-sourcing-overview.md)

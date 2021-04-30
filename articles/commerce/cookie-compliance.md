@@ -2,7 +2,7 @@
 title: Sīkfailu atbilstība
 description: Šajā tēmā aprakstīti apsvērumi sīkdatņu atbilstībai un noklusējuma politikas, kas ir iekļautas Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796031"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908188"
 ---
 # <a name="cookie-compliance"></a>Sīkfailu atbilstība
 
@@ -50,6 +50,57 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto sīk
 | x-ms-cpim-slice                             | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Izmanto SSO sesijas uzturēšanai.                        |
 | x-ms-cpim-trans                             | Tiek izmantots, lai izsekotu transakcijas (atvērto ciļņu skaits, kas tiek autentificētas attiecībā uz bizness patērētājam (B2C) vietni), ieskaitot pašreizējo transakciju. |
+| \_msdyn365___muid_                            | Tiek izmantots, ja vidē ir aktivizēts eksperiments; utilizēts kā lietotāja identifikators eksperimentu nolūkiem. |
+| \_msdyn365___exp_                             | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmanto, lai mērītu veiktspējas noslodzes līdzsvarošanu.         |
+
+
+
+Ja vietas lietotājs izvēlas kādu no sociālās multivides saitēm vietā, sīkfaili šajā tabulā tiks izsekoti arī viņu pārlūkprogrammā.
+
+
+| Domēns                      | Sīkfaili               | Apraksts                                                  | Modulis                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | LinkedIn reklāmu ID sinhronizēšana                                      | LinkedIn plūsmas un ieskata tags                                |
+| .linkedin.com               | li_sugr                  | Pārlūkprogrammas identifikators                                           | LinkedIn Ieskata tags, ja IP adrese nav norādītajā valstī |
+| .linkedin.com               | BizographicsOptOut       | Nosaka izvēles statusu trešo pušu izsekošanai.              | LinkedIn viesu vadīklas un nozares izvēles lapas           |
+| .linkedin.com               | \_guid                    | Google reklāmu pārlūkprogrammas identifikators.                            | LinkedIn plūsma                                                |
+| .linkedin.com               | li_oatml                 | Dalībnieka netiešais identifikators reklāmguvumu uzskaitei, atkārtotai mērķauditorijas atlasei un analīzei. | LinkedIn reklāmas un Ieskata tagi                                |
+| Dažādi pirmās puses domēni | li_fat_id                | Dalībnieka netiešais identifikators reklāmguvumu uzskaitei, atkārtotai mērķauditorijas atlasei un analīzei. | LinkedIn reklāmas un Ieskata tagi                                |
+| .adsymptotic.com            | U                        | Pārlūkprogrammas identifikators                                           | LinkedIn Ieskata tags, ja IP adrese nav Norādītajā valstī |
+| .linkedin.com                | bcookie                  | Pārlūkprogrammas ID sīkfails                                            | LinkedIn pieprasījumi                                         |
+| .linkedin.com                | bscookie                 | Drošais pārlūkprogrammas sīkfails                                        | LinkedIn pieprasījumi                                         |
+| .linkedin.com               | lang                     | Iestata noklusējuma atrašanās vietas un valodas iestatījumus.                                 | LinkedIn pieprasījumi                                         |
+| .linkedin.com                | lidc                     | Lieto maršrutēšanai.                                             | LinkedIn pieprasījumi                                         |
+| .linkedin.com               | aam_uuid                 | Adobe mērķauditorijas vadītāja sīkfails                                                     | Iestatīt ID sinhronizācijai                                              |
+| .linkedin.com               | \_ga                      | Google Analytics sīkfails                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analytics sīkfails                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analytics sīkfails                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Sīkfailā ir norādīts tā lietotāja ID, kas pašlaik ir pierakstījies.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Tiek izmantots, lai identificētu tīmekļa pārlūkprogrammu, kas tiek izmantota, lai pievienotos Facebook neatkarīgi no lietotāja, kurš ir pierakstījies. | Facebook                                                             |
+| .facebook.com               | wd                       | Saglabā pārlūka loga dimensijas un Facebook to izmanto, lai optimizētu lapas atveidošanu. | Facebook                                                             |
+| .facebook.com               | xs                       | Divciparu numurs, kas apzīmē sesijas numuru. Otrā vērtības daļa ir sesijas noslēpums. |  Facebook                                                            |
+| .facebook.com               | fr                       | Satur unikālu pārlūka un lietotāja ID, kas tiek izmantots mērķētai reklāmai. |  Facebook                                                            |
+| .facebook.com               | sb                       | Tiek lietots, lai uzlabotu Facebook draugu ieteikumus.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Sīkfailā ir norādīts tā lietotāja ID, kas pašlaik ir pierakstījies.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Sīkfailā ir norādīts tā lietotāja ID, kas pašlaik ir pierakstījies.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Sīkfails satur lapas, kad lietotājs atlasa Pinterest pogu.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Sīkfails satur lapas, kad lietotājs atlasa Pinterest pogu.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Ietver lietotāja ID un laikspiedolu, kad sīkfails tika izveidots. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Sīkfails satur lapas, kad lietotājs atlasa Pinterest pogu.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | Sīkfails satur lapas, kad lietotājs atlasa Pinterest pogu.      | Pinterest                                                             |
+| .pinterest.com              | Lokāla datu krātuve            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Pakalpojumu Darbinieki          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Vietnes lietotāja sīkfailu piekrišana e-komercijas vietnē 
 

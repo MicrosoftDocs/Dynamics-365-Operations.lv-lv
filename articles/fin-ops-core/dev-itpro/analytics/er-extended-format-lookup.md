@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ff00b577428c96804af5af29a91c7048bf736400
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753340"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893936"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Ļaut lietotājiem iestatīt ER formāta atsauci, pieprasot formātu no globālās krātuves
 
@@ -30,7 +30,7 @@ Varat izmantot struktūru [Elektroniskie pārskati](general-electronic-reporting
 
 Parasti jānorāda, kāds ER formāts konkrētā biznesa procesā jāizmanto. Lai to izdarītu, atlasiet uzmeklēšanas laukā vienu ER formātu, kas ir konfigurēts kā daļa no biznesa procesam raksturīgiem parametriem. Šie uzmeklēšanas lauki parasti tiek ieviesti, izmantojot attiecīgo ER struktūras API. Plašāku informāciju skatiet [ER struktūras API kods formāta kartēšanas uzmeklēšanas atspoguļošanai](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Piemēram, konfigurējot [ārējās tirdzniecības parametrus](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters), jāiestata atsauces uz atsevišķiem ER formātiem, kas tiks izmantoti, lai ģenerētu Intrastat deklarāciju un Intrastat deklarācijas kontroles pārskatu. Tālak redzamajos ekrānuzņēmumos parādīts, kā tiek ER formātu uzmeklēšanas lauks izskatās lapā **Ārējās tirdzniecības parametri**.
+Piemēram, konfigurējot [ārējās tirdzniecības parametrus](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters), jāiestata atsauces uz atsevišķiem ER formātiem, kas tiks izmantoti, lai ģenerētu Intrastat deklarāciju un Intrastat deklarācijas kontroles pārskatu. Tālak redzamajos ekrānuzņēmumos parādīts, kā tiek ER formātu uzmeklēšanas lauks izskatās lapā **Ārējās tirdzniecības parametri**.
 
 Ja pašreizējā Finance instancē nav iekļauti ar Intrastat biznesa procesu saistīti ER formāti, šis uzmeklēšanas lauks būs tukšs.
 

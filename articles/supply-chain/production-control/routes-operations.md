@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819284"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908932"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -79,7 +79,7 @@ Lai maršrutu varētu izmantot plānošanas vai ražošanas procesā, maršruts 
 
 Katru maršrutu var atsevišķi apstiprināt vai neapstiprināt. Taču ņemiet vērā to, ka gadījumā, ja maršruts ir neapstiprināts, arī visas saistītās maršruta versijas ir neapstiprinātas. Sadaļā Ražošanas kontroles parametri varat norādīt to, vai maršruti var būt neapstiprināti un vai var mainīt apstiprinātos maršrutus.  
 
-Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Ja ir nepieciešams žurnālā reģistrēt katra maršruta apstiprinātāju, varat iestatīt elektroniskā paraksta prasību maršruta apstiprināšanai. Šādā gadījumā lietotājiem ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Operācija ir ražošanas procesa darbība. Katrai operācijai ir ID un vienkāršs apraksts. Tālāk esošajās tabulās ir sniegti tipiski mehāniskas darbnīcas operāciju piemēri.
@@ -185,7 +185,7 @@ Aktivizējot maršruta versiju, tā tiek norādīta kā noklusējuma maršruta v
 
 ### <a name="electronic-signatures"></a>Elektroniskie paraksti
 
-Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Ja ir nepieciešams žurnālā reģistrēt katras maršruta versijas apstiprinātāju un aktivizētāju, varat iestatīt elektroniskā paraksta prasību šo uzdevumu veikšanai. Šādā gadījumā lietotājiem, kuri apstiprina un aktivizē maršruta versijas, ir jāapstiprina sava identitāte, izmantojot [elektronisko parakstu](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Preces izmaiņas, izmantojot gadījumu pārvaldību
 
@@ -253,7 +253,7 @@ Tādēļ, ja iestatījumam Pārklāšanās ir atlasīta opcija Aktivizēšana, p
 
 - [Resursu iespējas](resource-capabilities.md)
 
-- [Elektronisko parakstu apskats](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Elektronisko parakstu apskats](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

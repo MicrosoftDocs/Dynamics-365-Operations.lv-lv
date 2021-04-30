@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840248"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897724"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 
@@ -50,6 +50,14 @@ Visbeidzot, funkcijas atbalsta ziņojumu apmaiņu ar ārējiem tīmekļa pakalpo
 
 Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valsts vai reģiona. Lai arī dažas funkcijas parasti ir pieejamas, citas ir pieejamas tikai priekšskatījumā.
 
+#### <a name="generally-available-features"></a>Vispārpieejami līdzekļi
+
+Šajā tabulā parādītas elektronisko rēķinu izrakstīšanas funkcijas, kas pašlaik ir vispārpieejami.
+
+| Valsts/reģions | Līdzekļa nosaukums                         | Biznesa dokuments |
+|----------------|--------------------------------------|-------------------|
+| Ēģipte          | Ēģiptes elektroniskais rēķins (EG) | Pārdošanas un projektu rēķini |
+
 #### <a name="preview-features"></a>Priekšskatījuma līdzekļi
 
 Šajā tabulā parādītas elektronisko rēķinu izrakstīšanas funkcijas, kas pašlaik ir pieejamas priekšskatījumā.
@@ -61,7 +69,6 @@ Elektronisko rēķinu izrakstīšanas funkciju pieejamība ir atkarīga no valst
 | Brazīlija         | Brazīlijas NF-e (BR)                  | 55. finanšu dokumenta modelis, labojumu vēstules, atcelšanas un anulēšanas |
 | Brazīlija         | Brazīlijas NFS-e ABRASF Curitiba (BR) | Pakalpojuma finanšu dokumenti |
 | Dānija        | Dānijas elektroniskais rēķins (DK)       | Pārdošanas un projektu rēķini |
-| Ēģipte          | Ēģiptes elektroniskais rēķins (EG) | Pārdošanas un projektu rēķini |
 | Igaunija        | Igaunijas elektroniskais rēķins (EE)     | Pārdošanas un projektu rēķini |
 | Somija        | Somijas elektroniskais rēķins (FI)      | Pārdošanas un projektu rēķini |
 | Francija         | Francijas elektroniskais rēķins (FR)       | Pārdošanas un projektu rēķini |
@@ -202,6 +209,91 @@ Elektronisko rēķinu izrakstīšanas funkcijas sastāv no šādām konfigurēja
 | Izsaukt Meksikas PAC pakalpojumu                      | Integrēt ar Meksikas PAC pakalpojumu CFDI iesniegšanai.                      | Priekšskatījumā           |
 | Apstrādāt atbildi                              | Analizējiet atbildi, kas saņemta no tīmekļa pakalpojumu zvana.                     | Vispārēji pieejams  |
 | Izmantot MS Power Automate                         | Integrējiet ar Microsoft Power Automate iebūvētu plūsmu.                       | Priekšskatījumā           |
+
+### <a name="applicability-rules"></a>Piemērojamības kārtulas
+
+Piemērojamības noteikumi ir konfigurējamas klauzulas, kas ir definētas elektronisko rēķinu izrakstīšanas līdzekļa līmenī. Noteikumi ir konfigurēti, lai nodrošinātu elektronisko rēķinu izrakstīšanas līdzekļu izpildes kontekstu, izmantojot elektronisko rēķinu izrakstīšanas iespēju kopu.
+
+Kad biznesa dokuments no Finance vai Supply Chain Management tiek iesniegts elektroniskajai rēķinu izrakstīšanai, biznesa dokumentā nav īpašas atsauces, kas ļauj iestatīt elektronisko rēķinu izrakstīšanas iespēju, lai izsauktu noteiktu elektronisko rēķinu izrakstīšanas līdzekli un apstrādātu iesniegšanu.
+
+Tomēr, ja biznesa dokuments ir pareizi konfigurēts, tas satur nepieciešamos elementus, kas ļauj elektroniskajiem rēķiniem atrisināt, kurš e-rēķinu izrakstīšanas līdzeklis ir jāatlasa, un pēc tam ģenerēt elektronisko rēķinu.
+
+Piemērojamības noteikumi ļauj elektroniskajai rēķinu izrakstīšanas iespēju kopai atrast precīzus elektronisko rēķinu līdzekļus, kas jāizmanto, lai apstrādātu iesniegšanu. Tas tiek veikts, saskaņojot iesniegtā biznesa dokumenta saturu ar piemērojamības kārtulu klauzulām.
+
+Piemēram, divi elektronisko rēķinu izrakstīšanas līdzekļi, kas attiecas uz piemērojamības noteikumiem, tiek izvietoti elektronisko rēķinu izrakstīšanas iespēju kopā.
+
+| Elektroniskās rēķinu izveides līdzeklis | Piemērojamības kārtulas        |
+|------------------------------|--------------------------- |
+| A                            | <p>Valsts = BR</p><p>un</p><p>Juridiska persona = BRMF</p>  |
+| mljrd.                            | <p>Valsts = MX</p><p>un</p><p>Juridiska persona = MXMF</p>  |
+
+Ja Finance vai Supply Chain Management biznesa dokuments tiek iesniegts elektronisko rēķinu izrakstīšanas iespēju kopai, biznesa dokumentā ir šādi atribūti, kas aizpildīti kā:
+
+- Valsts = BR
+- Juridiska persona = BRMF
+
+Elektronisko rēķinu izrakstīšanas iespēja iestatīs elektronisko rēķinu izrakstīšanas līdzekli **A**, lai apstrādātu iesniegšanu un ģenerētu elektronisko rēķinu.
+
+Tādā pašā veidā, ja biznesa dokuments ietver:
+
+- Valsts = MX
+- Juridiska persona = MXMF
+
+Elektronisko rēķinu izrakstīšanas līdzeklis **B** ir izvēlēts, lai izveidotu elektronisko rēķinu.
+
+Piemērojamības kārtulu konfigurācija nevar būt neskaidra. Tas nozīmē, ka diviem vai vairākiem elektronisko rēķinu izrakstīšanas līdzekļiem nevar būt vienas klauzulas, pretējā gadījumā tie netiks atlasīti. Ja pastāv elektronisko rēķinu izrakstīšanas līzdekļu dublikāts, lai izvairītos no neskaidrībām, izmantojiet papildu klauzulas, lai elektroniskās rēķinu izrakstīšanas iespēju kopa varētu atšķirt abus elektronisko rēķinu līdzekļus.
+
+Piemēram, aplūkosim elektronisko rēķinu izrakstīšanas līdzekli **C**. Šis līdzeklis ir elektronisko rēķinu izrakstīšanas līdzekļa **A** kopija.
+
+| Elektroniskās rēķinu izveides līdzeklis | Piemērojamības kārtulas        |
+|------------------------------|--------------------------- |
+| A                            | <p>Valsts = BR</p><p>un</p><p>Juridiska persona = BRMF</p>  |
+| K                            | <p>Valsts = BR</p><p>un</p><p>Juridiska persona = BRMF</p>  |
+
+Šajā piemērā līdzeklis **C** ir pirms biznesa dokumenta iesniegšanas, kas satur:
+
+- Valsts = BR
+- Juridiska persona = BRMF
+
+Elektronisko rēķinu izrakstīšanas iespēja nevar atšķirt, kurš elektronisko rēķinu līdzeklis jāizmanto, lai apstrādātu iesniegšanu, jo iesniegumos ir tieši tās pašas klauzulas.
+
+Lai izveidotu atšķirību starp diviem līdzekliem, izmantojot piemērojamības noteikumus, vienam no līdzekliem ir jāpievieno jauna klauzula, lai ļautu iestatīt Elektronisko rēķinu izrakstīšanas iespēju atlasīt pareizo elektronisko rēķinu izrakstīšanas līdzekli.
+
+| Elektroniskās rēķinu izveides līdzeklis | Piemērojamības kārtulas        |
+|------------------------------|--------------------------- |
+| A                            | <p>Valsts = BR</p><p>un</p><p>Juridiska persona = BRMF</p>  |
+| K                            | <p>Valsts = BR</p><p>un</p><p>Juridiska persona = BRMF</p><p>un</p><p>Modelis=55</p>  |
+
+Lai atbalstītu sarežģītāku klauzulu izveidi, ir pieejami šādi resursi:
+
+Loģikas operatori:
+- Un
+- Vai
+
+Operatoru veidi:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Lielāks vai vienāds ar
+- Mazāks vai vienāds ar
+- Contains
+- Sākas ar
+
+Datu veidi:
+- Virkne
+- Skaits
+- Būla
+- Datums
+- UUID
+
+Iespēja grupēt un atgrupēt klauzulas.
+Piemērs izskatās šādi.
+
+| Elektroniskās rēķinu izveides līdzeklis | Piemērojamības kārtulas        |
+|------------------------------|--------------------------- |
+| K                            | <p>Valsts = BR</p><p>un</p><p>(Juridiska persona = BRMF</p><p>vai</p><p>Modelis=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Konfigurācijas nodrošinātāji
 

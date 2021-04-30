@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829695"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909431"
 ---
 # <a name="master-planning-setup-wizard"></a>Vispārējās plānošanas iestatīšanas vednis
 
@@ -45,13 +45,13 @@ Vedņa pirmajā lapā tiek jautāts par jūsu uzņēmuma īpašajām prasībām.
 
 Ja aprēķinātais pavedienu skaits pārsniedz 75 procentus no pieejamā pavedienu skaita, tas tiek ierobežots 75 procentu apmērā no pavedienu skaita, kas ir pieejams katram debitoram. (Katram debitoram tiks noteikts pieejamo pavedienu skaits.)
 
-Papildinformāciju skatiet sadaļā [Pavedienu skaits](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Papildinformāciju skatiet sadaļā [Pavedienu skaits](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Komplekta lielums
 
 Komplekta lielums tiks iestatīts uz **1**. Šī vērtība bieži vien ir vislabākā vērtība, jo tā palīdz uzlabot vispārējās plānošanas izpildi.
 
-Papildinformāciju skatiet sadaļā [Uzdevumu skaits palīga uzdevumu komplektā](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Papildinformāciju skatiet sadaļā [Uzdevumu skaits palīga uzdevumu komplektā](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Apstiprināšanas komplekta lielums
 
@@ -64,7 +64,7 @@ Komplekta aprēķins = (Plānoto pasūtījumu skaits × (Apstiprināšanas laika
 
 Kešatmiņas lielums tiks iestatīts uz **Maksimums**. Šī vērtība bieži vien ir vislabākā vērtība, jo tā palīdz uzlabot vispārējās plānošanas izpildi.
 
-Papildinformāciju skatiet sadaļu [Iedalīt laiku darbiem darbu komplektā](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Papildinformāciju skatiet sadaļu [Iedalīt laiku darbiem darbu komplektā](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Ražošanas iestatīšana
 
@@ -88,7 +88,7 @@ Atlikušajos jautājumos šajā lapā un atbildēs uz tiem tiek ievērota tā pa
 - **Jā, kā definēts vispārējā plānā**— Opcija **Budžeta plāns (laika periods)** tiks iestatīta uz **Jā**. Ievadīto dienu skaits tiks izmantots un ignorēs vērtības, kas ir iestatītas vajadzību grupās.
 - **Jā, kā definēts vajadzību grupā**— opcija **Budžeta plāns (laika periods)** tiks iestatīta uz **Nē**.
 
-Plašāku informāciju skatiet nodaļā [Darbu plānošana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Plašāku informāciju skatiet nodaļā [Darbu plānošana](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Plānošanas opcijas
 
@@ -99,7 +99,7 @@ Jūsu atbilde uz pirmo jautājumu šajā lapā ("Vai jums ir nepieciešams iepl�
 - **Jā** — tiks izmantota darbu plānošana.
 - **Nē** — tiks izmantota operāciju plānošana.
 
-Plašāku informāciju skatiet nodaļās [Operāciju plānošana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) un [Darbu plānošana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Plašāku informāciju skatiet nodaļās [Operāciju plānošana](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) un [Darbu plānošana](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Pieprasījuma un piedāvājuma atjauninājumi
 
@@ -125,9 +125,9 @@ Visbeidzot, atlasot **Pabeigt**, tiek lietota jaunā konfigurācija. Ja atlasāt
 
 Šajā sadaļā ir aprakstīts, kā iestatīt divus fiktīvus uzņēmumus, lai parādītu, kā iestatījums var mainīties atkarībā no katra uzņēmuma vajadzībām.
 
-### <a name="example-1-contoso-manufacturer"></a>1. piemērs: Contoso Manufacturer
+### <a name="example-1-contoso-manufacturer"></a>1. piemērs: Contoso Ražotājs
 
-Contoso Manufacturer ir ražošanas uzņēmums, kas ražo skaļruņus. Tas no dažādiem piegādātājiem iepērk dažādus izejmateriālus un komponentus, ko izmanto galīgajiem skaļruņiem. Šeit ir dažas tā piegādes un ražošanas īpašības:
+Contoso Ražotājs ir ražošanas uzņēmums, kas ražo skaļruņus. Tas no dažādiem piegādātājiem iepērk dažādus izejmateriālus un komponentus, ko izmanto galīgajiem skaļruņiem. Šeit ir dažas tā piegādes un ražošanas īpašības:
 
 - Pēdējiem krājumiem, kurus uzņēmums ražo, ir materiālu komplekta (MK) struktūra.
 - Visas gala preces un komponentus plāno, izmantojot vispārējo plānošanu. Manuālā plānošana nav veikta.
@@ -135,7 +135,7 @@ Contoso Manufacturer ir ražošanas uzņēmums, kas ražo skaļruņus. Tas no da
 - Ražotne ražo gala krājumus. Tam ir noteikts skaits frēzēšanas un urbšanas mašīnu, kas tiek izmantotas komponentu apstrādei. Šīm mašīnām ir jāapstrādā dažādie komponenti.
 - Ir daudz piegādātāju. Vidējais krājumu izpildes laiks ir viena nedēļa. Krājumu grupai no tā paša piegādātāja būs septiņu nedēļu izpildes laiks.
 
-Vednī Contoso Manufacturer tiek ievadītas šādas vērtības:
+Vednī Contoso Ražotājs tiek ievadītas šādas vērtības:
 
 - **Vajadzība:**
 
@@ -153,7 +153,7 @@ Vednī Contoso Manufacturer tiek ievadītas šādas vērtības:
     - **Jautājums:** "Vai jums ir nepieciešams plānot operācijas, kas sadalītas atsevišķos darbos?"
     - **Atbilde:** "Jā."
 
-    Contoso Manufacturing ir jāplāno un jāieplāno atsevišķie darbi, kas tiks veikti ražotnē. Tāpēc uzņēmums izmantos darbu plānošanu.
+    Contoso Ražošana ir jāplāno un jāieplāno atsevišķie darbi, kas tiks veikti ražotnē. Tāpēc uzņēmums izmantos darbu plānošanu.
 
 - **Noslodze:**
 
@@ -176,15 +176,15 @@ Vednī Contoso Manufacturer tiek ievadītas šādas vērtības:
 
     Ir jāplāno visi krājumi, kas tiek izmantoti ražošanā. Tā kā krājumiem ir ļoti atšķirīgi izpildes laiki, vispārējā plānošana nodrošinās labāku veiktspēju, kad tā izmanto vajadzību grupas. Atkal, var ievadīt vienas nedēļas rezervi, un izvēršanu var veikt tādam pašam laikam kā vajadzība.
 
-### <a name="example-2-contoso-retailer"></a>2. piemērs: Contoso Retailer
+### <a name="example-2-contoso-retailer"></a>2. piemērs: Contoso Mazumtirgotājs
 
-Contoso Retailer ir izplatīšanas uzņēmums modes industrijā. Tas izmanto vispārējo plānošanu, lai aprēķinātu, kad ir jāievieto pirkšanas pasūtījumi, pamatojoties uz prognozēto pārdošanas apjomu. Šeit ir dažas tā īpašības:
+Contoso Mazumtirgotājs ir izplatīšanas uzņēmums modes industrijā. Tas izmanto vispārējo plānošanu, lai aprēķinātu, kad ir jāievieto pirkšanas pasūtījumi, pamatojoties uz prognozēto pārdošanas apjomu. Šeit ir dažas tā īpašības:
 
-- Contoso Retailer izmanto pieprasījuma apjoma prognozi, lai paredzētu pārdošanu. Pirkšanas pasūtījumi tiks plānoti saskaņā ar šo prognozi.
+- Contoso Mazumtirgotājs izmanto pieprasījuma apjoma prognozi, lai paredzētu pārdošanu. Pirkšanas pasūtījumi tiks plānoti saskaņā ar šo prognozi.
 - Veikalos tiek izmantots pieprasījums papildināšanai.
 - Izpildes laiks no galvenās noliktavas līdz katram veikalam ir aptuveni divas nedēļas visiem krājumiem.
 
-Vednī Contoso Retailer tiek ievadītas šādas vērtības:
+Vednī Contoso Mazumtirgotājs tiek ievadītas šādas vērtības:
 
 - **Pieprasījuma apjoma prognoze:**
 
@@ -198,7 +198,7 @@ Vednī Contoso Retailer tiek ievadītas šādas vērtības:
     - **Jautājums:** "Vai vēlaties, lai vispārējā plānošana automātiski apstiprinātu plānotos pasūtījumus pasūtījumu dokumentos, piemēram, ražošanas vai pirkšanas pasūtījumos?"
     - **Atbilde:** "Jā, kā definēts šajā vispārējā plānā." Tiek ievadīta **1 diena**.
 
-    Tā kā Contoso Retailer izveidos pirkšanas pasūtījumus tieši no plānotajiem pirkšanas pasūtījumiem, tas ir lietderīgi, ja plānotie pirkšanas pasūtījumi tiks automātiski apstiprināti. Tā kā uzņēmums veic vispārējo plānošanu katru dienu, vienas dienas apstiprināšanas laika periods automātiski apstiprinās visus pasūtījumus, kas ir nepieciešami nākamajai dienai.
+    Tā kā Contoso Mazumtirgotājs izveidos pirkšanas pasūtījumus tieši no plānotajiem pirkšanas pasūtījumiem, tas ir lietderīgi, ja plānotie pirkšanas pasūtījumi tiks automātiski apstiprināti. Tā kā uzņēmums veic vispārējo plānošanu katru dienu, vienas dienas apstiprināšanas laika periods automātiski apstiprinās visus pasūtījumus, kas ir nepieciešami nākamajai dienai.
 
 - **Apstiprinātie pieprasījumi:**
 

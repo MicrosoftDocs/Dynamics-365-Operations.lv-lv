@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750062"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893181"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronisko pārskatu veidošanas (ER) apskats
 
@@ -183,11 +183,11 @@ Repozitorijs **Failu sistēma** nodrošina piekļuvi konfigurāciju sarakstam, k
 
 Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju importēšana](./electronic-reporting-import-ger-configurations.md).
 
-Repozitorijs **RCS** nodrošina piekļuvi noteiktas [Konfigurācijas pakalpojums (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigurācijas no atlasītās RCS instances pašreizējā instancē, lai tās varētu izmantot elektronisko pārskatu veidošanai.
+Repozitorijs **RCS** nodrošina piekļuvi noteiktas [Konfigurācijas pakalpojums (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) instances konfigurāciju sarakstam, kura tika atlasīta repozitorija reģistrācijas posmā. ER ļauj importēt pabeigtas vai koplietojamas konfigurācijas no atlasītās RCS instances pašreizējā instancē, lai tās varētu izmantot elektronisko pārskatu veidošanai.
 
 Papildinformāciju skatiet tēmā [Elektronisko pārskatu veidošanas (ER) konfigurāciju no RCS importēšana](./rcs-download-configurations.md).
 
-Repozitorijs **Globālais repozitorijs** nodrošina piekļuvi konfigurāciju sarakstam globālajā repozitorijā [Konfigurācijas pakalpojums](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS globālā repozitorija jaunākās ER konfigurāciju versijas var importēt pašreizējā instancē.
+Repozitorijs **Globālais repozitorijs** nodrošina piekļuvi konfigurāciju sarakstam globālajā repozitorijā [Konfigurācijas pakalpojums](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Šāda veida ER repozitoriju var reģistrēt tikai Microsoft nodrošinātājam. No LCS globālā repozitorija jaunākās ER konfigurāciju versijas var importēt pašreizējā instancē.
 
 Papildinformāciju skatiet tēmā [Importēt elektronisko pārskatu (ER) konfigurācijas no konfigurācijas pakalpojuma globālā repozitorija](./er-download-configurations-global-repo.md).
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df430dada52ac1aa910a3d2007aacf65d8032383
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812551"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910043"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Piedāvājuma pieprasījumu pārskats
 
@@ -43,7 +43,7 @@ Piedāvājuma pieprasījumu gadījumu varat izveidot no plānotiem pasūtījumie
 
 Pēc piedāvājuma pieprasījuma sagatavošanas un kreditoru pievienošanas atlasiet **Sūtīt** (publiskajā sektorā tas ir **Sūtīt un publicēt**) šim piedāvājuma pieprasījuma gadījumam. Tiek ģenerēts piedāvājuma pieprasījuma žurnāls katram kreditoram, kuram nosūtījāt šo piedāvājuma pieprasījumu. Sūtīšanas darbības drukāšanas opcijas varat konfigurēt tā, lai katra kreditora pārskats tiktu drukāts uz arhīvu vai lai pārskats tiktu sūtīts uz katra kreditora e-pasta adresi. Turklāt katra kreditora piedāvājuma pieprasījuma žurnālu varat izmantot, lai ģenerētu pārskatu, ko vēlāk varat nosūtīt vai atkārtoti nosūtīt šim kreditoram. Var arī konfigurēt sūtīšanas darbību tā, lai tā ģenerētu atbildes lapu, ko kreditors var aizpildīt.
 
-Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
+Šajā tēmā ir apskatīta procedūra piedāvājumu pieprasījumu apstrādāšanai, kad netiek izmantota kreditora sadarbība. Ja sistēma ir iestatīta kreditoru sadarbībai, kreditori var tieša veidā ievadīt piedāvājumus programmatūrā Supply Chain Management. Papildinformāciju skatiet rakstā [Kreditoru sadarbība ar debitoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) un [Kreditoru sadarbība ar ārējiem kreditoriem](vendor-collaboration-work-external-vendors.md).
 
 Ja jums jāveic PP grozījumus pēc nosūtīšanas, ir iespējams PP atkārtoti nosūtīt kreditoriem, kad pabeigsiet, izmantojot divas grozījuma darbības: izveidot un finalizēt.
 
@@ -165,7 +165,7 @@ Ja grozījuma procesu konfigurējat, uzstādot stingrākus ierobežojumus, lai m
 
 Ja grozījuma procesu konfigurējat, uzstādot mazāk stingrus ierobežojumus, nav nepieciešamības atlasīt **Izveidot**, lai varētu mainīt laukus jau nosūtītā piedāvājuma pieprasījuma gadījumā. Taču piedāvājuma pieprasījumam ir manuāli jāpievieno piezīme par grozījumu, un šis gadījums ir jānosūta vēlreiz. Ņemiet vērā, ka šo pieeju var lietot tikai tad, ja neviena no atbildēm (piedāvājumiem) nav rediģēta. Ja esat ievadījis kādu atbildi un tās statuss ir **Saņemts**, poga **Sūtīt** nav pieejama. Tādā gadījumā jums ir jāatlasa **Izveidot** un pēc tam — **Finalizēt**, tāpat kā procesos ar stingrākiem ierobežojumiem. Pēc tam atbilde tiek atiestatīta, lai atspoguļotu piedāvājuma pieprasījumā veiktās izmaiņas.
 
-Ja piedāvājumu ievadīšanai kreditori izmanto kreditoru sadarbības interfeisu, jums vienmēr ir jāizmanto grozījumu process, lai informētu kreditorus par piedāvājuma pieprasījuma gadījuma veiktajām izmaiņām. Šī procedūra palīdz novērst situācijas, kad kreditori izsaka piedāvājumu par novecojušu piedāvājuma pieprasījuma gadījumu, kamēr viņu piedāvājums tiek apstrādāts. Papildinformāciju par kreditoru sadarbību skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Ja piedāvājumu ievadīšanai kreditori izmanto kreditoru sadarbības interfeisu, jums vienmēr ir jāizmanto grozījumu process, lai informētu kreditorus par piedāvājuma pieprasījuma gadījuma veiktajām izmaiņām. Šī procedūra palīdz novērst situācijas, kad kreditori izsaka piedāvājumu par novecojušu piedāvājuma pieprasījuma gadījumu, kamēr viņu piedāvājums tiek apstrādāts. Papildinformāciju par kreditoru sadarbību skatiet šeit: [Kreditoru sadarbība ar ārējiem kreditoriem](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Ja saistībā ar piedāvājuma izteikšanu vēlaties uzaicināt papildu kreditorus un ja piedāvājuma pieprasījuma gadījumam nav veiktas nekādas izmaiņas, varat izmantot pogu **Sūtīt**. Jūsu pievienotie kreditori būs redzami lapā **Sūtīt** un saņems e-pasta uzaicinājumu.
 

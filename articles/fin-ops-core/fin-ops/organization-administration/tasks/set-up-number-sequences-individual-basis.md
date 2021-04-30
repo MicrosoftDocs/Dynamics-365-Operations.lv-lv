@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747325"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890862"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Atsevišķu numuru sēriju iestatīšana
 
@@ -30,7 +30,7 @@ ms.locfileid: "5747325"
 2. Atlasiet **Numuru sērija**.
 3. Laukā **Numuru sērijas kods** ierakstiet kādu vērtību.
 4. Laukā **Nosaukums** ierakstiet kādu vērtību.
-5. Kopsavilkuma cilnē **Apjoma parametri** atlasiet numuru sērijas tvēruma diapazonu un atlasiet tvēruma vērtības nolaižamajā sarakstā. Tvērums definē, kuras organizācijas izmanto šo numuru sēriju. Turklāt numuru sērijām, kuru tvērums nav **Koplietots**, var būt segmenti, kas atbilst to tvērumam. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Papildinformāciju par tvērumiem skatiet nodaļā [Numuru sēriju pārskats](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. Kopsavilkuma cilnē **Apjoma parametri** atlasiet numuru sērijas tvēruma diapazonu un atlasiet tvēruma vērtības nolaižamajā sarakstā. Tvērums definē, kuras organizācijas izmanto šo numuru sēriju. Turklāt numuru sērijām, kuru tvērums nav **Koplietots**, var būt segmenti, kas atbilst to tvērumam. Piemēram, numuru sērija ar tvērumu **Juridiska persona** var ietvert juridiskas personas segmentu. Papildinformāciju par tvērumiem skatiet nodaļā [Numuru sēriju pārskats](../number-sequence-overview.md). 
 6. Izvērsiet sadaļu **Segmenti**.
     - Definējiet formātu numuru sērijai, pievienojot, noņemot un pārkārtojot segmentus.  
     - Visu tvērumu numuru sērijas var saturēt *Konstantus segmentus* un *Burtciparu segmentus*. Konstanti segmenti satur burtciparu rakstzīmju kopu, kas nemainās. Izmantojiet šo segmenta tipu, lai pievienotu defisi vai citus atdalītājus starp numuru sērijas segmentiem. Burtciparu segmenti satur numura zīmju (#) un zīmju ampersand (&) kombināciju. Šīs rakstzīmes apzīmē burtus un ciparus, kas pieaug katru reizi, kad tiek izmantots skaitlis no šīs sērijas. Norādiet numura zīmi (#), lai norādītu pieaugošus numurus, un zīmi &, lai norādītu pieaugošus burtus. Piemēram, formāts `#####_2014` izveido sēriju `00001_2014`, `00002_2014` un tā tālāk. Nepieciešams vismaz viens burtu un ciparu segments. Tvērumu segmenti, piemēram, uzņēmums vai juridiskā persona, nav obligāti. Tomēr, ja formātā neiekļaujat tvēruma segmentus, katrai atlasītajai atsaucei tik un tā tiek ģenerēti numuri katram tvērumam.  
