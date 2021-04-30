@@ -2,7 +2,8 @@
 title: ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu
 description: Šajā tēmā izskaidrots, kā konfigurēt elektronisko pārskatu (ER) formātus, lai varētu izmantot parametrus, kas ir norādīti par juridisko personu.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751182"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853497"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER formātu konfigurēšana, lai izmantotu parametrus, kas ir norādīti par juridisko personu
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751182"
 
 ## <a name="overview"></a>Pārskats
 
-Daudzos no elektronisko pārskatu (ER) formātiem, kurus izstrādāsit, ir jāfiltrē dati, izmantojot vērtību kopu, kas ir specifiska katrai jūsu instances juridiskajai personai (piemēram, nodokļu kodu kopa nodokļu darbību filtrēšanai). Pašlaik, kad šī veida filtrēšana ir konfigurēta ER formātā, vērtības, kas ir atkarīgas no juridiskās personas (piemēram, nodokļu kodi), tiek izmantotas ER formāta izteiksmē, lai norādītu datu filtrēšanas nosacījumus. Tāpēc ER formāts ir padarīts juridiskai personai specifisks, un lai ģenerētu pieprasītos pārskatus, jums ir jāizveido iegūtas kopijas no sākotnējā ER formāta katrai juridiskajai personai, kurai jums ir jāpalaiž ER formāts. Katrs atvasinātais ER formāts ir jārediģē, lai tajā ieviestu juridiskajai personai specifiskās vērtības, pārbaudot, kad sākotnējā (bāzes) versija ir atjaunināta, eksportēta no testa vides un importēta ražošanas vidē, kad tā ir jāizvieto izmantošanai ražošanā un tā tālāk. Tāpēc šāda veida konfigurētā ER risinājuma uzturēšana ir samērā sarežģīta un laikietilpīga vairāku iemeslu dēļ:
+Daudzos no elektronisko pārskatu (ER) formātiem, kurus izstrādāsit, ir jāfiltrē dati, izmantojot vērtību kopu, kas ir specifiska katrai jūsu instances juridiskajai personai (piemēram, nodokļu kodu kopa nodokļu darbību filtrēšanai). Pašlaik, kad šī veida filtrēšana ir konfigurēta ER formātā, vērtības, kas ir atkarīgas no juridiskās personas (piemēram, nodokļu kodi), tiek izmantotas ER formāta izteiksmē, lai norādītu datu filtrēšanas nosacījumus. Tāpēc ER formāts ir padarīts juridiskai personai specifisks, un lai ģenerētu pieprasītos pārskatus, jums ir jāizveido iegūtas kopijas no sākotnējā ER formāta katrai juridiskajai personai, kurai jums ir jāpalaiž ER formāts. Katrs atvasinātais ER formāts ir jārediģē, lai tajā ieviestu juridiskajai personai specifiskās vērtības, pārbaudot, kad sākotnējā (bāzes) versija ir atjaunināta, eksportēta no testa vides un importēta ražošanas vidē, kad tā ir jāizvieto izmantošanai ražošanā un tā tālāk. Tāpēc šāda veida konfigurētā ER risinājuma uzturēšana ir sarežģīta un laikietilpīga vairāku iemeslu dēļ:
 
 -   Jo vairāk ir juridisko personu, jo ir jāsaglabā vairāk ER formāta konfigurācijas.
 -   ER konfigurāciju uzturēšana prasa, lai uzņēmuma lietotājiem būtu ER zināšanas.
@@ -86,7 +87,7 @@ Pēc tam pierakstieties savā RCS instancē.
 
     ![Modelis.Dati.Kopsavilkums nodokļu transakciju datu avota saraksts](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Aprēķinātais lauks **Modelis.Dati.Kopsavilkums.Līmenis** ir konfigurēts tā, lai tas ietvertu ER izteiksmi. Ņemiet vērā, ka nodokļu kodi (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** un **InVAT0**) šajā konfigurācijā ir stingri kodēti. Tāpēc šis ER formāts ir atkarīgs no juridiskās personas, kur šie nodokļu kodi tika konfigurēti.
+    Aprēķinātais lauks **Modelis.Dati.Kopsavilkums.Līmenis** ir konfigurēts tā, lai tas ietvertu ER izteiksmi. Nodokļu kodi (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** un **InVAT0**) šajā konfigurācijā ir stingri kodēti. Tāpēc šis ER formāts ir atkarīgs no juridiskās personas, kur šie nodokļu kodi tika konfigurēti.
 
     ![Modelis.Dati.Kopsavilkums.Līmenis aprēķinātais lauks ar cietiem nodokļu kodiem](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ Pēc tam jūs pievienosit jaunu datu avotu, lai norādītu, kā uzņēmuma lieto
 1.  Cilnē **Kartēšana** atlasiet **Pievienot**.
 2.  Atlasiet **Formātu uzskaitījumi\Uzmeklēšana**.
 
-    Jūs nupat identificējāt, ka katram noteikumam, ko uzņēmuma lietotāji nosaka nodokļu līmeņa atpazīšanai, tiks atgriezta ER formāta uzskaitījuma vērtība. Ievērojiet, ka datu avota veidam **Uzmeklēšana** var piekļūt zem bloka **Datu modelis** un **Dynamics 365 for Operations** papildus blokam **Formāta uzskaitījums**. Tādēļ ER datu modeļa uzskaitījumus un pieteikumu uzskaitījumus var izmantot, lai norādītu vērtību veidu, kas tiek atgriezts šā veida datu avotiem.
+    Jūs nupat identificējāt, ka katram noteikumam, ko uzņēmuma lietotāji nosaka nodokļu līmeņa atpazīšanai, tiks atgriezta ER formāta uzskaitījuma vērtība. Ievērojiet, ka datu avota veidam **Uzmeklēšana** var piekļūt zem bloka **Datu modelis** un **Dynamics 365 for Operations** papildus blokam **Formāta uzskaitījums**. Tādēļ ER datu modeļa uzskaitījumus un pieteikumu uzskaitījumus var izmantot, lai norādītu vērtību veidu, kas tiek atgriezts šā veida datu avotiem. Papildinformāciju par **Uzmeklēšanas** datu avotiem skatiet sadaļā [Uzmeklēšanas datu avotu konfigurēšana, lai lietotu ER programmai raksturīgo parametru līdzekli](er-lookup-data-sources.md).
     
 3.  Laukā **Nosaukums** ievadiet **Atlasītājs**.
 4.  Laukā **Formātu uzskaitījums** atlasiet **Nodokļu līmeņu saraksts**.
 
-    Jūs vienkārši norādījāt, ka katram šajā datu avotā norādītajam nosacījumam uzņēmuma lietotājam jāatlasa viena no **Nodokļu līmeņu saraksta** formāta uzskaitījuma vērtībām kā atgrieztā vērtība.
+    Jūs norādījāt, ka katram šajā datu avotā norādītajam nosacījumam uzņēmuma lietotājam jāatlasa viena no **Nodokļu līmeņu saraksta** formāta uzskaitījuma vērtībām kā atgrieztā vērtība.
     
 5.  Atlasiet **Rediģēt uzmeklēšanu**.
 6.  Atlasiet **Kolonnas**.
@@ -190,7 +191,7 @@ Pēc tam jūs pievienosit jaunu datu avotu, lai norādītu, kā uzņēmuma lieto
     
     ![Formāta veidotāja lapa ar jaunu datu avotu](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Ņemiet vērā, ka konfigurēto kārtulu novērtējums ir atkarīgs no to lauku datu veida, kas atlasīti, lai definētu šo kārtulu nosacījumus. Kad tiek atlasīts lauks, kas ir konfigurēts kā datu veida **Skaitlisks** vai **Datums** lauks, kritēriji atšķirsies no tiem kritērijiem, kas iepriekš tika aprakstīti datu veidam **Virkne**. Laukiem **Skaitlisks** un **Datums** kārtulai jābūt norādītai kā vērtību diapazonam. Pēc tam kārtulas nosacījums tiks uzskatīts par izpildītu, ja datu avotam nodotā vērtība būs konfigurētajā diapazonā.
+    Konfigurēto kārtulu novērtējums ir atkarīgs no to lauku datu veida, kas atlasīti, lai definētu šo kārtulu nosacījumus. Kad tiek atlasīts lauks, kas ir konfigurēts kā datu veida **Skaitlisks** vai **Datums** lauks, kritēriji atšķirsies no tiem kritērijiem, kas iepriekš tika aprakstīti datu veidam **Virkne**. Laukiem **Skaitlisks** un **Datums** kārtulai jābūt norādītai kā vērtību diapazonam. Pēc tam kārtulas nosacījums tiks uzskatīts par izpildītu, ja datu avotam nodotā vērtība būs konfigurētajā diapazonā.
     
     Nākamajā attēlā ir parādīts šāda iestatījuma veida piemērs. Papildus datu veida **Virkne** laukam **Modelis.Dati.Nodoklis.Kods** datu veida **Faktisks** lauks **Modelis.Nodoklis.Kopsavilkums.Bāze** tiek izmantots, lai norādītu nosacījumus datu avota uzmeklēšanai.
     
@@ -306,7 +307,9 @@ Lai uzzinātu, kā izmantot konfigurēto ER formātu **Formatēt, lai uzzinātu,
 
 [Formulu veidotājs elektronisko atskaišu veidošanā](general-electronic-reporting-formula-designer.md)
 
-[Iestatīt ER formāta parametrus juridiskai personai](er-app-specific-parameters-set-up.md)
+[Elektronisko pārskatu formāta parametru iestatīšana juridiskai personai](er-app-specific-parameters-set-up.md)
+
+[Uzmeklēšanas datu avotu konfigurēšana, lai izmantotu elektronisko pārskatu programmai raksturīgo parametru līdzekli](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

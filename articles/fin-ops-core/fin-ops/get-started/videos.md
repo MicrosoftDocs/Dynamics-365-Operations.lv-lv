@@ -2,7 +2,7 @@
 title: Videoklipi
 description: Šajā lapā ir uzskaitīti Microsoft izveidotie norādījumu un tehnisko sarunu (Tech Talk) videoklipi saistībā ar programmām Finance and Operations, kuri ir pieejami vietnē YouTube un citās vietnēs.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754708"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881740"
 ---
 # <a name="videos"></a>Videoklipi 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmām Finance and Operations, kas tiek viesoti šajā kanālā.
+[Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) ir atrodami videoklipi, kurus Microsoft izveidoja, lai demonstrētu dažādus biznesa risinājumus Dynamics 365 produktiem. Šajā sadaļā ir uzskaitīti norādījumu videoklipi programmām Finance and Operations, kas tiek viesoti šajā kanālā.
 
 > [!Note]
 > Daži no uzskaitītajiem videoklipiem tika publicēti ar iepriekšējo preces nosaukumu, bet tie joprojām ir piemērojami.
@@ -84,6 +84,9 @@ ms.locfileid: "5754708"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Videoklipi par Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Biznesa dokumentu pārvaldība
+- [Jauna biznesa dokumenta izveide, izmantojot biznesa dokumentu pārvaldību](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Programmas pielāgošana
 - [Pievienot pielāgotus laukus](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Iegult Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -112,6 +115,9 @@ ms.locfileid: "5754708"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Videoklipi par Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>Biznesa dokumentu pārvaldība
+- [Jauna biznesa dokumenta izveide, izmantojot biznesa dokumentu pārvaldību](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Izmaksas
 - [Izmaksu kontroles mobilā darbvieta](https://youtu.be/imsuTg8rUVk)

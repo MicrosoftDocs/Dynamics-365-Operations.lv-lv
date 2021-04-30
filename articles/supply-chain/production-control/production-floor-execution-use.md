@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814660"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907721"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kā darbinieki izmanto ražotnes izpildes interfeisu
 
@@ -83,7 +83,7 @@ Cilnei **Mana iekārta** ir šādas kolonnas. Numuri atbilst iepriekšējā att�
 1. **Iekārtas līdzeklis** - izvēlieties iekārtas līdzekli, ko vēlaties izsekot. Sāciet ierakstīt nosaukumu, lai to atlasītu no atbilstošu pamatlīdzekļu saraksta, vai atlasiet palielināmo-saskaņošanas ikonu, lai atlasītu no visu līdzekļu saraksta, kas saistīts ar resursiem, kas atrodas darbu saraksta filtrā.
 
     > [!NOTE]
-    > Supply Chain Management lietotāji var piešķirt resursu katram pamatlīdzeklim pēc nepieciešamības, izmantojot lapu **Visi līdzekļi** (cilnē **Fiksētie pamatlīdzekļi**, izmantojot nolaižamo sarakstu **Resursi**). Papildinformāciju skatiet nodaļā [Līdzekļa izveide](../asset-management/objects/create-an-object.md).
+    > Supply Chain Management lietotāji var piešķirt resursu katram pamatlīdzeklim pēc nepieciešamības, izmantojot lapu **Visi līdzekļi** (cilnē **Fiksētie pamatlīdzekļi**, izmantojot nolaižamo sarakstu **Resursi** ). Papildinformāciju skatiet nodaļā [Līdzekļa izveide](../asset-management/objects/create-an-object.md).
 
 1. **Iestatījumi** – izvēlieties ātrumkārbas ikonu, lai atvērtu dialoglodziņu, kur var izvēlēties, kuru skaitītāju skatīt atlasītajam iekārtas pamatlīdzeklim. Šo skaitītāju vērtības ir parādītas **Pamatlīdzekļu pārvaldības** cilnes augšpusē. **Iestatījumu** izvēlne (parādīta ekrānuzņēmumā) ļauj aktivizēt līdz pat četriem skaitītājiem. Katram skaitītājam, kuru vēlaties iespējot, izmantojiet uzmeklēšanas lauku elementa augšā, lai atlasītu skaitītāju. Uzmeklēšanas laukā ir uzskaitīti visi skaitītāji, kas saistīti ar līdzekli, kas atlasīts **Pamatlīdzekļu pārvaldības lapas** augšpusē. Iestatiet katru skaitītāju, lai pārraudzītu skaitītāja **Apkopoto** vērtību vai pēdējo **Faktisko** vērtību. Piemēram, ja iestatāt skaitītāju, kas izseko, cik stundu dators darbojas, tad to vajadzētu iestatīt uz **Uzkrāts**. Ja iestatāt skaitītāju, lai izmērītu jaunāko atjaunināto temperatūras vai spiediens, jums tas jāiestata uz **Faktiskais**. Atlasiet **Labi**, lai iestatījumus saglabātu un aizvērtu dialoglodziņu.
 
@@ -136,7 +136,7 @@ Darbinieks atlasa trešo darbu cilnē **Visi darbi** un pēc tam atlasa **Komple
 
 ## <a name="working-on-indirect-activities"></a>Darbs netiešajās aktivitātēs
 
-Netiešās aktivitātes ir aktivitātes, kas nav tieši saistītas ar ražošanas pasūtījumu. Netiešās aktivitātes var definēt elastīgi, kā aprakstīts sadaļā [Netiešo aktivitāšu iestatīšana laikam un apmeklējumam](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Netiešās aktivitātes ir aktivitātes, kas nav tieši saistītas ar ražošanas pasūtījumu. Netiešās aktivitātes var definēt elastīgi, kā aprakstīts sadaļā [Netiešo aktivitāšu iestatīšana laikam un apmeklējumam](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Piemēram, Šenona, ražotnes darbiniece Contoso, vēlas apmeklēt uzņēmuma sanāksmi, un sapulces tiek uzskatītas par netiešo aktivitāti. Ir spēkā viens no tālāk minētajiem diviem scenārijiem.
 

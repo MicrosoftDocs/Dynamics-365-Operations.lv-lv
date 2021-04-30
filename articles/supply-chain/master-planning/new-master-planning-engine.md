@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823461"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907695"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrācija uz Plānošanas optimizāciju vispārējai plānošanai
 
@@ -63,8 +63,12 @@ Varat pieprasīt izņēmumu, ja ir jāturpina izmantot iebūvēto vispārējās 
 
 Pēc tam, kad būs pieejamas nepieciešamās funkcijas, korporācija Microsoft nodrošinās pagarinājuma periodu līdz izņēmuma termiņa beigām. Vides administrators tiks informēts, kad vajadzīgie līdzekļi ir kļuvuši pieejami un pagarinājuma periods ir sācies.
 
+Šajā plūsmkartē ir apkopota šajā tēmā sniegtā informācija, lai varētu ātri noteikt, vai ir jāpieprasa izņēmums. Ja nepieciešams pieprasīt izņēmumu, lūdzu, aizpildiet un iesniedziet [Plānošanas optimizācijas migrācijas un izņēmuma anketu](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Izņēmumu plūsmkarte](media/exception-diagram.png "Izņēmumu plūsmkarte")
+
 > [!NOTE]
-> Varat pieprasīt izņēmumu tikai ražošanas vidēm, nevis smilškastes vidēm. Ja ir jāatspējo Plānošanas optimizācijas izņēmuma kļūda infrastruktūrā kā pakalpojuma (IaaS) smilškastes vidē, palaidiet SQL vaicājumu, kas ir nodrošināts [Smilškastes vidē](#faq-sandbox).
+> Var pieprasīt izņēmumu tikai nomniekiem, kas pašlaik ietver vai ietvers ražošanas vidi, nevis tikai nomniekiem ar smilškastes vidēm. Ja ir jāatspējo Plānošanas optimizācijas izņēmuma kļūda infrastruktūrā kā pakalpojuma (IaaS) smilškastes vidē, palaidiet SQL vaicājumu, kas ir nodrošināts [Smilškastes vidē](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Bieži uzdotie jautājumi
 

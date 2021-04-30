@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753580"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894080"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>(ER) konfigurāciju noformēšana, lai ģenerētu atskaites Word formātā
 
@@ -38,7 +38,7 @@ Lai Word dokumentu izmantotu kā veidni pārskatiem Word formātā, jūs varat k
 Risinājuma ER formāta komponentam jāietver **Excel\\Faila** formāta elements, un formāta elementam jābūt saistītam ar Word dokumentu, kas izpildlaikā tiks izmantots kā veidne ģenerētajiem pārskatiem. Lai konfigurētu ER formāta komponentu, jāatver izveidotās ER konfigurācijas [melnraksta versija](general-electronic-reporting.md#component-versioning) ER formāta veidotājā. Pēc tam pievienojiet **Excel\\Faila** elementu, pievienojiet savu Word veidni rediģējamā ER formātam un saistiet šo veidni ar pievienoto **Excel\\Faila** elementu.
 
 > [!NOTE]
-> Manuāli pievienojot veidni, jāizmanto [dokumenta veids](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), kas ir [konfigurēts](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ER parametros to uzglabāšanai.
+> Manuāli pievienojot veidni, jāizmanto [dokumenta veids](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), kas ir [konfigurēts](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ER parametros to uzglabāšanai.
 
 ![Veidnes pievienošana formātu veidotāja lapā](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Varat pievienot **Excel\\Diapazons** un **Excel\\Šūna** ligzdotos elementus **
 
 ![Ligzdoto elementu pievienošana un Formātu noformētāja lapā](./media/er-design-configuration-word-image4.gif)
 
-Kad saglabājat izmaiņas ER formātā izstrādes laikā, hierarhiskā formāta struktūra tiek saglabāta pievienotajā Word veidnē kā [pielāgota XML daļa](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ar nosaukumu **Pārskats**. Jums ir jāpiekļūšana modificētai veidnei, lejupielādējiet to no Finanses, saglabājiet to lokāli un atveriet to Word darbvirsmas programmā. Šajā attēlā ir parādīta lokāli saglabātā parauga veidne kontroles pārskatam, kurā ir ietverta **Pārskata** pielāgotā XML daļa.
+Kad saglabājat izmaiņas ER formātā izstrādes laikā, hierarhiskā formāta struktūra tiek saglabāta pievienotajā Word veidnē kā [pielāgota XML daļa](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ar nosaukumu **Pārskats**. Jums ir jāpiekļūšana modificētai veidnei, lejupielādējiet to no Finanses, saglabājiet to lokāli un atveriet to Word darbvirsmas programmā. Šajā attēlā ir parādīta lokāli saglabātā parauga veidne kontroles pārskatam, kurā ir ietverta **Pārskata** pielāgotā XML daļa.
 
 ![Pārskata parauga veidnes priekšskatīšana Word darbvirsmas programmā](./media/er-design-configuration-word-image5.gif)
 
-Izpildlaikā tiek darbināti **Excel\\Diapazona** un **Excel\\Šūnu** formāta elementu saistījumi, dati, kurus piegāda katrs saistījums, tiek iekļauti ģenerētajā Word dokumentā kā atsevišķs **Pārskata** pielāgotās XML daļas lauks. Lai ģenerētajā dokumentā ievadītu pielāgotās XML daļas lauku vērtības, word veidnei jāpievieno atbilstošās Word [satura vadīklas](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), lai tās būtu kā vietturi izpildlaikā aizpildītajiem datiem. Lai norādītu, kā tiek aizpildītas satura vadīklas, kartējiet katru satura vadīklu uz **Pārskata** pielāgotās XML daļas atbilstošo lauku.
+Izpildlaikā tiek darbināti **Excel\\Diapazona** un **Excel\\Šūnu** formāta elementu saistījumi, dati, kurus piegāda katrs saistījums, tiek iekļauti ģenerētajā Word dokumentā kā atsevišķs **Pārskata** pielāgotās XML daļas lauks. Lai ģenerētajā dokumentā ievadītu pielāgotās XML daļas lauku vērtības, word veidnei jāpievieno atbilstošās Word [satura vadīklas](/office/client-developer/word/content-controls-in-word), lai tās būtu kā vietturi izpildlaikā aizpildītajiem datiem. Lai norādītu, kā tiek aizpildītas satura vadīklas, kartējiet katru satura vadīklu uz **Pārskata** pielāgotās XML daļas atbilstošo lauku.
 
 ![Satura vadīklu pievienošana un kartēšana Word darbvirsmas programmā](./media/er-design-configuration-word-image6.gif)
 

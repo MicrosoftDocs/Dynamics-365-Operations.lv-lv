@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802459"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892133"
 ---
 # <a name="view-and-manage-address-changes"></a>Skatīt un pārvaldīt adreses izmaiņas
 
@@ -125,9 +125,9 @@ HR personāls var skatīt un pārraudzīt adreses izmaiņas no **Personāla vad�
 Kad atlasāt **Adreses izmaiņas** elementu, jauna lapa parāda detalizētu informāciju par visām adreses izmaiņām. Pēc izvēles var atlasīt **Iekļaut turpmākās adreses izmaiņas** augšējā labajā stūrī, lai parādītu adreses izmaiņas ar nākotnes datumu.
 
 > [!NOTE]
-> Ja vēlaties saņemt brīdinājumu vai e-pasta ziņojumu par šīm adreses izmaiņām, darbību rūts cilnē **Opcijas** varat izveidot jaunu brīdinājuma kārtulu. Papildinformāciju par brīdinājumu kārtulām skatiet sadaļā [Brīdinājumu kārtulu izveide](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Ja vēlaties saņemt brīdinājumu vai e-pasta ziņojumu par šīm adreses izmaiņām, darbību rūts cilnē **Opcijas** varat izveidot jaunu brīdinājuma kārtulu. Papildinformāciju par brīdinājumu kārtulām skatiet sadaļā [Brīdinājumu kārtulu izveide](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Ja vēlaties konfigurēt darbplūsmu adreses izmaiņām, varat atlasīt opciju **Sūtīt ārēji** jūsu brīdinājuma kārtulā un pēc tam izmantot Power Automate biznesa notikuma ierosināšanai un darbplūsmas konfigurēšanai. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Ja vēlaties konfigurēt darbplūsmu adreses izmaiņām, varat atlasīt opciju **Sūtīt ārēji** jūsu brīdinājuma kārtulā un pēc tam izmantot Power Automate biznesa notikuma ierosināšanai un darbplūsmas konfigurēšanai. Plašāku informāciju skatiet [Brīdinājumi kā biznesa notikumi](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

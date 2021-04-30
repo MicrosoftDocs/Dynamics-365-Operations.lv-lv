@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031feb3c2fa55b182deb0863cb1fc3d63652a03f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5004cb2ce2b601c51c641c2e9d6d2c4788729af9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814880"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909309"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.7. (2020. gada janvāris)
 
@@ -50,7 +50,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 ietver platformas atjaunin
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: 2019. gada 2. kopuma plāns
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2019. gada 2. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2019. gada 2. kopuma plānu](/dynamics365-release-plan/2019wave2/). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818564"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898064"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finanšu ieskatu sākumlapa (priekšskatījums)
 
@@ -31,7 +31,7 @@ Finanšu ieskats nodrošina konfigurējamu un paplašināmus modeļus, lai palī
 
 Finanšu ieskatu priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
 
-Priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -43,7 +43,7 @@ Lai pieteiktos priekšskatījuma programmai, aizpildiet [finanšu ieskatu priek�
 
 ### <a name="system-requirements"></a>Sistēmas prasības
 
-Lai priekšskatītu finanšu ieskatus, ir nepieciešama otrā līmeņa smilškastes vide (daudzlodziņu). Lai iegūtu pilnīgu informāciju par vidi, skatiet sadaļu [Vides plānošana](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+Lai priekšskatītu finanšu ieskatus, ir nepieciešama otrā līmeņa smilškastes vide (daudzlodziņu). Lai iegūtu pilnīgu informāciju par vidi, skatiet sadaļu [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Versijas prasības
 
@@ -79,7 +79,7 @@ Jums būs jāizveido datu integrēšanas projekts, lai dati, kurus ģenerē algo
 Kad konfigurācijas darbības ir pabeigtas un ir iestatīti demonstrācijas dati, ir jāieslēdz un jāiestata katra iespēja, ko plānojat izmantot: debitoru maksājumu prognozes, naudas plūsmas prognozes un budžeta priekšlikumi.
 
 ### <a name="enable-customer-payment-predictions"></a>Debitora maksājumu prognožu iespējošana
-Ja izmantojat demonstrācijas datus, lai pārbaudītu debitoru maksājumu prognozes, iespējams, būs jāimportē papildu demonstrācijas dati, lai veiksmīgi izveidotu AI modeli. Konkrētas demonstrācijas datu importēšanas darbības skatiet sadaļā [Demonstrācijas datu iestatīšana maksājumu prognozēm](set-up-demo-data.md).
+Ja izmantojat demonstrācijas datus, lai pārbaudītu debitoru maksājumu prognozes, iespējams, būs jāimportē papildu demonstrācijas dati, lai veiksmīgi izveidotu AI modeli. 
 
 Lai iespējotu debitoru maksājumu prognozes, ir jāpabeidz darbības, lai izveidotu algoritmiskās mācīšanās modeli, kas izmanto jūsu organizācijas datus, lai ģenerētu prognozes par to, kad klienti varētu apmaksāt neapmaksātos rēķinus un kad noteikti rēķini, visticamāk, tiks apmaksāti. Plašāku informāciju un konkrētas veicamās darbības skatiet sadaļā [Debitoru maksājumu prognožu iespējošana](enable-cust-paymnt-prediction.md). 
 

@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809786"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899099"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņas un malas mēroga vienībām
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> Ražošanas izpildes darba slodze ir pieejama priekšskatījumā šajā brīdī.
 > Dažas biznesa funkcionalitātes netiek pilnībā atbalstītas publiskajā priekšskatījumā, kad darba slodzes mēroga vienības tiek izmantotas.
 
-Ražošanas izpildē, mākoņa un malas mēroga vienībām sniedz šādas iespējas pat tad, ja malas vienības nav saistītas ar centrmezglu:
+Ražošanas izpildē mēroga vienības nodrošina šādas iespējas:
 
 - Iekārtu operatori un ražotnes uzraudzības iestādes var piekļūt operāciju ražošanas plānam.
 - Iekārtu operatori var uzturēt plāna atjaunināšanu, izpildot diskrētus un procesa ražošanas darbus.
@@ -108,5 +109,6 @@ Lai pārskatītu to ražošanas darbu vēsturi, kas ir apstrādāti mēroga vien
 
 Darbs _Ražošanas centrmezgls mēroga vienības ziņojuma procesoram_ apstrādā datus no centrmezgla uz mēroga vienību. Šis darbs tiek automātiski sākts, kad tiek izvietota ražošanas izpildes darba slodze. Tomēr to var palaist manuāli jebkurā laikā, pārejot uz **Ražošanas kontrole \> Periodiskie uzdevumi \> Biroja darba slodzes pārvadība \> Ražošanas centrmezgls mēroga vienības ziņojuma procesoram**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

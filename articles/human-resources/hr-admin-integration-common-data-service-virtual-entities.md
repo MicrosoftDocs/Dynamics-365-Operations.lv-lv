@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805110"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890056"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources ir virtuālais datu avots platformā Microsoft Data
 Lai iespējotu CRUD operācijas personāla vadības elementos no Dataverse, jums jāpadara šos elementus pieejamus kā virtuālas tabulas Dataverse. Tas ļauj veikt CRUD operācijas no Dataverse un Microsoft Power Platform personāla vadības datos. Operācijas atbalsta arī pilnas biznesa loģikas personāla vadības pārbaudes, lai nodrošinātu datu integritāti, rakstot datus elementos.
 
 > [!NOTE]
-> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources elementi atbilst Dataverse tabulām. Papildinformāciju par Dataverse (iepriekš Common Data Service) un terminoloģijas atjauninājumiem skatiet sadaļā [Kas ir Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Pieejamās virtuālās tabulas Human Resources
 
@@ -51,7 +51,7 @@ Virtuālās Human Resources tabulas atšķiras no vietējām Dataverse tabulām,
 Vietējās tabulas Human Resources vajadzībām tiek veidotas atsevišķi un uzturētas kopējā HCM risinājumā Dataverse. Vietējo tabulu gadījumā dati tiek saglabāti Dataverse un tiem nepieciešama sinhronizācija ar Human Resources programmas datu bāzi.
 
 > [!NOTE]
-> Vietējo Dataverse tabulu Human Resources vajadzībām sarakstu skatiet [Dataverse tabulas](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Vietējo Dataverse tabulu Human Resources vajadzībām sarakstu skatiet [Dataverse tabulas](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Iestatīt
 
@@ -71,7 +71,7 @@ Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu un
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Lietojumprogrammas reģistrēšana Microsoft Azure
 
-Vispirms jūsu Personāla vadības instance ir jāreģistrē Azure portālā, lai Microsoft Identity platforma var nodrošināt autentifikāciju un autorizācijas pakalpojumus lietojumprogrammai un lietotājiem. Lai iegūtu vairāk informācijas par lietojumprogrammu reģistrāciju Azure, skatiet [Īsa pamācība: lietojumprogrammas reģistrēšana platformā Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Vispirms jūsu Personāla vadības instance ir jāreģistrē Azure portālā, lai Microsoft Identity platforma var nodrošināt autentifikāciju un autorizācijas pakalpojumus lietojumprogrammai un lietotājiem. Lai iegūtu vairāk informācijas par lietojumprogrammu reģistrāciju Azure, skatiet [Īsa pamācība: lietojumprogrammas reģistrēšana platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app).
 
 1. Atveriet [Microsoft Azure portālu](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ Vispirms jūsu Personāla vadības instance ir jāreģistrē Azure portālā, la
 
 10. Ievadiet aprakstu, atlasiet ilgumu un atlasiet **Pievienot**.
 
-11. Reģistrējiet noslēpuma vērtību. Jūs ievadīsiet šo informāciju, kad [konfigurēsiet virtuālās tabulas datu avotu](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Ierakstiet neslēpuma vērtību no tabulas rekvizīta **Vērtība**. Jūs ievadīsiet šo informāciju, kad [konfigurēsiet virtuālās tabulas datu avotu](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Pārliecinieties, ka ņemat vērā pašreizējo noslēpuma vērtību. Pēc iziešanas no šīs lapas noslēpums nekad vairs netiek parādīts.
@@ -215,12 +215,11 @@ Nolaižamā saraksta rūtī tiek rādīti pēdējie procesa izpildes rezultāti.
 
 ## <a name="see-also"></a>Skatiet arī
 
-[Kas ir Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Tabulas Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Tabulas attiecību pārskats](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Izveidot un rediģēt virtuālās tabulas, kas satur datus no ārējo datu avota](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Kas ir Power Apps portāli?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Lietojumprogrammu izveides pārskats Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[Kas ir Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tabulas Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Tabulas attiecību pārskats](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Izveidot un rediģēt virtuālās tabulas, kas satur datus no ārējo datu avota](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Kas ir Power Apps portāli?](/powerapps/maker/portals/overview)<br>
+[Lietojumprogrammu izveides pārskats Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

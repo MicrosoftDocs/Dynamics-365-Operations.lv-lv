@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791951"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857277"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -38,7 +38,7 @@ Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanā
 
 Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanāla iestatījumi** &gt; **POS iestatījumi** &gt; **Ierīces**. Ierīce ir elements, kas pārstāv fizisku instanci tādai ierīcei, kura ir kartēta uz POS reģistru. Kad ierīce tiek izveidota, tā tiek kartēta uz POS reģistru. Ierīces elements seko līdzi informācijai par laiku, kad POS reģistrs tiek aktivizēts, par izmantotā klienta tipu, kā arī par programmu pakotni, kas ir izvietota konkrētā ierīcē. 
 
-Ierīces var kartēt ar šiem lietojumprogrammu veidiem: Retail Modern POS, Retail Cloud POS, Retail Modern POS — Windows Phone, Retail Modern POS — Android un Retail Modern POS — ISP.
+Ierīces var kartēt ar šiem lietojumprogrammu veidiem: Retail Modern POS, Retail Cloud POS, Retail Modern POS — Windows Phone, Retail Modern POS — Android un Retail Modern POS — ISP.
 
 ### <a name="modern-pos"></a>Modern POS
 
@@ -66,7 +66,7 @@ Navigācija: noklikšķiniet uz **Mazumtirdzniecība un komercija** &gt; **Kanā
 
 ### <a name="hardware-profile"></a>Aparatūras profils
 
-Navigācija: noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**. Aparatūras profils ir to ierīču saraksts, kas ir konfigurētas POS kases sistēmai vai aparatūras stacijai. Aparatūras profilu var tieši kartēt ar POS kases sistēmu vai aparatūras staciju.
+Navigācija: noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**. Aparatūras profils ir to ierīču saraksts, kas ir konfigurētas POS kases sistēmai vai aparatūras stacijai. Aparatūras profilu var tieši kartēt ar POS kases sistēmu vai aparatūras staciju.
 
 ## <a name="devices-classes"></a>Ierīču klases
 Parasti POS perifērās ierīces tiek sadalītas klasēs. Šajā sadaļā ir aprakstītas programmā Modern POS atbalstītās ierīces un sniegts pārskats par tām.
@@ -116,8 +116,8 @@ Maksājumu ierīces atbalts tiek nodrošināts, izmantojot maksājumu savienotā
 
 Lai palīdzētu nodrošināt to, ka kopā ar programmu Commerce var lietot pēc iespējas lielāku ierīču klāstu, galvenā perifēro ierīču platforma, kas tiek atbalstīta, ir nozares standarta platforma OLE punktā POS. Standartu OLE punktā POS ir izstrādājusi organizācija National Retail Federation (NRF), kas ievieš perifēro ierīču nozares standarta sakaru protokolus. OPOS ir plaši izplatīta standarta OLE punktā POS implementācija. Tā ir izstrādāta 1990. gadu vidū un kopš tā laika ir vairākas reizes atjaunināta. OPOS nodrošina ierīču draiveru arhitektūru, kas sniedz iespēju viegli integrēt POS aparatūru Windows sistēmās. OPOS vadības elementi nodrošina saziņu starp saderīgo aparatūru un POS programmatūru. OPOS vadības elements sastāv no divām tālāk norādītajām daļām.
 
--   **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Commerce POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Commerce nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
--   **Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci. Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs. Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes. Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija. Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.
+-   **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Commerce POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Commerce nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
+-   **Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci. Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs. Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes. Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija. Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.
 
 [![Vadības objekts un pakalpojumu objekts](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā pat tad, ja tās iepriekš nav pārbaudītas kopā. 
 
@@ -143,6 +143,9 @@ Attiecībā uz perifērajām ierīcēm: UWP ir saistīta ar Windows Plug and Pla
 
 Svītrkoda/magnētiskās joslas nolasīšanas ierīces nodrošina datu sūtīšanu uz datoru tā, it kā šie dati būtu ievadīti ar tastatūru. Tāpēc pēc noklusējuma skenētie vai nolasītie dati tiek nosūtīti POS interfeisā aktīvo lauku. Dažos gadījumos šī darbība var izraisīt nepareizā veida datu ieskenēšanu nepareizajā laukā. Piemēram, svītrkods var tikt ieskenēts laikā, kas ir paredzēts kredītkartes datu ievadei. Daudzos gadījumos POS pastāv loģika, kas nosaka, vai skenētie vai nolasītie dati ir svītrkods vai kartes nolasīšanas dati. Tādējādi dati tiek pareizi apstrādāti. Taču, ja ierīces ir iestatītas kā OPOS, nevis kā svītrkoda/magnētiskās joslas nolasīšanas ierīces, ir pieejama plašāka kontrole pār to, kā var izmantot no šīm ierīcēm saņemtos datus, jo ir pieejams vairāk informācijas par ierīci, no kuras ir iegūti dati. Piemēram, no svītrkoda skenera saņemtie dati tiek automātiski atpazīti kā svītrkods, un saistītais ieraksts datu bāzē tiek atrasts ātrāk un vienkāršāk nekā tad, ja tiek izmantota vispārējā virknes meklēšana, kā tas ir svītrkoda/magnētiskās joslas nolasīšanas ierīču gadījumā.
 
+> [!NOTE]
+> Kad POS sistēmā tiek izmantoti tastatūras ķīļveida skeneri, tie ir jāprogrammē tā, lai pēc pēdējās skenētās rakstzīmes sūtītu transportēšanas atgriešanu vai **Ievadīt** notikumu. Ja šī konfigurācija nav pabeigta, tastatūras ķīļveida skeneri nedarbosies pareizi. Detalizētu informāciju par to, kā pievienot preču atgriešanas notikumu, skatiet jūsu ierīces ražotāja sniegtajā dokumentācijā.  
+
 ### <a name="native-printer"></a>Vietējais printeris
 
 Vietējos (veida nosaukums aparatūras profilā ir Ierīce) printerus var konfigurēt, lai prasītu lietotājam atlasīt konkrētajam datoram konfigurētu printeri. Ja ir konfigurēts veida **Ierīce** printeris un programmā Modern POS tiek saņemta drukas komanda, lietotajam tiek prasīts sarakstā atlasīt printeri. Šī darbība atšķiras no Windows draiveru darbības, jo, ja tiek izmantots aparatūras profila printera veids **Windows**, netiek rādīts printeru saraksts. Tā vietā laukā **Ierīces nosaukums** ir jānorāda printera nosaukums.
@@ -167,9 +170,9 @@ Koplietojamo aparatūras staciju var izmantot, lai atļautu vairākus pārdošan
 
 Kad aparatūras stacija tiek izmantota, lai atbalstītu perifēro ierīču koplietošanu starp vairākiem POS klientiem, jāizmanto tikai naudas kastes, kvīšu printeri un maksājumu termināļi. Nevarat tieši pievienot savrupus svītrkoda skenerus, MJL, rindu displejus, svarus vai citas ierīces. Pretējā gadījumā, ja vairākās POS ierīcēs vienlaikus tiek mēģināts pieprasīt šīs perifērās ierīces, rodas konflikti. Tālāk ir aprakstīts, kā tiek pārvaldīti atbalstīto ierīču konflikti.
 
--   **Naudas kaste** — naudas kaste tiek atvērta, izmantojot uz ierīci nosūtītu notikumu. Vienīgā problēma, kas var rasties naudas kastes izsaukuma laikā, rodas, ja naudas kaste jau ir atvērta. Ja tiek izmantotas koplietotas aparatūras stacijas, naudas kastēm aparatūras profilā ir jāiestata parametrs **Koplietots**. Šis iestatījums nodrošina to, ka brīdī, kad no POS tiek nosūtīta atvēršanas komanda, POS netiek pārbaudīts, vai naudas kaste jau ir atvērta.
--   **Kvīšu printeris** — ja uz aparatūras staciju vienlaikus tiek nosūtītas divas kvīts drukāšanas komandas, viena no komandām var tikt zaudēta atkarībā no ierīces. Dažās ierīcēs ir iekšējā atmiņa vai pieprasījumu ierobežošanas līdzeklis, kas var novērst šo problēmu. Ja drukas komanda netiek veiksmīgi izpildīta, kasieris saņem kļūdas ziņojumu un var vēlreiz mēģināt nosūtīt drukas komandu no POS.
--   **Maksājumu terminālis** — ja kasieris mēģina veikt norēķinus par transakciju, izmantojot maksājumu termināli, kas jau tiek lietots, kasierim tiek parādīts ziņojums ar norādi, ka terminālis tiek lietots, un aicinājumu vēlāk mēģināt vēlreiz. Parasti kasieri var redzēt, ka terminālis jau tiek lietots, un uzgaida, līdz ir pabeigta otra transakcija, pirms vēlreiz mēģina veikt norēķinus.
+-   **Naudas kaste** — naudas kaste tiek atvērta, izmantojot uz ierīci nosūtītu notikumu. Vienīgā problēma, kas var rasties naudas kastes izsaukuma laikā, rodas, ja naudas kaste jau ir atvērta. Ja tiek izmantotas koplietotas aparatūras stacijas, naudas kastēm aparatūras profilā ir jāiestata parametrs **Koplietots**. Šis iestatījums nodrošina to, ka brīdī, kad no POS tiek nosūtīta atvēršanas komanda, POS netiek pārbaudīts, vai naudas kaste jau ir atvērta.
+-   **Kvīšu printeris** — ja uz aparatūras staciju vienlaikus tiek nosūtītas divas kvīts drukāšanas komandas, viena no komandām var tikt zaudēta atkarībā no ierīces. Dažās ierīcēs ir iekšējā atmiņa vai pieprasījumu ierobežošanas līdzeklis, kas var novērst šo problēmu. Ja drukas komanda netiek veiksmīgi izpildīta, kasieris saņem kļūdas ziņojumu un var vēlreiz mēģināt nosūtīt drukas komandu no POS.
+-   **Maksājumu terminālis** — ja kasieris mēģina veikt norēķinus par transakciju, izmantojot maksājumu termināli, kas jau tiek lietots, kasierim tiek parādīts ziņojums ar norādi, ka terminālis tiek lietots, un aicinājumu vēlāk mēģināt vēlreiz. Parasti kasieri var redzēt, ka terminālis jau tiek lietots, un uzgaida, līdz ir pabeigta otra transakcija, pirms vēlreiz mēģina veikt norēķinus.
 
 Kādā no nākamajiem laidieniem ir paredzēts ietvert validācijas līdzekli, lai noteiktu, vai ar aparatūras staciju kartētajam aparatūras profilam ir iestatītas neatbalstītas ierīces. Ja tiek noteikta kāda neatbalstīta ierīce, lietotājs saņem ziņojumu par to, ka ierīces netiek atbalstītas lietošanai ar koplietotām aparatūras stacijām. Ja tiek izmantotas koplietotas aparatūras stacijas, kases sistēmas līmenī ir iestatīta opcijas **Atlasīt norēķinu brīdī** vērtība **Jā**. Šādā gadījumā, kad POS tiek atlasīti transakcijas norēķini, POS lietotājam tiek prasīts atlasīt aparatūras staciju. Ja aparatūras stacija tiek atlasīta tikai norēķinu laikā, aparatūras stacijas atlase tiek tieši pievienota mobilo scenāriju POS darbplūsmai. Papildu ieguvums ir tas, ka koplietošanas scenārijos netiek lietots maksājumu termināļa rindu displejs. Ja maksājumu terminālis tiek izmantots kā rindu displejs, citiem lietotājiem var tikt liegta iespēja izmantot šo termināli, līdz tiek pabeigta transakcija. Mobilajos scenārijos transakcijas rindas var tikt pievienotas ilgākā laika periodā. Tāpēc ir nepieciešama opcija **Atlasīt norēķinu brīdī**, lai nodrošinātu optimālu ierīces pieejamību.
 
@@ -500,15 +503,15 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 1.  Izveidojiet aparatūras profilu, kurā ir konfigurētas visas nepieciešamās perifērās ierīces.
 2.  Izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietots POS reģistrs.
 3.  Atvēlētajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.
-    -   **Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija. 
+    -   **Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija. 
     
         > [!NOTE]
         > Programma Cloud POS var atrisināt **localhost**, lai noteiktu lokālo datoru, kurā tiek darbināta programma Cloud POS. Taču arī sertifikātā, kas ir nepieciešams, lai programmu Cloud POS savienotu pārī ar aparatūras staciju, ir jābūt norādītam datora nosaukumam “Localhost”. Lai nepieļautu problēmas, ir ieteicams veikalam norādīt katras atvēlētās aparatūras stacijas instanci, ja tas ir nepieciešams. Katras aparatūras stacijas resursdatora nosaukumam ir jābūt vienādam ar tā konkrētā datora nosaukumu, kurā tiks izvietota aparatūras stacija.
     
-    -   **Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.
-    -   **Aparatūras profils** — ja aparatūras stacijā nav nodrošināts aparatūras profils, tiek lietots kases sistēmai piešķirtais aparatūras profils.
-    -   **EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus. Šo ID nodrošina kredītkaršu procesors.
-    -   **Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.
+    -   **Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.
+    -   **Aparatūras profils** — ja aparatūras stacijā nav nodrošināts aparatūras profils, tiek lietots kases sistēmai piešķirtais aparatūras profils.
+    -   **EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus. Šo ID nodrošina kredītkaršu procesors.
+    -   **Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.
 
 4.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail un Commerce IT** &gt; **Sadales grafiks**.
 5.  Atlasiet sadales grafiku **1090**, lai jauno aparatūras profilu sinhronizētu ar veikalu. Noklikšķiniet uz **Izpildīt tūlīt**, lai sinhronizētu izmaiņas ar POS.
@@ -530,12 +533,12 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 1.  Izveidojiet aparatūras profilu, kurā ir konfigurētas nepieciešamās perifērās ierīces.
 2.  Izveidojiet veida **Koplietots** aparatūras staciju veikalam, kurā tiks lietots POS reģistrs.
 3.  Koplietotajā aparatūras stacijā iestatiet tālāk norādītos rekvizītus.
-    -   **Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.
-    -   **Apraksts** — teksts, kas palīdz identificēt aparatūras staciju, piemēram, **Atgriešanas darbības** vai **Veikala lete**.
-    -   **Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.
-    -   **Aparatūras profils** — katrai koplietotajai aparatūras stacijai ir nepieciešams aparatūras profils. Aparatūras profilus var koplietot vairākās aparatūras stacijās, taču tiem ir jābūt kartētiem ar katru aparatūras staciju. Turklāt ir ieteicams izmantot koplietotas darba maiņas, ja vairākās ierīcēs tiek lietota viena un tā pati aparatūras stacija. Lai iestatītu koplietotu darba maiņu, noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**. Katram koplietotajam aparatūras profilam atlasiet naudas kasti un iestatiet opcijas **Koplietojama maiņas naudas kaste** vērtību **Jā**.
-    -   **EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus. Šo ID nodrošina kredītkaršu procesors.
-    -   **Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.
+    -   **Resursdatora nosaukums** — tā resursdatora nosaukums, kurā tiks darbināta aparatūras stacija.
+    -   **Apraksts** — teksts, kas palīdz identificēt aparatūras staciju, piemēram, **Atgriešanas darbības** vai **Veikala lete**.
+    -   **Ports** — ports, kas ir jāizmanto aparatūras stacijas saziņai ar Modern POS klientu.
+    -   **Aparatūras profils** — katrai koplietotajai aparatūras stacijai ir nepieciešams aparatūras profils. Aparatūras profilus var koplietot vairākās aparatūras stacijās, taču tiem ir jābūt kartētiem ar katru aparatūras staciju. Turklāt ir ieteicams izmantot koplietotas darba maiņas, ja vairākās ierīcēs tiek lietota viena un tā pati aparatūras stacija. Lai iestatītu koplietotu darba maiņu, noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **POS profili** &gt; **Aparatūras profili**. Katram koplietotajam aparatūras profilam atlasiet naudas kasti un iestatiet opcijas **Koplietojama maiņas naudas kaste** vērtību **Jā**.
+    -   **EFT POS numurs** — EFT termināļa ID, kas ir jāizmanto, nosūtot EFT autorizācijas datus. Šo ID nodrošina kredītkaršu procesors.
+    -   **Pakotnes nosaukums** — aparatūras stacijas pakotne, kas ir jāizmanto, izvietojot aparatūras staciju.
 
 4.  Atkārtojiet 2. un 3. darbību ar katru papildu aparatūras staciju, kas ir nepieciešama veikalā.
 5.  Noklikšķiniet uz **Retail un Commerce** &gt; **Retail un Commerce IT** &gt; **Sadales grafiks**.
@@ -554,7 +557,7 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 17. Aparatūras stacijas atlases lapā noklikšķiniet uz nesen atlasītās aparatūras stacijas, lai to aktivizētu. 
 
 > [!NOTE]
-> Ja ierīcēs bieži tiek lietotas dažādas aparatūras stacijas, ir ieteicams konfigurēt programmu Modern POS tā, lai, sākot norēķinu procesu, kasierim tiktu prasīts atlasīt aparatūras staciju. Noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Atlasiet kases sistēmu un pēc tam iestatiet opcijas **Atlasīt norēķinu brīdī** vērtību **Jā**. Izmantojiet sadales grafiku **1090**, lai sinhronizētu izmaiņas ar kanālu datu bāzi.
+> Ja ierīcēs bieži tiek lietotas dažādas aparatūras stacijas, ir ieteicams konfigurēt programmu Modern POS tā, lai, sākot norēķinu procesu, kasierim tiktu prasīts atlasīt aparatūras staciju. Noklikšķiniet uz **Retail un Commerce** &gt; **Kanāla iestatīšana** &gt; **POS iestatīšana** &gt; **Reģistri**. Atlasiet kases sistēmu un pēc tam iestatiet opcijas **Atlasīt norēķinu brīdī** vērtību **Jā**. Izmantojiet sadales grafiku **1090**, lai sinhronizētu izmaiņas ar kanālu datu bāzi.
 
 ## <a name="extensibility"></a>Paplašināmība
 Informāciju par aparatūras stacijas paplašināmības scenārijiem skatiet tēmā [Aparatūras stacijas paplašināmība](dev-itpro/hardware-station-extensibility.md).

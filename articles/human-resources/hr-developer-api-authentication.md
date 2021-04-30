@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793685"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893452"
 ---
 # <a name="authentication"></a>Autentifikācija
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Tīmekļa lietotnēm norādiet programmas bāzes vietrādi URL. Piemēram, `http://localhost:31544` var būt tīmekļa programmas vietrādis URL, kas tiek palaists lokālajā datorā. Pēc tam lietotāji izmanto šo vietrādi URL, lai pieteiktos tīmekļa klienta programmā.
         - Publiskajām klientu lietotnēm norādiet URI, kuras Azure AD izmanto, lai atgrieztu marķiera atbildes. Ievadiet vērtību, kas ir konkrēta jūsu programmai, piemēram, `myapp://auth`.
 
-        Lai skatītu konkrētus piemērus tīmekļa programmām vai vietējām programmām, iesākumam skatiet [Microsoft identitātes platforma (iepriekš Azure Active Directory izstrādātājiem)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Lai skatītu konkrētus piemērus tīmekļa programmām vai vietējām programmām, iesākumam skatiet [Microsoft identitātes platforma (iepriekš Azure Active Directory izstrādātājiem)](/azure/active-directory/develop/#quickstarts).
 
 5. Sadaļā **API atļaujas** atlasiet **Pievienot atļauju**. Pēc tam cilnē **API, kurus izmanto mana organizācija** meklējiet **Dynamics 365 Human Resources** un pievienojiet **user\_impersonation** atļauju savai programmai. Personāla vadības pieteikuma ID ir f9be0c49-aa22-4ec6-911a-c5da515226ff. Lietojiet šo ID, lai nodrošinātu, ka esat izvēlējies pareizo pieteikumu.
 

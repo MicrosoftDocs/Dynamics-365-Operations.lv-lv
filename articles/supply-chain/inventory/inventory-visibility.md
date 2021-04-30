@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821133"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910429"
 ---
 # <a name="inventory-visibility-add-in"></a>Krājumu uztveramības pievienojumprogramma
 
@@ -39,7 +39,7 @@ Krājumu uztveramība nodrošina konfigurācijas opcijas, kas ļauj to integrēt
 
 Jums ir jāinstalē Krājumu uztveramības pievienojumprogramma, izmantojot Microsoft Dynamics Lifecycle Services (LCS). LCS ir sadarbības portāls, kas nodrošina vides un regulāri atjauninātu pakalpojumu kopu, kas palīdz pārvaldīt jūsu lietojumprogrammu dzīves ciklu Dynamics 365 Finance and Operations.
 
-Papildinformāciju skatiet šeit: [Lifecycle Services resursi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -48,23 +48,26 @@ Pirms instalējat Krājumu uztveramības pievienojumprogrammu, jums ir jādara s
 - Iegūt LCS ieviešanas projektu, kurā ir vismaz viens izvietošanas vides objekts.
 - Pārliecinieties, ka pievienojumprogrammu pārskata iestatīšanas priekšnoteikumi, kas sniegti [Pievienojumprogrammu pārskatā](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) ir pabeigti. Krājumu redzamībai nav nepieciešama dubultās rakstīšanas saistīšana.
 - Sazinieties ar krājumu redzamības grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), lai iegūtu šādus trīs nepieciešamos failus:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (Ja jūsu darbinātā Supply Chain Management versija ir agrāka nekā versija 10.0.18)
+- Izpildiet sadaļā [Ātrā sākšana: reģistrējiet programmu ar Microsoft identitātes platformu](/azure/active-directory/develop/quickstart-register-app) sniegtās instrukcijas, lai reģistrētu programmu un pievienotu AAD klienta noslēpumu atbilstoši Azure abonementam.
+    - [Lietojumprogrammas reģistrācija](/azure/active-directory/develop/quickstart-register-app)
+    - [Pievienot klienta noslēpumu](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - Opcijas **Programmas (klienta) ID**, **Klienta noslēpums** un **Nomnieka ID** tiks izmantots sekojošās darbībās.
 
 > [!NOTE]
 > Pašlaik atbalstītās valstis un reģioni ietver Kanādu, Amerikas Savienotās Valstis un Eiropas Savienību (ES).
 
 Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties ar krājumu redzamības preču darba grupu.
 
-### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Dataverse iestatīšana
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Iestātīt Dataverse
 
 Lai iestatītu Dataverse, rīkojieties, kā norādīts tālāk.
 
 1. Pievienojiet pakalpojumu principu savam nomniekam:
 
-    1. Instalējiet Azure AD PowerShell moduli v2, kā aprakstīts [Azure Active Directory instalēšana PowerShell grafikam](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Instalējiet Azure AD PowerShell moduli v2, kā aprakstīts [Pakalpojuma Azure Active Directory instalēšana PowerShell grafikam](/powershell/azure/active-directory/install-adv2).
     1. Izpildiet šādu PowerShell komandu.
 
         ```powershell
@@ -80,7 +83,12 @@ Lai iestatītu Dataverse, rīkojieties, kā norādīts tālāk.
     1. Atlasiet **Jauns**. Iestatiet Programmas ID uz *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Saglabājot izmaiņas, objekta ID tiks ielādēts automātiski.) Šo nosaukumu var pielāgot. Piemēram, to var mainīt uz *Krājumu redzamība*. Pēc pabeigšanas atlasiet **Saglabāt**.
     1. Atlasiet **Piešķirt lomu** un pēc tam atlasiet **Sistēmas administrators**. Ja ir loma ar nosaukumu **Common Data Service Lietotājs**, atlasiet to arī.
 
-    Papildinformāciju skatiet nodaļā [Programmas lietotāja izveide](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Papildinformāciju skatiet nodaļā [Programmas lietotāja izveide](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Ja jūsu noklusētā valoda Dataverse nav **Angļu**:
+
+    1. Pārejiet uz **Papildu iestatījums \> Administrēšana \> Valodas**,
+    1. Atlasiet **Angļu (ValodasKods=1033)** un atlasiet **Lietot**.
 
 1. Importēt `Inventory Visibility Dataverse Solution.zip` failu, kas ietver Dataverse ar konfigurāciju saistītos elementus un Power Apps:
 
@@ -158,12 +166,12 @@ Pārliecinieties, ka jūsu Supply Chain Management vidē ir ieslēgtas šādas f
 
     Atrodiet LCS vides Azure reģionu un pēc tam ievadiet vietrādi URL. URL ir šāda veidlapa:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Piemēram, ja esat Eiropā, jūsu videi būs viens no šiem vietrāžiem URL:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     Pieejami šādi reģioni.
 
@@ -212,13 +220,13 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi:
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -243,7 +251,7 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi:
 1. Iesniedziet HTTP pieprasījumu ar šādiem rekvizītiem:
     - **URL** - `https://securityservice.operations365.dynamics.com/token`
     - **Metode** - `POST`
-    - **HTTP virsraksts** - iekļaut API versiju (atslēga ir `Api-Version`un vērtība ir `1.0`)
+    - **HTTP virsraksts** - iekļaut API versiju (atslēga ir `Api-Version` un vērtība ir `1.0`)
     - **Pamatteksts** - iekļaut JSON pieprasījumu, ko izveidojāt iepriekšējā darbībā.
 
 1. `access_token` jūs saņemsiet atbildē. Tas ir tas, kas jums nepieciešams kā nesēja marķieris, lai izsauktu krājumu redzamības API. Tālāk ir minēts piemērs.
@@ -255,6 +263,43 @@ Lai iegūtu drošības pakalpojuma pilnvaru, rīkojieties šādi:
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Pieprasījuma paraugs
+
+Jūsu atsaucei šeit ir http pieprasījuma paraugs, jūs varat izmantot jebkuru rīku vai kodēšanas valodu, lai nosūtītu šo pieprasījumu, piemēram,  ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Konfigurēt krājumu uztveramības API
 
@@ -338,7 +383,7 @@ Vaicājuma kritērijus var ievietot pieprasījuma pamattekstā.
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Vaicājuma kritērijus var ievietot pieprasījuma pamattekstā.
     "returnNegative": true
 }
 ```
+
+Laukam `filters` pašreiz tikai `ProductId` atbalsta vairākas vērtības. Ja `ProductId` masīvs ir tukšs, tiks pieprasīti visi produkti.
 
 #### <a name="custom-measurement"></a>Pielāgots mērījums
 

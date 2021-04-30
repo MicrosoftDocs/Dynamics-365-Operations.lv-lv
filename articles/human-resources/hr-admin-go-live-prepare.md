@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795145"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892757"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Sagatavošanās darba ar Human Resources sākšanai
 
@@ -43,7 +43,7 @@ Tabulā zemāk ir uzskaitīti visi procesa soļi, paredzamais ilgums un atbildī
 | 2 | Kontrolsaraksta pabeigšana un nosūtīšana | Pēc lietotāju akceptēšanas testēšana (UAT) ir pabeigta | Partneris/Klients | Ievērojiet instrukcijas, kas sniegtas sadaļā [FastTrack darba sākšanas novērtējums](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Projekta novērtējums (FastTrack) | FastTrack arhitekts* | Arhitekts sniedz novērtējumu pēc kontrolsaraksta saņemšanas un turpina pārskatīšanu, līdz tiek noskaidroti jautājumi vajadzības gadījumā tiek ieviesta problēmu mazināšana. |
 | 4 | Projekta seminārs (FastTrack) | FastTrack arhitekts* | |
-| 5 | Datu pakotnes importēšana | Atkarīgs no projekta | Partneris/Klients | Ievērojiet instrukcijas, kas sniegtas sadaļā [Datu pārvaldības pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Datu pakotnes importēšana | Atkarīgs no projekta | Partneris/Klients | Ievērojiet instrukcijas, kas sniegtas sadaļā [Datu pārvaldības pārskats](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Ražošana ir gatava | Pēc tam, kad visas iepriekšējās darbības ir pabeigtas | Partneris/Klients | Partneris/Klients var veikt ražošanas vides kontroli.|
 | 7 | Pārslēgšanas aktivitātes | Atkarīgs no projekta | Partneris/Klients | |
 | 8 | Palaišana | Atkarīgs no projekta | Debitors | |
@@ -66,7 +66,7 @@ UAT fāzes laikā ieviešanas projektā smilškastes vidē ir jāpārbauda visi 
 
 - Iesakām, lai jūsu UAT process sāktos ar iztīrītu un jaunu vidi, kur dati no jūsu GOLD konfigurācijas tiek kopēti vidē pirms UAT procesa sākšanas. Iesakām izmantot ražošanas vidi kā jūsu GOLD vidi līdz brīdim, kad vide kļūst par ražošanas vidi.
 - Testa gadījumi aptver visu prasību jomu. 
-- Testējiet, izmantojot migrētos datus. Šajos datos jāiekļauj pamatdati, piemēram, darbinieki, darbi un amati. Iekļaujiet arī sākuma bilances, piemēram, atvaļinājumu un prombūtnes uzkrājumus. Visbeidzot iekļaujiet atvērtās transakcijas, piemēram, pašreizējās atvieglojumu reģistrācijas. Pabeidziet testēšanu ar visiem datu veidiem pat tad, ja datu kopa nav pabeigta. 
+- Testējiet, izmantojot migrētos datus. Tajā jāiekļauj tādi dati kā darbinieki, darbi un amati. Iekļaujiet arī sākuma bilances, piemēram, atvaļinājumu un prombūtnes uzkrājumus. Visbeidzot iekļaujiet atvērtās transakcijas, piemēram, pašreizējās atvieglojumu reģistrācijas. Pabeidziet testēšanu ar visiem datu veidiem pat tad, ja datu kopa nav pabeigta. 
 - Testējiet, izmantojot pareizās drošības lomas (noklusējuma lomas un pielāgotās lomas), kas piešķirtas lietotājiem. 
 - Pārliecinieties, vai risinājums atbilst visām uzņēmumas un nozarei specifiskām reglamentējošām prasībām. 
 - Dokumentējiet visus līdzekļus un iegūstiet no klienta apstiprinājumu un parakstu. 
@@ -86,7 +86,7 @@ Pirms darbības veikšanas ir jāveic pārbaudes objekta darba sākšana, lai p�
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack darba sākšanas novērtējums
 
-Klienti, kuri ir kvalificēti FastTrack un ir saistīti ar FastTrack risinājuma arhitektu, pabeigs darba sākšanas pārskatu ar Microsoft FastTrack. Papildinformāciju skatiet sadaļā [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Klienti, kuri ir kvalificēti FastTrack un ir saistīti ar FastTrack risinājuma arhitektu, pabeigs darba sākšanas pārskatu ar Microsoft FastTrack. Papildinformāciju skatiet sadaļā [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Aptuveni astoņas nedēļas pirms darba sākšanas FastTrack komanda lūgs jums aizpildīt [Darba sākšanas kontrolsarakstu](https://go.microsoft.com/fwlink/?linkid=2146013).
 

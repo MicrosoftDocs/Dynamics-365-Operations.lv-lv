@@ -2,11 +2,11 @@
 title: Līdzekļu nomas mājas lapa
 description: Šajā tēmā sniegts pārskats par līdzekļu nomas dokumentāciju un saites uz noteiktām tēmām.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816152"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898114"
 ---
 # <a name="asset-leasing-home-page"></a>Līdzekļu nomas mājas lapa
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816152"
 
 Šajā tēmā uzskaitītas palīdzības tēmas, kas pieejamas līdzekļu nomai, un iekļautas saites uz noteiktām tēmām. 
 
-Līdzekļu noma ir papildu iespēja finanšu darbību pārvaldībai, izsekošanai un automatizēšanai nomātajiem līdzekļiem Microsoft Dynamics 365 Finance. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai.  
+Līdzekļu noma ir papildu iespēja finanšu darbību pārvaldībai, izsekošanai un automatizēšanai nomātajiem līdzekļiem Microsoft Dynamics 365 Finance. Līdzekļu noma atbilst starptautiskajiem grāmatvedības standartiem (16. SFPS) un ASV vispārpieņemtajiem grāmatvedības principiem (ASC 842). Līdzekļu noma notver un apstrādā nomu informāciju un palīdz ģenerēt žurnāla ierakstus, izmantojot nomas dzīves ciklu, no sākotnējās atzīšanas, ikmēneša žurnālu ierakstiem līdz nomas vērtības samazinājumam un pārtraukšanai.
+
+Lai varētu izmantot šo līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot **Līdzekļu pārvaldības** darbvietu, lai pārbaudītu līdzekļa statusu un vajadzības gadījumā to ieslēgtu. Drbvietā **Līdzekļu pārvaldība** atrodiet un atlasiet līdzekli ar nosaukumu **Līdzekļa noma**, un pēc tam noklikšķiniet pogu **Iespējot tūlīt**.
 
 ## <a name="asset-leasing-topics"></a>Līdzekļu nomas tēmas
 Tālāk norādītā tēma ir pieejama, lai palīdzētu konfigurēt un izmantot līdzekļu nomu. 
@@ -82,11 +84,11 @@ Tālāk norādītā tēma ir pieejama, lai palīdzētu konfigurēt un izmantot l
 
 ### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus ir plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](/dynamics365/release-plans/). 
 
 ### <a name="blogs"></a>Emuāri
 
-Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
+Varat atrast viedokļus, jaunumus un citu informāciju [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance and Operations — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek sniegts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.
 

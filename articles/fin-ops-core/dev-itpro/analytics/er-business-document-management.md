@@ -2,7 +2,7 @@
 title: Pārskats par biznesa dokumentu pārvaldību
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot biznesa dokumentu pārvaldības līdzekli elektroniskā pārskata struktūrā.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749541"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891309"
 ---
 # <a name="business-document-management-overview"></a>Pārskats par biznesa dokumentu pārvaldību
 
@@ -45,9 +45,9 @@ Lai izmantotu Biznesa dokumentu pārvaldību veidņu rediģēšanai Excel vai Wo
 
 ## <a name="business-document-availability"></a>Biznesa dokumentu pieejamība
 
-Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2019. gada oktobra laidienam, ir atrodams rakstā [Konfigurējamas biznesa dokumentu atskaites Word un Excel formātā](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2019. gada oktobra laidienam, ir atrodams rakstā [Konfigurējamas biznesa dokumentu atskaites Word un Excel formātā](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2020. gada oktobra laidienā, ir atrodams rakstā [Konfigurējamas biznesa dokumentu veidnes Word formātā](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Pilns saraksts ar visiem pārskatiem, kas ieplānoti 2020. gada oktobra laidienā, ir atrodams rakstā [Konfigurējamas biznesa dokumentu veidnes Word formātā](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Papildu pārskati kļūs pieejami turpmākajos laidienos. Īpaši paziņojumi par papildu pārskatiem tiks nosūtīti atsevišķi. Lai uzzinātu, kā pārskatīt pašlaik pieejamo pārskatu sarakstu, skatiet tālāk sadaļu [ER konfigurāciju saraksts, kas izlaistas finansēs, lai atbalstītu tālāk norādītos konfigurējamus biznesa dokumentus](#list-of-configurations-cbd).
 
@@ -272,7 +272,23 @@ Atlasītajai veidnei ir pieejama opcija **Rediģēt veidni**. Šī opcija vienm�
 
 ![Apstipriniet rediģēšanas procesa sākumu, lai izveidotu jaunu veidni](./media/BDM-Overview-EditingTemplate4.png)
 
+Ja nav neviena nodrošinātāja, to piedāvās izveidot. Ja nav aktīva nodrošinātāja, tiek piedāvāts to izvēlēties aktivizēšanai.
+
+Lai izveidotu nodrošinātāju, mainiet nodrošinātāja nosaukumu laukā **Nosaukums**, atjauniniet jaunā nodrošinātāja interneta adresi laukā **Interneta adrese** un atlasiet **Labi**, lai apstiprinātu.
+
+   ![Izveidot jaunu nodrošinātāju BDM](./media/bdm_create_provider.png)
+
+Lai aktivizētu esošu nodrošinātāju, izvēlieties nodrošinātāja nosaukumu laukā **Konfigurācijas nodrošinātājs** un atlasiet **Labi**, lai iestatītu nodrošinātāju kā aktīvu.
+
+   ![Aktivizēt nodrošinātāju BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Katra BDM veidne atsaucas uz nodrošinātāju kā konfigurācijas autoru. Tāpēc veidnei ir nepieciešams aktīvs nodrošinātājs.
+
+
 Opcija **Jauns dokuments** vienmēr ir pieejama veidnei ER formāta konfigurācijā, kas pieder pašreizējam un citam nodrošinātājam (šajā piemērā Microsoft) un kurai nav pārskatījuma. Rediģētā veidne būs saglabāta jaunā ER formāta konfigurācijā, kas ģenerēta automātiski.
+
+
 
 ### <a name="start-editing-a-template"></a>Sāciet veidnes rediģēšanu
 
@@ -419,7 +435,7 @@ Visticamāk, esat pierakstījies pašreizējai Azure AD domēna lietojumprogramm
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Saraksts ar ER konfigurācijām, kas izlaistas programmā Finance, lai atbalstītu konfigurējamus biznesa dokumentus
 
-ER [konfigurāciju saraksts](general-electronic-reporting.md#list-of-configurations) programmai Finance tiek pastāvīgi atjaunināts. Atveriet [Globālo repozitoriju](er-download-configurations-global-repo.md), lai pārskatītu pašreiz atbalstīto ER konfigurāciju sarakstu. Varat filtrēt [Globālo repozitoriju](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo), lai pārskatītu to ER konfigurāciju sarakstu, ko izmanto konfigurējamu biznesa dokumentu atbalstam.
+ER [konfigurāciju saraksts](general-electronic-reporting.md#list-of-configurations) programmai Finance tiek pastāvīgi atjaunināts. Atveriet [Globālo repozitoriju](er-download-configurations-global-repo.md), lai pārskatītu pašreiz atbalstīto ER konfigurāciju sarakstu. Varat filtrēt [Globālo repozitoriju](../../../finance/localizations/enhanced-filtering-global-repo.md), lai pārskatītu to ER konfigurāciju sarakstu, ko izmanto konfigurējamu biznesa dokumentu atbalstam.
 
 ![Globālā repozitorija satura filtrēšana Konfigurācijas repozitorija lapā](./media/bdm-overview-filterglobalrepo.gif)
 

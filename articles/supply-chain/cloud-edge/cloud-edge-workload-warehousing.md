@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832398"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899171"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832398"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Noliktavas izpilde mēroga vienībās
 
-Šis līdzeklis ļauj mēroga vienībām palaist atlasītos procesus no noliktavas pārvaldības iespējām. Mākoņa mēroga vienības veic savus darba slodzes mākonī, izmantojot īpašu apstrādes noslodzi jūsu atlasītajā Microsoft Azure reģionā. Malas mēroga vienībām var veikt dažas darba slodzes neatkarīgi no telpām, pat ja mēroga vienības īslaicīgi ir atvienotas no mākoņa.
+Šis līdzeklis ļauj mēroga vienībām palaist atlasītos procesus no noliktavas pārvaldības iespējām.
 
 Šajā tēmā noliktavas pārvaldības izpildi noliktavā, kas definēta kā mēroga vienība, sauc par *Noliktavas izpildes sistēmu* (*Warehouse execution system - WES*).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Ir jābūt Dynamics 365 Supply Chain Management centrmezglam un mēroga vienībai, kas ir izvietota ar noliktavas pārvaldības darba slodzi. Plašāku informāciju par arhitektūru un izvietošanas procesu skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm](cloud-edge-landing-page.md).
+Ir jābūt Dynamics 365 Supply Chain Management centrmezglam un mēroga vienībai, kas ir izvietota ar noliktavas pārvaldības darba slodzi. Plašāku informāciju par arhitektūru un izvietošanas procesu skatiet rakstā [Izmantot mēroga vienības, lai palielinātu Supply Chain Management darba slodzes noturību](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Kā WES darba slodze darbojas mēroga vienībās
 
@@ -54,7 +54,7 @@ Mēroga vienībām pieder šādi dati:
 
   - **Krājumu kustības** (manuāla kustība un kustība pēc veidnes darba)
   - **Pirkšanas pasūtījumi** (izvietošanas darbs, izmantojot noliktavas pasūtījumu, ja pirkšanas pasūtījumi nav saistīti ar kravām)
-  - **Pārdošanas pasūtījumi**(vienkāršs izdošanas un iekraušanas darbs)
+  - **Pārdošanas pasūtījumi** (vienkāršs izdošanas un iekraušanas darbs)
   - **Pārsūtīšanas pasūtījumi** (tikai nosūtīšana ar vienkāršu izdošanu un iekraušanas darbu)
 
 - **Noliktavas pasūtījuma saņemšanas dati** — šie dati tiek izmantoti tikai pirkšanas pasūtījumiem, kas tiek manuāli nodoti noliktavā.
@@ -229,7 +229,7 @@ Sekojošajā tabulā ir parādīts, kuri ienākošie līdzekļi tiek atbalstīti
 | Pirkšanas pasūtījuma produktu saņemšanas apstrāde                          | Jā | Nr. |
 | Pirkšanas pasūtījuma saņemšana ar nepilnu pasūtījumu                        | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā, bet tikai no pārkraušanas centra pieprasot atcelšanu |
 | Pirkšanas pasūtījuma saņemšana ar pārpilnu pasūtījumu                        | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Jā  |
-| *Pārkraušanas darba* izveidošana ar saņemšanu                   | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nr. |
+| *Pārkraušanas darba*  izveidošana ar saņemšanu                   | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nr. |
 | *Kvalitātes pasūtījuma* izveidošana ar saņemšanu                  | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nr. |
 | *Krājuma kvalitātes parauga* izveidošana ar saņemšanu          | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nr. |
 | *Kvalitātes pārbaudes kvalitātes* izveidošana ar saņemšanu       | <p>Jā, ja nav noliktavas pasūtījuma</p><p>Nē, ja ir noliktavas pasūtījums</p> | Nr. |
@@ -297,6 +297,8 @@ Izmantojot mērogu vienību darba slodzi, jūs varat pārvaldīt šādus trīs p
 - Apstrādājiet kopuma tabulas ierakstus
 - Noliktavas centrmezgla mērogotai vienībai ziņojumu apstrādātājs
 - Apstrādāt daudzuma atjaunināšanas pieprasījumus noliktavas pasūtījuma rindām
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

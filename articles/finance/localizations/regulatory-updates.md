@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822761"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890780"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822761"
 
 Šajā tēmā ir sniegts to normatīvi atjauninājumu saraksts, kas ir izlaisti Dynamics 365 Finance atbalstītajās lokalizācijās. Piegādes termiņi var tikt mainīti, un plānotā funkcionalitāte var būt atšķirīga vai netikt izlaista. Papildinformāciju lasiet [Microsoft politikā](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Lai iegūtu papildinformāciju par plānotajiem un izlaistajiem līdzekļiem konkrētajai valstij, skatiet tālāk [Dynamics 365 un Power Platform turpmākos izlaišanas plānus](https://docs.microsoft.com/business-applications-release-notes/index).
+Normatīvie atjauninājumi ir līdzekļi, kas tiek ieviesti, lai atbalstītu jaunu vai izmainītu konkrētās valsts likumdošanu. Lai iegūtu papildinformāciju par plānotajiem un izlaistajiem līdzekļiem konkrētajai valstij, skatiet tālāk [Dynamics 365 un Power Platform turpmākos izlaišanas plānus](/business-applications-release-notes/index).
 
 Microsoft cenšas ieviest jaunas normatīvās prasības iespējami drīz. Faktiskais nodrošināšanas datums ir atkarīgs no likuma izsludināšanas datuma, detalizētās informācijas par prasībām pieejamību no vietējām iestādēm, validācijas rīku pieejamības, kā arī no izmaiņu apjoma un sarežģītības.
 

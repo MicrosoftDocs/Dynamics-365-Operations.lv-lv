@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838326"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908015"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Noliktavas darba atliktā apstrāde
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838326"
 
 Atliktās apstrādes funkcionalitāte ļauj noliktavas darbiniekiem turpināt darīt citu darbu, kamēr izvietošanas operācija tiek apstrādāta fonā. Atliktā apstrāde ir noderīga, ja ir jāapstrādā daudzas darba rindas un darbinieks var ļaut šo darbu apstrādāt asinhroni. Tas noder arī tad, ja serverim var būt ad hoc vai neplānoti palielinājumi apstrādes laikā, un palielinātais apstrādes laiks var ietekmēt lietotāja produktivitāti.
 
-Fona apstrāde tiek panākta, izmantojot SysOperation platformu. Papildinformāciju skatiet rakstā [SysOperation platformas apskats](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Fona apstrāde tiek panākta, izmantojot SysOperation platformu. Papildinformāciju skatiet rakstā [SysOperation platformas apskats](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Darba apstrādes politiku konfigurēšana
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839371"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908786"
 ---
 # <a name="cost-management-home-page"></a>Izmaksu pārvaldības sākumlapa
 
@@ -43,7 +43,7 @@ Krājumu uzskaitei un ražošanas uzskaitei varat piekļūt no darbvietām **Izm
 
 Izmantojot ražošanas uzskaiti, varat apstrādēt [darbu pasūtījuma cenu](production-order-cost-analysis.md) ražošanas pasūtījumos un partijas pasūtījumos, kā arī veikt [atgriezenisko izmaksu aprēķināšanu](backflush-costing.md) LEAN ražošanas procesā.
 
-[Pakalpojuma Power BI satura pakotne Izmaksu pārvaldība](../../dev-itpro/analytics/cost-management-content-pack.md) nodrošina pārvaldības ieskatus par krājumiem un nepabeigtās ražošanas (NP) krājumiem, kā arī par izmaksu plūsmu caur tiem pēc kategorijas laika gaitā. Šo informāciju var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
+[Pakalpojuma Power BI satura pakotne Izmaksu pārvaldība](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) nodrošina pārvaldības ieskatus par krājumiem un nepabeigtās ražošanas (NP) krājumiem, kā arī par izmaksu plūsmu caur tiem pēc kategorijas laika gaitā. Šo informāciju var arī izmantot kā finanšu pārskata detalizētu papildinājumu.
 
 ### <a name="additional-resources"></a>Papildu resursi
 
@@ -57,7 +57,7 @@ Tēmā [MK aprēķināšana, izmantojot izmaksu aprēķina lapu](https://www.mi
 
 #### <a name="blogs"></a>Emuāri
 
-Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/axmfg) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
+Viedokļi, jaunumi un cita informācija par moduli Izmaksu pārvaldība ir pieejami [Dynamics AX ražošanas pētniecības un attīstības darba grupas emuārā](/archive/blogs/axmfg/) un [piegādes ķēdes pārvaldības programmā Dynamics AX pētniecības un attīstības darba grupas emuārā](https://blogs.msdn.microsoft.com/dynamicsaxscm). Lai gan daži no šiem rakstiem tika rakstīti iepriekšējai moduļa Izmaksu pārvaldība versijai, joprojām ir spēkā tie paši jēdzieni, un arī procedūras pašreizējā versijā ir līdzīgas.
 
 #### <a name="task-guides"></a>Uzdevumu ceļveži
 

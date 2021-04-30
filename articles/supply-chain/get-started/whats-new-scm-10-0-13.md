@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832182"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909553"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.13 (2020. gada oktobris)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5832182"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](https://docs.microsoft.com/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Līdzekļu virsrakstu saite papildu informācijai vietnē [Laidiena plāniem](/dynamics365/release-plans/). Papildu saites norāda uz papildu dokumentāciju, kas pašlaik ir pieejams šim līdzeklim. Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
-- [Mainīt terminoloģiju no "krājumu slēgšanas atcelšana" uz "krājumu slēgšanas atgriešana"](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Papildinformāciju skatiet rakstā [Krājumu slēgšana](../cost-management/inventory-close.md).
+- [Mainīt terminoloģiju no "krājumu slēgšanas atcelšana" uz "krājumu slēgšanas atgriešana"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Papildinformāciju skatiet rakstā [Krājumu slēgšana](../cost-management/inventory-close.md).
 
-- [Apstiprināt izejošos sūtījumus no pakešuzdevumiem](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Plašāku informāciju skatiet [Apstiprināt izejošos sūtījumus no pakešuzdevumiem](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Apstiprināt izejošos sūtījumus no pakešuzdevumiem](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Plašāku informāciju skatiet [Apstiprināt izejošos sūtījumus no pakešuzdevumiem](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Vairāku pirkšanas darba vienumu deleģēšana](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Plašāku informāciju skatiet [Deleģēt darba elementus darbplūsmā](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Vairāku pirkšanas darba vienumu deleģēšana](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Plašāku informāciju skatiet [Deleģēt darba elementus darbplūsmā](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Ievadiet sērijas numurus, vienlaikus ziņojot kā par pabeigtu no darba karšu ierīces](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Papildinformāciju skatiet [Ziņojums par pabeigšanu no darbu kartes ierīces](../production-control/report-finished-job-device.md).
+- [Ievadiet sērijas numurus, vienlaikus ziņojot kā par pabeigtu no darba karšu ierīces](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Papildinformāciju skatiet [Ziņojums par pabeigšanu no darbu kartes ierīces](../production-control/report-finished-job-device.md).
 
-- [Jaunas krājumu dimensijas preču versiju izsekošanai un uzlabotai paplašināšanai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Papildinformāciju skatiet sadaļā [Preču dimensijas](../pim/product-dimensions.md).
+- [Jaunas krājumu dimensijas preču versiju izsekošanai un uzlabotai paplašināšanai](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Papildinformāciju skatiet sadaļā [Preču dimensijas](../pim/product-dimensions.md).
 
-- [Pasūtījuma rezervēšana, pamatojoties uz numura zīmēm](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Lai iegūtu papildinformāciju, skatiet [Elastīga numura zīmes rezervēšana](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Pasūtījuma rezervēšana, pamatojoties uz numura zīmēm](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Lai iegūtu papildinformāciju, skatiet [Elastīga numura zīmes rezervēšana](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Darba izdošanas rindas pārskats](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Darba izdošanas rindas pārskats](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Darba politikas uzlabojumi ienākošajam darbam](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Plašāku informāciju skatiet [Noliktavu politikas](../warehousing/warehouse-work-policies.md).
+- [Darba politikas uzlabojumi ienākošajam darbam](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Plašāku informāciju skatiet [Noliktavu politikas](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -65,7 +65,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

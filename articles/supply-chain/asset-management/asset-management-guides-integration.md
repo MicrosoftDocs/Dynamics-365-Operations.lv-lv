@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813921"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908571"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrēt Dynamics 365 Supply Chain Management (Līdzekļu pārvaldība) ar Dynamics 365 Guides
 
@@ -30,12 +30,12 @@ Pirms varat pievienot ceļvežus Līdzekļu pārvaldības darba pasūtījumiem, 
 - [Uzstādīt Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) 10.0.9 versiju vai jaunāku versiju.
 - [Ieslēgt duālo rakstīšanu Supply Chain Management programmām](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Ieslēgt lidojumu](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) **MRGuidesFeature** līdzeklim. (Ražošanas vidēm vispirms jāiesniedz atbalsta biļete, lai jūsu nomnieks būtu pievienots lidojuma grupai.)
-- [Ieslēgt šādas konfigurācijas atslēgas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) lapā **Licences konfigurācija**:
+- [Ieslēgt šādas konfigurācijas atslēgas](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) lapā **Licences konfigurācija**:
 
     - Līdzekļu pārvaldība \> Līdzekļu pārvaldības jauktā realitāte
     - Jauktā realitāte \> Jauktās realitātes ceļvedis
 
-- [Uzstādīt Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) 200.0.0.96 versiju vai jaunāku versiju.
+- [Uzstādīt Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) 200.0.0.96 versiju vai jaunāku versiju.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>Izmantot Dynamics 365 Guides ar Līdzekļu pārvaldību
 
@@ -47,8 +47,8 @@ Lai saistītu ceļvedi ar uzturēšanas kontrolsaraksta veidni, sekojiet šiem s
 
 1. Izveidojiet ceļvedi, izmantojot Dynamics 365 Guides datoru un HoloLens programmas. Informāciju par to, kā izveidot ceļvedi, skatiet tālāk norādītajās tēmās.
 
-    - [Izmantot datora programmu, lai izveidotu ceļvedi](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [Izmantot HoloLens programmu, lai ievietotu jūsu hologrammas](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [Izmantot datora programmu, lai izveidotu ceļvedi](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [Izmantot HoloLens programmu, lai ievietotu jūsu hologrammas](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. Supply Chain Management [izveidojiet uzturēšanas kontrolsaraksta veidni](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. Saistiet ceļvedi, ko izveidojāt ar uzturēšanas kontrolsaraksta rindu jaunajā uzturēšanas kontrolsaraksta veidnē:

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838398"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911300"
 ---
 # <a name="work-with-location-directives"></a>Darbs ar novietojuma direktīvām
 
@@ -44,8 +44,8 @@ Pirms jūs varat izveidot novietojumu direktīvu, jums ir jāveic šādas darbī
 1. Dodieties uz **Noliktavas pārvaldība \> Iestatījumi \> Noliktava \> Noliktavas**.
 1. Izveidojiet noliktavu.
 1. Kopsavilkuma cilnē **Noliktava** iestatiet **Izmantot noliktavas pārvaldības procesus** opciju uz *Jā*.
-1. Izveidojiet novietojumus, novietojumu veidus, novietojumu profilus un novietojumu formātus. Lai iegūtu papildu informāciju, skatiet [Konfigurēt novietojumus WMS iespējotā noliktavā](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Izveidojiet vietas, zonas un zonu grupas. Lai iegūtu papildu informāciju, skatiet [Noliktavu iestatīšana](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) un [Konfigurēt novietojumus WMS iespējotā noliktavā](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Izveidojiet novietojumus, novietojumu veidus, novietojumu profilus un novietojumu formātus. Lai iegūtu papildu informāciju, skatiet [Konfigurēt novietojumus WMS iespējotā noliktavā](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Izveidojiet vietas, zonas un zonu grupas. Lai iegūtu papildu informāciju, skatiet [Noliktavu iestatīšana](../../commerce/channels-setup-warehouse.md) un [Konfigurēt novietojumus WMS iespējotā noliktavā](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Darba pasūtījumu veidi novietojuma direktīvām
 
@@ -143,7 +143,7 @@ Kopsavilkuma cilnes **Novietojuma direktīvas** lauki ir specifiski darba pasūt
 - **Deriktīvas kods** - Atlasiet direktīvas kodu, ko saistīt ar darba veidni vai papildināšanas veidni. Lapā **Direktīvas kods** varat izveidot jaunus kodus, ko var izmantot darba veidņu vai papildināšanas veidņu savienošanai ar atrašanās vietas direktīvām. Direktīvas kodus var izmantot arī, lai izveidotu saikni starp jebkuru darba veidnes rindu un atrašanās vietas direktīvu (piemēram, angāra durvis vai sagatavošanas vietas).
 
     > [!TIP]
-    > Ja ir iestatīts direktīvas kods, sistēma nemeklēs atrašanās vietas direktīvas pēc kārtas numura, kad darbs ir jāveido. Tā vietā tas meklēs pēc direktīvas koda. Šādā veidā varat precīzāk norādīt, kāda vietas veidne darba veidnē tiek izmantota noteiktai darbībai, piemēram, materiālu sagatavošana.
+    > Ja ir iestatīts direktīvas kods, sistēma nemeklēs atrašanās vietas direktīvas pēc kārtas numura, kad darbs ir jāveido. Tā vietā tas meklēs pēc direktīvas koda. Šādā veidā varat precīzāk norādīt, kāda vietas direktīvas darba veidnē tiek izmantota noteiktai darbībai, piemēram, materiālu sagatavošana.
 
 - **Vairāki SKU** - Iestatiet šo opciju uz *Jā*, lai atrašanās vietā varētu izmantot vairākas noliktavas vienības (SKU). Piemēram, ir jāiespējo vairākas SKU angāra durvju novietojumam. Ja iespējojat vairākas SKU, jūsu novietojums tiks norādīts darbā, kā paredzēts. Tomēr izvietošanas novietojums varēs apstrādāt tikai vairāku krājumu izvietošanu (ja darbs ietver dažādas SKU, kas ir jāsaņem un jānovieto). Tas nevarēs apstrādāt vienu SKU izvietošanu. Ja šī opcija ir iestatīta uz *Nē*, jūsu novietojums tiks norādīts tikai tad, ja jūsu izvietošanai ir tikai viena veida SKU.
 
@@ -249,7 +249,7 @@ Var definēt vairākas novietojuma direktīvas darbības katrai rindai. Un atkal
 
 ## <a name="next-step"></a>Nākošais solis
 
-Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darba izveides darba veidnes kodu. Papildinformāciju skatiet šeit: [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Pēc novietojuma direktīvu izveides katru direktīvas kodu var saistīt ar darba izveides darba veidnes kodu. Papildinformāciju skatiet šeit: [Noliktavas darba kontrolēšana, izmantojot darbu veidnes un novietojuma direktīvas](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 

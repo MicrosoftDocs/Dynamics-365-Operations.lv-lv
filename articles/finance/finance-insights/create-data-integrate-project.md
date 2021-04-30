@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
+ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818684"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867451"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Datu integrētāja projekta izveide (priekšskatījums)
 
@@ -59,6 +59,7 @@ ms.locfileid: "5818684"
     1. Izveidojiet datu integrācijas projektus tālāk norādītajām veidnēm, izmantojot savienojuma kopu, ko tikko izveidojāt.
 
         - Debitora maksājumu ieskatu rezultāti (CDS uz Fin and Ops)
+            - Ja izmantojat versiju 10.0.17 vai jaunāku versiju, ir jāizmanto veidne ar nosaukumu Debitoru maksājumu ieskatu rezultāts (CDS uz Fin un Ops 10.0.17+).
         - Skaidras naudas plūsmas laika sērijas rezultāti (CDS uz Fin and Ops)
         - Budžeta laika sērijas rezultāti (CDS uz Fin and Ops)
 

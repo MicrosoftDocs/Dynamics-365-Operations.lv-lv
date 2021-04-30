@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826039"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910189"
 ---
 # <a name="inventory-journals"></a>Krājumu žurnāli
 
@@ -95,7 +95,7 @@ Datu elementi atbalsta šādus integrācijas scenāriju tipus:
 -    Sinhrons pakalpojums (OData)
 -  Asinhronā integrācija
 
-Plašāku informāciju skatiet sadaļā [Datu elementi](../../dev-itpro/data-entities/data-entities.md).
+Plašāku informāciju skatiet sadaļā [Datu elementi](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > Dažos krājumu žurnālos nav iespējota OData lietošana, tāpēc datu publicēšanai, atjaunināšanai un importēšanai atpakaļ programmā Supply Chain Management nevarat izmantot Excel datu savienotāju. 
@@ -113,7 +113,7 @@ Vēl viena atšķirība starp žurnāla datu elementiem ir iespēja izmantot sal
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Datu elementi](../../dev-itpro/data-entities/data-entities.md)
+[Datu elementi](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

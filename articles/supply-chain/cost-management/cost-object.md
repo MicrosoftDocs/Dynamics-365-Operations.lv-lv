@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0a8c39977dacd78afc3bec977501abaf8081dc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c6829f24b8efa29b39f5ed742d8ca99e09bcef01
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839347"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910357"
 ---
 # <a name="cost-objects"></a>Izmaksu objekti
 
@@ -67,13 +67,13 @@ Sarakstā **Izmaksu objekti** ir parādīts saraksts ar visiem izmaksu objektiem
 <a name="additional-resources"></a>Papildu resursi
 --------
 
-[Preces dimensijas grupa](https://technet.microsoft.com/library/aa499382.aspx)
+[Preces dimensijas grupa](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 
-[Noliktavas dimensiju grupa](https://technet.microsoft.com/library/hh209317.aspx)
+[Noliktavas dimensiju grupa](/dynamicsax-2012//storage-dimension-groups-form)
 
-[Izsekošanas dimensiju grupa](https://technet.microsoft.com/library/hh209465.aspx)
+[Izsekošanas dimensiju grupa](/dynamicsax-2012//tracking-dimension-groups-form)
 
-[Jaunumi un izmaiņas](../../fin-and-ops/get-started/whats-new-changed.md)
+[Jaunumi un izmaiņas](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 [Izmaksu ieraksti](cost-entries.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840104"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894781"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Darba sākšana ar elektroniskās rēķinu izveidi lietošanai Itālijā
 
@@ -201,7 +201,7 @@ Pēc tam, kad ieslēdzat līdzekli **Konfigurējamas elektronisko rēķinu izrak
 Varat iesniegt dokumentus manuāli, pamatojoties uz pieprasījumu e-rēķinu dokumentiem.
 
 > [!NOTE]
-> Pirms turpināt, pārbaudiet, vai ir pabeigts itāļu e-rēķiniem nepieciešamais iestatījums. Plašāku informāciju skatiet šeit: [Debitoru elektroniskie rēķini](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Ņemiet vērā, ka daži no šajā tēmā aprakstītajiem iestatīšanas darbībam var nebūt pieejamas elektronisko rēķinu izrakstīšanas aktivizēšanas dēļ.
+> Pirms turpināt, pārbaudiet, vai ir pabeigts itāļu e-rēķiniem nepieciešamais iestatījums. Plašāku informāciju skatiet šeit: [Debitoru elektroniskie rēķini](./emea-ita-e-invoices.md). Ņemiet vērā, ka daži no šajā tēmā aprakstītajiem iestatīšanas darbībam var nebūt pieejamas elektronisko rēķinu izrakstīšanas aktivizēšanas dēļ.
 
 1. Dodieties uz **Organizācijas administrēšana \> Periodiskais \> Elektroniskie dokumenti \> Iesniegt elektroniskus dokumentus**.
 2. Pirmā dokumenta iesniegšanai iestatiet opciju **Atkārtoti iesniegt dokumentus** uz **Nē**. Ja ir atkārtoti jāiesniedz dokuments, izmantojot pakalpojumu, iestatiet šo opciju uz **Jā**.

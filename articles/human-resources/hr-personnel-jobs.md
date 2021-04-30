@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803493"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891058"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Darba komponentu iestatīšana
 
@@ -86,7 +86,7 @@ Darba uzdevumi tiek uzturēti lapā **Darba uzdevumi**. Lapā **Darba uzdevumi**
 Atbildības jomas ir jāizmanto, lai norādītu darba lomas, procesus un preces, par ko ir atbildīgs darbinieks, kurš ieņem šo amatu. Piemēram, darbam ar nosaukumu “Grāmatvedis” viena atbildības joma varētu būt “Finanšu pārskatu izveide par preci A”. Atbildības jomas ir jāuztur, izmantojot lapu **Atbildības jomas**, kuru varat atrast, izmantojot funkciju Meklēt. Lapā **Atbildības jomas** ievadiet atbildības nosaukumu un aprakstu. Laukā **Piezīme** varat pievienot papildinformāciju, ja vēlaties. Konkrētam darbam piezīmes var atjaunināt, nemainot šeit ievadītās piezīmes.
 
 ## <a name="steps-for-creating-a-job"></a>Norādījumi par darba izveidi
-Sīku jaunas darba izveides procedūras aprakstu skatiet rakstā [Jaunu darbu definēšana](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+Sīku jaunas darba izveides procedūras aprakstu skatiet rakstā [Jaunu darbu definēšana](./hr-personnel-define-jobs.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832158"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Jaunumi un izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.14. (2020. gada novembris)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5832158"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauta atjaunināta platforma un vispārēji uzlabojumi, bet tajā nav ietverti jauni līdzekļi, kas raksturīgi risinājumam Supply Chain Management. Lai iegūtu vairāk informācijas par gaidāmajām funkcijām, skatiet vietni [Laidiena plāns](https://docs.microsoft.com/dynamics365/release-plans/).
+Šajā laidienā ir iekļauta atjaunināta platforma un vispārēji uzlabojumi, bet tajā nav ietverti jauni līdzekļi, kas raksturīgi risinājumam Supply Chain Management. Lai iegūtu vairāk informācijas par gaidāmajām funkcijām, skatiet vietni [Laidiena plāns](/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>Papildu resursi
 
@@ -49,7 +49,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

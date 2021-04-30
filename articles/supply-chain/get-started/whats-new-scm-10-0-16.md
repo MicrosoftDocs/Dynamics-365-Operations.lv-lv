@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829985"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909923"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Jaunumi vai izmaiņas programmā Dynamics 365 Supply Chain Management 10.0.16. (2021. gada februāris)
 
@@ -33,17 +33,17 @@ ms.locfileid: "5829985"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
-- [Pielāgojama ražotnes izpildes saskarne](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Papildinformāciju skatiet tēmā [Ierīces iestatīšana lai palaistu ražotnes izpildes interfeisu](../production-control/production-floor-execution-setup.md).
+- [Pielāgojama ražotnes izpildes saskarne](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Papildinformāciju skatiet tēmā [Ierīces iestatīšana lai palaistu ražotnes izpildes interfeisu](../production-control/production-floor-execution-setup.md).
 
-- [Krājumu uztveramības pievienojumprogramma Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Plašāku informāciju skatiet [Krājumu uztveramības pievienojumprogramma](../inventory/inventory-visibility.md)
+- [Krājumu uztveramības pievienojumprogramma Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Plašāku informāciju skatiet [Krājumu uztveramības pievienojumprogramma](../inventory/inventory-visibility.md)
 
 - Vienota darbu ID numuru secība<br> - Lai iegūtu papildu informāciju, skatiet [Unificēto numuru sēriju darbu ID](../production-control/unified-job-ids.md).
 
-- [Numura zīmes avota dokumenta rindās validēšana](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Papildinformāciju skatiet [Noliktavas konfigurācijas pārskats](../warehousing/warehouse-configuration.md).
+- [Numura zīmes avota dokumenta rindās validēšana](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Papildinformāciju skatiet [Noliktavas konfigurācijas pārskats](../warehousing/warehouse-configuration.md).
 
-- [Noliktavas pārvaldības nosūtīšanas darba noslodzes vizualizācija](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Plašāku informāciju skatiet [Nosūtīšanas darba slodzes vizualizācija](../warehousing/outbound-workload-visualization.md)
+- [Noliktavas pārvaldības nosūtīšanas darba noslodzes vizualizācija](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Plašāku informāciju skatiet [Nosūtīšanas darba slodzes vizualizācija](../warehousing/outbound-workload-visualization.md)
 
 Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
@@ -99,7 +99,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2020. gada 2. kopuma plānu](/dynamics365-release-plan/2020wave2/index). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

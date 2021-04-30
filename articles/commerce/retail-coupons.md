@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792029"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906653"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mazumtirdzniecības pārdošanas kuponu iestatīšana
 
@@ -38,6 +38,8 @@ Lai izveidotu kuponu, atlaide un kupons ir jāizveido atsevišķi. Pēc tam tie 
 
 > [!NOTE]
 > Pēc tam, kad kupons ir saistīts ar atlaidi, vairāki lauki programmas Commerce atlaižu lapā kļūst tikai lasāmi, jo to pārvaldībai tiek izmantoti kupona iestatījumi. Šie lauki ietver statusa un standarta datumu diapazona laukus.
+> 
+> Izmantojot kuponu zvanu centra kanālā, ir jāatlasa poga **Pārrēķināt** **(cilne Pārdot > Aprēķināt > Pārrēķināt)**, lai saņemtu ar kuponu saistīto atlaidi. Šī papildu darbība tiks noņemta nākamajā laidienā.
 
 ### <a name="limited-use-coupons"></a>Kuponi ar izmantošanas ierobežojumiem
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789640"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890751"
 ---
 # <a name="performance-management"></a>Veiktspējas pārvaldība
 
@@ -93,7 +93,7 @@ Varat arī izmantot sadaļu **Zināšanas**, lai apspriestu, pārskatītu un nov
 
 Varat izveidot jaunus pārskatus, kuru pamatā ir jūsu izveidotas veidnes. Piemēram, jums var būt veidne, ko izmantot, tiekoties vienam pret vienu, attīstības plāniem vai periodiskiem pārskatiem. Veidni varat atlasīt, kad veidojat jaunu pārskatu.
 
-Lai drukātu atsauksmes, atlasiet pogu **Drukāt atsauksmi**. Ja neredzat pogu lapā **Atsauksme**, pārliecinieties, vai līdzeklis ir iespējots darbvietā **Līdzekļu pārvaldība.** Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Lai drukātu atsauksmes, atlasiet pogu **Drukāt atsauksmi**. Ja neredzat pogu lapā **Atsauksme**, pārliecinieties, vai līdzeklis ir iespējots darbvietā **Līdzekļu pārvaldība.** Papildinformāciju par Līdzekļu pārvaldību skatiet [Pārskats par līdzekļu pārvaldību](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > Spēja drukāt veiktspējas pārskatus ir pieejama tikai Personāla vadībā. Tā nav pieejama Dynamics 365 Finance.

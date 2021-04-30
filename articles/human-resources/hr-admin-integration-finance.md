@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801171"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889960"
 ---
 # <a name="configure-integration-with-finance"></a>Integrācijas konfigurēšana ar Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801171"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Lai integrētu Dynamics 365 Human Resources ar Dynamics 365 Finance, varat izmantot veidni No Human Resources uz Finance [datu integratorā](https://docs.microsoft.com/powerapps/administrator/data-integrator). Cilvēkresursu finansēšanas veidne ļauj datu plūsmu darbiem, amatiem un darbiniekiem. Šī veidne ļauj datiem no Human Resources plūst uz Finance, bet neļauj datiem plūst no Finance uz Human Resources.
+Lai integrētu Dynamics 365 Human Resources ar Dynamics 365 Finance, varat izmantot veidni No Human Resources uz Finance [datu integratorā](/powerapps/administrator/data-integrator). Cilvēkresursu finansēšanas veidne ļauj datu plūsmu darbiem, amatiem un darbiniekiem. Šī veidne ļauj datiem no Human Resources plūst uz Finance, bet neļauj datiem plūst no Finance uz Human Resources.
 
 ![Integrācijas plūsma no Human Resources uz Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ Integrācija no Human Resources uz Finance, integrācija mēģina saskaņot iera
 
 Problēma var rasties sadaļā **Nodarbinātais**, kas atbilstības izveidošanai izmanto **Personāla numuru**, un **Amati**. Sadaļa Darbi neizmanto numuru sērijas. Tādējādi, ja viens un tas pats darba ID ir gan Human Resources, gan Finance, Human Resources informācija pārraksta Dynamics 365 Finance informāciju. 
 
-Lai novērstu problēmas ar dublētiem ID, varat vai nu pievienot prefiksu [numuru sērijai](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json), vai numuru sērijā iestatīt sākuma numuru, kas ir ārpus citas sistēmas diapazona. 
+Lai novērstu problēmas ar dublētiem ID, varat vai nu pievienot prefiksu [numuru sērijai](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), vai numuru sērijā iestatīt sākuma numuru, kas ir ārpus citas sistēmas diapazona. 
 
 Vietas ID, kas tiek izmantots nodarbinātā adresē, nav numuru sērijas daļa. Integrējot nodarbinātā adresi no Human Resources uz Finance, ja Finance jau pastāv nodarbinātā adrese, var tikt izveidots dublēts adreses ieraksts. 
 

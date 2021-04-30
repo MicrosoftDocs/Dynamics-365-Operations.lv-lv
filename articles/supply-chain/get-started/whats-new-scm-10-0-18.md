@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832134"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909357"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18. priekšskatījums (2021. gada maijs)
 
@@ -35,15 +35,15 @@ ms.locfileid: "5832134"
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
+Šajā laidienā ir iekļauti tālāk minētie līdzekļi. Sekojiet saitēm uz [laidiena plānu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), lai skatītu katra līdzekļa oficiālā laidiena datumu.
 
-- Automātiska pirkšanas pasūtījumu izlaišana (uzlabojumi [Noliktavas izpildē ar mēroga vienībām mākonī](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Automātiska pirkšanas pasūtījumu izlaišana (uzlabojumi [Noliktavas izpildē ar mēroga vienībām mākonī](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Plašāku informāciju skatiet rakstā [Mākoņa un malas mēroga vienības ražošanas izpilde](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Uzņēmuma mēroga krājumu veiktspējas uzlabojumi un arhivēšana](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Plašāku informāciju par darbībām ar krājumu skatiet [Arcīva krājumu drarbības](../inventory/archive-inventory-transactions.md)
+- [Uzņēmuma mēroga krājumu veiktspējas uzlabojumi un arhivēšana](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Plašāku informāciju par darbībām ar krājumu skatiet [Arcīva krājumu drarbības](../inventory/archive-inventory-transactions.md)
 
-- [Veidņu pārvaldība](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Plašāku informāciju skatiet [Atlaižu pārvaldības moduļa pārskats](../rebate-management/rebate-management-overview.md)
+- [Veidņu pārvaldība](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Plašāku informāciju skatiet [Atlaižu pārvaldības moduļa pārskats](../rebate-management/rebate-management-overview.md)
 
-- Vienkāršots interfeiss tikai ierašanās un aiziešanas laikam (uzlabojumi [Uzlabotās ražošanas izpildes interfeisa uzlabojumi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](../production-control/production-floor-execution-configure.md).
+- Vienkāršots interfeiss tikai ierašanās un aiziešanas laikam (uzlabojumi [Uzlabotās ražošanas izpildes interfeisa uzlabojumi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Papildinformāciju skatiet sadaļā [Ražotnes izpildes interfeisa konfigurēšana](../production-control/production-floor-execution-configure.md).
 
 Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami. 
 
@@ -70,7 +70,7 @@ Lai iegūtu informāciju par kļūdu labojumiem, kas iekļauti katrā no atjauni
 
 Vai interesējaties par gaidāmajām un nesen izlaistajām biznesa programmu un platformu iespējām?
 
-Pārbaudiet [Dynamics 365: 2021. gada 1. kopuma plānu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
+Pārbaudiet [Dynamics 365: 2021. gada 1. kopuma plānu](/dynamics365-release-plan/2021wave1/). Visa informācija no “a” līdz “z” ir apkopota vienā dokumentā, kuru varat izmantot plānošanai.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Noņemtie un novecojušie Supply Chain Management līdzekļi
 

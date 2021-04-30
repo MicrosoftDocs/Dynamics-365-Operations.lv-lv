@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801123"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889864"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Periodiskas datu eksportēšanas programmas izveide
 
@@ -43,12 +43,12 @@ Vienā tipiskā biznesa scenārijā Microsoft Dynamics 365 integrācijām, dati 
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** — pamatdatu avots par nodarbinātajiem, kas tiks eksportēts.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** — tehnoloģija, kas nodrošina periodiskās eksportēšanas saskaņošanu un plānošanu.
 
-    - **[Savienotāji](https://docs.microsoft.com/azure/connectors/apis-list)** — tehnoloģija, kas tiek izmantota, lai savienotu loģikas programmu ar nepieciešamajiem galapunktiem.
+    - **[Savienotāji](/azure/connectors/apis-list)** — tehnoloģija, kas tiek izmantota, lai savienotu loģikas programmu ar nepieciešamajiem galapunktiem.
 
-        - [HTTP ar Azure AD](https://docs.microsoft.com/connectors/webcontents/) savienotāju
-        - [OneDrive biznesam](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) savienotājs
+        - [HTTP ar Azure AD](/connectors/webcontents/) savienotāju
+        - [OneDrive biznesam](/azure/connectors/connectors-create-api-onedriveforbusiness) savienotājs
 
-- **[DMF pakotnes REST API](../dev-itpro/data-entities/data-management-api.md)** — tehnoloģija, kas tiek izmantota, lai izraisītu eksportēšanu un pārraudzītu tā norisi.
+- **[DMF pakotnes REST API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** — tehnoloģija, kas tiek izmantota, lai izraisītu eksportēšanu un pārraudzītu tā norisi.
 - **[OneDrive biznesam](https://onedrive.live.com/about/business/)** — eksportēto nodarbināto galamērķis.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
@@ -84,11 +84,11 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
     ![Loģikas programmas izveides lapa](media/integration-logic-app-creation-1.png)
 
 2. Logic Apps Designer sāciet ar tukšu loģikas programmu.
-3. Pievienojiet [Periodiskuma grafika trigeri](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence), lai palaistu loģikas programmu ik pēc 24 stundām (vai saskaņā ar izvēlēto grafiku).
+3. Pievienojiet [Periodiskuma grafika trigeri](/azure/connectors/connectors-native-recurrence), lai palaistu loģikas programmu ik pēc 24 stundām (vai saskaņā ar izvēlēto grafiku).
 
     ![Periodiskuma dialoglodziņš](media/integration-logic-app-recurrence-step.png)
 
-4. Izsauciet [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API, lai ieplānotu savas datu pakotnes eksportēšanu.
+4. Izsauciet [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API, lai ieplānotu savas datu pakotnes eksportēšanu.
 
     1. Izmantojiet darbību **Izsaukt HTTP pieprasījumu** no HTTP ar Azure AD savienotāju.
 
@@ -122,13 +122,13 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
     > [!TIP]
     > Iespējams, vēlēsieties pārdēvēt katru darbību, lai tai būtu nozīme salīdzinājumā ar noklusējuma nosaukumu **Izsaukt HTTP pieprasījumu**. Piemēram, varat pārdēvēt šo darbību **ExportToPackage**.
 
-5. [Mainīga lieluma inicializācija](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable), lai glabātu **ExportToPackage** pieprasījuma izpildes statusu.
+5. [Mainīga lieluma inicializācija](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable), lai glabātu **ExportToPackage** pieprasījuma izpildes statusu.
 
     ![Mainīgā lieluma darbības inicializācija](media/integration-logic-app-initialize-variable-step.png)
 
 6. Uzgaidiet, līdz datu eksportēšanas izpildes statuss ir **Sekmīgs**.
 
-    1. Pievienojiet [Līdz cilpai](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop), kas atkārtojas, līdz **ExecutionStatus** mainīgā lieluma vērtība ir **Sekmīgs**.
+    1. Pievienojiet [Līdz cilpai](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), kas atkārtojas, līdz **ExecutionStatus** mainīgā lieluma vērtība ir **Sekmīgs**.
     2. Pievienojiet darbību **Aizkave**, kas gaida piecas sekundes, pirms aptaujā pašreizējo eksportēšanas izpildes statusu.
 
         ![Līdz cilpas konteiners](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
         > [!NOTE]
         > Iestatiet ierobežojumu skaitu uz **15**, lai uzgaidītu ne vairāk kā 75 sekundes (15 atkārtojumi x 5 sekundes), kamēr eksportēšana tiks pabeigta. Ja eksportēšanai nepieciešams ilgāks laiks, koriģējiet ierobežojumu pēc nepieciešamības.        
 
-    3. Pievienojiet darbību **Izsaukt HTTP pieprasījumu**, lai izsauktu [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API, un iestatiet mainīgo lielumu **ExecutionStatus** uz rezultātu no **GetExecutionSummaryStatus** atbildes.
+    3. Pievienojiet darbību **Izsaukt HTTP pieprasījumu**, lai izsauktu [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API, un iestatiet mainīgo lielumu **ExecutionStatus** uz rezultātu no **GetExecutionSummaryStatus** atbildes.
 
-        > Šis paraugs neveic kļūdu pārbaudi. **GetExecutionSummaryStatus** API var atgriezt neveiksmīgus termināļa stāvokļus (t.i., stāvokļus, kas nav **Sekmīgs**). Papildinformāciju skatiet [API dokumentācijā](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > Šis paraugs neveic kļūdu pārbaudi. **GetExecutionSummaryStatus** API var atgriezt neveiksmīgus termināļa stāvokļus (t.i., stāvokļus, kas nav **Sekmīgs**). Papildinformāciju skatiet [API dokumentācijā](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Metode:** POST
         - **Pieprasījuma URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
 
 7. Iegūstiet eksportējamās pakotnes lejupielādes URL.
 
-    - Pievienojiet darbību **Izsaukt HTTP pieprasījumu**, lai izsauktu [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API.
+    - Pievienojiet darbību **Izsaukt HTTP pieprasījumu**, lai izsauktu [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API.
 
         - **Metode:** POST
         - **Pieprasījuma URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
 
 8. Lejupielādējiet eksportēto pakotni.
 
-    - Pievienojiet HTTP pieprasījumu **GET** (iebūvēta [HTTP savienotāja darbība](https://docs.microsoft.com/azure/connectors/connectors-native-http)), lai no URL lejupielādētu pakotni, kas tika atgriezta iepriekšējā darbībā.
+    - Pievienojiet HTTP pieprasījumu **GET** (iebūvēta [HTTP savienotāja darbība](/azure/connectors/connectors-native-http)), lai no URL lejupielādētu pakotni, kas tika atgriezta iepriekšējā darbībā.
 
         - **Metode:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ Vingrinājuma lielākā daļa ietver loģikas programmas izveidi.
         > [!NOTE]
         > Šim pieprasījumam nav nepieciešama papildu autentifikācija, jo URL, ko atgriež **GetExportedPackageUrl** API, ietver kopīgotas piekļuves paraksta marķieri, kas piešķir piekļuvi faila lejupielādei.
 
-9. Saglabājiet lejupielādēto pakotni, izmantojot [OneDrive biznesam](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) savienotāju.
+9. Saglabājiet lejupielādēto pakotni, izmantojot [OneDrive biznesam](/azure/connectors/connectors-create-api-onedriveforbusiness) savienotāju.
 
-    - Pievienojiet OneDrive biznesam [Faila izveides](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file) darbību.
+    - Pievienojiet OneDrive biznesam [Faila izveides](/connectors/onedriveforbusinessconnector/#create-file) darbību.
     - Ja nepieciešams, pieslēdzieties savam OneDrive biznesam kontam.
 
         - **Mapes ceļš:** izvelētā mape

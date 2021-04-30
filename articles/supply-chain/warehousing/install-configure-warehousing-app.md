@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835574"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909383"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835574"
 > Šajā tēmā ir aprakstīts, kā konfigurēt veco Warehouse programmu (kas tagad ir novecojusi). Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu (pašreiz publiskā priekšskatījumā), skatiet sadaļu lietotnes [Warehouse Management mobile instalēšana un savienošana](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Šajā tēmā aprakstīts, kā konfigurēt noliktavas lietotni mākoņa izvietojumiem. Ja meklējat informāciju par to, kā konfigurēt noliktavas lietotni lokālajiem izvietojumiem, skatiet [Warehousing lokālajiem izvietojumiem](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Šajā tēmā aprakstīts, kā konfigurēt noliktavas lietotni mākoņa izvietojumiem. Ja meklējat informāciju par to, kā konfigurēt noliktavas lietotni lokālajiem izvietojumiem, skatiet [Warehousing lokālajiem izvietojumiem](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Noliktavas programma ir pieejama Google Play veikalā un Microsoft Store. Tā tiek nodrošināta kā savrups komponents. Tāpēc tā ir jālejupielādē katrā ierīcē un pēc tam jākonfigurē, lai izveidotu savienojumu ar Microsoft Dynamics 365 Supply Chain Management vidi.
 
@@ -54,7 +54,7 @@ Lai lejupielādētu programmu, izmantojiet vienu no šīm saitēm:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 Google Play veikalā](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Mazākiem izvietojumiem, iespējams, vēlēsities instalēt programmu no katras ierīces attiecīgā veikala un pēc tam manuāli konfigurēt savienojumu ar jūsu izmantotajām vidēm. Tomēr, noliktavas programmas versijā 1.7.0.0 un jaunākās, varat arī automatizēt programmu izvietošanu un/vai konfigurāciju. Šī pieeja varētu būt ērta, ja pārvaldāt daudzas ierīces un izmantojat mobilās ierīces pārvaldības un mobilās lietojumprogrammas pārvaldības risinājumu, piemēram, [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Papildinformāciju par Intune izmantošanu, lai pievienotu lietojumprogrammas, skatiet [Programmu pievienošana Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Mazākiem izvietojumiem, iespējams, vēlēsities instalēt programmu no katras ierīces attiecīgā veikala un pēc tam manuāli konfigurēt savienojumu ar jūsu izmantotajām vidēm. Tomēr, noliktavas programmas versijā 1.7.0.0 un jaunākās, varat arī automatizēt programmu izvietošanu un/vai konfigurāciju. Šī pieeja varētu būt ērta, ja pārvaldāt daudzas ierīces un izmantojat mobilās ierīces pārvaldības un mobilās lietojumprogrammas pārvaldības risinājumu, piemēram, [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Papildinformāciju par Intune izmantošanu, lai pievienotu lietojumprogrammas, skatiet [Programmu pievienošana Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Tīmekļa pakalpojuma lietojumprogrammas izveide pakalpojumā Azure Active Directory
 
@@ -89,11 +89,11 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 
 Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogrammas Azure AD, skatiet tālāk norādītos resursus:
 
-- Instrukcijas, kurās parādīts, kā izmantot Windows PowerShell, lai Azure AD iestatītu tīmekļa pakalpojumu lietojumprogrammas, skatiet [Kā: izmantot Azure PowerShell, lai izveidotu pakalpojuma vadītāju ar sertifikātu](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Instrukcijas, kurās parādīts, kā izmantot Windows PowerShell, lai Azure AD iestatītu tīmekļa pakalpojumu lietojumprogrammas, skatiet [Kā: izmantot Azure PowerShell, lai izveidotu pakalpojuma vadītāju ar sertifikātu](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Pilnīgu informāciju par to, kā manuāli izveidot tīmekļa pakalpojumu lietojumprogrammu programmā Azure AD, skatiet tālāk norādītās tēmas:
 
-    - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Īsa pamācība: lietojumprogrammas reģistrācija platformā Microsoft Identity](/azure/active-directory/develop/quickstart-register-app)
+    - [Kā: izmantot portālu, lai izveidotu Azure AD lietojumprogrammu un pakalpojuma vadītāju, kas var piekļūt resursiem](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Izveidot un konfigurēt lietotāja kontu programmatūrā Supply Chain Management
 
@@ -121,7 +121,7 @@ Autentifikācija ar Azure AD nodrošina drošu veidu, kā pievienot mobilo ierī
 
 Sertifikātus var izmantot kā noslēpumus, lai pierādītu lietojumprogrammas identitāti, kad tiek pieprasīta pilnvara. Sertifikāta publiskā daļa tiek augšupielādēta programmu reģistrācijā Azure portālā, savukārt pilnais sertifikāts ir jāizvieto katrā ierīcē, kurā ir instalēta noliktavas programma. Jūsu organizācija ir atbildīga par sertifikāta pārvaldību attiecībā uz rotāciju un tā tālāk. Varat izmantot pašparakstītus sertifikātus, bet vienmēr izmantojiet neeksportējamus sertifikātus.
 
-Sertifikātam ir jābūt pieejamam lokāli katrā ierīcē, kurā tiek palaista noliktavas programma. Papildinformāciju par to, kā pārvaldīt Intune kontrolēto ierīču sertifikātus, ja lietojat Intune, skatiet sadaļā [Sertifikātu izmantošana autentifikācijai programmā Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Sertifikātam ir jābūt pieejamam lokāli katrā ierīcē, kurā tiek palaista noliktavas programma. Papildinformāciju par to, kā pārvaldīt Intune kontrolēto ierīču sertifikātus, ja lietojat Intune, skatiet sadaļā [Sertifikātu izmantošana autentifikācijai programmā Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Konfigurējiet lietojumprogrammu, importējot savienojuma iestatījumus
 

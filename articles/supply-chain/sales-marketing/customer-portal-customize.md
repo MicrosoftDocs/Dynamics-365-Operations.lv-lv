@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840777"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909004"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Debitoru portāla pielāgošana un izmantošana
 
@@ -33,14 +33,14 @@ Debitora portāls standarta variantā piedāvā dažas tīmekļa lapas un darbī
 
 Tēmas zemāk palīdzēs jums uzzināt pamatinformāciju par Power Apps portāliem un to, kā varat pielāgot portālus.
 
-- [Darbs ar veidnēm](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) — šajā tēmā sniegts vispārīgs pārskats par to, kā Power Apps portāli darbojas un kā varat veikt vienkāršus portālu pielāgojumus.
-- [Portāla satura pārvaldība](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) — šajā tēmā ir paskaidrots, kā varat pārvaldīt un pielāgot jūsu portālā redzamo saturu.
-- [Rediģēt CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) — šī tēma palīdz izveidot sarežģītākus pielāgojumus jūsu portāla lietotāja interfeisam (UI).
-- [Dizaina izveide jūsu portālam](https://docs.microsoft.com/dynamics365/portals/create-theme) — šī tēma palīdz izveidot lietotāja interfeisa dizainu jūsu portālam.
-- [Portāla satura viegla izveide un eksponēšana](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) — šī tēma palīdz pārvaldīt pamatā esošos datus un tabulas, ko izmantojat savam portālam.
-- [Kontaktpersonu konfigurēšana izmantošanai portālā](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) — šajā tēmā ir paskaidrots, kā izveidot un pielāgot lietotāju lomas un kā drošība un autentifikācija darbojas Power Apps portālos.
-- [Piezīmju konfigurēšana tabulu veidlapām un tīmekļa veidlapām portālos](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) — šajā tēmā ir paskaidrots, kā pievienot jūsu portālam dokumentus un papildu krātuvi.
-- [Kļūdu apstrāde portāla tīmekļa vietnei](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) — šajā tēmā ir paskaidrots, kā skatīt portāla kļūdu žurnālus un saglabāt tos savā Microsoft Azure Blob krātuves kontā.
+- [Darbs ar veidnēm](/powerapps/maker/portals/work-with-templates) — šajā tēmā sniegts vispārīgs pārskats par to, kā Power Apps portāli darbojas un kā varat veikt vienkāršus portālu pielāgojumus.
+- [Portāla satura pārvaldība](/dynamics365/portals/manage-portal-content) — šajā tēmā ir paskaidrots, kā varat pārvaldīt un pielāgot jūsu portālā redzamo saturu.
+- [Rediģēt CSS](/powerapps/maker/portals/edit-css) — šī tēma palīdz izveidot sarežģītākus pielāgojumus jūsu portāla lietotāja interfeisam (UI).
+- [Dizaina izveide jūsu portālam](/dynamics365/portals/create-theme) — šī tēma palīdz izveidot lietotāja interfeisa dizainu jūsu portālam.
+- [Portāla satura viegla izveide un eksponēšana](/dynamics365/portals/create-expose-portal-content) — šī tēma palīdz pārvaldīt pamatā esošos datus un tabulas, ko izmantojat savam portālam.
+- [Kontaktpersonu konfigurēšana izmantošanai portālā](/powerapps/maker/portals/configure/configure-contacts) — šajā tēmā ir paskaidrots, kā izveidot un pielāgot lietotāju lomas un kā drošība un autentifikācija darbojas Power Apps portālos.
+- [Piezīmju konfigurēšana tabulu veidlapām un tīmekļa veidlapām portālos](/powerapps/maker/portals/configure-notes) — šajā tēmā ir paskaidrots, kā pievienot jūsu portālam dokumentus un papildu krātuvi.
+- [Kļūdu apstrāde portāla tīmekļa vietnei](/powerapps/maker/portals/admin/view-portal-error-log) — šajā tēmā ir paskaidrots, kā skatīt portāla kļūdu žurnālus un saglabāt tos savā Microsoft Azure Blob krātuves kontā.
 
 ## <a name="customize-the-order-creation-process"></a>Pasūtījuma izveides procesa pielāgošana
 
@@ -88,7 +88,7 @@ Tālāk ir norādītas standarta darbības pasūtījuma iesniegšanai no Debitor
 
 Lai palīdzētu nodrošināt sekmīgu lietotāja pieredzi, Debitoru portāls automātiski aizpilda vērtības vairākos obligātos laukos. Šīs vērtības ir pamatotas uz informāciju klienta kontaktpersonas, kas iesniedz pasūtījumu, ierakstu.
 
-Katrai [kontaktpersonas rindai](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts), kas attiecas uz klientu, kurš izmantos Debitoru portālu pasūtījuma iesniegšanai, ir jānorāda vērtības tālāk minētajiem obligātajiem laukiem. Pretējā gadījumā radīsies kļūdas.
+Katrai [kontaktpersonas rindai](/powerapps/maker/portals/configure/configure-contacts), kas attiecas uz klientu, kurš izmantos Debitoru portālu pasūtījuma iesniegšanai, ir jānorāda vērtības tālāk minētajiem obligātajiem laukiem. Pretējā gadījumā radīsies kļūdas.
 
 - **Uzņēmums** — juridiskā persona, kam pieder pasūtījums
 - **Potenciālais debitors** — debitora konts, kas saistīts arpasūtījumu
@@ -134,16 +134,16 @@ Krājumiem ir nepieciešamas tālāk minētas kolonnas:
 
 Jums ir jāpārliecinās, ka jūsu Debitoru portālā kaut kādā veidā tiek iesniegtas vērtības visām tālāk minētajām kolonnām.
 
-Ja vēlaties pievienot lapai kolonnas vai noņemt tās, skatiet [Ātrās izveides veidlapu izveide vai rediģēšana racionalizētai datu ievades pieredzei](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Ja vēlaties pievienot lapai kolonnas vai noņemt tās, skatiet [Ātrās izveides veidlapu izveide vai rediģēšana racionalizētai datu ievades pieredzei](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Ja vēlaties mainīt to, kā ir priekšiestatītas kolonnas un kā tiek iestatītas vērtības, kad lapa tiek saglabāta, skatiet tālāk norādīto informāciju Power Apps portālu dokumentācijā:
 
-- [Lauka iepriekšēja aizpildīšana](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Vērtības iestatīšana saglabāšanai](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Lauka iepriekšēja aizpildīšana](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Vērtības iestatīšana saglabāšanai](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Sākumlapas pielāgošana
 
-Visas Debitoru portālā esošās vadīklas ir iebūvētas Power Apps portālu vadīklas. Varat tos pielāgot, izpildot darbības, kas aprakstītas [Lapas definēšana](https://docs.microsoft.com/powerapps/maker/portals/compose-page) Power Apps portālu dokumentācijā.
+Visas Debitoru portālā esošās vadīklas ir iebūvētas Power Apps portālu vadīklas. Varat tos pielāgot, izpildot darbības, kas aprakstītas [Lapas definēšana](/powerapps/maker/portals/compose-page) Power Apps portālu dokumentācijā.
 
 Tikai pielāgota vadīkla, kas ir iekļauta Debitoru portāla veidnē, tiek izmantota, lai izveidotu elementus sākumlapā.
 
@@ -151,7 +151,7 @@ Tikai pielāgota vadīkla, kas ir iekļauta Debitoru portāla veidnē, tiek izma
 
 Lai modificētu elementus, veiciet tālāk noradītās darbības.
 
-1. Atveriet [Portāla pārvaldības programma](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Atveriet [Portāla pārvaldības programma](/powerapps/maker/portals/configure/configure-portal).
 1. Navigācijas rūtī kreisajā pusē atlasiet **Lapas veidnes**.
 
     ![Portāla pārvaldības navigācijas rūts](media/customer-portal-nav.png "Portāla pārvaldības navigācijas rūts")
@@ -167,11 +167,11 @@ Lai modificētu elementus, veiciet tālāk noradītās darbības.
 
 Lai uzzinātu vairāk par to, kā varat iestatīt un pielāgot Debitoru portālu, skatiet tālāk norādītos resursus.
 
-- [Power Apps portālu dokumentācija](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps portālu dokumentācija](/powerapps/maker/portals/overview)
 - [Duālā ieraksta dokumentācija](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [Par portāla dzīves ciklu](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Portāla jaunināšana](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portāla konfigurācijas migrācija](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Par portāla dzīves ciklu](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Portāla jaunināšana](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portāla konfigurācijas migrācija](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Risinājuma dzīves cikla pārvaldība: programma Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

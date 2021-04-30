@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753820"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894176"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroniskajos pārskatos ģenerētu dokumentu saspiešana 
 
 [!include [banner](../includes/banner.md)]
 
-Varat izmantot [elektronisko pārskatu (ER) veidošanas struktūru](general-electronic-reporting.md), lai konfigurētu risinājumu, kas ienes transakciju datus, lai ģenerētu izejošo dokumentu. Ģenerētais dokuments var būt diezgan liels. Ģenerējot šī veida dokumentu, tiek izmantota [Lietojumprogrammas objektu servera (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) atmiņa, lai to uzglabātu. Kādā brīdī pēc tam dokuments ir jālejupielādē no Microsoft Dynamics 365 Finance programmas. Pašlaik maksimālais viena elektroniskā pārskata ģenerēta dokumenta lielums ir ierobežots līdz 2 gigabaitiem (GB). Savukārt, Finance pašlaik [ierobežo](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) lejupielādējamo failu lielumu līdz 1 GB. Tāpēc ir jākonfigurē elektronisko pārskatu risinājums, kas samazina iespējamību, ka šie ierobežojumi tiks pārsniegti un ka jūs saņemsit izņēmumu **Straume bija pārāk gara** vai **Pārpilde vai izzude aritmētiskajā operācijā**.
+Varat izmantot [elektronisko pārskatu (ER) veidošanas struktūru](general-electronic-reporting.md), lai konfigurētu risinājumu, kas ienes transakciju datus, lai ģenerētu izejošo dokumentu. Ģenerētais dokuments var būt diezgan liels. Ģenerējot šī veida dokumentu, tiek izmantota [Lietojumprogrammas objektu servera (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) atmiņa, lai to uzglabātu. Kādā brīdī pēc tam dokuments ir jālejupielādē no Microsoft Dynamics 365 Finance programmas. Pašlaik maksimālais viena elektroniskā pārskata ģenerēta dokumenta lielums ir ierobežots līdz 2 gigabaitiem (GB). Savukārt, Finance pašlaik [ierobežo](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) lejupielādējamo failu lielumu līdz 1 GB. Tāpēc ir jākonfigurē elektronisko pārskatu risinājums, kas samazina iespējamību, ka šie ierobežojumi tiks pārsniegti un ka jūs saņemsit izņēmumu **Straume bija pārāk gara** vai **Pārpilde vai izzude aritmētiskajā operācijā**.
 
 Konfigurējot risinājumu, varat pielāgot savu elektronisko pārskatu formātu operāciju noformētājā, pievienojot **Mapes** veida saknes elementu, lai saspiestu saturu, kas tiek ģenerēts ar to ligzdotajiem elementiem. Saspiešana darbojas “tieši laikā”, tādējādi samazinot maksimālo atmiņas izmantojumu un lejupielādējamā faila lielumu.
 

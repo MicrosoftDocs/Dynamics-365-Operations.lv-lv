@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841771"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908375"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendāri un vispārējā plānošana
 
@@ -90,7 +90,7 @@ Lai norādītu datumus, kad debitors var saņemt piegādes, debitoram var pieš�
 
 Ņemiet vērā, ka var iekļaut tikai vienu kalendāru katram debitoram. Ja nepieciešams ietvert kalendāru katrai no vairākām debitora adresēm, var izveidot vienu debitoru katrai adresei un pēc tam piešķirt attiecīgo kalendāru. 
 
-Pieprasīto saņemšanas datumu pārdošanas pasūtījuma rindās ietekmē debitora kalendārs un piegādes datuma kontroles metode. Informāciju par to, kā tiek aprēķināts agrākais piegādes datums, varat izlasīt sadaļā [Pasūtījumu solīšana](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Pieprasīto saņemšanas datumu pārdošanas pasūtījuma rindās ietekmē debitora kalendārs un piegādes datuma kontroles metode. Informāciju par to, kā tiek aprēķināts agrākais piegādes datums, varat izlasīt sadaļā [Pasūtījumu solīšana](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Nosūtīšanas kalendārs juridiskai personai
 Lai norādītu datumus, kuros juridiskā persona var nosūtīt preces, varat iestatīt nosūtīšanas kalendāru sadaļā **Organizācijas administrēšana > Organizācijas > Juridiskas personas**. Atlasiet juridisko personu un pievienojiet kalendāru cilnes **Starptautiskā tirdzniecība un loģistika** laukā **Nosūtīšanas kalendārs**. Nosūtīšanas kalendārs darbosies kā noklusējuma iestatījumu avots visiem juridiskās personas noliktavas kalendāriem. 

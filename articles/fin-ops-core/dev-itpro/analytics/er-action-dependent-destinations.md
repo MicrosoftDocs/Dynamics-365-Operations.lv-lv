@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751236"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893582"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Konfigurēt no darbības atkarīgus ER adresātus
 
@@ -60,7 +60,7 @@ Atlasot **Jebkuru** dokumenta tipu, laukā **Drukas pārvaldības darbība** kā
     - Ja izpildlaikā ir sniegta darbība **Nosūtīt**, tiek lietots ER mērķis **E-pasts**.
     - Ja izpildlaikā ir sniegta darbība **Drukāt**, tiek lietots ER mērķis **Printeris**.
 
-Piemēram, **Brīvā teksta rēķinu (Excel)** ER formātu var izmantot, lai drukātu [brīva teksta rēķinu](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new), kad to grāmatojat. Lai maršrutētu ģenerēto dokumentu, ir jākonfigurē ER adresāti šim ER formātam. Piemēram, jums var būt nepieciešams konfigurēt šos ER adresātus, lai ģenerētajā dokumentā veiktu šādas darbības:
+Piemēram, **Brīvā teksta rēķinu (Excel)** ER formātu var izmantot, lai drukātu [brīva teksta rēķinu](../../../finance/accounts-receivable/create-free-text-invoice-new.md), kad to grāmatojat. Lai maršrutētu ģenerēto dokumentu, ir jākonfigurē ER adresāti šim ER formātam. Piemēram, jums var būt nepieciešams konfigurēt šos ER adresātus, lai ģenerētajā dokumentā veiktu šādas darbības:
 
 - Arhivējiet dokumentu, ja ER formāts tiek palaists, bet netiek norādīts darbības kods (piemēram, kad dokuments tiek nosūtīts elektroniski).
 - Priekšskatiet dokumentu tīmekļa pārlūkprogrammā, kad lietotājs veic darbību **Skatīt**.
@@ -82,7 +82,7 @@ Piemēram, **Brīvā teksta rēķinu (Excel)** ER formātu var izmantot, lai dru
 
 Ja ER formāts tiek palaists, ja lietotāju darbības ir nodrošinātas ar lietotājiem, kuriem ir atbilstošās [atļaujas](electronic-reporting-destinations.md#security-considerations), lai izpildlaikā mainītu konfigurētos mērķa iestatījumus, tiek parādīts dialoglodziņš, kas sniedz opciju mainīt konfigurētos adresāta iestatījumus. Šis dialoglodziņš nav obligāts, un tā izskats ir atkarīgs no tā, kā ir ieviests zvans, ko ER struktūra veic, lai palaistu ER formātu. Ja parādās šis dialoglodziņš, ER adresāti tajā tiks aktivizēti saskaņā ar lietotāja sniegto darbību.
 
-Šajā attēlā parādīts **Elektronisko pārskatu formāta mērķa** dialoglodziņa piemērs, kas parādās, kad tiek [grāmatots](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) brīva teksta rēķins un šī formāta **Brīvā teksta rēķina (Excel)** ER formāts tiek palaists, lai ģenerētu šo dokumentu, ja darbība **Drukāt** tika nodrošināta un ER adresāti tika konfigurēti šim formātam, kā parādīts iepriekš šajā tēmā.
+Šajā attēlā parādīts **Elektronisko pārskatu formāta mērķa** dialoglodziņa piemērs, kas parādās, kad tiek [grāmatots](../../../finance/accounts-receivable/create-free-text-invoice-new.md) brīva teksta rēķins un šī formāta **Brīvā teksta rēķina (Excel)** ER formāts tiek palaists, lai ģenerētu šo dokumentu, ja darbība **Drukāt** tika nodrošināta un ER adresāti tika konfigurēti šim formātam, kā parādīts iepriekš šajā tēmā.
 
 ![Dialoglodziņš, ar kuru tiek sniegta opcija inicializācijas konfigurēto ER adresātu maiņai darbinātajā ER formātā](./media/er-destination-action-dependent-02.gif)
 
