@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839962"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891163"
 ---
 # <a name="import-iso20022-files"></a>ISO20022 failu importēšana
 
@@ -114,7 +114,7 @@ Importējot formāta konfigurāciju no LCS, tiek importēts viss konfigurācijas
  - **Pain.002** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu pain.002 kreditoru maksājumu pārskaitījumu žurnālu
  - **Camt.054** — šis formāts tiks izmantots kopā ar maksājumu modeļa kartējumu līdz galamērķim ISO20022, lai importētu failu camt.054 kreditoru maksājumu pārskaitījumu žurnālu. Tāda pati formātu konfigurācija tiks izmantota debitoru maksājumu importēšanas funkcionalitātē, tomēr atšķirīgs kartējums tiks izmantots maksājumu modeļa kartējumā līdz galamērķa ISO20022 konfigurācijai.
 
-Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](../../dev-itpro/analytics/general-electronic-reporting.md).
+Plašāku informāciju par elektronisko pārskatu veidošanu skatiet šeit: [Elektronisko pārskatu veidošanas apskats](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Papildu resursi
 - [Kreditoru maksājumu izveide un eksportēšana, izmantojot maksājumu formātu ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
