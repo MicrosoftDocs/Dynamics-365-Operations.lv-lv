@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818804"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908834"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Konfigurācija Finanšu ieskatiem (priekšskatījums)
 
@@ -69,7 +69,7 @@ Varat pabeigt manuālās konfigurācijas darbības, kas norādītas tālāk, vai
     13. Atlasiet **Resursi \> Visi mantotie iestatījumi**.
     14. Augšējā navigācijas joslā atlasiet **Iestatījumi** un pēc tam atlasiet **Pielāgojumi**.
     15. Atlasiet **Izstrādātāja resursi**.
-    16. Iestatiet laukā **Instances atsauces informācijas ID** Dataverse organizācijas ID vērtību, ko pierakstījāt iepriekš.
+    16. Kopējiet **Dataverse organizācijas ID** vērtību.
     17. Pierakstiet pārlūkprogrammas adreses joslā esošo Dataverse organizācijas URL. Piemēram, URL varētu būt `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Ja plānojat izmantot Skaidras naudas plūsmas prognožu vai Budžeta prognožu līdzekli, veiciet tālāk norādītās darbības, lai atjauninātu jūsu organizācijas anotāciju ierobežojumu līdz vismaz 50 megabaitiem (MB).
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Windows PowerShell skripta izmantošana](#tab/use-a-powershell-script)
 
-Windows PowerShell skripts tiek nodrošināts, lai varētu viegli iestatīt Azure resursus, kas aprakstīti sadaļā [Eksporta konfigurēšana uz Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Ja vēlaties veikt manuālu iestatīšanu, izlaidiet šo procedūru un turpiniet ar procedūru sadaļā [Manuālā iestatīšana](#manual-setup).
+Windows PowerShell skripts tiek nodrošināts, lai varētu viegli iestatīt Azure resursus, kas aprakstīti sadaļā [Eksporta konfigurēšana uz Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Ja vēlaties veikt manuālu iestatīšanu, izlaidiet šo procedūru un turpiniet ar procedūru sadaļā [Manuālā iestatīšana](#manual-setup).
 
 > [!NOTE]
 > Izpildiet tālāk norādītās darbības, lai palaistu PowerShell skriptu. Azure CLI opcija "Izmēģiniet to" vai skripta palaišana datorā, iespējams, nedarbosies.
 
-Izpildiet tālāk norādītās darbības, lai konfigurētu Azure, izmantojot Windows PowerShell skriptu. Jums ir jābūt tiesībām izveidot Azure resursu grupu, Azure resursus un Azure AD pieteikumu. Lai iegūtu informāciju par nepieciešamajām atļaujām, skatiet [Pakalpojuma Azure AD atļauju pārbaude](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Izpildiet tālāk norādītās darbības, lai konfigurētu Azure, izmantojot Windows PowerShell skriptu. Jums ir jābūt tiesībām izveidot Azure resursu grupu, Azure resursus un Azure AD pieteikumu. Lai iegūtu informāciju par nepieciešamajām atļaujām, skatiet [Pakalpojuma Azure AD atļauju pārbaude](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. [Azure portālā](https://portal.azure.com) dodieties uz savu mērķa Azure abonementu. Atlasiet pogu **Mākoņa čaula**, kas atrodas pa labi no lauka **Meklēt**.
 2. Atlasiet **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Elementu krātuves konfigurēšana
 
-Izpildiet tālāk norādītās darbības, lai iestatītu Finanšu vides elementu krātuvi.
-
-1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Sistēmas parametri \> Datu savienojumi**.
-2. Iestatiet opciju **Iespējot Data Lake integrāciju** uz **Jā**.
-3. Iestatiet tālāk norādītos Galvenās akreditācijas datu glabātavas laukus.
-
-    - **Pieteikuma (klienta) ID** — ievadiet iepriekš izveidoto pieteikuma klienta ID.
-    - **Pieteikuma noslēpums** — ievadiet noslēpumu, ko saglabājāt iepriekš izveidotajam pieteikumam.
-    - **DNS nosaukums** — varat atrast domēna nosaukuma sistēmas (DNS) nosaukumu iepriekš izveidotā pieteikuma detalizētas informācijas lapā.
-    - **Noslēpuma nosaukums** — ievadiet **krātuve-konts-savienojums-virkne**.
 
 ## <a name="configure-the-data-lake"></a>Data Lake konfigurēšana
 
@@ -991,6 +980,19 @@ Pievienojumprogramma tiks instalēta dažu minūšu laikā.
     | CDS nomnieka ID (direktorija ID no AAD)               | Dataverse instances nomnieka ID. Lai atrastu šo vērtību, atveriet [Azure portālu](https://portal.azure.com), dodieties uz **Azure Active Directory** un kopējiet vērtību **Nomnieka ID**. |
     | Norādiet tā lietotāja objekta ID, kam ir sistēmas administratora loma | Azure AD lietotāja objekta ID lietotājam Dataverse. Šim lietotājam jābūt Dataverse instances sistēmas administratoram. Lai atrastu šo vērtību, atveriet [Azure portālu](https://portal.azure.com), dodieties uz **Azure Active Directory \> Lietotāji**, atlasiet lietotāju un pēc tam sekcijā **Identitāte** kopējiet vērtību **Objekta ID**. |
     | Vai šī ir nomnieka noklusējuma CDS vide?      | Ja Dataverse instance bija pirmā izveidotā ražošanas instance, atzīmējiet šo izvēles rūtiņu. Ja Dataverse instance tika izveidota manuāli, izņemiet atzīmi no šīs izvēles rūtiņas. |
+
+## <a name="configure-the-entity-store"></a>Elementu krātuves konfigurēšana
+
+Izpildiet tālāk norādītās darbības, lai iestatītu Finanšu vides elementu krātuvi.
+
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Sistēmas parametri \> Datu savienojumi**.
+2. Iestatiet opciju **Iespējot Data Lake integrāciju** uz **Jā**.
+3. Iestatiet tālāk norādītos galvenās akreditācijas datu glabātavas laukus.
+
+    - **Pieteikuma (klienta) ID** — ievadiet iepriekš izveidoto pieteikuma klienta ID.
+    - **Pieteikuma noslēpums** — ievadiet noslēpumu, ko saglabājāt iepriekš izveidotajam pieteikumam.
+    - **DNS nosaukums** — varat atrast domēna nosaukuma sistēmas (DNS) nosaukumu iepriekš izveidotā pieteikuma detalizētas informācijas lapā.
+    - **Noslēpuma nosaukums** — ievadiet **krātuve-konts-savienojums-virkne**.
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 
