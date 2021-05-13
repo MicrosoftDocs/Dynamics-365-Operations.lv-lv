@@ -13,68 +13,69 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0db1c35779a468d9a86d18eb6c849d40bc8c03a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13053dd87242963586678b46c64493feb3383c4c
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820086"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920709"
 ---
-# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="66fb0-103">Materiālu komplekta izveide uz dimensiju balstītas preces šablonam</span><span class="sxs-lookup"><span data-stu-id="66fb0-103">Create a bill of materials for a dimension-based product master</span></span>
+# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="36baa-103">Materiālu komplekta izveide uz dimensiju balstītas preces šablonam</span><span class="sxs-lookup"><span data-stu-id="36baa-103">Create a bill of materials for a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="66fb0-104">Lai izpildītu šo procedūru, jums ir jāizpilda iepriekšējie 4 ceļveži šajā astoņu ierakstu procedūrā.</span><span class="sxs-lookup"><span data-stu-id="66fb0-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="66fb0-105">Ar pirmajiem 4 ierakstiem tiek iestatīti dati, kas ir nepieciešami šīs procedūras izpildīšanai.</span><span class="sxs-lookup"><span data-stu-id="66fb0-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="66fb0-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="66fb0-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="66fb0-107">Šo uzdevumu parasti veic preču noformētājs.</span><span class="sxs-lookup"><span data-stu-id="66fb0-107">This task is typically handled by the product designer.</span></span>
+<span data-ttu-id="36baa-104">Lai izpildītu šo procedūru, jums ir jāizpilda iepriekšējie 4 ceļveži šajā astoņu ierakstu procedūrā.</span><span class="sxs-lookup"><span data-stu-id="36baa-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="36baa-105">Ar pirmajiem 4 ierakstiem tiek iestatīti dati, kas ir nepieciešami šīs procedūras izpildīšanai.</span><span class="sxs-lookup"><span data-stu-id="36baa-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="36baa-106">Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.</span><span class="sxs-lookup"><span data-stu-id="36baa-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="36baa-107">Šo uzdevumu parasti veic preču noformētājs.</span><span class="sxs-lookup"><span data-stu-id="36baa-107">This task is typically handled by the product designer.</span></span>
 
+## <a name="select-the-product"></a><span data-ttu-id="36baa-108">Atlasīt preci</span><span class="sxs-lookup"><span data-stu-id="36baa-108">Select the product</span></span>
 
-## <a name="select-the-product"></a><span data-ttu-id="66fb0-108">Atlasīt preci</span><span class="sxs-lookup"><span data-stu-id="66fb0-108">Select the product</span></span>
-1. <span data-ttu-id="66fb0-109">Noklikšķiniet uz Izlaisto preču uzturēšana.</span><span class="sxs-lookup"><span data-stu-id="66fb0-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="66fb0-110">Noklikšķiniet uz Izlaistās preces.</span><span class="sxs-lookup"><span data-stu-id="66fb0-110">Click Released products.</span></span>
-3. <span data-ttu-id="66fb0-111">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="66fb0-112">Atrodiet izlaisto preces šablonu ar dimensijām atbilstošas konfigurācijas tehnoloģiju, kuru izveidojāt šīs procedūras pirmajā uzdevumu ceļvedī.</span><span class="sxs-lookup"><span data-stu-id="66fb0-112">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
-4. <span data-ttu-id="66fb0-113">Darbību rūtī noklikšķiniet uz Inženieris.</span><span class="sxs-lookup"><span data-stu-id="66fb0-113">On the Action Pane, click Engineer.</span></span>
-5. <span data-ttu-id="66fb0-114">Noklikšķiniet uz MK versijas.</span><span class="sxs-lookup"><span data-stu-id="66fb0-114">Click BOM versions.</span></span>
+1. <span data-ttu-id="36baa-109">Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.</span><span class="sxs-lookup"><span data-stu-id="36baa-109">Go to **Product information management \> Products \> Released products**.</span></span>
+1. <span data-ttu-id="36baa-110">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="36baa-110">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="36baa-111">Atrodiet izlaisto preces šablonu ar dimensijām atbilstošas konfigurācijas tehnoloģiju, kuru izveidojāt šīs procedūras pirmajā uzdevumu ceļvedī.</span><span class="sxs-lookup"><span data-stu-id="36baa-111">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
+1. <span data-ttu-id="36baa-112">Darbību rūtī atlasiet **Inženieris**.</span><span class="sxs-lookup"><span data-stu-id="36baa-112">On the Action Pane, select **Engineer**.</span></span>
+1. <span data-ttu-id="36baa-113">Atlasīt **MK versijas**.</span><span class="sxs-lookup"><span data-stu-id="36baa-113">Select **BOM versions**.</span></span>
 
-## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="66fb0-115">Izveidot jaunu MK un MK versiju</span><span class="sxs-lookup"><span data-stu-id="66fb0-115">Create new BOM and BOM version</span></span>
-1. <span data-ttu-id="66fb0-116">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="66fb0-116">Click New.</span></span>
-2. <span data-ttu-id="66fb0-117">Noklikšķiniet uz MK un MK versija.</span><span class="sxs-lookup"><span data-stu-id="66fb0-117">Click BOM and BOM version.</span></span>
-3. <span data-ttu-id="66fb0-118">Laukā Nosaukums ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-118">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="66fb0-119">Vietas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="66fb0-119">Setting a site</span></span>  
-    * <span data-ttu-id="66fb0-120">Šajā procedūrā mēs šim MK neiestatām noteiktu vietu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-120">In this procedure we don't set a specific site for the BOM.</span></span>  
-4. <span data-ttu-id="66fb0-121">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="66fb0-121">Click OK.</span></span>
-5. <span data-ttu-id="66fb0-122">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="66fb0-122">Click New.</span></span>
-    * <span data-ttu-id="66fb0-123">Šajā procedūrā mēs MK pievienosim četras rindas.</span><span class="sxs-lookup"><span data-stu-id="66fb0-123">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="66fb0-124">Divas rindas apzīmē opcijas Cable, un divas rindas apzīmē opcijas Cabinet.</span><span class="sxs-lookup"><span data-stu-id="66fb0-124">Two lines represent cable options and two lines represent cabinet options.</span></span>  
-6. <span data-ttu-id="66fb0-125">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-125">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="66fb0-126">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-126">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-127">Atlasiet krājumu kodu A0001, HDMI 6' Cables.</span><span class="sxs-lookup"><span data-stu-id="66fb0-127">Select item number A0001, HDMI 6' Cables.</span></span>  
-8. <span data-ttu-id="66fb0-128">Laukā Konfigurācijas grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-128">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-129">Atlasiet konfigurācijas grupu Cable, kas tika izveidota šīs procedūras 4. ceļvedī.</span><span class="sxs-lookup"><span data-stu-id="66fb0-129">Select the Cable configuration group created in guide 4 in this sequence.</span></span>  
-9. <span data-ttu-id="66fb0-130">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="66fb0-130">Click New.</span></span>
-    * <span data-ttu-id="66fb0-131">Atlasiet krājumu kodu A0002, HDMI 12' Cables.</span><span class="sxs-lookup"><span data-stu-id="66fb0-131">Select item number A0002, HDMI 12' Cables.</span></span>  
-10. <span data-ttu-id="66fb0-132">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-132">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="66fb0-133">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-133">In the Item number field, enter or select a value.</span></span>
-12. <span data-ttu-id="66fb0-134">Laukā Konfigurācijas grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-134">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-135">Vēlreiz atlasiet konfigurācijas grupu Cable.</span><span class="sxs-lookup"><span data-stu-id="66fb0-135">Select the Cable configuration group again.</span></span>  
-13. <span data-ttu-id="66fb0-136">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="66fb0-136">Click New.</span></span>
-14. <span data-ttu-id="66fb0-137">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-137">In the list, mark the selected row.</span></span>
-15. <span data-ttu-id="66fb0-138">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-138">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-139">Atlasiet krājumu kodu D0002 Cable.</span><span class="sxs-lookup"><span data-stu-id="66fb0-139">Select item number D0002 Cabinet.</span></span>  
-16. <span data-ttu-id="66fb0-140">Laukā Konfigurācijas grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-140">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-141">Šai MK rindai atlasiet konfigurācijas grupu Cabinet.</span><span class="sxs-lookup"><span data-stu-id="66fb0-141">Select the Cabinet configuration group for this BOM line.</span></span>  
-17. <span data-ttu-id="66fb0-142">Noklikšķiniet uz Jauns.</span><span class="sxs-lookup"><span data-stu-id="66fb0-142">Click New.</span></span>
-18. <span data-ttu-id="66fb0-143">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-143">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="66fb0-144">Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-144">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-145">Kā pēdējo MK rindu atlasiet krājumu kodu M0007 StandardCabinet.</span><span class="sxs-lookup"><span data-stu-id="66fb0-145">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
-20. <span data-ttu-id="66fb0-146">Laukā Konfigurācijas grupa ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-146">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="66fb0-147">Pēdējai MK rindai atlasiet konfigurācijas grupu Cabinet.</span><span class="sxs-lookup"><span data-stu-id="66fb0-147">Select the Cabinet configuration group for the laste BOM line.</span></span>  
+## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="36baa-114">Izveidot jaunu MK un MK versiju</span><span class="sxs-lookup"><span data-stu-id="36baa-114">Create new BOM and BOM version</span></span>
 
-## <a name="approve-and-activate"></a><span data-ttu-id="66fb0-148">Apstiprināt un aktivizēt</span><span class="sxs-lookup"><span data-stu-id="66fb0-148">Approve and activate</span></span>
-1. <span data-ttu-id="66fb0-149">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="66fb0-149">Close the page.</span></span>
-2. <span data-ttu-id="66fb0-150">Noklikšķiniet uz Apstiprināt.</span><span class="sxs-lookup"><span data-stu-id="66fb0-150">Click Approve.</span></span>
-3. <span data-ttu-id="66fb0-151">Laukā Apstiprināja ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="66fb0-151">In the Approved by field, enter or select a value.</span></span>
-4. <span data-ttu-id="66fb0-152">Laukā Vai vēlaties arī apstiprināt materiālu komplektu? atlasiet Jā.</span><span class="sxs-lookup"><span data-stu-id="66fb0-152">Select Yes in the Do you also want to approve the bill of materials? field.</span></span>
-5. <span data-ttu-id="66fb0-153">Noklikšķiniet uz OK.</span><span class="sxs-lookup"><span data-stu-id="66fb0-153">Click OK.</span></span>
-6. <span data-ttu-id="66fb0-154">Noklikšķiniet uz Aktivizēt.</span><span class="sxs-lookup"><span data-stu-id="66fb0-154">Click Activate.</span></span>
+1. <span data-ttu-id="36baa-115">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="36baa-115">Select **New**.</span></span>
+1. <span data-ttu-id="36baa-116">Atlasiet **MK un MK versiju**.</span><span class="sxs-lookup"><span data-stu-id="36baa-116">Select **BOM and BOM version**.</span></span>
+1. <span data-ttu-id="36baa-117">Laukā **Nosaukums** ierakstiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-117">In the **Name** field, type a value.</span></span>
+    * <span data-ttu-id="36baa-118">Vietas iestatīšana</span><span class="sxs-lookup"><span data-stu-id="36baa-118">Setting a site</span></span>  
+    * <span data-ttu-id="36baa-119">Šajā procedūrā mēs šim MK neiestatām noteiktu vietu.</span><span class="sxs-lookup"><span data-stu-id="36baa-119">In this procedure we don't set a specific site for the BOM.</span></span>  
+1. <span data-ttu-id="36baa-120">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="36baa-120">Select **OK**.</span></span>
+1. <span data-ttu-id="36baa-121">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="36baa-121">Select **New**.</span></span>
+    * <span data-ttu-id="36baa-122">Šajā procedūrā mēs MK pievienosim četras rindas.</span><span class="sxs-lookup"><span data-stu-id="36baa-122">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="36baa-123">Divas rindas apzīmē opcijas Cable, un divas rindas apzīmē opcijas Cabinet.</span><span class="sxs-lookup"><span data-stu-id="36baa-123">Two lines represent cable options and two lines represent cabinet options.</span></span>  
+1. <span data-ttu-id="36baa-124">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="36baa-124">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="36baa-125">Laukā **Krājuma kods** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-125">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-126">Atlasiet krājumu kodu A0001, HDMI 6' Cables.</span><span class="sxs-lookup"><span data-stu-id="36baa-126">Select item number A0001, HDMI 6' Cables.</span></span>  
+1. <span data-ttu-id="36baa-127">Laukā **Konfigurācijas grupa** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-127">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-128">Atlasiet kabeļa konfigurācijas grupu, kas tika izveidota šīs procedūras 4. ceļvedī.</span><span class="sxs-lookup"><span data-stu-id="36baa-128">Select the cable configuration group created in guide 4 in this sequence.</span></span>  
+1. <span data-ttu-id="36baa-129">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="36baa-129">Select **New**.</span></span>
+    * <span data-ttu-id="36baa-130">Atlasiet krājumu kodu A0002, HDMI 12' Cables.</span><span class="sxs-lookup"><span data-stu-id="36baa-130">Select item number A0002, HDMI 12' Cables.</span></span>  
+1. <span data-ttu-id="36baa-131">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="36baa-131">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="36baa-132">Laukā **Krājuma kods** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-132">In the **Item number** field, enter or select a value.</span></span>
+1. <span data-ttu-id="36baa-133">Laukā **Konfigurācijas grupa** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-133">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-134">Vēlreiz atlasiet kabeļa konfigurācijas grupu.</span><span class="sxs-lookup"><span data-stu-id="36baa-134">Select the cable configuration group again.</span></span>  
+1. <span data-ttu-id="36baa-135">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="36baa-135">Select **New**.</span></span>
+1. <span data-ttu-id="36baa-136">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="36baa-136">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="36baa-137">Laukā **Krājuma kods** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-137">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-138">Atlasiet krājumu kodu D0002 Cable.</span><span class="sxs-lookup"><span data-stu-id="36baa-138">Select item number D0002 Cabinet.</span></span>  
+1. <span data-ttu-id="36baa-139">Laukā **Konfigurācijas grupa** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-139">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-140">Šai MK rindai atlasiet kabineta konfigurācijas grupu.</span><span class="sxs-lookup"><span data-stu-id="36baa-140">Select the cabinet configuration group for this BOM line.</span></span>  
+1. <span data-ttu-id="36baa-141">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="36baa-141">Select **New**.</span></span>
+1. <span data-ttu-id="36baa-142">Sarakstā atzīmējiet atlasīto rindu.</span><span class="sxs-lookup"><span data-stu-id="36baa-142">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="36baa-143">Laukā **Krājuma kods** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-143">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-144">Kā pēdējo MK rindu atlasiet krājumu kodu M0007 StandardCabinet.</span><span class="sxs-lookup"><span data-stu-id="36baa-144">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
+1. <span data-ttu-id="36baa-145">Laukā **Konfigurācijas grupa** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-145">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="36baa-146">Pēdējai MK rindai atlasiet kabineta konfigurācijas grupu.</span><span class="sxs-lookup"><span data-stu-id="36baa-146">Select the Cabinet configuration group for the last BOM line.</span></span>  
+
+## <a name="approve-and-activate"></a><span data-ttu-id="36baa-147">Apstiprināt un aktivizēt</span><span class="sxs-lookup"><span data-stu-id="36baa-147">Approve and activate</span></span>
+
+1. <span data-ttu-id="36baa-148">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="36baa-148">Close the page.</span></span>
+1. <span data-ttu-id="36baa-149">Atlasiet **Apstiprināt**.</span><span class="sxs-lookup"><span data-stu-id="36baa-149">Select **Approve**.</span></span>
+1. <span data-ttu-id="36baa-150">Laukā **Apstiprināt pēc** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="36baa-150">In the **Approved by** field, enter or select a value.</span></span>
+1. <span data-ttu-id="36baa-151">Laukā **Vai vēlaties arī apstiprināt materiālu komplektu?** atlasiet *Jā*.</span><span class="sxs-lookup"><span data-stu-id="36baa-151">Select *Yes* in the **Do you also want to approve the bill of materials?** field.</span></span>
+1. <span data-ttu-id="36baa-152">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="36baa-152">Select **OK**.</span></span>
+1. <span data-ttu-id="36baa-153">Atlasiet **Aktivizēt**.</span><span class="sxs-lookup"><span data-stu-id="36baa-153">Select **Activate**.</span></span>
 
 
 
