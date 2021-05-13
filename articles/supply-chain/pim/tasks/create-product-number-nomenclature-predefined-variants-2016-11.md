@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c69dc3f8e70c3b0a760f54d2251757ac997a432
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4bb73854f52525c0722683086d1b4f1dd7173306
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841627"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920661"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Preces numuru nomenklatūras izveide iepriekš definētiem preces variantiem
 
@@ -28,33 +28,33 @@ ms.locfileid: "5841627"
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Izveidot preces numura nomenklatūru
-1. Atlasiet **Produkta varianta modeļa definīcija**.
-2. Atlasiet **Produkta nomenklatūra**.
-3. Atlasiet **Jauns**.
-4. Laukā **Nosaukums** ievadiet nomenklatūras nosaukumu, kas palīdz identificēt mērķa produkta izmēru grupu, piemēram, `ColorSize`.
-5. Laukā **Apraksts** ierakstiet kādu vērtību.
-6. Atlasiet **Pievienot**.
-7. Atlasiet **Galvenā produkta** numuru.
-8. Atlasiet **Pievienot**.
-9. Atlasiet **Pastāvīgais teksts**.
-10. Laukā **Teksts** ierakstiet vērtību.
-11. Atlasiet **Pievienot**.
-12. Atlasiet **Krāsa**.
-13. Atlasiet **Pievienot**.
-14. Atlasiet **Pastāvīgais teksts**.
-15. Laukā **Teksts** ierakstiet vērtību.
-16. Atlasiet **Pievienot**.
-17. Atlasiet **Izmērs**.
-18. Aizvērt lapu.
+
+1. Dodieties uz **Preču informācijas pārvaldība \> Iestātījums \> Produktu nomenklatūra**.
+1. Atlasiet **Jauns**.
+1. Laukā **Nosaukums** ievadiet nomenklatūras nosaukumu, kas palīdz identificēt mērķa produkta izmēru grupu, piemēram, `ColorSize`.
+1. Laukā **Apraksts** ierakstiet kādu vērtību.
+1. Atlasiet **Pievienot**.
+1. Atlasiet **Galvenā produkta** numuru.
+1. Atlasiet **Pievienot**.
+1. Atlasiet **Pastāvīgais teksts**.
+1. Laukā **Teksts** ierakstiet vērtību.
+1. Atlasiet **Pievienot**.
+1. Atlasiet **Krāsa**.
+1. Atlasiet **Pievienot**.
+1. Atlasiet **Pastāvīgais teksts**.
+1. Laukā **Teksts** ierakstiet vērtību.
+1. Atlasiet **Pievienot**.
+1. Atlasiet **Izmērs**.
+1. Aizvērt lapu.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Piešķirt nomenklatūru preces šablonam
+
 1. Atlasiet **Produkta izmēru grupas**.
 2. Atlasiet grupu **Izmēra-krāsas produkta izmērs**.
 3. Atlasiet **Rediģēt**.
 4. Atlasiet **Jā** laukā **Izmantot nomenklatūru**.
 5. Ievadiet vai atlasiet vērtību laukā **Produkta varianta numura nomenklatūra**.
 6. Aizvērt lapu.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

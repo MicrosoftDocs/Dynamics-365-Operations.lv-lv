@@ -2,7 +2,7 @@
 title: Lietotāja pieredzes personalizēšana
 description: Šajā tēmā ir paskaidrots, kā varat personalizēt programmu.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744697"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944537"
 ---
 # <a name="personalize-the-user-experience"></a>Lietotāja pieredzes personalizēšana
 
@@ -98,7 +98,7 @@ Rekvizītu logu varat izmantot, lai personalizētu kādu elementu tālāk norād
 
 Atkarībā no elementa rekvizītu logā var būt citas personalizēšanas iespējas. Piemēram, elementa rekvizītu logā jums varētu būt iespējams attiecīgo elementu paaugstināt uz informācijas paneli, un šis rekvizītu logs noklusējuma informācijas paneļa elementiem varētu ļaut jums izveidot jaunu darbvietu.
 
-### <a name="the-personalization-toolbar"></a>Personalizēšanas rīkjosla
+### <a name="personalization-toolbar"></a>Personalizēšanas rīkjosla
 
 Ja vēlaties lapā veikt vairākas izmaiņas vai izmaiņas, kuras nevar veikt, izmantojot citus mehānismus (piemēram, ja vēlāties pārkārtot elementus), var izmantot rīkjoslu **Personalizēšana**. Lai atvērtu **Personalizēšana** rīkjoslu, veiciet vienu no šīm darbībām:
 
@@ -173,7 +173,90 @@ Viena unikāla personalizācijas iespēja, kas ir pieejama informācijas panelī
 
 ## <a name="sharing-personalizations"></a>Personalizāciju koplietošana
 
-Pēc lapas personalizēšanas savas personalizācijas varat kopīgot ar citiem lietotājiem, eksportējot personalizēto lapu. Pēc tam varat lūgt citiem lietotājiem importēt personalizācijas failu. Vai arī savu personalizāciju failu varat iedot kādam lietotājam, kuram ir administratora privilēģijas. Pēc tam šis lietotājs var piemērot jūsu personalizēšanas failu vairākiem lietotājiem vienlaikus, izmantojot administrēšanas lapu **Personalizācija**.
+Pēc lapas personalizēšanas ir dažas metodes, kuras var izmantot, lai kopīgotu personalizējumus ar citiem lietotājiem. Šajā sarakstā metodes ir sakārtotas secībā no visieteicamākās līdz vismazāk ieteicamajai.
+
+1. Publicēt skatus lietotājiem.
+2. Kopējiet skatus vai personalizēšanas lietotājiem.
+3. Eksportēt un importēt skatījumus vai personalizēšanas.
+
+### <a name="publish-views-to-users"></a>Publicēt skatus lietotājiem
+
+Ja līdzeklis [Saglabātie skati](saved-views.md) ir ieslēgts un ja lapa atbalsta skatus, labākais veids, kā kopīgot personalizēšanas ar citiem lietotājiem, ir publicēt šo skatu lietotājiem, kuriem ir viena vai vairākas drošības lomas. Papildinformāciju skatiet sadaļā [Skatu publicēšana](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Kopējiet skatus vai personalizēšanas lietotājiem
+
+Ja līdzeklis [Saglabātie skati](saved-views.md) ir izslēgts vai lapa neatbalsta skatus, ieteicamais personalizēšanas veids ir to kopēšana starp lietotājiem. Šī metode ir pieejama tikai priviliģētiem lietotājiem (piemēram, sistēmas administratoriem). Tomēr administratori var skatīt konkrētu lietotāja personalizēšanu sistēmā (ieskaitot lietotāja personisko skatu, ja ir iespējoti saglabātie skati) un kopēt konfigurāciju citiem lietotājiem.
+
+Ja ir iespējoti saglabātie skati, izpildiet šīs darbības, lai kopētu personalizēšanas.
+
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
+2. Veiciet šīs darbības, lai kopētu personiskos skatus:
+
+    1. Atlasiet **Personiskos skatus**.
+    2. Izvēlieties sarakstā vajadzīgos skatus.
+    3. Atlasiet **Kopēt lietotājiem**.
+    4. Atlasiet lietotājus, kuriem izplatīt skatus.
+
+    Izpildiet šīs darbības, lai kopētu personalizēšanas lapās, kas neatbalsta skatus:
+
+    1. Atlasiet **Lietotāja iestatījumi**.
+    2. Atlasiet lietotāju, kuram ir personalizēšana, ko vēlaties izplatīt.
+    3. Atlasiet **Pārvaldīt visas personalizēšanas**.
+    4. Izvēlieties sarakstā nepieciešamās personalizācijas.
+    5. Atlasiet **Kopēt lietotājiem**.
+    6. Atlasiet lietotājus, kuriem izplatīt personalizācijas.
+
+Ja ir iespējoti saglabātie skati, izpildiet šīs darbības, lai kopētu personalizēšanu.
+
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
+2. Atlasiet **Lietot**.
+3. Atlasiet lietotājus, kuriem izplatīt personalizāciju.
+4. Atlasiet **Atlasīt esošu personalizēšanu**.
+5. Atrodiet un atlasiet (vienreizējo) personalizāciju, kas jums interesē.
+6. Atlasiet **Labi**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Eksportēt un importēt skatījumus vai personalizēšanas
+
+Cits veids, kā koplietot personalizēšanas, ir caur eksportu un importu. Atsevišķi lietotāji vai administrators, kas darbojas viņu vārdā, var izmantot šo metodi, lai eksportētu viņu personalizēšanas vai skatus, un tad piešķirt eksportēto failu citiem lietotājiem importēšanai. Alternatīvi lietotāji var sniegt eksportētās personalizēšanas lietotājam, kam ir administratora privilēģijas, un šis lietotājs var izmantot **Personalizēšanas** administrēšanas lapu, lai pielietotu personalizēšanas failu daudziem lietotājiem vienlaicīgi.
+
+#### <a name="export"></a>Eksports
+
+Vispārīgā gadījumā varat eksportēt vienu no saviem skatiem vai personalizācijām, atverot atbilstošo lapu, atverot personalizēšanas rīkjoslu **Personalizēšana** un pēc tam atlasot **Eksportēt**. Papildinformāciju par rīkjoslu skatiet šī temata iepriekšējā sadaļa [Personalizēšana](#personalization-toolbar). Alternatīvi, ja ir iespējoti [saglabātie skati](saved-views.md), varat atvērt **Iestatījums \> Lietotāja opcijas \> Personalizēšana**, lai apskatītu visu savu personalizēšanas sarakstu sistēmā. No turienes varat atlasīt eksportējamos skatus vai personalizēšanas un pēc tam atlasīt **Eksportēt**.
+
+Turklāt administratori var eksportēt citu lietotāju personalizēšanas, izpildot šādas darbības.
+
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
+2. Cilnē **Lietotāji** atlasiet vajadzīgo lietotāju.
+3. Atrodiet un atlasiet skatu vai personalizāciju, kas jums interesē.
+4. Atlasiet **Eksportēt**.
+
+#### <a name="import"></a>Importēšana
+
+Lai importētu skatu vai personalizēšanu, varat tikai atvērt rīkjoslu **Personalizēšana** un atlasīt **Importēt**. Turklāt administratori var importēt failu un nekavējoties to piešķirt vienam vai vairākiem lietotājiem.
+
+Ja ir iespējoti saglabātie skati, izpildiet šīs darbības.
+
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
+2. Darbību rūtī atlasiet **Importēt skatus \> Lietotāja skati**.
+3. Atlasiet importa režīmu:
+
+    - **Atlasīt noteiktus lietotājus** – piešķiriet skatījumu vai personalizēšanu atlasītajiem lietotājiem.
+    - **Importēt kā** - Importēt skatījumu vai personalizēšanu tam pašam lietotājam, kas to eksportēja.
+
+4. Atlasiet **Pārlūkot**, un atrodiet un atlasiet importējamo personalizēšanu.
+5. Atlasiet **Nākamais**.
+6. Ja 3. darbībā atlasījāt **Atlasīt noteiktus lietotājus**, atlasiet lietotājus, kuriem importēt personalizēšanu.
+7. Atlasiet **Importēt**.
+8. Pēc vajadzības atrisiniet konfliktus.
+
+Ja ir iespējoti saglabātie skati, izpildiet šīs darbības.
+
+1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Personalizēšana**.
+2. Atlasiet **Lietot**.
+3. Atlasiet lietotājus, kuriem izplatīt personalizāciju.
+4. Atlasiet **Importēt personalizēšanas no faila**.
+5. Atlasiet **Pārlūkot**, un atrodiet un atlasiet importējamo personalizēšanu.
+6. Atlasiet **Labi**.
 
 ## <a name="administration-of-personalizations"></a>Personalizāciju administrēšana
 
@@ -184,8 +267,11 @@ Attiecībā uz klientiem, kuri ir ieslēguši līdzekli **Saglabātie skati**, s
 Klientiem, kuri vēl nav ieslēguši [Saglabāti skati](saved-views.md) līdzekli, šai lapai ir četras cilnes:
 
 - **Lietot** – varat importēt vai atlasīt kādu personalizāciju vienam vai vairākiem lietotājiem. Lai personalizāciju lietotu vienam lietotājam vai vairākiem, vispirms atlasiet kādu lomu un lietotājus, kuriem ir šī loma. Pēc tam atlasiet esošu personalizāciju, kuru lietot atlasītajiem lietotājiem, vai importējiet personalizēšanas failu. Personalizācija tiek validēta un tiek lietota visiem atlasītajiem lietotājiem nākamajā reizē, kad viņi atver atlasīto lapu.
+
 - **Notīrīt** – varat notīrīt visas lapai vai darbvietai paredzētās personalizācijas vienam vai vairākiem lietotājiem. Vispirms atlasiet lapu vai darbvietu, lai redzētu sarakstu ar lietotājiem, kuri to ir personalizējuši. Pēc tam atlasiet lietotājus, kuriem ir nepieciešams notīrīt šīs lapas vai darbvietas personalizācijas, un atlasiet **Notīrīt**. Tiek dzēstas visas personalizācijas, ko atlasītie lietotāji ir lietojuši atlasītajai lapai vai darbvietai. Šo darbību nevar atsaukt. Taču, ja šai lapai vai darbvietai bija saglabāta kāda personalizācija, šo personalizāciju var importēt vēlreiz.
+
 - **Lietotāji** – Atlasiet lietotāju, lai redzētu sarakstu ar lapām, ko lietotājs ir personalizējis. Pēc tam varat ieslēgt vai izslēgt lietotāja spēju lietot personalizācijas konkrētām lapām vai visai sistēmai. Varat arī importēt, eksportēt vai notīrīt personalizēšanu lietotājam. Turklāt varat atiestatīt līdzekļa remarkas lietotājam. Šādā gadījumā, ja lietotājs iepriekš noraidīja visus uznirstošos logus, kas ievies jaunus līdzekļus, tie atkal parādīsies nākamajā reizē, kad lietotājs sastop šos līdzekļus.
+
 - **Sistēma** – Jūs varat īslaicīgi izslēgt personalizēšanu visiem lietotājiem sistēmā. Šādā gadījumā visi personalizācijas tiek dzēsti visiem lietotājiem, un visas lapas tiek atiestatītas uz noklusējuma statusu. Ja vēlāk personalizēšanu atkal ieslēdzat, visas personalizācijas ir atkal lietotas. Varat arī neatgriezeniski dzēst visas personalizācijas visiem lietotājiem sistēmā. Personalizācijas, kas tika izdzēstas, nav iespējams atgūt. Tādēļ, pirms veicat šo uzdevumu, noteikti eksportējiet visas personalizācijas, kuras vēlāk varētu būt nepieciešams.
 
 ## <a name="personalizing-inventory-dimensions"></a>Krājumu dimensiju personalizēšana.

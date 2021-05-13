@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3758ff51de8217a209b40d7dd461e42ea9632f0a
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799656"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936886"
 ---
 # <a name="call-center-catalogs"></a>Zvanu centra katalogi
 
@@ -39,7 +39,7 @@ Tieši uz patērētāju vēstas mārketinga kampaņas ir ļoti koncentrētas uz 
 
 Dodieties uz **Retail un Commerce** \> **Katalogi un preču klāsti** \> **Visi katalogi**, lai konfigurētu savu katalogu.
 
-Kad veidojat jaunu katalogu, vispirms šis katalogs ir jāsaista ar vienu vai vairākiem kanāliem. Tas tiek darīts kopsavilkuma cilnē **Commerce kanāli**, kas atrodas formā **Kataloga iestatīšana**. Noklikšķiniet uz **Pievienot** un atlasiet vienu vai vairākus kanālus. Veidojot katalogu, var izmantot tikai vienumus, kas ir saistīti ar jūsu atlasītā kanāla [preču klāstiem](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
+Kad veidojat jaunu katalogu, vispirms šis katalogs ir jāsaista ar vienu vai vairākiem kanāliem. Tas tiek darīts kopsavilkuma cilnē **Commerce kanāli**, kas atrodas formā **Kataloga iestatīšana**. Noklikšķiniet uz **Pievienot** un atlasiet vienu vai vairākus kanālus. Veidojot katalogu, var izmantot tikai vienumus, kas ir saistīti ar jūsu atlasītā kanāla [preču klāstiem](/dynamics365/unified-operations/retail/assortments).
 
 Lai katalogam pievienotu preces, ir jāizvēlas navigācijas hierarhija. Navigācijas hierarhija atbalsta attiecīgā kataloga kategoriju struktūru. Jums ir jāizvēlas viena no navigācijas hierarhijām, kas ir saistītas ar lapas **Katalogs** kopsavilkuma cilnē **Commerce kanāli** atlasītajiem mazumtirdzniecības kanāliem. Ja navigācijas kanāls iepriekš nebija saistīts ar kanālu, dodieties uz **Retail un Commerce** \> **Kanāla iestatīšana** \> **Kanālu kategorijas un preču īpašības**, lai navigācijas hierarhijas noklusējumu saistītu ar katru no jūsu mazumtirdzniecības kanāliem.
 

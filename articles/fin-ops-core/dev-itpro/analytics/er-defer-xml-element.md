@@ -2,7 +2,7 @@
 title: XML elementu izpildes atlikšana ER formātos
 description: Šajā tēmā ir izskaidrots, kā atlikt XML izpildi elektroniskā pārskata (ER) formātā.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894056"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944489"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>XML elementu izpildes atlikšana ER formātos
 
@@ -59,14 +59,14 @@ Ja vēl neesat izpildījis piemēru tēmā [Secības elementu izpildes atlikšan
 
 | Satura apraksts            | Faila nosaukums |
 |--------------------------------|-----------|
-| ER datu modeļa konfigurācija    | [Modelis atlikto elementu apgūšanai.versija.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER modeļa kartējuma konfigurācija | [Kartēšana atlikto elementu apgūšanai.versija.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER datu modeļa konfigurācija    | [Modelis atlikto elementu apgūšanai.versija.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER modeļa kartējuma konfigurācija | [Kartēšana atlikto elementu apgūšanai.versija.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Pirms sākšanas savā vietējā datorā jāielādē un jāsaglabā arī tālāk norādītā parauga ER risinājuma konfigurācija.
 
 | Satura apraksts     | Faila nosaukums |
 |-------------------------|-----------|
-| ER formāta konfigurācija | [Formāts atlikto XML elementu apgūšanai.versija.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER formāta konfigurācija | [Formāts atlikto XML elementu apgūšanai.versija.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Parauga ER konfigurācijas failu importēšana
 
@@ -164,7 +164,7 @@ Pārskatiet ER modeļa kartējuma komponenta iestatījumus, kas ir konfigurēti,
 1. Lapā **Formāta veidotājs** atlasiet **Palaist**.
 2. Lejupielādējiet failu, ko piedāvā tīmekļa pārlūkprogramma, un atveriet to pārskatīšanai.
 
-    ![Lejupielādēts fails](./media/ER-DeferredXml-Run.png)
+    ![Importētā formāta lejupielādētais fails](./media/ER-DeferredXml-Run.png)
 
 Ievērojiet, ka kopsavilkuma mezgls parāda apstrādāto darbību nodokļu vērtību summu. Tā kā formāts ir konfigurēts, lai šīs summas atgriešanai izmantotu saistījumu **cmodel.Data.Summary.Total**, summa tiek aprēķināta, izsaucot **GroupBy** modeļa kartēšanas tipa **Grupētā** datu avota *TotalSum* apkopojumu. Lai aprēķinātu šo apkopojumu, modeļa kartēšana atkārto visas darbības, kas ir atlasītas **Filtrētajā** datu avotā. Salīdzinot kopsavilkuma mezgla un pēdējā ieraksta mezgla izpildes laikus, varat noteikt, ka summas aprēķins tika veikts 12 milisekundēs (MS). Salīdzinot pirmā un pēdējā ieraksta mezgla izpildes laikus, varat noteikt, ka visu ierakstu mezglu ģenerēšana tika veikta 9 milisekundēs(ms). Tāpēc kopā bija nepieciešamas 21 ms.
 
@@ -196,7 +196,7 @@ Ja darbības apjoms ir daudz plašāks par apjomu dotajā piemērā, aprēķinā
 11. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 12. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredXml-Run1.png)
+    ![Ģenerēts nodokļu vērtības saraksts ar tekošo kopsummu](./media/ER-DeferredXml-Run1.png)
 
     Pēdējā ieraksta mezglā ir iekļauta nodokļu vērtību pašreizējā kopsumma, kas tiek aprēķināta visām apstrādātajām darbībām, izmantojot ģenerēto izvadi kā datu avotu. Šis datu avots sākas no pārskata sākuma un turpinās, aplūkojot pēdējo nodokļu darbību. Kopsavilkuma mezglā ir iekļauta visu apstrādāto darbību nodokļu vērtību summa, kas tiek aprēķināta modeļa kartēšanā, izmantojot *GroupBy* tipa datu avotu. Ievērojiet, ka šīs vērtības ir vienādas. Tādēļ **GroupBy** vietā var izmantot uz izvadi balstītu summēšanu. Salīdzinot pirmā ieraksta mezgla un kopsavilkuma mezgla izpildes laikus, varat noteikt, ka visu ierakstu mezglu ģenerēšana un summēšana tika veikta 11 milisekundēs(ms). Tāpēc, ciktāl tas attiecas uz ieraksta mezglu ģenerēšanu un nodokļu vērtību summēšanu, modificētais formāts ir aptuveni divas reizes ātrāks nekā sākotnējais formāts.
 
@@ -205,7 +205,7 @@ Ja darbības apjoms ir daudz plašāks par apjomu dotajā piemērā, aprēķinā
 15. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 16. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredXml-Run2.png)
+    ![Ģenerēts nodokļu vērtību saraksts, izmantojot rediģēto formulu](./media/ER-DeferredXml-Run2.png)
 
     Ievērojiet, ka nodokļu vērtību pašreizējā kopsumma pēdējā ieraksta mezglā tagad ir vienāda ar summu kopsavilkuma rindā.
 
@@ -218,7 +218,7 @@ Piemēram, varat modificēt formātu, ja pārskata galvenē jāuzrāda nodokļu 
 3. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 4. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredXml-Run3.png)
+    ![Lejupielādētais pārskata virsraksta nodokļu vērtību fails](./media/ER-DeferredXml-Run3.png)
 
     Ievērojiet, ka kopsavilkuma mezglā nodokļu vērtību summas tagad ir vienādas ar 0 (nulli), jo šī summa tagad tiek aprēķināta, pamatojoties uz ģenerēto izvadi. Kad tiek ģenerēts pirmais ieraskta mezgls, ģenerētā izvade vēl neietver ierakstu mezglus, kuriem ir detalizēta informācija par darbību. Varat konfigurēt šo formātu, lai atliktu elementa **Pārskats\\Ziņojums\\Kopsavilkums** izpildi, līdz visām nodokļu darbībām tiek palaists elements **Pārskats\\Ziņojums\\Ieraksts**.
 
@@ -232,7 +232,7 @@ Piemēram, varat modificēt formātu, ja pārskata galvenē jāuzrāda nodokļu 
 3. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 4. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredXml-Run4.png)
+    ![Lejupielādētais atliktās izpildes fails](./media/ER-DeferredXml-Run4.png)
 
     Elements **Pārskats\\Ziņojumi\\Kopsavilkums** tagad tiek palaists tikai pēc tam, kad ir palaisti visi pārējie krājumi, kas ligzdoti zem tā pamatelementa **Pārskats\\Ziņojums**. Tādēļ tas tiek palaists pēc elementa **Pārskats\\Ziņojums\\Ieraksts** palaišanas visām datu avota **model.Data.List** nodokļu darbībām. Šo faktu atklāj pirmā un pēdējā ieraksta mezglu izpildes laiki, kā ari virsraksti un kopsavilkuma mezgli.
 

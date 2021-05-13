@@ -13,32 +13,31 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62d789edea1bcce544693046d47d52473e2280f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7449f4874bf5c280218a2771e0af35e4b2b62a0b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820134"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921063"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Preces svītrkoda izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā tēmā parādīts, kā manuāli izveidot svītrkodu, kā piemēru izmantojot krājuma kodu M0001. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USMF.
+Šajā tēmā parādīts, kā manuāli izveidot svītrkodu, kā piemēru izmantojot krājuma kodu M0001. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei.
 
-1. Sākumlapā atlasiet **Izlaisto preču uzturēšana**.
-2. Dodieties uz **Preces > Izlaistās preces** sadaļā **Saites**.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Šim piemēram atlasiet krājuma kodu **M0001**.
-4. Darbību rūtī atlasiet **Pārvaldīt krājumus**.
-5. Atlasiet **Svītrkodi**.
-6. Atlasiet **Jauns**.
-7. Atzīmējiet atlasīto rindu, kas izveidota tālāk dotajā sarakstā.
-8. Laukā **Svītrkodu iestatījumi** ievadiet vai atlasiet vērtību.
-9. Laukā **Svītrkods** ievadiet vai atlasiet kādu vērtību.
-10. Laukā **Svītrkods** ierakstiet kādu vērtību.  
-11. Laukā **Daudzums** ierakstiet kādu skaitli.
-12. Atlasiet **Saglabāt**.
-13. Aizvērt lapu. 
+1. Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Šim piemēram atlasiet krājuma kodu **M0001**.
+1. Darbību rūtī atlasiet **Pārvaldīt krājumus**.
+1. Atlasiet **Svītrkodi**.
+1. Atlasiet **Jauns**.
+1. Atzīmējiet atlasīto rindu, kas izveidota tālāk dotajā sarakstā.
+1. Laukā **Svītrkodu iestatījumi** ievadiet vai atlasiet vērtību.
+1. Laukā **Svītrkods** ievadiet vai atlasiet kādu vērtību.
+1. Laukā **Svītrkods** ierakstiet kādu vērtību.  
+1. Laukā **Daudzums** ierakstiet kādu skaitli.
+1. Atlasiet **Saglabāt**.
+1. Aizvērt lapu. 
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828373"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920113"
 ---
 # <a name="transportation-management-engines"></a>Transportēšanas pārvaldības programmas
 
@@ -94,8 +94,14 @@ Dažādām transportēšanas pārvaldības programmām metadatus konfigurē atš
 | 1        | Izcelsmes pasta indekss            | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
 | 2        | Galamērķa administratīvais apgabals             | Piešķire | Virkne    | Valsts          |           |
 | 3        | Galamērķa sākuma pasta indekss | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
-| 4.        | Galamērķa beigu pasta indekss   | Piešķire | Virkne    | Pasta indekss    | Atlasīts  |
-| 5.        | Galamērķa valsts           | Piešķire | Virkne    | Valsts/reģions |           |
+| 4.        | Galamērķa beigu pasta indekss   | Piešķire | Virkne    | Pasta indekss    | Atlasītās  |
+| 5        | Galamērķa valsts           | Piešķire | Virkne    | Valsts/reģions |           |
+
+### <a name="whitepaper"></a>Tehniskais dokuments
+
+Lai iegūtu plašāku informāciju, lejupielādējiet tālāk norādīto papīru (rakstīts AX 2012 atbalstam, bet joprojām tiek piemērots Dynamics 365 Supply Chain Management)
+
+- [Transportēšanas pārvaldības programmas](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

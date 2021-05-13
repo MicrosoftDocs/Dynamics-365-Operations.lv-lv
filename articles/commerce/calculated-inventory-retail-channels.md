@@ -1,8 +1,8 @@
 ---
-title: Aprēķināt krājumu pieejamību mazumtirdzniecības kanāliem
-description: Šajā tēmā ir aprakstītas opcijas, kas pieejamas, lai parādītu rīcībā esošos krājumus veikalam un tiešsaistes kanāliem.
+title: Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem
+description: Šajā tēmā aprakstīts, kā organizācija var izmantot Microsoft Dynamics 365 Commerce, lai skatītu prognozēto, rīcībā esošo produktu pieejamību tiešsaistes un veikala kanālos.
 author: hhainesms
-ms.date: 08/13/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,78 +14,105 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 29efccab017d9dff98872871bfe953fba19d2c30
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fdf6df7e393bcc401e770bd1b8afcaedcadc2660
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799689"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937438"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aprakstīts, kā organizācija var izmantot Microsoft Dynamics 365 Commerce, lai skatītu prognozēto, rīcībā esošo produktu pieejamību tiešsaistes un veikala kanālos.
 
-## <a name="accuracy-of-calculation"></a>Aprēķinu precizitāte
+## <a name="accuracy-of-inventory-availability"></a>Krājumu pieejamības precizitāte
 
-Commerce izmanto vairākus serverus un datu bāzes, lai nodrošinātu mērogojamību un veiktspēju. Tāpēc ir svarīgi, lai jūs saprastu, ka pieejamās krājumu vērtības, kas tiek nodrošinātas, izmantojot pārdošanas punktu (POS) programmu, e-komercijas krājumu pieejamības programmas programmēšanas interfeisu (API) un rīcībā esošo krājumu lapas programmā Commerce Headquarters, var nebūt simtprocentīgi precīzas reāllaikā. Ja transakcijas, kas ir izveidotas precēm tiešsaistes vai veikala kanālā, vēl nav sinhronizētas ar Commerce Headquarters serveri un datu bāzi, tad rīcībā esošo krājumu lapas programmā Commerce Headquarters var neparādīt precīzu reāllaika krājumu vērtību šīm precēm. Pretējā gadījumā, ja jūs konfigurējāt savu uzņēmumu tā, lai lietotāji programmā Commerce Headquarters vai citās integrētās programmās var pārdot, saņemt, atgriezt, vai kā citādi pielāgot krājumus no veikala vai tiešsaistes noliktavas, POS vai tiešsaistes kanālam var nebūt visas informācijas, kas nepieciešama, lai parādītu precīzu reālā laikā rīcībā esošo krājumu vērtību.
+Commerce izmanto vairākus serverus un datu bāzes, lai nodrošinātu mērogojamību un veiktspēju. Tāpēc ir svarīgi, lai jūs saprastu, ka pieejamās krājumu vērtības, kas tiek nodrošinātas, izmantojot pārdošanas punktu (POS) programmu, e-komercijas krājumu pieejamības programmas programmēšanas interfeisu (API) un rīcībā esošo krājumu lapas programmā Commerce Headquarters, var nebūt 100 procentīgi precīzas reāllaikā. Ja transakcijas, kas ir izveidotas precēm tiešsaistes vai veikala kanālā, vēl nav sinhronizētas ar Headquarters, tad rīcībā esošo krājumu lapas programmā Headquarters var neparādīt precīzu reāllaika krājumu vērtību šīm precēm. Pretējā gadījumā, ja jūs konfigurējāt savu uzņēmumu tā, lai lietotāji programmā Headquarters vai citās integrētās programmās var pārdot, saņemt, atgriezt, vai kā citādi pielāgot krājumus no veikala vai tiešsaistes noliktavas, POS vai tiešsaistes kanālam var nebūt visas informācijas, kas nepieciešama, lai parādītu precīzu reālā laikā krājumu vērtību.
 
-Šajā tēmā skaidroti datu sinhronizēšanas procesi, ko var veikt bieži, lai mazinātu datu latentumu starp programmām vai kanāliem. Tomēr ir svarīgi, lai jūs saprastu, ka visi rīcībā esošie pieejamības dati, kas tiek sniegti darbības dienā, tiek uzskatīti par aptuvenu vērtību. Tāpēc, ja mēģināt salīdzināt rīcībā esošo krājumu informāciju, ko nodrošina programma, ar faktiskajiem fiziskajiem krājumiem plauktos, vai mēģināt salīdzināt rīcībā esošās vērtības, kas tiek rādītas POS, ar rīcībā esošajiem datiem, kas atrodami vienai un tai pašai noliktavai programmā Commerce Headquarters, vērtības var atšķirties. Šī atšķirība darbības dienā ir sagaidāma, un to nevajadzētu uzskatīt par problēmu. Ja vēlaties veikt datu auditu un pārliecināties, ka vērtības, kas tiek sniegtas krājumu pieejamībai API un Commerce Headquarters, atbilst faktiskajām fiziskajām vienībām, kas atrodas jūsu veikalā vai noliktavas plauktos, vislabākais laiks to darīt ir pēc tam, kad kanāla darbības ir uz dienu pārtrauktas un visas darbības ir pareizi sinhronizētas starp Commerce Headquarters un kanālu.
+Ir svarīgi saprast, ka visi rīcībā esošie pieejamības dati, kas tiek sniegti darbības dienā, tiek uzskatīti par aptuvenu vērtību. Tāpēc, ja mēģināt salīdzināt rīcībā esošo krājumu informāciju, ko nodrošina programma, ar faktiskajiem fiziskajiem krājumiem plauktos, vai mēģināt salīdzināt rīcībā esošās vērtības, kas tiek rādītas POS, ar rīcībā esošajiem datiem, kas atrodami vienai un tai pašai noliktavai programmā Headquarters, vērtības var atšķirties. Šī atšķirība darbības dienā ir sagaidāma, un to nevajadzētu uzskatīt par problēmu. Ja vēlaties veikt datu auditu un pārliecināties, ka vērtības, kas tiek sniegtas POS, API un Headquarters, atbilst faktiskajām fiziskajām vienībām, kas atrodas jūsu veikalā vai noliktavas plauktos, vislabākais laiks to darīt ir pēc tam, kad kanāla darbības ir uz dienu pārtrauktas un visas darbības ir pareizi sinhronizētas starp Headquarters un kanāliem.
 
-## <a name="use-inventory-lookup-apis-for-e-commerce-inventory-availability-requests"></a>E-commerce krājumu pieejamības pieprasījumiem izmantojiet krājumu uzmeklēšanas API
+## <a name="channel-side-inventory-calculation"></a>Kanāla puses krājumu aprēķins
 
-Varat izmantot šādu API, lai parādītu krājuma pieejamību produktam, kad jūsu debitori tiek iepirkti e-komercijas vietnē.
+Kanāla puses krājumu aprēķināšana ir mehānisms, kas par bāzlīniju izmanto pēdējos zināmos kanāla krājumu datus programmā Commerce Headquarters un pēc tam faktorus papildu krājumu izmaiņu veikšanā kanāla pusē, kas nav iekļautas šajā bāzlīnijā, lai aprēķinātu gandrīz reāllaika novērtēto rīcībā esošo krājumu. 
 
-- **GetEstimatedAvailability** — Izmantojiet šo API, lai iegūtu krājumu pieejamību vienumam e-komercijas kanāla noliktavā vai visās noliktavās, kas ir saistītas ar e-komercijas kanāla izpildes grupas konfigurāciju. Šo API var izmantot arī noliktavām noteiktā meklēšanas zonā vai rādiusā, pamatojoties uz garuma un platuma datiem.
-- **GetEstimatedProductWarehouseAvailability** — Izmantojiet šo API, lai pieprasītu krājumu vienumam no konkrētas noliktavas. Piemēram, varat to izmantot, lai rādītu krājumu pieejamību scenārijos, kas ietver pasūtījuma savākšanu.
+Pašlaik kanāla puses krājumu aprēķina loģikā tiek apsvērtas šādas krājumu izmaiņas:
 
-> [!NOTE]
-> Šie API aizvieto API **GetProductAvailabilities** un **GetAvailableInventoryNearby** programmas Dynamics 365 Retail 10.0.7 versijā un vecākās versijās.
+- Krājumi, kas pārdoti, izmantojot kases pasūtījumus veikalā
+- Krājumi, kas pārdoti, izmantojot debitoru pasūtījumus veikalā vai tiešsaistes kanālā
+- Krājums, kas atgriezts veikalā
+- Izpildītie krājumi (izdošanas, pakas, nosūtīšanas) no veikala noliktavas
 
-Abi API iegūst datus no Commerce Server un nodrošina rīcībā esošo krājumu aplēsi konkrētai preces vai preces varianta kombinācijai un noliktavai. Lai gan citi API, kas ir pieejami Commerce Server, var tieši doties uz Commerce Headquarters, lai iznestu rīcībā esošos preču daudzumus, mēs neiesakām tos izmantot e-komercijas vidē iespējamo veiktspējas problēmu un saistītās ietekmes dēļ, ko šie Biežie pieprasījumi var radīt jūsu Commerce Headquarters serveriem. Turklāt, ja rīcībā esošie krājumi tiek aprēķināti, izmantojot Commerce Server, aprēķinos ir lielāka iespējamība iekļaut krājumus, kas tika pārdoti pēdējos e-komercijas darījumos, kas vēl nav sinhronizēti ar Commerce Headquarters. Lai gan Commerce Headquarters, iespējams, nav informācijas par šīm transakcijām, Commerce Server un kanāla datu bāzei ir dati. Tāpēc dati tiks iegūti, un tie var palīdz nodrošināt precīzāku produkta pieejamo krājumu aplēsi.
+Lai izmantotu kanāla puses krājumu aprēķinu, kā priekšnosacījums no Headquarters izveidotais krājumu datu periodiskais momentuzņēmums, kas izveidots ar darbu **Preču pieejamība**, ir jāsūta uz kanāla datu bāzēm. Momentuzņēmums attēlo informāciju, kas ir Headquarters rīcībā attiecībā uz krājumu pieejamību noteiktai preču vai preču variantu kombinācijai un noliktavai. Tajā ir iekļautas tikai tās krājumu darbības, kas tika apstrādātas un grāmatotas programmā Headquarters laikā, kad momentuzņēmums tika izveidots, un tas varētu nebūt 100 procenti precīzs reāllaikā sakarā ar konstanto pārdošanas apstrādi, kas notiek sadalītos serveros.
 
-### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Sākt darbu ar e-komercijas aprēķināto krājumu pieejamību
+- Ja krājums tika pārdots precei veikalā, izmantojot naudas un pārvadāšanas vai asinhrono klientu pasūtījumu pārdošanu POS programmā, Headquarters nekavējoties netiek iekļauta informācija par saistīto krājumu izdošanas transakciju pārdošanai. Programmā Headquarters būs informācija par krājumiem, kas tiek pārdoti šāda veida veikala pārdošanas darbībām tikai pēc tam, kad P-darbs augšupielādē saistīto transakciju no veikala kanāla datu bāzes programmā Headquarters un saistītais pārdošanas pasūtījumi tiek izveidoti ar izrakstu iegrāmatošanu vai pakāpeniskas plūsmas iegrāmatošanas procesiem. Pasūtījumu izveides process programmā Headquarters izveido saistītās krājumu transakcijas. 
+- E-komercijas kanāla pasūtījumiem Headquarters ir informācija par krājumu transakcijām tikai pēc tam, kad darbības tiek nosūtītas uz Headquarters caur P-darbu un ir pabeigts pasūtījuma sinhronizācijas process.
 
-Pirms izmantojat divus iepriekš pieminētos API, ir jāiespējo **Optimizētās preču pieejamības aprēķināšanas** līdzeklis, izmantojot **Līdzekļu pārvaldības** darbvietu programmā Commerce Headquarters.
-
-Pirms API var aprēķināt vislabāko krājumu pieejamības aplēsi vienumam, ir jāapstrādā periodisks krājumu pieejamības momentuzņēmums no Commerce Headquarters un tas jānosūta uz kanāla datu bāzi, ko izmanto e-komercijas pakalpojumu mēroga vienība Momentuzņēmums attēlo informāciju, kas ir Commerce Headquarters rīcībā attiecībā uz krājumu pieejamību noteiktai preču vai preču variantu kombinācijai un noliktavai. Tas var ietvert krājumu korekcijas vai kustības, ko radījusi krājumu ieejas plūsma, vai kravas vai citi procesi, kas tiek veikti Commerce Headquarters un par kuriem e-komercijas kanālam ir informācija tikai sinhronizācijas procesa dēļ.
-
-Datu bāzes momentuzņēmums, ko izveido darbs **Preču pieejamība**, aprēķina tikai tās krājumu darbības, kas tika apstrādātas un grāmatotas programmā Commerce Headquarters laikā, kad tika veikts momentuzņēmums. Ja krājums tika pārdots precei veikala noliktavā, izmantojot naudas un pārvadāšanas vai asinhrono klientu pasūtījumu pārdošanu POS programmā, Commerce Headquarters nekavējoties netiek iekļauta informācija par saistīto krājumu izdošanas transakciju pārdošanai. Tajā būs informācija par krājumiem, kas tiek pārdoti šāda veida veikala pārdošanas darbībām tikai pēc tam, kad P-darbs augšupielādē saistīto transakciju no veikala kanāla datu bāzes programmā Commerce Headquarters un saistītais pārdošanas pasūtījums tiek izveidots ar izrakstu iegrāmatošanu vai pakāpeniskas plūsmas iegrāmatošanas procesiem. Pasūtījuma izveides process programmā Commerce Headquarters izveido saistītās krājumu transakcijas E-komercijas kanāla pasūtījumiem Commerce Headquarters ir informācija par krājumu transakcijām tikai pēc tam, kad darbības tiek nosūtītas uz Commerce Headquarters caur P-darbu un ir pabeigts pasūtījuma sinhronizācijas process. Tāpēc ir svarīgi, lai jūs saprastu, ka krājumu momentuzņēmuma vērtība, kas ir norādīta darbā **Preces pieejamība**, var nebūt simtprocentīgi precīza reālajā laikā, nepārtrauktas pārdošanas apstrādes dēļ, kas notiek starp izplatītajiem serveriem.
-
-Lai uzņemtu krājumu momentuzņēmumu programmā Commerce Headquarters, veiciet tālāk norādītās darbības.
+Lai uzņemtu krājumu momentuzņēmumu programmā Headquarters, veiciet tālāk norādītās darbības.
 
 1. Dodieties uz **Retail un Commerce \> Retail un Commerce IT \> Preces un krājumi \> Preču pieejamība**.
-1. Atlasiet **Labi**, lai palaistu darbu **Preču pieejamība**. Varat arī ieplānot šo darbu, lai tas tiktu palaists partijā.
+1. Atlasiet **Labi**, lai palaistu darbu **Preču pieejamība**. Varat arī ieplānot šo darbu, lai to palaistu partijā.
 
-Kad darbs **Preču pieejamība** ir pabeigts, notvertie dati ir jāpārceļ uz e-komercijas kanāla datu bāzēm, lai jaunāko Commerce Headquarters krājumu momentuzņēmumu varētu iekļaut novērtēto rīcībā esošo krājumu aprēķinā.
+Kad darbs **Preču pieejamība** ir pabeigts, notvertie dati ir jāpārceļ uz kanāla datu bāzēm, lai jaunāko Headquarters krājumu momentuzņēmumu varētu iekļaut novērtēto rīcībā esošo krājumu kanāla puses aprēķinā.
+
+Lai sinhronizētu momentuzņēmumu datus no Headquarters jūsu kanāla datu bāzēs, sekojiet šīm darbībām.
 
 1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
-1. Palaidiet darbu **1130** (**Preču pieejamība**) darbu, lai sinhronizētu momentuzņēmuma datus, ko **Preču pieejamības** darbs, kas izveidots no Commerce Headquarters, ar jūsu kanāla datu bāzēm.
+1. Palaidiet darbu **1130** (**Preču pieejamība**) darbu, lai sinhronizētu momentuzņēmuma datus, ko **Preču pieejamības** darbs, kas izveidots no Headquarters, ar jūsu kanāla datu bāzēm.
 
-Kad ir pieprasīta krājumu pieejamība no **GetEstimatedAvailability** vai **GetEstimatedProductWarehouseAvailability** API, tiek palaists aprēķins, lai mēģinātu iegūt labāko iespējamo preces krājumu aplēsi. Aprēķina atsauces uz jebkuriem e-komercijas klientu pasūtījumiem, kas atrodas kanāla datu bāzē, bet nav ietverti Snapshot datos, ko ir norādījis 1130 darbs. Šī loģika tiek veikta, izsekojot pēdējo apstrādāto krājumu transakciju no Commerce Headquarters un salīdzinot to ar transakcijām kanāla datu bāzē. Tas sniedz bāzlīniju kanāla aprēķina loģikai, lai papildu krājumu kustības, kas tika notikušas debitora pasūtījuma pārdošanas darbībām e-komercijas kanāla datu bāzē, var iekļaut novērtētajā krājumu vērtībā, ko sniedz API.
+## <a name="inventory-availability-apis-for-e-commerce"></a>Krājumu pieejamības API interfeisi e-komercijai
 
-Kanāla puses aprēķina loģika atgriež aprēķināto fiziski pieejamo vērtību un visu pieprasīto preču un noliktavu pieejamo vērtību. Ja vēlaties, vērtības var tikt rādītas e-komercijas vietnē, vai tās var izmantot, lai aktivizētu citu biznesa loģiku jūsu e-komercijas vietnē. Piemēram, jūs varat parādīt paziņojumu "nav krājumā", nevis faktisko rīcībā esošo daudzumu, kuru nodeva API.
+Commerce nodrošina šādus API e-komercijas scenārijiem, lai vaicātu preces krājumu pieejamību:
 
-Aprēķina loģika, kuru kanāla e-komercijas API izmanto, lai aplēstā krājumu vērtība varētu novērtēt krājumu, pamatojoties tikai uz to klientu pasūtījumiem, kas ir izveidoti kanāla datu bāzē, bet kas vēl nav sinhronizēti un grāmatoti Commerce Headquarters. Ja jūsu kanāla datu bāze satur arī transakciju datus, kas attiecas uz pārdošanu skaidrā naudā bez piegādes veikalam paredzētām noliktavām, šāda pārdošana netiek ņemta vērā kanāla puses e-komercijas aprēķināšanai šīm noliktavām.
+- **GetEstimatedAvailability** - Izmantojiet šo API, lai tiešsaistes kanāla noliktavā vai noliktavās, kas ir saistītas ar tiešsaistes kanāla izpildes grupu, veiktu produkta vai produkta varianta krājumu vaicājumu.
+- **GetEstimatedProductWarehouseAvailability** — Izmantojiet šo API, lai pieprasītu krājumu produktam vai produkta variantam no konkrētas noliktavas.
 
-## <a name="configure-the-inventory-lookup-operation-in-the-pos-channel"></a>Konfigurēt krājumu uzmeklēšanas darbību POS kanālā
+> [!NOTE]
+> Šie API aizvieto API **GetProductAvailabilities** un **GetAvailableInventoryNearby** programmas Commerce izlaiduma 10.0.7 versijā un vecākās versijās.
 
-Retail versijā 10.0.9 un vecākās darbība **Krājumu informācijas iegūšana** no POS lietoja reāllaika pakalpojuma izsaukumu uz Commerce Headquarters, lai iegūtu informāciju par atlasītā produkta krājumu gan lietotāja pašreizējam veikalam, gan visiem citiem veikaliem, kas ir konfigurēti izpildes grupai kā daļa no kanāla konfigurācijas veikalam. Commerce versijā 10.0.10 un jaunākās varat izslēgt reāllaika pakalpojuma izsaukumus uz Commerce Headquarters. Tā vietā, lai noteiktu rīcībā esošos krājumus, kas ir fiziski pieejami veikalā un citās vietās, kas definētas izpildes grupā, pakalpojumā Commerce Server var izmantot kanāla puses aprēķinu. Šī kanāla aprēķinātā krājumu konfigurācija ir noderīga arī vietās, kur interneta savienojums nav uzticams, jo jums nav jābūt tiešsaistē, lai iegūtu krājumu uzmeklēšanas rezultātus no Commerce Headquarters.
+Abi API iekšēji izmanto kanāla puses aprēķina loģiku un atgriež pieprasītās preces un noliktavas novērtēto **fizisko pieejamo** daudzumu, **kopējo pieejamo** daudzumu, **mērvienību (UOM)** un **krājumu līmeni**. Ja vēlaties, atgrieztās vērtības var tikt rādītas e-komercijas vietnē, vai tās var izmantot, lai aktivizētu citu biznesa loģiku jūsu e-komercijas vietnē. Piemēram, var novērst preču iegādi ar krājumu līmeni "ārpus krājumiem".
 
-Kad kanāla puses aprēķins ir pareizi konfigurēts un pārvaldīts, tas var nodrošināt uzticamāku pašreizējo veikala krājumu aplēsi, jo tas izmanto transakciju datus, kas ir Commerce Channel datu bāzē, bet kuriem Commerce Headquarters varētu vēl nebūt informācijas. Piemēram, ja izmantojat esošo reāllaika pakalpojumu izsaukumu krājumu pārlūkošanai POS, Commerce Headquarters, iespējams, vēl nebūs informācijas par pārdošanu skaidrā naudā bez piegādes, kas tikko notikusi saistībā ar preci. Tāpēc rīcībā esošo krājumu vērtība, ko Commerce Headquarters atgriež šai precei, iespējams, pārsniedz veikala faktisko rīcībā esošo krājumu daudzumu par vienu vienību. Tomēr, ja izmantojat kanāla puses aprēķinu, pārdošanu skaidrā naudā bez piegādes var iekļaut aprēķinā, un tā tiek atskaitīta no parādītās rīcībā esošās vērtības. Lai gan vērtības, kas gan kanāla puses aprēķinā, gan reāllaika pakalpojuma izsaukumā sniedz tikai aprēķinus par rīcībā esošiem krājumiem, vērtība, ko sniedz kanāla puses aprēķins, ir daudz ticamāka pašreizējam veikalam.
+Lai gan citi API, kas ir pieejami Commerce, var tieši doties uz Headquarters, lai iznestu rīcībā esošos preču daudzumus, mēs neiesakām tos izmantot e-komercijas vidē iespējamo veiktspējas problēmu un ietekmes dēļ, ko šie Biežie pieprasījumi var radīt jūsu Headquarters serveriem. Turklāt, ar kanāla puses aprēķinu, abi iepriekš minētie API var nodrošināt precīzāku preces pieejamības novērtējumu, ņemot vērā darbības, kas izveidotas kanālos, kas vēl nav zināmi programmā Headquarters.
 
-### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Sākt darbu ar POS kanāla puses aprēķināto krājumu pieejamību
+Lai izmantotu divus API, ir jāiespējo **Optimizētās preču pieejamības aprēķināšanas** līdzeklis, izmantojot **Līdzekļu pārvaldības** darbvietu programmā Headquarters. Ja tiešsaistes un veikala kanāli izmanto vienas izpildes noliktavas, ir jāiespējo arī līdzekli **Uzlaboto e-Commerce kanāla puses krājumu aprēķināšanas loģika**, lai šajā divos API būtu kanāla puses aprēķina loģika neiegrāmatotajās darbībās (skaidras naudas un pārvadāšanas, debitoru pasūtījumu, atgriešanu), kas ir veidotas veikala kanālā. Pēc šo līzdekļu iespējošanas jums būs nepieciešams palaist darbu **1070** (**Kanāla konfigurācija**).
 
-Lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpojuma izsaukumus uz krājumu pārlūkiem no POS programmas, vispirms aktivizējiet **Optimizētās preču pieejamības aprēķināšanas** līdzekli, izmantojot **Līdzekļu pārvaldības** darbvietu programmā Commerce Headquarters. Papildus līdzekļa iespējošanai ir jāveic izmaiņas **Funkcionalitātes profilā**.
+Lai definētu, kā atgriezt preču daudzumu API izvadē, sekojiet šiem darbībām.
 
-Lai izmainītu **Funkcionalitātes profilu**, veiciet šādas darbības:
+1. Dodieties uz **Mazumtirdzniecība un tirdzniecība \> Headquarters iestatīšana \> Parametri \> Tirdzniecības parametri**.
+1. Atlasiet cilni **Krājumi** un pēc tam kopsavilkuma cilnē **Krājumu pieejamības API e-Komercijai** konfigurējiet iestatījuma **Daudzums API izvadē** vērtību.
+1. Palaidiet **1070** (**Kanāla konfigurācija**) darbu, lai sinhronizētu pēdējos iestatījumus kanālos.
+
+Iestatījums **Daudzums API izvadē** nodrošina trīs opcijas:
+
+- **Atgrieztā krājuma daudzums** — fiziski pieejamais un kopējais pieprasītās preces pieejamais daudzums tiek atgriezts API izvadē.
+- **Atgrieztā krājuma daudzums, no kura atņemts krājumu buferis** – API izvadē atgrieztais daudzums tiek koriģēts, atņemot krājumu bufera vērtību. Papildinformāciju par krājumu buferi skatiet sadaļā [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
+- **Neatgriež krājumu daudzumu** - API izvadē tiek atgriezts tikai krājumu līmenis. Papildinformāciju par krājumu līmeņiem skatiet sadaļā [Krājumu buferu un krājumu līmeņu konfigurēšana](inventory-buffers-levels.md).
+
+Varat izmantot `QuantityUnitTypeValue` API parametru, lai norādītu vienības veidu, kādā vēlaties, lai API atgriež daudzumu. Šis parametrs atbalsta opcijas **krājumu vienība** (noklusējuma), **pirkšanas vienība** un **pārdošanas vienība**. Atgrieztais daudzums tiek noapaļots līdz atbilstošas mērvienības (unit of measure - UOM) definētajai precizitātei programmā Headquarters.
+
+API **GetEstimatedAvailability** piedāvā šādus ievades parametrus, lai atbalstītu dažādus vaicājuma scenārijus:
+
+- `DefaultWarehouseOnly` - Izmantojiet šo parametru, lai vaicātu par produktu noliktavu tiešsaistes kanāla noklusējuma noliktavā. 
+- `FilterByChannelFulfillmentGroup` un `SearchArea` - izmantojiet šos divus parametrus, lai vaicātu par preces krājumiem no visām saņemšanas vietām specifiskā meklēšanas zonā, pamatojoties uz `longitude`, `latitude` un `radius`. 
+- `FilterByChannelFulfillmentGroup` un `DeliveryModeTypeFilterValue` - izmantojiet šos divus parametrus, lai pieprasītu krājumus precei no noteiktām noliktavām, kas ir saistītas ar tiešsaistes kanāla izpildes grupu un ir konfigurēti, lai atbalstītu noteiktus piegādes veidus. Parametrs `DeliveryModeTypeFilterValue` atbalsta **visas** (noklusētās), **nosūtīšanas** un **savākšanas** opcijas. Piemēram, scenārijā, kad tiešsaistes pasūtījumu var izpildīt no vairākām nosūtīšanas noliktavām, varat izmantot šos divus parametrus, lai vaicātu par preces krājumu pieejamību visās šajās nosūtīšanas noliktavās. Šajā gadījumā API atgriež preces rīcībā esošo daudzumu un krājumu līmeni katrā nosūtīšanas noliktavā, kā arī apkopoto daudzumu un apkopoto krājumu līmeni no visām nosūtīšanas noliktavām vaicājumu tvērumā.
+ 
+Commerce pirkšanas kastea, veikala atlasītāja, vēlmju saraksta, groza un groza ikonas moduļi patērē API un iepriekš minētos parametrus, lai parādītu krājumu līmeņa ziņojumus e-komercijas vietnē. Commerce vietņu veidotājs nodrošina dažādus krājumu iestatījumus, lai kontrolētu tirdzniecību un pirkšanu. Papildinformāciju skatiet [Krājumu iestatījumu lietošana](inventory-settings.md).
+
+## <a name="pos-inventory-lookup-with-channel-side-calculation"></a>POS krājumu pārlūkošana ar kanāla puses aprēķinu
+
+Commerce izlaidumā 10.0.9 un vecākās darbība **Krājumu informācijas iegūšana** POS lietoja reāllaika pakalpojuma izsaukumu uz Headquarters, lai iegūtu informāciju par atlasītā produkta krājumu gan lietotāja pašreizējam veikalam, gan visiem citiem veikaliem, kas ir konfigurēti izpildes grupai kā daļa no kanāla konfigurācijas veikalam. Commerce versijā 10.0.10 un jaunākai versijai varat izslēgt reāllaika pakalpojuma izsaukumus programmā Headquarters un tā vietā izmantot kanāla puses aprēķinu Commerce serverī, lai noteiktu rīcībā esošos krājumus, kas ir fiziski pieejami veikalam un visām citām atrašanās vietām, kas ir noteiktas izpildes grupā. Šī kanāla aprēķinātā krājumu konfigurācija ir noderīga arī vietās, kur interneta savienojums nav uzticams, jo jums nav jābūt tiešsaistē, lai iegūtu krājumu uzmeklēšanas rezultātus no Headquarters.
+
+Kad kanāla puses aprēķins ir pareizi konfigurēts un pārvaldīts, tas var nodrošināt uzticamāku pašreizējo veikala krājumu aplēsi, jo tas izmanto transakciju datus, kas ir Commerce Channel datu bāzē, bet kuriem Headquarters varētu vēl nebūt informācijas. Piemēram, ja izmantojat esošo reāllaika pakalpojumu izsaukumu krājumu pārlūkošanai POS, Headquarters, iespējams, vēl nebūs informācijas par pārdošanu skaidrā naudā bez piegādes, kas tikko notikusi saistībā ar preci. Tāpēc rīcībā esošo krājumu vērtība, ko Headquarters atgriež šai precei, iespējams, pārsniedz veikala faktisko rīcībā esošo krājumu daudzumu par vienu vienību. Tomēr, ja izmantojat kanāla puses aprēķinu, pārdošanu skaidrā naudā bez piegādes var iekļaut aprēķinā, un tā tiek atskaitīta no parādītās rīcībā esošās vērtības. Lai gan vērtības, kas gan kanāla puses aprēķinā, gan reāllaika pakalpojuma izsaukumā sniedz tikai aprēķinus par rīcībā esošiem krājumiem, vērtība, ko sniedz kanāla puses aprēķins, ir daudz ticamāka pašreizējam veikalam.
+
+Lai konfigurētu POS **Krājumu uzmeklēšanas** operāciju Headquarters, lai izmantotu kanāla puses aprēķina loģiku un izslēgtu reāllaika pakalpojuma izsaukumu, sekojiet šiem darbībām.
 
 1. Dodieties uz sadaļu **Retail un Commerce \> Kanāla iestatīšana \> POS iestatīšana \> POS profili \> Funkcionalitātes profili**.
 1. Atlasiet funkcionalitātes profilu.
-1. Kopsavilkuma cilnes **Funkcijas** sadaļā **Krāj. pieejamības aprēķins** mainiet lauka **Krāj. pieejamības aprēķina režīms** no **Reāllaika pakalpojums** uz **Kanāls**. Pēc noklusējuma visi funkcionalitātes profili izmanto reāllaika pakalpojumu izsaukumus. Tāpēc šī lauka vērtība ir jāmaina, ja vēlaties izmantot kanāla puses aprēķina loģiku. Visus mazumtirdzniecības veikalus, kas ir saistīti ar izvēlēto funkcionalitātes profilu, ietekmēs šīs izmaiņas.
+1. Kopsavilkuma cilnes **Funkcijas** sadaļā **Krājuma pieejamības aprēķins** mainiet lauka **Krājuma pieejamības aprēķina režīms** no **Reāllaika pakalpojums** uz **Kanāls**. Pēc noklusējuma visi funkcionalitātes profili izmanto reāllaika pakalpojumu izsaukumus. Šī lauka vērtība ir jāmaina, ja vēlaties izmantot kanāla puses aprēķina loģiku. Visus mazumtirdzniecības veikalus, kas ir saistīti ar izvēlēto funkcionalitātes profilu, ietekmēs šīs izmaiņas.
 
-Pēc tam ir jāsinhronizē izmaiņas kanālā ar sadales grafika procesu, veicot šādas darbības:
+Pēc tam ir jāsinhronizē izmaiņas kanālos ar sadales grafika procesu programmā Headquarters, veicot šādas darbības:
 
 1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
 1. Palaidiet **1070** (**Kanāla konfigurācija**) darbu.
@@ -100,15 +127,14 @@ Lai nodrošinātu labāko iespējamo krājumu aplēsi, ir svarīgi, lai tiktu iz
 
 - **P-darbs** – P-darbs tiek atrasts lapā **Sadales grafiki**, un tas ir jāizpilda bieži. Šis darbs apvieno e-komercijas pasūtījumus, asinhronos debitoru pasūtījumus, kas izveidoti POS, un pārdošanas skaidrā naudā bez piegādes pasūtījumus, ko POS izveidoja no kanāla datu bāzēm programmā Commerce Headquarters, lai tos varētu apstrādāt tālāk. Līdz brīdim, kad šie dati tiek sinhronizēti no kanāla uz Commerce Headquarters, Commerce Headquarters nav informācijas par krājumu korekcijām precēm noliktavās, kas rodas no šīm transakcijām.
 - **Sinhronizēt pasūtījumus** — šis darbs apstrādā neapstrādātos transakciju datus programmā Commerce Headquarters, kurus P-darbs sniedz un pārvērš e-komerciju un asinhronu debitoru pasūtījumu transakcijas pārdošanas pasūtījumos programmā Commerce Headquarters. Kamēr šis darbs netiek apstrādāts un pārdošanas pasūtījumi nav izveidoti, transakcijas darbības netiek veidotas. Tāpēc rīcībā esošie krājumi programmā Commerce Headquarters neņems vērā transakcijas.
-- **Aprēķināt transakciju izrakstus paketē** – pārdošanas darījumiem skaidrā naudā bez piegādes, kas ir izveidoti veikalā, pakāpeniskās padeves grāmatošanas procesā tiek nodrošināts, ka ar pārdošanu saistītie krājumi tiek atjaunināti efektīvi. Lai iegūtu visefektīvāko krājumu transakciju pārdošanas skaidrā naudā bez piegādes darījumu transakcijām, pārliecinieties, ka konfigurējat sistēmu, lai izmantotu [pakāpeniskās padeves grāmatošanu](https://docs.microsoft.com/dynamics365/commerce/trickle-feed).
+- **Aprēķināt transakciju izrakstus paketē** – pārdošanas darījumiem skaidrā naudā bez piegādes, kas ir izveidoti veikalā, pakāpeniskās padeves grāmatošanas procesā tiek nodrošināts, ka ar pārdošanu saistītie krājumi tiek atjaunināti efektīvi. Lai iegūtu visefektīvāko krājumu transakciju pārdošanas skaidrā naudā bez piegādes darījumu transakcijām, pārliecinieties, ka konfigurējat sistēmu, lai izmantotu [pakāpeniskās padeves grāmatošanu](./trickle-feed.md).
 - **Grāmatot transakciju paziņojumus partijā** — šis darbs ir nepieciešams arī pakāpeniskās padeves grāmatošanai. Tas seko darbam **Aprēķināt transakciju paziņojumus partijā**. Šis darbs sistemātiski veic aprēķināto paziņojumu grāmatošanu, lai pārdošanas pasūtījumi pārdošanas pasūtījumiem skaidrā naudā bez piegādes tiktu izveidoti programmā Commerce Headquarters un Commerce Headquarters precīzāk atainotu jūsu veikala krājumus.
 - **Preču pieejamība** — šis darbs izveido krājumu momentuzņēmumu no Commerce Headquarters.
 - **1130 (Preču pieejamība)** - Šis darbs ir atrodams lapā **Sadales grafiki**, un tas ir jāizpilda uzreiz pēc darba **Preču pieejamība**. Šis darbs transportē krājumu momentuzņēmuma datus no Commerce Headquarters uz kanāla datu bāzēm.
 
-Ieteicams nepalaist šos pakešuzdevumus pārāk bieži (ik pēc dažām minūtēm). Biežās izpildes pārslogos Commerce Headquarters (HQ) un var ietekmēt veiktspēju. Parasti ir ieteicams palaist produktu pieejamību un 1130 darbus stundas laikā un plānot P-darbu, sinhronizēt pasūtījumus un veikt vienādas vai augstākas frekvences ar pastu saistītus darbus.
-
 > [!NOTE]
-> Veiktspējas apsvērumu dēļ, kad kanāla puses krājumu pieejamības aprēķini tiek izmantoti, lai veiktu krājumu pieejamības pieprasījumu, izmantojot e-komercijas API vai jauno POS kanāla puses krājumu loģiku, aprēķins izmanto kešatmiņu, lai noteiktu, vai ir pagājis pietiekami daudz laika, lai attaisnotu aprēķina loģikas atkārtotu palaišanu. Noklusējuma kešdarbe ir iestatīta uz 60 sekundēm. Piemēram, jūs ieslēdzāt sava veikala kanāla puses aprēķinu un apskatījāt rīcībā esošos krājumus, kas paredzēti precei lapā **Krājumu uzmeklēšana**. Ja pēc tam tiek pārdota viena preces vienība, **Krājumu uzmeklēšanas** lapa nerāda samazinātos krājumus, līdz kešatmiņa nav notīrīta. Pēc tam, kad lietotāji grāmato darījumus POS, tiem ir jāgaida 60 sekundes, pirms tie pārbauda, vai rīcībā esošie krājumi ir samazināti.
+> - Ir ieteicams palaist darbus **Produktu pieejamība** un **1130** stundas laikā, lai plānotu P-darbu, sinhronizētu pasūtījumus un veiktu vienādas vai augstākas frekvences ar pastu saistītus darbus.
+> - Veiktspējas apsvērumu dēļ, kad kanāla puses krājumu pieejamības aprēķini tiek izmantoti, lai veiktu krājumu pieejamības pieprasījumu, izmantojot e-komercijas API vai POS kanāla puses krājumu loģiku, aprēķins izmanto kešatmiņu, lai noteiktu, vai ir pagājis pietiekami daudz laika, lai attaisnotu aprēķina loģikas atkārtotu palaišanu. Noklusējuma kešdarbe ir iestatīta uz 60 sekundēm. Piemēram, jūs ieslēdzāt sava veikala kanāla puses aprēķinu un apskatījāt rīcībā esošos krājumus, kas paredzēti precei lapā **Krājumu uzmeklēšana**. Ja pēc tam tiek pārdota viena preces vienība, **Krājumu uzmeklēšanas** lapa nerāda samazinātos krājumus, līdz kešatmiņa nav notīrīta. Pēc tam, kad lietotāji grāmato darījumus POS, tiem ir jāgaida 60 sekundes, pirms tie pārbauda, vai rīcībā esošie krājumi ir samazināti.
 
 Ja jūsu biznesa scenārijs prasa mazāku kešatmiņas laiku, sazinieties ar savu preču atbalsta pārstāvi, lai saņemtu palīdzību.
 

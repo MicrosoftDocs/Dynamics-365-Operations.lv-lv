@@ -1,76 +1,107 @@
 ---
-title: Iespējot Azure Active Directory autentifikāciju, lai pierakstītos POS
-description: Šajā tēmā paskaidrots, kā konfigurēt pierakstīšanos Microsoft Dynamics 365 Commerce pārdošanas punktam (POS), lai tas izmantotu Azure Active Directory autentifikāciju.
+title: Konfigurēt Azure Active Directory autentifikāciju, lai veiktu pierakstīšanos POS
+description: Šajā tēmā skaidrots, kā Azure Active Directory pārdošanas punktā konfigurēt kā autentifikācijas metodi pakalpojumā Microsoft Dynamics 365 Commerce.
 author: boycezhu
-ms.date: 07/27/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 50088aee8c2474708682c9041251d2336e84d971
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 34a7946a56a58655bc9ae23e060fc50ab01f2c6e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796346"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937462"
 ---
-# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Azure Active Directory autentifikācijas iespējošana, lai veiktu pierakstīšanos POS
+# <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Konfigurēt Azure Active Directory autentifikāciju, lai veiktu pierakstīšanos POS
+
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
+Šajā tēmā skaidrots, kā Azure Active Directory (Azure AD) pārdošanas punktā (point of sale - POS) konfigurēt kā autentifikācijas metodi pakalpojumā Microsoft Dynamics 365 Commerce.
 
-Daudzi klienti, kuri lieto Microsoft Dynamics 365 Commerce, izmanto arī citus Microsoft mākoņu pakalpojumus, un viņi, iespējams, lieto Azure Active Directory (Azure AD), lai pārvaldītu šo pakalpojumu akreditācijas datus. Šādos gadījumos klienti varētu vēlēties izmantot vienu un to pašu Azure AD kontu dažādās lietojumprogrammās. Šajā tēmā paskaidrots, kā konfigurēt Commerce pārdošanas punkta (POS) pierakstīšanās pieredzi, lai izmantotu Azure AD autentifikāciju.
+Mazumtirgotāji, kas izmanto Dynamics 365 Commerce kopā ar citiem Microsoft mākoņa pakalpojumiem, piemēram, Microsoft Azure, Microsoft 365 un Microsoft Teams parasti vēlas izmantot Azure AD lietotāja akreditācijas datu centralizētai pārvaldībai, lai nodrošinātu drošu un netraucētu pierakstīšanos visās programmās. Lai izmantotu Azure AD autentifikāciju pakalpojumam Commerce POS, vispirms ir jākonfigurē Azure AD kā autentifikācijas metodi programmā Commerce Headquarters.
 
-## <a name="configure-azure-ad-authentication"></a>Azure AD autentifikācijas konfigurēšana
+## <a name="configure-pos-authentication-method"></a>POS autentifikācijas metodes konfigurēšana
 
-Lai padarītu Azure AD pieejamu kā autentifikācijas metodi POS pierakstīšanās sistēmai veikalā, ir jākonfigurē veikala funkcionalitātes profila iestatījumi un pēc tam šie iestatījumi jāpiemēro POS klientiem.
+Lai konfigurētu POS autentifikācijas metodi programmā Commerce Headquarters, veiciet tālāk norādītās darbības.
+    
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Kanāla iestatīšana \> POS iestatījumi \> POS profili \> Funkcionalitātes profili** un izvēlieties maināmo funkcionalitātes profilu.
+1. Kopsavilkuma cilnes **Funkcijas** sadaļā **POS personāla pieteikšana** atlasiet nepieciešamo autentifikācijas metodes opciju no nolaižamā saraksta **Pieteikšanās autentifikācija**.
 
-Lai konfigurētu funkcionalitātes profilu, veiciet šādas darbības.
+    Sarakstam **Pieteikšanās autentifikācijas metode** ir trīs opcijas:
+    
+    - **Personāla ID un parole** — šī noklusējuma opcija prasa POS lietotājiem ievadīt personāla ID un paroli, lai pieteiktos POS un piekļūtu vadītāja pārlabošanas funkcionalitātei.
+    - **Azure AD bez vienas pierakstīšanās** - šī opcija prasa POS lietotājiem izmantot Azure AD akreditācijas datus, lai pieteiktos POS un piekļūt vadītāja pārlabošanas funkcionalitātei. Kad POS klients tiek atsvaidzināts vai no jauna atvērts, POS lietotājam ir jānodrošina Azure AD akreditācijas dati, lai pieteiktos vēlreiz.
+    - **Azure AD ar vienu pierakstos** - ja ir atlasīta šī opcija, POS lietotāji var pieteikties Cloud POS (CPOS), izmantojot aktīvos Azure AD akreditācijas datus, ko izmanto citas tīmekļa programmas tajā pašā tīmekļa pārlūkprogrammā, vai pieteikties Modern POS (MPOS), izmantojot sistēmā Windows pieteiktos Azure AD akreditācijas datus. Abas metodes ļauj pierakstīties, bez nepieciešamības ievadīt Azure AD akreditācijas datus POS pierakstīšanās ekrānā. Tomēr, piekļūstot POS pārvaldnieka pārlabošanas funkcionalitātei, joprojām būs nepieciešama pierakstīšanās, izmantojot Azure AD akreditācijas datus.
 
-1. Dodieties uz sadaļu **Mazumtirdzniecība un komercija** \> **Kanāla iestatīšana** \> **POS iestatīšana** \> **POS profili** \> **Funkcionalitātes profili**.
-1. Atlasiet maināmo funkcionalitātes profilu.
-1. Kopsavilkuma cilnes **Funkcijas** sadaļā **POS personāla pieteikšanās** mainiet lauka **Pieteikšanās autentifikācijas metodes** vērtību no **Personāla ID un parole** uz **Azure Active Directory**.
-
-Pēc noklusējuma visi funkcionalitātes profili izmanto vērtību **Personāla ID un parole** kā POS autentifikācijas metodi. Tāpēc ir jāmaina lauka **Pieteikšanās autentifikācijas metode** vērtība, ja vēlaties lietot Azure AD. Visus mazumtirdzniecības veikalus, kas ir saistīti ar izvēlēto funkcionalitātes profilu, ietekmēs šīs izmaiņas.
-
-Lai piemērotu iestatījumus POS klientiem, veiciet šīs darbības.
-
-1. Pārejiet uz **Retail un Commerce** \> **Retail un Commerce IT** \> **Sadales grafiks**.
-1. Palaidiet sadales grafiku **1070** (**Kanāla konfigurācija**).
+1. Dodieties uz **Mazumtirdzniecība un komercija > Mazumtirdzniecība un komercija IT > Sadales grafiks** un palaidiet darbu **1070 (Kanāla konfigurācija)**, lai sinhronizētu visjaunākos funkcionalitātes profila iestatījumus POS klientiem.
 
 > [!NOTE]
-> Azure AD autentifikācijai ir nepieciešams interneta savienojums. Tā nedarbosies, ja POS būs bezsaistes režīmā.
-> 
-> Pašlaik funkcija **Pārvaldnieka ignorēšana** neatbalsta Azure AD kā autentifikācijas metodi. Ir jānorāda operatora ID un parole, pat ja Azure AD ir konfigurēta kā autentifikācijas metode POS pierakstīšanās.
+> - Pakalpojums **Azure AD bez vienas pierakstīšanās** autentifikācijas metodes opcija aizstāj opciju **Azure Active Directory** Commerce versijā 10.0.18 vai agrākajā.
+> - Azure AD autentifikācijai ir nepieciešams aktīvs interneta savienojums, un, ja POS ir bezsaistē, šī autentifikācija nedarbosies.
 
-## <a name="associate-an-azure-ad-account-with-a-worker"></a>Saistīt Azure AD kontu ar darbinieku
+## <a name="associate-azure-ad-accounts-with-pos-users"></a>Saistīt Azure AD kontus ar POS lietotājiem
 
-Pirms veikala darbinieks var izmantot Azure AD kontu, lai pieteiktos POS programmā, Azure AD kontam jābūt saistītam ar šo darbinieku.
+Lai Azure AD izmantotu kā POS autentifikācijas metodi, sistēmā Commerce Headquarters ir jāsaista Azure AD konti ar POS lietotājiem. 
 
-Lai saistītu Azure AD kontu ar darbinieku, veiciet tālāk aprakstītās darbības.
-
-1. Dodieties uz **Mazumtirdzniecība un komercija** \> **Darbinieki** \> **Nodarbinātie**.
-1. Atveriet darbinieka detalizētas informācijas lapu.
-1. Darbību rūts cilnē **Commerce** grupā **Ārējā identitāte** atlasiet **Saistīt esošo identitāti**.
+Lai programmā Commerce Headquarters saistītu Azure AD kontus ar POS lietotājiem, izpildiet šīs darbības.
+    
+1. Dodieties uz **Mazumtirdzniecība un komercija > Darbinieki > Nodarbinātie** un atveriet nodarbinātā ierakstu.
+1. Darbību rūtī atlasiet cilni **Commerce** tad zem **Ārējā identitāte** atlasiet **Saistīt esošo identitāti**. 
 1. Dialoglodziņā **Izmantot esošo ārējo identitāti** atlasiet opciju **Meklēt, izmantojot e-pastu**, ievadiet Azure AD e-pasta adresi un pēc tam atlasiet **Meklēt**.
-1. Atlasiet Azure AD kontu, kas tiek atgriezts, un pēc tam atlasiet **Labi**.
+1. Atlasiet Azure AD kontu, kas tiek atgriezts, pēc tam atlasiet **Labi**.
 
-Darbinieka detalizētas informācijas lapas cilnē **Commerce** tiks ievadīti lauki **Aizstājvārds**, **UPN** un **Ārējais apakšidentifikators**.
+Pēc iepriekš minētajiem konfigurācijas darbībām, darbinieka detalizētas informācijas lapas cilnē **Commerce** tiks ievadīti lauki **Aizstājvārds**, **UPN** un **Ārējais apakšidentifikators**.
+
+Lai sinhronizētu jaunāko POS lietotāju un Azure AD konta datus ar kanālu, jāpalaiž darbs **1060 (personāls)** sadaļā **Mazumtirdzniecība un komercija > Mazumtirdzniecība un komercija IT > Sadales grafiks**.
 
 > [!NOTE]
-> Pēc darbinieka ieraksta atjaunināšanas, ja, piemēram, ir saistīts jauns Azure AD konts, ir mainīta parole vai tiek atjaunināta darbinieku adrešu grāmata, ir ieteicams palaist **1060** (**Personāla**) sadales grafiku, lai sinhronizētu jaunāko personāla informāciju kanālā. Tādējādi POS programma var iegūt pareizos datus lietotāja autentifikācijai un autorizācijas pārbaudei.
+> Pēc tam, kad programmā Commerce Headquarters tiek atjaunināta darbinieku informācija, piemēram, parole, POS atļauja, saistītais Azure AD konts vai darbinieku adrešu grāmata, ieteicams palaist darbu **1060 (personāls)**, lai sinhronizētu jaunāko darbinieka informāciju kanālā. POS klients pēc tam var iegūt pareizos datus lietotāja autentifikācijai un autorizācijas pārbaudēm.
+
+## <a name="pos-lock-register-and-sign-out-with-azure-ad-authentication"></a>POS bloķēšanas reģistrs un pierakstīšanās ar Azure AD autentifikāciju
+
+Šī problēma rodas, ja POS ir konfigurēts Azure AD autentifikācijas metodes izmantošanai:
+
+- POS programmā nav pieejama funkcija **Reģistra bloķēšana**. 
+- Funkcija **Automātiskā bloķēšana** darbojas tāpat kā funkcija **Automātiska atteikšanās**.
+- Ja POS lietotājs atlasa **Atteikties**, lietotājam nākamajā POS palaišanas reizē ir jāpiesakās, izmantojot Azure AD akreditācijas datus neatkarīgi no tā, vai ir iespējota viena pierakstīšanās.
+
+## <a name="manager-override-functionality-with-azure-ad-authentication"></a>Pārvaldnieka pārlabošanas funkcionalitāte ar Azure AD autentifikāciju
+
+Kad POS ir konfigurēts izmantot Azure AD autentifikāciju, vadītāja pārlabošanas funkcionalitāte atvērs dialoglodziņu, kurā tiks parādīta uzvedne ar aicinājumu ievadīt vadītāja lietotāja Azure AD akreditācijas datus. Kad pārvaldnieka reģistrēšanās ir apstiprināta, vadītāja Azure AD akreditācijas dati tiks nomesti un iepriekšējā lietotāja Azure AD akreditācijas dati tiks izmantoti turpmākajām POS operācijām.
+
+> [!NOTE]
+> - Gan Commerce versijās 10.0.18, gan agrākās versijās vadītāja pārlabošanas funkcija neatbalsta Azure AD. Ir jānorāda personāla ID un parole, pat ja POS ir konfigurēta Azure AD autentifikācijas metodes izmantošanai.
+> - Kad Jūs izmantojat CPOS ar Safari tīmekļa pārlūkprogrammu Apple iOS ierīcē, vispirms jāizslēdz **Bloķēt uznirstošos logus** Safari iestatījumos, lai vadītājs pārlabotu funkcionalitāti darbam ar Azure AD autentifikāciju. 
+
+## <a name="security-best-practices-for-azure-ad-based-pos-authentication-on-shared-devices"></a>Drošības labākās prakses uz POS autentifikācijas balstītam Azure AD koplietotajās ierīcēs
+
+Daudzi mazumtirgotāji iestata mazumtirdzniecības veikala vidi tā, lai vairākiem lietotājiem būtu piekļūšana POS programmai no koplietojamas fiziskas ierīces. Šajā kontekstā, lai gan viena pierakstīšanās nodrošina ērtu un vienlaidu autentifikācijas pieredzi, var arī izveidot drošības cilpu, kur pašreizējais POS lietotājs var nerealizēt, ka POS darbību vai operāciju veikšanai tiek izmantoti cita lietotāja akreditācijas dati. Pirms POS konfigurēšanas, lai lietotu Azure AD autentifikācijas metodi, ļoti ieteicams pārskatīt savu drošības politiku un koplietotās ierīces pierakstīšanās iestatījumus, lai izlemtu, kura opcija ir vislabāk piemērota.
+
+- Ja mazumtirdzniecības vidē fiziskās ierīces pierakstīšanās kontam tiek izmantots koplietots konts (piemēram, lokāls konts), ieteicams izmantot opciju **Azure AD bez vienas pierakstīšanās**. Tas nodrošina, ka katrs POS lietotājs skaidri nodrošina Azure AD akreditācijas datus, lai pieteiktos POS.
+- Ja mazumtirdzniecības vidē darbiniekiem ir jāizmanto savs Azure AD konts, lai pierakstītos POS un tās viesošanas fiziskajā ierīcē, ieteicams izmantot opciju **Azure AD ar vienu pierakstīšanu**.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Paplašinātās pieteikšanās funkcionalitātes iestatīšana MPOS un Cloud POS](extended-logon.md)
+[Nodarbinātā konfigurēšana](tasks/worker.md)
 
 [Izveidot mazumtirdzniecības funkcionalitātes profilu](retail-functionality-profile.md)
 
-[Nodarbinātā konfigurēšana](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+[Paplašinātās pieteikšanās funkcionalitātes iestatīšana MPOS un Cloud POS](extended-logon.md)
+
+[Labākās drošības prakses Cloud POS koplietotās vidēs](dev-itpro/secure-retail-cloud-pos.md)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

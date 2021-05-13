@@ -2,7 +2,7 @@
 title: Secības elementu izpildes atlikšana ER formātos
 description: Šajā tēmā ir izskaidrots, kā atlikt secības elementa izpildi elektroniskā pārskata (ER) formātā.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894104"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944513"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Secības elementu izpildes atlikšana ER formātos
 
@@ -57,14 +57,14 @@ Ja vēl neesat izpildījis piemēru tēmā [Secības elementu izpildes atlikšan
 
 | Satura apraksts            | Faila nosaukums |
 |--------------------------------|-----------|
-| ER datu modeļa konfigurācija    | [Modelis atlikto elementu apgūšanai.versija.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER modeļa kartējuma konfigurācija | [Kartēšana atlikto elementu apgūšanai.versija.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER datu modeļa konfigurācija    | [Modelis atlikto elementu apgūšanai.versija.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER modeļa kartējuma konfigurācija | [Kartēšana atlikto elementu apgūšanai.versija.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Pirms sākšanas ir jāielādē un jāsaglabā arī tālāk norādītā parauga ER risinājuma konfigurācija.
 
 | Satura apraksts     |Faila nosaukums |
 |-------------------------|----------|
-| ER formāta konfigurācija | [Formāts atlikto secību apgūšanai.versija.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER formāta konfigurācija | [Formāts atlikto secību apgūšanai.versija.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Parauga ER konfigurācijas failu importēšana
 
@@ -169,7 +169,7 @@ Pārskatiet ER modeļa kartējuma komponenta iestatījumus, kas ir konfigurēti,
 1. Lapā **Formāta veidotājs** atlasiet **Palaist**.
 2. Lejupielādējiet failu, ko piedāvā tīmekļa pārlūkprogramma, un atveriet to pārskatīšanai.
 
-    ![Lejupielādēts fails](./media/ER-DeferredSequence-Run.png)
+    ![Lejupielādētais atskaites parauga fails](./media/ER-DeferredSequence-Run.png)
 
 Ievērojiet, ka kopsavilkuma rinda 22 parāda apstrādāto darbību nodokļu vērtību summu. Tā kā formāts ir konfigurēts, lai šīs summas atgriešanai izmantotu saistījumu **cmodel.Data.Summary.Total**, summa tiek aprēķināta, izsaucot **GroupBy** tipa, kas izmanto modeļa kartēšanu, **Grupētā** datu avota *TotalSum* apkopojumu. Lai aprēķinātu šo apkopojumu, modeļa kartēšana atkārto visas darbības, kas ir atlasītas **Filtrētajā** datu avotā. Salīdzinot 21. un 22. rindas izpildes laikus, varat noteikt, ka summas aprēķins tika veikts 10 milisekundēs(ms). Salīdzinot 2. un 21. rindas izpildes laikus, varat noteikt, ka visu darījumu rindu ģenerēšana tika veikta 7 milisekundēs(ms). Tāpēc kopā bija nepieciešamas 17 ms.
 
@@ -202,7 +202,7 @@ Ja darbību apjoms ir daudz plašāks par apjomu dotajā piemērā, summēšanas
 12. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 13. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredSequence-Run1.png)
+    ![Lejupielādētais fails - summētās nodokļu vērtības](./media/ER-DeferredSequence-Run1.png)
 
     21. rindā ir iekļauta nodokļu vērtību pašreizējā kopsumma, kas tiek aprēķināta visām apstrādātajām darbībām, izmantojot ģenerēto izvadi kā datu avotu. Šis datu avots sākas no pārskata sākuma un turpinās, aplūkojot pēdējo nodokļu darbību. 22. rindā ir iekļauta visu apstrādāto darbību nodokļu vērtību summa, kas tiek aprēķināta modeļa kartēšanā, izmantojot *GroupBy* tipa datu avotu. Ievērojiet, ka šīs vērtības ir vienādas. Tādēļ **GroupBy** vietā var izmantot uz izvadi balstītu summēšanu. Salīdzinot 2. un 21. rindas izpildes laikus, varat noteikt, ka visu darījumu rindu ģenerēšana un summēšana tika veikta 9 milisekundēs(ms). Tāpēc, ciktāl tas attiecas uz detalizēto rindu ģēnerēšānu un nodokļu vērtību summēšanu, modificētais formāts ir aptuveni divas reizes ātrāks nekā sākotnējais formāts.
 
@@ -211,7 +211,7 @@ Ja darbību apjoms ir daudz plašāks par apjomu dotajā piemērā, summēšanas
 16. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 17. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredSequence-Run2.png)
+    ![Lejupielādētais fails ar labotu formulu](./media/ER-DeferredSequence-Run2.png)
 
     Ievērojiet, ka nodokļu vērtību pašreizējā kopsumma pēdējā darbību informācijas rindā tagad ir vienāda ar summu kopsavilkuma rindā.
 
@@ -224,7 +224,7 @@ Piemēram, varat modificēt formātu, ja pārskata galvenē jāuzrāda nodokļu 
 3. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 4. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredSequence-Run3.png)
+    ![Lejupielādētais fails summēšanai pārskata galvenē](./media/ER-DeferredSequence-Run3.png)
 
     Ievērojiet, ka kopsavilkuma 2. rindā nodokļu vērtību summa tagad ir vienāda ar 0 (nulli), jo šī summa tagad tiek aprēķināta, pamatojoties uz ģenerēto izvadi. Kad tiek ģenerēta 2. rinda, ģenerētā izvade vēl neietver rindas, kurām ir detalizēta informācija par darbību. Varat konfigurēt šo formātu, lai atliktu secības elementu **Pārskats\\Rindas\\Kopsavilkums** izpildi, līdz visām nodokļu darbībām tiek palaists secības elements **Pārskats\\Rindas\\Ieraksts**.
 
@@ -238,7 +238,7 @@ Piemēram, varat modificēt formātu, ja pārskata galvenē jāuzrāda nodokļu 
 3. Atlasiet **Saglabāt** un pēc tam atlasiet **Palaist**.
 4. Lejupielādējiet un pārskatiet failu, ko piedāvā tīmekļa pārlūkprogramma.
 
-    ![Lejupielādēts fails](./media/ER-DeferredSequence-Run4.png)
+    ![Lejupielādētais fails - atliktā izpilde](./media/ER-DeferredSequence-Run4.png)
 
     Secības elements **Pārskats\\Rindas\\Kopsavilkums** tagad tiek palaists tikai pēc tam, kad ir palaisti visi pārējie krājumi, kas ligzdoti zem tā pamatelementa **Pārskats\\Rindas**. Tādēļ tas tiek palaists pēc secības elementa **Pārskats\\Rindas\\Ieraksts** palaišanas visām datu avota **model.Data.List** nodokļu darbībām. So faktu atklāj 1., 2. un 3. rindas un pēdējās 22. rindas izpildes laiki.
 

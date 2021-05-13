@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889792"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963219"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -55,6 +55,9 @@ Papildu vides apsvērumi ietver, bet ne tikai, tālāk minētos.
 Lai lietotu LCS un pārvaldītu savas Human Resources vides, vispirms ir jāizveido LCS projekts.
 
 1. Pierakstieties pakalpojumā [LCS](https://lcs.dynamics.com/Logon/Index), izmantojot to pašu kontu, ko lietojat Human Resources abonēšanai.
+
+   > [!NOTE]
+   > Lai nodrošinātu sekmīgu nodrošināšanu, kontam, kuru izmantojat Human Resources vides nodrošināšanai, ir jābūt piešķirtam vai nu **Sistēmas administratora**, vai **Sistēmas pielāgotāja** lomai Power Apps vidē, kas saistīta ar Human Resources vidi. Skatiet sadaļu [Lietotāja drošības konfigurēšana resursiem](https://docs.microsoft.com/power-platform/admin/database-security), lai iegūtu papildu informāciju par drošības lomu piešķiršanu lietotājiem programmā Power Platform.
 
 2. Atlasiet pluszīmi (**+**), lai izveidotu projektu.
 
@@ -115,13 +118,30 @@ Izvēloties Power Apps vidi, kurā izvietot Human Resources, ņemiet vērā tāl
    
     - **Izmēģinājuma vides** – šīs vides tiek veidotas ar beigu datumu. Pēc termiņa beigām jūsu vide un visas Human Resources instances, kas atrodas tajā, tiks automātiski noņemtas.
    
-    - **Neatbalstītie reģioni** – pašlaik Human Resources tiek atbalstīts tikai šādos reģionos: ASV, Eiropa, Apvienotā Karaliste, Austrālija, Kanāda un Āzija.
-
-    > [!NOTE]
-    > Human Resources vide ir nodrošināta tajā pašā reģionā, kurā ir nodrošināta Power Apps vide. Human Resources vides migrācija uz citu reģionu netiek atbalstīta.
+    - **Neatbalstītas ģeogrāfiskās vietas** — videi ir jābūt atbalstītā ģeogrāfiskā atrašanās vietā. Papildinformāciju skatiet sadaļā [Atbalstītas ģeogrāfiskās atrašanās vietas](hr-admin-setup-provision.md#supported-geographies).
 
 6. Kad ir noteikta izmantošanai pareizā vide, var pāriet pie nodrošinājuma procesa. 
- 
+
+### <a name="supported-geographies"></a>Atbalstītas ģeogrāfiskās vietas
+
+Human Resources pašlaik atbalsta šādas ģeogrāfiskās vietas:
+
+- ASV
+- Eiropa
+- Apvienotā Karaliste
+- Austrālija
+- Kanāda
+- Āzija 
+
+Veidojot Human Resources vidi, atlasiet Power Apps vidi, kuru saistīt ar Human Resources vidi. Tādā gadījumā Human Resources vide tiek nodrošināta tajā pašā Azure ģeogrāfiskajā vietā, kurā ir atlasīta Power Apps vide. Varat atlasīt, kur fiziski atrodas Human Resources vide un datu bāze, atlasot ģeogrāfiju, veidojot Power Apps vidi, kas tiks saistīta ar Human Resources vidi.
+
+Varat atlasīt Azure *ģeogrāfiju*, kurā tiek nodrošināta vide, taču nevarat atlasīt noteiktu Azure *reģionu*. Automatizācija nosaka specifisku ģeogrāfijas reģionu, kurā tiek izveidota vide, lai optimizētu noslodzes līdzsvarošanu un veiktspēju. Informāciju par Azure ģeogrāfiskām vietām un reģioniem varat atrast [Azure ģeogrāfijas](https://azure.microsoft.com/global-infrastructure/geographies) dokumentācijā.
+
+Human Resources vides dati vienmēr būs ietverti Azure ģeogrāfijā, kurā tā ir izveidota. Tomēr šī informācija vienmēr netiks ietverta vienā Azure reģionā. Ārkartas gadījuma seku novēršanas nolūkā dati tiks replicēti gan primārajā Azure reģionā, gan sekundārajā neveiksmju reģionā ģeogrāfijā.
+
+ > [!NOTE]
+ > Human Resources vides migrācija no viena Azure reģionu citā netiek atbalstīta.
+
 ## <a name="grant-access-to-the-environment"></a>Piekļuves piešķiršana videi
 
 Pēc noklusējuma videi var piekļūt globālais administrators, kas to izveidoja. Jums ir īpaši jāpiešķir piekļuve citiem programmas lietotājiem. Jums ir jāpievieno lietotāji un jāpiešķir viņiem atbilstošās lomas Human Resources vidē. Globālajam administratoram, kas izvietoja Human Resources, ir jāpalaiž gan Attract, gan Onboard, lai pabeigtu inicializēšanu un iespējotu piekļuvi citiem nomnieka lietotājiem. Kamēr tas nav izdarīts, citi lietotāji nevarēs piekļūt Attract un Onboard un tiem tiks rādītas piekļuves pārkāpumu kļūdas. Plašāku informāciju skatiet tēmā [Jaunu lietotāju izveide](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) un [Drošības lomu piešķiršana lietotājiem](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

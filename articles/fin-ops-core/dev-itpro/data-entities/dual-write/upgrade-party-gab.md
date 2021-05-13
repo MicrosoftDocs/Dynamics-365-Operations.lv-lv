@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857374"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941087"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
@@ -52,11 +52,11 @@ Ir nepieciešami šādi priekšnosacījumi:
 
 2. Pierakstīšanās programmā [Microsoft Azure](https://portal.azure.com/).
 
-3. Izveidojiet [resursu grupu](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Izveidojiet [resursu grupu](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Izveidojiet [glabāšanas kontu](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) izveidoto resursu grupā.
+4. Izveidojiet [glabāšanas kontu](/azure/storage/common/storage-account-create?tabs=azure-portal) izveidoto resursu grupā.
 
-5. Izveidojiet [datu fabriku](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) virs izveidotās resursu grupas.
+5. Izveidojiet [datu fabriku](/azure/data-factory/quickstart-create-data-factory-portal) virs izveidotās resursu grupas.
 
 6. Atveriet datu fabriku un atlasiet elementu **Autors & Pārraudzīt**.
 
@@ -81,7 +81,7 @@ Ir nepieciešami šādi priekšnosacījumi:
     FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_pakalpojums Galvenā ID | Norādiet pieteikuma debitora ID.
     Dynamics CRM saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_lietotājvārds | Lietotājvārds, ar kuru jāizveido savienojums ar Dynamics.
 
-    Papildinformāciju skatiet šeit: [Manuāli veicināt Resource Manager veidni katrai videi](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Saistīto pakalpojumu rekvizīti](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) un [Kopēt datus, izmantojot Azure datu fabriku](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Papildinformāciju skatiet šeit: [Manuāli veicināt Resource Manager veidni katrai videi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Saistīto pakalpojumu rekvizīti](/azure/data-factory/connector-dynamics-ax#linked-service-properties) un [Kopēt datus, izmantojot Azure datu fabriku](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Pēc izvietošanas validējiet datu fabrikas datu kopas, datu plūsmu un saistīto pakalpojumu.
 
@@ -158,7 +158,7 @@ Ir nepieciešami šādi priekšnosacījumi:
 8. Importēt jaunos **Puses** ierakstus programmā Finance and Operations.
 
     + Lejupielādējiet `FONewParty.csv` failu no Azure BLOB krātuves. Ceļš ir `partybootstrapping/output/FONewParty.csv`.
-    + Konvertējiet `FONewParty.csv` failu par Excel failu un importējiet Excel failu programmā Finance and Operations.  Ja jums darbojas csv importēšana, varat tieši importēt csv failu. Atkarībā no datu apjoma, importēšanas laiks var ilgt dažas stundas. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Konvertējiet `FONewParty.csv` failu par Excel failu un importējiet Excel failu programmā Finance and Operations.  Ja jums darbojas csv importēšana, varat tieši importēt csv failu. Atkarībā no datu apjoma, importēšanas laiks var ilgt dažas stundas. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
 
     ![Importēt Datavers puses ierakstus](media/data-factory-import-party.png)
 

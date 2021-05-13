@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821012"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936734"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Debitoru pasūtījumi Pārdošanas punktā (POS)
 
@@ -42,7 +42,7 @@ Pirms mēģināt punktā POS izmantot debitora pasūtījumu funkcionalitāti, p�
 
 ### <a name="configure-modes-of-delivery"></a>Piegādes veidu konfigurēšana
 
-Lai lietotu debitoru pasūtījumus, ir jākonfigurē piegādes veidi, ko var izmantot krātuves kanāls. Ir jādefinē vismaz viens piegādes veids, ko var izmantot, kad pasūtījuma rindas tiek nosūtītas debitoram no krātuves. Ir arī jādefinē vismaz viens paņemšanas piegādes veids, ko var izmantot, kad pasūtījuma rindas tiek paņemtas no krātuves. Piegādes veidi ir definēti programmas Commerce Headquarters lapā **Piegādes veidi** . Papildinformāciju par to, kā iestatīt Commerce kanālu piegādes veidus, skatiet rakstā [Piegādes veidu definēšana](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Lai lietotu debitoru pasūtījumus, ir jākonfigurē piegādes veidi, ko var izmantot krātuves kanāls. Ir jādefinē vismaz viens piegādes veids, ko var izmantot, kad pasūtījuma rindas tiek nosūtītas debitoram no krātuves. Ir arī jādefinē vismaz viens paņemšanas piegādes veids, ko var izmantot, kad pasūtījuma rindas tiek paņemtas no krātuves. Piegādes veidi ir definēti programmas Commerce Headquarters lapā **Piegādes veidi** . Papildinformāciju par to, kā iestatīt Commerce kanālu piegādes veidus, skatiet rakstā [Piegādes veidu definēšana](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Piegādes veidu lapa](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Pirms jūs mēģināt izveidot debitoru pasūtījumus POS punktā, ir jākonfigu
 - **Atcelšanas maksa procentos** – Ja debitora pasūtījuma atcelšanas gadījumā ir jāpiemēro maksa, norādiet šīs maksas summu.
 - **Atcelšanas maksas kods** – Norādiet debitoru parādu maksas kodu, kas jāizmanto, kad atcelšanas maksa tiek piemērota atceltajiem debitora pasūtījumiem, izmantojot POS punktu. Maksas kods definē atcelšanas maksas finanšu grāmatošanas loģiku.
 - **Piegādes maksas kods** – Ja opcija **Izmantot papildu automātiskās maksas** ir iestatīta uz **Jā**, šim parametru iestatījumam nav efekta. Ja šī opcija ir iestatīta uz **Nē**, lietotājiem tiek piedāvāts manuāli ievadīt piegādes maksu, kad tie izveido debitoru pasūtījumus POS punktā. Izmantojiet šo parametru, lai kartētu debitoru parādu maksas kodu, kas tiks lietots pasūtījumiem, kad lietotāji ievada piegādes maksu. Maksas kods definē piegādes maksas finanšu grāmatošanas loģiku.
-- **Izmantot papildu automātiskās maksas** – Iestatiet šo opciju uz **Jā** , lai izmantotu sistēmas aprēķinātās automātiskās maksas, kad debitora pasūtījumi tiek izveidoti POS punktā. Šīs automātiskās maksas var izmantot, lai aprēķinātu piegādes maksas vai citus pasūtījuma vai krājuma specifiskās izmaksas. Papildinformāciju par to, kā iestatīt un lietot papildu automātiskās izmaksas, skatiet [Omni-kanālu uzlabotās automātiskās maksas](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Izmantot papildu automātiskās maksas** – Iestatiet šo opciju uz **Jā** , lai izmantotu sistēmas aprēķinātās automātiskās maksas, kad debitora pasūtījumi tiek izveidoti POS punktā. Šīs automātiskās maksas var izmantot, lai aprēķinātu piegādes maksas vai citus pasūtījuma vai krājuma specifiskās izmaksas. Papildinformāciju par to, kā iestatīt un lietot papildu automātiskās izmaksas, skatiet [Omni-kanālu uzlabotās automātiskās maksas](./omni-auto-charges.md).
 
 ![Cilne Klientu pasūtījumi lapā Commerce parametri](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Atjaunināt transakcijas ekrāna izkārtojumus POS punktā
 
-Pārliecinieties, ka POS punktā [ekrāna izkārtojums](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) ir konfigurēts tā, lai atbalstītu debitoru pasūtījumu izveidi un pārvaldību, un ka visas nepieciešamās POS operācijas ir konfigurētas. Piedāvājam dažas POS operācijas, kas ir ieteicamas, lai pareizi atbalstītu klientu pasūtījumu izveidi un pārvaldību:
+Pārliecinieties, ka POS punktā [ekrāna izkārtojums](./pos-screen-layouts.md) ir konfigurēts tā, lai atbalstītu debitoru pasūtījumu izveidi un pārvaldību, un ka visas nepieciešamās POS operācijas ir konfigurētas. Piedāvājam dažas POS operācijas, kas ir ieteicamas, lai pareizi atbalstītu klientu pasūtījumu izveidi un pārvaldību:
 - **Nosūtīt visas preces** — Šī operācija tiek izmantota, lai norādītu, ka visas transakciju groza rindas tiks nosūtītas uz galamērķi.
 - **Nosūtīt atlasītās preces** — Šī operācija tiek izmantota, lai norādītu, ka atlasītās transakciju groza rindas tiks nosūtītas uz galamērķi.
 - **Saņemt visas preces** — Šī operācija tiek izmantota, lai norādītu, ka visas transakciju groza rindas tiks saņemtas no atlasītās krātuves atrašanās vietas.
 - **Saņemt atlasītās preces** — Šī operācija tiek izmantota, lai norādītu, ka atlasītās transakciju groza rindas tiks saņemtas no atlasītās krātuves atrašanās vietas.
 - **Realizēt visas preces** — Šī operācija tiek izmantota, lai norādītu, ka visas transakciju groza rindas tiks realizētas. Ja šī operācija tiek izmantota POS punktā, debitora pasūtījums tiks pārveidots uz skaidras naudas pārveduma transakciju.
-- **Realizēt atlasītās preces** — Šī operācija tiek izmantota, lai norādītu, ka atlasītās transakciju groza rindas debitoram tiek realizētas pirkšanas laikā. Šī operācija ir noderīga tikai [hibrīda pasūtījuma](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders) scenārijā.
+- **Realizēt atlasītās preces** — Šī operācija tiek izmantota, lai norādītu, ka atlasītās transakciju groza rindas debitoram tiek realizētas pirkšanas laikā. Šī operācija ir noderīga tikai [hibrīda pasūtījuma](./hybrid-customer-orders.md) scenārijā.
 - **Atsaukt pasūtījumu** – Šī operācija tiek izmantota, lai meklētu un izgūtu debitoru pasūtījumus tā, lai POS lietotāji pēc vajadzības varētu rediģēt, atcelt vai veikt ar izpildi saistītās operācijas.
 - **Mainīt piegādes veidu** – Šo operāciju var izmantot, lai ātri mainītu piegādes veidu rindām, kas jau ir konfigurētas nosūtīšanai, nepieprasot, lai lietotāji no jauna izietu cauri plūsmai "nosūtīt visas preces" vai "nosūtīt atlasītās preces".
 - **Depozīta pārlabošana** — Šo operāciju var izmantot, lai izmainītu depozīta summu, ko debitors maksās par atlasīto debitora pasūtījumu.
@@ -128,7 +128,7 @@ Pārliecinieties, ka POS punktā [ekrāna izkārtojums](https://docs.microsoft.c
 Mazumtirdzniecības pasūtījumus, kas ir izveidoti tiešsaistes vai krātuves kanālā, pēc nepieciešamības var atsaukt un rediģēt, izmantojot POS punktu.
 
 > [!IMPORTANT]
-> Ne visus mazumtirdzniecības pasūtījumus var rediģēt, izmantojot POS programmu. Zvanu centra kanālā izveidotos pasūtījumus nevar rediģēt, izmantojot POS punktu, ja iestatījums [Iespējot pasūtījuma pabeigšanu](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ir ieslēgts zvanu centra kanālam. Lai nodrošinātu pareizu maksājuma apstrādi, pasūtījumus, kas radās zvanu centra kanālā un kas izmanto iespējošanas pasūtījuma pabeigšanas funkcionalitāti, ir jārediģē, izmantojot zvanu centra programmu programmā Commerce Headquarters.
+> Ne visus mazumtirdzniecības pasūtījumus var rediģēt, izmantojot POS programmu. Zvanu centra kanālā izveidotos pasūtījumus nevar rediģēt, izmantojot POS punktu, ja iestatījums [Iespējot pasūtījuma pabeigšanu](./set-up-order-processing-options.md#enable-order-completion) ir ieslēgts zvanu centra kanālam. Lai nodrošinātu pareizu maksājuma apstrādi, pasūtījumus, kas radās zvanu centra kanālā un kas izmanto iespējošanas pasūtījuma pabeigšanas funkcionalitāti, ir jārediģē, izmantojot zvanu centra programmu programmā Commerce Headquarters.
 
 Versijā 10.0.17 un jaunākās versijās lietotāji var rediģēt atbilstošos pasūtījumus, izmantojot POS programmu, pat ja pasūtījums ir daļēji izpildīts. Tomēr pasūtījumus, kas ir pilnībā iekļauti rēķinā, joprojām nevar rediģēt, izmantojot POS punktu. Lai iespējotu šo iespēju, ieslēdziet līdzekli **Rediģēt daļēji izpildītos pasūtījumus Pārdošanas punktā** darbvietā **Līdzekļu pārvaldība** . Ja šī funkcija nav iespējota vai ja izmantojat versiju 10.0.16 vai vecāku versiju, POS programmas lietotāji varēs rediģēt debitoru pasūtījumus tikai tad, ja pasūtījums ir atvērts pilnībā. Ja šī funkcija ir aktivizēta, varat ierobežot veikalus, kuros var rediģēt daļēji izpildītus pasūtījumus. Opciju atspējot šo iespēju noteiktiem veikaliem var konfigurēt, izmantojot **Funkcijas profilu** sadaļā **Vispārīgi**.
 
@@ -153,7 +153,7 @@ Versijā 10.0.17 un jaunākās versijās lietotāji var rediģēt atbilstošos p
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Debitora pasūtījuma piegādes vai saņemšanas pabeigšana no POS punkta
 
-Pēc pasūtījuma izveides krājumi tiks saņemti no krātuves atrašanās vietas vai nosūtīti, atkarībā no pasūtījuma konfigurācijas. Plašāku informāciju par šo procesu skatiet [krātuves pasūtījuma izpildes](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview) dokumentācijā.
+Pēc pasūtījuma izveides krājumi tiks saņemti no krātuves atrašanās vietas vai nosūtīti, atkarībā no pasūtījuma konfigurācijas. Plašāku informāciju par šo procesu skatiet [krātuves pasūtījuma izpildes](./order-fulfillment-overview.md) dokumentācijā.
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Asinhrona transakciju plūsma debitoru pasūtījumiem
 

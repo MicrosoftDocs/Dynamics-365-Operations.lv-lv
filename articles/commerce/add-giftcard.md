@@ -2,7 +2,7 @@
 title: Dāvanu kartes modulis
 description: Šajā tēmā aplūkoti Dāvanu kartes moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a4e4e06ab7032d68fcd36a8e80bc714ebaaac821
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8db7e597241f1fd552f6b960c2b57b0ba83da949
+ms.sourcegitcommit: efde05c758b2e02960760d875569d780d77d5550
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797675"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5962767"
 ---
 # <a name="gift-card-module"></a>Dāvanu kartes modulis
 
@@ -34,8 +34,8 @@ Dāvanu kartes modulis var tikt izmantots norēķinu moduļos, lai pieņemtu dā
 
 Ir pieejami divi dāvanu kartes moduļi:
 
-- **Dāvanu karte** - Šo moduli var izmantot izrakstīšanās lapā, lai izpirktu dāvanu karti kā norēķinu. 
-- **Dāvanu kartes bilances pārbaude** - Šo moduli var izmantot jebkurā lapā, lai pārbaudītu dāvanu kartes bilanci. Šis modulis ir pieejams Komercijas izlaidumā 10.0.14 un jaunākās versijās.
+- **Dāvanu karte** – Šo moduli var izmantot izrakstīšanās lapā, lai izpirktu dāvanu karti kā norēķinu. 
+- **Dāvanu kartes bilances pārbaude** – Šo moduli var izmantot jebkurā lapā, lai pārbaudītu dāvanu kartes bilanci. Šis modulis ir pieejams Komercijas izlaidumā 10.0.14 un jaunākās versijās.
 
 > [!NOTE]
 > Dāvanu kartes bilances pārbaudes modulis ir pieejams Dynamics 365 Commerce 10.0.14 laidienā.
@@ -46,7 +46,7 @@ Attēlā zemāk redzams cilnes dāvanu kartes moduļa piemērs norēķināšanā
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
-- **Rādīt papildu laukus** - šis rekvizīts nosaka, kuri lauki ir jārāda dāvanu kartēm papildus dāvanu kartes numuram, kas vienmēr tiek parādīts pēc noklusējuma. Piemēram, dažas dāvanu kartes atbalsta personas identifikācijas numura (PIN) rādīšanu, bet citas atbalsta PIN un beigu datuma parādīšanu. Pretējā gadījumā šis rekvizīts var tikt iestatīts uz "Nav", kas parādītu tikai dāvanu kartes numuru un papildu laukus.
+- **Rādīt papildu laukus** – šis rekvizīts nosaka, kuri lauki ir jārāda dāvanu kartēm papildus dāvanu kartes numuram, kas vienmēr tiek parādīts pēc noklusējuma. Piemēram, dažas dāvanu kartes atbalsta personas identifikācijas numura (PIN) rādīšanu, bet citas atbalsta PIN un beigu datuma parādīšanu. Pretējā gadījumā šis rekvizīts var tikt iestatīts uz "Nav", kas parādītu tikai dāvanu kartes numuru un papildu laukus.
 
 Atbalstītās vērtības:
 -   PIN
@@ -57,12 +57,32 @@ Atbalstītās vērtības:
 ## <a name="site-settings-for-gift-card-modules"></a>Vietas iestatījumi dāvanu karšu moduļiem
 
 Commerce vietnes veidotājā sadaļā **Vietnes iestatījumi \> Paplašinājumi** ir dāvanu kartes moduļa iestatījums ar nosaukumu **Atbalstīto dāvanu karšu veids**. Šis iestatījums atbalsta trīs vērtības:
-- **Dynamics 365 dāvanu karte** — kad tiek lietots šis iestatījums, dāvanu kartes modulis atļauj tikai Dynamics 365 dāvanu karšu izpirkšanu. Šis iestatījums tiek atbalstīts tikai pierakstītiem lietotājiem e-Commerce vietnē.
-- **SVS un GIVEX dāvanu kartes** — kad tiek lietots šis iestatījums, dāvanu kartes modulis atļauj tikai GIVEX un SVS dāvanu karšu izpirkšanu. Šis iestatījums tiek atbalstīts pierakstītiem un anonīmiem lietotājiem e-Commerce vietnē.
-- **Dynamics 365, SVS un GIVEX dāvanu kartes** — kad tiek lietots šis iestatījums, dāvanu kartes modulis atļauj Dynamics 365, GIVEX un SVS dāvanu karšu izpirkšanu. Šis iestatījums tiek atbalstīts tikai pierakstītiem lietotājiem e-Commerce vietnē.
+- **Dynamics 365 dāvanu karte** – kad tiek lietots šis iestatījums, dāvanu kartes modulis atļauj tikai Dynamics 365 dāvanu karšu izpirkšanu. Šis iestatījums tiek atbalstīts tikai pierakstītiem lietotājiem e-Commerce vietnē.
+- **SVS un GIVEX dāvanu kartes** – kad tiek lietots šis iestatījums, dāvanu kartes modulis atļauj tikai GIVEX un SVS dāvanu karšu izpirkšanu. Šis iestatījums tiek atbalstīts pierakstītiem un anonīmiem lietotājiem e-Commerce vietnē.
+- **Dynamics 365, SVS un GIVEX dāvanu kartes** – kad tiek lietots šis iestatījums, dāvanu kartes modulis atļauj Dynamics 365, GIVEX un SVS dāvanu karšu izpirkšanu. Šis iestatījums tiek atbalstīts tikai pierakstītiem lietotājiem e-Commerce vietnē.
 
 > [!IMPORTANT]
 > Šie iestatījumi ir pieejami Dynamics 365 Commerce 10.0.11 versijā, un tie ir nepieciešami tikai tad, ja ir nepieciešams atbalsts SVS vai Givex dāvanu kartēm. Ja veicat atjaunināšanu no vecākas Dynamics 365 Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Norādījumus par faila appsettings.json atjaunināšanu skatiet [SDK un moduļu bibliotēkas atjauninājumi](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
+## <a name="extend-internal-gift-cards-for-use-in-e-commerce-storefronts"></a>Paplašināt iekšējās dāvanu kartes, kas ir izmantojamas E-commerce veikalos
+
+Pēc noklusējuma iekšējās dāvanu kartes nav optimizētas izmantošanai E-commerce veikalos. Tāpēc, pirms atļaut maksājumu veikšanai izmantot iekšējās dāvanu kartes, tās ir jākonfigurē ar paplašinājumiem, kas palīdz padarīt tās drošākas. Šeit ir dāvanu karšu zonas, kas jāpaplašina, pirms atļaujat iekšējās dāvanu kartes izmantot ražošanā:
+
+- **Dāvanu kartes numurs** — numuru sērijas tiek izmantotas, lai ģenerētu dāvanu karšu numurus iekšējām dāvanu kartēm. Tā kā numuru sērijas var viegli prognozēt, ir jāpaplašina dāvanu karšu numuru ģenerēšana, lai izsniegtajiem dāvanu karšu numuriem tiktu izmantotas nejaušā veidā kriptogrāfiski drošas virknes.
+- **GetBalance** - **GetBalance** API tiek izmantots, lai iegūtu dāvanu kartes bilances. Pēc noklusējuma šis API ir publisks. Ja PIN kods nav nepieciešams, lai iegūtu dāvanu karšu bilances, pastāv risks, ka uzbrucējs var izmantot **GetBalance** API, lai mēģinātu uzmeklēt dāvanu karšu numurus, kuriem ir bilances. Ieviešot gan PIN prasības iekšējām dāvanu kartēm, gan API droseli, jūs varat palīdzēt samazināt risku.
+- **PIN** — pēc noklusējuma iekšējās dāvanu kartes neatbalsta PIN. Ir jāpaplašina iekšējās dāvanu kartes tā, lai būtu nepieciešams PIN, lai meklētu bilances. Šo funkcionalitāti var izmantot arī, lai bloķētu dāvanu kartes pēc neveiksmīgiem mēģinājumiem ievadīt PIN.
+
+## <a name="enable-gift-card-payments-for-guest-checkout"></a>Iespējot dāvanu karšu maksājumus viesa norēķināšanai
+
+Pēc noklusējuma dāvanu karšu maksājumi nav iespējoti viesa (anonīma) norēķināšanai. Lai iespējotu tos, izpildiet tālāk aprakstītās darbības.
+
+1. Dodieties uz **Mazumtirdzniecība un komercija \> Kanālu iestatījumi \> POS iestātīšana \> POS \> POS operacijas**.
+1. Atlasiet un turiet režģa virsrakstu (vai noklikšķiniet ar peles labo pogu) un pēc tam atlasiet **Ievietot kolonnas**.
+1. Dialoglodziņā **Ievietot kolonnas** atzīmējiet izvēles rūtiņu **AllowAnonymousAccess**.
+1. Atlasiet **Atjaunināt**.
+1. Operācijām **520** (Dāvanu kartes bilance) un **214** iestatiet **AllowAccessmousAccess** vērtību uz **1**.
+1. Atlasiet **Saglabāt**.
+1. Palaidiet plānotāja darbu **1090**, lai sinhronizētu izmaiņas ar kanālu datu bāzi. 
 
 ## <a name="add-a-gift-card-module-to-a-page"></a>Dāvanu kartes moduļa pievienošana lapā
 

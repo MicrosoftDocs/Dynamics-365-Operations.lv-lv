@@ -1,8 +1,8 @@
 ---
 title: Krājuma bloķēšanas izveide un uzturēšana
-description: Šajā procedūrā parādīts, kā citos izejošos pirmdokumentos neļaut rezervēt fiziski rīcībā esošus krājumus, izmantojot krājumu aizturēšanu.
+description: Šajā tēmā aprakstīts, kā izmantot krājumu aizturēšanu, lai novērstu fiziski rīcībā esošo krājumu rezervēšanu citos izejošajos pirmdokumentos.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834005"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956162"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Krājuma bloķēšanas izveide un uzturēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā citos izejošos pirmdokumentos neļaut rezervēt fiziski rīcībā esošus krājumus, izmantojot krājumu aizturēšanu. Šo procedūru varat palaist demonstrācijas datu uzņēmumā USMF, izmantojot piemēra vērtības. Pirms šīs procedūras uzsākšanas, jums ir jābūt pieejamiem fiziski rīcībā esošiem krājumiem.
+Šajā tēmā aprakstīts, kā izmantot krājumu aizturēšanu, lai novērstu fiziski rīcībā esošo krājumu rezervēšanu citos izejošajos pirmdokumentos. Pirms sākat procedūras šajā tēmā, jābūt krājumam, kuram ir pieejami fiziski rīcībā esošie krājumi.
 
+## <a name="block-inventory"></a>Bloķēt krājumus
 
-## <a name="create-an-inventory-blocking"></a>Krājumu bloķēšanas izveide
-1. **Navigācijas rūtī** ejiet uz **Moduļi > Krājumu pārvaldība > Periodiskie uzdevumi > Krājumu bloķēšana**.
-2. Klikšķiniet **Jauns**.
-3. Laukā **Krājuma kods** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-4. Sarakstā atlasiet krājumu, kuru vēlaties izmantot. Atlasiet krājuma numuru no fiziski rīcībā esošiem krājumiem, kuru vēlaties bloķēt. Ja izmantojat USMF, varat atlasīt krājumu M9201.  
-5. Laukā **Daudzums** ierakstiet kādu skaitli. Ja lietojat krājumu M9201, ir jāatlasa mazāk par 200 vienībām.
-6. Izvērsiet kopsavilkuma cilni **Krājumu izmēri**.
-7. Laukā **Noliktava** noklikšķiniet uz nolaižamās pogas uzmeklēšanas atvēršanai.
-8. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu. Ja izmantojat krājumu M9201, varat atlasīt 51. noliktavu.  
-9. Noklikšķiniet uz **Saglabāt**.
+Lai izveidotu krājuma aizturēšanas ierakstu tā, ka krājumi tiek bloķēti, rīkojieties šādi.
+
+1. Dodieties uz **Krājumu vadība \> Periodiskie uzdevumi \> Krājumu aizturēšana**.
+1. Darbību rūtī atlasiet **Jauns**.
+1. Jaunā aizturēšanas ieraksta virsrakstā iestatiet lauku **Krājuma numurs** precei, kuru vēlaties bloķēt, un ievadiet aprakstu.
+1. Kopsavilkuma cilnē **Vispārīgi** laukā **Daudzums** ievadiet bloķējamo vienumu skaitu.
+1. Kopsavilkuma cilnē **Krājumu dimensijas** norādiet vietu un noliktavu, kur krājumi, ko vēlaties bloķēt, pašlaik atrodas.
+1. Darbību rūtī atlasiet **Saglabāt**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Krājumu bloķēšanas nosacījumu atjaunināšana
-1. Kopsavilkuma cilnē **Vispārīgi** laukā **Daudzums** ievadiet skaitli. Atjauniniet krājumu daudzuma lauku, lai atspoguļotu bloķējamo daudzumu.  
-2. Laukā **Paredzamais datums** ievadiet datumu. Varat norādīt, kad bloķētie krājumi varētu kļūt pieejami rezervācijai, norādot paredzamo datumu. Ja krājumu bloķēšanai ir atlasīta opcija Paredzamā saņemšana, kā tas ir pēc noklusējuma, manuāli izveidojot bloķēšanas pavēli, šis datums tiks attēlots paredzamajā transakcijā.  
-3. Noklikšķiniet uz **Saglabāt**.
 
-## <a name="remove-the-inventory-blocking"></a>Krājuma bloķēšanas noņemšana
-1. **Darbību rūtī** noklikšķiniet uz **Dzēst**.
-2. Noklikšķiniet uz pogas **Jā**.
-3. Aizvērt lapu.
+Lai atjauninātu krājuma aizturēšanas ierakstu, rīkojieties šādi.
 
+1. Dodieties uz **Krājumu vadība \> Periodiskie uzdevumi \> Krājumu aizturēšana**.
+1. Saraksta rūtī atlasiet atbilstošo aizturēšanas ierakstu.
+1. Pēc nepieciešamības rediģējiet ierakstu. Piemēram, var mainīt lauka **Paredzamais datums** vērtību, lai norādītu, kad bloķētajiem krājumiem ir jābūt pieejamiem rezervācijai. Ja ir atlasīta opcija **Plānotie ieņēmumi**, plānotajai transakcijai parādīsies datums. (Opcija **Paredzamā saņemšana** tiek atlasīta pēc noklusējuma, manuāli veidojot aizturēšanas ierakstu.)
+1. Darbību rūtī atlasiet **Saglabāt**.
 
+## <a name="unblock-inventory"></a>Krājumu atbloķēšana
+
+Lai noņemtu krājuma aizturēšanas ierakstu tā, ka krājumi tiek atbloķēti, rīkojieties šādi.
+
+1. Dodieties uz **Krājumu vadība \> Periodiskie uzdevumi \> Krājumu aizturēšana**.
+1. Saraksta rūtī atlasiet atbilstošo aizturēšanas ierakstu.
+1. Darbību rūtī atlasiet **Dzēst**.
+1. Tiek piedāvāts apstiprināt operāciju. Lai turpinātu, atlasiet **Jā**.
+1. Aizvērt lapu.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

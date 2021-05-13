@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890080"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951936"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD plānoto pakešuzdevumu optimizēšana
 
@@ -89,6 +89,12 @@ BYOD līdzeklim ir šādi ierobežojumi:
 **Problēma:** kad elements ir pilnībā novirzīts, jūs redzat lielu ierakstu kopu BYOD, kad izmantojat **Atlasīt** izrakstu. Tomēr, kad veicat pakāpenisko virzību, ir redzami tikai daži ieraksti BYOD. Šķiet, it kā pakāpeniskā virzība dzēsa visus ierakstus un pievienoja tikai mainītos ierakstus BYOD.
 
 **Risinājums:** SQL izmaiņu izsekošanas tabulas var nebūt paredzētajā stāvoklī. Šāda veida gadījumos iesakām izslēgt izmaiņu izsekošanu entītijai un pēc tam to atkal ieslēgt. Lai iegūtu papildu informāciju, skatiet [Iespējot izmaiņu izsekošanu entītijām](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Izstādīšanas tabulas netiek tīrītas
+
+**Problēma:** izmantojot projekta izstādīšanu, izstādīšanas tabulas netiek pareizi notīrītas. Dati tabulās turpina pieaugt, radot veiktspējas problēmas.
+
+**Risinājums:** izstādīšanas tabulās saglabājas septiņas vēstures dienas. Vēsturiskie dati, kas vecāki par septiņām dienām, tiek automātiski notīrīti no izstādīšanas tabulām, izmantojot pakešuzdevumu **Importēšanas eksporta izstādīšanas tīrīšana**. Ja šis darbs iestrēgs, tabulas netiks pareizi notīrītas. Šī pakešuzdevuma restartēšana turpinās procesu, lai automātiski notīrītu izstādīšanas tabulas.
 
 ## <a name="see-also"></a>Skatiet arī
 

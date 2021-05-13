@@ -2,7 +2,7 @@
 title: Elektroniskās rēķinu izveides administrēšanas komponenti
 description: Šajā tēmā sniegta informācija par komponentiem, kas ir saistīti ar Elektronisko rēķinu izrakstīšanas administrēšanu.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840032"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963195"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroniskās rēķinu izveides administrēšanas komponenti
 
@@ -31,7 +31,7 @@ ms.locfileid: "5840032"
 
 ## <a name="azure"></a>Azure
 
-Izmantojiet Microsoft Azure, lai izveidotu noslēpumus atslēgai, kas atrodas krātuves kontā. Tad izmantojiet Elektronisko rēķinu izrakstīšanas konfigurācijas noslēpumus.
+Izmantojiet Microsoft Azure, lai izveidotu noslēpumus Key Vault un krātuves kontam. Tad izmantojiet Elektronisko rēķinu izrakstīšanas konfigurācijas noslēpumus.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -85,12 +85,14 @@ Pakalpojuma vides var pārvaldīt ar statusu. Iespējamās opcijas ir šādas:
 Elektronisko rēķinu izrakstīšana ir atbildīga par visu jūsu uzņēmuma datu glabāšanu Azure resursos, kas pieder jūsu uzņēmumam. Lai nodrošinātu, ka pakalpojums darbojas pareizi un ka visiem biznesa datiem, kas ir nepieciešami un ko ģenerē Elektronisko rēķinu izrakstīšana, ir atbilstoši pieejami, ir jāizveido divi galvenie Azure resursi:
 
 - Azure krātuves konts (BLOB krātuve), kas glabās elektroniskos rēķinus
-- Azure atslēgu glabātuve, kur tiks glabāti sertifikāti un krātuves konta vienoto resursu identifikatoru (URI)
+- Azure Key Vault, kur tiks glabāti sertifikāti un krātuves konta vienoto resursu identifikatoru (URI)
 
-> [!NOTE]
-> Īpašam galvenās akreditācijas datu glabātuvei un debitora krātuves kontam ir jābūt piešķirtiem tieši lietošanai ar Elektronisko rēķinu izrakstīšanu .
 
-Papildinformāciju skatiet šeit: [Azure krātuves konta un galvenās glabātavas izveide](e-invoicing-create-azure-storage-account-key-vault.md).
+Īpašam Key Vault un debitora krātuves kontam ir jābūt piešķirtiem tieši lietošanai ar Elektronisko rēķinu izrakstīšanu . Papildinformāciju skatiet šeit: [Azure krātuves konta un Key Vault izveide](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Lai pārraudzītu savas Key Vault darbspēju un saņemtu brīdinājumus, konfigurējiet Azure Monitor pakalpojumam Key Vault. Aktivizējot Key Vault reģistrāciju, var pārraudzīt, kad un kam ir piekļuve Key Vault. Papildinformāciju skatiet [Azure Key Vault uzraudzība un brīdināšana](/azure/key-vault/general/alert) un [Kā iespējot Key Vault reģistrāciju](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Kā labākā prakse - periodiski pagriezt noslēpumus. Papildinformāciju skatiet [Noslēpumu dokumentācijā](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Lietotāji
 

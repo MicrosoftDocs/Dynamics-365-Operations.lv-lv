@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890780"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941144"
 ---
 # <a name="regulatory-updates"></a>Regulēšanas atjauninājumi
 
@@ -47,6 +47,7 @@ Informāciju par jaunākajiem normatīvo atjauninājumu plāniem skatiet nākama
 |      Brazīlija         |   2020. oktobris      | 10.0.16      |   DRCST deklarācija SC — SED 262/2020   |
 |      Brazīlija         |   2020. oktobris      | 10.0.16      |   Fiskālā SPED ICMS/IPI ieraksts C176   |
 |      Brazīlija         |   2020. decembris      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 – digitālās platformas starpnieka identifikācija (izkārtojuma un validācijas noteikumu atjaunināšana)   |
+|      Brazīlija         |   2021. marts         | 10.0.17, 10.0.18, 10.0.19         |    SPED REINF izkārtojums 1.5.1
 |      Eiropa        |   2021. janvāris       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Breksits – Ziemeļīrijas protokola ietekme uz kopienas iekšējās tirdzniecības pārskatiem ES valstīs  |
 |      Vācija        |   2021. janvāris       | 10.0.16HF      |   ELSTER UstVA PVN avansa paziņojuma formāts tika pagarināts ar diviem jauniem lodziņiem 37,50 par neatgūstamiem parādiem norakstīšanai  |
 |      Vācija        |   2021. janvāris       | 10.0.17      |   Izmaiņas ELSTER PVN avansa paziņojuma XML struktūrā (UstVA)  |

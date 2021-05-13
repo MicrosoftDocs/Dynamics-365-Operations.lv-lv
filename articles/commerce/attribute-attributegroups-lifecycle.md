@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797261"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936808"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribūtu un atribūtu grupu pārvaldība
 
@@ -101,7 +101,7 @@ Tālāk ir sniegtas pārējās lapā **Atribūti** pieejamās atribūtu metadatu
 
 Šīs opcijas ir sākotnēji paredzētas, lai uzlabotu tiešsaistes tīmekļa vitrīnas meklēšanas funkcionalitāti. Lai gan Commerce standarta komplektācija nav ietverta tiešsaistes tīmekļa vitrīna, tajā ir ietverts eCommerce publicēšanas programmatūras izstrādes komplekts (SDK). Debitori var izmantot šo SDK produktu ievietošanai vēlamajā meklēšanas indeksā. Lai gan preču dati tika importēti, debitori joprojām var atšķirt meklējamos datus, vaicājumā ietveramos datus utt. Tādā veidā var veidot optimālu indeksu, nodrošinot, ka viņu indekss attiecas tikai uz to, kas, *viņuprāt*, ir jāindeksē.
 
-Informāciju par šo pārējo opciju mērķi skatiet rakstā [Server 2013 SharePoint meklēšanas shēmas apskats](https://technet.microsoft.com/library/jj219669.aspx).
+Informāciju par šo pārējo opciju mērķi skatiet rakstā [Server 2013 SharePoint meklēšanas shēmas apskats](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Atribūtu filtra iestatījumi
 

@@ -1,5 +1,5 @@
 ---
-title: Kreditora rēķina ieraksta darbvieta
+title: Kreditora rēķina automatizācijas darbvieta
 description: Šajā tēmā ir paskaidrots, kā iestatīt darbvietu, kas saistīta ar kreditora rēķiniem, un kas parāda informāciju, kura pieejama izmantojot programmu Microsoft Power BI.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837263"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954139"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Kreditora rēķina ieraksta darbvieta
+# <a name="vendor-invoice-automation-workspace"></a>Kreditora rēķina automatizācijas darbvieta
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "5837263"
 
 ## <a name="overview"></a>Pārskats
 
-Darbvietā **Kreditoru rēķina ieraksts** tiek rādīta informācija, kas ir saistīta ar kreditora rēķina apstrādi. Tajā ir ietverts skats **Mans darbs** un lapa **Analīze — visi uzņēmumi**. Skatā **Mans darbs** tiek rādīti kopsavilkuma elementi, kreditoru transakciju režģi un saistītā kreditoru informācija. Lapā **Analīze — visi uzņēmumi** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar kreditora rēķiniem saistītās vizualizācijas.
+Darbvietā **Kreditoru rēķina automatizācija** tiek rādīta informācija, kas ir saistīta ar kreditora rēķina apstrādi. Tajā ir ietverts skats **Mans darbs** un lapa **Analīze — visi uzņēmumi**. Skatā **Mans darbs** tiek rādīti kopsavilkuma elementi, kreditoru transakciju režģi un saistītā kreditoru informācija. Lapā **Analīze — visi uzņēmumi** tiek izmantotas Microsoft Power BI iespējas, lai parādītu ar kreditora rēķiniem saistītās vizualizācijas.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Darbvietas iestatīšana, lai rādītu Power BI saturu
 
-Šis iestatījums ir jāpabeidz, pirms dati var tikt parādīti Power BI vizualizācijās, kas atrodas darbvietā **Kreditora rēķina ieraksts**.
+Šis iestatījums ir jāpabeidz, pirms dati var tikt parādīti Power BI vizualizācijās, kas atrodas darbvietā **Kreditora rēķina automatizācija**.
 
 1. Darbvietā **Līdzekļu pārvaldība** filtrējiet sarakstu, lai atrastu līdzekli **Kreditora rēķina automatizācija**.
 3. Atlasiet **Iespējot tagad**.
@@ -54,7 +54,7 @@ Lai skatītu informāciju, kas parādīta darbvietā, ir jābūt kreditoru pārv
 
 ### <a name="company-selection"></a>Uzņēmuma atlasīšana
 
-Kad ir ieslēgts līdzeklis **Automatizēt kreditora rēķinus**, darbvietas augšpusē tiek parādīts lauks **Uzņēmums**. Atlase laukā **Uzņēmums** ietekmē visu darbvietā parādīto informāciju. Pēc noklusējuma skats parāda informāciju par uzņēmumu, kurā esat pierakstījies. Laukā **Uzņēmums** atlasot citu uzņēmumu, darbvietā varat parādīt informāciju par šo uzņēmumu. Pēc tam varat atlasīt kādu no darbvietas elementiem, lai atlasītajā uzņēmumā dotos uz saistīto lapu.
+Kad ir ieslēgts līdzeklis **Kreditora rēķina automatizācija**, darbvietas augšpusē tiek parādīts lauks **Uzņēmums**. Atlase laukā **Uzņēmums** ietekmē visu darbvietā parādīto informāciju. Pēc noklusējuma skats parāda informāciju par uzņēmumu, kurā esat pierakstījies. Laukā **Uzņēmums** atlasot citu uzņēmumu, darbvietā varat parādīt informāciju par šo uzņēmumu. Pēc tam varat atlasīt kādu no darbvietas elementiem, lai atlasītajā uzņēmumā dotos uz saistīto lapu.
 
 ### <a name="summary-tiles"></a>Kopsavilkuma elementi
 

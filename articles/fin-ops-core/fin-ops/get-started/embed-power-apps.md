@@ -2,7 +2,7 @@
 title: Iegult pamatnes programmas no Power Apps
 description: Šajā tēmā ir paskaidrots, kā iegult pamatnes programmas no pakalpojuma Microsoft Power Apps klientā, lai atbalstītu produkta funkcionalitāti.
 author: jasongre
-ms.date: 11/03/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,35 +13,36 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 7b20d24f79bd84f516e005b9d4a0ecdf6ef848fc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 18146ce5ab081b3a6376bf412805016b04da6a11
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752894"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944683"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Iegult pamatnes programmas no Power Apps
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps ir pakalpojums, kas sniedz iespējas izstrādātājiem un ar tehniku nesaistītiem lietotājiem būvēt pielāgotas biznesa programmas mobilajām ierīcēm, planšetdatoriem un tīmeklim bez nepieciešamības rakstīt kodu. Finance and Operations programmas atbalsta integrāciju ar Power Apps. Jūsu, jūsu organizācijas vai plašākas ekosistēmas izstrādātās pamatnes programma var iegult Finance and Operations programmās klientā produkta funkcionalitātes atbalstam. Piemēram, varat izveidot pamatnes programmu no Power Apps, lai papildinātu programmu Finance and Operations ar informāciju, kura tiek izgūta no citas sistēmas.
 
-Lai uzzinātu vairāk par Power Apps iegulšanu, noskatieties īso video [Kā iegult Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY) .
+Lai uzzinātu vairāk par pamatnes programmu iegulšanu, noskatieties īso video [Pamatnes programmu iegulšana](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Iegultas pamatnes programmas pievienošana no Power Apps lapai
 
 ### <a name="overview"></a>Pārskats
 
-Pirms pamatnes programma iegulšanas no Power Apps klientā vispirms ir jāatrod vai jāizveido pakalpojums, kas ietver vēlamo vizuālo informāciju vai funkcionalitāti. Šajā tēmā nav ietverta detalizēta informācija par programmu veidošanas procesu. Ja pirmo reizi izmantojat Power Apps, skatiet [Power Apps dokumentācija](https://docs.microsoft.com/powerapps/).
+Pirms pamatnes programma iegulšanas no Power Apps klientā vispirms ir jāatrod vai jāizveido pakalpojums, kas ietver vēlamo vizuālo informāciju vai funkcionalitāti. Šajā tēmā nav ietverta detalizēta informācija par programmu veidošanas procesu. Ja pirmo reizi izmantojat Power Apps, skatiet [Power Apps dokumentācija](/powerapps/).
 
 Ir divi veidi, kā piekļūt noteiktai pamatnes programmai lapā, kad esat gatavs iegult programmu. Varat izvēlēties, kurš risinājums ir piemērotāks jūsu scenārijam. Pirmais risinājums izmanto **Power Apps** pogu, kas tika pievienota standarta darbības rūtīm. Programmas, ko pievienojat, izmantojot šo pieeju, parādās kā **Power Apps** izvēlnes pogas vienumi. Atlasot vienu no šiem vienumiem, tiek paradīta sānu rūts, kura ietver iegulto pakalpojumu. Vai arī pakalpojumu var iegult tieši lapā kā jaunu cilni, kopsavilkuma cilni vai paneli, vai kā jaunu darbvietas sadaļu.
 
 Konfigurējot iegulto pamatnes programmu, var atlasīt vienu lauku, kuru vēlaties nosūtīt uz programma kā kontekstu. Šī darbība ļauj programmai reaģēt atbilstoši datiem, kuri pašlaik tiek skatīti.
 
 > [!NOTE]
-> Pašlaik nevarat izmantot šo mehānismu, lai iegultu modelētas programmas.  
+> Pašlaik nevarat izmantot šo mehānismu, lai iegultu modeļa vadītas programmas.  
 
-### <a name="details"></a>Detaļas
+### <a name="details"></a>Detalizētā informācija
 
 Šī procedūra parāda, kā iegult pamatnes programmu no Power Apps tīmekļa vietnes klientā.
 
@@ -55,7 +56,8 @@ Konfigurējot iegulto pamatnes programmu, var atlasīt vienu lauku, kuru vēlati
 
     - Laukā **Nosaukums** ir norādīts teksts, kas ir redzams uz pogas vai cilnes, kas ietvers iegulto pakalpojumu. Iespējams, ka pakalpojuma nosaukums šajā laukā ir jāatkārto bieži.
     - Lauks **Programmas ID** norāda vispārēji unikālu identifikatoru (globally unique identifier - GUID) pamatnes programmai, ko vēlaties iegult. Lai izgūtu šo vērtību, atrodiet pakalpojumu lapā [make.powerapps.com](https://make.powerapps.com) un pēc tam skatiet sadaļas **Detalizēta informācija** lauku **Programmas ID**.
-    - Izmantojot opciju **Pakalpojuma ievades konteksts**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu kā ievadi. Skatiet tālāk šajā tēmā sadaļu ar nosaukumu [Tādas programmas izveide, kas piesaista datus, kas nosūtīti no Finance and Operations programmām](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps), lai iegūtu sīkāku informāciju par to, kā pakalpojums var piekļūt datiem, kas nosūtīti no programmām Finance and Operations.
+    - Izmantojot opciju **Pakalpojuma ievades konteksts**, var pēc izvēles atlasīt lauku, kas ietver datus, kurus vēlaties nosūtīt uz pakalpojumu kā ievadi. Detalizētu informāciju par to, kā programma var piekļūt datiem, kas tiek sūtīti no Finance and Operations programmām, skatiet šo sadaļu tālāk šajā tēmā ar nosaukumu [Tādas programmas izveide, kas piesaista datus, kas nosūtīti no Finance and Operations programmām](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps). 
+        - Sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta kā konteksts pamatnes programmā, izmantojot **cmp** URL parametru. Tas neietekmēs mērķa pamatnes programmu, līdz šī programma neizmanto šo informāciju. 
     - Atlasiet opciju **Programmas izmērs**, kas atbilst iegulšanai paredzētajam pakalpojuma veidam. Atlasiet opciju **Plāns** mobilajām ierīcēm izveidotajiem pakalpojumiem un **Plašs** planšetdatoriem izveidotajiem pakalpojumiem. Tādējādi iegultajam pakalpojumam tiek nodrošināts pietiekami daudz vietas.
     - Kopsavilkuma cilnē **Juridiskas personas** var izvēlēties, kurām juridiskajām personām ir pieejams pakalpojums. Noklusējuma iestatījums ir nodrošina pakalpojuma pieejamību visām juridiskajām personām. Šī opcija ir pieejama tikai tad, ja ir atspējots līdzeklis [Saglabātie skati](saved-views.md). 
 
@@ -65,7 +67,7 @@ Konfigurējot iegulto pamatnes programmu, var atlasīt vienu lauku, kuru vēlati
 
 Kad pamatnes programma lapā ir iegulta un ir apstiprināts, ka tā darbojas pareizi ar visu datu kontekstu, kas ir nosūtīts no šīs lapas, šo programmu var koplietot ar citiem lietotājiem sistēmā. Lai koplietotu iegultu pamatnes programmu, rīkojieties šādi.
 
-1. [Kopīgot pamatnes programmu](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) ar atbilstošajiem lietotājiem, lai viņi varētu piekļūt programmai Power Apps. 
+1. [Kopīgot pamatnes programmu](/powerapps/maker/canvas-apps/share-app) ar atbilstošajiem lietotājiem, lai viņi varētu piekļūt programmai Power Apps. 
 
 2. Pārliecinieties, vai mērķa lietotājiem ir atbilstošas personalizācijas, lai iegultā programma parādās, kad šie lietotāji apskata lapu. Jūs variet izmantot jebkuru no sekojošiem risinājumiem.
 
@@ -79,12 +81,14 @@ Lai iegūtu sīkāku informāciju par personalizēšanas iespējām produktā un
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Pamatnes programmas izveide, kas izmanto no programmām Finance and Operations nosūtītos datus
 
-Kad izveidojat pamatnes programmu, kas tiks iegulta Finance and Operations lietojumprogrammā, viena svarīga procesa daļa ir izmantot ievades datus no šīs Finance and Operations programmas. Pakalpojuma Power Apps izstrādes pieredze rāda, ka Finance and Operations programmas nodotajiem ievades datiem var piekļūt, izmantojot mainīgo vērtību **Param("Entityld")**.
+Kad izveidojat pamatnes programmu, kas tiks iegulta Finance and Operations lietojumprogrammā, viena svarīga procesa daļa ir izmantot ievades datus no šīs Finance and Operations programmas. Pakalpojuma Power Apps izstrādes pieredze rāda, ka Finance and Operations programmas nodotajiem ievades datiem var piekļūt, izmantojot mainīgo vērtību **Param("Entityld")**. Turklāt, sākot ar versiju 10.0.19, pašreizējā juridiskā persona arī tiks pārsūtīta pamatnes programmā, izmantojot **Param("cmp")** mainīgo. 
 
 FPiemēram, pakalpojuma funkcijā OnStart var iestatīt programmu Finance and Operations ievades datus kā mainīgo vērtību, kā norādīts tālāk.
 
-```powerapps
+``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
+
+If(!IsBlank(Param("cmp")), Set(FinOpsInput, Param("cmp")), Set(FinOpsLegalEntity, ""));
 ```
 
 ## <a name="viewing-a-canvas-app"></a>Pamatnes programmas skatīšana
@@ -112,6 +116,11 @@ Kad pakalpojuma iegulšana lapā ir pabeigta, to, ja nepieciešams, var noņemt 
 - Tā kā iegultais pakalpojums ir saglabāts kā personalizācijas dati, notīrot lapas personalizācijas datus, tiek noņemti visi šajā lapā iegultie pakalpojumi. Ņemiet vērā, ka lapas personalizācijas datu notīrīšana ir neatgriezenisks process, un to nevar atsaukt. Lai noņemtu lapā konkrētos personalizācijas datus, atlasiet **Opcijas**, tad **Personalizēt šo lapu**, un pēc tam pogu **Notīrīt**. Veicot pārlūkprogrammas atsvaidzināšanu, visi šīs lapas iepriekšējie personalizācijas dati ir noņemti. Lai iegūtu sīkāku informāciju par to, kā optimizēt lapas, izmantojot personalizēšanu, skatiet tēmu [Lietotāja pieredzes personalizēšana](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Pielikums
+
+### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Izstrādātājs] Pamatnes programmas modelēšana formā
+
+Lai gan šajā tēmā galvenā uzmanība pievērsta pamatnes programmu iegulšanai, izmantojot personalizēšanu, izstrādātājiem ir arī iespēja formai pievienot pamatnes programmu, izmantojot Visual Studio izstrādes pieredzi. Lai to paveiktu, formai vienkārši pievienojiet PowerAppsHostControl. Kontrolei pieejamie metadatu rekvizīti nodrošina tādas pašas iespējas kā personalizēšanas pieredzei.
+
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Izstrādātājs] Programmas iegulšanas vietas norādīšana
 

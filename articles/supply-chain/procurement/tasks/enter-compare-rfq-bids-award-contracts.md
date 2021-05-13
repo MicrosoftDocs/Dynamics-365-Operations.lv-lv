@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811994"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920585"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>PP piedāvājumu ievade un salīdzināšana un līgumu piešķiršana
 
@@ -32,7 +32,7 @@ Varat ievadīt piedāvājumu vai nu kā kreditors, vai kā sagādes speciālists
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Atbildes ievadīšana kreditora lomā
 
-1. Informācijas panelī atlasiet **Piegādātāja piedāvājuma izteikšana**.
+1. Atvēriet **Kreditoru sadarbība \> Darbvietas \> Kreditora cenu noteikšana**.
 2. Sarakstā **Jauni aicinājumi izteikt piedāvājumus** atrodiet nupat nosūtīto PP. Atlasiet PP, lai pārskatītu pieprasīto informāciju.
 3. Atlasiet **PP pielikumi**, lai pārskatītu pievienotos pielikumus.
 4. Atlasiet **Piedāvājums**, lai laukus padarītu rediģējamus. Ņemiet vērā, ka laukā **Piedāvājuma norise** ir iestatīta vērtība **Kreditors atjaunina**.

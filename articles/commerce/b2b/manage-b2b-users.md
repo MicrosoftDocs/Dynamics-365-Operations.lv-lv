@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799857"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936660"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Biznesa partneru lietotāju pārvaldīšana B2B e-komercijas tīmekļa vietnēs
 
@@ -43,7 +43,7 @@ Lai ieslēgtu B2B e-komercijas iespēju līdzeki Commerce Headquarters, veiciet 
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Numuru sērijas izveidošana un pievienošana Commerce kopīgotajiem parametriem
 
-Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus identifikatorus pamatdatu ierakstiem un transakciju ierakstiem, kam ir nepieciešami identifikatori. Papildinformāciju par numuru sērijām skatiet nodaļā [Numuru sēriju pārskats](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Numuru sērijas tiek izmantotas, lai ģenerētu lasāmus, unikālus identifikatorus pamatdatu ierakstiem un transakciju ierakstiem, kam ir nepieciešami identifikatori. Papildinformāciju par numuru sērijām skatiet nodaļā [Numuru sēriju pārskats](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 Lai izveidotu numuru sēriju un to pievienotu Commerce kopīgotajiem parametriem komponentā Commerce Headquarters, veiciet tālāk norādītās darbības.
 
@@ -136,7 +136,7 @@ Lai pievienotu biznesa partnerus un lietotājus Commerce Headquarters, veiciet t
 
 [Preču daudzuma ierobežojumu iestatīšana B2B e-komercijas vietnēs](quantity-limits.md)
 
-[Pārskats par numuru sērijām](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Pārskats par numuru sērijām](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

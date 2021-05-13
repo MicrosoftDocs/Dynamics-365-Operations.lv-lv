@@ -2,7 +2,7 @@
 title: Brīvā laika pieprasīšana
 description: Brīvā laika pieprasīšana pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790696"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924858"
 ---
 # <a name="request-time-off"></a>Brīvā laika pieprasīšana
 
@@ -45,7 +45,7 @@ Varat iesniegt brīvā laika pieprasījumus, skatīt atvaļinājumu un prombūtn
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Pielikuma pievienošana esošam pieprasījumam
 
-Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam. 
+Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat arī skatīt visus saistītos pieprasījumus noteiktam datumam.
 
 ## <a name="view-leave-balances"></a>Skatīt atvaļinājumu bilances
 
@@ -58,6 +58,20 @@ Atjauninot esošo vienreizējo pieprasījumu, varat pievienot pielikumu. Varat a
 1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.
 
 2. Lai skatītu apstiprinātos brīvā laika pieprasījumus, izvēlieties **Apstiprinātais brīvais laiks**. Lai skatītu gaidošos brīvā laika pieprasījumus, atlasiet **Brīvā laika pieprasījumi**.
+
+## <a name="cancel-time-off-requests"></a>Prombūtnes pieprasījumu atcelšana
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Skatīt brīvo laiku** rūtī **Brīvā laika bilances**.
+
+2. Veidlapā **Brīvais laiks** atlasiet vienu vai vairākus atcelšanas pieprasījumus.
+
+3. Atlasiet pogu **Atcelt**.
+
+4. Rūtī **Atcelšanas detaļas** ievadiet komentāru un pēc tam atlasiet **Iesniegt**.
+
+   ![Atcelt atvaļinājuma pieprasījumu](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Skatiet arī
 

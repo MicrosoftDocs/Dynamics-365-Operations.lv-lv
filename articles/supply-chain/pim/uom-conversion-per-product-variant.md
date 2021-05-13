@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eaa20f9a8f145fa8d44bfe77cc85f4dc565c2d27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841507"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921221"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mērvienību konvertēšana katram preces variantam
 
@@ -103,7 +103,7 @@ Lai eksportētu mērvienību pārveidošanu uz Excel, lapā **Mērvienību pārv
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Mērvienības pārvaldība](tasks/manage-unit-measure.md)
+[Mērvienību pārvaldība](tasks/manage-unit-measure.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

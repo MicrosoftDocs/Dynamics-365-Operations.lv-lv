@@ -4,18 +4,17 @@ description: Šajā tēmā ir aprakstīta dubultās rakstīšanas Puses un glob�
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e7bec58f8094a1448017822e7d8840368cc482b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
+ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750792"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937890"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -23,166 +22,283 @@ ms.locfileid: "5750792"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Puse un globālā adrešu grāmata ir jēdzieni Finance and Operations lietojumprogrammās. Puse var būt organizācija vai persona. Ir ērti globāli glabāt un pārvaldīt **Puses** rekvizītus, piemēram, nosaukumu, valodu, kontaktpersonas un adreses. Ja īpašuma vērtība mainās vienā vietā, tā atspoguļojas visās vietās, kur **Puse** ir iesaistīta.
+*Puse* un *globālā adrešu grāmata* ir jēdzieni Finance and Operations lietojumprogrammās. Puse var būt organizācija vai persona. Ir ērti globāli glabāt un pārvaldīt puses rekvizītus, piemēram, nosaukumu, valodu, kontaktpersonas un adreses. Tad, ja īpašuma vērtība mainās vienā vietā, izmaiņas atspoguļojas visās vietās, kur puse ir iesaistīta.
 
 ## <a name="party"></a>Puse
 
-Jēdziens *Puse* nozīme uzņēmumā iesaistīta persona vai organizācija. Izmantojot Puses koncepciju, personai vai organizācijai uzņēmumā var būt vairāk nekā viena loma (darbinieks, klients, piegādātājs vai kontaktpersona). Lomas pamatā ir konteksts un mērķis. Lūk, daži piemēri no diviem fiktīviem uzņēmumiem – Contoso un Fabrikam.
+Puse ir persona vai organizācija, kas ir iesaistīta biznesā. Ja tiek izmantots puses jēdziens, personai vai organizācijai uzņēmumā var būt vairāk nekā viena loma (piemēram, darbinieks, klients, piegādātājs vai kontaktpersona). Lomas pamatā ir konteksts un mērķis. Lūk, daži lomu piemēri no diviem fiktīviem uzņēmumiem – Contoso un Fabrikam:
 
-+ **Nodarbinātais**: darbinieks. Piemēram, Contoso darbinieks.
-+ **Kreditors**: piegādātāju organizācija vai vienīgais īpašnieks, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Piemēram, ja Fabrikam pārdod krājumus Contoso, tad Fabrikam ir kreditora lomā.
-+ **Kontaktpersona** : persona, ar kuru jāsazinās. Piemēram, ja Contoso pērk krājumus no Fabrikam, Contoso darbinieks sazināsies ar kontaktpersonu Fabrikam.
-+ **Debitors**: klients ir persona vai uzņēmums, kas pērk lietas no uzņēmuma. Piemēram, ja Contoso pērk krājumus no Fabrikam, tad Contoso ir Fabrikam debitors.
++ **Nodarbinātais** - darbinieks. Piemērs ir Contoso darbinieks.
++ **Kreditors** - piegādātāju organizācija vai vienīgais īpašnieks, kas piegādā preces vai sniedz pakalpojumus uzņēmumam. Piemēram, ja Fabrikam pārdod krājumus Contoso, Fabrikam ir Contoso kreditors.
++ **Kontaktpersona** - persona, ar kuru jāsazinās. Piemēram, ja Contoso pērk krājumus no Fabrikam, Contoso darbinieki sazināsies ar kontaktpersonu Fabrikam.
++ **Debitors** - persona vai uzņēmums, kas pērk lietas no uzņēmuma. Piemēram, ja Contoso pērk krājumus no Fabrikam, Contoso ir Fabrikam debitors.
 
 Puses modelis bieži tiek izmantots, lai pārstāvētu vidējas un sarežģītas attiecības starp organizācijām un cilvēkiem, jo īpaši, ja pusei ir vairāk nekā viena loma. Tālāk ir sniegti daži izplatīti piemēri.
 
-+ Puse var būt gan debitors, gan kreditors. Piemēram, Ziemeļamerikā Fabrikam pārdod elektriskos vadus Contoso un iepērk samontētus skaļruņus no Contoso. Eiropā Fabrikam pārdod detaļas Contoso, bet neko nepērk no Contoso.
++ Puse var būt gan debitors, gan kreditors. Piemēram, Ziemeļamerikā Fabrikam pārdod elektriskos vadus Contoso un iepērk samontētus skaļruņus no Contoso. Eiropā Fabrikam pārdod detaļas Contoso, bet tas neko nepērk no Contoso.
 + Puse var būt gan darbinieks, gan debitors. Piemēram, Contoso darbinieks pērk elektroniku no Contoso personiskai lietošanai.
-+ Starp personu un organizāciju var būt attiecības daudzi pret daudziem. Piemēram, Fabrikam sniedz pakalpojumu speciālistus un nodarbina prakses koordinatoru. Koordinators atbilst servisa speciālistiem par vairāku Fabrikam klientu darba pieprasījumiem. Contoso ir viens no klientu kontiem. Kad Contoso ir nepieciešams speciālists, Contoso sazinās ar koordinatoru, kurš pēc tam atvieglo pieprasījumu. Koordinators apstrādā pieprasījumus visiem klientiem, izveidojot relāciju daudzi pret daudziem.
++ Starp personu un organizāciju var būt attiecības daudzi pret daudziem (N:N). Piemēram, Fabrikam sniedz pakalpojumu speciālistus un nodarbina prakses koordinatoru. Norīkojuma koordinators atbilst servisa speciālistiem par vairāku Fabrikam klientu darba pieprasījumiem. Contoso ir viens no Fabrikam debitoriem. Kad Contoso ir nepieciešams pakalpojuma speciālists, tas sazinās ar norīkojuma koordinatoru, kurš pēc tam atvieglo pieprasījumu. Tā kā norīkojuma koordinators apstrādā pieprasījumus visiem debitoriem, ir iesaistītas N:N attiecības.
 
-Šajā attēlā redzams Puses datu modelis:
+Šajā attēlā redzams puses datu modelis.
 
 ![Puses datu modelis](media/party-gab-image1.png)
 
-> [!Tip]
-> Mēģinot izveidot jaunu konta ierakstu, izmantojiet lauku "Puse", lai meklētu ierakstu pēc nosaukuma. Gadījumā, ja atrodat ierakstu, jums vienkārši jāatlasa ieraksts. Sistēma automātiski aizpilda visus datus no puses. Nav manuāli jāievada visi nepieciešamie lauki. Šo darbību var atrast konta, kontaktpersonu un kreditoru izsūtāmajās veidlapās.
+> [!TIP]
+> Mēģinot izveidot jaunu konta ierakstu, izmantojiet lauku **Puse**, lai meklētu ierakstu pēc nosaukuma. Šādā veidā, ja atrodat ierakstu, tas ir tikai jāatlasa. Tad sistēma automātiski aizpilda visus datus no puses. Nav manuāli jāiestāta visi nepieciešamie lauki. Šo darbību var atrast ārpus saraksta lapas **Konts**, **Kontaktpersona** un **Kreditors**.
 
-Ne visas Finance and Operations programmu pušu lomas tiek atbalstītas ar dubultu raksti. Pilnu pušu lomu sarakstu skatiet rakstā [Globālās adrešu grāmatas pārskats](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Dubultrakstīšana neatbalsta visas puses Finance and Operations programmu lomas. Pilnu pušu lomu sarakstu skatiet rakstā [Globālās adrešu grāmatas pārskats](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Globālā adrešu grāmata
 
 Globālā adrešu grāmata ir to organizāciju un privātpersonu pasta un elektronisko adrešu katalogs, kas piedalās uzņēmumā.
 
-Globālajā adrešu grāmatā tiek glabāts un apstrādāts tik daudz pasta adrešu un elektronisko adrešu, cik nepieciešams. Piemēram, pieņemsim, ka Fabrikam ir gāzes stacijas 50 vietās. Katrai atrašanās vietai ir atšķirīga pasta adrese, e-pasts un tālruņa numurs. Par visiem biznesa pirkumiem tiek izrakstīts rēķins uz galveno gāzes staciju, bet pirkumi tiek nosūtīti tieši uz konkrēto gāzes staciju, kas pieprasīja pirkumu. Globālajā adrešu grāmatā galvenā gāzes stacija tiek glabāta kā rēķina adrese un katra gāzes stacija kā Fabrikam piegādes adrese. Adreses var saglabāt vienu reizi un pēc vajadzības izgūt piedāvājumiem un pasūtījumiem.
+Globālajā adrešu grāmatā tiek glabāts un apstrādāts tik daudz pasta adrešu un elektronisko adrešu, cik nepieciešams. Piemēram, Fabrikam ir gāzes stacijas 50 vietās. Katrai atrašanās vietai ir atšķirīga pasta adrese, e-pasta adrese un tālruņa numurs. Par visiem biznesa pirkumiem tiek izrakstīts rēķins uz galveno gāzes staciju, bet tie tiek nosūtīti tieši uz konkrēto gāzes staciju, kas pieprasīja pirkumu. Globālajā adrešu grāmatā galvenā gāzes stacija tiek glabāta kā Fabrikam rēķina adrese un glabā katru gāzes staciju kā piegādes adresi. Adreses var saglabāt vienu reizi un pēc tam tās izgūt, kā tas nepieciešams piedāvājumiem un pasūtījumiem.
 
-Personai vai organizācijai var būt vairākas lomas, pamatojoties uz biznesa kontekstu. To darot, viņu pasta adreses un elektroniskās adreses var būt vienādas. Šajā gadījumā adreses maiņai vienā lomā jāparādās otrā lomā un otrādi. Globālā adrešu grāmata saglabā un apstrādā adreses visā pasaulē.
+Atkarībā no biznesa konteksta personai vai organizācijai var būt vairāk nekā viena loma, un visām lomām var izmantot vienādu pasta adresi un elektronisko adresi. Šajā gadījumā adreses maiņai vienā lomā jāparādās visās pārējās lomās. Globālā adrešu grāmata saglabā un apstrādā adreses visā pasaulē.
+
+Sekojošajā attēlā ir parādītas globālās adrešu grāmatas datu modelis.
 
 ![Globālās adrešu grāmatas datu modelis](media/party-gab-image2.png)
 
-## <a name="contacts"></a>Kontaktpersonas
+## <a name="contact"></a>Kontaktpersona
 
-Customer Engagement programmās *Kontaktpersona* ir persona. Tomēr tabula **Kontaktpersona** ir pārslogota, lai pārstāvētu personu, portāla lietotāju, B2C klientu vai kreditoru. Pārstāvība ir netieša, un jūs nevarat noteikt atšķirību, neizmeklējot saistītos darījumus. Tabulai **Kontaktpersona** ir ierobežota attiecība 1:1 ar tabulu **Konts**. Puses un globālās adrešu grāmatas modeļa daļu, dubultā rakstīšana ievieš skaidrus klasifikācijas rekvizītus, un dubultā rakstīšana pieļauj N:N attiecības starp **Kontaktpersonu** un organizāciju (uzņēmuma entītiju vai kreditora entītiju).
+Customer Engagement programmās kontaktpersona ir persona. Tomēr tabula **Kontaktpersona** ir pārslogota, lai pārstāvētu personu, portāla lietotāju, uzņēmums-patērētājs (B2C) klientu vai kreditoru. Pārstāvība ir netieša, un jūs nevarat noteikt atšķirību, neizmeklējot saistītos darījumus. Tabulai **Kontaktpersona** ir ierobežota attiecība viens pret vienu (1:1) ar tabulu **Konts**. Kā puses un globālās adrešu grāmatas modeļa daļa dubultā rakstīšana ievieš precīzus klasifikācijas rekvizītus un pieļauj N:N attiecības starp kontaktpersonu, kas ir persona un organizācija (**Konts** vai **Kreditors** entītijas).
 
 Ir divu veidu **Kontaktpersonas** rindas:
 
-+ Svītrota kontaktpersona — kontaktpersonas rinda ar obligātu vērtību laukā **Uzņēmums**.
-+ Nesaskaņota kontaktpersona — kontaktpersonas rinda ar tukšu lauku **Uzņēmums**.
++ **Svītrota kontaktpersona** — rinda **Kontaktpersona**, kur laukam **Uzņēmums** ir obligāta vērtība.
++ **Nesaskaņota kontaktpersona** — Rinda **Kontaktpersona**, kur lauks **Uzņēmums** ir tukšs.
 
-Tabulā **Kontaktpersona** var saglabāt šāda veida rindas:
+Tabulā **Kontaktpersona** tabulā var saglabāt šādu veidu rindas.
 
-Rindas tips | Apraksts
----|---
-Persona, kas ir klients, piemēram, pārdodama kontaktpersona vai B2C klients. | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs un lauks **Ir klients** ir iestatīts uz **Jā**.
-Persona, kas ir kreditors, piemēram, individuālais īpašnieks, piemēram, kreditors. | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs un lauks **Ir kreditors** ir iestatīts uz **Jā**.
-Persona, kas ir gan debitors, gan kreditors. | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs, lauks **Ir klients** ir iestatīts uz **Jā** un lauks **Ir kreditors** ir iestatīts uz **Jā**. Perosona var būt gan viena produkta ražotājs, gan cita produkta patērētājs. Gan Finance and Operations programmas, gan duālā rakstīšana atbalsta šīs attiecības.
-Persona, kas ir organizācijas kontaktpersona, bet nav ne klients, ne kreditors. | Nesvītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** ir tukšs, lauks **Ir klients** ir iestatīts uz **Nē** un lauks **Ir kreditors** ir iestatīts uz **Nē**.
+| Rindas tips | Apraksts |
+|----------|-------------|
+| Persona, kas ir klients (piemēram, pārdodama kontaktpersona vai B2C klients) | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs un lauks **Ir klients** ir iestatīts uz **Jā**. |
+| Persona, kas ir kreditors (piemēram, individuālais īpašnieks, tāds kā kreditors) | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs un lauks **Ir kreditors** ir iestatīts uz **Jā**. |
+| Persona, kas ir gan debitors, gan kreditors | Svītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** nav tukšs, lauks **Ir klients** ir iestatīts uz **Jā** un lauks **Ir kreditors** ir iestatīts uz **Jā**. Perosona var būt gan viena produkta ražotājs, gan cita produkta patērētājs. Gan Finance and Operations programmas, gan duālā rakstīšana atbalsta šīs attiecības. |
+| Persona, kas ir organizācijas kontaktpersona, bet nav klients vai kreditors | Nesvītrots kontaktpersonas ieraksts, kurā lauks **Uzņēmums** ir tukšs, lauks **Ir klients** ir iestatīts uz **Nē** un lauks **Ir kreditors** ir iestatīts uz **Nē**. |
 
-## <a name="contact-for-party"></a>Puses kontaktpersona
+## <a name="contact-for-party-table"></a>Puses kontaktpersonas tabula
 
-**Puses kontaktpersona** glābā un apstrādā N:N attiecības starp **Konta** rindām un **Kontaktpersonu** rindām. Tas var filtrēt svītrotās **Kontaktpersonu** rindas no nesvītrotām rindām un saistīt tikai nesvītrotās **Kontaktpersonu** rindas ar **Konta** vai **Kreditora** rindām.
+Tabula **Puses kontaktpersona** glābā un apstrādā N:N attiecības starp **Konta** rindām un **Kontaktpersonu** rindām. Tas var filtrēt svītrotās **Kontaktpersonu** rindas no nesvītrotām rindām un saistīt tikai nesvītrotās **Kontaktpersonu** rindas ar **Konta** vai **Kreditora** rindām.
 
-Piemēram, Nataša Džonsa un Migels Reiss ir veterinārārsti, kas rūpējas par saimniecībām savās teritorijās. Nataša apkalpo Sietlas rajonu, un Migels apkalpo Kentas rajonu. Customer Engagement lietotnē saimniecības ir pārstāvētas kā klienti un veterinārārsti ir kontaktpersonas. Viens **Kontaktpersonas** ieraksts Natašai ir saistīts ar visām saimniecībām, ar kurām Nataša strādā. Līdzīgi, viens **Kontaktpersonas** ieraksts Migelam ir saistīts ar visām saimniecībām, ar kurām Migels strādā.
+Piemēram, Nataša Džonsa un Migels Reiss ir veterinārārsti, kas rūpējas par saimniecībām savās teritorijās. Nataša apkalpo Sietlas rajonu, un Migels apkalpo Kentas rajonu. Customer Engagement lietotnē saimniecības ir pārstāvētas kā klienti un veterinārārsti ir pārstāvēti kā kontaktpersonas. Viens **Kontaktpersonas** ieraksts Natašai ir saistīts ar visām saimniecībām, ar kurām Nataša strādā. Līdzīgi, viens **Kontaktpersonas** ieraksts Migelam ir saistīts ar visām saimniecībām, ar kurām Migels strādā.
 
-Šīs attiecības tiek glabātas tabulā **Puses kontaktpersona**. Informāciju var atrast ārpus saraksta veidlapās:
+Šīs attiecības tiek glabātas tabulā **Puses kontaktpersona**. Informāciju par ārpus saraksta lapām var atrast **Konts**, **Kontaktpersona** un **Kreditors**:
 
-+ Veidlapā **Konts** ir cilne **Saistītās kontaktpersonas**. Izmantojiet šo cilni, lai saistītu vienu vai vairākas kontaktpersonas ar rindu **Konts**. Šajā veidlapā jūs piešķirat kontaktpersonu organizācijai. Pēc kontaktpersonu piešķiršanas, vienu var izvēlēties kā šī uzņēmuma primāro kontaktpersonu. Izmantojot veidlapu **Ātrā izveide**, var izvēlēties tikai kontaktpersonu. Darbība ir tāda pati, ja izmantojat veidlapu **Kreditors** un ieraksta tips ir **Organizācija**.
-+ Atrodoties veidlapā **Kontaktpersona**, un rinda ir klients vai kreditors, vai abi (svītrota kontaktpersona), tur ir cilne **Saistītās kontaktpersonas**. Izmantojiet šo cilni, lai saistītu vienu vai vairākas kontaktpersonas. Šajā veidlapā jūs piešķirat kontaktpersonu B2C klientam vai kreditoram. Pēc kontaktpersonu piešķiršanas, vienu var izvēlēties kā primāro kontaktpersonu. Izmantojot veidlapu **Ātrā izveide**, var izvēlēties tikai kontaktpersonu.
-+ Atrodoties veidlapā **Kontaktpersona**, un rinda ir kontaktpersona (nesvītrota kontaktpersona), tur ir cilne **Saistītās organizācijas**. Izmantojiet šo cilni, lai saistītu vienu vai vairākus klientus vai kreditorus. Šajā veidlapā jūs piešķirat klientu vai kreditoru pamatā esošajai kontaktpersonai. Debitors vai kreditors var būt organizācija, persona vai abi. No četriem laukiem noteiktā laikā var izvēlēties tikai vienu vērtību.
++ Lapā **Konts** varat lietot cilni **Saistītās kontaktpersonas**, lai vienu vai vairākas kontaktpersonas saistītu ar rindu **Konts**. Šādā veidā uzņēmumam tiek piešķirtas kontaktpersonas. Pēc tam varat izvēlēties vienu kontaktpersonu kā konta primāro kontaktpersonu. Ja izmantojat lapu **Ātrā izveide**, varat atlasīt tikai kontaktpersonu. Darbība ir tāda pati, ja izmantojat lapu **Kreditors** un ieraksta tips ir **Organizācija**.
++ Lapā **Kontaktpersona**, kad rinda ir debitors, kreditors vai abi (svītrota kontaktpersona), varat izmantot cilni **Saistītās kontaktpersonas**, lai saistītu vienu vai vairākas kontaktpersonas. Šādā veidā B2C klientam vai kreditoram tiek piešķirtas kontaktpersonas. Pēc tam varat izvēlēties vienu kontaktpersonu kā primāro kontaktpersonu. Ja izmantojat lapu **Ātrā izveide**, varat atlasīt tikai kontaktpersonu.
++ Lapā **Kontaktpersona**, kad rinda ir contaktpersona (nesvītrota kontaktpersona), varat izmantot cilni **Saistītās organizācijas**, lai saistītu vienu vai vairākus debitorus vai kreditorus. Šādā veidā var piešķirt klientus vai kreditorus pamatā esošajai kontaktpersonai. Debitors vai kreditors var būt organizācija, persona vai abi. Vērtību var atlasīt tikai vienā no četriem laukiem:
 
-    ![Cilne Saistītās organizācijas](media/party-gab-image3.png)
+    + Ja izvēlaties vērtību laukā **Puses ID**, pamatā esošā kontaktpersona tiek piešķirta visām atlasitām puses lomām.
+    + Ja izvēlaties vērtību laukā **Saistītā kontaktpersona**, tiek atlasīta svītrotā kontaktpersona, kuras tips ir **Persona**.
+    + Ja atlasāt vērtību laukā **Saistītais konts** vai **Saistītais kreditors**, jūs atlasāt organizāciju.
 
-    + Ja izvēlaties **Puses ID**, pamatā esošā kontaktpersona tiek piešķirta visām izvēlētās puses lomām.
-    + Ja izvēlaties **Saistītā kontaktpersona**, tiek atlasīta svītrotā kontaktpersona, kuras tips ir persona.
-    + Ja izvēlaties **Saistītais konts** vai **Kreditors**, jūs atlasāt organizāciju.
+    ![Cilne Saistītās organizācijas lapā Kontaktpersona](media/party-gab-image3.png)
 
-    Neatkarīgi no jūsu izvēles asociācija tiek izveidota puses līmenī un piemērojama visām puses lomām un saglabāta vienībā "Puses kontaktpersona".
+    Neatkarīgi no jūsu izvēles asociācija tiek izveidota puses līmenī, taa attiecas uz visām puses lomām, un glabājas elementā **Puses kontaktpersona**.
 
-> [!Note]
-> Customer Engagement programmas tabulas **Puses kontaktpersona** parādāmais nosaukums ir **Debitora/Kreditora kontaktpersona**.
+> [!NOTE]
+> Customer Engagement programmu tabulas **Puses kontaktpersona** parādāmais nosaukums ir **Debitora/Kreditora kontaktpersona**.
 
-Atverot rindu **Kontaktpersona**, kurā **Ir Debitors** ir iestatīts uz **Nē** un **Ir Kreditors** uz **Nē**, ir redzama **Saistītās organizācijas** cilne. Izmantojiet šo cilni, lai saistītu kontaktpersonu ar vienu vai vairākām debitoru vai kreditoru organizācijām.
+Kad tiek atvērta rinda **Kontaktpersona**, kur gan lauks **Ir debitors**, gan **Ir kreditors** ir iestatīts uz **Nē** tiek parādīta cilne **Saistītās organizācijas**. Izmantojiet šo cilni, lai saistītu vienu vai vairākas debitoru vai kreditoru organizācijas ar kontaktpersonu.
 
-Atverot rindu **Kontaktpersona**, kurā **Ir Debitors** ir iestatīts uz **Jā** vai **Ir Kreditors** uz **Jā**, ir redzama **Saistītās kontaktpersonas** cilne. Izmantojiet šo cilni, lai saistītu vienu vai vairākas kontaktpersonas.
+Kad tiek atvērta rinda **Kontaktpersona**, kur vai nu lauks **Ir debitors**, vai nu lauks **Ir kreditors** ir iestatīts uz **Jā** tiek parādīta cilne **Saistītās kontaktpersonas**. Izmantojiet šo cilni, lai saistītu vienu vai vairākas kontaktpersonas.
 
-## <a name="postal-address"></a>Pasta adrese
+## <a name="postal-addresses"></a>Pasta adreses
 
-Veidlapās **Konts**, **Kontaktpersona** un **Kreditors** ir ieviesta jauna cilne ar nosaukumu **Adreses**. Kā parādīts šajā attēlā, **Adreses** atbalsta N adreses, izmantojot režģi:
+Lapās **Konts**, **Kontaktpersona** un **Kreditors** ir ieviesta jauna cilne **Adreses**. Šī cilne atbalsta vairākas pasta adreses, izmantojot režģi, kā parādīts šajā ilustrācijā.
 
-![Pasta adreses režģis](media/party-gab-image4.png)
+![Pasta adrešu režģis](media/party-gab-image4.png)
 
-+ Kolonnā **Pasta adrešu lomas** ir uzskaitīti adrešu nolūki.
-+ Kolonna **Ir primārā** uzskaita primārās adreses.
-+ Kolonnas **Adreses numurs** uzskaita adrešu secību.
-+ Poga **+ Jauna adrese** ļauj izveidot jaunu adresi. Adrešu skaits nav ierobežots.
+Režģī ir iekļautas tālāk minētās kolonnas.
 
-Lauki **1. adrese** un **2. adrese** veidlapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Piegādes** un **Rēķina** adresēm.
++ **Pasta adrešu lomas** - Pasta adrešu nolūki.
++ **Ir primārā** – vērtība, kas norāda, vai adrese ir primārā adrese;
++ **Adreses numurs** – adreses pasūtījums.
 
-![Kopsavilkuma cilne pasta adresei](media/party-gab-image5.png)
+Varat izmantot pogu **Jauna adrese** virs režģa, lai izveidotu pēc izvēles tik daudz pasta adrešu, cik vēlaties.
 
-Lauki **1. adrese**, **2. adrese** un **3. adrese** veidlapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Biznesa**, **Piegādes** un **Rēķina** adresēm.
+Lauki **1. adrese** un **2. adrese** lapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Piegādes** un **Rēķina** adresēm.
 
-## <a name="electronic-address"></a>Elektroniskā adrese
+![Kopsavilkuma cilne pasta adresēm](media/party-gab-image5.png)
 
-Veidlapās **Konts**, **Kontaktpersona** un **Kreditors** ir ieviesta jauna cilne ar nosaukumu **Elektroniskās adreses**. Kā parādīts šajā attēlā, **Adreses** atbalsta N adreses, izmantojot režģi:
+Lauki **1. adrese**, **2. adrese** un **3. adrese** lapas **Konts** cilnē **Kopsavilkums** atbilst attiecīgi **Biznesa**, **Piegādes** un **Rēķina** adresēm.
 
-![Elektroniskās adreses režģis](media/party-gab-image6.png)
+## <a name="electronic-addresses"></a>Elektroniskās adreses
 
-+ Kolonna **Veids** uzskaita adreses veidu.
-+ Kolonna **Ir primārā** uzskaita primārās adreses.
-+ Kolonnā **Nolūks** ir uzskaitīti elektronisko adrešu nolūki.
-+ Poga **+ Jauna elektroniskā adrese** ļauj izveidot jaunu adresi. Adrešu skaits nav ierobežots.
+Lapās **Konts**, **Kontaktpersona** un **Kreditors** ir ieviesta jauna cilne **Elektroniskās adreses**. Šī cilne atbalsta vairākas elektroniskās adreses, izmantojot režģi, kā parādīts šajā ilustrācijā.
 
-Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidienos visi elektronisko un pasta adrešu lauki tiks noņemti no citām cilnēm, piemēram, cilnēm **Kopsavilkums** un **Detalizēta informācija**.
+![Elektronisko adrešu režģis](media/party-gab-image6.png)
 
-## <a name="setup-instructions"></a>Iestatīšanas instrukcijas
+Režģī ir iekļautas tālāk minētās kolonnas.
 
-Ja jūs esat esošs duālās rakstīšanas debitors, tad ir nepieciešamas šādas iestatīšanas instrukcijas. Pretējā gadījumā varat izlaist šo sadaļu.
++ **Veids** – elektroniskās adreses veids.
++ **Ir primārā** vērtība, kas norāda, vai adrese ir primārā adrese;
++ **Mērķis** – elektroniskās adreses nolūks.
 
-1. Apturiet tālāk norādītās kartes, jo tās vairs nav obligātas. Tā vietā palaidiet kontaktpersonu V2 (msdyn_contactforparties) karti.
+Varat izmantot pogu **Jauna elektroniskā adrese** virs režģa, lai izveidotu pēc izvēles tik daudz adrešu, cik vēlaties.
+
+Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidienos visi pasta adrešu un elektronisko adrešu lauki tiks noņemti no citām cilnēm (piemēram, cilnēm **Kopsavilkums** un **Detalizēta informācija** ).
+
+## <a name="setup"></a>Iestatīt
+
+1. Instalējiet pēdējo (2.2.2.60 vai jaunāku) [duālās programmas instrumentācijas risinājuma](https://aka.ms/dual-write-app) versiju.
+
+2. Instalējiet [Dubultās rakstīšanas puses un globālās adrešu grāmatas risinājumus](https://aka.ms/dual-write-gab).
+
+3. Apturiet tālāk norādītās kartes, jo tās vairs nav obligātas. Tā vietā palaidiet `Contacts V2 (msdyn_contactforparties)` karti.
 
     + CDS kontaktpersonas V2 un kontaktpersonas (attiecas uz debitoru kontaktpersonām)
     + CDS kontaktpersonas V2 un kontaktpersonas (attiecas uz kreditoru kontaktpersonām)
 
-2. Tālāk minētie elementu kartējumi ir atjaunināti puses funkcionalitātei, tāpēc tiem ir jālieto jaunākā versija.
+4. Tālāk minētie elementu kartējumi ir atjaunināti puses funkcionalitātei, tāpēc tiem ir jālieto jaunākā versija.
 
-Atbilstību karte | Atjaunināt līdz šai versijai | Izmaiņas
----|---|---
-Debitori V3 (konti) | 1.0.0.5 |Noņēma PusesNumurs un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus, elektroniskās kontaktinformācijas laukus u.c.
-Debitoru V3 (kontaktpersonas) | 1.0.0.5 | Noņēma PusesNumurs un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus, elektroniskās kontaktinformācijas laukus u.c.
-Kreditori V2 (msdyn_vendors) | 1.0.0.6 | Noņēma PusesNumurs un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus, elektroniskās kontaktinformācijas laukus u.c.
-CDS pārdošanas piedāvājuma virsraksti (piedāvājumi) | 1.0.0.6 | Kontaktpersona aizstāta ar ContactforParty atsauci.
-Pārdošanas rēķinu galvenes V2 (rēķini) | 1.0.0.4 | Kontaktpersona aizstāta ar ContactforParty atsauci.
-CDS pārdošanas pasūtījumu virsraksti (pārdošanas pasūtījumi) | 1.0.0.5 | Kontaktpersona aizstāta ar ContactforParty atsauci.
-Kontakti V2 (msdyn_contactforparties) | 1.0.0.2 | Šī ir jauna karte. Ja jums ir iepriekšējā puses risinājuma versija, noteikti atjauniniet šo karti līdz pēdējai versijai, kā norādīts.
-CDS puses pasta adrešu atrašanās vietas (msdyn_partypostaladdresses) | 1.0.0.1  | Šī ir jauna karte, kas ir pievienota kā daļa no iepriekšējās puses priekšskatījuma laidiena.
-CDS pasta adreses vēsture V2 (msdyn_postaladdresses) | | Šī ir jauna karte, kas ir pievienota kā daļa no iepriekšējās puses priekšskatījuma laidiena.
-CDS puses pasta adrešu atrašanās vietas (msdyn_postaladdresscollections) | | Šī ir jauna karte, kas ir pievienota kā daļa no iepriekšējās puses priekšskatījuma laidiena.
-Puses kontaktpersonas V3 (msdyn_partyelectronicaddresses) | | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    Atbilstību karte | Atjaunināt līdz šai versijai | Izmaiņas
+    ---|---|---
+    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Customers V3 (accounts)` | 1.0.0.5 |Noņēma `PartyNumber` un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus un elektroniskās kontaktpersonu adreses.
+    `Customer V3 (contacts)` | 1.0.0.5 | Noņēma `PartyNumber` un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus un elektroniskās kontaktpersonu adreses.
+    `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Noņēma `PartyNumber` un citus ar pusi saistītos laukus, piemēram, vārdu, personas datus, pasta adrešu laukus un elektroniskās kontaktpersonu adreses.
+    `CDS Sales quotation headers (quotes)` | 1.0.0.7 | Kontaktpersona aizstāta ar `ContactforParty` atsauci.
+    `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Kontaktpersona aizstāta ar `ContactforParty` atsauci.
+    `CDS Sales order headers (salesorders)` | 1.0.0.5 | Kontaktpersona aizstāta ar `ContactforParty` atsauci.
+    `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Salutations (msdyn_salutations)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+    `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
+
+5. Pirms iepriekš minēto karšu lietošanas integrācijas atslēgas jāatjaunina manuāli, kā aprakstīts šādās darbībās. Pēc tam atlasiet **Saglabāt**.
+
+    | Atbilstību karte | Atslēgas |
+    |-----|------|
+    | Konts |  accountnumber [Konta numurs]<br>msdyn_company.cdm_companycode [Uzņēmums (Uzņēmuma kods)] |
+    | Kontaktpersona | msdyn_contactpersonid [Konta numurs/Kontaktpersonas ID]<br>msdyn_company.cdm_companycode [Uzņēmums (Uzņēmuma kods)] |
+    | Debitora/kreditora kontaktpersona | msdyn_contactforpartynumber [Kontaktpersona puses numuram]<br>msdyn_associatedcompanyid.cdm_companycode [Saistits uzņēmums (Uzņēmuma kods)] |
+    | Kreditors | msdyn_vendoraccountnumber [Kreditora konta numurs]<br>msdyn_company.cdm_companycode [Uzņēmums (Uzņēmuma kods)]|
+
+6. Pakalpojumā Dataverse dublikātu noteikšanas kārtulu rakstzīmju ierobežojumi ir pieauguši no 450 līdz 700 rakstzīmēm. Šis ierobežojums ļauj pievienot vienu vai vairākas atslēgas dublikātu noteikšanas kārtulām. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Konts**, iestatot sekojošos laukus.
+
+    | Lauks | Vērtība |
+    |-------|-------|
+    | Nosaukums/vārds, uzvārds | Konti ar vienādu konta nosaukumu. |
+    | Apraksts | Nosaka konta ierakstus, kuriem konta nosaukuma atribūtā ir vienāda vērtība. |
+    | Pamatieraksta tips | Konts |
+    | Atbilstošais ieraksta tips | Konts |
+    | Konta nosaukums (lauks) | Precīza atbilstība |
+    | Uzņēmums (lauks) | Precīza atbilstība |
+    | Attiecību tips (lauks) | Precīza atbilstība |
+    | Puses ID (lauks) | Precīza atbilstība |
+    | Atlasiet (lauku) | (tukšs) |
+
+    ![Dublēt kontu kārtulu](media/duplicate-rule-1.PNG)
+
+7. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Kontaktpersonas**, iestatot sekojošos laukus.
+
+    | Lauks | Vērtība |
+    |-------|-------|
+    | Nosaukums/vārds, uzvārds | Kontaktpersonas ar tādu pašu vārdu un uzvārdu. |
+    | Apraksts | Nosaka kontaktpersonu ierakstus, kuriem laukos Vārds un Uzvārds ir tādas pašas vērtības. |
+    | Pamatieraksta tips | Kontaktpersona |
+    | Atbilstošais ieraksta tips | Kontaktpersona |
+    | Vārds (lauks) | Precīza atbilstība |
+    | Uzvārds (lauks) | Precīza atbilstība |
+    | Uzņēmums (lauks) | Precīza atbilstība |
+    | Puses ID (lauks) | Precīza atbilstība |
+    | Atlasiet (lauku) | (tukšs) |
+
+    ![Dublēt kontaktpersonu kārtulu](media/duplicate-rule-2.PNG)
+
+8. Ja jūs esat esošs duālās rakstīšanas lietotājs, izpildiet norādes sadaļā [Jaunināšana uz pušu un globālo adrešu grāmatas modeli](upgrade-party-gab.md) un jauniniet savus datus.
+
+9. Palaidiet kartes šādā secībā. Ja rodas kļūda, kas norāda, ka "Projekta apstiprināšana neizdevās. Trūkst mērķa lauka...", tad atveriet karti un atlasiet **Atsvaidzināt tabulas**. Pēc tam palaidiet karti.
+
+    Finance and Operations programma | Customer engagement programma  
+    ----------------------------|------------------------
+    [CDS puses](mapping-reference.md#220) | msdyn_parties
+    [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn_postaladdresscollections
+    [CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn_postaladdresses
+    [CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn_partypostaladdresses
+    [Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn_partyelectronicaddresses
+    [Debitori V3](mapping-reference.md#101) | konti
+    [Debitori V3](mapping-reference.md#116) | kontaktpersonas
+    [Kreditori V2](mapping-reference.md#202) | msdyn_vendors
+    [Kontaktpersonu amati](mapping-reference.md#223) | msdyn_salescontactpersontitles
+    [Noslēguma frāzes](mapping-reference.md#222) | msdyn_complimentaryclosings
+    [Uzrunas](mapping-reference.md#228) | msdyn_salutations
+    [Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn_decisionmakingroles
+    [Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn_employmentjobfunctions
+    [Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn_loyaltylevels
+    [Personas rakstura veidi](mapping-reference.md#227) | msdyn_personalcharactertypes
+    [Kontaktpersonas V2](mapping-reference.md#221) | msdyn_contactforparties
+    [CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi
+    [CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders
+    [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini
+
+> [!Note]
+> Karte `CDS Contacts V2 (contacts)` ir karte, kas tika apturēta 1. darbībā. Mēģinot palaist citas kartes, šīs 2 kartes var parādīties pakārtoto sarakstā. Neizmantojiet šīs kartes.
+
+> [!Note]
+> Ja ir instalēts puses un globālās adrešu grāmatas risinājums, ir jāatspējo spraudnis ar nosaukumu `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Atinstalējot pusi un globālo adrešu grāmatas risinājumu, spraudnis ir jāiespējo no jauna.
+
+> [!Note]
+> Lauku `msdyn_*partynumber` (vienas rindas teksta lauku), kas iekļauts tabulās **Konts**, **Kontaktpersona** un **Kreditors** nedrīkst izmantot turpmāk. Iezīmes nosaukumam ir prefikss **(Novecojis)** skaidrības labad. Tā vietā izmantojiet **msdyn_partyid** lauku. Lauks ir pārlūks **msdyn_party** tabulai.
+
+> Tabulas nosaukums | Vecais lauks | Jauns lauks
+> --------|-------|--------
+> Konts | `msdyn_partynumber` | `msdyn_partyid`
+> Kontaktpersona | `msdyn_partynumber` | `msdyn_partyid`
+> msdyn_vendor | `msdyn_vendorpartynumber` | `msdyn_partyid`
 
 ## <a name="templates"></a>Veidnes
 
 Tabulas karšu vākšana darbojas kopā puses un globālās adrešu grāmatas mijiedarbībai, kā redzams nākamajā tabulā.
 
-Finance and Operations programma | Customer engagement programma     | Apraksts
-----------------------------|-----------------------------|------------
-[Kontaktpersonu amati](mapping-reference.md#223) | msdyn_salescontactpersontitles |
-[Debitori V3](mapping-reference.md#101) | konti |
-[Debitori V3](mapping-reference.md#116) | kontaktpersonas |
-[CDS puses](mapping-reference.md#220) | msdyn_parties |
-[CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn_partypostaladdresses |
-[CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn_postaladdresses |
-[CDS pasta adreses vietas](mapping-reference.md#234) | msdyn_postaladdresscollections |
-[CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi |
-[CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders |
-[Noslēguma frāzes](mapping-reference.md#222) | msdyn_complimentaryclosings |
-[Kontaktpersonas V2](mapping-reference.md#221) | msdyn_contactforparties |
-[Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn_decisionmakingroles |
-[Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn_employmentjobfunctions |
-[Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn_loyaltylevels |
-[Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn_partyelectronicaddresses |
-[Personas rakstura veidi](mapping-reference.md#227) | msdyn_personalcharactertypes |
-[Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini |
-[Uzrunas](mapping-reference.md#228) | msdyn_salutations |
-[Kreditori V2](mapping-reference.md#202) | msdyn_vendors |
+| Finance and Operations programma | Customer engagement programma | Apraksts |
+|----------------------------|-------------------------|-------------|
+| [Kontaktpersonu amati](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
+| [Debitori V3](mapping-reference.md#101) | konti |
+| [Debitori V3](mapping-reference.md#116) | kontaktpersonas |
+| [CDS puses](mapping-reference.md#220) | msdyn\_parties |
+| [CDS puses pasta adreses vietas](mapping-reference.md#233) | msdyn\_partypostaladdresses |
+| [CDS pasta adreses vēsture V2](mapping-reference.md#235) | msdyn\_postaladdresses |
+| [CDS pasta adreses vietas](mapping-reference.md#234) | msdyn\_postaladdresscollections |
+| [CDS pārdošanas piedāvājuma virsraksts](mapping-reference.md#215) | piedāvājumi |
+| [CDS pārdošanas pasūtījumu virsraksti](mapping-reference.md#217) | salesorders |
+| [Noslēguma frāzes](mapping-reference.md#222) | msdyn\_complimentaryclosings |
+| [Kontaktpersonas V2](mapping-reference.md#221) | msdyn\_contactforparties |
+| [Lēmumu pieņemšanas lomas](mapping-reference.md#224) | msdyn\_decisionmakingroles |
+| [Nodarbinātības darbu funkcijas](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Lojalitātes programmu līmeņi](mapping-reference.md#226) | msdyn\_loyaltylevels |
+| [Puses kontaktpersonas V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
+| [Personas rakstura veidi](mapping-reference.md#227) | msdyn\_personalcharactertypes |
+| [Pārdošanas rēķinu galvenes V2](mapping-reference.md#118) | rēķini |
+| [Uzrunas](mapping-reference.md#228) | msdyn\_salutations |
+| [Kreditori V2](mapping-reference.md#202) | msdyn\_vendors |
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).
+
+## <a name="known-issues-and-limitations"></a>Zināmās problēmas un ierobežojumi
+
++ Programmās Finance and Operations, kad izveidojat debitoru kopā ar adresi un saglabājat to, adrese var nesinhronizēties uz tabulu **Adreses**. Tas ir tāpēc, ka pastāv dubultrakstīšanas platformu secības problēma. Vispirms izveidojiet debitoru un saglabājiet to. Pēc tam pievienojiet adresi.
++ Programmās Finance and Operations, kad debitora ierakstam ir primārā adrese un jūs šim debitoram izveidojat jaunu kontaktpersonu, tad kontaktpersonas ieraksts manto primāro adresi no saistītā debitora ieraksta. Tas notiek arī attiecībā uz kreditora kontaktpersonu. Dataverse neatbalsta šo uzvedību. Ja ir aktivizēta duālā rakstīšana, debitoru kontaktpersonas, kas ir mantotas ar primāro adresi no programmas Finance and Operations, tiek sinhronizētas Dataverse kopā ar tās adresi.
++ Elektroniskās adreses no `msdyn_partyelectronicaddress` tabulas neplūst uz elektroniskajiem adrešu laukiem tabulās **Konts** un **Kontaktpersona**. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati elektroniskās adreses laukos tabulās **Konts** un **Kontaktpersona** netiks pārrakstīti.
++ Elektroniskās adreses, kas iestatītas elektroniskās adreses veidlapu **Konts**, **Kontaktpersona** un **Kreditors** cilnē, nāk no `msdyn_partyelectronicaddress` tabulas. Šī informācija neplūst uz tās saistītajām darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu. Mēs plānojam risināt šo problēmu inkrementālā izlaidē. Esošie dati konta elektroniskās adreses laukos un kontaktpersonu ierakstos turpinās strādāt ar darījumiem, piemēram, pārdošanas pasūtījumu, piedāvājumu un pirkšanas pasūtījumu.
++ Lietojumprogrammās Finance and Operations var izveidot kontaktpersonas ierakstu no veidlapas **Pievienot kontaktpersonu**. Ja mēģināt izveidot jaunu kontaktpersonu no veidlapas **Skatīt kontaktpersonu**, darbība neizdodas. Šī ir zināma problēma.
+
+    ![Zināmā problēma ar Pievienot kontaktpersonu](media/party-gab-contact-issue.png)
+
++ **Sākotnējā sinhronizācija** neatbalsta laika laukus **Pieejams no** un **Pieejams līdz** cilnē **ContactForParty**, jo DIXF pārvērš vērtību virknē vesela skaitļa vietā. Pārvēršana izraisa kļūdu `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
++ Ja pasta adrese tiek izmantota vairāk nekā vienam iemeslam, piemēram, biznesa sakaru adrese un rēķina adrese, tai ir jāparādās kā `Business;Invoice`,kā parādīts šajā attēlā. Ja starp vērtībām pievienosiet atstarpi, tiks parādīts kļūdas ziņojums.
+
+    ![Zināmā problēma ar Adresi](media/party-gab-address-issue.png)
+
++ Nevar ievadīt ar nākotnes datumu datētu pasta adresi, izmantojot programmu Finance and Operations ar dubultās rakstīšanas funkciju, jo Dataverse neatbalsta spēkā stāšanās datumu. Ja ievadāt ar nākotnes datumu datētu pasta adresi, izmantojot programmu Finance and Operations, tā tiek pilnībā sinhronizēta ar Dataverse un jūs uzreiz redzēsiet adresi lietotāja interfeisā. Jebkura šī ieraksta atjaunināšanas rezultātā rodas kļūda, jo tā ir datēta ar nākotnes datumu un nav aktuāls Finance and Operations programmā.

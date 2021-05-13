@@ -1,8 +1,8 @@
 ---
 title: Budžeta veidošanas apskats
 description: Gandrīz ikvienam uzņēmumam, kas izmanto Microsoft Dynamics 365 Finance funkcionalitāti Finanšu dati, ir jāspēj izveidot budžetā paredzēto un faktisko vērtību salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827462"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960053"
 ---
 # <a name="budgeting-overview"></a>Budžeta veidošanas pārskats
 

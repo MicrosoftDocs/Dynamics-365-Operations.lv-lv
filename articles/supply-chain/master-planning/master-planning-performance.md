@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833453"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935813"
 ---
 # <a name="improve-master-planning-performance"></a>Vispārējās plānošanas veiktspējas uzlabošana
 
@@ -79,7 +79,7 @@ Lapas **Vispārējās plānošanas parametri** (**Vispārējā plānošana \> Ie
 
 ### <a name="number-of-orders-in-firming-bundle"></a>Pasūtījumu skaits apstiprināšanas komplektā
 
-Parametrs **Pasūtījumu skaits apstiprināšanas komplektā** norāda kopējo pasūtījumu skaitu, ko vienlaicīgi apstrādās katrs pavediens/pakešuzdevums. Tas izraisa automātiskās apstiprināšanas procesa paralelizēšanu
+Parametrs **Pasūtījumu skaits apstiprināšanas komplektā** norāda kopējo pasūtījumu skaitu, ko vienlaicīgi apstrādās katrs pavediens/pakešuzdevums. Tas izraisa automātiskās apstiprināšanas procesa paralelizēšanu.
 
 Lapas **Vispārējās plānošanas parametri** (**Vispārējā plānošana \> Iestatījumi \> Vispārējās plānošanas parametri**) cilnes **Vispārīgi** sadaļā **Veiktspēja** var iestatīt parametru **Pasūtījumu skaits apstiprināšanas komplektā**. Automātiskās apstiprināšanas procesa paralelizēšana balstās uz pasūtījumiem, kuri jāapstrādā kopā. Piemēram, ja šim parametram ir iestatīta vērtība **50**, piemēram, katrs pavediens vai pakešuzdevums vienlaicīgi izvēlēsies 50 pasūtījumus un apstrādās tos kopā. Ieteicams noteikt piemērotāko vērtību eksperimentālā ceļā. Tomēr, lai aprēķinātu sākotnējo vērtību, varat izmantot šādu formulu:
 

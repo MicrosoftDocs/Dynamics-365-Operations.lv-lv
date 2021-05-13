@@ -2,7 +2,7 @@
 title: Datu importēšanas un darbu eksportēšanas pārskats
 description: Lai izveidotu un pārvaldītu datu importēšanas un eksportēšanas darbus, izmantojiet darbvietu Datu pārvaldība.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751004"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937334"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Datu importēšanas un eksportēšanas darbu pārskats
 
@@ -161,19 +161,7 @@ Lai paātrinātu datu importu, var iespējot paralēlu faila importēšanu, ja e
     - Laukā **Importa sliekšņa ierakstu skaits** ievadiet sliekšņa ierakstu skaitu importam. Tas nosaka ierakstu skaits, ko apstrādā pavediens. Ja failam ir 10 000 ierakstu, 2500 ieraksti ar uzdevumu skaitu 4 nozīmē, ka katrs pavediens apstrādās 2500 ierakstus.
     - Laukā **Importēt uzdevumu skaitu** ievadiet importa uzdevumu skaitu. Tas nedrīkst pārsniegt maksimālo partijas pavedienu skaitu, kas piešķirts pakešveida apstrādei **Sistēmas administrēšanā \>Servera konfigurācijā**.
 
-## <a name="clean-up-the-staging-tables"></a>Sagatavošanas tabulu iztīrīšana
-Sākot ar platformas atjauninājumu 29, šī funkcionalitāte ir novecojusi. Tā ir aizstāta ar jaunu darbu vēstures tīrīšanas funkcionalitātes versiju, kas izskaidrota tālāk.
-
-Sagatavošanas tabulas varat iztīrīt, izmantojot līdzekli **Sagatavošanas iztīrīšana** darbvietā **Datu pārvaldība**. Lai atlasītu, kuri ieraksti ir jāizdzēš un no kuras sagatavošanas tabulas, varat izmantot tālāk aprakstītās opcijas.
-
-- **Elements** — ja ir nodrošināts tikai elements, no šī elementa sagatavošanas tabulas tiek dzēsti visi ieraksti. Atlasiet šo opciju, lai šim elementam iztīrītu visus datus visos datu projektos un visos darbos.
-- **Darba ID** — ja ir nodrošināts tikai darba ID, no atbilstošajām sagatavošanas tabulām tiek dzēsti visi ieraksti visiem elementiem atlasītajā darbā.
-- **Datu projekti** — ja ir atlasīts tikai datu projekts, atlasītajam datu projektam tiek dzēsti visi ieraksti visiem elementiem un visos darbos.
-
-Šīs opcijas varat arī kombinēt, lai dzēšamo ierakstu kopu ierobežotu vēl vairāk.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Darbu vēstures tīrīšana (pieejama platformas atjauninājumā 29 un jaunākās versijās)
-
+## <a name="job-history-clean-up"></a>Darbu vēstures tīrīšana 
 Darba vēstures tīrīšanas funkcionalitāte datu pārvaldībā jāizmanto, lai ieplānotu periodisku izpildes vēstures tīrīšanu. Šī funkcionalitāte aizstāj iepriekšējo sagatavošanas posmu tabulas tīrīšanas funkcionalitāti, kas tagad ir novecojusi. Tālāk minētās tabulas tiks tīrītas, izmantojot tīrīšanas procesu.
 
 -   Visas inscinējuma tabulas

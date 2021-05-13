@@ -1,8 +1,8 @@
 ---
-title: Mērvienības pārvaldība
-description: Šajā procedūrā parādīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām.
+title: Mērvienību pārvaldība
+description: Šajā tēmā aprakstīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām.
 author: sorenva
-ms.date: 07/08/2018
+ms.date: 04/09/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,53 +13,115 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966e189e7395bec15d2c62735c6df3df2ab34b8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d36839cd8e3398225d3421bf0f268068599ca49f
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817969"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921345"
 ---
-# <a name="manage-unit-of-measure"></a>Mērvienības pārvaldība
+# <a name="manage-units-of-measure"></a>Mērvienību pārvaldība
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām. Šo procedūru var izmēģināt, izmantojot demonstrācijas datus vai izmantojot savus datus.
+Šajā tēmā aprakstīts, kā definēt mērvienību, nodrošināt mērvienības tulkojumus un aprakstu, un definēt pārveidošanas noteikumus saistītām mērvienībām.
 
-1. Dodieties uz **Navigācijas rūts > Moduļi > Preču informācijas pārvaldība > Izlaisto preču uzturēšana**.
-2. Noklikšķiniet uz **Mērvienības**.
+## <a name="open-the-units-page"></a>Atveriet vienības lapu
 
-## <a name="create-a-unit-of-measure"></a>Mērvienības izveide
-1. Klikšķiniet **Jauns**.
-2. Laukā **Vienība** ierakstiet vērtību. Ievadiet ID vai simbolu, kas jāizmanto, atsaucoties uz mērvienību.  
-3. Laukā **Apraksts** ierakstiet kādu vērtību. Ievadiet mērvienības aprakstošo nosaukumu sistēmas valodā.  
-4. Laukā **Mērvienību kategorija** atlasiet opciju. Mērvienību kategorija nosaka, kādam loģiskam grupējumam pieder mērvienība, piemēram, platībai, masai vai daudzumam.  
-5. Laukā **Decimālā precizitāte** ievadiet skaitli. Norādiet decimāldaļu skaitu, līdz kuram jānoapaļo konvertētā mērvienība, kad mērvienības aprēķins ir pabeigts.  
-6. Noklikšķiniet uz **Saglabāt**.
+Lai izveidotu mērvienības un strādātu ar tām, kas ir pieejamas jūsu sistēmā, dodieties uz **Organizācijas administrēšana \> Iestatījums \> Vienības \> Vienības**.
+
+Pārējās šīs tēmas sadaļās aprakstīts, ko varat darīt lapā **Vienības**.
+
+## <a name="create-standard-units-and-conversions"></a>Standarta vienību un pārveidošanu izveide
+
+Ja sistēmā jau nav iekļautas visbiežāk izmantotās mērvienības metriskajai sistēmai un/vai ASV pielāgotajai sistēmai (USCS), vienību uzstādīšanas vednis var palīdzēt ātri sākt darbu ar pamatvienību definīcijām un pārveidošanām. Lai pabeigtu vedni, darbību rūtī atlasiet **Vienības izveides vednis** un pēc tam izpildiet ekrānā redzamos norādījumus.
+
+## <a name="create-or-edit-a-unit-of-measure"></a>Mērvienības izveide vai rediģēšana
+
+Lai izveidotu vai rediģētu mērvienību, veiciet šādas darbības.
+
+1. Izpildiet kādu no šīm darbībām:
+
+    - Lai rediģētu esošu vienību, atlasiet to saraksta rūtī.
+    - Lai izveidotu jaunu vienibu, darbību rūtī atlasiet **Jauns**.
+
+1. Ieraksta galvenē iestatiet tālāk norādītos laukus.
+
+    - **Vienība** - ievadiet ID vai simbolu, ko izmantot, lai atsauktos uz vienību sistēmas valodā. Šis ID vai simbols parasti ir saīsinājums vienībai, piemēram, *kt* katram vai *cm* centimetriem.
+    - **Apraksts** - Ievadiet vienības aprakstošo nosaukumu sistēmas valodā. Šis nosaukums parasti ir pilns vienības nosaukums, piemēram, *Katrs* vai *Centimetrs*.
+
+1. Kopsavilkuma cilnē **Vispārīgi**, iestatiet tālāk minētos laukus:<!-- KFM: confirm this:    - **Fixed unit assignment** and **Fixed unit** – These fields have an effect only if you're using the Microsoft Retail Essentials product. If the current unit can be mapped to one of the fixed units that are used by Retail Essentials, set the **Fixed unit assignment** option to *Yes*. Then select the fixed unit in the **Fixed unit** field. -->
+
+    - **Vienību klase** – atlasiet rekvizītu, ko vienība mēra (piemēram, garums, zona, masa vai daudzums).
+    - **Mērvienību sistēma** – atlasiet mērvienību sistēmu, kurai pieder vienība (*Metriskās vienības* vai *Amerikas Savienotajās Valstīs lietotās vienības*).
+    - **Pamatvienība** – iestatiet šo opciju kā *Jā*, lai izmantotu pašreizējo vienību kā pamatvienību tās vienību klasei. Šajā gadījumā jānorāda tikai pārvēršanas koeficients starp pamatvienību un katru papildu vienību vienību klasē. Pēc tam sistēma var konvertēt starp visām vienībām šajā vienību klasē. Tāpēc pārveidošanas ir vieglāk iestatīt.
+
+        Piemēram, ja galons ir vienību klases *Apjoms* pamatvienība, jāiestata tikai pārveidošanas koeficienti no kvartas uz galonu un no pintas uz galonu. Tad sistēma var konvertēt arī no kvartas uz pinti.
+
+        Vienai mērvienību kategorijai var būt tikai viena pamatvienība.
+
+    - **Sistēmas vienība** – iestatiet šo opciju kā *Jā*, lai izmantotu pašreizējo vienību kā pieņemto vienību visiem nenorādītajiem mērījumiem tās mērvienību kategorijā. Piemēram, ja lauks, kas tiek izmantots daudzuma ievadīšanai, neļauj norādīt vienību (piemēram, ja lietotājs neatlasa vienību), sistēma izmanto vienību, kas ir iestatīta kā sistēmas vienība mērvienību kategorijai *Daudzums*. Vienai mērvienību kategorijai var būt tikai viena sistēmas vienība.
+    - **Decimālā precizitāte** – norādiet decimāldaļu vietu skaitu, līdz kuram jānoapaļo vērtības, kas norādītas pašreizējai vienībai konvertētai uz to.
+
+1. Darbību rūtī atlasiet **Saglabāt**.
 
 ## <a name="define-unit-translations"></a>Vienību tulkojumu definēšana
-1. **Darbību rūtī** noklikšķiniet uz **Vienību teksti**.
-2. Klikšķiniet **Jauns**. Izmantojiet vienības tekstu, lai izveidotu ID vai simbola, kas apzīmē mērvienību, tulkojumu izmantošanai ārējos dokumentos debitoram vai kreditoram specifiskā valodā.  
-3. Laukā **Valoda** ievadiet vai atlasiet kādu vērtību.
-4. Laukā **Teksts** ierakstiet vērtību.
-5. Noklikšķiniet uz **Saglabāt**.
-6. Aizvērt lapu.
-7. **Darbību rūtī** noklikšķiniet uz **Tulkotie vienību apraksti**.
-8. Klikšķiniet **Jauns**. Definējiet valodai raksturīgus mērvienības aprakstus.  
-9. Laukā **Valoda** ievadiet vai atlasiet kādu vērtību.
-10. Laukā **Apraksts** ierakstiet kādu vērtību.
-11. Noklikšķiniet uz **Saglabāt**.
-12. Aizvērt lapu.
+
+Lai definētu ID vai simbola tulkojumus un mērvienības aprakstu, veiciet šādas darbības:
+
+1. Izveidojiet vai atlasiet vienību, kurai jāizveido tulkojumi.
+1. Darbību rūtī atlasiet **Vienības teksti**.
+
+    Tiek parādīta lapa **Vienības teksti**. Šī lapa tiek izmantota, lai definētu atlasītās vienības ID vai simbola tulkojumus. Šos tulkojumus pēc tam var izmantot ārējiem dokumentiem debitoram vai kreditoram raksturīgās valodās.
+
+1. Darbību rūtī atlasiet **Jauns**.
+1. Laukā **Valoda** atlasiet valodu, ko izmantot, uz kuru tulkot vienības ID vai simbolu.
+1. Laukā **Teksts** ievadiet vienības ID vai simbola tulkojumu atlasītajā valodā.
+1. Darbību rūtī atlasiet **Saglabāt**.
+1. Aizvērt lapu.
+1. Tad **Darbību rūtī** atlasiet **Tulkotie vienību apraksti**.
+
+    Tiek parādīta lapa **Tulkotie vienību apraksti**. Jūs izmantojat šo lapu, lai atlasītajai vienībai definētu valodai raksturīgus aprakstus.
+
+1. Darbību rūtī atlasiet **Jauns**.
+1. Laukā **Valoda** atlasiet valodu, ko izmantot, uz kuru tulkot vienības aprakstu.
+1. Laukā **Apraksts** ievadiet vienības apraksta tulkojumu atlasītajā valodā.
+1. Darbību rūtī atlasiet **Saglabāt**.
+1. Aizvērt lapu.
 
 ## <a name="define-unit-conversion-rules"></a>Vienību pārveidošanas noteikumu definēšana
-1. **Darbību rūtī** noklikšķiniet uz **Vienību pārveidošana**. Definējiet noteikumus mērvienības pārveidošanai uz citām mērvienībām un no citām mērvienībām atlasītajā mērvienību kategorijā.  
-2. Noklikšķiniet uz **Jauns**, lai atvērtu nolaižamo dialoglodziņu.
-3. Laukā **Koeficients** ievadiet skaitli. Pārveidošanas koeficients no No vienības uz Uz vienību. Piemēram, pārveidošanas koeficients no centimetriem uz metriem ir 100, jo viena metrā ir 100 centimetru.  
-4. Laukā **Uz vienību** ievadiet vai atlasiet kādu vērtību.
-5. Laukā **Noapaļošana** atlasiet opciju. Nosakiet, kā pārveidotā vērtība ir jānoapaļo.  
-6. Noklikšķiniet uz **Labi**.
-7. Aizvērt lapu.
 
+Lai definētu konvertēšanas noteikumus starp mērvienībām, veiciet šādas darbības.
 
+1. Izveidojiet vai atlasiet vienību, kurai jādefinē konvertēšanas noteikumi.
+1. Darbību rūtī atlasiet **Vienības konvertēšanas**.
+
+    Tiek paradīta lapa **Mērvienību konvertēšana**. Izmantojiet šo lapu, lai definētu noteikumus atlasītas vienības konvertēšanai uz citām vienībām un no citām vienībām mērvienību kategorijā.
+
+1. Atlasiet vienu no šīm cilnēm atkarībā no konvertēšanas tipa, ko vēlaties iestatīt:
+
+    - **Standarta pārveidošana** – iestatiet standarta konvertēšanas noteikumus visām precēm.
+    - **Kategoriju iekšējās konvertēšanas** – iestatiet produktam specifiskus konvertēšanas noteikumus vienībām šajā mērvienību kategorijā.
+    - **Starpkategoriju konvertēšanas** – iestatiet produktam specifiskus konvertēšanas noteikumus vienībām vienībām pa mērvienību kategorijām.
+
+1. Izpildiet kādu no šīm darbībām:
+
+    - Lai izveidotu jaunu konvertēšanu, rīkjoslā atlasiet **Jauns**.
+    - Lai rediģētu esošo konvertēšanu, atlasiet režģī esošo konvertēšanu un pēc tam rīkjoslā atlasiet **Rediģēt**.
+
+1. Parādītajā nolaižamajā dialoglodziņā iestatiet sekojošus laukus:
+
+    - **Prece** – atlasiet noteiktu preci, uz kuru attiecas konvertēšana. Šis lauks ir pieejams tikai kategoriju iekšējām konvertēšanām un starpkategoriju konvertēšanām.
+    - **Formulas izkārtojums** – atstājiet šo lauku iestatītu uz *Vienkāršs*, lai norādītu vienkāršu konvertēšanu, kam ir viens faktors. Iestatiet to kā *Uzlabots*, lai iestatītu sarežģītāku vienādojumu. Uzlaboto vienādojumu formāts atšķiras atkarībā no mērvienību kategorijas.
+    - **No vienības** – šis lauks rāda atlasīto vienību. Parasti vērtību nedrīkst mainīt. (Ja maināt vērtību, jāatver lapa **Vienību konvertēšana** atlasītajai vienībai, lai pēc tās saglabāšanas skatītu jauno konvertēšanu.)
+    - **Uz vienību** – atlasiet vienību, uz kuru konvertēt.
+    - **Noapaļošana** – atlasiet, kā noapaļot daļskaitļus, pamatojoties uz atlasītās vienības vērtību **Decimāldaļas precizitāte** (*Līdz tuvākajam*, *Uz augšu* vai *Uz leju*).
+    - **Konvertēšanas formula** – izmantojiet atlikušos laukus nolaižamā dialoglodziņa augšpusē, lai norādītu formulu konvertēšanai starp divām vienībām. Pieejamie lauki atšķiras atkarībā no atlasītās mērvienību kategorijas un formulas izkārtojuma.
+
+1. Atlasiet **Labi**.
+1. Aizvērt lapu.
+
+> [!TIP]
+> Varat arī iestatīt vienību konvertēšanu katram preces variantam. Papildinformāciju skatiet [Mērvienību konvertēšana katram preces variantam](../uom-conversion-per-product-variant.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed48d41926c801c9017867be2eaa9af85a94b119
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f29a5014b98daa5150e01b541a076237e45ff180
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817681"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951963"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Debitora atlaižu ģenerēšana un apstrāde
 
@@ -62,7 +62,7 @@ ms.locfileid: "5817681"
 
 ## <a name="process-rebate-claims"></a>Atlaižu prasību apstrāde
 1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Debitora atlaides > Atlaides**.
-    - Lapa Atlaides darbojas rīks, kurā var pārskatīt, apstiprināt un apstrādāt atlaides prasības. Tagad apstrādājiet prasības, kas tika izveidotas, izrakstot rēķinu pārdošanas pasūtījumam debitoram US-009, uz kuru attiecas atlaides līgums USMF-000001.   
+    - Lapa Atlaides darbojas kā rīks, kurā var pārskatīt, apstiprināt un apstrādāt atlaides prasības. Tagad apstrādājiet prasības, kas tika izveidotas, izrakstot rēķinu pārdošanas pasūtījumam debitoram US-009, uz kuru attiecas atlaides līgums USMF-000001.   
     - Pirmā rinda attiecas uz 800 USD atlaides prasību, kas balstās uz produkta T0020 40 vienību pārdošanu un aprēķināti kā 20 USD uz vienību. Tas atbilst pirmā daudzuma pārtraukuma nosacījumiem atlaides līgumā.  
     - Otrā ir 2400 USD prasība, kas balstās produkta T0020 60 vienību pārdošanu un aprēķināta kā 40 USD uz vienību atbilstoši otrajam daudzuma pārtraukumam līgumā.  
     - Abas prasības ir stāvoklī "Jāaprēķina". Tas nozīmē, ka tās ir saistītas ar līgumu, kas periodiski izseko debitora pārdošanas apjomu un tās ir atkārtoti jāaprēķina, lai ņemtu vērā kopējo pārdošanas apjomu attiecīgajā periodā.   

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 37b8022633e61c4d98d6f5d129bcf494a9ed92e0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16f1c56ecd69f4dc7bfd80e74d3f35147cc173d6
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831726"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919823"
 ---
 # <a name="rebate-management-deal-workflows"></a>Atlaižu pārvaldības darījumu darbplūsmas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Lai apstiprinātu atlaižu darījumus, atlaižu pārvaldība izmanto to pašu darbplūsmas platformu, ko citas Finance and Operations lietojumprogrammas. Divi darba procesi ir saistīti ar katru darbplūsmu:
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751438"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941170"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Dynamics 365 Commerce cenu noteikšanas programmas izmantošana ar Dynamics 365 Sales
 
@@ -31,7 +31,7 @@ ms.locfileid: "5751438"
 
 Dynamics 365 Commerce cenu noteikšanas programma atbalsta lielāko daļu no uzņēmuma līdz patērētājam (B2C) cenu noteikšanas scenāriju, piemēram, veikala līmeņa cenu noteikšanu, uz piederību un lojalitāti balstītu cenu noteikšanu, atlaides dažādām vienas kolekcijas precēm, apjoma atlaides un atlaides par iztērētu noteiktu summu. Cenu noteikšanas programma izmanto kompleksas kārtulas, lai noteiktu labāko cenu dotajam piedāvājumam vai pasūtījumam.
 
-Izmantojot [duālo rakstīšanu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), cenu noteikšanas vajadzībām ir pieejamas trīs opcijas. Varat izmantot statisko cenu noteikšanu, kas tiek iegūta no cenrāža Dynamics 365 Sales, cenu noteikšanas programmu Dynamics 365 Supply Chain Management vai cenu noteikšanas programmu Dynamics 365 Commerce. No šīm opcijām Commerce cenu noteikšanas programma ir vislabāk piemērota B2C scenārijiem.
+Izmantojot [duālo rakstīšanu](./dual-write-overview.md), cenu noteikšanas vajadzībām ir pieejamas trīs opcijas. Varat izmantot statisko cenu noteikšanu, kas tiek iegūta no cenrāža Dynamics 365 Sales, cenu noteikšanas programmu Dynamics 365 Supply Chain Management vai cenu noteikšanas programmu Dynamics 365 Commerce. No šīm opcijām Commerce cenu noteikšanas programma ir vislabāk piemērota B2C scenārijiem.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>Commerce cenu noteikšanas programmas izmantošana Sales
 
@@ -42,7 +42,7 @@ Kad lietotāji uzsāk piedāvājumu Sales, duālās rakstīšanas struktūra kop
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-- Pirms varat izmantot Commerce cenu noteikšanas programmu Sales, jāseko darbībām, kas norādītas [Potenciālais klients līdz naudai duālajā rakstīšanā](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
+- Pirms varat izmantot Commerce cenu noteikšanas programmu Sales, jāseko darbībām, kas norādītas [Potenciālais klients līdz naudai duālajā rakstīšanā](./dual-write-prospect-to-cash.md).
 - Lai veiktu manuālu ievadi, jāizslēdz tirdzniecības līgumu novērtēšana, veicot tālāk norādītās darbības.
 
     1. Savā Commerce vidē dodieties uz **Debitoru parādi \> Iestatīšana \> Debitoru parādu parametri**.
@@ -50,7 +50,7 @@ Kad lietotāji uzsāk piedāvājumu Sales, duālās rakstīšanas struktūra kop
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Potenciālā klienta-naudas duālais ieraksts](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[Potenciālā klienta-naudas duālais ieraksts](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

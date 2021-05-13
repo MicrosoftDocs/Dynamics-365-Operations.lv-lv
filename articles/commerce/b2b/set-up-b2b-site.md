@@ -2,7 +2,8 @@
 title: B2B e-komercijas vietnes iestatīšana
 description: Šajā tēmā aprakstīts, kā iestatīt uzņēmums-uzņēmums (B2B) e-komercijas vietni programmā Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799761"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937510"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-komercijas vietnes iestatīšana
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Uzņēmums-uzņēmums (B2B) e-komercijas vietnes nodrošina dažas galvenās iespējas, kas optimizē darbplūsmu B2B lietotājam. Šajā tēmā aprakstīts, kā iestatīt B2B e-komercijas vietni programmā Microsoft Dynamics 365 Commerce. Tajā aplūkoti moduļi un vietas iestatījumi, kas jākonfigurē, lai iespējotu B2B raksturīgos scenārijus.
 
@@ -283,9 +285,35 @@ Lai izveidotu rēķina detalizētas informācijas lapu vietnes veidotājā, izpi
 1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
 1. Publicējiet lapas vietrādi URL.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Pievienot ātrās pievienošanas moduli groza lapai
+
+Ātrās pievienošanas modulis nodrošina veidu, kā ātri pievienot grozam vairākus krājumus, izmantojot krājumu ID (zināmu arī kā noliktavas vienības \[SKU\] ID). Ātrās pievienošanas modulis tiek pievienots vietnes groza lapai.
+
+Lai pievienotu ātrās pievienošanas moduli groza lapai programmā Commerce vietnes veidotājs, veiciet tālāk norādītās darbības.
+
+1. Dodieties uz **Veidnes** un atlasiet jūsu vietnes groza lapas veidni.
+1. Atlasiet **Rediģēt**.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Ātrā pievienošana** un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu veidnē, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+1. Dodieties uz **Lapas** un atlasiet jūsu vietnes groza lapu.
+1. Moduļa **Noklusējuma lapa** slotā **Galvenais** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Konteiners** un pēc tam atlasiet **Labi**.
+1. Rekvizītu rūtī modulim **Konteiners** zem **Platums** atlasiet **Aizpildīt konteineru**.
+1. Slotā **Konteiners** atlasiet daudzpunkti (**...**) un pēc tam atlasiet **Pievienot moduli**.
+1. Dialoglodziņā **Pievienot moduli** atlasiet moduli **Ātrā pievienošana** un pēc tam atlasiet **Labi**.
+1. Atlasiet **Saglabāt**, atlasiet **Pabeigt rediģēšanu**, lai to pārbaudītu lapā, un pēc tam atlasiet **Publicēt**, lai publicētu to.
+
+> [!NOTE] 
+> Ātrās pievienošanas modulis ir pieejams Commerce versijas 10.0.17 laidienā. Ja veicat atjaunināšanu no vecākas Commerce versijas, ir manuāli jāatjaunina fails appsettings.json. Instrukcijas skatiet [SDK un moduļu bibliotēkas atjauninājumi](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Moduļu bibliotēkas pārskats](../starter-kit-overview.md)
+
+[SDK un moduļu bibliotēkas atjauninājumi](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Autorēšanas lapas pārskats](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Lai izveidotu rēķina detalizētas informācijas lapu vietnes veidotājā, izpi
 
 [Satura bloka modulis](../add-hero-module.md)
 
-[Preču kolekcija](../product-collection-module-overview.md)
+[Preču kolekciju modulis](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

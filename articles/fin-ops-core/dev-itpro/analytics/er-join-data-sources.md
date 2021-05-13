@@ -2,7 +2,7 @@
 title: Izmantojiet SAVIENOJUMA datu avotus ER modeļu kartējumos, lai iegūtu datus no vairākām programmas tabulām
 description: Šajā tēmā ir paskaidrots, kā elektroniskajos pārskatos (Electronic Reporting — ER) varat izmantot SAVIENOJUMA veida datu avotus.
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743981"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944730"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Izmantojiet SAVIENOJUMA datu avotus, lai iegūtu datus no vairākām programmas tabulām elektronisko pārskatu (ER) modeļu kartējumos
 
@@ -64,13 +64,13 @@ Lai izpildītu šīs tēmas piemērus, jums jābūt piekļuvei vienam no tālāk
 
 Jums arī vispirms jāizpilda darbības, kas ir aprakstītas procedūrā [Konfigurācijas nodrošinātāja izveide un atzīmēšana par aktīvu](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Iepriekš jums ir arī jālejupielādē no [Microsoft lejupielādes centrs](https://go.microsoft.com/fwlink/?linkid=000000) un lokāli jāsaglabā tālāk minētie parauga ER konfigurācijas faili.
+Iepriekš ir jāielādē un jāsaglabā šādi ER konfigurācijas failu paraugi:
 
 | **Satura apraksts**  | **Faila nosaukums**   |
 |--------------------------|-----------------|
-| Parauga **ER datu modeļa** konfigurācijas fails, kas piemēriem tiek izmantots kā datu avots.| [Modelis, lai uzzinātu SAVIENOJUMA datu avotus.versija.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Parauga **ER modeļa kartēšanas** konfigurācijas fails, kas piemēriem īsteno ER datu modeli. | [Kartēšana, lai uzzinātu SAVIENOJUMA datu avotus.versija.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Parauga **ER formāta** konfigurācijas fails. Šis fails apraksta datus, lai piemēriem aizpildītu ER formāta komponentu. | [Formāts, lai uzzinātu SAVIENOJUMA datu avotus.versija.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Parauga **ER datu modeļa** konfigurācijas fails, kas piemēriem tiek izmantots kā datu avots.| [Modelis, lai uzzinātu SAVIENOJUMA datu avotus.versija.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| Parauga **ER modeļa kartēšanas** konfigurācijas fails, kas piemēriem īsteno ER datu modeli. | [Kartēšana, lai uzzinātu SAVIENOJUMA datu avotus.versija.1.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Parauga **ER formāta** konfigurācijas fails. Šis fails apraksta datus, lai piemēriem aizpildītu ER formāta komponentu. | [Formāts, lai uzzinātu SAVIENOJUMA datu avotus.versija.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Konfigurācijas nodrošinātāja aktivizēšana
 
@@ -128,13 +128,13 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
     3. Saistīšana **ConfigurationTitle: virkne = @.'>Relations'.Solution.Name** norāda, ka ER konfigurācijas nosaukums ir ņemts no tabulas **ERSolutionTable** lauka **Nosaukums**, izmantojot daudzi pret vienu relāciju (**'>Relācijas'**) starp tabulām **ERSolutionVersionTable** un **ERSolutionTable**. Dotās programmas instances ER konfigurāciju nosaukumi tiek rādīti konfigurāciju kokā lapā **Konfigurācijas**.
     4. Saistīšana **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** nozīmē, ka konfigurācijas nodrošinātāja, kam pieder pašreizējā konfigurācija, nosaukums ir ņemts no tabulas **ERVendorTable** lauka **Nosaukums**, ko novērtē, izmantojot daudzi pret vienu relāciju starp tabulām **ERSolutionTable** un **ERVendorTable**. ER konfigurācijas nodrošinātāju nosaukumi tiek rādīti konfigurāciju kokā **Konfigurācijas** lapā katras konfigurācijas lapas galvenē. Visu ER konfigurācijas nodrošinātāju sarakstu var atrast tabulas lapā **Organizācijas administrēšana \> Elektroniskie pārskati \> Konfigurācijas nodrošinātājs**.
 
-    ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set1Review.PNG)
+    ![Lietotāja modeļa kartējuma noformētāja lapa, saistīto datu modeļa vienumu saraksts](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Konfigurācijas kokā izvērsiet **Set1.Summary** datu modeļa vienību.
 
     1. Saistījums **VersionsNumber: vesels skaitlis = VersionsSummary.aggregated.VersionsNumber** norāda, ka vienība **Set1.Summary.VersionsNumber** ir saistīta ar **Grupēt pēc** veida datu avota **VersionsSummary** apkopojuma lauku **VersionsNumber**, kas tika konfigurēts, lai atgrieztu tabulas **ERSolutionVersionTable** ierakstu skaitu, izmantojot datu avotu **Versijas**.
 
-    ![GROUPBY datu avota parametru lapa](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Rediģēt parametru lapu 'Grupēt pēc'](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Aizvērt lapu.
 
@@ -144,11 +144,11 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
 1. Konfigurācijas kokā izvērsiet **Set2** un **Set2.Details** datu modeļa vienības. Saistījums **Detalizēta informācija: ierakstu saraksts = detalizēta informācija** norāda, ka vienība **Set2.Details** ir saistīta ar datu avotu **Detalizēta informācija**, kas ir konfigurēts kā **Savienojuma** veida datu avots.
 
-    ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set2Review.PNG)
+    ![ER modeļa kartēšanas veidotāja lapa, kurā redzama paplašinātā 2. kopa: ieraksta datu modeļa vienumi](./media/GER-JoinDS-Set2Review.PNG)
 
     **Savienojuma** datu avotu var pievienot, atlasot **Funkcijas\Savienojums** datu avotu:
 
-    ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Lietotāja modeļa kartējuma noformētāja lapa, savienojuma datu avota tips](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Atlasiet datu avotu **Detalizēta informācija**.
 3. Atlasiet **Rediģēt** rūtī **Datu avoti**.
@@ -196,21 +196,21 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
     Šis formāts ir izveidots, lai aizpildītu ģenerēto teksta failu ar jaunu rindu katrai ER konfigurācijas versijai (**Versijas** secība). Katrā ģenerētajā rindā tiks iekļauts konfigurācijas nodrošinātāja nosaukums, kam pieder pašreizējā konfigurācija, konfigurācijas nosaukums un konfigurācijas versija, kas atdalīta ar semikolu. Ģenerētā faila pēdējā rindā būs ietverts atrasto ER konfigurāciju versiju skaits (**Kopsavilkuma** secība).
 
-    ![ER formāta veidotāja lapa](./media/GER-JoinDS-FormatReview.PNG)
+    ![ER formāta veidotāja lapa, cilne Formāts](./media/GER-JoinDS-FormatReview.PNG)
 
     Datu avoti **Dati** un **Kopsavilkums** tiek izmantoti, lai aizpildītu konfigurācijas versijas detalizētu informāciju ģenerētajā failā.
 
     - Informācija no datu modeļa **Set1** tiek izmantota, kad, palaižot ER formātu, lietotāja dialoga lapā izpildlaikā datu avotam **Atlasītājs** izvēlaties **Nē**.
     - Informācija no datu modeļa **Set2** tiek izmantota, kad lietotāja dialoga lapā izpildlaikā datu avotam **Atlasītājs** izvēlaties **Jā**.
 
-    ![ER formāta veidotāja lapa](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![ER formāta veidotāja lapa, cilne Kartēšana](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Atlasiet **Izpildīt**.
 10. Dialoga lapā laukā **Izmantot SAVIENOJUMA datu avotu** atlasiet **Nē**.
 11. Atlasiet **Labi**.
 12. Pārskatīt ģenerēto failu.
 
-    ![ER lietotāja dialoga lapa](./media/GER-JoinDS-Set1Run.PNG)
+    ![Elektroniskā pārskata parametru ģenerētais fails, kas nelieto JOIN datu avotu](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Analizēt ER formāta izpildes izsekošanu
 
@@ -224,7 +224,7 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
     - **ERSolutionTable** ir izsaukts tik daudz reižu, cik ir konfigurācijas versijas ierakstu tabulā **ERSolutionVersionTable**, lai gan šādu izsaukumu skaitu varētu samazināt veiktspējas uzlabošanas laikā.
     - **ERVendorTable** ir izsaukts divreiz katram konfigurācijas versijas ierakstam, kas tika atklāts tabulā **ERSolutionVersionTable**, lai gan arī šādu izsaukumu skaitu varētu samazināt.
 
-    ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Eexcution statistika ER Modeļu kartēšanas veidotāja lapā](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Aizvērt lapu.
 
@@ -236,7 +236,7 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 4. Atlasiet **Labi**.
 5. Pārskatīt ģenerēto failu.
 
-    ![ER lietotāja dialoga lapa](./media/GER-JoinDS-Set2Run.PNG)
+    ![Elektroniskā pārskata parametru ģenerētais fails, kas lieto JOIN datu avotu](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizēt ER formāta izpildes izsekošanu
 
@@ -249,11 +249,11 @@ Pārskatiet ER modeļa kartēšanas komponenta iestatījumus. Komponents ir konf
 
     - Pieteikumu datu bāze ir vienreiz izsaukta, lai iegūtu ierakstus no tabulas **ERVendorTable**, **ERSolutionTable** un **ERSolutionVersionTable** nolūkā piekļūt nepieciešamajiem laukiem.
 
-    ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Lietotāja modeļa kartējuma lapas veiktspējas statistikas dati](./media/GER-JoinDS-Set2Run2.PNG)
 
     - Programmas datu bāze ir vienreiz izsaukta, lai aprēķinātu konfigurācijas versiju skaitu, lietojot savienojumus, kas tika konfigurēti datu avotā **Detalizēta informācija**.
 
-    ![ER modeļa kartēšanas noformētāja lapa](./media/GER-JoinDS-Set2Run3.PNG)
+    ![ER modeļu kartēšanas veidotāja lapa, kurā redzami programmas datu bāzes izsaukumi](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Ierobežojumi
 

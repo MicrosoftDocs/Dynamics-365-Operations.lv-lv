@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828230"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920991"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Ienākošo noliktavas operāciju problēmu novēršana
 
@@ -56,7 +56,7 @@ Pēc tam, kad esat palaidis *Atjaunināt preču ieejas plūsmu* periodisko uzdev
 
 ### <a name="issue-resolution"></a>Problēmas risinājums
 
-Jauna ienākošo kravu apstrādes funkcija *Pārsniedzot kravas daudzumu* izlabo šo problēmu. Lai ieslēgtu šo funkciju, dodieties uz [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet tālāk norādītos līdzekļus (minētajā secībā):
+Jauna ienākošo kravu apstrādes funkcija *Pārsniedzot kravas daudzumu* izlabo šo problēmu. Lai ieslēgtu šo funkciju, dodieties uz darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) un ieslēdziet tālāk norādītos līdzekļus (minētajā secībā):
 
 1. Saistīt pirkšanas pasūtījuma krājumu transakcijas ar kravu
 1. Noslodzes daudzumu pārmērīga saņemšana

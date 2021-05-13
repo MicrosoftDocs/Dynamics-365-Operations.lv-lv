@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d910b89330865b0bcf3f6cd05b761506f339a45f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b51e4b4d00da2babb5128d8c4c22139b0c1853d4
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841675"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920733"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Izveidot materiālu plānu līdzproduktiem
 
@@ -26,88 +26,88 @@ ms.locfileid: "5841675"
 
 Ražošanas plānotājs plāno materiālu vajadzības krājumiem, kas ir formulas līdzprodukti. Demonstrācijas datu uzņēmums, kas tiek izmantots, lai izveidotu šo procedūru, ir USP2.
 
-
 ## <a name="create-requirement-for-a-co-product"></a>Vajadzības izveide līdzproduktam
-1. Dodieties uz Noklusējuma informācijas panelis.
-2. Noklikšķiniet uz Pārdošanas pasūtījuma apstrāde un pieprasījums.
-3. Klikšķiniet Jauns.
-4. Noklikšķiniet uz Pārdošanas pasūtījums.
-5. Laukā Debitora konts ierakstiet kādu vērtību.
+
+1. Dodieties uz **Pārdošana un mārketings \> Darbvietas \> Pārdošanas pasūtījumu apstrāde un pieprasījums**.
+1. Atlasiet **Jauns**.
+1. Atlasiet vienumu **Pārdošanas pasūtījums**.
+1. Laukā **Debitora konts** ierakstiet kādu vērtību.
     * Piemērs: US-001  
-6. Noklikšķiniet uz OK.
-7. Laukā Krājuma kods ierakstiet kādu vērtību.
+1. Atlasiet **Labi**.
+1. Laukā **Krājuma kods** ierakstiet vērtību.
     * Piemērs: P6003  
-8. Laukā Daudzums ievadiet skaitli.
+1. Laukā **Daudzums** ierakstiet kādu skaitli.
     * Piemērs: 50000  
-9. Noklikšķiniet uz Saglabāt.
+1. Atlasiet **Saglabāt**.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Materiālu plāna izveide līdzproduktiem
+
 1. Aizvērt lapu.
-2. Aizvērt lapu.
-3. Noklikšķiniet uz Vispārējā plānošana.
-4. Laukā Plāns noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-5. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+1. Aizvērt lapu.
+1. Atlasiet **Vispārējā plānošana**.
+1. Laukā **Plāns** atlasiet nolaižamo pogu uzmeklēšanas atvēršanai.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
     * Piemērs: MasterPlan  
-6. Noklikšķiniet uz Palaist.
-7. Izvērsiet vai sakļaujiet sadaļu Iekļaujamie ieraksti.
-8. Noklikšķiniet uz Filtrēt.
-9. Sarakstā atlasiet rindu Lauks = Krājuma numurs.
-10. Laukā Kritēriji ierakstiet kādu vērtību.
+1. Atlasiet **Izpildīt**.
+1. Izvērsiet vai sakļaujiet sadaļu **Iekļaujamie ieraksti**.
+1. Atlasiet **Filtrēt**.
+1. Sarakstā atlasiet rindu **Lauks** = *Krājuma numurs*.
+1. Laukā **Kritēriji** ierakstiet kādu vērtību.
     * Piemērs: P6003  
-11. Noklikšķiniet uz OK.
-12. Noklikšķiniet uz OK.
-13. Noklikšķiniet uz Plānotie pasūtījumi.
-14. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "P6000".
+1. Atlasiet **Labi**.
+1. Atlasiet **Labi**.
+1. Atlasiet **Plānotie pasūtījumi**.
+1. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka **Krājuma numurs**, izmantojot vērtību "P6000".
     * Filtrējiet pēc formulas krājuma, kuram ir krājuma līdzprodukts, kuram izveidojāt pārdošanas pasūtījumu.  
-15. Sarakstā atzīmējiet atlasīto rindu.
+1. Sarakstā atzīmējiet atlasīto rindu.
     * Atlasiet jebkuru filtra atgriezto rindu.  
-16. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-17. Izvērsiet vai sakļaujiet sadaļu Piesaiste.
-18. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
+1. Izvērsiet sadaļu **Piesaiste**.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
     * Plānotais pasūtījums ir piesaistīts līdzprodukta pārdošanas pasūtījumam.  
-19. Aizvērt lapu.
+1. Aizvērt lapu.
 
-## <a name="create-requirement-for-a-co-product"></a>Vajadzības izveide līdzproduktam
-1. Dodieties uz Noklusējuma informācijas panelis.
-2. Noklikšķiniet uz Pārdošanas pasūtījuma apstrāde un pieprasījums.
-3. Klikšķiniet Jauns.
-4. Noklikšķiniet uz Pārdošanas pasūtījums.
-5. Laukā Debitora konts ierakstiet kādu vērtību.
+## <a name="create-a-second-requirement-for-a-co-product"></a>Otras vajadzības izveide līdzproduktam
+
+1. Dodieties uz **Pārdošana un mārketings \> Darbvietas \> Pārdošanas pasūtījumu apstrāde un pieprasījums**.
+1. Atlasiet **Jauns**.
+1. Atlasiet vienumu **Pārdošanas pasūtījums**.
+1. Laukā **Debitora konts** ierakstiet kādu vērtību.
     * Piemērs: US-001  
-6. Noklikšķiniet uz OK.
-7. Laukā Krājuma kods ierakstiet kādu vērtību.
+1. Atlasiet **Labi**.
+1. Laukā **Krājuma kods** ierakstiet vērtību.
     * Piemērs: P6003  
-8. Laukā Daudzums ievadiet skaitli.
+1. Laukā **Daudzums** ierakstiet kādu skaitli.
     * Piemērs: 50000  
-9. Noklikšķiniet uz Saglabāt.
+1. Atlasiet **Saglabāt**.
 
-## <a name="create-a-material-plan-for-co-products"></a>Materiālu plāna izveide līdzproduktiem
-1. Laukā Plāns noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu uzmeklēšanu.
-2. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+## <a name="create-a-second-material-plan-for-co-products"></a>Otra materiālu plāna izveide līdzproduktiem
+
+1. Laukā **Plāns** atlasiet nolaižamo pogu uzmeklēšanas atvēršanai.
+2. Sarakstā atlasiet saiti atlasītajā rindā.
     * Piemērs: MasterPlan  
-3. Noklikšķiniet uz Palaist.
-4. Izvērsiet vai sakļaujiet sadaļu Iekļaujamie ieraksti.
-5. Noklikšķiniet uz Filtrēt.
-6. Sarakstā atlasiet rindu Lauks = Krājuma numurs.
-7. Laukā Kritēriji ierakstiet kādu vērtību.
+3. Atlasiet **Izpildīt**.
+4. Izvērsiet vai sakļaujiet sadaļu **Iekļaujamie ieraksti**.
+5. Atlasiet **Filtrēt**.
+6. Sarakstā atlasiet rindu **Lauks** = *Krājuma numurs*.
+7. Laukā *Kritēriji* ierakstiet kādu vērtību.
     * Piemērs: P6003  
-8. Noklikšķiniet uz OK.
-9. Noklikšķiniet uz OK.
-10. Noklikšķiniet uz Plānotie pasūtījumi.
-11. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Krājuma numurs, izmantojot vērtību "P6000".
+8. Atlasiet **Labi**.
+9. Atlasiet **Labi**.
+10. Atlasiet **Plānotie pasūtījumi**.
+11. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka **Krājuma numurs**, izmantojot vērtību "P6000".
     * Filtrējiet pēc formulas krājuma, kuram ir krājuma līdzprodukts, kuram izveidojāt pārdošanas pasūtījumu.  
 12. Sarakstā atzīmējiet atlasīto rindu.
     * Atlasiet jebkuru filtra atgriezto rindu.  
-13. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-14. Izvērsiet vai sakļaujiet sadaļu Piesaiste.
-15. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
+13. Sarakstā atlasiet saiti atlasītajā rindā.
+14. Izvērsiet vai sakļaujiet sadaļu **Piesaiste**.
+15. Sarakstā atlasiet saiti atlasītajā rindā.
     * Plānotais pasūtījums ir piesaistīts līdzprodukta pārdošanas pasūtījumam.  
 16. Aizvērt lapu.
-17. Noklikšķiniet uz Vispārējā plānošana.
-18. Doties uz Vispārējā plānošana > Iestatīšana > Vispārējas plānošanas parametri.
-19. Laukā Atspējot visus plānošanas procesus atlasiet Nē.
+17. Atlasiet **Vispārējā plānošana**.
+18. Dodieties uz **Vispārējā plānošana \> Iestatīšana \> Vispārējas plānošanas parametri**.
+19. Laukā **Atspējot visus plānošanas procesus** atlasiet *Nē*.
 20. Aizvērt lapu.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

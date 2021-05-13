@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897820"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923450"
 ---
 # <a name="help-system"></a>Palīdzības sistēma
 
@@ -39,7 +39,7 @@ ms.locfileid: "5897820"
 
 ## <a name="help-on-docsmicrosoftcom"></a>Palīdzība vietnē docs.microsoft.com
 
-Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) ir noklusējuma avots preču dokumentācijai iepriekš minētajām programmām. Šī vietne piedāvā tālāk norādītos līdzekļus:
+Vietne docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) ir noklusējuma avots preču dokumentācijai iepriekš minētajām programmām. Šī vietne piedāvā tālāk norādītos līdzekļus:
 
 - **Piekļuve visjaunākajam saturam**— vietne nodrošina Microsoft ātrāku un pielāgojamāku veidu, kā piegādāt un atjaunināt produkta dokumentāciju. Tāpēc jums ir viegla pieeja visjaunākajai tehniskajai informācijai.
 - **Saturs, ko sarakstījuši eksperti** – vietnes saturs ir atvērts kopienas dalībnieku ieguldījumiem gan iekšpusē, gan ārpus Microsoft.
@@ -50,7 +50,7 @@ Jūs varat atrast saturu docs.microsoft.com, izmantojot jebkuru meklētājprogra
 
 Lai abonētu Really Simple Syndication (RSS) plūsmu visiem atjauninājumiem, kas ir docs.microsoft.com saturam, izmantojiet šādu saiti:
 
-[RSS plūsma](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[RSS plūsma](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Sniedziet mums atsauksmes
 
@@ -73,7 +73,7 @@ Varat veikt papildinājumus un rediģējumus dokumentācijā. Lai sāktu darbu, 
 
 Video [Kā sniegt ieguldījumu Microsoft Dynamics 365 dokumentācijās](https://youtu.be/m5djioozRbg) (norādīts iepriekš) ir iekļauts Microsoft Dynamics 365 kanālā YouTube.
 
-Lai iegūtu vairāk informācijas, skatiet [Dokumentu veicinātāja ceļvedis](https://docs.microsoft.com/contribute), ko publicējusi darba grupa, kas izveidoja docs.microsoft.com vietni.
+Lai iegūtu vairāk informācijas, skatiet [Dokumentu veicinātāja ceļvedis](/contribute), ko publicējusi darba grupa, kas izveidoja docs.microsoft.com vietni.
 
 > [!NOTE]
 > Pašlaik tiek pieņemta līdzdarbošanās tikai mūsu angļu valodas satura veidošanā.
@@ -155,12 +155,13 @@ Varat izveidot Palīdzību lietotājiem, izveidojot pielāgotus uzdevuma ceļve�
 | Vieta | apraksts |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Šī vietne vieso vai savieno ar visu produktu dokumentāciju programmatūrai Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Šī vietne ir brīva Microsoft eLearning vietne. |
+| [Microsoft Learn](/learn/) | Šī vietne ir brīva Microsoft eLearning vietne. |
 | [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Šī vietne nodrošina mākonī izvietotu sadarbības darbvietu, ko debitori un partneri var izmantot, lai pārvaldītu projektus no pirmspārdošanas posma līdz ieviešanas un operāciju posmam. Tā ir noderīga visām ieviešanas fāzēm. |
 | [Atbalsta emuārs](https://aka.ms/AXSupportBlog) | Šī vietne sniedz padomus un ieteikumus, ko ir publicējusi Atbalsta darba grupa. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šī vietne vieso saturu no iepriekšējiem laidieniem. |
 | [Dynamics kopiena](https://community.dynamics.com/) | Šī vietne vieso emuārus, forumus un video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šī vietne sniedz novērtējumu un pārdošanas informāciju. |
+
 
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890056"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935757"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse virtuālo tabulu konfigurēšana
 
@@ -102,27 +102,15 @@ Vispirms jūsu Personāla vadības instance ir jāreģistrē Azure portālā, la
 
 Instalējiet Dynamics 365 HR Virtual Tables programmu jūsu Power Apps vidē, lai izvietotu virtuālās tabulas risinājuma pakotni Dataverse.
 
-1. Atveriet [Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com).
+1. Human Resources atveriet lapu **Microsoft Dataverse integrācija**.
 
-2. Sarakstā **Vides** atlasiet ar jūsu personāla vadības instanci saistīto Power Apps vidi.
+2. Atlasiet cilni **Virtuālās tabulas**.
 
-3. Lapas sadaļā **Resursi** atlasiet **Dynamics 365 lietojumprogrammas**.
+3. Atlasiet **Instalēt virtuālās tabulas programmu**.
 
-4. Atlasiet darbību **Lietojumprogrammas instalēšana**.
+### <a name="configure-the-virtual-table-data-source"></a>Virtuālās tabulas datu avota konfigurēšana
 
-5. Atlasiet **Dynamics 365 HR Virtual Table** un atlasiet **Tālāk**.
-
-6. Pārskatiet un atzīmējiet, ka piekrītat pakalpojuma nosacījumiem.
-
-7. Atlasiet **Instalēt**.
-
-Instalācija aizņem dažas minūtes. Kad tā ir pabeigta, pārejiet pie nākamajām darbībām.
-
-![Dynamics 365 HR Virtual Table programmas instalēšana no Power Platform administrēšanas centra](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Virtuālās tabulas datu avota konfigurēšana 
-
-Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē. 
+Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 
 1. Atveriet [Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ Nākamais solis ir konfigurēt virtuālās tabulas datu avotu Power Apps vidē.
 4. **Risinājumu darbspējas centrmezglā** atlasiet ikonu **Detalizētā atrašana** lietojumprogrammas lapas augšējā labajā stūrī.
 
 5. Lapā **Detalizētā atrašana**, nolaižamajā sarakstā **Meklēt** atlasiet **Finance and Operations virtuālo datu avotu konfigurācijas**.
+
+   > [!NOTE]
+   > Virtuālās tabulas programmas instalēšana no iepriekšējās iestatīšanas darbības var ilgt dažas minūtes. Ja **Finance and Operations virtuālās datu avota konfigurācijas** nav pieejamas sarakstā, uzgaidiet kādu minūti un atsvaidziniet sarakstu.
 
 6. Atlasiet **Rezultāti**.
 
@@ -186,7 +177,7 @@ Piešķiriet atļaujas abām Azure AD lietojumprogrammām personāla vadībā:
 
 Kad iestatīšana ir pabeigta, varat atlasīt virtuālās tabulas, kuras vēlaties ģenerēt un iespējot savā Dataverse instancē.
 
-1. Human Resources atveriet lapu **Dataverse integrācija**.
+1. Human Resources atveriet lapu **Microsoft Dataverse integrācija**.
 
 2. Atlasiet cilni **Virtuālās tabulas**.
 
@@ -197,7 +188,7 @@ Kad iestatīšana ir pabeigta, varat atlasīt virtuālās tabulas, kuras vēlati
 
 4. Atlasiet **Ģenerēt/atsvaidzināt**.
 
-![Dataverse integrācija](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse integrācija](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Tabulas ģenerēšanas statusa pārbaude
 

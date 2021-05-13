@@ -14,68 +14,71 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1885aba11b5c6878cc9dca615cea98b77b4df63f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed1981b7c1427c902f237f0aa95f63e89bc345ab
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811586"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920933"
 ---
 # <a name="create-working-time-templates"></a>Darba laika veidņu izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Darba laiku veidnes nosaka darba stundas visā nedēļā un tiek izmantotas, lai ģenerētu darba laikus noteiktam laika periodam. Šajā procedūrā ir parādīts, kā definēt darba laika veidni, izmantojot darba laika plānošanas rekvizītus darba laika intervālu kategorizēšanai. Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.
+Darba laiku veidnes nosaka darba stundas visā nedēļā un tiek izmantotas, lai ģenerētu darba laikus noteiktam laika periodam. Šajā procedūrā ir parādīts, kā definēt darba laika veidni, izmantojot darba laika plānošanas rekvizītus darba laika intervālu kategorizēšanai. Šo procedūru var izmēģināt, izmantojot paraugdatu uzņēmumu USMF vai izmantojot savus datus.
 
-1. Pārejiet uz sadaļu Visas darbvietas > Resursu darbmūža pārvaldība.
-2. Noklikšķiniet uz Darba laika veidnes.
+1. Pārejiet uz sadaļu **Darbvietas > Resursu darbmūža pārvaldība**.
+1. Atlasiet **Darba laika veidnes**.
 
 ## <a name="create-working-time-template"></a>Darba laika veidnes izveide
-1. Noklikšķiniet uz Jauns.
-2. Laukā Darba laika veidne ierakstiet kādu vērtību.
-3. Laukā Nosaukums ierakstiet kādu vērtību.
-4. Izvērsiet sadaļu Pirmdiena.
-5. Noklikšķiniet uz Pievienot.
-6. Laukā No ievadiet laiku.
+
+1. Atlasiet **Jauns**.
+1. Laukā **Darba laika veidne** ierakstiet kādu vērtību.
+1. Laukā **Nosaukums** ierakstiet kādu vērtību.
+1. Izvērsiet sadaļu **Pirmdiena**.
+1. Atlasiet **Pievienot**.
+1. Laukā **No** ievadiet laiku.
     * Norādiet darba sākuma laiku no rīta.  
-7. Laukā Līdz ievadiet laiku.
+1. Laukā **Līdz** ievadiet laiku.
     * Norādiet laiku, kad sākas darbinieku pusdienu pārtraukums.  
-8. Noklikšķiniet uz Pievienot.
-9. Laukā No ievadiet laiku.
+1. Atlasiet **Pievienot**.
+1. Laukā **No** ievadiet laiku.
     * Norādiet laiku, kad darbs tiek atsākts pēc pusdienām.  
-10. Laukā Līdz ievadiet laiku.
+1. Laukā **Līdz** ievadiet laiku.
     * Norādiet darba dienas beigas.  
 
 ## <a name="replicate-working-times-to-all-week-days"></a>Dublējiet darba laikus visām nedēļas dienām
-1. Noklikšķiniet uz Kopēt dienu.
+
+1. Atlasiet **Kopēt dienu**.
     * Kopējiet darba laiku definīcijas no pirmdienas līdz otrdienai.  
-2. Noklikšķiniet uz OK.
-3. Noklikšķiniet uz Kopēt dienu.
+1. Atlasiet **Labi**.
+1. Atlasiet **Kopēt dienu**.
     * Kopējiet darba laiku definīcijas no pirmdienas līdz trešdienai.  
-4. Laukā Līdz nedēļas dienai atlasiet opciju.
-5. Noklikšķiniet uz OK.
-6. Noklikšķiniet uz Kopēt dienu.
+1. Laukā **Līdz nedēļas dienai** atlasiet opciju.
+1. Atlasiet **Labi**.
+1. Atlasiet **Kopēt dienu**.
     * Kopējiet darba laiku definīcijas no pirmdienas līdz ceturtdienai.  
-7. Laukā Līdz nedēļas dienai atlasiet opciju.
-8. Noklikšķiniet uz OK.
-9. Noklikšķiniet uz Kopēt dienu.
+1. Laukā **Līdz nedēļas dienai** atlasiet opciju.
+1. Atlasiet **Labi**.
+1. Atlasiet **Kopēt dienu**.
     * Kopējiet darba laiku definīcijas no pirmdienas līdz piektdienai.  
-10. Laukā Līdz nedēļas dienai atlasiet opciju.
-11. Noklikšķiniet uz OK.
+1. Laukā **Līdz nedēļas dienai** atlasiet opciju.
+1. Atlasiet **Labi**.
 
 ## <a name="define-time-slots-for-special-operations"></a>Laikspraugu definēšana īpašām operācijām
-1. Izvērsiet sadaļu Piektdiena.
-2. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-3. Laukā Rekvizīts ievadiet vai atlasiet kādu vērtību.
-4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Laukā Rekvizīts ievadiet vai atlasiet kādu vērtību.
+
+1. Izvērsiet sadaļu **Piektdiena**.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Laukā **Rekvizīts** ievadiet vai atlasiet kādu vērtību.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Laukā **Rekvizīts** ievadiet vai atlasiet kādu vērtību.
 
 ## <a name="mark-weekend-days-as-closed-for-pickup"></a>Nedēļas nogales dienu atzīmēšana kā slēgtas izsniegšanai
-1. Izvērsiet sadaļu Sestdiena.
-2. Laukā Slēgts izsniegšanai atlasiet Jā.
-3. Izvērsiet sadaļu Svētdiena.
-4. Laukā Slēgts izsniegšanai atlasiet Jā.
 
+1. Izvērsiet sadaļu **Sestdiena**.
+1. Laukā **Slēgts izsniegšanai** atlasiet *Jā*.
+1. Izvērsiet sadaļu **Svētdiena**.
+1. Laukā **Slēgts izsniegšanai** atlasiet *Jā*.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

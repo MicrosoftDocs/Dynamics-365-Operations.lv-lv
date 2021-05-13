@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4767d5dc3944d2595a5b2a74a6d5c7c0ea0c849a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c945756997b0580ac7ffb19261f9184e53a1c10
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809450"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920511"
 ---
 # <a name="approve-a-product-configuration-model"></a>Preces konfigurācijas modeļa apstiprināšana
 
@@ -26,25 +26,24 @@ ms.locfileid: "5809450"
 
 Šīs procedūras veikšanai ir nepieciešams, lai būtu pieejams vismaz preces konfigurācijas modelis. Šajā procedūrā tiek izmantots augstas kvalitātes skaļruņu modelis demonstrācijas datu uzņēmumā USMF. Ņemiet vērā, ka šis modelis jau ir apstiprināts, bet procedūrā ir aprakstīts viss process.
 
-1. Noklikšķiniet uz Preces varianta modeļa definīcija.
-2. Noklikšķiniet uz Preču konfigurācijas modeļi.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
     * Atlasiet augstas kvalitātes skaļruņa modeli šai procedūrai.  
-4. Noklikšķiniet uz Versijas.
-5. Noklikšķiniet uz Jauns.
-6. Laukā Preces numurs ievadiet vai atlasiet vērtību.
+1. Atlasīt **Versijas**.
+1. Atlasiet **Jauns**.
+1. Laukā **Preces numurs** ievadiet vai atlasiet vērtību.
     * Atsauce uz preci attiecas uz preces konfigurācijas modeļa versiju. Šajā sarakstā tiks parādīti tikai preču šabloni, kuriem ir konfigurācijas atbilstoši ierobežojumam tehnoloģija.  
-7. Ievadiet datumu laukā No datuma.
+1. Ievadiet datumu laukā **No datuma**.
     * Atlasiet, kad būs pieejama preču modeļa versija.  
-8. Laukā Līdz datumam ievadiet datumu.
+1. Ievadiet datumu laukā **Līdz datumam**.
     * Atlasiet beigu datumu, kad beigsies šīs preču modeļa versijas derīguma termiņš, vai atlasiet vienumu Nekad.  
-9. Noklikšķiniet uz Apstiprināt, lai atvērtu nolaižamo dialoglodziņu.
-10. Laukā Apstiprināja ievadiet vai atlasiet kādu vērtību.
+1. Atlasiet **Apstiprināt**, lai atvērtu nolaižamo dialoglodziņu.
+1. Laukā **Apstiprināt pēc** ievadiet vai atlasiet kādu vērtību.
     * Atlasiet personu, kura ir atbildīga par preču modeļu apstiprināšanu izmantošanai operācijās.  
-11. Noklikšķiniet uz OK.
-12. Laukā Cenu noteikšanas metode atlasiet opciju.
+1. Atlasiet **Labi**.
+1. Laukā **Cenu noteikšanas metode** atlasiet opciju.
     * Aktivizējiet preču modeļa versiju. Vienam preču modelim vienlaicīgi var būt aktīva tikai viena prece.  
-13. Aizvērt lapu.
+1. Aizvērt lapu.
 
 
 

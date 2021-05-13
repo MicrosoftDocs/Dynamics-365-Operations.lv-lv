@@ -2,7 +2,7 @@
 title: Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus
 description: Šajā tēmā ir paskaidrots, kā var palīdzēt uzlabot Elektronisko atskaišu (Electroinic reporting - ER) risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus.
 author: NickSelin
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749517"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944845"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Uzlabot ER risinājumu veiktspēju, pievienojot parameterizētus APRĒĶINĀTO LAUKU datu avotus
 
@@ -244,9 +244,9 @@ Nepieciešams lejupielādēt tālāk norādītos failus un saglabāt tos lokāli
 
 | Fails                                        | Saturs |
 |---------------------------------------------|---------|
-| Veiktspējas uzlabošanas modelis.versija.1     | [Parauga ER datu modeļa konfigurācija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Veiktspējas uzlabošanas kartējums.versija.1.1 | [Parauga ER modeļa kartējuma konfigurācija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Veiktspējas uzlabošanas formats.versija.1.1  | [Parauga ER formāta konfigurācija](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Veiktspējas uzlabošanas modelis.versija.1     | [Parauga ER datu modeļa konfigurācija](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Veiktspējas uzlabošanas kartējums.versija.1.1 | [Parauga ER modeļa kartējuma konfigurācija](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Veiktspējas uzlabošanas formats.versija.1.1  | [Parauga ER formāta konfigurācija](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>2. papildinājums: ER struktūras konfigurēšana
 

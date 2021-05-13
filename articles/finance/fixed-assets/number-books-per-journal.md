@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892411"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944805"
 ---
 # <a name="number-of-books-per-journal"></a>Grāmatu skaits katrā žurnālā
 
@@ -47,9 +47,5 @@ Pakešapstrādes darbs izslēdz slēgtās grāmatas. Piemēram, nolietojuma pake
 Grāmatu skaita ierobežojums tiek pielietots, ja tajā pašā žurnālā neeksistē pamatlīdzekļu ID dublikāti. Tomēr, ja pamatlīdzekļa ID ir tas pats, kas grāmatas ID, žurnāla grāmatu skaits var tikt pārsniegts, lai saglabātu pamatlīdzekļa ID tajā pašā žurnālā.
 
 Piemēram, ir 5001 pamatlīdzekļu ID, trīs grāmatas ir saistītas ar katru pamatlīdzekļa ID, un katra pamatlīdzekļu grāmata tiek grāmatota vienā grāmatošanas līmenī. Nolietojums tiek izpildīts trīs mēnešus pēc kārtas bez summēšanas.  Nolietojuma žurnāls tiks izveidots, izmantojot pakešuzdevumu, un sistēma izveidos septiņus žurnālus, kuriem ir 667 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Rezultāts būs 2001 grāmata. Tāpēc trijos mēnešos būs 6003 žurnāla rindas, lai tajā pašā žurnālā uzturētu tos pašus pamatlīdzekļu ID. Sistēmā tiks izveidots arī viens žurnāls, kurā ir 332 pamatlīdzekļu ID un trīs grāmatas katram pamatlīdzekļa ID. Trijos mēnešos būs 2988 rindas.
-
-> [!NOTE] 
-> Ja, veidojot nolietojuma priekšlikumu, parametrs **Nolietojuma kopsavilkums** ir ieslēgts, tad vērtībai laukā **Grāmatu skaits žurnālā – Nolietojuma priekšlikums** nav ietekmes. Šajā gadījumā grāmatu skaits žurnālā ir 6000, kas ir iekšējais definētais ierobežojums.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

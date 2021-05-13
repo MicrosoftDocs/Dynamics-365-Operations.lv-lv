@@ -2,25 +2,25 @@
 title: PVN aprēķins vispārējā žurnālā.
 description: Šajā tēmā izskaidrots, kā PVN tiek aprēķināts dažādiem kontu tipiem (kreditora, klienta, virsgrāmatas un projekta) vispārējā žurnālā.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815336"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937310"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>PVN aprēķins vispārējā žurnālā.
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Dodieties uz **Virsgrāmata \> Kontu plāns \> Konti \> Galvenie konti** un atla
 
 ![PVN darījumu lapa](media/sales-tax-amount-sign.jpg)
 
-Sekojošajā tabulā ir parādīts vispārīgais noteikums, lai noteiktu PVN summas apjomu pagaidu PVN tabulā.
+Sekojošajā tabulā ir parādīts vispārīgais noteikums, lai noteiktu PVN virzienu un summas apjomu pagaidu PVN tabulā.
 
 | Žurnāla līniju apjoms | PVN virziens  | PVN summas apjoms |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ Sekojošajā tabulā ir parādīts vispārīgais noteikums, lai noteiktu PVN sum
 | Negatīvs            | Saņemamais PVN | Negatīvs              |
 | Negatīvs            | Maksājamais PVN    | Pozitīvs              |
 
-Pastāv īpašs noteikums dokumentiem, kuriem ir tikai **Projekta** vai **Virsgrāmatas** rindas gadījumos, kad **Virsgrāmatas** rindā ir atlasīta PVN grupa vai preces PVN grupa. Šo noteikumu kontrolē, iespējojot neatkarīgu PVN aprēķināšanas funkciju vispārējiem žurnāliem. Kad šī funkcija ir izslēgta, **Virsgrāmatas** rindas nodokļa summa izmanto **Projekta** rindas debeta/kredīta virzienu. Kad šī funkcija ir ieslēgta, **Virsgrāmatas** rindas nodokļa summa izmanto savu projekta rindas debeta/kredīta virzienu. Sekojošajās Tabulās ir parādīts katra scenārija noteikums. 
+Pastāv īpašs noteikums dokumentiem, kuriem ir tikai **Projekta** vai **Virsgrāmatas** rindas gadījumos, kad **Virsgrāmatas** rindā ir atlasīta PVN grupa vai preces PVN grupa. Šo noteikumu kontrolē līdzeklis **Iespējot neatkarīgu PVN aprēķināšanas līdzekli vispārējiem žurnāliem**. Kad šī funkcija ir izslēgta, **Virsgrāmatas** rindas nodokļa summa izmanto **Projekta** rindas debeta/kredīta virzienu. Kad šī funkcija ir ieslēgta, **Virsgrāmatas** rindas nodokļa summa izmanto savu projekta rindas debeta/kredīta virzienu. Sekojošajās Tabulās ir parādīts katra scenārija noteikums. 
 
 **Noteikums, kad līdzeklis ir ieslēgts.**
 

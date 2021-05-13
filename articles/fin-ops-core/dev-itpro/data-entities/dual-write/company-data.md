@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751414"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941033"
 ---
 # <a name="company-concept-in-dataverse"></a>Uzņēmuma koncepts Dataverse
 
@@ -89,7 +89,7 @@ Ir vairāki veidi, kā automātiski aizpildīt uzņēmuma nosaukumu klientu iesa
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Izvēloties rindu, mainās noklusējuma uzņēmums.":::
 
-+ Ja esat sistēmas konfigurētājs vai administrators un vēlaties automātiski aizpildīt uzņēmuma datus pielāgotā veidlapā, varat izmantot [veidlapas notikumus](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Pievienojiet JavaScript atsauci **msdyn_/DefaultCompany.js** un izmantojiet tālāk norādītos notikumus. Jūs varat izmantot jebkuru veidlapu, piemēram, **Konta** veidlapu.
++ Ja esat sistēmas konfigurētājs vai administrators un vēlaties automātiski aizpildīt uzņēmuma datus pielāgotā veidlapā, varat izmantot [veidlapas notikumus](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Pievienojiet JavaScript atsauci **msdyn_/DefaultCompany.js** un izmantojiet tālāk norādītos notikumus. Jūs varat izmantot jebkuru veidlapu, piemēram, **Konta** veidlapu.
 
     + **OnLoad** notikumu veidlapai: iestatiet kolonnu **defaultCompany**.
     + **OnChange** notikums **Uzņēmuma** kolonnā: iestatiet kolonnu **updateDefaultCompany**.

@@ -2,7 +2,7 @@
 title: Mazumtirdzniecības kanāla iestatīšana
 description: Šajā tēmā aprakstīts, kā izveidot jaunu mazumtirdzniecības kanālu risinājumā Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800595"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937538"
 ---
 # <a name="set-up-a-retail-channel"></a>Mazumtirdzniecības kanāla iestatīšana
 
@@ -68,7 +68,7 @@ Tālāk redzamajā attēlā ir parādīts mazumtirdzniecības kanāla iestatīju
 
 ## <a name="additional-channel-set-up"></a>Papildu kanāla iestatīšana
 
-Ir papildu vienumi, kas ir jāiestata kanālam, ko var atrast **Darbības rūtī** sadaļā **Iestatīt**.
+Ir papildu vienumi, kas ir jāiestata kanālam, ko var atrast darbības rūtī sadaļā **Iestatīt**.
 
 Papildu uzdevumi, kas nepieciešami tiešsaistes kanāla iestatīšanai, ietver maksājuma metožu iestatīšanu, skaidras naudas deklarēšanu, piegādes veidus, ienākumu/izdevumu kontu, sadaļas, izpildes grupas piešķiršanu un seifus.
 
@@ -102,7 +102,7 @@ Tālāk esošajā attēlā ir parādīts skaidras naudas deklarācijas piemērs.
 
 ### <a name="set-up-modes-of-delivery"></a>Iestatiet piegādes veidus
 
-Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi**, kas atrodas **Darbību rūtī**.  
+Varat skatīt konfigurētos piegādes režīmus, atlasot **Piegādes veidi** no cilnes **Iestatījumi**, kas atrodas darbības rūtī.  
 
 Lai mainītu vai pievienotu piegādes veidu, rīkojieties, kā norādīts tālāk.
 
@@ -166,11 +166,42 @@ Lai iestatītu seifus, rīkojieties, kā norādīts tālāk.
 1. Ievadiet seifa nosaukumu.
 1. Darbību rūtī atlasiet **Saglabāt**.
 
+### <a name="ensure-unique-transaction-ids"></a>Nodrošināt unikālus transakciju ID
+
+Attiecībā uz Commerce versiju 10.0.18 pārdošanas punktam (POS) ģenerētie transakciju ID ir secīgi un ietver šādas daļas:
+
+- Fiksēta daļa, kas ir veikala ID un termināļa ID konkatenācija. 
+- Secīga daļa, kas ir numuru sērija. 
+
+It īpaši formāts ir *{store}-{terminal}-{numbersequence}*. 
+
+Tā kā transakciju ID var ģenerēt bezsaistes un tiešsaistes režīmā, ir gadījumi, kad tiek ģenerēti dublēti transakciju ID. Lai noņemtu transakciju ID dublikātus, ir nepieciešama manuāla datu labošana. 
+
+Ar Commerce versiju 10.0.19 transakciju ID formāts ir atjaunināts, lai noņemtu secīgu daļu, un tā vietā tiek izmantots 13 ciparu numurs, kas ģenerēts, aprēķinot laiku milisekundēs kopš 1970. gada. Ar šo izmaiņu jaunais transakciju ID formāts ir *{store}-{terminal}-{millisecondsSince1970}*. Šis atjauninājums padara transakciju ID nesecīgo un nodrošina, ka transakciju ID vienmēr ir unikāli. 
+
+> [!NOTE]
+> Transakciju ID ir paredzēti tikai iekšējai sistēmai, tāpēc tiem nav jābūt secīgiem. Tomēr daudzas valstis pieprasa, lai saņemšanas ID būtu secīgi.
+
+Jauno transakciju ID formāta līdzekli var iespējot no darbvietas **Līdzekļu pārvaldība**. 
+
+Lai aktivizētu jaunu transakciju ID izmantošanu, rīkojieties šādi:
+
+1. Programmā Commerce Headquarters dodieties uz **Sistēmas administrēšana \> Darbvietas \> Līdzekļu pārvaldība**.
+1. Filtrs modulim "mazumtirdzniecība un komercija".
+1. Meklējiet līdzekļa nosaukumu **Aktivizēt jaunu transakciju ID, lai izvairītos no dublētiem transakciju ID**.
+1. Atlasiet līdzekli un pēc tam labajā rūtī atlasiet **Iespējot tūlīt**.  
+1. Pārejiet uz **Mazumtirdzniecība un komercija \> Mazumtirdzniecības un komercijas IT \> Sadales grafiks**.
+1. Palaidiet darbus **1070 kanāla konfigurācija** un **1170 POS uzdevumu ierakstītājs**, lai sinhronizētu iespējoto līdzekli ar veikaliem.
+1. Lai lietotu jauno transakciju ID formātu, kad uz veikaliem ir nosūtītas izmaiņas, POS termināļi ir jāaizver un atkārtoti jāatver. 
+
+> [!NOTE]
+> Kad jaunais transakciju ID formāta līdzeklis ir aktivizēts, šo līdzekli nevarēs deaktivizēt. Ja tas ir jāatspējo, lūdzu, sazinieties ar Commerce Support.
+
 ## <a name="additional-resources"></a>Papildu resursi
 
 [Kanālu apskats](channels-overview.md)
 
-[Kanālu iestatīšanas priekšnosacījumi](channels-prerequisites.md)
+[Kanāla iestatīšanas priekšnosacījumi](channels-prerequisites.md)
 
 [Tiešsaistes veikala iestatīšana](channel-setup-online.md)
 

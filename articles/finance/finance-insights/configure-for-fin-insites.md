@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908834"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941230"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Konfigurācija Finanšu ieskatiem (priekšskatījums)
 
@@ -42,228 +42,36 @@ Izvietojiet vides, veicot tālāk norādītās darbības.
 
 ## <a name="configure-dataverse"></a>Dataverse konfigurēšana
 
-Varat pabeigt manuālās konfigurācijas darbības, kas norādītas tālāk, vai varat paātrināt konfigurācijas procesu, izmantojot nodrošināto Windows PowerShell skriptu. Kad PowerShell skripts ir beidzis darboties, tas sniegs vērtības, ko izmantot, lai konfigurētu Finanšu ieskatus. 
+Izmantojiet tālāk norādītās darbības, lai konfigurētu Dataverse programmai Finance Insights.
 
+1. Atvērt vides lapu LCS un pārbaudīt, vai sadaļa **Power Platform integrācija** jau ir instalēta.
+    1. Ja tā jau ir iestatīta, Dataverse ir jāuzskaita vides nosaukums, kas saistīts ar Dynamics 365 Finance vidi. Kopējiet Dataverse vides nosaukumu.
+    2. Ja tā nav iestatīta, rīkojieties šādi:
+        1. Sadaļā Power Platform integrācija atlasiet pogu **Iestatījumi**. Vides iestatīšana var aizņemt aptuveni stundu.
+        2. Ja Dataverse vide ir veiksmīgi iestatīta, ir jāuzskaita Dataverse vides nosaukums, kas saistīts ar Dynamics 365 Finance vidi. Kopējiet Dataverse vides nosaukumu.
 > [!NOTE]
-> Datorā atveriet PowerShell, lai palaistu skriptu. Iespējams, būs nepieciešama PowerShell versija 5. Var nedarboties Microsoft Azure CLI "Izmēģini to" opcija.
+> Pēc vides iestatīšanas pabeigšanas **NAV** jāatlasa poga **Saite uz CDS programmām**. Tas nav nepieciešams programmai Finance Insights un deaktivizēs iespēju izpildīt nepieciešamās vides pievienojumprogrammas LCS.
 
-# <a name="manual-configuration-steps"></a>[Manuālās konfigurācijas darbības](#tab/configuration-steps)
-
-1. Atveriet [Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com/) un veiciet tālāk norādītās darbības, lai izveidotu jaunu Dataverse vidi tajā pašā Active Directory nomniekā.
+2. Atveriet [Power Platform administrēšanas centru](https://admin.powerplatform.microsoft.com/) un veiciet tālāk norādītās darbības, lai izveidotu jaunu Dataverse vidi tajā pašā Active Directory nomniekā.
 
     1. Atveriet lapu **Vides**.
 
         [![Lapa Vides](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
-    2. Atlasiet **Jauna vide**.
-    3. Laukā **Veids** atlasiet **Smilškaste**.
-    4. Iestatiet opciju **Izveidot datubāzi** uz **Jā**.
-    5. Atlasiet **Nākamais**.
-    6. Atlasiet jūsu organizācijas valodu un valūtu.
-    7. Pieņemiet noklusējuma vērtības pārējiem laukiem.
-    8. Atlasiet **Saglabāt**.
-    9. Atsvaidziniet lapu **Vides**.
-    10. Uzgaidiet, kamēr lauka **Stāvoklis** vērtība tiek atjaunināta uz **Gatavs**.
-    11. Pierakstiet Dataverse organizācijas ID.
-    12. Atlasiet vidi un pēc atlasiet **Iestatījumi**.
-    13. Atlasiet **Resursi \> Visi mantotie iestatījumi**.
-    14. Augšējā navigācijas joslā atlasiet **Iestatījumi** un pēc tam atlasiet **Pielāgojumi**.
-    15. Atlasiet **Izstrādātāja resursi**.
-    16. Kopējiet **Dataverse organizācijas ID** vērtību.
-    17. Pierakstiet pārlūkprogrammas adreses joslā esošo Dataverse organizācijas URL. Piemēram, URL varētu būt `https://org42b2b3d3.crm.dynamics.com`.
+    2. Atlasiet Dataverse vidi, kas izveidota iepriekš, un pēc atlasiet **Iestatījumi**.
+    3. Atlasiet **Resursi \> Visi mantotie iestatījumi**.
+    4. Augšējā navigācijas joslā atlasiet **Iestatījumi** un pēc tam atlasiet **Pielāgojumi**.
+    5. Atlasiet **Izstrādātāja resursi**.
+    6. Kopējiet **Dataverse organizācijas ID** vērtību.
+    7. Pierakstiet pārlūkprogrammas adreses joslā esošo Dataverse organizācijas URL. Piemēram, URL varētu būt `https://org42b2b3d3.crm.dynamics.com`.
 
-2. Ja plānojat izmantot Skaidras naudas plūsmas prognožu vai Budžeta prognožu līdzekli, veiciet tālāk norādītās darbības, lai atjauninātu jūsu organizācijas anotāciju ierobežojumu līdz vismaz 50 megabaitiem (MB).
+3. Ja plānojat izmantot Skaidras naudas plūsmas prognožu vai Budžeta prognožu līdzekli, veiciet tālāk norādītās darbības, lai atjauninātu jūsu organizācijas anotāciju ierobežojumu līdz vismaz 50 megabaitiem (MB).
 
     1. Atveriet [Power Apps portālu](https://make.powerapps.com).
     2. Atlasiet tikko izveidoto vidi un pēc tam atlasiet **Papildu iestatījumi**.
     3. Atlasiet **Iestatījumi \> E-pasta konfigurācija**.
     4. Mainiet lauka **Maksimālais faila izmērs** vērtību uz **51 200**. (Šī vērtība ir izteikta kilobaitos \[KB\].)
     5. Atlasiet **Labi**, lai saglabātu izmaiņas.
-
-# <a name="windows-powershell-configuration-script"></a>[Windows PowerShell konfigurācijas skripts](#tab/powershell-configuration-script)
-
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
-
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
 
 ## <a name="configure-the-azure-setup"></a>Azure iestatījumu konfigurēšana
 
@@ -295,11 +103,14 @@ Izpildiet tālāk norādītās darbības, lai konfigurētu Azure, izmantojot Win
 
 1. [Azure portālā](https://portal.azure.com) dodieties uz savu mērķa Azure abonementu. Atlasiet pogu **Mākoņa čaula**, kas atrodas pa labi no lauka **Meklēt**.
 2. Atlasiet **PowerShell**.
-3. Izveidojiet krātuvi, ja saņemat aicinājumu to darīt. Pēc tam augšupielādējiet Windows PowerShell skriptu sesijā.
-4. Palaidiet skriptu.
-5. Sekojiet uzvednēm, lai palaistu skriptu.
-6. Izmantojiet skripta izvades informāciju, lai LCS instalētu pievienojumprogrammu **Eksportēt uz Data Lake**.
-7. Izmantojiet skripta izvades informāciju, lai iespējotu elementa krātuvi Finance lapā **Datu savienojumi** (**Sistēmas administrēšana \> Sistēmas parametri \> Datu savienojumi**).
+3. Izveidojiet krātuvi, ja saņemat aicinājumu to darīt.
+4. Dodieties uz cilni **Azure CLI** un atlasiet **Kopēt**.  
+5. Atveriet Notepad un ielīmējiet PowerShell skriptu. Saglabājiet failu kā ConfigureDataEzer.ps1.
+6. Augšupielādējiet Windows PowerShell skriptu sesijā, izmantojot izvēlnes opciju augšupielādei Cloud Shell.
+7. Palaidiet skriptu .\ConfigureDataLake.ps1.
+8. Sekojiet uzvednēm, lai palaistu skriptu.
+9. Izmantojiet skripta izvades informāciju, lai LCS instalētu pievienojumprogrammu **Eksportēt uz Data Lake**.
+10. Izmantojiet skripta izvades informāciju, lai iespējotu elementa krātuvi Finance lapā **Datu savienojumi** (**Sistēmas administrēšana \> Sistēmas parametri \> Datu savienojumi**).
 
 ### <a name="manual-setup"></a>Manuāla iestatīšana
 
@@ -975,24 +786,24 @@ Pievienojumprogramma tiks instalēta dažu minūšu laikā.
 
     | Vērtība                                                    | Apraksts |
     |----------------------------------------------------------|-------------|
-    | CDS organizācijas URL                                     | Dataverse organizācijas URL Dataverse instancē. Lai atrastu šo vērtību, atveriet [Power Apps portālu](https://make.powerapps.com), atlasiet pogu **Iestatījumi** (zobrata simbols) augšējā labajā stūrī, atlasiet **Papildu iestatījumi** un kopējiet URL. (URL beidzas ar "dynamics.com.") |
-    | CDS org. ID                                               | Dataverse instances vides ID. Lai atrastu šo vērtību, atveriet [Power Apps portālu](https://make.powerapps.com), atlasiet pogu **Iestatījumi** (zobrata simbols) augšējā labajā stūrī, atlasiet **Pielāgojumi \> Izstrādātāja resursi \> Instances atsauces informācija** un kopējiet vērtību **ID**. |
-    | CDS nomnieka ID (direktorija ID no AAD)               | Dataverse instances nomnieka ID. Lai atrastu šo vērtību, atveriet [Azure portālu](https://portal.azure.com), dodieties uz **Azure Active Directory** un kopējiet vērtību **Nomnieka ID**. |
-    | Norādiet tā lietotāja objekta ID, kam ir sistēmas administratora loma | Azure AD lietotāja objekta ID lietotājam Dataverse. Šim lietotājam jābūt Dataverse instances sistēmas administratoram. Lai atrastu šo vērtību, atveriet [Azure portālu](https://portal.azure.com), dodieties uz **Azure Active Directory \> Lietotāji**, atlasiet lietotāju un pēc tam sekcijā **Identitāte** kopējiet vērtību **Objekta ID**. |
-    | Vai šī ir nomnieka noklusējuma CDS vide?      | Ja Dataverse instance bija pirmā izveidotā ražošanas instance, atzīmējiet šo izvēles rūtiņu. Ja Dataverse instance tika izveidota manuāli, izņemiet atzīmi no šīs izvēles rūtiņas. |
-
+    | CDS organizācijas URL                                     | Iepriekš kopētais Dataverse organizācijas URL. |
+    | CDS org. ID                                               | Iepriekš kopētais Dataverse organizācijas ID. |
+5. Iespējot **Vai šī ir nomnieka noklusējuma vide**.
+    
 ## <a name="configure-the-entity-store"></a>Elementu krātuves konfigurēšana
 
 Izpildiet tālāk norādītās darbības, lai iestatītu Finanšu vides elementu krātuvi.
 
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Sistēmas parametri \> Datu savienojumi**.
-2. Iestatiet opciju **Iespējot Data Lake integrāciju** uz **Jā**.
-3. Iestatiet tālāk norādītos galvenās akreditācijas datu glabātavas laukus.
+2. Iestatiet tālāk norādītos galvenās akreditācijas datu glabātavas laukus.
 
     - **Pieteikuma (klienta) ID** — ievadiet iepriekš izveidoto pieteikuma klienta ID.
     - **Pieteikuma noslēpums** — ievadiet noslēpumu, ko saglabājāt iepriekš izveidotajam pieteikumam.
     - **DNS nosaukums** — varat atrast domēna nosaukuma sistēmas (DNS) nosaukumu iepriekš izveidotā pieteikuma detalizētas informācijas lapā.
     - **Noslēpuma nosaukums** — ievadiet **krātuve-konts-savienojums-virkne**.
+3. Iespējot **Iespējot Data Lake integrāciju**.
+4. Atlasiet **Testa Azure Key Vault** un pārbaudiet, vai nav kļūdu.
+5. Atlasiet **Testa Azure krātuve** un pārbaudiet, vai nav kļūdu.
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 

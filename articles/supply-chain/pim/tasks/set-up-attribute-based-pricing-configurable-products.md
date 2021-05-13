@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833261"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921245"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>No atribūtiem atkarīgas cenu noteikšanas iestatīšana konfigurējamām precēm
 
@@ -28,17 +28,18 @@ ms.locfileid: "5833261"
 
 
 ## <a name="create-a-new-price-model"></a>Izveidot jaunu cenas modeli
-1. Sākumlapā atlasiet **Produkta varianta modeļa definīcija**.
-2. Atlasiet krājumu **produkta konfigurācijas modeļi** sadaļā **saites**.
-3. Sarakstā atlasiet rindu **Augstākās klases runātājs**, bet neatlasiet saiti nosaukumam.
-4. Darbību rūtī atlasiet **Modelis**.
-5. Atlasiet **Cenu modeļi**.
-6. Atlasiet **Jauns**.
-7. Laukā **Cenu modeļa nosaukums** ievadiet vērtību. Izmantojiet nosaukumu, kas ļauj viegli identificēt modeli.  
-8. Laukā **Apraksts** ierakstiet kādu vērtību.
-9. Atlasiet **Saglabāt**.
+
+1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Sarakstā atlasiet rindu **Augstākās klases runātājs**, bet neatlasiet saiti nosaukumam.
+1. Darbību rūtī atlasiet **Modelis**.
+1. Atlasiet **Cenu modeļi**.
+1. Atlasiet **Jauns**.
+1. Laukā **Cenu modeļa nosaukums** ievadiet vērtību. Izmantojiet nosaukumu, kas ļauj viegli identificēt modeli.  
+1. Laukā **Apraksts** ierakstiet kādu vērtību.
+1. Atlasiet **Saglabāt**.
 
 ## <a name="add-price-elements"></a>Pievienot cenas elementus
+
 1. Atlasiet **Rediģēt**. Katrs komponents preces modelī var saturēt pamatcenas elementu un jebkādu cenas izteiksmes kārtulu skaitu. Jūs varat arī pievienot cenas dažādās valūtās.  
 2. Laukā **Bāzes cenas izteiksme** ierakstiet vērtību. Piemēram, ievadiet 100. Pamatcenas izteiksme var būt skaitliska vērtība, vai tā var sastāvēt no aritmētiska aprēķina, kas ietver vienu vai vairākus atribūtus.  
 3. Atlasiet **Pievienot**.

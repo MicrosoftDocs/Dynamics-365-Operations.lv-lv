@@ -2,7 +2,7 @@
 title: Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 description: Šajā tēmā skaidrots, kā varat izmantot Elektronisko pārskatu (ER) etiķetes, lai veidotu un izveidotu daudzvalodu pārskatus.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753556"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951989"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Veidot daudzvalodu pārskatus Elektroniskajos pārskatos
 
@@ -158,6 +158,31 @@ ER atbalsta dažādus veidus, lai norādītu valodu ģenerētajam pārskatam. Ci
 - **Definēts izpildlaikā** – izveidot pārskatu valodā, kas norādīta izpildlaikā. Atlasot šo vērtību, laukā **Valoda** konfigurējiet ER izteiksmi, kas atgriež valodas kodu valodai, piemēram, atbilstošā klienta valodu.
 
     ![Ievadiet ER operāciju noformētājā izpildlaikā norādīto valodu kā ģenerētā pārskata valodu](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Kultūrai raksturīgais formatējums
+
+ER atbalsta dažādus veidus, lai norādītu kultūru ģenerētajam pārskatam. Tāpēc datumam, laikam un skaitliskām vērtībām var izmantot pareizo kultūras formātu. Kad izstrādāsiet ER formātu, cilnē **Formāts**, laukā **Kultūras preferences** varat izvēlēties vienu no šādām vērtībām katram **Kopējā\\faila**, **Excel\\faila**, **PDF\\faila** vai **PDF\\apvienošanas** tipa formāta komponentam:
+
+- **Lietotāja preference** - formatējiet vērtības saskaņā ar lietotāja vēlamo kultūru. Šī kultūra ir definēta laukā **Datuma, laika un numura formāts** cilnē **Preferences** lapā **Lietotāja opcijas**.
+
+    ![Lietotāja izvēlētās kultūras definēšana kā ģenerētā pārskata kultūra ER operāciju veidotājā](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Skaidri definēts** - formatējiet vērtības saskaņā ar kultūru, kas ir noteikta dizaina laikā.
+
+    ![Definējiet kultūru, kas projektēšanas laikā norādīta kā ģenerētā ziņojuma kultūra ER operāciju izstrādātājā](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Definēts izpildlaikā** - formatējiet vērtības saskaņā ar kultūru, kas ir noteikta izpildlaikā. Ja atlasāt šo vērtību, cilnē **Kartēšana** laukā **Datuma, laika un numura formāts** konfigurējiet ER izteiksmi, kas atgriež kultūras kodu kultūrai, piemēram, attiecīgā debitora kultūrai.
+
+    ![Definējiet kultūru, kas izpildlaikā definēta kā ģenerētā ziņojuma kultūra ER operāciju izstrādātājā](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> ER komponents, kam definēta noteikta kultūra, iespējams, satur pakārtotos ER komponentus, kas ir konfigurēti teksta vērtības aizpildīšanai. Pēc noklusējuma pamatkomponenta kultūra tiek izmantota šo komponentu vērtību formatēšanai. Jūs varat izmantot šādas iebūvētās ER funkcijas, lai konfigurētu šo komponentu saistījumus un vērtību formatēšanai pielietotu alternatīvu kultūru:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Versijā 10.0.20 un jaunākā versijā **Kopējo\\failu** un **Excel\\failu** tipu formāta komponentu lokāle tiek izmantota vērtību formatēšanai ģenerētā dokumenta [PDF pārvēršanas](electronic-reporting-destinations.md#OutputConversionToPDF) laikā.
 
 ## <a name="translation"></a>Transformācija
 

@@ -1,8 +1,8 @@
 ---
 title: Karantīnas pasūtījumi
-description: Šajā tēmā ir aprakstīts, kā karantīnas pasūtījumi tiek izmantoti, lai bloķētu krājumus.
+description: Šajā tēmā ir aprakstīts, ka izmantot karantīnas pasūtījumus, lai bloķētu krājumus.
 author: perlynne
-ms.date: 11/02/2017
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,48 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a44909a7880b0cd53e39ccbadf8b79ae5c9dafc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e1eed14b7d38cf569af7192dec9580e771f06df
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834221"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956186"
 ---
 # <a name="quarantine-orders"></a>Karantīnas pasūtījumi
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir aprakstīts, kā karantīnas pasūtījumi tiek izmantoti, lai bloķētu krājumus.
+Šajā tēmā ir aprakstīts, ka izmantot karantīnas pasūtījumus, lai bloķētu krājumus.
 
-Karantīnas pasūtījumus var izmantot, lai bloķētu krājumu. Piemēram, varat noteikt krājumu karantīnu kvalitātes kontroles iemeslu dēļ. Krājumi, kam ir noteikta karantīna, tiek pārsūtīti uz karantīnas noliktavu. **Piezīme.** Ja izmantojat papildu noliktavas pārvaldības procesus (modulī Noliktavas pārvaldība), karantīnas pasūtījumu apstrāde tiek izmantota tikai atgriešanas pārdošanas pasūtījumiem.
+Karantīnas pasūtījumi ļauj bloķēt krājumus. Piemēram, varat noteikt krājumu karantīnu kvalitātes kontroles iemeslu dēļ. Krājumi, kam ir noteikta karantīna, tiek pārsūtīti uz karantīnas noliktavu.
+
+> [!NOTE]
+> Ja izmantojat papildu noliktavas pārvaldības procesus (modulī Noliktavas pārvaldība), karantīnas pasūtījumu apstrāde tiek izmantota tikai atgriešanas pārdošanas pasūtījumiem.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Rīcībā esošo krājumu karantīna
-Kad novietojat krājumus karantīnā, varat izveidot karantīnas pasūtījumus manuāli vai arī iestatīt, lai sistēma ienākošās apstrādes laikā automātiski izveidotu karantīnas pasūtījumus. Lai automātiski izveidotu karantīnas pasūtījumus, atlasiet opciju **Karantīnas pārraudzība** lapas **Krājumu modeļu grupas** cilnē **Krājumu politikas**. Jums jānorāda arī noklusējuma karantīnas noliktava laukā **Karantīnas noliktava** saņemošajām noliktavām. Ja fiziski rīcībā esošie krājumi tiek reģistrēti, izmantojot pirkšanas pasūtījumu vai ražošanas pasūtījumu, karantīnā novietotie krājumi automātiski tiek pārvietoti uz karantīnas noliktavu programmatūrā Supply Chain Management. Šī kustība notiek tāpēc, ka karantīnas pasūtījuma statuss tiek mainīts uz **Sākts**. Kad jūs izveidojat karantīnas pasūtījumus manuāli, krājumu nav nepieciešams iestatīt karantīnas pārraudzībai saistītajā krājuma modeļa grupā. Šim procesam ir jānorāda rīcībā esošais krājums, kas jānovieto karantīnā, un karantīnas noliktava, kura jāizmanto. Lai palīdzētu plānot procesu, varat izmantot karantīnas pasūtījuma statusus.
+
+Kad novietojat krājumus karantīnā, varat manuāli izveidot karantīnas pasūtījumus vai arī iestatīt, lai sistēma ienākošās apstrādes laikā tos izveidotu automātiski.
+
+Lai iestatītu sistēmu automātiskai karantīnas pasūtījumu ģenerēšanai, sekojiet šiem darbībam.
+
+1. Dodieties uz **Krājumu vadība \> Iestatīšana \> Krājumi \> Krājumu modeļu grupas**.
+1. Atlasiet atbilstošo modeļu grupu saraksta rūtī vai izveidojiet jaunu modeļu grupu.
+1. Kopsavilkuma cilnē **Krājumu politikas** atzīmējiet izvēles rūtiņu **Karantīnas pārvaldība**.
+1. Aizvērt lapu.
+1. Jums jānorāda noklusējuma karantīnas noliktava laukā **Karantīnas noliktava** saņemošajām noliktavām.
+
+Ja krājums, kas noliktavā reģistrēts kā saņemts, pieder modeļu grupai, kurai atzīmēta izvēles rūtiņa **Karantīnas pārvaldība**, sistēma tai ģenerē karantīnas pasūtījumu. Karantīnas pasūtījums liek darbiniekiem pārvietot krājumu uz karantīnas noliktavu.
+
+Kad jūs manuāli izveidojat karantīnas pasūtījumus lapā **Karantīnas pasūtījumi**, krājumu nav nepieciešams iestatīt karantīnas pārraudzībai saistītajā krājuma modeļa grupā. Šim procesam ir jānorāda rīcībā esošais krājums, kas jānovieto karantīnā, un karantīnas noliktava, kura jāizmanto. Lai palīdzētu plānot procesu, varat izmantot karantīnas pasūtījuma statusus.
 
 ## <a name="quarantine-order-statuses"></a>Karantīnas pasūtījumu statusi
+
 Karantīnas pasūtījumiem var būt šāds statuss:
 
--   Izveidota
--   Uzsākts
--   Ziņots kā pabeigts
--   Pabeigts
+- Izveidota
+- Uzsākts
+- Ziņots kā pabeigts
+- Pabeigts
 
 ### <a name="created"></a>Izveidota
 
@@ -51,19 +68,18 @@ Kad karantīnas pasūtījumam ir statuss **Sākts**, krājumi tiek pārsūtīti 
 
 ### <a name="reported-as-finished"></a>Ziņots kā pabeigts
 
-Noklikšķinot uz **Reģistrēt pabeigšanu**, sāktais karantīnas pasūtījums tiek reģistrēts kā pabeigts. Krājums tiek atbrīvots no karantīnas, bet vēl netiek pārvietots atpakaļ uz parasto noliktavu. Kustību atpakaļ uz parasto noliktavu var apstrādāt, izmantojot krājumu saņemšanas žurnālu, ko var inicializēt pabeigšanas reģistrēšanas laikā.
+Lai pabeigtu sākto karantīnas pasūtījumu, atveriet pasūtījumu un darbību rūtī atlasiet **Ziņot, ka ir pabeigts**. Krājums tiek atbrīvots no karantīnas, bet vēl netiek pārvietots atpakaļ uz parasto noliktavu. Kustību atpakaļ uz parasto noliktavu var apstrādāt, izmantojot krājumu saņemšanas žurnālu, ko var inicializēt pabeigšanas reģistrēšanas laikā.
 
-### <a name="ended"></a>Pabeigts
+### <a name="ended"></a>Beidzās
 
-Kad karantīnas pasūtījums ir pabeigts, krājums tiek pārvietots no karantīnas noliktavas atpakaļ uz parasto noliktavu. Krājuma transakcijas statuss karantīnas noliktavā tiek iestatīts uz **Pārdots** un parastajā noliktavā — uz **Nopirkts**.
+Kad karantīnas pasūtījums ir pabeigts, krājums tiek pārvietots no karantīnas noliktavas atpakaļ uz parasto noliktavu. Krājuma transakcijas statuss karantīnas noliktavā tiek iestatīts uz *Pārdots* un parastajā noliktavā — uz *Nopirkts*.
 
 ## <a name="quarantine-order-scrap"></a>Karantīnas pasūtījuma brāķis
-Karantīnas pasūtījuma procesa ietvaros ir iespējams norakstīt krājumu. Apstrādājot brāķi, krājuma statuss tiks iestatīts kā **Pārdots**, izmantojot izdošanas transakciju no karantīnas noliktavas.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+Karantīnas pasūtījuma procesa ietvaros ir iespējams norakstīt krājumu. Apstrādājot brāķi, krājuma statuss ir iestatīts kā *Pārdots*, izmantojot izdošanas transakciju no karantīnas noliktavas.
 
-[Krājumu bloķēšana](inventory-blocking.md)
+## <a name="additional-resources"></a>Papildu resursi
 
+- [Krājumu bloķēšana](inventory-blocking.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

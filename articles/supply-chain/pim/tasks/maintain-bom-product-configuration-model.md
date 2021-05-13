@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 49aa17aa376f8536e9d2290292f877d314c2c078
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b4ad73265e321b6339c061a7866b55cb2769954b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818017"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921321"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>MK uzturēšana preces konfigurācijas modelim
 
@@ -26,35 +26,34 @@ ms.locfileid: "5818017"
 
 Šīs procedūras veikšanai ir nepieciešams esošs preces konfigurācijas modelis. Augstas kvalitātes skaļruņu modelis demonstrācijas uzņēmumā USMF tiek izmantots, lai izveidotu šo procedūru.
 
-
 ## <a name="add-a-bom-line"></a>MK rindas pievienošana
-1. Noklikšķiniet uz Preces varianta modeļa definīcija.
-2. Noklikšķiniet uz Preču konfigurācijas modeļi.
-3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+
+1. Dodieties uz **Preču informācijas pārvaldība \> Preces \> Preču konfigurācijas modeļi**.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
     * Atlasiet augstas kvalitātes skaļruni šai procedūrai.  
-4. Sarakstā noklikšķiniet uz saites atlasītajā rindā.
-5. Izvērsiet sadaļu MK rindas.
-6. Noklikšķiniet uz Pievienot.
-7. Laukā Nosaukums ierakstiet kādu vērtību.
-8. Apraksta laukā ierakstiet vērtību.
-9. Noklikšķiniet uz Saglabāt.
+1. Sarakstā atlasiet saiti atlasītajā rindā.
+1. Izvērsiet sadaļu **MK rindas**.
+1. Atlasiet **Pievienot**.
+1. Laukā **Nosaukums** ierakstiet kādu vērtību.
+1. Laukā **Apraksts** ierakstiet kādu vērtību.
+1. Atlasiet **Saglabāt**.
 
 ## <a name="add-bom-line-details"></a>MK rindas informācijas pievienošana
-1. Noklikšķiniet uz Detalizēta informācija par MK rindu.
-2. Laukā Krājuma kods ievadiet vai atlasiet kādu vērtību.
+
+1. Atlasiet **Detalizēta MK rindas informācija**.
+2. Laukā **Krājuma kods** ievadiet vai atlasiet kādu vērtību.
     * Piemēram, varat atlasīt krājumu M0055.  
     * Katram MK rindas rekvizītam varat atlasīt, vai tam tiek piešķirta fiksēta vērtība vai arī tas tiek kartēts uz atribūtu.  
-3. Atzīmējiet izvēles rūtiņu Iestatīt.
-4. Laukā Aprēķins atlasiet Jā.
-    * Iestatot rekvizītam Aprēķins vienumu Jā, tiek nodrošināta MK rindas iekļaušana izmaksu aprēķinos.  
-5. Noklikšķiniet uz cilnes Iestatījumi.
-6. Atzīmējiet izvēles rūtiņu Iestatīt.
-7. Laukā Daudzums ievadiet skaitli.
+3. Atzīmējiet izvēles rūtiņu **Iestatīt**.
+4. Laukā **Aprēķins** atlasiet *Jā*.
+    * Iestatot rekvizītam **Aprēķins** vienumu *Jā*, tiek nodrošināta MK rindas iekļaušana izmaksu aprēķinos.  
+5. Atlasiet cilni **Iestatījums**.
+6. Atzīmējiet izvēles rūtiņu **Iestatīt**.
+7. Laukā **Daudzums** ierakstiet kādu skaitli.
     * Daudzuma lauks nosaka, kāds krājumu daudzums tiks iekļauts MK. Tas varētu būt piemērots atribūtu kartēšanai.  
-8. Noklikšķiniet uz cilnes Dimensija.
+8. Atlasiet cilni **Dimensija**.
     * Pārbaudiet, vai kāda no preču dimensijām ir aktīva un tādējādi tai jābūt piešķirtai vērtībai vai atribūtam.  
-9. Noklikšķiniet uz OK.
-
+9. Atlasiet **Labi**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

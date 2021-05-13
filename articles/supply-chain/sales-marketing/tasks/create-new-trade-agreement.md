@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836402"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919945"
 ---
 # <a name="create-a-new-trade-agreement"></a>Jauna pakalpojumu līguma izveide
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836402"
 
 Šajā procedūrā parādīts, kā izveidot tirdzniecības līgumu, kur reģistrēt jaunu preces pārdošanas cenu, par kuru vienojāties ar noteiktu debitoru. Šo procedūru varat izpildīt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus. Ja jūs izmantojat savus datus pirms sākat veikt šajā ceļvedī aprakstītās darbības, jums ir jāpārliecinās, ka nosaukums Tirdzniecības līgumu žurnāls eksistē un Noklusējuma relācija ir iestatīta uz "Cena (pārdošana)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Jauna tirdzniecības līgumu žurnāla izveide un grāmatošana
+
 1. Dodieties uz **Navigācijas rūts > Moduļi > Pārdošana un mārketings > Cenas un atlaides > Tirdzniecības līgumu žurnāli**.
 2. Klikšķiniet **Jauns**.
 3. Laukā **Nosaukums** noklikšķiniet uz nolaižamā saraksta pogas, lai atvērtu pārlūku.
@@ -58,22 +58,26 @@ ms.locfileid: "5836402"
 20. Noklikšķiniet uz **Labi**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Ar preci saistīto tirdzniecības līgumu skatīšana
+
 1. Dodieties uz **Navigācijas rūts > Moduļi > Preču informācijas pārvaldība > Preces > Tirdzniecībā izlaistās preces**.
 2. Sarakstā atrodiet un atlasiet preci, kuras cenu tikko atjaunojāt.
 3. **Darbību rūtī** noklikšķiniet uz **Pārdošana**.
 4. Noklikšķiniet uz **Skatīt tirdzniecības līgumus**.
     
-    Pārskatiet detalizētu informāciju par tikko izveidoto cenu tirdzniecības līgumu.    
+    Pārskatiet detalizētu informāciju par tikko izveidoto cenu tirdzniecības līgumu.
 
 5. Aizvērt lapu.
 
 ## <a name="additional-resources"></a>Papildu resursi
 
 ### <a name="whitepaper"></a>Tehniskais dokuments
+
 Lai iegūtu plašāku informāciju, lejupielādējiet tālāk norādīto papīru (rakstīts AX 2012 atbalstam, bet joprojām tiek piemērots Dynamics 365 Supply Chain Management)
-- [Tirdzniecības līgumi](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Tirdzniecības līgumi](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Kopienas emuāri
+
 - [Pārdošanas cenas programmā Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

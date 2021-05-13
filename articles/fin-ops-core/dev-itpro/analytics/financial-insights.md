@@ -2,7 +2,7 @@
 title: Finanšu analīze
 description: Finanšu analīzē tiek izmantots pakalpojums Microsoft Power BI, lai apkopotu finanšu izpildes pamatrādītājus (KPI), diagrammas un finanšu pārskatus.
 author: kweekley
-ms.date: 04/09/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894912"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935887"
 ---
 # <a name="financial-analysis"></a>Finanšu analīze
 
@@ -66,7 +66,6 @@ Lai skatītu datus darbvietā **Finanšu analīze**, jums ir jāatjaunina tālā
 
 - Finanšu pārskatu darbību dati — 3. versija 
 - Kredīts un iekasēšana V2
-- CustCollectionsBIMeasurements
 - LedgerCovLiquidityMeasurement
 - Pirkšanas kubs
 - Pārdošanas kubs

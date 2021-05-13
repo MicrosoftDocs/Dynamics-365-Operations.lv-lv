@@ -2,7 +2,7 @@
 title: Noliktavas procesu kvalitātes pārvaldība
 description: Šajā tēmā ir sniegta informācija par Noliktavas procesu kvalitātes pārvaldību iespēju. Šis līdzeklis paplašina kvalitātes pārvaldības iespējas un ļauj lietotājiem integrēt krājumu iztveršanas kontroli ar noliktavas saņemšanas procesu, izmantojot papildu noliktavas pārvaldību.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834269"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956086"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Noliktavas procesu kvalitātes pārvaldība
 
@@ -620,5 +620,8 @@ Jūs esat iestatījis darba un atrašanās vietas datus noliktavai 51, lai nodro
 > [!NOTE]
 > Apsveriet iespēju pievienot izvadīto kvalitāti uz mobilās ierīces izvēlnes krājumu, kur aktivitātes kods ir *Parādīt atvērto darbu sarakstu*. Piemēram, demonstrācijas datos skatiet mobilās ierīces izvēlnes krājumu ar nosaukumu **Darbu saraksts**. Vispirms pievienojiet *Kvalitātes pārbaudes pasūtījuma* darba klasi uz lietotāja vērstu izvēlnes krājumu, jo šī darba klase ir nepieciešama darbam, kam jāparādās darbu sarakstā. Pēc tam pievienojiet *Kvalitātes pārbaudes pasūtījuma* darba klasi izvēlnes vienumam **Darbu saraksts**. Lietotāji, kuriem ir piekļuve darba sarakstam, pēc tam varēs izvietot un apstrādāt darbu, ko automātiski izveido kvalitātes pārbaudes pasūtījuma apstiprināšana.
 
+## <a name="additional-resources"></a>Papildu resursi
+
+- [Pārskats par kvalitātes un neatbilstības pārvaldību](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

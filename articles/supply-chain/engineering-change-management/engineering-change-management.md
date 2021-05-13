@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830032"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954649"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -139,13 +139,14 @@ Apskatot izmaiņu pieprasījumu, darbības rūtī cilnē **Izmaiņu pieprasījum
 
 Kā aprakstīts sadaļā [Inženiertehniskie uzņēmumi un datu īpašumtiesību kārtulas](engineering-org-data-ownership-rules.md), produktu dati, kurus var rediģēt, ir atkarīgi no juridiskās personas veida, ar kuru strādājat (inženiertehniskais uzņēmums pret operacionālo uzņēmumu). Datu īpašumtiesību kārtulas tiek lietotas arī tehnisko izmaiņu pasūtījumiem. Tāpēc atkarībā no juridiskās personas, kurā veidojat tehnisko izmaiņu pasūtījumu, var veikt dažāda veida izmaiņas. Daži piemēri:
 
-- Tehnisko izmaiņu pasūtījumiem **inženiertehniskajā uzņēmumā** var veikt pamata izmaiņas tehniskajiem datiem. Piemēram, var izveidot jaunas produkta versijas, mainīt produkta struktūru, izmantojot MK, un mainīt tehnisko atribūtu vērtības. Attiecībā uz katru attiecīgo produktu, atlasiet vienu no šīm vērtībām laukā **Ietekme**:
+- Tehnisko izmaiņu pasūtījumiem *inženiertehniskajā uzņēmumā* var veikt pamata izmaiņas tehniskajiem datiem. Piemēram, var izveidot jaunas produkta versijas, mainīt produkta struktūru, izmantojot MK, un mainīt tehnisko atribūtu vērtības. Attiecībā uz katru attiecīgo produktu, atlasiet vienu no šīm vērtībām laukā **Ietekme**:
 
     - **Nav** — atjauniniet esošo produkta versiju (versijas atjaunināšana).
     - **Jauna versija** — izveidot jaunu versiju, kas pamatota uz atlasīto produkta versiju.
-    - **Jauns produkts** — Izveidojiet pilnīgi jaunu produktu vai produkta variantu, kas ir balstīts uz atlasīto produkta versiju.
+    - **Jauns produkts** — Izveidojiet pilnīgi jaunu produkt, kas ir balstīts uz atlasīto produkta versiju.
+    - **Jauns variants** — izveidot jaunu variantu, kas pamatots uz atlasīto produkta versiju. Tā MK un maršruta informācija tiks kopēta.
 
-- Tehnisko izmaiņu pasūtījumiem **operacionālā uzņēmumā** varat mainīt produkta loģistikas datus. Piemēram, varat bagātināt esošo MK ar ielādes iestatījumiem, pievienot vietējos maršrutus vai vietējos MK un pat bagātināt MK, pievienojot jaunas MK rindas vietējiem iepakojuma materiāliem, eļļošanas šķidrumiem vai instrukcijām vietējā valodā. Bagātināšana, ko lietotāji veic operacionālajā uzņēmumā, tiks saglabāta, kad no inženiertehniskā uzņēmuma tiek nosūtīti jauni atjauninājumi. Papildinformāciju skatiet šeit: [Inženiertehniskie uzņēmumi un datu īpašumtiesību kārtulas](engineering-org-data-ownership-rules.md).
+- Tehnisko izmaiņu pasūtījumiem *operacionālā uzņēmumā* varat mainīt produkta loģistikas datus. Piemēram, varat bagātināt esošo MK ar ielādes iestatījumiem, pievienot vietējos maršrutus vai vietējos MK un pat bagātināt MK, pievienojot jaunas MK rindas vietējiem iepakojuma materiāliem, eļļošanas šķidrumiem vai instrukcijām vietējā valodā. Bagātināšana, ko lietotāji veic operacionālajā uzņēmumā, tiks saglabāta, kad no inženiertehniskā uzņēmuma tiek nosūtīti jauni atjauninājumi. Papildinformāciju skatiet šeit: [Inženiertehniskie uzņēmumi un datu īpašumtiesību kārtulas](engineering-org-data-ownership-rules.md).
 
     Kad tehnisko izmaiņu pasūtījumi tiek apstrādāti inženiertehniskajā uzņēmumā, produkti tiek izveidoti un/vai atjaunināti tikai inženiertehniskajā uzņēmumā. Tāpēc, ja preču šablona dati ir jāatjaunina, ir arī jāatbrīvo produkti no operacionāliem uzņēmumiem.
 

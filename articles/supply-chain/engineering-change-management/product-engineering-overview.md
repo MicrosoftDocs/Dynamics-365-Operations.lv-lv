@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842085"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947524"
 ---
 # <a name="engineering-change-management-overview"></a>Tehnoloģisko izmaiņu pārvaldības pārskats
 
@@ -27,7 +27,7 @@ ms.locfileid: "5842085"
 
 Šodienas ražotājiem ir nepieciešama spēcīga preču datu pārvaldība, versiju kontrole un tehnikas izmaiņu pārvaldība, lai izdotos pasaulē nemitīgi samazināt preču dzīves ciklus, paaugstinātu kvalitātes un uzticamības prasības un paaugstinātu koncentrēšanos uz preču drošību.
 
-Tehnikas izmaiņu vadība nodrošina preču datu pārvaldības procesa struktūru un disciplīnu un ļauj definēt, izlaist un pārskatīt preces, ko atbalsta darbplūsmas.Izmantojot preču versijas un tehnikas izmaiņu pārvaldību, varat dokumentēt, novērtēt un piemērot tehnikas izmaiņas visā preces dzīves ciklā.
+Tehnikas izmaiņu vadība nodrošina preču datu pārvaldības procesa struktūru un disciplīnu un ļauj definēt, izlaist un pārskatīt preces, ko atbalsta darbplūsmas. Izmantojot preču versijas un tehnikas izmaiņu pārvaldību, varat dokumentēt, novērtēt un piemērot tehnikas izmaiņas visā preces dzīves ciklā.
 
 Tehnikas izmaiņu pārvaldība, kas palīdz plānot un pārvaldīt preču versiju izveidi un pārvaldīt produktu dzīves ciklus un tehnikas izmaiņas. Šeit ir saraksts ar tās galvenajām iezīmēm:
 
@@ -48,7 +48,7 @@ Pirms izmantot inženierzinātnes izmaiņu pārvaldības funkciju un tā konfigu
 
 Vispirms, ieslēdziet šīs funkcijas, veicot šādas darbības.
 
-1. Dodieties uz [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Atvēriet darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Pārbaudīt, vai nav atjauninājumu.
 1. Ieslēdziet līdzekli, kura nosaukums ir **Tehnikas izmaiņu pārvaldība**.
 1. Pēc tam, ja vēlaties to izmantot, iespējojiet arī funkciju ar nosaukumu **Preces dimensijas versija**.
@@ -57,9 +57,12 @@ Tad ieslēdziet konfigurācijas atslēgas, veicot šādas darbības.
 
 1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
-1. Izvērst zaru **Tirdzniecība**
-1. Atzīmējiet izvēles rūtiņu **Inženierzinātnes izmaiņu pārvaldība**.
-1. Ja vēlaties to izmantot, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**.
+1. Izvērst zaru **Tirdzniecība**.
+1. Iespējojiet galvenos līdzekļu konfigurācijas atslēgu, atzīmējot izvēles rūtiņu **Inženierzinātnes izmaiņu pārvaldība**. (Nav nepieciešams izvērst zaru, ja vien nevēlaties atspējot vienu vai abus tā apakšlīdzekļus.)
+1. Ja arī vēlaties izmantot versijas dimensiju, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**. (Šī izvēles rūtiņa atrodas tālāk sarakstā, nevis ligzdota zem **Inženierzinātnes izmaiņu pārvaldība** zara.)
 1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> Sākot no 2022. gada aprīļa, licences atslēgas gan **Inženierzinātnes izmaiņu pārvaldībai**, gan **Preces dimensijai - versija** tiks aktivizētas pēc noklusējuma visām jaunajām instalācijām, bet, ja nepieciešams, tās joprojām būs iespējams deaktivizēt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

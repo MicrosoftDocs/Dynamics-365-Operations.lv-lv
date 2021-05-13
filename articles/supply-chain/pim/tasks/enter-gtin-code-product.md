@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0163844d7999468e288ba2d612662d1dd6f22df
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818065"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921393"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>GTIN koda ievade precei
 
@@ -26,18 +26,17 @@ ms.locfileid: "5818065"
 
 GTIN kodus piešķir GS1 uzņēmums. Šajā piemērā jums būs jāievada kods preces numuram M0001 demonstrācijas datu uzņēmumā USMF.
 
-1. Noklikšķiniet uz Izlaisto preču uzturēšana.
-2. Noklikšķiniet uz Izlaistās preces.
-3. Izvērsiet preces attēla papildinformāciju.
-4. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-5. Darbību rūtī noklikšķiniet uz Pārvaldīt krājumus.
-6. Noklikšķiniet uz GTIN kodi.
-7. Klikšķiniet Jauns.
-8. Sarakstā atzīmējiet atlasīto rindu.
-9. Laukā Vienība ievadiet vai atlasiet kādu vērtību.
-10. Laukā GTIN kods, atlasiet kādu opciju.
-11. Ievadiet vērtību laukā GTIN.
-12. Aizvērt lapu.
+1. Pārejiet uz sadaļu **Preču informācijas pārvaldība \> Preces \> Izlaistās preces**.
+1. Izvērsiet papildinformāciju **Preces attēls**.
+1. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
+1. Darbību rūtī atlasiet **Pārvaldīt krājumus**.
+1. Atlasiet **GTIN kodi**.
+1. Atlasiet **Jauns**.
+1. Sarakstā atzīmējiet atlasīto rindu.
+1. Laukā **Vienība** ievadiet vai atlasiet kādu vērtību.
+1. Laukā **GTIN kods**, atlasiet kādu opciju.
+1. Laukā **GTIN lauks** ierakstiet vērtību.
+1. Aizvērt lapu.
 
 
 

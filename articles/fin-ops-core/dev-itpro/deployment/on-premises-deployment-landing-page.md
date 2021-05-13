@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749309"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5940965"
 ---
 # <a name="on-premises-deployment-home-page"></a>Lokālā izvietojuma sākumlapa
 
@@ -56,10 +56,10 @@ Varat izvietot programmu Dynamics 365 Finance + Operations (lokālo versiju). Iz
 - [Izmantot vienu un to pašu AD FS instanci vairākām vidēm](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Komercija
-- [Lokālos izvietojumos pieejamās Commerce iespējas](../../../retail/retail-onprem.md)
+- [Lokālos izvietojumos pieejamās Commerce iespējas](../../../commerce/retail-onprem.md)
 - [Retail kanāla komponentu instalēšanas darbības lokālā vidē](deploy-retail-onprem.md)
-- [Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../../retail/retail-modern-pos-device-activation.md)
-- [Commerce Scale Unit konfigurēšana un instalēšana](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Modern POS (MPOS) konfigurēšana, instalēšana un aktivizēšana](../../../commerce/retail-modern-pos-device-activation.md)
+- [Commerce Scale Unit konfigurēšana un instalēšana](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Jaunināt
 - [Jaunināšanas uz vietas process lokālām vidēm](../migration-upgrade/on-prem-upgrade.md)
