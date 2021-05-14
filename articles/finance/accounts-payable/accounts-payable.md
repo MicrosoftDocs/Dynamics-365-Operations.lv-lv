@@ -15,129 +15,129 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820863"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897014"
 ---
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="0fd1e-103">Moduļa “Parādi kreditoriem” sākumlapa</span><span class="sxs-lookup"><span data-stu-id="0fd1e-103">Accounts payable home page</span></span>
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="106d0-103">Moduļa “Parādi kreditoriem” sākumlapa</span><span class="sxs-lookup"><span data-stu-id="106d0-103">Accounts payable home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0fd1e-104">Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-104">This topic provides an overview of Accounts payable.</span></span> 
+<span data-ttu-id="106d0-104">Šajā tēmā ir sniegts apskats par moduli Parādi kreditoriem.</span><span class="sxs-lookup"><span data-stu-id="106d0-104">This topic provides an overview of Accounts payable.</span></span> 
 
-<span data-ttu-id="0fd1e-105">Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmantojot datu elementu.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="0fd1e-106">Kad rēķini ir ievadīti vai saņemti, varat tos pārskatīt un apstiprināt, izmantojot rēķinu apstiprināšanas žurnālu vai lapu **Kreditora rēķins**.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="0fd1e-107">Varat izmantot rēķinu salīdzināšanu, kreditoru rēķinu ierobežojumus un darbplūsmu, lai automatizētu pārskatīšanas procesu tā, lai rēķini, kas atbilst noteiktiem kritērijiem, tiktu automātiski apstiprināti, bet pārējie rēķini tiktu atzīmēti ar karodziņu, lai tos pārskatītu autorizēts lietotājs.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
+<span data-ttu-id="106d0-105">Kreditoru rēķinus varat ievadīt manuāli vai saņemt tos elektroniski, izmantojot datu elementu.</span><span class="sxs-lookup"><span data-stu-id="106d0-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="106d0-106">Kad rēķini ir ievadīti vai saņemti, varat tos pārskatīt un apstiprināt, izmantojot rēķinu apstiprināšanas žurnālu vai lapu **Kreditora rēķins**.</span><span class="sxs-lookup"><span data-stu-id="106d0-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="106d0-107">Varat izmantot rēķinu salīdzināšanu, kreditoru rēķinu ierobežojumus un darbplūsmu, lai automatizētu pārskatīšanas procesu tā, lai rēķini, kas atbilst noteiktiem kritērijiem, tiktu automātiski apstiprināti, bet pārējie rēķini tiktu atzīmēti ar karodziņu, lai tos pārskatītu autorizēts lietotājs.</span><span class="sxs-lookup"><span data-stu-id="106d0-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
 
-<span data-ttu-id="0fd1e-108">**Biznesa procesi**</span><span class="sxs-lookup"><span data-stu-id="0fd1e-108">**Business processes**</span></span>
+<span data-ttu-id="106d0-108">**Biznesa procesi**</span><span class="sxs-lookup"><span data-stu-id="106d0-108">**Business processes**</span></span>
 
-<span data-ttu-id="0fd1e-109">[![Biznesa procesu diagramma](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="0fd1e-109">[![Diagram of business processes](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
+<span data-ttu-id="106d0-109">[![Biznesa procesu diagramma](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="106d0-109">[![Diagram of business processes](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
 
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="0fd1e-110">Moduļa “Parādi kreditoriem” iestatīšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-110">Set up Accounts payable</span></span>
+## <a name="set-up-accounts-payable"></a><span data-ttu-id="106d0-110">Moduļa “Parādi kreditoriem” iestatīšana</span><span class="sxs-lookup"><span data-stu-id="106d0-110">Set up Accounts payable</span></span>
 
-<span data-ttu-id="0fd1e-111">Iestatiet kreditoru grupas, kreditorus, grāmatošanas metodes, dažādus maksājumu variantus un ar kreditoriem saistītos parametrus, maksas, piegādes un adresātus, parādzīmes, kā arī citu veidu kreditoru informāciju.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
+<span data-ttu-id="106d0-111">Iestatiet kreditoru grupas, kreditorus, grāmatošanas metodes, dažādus maksājumu variantus un ar kreditoriem saistītos parametrus, maksas, piegādes un adresātus, parādzīmes, kā arī citu veidu kreditoru informāciju.</span><span class="sxs-lookup"><span data-stu-id="106d0-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
 
-[<span data-ttu-id="0fd1e-112">Moduļa “Kreditori” konfigurēšanas pārskats</span><span class="sxs-lookup"><span data-stu-id="0fd1e-112">Configure Accounts payable overview</span></span>](accounts-payable-overview.md)
+[<span data-ttu-id="106d0-112">Moduļa “Kreditori” konfigurēšanas pārskats</span><span class="sxs-lookup"><span data-stu-id="106d0-112">Configure Accounts payable overview</span></span>](accounts-payable-overview.md)
 
-[<span data-ttu-id="0fd1e-113">Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem</span><span class="sxs-lookup"><span data-stu-id="0fd1e-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[<span data-ttu-id="106d0-113">Uzskaites sadales un apakšgrāmatas žurnālu ieraksti kreditoru rēķiniem</span><span class="sxs-lookup"><span data-stu-id="106d0-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
-[<span data-ttu-id="0fd1e-114">Ārvalstu valūtas pārvērtēšana moduļiem “Parādi kreditoriem” un “Debitoru parādi”</span><span class="sxs-lookup"><span data-stu-id="0fd1e-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+[<span data-ttu-id="106d0-114">Ārvalstu valūtas pārvērtēšana moduļiem “Parādi kreditoriem” un “Debitoru parādi”</span><span class="sxs-lookup"><span data-stu-id="106d0-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="0fd1e-115">Kreditoru rēķinu konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-115">Configure vendor invoices</span></span>
+## <a name="configure-vendor-invoices"></a><span data-ttu-id="106d0-115">Kreditoru rēķinu konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="106d0-115">Configure vendor invoices</span></span>
 
-<span data-ttu-id="0fd1e-116">Izmantojiet moduli “Parādi kreditoriem”, lai izsekotu kreditoru rēķinus un izejošos izdevumus.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
+<span data-ttu-id="106d0-116">Izmantojiet moduli “Parādi kreditoriem”, lai izsekotu kreditoru rēķinus un izejošos izdevumus.</span><span class="sxs-lookup"><span data-stu-id="106d0-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
 
-[<span data-ttu-id="0fd1e-117">Rēķinu salīdzināšana modulim “Kreditori”</span><span class="sxs-lookup"><span data-stu-id="0fd1e-117">Accounts payable invoice matching overview</span></span>](accounts-payable-invoice-matching.md)
+[<span data-ttu-id="106d0-117">Rēķinu salīdzināšana modulim “Kreditori”</span><span class="sxs-lookup"><span data-stu-id="106d0-117">Accounts payable invoice matching overview</span></span>](accounts-payable-invoice-matching.md)
 
-[<span data-ttu-id="0fd1e-118">Kreditoru grāmatošanas metodes</span><span class="sxs-lookup"><span data-stu-id="0fd1e-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
+[<span data-ttu-id="106d0-118">Kreditoru grāmatošanas metodes</span><span class="sxs-lookup"><span data-stu-id="106d0-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
 
-[<span data-ttu-id="0fd1e-119">Kreditoru rēķinu salīdzināšanas pārbaudes iestatīšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-119">Set up Accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[<span data-ttu-id="106d0-119">Kreditoru rēķinu salīdzināšanas pārbaudes iestatīšana</span><span class="sxs-lookup"><span data-stu-id="106d0-119">Set up Accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[<span data-ttu-id="0fd1e-120">Trīsvirzienu atbilstības ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
+[<span data-ttu-id="106d0-120">Trīsvirzienu atbilstības ierobežojumi</span><span class="sxs-lookup"><span data-stu-id="106d0-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
 
-[<span data-ttu-id="0fd1e-121">Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
+[<span data-ttu-id="106d0-121">Rēķinu salīdzināšana un starpuzņēmumu pirkšanas pasūtījumi</span><span class="sxs-lookup"><span data-stu-id="106d0-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
 
-[<span data-ttu-id="0fd1e-122">Neatbilstību atrisināšanas rēķinu kopsummu salīdzināšanas laikā pārskats</span><span class="sxs-lookup"><span data-stu-id="0fd1e-122">Resolve discrepancies during invoice totals matching overview</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[<span data-ttu-id="106d0-122">Neatbilstību atrisināšanas rēķinu kopsummu salīdzināšanas laikā pārskats</span><span class="sxs-lookup"><span data-stu-id="106d0-122">Resolve discrepancies during invoice totals matching overview</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[<span data-ttu-id="0fd1e-123">Noklusējuma korespondējošie konti kreditoru rēķinu žurnāliem un rēķinu apstiprinājumu žurnāliem</span><span class="sxs-lookup"><span data-stu-id="0fd1e-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
+[<span data-ttu-id="106d0-123">Noklusējuma korespondējošie konti kreditoru rēķinu žurnāliem un rēķinu apstiprinājumu žurnāliem</span><span class="sxs-lookup"><span data-stu-id="106d0-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
 
-[<span data-ttu-id="0fd1e-124">Mobilie rēķinu apstiprinājumi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
+[<span data-ttu-id="106d0-124">Mobilie rēķinu apstiprinājumi</span><span class="sxs-lookup"><span data-stu-id="106d0-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
 
-[<span data-ttu-id="0fd1e-125">Kreditoru sadarbības rēķinu izveidošanas darbvieta</span><span class="sxs-lookup"><span data-stu-id="0fd1e-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
+[<span data-ttu-id="106d0-125">Kreditoru sadarbības rēķinu izveidošanas darbvieta</span><span class="sxs-lookup"><span data-stu-id="106d0-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
 
-[<span data-ttu-id="0fd1e-126">Kreditoru rēķinu izrakstīšanas automatizācija</span><span class="sxs-lookup"><span data-stu-id="0fd1e-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
+[<span data-ttu-id="106d0-126">Kreditoru rēķinu izrakstīšanas automatizācija</span><span class="sxs-lookup"><span data-stu-id="106d0-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
 
-## <a name="configure-vendor-payments"></a><span data-ttu-id="0fd1e-127">Kreditoru maksājumu konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-127">Configure vendor payments</span></span> 
+## <a name="configure-vendor-payments"></a><span data-ttu-id="106d0-127">Kreditoru maksājumu konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="106d0-127">Configure vendor payments</span></span> 
 
-<span data-ttu-id="0fd1e-128">Piešķiriet sistēmas definētu maksājuma veidu, piemēram, čeku, elektronisko maksājumu vai parādzīmi, jebkurai lietotāja definētai maksāšanas metodei.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="0fd1e-129">Maksājuma veidu atlase ir neobligāta, bet tā ir noderīga, kad validējat elektroniskos maksājumus un vēlaties ātri noteikt, kurš maksājuma veids tiek izmantots maksājumā.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
+<span data-ttu-id="106d0-128">Piešķiriet sistēmas definētu maksājuma veidu, piemēram, čeku, elektronisko maksājumu vai parādzīmi, jebkurai lietotāja definētai maksāšanas metodei.</span><span class="sxs-lookup"><span data-stu-id="106d0-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="106d0-129">Maksājuma veidu atlase ir neobligāta, bet tā ir noderīga, kad validējat elektroniskos maksājumus un vēlaties ātri noteikt, kurš maksājuma veids tiek izmantots maksājumā.</span><span class="sxs-lookup"><span data-stu-id="106d0-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
 
-[<span data-ttu-id="0fd1e-130">Kreditoru maksājumu darbvieta</span><span class="sxs-lookup"><span data-stu-id="0fd1e-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
+[<span data-ttu-id="106d0-130">Kreditoru maksājumu darbvieta</span><span class="sxs-lookup"><span data-stu-id="106d0-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
 
-[<span data-ttu-id="0fd1e-131">Kreditora maksājumu papildu maksu definēšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
+[<span data-ttu-id="106d0-131">Kreditora maksājumu papildu maksu definēšana</span><span class="sxs-lookup"><span data-stu-id="106d0-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
 
-[<span data-ttu-id="0fd1e-132">Kreditora maksājumu nosacījumu definēšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
+[<span data-ttu-id="106d0-132">Kreditora maksājumu nosacījumu definēšana</span><span class="sxs-lookup"><span data-stu-id="106d0-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
 
-[<span data-ttu-id="0fd1e-133">Pozitīvā maksājuma apskats</span><span class="sxs-lookup"><span data-stu-id="0fd1e-133">Positive pay overview</span></span>](positive-pay-overview.md)
+[<span data-ttu-id="106d0-133">Pozitīvā maksājuma apskats</span><span class="sxs-lookup"><span data-stu-id="106d0-133">Positive pay overview</span></span>](positive-pay-overview.md)
 
-[<span data-ttu-id="0fd1e-134">Iestatīt un ģenerēt pozitīvo maksājumu failus</span><span class="sxs-lookup"><span data-stu-id="0fd1e-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
+[<span data-ttu-id="106d0-134">Iestatīt un ģenerēt pozitīvo maksājumu failus</span><span class="sxs-lookup"><span data-stu-id="106d0-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
 
-[<span data-ttu-id="0fd1e-135">Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu</span><span class="sxs-lookup"><span data-stu-id="0fd1e-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
+[<span data-ttu-id="106d0-135">Izveidot kreditoru maksājumus, izmantojot maksājuma priekšlikumu</span><span class="sxs-lookup"><span data-stu-id="106d0-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
 
-[<span data-ttu-id="0fd1e-136">Kreditoru maksājumi par daļēju summu</span><span class="sxs-lookup"><span data-stu-id="0fd1e-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
+[<span data-ttu-id="106d0-136">Kreditoru maksājumi par daļēju summu</span><span class="sxs-lookup"><span data-stu-id="106d0-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
 
-[<span data-ttu-id="0fd1e-137">Piemērot atlaidi, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
+[<span data-ttu-id="106d0-137">Piemērot atlaidi, kas ir lielāka par kreditora maksājumam aprēķināto atlaidi</span><span class="sxs-lookup"><span data-stu-id="106d0-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
 
-[<span data-ttu-id="0fd1e-138">Piemērot termiņatlaidi ārpus termiņatlaides perioda</span><span class="sxs-lookup"><span data-stu-id="0fd1e-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
+[<span data-ttu-id="106d0-138">Piemērot termiņatlaidi ārpus termiņatlaides perioda</span><span class="sxs-lookup"><span data-stu-id="106d0-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[<span data-ttu-id="0fd1e-139">Elektronisko pārskatu kreditoru čeku paraugi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-139">Electronic reporting sample vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
+[<span data-ttu-id="106d0-139">Elektronisko pārskatu kreditoru čeku paraugi</span><span class="sxs-lookup"><span data-stu-id="106d0-139">Electronic reporting sample vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
 
-[<span data-ttu-id="0fd1e-140">Kreditora maksājumu atsaukšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
+[<span data-ttu-id="106d0-140">Kreditora maksājumu atsaukšana</span><span class="sxs-lookup"><span data-stu-id="106d0-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
 
-[<span data-ttu-id="0fd1e-141">Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu</span><span class="sxs-lookup"><span data-stu-id="0fd1e-141">Prepayment invoices vs. prepayments</span></span>](prepayments-invoices-vs-prepayments.md)
+[<span data-ttu-id="106d0-141">Priekšapmaksas rēķini salīdzinājumā ar priekšapmaksu</span><span class="sxs-lookup"><span data-stu-id="106d0-141">Prepayment invoices vs. prepayments</span></span>](prepayments-invoices-vs-prepayments.md)
 
-[<span data-ttu-id="0fd1e-142">Centralizētie maksājumi modulim “Parādi kreditoriem”</span><span class="sxs-lookup"><span data-stu-id="0fd1e-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
+[<span data-ttu-id="106d0-142">Centralizētie maksājumi modulim “Parādi kreditoriem”</span><span class="sxs-lookup"><span data-stu-id="106d0-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a><span data-ttu-id="0fd1e-143">Sasaistītās darbības</span><span class="sxs-lookup"><span data-stu-id="0fd1e-143">Settlements</span></span>
+## <a name="settlements"></a><span data-ttu-id="106d0-143">Sasaistītās darbības</span><span class="sxs-lookup"><span data-stu-id="106d0-143">Settlements</span></span>
 
-<span data-ttu-id="0fd1e-144">Tālāk esošajās tēmās sniegta informācija par segšanas darbībām.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="0fd1e-145">Segšana ir rēķinu maksājumu segšanas process.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-145">Settlement is the process of settling payments with invoices.</span></span> 
+<span data-ttu-id="106d0-144">Tālāk esošajās tēmās sniegta informācija par segšanas darbībām.</span><span class="sxs-lookup"><span data-stu-id="106d0-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="106d0-145">Segšana ir rēķinu maksājumu segšanas process.</span><span class="sxs-lookup"><span data-stu-id="106d0-145">Settlement is the process of settling payments with invoices.</span></span> 
 
-[<span data-ttu-id="0fd1e-146">Segšanas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
+[<span data-ttu-id="106d0-146">Segšanas konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="106d0-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
 
-[<span data-ttu-id="0fd1e-147">Daļēja kreditora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="0fd1e-147">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[<span data-ttu-id="106d0-147">Daļēja kreditora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="106d0-147">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
-[<span data-ttu-id="0fd1e-148">Daļēja kreditora maksājuma, kam ir atlaides kreditora kredīta notām, segšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+[<span data-ttu-id="106d0-148">Daļēja kreditora maksājuma, kam ir atlaides kreditora kredīta notām, segšana</span><span class="sxs-lookup"><span data-stu-id="106d0-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
-[<span data-ttu-id="0fd1e-149">Daļēja kreditora maksājuma, kam ir vairāki atlaižu periodi, segšana</span><span class="sxs-lookup"><span data-stu-id="0fd1e-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
+[<span data-ttu-id="106d0-149">Daļēja kreditora maksājuma, kam ir vairāki atlaižu periodi, segšana</span><span class="sxs-lookup"><span data-stu-id="106d0-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[<span data-ttu-id="0fd1e-150">Daļēja kreditora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="0fd1e-150">Settle a partial vendor payment and the final payment in full before the discount date</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[<span data-ttu-id="106d0-150">Daļēja kreditora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma</span><span class="sxs-lookup"><span data-stu-id="106d0-150">Settle a partial vendor payment and the final payment in full before the discount date</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[<span data-ttu-id="0fd1e-151">Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem</span><span class="sxs-lookup"><span data-stu-id="0fd1e-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
+[<span data-ttu-id="106d0-151">Viens dokuments ar vairākiem debitoru vai kreditoru ierakstiem</span><span class="sxs-lookup"><span data-stu-id="106d0-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a><span data-ttu-id="0fd1e-152">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-152">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="106d0-152">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="106d0-152">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="0fd1e-153">Jaunumi un drīzumā gaidāmais</span><span class="sxs-lookup"><span data-stu-id="0fd1e-153">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="106d0-153">Jaunumi un drīzumā gaidāmais</span><span class="sxs-lookup"><span data-stu-id="106d0-153">What's new and in development</span></span>
 
-<span data-ttu-id="0fd1e-154">Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](https://go.microsoft.com/fwlink/?linkid=2010158).</span><span class="sxs-lookup"><span data-stu-id="0fd1e-154">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+<span data-ttu-id="106d0-154">Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 informāciju par laidienu plāniem](/dynamics365/release-plans/).</span><span class="sxs-lookup"><span data-stu-id="106d0-154">Go to the [Microsoft Dynamics 365 release plans](/dynamics365/release-plans/) to see what new features are planned.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="0fd1e-155">Emuāri</span><span class="sxs-lookup"><span data-stu-id="0fd1e-155">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="106d0-155">Emuāri</span><span class="sxs-lookup"><span data-stu-id="106d0-155">Blogs</span></span>
 
-<span data-ttu-id="0fd1e-156">Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="0fd1e-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+<span data-ttu-id="106d0-156">Viedokļi, ziņas un cita informācija par moduli Kreditori un citiem risinājumiem ir pieejama [Microsoft Dynamics 365 emuārā](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) un [Microsoft Dynamics 365 Finance — Financials emuārā](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="106d0-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
 
-<span data-ttu-id="0fd1e-157">[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek nodrošināts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
+<span data-ttu-id="106d0-157">[Microsoft Dynamics Operations partneru kopienas emuārā](https://community.dynamics.com/partner/b/operationspartnercommunityblog) Microsoft Dynamics partneriem tiek nodrošināts vienots resurss, kur uzzināt par jaunumiem un tendencēm risinājumā Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="106d0-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
 
-#### <a name="community-blogs"></a><span data-ttu-id="0fd1e-158">Kopienas emuāri</span><span class="sxs-lookup"><span data-stu-id="0fd1e-158">Community blogs</span></span>
+#### <a name="community-blogs"></a><span data-ttu-id="106d0-158">Kopienas emuāri</span><span class="sxs-lookup"><span data-stu-id="106d0-158">Community blogs</span></span>
 
-[<span data-ttu-id="0fd1e-159">Kreditoru pārvaldība risinājumā Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="0fd1e-159">How to manage payables in Dynamics 365 Finance</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[<span data-ttu-id="106d0-159">Kreditoru pārvaldība risinājumā Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="106d0-159">How to manage payables in Dynamics 365 Finance</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
-#### <a name="task-guides"></a><span data-ttu-id="0fd1e-160">Uzdevumu ceļveži</span><span class="sxs-lookup"><span data-stu-id="0fd1e-160">Task guides</span></span>
-<span data-ttu-id="0fd1e-161">Papildu palīdzībai lietojumprogrammā ir pieejami uzdevumu ceļveži.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-161">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="0fd1e-162">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</span><span class="sxs-lookup"><span data-stu-id="0fd1e-162">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="106d0-160">Uzdevumu ceļveži</span><span class="sxs-lookup"><span data-stu-id="106d0-160">Task guides</span></span>
+<span data-ttu-id="106d0-161">Papildu palīdzībai lietojumprogrammā ir pieejami uzdevumu ceļveži.</span><span class="sxs-lookup"><span data-stu-id="106d0-161">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="106d0-162">Lai piekļūtu uzdevumu ceļvežiem, jebkurā lapā noklikšķiniet uz pogas Palīdzība.</span><span class="sxs-lookup"><span data-stu-id="106d0-162">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="0fd1e-163">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="0fd1e-163">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="106d0-163">Videoklipi</span><span class="sxs-lookup"><span data-stu-id="106d0-163">Videos</span></span>
 
-<span data-ttu-id="0fd1e-164">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="0fd1e-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="106d0-164">Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 YouTube kanālā](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="106d0-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 

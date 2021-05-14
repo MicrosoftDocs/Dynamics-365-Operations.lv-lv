@@ -72,12 +72,12 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
+                    - name: "Supply Chain Management 10.0.19 (2021.\_gada jūlijs)"
+                      href: get-started/whats-new-scm-10-0-19.md
                     - name: "Supply Chain Management 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-scm-10-0-18.md
                     - name: "Supply Chain Management 10.0.17 (2021.\_gada aprīlis)"
                       href: get-started/whats-new-scm-10-0-17.md
-                    - name: "Supply Chain Management 10.0.16 (2021.\_gada februāris)"
-                      href: get-started/whats-new-scm-10-0-16.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -164,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Power Apps pamatnes programmu iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Trešās puses programmu iegulšana
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sesijas datuma maiņa
@@ -179,7 +181,7 @@
                 - name: Finance and Operations programmu arhitektūra
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: Ieviešanas projekta pievienošana
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vides plānošana
@@ -206,6 +208,64 @@
           items:
             - name: Globalizācijas resursi
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Globalizācijas pakalpojumi
+              items:
+                - name: Globalizācijas pakalpojumu pārskats
+                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: Regulatory configuration service pārskats
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Regulatory configuration service\_— globalizācijas līdzekļi"
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory configuration service un to augšupielāde globālajā repozitorijā
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Elektroniskā rēķinu izrakstīšana
+                  items:
+                    - name: Elektronisko rēķinu izveides pārskats
+                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Elektronisko rēķinu izveides administrēšanas komponenti
+                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
+                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
+                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Azure krātuves konta un Key Vault izveide
+                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Darba sākšana
+                      items:
+                        - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
+                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi
+                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
+                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
+                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Itālijā
+                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
+                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Elektronisko rēķinu izveides iestatīšana
+                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
+                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Nodokļu aprēķins
+                  items:
+                    - name: Nodokļu aprēķina pārskats
+                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Darba sākšana ar nodokļu aprēķinu
+                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
+                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Datu lauku pievienošana nodokļu konfigurācijās
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Vairāki PVN reģistrācijas numuri
+                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Pamatdatu uzmeklēšanas vides iestatīšana
+                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: Normatīvie atjauninājumi
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: Indija
@@ -224,12 +284,18 @@
           items:
             - name: Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm
               href: cloud-edge/cloud-edge-landing-page.md
+            - name: 'Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD'
+              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-workload-warehousing.md
             - name: Noliktavas pasūtījumi mākoņa un malas mēroga vienībām
               href: cloud-edge/cloud-edge-warehouse-order.md
+            - name: Noliktavas krājumu korekcija
+              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
+            - name: Ziņojumu apstrādātāja ziņojumi
+              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: Līdzekļu pārvaldība
           items:
             - name: Pārskats par līdzekļu pārvaldību
@@ -529,7 +595,7 @@
               href: ../finance/cost-accounting/tasks/configure-cost-control-workspace-parameters.md?toc=/dynamics365/supply-chain/toc.json
             - name: Piekļuves saraksta drošības un RLS izprašana platformā Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Satura pakotnes izmantošana platformā Microsoft Power BI atskaišu veidošanai
+            - name: Satura pakotnes izmantošana Microsoft Power BI atskaišu veidošanai
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Izmaksu kontroles darbvietas izmantošana Finance and Operations mobilajai programmai
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -1361,27 +1427,49 @@
                   href: inventory/arrival-overview.md
                 - name: Krājumu saņemšanas pārskata profila iestatīšana
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
-            - name: Kvalitātes pārvaldība
+            - name: Kvalitātes vadība
               items:
-                - name: Kvalitātes pārvaldības pārskats
-                  href: inventory/enable-quality-management.md
-                - name: Kvalitātes pārvaldības procesi
+                - name: Kvalitātes un neatbilstības pārvaldīšanas apskats
                   href: inventory/quality-management-processes.md
-                - name: Kvalitātes pārvaldība noliktavas procesiem
-                  href: inventory/quality-management-for-warehouses-processes.md
-                - name: Neatbilstības pārvaldība
-                  href: inventory/enable-nonconformance-management.md
-                - name: Pārvaldības priekšnosacījumu iestatīšana
-                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
-                - name: Atbilstības izveide un apstrāde
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: Karantīnas pasūtījumi
-                  href: inventory/quarantine-orders.md
-                - name: Kvalitātes pasūtījumu iestatīšana
-                  href: inventory/tasks/set-up-quality-orders.md
+                - name: Kvalitātes un neatbilstības pārvaldības iespējošana un kvalitātes konfigurēšana
+                  items:
+                    - name: Kvalitātes un neatbilstības pārvaldīšanas iespējošana
+                      href: inventory/enable-quality-management.md
+                    - name: Kvalitātes pārvaldības testa instrumenti
+                      href: inventory/quality-test-instruments.md
+                    - name: Kvalitātes pārvaldības testi
+                      href: inventory/quality-tests.md
+                    - name: Kvalitātes pārvaldības testa mainīgie
+                      href: inventory/quality-test-variables.md
+                    - name: Kvalitātes pārvaldības testa grupas
+                      href: inventory/quality-test-groups.md
+                    - name: Kvalitātes pārvaldības krājuma grupas
+                      href: inventory/quality-groups.md
+                    - name: Kvalitātes pārvaldības krājumu paraugu ņemšana
+                      href: inventory/quality-item-sampling.md
+                    - name: Kvalitātes piesaistes
+                      href: inventory/quality-associations.md
+                    - name: Par neatbilstību apstiprināšanu atbildīgie darbinieki
+                      href: inventory/quality-responsible-workers.md
+                    - name: Neatbilstības problēmas tipi
+                      href: inventory/quality-problem-types.md
+                    - name: Neatbilstības karantīnas zonas
+                      href: inventory/quality-quarantine-zones.md
+                    - name: Neatbilstības diagnostikas tipi
+                      href: inventory/quality-diagnostic-types.md
+                    - name: Neatbilstības operācijas
+                      href: inventory/quality-operations.md
+                    - name: Neatbilstības operācijas izmaksas
+                      href: inventory/quality-charges.md
+                - name: Darbs ar kvalitātes pārbaudes pasūtījumiem
+                  href: inventory/quality-orders.md
                 - name: Preču kvalitātes pārbaude
                   href: inventory/tasks/inspect-quality-goods.md
-                - name: Krājumu bloķēšana
+                - name: Neatbilstības izveide un apstrāde
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: Darbs ar karantīnas pasūtījumiem
+                  href: inventory/quarantine-orders.md
+                - name: Krājumu aizturēšana
                   href: inventory/inventory-blocking.md
                 - name: Krājumu bloķēšanas izveide un uzturēšana
                   href: inventory/tasks/create-maintain-inventory-blocking.md
@@ -1511,8 +1599,8 @@
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Plānoto pasūtījumu apstiprināšana
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: 'Automātiskā apstiprināšana, izmantojot plānošanas optimizāciju'
-                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Plānoto pasūtījumu apstiprināšana
+                  href: master-planning/planning-optimization/planned-order-firming.md
                 - name: Plānošana ar negatīviem rīcībā esošajiem daudzumiem
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Plāna vēstures un plānošanas žurnālu skatīšana
@@ -1628,7 +1716,7 @@
                 - name: Izmaksu kontrolēšana
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Izdevumu pārvaldība
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Rīcībā esošie krājumi
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Rēķina apstiprinājumi
@@ -1636,11 +1724,11 @@
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Project mobilo programmu pārskats
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Projekta laika ieraksts
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Projektu darba laika uzskaites tabula
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Pirkšanas pasūtījuma apstiprināšana
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pārdošanas pasūtījumi
@@ -1923,13 +2011,19 @@
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Piegādātāja pieprasījuma konfigurācijas
                   href: procurement/vendor-request-configurations.md
-                - name: Kreditora pievienošana
+                - name: Piegādātāja pievienošana
                   href: procurement/vendor-onboarding.md
                 - name: Kreditoru sadarbība ar ārējiem kreditoriem
                   href: procurement/vendor-collaboration-work-external-vendors.md
+                - name: Kreditora sertifikācijas uzturēšana
+                  href: ../finance/public-sector/manage-vendor-certification.md
+                - name: Kategorijas pieprasījumi no kreditoriem
+                  href: procurement/category-requests-from-vendors.md
                 - name: Kreditoru sadarbība ar debitoriem
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
-                - name: Piegādātāju katalogu importēšana
+                - name: Kreditora bankas konta informācijas uzturēšana
+                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
+                - name: Kreditoru katalogu importēšana
                   href: procurement/vendor-catalogs-import.md
                 - name: Ārēja kataloga iestatīšana PunchOut e-sagādei
                   href: procurement/set-up-external-catalog-for-punchout.md
@@ -1979,6 +2073,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Iepriekš definētu preces variantu izveide
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Mērvienību pārvaldība
+                  href: pim/tasks/manage-unit-measure.md
                 - name: Mērvienību konvertēšana katram preces variantam
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Izlaistās preces izveide vienam uzņēmumam
@@ -2139,8 +2235,10 @@
               href: engineering-change-management/engineering-change-management.md
             - name: Preces gatavība
               href: engineering-change-management/product-readiness.md
-            - name: Izlaist preču struktūru
+            - name: Preču struktūras izlaišana
               href: engineering-change-management/release-product-structure.md
+            - name: 'Tehnisko izmaiņu pārvaldība: bieži uzdotie jautājumi'
+              href: engineering-change-management/change-management-faq.md
         - name: Ražošanas kontrole
           items:
             - name: Pārskats par ražošanas procesu
@@ -2167,8 +2265,6 @@
                       href: production-control/phantom-items.md
                     - name: "MK\_aprēķini"
                       href: cost-management/bom-calculations.md
-                    - name: Mērvienības pārvaldība
-                      href: pim/tasks/manage-unit-measure.md
                     - name: Ražošanas izpildes produkcijas parametri
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: Operāciju resursi
@@ -2849,6 +2945,10 @@
               href: transportation/tasks/load-template.md
             - name: Novērtējuma profili
               href: transportation/tasks/setup-a-rating-profile.md
+            - name: LTL klases
+              href: transportation/ltl-class.md
+            - name: NMFC kodi
+              href: transportation/nmfc-codes.md
             - name: Pārvadātāja degvielas rādītāja iestatīšana
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Transportēšanas norēķinu iestatīšana
@@ -2933,10 +3033,12 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Pirkšanas pasūtījumu darba veidnes iestatīšana
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                - name: Novietojuma preces dimensijas sajaukšana
+                - name: Novietojuma produkta dimensijas sajaukšana
                   href: warehousing/location-product-dimension-mixing.md
                 - name: Izvietošanas klasteri
                   href: warehousing/putaway-clusters.md
+                - name: Kvalitātes pārvaldība noliktavas procesiem
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Kvalitātes pārbaude
                   href: warehousing/quality-check.md
                 - name: Ienākošo noliktavas operāciju problēmu novēršana
@@ -3069,6 +3171,8 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: Atlikta noliktavas darba apstrāde
                       href: warehousing/deferred-put.md
+                    - name: Krājumu manuālas pārvietošanas operācijas atliktā apstrāde
+                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: Pārkraušana sadales centrā
                   items:
                     - name: Pārkraušana sadales centrā no ražošanas pasūtījumiem uz izejošajiem sadales centriem
@@ -3237,6 +3341,40 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Rīcībā esošo krājumu datu elementu paplašināšana
               href: inventory/extend-on-hand-entities.md
+        - name: Problēmu novēršana
+          items:
+            - name: Noliktavas pārvaldība
+              items:
+                - name: 'Nevar apstiprināt sūtījumu, jo kalendārā radās problēma'
+                  href: troubleshooting/warehousing/load-has-active-appo.md
+                - name: Sūtījumu nevar apstiprināt nepabeigta vai trūkstoša darba dēļ.
+                  href: troubleshooting/warehousing/open-or-no-work-exis.md
+                - name: 'Nevar apstiprināt sūtījumu, jo nav izdoti krājumi'
+                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
+                - name: 'Nevar apstiprināt sūtījumu, jo daudzums ir nulle'
+                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
+                - name: 'Nevar apstiprināt sūtījumu, jo daudzums pārsniedz pasūtījuma pārsniegšanas procentuālo daudzumu'
+                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
+                - name: 'Nevar apstiprināt sūtījumu, jo daudzums pārsniedz nepilna pasūtījuma procentuālo daudzumu'
+                  href: troubleshooting/warehousing/quantity-exceeds-und.md
+                - name: Pēdējās slēgtās darba rindas statusam ir jābūt Izvietot
+                  href: troubleshooting/warehousing/the-last-closed-work.md
+                - name: Noslodzes rindu svara lauki neatbilst noslodzes svara laukiem
+                  href: troubleshooting/warehousing/the-weight-fields-on.md
+                - name: Kopuma dati nav paredzēti tīrīšanai
+                  href: troubleshooting/warehousing/wave-is-not-eligible.md
+                - name: Svara vērtībai jābūt pozitīvai.
+                  href: troubleshooting/warehousing/weight-must-be-posit.md
+                - name: 'Darbu nevar atcelt, jo tas ir bloķēts'
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
+                - name: Darbu nevar atcelt statusa dēļ
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
+                - name: Darbs nav bloķēts
+                  href: troubleshooting/warehousing/work-is-not-blocked.md
+                - name: Darbs paliek bloķēts
+                  href: troubleshooting/warehousing/work-remains-blocked.md
+                - name: Nevar atcelt lietotājam izveidotu darbu
+                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Finance and Operations programmu izstrāde un administrēšana
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

@@ -72,6 +72,8 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Finance sākumlapa
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.19 (2021.\_gada jūlijs)"
+                      href: get-started/whats-new-changed-10-0-19.md
                     - name: "Finance 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: "Finance 10.0.17 (2021.\_gada aprīlis)"
@@ -162,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Power Apps pamatnes programmu iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
+                - name: Trešās puses programmu iegulšana
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Sesijas datuma maiņa
@@ -683,45 +687,45 @@
         - name: Izdevumu pārvaldība
           items:
             - name: Pārskats par izdevumu pārvaldību
-              href: expense-management/expense-management.md
+              href: /dynamics365/project-operations/prod-exp/expense-management
             - name: Izdevumu pārskati jaunā izskatā
-              href: expense-management/ExpenseWorkspaceNew.md
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
             - name: Plānoto izdevumu pārvaldība
-              href: expense-management/plan-expense-management.md
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
             - name: Izdevumu pārvaldības parametri
-              href: expense-management/Expense-Management-Parameters.md
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
             - name: Izdevumu pārvaldības mobilā darbvieta
-              href: expense-management/expense-management-mobile-workspace.md
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
             - name: Darbplūsmu iestatīšana izdevumu pārvaldībai
-              href: expense-management/expense-workflows.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
             - name: Avansa norēķinu darbplūsma
-              href: expense-management/expense-workflow.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
             - name: Izdevumu deleģēšanas pārvaldība
-              href: expense-management/manage-expense-delegation.md
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: Izdevumu ieejas apstrāde
-              href: expense-management/expense-receipt-processing.md
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
             - name: Kredītkaršu transakciju importēšana un uzturēšana
-              href: expense-management/import-credit-card.md
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: Sadales izdevumu pārskatā
-              href: expense-management/expense-report-distributions.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
             - name: Starpuzņēmumu izdevumi
-              href: expense-management/intercompany-expense.md
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
             - name: Izdevumu politiku definēšana
-              href: expense-management/travel-expense-policies.md
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
             - name: Skatīt izdevumu pārskatu
-              href: expense-management/view-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
             - name: Grāmatot izdevumu pārskatu
-              href: expense-management/post-expense.md
+              href: /dynamics365/project-operations/prod-exp/post-expense
             - name: Izdevumu pārskati un vairāki apstiprinātāji
-              href: expense-management/expense-report-multiple-approvers.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
             - name: 'PVN atgūšana, izmantojot izdevumu pārvaldību'
-              href: expense-management/VAT-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: Dienasnaudas noteikumi
-              href: expense-management/per-diem.md
+              href: /dynamics365/project-operations/prod-exp/per-diem
             - name: Komandējuma pieprasījumi
-              href: expense-management/travel-req.md
+              href: /dynamics365/project-operations/prod-exp/travel-req
             - name: Personiskie izdevumi attiecīgā izdevumu pārskatā
-              href: expense-management/personal-expenses.md
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Pamatlīdzekļi
           items:
             - name: Pamatlīdzekļu sākumlapa
@@ -1100,10 +1104,24 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Iestatīt PVN apmaksas periodus
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Skatīt grāmatotās PVN darbības
+                - name: Grāmatoto PVN darbību skatīšana
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: PVN maksājumu drukāšana pēc koda pārskata
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: PVN problēmu novēršana
+                  items:
+                    - name: Nodoklis nav aprēķināts vai nodokļa summa ir nulle
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: Nodokļu aprēķina veiktspēja ietekmē darījumus
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: Nepareiza lauka vērtība laukā TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: Nav ģenerēts TaxTrans ieraksts
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: Nodoklis ir grāmatots nepareizā virsgrāmatas kontā dokumentā
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: Dokuments nav ģenerēts
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
             - name: Ieturētais nodoklis
               items:
                 - name: Ieturētā nodokļa iestatīšana
@@ -1215,85 +1233,85 @@
         - name: Projektu vadība un uzskaite
           items:
             - name: Projektu vadības un uzskaites pārskats
-              href: project-management/overview-project-management-accounting.md
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
             - name: Starpuzņēmumu rēķinu izrakstīšana
-              href: project-management/intercompany-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
             - name: Starpuzņēmumu projekta rēķinu izrakstīšanas konfigurēšana
-              href: project-management/tasks/configure-intercompany-project-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
             - name: Standarta darbaspēka un izdevumu izmaksu konfigurēšana
-              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
             - name: Kreditoru maksājumu ieturējumu nosacījumu izveide un lietošana
-              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
             - name: 'Tādu kreditoru maksājumu iestatīšana un lietošana, kas jāapmaksā pēc apmaksas'
-              href: project-management/setup-manage-vendor-payments.md
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
             - name: Projekta izmaksu uzkrāšanas pirkšanas pavadzīmes
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Projekta rēķinu izrakstīšana
               href: accounts-payable/project-invoicing.md
             - name: Projekta līgumi
-              href: project-management/project-contracts.md
+              href: /dynamics365/project-operations/prod-pma/project-contracts
             - name: 'Papildu līgumu izveide norēķiniem, pamatojoties uz progresu'
-              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
             - name: Projekta prognozes un budžeti
-              href: project-management/project-forecasts-budgets.md
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
             - name: Budžeta modeļu izveide projekta budžetiem
-              href: project-management/create-forecast-models-project-budgets.md
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
             - name: Projekta budžetu pārsūtīšana finanšu gada beigās
-              href: project-management/process-project-budgets-for-fiscal-year-end.md
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
             - name: Projekta pārdošanas pasūtījumi
-              href: project-management/project-sales-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
             - name: Pirkšanas pasūtījumi projektam
-              href: project-management/project-purchase-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
             - name: Projektu piedāvājumi
-              href: project-management/project-quotations.md
+              href: /dynamics365/project-operations/prod-pma/project-quotations
             - name: 'Projektu piedāvājuma apstiprināšana, atjaunināšana un sūtīšana'
-              href: project-management/confirm-update-send-project-quotation.md
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
             - name: Piedāvājuma pārsūtīšana projektam
-              href: project-management/transfer-quote-new-existing-project.md
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
             - name: Projekta resursi
               items:
                 - name: Projekta resursu pārskats
-                  href: project-management/project-resourcing.md
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
                 - name: Projekta resursu iestatīšana
-                  href: project-management/set-up-project-resources.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
                 - name: Resursu kompetenču pārvaldība
-                  href: project-management/manage-resource-competencies.md
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
                 - name: Jauna projekta izveide
-                  href: project-management/create-new-project.md
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
                 - name: Uz lomu balstītas cenu noteikšanas iestatīšana
-                  href: project-management/set-up-role-based-pricing.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
                 - name: Projekta grupas izveide
-                  href: project-management/create-project-team.md
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
                 - name: Resursu noslodzes sinhronizēšana
-                  href: project-management/synchronize-resource-capacity.md
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
                 - name: Projekta resursu plānošanas veiktspēja
-                  href: project-management/project-scheduling-performance.md
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
                 - name: Lomu iestatīšana darba sadalījuma struktūras veidnēs
-                  href: project-management/set-up-roles-wbs-template.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
                 - name: Resursu izpilde plānotiem resursiem
-                  href: project-management/resource-fulfillment-planned-resources.md
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
             - name: Pirkšanas pasūtījuma krājumu saņemšana no krājumu vajadzības
-              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
             - name: Darba sadalījuma struktūras
               items:
                 - name: Darba sadalījuma struktūru pārskats
-                  href: project-management/work-breakdown-structures.md
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
                 - name: Microsoft Project Client integrācija
-                  href: project-management/project-integration.md
+                  href: /dynamics365/project-operations/prod-pma/project-integration
                 - name: Project mobilo programmu apskats
-                  href: project-management/project-mobile-application-overview.md
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
                 - name: Projekta laika ieraksta mobilā darbvieta
-                  href: project-management/project-time-entry-mobile-workspace.md
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
                 - name: Projektu darba laika uzskaites tabulu mobilā programma
-                  href: project-management/project-timesheet.md
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
                 - name: Projektu darba laika uzskaites tabulas mobilajā ierīcē
-                  href: project-management/mobile-timesheets.md
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
                 - name: Pielāgoto lauku ieviešana projektu darba laika uzskaites tabulu mobilajā programmā
-                  href: project-management/custom-fields-mobile.md
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
             - name: Projekta piešķīrumi
-              href: project-management/project-grants.md
+              href: /dynamics365/project-operations/prod-pma/project-grants
             - name: Projekta novērtējuma izslēgšana
-              href: project-management/eliminate-project-estimate.md
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Publiskais sektors
           items:
             - name: Publiskā sektora sākumlapa
@@ -1419,61 +1437,61 @@
             - name: Globalizācijas pakalpojumi
               items:
                 - name: Globalizācijas pakalpojumu pārskats
-                  href: localizations/globalization-services-overview.md
+                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Configuration Service
                   items:
                     - name: Regulatory configuration service pārskats
-                      href: localizations/rcs-overview.md
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: "Regulatory configuration service\_— globalizācijas līdzekļi"
-                      href: localizations/rcs-globalization-feature.md
+                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory configuration service un to augšupielāde globālajā repozitorijā
-                      href: localizations/rcs-global-repo-upload.md
+                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                 - name: Elektroniskā rēķinu izrakstīšana
                   items:
                     - name: Elektronisko rēķinu izveides pārskats
-                      href: localizations/e-invoicing-service-overview.md
+                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko rēķinu izveides administrēšanas komponenti
-                      href: localizations/e-invoicing-service-administration.md
+                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
-                      href: localizations/e-invoicing-configuration-rcs.md
+                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko rēķinu izsniegšana pakalpojumā Finance un Supply Chain Management
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Azure krātuves konta un Key Vault izveide
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Darba sākšana
                       items:
                         - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
-                          href: localizations/e-invoicing-get-started-service-administration.md
+                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi
-                          href: localizations/e-invoicing-get-started.md
+                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Brazīlijā
-                          href: localizations/e-invoicing-bra-get-started.md
+                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Ēģiptē
-                          href: localizations/e-invoicing-eg-get-started.md
+                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Itālijā
-                          href: localizations/e-invoicing-ita-get-started.md
+                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Darba sākšana ar elektronisko rēķinu izveidi lietošanai Meksikā
-                          href: localizations/e-invoicing-mex-get-started.md
+                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronisko rēķinu izveides iestatīšana
-                          href: localizations/e-invoicing-setup.md
+                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Bieži uzdotie jautājumi par elektronisko rēķinu izveidi
-                      href: localizations/e-invoicing-faq.md
+                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Nodokļu aprēķins
                   items:
                     - name: Nodokļu aprēķina pārskats
-                      href: localizations/global-tax-calcuation-service-overview.md
+                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Darba sākšana ar nodokļu aprēķinu
-                      href: localizations/global-get-started-with-tax-calculation-service.md
+                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
                     - name: Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
                     - name: Datu lauku pievienošana nodokļu konfigurācijās
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
                     - name: Vairāki PVN reģistrācijas numuri
-                      href: localizations/emea-multiple-vat-registration-numbers.md
+                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Pamatdatu uzmeklēšanas vides iestatīšana
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
             - name: Austrālija
@@ -3139,7 +3157,7 @@
                 - name: Konfigurēt Human Resources koplietotos parametrus
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Iestatīt personāla vadības darbplūsmas
-                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Informācija par datuma un laika laukiem
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Pārvaldīt personālu
@@ -3166,9 +3184,9 @@
                   href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
                 - name: Patapinātie krājumi nodarbinātajiem
                   href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Patapinājuma priekšmetu izveide
+                - name: Patapināto krājumu izveide
                   href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Pārvaldīt patapinājuma priekšmetus
+                - name: Patapināto krājumu pārvaldība
                   href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
                 - name: Pēctecības plāna izstrāde
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
@@ -3189,15 +3207,15 @@
                 - name: Personāla atlases procesu pārvaldība
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
                 - name: Masveida darbā pieņemšanas projekti
-                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
                 - name: Masveida darbā pieņemšanas projektu izveide
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: Kandidāta un pieteikuma datu manuāla ievade
                   href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                 - name: Darba pieprasījumu izstrāde un atvēršana
                   href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                 - name: Amatu iestatīšana
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                  href: ../human-resources/hr-personnel-set-up-positions.md
                 - name: 'Kandidātu pieņemšana darbā, izmantojot personāla atlasi'
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
                 - name: 'Esoša darbinieka pieņemšana darbā, izmantojot personāla atlasi'
@@ -4052,7 +4070,7 @@
                 - name: Izmaksu kontrolēšana
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Izdevumu pārvaldība
-                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Rīcībā esošie krājumi
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Rēķina apstiprinājumi
@@ -4060,11 +4078,11 @@
                 - name: Mana darba grupa
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Project mobilo programmu pārskats
-                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Projekta laika ieraksts
-                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Projektu darba laika uzskaites tabula
-                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Pirkšanas pasūtījuma apstiprināšana
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Pārdošanas pasūtījumi

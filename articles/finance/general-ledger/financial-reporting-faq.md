@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811314"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923029"
 ---
-# <a name="financial-reporting-faq"></a><span data-ttu-id="cf2b8-103">Bieži uzdotie jautājumi par finanšu pārskatu veidošanu</span><span class="sxs-lookup"><span data-stu-id="cf2b8-103">Financial reporting FAQ</span></span> 
+# <a name="financial-reporting-faq"></a><span data-ttu-id="5ff1d-103">Bieži uzdotie jautājumi par finanšu pārskatu veidošanu</span><span class="sxs-lookup"><span data-stu-id="5ff1d-103">Financial reporting FAQ</span></span> 
 
-<span data-ttu-id="cf2b8-104">Šajā tēmā uzskaitīti jautājumi saistībā ar finanšu pārskatu veidošanu, kurus uzdevuši citi lietotāji.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-104">This topic lists questions related to financial reporting that other users have had.</span></span> 
+<span data-ttu-id="5ff1d-104">Šī tēma sniedz atbildes uz bieži uzdotiem jautājumiem par finanšu pārskatu veidošanu.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-104">This topic provides answers to frequently asked questions about financial reporting.</span></span> 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="5ff1d-105">Kā var ierobežot piekļuvi pārskatam, izmantojot koka drošību?</span><span class="sxs-lookup"><span data-stu-id="5ff1d-105">How do I restrict access to a report using tree security?</span></span>
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="cf2b8-105">Kā var ierobežot piekļuvi pārskatam, izmantojot drošības koku?</span><span class="sxs-lookup"><span data-stu-id="cf2b8-105">How do I restrict access to a report using Tree security?</span></span>
+<span data-ttu-id="5ff1d-106">Šajā piemērā parādīts, kā ierobežot piekļuvi pārskatam, izmantojot koka drošību.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-106">The following example shows how to restrict access to a report using tree security.</span></span>
 
-<span data-ttu-id="cf2b8-106">Scenārijs: USMF demonstrācijas uzņēmumam ir bilances pārskats, un uzņēmums nevēlas, lai visi finanšu pārskatu lietotāji to varētu skatīt pakalpojumā D365.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-106">Scenario: The USMF demo company has a Balance sheet report that it doesn’t want all Financial reporting users to be able to view in D365.</span></span> <span data-ttu-id="cf2b8-107">Risinājums: jūs varat izmantot drošības koku, lai ierobežotu piekļuvi atsevišķam pārskatam, lai tikai noteikti lietotāji varētu piekļūt pārskatam.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-107">Solution: You can utilize Tree security to restrict access to a single report so that only certain users can access the report.</span></span> 
+<span data-ttu-id="5ff1d-107">USMF demonstrācijas uzņēmumam ir bilances pārskats, kuram nedrīkstētu piekļūt visi finanšu pārskatu lietotāji.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-107">The USMF demo company has a Balance sheet report that not all Financial reporting users should have access to.</span></span> <span data-ttu-id="5ff1d-108">Lai ierobežotu piekļuvi, varat izmantot koka drošību, lai ierobežotu piekļuvi atsevišķam pārskatam, lai tikai noteikti lietotāji varētu piekļūt pārskatam.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-108">To restrict access, you can use tree security to restrict access to a single report so that only certain users can access the report.</span></span> <span data-ttu-id="5ff1d-109">Lai ierobežotu piekļuvi, rīkojieties šādi:</span><span class="sxs-lookup"><span data-stu-id="5ff1d-109">Follow these steps to restrict access:</span></span> 
 
-1.  <span data-ttu-id="cf2b8-108">Piesakieties finanšu pārskatu veidotājā</span><span class="sxs-lookup"><span data-stu-id="cf2b8-108">Log into Financial Reporter Report Designer</span></span>
+1. <span data-ttu-id="5ff1d-110">Pierakstieties rīkā Financial Reporter Report Designer.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-110">Sign in to Financial Reporter Report Designer.</span></span>
+2. <span data-ttu-id="5ff1d-111">Izveidojiet jaunu koka definīciju.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-111">Create a new tree definition.</span></span> <span data-ttu-id="5ff1d-112">Go to **Fails > Jauns > Koka definīcija**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-112">Go to **File > New > Tree Definition**.</span></span>
+3. <span data-ttu-id="5ff1d-113">Veiciet dubultklikšķi kolonnas **Vienības drošība** rindā **Kopsavilkums**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-113">Double-click the **Summary** line in the **Unit Security** column.</span></span>
+4. <span data-ttu-id="5ff1d-114">Atlasiet **Lietotāji un grupas**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-114">Select **Users and Groups**.</span></span>  
+5. <span data-ttu-id="5ff1d-115">Atlasiet lietotājus vai grupu, kam vajadzīga piekļuve šim pārskatam.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-115">Select the users or groups that need access to this report.</span></span> 
+6. <span data-ttu-id="5ff1d-116">Atlasiet **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-116">Select **Save**.</span></span>
+7. <span data-ttu-id="5ff1d-117">Pārskata definīcijā pievienojiet jaunu koka definīciju.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-117">In the report definition, add your new tree definition.</span></span>
+8. <span data-ttu-id="5ff1d-118">Koka definīcijā atlasiet **Iestatījums**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-118">In the tree definition, select **Setting**.</span></span> <span data-ttu-id="5ff1d-119">Sadaļā **Pārskata vienību atlase** atlasiet **Iekļaut visas vienības**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-119">Under **Reporting unit selection**, select **Include all units**.</span></span>
 
-2.  <span data-ttu-id="cf2b8-109">Izveidojiet jaunu koka definīciju (Fails | Jauns | Koka definīcija) a.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-109">Create a new Tree Definition (File | New | Tree Definition) a.</span></span>    <span data-ttu-id="cf2b8-110">Veiciet dubultklikšķi kolonnas **Vienības drošība** rindā **Kopsavilkums**.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-110">Double-click the **Summary** line in the **Unit Security** column.</span></span>
-  <span data-ttu-id="cf2b8-111">i.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-111">i.</span></span>    <span data-ttu-id="cf2b8-112">Noklikšķiniet uz Lietotāji un grupas.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-112">Click Users and Groups.</span></span>  
-          <span data-ttu-id="cf2b8-113">1. Atlasiet lietotājus vai grupu, kas vēlas piekļūt šim pārskatam.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-113">1.    Select the User(s) or Group that would like to access this report.</span></span> 
-          
-<span data-ttu-id="cf2b8-114">[![lietotāja ekrāns](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-114">[![user screen](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span></span>
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a><span data-ttu-id="5ff1d-120">Kā var noteikt, kuri konti neatbilst manām bilancēm?</span><span class="sxs-lookup"><span data-stu-id="5ff1d-120">How do I identify which accounts do not match my balances?</span></span>
 
-<span data-ttu-id="cf2b8-115">[![drošības ekrāns](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-115">[![security screen](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span></span>
+<span data-ttu-id="5ff1d-121">Ja jums ir pārskats, kurā nav saskaņotu bilanču, tālāk norādītas dažas darbības, ko varat veikt, lai identificētu šos kontus un novirzes.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-121">If you have a report that doesn't have matching balances, here are some steps you can take to identify each of the accounts and variances.</span></span> 
 
-  <span data-ttu-id="cf2b8-116">b.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-116">b.</span></span>    <span data-ttu-id="cf2b8-117">Noklikšķiniet uz **Saglabāt**.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-117">Click **Save**.</span></span>
-  
-<span data-ttu-id="cf2b8-118">[![poga Saglabāt](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-118">[![save button](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span></span>
+<span data-ttu-id="5ff1d-122">**Financial Reporter Report Designer**</span><span class="sxs-lookup"><span data-stu-id="5ff1d-122">**Financial Reporter Report Designer**</span></span>
+1. <span data-ttu-id="5ff1d-123">Rīkā Financial Reporter Report Designer izveidojiet jaunu rindas definīciju.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-123">In Financial Reporter Report Designer, create a new row definition.</span></span> 
+2. <span data-ttu-id="5ff1d-124">Atlasiet **Rediģēt > Ievietot rindas no dimensijām**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-124">Select **Edit > Insert Rows from Dimensions**.</span></span>
+3. <span data-ttu-id="5ff1d-125">Atlasiet **MainAccount**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-125">Select **MainAccount**.</span></span>  
+4. <span data-ttu-id="5ff1d-126">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-126">Select **OK**.</span></span>
+5. <span data-ttu-id="5ff1d-127">Saglabājiet rindas definīciju.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-127">Save the row definition.</span></span>
+6. <span data-ttu-id="5ff1d-128">Jaunas kolonnas definīcijas izveide</span><span class="sxs-lookup"><span data-stu-id="5ff1d-128">Create a new column definition</span></span>
+7. <span data-ttu-id="5ff1d-129">Izveidojiet jaunu pārskata definīciju.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-129">Create a new report definition.</span></span>
+8. <span data-ttu-id="5ff1d-130">Atlasiet **Iestatījumi** un noņemiet atzīmi šai opcijai.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-130">Select **Settings** and unmark this option.</span></span>  
+9. <span data-ttu-id="5ff1d-131">Ģenerējiet pārskatu.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-131">Generate the report.</span></span> 
+10. <span data-ttu-id="5ff1d-132">Eksportējiet pārskatu uz Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-132">Export the report to Microsoft Excel.</span></span>
 
-3.  <span data-ttu-id="cf2b8-119">Pārskata definīcijā pievienojiet jaunu koka definīciju</span><span class="sxs-lookup"><span data-stu-id="cf2b8-119">In your Report Definition add your new Tree Definition</span></span>
+<span data-ttu-id="5ff1d-133">**Dynamics 365 Finance**</span><span class="sxs-lookup"><span data-stu-id="5ff1d-133">**Dynamics 365 Finance**</span></span> 
+1. <span data-ttu-id="5ff1d-134">Programmā Dynamics 365 Finance dodieties uz **Virsgrāmata > Pieprasījumi un pārskati > Apgrozījuma bilance**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-134">In Dynamics 365 Finance, go to **General Ledger > Inquiries and Reports > Trial Balance**.</span></span>
+2. <span data-ttu-id="5ff1d-135">Iestatiet šādus parametrus:</span><span class="sxs-lookup"><span data-stu-id="5ff1d-135">Set the following parameters:</span></span>
+   - <span data-ttu-id="5ff1d-136">**Sākuma datums** — ievadiet finanšu gada sākumu.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-136">**From Date** - Enter the start of the fiscal year.</span></span>
+   - <span data-ttu-id="5ff1d-137">**Beigu datums** — ievadiet datumu, kuram ģenerējat pārskatu.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-137">**To Date** - Enter the date you are generating the report for.</span></span>
+   - <span data-ttu-id="5ff1d-138">**Finanšu dimensija** — iestatiet šo lauku kā **Galvenā konta kopa**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-138">**Financial Dimension** - Set this field to **Main Account set**.</span></span>
+ 3. <span data-ttu-id="5ff1d-139">Atlasiet **Aprēķināt**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-139">Select **Calculate**.</span></span>
+ 4. <span data-ttu-id="5ff1d-140">Eksportējiet pārskatu uz Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-140">Export the report to Microsoft Excel.</span></span>
 
-<span data-ttu-id="cf2b8-120">[![koka definīcijas forma](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-120">[![tree definition form](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span></span>
-
-<span data-ttu-id="cf2b8-121">A.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-121">A.</span></span>  <span data-ttu-id="cf2b8-122">Koka definīcijas sadaļā noklikšķiniet uz Iestatījums un sadaļā “Pārskata vienību atlase” atzīmējiet “Iekļaut visas vienības”</span><span class="sxs-lookup"><span data-stu-id="cf2b8-122">While in the Tree Definition click on Setting and under “Reporting unit selection” check “Include all units”</span></span>
-
-<span data-ttu-id="cf2b8-123">[![pārskata vienības atlases forma](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-123">[![reporting unit selection form](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span></span>
-
-<span data-ttu-id="cf2b8-124">**Pirms:** [![pirms ekrānuzņēmuma](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-124">**Before:** [![before screenshot](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span></span>
-
-<span data-ttu-id="cf2b8-125">**Pēc:** [![pēc ekrānuzņēmuma](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-125">**After:** [![after screenshot](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span></span>
-
-<span data-ttu-id="cf2b8-126">Piezīme. Iepriekš minētā ziņojuma iemesls ir: lietotājam nav piekļuves šim pārskatam pēc vienības drošības lietošanas</span><span class="sxs-lookup"><span data-stu-id="cf2b8-126">Note: Reason for the above message is my user does not have access to that report after applying Unit Security</span></span>
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a><span data-ttu-id="cf2b8-127">Kā var noteikt, kuri konti neatbilst manām bilancēm pakalpojumā D365?</span><span class="sxs-lookup"><span data-stu-id="cf2b8-127">How do I determine which account(s) do not matching my balances in D365?</span></span>
-
-<span data-ttu-id="cf2b8-128">Ja jums ir pārskats, kas neatbilst tam, ko varētu sagaidīt pakalpojumā D365, tālāk norādītas dažas darbības, ko varat veikt, lai identificētu šos kontus un novirzes.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-128">When you have a report that doesn't match what you would expect in D365, here are some steps you could take to identify those accounts and the variances.</span></span> 
-
-### <a name="in-financial-reporter-report-designer"></a><span data-ttu-id="cf2b8-129">Finanšu pārskatu veidotājā</span><span class="sxs-lookup"><span data-stu-id="cf2b8-129">In Financial Reporter Report Designer</span></span>
-
-1.  <span data-ttu-id="cf2b8-130">Izveidojiet jaunu rindas definīciju a.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-130">Create a new Row Definition a.</span></span>    <span data-ttu-id="cf2b8-131">Noklikšķiniet uz Rediģēt | Ievietot rindas no dimensijām i.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-131">Click Edit | Insert Rows from Dimensions i.</span></span>  <span data-ttu-id="cf2b8-132">Atlasiet MainAccount [![Atlasiet galveno ekrānu](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-132">Select MainAccount [![Select Main screen_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span></span>
-    
-    <span data-ttu-id="cf2b8-133">ii.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-133">ii.</span></span> <span data-ttu-id="cf2b8-134">Noklikšķiniet uz Labi b.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-134">Click Ok b.</span></span>    <span data-ttu-id="cf2b8-135">Saglabājiet rindas definīciju</span><span class="sxs-lookup"><span data-stu-id="cf2b8-135">Save the Row Definition</span></span>
-
-2.  <span data-ttu-id="cf2b8-136">Izveidojiet jaunu kolonnas definīciju     [![Izveidojiet jaunu kolonnas definīciju](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-136">Create a new Column Definition     [![Create a new column definition](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span></span>
-
-3.  <span data-ttu-id="cf2b8-137">Izveidojiet jaunu pārskata definīciju a.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-137">Create a new Report Definition a.</span></span>    <span data-ttu-id="cf2b8-138">Noklikšķiniet uz iestatījumiem un noņemiet atzīmi no [![Iestatījumu formas](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-138">Click Settings and uncheck [![Settings form](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span></span>
-   
-4.  <span data-ttu-id="cf2b8-139">Ģenerējiet pārskatu.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-139">Generate the Report.</span></span> 
-
-5.  <span data-ttu-id="cf2b8-140">Eksportējiet pārskatu uz programmu Excel.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-140">Export the Report to Excel.</span></span>
-
-### <a name="in-d365"></a><span data-ttu-id="cf2b8-141">Pakalpojumā D365:</span><span class="sxs-lookup"><span data-stu-id="cf2b8-141">In D365:</span></span> 
-1.  <span data-ttu-id="cf2b8-142">Noklikšķiniet uz Virsgrāmata | Pieprasījumi un pārskati | Apgrozījuma bilance a.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-142">Click General Ledger | Inquiries and Reports | Trial Balance a.</span></span>    <span data-ttu-id="cf2b8-143">Parametri i.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-143">Parameters i.</span></span>  <span data-ttu-id="cf2b8-144">Sākuma datums: finanšu gada sākums ii.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-144">From Date: Start of Fiscal Year ii.</span></span> <span data-ttu-id="cf2b8-145">Beigu datums: datums, kam ģenerēts pārskats iii.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-145">To Date: Date you generated the report for iii.</span></span>    <span data-ttu-id="cf2b8-146">Finanšu dimensijas kopa “Galvenā konta kopa” [![Galvenā konta forma](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span><span class="sxs-lookup"><span data-stu-id="cf2b8-146">Financial Dimension Set “Main Account set” [![Main Account Form](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span></span>
-      
-  <span data-ttu-id="cf2b8-147">b.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-147">b.</span></span>    <span data-ttu-id="cf2b8-148">Noklikšķiniet uz Aprēķināt</span><span class="sxs-lookup"><span data-stu-id="cf2b8-148">Click Calculate</span></span>
-
-2.  <span data-ttu-id="cf2b8-149">Eksportējiet pārskatu uz programmu Excel</span><span class="sxs-lookup"><span data-stu-id="cf2b8-149">Export the report to Excel</span></span>
-
-<span data-ttu-id="cf2b8-150">Tagad vajadzētu būt iespējai no FR Excel pārskata kopēt datus uz D365 apgrozījuma bilances pārskatu un salīdzināt kolonnas “Beigu bilance”.</span><span class="sxs-lookup"><span data-stu-id="cf2b8-150">You should now be able to copy the data from the FR Excel Report and to the D365 Trial Balance report and compare the “Closing Balance” columns.</span></span>
-
+<span data-ttu-id="5ff1d-141">Tagad vajadzētu būt iespējai no Finanšu pārskatu Excel pārskata kopēt datus uz apgrozījuma bilances pārskatu, lai varat salīdzināt kolonnas **Beigu bilance**.</span><span class="sxs-lookup"><span data-stu-id="5ff1d-141">You should now be able to copy the data from the Financial Reporter Excel report to the Trial Balance report, so you can compare the **Closing Balance** columns.</span></span>
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

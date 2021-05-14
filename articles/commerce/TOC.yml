@@ -94,12 +94,12 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.19 (2021.\_gada jūlijs)"
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: "Commerce 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: "Commerce 10.0.17 (2021.\_gada aprīlis)"
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: "Commerce 10.0.16 (2021.\_februāris)"
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Power Apps pamatnes programmu iegulšana
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Trešās puses programmu iegulšana
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Informācijas meklēšana, izmantojot uzmeklēšanu'
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Sesijas datuma maiņa
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station konfigurēšana un instalēšana
                   href: retail-hardware-station-configuration-installation.md
+                - name: Plaša apzīmogoto Commerce patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Plaša mantotā patstāvīgi izmantojamā pakalpojuma komponentu izvietošana
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce komponentu notikumi diagnostikai un problēmu novēršanai
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Ierīces aktivizēšana pielāgotajā Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: 'Azure Active Directory autentifikācijas iespējošana, lai veiktu pierakstīšanos POS'
+                    - name: 'Azure Active Directory autentifikācijas konfigurēšana, lai veiktu pierakstīšanos POS'
                       href: aad-pos-logon.md
                     - name: Preču un klientu meklēšana punktā POS
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Piegādes atlaides pārskats
                   href: retail-shipping-discount.md
+                - name: Dāvanu ar pirkšanas veicināšanas pasākumiem konfigurēšana
+                  href: gift-with-purchase.md
                 - name: Kuponu iestatīšana
                   href: retail-coupons.md
                 - name: Atlaižu rādīšana punktā POS
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Nepārtrauktības programmu pārdošana un pārdošanas pasūtījumu apstrāde
                   href: tasks/use-continuity-program.md
+                - name: Debitora reģistrēšanās paziņojumu iespējošana pārdošanas punktā (POS)
+                  href: enable-customer-check-in.md
             - name: Atgriešana
               items:
                 - name: Saistītās atmaksas
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Atteikšanās no tīmekļa aktivitāšu notikumu apkopošanas
                   href: web-activity-opt-out.md
+                - name: Mērvienības iestatījumu lietošana
+                  href: unit-of-measure.md
             - name: Vietnes satura pārvaldība
               items:
                 - name: Satura pievienošanas veidi
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Saņemšanas informācijas modulis
                       href: pickup-info-module.md
+                    - name: Reģistrēšana saņemšanas modulim
+                      href: check-in-pickup-module.md
                     - name: Pasūtījumu informācijas modulis
                       href: order-confirmation-module.md
                     - name: Dāvanu kartes modulis
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Nesenības, biežuma un monetārās (RFM) analīzes iestatīšana'
               href: set-up-rfm-analysis.md
+            - name: Programmas Microsoft Clarity iestatīšana programmā Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: Globalizācija
           items:
             - name: Commerce kanāla fiskālās integrācijas pārskats
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Lietotāja definēti sertifikātu profili mazumtirdzniecības veikaliem
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Regulatory configuration service pārskats
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: "Regulatory configuration service\_— globalizācijas līdzekļi"
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory configuration service un to augšupielāde globālajā repozitorijā
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Austrija
               items:
                 - name: Fiskālās reģistrācijas pakalpojuma integrācijas paraugs Austrijai
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Moduļa props.autogenerated.ts fails
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Moduļa konfigurācijas sākotnējie iestatījumi
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Moduļu izstrāde
                   items:
                     - name: Jauna moduļa izveide
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Pielāgotu pogu pievienošana POS virsraksta joslai
                   href: dev-itpro/pos-header-bar.md
+                - name: NO POS neatkarīga iepakojuma SDK
+                  items:
+                    - name: POS paplašinājuma apskats
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Darba sākšana ar POS paplašinājumiem
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: POS paplašinājuma pakotnes projekta izveide
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Modern POS paplašinājuma programmas appx faila izveide
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: POS paplašinājuma atkļūdošana
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Hardware Station paplašināmība
               items:
                 - name: Hardware Station un paplašināmība

@@ -14,12 +14,12 @@
               items:
                 - name: "Jaunumi un izmaiņas Platform atjauninājumos\_— sākumlapa"
                   href: get-started/whats-new-home-page.md
+                - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūlijs)"
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: "Platform atjauninājumi versijai\_10.0.18 (2021.\_gada maijs)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: "Platform atjauninājumi versijai\_10.0.17 (2021.\_gada aprīlis)"
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: "Platform atjauninājumi versijai\_10.0.16 (2021.\_gada februāris)"
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -303,19 +303,19 @@
                         - name: Project Service Automation integrācijas konfigurēšana
                           items:
                             - name: Project Service Automation pārskats
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Project Service Automation integrācijas parametri
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Projekta līgumu un projektu sinhronizēšana
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Projekta uzdevumu sinhronizēšana
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Projekta izdevumu kategoriju sinhronizēšana
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Projekta aprēķinu sinhronizēšana no projekta prognozēm
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Ārējo tīmekļa pakalpojumu patērēšana
               href: data-entities/consume-external-web-service.md
             - name: Elektroniskā ziņojumapmaiņa
@@ -691,7 +691,7 @@
                     - name: Modeļu un datu modeļa elementu izveides pārskats
                       href: dev-tools/create-data-model-elements.md
                     - name: Nosaukumdošanas vadlīnijas paplašinājumiem
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Modeļu pielāgošanas izslēgšana un funkcionalitātes atzīšana par novecojušu
                       href: dev-tools/lock-models.md
                 - name: Pielāgojumu analizētāja pārskats
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Jaunumi un izmaiņas portālā Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Zināmās problēmas
-                  href: lifecycle-services/known-issues.md
                 - name: Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services lietotāja rokasgrāmata
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Regression Suite Automation Tool izmantošana
               href: perf-test/rsat/rsat-run.md
+            - name: Pārbaudes gadījumu uzturēšana rīkā Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Paredzēto vērtību pārbaude
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Ķēdes testpiemēri
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Atvasinātie testpiemēri
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Parametru failu jaunināšana
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Regression Suite Automation Tool apmācība
               href: perf-test/rsat/rsat-tutorial.md
             - name: 'To lietotāju konfigurēšana, kas nav administratori'
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs, izmantojot DACPAC procesu"
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Jaunināšana no AX 2012 — SQL darbību replicēšana
+                  href: database/replication-setup.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: "AX 2012 jaunināšana\_— Lokālas vides"
