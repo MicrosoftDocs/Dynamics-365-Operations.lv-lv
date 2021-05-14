@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813487"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890333"
 ---
 # <a name="finance-home-page"></a>Finance mājas lapa
 
@@ -38,11 +38,11 @@ Atlasiet kāda līdzekļa apgabalu, lai par to uzzinātu vairāk.
         - [Izmaksu uzskaite](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Izdevumu pārvaldība](expense-management/expense-management.md)
-        - [Finanšu pārskatu veidošana](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Izdevumu pārvaldība](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Finanšu pārskatu veidošana](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Pamatlīdzekļi](fixed-assets/fixed-assets.md)
         - [Virsgrāmata un finanšu atskaišu veidošana](general-ledger/general-ledger.md) 
-        - [Projektu pārvaldība un uzskaite](project-management/overview-project-management-accounting.md)
+        - [Projektu pārvaldība un uzskaite](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Publiskais sektors](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Apskatiet video pamācības, kas tagad ir pieejamas [Microsoft Dynamics 365 You
 
 ### <a name="countryregion-functionality"></a>Valsts/reģiona funkcionalitāte
 
-Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem. Skatiet palīdzības satura sadaļu [Lokalizācija un regulēšanas līdzekļi](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), lai uzzinātu par valsts/reģiona funkcionalitāti.
+Nodokļu iestatīšana un citas finanšu pārvaldības jomas ir atkarīgas no valsts/reģiona normatīvajiem aktiem. Skatiet palīdzības satura sadaļu [Lokalizācija un regulēšanas līdzekļi](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json), lai uzzinātu par valsts/reģiona funkcionalitāti.
 
 ### <a name="additional-content"></a>Papildu saturs
 
@@ -73,6 +73,6 @@ Piegādes ķēdes pārvaldības funkcionalitātē ietilpst piegādes–apmaksas 
 
 ## <a name="elearning-courses"></a>Elektronisko mācību kursi
 
-Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platformā Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Informāciju par tiešsaistes kursiem un apmācību skatiet šeit: [Dynamics 365 Finance platformā Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

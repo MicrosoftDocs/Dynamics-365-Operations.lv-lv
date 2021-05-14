@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827726"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898140"
 ---
 # <a name="accounts-receivable-home-page"></a>Moduļa “Debitoru parādi” sākumlapa
 
@@ -39,61 +39,45 @@ Jūs varat izveidot debitoru rēķinus, kuru pamatā ir pārdošanas pasūtījum
 
 Lai izsekotu debitoru rēķinus un maksājumus, ko saņemat no debitoriem, izmantojiet moduli Debitori. Varat iestatīt debitoru grupas, debitorus, grāmatošanas metodes, procentu paziņojumus, atgādinājuma vēstules, komisijas un ar debitoriem saistītos parametrus, maksas, piegādes un adresātus, kā arī vekseļus un citu veidu debitoru informāciju. 
 
-:::row:::
-    :::column:::
-        - [Uzskaites sadales un apakšgrāmatas žurnālu ieraksti brīva teksta rēķiniem](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Debitoru grāmatošanas metodes](customer-posting-profiles.md)
-        - [Kredītkartes iestatīšana, autorizēšana un nolasīšana](credit-card-authorizations.md)
-        - [Debitora rēķina izveide](configure-customer-invoices.md)
-        - [Periodisku rēķinu iestatīšana un apstrādāšana](set-up-process-recurring-invoices.md)
-        - [Brīva teksta rēķina labošana](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [Vekseļu iestatīšana](set-up-bills-exchange.md)
-        - [Procentu likmju iestatīšana interešu kodam](set-up-interest-rates-interest-code.md)
-        - [Procentu maksu atcelšana, atjaunošana vai anulēšana](waive-reinstate-reverse-interest-fees.md)
-        - [SEPA tiešā debeta apskats](sepa-direct-debit-overview.md)
-        - [SEPA tiešā debeta pilnvarojuma iestatīšana](sepa-direct-debit-mandate.md)
-        - [Moduļa “Debitoru parādi” slēgšana](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Uzskaites sadales un apakšgrāmatas žurnālu ieraksti brīva teksta rēķiniem](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Debitoru grāmatošanas metodes](customer-posting-profiles.md)
+- [Kredītkartes iestatīšana, autorizēšana un nolasīšana](credit-card-authorizations.md)
+- [Debitora rēķina izveide](configure-customer-invoices.md)
+- [Periodisku rēķinu iestatīšana un apstrādāšana](set-up-process-recurring-invoices.md)
+- [Brīva teksta rēķina labošana](correct-free-text-invoice.md)
+- [Vekseļu iestatīšana](set-up-bills-exchange.md)
+- [Procentu likmju iestatīšana interešu kodam](set-up-interest-rates-interest-code.md)
+- [Procentu maksu atcelšana, atjaunošana vai anulēšana](waive-reinstate-reverse-interest-fees.md)
+- [SEPA tiešā debeta apskats](sepa-direct-debit-overview.md)
+- [SEPA tiešā debeta pilnvarojuma iestatīšana](sepa-direct-debit-mandate.md)
+- [Moduļa “Debitoru parādi” slēgšana](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>Kredīta un iekasēšanas iestatīšana
 
 Debitoru iekasēšanas informācija tiek pārvaldīta vienā centrālā skatā — lapā Iekasēšana. Kredīta un iekasēšanas vadītāji šo centrālo skatu var izmantot, lai pārvaldītu iekasēšanu. Iekasēšanas aģenti var uzsākt iekasēšanas procesu, izmantojot debitoru sarakstus, kas tiek ģenerēti, izmantojot iepriekš definētus iekasēšanas kritērijus, vai lapu Debitori.
 
-[Kredīts un iekasēšana modulī “Debitoru parādi”](collections-credit-accounts-receivable.md)
-
-[Moduļu Debitori un Kredīts un iekasēšana konfigurēšana](accounts-receivables-set-up-overview.md)
-
-[Kredīta un iekasēšanas iestatīšana](set-up-collections.md)
+- [Kredīts un iekasēšana modulī “Debitoru parādi”](collections-credit-accounts-receivable.md)
+- [Moduļu Debitori un Kredīts un iekasēšana konfigurēšana](accounts-receivables-set-up-overview.md)
+- [Kredīta un iekasēšanas iestatīšana](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Maksājumu un segšanas iestatīšana
 
 Pieņemiet dažādu veidu maksājumus no debitoriem, piemēram, vekseļus, skaidru naudu, čekus, kredītkartes un elektroniskos maksājumus. 
 
-:::row:::
-    :::column:::
-        - [Lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Centralizētie maksājumi modulim “Debitoru parādi”](centralized-payments-accounts-receivable.md)
-        - [Daļēja debitora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Daļēja debitora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [Nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Atlīdzināšana debitoriem](reimburse-customers.md)
-        - [Debitoru maksājumi par daļēju summu](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Lietot viena debitora maksājumu, lai nosegtu vairākus rēķinus ar vairākiem atlaižu periodiem](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [Centralizētie maksājumi modulim “Debitoru parādi”](centralized-payments-accounts-receivable.md)
+- [Daļēja debitora maksājuma un gala maksājuma pilnā apmērā segšana pirms atlaižu piemērošanas datuma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [Daļēja debitora maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [Nosegt daļēju debitora maksājumu, kam ir atlaides kredīta notām](settle-partial-customer-payment-discounts-credit-notes.md)
+- [Nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi](settle-partial-customer-payment-multiple-discount-periods.md)
+- [Atlīdzināšana debitoriem](reimburse-customers.md)
+- [Debitoru maksājumi par daļēju summu](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>Papildu resursi
 
 #### <a name="whats-new-and-in-development"></a>Jaunumi un drīzumā gaidāmais
 
-Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 rīcības plānu](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Lai uzzinātu, kādus jaunus līdzekļus plānots ieviest, skatiet [Microsoft Dynamics 365 rīcības plānu](/dynamics365/release-plans/). 
 
 #### <a name="blogs"></a>Emuāri
 

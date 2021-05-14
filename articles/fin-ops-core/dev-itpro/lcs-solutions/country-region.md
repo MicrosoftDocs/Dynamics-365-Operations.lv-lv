@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748469"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920861"
 ---
 # <a name="globalization-resources"></a>Globalizācijas resursi
 
 ## <a name="local-and-regional-deployments"></a>Vietējā un reģionālā izvietošana
 Ja jūsu valdības noteikumi nosaka citādu datu glabāšanu vai apkalpošanu nekā tas nepieciešams citām valstīm/reģioniem, iespējams, pastāv valsts/reģiona prasības, kas jāņem vērā izvietošanas laikā. Izskatiet tālāk norādītos resursus, kas var attiekties uz jums.
 
-[Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations programmu darbību nodrošina 21Vianet Ķīnā](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalizācijas un normatīvie līdzekļi
 
@@ -60,7 +60,7 @@ Tālāk norādītajos resursos ir sniegta informācija par plānotajiem un jauna
 -   [Brīdinājumu iesniegšana par valstij/reģionam specifiskiem normatīviem līdzekļiem](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 laidiena plāni
-[Dynamics 365 laidiena plāni](https://docs.microsoft.com/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
+[Dynamics 365 laidiena plāni](/business-applications-release-notes/) apraksta jaunas un uzlabotas iespējas, kas paredzētas Dynamics 365 biznesa programmām un programmu platformām. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations lietojumprogrammu jaunumi
 Risinājuma [Finance and Operations jaunumu vai izmaiņu sākumlapā](../../fin-ops/get-started/whats-new-changed.md) uzskaitīti Finance and Operations lietojumprogrammu konkrētajos laidienos iekļautie līdzekļi.
