@@ -84,7 +84,7 @@
               href: dev-tools/version-models-build.md
         - name: Datu integrācija
           items:
-            - name: Datu integrācijas (importa/eksporta) stratēģijas izvēle
+            - name: Finance and Operations programmu un trešo pušu pakalpojumu integrācija
               href: data-entities/integration-overview.md
             - name: Uz prioritāti balstīta ierobežošana
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: 'Ierakstu izveide, izmantojot ierakstu veidnes'
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: 'Datu integrācija, izmantojot Dataverse'
+                - name: Datu integrētājs
                   items:
-                    - name: 'Datu integrācijas, izmantojot Dataverse, pārskats'
-                      href: data-entities/data-integration-cds.md
-                    - name: Duālā ieraksta integrācija
+                    - name: Scenārija “No potenciālā klienta līdz skaidrai naudai” konfigurēšana
                       items:
-                        - name: Duālā ieraksta sākumlapa
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Duālā ieraksta jaunumi un izmaiņas
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Duālā ieraksta pārskats
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Duālā ieraksta iestatīšana
-                          items:
-                            - name: Sistēmas prasības duālajam ierakstam
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Norādījumi par duālā ieraksta iestatīšanu
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Sākotnējās sinhronizācijas apsvērumi
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Duālā ieraksta iestatīšana no Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
-                              items:
-                                - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Sistēmas prasības un priekšnosacījumi
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: 'Kā izmantot duālā ieraksta vedni, lai savienotu vides'
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Iespējot duālā ieraksta elementa karti
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Valūtas datu veida migrācija duālajam ierakstam
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Kartējuma iestatīšana pārdošanas pasūtījuma statusa laukiem
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: 'Starpuzņēmumu pasūtījumu filtrēšana, lai novērstu pasūtījumu un pasūtījumu rindu sinhronizāciju'
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Duālā ieraksta pārvaldība
-                          items:
-                            - name: Elementa un lauka kartējumu pielāgošana
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Vairāku elementu karšu apstrāde
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Juridiskas personas rediģēšana pēc duālā ieraksta iestatīšanas
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Programmas dzīves cikla pārvaldība
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Koncepciju kartēšana starp programmām
-                          items:
-                            - name: Integrētie debitoru pamatdati
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Kreditora integrācija
-                              items:
-                                - name: Integrētie kreditoru pamatdati
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Pārslēgšanās starp kreditoru noformējumiem
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Debitoru lojalitātes programmas kartes un atlīdzības punkti
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Preču integrācija
-                              items:
-                                - name: Vienotā preču pieredze
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Integrētās vietas un noliktavas
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Uzņēmuma integrācija
-                              items:
-                                - name: Uzņēmuma koncepcija pakalpojumā Dataverse
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Uzņēmuma datu inicializēšana
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Organizācijas hierarhija pakalpojumā Dataverse
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Finanšu un nodokļu dati
-                              items:
-                                - name: Piekļuve finanšu un nodokļu atsauces datiem
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Integrētā virsgrāmata
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Integrētie nodokļu pamatdati
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Sagādes integrēšana programmā Supply Chain Management ar Field Service
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Sinhronizēšana pēc pieprasījuma ar Supply Chain Management cenu noteikšanas programmu
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: No potenciālā klienta līdz skaidrai naudai duālajā ierakstā
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: "Izmantot Dynamics 365 Commerce cenu noteikšanas programmu ar Dynamics\_365 Sales"
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Iekšējie līdzekļi apkalpošanai
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Krājumu pieejamība
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Integrēts nodarbinātais, darbs un amats'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Pušu un globālā adrešu grāmata
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Power Portal izmantošana kopā ar pušu datu modeli
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Jaunināšana uz pušu un globālās adrešu grāmatas modeli
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Piezīmju integrācija
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Kartēšanas atsauce
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Atbalsts duālajam ierakstam
-                          items:
-                            - name: Atbalsts Field Service un Project Service Automation risinājumiem
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Moduļa “No potenciālā klients līdz skaidrai naudai” datu migrēšana no datu integrētāja uz duālo ierakstu
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Problēmu novēršana
-                              items:
-                                - name: Duālā ieraksta konfigurācijas pārbaude Finance and Operations programmās un pakalpojumā Dataverse
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Problēmu novēršana sākotnējās iestatīšanas laikā
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Problēmu novēršana sākotnējās sinhronizācijas laikā
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Problēmu novēršana saistībā ar duālo ierakstu Finance and Operations programmās
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Tiešās sinhronizācijas problēmu novēršana
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Problēmu novēršana saistībā ar risinājumu apzināšanu
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Problēmu novēršana saistībā ar Finance and Operations programmu jaunināšanu
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Vispārīgā problēmu novēršana
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Bieži uzdotie jautājumi par duālo ierakstu
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Integrācija ar Power Platform
+                        - name: No potenciālā klienta līdz skaidrai naudai
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Preču sinhronizēšana tieši no Finance and Operations ar precēm risinājumā Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana uz programmu Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Integrācijas konfigurēšana ar Field Service
                       items:
-                        - name: Scenārija “No potenciālā klienta līdz skaidrai naudai” konfigurēšana
-                          items:
-                            - name: No potenciālā klienta līdz skaidrai naudai
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Programmā Sales esošo kontu tieša sinhronizēšana ar debitoriem programmā Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Preču sinhronizēšana tieši no Finance and Operations ar precēm risinājumā Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Programmā Sales ietverto kontaktpersonu tieša sinhronizēšana ar kontaktpersonām vai debitoriem programmā Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Programmā Finance and Operations ietverto pārdošanas piedāvājumu galveņu un rindu tieša sinhronizēšana no programmas Sales
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Pārdošanas pasūtījumu tieša sinhronizēšana no programmas Finance and Operations uz programmu Sales un otrādi
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Programmā Finance and Operations ietverto pārdošanas rēķinu galveņu un rindu tieša sinhronizēšana uz programmu Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Integrācijas konfigurēšana ar Field Service
-                          items:
-                            - name: Integrācijas konfigurēšanas ar Field Service pārskats
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmu Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar krājumu vienību programmā Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Programmā Finance and Operations ietverto projektu saraksta sinhronizēšana ar programmu Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Programmā Finance and Operations ietverto darba pasūtījumu sinhronizēšana ar projektu no programmas Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Project Service Automation integrācijas konfigurēšana
-                          items:
-                            - name: Project Service Automation pārskats
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Project Service Automation integrācijas parametri
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Projekta līgumu un projektu sinhronizēšana
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Projekta uzdevumu sinhronizēšana
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Projekta izdevumu kategoriju sinhronizēšana
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Projekta aprēķinu sinhronizēšana no projekta prognozēm
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Integrācijas konfigurēšanas ar Field Service pārskats
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar precēm programmā Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar pārdošanas pasūtījumiem programmā Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Programmā Field Service ietverto līgumu rēķinu sinhronizēšana ar brīva teksta rēķiniem programmā Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Programmā Field Service ietverto krājumu pārsūtīšanas un korekcijas darbību sinhronizēšana ar programmu Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Programmā Finance and Operations ietverto krājumu līmeņu informācijas sinhronizēšana ar programmu Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Programmā Finance and Operations ietverto preču sinhronizēšana ar krājumu vienību programmā Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Programmā Finance and Operations ietverto projektu saraksta sinhronizēšana ar programmu Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Programmā Finance and Operations ietverto noliktavu sinhronizēšana ar programmu Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Programmā Finance and Operations ietverto darba pasūtījumu sinhronizēšana ar projektu no programmas Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation integrācijas konfigurēšana
+                      items:
+                        - name: Project Service Automation pārskats
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automation integrācijas parametri
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Projekta līgumu un projektu sinhronizēšana
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Projekta uzdevumu sinhronizēšana
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Projekta izdevumu kategoriju sinhronizēšana
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Projekta aprēķinu sinhronizēšana no projekta prognozēm
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Projekta faktisko summu sinhronizēšana ar projekta integrācijas žurnālu
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Ārējo tīmekļa pakalpojumu patērēšana
               href: data-entities/consume-external-web-service.md
             - name: Elektroniskā ziņojumapmaiņa
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: 'Problēmu novēršana vidēs, kas izvietotas, izmantojot patstāvīgi izmantojama pakalpojuma izvietošanu'
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Bieži uzdotie jautājumi par plānoto uzturēšanu pašapkalpošanās vidēs
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Azure Resource Manager pievienošanas pabeigšana
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute un Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Microsoft Power Platform integrācija ar Finance and Operations
               href: power-platform/overview.md
+            - name: Duālais ieraksts
+              items:
+                - name: Duālā ieraksta sākumlapa
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Duālā ieraksta jaunumi un izmaiņas
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Duālā ieraksta pārskats
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Duālā ieraksta iestatīšana
+                  items:
+                    - name: Sistēmas prasības duālajam ierakstam
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Norādījumi par duālā ieraksta iestatīšanu
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Sākotnējās sinhronizācijas apsvērumi
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Duālā ieraksta iestatīšana no Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
+                      items:
+                        - name: Duālā ieraksta iespējošana esošajām Finance and Operations programmām
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Sistēmas prasības un priekšnosacījumi
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: 'Kā izmantot duālā ieraksta vedni, lai savienotu vides'
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Iespējot duālā ieraksta elementa karti
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Valūtas datu veida migrācija duālajam ierakstam
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Kartējuma iestatīšana pārdošanas pasūtījuma statusa laukiem
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: 'Starpuzņēmumu pasūtījumu filtrēšana, lai novērstu pasūtījumu un pasūtījumu rindu sinhronizāciju'
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Duālā ieraksta pārvaldība
+                  items:
+                    - name: Elementa un lauka kartējumu pielāgošana
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Vairāku elementu karšu apstrāde
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Juridiskas personas rediģēšana pēc duālā ieraksta iestatīšanas
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Kļūdu pārvaldības un brīdinājumu paziņojumi
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Programmas dzīves cikla pārvaldība
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Koncepciju kartēšana starp programmām
+                  items:
+                    - name: Integrētie debitoru pamatdati
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Kreditora integrācija
+                      items:
+                        - name: Integrētie kreditoru pamatdati
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Pārslēgšanās starp kreditoru noformējumiem
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Debitoru lojalitātes programmas kartes un atlīdzības punkti
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Preču integrācija
+                      items:
+                        - name: Vienotā preču pieredze
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Integrētās vietas un noliktavas
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Uzņēmuma integrācija
+                      items:
+                        - name: Uzņēmuma koncepcija pakalpojumā Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: Uzņēmuma datu inicializēšana
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Organizācijas hierarhija pakalpojumā Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Finanšu un nodokļu dati
+                      items:
+                        - name: Piekļuve finanšu un nodokļu atsauces datiem
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Integrētā virsgrāmata
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Integrētie nodokļu pamatdati
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Sagādes integrēšana programmā Supply Chain Management ar Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Sinhronizēšana pēc pieprasījuma ar Supply Chain Management cenu noteikšanas programmu
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: No potenciālā klienta līdz skaidrai naudai duālajā ierakstā
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: "Izmantot Dynamics 365 Commerce cenu noteikšanas programmu ar Dynamics\_365 Sales"
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Iekšējie līdzekļi apkalpošanai
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Krājumu pieejamība
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Integrēts nodarbinātais, darbs un amats'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Pušu un globālā adrešu grāmata
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Power Portal izmantošana kopā ar pušu datu modeli
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Jaunināšana uz pušu un globālās adrešu grāmatas modeli
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Piezīmju integrācija
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Kartēšanas atsauce
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Atbalsts duālajam ierakstam
+                  items:
+                    - name: Atbalsts Field Service un Project Service Automation risinājumiem
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Moduļa “No potenciālā klients līdz skaidrai naudai” datu migrēšana no datu integrētāja uz duālo ierakstu
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Problēmu novēršana
+                      items:
+                        - name: Duālā ieraksta konfigurācijas pārbaude Finance and Operations programmās un pakalpojumā Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Problēmu novēršana sākotnējās iestatīšanas laikā
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Problēmu novēršana sākotnējās sinhronizācijas laikā
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Problēmu novēršana saistībā ar duālo ierakstu Finance and Operations programmās
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Tiešās sinhronizācijas problēmu novēršana
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Problēmu novēršana saistībā ar risinājumu apzināšanu
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Problēmu novēršana saistībā ar Finance and Operations programmu jaunināšanu
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Vispārīgā problēmu novēršana
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Bieži uzdotie jautājumi par duālo ierakstu
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuālie elementi
               items:
+                - name: Virtuālo elementu pārskats
+                  href: power-platform/virtual-entities-overview.md
                 - name: Elementa modelēšana
                   href: power-platform/entity-modeling.md
                 - name: Programmas dzīves cikla pārvaldība
