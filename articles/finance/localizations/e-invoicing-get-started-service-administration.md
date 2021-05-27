@@ -2,7 +2,7 @@
 title: Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu
 description: Šajā tēmā ir paskaidrots, kā sākt darbu ar Elektronisko rēķinu izrakstīšanu.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840152"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980980"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu
 
@@ -33,10 +33,10 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 - Jums ir jābūt piekļuvei jūsu Microsoft Dynamics Lifecycle Services (LCS) kontam.
 - Jums jābūt LCS projektam, kas ietver Microsoft Dynamics 365 Finance un Dynamics 365 Supply Chain Management programmu versiju 10.0.17 vai jaunāku. Turklāt šīs programmas ir jāizvieto vienā no tālāk minētajām Azure ģeogrāfiskām vietām:
 
-    - ASV austrumi
-    - ASV rietumi
-    - Ziemeļeiropa
-    - Rietumeiropa
+    - ASV
+    - Eiropa
+    - Apvienotā Karaliste
+    - Āzija
 
 - Jums ir jābūt piekļuvei jūsu Dynamics 365 Regulatory Configuration Services (RCS) kontam.
 - Jums jāaktivizē Globalizācijas līdzeklis jūsu RCS kontā Līdzekļu pārvaldībā. Papildinformāciju skatiet sadaļā [Regulatory Configuration Services (RCS) — Globalizācijas līdzekļi](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 1. Piesakieties savā LCS kontā.
 2. Atlasiet **Priekšskatījuma līdzekļu pārvaldības** elementu.
-3. Sadaļā **Publiskā priekšskatījuma līdzekļi** atlasiet **e-rēķinu izrakstīšanas pakalpojumu**.
+3. Sadaļā **Publiskā priekšskatījuma līdzekļi** atlasiet **Elektronisko rēķinu izrakstīšanu**.
 4. Pārliecinieties, vai opcija **Priekšskatījuma līdzeklis iespējots** ir iestatīta uz **Jā**.
-5. LCS informācijas panelī atlasiet savu LCS izvietošanas projektu. LCS projektam jādarbojas.
-7. Cilnē **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
-8. Izvēlieties **e-rēķinu pakalpojumus**.
+5. LCS projekta informācijas panelī atlasiet LCS projektu.
+6. LCS projekta LCS vides informācijas panelī atlasiet LCS izvietošanas projektu. LCS izvietošanas projektam jādarbojas.
+7. Cilnes **Power Platform integrācija** lauku grupā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+8. Atlasiet **Elektronisko rēķinu izrakstīšana**.
 9. Laukā **AAD pieteikuma ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī ir fiksēta vērtība.
 10. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta nomnieka ID.
 11. Pārskatiet noteikumus un nosacījumus un atzīmējiet izvēles rūtiņu.
@@ -65,10 +66,10 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
     | Datacenter Azure ģeogrāfija | Pakalpojuma galapunkta URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | ASV austrumi                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | ASV rietumi                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Ziemeļeiropa                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Rietumeiropa                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | ASV              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Eiropa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Apvienotā Karaliste             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Āzija                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. Pārbaudiet, vai **Lietojumprogrammas Id** lauks ir iestatīts uz **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Šī vērtība ir fiksēta vērtība.
 5. Laukā **LCS vides Id** ievadiet jūsu LCS vides ID.
@@ -152,12 +153,12 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 1. Dodieties uz **Organizācijas administrēšana \> Iestatījumi \> Elektronisko dokumentu parametri**.
 2. Cilnē **Iesniegšanas pakalpojums** laukā **Pakalpojuma galapunkta URL** ievadiet atbilstoši azure ģeogrāfijas pakalpojuma galapunktu, kā norādīts tālāk sniegtajā tabulā.
 
-    | Datacenter Azure ģeogrāfija | Pakalpojuma galapunkta URL                                                       |
+    | Datacenter Azure ģeogrāfija | Pakalpojuma galapunkta URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | ASV austrumi                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | ASV rietumi                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Ziemeļeiropa                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Rietumeiropa                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | ASV              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Eiropa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Apvienotā Karaliste             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Āzija                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Laukā **Vide** ievadiet pakalpojumu vides nosaukumu, kas publicēts elektronisko rēķinu izrakstīšanā.
 4. Atlasiet **Saglabāt** un pēc tam aizveriet lapu.

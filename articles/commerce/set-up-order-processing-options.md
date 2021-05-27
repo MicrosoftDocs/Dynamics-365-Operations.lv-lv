@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5ec0e13c8ecfb6003cbb905e66fc102074e7b9b6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 17ed0adefb2c3dd10e5e6020929c877cf5c3b8c9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795529"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022627"
 ---
 # <a name="set-up-call-center-channels"></a>Zvanu centra kanālu iestatīšana
 
@@ -37,7 +37,7 @@ Lai izmantotu zvanu centra līdzekļus, lietotājiem ir jābūt saistītiem ar z
 
 Zvanu centra kanālam var konfigurēt arī e-pasta paziņojumu profilu. Profils nosaka e-pasta veidņu kopu, kas tiek izmantota, sūtot e-pasta ziņojumu debitoriem, kuri veic pasūtījumus, izmantojot attiecīgo zvanu centra kanālu. E-pasta trigerus var konfigurēt attiecībā pret sistēmas notikumiem, piemēram, pasūtījuma iesniegšanu vai pasūtījuma nosūtīšanu.
 
-Lai pārdošanu varētu pareizi apstrādāt, izmantojot zvanu centra kanālu, šim kanālam ir nepieciešams definēt pareizas [maksāšanas metodes](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) un piegādes veidus.
+Lai pārdošanu varētu pareizi apstrādāt, izmantojot zvanu centra kanālu, šim kanālam ir nepieciešams definēt pareizas [maksāšanas metodes](/dynamics365/unified-operations/retail/work-with-payments) un piegādes veidus.
 
 Zvanu centra kanāla līmenī varat definēt citas noklusējuma vērtības, kas ir saistītas ar finanšu dimensijām, kuras tiks saistītas ar šī kanāla izveidotajiem pasūtījumiem.
 
@@ -47,13 +47,13 @@ Trīs iestatījumiem zvanu centra konfigurācijā ir būtiska ietekme uz līdzek
 
 ### <a name="enable-order-completion"></a>Iespējot pasūtījuma pabeigšanu
 
-Iestatījumam **Iespējot pasūtījuma pabeigšanu** zvanu centra kanālā ir būtiska ietekme uz attiecīgajam kanālam ievadīto pārdošanas pasūtījumu apstrādes plūsmu. Ja šis iestatījums ir ieslēgts, visiem pārdošanas pasūtījumiem ir jāizpilda apstiprināšanas kārtulu kopa, un tikai pēc tam tos var apstiprināt. Šīs kārtulas varat palaist, atlasot pogu **Pabeigt**, kas ir pievienota darbību rūtij šī pārdošanas pasūtījuma lapā. Visiem pārdošanas pasūtījumiem, kas tiek izveidoti, kad iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, ir jāizpilda pasūtījuma pabeigšanas process. Šis process liek izmantot maksājuma tveršanu un maksājuma validēšanas loģiku. Papildus maksājuma realizēšanai pasūtījuma iesniegšanas process var izsaukt [krāpniecības pārbaudes](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts), kuras sistēmā varat konfigurēt. Pasūtījumi, kas neiztur maksājumu vai krāpniecības validācijas, tiek aizturēti, un tos nevar nodot tālākai apstrādāšanai (piemēram, izdošanai vai nosūtīšanai), kamēr nav atrisināta problēma, kas šo aizturēšanu izraisīja.
+Iestatījumam **Iespējot pasūtījuma pabeigšanu** zvanu centra kanālā ir būtiska ietekme uz attiecīgajam kanālam ievadīto pārdošanas pasūtījumu apstrādes plūsmu. Ja šis iestatījums ir ieslēgts, visiem pārdošanas pasūtījumiem ir jāizpilda apstiprināšanas kārtulu kopa, un tikai pēc tam tos var apstiprināt. Šīs kārtulas varat palaist, atlasot pogu **Pabeigt**, kas ir pievienota darbību rūtij šī pārdošanas pasūtījuma lapā. Visiem pārdošanas pasūtījumiem, kas tiek izveidoti, kad iestatījums **Iespējot pasūtījuma pabeigšanu** ir ieslēgts, ir jāizpilda pasūtījuma pabeigšanas process. Šis process liek izmantot maksājuma tveršanu un maksājuma validēšanas loģiku. Papildus maksājuma realizēšanai pasūtījuma iesniegšanas process var izsaukt [krāpniecības pārbaudes](/dynamics365/unified-operations/retail/set-up-fraud-alerts), kuras sistēmā varat konfigurēt. Pasūtījumi, kas neiztur maksājumu vai krāpniecības validācijas, tiek aizturēti, un tos nevar nodot tālākai apstrādāšanai (piemēram, izdošanai vai nosūtīšanai), kamēr nav atrisināta problēma, kas šo aizturēšanu izraisīja.
 
-Kad zvanu centra kanālam ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, ja pārdošanas pasūtījumā tiek ievadīti rindu vienumi un kanāla lietotājs mēģina aizvērt pārdošanas pasūtījuma formu vai aiziet no tās, pirms tam neatlasot vienumu **Pabeigt**, sistēma liek izmantot pasūtījuma pabeigšanas procesu, atverot pārdošanas pasūtījuma kopsavilkuma lapu un pieprasot, lai lietotājs šo pasūtījumu iesniedz pareizi. Ja pasūtījumu nevar pareizi iesniegt kopā ar maksājumu, lietotājs var izmantot funkcionalitāti [pasūtījuma aizturēšanas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds), lai šo pasūtījumu aizturētu. Ja lietotājs mēģina pasūtījumu atcelt, lietotājam tas ir pareizi jāatceļ, izmantojot funkciju Atcelt vai funkciju Dzēst — atkarībā no lietotāja drošības atļautās funkcijas.
+Kad zvanu centra kanālam ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, ja pārdošanas pasūtījumā tiek ievadīti rindu vienumi un kanāla lietotājs mēģina aizvērt pārdošanas pasūtījuma formu vai aiziet no tās, pirms tam neatlasot vienumu **Pabeigt**, sistēma liek izmantot pasūtījuma pabeigšanas procesu, atverot pārdošanas pasūtījuma kopsavilkuma lapu un pieprasot, lai lietotājs šo pasūtījumu iesniedz pareizi. Ja pasūtījumu nevar pareizi iesniegt kopā ar maksājumu, lietotājs var izmantot funkcionalitāti [pasūtījuma aizturēšanas](/dynamics365/unified-operations/retail/work-with-order-holds), lai šo pasūtījumu aizturētu. Ja lietotājs mēģina pasūtījumu atcelt, lietotājam tas ir pareizi jāatceļ, izmantojot funkciju Atcelt vai funkciju Dzēst — atkarībā no lietotāja drošības atļautās funkcijas.
 
 Ja zvanu centra kanālam ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, šim pasūtījumam tiek izsekots lauks **Maksājuma statuss**. Sistēma aprēķina vērtību **Maksājuma statuss**, kad pārdošanas pasūtījums ir iesniegts. Tikai pasūtījumiem, kuriem ir apstiprināts maksājuma statuss, ir atļauts pārvietoties sistēmā papildu pasūtījuma apstrādes darbību veikšanai, piemēram, izdošanai un nosūtīšanai. Ja maksājumi tiek noraidīti, detalizētajā informācijā par pārdošanas pasūtījuma statusu tiek iespējots karodziņš **neapstrādāt**; šādi pasūtījums tiek aizturēts, līdz maksājuma problēma ir atrisināta.
 
-Turklāt, ja ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, kad lietotāji izveido pārdošanas pasūtījumus un ir atvēruši rindas vienuma ievadīšanas režīmu, galvenajā pārdošanas pasūtījuma virsrakstā ir pieejams lauks **Avots**. Lauks **Avots** tiek izmantots, lai tvertu [kataloga pirmkodu](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs) tiešā mārketinga pārdošanas scenārijā. Pēc tam šis kods var vadīt īpašas cenas un reklāmas akcijas.
+Turklāt, ja ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, kad lietotāji izveido pārdošanas pasūtījumus un ir atvēruši rindas vienuma ievadīšanas režīmu, galvenajā pārdošanas pasūtījuma virsrakstā ir pieejams lauks **Avots**. Lauks **Avots** tiek izmantots, lai tvertu [kataloga pirmkodu](/dynamics365/unified-operations/retail/call-center-catalogs) tiešā mārketinga pārdošanas scenārijā. Pēc tam šis kods var vadīt īpašas cenas un reklāmas akcijas.
 
 Pat tad, ja iestatījums **Iespējot pasūtījuma pabeigšanu** ir izslēgts, lietotāji pārdošanas pasūtījumam joprojām var lietot pirmkodu. Taču viņiem vispirms ir jāatver pārdošanas pasūtījuma virsraksta detalizētā informācija, lai piekļūtu laukam **Avots**. Citiem vārdiem sakot, ir jāveic daži papildu klikšķi. Tāda pati uzvedība attiecas uz tādiem līdzekļiem kā nosūtīšanas pabeigšana un paātrinātās izpildes pasūtījumi. Šie līdzekļi ir pieejami visiem pasūtījumiem, kas ir izveidoti šajā zvanu centrā. Taču, kad ir ieslēgts iestatījums **Iespējot pasūtījuma pabeigšanu**, lietotāji var redzēt šo līdzekļu konfigurāciju pārdošanas virsrakstā, kamēr ir ieslēgts rindas ieraksta skats. Viņiem nav nepieciešams detalizēti meklēt pārdošanas pasūtījuma virsraksta informācijā, lai atrastu atbilstošos iestatījumus un laukus.
 

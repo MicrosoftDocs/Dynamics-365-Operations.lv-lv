@@ -2,11 +2,9 @@
 title: Iespējot Dynamics 365 Commerce un Microsoft Teams integrāciju
 description: Šajā tēmā ir aprakstīts, kā aktivizēt Microsoft Dynamics 365 Commerce un Microsoft Teams integrāciju.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908399"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019839"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Iespējot Dynamics 365 Commerce un Microsoft Teams integrāciju
 
@@ -39,9 +37,9 @@ Lai iespējotu Microsoft Teams integrāciju ar commerce, jums Azure portālā ir
 
 Lai reģistrētu programmu Teams savam nomniekam Azure portālā, veiciet tālāk norādītās darbības.
 
-1. Veiciet norādītās darbības sadaļā [Ātrais starts: reģistrējiet programmu Microsoft identitātes platformā](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app), lai reģistrētu programmu Teams kopā ar nomnieku Azure portālā.
+1. Veiciet norādītās darbības sadaļā [Ātrais starts: reģistrējiet programmu Microsoft identitātes platformā](/azure/active-directory/develop/quickstart-register-app), lai reģistrētu programmu Teams kopā ar nomnieku Azure portālā.
 1. Kopējiet **Programmas (klienta) ID** vērtību no reģistrētās programmas **Pārskata** lapas. Šī vērtība tiks izmantota, lai iespējotu Teams integrāciju programmā Commerce Headquarters.
-1. Kopējiet sertifikāta vērtību, kas tika ievadīta, kad [pievienojāt sertifikātu](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) 1. solī. Sertifikāts tiek saukts arī par publisko atslēgu vai programmas atslēgu. Šī vērtība tiks izmantota, lai iespējotu Teams integrāciju programmā Commerce Headquarters.
+1. Kopējiet sertifikāta vērtību, kas tika ievadīta, kad [pievienojāt sertifikātu](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) 1. solī. Sertifikāts tiek saukts arī par publisko atslēgu vai programmas atslēgu. Šī vērtība tiks izmantota, lai iespējotu Teams integrāciju programmā Commerce Headquarters.
 
 Lai iespējotu Teams integrāciju Commerce Headquarters, veiciet tālāk norādītās darbības.
 

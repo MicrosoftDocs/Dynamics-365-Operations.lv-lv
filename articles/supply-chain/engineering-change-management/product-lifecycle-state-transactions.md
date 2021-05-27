@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842061"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016960"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Preču dzīves cikla stāvokļi un darījumi
 
@@ -74,5 +74,24 @@ Lietojiet kopsavilkuma cilni **Iespējotie biznesa procesi**, lai kontrolētu, k
 
 Ja pievienojat papildu cikla stāvokļa nosacījumus kā pielāgošanu, šīs kārtulas varat skatīt lietotāja interfeisā (UI), augšējā rūtī atlasot opciju **Atsvaidzināt procesus**. Poga **Atsvaidzināt procesus** ir pieejama tikai administratoriem.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Dzīves cikla stāvokļi izlaistajām precēm un preču variantiem
+
+Precei, kam ir varianti (šablons un varianti), precei (šablons) būs dzīves cikla stāvoklis, un katram variantam var būt arī cits dzīves cikla stāvoklis.
+
+Specifiskiem procesiem, ja variants vai prece ir bloķēta, arī process tiks bloķēts. It īpaši, lai noteiktu, vai process ir bloķēts, sistēma veiks šādas pārbaudes:
+
+- Inženiertehniski kontrolētām precēm:
+  - Ja pašreizējā inženierzinātnes versija ir bloķēta, bloķējiet procesu.
+  - Ja pašreizējais variants ir bloķēts, bloķējiet procesu.
+  - Ja izlaistā prece ir bloķēta, bloķējiet procesu.
+- Standarta precēm:
+  - Ja pašreizējais variants ir bloķēts, bloķējiet procesu.
+  - Ja izlaistā prece ir bloķēta, bloķējiet procesu.
+
+Piemēram, pieņemsim, ka vēlaties pārdot tikai vienu konkrētās preces (t-krekla) variantu (sarkanu) un pašlaik bloķēt visu pārējo variantu pārdošanu. To var ieviest, izmantojot šādu iestatījumu:
+
+- Piešķiriet precei dzīves cikla stāvokli, kas atļauj procesu. Piemēram, piešķiriet t-krekla precei piešķir *Pārdodams* dzīves cikla stāvokli, kas ļauj veikt *Pārdošanas pasūtījuma* procesu.
+- Piešķiriet pārdodamajam variantam dzīves cikla stāvokli, kas atļauj procesu. Piemēram, sarkanajam variantam piešķir arī dzīves cikla stāvokli *Pārdodams*.
+- Visiem citiem variantiem tiek piešķirts cits dzīves cikla stāvoklis, kur process ir bloķēts. Piemēram, piešķiriet baltu variantu (un visus citus variantus) dzīves cikla stāvokli *Nepārdodams*, kas bloķē *Pārdošanas pasūtījuma* biznesa procesu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

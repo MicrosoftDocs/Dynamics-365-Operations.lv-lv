@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a559bdc8f7851e38274d9d23070f969502942ad8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 68355cb481de210a4a3bdb9e2fce16eca429e3db
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835874"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016059"
 ---
-# <a name="service-object-groups"></a>Pakalpojumu objektu grupas 
+# <a name="service-object-groups"></a>Pakalpojumu objektu grupas
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,17 +32,17 @@ Objektu grupas ir noderīgas, ja pārskata izveides nolūkos vai statistikas nol
 
 Varat izmantot šo grupēšanas metodi, lai norādītu dažādu jūsu uzņēmuma apkalpoto objektu atrašanās vietas. Objektu grupēšana pēc ģeogrāfiskās atrašanās vietas ir noderīga, ja ir jānorāda objekti, kuriem jūsu uzņēmums jau nodrošina pakalpojumus noteiktajā valstī/reģionā.
 
-## <a name="example"></a>Piemērs
+## <a name="example-of-grouping-by-geographical-location"></a>Piemērs grupēšanai pēc ģeogrāfiskās atrašanās vietas
 
-Klients no Beļģijas sazinās ar jūsu apkalpošanas centru un vēlas noslēgt pakalpojumu līgumu attiecībā uz objektu ABC. Visiem Beļģijā apkalpotajiem objektiem esat pievienojis ģeogrāfiskās atrašanās vietas objektu grupu Beļģija. Lietojot šo grupu kā filtru, varat ātri noskaidrot, vai jūsu programmā jau pastāv ieraksts par ABC objektu vai jums būs jāizveido šis ieraksts no jauna. 
+Klients no Beļģijas sazinās ar jūsu apkalpošanas centru un vēlas noslēgt pakalpojumu līgumu attiecībā uz objektu ABC. Visiem Beļģijā apkalpotajiem objektiem esat pievienojis ģeogrāfiskās atrašanās vietas objektu grupu Beļģija. Lietojot šo grupu kā filtru, varat ātri noskaidrot, vai jūsu programmā jau pastāv ieraksts par ABC objektu vai jums būs jāizveido šis ieraksts no jauna.
 
 ## <a name="group-by-type"></a>Grupēt pēc tipa
 
 Šo grupēšanas metodi varat izmantot, lai parādītu, kuriem objektu tipiem jūsu uzņēmums nodrošina pakalpojumus. Objektu grupēšana pēc tipiem var būt noderīga arī tajos gadījumos, ja, piemēram, programmā vēlaties izveidot jaunu objektu, pamatojoties uz lietojumprogrammā esošo objektu, vai arī objektu, kas ir līdzīgs jau esošajam objektam.
 
-## <a name="example"></a>Piemērs
+## <a name="example-of-grouping-by-type"></a>Grupēšanas piemērs pēc tipa
 
-Klients sazinās ar jūsu apkalpošanas centru un vēlas noslēgt pakalpojumu līgumu attiecībā uz gaisa kondicionēšanas iekārtu HIJ. Jums vēl nav ieraksta par šo iekārtu. Tomēr esat iestatījis objektu grupu ar nosaukumu Gaisa kondicionētāji un pievienojis šo grupu visiem gaisa kondicionēšanas objektiem. Tāpēc varat ātri sameklēt un identificēt visas pārējas gaisa kondicionēšanas iekārtas un izmantot šo objektu veidnēs esošo informāciju, lai izveidotu HIJ iekārtai paredzētas pakalpojumu līguma rindas. Šādi izmantojot objektu grupas, varat ātri iestatīt jaunus objektus un noteikt, kādi pakalpojuma uzdevumi ir jāveic šiem objektiem. 
+Klients sazinās ar jūsu apkalpošanas centru un vēlas noslēgt pakalpojumu līgumu attiecībā uz gaisa kondicionēšanas iekārtu HIJ. Jums vēl nav ieraksta par šo iekārtu. Tomēr esat iestatījis objektu grupu ar nosaukumu Gaisa kondicionētāji un pievienojis šo grupu visiem gaisa kondicionēšanas objektiem. Tāpēc varat ātri sameklēt un identificēt visas pārējas gaisa kondicionēšanas iekārtas un izmantot šo objektu veidnēs esošo informāciju, lai izveidotu HIJ iekārtai paredzētas pakalpojumu līguma rindas. Šādi izmantojot objektu grupas, varat ātri iestatīt jaunus objektus un noteikt, kādi pakalpojuma uzdevumi ir jāveic šiem objektiem.
 
 ## <a name="create-service-object-groups"></a>Pakalpojumu objektu grupu izveide
 

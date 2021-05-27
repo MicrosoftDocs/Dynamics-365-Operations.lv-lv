@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961709"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015905"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Vispārējā plānošana ar pirkšanas tirdzniecības līgumiem
 
@@ -67,7 +67,7 @@ Kad sistēma ir sagatavota, kā aprakstīts iepriekšējā sadaļā, jums ir jā
 1. Atkārtojiet šo procedūru katrai atbilstīgajai precei.
 
 > [!NOTE]
-> Plānošanas optimizācijas atbalsta daudzvalūtu pirkšanas tirdzniecības līgumus. Meklējot tirdzniecības līgumu, izmantojot opciju **Zemākā vienības cena**, sistēma apsver pirkšanas tirdzniecības līguma rindas ar dažādām valūtām, ja maiņas kurss ir definēts starp juridiskās personas tirdzniecības līguma rindas valūtu un uzskaites valūtu. Pretējā gadījumā tirdzniecības līguma rinda tiks ignorēta, un vispārējās plānošanas laikā tiks parādīts kļūdas ziņojums. Tāpēc vispārējā plānošanā tiks ietverta informācija no visām atbilstošām pirkšanas tirdzniecības līguma rindām, kur cenas var konvertēt uzskaites valūtā.
+> Plānošanas optimizācijas atbalsta daudzvalūtu pirkšanas tirdzniecības līgumus. Meklējot tirdzniecības līgumu, izmantojot opciju **Zemākā vienības cena**, sistēma apsver pirkšanas tirdzniecības līguma rindas ar dažādām valūtām, ja maiņas kurss ir definēts starp juridiskās personas tirdzniecības līguma rindas valūtu un uzskaites valūtu. Pretējā gadījumā tirdzniecības līguma rinda tiks ignorēta, un vispārējās plānošanas laikā tiks parādīts kļūdas ziņojums. Tāpēc vispārējā plānošanā tiks ietverta informācija no visām atbilstošām pirkšanas tirdzniecības līguma rindām, kur cenas var konvertēt uzskaites valūtā. Ir svarīgi atzīmēt, ka noapaļošanas noteikumi netiks ņemti vērā tirdzniecības līguma rindas cenas konvertēšanas laikā.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Piemēri tam, kā plānošanas optimizācija atrod kreditoru un izpildes laikus
 

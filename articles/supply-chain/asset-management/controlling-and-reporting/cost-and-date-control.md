@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808668"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016139"
 ---
 # <a name="cost-and-date-control"></a>Izmaksu un datuma kontrole
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-Programmā Asset Management varat aprēķināt faktisko līdzekļu kļūmju izmaksas, lai iegūtu pārskatu salīdzinājumā ar kļūmju, funkcionālo novietojumu un darba pasūtījumu budžetētajām izmaksām. Faktiskās izmaksas ir balstītas uz publicētajiem darījumiem. 
+Programmā Asset Management varat aprēķināt faktisko līdzekļu kļūmju izmaksas, lai iegūtu pārskatu salīdzinājumā ar kļūmju, funkcionālo novietojumu un darba pasūtījumu budžetētajām izmaksām. Faktiskās izmaksas ir balstītas uz publicētajiem darījumiem.
 
 Varat veikt datuma aprēķinu, arī ja vēlaties salīdzināt plānoto sākuma datumu un beigu datumu ar faktisko sākuma un beigu datumu darba pasūtījumiem.
 
@@ -46,8 +44,8 @@ Aprēķini, kas veikti līdzekļiem, funkcionālajam novietojumam un darba pasū
 
 5. Jūs varat izmantot lauku **Līmenis**, lai noteiktu, cik detalizētas vēlaties izmaksu kontroles rindas attiecībā uz funkcionālo novietojumu. 
 
-    Piemēram, ja laukā ievadāt ciparu „1” un jums ir vairāklīmeņu funkcionālā novietojuma hierarhija, visas izmaksu kontroles rindas funkcionālajam novietojumam tiks uzrādītas augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī. 
-    
+    Piemēram, ja laukā ievadāt ciparu „1” un jums ir vairāklīmeņu funkcionālā novietojuma hierarhija, visas izmaksu kontroles rindas funkcionālajam novietojumam tiks uzrādītas augstākajā līmenī, tāpēc stundas rindā var tikt pievienotas no funkcionāliem novietojumiem, kas atrodas zemākā līmenī.
+
     Ja laukā **Līmenis** ievadāt ciparu „„0””, jūs redzēsit detalizētu rezultātu, kas uzrādīs visas izmaksu kontroles rindas visos funkcionālā novietojuma līmeņos, ar kuriem tās ir saistītas.
 
 6. Pārslēgšanas pogā **Parādīt atvērto saistību izmaksas** atlasiet "Jā", ja vēlaties iekļaut aprēķinā to sleju.
@@ -64,7 +62,7 @@ Aprēķini, kas veikti līdzekļiem, funkcionālajam novietojumam un darba pasū
 
 10. Lapā **Līdzekļu izmaksu kontrole** noklikšķiniet uz attiecīgās pogas **Grupēt pēc..**, lai uzrādītu nepieciešamo aprēķina informācijas detalizācijas līmeni. Atlasītās **Grupēt pēc** pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
 
-## <a name="example"></a>Paraugs
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Aprēķina rezultāta piemērs līdzekļu izmaksu kontrolē
 
 Tālāk esošajā ekrānuzņēmumā ir parādīts līdzekļu aprēķina rezultātu piemērs **Līdzekļu izmaksu kontrolē**.
 
@@ -76,7 +74,6 @@ Tālāk esošajā ekrānuzņēmumā ir parādīts līdzekļu aprēķina rezultā
 ![Piemēram, aprēķina rezultāts ir Līdzekļu izmaksu kontrolē](media/02-controlling-and-reporting.png)
 
 Cits veids, kā veikt izmaksu aprēķinu, ir atzīmēt vairākus līdzekļus sadaļā **Visi līdzekļi** vai **Aktīvie līdzekļi**. Tad klikšķiniet uz pogas **Izmaksu kontrole** cilnē **Vispārēji**. Dialogā **Līdzekļu izmaksu kontrole** atlasītie līdzekļi tiek automātiski ievietoti laukā **Līdzekļi** kopsavilkuma cilnē **Iekļaujamie ieraksti**. Klikšķiniet uz **Labi**, tiks parādīts atlasīto līdzekļu izmaksu aprēķins. To pašu procedūru var veikt funkcionālajiem novietojumiem sadaļās **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi** un darba pasūtījumiem sadaļās **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
-
 
 ## <a name="work-order-date-control"></a>Darba pasūtījuma datuma kontrole
 
@@ -94,7 +91,7 @@ Izmantojiet šo lapu, lai redzētu pārskatu par plānoto sākuma datumu un beig
 
 6. Noklikšķiniet uz pogas **Grupēt pēc**, lai uzrādītu nepieciešamo aprēķina informācijas detalizācijas līmeni. Atlasītās **Grupēt pēc** pogas ir izceltas. Noklikšķiniet uz pogas, lai to aktivizētu vai deaktivizētu.
 
-## <a name="example"></a>Paraugs
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Aprēķina rezultāta piemērs darba pasūtījuma datuma kontrolē
 
 Tālāk esošajā ekrānuzņēmumā ir parādīts līdzekļu aprēķina rezultātu piemērs **Darba pasūtījumu datumu kontrolē**.
 

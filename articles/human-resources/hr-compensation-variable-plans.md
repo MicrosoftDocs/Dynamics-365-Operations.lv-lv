@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800883"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027774"
 ---
 # <a name="create-variable-compensation-plans"></a>Mainīgās atlīdzības plānu izveide
 
@@ -38,7 +38,7 @@ Mainīgās atlīdzības summas saviem darbiniekiem var aprēķināt, ņemot vēr
 
 ### <a name="describe-vesting-rules"></a>Izmaksas nosacījumu aprakstīšana
 
-Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas nosacījumos tiek aprakstīts, kā laika gaitā jāsadala mainīgās atlīdzības. Piemēram, izmaksu nosacījumā var būt norādīts, ka darbinieks saņems 25 procentus no viņa vai viņas kopējās atlīdzības katru gadu četru gadu laikā. Izmaksas nosacījumiem ir tikai informatīvs nolūks.
+Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas nosacījumos tiek aprakstīts, kā laika gaitā jāsadala mainīgās atlīdzības. Piemēram, izmaksu nosacījumā var būt norādīts, ka darbinieks saņems 25 procentus no kopējās atlīdzības katru gadu četru gadu laikā. Izmaksas nosacījumiem ir tikai informatīvs nolūks.
 
 ## <a name="variable-compensation-plans"></a>Atlīdzības mainīgās daļas struktūras
 **Mainīgās atlīdzības plāns** satur mainīgās atlīdzības aprēķina kārtulas, metodes un noklusētās vērtības attiecīgajiem darbiniekiem. Kad veidojat mainīgās atlīdzības plānu, ir jāiestata mainīgās atlīdzības tips. Mainīgās atlīdzības tips nosaka, vai sistēma kā atlīdzību aprēķina valūtas summu vai vienību skaitu. Jums jāiestata arī aprēķina metode.
@@ -49,7 +49,7 @@ Ja nepieciešams, uzņēmumi var iestatīt **Izmaksas nosacījumus**. Izmaksas n
 Mainīgās atlīdzības summu var izteikt vai nu procentos no darbinieka parastās pamata izpeļņas, vai arī kā vienību skaita kopu.
 
 -   Atlasiet opciju **Pamatsummas procenti**, lai ievadiet noklusējuma procentuālo vērtību, un pēc tam norādiet, vai pamatsumma ir darbinieka fiksētā izmaksu likme vai atskaites punkts darbinieka atlīdzības līmenim. Atlīdzības līmenis tiek iestatīts darbinieka darbam. Vienu atsauces punktu no atlīdzības struktūras var iestatīt kā atskaites punktu fiksētās atlīdzības plānā. Sistēma izmanto atlīdzības līmeni no darbinieka darba un veido tam krustenisko atsauci ar atskaites punktu, kas ir norādīts darbinieka fiksētas atlīdzības plānā, lai atrastu darbinieka atlīdzības līmeņa kontroles punkta summu. Pēc tam kā atlīdzības pamatsumma tiek izmantota kontroles punkta summa, nevis darbinieka fiksēto izmaksu likme.
--   Atlasiet opciju **Vienību skaits**, lai ievadītu noklusējuma vienību skaitu, katras vienības vērtību un vienības vērtības valūtu, ja atlīdzības plāns ir bezskaidras naudas atlīdzībai (piemēram, 200 vienības krājuma, kas tiek novērtētas 40 USD vērtībā), vai tikai vienību skaitu, ja atlīdzības plāns katrai skaidras naudas atlīdzībai. Naudas atlīdzības gadījumā darbinieks saņems norādīto vienību skaitu tajā valūtā, kas tiek izmantota viņa vai viņas fiksētas atlīdzības plānā (piemēram, 500 vienības ar vērtību 1 USD). Relācijas “viens pret vienu” kontroli var izmantot, lai norādītu, vai starp vienību skaitu un vienības vērtību pastāv tiešs “viens pret vienu” kartējums. Kad veidojat mainīgās atlīdzības plānu izmaksām skaidrā naudā, izmantojot vienību skaitu, šī opcija automātiski tiek bloķēta uz **Jā**, un vienības vērtība ir **1,0000**.
+-   Atlasiet opciju **Vienību skaits**, lai ievadītu noklusējuma vienību skaitu, katras vienības vērtību un vienības vērtības valūtu, ja atlīdzības plāns ir bezskaidras naudas atlīdzībai (piemēram, 200 vienības krājuma, kas tiek novērtētas 40 USD vērtībā), vai tikai vienību skaitu, ja atlīdzības plāns katrai skaidras naudas atlīdzībai. Naudas atlīdzības gadījumā darbinieks saņems norādīto vienību skaitu tajā valūtā, kas tiek izmantota fiksētas atlīdzības plānā (piemēram, 500 vienības ar vērtību 1 USD). Relācijas “viens pret vienu” kontroli var izmantot, lai norādītu, vai starp vienību skaitu un vienības vērtību pastāv tiešs “viens pret vienu” kartējums. Kad veidojat mainīgās atlīdzības plānu izmaksām skaidrā naudā, izmantojot vienību skaitu, šī opcija automātiski tiek bloķēta uz **Jā**, un vienības vērtība ir **1,0000**.
 
 Izmantojot iestatījumu **Nolīgšanas kārtula**, varat norādīt, vai visiem darbiniekiem ir jāsaņem vienāds palielinājums neatkarīgi no datuma, kurā viņi tika pieņemti darbā (**Nolīgšanas kārtula** = **Nav**), vai arī šiem darbiniekiem ir jāsaņem procenti no atlīdzības atkarībā no tā, cik ilgi viņi bija nodarbināti cikla laikā (**Nolīgšanas kārtula** = **Procenti**). 
 

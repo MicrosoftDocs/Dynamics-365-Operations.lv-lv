@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792875"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019937"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-komercijas digitālās dāvanu kartes
 
@@ -51,12 +51,12 @@ Digitālās dāvanu kartes precēm jābūt konfigurētām programmā Commerce He
 
     ![Dāvanu kartes preces lauks programmā Commerce Headquarters](./media/PostGiftcard.png)
 
-- Ja dāvanu kartei ir jāatbalsta vairākas iepriekš definētas summas (piemēram, $25, $50 un $100), šo iepriekš definēto summu iestatīšanai jāizmanto **Izmēra** dimensija. Katra iepriekš definētā summa būs variants. Papildinformāciju skatiet sadaļā [Preču dimensijas](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Ja dāvanu kartei ir jāatbalsta vairākas iepriekš definētas summas (piemēram, $25, $50 un $100), šo iepriekš definēto summu iestatīšanai jāizmanto **Izmēra** dimensija. Katra iepriekš definētā summa būs variants. Papildinformāciju skatiet sadaļā [Preču dimensijas](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Ja klientiem ir jāprecizē pielāgotā summa dāvanu kartei, vispirms iestatiet variantu, kas ļauj izmantot pielāgotu summu. Pēc tam atveriet preci no lapas **Izlaistās preces pēc kategorijas** un pēc tam kopsavilkuma cilnē **Komercija** iestatiet lauku **Ievadīt cenu** vērtību uz **Jāievada jauna cena**, kā parādīts šajā ilustrācijā. Šis iestatījums nodrošina, ka klienti var ievadīt cenu, pārlūkojot preci PDP.
 
     ![Lauks Ievadīt cenu pakalpojumā Commerce Headquarters](./media/KeyInPrice.png)
 
-- Digitālās dāvanu kartes piegādes režīmam ir jābūt iestatītam uz **Elektronisks**. Lapā **Piegādes veidi** (**Mazumtirdzniecība un komercija \> Kanālu iestatīšana \> Piegādes veidi**), atlasiet piegādes veidu **Elektroniski** saraksta rūtī un tad pievienojiet digitālās dāvanu kartes preci režģim kopsavilkuma cilnē **Preces**, kā parādīts sekojošajā ilustrācijā. Plašāku informāciju skatiet [Piegādes veidu iestatīšana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Digitālās dāvanu kartes piegādes režīmam ir jābūt iestatītam uz **Elektronisks**. Lapā **Piegādes veidi** (**Mazumtirdzniecība un komercija \> Kanālu iestatīšana \> Piegādes veidi**), atlasiet piegādes veidu **Elektroniski** saraksta rūtī un tad pievienojiet digitālās dāvanu kartes preci režģim kopsavilkuma cilnē **Preces**, kā parādīts sekojošajā ilustrācijā. Plašāku informāciju skatiet [Piegādes veidu iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Digitālās dāvanu kartes preces Commerce Headquarters piegādes veidu lapā](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Lai konfigurētu pielāgotu summu digitālai dāvanu kartei Commerce vietnes vei
 
 [Jaunas preces izveide programmā Commerce](create-new-product-commerce.md)
 
-[Iestatiet piegādes veidus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Iestatiet piegādes veidus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Preces dimensijas](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Preces dimensijas](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [E-pasta paziņojumu profila iestatīšana](email-notification-profiles.md)
 

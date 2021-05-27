@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793999"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018584"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C nomnieka iestatīšana programmā Commerce
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793999"
 Dynamics 365 Commerce izmanto Azure AD B2C, lai atbalstītu lietotāja akreditācijas datus un autentifikācijas plūsmas. Lietotājs var pieteikties, pierakstīties un atiestatīt savu paroli, izmantojot šīs plūsmas. Azure AD B2C saglabā lietotāja sensitīvo autentifikācijas informāciju, piemēram, lietotāja vārdu un paroli. Lietotāja ieraksts B2C nomniekā saglabās vai nu B2C lokālā konta ierakstu, vai arī B2C sociālā identitātes nodrošinātāja ierakstu. Šie B2C ieraksti tiks saistīti ar klienta ierakstu tirdzniecības vidē.
 
 > [!WARNING] 
-> Azure AD B2C atiestata veco (mantojuma) lietotāju plūsmas uz 2021. gada 1. augustu. Tādēļ jums jāplāno migrēt savas lietotāja plūsmas uz jauno ieteicamo versiju. Jaunā versija nodrošina līdzekļu pārību un jaunas funkcijas. Ar ieteiktajām B2C lietotāju plūsmām ir jāizmanto Commerce versijas 10.0.15 vai jaunāka moduļa bibliotēka. Papildinformāciju skatiet sadaļā [Lietotāju darbplūsmas Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C atiestata veco (mantojuma) lietotāju plūsmas uz 2021. gada 1. augustu. Tādēļ jums jāplāno migrēt savas lietotāja plūsmas uz jauno ieteicamo versiju. Jaunā versija nodrošina līdzekļu pārību un jaunas funkcijas. Ar ieteiktajām B2C lietotāju plūsmām ir jāizmanto Commerce versijas 10.0.15 vai jaunāka moduļa bibliotēka. Papildinformāciju skatiet sadaļā [Lietotāju darbplūsmas Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
  
  > [!NOTE]
  > Commerce novērtēšanas vidēs ir iepriekš ielādēts Azure AD B2C nomnieks demonstrācijas nolūkiem. Paša Azure AD B2C nomnieka ielādēšana, izmantojot tālāk aprakstītās darbības, nav nepieciešama novērtēšanas vidēm.
@@ -88,7 +88,7 @@ Lai izveidotu B2C pieteikumu, izpildiet tālāk aprakstītās darbības.
 1. Lai tos iespējotu programmai, sadaļā **Netieši piešķirt** atlasiet gan **Piekļuves pilnvaras**, gan **ID marķierus**. Atlasiet **Saglabāt**.
 1. Dodieties uz **Pārskata** izvēlni portālā Azure un nokopējiet **Programmas (klienta) ID**. Ievērojiet šo ID vēlākām uzstādīšanas darbībām (vēlāk norādīts kā **Klienta GUID**).
 
-Lai iegūtu papildu atsauci uz Programmu reģistrācijām Azure AD B2C, lūdzu, skatiet [Jauno programmas reģistrāciju pieredzi Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+Lai iegūtu papildu atsauci uz Programmu reģistrācijām Azure AD B2C, lūdzu, skatiet [Jauno programmas reģistrāciju pieredzi Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Atbilžu vietrāži URL
 
@@ -110,7 +110,7 @@ Azure AD B2C sniedz trīs pamata lietotāju plūsmas tipus:
 
 Varat izvēlēties izmantot Azure AD nodrošinātas noklusējuma lietotāja plūsmas, kas parādīs AAD B2C viesotu lapu. Līdzīgi varat izveidot HTML lapu, lai kontrolētu šo lietotāju plūsmas pieredzes izskatu un iespaidu. 
 
-Lai pielāgotu lietotāja politikas lapas Dynamics 365 Commerce, skatiet sadaļu [Pielāgotu lapu iestatīšana lietotāju pieteikšanās tiesībām](custom-pages-user-logins.md). Papildinformāciju skatiet sadaļā [Lietotāja pieredzes interfeisa pielāgošana Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Lai pielāgotu lietotāja politikas lapas Dynamics 365 Commerce, skatiet sadaļu [Pielāgotu lapu iestatīšana lietotāju pieteikšanās tiesībām](custom-pages-user-logins.md). Papildinformāciju skatiet sadaļā [Lietotāja pieredzes interfeisa pielāgošana Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Izveidot pierakstīšanos un pieteikties lietotāja plūsmas politikā
 
@@ -197,15 +197,15 @@ Ja tiek pievienota sociālā identitātes nodrošinātāja autentifikācija un l
 
 Pirms jūs varat pievienot sociālās identitātes nodrošinātāju autentifikācijai, jums ir jādodas uz identitātes nodrošinātāja portālu un jāiestata identitātes nodrošinātāja programma, kā norādīts Azure AD B2C dokumentācijā. Tālāk ir sniegts saraksts ar saitēm uz dokumentāciju.
 
-- [Amazon](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD (Viens nomnieks)](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [Microsoft konts](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [LinkedIn](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID Connect](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [Twitter](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD (Viens nomnieks)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [Microsoft konts](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [Facebook](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [LinkedIn](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID Connect](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [Twitter](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>Pievienot un iestatīt sociālās identitātes nodrošinātāju
 
@@ -346,11 +346,11 @@ Lai saistītu B2C lietojumprogrammu ar jūsu vietni un kanālu, sekojiet šīm d
 
 Ja apsverat iespēju migrēt klientu ierakstus no iepriekšējas identitātes nodrošinātāja platformas, lūdzu, sazinieties ar Dynamics 365 Commerce grupu, lai pārskatītu jūsu klientu migrācijas vajadzības.
 
-Lai iegūtu papildu Azure AD B2C dokumentāciju par klientu migrāciju, skatiet sadaļu [Migrēt lietotājus uz Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration).
+Lai iegūtu papildu Azure AD B2C dokumentāciju par klientu migrāciju, skatiet sadaļu [Migrēt lietotājus uz Azure Active Directory B2C](/azure/active-directory-b2c/active-directory-b2c-user-migration).
 
 ### <a name="custom-policies"></a>Pielāgotas politikas
 
-Lai iegūtu papildu informāciju par Azure AD B2C mijiedarbību un politikas plūsmu pielāgošanu, kas pārsniedz B2C standarta politiku piedāvāto, skatiet sadaļu [Pielāgotas Azure Active Directory B2C politikas](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
+Lai iegūtu papildu informāciju par Azure AD B2C mijiedarbību un politikas plūsmu pielāgošanu, kas pārsniedz B2C standarta politiku piedāvāto, skatiet sadaļu [Pielāgotas Azure Active Directory B2C politikas](/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
 
 ### <a name="secondary-admin"></a>Sekundārais administrators
 

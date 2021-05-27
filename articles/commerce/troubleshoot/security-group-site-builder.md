@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aa00e9331693600ced2f4ead399a0c005b77ad08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d29e560d0f7b2bbc2415d7a0f6fe18f2ca17dc7c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801511"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020736"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Sākotnējās izvietošanas laikā Commerce vietnes veidotājā nevar konfigurēt drošības grupu
 
@@ -38,7 +37,7 @@ Kad izveidojat e-komercijas komponentus kā daļu no jauna e-komercijas nomnieka
 ### <a name="provision-the-e-commerce-site-with-a-user-in-the-correct-tenant"></a>E-komercijas vietnes nodrošināšana ar lietotāju pareizajā nomniekā
 
 1. Dodieties uz [Azure portālu](https://portal.azure.com/).
-1. Zem nomnieka, kam tika nodrošināts LCS projekts jūsu e-komercijas vietnei, izpildiet norādes sadaļā [Pamata grupas izveide un dalībnieku pievienošana, izmantojot Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+1. Zem nomnieka, kam tika nodrošināts LCS projekts jūsu e-komercijas vietnei, izpildiet norādes sadaļā [Pamata grupas izveide un dalībnieku pievienošana, izmantojot Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 1. Dodieties uz [LCS](https://lcs.dynamics.com/) un pierakstieties, izmantojot kontu, kam ir tāds pats nomnieks kā Azure AD drošības grupai, kuru tikko izveidojāt. Kontam jābūt piekļuvei, lai skatītu Azure AD drošības grupu.
 1. Izpildiet iestatīšanas darbības, lai konfigurētu e-komercijas vietni. Izveidojot e-komercijas komponentus, drošības grupai tagad ir jāparādās kā opcijai dialoglodziņā.
 
@@ -47,6 +46,6 @@ Kad izveidojat e-komercijas komponentus kā daļu no jauna e-komercijas nomnieka
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Pamatgrupas izveide un dalībnieku pievienošana, izmantojot Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+[Pamatgrupas izveide un dalībnieku pievienošana, izmantojot Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 [Jauna e-komercijas nomnieka izvietošana](../deploy-ecommerce-site.md)

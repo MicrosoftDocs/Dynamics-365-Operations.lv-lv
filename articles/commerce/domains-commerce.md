@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792803"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022840"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domēni programmā Dynamics 365 Commerce
 
@@ -151,7 +151,7 @@ Commerce nodrošinātā Azure Front Door instance neatbalsta apeksa domēnus (sa
 
   [Jauna e-tirdzniecības nomnieka izvietošana](deploy-ecommerce-site.md)
 
-  [Tiešsaistes veikala kanāla iestatīšana](online-stores.md)
+  [Tiešsaistes veikala kanāla iestatīšana](./channel-setup-online.md)
 
   [E-komercijas vietnes izveide](create-ecommerce-site.md)
 
