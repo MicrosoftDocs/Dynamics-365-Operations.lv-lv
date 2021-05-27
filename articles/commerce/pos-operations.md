@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804285"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027652"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Tiešsaistes un bezsaistes pārdošanas punkta (POS) operācijas
 
@@ -64,7 +64,7 @@ Tālāk norādītajās kolonnās ir norādītas vietas, kur var izsaukt operāci
 | 642 | Iznest visas preces | Iestatīt visām rindām piegādes veidu **Iznešana**. | Jā | Jā | Nē | Jā\* | Nē |
 | 641 | Iznest atlasītas preces | Iestatīt atlasītajām rindām piegādes veidu **Iznešana**. | Jā | Jā | Nē | Jā\* | Nē |
 | 647 | Mainīt piegādes veidu | Mainiet iepriekš konfigurēto nosūtīšanas pārdošanas rindu piegādes veidu. | Jā | Jā | Nē | Nē| Nē |
-| 1215 | Mainīt paroli | Šī operācija sniedz POS lietotājam iespēju mainīt savu paroli. | Jā | Jā | Jā | Nē | Nē |
+| 1215 | Mainīt paroli | Šī operācija sniedz POS lietotājam iespēju mainīt savu paroli. | Jā | Jā | Jā | Nr. | Nr. |
 | 123 | Mainīt mērvienību | Mainīt atlasītā rindas vienuma mērvienību. | Jā | Jā | Nē | Jā | Nē |
 | 639 | Notīrīt noklusējuma darījuma pārdošanas pārstāvi | Noņemt no transakcijas komisijas pārdošanas grupu (pārdošanas pārst.). | Jā | Jā | Nē | Jā | Nē |
 | 106 | Nodzēst daudzumu | Atiestatīt pašlaik atlasītās rindas daudzumu uz **1**. | Jā | Jā | Nē | Jā | Nē |

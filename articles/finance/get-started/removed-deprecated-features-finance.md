@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965314"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980902"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ ms.locfileid: "5965314"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.20 laidienā
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR vaicājuma rēķina datu pieprasījuma (HU) formāta konfigurācija
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>"RTIR vaicājuma rēķina datu pieprasījuma (HU)" Elektronisko pārskatu (ER) formāta konfigurācija
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ ms.locfileid: "5965314"
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Novecojis: Līdz 2022. gada 15. aprīlim mēs plānojam vairs neatbalstīt "RTIR vaicājuma rēķina datu pieprasījuma (HU)" formāta konfigurāciju. |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>"Francijas FEC audita fails" Elektronisko pārskatu (ER) formāts Francijai zem formāta "Vācijas audita faila izvade"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Aizstāts ar jaunu "FEC audita failu (FR)" formātu |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā |
+| **Ietekmētie produkta apgabali**         | Pieteikums |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: līdz 2022. gada 1. maijam mēs plānojam vairs neatbalstīt "Francijas FEC audita failu" Elektronisko pārskatu (ER) formātu Francijai" zem "Vācijas audita faila izvades" formāta. Tā vietā sadaļā "Datu eksporta modelis" tiek iekļauts jauns FEC audita faila (FR) formāts. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Noņemtie vai novecojuši līdzekļi programmas Finance 10.0.17 laidienā
 

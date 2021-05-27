@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800387"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027460"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Zvanu centra pasūtījumu aizturēšanas konfigurēšana un darbs ar to
 
@@ -53,7 +53,7 @@ Pēc tam, kad aizturēšanas informācija ir ievadīta un saglabāta, lietotājs
 
 Ja zvanu centra kanālā ir ieslēgts karodziņš **Iespējot pasūtījuma pabeigšanu**, pasūtījumam, kas ir aizturēts, nav jāpiemēro maksājums. Turpretim tāda pārdošanas pasūtījuma gadījumā, kas nav aizturēts, lietotāji nevar aizvērt pārdošanas pasūtījuma ievades lapu, līdz tiek piemērots maksājums. Maksājums būs nepieciešams, pirms pasūtījuma aizturēšanas noņemšanas.
 
-Turklāt zvanu centra lietotāji var noteikt manuālu aizturēšanu pārkāpuma dēļ pasūtījumiem, kas ir aizdomīgi kāda iemesla dēļ. Pasūtījumiem var arī noteikt aizturēšanu automātiski, ja tie atbilst aktīviem pārkāpuma kritērijiem un kārtulām. Plašāku informāciju par šāda veida pasūtījuma aizturēšanu skatiet sadaļā [Pārkāpumu brīdinājumu iestatīšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Turklāt zvanu centra lietotāji var noteikt manuālu aizturēšanu pārkāpuma dēļ pasūtījumiem, kas ir aizdomīgi kāda iemesla dēļ. Pasūtījumiem var arī noteikt aizturēšanu automātiski, ja tie atbilst aktīviem pārkāpuma kritērijiem un kārtulām. Plašāku informāciju par šāda veida pasūtījuma aizturēšanu skatiet sadaļā [Pārkāpumu brīdinājumu iestatīšana](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Aizturētu pasūtījumu skatīšana un pārvaldīšana
 

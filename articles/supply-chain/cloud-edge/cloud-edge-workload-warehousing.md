@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944417"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980954"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -58,7 +58,10 @@ Mēroga vienībām pieder šādi dati:
   - **Pārsūtīšanas pasūtījumi** (tikai nosūtīšana ar vienkāršu izdošanu un iekraušanas darbu)
 
 - **Noliktavas pasūtījuma saņemšanas dati** — šie dati tiek izmantoti tikai pirkšanas pasūtījumiem, kas tika nodoti noliktavā.
-- **Numura zīmes dati** — numura zīmes var izveidot centrmezglā un mēroga vienībā. Ir nodrošināta īpaša konfliktu risināšana. Ņemiet vērā, ka šie dati nav saistīti tikai ar noliktavu.
+- **Numura zīmes dati** — numura zīmes var izveidot gan centrmezglā, gan mēroga vienībās. Ir nodrošināta īpaša konfliktu risināšana. 
+
+    > [!IMPORTANT]
+    > Numura zīmes dati nav saistīti tikai ar noliktavu. Ja vienā un tajā pašā sinhronizācijas ciklā viens numura zīmes numurs tiek izveidots gan centrmezglā, gan mēroga vienībā, nākamā sinhronizācija neizdosies. Ja tā ir, dodieties uz sadaļu **Sistēmas administrēšana > Uzziņas > Uzziņas par darba slodzi > Ierakstu dublikāti**, kur varat skatīt un sapludināt datus.
 
 ## <a name="outbound-process-flow"></a>Izejošā procesa plūsma
 

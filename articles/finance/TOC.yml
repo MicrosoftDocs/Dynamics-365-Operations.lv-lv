@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: "Finance 10.0.17 (2021.\_gada aprīlis)"
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: "Finance 10.0.16 (2021.\_gada februāris)"
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: 'Nosegt daļēju debitora maksājumu, kam ir vairāki atlaižu periodi'
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Debitoru priekšapmaksas
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Debitoru atlīdzināšana
                   href: accounts-receivable/reimburse-customers.md
                 - name: Debitoru maksājumi par daļēju summu
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Debitoru vecumstruktūras informācijas iestatīšana un ģenerēšana
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Debitora vecumstruktūras momentuzņēmums
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: Debitoru vecumstruktūra
               href: accounts-receivable/customer-aging.md
             - name: Debitora norakstīšanas žurnāla izveide
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Izveidot budžetu no transakciju kontiem un kopsummu kontiem
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Budžeta plāna stāstījums
+              href: budgeting/budget-narrative.md
             - name: Budžeta plānošanas veidnes programmai Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: Budžeta plānošanas izkārtojuma paplašināšana
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Pirmdokumentu audita politiku definēšana
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Problēmu novēršana
+              items:
+                - name: Uzskaites vai pārskata valūtas maiņa
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Virsgrāmatas kalendāra maiņa vai atkārtota piešķiršana
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Iestatījumu stornēšana žurnālos un rindās
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Gada beigu slēgšanas trūkstošās sākuma bilances
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Finanšu pārskatu veidošana
           items:
             - name: Darba sākšana ar finanšu pārskatiem
@@ -1648,8 +1662,16 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinf nodokļa deklarācija
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: SPED-Reinf pārskats
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: Elektroniska ziņojuma iestatīšana
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Fiskālo grāmatu iestatīšana
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Notikumi
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: SPED finanšu regulēšana 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: "Fiskālais SPED 2020\_– ICMS-ST papildu informācija versijai SPED Fiscal Layout 014"
@@ -1782,9 +1804,11 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: Bieži uzdotie jautājumi par PVN debitoru rēķiniem
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
-            - name: Čehija
+                - name: GB/T 24589-2010 eksports
+                  href: localizations/apac-chn-gbt-24589-2010.md
+            - name: Čehijas Republika
               items:
-                - name: Čehija
+                - name: Čehijas Republika
                   href: localizations/czech-republic.md
                 - name: Kredīta nota termiņatlaidei
                   href: localizations/emea-cze-credit-note-cash-discount.md
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Hronoloģiski rēķinu dokumenti
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Standarta audita faila izveide Francijai (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Audita fails Francijai
+                  items:
+                    - name: Audita fails Francijas (FEC) pārskatam
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: "Priekšnosacījumi FEC\_audita faila ģenerēšanai Francijā"
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: "FEC\_finanšu datu avotu struktūra"
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: "Vides sagatavošana FEC\_ģenerēšanai"
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: "FEC\_ģenerēšana lietotnē Dynamics 365 Finance"
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Debitoru un kreditoru kontu pārskati
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Nokavēta maksājuma un vienreizējās izmaksas ikdienas procentu aprēķins atgādinājuma vēstulē un rēķinā
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Kapitāla līdzekļu pārsūtīšana uz pamatlīdzekļiem
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: "Indijas\_TDS"
+                  items:
+                    - name: "Indijas nodokļa, kas ieturēts no avota (Tax Deducted at Source\_— TDS), pārskats"
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: "TDS\_pamata iestatījumi"
+                      items:
+                        - name: "TDS\_parametru iestatīšana"
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: "TDS\_virsgrāmatas kontu iestatīšana"
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: "TDS\_reģistrācijas numuru iestatīšana juridiskām personām"
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: "Ieturētā nodokļa iestāžu iestatīšana TDS\_nodokļu veidam"
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: "Nodokļa komponentu iestatīšana TDS\_nodokļu veidam"
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: "Ieturētā nodokļa kodu iestatīšana TDS\_nodokļu veidam"
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: "Ieturētā nodokļa apmaksas periodu iestatīšana TDS\_nodokļu veidam"
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: "Ieturētā nodokļa pārskata kodu iestatīšana TDS\_nodokļu veidam"
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: "Ieturētā nodokļa kodu iestatīšana TDS\_nodokļu veidam"
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: "TDS\_nodokļu kodu pievienošana TDS\_nodokļu grupām un TDS\_aprēķina formulas definēšana"
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: "TDS\_koncesijas sertifikātu numuru reģistrēšana"
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: "TDS\_parametru iestatīšana debitoru un kreditoru modulī"
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: "Maksājumu grafiku iestatīšana ar TDS\_sadalījumu"
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: "Komisijas maksas iestatīšana TDS\_iestādes maksājumiem"
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: "TDS\_grupas, PAN\_un TAN\_informācijas iestatīšana kreditoriem un debitoriem"
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: "Formulu noformētājs un sliekšņa ierobežojums TDS\_aprēķinam"
+                      items:
+                        - name: "TDS\_aprēķinu formulu noformētājs"
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Sliekšņa ierobežojums un izņēmuma sliekšņa ierobežojums
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: "TDS\_aprēķins rēķinos"
+                      items:
+                        - name: "TDS\_aprēķins rēķinos"
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: "TDS\_aprēķins rēķinos, izmantojot žurnālus"
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: "TDS\_rēķinu aprēķināšana, izmantojot pirkšanas pasūtījuma veidlapu un pārdošanas pasūtījuma veidlapu"
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: "TDS\_aprēķināšana rēķinos no brīvā teksta rēķina lapas"
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Rēķina funkcionalitātes sadalīšana
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: "TDS\_aprēķins maksājumiem un parādzīmēm"
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: "TDS\_aprēķins starpuzņēmumu transakcijām"
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: "TDS\_apmaksas process"
+                      items:
+                        - name: "TDS\_aprēķins maksājumiem un parādzīmēm"
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: "TDS\_aprēķins starpuzņēmumu transakcijām"
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: "TDS\_apmaksas process"
+                          items:
+                            - name: "Periodiskā TDS\_apmaksas procesa izpilde"
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: "TDS\_maksājumu apmaksa TDS\_iestāžu kreditoriem un TDS\_Challan ģenerēšana"
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: "Iegrāmatoto TDS\_maksājumu un TDS\_apmaksas perioda transakciju skatīšana"
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: "TDS\_sertifikātu numuru un datumu reģistrēšana un atjaunināšana"
+                          items:
+                            - name: "TDS\_atgūstamo sertifikātu numuru reģistrēšana"
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: "TDS\_sertifikātu numuru un datumu atjaunināšana TDS\_transakcijām"
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Itālija
               items:
                 - name: Itālijas pārskats

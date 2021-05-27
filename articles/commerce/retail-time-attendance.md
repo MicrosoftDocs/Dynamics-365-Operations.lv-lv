@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791899"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021492"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Laika un apmeklētības pārvaldība programmā Retail
 
@@ -38,9 +38,9 @@ ms.locfileid: "5791899"
 
 ### <a name="plan-worker-schedules"></a>Darbinieku grafika plānošana
 
-- Izveidojiet profilus, izmantojot darbu plānošanas sistēmu. Papildinformāciju skatiet tēmā [Profilu izveide, izmantojot darbu plānošanas sistēmu](https://technet.microsoft.com/library/aa551234.aspx).
+- Izveidojiet profilus, izmantojot darbu plānošanas sistēmu. Papildinformāciju skatiet tēmā [Profilu izveide, izmantojot darbu plānošanas sistēmu](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Papildinformāciju par konfigurācijas darbībām skatiet tēmā [Laika un apmeklētības iestatīšana](https://technet.microsoft.com/library/aa496971.aspx).
+Papildinformāciju par konfigurācijas darbībām skatiet tēmā [Laika un apmeklētības iestatīšana](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Commerce paredzēta konfigurācija
 
@@ -135,7 +135,7 @@ Commerce lietotājs izpilda darbplūsmu, lai aprēķinātu, apstiprinātu un pā
 - Aiziešana grupā
 - Kavējuma reģistrēšana
 
-Papildinformāciju par laika un apmeklētības ierakstu apstrādi skatiet tēmā[Laika un apmeklētības ierakstu apstrāde](https://technet.microsoft.com/library/aa573180.aspx).
+Papildinformāciju par laika un apmeklētības ierakstu apstrādi skatiet tēmā[Laika un apmeklētības ierakstu apstrāde](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

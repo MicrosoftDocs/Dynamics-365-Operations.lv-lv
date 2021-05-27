@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910429"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017010"
 ---
 # <a name="inventory-visibility-add-in"></a>Krājumu uztveramības pievienojumprogramma
 
@@ -41,20 +41,23 @@ Jums ir jāinstalē Krājumu uztveramības pievienojumprogramma, izmantojot Micr
 
 Papildinformāciju skatiet šeit: [Lifecycle Services resursi](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Priekšnosacījumi
+### <a name="inventory-visibility-add-in-prerequisites"></a>Krājumu redzamības pievienojumprogrammas priekšnosacījumi
 
 Pirms instalējat Krājumu uztveramības pievienojumprogrammu, jums ir jādara sekojošais:
 
 - Iegūt LCS ieviešanas projektu, kurā ir vismaz viens izvietošanas vides objekts.
 - Pārliecinieties, ka pievienojumprogrammu pārskata iestatīšanas priekšnoteikumi, kas sniegti [Pievienojumprogrammu pārskatā](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) ir pabeigti. Krājumu redzamībai nav nepieciešama dubultās rakstīšanas saistīšana.
 - Sazinieties ar krājumu redzamības grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), lai iegūtu šādus trīs nepieciešamos failus:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (Ja jūsu darbinātā Supply Chain Management versija ir agrāka nekā versija 10.0.18)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (Ja jūsu darbinātā Supply Chain Management versija ir agrāka nekā versija 10.0.18)
+- Vai arī sazinieties ar krājumu redzamības grupu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), lai iegūtu paku izvietotāja pakotnes. Šīs pakotnes var izmantot oficiāls paku izvietotāja rīks.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (šajā pakotnē ir ietvertas visas pakotnes `InventoryServiceBase` izmaiņas un papildu UI programmas komponenti)
 - Izpildiet sadaļā [Ātrā sākšana: reģistrējiet programmu ar Microsoft identitātes platformu](/azure/active-directory/develop/quickstart-register-app) sniegtās instrukcijas, lai reģistrētu programmu un pievienotu AAD klienta noslēpumu atbilstoši Azure abonementam.
-    - [Lietojumprogrammas reģistrācija](/azure/active-directory/develop/quickstart-register-app)
-    - [Pievienot klienta noslēpumu](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - Opcijas **Programmas (klienta) ID**, **Klienta noslēpums** un **Nomnieka ID** tiks izmantots sekojošās darbībās.
+  - [Lietojumprogrammas reģistrācija](/azure/active-directory/develop/quickstart-register-app)
+  - [Pievienot klienta noslēpumu](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - Opcijas **Programmas (klienta) ID**, **Klienta noslēpums** un **Nomnieka ID** tiks izmantots sekojošās darbībās.
 
 > [!NOTE]
 > Pašlaik atbalstītās valstis un reģioni ietver Kanādu, Amerikas Savienotās Valstis un Eiropas Savienību (ES).
@@ -63,18 +66,49 @@ Ja jums ir kādi jautājumi par šiem priekšnosacījumiem, lūdzu, sazinieties 
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Iestātīt Dataverse
 
-Lai iestatītu Dataverse, rīkojieties, kā norādīts tālāk.
+Lai iestatītu Dataverse izmantošanu kopā ar krājumu redzamību, jums vispirms ir jāsagatavo priekšnosacījumi un pēc tam jāizlemj, vai iestatīt Dataverse, izmantojot paku izvietotāja rīku, vai manuāli importējot risinājumus (nav jāveic abi risinājumi). Tad instalējiet krājumu uztveramības pievienojumprogrammu. Tālāk sniegtās apakšsadaļas apraksta, kā pabeigt katru uzdevumu.
 
-1. Pievienojiet pakalpojumu principu savam nomniekam:
+#### <a name="prepare-dataverse-prerequisites"></a>Sagatavot Dataverse priekšnosacījumus
 
-    1. Instalējiet Azure AD PowerShell moduli v2, kā aprakstīts [Pakalpojuma Azure Active Directory instalēšana PowerShell grafikam](/powershell/azure/active-directory/install-adv2).
-    1. Izpildiet šādu PowerShell komandu.
+Pirms sākat iestatīt Dataverse, pievienojiet nomniekam pakalpojuma principu, rīkojoties šādi:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Instalējiet Azure AD PowerShell moduli v2, kā aprakstīts [Pakalpojuma Azure Active Directory instalēšana PowerShell grafikam](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Izpildiet šādu PowerShell komandu:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Iestatīt Dataverse, izmantojot paku izvietotāja rīku
+
+Pēc tam, kad ir visi priekšnosacījumi, izmantojiet sekojošo procedūru, ja vēlaties iestatīt Dataverse, izmantojot paku izvietotāja rīku. Skatiet nākošo sadaļu, lai iegūtu detalizētu informāciju par to, kā to vietā importēt risinājumus (neveiciet abus).
+
+1. Instalējiet izstrādātāju rīkus, kā aprakstīts sadaļā [Lejupielādes rīki no NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. Atkarībā no biznesa prasībām izvēlieties `InventoryServiceBase` vai `InventoryServiceApplication` pakotni.
+
+1. Risinājumu importēšana:
+    1. `InventoryServiceBase` pakotnei:
+        - Atarhivēt `InventoryServiceBase.PackageDeployer.zip`
+        - Meklēt mapi `InventoryServiceBase`, failu `[Content_Types].xml`, failu `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll`, failu `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` un failu `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`. 
+        - Kopējiet katru no šīm mapēm un failiem uz `.\Tools\PackageDeployment` direktoriju, kas tika izveidota, instalējot izstrādātāju rīkus.
+    1. `InventoryServiceApplication` pakotnei:
+        - Atarhivēt `InventoryServiceApplication.PackageDeployer.zip`
+        - Meklēt mapi `InventoryServiceApplication`, failu `[Content_Types].xml`, failu `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`, failu `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` un failu `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`.
+        - Kopējiet katru no šīm mapēm un failiem uz `.\Tools\PackageDeployment` direktoriju, kas tika izveidota, instalējot izstrādātāju rīkus.
+    1. Izpildīt `.\Tools\PackageDeployment\PackageDeployer.exe`. Izpildiet ekrānā redzamos norādījumus, lai importētu risinājumus.
+
+1. Drošības lomu piešķiršana programmas lietotājam.
+    1. Atveriet Dataverse vides URL.
+    1. Dodieties uz **Papildiestatījumi \> Sistēma \> Drošība \> Lietotāji** un atrodiet lietotāju ar nosaukumu **# InventoryVisibility**.
+    1. Atlasiet **Piešķirt lomu** un pēc tam atlasiet **Sistēmas administrators**. Ja ir loma ar nosaukumu **Common Data Service Lietotājs**, atlasiet to arī.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Iestatīt Dataverse manuāli, importējot risinājumus
+
+Pēc tam, kad ir visi priekšnosacījumi, izmantojiet sekojošo procedūru, ja vēlaties iestatīt Dataverse, manuāli importējot risinājumus. Skatiet iepriekšējo sadaļu, lai iegūtu detalizētu informāciju par to, kā tā vietā izmantot paku izvietotāja rīku (neveiciet abas).
 
 1. Izveidot programmas lietotāju, lai noteiktu krājumu redzamību Dataverse šeit:
 

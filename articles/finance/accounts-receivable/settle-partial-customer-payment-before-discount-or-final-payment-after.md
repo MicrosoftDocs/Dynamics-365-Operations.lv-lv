@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835151"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027532"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Daļēja maksājuma segšana pirms atlaižu piemērošanas datuma ar gala maksājumu pēc atlaižu piemērošanas datuma
 
@@ -95,7 +95,7 @@ Atlaides informācija parādās lapas **Nosegt atvērtās darbības** apakšdaļ
 | Paņemta termiņatlaides summa          | 3,00      |
 | Ņemamā termiņatlaides summa | 7,00      |
 
-Arnijs maina vērtību laukā **Izmantot termiņatlaidi** atpakaļ uz **Parasta**, jo viņš neļauj šim debitoram saņemt atlikušo termiņatlaidi 7,00. Pēc tam Arnijs grāmato maksājumu. Kad Arnijs atver lapu **Debitoru darbības**, viņš redz, ka rēķina bilance ir 0,00. Viņš arī redz, ka pastāv divi maksājumi. Viens maksājums ir par 297,00, un tam ir 3,00 termiņatlaide, un otrs maksājums ir 700,00.
+Arnijs maina vērtību laukā **Izmantot termiņatlaidi** atpakaļ uz **Parasta**, jo viņš neļauj šim debitoram saņemt atlikušo termiņatlaidi 7,00. Pēc tam Arnijs grāmato maksājumu. Kad Arnijs atver lapu **Debitoru darījumi**, rēķina bilance ir 0,00. Ir divi maksājumi: Viens maksājums ir par 297,00, un tam ir 3,00 termiņatlaide, un otrs maksājums ir 700,00.
 
 | Dokuments    | Darījuma veids | Datums      | Rēķins | Summa transakcijas valūtas debetā | Summa transakcijas valūtas kredītā | Bilance | Valūta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

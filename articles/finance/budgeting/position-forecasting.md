@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827345"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028231"
 ---
 # <a name="position-forecasting"></a>Pozīciju prognozēšana
 
@@ -67,9 +67,9 @@ Jodi organizācija sniedz apmācības atvieglojumu, kas ir 5 procenti no darbin
 
 Jodi nevēlas mainīt atvieglojumu summu vadītājiem. Tādēļ viņa atlasa **Neatļaut izmaksu izmaiņas** laukā **Prognozes pozīcijas ignorēšana**. Organizācija vēlas piešķirt šīs izmaksas vienmērīgi katru mēnesi. Tāpēc Jodi atlasa **Ceturkšņa** laukā **Sadalījuma metode**. 
 
-Pēc tam Jodi pievieno izmaksu aprēķina rindu, iestata datumus un galveno kontu un ievada **5,00** kā procentuālo vērtību. Viņas organizācijai ir 5000 $ ierobežojums gadā šim atvieglojumam. Tāpēc Jodi ievada šo summu kā gada ierobežojumu. 
+Pēc tam Jodi pievieno izmaksu aprēķina rindu, iestata datumus un galveno kontu un ievada **5,00** kā procentuālo vērtību. Organizācijai ir 5000 $ ierobežojums gadā šim atvieglojumam. Tāpēc Jodi ievada šo summu kā gada ierobežojumu. 
 
-Visbeidzot, Jodi pievieno visus ieņēmumu izmaksu elementus, kas tiek izmantoti pamata algā kā aprēķina pamats. Tagad viņas budžeta izmaksu elements ir gatavs izmantošanai.
+Visbeidzot, Jodi pievieno visus ieņēmumu izmaksu elementus, kas tiek izmantoti pamata algā kā aprēķina pamats. Tagad budžeta izmaksu elements ir gatavs izmantošanai.
 
 ### <a name="compensation-groups"></a>Atlīdzības grupas
 
@@ -137,7 +137,7 @@ Budžeta izmaksu elementa rindas ir jāpārrēķina, kad FTE vērtība tiek noma
 
 **Piemērs** 
 
-Organizācija apsver divas iespējas, kā samazināt grāmatveža pozīcijas izmaksas. Viena iespēja ir izbeigt pozīciju kādā gada daļā. Cita iespēja ir mainīt amatu uz nepilna laika amatu visa gada garumā. Breds ir izveidojis prognozes pozīciju esošajam grāmatveža amatam bāzes scenārijā. Viņš kopē šo bāzlīnijas prognozes pozīciju scenārijā A, iestata aiziešanas pensijā datumu uz 31. maiju un pārrēķina. Pēc tam Breds kopē bāzlīnijas prognozes pozīciju scenārijā B, maina FTE vērtību uz **0,50**, un veic pārrēķinu. Tagad Bredam ir trīs versijas, katrai no kurām ir izmaksu kopsummas, kas ir saskaņotas ar viņa iespējam.
+Organizācija apsver divas iespējas, kā samazināt grāmatveža pozīcijas izmaksas. Viena iespēja ir izbeigt pozīciju kādā gada daļā. Cita iespēja ir mainīt amatu uz nepilna laika amatu visa gada garumā. Breds ir izveidojis prognozes pozīciju esošajam grāmatveža amatam bāzes scenārijā. Breds kopē šo bāzlīnijas prognozes pozīciju scenārijā A, iestata aiziešanas pensijā datumu uz 31. maiju un pārrēķina. Pēc tam Breds kopē bāzlīnijas prognozes pozīciju scenārijā B, maina FTE vērtību uz **0,50**, un veic pārrēķinu. Tagad Bredam ir trīs versijas, katrai no kurām ir izmaksu kopsummas, kas ir saskaņotas ar iespējam.
 
 #### <a name="assigning-a-compensation-group"></a>Atlīdzības grupas piešķiršana
 

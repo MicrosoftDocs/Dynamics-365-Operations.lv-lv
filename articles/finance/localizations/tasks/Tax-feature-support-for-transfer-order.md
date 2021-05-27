@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920959"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021373"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Nodokļu līdzekļu atbalsts pārsūtīšanas pasūtījumiem
 
@@ -41,7 +40,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
 
 1. Lapā **Nodokļu līdzekļi**, cilnē **Versijas** atlasiet melnraksta līdzekļa versiju un pēc tam atlasiet **Rediģēt**.
 
-    ![Atlasot Rediģēt](../media/image1.png)
+    ![Atlasot Rediģēt](../media/tax-feature-support-01.png)
 
 2. Lapā **Nodokļu līdzekļu iestatījums** cilnē **Nodokļu kodi** atlasiet **Pievienot**, lai izveidotu jaunus nodokļu kodus. Šajā piemērā ir izveidoti trīs nodokļu kodi: **NL-Neapliekamais**, **BE-RC-21** un **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         4. Atlasiet **Pievienot** tabulā **Likme**.
         5. Pārsledziet **Ir neapliekams** uz **Jā** sadaļā **Vispārējais**.
 
-        ![NL-Neapliekamā nodokļa kods](../media/image2.png)
+        ![NL-Neapliekamā nodokļa kods](../media/tax-feature-support-02.png)
 
     - Kad pārsūtīšanas pasūtījums tiek saņemts Beļģijas noliktavā, atgriezeniskās maksas mehānisms tiek piemērots, izmantojot **BE-RC-21** un **BE-RC+21** nodokļu kodus.
         
@@ -67,7 +66,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         6. Pārsledziet **Ir apgrieztā maksa** uz **Jā** sadaļā **Vispārējais**.
         7. Atlasiet **Saglabāt**.
 
-        ![BE-RC-21 nodokļa kods apgrieztām maksām](../media/image3.png)
+        ![BE-RC-21 nodokļa kods apgrieztām maksām](../media/tax-feature-support-03.png)
         
         Izveidojiet nodokļa kodu **BE-RC+21**.
         1. Atlasiet **Pievienot** ievadiet **BE-RC-21** laukā **Nodokļa kods**.
@@ -77,7 +76,7 @@ Veiciet šīs darbības, lai iestatītu nodokli, kas ir iesaistīts pārsūtīš
         5. Ievadiet **21** laukā **Nodokļa likme**.
         6. Atlasiet **Saglabāt**.
 
-        ![BE-RC+21 nodokļa kods apgrieztām maksām](../media/image4.png)
+        ![BE-RC+21 nodokļa kods apgrieztām maksām](../media/tax-feature-support-04.png)
 
 3. Nosakiet nodokļa kodu piemērojamību.
 

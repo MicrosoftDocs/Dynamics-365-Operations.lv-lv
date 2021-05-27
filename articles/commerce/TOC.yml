@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Skaidras naudas pārvaldības uzlabojumi
                       href: cash-mgmt.md
-                    - name: Krājumu uzmeklēšana punktā POS
-                      href: product-variants-POS.md
                     - name: Transakciju apturēšana un atsākšana punktā POS
                       href: pos-suspend-recall-transactions.md
                     - name: Bezsaistes POS funkcionalitāte
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Krājumu pieejamības aprēķināšana mazumtirdzniecības kanāliem
                       href: calculated-inventory-retail-channels.md
+                    - name: "Krājumu uzmeklēšanas darbība punktā\_POS"
+                      href: pos-inventory-lookup-operation.md
                 - name: Pirkšanas pasūtījumi
                   items:
                     - name: Pirkšanas pasūtījumu pārskats
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: POS paplašinājuma pakotnes projekta izveide
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Modern POS paplašinājuma programmas appx faila izveide
+                    - name: "Modern\_POS paplašinājuma pakotnei paredzēta .appx faila izveide"
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: POS paplašinājuma atkļūdošana
+                    - name: "POS\_paplašinājumu atkļūdošana"
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Paplašinājumu pakošana un izvietošana
+                      items:
+                        - name: "Modern\_POS paplašinājuma pakotnes izveide"
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: "Kods, kas paraksta Modern\_POS (MSIX) paplašinājuma pakotni"
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: "Cloud\_POS paplašinājuma pakotnes izveide"
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: "POS\_paplašinājuma migrēšana uz neatkarīgās pakošanas modeli"
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: "POS\_paplašinājumu izstrādes rokasgrāmata"
+                      items:
+                        - name: "POS\_paplašinājumu pamati"
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: "Pielāgota skata izveide\_POS"
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: "POS\_vadīklu izmantošana paplašinājumos"
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Uzdevumi
+                          items:
+                            - name: "Knockout.js izmantošana POS\_paplašinājumos"
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: "Pielāgotu bezgalvas Commerce\_API patēriņš"
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Station paplašināmība
               items:
                 - name: Hardware Station un paplašināmība

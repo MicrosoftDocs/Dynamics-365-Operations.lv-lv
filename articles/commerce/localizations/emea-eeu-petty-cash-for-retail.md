@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9305e7143bc0a978569d51544a1ae65ee57b3243
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a24943e69ef285f14d39e6bfd446b0121fc80d8
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798818"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020284"
 ---
 # <a name="petty-cash-management-for-commerce-for-eastern-europe"></a>Mazo kases posteņu pārvaldība programmai Commerce Austrumeiropā
 
@@ -26,7 +26,7 @@ ms.locfileid: "5798818"
 
 Šajā rakstā ir informācija par komercnozarei raksturīgo Austrumeiropas lokalizāciju.
 
-Atbilstoši Austrumeiropas valstu grāmatvedības prasībām ir iespējams iestatīt operācijas skaidras naudas kontiem, lai automatizētu procesus ieņēmumiem, skaidras naudas dokumentiem un skaidras naudas pārskatiem. Plašāku informāciju skatiet šeit: [(EEUR) Parametru iestatīšana kases pārvaldībai](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
+Atbilstoši Austrumeiropas valstu grāmatvedības prasībām ir iespējams iestatīt operācijas skaidras naudas kontiem, lai automatizētu procesus ieņēmumiem, skaidras naudas dokumentiem un skaidras naudas pārskatiem. Plašāku informāciju skatiet šeit: [(EEUR) Parametru iestatīšana kases pārvaldībai](/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
 
 Mazumtirgotāji var pieņemt dažāda veida maksājumus apmaiņā pret pārdotajām precēm un pakalpojumiem. Kaut gan skaidra nauda ir visizplatītākais maksājumu veids, mazumtirgotāji var arī saņemt maksājumus čeku, karšu vai dokumentu formā. Mazumtirdzniecības punktā (POS), skaidra nauda, kredītkaršu kvītis un citi maksājumi tiek apstrādāti, izmantojot kasi.
 
@@ -36,7 +36,7 @@ To var izdarīt, programmā Commerce izmantojot līdzekli Kases pārvaldība.
 - Lai grāmatotu skaidras naudas transakcijas un debitoru maksājumus, kas tiek saņemti mazumtirdzniecības POS, izmantojiet kases žurnālus.
 - Kad grāmatojat pārskatu, apkopojiet transakcijas pārskata rindā. Varat apkopot noguldījumus seifā, noguldījumus bankā, dokumentu transakcijas, noņemt norēķinu darījumus, mainīgo ierakstu transakcijas, ienākumu transakcijas, izdevumu transakcijas, debitoru maksājumus, pārdošanas transakcijas un atgriešanas transakcijas.
 
-Visas transakcijas, kas notiek POS tiek grāmatotas, izmantojot Virsgrāmatas žurnālu. Pārskatu izveidei un grāmatošanai var izmantot skaidras naudas maksājumu žurnālus, debitoru maksājumu žurnālus un Virsgrāmatas žurnālus. Plašāku informāciju skatiet šeit: [Mazumtirdzniecības veikala izrakstu izveidošana, aprēķināšana un grāmatošana](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
+Visas transakcijas, kas notiek POS tiek grāmatotas, izmantojot Virsgrāmatas žurnālu. Pārskatu izveidei un grāmatošanai var izmantot skaidras naudas maksājumu žurnālus, debitoru maksājumu žurnālus un Virsgrāmatas žurnālus. Plašāku informāciju skatiet šeit: [Mazumtirdzniecības veikala izrakstu izveidošana, aprēķināšana un grāmatošana](/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
 
 Lapā **Grāmatotie izraksti**, darbību rūtī varat izpildīt tālāk aprakstītās darbības.
 
@@ -47,7 +47,7 @@ Lapā **Grāmatotie izraksti**, darbību rūtī varat izpildīt tālāk aprakst�
 
 Pirms kases pārvaldības izmantošanas ir jāveic tālāk aprakstītā iestatīšanas procedūra.
 
-- Lapā **Maksāšanas metodes** iestatiet maksāšanas metodi katram mazumtirgotāja akceptētajam maksājuma tipam. Transakciju grāmatošanai programmā POS varat izmantot dažādas maksāšanas metodes. Plašāku informāciju par maksāšanas metodēm skatiet [Maksāšanas metodes](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
+- Lapā **Maksāšanas metodes** iestatiet maksāšanas metodi katram mazumtirgotāja akceptētajam maksājuma tipam. Transakciju grāmatošanai programmā POS varat izmantot dažādas maksāšanas metodes. Plašāku informāciju par maksāšanas metodēm skatiet [Maksāšanas metodes](/dynamics365/unified-operations/retail/payment-methods).
 - Iestatiet parametrus skaidras naudas operācijām.
 - Iestatiet maksāšanas metodi maksājumiem veikalā skaidrā naudā.
 

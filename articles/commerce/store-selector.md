@@ -2,7 +2,6 @@
 title: Veikala atlasītāja modulis
 description: Šajā tēmā aplūkots veikalu atlasītāja modulis un aprakstīts, kā to pievienot vietnes lapām programmā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853421"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021468"
 ---
 # <a name="store-selector-module"></a>Veikalu atlasītāja modulis
 
@@ -62,7 +61,7 @@ Lai ievadītu veikala atrašanās vietas platumu un garumu programmā Commerce H
 
 ## <a name="bing-maps-integration"></a>Bing karšu integrācija
 
-Veikala atlasītāja modulis ir integrēts ar [Bing karšu REST programmas interfeisu (API)](https://docs.microsoft.com/bingmaps/rest-services/), lai izmantotu Bing ģeogrāfiskās kodēšanas un automātiskās ieteikšanas līdzekļus. Nepieciešama Bing karšu API atslēga, un tā ir jāpievieno kopīgo parametru lapā pakalpojumā Commerce headquarters. Ģeogrāfiskās kodēšanas API tiek izmantots, lai konvertētu novietojumu uz platuma un garuma vērtībām. Integrācija ar Automātiskās ieteikšanas API tiek izmantots, lai parādītu meklēšanas ieteikumus, kad lietotāji meklēšanas laukā ievada atrašanās vietas.
+Veikala atlasītāja modulis ir integrēts ar [Bing karšu REST programmas interfeisu (API)](/bingmaps/rest-services/), lai izmantotu Bing ģeogrāfiskās kodēšanas un automātiskās ieteikšanas līdzekļus. Nepieciešama Bing karšu API atslēga, un tā ir jāpievieno kopīgo parametru lapā pakalpojumā Commerce headquarters. Ģeogrāfiskās kodēšanas API tiek izmantots, lai konvertētu novietojumu uz platuma un garuma vērtībām. Integrācija ar Automātiskās ieteikšanas API tiek izmantots, lai parādītu meklēšanas ieteikumus, kad lietotāji meklēšanas laukā ievada atrašanās vietas.
 
 Automātiskā ieteikšanas REST API jums ir jānodrošina, ka ir atļauti šādi vietrāži URL jūsu vietnes satura drošības politikai (CSP). Šis iestatījums tiek veikts Commerce vietnes veidotājā, pievienojot atļautos vietrāžus URL dažādām vietnes CSP direktīvām (piemēram, **img-src**). Papildinformāciju skatiet [Satura drošības politika](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Veikala atlasītāja modulis atbalsta **Saņemšanu veikalā** režīmu, kas par
 
 Veikala atlasītāja moduli var pievienot pirkšanas kastes modulim PDP, lai parādītu veikalus, kuros prece ir pieejama saņemšanai. To var pievienot arī groza modulim. Šādā gadījumā veikala atlasītāja modulis parāda saņemšanas opcijas katram groza rindas elementam. Veikala atlasītāja modulis var arī tikt pievienots citām lapām vai moduļiem, izmantojot paplašinājumus un pielāgojumus.
 
-Lai šis scenārijs darbotos, precēm jābūt konfigurētām lai tiktu izmantots **saņemšanas** piegādes veidu. Pretējā gadījumā modulis netiks uzrādīts preču lapās. Papildinformācijai par piegādes režīma konfigurēšanu skatiet rakstā [Piegādes veidu iestatīšana](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Lai šis scenārijs darbotos, precēm jābūt konfigurētām lai tiktu izmantots **saņemšanas** piegādes veidu. Pretējā gadījumā modulis netiks uzrādīts preču lapās. Papildinformācijai par piegādes režīma konfigurēšanu skatiet rakstā [Piegādes veidu iestatīšana](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Šajā attēlā redzams veikala atlasītāja moduļa piemērs, kas izmantots PDP.
 
 ![Veikala atlasītāja moduļa piemērs, kas izmantots PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Versijā 10.0.16 un jaunākās versijās var iespējot jaunu funkciju, kas ļauj organizācijai definēt klientiem piegādes opciju vairākus saņemšanas veidus.  Ja šī funkcija ir aktivizēta, veikala selektors un citi e-tirdzniecības moduļi tiks uzlaboti, lai ļautu pircējiem izvēlēties no potenciāli vairākām saņemšanas opcijām, ja tās ir konfigurētas.  Lai uzzinātu vairāk par šo līdzekli, skatiet [šo dokumentāciju](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Versijā 10.0.16 un jaunākās versijās var iespējot jaunu funkciju, kas ļauj organizācijai definēt klientiem piegādes opciju vairākus saņemšanas veidus.  Ja šī funkcija ir aktivizēta, veikala selektors un citi e-tirdzniecības moduļi tiks uzlaboti, lai ļautu pircējiem izvēlēties no potenciāli vairākām saņemšanas opcijām, ja tās ir konfigurētas.  Lai uzzinātu vairāk par šo līdzekli, skatiet [šo dokumentāciju](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Atrast veikalu režīms
 
@@ -157,11 +156,11 @@ Lai konfigurētu veikala atlasītāja moduli, lai rādītu veikala atrašanās v
 
 [Īss groza un norēķināšanās apskats](quick-tour-cart-checkout.md)
 
-[Iestatiet piegādes veidus](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Iestatiet piegādes veidus](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Bing karšu pārvaldība organizācijā](dev-itpro/manage-bing-maps.md)
 
-[Bing karšu REST API](https://docs.microsoft.com/bingmaps/rest-services/)
+[Bing karšu REST API](/bingmaps/rest-services/)
 
 [Karšu modulis](map-module.md)
 

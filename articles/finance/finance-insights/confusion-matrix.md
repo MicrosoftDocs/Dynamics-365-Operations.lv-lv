@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818756"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028207"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Algoritmiskās mācīšanās modeļu rezultāti (priekšskatījums)
 
@@ -63,8 +63,8 @@ Lai sāktu apskatīt šo jautājumu, apsveriet naiva minējuma precizitāti. Kla
 
 Ir vērts pieminēt vēl vienu aspektu. Apsveriet scenāriju, kur tiek izmantots medicīnisks tests, lai noteiktu pacienta slimību. Šī ir bināras klasifikācijas problēma, kad pozitīvs rezultāts norāda, ka pacientam ir slimība. Šajā scenārijā ir jādomā par tālāk norādīto kļūdu ietekmi.
 
-- Viltus pozitīvs, kad tests saka, ka pacientam ir slimība, bet patiesībā viņa tam nav.
-- Viltus negatīvs, kad tests saka, ka pacientam nav slimības, bet patiesībā viņa tam ir.
+- Viltus pozitīvs, kad tests saka, ka pacientam ir slimība, bet patiesībā tā viņam nav.
+- Viltus negatīvs, kad tests saka, ka pacientam nav slimības, bet patiesībā tā viņam ir.
 
 Protams, abi kļūdu veidi ir nevēlami, bet kurš ir sliktāks? Atkal, tas ir atkarīgs no apstākļiem. Gadījumos, kad dzīvībai bīstamai slimībai nepieciešama ātra ārstēšana, prioritāte ir viltus negatīvu rezultātu samazināšanai (kam, cerams, seko papildu testi). Citās, mazāk kritiskās situācijās modeļa veidotāji tā vietā varētu samazināt viltus pozitīvos testus. Jebkurā gadījumā saprātīgs secinājums ir tāds, ka efektīvai modeļa kvalitātes noteikšanai ir jābūt pieejamai vairāk informācijai, nekā sniedz precizitātes metrika.
 

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794023"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028159"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Pārdošanas punkta (POS) uzlabojumi serializētām precēm
 
@@ -30,7 +30,7 @@ Pamatojoties uz iestatījumiem programmā Commerce Headquarters, preces var klas
 
 ## <a name="pos-improvements"></a>POS uzlabojumi
 
-- **Pirms norēķināšanās sērijas numuri nav nepieciešami** — iepriekš kasierim, kurš transakcijai pievienoja serializētu preci, bija jānorāda sērijas numurs. Šī prasība radīja problēmas tādos klientu apkalpošanas scenārijos, kad kasieriem un pārdevējam bija iespēja veikt preču papildu pārdošanu. Līdz maksājuma darbībai preces grozā bieži vien tika atjauninātas. Tāpēc katru reizi, kad kasieris pievienoja jaunu preci, sistēma viņam vai viņai prasīja norādīt sērijas numuru. Sērijas numura dialoglodziņā tagad ir poga **Pievienot vēlāk**. Tādēļ pārdevēji var krājumu pievienot transakcijai, bet krājuma sērijas numuru var norādīt vēlāk. Pārdevēji var ātri pievienot un aizstāt grozā esošos serializētos krājumus, un pēc tam sērijas numuru norādīt tieši pirms norēķināšanās. Ja kādai serializētajai precei sērijas numurs nav norādīts, tad kasierim, kas mēģina pabeidziet transakciju, tiek parādīts kļūdas ziņojums. Tas ziņo, ka kasierim pirms turpināšanas ir jānorāda trūkstošie sērijas numuri.
+- **Pirms norēķināšanās sērijas numuri nav nepieciešami** — iepriekš kasierim, kurš transakcijai pievienoja serializētu preci, bija jānorāda sērijas numurs. Šī prasība radīja problēmas tādos klientu apkalpošanas scenārijos, kad kasieriem un pārdevējam bija iespēja veikt preču papildu pārdošanu. Līdz maksājuma darbībai preces grozā bieži vien tika atjauninātas. Tāpēc katru reizi, kad kasieris pievienoja jaunu preci, sistēma kasierim prasīja norādīt sērijas numuru. Sērijas numura dialoglodziņā tagad ir poga **Pievienot vēlāk**. Tādēļ pārdevēji var krājumu pievienot transakcijai, bet krājuma sērijas numuru var norādīt vēlāk. Pārdevēji var ātri pievienot un aizstāt grozā esošos serializētos krājumus, un pēc tam sērijas numuru norādīt tieši pirms norēķināšanās. Ja kādai serializētajai precei sērijas numurs nav norādīts, tad kasierim, kas mēģina pabeidziet transakciju, tiek parādīts kļūdas ziņojums. Tas ziņo, ka kasierim pirms turpināšanas ir jānorāda trūkstošie sērijas numuri.
 
     Katram serializētajam krājumam, kura sērijas numurs tika izlaists, zem transakcijas rindas tiek parādīts komentārs. Šis komentārs ziņo, ka krājumam nav norādīts sērijas numurs. Tāpēc kasieris var ātri atrast krājumus, kuriem trūkst sērijas numuru.
 

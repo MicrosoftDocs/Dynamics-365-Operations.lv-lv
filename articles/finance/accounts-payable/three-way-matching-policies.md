@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814300"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027798"
 ---
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
@@ -37,9 +37,9 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 
 Šajā piemērā ietvertie rēķinu salīdzināšanas atbilstības ierobežojumi palīdz personām tālāk norādītajos amatos sasniegt savus mērķus.
 
--   Kens ir kontrolieris uzņēmumā Fabrikam. Viņš var palīdzēt personām savā organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
+-   Kens ir kontrolieris uzņēmumā Fabrikam. Kens var palīdzēt personām organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
 -   Filisa un Eiprila ir Fabrikam ASV nodaļas kreditoru departamenta grāmatvedības daļas vadītājas. Viņas var ieviest uzņēmuma politiku un nodrošināt, ka visi rēķini tiek apmaksāti tikai pēc tam, kad tiek noteikta to atbilstība pirkšanas pasūtījumiem un preču un pakalpojumu ieejas plūsmas dokumentiem, ja tas ir attiecināms.
--   Tonijs ir Fabrikam ASV nodaļas ražošanas daļas vadītājs. Viņš un citi ražošanas daļas darbinieki var nodrošināt, ka tiek saņemti no kreditoriem pasūtītie krājumi un tie tiek reģistrēti, lai darbinieki saņemtu darba veikšanai nepieciešamos rīkus un materiālus.
+-   Tonijs ir Fabrikam ASV nodaļas ražošanas daļas vadītājs. Tonijs un citi ražošanas daļas darbinieki var nodrošināt, ka tiek saņemti no kreditoriem pasūtītie krājumi un tie tiek reģistrēti, lai darbinieki saņemtu darba veikšanai nepieciešamos rīkus un materiālus.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
 
@@ -49,15 +49,15 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 -   Kens krājuma līmenī iestata trīsvirzienu atbilstības ierobežojumu krājumam 1500 — CNC Milicron mašīna. Šis krājums ir līdzeklis, kas tiek izmantots ražošanai uzņēmumā Fabrikam. Tiek noteikta šo krājuma rēķinu atbilstība pirkšanas pasūtījuma rindām, salīdzinot cenas, un ar produktu ieejas plūsmas dokumentiem, salīdzinot daudzumus.
 -   Tonijs iesniedz pieprasījumu piecu CNC Milicron mašīnu saņemšanai. Alīsija, Fabrikam pirkšanas pasūtījumu nodaļas darbiniece, izsniedz pirkšanas pasūtījumu juridiskai personai Contoso par krājumu piegādi.
 
-    | Krājuma kods                 | Daudzums | Vienības cena | Neto summa | Maksas kods        | Izmaksu vērtība |
+    | Krājums                 | Daudzums | Vienības cena | Neto summa | Maksas kods        | Izmaksu vērtība |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 — CNC Milicron mašīna | 5.        | 8000,00   | 40 000,00  | Sūtīšana un apstrāde | 3000,00      |
+    | 1500 — CNC Milicron mašīna | 5.        | 8000,00   | 40 000,00  | Sūtīšana un apstrāde | 3,000.00      |
 
 -   Ārnijs, Contoso debitoru parādu nodaļas darbinieks, pārskata nedēļas laikā veicamos sūtījumus. Ārnijs atlasa sūtīšanas transakcijas, lai izrakstītu uzņēmumam Fabrikam rēķinu par CNC Milicron mašīnu piegādi. Ārnijs ietver maksu par sūtīšanu un apstrādi. Uzņēmums Fabrikam uzskatīs, ka šī maksa ir ietverta līdzekļa cenā.
 
 ### <a name="scenario"></a>Scenārijs
 
-1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Viņš ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
+1.  Samijs, Fabrikam saņemšanas nodaļas darbinieks, saņem visas no Contoso nosūtītās mašīnas. Samijs ievada daudzumu 5 produktu ieejas plūsmas dokumentā. Tā kā pirkšanas pasūtījums ir pilnībā saņemts, pirkšanas pasūtījuma statuss tiek mainīts uz Saņemts.
 2.  Eiprila, Fabrikam kreditoru nodaļas koordinatore, ievada un pārbauda uzņēmuma Contoso iesniegto rēķinu. Viņa pārbauda tālāk norādīto informāciju.
     -   Krājumiem, kuriem ir nepieciešama trīsvirzienu atbilstība, rēķina rindā norādītais daudzums atbilst saņemtajam daudzumam. Saņemtais daudzums ir norādīts produktu ieejas plūsmas dokumentā, kas tiek salīdzināts ar rēķinu.
     -   Krājumiem, kuriem ir nepieciešama divvirzienu vai trīsvirzienu atbilstība, rēķina rindās norādītās cenas atbilst Microsoft Dynamics 365 Finance definētajām pielaidēm. Tas attiecas uz tālāk norādītajiem cenu salīdzināšanas tipiem.
@@ -66,7 +66,7 @@ Fabrikam vada vairākas juridiskās personas un nodarbina darbiniekus visā pasa
 
 Contoso izrakstītajā papīra formāta rēķinā ir ietverta tālāk norādītā informācija.
 
-| Krājums                        | Daudzums | Vienības cena | Neto summa |
+| Objekts                        | Daudzums | Vienības cena | Neto summa |
 |-----------------------------|----------|------------|------------|
 | 1500 — CNC Milicron mašīna | 5.        | 8100,00   | 40,500.00  |
 | Sūtīšana un apstrāde       |          |            | 4,000.00   |
@@ -87,7 +87,7 @@ Kopsavilkums. Kens ir kontrolieris juridiskas personas Fabrikam galvenajā biroj
 Apjomi un summas ir mazi, un ir radušas problēmas saistībā ar piegādi no dažiem kreditoriem Malaizijā. Šo iemeslu dēļ Keisija iestata noteiktu Malaizijā iegūto krājumu un kreditoru kombināciju kontroles līmeni uz trīsvirzienu atbilstību. 
 
 Šajā piemērā ietvertie rēķinu salīdzināšanas atbilstības ierobežojumi palīdz personām tālāk norādītajos amatos sasniegt savus mērķus.
--   Kens ir kontrolieris uzņēmumā Fabrikam. Viņš var palīdzēt personām savā organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
+-   Kens ir kontrolieris uzņēmumā Fabrikam. Kens var palīdzēt personām organizācija noteikt un atrisināt problēmas, kas ir saistītas ar kreditoru nodrošināto krājumu (preču un pakalpojumu) pasūtīšanu, saņemšanu un maksāšanu par tiem.
 -   Keisija ir grāmatvede Fabrikam Malaizija nodaļā. Viņa var ieviest uzņēmuma politiku un nodrošināt, ka visi rēķini tiek apmaksāti tikai pēc tam, kad tiek noteikta to atbilstība pirkšanas pasūtījuma rindām un preču un pakalpojumu produktu ieejas plūsmas dokumentiem. Viņa var arī paaugstināt noteiktu krājumu kontroles līmeni, iestatot trīsvirzienu atbilstību, lai kontrolētu darbības izmaksas.
 
 ### <a name="prerequisites"></a>Priekšnosacījumi
@@ -115,7 +115,7 @@ Apjomi un summas ir mazi, un ir radušas problēmas saistībā ar piegādi no da
 
 Contoso izrakstītajā papīra formāta rēķinā ir ietverta tālāk norādītā informācija.
 
-| Krājums                  | Daudzums | Vienības cena | Neto summa |
+| Objekts                  | Daudzums | Vienības cena | Neto summa |
 |-----------------------|----------|------------|------------|
 | PH2500 — dators     | 2        | 2500,00   | 5000,00   |
 | MM01 — bezvadu pele | 2        | 41.00      | 82.00      |

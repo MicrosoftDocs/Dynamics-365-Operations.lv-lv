@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804335"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018958"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Ienākošo krājumu operācija punktā POS
 
@@ -70,7 +70,7 @@ Jūsu izveidotie pakešuzdevumi tiks izmantoti, lai apstrādātu dokumentus, kur
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Priekšnoteikums: Pievienojiet ienākošo operāciju POS ekrāna izkārtojumam
 
-Lai jūsu organizācija varētu izmantot ienākošo operāciju funkcionalitāti, tai ir jākonfigurē POS operācija **Ienākošā operācija** vienā vai vairākos [POS ekrāna izkārtojumos](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Pirms jaunās operācijas izvietošanas ražošanas vidē, pārliecinieties, vai ka to rūpīgi pārbaudāt un apmācāt savus lietotājus tās lietošanā.
+Lai jūsu organizācija varētu izmantot ienākošo operāciju funkcionalitāti, tai ir jākonfigurē POS operācija **Ienākošā operācija** vienā vai vairākos [POS ekrāna izkārtojumos](/dynamics365/unified-operations/retail/pos-screen-layouts). Pirms jaunās operācijas izvietošanas ražošanas vidē, pārliecinieties, vai ka to rūpīgi pārbaudāt un apmācāt savus lietotājus tās lietošanā.
 
 ## <a name="overview"></a>Pārskats
 
@@ -159,9 +159,9 @@ Commerce versijā 10.0.14 un jaunākās lietotāji var saņemt preci, kas sākot
 
 Šis līdzeklis darbojas tikai pirkšanas pasūtījuma saņemšanai. Nav iespējams saņemt krājumus pret pārsūtīšanas pasūtījumiem, ja krājumi iepriekš netika pasūtīti un nosūtīti no nosūtīšanas noliktavas.
 
-Lietotāji nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā, ja tiek iespējota pirkšanas pasūtījuma [izmaiņu pārvaldības darbplūsma](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) Commerce Headquarters (HQ). Lai iespējotu izmaiņu pārvaldību, visas izmaiņas pirkšanas pasūtījumā vispirms ir jāapstiprina, pirms saņemšana ir atļauta. Tā kā šis process ļauj uztvērējam pievienot jaunas rindas pirkšanas pasūtījumam, saņemšana neizdosies, ja ir iespējota izmaiņu pārvaldības darbplūsma. Ja izmaiņu pārvaldība ir iespējota visiem pirkšanas pasūtījumiem vai kreditoram, kas ir saistīts ar pirkšanas pasūtījumu, kas tiek aktīvi saņemts POS, lietotājs nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā.
+Lietotāji nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā, ja tiek iespējota pirkšanas pasūtījuma [izmaiņu pārvaldības darbplūsma](../supply-chain/procurement/purchase-order-approval-confirmation.md) Commerce Headquarters (HQ). Lai iespējotu izmaiņu pārvaldību, visas izmaiņas pirkšanas pasūtījumā vispirms ir jāapstiprina, pirms saņemšana ir atļauta. Tā kā šis process ļauj uztvērējam pievienot jaunas rindas pirkšanas pasūtījumam, saņemšana neizdosies, ja ir iespējota izmaiņu pārvaldības darbplūsma. Ja izmaiņu pārvaldība ir iespējota visiem pirkšanas pasūtījumiem vai kreditoram, kas ir saistīts ar pirkšanas pasūtījumu, kas tiek aktīvi saņemts POS, lietotājs nevar pievienot jaunas preces pirkšanas pasūtījumam POS saņemšanas laikā.
 
-Funkcionalitāte, kas iespējo pievienot rindas, nevar tikt izmantota kā risinājums, lai saņemtu papildu preču daudzumus, kas jau ir pirkšanas pasūtījumā. Pārsniegšana tiek pārvaldīta, izmantojot standarta [pārsniegšanas](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) iestatījumus preču rindai pirkšanas pasūtījumā.
+Funkcionalitāte, kas iespējo pievienot rindas, nevar tikt izmantota kā risinājums, lai saņemtu papildu preču daudzumus, kas jau ir pirkšanas pasūtījumā. Pārsniegšana tiek pārvaldīta, izmantojot standarta [pārsniegšanas](#over-receiving-validations) iestatījumus preču rindai pirkšanas pasūtījumā.
 
 Ja opcija **Pievienot rindas pārdošanas pasūtījumam saņemšanas punkta laikā** ir iespējota, un lietotājs saņem ar **Ienākošo operāciju** POS, ja lietotājs skenē vai pievieno produkta svītrkodu vai produkta numuru, kas pašreizējā pirkšanas pasūtījumā nav atpazīts kā prece, bet tiek atpazīts kā derīgs vienums, lietotājs saņem ziņojumu par preces pievienošanu pirkšanas pasūtījumam. Ja lietotājs pievieno krājumu pirkšanas pasūtījumam, ievadītais daudzums sadaļā **Saņem tagad** tiek uzskatīts par pirkšanas pasūtījuma rindas pasūtīto daudzumu.
 

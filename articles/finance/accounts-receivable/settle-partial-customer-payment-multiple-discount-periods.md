@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835104"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027484"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Daļēju debitora maksājumu nosegšana, kam ir vairāki atlaižu periodi
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835104"
 Fabrikam piedāvā debitoram 4031 divus termiņatlaides periodus. Debitors saņem 2 procentu termiņatlaidi, ja rēķins tiek apmaksāts piecu dienu laikā un 1 procenta termiņatlaidi, ja rēķins tiek apmaksāts 14 dienu laikā. Fabrikam piedāvā arī termiņatlaides daļējiem maksājumiem. Nosegšanas parametri atrodas lapā **Debitoru moduļa parametri**.
 
 ## <a name="invoice"></a>Rēķins
-Arnis debitoram 4031 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 25. jūnijā. Kad viņš pārskata rēķina termiņatlaides, Arnis redz, ka debitors 4031 saņem atlaidi 20,00, ja rēķins tiek apmaksāts līdz 30. jūnijam. Ja rēķins tiek apmaksāts līdz 9. jūlijam, debitors saņem atlaidi 10,00.
+Arnis debitoram 4031 izrakstīto rēķinu par summu 1000,00 ievada un grāmato 25. jūnijā. Kad Arnijs pārskata rēķina termiņatlaides, Arnis redz, ka debitors 4031 saņem atlaidi 20,00, ja rēķins tiek apmaksāts līdz 30. jūnijam. Ja rēķins tiek apmaksāts līdz 9. jūlijam, debitors saņem atlaidi 10,00.
 
 | Termiņatlaides datums | Termiņatlaides summa | Summa darījuma valūtā |
 |--------------------|----------------------|--------------------------------|

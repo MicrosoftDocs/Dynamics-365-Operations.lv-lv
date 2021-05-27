@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 45eeae751051b58e1c9e725eb4ed4b5240026e7f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801439"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021131"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Pasūtījumu sinhronizācijas kļūda saistībā ar noklusējuma maksājumu pakalpojumu
 
@@ -46,4 +45,4 @@ Lai apstiprinātu vai iestatītu noklusējuma maksājumu pakalpojumu programmā 
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Kredītkartes iestatīšana, autorizēšana un nolasīšana](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/credit-card-authorizations)
+[Kredītkartes iestatīšana, autorizēšana un nolasīšana](../../finance/accounts-receivable/credit-card-authorizations.md)

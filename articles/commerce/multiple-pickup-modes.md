@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796884"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020655"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Iespējot vairākus pasūtījuma piegādes veidus klientu pasūtījumiem
 
@@ -82,7 +82,7 @@ Kad kanālam ir pieejami vairāki saņemšanas piegādes veidi, klientiem tiek n
 
 ## <a name="considerations-for-distributed-order-management"></a>Konfigurācijas sadalīto pasūtījumu pārvaldībai
 
-[Sadales pasūtījumu pārvaldība (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) līdzekļi Commerce ignorē visas pārdošanas rindas, kas ir atzīmētas saņemšanai veikalā. Šie līdzekļi ir atjaunināti, lai nodrošinātu, ka pārdošanas rindas, kas ir saistītas ar konfigurētajiem saņemšanas piegādes veidiem, apiet DOM loģiku un netiek pārdalītas uz jaunu izpildes noliktavu.
+[Sadales pasūtījumu pārvaldība (DOM)](./dom.md) līdzekļi Commerce ignorē visas pārdošanas rindas, kas ir atzīmētas saņemšanai veikalā. Šie līdzekļi ir atjaunināti, lai nodrošinātu, ka pārdošanas rindas, kas ir saistītas ar konfigurētajiem saņemšanas piegādes veidiem, apiet DOM loģiku un netiek pārdalītas uz jaunu izpildes noliktavu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799135"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027604"
 ---
 # <a name="enable-location-based-store-detection"></a>Veikala noteikšanas iespējošana pēc atrašanās vietas
 
@@ -31,7 +31,7 @@ Uz atrašanās vietu balstīta veikala atrašana Commerce ļauj nodrošināt kli
 
 ## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
 
-Ja ieslēdzat uz atrašanās vietu balstītu veikala atrašanas līdzekli, informācija no klienta pārlūkprogrammas tiek nosūtīta Microsoft vietas pakalpojumam. Šī informācija pēc tam tiek izmantota, lai nodrošinātu klientam saturu, kas ir būtisks viņa atrašanās vietā. Gan informācija, kas tiek sūtīta no klienta pārlūka, gan uz atrašanās vietu balstītā informācija, kas tiek nosūtīta atpakaļ klientam, ir pakļauta privātuma un sīkfailu atbilstības politikām.
+Ja ieslēdzat uz atrašanās vietu balstītu veikala atrašanas līdzekli, informācija no klienta pārlūkprogrammas tiek nosūtīta Microsoft vietas pakalpojumam. Šī informācija pēc tam tiek izmantota, lai nodrošinātu klientam saturu, kas ir būtisks klienta atrašanās vietā. Gan informācija, kas tiek sūtīta no klienta pārlūka, gan uz atrašanās vietu balstītā informācija, kas tiek nosūtīta atpakaļ klientam, ir pakļauta privātuma un sīkfailu atbilstības politikām.
 
 ## <a name="turn-on-location-based-store-detection"></a>Uz atrašanās vietu balstītas veikala atrašanas ieslēgšana
 

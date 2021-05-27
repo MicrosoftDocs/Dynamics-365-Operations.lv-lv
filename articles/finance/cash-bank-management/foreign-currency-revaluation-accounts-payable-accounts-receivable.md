@@ -1,6 +1,6 @@
 ---
 title: Valūtas pārvērtēšana moduļiem “Kreditori“ un “Debitori”
-description: Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību.
+description: Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815912"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026161"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Valūtas pārvērtēšana moduļiem “Kreditori“ un “Debitori”
 
 [!include [banner](../includes/banner.md)]
 
-Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā rakstā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību. 
+Valūtas maiņas kursu svārstības laikā gaitā izraisa neapmaksāto transakciju teorētiskās vērtības (atlikušās vērtības) ārvalstu valūtās izmaiņas. Šajā tēmā ir sniegta informācija par ārvalstu valūtas pārvērtēšanas procesu, kas tiek veikts, lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību. 
 
 Neapmaksāto transakciju ārvalstu valūtās teorētiskā vai atlikusī vērtība laika gaitā mainās valūtas maiņas kursu svārstību dēļ. Lai atjauninātu kreditoru un debitoru neapmaksāto transakciju vērtību, izpildiet ārvalstu valūtas pārvērtēšanas procesu. Ārvalstu valūtas pārvērtēšanu var veikt gan kreditoru, debitoru parādiem. Procesā tiek izmantots jauns valūtas maiņas kurss, lai pārvērtētu neapmaksātās summas vai nenosegtās summas uz konkrēto datumu. Starpība starp sākotnēji iegrāmatotajām summām un pārvērtētajām summām rada katras neapmaksātās transakcijas nerealizēto peļņu vai zaudējumus. Pēc tam tiek atjauninātas parādu kreditoriem un debitoru parādu apakšgrāmatas, lai reģistrētu nerealizēto peļņu vai zaudējumus, un Virsgrāmatā tiek grāmatots uzskaites ieraksts.
 
@@ -55,7 +55,7 @@ Par katru veikto ārvalstu valūtas pārvērtēšanu tiek veikta uzskate. Lapas 
     -   **Grāmatošana** — izmantotā debitora transakciju grāmatošanas metode.
     -   **Atlasīt** — grāmatošanas metodes ievadīšana laukā **Grāmatošanas profils**.
 -   **Grāmatošanas metode** — ja laukā **Izmantot grāmatošanas metodi no** ir atlasīta opcija **Atlasīt**, tad šajā laukā ievadītā grāmatošanas metode nosaka ārvalstu valūtas pārvērtēšanas transakciju grāmatošanas metodi.
--   **Finanšu dimensijas** — finanšu dimensijas, kas tiek iegrāmatotas ārvalstu valūtas pārvērtēšanas transakciju uzskaites ierakstos.
+-   **Finanšu dimensijas** — finanšu dimensijas, kas tiek iegrāmatotas ārvalstu valūtas pārvērtēšanas transakciju uzskaites ierakstos. Finanšu dimensijas nav pārbaudītas attiecībā pret konta struktūras noteikumiem. Konta struktūra, kas bija spēkā rēķinu grāmatošanas laikā, var nebūt tāda pati kā tie noteikumi, kas bija spēkā pārvērtēšanas pabeigšanas laikā. Pārvērtēšanas procesā nav opcijas atlasīt specifiskas finanšu dimensijas, tāpēc konta struktūras validācija ir izlaista.  
     -   **Nav** — netiek iegrāmatota neviena finanšu dimensija. Ja konta struktūrā ir noteikta obligāta finanšu dimensija, pārvērtēšanas process tiek veikts, bet tiek izveidoti uzskaites ieraksti bez finanšu dimensijām. Vispirms tiek parādīts brīdinājuma ziņojums, kas ļauj pārvērtēšanu atcelt.
     -   **Tabula** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas debitora un kreditora konta finanšu dimensijas.
     -   **Grāmatošana** — ārvalstu valūtas pārvērtēšanas transakcijās tiek iegrāmatotas pārvērtētās transakcijas finanšu dimensijas. Pēc noklusējuma pārvērtēšanas transakcijas AR/AP galvenajam kontam tiek izmantotas sākotnējās transakcijas AR/AP virsgrāmatas konta finanšu dimensijas, bet pārvērtēšanas transakcijas nerealizētās peļņas/zuduma galvenajam kontam tiek izmantotas sākotnējās transakcijas izdevumu/līdzekļu/ieņēmumu virsgrāmatas konta finanšu dimensijas.

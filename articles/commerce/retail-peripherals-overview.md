@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857277"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018835"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -158,7 +158,7 @@ Tīklā tiešā veidā, izmantojot starpprocesu saziņas (IPC) aparatūras stac
 
 ### <a name="dedicated"></a>Atvēlēts
 
-Mūsdienīgie POS klienti operētājsistēmai Windows un Android ietver **Speciālās** vai iebūvētās aparatūras stacijas. Šie klienti var tieši komunicēt ar perifērijas ierīcēm, izmantojot biznesa loģiku, kas ir iebūvēta lietojumprogrammās. Android programma atbalsta tikai tīkla ierīces. Lai iegūtu vairāk informācijas par perifēro atbalstu Android, apmeklējiet rakstu [Iestatīt POS hibrīda programmu Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Mūsdienīgie POS klienti operētājsistēmai Windows un Android ietver **Speciālās** vai iebūvētās aparatūras stacijas. Šie klienti var tieši komunicēt ar perifērijas ierīcēm, izmantojot biznesa loģiku, kas ir iebūvēta lietojumprogrammās. Android programma atbalsta tikai tīkla ierīces. Lai iegūtu vairāk informācijas par perifēro atbalstu Android, apmeklējiet rakstu [Iestatīt POS hibrīda programmu Android un iOS](./dev-itpro/hybridapp.md).
 
 Lai lietotu speciālo aparatūras staciju, piešķiriet aparatūras profilu kases sistēmai, kurā tiks lietota lietojumprogramma Modern POS operētājsistēmai Windows vai Android programmām. Pēc tam izveidojiet veida **Atvēlēts** aparatūras staciju veikalam, kurā tiks lietota šī kases sistēma. Startējiet modernās POS neizmantošanas režīmā un izmantojiet opciju **pārvaldīt aparatūras stacijas**, lai ieslēgtu aparatūras stacijas iespējas, atvēlētā aparatūras stacija būs aktīva pēc noklusējuma. Pēc tam izrakstieties no Modern POS, tad atkal piesakieties un atveriet maiņu un aparatūras profilā konfigurētās perifērās ierīces būs lietojamas. 
 
@@ -199,7 +199,7 @@ Informāciju skatiet [Modern POS (MPOS) konfigurēšana, instalēšana un aktivi
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS operētājsistēmai Android un iOS iestatīšana un konfigurēšana
 
-Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmā Android un iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS ierīces iestatīšana un konfigurēšana
 
@@ -494,7 +494,7 @@ Papildinformāciju par to, kā izveidot aparatūras profilus, skatiet tēmā [Ka
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS operētājsistēmai Android ar IPC (iebūvētu) aparatūras staciju
 
-**Jauni 10.0.8** - Epson tīkla printeri un naudas kastes, kas savienotas ar šiem printeriem, izmantojot DK, tagad ir atbalstīti Modern POS operētājsistēmai Android programmai. Papildu informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmās Android un iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Jauni 10.0.8** - Epson tīkla printeri un naudas kastes, kas savienotas ar šiem printeriem, izmantojot DK, tagad ir atbalstīti Modern POS operētājsistēmai Android programmai. Papildu informāciju skatiet rakstā [Iestatiet POS hibrīdprogrammu operētājsistēmās Android un iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi Modern POS klienti, kam ir saistīta koplietotā IIS aparatūras stacija
 
@@ -614,6 +614,9 @@ Tālāk norādītās perifērās ierīces ir pārbaudītas, izmantojot IPC apar
 | Star         | TSP650II | Pielāgot    | Tīkla savienojums   |
 | Star         | mPOP     | OPOS      | Bluetooth savienojums |
 | HP           | F7M67AA  | OPOS      | USB barošana             |
+
+> [!NOTE]
+> Iebūvētajā aparatūras stacijā netiek atbalstīts Star TSP 100 printeris. Iebūvētā aparatūras stacija izmanto 64 bitu procesu, kas nav saderīgs ar esošajiem Star TP 100 draiveriem. 
 
 #### <a name="bar-code-scanner"></a>Svītrkoda skeneris
 
