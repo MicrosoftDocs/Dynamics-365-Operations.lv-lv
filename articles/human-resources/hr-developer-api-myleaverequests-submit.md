@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,63 +15,63 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd82bef29e5d1d33c1dc1aa3a039833741c1fdaf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9b3151cb042012a167854a1e69b55b36981dab19
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793637"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054576"
 ---
-# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="24469-103">Atvaļinājuma pieprasījuma iesniegšana darbplūsmai</span><span class="sxs-lookup"><span data-stu-id="24469-103">Submit a leave request to workflow</span></span>
+# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="9c1b5-103">Atvaļinājuma pieprasījuma iesniegšana darbplūsmai</span><span class="sxs-lookup"><span data-stu-id="9c1b5-103">Submit a leave request to workflow</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="24469-104">Programmā Microsoft Dynamics 365 Human Resources, varat izmantot MyLeaveRequests iesniegt () lietojumprogrammu programmēšanas interfeiss (API), lai darbplūsmā iesniegtu atvaļinājuma pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="24469-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="24469-105">Šis API ir parādīts kā darbība MyLeaveRequests OData elementā.</span><span class="sxs-lookup"><span data-stu-id="24469-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
+<span data-ttu-id="9c1b5-104">Programmā Microsoft Dynamics 365 Human Resources, varat izmantot MyLeaveRequests iesniegt () lietojumprogrammu programmēšanas interfeiss (API), lai darbplūsmā iesniegtu atvaļinājuma pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="9c1b5-105">Šis API ir parādīts kā darbība MyLeaveRequests OData elementā.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="24469-106">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="24469-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="9c1b5-106">Priekšnosacījumi</span><span class="sxs-lookup"><span data-stu-id="9c1b5-106">Prerequisites</span></span>
 
-<span data-ttu-id="24469-107">Atvaļinājuma pieprasījums jāsaglabā datu bāzē, un tam ir jābūt izgūstamam, izmantojot MyLeaveRequests elementu.</span><span class="sxs-lookup"><span data-stu-id="24469-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="9c1b5-107">Atvaļinājuma pieprasījums jāsaglabā datu bāzē, un tam ir jābūt izgūstamam, izmantojot MyLeaveRequests elementu.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="24469-108">Tiesības</span><span class="sxs-lookup"><span data-stu-id="24469-108">Permissions</span></span>
+## <a name="permissions"></a><span data-ttu-id="9c1b5-108">Tiesības</span><span class="sxs-lookup"><span data-stu-id="9c1b5-108">Permissions</span></span>
 
-<span data-ttu-id="24469-109">Lai izsauktu šo API, ir nepieciešama viena no šīm atļaujām.</span><span class="sxs-lookup"><span data-stu-id="24469-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="24469-110">Plašāku informāciju par atļaujām un to atlasi skatiet [Autentifikācija](hr-developer-api-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="24469-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
+<span data-ttu-id="9c1b5-109">Lai izsauktu šo API, ir nepieciešama viena no šīm atļaujām.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="9c1b5-110">Plašāku informāciju par atļaujām un to atlasi skatiet [Autentifikācija](hr-developer-api-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="9c1b5-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
 
-| <span data-ttu-id="24469-111">Atļaujas veids</span><span class="sxs-lookup"><span data-stu-id="24469-111">Permission type</span></span>                    | <span data-ttu-id="24469-112">Atļaujas (no vismazāk priviliģētās uz priviliģētāko)</span><span class="sxs-lookup"><span data-stu-id="24469-112">Permissions (from least privileged to most privileged)</span></span> |
+| <span data-ttu-id="9c1b5-111">Atļaujas veids</span><span class="sxs-lookup"><span data-stu-id="9c1b5-111">Permission type</span></span>                    | <span data-ttu-id="9c1b5-112">Atļaujas (no vismazāk priviliģētās uz priviliģētāko)</span><span class="sxs-lookup"><span data-stu-id="9c1b5-112">Permissions (from least privileged to most privileged)</span></span> |
 |------------------------------------|--------------------------------------------------------|
-| <span data-ttu-id="24469-113">Deleģēta (darba vai skolas konts)</span><span class="sxs-lookup"><span data-stu-id="24469-113">Delegated (work or school account)</span></span> | <span data-ttu-id="24469-114">lietotāja\_personifikācija</span><span class="sxs-lookup"><span data-stu-id="24469-114">user\_impersonation</span></span>                                    |
+| <span data-ttu-id="9c1b5-113">Deleģēta (darba vai skolas konts)</span><span class="sxs-lookup"><span data-stu-id="9c1b5-113">Delegated (work or school account)</span></span> | <span data-ttu-id="9c1b5-114">lietotāja\_personifikācija</span><span class="sxs-lookup"><span data-stu-id="9c1b5-114">user\_impersonation</span></span>                                    |
 
-## <a name="https-request"></a><span data-ttu-id="24469-115">HTTPS pieprasījums</span><span class="sxs-lookup"><span data-stu-id="24469-115">HTTPS request</span></span>
+## <a name="https-request"></a><span data-ttu-id="9c1b5-115">HTTPS pieprasījums</span><span class="sxs-lookup"><span data-stu-id="9c1b5-115">HTTPS request</span></span>
 
 <!-- { "blockType": "ignored" } -->
 ```HTTP
 POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/MyLeaveRequests(RequestId='{requestId}', LeaveType='{leaveType}', LeaveDate={leaveDate}, dataAreaId={dataArea})/Microsoft.Dynamics.DataEntities.submit?cross-company=true
 ```
 
-<span data-ttu-id="24469-116">Pieprasījums atbilst OData standartiem.</span><span class="sxs-lookup"><span data-stu-id="24469-116">The request conforms to OData standards.</span></span> <span data-ttu-id="24469-117">Parametri {requestId}, {leaveType}, {leaveDate} un {dataArea} attiecas uz laukiem, kas veido kompozīta parasto atslēgu MyLeaveRequests entītijai.</span><span class="sxs-lookup"><span data-stu-id="24469-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="9c1b5-116">Pieprasījums atbilst OData standartiem.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-116">The request conforms to OData standards.</span></span> <span data-ttu-id="9c1b5-117">Parametri {requestId}, {leaveType}, {leaveDate} un {dataArea} attiecas uz laukiem, kas veido kompozīta parasto atslēgu MyLeaveRequests entītijai.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="24469-118">Lai gan MyLeaveRequests elementa lauki attiecas uz atsevišķu rindu, kas atrodas atvaļinājumu pieprasījumā, izsaucot iesniegto API, darbplūsmai tiks iesniegts viss atvaļinājuma pieprasījums (visas rindas).</span><span class="sxs-lookup"><span data-stu-id="24469-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
+> <span data-ttu-id="9c1b5-118">Lai gan MyLeaveRequests elementa lauki attiecas uz atsevišķu rindu, kas atrodas atvaļinājumu pieprasījumā, izsaucot iesniegto API, darbplūsmai tiks iesniegts viss atvaļinājuma pieprasījums (visas rindas).</span><span class="sxs-lookup"><span data-stu-id="9c1b5-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
 
-### <a name="request-headers"></a><span data-ttu-id="24469-119">Pieprasījuma galvenes</span><span class="sxs-lookup"><span data-stu-id="24469-119">Request headers</span></span>
+### <a name="request-headers"></a><span data-ttu-id="9c1b5-119">Pieprasījuma galvenes</span><span class="sxs-lookup"><span data-stu-id="9c1b5-119">Request headers</span></span>
 
-| <span data-ttu-id="24469-120">Virsraksts</span><span class="sxs-lookup"><span data-stu-id="24469-120">Header</span></span>         | <span data-ttu-id="24469-121">Value</span><span class="sxs-lookup"><span data-stu-id="24469-121">Value</span></span>                     |
+| <span data-ttu-id="9c1b5-120">Virsraksts</span><span class="sxs-lookup"><span data-stu-id="9c1b5-120">Header</span></span>         | <span data-ttu-id="9c1b5-121">Value</span><span class="sxs-lookup"><span data-stu-id="9c1b5-121">Value</span></span>                     |
 |----------------|---------------------------|
-| <span data-ttu-id="24469-122">Autorizācija</span><span class="sxs-lookup"><span data-stu-id="24469-122">Authorization</span></span>  | <span data-ttu-id="24469-123">Nesējs {token} (obligāts)</span><span class="sxs-lookup"><span data-stu-id="24469-123">Bearer {token} (required)</span></span> |
-| <span data-ttu-id="24469-124">Satura veids</span><span class="sxs-lookup"><span data-stu-id="24469-124">Content-Type</span></span>   | <span data-ttu-id="24469-125">pieteikums/json</span><span class="sxs-lookup"><span data-stu-id="24469-125">application/json</span></span>          |
+| <span data-ttu-id="9c1b5-122">Autorizācija</span><span class="sxs-lookup"><span data-stu-id="9c1b5-122">Authorization</span></span>  | <span data-ttu-id="9c1b5-123">Nesējs {token} (obligāts)</span><span class="sxs-lookup"><span data-stu-id="9c1b5-123">Bearer {token} (required)</span></span> |
+| <span data-ttu-id="9c1b5-124">Satura veids</span><span class="sxs-lookup"><span data-stu-id="9c1b5-124">Content-Type</span></span>   | <span data-ttu-id="9c1b5-125">pieteikums/json</span><span class="sxs-lookup"><span data-stu-id="9c1b5-125">application/json</span></span>          |
 
-### <a name="request-body"></a><span data-ttu-id="24469-126">Pieprasījuma pamatteksts</span><span class="sxs-lookup"><span data-stu-id="24469-126">Request body</span></span>
+### <a name="request-body"></a><span data-ttu-id="9c1b5-126">Pieprasījuma pamatteksts</span><span class="sxs-lookup"><span data-stu-id="9c1b5-126">Request body</span></span>
 
-<span data-ttu-id="24469-127">Nesniedziet pieprasījuma pamattekstu šai metodei.</span><span class="sxs-lookup"><span data-stu-id="24469-127">Don't supply a request body for this method.</span></span>
+<span data-ttu-id="9c1b5-127">Nesniedziet pieprasījuma pamattekstu šai metodei.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-127">Don't supply a request body for this method.</span></span>
 
-### <a name="response"></a><span data-ttu-id="24469-128">Atbilde</span><span class="sxs-lookup"><span data-stu-id="24469-128">Response</span></span>
+### <a name="response"></a><span data-ttu-id="9c1b5-128">Atbilde</span><span class="sxs-lookup"><span data-stu-id="9c1b5-128">Response</span></span>
 
-<span data-ttu-id="24469-129">Veiksmīga atbilde vienmēr ir atbilde **204 Nav satura**.</span><span class="sxs-lookup"><span data-stu-id="24469-129">A successful response is always a **204 No Content** response.</span></span>
+<span data-ttu-id="9c1b5-129">Veiksmīga atbilde vienmēr ir atbilde **204 Nav satura**.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-129">A successful response is always a **204 No Content** response.</span></span>
 
-<span data-ttu-id="24469-130">Neautorizēti zvanītāji saņems **401 Neautorizēts** vai **403 Aizliegts**.</span><span class="sxs-lookup"><span data-stu-id="24469-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
+<span data-ttu-id="9c1b5-130">Neautorizēti zvanītāji saņems **401 Neautorizēts** vai **403 Aizliegts**.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
 
-<span data-ttu-id="24469-131">Ja iesniegums ir neveiksmīgs (piemēram, pārbaudes dēļ), atbilde būs **500 Servera kļūda**, un atbildes teksts ietvers JSON objektu ar sīkāku informāciju.</span><span class="sxs-lookup"><span data-stu-id="24469-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
+<span data-ttu-id="9c1b5-131">Ja iesniegums ir neveiksmīgs (piemēram, pārbaudes dēļ), atbilde būs **500 Servera kļūda**, un atbildes teksts ietvers JSON objektu ar sīkāku informāciju.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
 
-## <a name="example"></a><span data-ttu-id="24469-132">Paraugs</span><span class="sxs-lookup"><span data-stu-id="24469-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9c1b5-132">Paraugs</span><span class="sxs-lookup"><span data-stu-id="9c1b5-132">Example</span></span>
 
 ```http
 POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespaces/b2eb8003-334f-4a84-ab63-edbe23569090/data/MyLeaveRequests(RequestId='USMF-000065', LeaveType='Vacation', LeaveDate=2019-10-04T12:00:00Z, dataAreaId='USMF')/Microsoft.Dynamics.DataEntities.submit
@@ -92,21 +91,21 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 }
 ```
 
-## <a name="validation-and-error-messages"></a><span data-ttu-id="24469-133">Pārbaude un kļūdu ziņojumi</span><span class="sxs-lookup"><span data-stu-id="24469-133">Validation and error messages</span></span>
+## <a name="validation-and-error-messages"></a><span data-ttu-id="9c1b5-133">Pārbaude un kļūdu ziņojumi</span><span class="sxs-lookup"><span data-stu-id="9c1b5-133">Validation and error messages</span></span>
 
-<span data-ttu-id="24469-134">API iesniedzamā zvana ietvaros Human Resources veic biznesa loģikas validāciju pirms iesniegšanas, kas nodrošina, ka atvaļinājuma pieprasījums ir iesniegšanai derīgā stāvoklī.</span><span class="sxs-lookup"><span data-stu-id="24469-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="24469-135">Iespējamie kļūdu ziņojumi, ko var saņemt atbildē, ja pārbaudes neatbilst:</span><span class="sxs-lookup"><span data-stu-id="24469-135">The possible error messages you may receive in the response if validations fail are:</span></span>
+<span data-ttu-id="9c1b5-134">API iesniedzamā zvana ietvaros Human Resources veic biznesa loģikas validāciju pirms iesniegšanas, kas nodrošina, ka atvaļinājuma pieprasījums ir iesniegšanai derīgā stāvoklī.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="9c1b5-135">Iespējamie kļūdu ziņojumi, ko var saņemt atbildē, ja pārbaudes neatbilst:</span><span class="sxs-lookup"><span data-stu-id="9c1b5-135">The possible error messages you may receive in the response if validations fail are:</span></span>
 
- - <span data-ttu-id="24469-136">Pieprasījums iekļaus '{LeaveTypeId}' bilanci zem {date} minimālās atļautās bilances.</span><span class="sxs-lookup"><span data-stu-id="24469-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
- - <span data-ttu-id="24469-137">Brīvā laika pieprasījumu pabeigtā stāvoklī nevar iesniegt.</span><span class="sxs-lookup"><span data-stu-id="24469-137">Time off request in Completed state cannot be submitted.</span></span>
- - <span data-ttu-id="24469-138">Nevar iesniegt vai saglabāt pieprasījumu, jo nav izdarītas izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="24469-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="24469-139">Pievienojiet vai atjauniniet summu vai atvaļinājuma veidu un mēģiniet vēlreiz.</span><span class="sxs-lookup"><span data-stu-id="24469-139">Add or update the amount or the leave type and try again.</span></span>
- - <span data-ttu-id="24469-140">Ievadītais brīvā laika pieprasījums ietver vienu vai vairākas dienas ar vienādu datumu un atvaļinājuma veidu kā gaidīšanā jau esošu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="24469-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="24469-141">Lūdzu, atsauciet esošo pieprasījumu, lai veiktu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="24469-141">Please recall the existing request to make changes.</span></span>
- - <span data-ttu-id="24469-142">Iemesla kods '{ReasonCodeId}' neattiecas uz nevienu no pieprasījumā norādītajiem atvaļinājuma veidiem.</span><span class="sxs-lookup"><span data-stu-id="24469-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
- - <span data-ttu-id="24469-143">Atvaļinājuma tipam '{LeaveTypeId}' ir nepieciešams pamatojuma kods.</span><span class="sxs-lookup"><span data-stu-id="24469-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="24469-144">Atlasiet atbilstošo veidu un pamatojuma kodu.</span><span class="sxs-lookup"><span data-stu-id="24469-144">Select the appropriate type and reason code.</span></span>
- - <span data-ttu-id="24469-145">Brīvais laiks netika iesniegts veiksmīgi.</span><span class="sxs-lookup"><span data-stu-id="24469-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="24469-146">Brīvais laiks ir saglabāts kā melnraksta pieprasījums.</span><span class="sxs-lookup"><span data-stu-id="24469-146">The time off has been saved as a draft request.</span></span>
+ - <span data-ttu-id="9c1b5-136">Pieprasījums iekļaus '{LeaveTypeId}' bilanci zem {date} minimālās atļautās bilances.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
+ - <span data-ttu-id="9c1b5-137">Brīvā laika pieprasījumu pabeigtā stāvoklī nevar iesniegt.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-137">Time off request in Completed state cannot be submitted.</span></span>
+ - <span data-ttu-id="9c1b5-138">Nevar iesniegt vai saglabāt pieprasījumu, jo nav izdarītas izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="9c1b5-139">Pievienojiet vai atjauniniet summu vai atvaļinājuma veidu un mēģiniet vēlreiz.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-139">Add or update the amount or the leave type and try again.</span></span>
+ - <span data-ttu-id="9c1b5-140">Ievadītais brīvā laika pieprasījums ietver vienu vai vairākas dienas ar vienādu datumu un atvaļinājuma veidu kā gaidīšanā jau esošu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="9c1b5-141">Lūdzu, atsauciet esošo pieprasījumu, lai veiktu izmaiņas.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-141">Please recall the existing request to make changes.</span></span>
+ - <span data-ttu-id="9c1b5-142">Iemesla kods '{ReasonCodeId}' neattiecas uz nevienu no pieprasījumā norādītajiem atvaļinājuma veidiem.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
+ - <span data-ttu-id="9c1b5-143">Atvaļinājuma tipam '{LeaveTypeId}' ir nepieciešams pamatojuma kods.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="9c1b5-144">Atlasiet atbilstošo veidu un pamatojuma kodu.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-144">Select the appropriate type and reason code.</span></span>
+ - <span data-ttu-id="9c1b5-145">Brīvais laiks netika iesniegts veiksmīgi.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="9c1b5-146">Brīvais laiks ir saglabāts kā melnraksta pieprasījums.</span><span class="sxs-lookup"><span data-stu-id="9c1b5-146">The time off has been saved as a draft request.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="24469-147">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="24469-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c1b5-147">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="9c1b5-147">See also</span></span>
 
-- [<span data-ttu-id="24469-148">MyLeaveRequests pārskats</span><span class="sxs-lookup"><span data-stu-id="24469-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
-- [<span data-ttu-id="24469-149">Autentifikācija</span><span class="sxs-lookup"><span data-stu-id="24469-149">Authentication</span></span>](hr-developer-api-authentication.md)
+- [<span data-ttu-id="9c1b5-148">MyLeaveRequests pārskats</span><span class="sxs-lookup"><span data-stu-id="9c1b5-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
+- [<span data-ttu-id="9c1b5-149">Autentifikācija</span><span class="sxs-lookup"><span data-stu-id="9c1b5-149">Authentication</span></span>](hr-developer-api-authentication.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

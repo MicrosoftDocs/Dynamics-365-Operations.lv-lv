@@ -7,31 +7,30 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4adab0225190b4dea5213dccf297eaab33efc863
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c0da21c0074468c5942bf853df701151ef7ee95
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021324"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055080"
 ---
-# <a name="generate-payroll-entities"></a><span data-ttu-id="42b4e-103">Algas elementu ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="42b4e-103">Generate payroll entities</span></span>
+# <a name="generate-payroll-entities"></a><span data-ttu-id="cff29-103">Algas elementu ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="cff29-103">Generate payroll entities</span></span>
 
-<span data-ttu-id="42b4e-104">Izmantojiet šo OData funkciju, lai ģenerētu elementus, kas nepieciešami algas integrācijai.</span><span class="sxs-lookup"><span data-stu-id="42b4e-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="42b4e-105">Ja šīm personāla vadības elementiem tiek veiktas kādas izmaiņas, piemēram, tiek pievienoti pielāgoti lauki, šo funkciju var izsaukt vēlreiz, lai atsvaidzinātu katra elementa metadatus.</span><span class="sxs-lookup"><span data-stu-id="42b4e-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="42b4e-106">Atbilde ietver operācijas ID, ko varat pārraudzīt, lai zinātu, kad ģenerēšanas process ir pabeigts.</span><span class="sxs-lookup"><span data-stu-id="42b4e-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
+<span data-ttu-id="cff29-104">Izmantojiet šo OData funkciju, lai ģenerētu elementus, kas nepieciešami algas integrācijai.</span><span class="sxs-lookup"><span data-stu-id="cff29-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="cff29-105">Ja šīm personāla vadības elementiem tiek veiktas kādas izmaiņas, piemēram, tiek pievienoti pielāgoti lauki, šo funkciju var izsaukt vēlreiz, lai atsvaidzinātu katra elementa metadatus.</span><span class="sxs-lookup"><span data-stu-id="cff29-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="cff29-106">Atbilde ietver operācijas ID, ko varat pārraudzīt, lai zinātu, kad ģenerēšanas process ir pabeigts.</span><span class="sxs-lookup"><span data-stu-id="cff29-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
 
-<span data-ttu-id="42b4e-107">**Pieprasīt**</span><span class="sxs-lookup"><span data-stu-id="42b4e-107">**Request**</span></span>
+<span data-ttu-id="cff29-107">**Pieprasīt**</span><span class="sxs-lookup"><span data-stu-id="cff29-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 ```
 
-<span data-ttu-id="42b4e-108">**pamatteksts**</span><span class="sxs-lookup"><span data-stu-id="42b4e-108">**body**</span></span>
+<span data-ttu-id="cff29-108">**pamatteksts**</span><span class="sxs-lookup"><span data-stu-id="cff29-108">**body**</span></span>
 
 ```json
 {
@@ -39,7 +38,7 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-<span data-ttu-id="42b4e-109">**Atbilde**</span><span class="sxs-lookup"><span data-stu-id="42b4e-109">**Response**</span></span>
+<span data-ttu-id="cff29-109">**Atbilde**</span><span class="sxs-lookup"><span data-stu-id="cff29-109">**Response**</span></span>
 
 ```json
 {
@@ -47,17 +46,17 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-## <a name="review-payroll-entities"></a><span data-ttu-id="42b4e-110">Pārskatīt algas elementus</span><span class="sxs-lookup"><span data-stu-id="42b4e-110">Review payroll entities</span></span>
+## <a name="review-payroll-entities"></a><span data-ttu-id="cff29-110">Pārskatīt algas elementus</span><span class="sxs-lookup"><span data-stu-id="cff29-110">Review payroll entities</span></span>
 
-<span data-ttu-id="42b4e-111">Izmantojiet šo API, lai izgūtu to elementu sarakstu, kas ir veiksmīgi ģenerēti un ir gatavi lietošanai.</span><span class="sxs-lookup"><span data-stu-id="42b4e-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
+<span data-ttu-id="cff29-111">Izmantojiet šo API, lai izgūtu to elementu sarakstu, kas ir veiksmīgi ģenerēti un ir gatavi lietošanai.</span><span class="sxs-lookup"><span data-stu-id="cff29-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
 
-<span data-ttu-id="42b4e-112">**Pieprasīt**</span><span class="sxs-lookup"><span data-stu-id="42b4e-112">**Request**</span></span>
+<span data-ttu-id="cff29-112">**Pieprasīt**</span><span class="sxs-lookup"><span data-stu-id="cff29-112">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hrvirtualentitycatalogs?$filter=mshr_hasbeengenerated eq true
 ```
 
-<span data-ttu-id="42b4e-113">**Atbilde**</span><span class="sxs-lookup"><span data-stu-id="42b4e-113">**Response**</span></span>
+<span data-ttu-id="cff29-113">**Atbilde**</span><span class="sxs-lookup"><span data-stu-id="cff29-113">**Response**</span></span>
 
 ```json
 {

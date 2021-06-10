@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ESSLeaveofAbsenceRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,43 +15,43 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c774deffb58e53bab4ea32195e02baba8854d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790720"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056328"
 ---
-# <a name="request-a-leave-of-absence"></a><span data-ttu-id="884a7-103">Kavējumu atvaļinājuma pieprasījums</span><span class="sxs-lookup"><span data-stu-id="884a7-103">Request a leave of absence</span></span>
+# <a name="request-a-leave-of-absence"></a><span data-ttu-id="df2e7-103">Kavējumu atvaļinājuma pieprasījums</span><span class="sxs-lookup"><span data-stu-id="df2e7-103">Request a leave of absence</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="884a7-104">Varat iesniegt kavējuma atvaļinājuma pieprasījumu un skatīt savu atvaļinājumu pieprasījumu statusu Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="884a7-104">You can submit a request for a leave of absence and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="df2e7-104">Varat iesniegt kavējuma atvaļinājuma pieprasījumu un skatīt savu atvaļinājumu pieprasījumu statusu Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="df2e7-104">You can submit a request for a leave of absence and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
 
-## <a name="request-a-leave-of-absence"></a><span data-ttu-id="884a7-105">Kavējumu atvaļinājuma pieprasījums</span><span class="sxs-lookup"><span data-stu-id="884a7-105">Request a leave of absence</span></span>
+## <a name="request-a-leave-of-absence"></a><span data-ttu-id="df2e7-105">Kavējumu atvaļinājuma pieprasījums</span><span class="sxs-lookup"><span data-stu-id="df2e7-105">Request a leave of absence</span></span>
 
-1. <span data-ttu-id="884a7-106">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="884a7-106">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="df2e7-106">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-106">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="884a7-107">Lai iesniegtu kavējuma atvaļinājuma pieprasījumu, atlasiet **Pieprasīt kavējuma atvaļinājumu**.</span><span class="sxs-lookup"><span data-stu-id="884a7-107">To submit a leave of absence request, select **Request leave of absence**.</span></span>
+2. <span data-ttu-id="df2e7-107">Lai iesniegtu kavējuma atvaļinājuma pieprasījumu, atlasiet **Pieprasīt kavējuma atvaļinājumu**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-107">To submit a leave of absence request, select **Request leave of absence**.</span></span>
 
-3. <span data-ttu-id="884a7-108">Ievadiet informāciju vienumiem **Atvaļinājuma veids**, **Sākuma datums** un **Beigu datums**.</span><span class="sxs-lookup"><span data-stu-id="884a7-108">Enter information for **Leave type**, **Start date**, and **End date**.</span></span>
+3. <span data-ttu-id="df2e7-108">Ievadiet informāciju vienumiem **Atvaļinājuma veids**, **Sākuma datums** un **Beigu datums**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-108">Enter information for **Leave type**, **Start date**, and **End date**.</span></span>
 
-4. <span data-ttu-id="884a7-109">Ja jums ir jāiesniedz visi apliecinošie dokumenti, atlasiet **Augšupielādēt** sadaļā **Pielikumi**.</span><span class="sxs-lookup"><span data-stu-id="884a7-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
+4. <span data-ttu-id="df2e7-109">Ja jums ir jāiesniedz visi apliecinošie dokumenti, atlasiet **Augšupielādēt** sadaļā **Pielikumi**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
 
-5. <span data-ttu-id="884a7-110">Ja nepieciešams, ievadiet informāciju **Komentārā**.</span><span class="sxs-lookup"><span data-stu-id="884a7-110">Enter information in **Comment**, if needed.</span></span>
+5. <span data-ttu-id="df2e7-110">Ja nepieciešams, ievadiet informāciju **Komentārā**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-110">Enter information in **Comment**, if needed.</span></span>
 
-6. <span data-ttu-id="884a7-111">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="884a7-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="884a7-112">Pretējā gadījumā atlasiet **Saglabāt melnrakstu**.</span><span class="sxs-lookup"><span data-stu-id="884a7-112">Otherwise, select **Save draft**.</span></span>
+6. <span data-ttu-id="df2e7-111">Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.</span><span class="sxs-lookup"><span data-stu-id="df2e7-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="df2e7-112">Pretējā gadījumā atlasiet **Saglabāt melnrakstu**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-112">Otherwise, select **Save draft**.</span></span>
 
 
-## <a name="view-leave-of-absence-request-status"></a><span data-ttu-id="884a7-113">Skatīt kavējuma atvaļinājuma pieprasījuma statusu</span><span class="sxs-lookup"><span data-stu-id="884a7-113">View leave of absence request status</span></span>
+## <a name="view-leave-of-absence-request-status"></a><span data-ttu-id="df2e7-113">Skatīt kavējuma atvaļinājuma pieprasījuma statusu</span><span class="sxs-lookup"><span data-stu-id="df2e7-113">View leave of absence request status</span></span>
 
-1. <span data-ttu-id="884a7-114">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="884a7-114">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="df2e7-114">Darbvietā **Darbinieku patstāvīgi izmantotie pakalpojumi** atlasiet opciju **Vairāk** (...) rūtī **Brīvā laika bilances**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-114">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="884a7-115">Lai skatītu savus kavējuma atvaļinājuma pieprasījumus, atlasiet **Skatīt kavējuma atvaļinājumu**.</span><span class="sxs-lookup"><span data-stu-id="884a7-115">To view your leave of absence requests, select **View leave of absence**.</span></span>
+2. <span data-ttu-id="df2e7-115">Lai skatītu savus kavējuma atvaļinājuma pieprasījumus, atlasiet **Skatīt kavējuma atvaļinājumu**.</span><span class="sxs-lookup"><span data-stu-id="df2e7-115">To view your leave of absence requests, select **View leave of absence**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="884a7-116">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="884a7-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df2e7-116">Skatiet arī</span><span class="sxs-lookup"><span data-stu-id="df2e7-116">See also</span></span>
 
-[<span data-ttu-id="884a7-117">Pārtraukt atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="884a7-117">Suspend leave</span></span>](hr-leave-and-absence-suspend-leave.md)
+[<span data-ttu-id="df2e7-117">Pārtraukt atvaļinājumu</span><span class="sxs-lookup"><span data-stu-id="df2e7-117">Suspend leave</span></span>](hr-leave-and-absence-suspend-leave.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
