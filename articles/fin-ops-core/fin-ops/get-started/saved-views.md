@@ -2,7 +2,7 @@
 title: Saglabātie skati
 description: Šajā tēmā ir aprakstīts, kā izmantot saglabāto skatu līdzekļus.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744619"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050560"
 ---
 # <a name="saved-views"></a>Saglabātie skati
 
@@ -126,17 +126,26 @@ Lai publicētu skatu, veiciet šādas darbības.
 5. **Atjauniniet 10.0.17 vai jaunāku versiju:** ja **(priekšskatījums) atbalsta nosūtīšana organizācijas skatījumam** ir ieslēgts, varat pievienot tulkojumus jūsu skatījuma nosaukumam tik daudzās valodās, cik nepieciešams jūsu uzņēmumam, atlasot pogu **Sūtījumi** blakus laukam **Nosaukums**. Skatījuma nosaukums tiks parādīts lietotājiem viņu pašreizējā valodā. Varat iestatīt arī noklusēto valodu, lai norādītu tulkojumu, kas tiks rādīts lietotājiem, kuri darbojas valodās, kurām nav definēts neviens tulkojums.
 5. Nav obligāti: ievadiet skatījuma aprakstu, lai lietotāji, kas saņem šo skatu, varētu labāk izprast tā mērķi. 
 6. Nosakiet, vai skats ir jāpublicē atlasītajiem lietotājiem kā noklusējuma skats. Kad skats ir pārveidots par noklusējuma skatu, lietotāji to redzēs nākamreiz, kad tiks atvērta mērķa lapa. Tiks mainīts katra mērķa lietotāja globālais noklusējuma skats. Tomēr lietotāji joprojām var mainīt savu noklusējuma skatu pēc publicēšanas.
-7. Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats. 
-8. Nosakiet, vai vēlaties publicēt skatu uz katras atlasītās drošības lomas pakārtotām lomām. Ja vēlaties, atlasiet izvēles rūtiņu **Iekļaut pakārtotās lomas** atbilstošajā drošības lomu rindā. Ievērojiet, ka šī izvēles rūtiņa nav pieejama lomām, kurām nav pakārtotu lomu.
-9. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
-10. Atlasiet **Publicēt**.
+
+    > [!NOTE]
+    > Publicējot skatu kā noklusējuma skatu, ņemiet vērā šādus iestatījumus: 
+    > -  Ja skatu kā noklusējuma skatu publicējat visām vai dažām juridiskajām personām, jūs maināt katra mērķa lietotāja vienoto, **vispārējo** noklusējuma skatu. 
+    > -  Ja lietotājam ir lomas, kurās vairāki noklusējuma skati tiek publicēti kā noklusējuma skats, pēdējais publicētais skats tiks izmantots kā lietotāja noklusējuma skats. 
+
+8. Pievienojiet drošības lomas, kas atbilst lietotājiem, kuriem ir paredzēts šis skats. 
+9. Nosakiet, vai vēlaties publicēt skatu uz katras atlasītās drošības lomas pakārtotām lomām. Ja vēlaties, atlasiet izvēles rūtiņu **Iekļaut pakārtotās lomas** atbilstošajā drošības lomu rindā. Ievērojiet, ka šī izvēles rūtiņa nav pieejama lomām, kurām nav pakārtotu lomu.
+10. Pievienojiet juridiskās personas, kurām šis skats ir pieejams. 
+
+    > [!NOTE]
+    > Publicējot skatījumu juridiskai personai, jāņem vērā turpmāk minētās prognozes.
+    > 
+    > Ja publicējat skatu juridiskai personai, bet jūs to nepublicējat kā noklusējuma skatu, lietotāji sākotnēji redzēs skatu atlasītāju tikai norādītajām juridiskajām personām. Tomēr pēc tam, kad skats ir ielādēts pirmo reizi, tas vienmēr būs lietotāja skata atlasītājā šai lapai neatkarīgi no juridiskās personas.
+
+11. Atlasiet **Publicēt**.
 
 Ņemiet vērā, ka dažās vidēs var būt nepieciešams ilgāks laiks (līdz pat stundai), pirms lietotāji redz publicēto skatu.
 
-> [!NOTE]
-> Publicējot skatu juridiskai personai vai publicējot skatu kā noklusējuma skatu, ņemiet vērā šādas cerības.
-> - Ja skatu kā noklusējuma skatu publicējat visām vai dažām juridiskajām personām, jūs maināt katra mērķa lietotāja vienoto, vispārējo noklusējuma skatu. Ja lietotājam ir lomas, kurās vairāki noklusējuma skati tiek publicēti kā noklusējuma skats, pēdējais publicētais skats tiks izmantots kā lietotāja noklusējuma skats. 
-> - Ja publicējat skatu juridiskai personai, bet jūs to nepublicējat kā noklusējuma skatu, lietotāji sākotnēji redzēs skatu atlasītāju tikai norādītajām juridiskajām personām. Tomēr pēc tam, kad skats ir ielādēts pirmo reizi, tas vienmēr būs lietotāja skata atlasītājā šai lapai neatkarīgi no juridiskās personas. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Publicētā skata modificēšana
 

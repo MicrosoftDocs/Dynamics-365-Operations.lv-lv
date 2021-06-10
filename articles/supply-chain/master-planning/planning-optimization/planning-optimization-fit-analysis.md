@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812983"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049440"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Plānošanas optimizācijas atbilstības analīze
 
@@ -89,13 +89,13 @@ Tabulā ir redzami dažādi rezultāti, kas var tikt parādīti pēc saderības 
 | Ražošana | Plāni ar secību: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik secība tiek ignorēta, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | 2021. gada oktobris - 2022. gada aprīlis |
 | Ražošana | Izpildei nodotie ražošanas pasūtījumi, kas nav iesākti, ja sākšana ir ieplānota agrāk nekā šodien: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik, ja ražošanas pasūtījums tiek aizkavēts, vispārējā plānošana pieņem, ka tas tiks pabeigts šodien. Tas attiecas uz izpildei nodotajiem ražošanas pasūtījumiem, kuru piegādes datums ir pagātnē, bet tas vēl nav pabeigts. | 2021. gada oktobris - 2022. gada aprīlis |
 | Ražošana | Resursi, kas plānoti ar ierobežotu noslodzi: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik resursi, kas tiek plānoti ar ierobežotu noslodzi, tiek ignorēti, ja ir iespējota plānošanas optimizācija. Plānošana tiek veikta, pamatojoties uz noklusējuma izpildes laiku no preces. | Neierobežots: 2021. gada jūnijs, ierobežots: 2021. gada oktobris |
-| Ražošana | Plānošanā izmantotie maršruti: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik maršruti tiek ignorēti, ja ir iespējota plānošanas optimizācija. Tiek izmantots preces noklusētais izpildes laiks. | 2021. jūnijs |
+| Ražošana | Plānošanā izmantotie maršruti: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik maršruti tiek ignorēti, ja ir iespējota plānošanas optimizācija. Tiek izmantots preces noklusētais izpildes laiks. | 2021. gada jūlijs |
 | Ražošana | Tirdzniecības līnijas rezervēšana, izmantojot izvēršanu: _\#_ | Pārdošanas rindas rezervācija, kas izmanto izvēršanu, netiek atbalstīta, ja ir iespējota plānošanas optimizācija. | 2021. oktobris |
 | Ražošana | Plānošana ar ražošanas pasūtījumu izvēršanu:  _\#_ | Plānošana ar ražošanas pasūtījumu izvēršanu netiek atbalstīta, ja ir iespējota plānošanas optimizācija. Ražošanas pasūtījumus var plānot atsevišķi. | 2021. oktobris |
 | Piedāvājumu pieprasījumi | Vispārējie plāni ar iespējotu piedāvājumu pieprasījumu: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājuma pieprasījumi (PP) netiek uzskatīti par pieprasījumu, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 2021. gada oktobris - 2022. gada aprīlis |
 | Pieprasījumi | Vispārējie plāni ar iespējotiem pieprasījumiem: _\#_ | Šis līdzeklis tagad tiek atbalstīts. Papildinformāciju skatiet [Pirkšanas pieprasījumi](purchase-requisitions.md) | Tiek atbalstīts |
-| Drošības rezerves | Vajadzības grupas ar drošības rezervi: _\#_ | Šis līdzeklis tagad tiek daļēji atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) | Ieejas plūsmas rezerve: tiek atbalstīta. Pasūtījuma rezerve un izejas plūsmas rezerve: 2021. gada aprīlis |
-| Drošības rezerves | Vispārējie plāni ar drošības rezervi: _\#_ | Šis līdzeklis tagad tiek daļēji atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) | Ieejas plūsmas rezerve: tiek atbalstīta. Pasūtījuma rezerve un izejas plūsmas rezerve: 2021. gada aprīlis |
+| Drošības rezerves | Vajadzības grupas ar drošības rezervi: _\#_ | Šis līdzeklis tagad tiek daļēji atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) | Ieejas plūsmas rezerve: tiek atbalstīta. Pasūtījuma rezerve un izejas plūsmas rezerve: 2021. gada aprīlis-oktobris |
+| Drošības rezerves | Vispārējie plāni ar drošības rezervi: _\#_ | Šis līdzeklis tagad tiek daļēji atbalstīts. Papildinformāciju skatiet sadaļā [Drošības rezerves](safety-margins.md) | Ieejas plūsmas rezerve: tiek atbalstīta. Pasūtījuma rezerve un izejas plūsmas rezerve: 2021. gada aprīlis-oktobris |
 | Drošības rezerves izpilde | Krājumu pārklājuma ieraksti ar atzīmi "Izpildīt minimālo", kas atšķiras no "Šodienas datuma + sagādes laiks": _\#_ | Plānošanas optimizācija vienmēr izmanto *Šodienas datumu + sagādes laiku*. Šī izmaiņa tiek veikta, lai nākotnē sagatavotos vienkāršotai plānošanas iestatīšanai un sniegtu darbības rezultātu. Ja sagādes laiks nav iekļauts drošības krājumos, plānotie pasūtījumi, kas izveidoti pašreizējam ar zemu pieejamības līmeni esošajam krājumam, izpildes laika dēļ vienmēr tiks aizkavēti. Šī uzvedība var izraisīt ievērojamu troksni un nevēlamus plānotos pasūtījumus. Vislabākā prakse ir mainīt iestatījumu, lai tiktu izmantots *Šodienas datums + sagādes laiks*. Atjauniniet pamatdatus, lai izvairītos no brīdinājumiem. | Nav piemērojams |
 | Pārdošanas piedāvājumi | Vispārējie plāni ar iespējotiem pārdošanas piedāvājumiem: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik piedāvājumi netiek ņemti vērā, ja ir iespējota plānošanas optimizācija. Tie tiks ignorēti, neņemot vērā šo iestatījumu. | 2021. gada oktobris - 2022. gada aprīlis |
 | Glabāšanas laiks | Vispārējie plāni ar iespējotu glabāšanas laiku: _\#_ | Šī funkcija ir gaidīšanas režīmā. Pašlaik glabāšanas laiks netiek ņemts vērā, ja ir iespējota plānošanas optimizācija, neņemot vērā šo iestatījumu. | 2021. oktobris |
