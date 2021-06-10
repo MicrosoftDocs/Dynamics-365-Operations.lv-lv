@@ -2,7 +2,7 @@
 title: Sīkfailu atbilstība
 description: Šajā tēmā aprakstīti apsvērumi sīkdatņu atbilstībai un noklusējuma politikas, kas ir iekļautas Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908188"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088391"
 ---
 # <a name="cookie-compliance"></a>Sīkfailu atbilstība
 
@@ -52,8 +52,7 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto sīk
 | x-ms-cpim-trans                             | Tiek izmantots, lai izsekotu transakcijas (atvērto ciļņu skaits, kas tiek autentificētas attiecībā uz bizness patērētājam (B2C) vietni), ieskaitot pašreizējo transakciju. |
 | \_msdyn365___muid_                            | Tiek izmantots, ja vidē ir aktivizēts eksperiments; utilizēts kā lietotāja identifikators eksperimentu nolūkiem. |
 | \_msdyn365___exp_                             | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmanto, lai mērītu veiktspējas noslodzes līdzsvarošanu.         |
-
-
+| d365mkt                                       | Izmanto, ja atrašanās vietas noteikšana, lai izsekotu lietotāja IP adresi veikala atrašanās vietas ieteikumiem, ir iespējota Commerce vietnes veidotājā **Vietnes iestatījumi > Vispārīgi > Iespējot uz atrašanās vietu balstītu krātuves noteikšanu**.      |
 
 Ja vietas lietotājs izvēlas kādu no sociālās multivides saitēm vietā, sīkfaili šajā tabulā tiks izsekoti arī viņu pārlūkprogrammā.
 

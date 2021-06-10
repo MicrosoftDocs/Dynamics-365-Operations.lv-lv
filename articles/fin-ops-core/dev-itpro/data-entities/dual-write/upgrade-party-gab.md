@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018316"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112677"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
@@ -22,22 +22,23 @@ ms.locfileid: "6018316"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šī [Azure datu fabrikas veidne](https://aka.ms/dual-write-gab-adf) palīdz jaunināt esošo **Konta**, **Kontaktpersonas** un **Kreditora** tabulas datus dubultās rakstīšanas puses un globālās adrešu grāmatas modelī. Veidne saskaņo datus no Finance and Operations programmām un Customer Engagement programmām. Procesa beigās **Puses** ierakstu **Puses** un **Kontaktpersonas** lauki tiks izveidoti un saistīti ar **Konta**, **Kontaktpersonas** un **Kreditora** ierakstiem Customer Engagement programmās. Tiek ģenerēts .csv fails (`FONewParty.csv`), lai izveidotu jaunus **Puses** ierakstus programmā Finance and Operations. Šajā tēmā ir sniegtas norādes par datu fabrikas veidnes lietošanu un datu jaunināšanu.
+Šī [Microsoft Azure datu fabrikas veidne](https://aka.ms/dual-write-gab-adf) palīdz jaunināt esošo **Konta**, **Kontaktpersonas** un **Kreditora** tabulas datus dubultās rakstīšanas puses un globālās adrešu grāmatas modelī. Veidne saskaņo datus no Finance and Operations programmām un Customer Engagement programmām. Procesa beigās **Puses** ierakstu **Puses** un **Kontaktpersonas** lauki tiks izveidoti un saistīti ar **Konta**, **Kontaktpersonas** un **Kreditora** ierakstiem Customer Engagement programmās. Tiek ģenerēts .csv fails (`FONewParty.csv`), lai izveidotu jaunus **Puses** ierakstus programmā Finance and Operations. Šajā tēmā ir sniegtas norādes par to kā lietot datu fabrikas veidnes un jaunināt datus.
 
 Ja jums nav nekādu pielāgojumu, varat izmantot veidni, kāda tā ir. Ja ir pielāgojumi **Kontam**, **Kontaktpersonai** un **Kreditoram** veidne jāmodificē, izmantojot tālāk norādītās instrukcijas.
 
-> [!Note]
-> Veidne palīdz jaunināt tikai **Puses** datus. Nākamajā laidienā tiks iekļautas pasta un elektroniskās adreses.
+> [!NOTE]
+> Veidne jaunina tikai **Puses** datus. Nākamajā laidienā tiks iekļautas pasta un elektroniskās adreses.
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 
-Ir nepieciešami šādi priekšnosacījumi:
+Ir nepieciešami šādi priekšnosacījumi, lai jauninātu uz pusi un globālās adrešu grāmatas modeli:
 
 + [Azure abonements](https://portal.azure.com/)
 + [Piekļuve veidnei](https://aka.ms/dual-write-gab-adf)
-+ Jūs esat jau esošs duālās rakstīšanas debitors.
++ Jums jābūt jau esošam duālās rakstīšanas debitoram.
 
 ## <a name="prepare-for-the-upgrade"></a>Sagatavoties jaunināšanai
+Lai sagatavotos jaunināšanai, ir nepieciešamas šādas aktivitātes:
 
 + **Pilnībā sinhronizēts**: abas vides ir pilnībā sinhronizētas **Kontam (Debitoram)**, **Kontaktpersonai** un **Kreditoram**.
 + **Integrācijas atslēgas**: tabulas **Konts (Debitors)**, **Kontaktpersona** un **Kreditors** Customer Engagement programmās izmanto integrācijas atslēgas, kas nosūtītas nestandarti. Pielāgojot integrācijas atslēgas, veidne ir jāpielāgo.
@@ -78,15 +79,19 @@ Ir nepieciešami šādi priekšnosacījumi:
     FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_nomnieks | Norādiet informāciju par nomnieku (domēna vārdu vai nomnieka ID), kurā atrodas jūsu pieteikums.
     FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_aad Resursa ID | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_pakalpojums Galvenā ID | Norādiet pieteikuma debitora ID.
-    Dynamics CRM saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_lietotājvārds | Lietotājvārds, ar kuru jāizveido savienojums ar Dynamics.
+    Dynamics CRM saistīts Pakalpojuma_rekvizītu_veids Rekvizītu_lietotājvārds | Lietotājvārds, ar kuru jāizveido savienojums ar Dynamics 365.
 
-    Papildinformāciju skatiet šeit: [Manuāli veicināt Resource Manager veidni katrai videi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Saistīto pakalpojumu rekvizīti](/azure/data-factory/connector-dynamics-ax#linked-service-properties) un [Kopēt datus, izmantojot Azure datu fabriku](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Papildinformāciju skatiet tālāk norādītās tēmas. 
+    
+    - [Manuāli veicināt Resource Manager veidni katrai videi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Saistītie pakalpojuma rekvizīti](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Kopēt datus, izmantojot Azure datu ražotni](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Pēc izvietošanas validējiet datu fabrikas datu kopas, datu plūsmu un saistīto pakalpojumu.
 
    ![Datu kopas, datu plūsma un saistītais pakalpojums](media/data-factory-validate.png)
 
-11. Dodieties uz **Pārvaldīt**. Sadaļā **Savienojumi** atlasiet **Saistītais pakalpojums**. Atlasiet **DynamicsCrmLinkedService**. Formā **Rediģēt saistīto pakalpojumu (Dynamics CRM)** ievadiet šādas vērtības:
+11. Dodieties uz **Pārvaldīt**. Sadaļā **Savienojumi** atlasiet **Saistītais pakalpojums**. Atlasiet **DynamicsCrmLinkedService**. Formā **Rediģēt saistīto pakalpojumu (Dynamics CRM)** ievadiet šādas vērtības.
 
     Lauks | Vērtība
     ---|---
@@ -102,7 +107,7 @@ Ir nepieciešami šādi priekšnosacījumi:
 
 ## <a name="run-the-template"></a>Palaist veidni
 
-1. Apturiet šo **Konta**, **Kontaktpersonas** un **Kreditora** dubultās rakstīšanas darbību, izmantojot programmu Finance and Operations.
+1. Apturiet šo **Konta**, **Kontaktpersonas** un **Kreditora** dubultās rakstīšanas kartes, izmantojot programmu Finance and Operations.
 
     + Debitori V3 (konti)
     + Debitori V3 (kontaktpersonas)
@@ -152,12 +157,12 @@ Ir nepieciešami šādi priekšnosacījumi:
     ![Trigera palaišana](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > Ja ir pielāgojumi **Kontam**, **Kontaktpersonai** un **Kreditoram** veidne jāmodificē.
+    > Ja ir pielāgojumi **Kontam**, **Kontaktpersonai** un **Kreditoram**, veidne jāmodificē.
 
 8. Importēt jaunos **Puses** ierakstus programmā Finance and Operations.
 
     + Lejupielādējiet `FONewParty.csv` failu no Azure BLOB krātuves. Ceļš ir `partybootstrapping/output/FONewParty.csv`.
-    + Konvertējiet `FONewParty.csv` failu par Excel failu un importējiet Excel failu programmā Finance and Operations.  Ja jums darbojas csv importēšana, varat tieši importēt csv failu. Atkarībā no datu apjoma, importēšanas laiks var ilgt dažas stundas. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
+    + Konvertējiet `FONewParty.csv` failu par Excel failu un importējiet Excel failu programmā Finance and Operations. Ja jums darbojas csv importēšana, varat tieši importēt csv failu. Atkarībā no datu apjoma, importēšanas laiks var ilgt dažas stundas. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
 
     ![Importēt Datavers puses ierakstus](media/data-factory-import-party.png)
 
@@ -189,7 +194,7 @@ Ir nepieciešami šādi priekšnosacījumi:
 
 ## <a name="troubleshooting"></a>Problēmu novēršana
 
-1. Procesā neizdodas vēlreiz palaist datu fabriku, sākot no neveiksmīgās darbības.
+1. Ja process neizdodas, vēlreiz palaidiet datu fabriku, sākot no neveiksmīgās darbības.
 2. Dažus failus ģenerē datu fabrika, ko varat izmantot datu apstiprināšanas nolūkiem.
 3. Datu fabrika darbojas, pamatojoties uz csv failiem, kas tiek atdalīti ar komatu. Ja lauka vērtībai ir komats, tas var traucēt rezultātus. Ir jānoņem komati.
 4. Cilne **Pārraudzība** sniedz informāciju par visam darbībam un apstrādātajiem datiem. Atlasiet noteiktu darbību, lai to atkļūdotu.
@@ -198,4 +203,4 @@ Ir nepieciešami šādi priekšnosacījumi:
 
 ## <a name="learn-more-about-the-template"></a>Uzziniet vairāk par veidni
 
-Komentārus veidnei varat atrast [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md) failā.
+Jūs varat atrast papildinformāciju par veidne sadaļā [Komentāri par Azure datu fabrikas veidnes lasīšanu](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

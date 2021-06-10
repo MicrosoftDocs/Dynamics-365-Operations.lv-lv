@@ -1,14 +1,14 @@
 ---
-title: Salāgojiet darbaspēka prasmes ar biznesa vajadzībām
-description: Varat izsekot prasmes, kas piemīt darbiniekiem, kandidātiem vai kontaktpersonām vai kuriem tādām vajadzētu būt darbinieku, kandidātu vai kontaktpersonu lomas efektīvai izpildei. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.
+title: Konfigurēt prasmes
+description: Varat izsekot darbinieka prasmes programmā Dynamics 365 Human Resources. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793709"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076563"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a>Salāgojiet darbaspēka prasmes ar biznesa vajadzībām
+# <a name="configure-skills"></a>Konfigurēt prasmes
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Varat izsekot prasmes, kas piemīt darbiniekiem, kandidātiem vai kontaktpersonām vai kuriem tādām vajadzētu būt darbinieku, kandidātu vai kontaktpersonu lomas efektīvai izpildei. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.
+Varat izsekot darbinieka prasmes programmā Dynamics 365 Human Resources. Varat arī norādīt prasmes, kas ir nepieciešamas konkrētam darbam.
 
 Izsekojamo prasmju piemēri ietver:
--   Supervizora — spēja uzraudzīt citu darbu.
--   Vadības — spēja vadīt darbiniekus un uzņēmuma domēnus.
--   Plānošanas — spēja raudzīties nākotnē, formulēt redzējumus un īstenot tos dzīvē.
--   HTML — spēja rakstīt HTML kodu.
 
-Lai personai vai darbam varētu piešķirt kādu prasmi, izveidot prasmju kartēšanas meklēšanu vai prasmju profilu, par šīm prasmēm ir jāievada informācija lapā **Prasmes**. Katrai prasmei varat atlasīt prasmju tipu un vērtēšanas modeli.
+- Supervizora — spēja uzraudzīt citu darbu.
+- Vadības — spēja vadīt darbiniekus un uzņēmuma domēnus.
+- Plānošanas — spēja raudzīties nākotnē, formulēt redzējumu paziņojumus un īstenot tos dzīvē.
+- HTML — spēja rakstīt HTML kodu.
 
-## <a name="rating-models"></a>Vērtēšanas modeļi
-Vērtēšanas modeļi palīdz novērtēt personas faktisko prasmju līmeni, to prasmju līmeni, ko šai personai būtu jācenšas sasniegt, vai prasmju līmeni, kas ir nepieciešams darbam. Vērtējuma modelim var ievadīt ne vairāk kā 10 līmeņus.  Katram līmenim vērtēšanas modelī tiek piešķirts koeficients.  Koeficienta vērtība tiks izmantota, lai normalizētu rādītājus prasmēm, kas izmanto dažādu vērtēšanas modeļus.  Koeficientam ir jābūt skaitlim no 0 līdz 9, un katram līmenim ir nepieciešams unikāls koeficients.  Līmeņiem ar augstākām koeficienta vērtībām ir lielāka nozīme vērtēšanas modelī.
+Ja vēl neesat iestatījis prasmju tipus un novērtējuma modeļus, daži ir jāpievieno pirms prasmju izveides.
 
-## <a name="specify-job-skills"></a>Darba prasmju norādīšana
-Kad ievadāt informāciju par darbu, varat norādīt prasmes, kas personai ir nepieciešamas, lai varētu veikt attiecīgo darbu.  Turklāt varat norādīt vēlamo līmeni katrai prasmei, kā arī prasmes svarīguma līmeni. Dažādos amatos vienādām prasmēm var būt nepieciešami dažādi nozīmīguma līmeņi.
+Tālāk norādītās personas var ievadīt darbinieka prasmes:
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Prasmju ievadīšana darbiniekiem, kandidātiem vai kontaktpersonām
-Darbiniekiem, kandidātiem vai kontaktpersonām varat ievadīt mērķa prasmes vai faktiskās prasmes. Mērķa prasme ir prasme, ko persona plāno sasniegt. Faktiskā prasme ir prasme, kas personai piemīt pašlaik.
+- Darbinieki var ievadīt prasmes paši Darbinieku pašapkalpošanās sistēmā. Šīm prasmēm nepieciešams vadītāja apstiprinājums.
+- Vadītāji var ievadīt darbinieku prasmes. Varat izveidot darbplūsmu, kas automātiski apstiprina šīs prasmes.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a>Prasmju kartēšana un prasmju kartēšanas profili
-Varat izveidot prasmju kartēšanas meklēšanu, lai atrastu darbinieku, kandidātu vai kontaktpersonu, kas ir kvalificēta veikt noteikta veida uzdevumu. Veicot prasmju kartēšanas meklēšanu, kā kritēriji tiek izmantotas prasmes, izglītība, sertifikāti, atbildīgie amati un projektu pieredze un tiek atgriezti ievadītajiem kritērijiem atbilstošie rezultāti.  Piemēram, var būt lietderīgi zināt, kuri no darbiniekiem jūsu organizācijā ir ieguvuši CPA.
+## <a name="create-a-skill-type"></a>Prasmes tipa izveide
 
-Prasmju kartēšanas profili ļauj atrast pašreizējos darbiniekus vai kandidātus ar kvalifikāciju, kas tieši atbilst uzņēmuma vajadzībām.  Piemēram, varat izveidot prasmju kartēšanas profilu jūsu organizācijas vakancei. Izveidojot profilu konkrētam darbam un kopējot prasmes, izglītību un sertifikātus no šī darba profilā, var ātri atrast darbiniekus, kandidātus un kontaktpersonas, kas atbilst vienam vai vairākiem profilā ievadītiem kritērijiem, un skatīt sarakstu ar kandidātiem, kuru prasmes visprecīzāk atbilst nepieciešamajam darbam.
+Prasmju tipi ir kategorijas, kurās ietilpst atsevišķas prasmes, piemēram, Administrēšana vai Pārdošana.
 
-> **Piezīme.** Prasmju kartēšanas rezultātu sarakstā var tikt parādīti vai prasmju profilā var tikt iekļauti tikai darbinieki, kandidāti un kontaktpersonas, kas ir izvēlēti iekļaušanai prasmju kartēšanas meklējumos. Lai prasmju kartēšanas rezultātos iekļautu darbinieku, kandidātu vai kontaktpersonu, iestatiet opciju **Iekļaut prasmju kartēšanā** uz Jā šādās lapās.
-> 
-> + Darbinieks
-> + Darbinieks
-> + Kandidāts
-> + Kontaktpersonas
+1. **Darbinieku attīstības** darbvietā atlasiet **Saites**.
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Prasmju atšķirības analīze un prasmju profila analīze
-Varat izveidot prasmju profila analīzi, lai skatītu darbinieka, kandidāta vai kontaktpersonas kompetenču sarakstu no konkrēta datuma. Varat izveidot prasmju starpības analīzi, lai salīdzinātu personas prasmes un konkrētam darbam nepieciešamās prasmes.  
+2. Zem **Kompetences iestatījumiem** atlasiet **Prasmju tipi**.
 
+3. Atlasiet **Jauns**.
 
+4. Aizpildiet tālāk aprakstītos laukus:
 
+   - **Prasmju tips**: ievadiet prasmju tipa nosaukumu.
+   - **Apraksts**: ievadiet prasmju tipa aprakstu.
+
+5. Atlasiet **Saglabāt**.
+
+## <a name="create-a-rating-model"></a>Izveidot vērtēšanas modeli
+
+Vērtēšanas modeļi palīdz novērtēt personas faktisko prasmju līmeni, to prasmju līmeni, ko šai personai būtu jācenšas sasniegt, vai prasmju līmeni, kas ir nepieciešams darbam. Katram līmenim vērtēšanas modelī tiek piešķirts koeficients.
+
+1. **Darbinieku attīstības** darbvietā atlasiet **Saites**.
+
+2. Zem **Kompetences iestatījumiem** atlasiet **Vērtēšanas modeļi**.
+
+3. Atlasiet **Jauns**.
+
+4. Aizpildiet tālāk aprakstītos laukus:
+
+   - **Vērtējums**: ievadiet vērtēšanas modeļa nosaukumu, piemēram, **Prasmes**.
+   - **Apraksts**: ievadiet vērtēšanas modeļa aprakstu, piemēram, **Prasmju novērtējumi**.
+
+5. Sadaļā **Līmeņi** atlasiet **Jauns**. Katram līmenim, kuru vēlaties pievienot, aizpildiet šādus laukus:
+
+   - **Līmenis**: ievadiet līmeņa nosaukumu.
+   - **Apraksts**: ievadiet līmeņa aprakstu.
+   - **Koeficients**: ievadiet koeficienta vērtību no 0 līdz 9. Koeficienti palīdz normalizēt rādītājus prasmēm, kas izmanto dažādu vērtēšanas modeļus. Katram līmenim jābūt unikālam koeficentam. Līmeņiem ar augstākām koeficienta vērtībām ir lielāka nozīme vērtēšanas modelī.
+
+   Ja nepieciešams, turpiniet pievienot līmeņus. Katram vērtējuma modelim var ievadīt ne vairāk kā 10 līmeņus.
+
+6. Atlasiet **Saglabāt**.
+
+## <a name="create-a-skill"></a>Prasmes izveide
+
+Lai varētu piešķirt kādu prasmi vai izveidot prasmju kartēšanas meklēšanu vai prasmju profilu, par šīm prasmēm ir jāievada informācija lapā **Prasmes**. Katrai prasmei varat atlasīt prasmju tipu un vērtēšanas modeli.
+
+1. **Darbinieku attīstības** darbvietā atlasiet **Saites**.
+
+2. Zem **Kompetences iestatījumiem** atlasiet **Prasmes**.
+
+3. Atlasiet **Jauns**.
+
+4. Aizpildiet tālāk aprakstītos laukus:
+
+   - **Prasme**: ievadiet prasmes nosaukumu.
+   - **Apraksts**: ievadiet prasmes aprakstu.
+   - **Vērtējums**: atlasiet vērtējuma modeli, ko vēlaties izmantot šai prasmei.
+   - **Prasmes tips**: atlasiet no prasmju tipu saraksta.
+
+5. Atlasiet **Saglabāt**.
+
+## <a name="see-also"></a>Skatiet arī
+
+[Ievadīt prasmes](hr-develop-enter-skills.md)<br>
+[Kartēt prasmes](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

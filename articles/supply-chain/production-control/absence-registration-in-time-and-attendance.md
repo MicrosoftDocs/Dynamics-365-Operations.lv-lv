@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809282"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103026"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Kavējuma reģistrēšana sadaļā Laiks un apmeklējums
 
@@ -101,7 +101,7 @@ Darbinieku laika reģistrācijas ir jāaprēķina un jāapstiprina, pirms tās v
 
 Apstiprinātājs var mainīt nodarbinātā laika reģistrācijas. Apstiprinātājs var pat mainīt jebkuru nodarbinātā reģistrēto kavējumu. Ja apstiprinātājs manuāli ievada laika periodu ar kavējuma kodu, šī perioda kavējuma kods netiek aizstāts ar noklusējuma apmeklējuma kodu, kas ir norādīts sadaļā Laika un apmeklētības parametri.
 
-Piemēram, nodarbinātā ierodas darbā plkst. 10.00 un atlasa kavējuma kodu, kas norāda, ka viņa ir ieradusies vēlu. Vēlāk darbiniece informē vadītāju, ka laikā no plkst. 8.00 līdz plkst. 10.00 viņa apmeklēja ārstu. Ārsta apmeklējums nedrīkst izraisīt nodarbinātās algas samazināšanu. Tāpēc šajā gadījumā vadītājs var pielāgot divas kavējuma stundas no plkst. 8.00 līdz plkst. 10.00, šīm divām stundām manuāli ievadot kavējuma kodu, kas norāda saslimšanu.
+Piemēram, nodarbinātais ierodas darbā plkst. 10.00 un atlasa kavējuma kodu, kas norāda, ka tas ir ieradies vēlu. Vēlāk darbinieks informē vadītāju, ka laikā no plkst. 8.00 līdz plkst. 10.00 viņš apmeklēja ārstu. Ārsta apmeklējums nedrīkst izraisīt nodarbinātās algas samazināšanu. Tāpēc šajā gadījumā vadītājs var pielāgot divas kavējuma stundas no plkst. 8.00 līdz plkst. 10.00, šīm divām stundām manuāli ievadot kavējuma kodu, kas norāda saslimšanu.
 
 ### <a name="calculate-and-approve-absence"></a>Kavējuma aprēķināšana un apstiprināšana
 

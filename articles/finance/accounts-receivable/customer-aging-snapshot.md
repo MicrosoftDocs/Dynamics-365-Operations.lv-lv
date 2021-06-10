@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039931"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123366"
 ---
 # <a name="customer-aging-snapshots"></a>Debitora vecumstruktūru momentuzņēmumi
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039931"
 Šajā tēmā ir sniegta informācija par debitora vecumstruktūru momentuzņēmumiem. Vecumstruktūras momentuzņēmums aprēķina vecas klientu grupas bilances par noteiktu laika periodu. Varat izveidot vecumstruktūras momentuzņēmumu ierakstus vai nu visiem debitoriem, vai debitoru kopai.
 
 Vecumstruktūras momentuzņēmuma informācija tiek rādīta saraksta lapā **Vecas bilances** un lapā **Iekasēšana**. Vispirms ir jāizveido vecumstruktūras momentuzņēmums, un tikai tad varat izmantot **Vecas bilances** saraksta lapu. Saraksta lapa uzskaita tikai tos debitorus, kuriem ir izveidots vecumstruktūras momentuzņēmums.
+
+**Debitora kredīta un iekasēšanas** darbvieta rāda arī debitoru vecumstruktūras. Papildinformāciju skatiet [Kredīta un iekasēšanas pārvaldības Power BI saturā](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Lai palīdzētu samazināt laiku, kas nepieciešams vecumstruktūras momentuzņēmuma izveidošanai, ieslēdziet **Debitoru vecumstruktūras veiktspējas uzlabojumu** līdzekli **Līdzekļu pārvaldības** darbvietā. Tomēr neizmantojiet debitoru kopas, ja šī funkcija ir ieslēgta. Ja ir atlasīta debitoru kopa, funkcija nedarbosies, bet joprojām varat izveidot vecumstruktūras momentuzņēmumu.
@@ -62,4 +64,3 @@ Mēs iesakām jums plānot šo procesu, lai palaistu to partijā.
 > [!NOTE]
 > Lai palīdzētu uzlabot pakešuzdevumu veiktspēju vecumstruktūras momentuzņēmumu izveides laikā, ievadiet skaitli laukā **Maksimālais pakešuzdevumu skaits**, kopsavilkuma cilnē **Iekasēšanas noklusējumi**, cilnē **Iekasēšana**, lapā **Debitoru parādu parametri**. Laukā **Debitora vecuma bilances** ieteicams sākt ar noklusēto vērtību **100** un pēc tam koriģēt vērtību, lai optimizētu jūsu situācijas apstrādi.
 
-**Debitora kredīta un iekasēšanas** darbvieta rāda arī debitoru vecumstruktūras. Papildinformāciju skatiet [Kredīta un iekasēšanas pārvaldības Power BI saturā](credit-collections-power-bi.md).

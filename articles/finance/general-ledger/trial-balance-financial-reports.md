@@ -1,8 +1,8 @@
 ---
 title: Apgrozījuma bilances finanšu pārskati
 description: Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816935"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103662"
 ---
 # <a name="trial-balance-financial-reports"></a>Apgrozījuma bilances finanšu pārskati
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816935"
 
 Šajā rakstā ir aprakstīti noklusējuma pārskati apgrozījuma bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki un veids, kā šos pārskatus varat modificēt, lai tie atbilstu jūsu biznesa prasībām. 
 
-<a name="default-trial-balance-reports"></a>Noklusējuma apgrozījuma bilances pārskati
------------------------------
+## <a name="default-trial-balance-reports"></a>Noklusējuma apgrozījuma bilances pārskati
 
 Finanšu pārskatu veidošanas vidē pieejami trīs apgrozījuma bilances pārskati.
 
@@ -47,6 +46,9 @@ Apgrozījuma bilances finanšu pārskati izmanto tālāk aprakstītos veidošana
 | Detalizēta apgrozījuma bilance — noklusējums               | Apgrozījuma bilance — noklusējums | Detalizēta apgrozījuma bilance — noklusējums               |
 | Kopsavilkuma apgrozījuma bilance — noklusējums                | Apgrozījuma bilance — noklusējums | Kopsavilkuma apgrozījuma bilance — noklusējums                |
 | Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums | Apgrozījuma bilance — noklusējums | Kopsavilkuma apgrozījuma bilance gadu gaitā — noklusējums |
+
+> [!NOTE] 
+> Palaižot **Apgrozījuma bilances** atskaiti Financial reporting, noteikti atzīmējiet izvēles rūtiņas **Rādīt rindas bez summām** un **Rādīt atskaites bez rindām** cilnē **Iestatījumi**.
 
 ### <a name="row-definition"></a>Rindas definīcija
 
@@ -94,10 +96,7 @@ Katrā apgrozījuma bilances pārskatā izmantota cita kolonnas definīcija. Š�
     -   **FD** — finanšu dati, kas satur tikai debetu pagājušajam gadam.
     -   **FD** — finanšu dati, kas satur tikai kredītu pagājušajam gadam.
 
-
-
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošanas apskats](financial-reporting-getting-started.md)
 

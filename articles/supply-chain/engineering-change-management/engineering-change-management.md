@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954649"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115003"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Pārvaldīt tehnisko produktu izmaiņas
 
@@ -92,9 +92,13 @@ Kopsavilkuma cilne **Produkti** ļauj jums uzskaitīt katru produktu, ko ietekm�
 
 Kopsavilkuma cilne **Avots** ļauj izsekot izmaiņu pieprasījuma sākumpunktu. Tas noder, piemēram, ja vēlaties redzēt, vai izmaiņu pieprasījums tika izveidots no pārdošanas pasūtījuma, kurš to izveidoja un kurā uzņēmumā tas tika izveidots.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Novērtēt izmaiņu pieprasījuma biznesa ietekmi
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Novērtēt izmaiņu pieprasījuma biznesa ietekmi un nosūtīt paziņojumus
 
-Pārskatot izmaiņu pieprasījumu, var meklēt atkarības. Šādā veidā varat novērtēt pieprasīto izmaiņu ietekmi uz atvērtajām darījumiem, piemēram, pārdošanas pasūtījumiem, ražošanas pasūtījumiem un rīcībā esošajiem krājumiem.
+Pārskatot izmaiņu pieprasījumu, var meklēt atkarības. Šādā veidā varat novērtēt pieprasīto izmaiņu ietekmi uz atvērtajām darījumiem, piemēram, pārdošanas pasūtījumiem, ražošanas pasūtījumiem un rīcībā esošajiem krājumiem. Pārskatot izmaiņu pieprasījumus, cilvēkiem, kas ir atbildīgi par dažādu saistīto pasūtījumu tipu izpildi, varat nosūtīt paziņojumus.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Pārskatīt ietekmētās darbības, bloķēt atlasītās darbības un nosūtīt paziņojumus
+
+Lai pārskatītu ietekmētās darbības, bloķētu atlasītās darbības un nosūtītu saistītos paziņojumus, sekojiet šiem soļiem.
 
 1. Dodieties uz **Tehnisko izmaiņu pārvaldība \> Kopējais \> Tehnisko izmaiņu pārvaldība \> Tehnisko izmaiņu pieprasījumi**.
 1. Vai nu atveriet esošu izmaiņu pieprasījumu, vai arī darbības rūtī atlasiet **Jauns**, lai izveidotu jaunu izmaiņu pieprasījumu.
@@ -103,7 +107,30 @@ Pārskatot izmaiņu pieprasījumu, var meklēt atkarības. Šādā veidā varat 
     - **Meklēšana** — skenējiet visus atvērtos darījumus un pēc tam atveriet dialoglodziņu **Uzņēmējdarbības ietekme uz atvērtiem darījumiem**, ko ietekmēs izmaiņas.
     - **Skatīt iepriekšējo meklēšanu** – Atvēriet dialoglodziņu **Uzņēmējdarbības ietekme uz atvērtiem darījumiem**, kas uzskaita iepriekšējās meklēšanas rezultātus. (Jauna meklēšana nav veikta.)
 
-1. Ja problēma, kurai nepieciešamas izmaiņas, ir kritiska, varat bloķēt atvērtos darījumus vai informēt atbildīgo lietotāju, izmantojot pogas rīkjoslā, kas atrodas dialoglodziņā **Uzņēmējdarbības ietekme uz atvērtiem darījumiem**.
+1. Dialoglodziņš **Biznesa ietekme uz atvērtajām darbībām** nodrošina ciļņu kopa, kur redzama noteikta tipa ietekmēto darbību saraksts (**Pārdošanas pasūtījumi**, **Pirkšanas pasūtījumi**, **Ražošanas pasūtījumi**, **Krājumi** utt.). Katra cilne parāda arī numuru, kas norāda šī tipa ietekmēto darījumu skaitu. Atlasiet cilni, lai apskatītu atbilstošo sarakstu.
+1. Lai strādātu ar darījumu sarakstā, atlasiet to un pēc tam rīkjoslā atlasiet vienu no šīm pogām:
+
+    - **Skatīt darījumu** – atvērt atlasīto darījumu ierakstu.
+    - **Bloķēt pasūtījumu** – šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai bloķētu atlasīto pārdošanas pasūtījumu.
+    - **Bloķēt rindu** – šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai bloķētu atlasīto pirkšanas pasūtījumu rindu.
+    - **Paziņot atbildīgajam** - šī poga ir pieejama tikai cilnē **Pārdošanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto pārdošanas pasūtījumu.
+    - **Paziņot pasūtītājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pasūtījumi**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā pasūtītājs par atlasīto pirkšanas pasūtījumu.
+    - **Paziņot ražošanai** - šī poga ir pieejama tikai cilnē **Ražošanas pasūtījumi**. Atšķirībā no pārdošanas un pirkšanas pasūtījumiem ražošanas pasūtījumos nav viens lietotājs, kurš ir iestatīts kā atbildīgais par tiem. Tā vietā dažādi vadītāji vai plānotāji parasti īpašumtiesības piešķir noteiktai vietai vai noteiktai ražošanas daļai (piemēram, konkrētiem resursiem vai resursu grupām). Tāpēc, atlasot šo pogu, visi lietotāji, kas ir atbildīgi par jebkuru resursu, kas saistīts ar atlasīto ražošanas pasūtījumu, saņem izmaiņu paziņojumu.
+    - **Paziņot sagatavotājam** - šī poga ir pieejama tikai cilnē **Pirkšanas pieprasījums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā sagatavotājs par atlasīto pirkšanas pieprasījumu.
+    - **Paziņot pārdošanas atbildīgajam** - šī poga ir pieejama tikai cilnē **Piedāvājums**. Atlasiet to, lai nosūtītu izmaiņu paziņojumu lietotājam, kurš ir iestatīts kā atbildīgais par atlasīto piedāvājumu.
+    - **Brāķis** – šī poga ir pieejama tikai cilnē **Krājumi**. Atlasiet to, lai brāķētu atlasīto krājumu.
+    - **Skatīt vēsturi** – atvērt to darbību vēsturi, kas veiktas atlasītajam darījumam, izmantojot dialoglodziņu **Biznesa ietekme uz atvērtajiem darījumiem**. (Piemēram, vēsture parāda, vai paziņojumi ir nosūtīti vai darbības ir bloķētas.) 
+    - **Apskatīt visus darījumus** – atveriet pilnu sarakstu ar visiem darījumiem, ne tikai atvērtajiem darījumiem.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Pārskatīt un apstrādāt darījumu izmaiņu paziņojumus
+
+Jūs varat lasīt un apstrādāt saņemtos izmaiņu paziņojumus šādos veidos:
+
+- Izņemot ražošanas pasūtījumus, izmaiņu paziņojumi par darījumiem, par kuriem esat atbildīgs, tiek parādīti Darbību centrā. Navigācijas joslas labajā pusē esošā poga **Rādīt ziņojumus** (zvana simbolu) norāda, kad ziņojums ir pieejams Darbību centrā. Atlasiet pogu **Rādīt ziņojumus**, lai atvērtu darbību centru un pārskatītu ziņojumus.
+- Lai apskatītu visus ražošanas pasūtījumus, kam tika nosūtīts inženiertehniskais paziņojums, dodieties uz **Ražošanas pasūtījumi \> Ražošanas pasūtījumi \> Visi ražošanas pasūtījumi**. Pēc tam, darbību rūtī cilnes **Ražošanas pasūtījums** grupā **Inženiertehnisko izmaiņu pieprasījums** atlasiet **Inženiertehniskie paziņojumi** un atveriet lapu **Inženiertehniskie paziņojumi**.
+- Ražošanas pasūtījumos varat izvēlēties pārskatīt tikai tos izmaiņu paziņojumus, kas attiecas uz jūsu pārvaldītajiem ražošanas resursiem. Darbvietā **Ražošanas pārvaldība** Darbību rūtī atlasiet **Konfigurēt manu darbvietu**, lai filtrētu lapu tā, lai tā rādītu tikai informāciju par jūsu pārvaldītajām ražošanas vienībām, grupām un/vai resursiem. Sadaļā **Kopsavilkums** elements, kura nosaukums ir **Ražošanas pasūtījumi ar mainītām precēm**, rāda to paziņojumu skaitu, kas atbilst filtra iestatījumiem. Atlasiet šo elementu, lai atvērtu lapu **Inženiertehniskie paziņojumi**, kurā ir pilns darbību saraksts, kas atbilst filtra kritērijiem.
+
+Ja pārskata ražošanas pasūtījumu paziņojumus **Inženiertehnisko paziņojumu** lapā, jūs varat sekot saitēm uz saistītajiem izmaiņu pasūtījumiem vai ražošanas pasūtījumiem, atlasot kolonnu vērtības vai izmantojot saistītās komandas Darbību rūtī. Kad esat beidzis novērtēt izmaiņas un pēc tam, kad esat atcēlis vai modificējis ražošanas pasūtījumus pēc vajadzības, varat atzīmēt paziņojumu kā atrisinātu. Atlasiet paziņojumu un pēc tam Darbības rūtī atlasiet **Atrisināt**. Paziņojums ir noņemts no visu lietotāju skatiem.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Izmaiņu pasūtījuma izveide no izmaiņu pieprasījuma
 

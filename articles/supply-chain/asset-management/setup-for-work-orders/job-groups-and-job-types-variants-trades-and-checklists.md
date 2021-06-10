@@ -1,5 +1,5 @@
 ---
-title: Uzturēšanas darba tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu amatu un uzturēšanas kontrolsaraksti
+title: Uzturēšanas darbu tipi, kategorijas, varianti, tirdzniecība un kontrolsaraksti
 description: Šajā tēmā aprakstītas darba tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu amati un uzturēšanas kontrolsaraksti Līdzekļu pārvaldībā.
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842277"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117087"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Uzturēšanas darba tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu amatu un uzturēšanas kontrolsaraksti
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Uzturēšanas darbu tipi, kategorijas, varianti, tirdzniecība un kontrolsaraksti
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Katram līdzeklim ir piesaistīts līdzekļa tips. Līdzekļa tipi definē uzturēšanas darba tipus (tādējādi arī uzturēšanas darbus), kurus var veikt līdzekļos. Izveidojot darba pasūtījumu, jums ir jāatlasa uzturēšanas darba tips. Jūs varat atlasīt vienīgi tos uzturēšanas darba tipus, kuri ir saistīti ar līdzeklim izmantotā līdzekļa tipa iestatījumu.
 

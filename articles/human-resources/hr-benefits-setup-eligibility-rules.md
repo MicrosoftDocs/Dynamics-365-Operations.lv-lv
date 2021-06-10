@@ -2,13 +2,12 @@
 title: Piemērotības kārtulu un opciju konfigurēšana
 description: Iestatiet piemērotības kārtulas un opcijas atvieglojumu pārvaldībā Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
+ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791513"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6093924"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Piemērotības kārtulu un opciju konfigurēšana
 
@@ -87,6 +86,72 @@ Atvērtās reģistrācijas laikā darbinieki var atlasīt atvieglojumu plānus. 
 
 6. Atlasiet **Saglabāt**.
 
+## <a name="using-custom-fields-in-eligibility-rules"></a>Pielāgoto lauku izmantošana piemērotības kārtulās
+
+[Pielāgotos laukus](hr-developer-custom-fields.md) var izveidot Personāla vadībā, lai izsekotu papildinformāciju. Šos laukus var pievienot tieši lietotāja interfeisam, un kolonna tiek dinamiski pievienota pakārtotai tabulai.  
+
+Pielāgotos laukus var izmantot piemērotības procesā. Piemērotības nosacījumi var izmantot vienu vai vairākas pielāgoto lauku vērtības, lai noteiktu darbinieka atbilstību.  Lai esošajai kārtulai pievienotu pielāgotu lauku vai izveidotu jaunu kārtulu, pārejiet uz **Atvieglojumu pārvaldība > Saites > Iestatījumi > Piemērotības kārtulas > Pielāgotā lauka piemērotība**. Šajā lapā varat izveidot kārtulu, kas izmanto vienu vai vairākus pielāgotos laukus, un varat definēt vairākas vērtības katram pielāgotajam laukam, lai noteiktu piemērotību.
+
+Tālāk norādītās tabulas atbalsta pielāgotos laukus, kurus var izmantot piemērotības apstrādē:
+
+- Darbinieks (HcmWorker)  
+- Darbs (HcmJob)  
+- Pozīcija (HcmPosition)  
+- Pozīcijas detalizēta informācija (HcmPositionDetail)  
+- Amatā nodarbinātā piešķire  
+- Nodarbinātība (HcmEmployment)  
+- EmploymentDetails (HcmEmploymentDetails)  
+- Detalizēta informācija par darbu (HcmJobDetails)  
+
+Tālāk norādītie pielāgoto lauku tipi tiek atbalstīti piemērotības apstrādē:
+
+- Teksts  
+- Salasīšanas saraksts  
+- Skaits  
+- Decimāldaļskaitlis  
+- Izvēles rūtiņa  
+
+Tabulā ir parādīta pielāgota lauka piemērotības formas lauka informācija.
+
+| Lauks  | Apraksts |
+|--------|-------------|
+| Nosaukums/vārds, uzvārds | Izveidotā kritērija nosaukums. |
+| Tabulas nosaukums | Tabulas nosaukums, kas satur pielāgoto lauku, kas tiek izmantots piemērotības nosacījumam. |
+| Lauka nosaukums | Lauks, kas tiks izmantots piemērotības kārtulai. |
+| Operatora tips | Parāda operatoru, kas tiek izmantots pielāgotā lauka piemērotības konfigurācijā. |
+| Vērtība | Parāda vērtību, kas tiek izmantota pielāgotā lauka piemērotības konfigurācijā. |
+
+## <a name="eligibility-logic"></a>Piemērotības loģika
+
+Šajās sadaļās aprakstīts, kā tiek apstrādāta atvieglojumu atbilstība.
+
+### <a name="rules-assigned-to-a-plan"></a>Plānam piešķirtās kārtulas 
+Kad atvieglojumu plānam ir piešķirti vairāki piemērotības nosacījumi, darbiniekam jāatbilst vismaz vienai kārtulai, lai būtu piemērots reģistrācijai atvieglojumu plānā.  Tālākajā piemērā darbiniekam ir jāatbilst vai nu kārtulas **Darba tips**, vai arī kārtulas **Aktīvie darbinieki** prasībām.
+
+![Darbiniekam ir jāatbilst vai nu kārtulas Darba tips, vai arī kārtulas Aktīvie darbinieki prasībām.](media/RulesAssignedToAPlan.png)
+ 
+### <a name="criteria-within-an-eligibility-rule"></a>Kritēriji piemērotības kārtulai 
+Kārtulā definējiet kritērijus, kas veido kārtulu. Iepriekšminētajā piemērā **Darba tipa** kārtulas kritēriji ir tie, kur Darba tips = Vadītāji. Tādēļ darbiniekam jābūt vadītājam, lai viņš būtu piemērots darbinieks. Šī ir kārtula, kurā ir tikai viens kritērijs.
+
+Varat definēt kārtulas, kurās ir vairāki kritēriji. Kad definējat vairākus kritērijus piemērotības kārtulā, darbiniekam ir jāatbilst visiem kārtulas kritērijiem, lai būtu piemērots atvieglojumu plānam. 
+
+Piemēram, **Aktīvo darbinieku** kārtula tiek veidota no šādiem kritērijiem. Lai darbinieks būtu piemērots, pamatojoties uz **Aktīvo darbinieku** kārtulu, darbiniekam jābūt nodarbinātam juridiskajā amatā USMF *un* jābūt pilnas laika amata tipam.  
+
+![Kritēriji piemērotības kārtulai](media/CriteriaWithinAnEligibilityRule.png) 
+ 
+### <a name="multiple-conditions-within-criteria"></a>Vairāki nosacījumi kritērijos
+
+Kārtulas var papildus izvērst, lai vienā kritērijā izmantotu vairākus nosacījumus. Darbiniekam ir jāatbilst vismaz vienam nosacījumam, lai varētu tikt piemērots. Lai izveidotu iepriekšminētajā piemērā, **Aktīvo darbinieku** kārtulu var papildus paplašināt, lai iekļautu darbiniekus, kas arī ir nepilna laika darbinieki. Tā rezultātā darbiniekam jābūt darbiniekam USMF *un* vai nu pilnas laika, vai nepilnas laika darbiniekam.  
+
+![Vairāki nosacījumi kritērijos](media/MultipleConditionsWithinCriteria.png) 
+ 
+### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Piemērotības nosacījumi pielāgotā lauka kritērijā 
+Līdzīgi iepriekš pielāgotos laukus var izmantot, veidojot piemērotības nosacījumus un strādāt vienādā veidā. Piemēram, varat piedāvāt interneta kompensāciju Fargo vai Kopenhāgenas darbiniekiem, kas strādā no mājām, jo šajās vietās interneta izmaksas ir augstākas. Lai to izdarītu, izveidojiet divus pielāgotos laukus: **Biroja atrašanās vieta** (izdošanas veidlapa) un **Darbs no mājām** (izvēles rūtiņa). Pēc tam izveidojiet kārtulu ar nosaukumu **WFH darbinieki**. Kārtulas kritērijs ir vieta, kur **Biroja atrašanās vieta = Fargo** vai **Kopenhāgena** *un*, kur **Darbs no mājām = Jā**.
+
+Pielāgotās piemērotības kārtulas būtu jāiestata kā norādīts šajā attēlā. 
+
+![Piemērotības nosacījumi pielāgotā lauka kritērijā](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+ 
 ## <a name="configure-bundles"></a>Pakešu konfigurācija
 
 Komplekti ir saistītu atvieglojumu plānu kopa. Varat izmantot atvieglojumu komplektus, lai grupētu atvieglojumu plānus, kas darbiniekam jāizvēlas, lai reģistrētos noteiktos atvieglojumu plānos, kas var būt atkarīgi no reģistrācijas citos atvieglojumu plānos. Tālāk minēti piemēri, kad, iespējams, vēlēsieties izmantot komplektu.
@@ -103,7 +168,7 @@ Komplekti ir saistītu atvieglojumu plānu kopa. Varat izmantot atvieglojumu kom
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Komplekts** | Komplekta unikālais identifikators. |
+   | **Saišķis** | Komplekta unikālais identifikators. |
    | **Apraksts** | Komplekta apraksts. |
    | **Šablons** | Norāda, vai viens no komplekta plāniem ir jāatzīmē kā galvenais plāns. Galveno plānu ir jāatlasa atvērtās reģistrācijas laikā kā daļu no komplekta, pirms atvieglojumu administrators var apstiprināt darbinieka atvieglojumu izvēli. |
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kad komplekts kļūst aktīvs. |
@@ -167,7 +232,7 @@ Programmas ir atvieglojumu plānu kopa, kam ir kopīga piemērotības kārtulu k
 
    | Lauks | Apraksts |
    | --- | --- |
-   | **Programma** | Programmas unikālais identifikators. |
+   | **Aplikācija** | Programmas unikālais identifikators. |
    | **Apraksts** | Programmas apraksts. | 
    | **Derīguma sākuma datums un laiks** | Datums un laiks, kad programma kļūst aktīva. |
    | **Derīguma beigu datums un laiks** | Datums un laiks, kad beidzas programmas termiņš. Pēc noklusējuma tas ir 12/31/2154, kas nozīmē "nekad". |
