@@ -8,40 +8,39 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f28e11613cb9e10b258e1c373890505fb6e71d29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 16decd94f72e6aefe4e1d058f4cfd6215d14f569
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804917"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058900"
 ---
-# <a name="create-calendars-and-generate-working-times"></a><span data-ttu-id="4e3a9-104">Kalendāra izveide un darba laiku ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="4e3a9-104">Create calendars and generate working times</span></span>
+# <a name="create-calendars-and-generate-working-times"></a><span data-ttu-id="d14ec-104">Kalendāra izveide un darba laiku ģenerēšana</span><span class="sxs-lookup"><span data-stu-id="d14ec-104">Create calendars and generate working times</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="4e3a9-105">Kalendāros ir norādīta operāciju resursu noslodze un darba laiki.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="4e3a9-106">Šajā rakstā ir paskaidrots, kā izveidot darba kalendāru, pamatojoties uz darba laika veidni.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-106">This article explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="4e3a9-107">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="d14ec-105">Kalendāros ir norādīta operāciju resursu noslodze un darba laiki.</span><span class="sxs-lookup"><span data-stu-id="d14ec-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="d14ec-106">Šajā rakstā ir paskaidrots, kā izveidot darba kalendāru, pamatojoties uz darba laika veidni.</span><span class="sxs-lookup"><span data-stu-id="d14ec-106">This article explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="d14ec-107">Šo procedūru var izmēģināt, izmantojot demonstrācijas datu uzņēmumu USMF vai izmantojot savus datus.</span><span class="sxs-lookup"><span data-stu-id="d14ec-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="4e3a9-108">Sākumlapā atlasiet **Resursu dzīves cikla pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-108">On the home page, select **Resource lifecycle management**.</span></span>
-2. <span data-ttu-id="4e3a9-109">Atlasiet **Kalendāri**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-109">Select **Calendars**.</span></span>
-3. <span data-ttu-id="4e3a9-110">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-110">Select **New**.</span></span>
-4. <span data-ttu-id="4e3a9-111">Laukā **Kalendārs** klasificējiet kalendāru.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="4e3a9-112">Tas ir kalendāra ID, kas tiek izmantots kā atsauce, piešķirot kalendārus, piemēram, operācijas resursiem vai resursu grupai.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
-5. <span data-ttu-id="4e3a9-113">Laukā **Nosaukums** ievadiet savu kalendāru.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-113">In the **Name** field, name your calendar.</span></span>
-6. <span data-ttu-id="4e3a9-114">Ievadiet skaitli laukā **Standarta darba dienas ilgums stundās**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-114">In the **Standard work day in hours** field, enter a number.</span></span>
-7. <span data-ttu-id="4e3a9-115">Pārliecinieties, ka ir atlasīta rinda, pēc tam Darbību rūtī atlasiet **Darba laiki**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
-8. <span data-ttu-id="4e3a9-116">Atlasiet **Darba laiku definēšana**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-116">Select **Compose working times**.</span></span> <span data-ttu-id="4e3a9-117">Ģenerējiet darba stundas katrai dienai periodā, kurā vēlaties plānot darbu.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="4e3a9-118">Laika gaitā jūs varat ģenerēt darba laikus papildu periodiem.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-118">As time goes by, you can generate working times for additional periods.</span></span>  
-9. <span data-ttu-id="4e3a9-119">Ievadiet datumu laukā **No datuma**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="4e3a9-120">Tā ir pirmā diena, kad šim kalendāram ir jābūt atvērtam.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-120">This is the first day that this calendar must be open.</span></span>  
-10. <span data-ttu-id="4e3a9-121">Ievadiet datumu laukā **Līdz datumam**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="4e3a9-122">Tā ir pēdējā diena, kad šis kalendārs ir atvērts.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-122">This is the last day that this calendar is open.</span></span>  
-11. <span data-ttu-id="4e3a9-123">Laukā **Darba laika veidne** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="4e3a9-124">Darba laika veidne nosaka darba stundas katrai nedēļas dienai.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-124">The working time template defines the working hours for each day of the week.</span></span>  
-12. <span data-ttu-id="4e3a9-125">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-125">Select **OK**.</span></span>
-13. <span data-ttu-id="4e3a9-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="4e3a9-126">Close the page.</span></span>
+1. <span data-ttu-id="d14ec-108">Sākumlapā atlasiet **Resursu dzīves cikla pārvaldība**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-108">On the home page, select **Resource lifecycle management**.</span></span>
+2. <span data-ttu-id="d14ec-109">Atlasiet **Kalendāri**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-109">Select **Calendars**.</span></span>
+3. <span data-ttu-id="d14ec-110">Atlasiet **Jauns**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-110">Select **New**.</span></span>
+4. <span data-ttu-id="d14ec-111">Laukā **Kalendārs** klasificējiet kalendāru.</span><span class="sxs-lookup"><span data-stu-id="d14ec-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="d14ec-112">Tas ir kalendāra ID, kas tiek izmantots kā atsauce, piešķirot kalendārus, piemēram, operācijas resursiem vai resursu grupai.</span><span class="sxs-lookup"><span data-stu-id="d14ec-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
+5. <span data-ttu-id="d14ec-113">Laukā **Nosaukums** ievadiet savu kalendāru.</span><span class="sxs-lookup"><span data-stu-id="d14ec-113">In the **Name** field, name your calendar.</span></span>
+6. <span data-ttu-id="d14ec-114">Ievadiet skaitli laukā **Standarta darba dienas ilgums stundās**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-114">In the **Standard work day in hours** field, enter a number.</span></span>
+7. <span data-ttu-id="d14ec-115">Pārliecinieties, ka ir atlasīta rinda, pēc tam Darbību rūtī atlasiet **Darba laiki**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
+8. <span data-ttu-id="d14ec-116">Atlasiet **Darba laiku definēšana**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-116">Select **Compose working times**.</span></span> <span data-ttu-id="d14ec-117">Ģenerējiet darba stundas katrai dienai periodā, kurā vēlaties plānot darbu.</span><span class="sxs-lookup"><span data-stu-id="d14ec-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="d14ec-118">Laika gaitā jūs varat ģenerēt darba laikus papildu periodiem.</span><span class="sxs-lookup"><span data-stu-id="d14ec-118">As time goes by, you can generate working times for additional periods.</span></span>  
+9. <span data-ttu-id="d14ec-119">Ievadiet datumu laukā **No datuma**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="d14ec-120">Tā ir pirmā diena, kad šim kalendāram ir jābūt atvērtam.</span><span class="sxs-lookup"><span data-stu-id="d14ec-120">This is the first day that this calendar must be open.</span></span>  
+10. <span data-ttu-id="d14ec-121">Ievadiet datumu laukā **Līdz datumam**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="d14ec-122">Tā ir pēdējā diena, kad šis kalendārs ir atvērts.</span><span class="sxs-lookup"><span data-stu-id="d14ec-122">This is the last day that this calendar is open.</span></span>  
+11. <span data-ttu-id="d14ec-123">Laukā **Darba laika veidne** ievadiet vai atlasiet kādu vērtību.</span><span class="sxs-lookup"><span data-stu-id="d14ec-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="d14ec-124">Darba laika veidne nosaka darba stundas katrai nedēļas dienai.</span><span class="sxs-lookup"><span data-stu-id="d14ec-124">The working time template defines the working hours for each day of the week.</span></span>  
+12. <span data-ttu-id="d14ec-125">Atlasiet **Labi**.</span><span class="sxs-lookup"><span data-stu-id="d14ec-125">Select **OK**.</span></span>
+13. <span data-ttu-id="d14ec-126">Aizvērt lapu.</span><span class="sxs-lookup"><span data-stu-id="d14ec-126">Close the page.</span></span>
 
 
 
