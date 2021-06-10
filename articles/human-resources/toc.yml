@@ -5,6 +5,8 @@
       items:
         - name: Jaunumi un izmaiņas programmā Human Resources
           href: hr-admin-whats-new.md
+        - name: "2021.\_gada 20.\_maijs"
+          href: hr-whats-new-2021-05-20.md
         - name: "2021.\_gada 3.\_maijs"
           href: hr-whats-new-2021-05-03.md
         - name: "2021.\_gada 19.\_aprīlis"
@@ -785,8 +787,14 @@
           items:
             - name: Veiktspējas pārvaldības pārskats
               href: hr-develop-performance-management-overview.md
-            - name: Darbaspēka prasmju saskaņošana
-              href: hr-develop-skills.md
+            - name: Prasmes
+              items:
+                - name: Konfigurēt prasmes
+                  href: hr-develop-skills.md
+                - name: Ievadīt prasmes
+                  href: hr-develop-enter-skills.md
+                - name: Kartēt prasmes
+                  href: hr-develop-map-skills.md
             - name: Pievienot jūsu veiktspējas žurnālam
               href: hr-develop-add-performance-journal.md
             - name: Mērķa izveide

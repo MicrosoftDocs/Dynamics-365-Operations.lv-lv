@@ -72,6 +72,8 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Finance sākumlapa
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.20 (2021.\_gada jūlijs)"
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: "Finance 10.0.19 (2021.\_gada jūlijs)"
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: "Finance 10.0.18 (2021.\_gada maijs)"
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Gada beigu slēgšanas trūkstošās sākuma bilances
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Finanšu žurnālu veidņu atvēršana sistēmā Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Finanšu pārskatu veidošana
           items:
             - name: Darba sākšana ar finanšu pārskatiem
@@ -1502,17 +1506,27 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 'Datu lauku pievienošana nodokļu integrācijai, izmantojot paplašinājumus'
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Vairāki PVN reģistrācijas numuri
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Pamatdatu uzmeklēšanas vides iestatīšana
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Vairāki PVN reģistrācijas numuri
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Pārskatu veidošana vairākām PVN reģistrācijām
+                      items:
+                        - name: Pārskatu veidošana vairākām PVN reģistrācijām
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Nīderlandes pārskatu veidošana
+                          items:
+                            - name: PVN deklarācija
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
             - name: Austrālija
               items:
                 - name: Austrālijas pārskats
                   href: localizations/australia.md
-                - name: Saimnieciskās darbības pārskats (BAS)
+                - name: Saimnieciskās darbības pārskats (SDP)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Pārskatu lodziņu pievienošana un BAS ģenerēšana
                   href: localizations/tasks/add-bas-report-boxes.md
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Lielapjoma pakešapstrādes iespējošana GSTR pārskatiem
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: GST problēmu novēršana
+                          items:
+                            - name: Nepareiza nodokļa summa pēc aprēķina
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Nodokļu konfigurācijas kļūdas
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Nodoklis netiek aprēķināts
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: 'Bilances kārtulu aktivizēšana aizņem vairāk laika, nekā paredzēts'
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: Nav ģenerēts TaxTrans vai dokuments
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Nodokļu transakcijas ID nav pareizs
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Tiešie nodokļi
                   items:
                     - name: Ieturētais nodoklis Indijā
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Audita fails (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: PVN deklarācija (Nīderlande)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Norvēģija
               items:
                 - name: Norvēģijas pārskats
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
+                    - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabošana
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: 'Testēšanas automatizēšana, izmantojot elektronisko pārskatu izveides rīku'
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

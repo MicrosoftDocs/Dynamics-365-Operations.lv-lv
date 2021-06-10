@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017059"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085478"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Uzskaites vai pārskata valūtas maiņa
 
@@ -31,12 +31,12 @@ ms.locfileid: "6017059"
 Jūs vēlaties mainīt uzskaites vai pārskata valūtu vai pievienot pārskata valūtu virsgrāmatas iestatījumiem. Tas parasti notiek tālāk aprakstītajos gadījumos.
 
 - Iestatot juridisku personu, tika norādīta nepareiza uzskaites vai pārskata valūta. Tagad jūs vēlaties mainīt šo valūtu.
-- Iestatot juridisku personu, netika norādīta nekāda uzskaites vai pārskata valūta. (Pārskata valūta nav obligāta.) Tagad vēlaties pievienot pārskata valūtu.
+- Iestatot juridisku personu, tika norādīta pārskata valūta, bet tagad organizācija vēlas noņemt pārskata valūtu.
+- Organizācija jaunina vai migrē uz Microsoft Dynamics 365 Finance un vēlas mainīt uzskaites vai pārskata valūtu.
 
 Organizācija, kas iepriekš neizmantoja divkāršās valūtas iespēju, vēlas sākt to izmantot. Šī problēma parasti notiek tālāk aprakstītajos gadījumos.
 
-- Iestatot juridisku personu, tika norādīta pārskata valūta, bet tagad organizācija vēlas noņemt pārskata valūtu.
-- Organizācija jaunina vai migrē uz Microsoft Dynamics 365 Finance un vēlas mainīt uzskaites vai pārskata valūtu.
+- Iestatot juridisku personu, netika norādīta nekāda uzskaites vai pārskata valūta. (Pārskata valūta nav obligāta.) Tagad vēlaties pievienot pārskata valūtu.
 
 ## <a name="resolution"></a>Novēršana
 

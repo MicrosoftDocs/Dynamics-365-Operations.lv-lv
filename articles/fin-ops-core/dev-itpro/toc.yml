@@ -14,7 +14,9 @@
               items:
                 - name: "Jaunumi un izmaiņas Platform atjauninājumos\_— sākumlapa"
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūlijs)"
+                - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada jūlijs)"
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūnijs)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: "Platform atjauninājumi versijai\_10.0.18 (2021.\_gada maijs)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Jaunumi un izmaiņas portālā Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Noņemtie vai novecojušie līdzekļi pakalpojumā Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services lietotāja rokasgrāmata
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekta pievienošana
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Programmas dzīves cikla pārvaldība
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Lietotāja norādīts grupas īpašnieks
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Duālā ieraksta vides atsaistīšana un atkārtota saistīšana
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Koncepciju kartēšana starp programmām
                   items:
                     - name: Integrētie debitoru pamatdati
@@ -1166,6 +1170,8 @@
               items:
                 - name: Pievienojumprogrammu apskats
                   href: power-platform/add-ins-overview.md
+            - name: Politikas un saziņa
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobilā platforma
           items:
             - name: Mobilās platformas resursi
