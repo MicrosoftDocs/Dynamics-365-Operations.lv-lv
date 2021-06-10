@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808802"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102930"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobilo ierīču iestatīšana darbam noliktavā
 
@@ -41,6 +41,7 @@ Lai izveidotu izvēlnes vienumu kādai aktivitātei vai pieprasījumam, laukam *
 > Atkarībā no izvēlnes vienumam atlasītā režīma un no tā, vai izvēlnes vienums tiek izmantots esoša darba veikšanai, izvēlnes vienumiem var būt pieejami papildu lauki. Informāciju par papildu lauku atlasi skatiet tālāk šīs tēmas sadaļā “Papildu izvēlnes vienumu opcijas”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Aktivitāšu un pieprasījumu izvēlnes vienumu konfigurēšana
+
 Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs**, varat izveidot izvēlnes vienumu tādas vispārējas aktivitātes vai pieprasījuma veikšanai, kas neizraisa darba izveidi. Piemēram, noliktavas vienību uzlīmju atkārtotai drukāšanai un pieprasījuma veikšanai par krājumiem noteiktā novietojumā. Tālāk esošajā tabulā ir norādītas pieejamās opcijas.
 
 | Opcija | Apraksts |
@@ -64,10 +65,9 @@ Ja ir izvēlnes vienumam ir iestatīta lauka **Režīms** vērtība **Netiešs**
 | Parādīt atvērto darbu sarakstu | Parādiet pieejamo darbu sarakstu noteiktam lietotājam. Pēc tam lietotājs var atlasīt veicamo darbu un saņem norādījumus tā veikšanai. Šo sarakstu ir paredzēts skatīt planšetdatoros, kuru ekrāna izmērs ir vismaz 7 collas. Kad atlasāt šo opciju, kļūst pieejami izvēlnes vienumi **Rediģēt vaicājumu** un **Lauku saraksts**. Lapā **Rediģēt vaicājumu** varat iestatīt sarakstā parādīto darbu kritērijus. Lapā **Lauku saraksts** varat atlasīt darbu sarakstā parādāmos laukus. Piemēram, varat samazināt parādīto lauku skaitu, lai lietotājs varētu ātrāk atlasīt piemērotāko darba vienumu. Kopsavilkuma cilnes **Vispārīgi** laukā **Ierakstu skaits lapā** varat arī atlasīt vienā lapā parādāmo darbu ierakstu skaitu. Ja ir atlasīta opcija **Ļauj lietotājiem filtrēt pēc darba transakcijas veida**, darbu sarakstā tiek ietverta vadīkla **Filtrēt darbu**, ko lietotājs var izmantot filtrēšanai pēc transakcijas veida. Lietotājiem darbu sarakstā tiek rādīti tikai tie darbi, kuriem attiecīgajam lietotājam ir atļauja piekļūt. Jums ir jāpārliecinās, ka lietotājiem ir atļauja piekļūt vienu vai vairākiem lietotāja noteiktajiem izvēlnes vienumiem, kas atbalsta noteiktās darba klases tipus, kam šiem lietotājiem ir jāspēj piekļūt. Atļaujas tiek pārbaudītas, kad lietotājs mēģina izpildīt sarakstā iekļautu darbu.|
 | Izveidot pārsūtīšanas pasūtījumu no noliktavas vienības | Šis līdzeklis ļauj noliktavas darbiniekiem izveidot un apstrādāt pārsūtīšanas pasūtījumus tieši no Warehouse Management mobile programmas. Noliktavas darbinieki vispirms atlasa mērķa noliktavu un pēc tam viņi var skenēt vienu vai vairākas noliktavas vienības, izmantojot programmu. Kad noliktavas darbinieks atlasa **Pabeigt pasūtījumu**, pakešuzdevums izveido nepieciešamo pārsūtīšanas pasūtījumu un pasūtījuma rindas, pamatojoties uz rīcībā esošajiem krājumiem, kas reģistrēti šīm noliktavas vienībām. Papildinformāciju skatiet sadaļā [Pārsūtīšanas pasūtījumu izveide no noliktavas programmas](create-transfer-order-from-warehouse-app.md)
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Citam darbiniekam vai procesam paredzēta darba izveides izvēlnes vienumu konfigurēšana
-Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam, kad mobilajā ierīcē tiek veikta sākotnējā darbība. Piemēram, kad viens darbinieks izmanto mobilo ierīci, lai saņemtu krājumu, citam darbiniekam tiek izveidots izvietošanas darbs. Lai iestatītu izvēlnes vienumu, kas izraisa darba izveidi, lapā **Mobilās ierīces izvēlnes vienumi** atlasiet lauka **Režīms** vērtību **Darbs**. Tālāk esošajā tabulā ir norādītas lauka **Darba izveides process** opcijas, kas ir sakārtotas pēc darba pasūtījuma veida.
 
+Varat iestatīt izvēlnes vienumu, kas izveido darbu citam darbiniekam pēc tam, kad mobilajā ierīcē tiek veikta sākotnējā darbība. Piemēram, kad viens darbinieks izmanto mobilo ierīci, lai saņemtu krājumu, citam darbiniekam tiek izveidots izvietošanas darbs. Lai iestatītu izvēlnes vienumu, kas izraisa darba izveidi, lapā **Mobilās ierīces izvēlnes vienumi** atlasiet lauka **Režīms** vērtību **Darbs**. Tālāk esošajā tabulā ir norādītas lauka **Darba izveides process** opcijas, kas ir sakārtotas pēc darba pasūtījuma veida.
 
 <table>
 <tbody>
@@ -407,6 +407,7 @@ Tabulā ir sniegts šo opciju apraksts.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Pieprasīšana, lai darbinieki, izdodot krājumus, apstiprinātu preci, novietojumu vai daudzumu
+
 Varat iestatīt darba apstiprinājumus, kas nosaka, ka darbiniekam, strādājot noliktavā, ir jāreģistrē novietojums vai daudzums, izmantojot mobilo ierīci. Darba apstiprinājumi palīdz nodrošināt, ka darbinieks atrodas pareizajā novietojumā un strādā ar pareizo krājumu daudzumu. Varat arī iespējot automātisku darbinieka reģistrācijas apstiprināšanu programmā Supply Chain Management. Ja iespējojat automātisko apstiprināšanu, nevarat pieprasīt arī novietojuma vai daudzuma apstiprinājumus. Darba apstiprinājumos tiek ietvertas arī preces un preču varianti. Turklāt varat arī reģistrēt apstiprinājumus, skenējot svītrkodu. Lai apstiprinātu preces un preču variantus, jums jāievada preces vai preces varianta ID. Šis ID var būt preces ID, preces meklēšanas ID, ārējais ID, GTIN vai svītrkods. Pēc tam, kad ievadīsiet ID vai noskenēsiet svītrkodu, mobilajā ierīcē tiks parādītas preces varianta dimensijas. 
 
 Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot darba apstiprinājumus.
@@ -426,14 +427,11 @@ Tālāk esošajā tabulā ir aprakstīti dažādi darba veidi, kam var izmantot 
 > [!NOTE]
 > Preces apstiprināšanu var pieprasīt tikai izdošanas un izvietošanas darbu veidiem.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
-[Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai](tasks/set-up-mobile-device-menu.md)
-
-[Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Krājumu statusi](../inventory/inventory-statuses.md)
+- [Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai](tasks/set-up-mobile-device-menu.md)
+- [Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Krājumu statusi](../inventory/inventory-statuses.md)
 
 
 

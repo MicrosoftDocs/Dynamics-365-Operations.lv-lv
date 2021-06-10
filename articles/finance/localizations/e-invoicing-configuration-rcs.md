@@ -2,7 +2,7 @@
 title: Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 description: Šajā tēmā skaidrots, kā konfigurēt Elektronisko rēķinu izrakstīšanu Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897724"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075147"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronisko rēķinu izveides konfigurēšana pakalpojumā Regulatory Configuration Services (RCS)
 
@@ -194,6 +194,8 @@ Elektronisko rēķinu izrakstīšanas funkcijas sastāv no šādām konfigurēja
 
 - Pārdošanas rēķins (ES)
 - Projekta rēķins (ES)
+
+Papildus neiekļautajām ER formāta konfigurācijām, lai izmantotu ar Elektronisko rēķinu pakalpojumu, varat arī izveidot savas ER formāta konfigurācijas. Tomēr formāta konfigurācijas, kas izveidotas, lai tās izmantotu ar Elektroniskās rēķinu izrakstīšanas līdzekļiem, neatbalsta tiešu atsauci uz Finance vai Supply Chain Management tabulām vai kādu no atbilstošajiem metadatiem. Tiek atbalstītas tikai atsauces uz ER modeļa kartēšanu.
 
 ### <a name="actions"></a>Darbības
 

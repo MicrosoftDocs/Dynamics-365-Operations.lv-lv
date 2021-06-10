@@ -1,27 +1,21 @@
 ---
 title: Negatīvās dienas un dinamiskās negatīvās dienas
 description: Šajā tēmā ir sniegta informācija par negatīvām dienām un dinamiskām negatīvām dienām, un to, kā varat tās izmantot, lai palīdzētu savam uzņēmumam.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907745"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097238"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatīvās dienas un dinamiskās negatīvās dienas
 
@@ -45,7 +39,7 @@ Pieprasījums var rasties vai nu salīdzinoši agri krājuma izpildes laikā, va
 - Demonstrācijas preces krājumam ir sešu dienu pirkšanas izpildes laiks.
 - Nulles dienā (1. janvārī) demonstrācijas preces krājumu līmenis ir 0 (nulle).
 - Nulles dienā (1. janvārī) tiek saņemts pārdošanas pasūtījums par 10 demonstrācijas preces vienībām.
-- Septītajā dienā (7. janvārī) ir esošs pirkšanas pasūtījums par 10 demonstrācijas preces vienībām.
+- Septītajā dienā (8. janvārī) ir esošs pirkšanas pasūtījums par 10 demonstrācijas preces vienībām.
 
 Nākamajā attēlā ir parādīts šī scenārija grafisks skats.
 
@@ -112,7 +106,7 @@ Pieprasījums var rasties krājuma izpildes laikā. Tālāk minēts šī scenār
 
 Nākamajā attēlā ir parādīts šī scenārija grafisks skats.
 
-![1. scenārija grafisks skats](./media/negative-days-8.png)
+![2. scenārija grafisks skats](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>A gadījums. Negatīvo dienu vērtība ir mazāka par krājuma izpildes laiku
 
@@ -219,8 +213,8 @@ Varat iestatīt ilgu negatīvo dienu periodu un pēc tam strādāt ar darbību z
 - Demonstrācijas preces krājumam ir sešu dienu pirkšanas izpildes laiks.
 - Nulles dienā (1. janvārī) demonstrācijas preces krājumu vērtība ir 0 (nulle).
 - Nulles dienā (1. janvārī) tiek saņemts pārdošanas pasūtījums par 10 demonstrācijas preces vienībām.
-- Desmitajā dienā (10. janvāris) tiek saņemts pārdošanas pasūtījums par 10 demonstrācijas preces vienībām.
-- Divpadsmitajā dienā (12. janvārī) ir pirkšanas pasūtījums par 10 demonstrācijas preces vienībām.
+- Devītajā dienā (10. janvārī) tiek saņemts pārdošanas pasūtījums par 10 demonstrācijas preces vienībām.
+- Vienpadsmitajā dienā (12. janvārī) ir pirkšanas pasūtījums par 10 demonstrācijas preces vienībām.
 - Vienumam Dienas(-) ir iestatīta vērtība **20**, kas ir daudz lielāka par krājuma izpildes laiku.
 
 Nākamajā attēlā ir parādīts procesa grafisks skats.
@@ -229,7 +223,7 @@ Nākamajā attēlā ir parādīts procesa grafisks skats.
 
 MRP sniedz šādus rezultātus.
 
-![Rezultāti](./media/negative-days-20.png)
+![1. rezultātu piemērs](./media/negative-days-20.png)
 
 Iepriekšējā ekrānuzņēmumā pārdošanas pasūtījuma vajadzības datums ir 9. janvāris, nevis 10. janvāris. Tā kā šis ekrānuzņēmums tika izveidots 2015. gadā, kad 10. janvāris bija sestdiena, pasūtījuma vajadzības datumam ir jābūt iepriekšējai darba dienai, kas bija piektdiena, 9. janvāris.
 
@@ -239,7 +233,7 @@ Rezultāti nav nepareizi, bet MRP izpildes laiks var būt ilgāks, jo MRP ir jā
 
 Samazinot negatīvo dienu skaitu līdz vērtībai, kas ir tuvāka krājuma izpildes laikam, un izmantojot dinamiskās negatīvās dienas, MRP nodrošina tālāk redzamos rezultātus.
 
-![Rezultāti](./media/negative-days-21.png)
+![2. rezultātu piemērs](./media/negative-days-21.png)
 
 MRP izveido plānoto pasūtījumu, kas piesaistīts pirmajam pārdošanas pasūtījumam. Pēc tam, kā paredzēts, otrais pārdošanas pasūtījums tiek piesaistīts esošajam pirkšanas pasūtījumam, pamatojoties uz negatīvo dienu iestatījumiem. Arī šis plānošanas rezultāts ir pareizs, un MRP izpildes laiks var būt īsāks. Šādā gadījumā nav svarīgi, lai jūs saprastu darbības ziņojumus un zinātu, kā ar tiem strādāt.
 

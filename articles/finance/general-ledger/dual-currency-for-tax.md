@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832974"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088469"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Divkāršās valūtas atbalsts PVN
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Lai iegūtu vairāk informācijas par divkāršo valūtu, lūdzu, skatiet [Divk�
 Divkāršu valūtu atbalsta rezultātā ir pieejami divi jauni līdzekļi līdzekļu pārvaldībā: 
 
 - PVN konvertēšana (jauns versijā 10.0.13)
+- Ievadiet finanšu dimensijas realizētās valūtas korekcijas peļņas/zaudējumu kontos PVN segšanai (jauns versijā 10.0.17)
 
-Divkāršu valūtu atbalsts PVN nodrošina, ka nodokļi tiek aprēķināti precīzi nodokļu valūtā un ka PVN apmaksas bilance tiek aprēķināta precīzi gan uzskaites valūtā, gan pārskata valūtā. 
+Divkāršu valūtu atbalsts PVN nodrošina, ka nodokļi tiek precīzi aprēķināti nodokļu valūtā un ka PVN apmaksas bilance tiek precīzi aprēķināta gan uzskaites valūtā, gan pārskata valūtā.
 
 ## <a name="sales-tax-conversion"></a>PVN konvertēšana
 
@@ -88,6 +89,10 @@ Nodokļu summa = 100 EUR
 
 Lai novērstu iepriekšējo scenāriju, ieteicams mainīt šo parametra vērtību jaunā (tīrā) nodokļu apmaksas periodā, kas nesatur neapmaksātas nodokļu transakcijas. Lai mainītu šo vērtību nodokļa apmaksas perioda vidū, pirms šī parametra vērtības maiņas, lūdzu, palaidiet "nosegt un grāmatot PVN" programmu pašreizējam nodokļu apmaksas periodam.
 
+Šis līdzeklis pievieno grāmatvedības ierakstus, kas precizē peļņu un zaudējumus no valūtas maiņas. Ieraksti tiek veikti realizētās valūtas korekcijas peļņas un zaudējumu kontos, kad pārdošanas nodokļa apmaksas laikā tiek veikta pārvērtēšana. Papildinformāciju skatiet sadaļā [Nodokļu segšanas automātiskā bilance pārskata valūtā](#tax-settlement-auto-balance-in-reporting-currency) vēlāk šajā tēmā.
+
+> [!NOTE]
+> Norēķinu laikā informācija par finanšu dimensijām tiek ņemta no PVN kontiem, kas ir bilances konti, un ievadīta valūtas korekcijas peļņas un zaudējumu kontos, kas ir peļņas un zaudējumu pārskata konti. Tā kā finanšu dimensiju vērtības ierobežojumi dažādiem bilances kontiem un peļņas un zaudējumu pārskata kontiem atšķiras, PVN nosegšanas un grāmatošanas procesā var rasties kļūda. Lai nemodificētu kontu struktūras, varat ieslēgt līdzekli "Aizpildīt finanšu dimensijas uz realizētajiem valūtas korekcijas peļņas/zaudējumu kontiem PVN segšanai". Šī iespēja piespiedīs finanšu dimensiju atvasināšanu uz valūtas korekcijas peļņas/zaudējumu kontiem. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Pārskata valūtas nodokļu summas izsekošana
 
@@ -114,7 +119,7 @@ Izmantojot iepriekšējo piemēru, lai parādītu šo līdzekli, pieņemsim, ka 
 | Uzskaites valūta             | 100                        | 111                       | 83                       | **83.25**          |
 | Pārskata valūta              | 100                        | 111                       | 83                       | **83**             |
 
-Palaižot PVN apmaksas programmu mēneša beigās, uzskaites ieraksts būs šāds:.
+Palaižot PVN apmaksas programmu mēneša beigās, uzskaites ieraksts būs šāds.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Scenārijs: PVN konvertēšana = "Uzskaites valūta"
 
 | Galvenais konts           | Transakcijas valūta (GBP) | Uzskaites valūta (USD) | Pārskata valūta (GBP) |

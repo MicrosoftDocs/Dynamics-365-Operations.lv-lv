@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2c69ab02ea9e6a5a5699a204258243d6204413b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e89e8b4860bbafe4bd47d62d2feb7d197f233d24
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825306"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102786"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkšanas ierobežojumu pārskats
 
@@ -132,7 +132,7 @@ Izmantojot pirkšanas pasūtījuma izveides un pieprasījuma konsolidācijas nos
 -   Cilnē **Cenu tolerance** var noteikt nosacījumus, kas tiek izmantoti, lai maršrutētu apstiprinātos pirkšanas pieprasījumus atpakaļ uz pārskatīšanas procesu, kad sagādes kataloga krājuma cena pieaug. Iestatiet maksimālo summu, līdz kurai neto summa par rindas krājumu pirkšanas pasūtījumā var palielināties laikā starp pirkšanas pieprasījuma apstiprināšanu un brīdi, kad tiek izveidots pirkšanas pasūtījums. Neto summa tiek aprēķināta, izmantojot šādu formulu: (\[daudzums × (vienības cena – atlaide) ÷ cenas vienība\] + pirkšanas papildmaksas) × (100 – atlaids procentos) ÷ 100. Pirkšanas pieprasījuma rindas, kas pārsniedz iestatīto cenas toleranci, tiek aizturētas manuālai apstrādei. Kārtulas, kuras jūs konfigurējat cilnē **Kļūdu apstrāde**, nosaka, kā tiek apstrādātas pirkšanas pieprasījuma rindas.
 -   Cilnē **Kļūdu apstrāde** var konfigurēt apstrādes kārtulu, kas tiek piemērota pirkšanas pasūtījumam, ja piegādātāja kļūdas vai cenu tolerances kļūdas dēļ tās validācija neizdodas pirkšanas pasūtījuma izveidošanas laikā. Izvēlieties vienu no šīm opcijām:
     -   **Nav darbības** — pirkšanas pieprasījuma rindas paliek lapā **Nodot izpildei apstiprinātos pirkšanas pieprasījumus**. Pirkšanas pieprasījuma rindu statuss paliek **Apstiprināts**. Tomēr kļūdas jānovērš, pirms pirkšanas pasūtījumu var ģenerēt no pirkšanas pieprasījuma rindām.
-    -   **Atcelt pirkšanas pieprasījuma rindu** — pirkšanas pieprasījumu rindas tiek atceltas. Pieprasītājs var izveidot jaunu pirkšanas pieprasījumu par atceltajām rindām, ja viņš vai viņa joprojām vēlas pieprasīt rindas krājumus.
+    -   **Atcelt pirkšanas pieprasījuma rindu** — pirkšanas pieprasījumu rindas tiek atceltas. Pieprasītājs var izveidot jaunu pirkšanas pieprasījumu par atceltajām rindām, ja viņš joprojām vēlas pieprasīt rindas krājumus.
     -   **Izveidot jaunu pirkšanas pieprasījuma rindu** — pirkšanas pieprasījumu rindas tiek atceltas. Pēc tam tiek ģenerēti jauni pirkšanas pieprasījumi, kas satur tikai pirkšanas pieprasījumu rindas, kuru validācija neizdevās. Jaunu ģenerējamo pirkšanas pieprasījumu statuss ir **Melnraksts**. Šos pirkšanas pieprasījumus var no jauna iesniegt izskatīšanai pēc tam, kad validācijas kļūdas ir novērstas. Pirkšanas pieprasījuma rindu sagatavotājs tiek informēts, ka rindas tika atceltas un ka jaunie pirkšanas pieprasījumi tika ģenerēti no pirkšanas pieprasījuma rindām, kuras neizdevās.
 -   Cilnē **Manuāla pirkšanas pasūtījuma izveide** definējiet parametrus, kas nosaka, vai pirkšanas pieprasījums ir manuāli jāapstrādā vai tas var automātiski tikt pārvērsts par pirkšanas pasūtījumu. Parametru var lietot iekšējā kataloga krājumiem, ārējā kataloga krājumiem vai krājumiem, kas nav katalogā. Izvēlieties vienu no šīm opcijām:
     -   **Manuāli izveidot pirkšanas pasūtījumus** — manuāli izveidojiet pirkšanas pasūtījumus visiem pirkšanas pieprasījumiem.

@@ -2,7 +2,7 @@
 title: Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu
 description: Šajā tēmā ir paskaidrots, kā sākt darbu ar Elektronisko rēķinu izrakstīšanu.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980980"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092410"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Darba sākšana ar elektroniskās rēķinu izveides servisa administrēšanu
 
@@ -44,18 +44,14 @@ Pirms pabeidzat šajā tēmā norādītās procedūras, ir jāievieš šādi pri
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalējiet programmu Microservices pievienojumprogrammu pakalpojumam Lifecycle Services
 
-1. Piesakieties savā LCS kontā.
-2. Atlasiet **Priekšskatījuma līdzekļu pārvaldības** elementu.
-3. Sadaļā **Publiskā priekšskatījuma līdzekļi** atlasiet **Elektronisko rēķinu izrakstīšanu**.
-4. Pārliecinieties, vai opcija **Priekšskatījuma līdzeklis iespējots** ir iestatīta uz **Jā**.
-5. LCS projekta informācijas panelī atlasiet LCS projektu.
-6. LCS projekta LCS vides informācijas panelī atlasiet LCS izvietošanas projektu. LCS izvietošanas projektam jādarbojas.
-7. Cilnes **Power Platform integrācija** lauku grupā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
-8. Atlasiet **Elektronisko rēķinu izrakstīšana**.
-9. Laukā **AAD pieteikuma ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī ir fiksēta vērtība.
-10. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta nomnieka ID.
-11. Pārskatiet noteikumus un nosacījumus un atzīmējiet izvēles rūtiņu.
-12. Atlasiet **Instalēt**.
+1. Pierakstieties jūsu LCS kontā un LCS informācijas panelī, atlasiet LCS projektu.
+2. Projekta vides informācijas panelī atlasiet LCS izvietošanas projektu. Atlasītais projekts ir jāpalaiž.
+3. Cilnes **Power Platform integrācija** lauku grupā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
+4. Atlasiet **Elektronisko rēķinu izrakstīšana**.
+5. Laukā **AAD pieteikuma ID** ievadiet **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Šī ir fiksēta vērtība.
+6. Laukā **AAD nomnieka ID** ievadiet jūsu Azure abonementa konta nomnieka ID.
+7. Pārskatiet noteikumus un nosacījumus un atzīmējiet izvēles rūtiņu.
+8. Atlasiet **Instalēt**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Iestatiet RCS integrācijas parametrus ar elektronisko rēķinu izrakstīšanu

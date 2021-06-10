@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814830"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103003"
 ---
 # <a name="pay-based-on-registrations"></a>Apmaksa atbilstoši reģistrācijām
 
@@ -39,7 +39,7 @@ ms.locfileid: "5814830"
 
 ## <a name="the-use-of-flex-time"></a>Brīvā režīma izmantošana
 
-Brīvā režīma periodi tiek iestatīti laika profilos, kuri tiek izmantoti laika un apmeklētības aprēķināšanai. Pastāv divi brīvā režīma profila tipi: **Brīvais režīms +** un **Brīvais režīms -**. Kad nodarbinātais reģistrē laiku brīvā režīma + periodā, nodarbinātā brīvā režīma bilance tiek palielināta, pievienojot nostrādāto stundu skaitu. Nodarbinātais nesaņem nekādu kompensāciju par stundām, kas nostrādātas brīvā režīma + periodā. Tomēr nodarbinātais var paņemt brīvu laiku brīvā režīma - periodos, kompensējot to ar stundām no sava brīvā režīma bilances. Tāpēc brīvā režīma periodos reģistrētais brīvais laiks sistēmā tiek uzskatīts par kavējumu.
+Brīvā režīma periodi tiek iestatīti laika profilos, kuri tiek izmantoti laika un apmeklētības aprēķināšanai. Pastāv divi brīvā režīma profila tipi: **Brīvais režīms +** un **Brīvais režīms -**. Kad nodarbinātais reģistrē laiku brīvā režīma + periodā, nodarbinātā brīvā režīma bilance tiek palielināta, pievienojot nostrādāto stundu skaitu. Nodarbinātais nesaņem nekādu kompensāciju par stundām, kas nostrādātas brīvā režīma + periodā. Tomēr nodarbinātais var paņemt atvaļinājumu brīvā režīma - periodos, kompensējot to ar stundām no sava brīvā režīma bilances. Tāpēc brīvā režīma periodos reģistrētais brīvais laiks sistēmā tiek uzskatīts par kavējumu.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Scenāriji, kuru pamatā ir brīvā režīma periodi
 
@@ -77,7 +77,7 @@ Lai izprastu šo scenāriju, skatiet tālāk norādītos laukus.
 
 #### <a name="calculation-of-flex"></a>Brīvā režīma + aprēķins
 
-Saskaņā ar brīvā režīma profilu laiks starp plkst. 06:00 un plkst. 07:00 ir brīvā režīma + periods. Tādēļ, ja nodarbinātais ierodas plkst. 06:30, viņš nopelna 0,5 stundas. Šis laika apjoms tiek pievienots nodarbinātā brīvā režīma bilancei.
+Saskaņā ar brīvā režīma profilu laiks starp plkst. 06.00 un plkst. 07.00 ir brīvā režīma + periods. Tādēļ, ja nodarbinātais ierodas plkst. 06:30, viņš nopelna 0,5 stundas. Šis laika apjoms tiek pievienots nodarbinātā brīvā režīma bilancei.
 
 #### <a name="calculation-of-flex-"></a>Brīvā režīma - aprēķins
 
@@ -168,9 +168,9 @@ Lai konfigurētu sistēmu skaidri nošķirt standarta laiku un virsstundas, virs
 
 Lapā **Aprēķina parametri** atlasiet **Virsstundas** kā profila specifikācijas veidu un iestatiet opciju **Apmaksājamais laiks** uz **Nē**, kā parādīts šeit.
 
-| Reģ. specifikācija | Profila specifikācijas tips | Aprēķins   |     | Apmaksāts         |     |
+| Reģ. specifikācija | Profila specifikācijas tips | Aprēķins   | Iestatījums | Apmaksāts         | Iestatījums |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Darba laiks       | Virsstundas                   | Standarta laiks | Jā | Apmaksājamais laiks     | Nav  |
+| Darba laiks       | Virsstundas                   | Standarta laiks | Jā | Apmaksājamais laiks     | Nr.  |
 |                    |                            | Apmaksājamais laiks      | Jā | Apmaksājamās virsstundas | Jā |
 
 Pēc aprēķina parametru pielāgošanas tiks ģenerēti tālāk norādītie apmaksas elementi.
@@ -468,7 +468,7 @@ Tālāk aprakstītajos scenārijos ir parādīti apmaksas elementi un apstiprin�
 
 Nodarbinātais reģistrē ierašanās laiku plkst. 08.30. Tā kā viņa plānotais ierašanās laiks ir plkst. 07.00, viņš kavē darbu 1,50 stundas. Tā kā 1,50 stundas tiek uzskatītas par kavējuma laiku, nodarbinātajam tiek piedāvāts atlasīt kavējuma kodu. Nodarbinātais aiziet no darba plkst. 15.30, kas ir plānotais aiziešanas laiks. Kad nodarbinātā reģistrācijas tiek aprēķinātas un apstiprinātas, kavējuma reģistrācija, kā arī nodarbinātā kopā ar ierašanās laika reģistrāciju atlasītais kavējuma kods parādās laika periodam no plkst. 07.00 līdz plkst. 08.30.
 
-Laika profilā var konfigurēt reģistrācijas tipu **Ierašanās**, lai ļautu nodarbinātajiem reģistrēt ierašanās laiku nedaudz vēlāk. Piemēram, ja iestatāt 5 minūšu kavējuma toleranci, nodarbinātais tiks aicināts atlasīt kavējuma kodu tikai tad, ja viņš ieradīsies vēlāk par 07.05.
+Laika profilā var konfigurēt reģistrācijas tipu **Ierašanās**, lai ļautu nodarbinātajiem reģistrēt ierašanās laiku nedaudz vēlāk. Piemēram, ja iestatāt 5 minūšu kavējuma toleranci, nodarbinātais tiks aicināts atlasīt kavējuma kodu tikai tad, ja viņš ieradīsies vēlāk par plkst. 07.05.
 
 Tā kā šajā gadījumā nodarbinātā kavējumam nav pamatota iemesla, viņš atlasa kavējuma kodu, kas atbilst neatļautam kavējumam. Kavējuma kods tiek uzskatīts par atbilstošu neatļautam kavējumam, ja kavējuma kodam atbilstošajai kavējumu grupai ir iespējots virsstundu skaita samazinājuma iestatījums. Lai iestatītu šo iestatījumu, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Grupas** &gt; **Kavējumu grupas** un pēc tam atzīmējiet izvēles rūtiņu **Samazināt virsstundu skaitu**.
 
@@ -559,7 +559,7 @@ Turpretim, ja izvēles rūtiņa **Samazināt virsstundu skaitu** atlasītajam ka
 
 Tālāk norādītajā piemērā ir parādīts, kā var samazināt nodarbinātā brīvā režīma bilanci, pārveidojot kavējuma periodu par brīvā režīma - periodu.
 
-Nodarbinātais reģistrē ierašanās laiku plkst. 07.00 un reģistrē aiziešanas laiku plkst. 13.00 Nodarbinātais ir noslēdzis vienošanos ar vadītāju, ka piektdien drīkst doties mājās agrāk, ja šīs stundas tiek atņemtas no nodarbinātā brīvā režīma bilances. Kad nodarbinātais reģistrē aiziešanas laiku plkst. 13.00, nodarbinātais tiek aicināts atlasīt kavējuma kodu, jo atlikušās darbdienas daļas kavējuma periods nav plānotajā brīvā režīma - periodā. Lai pārveidotu atlikušo darbdienas daļu par brīvā režīma - periodu, nodarbinātais var atlasīt kavējuma kodu, kas ir iestatīts nodarbinātā brīvā režīma bilances samazināšanai.
+Nodarbinātais reģistrē ierašanās laiku plkst. 07.00 un reģistrē aiziešanas laiku plkst. 13.00 Darbiniekam ir līgums, ka viņš var doties mājās nedēļas nogalē, ja viņš atskaita šīs stundas no brīvā režīma konta. Kad nodarbinātais reģistrē aiziešanas laiku plkst. 13.00, viņš tiek aicināts atlasīt kavējuma kodu, jo atlikušās darbdienas daļas kavējuma periods nav plānotajā brīvā režīma - periodā. Lai pārveidotu atlikušo darbdienas daļu par brīvā režīma - periodu, nodarbinātais var atlasīt kavējuma kodu, kas ir iestatīts nodarbinātā brīvā režīma bilances samazināšanai.
 
 Lai samazinātu brīvā režīma stundu bilanci nodarbinātajiem, kuri reģistrē kavējumu darbdienā, atlasiet **Laiks un apmeklētība** &gt; **Iestatījumi** &gt; **Grupas** &gt; **Kavējumu grupas** un atzīmējiet izvēles rūtiņu **Samazināt brīvo režīmu**.
 
@@ -577,7 +577,7 @@ Ja nodarbinātais atzīmē neatļautam kavējumam atbilstošu kavējuma kodu, p�
 |---------------|----------|-----------|------|
 | Standarta laiks | 1201     | 6,00      | 10   |
 
-Ja nodarbinātais atzīmē atļautam kavējumam atbilstošu kavējuma kodu un šis kavējuma kods ir iestatīts brīvā režīma bilances samazināšanai, pēc reģistrāciju pārsūtīšanas iegūtaie apmaksas elementi izskatīsies, kā norādīts tālāk.
+Ja nodarbinātais atzīmē atļautam kavējumam atbilstošu kavējuma kodu un šis kavējuma kods ir iestatīts brīvā režīma bilances samazināšanai, pēc reģistrāciju pārsūtīšanas iegūtie apmaksas elementi izskatīsies, kā norādīts tālāk.
 
 | Algas tips     | Apmaksas tips | Apmaksas vienības | Norma |
 |---------------|----------|-----------|------|
