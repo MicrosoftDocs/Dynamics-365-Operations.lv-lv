@@ -94,7 +94,9 @@
                   items:
                     - name: Mājas lapa “Jaunumi un izmaiņas programmā Commerce”
                       href: get-started/whats-new-home-page.md
-                    - name: "Commerce 10.0.19 (2021.\_gada jūlijs)"
+                    - name: "Commerce 10.0.20 (2021.\_gada jūlijs)"
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: "Commerce 10.0.19 (2021.\_gada jūnijs)"
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: "Commerce 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Laikspraugu izveide un atjaunināšana izsniegšanai klientam
                   href: dev-itpro/pickup-timeslots.md
+                - name: 'Konfigurēt preču dimensiju vērtības, lai tās tiktu rādītas kā paraugi'
+                  href: dev-itpro/dimensions-swatch.md
         - name: Jūsu preču un pakalpojumu tirdzniecība
           items:
             - name: 'Kategorijas, preces un klāsts'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Mērvienības iestatījumu lietošana
                   href: unit-of-measure.md
+                - name: Displeja iestatījumu lietošana preču dimensijām
+                  href: dimension-settings.md
             - name: Vietnes satura pārvaldība
               items:
                 - name: Satura pievienošanas veidi
@@ -1206,7 +1212,7 @@
               href: store-performance-information.md
             - name: 'Nesenības, biežuma un monetārās (RFM) analīzes iestatīšana'
               href: set-up-rfm-analysis.md
-            - name: Programmas Microsoft Clarity iestatīšana programmā Dynamics 365 Commerce
+            - name: Microsoft Clarity iestatīšana pakalpojumā Dynamics 365 Commerce
               href: set-up-clarity.md
         - name: Globalizācija
           items:
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
+                    - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabošana
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Testēšanas automatizēšana, izmantojot elektronisko pārskatu izveides rīku'
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Programmu iestatījumi
                       href: e-commerce-extensibility/app-settings.md
+                    - name: 'Konfigurēt vietņu veidotāja globālās konfigurācijas iestatījumus, pamatojoties uz iespējotiem līdzekļiem'
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Platformas iestatījumu fails
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Moduļa definīcijas paplašināšana
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: "Izstrādes un ALM\_izmaiņas no versijas\_10.0.10 uz\_10.0.13"
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Būvējuma konveijera iestatīšana neatkarīga iepakojuma SDK
+                  href: dev-itpro/build-pipeline.md
                 - name: Commerce un Finance and Operations būvējumu sistēmu sapludināšana
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: "Retail\_SDK migrēšana no Visual Studio\_2015 uz Visual Studio\_2017"
@@ -2386,6 +2396,8 @@
               items:
                 - name: POS ekrāna izkārtojumi
                   href: pos-screen-layouts.md
+                - name: Store Commerce programma pakalpojumā Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: URL atvēršana punktā POS
                   href: Open-URL-in-POS.md
                 - name: POS izkārtojuma veidotāja instalēšana

@@ -72,7 +72,9 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management 10.0.19 (2021.\_gada jūlijs)"
+                    - name: "Supply Chain Management 10.0.20 (2021.\_gada jūlijs)"
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: "Supply Chain Management 10.0.19 (2021.\_gada jūnijs)"
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: "Supply Chain Management 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Darba pasūtījumu iestatīšana
               items:
-                - name: 'Uzturēšanas darbu tipu kategorijas un uzturēšanas darbu tipi, uzturēšanas darbu tipu varianti, uzturēšanas darbu tirdzniecība un uzturēšanas kontrolsaraksti'
+                - name: 'Uzturēšanas darbu tipi, kategorijas, varianti, darījumi un kontrolsaraksti'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Darba pasūtījumu dzīves ciklu stāvokļi
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Ģenerēto pārskatu rezultātu izsekošana un to salīdzināšana ar bāzlīnijas vērtībām
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabojumi
+                    - name: Ģenerēto ER pārskatu rezultātu izsekošanas un to salīdzināšanas ar bāzlīnijas vērtībām uzlabošana
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Testēšanas automatizēšana, izmantojot elektronisko pārskatu izveides rīku'
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,7 +2227,9 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Tehniskās versijas un tehnisko preču kategorijas
               href: engineering-change-management/engineering-versions-product-category.md
-            - name: Izmaiņu pārvaldības iespējošana esošajiem produktiem
+            - name: Izmaiņu pārvaldība formulās un to komponentos
+              href: engineering-change-management/manage-formula-changes.md
+            - name: Izmaiņu pārvaldības iespējošana esošajām precēm
               href: engineering-change-management/change-management-existing-products.md
             - name: Preču dzīves cikla stāvoklis un darījumi
               href: engineering-change-management/product-lifecycle-state-transactions.md
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Vienota darbu ID numuru secība
               href: production-control/unified-job-ids.md
+            - name: 'Procesu automatizācijas plūsmu aktivizēšana, lai izveidotu kvalitātes pārbaudes pasūtījumus'
+              href: production-control/process-automation-quality-orders.md
             - name: Atsevišķā ražošana
               items:
                 - name: Ražošanas pamatdatu uzturēšana
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Kā nodarbinātie izmanto ražošanas izpildes interfeisu
                           href: production-control/production-floor-execution-use.md
-                        - name: Lietotāja interfeisa vadības stili ražošanas izpildei
+                        - name: Ražošanas izpildes interfeisa stila veidošana
                           href: production-control/production-floor-execution-styles.md
                     - name: Darbu kartes konfigurēšana ierīcēm
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Sūtījumu konsolidācijas politiku konfigurēšana
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: "1.\_scenārijs\_— konsolidēt sūtījumus, kad tie tiek izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu"
+                    - name: "1.\_scenārijs\_— konsolidēt sūtījumus, kas izlaisti noliktavā, izmantojot automātisko pārdošanas pasūtījumu izlaišanu"
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: "2.\_scenārijs\_— konsolidēt sūtījumus, ja sūtījuma konsolidācijas politika tiek ignorēta lapā “Izlaišana noliktavā”"
+                    - name: "2.\_scenārijs\_— konsolidēt sūtījumus, kad sūtījumu konsolidācijas politika tiek ignorēta"
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: "3.\_scenārijs\_— konsolidēt sūtījumus, kravu plānošanas rīkā izmantojot izlaišanu noliktavā"
+                    - name: "3.\_scenārijs\_— konsolidēt sūtījumus, kravu plānošanas rīkā izlaižot noliktavā"
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: "4.\_scenārijs\_— konsolidēt sūtījumus, izmantojot sūtījumu konsolidācijas rīku"
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: 'Svītrkodu skenēšana noliktavas pārvaldības mobilajā programmā, izmantojot kameru'
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Noliktavas pārvaldības mobilās programmas lauku konfigurēšana
+                    - name: Warehouse Management mobilās programmas lauku konfigurēšana
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobilo ierīču iestatīšana darbam noliktavā
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Darbību ikonu un virsrakstu piešķiršana
+                      href: warehousing/step-icons-titles.md
                     - name: Noliktavas programmas notikumu apstrāde
                       href: warehousing/warehouse-app-events.md
-                    - name: 'Numura zīmes saņemšana, izmantojot noliktavas pārvaldības mobilo programmu'
+                    - name: 'Numura zīmes saņemšana, izmantojot Warehouse Management mobilo programmu'
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3359,37 +3367,41 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: 'Stornējot pārskatu kā pabeigtu, tiek izveidota neparedzēta atvērta transakcija'
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Izdošanas saraksta pārskatā nevar parādīt žurnālam pievienotas jaunas piezīmes
+                - name: Izdošanas saraksta pārskatā netiek rādītas žurnālam pievienotas jaunas piezīmes
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: 'Sāktā karantīnas pasūtījuma daudzums netiek atjaunināts, kad pasūtījums tiek sadalīts'
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: 'Lauks “Pēdējās pārbaudes datums” netiek atjaunināts, veidojot vairākus kvalitātes pārbaudes pasūtījumus'
+                - name: 'Lauks “Pēdējās pārbaudes datums” netiek atjaunināts, kad tiek veidoti vairāki kvalitātes pārbaudes pasūtījumi'
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Sadalot pieļaujamā svara daudzumu, izmanto minimālo, nevis nominālo daudzumu'
+                - name: 'Sadalot pieļaujamā svara daudzumu, tiek izmantots minimālais daudzums, nevis nominālais daudzums'
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Vispārējā plānošana
               items:
                 - name: 'Tieši atvasinātos apstiprinātos pasūtījumus apstrādā darbplūsma, kas pašlaik tiek pārskatīta'
                   href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Pamata plānošana ģenerē fantoma produktu plānotos pasūtījumus
+                - name: Vispārējās plānošanas krājumus nevar filtrēt pēc to saistītajām vajadzības grupas vērtībām
+                  href: troubleshooting/planning/master-planning-batc.md
+                - name: Pamata plānošana ģenerē fantoma preču plānotos pasūtījumus
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: 'Izveidots plānotais pirkšanas pasūtījums, kad pirkums pastāv negatīvās dienās'
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Pieprasījuma apjoma prognozes ierakstos nevar augšupielādēt izmaksu cenu
+                - name: 'Nevar atjaunināt prognozētās vienības izmaksas, kad importējat pieprasījuma apjoma prognozes ierakstus'
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: No prognožu rindām nevar noņemt noliktavas pieprasījuma apjoma prognozes dimensiju
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: 'Jums tiek piedāvāts saglabāt krājumu vajadzības iestatījumus, pat ja neesat veicis izmaiņas'
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Sagāde
               items:
-                - name: "Nevar izrakstīt rēķinu par debitora pārdošanas pasūtījumu VEL\_uzņēmumā"
+                - name: Nevar izrakstīt rēķinu uz klientu vērstam pārdošanas pasūtījumam
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Pēc izmaiņu pieprasīšanas pirkšanas pieprasījumam nevar pievienot rindu
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Preču informācijas pārvaldība
               items:
-                - name: 'Nevar lietot veidni, lai izveidotu izlaistu preci'
+                - name: 'Nevarat lietot veidni, lai izveidotu izlaistu preci'
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: 'Nevar importēt krājumu, izmantojot elementu Izlaistās preces V2'
+                - name: 'Nevarat importēt krājumu, izmantojot elementu Izlaistās preces V2'
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: Pirkšanas pasūtījumos netiek rādīts tulkotais preces teksts
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: 'Lietotāji var noņemt materiālu rindu atzīmi precēm, par kurām ir ziņots kā par pabeigtām'
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: 'Kļūda, grāmatojot pārskatu kā pabeigtu žurnālu'
+                - name: Kļūda pabeigtās ražošanas žurnāla grāmatošanas laikā
                   href: troubleshooting/production/posting-report-as-.md
                 - name: "Noliktava izdošanas saraksta žurnālā netiek atjaunināta MK\_rindā"
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3447,7 +3459,7 @@
                   href: troubleshooting/warehousing/the-weight-fields-on.md
                 - name: Kopuma dati nav paredzēti tīrīšanai
                   href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Svara vērtībai jābūt pozitīvai.
+                - name: Svara vērtībai jābūt pozitīvai
                   href: troubleshooting/warehousing/weight-must-be-posit.md
                 - name: 'Darbu nevar atcelt, jo tas ir bloķēts'
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
