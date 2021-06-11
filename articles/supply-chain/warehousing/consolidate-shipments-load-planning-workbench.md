@@ -1,5 +1,5 @@
 ---
-title: Konsolidēt sūtījumus, kravu plānošanas rīkā izmantojot pārvietošanu uz noliktavu
+title: Konsolidēt sūtījumus, kravu plānošanas rīkā, pārvietojot tos uz noliktavu
 description: Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā tajā pašā noslodzē un pēc tam tiek automātiski apvienoti sūtījumos.
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -13,251 +13,251 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 58a1f6237e37815dd0b4ae3d7a0d46157db5a808
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831342"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117185"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a><span data-ttu-id="0700d-103">Konsolidēt sūtījumus, kravu plānošanas rīkā izmantojot pārvietošanu uz noliktavu</span><span class="sxs-lookup"><span data-stu-id="0700d-103">Consolidate shipments by using Release to warehouse from the load planning workbench</span></span>
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a><span data-ttu-id="1ef58-103">Konsolidēt sūtījumus, kravu plānošanas rīkā, pārvietojot tos uz noliktavu</span><span class="sxs-lookup"><span data-stu-id="1ef58-103">Consolidate shipments by releasing to warehouse from the load planning workbench</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0700d-104">Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā tajā pašā noslodzē un pēc tam tiek automātiski apvienoti sūtījumos.</span><span class="sxs-lookup"><span data-stu-id="0700d-104">This topic presents a scenario where multiple orders are released to the warehouse in the same load and are then automatically consolidated into shipments.</span></span>
+<span data-ttu-id="1ef58-104">Šī tēma iepazīstina ar scenāriju, kurā vairāki pasūtījumi tiek nodoti noliktavā tajā pašā noslodzē un pēc tam tiek automātiski apvienoti sūtījumos.</span><span class="sxs-lookup"><span data-stu-id="1ef58-104">This topic presents a scenario where multiple orders are released to the warehouse in the same load and are then automatically consolidated into shipments.</span></span>
 
-## <a name="make-demo-data-available"></a><span data-ttu-id="0700d-105">Padarīt demonstrācijas datus pieejamus</span><span class="sxs-lookup"><span data-stu-id="0700d-105">Make demo data available</span></span>
+## <a name="make-demo-data-available"></a><span data-ttu-id="1ef58-105">Padarīt demonstrācijas datus pieejamus</span><span class="sxs-lookup"><span data-stu-id="1ef58-105">Make demo data available</span></span>
 
-<span data-ttu-id="0700d-106">Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="0700d-106">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="0700d-107">Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.</span><span class="sxs-lookup"><span data-stu-id="0700d-107">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
+<span data-ttu-id="1ef58-106">Šīs tēmas scenārijā ir atsauces uz vērtībām un ierakstiem, kas ir ietverti standarta demonstrācijas datos, kas tiek sniegti Microsoft Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="1ef58-106">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="1ef58-107">Ja jūs vēlaties izmantot vērtības, kas tiek sniegtas šeit, kad veicat vingrinājumus, pārliecinieties, ka strādājat vidē, kur ir instalēti demonstrācijas dati, un iestatiet juridisko personu **USMF**, pirms sākat darbu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-107">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
 
-## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="0700d-108">Iestatīt sūtījumu konsolidācijas politikas un preču filtrus</span><span class="sxs-lookup"><span data-stu-id="0700d-108">Set up shipment consolidation policies and product filters</span></span>
+## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="1ef58-108">Iestatīt sūtījumu konsolidācijas politikas un preču filtrus</span><span class="sxs-lookup"><span data-stu-id="1ef58-108">Set up shipment consolidation policies and product filters</span></span>
 
-<span data-ttu-id="0700d-109">Šeit aprakstītajā scenārijā tiek pieņemts, ka esat jau ieslēdzis līdzekli, paveicis vingrinājumus, lai [Konfigurētu sūtījumu konsolidācijas politikas](configure-shipment-consolidation-policies.md) un izveidotu politikas un citus tur aprakstītos ierakstus.</span><span class="sxs-lookup"><span data-stu-id="0700d-109">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="0700d-110">Pirms turpināt šo scenāriju, noteikti veiciet šos vingrinājumus.</span><span class="sxs-lookup"><span data-stu-id="0700d-110">Be sure to do those exercises before you continue with this scenario.</span></span>
+<span data-ttu-id="1ef58-109">Šeit aprakstītajā scenārijā tiek pieņemts, ka esat jau ieslēdzis līdzekli, paveicis vingrinājumus, lai [Konfigurētu sūtījumu konsolidācijas politikas](configure-shipment-consolidation-policies.md) un izveidotu politikas un citus tur aprakstītos ierakstus.</span><span class="sxs-lookup"><span data-stu-id="1ef58-109">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="1ef58-110">Pirms turpināt šo scenāriju, noteikti veiciet šos vingrinājumus.</span><span class="sxs-lookup"><span data-stu-id="1ef58-110">Be sure to do those exercises before you continue with this scenario.</span></span>
 
-## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="0700d-111">Izveidot pārdošanas pasūtījumus šim scenārijam</span><span class="sxs-lookup"><span data-stu-id="0700d-111">Create the sales orders for this scenario</span></span>
+## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="1ef58-111">Izveidot pārdošanas pasūtījumus šim scenārijam</span><span class="sxs-lookup"><span data-stu-id="1ef58-111">Create the sales orders for this scenario</span></span>
 
-<span data-ttu-id="0700d-112">Sāciet ar pārdošanas pasūtījumu kolekcijas izveidošanu, ar kuru varat strādāt.</span><span class="sxs-lookup"><span data-stu-id="0700d-112">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="0700d-113">Jums ir jāstrādā ar noliktavu, kas ir aktivizēta papildu noliktavas (WMS) procesiem.</span><span class="sxs-lookup"><span data-stu-id="0700d-113">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="0700d-114">Ja nav skaidri minēta cita noliktava, tai pašai noliktavai ir jābūt izmantotai katrai no šīm pasūtījumu kopām.</span><span class="sxs-lookup"><span data-stu-id="0700d-114">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
+<span data-ttu-id="1ef58-112">Sāciet ar pārdošanas pasūtījumu kolekcijas izveidošanu, ar kuru varat strādāt.</span><span class="sxs-lookup"><span data-stu-id="1ef58-112">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="1ef58-113">Jums ir jāstrādā ar noliktavu, kas ir aktivizēta papildu noliktavas (WMS) procesiem.</span><span class="sxs-lookup"><span data-stu-id="1ef58-113">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="1ef58-114">Ja nav skaidri minēta cita noliktava, tai pašai noliktavai ir jābūt izmantotai katrai no šīm pasūtījumu kopām.</span><span class="sxs-lookup"><span data-stu-id="1ef58-114">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
 
-<span data-ttu-id="0700d-115">Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījumi** un izveidojiet pārdošanas pasūtījumu kolekciju, kam ir iestatījumi, kas aprakstīti šādās apakšsadaļās.</span><span class="sxs-lookup"><span data-stu-id="0700d-115">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
+<span data-ttu-id="1ef58-115">Dodieties uz **Debitoru parādi \> Pasūtījumi \> Visi pārdošanas pasūtījumi** un izveidojiet pārdošanas pasūtījumu kolekciju, kam ir iestatījumi, kas aprakstīti šādās apakšsadaļās.</span><span class="sxs-lookup"><span data-stu-id="1ef58-115">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
 
-### <a name="create-order-set-1"></a><span data-ttu-id="0700d-116">Izveidot 1. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="0700d-116">Create order set 1</span></span>
+### <a name="create-order-set-1"></a><span data-ttu-id="1ef58-116">Izveidot 1. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="1ef58-116">Create order set 1</span></span>
 
-#### <a name="sales-order-1-1"></a><span data-ttu-id="0700d-117">Pārdošanas pasūtījums 1-1</span><span class="sxs-lookup"><span data-stu-id="0700d-117">Sales order 1-1</span></span>
+#### <a name="sales-order-1-1"></a><span data-ttu-id="1ef58-117">Pārdošanas pasūtījums 1-1</span><span class="sxs-lookup"><span data-stu-id="1ef58-117">Sales order 1-1</span></span>
 
-1. <span data-ttu-id="0700d-118">Izveidojiet pārdošanas pasūtījumu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-118">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-118">Izveidojiet pārdošanas pasūtījumu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-118">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-119">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="0700d-119">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="0700d-120">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="0700d-120">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="1ef58-119">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="1ef58-119">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="1ef58-120">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="1ef58-120">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="0700d-121">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-121">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-121">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-121">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-122">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-122">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-123">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-123">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-122">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-122">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-123">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-123">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-124">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-124">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-124">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-124">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-order-1-2"></a><span data-ttu-id="0700d-125">Pārdošanas pasūtījums 1-2</span><span class="sxs-lookup"><span data-stu-id="0700d-125">Sales order 1-2</span></span>
+#### <a name="sales-order-1-2"></a><span data-ttu-id="1ef58-125">Pārdošanas pasūtījums 1-2</span><span class="sxs-lookup"><span data-stu-id="1ef58-125">Sales order 1-2</span></span>
 
-1. <span data-ttu-id="0700d-126">Izveidojiet pārdošanas pasūtījumu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-126">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-126">Izveidojiet pārdošanas pasūtījumu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-126">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-127">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="0700d-127">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="0700d-128">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="0700d-128">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="1ef58-127">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="1ef58-127">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="1ef58-128">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="1ef58-128">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="0700d-129">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-129">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-129">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-129">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-130">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-130">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-131">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-131">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-130">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-130">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-131">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-131">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-132">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-132">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-132">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-132">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-order-1-3"></a><span data-ttu-id="0700d-133">Pārdošanas pasūtījums 1-3</span><span class="sxs-lookup"><span data-stu-id="0700d-133">Sales order 1-3</span></span>
+#### <a name="sales-order-1-3"></a><span data-ttu-id="1ef58-133">Pārdošanas pasūtījums 1-3</span><span class="sxs-lookup"><span data-stu-id="1ef58-133">Sales order 1-3</span></span>
 
-1. <span data-ttu-id="0700d-134">Izveidojiet pārdošanas pasūtījumu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-134">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-134">Izveidojiet pārdošanas pasūtījumu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-134">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-135">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="0700d-135">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="0700d-136">**Piegādes veids:** *10*</span><span class="sxs-lookup"><span data-stu-id="0700d-136">**Mode of delivery:** *10*</span></span>
+    - <span data-ttu-id="1ef58-135">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="1ef58-135">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="1ef58-136">**Piegādes veids:** *10*</span><span class="sxs-lookup"><span data-stu-id="1ef58-136">**Mode of delivery:** *10*</span></span>
 
-1. <span data-ttu-id="0700d-137">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-137">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-137">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-137">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-138">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-138">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-139">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-139">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-138">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-138">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-139">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-139">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-140">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-140">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
-1. <span data-ttu-id="0700d-141">Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-141">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-140">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-140">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-141">Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-141">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-142">**Krājuma kods:** *A0002* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-143">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-143">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="0700d-144">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="0700d-144">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="1ef58-142">**Krājuma kods:** *A0002* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-143">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-143">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-144">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="1ef58-144">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="0700d-145">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu otro pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-145">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
+1. <span data-ttu-id="1ef58-145">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu otro pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-145">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
 
-### <a name="create-order-set-2"></a><span data-ttu-id="0700d-146">Izveidot 2. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="0700d-146">Create order set 2</span></span>
+### <a name="create-order-set-2"></a><span data-ttu-id="1ef58-146">Izveidot 2. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="1ef58-146">Create order set 2</span></span>
 
-#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="0700d-147">Pārdošanas pasūtījumi 2-1 un 2-2</span><span class="sxs-lookup"><span data-stu-id="0700d-147">Sales orders 2-1 and 2-2</span></span>
+#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="1ef58-147">Pārdošanas pasūtījumi 2-1 un 2-2</span><span class="sxs-lookup"><span data-stu-id="1ef58-147">Sales orders 2-1 and 2-2</span></span>
 
-1. <span data-ttu-id="0700d-148">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-148">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-148">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-148">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-149">**Debitora konts:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="0700d-149">**Customer account:** *US-002*</span></span>
+    - <span data-ttu-id="1ef58-149">**Debitora konts:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="1ef58-149">**Customer account:** *US-002*</span></span>
 
-1. <span data-ttu-id="0700d-150">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-150">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-150">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-150">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-151">**Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs*)</span><span class="sxs-lookup"><span data-stu-id="0700d-151">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
-    - <span data-ttu-id="0700d-152">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-152">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-151">**Krājuma kods:** *M9200* (krājums, kur **kods 4** filtrs ir iestatīts uz *Viegli uzliesmojošs*)</span><span class="sxs-lookup"><span data-stu-id="1ef58-151">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
+    - <span data-ttu-id="1ef58-152">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-152">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-153">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-153">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
-1. <span data-ttu-id="0700d-154">Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-154">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-153">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-153">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-154">Pievienojiet otru pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-154">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-155">**Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams*)</span><span class="sxs-lookup"><span data-stu-id="0700d-155">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
-    - <span data-ttu-id="0700d-156">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-156">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="0700d-157">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="0700d-157">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="1ef58-155">**Krājuma kods:** *M9201* (krājums, kur **kods 4** filtrs ir iestatīts uz *Sprādzienbīstams*)</span><span class="sxs-lookup"><span data-stu-id="1ef58-155">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
+    - <span data-ttu-id="1ef58-156">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-156">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-157">**Piegādes veids:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="1ef58-157">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="0700d-158">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu otro pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-158">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
+1. <span data-ttu-id="1ef58-158">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu otro pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-158">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the second order line.</span></span>
 
-### <a name="create-order-set-3"></a><span data-ttu-id="0700d-159">Izveidot 3. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="0700d-159">Create order set 3</span></span>
+### <a name="create-order-set-3"></a><span data-ttu-id="1ef58-159">Izveidot 3. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="1ef58-159">Create order set 3</span></span>
 
-#### <a name="sales-orders-3-1-and-3-2"></a><span data-ttu-id="0700d-160">Pārdošanas pasūtījumi 3-1 un 3-2</span><span class="sxs-lookup"><span data-stu-id="0700d-160">Sales orders 3-1 and 3-2</span></span>
+#### <a name="sales-orders-3-1-and-3-2"></a><span data-ttu-id="1ef58-160">Pārdošanas pasūtījumi 3-1 un 3-2</span><span class="sxs-lookup"><span data-stu-id="1ef58-160">Sales orders 3-1 and 3-2</span></span>
 
-1. <span data-ttu-id="0700d-161">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-161">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-161">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-161">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-162">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="0700d-162">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="0700d-163">**Debitora pieprasījums:** *1*</span><span class="sxs-lookup"><span data-stu-id="0700d-163">**Customer requisition:** *1*</span></span>
+    - <span data-ttu-id="1ef58-162">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="1ef58-162">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="1ef58-163">**Debitora pieprasījums:** *1*</span><span class="sxs-lookup"><span data-stu-id="1ef58-163">**Customer requisition:** *1*</span></span>
 
-1. <span data-ttu-id="0700d-164">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-164">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-164">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-164">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-165">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-165">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-166">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-166">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-165">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-165">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-166">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-166">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-167">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-167">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-167">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-167">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-3-3-and-3-4"></a><span data-ttu-id="0700d-168">Pārdošanas pasūtījumi 3-3 un 3-4</span><span class="sxs-lookup"><span data-stu-id="0700d-168">Sales orders 3-3 and 3-4</span></span>
+#### <a name="sales-orders-3-3-and-3-4"></a><span data-ttu-id="1ef58-168">Pārdošanas pasūtījumi 3-3 un 3-4</span><span class="sxs-lookup"><span data-stu-id="1ef58-168">Sales orders 3-3 and 3-4</span></span>
 
-1. <span data-ttu-id="0700d-169">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-169">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-169">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-169">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-170">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="0700d-170">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="0700d-171">**Debitora pieprasījums:** *2*</span><span class="sxs-lookup"><span data-stu-id="0700d-171">**Customer requisition:** *2*</span></span>
+    - <span data-ttu-id="1ef58-170">**Debitora konts:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="1ef58-170">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="1ef58-171">**Debitora pieprasījums:** *2*</span><span class="sxs-lookup"><span data-stu-id="1ef58-171">**Customer requisition:** *2*</span></span>
 
-1. <span data-ttu-id="0700d-172">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-172">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-172">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-172">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-173">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-173">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-174">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-174">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-173">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-173">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-174">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-174">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-175">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-175">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-175">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-175">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-### <a name="create-order-set-4"></a><span data-ttu-id="0700d-176">Izveidot 4. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="0700d-176">Create order set 4</span></span>
+### <a name="create-order-set-4"></a><span data-ttu-id="1ef58-176">Izveidot 4. pasūtījuma kopu</span><span class="sxs-lookup"><span data-stu-id="1ef58-176">Create order set 4</span></span>
 
-#### <a name="sales-orders-4-1-and-4-2"></a><span data-ttu-id="0700d-177">Pārdošanas pasūtījumi 4-1 un 4-2</span><span class="sxs-lookup"><span data-stu-id="0700d-177">Sales orders 4-1 and 4-2</span></span>
+#### <a name="sales-orders-4-1-and-4-2"></a><span data-ttu-id="1ef58-177">Pārdošanas pasūtījumi 4-1 un 4-2</span><span class="sxs-lookup"><span data-stu-id="1ef58-177">Sales orders 4-1 and 4-2</span></span>
 
-1. <span data-ttu-id="0700d-178">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-178">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-178">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-178">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-179">**Debitora konts:** *US-003*</span><span class="sxs-lookup"><span data-stu-id="0700d-179">**Customer account:** *US-003*</span></span>
+    - <span data-ttu-id="1ef58-179">**Debitora konts:** *US-003*</span><span class="sxs-lookup"><span data-stu-id="1ef58-179">**Customer account:** *US-003*</span></span>
 
-1. <span data-ttu-id="0700d-180">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-180">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-180">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-180">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-181">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-181">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-182">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-182">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-181">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-181">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-182">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-182">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-183">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-183">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-183">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-183">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-3-and-4-4"></a><span data-ttu-id="0700d-184">Pārdošanas pasūtījumi 4-3 un 4-4</span><span class="sxs-lookup"><span data-stu-id="0700d-184">Sales orders 4-3 and 4-4</span></span>
+#### <a name="sales-orders-4-3-and-4-4"></a><span data-ttu-id="1ef58-184">Pārdošanas pasūtījumi 4-3 un 4-4</span><span class="sxs-lookup"><span data-stu-id="1ef58-184">Sales orders 4-3 and 4-4</span></span>
 
-1. <span data-ttu-id="0700d-185">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-185">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-185">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-185">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-186">**Debitora konts:** *US-004*</span><span class="sxs-lookup"><span data-stu-id="0700d-186">**Customer account:** *US-004*</span></span>
+    - <span data-ttu-id="1ef58-186">**Debitora konts:** *US-004*</span><span class="sxs-lookup"><span data-stu-id="1ef58-186">**Customer account:** *US-004*</span></span>
 
-1. <span data-ttu-id="0700d-187">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-187">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-187">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-187">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-188">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-188">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-189">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-189">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-188">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-188">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-189">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-189">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-190">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-190">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-190">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-190">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-5-and-4-6"></a><span data-ttu-id="0700d-191">Pārdošanas pasūtījumi 4-5 un 4-6</span><span class="sxs-lookup"><span data-stu-id="0700d-191">Sales orders 4-5 and 4-6</span></span>
+#### <a name="sales-orders-4-5-and-4-6"></a><span data-ttu-id="1ef58-191">Pārdošanas pasūtījumi 4-5 un 4-6</span><span class="sxs-lookup"><span data-stu-id="1ef58-191">Sales orders 4-5 and 4-6</span></span>
 
-1. <span data-ttu-id="0700d-192">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-192">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-192">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-192">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-193">**Debitora konts:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="0700d-193">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="0700d-194">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="0700d-194">**Site:** *6*</span></span>
-    - <span data-ttu-id="0700d-195">**Noliktava:** *61*</span><span class="sxs-lookup"><span data-stu-id="0700d-195">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="0700d-196">**Kopa:** *ShipCons*</span><span class="sxs-lookup"><span data-stu-id="0700d-196">**Pool:** *ShipCons*</span></span>
+    - <span data-ttu-id="1ef58-193">**Debitora konts:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="1ef58-193">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="1ef58-194">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="1ef58-194">**Site:** *6*</span></span>
+    - <span data-ttu-id="1ef58-195">**Noliktava:** *61*</span><span class="sxs-lookup"><span data-stu-id="1ef58-195">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="1ef58-196">**Kopa:** *ShipCons*</span><span class="sxs-lookup"><span data-stu-id="1ef58-196">**Pool:** *ShipCons*</span></span>
 
-1. <span data-ttu-id="0700d-197">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-197">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-197">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-197">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-198">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-198">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-199">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-199">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-198">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-198">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-199">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-199">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-200">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-200">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-200">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-200">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-#### <a name="sales-orders-4-7-and-4-8"></a><span data-ttu-id="0700d-201">Pārdošanas pasūtījumi 4-7 un 4-8</span><span class="sxs-lookup"><span data-stu-id="0700d-201">Sales orders 4-7 and 4-8</span></span>
+#### <a name="sales-orders-4-7-and-4-8"></a><span data-ttu-id="1ef58-201">Pārdošanas pasūtījumi 4-7 un 4-8</span><span class="sxs-lookup"><span data-stu-id="1ef58-201">Sales orders 4-7 and 4-8</span></span>
 
-1. <span data-ttu-id="0700d-202">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-202">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="1ef58-202">Izveidojiet divus identiskus pārdošanas pasūtījumus, kam ir šādi iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-202">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-203">**Debitora konts:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="0700d-203">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="0700d-204">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="0700d-204">**Site:** *6*</span></span>
-    - <span data-ttu-id="0700d-205">**Noliktava:** *61*</span><span class="sxs-lookup"><span data-stu-id="0700d-205">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="0700d-206">**Kopa:** atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="0700d-206">**Pool:** Leave this field blank.</span></span>
+    - <span data-ttu-id="1ef58-203">**Debitora konts:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="1ef58-203">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="1ef58-204">**Vieta:** *6*</span><span class="sxs-lookup"><span data-stu-id="1ef58-204">**Site:** *6*</span></span>
+    - <span data-ttu-id="1ef58-205">**Noliktava:** *61*</span><span class="sxs-lookup"><span data-stu-id="1ef58-205">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="1ef58-206">**Kopa:** atstājiet šo lauku tukšu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-206">**Pool:** Leave this field blank.</span></span>
 
-1. <span data-ttu-id="0700d-207">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="0700d-207">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="1ef58-207">Pievienojiet pasūtījuma rindu, kam ir turpmāk aprakstītie iestatījumi:</span><span class="sxs-lookup"><span data-stu-id="1ef58-207">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="0700d-208">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="0700d-208">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="0700d-209">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="0700d-209">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="1ef58-208">**Krājuma kods:** *A0001* (krājums, kam nav piešķirts **kods 4** filtrs)</span><span class="sxs-lookup"><span data-stu-id="1ef58-208">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="1ef58-209">**Daudzums:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="1ef58-209">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="0700d-210">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="0700d-210">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
+1. <span data-ttu-id="1ef58-210">Atlasiet **Krājums \> Rezervācija** un pēc tam darbību rūtī atlasiet **Rezervēt laidienu**, lai rezervētu pasūtījuma rindu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-210">Select **Inventory \> Reservation**, and then, on the Action Pane, select **Reserve lot** to reserve the order line.</span></span>
 
-## <a name="use-the-load-planning-workbench-to-create-loads-and-release-them-to-the-warehouse"></a><span data-ttu-id="0700d-211">Izmantojiet noslodzes plānošanas darbvietu, lai izveidotu noslodzes un nodotu tās noliktavā</span><span class="sxs-lookup"><span data-stu-id="0700d-211">Use the load planning workbench to create loads and release them to the warehouse</span></span>
+## <a name="use-the-load-planning-workbench-to-create-loads-and-release-them-to-the-warehouse"></a><span data-ttu-id="1ef58-211">Izmantojiet noslodzes plānošanas darbvietu, lai izveidotu noslodzes un nodotu tās noliktavā</span><span class="sxs-lookup"><span data-stu-id="1ef58-211">Use the load planning workbench to create loads and release them to the warehouse</span></span>
 
-<span data-ttu-id="0700d-212">Sekojiet šiem soļiem, lai izveidotu noslodzi katrai pasūtījuma kopai, ko izveidojāt šim scenārijam, un tad to nodotu noliktavai.</span><span class="sxs-lookup"><span data-stu-id="0700d-212">Follow these steps to create a load for each order set that you created for this scenario and then release it to the warehouse.</span></span>
+<span data-ttu-id="1ef58-212">Sekojiet šiem soļiem, lai izveidotu noslodzi katrai pasūtījuma kopai, ko izveidojāt šim scenārijam, un tad to nodotu noliktavai.</span><span class="sxs-lookup"><span data-stu-id="1ef58-212">Follow these steps to create a load for each order set that you created for this scenario and then release it to the warehouse.</span></span>
 
-1. <span data-ttu-id="0700d-213">Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Kravu plānošanas rīks**.</span><span class="sxs-lookup"><span data-stu-id="0700d-213">Go to **Warehouse management \> Loads \> Load planning workbench**.</span></span>
-1. <span data-ttu-id="0700d-214">Cilnē **Pārdošanas rindas** meklējiet un atlasiet visas pārdošanas pasūtījuma rindas vienā no šim scenārijam izveidotajām pasūtījumu kopām.</span><span class="sxs-lookup"><span data-stu-id="0700d-214">On the **Sales lines** tab, find and select all the sales order lines from one of the order sets that you created for this scenario.</span></span>
-1. <span data-ttu-id="0700d-215">Darbības rūtī cilnē **Piedāvājums un pieprasījums** atlasiet **Pievienot \> Jaunajai noslodzei**, lai pievienotu atlasītās pasūtījuma rindas jaunai noslodzei.</span><span class="sxs-lookup"><span data-stu-id="0700d-215">On the Action Pane, on the **Supply and demand** tab, select **Add \> To new load** to add the selected order lines to a new Load.</span></span>
-1. <span data-ttu-id="0700d-216">Dialoglodziņā **Noslodzes veidnes piešķire** laukā **Noslodzes veidnes ID** atlasiet noslodzes veidni, piemēram, *Stnd noslodzes veidne*.</span><span class="sxs-lookup"><span data-stu-id="0700d-216">In the **Load template assignment** dialog box, in the **Load template ID** field, select a load template, such as *Stnd Load Template*.</span></span>
-1. <span data-ttu-id="0700d-217">Atlasiet **Labi**, lai aizvērtu dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="0700d-217">Select **OK** to close the dialog box.</span></span> 
-1. <span data-ttu-id="0700d-218">Sadaļā **Noslodzes** meklējiet un atlasiet tikko izveidoto noslodzi.</span><span class="sxs-lookup"><span data-stu-id="0700d-218">In the **Loads** section, find and select the load that you just created.</span></span>
-1. <span data-ttu-id="0700d-219">Atlasiet opciju **Pārvietot \> Pārvietot uz noliktavu**, lai pārvietotu atlasīto noslodzi uz noliktavu.</span><span class="sxs-lookup"><span data-stu-id="0700d-219">Select **Release \> Release to warehouse** to release the selected load to the warehouse.</span></span>
-1. <span data-ttu-id="0700d-220">Atkārtojiet šo procedūru pārējām trim pasūtījumu kopām, ko izveidojāt šim scenārijam.</span><span class="sxs-lookup"><span data-stu-id="0700d-220">Repeat this procedure for the other three order sets that you created for this scenario.</span></span>
+1. <span data-ttu-id="1ef58-213">Dodieties uz **Noliktavas pārvaldība \> Noslodzes \> Kravu plānošanas rīks**.</span><span class="sxs-lookup"><span data-stu-id="1ef58-213">Go to **Warehouse management \> Loads \> Load planning workbench**.</span></span>
+1. <span data-ttu-id="1ef58-214">Cilnē **Pārdošanas rindas** meklējiet un atlasiet visas pārdošanas pasūtījuma rindas vienā no šim scenārijam izveidotajām pasūtījumu kopām.</span><span class="sxs-lookup"><span data-stu-id="1ef58-214">On the **Sales lines** tab, find and select all the sales order lines from one of the order sets that you created for this scenario.</span></span>
+1. <span data-ttu-id="1ef58-215">Darbības rūtī cilnē **Piedāvājums un pieprasījums** atlasiet **Pievienot \> Jaunajai noslodzei**, lai pievienotu atlasītās pasūtījuma rindas jaunai noslodzei.</span><span class="sxs-lookup"><span data-stu-id="1ef58-215">On the Action Pane, on the **Supply and demand** tab, select **Add \> To new load** to add the selected order lines to a new Load.</span></span>
+1. <span data-ttu-id="1ef58-216">Dialoglodziņā **Noslodzes veidnes piešķire** laukā **Noslodzes veidnes ID** atlasiet noslodzes veidni, piemēram, *Stnd noslodzes veidne*.</span><span class="sxs-lookup"><span data-stu-id="1ef58-216">In the **Load template assignment** dialog box, in the **Load template ID** field, select a load template, such as *Stnd Load Template*.</span></span>
+1. <span data-ttu-id="1ef58-217">Atlasiet **Labi**, lai aizvērtu dialoglodziņu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-217">Select **OK** to close the dialog box.</span></span> 
+1. <span data-ttu-id="1ef58-218">Sadaļā **Noslodzes** meklējiet un atlasiet tikko izveidoto noslodzi.</span><span class="sxs-lookup"><span data-stu-id="1ef58-218">In the **Loads** section, find and select the load that you just created.</span></span>
+1. <span data-ttu-id="1ef58-219">Atlasiet opciju **Pārvietot \> Pārvietot uz noliktavu**, lai pārvietotu atlasīto noslodzi uz noliktavu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-219">Select **Release \> Release to warehouse** to release the selected load to the warehouse.</span></span>
+1. <span data-ttu-id="1ef58-220">Atkārtojiet šo procedūru pārējām trim pasūtījumu kopām, ko izveidojāt šim scenārijam.</span><span class="sxs-lookup"><span data-stu-id="1ef58-220">Repeat this procedure for the other three order sets that you created for this scenario.</span></span>
 
-## <a name="verify-the-shipments"></a><span data-ttu-id="0700d-221">Pārbaudīt sūtījumus</span><span class="sxs-lookup"><span data-stu-id="0700d-221">Verify the shipments</span></span>
+## <a name="verify-the-shipments"></a><span data-ttu-id="1ef58-221">Pārbaudīt sūtījumus</span><span class="sxs-lookup"><span data-stu-id="1ef58-221">Verify the shipments</span></span>
 
-<span data-ttu-id="0700d-222">Šī procedūra ļauj pārbaudīt sūtījumus, kas ir izveidoti vai atjaunināti, veicot sūtījuma konsolidāciju.</span><span class="sxs-lookup"><span data-stu-id="0700d-222">The following procedure lets you verify the shipments that have been created or updated as a result of shipment consolidation.</span></span> <span data-ttu-id="0700d-223">Izmantojiet to, lai pārskatītu katru pasūtījuma kopu, ko izveidojāt šim scenārijam, un tad pārskatītu sekojošās apakšsadaļas, lai pārliecinātos, ka esat ieguvis plānotos rezultātus.</span><span class="sxs-lookup"><span data-stu-id="0700d-223">Use it to review each order set that you created for this scenario, and then review the subsections that follow to make sure that you've obtained the expected results.</span></span>
+<span data-ttu-id="1ef58-222">Šī procedūra ļauj pārbaudīt sūtījumus, kas ir izveidoti vai atjaunināti, veicot sūtījuma konsolidāciju.</span><span class="sxs-lookup"><span data-stu-id="1ef58-222">The following procedure lets you verify the shipments that have been created or updated as a result of shipment consolidation.</span></span> <span data-ttu-id="1ef58-223">Izmantojiet to, lai pārskatītu katru pasūtījuma kopu, ko izveidojāt šim scenārijam, un tad pārskatītu sekojošās apakšsadaļas, lai pārliecinātos, ka esat ieguvis plānotos rezultātus.</span><span class="sxs-lookup"><span data-stu-id="1ef58-223">Use it to review each order set that you created for this scenario, and then review the subsections that follow to make sure that you've obtained the expected results.</span></span>
 
-1. <span data-ttu-id="0700d-224">Dodieties uz **Noliktavas pārvaldība \> Sūtījumi \> Visi sūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="0700d-224">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
-1. <span data-ttu-id="0700d-225">Atrast un atlasīt nepieciešamo sūtījumu.</span><span class="sxs-lookup"><span data-stu-id="0700d-225">Find and select the required shipment.</span></span>
-1. <span data-ttu-id="0700d-226">Ja sūtījuma izveides vai atjaunināšanas laikā tika izmantota konsolidācijas politika, jums to vajadzētu ieraudzīt laukā **Sūtījuma konsolidācijas politika**.</span><span class="sxs-lookup"><span data-stu-id="0700d-226">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
+1. <span data-ttu-id="1ef58-224">Dodieties uz **Noliktavas pārvaldība \> Sūtījumi \> Visi sūtījumi**.</span><span class="sxs-lookup"><span data-stu-id="1ef58-224">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
+1. <span data-ttu-id="1ef58-225">Atrast un atlasīt nepieciešamo sūtījumu.</span><span class="sxs-lookup"><span data-stu-id="1ef58-225">Find and select the required shipment.</span></span>
+1. <span data-ttu-id="1ef58-226">Ja sūtījuma izveides vai atjaunināšanas laikā tika izmantota konsolidācijas politika, jums to vajadzētu ieraudzīt laukā **Sūtījuma konsolidācijas politika**.</span><span class="sxs-lookup"><span data-stu-id="1ef58-226">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
 
-### <a name="release-order-set-1-in-one-load"></a><span data-ttu-id="0700d-227">Nodot 1. pasūtījuma kopu vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="0700d-227">Release order set 1 in one load</span></span>
+### <a name="release-order-set-1-in-one-load"></a><span data-ttu-id="1ef58-227">Nodot 1. pasūtījuma kopu vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="1ef58-227">Release order set 1 in one load</span></span>
 
-<span data-ttu-id="0700d-228">Ir jābūt izveidotiem diviem sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="0700d-228">Two shipments should have been created:</span></span>
+<span data-ttu-id="1ef58-228">Ir jābūt izveidotiem diviem sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="1ef58-228">Two shipments should have been created:</span></span>
 
-- <span data-ttu-id="0700d-229">Pirmajā sūtījumā ir trīs rindas, un tās tika izveidotas, izmantojot *CustomerMode* sūtījumu konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="0700d-229">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
-- <span data-ttu-id="0700d-230">Otrais sūtījums, kas neizmanto *Gaisa* pārvadājumu transportēšanas veidu, tika izveidots, izmantojot *CustomerOrderNo* sūtījumu konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="0700d-230">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
+- <span data-ttu-id="1ef58-229">Pirmajā sūtījumā ir trīs rindas, un tās tika izveidotas, izmantojot *CustomerMode* sūtījumu konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="1ef58-229">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
+- <span data-ttu-id="1ef58-230">Otrais sūtījums, kas neizmanto *Gaisa* pārvadājumu transportēšanas veidu, tika izveidots, izmantojot *CustomerOrderNo* sūtījumu konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="1ef58-230">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
 
-### <a name="release-order-set-2-in-one-load"></a><span data-ttu-id="0700d-231">Nodot 2. pasūtījuma kopu vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="0700d-231">Release order set 2 in one load</span></span>
+### <a name="release-order-set-2-in-one-load"></a><span data-ttu-id="1ef58-231">Nodot 2. pasūtījuma kopu vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="1ef58-231">Release order set 2 in one load</span></span>
 
-<span data-ttu-id="0700d-232">Ir jābūt izveidotiem trīs sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="0700d-232">Three shipments should have been created:</span></span>
+<span data-ttu-id="1ef58-232">Ir jābūt izveidotiem trīs sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="1ef58-232">Three shipments should have been created:</span></span>
 
-- <span data-ttu-id="0700d-233">Pirmajā sūtījumā ir *Viegli uzliesmojoši* krājumi.</span><span class="sxs-lookup"><span data-stu-id="0700d-233">The first shipment contains the *Flammable* items.</span></span>
-- <span data-ttu-id="0700d-234">Abi pārējie sūtījumi satur vienu rindu, kurā ir *Sprādzienbīstams* krājums.</span><span class="sxs-lookup"><span data-stu-id="0700d-234">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
+- <span data-ttu-id="1ef58-233">Pirmajā sūtījumā ir *Viegli uzliesmojoši* krājumi.</span><span class="sxs-lookup"><span data-stu-id="1ef58-233">The first shipment contains the *Flammable* items.</span></span>
+- <span data-ttu-id="1ef58-234">Abi pārējie sūtījumi satur vienu rindu, kurā ir *Sprādzienbīstams* krājums.</span><span class="sxs-lookup"><span data-stu-id="1ef58-234">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
 
-### <a name="release-order-set-3-in-one-load"></a><span data-ttu-id="0700d-235">Nodot pasūtījuma kopu 3 vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="0700d-235">Release order set 3 in one load</span></span>
+### <a name="release-order-set-3-in-one-load"></a><span data-ttu-id="1ef58-235">Nodot pasūtījuma kopu 3 vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="1ef58-235">Release order set 3 in one load</span></span>
 
-<span data-ttu-id="0700d-236">Ir jābūt izveidotiem diviem sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="0700d-236">Two shipments should have been created:</span></span>
+<span data-ttu-id="1ef58-236">Ir jābūt izveidotiem diviem sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="1ef58-236">Two shipments should have been created:</span></span>
 
-- <span data-ttu-id="0700d-237">Pirmajā sūtījumā ir pasūtījuma rindas no pārdošanas pasūtījuma, kur **Debitora pieprasījuma** lauks ir iestatīts uz *1*.</span><span class="sxs-lookup"><span data-stu-id="0700d-237">The first shipment contains order lines from the sales order where the **Customer requisition** field is set to *1*.</span></span>
-- <span data-ttu-id="0700d-238">Otrajā sūtījumā ir pasūtījuma rindas no pārdošanas pasūtījuma, kur **Debitora pieprasījuma** lauks ir iestatīts uz *2*.</span><span class="sxs-lookup"><span data-stu-id="0700d-238">The second shipment contains order lines from sales order where the **Customer requisition** field is set to *2*.</span></span>
+- <span data-ttu-id="1ef58-237">Pirmajā sūtījumā ir pasūtījuma rindas no pārdošanas pasūtījuma, kur **Debitora pieprasījuma** lauks ir iestatīts uz *1*.</span><span class="sxs-lookup"><span data-stu-id="1ef58-237">The first shipment contains order lines from the sales order where the **Customer requisition** field is set to *1*.</span></span>
+- <span data-ttu-id="1ef58-238">Otrajā sūtījumā ir pasūtījuma rindas no pārdošanas pasūtījuma, kur **Debitora pieprasījuma** lauks ir iestatīts uz *2*.</span><span class="sxs-lookup"><span data-stu-id="1ef58-238">The second shipment contains order lines from sales order where the **Customer requisition** field is set to *2*.</span></span>
 
-### <a name="release-order-set-4-in-one-load"></a><span data-ttu-id="0700d-239">Nodot 4. pasūtījuma kopu vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="0700d-239">Release order set 4 in one load</span></span>
+### <a name="release-order-set-4-in-one-load"></a><span data-ttu-id="1ef58-239">Nodot 4. pasūtījuma kopu vienā noslodzē</span><span class="sxs-lookup"><span data-stu-id="1ef58-239">Release order set 4 in one load</span></span>
 
-<span data-ttu-id="0700d-240">Ir jābūt izveidotiem četriem sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="0700d-240">Four shipments should have been created:</span></span>
+<span data-ttu-id="1ef58-240">Ir jābūt izveidotiem četriem sūtījumiem:</span><span class="sxs-lookup"><span data-stu-id="1ef58-240">Four shipments should have been created:</span></span>
 
-- <span data-ttu-id="0700d-241">Rindas no diviem pasūtījumiem debitoru kontam *US-003* tika grupētas vienā sūtījumā, izmantojot *Pasūtījumu kopas* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="0700d-241">Lines from two orders for customer account *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="0700d-242">Rindas no diviem pasūtījumiem debitoru kontam *US-004* tika grupētas vienā sūtījumā, izmantojot *Pasūtījumu kopas* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="0700d-242">Lines from two orders for customer account *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="0700d-243">Rindas no pārdošanas pasūtījumiem 4-5 un 4-6 debitoru kontam *US-007* tika grupētas vienā sūtījumā, izmantojot *Pasūtījumu kopas* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="0700d-243">Lines from sales orders 4-5 and 4-6 for customer account *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="0700d-244">Rindas no pārdošanas pasūtījumiem 4-7 un 4-8 debitoru kontam *US-007* tika grupētas vienā sūtījumā, izmantojot *Savstarpēja pasūtījuma* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="0700d-244">Lines from sales orders 4-7 and 4-8 for customer account *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
+- <span data-ttu-id="1ef58-241">Rindas no diviem pasūtījumiem debitoru kontam *US-003* tika grupētas vienā sūtījumā, izmantojot *Pasūtījumu kopas* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="1ef58-241">Lines from two orders for customer account *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="1ef58-242">Rindas no diviem pasūtījumiem debitoru kontam *US-004* tika grupētas vienā sūtījumā, izmantojot *Pasūtījumu kopas* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="1ef58-242">Lines from two orders for customer account *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="1ef58-243">Rindas no pārdošanas pasūtījumiem 4-5 un 4-6 debitoru kontam *US-007* tika grupētas vienā sūtījumā, izmantojot *Pasūtījumu kopas* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="1ef58-243">Lines from sales orders 4-5 and 4-6 for customer account *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="1ef58-244">Rindas no pārdošanas pasūtījumiem 4-7 un 4-8 debitoru kontam *US-007* tika grupētas vienā sūtījumā, izmantojot *Savstarpēja pasūtījuma* sūtījuma konsolidācijas politiku.</span><span class="sxs-lookup"><span data-stu-id="1ef58-244">Lines from sales orders 4-7 and 4-8 for customer account *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="0700d-245">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="0700d-245">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="1ef58-245">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="1ef58-245">Additional resources</span></span>
 
-- [<span data-ttu-id="0700d-246">Sūtījumu konsolidācijas politikas</span><span class="sxs-lookup"><span data-stu-id="0700d-246">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
-- [<span data-ttu-id="0700d-247">Sūtījumu konsolidācijas politiku konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="0700d-247">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
+- [<span data-ttu-id="1ef58-246">Sūtījumu konsolidācijas politikas</span><span class="sxs-lookup"><span data-stu-id="1ef58-246">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
+- [<span data-ttu-id="1ef58-247">Sūtījumu konsolidācijas politiku konfigurēšana</span><span class="sxs-lookup"><span data-stu-id="1ef58-247">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
