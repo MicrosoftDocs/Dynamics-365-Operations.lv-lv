@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019498"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103632"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -77,6 +77,7 @@ Lai manuāli apstiprinātu plānotos pasūtījumus, atrodiet un atlasiet plānot
 
     - **Grupēt pēc kreditora** – iestatiet šo opciju kā *Jā*, lai grupētu plānotos pirkšanas pasūtījumus un apstiprināšanas laikā izveidotu vienu pirkšanas pasūtījumu kreditoram. Var arī izveidot vienu pirkšanas pasūtījumu ar vienu rindu katram plānotajam pasūtījumam.
     - **Grupēt pēc pircēja grupas** - iestatiet šo opciju uz *Jā*, lai sagrupētu plānotos pirkšanas pasūtījumus un izveidotu vienu pirkšanas pasūtījumu, kas apvieno kreditoru un pircēju grupu. Lai izmantotu šo opciju, iestatiet opciju **Grupēt pēc kreditora** uz *Jā*.
+    - **Grupēt pēc pirkšanas līguma** – iestatiet šo opciju uz *Jā*, lai grupētu plānotos pirkšanas pasūtījumus, kuriem ir tāds pats kreditors kā esošiem pirkšanas līgumiem, un izveidotu vienu pirkšanas pasūtījumu katram pirkšanas līgumam. Ja ir aktivizēta opcija **Grupēt pēc kreditora**, šī opcija tiek aktivizēta automātiski. Lai izmantotu **Grupēt pēc pirkšanas līguma**, **Atrast pirkšanas līgumu** ir jāiestata uz *Jā* lapā **Vispārējās plānošanas parametri**.
     - **Grupēt pēc perioda** (sadaļā **Pirkšanas pasūtījums** ) – atlasiet periodu, pēc kā grupēt plānotos pirkšanas pasūtījumus. Lai izmantotu šo opciju, atlasiet opciju **Grupēt pēc kreditora**.
     - **Grupēt pēc perioda** (sadaļā **Transferi** ) – atlasiet periodu, pēc kā grupēt plānotos transfera pasūtījumus. Pasūtījumi tiks grupēti, pamatojoties uz vērtībām **No noliktavas** un **Uz noliktavu**.
 

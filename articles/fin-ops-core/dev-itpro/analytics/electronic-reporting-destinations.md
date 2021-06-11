@@ -2,7 +2,7 @@
 title: Elektroniskās pārskatu veidošanas (ER) adresāti
 description: Šajā tēmā ir sniegta informācija par elektronisko pārskatu (ER) adresātiem, atbalstīto galamērķu tipiem un drošības apsvērumiem.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893608"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085504"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroniskās pārskatu veidošanas (ER) adresāti
 
@@ -199,6 +199,34 @@ Ja Excel formātā ģenerējat ER konfigurāciju un vēlaties to konvertēt PDF 
 > Atlasītā lappuses orientācija tiek lietota visām ER konfigurācijām, kas tiek ģenerētas Excel formātā un pēc tam konvertētas PDF formātā.
 >
 > Ja konvertētais PDF tiek izveidots no ER konfigurācijas programmas Word formātā, PDF lappuses orientācija tiek ņemta no Word dokumenta.
+
+## <a name="output-unfolding"></a>Izvades izvēršana
+
+Konfigurējot jūsu ER formāta **Mapes** komponenta adresātu, varat norādīt, kā šī komponenta izvade tiek piegādāta konfigurētajā gala mērķī.
+
+### <a name="make-output-unfolding-available"></a>Padarīt izvades izvēršanu pieejamu
+
+Lai pašreizējā Finance instancē būtu pieejama izvades izvēršanas opcija, atveriet **Līdzekļu pārvaldības** darbvietu un ieslēdziet funkciju **Atļaut konfigurējamiem ER adresātiem sūtīt mapes kā atsevišķu failu**.
+
+### <a name="applicability"></a>Piemērojamība
+
+Izvades izvēršanas opciju var konfigurēt tikai **Mapes** tipa formāta komponentiem. Kad sākat konfigurēt **Mapes** komponentu, kopsavilkuma cilne **Vispārīgi** kļūst pieejama **Elektronisko pārskatu adresāta** lapā. 
+
+### <a name="use-the-output-unfolding-option"></a>Izmantojiet izvades izvēršanas opciju
+
+Kopsavilkuma cilnes **Vispārīgi** laukā **Sūtīt mapi kā** atlasiet vienu no šīm vērtībām:
+
+- **ZIP arhīvs** - piegādājiet ģenerēto failu kā zip failu.
+- **Atsevišķi faili** - piegādāt katru ģenerēto zip failu kā atsevišķu failu.
+
+    > [!NOTE]
+    > Atlasot **Atsevišķus failus**, ģenerētā izvade tiek apkopota saspiestā stāvoklī. Tāpēc maksimālais [faila izmēra limits](er-compress-outbound-files.md) tiek pielietots saspiestam izvades failam, kad reālais faila izmērs var pārsniegt noteikto limitu. Mēs iesakām atlasīt šo vērtību, ja paredzat, ka ģenerētās izvades faila lielums būs pārāk liels.
+
+[![Notiek mapes formāta komponenta adresāta konfigurēšana](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Ierobežojumi
+
+Ja lauku **Sūtīt mapi kā** iestatāt uz **Atsevišķi faili** komponentam **Mape**, kas satur citus ligzdotos **Mapes** komponentus, iestatījums netiek rekursīvi pielietots ligzdotiem **Mapes** komponentiem.
 
 ## <a name="security-considerations"></a>Drošības apsvērumi
 

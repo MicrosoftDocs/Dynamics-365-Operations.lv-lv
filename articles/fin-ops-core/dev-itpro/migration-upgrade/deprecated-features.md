@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921427"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112625"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -104,6 +104,39 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Izvietošanas iespēja**              | Visus |
 | **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **Iekšzemes nodokļu pārskatu – Līdzekļa atsauci IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>2019. gada oktobra paziņojums par nolietojumu
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Blokshēmas diagrammas biznesa procesu modelētājā
+
+<table>
+<tbody>
+<tr>
+<td><strong>Novecošanas/noņemšanas pamatojums</strong></td>
+<td>Mēs pasludinām par novecojušām blokshēmu diagrammas biznesa procesu modelētāja (Business process modeler — BPM) komponentam, jo mantotais dizains bija par pamatu retai izmantošanai.</td>
+</tr>
+<tr>
+<td><strong>Vai aizstāts ar citu līdzekli?</strong></td>
+<td>Nē</td>
+</tr>
+<tr>
+<td><strong>Ietekmētās jomas</strong></td>
+<td>Biznesa procesu modelētājs</td>
+</tr>
+<tr>
+<td><strong>Statuss</strong></td>
+<td>Novecojis: BMP blokshēmas diagrammas komponentu ir paredzēts noņemt 2020. gadā. Tālāk minētā funkcionalitāte nav pieejama:
+<ul>
+<li>Visas blokshēmas būs tikai lasāmas un nebūs pieejamas rediģēšanai. Formas rekvizīti, kas ir saistīti ar blokshēmas aktivitātēm, arī nebūs pieejami. Šīs blokshēmas ietver gan noklusējuma blokshēmas, kas tiek ģenerētas automātiski, gan pielāgotas blokshēmas, kas tiek modificētas, pamatojoties uz šīm noklusējuma blokshēmām.</li>
+<li>Procesa soļi būs tikai lasāmi un nebūs pieejami rediģēšanai.</li>     
+<li>Mantotā piemērotība / atbilstību analīzes funkcija nebūs pieejama. Tādēļ neviens atbilstības saraksts netiks automātiski izveidots vai nebūs pieejams eksportam.
+<p><strong>Piezīme:</strong> šī funkcija iepriekš bija novecojusi un aizstāta ar Microsoft Azure DevOps integrācijām.</p>
+</li>
+<li>Blokshēmas versiju vēsture nebūs pieejama.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 ar 29. platformas atjauninājumu
 

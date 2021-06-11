@@ -2,7 +2,7 @@
 title: Noņemtie vai novecojušie platformas līdzekļi
 description: Šajā tēmā ir aprakstīti līdzekļi, kuri ir noņemti vai kurus ir paredzēts noņemt no Finance and Operations programmu platformu atjauninājumiem.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923542"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111728"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Noņemtie vai novecojušie platformas līdzekļi
 
@@ -31,6 +31,19 @@ ms.locfileid: "5923542"
 Šis saraksts ir izveidots, lai jūs savā plānošanā varētu ņemt vērā, kuri līdzekļi tiek noņemti un kļūst novecojuši. 
 
 Detalizēta informācija par Finance and Operations programmu objektiem ir pieejama tēmā [Tehniskās atsauces pārskati](/dynamics/s-e/global/axtechrefrep_61). Varat salīdzināt dažādās šo pārskatu versijas, lai noskaidrotu, kuri objekti ir mainīti vai noņemti katrā Finance and Operations programmu versijā.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Līdzekļu nolietošanas paziņojums, kas ir spēkā no 2021. gada maija
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalizācijas portāls programmā Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Mēs nolietojam globalizācijas portālu LCS, jo šo funkciju aizstāj citi LCS balstītie pakalpojumi. |
+| **Vai ir aizstāts ar citu līdzekli?**   | Jā, šis līdzeklis tiek aizstāts ar LCS [izsniegšanas meklēšanu](../lifecycle-services/issue-search-lcs.md) un [Dynamics uzraudzības brīdinājuma iesniegšanas pakalpojumu](../lcs-solutions/submit-localization-alerts.md). |
+| **Ietekmētie produkta apgabali**         | Globalizācijas portāls programmā LCS|
+| **Izvietošanas iespēja**              | Mākoņa izvietošana |
+| **Statuss**                         | Novecojis: plānotais noņemšanas datums 2022. gada maijs. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Līdzeklis noņemts 2021. gada 28. janvārī
 
@@ -56,7 +69,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Visual Studio 2017 aizstās Visual Studio 2015 kā izvietotā un nepieciešamā versija. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis. Pēc atjaunināšanas iepriekšējie X++ rīki tiks noņemti no Visual Studio 2015. gada versijas un netiks atjaunināti Visual Studio 2015. gada versijā. Viesotie būvējumi netiek neietekmēti. Lai mainītu atkarību no MSBuild 14.0 (Visual Studio 2015) uz MSBuild 15.0 (Visual Studio 2017), būvējuma konveijers ir manuāli jāatjaunina, kā aprakstīts [Azure konveijera atjauninājumu konveijerā](../dev-tools/pipeline-msbuild-update.md). |
+| **Statuss**                         | Novecojis: pēc atjaunināšanas iepriekšējie X++ rīki tiks noņemti no Visual Studio 2015. gada versijas un netiks atjaunināti Visual Studio 2015. gada versijā. Viesotie būvējumi netiek neietekmēti. Lai mainītu atkarību no MSBuild 14.0 (Visual Studio 2015) uz MSBuild 15.0 (Visual Studio 2017), būvējuma konveijers ir manuāli jāatjaunina, kā aprakstīts [Azure konveijera atjauninājumu konveijerā](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Lietotāja bilde 
 
@@ -76,7 +89,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Nr. |
 | **Ietekmētie produkta apgabali**         | Tīmekļa klients |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | Novecojis. Visi EP kodi ir ieplānoti izņemšanai no 2021. gada oktobra. |
+| **Statuss**                         | Novecojis: visi EP kodi ir ieplānoti izņemšanai no 2021. gada oktobra. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmu 10.0.15 versijai
 
@@ -88,7 +101,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
 | **Ietekmētie produkta apgabali**         | Visas Dynamics 365 preces |
 | **Izvietošanas iespēja**              | Visu|
-| **Statuss**                         | Novecojis. Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
+| **Statuss**                         | Novecojis: Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio pievienojumprogramma, lai lietotu metadatu labojumfailus
@@ -181,7 +194,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Plašāku informāciju skatiet [Konfigurēt Azure Active Directory nosacījuma piekļuvi](/appcenter/general/configuring-aad-conditional-access).|
 | **Ietekmētie produkta apgabali**         | Drošība |
 | **Izvietošanas iespēja**              | Mākonis |
-| **Statuss**                         | **Novecojis:** šis līdzeklis ir pilnībā novecojis pašapkalpošanās izvietošanai. |
+| **Statuss**                         | Novecojis: šis līdzeklis ir pilnībā novecojis pašapkalpošanās izvietošanai. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
@@ -201,7 +214,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Šī kompilatora kļūda neatgriezeniski aizstāj kompilatora brīdinājumu.  |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | **Novecojis:** kompilatora brīdinājums ir kompilatora kļūda platformas atjauninājumiem Finance and Operations programmu 10.0.11 versijā. |
+| **Statuss**                         | Novecojis: kompilatora brīdinājums ir kompilatora kļūda platformas atjauninājumiem Finance and Operations programmu 10.0.11 versijā. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV licences, kas izveidotas, izmantojot SHA1 hashing algoritmu
 
@@ -211,7 +224,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā. Izmantojiet programmu Windows PowerShell, lai izveidotu licences. |
 | **Ietekmētie produkta apgabali**         | Visual Studio izstrādes rīki |
 | **Izvietošanas iespēja**              | Visu |
-| **Statuss**                         | <strong>Novecojis:</strong> ISV licences, kas izveidotas, izmantojot SHA1 jaukšanas algoritmu. Šis algoritms ir atkarīgs no sertifikātiem, kas tika izveidoti, izmantojot utilītu MakeCert, un šī utilīta ir novecojusi.<p><strong>Novecojusi:</strong> SHA1 izmantošana drošības vai jaukšanas nolūkiem. SHA1 vairs nedarbosies 2021. gada sākumā. Tāpēc tas vairs nav jālieto.<p><strong>Noņemts:</strong> atbalsts transporta slāņa drošībai (TLS) 1.0 un TLS 1.1 ienākošajiem vai izejošajiem pieprasījumiem. |
+| **Statuss**                         | Novecojis: ISV licences, kas izveidotas, izmantojot SHA1 jaukšanas algoritmu. Šis algoritms ir atkarīgs no sertifikātiem, kas tika izveidoti, izmantojot utilītu MakeCert, un šī utilīta ir novecojusi.<br><br>Novecojusi: SHA1 izmantošana drošības vai jaukšanas nolūkiem. SHA1 vairs nedarbosies 2021. gada sākumā. Tāpēc tas vairs nav jālieto.<br><br>Noņemts: atbalsts transporta slāņa drošībai (TLS) 1.0 un TLS 1.1 ienākošajiem vai izejošajiem pieprasījumiem. |
 
 ## <a name="platform-update-32"></a>Platformas update 32
 

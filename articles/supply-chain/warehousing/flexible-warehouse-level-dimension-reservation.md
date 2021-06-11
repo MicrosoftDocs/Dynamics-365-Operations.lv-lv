@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910237"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103050"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Elastīga noliktavas līmeņa dimensiju rezervācijas politika
 
@@ -176,7 +176,7 @@ Tālāk piemērā ir parādītas visi plūsmas posmi.
 
     - Pēc darba izveides tiek noņemta vienuma krājuma transakcija, kurā lauks **Atsauce** ir iestatīts kā **Ar pasūtījumu saistīta rezervēšana**. Krājumu transakcija, kurā lauks **Atsauces** ir iestatīts uz **Darbs**, tagad ietver fizisko rezervāciju visām daudzuma krājumu dimensijām.
 
-        Noliktavas darbības var turpināt darba izpildi parastajā kārtībā. Tomēr mobilās ierīces instrukcijās darbiniekam tiks norādīts izvēlēties konkrētu partijas numuru. Noliktavas vidēs, kur novietojumu pārvalda noliktavas vienības, pēc tam, kad darbinieks sasniedz vietu, kurā vairākās noliktavas vienībās tiek glabāta tā pati partija, viņš var izvēlēties no jebkuras noliktavas vienības, kas vēl nav rezervēta (piemēram, cita ar pasūtījumu saitīta rezervācija vai darbs, kas radies no šī tipa rezervācijas).
+        Noliktavas darbības var turpināt darba izpildi parastajā kārtībā. Tomēr mobilās ierīces instrukcijās darbiniekam tiks norādīts izvēlēties konkrētu partijas numuru. Noliktavas vidēs, kur novietojumu pārvalda noliktavas vienības, pēc tam, kad darbinieks sasniedz vietu, kurā vairākās noliktavas vienībās tiek glabāta tā pati partija, viņš var izvēlēties no jebkuras noliktavas vienības, kas vēl nav rezervēta (piemēram, cita ar pasūtījumu saistīta rezervācija vai darbs, kas radies no šī tipa rezervācijas).
 
         Ja izrādās, ka nav praktiski izvēlēties no vietas, kas norādīta darba rindā, noliktavas operatori var izmantot vienu no tālāk norādītajām darbībām, lai novirzītu konkrētas partijas izdošanu no ērtākas atrašanās vietas.
 

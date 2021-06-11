@@ -2,7 +2,7 @@
 title: Klientu pārvaldība veikalos
 description: Šajā tēmā paskaidrots, kā mazumtirgotāji var iespējot klientu pārvaldības iespējas pārdošanas punktā (POS) risinājumā Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019991"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097212"
 ---
 # <a name="customer-management-in-stores"></a>Klientu pārvaldība veikalos
 
@@ -35,7 +35,10 @@ Pārdošanas asistenti var arī fiksēt sekundāras e-pasta adreses un tālruņa
 
 ## <a name="default-customer-properties"></a>Klienta noklusējuma rekvizīti
 
-Mazumtirgotāji var izmantot Commerce galvenās pārvaldes lapu **Visi veikali** (**Retail un Commerce\>Kanāli\>Veikali**), lai saistītu noklusējuma klientu ar katru veikalu. Pēc tam Commerce kopē noklusējuma klientam definētos līdzekļus uz visiem jaunajiem izveidotajiem klienta ierakstiem. Piemēram, dialoglodziņš **Izveidot klientu** rāda rekvizītus, kuri tiek mantoti no noklusējuma klienta, kas tiek saistīts ar veikalu. Šie rekvizīti ietver klienta veidu, klienta grupu, rēķina preferenci, valūtu un valodu. Jebkādas piederības (klientu kopas) arī tiek mantotas no noklusējuma klienta. Taču finanšu dimensijas tiek mantotas no tās klientu grupas, kura ir saistīta ar noklusējuma klientu, nevis no paša noklusējuma klienta.
+Mazumtirgotāji var izmantot Commerce galvenās pārvaldes lapu **Visi veikali** (**Retail un Commerce\>Kanāli\>Veikali**), lai saistītu noklusējuma klientu ar katru veikalu. Pēc tam Commerce kopē noklusējuma klientam definētos līdzekļus uz visiem jaunajiem izveidotajiem klienta ierakstiem. Piemēram, dialoglodziņš **Izveidot klientu** rāda rekvizītus, kuri tiek mantoti no noklusējuma klienta, kas tiek saistīts ar veikalu. Šie rekvizīti ietver **klienta veidu**, **klienta grupu**, **rēķina opciju**, **rēķina e-pastu**, **valūtu** un **valodu**. Jebkādas **piederības** (klientu kopas) arī tiek mantotas no noklusējuma klienta. Taču **finanšu dimensijas** tiek mantotas no tās klientu grupas, kura ir saistīta ar noklusējuma klientu, nevis no paša noklusējuma klienta.
+
+> [!NOTE]
+> **Rēķina e-pasta** vērtība tiek kopēta no noklusējuma klienta tikai tad, ja jaunizveidotajiem klientiem nav norādīts rēķina e-pasta ID. Tas nozīmē, ka, ja rēķina e-pasta ID ir uz noklusējuma klienta, tad visi klienti, kas izveidoti no e-komercijas vietnes, saņems tādu pašu rēķina e-pasta ID, jo nav lietotāja interfeisa, lai tvertu kvīts e-pasta ID no klienta. Ieteicams saglabāt **rēķina e-pasta** lauku tukšu veikala noklusējuma klientam un izmantot to tikai tad, ja jums ir biznesa process, kas ir atkarīgs no rēķina e-pasta adreses. 
 
 Pārdošanas asistenti var tvert vairākas klienta adreses. Klienta vārds, uzvārds un tālruņa numurs tiek mantots no kontaktinformācijas, kura ir saistīta ar katru adresi. Klienta ieraksta kopsavilkuma cilne **Adreses** ietver lauku **Mērķis**, kuru pārdošanas asistents var rediģēt. Ja klienta veids ir **Persona**, noklusējuma vērtība ir **Mājas**. Ja klients veids ir **Organizācija**, noklusējuma vērtība ir **Bizness**. Citas šī lauka atbalstītās vērtības ietver **Mājas**, **Birojs** un **Pastkaste**. Lauka **Valsts** vērtība adresei tiek mantota no primārās adreses, kura tiek norādīta Commerce galvenās pārvaldes lapā **Pārvaldības struktūrvienība**, dodoties uz **Organizācijas pārvaldība\>Organizācijas\>Pārvaldības struktūrvienības**.
 

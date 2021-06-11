@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947524"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115053"
 ---
 # <a name="engineering-change-management-overview"></a>Tehnoloģisko izmaiņu pārvaldības pārskats
 
@@ -50,16 +50,21 @@ Vispirms, ieslēdziet šīs funkcijas, veicot šādas darbības.
 
 1. Atvēriet darbvietu [Līdzekļu pārvaldība](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Pārbaudīt, vai nav atjauninājumu.
-1. Ieslēdziet līdzekli, kura nosaukums ir **Tehnikas izmaiņu pārvaldība**.
-1. Pēc tam, ja vēlaties to izmantot, iespējojiet arī funkciju ar nosaukumu **Preces dimensijas versija**.
+1. Ieslēdziet līdzekli, kura nosaukums ir *Tehnikas izmaiņu pārvaldība*.
+1. Pēc tam, ja vēlaties to izmantot, iespējojiet arī funkciju ar nosaukumu *Preces dimensijas versija*.
 
 Tad ieslēdziet konfigurācijas atslēgas, veicot šādas darbības.
 
 1. Ielieciet savu sistēmu uzturēšanas režīmā, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Dodieties uz **Sistēmas administrēšana \> Iestatījumi \> Licences konfigurācija**.
 1. Izvērst zaru **Tirdzniecība**.
-1. Iespējojiet galvenos līdzekļu konfigurācijas atslēgu, atzīmējot izvēles rūtiņu **Inženierzinātnes izmaiņu pārvaldība**. (Nav nepieciešams izvērst zaru, ja vien nevēlaties atspējot vienu vai abus tā apakšlīdzekļus.)
-1. Ja arī vēlaties izmantot versijas dimensiju, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**. (Šī izvēles rūtiņa atrodas tālāk sarakstā, nevis ligzdota zem **Inženierzinātnes izmaiņu pārvaldība** zara.)
+1. Iespējojiet galvenos līdzekļu konfigurācijas atslēgu, atzīmējot izvēles rūtiņu **Inženiertehnisko izmaiņu pārvaldība**.
+1. Izvērsiet **Inženiertehnisko izmaiņu pārvaldība** zaru un atzīmējiet vai notīriet šādas izvēles rūtiņas pēc vajadzības (atkarībā no funkcijām, ko vēlaties izmantot):
+
+    - **Atribūtu meklēšana** - atzīmējiet šo izvēles rūtiņu, lai iespējotu [atribūtu meklēšanas līdzekli](engineering-attributes-and-search.md). Ieteicams iespējot šo funkciju, taču, ja to neizmantosit, to var notīrīt.
+    - **Izmaiņu pārvaldība procesa ražošanai** - atzīmējiet šo izvēles rūtiņu, ja vēlaties izmantot Inženiertehnisko izmaiņu pārvaldības līdzekļus, lai pārvaldītu izmaiņas procesa ražošanas formulās. Ja formulas nav jāpārvalda, šo izvēles rūtiņu var notīrīt. Papildinformāciju skatiet [pPrvaldīt izmaiņas formulās un to sastāvdaļās](manage-formula-changes.md).
+
+1. Ja arī vēlaties izmantot versijas dimensiju, atzīmējiet izvēles rūtiņu **Preces dimensija – versija**. (Šī izvēles rūtiņa atrodas tālāk sarakstā, nevis ligzdota zem **Inženiertehnisko izmaiņu pārvaldība** zara.)
 1. Izslēdziet uzturēšanas režīmu, kā aprakstīts sadaļā [Uzturēšanas režīms](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 > [!IMPORTANT]

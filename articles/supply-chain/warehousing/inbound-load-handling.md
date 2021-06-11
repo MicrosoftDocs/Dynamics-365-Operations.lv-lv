@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910019"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103172"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Noliktavas apstrādes process ienākošajām slodzēm pirkšanas pasūtījumiem
 
@@ -127,7 +127,7 @@ Lai kontrolētu to, kas notiek, kad noliktavas darbinieks mēģina reģistrēt p
 | Vērtība | apraksts |
 |---|---|
 | Atļaut | Darbinieki var reģistrēt tādu daudzumu saņemšanu, kas pārsniedz atlikušo nereģistrēto daudzumu atlasītajai noslodzei, bet tikai tad, ja kopējais reģistrētais daudzums nepārsniedz pirkšanas pasūtījuma rindas daudzumu, kas ir saistīts ar noslodzi (pēc pārsniegšanas procenta korekcijas). |
-| Bloķēts | <p>Darbinieki nevar reģistrēt daudzuma saņemšanu, kas ir lielāks par atlikušo nereģistrēto daudzumu atlasītajai noslodzei (pēc koriģēšanas, lai varētu veikt pārsniegšanu procentos). Darbinieks, kurš mēģina reģistrēt saņemšanu saņems kļūdu, un nevarēs turpināt, kamēr viņš vai viņa nereģistrēs daudzumu, kas ir vienāds ar vai mazāks par atlikušo nereģistrēto noslodzes daudzumu.</p><p>Pēc noklusējuma pārsniegšanas procentuālā vērtība noslodzes rindā tiek kopēta no saistītās pirkšanas pasūtījuma rindas. Kad lauks <b>Noslodze pārslodze</b> ir iestatīts uz <i>Bloķēts</i>, sistēma izmanto pārsniegšanas procentuālo vērtību, lai aprēķinātu kopējo daudzumu, ko var reģistrēt noslodzes rindai. Tomēr šo vērtību var pārrakstīt atsevišķām noslodzēm pēc nepieciešamības. Šī uzvedība kļūst aktuāla saņemšanas plūsmu laikā, kad daļa vai viss pārpalikums, kas atspoguļo pasūtījuma līnijas pārsnieguma procentu, tiek sadalīts neproporcionāli vairākām noslodzēm. Lūk, ir piemērs:</p><ul><li>Vienai pirkšanas pasūtījuma rindai ir vairākas noslodzes.</li><li>Pirkšanas pasūtījuma rindai ir pārsniegšanas procentuālais daudzums, kas ir lielāks par 0 (nulle).</li><li>Daudzumi jau ir reģistrēti attiecībā pret vienu vai vairākām noslodzēm, neņemot vērā pārsniegto daudzumu procentos kontā.</li><li>Pārsniegšanas daudzums pienāk pēdējā noslodzē.</li></ul><p>Šajā scenārijā var izmantot mobilo ierīci, lai reģistrētu pēdējās noslodzes pārsniegšanas daudzumu tikai tad, ja noliktavas uzraudgs palielina pārsniegšanas procentuālo vērtību attiecīgajai noslodzes rindai no noklusētās vērtības uz vērtību kas ir pietiekami liela, lai pilnīgu pārsniegšanu varētu reģistrēt ar galīgo noslodzi.</p> |
+| Bloķēts | <p>Darbinieki nevar reģistrēt daudzuma saņemšanu, kas ir lielāks par atlikušo nereģistrēto daudzumu atlasītajai noslodzei (pēc koriģēšanas, lai varētu veikt pārsniegšanu procentos). Darbinieks, kurš mēģina reģistrēt saņemšanu saņems kļūdu, un nevarēs turpināt, kamēr viņš nereģistrēs daudzumu, kas ir vienāds ar vai mazāks par atlikušo nereģistrēto noslodzes daudzumu.</p><p>Pēc noklusējuma pārsniegšanas procentuālā vērtība noslodzes rindā tiek kopēta no saistītās pirkšanas pasūtījuma rindas. Kad lauks <b>Noslodze pārslodze</b> ir iestatīts uz <i>Bloķēts</i>, sistēma izmanto pārsniegšanas procentuālo vērtību, lai aprēķinātu kopējo daudzumu, ko var reģistrēt noslodzes rindai. Tomēr šo vērtību var pārrakstīt atsevišķām noslodzēm pēc nepieciešamības. Šī uzvedība kļūst aktuāla saņemšanas plūsmu laikā, kad daļa vai viss pārpalikums, kas atspoguļo pasūtījuma līnijas pārsnieguma procentu, tiek sadalīts neproporcionāli vairākām noslodzēm. Lūk, ir piemērs:</p><ul><li>Vienai pirkšanas pasūtījuma rindai ir vairākas noslodzes.</li><li>Pirkšanas pasūtījuma rindai ir pārsniegšanas procentuālais daudzums, kas ir lielāks par 0 (nulle).</li><li>Daudzumi jau ir reģistrēti attiecībā pret vienu vai vairākām noslodzēm, neņemot vērā pārsniegto daudzumu procentos kontā.</li><li>Pārsniegšanas daudzums pienāk pēdējā noslodzē.</li></ul><p>Šajā scenārijā var izmantot mobilo ierīci, lai reģistrētu pēdējās noslodzes pārsniegšanas daudzumu tikai tad, ja noliktavas uzraudgs palielina pārsniegšanas procentuālo vērtību attiecīgajai noslodzes rindai no noklusētās vērtības uz vērtību kas ir pietiekami liela, lai pilnīgu pārsniegšanu varētu reģistrēt ar galīgo noslodzi.</p> |
 | Bloķēt tikai slēgtajām noslodzēm | Darbinieki var saņemt noslodzes līniju daudzumus par atvērtām noslodzēm bet ne par noslodzēm, kuru statuss ir _Saņemts_. |
 
 > [!NOTE]
@@ -216,7 +216,7 @@ Lai preces saņemšanas gadījumā tiktu reģistrēti papildu reģistrēti noslo
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Grāmatot reģistrēto daudzumu no Pirkšanas pasūtījuma lapas
 
-Lai preces saņemšanas laikā reģistrētos daudzumus ierakstītu no **Pirkšanas pasūtījuma** lapas, lietotājs izpilda šādus uzdevumus, pirms viņš vai viņa atlasa **Preču saņemšanas** darbību:
+Lai preces saņemšanas laikā reģistrētos daudzumus ierakstītu no **Pirkšanas pasūtījuma** lapas, lietotājs izpilda šādus uzdevumus, pirms viņš atlasa **Preču saņemšanas** darbību:
 
 - Iestatiet **Daudzuma** lauku sadaļā **Parametri** cilnē **Iestatījumi** uz _Reģistrēto daudzumu_.
 - Laukā **Preču saņemšana** ievadiet grāmatošanas laikā iekļauto pirkšanas pasūtījumu numurus.

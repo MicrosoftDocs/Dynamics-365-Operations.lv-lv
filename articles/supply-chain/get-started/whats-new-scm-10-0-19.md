@@ -1,5 +1,5 @@
 ---
-title: Pakalpojuma Dynamics 365 Supply Chain Management 10.0.19. priekšskatījums (2021. gada jūlijs)
+title: Pakalpojuma Dynamics 365 Supply Chain Management 10.0.19. priekšskatījums (2021. gada jūnijs)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961685"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114979"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>Pakalpojuma Dynamics 365 Supply Chain Management 10.0.19. priekšskatījums (2021. gada jūlijs)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Pakalpojuma Dynamics 365 Supply Chain Management 10.0.19. priekšskatījums (2021. gada jūnijs)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ ms.locfileid: "5961685"
 
 - **Laidiena priekšskatījums:** 2021. gada aprīlis
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada jūnijs
-- **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada jūlijs
+- **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada jūnijs
 
 ## <a name="features-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļi
 
-Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Kolonna *Līdzeklis* nodrošina saites uz [izlaišanas plānu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), kur varat redzēt oficiālos izlaišanas datumus katram līdzeklim. Kolonna *Vairāk informācijas* sniedz saites uz saistīto dokumentāciju.
+Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Kolonna *Līdzeklis* nodrošina saites uz [izlaišanas plānu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), kur varat redzēt oficiālos izlaišanas datumus katram līdzeklim. Kolonna *Vairāk informācijas* sniedz detalizētu informāciju un/vai saites uz saistīto dokumentāciju.
 
 Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami.
 
 | Līdzekļu apgabals | Funkcija | Papildinformācija |
 |---|---|---|
-| Krājumi un loģistika | [Kontaktpersonas datu entītijas eksporta optimizācija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Nav pieejams* |
+| Krājumi un loģistika | [Kontaktpersonas datu entītijas eksporta optimizācija](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Iespējojot šo līdzekli, izmaiņas atsauces datos neļaus saistītās kontaktpersonas iekļaut nākamajā inkrementālā eksportā. Atspējojot šo līdzekli, izmaiņas atsauces datos ļaus saistītās kontaktpersonas iekļaut nākamajā inkrementālā eksportā. |
 | Krājumi un loģistika | [Inkrementāli uzlabojumi noliktavas izpildes iespējām ar apjoma vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Ziņojumu apstrādātāja ziņojumi](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Noliktavas krājumu korekcija](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Krājumi un loģistika | [Uzmeklēšanas funkcionalitāte dokumenta ievada un dokumenta noslēgšanas laukiem pārdošanas piedāvājuma lapā](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Nav pieejams* |
+| Krājumi un loģistika | [Uzmeklēšanas funkcionalitāte dokumenta ievada un dokumenta noslēgšanas laukiem pārdošanas piedāvājuma lapā](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Šis līdzeklis pievieno uzmeklēšanas funkcionalitāti **Dokumenta ievada** un **Dokumenta noslēgšanas** laukiem **Pārdošanas piedāvājuma** lapā.<br><br>Šis līdzeklis ir iespējots pēc noklusējuma. |
 | Krājumi un loģistika | [Noliktavas izpilde ar pielāgotas aparatūras malas skalas vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Izvietot malas skalas vienības pielāgotajā aparatūrā, izmantojot LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Ražošana | [Ražošanas izpilde ar pielāgotas aparatūras malas skalas vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Izvietot malas skalas vienības pielāgotajā aparatūrā, izmantojot LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Ražošana | [Ražošanas izpilde ar pielāgotas aparatūras malas skalas vienībām](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Malas mēroga vienību izvietošana pielāgotajā aparatūrā, izmantojot LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Plānošana | [Bezgalīga noslodzes plānošana plānošanas optimizācijai](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Šis līdzeklis iespējo noslodzes plānošanu ar neierobežotai noslodzi Plānošanas optimizācijai. Bez šī līdzekļa plānotie ražošanas pasūtījumi iegūst izpildes laiku no izlaisto preču krājumu izpildes laika neatkarīgi no plānošanas perioda. |
 | Plānošana | Plānoto pasūtījumu apstiprināšana, pamatojoties uz vaicājumu | [Plānoto pasūtījumu apstiprināšana](../master-planning/planning-optimization/planned-order-firming.md) |
 | Preču informācijas pārvaldība | [Variantu ieteikumu lapas uzlabojumi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Iepriekš definētu preces variantu izveide](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Šajā laidienā iekļautie līdzekļa uzlabojumi
+
+Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļu uzlabojumi. Katrs no šiem nodrošina inkrementālu uzlabojumu esošajai funkcijai. Tā kā tie ir tikai uzlabojumi, tie nav uzskaitīti [izlaišanas plānā](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Tomēr, lai nodrošinātu, ka šie uzlabojumi nenonāk pretrunā ar esošajiem pielāgojumiem vai preferencēm, katrs no tiem tiek izslēgts pēc noklusējuma (ja vien nav norādīts citādi). Ja vēlaties izmantot kādu no šiem līdzekļiem, tos ir skaidri jāiespējo [Līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Līdzekļu apgabals | Līdzekļa&nbsp;nosaukums&nbsp;līdzekļu&nbsp;pārvaldībā | Papildinformācija |
+|---|---|---|
+| Pārdošana un mārketings | Pārdošanas vēstures tīrīšanas veiktspējas uzlabojumi | Pārdošanas vēstures tīrīšana var aizņemt ilgu laiku, ja retos gadījumos tiek palaista vidēs ar augstu pārdošanas atjauninājumu daudzumu. Lai samazinātu ilgumu un uzlabotu uzticamību, šis līdzeklis sadala tīrīšanu partijās, kas tiek palaistas uz ierobežotu laiku. Ja iespējams, datu bāzes iespējas tiks līdzsvarotas, lai samazinātu bloķēšanu un izvairītos no darbību tabulu pievienošanas tīrīšanas laikā. |
+| Pārdošana un mārketings | Atjaunināt pieprasīto saņemšanas datumu ar starpuzņēmumu pasūtījumu apstiprināto datumu | Šī funkcija ļauj kontrolēt, kas notiks ar pārdošanas un pirkšanas datuma lauka vērtībām, izmantojot starpuzņēmumu tiešo piegādi. Varat izvēlēties, vai sistēma atjauninās pieprasītos datumus vai izlaidīs to atjaunināšanu. Ja izlaižat atjaunināšanu, pieprasītie datumi atainos debitora pieprasīto informāciju. Ja iespējojat atjaunināšanu, pieprasītie datumi (izmantojot piegādes datuma kontroli) sākotnēji parāda, ko debitors pieprasa. Piegādes datuma kontrole, ja tā atšķiras no *Neviena*, ignorēs sākotnējo pieprasīto informāciju. Šo opciju var iestatīt, izmantojot jauno iestatījumu **Atjaunināt pieprasīto rēķina datumu ar apstiprinātu datumu** starpuzņēmumu kreditora vai debitora iestatījumos.<br><br>Ja līdzeklis ir deaktivizēts, sistēma pārrakstīs pieprasīto rēķina datumu sākotnējos pārdošanas pasūtījumos, pamatojoties uz piegādes datuma kontroles nosacījumiem, bet pieprasītais nosūtīšanas datums paliks tāds pats. |
+| Noliktavas vadība | Pēc izlaišanas uz noliktavu daudzumus noapaļot līdz tuvākajai pārdošanas vienībai | Šī funkcija pievieno opciju, kas var ierobežot pasūtījuma daudzumu, kad tiek izlaista nosūtīšana uz noliktavu. Ja aktivizēta, pasūtījuma daudzumi tiek noapaļoti uz leju līdz tuvākajai veselai pārdošanas vienībai, un pasūtījumi, kuros iekļauti daudzumi mazāk nekā vienai pārdošanas vienībai, tiks noraidīti izlaišanai. |
+| Noliktavas vadība | Organizācijas mēroga kopuma metode “Ieplānot darba izveidi” | *Plānošanas darba izveides* kopuma metode tiks konfigurēta tā, lai tā darbotos paralēli visām juridiskajām personām. Tiks ietekmēti arī vairāki papildu iestatījumi. Lai iegūtu pilnu informāciju, skatiet [Darba izveides plānošana kopuma laikā](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Jauni un atjaunināti dokumentācijas resursi
 
@@ -62,7 +74,7 @@ Nesen ir pievienotas vai ievērojami atjauninātas tālāk norādītās palīdz�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformas atjauninājumi Finance and Operations programmām
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.19 (2021. gada jūlijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 ietver platformas atjauninājumus. Lai iegūtu papildinformāciju, skatiet [Platformas atjauninājumi Finance and Operations programmu versijai 10.0.19 (2021. gada jūnijs)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Kļūdu labojumi
 

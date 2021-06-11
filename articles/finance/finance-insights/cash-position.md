@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811391"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123394"
 ---
 # <a name="cash-position-preview"></a>Skaidras naudas pozīcija (priekšskatījums)
 
@@ -31,7 +31,7 @@ Skaidras naudas pozīcija ir skaidras naudas plūsmas prognoze tuvākajam termi�
 
 Kad sistēma prognozē debitoru maksājumus, tā izmanto maksājuma prognozes no debitora maksājumu prognozēšanas līdzekļa. Bez maksājumu prognozēm, vidējais laiks, kas nepieciešams, lai pārveidotu debitora rēķinu maksājumam katram debitoram, tiek izmantots maksājuma datuma aprēķināšanai. Atvērtajiem debitora pasūtījumiem sistēma aprēķina rēķina datumu, izmantojot vidējo dienu skaitu pasūtījuma rindām katram debitoram, kam tiks izrakstīts rēķins. Pēc tam tā izmanto rēķina datumu kā ievadi maksājuma prognozēšanas funkcionalitātei. Debitora maksājumu prognozēšanas funkcionalitāte aprēķina katra rindā esošā pasūtījuma apmaksas datumu. 
 
-<*Nepieciešams teksts no Jareka vai Deiva par to, kā maksājumu prognozes tiek konvertētas uz datumu*> Maksājuma datums nesamaksātajiem rēķiniem ir aptuvens [*plānots*] no maksājuma prognozēm, izvēloties datumu, kas atbilst piecdesmit procentilēm no kumulatīvās sadales funkcijas, kas iegūta no prognozētā groza iespējamības.
+Maksājuma datums nesamaksātajiem rēķiniem ir plānots no maksājuma prognozēm, izvēloties datumu, kas atbilst piecdesmit procentilēm no kumulatīvās sadales funkcijas, kas iegūta no prognozētā groza iespējamības.
 
 Līdzīgu pieeja tiek izmantota, lai prognozētu maksājumus kreditoriem. Katram kreditoram sistēma aprēķina vidējo laiku, kas nepieciešams, lai pārvērstu kreditora rēķinu par maksājumu. Šis dienu skaitu tad arī tiek izmantots, lai aprēķinātu maksāšanas datumu. Atvērtajiem kreditoru pasūtījumiem sistēma aprēķina rēķina datumu, ņemot vērā vidējo dienu skaitu, kas nepieciešams, lai pārvērstu pasūtījuma rindas par rēķinu katram kreditoram. Pēc tam sistēma aprēķina maksājuma datumu, izmantojot vidējo laiku, kas nepieciešams, lai pārvērstu kreditora rēķinu par maksājumu katram kreditoram.
 
