@@ -12,9 +12,9 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Jaunumi un izmaiņas Platform atjauninājumos
               items:
-                - name: "Jaunumi un izmaiņas Platform atjauninājumos\_— sākumlapa"
+                - name: Jaunumi un izmaiņas Platform atjauninājumu sākumlapā
                   href: get-started/whats-new-home-page.md
-                - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada jūlijs)"
+                - name: "Platform atjauninājumi versijai\_10.0.20 (2021.\_gada augusts)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "Platform atjauninājumi versijai\_10.0.19 (2021.\_gada jūnijs)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,12 +850,10 @@
               items:
                 - name: 'Darbību izsekošana, izmantojot Trace Parser'
                   href: perf-test/trace-trace-tutorial.md
-                - name: "Testēšana viena lietotāja režīmā, izmantojot rīku Uzdevuma reģistrētājs un veiktspējas\_SDK"
+                - name: "Testēšana viena lietotāja režīmā, izmantojot veiktspējas\_SDK un uzdevuma reģistrētāju"
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: "Veiktspējas\_SDK testēšana vairāku lietotāju režīmā, izmantojot lokālo testēšanas kontrolleri"
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: "Testēšana vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK un Azure DevOps"
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: "Testēšana vairāku lietotāju režīmā, izmantojot veiktspējas\_SDK"
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: "Problēmu novēršanas ceļvedis testēšanai, izmantojot veiktspējas\_SDK"
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Veiktspējas SDK un vairāklietotāju testēšana lokālās vidēs
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Pakešuzdevumu izveide
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Pakešuzdevumu automātisko atkārtoto mēģinājumu iespējošana
+                  href: sysadmin/retryable-batch.md
                 - name: Pakešuzdevuma kopēšana
                   href: sysadmin/copy-batch-job.md
                 - name: Aktīvie pakešuzdevumu periodi
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: "AX 2012 jaunināšana\_— Datu jaunināšanas kontrolsaraksts pirmsjaunināšanai"
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs, izmantojot DACPAC procesu"
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Jaunināšana no AX 2012 — SQL darbību replicēšana
                   href: database/replication-setup.md
-                - name: "AX 2012 jaunināšana\_— Datu jaunināšana smilškastes vidēs"
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: "Jaunināšana no AX 2012\_— Datu jaunināšana pašapkalpošanās vidēs"
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: "AX 2012 jaunināšana\_— Lokālas vides"
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: "AX 2012 jaunināšana\_— Pārslēgšanas testēšana"

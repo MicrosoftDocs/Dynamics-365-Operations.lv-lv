@@ -72,7 +72,7 @@
                   items:
                     - name: Jaunumi un izmaiņas programmas Supply Chain Management sākumlapā
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management 10.0.20 (2021.\_gada jūlijs)"
+                    - name: "Supply Chain Management 10.0.20 (2021.\_gada augusts)"
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: "Supply Chain Management 10.0.19 (2021.\_gada jūnijs)"
                       href: get-started/whats-new-scm-10-0-19.md
@@ -220,9 +220,11 @@
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
                     - name: "Regulatory configuration service\_— globalizācijas līdzekļi"
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory configuration service un to augšupielāde globālajā repozitorijā
+                    - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory Configuration Service un to augšupielāde globālajā repozitorijā
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektroniskā rēķinu izrakstīšana
+                    - name: "Regulatory Configuration Service\_— Lifecycle Services krātuves atbalsta pārtraukšana"
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Elektronisko rēķinu izrakstīšana
                   items:
                     - name: Elektronisko rēķinu izveides pārskats
                       href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -234,6 +236,8 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Azure krātuves konta un Key Vault izveide
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Lietojuma pārvaldības informācijas panelis
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Darba sākšana
                       items:
                         - name: Darba sākšana ar elektroniskās rēķinu izveides pakalpojuma administrēšanu
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Drukājamu brīvā teksta rēķina (FTI) veidlapu ģenerēšana
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: "Elektronisko pārskatu\_formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas"
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Efektīvu elektronisko pārskatu risinājumu izstrāde
+                  items:
+                    - name: "Elektronisko pārskatu\_formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas"
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Veiktspējas problēmu novēršana elektronisko pārskatu konfigurācijās
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Biznesa dokumentu pārvaldība (BDM)
                   items:
                     - name: BDM pārskats
@@ -1675,30 +1683,38 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Sadarbība ar iekšējās piegādes ķēdes debitoriem
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: Pieprasījuma prognozēšana
+            - name: Budžeta veidošana
               items:
-                - name: Pārskats par pieprasījuma prognozēšanu
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: Pieprasījuma prognozēšanas iestatīšana
-                  href: master-planning/demand-forecasting-setup.md
-                - name: Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
-                  href: master-planning/import-historical-data.md
-                - name: Statistiskās bāzlīnijas prognozes ģenerēšana
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: Veikt manuālas korekcijas bāzlīnijas prognozē
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: Autorizēt koriģēto pieprasījuma apjoma prognozi
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: Prognozes precizitātes pārraudzība
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: 'Novirzes punktu noņemšana no vēsturiskiem transakciju datiem, aprēķinot pieprasījuma apjoma prognozi'
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: Samazināšanas principi
-                  href: master-planning/reduction-keys.md
-                - name: Bāzlīnijas prognozes izveide
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: Pieprasījuma apjoma prognozes manuāla modificēšana
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Pieprasījuma un piedāvājuma prognozēšana
+                  items:
+                    - name: Krājumu prognozes
+                      href: master-planning/inventory-forecast.md
+                    - name: 'Ceļvedis: pieprasījuma apjoma prognozes manuāla modificēšana'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Pieprasījuma prognozēšana
+                  items:
+                    - name: Pārskats par pieprasījuma prognozēšanu
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: Pieprasījuma prognozēšanas iestatīšana
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: Statistiskās bāzlīnijas prognozes ģenerēšana
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: Veikt manuālas korekcijas bāzlīnijas prognozē
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: Autorizēt koriģēto pieprasījuma apjoma prognozi
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
+                      href: master-planning/import-historical-data.md
+                    - name: 'Novirzes punktu noņemšana no vēsturiskiem darbību datiem, aprēķinot pieprasījuma apjoma prognozi'
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: Prognozes precizitātes pārraudzība
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'Ceļvedis: bāzlīnijas prognozes izveide'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: Vispārējā plānošana ar prognozi
+                  items:
+                    - name: Prognozes samazināšanas principi
+                      href: master-planning/reduction-keys.md
             - name: Vispārējās plānošanas problēmu novēršana
               href: master-planning/troubleshoot-masterplanning.md
         - name: Mobilā programma
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Pārdošana un mārketings
               items:
+                - name: 'Atceļot pārdošanas pasūtījumu, daudzumu nevar samazināt'
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: 'Sistēmas administratori nevar notīrīt pasūtījumu aizturēšanas, jo nav autorizēti'
                   href: troubleshooting/sales/system-administrator.md
             - name: Transportēšanas pārvaldība
