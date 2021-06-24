@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814588"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188153"
 ---
 # <a name="production-process-overview"></a>Pārskats par ražošanas procesu
 
@@ -74,8 +74,7 @@ Tālāk norādītās ražošanas dzīves cikla darbības var tikt veiktas visiem
 12. **Perioda slēgšana** — dažiem izmaksu uzskaites principiem, piemēram, periodiskā vidējā, atgriezeniskās norakstīšanas, FIFO vai LIFO principam, ir nepieciešamas periodiskas krājumu vai finanšu perioda slēgšanas aktivitātes. Parasti pirms periodu slēgšanas sistēmā tiek mēģināts ziņot par visu materiālu un resursu patēriņu, kā arī krājumu un brāķu labojumiem. Šī ziņošana parasti tiek veikta, izmantojot krājumu kustības žurnālus vai korekciju žurnālus. Mērķis ir novērtēt pārvaldības struktūrvienības ekonomisko sniegumu konkrētā periodā. Dažos gadījumos, kad tiek izmantoti ilgstoši ražošanas pasūtījumi, kas aptver vairākus finanšu pārskata periodus, par ražošanas norisi un resursu patēriņu līdz perioda beigām tiek ziņots, izmantojot ražošanas žurnālus.
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Ražošanas atsauksmes](production-feedback.md)
 

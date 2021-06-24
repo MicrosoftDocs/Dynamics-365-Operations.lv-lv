@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897288"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187798"
 ---
 # <a name="view-financial-reports"></a>Finanšu pārskatu skatīšana
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897288"
 
 Šajā tēmā ir aprakstīts, kā skatīt un izpētīt finanšu pārskatus. Tas ietver informāciju par dažādām opcijām, kuras varat lietot finanšu atskaitēm, lai mainītu to izskatu un tajās ietvertos datus.
 
-<a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
-----------------------------
+## <a name="financial-reporting-overview"></a>Finanšu atskaišu veidošanas apskats
 
 ## <a name="open-a-financial-report"></a>Finanšu pārskata atvēršana
 Lai atvērtu pārskatu, atlasiet pārskata nosaukumu. Kad pārskatu atverat pirmo reizi, tas tiek automātiski ģenerēts par iepriekšējo mēnesi. Piemēram, ja atskaiti pirmo reizi atverat 2015. gada augustā, šī atskaite tiek ģenerēta par 2015. gada 31. jūliju. Pēc atskaites atvēršanas varat sākt to pētīt, detalizējot konkrētus datus un mainot atskaites opcijas.
@@ -76,8 +75,7 @@ Kad esat pabeidzis iestatīt drukas opcijas, noklikšķiniet uz **Drukāt**, lai
 ## <a name="export-a-financial-report"></a>Finanšu pārskata eksportēšana
 Lai eksportētu finanšu pārskatu, darbību rūti noklikšķiniet uz **Eksportēt**. Pārskats tiks eksportēts programmā Microsoft Excel, un pārlūkprogrammā tiks parādīts aicinājums atvērt vai saglabāt eksportēto failu. Eksporta iestatījumi, kas tiek definēti pārskata noformējumā, tiek lietoti eksportētajam pārskatam.    
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošana](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

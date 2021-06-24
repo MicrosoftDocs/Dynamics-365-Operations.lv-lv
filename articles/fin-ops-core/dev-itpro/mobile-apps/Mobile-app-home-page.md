@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908236"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188414"
 ---
 # <a name="mobile-app-home-page"></a>Mobilās programmas mājas lapa
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908236"
 
 Šajā tēmā ir aprakstīta **Finance and Operations (Dynamics 365)** mobilā programma un ir sniegtas saites uz resursiem, kas var palīdzēt to ieviest organizācijā.
 
-<a name="overview"></a>Kopsavilkums
---------
+## <a name="overview"></a>Kopsavilkums
 
 Šī mobilā programma jūsu organizācijai sniedz iespējas savus uzņēmējdarbības procesus padarīt pieejamus mobilajās ierīcēs. Kad IT administrators jūsu organizācijai ir iespējojis mobilās darbvietas, lietotāji var pierakstīties programmā un nekavējoties sākt biznesa procesu izpildi no savām mobilajām ierīcēm. Šī mobilā programma ietver tālāk norādītos līdzekļus, kas var palīdzēt uzlabot produktivitāti.
 

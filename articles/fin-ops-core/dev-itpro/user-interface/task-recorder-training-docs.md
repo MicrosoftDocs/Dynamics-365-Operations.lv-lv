@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744167"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188079"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentācijas vai apmācības izveide ar uzdevuma reģistrētāju
 
@@ -31,8 +31,7 @@ ms.locfileid: "5744167"
 > [!IMPORTANT]
 > Varat ierakstīt savus uzdevumu ceļvežus programmatūrai Dynamics 365 Human Resources, bet pašlaik tos nevar saglabāt Biznesa procesu modelētāja (BPM) bibliotēkā vai atvērt no palīdzības rūts. Varat tos saglabāt lokāli vai kaut kur tīklā, un pēc tam tos atvērt un vēlreiz atskaņot, izmantojot līdzekli Uzdevumu ierakstītājs. 
 
-<a name="learn-about-task-recorder"></a>Uzdevumu ierakstītāja iepazīšana
--------------------------
+## <a name="learn-about-task-recorder"></a>Uzdevumu ierakstītāja iepazīšana
 
 Uzdevuma reģistrētājs ir rīks, ko varat lietot, lai reģistrētu darbības, kuras veicat preces lietotāja interfeisā (UI). Kad izmantojat uzdevuma reģistrētāju, tiek reģistrēti visi notikumi, ko veicat lietotāja interfeisā un kas tiek izpildīti attiecībā pret serveri — tostarp vērtību pievienošana, iestatījumu mainīšana, datu noņemšana. Ierakstītās darbības kopā tiek sauktas par *uzdevuma ierakstu*. Uzdevumu ierakstus var izmantot daudzos veidos:
 
@@ -111,8 +110,7 @@ Varat lejupielādēt un rediģēt Microsoft uzdevumu ierakstus, lai tos izmantot
 
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Palīdzības sistēma](../../fin-ops/get-started/help-overview.md)
 

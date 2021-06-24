@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841217"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189521"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Kreditoru maksājumi par daļēju summu
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841217"
 
 Reizēm jūs veicat kreditoram maksājumu, kas ir mazāks par rēķinā norādīto summu. Šajā rakstā ir aprakstītas dažādās opcijas, ko darīt šādās situācijās. Jums pieejamās opcijas ir atkarīgas no jūsu biznesa prasībām un konfigurācijas. 
 
-<a name="cash-discount-amounts"></a>Termiņatlaides summas
----------------------
+## <a name="cash-discount-amounts"></a>Termiņatlaides summas
 
 Varat piedāvāt kreditoram termiņatlaidi, ja rēķins tiek apmaksāts pirms apmaksas datuma. Piemēram, ja rēķins tiek apmaksāts 10 dienu laikā, jūs ievadiet rēķinu par summu 100,00, kurā norādīta 2 procentu termiņatlaide. Apmaksas termiņš ir 30 dienas. Ja maksājuma piedāvājumā kā rēķina atlases kritērijs ir izmantota termiņatlaide un ja priekšlikums ir spēkā termiņatlaides datumā vai pirms tā, tad šis rēķins tiek atlasīts apmaksai un maksājums tiek veikts par summu 98,00. Termiņatlaidi var piemērot arī vienreizējam maksājumam, kas ir izveidots manuāli.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837373"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189555"
 ---
 # <a name="warehouse-configuration-overview"></a>Noliktavas konfigurācijas pārskats
 
@@ -109,8 +109,7 @@ Kā liecina nosaukums, novietojuma direktīvas tiek izmantotas, lai darbu transa
 
 Lai varētu vieglāk un ātrāk definēt darbības, kas ir saistītas ar katru novietojuma direktīvas rindu, izmantojiet kādu no iepriekš definētajām stratēģijām. Piemēram, varat izmantot stratēģiju **Tukšs novietojums bez ienākoša darba**, lai noliktavā meklētu brīvus novietojumus, vai izmantot stratēģiju **FEFO partijas rezervēšana** izejošajai pārdošanas izdošanai.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Vietu konfigurēšana noliktavā ar iespējotu WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 

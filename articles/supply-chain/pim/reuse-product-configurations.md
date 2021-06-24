@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812791"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189848"
 ---
 # <a name="reuse-product-configurations"></a>Preču konfigurāciju atkārtota izmantošana
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812791"
 
 Varat norādīt, ka vēlaties automātiski atkārtoti izmantot esošu konfigurāciju kādai precei. Kad lietotājs ir pabeidzis konfigurācijas sesiju, sistēma pārbauda, vai jau pastāv lietotāja atlasēm atbilstoša konfigurācija. Ja tiek atrasta atbilstoša konfigurācija, tad konfigurācijas ID, atbilstošais materiālu komplekts (MK) un maršruts tiek izmantoti atkārtoti.
 
-<a name="requirements-for-reusing-configurations"></a>Prasības konfigurāciju atkārtotai izmantošanai
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>Prasības konfigurāciju atkārtotai izmantošanai
 
 Lai iespējotu konfigurāciju atkārtotu izmantošanu, lapā **Detalizēta informācija par preces konfigurācijas modeli** komponentiem un atribūtiem ir jānorāda tālāk aprakstītā informācija.
 

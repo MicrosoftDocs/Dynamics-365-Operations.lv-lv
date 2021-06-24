@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 289b51c1dcb2a30a09c643d7cc419af0627bd8d8
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897264"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193359"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Mācību katalogs Dynamics 365 Finance administratoriem
 
@@ -58,8 +58,9 @@ Tālāk minētais katalogs ir sakārtots no pamatzināšanām uz noteiktiem dom�
 
 ## <a name="migration-and-upgrade"></a>Migrācija un jaunināšana<a name="migration-and-upgrade"></a>
 
-| Saturs | apraksts  | Formāts | Ilgums    |
+| Saturs | Apraksts  | Formāts | Ilgums    |
 |---------|--------------|--------|-----------|
+| [Atjauniniet Dynamics AX 2012 uz Finance and Operations programmām](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | Uzziniet svarīgākos elementus un labāko praksi, lai veiksmīgi jauninātu Dynamics AX 2012 risinājumu uz Finance and Operations programmām. Sākot ar pirmajiem darbībam, kas veiktas, lai atklātu galvenās arhitektoniskās atšķirības, sāktu darbu ar jaunināšanas procesu, kā arī koda un datu jaunināšanas rīkiem, lai pēc iespējas labāk pārveidotu integrācijas, analīzes un atskaišu veidošanu, pamatojoties uz jaunākajām iespējām. | Brīva režīma, paša kontrolēts tiešsaistes mācību ceļš | 7 stundas |
 | [Finance and Operations: Jaunināšana no 7.x uz 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Lūdzu, pievienojieties mums mūsu nākamajam TechTalk, kuras laikā mēs runāsim arī par jaunināšanas procesu no 7. X uz 8. X . Mēs apspriedīs dažādus scenārijus un darbības, lai veiktu koda un datu jaunināšanu. Tiks pārrunāti arī paplašināšanas pieprasījumu scenāriji un kā tos izmantot atbilstošā gadījumā. | Tīmekļa konferences brīva ierakstīšana | 61 minūtes |
 | [Kā jaunināt uz 7.2 (2017. jūlijs) no 7.0 (RTW)/7.1 (laidiens 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Šajā sesijā tiks izskaidrots, kā atjaunināt sistēmu no Dynamics 365 Finance and Operations lietojumprogrammas v 7.0 (RTW) un v 7.1 (1611) uz v 7.2 (July 2017). Mēs izveidojam nepārprotamu diferenciāciju starp īstiem klientiem un vēl realizācijā esošiem projektiem. | Tīmekļa konferences brīva ierakstīšana | 58 minūtes |
 | [AX2012 uz Dynamics 365 for Operations jauninājumu (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Šī Tech Talk sniegs pārskatu par to, kā atjaunināt kodu un datus no Dynamics AX 2012 uz. Dynamics 365 for Operations | Tīmekļa konferences brīva ierakstīšana | 45 minūtes |

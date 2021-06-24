@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826838"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189788"
 ---
 # <a name="fixed-assets-integration"></a>Pamatlīdzekļu integrācija
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826838"
 
 Pamatlīdzekļus var integrēt ar Virsgrāmatu, krājumu vadību, debitoriem un kreditoriem. Varat arī uzstādīt, lai pamatlīdzekļi integrētos ar pirkšanas pasūtījumiem.
 
-<a name="general-ledger"></a>Virsgrāmata
---------------
+## <a name="general-ledger"></a>Virsgrāmata
 
 Virsgrāmatā visu pamatlīdzekļu vērtība parasti tiek apkopota vairākos galvenajos kontos, kas nepieciešami finanšu pārskatiem. Taču lapā **Pamatlīdzekļi** varat izveidot daudzus pamatlīdzekļu ierakstus. Šie ieraksti var ietvert tādu informāciju kā pirkšanas cena, nolietojums un vērtējums. Katru reizi grāmatojot pamatlīdzekļa darbību, tiek atjaunināti attiecīgie galvenie konti. Pamatlīdzekļu galvenie konti vienmēr rāda atjauninātu pamatlīdzekļu vērtību.
 

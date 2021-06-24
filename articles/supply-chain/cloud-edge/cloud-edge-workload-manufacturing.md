@@ -1,5 +1,5 @@
 ---
-title: Ražošanas izpildes darba slodzes mākoņas un malas mēroga vienībām
+title: Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 description: Šajā tēmā aprakstīts, kā ražošanas izpildes darba slodzes darbojas ar mākoņa un malas mēroga vienībām.
 author: cabeln
 ms.date: 10/06/2020
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899099"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184000"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Ražošanas izpildes darba slodzes mākoņa un malas mēroga vienībām
 
@@ -65,13 +65,14 @@ Kad ražošanas pasūtījums tiek izlaists centrmezglā, visi dati, kas nepiecie
 
 Tālāk norādītos ražošanas izpildes uzdevumus pašlaik var palaist darba noslodzēm, kad tiek izmantotas mēroga vienības:
 
-- Ierašanās, pieteikšanās, ierašanās un kavējums
+- Ierašanās, pieteikšanās, aiziešana un kavējums
 - Sākt darbu
 - Komplekta darbi
 - Pārskata norise
 - Ziņot par lūžņiem
 - Netiešā aktivitāte
 - Pārtraukums
+- Reģistrēt pabeigšanu un izvietot (nepieciešams, lai tiktu palaista arī noliktavas izpildes darba slodze jūsu mēroga vienībai, skatiet arī [Reģistrēt pabeigšanu un izvietot mēroga vienībā](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Darbs ar ražošanas izpildes darba slodzēm centrmezglā
 
@@ -108,6 +109,26 @@ Lai pārskatītu to ražošanas darbu vēsturi, kas ir apstrādāti mēroga vien
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Ražošanas centrmezgls mēroga vienības ziņojuma procesora darbām
 
 Darbs _Ražošanas centrmezgls mēroga vienības ziņojuma procesoram_ apstrādā datus no centrmezgla uz mēroga vienību. Šis darbs tiek automātiski sākts, kad tiek izvietota ražošanas izpildes darba slodze. Tomēr to var palaist manuāli jebkurā laikā, pārejot uz **Ražošanas kontrole \> Periodiskie uzdevumi \> Biroja darba slodzes pārvadība \> Ražošanas centrmezgls mēroga vienības ziņojuma procesoram**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Reģistrēt pabeigšanu un izvietot mēroga vienībā
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Pašreizējā laidienā, reģistrējot pabeigšanu un izvietošanas operācijas, (pabeigtajām precēm, līdzproduktiem un blakusproduktiem) tiek atbalstītas [noliktavas izpildes darba slodzes](cloud-edge-workload-warehousing.md) (nevis ražošanas izpildes darba slodzes). Tāpēc, lai izmantotu šo funkcionalitāti, ja ir izveidots savienojums ar mēroga vienību, ir jāveic šādas darbības:
+
+- Instalējiet gan noliktavas izpildes darba noslodzi, gan ražošanas izpildes darba slodzi mēroga vienībai.
+- Izmantojiet mobilo programmu Warehouse Management, lai reģistrētu kā pabeigtu un apstrādātu izvietošanas darbu. Ražošanas izpildes interfeiss pašlaik neatbalsta šos procesus.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814997"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216790"
 ---
 # <a name="intrastat-overview"></a>Intrastat pārskats
 
@@ -73,7 +73,7 @@ Nākamajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatu veidoš
 </tr>
 <tr class="odd">
 <td>Preču kategoriju hierarhija (pārdošanas hierarhija, sagādes hierarhija)</td>
-<td>Piešķiriet Intrastat preču kodus kategoriju mezgliem cilnē <strong>Preču kodi</strong>, lapā <strong>Kategoriju hierarhija</strong>. Kad kādu preču kodu piešķirat pamatkategorijas zaram, šis kods ir attiecināms uz visiem apakškategoriju zariem. Atlasītie preču kodi būs pieejami skatā <strong>Atlasīts</strong>, kad atlasāt preču kodu izlaisto preču detalizētajā informācijā, kā arī pārdošanas pasūtījuma, pirkšanas pasūtījuma un pārsūtīšanas pasūtījuma rindās.</td>
+<td>Piešķiriet Intrastat preču kodus kategoriju mezgliem cilnē <strong>Preču kodi</strong>, lapā <strong>Kategoriju hierarhija</strong>. Kad kādu preču kodu piešķirat pamatkategorijas zaram, šis kods ir attiecināms uz visiem apakškategoriju zariem. Atlasītie preču kodi būs pieejami skatā <strong>Atlasīts</strong>, kad atlasāt preču kodu preču detalizētajā informācijā, kā arī pārdošanas pasūtījuma, pirkšanas pasūtījuma un pārsūtīšanas pasūtījuma rindās.</td>
 </tr>
 <tr class="even">
 <td>Detalizēta informācija par izlaistajām precēm</td>
@@ -84,6 +84,7 @@ Nākamajā tabulā ir uzskaitīti priekšnosacījumi Intrastat pārskatu veidoš
 <li><strong>Izcelsmes valsts/reģions</strong> — atlasiet noklusējuma valsti/reģionu, kur preces tika pilnībā iegūtas vai saražotas.</li>
 <li><strong>Izcelsmes/adresāta novads</strong> — saņemamajām precēm atlasiet mērķa noklusējuma novadu un nosūtāmajam precēm atlasiet izcelsmes noklusējuma novadu.</li>
 <li><strong>Neto svars (kg)</strong></li>
+<li><strong>Izslēgt</strong> - iespējojiet šo parametru, lai darbības ar šo preci netiktu pārsūtītas uz Intrastat</li>
 </ul></td>
 </tr>
 <tr class="odd">

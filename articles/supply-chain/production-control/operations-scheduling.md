@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09a420fcf5bb122b7ffa0c6ef8566efad86db4f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16b05bfe2a8deec365bdccf56ddbb375e9c4becd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817873"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190020"
 ---
 # <a name="operations-scheduling"></a>Operāciju plānošana
 
@@ -74,8 +74,7 @@ Izpildot operāciju plānošanu, var atcelt noteiktas maršruta daļas. Šīs da
 ## <a name="finite-materials"></a>Ierobežoti materiāli
 Ja strādājat ar ierobežotiem materiāliem, plānošana ir atkarīga arī no ražošanai nepieciešamo materiālu pieejamības. Ja nav pietiekami daudz pieejamo sastāvdaļu ražošanai, tā var aizkavēties. Varat balstīt plānošanu uz materiālu izmantošanu, norādot materiālus, kuriem ir jābūt pieejamiem ražošanai. Optimizējot pēc resursu noslodzes un materiālu pieejamības, ražošana tiek aprēķināta saskaņā ar šiem ierobežojumiem. Ražošanas pasūtījuma sākumu nevar plānot, kamēr noslodze un materiāli nav pieejami tajā pašā laikā un nepieciešamajā daudzumā.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Operāciju plānošanas opcijas](operation-scheduling-options.md)
 

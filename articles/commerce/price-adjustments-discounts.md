@@ -2,7 +2,7 @@
 title: Cenu korekcijas un atlaides
 description: Šajā rakstā ir sniegta informācija par cenu korekcijām un atlaidēm programmā Dynamics 365 Commerce.
 author: scott-tucker
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2d3e8025c5ab28296713634094694156f9addf62
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
+ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802795"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6240946"
 ---
 # <a name="price-adjustments-and-discounts"></a>Cenu korekcijas un atlaides
 
@@ -48,6 +48,13 @@ Ir pieejami daudz atlaižu veidi:
 - **Nosūtīšanas atlaide** – atlaide, kas tiek piemērota, kad darbības kopsumma ir lielāka par norādīto summu un pasūtījumā tiek izmantots noteikts piegādes veids (piemēram, divu dienu piegāde vai nakts piegāde).
 
 Gan cenu korekcijas, gan atlaides var saistīt ar cenu grupām. Pēc tam cenu grupas var saistīt ar kanāliem, kategorijām, piederībām un lojalitātes programmām.
+
+> [!NOTE]
+> Komplekta atlaidei un sliekšņa atlaidei ir rekvizīti ar nosaukumu “Saskaitīt preces, kam nevar piemērot atlaidi” un “Saskaitīt preces, kam nevar piemērot atlaidi, sasniedzot sliekšņa atlaidi”. Ja šie rekvizīti ir iespējoti, krājums, kas nav piemērots nevienai atlaidei, joprojām var palīdzēt kvalificēt transakciju atlaides saņemšanai, tomēr neatbilstošais krājums atlaidi nesaņems. 
+> 
+> Piemēram, ja tiek izveidota komplekta atlaide ar divām rindām, A un B, kur debitoram vajadzētu iegūt 10% atlaidi abiem krājumiem, bet krājumam A ir atzīmēta konfigurācija “Liegt visas atlaides”, tad krājums A šajā gadījumā netiktu iekļauts atlaidē. Tomēr, ja ir iespējots rekvizīts “Saskaitīt preces, kam nevar piemērot atlaidi”, tad A krājumu var izmantot, lai kvalificētos komplekta atlaidei, bet 10% atlaide tiks piemērota tikai krājumam B. Līdzīga loģika attiecas uz sliekšņa atlaidi. 
+>
+> Tomēr rekvizītam “Saskaitīt preces, kam nevar piemērot atlaidi, sasniedzot sliekšņa atlaidi” ir vairāk iespēju, salīdzinot ar komplekta atlaižu rekvizītu “Saskaitīt preces, kam nevar piemērot atlaidi”. Ja ir iespējota sliekšņa atlaide un ja ir krājums ar jau esošu atlaidi, kas liegtu krājumam iegūt citas atlaides, tad par šo krājumu samaksātā cena kvalificēsies sliekšņa atlaidei, bet šim krājumam netiks piemērota papildu atlaide.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

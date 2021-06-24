@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837133"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190313"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredītkartes iestatīšana, autorizācija un nolasīšana
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837133"
 
 Šajā rakstā ir sniegts apskats par kredītkartes autorizāciju programmā Microsoft Dynamics 365 Finance. Šeit ir iekļauta arī informācija par to, kā iestatīt maksājumu pakalpojumu, pievienot kredītkarti pārdošanas pasūtījumam un anulēt autorizāciju.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Kredītkartes maksājumu pakalpojuma iestatīšana
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Kredītkartes maksājumu pakalpojuma iestatīšana
 
 Lai izmantotu kredītkartes, ir jāiestata un jāaktivizē maksājumu pakalpojums lapā Maksājumu pakalpojumi. Maksājumu pakalpojums nodrošina starpniecību starp jūsu juridisko personu un banku, kas apstrādā debitora maksājumus ar kredītkarti. Jums ir jāsadarbojas ar kredītkartes nodrošinātāju, kas ir norādīts laukā Maksājumu savienotājs, un jāiestata šī nodrošinātāja konts. Pēc tam jums ir jāiesta citas opcijas lapā Maksājumu pakalpojumi, jāiestata kredītkaršu veidi American Express, Discover, MasterCard un Discover lapā Kredītkaršu veidi un jāaktivizē maksājuma nodrošinātājs kā noklusējuma nodrošinātājs. Lai pabeigtu iestatīšanu, ir jāveic arī tālāk norādītās darbības.
 -   Lapā Debitoru parādu parametri norādiet kredītkaršu autorizācijas izmantošanas parametrus.
@@ -39,13 +38,11 @@ Lai izmantotu kredītkartes, ir jāiestata un jāaktivizē maksājumu pakalpojum
 ## <a name="adding-a-new-credit-card"></a>Jaunas kredītkartes pievienošana
 Varat izveidot jaunus kredītkaršu ierakstus lapā Debitori izmantojot opcijas Debitors, Iestatīt, Kredītkarte. Varat arī izveidot kredītkaršu ierakstus, kad ievadāt pārdošanas pasūtījumus lapā Pārdošanas pasūtījums, izmantojot opcijas Pārvaldīt, Debitors, Kredītkarte, Reģistrēt.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Kredītkartes pievienošana pārdošanas pasūtījumam
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Kredītkartes pievienošana pārdošanas pasūtījumam
 
 Varat pievienot kredītkarti pārdošanas pasūtījumam, atlasot kredītkarti kredītkartes uzmeklēšanas laukā lapas Pārdošanas pasūtījums kopsavilkuma cilnē Debitora kredītkartes. Lai sāktu autorizācijas procesu, cilnes Pārvaldīt darbību rūtī atlasiet opcijas Kredītkarte un Autorizēt.
 
-<a name="authorizing-a-credit-card"></a>Kredītkartes autorizācija
--------------------------
+## <a name="authorizing-a-credit-card"></a>Kredītkartes autorizācija
 
 Autorizējot kredītkarti, tiek pārbaudīts kartes numurs un kartes īpašnieka vārds un tiek apstiprināta pieejamā kredīta bilance. Pēc izvēles tiek pārbaudīta kartes verificēšanas vērtība un kartes īpašnieka adrese. Pēc tam debitora pieejamā kredīta bilance tiek samazināta par rēķina summu. Maksājumu pakalpojums nosūta informāciju par to, ka kredītkarte ir apstiprināta vai noraidīta. Kad pārdošanas pasūtījums tiek iekļauts rēķinā, no kredītkartes konta tiek iekasēta (nolasīta) rēķina summa.
 

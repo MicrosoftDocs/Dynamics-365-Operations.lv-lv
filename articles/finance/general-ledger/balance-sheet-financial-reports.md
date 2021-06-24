@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821941"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189025"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilances finanšu pārskati
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821941"
 
 Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm. Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki. 
 
-<a name="default-balance-sheet-reports"></a>Noklusējuma bilances pārskati
------------------------------
+## <a name="default-balance-sheet-reports"></a>Noklusējuma bilances pārskati
 
 Ir divi noklusējuma bilances pārskati. Vienā pārskatā sadaļas ir izvietotas secīgi. Otrā pārskatā sadaļas atrodas blakus.
 
@@ -68,8 +67,7 @@ Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņ
 
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Finanšu pārskatu veidošanas apskats](financial-reporting-getting-started.md)
 

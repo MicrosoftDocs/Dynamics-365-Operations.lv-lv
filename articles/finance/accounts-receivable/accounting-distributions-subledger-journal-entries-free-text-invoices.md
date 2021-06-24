@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837181"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188762"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Uzskaites sadales un apakšgrāmatas ieraksti brīva teksta rēķiniem
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837181"
 
 Uzskaites sadales tiek izmantotas, lai definētu, kā summa tiek uzskaitīta, piemēram, kā ieņēmumi, nodokļi vai izmaksas tiek uzskaitīti brīva teksta rēķinā. Katrai summai, kas ir jānorāda brīva teksta rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales.
 
-<a name="accounting-distributions"></a>Uzskaites sadales
-------------------------
+## <a name="accounting-distributions"></a>Uzskaites sadales
 
 Brīva teksta rēķina lapā varat izmantot tālāk aprakstītās pogas, lai brīva teksta rēķinā skatītu un, iespējams, mainītu katras summas uzskaites sadales.
 

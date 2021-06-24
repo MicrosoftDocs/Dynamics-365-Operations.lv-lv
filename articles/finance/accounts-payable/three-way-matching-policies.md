@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027798"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189182"
 ---
 # <a name="three-way-matching-policies"></a>Trīsvirzienu atbilstības ierobežojumi
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027798"
 
 Šajā tēmā ir sniegti trīsvirzienu atbilstības piemēri.
 
-<a name="example-three-way-matching-for-items"></a>Piemērs: krājumu trīsvirzienu atbilstība
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Piemērs: krājumu trīsvirzienu atbilstība
 
 **Kopsavilkums.** Kens ir kontrolieris juridiskas personas Fabrikam galvenajā birojā. Kens izlemj, ka visiem kreditora rēķiniem, kuru pamatā ir pirkšanas pasūtījumi, ir jānosaka atbilstība pirkšanas pasūtījumu rindām (divvirzienu atbilstība). Tādu krājumu pirkumu rēķiniem, kas tiks izmantoti kā pamatlīdzekļi, ir jānosaka atbilstība gan pirkšanas pasūtījumu rindām, gan produktu ieejas plūsmas dokumenta rindām (trīsvirzienu atbilstība).
 

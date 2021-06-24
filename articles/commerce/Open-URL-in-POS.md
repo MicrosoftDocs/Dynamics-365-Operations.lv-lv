@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 252b24919e4c22233ee8fe7e94c9bc6bbf60dacd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 43f28d9b7acb05a83544b04f6786dfe91f2d9f18
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796466"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193207"
 ---
-# <a name="open-url-in-pos"></a>URL atvēršana POS
+# <a name="open-url-in-pos"></a>URL atvēršana punktā POS
 
 [!include [banner](includes/banner.md)]
 
-Šajā tēmā aprakstīts, kā konfig. pogu sistēmā Retail POS (pārdošanas punkts), lai atvērtu URL. Šim līdzeklim nav nepieciešama koda pielāgošana, un to var konfigurēt persona, kurai nav izstrādātāja lomas. 
+Šajā tēmā aprakstīts, kā konfigurēt pogu pārdošanas punktā (POS) sistēmā Dynamics 365 Commerce, lai atvērtu URL. Šim līdzeklim nav nepieciešama koda pielāgošana, un to var konfigurēt persona, kurai nav izstrādātāja lomas. 
 
 Šis līdzeklis ļauj konfigurēt pogu sistēmā POS, izmantojot pogu režģa veidotāju, lai atvērtu URL. Pašlaik tas tiek atbalstīts šādās konfigurācijās:
 
@@ -46,15 +46,15 @@ Tīm. URL atvērš. ar POS tiek atbalst. tikai progr. Modern POS operētājs. Wi
 
 Šis līdzeklis arī ļauj norādīt ne tīmekļa URL, lai atv. iekš. programmu. Piemēram, varat norādīt tādus URL protokolus kā MailTo, SIP, IM vai MSTEAMS, kurus pēc tam var apstrādāt attiecīgās iekšējās programmas resursierīcē. Lai to iespējotu, ir jākonfigurē URL, atlasot opciju **Atvērt jaunā logā**.
 
-- Windows datoru gadījumā sk. sadaļu [Eksportēt vai importēt noklus. progr. asociācijas](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations), lai iestatītu noklus. protokola asociācijas, ja iestatāt datoru, lietojot Deployment Image Servicing and Management (DISM).
-- Ja lietojat MDM, piem., Intune, lai pārvaldītu Windows datorus, sk. sad. [Polit. CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Ja esat izstrādātājs, kas veido pielāg. tīm. vietni, sk. sad. [Palaist nokl. progr. URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Windows datoru gadījumā sk. sadaļu [Eksportēt vai importēt noklus. progr. asociācijas](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations), lai iestatītu noklus. protokola asociācijas, ja iestatāt datoru, lietojot Deployment Image Servicing and Management (DISM).
+- Ja lietojat MDM, piem., Intune, lai pārvaldītu Windows datorus, sk. sad. [Polit. CSP - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Ja esat izstrādātājs, kas veido pielāg. tīm. vietni, sk. sad. [Palaist nokl. progr. URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Integrēti atv. iekš. progr.
 
 Turklāt operētājsistēmas Windows, iOS un Android nodrošina nemanāmāku programmu atvēršanu, pamatojoties uz programmu protokola saistību. Ja progr. vēl nav konfig., lai veiktu atvēršanu no tīm. pārlūkprogr., var būt vajadzīgs izstrād., lai to konfigurētu.
 
-- Windows — sk. [Iesp. progr. vietnēm, lietojot progr. URI apstrād.](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Windows — sk. [Iesp. progr. vietnēm, lietojot progr. URI apstrād.](/windows/uwp/launch-resume/web-to-app-linking).
 - iOS — sk. [Universālās saites izstrādātājiem](https://developer.apple.com/ios/universal-links/).
 - Informāciju par operētājsistēmu Android skatiet rakstā [Android programmu saišu apstrāde](https://developer.android.com/training/app-links/).
 

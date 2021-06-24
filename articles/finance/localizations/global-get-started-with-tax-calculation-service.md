@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060567"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216723"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Sākt darbu ar Nodokļu aprēķinu (Priekšskatījums)
 
@@ -58,7 +58,7 @@ Pirms varat pabeigt šajā tēmā norādītās procedūras, ir jāievieš šādi
 Šīs sadaļas darbības nav saistītas ar noteiktu juridisko personu. Jums ir jāveic šī procedūra tikai vienu reizi, un jūs variet pabeigt to jebkurā juridiskajā persona programmā RCS.
 
 1. Pierakstieties [RCS](https://marketing.configure.global.dynamics.com/).
-2. Programmā Finance, darbvietā **Elektronisko pārskatu veidošana** pievienojiet jaunu konfigurācijas nodrošinātāju. Kā nodrošinātāja nosaukumu izmantojiet uzņēmuma nosaukumu. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Darbvietā **Elektronisko pārskatu veidošana** pievienojiet jaunu konfigurācijas nodrošinātāju. Kā nodrošinātāja nosaukumu izmantojiet uzņēmuma nosaukumu. Papildinformāciju skatiet [Izveidot konfigurācijas nodrošinātājus un atzīmēt tos kā aktīvus](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Atlasiet tikko izveidoto konfigurācijas nodrošinātāju un pēc tam atlasiet **Iestatīt aktīvu**.
 4. Atlasiet **Microsoft** konfigurācijas nodrošinātāju, un tad atlasiet **Repozitoriji**.
 5. Laukā **Tips** atlasiet **Globāls**.

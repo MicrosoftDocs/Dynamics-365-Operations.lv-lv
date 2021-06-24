@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15155a987094da6047dea9245f543b5ed38e3680
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e8c04275de6405a3f703d8ba9060f49405375de
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814060"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193258"
 ---
 # <a name="allocation-bases"></a>Sadalījuma pamati 
 
@@ -212,7 +212,7 @@ Pēc statistikas mēra avota datu apstrādes modulī Izmaksu uzskaite tiek izvei
 
 **Statistikas ieraksti**
 
-| Izmaksu objekts |    | Uzskaites datums | Statisko dimensiju elements |    Apraksts          | Lielums |
+| Izmaksu objekts | Nosaukums/vārds, uzvārds   | Uzskaites datums | Statisko dimensiju elements |    Apraksts          | Lielums |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | HR | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 2,450.00  |
 | CC002       | FI | 31.01.2017.      | Elektrība                  | Elektroenerģijas patēriņš | 4,100.00  |
@@ -402,9 +402,9 @@ Pirms lauka **Formula** aizpildīšanas ir jānorāda aizstājvārds, kas ir jā
 
 Priekšskatījuma funkcija sniedz iespēju pārbaudīt formulas sadalījuma pamatu, kas ir izveidots, pamatojoties uz statistikas ierakstiem sistēmā.
 
-**Detalizēta informācija par sadalījuma pamatu**
+**Sadalījuma bāzes detalizētā informācija**
 
-| Izmaksu objekts |    | Formula                                                                                                                             | Lielums |
+| Izmaksu objekts |  Nosaukums/vārds, uzvārds  | Formula                                                                                                                             | Lielums |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | CC001       | HR | ((2450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2450,00 – 10 000,00) × 1,15)) + ((2450,00 \<= 10 000,00) × 2450,00 × 0,75)     | 1,837.50  |
 | CC002       | FI | ((4100,00 \> 10 000,00) × ((10 000,00 × 0,75) + (4100,00 – 10 000,00) × 1,15)) + ((4100,00 \<= 10,000,00) × 4100,00 × 0,75)     | 3,075.00  |

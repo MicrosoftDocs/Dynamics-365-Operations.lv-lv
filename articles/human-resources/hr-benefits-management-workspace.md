@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052245"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193435"
 ---
 # <a name="benefits-management-workspace"></a>Atvieglojumu pārvaldības darbvieta
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052245"
 Šajā tēmā ir aprakstīta **Atvieglojumu pārvaldības** darbvieta programmā Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Lai skatītu **Atvieglojumu pārvaldības** darbvietu, Līdzekļa pārvaldībā vispirms ir jāiespējo līdzeklis **(Priekšskatījums) Atvieglojumu pārvaldības** darbvieta. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](../hr-admin-manage-features.md).<br><br>![Atvieglojumu pārvaldības darbvietas iespējošana](./media/hr-benefits-management-workspace-enable.png)
+> Lai skatītu **Atvieglojumu pārvaldības** darbvietu, Līdzekļa pārvaldībā vispirms ir jāiespējo līdzeklis **(Priekšskatījums) Atvieglojumu pārvaldības** darbvieta. Lai iegūtu papildinformāciju par priekšskatījuma līdzekļu iespējošanu, skatiet sadaļu [Līdzekļu pārvaldība](hr-admin-manage-features.md).<br><br>![Atvieglojumu pārvaldības darbvietas iespējošana](./media/hr-benefits-management-workspace-enable.png)
 
 **Atvieglojumu pārvaldības** darbvieta ļauj jums ātri skatīt atvieglojumu krājumus, kam ir nepieciešama jūsu uzmanība. Šajā lapa var redzēt:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dd6b21207b61dfb96e4d9538b5e6ffc1c6b02d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 834dc64ce531fb614bc7836e0def16f27ecf5e18
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835128"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188642"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Periodisko rēķinu iestatīšana un apstrāde
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835128"
 
 Šajā rakstā ir paskaidrots, kā iestatīt un apstrādāt periodiskos rēķinus. Periodiskos rēķinus varat izmantot, ja debitoriem regulāri ir jāizraksta rēķini par tādu pašu summu.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>Periodiska brīva teksta rēķina veidnes izveide
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>Periodiska brīva teksta rēķina veidnes izveide
 
 Lai debitoram regulāri izrakstītu rēķinu par vieniem pakalpojumiem, ir jādefinē brīvā teksta rēķina veidne, ko var atkārtoti izmantot, lai izveidotu rēķinus. Šajā veidnē ir ietverta šāda informācija:
 
@@ -52,13 +51,11 @@ Debitoram var būt vairākas veidnes, kam ir iestatīti dažādi biežumi.
 ## <a name="generate-the-recurring-invoices"></a>Periodisko rēķinu ģenerēšana
 Lapā **Periodiskie rēķini** ir uzdevums, kas apstrādā periodisko rēķinu veidnes. Norādiet rēķina datumu un veidni, kas jāizmanto rēķinu ģenerēšanā. Rēķini tiks ģenerēti, un katrai apstrādājamajai rēķinu grupai tiks piešķirts viens periodiskuma ID numurs.
 
-<a name="post-recurring-free-text-invoices"></a>Periodisko brīva teksta rēķinu grāmatošana
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>Periodisko brīva teksta rēķinu grāmatošana
 
 Pēc tam, kad periodiskie rēķini ir ģenerēti, rēķinu periodiskuma ID parādīsies grāmatošanas uzdevumā lapā **Periodiskie rēķini**. Visus rēķinus ar vienu periodiskuma ID var skatīt, noklikšķinot uz saites. Pārskatot rēķinus ar vienu periodiskuma ID, atsevišķus rēķinus varat dzēst. Debitora periodiskuma iestatījumi tiks atiestatīti šai veidnei, tādējādi vēlāk to var atkārtoti ģenerēt. Vienam periodiskuma ID var grāmatot vienu, vairākus vai visus rēķinus. Ja darbplūsmas ir iespējotas, lai rēķinus grāmatotu, noklikšķiniet uz **Iesniegt**.
 
-<a name="print-recurring-free-text-invoices"></a>Periodisko brīva teksta rēķinu drukāšana
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>Periodisko brīva teksta rēķinu drukāšana
 
 Ja periodiskie rēķini ir iegrāmatoti, rēķinus var drukāt no brīva teksta rēķina saraksta lapas. Varat drukāt atlasītos rēķinus, vai arī varat atlasīt drukāšanai rēķinu diapazonu.
 

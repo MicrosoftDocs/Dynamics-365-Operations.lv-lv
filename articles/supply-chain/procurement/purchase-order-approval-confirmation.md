@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825426"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188296"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkšanas pasūtījumu apstiprināšana un ratificēšana
 
@@ -83,8 +83,7 @@ Lai atceltu visu daudzumu PP rindā, ir jāatceļ sūtījuma atlikuma daudzums r
 
 Ja PP ir izmaiņu vadībā, jebkādas izmaiņas, piemēram, pasūtījuma atcelšana vai piegādes atlikums, ir jāiesniedz darbplūsmas sistēmā un jāapstiprina pirms procesa pabeigšanas, un krājumu transakcijas var atjaunināt kā atceltas.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas pasūtījumu apskats](purchase-order-overview.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825871"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190068"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Svītrkoda skeneru atbalsts Kanban pārsūtīšanas panelī
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825871"
 
 Kanban pārsūtīšanas panelis nodrošina skenera ievadi, izmantojot logrīka svītrkoda skeneri, lai atlasītu, sāktu, pabeigtu un iztukšotu Kanban darbu.
 
-<a name="registration-modes"></a>Reģistrācijas režīmi
-------------------
+## <a name="registration-modes"></a>Reģistrācijas režīmi
 
 Kopsavilkuma cilnē **Skenera reģistrācija** varat atlasīt reģistrācijas režīmu, kas nosaka to, kāda darbība tiek veikta, skenējot Kanban kartes numuru vai manuāli ievadot numuru laukā Kanban kartes numurs.
 
@@ -42,8 +41,7 @@ Kopsavilkuma cilnē **Skenera reģistrācija** varat atlasīt reģistrācijas re
 | Atlasīt                | Tiek reģistrēts Kanban kartes numurs, un Kanban sarakstā tiek automātiski atlasīts atsauces darbs. |
 
  
-<a name="registration-mode-select"></a>Reģistrācijas režīms Atlasīt
-------------------------
+## <a name="registration-mode-select"></a>Reģistrācijas režīms Atlasīt
 
 Ja izmantojat svītrkoda lasītāju, lai atlasītu darbu, tiek mainīts Kanban paneļa rādīšanas režīms. Šajā režīmā ir spēkā šādi nosacījumi:
 

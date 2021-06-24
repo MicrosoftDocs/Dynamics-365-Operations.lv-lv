@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820988"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189097"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Uzskaites sadales un žurnālu ieraksti kreditoru rēķiniem
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820988"
 
 Uzskaites sadales tiek izmantotas, lai definētu veidu, kā summa tiek uzskaitīta, piemēram, kā izdevumi, nodokļi vai izmaksas tiek uzskaitīti kreditora rēķinā. Katrai summai, kas ir jānorāda kreditora rēķina reģistrēšanai žurnālā, ir viena vai vairākas uzskaites sadales. 
 
-<a name="accounting-distributions"></a>Uzskaites sadales 
--------------------------
+## <a name="accounting-distributions"></a>Uzskaites sadales 
 
 Lapā Kreditora rēķins varat izmantot tālāk norādītās pogas, lai skatītu un, iespējams, modificētu katras kreditora rēķinā ietvertās summas uzskaites sadales.
 -   **Sadales summas** — skatiet un mainiet uzskaites sadales atsevišķai rindai un jebkurai apakšrindai, piemēram, nodokļiem un izmaksām. Apakšrindas uzskaites sadales varat arī skatīt un modificēt tieši lapā PVN darbības vai Maksu darbības.
@@ -227,8 +226,7 @@ Ievadot kreditora rēķinu, katra summa tiek sadalīta tālāk aprakstītajā ve
 </table>
 
 
-<a name="distributing-taxes"></a>Nodokļu sadalīšana
-------------------
+## <a name="distributing-taxes"></a>Nodokļu sadalīšana
 
 Nodokļu uzskaites sadales var izveidot tikai pēc nodokļu aprēķināšanas. Lai aprēķinātu PVN, lapā Kreditora rēķins ir jāizpilda viens no tālāk aprakstītajiem uzdevumiem.
 -   Apskatiet rēķina kopsummu.

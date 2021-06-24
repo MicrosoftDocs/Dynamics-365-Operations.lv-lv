@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053663"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193728"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -56,7 +56,7 @@ Lai lietotu LCS un pārvaldītu savas Human Resources vides, vispirms ir jāizve
 1. Pierakstieties pakalpojumā [LCS](https://lcs.dynamics.com/Logon/Index), izmantojot to pašu kontu, ko lietojat Human Resources abonēšanai.
 
    > [!NOTE]
-   > Lai nodrošinātu sekmīgu nodrošināšanu, kontam, kuru izmantojat Human Resources vides nodrošināšanai, ir jābūt piešķirtam vai nu **Sistēmas administratora**, vai **Sistēmas pielāgotāja** lomai Power Apps vidē, kas saistīta ar Human Resources vidi. Skatiet sadaļu [Lietotāja drošības konfigurēšana resursiem](https://docs.microsoft.com/power-platform/admin/database-security), lai iegūtu papildu informāciju par drošības lomu piešķiršanu lietotājiem programmā Power Platform.
+   > Lai nodrošinātu sekmīgu nodrošināšanu, kontam, kuru izmantojat Human Resources vides nodrošināšanai, ir jābūt piešķirtam vai nu **Sistēmas administratora**, vai **Sistēmas pielāgotāja** lomai Power Apps vidē, kas saistīta ar Human Resources vidi. Skatiet sadaļu [Lietotāja drošības konfigurēšana resursiem](/power-platform/admin/database-security), lai iegūtu papildu informāciju par drošības lomu piešķiršanu lietotājiem programmā Power Platform.
 
 2. Atlasiet pluszīmi (**+**), lai izveidotu projektu.
 

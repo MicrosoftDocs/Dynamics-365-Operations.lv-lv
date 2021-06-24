@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814540"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189646"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materiālu patēriņa reģistrēšana, izmantojot mobilo ierīci
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814540"
 
 Šajā tēmā ir aprakstītas darbplūsmas, kas ļauj reģistrēt izejmateriālu patēriņu ražošanas procesā, izmantojot rokas ierīci.
 
-<a name="introduction"></a>Ievads
-------------
+## <a name="introduction"></a>Ievads
 
 Šī darbplūsma ir jāizmanto tad, ja ir obligāti nepieciešams nodrošināt materiālu izsekojamību. Šādos gadījumos, lai uzturētu materiālu izsekojamību, jāziņo par precīzu patēriņam paredzēto laiku un daudzumu. Šo procesu var redzēt pretēji sākotnējām vai atgriezeniskajām norakstīšanas operācijām, ja pastāv nobīde starp reģistrācijas laiku un laiku, kad notiek faktiskais patēriņš. Tas izskaidro, kāpēc automātiskā patēriņa stratēģiju nevar izmantot dažiem materiāliem ar izsekojamības prasībām. Tālāk ir sniegts vienkāršs scenārijs, kurā ir paskaidrots, kā iestatīt darbplūsmu, lai iespējotu izejmateriālu patēriņa reģistrāciju ražošanas vajadzībām, izmantojot rokas ierīci. [![Darbplūsmas iestatīšana, lai iespējotu izejmateriālu patēriņa reģistrēšanu, izmantojot rokas ierīci](./media/scenario3.png)](./media/scenario3.png)
 

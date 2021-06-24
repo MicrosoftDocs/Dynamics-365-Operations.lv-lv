@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960053"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187944"
 ---
 # <a name="budgeting-overview"></a>Budžeta veidošanas pārskats
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960053"
 
 Gandrīz ikvienam uzņēmumam, kas izmanto Microsoft Dynamics 365 Finance funkcionalitāti Finanšu dati, ir jāspēj izveidot budžetā paredzēto un faktisko vērtību salīdzinājuma pārskatus. Šajā rakstā ir paskaidrota minimālā konfigurācija, kas ir nepieciešama, lai Finance and Operations izveidotu budžetus vai tos ielādētu no kādas trešās puses programmas.
 
-<a name="overview"></a>Pārskats
---------
+## <a name="overview"></a>Pārskats
 
 Apstiprinātais budžets juridiskai personai tiek uzturēts dokumentā, kas ir pazīstams kā *budžeta reģistra ieraksts*. Rindas budžeta reģistra ieraksta dokumentā tiek sauktas par *budžeta konta* ierakstiem, un satur informāciju par apstiprinātā budžeta finanšu dimensiju, datumiem un summām. Budžeta reģistra ieraksta dokuments ietver pamata finanšu pārskatus un uzziņu lapas, kur virsgrāmatas faktiskās summas tiek salīdzinātas ar budžetā paredzētajām summām. 
 

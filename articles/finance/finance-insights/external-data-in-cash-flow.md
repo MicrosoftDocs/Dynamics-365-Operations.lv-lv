@@ -2,7 +2,7 @@
 title: Ārējo datu izmantošana naudas plūsmas prognozēs (priekšskatījums)
 description: Šajā tēmā ir aprakstītas iestatīšanas darbības, kas jāveic, lai ārējos datus varētu ievadīt vai importēt naudas plūsmas prognozēs.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897892"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186694"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Ārējo datu izmantošana naudas plūsmas prognozēs (priekšskatījums)
 
@@ -57,9 +57,5 @@ Ja ir jāpārvieto iestatījumu dati no vienas vides uz citu, ir pieejamas šād
 
 - Skaidras naudas plūsmas prognozes ārējā avota iestatīšana
 - Skaidras naudas plūsmas prognozes ārējā avota juridiskās personas iestatīšana
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835008"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188594"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Saskaņot bankas izrakstus, izmantojot detalizēto bankas darbību saskaņošanu
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835008"
 
 Līdzeklis Detalizētā bankas darbību saskaņošana sniedz iespēju importēt elektroniskus bankas izrakstus un tos automātiski saskaņot ar bankas transakcijām programmā Dynamics 365 Finance. Šajā tēmā ir paskaidrots šis saskaņošanas process.  
 
-<a name="import-an-electronic-bank-statement"></a>Importēt elektronisku bankas izrakstu
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Importēt elektronisku bankas izrakstu
 
 Bankas izrakstus varat importēt, izmantojot darbību **Importēt izrakstu** lapā **Bankas izraksti**. Bankas konts tiek identificēts bankas izrakstā, izmantojot bankas konta rekvizītos iestatīto vērtību kombinācijas. Šīs vērtības ietver bankas nosaukumu, bankas konta numuru, maršrutēšanas numuru, Pasaules Starpbanku finanšu telekomunikāciju sabiedrības (Society for Worldwide Interbank Financial Telecommunication — SWIFT) kodu un starptautisko bankas konta numuru (International Bank Account Number — IBAN). 
 

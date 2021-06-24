@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835272"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188690"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA tiešā debeta pārskats
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835272"
 
 Vienoto eiro maksājumu zonu (SEPA) ir izveidojusi Eiropas Komisija un tā nosaka, ka visi elektroniskie maksājumi tiek uzskatīti par iekšzemes maksājumiem neatkarīgi no privātpersonas, uzņēmuma vai organizācijas un bankas atrašanās valsts/reģiona. Starp nacionālajiem un pārrobežu maksājumiem nav nekādas atšķirības. SEPA ietver 28 Eiropas Savienības (ES) dalībvalstis, kā arī Islandi, Lihtenšteinu, Norvēģiju, Šveici, Monako un Sanmarīno. SEPA palīdz veidot vienoto maksājumu transakciju tirgus Eiropas Ekonomikas zonā (EEZ). Visbeidzot, paredzams, ka SEPA samazinās maksājumu formātu skaitu, ar kuru ir jāstrādā bankām, uzņēmumiem un privātpersonām.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Kāds ir SEPA tiešā debeta mērķis?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Kāds ir SEPA tiešā debeta mērķis?
 
 SEPA tiešais debets ļauj kreditoram iekasēt līdzekļus no debitora bankas konta ar nosacījumu, ka šim kreditoram attiecīgais debitors ir piešķīris parakstītu mandātu. Debitors paraksta mandātu, kas kreditoru pilnvaro maksājuma saņemšanai un klienta bankai sniedz norādījumus par iekasējamās summas izmaksāšanu. 
 

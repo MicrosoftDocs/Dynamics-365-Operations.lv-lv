@@ -2,7 +2,7 @@
 title: Nodokļu aprēķins (priekšskatījums)
 description: Šajā tēmā ir izskaidrots nodokļu aprēķina iespēju vispārējais tvērums un iezīmes.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b26472e195d9bdbba340a118c106de1a4dc79b34
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021936"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184105"
 ---
 # <a name="tax-calculation-preview"></a>Nodokļu aprēķins (priekšskatījums)
 
@@ -31,6 +31,9 @@ ms.locfileid: "6021936"
 Nodokļu aprēķins ir hipermērogojams daudznomnieku pakalpojums, kas ļauj Global Tax Engine automatizēt un vienkāršot nodokļu noteikšanas un aprēķināšanas procesu. Nodokļu programma ir pilnībā konfigurējama. Elementi, kurus var konfigurēt, ietver, bet ne tikai, apliekamo datu modeli, nodokļu kodu, nodokļu piemērošanas matricu un nodokļu aprēķina formulu. Nodokļu programma darbojas pamata pakalpojumu platformā un piedāvā modernu tehnoloģiju un Microsoft Azure eksponenciālu mērogošanu.
 
 Nodokļu aprēķins ir integrēts ar Dynamics 365 Finance un Dynamics 365 Supply Chain Management. Visbeidzot tas integrēs arī ar Dynamics 365 Project Operations, Dynamics 365 Commerce un citām pirmās puses un trešās puses programmām.
+
+> [!IMPORTANT]
+> Kad iespējojat nodokļu aprēķināšanas pakalpojumu, atsevišķas operācijas ar saistītajiem datiem var tikt veiktas datu centrā, kurš neuztur jūsu pakalpojuma datus. Pirms iespējojat nodokļu aprēķināšanas pakalpojumu, parskatiet [Noteikumus un nosacījumus](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md). Mums ir svarīga jūsu konfidencialitāte. Lai uzzinātu vairāk, izlasiet mūsu [Paziņojumu par konfidencialitāti](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Nodokļu aprēķins ir uz mikroservisu balstīta nodokļu programma, kas piedāvā eksponenciālu mērogošanu. Tas var palīdzēt veikt šādus uzdevumus:
 

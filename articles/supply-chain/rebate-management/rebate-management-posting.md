@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020415"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216747"
 ---
 # <a name="rebate-management-posting-setup"></a>Atlaižu pārvaldības grāmatošanas iestatīšana
 
@@ -43,7 +43,7 @@ Tabulā ir aprakstīti iestatījumi, kas ir pieejami katras Atlaižu pārvaldīb
 | Apraksts | Ievadiet profila aprakstu. |
 | Modulis | Atlasiet profilam piesaistīto atlaižu un patentmaksu tipu (*Debitors* vai *Kreditors*). |
 | tips | Atlasiet profila tipu (*Atlaide* vai *Patentmaksa*). |
-| Maksājuma veids | <p>Šis lauks nosaka grāmatotās atlaides izvades formātu.<p><p>Kad **Veids** ir iestatīts uz *Atlaide*, ir pieejamas šādas vērtības:</p><ul><li>*Nav* – nav noklusētā grāmatošanas tipa. Tāpēc, veicot apstrādi, ir jādefinē tips.</li><li>*Maksāt, izmantojot kreditorus* - Kad grāmatojat atlaidi, tiek izveidots kreditora rēķins pārskaitījuma kreditoram, kas iestatīts atlaides debitoram.</li><li>*Debitoru ieturējumi* - kad grāmatojat atlaidi, tiek izveidots debitora ieturējumu žurnāls šim atlaides debitoram.</li><li>*Nodokļu rēķina debitoru ieturējumi* - kad grāmatojat atlaidi, tiek izveidots atlaides debitora brīvā teksta rēķins.</li><li>*Kreditoru izdevumi* - kad grāmatojat atlaidi, tiek izveidots debitora ieturējumu žurnāls šim atlaides debitoram.</li><li>*Pārskata=i* - kad grāmatojat atlaidi, tiek izveidots debitora ieturējumu žurnāls šim atlaides debitoram.</li></ul><p>Kad **Veids** ir iestatīts uz *Patentmaka*, ir pieejamas šādas vērtības:</p><ul><li>*Nav* – nav noklusētā grāmatošanas tipa. Tāpēc, veicot apstrādi, ir jādefinē tips.</li><li>*Maksāt, izmantojot kreditorus* - Kad grāmatojat atlaidi, tiek izveidots kreditora rēķins pārskaitījuma kreditoram, kas iestatīts atlaides kreditoram.</li><li>*Pārskati* - Kad grāmatojat atlaidi, tiek izveidots kreditora rēķins pārskaitījuma kreditoram, kas iestatīts atlaides kreditoram.</li></ul><p>Lai iegūtu vairāk informācijas, skatiet nākamajā sadaļā [Maksājumu veidi](#payment-types). |
+| Maksājuma veids | <p>Šis lauks nosaka grāmatotās atlaides izvades formātu.<p><p>Kad **Veids** ir iestatīts uz *Atlaide*, ir pieejamas šādas vērtības:</p><ul><li>*Maksāt, izmantojot kreditorus* - iegrāmatojot debitora atlaidi, tiek izveidots kreditora rēķins pārskaitījuma kreditoram, kas iestatīts atlaides debitoram. Iegrāmatojot kreditora atlaidi, tiek izveidots kreditora rēķins atlaides kreditora kontam.</li><li>*Debitoru ieturējumi* - kad grāmatojat atlaidi, tiek izveidots debitora ieturējumu žurnāls šim atlaides debitoram.</li><li>*Nodokļu rēķina debitoru ieturējumi* - kad grāmatojat atlaidi, tiek izveidots atlaides debitora brīvā teksta rēķins.</li><li>*Kreditoru izdevumi* - kad grāmatojat atlaidi, tiek izveidots debitora ieturējumu žurnāls šim atlaides debitoram.</li><li>*Pārskata=i* - kad grāmatojat atlaidi, tiek izveidots debitora ieturējumu žurnāls šim atlaides debitoram.</li></ul><p>Kad **Veids** ir iestatīts uz *Patentmaka*, ir pieejamas šādas vērtības:</p><ul><li>*Maksāt, izmantojot kreditorus* - Kad grāmatojat atlaidi, tiek izveidots kreditora rēķins pārskaitījuma kreditoram, kas iestatīts atlaides kreditoram.</li><li>*Pārskati* - Kad grāmatojat atlaidi, tiek izveidots kreditora rēķins pārskaitījuma kreditoram, kas iestatīts atlaides kreditoram.</li></ul><p>Lai iegūtu vairāk informācijas, skatiet nākamajā sadaļā [Maksājumu veidi](#payment-types). |
 | Uzņēmums | Atlasiet uzņēmumu (juridisku personu), kam uzkrājumi tiks uzkrāti un ka prasības tiks apmaksātas. |
 
 ### <a name="payment-types"></a>Maksājumu tipi

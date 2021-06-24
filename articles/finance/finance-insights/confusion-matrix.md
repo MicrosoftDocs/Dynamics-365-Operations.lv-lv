@@ -2,7 +2,7 @@
 title: Algoritmiskās mācīšanās modeļu rezultāti (priekšskatījums)
 description: Šajā tēmā ir apspriestas algoritmiskās mācīšanās (AM) modeļu neskaidrību matricas, klasifikācijas problēmas un precizitāte. Mērķis ir uzlabot izpratni par AM prognozēšanas rezultātu precizitāti.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028207"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193544"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Algoritmiskās mācīšanās modeļu rezultāti (priekšskatījums)
 
@@ -129,16 +129,12 @@ Lai vienkāršotu aprēķinus, parauga datu masīvi tika veidoti, lai atbilstu f
 
 Lai iegūtu vairāk informācijas par to, kā šis aprēķins darbojas, šeit ir sklearn.metrics klasifikācijas pārskats 1. modelim. Trīs stāvokļi: "savlaicīgi", "novēloti" un "ļoti novēloti" ir attēloti ar rindām, kas attiecīgi ir apzīmētas ar 1, 2 un 3. Vidējā makro vērtība ir tikai vidējā vērtība kolonnā "f1-rezultāts".
 
-|           | precizitāte | atsaukšana   | f1-rezultāts |
+| &nbsp;    | precizitāte | atsaukšana   | f1-rezultāts |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Kā liecina šie rezultāti, abiem modeļiem ir gandrīz identiski F1 makro precizitātes rādītāji. Šajā un daudzos citos gadījumos F1 precizitāte sniedz labāku modeļa iespēju indikatoru. Runājot par precizitāti, rezultātu interpretācijai nepieciešams izprast, ko ir vissvarīgāk ņemt vērā modelī.
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

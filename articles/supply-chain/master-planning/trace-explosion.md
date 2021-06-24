@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839201"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189896"
 ---
 # <a name="use-tracing-for-explosion"></a>Izsekošanas izmantošana izvēršanai
 
@@ -38,8 +38,7 @@ Iespējojot izsekošanu, varat skatīt informāciju par faktoriem, kas ietekmē 
 
 Varat skatīt detalizētu informāciju par aizkavējumiem un darbībām atlasītajam pasūtījumam. Lapā **Izvēršana** izsekošanas informācija ir pieejama cilnē **Skaidrojums**, kas atrodas augšēja rūtī. Izsekošana notiek, kad izvēršat pasūtījumu. Lai sāktu pasūtījuma izsekošanu, noklikšķiniet uz **Atjaunināt** un pēc tam atzīmējiet izvēles rūtiņu **Iespējot izsekošanu**. Varat izmantot lauku **Atrast tekstu**, lai žurnālā meklētu noteiktu informāciju. Meklēšanas rezultāti tiek iezīmēti koka struktūrā.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Vispārējo plānu pārskats](master-plans.md)
 

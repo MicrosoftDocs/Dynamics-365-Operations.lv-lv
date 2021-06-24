@@ -2,7 +2,7 @@
 title: Prognozēšanas modeļa uzlabošana (priekšskatījums)
 description: Šī tēma apraksta līdzekļus, ko varat izmantot prognozēšanas modeļu veiktspējas uzlabošanai.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810031"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186646"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognozēšanas modeļa uzlabošana (priekšskatījums)
 
@@ -77,9 +77,5 @@ Apmācībām nav jāatlasa tālāk minētais lauks.
 Filtri pašlaik neatbalsta debitoru maksājumu prognozēšanas scenāriju. Tāpēc atlasiet **Izlaist šo darbību** un pārejiet uz kopsavilkuma lapu.
 
 [![Fokusa režīms ar filtriem](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

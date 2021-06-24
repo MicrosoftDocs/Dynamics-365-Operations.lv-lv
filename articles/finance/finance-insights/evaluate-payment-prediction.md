@@ -2,7 +2,7 @@
 title: Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 description: Šajā tēmā aprakstītas darbības, ko varat veikt, lai izprastu debitoru maksājumu prognozēšanas modeli un novērtētu tā efektivitāti.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897916"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186742"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Sākotnējā debitora maksājuma prognozēšanas modeļa izvērtēšana (priekšskatījums)
 
@@ -95,9 +95,5 @@ Kad esat izpratis pirmā modeļa rezultātus, iespējams, vēlēsities uzlabot m
 ## <a name="for-more-information"></a>Plašāka informācija
 
 Papildinformāciju par to, kā izvērtēt prognozēšanas modeļus skatiet sadaļā [Algoritmiskās mācīšanās modeļu rezultāti](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

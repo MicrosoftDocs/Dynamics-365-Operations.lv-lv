@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891797"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224038"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -285,7 +285,7 @@ Lai turpinātu, izlaidiet nākamo procedūru [Izveidot jaunu datu modeļa konfig
 
 Šīs konfigurācijas 1. versijas statuss tiek mainīts no **Melnraksta** uz **Pabeigtu**. 1. versiju vairs nevar mainīt. Šī versija satur konfigurēto datu modeli, un to var izmantot kā pamatu citām ER konfigurācijām. Šīs konfigurācijas 2. versija ir izveidota un tās statuss ir **Melnraksts**. Varat rediģēt šo versiju, lai koriģētu **Anketas** datu modeli.
 
-![Rediģējamās ER konfigurācijas versijas Konfigurāciju lapā](./media/er-quick-start1-model-configuration.png)
+![Rediģējamās konfigurācijas versijas Konfigurāciju lapā](./media/er-quick-start1-model-configuration.png)
 
 Lai iegūtu vairāk informācijas par versiju izveidi ER konfigurācijām, skatiet [Elektronisko pārskatu (ER) apskatu](general-electronic-reporting.md#component-versioning).
 
@@ -799,7 +799,7 @@ Sekojošajā attēlā redzams ģenerētais pārskats Excel formātā, kur jautā
 
 Šīs konfigurācijas 1.1. versijas statuss tiek mainīts no **Melnraksta** uz **Pabeigtu**. 1.1. versiju vairs nevar mainīt. Šajā versijā ir konfigurēts formāts, un to var izmantot, lai izdrukātu jūsu pielāgoto pārskatu. Šīs konfigurācijas 1.2. versija ir izveidota un tās statuss ir **Melnraksts**. Varat rediģēt šo versiju, lai koriģētu jūsu **Anketas** pārskata formātu.
 
-![Rediģējamās ER konfigurācijas versijas Konfigurāciju lapā](./media/er-quick-start1-format-configuration.png)
+![Rediģējamās ER konfigurācijas Konfigurāciju lapā](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Konfigurētais formāts ir jūsu **Anketas** pārskata noformējums, un tas nesatur attiecības ar Finance saistītiem artefaktiem.

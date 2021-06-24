@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825450"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188278"
 ---
 # <a name="purchase-agreements"></a>Pirkšanas līgumi
 
@@ -102,8 +102,7 @@ Ja izveidojat starpuzņēmumu pirkšanas pasūtījumu, kas izmanto starpuzņēmu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Pirkšanas līgumu finanšu dimensijas
 Finanšu dimensijas varat kopēt pirkšanas līguma dokumentu galvenēs vai atsevišķās rindās. Ja maināt dimensijas līguma virsrakstā vai līguma rindā, šīs izmaiņas neietekmē nekādus izlaistos pasūtījumus, bet tas atspoguļosies visos jaunajos pasūtījumos.
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pirkšanas līguma izveide](tasks/create-purchase-agreement.md)
 

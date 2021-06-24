@@ -2,7 +2,7 @@
 title: PVN deklarācija Ēģiptei
 description: Šajā tēmā paskaidrots, kā konfigurēt un ģenerēt PVN atgriešanas formu Ēģiptei.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021960"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186618"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>PVN deklarācija Ēģiptei (EG-00002)
 
@@ -85,6 +85,7 @@ Programmai specifiskie parametri ļauj izveidot kritērijus tam, kā nodokļu da
 - **VATRateTypeLookup** > B kolonna: nodokļa veids
 - **VATRateTypeLookup** > C kolonna: tabulas krājuma veids
 - **PurchaseOperationTypeLookup** > A kolonna: dokumenta veids
+- **CustomerTypeLookup** > A kolonna: dokumenta veids
 - **SalesOperationTypeLookup** > N kolonna: operācijas veids
 - **SalesItemTypeLookup** > O kolonna: krājuma veids
 
@@ -98,6 +99,8 @@ Veiciet tālāk norādītās darbības, lai iestatītu dažādās uzmeklēšanas
 6. Atkārtojiet 3.-5. darbību visām pieejamajām uzmeklēšanām.
 7. Atlasiet **Pievienot**, lai ietvertu galīgo ieraksta rindu, un kolonnā **Uzmeklēšanas rezultāti** atlasiet **Nav piemērojams**. 
 8. Atlikušajās kolonnās atlasiet **Nav tukšs**. 
+9. Laukā **Statuss** atlasiet **Pabeigts**.
+10. Atlasiet **Saglabāt** un pēc tam aizveriet lapu **Programmai specifiski parametri**.
 
 > [!NOTE]
 > Kad pievienojat pēdējo ierakstu — **Nav piemērojams** —, jūs definējat šādu kārtulu: kad PVN grupa, krājuma PVN grupa, nodokļa kods un nosaukums, kas tiek nodots kā arguments, neatbilst nevienam no iepriekšējiem noteikumiem, darījumi netiek iekļauti pārdošanas PVN grāmatā. Lai gan šī kārtula netiek lietota, ģenerējot pārskatu, kārtula palīdz izvairīties no kļūdām pārskatu ģenerēšanā, ja trūkst kārtulas konfigurācijas.
@@ -138,7 +141,7 @@ Tabulās zemāk ir parādīts ieteiktās konfigurācijas piemērs aprakstītajā
 | Pakalpojumi       | 7    | VAT_SERV                | *Nav tukšs* | SaleExempt            |
 | Pakalpojumi       | 8    | VAT_SERV                | *Nav tukšs* | SalesExemptCreditNote |
 | Korekcijas    | 9    | *Tukšs*                 | VAT_ADJ     | Pārdošana                 |
-| Korekcijas    | 10.   | *Tukšs*                 | VAT_ADJ     | Pirkšana              |
+| Korekcijas    | 10.   | *Tukšs*                 | VAT_ADJ     | SalesCreditNote       |
 | Nav attiecināms | 11.   | *Nav tukšs*             | *Nav tukšs* | *Nav tukšs*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Tabulās zemāk ir parādīts ieteiktās konfigurācijas piemērs aprakstītajā
 | Preces                  | 1    | VAT_GOODS               | *Nav tukšs* | Pirkšana                 |
 | Preces                  | 2    | VAT_GOODS               | *Nav tukšs* | PurchaseCreditNote       |
 | Pakalpojumi               | 3    | VAT_SERV                | *Nav tukšs* | Pirkšana                 |
-| Pakalpojumi               | 4    | VAT_SERV                | *Nav tukšs*  | PurchaseCreditNote       |
+| Pakalpojumi               | 4    | VAT_SERV                | *Nav tukšs* | PurchaseCreditNote       |
 | Mašīna un aprīkojums  | 5    | VAT_M&E                 | *Nav tukšs* | Pirkšana                 |
 | Mašīna un aprīkojums  | 6    | VAT_M&E                 | *Nav tukšs* | PurchaseCreditNote       |
 | Mašīnu daļas         | 7    | VAT_PARTS               | *Nav tukšs* | Pirkšana                 |
 | Mašīnu daļas         | 8    | VAT_PARTS               | *Nav tukšs* | PurchaseCreditNote       |
 | Atbrīvojumi             | 9    | VAT_EXE                 | *Nav tukšs*  | PurchaseExempt           |
 | Atbrīvojumi             | 10.   | VAT_EXE                 | *Nav tukšs* | PurchaseExemptCreditNote |
-| Nav attiecināms         | 11.   | *Tukšs*                 | VAT_ADJ     | *Nav tukšs*              |
-| Nav attiecināms         | 12.   | *Nav tukšs*             | *Nav tukšs* | *Nav tukšs*              |
-| Nav attiecināms         | 13   | *Tukšs*                 | *Nav tukšs* | *Nav tukšs*              |
+| Nav attiecināms         | 11.   | *Nav tukšs*             | *Nav tukšs* | *Nav tukšs*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Tabulās zemāk ir parādīts ieteiktās konfigurācijas piemērs aprakstītajā
 | Korekcijas    | 9    | *Tukšs*          | VAT_ADJ     | PurchaseCreditNote       |
 | Korekcijas    | 10.   | *Tukšs*          | VAT_ADJ     | Pirkšana                 |
 | Nav attiecināms | 11.   | *Nav tukšs*      | *Nav tukšs* | *Nav tukšs*              |
+
+**CustomerTypeLookup**
+
+|    Uzmeklēšanas rezultāts    | Līnija | PVN grupa |
+|---------------------|------|-----------------|
+| Organizācija        |  1   | VAT_LOCAL       |
+| Organizācija        |  2   | VAT_EXPORT      |
+| Organizācija        |  3   | VAT_EXE         |
+| Galapatērētājs      |  4   | VAT_FINALC      |
+| Sabiedriska organizācija |  5   | VAT_PUBLIO      |
+| Netiek lietots      |  6   | *Nav tukšs*     |
 
 **VATRateTypeLookup**
 

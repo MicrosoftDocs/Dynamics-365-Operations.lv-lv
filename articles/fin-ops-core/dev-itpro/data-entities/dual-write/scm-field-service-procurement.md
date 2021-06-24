@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941113"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219791"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrēt sagādes starp Supply Chain Management un Field Service
 
@@ -196,23 +196,10 @@ Ar sagādes dokumentiem saistīto dokumentu integrāciju ir pieejamas šādas ve
 
 | Supply Chain Management | Field Service | Apraksts |
 |---|---|---|
-| Pirkšanas pasūtījuma galvene V2 | msdyn\_Purchaseorders | Šajā tabulā ir kolonnas, kas atspoguļo pirkšanas pasūtījuma galveni. |
-| Pirkšanas pasūtījuma rindas elements | msdyn\_PurchaseOrderProducts | Šajā tabulā ir rindas, kas atspoguļo pirkšanas pasūtījuma rindas. Preces numurs tiek izmantots sinhronizācijai. Tas identificē preci kā noliktavas vienību (NV), tostarp preces dimensijas. Informāciju par produktu integrāciju Dataverse vidē, skatiet sadaļā [Unificētā preču pieredze](product-mapping.md). |
-| Preces saņemšanas galvene | msdyn\_purchaseorderreceipts | Šajā tabulā ir ietvertas produktu ieejas plūsmas galvenes kas tika izveidotas, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
-| Preces saņemšanas rinda | msdyn\_purchaseorderreceiptproducts | Šajā tabulā ir ietverti produktu ieejas plūsmas rindas, kas tika izveidoti, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
-| Pirkšanas pasūtījuma rindas viegli dzēstā entītijā | msdyn\_purchaseorderproducts | Šajā tabulā ir informācija par pirkšanas pasūtījuma rindām, kas ir viegli dzēstas. Pirkšanas pasūtījuma rindu Supply Chain Management var viegli dzēst tikai tad, kad pirkšanas pasūtījums ir apstiprināts vai apstiprināts, ja izmaiņu pārvaldība ir ieslēgta. Rinda pastāv Supply Chain Management datu bāzē un ir atzīmēta kā **IsDeleted**. Tā kā Dataverse videi nav vieglās dzēšanas koncepcijas, ir svarīgi, lai šī informācija tiktu sinhronizēta ar Dataverse. Šādā veidā rindas, kas ir viegli dzēstas Supply Chain Management, var automātiski izdzēst no Dataverse. Šajā gadījumā loģika rindas dzēšanai Dataverse vidē atrodas paplašinātajā Supply Chain Management versijā. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Pirkšanas pasūtījuma galvene V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Šajā tabulā ir kolonnas, kas atspoguļo pirkšanas pasūtījuma galveni. |
+| [Pirkšanas pasūtījuma rindas elements](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Šajā tabulā ir rindas, kas atspoguļo pirkšanas pasūtījuma rindas. Preces numurs tiek izmantots sinhronizācijai. Tas identificē preci kā noliktavas vienību (NV), tostarp preces dimensijas. Informāciju par produktu integrāciju Dataverse vidē, skatiet sadaļā [Unificētā preču pieredze](product-mapping.md). |
+| [Preces saņemšanas galvene](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Šajā tabulā ir ietvertas produktu ieejas plūsmas galvenes kas tika izveidotas, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
+| [Preces saņemšanas rinda](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Šajā tabulā ir ietverti produktu ieejas plūsmas rindas, kas tika izveidoti, kad produktu ieejas plūsma tiek grāmatota Supply Chain Management. |
+| [Pirkšanas pasūtījuma rindas viegli dzēstā entītijā](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Šajā tabulā ir informācija par pirkšanas pasūtījuma rindām, kas ir viegli dzēstas. Pirkšanas pasūtījuma rindu Supply Chain Management var viegli dzēst tikai tad, kad pirkšanas pasūtījums ir apstiprināts vai apstiprināts, ja izmaiņu pārvaldība ir ieslēgta. Rinda pastāv Supply Chain Management datu bāzē un ir atzīmēta kā **IsDeleted**. Tā kā Dataverse videi nav vieglās dzēšanas koncepcijas, ir svarīgi, lai šī informācija tiktu sinhronizēta ar Dataverse. Šādā veidā rindas, kas ir viegli dzēstas Supply Chain Management, var automātiski izdzēst no Dataverse. Šajā gadījumā loģika rindas dzēšanai Dataverse vidē atrodas paplašinātajā Supply Chain Management versijā. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

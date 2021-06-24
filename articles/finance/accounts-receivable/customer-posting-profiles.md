@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826375"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193622"
 ---
 # <a name="customer-posting-profiles"></a>Debitoru grāmatošanas metodes
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826375"
 
 Debitoru grāmatošanas profili kontrolē debitoru transakciju grāmatošanu virsgrāmatā.
 
-<a name="customer-posting-profiles"></a>Debitoru grāmatošanas metodes
--------------------------
+## <a name="customer-posting-profiles"></a>Debitoru grāmatošanas metodes
 
 Debitoru grāmatošanas metodes jums ļauj virsgrāmatas kontus un dokumentu iestatījumus piešķirt visiem debitoriem, debitoru grupai vai atsevišķam debitoram. Šie iestatījumi tiks lietoti, kad veidojat pārdošanas pasūtījumus, brīva teksta rēķinus, maksājumus skaidrā naudā, atgādinājuma vēstules un procentu paziņojumus. Noteiktām transakcijām varat atlasīt grāmatošanas metodi, kas atšķiras no šajā lapā iestatītajām transakciju grāmatošanas metodēm un kam ir prioritāte pār tām. 
 
@@ -118,7 +117,6 @@ Ja vēlaties, lai visu debitoru transakcijām būtu vienāda grāmatošanas meto
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Tabulu ierobežojumi**
 

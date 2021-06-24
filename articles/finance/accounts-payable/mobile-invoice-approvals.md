@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897700"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189206"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobilie rēķinu apstiprinājumi
 
@@ -27,8 +27,7 @@ ms.locfileid: "5897700"
 
 Mobilās iespējas sniedz biznesa lietotājam iespēju izstrādāt mobilos risinājumus. Sarežģītu scenāriju gadījumā izstrādātāji var arī paplašināt iespējas atbilstoši savām vēlmēm. Visefektīvākais veids, kā apgūt dažas no jaunajām mobilajām ierīcēm paredzētajām koncepcijām, ir jaunu scenāriju procesa izpilde. Šajā tēmā ir aprakstīta praktiska pieeja mobilo scenāriju izstrādei, kā lietojuma gadījumu apskatot kreditoru rēķinu apstiprināšanu mobilajās ierīcēs. Šajā tēmā sniegtā informācija palīdzēs jums izstrādāt arī citus scenāriju variantus, un to var lietot arī citiem scenārijiem, kas nav saistīti ar kreditoru rēķiniem.
 
-<a name="prerequisites"></a>Priekšnosacījumi
--------------
+## <a name="prerequisites"></a>Priekšnosacījumi
 
 | Priekšnoteikumi                                                                                            | apraksts                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835200"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188714"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Procentu likmju iestatīšana interešu kodam
 
@@ -90,7 +90,6 @@ Iestatiet diapazona informāciju, kā norādīts tālāk.
 
 
 ## <a name="example-2-interest-by-range--days"></a>2. piemērs: procenti pēc diapazona = dienas
---------------------------------------------------
 
 Iestatiet procentu kodu, kas novērtē procentus vienu reizi katras 15 dienas, par kurām rēķina maksājums pārsniedz darījuma izpildes datumu. Aprēķini jābalsta uz soda naudas vērtību summā saskaņā ar pakāpeniskajiem dienu intervāliem. Procentu vērtība būs 10,00 15 dienas pirmajās 60 dienās, 15,00 15 dienas no 61 līdz 90 dienām, un 20,00 15 dienas, sākot no 91 dienas. Iestatiet procentu kodu lauku vērtības, kā tālāk norādīts.
 
@@ -111,7 +110,6 @@ Iestatiet diapazona informāciju, kā norādīts tālāk.
 
 
 ## <a name="example-3-interest-by-range--months"></a>3. piemērs: procenti pēc diapazona = mēneši
-----------------------------------------------------
 
 Iestatiet procentu kodu, kas novērtē procentus vienu reizi katru mēnesi, par kuru rēķina maksājums pārsniedz darījuma izpildes datumu. Aprēķini jābalsta uz soda naudas vērtību procentos saskaņā ar pakāpeniskajiem mēnešu intervāliem. Procentu vērtība būs 1,5 procenti mēnesī par pirmajiem trim nokavētajiem mēnešiem, 2,0 procenti mēnesī par nākamajiem trim mēnešiem un 2,5 procenti mēnesī pēc pirmajiem sešiem mēnešiem. Iestatiet procentu kodu lauku vērtības, kā tālāk norādīts.
 

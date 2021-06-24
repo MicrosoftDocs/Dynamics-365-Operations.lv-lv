@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826622"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188444"
 ---
 # <a name="sales-tax-overview"></a>PVN apskats
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826622"
 
 Šajā tēmā ir sniegts pārskats par PVN sistēmu. Tajā ir paskaidroti pārdošanas nodokļa iestatīšanas elementi un to mijiedarbība.
 
-<a name="overview"></a>Pārskats
---------
+## <a name="overview"></a>Pārskats
 
 PVN struktūra atbalsta daudzus netiešo nodokļu veidus, piemēram, PVN, pievienotās vērtības nodokli (PVN), preču un pakalpojumu nodokli (GST), no vienībām atkarīgās papildmaksas un ieturēto nodokli. Šie nodokļi tiek aprēķināti un dokumentēti pirkšanas un pārdošanas transakciju laikā. Periodiski par tiem ir jāziņo un tie ir jāsamaksā nodokļu iestādēm. 
 

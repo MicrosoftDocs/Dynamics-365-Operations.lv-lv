@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980954"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184026"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Noliktavas pārvaldības darba slodzes mākoņa un malas mēroga vienībām
 
@@ -289,14 +289,15 @@ Sekojošajā tabulā ir parādīts, kuri noliktavas darbību un izņēmumu nodo�
 | Mainīt darba pūlu darbam                           | Jā | Jā                          |
 | Atcelt darbu                                        | Jā | Jā                          |
 
-
 ### <a name="production"></a>Ražošana
 
-Noliktavas pārvaldības integrēšana ražošanas scenārijiem pašlaik netiek atbalstīta mēroga vienības darba slodzē, kā norādīts sekojošajā tabulā.
+Sekojošajā tabulā ir apkopts, kuri noliktavas pārvaldības ražošanas scenāriji pašlaik tiek (netiek) atbalstīti mēroga vienības darba slodzē.
 
 | Apstrādāšana | Centrmezgls | WES darba slodze mēroga vienībā |
 |---------|-----|------------------------------|
-| <p>Visi noliktavas pārvaldības procesi, kas saistīti ar ražošanu. Daži piemēri:</p><li>Izlaist uz noliktavu</li><li>Apstrāde kopuma ietvaros</li><li>Izejmateriālu izdošana</li><li>RAF un pabeigto preču izvietošana</li><li>Līdzproduktu un blakusproduktu izvietošana</li><li>Kanban izvietošana</li><li>Kanban izdošana</li><li>Sākt ražošanas pasūtījumu</li><li>Ražošanas brāķis</li><li>Ražošanas pēdējā palete</li><li>Reģistrēt materiālu patēriņu</li><li>Tukšs Kanban</li></ul> | Jā | Nr. |
+| Reģistrēt pabeigšanu un izvietot pabeigtās preces | Jā | Jā |
+| Līdzproduktu un blakusproduktu izvietošana | Jā | Jā |
+| <p>Visi pārējie noliktavas pārvaldības procesi, kas saistīti ar ražošanu, tostarp:</p><li>Izlaist uz noliktavu</li><li>Apstrāde kopuma ietvaros</li><li>Izejmateriālu izdošana</li><li>Kanban izvietošana</li><li>Kanban izdošana</li><li>Sākt ražošanas pasūtījumu</li><li>Ražošanas brāķis</li><li>Ražošanas pēdējā palete</li><li>Reģistrēt materiālu patēriņu</li><li>Tukšs Kanban</li></ul> | Jā | Nr. |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Uzturēt mēroga vienības WES
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816536"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189720"
 ---
 # <a name="demand-forecasting-setup"></a>Pieprasījuma prognozēšanas iestatīšana
 
@@ -88,8 +88,7 @@ Cilnē **Sadalījuma principi** jūs varat iestatīt **Prognozēšanas algoritma
 - **Sezonalitātes norādījums**: sezonas datiem norādiet prognozēšanas modeļa atgādinājumu, lai uzlabotu prognozes precizitāti. Formāts: vesels skaitlis, kas norāda intervālu skaitu, kur tiek atkārtots pieprasījuma modelis. Piemēram, ievadiet "6" datiem, kas atkārtojas ik pēc sešiem mēnešiem.
 - **Testa kopas lielums procentos**: vēsturisko datu procentuālais daudzums, kas tiks izmantots kā testa kopa, lai aprēķinātu prognozes precizitāti. 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Pārskats par pieprasījuma prognozēšanu](introduction-demand-forecasting.md)
 

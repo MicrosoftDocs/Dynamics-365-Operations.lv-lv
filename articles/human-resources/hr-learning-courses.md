@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054023"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190236"
 ---
 # <a name="set-up-training-courses"></a>Iestatīt apmācību kursus
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054023"
 
 Personāla vadības administratori un vadītāji var izmantot šos kursu līdzekļus, lai uzturētu informāciju par darbiniekiem piedāvāto apmācību.
 
- <a name="set-up-prerequisites"></a>Priekšnoteikumu iestatīšana
----------------------
+##  <a name="set-up-prerequisites"></a>Priekšnoteikumu iestatīšana
 
 Pirms veidojat kursus, ir nepieciešama un ir jāiestata tālāk norādītā informācija.
 -   **Kursu tipi**
@@ -127,8 +126,7 @@ Tālāk esošajā tabulā uzskaitīti iespējamie kursu statusi un darbības, ku
 ## <a name="course-participants"></a>Kursu dalībnieki
 Kursu dalībnieki ir darbinieki, kuri piedalās apmācības kursos vai notikumā. Dalībniekus var reģistrēt tikai atvērtiem kursiem. Minimālais un maksimālais dalībnieku skaits, ko varat reģistrēt vienam kursam, ir noteikts kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.
 
-<a name="workflow"></a>Darbplūsma
---------
+## <a name="workflow"></a>Darbplūsma
 
 Darbinieki, kuri kursam ir reģistrējušies, izmantojot lapu **Darbinieku pašapkalpošanās**, savu reģistrāciju var maršrutēt apstiprināšanai caur darbplūsmu. Darbplūsmu kursam varat piešķirt kopsavilkuma cilnē **Vispārīgi**, lapā **Kursi**.
 

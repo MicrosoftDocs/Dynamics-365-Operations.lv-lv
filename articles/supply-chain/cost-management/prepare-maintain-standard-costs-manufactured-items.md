@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6944782ac236a3f414b1cadfb12b0f0d8c1115b9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2a82b0a205ac6b7a86b9aca0771303469c6666c1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821517"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187750"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Sagatavošanās saglabāt ražotajiem krājumiem standarta izmaksas
 
@@ -63,8 +63,7 @@ Ražotajiem krājumiem piešķirtās politikas var ietekmēt ražoto vecākkrāj
 
 Ja maršrutēšanas informāciju vēlaties izmantot izmaksu aprēķināšanai, ir javeic papildu sagatavošanās soļi. Piemēram, maršrutēšanas operācijām piešķirtajām izmaksu kategorijām ir jābūt pareizām un pabeigtām.
 
-<a name="related-topics"></a>Saistītās tēmas
---------
+## <a name="related-topics"></a>Saistītās tēmas
 
 [Ražotā krājuma konstanto izmaksu amortizācija](amortize-constant-costs-manufactured-item.md)
 

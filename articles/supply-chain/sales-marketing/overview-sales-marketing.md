@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810874"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188129"
 ---
 # <a name="sales-and-marketing-overview"></a>Pārdošanas un mārketinga pārskats
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810874"
 
 Moduli Pārdošana un mārketings varat izmantot, lai iegūtu, uzglabātu un izmantotu dažādu tipu datus pārdošanas plūsmā. Šie dati ietver sākotnējo pārdošanas iniciatīvu, turpmāko darbību un papildu pārdošanu.
 
-<a name="marketing"></a>Mārketings
----------
+## <a name="marketing"></a>Mārketings
 
 Mārketinga kampaņas un aktivitātes jūs izmantojat, lai atrastu un veidotu attiecības ar potenciālajiem klientiem un sākotnējās mijiedarbības varētu pārtapt par tirdzniecības attiecībām. Nākamajā procesa plūsmā ir parādīts biznesa process mārketingam. [![Mārketinga biznesa process](./media/marketing01.jpg)](./media/marketing01.jpg)
 

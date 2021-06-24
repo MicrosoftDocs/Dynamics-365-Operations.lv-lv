@@ -2,7 +2,7 @@
 title: Augšupielādēt videoklipus
 description: Šajā tēmā aprakstīts, kā augšupielādēt videoklipus Microsoft Dynamics 365 Commerce vietnes veidotājā.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799209"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224542"
 ---
 # <a name="upload-videos"></a>Augšupielādēt videoklipus
 
@@ -35,7 +35,7 @@ Commerce vietnes veidotāja multivides bibliotēka ļauj augšupielādēt videok
 Augšupielādējot videoklipu, var norādīt šādu informāciju.
 
 - **Nosaukums, apraksts, atslēgvārdi**: videoklipa metadati.
-- **Automātiski ģenerēt slēgtos titrus**: norāda, vai videoklipam automātiski jāģenerē slēgtos titrus.
+- **Automātiski ģenerēt slēgtos titrus**: norāda, vai videoklipam automātiski jāģenerē slēgtos titrus (tiek atbalstīta tikai angļu valoda). 
 - **Slēgtie titri**: Norāda izmantojamos slēgtos titrus.
 - **Parastais audio**: Norāda izmantojamo parasto audio ierakstu.
 - **Sīktēls**: Norāda videoklipa sīktēlu. Numuru sērija tiks izveidota automātiski, ja tā netiek konkretizēta.

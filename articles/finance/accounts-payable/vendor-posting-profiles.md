@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835488"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189497"
 ---
 # <a name="vendor-posting-profiles"></a>Kreditoru grāmatošanas metodes
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835488"
 
 Kreditoru grāmatošanas metodes kontrolē kreditoru transakciju grāmatošanu virsgrāmatā.
 
-<a name="vendor-posting-profiles"></a>Kreditoru grāmatošanas metodes
------------------------
+## <a name="vendor-posting-profiles"></a>Kreditoru grāmatošanas metodes
 
 Kreditoru grāmatošanas metodes jums ļauj virsgrāmatas kontus un dokumentu iestatījumus piešķirt visiem kreditoriem, kreditoru grupai vai atsevišķam kreditoram. Šie iestatījumi tiek izmantoti, kad izveidojat pirkšanas pasūtījumus, kreditoru rēķinus un maksājumus skaidrā naudā. Noteiktām transakcijām varat atlasīt grāmatošanas metodi, kas atšķiras no šajā lapā iestatītajām transakciju grāmatošanas metodēm un kam ir prioritāte pār šajā lapā iestatītajām. Noklusējuma grāmatošanas metode tiek definēta kopsavilkuma cilnē **Virsgrāmata un PVN**, lapā **Kreditoru moduļa parametri**. Noklusējuma grāmatošanas metode pēc tam tiek automātiski iekļauta jaunu dokumentu virsrakstā, kur to varat mainīt uz citu grāmatošanas metodi, ja nepieciešams.
 

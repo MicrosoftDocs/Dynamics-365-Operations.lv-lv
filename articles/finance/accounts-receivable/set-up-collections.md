@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835224"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189473"
 ---
 # <a name="set-up-collections"></a>Iestatīt iekasēšanu
 
@@ -40,8 +40,7 @@ ms.locfileid: "5835224"
 
 Šie punkti tiek sīkāk apspriesti turpmāk tēmā. 
 
-<a name="set-up-aging-period-definitions"></a>Iestatiet vecumstruktūras perioda definīcijas
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Iestatiet vecumstruktūras perioda definīcijas
 
 Iestatiet vecumstruktūras perioda definīciju. Vecumstruktūras perioda definīcija nosaka kolonnas, kas tiek rādītas sarakstu lapās **Vecas bilances**, **Iekasēšanas aktivitātes** un **Iekasēšanas gadījumi**. Tā definē arī periodus, kas tiek rādīti lapā **Iekasēšana**. Ja ir iestatīta debitoru kopa, kopai tiek izmantota vecumstruktūras perioda definīcija. Ja kopas nav iestatītas, tiek izmantota noklusējuma vecumstruktūras perioda definīcija, kas ir norādīta lapā **Debitoru moduļa parametri**. Ja noklusējuma vecumstruktūras perioda definīcija nav norādīta, tiek izmantota pirmā vecumstruktūras perioda definīcija no lapas **Vecumstruktūras perioda definīcijas**.
 

@@ -1,5 +1,5 @@
 ---
-title: Pieprasījuma apjoma prognozes manuāla modificēšana
+title: 'Ceļvedis: Pieprasījuma apjoma prognozes manuāla modificēšana'
 description: Šajā tēmā aprakstīts, kā modificēt krājuma prognozi
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889028"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224014"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Pieprasījuma apjoma prognozes manuāla modificēšana
+# <a name="guide-modify-a-demand-forecast-manually"></a>Ceļvedis: Pieprasījuma apjoma prognozes manuāla modificēšana
 
 [!include [banner](../../includes/banner.md)]
 
-Šajā procedūrā parādīts, kā modificēt krājuma prognozi. USMF ir paraugdatu uzņēmums, kas tiek izmantots šīs procedūras izveidei. Šī procedūra ir paredzēta ražošanas plānotājam.
+Šajā procedūrā parādīts, kā modificēt krājuma prognozi. Šī procedūra ir paredzēta ražošanas plānotājam.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Atlasītā krājuma prognozes modificēšana
 
@@ -36,7 +36,7 @@ Lai mainītu atlasītā krājuma prognozi:
 1. Pēc vajadzības aizpildiet parējos laukus.
 1. Atlasiet **Saglabāt** darbību rūtī.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Modificēt prognozi vienam vai vairākiem krājumiem Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Modificējiet prognozi vienam vai vairākiem krājumiem Microsoft Excel
 
 Lai modificētu prognozi vienam vai vairākiem krājumiem Microsoft Excel:
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935887"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193754"
 ---
 # <a name="financial-analysis"></a>Finanšu analīze
 
@@ -87,7 +87,7 @@ Lai gan darbvietā **Finanšu analīze** ir ietverti finanšu pārskati, tā nea
 Tālāk esošajā salīdzinājuma diagrammā tiks parādītas atšķirības starp šīm divām opcijām.
 
 
-|                                                          | Financial Reporting                                               | Finanšu analīze |
+| Funkcija                                                   | Financial Reporting                                               | Finanšu analīze |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
 | **Rediģēt noklusējuma pārskatus**                                 | Jā                                                               | Nr. |
 | **Izveidot jaunus pārskatus**                                   | Jā                                                               | Nr. |

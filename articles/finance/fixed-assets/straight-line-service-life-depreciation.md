@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 610e8c58975a02cf6a4b3c4f79639d94ae8c3d9b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818492"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193834"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Lineārā lietošanas ilguma nolietojums
 
@@ -65,9 +65,9 @@ Atlasot opciju Finanšu, laukā Periodu biežums ir pieejamas šādas opcijas:
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Piemērs: nemainīta pamatlīdzekļa lineārais nolietojums
 Pieņemsim, ka pamatlīdzeklim ir šādi raksturlielumi.
 
-|                     |        |
+| Īpašība      | Vērtība  |
 |---------------------|--------|
-| Iegādes vērtība    | 11 000 |
+| Iegādes vērtība    | 11,000 |
 | Lūžņu vērtība       | 1000  |
 | Nolietojuma bāze   | 10 000 |
 | Lietošanas ilgums gados  | 5.      |

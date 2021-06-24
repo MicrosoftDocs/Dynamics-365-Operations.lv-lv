@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058828"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189754"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Darbaspēka organizēšana, izmantojot nodaļas, darbus un amatus
 
@@ -42,8 +42,7 @@ Tālāk sniegtais piemērs tiek izmantots, lai paskaidrotu šajā rakstā apraks
 |**Personāla vadība**|PV vadītājs (centrālais reģions)|PV vadītājs|
 
 
- <a name="departments"></a>Nodaļas
-------------
+##  <a name="departments"></a>Nodaļas
 
 Nodaļa ir pārvaldības struktūrvienība, kas atbilst organizācijas kategorijai vai funkcionālajai jomai, kas ir atbildīga par noteiktu organizācijas darbības jomu, piemēram, pārdošanu vai uzskaiti. Nodaļa tiek izmantota, lai ziņotu par funkcionālajām jomām, un tā var būt atbildīga par peļņu un zaudējumiem. Turklāt nodaļa var ietvert izmaksu centru grupu. Organizācijā var būt tādas nodaļas kā, piemēram, pārdošanas, uzskaites un personāla vadības nodaļa.
 
@@ -96,8 +95,7 @@ Izmantojiet darbu tipus, lai klasificētu līdzīgos darbus kategorijās. Darbu 
 
 Izmantojiet atbildības jomas, lai norādītu darba lomas, procesus un preces, par ko ir atbildīgs darbinieks, kurš ieņem šī darba amatu. Darbam “Grāmatvedis” var būt tādas atbildības jomas kā, piemēram, “Finanšu pārskatu izveide par preci A”.
 
-<a name="positions"></a>Amati
-----------
+## <a name="positions"></a>Amati
 
 Amats ir nozīmīgs organizācijas hierarhijas zemāko līmeņu elements. Pozīcija ir atsevišķa darba instance. Piemēram, amats “Pārdošanas daļas vadītājs (austrumu reģions)” ir tikai viens no amatiem, kas ir saistīti ar darbu “Pārdošanas daļas vadītājs”. Amati ir ietverti nodaļā un tiek piešķirti darbiniekiem.
 ### <a name="position-creation-and-maintenance"></a>Amata izveide un uzturēšana

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058924"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189605"
 ---
 # <a name="compensation-plans"></a>Atlīdzības plāni
 
@@ -121,8 +121,7 @@ Nākamajā tabulā ir uzskaitīti atlīdzības procesa komponenti, kas var būt 
 ## <a name="process-events"></a>Apstrādes notikumi
 Procesa notikums aprēķina atlīdzības informāciju noteiktam periodam visiem darbiniekiem, kas ir reģistrēti vienā vai vairākos fiksētās vai mainīgās atlīdzības plānos. Procesa notikumu varat palaist atkārtoti, lai pārbaudītu vai atjauninātu aprēķinātos atlīdzības rezultātus.
 
-<a name="compensation-events"></a>Atlīdzības notikumi
--------------------
+## <a name="compensation-events"></a>Atlīdzības notikumi
 
 Katru reizi, kad tiek palaists procesa notikums, tiek izveidots atlīdzības notikums.  Atlīdzības notikumi ietver atlīdzības procesa rezultātus katram darbiniekam, kas ir iekļauts attiecīgajā procesa notikumā.  Kad šie aprēķini ir pareizi, varat ielādēt atlīdzības notikumu, lai atjauninātu atlīdzības ierakstus tiem darbiniekiem, kurus šis procesa notikums ietekmē.
 

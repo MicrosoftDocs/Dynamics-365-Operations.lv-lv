@@ -2,7 +2,7 @@
 title: Skaidras naudas plūsmas prognozēšanas iespējošana (priekšskatījums)
 description: Šajā tēmā skaidrots, kā ieslēgt skaidras naudas plūsmas prognozēšanas līdzekli Finanšu ieskatos.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818732"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222562"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Skaidras naudas plūsmas prognozēšanas iespējošana (priekšskatījums)
 
@@ -37,7 +37,7 @@ ms.locfileid: "5818732"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Ja jūsu Microsoft Dynamics 365 Finance izvietošana ir Service Fabric izvietošana, varat izlaist šo darbību. Finanšu ieskatu grupai jau vajadzētu ieslēgt jums šo ierobežoto līdzekli. Ja neredzat līdzekļus darbvietā **Līdzekļu pārvaldība** vai ja rodas problēmas, mēģinot tos ieslēgt, sazinieties ar <fiap@microsoft.com>.
+    > Izlaidiet šo darbību, ja izmantojat versiju 10.0.20 vai jaunāku versiju, vai, ja izmantojat Service Fabric izvietojumu. Finanšu ieskatu grupai jau vajadzētu ieslēgt jums šo ierobežoto līdzekli. Ja neredzat līdzekli darbvietā **Līdzekļu pārvaldība** vai ja rodas problēmas, mēģinot to ieslēgt, sazinieties ar <fiap@microsoft.com>.
   
 2. Atveriet darbvietu **Līdzekļu pārvaldība** un veiciet tālāk norādītās darbības.
 
@@ -60,10 +60,5 @@ ms.locfileid: "5818732"
     2. Atlasiet **Izveidot prognozēšanas modeli**.
 
 Plašāku informāciju par to, kā iestatīt skaidras naudas plūsmas prognozēšanas iespēju, skatiet [Skaidras naudas plūsmas prognozēšana](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112625"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193570"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Noņemtie vai novecojuši līdzekļi iepriekšējos laidienos
 
@@ -92,7 +92,7 @@ Detalizēta informācija par Finance and Operations programmu objektiem ir pieej
 | **Vai ir aizstāts ar citu līdzekli?**   | Nē |
 | **Ietekmētie produkta apgabali**         | Itāļu lokalizācija |
 | **Izvietošanas iespēja**              | Visus |
-| **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt **Melnā saraksta pārskatu (IT) – Līdzekļa atsauci IT-00001**. |
+| **Statuss**                         | Novecojis: līdz 2020. gada 1. oktobrim mēs plānojam vairs neatbalstīt šo pārskatu. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Iekšzemes nodokļu pārskats — Līdzekļa atsauce IT-00003
 
@@ -365,6 +365,16 @@ Līdzeklis jaunu peļņas nodokļa reģistru veidņu izveidei. Šis līdzeklis r
 | **Izvietošanas iespēja**              | Visu |
 | **Statuss**                         | Noņemts, sākot ar Finance and Operations 8.1 ar 20. platformas atjauninājumu. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Alga un cilvēkresursi Krievijai
+Krievijas valstij raksturīgs modulis personāla administrēšanas informācijas pārvaldībai, darbinieku darba laika uzskaitei, algu sarakstu un algas pārskatu izveidei. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Novecošanas/noņemšanas pamatojums** | Algu saraksts nav iekļauts Dynamics 365 portfeļa globālajā stratēģiskajā fokusā. Partneri un ISV ir vislabāk pozicionēti, lai nodrošinātu algu saraksta funkcionalitāti, kas atbilst vietējiem noteikumiem un nodokļu atjauninājumiem.|
+| **Vai ir aizstāts ar citu līdzekli?**   | Nr.|
+| **Ietekmētie produkta apgabali**         | Krievijas algu un cilvēkresursu pārvaldība |
+| **Izvietošanas iespēja**              | Visu |
+| **Statuss**                         | Novecojis: funkcionalitātes noņemšanas mērķa laikposms ir versijas 10.0 nākotnes atjauninājums. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 ar 15. platformas atjauninājumu
 Ar šo laidienu nav noņemts vai atzīts par novecojušu neviens līdzeklis. 15. platformas atjauninājums ir kumulatīvs un satur jaunus vai mainītus līdzekļus no 13. platformas atjauninājuma, 14. platformas atjauninājuma un 15. platformas atjauninājuma.

@@ -2,7 +2,7 @@
 title: Momentuzņēmumu apskats (priekšskatījums)
 description: Šī tēma apraksta momentzņēmumu līdzekli, kas ļauj ietaupīt naudas plūsmas prognozi analīzei vai salīdzinājumam ar faktiskajām vērtībām. Ģenerējot naudas plūsmas prognozi, varat saglabāt šo prognozi kā momentuzņēmumu. Pēc tam varat izmantot šos momentuzņēmumus, lai rediģētu tos kontus, kas tika iekļauti prognozē, vai salīdzinātu prognozi momentuzņēmumā uz faktiskajiem datiem.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827246"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186594"
 ---
 # <a name="snapshots-overview-preview"></a>Momentuzņēmumu apskats (priekšskatījums)
 
@@ -42,9 +42,5 @@ Skaidras naudas ienākošās un izejošās plūsmas momentuzņēmumos var rediģ
 Lai salīdzinātu vairākus momentuzņēmumus, atlasiet **Salīdzināt momentuzņēmumus**. Vienlaicīgi varat salīdzināt divus momentuzņēmumus. Atlasiet divus momentuzņēmumus, ko salīdzināt, un pēc tam atlasiet **Labi**. Lapā **Salīdzināt momentuzņēmumu** tiks parādīts atlasīto momentuzņēmumu salīdzinājums. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts divu prognožu salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp bilancēm periodā.
 
 Lai salīdzinātu faktiskos finanšu rezultātus ar prognozi, kas tika saglabāta kā momentuzņēmums, atlasiet **Salīdzināt ar faktiskajiem rādītājiem**. Lapā **Salīdzināt momentuzņēmumu** tiks parādīts faktisko summu un prognožu salīdzinājums. Diagramma lapas augšdaļā parāda ienākošās naudas plūsmas, izejošās naudas plūsmas un bankas bilanču salīdzinājumu starp diviem momentuzņēmumiem pārklāšanos periodos. Režģī apakšējā sadaļā tiek parādīts detalizēts faktisko bilanču katrā periodā un prognozētās bilances salīdzinājums katrai likviditātes summai. **Novirzes** kolonna režģī parāda starpību starp faktisko bilanci periodā un prognozēto bilanci.
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

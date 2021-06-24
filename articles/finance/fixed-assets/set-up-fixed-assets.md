@@ -1,8 +1,8 @@
 ---
 title: Iestatīt pamatlīdzekļus
 description: Šajā tēmā ir sniegts apskats par moduļa Pamatlīdzekļi iestatīšanu.
-author: ShylaThompson
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818540"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216590"
 ---
 # <a name="set-up-fixed-assets"></a>Iestatīt pamatlīdzekļus
 
 [!include [banner](../includes/banner.md)]
 
-Šajā tēmā ir sniegts apskats par moduļa **Pamatlīdzekļi** iestatīšanu.
+Šajā tēmā ir sniegts apskats par moduļa **Pamatlīdzekļi** iestatīšanu. 
 
-## <a name="overview"></a>Pārskats
-
-Parametri kontrolē pamatlīdzekļu vispārīgo darbību.
-
-Pamatlīdzekļu grupas jums ļauj grupēt savus līdzekļus un norādīt noklusējuma atribūtus katram grupai piešķirtajam līdzeklim. Pamatlīdzekļu grupām tiek piešķirtas grāmatas. Grāmatas seko līdzi pamatlīdzekļa finansiālajai vērtība laika gaitā, izmantojot nolietojuma tabulā definēto nolietojuma konfigurāciju.
+Parametri kontrolē pamatlīdzekļu vispārīgo darbību. Pamatlīdzekļu grupas jums ļauj grupēt savus līdzekļus un norādīt noklusējuma atribūtus katram grupai piešķirtajam līdzeklim. Pamatlīdzekļu grupām tiek piešķirtas grāmatas. Grāmatas seko līdzi pamatlīdzekļa finansiālajai vērtība laika gaitā, izmantojot nolietojuma tabulā definēto nolietojuma konfigurāciju.
 
 Kad tiek izveidoti pamatlīdzekļi, tie tiek piešķirti kādai grupai. Pēc noklusējuma grāmatas, kuras ir piešķirtas pamatlīdzekļu grupai, pēc tam tiek piešķirtas pamatlīdzeklim. Grāmatas, kuras ir konfigurētas grāmatošanai virsgrāmatā, ir saistītas ar grāmatošanas metodi. Virsgrāmatas konti tiek definēti katrai grāmatai grāmatošanas metodē un tiek izmantoti, kad tiek grāmatotas pamatlīdzekļu transakcijas.
 
@@ -49,6 +45,8 @@ Kad ir iestatītas nolietojuma tabulas, jums saviem līdzekļiem ir jāizveido n
 Katrai grāmatai tiek piešķirta primārā nolietojuma tabula. Grāmatām ir arī alternatīvā vai pārslēgšanas nolietojuma tabula, ja šāds tabulas tips ir piemērojams. Lai pamatlīdzekļu grāmatu automātiski iekļautu nolietojuma izpildēs, jums ir jāiespējo opcija **Aprēķināt nolietojumu**. Ja kādam līdzeklim šī opcija nav iespējota, nolietojuma priekšlikums šo līdzekli izlaiž.
 
 Varat iestatīt arī atvasinātās grāmatas. Norādītās atvasinātās transakcijas tiek grāmatotas pret atvasinātajām grāmatām kā primāro transakciju precīza kopija. Tādēļ atvasinātās transakcijas parasti tiek iestatītas iegādēm un norakstīšanām, nevis nolietojuma transakcijām. Plašāku informāciju skatiet [Vērtību modeļu iestatīšana](tasks/set-up-value-models.md).
+
+Lapā **Pamatlīdzekļu parametri** ir pieejama opcija, kas ļauj ieslēgt vai izslēgt bloķēšanas funkcionalitāti. Šis līdzeklis ir iespējots **Līdzekļu pārvaldības darbvietā**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Pamatlīdzekļu grāmatošanas metodes
 
@@ -73,6 +71,8 @@ Pēdējā šīs procedūras darbība ir atjaunināt pamatlīdzekļu parametrus.
 Lauks **Kapitalizācijas slieksnis** nosaka, kuriem pamatlīdzekļiem tiek rēķināts nolietojums. Ja pirkuma rinda ir atzīmēta kā pamatlīdzeklis, bet tā neatbilst norādītajam kapitalizācijas slieksnim, tad pamatlīdzeklis joprojām tiek izveidots vai atjaunināts, bet opcija **Aprēķināt nolietojumu** ir iestatīta uz **Nē**. Tādēļ šim līdzeklim nolietojums netiks automātiski rēķināts kā daļa no nolietojuma priekšlikumiem.
 
 Svarīga opcija ir **Automātiski izveidot nolietojuma korekcijas summas ar izslēgšanu**. Ja šo opciju iestatāt uz **Jā**, līdzekļa nolietojums tiek automātiski koriģēts, pamatojoties uz nolietojuma iestatījumiem līdzekļa izslēgšanas laikā. Cita opcija jums ļauj termiņatlaides atņemt no iegādes summas, kad iegādājaties pamatlīdzekļus, izmantojot kreditora rēķinu.
+
+Parametrs **Bloķēt līdzekļu grāmatas nolietojuma žurnālā** lauj bloķēt līdzekļu grāmatas nolietojuma žurnālā. Kad nolietojuma transakcijas tiek iegrāmatotas, sistēma pārbauda, vai viena un tā pati līdzekļu grāmata nav pievienota vairāk nekā vienam nolietojuma žurnālam. Ja tā ir, tad šī līdzekļu grāmata tiks bloķēta un iegrāmatošana tiks apturēta. Ja līdzekļu grāmatas ID ir bloķētā žurnālā, tas tiks automātiski atbloķēts, kad iegrāmatošana sākotnējā žurnālā tiks pabeigta. Žurnālu var atbloķēt arī manuāli. 
 
 Kopsavilkuma cilnē **Pirkšanas pasūtījumi** varat konfigurēt veidu, kādā līdzekļi tiek izveidoti kā daļa no pirkšanas procesa. Pirmā opcija ir **Atļaut līdzekļu iegādi no pirkšanas**. Ja šo opciju iestatāt uz **Jā**, tad līdzekļa iegāde notiek laikā, kad tiek grāmatots rēķins. Ja šo opciju iestatāt uz **Nē**, pamatlīdzekli joprojām varat norādīt pirkšanas pasūtījumā (PP) un rēķinā, bet iegāde netiek grāmatota. Grāmatošana ir jāveic kā atsevišķa darbība no pamatlīdzekļu žurnāla. Izmantojot opciju **Izveidot līdzekli produktu ieejas plūsmas vai rēķina grāmatošanas laikā**, varat izveidot jaunu līdzekli grāmatošanas laikā. Tādējādi līdzeklis nav jāiestata kā pamatlīdzeklis vēl pirms transakcijas. Pēdējā opcija, **Pārbaudīt pamatlīdzekļu izveidošanu rindas ieraksta laikā**, attiecas tikai uz pirkšanas pieprasījumiem.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947548"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193234"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Noņemtie vai novecojušie līdzekļi programmā Dynamics 365 Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5947548"
 
 ### <a name="job-card-device"></a>Darbu kartes ierīce
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **Novecošanas/noņemšanas pamatojums** | Elementu [darbu kartes ierīce](../production-control/config-job-card-device.md) aizstāj jaunā [ražošanas bilances izpildes saskarne](../production-control/production-floor-execution-configure.md). |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, [darbu kartes ierīce](../production-control/config-job-card-device.md) aizstās jaunā [ražošanas bilances izpildes saskarne](../production-control/production-floor-execution-configure.md). |
@@ -50,7 +50,7 @@ ms.locfileid: "5947548"
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- Noliktavu darbība (noliktavas lietotne)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | No 2021. gada aprīļa *Dynamics 365 for Finance and Operations - Noliktava* (noliktavas programma) ir novecojusi un pēc 2022. gada aprīļa netiks atbalstīta. Tagad tā tiek aizstāta ar *Warehouse Management mobile programmu*, kas tika izlaista ar Supply Chain Management versiju 10.0.17. Jaunā lietojumprogramma ir pilnīgs aizvietojums, bet tā izmanto to pašu pamatā esošo sistēmu, kas atvieglo migrāciju. Ja nepieciešams, abas lietotnes var izmantot līdzās, lai palīdzētu lietotājiem pakāpeniski pielāgoties, kad viņi mācās izmantot jauno lietotni.<br><br>Ja vēlaties skatīt informāciju par jaunās lietotnes Warehouse Management mobile konfigurēšanu, skatiet sadaļu [Warehouse Management mobile lietotne](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) un [Instalēt un savienot Warehouse Management mobile lietotni](../warehousing/install-configure-warehouse-management-app.md). |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, aizstāta ar jauno Warehouse Management mobile lietotni. |
@@ -62,7 +62,7 @@ ms.locfileid: "5947548"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 atbalsts Dynamics 365 ir novecojis
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Sākot ar 2020. gada decembri, Microsoft Internet Explorer 11 atbalsts visām Dynamics 365 precēm ir novecojis, un Internet Explorer 11 netiks atbalstīts pēc 2021. gada augusta.<br><br>Tas ietekmēs klientus, kas izmanto Dynamics 365 preces, kas paredzētas izmantošanai ar Internet Explorer 11 interfeisu. No 2021. gada augusta Internet Explorer 11 šīs Dynamics 365 preces netiks atbalstītas. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Mēs rekomendējam, lai klienti pāriet uz Microsoft Edge.|
@@ -72,7 +72,7 @@ ms.locfileid: "5947548"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Iebūvētā Supply Chain Management vispārējās plānošanas programmas izmantošana ražošanas scenārijiem
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Lai uzlabotu veiktspēju un minimizētu SQL datu bāzes noslodzi vispārējās plānošanas izpildes laikā, iebūvētā Supply Chain Management vispārējā plānošanas programma tiek aizstāta ar Plānošanas optimizāciju. Plānošanas optimizācija atļauj ātro plānošanu, ko var veikt pat darba stundu laikā. Tas ļauj plānotājiem nekavējoties reaģēt uz pieprasījuma vai plānošanas parametru izmaiņām. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, Plānošanas optimizācija aizstās esošo iebūvēto Supply Chain Management vispārējo plānošanas programmu. |
@@ -84,7 +84,7 @@ ms.locfileid: "5947548"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Iebūvētā Supply Chain Management vispārējās plānošanas programmas izmantošana izplatīšanas scenārijiem
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Novecošanas/noņemšanas pamatojums** | Lai uzlabotu veiktspēju un minimizētu SQL datu bāzes noslodzi vispārējās plānošanas izpildes laikā, iebūvētā Supply Chain Management vispārējā plānošanas programma tiek aizstāta ar Plānošanas optimizāciju. Plānošanas optimizācija atļauj ātro plānošanu, ko var veikt pat darba stundu laikā. Tas ļauj plānotājiem nekavējoties reaģēt uz pieprasījuma vai plānošanas parametru izmaiņām. |
 | **Vai ir aizstāts ar citu līdzekli?**   | Jā, Plānošanas optimizācija aizstās esošo iebūvēto Supply Chain Management vispārējo plānošanas programmu. |

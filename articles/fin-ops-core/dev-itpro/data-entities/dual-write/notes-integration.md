@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018390"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186790"
 ---
 # <a name="note-integration"></a>Piezīmju integrācija
 
@@ -122,5 +122,9 @@ Piezīmju integrācija ietver tabulas karšu vākšanu, kas darbojas kopā debit
 | [Kreditora dokumentu pielikumi](mapping-reference.md#231) | Anotācijas | Uzņēmumi, kas izmanto vienkāršu tekstu un vietrāžus URL, lai tvertu kreditoram specifisko informāciju (gan organizācijām, gan personām). |
 | [Pārdošanas pasūtījuma galvenes dokumenta pielikumi](mapping-reference.md#229) | Anotācijas | Uzņēmumi, kas izmanto vienkāršu tekstu un vietrāžus URL, lai tvertu pārdošanas pasūtījumam specifisku informāciju. |
 | [Pirkšanas pasūtījuma galvenes dokumenta pielikumi](mapping-reference.md#232) | Anotācijas | Uzņēmumi, kas izmanto vienkāršu tekstu un vietrāžus URL, lai tvertu pirkšanas pasūtījumam specifisku informāciju. |
+
+## <a name="limitations"></a>Ierobežojumi
+
+Kad piezīmju risinājums ir instalēts, to nevar atinstalēt. 
 
 Papildinformāciju skatiet sadaļā [Dubultā ieraksta kartēšanas atsauce](mapping-reference.md).

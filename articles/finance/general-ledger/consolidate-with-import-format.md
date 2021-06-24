@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 714c34dfcd109a442a4ecd741409dea5c4aade20
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085454"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216810"
 ---
 # <a name="import-format-for-consolidation"></a>Formāta importēšana konsolidēšanai
 
@@ -34,7 +34,7 @@ ms.locfileid: "6085454"
 |--------------|---------|-------|
 | 1            | 170150, Goodwill, 4 | <ul><li>Ieraksta tabula</li><li>Avota galvenā konta ID</li><li>Galvenā konta rinda</li><li>Galvenā konta tips</li></ul> |
 | 2            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Galvenā konta ID</li><li>Darījuma datums</li><li>Finanšu perioda tips (**0** = atvēršana, **1** = darbībā un **2** = slēgšana)</li><li>Transakcijas valūta</li><li>Debets vai kredīts (**0** = debets un **1** = kredīts)</li><li>Grāmatošanas līmenis</li><li>Darbības summas</li><li>Daudzums</li><li>Vietējais RecID (nenoteikta, unikāla int64 vērtība darbībai)</li></ul> |
-| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Ieraksta numurs (budžeta virsraksta darbības numurs)</li><li>Budžeta virsraksta noklusējuma datums</li><li>Budžeta modeļa ID</li><li>Vesela skaitļa vērtība darbības tipam (tukšs, sākotnējais budžets u.c.)</li><li>Rindas datums</li><li>Rindas galvenā konta ID</li><li>Rindas valūtas kods</li><li>Rindas summa darbības valūtā</li><li>Vesela skaitļa vērtība budžeta veida rindai (izdevumi vai ieņēmumi)</li></ul> |
+| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Ieraksta numurs (budžeta virsraksta darbības numurs)</li><li>Budžeta virsraksta noklusējuma datums</li><li>Budžeta modeļa ID</li><li>Budžeta veids (**1** – Sākotnējais budžets, **2** – Pārskaitījums, **3** – Pārskatījums, **4** – Apgrūtinājums, **5** – Iepriekšējs apgrūtinājums, **6** – Pārnestais budžets, **7** – Projekts, **8** – Pamatlīdzeklis, **9** – Pieprasījuma apjoma prognoze, **10** – Piegādes apjoma prognoze, **11** – Norīkojumi, **12** – Provizoriskais budžets.)</li><li>Rindas datums</li><li>Rindas galvenā konta ID</li><li>Rindas valūtas kods</li><li>Rindas summa darbības valūtā</li><li>Vesela skaitļa vērtība budžeta veida rindai (izdevumi vai ieņēmumi)</li></ul> |
 | 4            | DEMF | RecordCompany ir avota juridiskā persona. |
 | 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Galvenā konta ID</li><li>Darījuma datums</li><li>Finanšu perioda tips (0 atvēršana, 1 darbībā, 2 slēgšana)</li><li>Darbības valūta</li><li>Debets vai kredīts (0 debets , 1 kredīts)</li><li>Grāmatošanas līmenis</li><li>Transakciju summa</li><li>Daudzums</li><li>Vietējais RecID (nenoteikta, unikāla int64 vērtība darbībai)</li></ul>  |
 | 6            | BusinessUnit, 1 Nodaļa, 2 | Finanšu dimensijas atribūti, kas ir definēti segmenta secībā.<p>Varat izmantot **Eksporta** lapu, lai pārbaudītu, kā atribūti ir definēti.</p> |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827365"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189425"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidācijas kontu grupas un papildu konsolidācijas konti
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827365"
 
 Šajā tēmā ir sniegta informācija par konsolidācijas kontu grupām un papildu konsolidācijas kontiem, kā arī paskaidrota to lietošana programmā Microsoft Dynamics 365 Finance.
 
-<a name="consolidation-account-groups"></a>Konsolidācijas kontu grupas
-----------------------------
+## <a name="consolidation-account-groups"></a>Konsolidācijas kontu grupas
 
 Konsolidācijas kontu grupas jums ļauj veidot grupas no kontiem, kurus vēlaties izmantot datu konsolidēšanai. Parasti konsolidācijas kontu grupa pārstāv likumā noteiktu kontu plānu vai kartē kontus uz uzņēmuma vadības definētu grupu. Konsolidācijas kontu grupas ir atrodamas moduļa **Konsolidācijas** apgabalā **Iestatīšana**. Kad pievienojat jaunu grupu, šai kontu grupai ir jāievada unikāls identifikators un nosaukums.
 

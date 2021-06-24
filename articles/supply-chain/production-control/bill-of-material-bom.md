@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811778"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190116"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Materiālu komplekti un formulas
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811778"
 
 Šajā tēmā ir sniegta informācija par materiālu komplektiem (MK) un formulām, kas ir nozīmīgi preču un preču variantu definēšanas elementi. MK un formulas norāda konkrētas preces nepieciešamos materiālus jeb komponentus. Formulas norāda arī līdzproduktus un blakusproduktus, kas tiek saņemti noteiktā ražošanas kontekstā. 
 
-<a name="bills-of-materials"></a>Materiālu komplekti
-------------------
+## <a name="bills-of-materials"></a>Materiālu komplekti
 
 Materiālu komplekts (MK) nosaka komponentus, kas nepieciešami, lai saražotu preci. Komponenti var būt izejmateriāli, daļēji pabeigtas preces vai sastāvdaļas. Dažos gadījumos MK var norādīt pakalpojumus. Tomēr MK parasti raksturo nepieciešamos *materiālu resursus*.  
 

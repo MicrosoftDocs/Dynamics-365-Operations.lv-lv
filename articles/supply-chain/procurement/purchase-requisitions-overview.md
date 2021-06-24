@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fc2f6104bc8a79ea4e8b6d0061f4b135026de0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825258"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188201"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkšanas pieprasījuma apskats
 
@@ -190,8 +190,7 @@ Lai konsolidētu apstiprinātās pirkšanas pieprasījuma rindas, rīkojieties �
 5.  Izveidojiet pirkšanas pasūtījumus konsolidētām pieprasījuma rindām vai pirkšanas pieprasījuma rindām konsolidācijas iespējā.
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Patēriņa pieprasījuma izveide](tasks/create-requisition-consumption.md)
 

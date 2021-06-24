@@ -1,8 +1,8 @@
 ---
-title: Konfigurācija Finanšu ieskatiem (priekšskatījums)
-description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finanšu ieskatos.
+title: Konfigurācija Finance Insights – versijām līdz 10.0.19
+description: Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights versijām līdz 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941230"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186424"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Konfigurācija Finanšu ieskatiem (priekšskatījums)
+# <a name="configuration-for-finance-insights-preview"></a>Konfigurācijas Finance Insights (priekšskatījums)
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,7 +30,10 @@ ms.locfileid: "5941230"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finanšu ieskati apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Microsoft Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finanšu ieskatos.
+> [!NOTE]
+> Tālāk norādītās procedūras Finance Insights iestatīšanai ir derīgas Microsoft Dynamics 365 Finance versijām līdz 10.0.19. Lai iestatītu Finance Insights versijā 10.0.20 vai jaunākā, skatiet [Finance Insights (priekšskatījuma) konfigurāciju – versijai 10.0.20 un jaunākām](configure-for-fin-insites-PubPrvw.md).
+
+Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Microsoft Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrotas konfigurācijas darbības, kas ļaus jūsu sistēmai izmantot iespējas, kas pieejamas Finance Insights.
 
 ## <a name="deploy-dynamics-365-finance"></a>Dynamics 365 Finance izvietošana
 
@@ -38,7 +41,7 @@ Izvietojiet vides, veicot tālāk norādītās darbības.
 
 1. Microsoft Dynamics Lifecycle Services (LCS) izveidojiet vai atjauniniet Dynamics 365 Finance vidi. Videi nepieciešama programmas versija 10.0.11/ platformas atjauninājums 35 vai jaunāka versija.
 2. Videi ir jābūt augstas pieejamības (AP) videi smilškastē. (Šis vides veids ir pazīstams arī kā 2. līmeņa vide.) Lai iegūtu papildu informāciju, skatiet [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Ja izmantojat Contoso demonstrācijas datus, būs nepieciešami papildu parauga dati, lai izmantotu Debitora maksājumu prognozes, Skaidras naudas plūsmas prognozes un Budžeta prognožu līdzekļus. 
+3. Konfigurējot Finance Insights, izmantojot smilškastes vidi, jums vajadzēs kopēt ražošanas datus uz šo vidi, lai varētu prognozēt darbu. Prognozēšanas modelī tiek izmantoti vairāki datu gadi, lai izveidotu prognozes. Contoso demonstrācijas dati neietver pietiekami daudz vēsturiskos datu, lai apmācītu prognozēšanas modeli. 
 
 ## <a name="configure-dataverse"></a>Dataverse konfigurēšana
 
@@ -90,7 +93,7 @@ Izmantojiet tālāk norādītās darbības, lai konfigurētu Dataverse programma
     2. Atlasiet lietotāja vārdu.
     3. Kopējiet **Objekta ID** vērtību.
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Izmantojiet Azure Cloud Shell, lai iestatītu Finanšu ieskatu Data Lake resursus
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Izmantojiet Azure Cloud Shell, lai iestatītu Data Lake resursus programmā Finance Insights
 
 # <a name="use-a-windows-powershell-script"></a>[Windows PowerShell skripta izmantošana](#tab/use-a-powershell-script)
 

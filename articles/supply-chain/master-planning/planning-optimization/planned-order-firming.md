@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103632"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193885"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -102,7 +102,7 @@ Automātiskā apstiprināšana ļauj apstiprināt plānotos pasūtījumus kā da
 
 Plānošanas optimizāciju un iebūvēto plānošanas programmu, var izmantot, lai automātiski apstiprinātu plānotos pasūtījumus. Taču pastāv dažas svarīgas atšķirības. Piemēram, Plānošanas optimizācija izmanto pasūtījuma datumu (t.i., sākuma datumu), lai noteiktu, kurus plānotos pasūtījumus apstiprināt, tā kā iebūvētā plānošanas programma izmanto prasības datumu (t.i., beigu datumu). Sekojošajā tabulā ir apkopotas atšķirības.
 
-| | Plānošanas optimizācija | Iebūvēta plānošanas programma |
+| Funkcija | Plānošanas optimizācija | Iebūvēta plānošanas programma |
 |---|---|---|
 | **Bāzes datums** | Automātiskā apstiprināšana ir balstīta uz pasūtījuma datumu (sākuma datumu). | Automātiskā apstiprināšana ir balstīta uz prasības datumu (beigu datuma). |
 | **Piegādes/izpildes laiks** | Tā kā pasūtījuma datums (sākuma datums) aktivizē apstiprināšanu, jums nav jāapsver izpildes laiks kā daļa no apstiprināšanas laika ierobežojuma. | Lai palīdzētu nodrošināt, ka pasūtījumi ir apstiprināti savlaicīgi, apstiprināšanas laika periodam jābūt ilgākam par izpildes laiku. |

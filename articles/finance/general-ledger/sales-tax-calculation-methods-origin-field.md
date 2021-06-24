@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815360"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189377"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVN aprēķina metodes laukā Izcelsme
 
@@ -52,8 +52,7 @@ Ja neto summa ir 10,00, tad 1. NODOKLIS ir 1,00 (10,00 x 10%) un 2. nodoklis ir 
 | Transakcijai var izmantoti tikai vienu nodokļa kodu, kam ir iestatīta lauka Izcelsme vērtība Procenti no bruto summas. Ja transakcijai ir norādīti vairāki šādi nodokļu kodi, tiek parādīts kļūdas ziņojums par to, ka nevar aprēķināt PVN. |
 
 
-<a name="percentage-of-sales-tax"></a>PVN %
------------------------
+## <a name="percentage-of-sales-tax"></a>PVN %
 
 Ja atlasāt lauka Izcelsme vērtību PVN %, PVN tiek aprēķināts kā procenti no PVN, kas ir atlasīts laukā PVN uz PVN. Vispirms tiek aprēķināts PVN, kas ir atlasīts laukā PVN uz PVN. Pēc tam otrs PVN tiek aprēķināts, pamatojoties uz pirmā PVN summu.
 ### <a name="example"></a>Paraugs
@@ -119,8 +118,7 @@ Dokumentam/žurnālam ir iestatīta parametra Summas ietver PVN vērtība Nē Tr
 
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [PVN likmju aprēķins, pamatojoties uz laukiem Aprēķina pamatā un Aprēķina metode](marginal-base-field.md)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908932"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188938"
 ---
 # <a name="routes-and-operations"></a>Maršruti un operācijas
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908932"
 
 Šajā tēmā ir sniegta informācija par maršrutiem un operācijām. Maršruts definē preces vai preces varianta ražošanas procesu. Tas raksturo katru ražošanas procesa darbību (operāciju) un šo darbību veikšanas secību. Maršruts definē arī katrai darbībai nepieciešamos operācijas resursus, nepieciešamo iestatīšanas un izpildes laiku un lietojamo izmaksu aprēķināšanas veidu.
 
-<a name="overview"></a>Pārskats
---------
+## <a name="overview"></a>Pārskats
 
 Maršruts raksturo preces vai preces varianta ražošanai nepieciešamo operāciju secību. Maršruts definē arī katrai operācijai nepieciešamos operācijas resursus, operācijas iestatīšanai un izpildei nepieciešamo laiku un lietojamo izmaksu aprēķināšanas veidu. Varat izmantot vienu maršrutu vairāku preču ražošanai vai definēt unikālu maršrutu katrai precei vai preces variantam. Varat pat izmantot vairākus maršrutus vienai precei. Šādā gadījumā izmantotais maršruts ir atkarīgs no tādiem faktoriem kā saražojamais daudzums. Maršruta definīcija programmatūrā FSupply Chain Management sastāv no četriem atsevišķiem elementiem, kas kopā raksturo ražošanas procesu:
 

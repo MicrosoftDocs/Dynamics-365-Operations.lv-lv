@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822231"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188025"
 ---
 # <a name="budget-planning"></a>Budžeta plānošana
 
@@ -34,8 +34,7 @@ ms.locfileid: "5822231"
 - Sadalījumu izmantošana, pielāgojot budžeta plāna dokumenta datus
 - Budžeta plāna dokumentu datu rediģēšana programmā Excel 
 
-<a name="prerequisites"></a>Priekšnosacījumi 
-------------------
+## <a name="prerequisites"></a>Priekšnosacījumi 
 
 Lai izpildītu šo apmācību, jums ir jāpiekļūst Microsoft Dynamics 365 Finance videi ar Contoso demonstrācijas datiem un jums ir jābūt norādītam kā šīs instances administratoram. Šī uzdevuma izpildē neizmantojiet privātās pārlūkošanas režīmu — ja nepieciešams, pārlūkprogrammā izrakstieties visiem citiem kontiem, un pēc tam pierakstieties, izmantojot administratora akreditācijas datus. Pierakstoties jums **IR JĀATZĪMĒ** izvēles rūtiņa “Saglabāt manu pieteikuminformāciju“. Tādējādi tiks izveidots pastāvīgs sīkfails, kas pašlaik nepieciešams programmai Excel. Ja pierakstāties programmā, izmantojot citu pārlūkprogrammu, izņemot IE, tiek piedāvāts pierakstīties programmā Excel. Kad programmā Excel noklikšķināsit uz “Pierakstīties“, pārlūkprogrammā IE tiks atvērts uznirstošais logs. Pierakstīšanās laikā **IR** jāatzīmē izvēles rūtiņa “Saglabāt manu pieteikuminformāciju“. Ja programmā Excel noklikšķinot uz Pierakstīties, netiek atvērta neviena uzvedne, pārlūkprogrammā IE notīriet sīkfailu kešatmiņu.
 

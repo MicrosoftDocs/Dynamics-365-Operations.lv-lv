@@ -2,7 +2,7 @@
 title: Iespējot vairākus pasūtījuma piegādes veidus klientu pasūtījumiem
 description: Šī tēma izskaidro Microsoft Dynamics 365 Commerce funkcionalitāti, kas ļauj izveidot klientu pasūtījumus saņemšanai veikalā.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020655"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216771"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Iespējot vairākus pasūtījuma piegādes veidus klientu pasūtījumiem
 
@@ -38,7 +38,7 @@ Pēc tam, kad esat ieslēdzis **Vairāku saņemšanas piegādes veidu atbalsts**
 
 Lauki **Carry Out piegādes veids** un **Elektroniskās piegādes veids**, kā arī opcija **Rādīt tikai pārvadātāja veidu opcijas kuģu pasūtījumiem** ir pārvietota uz šo kopsavilkuma cilni.
 
-Pirms konfigurējat papildu saņemšanas piegādes veidus, ir jādefinē piegādes veidi. Lapā **Piegādes veidi** sadaļā Commerce Headquarters pievienojiet piegādes veidus, kas jāuzskata par saņemšanas piegādes veidiem. Pārliecinieties, vai visas konfigurācijas ir pabeigtas. Piemēram, pārliecinieties, ka piegādes veids ir saistīts ar atbilstošiem kanāliem un krājumiem. Kad esat pabeidzis, palaidiet darbu **Apstrādāt piegādes veidus**, lai izveidotu attiecības starp piegādes veidu, kanāliem un krājumiem. Kad darbs ir pabeigts, atveriet **Sadales grafika** lapu sadaļā Commerce Headquarters un palaidiet **1120** sadales darbu, lai nodrošinātu, ka attiecīgās Commerce kanāla datu bāzes tiek atjauninātas ar jauno piegādes veida konfigurāciju.
+Pirms konfigurējat papildu saņemšanas piegādes veidus, ir jādefinē piegādes veidi. Lapā **Piegādes veidi** sadaļā Commerce Headquarters pievienojiet piegādes veidus, kas jāuzskata par saņemšanas piegādes veidiem. Pārliecinieties, vai visas konfigurācijas ir pabeigtas. Piemēram, piedāvājot saviem tiešsaistes klientiem saņemšanu pa ceļam kā piegādes opciju dažos veikalos, jums šim nolūkam ir jāizveido jauns piegādes veids. Šo piegādes veidu var izveidot, izmantojot “saņemšanu pa ceļam” kā aprakstu. Pēc tam vēlēsities nodrošināt, ka piegādes veids “saņemšana pa ceļam” ir kartēts visiem Commerce kanāliem, kas to var piedāvāt, tostarp tiešsaistes veikaliem, kas varētu piedāvāt šo opciju, un atsevišķiem veikala kanāliem, kas piedāvās šo izpildes metodi. Piegādes veidiem ir jābūt saistītiem arī ar precēm. Piemēram, ja ir noteiktas preces, kurām nevar izmantot izpildes metodi “saņemšana pa ceļam”, tad jānodrošina, lai šie krājumi tiktu izslēgti. Kad esat pabeidzis pievienot jaunos piegādes veidus, palaidiet darbu **Apstrādāt piegādes veidus**, lai izveidotu attiecības starp piegādes veidu, kanāliem un krājumiem. Kad darbs ir pabeigts, atveriet **Sadales grafika** lapu sadaļā Commerce Headquarters un palaidiet **1120** sadales darbu, lai nodrošinātu, ka attiecīgās Commerce kanāla datu bāzes tiek atjauninātas ar jauno piegādes veida konfigurāciju.
 
 ![Piegādes konfigurācijas veida piemērs saņemšanai pa ceļam](media/pickupmodes.png)
 

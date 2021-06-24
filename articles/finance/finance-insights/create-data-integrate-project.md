@@ -2,7 +2,7 @@
 title: Datu integrētāja projekta izveide (priekšskatījums)
 description: Šajā tēmā paskaidrots, kā izveidot datu integrētāja projektu.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867451"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186472"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Datu integrētāja projekta izveide (priekšskatījums)
 
@@ -67,10 +67,5 @@ ms.locfileid: "5867451"
 
 > [!NOTE]
 > Ja CDS neredzat obligātās entītijas, lūdzu, dodieties uz **Kredīti un iekasēšana > Iestatījumi > Finanšu ieskati > Finanšu ieskatu parametri**, iespējojiet debitoru maksājumu prognožu līdzekli un noklikšķiniet uz pogas **Izveidot prognozēšanas modeli**. Kad mākslīgā intelekta modeļa izvietošana ir pabeigta (veiksmīgi vai neveiksmīgi), CDS entītijas, kas nepieciešamas integrācijas izveidei, tiks izvietotas CDS.
-
-## <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

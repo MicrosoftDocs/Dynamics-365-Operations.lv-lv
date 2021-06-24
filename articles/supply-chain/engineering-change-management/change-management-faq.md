@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018689"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187275"
 ---
 # <a name="engineering-change-management-faq"></a>Bieži uzdotie jautājumi par tehnisko izmaiņu pārvaldību
 
@@ -46,7 +46,7 @@ Tehniskām kategorijām, kur esat atlasījis dimensiju grupu, kur versija **nav*
 
 Lielākā daļa organizāciju izvēlas šo opciju, jo tā nodrošina versiju un izmaiņu pārvaldību, bet nepievieno papildu atbalstu versijas izsekošanai katrā darījuma, krājumos un vispārējās plānošanas laikā.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Kuri lauki tiek kopēti izlaistajā preču veidnē?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Kuri lauki tiek kopēti no izlaistās krājuma veidnes?
 
 Kad tehniskais uzņēmums izveido tehnisko preci, šī prece tiek izveidota kā izlaistā prece tehniskajā uzņēmumā. Izveidotā izlaistā prece ir balstīta uz atlasītās *izlaistā krājuma veidnes*. (Izlaistā krājuma veidne pati ir jau izlaista prece.) Izlaistā krājuma veidne tiek izmantota arī tad, kad prece tiek izlaista operatīvajam uzņēmumam. Katrā gadījumā izlaistā krājuma veidne nosaka lielāko daļu no izlaistās preces lauka vērtībām, un šīs vērtības ir no saistītās lapas **Izlaistās preces informācija**.
 

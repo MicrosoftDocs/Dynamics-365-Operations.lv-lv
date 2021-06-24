@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bdd03dff359e7c2799eff53b0e999580ce8b1c06
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804385"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193107"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Pārdošanas punkta (POS) programma un lietotāja valodas iestatījumi
 
@@ -57,7 +57,7 @@ POS lietotāja valodas iestatījums nosaka tulkojumus, kas tiek izmantoti progr
 
 POS lietotāja valodas iestatījums tiek iestatīts, lapas **Darbinieks** sadaļā **Visi darbinieki** atlasot **Retail un Commerce &gt; Valoda**. Tas netiek iestatīts galvenajā cilnē Profils. Šo iestatījumu neizmanto POS. Ja lietotāja valoda nav iestatīta vai tā ir iestatīta uz valodu, kurā tulkojumi nav pieejami, POS atiestatīs veikala valodu.
 
-|             | UI valoda                | Datu valoda (preces, kvīšu formāti, rindu displejs utt.) |
+| &nbsp;      | UI valoda                | Datu valoda (preces, kvīšu formāti, rindu displejs utt.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Uzņēmums** | Noklusējums                    | Noklusējums                                                       |
 | **Veikals**   | Ignorē uzņēmumu          | Ignorē uzņēmumu                                             |

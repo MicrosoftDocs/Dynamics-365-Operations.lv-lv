@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796442"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193183"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Pasūtījuma izpildes iestatīšana veikaliem
 
@@ -33,9 +33,9 @@ Pasūtījumu izpildes operācija pārdošanas punktā nodrošina vienu darba apg
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Pasūtījuma izpildes operācijas iestatīšana
 
-Pasūtījumu izpildi, [Operācijas ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), var izmantot, lai piekļūtu veikala pasūtījumu izpildes darba apgabalam pārdošanas punktā.
+Pasūtījumu izpildi, [Operācijas ID 928](pos-operations.md), var izmantot, lai piekļūtu veikala pasūtījumu izpildes darba apgabalam pārdošanas punktā.
 
-Izpildiet darbības, kas aprakstītas tēmā [Operācijas pievienošana pogu režģim](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts), lai norādītu, kuru parametru izmantot, izsaucot pasūtījuma izpildi pārdošanas punktā. Pēc pasūtījuma izpildes operāciju norādīšanas pēc noklusējuma ir atzīmēta izvēles rūtiņa **Visi pasūtījumi**. Ja operācija ir konfigurēta ar šo parametru, tā visas pasūtījuma rindas uzskaita izpildei pašreizējā veikalā. Ir pieejams arī parametrs **Nosūtāmie pasūtījumi**, kuru var piešķirt kādai pogai un izmantot, kad lietotājs vēlas redzēt tikai pasūtījumus, kas tiks izsūtīti no veikala. Visbeidzot, ir parametrs **Izdodamie pasūtījumi**. Ja šis parametrs tiek izsaukts pārdošanas punktā, tiek uzskaitīti vienīgi pasūtījumi, kurus paredzēts izdot veikalā. Dažādos parametrus var piešķirt dažādām pogām, lai lietotājam nodrošinātu dažādus veidus, kā skatīt pasūtījumu izpildi.
+Izpildiet darbības, kas aprakstītas tēmā [Operācijas pievienošana pogu režģim](pos-screen-layouts.md), lai norādītu, kuru parametru izmantot, izsaucot pasūtījuma izpildi pārdošanas punktā. Pēc pasūtījuma izpildes operāciju norādīšanas pēc noklusējuma ir atzīmēta izvēles rūtiņa **Visi pasūtījumi**. Ja operācija ir konfigurēta ar šo parametru, tā visas pasūtījuma rindas uzskaita izpildei pašreizējā veikalā. Ir pieejams arī parametrs **Nosūtāmie pasūtījumi**, kuru var piešķirt kādai pogai un izmantot, kad lietotājs vēlas redzēt tikai pasūtījumus, kas tiks izsūtīti no veikala. Visbeidzot, ir parametrs **Izdodamie pasūtījumi**. Ja šis parametrs tiek izsaukts pārdošanas punktā, tiek uzskaitīti vienīgi pasūtījumi, kurus paredzēts izdot veikalā. Dažādos parametrus var piešķirt dažādām pogām, lai lietotājam nodrošinātu dažādus veidus, kā skatīt pasūtījumu izpildi.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Sniedziet lietotājiem iespēju piekļūt pasūtījumu izpildei pārdošanas punktā.
 
@@ -104,9 +104,9 @@ Pasūtījumu statuss pēc noklusējuma ir **Pieņemts**. Pasūtījumu rindu sara
 
 - **Rediģēt** — ja pasūtījuma statuss ir Gaida, to var rediģēt pārdošanas punktā. Pasūtījumus, kas ir jau daļēji izdoti, iepakoti vai iekļauti rēķinā, nevar rediģēt no pasūtījuma izpildes skata.
 - **Pieņemt** — ja kanāla līmenī ir konfigurēts iestatījums **Manuāla pieņemšana**, rindas vispirms ir jāpieņem, un tikai pēc tam rindām var izpildīt pasūtījuma izpildes procesu.
-- **Izdot** — izdošanas opcija atbalsta vairākas darbības. Vispirms **Izdošana** atjaunina pasūtījuma rindas statusu, lai citi lietotāji veikalā nemēģinātu izdot to pašu rindu. Pēc tam ar komandu **Drukāt izdošanas sarakstu** tiek izdrukāts izdošanas saraksts par atlasīto rindu vai rindām, kā arī to statuss tiek atjaunināts uz **Izdošana**. Izdošanas sarakstu formātu kontrolēšana veido daļu no ieejas plūsmas formātu kontroles. Papildinformāciju par to, kā iestatīt ieejas plūsmas formātus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Visbeidzot **Atzīmēt kā izdotu** norāda, ka rinda ir izdota. **Atzīmēt kā izdotu** uzsāk atbilstošas krājumu transakcijas iekšējā uzskaites daļā. Izdošanas darbības var vienlaikus veikt vairākām pasūtījumu rindām dažādos pasūtījumos un visiem piegādes veidiem.
+- **Izdot** — izdošanas opcija atbalsta vairākas darbības. Vispirms **Izdošana** atjaunina pasūtījuma rindas statusu, lai citi lietotāji veikalā nemēģinātu izdot to pašu rindu. Pēc tam ar komandu **Drukāt izdošanas sarakstu** tiek izdrukāts izdošanas saraksts par atlasīto rindu vai rindām, kā arī to statuss tiek atjaunināts uz **Izdošana**. Izdošanas sarakstu formātu kontrolēšana veido daļu no ieejas plūsmas formātu kontroles. Papildinformāciju par to, kā iestatīt ieejas plūsmas formātus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](receipt-templates-printing.md). Visbeidzot **Atzīmēt kā izdotu** norāda, ka rinda ir izdota. **Atzīmēt kā izdotu** uzsāk atbilstošas krājumu transakcijas iekšējā uzskaites daļā. Izdošanas darbības var vienlaikus veikt vairākām pasūtījumu rindām dažādos pasūtījumos un visiem piegādes veidiem.
 - **Noraidīt** — rindas vai daļējas rindas var noraidīt. Šī opcija ļauj mainīt rindu piešķiri, no iekšējās uzskaites daļas rindas pārpiešķirot citam veikalam vai noliktavai. Rindas var noraidīt tikai tādā gadījumā, ja tās vēl nav izdotas vai iepakotas. Lai noraidītu rindu, kas jau ir izdota vai iepakota, šai rindai no iekšējās uzskaites daļas ir nepieciešams anulēt izdošanu vai anulēt iepakošanu.
-- **Iepakot** — iepakošanas opcija atbalsta divas darbības: ar darbību **Drukāt pavadzīmi** atlasītajām rindām tiek drukāta pavadzīme, un ar darbību **Atzīmēt kā iepakotu** rindas tiek atzīmētas kā iepakotas un rindas tiek atzīmētas kā piegādātas iekšējās uzskaites daļā. Vienlaikus var iepakot tikai tādas pasūtījumu rindas, kas pieder vienam un tam pašam pasūtījumam un kam ir vienāds piegādes veids. Pavadzīmju formātu kontrolēšana veido daļu no ieejas plūsmas formātu kontroles. Papildinformāciju par to, kā iestatīt ieejas plūsmas formātus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Iepakot** — iepakošanas opcija atbalsta divas darbības: ar darbību **Drukāt pavadzīmi** atlasītajām rindām tiek drukāta pavadzīme, un ar darbību **Atzīmēt kā iepakotu** rindas tiek atzīmētas kā iepakotas un rindas tiek atzīmētas kā piegādātas iekšējās uzskaites daļā. Vienlaikus var iepakot tikai tādas pasūtījumu rindas, kas pieder vienam un tam pašam pasūtījumam un kam ir vienāds piegādes veids. Pavadzīmju formātu kontrolēšana veido daļu no ieejas plūsmas formātu kontroles. Papildinformāciju par to, kā iestatīt ieejas plūsmas formātus, skatiet šeit: [Ieejas plūsmas veidnes un drukāšana](receipt-templates-printing.md).
 - **Nosūtīt** — nosūtīšanas darbība atlasītās rindas iekšējās uzskaites daļā atzīmē kā **Piegādāts**. Kad rinda ir pilnībā nosūtīta, tā vairs netiek rādīta pasūtījuma izpildes skatā.
 - **Izdošana** — izdošanas darbība attiecīgās rindas pievieno izdošanai paredzētās transakcijas skatam. Ja pasūtījumā ir citas rindas, kas pašlaik netiek izdotas, tās tiek pievienotas transakciju skatam ar daudzumu nulle. Kad rinda ir pilnībā izdota, tā vairs netiek rādīta pasūtījuma izpildes skatā.
 

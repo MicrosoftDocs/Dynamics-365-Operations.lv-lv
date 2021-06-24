@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821989"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187872"
 ---
 # <a name="audit-policy-rules"></a>Audita ierobežojuma nosacījumi
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821989"
 
 Audita politiku var izmantot, lai novērtētu izdevumu pārskatus, kreditoru rēķinus un pirkšanas pasūtījumus, lai pārliecinātos, ka tie atbilst izveidotajiem politikas nosacījumiem. Visi ar audita politiku saistītie nosacījumi tiek izpildīti pakešuzdevuma režīmā saskaņā ar norādīto grafiku.  Katras politikas nosacījums ir politikas nosacījumu veida instance. Katram politikas nosacījumu veidam vienlaikus var būt aktīvs tikai viens politikas nosacījums. 
 
-<a name="queries-and-query-types"></a>Vaicājumi un vaicājumu veidi
------------------------
+## <a name="queries-and-query-types"></a>Vaicājumi un vaicājumu veidi
 
 Veidojot audita politikas nosacījumu, vispirms ir jāatlasa politikas nosacījuma veids. Politikas nosacījuma veids nosaka lietojumprogrammas objektu koka (AOT) vaicājumu, ar ko sāk politikas nosacījuma izveidi. Tas arī norāda vaicājuma veidu, ko izmanto politikas nosacījumam. Vaicājums nosaka pirmdokumentu, kuru novērtē politikas nosacījums. Tas arī norāda laukus pirmdokumentā, kas identificē gan juridisku personu, gan datumu, kas jāizmanto, kad auditam tiek atlasīti dokumenti. Vaicājuma veids kontrolē noklusējuma laukus vaicājuma lapā un lapā Audita ierobežojuma nosacījumi. Šajā tabulā ir parādīti vaicājumu veidi, kas pieejami audita politikas nosacījumiem.
 
@@ -91,8 +90,7 @@ Visiem noteiktas audita politikas nosacījumiem ir vienādi pakešuzdevumu param
 
 
 
-<a name="additional-resources"></a>Papildu resursi
---------
+## <a name="additional-resources"></a>Papildu resursi
 
 [Audita ierobežojuma nosacījumu pārkāpumi un gadījumi](audit-policy-violations-cases.md)
 [Definēt pirmdokumentu audita politikas](tasks/define-audit-policies-source-documents.md)

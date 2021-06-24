@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937890"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216616"
 ---
 # <a name="party-and-global-address-book"></a>Puse un globālā adrešu grāmata
 
@@ -143,16 +143,22 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
 ## <a name="setup"></a>Iestatīt
 
-1. Instalējiet pēdējo (2.2.2.60 vai jaunāku) [duālās programmas instrumentācijas risinājuma](https://aka.ms/dual-write-app) versiju.
+1. Atveriet savu Customer Engagement programmas vidi.
 
-2. Instalējiet [Dubultās rakstīšanas puses un globālās adrešu grāmatas risinājumus](https://aka.ms/dual-write-gab).
+2. Instalējiet pēdējo (2.2.2.60 vai jaunāku) [duālās programmas instrumentācijas risinājuma](https://aka.ms/dual-write-app) versiju.
 
-3. Apturiet tālāk norādītās kartes, jo tās vairs nav obligātas. Tā vietā palaidiet `Contacts V2 (msdyn_contactforparties)` karti.
+3. Instalējiet [Dubultās rakstīšanas puses un globālās adrešu grāmatas risinājumus](https://aka.ms/dual-write-gab).
+
+4. Atveriet Finance and Operations programmu. Pārejiet uz datu pārvaldības moduli un atlasiet cilni Duālais ieraksts. Tiks atvērta duālā ieraksta administrēšanas lapa.
+
+5. Pielietojiet 2. un 3. darbībā instalētos risinājumus, izmantojot funkciju [Pielietot risinājumu](link-your-environment.md).
+
+6. Apturiet tālāk norādītās kartes, jo tās vairs nav obligātas. Tā vietā palaidiet `Contacts V2 (msdyn_contactforparties)` karti.
 
     + CDS kontaktpersonas V2 un kontaktpersonas (attiecas uz debitoru kontaktpersonām)
     + CDS kontaktpersonas V2 un kontaktpersonas (attiecas uz kreditoru kontaktpersonām)
 
-4. Tālāk minētie elementu kartējumi ir atjaunināti puses funkcionalitātei, tāpēc tiem ir jālieto jaunākā versija.
+7. Tālāk minētie elementu kartējumi ir atjaunināti puses funkcionalitātei, tāpēc tiem ir jālieto jaunākā versija.
 
     Atbilstību karte | Atjaunināt līdz šai versijai | Izmaiņas
     ---|---|---
@@ -176,7 +182,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Šī ir jauna karte, kas ir pievienota kā daļa no ša laidiena.
 
-5. Pirms iepriekš minēto karšu lietošanas integrācijas atslēgas jāatjaunina manuāli, kā aprakstīts šādās darbībās. Pēc tam atlasiet **Saglabāt**.
+8. Pirms iepriekš minēto karšu lietošanas integrācijas atslēgas jāatjaunina manuāli, kā aprakstīts šādās darbībās. Pēc tam atlasiet **Saglabāt**.
 
     | Atbilstību karte | Atslēgas |
     |-----|------|
@@ -185,7 +191,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
     | Debitora/kreditora kontaktpersona | msdyn_contactforpartynumber [Kontaktpersona puses numuram]<br>msdyn_associatedcompanyid.cdm_companycode [Saistits uzņēmums (Uzņēmuma kods)] |
     | Kreditors | msdyn_vendoraccountnumber [Kreditora konta numurs]<br>msdyn_company.cdm_companycode [Uzņēmums (Uzņēmuma kods)]|
 
-6. Pakalpojumā Dataverse dublikātu noteikšanas kārtulu rakstzīmju ierobežojumi ir pieauguši no 450 līdz 700 rakstzīmēm. Šis ierobežojums ļauj pievienot vienu vai vairākas atslēgas dublikātu noteikšanas kārtulām. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Konts**, iestatot sekojošos laukus.
+9. Pakalpojumā Dataverse dublikātu noteikšanas kārtulu rakstzīmju ierobežojumi ir pieauguši no 450 līdz 700 rakstzīmēm. Šis ierobežojums ļauj pievienot vienu vai vairākas atslēgas dublikātu noteikšanas kārtulām. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Konts**, iestatot sekojošos laukus.
 
     | Lauks | Vērtība |
     |-------|-------|
@@ -201,7 +207,7 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
     ![Dublēt kontu kārtulu](media/duplicate-rule-1.PNG)
 
-7. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Kontaktpersonas**, iestatot sekojošos laukus.
+10. Izvērsiet dublikātu noteikšanas kārtulu tabulai **Kontaktpersonas**, iestatot sekojošos laukus.
 
     | Lauks | Vērtība |
     |-------|-------|
@@ -217,9 +223,9 @@ Elektroniskās adreses ir pieejamas tikai šajā režģī. Turpmākajos laidieno
 
     ![Dublēt kontaktpersonu kārtulu](media/duplicate-rule-2.PNG)
 
-8. Ja jūs esat esošs duālās rakstīšanas lietotājs, izpildiet norādes sadaļā [Jaunināšana uz pušu un globālo adrešu grāmatas modeli](upgrade-party-gab.md) un jauniniet savus datus.
+11. Ja jūs esat esošs duālās rakstīšanas lietotājs, izpildiet norādes sadaļā [Jaunināšana uz pušu un globālo adrešu grāmatas modeli](upgrade-party-gab.md) un jauniniet savus datus.
 
-9. Palaidiet kartes šādā secībā. Ja rodas kļūda, kas norāda, ka "Projekta apstiprināšana neizdevās. Trūkst mērķa lauka...", tad atveriet karti un atlasiet **Atsvaidzināt tabulas**. Pēc tam palaidiet karti.
+12. Palaidiet kartes šādā secībā. Ja rodas kļūda, kas norāda, ka "Projekta apstiprināšana neizdevās. Trūkst mērķa lauka...", tad atveriet karti un atlasiet **Atsvaidzināt tabulas**. Pēc tam palaidiet karti.
 
     Finance and Operations programma | Customer engagement programma  
     ----------------------------|------------------------

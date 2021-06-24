@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811365"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193909"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finanšu konsolidācijas un valūtas pārrēķināšanas pārskats
 
@@ -165,7 +165,8 @@ Klienti, kuri izmanto funkciju Finanšu pārskati finanšu konsolidācijai un va
 - **Racionalizēta valūtas pārrēķināšana** — pēc minimālā uzstādījuma programmā Finance jebkuru funkcijas Finanšu pārskatu veidošana pārskatu var pārrēķināt uzstādītajā pārskata valūtā. Turklāt jūs varat iestatīt neierobežotu pārskata valūtu skaitu.
 - **Elimināciju grāmatošana izcelsmes vietā** — varat izveidot un izdrukāt eliminācijas pārskatu, lai pārbaudītu eliminācijas transakcijas. Pēc tam varat grāmatot jaunas eliminācijas kā standarta starpuzņēmumu transakcijas. Varat arī izmantot eliminācijas juridisko personu jebkurai transakcijai, kuru nevēlaties savās juridiskajās personās.
 
-## <a name="supported-consolidation-scenarios"></a>Atbalstīto konsolidāciju scenāriji
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Finanšu pārskatu atbalstītie konsolidācijas scenāriji
+
 Tālāk aprakstīti daži programmas Finanšu pārskatu sniegšana atbalstītie konsolidācijas scenāriji.
 
 - Viena līmeņa un vairāku līmeņu juridisko personu konsolidācijas

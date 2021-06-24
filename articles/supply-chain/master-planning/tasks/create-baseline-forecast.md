@@ -1,5 +1,5 @@
 ---
-title: Bāzlīnijas prognozes izveide
+title: 'Rokasgrāmata: Bāzlīnijas prognozes izveide'
 description: Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu.
 author: ShylaThompson
 ms.date: 08/29/2018
@@ -13,72 +13,73 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d89219d90ddff7cec70195025ffc361fb8101552
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 95a20b30827c9096dd8d8f67d149305cf594ff05
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841723"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223966"
 ---
-# <a name="create-a-baseline-forecast"></a>Bāzlīnijas prognozes izveide
+# <a name="guide-create-a-baseline-forecast"></a>Rokasgrāmata: Bāzlīnijas prognozes izveide
 
 [!include [banner](../../includes/banner.md)]
 
-Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu. Šajā procedūrā ir parādīts, kā kopēt vēsturisko pieprasījumu, lai izveidotu bāzlīnijas prognozi visām precēm, izmantojot vienu krājumu sadalījuma principu. 
-
+Ražošanas plānotājs var izveidot bāzlīnijas prognozes, izmantojot laika sērijas prognozes modeļus vai kopējot vēsturisko pieprasījumu. Šajā procedūrā ir parādīts, kā kopēt vēsturisko pieprasījumu, lai izveidotu bāzlīnijas prognozi visām precēm, izmantojot vienu krājumu sadalījuma principu.
 
 ## <a name="set-up-an-item-allocation-key"></a>Krājumu sadalījuma principa iestatīšana
-1. Pārejiet uz sadaļu Vispārējā plānošana > Iestatījumi > Starpuzņēmumu plānošanas grupas.
-2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka Nosaukums, izmantojot vērtību "10".
+
+1. Pārejiet uz sadaļu **Vispārējā plānošana > Iestatījumi > Starpuzņēmumu plānošanas grupas**.
+2. Izmantojiet līdzekli Ātrais filtrs, lai atrastu ierakstus. Piemēram, filtrējiet pēc lauka *Nosaukums*, izmantojot vērtību *10*.
     * Pieprasījuma prognozēšana darbojas visām juridiskajām personām. Tāpēc nepieciešams iestatīt visus uzņēmumus, kuriem vēlaties ģenerēt prognozes vienā starpuzņēmumu plānošanas grupā.  
 3. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-4. Noklikšķiniet uz Krājumu sadalījuma principi.
+4. Atlasiet **Krājumu sadalījuma principi**.
     * Atlasiet visus krājumu sadalījuma principus, kuriem vēlaties izveidot prognozes.  
 5. Sarakstā atzīmējiet atlasīto rindu.
     * Atlasiet D_Aloc krājumu sadalījuma principu.  
-6. Noklikšķiniet uz >.
+6. Atlasīt **>**.
 7. Aizvērt lapu.
 8. Aizvērt lapu.
 
 ## <a name="set-up-the-demand-forecasting-parameters"></a>Pieprasījuma prognozēšanas parametru iestatīšana
-1. Pārejiet uz sadaļu Vispārējā plānošana > Iestatījumi > Pieprasījuma prognozēšana > Pieprasījuma prognozēšanas parametri.
-2. Izvērsiet prognozes algoritma parametru sadaļu.
-3. Laukā Prognozes ģenerēšanas stratēģija atlasiet Kopēt vēsturiskā pieprasījuma vietā.
-4. Noklikšķiniet uz Saglabāt.
+
+1. Pārejiet uz sadaļu **Vispārējā plānošana > Iestatījumi > Pieprasījuma prognozēšana > Pieprasījuma prognozēšanas parametri**.
+2. Izvērsiet **Prognozes algoritma parametru** sadaļu.
+3. Laukā **Prognozes ģenerēšanas stratēģija** atlasiet **Kopēt vēsturiskā pieprasījuma vietā**.
+4. Atlasiet **Saglabāt**.
 
 ## <a name="create-a-baseline-forecast"></a>Bāzlīnijas prognozes izveide
-1. Pārejiet uz sadaļu Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Ģenerēt statistisko bāzlīnijas prognozi.
-2. Ievadiet datumu laukā No datuma.
+
+1. Pārejiet uz sadaļu **Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Ģenerēt statistisko bāzlīnijas prognozi**.
+2. Ievadiet datumu laukā **No datuma**.
     * Ja jums ir pārdošanas pasūtījumi, sākot ar 2015. gada 1. janvāri, ievadiet šo datumu. Ja tā nav, ievadiet agrāko datumu no saviem pārdošanas pasūtījumiem.  
-3. Laukā Līdz datumam ievadiet datumu.
-    * Ievadiet jaunāko savu pārdošanas pasūtījumu datumu, piemēram, “2015-03-31”.  
-4. Ievadiet datumu laukā No datuma.
-    * Ievadiet “2015-04-01”. Šis datums tiks automātiski aprēķināts, lai izmantotu par nākamā prognozēšanas intervāla sākuma datumu.  
-5. Izvērsiet sadaļu Iekļaujamie ieraksti.
-6. Noklikšķiniet uz Filtrēt.
+3. Ievadiet datumu laukā **Līdz datumam**.
+    * Ievadiet jaunāko savu pārdošanas pasūtījumu datumu, piemēram, *2015-03-31*.  
+4. Ievadiet datumu laukā **No datuma**.
+    * Ievadiet *2015-04-01*. Šis datums tiks automātiski aprēķināts, lai izmantotu par nākamā prognozēšanas intervāla sākuma datumu.  
+5. Izvērsiet sadaļu **Iekļaujamie ieraksti**.
+6. Atlasiet **Filtrēt**.
 7. Sarakstā atzīmējiet atlasīto rindu.
-    * Iezīmējiet rindu, kur lauka vērtība ir starpuzņēmumu plānošanas grupa.  
-8. Laukā Kritēriji ierakstiet kādu vērtību.
-    * Ierakstiet starpuzņēmumu plānošanas grupu, piemēram, 10, kuru izmantojāt pirmajā uzdevumā.  
+    * Iezīmējiet rindu, kur **Field** = *Starpuzņēmumu plānošanas grupa*.  
+8. Laukā **Kritēriji** ierakstiet kādu vērtību.
+    * Ierakstiet starpuzņēmumu plānošanas grupu (piemēram, *10*), kuru izmantojāt pirmajā uzdevumā.  
 9. Sarakstā atrodiet un atlasiet vajadzīgo ierakstu.
-    * Atlasiet rindu, kurā lauka vērtība ir krājumu sadalījuma princips.  
-10. Laukā Kritēriji ierakstiet kādu vērtību.
-11. Noklikšķiniet uz OK.
-12. Izvērsiet sadaļu Papildu parametri.
-13. Laukā Prognozes intervāls atlasiet "Mēnesis".
-14. Laukā Prognozes periods ievadiet "3".
-15. Laukā Periods bez izmaiņām ievadiet “1”.
-16. Noklikšķiniet uz OK.
+    * Atlasiet rindu, kurā **Field** = *Krājumu sadalījuma princips*.  
+10. Laukā **Kritēriji** ierakstiet kādu vērtību.
+11. Atlasiet **Labi**.
+12. Izvērsiet sadaļu **Papildu parametri**.
+13. Laukā **Prognozes intervāls** atlasiet *Mēnesis*.
+14. Laukā **Prognozes periods** ievadiet *3*.
+15. Laukā **Periods bez izmaiņām** ievadiet *1*.
+16. Atlasiet **Labi**.
 
 ## <a name="visualize-the-demand-forecast"></a>Pieprasījuma prognozes vizualizēšana
-1. Pārejiet uz sadaļu Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Pielāgotā pieprasījuma prognoze.
+
+1. Pārejiet uz sadaļu **Vispārējā plānošana > Prognozēšana > Pieprasījuma prognozēšana > Pielāgotā pieprasījuma prognoze**.
 2. Apkoptā skatījuma tabulā atlasiet šūnu 1. rindas 2. kolonnā. Šis ir otrais mēnesis, kuram esat izveidojis prognozi.
-3. Iestatiet QtyCell vērtību "400".
+3. Iestatiet **QtyCell** vērtību uz *400*.
     * Šūnā ievadiet citu numuru, nevis prognozēto, piemēram, 400.  
 4. Esat veicis manuālās prognozes korekcijas. Ievērojiet grafisko norādi nākamajā darbībā.
-5. Noklikšķiniet uz Detalizēta informācija par prognozes rindu.
+5. Atlasiet **Detalizēta informācija par prognozes rindu**.
     * Šajā lapā varat apskatīt precizitātes vērtības, vēsturisko pieprasījumu un prognozi. Varat arī veikt prognožu izmaiņas.  
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

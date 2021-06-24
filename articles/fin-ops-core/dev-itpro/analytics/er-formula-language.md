@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753268"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223990"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronisko atskaišu veidošanas formulas valoda
 
@@ -38,13 +38,13 @@ ER izteiksmes var saturēt jebkuru vai visus no šādiem elementiem:
 - [Ceļi](#Paths)
 - [Funkcijas](#Functions)
 
-## <a name=""></a><a name="Constants">Konstantes</a>
+## <a name="constants"></a><a name="Constants"></a>Konstantes
 
 Kad veidojat izteiksmes, varat lietot teksta un skaitļu konstantes (t.i., vērtības, kas netiek aprēķinātas). Piemēram, izteiksme `VALUE ("100") + 20` lieto skaitļu konstanti **20** un virknes konstanti **"100"**, un atgriež skaitlisku vērtību **120**.
 
 ER formulas veidotājs atbalsta atsoļa sekvences. Tādējādi varat norādīt, kura izteiksmes virkne ir jāapstrādā citādi. Piemēram, izteiksme `"Leo Tolstoy ""War and Peace"" Volume 1"` atgriež teksta virkni **Leo Tolstoy "War and Peace" Volume 1**.
 
-## <a name=""></a><a name="Operators">Operatori</a>
+## <a name="operators"></a><a name="Operators"></a>Operatori
 
 Tālāk esošajā tabulā ir parādīti aritmētiskie operatori, ko varat izmantot, lai veiktu pamata matemātiskās darbības, piemēram, saskaitīšanu, atņemšanu, reizināšanu un dalīšanu.
 
@@ -88,9 +88,9 @@ Ir svarīgi, kādā secībā tiek vērtētas saliktas izteiksmes daļas. Piemēr
 
 Ja izteiksmē ir vairāki secīgi operatori ar vienādu prioritātes vērtību, šie operatori tiek vērtēti no kreisās uz labo pusi. Piemēram, izteiksme `1 + 6 / 2 \* 3 > 5` atgriež vērtību **true**. Ieteicams izmantot iekavas, lai skaidri norādītu vēlamo operāciju secību izteiksmēs, lai izteiksmes būtu vieglāk lasāmas un uzturamas.
 
-## <a name=""></a><a name="References">Atsauces</a>
+## <a name="references"></a><a name="References"></a>Atsauces
 
-Visus pašreizējā ER komponenta datu avotus, kas ir pieejami izteiksmes veidošanas laikā, var izmantot kā nosauktas atsauces. Pašreizējais ER komponents var būt vai nu modeļa kartēšana, vai formāts. Piemēram, pašreizējā ER datu modeļa kartēšana ietver datu avotu **ReportingDate**, kurš atgriež vērtību ar datu tipu *DateTime*. Lai pareizi formatētu šo vērtību ģenerēšanas dokumentā, izteiksmē uz datu avotu varat atsaukties šādi: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Visus pašreizējā ER komponenta datu avotus, kas ir pieejami izteiksmes veidošanas laikā, var izmantot kā nosauktas atsauces. Pašreizējais ER komponents var būt vai nu modeļa kartēšana, vai formāts. Piemēram, pašreizējā ER datu modeļa kartēšana ietver datu avotu **ReportingDate**, kurš atgriež vērtību ar datu tipu [*DateTime*](er-formula-supported-data-types-primitive.md#datetime). Lai pareizi formatētu šo vērtību ģenerēšanas dokumentā, izteiksmē uz datu avotu varat atsaukties šādi: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Pirms visām ar atsauci norādītā datu avota nosaukumā esošajām rakstzīmēm, kas nav alfabēta burti, ir jāievieto vienpēdiņa ('). Ja ar atsauci norādītā datu avota nosaukumā ir vismaz viens simbols, kas nav alfabēta burts, nosaukums ir jāietver vienpēdiņās. Šie simboli, kas nav alfabēta burti, var būt, piemēram, pieturzīmes vai citi rakstveida simboli. Daži piemēri:
 
@@ -99,7 +99,7 @@ Pirms visām ar atsauci norādītā datu avota nosaukumā esošajām rakstzīmē
 
 Ja programmas datu avotu metodēm ir parametri, šo metožu izsaukšanai tiek izmantota tālāk norādītā sintakse.
 
-- Ja datu avota System metodei **isLanguageRTL** ir **System** parametrs **EN-US** ar datu tipu *String*, ER izteiksmē uz šo metodi ir jāatsaucas šādi: `System.isLanguageRTL("EN-US")`.
+- Ja datu avota **System** metodei **isLanguageRTL** ir parametrs **EN-US** ar datu tipu [*String*](er-formula-supported-data-types-primitive.md#string), tad ER izteiksmē uz šo metodi ir jāatsaucas šādi: `System.isLanguageRTL("EN-US")`.
 - Pēdiņas nav obligātas, ja metodes nosaukums ietver tikai burtu un ciparu simbolus. Taču tās ir obligātas tabulas metodei, ja nosaukums ietver iekavas.
 
 Kad datu avots **System** tiek pievienots ER kartēšanai, kas atsaucas uz programmas klasi **Global**, izteiksme `System.isLanguageRTL("EN-US ")` atgriež *Būla* vērtību **FALSE**. Modificētā izteiksme `System.isLanguageRTL("AR")` atgriež *Būla* vērtību **TRUE**.
@@ -107,9 +107,9 @@ Kad datu avots **System** tiek pievienots ER kartēšanai, kas atsaucas uz progr
 Varat ierobežot veidu, kādā vērtības tiek nodotas šī tipa metodes parametriem.
 
 - Šī tipa metodēm var nodot tikai konstantes. Konstanšu vērtības tiek definētas veidošanas laikā.
-- Šī tipa parametriem tiek atbalstīti tikai primitīvi (pamata) datu tipi. Primitīvie datu tipi ir *vesels skaitlis*, *reāls skaitlis*, *Būla vērtība* un *virkne*.
+- Šī tipa parametriem tiek atbalstīti tikai [primitīvi](er-formula-supported-data-types-primitive.md) (pamata) datu tipi. Primitīvie datu tipi ir *vesels skaitlis*, *reāls skaitlis*, *Būla vērtība* un *virkne*.
 
-## <a name=""></a><a name="Paths">Ceļi</a>
+## <a name="paths"></a><a name="Paths"></a>Ceļi
 
 Ja izteiksme atsaucas uz kādu strukturētu datu avotu, ceļa definīciju varat izmantot, lai atlasītu konkrētu šī datu avota primitīvo elementu. Punkta rakstzīme (.) tiek lietota, lai atdalītu atsevišķus strukturēta datu avota elementus. Piemēram, pašreizējā ER datu modeļa kartēšana ietver datu avotu **InvoiceTransactions**, un šis datu avots atgriež ierakstu sarakstu. Ieraksta **InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, un šie abi lauki atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto summu, var noformēt šādu izteiksmi: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Šīs `InvoiceTransactions.AmountDebit` izteiksmes konstrukcija ir ceļš, kas tiek izmantots, lai piekļūtu veida **Record List** datu avota **InvoiceTransactions** laukam *AmountDebit*.
 
@@ -129,7 +129,7 @@ Atlikusī absolūtā ceļa daļa tiek rādīta arī [ER formulas redaktorā.](ge
 
 Papildinformācijai skatiet [Relatīva ceļa lietošana ER modeļu un formātu datu saistījumiem](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">Funkcijas</a>
+## <a name="functions"></a><a name="Functions"></a>Funkcijas
 
 ER iebūvētās funkcijas var izmantot ER izteiksmēs. Visus izteiksmes konteksta datu avotus (respektīvi, pašreizējo ER datu kartēšanu vai ER formātu) var izmantot kā parametrus funkciju izsaukšanai saskaņā ar funkciju izsaukšanas argumentu sarakstu. Kā funkciju izsaukšanas parametrus var izmantot arī konstantes. Piemēram, pašreizējā ER datu modeļa kartēšana ietver datu avotu **InvoiceTransactions**, un šis datu avots atgriež ierakstu sarakstu. Ieraksta **InvoiceTransactions** struktūra ietver laukus **AmountDebit** un **AmountCredit**, un šie abi lauki atgriež skaitliskas vērtības. Tāpēc, lai aprēķinātu rēķinā iekļauto sumu, varat izveidot šādu izteiksmi, kas lieto iebūvēto ER noapaļošanas funkciju: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Paplašināt elektronisko pārskatu veidošanas funkciju sarakstu](general-electronic-reporting-formulas-list-extension.md)
 
+[Atbalstītie primitīvie datu tipi](er-formula-supported-data-types-primitive.md)
+
+[Atbalstītie saliktie datu tipi](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

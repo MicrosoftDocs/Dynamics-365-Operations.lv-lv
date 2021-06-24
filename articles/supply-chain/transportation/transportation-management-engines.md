@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920113"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188857"
 ---
 # <a name="transportation-management-engines"></a>Transportēšanas pārvaldības programmas
 
@@ -43,8 +43,7 @@ Tālāk sniegtajā tabulā ir norādītas transportēšanas pārvaldības progra
 | **Kravas pavadzīmes veids**            | Standartizē kravas rēķina un kravas pavadzīmes rindas. Izmantot automātiskai kravas pavadzīmes salīdzināšanai.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kuras programmas ir jākonfigurē, lai sūtījumam izveidotu likmes?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Kuras programmas ir jākonfigurē, lai sūtījumam izveidotu likmes?
 
 Lai izveidotu likmes sūtījumam, kam tiek izmantots noteikts pārvadātājs, ir jākonfigurē vairākas transportēšanas pārvaldības programmas. **Likmes noteikšanas programma** ir obligāti nepieciešama, taču, lai nodrošinātu **likmes noteikšanas programmas** atbalstu, var būt nepieciešamas citas transportēšanas pārvaldības programmas. Piemēram **likmes noteikšanas programmu** var izmantot, lai izgūtu datus no **attāluma noteikšanas programmas** un aprēķinātu likmi, pamatojoties uz attālumu starp avotu un mērķi.
 
@@ -62,8 +61,7 @@ Vairumā gadījumu, lai konfigurētu inicializēšanas datus, varat noklikšķin
 |  <em>MileageEngineCode</em>  |                       Attāluma noteikšanas programmas kods, kas identificē attāluma noteikšanas programmas ierakstu datu bāzē.                        |
 | <em>ApportionmentEngine</em> |                        Vispārīgās programmas kods, kas identificē norīkojumu programmu datu bāzē.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Kā transportēšanas pārvaldības programmas izmanto metadatus?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kā transportēšanas pārvaldības programmas izmanto metadatus?
 
 Transportēšanas pārvaldības programmas, kas izmanto programmatūrā Supply Chain Management definētos datus, var izmantot dažādas datu shēmas. Transportēšanas pārvaldības sistēma ļauj dažādām transportēšanas pārvaldības programmām izmantot vienas un tās pašas vispārējo fizisko datu bāžu tabulas. Lai nodrošinātu, ka programmas datu izpildes laika interpretācija ir pareiza, varat definēt metadatus datu bāzes tabulām. Tas samazina jaunu transportēšanas pārvaldības programmu izstrādes izmaksas, jo sistēmā Operations nav nepieciešamas papildu tabulu un veidlapu struktūras.
 

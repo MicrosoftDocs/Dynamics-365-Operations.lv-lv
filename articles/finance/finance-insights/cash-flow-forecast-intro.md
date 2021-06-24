@@ -2,7 +2,7 @@
 title: Skaidras naudas plūsmas prognoze (priekšskatījums)
 description: Šajā tēmā aprakstīta skaidras naudas plūsmas prognozēšanas spēja.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811415"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186544"
 ---
 # <a name="cash-flow-forecast-preview"></a>Skaidras naudas plūsmas prognoze (priekšskatījums)
 
@@ -62,9 +62,5 @@ Skaidras naudas plūsmas prognozēšanas funkcionalitāte Dynamics 365 Finance d
 Jauna cilne lapā **Skaidras naudas plūsmas prognozes iestatīšana** ļauj kontrolēt, kādas finanšu dimensijas izmantot filtrēšanai darbvietā **Skaidras naudas plūsmas prognozēšana**. Šī cilne parādīsies tikai tad, ja ir iespējots skaidras naudas plūsmas prognozēšanas līdzeklis. 
 
 Cilnē **Dimensijas** izvēlieties no dimensiju saraksta, ko izmantot filtrēšanai, un izmantojiet bulttaustiņus, lai pārvietotu tās uz kolonnu labajā pusē. Skaidras naudas plūsmas prognozēšanas datu filtrēšanai varat atlasīt tikai divas dimensijas. 
-
-#### <a name="privacy-notice"></a>Paziņojums par konfidencialitāti
-Priekšskatījumiem (1) var tikt izmantots mazāk konfidencialitātes un drošības pasākumu nekā pakalpojumam Dynamics 365 Finance and Operations, (2) tie nav ietverti pakalpojuma līmeņa līgumā par šo pakalpojumu, (3) tos nedrīkst izmantot personas datu vai citu tādu datu apstrādei, uz kuriem attiecas juridiskās vai normatīvās prasības, un (4) tiem tiek nodrošināts ierobežots atbalsts.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
