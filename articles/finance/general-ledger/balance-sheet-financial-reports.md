@@ -15,67 +15,65 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821941"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189025"
 ---
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="1b958-104">Bilances finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="1b958-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="c92b8-104">Bilances finanšu pārskati</span><span class="sxs-lookup"><span data-stu-id="c92b8-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1b958-105">Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm.</span><span class="sxs-lookup"><span data-stu-id="1b958-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="1b958-106">Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki.</span><span class="sxs-lookup"><span data-stu-id="1b958-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="c92b8-105">Šajā rakstā ir aprakstīti noklusējuma pārskati bilancēm.</span><span class="sxs-lookup"><span data-stu-id="c92b8-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="c92b8-106">Tajā ir aprakstīti arī ar šiem pārskatiem saistītie veidošanas bloki.</span><span class="sxs-lookup"><span data-stu-id="c92b8-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="1b958-107">Noklusējuma bilances pārskati</span><span class="sxs-lookup"><span data-stu-id="1b958-107">Default balance sheet reports</span></span>
------------------------------
+## <a name="default-balance-sheet-reports"></a><span data-ttu-id="c92b8-107">Noklusējuma bilances pārskati</span><span class="sxs-lookup"><span data-stu-id="c92b8-107">Default balance sheet reports</span></span>
 
-<span data-ttu-id="1b958-108">Ir divi noklusējuma bilances pārskati.</span><span class="sxs-lookup"><span data-stu-id="1b958-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="1b958-109">Vienā pārskatā sadaļas ir izvietotas secīgi.</span><span class="sxs-lookup"><span data-stu-id="1b958-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="1b958-110">Otrā pārskatā sadaļas atrodas blakus.</span><span class="sxs-lookup"><span data-stu-id="1b958-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="c92b8-108">Ir divi noklusējuma bilances pārskati.</span><span class="sxs-lookup"><span data-stu-id="c92b8-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="c92b8-109">Vienā pārskatā sadaļas ir izvietotas secīgi.</span><span class="sxs-lookup"><span data-stu-id="c92b8-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="c92b8-110">Otrā pārskatā sadaļas atrodas blakus.</span><span class="sxs-lookup"><span data-stu-id="c92b8-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="1b958-111">Noklusējuma pārskats</span><span class="sxs-lookup"><span data-stu-id="1b958-111">Default report</span></span>                       | <span data-ttu-id="1b958-112">Ko tā dara</span><span class="sxs-lookup"><span data-stu-id="1b958-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="c92b8-111">Noklusējuma pārskats</span><span class="sxs-lookup"><span data-stu-id="c92b8-111">Default report</span></span>                       | <span data-ttu-id="c92b8-112">Ko tā dara</span><span class="sxs-lookup"><span data-stu-id="c92b8-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="1b958-113">Bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="1b958-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="1b958-114">Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu.</span><span class="sxs-lookup"><span data-stu-id="1b958-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="1b958-115">Līdzās atvērta bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="1b958-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="1b958-116">Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu.</span><span class="sxs-lookup"><span data-stu-id="1b958-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="1b958-117">Līdzās tiek rādīti aktīvi un saistības, kā arī akcionāru kapitāls.</span><span class="sxs-lookup"><span data-stu-id="1b958-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="c92b8-113">Bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="c92b8-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="c92b8-114">Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu.</span><span class="sxs-lookup"><span data-stu-id="c92b8-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="c92b8-115">Līdzās atvērta bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="c92b8-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="c92b8-116">Sniedz pārskatu par organizācijas finanšu pozīciju attiecībā uz gadu.</span><span class="sxs-lookup"><span data-stu-id="c92b8-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="c92b8-117">Līdzās tiek rādīti aktīvi un saistības, kā arī akcionāru kapitāls.</span><span class="sxs-lookup"><span data-stu-id="c92b8-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="1b958-118">Veidošanas bloki</span><span class="sxs-lookup"><span data-stu-id="1b958-118">Building blocks</span></span>
-<span data-ttu-id="1b958-119">Bilances finanšu pārskati izmanto tālāk aprakstītos veidošanas blokus.</span><span class="sxs-lookup"><span data-stu-id="1b958-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="c92b8-118">Veidošanas bloki</span><span class="sxs-lookup"><span data-stu-id="c92b8-118">Building blocks</span></span>
+<span data-ttu-id="c92b8-119">Bilances finanšu pārskati izmanto tālāk aprakstītos veidošanas blokus.</span><span class="sxs-lookup"><span data-stu-id="c92b8-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="1b958-120">Noklusējuma atskaite</span><span class="sxs-lookup"><span data-stu-id="1b958-120">Default report</span></span>                       | <span data-ttu-id="1b958-121">Rindas definīcija</span><span class="sxs-lookup"><span data-stu-id="1b958-121">Row definition</span></span>                       | <span data-ttu-id="1b958-122">Kolonnas definīcija</span><span class="sxs-lookup"><span data-stu-id="1b958-122">Column definition</span></span>             |
+| <span data-ttu-id="c92b8-120">Noklusējuma atskaite</span><span class="sxs-lookup"><span data-stu-id="c92b8-120">Default report</span></span>                       | <span data-ttu-id="c92b8-121">Rindas definīcija</span><span class="sxs-lookup"><span data-stu-id="c92b8-121">Row definition</span></span>                       | <span data-ttu-id="c92b8-122">Kolonnas definīcija</span><span class="sxs-lookup"><span data-stu-id="c92b8-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="1b958-123">Bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="1b958-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="1b958-124">Bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="1b958-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="1b958-125">Šī gada un novirzes - noklusējuma</span><span class="sxs-lookup"><span data-stu-id="1b958-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="1b958-126">Līdzās atvērta bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="1b958-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="1b958-127">Līdzās atvērta bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="1b958-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="1b958-128">Šī gada kolonna - noklusējuma</span><span class="sxs-lookup"><span data-stu-id="1b958-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="c92b8-123">Bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="c92b8-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="c92b8-124">Bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="c92b8-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="c92b8-125">Šī gada un novirzes - noklusējuma</span><span class="sxs-lookup"><span data-stu-id="c92b8-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="c92b8-126">Līdzās atvērta bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="c92b8-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="c92b8-127">Līdzās atvērta bilance — noklusējums</span><span class="sxs-lookup"><span data-stu-id="c92b8-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="c92b8-128">Šī gada kolonna - noklusējuma</span><span class="sxs-lookup"><span data-stu-id="c92b8-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="1b958-129">Rindas definīcija</span><span class="sxs-lookup"><span data-stu-id="1b958-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="c92b8-129">Rindas definīcija</span><span class="sxs-lookup"><span data-stu-id="c92b8-129">Row definition</span></span>
 
-<span data-ttu-id="1b958-130">Rindas definīcijas abiem bilances pārskatiem satur sadaļas, kas atbilst katrai tradicionālās bilances daļai.</span><span class="sxs-lookup"><span data-stu-id="1b958-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="1b958-131">Blakus izvietojuma pārskatā iekļauti kolonnu pārtraukumi, tādējādi saistības un īpašnieka kapitāls tiek attēloti līdzās aktīviem.</span><span class="sxs-lookup"><span data-stu-id="1b958-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="1b958-132">Abu rindu definīciju izveidē tiek izmantota galvenā konta kategorijas dimensija.</span><span class="sxs-lookup"><span data-stu-id="1b958-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="1b958-133">Tāpēc ikviens var ģenerēt pārskatus bez nepieciešamības veikt modifikācijas.</span><span class="sxs-lookup"><span data-stu-id="1b958-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="c92b8-130">Rindas definīcijas abiem bilances pārskatiem satur sadaļas, kas atbilst katrai tradicionālās bilances daļai.</span><span class="sxs-lookup"><span data-stu-id="c92b8-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="c92b8-131">Blakus izvietojuma pārskatā iekļauti kolonnu pārtraukumi, tādējādi saistības un īpašnieka kapitāls tiek attēloti līdzās aktīviem.</span><span class="sxs-lookup"><span data-stu-id="c92b8-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="c92b8-132">Abu rindu definīciju izveidē tiek izmantota galvenā konta kategorijas dimensija.</span><span class="sxs-lookup"><span data-stu-id="c92b8-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="c92b8-133">Tāpēc ikviens var ģenerēt pārskatus bez nepieciešamības veikt modifikācijas.</span><span class="sxs-lookup"><span data-stu-id="c92b8-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="1b958-134">Kolonnas definīcija</span><span class="sxs-lookup"><span data-stu-id="1b958-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="c92b8-134">Kolonnas definīcija</span><span class="sxs-lookup"><span data-stu-id="c92b8-134">Column definition</span></span>
 
-<span data-ttu-id="1b958-135">Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņa detaļas un finanšu datus.</span><span class="sxs-lookup"><span data-stu-id="1b958-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="c92b8-135">Kolonnu definīcijas satur dažādu veidu kolonnas, lai sniegtu dažāda līmeņa detaļas un finanšu datus.</span><span class="sxs-lookup"><span data-stu-id="c92b8-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="1b958-136">**Šī gada un novirzes – noklusējuma kolonnu tipi**</span><span class="sxs-lookup"><span data-stu-id="1b958-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="1b958-137">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="1b958-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="1b958-138">**FD** — finanšu dati par šo gadu līdz šim brīdim.</span><span class="sxs-lookup"><span data-stu-id="1b958-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="1b958-139">**FD** — finanšu dati par pagājušo gadu.</span><span class="sxs-lookup"><span data-stu-id="1b958-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="1b958-140">**CALC** — novirze, atņemot pagājušajā gada summas no šī gada summām.</span><span class="sxs-lookup"><span data-stu-id="1b958-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="c92b8-136">**Šī gada un novirzes – noklusējuma kolonnu tipi**</span><span class="sxs-lookup"><span data-stu-id="c92b8-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="c92b8-137">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="c92b8-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="c92b8-138">**FD** — finanšu dati par šo gadu līdz šim brīdim.</span><span class="sxs-lookup"><span data-stu-id="c92b8-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="c92b8-139">**FD** — finanšu dati par pagājušo gadu.</span><span class="sxs-lookup"><span data-stu-id="c92b8-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="c92b8-140">**CALC** — novirze, atņemot pagājušajā gada summas no šī gada summām.</span><span class="sxs-lookup"><span data-stu-id="c92b8-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="1b958-141">**Šī gada kolonna — noklusējuma**</span><span class="sxs-lookup"><span data-stu-id="1b958-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="1b958-142">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="1b958-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="1b958-143">**FD** — finanšu dati par šo gadu līdz šim brīdim.</span><span class="sxs-lookup"><span data-stu-id="1b958-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="c92b8-141">**Šī gada kolonna — noklusējuma**</span><span class="sxs-lookup"><span data-stu-id="c92b8-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="c92b8-142">**DESC** — apraksts no rindas definīcijas.</span><span class="sxs-lookup"><span data-stu-id="c92b8-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="c92b8-143">**FD** — finanšu dati par šo gadu līdz šim brīdim.</span><span class="sxs-lookup"><span data-stu-id="c92b8-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="1b958-144">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="1b958-144">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="c92b8-144">Papildu resursi</span><span class="sxs-lookup"><span data-stu-id="c92b8-144">Additional resources</span></span>
 
-[<span data-ttu-id="1b958-145">Finanšu pārskatu veidošanas apskats</span><span class="sxs-lookup"><span data-stu-id="1b958-145">Financial reporting overview</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="c92b8-145">Finanšu pārskatu veidošanas apskats</span><span class="sxs-lookup"><span data-stu-id="c92b8-145">Financial reporting overview</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="1b958-146">Finanšu pārskatu skatīšana</span><span class="sxs-lookup"><span data-stu-id="1b958-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="c92b8-146">Finanšu pārskatu skatīšana</span><span class="sxs-lookup"><span data-stu-id="c92b8-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="1b958-147">Dynamics finanšu pārskatu veidošanas emuārs</span><span class="sxs-lookup"><span data-stu-id="1b958-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="c92b8-147">Dynamics finanšu pārskatu veidošanas emuārs</span><span class="sxs-lookup"><span data-stu-id="c92b8-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
