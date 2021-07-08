@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052077"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271493"
 ---
 # <a name="buy-and-sell-leave"></a>Atvaļinājuma iegāde un pārdošana
 
@@ -47,6 +47,12 @@ Jūsu atlikumi tiks automātiski atjaunināti vai pirms atjaunināšanas tiks ve
 3. Atlasiet **Iesniegt**, kad esat gatavs iesniegt savu pieprasījumu.
 
 Jūsu atlikumi tiks automātiski atjaunināti vai pirms atjaunināšanas tiks veikti apstiprināšanas procesi. Tas ir atkarīgs no tā, kā pirkšanas politika ir konfigurēta.
+
+
+## <a name="troubleshooting"></a>Problēmu novēršana 
+
+Ja pirkšanas vai pārdošanas atvaļinājumu pieprasījuma darbplūsma neizdodas, lietotāji, kuriem ir privilēģija **EssLeaveBuySellRequestApprover**, var pārskatīt ziņojumu žurnālu par visiem atvaļinājumu pirkšanas un pārdošanas pieprasījumiem. Lai to izdarītu, dodieties uz **Atvaļinājums un prombūtne > Saite > Pirkšanas vai pārdošanas atvaļinājumu pieprasījumi > Ziņojumu žurnāls** (augšējā kreisajā pusē). Sadaļa **Ziņojumu žurnāls** parāda lietotājiem to, kā darbības ir apstrādātas, un saistīto darbplūsmas vēsturi.
+
 
 ## <a name="see-also"></a>Skatiet arī
 

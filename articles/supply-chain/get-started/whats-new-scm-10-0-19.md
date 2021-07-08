@@ -1,5 +1,5 @@
 ---
-title: Pakalpojuma Dynamics 365 Supply Chain Management 10.0.19. priekšskatījums (2021. gada jūnijs)
+title: Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19 (2021. gada jūnijs)
 description: Šajā sadaļā ir aprakstīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti programmā Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114979"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271453"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Pakalpojuma Dynamics 365 Supply Chain Management 10.0.19. priekšskatījums (2021. gada jūnijs)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Jaunumi un izmaiņas programmas Dynamics 365 Supply Chain Management versijā 10.0.19 (2021. gada jūnijs)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šajā tēmā uzskaitīti līdzekļi, kas ir vai nu jauni, vai kas ir mainīti Microsoft Dynamics 365 Supply Chain Management versijas 10.0.19 priekšskatījumā. Šai versijai ir būvējuma numurs 10.0.837, un tas ir pieejams šeit:
+Šī tēma uzskaita līdzekļus, kas ir vai nu jauni, vai kas ir mainīti programmas Microsoft Dynamics 365 Supply Chain Management versijā 10.0.19. Šai versijai ir būvējuma numurs 10.0.837, un tas ir pieejams šeit:
 
 - **Laidiena priekšskatījums:** 2021. gada aprīlis
 - **Vispārēja laidiena (automātisks atjauninājums) pieejamība:** 2021. gada jūnijs
@@ -32,7 +31,7 @@ ms.locfileid: "6114979"
 
 Šajā tabulā ir uzskaitīti šajā laidienā iekļautie līdzekļi. Kolonna *Līdzeklis* nodrošina saites uz [izlaišanas plānu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), kur varat redzēt oficiālos izlaišanas datumus katram līdzeklim. Kolonna *Vairāk informācijas* sniedz detalizētu informāciju un/vai saites uz saistīto dokumentāciju.
 
-Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot. Daži no norādītajiem līdzekļiem joprojām ir pieejami priekšskatījumā, kamēr citi, iespējams, jau ir vispārīgi pieejami.
+Vairumam šo līdzekļu ir jābūt iespējotiem, izmantojot [Līdzekļu pārvaldību](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), pirms varat tos izmantot.
 
 | Līdzekļu apgabals | Funkcija | Papildinformācija |
 |---|---|---|

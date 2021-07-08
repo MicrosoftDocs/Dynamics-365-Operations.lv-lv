@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923311"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270817"
 ---
 # <a name="feature-management-overview"></a>Līdzekļu pārvaldības pārskats
 
@@ -160,8 +160,8 @@ Politika ir tāda, ka visi jaunie līdzekļi tiks atteikti uz 12 mēnešu period
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Kāpēc nav noteikts “obligāti iespējotais datums”? 
 Atjaunināšanas izlaišanas laiks ir mainīgs, vides atjaunināšanas laiks ir mainīgs, un klienti var izvēlēties izlaist dažus atjauninājumus. Tāpēc konkrētus datumus ir grūti noteikt. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kur atrodas dokumentācija par līdzekļiem, kas tiek veikti obligāti? 
-Šī dokumentācija tiek iegūta no programmu komandām. Bieži vien tās tiks pieminētas sadaļā [Noņemtie vai novecojušie līdzekļi](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Kur atrodas dokumentācija par līdzekļiem, kas ir obligāti? 
+Šī dokumentācija tiek iegūta no katras Dynamics 365 programmas komandas. Bieži šie līdzekļi ir minēti [Klienta līdzekļu stāvokļu atjauninājumos](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) vai [Noņemtie vai novecojuši līdzekļi](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Vai ir produkta paziņojums vai signāls, ka līdzeklis būs obligāti jāaktivizē? 
 Paziņojuma mehānisms, kas saistīts ar līdzekļa obligātu izveidi, šobrīd neeksistē.

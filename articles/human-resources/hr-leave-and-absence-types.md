@@ -2,7 +2,7 @@
 title: Atvaļinājumu un prombūtnes veidu konfigurēšana
 description: Iestatiet atvaļinājumu tipus, ko darbinieki var izņemt pakalpojumā Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056616"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271131"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atvaļinājumu un prombūtnes veidu konfigurēšana
 
@@ -71,7 +71,7 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
    
  3. Iestatiet atvaļinājuma veidam **Pārnesta atvaļinājuma veids**. Atlasot šo opciju, visas pārnešanas bilances tiks pārsūtītas uz norādīto atvaļinājumu veidu. Pārnestā atvaļinājuma veids ir jāiekļauj arī atvaļinājumu un prombūtnes plānā. 
  
- 4. Definējiet atvaļinājuma veidam **Beigu nosacījumu noteikumus**. Konfigurējot šo opciju, varat izvēlēties dienu vai mēnešu vienību un iestatīt beigu termiņu. Varat arī iestatīt termiņa beigu nosacījuma spēkā stāšanās datumu. Spēkā stāšanās datumu izmanto, lai noteiktu, kad sākt palaist pakešuzdevumu, kas apstrādā atvaļinājuma beigu datumu, vai datumu, kad noteikums stājas spēkā. Termiņa beigas vienmēr notiks atvaļinājuma plāna sākuma datumā pēc tam, kad pakešuzdevums būs iestatīts apstrādājams. Piemēram, plāna sākuma datums var būt 2020. gada 1. janvāris, bet noteikums netika izveidots līdz 2020. gada 1. jūnijam. Iestatot spēkā stāšanās datumu 2020. gada 1. jūnijā, noteikums tiks apstrādāts ar nākamā gada robežu, tādējādi 2021. gada 1. janvārī. Visas atvaļinājuma bilances, kas pastāv beigu laikā, tiks atskaitītas no atvaļinājuma veida, un tās tiks atspoguļotas atvaļinājumu bilancē. 
+4. Definējiet atvaļinājuma veidam **Beigu nosacījumu noteikumus**. Konfigurējot šo opciju, varat izvēlēties dienu vai mēnešu vienību un iestatīt beigu termiņu. Derīguma termiņa spēkā stāšanās datumu izmanto, lai noteiktu, kad sākt palaist pakešuzdevumu, kas apstrādā atvaļinājuma beigu datumu, vai datumu, kad noteikums stājas spēkā. Termiņa beigas vienmēr būs uzkrāšanas perioda sākuma datumā. Piemēram, ja uzkrāšanas perioda sākuma datums ir 2021. gada 3. augusts un termiņa beigu noteikums ir iestatīts uz 6 mēnešiem, noteikums tiks apstrādāts, pamatojoties uz termiņa beigu korespondējošo kontu no uzkrāšanas perioda sākuma datuma, tādējādi tas būtu izpildīts 2022. gada 3. februārī. Visas atvaļinājuma bilances, kas pastāv beigu laikā, tiks atskaitītas no atvaļinājuma veida, un tās tiks atspoguļotas atvaļinājumu bilancē.
  
 ## <a name="see-also"></a>Skatiet arī
 
@@ -79,6 +79,7 @@ Atvaļinājumu veidi pakalpojumā Dynamics 365 Human Resources definē, kādu ve
 - [Izveidot atvaļinājumu un kavējuma plānu](hr-leave-and-absence-plans.md)
 - [Darba laika kalendāra izveide](hr-leave-and-absence-working-time-calendar.md)
 - [Pārtraukt atvaļinājumu](hr-leave-and-absence-suspend-leave.md)
+- [Atvaļinājuma pirkšanas un pārdošanas pieprasījuma darbplūsmas izveide](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

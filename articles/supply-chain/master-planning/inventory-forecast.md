@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216846"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306419"
 ---
 # <a name="inventory-forecasts"></a>Krājumu budžets
 
@@ -353,20 +353,46 @@ Izmantojiet šo procedūru, lai apstrādātu esošās prognozes darbību rindas.
 1. Izmantojiet sadaļu **Finanšu dimensijas**, lai atjauninātu budžeta rindu finanšu dimensijas. Atlasiet finanšu dimensijas, kuras vēlaties mainīt, un pēc tam ievadiet vērtību, ko piemērot atlasītajām dimensijām.
 1. Atlasiet **Labi**, lai piemērotu izmaiņas.
 
-## <a name="run-forecast-planning"></a>Budžeta plānošanas palaišana
+## <a name="use-forecasts-with-master-planning"></a>Izmantot prognozes ar vispārējo plānošanu
 
-Pēc pieprasījuma un/vai piegādes apjoma prognozes ievadīšanas varat palaist budžeta plānošanu, lai aprēķinātu bruto vajadzības pēc materiāliem un noslodzes un izveidotu plānotos pasūtījumus.
+Kad ievadāt pieprasījuma apjoma prognozi un/vai piegādes apjoma prognozi, vispārējās plānošanas laikā varat ietvert prognozes, lai vispārējās plānošanas darbības laikā atstātu prognozēto pieprasījumu un/vai piedāvājumu. Kad prognoze ir iekļauta vispārējā plānošanā, tiek aprēķinātas bruto vajadzības materiāliem un noslodzei un tiek ģenerēti plānotie pasūtījumi.
 
-1. Dodieties uz **Vispārējā plānošana \> Prognozēšana \> Budžeta plānošana**.
-1. Laukā **Budžeta plāns** atlasiet budžeta plānu.
-1. Iespējojiet **Izsekot apstrādes laiku**, lai reģistrētu katra plānošanas uzdevuma apstrādes laiku.
-1. Laukā **Pavedienu skaits** ievadiet vērtību. (Papildinformāciju skatiet sadaļā [Vispārējās plānošanas veiktspējas uzlabošana](master-planning-performance.md).)
-1. Laukā **Komentārs** ievadiet tekstu, lai izgūtu jebkādu nepieciešamo papildu informāciju.
-1. Kopsavilkuma cilnē **Iekļaujamie ieraksti** atlasiet **Filtrs**, lai ierobežotu krājumu atlasi.
-1. Kopsavilkuma cilnē **Palaist fonā** norādiet partijas parametrus.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Iestatīt vispārējo plānu, lai iekļautu krājumu apjoma prognozi
+
+Lai iestatītu vispārējo plānu tā, lai tas ietvertu krājumu apjoma prognozi, sekojiet šīm darbībām.
+
+1. Dodieties uz **Vispārējā plānošana \> Iestatījumi \> Plāni \> Vispārējie plāni**.
+1. Atlasiet esošu plānu vai izveidojiet jaunu plānu.
+1. Kopsavilkuma cilnē **Vispārīgi**, iestatiet tālāk minētos laukus:
+
+    - **Budžeta modelis** - atlasiet lietojamo budžeta modeli. Šis modelis tiks ņemts vērā, kad pašreizējam vispārējam plānam tiek ģenerēts piegādes ieteikums.
+    - **Iekļaut piegādes apjoma prognozi** - Iestatiet šo opciju kā *Jā*, lai piegādes apjoma prognozi iekļautu pašreizējā vispārējā plānā. Ja to iestatāt uz *Nē*, piegādes apjoma prognozes darījumi netiks iekļauti vispārējā plānā.
+    - **Iekļaut pieprasījuma apjoma prognozi** - Iestatiet šo opciju kā *Jā*, lai pieprasījuma apjoma prognozi iekļautu pašreizējā vispārējā plānā. Ja to iestatāt uz *Nē*, pieprasījuma apjoma prognozes darījumi netiks iekļauti vispārējā plānā.
+    - **Budžeta vajadzību samazināšanai izmantotā metode** — Atlasiet metodi, kas jāizmanto, lai samazinātu budžeta vajadzības. Plašāku informāciju skatiet [Prognozes samazināšanas principi](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. Kopsavilkuma cilnē **Laika periodi dienās** varat iestatīt sekojošos laukus, lai noteiktu periodu, kurā tiek iekļauta prognoze:
+
+    - **Budžeta plāns** — iestatiet šo opciju kā *Jā*, lai ignorētu budžeta plāna laika ierobežojumu, kas izveidots no atsevišķām vajadzību grupām. Iestatiet to uz *Nē*, lai pašreizējam vispārējam plānam izmantotu vērtības no atsevišķām vajadzību grupām.
+    - **Budžeta laika periods** — Ja iestatāt opciju **Budžeta plāns** kā *Jā*, norādiet dienu skaitu (no šodienas datuma), kurā jāpiemēro pieprasījuma apjoma prognoze.
+
+    > [!IMPORTANT]
+    > Ar plānošanas optimizāciju netiek atbalstīta opcija **Budžeta plāns**.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Palaist vispārējo plānu, kas iekļauj krājumu apjoma prognozi
+
+Lai palaistu vispārējo plānu, kas ietver krājumu apjoma prognozi, sekojiet šīm darbībām.
+
+1. Atvēriet **Vispārējā plānošana \> Darbvietas \> Vispārējā plānošana**.
+1. Laukā **Vispārējais plāns** ievadiet vai atlasiet vispārējo plānu, kas iestatīts iepriekšējā procedūrā.
+1. Elementā **Vispārējā plānošana** atlasiet **Palaist**.
+1. Dialoglodziņā **Vispārējā plānošana** iestatiet opciju **Atsekot apstrādes laiku** uz *Jā*.
+1. Laukā **Pavedienu skaits** ievadiet skaitli.
+1. Kopsavilkuma cilnē **Ieraksti, kas jāiekļauj** atlasiet **Filtrs**.
+1. Parādās standarta vaicājumu redaktora dialoglodziņš. Cilnē **Diapazons** atlasiet rindu, kur **Lauks** ir iestatīts uz *Krājuma kods*.
+1. Laukā **Kritēriji** atlasiet krājuma kodu, kas jāiekļauj plānā.
 1. Atlasiet **Labi**.
 
-Lai apskatītu aprēķinātās vajadzības, atveriet lapu **Bruto vajadzības**. Piemēram, lapas **Izlaistās preces** cilnes **Plāns** sadaļā **Prasības** atlasiet **Bruto vajadzības**.
+Lai apskatītu aprēķinātās vajadzības, atveriet lapu **Bruto vajadzības**. Piemēram, lapas **Izlaistās preces** darbību rūtī, cilnē **Plāns** grupā **Prasības** atlasiet **Bruto vajadzības**.
 
 Lai skatītu izveidotos plānotos pasūtījumus, dodieties uz **Vispārējā plānošana \> Vispārēji \> Plānotie pasūtījumi** un atlasiet atbilstošo budžeta plānu.
 
@@ -376,5 +402,6 @@ Lai skatītu izveidotos plānotos pasūtījumus, dodieties uz **Vispārējā pl�
 - [Pieprasījuma prognozēšanas iestatīšana](demand-forecasting-setup.md)
 - [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)
 - [Manuāla bāzlīnijas prognozes korekciju veikšana](manual-adjustments-baseline-forecast.md)
+- [Vispārējā plānošana ar pieprasījuma apjoma prognozēm](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

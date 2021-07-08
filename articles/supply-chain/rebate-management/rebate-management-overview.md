@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020463"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271057"
 ---
 # <a name="rebate-management-module-overview"></a>Atlaižu pārvaldības moduļa pārskats
 
@@ -70,7 +70,7 @@ Atlaides var konfigurēt, pamatojoties uz daudziem dažādiem parametriem. Piem�
 
 Atlaižu aprēķina rezultātus var samazināt arī ar citām atlaidēm, atkarībā no tā, vai atlaide ir iestatīta aprēķinam, pamatojoties uz neto summu.
 
-Kreditora pusē atlaides var aprēķināt cenu, pamatojoties uz "pirmais ārā" (first in, first out – FIFO) noteikumu, jaunāko pirkšanas cenu, vidējo pirkšanas cenu vai pārdošanas cenu.
+Kreditora pusē atlaides,kuru pamatā ir pārdošanas pasūtījumi, var aprēķināt cenu, pamatojoties uz "pirmais ārā" (first in, first out – FIFO) noteikumu, jaunāko pirkšanas cenu, vidējo pirkšanas cenu vai pārdošanas cenu.
 
 ## <a name="rebate-target-transactions"></a>Atlaides mērķa darījumi
 
@@ -84,11 +84,12 @@ Krājuma izvade izveido bezmaksas krājumu pārdošanas pasūtījumu debitora at
 
 Saistīto darījumu kombinācija, aprēķinu biežums, aprēķina pamats un atlasītā aprēķinu metode nosaka atlaižu aprēķinu precizitāti un precizitāti. Atlaižu nosacījumus var izmantot, lai uzkrātu grāmatotās un pieprasītās vērtības.
 
-Uzkrājumus var pārvaldīt katru dienu vai katru mēnesi. Tomēr funkcionalitāte var piešķirt vai apmaksāt atlaidi vai saņemt tās maksājumu jebkurā definētā biežuma. Lietotāji var viegli pielāgot plāna vai maksājumu summas jebkurā laikā izmaksas laikā.
+Uzkrājumus var pārvaldīt katru dienu, reizi nedēļā, reizi mēnesī vai atbilstoši pielāgotajam periodam. Tomēr funkcionalitāte var piešķirt vai apmaksāt atlaidi vai saņemt tās maksājumu jebkurā definētā frekvencē, kas ir vienāda ar rezervju frekvenci vai lielāka par to. Norakstīšanas frekvence ir tāda pati kā atlaidei. Lietotāji var viegli pielāgot plāna vai maksājumu summas jebkurā laikā izmaksas laikā.
 
-Lietotājiem vairs nav jārīkojas ar darījumiem vai uzkrājumiem divos soļos. Uzkrājumi un norakstīšanas tiek grāmatoti tieši Virsgrāmatā. Turklāt kredīta notas var izveidot automātiski. Tāpēc ir pilnīga integrācija ar kreditoriem un debitoriem. Apstrādes laikā aprēķini ņem vērā segšanas atlaides, apmaksātos rēķinus, tirdzniecības atlaides un esošās kredīta notas, lai nodrošinātu, ka summas un vērtības ir precīzi aprēķinātas.
+Lietotājiem vairs nav jārīkojas ar darījumiem vai uzkrājumiem divos soļos. Uzkrājumi un norakstīšanas tiek grāmatoti tieši Virsgrāmatā. Turklāt kredīta notas var izveidot automātiski. Tāpēc ir pilnīga integrācija ar kreditoriem un debitoriem. Apstrādes laikā aprēķini var ņemt vērā segšanas atlaides, apmaksātos rēķinus, tirdzniecības atlaides un esošās kredīta notas, lai nodrošinātu, ka summas un vērtības ir precīzi aprēķinātas.
 
-Kad atlaides tiek aprēķinātas, process izveido transakcijas, ko var pārskatīt pirms grāmatošanas. Pēc tam var izveidot žurnālu, kredīta notu vai debeta darbību. Atsevišķs process grāmato atlaides un atvilkumu darījumus. Pārskatu pārskatus un darbību sarakstus var iegūt, lai nodrošinātu atbilstību, efektivitāti un pārskatāmību.
+Kad atlaides tiek aprēķinātas, process izveido transakcijas, ko var pārskatīt pirms grāmatošanas. Atsevišķs process grāmato atlaides pārvaldības darījumus. Pēc tam var izveidot žurnālu, kredīta notu vai debeta darījumu, grāmatojot piedāvātos darījumus. Pārskatu pārskatus un darbību sarakstus var iegūt, lai nodrošinātu atbilstību, efektivitāti un pārskatāmību.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Nodrošinātie patentmaksu maksājumi
 

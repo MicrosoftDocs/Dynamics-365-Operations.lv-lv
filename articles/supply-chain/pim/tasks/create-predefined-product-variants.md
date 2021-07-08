@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6f78441445baecba279f96eb3935d9ebbb4ff03f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021912"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270484"
 ---
 # <a name="predefined-product-variants"></a>Iepriekš definēts preces variants
 
@@ -76,8 +76,6 @@ Lai ģenerētu preces variantus:
 1. Atlasiet **Saglabāt**.
 
 ## <a name="improved-variant-suggestions"></a>Uzlaboti variantu ieteikumi
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Līdzeklis *Variantu ieteikumu lapas uzlabojumi* uzlabo lapu **Variantu ieteikumi**, lai novērstu veiktspējas un lietojamības problēmas uzņēmumiem, kuriem ir liels preču dimensiju kombināciju skaits. Uzlabotais produktu dimensiju vērtību atlases process, kuram ģenerēt varianta ieteikumus, ļauj ātrāk un vieglāk identificēt un atbrīvot attiecīgos produkta variantus.
 

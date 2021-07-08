@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: "Platform atjauninājumi versijai\_10.0.18 (2021.\_gada maijs)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: "Platform atjauninājumi versijai\_10.0.17 (2021.\_gada aprīlis)"
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Noņemtie vai novecojušie līdzekļi
               items:
                 - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Elementu krātuves pārvēršana par Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Datu maiņa pakalpojumā Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Datu bāzes pārvietošanas operācijas
           items:
             - name: Pārskats

@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908884"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301654"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Vēsturisko datu importēšana pieprasījuma apjoma prognozēm
 
@@ -39,26 +39,6 @@ Lai izmantotu datu elementu, ir nepieciešams Microsoft Excel fails vai komatatd
 
 Papildinformāciju par to, kā importēt datus, tostarp to, kā iztīrīt datus pēc importēšanas, skatiet [Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) un ar to saistītās tēmas.
 
-## <a name="example"></a>Paraugs
-
-Kā paraugu varat izmantot tālāk pieejamo failu. Lejupielādējiet failu [HistoricalDemandData](/dynamics/s-e/). Šajā failā ir ietverti vēsturiskie pieprasījuma dati par krājumu D0001. Tajā ir ietverti tikai šādi obligātie lauki: vieta, daudzums un pieprasījuma datums.
-
-1. Atlasiet uzņēmumu, kurā ir jāimportē vēsturiskie pieprasījuma dati.
-2. Atveriet darbvietu **Datu pārvaldība**.
-3. Atlasiet elementu **Imports**.
-4. Ievadiet importēšanas projekta nosaukumu, piemēram, **Importētie krājuma D0001 vēsturiskie pieprasījuma dati**.
-5. Laukā **Avota datu formāts** atlasiet importētā faila formātu. Lai importētu šī piemēra ietveros lietoto failu HistoricalDemandData, atlasiet **CSV**.
-6. Laukā **Elementa nosaukums** atlasiet **Vēsturisks ārējs pieprasījums**.
-7. Saglabājiet failu datorā un pēc tam augšupielādējiet to.
-8. Atlasiet **Importēt**.
-9. Tiek automātiski atvērta lapa **Izpildes kopsavilkums**. Pārbaudiet importētos datus šajā lapā.
-
-Pēc vēsturisko pieprasījuma datu importēšanas varat ģenerēt pieprasījuma apjoma prognozi.
-
-## <a name="additional-resources"></a>Papildu resursi
-
-[Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md)  
-[Datu importēšanas un eksportēšanas darbu pārskats](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Skatiet arī [Statistiskās bāzlīnijas prognozes ģenerēšana](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

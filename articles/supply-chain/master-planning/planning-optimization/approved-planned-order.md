@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935661"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304371"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Skatīt, pārvaldīt un apstiprināt plānotos pasūtījumus
 
@@ -46,7 +46,7 @@ Jūs varat izmantot katra plānotā pasūtījuma lauku **Statuss**, lai palīdz�
 
 - **Neapstrādāts** - Kad vispārējā plānošana ģenerē plānotos pasūtījumus, tiem tiek piešķirts statuss. Plānotie pasūtījumi, kam ir šis statuss tiks dzēsti nākamās plānošanas izpildes laikā.
 - **Pabeigts** – šis statuss norāda, ka plānotais pasūtījums ir pabeigts. Ja izvēlaties neapstiprināt plānoto pasūtījumu, varat manuāli mainīt tā statusu uz *Pabeigts*. Ievērojiet, ka sistēma izturas vienādi pret statusiem *Neapstrādāts* un *Pabeigts*.
-- **Apstiprināts** – šis statuss norāda, ka plānotais pasūtījums ir apstiprināts apstiprināšanai. Ja vēlaties apstiprināt plānoto pasūtījumu, varat mainīt tā statusu uz *Apstiprināts*. Ja vēlaties saglabāt rediģējumus, kas veikti plānotajam pasūtījumam, vai, ja plānojat apstiprināt plānoto pasūtījumu, mainiet tā statusu uz *Apstiprināts*. Plānotie pasūtījumi ar statusu *Apstiprināts* tiek uzskatīti par fiksētiem un paredzamiem piegādēm pēc vispārējās plānošanas. Tāpēc tie netiek modificēti vai dzēsti vēlāku vispārējās plānošanas palaišanas laikā. Lai to panāktu, plānošanas loģika kopē plānotos pasūtījumus ar statusu *Apstiprinātos* no vecās plāna versijas uz jauno plāna versiju vispārējās plānošanas laikā. Ievērojiet, ka plānotie pasūtījumi, kuru statuss ir *Apstiprināts** plānotie pasūtījumi tiek uzskatīti par piegādēm tikai noteiktajā galvenājā plānā.
+- **Apstiprināts** – šis statuss norāda, ka plānotais pasūtījums ir apstiprināts apstiprināšanai. Ja vēlaties apstiprināt plānoto pasūtījumu, varat mainīt tā statusu uz *Apstiprināts*. Ja vēlaties saglabāt rediģējumus, kas veikti plānotajam pasūtījumam, vai, ja plānojat apstiprināt plānoto pasūtījumu, mainiet tā statusu uz *Apstiprināts*. Plānotie pasūtījumi ar statusu *Apstiprināts* tiek uzskatīti par fiksētiem un paredzamiem piegādēm pēc vispārējās plānošanas. Tāpēc tie netiek modificēti vai dzēsti vēlāku vispārējās plānošanas palaišanas laikā. Lai to panāktu, plānošanas loģika kopē plānotos pasūtījumus ar statusu *Apstiprinātos* no vecās plāna versijas uz jauno plāna versiju vispārējās plānošanas laikā. Ievērojiet, ka plānotie pasūtījumi, kuru statuss ir *Apstiprināts* plānotie pasūtījumi tiek uzskatīti par piegādēm tikai noteiktajā galvenājā plānā.
 
 Lai mainītu atsevišķa plānotā pasūtījuma statusu, [atveriet jebkuru plānoto pasūtījumu saraksta lapu](#view-planned-orders), atveriet pasūtījumu un tad izpildiet vienu no tālāk minētajām darbībām.
 

@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu konfigurāciju izveide pakalpojumā Regulatory Configuration Service un to augšupielāde globālajā repozitorijā
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: "Regulatory Configuration Service\_— RCS\_vides dzēšana"
+                      href: localizations/rcs-delete-environment.md
                     - name: "Regulatory Configuration Service\_— Lifecycle Services krātuves atbalsta pārtraukšana"
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronisko rēķinu izrakstīšana
@@ -1520,10 +1522,14 @@
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Nīderlandes pārskatu veidošana
                           items:
-                            - name: PVN deklarācija
+                            - name: "PVN\_deklarācija"
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Pārskats par preču piegādēm Eiropas Kopienas teritorijā
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Apvienotās Karalistes pārskatu veidošana
+                          items:
+                            - name: "Sagatavošanās integrācijai\_MTD PVN\_iekļaušanai"
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Normatīvie atjauninājumi
               href: localizations/regulatory-updates.md
             - name: Austrālija
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Kreditoru parādu nodokļu reģistri un parādu norakstīšana
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Nenomaksātu parādu rezerves debitoru parādos
+                      href: localizations/rus-bad-debts.md
             - name: Saūda Arābija
               items:
                 - name: Saūda Arābijas pārskats
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: PVN grupu iestatīšana apgrieztajam PVN
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Pāreja uz digitālu nodokļu apstrādi: PVN'
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Maksājumu prakses pārskata statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Amerikas Savienotās Valstis
@@ -3665,6 +3671,12 @@
               items:
                 - name: Formulu valoda
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Atbalstītie datu veidi elektronisko pārskatu formulām
+                  items:
+                    - name: Primitīvu datu tipi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Saliktu datu tipi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funkcijas
                   items:
                     - name: Konteiners
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: Elektronisko pārskatu formātu noformēšana izejošo dokumentu ģenerēšanai dažādos formātos
               items:
+                - name: Konfigurācijas noformēšana pārskatu ģenerēšanai formātā OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigurāciju noformēšana izejošo dokumentu ģenerēšanai Excel formātā
                   items:
                     - name: Konfigurācijas noformēšana dokumentu ģenerēšanai Excel formātā
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Pārskatu ģenerēšana OPENXML formātā: piemērs'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: 'Elektronisko pārskatu formātu modificēšana, atkārtoti lietojot Excel veidnes'
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Kolonnu dinamiska pievienošana Excel pārskatiem ar horizontāli paplašināmiem diapazoniem
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: "Application Update\_10.0.17"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: "Application Update\_10.0.19"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
                   items:
                     - name: 'Notikuma abonēšana, lai pieprasītu atbildi no abonēšanas apstrādātāja'
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronisko pārskatu mērķa izveides deleģēšana pielāgotai mērķa rūpnīcai
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: LIETOTĀJA IEVADES PARAMETRA veida datu avota vērtību iniciēšana no avota koda
+                    - name: Pielāgota galamērķa ieviešana ģenerētajiem dokumentiem
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: USER INPUT PARAMETER veida datu avota vērtību iniciēšana no avota koda
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Mobilā programma
           items:

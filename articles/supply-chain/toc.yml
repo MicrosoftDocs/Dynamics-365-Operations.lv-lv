@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: "Supply Chain Management 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: "Supply Chain Management 10.0.17 (2021.\_gada aprīlis)"
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -599,10 +597,24 @@
               href: ../finance/cost-accounting/tasks/configure-cost-control-workspace-parameters.md?toc=/dynamics365/supply-chain/toc.json
             - name: Piekļuves saraksta drošības un RLS izprašana platformā Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Satura pakotnes izmantošana Microsoft Power BI atskaišu veidošanai
+            - name: Satura pakotnes izmantošana platformā Microsoft Power BI atskaišu veidošanai
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Izmaksu kontroles darbvietas izmantošana Finance and Operations mobilajai programmai
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Globālā krājumu uzskaite
+          items:
+            - name: Globālās krājumu uzskaites sākumlapa
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Darba sākšana ar globālo krājumu uzskaiti
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Globālajā krājumu uzskaitē atbalstītie biznesa dokumenti
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Power BI iespējošana globālajai krājumu uzskaitei
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Konvencijas
+              href: global-inventory-accounting/conventions.md
+            - name: Globālās krājumu uzskaites virsgrāmata
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Izmaksu pārvaldība
           items:
             - name: Izmaksu pārvaldības sākumlapa
@@ -873,6 +885,12 @@
               items:
                 - name: Formulu valoda
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Atbalstītie datu veidi elektronisko pārskatu formulām
+                  items:
+                    - name: Primitīvu datu tipi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Saliktu datu tipi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funkcijas
                   items:
                     - name: Konteiners
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: "Application Update\_10.0.17"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: "Application Update\_10.0.19"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
                   items:
                     - name: 'Notikuma abonēšana, lai pieprasītu atbildi no abonēšanas apstrādātāja'
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Elektronisko pārskatu mērķa izveides deleģēšana pielāgotai mērķa rūpnīcai
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: LIETOTĀJA IEVADES PARAMETRA veida datu avota vērtību iniciēšana no avota koda
+                - name: Pielāgota galamērķa ieviešana ģenerētajiem dokumentiem
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: USER INPUT PARAMETER veida datu avota vērtību iniciēšana no avota koda
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Krājumu pārvaldība
           items:
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Drošības rezerves
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Aizkaves tolerance (negatīvās dienas)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Pirkšanas pieprasījumi
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Ražošanas plānošana
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Preču izslēgšana ar noteiktiem preču dzīves cikla stāvokļiem
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Papildināšanas metodes un daudzuma modificēšana
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Seguma laika periodi
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Plānoto pasūtījumu apstiprināšana
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: 'Krājumu reģistrēšana pamata noliktavā aktivizētam krājumam, izmantojot krājumu saņemšanas žurnālu'
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: "Ienākošo\_IPPN importēšana, izmantojot V2\_datu elementu"
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Preču no saņēmēja noliktavas pārkraušana sadales centrā uz veikaliem
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Vietas direktīvas iestatīšana pirkšanas pasūtījuma izvietošanai
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Daļēja novietojuma cikla inventarizācijas procesa definēšana
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Cikla inventarizācijas piemēru scenāriji
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Noliktavas pārvaldības rīcībā esošo ierakstu tīrīšanas darbs
                       href: warehousing/onhand-cleanup.md
                     - name: Krājumu žurnāli
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Noliktavas darba problēmu novēršana
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: Noliktavas programma
+              items:
+                - name: 'Mobilo ierīču instalēšana, iestatīšana un izmantošana'
+                  items:
+                    - name: Jaunumi un izmaiņas mobilajā programmā Warehouse Management
+                      href: warehousing/whats-new-wma.md
+                    - name: Mobilās programmas Warehouse Management instalēšana un savienošana
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Noliktavas programmas instalēšana un savienošana
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: 'Svītrkodu skenēšana mobilajā programmā Warehouse Management, izmantojot kameru'
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Mobilās programmas Warehouse Management savienojuma problēmu novēršana
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Lauku un izvēļņu iestatīšana mobilajām ierīcēm
+                  items:
+                    - name: Lauku konfigurēšana mobilajai programmai Warehouse Management
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobilo ierīču iestatīšana darbam noliktavā
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: 'Numura zīmes saņemšana, izmantojot mobilo programmu Warehouse Management'
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus'
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai nodrošinātu izdošanas rindas pārskatu'
+                      href: warehousing/pick-line-overview.md
+                    - name: 'Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu noliktavas vienības konsolidāciju'
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Jauktas numura zīmes saņemšana mobilajā ierīcē
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: 'Attēlojuma konfigurēšana vecāko partiju rādīšanai noliktavā, izmantojot mobilo ierīci'
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Vecākās partijas izdošana mobilajā ierīcē
+                      href: warehousing/pick-oldest-batch.md
+                - name: Mobilās ierīces lietotāja iestatījumi
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Noliktavas programmas notikumu apstrāde
+                  href: warehousing/warehouse-app-events.md
+                - name: Noliktavas programmas pielāgošana
+                  items:
+                    - name: Procesu rokasgrāmatas struktūra
+                      href: warehousing/process-guide-framework.md
+                    - name: Darbību ikonu un virsrakstu piešķiršana
+                      href: warehousing/step-icons-titles.md
             - name: Noliktavas iestatīšana
               items:
                 - name: Noliktavas konfigurācija
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Kopuma etiķešu drukāšana
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Kopuma etiķešu drukāšanas plānošana kopuma laikā
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Konteinerizēšana
                           href: warehousing/wave-containerization.md
+                        - name: Konteineru iepakošanas stratēģijas
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Sūtījumu automātiska atjaunināšana
                       href: warehousing/auto-update-shipment.md
                     - name: Vietas profila izveide
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Noliktavas konfigurācijas problēmu novēršana
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Noliktavas pārvaldības mobilās programmas instalēšana un konfigurēšana
-                  items:
-                    - name: Noliktavas pārvaldības mobilās programmas instalēšana un savienošana
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Mobilās ierīces lietotāja iestatījumi
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Noliktavas programmas instalēšana un savienošana
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: 'Svītrkodu skenēšana noliktavas pārvaldības mobilajā programmā, izmantojot kameru'
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Warehouse Management mobilās programmas lauku konfigurēšana
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobilo ierīču iestatīšana darbam noliktavā
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Darbību ikonu un virsrakstu piešķiršana
-                      href: warehousing/step-icons-titles.md
-                    - name: Noliktavas programmas notikumu apstrāde
-                      href: warehousing/warehouse-app-events.md
-                    - name: 'Numura zīmes saņemšana, izmantojot Warehouse Management mobilo programmu'
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Mobilās ierīces izvēlnes vienuma iestatīšana pirkšanas pasūtījuma darba pabeigšanai
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai reģistrētu saņemtos krājumus'
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: 'Mobilās ierīces izvēlnes vienuma iestatīšana, lai nodrošinātu izdošanas rindas pārskatu'
-                      href: warehousing/pick-line-overview.md
-                    - name: 'Mobilās ierīces izvēlnes vienuma izveide, lai saņemtu noliktavas vienības konsolidāciju'
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Jauktas numura zīmes saņemšana mobilajā ierīcē
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: 'Attēlojuma konfigurēšana vecāko partiju rādīšanai noliktavā, izmantojot mobilo ierīci'
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Vecākās partijas izdošana mobilajā ierīcē
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Procesu rokasgrāmatas struktūra
-                      href: warehousing/process-guide-framework.md
-                    - name: Noliktavas pārvaldības mobilās programmas savienojuma problēmu novēršana
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Jaunināšana un migrēšana
                   items:
                     - name: "Noliktavas pārvaldības procesu jaunināšana no Microsoft Dynamics AX\_2012 uz Finance and Operations"
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Vispārējā plānošana
               items:
+                - name: 'Palaižot iebūvēto vispārējās plānošanas programmu, tiek parādīta kļūda'
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: "Krājumam nevar būt MK\_vai formula"
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Vispārējā plāna parametri nepastāv
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: 'Plānotajam ražošanas pasūtījumam ir jābūt plānotam, pirms to var apstiprināt'
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: 'Prece ir aizturēta šāda veida darījumiem:'
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Atlasītais formulas cipars nav apstiprināts lietošanai partijas pasūtījumā.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Kreditora kods nav autorizēts noteiktai precei un datumam
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: 'Apstiprinot plānotos pasūtījumus, nav norādīts kreditors'
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: 'Tieši atvasinātos apstiprinātos pasūtījumus apstrādā darbplūsma, kas pašlaik tiek pārskatīta'
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Vispārējās plānošanas krājumus nevar filtrēt pēc to saistītajām vajadzības grupas vērtībām
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Noliktavas pārvaldība
               items:
+                - name: Atceltas produktu ieejas plūsmas neatjaunina darījumu statusu uz reģistrētu
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: Fiziskā daudzuma decimāldaļas noapaļošana nav pareiza
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: Vienības fiziskais atlikums nedrīkst būt nulle
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: Pavadzīmes ģenerēšanas laikā izdotais daudzums nav pietiekams
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: Pavadzīmes ģenerēšanas laikā daudzums pārsniedz piegādes pārsniegšanas procentuālo vērtību
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 'Daudzums, ko mēģināt atjaunināt, pārsniedz saņemto/piegādāto daudzumu'
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: Pavadzīmes ģenerēšanas laikā daudzums pārsniedz piegādes nepietiekamības procentuālo vērtību
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: 'Izvēloties atrašanās vietu izdošanas saraksta reģistrācijas laikā, rodas kļūda'
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: Pakošanas stacija nerāda preču piezīmes

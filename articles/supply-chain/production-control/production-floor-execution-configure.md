@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115027"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271159"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Ražošanas izpildes interfeisa konfigurēšana
 
@@ -64,8 +64,6 @@ Ražošanas stāva izpildes interfeiss, kā arī vairāki papildu iestatījumi, 
 - Līdzeklis darba kartes ierīces un darba kartes termināļa aizturēšanai, lai var veikt to tīrīšanu
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Aktīvu pārvaldības funkcionalitāte ražošanas izpildes interfeisam
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Šī funkcija pievieno pamatlīdzekļu pārvaldības cilni ražošanas izpildes interfeisam. Darbinieki var izmantot šo cilni, lai atlasītu līdzekli, kas ir saistīts ar datora resursu, kas ir darbu saraksta atlasītajā filtrā. Atlasītajam iekārtas pamatlīdzeklim darbinieks var skatīt līdzekļa stāvokli un veselības datus no skaitītāja vērtībām līdz pat četriem atlasītajiem skaitītājiem. Ja vēlaties to izmantot, ieslēdziet sekojošo līdzekli [līdzekļu pārvaldībā](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

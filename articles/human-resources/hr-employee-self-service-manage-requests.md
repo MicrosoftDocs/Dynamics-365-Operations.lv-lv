@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057362"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303248"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Atvaļinājumu un kavējumu pieprasījumu pārvaldība
 
@@ -34,11 +34,9 @@ Pārvaldīt taimauta pieprasījumus no **Darbinieku patstāvīgi izmantojamo pak
 
 3. Pēc nepieciešamības skatiet un apstipriniet savas darba grupas brīvā laika pieprasījumus.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Priekšskatījums) Atvaļinājumu pieprasījumu darbplūsmas pieredzes uzlabojumi
+## <a name="leave-request-workflow-experience-enhancements"></a>Atvaļinājumu pieprasījumu darbplūsmas pieredzes uzlabojumi
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Šis priekšskatījuma līdzeklis nodrošina šādus uzlabojumus:
+Šis līdzeklis nodrošina šādus uzlabojumus:
 
 - Var atlasīt vairākus atvaļinājuma pieprasījumus un veikt vienu un to pašu darbību visiem.
 - Lentee augšpusē un jauna darbplūsmas poga lapā parāda darbības, ko varat veikt atvaļinājuma pieprasījumos.

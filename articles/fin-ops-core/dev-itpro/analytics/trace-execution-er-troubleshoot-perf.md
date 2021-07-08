@@ -2,7 +2,7 @@
 title: Elektronisko atskaišu veidošanas (ER) formāta failu izpildes uzraudzīšana, lai novērstu veiktspējas problēmas
 description: Šajā tēmā ir sniegta informācija par to, kā izmantot veiktspējas izsekošanas līdzekli elektronisko pārskatu veidošanā (ER), lai novērstu veiktspējas problēmas.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944657"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295577"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formātu izpildes izsekošana, lai novērstu veiktspējas problēmas
 
@@ -119,12 +119,27 @@ Datu modeļa un modeļa kartējuma konfigurāciju atbilstošās versijas automā
 2. Lapas **Konfigurācijas** darbību rūtī, cilnē **Konfigurācijas**, grupā **Papildu iestatījumi** atlasiet vienumu **Lietotāja parametri**.
 3. Dialoglodziņa **Lietotāja parametri** sadaļā **Izpildes izsekošana** rīkojieties šādi.
 
-    1. Laukā **Izpildes izsekošanas formāts** atlasiet vienumu **Atkļūdot izsekošanas formātu**, lai sāktu apkopot informāciju par ER formāta izpildi. Atlasot šo vērtību, veiktspējas izsekošana apkopos informāciju par laiku, kas tiek patērēts šādām darbībām:
+    1. Laukā **Izpildes izsekošanas formāts** norādiet ģenerētās veiktspējas izsekošanas formātu, kurā ir jāuzglabā izpildes informācija ER formāta un kartēšanas elementiem:
 
-        - Katra datu avota palaišana modeļa kartējumā, kas tiek izsaukts datu iegūšanai
-        - Katra formāta vienuma apstrāde, lai ievadītu datus ģenerētajā izvadē
+        - **Atkļūdošanas izsekošanas formāts** – atlasiet šo vērtību, ja plānojat interaktīvi palaist ER formātu, kam ir īss izpildes laiks. Pēc tam tiek sākta datu kolekcija par ER formāta izpildi. Atlasot šo vērtību, veiktspējas izsekošana apkopo informāciju par laiku, kas tiek patērēts šādām darbībām:
 
-        Lauku **Izpildes izsekošanas formāts** izmanto, lai norādītu ģenerētās veiktspējas izsekošanas formātu, kurā tiek uzglabāta izpildes informācijas ER formāta un kartēšanas elementiem. Atlasot kā vērtību **Atkļūdot izsekošanas formātu**, varēsit analizēt izsekošanas saturu ER operāciju noformētājā un skatīt ER formāta vai kartēšanas elementus, kas minēti izsekošanā.
+            - Katra datu avota palaišana modeļa kartējumā, kas tiek izsaukts datu iegūšanai
+            - Katra formāta vienuma apstrāde, lai ievadītu datus ģenerētajā izvadē
+
+            Ja atlasāt vērtību **Atkļūdošanas izsekošanas formāts**, varat analizēt izsekošanas saturu ER operāciju veidotājā. Tur varat skatīt ER formātu vai kartēšanas elementus, kas ir iepriekš minēti izsekošanā.
+
+        - **Apkopotais izsekošanas formāts** – atlasiet šo vērtību, ja plānojat palaist ER formātu, kam ir ilgs izpildes laiks partijas režīmā. Pēc tam tiek sākta apkopoto datu kolekcija par ER formāta izpildi. Atlasot šo vērtību, veiktspējas izsekošana apkopo informāciju par laiku, kas tiek patērēts šādām darbībām:
+
+            - Katra datu avota palaišana modeļa kartējumā, kas tiek izsaukts datu iegūšanai
+            - Katra datu avota palaišana formata kartējumā, kas tiek izsaukts datu iegūšanai
+            - Katra formāta vienuma apstrāde, lai ievadītu datus ģenerētajā izvadē
+
+            Vērtība **Apkopotās izsekošanas formāts** ir pieejama Microsoft Dynamics 365 Finance versijā 10.0.20 vai jaunākā versijā.
+
+            ER formāta veidotājā un ER modeļu kartēšanas veidotājā varat apskatīt kopējo viena komponenta izpildes laiku. Papildus tam, izsekošana satur detaļas par izpildi, piemēram, izpildes skaitu un minimālo un maksimālo vienas izpildes laiku.
+
+            > [!NOTE]
+            > Šī izsekošana tiek apkopota, balstoties uz izsekoto komponentu ceļu. Tāpēc statistika var būt nepareiza, ja vienam pamatkomponentam ir vairāki nenosaukti pakārtotie komponenti vai ja vairākiem pakārtotajiem komponentiem ir vienāds nosaukums.
 
     2. Iestatiet tālāk minētajām opcijām vienumu **Jā**, lai apkopotu noteiktu informāciju par ER modeļa kartējuma un ER formāta komponentu izpildi:
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938304"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261750"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Mākoņa un malas mēroga vienības ražošanas un noliktavas pārvaldības darba slodzēm
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938304"
 > [!IMPORTANT]
 > Mēroga vienības iespējas korporācijas Microsoft Dynamics 365 Supply Chain Management ir pieejamas saskaņā ar noteikumiem, kas nosaka pakalpojuma izmantošanu. Papildinformāciju skatiet šeit: [Microsoft Dynamics Juridiskā informācija](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Iespējojot mākoņa un malas mēroga vienības, jūs apstiprināt, ka jūs saprotat, ka daži dati, kas ir saistīti ar mākoņa un malas mēroga vienību konfigurāciju un apstrādi, var tikt glabāti datu centrā, kas atrodas Amerikas Savienotajās Valstīs. Lai iegūtu plašāku informāciju par mākoņa un malas skalas vienību datu apstrādi, skatiet tālāk šīs tēmas sadaļā [Datu apstrāde skalas vienību pārvaldības laikā](#data-processing-management).
+> Iespējojot mākoņa un malas mēroga vienības, jums tiks prasīts apstiprināt, ka jūs saprotat, ka daži dati, kas ir saistīti ar mākoņa un malas mēroga vienību konfigurāciju un apstrādi, var tikt glabāti datu centrā, kas atrodas Amerikas Savienotajās Valstīs. Lai iegūtu plašāku informāciju par mākoņa un malas skalas vienību datu apstrādi, skatiet tālāk šīs tēmas sadaļā [Datu apstrāde skalas vienību pārvaldības laikā](#data-processing-management).
 
 ## <a name="core-value-proposition-for-scale-units"></a>Kodola vērtības piedāvājums mēroga vienībām
 

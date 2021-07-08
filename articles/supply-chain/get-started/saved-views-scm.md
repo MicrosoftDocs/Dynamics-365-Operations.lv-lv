@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821253"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270663"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standarta saglabātie skati Supply Chain Management
 
@@ -79,16 +79,14 @@ Tabulā ir aprakstīti Sagādes un avotu modulim pieejamie saglabātie skati.
 
 ## <a name="saved-views-for-the-production-control-module"></a>Preču kontroles moduļa saglabātie skati
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Tabulā ir aprakstīti Preču kontroles modulim pieejamie saglabātie skati.
 
 | Lapa | Skata nosaukums | Skatiet aprakstu | Līdzekļa nosaukums |
 |---|---|---|---|
-| Ražošanas pasūtījuma MK lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
-| Ražosanas pasūtījumu informācijas lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
-| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
-| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | (Priekšskatījums) Saglabātie skati ražošanas kontrolei |
+| Ražošanas pasūtījuma MK lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
+| Ražosanas pasūtījumu informācijas lapa | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
+| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
+| Ražošanas pasūtījuma izdošanas saraksta žurnāls | Vienkāršoti | Vienkāršotais skats ietver tikai visbiežāk izmantotos laukus. Šādā veidā tas nodrošina ātrāku pārskatu un racionalizētu darba procesu. | Ražošanas kontroles moduļa saglabātie skati |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Pārdošanas un mārketinga moduļa saglabātie skati
 

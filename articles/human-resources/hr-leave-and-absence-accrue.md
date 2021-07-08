@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059477"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303468"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uzkrāt atvaļinājumu un kavējumu plānus
 
@@ -104,11 +104,9 @@ Dzēsiet uzkrājumu ierakstus noteiktam plānam un datumu diapazonam. Uzkrājumu
 
 2. Sadaļā **Pārvaldīt atvaļinājumu** atlasiet **Dzēst atvaļinājumu uzkrājumu auditu**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Priekšskatījums) Atvaļinājuma uzkrājumu darījumu auditēšana
+## <a name="leave-accrual-transaction-auditing"></a>Atvaļinājuma uzkrājumu darījumu auditēšana
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Šī priekšskatījuma funkcija palīdz atvaļinājumu un prombūtnes vadītājiem saprast atvaļinājumu un prombūtnes uzkrāšanas darījumus, kas saistīti ar darbinieka atvaļinājuma atlikumu konkrētam atvaļinājuma veidam.
+Šis līdzeklis palīdz atvaļinājumu un prombūtnes vadītājiem saprast atvaļinājumu un prombūtnes uzkrāšanas darījumus, kas saistīti ar darbinieka atvaļinājuma atlikumu konkrētam atvaļinājuma veidam.
 
 Lai skatītu darbības detaļas:
 

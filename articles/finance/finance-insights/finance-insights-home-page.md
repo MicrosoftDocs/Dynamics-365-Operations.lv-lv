@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
+ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222514"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261914"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance Insights sākumlapa (priekšskatījums)
 
@@ -32,6 +32,9 @@ Finance Insights nodrošina konfigurējamus un paplašināmus modeļus, lai pal�
 Finance Insights priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
 
 Priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+
+> [!NOTE]
+> Šī funkcionalitāte tiek piedāvāta kā priekšskatījuma līdzekļu kopa. Kā priekšskatījuma līdzekli nedrīkst izmantot izveidotos algoritmiskās mācīšanās modeļus, lai vadītu vai ietekmētu biznesa lēmumus vai budžeta priekšlikumus. Šī līdzekļa izmantošanu nosaka [Papildu lietošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 ## <a name="prerequisites"></a>Priekšnosacījumi
 

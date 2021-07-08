@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941200"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306393"
 ---
 # <a name="unified-product-experience"></a>Vienotā preču pieredze
 
@@ -124,7 +124,7 @@ Preču dimensijas ir īpašības, ko izmanto, lai identificētu preces variantu.
 
 Ja precei ir dažādas preces dimensijas (piemēram, preces šablona izmērs un krāsa ir tādas pašas kā preces dimensijas), katra atšķirīga prece (t.i., katrs preču variants) tiek definēta kā šo preču dimensiju kombinācija. Piemēram, preču numurs B0001 ir īpaši mazs, melns T krekls, un preces numurs B0002 ir neliels melns T krekls. Šādā gadījumā tiek definētas esošās preču dimensiju kombinācijas. Piemēram, no iepriekšējā piemēra T-krekls var būt īpaši mazs un melns, mazs un melns, vidējs un melns vai liels un melns, bet tas nevar būt īpaši liels un melns. Citiem vārdiem sakot, preču dimensijas, ko var veikt preces šablons, ir norādītas, un variantus var izlaist, pamatojoties uz šīm vērtībām.
 
-Lai sekotu preču dimensijām, ko var veikt preces šablons, katrai preces dimensijai tiek izveidotas un kartētas Dataverse tālāk norādītās tabulas. Papildinformāciju skatiet [Preces informācijas apskats]../../../supply-chain/pim/product-information.md).
+Lai sekotu preču dimensijām, ko var veikt preces šablons, katrai preces dimensijai tiek izveidotas un kartētas Dataverse tālāk norādītās tabulas. Papildinformāciju skatiet rakstā, [Preču informācija](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

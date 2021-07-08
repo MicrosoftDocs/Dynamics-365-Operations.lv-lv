@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019055"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292741"
 ---
 # <a name="containerization"></a>Konteinerizēšana
 
@@ -108,6 +108,8 @@ Lai iestatītu konteinera būvējuma veidni, izpildiet tālāk aprakstītās dar
 
       - **Iepakot visos atvērtajos konteineros** — sistēma novērtē, vai sadalījuma rinda ietilpst kādā no konteineriem, kuri tika izveidoti konteinerizēšanas cikla laikā.
       - **Iepakot tikai esošajā konteinerā** — sistēma novērtē tikai vai to, vai sadalījuma rinda ietilpst konteinerā, kurš tika izveidots pēdējais.
+
+    Papildinformāciju un piemērus, kas parāda, kā strādāt ar konteinera iepakošanas stratēģiju, skatiet sadaļā [Konteinera iepakošanas stratēģijas](container-packing-strategy-overview.md).
 
 1. Atlasiet **Kombinēšanas loģikas pārtraukumpunkti**, lai iestatītu noteikumus iepakošanas sadalījuma rindām konteineros. Varat izveidot, piemēram, kārtulu, kas darbiniekiem ļauj divu dažādu krājumu sadalījuma rindas iepakot vienā konteinerā. Lai definētu kombinēšanas kārtulu, izpildiet tālāk aprakstītās darbības:
 

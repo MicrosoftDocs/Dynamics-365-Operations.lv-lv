@@ -2,7 +2,7 @@
 title: Importēt konfigurāciju no Lifecycle Services
 description: Šajā tēmā ir aprakstīts, kā no Microsoft Dynamics Lifecycle Services (LCS) importēt jaunu elektronisko pārskatu (ER) konfigurācijas versiju.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b58ecb8a7d6f52631dbca7642a4acbcf6ff895a3
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752368"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270841"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importēt konfigurāciju no Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 Šajā tēmā ir izskaidrots, kā lietotājs ar lomu Sistēmas administrators vai Elektronisko atskaišu izstrādātājs var importēt jaunu [Elektronisko atskaišu veidošanas (Electronic Reporting — ER) konfigurācija](../general-electronic-reporting.md#Configuration) versiju no [projekta līmeņa līdzekļu bibliotēka](../../lifecycle-services/asset-library.md) Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> LCS kā ER konfigurāciju glabāšanas repozitorija izmantošana ir [novecojusi](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Papildinformāciju skatiet [Regulatory Configuration Service (RCS) — Lifecycle Services (LCS) krātuves nolietojums](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 Šajā piemērā jūs atlasīsiet vēlamo ER konfigurācijas versiju un importēsiet to parauga uzņēmumam ar nosaukumu Litware, Inc. Šīs darbības var pabeigt jebkurā uzņēmumā, jo ER konfigurācijas tiek koplietotas visos uzņēmumos. Lai izpildītu šīs darbības, jums vispirms ir jāizpilda procedūras [Augšupielādēt ER konfigurāciju pakalpojumos Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). Ir nepieciešama arī piekļuve LCS.
 

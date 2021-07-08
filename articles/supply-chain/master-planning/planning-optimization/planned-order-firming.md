@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193885"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271212"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -123,8 +123,6 @@ Automātiskās apstiprināšanas periods tiek definēts pēc dienu skaita, kas t
 Ja visi iepriekš minētie laika periodi tiek iestatīti uz *0* (nulle), automātiskā apstiprināšana tiek efektīvi deaktivizēta atbilstošajiem segtajiem krājumiem.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Plānoto pasūtījumu apstiprināšana, izmantojot vaicājumu
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Uz vaicājumiem balstīta apstiprināšana ļauj plānot apstiprināšanu, pamatojoties uz iepriekš definētiem kritērijiem. Atšķirībā no automātiskās apstiprināšanas uz vaicājumiem balstīta apstiprināšana ļauj automātiski apstiprināt dažādas pasūtījumu apakškopas dažādos laika punktos. Turklāt, lai apstiprinātu dažādus plānoto pasūtījumu tipus, var izmantot gan manuālas, gan automatizētas operācijas. Varat arī priekšskatīt, kuri apstiprinātie pasūtījumi ir atlasīti, pamatojoties uz jūsu iestatījumiem. Tāpēc varat apstiprināt, ka atlase atbilst jūsu prognozēm.
 

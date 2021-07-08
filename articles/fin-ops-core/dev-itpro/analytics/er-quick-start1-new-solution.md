@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224038"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304397"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Izveidot jaunu ER risinājumu, lai izdrukātu pielāgotu pārskatu
 
@@ -185,7 +185,7 @@ Veicot darbības, kas norādītas sadaļā [Importēt jaunu datu modeļa konfigu
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importēt jaunu datu modeļa konfigurāciju
 
-1. Lejupielādējiet [Anketu model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) failu un saglabājiet to lokālajā datorā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Darbvietā **Elektroniskie pārskati** atlasiet **Pārskatu veidošanas konfigurācijas**.
 4. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
@@ -300,7 +300,7 @@ Veicot darbības, kas norādītas sekojošajā sadaļā [Importēt jaunu modeļa
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Jaunas modeļa kartēšanas konfigurācijas importēšana
 
-1. Lejupielādējiet [Anketu mapping.version.1.1.xm](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu mapping.version.1.1.xm](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) failu un saglabājiet to lokālajā datorā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Darbvietā **Elektroniskie pārskati** atlasiet **Pārskatu veidošanas konfigurācijas**.
 4. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.
@@ -366,7 +366,7 @@ Datu avoti ir jākonfigurē, lai piekļūtu programmas tabulām, kas ietver info
     2. Atlasiet **Pievienot**.
     3. Dialoglodziņa laukā **Nosaukums** ievadiet **\$ResultGroup**.
     4. Atlasiet **Rediģēt formulu**.
-    5. [ER formulas redaktorā](general-electronic-reporting-formula-designer.md), laukā **Formula** ievadiet **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)**, lai tiktu izmantots [ceļš](er-formula-language.md#paths) no vienas uz daudzām attiecībām starp KMCollection un KMQuestionResultGroup tabulām.
+    5. [ER formulas redaktorā](general-electronic-reporting-formula-designer.md), laukā **Formula** ievadiet **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)**, lai tiktu izmantots [ceļš](er-formula-language.md#Paths) no vienas uz daudzām attiecībām starp KMCollection un KMQuestionResultGroup tabulām.
     6. Atlasiet **Saglabāt** un aizveriet formulas redaktoru.
     7. Atlasiet **Labi**, lai pievienotu jaunu aprēķināto lauku.
 
@@ -547,7 +547,7 @@ Konfigurētie datu avoti ir jāpiesaista datu modeļa laukiem, lai norādītu, k
 
 EP struktūra izmanto iepriekš definētas veidnes, lai ģenerētu pārskatus Microsoft Office formātos (Excel darbgrāmatas vai Word dokumentus). Kamēr tiek ģenerēts pieprasītais pārskats, veidne tiek aizpildīta ar nepieciešamajiem datiem atbilstoši konfigurētajām darbplūsmas. Tāpēc vispirms ir jāizveido jūsu pielāgotā pārskata veidne. Šī veidne ir jāveido kā Excel darbgrāmata, kuras struktūra ir pielāgota pārskata izkārtojums. Jums jāpiešķir nosaukums katram Excel vienumam, ko plānojat aizpildīt ar nepieciešamajiem datiem.
 
-1. Lejupielādējiet [Anketu report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) failu un saglabājiet to lokālajā datorā.
 2. Atveriet failu programmā Excel un pārskatiet darbgrāmatas struktūru.
 
 Kā redzams sekojošajā attēlā, lejupielādētā veidne ir izstrādāta, lai izdrukātu norādītās anketas, kas sniedz anketas jautājumus kopā ar atbilstošajām atbildēm.
@@ -572,7 +572,7 @@ Veicot darbības, kas norādītas sadaļā [Importēt izveidotā formāta konfig
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Izstrādātā formāta konfigurācijas importēšana
 
-1. Lejupielādējiet [Anketu format.version.1.1.xm](https://go.microsoft.com/fwlink/?linkid=851448) failu un saglabājiet to lokālajā datorā.
+1. Lejupielādējiet [Anketu format.version.1.1.xm](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) failu un saglabājiet to lokālajā datorā.
 2. Dodieties uz **Organizācijas administrēšana** \> **Darbvietas** \> **Elektronisko pārskatu veidošana**.
 3. Darbvietā **Elektroniskie pārskati** atlasiet **Pārskatu veidošanas konfigurācijas**.
 4. Darbību rūtī atlasiet **Mainīt** \> **Ielādēt no XML faila**.

@@ -1,8 +1,8 @@
 ---
 title: Human Resources nodrošināšana
-description: Šajā rakstā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana Microsoft Dynamics 365 Human Resources.
+description: Šajā tēmā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193728"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248825"
 ---
 # <a name="provision-human-resources"></a>Human Resources nodrošināšana
 
@@ -28,9 +28,15 @@ ms.locfileid: "6193728"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Šajā rakstā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana Microsoft Dynamics 365 Human Resources. Šajā rakstā tiek pieņemts, ka esat iegādājies Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Human Resources pakalpojumu plāns, un nevarat izpildīt šajā rakstā aprakstītās darbības, sazinieties ar atbalsta dienestu.
+Šajā tēmā ir detalizēti aprakstīta jaunas ražošanas vides nodrošināšana programmai Microsoft Dynamics 365 Human Resources. Šajā tēmā tiek pieņemts, ka esat iegādājies Human Resources, noslēdzot mākoņpakalpojumu nodrošinātāja (Cloud Solution Provider — CSP) vai uzņēmuma arhitektūras (enterprise architecture — EA) līgumu. Ja jums ir Microsoft Dynamics 365 licence, kurā jau ir ietverts Human Resources pakalpojumu plāns, un nevarat izpildīt šajā rakstā aprakstītās darbības, sazinieties ar atbalsta dienestu.
 
 Lai sāktu, globālajam administratoram ir jāpierakstās [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) un jāizveido jauns Human Resources projekts. Ja vien Human Resource nodrošināšanu neļauj veikt kāda licencēšanas problēma, nav nepieciešama palīdzība no atbalsta dienesta vai Dynamics Service tehniskajiem darbiniekiem (Dynamics Service Engineering — DSE).
+
+## <a name="provision-a-human-resources-trial-environment"></a>Human Resources apgrozījuma vides nodrošināšana
+
+Pirms pirmās smilškastes vai ražošanas vides nodrošināšanas, iespējams, vēlēsieties nodrošināt [Human Resources apgrozījuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962), lai validētu Human Resources funkcionalitāti. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. 
+
+Izmēģinājuma vides vides nav paredzētas izmantošanai kā ražošanas vides. Tās ir ierobežotas līdz 60 dienu pārbaudes periodam. Kad beidzas izmēģinājuma periods, vide un visi dati tiek dzēsti un nevar tikt atgūti. Vidi nevar pārvērst par smilškastes vai ražošanas vidi. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 ## <a name="plan-human-resources-environments"></a>Human Resources vižu plānošana
 
@@ -94,8 +100,6 @@ Kad esat izveidojis LCS projektu, varat nodrošināt Human Resources kādā vid�
 
     > [!NOTE]
     > Ja vēl neesat izrakstījies no gala prasībām, projektā varat izvietot Human Resources testa instanci. Pēc tam šo instanci varat lietot sava risinājuma testēšanai līdz brīdim, kad izrakstāties. Ja testēšanai lietojat savu jauno vidi, šī procedūra ir jāatkārto, lai izveidotu ražošanas vidi.
-
-    > Jūs varētu apsvērt iespēju izmantot bezmaksas 60 dienu [Human Resources izmēģinājuma vidi](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Kaut arī izmēģinājuma vide pieder lietotājam, kurš to pieprasīja, citus lietotājus var uzaicināt, izmantojot Human Resources sistēmas administrēšanu. Izmēģinājuma vides satur fiktīvsu datus, ko var izmantot, lai izpētītu programmu drošā veidā. Šīs vides nav paredzētas izmantošanai kā ražošanas vides. Ņemiet vērā, ka, beidzoties izmēģinājuma vides termiņam pēc 60 dienām, visi tajā esošie dati tiek dzēsti un nevar tikt atgūti. Pēc esošās vides termiņa beigām jūs varat pieteikties jaunai izmēģinājuma videi.
 
 ## <a name="select-a-power-apps-environment"></a>Atlasiet Power Apps vidi
 

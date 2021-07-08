@@ -16,17 +16,16 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03d8cad743ac2b2b1e7b2832b8272ca3dbf5a163
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021059"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271105"
 ---
 # <a name="message-processor-messages"></a>Ziņojumu apstrādātāja ziņojumi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Ziņojumu procesora ziņojumi tiek izmantoti, palaižot mākoņa un malas skalas vienības [ražošanas darba noslodzei](cloud-edge-workload-manufacturing.md) un [noliktavas pārvaldības darba noslodzei](cloud-edge-workload-warehousing.md).
 

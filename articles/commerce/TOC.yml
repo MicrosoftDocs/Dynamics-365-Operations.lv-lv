@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: "Commerce 10.0.18 (2021.\_gada maijs)"
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: "Commerce 10.0.17 (2021.\_gada aprīlis)"
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: Noņemtie vai novecojušie līdzekļi
                   items:
                     - name: Noņemtie vai novecojušie līdzekļi sākumlapā
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: Dynamics 365 Commerce komponentu versiju izveides prasības
                   href: arch-component-versioning.md
-                - name: Bezgalvas tirdzniecības programmas arhitektūra
+                - name: Bezgalvas tirdzniecības arhitektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Veikala topoloģijas atlase
                   href: dev-itpro/retail-in-store-topology.md
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: Commerce lokalizācijas iestatīšana un izvietošana Brazīlijai
                   href: localizations/latam-bra-deployment.md
+                - name: "NFC-e finanšu dokumenta funkcionalitāte pakalpojumā Commerce\_POS Brazīlijai"
+                  href: localizations/latam-bra-nfce.md
+                - name: "Klientu informācijas pārvaldība\_POS Brazīlijai"
+                  href: localizations/latam-bra-customer-information.md
+                - name: "NFC-e dokumentu atcelšana un atgriešana pakalpojumā Commerce\_POS Brazīlijai"
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: 'Atlikta to NFC-e dokumentu reģistrācija, kas izsniegti bezsaistes nejaušības režīmā'
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: 'Brazīlijas finanšu dokumentu grāmatošana, izmantojot mazumtirdzniecības pārskatus komponentā Commerce Headquarters'
+                  href: localizations/latam-bra-retail-statements.md
             - name: Austrumeiropa
               items:
                 - name: Parasts
@@ -1458,6 +1466,12 @@
               items:
                 - name: Formulu valoda
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Atbalstītie datu veidi elektronisko pārskatu formulām
+                  items:
+                    - name: Primitīvu datu tipi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: Saliktu datu tipi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Funkcijas
                   items:
                     - name: Konteiners
@@ -2002,13 +2016,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: "Application Update\_10.0.17"
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: "Application Update\_10.0.19"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: Pielāgotas glabāšanas vietas norādīšana ģenerētajiem dokumentiem
                   items:
                     - name: 'Notikuma abonēšana, lai pieprasītu atbildi no abonēšanas apstrādātāja'
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Elektronisko pārskatu mērķa izveides deleģēšana pielāgotai mērķa rūpnīcai
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: LIETOTĀJA IEVADES PARAMETRA veida datu avota vērtību iniciēšana no avota koda
+                - name: Pielāgota galamērķa ieviešana ģenerētajiem dokumentiem
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: USER INPUT PARAMETER veida datu avota vērtību iniciēšana no avota koda
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) mobilā programma
           items:

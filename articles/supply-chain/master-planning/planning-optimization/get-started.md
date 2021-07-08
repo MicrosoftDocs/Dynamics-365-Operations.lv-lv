@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103597"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301678"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darba sākšana ar plānošanas optimizāciju
 
@@ -109,6 +109,8 @@ Opcijas **Izmantot plānošanas optimizāciju** iestatījums nosaka, kuru plāno
 
 - **Jā** – plānošanas optimizācija tiek izmantota vispārējai plānošanai.
 - **Nē** - Iebūvētā Supply Chain Management plānošanas programma tiek izmantota vispārējai plānošanai.
+
+Šis iestatījums attiecas uz visām juridiskajām personām (uzņēmumiem). Dažām juridiskajām personām nav iespējams izmantot Plānošanas optimizāciju un iebūvēto vispārējo plānošanu citās juridiskajās personas.
 
 > [!NOTE]
 > Ja esošie plānošanas pakešuzdevumi, kas tika izveidoti iebūvētās Supply Chain Management programmai, ir aktivizēti, kamēr opcija **Izmantot plānošanas optimizāciju** ir iestatīta uz **Jā**, šie darbi neizdosies.

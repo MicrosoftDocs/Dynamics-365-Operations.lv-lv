@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020391"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270961"
 ---
 # <a name="rebate-management-deal-workflows"></a>Atlaižu pārvaldības darījumu darbplūsmas
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020391"
 
 Lai apstiprinātu atlaižu darījumus, atlaižu pārvaldība izmanto to pašu darbplūsmas platformu, ko citas Finance and Operations lietojumprogrammas. Divi darba procesi ir saistīti ar katru darbplūsmu:
 
-- Viens darbplūsmas elements aktivizē darījumu, lai lietotājs vai darbplūsmas process varētu apstiprināt darbības.
 - Viens darbplūsmas elements apstiprina darījumu.
+- Viens darbplūsmas elements aktivizē darījumu, lai lietotājs vai darbplūsmas process varētu apstiprināt darbības.
 
 Pirms atlaides darījuma izmantošanas tam jābūt aktīvam **Atlaižu pārvaldības** modulī. Lai aktivizētu darījumu, vispirms ir jāizveido un jākonfigurē *Atlaižu pārvaldības darījuma darbplūsma*.
 
-Kad atlaižu pārvaldībai ir aktivizēta darbplūsma, lietotāji darījumus nevar apstiprināt manuāli. Darbplūsma vienmēr ir jāizmanto.
+Lietotāji nevar manuāli apstiprināt darījumus. Darbplūsma vienmēr ir jāizmanto.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Izveidot un pārvaldīt atlaižu pārvaldības darījumu darbplūsmas
 
@@ -40,6 +40,19 @@ Lai strādātu ar Atlaižu pārvaldības darījumu darbplūsmām, dodieties uz *
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>Izmantojiet darbplūsmu, lai aktivizētu darījumu
 
-Lai aktivizētu darījumu, izmantojot darbplūsmu, atveriet darījumu (piemēram, lapā **Visi atlaižu pārvaldības darījumi**). Darbību rūtī atlasiet **Darbplūsma \> Iesniegt**. Kad jaunais darījums darbplūsmā ir apstrādāts un apstiprināts, tas būs aktīvs un gatavs lietošanai.
+Lai aktivizētu darījumu, izmantojot darbplūsmu, atveriet darījumu (piemēram, lapā **Visi atlaižu pārvaldības darījumi** ). Darbību rūtī atlasiet **Darbplūsma \> Iesniegt**. Kad jaunais darījums darbplūsmā ir apstrādāts un apstiprināts, tas būs aktīvs un gatavs lietošanai.
 
-Pēc darījuma aktivizēšanas tā iestatījumu nevar mainīt. Ja jums ir jāmaina aktīvs darījums, deaktivizējiet to un tad izveidojiet jaunu darījumu. Ja jaunais darījums būs līdzīgs vecajam darījumam, to var izveidot, kopējot veco darījumu.
+Pēc darījuma aktivizēšanas lielāko tās iestatījumu daļu nevar mainīt. Ja jums ir jāmaina aktīvs darījums, vispirms deaktivizējiet to un tad izveidojiet jaunu darījumu. Ja jaunais darījums būs līdzīgs vecajam darījumam, to var izveidot, kopējot veco darījumu.
+
+Jūs varat mainīt sekojošos iestatījumus darījumam pēc tā aktivizēšanas:
+
+- Saskaņot pēc
+- Kumulatīvā garantija
+- Grāmatošanas metode
+- Garantijas grāmatošanas profils
+- Dokumentu piezīmes
+- Valūta
+- No datuma
+- Līdz datumam
+
+Turklāt atlaides rindas var noņemt.
