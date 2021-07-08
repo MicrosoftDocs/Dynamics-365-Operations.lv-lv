@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e7bae4ae7c2f3367132b03accb31c01c5f3b673e
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 0baa922afc72778dd6e4836398a280cbe6abaec2
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937601"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270587"
 ---
 # <a name="check-in-for-pickup-module"></a>Izdošanas moduļa atdošana
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šis temats attiecas uz izdošanas moduļa atdošanu un tajā tiek paskaidrots, kā to konfigurēt programmā Microsoft Dynamics 365 Commerce.
 

@@ -2,7 +2,7 @@
 title: Konfigurēt likmes
 description: Likmes programmā Microsoft Dynamics 365 Human Resources definē, cik daudz darba devēji un nodarbinātie sniedz ieguldījumu atvieglojumā.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054984"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266661"
 ---
 # <a name="configure-rates"></a>Konfigurēt likmes
 
@@ -46,7 +46,7 @@ Izmantojiet likmes, lai noteiktu, cik daudz darbinieku un darba devēju maksā p
    | **Termiņa beigas** | Likmes beigu datums. 12/31/2154 (kas apzīmē "nekad") ir noklusētā vērtība. |
    | **Izmantot pakāpes** | Līmenis, ko izmantot atvieglojumu likmes aprēķinam. Vienkāršais līmenis viena līmeņa atvieglojuma likmei vai divkāršais līmenis divu līmeņu atvieglojuma likmei. Divkārša līmeņa piemērs ir līmenis, kas balstīts dzimumā un vecumā. |
    | **Maksājumu biežums** | Maksājumu biežums, kas nosaka to, cik bieži atvieglojuma prēmijas likme tiek izmaksāta atvieglojuma nodrošinātājam. Piemēram, ja maksājuma biežums ir reizi mēnesī, tad atvieglojumu likme apzīmē ikmēneša maksājuma summu. |
-   | **Maksājumu biežuma likmes noapaļošana** | Likmes noapaļošanas metode: standarta vai saīsinātā. |
+   | **Maksājumu biežuma likmes noapaļošana** | Likmes noapaļošanas metodes ir: standarta, saīsināta, parasta, uz leju un noapaļošana uz augšu. </br></br><ul><li>**Standarta** - vienmēr noapaļot uz augšu. Piemēram, 10,611 tiks noapaļots uz 10,62. – 10,231 tiks noapaļots uz -10,23. </li><li>**Saīsināta** - vienmēr noapaļot uz leju. Piemēram, 10,619 tiks noapaļots uz 10,61. – 10,231 tiks noapaļots uz -10,24. </li><li>**Parasta** - decimālskaitļu vērtības, kas beidzas ar 5, vai lielākas par 5, tiks noapaļotas no nulles. Decimālskaitļu vērtības, kas beidzas ar 4, vai mazākas par 4, tiks noapaļotas uz nulli. Piemēram, 10,615 tiks noapaļots uz 10,62. – 10,235 tiks noapaļots uz -10,24. 10,614 tiks noapaļots uz 10,61. – 10,234 tiks noapaļots uz -10,23. </li><li>**Uz leju** – noapaļot uz nulli. Piemēram, 10,619 tiks noapaļots uz 10,61. – 10,231 tiks noapaļots uz -10,23. </li><li>**Noapaļošana uz augšu** — noapaļot no nulles. Piemēram, 10,619 tiks noapaļots uz 10,62. – 10,231 tiks noapaļots uz -10,24. |
    | **Nesmēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Nesmēķētāja darba devēja summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par nesmēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |
    | **Smēķētāja darbinieka summa** | Summa, kuru atvieglojumu nodrošinātājs ietur par smēķētāju darbinieku. Šī ir summa, ko darba devējs maksā atvieglojumu nodrošinātājam, un tai ir jābalstās likmes iestatījumu maksājumu biežumā. |

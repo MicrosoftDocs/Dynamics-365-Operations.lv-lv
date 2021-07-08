@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814806"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270791"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorēt noklusējuma rezervācijas principu ražošanā izmantotajiem materiāliem
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *Ignorēšanas noklusējuma ražošanas rezervēšanas* funkcija ļauj iestatīt noklusējuma rezervēšanas principu katrai krājumu modeļu grupai. Tāpēc katram krājumam, kas ir daļa no ražošanas materiālu komplektu (MK) vai partijas pasūtījuma formulas, var automātiski piemērot dažādus rezervēšanas principus. Varat atlasīt, vai katrai krājumu modeļu grupai ir jāignorē pasūtījumam iestatītais noklusējuma rezervēšanas princips un kāds rezervēšanas princips jāizmanto (*manuāls*, *novērtējums*, *plānošana*, *izpilde* vai *sākums*).
 
@@ -37,7 +36,7 @@ Piemēram, ja ir izejmateriāli vai sastāvdaļas, kam nepieciešams izdošanas 
 Lai varētu izmantot līdzekli, tas vispirms ir jāiespējo jūsu sistēmā. Administratori var izmantot [funkciju pārvaldības](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) iestatījumus, lai pārbaudītu līdzekļa statusu un to ieslēgtu. Darbvietā **Līdzekļu pārvaldība** šis līdzeklis ir uzskaitīts šādi:
 
 - **Modulis:** *Ražošanas kontrole*
-- **Līdzekļa nosaukums:** *(Priekšskatījums) Ignorēt noklusējuma ražošanas rezervāciju*
+- **Līdzekļa nosaukums:** *Ignorēt noklusējuma ražošanas rezervāciju*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Ražošanas rezervēšanas ierobežojuma piešķiršana krājumu modeļu grupai
 
