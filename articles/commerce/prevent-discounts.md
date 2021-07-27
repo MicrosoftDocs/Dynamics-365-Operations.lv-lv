@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ddf3834057c89f5a091f09412183ca79540225fc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f808eb51de30eb8000cfc33ba0683bdac0709051
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802891"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352256"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Opcijas, kas neļauj lietot atlaides mazumtirdzniecības precēm
 
@@ -31,13 +31,13 @@ Ir dažādi iemesli, kāpēc mazumtirgotāji varētu vēlēties nepieļaut atlai
 
 Tālāk norādītas izlaisto preču cilnē **Komercija** pieejamās opcijas preces konfigurēšanai tā, lai nepieļautu nekādas vai manuālas atlaides. Iestatījumus var norādīt kategoriju hierarhijas kategoriju līmenī.
 
-- **Nepieļaut nekādas atlaides** — atlasiet šo opciju, lai nepieļautu nekādu veidu atlaides šai precei. Tas ietver veicināšanas pasākumus, piemēram, komplektu piedāvājumus, daudzuma un sliekšņvērtību atlaides, kā arī manuālas rindu un transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs.
-- **Nepieļaut manuālas atlaides** — atlasiet šo opciju, lai nepieļautu tikai manuālas rindu vai transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs. Precēm, kurām ir atlasīta šī opcija, joprojām var piemērot veicināšanas pasākumus, piemēram, komplekta atlaides un daudzuma un sliekšņvērtības atlaides.
+- **Nepieļaut nekādas atlaides** — atlasiet šo opciju, lai nepieļautu nekādu veidu atlaides šai precei. Tas ietver veicināšanas pasākumus, piemēram, komplektu piedāvājumus, daudzuma un sliekšņvērtību atlaides, kā arī manuālas rindu un transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs.
+- **Nepieļaut manuālas atlaides** — atlasiet šo opciju, lai nepieļautu tikai manuālas rindu vai transakciju atlaides, ko tirdzniecības laikā piemēro POS lietotājs. Precēm, kurām ir atlasīta šī opcija, joprojām var piemērot veicināšanas pasākumus, piemēram, komplekta atlaides un daudzuma un sliekšņvērtības atlaides.
 
 > [!NOTE]
 > Šie iestatījumi neierobežo cenas pārrakstīšanas darbību, jo tās gaitā tiek iestatīta pamatcena, kas netiek uzskatīta par atlaidi.
 
-[![Lauks Nepieļaut atlaides](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+[![Lauks Nepieļaut atlaides.](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

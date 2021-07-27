@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804409"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353808"
 ---
 # <a name="pickup-information-module"></a>Saņemšanas informācijas modulis
 
@@ -40,7 +40,7 @@ Ja ir atlasīti vairāki krājumi vairākiem veikaliem, saņemšanas informācij
 
 Sekojošajā attēlā ir parādīts laika nišas atlases piemērs, izmantojot saņemšanas informācijas moduli, kas atrodas izrakstīšanās lapā.
 
-![Saņemšanas informācijas moduļa piemērs norēķināšanās lapā](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Saņemšanas informācijas moduļa piemērs norēķināšanās lapā.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
@@ -56,11 +56,11 @@ Instrukcijas par to, kā pievienot saņemšanas informācijas moduli izrakstīš
 
 Sekojošajā attēlā parādīts e-tirdzniecības norēķinu lapas piemērs, kurā ir ietvertas saņemšanas rindu krājumu laika nišas.
 
-![E-tirdzniecības norēķinu lapas piemērs, kurā ir ietvertas saņemšanas rindu krājumu laika nišas](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![E-tirdzniecības norēķinu lapas piemērs, kurā ir ietvertas saņemšanas rindu krājumu laika nišas.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Izveidot un atjaunināt laika nišas klientu preču saņemšanai](dev-itpro/pickup-timeslots.md)
+[Laikspraugu izveide un atjaunināšana izsniegšanai klientam](dev-itpro/pickup-timeslots.md)
 
 [Norēķināšanās modulis](add-checkout-module.md)
 

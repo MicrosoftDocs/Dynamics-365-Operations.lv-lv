@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822543"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354112"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Iestatīt vēlamos uzturēšanas speciālistus
 
@@ -59,7 +59,7 @@ Jo vairāk atlašu veicat vienam un tam pašam ierakstam, jo konkrētāks būs j
 
     [!NOTE] Parasti, kad darba pasūtījuma plānošanas laikā tiek atlasīts vēlamais uzturēšanas speciālists, programma Asset Management iziet cauri visiem ierakstiem **Vēlamie uzturēšanas speciālisti**, lai pārbaudītu, vai nav iespējamas atbilstības, vienmēr pārbaudot viskonkrētāko kombināciju. Tas nozīmē, ka, ja nav atrasta atbilstība, tiek izmantots "noklusējuma" ieraksts ar atlasi vai nu laukā **Vēlamā uzturēšanas speciālistu grupa** vai **Vēlamais uzturēšanas speciālists**.
 
-![1. attēls](media/02-work-order-scheduling.png)
+![1. attēls.](media/02-work-order-scheduling.png)
 
 Jūs varat arī uzstādīt *atbildīgos* uzturēšanas speciālistus, kurus var atlasīt, kad tiek izveidots uzturēšanas pieprasījums vai darba pasūtījums. Jūs varat rediģēt atlasi laukos **Visi darba pasūtījumi** un **Visi uzturēšanas pieprasījumi**, ja nepieciešams. Papildinformāciju skatiet lapā [Atbildīgie uzturēšanas speciālisti](../setup-for-maintenance-requests/responsible-workers.md).
 

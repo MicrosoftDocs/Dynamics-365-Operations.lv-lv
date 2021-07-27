@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a641789adf27e51b7a3f8ab03269cc2e748eef96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909947"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359815"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Programmā Field Service ietverto darba pasūtījumu sinhronizēšana ar projektu programmatūrā Supply Chain Management
 
@@ -61,19 +61,19 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderHeader
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderHeaderProject
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderProduct
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Darba pasūtījumi ar projektu (no Field Service uz Supply Chain Management): WorkOrderService
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

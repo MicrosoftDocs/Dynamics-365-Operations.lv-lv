@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936784"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349654"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Pielāgotu lapu iestatīšana lietotāja pierakstīšanās gadījumiem
 
@@ -40,7 +40,7 @@ Pielāgotās Commerce lapas var veidot, izmantojot pierakstīšanos, parakstīš
 
 Pēc tam, kad esat iestatījis savu Azure AD B2C nomnieku un saistījis to ar savu Commerce vidi, dodieties uz **Azure AD B2C** lapu Azure portālā un izvēlnes sadaļā **Politikas** atlasiet **Lietotāja plūsmas (politikas)**.
 
-![Lietotāja plūsmas (politikas) komanda izvēlnē](./media/B2C_CustomPage_PoliciesMenu.png)
+![Lietotāja plūsmas (politikas) komanda izvēlnē.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Tagad varat konfigurēt lietotāja pierakstīšanās plūsmas "Parakstīšanās un pierakstīšanās", "Profila rediģēšana" un "Paroles atiestatīšana".
 
@@ -54,13 +54,13 @@ Lai konfigurētu "Parakstīšanās un pierakstīšanās" politiku, veiciet tāl�
 1. Kolonnā **Ievākt atribūtu** atlasiet izvēles lodziņus **E-pasta adrese**, **Vārds** un **Uzvārds**.
 1. Kolonnā **Atgriešanās prasība** atlasiet izvēles lodziņus **E-pasta adrese**, **Vārds**, **Identitātes nodrošinātājs**, **Uzvārds** un **Lietotāja objekta ID**.
 
-    ![Atlasītie atribūti un prasības](./media/B2C_SignInSignUp_Attributes.png)
+    ![Atlasītie atribūti un prasības.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Atlasiet **Labi**, lai izveidotu politiku.
 1. Veiciet dubultklikšķi uz jaunā politikas nosaukuma un pēc tam navigācijas rūtī atlasiet **Rekvizīti**.
 1. Iestatiet opciju **Iespējot JavaScript ieviešanu lapas izkārtojumā (priekšskatījums)** uz **Ieslēgts**.
 
-    ![Jaunās politikas rekvizītu lapa](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Jaunās politikas rekvizītu lapa.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Politikas nosaukums būs pilnībā raksturots Commerce vidē. (Prefikss **B2C\_1\_** tiks iekļauts raksturojumā.) Politikas nevar pārdēvēt pēc tam, kad tās izveidotas. Ja aizstājat esošu politiku savai Commerce videi, varat izdzēst sākotnējo politiku un izveidot jaunu politiku ar tādu pašu nosaukumu. Vai arī, ja vide jau ir nodrošināta, varat iesniegt jauno politikas nosaukumu, izmantojot pakalpojuma pieprasījumu.
@@ -150,7 +150,7 @@ Lai atjauninātu "Pierakstīšanās un parakstīšanās" politiku ar pielāgotu 
     1. Atribūtiem **E-pasta adrese**, **Vārds** un **Uzvārds** atlasiet **Nē** kolonnā **Pēc izvēles**.
 1. Atlasiet **Saglabāt**.
 
-    ![Lokālā konta parakstīšanās lapas politikas konfigurēšana](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Lokālā konta parakstīšanās lapas politikas konfigurēšana.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>"Profila rediģēšanas" politikas atjaunināšana ar pielāgotu lapas informāciju
 
@@ -188,11 +188,11 @@ Moduļa bibliotēkā pierakstīšanās moduļi ir iepriekš aizpildīti ar etiķ
 
 Piemēram, aizmirstās paroles saites noklusējuma teksts ir **Aizmirsta parole?**. Tālāk parādīts šis noklusējuma teksts pierakstīšanās lapā.
 
-![Noklusējuma teksts aizmirstas paroles saitei pierakstīšanās lapā](./media/B2C_SignUp_ModuleFace.png)
+![Noklusējuma teksts aizmirstas paroles saitei pierakstīšanās lapā.](./media/B2C_SignUp_ModuleFace.png)
 
 Tomēr moduļa bibliotēkas pierakstīšanās moduļa global.json failā varat rediģēt tekstu, lai būtu **Aizmirsāt paroli?**, kā parādīts tālāk redzamajā ilustrācijā.
 
-![Atjauninātais saites teksts pierakstīšanās moduļa global.json failā](./media/B2C_CustomizingStringsForModule.png)
+![Atjauninātais saites teksts pierakstīšanās moduļa global.json failā.](./media/B2C_CustomizingStringsForModule.png)
 
 Pēc global.json faila atjaunināšanas un savu izmaiņu publicēšanas jaunais saites teksts parādīsies pierakstīšanās modulī gan Commerce, gan arī aktuālajā pierakstīšanās lapā.
 

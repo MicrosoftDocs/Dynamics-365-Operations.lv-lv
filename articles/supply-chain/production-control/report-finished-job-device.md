@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811634"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350526"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Reģistrējiet pabeigšanu, izmantojot darba kartes ierīci
 
@@ -85,13 +85,13 @@ Lai ļautu manuāli piešķirt partijas numurus, izpildiet tālāk norādītās 
 1. Izveidojiet vai atlasiet izsekošanas numuru grupu, kas jāiestata.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Manuāli** uz **Jā**.
 
-    ![Manuālu partijas numuru izsekošanas numuru grupa](media/tracking-number-group-manual.png "Manuālu partijas numuru izsekošanas numuru grupa")
+    ![Manuālu partijas numuru izsekošanas numuru grupa.](media/tracking-number-group-manual.png "Manuālu partijas numuru izsekošanas numuru grupa")
 
 1. Iestatiet citas vērtības pēc vajadzības un pēc tam atlasiet šo izsekošanas numuru grupu kā partijas numuru grupu ražošanā laistām precēm, kurām vēlaties izmantot šo scenāriju.
 
 Izmantojot šo scenāriju, lauks **Partijas numurs**, ko darba kartes ierīcē nodrošina lapa **Pārskata norise**, ir teksta lodziņš, kurā darbinieki var ievadīt jebkuru vērtību.
 
-![Pārskata norises lapa ar lauku manuāliem partijas numuriem](media/job-card-device-batch-manual.png "Pārskata norises lapa ar lauku manuāliem partijas numuriem")
+![Pārskata norises lapa ar lauku manuāliem partijas numuriem.](media/job-card-device-batch-manual.png "Pārskata norises lapa ar lauku manuāliem partijas numuriem")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Iestatiet izsekošanas numuru grupu, kas nodrošina iepriekš definētu partijas numuru sarakstu
 
@@ -102,13 +102,13 @@ Lai nodrošinātu iepriekš definētu partijas numuru sarakstu, izpildiet tālā
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Tikai krājumu transakcijām** uz **Jā**.
 1. Lietojiet lauku **Pēc daudzuma**, lai sadalītu partijas numurus pēc daudzuma, pamatojoties uz ievadīto vērtību. Piemēram, jums ir ražošanas pasūtījums desmit vienībām un lauks **Pēc daudzuma** ir iestatīts uz *2*. Šādā gadījumā, izveidojot ražošanas pasūtījumu, tam tiks piešķirti pieci partijas numuri.
 
-    ![Iepriekš definēta partijas numuru izsekošanas numuru grupa](media/tracking-number-group-predefined.png "Iepriekš definēta partijas numuru izsekošanas numuru grupa")
+    ![Iepriekš definēta partijas numuru izsekošanas numuru grupa.](media/tracking-number-group-predefined.png "Iepriekš definēta partijas numuru izsekošanas numuru grupa")
 
 1. Iestatiet citas vērtības pēc vajadzības un pēc tam atlasiet šo izsekošanas numuru grupu kā partijas numuru grupu ražošanā laistām precēm, kurām vēlaties izmantot šo scenāriju.
 
 Izmantojot šo scenāriju, lauks **Partijas numurs**, ko darba kartes ierīcē nodrošina lapa **Pārskata norise**, ir nolaižams saraksts, kurā darbiniekiem jāievada iepriekš definētā vērtība.
 
-![Pārskata norises lapa ar iepriekš definēto partijas numuru sarakstu](media/job-card-device-batch-predefined.png "Pārskata norises lapa ar iepriekš definēto partijas numuru sarakstu")
+![Pārskata norises lapa ar iepriekš definēto partijas numuru sarakstu.](media/job-card-device-batch-predefined.png "Pārskata norises lapa ar iepriekš definēto partijas numuru sarakstu")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Iestatiet izsekošanas numuru grupu, kas automātiski piešķir partijas numurus
 
@@ -119,13 +119,13 @@ Ja partijas numuri jāpiešķir automātiski — bez darbinieka ievades — veic
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Tikai krājumu transakcijām** uz **Nē**.
 1. Iestatiet opciju **Manuāli** uz **Nē**.
 
-    ![Fiksētu partijas numuru izsekošanas numuru grupa](media/tracking-number-group-fixed.png "Fiksētu partijas numuru izsekošanas numuru grupa")
+    ![Fiksētu partijas numuru izsekošanas numuru grupa.](media/tracking-number-group-fixed.png "Fiksētu partijas numuru izsekošanas numuru grupa")
 
 1. Iestatiet citas vērtības pēc vajadzības un pēc tam atlasiet šo izsekošanas numuru grupu kā partijas numuru grupu ražošanā laistām precēm, kurām vēlaties izmantot šo scenāriju.
 
 Izmantojot šo scenāriju, lauks **Partijas numurs**, ko darba kartes ierīcē nodrošina lapa **Pārskata norise**, rāda vērtību, bet darbinieki nevar to rediģēt.
 
-![Pārskata norises lapa ar fiksētu partijas numuru](media/job-card-device-batch-fixed.png "Pārskata norises lapa ar fiksētu partijas numuru")
+![Pārskata norises lapa ar fiksētu partijas numuru.](media/job-card-device-batch-fixed.png "Pārskata norises lapa ar fiksētu partijas numuru")
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Reģistrēt sērijveidā kontrolētos elementus kā pabeigtus
 
@@ -165,7 +165,7 @@ Lai ļautu manuāli piešķirt sērijas numurus, izpildiet tālāk norādītās 
 1. Izveidojiet vai atlasiet izsekošanas numuru grupu, kas jāiestata.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Manuāli** uz **Jā**.
 
-    ![Izsekošanas numuru grupu lapa, sērijas numuri](media/tracking-number-group-manual-serial.png "Izsekošanas numuru grupu lapa, sērijas numuri")
+    ![Izsekošanas numuru grupu lapa, sērijas numuri.](media/tracking-number-group-manual-serial.png "Izsekošanas numuru grupu lapa, sērijas numuri")
 
 1. Iestatiet citas vērtības pēc vajadzības un pēc tam atlasiet šo izsekošanas numuru grupu kā sērijas numuru grupu ražošanā laistām precēm, kurām vēlaties izmantot šo scenāriju.
 
@@ -174,7 +174,7 @@ Izmantojot šo scenāriju, lauks **Sērijas numurs**, ko darba kartes ierīcē n
 - Lai atzīmētu sērijas numuru kā norakstītu, atlasiet pogu **Brāķis** attiecīgajai rindai. Darbinieks tiks lūgts sniegt **Kļūdas iemeslu**.
 - Lai dzēstu sērijas numuru, atlasiet pogu **Dzēst** attiecīgajai rindai.
 
-![Pārskata norises lapa ar lauku manuāliem sērijas numuriem](media/job-card-device-serial-manual.png "Pārskata norises lapa ar lauku manuāliem sērijas numuriem")
+![Pārskata norises lapa ar lauku manuāliem sērijas numuriem.](media/job-card-device-serial-manual.png "Pārskata norises lapa ar lauku manuāliem sērijas numuriem")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Iestatiet izsekošanas numuru grupu, kas nodrošina iepriekš definētu sērijas numuru sarakstu
 
@@ -185,13 +185,13 @@ Lai nodrošinātu iepriekš definētu sērijas numuru sarakstu, izpildiet tālā
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Tikai krājumu transakcijām** uz **Jā**.
 1. Lietojiet lauku **Pēc daudzuma**, lai sadalītu sērijas numurus pa vienam daudzumam.
 
-    ![Iepriekš definēta sērijas numuru izsekošanas numuru grupa](media/tracking-number-group-predefined-sn.png "Iepriekš definēta sērijas numuru izsekošanas numuru grupa")
+    ![Iepriekš definēta sērijas numuru izsekošanas numuru grupa.](media/tracking-number-group-predefined-sn.png "Iepriekš definēta sērijas numuru izsekošanas numuru grupa")
 
 1. Iestatiet citas vērtības pēc vajadzības un pēc tam atlasiet šo izsekošanas numuru grupu kā sērijas numuru grupu ražošanā laistām precēm, kurām vēlaties izmantot šo scenāriju.
 
 Izmantojot šo scenāriju, lauks **Sērijas numurs**, ko darba kartes ierīcē nodrošina lapa **Pārskata norise**, ir nolaižams saraksts, kurā darbiniekiem jāievada iepriekš definētā vērtība.
 
-![Pārskata norises lapa ar iepriekš definēto sērijas numuru sarakstu](media/job-card-device-serial-predefined.png "Pārskata norises lapa ar iepriekš definēto sērijas numuru sarakstu")
+![Pārskata norises lapa ar iepriekš definēto sērijas numuru sarakstu.](media/job-card-device-serial-predefined.png "Pārskata norises lapa ar iepriekš definēto sērijas numuru sarakstu")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Iestatiet izsekošanas numuru grupu, kas automātiski piešķir sērijas numurus
 
@@ -202,13 +202,13 @@ Ja sērijas numurs jāpiešķir automātiski — bez darbinieka ievades — veic
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet opciju **Tikai krājumu transakcijām** uz **Nē**.
 1. Iestatiet opciju **Manuāli** uz **Nē**.
 
-    ![Fiksētu sērijas numuru izsekošanas numuru grupa](media/tracking-number-group-fixed-sn.png "Fiksētu sērijas numuru izsekošanas numuru grupa")
+    ![Fiksētu sērijas numuru izsekošanas numuru grupa.](media/tracking-number-group-fixed-sn.png "Fiksētu sērijas numuru izsekošanas numuru grupa")
 
 1. Iestatiet citas vērtības pēc vajadzības un pēc tam atlasiet šo izsekošanas numuru grupu kā sērijas numuru grupu ražošanā laistām precēm, kurām vēlaties izmantot šo scenāriju.
 
 Izmantojot šo scenāriju, lauks **Sērijas numurs**, ko darba kartes ierīcē nodrošina lapa **Pārskata norise**, rāda vērtību, bet darbinieki nevar to rediģēt. Šis scenārijs ir būtisks tikai tad, kad tiek izveidots ražošanas pasūtījums vienam sērijveida kontrolētam krājuma daudzumam.
 
-![Pārskata norises lapa ar fiksētu sērijas numuru](media/job-card-device-serial-fixed.png "Pārskata norises lapa ar fiksētiem sērijas numuriem")
+![Pārskata norises lapa ar fiksētu sērijas numuru.](media/job-card-device-serial-fixed.png "Pārskata norises lapa ar fiksētiem sērijas numuriem")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Ziņojums par pabeigšanu noliktavas unikālajai vienībai
 
@@ -232,7 +232,7 @@ Lai kontrolētu, vai darbiniekiem ir atkārtoti jāizmanto esoša unikālā noli
     - **Ģenerēt noliktavas vienību** — iestatiet šo opciju uz **Jā**, lai katram pārskatam ģenerētu jaunas noliktavas vienības pabeigšanu. Iestatiet to uz **Nē**, ja katram pārskatam ir jāizmanto esoša noliktavas vienība kā pabeigta.
     - **Drukāt etiķeti** — iestatiet šo opciju uz **Jā**, ja darbiniekam ir jādrukā noliktavas vienības etiķete katram pārskatam kā pabeigta. Iestatiet to uz **Nē**, ja etiķete nav nepieciešama. 
 
-![Konfigurēt darbu karti ierīču lapai](media/config-job-card-raf.png "Konfigurēt darbu karti ierīču lapai")
+![Konfigurēt darbu karti ierīču lapai.](media/config-job-card-raf.png "Konfigurēt darbu karti ierīču lapai")
 
 > [!NOTE]
 > Lai konfigurētu etiķeti, dodieties uz **Noliktavas vadība \> Iestatīšana \> Dokumentu maršrutēšana \> Dokumentu maršrutēšana**. Papildinformāciju skatiet [Iespējot noliktavas vienības etiķetes drukāšanu](../warehousing/tasks/license-plate-label-printing.md).

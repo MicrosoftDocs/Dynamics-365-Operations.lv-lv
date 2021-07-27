@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897312"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360692"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finanšu dimensijas un grāmatošana 
 
@@ -71,29 +71,29 @@ Lietotājiem bieži vien rodas jautājumi par dažādu komponentu darbības sec�
 
 Tālāk esošajā attēlā parādīta fiksētā noklusējuma dimensija, kas iestatīta galvenajā kontā 401100.
 
-[![Noklusējuma finanšu dimensijas](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Noklusējuma finanšu dimensijas.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Šajā pamata piemērā mēs ievadīsim datus virsgrāmatas žurnālā, kam ir iestatīta dimensijas Nodaļa noklusējuma vērtība **023** (Operācijas). Ievadīsim un grāmatosim virsgrāmatas kontu. Šajā attēlā parādīta virsgrāmatas virsraksta noklusējuma finanšu dimensija.
 
-[![Virsgrāmatas žurnāli](./media/general-journal.png)](./media/general-journal.png)
+[![Virsgrāmatas žurnāli.](./media/general-journal.png)](./media/general-journal.png)
 
 Noklusējuma dimensijas žurnāla virsrakstā izraisīs to, ka nodaļa 023 tiks lietota pēc noklusējuma pārdošanas kontā rindā. Tālāk esošajā attēlā parādīta virsgrāmatas žurnāla rinda, kur ir lietota noklusējuma dimensijas vērtība **023** no virsraksta.
 
-[![Žurnāla dokuments](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Žurnāla dokuments.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Tomēr, grāmatojot rindu, tiek lietota fiksētā dimensija, un rinda tiek grāmatota nodaļā 022. Tālāk esošajā attēlā parādīts grāmatots dokuments, kur pārdošanas kontā ir lietota fiksētā dimensija.
 
-[![Dokumentu darījumi ar lietotām fiksētām dimensijām](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Dokumentu darījumi ar lietotām fiksētām dimensijām.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>2. piemērs
 
 Šajā piemērā tiek lietoti tādi paši iestatījumi kā pirmajā piemērā. Tomēr mēs pievienosim otru komponentu un izmantosim dimensiju Nodaļa kā līdzsvarošanas dimensiju. Tālāk esošajā attēlā vērtība **Nodaļa** ir iestatīta kā USMF virsgrāmatas līdzsvarošanas finanšu dimensija.
 
-[![Ilustrācija, kas parāda deparatmentu kā līdzsvarošanas finanšu dimensiju](./media/ledger.png)](./media/ledger.png)
+[![Ilustrācija, kas parāda deparatmentu kā līdzsvarošanas finanšu dimensiju.](./media/ledger.png)](./media/ledger.png)
 
 Ja tiek lietots viens un tas pats žurnāla virsraksta iestatījums un tiek grāmatota viena un tā pati transakcija, fiksētā dimensija tiek lietota kā pirmā. Pēc tam tiek lietota līdzsvarošanas loģika, kas palīdz nodrošināt, lai katrai nodaļai būtu līdzsvarots ieraksts. Tālāk esošajā attēlā parādītas dokumenta transakcijas, kurās ietverts līdzsvarojošais ieraksts pēc fiksētās dimensijas lietošanas.
 
-[![Dokumentu darījumi pēc līdzsvarošanas ieraksta lietošanas](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Dokumentu darījumi pēc līdzsvarošanas ieraksta lietošanas.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>3. piemērs
 
@@ -101,11 +101,11 @@ Ja tiek lietots viens un tas pats žurnāla virsraksta iestatījums un tiek grā
 
 Šajā piemērā ir svarīga secība. Konta struktūra tiek noteikta pēc galvenā konta ievadīšanas. Ja sniedzat atsauci uz konta struktūras iestatījumiem, sistēma var noteikt, ka ir būtisks galvenais konts, biznesa vienība, nodaļu un izmaksu centrs. Šajā brīdī papildu kārtula nav aktivizēta, jo fiksētās dimensijas netiek lietotas, kamēr grāmatošanas procesā nav lietotas žurnāla dokumenta noklusējuma dimensijas. Tālāk esošajā attēlā nav klientu segmenta, jo papildu kārtulas kritēriji nav izpildīti.
 
-[![Virsgrāmatas konts](./media/drop-down.png)](./media/drop-down.png)
+[![Virsgrāmatas konts.](./media/drop-down.png)](./media/drop-down.png)
 
 Grāmatošanas nebūs veiksmīga, jo procesa beigās tika lietota fiksētā dimensija. Dimensijas apstiprināšanas procesā tika konstatēts, ka, ja galvenais konts ir 401100 un nodaļa ir 022, ir nepieciešams segments Debitors. Grāmatošanu nevar veikt apstiprināšanas kļūdas dēļ. Tālāk esošajā attēlā redzams paziņojums, kas tiek paradīts pēc tam, kad dimensijas apstiprināšanas procesā ir konstatēts, ka nepieciešams segments Debitors.
 
-[![Ziņojuma detalizēta informācija](./media/message.png)](./media/message.png)
+[![Ziņojuma detalizēta informācija.](./media/message.png)](./media/message.png)
 
 Šajā piemērā ir jāpārraksta noklusējuma vērtība tā, lai tiktu aktivizēta papildu kārtula un varētu ievadīt segmentu Debitors. Tomēr šis risinājums ne vienmēr ir iespējams, un daži lietotāji pat nav informēti par grāmatošanas kārtulām. Tāpēc ir svarīgi izprast secību, kādā tiek lietotas noklusējuma dimensijas, iestatot kontu plānu.
 

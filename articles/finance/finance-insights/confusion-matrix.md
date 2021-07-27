@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193544"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349062"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Algoritmiskās mācīšanās modeļu rezultāti (priekšskatījums)
 
@@ -34,7 +34,7 @@ Pēc tam, kad ir pārraudzīta AM problēma ir apmācīta, izmantojot vēsturisk
 
 Piemēram, jūsu mērķis ir prognozēt, vai mājdzīvnieks ir suns vai kaķis, pamatojoties uz dažām fiziskajām un uzvedības pazīmēm. Ja jums ir testa datu kopa, kas satur 30 suņus un 20 kaķus, neskaidrību matrica var izskatīties līdzīgi tālāk redzamajam attēlam.
 
-![Sugas prognozēšanas piemērs](media/species-prediction-matrix.png)
+![Sugas prognozēšanas piemērs.](media/species-prediction-matrix.png)
 
 Skaitļi zaļajās šūnās attēlo pareizās prognozes. Kā redzat, modelis pareizi prognozēja lielāku procentuālo daļu faktisko kaķu. Modeļa vispārējo precizitāti ir viegli aprēķināt. Šādā gadījumā tā ir 42 ÷ 50 vai 0,84.
 
@@ -44,7 +44,7 @@ Lielākā daļa diskusiju par neskaidrību matricu fokusēja uz binārajiem klas
 
 Pēc tam tiks apsvērta klasifikācijas problēma finanšu scenārijam, kam ir trīs stāvokļi. Modelis prognozē, vai debitora rēķins tiks apmaksāts savlaicīgi, novēloti vai ļoti novēloti. Piemēram, no 100 testa rēķiniem 50 tiek apmaksāti savlaicīgi, 35 tiek apmaksāti novēloti, un 15 tiek apmaksāti ļoti novēloti. Šādā gadījumā modelis var radīt neskaidrību matricu, kas līdzinās tālāk redzamajam attēlam.
 
-![1. modelis](media/payment-prediction-matrix.png)]
+![1. modelis.](media/payment-prediction-matrix.png)]
 
 Neskaidrību matrica sniedz ievērojami vairāk informācijas, nekā vienkārša precizitātes metrika. Tomēr to joprojām ir samērā viegli saprast. Neskaidrību matrica norāda, vai jums ir sabalansēta datu kopa, kur izvades klasēm ir līdzīgs skaits. Vairāku klašu scenārijā tā norāda, cik tālu var atšķirties prognoze, ja izvades klases ir kārtas, kā iepriekšējā piemērā par debitoru maksājumiem.
 
@@ -55,7 +55,7 @@ Tā kā precizitāte ir vienkārša metrika, ko saprast, tā ir labs sākumpunkt
 
 Tomēr, lai iegūtu pilnīgāku izpratni, ir jāatzīmē vairākas problēmas, kas saistītas ar precizitāti. Metrikas lietderība ir atkarīga no problēmas konteksta. Saistībā ar modeļa veiktspēju bieži rodas jautājums: "Cik labs ir modelis?" Tomēr atbilde uz šo jautājumu ne vienmēr ir vienkārša. Aplūkojiet tālāk redzamo neskaidrību matricu (2. modelis).
 
-![Maksājuma prognozes piemērs ar lielāku paraugu](media/payment-prediction-matrix-2.png)
+![Maksājuma prognozes piemērs ar lielāku paraugu.](media/payment-prediction-matrix-2.png)
 
 Ātrs aprēķins parāda, ka šī modeļa precizitāte ir (70 + 10 + 3) ÷ 100 vai 0,83. Virspusēji šis rezultāts šķiet labāks, nekā iepriekšējā vairāku klašu modeļa (1. modeļa) rezultāts, kura precizitāte ir 0,73. Bet vai tas ir labāks?
 
@@ -87,7 +87,7 @@ Tālāk redzamajā tabulā ir apkopoti šīs tēmas neskaidrību matricu princip
 
 Pirms F1 precizitātes definēšanas, ir jāiepazīstas ar divām papildu metrikām: precizitāti un atsaukšanu. Precizitāte norāda, cik daudz no kopējā prognožu skaita, kas norādītas kā pozitīvas, ir piešķirtas pareizi. Šī metrika ir pazīstams arī kā pozitīvā prognozētā vērtība. Atsaukšana ir faktisko pozitīvo gadījumu kopskaits, kas tika prognozēti pareizi. Šī metrika ir pazīstama arī kā jutīgums.
 
-[![Patiesie rezultāti pret nepatiesiem rezultātiem](./media/tn-fn.png)](./media/tn-fn.png)
+[![Patiesie rezultāti pret nepatiesiem rezultātiem.](./media/tn-fn.png)](./media/tn-fn.png)
 
 Neskaidrību matricā iepriekšējā attēlā šīs metrikas ir aprēķinātas tālāk norādītajā veidā.
 
@@ -100,7 +100,7 @@ F1 mērs apvieno precizitāti un atsaukšanu. Rezultāts ir divu vērtību harmo
 
 Apskatīsim konkrētu piemēru. Iepriekš šajā tēmā bija piemērs ar modeli, kas prognozēja, vai dzīvnieks ir suns vai kaķis. Ilustrācija ir atkārtota šeit.
 
-[![Sugas prognozēšanas piemērs (atkārtots)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Sugas prognozēšanas piemērs (atkārtots).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Šeit ir rezultāti, ja "suns" tiek izmantots kā pozitīva atbilde.
 
@@ -114,9 +114,9 @@ Lai gan F1 precizitāte nav tik viegli saprotama, tā pievieno nianses pamata pr
 
 Šīs tēmas sadaļa [Modeļa precizitāte](#model-accuracy) salīdzināja divas tālāk norādītās neskaidrību matricas. Lai gan pirmajam modelim bija mazāka precizitāte, tas tika uzskatīts par noderīgāku, jo parādīja lielāku uzlabojumu, nekā noklusējuma minējums par savlaicīgo maksājumu.
 
-![Maksājuma prognoze pret faktisko piemēru](media/payment-prediction-matrix.png)
+![Maksājuma prognoze pret faktisko piemēru.](media/payment-prediction-matrix.png)
 
-![Maksājuma prognozes piemērs ar lielāku paraugu (atkārtots)](media/payment-prediction-matrix-2.png)
+![Maksājuma prognozes piemērs ar lielāku paraugu (atkārtots).](media/payment-prediction-matrix-2.png)
 
 Apskatīsim, kā šie divi modeļi ir salīdzināmi, ja tiek izmantots F1 rezultāts. F1 uzskaita precizitātes un atsaukšanas faktorus katram stāvoklim, un F1 makro aprēķins izrēķina vidējo aritmētisko F1 rezultātam starp stāvokļiem, lai noteiktu kopējo F1 rezultātu. Pastāv citi F1 varianti, bet vissvarīgāk ir apsvērt makro versiju, ņemot vērā vienādo apsvērumu, kas tiek dots visiem trim stāvokļiem.
 

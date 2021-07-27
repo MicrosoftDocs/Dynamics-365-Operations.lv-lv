@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356468"
 ---
 # <a name="service-level-and-description"></a>Pakalpojuma līmenis un apraksts
 
@@ -45,7 +45,7 @@ Kad izveidojat darba pasūtījumu, iespējams, vēlaties tam definēt pakalpojum
 8. Lai darba pasūtījumam iestatītu beigu, laiku papildus beigu datumam iestatiet opciju **Iestatīt beigu laiku** uz **Jā**. Pēc tam laukā **Beigu laiks** ievadiet beigu laiku. Ja opcija ir iestatīta uz **Nē**, tiek izmantots pašreizējās dienas laiks.
 9. Atlasiet **Saglabāt**.
 
-![Darba pasūtījumu pakalpojuma līmeņa lapa](media/19-setup-for-work-orders.png)
+![Darba pasūtījumu pakalpojuma līmeņa lapa.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Izveidot aprakstu
 

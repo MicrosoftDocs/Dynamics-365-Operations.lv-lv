@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820815"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350650"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Kreditoru maksājumu priekšlikumu automatizēšana
 
@@ -97,11 +97,11 @@ Iesakām novērtēt, vai automatizācija būs izdevīga jūsu organizācijai, pa
 
 Pēc kreditora maksājuma priekšlikuma automatizācijas sērijas izveidošanas katra maksājuma notikumi tiek parādīti procesa automatizācijas nedēļas skatā. Kreditoru maksājumiem tiek pievienots procesu automatizācijas iknedēļas skats darbvietai **Kreditoru maksājumi** un lapai **Procesu automatizācija**.
 
-[![Automatizācijas nedēļas skatu apstrāde kreditoru maksājumu darbvietā](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Automatizācijas nedēļas skatu apstrāde kreditoru maksājumu darbvietā.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 Procesa automatizācijas nedēļas skats darbvietā **Kreditoru maksājumi** rāda tikai kreditoru maksājumu priekšlikumu automatizācijas. Tas parāda visus maksājumu gadījumus pašreizējai nedēļai par visām juridiskajām personām, kurām lietotājam, kurš ir pierakstījies, ir drošības atļaujas. Piemēram, ja kreditoru maksājumu darbinieks ir atbildīgs par maksājumiem USMF un USSI uzņēmumos, viņš redzēs kreditora maksājuma priekšlikuma automatizāciju šiem diviem uzņēmumiem, bet ne citiem uzņēmumiem.
 
-[![Procesu automatizācijas nedēļas skats USMF un USSI uzņēmumiem](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Procesu automatizācijas nedēļas skats USMF un USSI uzņēmumiem.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Katrs gadījums rāda uzņēmumu, kuram tika vai tiks izveidots maksājumu žurnāls. Ja maksājumi tiek veidoti, izmantojot centralizētus maksājumus, uzņēmums, kas tiek norādīts, ir uzņēmums, kurā tiks izveidoti maksājumi. Notikums ne vienmēr parāda, kuri uzņēmuma rēķini tiks apmaksāti.
 

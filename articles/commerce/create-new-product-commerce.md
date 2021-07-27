@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352426"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Jaunas preces izveide programmā Commerce
 
@@ -49,13 +49,13 @@ Preces galvenokārt nosaka pēc preces numura, nosaukuma un apraksta. Lai apraks
 
 Tālāk redzamajā attēlā parādīts pievienojamās preces piemērs.
 
-![Preces izveide](media/create-new-product.png)
+![Preces izveide.](media/create-new-product.png)
 
 Kad prece ir pievienota, tai var iestatīt papildu datus, piemēram, **Preces apraksts**, **Variantu grupas**, **Dimensiju grupas**, **Preces īpašības** un **Saistītās preces**.
 
 Tālāk redzamajā attēlā ir parādīta preces papildu informācija.
 
-![Papildinformācija par preci](media/create-new-product-2.png)
+![Detalizēta informācija par preci.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Izveidot preces variantus
 
@@ -74,23 +74,23 @@ Lai pārdotu preci, tā vispirms jānodod juridiskai personai.
 
 1. Preču lapā atlasiet **Preču izlaišana**.
 
-    ![Preces izlaišana](media/create-new-product-3.png)
+    ![Izlaist preci.](media/create-new-product-3.png)
 
 1. Atlasiet izlaižamo preci un pēc tam atlasiet **Tālāk**.
 
-    ![Izlaižamās preces izvēle](media/create-new-product-4.png)
+    ![Izlaižamās preces izvēle.](media/create-new-product-4.png)
 
 1. Atlasiet izlaižamo preču variantu komplektu un pēc tam atlasiet **Tālāk**.
 
-    ![Izvēlēties izlaižamos variantus](media/create-new-product-5.png)
+    ![Izvēlēties izlaižamos variantus.](media/create-new-product-5.png)
 
 1. Atlasiet juridisko personu un pēc tam atlasiet **Tālāk**.
 
-    ![Izvēlieties juridisko personu](media/create-new-product-6.png)
+    ![Izvēlieties juridisko personu.](media/create-new-product-6.png)
 
 1. Atl. **Pabeigt**.
 
-    ![Preces izlaišanas pabeigšana](media/create-new-product-7.png)
+    ![Preces izlaišanas pabeigšana.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Izlaistās preces konfigurēšana
 
@@ -105,7 +105,7 @@ Pēc preces izlaišanas tai būs nepieciešama turpmāka konfigurācija, kas iet
 
 Tālāk redzamajā attēlā ir parādīts izlaistās preces konfigurācijas piemērs.
 
-![Izlaistās preces konfigurēšana](media/create-new-product-8.png)
+![Izlaistās preces konfigurēšana.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

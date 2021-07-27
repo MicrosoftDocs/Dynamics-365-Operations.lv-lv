@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354765"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Krājumu žurnāla apstiprināšanas darbplūsmas
 
@@ -55,7 +55,7 @@ Lai izveidotu jūsu krājumu žurnāla apstiprināšanas darbplūsmas:
     - **Krājumu MK žurnāls**
     - **Krājuma korekciju žurnāls**
 
-    ![Dialoglodziņš Izveidot darbplūsmu](media/journal-workflow-create-workflow.png "Dialoglodziņš Izveidot darbplūsmu")
+    ![Dialoglodziņš Izveidot darbplūsmu.](media/journal-workflow-create-workflow.png "Dialoglodziņš Izveidot darbplūsmu")
 
 1. Jūsu ierīcē tiek palaista darbplūsmas redaktora programma. (Iespējams, tiks prasīts apstiprināt šo darbību.) Izmantojiet to, lai pēc nepieciešamības izstrādātu savu darbplūsmu. Detalizētu informāciju par to, kā izmantot darbplūsmas redaktoru, skatiet [Darbplūsmas sistēmas pārskats](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Pēc darbplūsmas redaktora programmas saglabāšanas un aizvēršanas ir jāizvēlas, vai aktivizēt šo darbplūsmas versiju vai paturēt to kā deaktivizētu.
@@ -73,7 +73,7 @@ Lai saistītu krājumu žurnālu darbplūsmu ar krājumu žurnāla nosaukumu:
 1. Atlasiet žurnāla nosaukumu no saraksta kolonnas, lai atvērtu tās iestatījumu lapu.
 1. Kopsavilkuma cilnē **Vispārīgi** iestatiet **Apstiprinājuma darbplūsma** uz **Jā**. Atlasiet **Jā**, ja jums tiek piedāvāts apstiprināt transakciju.
 
-    ![Piešķirt darbplūsmu žurnāla nosaukumam](media/journal-workflow-journal-name.png "Piešķirt darbplūsmu žurnāla nosaukumam")
+    ![Piešķirt darbplūsmu žurnāla nosaukumam.](media/journal-workflow-journal-name.png "Piešķirt darbplūsmu žurnāla nosaukumam")
 
 1. Atveriet **Darbplūsmas** nolaižamo sarakstu un atlasiet atbilstošo darbplūsmu. Sarakstā ir parādīta katra aktīvā darbplūsma, ko esat izveidojis, lietojot darbplūsmas redaktora programmu.
 
@@ -87,7 +87,7 @@ Pēc tam, kad jūs saistāt krājumu žurnāla nosaukumu ar tā atbilstošo krā
 1. Pēc nepieciešamības aizpildiet žurnālu.
 1. Kad izveidojat vai atverat krājumu žurnālu ar apstiprinājuma darbplūsmu, kas saistīta ar to, darbības rūtī būs aktīva **Darbplūsmas** poga. Kad esat gatavs iesniegt žurnālu apstiprināšanai, atlasiet pogu **Darbplūsma**, lai atvērtu nolaižamo dialoglodziņu un pēc tam atlasiet **Iesniegt**. Apstiprinājuma pieprasījums tiks maršrutēts attiecīgajam apstiprinātājam, kas tiks brīdināts, izmantojot darbplūsmā konfigurēto paziņošanas metodi.
 
-    ![Iesniegt žurnālu apstiprināšanai](media/journal-workflow-inventory-journal.png "Iesniegt žurnālu apstiprināšanai")
+    ![Iesniegt žurnālu apstiprināšanai.](media/journal-workflow-inventory-journal.png "Iesniegt žurnālu apstiprināšanai")
 
 Lai atsauktu apstiprinājuma pieprasījumu, atveriet atbilstošo žurnālu, atlasiet pogu **Darbplūsma** un pēc tam atlasiet **Atsaukt**. Tādējādi darbplūsma tiks atiestatīta.
 

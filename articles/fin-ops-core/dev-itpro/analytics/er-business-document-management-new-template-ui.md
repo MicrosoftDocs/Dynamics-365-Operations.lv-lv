@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881040"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350188"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Microsoft Office-stila lietotāja interfeiss biznesa dokumentu pārvaldībā
 
@@ -51,18 +51,18 @@ Lai ieslēgtu šo līdzekli visām juridiskajām personām, veiciet tālak norā
 
 1. Darbvietā **Biznesa dokumentu pārvaldība** atlasiet **Jauns dokuments**.
 
-    ![Biznesa dokumentu pārvaldības darbvieta](./media/BDM_overview_new_template1.png)
+    ![Biznesa dokumentu pārvaldības darbvieta.](./media/BDM_overview_new_template1.png)
 
 2. Cilnē **Atlasīt** atlasiet dokumentu, kas jālieto kā veidne, un pēc tam atlasiet **Izveidot dokumentu**.
 
-    ![Dialoglodziņš biznesa dokumenti](./media/BDM_overview_new_template2.png)
+    ![Dialoglodziņš biznesa dokumenti.](./media/BDM_overview_new_template2.png)
 
 3. Jaunā dialoglodziņa laukā **Nosaukums** mainiet nosaukumu, kā nepieciešams. Nosaukuma teksts tiek izmantots jaunajam automātiski izveidotās ER formāta konfigurācijas nosaukumam. Šīs konfigurācijas (**Klientu FTI pārskats (GER) Kopija**) melnraksta versija ietvers rediģēto veidni un tiks izmantota šī ER formāta izmantošanai pašreizējam lietotājam. Sākotnējā veidne no pamata ER formāta konfigurācijas tiks izmantota šī ER formāta lietošanai ikvienam citam lietotājam.
 4. Laukā **Nosaukums** nomainiet nosaukumu pirmās rediģējamās veidnes pārskatīšanai, kas tiks izveidota automātiski.
 5. Laukā **Komentārs** atjauniniet piezīmes rediģējamās veidnes, kas tiks izveidota automātiski, pārskatīšanai.
 6. Atlasiet **Labi**, lai apstiprinātu rediģēšanas procesa sākumu.
 
-    ![Dialoglodziņš Dokumenta izveide](./media/BDM_overview_new_template3.png)
+    ![Dialoglodziņš Dokumenta izveide.](./media/BDM_overview_new_template3.png)
 
 Pogu **Jauns dokuments** lieto, lai izveidotu un rediģētu veidni ER formāta konfigurācijā, kas pieder citam nodrošinātājam. Šajā piemērā nodrošinātājs ir Microsoft. Atlasot **Jauns dokuments**, jūs varat rezēt visas veidnes, kas pieder pašreizējiem un citiem nodrošinātājiem. Pēc veidnes atlasīšanas tā ir atvērta rediģēšanai. Rediģētā veidne būs saglabāta jaunā ER formāta konfigurācijā, kas ģenerēta automātiski.
 
@@ -71,16 +71,16 @@ Izpildiet šīs darbības, lai pirms veidnes augšupielādes sniegtu nepiecieša
 
 1. Darbvietā **Biznesa dokumentu pārvaldība** atlasiet **Jauns dokuments**.
 
-    ![Biznesa dokumentu pārvaldības darbvieta](./media/BDM_overview_new_template1.png)
+    ![Biznesa dokumentu pārvaldības darbvieta.](./media/BDM_overview_new_template1.png)
     
 2. Lapā **Izveidot jaunu veidni**, cilnē **Augšupielādēt**, cilnē **Veidne** atlasiet **Pārlūkot**, lai atrastu un atlasītu Excel failu, kuru vēlaties izmantot kā veidni. Sadaļā **Veidne** automātiski tiek aizpildīti lauki **Nosaukums** un **Apraksts**. Tie nosaka automātiski izveidotās jaunā ER formāta konfigurācijas nosaukumu un aprakstu. Ja nepieciešams, jūs varat rediģēt šos laukus.
 3. Sadaļas **Dokumenta tips** laukā **Nosaukums** norādiet biznesa dokumenta tipu. Šī vērtība tiks izmantota, lai meklētu pareizo datu avotu (t.i., ER modeļa konfigurāciju).
 
-    ![Cilne Veidne](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Cilne Veidne.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. Cilnē **Datu avots** kopsavilkuma cilnē **Filtrs** atlasiet **Lietot filtru**. Sadaļā **Datu avots** lauks **Nosaukums** tiek aizpildīts automātiski vai varat atlasīt vērtību manuāli. Filtru var izmantot, lai meklētu atbilstošu datu avota nosaukumu pēc nosaukuma, apraksta, valsts/reģiona koda un biznesa dokumenta tipa.
 
-    ![Datu avota cilne](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Datu avota cilne.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > Kopsavilkuma cilne **Filtrs** tiek izmantota, lai meklētu pareizo datu avotu (t.i., ER modeļa konfigurāciju). Jūs varat rediģēt visus filtra laukus, lai atrastu vispiemērotāko datu avotu dokumentam, ko augšupielādējat.
@@ -89,7 +89,7 @@ Izpildiet šīs darbības, lai pirms veidnes augšupielādes sniegtu nepiecieša
     
 5. Cilnē **Kartēšana** atlasiet **Automātiski noteikt**. Lauks **Saknes definīcija** tiek aizpildīts automātiski vai varat atlasīt vērtību manuāli. Šajā cilnē ir redzama elementu beigu kartēšana no veidnes un modeļa.
 
-    ![Cilne Kartēšana](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Cilne Kartēšana.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > Kartēšanai sadaļā **Veidņu struktūra** izmanto pilnu etiķešu vai aprakstu atbilstību datu avotā lietotāja valodā un šūnas nosaukumā veidnē.
@@ -102,11 +102,11 @@ Ja elektronisko pārskatu nodrošinātājs nav pieejams, varat to izveidot. Ja n
 
 - Lai izveidotu nodrošinātāju, mainiet nodrošinātāja nosaukumu laukā **Nosaukums**, atjauniniet jaunā nodrošinātāja interneta adresi laukā **Interneta adrese** un atlasiet **Labi**, lai apstiprinātu.
 
-    ![Izveidot jaunu nodrošinātāju BDM](./media/bdm_create_provider.png)
+    ![Izveidot jaunu nodrošinātāju BDM.](./media/bdm_create_provider.png)
     
 - Lai aktivizētu esošu nodrošinātāju, izvēlieties nodrošinātāja nosaukumu laukā **Konfigurācijas nodrošinātājs** un atlasiet **Labi**, lai iestatītu nodrošinātāju kā aktīvu.
 
-    ![Aktivizēt nodrošinātāju BDM](./media/bdm_choose_provider.png)
+    ![Aktivizēt nodrošinātāju BDM.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Katra BDM veidne atsaucas uz nodrošinātāju kā konfigurācijas autoru. Tāpēc veidnei ir nepieciešams aktīvs nodrošinātājs.

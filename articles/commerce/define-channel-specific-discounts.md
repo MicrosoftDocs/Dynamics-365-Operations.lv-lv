@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802073"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349580"
 ---
 # <a name="define-channel-specific-discounts"></a>Kanālam raksturīgo atlaižu definēšana
 
@@ -37,7 +37,7 @@ Commerce izmanto cenu grupas, lai definētu kanālam raksturīgās atlaides. Cen
 
 ## <a name="price-groups"></a>Cenu grupas
 
-[![Cenu grupas](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Cenu grupas.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Iepriekšējā diagrammā ir parādītas attiecības starp elementiem, kas var būt transakcijā (kanāls, katalogs, piederība, debitors, lojalitātes programmas karte), un dažādiem atlaižu tipiem, kurus iespējams konfigurēt. Visas transakcijas notiek kādā kanālā, tāpēc ir garantēts, ka transakcijā atrodas kanāls. Atlikušie elementi nav obligāti. Katrā pamatdatu lapā ir saite uz saistīto cenu grupu lapu, kur pēc nepieciešamības var apskatīt un pievienot cenu grupas. Cenu grupa tiek lietota, lai četru dažādu tipu elementus saistītu ar atlaidēm, cenu korekcijām un tirdzniecības līgumiem. Iesakām plānot stratēģiju veidam, kā piešķirt nosaukumu savām cenu grupām, lai tās uzturētu kārtībā. Viena iespēja — izmantot burtu vai numuru prefiksu vai sufiksu, lai atšķirtu dažādus tipus. Piemēram, izmantot nosaukumu 1-xxxxx kanāla cenu grupām un izmantot nosaukumu 2-xxxxx kataloga cenu grupām. Pastāv četras pieprasījumu lapas, kas ir koncentrētas uz katru no komercijas elementiem, ar kuriem var būt saistītas atlaides.
 

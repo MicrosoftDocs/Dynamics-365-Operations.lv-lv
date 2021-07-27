@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023429"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356613"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>ieturētā nodokļa komponentu grupu iestatīšana TDS nodokļu tipam
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023429"
 
 1. Atveriet **Nodoklis \> Iestatīšana \> Ieturētais nodoklis \> ieturētā nodokļa komponentu grupas**.
 
-    [![ieturētā nodokļa komponentu grupu lapa](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![ieturētā nodokļa komponentu grupu lapa.](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. Laukā **Nodokļu tips** atlasiet **TDS**, lai iestatītu ieturētā nodokļa komponentu grupas TDS nodokļa tipam.
 3. Lai izveidotu rindu, darbību rūtī atlasiet **Jauns**.

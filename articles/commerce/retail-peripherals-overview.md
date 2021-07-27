@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345036"
 ---
 # <a name="peripherals"></a>Perifērās ierīces
 
@@ -119,7 +121,7 @@ Lai palīdzētu nodrošināt to, ka kopā ar programmu Commerce var lietot pēc 
 -   **Vadības objekts** — ierīču klases (piemēram, rindu displeju) vadības objekts nodrošina programmatūras interfeisu. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) nodrošina standartizētu OPOS vadības objektu kopu, kas tiek saukta par vispārīgajiem vadības objektiem (CCO). Programmas Commerce POS komponenta pārbaudei tiek izmantoti CCO objekti. Tādējādi pārbaude palīdz nodrošināt to, ka gadījumā, ja programma Commerce nodrošina kādas ierīces klases atbalstu, izmantojot OPOS, var tikt nodrošināts daudzu ierīču veidu atbalsts, ja vien ražotājs nodrošina pakalpojumu objektu, kas ir paredzēts standartam OPOS. Nav nepieciešams atsevišķi pārbaudīt katru ierīču veidu.
 -   **Pakalpojumu objekts** — pakalpojumu objekts nodrošina saziņu starp vadības objektu (C) un ierīci. Parasti ierīces pakalpojumu objektu nodrošina ierīces ražotājs. Taču dažos gadījumos pakalpojumu objektu, iespējams, ir nepieciešams lejupielādēt no ražotāja vietnes. Piemēram, var būt pieejama jaunāka pakalpojumu objekta versija. Lai uzzinātu ražotāja vietnes adresi, skatiet aparatūras dokumentāciju.
 
-[![Vadības objekts un pakalpojumu objekts](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā pat tad, ja tās iepriekš nav pārbaudītas kopā. 
+[![Vadības objekts un pakalpojumu objekts.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) OLE punktā POS OPOS implementācijas atbalsts palīdz nodrošināt to, ka tad, ja ierīču ražotāji un POS publicētāji ir pareizi ieviesuši standartu, POS sistēmas un atbalstītās ierīces var darboties kopā, pat ja tās iepriekš nav pārbaudītas kopā. 
 
 > [!NOTE]
 > OPOS atbalsts nenodrošina visu to ierīču atbalstu, kurām ir OPOS draiveri. Pirmkārt, programmai Commerce ir jānodrošina attiecīgā ierīces veida vai klases atbalsts, izmantojot OPOS. Turklāt pakalpojumu objektos dažreiz var nebūt ietverta jaunākā CCO versija. Ņemiet vērā arī to, ka parasti dažādu pakalpojumu objektu kvalitāte atšķiras.

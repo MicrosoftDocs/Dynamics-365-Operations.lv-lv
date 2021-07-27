@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271309"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357862"
 ---
 # <a name="apply-inventory-settings"></a>Krājumu iestatījumu lietošana
 
@@ -68,15 +68,15 @@ Pirkšanas lodziņš, vēlmju saraksts, veikala selektors, grozs un groza ikonu 
 
 Piemērā, kā parādīts šajā ilustrācijā, PDP rāda noliktavas ("Pieejams") ziņojumu.
 
-![PDP moduļa piemērs ar ziņojumu Noliktavā](./media/pdp-InStock.png)
+![PDP moduļa piemērs ar ziņojumu Noliktavā.](./media/pdp-InStock.png)
 
 Piemērā, kā parādīts šajā ilustrācijā, PDP rāda ("Nav pieejams") ziņojumu.
 
-![PDP moduļa piemērs ar ziņojumu Nav noliktavā](./media/pdp-outofstock.png)
+![PDP moduļa piemērs ar ziņojumu Nav noliktavā.](./media/pdp-outofstock.png)
 
 Piemērā, kā parādīts šajā ilustrācijā, grozs rāda noliktavas ("Pieejams") ziņojumu.
 
-![Groza moduļa piemērs ar ziņojumu Noliktavā](./media/cart-instock.png)
+![Groza moduļa piemērs ar ziņojumu Noliktavā.](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

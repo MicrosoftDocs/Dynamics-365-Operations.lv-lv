@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804433"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352304"
 ---
 # <a name="enable-personalized-recommendations"></a>Personalizētu ieteikumu iespējošana
 
@@ -50,7 +50,7 @@ Lai aktivizētu personalizāciju, veiciet tālāk minētās darbības.
 1. Atlasiet līdzekli **Personalizēto preču ieteikumi**.
 1. **Personalizēto preču ieteikumi** rekvizītu rūtī atlasiet **Iespējot tagad**.
 
-![Personalizācijas aktivizēšana](./media/FeatureManagement_Personalized.PNG)
+![Personalizācijas aktivizēšana.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Ieslēdzot personalizāciju, tiek sākts personalizētu preču ieteikumu saraksta ģenerēšanas process. Var tikt pieprasīta līdz vienai dienai, pirms šie saraksti ir pieejami un redzami tiešsaistē un POS.
@@ -73,7 +73,7 @@ Pirms "ieteikumu" sarakstu var parādīt jebkurā e-komercijas lapā, ir jāizpi
 
 Sekojošajā attēlā ir parādīts saraksts "ieteikumu" saraksts tiešsaistes veikala lapā.
 
-![Tiešsaistes "ieteikumu" saraksts](./media/picksforyou.png)
+![Tiešsaistes "ieteikumu" saraksts.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>"Klientu ieteikumu" saraksti POS
 
@@ -81,7 +81,7 @@ Lai uzlabotu savu klientu apkalpošanas pieredzi, mazumtirgotāji var personaliz
 
 Sekojošajā attēlā ir parādīts "klientu ieteikumu" saraksts POS terminālī.
 
-![Klientu ieteikumu saraksts POS](./media/picksonpos.png)
+![Klientu ieteikumu saraksts POS.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Lietot personalizāciju esošajiem ieteikumu sarakstiem
 
@@ -89,7 +89,7 @@ Mazumtirgotāji var piemērot personalizāciju esošajiem ieteikumu sarakstiem, 
 
 Piemēram, pierakstījies lietotājs jau ir iegādājies melnu rokaspulksteni un brūnus darba zābakus, kas parādās "populāri-noklusējuma" sarakstā nākamajā attēlā. Tāpēc lietotājs redzēs jaunas preces, nevis šīs preces, kā norādīts sarakstā "populāri — personalizēts".
 
-![Personalizācijas piemērošana](./media/applypersonalization.png)
+![Personalizācijas piemērošana.](./media/applypersonalization.png)
 
 Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietnes noformētājā, rīkojieties šādi.
 
@@ -99,7 +99,7 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 1. Dialoglodziņā **Atlasīt preču saraksta konfigurāciju** sadaļā **Veids** atlasiet saraksta veidu.
 1. Atzīmējiet izvēles rūtiņu **Piemērot personalizāciju** un pēc tam atlasiet **Labi**.
 
-    ![Personalizācijas piemērošana populāru preču sarakstam](./media/ApplyPersonalizationToTrending.PNG)
+    ![Personalizācijas piemērošana populāru preču sarakstam.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Saglabājiet lapu, pabeidziet to rediģēt un publicējiet to. Kad lapa ir publicēta, pierakstītie lietotāji redzēs personalizētus populāru preču sarakstus.
 
@@ -107,7 +107,7 @@ Lai piemērotu personalizāciju esošam rekomendāciju sarakstam Commerce vietne
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800425"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352668"
 ---
 # <a name="cloud-powered-search-overview"></a>Mākoņa darbinātas meklēšanas pārskats
 
@@ -41,7 +41,7 @@ Meklēšanas atbilstība un veiktspēja ir galvenie faktori daudzkanālu pieredz
 
 Sekojošajā attēlā parādīts tipisks pārlūkošanas un meklēšanas funkcionalitātes piemērs.
 
-![Ielādes lapas meklēšana](./media/SearchLanding.png)
+![Ielādes lapas meklēšana.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Kategoriālās navigācijas un izvēļu kopsavilkums 
 
@@ -51,7 +51,7 @@ Izmantojot kategoriālo navigāciju, varat konfigurēt dažādus rafinētājus d
 
 Sekojošajā attēlā parādīts piemērs, kur meklēšanā tiek izmantota kategoriālā navigācija.
 
-![Izvēles kopsavilkums](./media/ChoiceSummary.png)
+![Izvēles kopsavilkums.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Visaptveroša automātiskā piedāvāšana
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce arī atbalsta funkcionalitāti atslēgvārdu atbilstībai 
 
 Sekojošajā attēlā parādīts piemērs, kur tiek izmantota visaptveroša automātiskā piedāvāšana.
 
-![visaptveroša automātiskā piedāvāšana](./media/ImmersiveAutoSuggestUX.png)
+![visaptveroša automātiskā piedāvāšana.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Kārtot
 
@@ -69,11 +69,11 @@ Izmantojot uzlabotu kārtošanu programmā Dynamics 365 Commerce, klienti var k�
 
 >[!NOTE]
 >Mākoņa darbinātas meklēšanas iespējas ir pieejamas, sākot ar versiju 10.0.8. Pārliecinieties, vai sadaļas **Commerce parametri > Konfigurācijas parametri** ievadne “ProductSearch.UseAzureSearch ir iestatīta kā “true””. 
-![Mākoņa darbinātas meklēšanas konfigurācijas parametri](./media/CloudPoweredSearchConfigurationParameters.png)
+![Mākoņa darbinātas meklēšanas konfigurācijas parametri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 
-[Noklusējuma kategorijas ielādes lapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
+[Noklusējuma kategorijas reklāmas mērķlapas un meklēšanas rezultātu lapas pārskats](category-search-page-overview.md)
 
 [SEO metadatu pārvaldība](manage-seo-metadata.md)
 

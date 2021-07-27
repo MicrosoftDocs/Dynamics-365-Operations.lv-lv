@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797483"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348348"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Ieteikumu pievienošana transakciju ekrānam
 
@@ -43,7 +43,7 @@ Ja izmantojat programmu Commerce , varat parādīt preču ieteikumus savā POS 
 6. Kad esat pieteicies, tiek parādīta tālāk redzamajai lapai līdzīga lapa. Izkārtojums atšķiras atkarībā no jūsu veikalam veiktajiem pielāgojumiem.
 
 
-    [![Izkārtojuma veidotājs](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Izkārtojuma veidotājs.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Attēlojuma opcijas izvēle
 
@@ -58,11 +58,11 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 1. Samaziniet transakcijas rindu informācijas apgabala augstumu, lai tas būtu vienāds ar debitora paneli kreisajā pusē.
 
 
-    [![Transakcijas rindu informācijas apgabala augstums ir samazināts](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Transakcijas rindu informācijas apgabala augstums ir samazināts.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. No kreisajā pusē esošās izvēlnes velciet un nometiet ieteikumu vadīklu apgabalā starp transakcijas rindas informāciju un pogu režģi transakcijas ekrāna apakšēja vidusdaļā. Mainiet vadīklas izmērus, lai tā ietilptu šajā laukumā.
 
-    [![Izkārtojumam ir pievienota ieteikumu vadīkla](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Izkārtojumam ir pievienota ieteikumu vadīkla.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Noklikšķiniet uz **X**, lai saglabātu un aizvērtu izkārtojuma dizaineru.
@@ -77,13 +77,13 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
 2. Noklikšķiniet uz **Pielāgot**.
 
-    [![Pielāgošana — cilnes vadīklas dialoglodziņš](./media/pic-5.png)](./media/pic-5.png)
+    [![Pielāgošana — cilnes vadīklas dialoglodziņš.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Noklikšķiniet uz **Jauna cilne**.
 4. Atrodiet jauno cilni, kuru tikko pievienojāt. Iespējams, ir jāritina uz leju.
 5. Nolaižamajā sarakstā **Saturs** atlasiet vienumu **Ieteicamās preces**.
 
-    [![Ieteikto preču atlasīšana laukā Saturs](./media/pic-6.png)](./media/pic-6.png)
+    [![Ieteikto preču atlasīšana laukā Saturs.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Laukā **Etiķete** ierakstiet ieteikumu cilnes nosaukumu. Ierakstiet, piemēram, “Ieteiktās preces”.
 7. Laukā **Attēls** atlasiet attēlu, kas ir jārāda šajā cilnē.
@@ -97,7 +97,7 @@ Ir pieejamas divas konfigurācijas opcijas. Izvēlieties savam veikalam vispiem�
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojumu Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

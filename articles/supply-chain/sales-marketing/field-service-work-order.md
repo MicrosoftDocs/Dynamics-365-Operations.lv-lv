@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824970"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345552"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sinhronizējiet darba pasūtījumus risinājumā Field Service ar pārdošanas pasūtījumiem risinājumā Supply Chain Management
 
@@ -245,31 +245,31 @@ Tālāk esošajos attēlos ir redzams veidnes kartējums līdzeklī Datu integr�
 
 Filtrs: (msdyn_systemstatus ne 690970005) un (msdyn_systemstatus ne 690970000), un (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaServisaRindasNovērtējums
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un (msdyn_linestatus eq 690970000), un (msdynce_headersystemstatus ne 690970004)
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaServisaIzmantotaRinda
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004))
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaProduktaRindasNovērtējums
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un (msdyn_linestatus eq 690970000), un (msdynce_headersystemstatus ne 690970004), un (msdyn_allocated eq true)
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>No darba pasūtījumiem uz pārdošanas pasūtījumiem (no Field Service uz Supply Chain Management): DarbaPasūtījumaProduktaIzmantotaRinda
 
 Filtrs: (msdynce_headersystemstatus ne 690970005) un (msdynce_headersystemstatus ne 690970000), un (msdynce_orderhasexternalmaintainedproductsonly eq true), un ((msdyn_linestatus eq 690970001), vai (msdynce_headersystemstatus eq 690970004), vai (msdyn_allocated ne true))
 
-[![Veidņu kartēšana līdzeklī Datu integrācija](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Veidņu kartēšana līdzeklī Datu integrācija.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

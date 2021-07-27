@@ -2,7 +2,7 @@
 title: Veicināšanas reklāmkarogu modulis
 description: Šajā tēmā aplūkoti Promo banner moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796250"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479356"
 ---
 # <a name="promo-banner-module"></a>Akcijas reklāmkaroga modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aplūkoti Promo banner moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
@@ -46,11 +47,11 @@ Veicināšanas reklāmlogus var izmantot vietnes galvenē, lai parādītu veicin
 
 Attēlā zemāk ir parādīts veicināšanas reklāmkaroga piemērs.
 
-![Veicināšanas reklāmkaroga moduļa piemērs](./media/ecommerce-Promobanner.PNG)
+![Veicināšanas reklāmkaroga moduļa piemērs.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Veicināšanas reklāmkarogu moduļa rekvizīti
 
-| Rekvizīta nosaukums             | Vērtība                              | apraksts |
+| Rekvizīta nosaukums             | Vērtība                              | Apraksts |
 |---------------------------|------------------------------------|-------------|
 | Reklāmkaroga ziņojumi           | Teksts un saites                     | Teksta un saišu masīvs. |
 | Automātiskā atskaņošana                  | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai ziņojumi tiek automātiski iestatīti, ja ir konfigurēti vairāki ziņojumi. |
@@ -59,6 +60,10 @@ Attēlā zemāk ir parādīts veicināšanas reklāmkaroga piemērs.
 | Rādīt karuseļveida ziņojumu     | **Patiess** vai **Nepatiess**              | Vērtība, kas norāda, vai karuseļa paziņojumi ir jārāda, lai klienti varētu manuāli pārvietoties pa vairākiem reklāmkaroga vienumiem. |
 | Teksta līdzinājums            | **Pa labi**, **Pa kreisi** vai **Centrā** | Teksta līdzinājums veicināšanas reklāmkaroga modulī. |
 | Saistīt                      | URL                              | Vietrādis URL neobligātai vietnei. |
+|Teksta līdzinājums             | **Pa labi**, **Pa kreisi** vai **Centrā** | Šis rekvizīts ir pieejams kā tēmas paplašinājums Adventure Works tēmā. Tas ļauj lietotājam iestatīt teksta līdzinājumu veicināšanas reklāmlogos. |
+
+> [!IMPORTANT]
+> Adventure Works tēma ir pieejama Dynamics 365 Commerce versijas 10.0.20 laidienā.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Veicināšanas reklāmloga moduļa pievienošana jaunā lapā 
 
@@ -78,7 +83,6 @@ Lai pievienotu veicināšanas reklāmloga moduli jaunā lapā un iestatītu nepi
 
 > [!NOTE]
 > Veicināšanas reklāmlogs parasti tiek izmantots lapas galvenes slotā vai apakšvadītāja slotā.
-
 
 ## <a name="additional-resources"></a>Papildu resursi
 

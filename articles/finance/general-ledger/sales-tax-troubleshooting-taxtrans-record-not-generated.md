@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 284fd4047347386b3893684f077a5980f98a6788
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018785"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350004"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>Nav ģenerēts TaxTrans ieraksts
 
@@ -26,7 +26,7 @@ ms.locfileid: "6018785"
 
 Ja transakcijai atlasāt **Grāmatots PVN**, bet lapa **Grāmatots PVN** vai nu nerāda nodokļu rindas, vai arī tai trūkst nodokļu rindas, iespējams, netiks ģenerēts **TaxTrans** ieraksts.
 
-[![Grāmatota PVN lapa, kurā nav rindas krājumu](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Grāmatota PVN lapa, kurā nav rindas krājumu.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Lai novērstu šo problēmu, ja nepieciešams, veiciet tālāk norādītās darbības.
 
@@ -34,7 +34,7 @@ Lai novērstu šo problēmu, ja nepieciešams, veiciet tālāk norādītās darb
 
 1. Pirms transakcijas grāmatošanas lapā **Rēķina grāmatošana** atlasiet **PVN**, lai pārbaudītu aprēķinu.
 
-    [![PVN poga rēķina grāmatošanas lapā](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![PVN poga rēķina grāmatošanas lapā.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. Lapā **Pagaidu PVN transakcijas** pārskatiet aprēķina rezultātus. Ja nodoklis netiek aprēķināts, skatiet [Nodoklis nav aprēķināts vai nodokļa summa ir nulle](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md).
 
@@ -44,16 +44,16 @@ Lai novērstu šo problēmu, ja nepieciešams, veiciet tālāk norādītās darb
 2. Kolonnas **Dokuments** virsrakstā atlasiet filtra simbolu, lai atrastu **TaxTrans** ierakstu.
 3. Ja meklējat PVN ierakstus, pārbaudiet datumu. Ja datums atšķiras no žurnāla virsraksta datuma, izveidojiet Microsoft pakalpojuma pieprasījumu papildu atbalstam.
 
-    [![Grāmatota PVN lapa](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Grāmatota PVN lapa.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Atkļūdot, lai pārbaudītu detaļas
 
 1. Informāciju par to, kā atkļūdot un noteikt, vai **TmpTaxWorkTrans** un **TaxUncommitted** ir pareizi ģenerētas, skatiet [Lauku vērtība TaxTrans ir nepareiza](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md).
 2. Ja **TaxTmpWorkTrans** vai **TaxUncommitted** ir pareizi ģenerēts, pievienojiet pārtraukumpunktu pie **TaxPost::SaveAndPost()** un **Tax::SaveAndPost**, lai atkļūdotu iemeslu, kāpēc **TaxTrans** nav ievietots.
 
-    [![Kodā pievienoti pārtraukumpunkti](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Kodā pievienoti pārtraukumpunkti.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Pievienoto pārtraukumpunktu rezultāti](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Pievienoto pārtraukumpunktu rezultāti.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Noteikt, vai pielāgojums pastāv
 

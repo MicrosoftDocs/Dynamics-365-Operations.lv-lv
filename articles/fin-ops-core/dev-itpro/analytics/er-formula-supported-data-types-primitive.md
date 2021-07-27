@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224103"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355326"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Elektronisko pārskatu veidotāja atbalstītie primitīvie datu tipi
 
@@ -112,13 +112,13 @@ Programmas datu tipu *enumeration* var izmantot jebkurās ER modeļa kartēšana
 
 Attēlā parādīts, kā rediģējamam ER datu modelim varat pievienot **CustVendCorrectiveReasonCode** modeļa uzskaitījumu.
 
-[![Modeļa uzskaitījuma konfigurēšana ER datu modeļu veidotājā](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Modeļa uzskaitījuma konfigurēšana ER datu modeļu veidotājā.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Modeļa *enumeration* var izmantot jebkurās ER modeļa kartēšanas un ER formāta izteiksmēs, kas izveidotas datu modelī, kurā ir ieviests datu tips *enumeration*.
 
 Attēlā parādīts, kā rediģējamam ER formātam var pievienot **Sarakstu ar Natura apgrieztās maksāšanas apakškategoriju** formāta uzskaitījumu.
 
-[![Formāta uzskaitījuma konfigurēšana ER formāta veidotājā](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Formāta uzskaitījuma konfigurēšana ER formāta veidotājā.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Formāta *enumeration* var izmantot tikai ER formāta izteiksmēs, kurās ir ieviests datu tips *enumeration*.
 
@@ -126,15 +126,15 @@ Izmantojiet atbilstošu ER datu avotu tipu, lai ieviestu noteiktu uzskaitījumu 
 
 - Programmas uzskaitījumiem var piekļūt, izmantojot **Dynamics 365 for Operations \ Uzskaitījums** un **Vispārīgi \ Lietotāja ievades parametri** datu avotos. Attēlā parādīts, kā rediģējamam ER formātam var pievienot **appenumNoYes** un **uipNoYes** datu avotus, kas attiecas uz **NoYes** programmu uzskaitījumu.
 
-    [![Programmas uzskaitījuma datu avotu pievienošana ER formāta veidotājā](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Programmas uzskaitījuma datu avotu pievienošana ER formāta veidotājā.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Datu modeļa uzskaitījumiem var piekļūt, izmantojot **Datu modelis \ Uzskaitījums** un **Datu modelis \ Uzskaitījums lietotāja ievades parametriem** datu avotos. Attēlā parādīts, kā rediģējamam ER formātam var pievienot **CustVendCorrectiveReasonCode** datu avotu, kas attiecas uz **CustVendCorrectiveReasonCode** datu modeļa uzskaitījumu.
 
-    [![Modeļa uzskaitījuma datu avotu pievienošana ER formāta veidotājā](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Modeļa uzskaitījuma datu avotu pievienošana ER formāta veidotājā.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Formāta uzskaitījumiem var piekļūt, izmantojot **Formāts \ Uzskaitījums** un **Formāts \ Uzskaitījums lietotāja ievades parametriem** datu avotos. Attēlā parādīts, kā rediģējamam ER formātam var pievienot **NaturaReverseCharge** datu avotu, kas attiecas uz **Natura apgrieztās maksāšanas apakškategoriju** formāta uzskaitījumu.
 
-    [![Formāta uzskaitījuma datu avotu pievienošana ER formāta veidotājā](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Formāta uzskaitījuma datu avotu pievienošana ER formāta veidotājā.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 Datu tipam *enumeration* nav netiešas konvertēšanas. Tomēr varat izmantot konvertēšanas funkciju [TEXT](er-functions-text-text.md), lai konvertētu *enumeration* uz teksta virkni. Šī konvertēšana nav pakārtota valodai. Lai uzzinātu, kā *enumeration* vērtību var saistīt ar atbilstošajām valodas etiķetēm, skatiet [LISTOFFIELDS](er-functions-list-listoffields.md) un [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md) funkciju lietojuma piemērus.
 

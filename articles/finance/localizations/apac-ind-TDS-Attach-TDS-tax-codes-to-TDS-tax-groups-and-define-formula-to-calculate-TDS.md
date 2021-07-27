@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023427"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358486"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Pievienojiet TDS nodokļu kodus TDS nodokļu grupām un definējiet TDS aprēķināšanas formulu
 
@@ -33,7 +33,7 @@ Sekojiet šiem soļiem, lai iestatītu TDS nodokļu grupu, tai pievienotus TDS n
 
 1. Pārejiet uz sadaļu **Nodokļi \> Netiešie nodokļi \> Ieturētais nodoklis \> Ieturētā nodokļa grupas**.
 
-    [![Ieturēto nodokļu grupas lapa](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Ieturēto nodokļu grupas lapa.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Darbību rūtī atlasiet **Jauns**, lai izveidotu ieturētā nodokļa grupu TDS, un ievadiet nepieciešamo informāciju.
 3. Laukā **Nodokļa veids** atlasiet **TDS**.
@@ -43,7 +43,7 @@ Sekojiet šiem soļiem, lai iestatītu TDS nodokļu grupu, tai pievienotus TDS n
 7. Atlasiet **Atbrīvot** izvēles rūtiņu, lai novērstu nodokļu grupas aprēķināšanu darījumos.
 8. Darbību rūtī atlasiet **Veidotājs**, lai atvērtu formulas noformētāju, tādējādi varat definēt formulu TDS aprēķināšanai TDS nodokļu grupai. Lapā **Veidotājs** cilne **Nodokļi** rāda TDS nodokļu kodus, kas ir atlasīti TDS nodokļu grupai.
 
-    [![Veidotāja lapa](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Veidotāja lapa.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Cilnē **Aprēķins** atlasiet **Alt+N**, lai izveidotu rindu. **ID** lauks parāda automātiski ģenerēto prioritātes ID TDS aprēķinam.
 10. Laukā **Nodokļa kods** atlasiet ieturētā TDS nodokļa kodu, kam definēt formulu. Visi TDS nodokļu kodi, kas atlasīti TDS nodokļu grupai, ir pieejami atlasei šajā laukā.

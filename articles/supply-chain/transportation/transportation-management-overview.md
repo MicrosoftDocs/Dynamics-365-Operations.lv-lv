@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807732"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359513"
 ---
 # <a name="transportation-management-overview"></a>Transportēšanas pārvaldības pārskats
 
@@ -67,17 +69,17 @@ Transportēšanas pārvaldība jums ļauj lietot jūsu uzņēmuma transportēša
 ## <a name="planning-transportation-in-supply-chain-management"></a>Transportēšanas plānošana Supply Chain Management
 Modulī Transportēšanas pārvaldība transportēšanas plānošanu var balstīt uz pasūtījumiem vai uz sūtījumiem, kuri izveidoti, pamatojoties uz šiem pasūtījumiem. Sūtījumi vienmēr pastāv kādā noteiktā brīdī, bet nav nepieciešami transportēšanas plānošanai. Pārsūtīšanas pasūtījumi ir daļa no izejošās plūsmas scenārija, un tos var plānot kopā ar pārdošanas pasūtījumiem. 
 
-![Zīmējuma ielāde](./media/Load-drawing1-1024x477.jpg)
+![Zīmējuma ielāde.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Ienākošā transportēšana
 Ja pasūtat preces pie kreditora, un tās ir jāpiegādā uz jūsu noliktavu, ieteicams pašiem organizēt transportu preču pārvešanai. Pārvešanas plānošanai un ienākošās kravas saņemšanai varat izmantot programmatūru Supply Chain Management. Tālāk redzamajā attēlā ir attēlota biznesa procesa plūsma attiecībā uz ienākošas kravas transportēšanu. 
 
-![Biznesa procesa plūsma ienākošo kravu transportēšanai](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Biznesa procesa plūsma ienākošo kravu transportēšanai.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Izejošā transportēšana
 Var plānot un apstrādāt izejošo kravu, lai nosūtītu noteiktus krājumus no uzņēmuma noliktavas debitoram. Pārvešanas plānošanai un izejošās kravas sūtīšanai varat izmantot programmatūru Supply Chain Management. Tālāk ir paskaidrota nosūtīšanas izejošo noslodžu plānošanas un apstrādes biznesa procesa plūsma. 
 
-![Izejošo kravu plānošana un apstrāde](./media/Planningandprocessingoutboundloads.jpg)
+![Izejošo kravu plānošana un apstrāde.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Noslodzes plānošana
 Programmatūra Supply Chain Management nodrošina noslodzes plānošanas stratēģiju, kuras nosaukums ir Uz apjomu balstīta noslodzes plānošanas stratēģija. Šī stratēģija ļauj izmantot maksimālās vērtības, kuras ir norādītas garumam un svaram noslodzes veidnē, vai arī iestatījumus var ignorēt, ievadot jaunas vērtības. Lai izmantotu šo stratēģiju, atlasiet to laukā **Noslodzes plānošanas stratēģija** kopsavilkuma cilnē **Iestatījumi** lapā **Noslodzes plānošanas rīks**. Turklāt var pievienot savas noslodzes plānošanas stratēģijas, izveidojot jaunu klasi lietojumprogrammas objektu kokā (AOT).

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841241"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344810"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Rēķinu automatizācija skenētajiem dokumentiem
 
@@ -32,9 +32,9 @@ Organizācijas, kast vēlas uzlabot savus kreditoru procesus, rēķinu apstrādi
 
 Rēķinu automatizācijas risinājums nodrošina standarta interfeisu, kas var pieņemt rēķina metadatus rēķina virsrakstam un rēķina rindām, kā arī pielikumiem, kas attiecas uz rēķinu. Jebkura ārējā sistēma, kas var ģenerēt šim interfeisam atbilstošus artefaktus, varēs nosūtīt plūsmu automātiskai rēķinu un pielikumu apstrādei.
 
-Tālāk esošajā attēlā ir parādīts parauga integrācijas scenārijs, kurā uzņēmums Contoso kopā ar OCR pakalpojumu sniedzēju izmanto kreditora rēķinu apstrādi. Uzņēmuma Contoso kreditori pakalpojumu sniedzējam sūta rēķinus, izmantojot e-pastu. Izmantojot OCR apstrādi, pakalpojumu sniedzējs ģenerē rēķina metadatus (virsrakstu un/vai rindas) un skenēto rēķina attēlu. Pēc tam integrācijas slānis šos artefaktus pārveido tā, lai tos varētu patērēt.
+Tālāk esošajā attēlā ir parādīts parauga integrācijas scenārijs, kurā uzņēmums Contoso kopā ar OCR pakalpojumu sniedzēju izmanto kreditora rēķinu apstrādi. Contoso, kreditori pakalpojumu sniedzējam sūta rēķinus, izmantojot e-pastu. Izmantojot OCR apstrādi, pakalpojumu sniedzējs ģenerē rēķina metadatus (virsrakstu un/vai rindas) un skenēto rēķina attēlu. Pēc tam integrācijas slānis šos artefaktus pārveido tā, lai tos varētu patērēt.
 
-![Parauga integrācijas scenārijs](media/vendor_invoice_automation_01.png)
+![Parauga integrācijas scenārijs.](media/vendor_invoice_automation_01.png)
 
 Ja ir nepieciešama rēķinu integrācija, ir iespējamas vairākas iepriekšējā scenārija variācijas. Datu migrācija ir cits lietošanas gadījums, kurā šo interfeisu var izmantot rēķinu un pielikumu izveidei.
 
@@ -92,7 +92,7 @@ Scenārijos, kuros kreditora rēķini programmatūrā Finance and Operations non
 
 Jaunā rēķinu izņēmumu saraksta lapa ir pieejama šeit: **Kreditori** > **Rēķini** > **Importēšanas kļūmes** > **Kreditoru rēķini, kuru importēšana bija nesekmīga**. Šajā lapā ir parādīti visi kreditora rēķina virsraksta ieraksti no datu elementa Kreditora rēķina virsraksts izstādīšanas tabulas. Ievērojiet, ka varat skatīt tos pašus ierakstus no darbvietas **Datu pārvaldība**. Varat arī veikt tās pašas darbības, kas tiek nodrošinātas izņēmumu apstrādes līdzeklī no darbvietas **Datu pārvaldība**. Izņēmuma apstrādes līdzeklis ir optimizēts funkcionālam lietotājam, kas atvieglo lietošanu.
 
-![Izņēmumu saraksta lapa](media/vendor_invoice_automation_02.png)
+![Izņēmumu saraksta lapa.](media/vendor_invoice_automation_02.png)
 
 Šajā saraksta lapā ir tālāk norādītie lauki, kas tajā nonāk ar plūsmu.
 
@@ -136,7 +136,7 @@ Izņēmumu saraksta lapa atbalsta standarta drošības struktūras, kuras darbvi
 + Pēc lietotāja
 + Pēc juridiskās personas
 
-![Importēšanas darbs, kas ir nodrošināts pēc lietotāja lomas un juridiskās personas](media/vendor_invoice_automation_04.png)
+![Importēšanas darbs, kas ir nodrošināts pēc lietotāja lomas un juridiskās personas.](media/vendor_invoice_automation_04.png)
 
 Ja rēķina importēšanas darbam ir konfigurēta drošība, izņēmumu saraksta lapa respektē šos iestatījumus. Lietotāji varēs redzēt tikai tos rēķinu izņēmumu ierakstus, ko šis iestatījums ļauj viņiem skatīt.
 

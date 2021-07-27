@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224102"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355350"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronisko pārskatu veidotāja atbalstītie saliktie datu tipi
 
@@ -43,11 +43,11 @@ Noklusējuma vērtība datu tipam *class* ir **null**.
 
 Attēlā parādīts, kā **klases** datu tipa datu avots **System information(xInfo)** tiek pievienots, lai izveidotu instanci pieteikuma klasei **xInfo** un izsauktu tās **productName()** metodi, lai saņemtu pašreizējā pieteikuma nosaukumu. Pašreizējā pieteikuma nosaukums tiek ienests izpildlaikā, izpildot `xInfo.productName` saistījumu, kas tika konfigurēts ER datu modeļa laukam **Software name(SoftwareName)**. Šī saistīšana izsauc **xInfo** pieteikuma klases metodi `productName()`, kas attēlota pašreizējā modeļa kartēšanā kā **Sistēmas informācijas (xInfo)** datu avots.
 
-[![Klases datu avota konfigurēšana ER modeļa kartēšanas noformētājā](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Klases datu avota konfigurēšana ER modeļa kartēšanas noformētājā.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 Šajā attēlā parādīts, kā ER formāts tiek konfigurēts, lai ievietotu norādīto pieteikuma nosaukumu ģenerētajos dokumentos. Izmantotā datu modeļa lauks **Software name(SoftwareName)** tika saistīts ar komponentu **Virkne**, kas ligzdots zem **softwareUsed** XML elementa ER formātā. Tātad pašreizējā pieteikuma nosaukums izpildlaikā tiek novietots ģenerētā dokumenta XML formāta **softwareUsed** XML elementā.
 
-[![Elektronisko izejošo dokumentu struktūras konfigurēšana ER formāta noformētājā](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Elektronisko izejošo dokumentu struktūras konfigurēšana ER formāta noformētājā.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Konteiners
 
@@ -60,7 +60,7 @@ Noklusējuma vērtība *container* ir **null**.
 
 Šajā attēlā parādīts, kā datu tipa *Konteiners* lauks **Bitmap(Image)** ir saistīts ar datu modeļa datu tipa **Konteiners** lauku **Logotips** modeļa **Pārdošanas rēķins** kartēšanā. Šis saistījums uzņēmuma logotipu padara pieejamu jebkuram ER formātam, kas ir izstrādāts **SalesInvoice** saknes definīcijai un kas izpildlaikā izmanto šo modeļa kartējumu.
 
-[![Konteinera tipa lauka saistīšana ER modeļa kartējuma noformētājā](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Konteinera tipa lauka saistīšana ER modeļa kartējuma noformētājā.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Ieraksts
 
@@ -109,7 +109,7 @@ Noklusējuma vērtība datu tipam *object* ir **null**.
 
 Attēlā parādīts, kā *Objekta* tipa datu avots **ReportDataContract** tiek pievienots, lai informāciju par ģenerēto rēķinu no avota koda nodotu **Projekta rēķina** modeļa kartējumam. Piemēram, rēķina instances teksts tiek nodots kā daļa no izpildes konteksta. Šis teksts tiek ņemts no avota koda izpildlaikā, izpildot `ReportDataContract.parmInvoiceInstanceText` saistījumu, kas tika konfigurēts ER datu modeļa **Piezīmes** laukam. Šī saistīšana izsauc **PSAProjInvoiceContract** pieteikuma klases metodi `parmInvoiceInstanceText()`, kas attēlota pašreizējā modeļa kartēšanā kā **ReportDataContract** datu avots.
 
-[![Objekta datu avota konfigurēšana ER modeļa kartēšanas noformētājā](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Objekta datu avota konfigurēšana ER modeļa kartēšanas noformētājā.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Lai uzzinātu, kā nodot izpildes konteksta informāciju no avota koda uz palaisto ER risinājumu, skatiet sadaļu [Pieteikumu artefaktu izstrādāšana, lai izsauktu paredzēto pārskatu](er-quick-start1-new-solution.md#DevelopCustomCode).
 

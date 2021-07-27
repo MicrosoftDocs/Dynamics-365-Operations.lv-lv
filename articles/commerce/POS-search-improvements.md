@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796370"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345164"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Preču meklēšana un debitoru meklēšana pārdošanas punktā (POS)
 
@@ -36,7 +36,7 @@ Pēc noklusējuma preču meklēšana tiek veikta veikala preču klāstā. Šī t
 
 Lapā **Mainīt katalogu** darbinieki var vienkārši atlasīt jebkuru veikalu vai meklēt preces visos veikalos.
 
-![Kataloga maiņa](./media/Changecatalog.png "Kataloga maiņa")
+![Kataloga maiņa.](./media/Changecatalog.png "Kataloga maiņa")
 
 Lokālā preču meklēšana meklē tālāk uzskaitītajos preču rekvizītos.
 
@@ -59,7 +59,7 @@ Lokālā preču meklēšana meklē tālāk uzskaitītajos preču rekvizītos.
 - Mazumtirgotāji var konfigurēt preču meklēšanu, lai rādītu meklēšanas ieteikumus, kamēr lietotāji raksta preču nosaukumus. Šai funkcionalitātei ir pieejams jauns iestatījums POS funkcionalitātes profilā, grupā ar nosaukumu **Preču meklēšana**. Šis iestatījums saucas **Rādīt meklēšanas ieteikumus rakstīšanas laikā**. Šī funkcionalitāte var palīdzēt darbiniekiem ātri atrast meklētās preces, jo viņiem nav nepieciešams visu nosaukumu ievadīt manuāli.
 - Preču meklēšanas algoritms meklētos vārdus tagad meklē arī preces rekvizītā **Meklēšanas nosaukums**.
 
-![Preču ieteikumi](./media/Productsuggestions.png "Preču ieteikumi")
+![Preču ieteikumi.](./media/Productsuggestions.png "Preču ieteikumi")
 
 ## <a name="customer-search"></a>Debitora meklēšana
 
@@ -83,7 +83,7 @@ Lai meklētu globāli, darbinieki var atlasīt lapas apakšā esošo pogu **Filt
 
 Debitora ID netiek rādīts debitoriem, kas tiek vaicāti no citām juridiskajām personām, jo pašreizējā uzņēmumā šīm personām debitora ID nav izveidots. Taču, ja darbinieks atver debitora detalizētās informācijas lapu, tad sistēma šai pusei automātiski ģenerē debitora ID, kā arī attiecīgo debitoru piesaista veikala debitoru adrešu grāmatām. Tāpēc šis debitors būs redzams vēlāk veiktajos lokālajos veikala meklējumos.
 
-![Debitora globāla meklēšana](./media/Globalcustomersearch.png "Debitora globāla meklēšana")
+![Debitora globāla meklēšana.](./media/Globalcustomersearch.png "Debitora globāla meklēšana")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Papildu vietējās debitoru meklēšanas iespējas
 
@@ -94,11 +94,11 @@ Kad lietotājs meklē tālruņa numuru, sistēma ignorē speciālās rakstzīmes
 
 Tradicionālā debitoru meklēšana var būt laikietilpīga, jo tā meklē vairākos laukos. Tā vietā kasieri var meklēt pēc viena debitora rekvizīta, piemēram, vārda, e-pasta adreses vai tālruņa numura. Debitoru meklēšanas algoritma izmantotie rekvizīti kopā tiek saukti par *debitoru meklēšanas kritērijiem*. Sistēmas administrators vienu vai vairākus kritērijus var ērti konfigurēt kā saīsnes, kas būs redzamas POS. Tā kā meklēšanai tiek izmantots tikai viens kritērijs, tiek rādīti tikai saistītie meklēšanas rezultāti, un veiktspēja ir daudz labāka par standarta debitoru meklēšana veiktspēju. Nākamajā attēlā ir parādītas POS pieejamās debitoru meklēšanas saīsnes.
 
-![Debitora meklēšanas saīsnes](./media/SearchShortcutsPOS.png "Debitora meklēšanas saīsnes")
+![Debitora meklēšanas saīsnes.](./media/SearchShortcutsPOS.png "Debitora meklēšanas saīsnes")
 
 Lai iestatītu meklēšanas kritērijus kā saīsnes, administratoram ir jāatver lapa **Commerce parametri** programmā Commerce un pēc tam cilnē **POS meklēšanas kritēriji** ir jāatlasa visi kritēriji, kas ir jārāda kā saīsnes.
 
-![Konfigurēt meklēšanas saīsnes](./media/ConfigureShortcutsAX.png "Konfigurēt meklēšanas saīsnes")
+![Konfigurēt meklēšanas saīsnes.](./media/ConfigureShortcutsAX.png "Konfigurēt meklēšanas saīsnes")
 
 > [!NOTE]
 > Ja pievienojat pārāk daudz saīšņu, POS meklēšanas joslas nolaižamā izvēlne kļūt pārblīvēta, un tas var ietekmēt darbinieku meklēšanas ērtumu. Ieteicams pievienot tikai tik daudz saīšņu, cik nepieciešams.

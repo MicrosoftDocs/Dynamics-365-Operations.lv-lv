@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027943"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352040"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Groza un norēķināšanās lapu pārskats
 
@@ -37,7 +38,7 @@ Groza lapa kalpo kā iepirkumu soma un ietver visas preces, kas ir pievienotas g
 
 Tālāk redzamajā attēlā ir parādīts groza lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku un “Fabrikam” tēmu.
 
-![Groza lapas piemērs](./media/cart2.PNG)
+![Groza lapas piemērs.](./media/cart2.PNG)
 
 Groza lapas galvenā daļa parāda visas preces, ko klients pievienojis grozam. Tiek rādītas visas piemērojamās atlaides. Šīs atlaides ietver sarežģītas atlaides. Piemēram, ir "pērciet 3 preces un saņemiet 10% atlaidi" vai "pērciet pudeli un mugursomu, lai iegūtu 10% atlaidi". Pasūtījuma kopsavilkuma modulis parāda summu, kas jāmaksā pēc atlaižu, piegādes maksas, nodokļu utt. piemērošanas. Tur ir arī veicināšanas koda modulis, kas ļauj klientam piemērot vai noņemt veicināšanas kodus.
 
@@ -53,7 +54,7 @@ Izrakstīšanas lapa ir vieta, kur klienti ievada informāciju, kas nepieciešam
 
 Tālāk redzamajā attēlā ir parādīts norēķināšanās lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku.
 
-![Izrakstīšanas lapas piemērs](./media/Checkout.PNG)
+![Izrakstīšanas lapas piemērs.](./media/Checkout.PNG)
 
 Izrakstīšanas lapas galvenā daļā ir vieta, kur tiek apkopota visa pasūtījuma informācija. Šī informācija ietver piegādes adresi, piegādes opcijas un maksājuma informāciju. Izrakstīšana ir darbību secība, jo apstrādāšanai paredzētā informācija ir jāievada noteiktā secībā. Piemēram, piegādes adrese jāievada pirms piegādes izmaksu aprēķināšanas un maksājuma autorizēšanas.
 

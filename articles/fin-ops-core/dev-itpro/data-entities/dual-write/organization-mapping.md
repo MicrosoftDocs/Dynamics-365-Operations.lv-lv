@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8b147c27b9309b1b3597f1194c415fbb2e2b7ad2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355302"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizācijas hierarhija Dataverse
 
@@ -37,7 +37,7 @@ Lai gan Dataverse nav organizācijas hierarhijas koncepta, tai ir daži brīvāk
 
 Biznesa ekosistēmai, kas sastāv no programmām Finance and Operations un Dataverse arī turpmāk būs organizācijas hierarhija. Šī organizācijas hierarhija ir veidota, pamatojoties uz Finance and Operations programmām, bet tā ir pakļauta Dataverse informatīviem un paplašināmības mērķiem. Nākamajā attēlā ir parādīta organizācijas hierarhijas informācija, kas ir atklāta Dataverse kā vienvirziena datu plūsma no Finance and Operations programmām uz Dataverse.
 
-![Arhitektūras attēls](media/dual-write-data-flow.png)
+![Arhitektūras attēls.](media/dual-write-data-flow.png)
 
 Organizācijas hierarhijas tabulu kartes ir pieejamas datu vienvirziena sinhronizācijai no programmas Finance and Operations programmām uz Dataverse.
 

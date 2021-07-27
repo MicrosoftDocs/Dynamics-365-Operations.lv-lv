@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792933"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348246"
 ---
 # <a name="create-and-update-store-hours"></a>Veikala darbalaika izveide un atjaunināšana
 
@@ -49,14 +49,14 @@ Izpildiet tālāk norādītās darbības, lai konfigurētu veikala darbalaiku.
     > [!NOTE]
     > Varat izveidot vairākas veidnes, kuru sākuma un beigu datumi pārklājas. Tāpēc jūs, piemēram, varat noteikt veikala darbalaiku veikaliem dažādās laika joslās.
 
-    ![Pievienot diapazona dialoglodziņu](../dev-itpro/media/Storehours1.png "Pievienot diapazona dialoglodziņu")
+    ![Pievienot diapazona dialoglodziņu.](../dev-itpro/media/Storehours1.png "Pievienot diapazona dialoglodziņu")
 
 4. Saistiet veikals darbalaika veidni ar veikaliem, kur tā tiks izmantota. Dialoglodziņā **Izvēlēties organizācijas mezglus**, atlasiet veikalus, reģionus un organizācijas, ar kurām veidne jāsaista.
 
     - Ar katru veikalu var saistīt tikai vienu veikala darbalaika veidni.
     - Izmantojiet bulttaustiņus, lai atlasītu veikalus, reģionus vai organizācijas. Kalendārs būs pieejams veikaliem vai veikalu grupām, un tas atsaucei būs redzams pārdošanas punktos.
 
-    ![Izvēlēties organizācijas zaru dialoglodziņu](../dev-itpro/media/Storehours2.png "Izvēlēties organizācijas zaru dialoglodziņu")
+    ![Izvēlēties organizācijas zaru dialoglodziņu.](../dev-itpro/media/Storehours2.png "Izvēlēties organizācijas zaru dialoglodziņu")
 
 5. Lapā **Izplatīšanas grafiks** izpildiet uzdevumus **1070** un **1090**, lai veikala darbalaiks būtu redzams pārdošanas punktos.
 
@@ -75,7 +75,7 @@ Veiciet šīs darbības, lai pievienotu veikala darbalaiku drukātajām pārdoš
 
 Tagad pārdošanas punktu kvītis ietver veikala darbalaiku. Ja veidnē tika iekļautas brīvdienas, tās tiek parādītas kvītī.
 
-![Saņemšanas piemērs](../dev-itpro/media/Storehours3.png "Saņemšanas piemērs")
+![Saņemšanas piemērs.](../dev-itpro/media/Storehours3.png "Saņemšanas piemērs")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343962"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūras lieluma maiņas prasības lokālām vidēm
 
@@ -36,7 +36,7 @@ Pēc dokumentācijas pārskatīšanas varat sākt novērtēt savu transakciju un
 
 Lieluma maiņu ietekmē visi tālāk esošajā attēlā parādītie faktori. Jo detalizētāka ir apkopotā informācija, jo precīzāk varat noteikt lieluma maiņu. Bez atbalstošiem datiem aparatūras lieluma maiņa, visticamāk, būs neprecīza. Nepieciešamo datu absolūtais minimums ir maksimālā transakciju rindu noslodze stundā.
 
-[![Aparatūras lieluma maiņa lokālām vidēm](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Aparatūras lieluma maiņa lokālām vidēm.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Skatoties attēlā no kreisās uz labo pusi, pirmais un svarīgākais faktors, kas jāņem vērā precīzai lieluma maiņas novērtēšanai, ir transakciju profils jeb transakciju raksturojums. Ir svarīgi vienmēr noteikt maksimālo transakciju apjomu stundā. Ja ir vairāki maksimālās noslodzes periodi, šie periodi ir precīzi jādefinē.
 

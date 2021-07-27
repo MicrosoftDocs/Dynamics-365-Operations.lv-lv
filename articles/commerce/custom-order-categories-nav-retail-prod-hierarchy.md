@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937066"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349678"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Tirgojošo vienību kārtošanas secības maiņa
 
@@ -51,7 +51,7 @@ Pirms pabeigt šo procedūru, jūsu vidē jābūt instalētiem demonstrācijas d
 
 Kanālu navigācijas hierarhijas rādīšanas secība tiks atspoguļota tirdzniecības preču hierarhijas HQ un izlaistajām precēm pēc kategorijas.
 
-![Preču hierarhija pielāgoti sakārtota ar negatīvām vērtībām](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Preču hierarhija pielāgoti sakārtota ar negatīvām vērtībām.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
 ![Izlaistie produkti pēc kategorijas pielāgoti sakārtoti, pamatojoties uz produktu hierarhiju.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
@@ -77,11 +77,11 @@ Pirms pabeigt šo procedūru, jūsu vidē jābūt instalētiem demonstrācijas d
 
 Parādīšanas secība kanālu navigācijas hierarhijā ir atspoguļota HQ, katalogā un kanālos.
 
-![Kanālu navigācijas hierarhija pielāgoti sakārtota](./media/ChannelNavCustomSorted.png)
+![Kanālu navigācijas hierarhija pielāgoti sakārtota.](./media/ChannelNavCustomSorted.png)
 
 ![Kataloga navigācijas hierarhija pielāgoti sakārtota, balstoties uz kanālu navigācijas hierarhiju.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS ar pielāgoti sakārtotām kategorijām](./media/POSChannelCategoriesCustomSorted.png)
+![POS ar pielāgoti sakārtotām kategorijām.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Pielāgotā kārtošanas secība pēc noklusējuma ir izslēgta. Lai uzzinātu, kā ieslēgt šo un citas funkcijas, skatiet [Līdzekļu pārvaldība](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

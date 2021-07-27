@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344620"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Darba pasūtījumu dīkstāve uzturēšanas dēļ
 
@@ -45,7 +45,7 @@ Jūs varat izveidot dīkstāve uzturēšanas dēļ reģistrācijas līdzeklī, k
 
 Šajā attēlā ir parādīts lapas **Dīkstāves uzturēšanas dēļ pamatojuma kodi** piemērs.
 
-![1. attēls](media/15-work-orders.png)
+![1. attēls.](media/15-work-orders.png)
 
 Pēc tam, kad esat izveidojis dīkstāves uzturēšanas dēļ iemeslu kodus, kurus vēlaties izmantot, jūs varat izveidot dīkstāves uzturēšanas dēļ reģistrācijas darba pasūtījumiem un līdzekļiem.
 
@@ -71,15 +71,15 @@ Pēc tam, kad esat izveidojis dīkstāves uzturēšanas dēļ iemeslu kodus, kur
 
 Attēlā tālāk parādīts dīkstāve uzturēšanas dēļ reģistrācijas piemērs.
 
-![2. attēls](media/16-work-orders.png)
+![2. attēls.](media/16-work-orders.png)
 
 Kalendārs, kuru izmanto, lai aprēķinātu dīkstāves uzturēšanas dēļ reģistrāciju, ir atkarīgs no jūsu līdzekļu un parametru uzstādījumu izvēles. Ja sadaļā **Resurss** kopsavilkuma cilnē **Fiksētais līdzeklis** lapā **Visi līdzekļi** ir atlasīts resurss, tiek izmantots kalendārs, kas ir uzstādīts saistītajai resursu grupai, kā parādīts šajā ilustrācijā.
 
-![3. attēls](media/17-work-orders.png)
+![3. attēls.](media/17-work-orders.png)
 
 Ja līdzeklim nav atlasīts neviens resurss, tiek izmantots standarta kalendārs, kas ir atlasīts lapā **Līdzekļu pārvaldības parametri**, kā uzrādīts šajā ilustrācijā.
 
-![4. attēls](media/18-work-orders.png)
+![4. attēls.](media/18-work-orders.png)
 
 Lai redzētu pārskatu par visām dīkstāves uzturēšanas dēļ reģistrācijām, noklikšķiniet uz **Līdzekļu pārvaldība** > **Pieprasījumi** > **Dīkstāve uzturēšanas dēļ**.
 

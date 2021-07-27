@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750488"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350260"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Biznesa dokumenta veidnes struktūras atjaunināšana 
 
@@ -58,7 +58,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 
     Jaunā veidne tiek atvērta rediģēšanai Excel Online iegultajā vadīklā veidnes redaktora lapā.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai sāktu biznesa dokumenta veidnes rediģēšanu](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai sāktu biznesa dokumenta veidnes rediģēšanu.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Pašreizējās rediģējamās veidnes struktūras pārskatīšana
 
@@ -68,7 +68,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 4. Rūtī **Veidnes struktūra** izvērsiet **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 5. Ņemiet vērā, ka Finance veidnes struktūrā krājums **rptHeaderCompLogo** tiek parādīts kā pakārtotais krājums **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pārskatītu rediģējamas veidnes pašreizējo struktūru](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pārskatītu rediģējamas veidnes pašreizējo struktūru.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Biznesa dokumenta veidnes struktūras atjaunināšana, dzēšot attēlu
 
@@ -85,7 +85,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 4. Rūtī **Veidnes struktūra** izvērsiet **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 5. Ņemiet vērā, ka krājums **rptHeaderCompLogo** vairs nav iekļauts Finance veidnes struktūrā.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai dzēstu attēlu no biznesa dokumenta veidnes](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai dzēstu attēlu no biznesa dokumenta veidnes.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Biznesa dokumenta veidnes struktūras atjaunināšana, pievienojot attēlu
 
@@ -97,7 +97,7 @@ Veiciet procedūras, kas norādītas [Biznesa dokumentu pārvaldības pārskatā
 6. Rūtī **Veidnes struktūra** izvērsiet **Pārskats \> Rēķins \> rptHeader \> rptHeaderPart1**.
 7. Ņemiet vērā, ka jaunais attēls tagad ir iekļauts Finance veidnes struktūrā kā krājums.
 
-[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pievienotu attēlu biznesa dokumenta veidnei](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Biznesa dokumentu pārvaldības darbvietas izmantošana, lai pievienotu attēlu biznesa dokumenta veidnei.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Saistītās saites
 

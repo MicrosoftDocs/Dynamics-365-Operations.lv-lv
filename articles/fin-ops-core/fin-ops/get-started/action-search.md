@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce10817d677f7e48194272b5ebb91b95d657441f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754830"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360292"
 ---
 # <a name="action-search"></a>Darbību meklēšana
 
@@ -31,7 +31,7 @@ ms.locfileid: "5754830"
 
 Lapās komandas galvenokārt tiek rādītas darbību rūtīs, gan standarta darbību rūtī, kas ir redzama lapas augšpusē, gan rīkjoslās, kas ir redzamas dažādās lapas sadaļās. Iepriekšējās versijās taustiņu padomu līdzeklis jums ļauj ātri piekļūt jebkurai pogai darbību rūtī, nospiežot taustiņu Alt un pēc tam burtu sēriju.
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6.](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 Galvenie padomi vairs nav pieejami, bet ir aizstāti ar darbības meklēšanas funkciju. Šī jaunā funkcija ļauj jums ātri meklēt un palaist pogu no jebkuras redzamas darbību rūts.
 
@@ -45,7 +45,7 @@ Lai izmantotu darbību meklēšanas līdzekli, rīkojieties šādi.
 
 Pēc pogas palaišanas fokuss tiek atgriezts pēdējā pozīcijā lapā, tādējādi varat turpināt darbu.
 
-[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field.](./media/action-search-field.png)](./media/action-search-field.png)
 
 Jūs varat arī sākt darbību meklēšanu, nospiežot Ctrl+/ vai Alt+Q. Nospiediet īsinājumtaustiņus vēlreiz, lai atgrieztu fokusu pēdējā pozīcijā lapā.
 
@@ -61,11 +61,11 @@ Lai pilnībā saprastu kādas pogas mērķi, bieži vien ir jāzina šīs pogas 
 
 Piemēram, jūs ievadījāt **kop** **darbību meklēšanas** laukā un tagad izskatāt rezultātu sarakstu. Tiek izcelts pirmais ieraksts pogai ar nosaukumu **Kopsummas**. Tiek rādīts arī pogas ceļš **Pārdošanas pasūtījums** &gt; **Skatīt**. Ceļa daļa **Pārdošanas pasūtījums** atbilst darbību rūts cilnei **Pārdošanas pasūtījums**, un ceļa daļa **Skatīt** atbilst šīs cilnes grupai **Skatīt**. Līdzīgi arī pogas **Beigu atlaide** ceļš (**Pārdot** &gt; **Aprēķināt**) jums norāda, ka šī poga atrodas darbību rūts cilnes **Pārdot** grupā **Aprēķināt**. Līdz ar to šī informācija jums palīdz saprast, tieši kura poga ar darbību meklēšanu tiks aktivizēta (ja atlasāt šo pogu meklēšanas sarakstā).
 
-[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![action-search-field-with-data.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Iepriekšējā piemērā darbību meklēšana parādīja rezultātus no standarta darbību rūts lapas augšdaļā. Tomēr darbību meklēšana rāda rezultātus arī no redzamām rīkjoslām, kas atrodas citās vietās lapā. Piemēram, jūs meklējat pogu **Rīcībā esošie krājumi**, kura atrodas kopsavilkuma cilnē **Pārdošanas pasūtījuma rindas**. Šajā gadījumā pogas ceļš rezultātu sarakstā (**Pārdošanas pasūtījuma rindas** &gt; **Krājumi** &gt; **Skatīt**) jūs informē, ka šī poga atrodas zem kopsavilkuma cilnes **Pārdošanas pasūtījuma rindas** izvēlnes pogas **Krājumi** virsraksta **Skatīt**.
 
-[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![on-hand-inventory.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Ir dažas pogas, kas netiek rādītas darbību meklēšanā. Tās ietver nomešanas dialoga pogas un pogas no apakšveidlapām. 

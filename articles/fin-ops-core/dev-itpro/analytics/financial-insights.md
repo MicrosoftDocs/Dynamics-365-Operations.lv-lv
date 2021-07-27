@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345816"
 ---
 # <a name="financial-analysis"></a>Finanšu analīze
 
@@ -60,7 +60,7 @@ Lai galvenais konts tiktu parādīts finanšu pārskatos un būtu iekļauts daž
 ## <a name="entity-store"></a>Elementu krātuve
 Darbvietas **Finanšu analīze** dati tiek atgādāti no elementu krātuves (**Sistēmas administrēšana** \> **Iestatīšana** \> **Elementu krātuve**). Ja atverat darbvietu **CFO apskats** vai **Finanšu analīze** un vizuālajos datos ir redzams tālāk norādītais brīdinājuma ziņojums, jums ir jāatjaunina elementi.
 
-![Brīdinājums!](./media/Cantdisplay.png)
+![Brīdinājums.](./media/Cantdisplay.png)
 
 Lai skatītu datus darbvietā **Finanšu analīze**, jums ir jāatjaunina tālāk norādītie elementi.
 
@@ -124,7 +124,7 @@ Lietotāji var filtrēt pārskatu, izmantojot kreisajā pusē esošo rūti **Fil
 - **Vizuālo datu līmeņa filtri** — šie filtri tiek lietoti tikai atlasītajiem vizuālajiem datiem. Šie filtri tiek lietoti papildus lapas līmeņa filtriem.
 - **Detalizētās rādīšanas filtrs** — šis filtrs filtrē no “avota” vizuālajiem datiem, kas tiek lietoti pašreizējiem vizuālajiem datiem, kad veicat detalizētu rādīšanu no avota vizuālajiem datiem uz pašreizējiem vizuālajiem datiem.
 
-![Filtrēšanas opcijas](./media/filter.png)
+![Filtrēšanas opcijas.](./media/filter.png)
 
 Lai noņemtu konkrētu filtra vērtību, atlasiet tai blakus esošo dzēšgumijas simbolu. Nenoņemiet filtru, atlasot vienumu X. Ja atlasīsit X, filtrētais lauks tiks noņemts kā filtra opcija. Ja nejauši noņemat lauku no filtra, aizveriet darbvietu un pēc tam to atkal atveriet. No jauna tiks lietoti noklusējuma filtra iestatījumi.
 
@@ -169,25 +169,25 @@ Izmantojot Power BI, ir pieejami dažādi detalizētās rādīšanas līmeņi. K
 
 Tālāk esošajā attēlā pārskats **Apgrozījuma bilance** ir sakļauts līdz augstākajam rindu hierarhijas līmenim, galvenā konta tipam.
 
-![Apgrozījuma bilances izraksts](./media/trial-balance.png)
+![Apgrozījuma bilances izraksts.](./media/trial-balance.png)
 
 Lai skatītu nākamo hierarhijas līmeni, galvenā konta kategorijas, lauku **Rādīt detalizēti** iestatiet uz **Rindas** un pēc tam atlasiet pogu **Izvērst** (trešā poga pēc lauka Rādīt detalizēti). Tādējādi tiek izvērstas visas galvenā konta kategorijas. Pašlaik pakalpojumā Power BI nevar izvērst tikai vienu rindu vai kolonnu un vienlaikus joprojām skatīt visas pārējās rindas vai kolonnas.
 
-![Apgrozījuma bilances detalizēta izpēte rindās](./media/trial-balance2.png)
+![Apgrozījuma bilances detalizēta izpēte rindās.](./media/trial-balance2.png)
 
 Lai izvērstu galvenos kontus visām rindām, vēlreiz izmantojiet pogu **Izvērst**. Taču, lai detalizēti rādītu galvenos kontus tikai vienai rindai, vispirms atlasiet pogu **Rādīt detalizēti** (viena lejupvērstā bultiņa loga labajā pusē) un pēc tam atlasiet detalizēti rādāmo rindu. Tālāk esošajā attēlā redzams rezultāts, kas tiek iegūts, kad pēc pogas **Rādīt detalizēti** atlasīšanas tiek atlasīta rinda **Pārdošana**.
 
-![Apgrozījuma bilances izvēršanas poga](./media/trial-balance3.png)
+![Apgrozījuma bilances izvēršanas poga.](./media/trial-balance3.png)
 
 Kad esat detalizēti parādījis vienu rindu un vēlaties atgriezties pilnajā apgrozījuma bilancē, ir jānoklikšķina vairākas reizes. Izmantojot pogu **Rādīt vispārīgi** (pirmā poga pēc lauka **Rādīt detalizēti** ) vispārīgi rāda tikai kategorijas **Pārdošana** kontekstā, kā parādīts tālāk esošajā attēlā.
 
-![Apgrozījuma bilances detalizētas izpētes poga](./media/trial-balance4.png)
+![Apgrozījuma bilances detalizētas izpētes poga.](./media/trial-balance4.png)
 
 Varat turpināt izmantot pogu **Rādīt vispārīgi**, lai atgrieztos augstākajā rindu kopsavilkuma līmenī.
 
 Pakalpojumā Power BI ir pieejama arī poga, kas sniedz iespēju pāriet uz nākamo hierarhijas līmeni (otrā poga pēc lauka **Rādīt detalizēti** ). Izmantojot šo pogu, rezultāts atšķiras no tā, kas tiek iegūts ar pogu **Izvērst** (trešā poga pēc lauka **Rādīt detalizēti** ), kuru izmanto hierarhijas izvēršanai. Izvēršot hierarhiju, tā tiek saglabāta pārskatā. Piemēram, kā parādīts iepriekš, ja izvēršat galvenā konta tipu, pārskatā joprojām ir redzams galvenā konta tips. Taču, kad pārejat uz nākamo hierarhijas līmeni, pārskatā vairs netiek rādīta vecākhierarhija, kā parādīts tālāk esošajā attēlā.
 
-![Apgrozījuma bilances detalizētas izpētes atpakaļgaitas poga](./media/trial-balance5.png)
+![Apgrozījuma bilances detalizētas izpētes atpakaļgaitas poga.](./media/trial-balance5.png)
 
 Lai skatītu detalizētu informāciju par transakcijām apkopotajās bilancēs, varat atlasīt dažas summas, lai veiktu detalizēto rādīšanu programmā Finance and Operations.
 
@@ -226,7 +226,7 @@ Pašlaik finansu pārskati neatbalsta organizāciju hierarhijas, kas ļauj apkop
 ## <a name="data-limitations"></a>Datu ierobežojumi
 Finanšu pārskatu vizuālajiem datiem ir ierobežots parādāmo rindu skaits. Pašlaik ierobežojums ir iestatīts uz 30 000. Pārsniedzot šo ierobežojumu, vizuālajiem datiem tiks parādīts brīdinājuma simbols, lai paziņotu jums par šo situāciju.
 
-![Datu ierobežojumi](./media/data-limit.png)
+![Datu ierobežojumi.](./media/data-limit.png)
 
 Ja tiek pārsniegts maksimālais skaits, finanšu pārskatā redzamās kopsummas ir nepareizas, jo vizuālajos datos nav ielādētas visas rindas.
 
