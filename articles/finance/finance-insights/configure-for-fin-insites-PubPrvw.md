@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222616"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309669"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Finance Insights konfigurācija publiskam priekšskatījumam (priekšskatījums) – versija 10.0.20 un jaunākas
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222616"
 Finance Insights apvieno Microsoft Dynamics 365 Finance funkcionalitāti ar Dataverse, Azure un AI Builder, lai nodrošinātu jaudīgus prognozēšanas rīkus jūsu organizācijai. Šajā tēmā ir izskaidrots, kā konfigurēt Dynamics 365 Finance versiju 10.0.20, lai sistēma varētu izmantotu iespējas, kas ir pieejamas Finance Insights publiskam priekšskatījumam.
 
 > [!NOTE]
-> Šajā tēmā aprakstītās konfigurācijas darbības attiecas tikai uz Finance versiju 10.0.20 un jaunāku. 'Lai iestatītu Finance Insights versijai 10.0.19 vai jaunākai, skatiet [Finance Insights konfigurācija – versijām līdz 10.0.18](configure-for-fin-insites.md).
+> Šajā tēmā aprakstītās konfigurācijas darbības attiecas tikai uz Finance versiju 10.0.20 un jaunāku. 'Lai iestatītu Finance Insights versijai 10.0.19 vai jaunākai, skatiet [Finance Insights konfigurācija – versijām līdz 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finance izvietošana
 
@@ -748,6 +748,8 @@ Izpildiet šīs darbības, lai instalētu Finance Insights pievienojumprogrammu.
 2. Sadaļā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 3. Atlasiet pievienojumprogrammu **Finance Insights**.
 4. Piekrītiet nosacījumiem un pēc tam atlasiet **Instalēt**.
+
+Pievienojumprogrammas instalēšana var ilgt vairākas minūtes.
 
 ## <a name="feedback-and-support"></a>Atsauksmes un atbalsts
 

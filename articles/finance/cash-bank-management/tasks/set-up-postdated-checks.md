@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026209"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309770"
 ---
 # <a name="set-up-postdated-checks"></a>Ar iepriekšēju datumu datētu čeku iestatīšana
 
@@ -58,6 +58,7 @@ ms.locfileid: "6026209"
 > 
 > Iestatot **Maksāšanas metodi** (**Kreditori > Maksājumu iestatījumi > Maksājuma metodes**), neaizpildiet **Pagaidu kontu**. Šajā gadījumā korespondējošais konts tiek aizpildīts ar bankas kontu, kas iestatīts **Maksājuma metodē**.
 >  
-> Ja ir aktivizēta šī funkcija un sesijas datums ir pirms termiņa beigu datuma, grāmatojot maksājumu žurnālu, tiek parādīts šāds kļūdas ziņojums: "Termiņa beigu datumam ir jābūt mazākam par sesijas datumu vai vienādam ar to, ja korespondējošā konta tips ir Banka". Ja šī funkcija nav aktivizēta, varat grāmatot maksājumu žurnālu ar vēlāku datumu, ja sesijas datums ir pirms termiņa beigu datuma.    
+> Ja ir aktivizēta šī funkcija un sesijas datums ir pirms termiņa beigu datuma, grāmatojot maksājumu žurnālu, tiek parādīts šāds kļūdas ziņojums: "Termiņa beigu datumam ir jābūt mazākam par sesijas datumu vai vienādam ar to, ja korespondējošā konta tips ir Banka". Ja šī funkcija nav aktivizēta, varat grāmatot maksājumu žurnālu ar vēlāku datumu, ja sesijas datums ir pirms termiņa beigu datuma.
+> Šis līdzeklis ir pieejams versijā 10.0.21 vai jaunākās versijās.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

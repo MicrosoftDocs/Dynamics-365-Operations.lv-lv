@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261914"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338233"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finance Insights sākumlapa (priekšskatījums)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261914"
 
 Finance Insights nodrošina konfigurējamus un paplašināmus modeļus, lai palīdzētu jums precīzi un inteliģenti prognozēt jūsu uzņēmuma naudas plūsmu, prognozēt, kad saņemsiet maksājumu par neapmaksātajiem ieņēmumiem, un ģenerēt budžeta priekšlikumu, kas var paātrināt budžeta procesu. Visi šie līdzekļi ir balstīti uz inteliģentiem algoritmiskās mācīšanās modeļiem. Kad šīs jaunās iespējas tiek apvienotas ar automatizāciju kreditoru maksājumos un kolekcijās, tās nodrošina bagātīgu un inteliģentu finanšu sistēmu, kas sekmē lēmumu pieņemšanu un palīdz jums rīkoties, lai efektīvi reaģētu uz pašreizējiem un paredzamajiem izaicinājumiem saistībā ar uzņēmējdarbību.
 
-Finance Insights priekšskatījums izmēģinājuma izvietošanai ir pieejams Amerikas Savienotajās Valstīs, Eiropā un Apvienotajā Karalistē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem.
-
-Priekšskatījuma līdzekļus var un vajadzētu ieslēgt tikai 2. līmeņa smilškastes vidēs. Iestatīšanas un mākslīgā intelekta modeļus, kas izveidoti smilškastes vidē, nevar migrēt uz ražošanas vidi. Lai iegūtu papildu informāciju, skatiet rakstu [Pakalpojuma Microsoft Dynamics 365 Previews lietošanas papildu nosacījumi](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> Finance Insights priekšskatījums ir pieejams izvietošanai Amerikas Savienotajās Valstīs, Kanādā, Lielbritānijā, Eiropā, Āzijas un Klusā okeāna reģionā, Austrālijā un Jaunzēlandē. Korporācija Microsoft pakāpeniski pievieno atbalstu citiem reģioniem. Lai iespējotu Finance Insights ražošanas vidēs, vispirms ražošanas vidē ir jāiespējo [Eksportēšana uz Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) iespējas.
 
 > [!NOTE]
 > Šī funkcionalitāte tiek piedāvāta kā priekšskatījuma līdzekļu kopa. Kā priekšskatījuma līdzekli nedrīkst izmantot izveidotos algoritmiskās mācīšanās modeļus, lai vadītu vai ietekmētu biznesa lēmumus vai budžeta priekšlikumus. Šī līdzekļa izmantošanu nosaka [Papildu lietošanas noteikumi](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ Lai pieteiktos priekšskatījuma programmai, aizpildiet [Finance Insights priek�
 
 ### <a name="system-requirements"></a>Sistēmas prasības
 
-Lai priekšskatītu Finance Insights, ir nepieciešama otrā līmeņa smilškastes vide (daudzlodziņu). Lai iegūtu pilnīgu informāciju par vidi, skatiet sadaļu [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+Lai priekšskatītu Finance Insights, ir nepieciešama 2. līmeņa vide (daudzlodziņu). Lai iegūtu pilnīgu informāciju par vidi, skatiet sadaļu [Vides plānošana](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Versijas prasības
 
@@ -55,8 +56,6 @@ Lai priekšskatītu Finance Insights, ir nepieciešama otrā līmeņa smilškast
 ### <a name="historical-data-requirements"></a>Vēsturiskās datu prasības
 
 Lai pareizi iemācītu algoritmiskās mācīšanās modeli, kas tiek izmantots debitoru maksājumu prognožu funkcijai, ir nepieciešami debitoru rēķini vismaz viena gada apjomā.
-
-Datu paraugs ir pieejams demonstrācijas sistēmām, kurām ir Contoso demonstrācijas datu kopa.
 
 ### <a name="role-and-permission-requirements"></a>Lomu un atļauju prasības
 
@@ -72,7 +71,7 @@ Zināšanas par resursu radīšanas un pārvaldīšanas procesu pakalpojumā Azu
 ## <a name="configure-finance-insights"></a>Finance Insights konfigurēšana
 
 Lai varētu izmantot Finance Insights, ir jāpabeidz dažas konfigurēšanas darbības. Papildu informāciju par to, kā konfigurēt Finance Insights, skatiet:
-  - Versijām līdz 10.0.19: [Finance Insights konfigurācija – versijām līdz 10.0.19](configure-for-fin-insites.md).
+  - Versijām līdz 10.0.19: [Finance Insights konfigurācija (priekšskatījums) – versijām līdz 10.0.19](configure-for-fin-insites.md).
   - Sākot ar versiju 10.0.20 un jaunākām: [Finance Insights konfigurācija (priekšskatījums) – versijai 10.0.20 un jaunākām](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Datu integrētāja projekta izveide

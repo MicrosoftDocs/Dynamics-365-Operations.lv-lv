@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.search.region: Latvia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09c931a175ec2f593f40de09fbf917eb36cae8dc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f10ba5db81cf2028f54cb62eccc65efa84b4093d
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838762"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336580"
 ---
 # <a name="latvia-overview"></a>Latvijas pārskats
 

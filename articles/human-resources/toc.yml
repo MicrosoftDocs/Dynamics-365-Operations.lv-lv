@@ -355,6 +355,8 @@
           items:
             - name: Ievads
               href: hr-admin-integration-ats-api-introduction.md
+            - name: "Starpserveru autentifikācija ATS\_integrācijām"
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Darbā pieņemšanas pieprasījums un saistītie elementi
               items:
                 - name: Darbā pieņemšanas pieprasījums
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Algu aprēķina elementu ģenerēšana un pārskatīšana
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Algots darbinieks
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Algas nodarbinātā adrese
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Algu aprēķina fiksētās atlīdzības plāns
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Algas pozīcijas darbs
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Algas pozīcija
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Algu integrācijas parametri
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Algas elementi
+              items:
+                - name: Algots darbinieks
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Algas nodarbinātā adrese
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Algu aprēķina fiksētās atlīdzības plāns
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Algu mainīgās atlīdzības plāns
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Algas pozīcija
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Algas pozīcijas darbs
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Ar atvaļinājumu un kavējumiem saistītie elementi
+              items:
+                - name: Atvaļinājuma bilance
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Atvaļinājuma veids
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Atvaļinājuma pieprasījums
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Opciju kopas
+              items:
+                - name: Dzimums
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Nē Jā
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Piemaksas tips
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Procesa veids
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Lietotāja rokasgrāmata
       items:
         - name: Pārskats
@@ -599,6 +625,8 @@
           items:
             - name: Darbaspēka pārvaldība
               href: hr-personnel-departments-jobs-positions.md
+            - name: Personāla vadības darbvieta
+              href: hr-personnel-personnel-management-workspace.md
             - name: Darba komponentu iestatīšana
               href: hr-personnel-jobs.md
             - name: Nodaļu definēšana
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Darbu definēšana
               href: hr-personnel-define-jobs.md
+            - name: Amati
+              href: hr-personnel-positions.md
             - name: Darba laika kalendāra izveide
               href: hr-personnel-create-working-time-calendar.md
             - name: Kandidātu pieņemšana darbā
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Ierobežot personas informācijas rediģēšanu
               href: hr-employee-self-service-restrict-editing.md
+        - name: Darbplūsmu sistēmas lietošana
+          items:
+            - name: Darbplūsmu sistēmas pārskats
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmas sistēmas arhitektūra
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmas elementi
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmas darbības
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Izveidot darbplūsmas
+              items:
+                - name: Izveidot darbplūsmu pārskatu
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt darbplūsmas rekvizītus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt manuālus uzdevumus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt automatizētus uzdevumus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt apstiprinājuma procesus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt apstiprinājuma darbības
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt izdevumu pārskatītājus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt manuālus lēmumus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt nosacījuma lēmumus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt paralēlas aktivitātes
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt paralēlus zarus
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigurēt dokumenta rindas darbplūsmas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Konfigurēt darbplūsmas ziņojumu apstrādes pakešuzdevumu kā kritisku
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darba vienumu deleģēšana darbplūsmā
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmas vēstures skatīšana
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: 'Sistēmas konfigurēšana, lai sūtītu lietotājiem ar darbplūsmu saistītus e-pasta ziņojumus'
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmas tipi
+              items:
+                - name: Notiek darbplūsmas tipa izveide
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas tipa kontrolsaraksts
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot darbplūsmas kategoriju
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot vaicājumu darbplūsmas tipam
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot jaunu darbplūsmas tipu
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot darbplūsmas dokumenta klasi
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Izveidot SubmitToWorkflow klasi
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Darbplūsmas dokumenta klases saistīšana ar darbplūsmas tipu
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Darbplūsmu tipu pārskats
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Bieži uzdotie jautājumi par darbplūsmām
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

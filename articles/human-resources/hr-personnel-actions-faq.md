@@ -2,7 +2,7 @@
 title: Bieži uzdotie jautājumi par personāla darbībām
 description: Šajā rakstā ir atbildes uz jautājumiem, kas varētu rasties, ja jūsu organizācija izmanto personāla darbības. Personāla darbības ir papildu darbības, kas jāizpilda, kad veicat noteiktus uzdevumus saistībā ar personālu.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054552"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333023"
 ---
 # <a name="personnel-actions-faq"></a>Bieži uzdotie jautājumi par personāla darbībām
 
@@ -51,7 +51,7 @@ Personāla darbībām var būt tālāk norādītie statusi.
 - **Liegts** – apstiprinātājs darbības pieprasījumu liedza.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Vai personāla darbību var izdzēst?
-Jā, varat dzēst personāla darbības, kuru statuss ir **Melnraksts**, **Kļūda**, **Nesekmīgi** vai **Atcelts**.
+Jā, varat dzēst personāla darbības, kuru statuss ir **Melnraksts**, **Kļūda**, **Nesekmīgi** vai **Atcelts**. Personāla darbības ar statusu **Pabeigts** var dzēst tikai tad, ja lapā **Cilvēkresursu kopīgie parametri** opcija **Atļaut pabeigto darbinieka darbību dzēšanu** ir iestatīta uz **Jā**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Kā var visātrāk pārbaudīt personāla darbības pieprasījuma statusu?
 Atveriet jebkuras personāla darbību sarakstu lapas un atlasiet kādu personāla darbību.
@@ -68,7 +68,7 @@ Ja personāla darbības pieprasījumu neizdodas izpildīt, veiciet tālāk aprak
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Kas notiek ar personāla darbību, kas izmanto darbplūsmu, kad galīgais apstiprinājums tiek pabeigts?
 Ja nav kļūdu, šī personāla darbība kļūst tikai lasāma. (Varat apskatīt saraksta lapas **Visas nodarbinātā darbības** vēsturi, bet nevar mainīt personāla darbību.) Ja personāla darbības statuss ir **Pabeigts**, tad amata vai darbinieka ieraksts jau ir atjaunināts. Lai skatītu veiktās izmaiņas, atveriet saraksta lapu **Amati** vai **Nodarbinātie**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Kāpēc tiek rādīta šāda kļūda, ja apmaksas likmes laukā ievadu vērtību, kas nav nulle? “Vērtība atrodas ārpus tās derīguma diapazona – tai ir jābūt no 0,00 līdz 0,00”
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Kāpēc tiek rādīta šāda kļūda, ja apmaksas likmes laukā ievadu vērtību, kas nav nulle? "Vērtība atrodas ārpus tās derīguma diapazona – tai ir jābūt no 0,00 līdz 0,00"
 Šis ziņojums tiek parādīts, jo ar atlasīto amatu saistītajam darbam ir tukšs lauks Līmenis formā Darbs.
 
 Lai novērstu šo kļūdu, izpildiet tālāk aprakstītās darbības.
