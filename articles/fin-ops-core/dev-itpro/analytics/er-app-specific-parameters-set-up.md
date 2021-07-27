@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751158"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351894"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Iestatīt ER formāta parametrus juridiskai personai
 
@@ -49,7 +49,7 @@ Lai izpildītu šīs tēmas piemērus, ir jābūt piekļuvei Microsoft Dynamics 
     
     Šajā attēlā ir parādītas konfigurācijas, kurām jums ir jābūt, kad esat beiguši.
 
-    ![ER konfigurāciju lapa](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![ER konfigurāciju lapa.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>DEMF uzņēmuma parametru iestatīšana
 
@@ -59,7 +59,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 2.  Konfigurācijas kokā atlasiet formātu **Formatēt, lai uzzinātu, kā uzmeklēt LE datus**.
 3.  Darbību rūts cilnē **Konfigurācijas**, grupā **Programmai specifiski parametri** atlasiet **Iestatīšana**.
 
-    ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Lapā **Programmai specifiski parametri** varat konfigurēt noteikumus datu avotam **Atlasītājs** formātā **Formēt, lai uzzinātu, kā atrast LE datus**.
     
@@ -75,14 +75,14 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
     Uzmeklēšana parāda atlases nodokļu kodu sarakstu. Šis saraksts tiek atgriezts, izmantojot datu avotu **Model.Data.Tax**, kas ticis konfigurēts bāzes ER formātā. Tā kā šis datu avots ietver lauku **Nosaukums**, uzmeklēšanas laikā parādās katra nodokļu koda nosaukums.
 
-    ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Atlasiet nodokļa kodu **VAT19**.
 8.  Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet nolaižamā saraksta bultu, lai atvērtu uzmeklēšanu. Uzmeklēšana parāda atlases TaxationLevel formāta uzskaitījuma vērtību sarakstu.
 
     Ņemiet vērā, ka, ja vācu valoda ir izvēlēta kā vēlamā lietotāja valoda, kurā esat pieteicies, tad uzmeklēšanas vērtību marķējums būs vācu valodā ar nosacījumu, ka tās ir pārtulkotas bāzes ER formātā. Turklāt, ja uzmeklēšanas datu avota marķējums ir tulkots, šis marķējums tiks parādīts lietotāja vēlamajā valodā cilnē **Pārlūki**.
 
-    ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Atlasiet vērtību **Parastā taksācija**.
 
@@ -120,7 +120,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
     
     Pievienojot šo pēdējo ierakstu, tiek definēta šāda kārtula: Vienmēr, kad nodokļa kods, kas tiek nodots kā arguments, neizpilda nevienu no iepriekšējām kārtulām, uzmeklēšanas datu avots atgriezīs **Citu** kā pieprasīto taksācijas līmeni.
 
-    ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Laukā **Statuss** atlasiet **Pabeigts**.
 
@@ -144,7 +144,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 6.  Atlasiet nodokļa kodu **InVAT7**.
 7.  Darbību rūtī, cilnē **PVN kods**, grupā **Pieprasījumi** atlasiet **Iegrāmatots PVN,** lai skatītu informāciju par nodokļa vērtību un piemēroto nodokļa likmi katram nodokļa kodam.
 
-    ![Grāmatota PVN lapa](./media/GER-AppSpecParms-Statement.PNG)
+    ![Grāmatota PVN lapa.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Aizveriet lapu Grāmatotais PVN.
 
@@ -160,7 +160,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 
     Pārlūks tagad parāda nodokļu kodu sarakstu **USMF** uzņēmuma nodokļiem atlasei.
 
-    ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Atlasiet nodokļa kodu **EXEMPT**.
 9.  Jaunā ieraksta laukā **Uzmeklēšanas rezultāts** atlasiet vērtību **Nav taksācijas**.
@@ -170,7 +170,7 @@ Varat izmantot ER struktūru, lai iestatītu programmai specifiskus parametrus E
 13. Laukā **Statuss** atlasiet **Pabeigts**.
 14. Atlasiet **Saglabāt**.
 
-    ![ER programmai specifisku parametru lapa](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![ER programmai specifisku parametru lapa.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Aizveriet lapu **Programmai specifiski parametri**.
 
@@ -225,13 +225,13 @@ Iepriekšējā piemērā, lietojot ER struktūru, jums ir pieejami programmai sp
 
 1.  Vai nu atkārtoti izmantojiet esošu izvēlnes elementu **ERSolutionAppSpecificParametersDesigner**, vai ieviesiet savu izvēlnes elementu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Visual Studio lapa](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio lapa.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
-2.  Izpildiet kādu no norādītajām transakcijām.
+2.  Izpildiet kādu no šīm darbībām:
 
     1.  Izveidojiet jaunu izvēlnes elementu pogu un saistiet to ar atbilstošo ierakstu no tabulas **ERSolutionTable**, iestatot tās rekvizītu **Datu avots** uz **ERSolutionTable.**
     
-        ![Visual Studio lapa](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio lapa.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Izveidojiet vienkāršu pogu un pārlabojiet metodi **Noklikšķināts**, kā tas redzams piemērā.
     

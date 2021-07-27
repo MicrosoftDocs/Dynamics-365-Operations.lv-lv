@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186790"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358983"
 ---
 # <a name="note-integration"></a>Piezīmju integrācija
 
@@ -33,7 +33,7 @@ Biznesa procesu laikā Microsoft Dynamics 365 lietotāji bieži apkopo informāc
 
 Klienta informāciju var klasificēt vairākos veidos:
 
-+ **Izmantojamā informācija, ko Dynamics 365 lietotājs apstrādā klienta vārdā** — piemēram, Contoso (Dynamics 365 lietotājs) organizē spēļu šovu. Viens no Contoso klientiem (klients) vēlas piedalīties spēļu šovā. Klients lūdz Contoso darbinieku rezervēt viņiem slotu spēļu šovā. Rezervācija notiek Contoso notikuma dalībnieka kalendārā.
++ **Izmantojamā informācija, ko Dynamics 365 lietotājs apstrādā klienta vārdā** — piemēram, Contoso (Dynamics 365 lietotājs) organizē spēļu šovu. Viens no Contosoklientiem (klients) vēlas piedalīties spēļu šovā. Klients lūdz Contoso darbinieku rezervēt viņiem slotu spēļu šovā. Rezervācija notiek Contosonotikuma dalībnieka kalendārā.
 + **Izmantojamā informācija Dynamics 365 lietotājam** — piemēram, klients, kurš iegādājas vienību Surface, ievada īpašas instrukcijas, kas norāda, ka ierīcei pirms piegādes ir jābūt iesaiņotai kā dāvanai. Šīs instrukcijas ir izmantojama informācija, kas jāapstrādā Contoso darbiniekam, kurš ir atbildīgs par iepakošanu.
 + **Informācija, kas nav izmantojama** — piemēram, klients apmeklē Contoso veikalu un sarunas ar veikala darbinieku laikā pauž interesi par *Halo* spēlēm un spēļu piederumiem. Veikala darbinieks izdara piezīmi par šo informāciju. Pēc tam preču ieteikumu programma to izmanto, lai klientam varētu sniegt ieteikumus.
 
@@ -51,23 +51,23 @@ Lai izveidotu piezīmi programmā Customer Engagement un pēc tam to sinhronizē
 1. Programmā Customer Engagement atveriet klienta konta ierakstu.
 2. Rūtī **Laika skala** atlasiet plus zīmi (**+**) un pēc tam atlasiet **Piezīme**, lai izveidotu piezīmi.
 
-    ![Piezīmes izveide programmā Customer Engagement](media/notes-ce-1.png)
+    ![Piezīmes izveide programmā Customer Engagement.](media/notes-ce-1.png)
 
 3. Ievadiet nosaukumu un aprakstu un pēc tam atlasiet **Pievienot piezīmi**.
 
-    ![Virsraksta un apraksta ievadīšana](media/notes-ce-2.png)
+    ![Virsraksta un apraksta ievadīšana.](media/notes-ce-2.png)
 
     Jaunā piezīme tiek pievienota klienta laika skalai.
 
-    ![Jauna piezīme klienta laika skalā](media/notes-ce-3.png)
+    ![Jauna piezīme klienta laika skalā.](media/notes-ce-3.png)
 
 4. Pierakstieties programmā Finance and Operations un atveriet to pašu klienta ierakstu. Ievērojiet, ka poga **Pielikumi** button (saspraudes simbols) augšējā labajā stūrī norāda, ka ierakstam ir pielikums.
 
-    ![Paziņojums par pielikumu](media/notes-ce-4.png)
+    ![Paziņojums par pielikumu.](media/notes-ce-4.png)
 
 5. Atlasiet pogu **Pielikumi**, lai atvērtu lapu **Pielikumi**. Jums vajadzētu atrast piezīmi, ko esat izveidojis programmā Customer Engagement.
 
-    ![Piezīme no programmas Customer Engagement](media/notes-ce-5.png)
+    ![Piezīme no programmas Customer Engagement.](media/notes-ce-5.png)
 
 Visi piezīmes atjauninājumi tiek sinhronizēti abos virzienos starp programmu Finance and Operations un programmu Customer Engagement.
 
@@ -79,21 +79,21 @@ Lai izveidotu piezīmi programmā Finance and Operations un pēc tam to sinhroni
 
 1. Programmas Finance and Operations lapā **Pielikumi** atlasiet **Jauns** \> **Piezīme**.
 
-    ![Piezīmes izveide programmā Finance and Operations](media/notes-fo-1.png)
+    ![Piezīmes izveide programmā Finance and Operations.](media/notes-fo-1.png)
 
 2. Ievadiet nosaukumu un īsu norādījumu kopu un pēc tam atlasiet **Saglabāt**.
 
-    ![Virsraksta un instrukciju ievadīšana](media/notes-fo-2.png)
+    ![Virsraksta un instrukciju ievadīšana.](media/notes-fo-2.png)
 
 3. Programmā Customer Engagement atjauniniet ierakstu. Jaunā piezīme atradīsies laika skalā.
 
-    ![Jauna piezīme laika skalā programmā Customer Engagement](media/notes-fo-3.png)
+    ![Jauna piezīme laika skalā programmā Customer Engagement.](media/notes-fo-3.png)
 
 Piezīmi var klasificēt kā iekšēju vai ārēju.
 
 - Programmas Finance and Operations lapā **Pielikumi** atveriet piezīmi un pēc tam laukā **Ierobežojums** atlasiet **Iekšēja** vai **Ārēja**.
 
-    ![Ierobežojuma lauks](media/notes-fo-4.png)
+    ![Ierobežojuma lauks.](media/notes-fo-4.png)
 
 Var izveidot arī vietrādi URL.
 
@@ -101,13 +101,13 @@ Var izveidot arī vietrādi URL.
 2. Ievadiet virsrakstu un vietrādi URL.
 3. Laukā **Ierobežojums** atlasiet **Iekšējais** vai **Ārējais**.
 
-    ![Vietrāža URL izveide programmā Finance and Operations](media/notes-fo-5.png)
+    ![Vietrāža URL izveide programmā Finance and Operations.](media/notes-fo-5.png)
 
 4. Atlasiet **Saglabāt**.
 
     Tā kā programmām Customer Engagement nav vietrāža URL veida, tas tiek integrēts ar dubulto ierakstu kā piezīme.
 
-    ![Vietrāža URL parādīšana piezīmes veidā programmā Customer Engagement](media/notes-ce-6.png)
+    ![Vietrāža URL parādīšana piezīmes veidā programmā Customer Engagement.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Failu pielikumi netiek atbalstīti.

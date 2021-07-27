@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271212"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360380"
 ---
 # <a name="firm-planned-orders"></a>Plānoto pasūtījumu apstiprināšana
 
@@ -81,7 +81,7 @@ Lai manuāli apstiprinātu plānotos pasūtījumus, atrodiet un atlasiet plānot
     - **Grupēt pēc perioda** (sadaļā **Pirkšanas pasūtījums** ) – atlasiet periodu, pēc kā grupēt plānotos pirkšanas pasūtījumus. Lai izmantotu šo opciju, atlasiet opciju **Grupēt pēc kreditora**.
     - **Grupēt pēc perioda** (sadaļā **Transferi** ) – atlasiet periodu, pēc kā grupēt plānotos transfera pasūtījumus. Pasūtījumi tiks grupēti, pamatojoties uz vērtībām **No noliktavas** un **Uz noliktavu**.
 
-    ![Dialoglodziņš Parametri dialoglodziņā Apstiprināšana](./media/manual-firming.png "Dialoglodziņš Parametri dialoglodziņā Apstiprināšana")
+    ![Dialoglodziņš Parametri dialoglodziņā Apstiprināšana.](./media/manual-firming.png "Dialoglodziņš Parametri dialoglodziņā Apstiprināšana")
 
 1. Kopsavilkuma cilnē **Palaist fonā** iestatiet darbu tā, lai tas darbotos pakešuzdevumu režīmā. Tomēr nav nozīmes iestatīt periodisku grafiku, ja veicat manuālu apstiprināšanas darbu. Lauki darbojas tāpat, kā citi [fona darbu](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) veidi pakalpojumā Supply Chain Management. Tomēr manuālai apstiprināšanai pakešuzdevums apstrādās tikai pašlaik atlasītos plānotos pasūtījumus. Netiks apstrādāts neviens pasūtījums, kas atbilst lapā pašreiz lietotajiem filtriem.
 1. Atlasiet **Labi**, lai lietotu iestatījumus un ģenerētu apstiprinātos pasūtījumus.
@@ -140,15 +140,15 @@ Lai apstiprinātu plānoto pasūtījumu, izmantojot apstiprināšanas procesu, k
     - **Laika perioda dienas uz priekšu apstiprināšana** - var izvēlēties, cik tālu nākotnē ir jāaprēķina dažādas prasības un citi apsvērumi, izmantojot vispārējo plānošanu.
     - **Laika perioda dienas atpakaļ apstiprināšana** - var izvēlēties, cik tālu pagatnē ir jāaprēķina dažādas prasības un citi apsvērumi, izmantojot vispārējo plānošanu.
 
-    ![Dialoglodziņš Parametri dialoglodziņā Plānoto pasūtījumu apstiprināšana](./media/planned-order-firming-main-1.png "Dialoglodziņš Parametri dialoglodziņā Plānoto pasūtījumu apstiprināšana")
+    ![Dialoglodziņš Parametri dialoglodziņā Plānoto pasūtījumu apstiprināšana.](./media/planned-order-firming-main-1.png "Dialoglodziņš Parametri dialoglodziņā Plānoto pasūtījumu apstiprināšana")
 
 1. Lai norādītu, kuri ieraksti ir jāiekļauj pasūtījumā, atlasiet pogu **Filtrs** kopsavilkuma cilnē **Iekļaujamie ieraksti**. Tiek atvērts standarta vaicājuma dialoglodziņš, kur varat definēt atlases kritērijus, kārtošanas kritērijus un savienojumus. Lauki darbojas tāpat, kā citi vaicājumu veidi pakalpojumā Supply Chain Management. Lauki šeit ir tikai lasāmi un parāda vērtības, kas saistītas ar jūsu vaicājumu.
 
-    ![Dialoglodziņš Iekļaujamie ieraksti dialoglodziņā Plānoto pasūtījumu apstiprināšana](./media/planned-order-firming-main-2.png "Dialoglodziņš Iekļaujamie ieraksti dialoglodziņā Plānoto pasūtījumu apstiprināšana")
+    ![Dialoglodziņš Iekļaujamie ieraksti dialoglodziņā Plānoto pasūtījumu apstiprināšana.](./media/planned-order-firming-main-2.png "Dialoglodziņš Iekļaujamie ieraksti dialoglodziņā Plānoto pasūtījumu apstiprināšana")
 
 1. Atlasiet **Priekšskatījums**, lai priekšskatītu jūsu apstiprinātā pasūtījuma saturu, pamatojoties uz līdz šim veiktajiem iestatījumiem. Apstiprināmo plānoto pasūtījumu saraksts tiek parādīts kā ziņojums. Tad ir iespējams pielāgot savus iestatījumus pēc vajadzības, līdz priekšskatījums rāda apstiprināto pasūtījumu pēc jūsu nolūka.
 
-    ![Apstiprinātā pasūtījuma priekšskatījuma piemērs](./media/planned-order-firming-preview.png "Apstiprinātā pasūtījuma priekšskatījuma piemērs")
+    ![Apstiprinātā pasūtījuma priekšskatījuma piemērs.](./media/planned-order-firming-preview.png "Apstiprinātā pasūtījuma priekšskatījuma piemērs")
 
     > [!WARNING]
     > Šis līdzeklis apstiprinās visus plānotos pasūtījumus, kas atbilst filtra kritērijiem. Nekritiska plānoto pasūtījumu apstiprināšana var radīt nevēlamu pirkšanas, pārsūtīšanas un ražošanas pasūtījumu skaitu. Pirms turpināt, vienmēr izmantojiet pogu **Priekšskatījums**, lai pārbaudītu iekļaujamos ierakstus.

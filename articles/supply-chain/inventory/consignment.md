@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015857"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360404"
 ---
 # <a name="set-up-consignment"></a>Iestatīt sūtījumu
 
@@ -61,7 +61,7 @@ Sūtījuma papildināšanas pasūtījums ir dokuments, kas tiek izmantots, lai p
 
 Dimensija **Īpašnieks** tiek izmantota, lai atdalītu informāciju par krājumu, kas pieder kreditoram, un kas pieder saņēmēja juridiskajai personai. Kamēr pilnais rindu daudzums nav bijis saņemts vai atcelts, sūtījuma papildināšanas pasūtījuma rindām ir statuss **Atvērts pasūtījums**. Kad pilnais daudzums ir saņemts vai atcelts, statuss tiek mainīts uz **Pabeigts**. Fizisko rīcībā esošo krājumu, kas ir saistīts ar sūtījuma papildināšanas pasūtījumu var ierakstīt, izmantojot Reģistrācijas procesu, kā arī Produktu ieejas plūsmas atjaunināšanas procesu. Reģistrāciju var veikt kā daļu no krājumu saņemšanas procesa, vai manuāli atjauninot pasūtījuma rindas. Ja tiek izmantots Produktu ieejas plūsmas atjaunināšanas process, produktu ieejas plūsmas žurnālā tiek veikts ieraksts, ko var izmantot, lai kreditoriem apstiprinātu preču saņemšanu.
 
-[![Sūtījuma papildināšanas pasūtījumi](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Sūtījuma papildināšanas pasūtījumi.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Krājumu īpašumtiesību izmaiņu žurnāls
 
@@ -74,7 +74,7 @@ Dimensija **Īpašnieks** tiek izmantota, lai atdalītu informāciju par krājum
 
 Pēc pasūtījuma rindas izveidošanas nav iespējams atjaunināt sūtījuma pirkšanas pasūtījuma rindu daudzumu.
 
-[![Krājumu īpašumtiesību izmaiņu žurnāls](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Krājumu īpašumtiesību izmaiņu žurnāls.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Kreditora sadarbība sūtījuma procesos
 
@@ -90,13 +90,13 @@ Lai iegūtu papildu informāciju par kreditoru iestatīšanu kreditoru sadarbīb
 
 Lai ierakstītu fizisko ienākošo sūtījumu krājumu, nepieciešams definēt kreditora īpašnieku. Tas tiek veikts lapā **Krājumu īpašnieks**. Atlasot **Kreditora konts**, tiek izveidotas noklusētās vērtības laukiem **Nosaukums** un **Īpašnieks**. Vērtība laukā **Īpašnieks** būs redzama kreditoram, tāpēc jūs varētu vēlēties to mainīt, ja jūsu kreditora kontu nosaukumi nav viegli atpazīstami citiem cilvēkiem. Iespējams rediģēt lauku **Īpašnieks**, bet tikai līdz brīdim, kad saglabājat ierakstu **Krājumu īpašnieks**. Lauks **Nosaukums** tiek aizpildīts ar puses nosaukumu, ar kuru ir saistīts kreditora konts, un to nevar mainīt.
 
-[![Krājumu īpašnieki](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Krājumu īpašnieki.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Izsekošanas dimensijas grupa
 
 Krājumus, kas tiks izmantoti sūtījuma procesos, nepieciešams saistīt ar **Izsekošanas dimensijas grupa**, kur dimensija **Īpašnieks** ir iestatīta uz **Aktīvs**. Īpašnieka dimensijai vienmēr ir atlasītas opcijas **Fiziskie krājumi** un **Finanšu krājumi**. **Vajadzības plāns pa dimensijām** nekad netiek atlasīts.
 
-[![Izsekošanas dimensijas grupa](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Izsekošanas dimensijas grupa.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

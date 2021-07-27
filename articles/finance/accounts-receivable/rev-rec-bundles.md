@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347786"
 ---
 # <a name="revenue-recognition-bundles"></a>Ieņēmumu atzīšanas komplekti
 
@@ -59,15 +59,15 @@ Komponentu krājumiem ir definētas šādas pārdošanas pamatcenas:
 
 Pārdošanas pasūtījums tiek ievadīts debitoram US-004, Cave Wholesales. Vienīgā ievadītā rinda ir klēpjdatora komplekta krājumam. Pamatrindā noklusējuma cenu par vienību var paņemt no vairākām vietām, piemēram, tirdzniecības līguma vai pārdošanas pamatcenas. Šajā piemērā 2300 $ ir ievadīts manuāli kā vienības cena.
 
-[![Klēpjdatora komplekta krājums pārdošanas pasūtījumā](./media/bundle-01.png)](./media/bundle-01.png)
+[![Klēpjdatora komplekta krājums pārdošanas pasūtījumā.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Tā kā pārdošanas pasūtījums ietver komplektu, tas ir jāapstiprina. Apstiprinājuma dialoglodziņā parādīti komplekta komponenti.
 
-[![Apstiprināt pārdošanas pasūtījuma dialoglodziņu, kurā ir parādīti komponentu krājumi](./media/bundle-02.png)](./media/bundle-02.png)
+[![Apstiprināt pārdošanas pasūtījuma dialoglodziņu, kurā ir parādīti komponentu krājumi.](./media/bundle-02.png)](./media/bundle-02.png)
 
 Tomēr izdrukātajā apstiprināšanas pārskatā parādīti tikai komplekta pamatelementi, jo šis pārskats ir debitora ārējās dokuments.
 
-[![Apstiprinājuma pārskats, kurā ir parādīts tikai pamatelements](./media/bundle-03.png)](./media/bundle-03.png)
+[![Apstiprinājuma pārskats, kurā ir parādīts tikai pamatelements.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Kad pārdošanas pasūtījums ir apstiprināts, pamatelements joprojām tiek rādīts pārdošanas pasūtījumā, taču tā statuss ir mainīts uz **Atcelts**. Turklāt neto summa tiek izsekota laukā **Komplekta neto summa**. Šī summa ir nepieciešama rēķina drukāšanai, jo rēķins rāda pamatelementu, nevis komponenta krājumus.
 
@@ -85,7 +85,7 @@ Komponentu summai jābūt vienādai ar 2300 $, un tā arī ir (1713,73 $ + 450
 
 Ja izmaiņas ir nepieciešamas visiem komponenta krājumiem, pamatelementu var noņemt. Šajā gadījumā tiek noņemti arī komponenta krājumi. Pēc tam pamatelementu var pievienot vēlreiz un nepieciešamos rediģējumus var veikt pirms pārdošanas pasūtījuma apstiprināšanas.
 
-[![Komplekta krājums, kas ietver komponentu krājumu izmaiņas](./media/bundle-04.png)](./media/bundle-04.png)
+[![Komplekta krājums, kas ietver komponentu krājumu izmaiņas.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Kad pārdošanas pasūtījums ir izdots un iepakots, dokumentos tiks iekļauti tikai komplekta komponenti. Pavadzīmei un rēķinam ir jāietver pilns komplekts. Pretējā gadījumā tos nevar grāmatot. Piemēram, dialoglodziņā ir parādīti trīs komponentu krājumi. Mēģinot dzēst vienu no tiem, tiek parādīts kļūdas ziņojums, ka pirms rēķina izrakstīšanas jānosūta visas komplekta preces.
 
@@ -95,19 +95,19 @@ Daļēju summu var nosūtīt un iekļaut rēķinā tikai tad, ja daudzums tiek s
 
 Pēdējā darbība ir pārdošanas pasūtījuma iekļaušana rēķinā. Rēķina izrakstīšanas laikā rēķina dialoglodziņā tiks rādīti komponentu krājumi.
 
-[![Rēķina izrakstīšanas dialoglodziņš, kurā ir parādīti komponentu krājumi](./media/bundle-06.png)](./media/bundle-06.png)
+[![Rēķina izrakstīšanas dialoglodziņš, kurā ir parādīti komponentu krājumi.](./media/bundle-06.png)](./media/bundle-06.png)
 
 Tomēr drukātajā rēķinā tiek rādīts tikai pamatelements.
  
-[![Drukāts rēķins, kurā ir parādīts tikai pamatelements](./media/bundle-07.png)](./media/bundle-07.png)
+[![Drukāts rēķins, kurā ir parādīts tikai pamatelements.](./media/bundle-07.png)](./media/bundle-07.png)
 
 Rēķinu žurnāls, kas tiek izveidots pēc grāmatošanas, neietver pamatelementu no komplekta, jo šī krājuma statuss ir **Atcelts**.
 
-[![Rēķinu žurnāls, kurā nav iekļauts pamatelements](./media/bundle-08.png)](./media/bundle-08.png)
+[![Rēķinu žurnāls, kurā nav iekļauts pamatelements.](./media/bundle-08.png)](./media/bundle-08.png)
 
 Svarīgi, lai rēķinu žurnālā nebūtu iekļauts komplekta pamatelements, jo visi procesi, kas tiek veikti pēc rēķina grāmatošanas, ir balstīti uz šo rēķinu žurnālu. Piemēram, ja izveidojat kredīta notu no darbības rūts cilnes **Pārdošana**, izveidotā kredīta nota ietvers komponenta krājumus, bet ne pamatelementu.
 
-[![Kredītnota, kas parāda komponentu krājumus, bet ne pamatelementu](./media/bundle-09.png)](./media/bundle-09.png)
+[![Kredītnota, kas parāda komponentu krājumus, bet ne pamatelementu.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

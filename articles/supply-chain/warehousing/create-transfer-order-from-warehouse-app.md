@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164850"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343629"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Pārsūtīšanas pasūtījumu izveide no noliktavas programmas
 
@@ -95,7 +95,7 @@ Papildus pārsūtīšanas pasūtījuma izveidei mobilās ierīces izvēlnes vien
 
 Jūs esat mazumtirgotājs un jums ir vairākas noliktavas vienības, katra no tām satur krājumu kopumu, kas novietots noteiktā vietā vienā no jūsu noliktavām (*Noliktava 51*). Jūs vēlaties iespējot procesu, kas ļauj darbiniekiem izveidot pārsūtīšanas pasūtījumu uz citu noliktavu (*Noliktava 61*), jau skenētajam noliktavas vienību kopumam. Pārsūtīšanas pasūtījums tiks automātiski nosūtīts–atjaunināts, tiklīdz būs norādīta pasūtījuma pēdējā noliktavas vienība.
 
-![Automātiska pārsūtīšanas pasūtījuma procesa piemērs](media/create-transfer-order-from-app-example.png "Automātiska pārsūtīšanas pasūtījuma procesa piemērs")
+![Automātiska pārsūtīšanas pasūtījuma procesa piemērs.](media/create-transfer-order-from-app-example.png "Automātiska pārsūtīšanas pasūtījuma procesa piemērs")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Izveidot mobilās ierīces izvēlnes vienumu, lai veidotu pārsūtīšanas pasūtījumus
 
@@ -258,7 +258,7 @@ Minētajā piemērā tiek izmantoti divi **Noliktavas programmas notikumi** (*Iz
 
 Varat skatīt notikumu rindu un notikumu ziņojumus, ko ģenerējusi Warehouse Management mobile programma, dodoties uz **Noliktavas pārvaldība \> Pieprasījumi un pārskati \> Mobilās ierīces žurnāli \> Noliktavas programmas notikumi**.
 
-Notikumu ziņojumi *Izveidot pārsūtīšanas pasūtījumu* saņems statusu *Gaida*, kas nozīmē, ka pakešuzdevums **Apstrādāt noliktavas programmas notikumus** nesaņems un neapstrādās notikumu ziņojumus. Tiklīdz notikuma ziņojuma statuss tiek atjaunināts uz *Rindā*, pakešuzdevums apstrādās notikumus. Tas notiks vienlaicīgi ar notikuma *Pabeigt pārsūtīšanas pasūtījumu* izveidi (kad darbinieks atlasa Warehouse Management mobile programmas pogu **Pabeigt pasūtījumu**). Kad *Izveidot pārsūtīšanas pasūtījumu* notikuma ziņojumi ir apstrādāti, statuss tiek atjaunināts uz *Pabeigts* vai *Neizdevās*. Kad *Izveidot pārsūtīšanas pasūtījumu* statuss ir atjaunināts uz *Pabeigts*, visi saistītie notikumi tiek dzēsti no rindas.
+Notikumu ziņojumi *Izveidot pārsūtīšanas pasūtījumu* saņems statusu *Gaida*, kas nozīmē, ka pakešuzdevums **Apstrādāt noliktavas programmas notikumus** nesaņems un neapstrādās notikumu ziņojumus. Tiklīdz notikuma ziņojuma statuss tiek atjaunināts uz *Rindā*, pakešuzdevums apstrādās notikumus. Tas notiks vienlaicīgi ar notikuma *Pabeigt pārsūtīšanas pasūtījumu* izveidi (kad darbinieks atlasa Warehouse Management mobile programmas pogu **Pabeigt pasūtījumu** ). Kad *Izveidot pārsūtīšanas pasūtījumu* notikuma ziņojumi ir apstrādāti, statuss tiek atjaunināts uz *Pabeigts* vai *Neizdevās*. Kad *Izveidot pārsūtīšanas pasūtījumu* statuss ir atjaunināts uz *Pabeigts*, visi saistītie notikumi tiek dzēsti no rindas.
 
 Pakešuzdevums neapstrādā **Noliktavas programmas notikumus** pārsūtīšanas pasūtījuma datu izveidei, pirms ziņojums tiek atjaunināts uz statusu *Rindā*, tāpēc pieprasītie pārsūtīšanas pasūtījumu numuri ir jāmeklē laukā **Identifikators**. Lauks **Identifikators** ir lapas **Noliktavas programmas notikumi** galvenē.
 

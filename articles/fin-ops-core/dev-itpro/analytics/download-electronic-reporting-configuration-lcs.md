@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358699"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektronisko pārskatu veidošanas konfigurācijas lejupielāde no Lifecycle Services
 
@@ -41,7 +41,7 @@ ms.locfileid: "6271187"
 3. Sadaļā **Konfigurācijas nodrošinātāji** atlasiet elementu **Microsoft**.
 4. Elementā **Microsoft** atlasiet **Repozitoriji**.
 
-    [![Microsoft elements lokalizācijas konfigurāciju lapā](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Microsoft elements lokalizācijas konfigurāciju lapā.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Lapā **Konfigurācijas repozitoriji**, režģī atlasiet esošu repozitoriju ar tipu **LCS**. Ja šis repozitorijs netiek parādīts režģī, rīkojieties šādi:
 
@@ -55,7 +55,7 @@ ms.locfileid: "6271187"
 
 6. Atlasiet **Atvērt**, lai skatītu ER konfigurāciju sarakstu atlasītajam repozitorijam.
 
-    [![Repozitoriju lapas konfigurēšana](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Repozitoriju lapas konfigurēšana.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Ja rodas problēmas, piekļūstot LCS repozitorijam, lai lejupielādētu konfigurāciju no koplietojamo līdzekļu bibliotēkas LCS, varat tai vietā lejupielādēt konfigurācijas no [Globālā krātuve](er-download-configurations-global-repo.md) .

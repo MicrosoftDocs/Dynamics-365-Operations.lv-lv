@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0ea0fc8d50c25312b184ec1d3bd613695870d121
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2d098f323d58bf3233a83655b213afe131ae3f36
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349284"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Varianta publicēšana un eksperimenta pabeigšana
 
 Šajā tēmā ir aprakstīts, kā publicēt variantu, kas sniedza labākos rezultātus eksperimentā un kā pabeigt eksperimentu. Tālāk esošajā diagrammā ir parādītas visas darbības, kas jāveic, lai iestatītu un izpildītu eksperimentu e-komercijas tīmekļa vietnē pakalpojumā Dynamics 365 Commerce. Papildu darbības ir apskatītas atsevišķās tēmās.
 
-[ ![Eksperimenta lietotāja maršruts - pārskatīšana un pabeigšana](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![Eksperimenta lietotāja maršruts - pārskatīšana un pabeigšana.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 Pēc tam, kad [eksperiments ir izpildīts](experimentation-run-monitor.md) un ir apkopoti pietiekami daudz datu, lai noteiktu, kuru variantu vēlaties izmantot savā tiešsaistes vietnē, jūs publicēsit variantu un beigsit eksperimentu.
 

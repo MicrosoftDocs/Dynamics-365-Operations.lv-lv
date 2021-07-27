@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838638"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346182"
 ---
 # <a name="target-entities"></a>Mērķa elementi
 
@@ -34,13 +34,13 @@ Darbvietā **Datu pārvaldība** varat apskatīt mērķa elementu kopsavilkumu, 
 
 2. Sadaļā **Importēt/eksportēt** klikšķiniet uz **Datu elementi**. 
 
-    ![1. attēls](media/01-data-management.png)
+    ![1. attēls.](media/01-data-management.png)
 
 3. Lapas **Mērķa elementi** filtrā meklējiet “līdzekļu pārvaldība” un nospiediet taustiņu Enter, lai skatītu ar līdzekļu pārvaldību saistīto elementu sarakstu.
 
     Attēlā redzama daļa no līdzekļu pārvaldības elementiem.
 
-   ![2. attēls](media/02-data-management.png)
+   ![2. attēls.](media/02-data-management.png)
 
 4. Atlasiet elementu un noklikšķiniet uz **Modificēt mērķa kartējumu**.
 
@@ -48,7 +48,7 @@ Darbvietā **Datu pārvaldība** varat apskatīt mērķa elementu kopsavilkumu, 
 
     Tālāk redzamajā attēlā tiek rādīta ar līdzekļu veidu elementu saistīto lauku vizualizācija.
 
-    ![3. attēls](media/03-data-management.png)
+    ![3. attēls.](media/03-data-management.png)
 
 
 

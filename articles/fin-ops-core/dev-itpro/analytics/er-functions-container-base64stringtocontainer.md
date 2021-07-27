@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754378"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355374"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Base64StringToContainer ER funkcija
 
@@ -73,7 +73,7 @@ Savā modeļa kartēšanā jūs definējat tālāk norādītos datu avotus.
 
 Šajā piemērā **\#MediaAsBase64String** datu avots kodē pašreizējā multivides pielikuma bināro saturu kā tekstu, kas apzīmē bināro-teksta kodēšanas shēmu Base64 grupu. **\#BLOBFomBase64** datu avots atšifrē Base64 virkni un atgriež bināro vērtību BLOB formātā.
 
-![Parauga datu avoti ER Modeļu kartēšanas veidotāja lapā](./media/er-functions-container-base64stringtocontainer-1.png)
+![Parauga datu avoti ER Modeļu kartēšanas veidotāja lapā.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Papildu resursi
 

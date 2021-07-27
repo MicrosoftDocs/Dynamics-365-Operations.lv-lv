@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816753"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351589"
 ---
 # <a name="functional-locations-and-assets"></a>Funkcionālie novietojumi un līdzekļi
 
@@ -34,13 +34,13 @@ ms.locfileid: "5816753"
 
 Līdzekļu pārvaldība ir cieši integrēta ar vairākiem moduļiem ar citām Finance and Operations programmām. Nākamajā attēlā ir parādīti interfeisi ar citiem moduļiem.
 
-![Shēmā ir parādīts, kā Līdzekļu pārvaldība mijiedarbojas ar citiem moduļiem](media/01-overview-image.png)
+![Shēmā ir parādīts, kā Līdzekļu pārvaldība mijiedarbojas ar citiem moduļiem.](media/01-overview-image.png)
 
 Līdzekļu pārvaldība ļauj efektīvi pārvaldīt un izpildīt visus uzdevumus, kas saistīti ar dažāda veida iekārtu pārvaldīšanu un apkopi uzņēmumā. Šajā aprīkojumā ietilpst mašīnas, ražošanas iekārtas un transportlīdzekļi. Līdzekļu pārvaldība arī atbalsta risinājumus daudzās nozarēs.
 
 Nākamajā attēlā ir parādīts pārskats par galveno funkcionalitāti, ko ietver Līdzekļu pārvaldība.
 
-![Shēmā ir parādīta galvenā funkcionalitāte Līdzekļu pārvaldībā](media/02-overview-image.png)
+![Shēmā ir parādīta galvenā funkcionalitāte Līdzekļu pārvaldībā.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Funkcionālie novietojumi un līdzekļi
 
@@ -50,11 +50,11 @@ Līdzekļa izmaksās vienmēr tiek ievērota līdzekļa atrašanās vieta. Citie
 
 Tas, kā veidojat savu funkcionālo novietojumu hierarhiju, ir atkarīgs no uzņēmuma vajadzībām attiecībā uz iekšējo iekārtu vai klientu apkalpošanas aprīkojuma uzturēšanu. Nākamajā attēlā ir parādīts tādu funkcionālo novietojumu piemērs, kuru pamatā ir ģeogrāfiskās atrašanās vietas.
 
-![Shēmā ir parādītie funkcionālie novietojumi, pamatojoties uz ģeogrāfiskajām atrašanās vietām](media/03-overview-image.png)
+![Shēmā ir parādītie funkcionālie novietojumi, pamatojoties uz ģeogrāfiskajām atrašanās vietām.](media/03-overview-image.png)
 
 Nākamajā attēlā ir parādīts tādu funkcionālo novietojumu piemērs, kuru pamatā ir debitori.
 
-![Shēmā ir parādītie funkcionālie novietojumi, pamatojoties uz klientiem](media/04-overview-image.png)
+![Shēmā ir parādītie funkcionālie novietojumi, pamatojoties uz klientiem.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

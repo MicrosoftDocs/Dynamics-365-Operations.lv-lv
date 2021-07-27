@@ -2,7 +2,7 @@
 title: Sīkfailu atbilstība
 description: Šajā tēmā aprakstīti apsvērumi sīkdatņu atbilstībai un noklusējuma politikas, kas ir iekļautas Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088391"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333073"
 ---
 # <a name="cookie-compliance"></a>Sīkfailu atbilstība
 
@@ -33,26 +33,27 @@ Lai iegūtu papildinformāciju par pamatprincipiem, kurus Microsoft izmanto sīk
 
 Šajā tabulā parādīts pašreizējais sīkfailu atsauču saraksts, ko ievieto Dynamics 365 Commerce vietnes.
 
-| Sīkfaila nosaukums                               | Lietojums                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Saglabāt Microsoft Azure Active Directory (Azure AD) autentifikācijas sīkfailus vienotā pierakstīšanās (SSO). Saglabā šifrētu lietotāja pamatinformāciju (vārds, uzvārds, e-pasts). |
-| &#95;msdyn365___cart&#95;                           | Veikalu groza ID, kas tiek izmantots, lai iegūtu preču sarakstu, kas pievienots groza instancei. |
-| &#95;msdyn365___ucc&#95;                            | Sīkdatņu atbilstības piekrišanas izsekošana.                          |
-| ai_session                                  | Nosaka to, cik lietotāju aktivitāšu sesijas ir iekļāvušas noteiktas programmas lapas un līdzekļus. |
-| ai_user                                     | Nosaka, cik cilvēku lieto programmu un tās līdzekļus. Lietotāji tiek skaitīti, izmantojot anonīmus ID. |
-| b2cru                                       | Dinamiski saglabā pārvirzīšanas URL.                              |
-| JSESSIONID                                  | Izmanto maksājuma savienotāja Adyen, lai saglabātu lietotāja sesiju.       |
-| OpenIdConnect.nonce.&#42;                       | Autentifikācija                                               |
-| x-ms-cpim-cache:.&#42;                          | Izmanto pieprasījuma stāvokļa uzturēšanai.                      |
-| x-ms-cpim-csrf                              | Vairākvietu pieprasījuma viltošanas (CRSF) marķieris, ko izmanto aizsardzībai no CRSF.     |
-| x-ms-cpim-dc                                | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. |
-| x-ms-cpim-rc.&#42;                              | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. |
-| x-ms-cpim-slice                             | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Izmanto SSO sesijas uzturēšanai.                        |
-| x-ms-cpim-trans                             | Tiek izmantots, lai izsekotu transakcijas (atvērto ciļņu skaits, kas tiek autentificētas attiecībā uz bizness patērētājam (B2C) vietni), ieskaitot pašreizējo transakciju. |
-| \_msdyn365___muid_                            | Tiek izmantots, ja vidē ir aktivizēts eksperiments; utilizēts kā lietotāja identifikators eksperimentu nolūkiem. |
-| \_msdyn365___exp_                             | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmanto, lai mērītu veiktspējas noslodzes līdzsvarošanu.         |
-| d365mkt                                       | Izmanto, ja atrašanās vietas noteikšana, lai izsekotu lietotāja IP adresi veikala atrašanās vietas ieteikumiem, ir iespējota Commerce vietnes veidotājā **Vietnes iestatījumi > Vispārīgi > Iespējot uz atrašanās vietu balstītu krātuves noteikšanu**.      |
+| Sīkfaila nosaukums                               | Lietojums                                                        | Mūžs |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Saglabāt Microsoft Azure Active Directory (Azure AD) autentifikācijas sīkfailus vienotā pierakstīšanās (SSO). Saglabā šifrētu lietotāja pamatinformāciju (vārds, uzvārds, e-pasts). | Sesija |
+| \_msdyn365___cart_                           | Veikalu groza ID, kas tiek izmantots, lai iegūtu preču sarakstu, kas pievienots groza instancei. | Sesija |
+| \_msdyn365___checkout_cart_                           | Veikala norēķinu groza ID, ko izmanto, lai iegūtu to produktu sarakstu, kas pievienoti norēķinu groza instancei. | Sesija |
+| \_msdyn365___ucc_                            | Sīkdatņu atbilstības piekrišanas izsekošana.                          | 1 gada |
+| ai_session                                  | Nosaka to, cik lietotāju aktivitāšu sesijas ir iekļāvušas noteiktas programmas lapas un līdzekļus. | 30 minūtes |
+| ai_user                                     | Nosaka, cik cilvēku lieto programmu un tās līdzekļus. Lietotāji tiek skaitīti, izmantojot anonīmus ID. | 1 gada |
+| b2cru                                       | Dinamiski saglabā pārvirzīšanas URL.                              | Sesija |
+| JSESSIONID                                  | Izmanto maksājuma savienotāja Adyen, lai saglabātu lietotāja sesiju.       | Sesija |
+| OpenIdConnect.nonce.&#42;                       | Autentifikācija                                               | 11 minūtes |
+| x-ms-cpim-cache:.&#42;                          | Izmanto pieprasījuma stāvokļa uzturēšanai.                      | Sesija |
+| x-ms-cpim-csrf                              | Vairākvietu pieprasījuma viltošanas (CRSF) marķieris, ko izmanto aizsardzībai no CRSF.     | Sesija |
+| x-ms-cpim-dc                                | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. | Sesija |
+| x-ms-cpim-rc.&#42;                              | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. | Sesija |
+| x-ms-cpim-slice                             | Izmanto, lai maršrutētu pieprasījumus uz atbilstošo ražošanas autentifikācijas servera instanci. | Sesija |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Izmanto SSO sesijas uzturēšanai.                        | Sesija |
+| x-ms-cpim-trans                             | Tiek izmantots, lai izsekotu transakcijas (atvērto ciļņu skaits, kas tiek autentificētas attiecībā uz bizness patērētājam (B2C) vietni), ieskaitot pašreizējo transakciju. | Sesija |
+| \_msdyn365___muid_                            | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmantots kā lietotāja ID eksperimentu nolūkiem. | 1 gada |
+| \_msdyn365___exp_                             | Tiek izmantots, ja vidē ir aktivizēts eksperiments; izmanto, lai mērītu veiktspējas noslodzes līdzsvarošanu.         | 1 stunda |
+| d365mkt                                       | Izmanto, ja atrašanās vietas noteikšana, lai izsekotu lietotāja IP adresi veikala atrašanās vietas ieteikumiem, ir iespējota Commerce vietnes veidotājā **Vietnes iestatījumi \> Vispārīgi \> Iespējot uz atrašanās vietu balstītu krātuves noteikšanu**.      | 1 stunda |
 
 Ja vietas lietotājs izvēlas kādu no sociālās multivides saitēm vietā, sīkfaili šajā tabulā tiks izsekoti arī viņu pārlūkprogrammā.
 

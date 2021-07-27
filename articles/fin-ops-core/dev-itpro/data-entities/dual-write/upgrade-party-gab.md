@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112677"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346550"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Jaunināšana uz pušu un globālās adrešu grāmatas modeli
 
@@ -89,7 +89,7 @@ Lai sagatavotos jaunināšanai, ir nepieciešamas šādas aktivitātes:
 
 10. Pēc izvietošanas validējiet datu fabrikas datu kopas, datu plūsmu un saistīto pakalpojumu.
 
-   ![Datu kopas, datu plūsma un saistītais pakalpojums](media/data-factory-validate.png)
+   ![Datu kopas, datu plūsma un saistītais pakalpojums.](media/data-factory-validate.png)
 
 11. Dodieties uz **Pārvaldīt**. Sadaļā **Savienojumi** atlasiet **Saistītais pakalpojums**. Atlasiet **DynamicsCrmLinkedService**. Formā **Rediģēt saistīto pakalpojumu (Dynamics CRM)** ievadiet šādas vērtības.
 
@@ -154,7 +154,7 @@ Lai sagatavotos jaunināšanai, ir nepieciešamas šādas aktivitātes:
 
 7. Datu fabrikā palaidiet veidni, atlasot **Aktivizēt tūlīt**, kā parādīts šajā attēlā. Šis process var ilgt dažas stundas, balstoties uz datu apjomu.
 
-    ![Trigera palaišana](media/data-factory-trigger.png)
+    ![Trigera palaišana.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Ja ir pielāgojumi **Kontam**, **Kontaktpersonai** un **Kreditoram**, veidne jāmodificē.
@@ -164,7 +164,7 @@ Lai sagatavotos jaunināšanai, ir nepieciešamas šādas aktivitātes:
     + Lejupielādējiet `FONewParty.csv` failu no Azure BLOB krātuves. Ceļš ir `partybootstrapping/output/FONewParty.csv`.
     + Konvertējiet `FONewParty.csv` failu par Excel failu un importējiet Excel failu programmā Finance and Operations. Ja jums darbojas csv importēšana, varat tieši importēt csv failu. Atkarībā no datu apjoma, importēšanas laiks var ilgt dažas stundas. Papildinformāciju skatiet [Datu importēšanas un eksportēšanas darbu apskats](../data-import-export-job.md).
 
-    ![Importēt Datavers puses ierakstus](media/data-factory-import-party.png)
+    ![Importēt Datavers puses ierakstus.](media/data-factory-import-party.png)
 
 9. Customer Engagement programmās aktivizējiet tālāk norādītas darbības:
 
@@ -199,7 +199,7 @@ Lai sagatavotos jaunināšanai, ir nepieciešamas šādas aktivitātes:
 3. Datu fabrika darbojas, pamatojoties uz csv failiem, kas tiek atdalīti ar komatu. Ja lauka vērtībai ir komats, tas var traucēt rezultātus. Ir jānoņem komati.
 4. Cilne **Pārraudzība** sniedz informāciju par visam darbībam un apstrādātajiem datiem. Atlasiet noteiktu darbību, lai to atkļūdotu.
 
-    ![Cilne Pārraudzība](media/data-factory-monitor.png)
+    ![Cilne Pārraudzība.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Uzziniet vairāk par veidni
 

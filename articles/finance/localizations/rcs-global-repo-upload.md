@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838723"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361224"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER konfigurāciju izveide Regulatory Configuration Services (RCS) un to augšupielāde globālajā repozitorijā
 
@@ -51,7 +51,7 @@ Ja RCS vide jūsu uzņēmumam jau ir nodrošināta, izmantojiet lapas vietrādi 
 5. Ievadiet nosaukumu un aprakstu un pēc tam atlasiet **Izveidot konfigurāciju**, lai izveidotu jaunu atvasinātu versiju.
 6. Atlasiet tikko atvasināto konfigurāciju, pievienojiet versijas aprakstu un pēc tam atlasiet **Labi**. Konfigurācijas statuss ir nomainīts uz **Pabeigts**.
 
-![Jauna konfigurācijas versija RCS](media/RCS_CompleteConfig.JPG)
+![Jauna konfigurācijas versija RCS.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Kad konfigurācijas statuss ir mainīts, var tikt parādīts pārbaudes kļūdas ziņojums, kas saistīts ar savienotajām lietojumprogrammām. Lai izslēgtu pārbaudi, cilnes **Konfigurācijas** darbību rūtī atlasiet **Lietotāja parametri** un pēc tam opciju **Izlaist validāciju konfigurācijas statusa maiņai un pārbāzei** iestatītu uz **Jā** 
@@ -63,7 +63,7 @@ Lai koplietotu jaunu vai atvasinātu konfigurāciju ar savu organizāciju, varat
 1. Atlasiet konfigurācijas pabeigtu versiju un pēc tam atlasiet **Augšupielādēt repozitorijā**.
 2. Atlasiet opciju **Globāli (Microsoft)** un pēc tam atlasiet **Augšupielādēt**.
 
-    ![Augšupielādēt repozitorija opcijās](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Augšupielādēt repozitorija opcijās.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Apstiprinājuma ziņojuma lodziņā atlasiet **Jā**. 
 4. Atjauniniet versijas aprakstu pēc nepieciešamības un pēc tam atlasiet **Labi**. 
@@ -73,7 +73,7 @@ Konfigurācijas statuss ir atjaunināts uz **Kopīgot**, un konfigurācija ir au
 - Importējiet to savā Dynamics 365 instancē. Papildinformāciju skatiet [(ER) Konfigurāciju importēšana no RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Koplietot to ar trešo pusi vai ārēju organizāciju, skatiet [RCS Koplietot elektronisko pārskatu (ER) konfigurācijas ar ārējām organizācijām](rcs-global-repo-share-configuration.md)
 
-    ![Atvasinātā Intrastat Contoso konfigurācijas versija globālajā krātuvē](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Atvasinātā Intrastat Contoso konfigurācijas versija globālajā krātuvē.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>Konfigurācijas dzēšana no globālā repozitorija
 Lai dzēstu jūsu organizācijas izveidoto konfigurāciju, veiciet tālāk norādītās darbības.
@@ -84,11 +84,11 @@ Lai dzēstu jūsu organizācijas izveidoto konfigurāciju, veiciet tālāk norā
 4. Kopsavilkuma cilnē **Filtrs** atrodiet konfigurāciju, ko vēlaties dzēst, izmantojot funkciju **Filtrs**.
 5. Kopsavilkuma cilnē **Versija** atlasiet konfigurācijas versiju, ko vēlaties dzēst, un pēc tam atlasiet **Dzēst**:
 
-    ![Konfigurācijas dzēšana no globālā repozitorija](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![Konfigurācijas dzēšana no globālā repozitorija.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. Apstiprinājuma ziņojuma lodziņā atlasiet **Jā**.
 
-    ![Konfigurācijas versijas dzēšanas apstiprinājuma ziņojums](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![Konfigurācijas versijas dzēšanas apstiprinājuma ziņojums.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 Konfigurācijas versija tiek dzēsta un tiek parādīts apstiprinājuma ziņojums. 
 

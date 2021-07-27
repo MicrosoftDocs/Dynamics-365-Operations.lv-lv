@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360950"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Uzturēšanas pieprasījumu dzīves cikla stāvokļi
 
@@ -48,7 +48,7 @@ Uzturēšanas pieprasījumadzīves cikla stāvokļi nosaka posmus, kuriem piepra
 
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu dzīves cikla stāvokļi** piemērs.
 
-![Uzturēšanas pieprasījumu dzīves cikla stāvokļu lapa](media/02-setup-for-requests.png)
+![Uzturēšanas pieprasījumu dzīves cikla stāvokļu lapa.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Uzturēšanas pieprasījuma dzīves cikla stāvokļi, dzīves cikla stāvokļa grupas un veidi ir saistīti ar darba pasūtījuma dzīves cikla stāvokļiem, dzīves cikla stāvokļa grupām un veidiem, un tiek lietoti tādā pašā veidā. 
@@ -66,9 +66,9 @@ Kad esat izveidojis dzīves cikla stāvokļus, kas nepieciešami uzturēšanas p
 
 5. Kopsavilkuma cilnē **Dzīves cikla stāvokļi** atlasiet dzīves cikla stāvokļus, kuri būtu jāiekļauj dzīves cikla modelī:
 
-    - Lai iekļautu dzīves cikla stāvokli dzīves cikla modelī, atlasiet to sadaļā **Atlikušie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņa pa labi](media/03-setup-for-requests.png), lai pārvietotu to uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
-    - Lai iekļautu visus pieejamos dzīves cikla stāvokļus dzīves cikla modelī, atlasiet pogu **Atlasīt visus pieejamos dzīves cikla stāvokļus** ![Atlasīt visus pieejamos dzīves cikla stāvokļus](media/04-setup-for-requests.png). Visi dzīves cikla stāvokļi tiek pārvietoti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
-    - Lai dzīves cikla modelim noņemtu dzīves cikla stāvokli, atlasiet to sadaļā **Atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa kreisi pogui ![Bultiņa pa kreisi](media/05-setup-for-requests.png), lai pārvietotu to uz sadaļu **Atlikušie dzīves cikla stāvokļi**.
+    - Lai dzīves cikla modelim pievienotu dzīves cikla stāvokli, atlasiet to sadaļā **Atlikušie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa labi pogu ![Bultiņa pa labi.](media/03-setup-for-requests.png) Lai pārvietotu to uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
+    - Lai iekļautu visus pieejamos dzīves cikla stāvokļus dzīves cikla modelī, atlasiet pogu **Atlasīt visus pieejamos dzīves cikla stāvokļus** ![Atlasīt visus pieejamos dzīves cikla stāvokļus.](media/04-setup-for-requests.png). Visi dzīves cikla stāvokļi tiek pārvietoti uz sadaļu **Atlasītie dzīves cikla stāvokļi**.
+    - Lai no dzīves cikla modeļa noņemtu dzīves cikla stāvokli, atlasiet to sadaļā **Atlasītie dzīves cikla stāvokļi** un pēc tam atlasiet bultiņas pa kreisi pogu ![Bultiņa pa kreisi.](media/05-setup-for-requests.png) Lai pārvietotu to uz sadaļu **Atlikušie dzīves cikla stāvokļi**.
 
 6. Kopsavilkuma cilnē **Vispārīgi** lauki sadaļā **Atjauninājumi** ir būtiski, ja izmantojat labošanu noliktavā.
 
@@ -77,7 +77,7 @@ Kad esat izveidojis dzīves cikla stāvokļus, kas nepieciešami uzturēšanas p
 
 Nākamajā attēlā ir parādīts lapas **Uzturēšanas pieprasījumu dzīves cikla modeļi** piemērs.
 
-![Uzturēšanas dzīves cikla modeļu lapa](media/06-setup-for-requests.png)
+![Uzturēšanas dzīves cikla modeļu lapa.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

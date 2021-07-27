@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838662"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346206"
 ---
 # <a name="work-hour-control"></a>Darba stundu kontrole
 
@@ -66,7 +66,7 @@ Ekrānšāviņā redzams aprēķina **Līdzekļu stundu kontrole** piemērs.
 - Lauks **Faktiskās stundas** rāda darba pasūtījumu grāmatotās stundas. 
 - Lauks **Fiksētās stundas** parāda kopējo stundu summu, ko jūsu uzņēmums ir izmantojis saistībā ar darba pasūtījumiem.
 
-![Pamatlīdzekļu stundu kontroles aprēķina piemērs](media/04-controlling-and-reporting.png)
+![Pamatlīdzekļu stundu kontroles aprēķina piemērs.](media/04-controlling-and-reporting.png)
 
 Cits stundu aprēķina veids ir vairāku atlasīto līdzekļu atlasīšana sadaļās **Visi līdzekļi** vai **Aktīvie līdzekļi** Pēc tam noklikšķiniet uz pogas **Stundu kontrole**, kas atrodas kopsavilkuma cilnē **Vispārīgi**. Atlasītie līdzekļi automātiski tiek ievietoti laukā **Līdzekļi** kopsavilkuma cilnē **Ieraksti, kas jāiekļauj**. Noklikšķiniet uz **Labi** dialoglodziņā **Līdzekļu stundu kontrole**, un tiks parādīts atlasīto līdzekļu aprēķins. To pašu procedūru var veikt funkcionālajiem novietojumiem sadaļās **Visi funkcionālie novietojumi** vai **Aktīvie funkcionālie novietojumi** un darba pasūtījumiem sadaļās **Visi darba pasūtījumi** vai **Aktīvie darba pasūtījumi**.
 

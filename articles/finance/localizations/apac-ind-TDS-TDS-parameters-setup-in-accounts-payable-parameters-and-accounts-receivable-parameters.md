@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358222"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Iestatiet TDS parametrus Kreditoriem un Debitoriem
 
@@ -38,12 +38,12 @@ ms.locfileid: "6023418"
     - **Uzvedne** – lietotāji saņem ziņojumu, kas pieprasa atjaunināt TDS grupu pasūtījuma rindās.
 4. Atlasiet **Labi**.
 
-    [![Atjaunināt pasūtījuma rindu dialoglodziņš](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Atjaunināt pasūtījuma rindu dialoglodziņš.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Dodieties uz **Nodoklis \> Iestatīšana \> Parametri \> Kreditoru parādu parametri**.
 6. Cilnes **Vispārīgi** kopsavilkuma cilnē **Sadalīt, pamatojoties uz piegādes informāciju** iestatiet opciju **Produkta kvīts** uz **Jā**, lai grāmatotu un sadalītu produktu kvīti ar dažādām piegādes adresēm un nodokļu konta numuriem (TAN). Ja šī opcija ir iestatīta uz **Nē**, nevar grāmatot pirkšanas pavadzīmi ar dažādām piegādes adresēm un TAN.
 7. Iestatiet opciju **Rēķins** uz **Jā**, lai grāmatotu un sadalītu pirkšanas rēķinu ar dažādām piegādes adresēm un TAN.
 
-    [![Sadalīt, pamatojoties uz kopsavilkuma cilni Piegādes informācija](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Sadalīt, pamatojoties uz kopsavilkuma cilni Piegādes informācija.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Aizvērt lapu.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 51ed47075ad7fdea490bd0d06831449388ecdf6e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748201"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360796"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobilā darbvieta Uzņēmuma direktorijs
 
@@ -77,7 +77,7 @@ Mobilās programmas Finance and Operations lejupielāde un instalēšana.
 3.  Pirmajā pierakstīšanās reizē tiek prasīts ievadīt lietotājvārdu un paroli. Ievadiet savus akreditācijas datus.
 4.  Pēc pierakstīšanās tiek parādītas jūsu uzņēmumam pieejamās darbvietas. Ņemiet vērā, ka gadījumā, ja sistēmas administrators vēlāk publicēs jaunu darbvietu, jums būs jāatsvaidzina mobilo darbvietu saraksts.
 
-[![Velciet, lai atsvaidzinātu](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Velciet, lai atsvaidzinātu.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Uzņēmuma direktorija skatīšana, izmantojot mobilo darbvietu
 1.  Mobilajā programmā atlasiet darbvietu **Uzņēmuma direktorijs**. Tiek parādīts darbinieku saraksts.

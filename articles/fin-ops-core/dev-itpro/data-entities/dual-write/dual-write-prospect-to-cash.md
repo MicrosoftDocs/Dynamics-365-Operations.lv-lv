@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754092"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361406"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potenciālā klienta-naudas duālais ieraksts
 
@@ -33,7 +33,7 @@ Lielākajai daļai uzņēmumu ir svarīgi pārveidot potenciālos klientus par k
 
 Programmu interfeisos var piekļūt apstrādes statusiem un rēķina informācijai reālajā laikā. Tāpēc varat vieglāk pārvaldīt tādas funkcijas kā produktu uzkrājumu veidošana, krājumu apstrāde un Supply Chain Management bez atkārtotas piedāvājumu un pasūtījumu izveides.
 
-![Duālā ieraksta datu plūsma potenciālā klienta pārveidē naudā](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Duālā ieraksta datu plūsma potenciālā klienta pārveidē naudā.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Informāciju par debitoru un kontaktpersonu integrāciju skatiet integrētajā [debitoru pamatdatā](customer-mapping.md). Informāciju par produktu integrāciju skatiet sadaļā [Unificētā preču pieredze](product-mapping.md).
 
@@ -48,7 +48,7 @@ Pirms varat sinhronizēt pārdošanas piedāvājumus, ir jāatjaunina tālāk no
 
 Programmā Sales dodieties uz **Iestatījumi \> Administrēšana \> Sistēmas iestatījumi \> Pārdošana** un pārliecinieties, ka tiek izmantoti šādi iestatījumi:
 
-- Sistēmas opcijas **Lietot sistēmas cenu noteikšanu** vērtība ir iestatīta uz **Jā**.
+- Ir iestatīta sistēmas opcijas **Lietot sistēmas cenu noteikšanu** vērtība **Jā**.
 - Kolonnas **Atlaides aprēķināšanas metode** vērtība ir iestatīta uz **Rindas vienums**.
 
 ### <a name="sites-and-warehouses"></a>Vietas un noliktavas

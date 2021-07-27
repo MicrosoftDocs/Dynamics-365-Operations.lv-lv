@@ -2,7 +2,7 @@
 title: Video atskaņotāja modulis
 description: Šajā tēmā aplūkoti video atskaņotāja moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797411"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479284"
 ---
 # <a name="video-player-module"></a>Video atskaņotāja modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aplūkoti video atskaņotāja moduļi un aprakstīta to pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
@@ -43,12 +44,16 @@ Video atskaņotāja modulis atbalsta arī sekundāros audio celiņus. Augšupiel
 
 Attēlā zemāk redzams video atskaņotāja moduļa piemērs sākumlapā.
 
-![Video atskaņotāja moduļa piemērs](./media/ecommerce-videoplayer.PNG)
+![Video atskaņotāja moduļa piemērs.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Video atskaņotāja moduļa rekvizīti
 
-| Rekvizīta nosaukums         | Vērtība                               | apraksts |
+| Rekvizīta nosaukums         | Vērtība                               | Apraksts |
 |-----------------------|-------------------------------------|-------------|
+| Virsraksts               | Virsraksta teksts un virsraksta etiķete (**H1**, **H2**, **H3**, **H4**, **H5** vai **H6**) | Pēc noklusējuma virsrakstam tiek izmantots virsraksta tags **H2**, bet tagu var mainīt atbilstoši pieejamības prasībām. |
+| Bagātināts teksts             | Rindkopas teksts | Modulis atbalsta rindkopu tekstu bagātinātā teksta formātā. Tiek atbalstītas dažas pamata bagātinātā teksta iespējas, piemēram, hipersaites, treknraksts, pasvītrots un slīpraksta teksts. Modulim piemērots lapas dizains var ignorēt dažas no šīm iespējām. |
+| Saistīt                  | Saites teksts, saites vietrādis URL, pieejamās bagātinātās interneta lietojumprogrammas (ARIA) etiķete un **Atvērt saiti jaunā cilnē** atlasītājs | Modulis atbalsta vienu vai vairākas saites “aicinājums uz darbību”. Ja ir pievienota saite, ir nepieciešams saites teksts, vietrādis URL un ARIA etiķete. ARIA etiķetēm jābūt aprakstošām, lai tās atbilstu pieejamības prasībām. Saites var konfigurēt tā, lai tās tiktu atvērtas jaunā cilnē. |
+| Apakštekts              | Virsraksts, teksts vai saites | Var pievienot papildu kontekstu video atskaņotāja modulim, piemēram, autora vai veidotāja vārdu, vai saites uz personīgajām papildmaksām. |
 | Automātiskā atskaņošana             | **Patiess** vai **Nepatiess**               | Ja vērtība ir iestatīta uz **Patiess**, videoklips tiek automātiski atskaņots. |
 | Izslēgt skaņu                  | **Patiess** vai **Nepatiess**               | Ja vērtība ir iestatīta uz **Patiess**, tiek izslēgta skaņa. Šajā atskaņotājā noklusējuma vērtība ir **Nepatiess**. Google Chrome pārlūkā automātiskās atskaņošanas videoklipiem pēc noklusējuma tiek izslēgta skaņa, kura tiek atskaņota tikai tad, ja lietotājs manuāli atskaņo videoklipu. |
 | Cilpa                  | **Patiess** vai **Nepatiess**               | Ja vērtība ir iestatīta uz **Patiess**, videoklipa atskaņošana tiek atkārtota. |
@@ -58,6 +63,9 @@ Attēlā zemāk redzams video atskaņotāja moduļa piemērs sākumlapā.
 | Video atskaņotāja vadīklas | **Patiess** vai **Nepatiess**               | Ja vērtība ir iestatīta uz **Patiess**, tiek rādītas visas video atskaņotāja vadīklas. Šīs vadīklas ietver atskaņošanas un pauzes pogas, progresa indikatoru un slēpts titru opcijas. |
 | Paslēpt grāmatotāja attēlu     | **Patiess** vai **Nepatiess**               | Videoklipam var būt plakāta kadrs. Ja šī rekvizīta vērtība ir iestatīta uz **Patiess**, plakāta kadrs ir paslēpts. |
 | Maskas līmenis            | Skaitlis no **0** līdz **100** | Maska, kas tiek lietota videoklipa stilizēšanai. |
+
+> [!IMPORTANT]
+> Rekvizīti **Virsraksts**, **Bagātinātais teksts**, **Saite** un **Apakšteksts** ir pieejami Dynamics 365 Commerce versijas 10.0.20 izlaidumā.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Video atskaņotāja moduļa pievienošana lapā
 

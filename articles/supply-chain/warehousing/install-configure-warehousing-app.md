@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909383"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359489"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Noliktavas programmas instalēšana un savienošana
 
@@ -64,28 +64,28 @@ Lai noliktavas programma varētu mijiedarboties ar noteiktu Supply Chain Managem
 1. Ievadiet tā lietotāja vārdu un paroli, kuram ir piekļuve Azure abonementam.
 1. Azure portāla kreisajā navigācijas rūtī atlasiet **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Pārliecinieties, ka strādājat ar Azure AD instanci, kas izmantota programmatūrā Supply Chain Management.
 1. Sarakstā **Pārvaldīt** atlasiet **Programmu reģistrācijas**.
 
-    ![Programmu reģistrācijas](media/app-connect-azure-register.png "Programmu reģistrācijas")
+    ![Programmu reģistrācijas.](media/app-connect-azure-register.png "Programmu reģistrācijas")
 
 1. Rīkjoslā atlasiet **Jauna reģistrācija**, lai atvērtu vedni **Lietojumprogrammas reģistrācija**.
 1. Ievadiet lietojumprogrammas nosaukumu, atlasiet opciju **Konti tikai šajā organizatoriskajā direktorijā** un pēc tam atlasiet **Reģistrs**.
 
-    ![Lietojumprogrammas reģistrācijas vednis](media/app-connect-azure-register-wizard.png "Lietojumprogrammas reģistrācijas vednis")
+    ![Lietojumprogrammas reģistrācijas vednis.](media/app-connect-azure-register-wizard.png "Lietojumprogrammas reģistrācijas vednis")
 
 1. Tiek atvērta jūsu jaunā programmas reģistrācija. Pierakstiet **Lietojumprogrammas (klienta) ID** vērtību, jo tā būs nepieciešama vēlāk. Šis ID turpmāk šajā tēmā tiks dēvēts kā *klienta ID*.
 
-    ![Lietojumprogrammas (klienta) ID](media/app-connect-azure-app-id.png "Lietojumprogrammas (klienta) ID")
+    ![Lietojumprogrammas (klienta) ID.](media/app-connect-azure-app-id.png "Lietojumprogrammas (klienta) ID")
 
 1. Sarakstā **Pārvaldīt** atlasiet **Sertifikāts & noslēpumi**. Pēc tam atlasiet vienu no tālāk norādītajām pogām, atkarībā no tā, kā vēlaties konfigurēt programmu autentifikācijai. (Papildinformāciju skatiet sadaļā [Autentificēt, izmantojot sertifikātu vai klienta noslēpumu](#authenticate) šīs tēmas turpinājumā.)
 
     - **Augšupielādēt sertifikātu** – augšupielādēt sertifikātu, ko izmantot kā noslēpumu. Ir ieteicams izmanto šo pieeju, jo tā ir drošāka un to var arī pilnīgāk automatizēt. Ja izmantojat noliktavas programmu Windows ierīcēs, pierakstiet **Nospiedums** vērtību, kas tiek parādīta pēc sertifikāta augšupielādes. Šī vērtība būs nepieciešama, konfigurējot sertifikātu Windows ierīcēs.
     - **Jauns klienta noslēpums** – izveidojiet atslēgu, ievadot atslēgas aprakstu un ilgumu sadaļā **Paroles**, un pēc tam atlasiet **Pievienot**. Izveidojiet atslēgas kopiju un glabājiet to drošībā.
 
-    ![Sertifikāts & noslēpumi](media/app-connect-azure-authentication.png "Sertifikāts & noslēpumi")
+    ![Sertifikāts & noslēpumi.](media/app-connect-azure-authentication.png "Sertifikāts & noslēpumi")
 
 Papildinformāciju par to, kā iestatīt tīmekļa pakalpojuma lietojumprogrammas Azure AD, skatiet tālāk norādītos resursus:
 
@@ -105,7 +105,7 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
     1. Izveidojiet lietotāju.
     1. Piešķiriet noliktavas mobilās ierīces lietotāju.
 
-    ![Piešķiriet noliktavas mobilās ierīces lietotāju](media/app-connect-app-users.png "Piešķiriet noliktavas mobilās ierīces lietotāju")
+    ![Piešķiriet noliktavas mobilās ierīces lietotāju.](media/app-connect-app-users.png "Piešķiriet noliktavas mobilās ierīces lietotāju")
 
 1. Saistiet savu Azure AD lietojumprogrammu ar noliktavas programmas lietotāju:
 
@@ -113,7 +113,7 @@ Lai jūsu Azure AD lietojumprogrammu varētu izmantot Supply Chain Management, r
     1. Izveidojiet rindu.
     1. Ievadiet klienta ID, kuram veicāt piezīmi iepriekšējā sadaļā, piešķiriet tam nosaukumu un atlasiet tikko izveidoto lietotāju. Ieteicams atzīmēt visas jūsu ierīces. Pēc tam, to nozaudēšanas gadījumā, varēsit viegli liegt to piekļuvi Supply Chain Management, izmantojot šo lapu.
 
-    ![Azure Active Directory lietojumprogrammas](media/app-connect-aad-apps.png "Azure Active Directory pieteikumi")
+    ![Azure Active Directory lietojumprogrammas.](media/app-connect-aad-apps.png "Azure Active Directory pieteikumi")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentificēt, izmantojot sertifikātu vai klienta noslēpumu
 
@@ -201,26 +201,26 @@ Lai importētu savienojuma iestatījumus no faila vai QR koda, rīkojieties šā
 1. Dodieties uz **Savienojuma iestatījumi**.
 1. Opciju **Izmantot demonstrācijas režīmu** iestatiet uz _Nē_.
 
-    ![Izmantot demonstrācijas režīma opciju](media/app-connect-app-demo-mode.png "Izmantot demonstrācijas režīma opciju")
+    ![Izmantot demonstrācijas režīma opciju.](media/app-connect-app-demo-mode.png "Izmantot demonstrācijas režīma opciju")
 
 1. Atlasiet **Atlasīt failu** vai **Skenēt QR kodu**, atkarībā no tā, kā vēlaties importēt iestatījumus:
 
     - Ja importējat savienojuma iestatījumus no faila, iespējams, programma jau ir atradusi failu, ja pēc saglabāšanas tika izmantots noklusējuma nosaukums un noklusējuma atrašanās vieta. Pretējā gadījumā atlasiet **Atlasīt failu**, pārlūkojiet failu jūsu lokālajā ierīcē un atlasiet to. Ja atlasīsit pielāgotu atrašanās vietu, programma to saglabās un automātiski izmantos nākamreiz.
     - Ja importējat savienojuma iestatījumus, skenējot QR kodu, atlasiet **Skenēt QR kodu**. Programma pieprasa atļauju izmantot ierīces kameru. Pēc atļaujas piešķiršanas, kamera tiek startēta, lai to izmantotu skenēšanai. Atkarībā no ierīces kameras kvalitātes un QR koda sarežģītības, var izrādīties grūti iegūt pareizu skenējumu. Šādā gadījumā mēģiniet samazināt QR koda sarežģītību, ģenerējot tikai vienu savienojumu katram QR kodam. (Pašlaik QR koda skenēšanai var izmantot tikai ierīces kameru.)
 
-    ![Savienojuma iestatījumu importēšana](media/app-connect-app-select-file.png "Savienojuma iestatījumu importēšana")
+    ![Savienojuma iestatījumu importēšana.](media/app-connect-app-select-file.png "Savienojuma iestatījumu importēšana")
 
 1. Kad savienojuma iestatījumi ir veiksmīgi ielādēti, lapas augšējā kreisajā stūrī atlasiet pogu **Atgriezties** (kreisā bultiņa).
 
-    ![Savienojuma iestatījumu ielādēšana](media/app-connect-app-settings-loaded.png "Savienojuma iestatījumu ielādēšana")
+    ![Savienojuma iestatījumu ielādēšana.](media/app-connect-app-settings-loaded.png "Savienojuma iestatījumu ielādēšana")
 
 1. Ja izmantojat Android ierīci un autentifikācijai izmantojat sertifikātu, ierīce piedāvā izvēlēties sertifikātu.
 
-    ![Izvēlēties Android ierīcē piedāvāto sertifikātu](media/app-connect-app-choose-cert.png "Izvēlēties Android ierīcē piedāvāto sertifikātu")
+    ![Izvēlēties Android ierīcē piedāvāto sertifikātu.](media/app-connect-app-choose-cert.png "Izvēlēties Android ierīcē piedāvāto sertifikātu")
 
 1. Programma izveido savienojumu ar jūsu Supply Chain Management serveri un parāda pierakstīšanās lapu.
 
-    ![Pierakstīšanās lapa](media/app-connect-sign-in.png "Pierakstīšanās lapa")
+    ![Pierakstīšanās lapa.](media/app-connect-sign-in.png "Pierakstīšanās lapa")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Lietojumprogrammas manuāla konfigurēšana
 
@@ -230,11 +230,11 @@ Ierīcē instalēto programmu var manuāli konfigurēt, lai izveidotu savienojum
 1. Dodieties uz **Savienojuma iestatījumi**.
 1. Opciju **Izmantot demonstrācijas režīmu** iestatiet uz _Nē_.
 
-    ![Demonstrācijas režīms izslēgts](media/app-connect-app-select-file.png "Demonstrācijas režīms izslēgts")
+    ![Demonstrācijas režīms izslēgts.](media/app-connect-app-select-file.png "Demonstrācijas režīms izslēgts")
 
 1. Pieskarieties laukā **Atlasīt savienojumu**, lai izvērstu iestatījumus, kas nepieciešami savienojuma datu manuālai ievadīšanai.
 
-    ![Manuālā savienojuma lauki](media/app-connect-manual-connect.png "Manuālā savienojuma lauki")
+    ![Manuālā savienojuma lauki.](media/app-connect-manual-connect.png "Manuālā savienojuma lauki")
 
 1. Ievadiet sekojošo informāciju:
 

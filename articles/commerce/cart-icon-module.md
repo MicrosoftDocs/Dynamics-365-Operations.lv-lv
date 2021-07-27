@@ -2,7 +2,7 @@
 title: Groza ikonas modulis
 description: Šajā tēmā aplūkots groza ikonas modulis un aprakstīta tā pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,31 +14,43 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5ff514f07e8b31abe79775e5011bd3f1b24b2935
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e0238e9d464fc1d44cbc5091638ac7270d5b6ae3
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793085"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479308"
 ---
 # <a name="cart-icon-module"></a>Groza ikonas modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šajā tēmā aplūkots groza ikonas modulis un aprakstīta tā pievienošana vietnes lapām risinājumā Microsoft Dynamics 365 Commerce.
 
 Groza ikonu modulis attēlo groza lapas galvenes modulī un parāda preču skaitu grozā. Groza ikonas modulis parāda arī groza kopsavilkumu (to sauc arī par mini grozu), kad atrodaties virs groza ikonas. Mini grozs sniedz lietotājam kopsavilkumu par krājumiem grozā bez nepieciešamības pāriet uz groza lapu. Turklāt tas arī ļauj lietotājam doties tieši uz izrakstīšanās lapu, ja tie ir apmierināti ar kopsavilkumu. Tas samazina lapu navigācijas skaitu un padara pasūtījumu ātrāku. 
 
-> [!NOTE]
-> Groza ikonas modulis ir pieejams Dynamics 365 Commerce 10.0.11 laidienā.
-
 Attēlā zemāk redzams groza ikonas moduļa piemērs,, kurā ir parādīts mini grozs Fabrikam galvenē.
 
-![Groza ikonas moduļa piemērs](./media/ecommerce-Minicart.PNG)
+![Groza ikonas moduļa piemērs.](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Moduļa rekvizīti
 
 - **Rādīt mini grozu** — ja tas ir patiess, šis rekvizīts iespējo groza kopsavilkumu (mini grozs), kas tiks parādīts, kad atrodaties virs groza ikonas. Šī funkcionalitāte tiek atbalstīta tikai darbvirsmas skatu portiem.
+
+## <a name="module-properties-in-the-adventure-works-theme"></a>Moduļa rekvizīti Adventure Works tēmā
+
+Adventure Works tēmā groza ikonas modulis ietver divus papildu slotus mini grozam. Šie sloti ir ietverti kā moduļa definīcijas paplašinājums.
+
+- **Tukšas groza veicināšanas pasākumi** — šis slots izmanto satura bloķēšanas moduli. Ja grozs ir tukšs, tiek rādīts norādītais satura bloķēšanas modulis. Satura bloķēšanas moduli var lietot veicināšanas pasākumiem, mārketinga saturam un saitēm uz kategoriju lapām, lai palīdzētu klientiem turpināt iepirkties.
+- **Veicināšanas saturs** — šo slotu var izmantot, lai parādītu lielos veicināšanas pasākumus, piemēram, "Bezmaksas nosūtīšana pasūtījumiem virs $100." Satura bloķēšana, teksta bloķēšana un attēlu saraksta moduļi var tikt izmantoti reklāmas satura slotā.
+
+Šajā attēlā parādīts groza ikonas moduļa piemērs Adventure Works tēmā, kas mini grozā parāda reklāmas saturu.
+
+![Groza ikonas moduļa piemērs Adventure Works tēmā](./media/AW_minicart.PNG)
+
+> [!IMPORTANT]
+> Adventure Works tēmas sloti ir pieejami Dynamics 365 Commerce versijas 10.0.20 laidienā.
 
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Groza ikonas moduļa pievienošana lapā
 

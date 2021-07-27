@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b74a1ab6d0f17367fc16f795e1b28ff5d0c5508e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023416"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358246"
 ---
 # <a name="set-the-tds-parameters"></a>TDS parametru iestatīšana
 
@@ -34,13 +34,13 @@ ms.locfileid: "6023416"
 3. Iestatiet opciju **Rēķins** uz **Jā**, lai aktivizētu laukus, kas tiek izmantoti, lai aprēķinātu un atskaitītu TDS rēķina līmenī.
 4. Iestatiet opciju **Maksājums** uz **Jā**, lai aktivizētu laukus, kas tiek izmantoti, lai aprēķinātu un atskaitītu TDS maksājuma līmenī.
 
-    [![Tiešie nodokļi cilne](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![Tiešie nodokļi cilne.](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. Cilnē **Numuru sērijas** atrodiet rindu, kur **Atsauces** lauks ir iestatīts uz **Ieturētā nodokļa maksājumu**. Rindas laukā **Numuru sērijas kods** atlasiet numuru sērijas kodu. Numuru sērijas kods tiek lietots, lai ģenerētu dokumentu numurus periodiskā TDS norēķinu procesam.
 
     > [!NOTE]
     > Lai palaistu periodisko TDS norēķinu procesu, dodieties uz **Nodoklis \> Deklarācijas \> Ieturētais nodoklis \> Ieturētā nodokļa maksājums**.
 
-    [![Cilne Numuru sērijas](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![Cilne Numuru sērijas.](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
 6. Aizvērt lapu.

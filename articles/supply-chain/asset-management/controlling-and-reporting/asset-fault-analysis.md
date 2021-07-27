@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837877"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361161"
 ---
 # <a name="asset-fault-analysis"></a>Līdzekļu defektu analīze
 
@@ -60,7 +60,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 - Kļūmes var reģistrēt trim kļūmju simptomiem: „Gaisa sūce”, „Izsists drošinātājs”, „Iekārta aizsprostojusies”.  
 - Slejā **Iespējamība %** visas procentu vērtības kopā sasniedz 100 %. Iespējamība balstīta uz visu **Simptomu** reģistrācijām šai kļūmju analīzei.
 
-![1. attēls](media/06-controlling-and-reporting.png)
+![1. attēls.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Grupēt pēc simptomiem un laika perioda
 
@@ -69,7 +69,7 @@ Attēluzņēmumā šeit tālāk ir atlasīta tikai poga **Simptoms**.
 - Kļūmju simptomus tagad rāda kā reģistrācijas gadā/mēnesī.  
 - Slejā **Iespējamība %**, ja pievienojat visas procentu vērtības katram mēnesim, kopā tās sasniedz 100 %. Iespējamība balstīta uz **Simptomu** reģistrācijām šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes simptoms, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šim kļūmes simptomam.
 
-![2. attēls](media/07-controlling-and-reporting.png)
+![2. attēls.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Grupēt pēc vairākiem simptomiem un līdzekļiem
 
@@ -84,7 +84,7 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
 - Kļūmju simptomi tagad ir sadalīti kombinācijās **Līdzekļi** / **Līdzekļu veids** / **Simptoms**.  
 - Slejā **Iespējamība %**, ja pievienojat visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz **Simptomu** reģistrācijām šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes simptoms, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šim kļūmes simptomam.
 
-![3. attēls](media/08-controlling-and-reporting.png)
+![3. attēls.](media/08-controlling-and-reporting.png)
 
 **Grupēt pēc diviem simptomiem, līdzekļa un līdzekļa veida**
 
@@ -92,7 +92,7 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
 
 - Slejā **Iespējamība %**, ja pievienojat līdzeklim visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz kombināciju **Simptoms** un **Joma** šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes joma, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šai kļūmes jomai.  
 
-![4. attēls](media/09-controlling-and-reporting.png)
+![4. attēls.](media/09-controlling-and-reporting.png)
 
 **Grupēt pēc trim simptomiem, līdzekļa un līdzekļa veida**
 
@@ -100,7 +100,7 @@ Vispārīgi pogas Darbību rūts grupās **Grupēt pēc datuma**, **Grupēt pēc
  
 - Slejā **Iespējamība %**, ja pievienojat līdzeklim visas procentu vērtības kombinācijai **Līdzeklis** / **Līdzekļa veids** / **Simptoms**, kopā tā sasniedz 100 %. Iespējamība balstīta uz kombināciju **Simptoms** un **Joma**, un **Veids** šai kļūmju analīzei. Ja jums ir daudz rindu līdzeklim, bet rindai izceļas liels procentu skaits, tā ir norāde, ka ir kļūmes veids, kas jāizpēta sīkāk, lai ierobežotu reģistrāciju skaitu šim kļūmes veidam.
 
-![5. attēls](media/10-controlling-and-reporting.png)
+![5. attēls.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

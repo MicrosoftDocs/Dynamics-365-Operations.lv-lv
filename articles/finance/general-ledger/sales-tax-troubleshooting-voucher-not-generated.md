@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ba23b597b1d7d283b99638fb7d5d91da00afb09c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82357b7fe00b93715f44eb024ac78d7cc1adca84
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018761"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356105"
 ---
 # <a name="voucher-isnt-generated"></a>Dokuments nav ģenerēts
 
@@ -26,14 +26,14 @@ ms.locfileid: "6018761"
 
 Ja dokuments ir jāģenerē, bet lapā **Dokumenta transakcijas** netiek rādīts neviens dokuments, dariet, lai novērstu šo problēmu, veiciet tālāk norādītās darbības.
 
-[![Dokumentu transakciju lapa, kurā nav dokumentu](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
+[![Dokumentu transakciju lapa, kurā nav dokumentu.](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
 
 ## <a name="check-the-tax-applicability"></a>Pārbaudīt nodokļa piemērojamību
 
 1. Doties uz **Nodoklis** \> **Periodiskie uzdevumi** \> **Apakšgrāmatas žurnāla ieraksti periodiskajiem vēl nav pārsūtīti**.
 2. Ja ir žurnāla ieraksts, atlasiet to un pēc tam atlasiet **Pārsūtīt tūlīt**.
 
-    [![Poga Pārsūtīt tūlīt apakšgrāmatas žurnāla ierakstos, kas vēl nav pārsūtīti lapā](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
+    [![Poga Pārsūtīt tūlīt apakšgrāmatas žurnāla ierakstos, kas vēl nav pārsūtīti lapā.](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
 
 3. Atveriet lapu **Dokumentu transakcijas** vēlreiz, lai redzētu, vai dokuments ir ģenerēts.
 

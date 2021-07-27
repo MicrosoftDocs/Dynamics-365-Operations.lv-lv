@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792199"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352016"
 ---
 # <a name="home-page-overview"></a>Sākumlapas pārskats
 
@@ -31,7 +32,7 @@ Mājas lapa ir noklusējuma lapa, kur pircēji dodas, kad tie apmeklē e-tirdzni
 
 Tālāk redzamajā attēlā ir parādīts mājas lapas piemērs, kura izveidota, izmantojot moduļu bibliotēku un “Fabrikam” tēmu.
 
-![Mājas lapas piemērs](./media/Homepage2.PNG)
+![Mājas lapas piemērs.](./media/Homepage2.PNG)
 
 Mājas lapas augšpusē ir virsraksts, kas parāda visas preču kategorijas un citas lapas, kuras mazumtirgotājs vēlas, lai klienti pārlūkotu. Mājas lapas apakšpusē ir kājene, kas ietver ātras saites uz dažādām tēmām, kas varētu interesēt pircējus.
 
@@ -41,13 +42,13 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 
     Tālāk redzamajā attēlā parādīts mājas lapas piemērs, kur pirmā prece galvenajā sadaļā ir satura bloka izkārtojuma hero modulis ar nosaukumu "Jaunumi".
 
-    ![Hero moduļa piemērs](./media/Hero.PNG)
+    ![Hero moduļa piemērs.](./media/Hero.PNG)
 
 - **Līdzeklis** — līdzekļa izkārtojums satura bloka modulim tiek izmantots, lai reklamētu preces vai veicināšanas pasākumus, izmantojot attēlu un teksta kombināciju. Līdzekļu izkārtojumus var izmantot neatkarīgi, vai arī tos var viesot karuseļa modulī.
 
     Tālāk esošajā attēlā redzams satura bloka moduļa līdzekļa izkārtojuma piemērs mājas lapā.
 
-    ![Līdzekļu moduļu piemēri](./media/Feature.PNG)
+    ![Līdzekļu moduļu piemēri.](./media/Feature.PNG)
 
 - **Elements** — satura bloka elementa izkārtojuma modulis tiek izmantots, lai parādītu vairākas preces vai preču kategorijas, izmantojot attēlu un teksta kombināciju daudzkolonnu izkārtojumā. Mājas lapas attēlā, kas parādīts iepriekš šajā tēmā, tiek lietots elementa izkārtojums modulis, kas tiek izmantots elementu **Iepirkties sievietēm**, **Iepirkties vīriešiem** un **Pirkt aksesuārus** trīs kolonnu atveidē.
 - **Video atskaņotājs** — video atskaņotāja modulis var tikt izmantots, lai mājas lapā parādītu video saturu. Mājas lapas ilustrācija, kas parādīta iepriekš šajā tēmā, ietver video atskaņotāja moduli.
@@ -56,7 +57,7 @@ Mājas lapas galvenā sadaļa var izcelt preces, kategorijas vai veicināšanas 
 
     Tālāk redzamajā attēlā parādīts preču ieteikuma moduļu piemērs mājas lapā.
 
-    ![Preču ieteikumu moduļu piemēri](./media/Recommendations.PNG)
+    ![Preču ieteikumu moduļu piemēri.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Visus šeit uzskaitītos moduļus var izmantot jebkurā vietnes lapā. Tomēr to izvietošana mājas lapā ir svarīga, jo šī lapa ir vieta, kur klienti pirmo reizi mijiedarbojas ar jūsu vietni.

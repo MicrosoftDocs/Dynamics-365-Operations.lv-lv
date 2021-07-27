@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017010"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358102"
 ---
 # <a name="inventory-visibility-add-in"></a>Krājumu uztveramības pievienojumprogramma
 
@@ -143,7 +143,7 @@ Pēc tam, kad ir visi priekšnosacījumi, izmantojiet sekojošo procedūru, ja v
 
             Papildinformāciju par šo mainīgo skatiet tālāk šīs tēmas sadaļā [Krājumu redzamības integrācijas iestatīšana](#setup-inventory-visibility-integration).
 
-        ![Konfigurācijas trigeris](media/configuration-trigger.png "Konfigurācijas trigeris")
+        ![Konfigurācijas trigeris.](media/configuration-trigger.png "Konfigurācijas trigeris")
 
     1. Atlasiet **Ieslēgt**.
 
@@ -157,7 +157,7 @@ Lai instalētu Krājumu uztveramības pievienojumprogrammu, jums jārīkojas š�
 1. Vides lapā ritiniet uz leju, līdz redzat sadaļu **Vides pievienojumprogrammas** sadaļā **Power Platform integrācija**, kur varat atrast Dataverse vides nosaukumu.
 1. Sadaļā **Vides pievienojumprogrammas** atlasiet **Instalēt jaunu pievienojumprogrammu**.
 
-    ![Vides lapa portālā LCS](media/inventory-visibility-environment.png "Vides lapa portālā LCS")
+    ![Vides lapa portālā LCS.](media/inventory-visibility-environment.png "Vides lapa portālā LCS")
 
 1. Atlasiet saiti **Instalēt jaunu pievienojumprogrammu**. Tiek atvērts pieejamo pievienojumprogrammu saraksts.
 1. Atlasiet no saraksta **Krājumu redzamība**.
@@ -166,7 +166,7 @@ Lai instalētu Krājumu uztveramības pievienojumprogrammu, jums jārīkojas š�
     - **AAD Lietojumprogrammas (klienta) ID**
     - **AAD nomnieka ID**
 
-    ![Pievienot iestatīšanas lapā](media/inventory-visibility-setup.png "Pievienojumprogrammas iestatīšanas lapa")
+    ![Pievienot iestatīšanas lapā.](media/inventory-visibility-setup.png "Pievienojumprogrammas iestatīšanas lapa")
 
 1. Piekrist noteikumiem un nosacījumam, atlasot izvēles rūtiņu **Noteikumi un nosacījumi**.
 1. Atlasiet **Instalēt**. Pievienojumprogrammu statuss tiks rādīts kā **Instalē**. Kad tas ir izdarīts, atsvaidziniet lapu, lai redzētu statusa maiņu uz **Instalēts**.

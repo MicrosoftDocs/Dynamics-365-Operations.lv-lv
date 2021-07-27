@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829382"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357003"
 ---
 # <a name="hazardous-materials-overview"></a>Bīstamo materiālu pārskats
 
@@ -27,7 +28,7 @@ Lai saglabātu atbilstību kuģošanas un pārvadāšanas noteikumiem, organizā
 
 Sekojošajā diagrammā ir attēlotas darbības, kas jāveic, lai iestatītu un lietotu bīstamo materiālu līdzekli.
 
-![Bīstamo materiālu iestatīšana un izmantošanas līdzeklis](media/hazmat-overview.png "Bīstamo materiālu iestatīšana un izmantošanas līdzeklis")
+![Bīstamo materiālu iestatīšana un izmantošanas līdzeklis.](media/hazmat-overview.png "Bīstamo materiālu iestatīšana un izmantošanas līdzeklis")
 
 Bīstamo materiālu līdzeklis ir iestatīts Preču informācijas pārvaldībā un nodrošina dokumentus, kurus var izdrukāt ar noliktavas pārvaldības starpniecību. Tāpēc vispārīgi runājot, šīs jomas ir divas galvenās jomas, kurās jūs pārskatīsiet, iestatīsit un izmantosiet šī līdzekļa funkcionalitāti:
 

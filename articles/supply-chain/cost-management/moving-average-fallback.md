@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 09da3c3a79b5540670db25d5466023132d2848f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832278"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354789"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Vidējās vērtības pārvietošanas regresa izmaksu secība
 
-Viens no veidiem, kā aprēķināt krājumu izmaksas, ir izmantot  _vidējo mainīgo_. Ar katru krājuma vienību var saistīt līdz trim izmaksu vērtībām:
+Viens no veidiem, kā aprēķināt krājumu izmaksas, ir izmantot _vidējo mainīgo_. Ar katru krājuma vienību var saistīt līdz trim izmaksu vērtībām:
 
 - **Pēdējā izejas plūsma** - pēdējās izejas plūsmas izmaksas, kas tika piešķirtas pirms krājuma, bija negatīvas
 - **Aktīvās izmaksas** — jaunākās izmaksas, kas tika aktivizētas izmaksu aprēķināšanas versijā
@@ -42,7 +42,7 @@ Lai izvēlētos regresa izmaksu secību vidējās vērtības pārvietošanas apr
     - **Aktīvās izmaksas — Pēdējā izejas plūsma**
     - **Aktīvās izmaksas — Krājuma cena** — organizācijām var rasties veiktspējas problēmas, ja tās izmanto biznesa procesus, kuros krājumi regulāri ir negatīvi, un tajā pašā laikā transakciju apjoms ir augsts. Šis iestatījums var palīdzēt mazināt šīs veiktspējas problēmas.
 
-![Krājumu uzskaites parametri](media/inventory-accounting-parameters.png "Krājumu uzskaites parametri")
+![Krājumu uzskaites parametri.](media/inventory-accounting-parameters.png "Krājumu uzskaites parametri")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

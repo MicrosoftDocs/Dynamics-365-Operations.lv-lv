@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3550b2b7b305702ffc337ba0a9bb79f60a9de120
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023415"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358198"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>TDS reģistrācijas numuru iestatīšana juridiskām personām
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023415"
 
 1. Dodieties uz **Organizācijas administrēšanas \> Organizācijas \> Juridiskās personas**.
 
-    [![Lapa Juridiskās personas](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
+    [![Lapa Juridiskās personas.](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
 
 2. Kopsavilkuma cilnes **Nodokļu informācija** laukā **Pastāvīgais konta numurs** ievadiet juridiskas personas pastāvīgo konta numuru (PAN).
 3. Laukā **Apļa numurs** ievadiet TDS iestādes apļa numuru.
@@ -41,11 +41,11 @@ ms.locfileid: "6023415"
 7. Darbību rūtī atlasiet **Reģistrācijas ID**, lai atvērtu lapu **Pārvaldīt adreses**.
 8. Kopsavilkuma cilnē **Informācija par nodokļiem** atlasiet **Pievienot** vai **Rediģēt**, lai atvērtu lapu **Pārvaldīt nodokļu informāciju**, kur varat uzturēt nodokļu reģistrācijas ierakstu.
 
-    [![Pārvaldīt adreses lapa](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
+    [![Pārvaldīt adreses lapa.](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
 
 9. Kopsavilkuma cilnē **Ieturētais nodoklis** laukā **Nodokļu konta numurs (TAN)** ievadiet reģistrācijas numuru. Šajā numurā ir jāietver četras alfabēta rakstzīmes, tad piecas skaitliskas rakstzīmes un tad viena alfabēta rakstzīme. Lūk, piemērs: **AXDF87645F**.
 10. Laukā **Nosaukums vai apraksts** ievadiet ieturētā nodokļa reģistrācijas numura aprakstu.
 
-    [![Pārvaldīt nodokļu informāciju lapa](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
+    [![Pārvaldīt nodokļu informāciju lapa.](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
 
 11. Aizvērt lapu.

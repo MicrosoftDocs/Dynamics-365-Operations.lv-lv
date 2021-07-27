@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963243"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357418"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Izveidot Azure krātuves kontu un galveno akreditācijas datu glabātavu
 
@@ -49,7 +49,7 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 5. Atlasiet **Pievienot politiku**, lai pievienotu saglabāto piekļuves politiku.
 6. Pēc nepieciešamības iestatiet laukus **Identifikators** un **Atļaujas**. Laukā **Atļaujas** jāatlasa visas atļaujas.
 
-    ![BLOB krātuves atļaujas piešķiršana](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![BLOB krātuves atļaujas piešķiršana.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Ievadiet sākuma un beigu datumus. Beigu datumam ir jābūt nākotnē.
 8. Atlasiet **Labi**, lai saglabātu politiku, un pēc tam saglabājiet izmaiņas konteinerā.
@@ -57,7 +57,7 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 10. Ar peles labo pogu noklikšķiniet uz konteinera un pēc tam atlasiet **Iegūt koplietojamās piekļuves parakstu**.
 11. Dialoglodziņā **Koplietotas piekļuves paraksts** kopējiet un saglabājiet vērtību laukā **URI**. Šī vērtība tiks izmantota nākamajā procedūrā, un tā tiks saukta par *koplietojamās piekļuves paraksta URI*.
 
-    ![Atlasīt un kopēt URI vērtību](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![Atlasīt un kopēt URI vērtību.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Iestatiet galveno akreditācijas datu glabātavu, lai saglabātu krātuves konta URI
 
@@ -69,11 +69,11 @@ Lai varētu izpildīt šajā tēmā aprakstītās darbības, ir jāpārliecinās
 6. Iestatiet piekļuves politiku, lai elektronisko rēķinu izrakstīšanai piešķirtu pareizu drošas piekļuves līmeni jūsu izveidotajam noslēpumam. Dodieties uz **Iestatījumi \> Piekļuves politika** un atlasiet **Pievienot piekļuves politiku**.
 7. Iestatiet noslēpuma atļaujas operācijām **Iegūt** un **Uzskaitīt**.
 
-    ![Pakalpojumu piekļuves piešķiršana](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Pakalpojumu piekļuves piešķiršana.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Iestatiet sertifikāta atļaujas operācijām **Iegūt** un **Uzskaitīt**.
 
-    ![Sertifikāta atļaujas piešķiršana](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Sertifikāta atļaujas piešķiršana.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. Laukā **Atlasīt vadītāju** atlasiet **Nav atlasīts**.
 10. Dialoglodziņā **Vadītājs** atlasiet vadītāju, pievienojot **Elektronisko rēķinu izrakstīšanas pakalpojums**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ed66bb2b2fce659e1e1f029fd60f74149b6526b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360644"
 ---
 # <a name="configure-integration-with-finance"></a>Integrācijas konfigurēšana ar Finance
 
@@ -30,7 +30,7 @@ ms.locfileid: "6055128"
 
 Lai integrētu Dynamics 365 Human Resources ar Dynamics 365 Finance, varat izmantot veidni No Human Resources uz Finance [datu integratorā](/powerapps/administrator/data-integrator). Cilvēkresursu finansēšanas veidne ļauj datu plūsmu darbiem, amatiem un darbiniekiem. Šī veidne ļauj datiem no Human Resources plūst uz Finance, bet neļauj datiem plūst no Finance uz Human Resources.
 
-![Integrācijas plūsma no Human Resources uz Finance](./media/hr-admin-integration-finance-flow.png)
+![Integrācijas plūsma no Human Resources uz Finance.](./media/hr-admin-integration-finance-flow.png)
 
 Risinājums no Human Resources uz Finance nodrošina tālāk minēto datu veidu sinhronizāciju:
 
@@ -253,6 +253,6 @@ Vietas ID, kas tiek izmantots nodarbinātā adresē, nav numuru sērijas daļa. 
 
 Tālāk redzamajā attēlā ir parādīts piemērs veidnes kartēšanai Datu integratorā. 
 
-![Veidnes kartēšana](./media/IntegrationMapping.png)
+![Veidnes kartēšana.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

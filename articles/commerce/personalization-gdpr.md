@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352280"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Atteikšanās no personalizētiem ieteikumiem
 
@@ -44,11 +44,11 @@ Kontu pārvaldībā Commerce atbalsta birojā tirgotāji var atteikties lietotā
 1. Vadības sākumlapā meklējiet **visus debitorus**.
 1. Meklējiet un atlasiet debitoru un pēc tam atlasiet **mazumtirdzniecības** kopsavilkuma cilni.
 
-    ![Mazumtirdzniecības kopsavilkuma cilnes](./media/Disablepersonalizationpart1.png)
+    ![Mazumtirdzniecības kopsavilkuma cilnes.](./media/Disablepersonalizationpart1.png)
 
 1. Sadaļā **Konfidencialitāte** iestatiet opciju **Atspējot personalizāciju** uz **Jā**.
 
-    ![Konfidencialitātes iestatījumi](./media/Disablepersonalizationpart2.png)
+    ![Konfidencialitātes iestatījumi.](./media/Disablepersonalizationpart2.png)
 
 1. Atlasiet **Saglabāt** un aizveriet lapu.
 
@@ -80,7 +80,7 @@ Klienti var vēlēties iegūt savu personas datu digitālo kopiju un arī skatī
 
 [Preču ieteikumu apskats](product-recommendations.md)
 
-[Iespējojiet Azure Data Lake Storage vidē Dynamics 365 Commerce](enable-adls-environment.md)
+[Iespējojiet Azure Data Lake Storage pakalpojuma Dynamics 365 Commerce vidē](enable-adls-environment.md)
 
 [Iespējot preču ieteikumus](enable-product-recommendations.md)
 

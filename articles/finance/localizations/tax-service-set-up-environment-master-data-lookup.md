@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e4aa941c57e8c31793d6db8ae87140cd1bb1a82b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 348643d7213b8c053d6a15b4b716a3ce75ba2fa2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021348"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346378"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Pamatdatu uzmeklēšanas vides iestatīšana
 
@@ -69,16 +69,16 @@ ms.locfileid: "6021348"
 
 8. Atlasiet **Pārbaudīt savienojumu** un pabeidziet savienojuma izveidi. 
 
-   [![Pārbaudīt savienojuma pogu](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+   [![Pārbaudīt savienojuma pogu.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 9. Dodieties uz **Elektronisko pārskatu izrakstīšana** > **Nodokļa konfigurācijas** un importējiet nodokļu konfigurācijas no [Nodokļu konfigurācijām](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-   [![Nodokļu konfigurācijas lapa, nodokļu datu modeļa koks](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+   [![Nodokļu konfigurācijas lapa, nodokļu datu modeļa koks.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 10. Ja izmantojat Microsoft konfigurāciju, dodieties uz **Ar nodokli apliekamo dokumentu modeļu kartēšanu** vai **Dataverse modeļu kartēšanu**, un laukā **Saistītais pieteikums** atlasiet ierakstu, ko izveidojāt 7. darbībā.
 11. Iestatiet **Noklusējums modeļu kartēšanai** kā **Jā**.
 
-   [![Modeļu kartēšanas lapa](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+   [![Modeļu kartēšanas lapa.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

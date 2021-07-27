@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: lv-LV
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055104"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360596"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrācija ar LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ Sistēmas administratoram ir jāaizpilda iestatījumi, lai iespējotu integrāci
 
 5. Lapā **Dynamics 365 Human Resources** atlasiet vidi, lai sasaistītu LinkedIn Talent Hub, un pēc tam atlasiet **Sasaistīt**.
 
-    ![LinkedIn Talent Hub pievienošana](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub pievienošana.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Var sasaistīt tikai ar vidēm, kurās jūsu lietotāja kontam ir administratora piekļuve gan Human Resources videi, gan saistītajai Power Apps videi. Ja saites lapā Human Resources nav norādīta neviena vide, pārliecinieties, vai jums ir licencētas Human Resources vides šajā nomniekā un vai lietotājam, ar kuru pierakstījāties saites lapā, ir administratora atļaujas gan Human Resources vidē, gan Power Apps vidē.
@@ -91,7 +91,7 @@ Programmas lietotājam jāizveido LinkedIn Talent Hub adapteris, lai piešķirtu
 
 6. Izmantojiet nolaižamo izvēlni virs saraksta, lai mainītu skatu no noklusējuma **Iespējot lietotājus** skata uz **Programmas lietotāji**.
 
-    ![Programmas lietotāju skats](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Programmas lietotāju skats.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Rīkjoslā atlasiet **Jauns**.
 
@@ -163,7 +163,7 @@ Kad kandidāts ir izgājis personāla atlases procesu un ir nolīgts, varat eksp
     - Laukā **Atrašanās vieta** ievadiet vietu, kur darbinieks atradīsies.
     - Ievadiet vai apstipriniet darbinieka e-pasta adresi.
 
-![Eksportēšana uz HRIS rūti LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Eksportēšana uz HRIS rūti LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Darbā pieņemšanas pabeigšana programmā Human Resources
 
